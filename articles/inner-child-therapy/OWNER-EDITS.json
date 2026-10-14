@@ -2117,6 +2117,33 @@
     "I’m talking about something deeper.",
     "Get as close to it as you really can right now"
    ]
+  },
+  {
+   "id": "owner-therapy-second-nature-and-lifelong-growth-20261014",
+   "status": "pending",
+   "what": "Correct the misleading real-growing-up analogy while preserving decreased need for formal therapy, naturalized Nurturer/Protector/Guide responses, optional renewed support, and lifelong wisdom/compassion/differentiation.",
+   "joel": "2026-10-14: 'i meant what i said, that if the therapy is working, you should be needing less of it. not that you need none of it, although that would be ideal' and 'the therapy becomes less of a formal process and more of a natural automatic process ... not like you have to check the guide every day ... just like real parenting might start out reading some parenting books, and then you just naturally get into the groove of it'. Owner accepted draft response to Claude.",
+   "where": "When Healing Turns Into Checking: paragraph starting 'Don't be afraid to ask your therapist/yourself', replace only the 'Real healing is ultimately measured...' sentence and preserve its neighboring daily-life/child-adult relationship sentence. Leave the 'Differentiation is slow...' sentence in Untangling the Belonging Bargains unchanged.",
+   "old_anchor": "Real healing is ultimately measured by reduced need for the therapy, just like real growing up is not something you do forever.",
+   "suggested_replacement": "Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.",
+   "must_contain": [
+    "Real healing is ultimately measured by reduced need for the therapy",
+    "parenting books",
+    "more automatic"
+   ],
+   "must_not_contain": [
+    "just like real growing up is not something you do forever"
+   ],
+   "preserve_exact": [
+    "Differentiation is slow, and it goes on your whole life."
+   ],
+   "semantic_checks": [
+    "Progress implies generally less need for formal therapy, not an obligatory zero",
+    "Formal practice becomes more natural and less deliberately scripted",
+    "Lifelong differentiation and wisdom remain possible",
+    "Useful reflection and return to therapy are distinguished from compulsive checking",
+    "No article prose is claimed applied by this pending record"
+   ]
   }
  ]
 }

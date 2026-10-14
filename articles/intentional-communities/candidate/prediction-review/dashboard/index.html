@@ -1,0 +1,158 @@
+<style>
+.ps { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); }
+.ps-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.ps-take { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); max-width: 70ch; }
+.ps-take span { color: var(--color-fg); font-variant-numeric: tabular-nums; }
+.ps-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: var(--cds-gap-md); }
+.ps-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-xs); align-content: start; }
+.ps-card .lab { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.ps-card .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+.ps-card .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.ps-panel { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-sm); min-width: 0; }
+.ps-panel h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.ps-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+.ps-chart { position: relative; min-height: 260px; }
+.ps-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+.ps-tip .t { color: var(--cds-text-secondary); }
+.ps-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.ps-legend i { display: inline-block; width: 0.9rem; height: 2px; vertical-align: middle; margin-right: 0.35rem; }
+.ps-search { font: inherit; padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); max-width: 24rem; }
+.ps-tablebox { max-height: 34rem; overflow: auto; }
+.ps-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); }
+.ps-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+.ps-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.ps-table td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ps-table td.ex { color: var(--color-fg-muted); max-width: 32rem; white-space: pre-line; }
+.ps-list { margin: 0; padding-left: 1.2rem; display: grid; gap: var(--cds-gap-xs); max-width: 75ch; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+[data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="ps">
+  <header class="ps-head" id="summary">
+    <h1>Prediction scorecard</h1>
+    <p class="ps-take">Since the review of 10 October, my calls were right <span class="dash-skeleton" data-source="since_review" data-field="right_share" data-row="0">—</span> of the time; always saying AI would have been right <span class="dash-skeleton" data-source="since_review" data-field="always_ai_share" data-row="0">—</span>.</p>
+  </header>
+
+  <section class="ps-cards" id="cards">
+    <div class="ps-card"><span class="lab">Right since the review (batch 199 on)</span><span class="big dash-skeleton" data-source="since_review" data-field="right_share" data-row="0">—</span><span class="sub"><span data-source="since_review" data-field="right" data-row="0">—</span> of <span data-source="since_review" data-field="calls" data-row="0">—</span> calls</span></div>
+    <div class="ps-card"><span class="lab">Always saying AI, same calls</span><span class="big dash-skeleton" data-source="since_review" data-field="always_ai_share" data-row="0">—</span><span class="sub">the bar my calls have to beat</span></div>
+    <div class="ps-card"><span class="lab">Right in the latest ten batches</span><span class="big dash-skeleton" data-source="latest" data-field="right_share" data-row="0">—</span><span class="sub"><span data-source="latest" data-field="right" data-row="0">—</span> of <span data-source="latest" data-field="calls" data-row="0">—</span>; always AI <span data-source="latest" data-field="always_ai_share" data-row="0">—</span></span></div>
+    <div class="ps-card"><span class="lab">Right before the review</span><span class="big dash-skeleton" data-source="before_review" data-field="right_share" data-row="0">—</span><span class="sub">always AI <span data-source="before_review" data-field="always_ai_share" data-row="0">—</span></span></div>
+  </section>
+
+  <section class="ps-panel" id="trend">
+    <h2>Right calls per ten batches</h2>
+    <p class="ps-note">A call is right when I said Human and it read 100% Human, or I said AI or Mixed and it didn't. The muted line is what always saying AI would have scored on the same texts.</p>
+    <div class="ps-legend"><span><i id="sw-mine"></i>My calls</span><span><i id="sw-ai"></i>Always AI</span></div>
+    <div class="ps-chart" id="chart" data-source="by_window"></div>
+  </section>
+
+  <section class="ps-panel" id="changing">
+    <h2>What today's misses taught</h2>
+    <ul class="ps-list">
+      <li>Two paragraphs that each pass alone can read AI together: Joel's P3 with my P2, and my P15 with his P16. The whole section is the test, and I now call a new pair weakly.</li>
+      <li>My own lists of three still slip past me while I'm fixing someone else's. P15's three needs read AI beside his P16; split his way, they passed.</li>
+      <li>I still call wording close to the published text AI by habit. Section 4's sentence passed both ways.</li>
+      <li>Where I can't tell why something read AI or Human, it goes on the Rule Scoring Sheet for Joel to say why.</li>
+    </ul>
+  </section>
+
+  <section class="ps-panel" id="misses">
+    <h2>Misses since the review, newest first</h2>
+    <p class="ps-note">Each row is a call I got wrong: the batch and text, what I said and why, what Pangram said, and the start of the text.</p>
+    <input class="ps-search" id="q" type="search" placeholder="Search the misses" aria-label="Search the misses">
+    <div class="ps-tablebox">
+      <table class="ps-table" data-source="misses" data-row-key="text">
+        <thead><tr><th data-field="batch">Batch</th><th data-field="text">Text</th><th data-field="section">Section</th><th data-field="mine">I said</th><th data-field="pangram">Pangram</th><th data-field="why">Why I said it</th><th data-field="excerpt">The text</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+dash.calc('since_review', { inputs: ['calls'], title: 'Since the review', description: 'Calls from batch 199 on (after the review of 10 October): how many were right, and what always saying AI would have scored.',
+  fn: (calls) => { const rows = calls.filter((c) => Number(c.batch) >= 199); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null }]; } });
+dash.calc('before_review', { inputs: ['calls'], title: 'Before the review', description: 'Calls before batch 199, scored the same way.',
+  fn: (calls) => { const rows = calls.filter((c) => Number(c.batch) < 199); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null }]; } });
+dash.calc('latest', { inputs: ['calls'], title: 'Latest ten batches', description: 'Calls in the ten most recent batch numbers.',
+  fn: (calls) => { const top = Math.max(...calls.map((c) => Number(c.batch))); const rows = calls.filter((c) => Number(c.batch) > top - 10); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null }]; } });
+dash.calc('by_window', { inputs: ['calls'], title: 'Right calls per ten batches', description: 'Calls grouped by batch number in tens (190 to 199, 200 to 209, and so on), each scored as above.',
+  fn: (calls) => { const g = {}; for (const c of calls) { const from = Math.floor(Number(c.batch) / 10) * 10; (g[from] = g[from] || []).push(c); } return Object.keys(g).map(Number).sort((a, b) => a - b).map((from) => { const rows = g[from]; const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return { from, window: from + '–' + (from + 9), calls: n, right, right_share: right / n, always_ai_share: (n - passed) / n }; }); } });
+dash.calc('misses', { inputs: ['calls'], title: 'Misses since the review', description: 'Calls from batch 199 on that were wrong, newest batch first.',
+  fn: (calls) => calls.filter((c) => Number(c.batch) >= 199 && Number(c.right) === 0).sort((a, b) => Number(b.batch) - Number(a.batch) || String(a.text).localeCompare(String(b.text))) });
+
+const pct = d3.format('.0%');
+const fmtField = (field, v) => (v == null || v === '' ? '—' : field.endsWith('_share') ? pct(v) : d3.format(',')(v));
+document.getElementById('sw-mine').style.background = dash.colors[0];
+document.getElementById('sw-ai').style.background = 'var(--cds-chart-muted)';
+const q = document.getElementById('q');
+q.addEventListener('input', () => drawTable());
+
+function fillMarks() {
+  for (const id of ['since_review', 'before_review', 'latest']) {
+    const d = dash.data(id);
+    document.querySelectorAll(`[data-source="${id}"][data-field]`).forEach((el) => {
+      if (d.status === 'ok' && d.data && d.data[0]) { el.textContent = fmtField(el.dataset.field, d.data[0][el.dataset.field]); el.classList.remove('dash-skeleton'); }
+      else if (d.status !== 'loading') { el.textContent = '—'; el.classList.remove('dash-skeleton'); }
+    });
+  }
+}
+
+function drawTable() {
+  const d = dash.data('misses');
+  const body = document.getElementById('rows');
+  body.replaceChildren();
+  if (d.status !== 'ok') return;
+  const term = q.value.trim().toLowerCase();
+  const rows = d.data.filter((r) => !term || [r.text, r.section, r.mine, r.pangram, r.why, r.excerpt].join(' ').toLowerCase().includes(term));
+  for (const r of rows) {
+    const tr = document.createElement('tr');
+    tr.dataset.key = r.text;
+    const cells = [[r.batch, 'num'], [r.text, ''], [r.section, ''], [r.mine, ''], [r.pangram, ''], [r.why, ''], [r.excerpt, 'ex']];
+    for (const [v, cls] of cells) { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = v == null ? '' : v; tr.append(td); }
+    body.append(tr);
+  }
+}
+
+function drawChart() {
+  const box = document.getElementById('chart');
+  box.replaceChildren();
+  const d = dash.data('by_window');
+  if (d.status !== 'ok' || !d.data.length) return;
+  const rows = d.data;
+  const W = Math.max(280, box.clientWidth), H = 260, m = { top: 12, right: 18, bottom: 30, left: 44 };
+  const x = d3.scalePoint(rows.map((r) => r.window), [m.left, W - m.right]).padding(0.3);
+  const y = d3.scaleLinear([0, 1], [H - m.bottom, m.top]);
+  const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Right calls per ten batches, mine and always AI');
+  svg.append('g').selectAll('line').data(y.ticks(4)).join('line').attr('x1', m.left).attr('x2', W - m.right).attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--cds-chart-grid)');
+  const ya = svg.append('g').attr('transform', `translate(${m.left},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(pct).tickSize(0));
+  ya.attr('font-size', null).attr('font-family', null).select('.domain').remove();
+  ya.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)');
+  const every = Math.ceil(rows.length / Math.max(2, Math.floor((W - m.left - m.right) / 64)));
+  const xa = svg.append('g').attr('transform', `translate(0,${H - m.bottom})`).call(d3.axisBottom(x).tickValues(rows.map((r) => r.window).filter((_, i) => i % every === 0)).tickSize(0).tickPadding(8));
+  xa.attr('font-size', null).attr('font-family', null).select('.domain').attr('stroke', 'var(--cds-chart-axis)');
+  xa.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)');
+  const line = (f) => d3.line().defined((r) => r[f] != null).x((r) => x(r.window)).y((r) => y(r[f]));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', 'var(--cds-chart-muted)').attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line('always_ai_share'));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', dash.colors[0]).attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line('right_share'));
+  const tip = d3.select(box).append('div').attr('class', 'ps-tip').style('display', 'none');
+  const dot = svg.append('circle').attr('r', 4).attr('fill', dash.colors[0]).style('display', 'none');
+  svg.append('rect').attr('x', m.left).attr('y', m.top).attr('width', W - m.left - m.right).attr('height', H - m.top - m.bottom).attr('fill', 'transparent')
+    .on('mousemove', (event) => {
+      const [px] = d3.pointer(event);
+      const r = rows.reduce((a, b) => (Math.abs(x(b.window) - px) < Math.abs(x(a.window) - px) ? b : a));
+      dot.style('display', null).attr('cx', x(r.window)).attr('cy', y(r.right_share));
+      tip.style('display', null).html('');
+      tip.append('div').attr('class', 't').text('Batches ' + r.window + ' · ' + r.calls + ' calls');
+      tip.append('div').text('My calls ' + pct(r.right_share));
+      tip.append('div').text('Always AI ' + pct(r.always_ai_share));
+      const left = Math.min(Math.max(0, (x(r.window) / W) * box.clientWidth - 70), box.clientWidth - 160);
+      tip.style('left', left + 'px').style('top', '0px');
+    })
+    .on('mouseleave', () => { tip.style('display', 'none'); dot.style('display', 'none'); });
+}
+
+dash.onData(() => { fillMarks(); drawChart(); drawTable(); });
+</script>

@@ -1,0 +1,7 @@
+== tells_lint: C10b.txt
+verdict: REVIEW
+metrics: {'words': 49, 'my_words': 49, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.18, 'repeated_openers': {}, 'source_map': [(9, 0.78)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- B4/E15 list or packed sentence (1)
+   * It’s naive to think that getting rid of bosses will get rid of passivity, selfishness, theft, or learned helplessness.
+-- D9 follows the source order (1)
+   * 1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger

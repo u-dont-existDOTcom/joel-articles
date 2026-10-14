@@ -1,0 +1,1 @@
+let r=['not sent: first call missing or its hash check failed']; if(window.__B263ok && window.__B263){ r=await __pgSubmit(window.__B263.slice(3,5)); } r.join(' | ')+' | '+new Date().toISOString()

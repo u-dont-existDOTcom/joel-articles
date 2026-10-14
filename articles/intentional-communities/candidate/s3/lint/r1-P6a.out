@@ -1,0 +1,7 @@
+== tells_lint: r1/P6a.txt
+verdict: REVIEW
+metrics: {'words': 66, 'my_words': 66, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.15, 'repeated_openers': {}, 'source_map': [(6, 0.68)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- B4/E15 list or packed sentence (1)
+   * The Farm, in Tennessee, at its largest about 1,500 people, had many beautiful values.
+-- D9 follows the source order (1)
+   * 1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger

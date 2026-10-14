@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "article_id": "intentional-communities",
+  "status": "recorded",
+  "note": "Detector results for the humanized candidate, section by section, taken from the candidate notes in candidate/HUMANIZED-SO-FAR.md at import (lane commit 6775ed15). They are run-specific evidence, not certification, and they do not outrank meaning or Joel's locks.",
+  "runs": [
+    {
+      "section": 2,
+      "version": "v3.1",
+      "passage": "section 2 v3.1 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 2 v3.1 (2026-10-01, Joel's edits of 18:06 in), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records are in the lane's section 2 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 3,
+      "version": "v11",
+      "passage": "section 3 v11 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 3 v11 (2026-10-02, Joel's edits of 00:52 and his P7 of 21:16 in, with his own characters kept), for Joel's review. Every paragraph 100% Human on Pangram alone, or with a neighbor that passes alone; the section 100% Human (563 words, the page's count). P8 and P9 together read 100% AI, though each passes alone and the section passes. Records are in the lane's section 3 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 4,
+      "version": "v11",
+      "passage": "section 4 v11 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 4 v11 (2026-10-13): Joel's final section from his message of 2026-10-13 21:00 UTC (\"here is the final section (human on pangram)\"), as written; obvious typos fixed (otther, \"heal. and\", \"3:\", double spaces); in his P8 the published words that came along from the side-by-side page's struck text taken out (his own 2026-10-02 cut, ledger s4-p13); links, italics and the two images back where they stood. Records: joel-20261013/. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 5,
+      "version": "Joel",
+      "passage": "section 5 as installed",
+      "service": "Pangram web app and API",
+      "record": "Section 5: Joel's own text of 2026-10-06 16:55 UTC, pasted as fully human after his check in Pangram's web app (the API agrees: 100% Human, batch 45), with the published links put back where his words keep their anchor text. His characters are kept as typed, except the obvious typo \"priveleged\" → \"privileged\" (his ruling of 20:38 UTC: \"don't preserve my obvious typos\"). v60, the last of mine, read 9% AI in the web app. Records: s5/joel-s5-20261006.txt, s5/PREDICTIONS-s5.md. ",
+      "limitations": "Joel's own text and his own check."
+    },
+    {
+      "section": 6,
+      "version": "v21",
+      "passage": "section 6 v21 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 6 v21 (2026-10-07), Joel's answers of 10-06 20:38 and his P8 and P9 of 10-07 01:43 UTC in (his typos \"may not guaranteed\" and \"contageous\" fixed under his rule). Pangram web app (the final test): the section 100% Human (637 words scanned, 01:47 UTC); P8, P9 and the pair 100% Human. Records are in the lane's section 6 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 7,
+      "version": "v3",
+      "passage": "section 7 v3 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 7 v3 (2026-10-07), Joel's P3 of 01:43 UTC in (commas and \"or\" for Emulate's \"and … and … and\"); his OKs on P4 to P6. Pangram web app: the section 100% Human (479 words scanned, 01:47 UTC); P3 alone and with P2 100% Human. Records are in the lane's section 7 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 8,
+      "version": "v28",
+      "passage": "section 8 v28 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 8 v28 (2026-10-07; v27 with P22's second \"as adults\" taken out, Joel 23:22: \"take out second adults that's obvious\"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading \"Communal Parenting Adds On\"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos \"althoug\" and \"able to access to\" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 9,
+      "version": "v14",
+      "passage": "section 9 v14 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 9 v14 (2026-10-09), Joel's P9 to P12 of 05:02 UTC and his P13 of 22:08 UTC in (four obvious typos fixed in his P12 under his rule), and \"Good Government Juntas (Boards)\" at the first mention (P8, his 22:08 answer). Pangram web app (the final test): the section 100% Human (1,034 words scanned, 22:11:41 UTC, batch 184g); every paragraph passes alone or beside a neighbor that passes alone. Records are in the lane's section 9 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 10,
+      "version": "v2",
+      "passage": "section 10 v2 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 10 v2 (2026-10-10), Joel's changes of 12:22 UTC in: P3+P4 without \"boring\" and without \"I don't want one super-commune with a nicer logo.\", P6 \"slide into\" for \"quietly turn into\" (trace H OK), and his heading \"Federated Communities Make a Movement\" (his 13:00 answer, after grounding f1 and stance f1 flagged \"Improve Resilience\"). Pangram web app (the final test): the section 100% Human (731 words scanned, 13:04:52 UTC, batch 200g); P3+P4 and P6 pass alone, the heading with P3+P4 and P2 across it pass. Records are in the lane's section 10 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 11,
+      "version": "v13",
+      "passage": "section 11 v13 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 11 v13 (2026-10-12): v12 with P5's \"every\" and \"still\" back (\"If every change they make still needs the founder's “blessing”\", found by the meaning sweep), 100% Human as a section, batch 267g. v12: Joel's answers of 2026-10-11 23:12 UTC fitted into his paragraphs under his 18:35 rule (an answer in chat is content, fitted in context, changes shown): J3b names the divorce half; J4 his answer on terms for visiting friends; R14c his answer on private practices, with \"some practices go too far against the communal spirit\" from a cold read's \"no principle\"; R16c and R16d his answer on members who don't fit in; R18b his grandmother case. Pangram web app: the section 100% Human (1,682 words scanned, 00:00:52 UTC, batch 233g); every changed paragraph 100% Human alone and in its run. Gate round a6. Records are in the lane's section 11 folder. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 12,
+      "version": "v12",
+      "passage": "section 12 v12 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard), unless the note says the API",
+      "record": "CANDIDATE: section 12 v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written; trailing spaces taken out; links, the italics on \"right now\" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    }
+  ]
+}

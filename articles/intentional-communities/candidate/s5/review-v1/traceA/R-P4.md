@@ -1,0 +1,1 @@
+Most communities that are using psychedelics don't advertise that fact, because even where the law allows some use there may be issues with parents worried about their kids, or neighbors imagining chaos, or insurance disappearing, or local authorities who may not understand any of the distinctions.

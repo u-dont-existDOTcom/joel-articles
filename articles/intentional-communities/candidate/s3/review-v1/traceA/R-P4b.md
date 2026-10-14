@@ -1,0 +1,1 @@
+Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. It will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that.

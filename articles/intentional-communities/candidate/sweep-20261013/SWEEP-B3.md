@@ -1,0 +1,11 @@
+1. Founderism: The Four Questions | "Founderism" (heading; first paragraph says only "somebody who took the initiative") | term never defined or tied to "founder" | 6: SENSE-a1.md, SENSE-a2.md, SENSE-a3.md, SENSE-a4.md, SENSE-a5.md, SENSE-A1.md | published (same heading; published body never defines it either) | define earlier: name and define it in the first two paragraphs (a later author-marked paragraph already uses "founderism" as known, so renaming the heading alone would leave it undefined).
+
+2. Founderism: The Four Questions | "Can it correct a prediction that turned out wrong?" | whose prediction; none set up | 11: SENSE-a1.md, SENSE-a2.md, SENSE-a3.md, SENSE-a4.md, SENSE-a5.md, SENSE-A1.md, SENSE-A2.md, SENSE-B1.md, SENSE-B2.md, SENSE-C1.md, SENSE-C2.md | published in substance (published: "correct a bad prediction") | reword: say whose prediction and about what.
+
+3. Founderism: The Four Questions | "who picks the reviewers" | reviewers of what; answered only in the next paragraph | 9: SENSE-a1.md, SENSE-a2.md, SENSE-a3.md, SENSE-a4.md, SENSE-a5.md, SENSE-A1.md, SENSE-A2.md, SENSE-B2.md, SENSE-C2.md | published in substance (published: "chooses reviewers") | reword: "reviewers of the founder" at first mention.
+
+4. Founderism: The Four Questions | "no matter how many circles it holds" | "circles" never introduced in the section | 7: SENSE-a1.md, SENSE-a3.md, SENSE-a4.md, SENSE-A1.md, SENSE-A2.md, SENSE-C1.md, SENSE-C2.md | published (verbatim) | reword: a plain word such as meetings or councils.
+
+5. Founderism: The Four Questions | "Also watch for the daily signs." | signs of what, not said until the next paragraph | 2: SENSE-a2.md, SENSE-C1.md (SENSE-a3.md flagged the same words for a different reason: "daily" does not fit "over time" or "never measured") | published ("Also watch the daily signs") | reword: say what the signs signal; drop "daily".
+
+6. Founderism: The Four Questions | "Here are the four questions about the founder:" | "the four questions" comes after eight outcome questions, one repeating "Can it replace the founder?"; unclear which are the four | 3: SENSE-a1.md, SENSE-a3.md, SENSE-A1.md | published in substance (published: "Here are the four questions:") | reword: set the four apart from the outcome questions above.

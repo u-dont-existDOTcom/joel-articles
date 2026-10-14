@@ -1,0 +1,1 @@
+Ok, so on a personal level, it makes more sense to me to focus on cultivating more human independence than to wait for certainty. It's better to have community and find out I didn't need an exit than to need an exit after spending ten years optimizing my feed, right?

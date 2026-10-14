@@ -1,0 +1,1 @@
+How accurate are the fears about the future? I don't know exactly. Maybe AI will improve the lot of humanity enormously. Maybe millions of people will lose their jobs to AI. Maybe AI will become the administrative layer between us and nearly everything. Maybe all of these things will happen before Chantress Seba finishes going through all the applications to her commune. 😂

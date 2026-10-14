@@ -7,3 +7,44 @@ work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidat
 # Hash-bound Inner Signal r03 unified-diff receipt: a context line reproduces a
 # blank line from the owner paste as a single leading space by diff format.
 articles/inner-signal/sync-r03/reader-diff.txt whitespace=-blank-at-eol
+
+# Intentional Communities, imported 2026-10-13 from the community lane: verbatim owner messages, Emulate outputs,
+# Pangram texts and review records keep their bytes (trailing spaces and blank lines included), so these files are
+# exempt from the whitespace checks they would fail; every other file keeps them.
+articles/intentional-communities/candidate/joel-20261013/joel-20261013-attachment.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/joel-20261013/s12-joel-raw.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/joel-20261013/s4-joel-raw.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/prediction-review/all-calls.csv whitespace=-blank-at-eol
+articles/intentional-communities/candidate/prediction-review/blind-test-holdout-A.md whitespace=-blank-at-eof
+articles/intentional-communities/candidate/prediction-review/blind-test-holdout-B.md whitespace=-blank-at-eof
+articles/intentional-communities/candidate/s11/joel-1835/joel-20261011-1835-raw.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s11/joel-2312/joel-20261011-2312-raw.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s12/PREDICTIONS-s12.md whitespace=-blank-at-eof
+articles/intentional-communities/candidate/s12/emu/s12a-emu-all.json whitespace=-blank-at-eof,-blank-at-eol
+articles/intentional-communities/candidate/s12/emu/s12b-emu-all.json whitespace=-blank-at-eof,-blank-at-eol
+articles/intentional-communities/candidate/s12/emu/s12c-emu-all.json whitespace=-blank-at-eof,-blank-at-eol
+articles/intentional-communities/candidate/s12/review-r3/LINT-v5.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s12/review-r3/LINT-v6.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s12/review-r4/LINT-v7.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s12/review-r4/LINT-v9.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s2/lint/lint-section-v3.out whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s5/lint18/report-section.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s5/lint19/report-section.txt whitespace=-blank-at-eol
+articles/intentional-communities/candidate/s8/review-d7/section-original-reader.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/001-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/002-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/003-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/004-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/005-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/006-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/007-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/008-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/009-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/010-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/011-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/012-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/013-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/014-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/015-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/016-original.md whitespace=-blank-at-eof
+articles/intentional-communities/sections/017-original.md whitespace=-blank-at-eof

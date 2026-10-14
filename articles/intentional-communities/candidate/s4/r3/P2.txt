@@ -1,0 +1,1 @@
+I’ve broken the model I propose down into four parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it. I’ve written detailed guides on the first three already (free to read, not a sales pitch for a retreat or anything), but this article will be mostly about the fourth.

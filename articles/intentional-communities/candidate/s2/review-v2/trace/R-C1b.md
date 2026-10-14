@@ -1,0 +1,1 @@
+The longing that shaped my father’s film is suddenly in the air again. In 2023, the [U.S. Surgeon General’s advisory](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) reported that roughly half of American adults experience loneliness, and treated social connection as a public-health issue.

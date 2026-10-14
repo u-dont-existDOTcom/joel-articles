@@ -1,0 +1,1 @@
+My view is that moms should raise their own kids, inside a community where the care is really shared. The village can handle meals, supervision, teaching, protection, playing, and a lot of the fathering, but it should never take a child away from the mother in the name of liberating her.

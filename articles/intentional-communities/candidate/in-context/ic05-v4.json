@@ -1,0 +1,402 @@
+{
+ "title": "The Medicine Part: the new version beside yours (a candidate)",
+ "meta": "Community article · section 5 · v60 · 2026-10-04 · a candidate: every paragraph passes alone; the section reads Human (5.0% AI)",
+ "intro": [
+  "Your published section is on the left; v60 is on the right, with words changed from yours highlighted and words cut struck.",
+  "This turn: your P18 answer and the P33 cut are in. Every paragraph passes Pangram alone (P31 with P30), and the section reads Human at 5.0% AI, with two small windows (P19's last two sentences; P25's last sentence with P26's first). v59 reads 100% Human; it differs only in P26 (\"Integration is your life.\", \"for a few weeks\"), which a logic audit and the cold reader flagged. The choice is in the reply.",
+  "Every changed paragraph went through the gate again (blind traces, logic audits, cold reads; the stance check at v46). What each one fixed is in the notes; what stays, with the reason, is in the reply."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "The Medicine Part, Without Pretending It Isn’t There"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Key here is that most of",
+     "source": [
+      "Psychedelics have moved from taboo toward"
+     ],
+     "notes": [
+      "From Emulate round 8 (u1 A), with the gate's fixes: no \"in a few jurisdictions\" (it narrowed your claim), \"authorized psychiatrists limited access\".",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "That said, it's not a smooth",
+     "source": [
+      "The movement is neither smooth nor"
+     ],
+     "notes": [
+      "From Emulate round 8 (u1 A): \"possessing small quantities for personal use\"; this turn \"It's still a crime to traffic drugs\" (the cold reader couldn't tell what \"them\" was).",
+      "Pangram: passes alone. Kept: \"only\" (decriminalized, not legalized: the contrast your \"actually\" draws)."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "All of which means the legality",
+     "source": [
+      "Communities therefore face real legal differences"
+     ],
+     "notes": [
+      "Your wider version, with \"psychedelic medicine\".",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P4",
+     "article": "Most intentional communities using psychedelics are",
+     "source": [
+      "Most intentional communities that use psychedelics"
+     ],
+     "notes": [
+      "From Emulate round 8 (u2 A), in its order: \"still not public about it\" (yours: \"still avoid saying so publicly\"), and \"possible trouble … from\" each party (\"concerns from\" gave insurers and officials concerns yours doesn't give them).",
+      "Pangram: passes alone (50 words)."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "I'm talking about it here because",
+     "source": [
+      "I’m discussing it because leaving medicine"
+     ],
+     "notes": [
+      "Unchanged.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "There’s a serious case against having",
+     "source": [
+      "The case against building medicine into"
+     ],
+     "notes": [
+      "Unchanged.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "They do also attract people who",
+     "source": [
+      "They also attract people who love"
+     ],
+     "notes": [
+      "Back to v20's P7: the round-8 rebuild read 100% AI alone (0.97); this one passed alone and has your \"collect\". \"Revise agreements\" and \"a new sacred name\" are out under your lists-of-three ruling.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "In my experience there are real",
+     "source": [
+      "The case for communal use is"
+     ],
+     "notes": [
+      "From Emulate round 8 (u3 B) with your claims back: \"can lower … and create strong bonds\", \"too\", \"tell the good from the bad\".",
+      "Pangram: passes alone."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "Community Is What Makes Psychedelics Pl/ork Best!"
+   ],
+   "rows": [
+    {
+     "label": "P9",
+     "article": "Part of it is integration: an",
+     "source": [
+      "Insights need somewhere to land. You"
+     ],
+     "notes": [
+      "From Emulate round 8 (u3 B): \"an insight needs somewhere to land\", the people who held you \"can also notice\".",
+      "Pangram: passes alone. Kept: \"an amazing experience\" for your \"startling clarity\"."
+     ]
+    },
+    {
+     "label": "P10",
+     "article": "The deeper you go, the more",
+     "source": [
+      "Depth can increase alienation. After my"
+     ],
+     "notes": [
+      "Your sentence and \"25\".",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P11",
+     "article": "Do you trust the people you're",
+     "source": [
+      "Trusted support is different from purchased"
+     ],
+     "notes": [
+      "\"Support from people you trust is different from paid support, which is often paying people you don't know to look after you for a night.\" Three logic audits running: the contrast had narrowed to paid strangers and \"often\" had gone; the cold reader couldn't place the old \"It\".",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P12",
+     "article": "In a community, your sober sitter",
+     "source": [
+      "In community, a sober sitter may"
+     ],
+     "notes": [
+      "\"someone who's known you for years\", \"This is especially important\" (yours: \"matters especially\"), and \"For those you need to be properly screened beforehand and monitored continuously\" (yours names no one; one \"someone\" read as the sitter doing the medical screening).",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P13",
+     "article": "Your peers can also reality check",
+     "source": [
+      "Peers can also reality-check the downloads."
+     ],
+     "notes": [
+      "\"may notice the difference between new understanding and… mom\" (yours: \"may notice\"; \"can tell\" asserted an ability).",
+      "Pangram: passes alone (47 words)."
+     ]
+    },
+    {
+     "label": "P14",
+     "article": "One of the benefits of community",
+     "source": [
+      "Community creates rhythm. Many traditional medicine"
+     ],
+     "notes": [
+      "Unchanged.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P15",
+     "article": "There are the practical benefits: logistics",
+     "source": [
+      "The logistics become easier. Trusted childcare"
+     ],
+     "notes": [
+      "\"sit quietly\" (yours).",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P16",
+     "article": "And then there will be people",
+     "source": [
+      "There are people to play with."
+     ],
+     "notes": [
+      "\"inconvenient habits\" (yours).",
+      "Pangram: passes alone (48 words)."
+     ]
+    },
+    {
+     "label": "P17",
+     "article": "But I won’t idealize psychedelics. Some",
+     "source": [
+      "I won’t idealize psychedelics. Some people"
+     ],
+     "notes": [
+      "Unchanged.",
+      "Pangram: passes alone."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "My Ceremony Principles"
+   ],
+   "rows": [
+    {
+     "label": "P18",
+     "article": "No special shamans here. Traditional lineages",
+     "source": [
+      "No special shamans. Traditional lineages usually"
+     ],
+     "notes": [
+      "Your 01:18 answer, in your words and your characters.",
+      "Pangram: passes alone, and with its heading and P19. The open question about \"do ceremonies\" is in the reply."
+     ]
+    },
+    {
+     "label": "P19",
+     "article": "My issue is with placing one",
+     "source": [
+      "My objection is to placing one"
+     ],
+     "notes": [
+      "Your \"Or they may be…\".",
+      "Pangram: passes alone. In the whole section, its last two sentences are one of the two small AI windows at v60."
+     ]
+    },
+    {
+     "label": "P20",
+     "article": "Even in a culture of peer",
+     "source": [
+      "I don’t yet know how a"
+     ],
+     "notes": [
+      "Unchanged.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P21",
+     "article": "Still, I want people to learn",
+     "source": [
+      "I want people to learn self-guidance"
+     ],
+     "notes": [
+      "Unchanged.",
+      "Pangram: passes alone (35 words)."
+     ]
+    },
+    {
+     "label": "P22",
+     "article": "This is not to say that",
+     "source": [
+      "Peer-led never means casual. Screen for"
+     ],
+     "notes": [
+      "From Emulate round 8 (u7 A) with the gate's fixes.",
+      "Pangram: passes alone. Kept: \"This is not to say … ever casual\"."
+     ]
+    },
+    {
+     "label": "P23",
+     "article": "Also, I am especially cautious about",
+     "source": [
+      "I’m especially cautious about medicines and"
+     ],
+     "notes": [
+      "Your last sentence.",
+      "Pangram: passes alone (45 words)."
+     ]
+    },
+    {
+     "label": "P24",
+     "article": "Using medicine is secondary to all",
+     "source": [
+      "The medicine stays behind the other"
+     ],
+     "notes": [
+      "From Emulate round 8 (u7 A).",
+      "Pangram: passes alone (49 words)."
+     ]
+    },
+    {
+     "label": "P25",
+     "article": "This pre-requisite also takes care of",
+     "source": [
+      "This prerequisite also filters out experience"
+     ],
+     "notes": [
+      "v41's second sentence (it passed alone at v24).",
+      "Pangram: passes alone. In the section, its last sentence (with P26's first) is the other small window."
+     ]
+    },
+    {
+     "label": "P26",
+     "article": "Integration is everyday life. The ceremony",
+     "source": [
+      "Integration is ordinary life. Ceremony opens"
+     ],
+     "notes": [
+      "Emulate round 10 B (the round-8 version read 100% AI alone), with the meaning put back: \"Integration is everyday life.\" (yours: \"ordinary life\"), \"The ceremony opens something up in you.\", \"in the weeks after the ceremony\", the five places, and your spiritual-emergency quip.",
+      "Pangram: passes alone. Kept: \"Look at your life…\", an instruction where yours states it (every gate since v20 has kept it)."
+     ]
+    },
+    {
+     "label": "P27",
+     "article": "All of the “supports” are important:",
+     "source": [
+      "Supports matter. Preparation, nutrition, interaction screening,"
+     ],
+     "notes": [
+      "From Emulate round 8 (u7 A).",
+      "Pangram: passes alone (40 words)."
+     ]
+    },
+    {
+     "label": "P28",
+     "article": "Finally, there are the legal issues.",
+     "source": [
+      "Legality needs a written answer. The"
+     ],
+     "notes": [
+      "Your parenthetical; \"insured\" out.",
+      "Pangram: passes alone."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "After the Psychedelic Calling"
+   ],
+   "rows": [
+    {
+     "label": "P29",
+     "article": "A lot of people feel the",
+     "source": [
+      "Many people come out of deep"
+     ],
+     "notes": [
+      "\"A lot of people feel the urge\" (yours: \"Many people\"; \"really common\" made it the usual response), no quotation marks.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P30",
+     "article": "I’ve felt that urge myself. The",
+     "source": [
+      "I know that call. I also"
+     ],
+     "notes": [
+      "From Emulate round 8 (u8 A): \"and then you meet\" three kinds of people, as yours.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P31",
+     "article": "That call may be real, but",
+     "source": [
+      "The call may be real. Omnipotence"
+     ],
+     "notes": [
+      "\"That call\".",
+      "Pangram: passes with P30 (16 words)."
+     ]
+    },
+    {
+     "label": "P32",
+     "article": "A group that begins in collective",
+     "source": [
+      "A group formed during collective spiritual"
+     ],
+     "notes": [
+      "v41's P32 (the round-8 version read 100% AI alone): \"do the math\" for your \"discover arithmetic\", \"can\" over all three.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P33",
+     "article": "Once the euphoria wears off and",
+     "source": [
+      "Once the call sobers up, it"
+     ],
+     "notes": [
+      "Your step; \", not just escaping society\" cut (your 01:18).",
+      "Pangram: passes alone."
+     ]
+    }
+   ]
+  }
+ ]
+}

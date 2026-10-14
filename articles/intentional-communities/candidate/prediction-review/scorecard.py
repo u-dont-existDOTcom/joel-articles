@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+"""scorecard.py OUT.json - every Pangram call the community lane predicted, scored (2026-10-12).
+
+Joel, 2026-10-12 17:23 UTC: "regarding the prediction misses file i also don't know where that is, keep that updated i want
+to see you improving on that or if you need help lmk i can tell you why stuff sounds human or AI." This reads every
+PREDICTIONS table in the lane (the parser of parse_preds.py), numbers each call by its batch, and writes the scorecard's
+data: accuracy per ten batches against always saying AI, and every miss since the 2026-10-10 review (batch 199g on), with
+the checked text where the batch file has it. Pass means "Human Written" (100% Human); "Mostly Human" is not a pass.
+"""
+import glob, json, os, re, sys
+from collections import defaultdict
+HERE = os.path.dirname(os.path.abspath(__file__))
+C = os.path.dirname(HERE)
+sys.argv, out_path = [sys.argv[0]], sys.argv[1]
+exec(open(os.path.join(HERE, 'parse_preds.py')).read().split('for f in sorted(glob.glob')[0])  # norm_pred, norm_res
+rows = []
+files = sorted(glob.glob(C + '/s*/PREDICTIONS-*.md')) + sorted(glob.glob(C + '/s*/*/PREDICTIONS-*.md'))
+for f in files:
+    sec = os.path.relpath(f, C).split('/')[0]
+    lines = open(f, encoding='utf-8').read().split('\n')
+    hdr = None
+    for i, ln in enumerate(lines):
+        if not ln.startswith('|'):
+            if ln.strip() == '':
+                pass
+            else:
+                hdr = None if not ln.startswith('|') and ln.strip() else hdr
+            continue
+        cells = [c.strip() for c in ln.strip().strip('|').split('|')]
+        if all(re.fullmatch(r':?-+:?', c) for c in cells if c):
+            continue
+        low = [c.lower() for c in cells]
+        if 'mine' in low and any(c.startswith('pangram') for c in low):
+            hdr = {'mine': low.index('mine'), 'why': next((k for k, c in enumerate(low) if c.startswith('why')), None),
+                   'res': next(k for k, c in enumerate(low) if c.startswith('pangram'))}
+            continue
+        if not hdr or len(cells) <= hdr['res']:
+            continue
+        name = re.sub(r'[*`]', '', cells[0]).strip()
+        m = re.match(r'(\d+)g-', name)
+        if not m:
+            continue
+        res, pct = norm_res(cells[hdr['res']])
+        mine = norm_pred(cells[hdr['mine']])
+        if res in ('none', 'unparsed') or mine == 'other':
+            continue
+        name_only = re.sub(r'\s*\(\d+\)$', '', name)
+        rows.append({'sec': sec, 'batch': int(m.group(1)), 'name': name_only, 'mine': mine,
+                     'why': cells[hdr['why']] if hdr['why'] is not None else '', 'res': res, 'pct': pct,
+                     'res_raw': re.sub(r'\*', '', cells[hdr['res']]), 'where': os.path.relpath(f, C) + ':' + str(i + 1)})
+texts = {}
+for v in glob.glob(C + '/s*/v*.json') + glob.glob(C + '/s*/*/v*.json'):
+    try:
+        d = json.load(open(v, encoding='utf-8'))
+    except Exception:
+        continue
+    for k, t in (d.get('texts') or {}).items():
+        texts[k] = t
+for r in rows:
+    r['passed'] = r['res'] == 'Human'
+    r['right'] = (r['mine'] == 'Human') == r['passed']
+windows = defaultdict(list)
+for r in rows:
+    windows[(r['batch'] // 10) * 10].append(r)
+win = []
+for lo in sorted(windows):
+    rs = windows[lo]
+    n = len(rs); ok = sum(r['right'] for r in rs); p = sum(r['passed'] for r in rs)
+    win.append({'from': lo, 'to': lo + 9, 'calls': n, 'right': ok, 'passed': p, 'always_ai_right': n - p})
+misses = [dict(r, text=texts.get(r['name'], '')) for r in rows if not r['right'] and r['batch'] >= 199]
+since = [r for r in rows if r['batch'] >= 199]
+summary = {'calls': len(rows), 'right': sum(r['right'] for r in rows),
+           'since_review': {'calls': len(since), 'right': sum(r['right'] for r in since), 'passed': sum(r['passed'] for r in since)},
+           'today': {'calls': len([r for r in rows if r['batch'] >= 261]), 'right': sum(r['right'] for r in rows if r['batch'] >= 261),
+                     'passed': sum(r['passed'] for r in rows if r['batch'] >= 261)}}
+json.dump({'summary': summary, 'windows': win, 'misses': misses}, open(out_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print(json.dumps(summary))
+for w in win:
+    print(w)
+print(len(misses), 'misses since 199g')

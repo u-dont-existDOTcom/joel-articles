@@ -1,0 +1,1 @@
+The vaccination point belongs here. It would be a deciding factor in whether I could raise children in a community at all. I'm not trying to create a village for all people, just for a community that shares enough in common to trust each other with the health of their children.

@@ -1,0 +1,700 @@
+{
+ "section": "Community section 12, \"The Math of Absorption, and Who This Isn't For\"",
+ "about": "The words each preservation unit of STANCE-LEDGER-s12.md rests on (U7 corrected to \"for community\", Joel 2026-10-12 05:33; U29 and U30 from his answers 17b and his P16 sentence). Check: python3 tools/humanization/preservation_keys.py s12/preservation-keys.json DRAFT.",
+ "units": [
+  {
+   "id": "U1",
+   "what": "the article asks people to talk about all eight hard things",
+   "keys": [
+    [
+     "jealousy"
+    ],
+    [
+     "God"
+    ],
+    [
+     "death"
+    ],
+    [
+     "childhood"
+    ],
+    [
+     "money"
+    ],
+    [
+     "sex"
+    ],
+    [
+     "psychedelics"
+    ],
+    [
+     "leave",
+     "leaving"
+    ]
+   ]
+  },
+  {
+   "id": "U2",
+   "what": "many intelligent adults would rather talk solar panels for hours",
+   "keys": [
+    [
+     "intelligent"
+    ],
+    [
+     "solar panels"
+    ],
+    [
+     "six hours"
+    ]
+   ]
+  },
+  {
+   "id": "U3",
+   "what": "he understands why",
+   "keys": [
+    [
+     "understand why",
+     "surprise me",
+     "makes sense to me"
+    ]
+   ]
+  },
+  {
+   "id": "U4",
+   "what": "modern life trains us to perform competence and hide",
+   "keys": [
+    [
+     "competence"
+    ],
+    [
+     "hide",
+     "hiding"
+    ]
+   ]
+  },
+  {
+   "id": "U5",
+   "what": "screens let us escape discomfort instantly",
+   "keys": [
+    [
+     "screens"
+    ],
+    [
+     "uncomfortable",
+     "discomfort"
+    ]
+   ]
+  },
+  {
+   "id": "U6",
+   "what": "institutions reward narrow skills, then act surprised (both halves of the quip)",
+   "keys": [
+    [
+     "institutions"
+    ],
+    [
+     "narrow"
+    ],
+    [
+     "surprised"
+    ],
+    [
+     "subcommittee",
+     "sub-committee"
+    ],
+    [
+     "block"
+    ]
+   ]
+  },
+  {
+   "id": "U7",
+   "what": "the question isn't whether someone is \"good enough\" for community",
+   "keys": [
+    [
+     "good enough"
+    ],
+    [
+     "for community"
+    ]
+   ]
+  },
+  {
+   "id": "U8",
+   "what": "the practical question: attention for others, willingness to examine own reactions, whether the group has enough capacity without being consumed",
+   "keys": [
+    [
+     "attention"
+    ],
+    [
+     "willing"
+    ],
+    [
+     "own reactions"
+    ],
+    [
+     "enough capacity",
+     "enough free resource/capacity"
+    ],
+    [
+     "consumed",
+     "full-time caretaker operation"
+    ]
+   ],
+   "note": "2026-10-12 17:23: Joel's P3 (\"enough free resource/capacity\", \"without becoming a full-time caretaker operation\") is his authorized wording."
+  },
+  {
+   "id": "U9",
+   "what": "practice, luck in childhood, surviving an emergency needing care more than responsibility; most of us move between",
+   "keys": [
+    [
+     "contemplat"
+    ],
+    [
+     "therap"
+    ],
+    [
+     "childhood"
+    ],
+    [
+     "emergency"
+    ],
+    [
+     "care more than responsibility"
+    ],
+    [
+     "most of us"
+    ]
+   ]
+  },
+  {
+   "id": "U10",
+   "what": "the community shares some therapist functions; peer counseling: listen, accompany, help process ordinary emotional material",
+   "keys": [
+    [
+     "therapists"
+    ],
+    [
+     "some"
+    ],
+    [
+     "peer counseling"
+    ],
+    [
+     "listen"
+    ],
+    [
+     "accompany",
+     "being there for each other"
+    ],
+    [
+     "process"
+    ],
+    [
+     "ordinary emotional"
+    ]
+   ]
+  },
+  {
+   "id": "U11",
+   "what": "that doesn't make the community infinitely absorbent",
+   "keys": [
+    [
+     "community"
+    ],
+    [
+     "infinitely absorbent"
+    ]
+   ]
+  },
+  {
+   "id": "U12",
+   "what": "free resource, from Re-evaluation Counseling: attention, steadiness, skill, practical capacity after enough of one's own material",
+   "keys": [
+    [
+     "free resource"
+    ],
+    [
+     "Re-evaluation Counseling"
+    ],
+    [
+     "attention"
+    ],
+    [
+     "steadiness"
+    ],
+    [
+     "skill"
+    ],
+    [
+     "practical capacity"
+    ],
+    [
+     "enough of"
+    ]
+   ]
+  },
+  {
+   "id": "U13",
+   "what": "need is what currently requires support",
+   "keys": [
+    [
+     "\"need\"",
+     "*need*",
+     "need is"
+    ],
+    [
+     "at a given time",
+     "currently"
+    ]
+   ]
+  },
+  {
+   "id": "U14",
+   "what": "everyone carries both; the ratio changes",
+   "keys": [
+    [
+     "both"
+    ],
+    [
+     "ratio"
+    ]
+   ]
+  },
+  {
+   "id": "U15",
+   "what": "his need exceeded his free resource many times; Good Lord",
+   "keys": [
+    [
+     "exceeded my free resource"
+    ],
+    [
+     "many points"
+    ],
+    [
+     "Good Lord"
+    ]
+   ]
+  },
+  {
+   "id": "U16",
+   "what": "his story, every fact",
+   "keys": [
+    [
+     "psychotic"
+    ],
+    [
+     "sociopathic father"
+    ],
+    [
+     "took my son"
+    ],
+    [
+     "kill my mother"
+    ],
+    [
+     "pimp"
+    ],
+    [
+     "sister"
+    ],
+    [
+     "Canada"
+    ]
+   ]
+  },
+  {
+   "id": "U17",
+   "what": "he could go on; little left for anybody else",
+   "keys": [
+    [
+     "go on",
+     "continue"
+    ],
+    [
+     "left over for anybody else",
+     "little left for anybody else"
+    ]
+   ]
+  },
+  {
+   "id": "U18",
+   "what": "stabilize and do inner pl/ork before helping found a community; not from a mountaintop",
+   "keys": [
+    [
+     "stabilize"
+    ],
+    [
+     "inner pl/ork"
+    ],
+    [
+     "before helping found a community"
+    ],
+    [
+     "mountaintop"
+    ]
+   ]
+  },
+  {
+   "id": "U19",
+   "what": "a group can absorb only as much need as its members have free resource to meet",
+   "keys": [
+    [
+     "absorb"
+    ],
+    [
+     "free resource to meet"
+    ]
+   ]
+  },
+  {
+   "id": "U20",
+   "what": "eight people with two in sustained crisis may spend most attention; eighty can often spread the same need",
+   "keys": [
+    [
+     "eight people"
+    ],
+    [
+     "two"
+    ],
+    [
+     "sustained crisis"
+    ],
+    [
+     "may"
+    ],
+    [
+     "eighty"
+    ],
+    [
+     "same need"
+    ],
+    [
+     "often"
+    ],
+    [
+     "relationships"
+    ],
+    [
+     "roles"
+    ]
+   ]
+  },
+  {
+   "id": "U21",
+   "what": "so welcoming is partly a resource question, not a measure of compassion",
+   "keys": [
+    [
+     "partly"
+    ],
+    [
+     "resource"
+    ],
+    [
+     "compassion"
+    ],
+    [
+     "therefore",
+     "then,",
+     "so "
+    ]
+   ]
+  },
+  {
+   "id": "U22",
+   "what": "saying yes beyond capacity can hurt existing members and the newcomer",
+   "keys": [
+    [
+     "existing members"
+    ],
+    [
+     "hurt",
+     "injure"
+    ]
+   ]
+  },
+  {
+   "id": "U23",
+   "what": "the paradox: small communities need members most and can absorb disruption least",
+   "keys": [
+    [
+     "paradox"
+    ],
+    [
+     "small"
+    ],
+    [
+     "greater",
+     "most"
+    ],
+    [
+     "less",
+     "least"
+    ],
+    [
+     "absorb"
+    ],
+    [
+     "disruption"
+    ]
+   ],
+   "note": "2026-10-12 trace r6: \"absorb\", the section's own term, had become \"tolerate\"; the unit hadn't listed it."
+  },
+  {
+   "id": "U24",
+   "what": "eight people still need food, equipment repaired, accounts, children, water",
+   "keys": [
+    [
+     "eight people"
+    ],
+    [
+     "food"
+    ],
+    [
+     "equipment",
+     "whatever breaks"
+    ],
+    [
+     "books",
+     "accounts"
+    ],
+    [
+     "kids",
+     "children"
+    ],
+    [
+     "water"
+    ]
+   ],
+   "note": "2026-10-12 sweep (sweep-20261012/sweep-G8.md): \"cars\" taken out as an alternative; it narrows \"equipment repaired\" to one kind."
+  },
+  {
+   "id": "U25",
+   "what": "the well doesn't care how good the new member's heart is",
+   "keys": [
+    [
+     "well"
+    ],
+    [
+     "heart"
+    ],
+    [
+     "new member"
+    ]
+   ],
+   "note": "2026-10-12 trace r6: \"someone's heart\" for \"the new member's\"."
+  },
+  {
+   "id": "U26",
+   "what": "so early members usually need more available resource than acute need, plus practical skills and willingness to learn",
+   "keys": [
+    [
+     "usually"
+    ],
+    [
+     "available resource",
+     "free resource"
+    ],
+    [
+     "acute need"
+    ],
+    [
+     "practical skill"
+    ],
+    [
+     "willingness to learn",
+     "willing to learn"
+    ]
+   ],
+   "span": 1
+  },
+  {
+   "id": "U27",
+   "what": "he still doesn't know how to keep this language of capacity from becoming a respectable way to exclude five groups",
+   "keys": [
+    [
+     "still don't know"
+    ],
+    [
+     "this language of capacity"
+    ],
+    [
+     "respectable way to exclude"
+    ],
+    [
+     "disabled"
+    ],
+    [
+     "poor"
+    ],
+    [
+     "less articulate",
+     "aren't very articulate"
+    ],
+    [
+     "unfamiliar with therapeutic language",
+     "don't have the language of therapy"
+    ],
+    [
+     "simply inconvenient",
+     "simply not convenient",
+     "for whatever reason deemed inconvenient"
+    ]
+   ],
+   "note": "2026-10-12 17:23: Joel's P16 (\"or for whatever reason deemed inconvenient\") is his authorized wording."
+  },
+  {
+   "id": "U28",
+   "what": "pretending capacity is unlimited won't solve it",
+   "keys": [
+    [
+     "pretending capacity is unlimited"
+    ]
+   ]
+  },
+  {
+   "id": "U29",
+   "what": "a real process needs concrete criteria, review by someone who wasn't part of the decision (Joel 17b), a way to revisit \"not now\"",
+   "keys": [
+    [
+     "concrete criteria"
+    ],
+    [
+     "review by someone who wasn't part of the decision"
+    ],
+    [
+     "revisit a \"not now\" decision",
+     "re-visiting a \"not now\" decision"
+    ]
+   ]
+  },
+  {
+   "id": "U30",
+   "what": "Joel 05:33: even then the power to veto membership applications based on capacity remains dangerous",
+   "keys": [
+    [
+     "Even then, the power to veto membership applications based on capacity remains dangerous."
+    ]
+   ]
+  },
+  {
+   "id": "U31a",
+   "what": "right now; fleeing a crisis and needing safety, treatment, housing, legal help a founding group can't replace",
+   "keys": [
+    [
+     "right now"
+    ],
+    [
+     "crisis"
+    ],
+    [
+     "treatment"
+    ],
+    [
+     "housing"
+    ],
+    [
+     "legal"
+    ],
+    [
+     "founding group"
+    ],
+    [
+     "pretend"
+    ]
+   ]
+  },
+  {
+   "id": "U31b",
+   "what": "wanting the feeling of village life without the responsibility",
+   "keys": [
+    [
+     "feeling of village life"
+    ],
+    [
+     "governance"
+    ],
+    [
+     "maintenance"
+    ],
+    [
+     "conflict"
+    ],
+    [
+     "care"
+    ]
+   ]
+  },
+  {
+   "id": "U31c",
+   "what": "unwilling to look at yourself when jealousy or conflict appears",
+   "keys": [
+    [
+     "jealousy or conflict"
+    ],
+    [
+     "look at yourself",
+     "examine your behavior"
+    ]
+   ]
+  },
+  {
+   "id": "U31d",
+   "what": "need far beyond free resource; nothing final about worth; timing; first step: support and capacity where you are",
+   "keys": [
+    [
+     "free resource right now",
+     "available resource"
+    ],
+    [
+     "bad or doomed",
+     "worth"
+    ],
+    [
+     "timing"
+    ],
+    [
+     "support"
+    ],
+    [
+     "where you are",
+     "where you already are"
+    ]
+   ]
+  },
+  {
+   "id": "U32",
+   "what": "a humane membership process should be able to say later, another role, more support, instead of turning every limit into rejection",
+   "keys": [
+    [
+     "humane"
+    ],
+    [
+     "membership process"
+    ],
+    [
+     "later"
+    ],
+    [
+     "in another role"
+    ],
+    [
+     "with more support"
+    ],
+    [
+     "flat-out rejecting",
+     "rejection"
+    ],
+    [
+     "every limit",
+     "every time it hits a limit",
+     "anyone else it can't take"
+    ]
+   ],
+   "note": "2026-10-12 sweep (sweep-20261012/sweep-G8.md): \"every limit\" added; \"people who fall into these categories\" alone narrowed it to the four listed cases."
+  }
+ ],
+ "section_terms": [
+  "absorb"
+ ]
+}

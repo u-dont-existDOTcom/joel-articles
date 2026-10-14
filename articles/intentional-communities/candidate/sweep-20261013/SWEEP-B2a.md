@@ -1,0 +1,11 @@
+# SWEEP-B2a
+
+1. Communal Parenting Adds On: "the Ye'kuana"; never identified, caveat arrives before the picture; 5 (SENSE-d1.md, SENSE-d3.md, SENSE-d4.md, SENSE-d5.md, SENSE-d7.md); published ("Her Ye'kuana account"); reword, name them in a clause (the people Liedloff lived among).
+2. The Grown Children Get…: "another promo video"; "another" implies an earlier promo video, reads as the son's video; 4 (SENSE-d3.md, SENSE-d4.md, SENSE-d5.md, SENSE-d7.md); published ("another promotional video"); reword, drop "another".
+3. Children Need Freedom…: "the Island Pond raid", "the state's blanket request"; no context (whose kids, why seized, what was asked), which way it "failed" unclear; 5 (SENSE-d1.md, SENSE-d3.md, SENSE-d4.md, SENSE-d5.md, SENSE-d7.md); published; reword, one clause saying whose children, why seized, what the state asked.
+4. Children Need Freedom…: "at the end of a certain date it has to be told"; awkward, needs a reread; 3 (SENSE-d4.md, SENSE-d5.md, SENSE-d7.md); not published (published: "Surprises have an ending date"); reword, "because it gets told by a set date".
+5. Children Need Freedom…: "Fear like that can destroy that gift"; "that gift" has no antecedent, "Fear like that" skips back; 2 (SENSE-d5.md, SENSE-d7.md); published ("Fear can destroy that gift"); reword, name what is lost instead of "that gift".
+6. The Grown Children Get…: "his future review via his quantum jumping time machine, which he explained in this video:"; what the review said rests wholly on the video (SENSE-d7.md: "future review" unanchored); 3 (SENSE-d1.md, SENSE-d5.md, SENSE-d7.md); published; reword, add a clause on what the son's review taught (author supplies).
+7. The Grown Children Get…: "I mention vaccination specifically because it's one of the values I would absolutely need to share with people in a community"; side-trip, the heading's promise (the grown children's review) arrives only after the child-rearing opening and vaccination; 3 (SENSE-d1.md, SENSE-d4.md, SENSE-d7.md); idea published ("The vaccination point belongs here"), these words not; move, open with the review paragraph; childhood, vaccination and the couples paragraphs after it.
+
+Not counted (section not in IN-C2.md): next section's heading "Best Model…", raised by SENSE-d1.md, SENSE-d3.md, SENSE-d4.md, SENSE-d5.md.

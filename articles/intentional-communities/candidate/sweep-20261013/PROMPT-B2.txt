@@ -1,0 +1,26 @@
+You are sweeping a humanization project's records for one kind of missed signal. Work only from the files named here.
+
+Background. Fresh "cold readers" read each rewritten section and reported where the sense broke. On 2026-10-13 the author fixed four things in another section that the cold reads had flagged again and again and that had been left alone because the flagged words were the published ones. The new rule: a flag that two or more cold reads raise on the same passage gets a proposed fix (move, define earlier, rename the heading, cut, merge, or reword), even when the words are the published ones.
+
+Your job, for the sections in the reports below only: find every passage that two or more of these reports flagged for the same reason and that is still in the current rewrite.
+
+Cold-read reports (read each once):
+/home/claude/reg1013/articles/intentional-communities/candidate/s8/SENSE-d1.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s8/SENSE-d3.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s8/SENSE-d4.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s8/SENSE-d5.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s8/review-d7/SENSE-d7.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s9/review-d5/SENSE-d5.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s9/review-d6/SENSE-d6.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s10/review-e1/SENSE-e1.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s10/review-e2/SENSE-e2.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s10/review-e3/SENSE-e3.md
+/home/claude/reg1013/articles/intentional-communities/candidate/s10/review-f1/SENSE-f1.md
+
+The current rewrite of these sections, with the author's own sentences marked ⟦author⟧ ... ⟦/author⟧ (the REWRITE part of each section; ignore the PUBLISHED part except to say whether the flagged words are published): /home/claude/reg1013/articles/intentional-communities/candidate/sweep-20261013/IN-C2.md /home/claude/reg1013/articles/intentional-communities/candidate/sweep-20261013/IN-C3.md
+
+Leave out: a flag only one report raised; a flag about words no longer in the current rewrite; a flag on words inside ⟦author⟧ marks (the author's own choices); anything about style or sounding like AI.
+
+For each finding, one line: the section heading's first words; the exact words flagged, quoted from the current rewrite; the reason, in a few words; how many reports raised it and which (file names only); published or not; and the fix you'd propose, of one kind: move, define earlier, rename the heading, cut, merge, reword.
+
+Write the report to /home/claude/reg1013/articles/intentional-communities/candidate/sweep-20261013/SWEEP-B2.md with a single Write call, at most 600 words. If there are none, write "No findings." Reply with only the number of findings. Keep your working short: read each report once, don't redraft.

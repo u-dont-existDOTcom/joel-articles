@@ -2179,6 +2179,40 @@
     }
    ],
    "reason": "Whether a phrase says enough in its place needs a reader of the paragraph; his fix was a few words (\"on membership\"), not a pattern."
+  },
+  {
+   "id": "W86",
+   "tell": "\"Also, a note on X:\" (an opener that announces the paragraph)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Before: \"Also, a note on agreements: a community does need some stable agreements\"."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "After: \"Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements\"."
+    }
+   ],
+   "rule": "B5",
+   "example": "Also, a note on chores: the rota on the kitchen wall is three weeks out of date. Nobody has cooked dinner on a Tuesday since the harvest started."
+  },
+  {
+   "id": "W87",
+   "tell": "\"There is a difficult X to consider.\" (an opener that announces the paragraph)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Before: \"There is a difficult paradox to consider. The need for new members in a small community is greater\"."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "After: \"And that also brings us to a difficult catch-22 for fledgling groups. The need for new members in a small community is greater\"."
+    }
+   ],
+   "rule": "B5",
+   "example": "There is a difficult question to consider. Eight people still have to grow the food, fix the pump and keep the books, whoever joins them."
   }
  ]
 }
