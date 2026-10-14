@@ -21,7 +21,13 @@ Results of 283g (Pangram's History, 2026-10-14 UTC; links in `gui/b283-results.j
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S4v112 | Human | his final section read 100% Human with "inner pl/ork" (276g, 1,555 words); two small cuts since, each pair Human (283g) | |
-| S9v16 | Human | v15 read 100% Human (276g); one sentence merged, Human alone (283g) | |
-| S10v3 | Human | v2 read 100% Human (279g, 742 words); his last paragraph reads Human alone (283g) | |
-| S11v15 | Human | his text, which he says passes; P4's run of questions, where every window of 10-14 sat, is five questions now and ends in his own judgment | |
+| S4v112 | Human | his final section read 100% Human with "inner pl/ork" (276g, 1,555 words); two small cuts since, each pair Human (283g) | **Human** (100%, "Human Written", high; 1,550 words), 22:53:34 |
+| S9v16 | Human | v15 read 100% Human (276g); one sentence merged, Human alone (283g) | **Human** (100%, high; 1,032), 22:53:49 |
+| S10v3 | Human | v2 read 100% Human (279g, 742 words); his last paragraph reads Human alone (283g) | **Human** (100%, high; 736), 22:54:05 |
+| S11v15 | Human | his text, which he says passes; P4's run of questions, where every window of 10-14 sat, is five questions now and ends in his own judgment | **Human** (100%, "Human Written", high; 1,673), 22:54:23 |
+
+Results of 284g (Pangram's History, 2026-10-14 UTC; links in `gui/b284-results.json`): all four sections read 100% Human ("Human Written", high). Score: 4 of 4.
+
+## The turn's score
+
+Batches 283g and 284g: 12 of 12 predictions right. Every changed paragraph reads Human alone (or with its neighbor), and sections 4, 9, 10 and 11 read 100% Human on the first try.

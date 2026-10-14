@@ -1,0 +1,93 @@
+{
+ "title": "From One Community to a Movement · section 10 beside the published one",
+ "meta": "Community article · section 10 · v3, 2026-10-14 21:19 · in the article so far as a candidate",
+ "intro": [
+  "Your published section is on the left. On the right is the version now in the article so far. Highlighted words are new since the version you saw this morning, and struck words are ones that went.",
+  "What changed: your last paragraph of 21:19 (\"this version is clearer and passes\"), as you wrote it.",
+  "Pangram's web app: it reads Human alone (283g), and the section 100% Human (736 words, 22:54:05 UTC, batch 284g).",
+  "One flag, from both cold reads of the section: the paragraph reads as a new topic. Nothing ties it to the federation paragraphs before it, and they couldn't tell whose rules these are. My proposal is one word, under it."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# From One Community to a Movement",
+    "## Experiment Before You Divorce"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Experimenting with a different rule doesn't",
+     "source": [
+      "Experimenting with a different rule does not"
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "Some experiments (like a different",
+     "source": [
+      "Some experiments cannot be tested cheaply"
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Federated Communities Make a Movement"
+   ],
+   "rows": [
+    {
+     "label": "P3 + P4 (joined)",
+     "article": "The problem of how these communities",
+     "source": [
+      "If these communities are supposed to spread",
+      "At federation scale, that outward purpose"
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "The Federation of Egalitarian Communities",
+     "source": [
+      "The Federation of Egalitarian Communities says"
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "Cooperation also shouldn't slide",
+     "source": [
+      "Cooperation also shouldn’t quietly become"
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "Even if nobody uses money internally",
+     "source": [
+      "Exchange and obligations need the same honesty"
+     ]
+    },
+    {
+     "label": "P8 · yours, changed today",
+     "article": "Whenever you create or apply a rule",
+     "source": [
+      "And when two principles collide"
+     ],
+     "notes": [
+      "Your 25, as you wrote it.",
+      "Pangram: Human alone (93 words, 21:32:57 UTC, batch 283g)."
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 28 (my pick)",
+     "text": "Whenever you create or apply a federation rule, it's best practice to store the full case history so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch.",
+     "proposal_of": "Whenever you create or apply a rule",
+     "source": [
+      "And when two principles collide"
+     ],
+     "notes": [
+      "Both cold reads: \"nothing ties it to the heading about federated communities or to P6's exchanges and obligations\"; \"whose rules?\". \"A federation rule\" ties it to the section and to the limits just before it. If you meant any rule, in a community too, the other fix is to say so: \"Whenever a community or a federation creates or applies a rule\".",
+      "Not checked in Pangram yet: I'll check it once you pick."
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -2253,6 +2253,22 @@
     }
    ],
    "reason": "Whether one paragraph follows from another is a reading of both; the fix is the missing step, as his bridging sentence was."
+  },
+  {
+   "id": "J56",
+   "tell": "a long run of questions in a row (eight tests of a method, one after another): the run itself reads AI, whatever each question says",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014-2119/joel-20261014-2119-message.txt",
+     "quote": "23 section 11  i fixed it, pasted.passes pangram. lmk if i overlooked anything, there was too much stuff in that p4 tho"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "leaves Pangram's window in place, the part's shape is the problem: propose a cut"
+    }
+   ],
+   "reason": "How many questions are too many, and which ones the author would keep, is a judgment about the passage; his fix kept five of eight and closed the run with his own judgment."
   }
  ]
 }
