@@ -1,0 +1,23 @@
+const want = {"8b8d5fb6c65421f41a0d28714c98aa60ce4450a93efda87eb3b061ce3e9d70e8": "E-S3P4f", "07883ea0c9cf4c7ef158c3db62b177d5c8961d3572ead5514f78a02302eb7a9b": "E-S3P10f", "bdb228736ab6e1ef668acb4b5a05de784c9a1463a2fd750c86764e27eb387480": "S3v12", "f0bf0ce91712020cab778fd2ce3b70287a449b5cc99c565dd104fb1fbee8147f": "E-S4I1", "8bea677d64a8535c91a475b546eb15ad538da3bbab95997d0ace1942ad8c997b": "S4v111", "215fee9a1a61012421666079741b13552aa966e51a7fc73dbf56c621b9122926": "E-S7P6f", "36341af23289ff49818d9c141645d106737824242ebae05e068552eb222025ec": "S7v4", "12d7d4de62691c19b2a1c5a56ec263d3773875d9815b3494f8ee98ecafa7ee72": "E-S9P2f", "67852bc7f842619ef0154c78f2d0e02b2760d81cb341c3a008970c6e4bd7096e": "E-S9P18f", "15ca8d89ef2a54c5dc40fde00e614c1fde7059ff4597bb8451b6512e9f408995": "S9v15", "fd3510b86218bbdd54f0878af60ad7d089e7b718deb24bbba5439a720b609760": "E-S10P9f", "d2bcf885fccd59c15f75c1844625f20556cfc84489e8ab7e4372f44422a54789": "S10v3"};
+const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');
+const out = {};
+let url = 'https://web.pangram.com/api/history-list/?limit=20&offset=0';
+for (let p = 0; url && p < 5 && Object.keys(out).length < Object.keys(want).length; p++) {
+  const l = await fetch(url, {credentials: 'include'}).then(r => r.json());
+  for (const it of l.results || []) {
+    const d = await fetch('https://web.pangram.com/api/history/' + it.uuid + '/', {credentials: 'include'}).then(r => r.json());
+    const k = want[await sha(d.prompt || '')];
+    if (!k || out[k]) continue;
+    const o = d.response.overall;
+    const n = (d.prompt || '').replace(/\n{2,}/g, '\n');  // window indexes count a blank line as one newline
+    const words = w => { const s = n.slice(w.start_index, w.end_index).trim();
+      return s.startsWith((w.text || '').trim().slice(0, 30)) ? s : (w.text || '').trim() + '…'; };
+    out[k] = {history_id: Number(it.id), link: 'https://www.pangram.com/history/' + it.uuid,
+              utc: new Date(it.timestamp).toISOString().replace(/\.\d+Z$/, 'Z'), words: o.word_count,
+              avg_ai_likelihood: o.avg_ai_likelihood, headline: o.headline, version: o.version,
+              windows: (o.windows || []).map(w => w.label + ', ' + w.confidence + ', ' + w.word_count),
+              flagged: (o.windows || []).filter(w => w.label !== 'Human').map(w => w.label + ' (' + w.word_count + ' words): ' + words(w))};
+  }
+  url = l.next;
+}
+JSON.stringify(out)

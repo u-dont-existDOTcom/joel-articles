@@ -48,7 +48,7 @@ The secular communities often buried hurt under procedure. The spiritual communi
 
 [Subscribe now](%%checkout_url%%)
 
-<!-- CANDIDATE: section 2 v3.1 (2026-10-01, Joel's edits of 18:06 in), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records are in the lane's section 2 folder. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 2 v3.2 (2026-10-14): v3.1 with Joel's F4 sentence and F6 clause from his Rule Scoring Sheet answers of 2026-10-14 03:04 UTC (joel-20261014/), as written. Pangram results for v3.2 are in fix-20261014/RESULTS.md. Before that: section 2 v3.1 (2026-10-01, Joel's edits of 18:06 in), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records are in the lane's section 2 folder. Not accepted until Joel says so. -->
 
 # Communes Are Hot Again 🔥
 
@@ -76,9 +76,9 @@ The commune comments became a miniature political-philosophy seminar, as Instagr
 
 I'd say the comment above is more true of the big socialism experiments than small communes, but I still take it seriously, because some people really would rather let somebody else take responsibility. When everybody owns everything, it can get to where nobody knows who's supposed to do what, and the same three people end up doing all the maintenance while everybody else talks about freedom. And then unofficial leaders start gaining power. Partly that's because everyone keeps handing it to them.
 
-Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or stop trying to act helpless.
+Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.
 
-People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something. They just know they are tired and alone and want to change it.
+People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or jealousy rears its head. They just know they are tired and alone and want to change it.
 
 I am not currently recruiting anyone or founding a community, which makes it easier for me to write an article like this, since I’m not trying to get you onto my land. I do plan to buy land, and people may naturally end up living around me. All of the warnings in this article apply to me, too.
 
@@ -110,7 +110,7 @@ The deeper problem is that someone carries authority earned in one domain into t
 
 I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
-<!-- CANDIDATE: section 4 v11 (2026-10-13): Joel's final section from his message of 2026-10-13 21:00 UTC ("here is the final section (human on pangram)"), as written; obvious typos fixed (otther, "heal. and", "3:", double spaces); in his P8 the published words that came along from the side-by-side page's struck text taken out (his own 2026-10-02 cut, ledger s4-p13); links, italics and the two images back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 4 v11.1 (2026-10-14): v11 with "And inner pl/ork is built on" for "And it's built on" (Joel's I1 answer, 2026-10-14: the "it" is unclear; inner pl/ork is the subsection's subject, and the stance check found "reparenting" there pulling against section 5's "Reparenting, somatic capacity, and peer counseling come first"); Pangram results in fix-20261014/RESULTS.md. v11 (2026-10-13): Joel's final section from his message of 2026-10-13 21:00 UTC ("here is the final section (human on pangram)"), as written; obvious typos fixed (otther, "heal. and", "3:", double spaces); in his P8 the published words that came along from the side-by-side page's struck text taken out (his own 2026-10-02 cut, ledger s4-p13); links, italics and the two images back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 
 # The Four Parts That Have to Pl/ork Together
 
@@ -142,7 +142,7 @@ Probably the most obvious type of pl/ork is reparenting. Here’s an example: yo
 
 [Inner-child reparenting](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) means learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and in this process actually gains more freedom to remain alive inside you.
 
-And it's built on [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.
+And inner pl/ork is built on [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.
 
 ### 2. Relational pl/ork
 
@@ -316,7 +316,7 @@ The non-negotiable for me is that jealousy not be allowed to become the hidden g
 
 There are some ways the group can help, and basic boundaries the group can enforce, without deciding what type of relationships people have. Even so, there will still be disagreements about this. That's more realistic than saying it's all been resolved.
 
-<!-- CANDIDATE: section 8 v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 8 v29 (2026-10-14): v28 with P18's last sentence back to mine of v22 with his "what happened" (Joel's F10 answer, 2026-10-14: "Fix it (revert to yours)"); Pangram results in fix-20261014/RESULTS.md. v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
 # The Grown Children Get the Final Review
 
 Couples who live together, share the same culture and even the same bed still disagree about screens, vaccinations, [schooling](https://www.instagram.com/p/DcDGotaFCeZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), religion, food, discipline and medical care. And that's just two people. Now think of twenty adults, all with different childhoods.
@@ -369,7 +369,7 @@ Give children real agency. When kids say no, it counts. No grownup has a right t
 
 Create a no-secrets rule. No grownup has a right to ask a kid to keep a secret from their mom or another trusted adult, whether it's about a gift, a game, a touch, a conversation or a relationship. A surprise isn't a secret, because at the end of a certain date it has to be told. But secrets meant to isolate a kid aren't allowed.
 
-Protecting children is the duty of adults, but it requires children to help also. "The Boy Who Cried Wolf" is a didactic children's story which continues to be useful generation after generation. The Buddha even taught his son honesty as the most important first lesson. I agree. We must teach children truthfulness before there's a crisis. "Make believe" must be labeled as such. When adults lie to children (like Santa is real etc), that teaches them to misunderstand the difference between reality and make-believe. Make sure kids understand what they say will be taken seriously if they are known to be honest. Don't let the teaching turn into interrogation or punishment when they're not sure. A scared or confused kid may get mixed up telling what happened, and that's to be expected.
+Protecting children is the duty of adults, but it requires children to help also. "The Boy Who Cried Wolf" is a didactic children's story which continues to be useful generation after generation. The Buddha even taught his son honesty as the most important first lesson. I agree. We must teach children truthfulness before there's a crisis. "Make believe" must be labeled as such. When adults lie to children (like Santa is real etc), that teaches them to misunderstand the difference between reality and make-believe. Make sure kids understand what they say will be taken seriously if they are known to be honest. Don't let the teaching turn into interrogation or punishment when they're not sure. A scared or confused kid may get mixed up telling what happened and still need protection.
 
 Hear the child even when the accused is someone people love. Communities fail here, because the adult may be charismatic, useful, rich, spiritually important, or everybody's friend. Decide on the response process ahead of time, before anyone's face is attached to it. Keep everyone at risk safe first, right away, then make sure the accusation is investigated competently and fairly. Nobody's status buys silence.
 
@@ -517,14 +517,14 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
-<!-- CANDIDATE: section 12 v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 12 v13 (2026-10-14): v12 with Joel's P2 and P3 from his W1 answer of 2026-10-14 03:04 UTC ("i prefer this version"), as written; Pangram results in fix-20261014/RESULTS.md. v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
 
-This does not surprise me, since we are taught to put on a show of competence in modern society. We have a lot of incentives to hide ourselves in our lives and disappear behind our screens the second things get uncomfortable. We have been encouraged by our institutions to be narrow in our skills, and then they act surprised when nobody can sit through a conflict without appointing a subcommittee or blocking somebody.
+This doesn't surprise me, since we're taught to put on a show of competence in modern society. We're given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got.
 
-So the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. Consider how much attention they currently have available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.
+So then a lot of people end up thinking they aren't "good enough" for community, or getting labeled by others that way. And there's a real issue there, but it's more about what fits where & when than good or bad. The community needs to consider how much attention the newcomer currently has available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.
 
 Some people have engaged in long practices of contemplation or therapy, or have had very good luck in childhood; other people are just trying to survive some emergency in their life and need care more than responsibility. Most of us are all of these at different times in our lives.
 

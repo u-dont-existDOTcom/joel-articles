@@ -27,14 +27,13 @@
   },
   {
    "id": "s2-c10",
-   "what": "Section 2: Joel's own rewrite of the paragraph on what communal ownership needs (2026-10-01 14:49), with one spelling fix, \"leaching\" to \"leeching\" [in the section 2 v3 candidate]",
+   "what": "Section 2: Joel's own rewrite of the paragraph on what communal ownership needs (2026-10-01 14:49), with one spelling fix, \"leaching\" to \"leeching\" [in the section 2 v3 candidate] (2026-10-14: his F4 sentence replaces its last sentence; entry s2-joel-20261014-f4 checks it.)",
    "status": "applied",
    "joel": "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leaching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or try to act helpless.",
    "must_contain": [
     "Communal ownership entails folks taking on visible and named stewardship duties.",
     "if someone is leeching off the group and how to deal with it",
-    "It requires developing healthier forms of relationships.",
-    "No, taking away the idea of a boss does not make everyone less passive, selfish, steal less,"
+    "It requires developing healthier forms of relationships."
    ]
   },
   {
@@ -111,22 +110,24 @@
   {
    "id": "s2-c10-fix",
    "what": "Section 2, P10: \"or stop trying to act helpless\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
-   "status": "applied",
+   "status": "superseded",
    "must_contain": [
     "or stop trying to act helpless"
    ],
    "must_not_contain": [
     "or try to act helpless"
-   ]
+   ],
+   "superseded_by": "s2-joel-20261014-f4"
   },
   {
    "id": "s2-c11b",
    "what": "Section 2, P11: Joel's paragraph with \"why earlier communes failed\" and \"the group runs out of money\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
-   "status": "applied",
+   "status": "superseded",
    "must_contain": [
     "People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something.",
     "They just know they are tired and alone and want to change it."
-   ]
+   ],
+   "superseded_by": "s2-joel-20261014-f6"
   },
   {
    "id": "s3-p4",
@@ -258,7 +259,7 @@
   },
   {
    "id": "s4-p12",
-   "what": "Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate]",
+   "what": "Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate] (2026-10-14: Joel's I1 answer says the \"it\" of \"And it's built on\" is unclear, so it names inner pl/ork now; entry s4-joel-20261014-i1 checks it.)",
    "status": "applied",
    "joel": "And it's built on somatic regulation first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.",
    "must_contain": [
@@ -266,7 +267,6 @@
     "symbolizes the adult/child relationship to me in some way as well."
    ],
    "must_contain_exact": [
-    "And it's built on",
     "the body's feelings"
    ]
   },
@@ -702,14 +702,14 @@
   },
   {
    "id": "s12-joel-20261012-0533",
-   "what": "Section 12, Joel's message of 2026-10-12 05:33 UTC: answers 17b and 18b; P3, P7 and P16 back to the guide's text, because my versions broke their meaning (P3 lost \"for community\", P7 became \"But it's not infinite.\", P16 lost \"this language of capacity\", \"capacity\" and \"remains\"); his own last sentence for P16, which names the power; P22 out of parentheses (\"that's 2 parentheticals in a row\"). Page numbering: the chart is P5. (2026-10-12 17:23: his own P16 replaces the guide's first sentence; see s12-joel-20261012-1723.) (2026-10-13 21:00: his own rewrite of section 12 changed three of these strings, the Maxi Pad line, \"dangerously tilted towards elitism\" and the cut eight-versus-eighty paragraph; entry s12-joel-20261013-2100 checks the new text, and the rest of this entry still holds.)",
+   "what": "Section 12, Joel's message of 2026-10-12 05:33 UTC: answers 17b and 18b; P3, P7 and P16 back to the guide's text, because my versions broke their meaning (P3 lost \"for community\", P7 became \"But it's not infinite.\", P16 lost \"this language of capacity\", \"capacity\" and \"remains\"); his own last sentence for P16, which names the power; P22 out of parentheses (\"that's 2 parentheticals in a row\"). Page numbering: the chart is P5. (2026-10-12 17:23: his own P16 replaces the guide's first sentence; see s12-joel-20261012-1723.) (2026-10-13 21:00: his own rewrite of section 12 changed three of these strings, the Maxi Pad line, \"dangerously tilted towards elitism\" and the cut eight-versus-eighty paragraph; entry s12-joel-20261013-2100 checks the new text, and the rest of this entry still holds.) (2026-10-14: his W1 P3 keeps \"for community\" in his own characters: \"aren't \"good enough\" for community\".)",
    "status": "applied",
    "joel": "17b 18b ... p3 got b roken because you changed \"\"good enough\" for community to \"good enough\" and i'm not understand anymore what they are good enough for. then you broke p7 by reducing it to \"but it's not infinite\" ? what? p16 also broke the meaning on the first sentence. it's not about \"i don't have the capacity to\" it's literalyl exactly what the guide said... and then broke again when it changed \"pretending capacity is unlimited\" to \"pretending 'it' is unlimited\" ... it referring to what? unclear. and broke again with last sentence too, you can't just remove \"remains\" and keep the same meaning. and even the original guide is confusing, what power? say \" Even then, the power to veto membership applications based on capacity remains dangerous.\" revert those to guide exactly. debug the error so it doesn't happen again (that shoudl go without saying of course). you can't put p22 into parentheses... that's 2 parentheticals in a row... continue",
    "must_contain": [
-    "So the question isn’t whether a person is “good enough” for community.",
     "Pretending capacity is unlimited won’t solve that.",
     "review by someone who wasn’t part of the decision",
-    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate,"
+    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate,",
+    "\"good enough\" for community"
    ],
    "must_not_contain": [
     "But it’s not infinite.",
@@ -779,11 +779,10 @@
   },
   {
    "id": "s12-joel-20261013-2100",
-   "what": "Section 12: Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written: \"like a Heavy Flow Maxi Pad\", \"in different ratios\", the eight-versus-eighty paragraph cut and its point folded into \"Once there are 80 members ...\", \"a difficult catch-22 for fledgling groups\", \"dangerously tilted towards elitism\", \"submit it to yourself\", and the crisis item folded into the first item with \"free resource calculator\". Trailing spaces taken out; links and the italics on \"right now\" back.",
+   "what": "Section 12: Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written: \"like a Heavy Flow Maxi Pad\", \"in different ratios\", the eight-versus-eighty paragraph cut and its point folded into \"Once there are 80 members ...\", \"a difficult catch-22 for fledgling groups\", \"dangerously tilted towards elitism\", \"submit it to yourself\", and the crisis item folded into the first item with \"free resource calculator\". Trailing spaces taken out; links and the italics on \"right now\" back. (2026-10-14: his P3 of his W1 answer replaces this P3; entry s12-joel-20261014-w1 checks it.)",
    "status": "applied",
    "joel": "then section 12 i rewrote a bit, still passes pangram fully",
    "must_contain": [
-    "So the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. Consider how much attention they currently have available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.",
     "That does not make the community infinitely absorbent like a Heavy Flow Maxi Pad.",
     "Everyone has a certain amount of both in different ratios.",
     "And that also brings us to a difficult catch-22 for fledgling groups. The need for new members in a small community is greater, but the ability of that community to absorb disruption is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids. And the water system has to keep working. The water well doesn’t care how beautiful the new member’s heart is.",
@@ -797,6 +796,76 @@
     "The problem is that, in a group of eight people",
     "and the ratio varies",
     "(A founding group shouldn’t pretend it can give you those.)"
+   ]
+  },
+  {
+   "id": "s2-joel-20261014-f4",
+   "status": "applied",
+   "what": "Section 2, The Freeloader Problem: F4 \"Fix it\", his sentence as written.",
+   "joel": "F4: Fix it (replace with \"No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.\")",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness."
+   ],
+   "must_not_contain": [
+    "or stop trying to act helpless",
+    "steal less"
+   ]
+  },
+  {
+   "id": "s2-joel-20261014-f6",
+   "status": "applied",
+   "what": "Section 2, the next paragraph: F6 \"Fix it\", his clause as written (\"jealousy rears its head\" for \"someone thinks they own something\").",
+   "joel": "F6: Fix it (original didn't make sense, why would children make the land beauty less relevant? / but my fix also was redundant with owning. change to: / they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or jealousy rears its head.)",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or jealousy rears its head.",
+    "They just know they are tired and alone and want to change it."
+   ],
+   "must_not_contain": [
+    "someone thinks they own something"
+   ]
+  },
+  {
+   "id": "s4-joel-20261014-i1",
+   "status": "applied",
+   "what": "Section 4, Inner pl/ork: I1 \"Unclear\" for his \"And it's built on somatic regulation first.\" The sentence names the subsection's subject, inner pl/ork, now (reparenting, the other candidate, pulled against section 5 in the stance check of 2026-10-14).",
+   "joel": "I1: Unclear",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "And inner pl/ork is built on"
+   ],
+   "must_not_contain": [
+    "And it's built on"
+   ]
+  },
+  {
+   "id": "s8-joel-20261014-f10",
+   "status": "applied",
+   "what": "Section 8, Children Need Freedom Inside Real Protection, P18's last sentence: F10 \"Fix it (revert to yours)\": my v22 sentence back, with his \"what happened\" for its \"it\".",
+   "joel": "F10: Fix it (revert to yours)",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "A scared or confused kid may get mixed up telling what happened and still need protection."
+   ],
+   "must_not_contain": [
+    "and that's to be expected"
+   ]
+  },
+  {
+   "id": "s12-joel-20261014-w1",
+   "status": "applied",
+   "what": "Section 12, P2 and P3: his W1 versions (\"i prefer this version\"), as written.",
+   "joel": "the last part of the 1st para is that cute, wry and tidy ai quip ... so now looking at that, yeah, 2nd para doesn't follow the first, so pangram is right to flag it ... i prefer this version:",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "This doesn't surprise me, since we're taught to put on a show of competence in modern society. We're given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got.",
+    "So then a lot of people end up thinking they aren't \"good enough\" for community, or getting labeled by others that way. And there's a real issue there, but it's more about what fits where & when than good or bad. The community needs to consider how much attention the newcomer currently has available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation."
+   ],
+   "must_not_contain": [
+    "appointing a subcommittee",
+    "We have been encouraged by our institutions",
+    "Rather, whether the fit is right."
    ]
   }
  ]
