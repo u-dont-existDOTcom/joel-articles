@@ -1,0 +1,1 @@
+Communal ownership needs named stewardship and visible duties, and consequences for chronic freeloading. It also needs enough relational capacity to confront the problem before resentment becomes the real government. A community can’t run on the assumption that getting rid of bosses gets rid of passivity, selfishness, theft, or learned helplessness.

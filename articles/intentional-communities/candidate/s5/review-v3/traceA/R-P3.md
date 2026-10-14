@@ -1,0 +1,1 @@
+To be sure, the legality of psychedelics varies depending on country, state, substance, religious status, what exactly one does, and so on, and if medicine is going to be part of a community at all, that community should definitely get actual local legal advice.

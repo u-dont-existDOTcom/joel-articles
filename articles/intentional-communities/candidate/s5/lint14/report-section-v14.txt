@@ -1,0 +1,36 @@
+== tells_lint: lint14/v14-section.txt
+verdict: REVIEW
+metrics: {'words': 1825, 'my_words': 1779, 'paragraphs': 34, 'coach_per_100': 0.11, 'you_per_100': 2.0, 'landing_rate': 0.12, 'instruction_paragraphs': 0, 'para_len_cv': 0.33, 'sent_len_cv': 0.54, 'repeated_openers': {}, 'source_map': [(0, 0.87), (1, 0.75), (2, 0.4), (3, 0.58), (4, 0.62), (5, 0.76), (6, 0.66), (7, 0.6), (16, 0.17), (8, 0.58), (9, 0.87), (10, 0.52), (11, 0.78), (12, 0.65), (13, 0.71), (14, 0.48), (15, 0.62), (16, 0.65), (17, 0.91), (18, 0.56), (19, 0.77), (20, 0.79), (21, 0.65), (22, 0.72), (23, 0.88), (24, 0.81), (25, 0.79), (26, 0.69), (27, 0.44), (28, 0.65), (29, 0.76), (30, 0.63), (31, 0.77), (32, 0.64)], 'source_order_agreement': 0.99, 'paragraphs_mapped_to_source': 1.0}
+-- B1 finished principle (5)
+   * Most intentional communities that are using psychedelics still don't say so publicly, because even where the law allows some use there may be issues with parent
+   * You can meet someone who’s collected 12 ceremonies and 6 origin stories and still can’t apologize to a housemate.
+   * People who sit through difficult nights on them together can end up powerfully bonded.
+   * That’s the person everybody trusts and slowly stops questioning, even though nobody gave them the title.
+   * Nobody gets months of honest relationship by pharmacological decree, but if a practice is already there, medicine can deepen it.
+-- B2 contrast (2)
+   * In a community, though, your sober sitter may be someone who’s known you for years, and you feel the difference between being watched and being held.
+   * “I don’t think anybody here has ever heard of that” is information, but it’s not the same as a legal opinion.
+-- B3 short knock-down (1)
+   * It varies by substance, too.
+-- B4/E15 list or packed sentence (6)
+   * Most intentional communities that are using psychedelics still don't say so publicly, because even where the law allows some use there may be issues with parent
+   * When you gain insight and clarity about your life, you come back to the same environment you were in before, with all the old cues still waiting, and no one kno
+   * That helped give me a God complex, a Savior complex, or both, which then attracted exactly the right people to show me my limits. 😂
+   * In a community, though, your sober sitter may be someone who’s known you for years, and you feel the difference between being watched and being held.
+   * Peers can reality-check the downloads too, since psychedelics produce genuine insight and convincing nonsense, and the two look alike (same lighting and everyth
+   * They may also be someone who hasn’t been vetted by anybody, who isn’t accountable to anyone, who is a sexual predator, who is financially dependent on people co
+-- B5 announces the paragraph (1)
+   * Integration is just regular life.
+-- B7 short landing at paragraph end (4)
+   * Community Is What Makes Psychedelics Pl/ork Best!
+   * I respect what they’ve preserved.
+   * My current safety material is in Altered States Triage.
+   * A community founded on omnipotence is a terrible idea.
+-- D9 follows the source order (1)
+   * 34/34 paragraphs follow the source's points in its order (agreement 0.99); fine if each part notices something; check T13 and T09 in the tell ledger
+-- E125 list of three: an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them" (2)
+   * or neighbors imagining chaos, or
+   * already know each other, inconvenient habits and all… 💃🕺
+-- E41 coach phrase (2)
+   * You can meet someone who’s collected 12 ceremonies and 6 origin stories and still can’t apologize to a housemate.
+   * The deeper you go, the more alienated you can feel.

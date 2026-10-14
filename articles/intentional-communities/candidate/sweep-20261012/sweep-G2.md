@@ -1,0 +1,5 @@
+# Sweep
+
+- Why Communities Keep Dying, kind 2: published "distributed authority without pretending that people arrive emotionally finished"; rewrite "A place where people who've done the healing first can join without pretending they're fully finished". A reader now believes the community admits only people who have already done their healing; the published says people arrive unfinished and the community doesn't pretend otherwise.
+- The Four Parts, kind 1: published "Then there's somatic regulation"; rewrite "And it's built on somatic regulation first." A reader can't tell what "it" is (reparenting, the inner adult, or the child), and now takes somatic regulation as the base something rests on, not a second practice alongside reparenting.
+- The Four Parts, kind 2: published "whether the founding document acknowledges romance or pretends everybody has transcended it"; rewrite "no matter how much your founding document says that you're all beyond romance". Only the denial case is left, so a reader may take the Romance Guide as meant for communities that deny romance, not for those whose document acknowledges it.

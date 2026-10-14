@@ -1,0 +1,1 @@
+I have no proof that AI caused this turn, but it’s hard to ignore the timing. That’s around when AI stopped being a tech-news curiosity and started changing the way people live. Suddenly “maybe we should form a village” sounded less like a 1972 leftover and more like a backup plan.

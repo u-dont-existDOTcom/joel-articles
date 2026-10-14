@@ -1,0 +1,1 @@
+Whether you want to call that loneliness an “epidemic” or not, it’s obvious that a lot of people can’t tolerate modern life in isolation anymore. People may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the way things are now is starvin’ them.

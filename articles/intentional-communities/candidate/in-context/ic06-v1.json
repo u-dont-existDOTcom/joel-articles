@@ -1,0 +1,134 @@
+{
+ "title": "Which Connections to the Technosphere Do You Keep? Section 6 beside the published one",
+ "meta": "Community article · section 6 · candidate v19, 2026-10-06 · Human on the Pangram API (one window, 0.25) · the web app check waits for your sign-in",
+ "intro": [
+  "Your published section is on the left; the humanized candidate is on the right, with words changed from the published highlighted and words cut struck.",
+  "Every paragraph passes Pangram alone (P5, 19 words, with its neighbor). The whole-article stance check found 0 conflicts on the last two versions it saw (v13, v17); the conflicts it found earlier (v2, v11) were fixed. The notes list what changed and every finding I kept, with the reason.",
+  "Not accepted until you say so. The final check in Pangram's web app is still to run."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "Which Connections to the Technosphere Do You Keep?"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Loneliness is only one reason building",
+     "source": [
+      "Loneliness is only one reason this"
+     ],
+     "notes": [
+      "One word: \"this\" → \"building community\". Every cold reader stopped at \"this\" (an opener's stop is never kept). Is that what \"this\" meant?"
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "I just read this post from",
+     "source": [
+      "I just read this post from"
+     ],
+     "notes": [
+      "Your post's excerpt in the card, untouched."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "How accurate are the fears about",
+     "source": [
+      "I don’t know exactly how much"
+     ],
+     "notes": [
+      "Emulate's \"Maybe…\" sentences: the OR list split into sentences, each its own possibility (your fix for lists of three). 😂 on the Chantress Seba joke (your ruling on dry jokes).",
+      "Kept: \"going through all the applications to her commune\" (three checkers asked whether she applies or receives; section 2 says she received them); \"lose their jobs to AI\" for \"destroy jobs\"."
+     ]
+    },
+    {
+     "label": "P4",
+     "article": "Ok, so on a personal level,",
+     "source": [
+      "I’d rather build more human independence"
+     ],
+     "notes": [
+      "Emulate's \"Ok, so on a personal level, it makes more sense to me…\" (your preference, and the independence collective again).",
+      "Kept: \"It's better to have community… right?\" for \"I'd rather have community…\" (every version with your \"I'd rather… than…\" read AI, alone or in the run); no emoji on the feed joke (with one, Pangram split the section and two windows read AI)."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "What connections to the technosphere do",
+     "source": [
+      "The useful design question is:"
+     ],
+     "notes": [
+      "A live question again (an earlier draft made it hypothetical).",
+      "Kept: the claim that this is \"the useful design question\" is gone; every wording with it cut P10 off as an AI window in the section."
+     ]
+    },
+    {
+     "label": "Caption",
+     "article": "[caption] New friends are silver",
+     "source": [
+      "[caption] New friends are silver"
+     ],
+     "notes": [
+      "As published."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "Medical care, banking, phones, vehicles,",
+     "source": [
+      "Medical care, banking, phones, vehicles,"
+     ],
+     "notes": [
+      "\"Full dependence\" is \"depend on them completely\" (an earlier draft said \"opt into all of them\", which all four checks flagged)."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "The Amish, over generations, have made",
+     "source": [
+      "The Amish have spent generations evaluating"
+     ],
+     "notes": [
+      "Restricted at home, not banned; \"Sometimes…\" (neither the author guessing nor fixed camps); the software-update contrast back inside what the Amish understand."
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "Medical care is one of the",
+     "source": [
+      "Medicine is one of the hardest"
+     ],
+     "notes": [
+      "Decide in advance (not \"think through\"), members, common resources, which things may need outside money or insurance, people who choose a different level. \"Medical care… connections\" for \"Medicine… couplings\" (the cold reader took \"Medicine\" as psychedelics and didn't know \"couplings\").",
+      "Kept: \"what happens when someone… needs\" for \"may… and still need\" (the published carries both \"may\" and \"will\" readings); \"deal with\"; \"outside dollars\"."
+     ]
+    },
+    {
+     "label": "P9",
+     "article": "No member should have to jump",
+     "source": [
+      "No member should have to prove"
+     ],
+     "notes": [
+      "An agreement, not each member's burden; all five protections.",
+      "Kept: \"jump through ideological hoops\" for \"prove ideological loyalty\"."
+     ]
+    },
+    {
+     "label": "P10",
+     "article": "At the same time, having social",
+     "source": [
+      "At the same time, social connection"
+     ],
+     "notes": [
+      "The advisory notes a risk among isolated people (an association), not \"documents the impact\" of connection.",
+      "Kept: \"an increased risk… among\" (two checks: could read as a cause); \"a higher risk\" split the section's windows again. \"itself\" dropped."
+     ]
+    }
+   ]
+  }
+ ]
+}

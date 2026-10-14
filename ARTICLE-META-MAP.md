@@ -7,6 +7,7 @@ This is the repository-wide visual index of registered articles, explicit interl
 <!-- article-id: inner-child-therapy -->
 <!-- article-id: inner-signal -->
 <!-- article-id: nibbana -->
+<!-- article-id: intentional-communities -->
 
 ```mermaid
 flowchart LR
@@ -15,6 +16,7 @@ flowchart LR
     innerchild["Inner Child Therapy — working canonical authority"]
     hypnosis["Inner Signal — working hypnosis guide"]
     nibbana["Nibbāna — working canonical authority"]
+    communities["Intentional Communities — working source master, humanization candidate"]
 ```
 
 Romance and Somatic Therapies are registered working articles. No direct cross-article edge between them is currently established. Add relationship edges only when a real and useful editorial relationship is confirmed; do not infer one from generic topic overlap.
@@ -26,3 +28,5 @@ Inner Signal is registered from the explicitly identified owner editor source an
 Inner Signal r03 synchronized its companion-method content against Joel's 2026-09-11 inner-child companion snapshot (`articles/inner-signal/source/inner-child-owner-20260911.md`), which predates the 2026-09-20 registered Inner Child Therapy master. That is a recorded source dependency, not an owner-confirmed editorial edge, so no Mermaid edge is drawn yet. Whether later Inner Child source edits require an Inner Signal re-synchronization is an open owner question.
 
 Nibbāna is registered from Joel's exact 2026-09-28 current Substack editor body at `articles/nibbana/master.html`. Its pre-registration AI/hybrid and humanization lineage remains under `archive/nibbana-pre-registration-2026-08/` as historical provenance only. The current master has mixed authorship provenance by Joel's direct statement; Pangram-passing status is detector evidence, not an authorship classification. No cross-article Mermaid edge is drawn merely because the article links to Inner Child, Community, or other Joel work.
+
+Intentional Communities is registered from the published Substack text at `articles/intentional-communities/original.md`, the way Inner Child Therapy registers its raw source: the humanized candidate (`candidate/HUMANIZED-SO-FAR.md`) is a working artifact until Joel accepts it, and the article runs the same shared humanization rules as the Inner Child lane. Its published text links to the Romance Guide, the Inner Child guide and the somatic article as companion guides; no Mermaid edge is drawn merely because of those links.

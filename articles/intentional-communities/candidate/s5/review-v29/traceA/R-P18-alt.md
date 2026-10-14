@@ -1,0 +1,1 @@
+No special shamans here. Traditional lineages usually disagree with me on this, and many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority. I’ve learned from those traditions, though, and I respect what they’ve preserved.

@@ -1,0 +1,1 @@
+To be sure, the legality of this varies depending on country, state, substance, religious status, what exactly one does, and so on, and if one is going to build a community around this one should definitely get actual legal advice in the area.

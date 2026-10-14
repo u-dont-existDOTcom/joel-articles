@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article_id": "intentional-communities",
+  "owner_review": {
+    "status": "pending",
+    "evidence": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md, question 20, and Joel's answer of 2026-10-13 21:00 UTC kept in articles/intentional-communities/candidate/joel-20261013/joel-20261013-attachment.txt: \"yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork...\""
+  },
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "working-master-source-identity",
+      "description": "Preserve the published Substack text (original.md, 97920 UTF-8 bytes, SHA-256 5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6) as the registered working source master, the way Inner Child Therapy registers its raw Substack source. This master is not the humanized candidate; candidate/HUMANIZED-SO-FAR.md is, until Joel accepts it."
+    },
+    {
+      "id": "owner-edits-checked",
+      "description": "Joel's own paragraphs and rulings for the humanized article are recorded in candidate/OWNER-EDITS.json and must pass tools/humanization/check_owner_edits.py on every render of candidate/HUMANIZED-SO-FAR.md. His text goes in with his own characters, obvious typos fixed under his rule."
+    },
+    {
+      "id": "shared-rules-only",
+      "description": "The article runs the repository's shared humanization rules (AGENTS.md, docs/HUMANIZATION-GATE.md, tools/humanization/), the same ones the Inner Child lane runs. Article-local files hold this article's rulings and records only, never a separate copy of the rules (Joel, 2026-10-13: \"i don't want to separate it from the rules co-developed in inner child lane\")."
+    },
+    {
+      "id": "healed-not-finished",
+      "description": "Keep the stance that people should arrive largely healed without pretending they're finished, which is why the article asks readers to start their own healing practice first (Joel, 2026-10-02 00:52, recorded in docs/HUMANIZATION-GATE.md)."
+    },
+    {
+      "id": "four-parts-model",
+      "description": "Keep the four parts (inner, relational and medicine pl/ork inside the practical container) as the model the article is organized around; the later sections build the container."
+    }
+  ]
+}

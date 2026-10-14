@@ -1,0 +1,9 @@
+== tells_lint: C3-C4a.txt
+verdict: REVIEW
+metrics: {'words': 87, 'my_words': 87, 'paragraphs': 2, 'coach_per_100': 1.15, 'you_per_100': 2.3, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.36, 'sent_len_cv': 0.21, 'repeated_openers': {}, 'source_map': [(2, 0.83), (3, 0.92)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- B4/E15 list or packed sentence (1)
+   * That’s around when AI stopped being a tech-news curiosity and started reorganizing people’s jobs, feeds, relationships, and expectations of the future.
+-- D9 follows the source order (1)
+   * 2/2 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger
+-- E41 coach phrase (1)
+   * If you look at Google Trends for “ecovillage” and “intentional community”, you can see that interest drifted down for years, then bent upward sharply in the mid

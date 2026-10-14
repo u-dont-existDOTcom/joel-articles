@@ -1,0 +1,866 @@
+[
+ {
+  "pair": 1,
+  "human_is": 2,
+  "h": "131g-P25b9P26",
+  "x": "134g-P25b9P26n",
+  "x_res": "Mixed (39% AI), 05:55:55: \"No upbringing can provide\u2026\" to P26's end (69 words)",
+  "changed": 1
+ },
+ {
+  "pair": 2,
+  "human_is": 2,
+  "h": "135g-P25b11P26",
+  "x": "135g-P25b11P26o",
+  "x_res": "Mixed (39% AI), 05:57:36: \"No upbringing can provide\u2026\" to P26's end (68 words)",
+  "changed": 1
+ },
+ {
+  "pair": 3,
+  "human_is": 1,
+  "h": "135g-P25b13",
+  "x": "133g-P25b10",
+  "x_res": "AI (100%), 05:52:37",
+  "changed": 1
+ },
+ {
+  "pair": 4,
+  "human_is": 1,
+  "h": "151g-P15f",
+  "x": "151g-P15g",
+  "x_res": "AI (100%), 00:45:18",
+  "changed": 1
+ },
+ {
+  "pair": 5,
+  "human_is": 1,
+  "h": "129g-H4P27aP28s2",
+  "x": "129g-H4P27bP28s2",
+  "x_res": "Mixed (49% AI), 05:00:49: \"And that's just two people\u2026\" to the end (37 words)",
+  "changed": 2
+ },
+ {
+  "pair": 6,
+  "human_is": 1,
+  "h": "129g-P2bP3c4",
+  "x": "129g-P2bP3f",
+  "x_res": "Mixed (40% AI), 04:59:07: P3f (42 words)",
+  "changed": 2
+ },
+ {
+  "pair": 7,
+  "human_is": 1,
+  "h": "131g-P25b9",
+  "x": "134g-P25b12",
+  "x_res": "AI (100%), 05:55:51",
+  "changed": 2
+ },
+ {
+  "pair": 8,
+  "human_is": 2,
+  "h": "134g-P25b11",
+  "x": "133g-P25b10",
+  "x_res": "AI (100%), 05:52:37",
+  "changed": 2
+ },
+ {
+  "pair": 9,
+  "human_is": 1,
+  "h": "150g-P15a",
+  "x": "151g-P15g",
+  "x_res": "AI (100%), 00:45:18",
+  "changed": 2
+ },
+ {
+  "pair": 10,
+  "human_is": 2,
+  "h": "188g-P34m",
+  "x": "191g-P34n1",
+  "x_res": "AI (100%), 23:01:31",
+  "changed": 2
+ },
+ {
+  "pair": 11,
+  "human_is": 2,
+  "h": "127g-P19b",
+  "x": "134g-P19e",
+  "x_res": "AI (100%), 05:55:15",
+  "changed": 3
+ },
+ {
+  "pair": 12,
+  "human_is": 2,
+  "h": "129g-P13dP14a",
+  "x": "133g-P13fP14a",
+  "x_res": "AI (100%), 05:51:35",
+  "changed": 3
+ },
+ {
+  "pair": 13,
+  "human_is": 2,
+  "h": "129g-P13eP14b",
+  "x": "129g-P13cP14b",
+  "x_res": "AI (100%), 04:59:28",
+  "changed": 3
+ },
+ {
+  "pair": 14,
+  "human_is": 2,
+  "h": "129g-P2bP3c4",
+  "x": "130g-P2bP3i",
+  "x_res": "AI (100%), 05:04:04",
+  "changed": 3
+ },
+ {
+  "pair": 15,
+  "human_is": 1,
+  "h": "130g-P25b8",
+  "x": "134g-P25b12",
+  "x_res": "AI (100%), 05:55:51",
+  "changed": 3
+ },
+ {
+  "pair": 16,
+  "human_is": 1,
+  "h": "133g-P13dP14c",
+  "x": "133g-P13fP14c",
+  "x_res": "Mixed (63% AI), 05:51:22: P13f and P14c's first sentence (68 words)",
+  "changed": 3
+ },
+ {
+  "pair": 17,
+  "human_is": 2,
+  "h": "134g-P19d",
+  "x": "133g-P19c",
+  "x_res": "AI (100%), 05:52:07",
+  "changed": 3
+ },
+ {
+  "pair": 18,
+  "human_is": 1,
+  "h": "135g-P25b11P26",
+  "x": "133g-P25b10P26n",
+  "x_res": "AI (100%), 05:52:42",
+  "changed": 3
+ },
+ {
+  "pair": 19,
+  "human_is": 1,
+  "h": "149g-P16a",
+  "x": "152g-P16a3",
+  "x_res": "Mixed (53% AI), 01:23:29: the first 55 words",
+  "changed": 3
+ },
+ {
+  "pair": 20,
+  "human_is": 2,
+  "h": "151g-P11fP12d",
+  "x": "157g-P11fP12d2",
+  "x_res": "AI (100%), 01:42:22",
+  "changed": 3
+ },
+ {
+  "pair": 21,
+  "human_is": 2,
+  "h": "167g-P13j3",
+  "x": "168g-P13k4",
+  "x_res": "AI (100%), 05:35:29",
+  "changed": 3
+ },
+ {
+  "pair": 22,
+  "human_is": 1,
+  "h": "172g-P14z3P15f2",
+  "x": "170g-P14zP15f2",
+  "x_res": "Mixed (59% AI), 05:51:34: P15f2 (69 words)",
+  "changed": 3
+ },
+ {
+  "pair": 23,
+  "human_is": 2,
+  "h": "176g-P13o1",
+  "x": "176g-P13o2",
+  "x_res": "AI (100%), 06:16:38",
+  "changed": 3
+ },
+ {
+  "pair": 24,
+  "human_is": 1,
+  "h": "176g-P13o1",
+  "x": "176g-P13o3",
+  "x_res": "AI (100%), 06:16:42",
+  "changed": 3
+ },
+ {
+  "pair": 25,
+  "human_is": 2,
+  "h": "179g-P14z5P15g1",
+  "x": "173g-P14z5P15f2",
+  "x_res": "Mixed (59% AI), 05:59:12: P15f2 (69 words)",
+  "changed": 3
+ },
+ {
+  "pair": 26,
+  "human_is": 2,
+  "h": "195g-P8t",
+  "x": "196g-P8v",
+  "x_res": "Mixed (45% AI), 00:23:47: its first two sentences (38 words)",
+  "changed": 3
+ },
+ {
+  "pair": 27,
+  "human_is": 2,
+  "h": "129g-P18c",
+  "x": "129g-P18i",
+  "x_res": "AI (100%), 05:00:20",
+  "changed": 4
+ },
+ {
+  "pair": 28,
+  "human_is": 2,
+  "h": "129g-P2bP3c4",
+  "x": "129g-P2bP3e",
+  "x_res": "AI (100%), 04:58:59",
+  "changed": 4
+ },
+ {
+  "pair": 29,
+  "human_is": 2,
+  "h": "129g-P2bP3c4",
+  "x": "135g-P2rP3c4",
+  "x_res": "AI (100%), 05:57:46",
+  "changed": 4
+ },
+ {
+  "pair": 30,
+  "human_is": 2,
+  "h": "130g-P18j",
+  "x": "129g-P18i",
+  "x_res": "AI (100%), 05:00:20",
+  "changed": 4
+ },
+ {
+  "pair": 31,
+  "human_is": 1,
+  "h": "130g-P25b5P26",
+  "x": "130g-P25b6P26",
+  "x_res": "AI (100%), 05:04:00",
+  "changed": 4
+ },
+ {
+  "pair": 32,
+  "human_is": 1,
+  "h": "131g-P25b9",
+  "x": "129g-P25b3",
+  "x_res": "Mixed (66% AI), 05:00:30: \"It would be great if\u2026\" to the end (85 words)",
+  "changed": 4
+ },
+ {
+  "pair": 33,
+  "human_is": 2,
+  "h": "131g-P25b9P26",
+  "x": "129g-P25b3P26",
+  "x_res": "AI (100%), 05:00:41",
+  "changed": 4
+ },
+ {
+  "pair": 34,
+  "human_is": 1,
+  "h": "131g-P25b9P26",
+  "x": "135g-P25b11P26o",
+  "x_res": "Mixed (39% AI), 05:57:36: \"No upbringing can provide\u2026\" to P26's end (68 words)",
+  "changed": 4
+ },
+ {
+  "pair": 35,
+  "human_is": 2,
+  "h": "134g-P25b11",
+  "x": "129g-P25b4",
+  "x_res": "Mixed (66% AI), 05:00:35: the same (86 words)",
+  "changed": 4
+ },
+ {
+  "pair": 36,
+  "human_is": 2,
+  "h": "135g-P25b11P26",
+  "x": "134g-P25b9P26n",
+  "x_res": "Mixed (39% AI), 05:55:55: \"No upbringing can provide\u2026\" to P26's end (69 words)",
+  "changed": 4
+ },
+ {
+  "pair": 37,
+  "human_is": 1,
+  "h": "135g-P25b13",
+  "x": "134g-P25b12",
+  "x_res": "AI (100%), 05:55:51",
+  "changed": 4
+ },
+ {
+  "pair": 38,
+  "human_is": 2,
+  "h": "169g-P6g2P7k3",
+  "x": "169g-P6g2P7k2",
+  "x_res": "AI (100%), 05:47:49",
+  "changed": 4
+ },
+ {
+  "pair": 39,
+  "human_is": 2,
+  "h": "170g-P13n1",
+  "x": "168g-P13k4",
+  "x_res": "AI (100%), 05:35:29",
+  "changed": 4
+ },
+ {
+  "pair": 40,
+  "human_is": 2,
+  "h": "172g-P14z4P15f2",
+  "x": "170g-P14zP15f2",
+  "x_res": "Mixed (59% AI), 05:51:34: P15f2 (69 words)",
+  "changed": 4
+ },
+ {
+  "pair": 41,
+  "human_is": 1,
+  "h": "195g-P8t",
+  "x": "197g-P8y",
+  "x_res": "AI (100%), 00:25:21",
+  "changed": 4
+ },
+ {
+  "pair": 42,
+  "human_is": 2,
+  "h": "95g-P8",
+  "x": "97g-P8c",
+  "x_res": "AI Assisted (100%)",
+  "changed": 4
+ },
+ {
+  "pair": 43,
+  "human_is": 1,
+  "h": "129g-P2bP3c4",
+  "x": "129g-P2bP3g",
+  "x_res": "AI (100%), 04:59:03",
+  "changed": 5
+ },
+ {
+  "pair": 44,
+  "human_is": 1,
+  "h": "129g-P2bP3c4",
+  "x": "130g-P2bP3k",
+  "x_res": "AI (100%), 05:04:09",
+  "changed": 5
+ },
+ {
+  "pair": 45,
+  "human_is": 2,
+  "h": "130g-P25b6",
+  "x": "129g-P25b3",
+  "x_res": "Mixed (66% AI), 05:00:30: \"It would be great if\u2026\" to the end (85 words)",
+  "changed": 5
+ },
+ {
+  "pair": 46,
+  "human_is": 2,
+  "h": "130g-P25b8",
+  "x": "129g-P25b3",
+  "x_res": "Mixed (66% AI), 05:00:30: \"It would be great if\u2026\" to the end (85 words)",
+  "changed": 5
+ },
+ {
+  "pair": 47,
+  "human_is": 1,
+  "h": "131g-P25b9",
+  "x": "133g-P25b10",
+  "x_res": "AI (100%), 05:52:37",
+  "changed": 5
+ },
+ {
+  "pair": 48,
+  "human_is": 2,
+  "h": "133g-P13dP14c",
+  "x": "129g-P13dP14b",
+  "x_res": "AI (100%), 04:59:33",
+  "changed": 5
+ },
+ {
+  "pair": 49,
+  "human_is": 1,
+  "h": "133g-P18m",
+  "x": "129g-P18i",
+  "x_res": "AI (100%), 05:00:20",
+  "changed": 5
+ },
+ {
+  "pair": 50,
+  "human_is": 1,
+  "h": "134g-P13hP14c",
+  "x": "133g-P13fP14c",
+  "x_res": "Mixed (63% AI), 05:51:22: P13f and P14c's first sentence (68 words)",
+  "changed": 5
+ },
+ {
+  "pair": 51,
+  "human_is": 2,
+  "h": "134g-P19d",
+  "x": "137g-P19h",
+  "x_res": "AI (100%), 15:13:20",
+  "changed": 5
+ },
+ {
+  "pair": 52,
+  "human_is": 1,
+  "h": "134g-P25b11",
+  "x": "134g-P25b12",
+  "x_res": "AI (100%), 05:55:51",
+  "changed": 5
+ },
+ {
+  "pair": 53,
+  "human_is": 1,
+  "h": "168g-P6g2P7k1",
+  "x": "169g-P6g2P7k2",
+  "x_res": "AI (100%), 05:47:49",
+  "changed": 5
+ },
+ {
+  "pair": 54,
+  "human_is": 2,
+  "h": "170g-P13n1",
+  "x": "176g-P13o2",
+  "x_res": "AI (100%), 06:16:38",
+  "changed": 5
+ },
+ {
+  "pair": 55,
+  "human_is": 1,
+  "h": "170g-P13n1",
+  "x": "176g-P13o3",
+  "x_res": "AI (100%), 06:16:42",
+  "changed": 5
+ },
+ {
+  "pair": 56,
+  "human_is": 1,
+  "h": "179g-P14z6P15g1",
+  "x": "170g-P14zP15f2",
+  "x_res": "Mixed (59% AI), 05:51:34: P15f2 (69 words)",
+  "changed": 5
+ },
+ {
+  "pair": 57,
+  "human_is": 2,
+  "h": "197g-P8x",
+  "x": "196g-P8v",
+  "x_res": "Mixed (45% AI), 00:23:47: its first two sentences (38 words)",
+  "changed": 5
+ },
+ {
+  "pair": 58,
+  "human_is": 2,
+  "h": "95g-P8",
+  "x": "97g-P8b",
+  "x_res": "Mixed (41% AI): the opening to \"\u2026it's a powerful picture.\" (41 words)",
+  "changed": 5
+ },
+ {
+  "pair": 59,
+  "human_is": 2,
+  "h": "127g-P19b",
+  "x": "133g-P19c",
+  "x_res": "AI (100%), 05:52:07",
+  "changed": 6
+ },
+ {
+  "pair": 60,
+  "human_is": 2,
+  "h": "127g-P20b",
+  "x": "127g-P20a",
+  "x_res": "AI (100%), 04:52:28",
+  "changed": 6
+ },
+ {
+  "pair": 61,
+  "human_is": 1,
+  "h": "127g-P9aP10c",
+  "x": "128g-P9aP10e",
+  "x_res": "Mixed (59% AI), 04:54:17: P9a's last sentence and P10e (66 words)",
+  "changed": 6
+ },
+ {
+  "pair": 62,
+  "human_is": 1,
+  "h": "129g-P13dP14a",
+  "x": "129g-P13dP14b",
+  "x_res": "AI (100%), 04:59:33",
+  "changed": 6
+ },
+ {
+  "pair": 63,
+  "human_is": 2,
+  "h": "129g-P13dP14a",
+  "x": "133g-P13fP14c",
+  "x_res": "Mixed (63% AI), 05:51:22: P13f and P14c's first sentence (68 words)",
+  "changed": 6
+ },
+ {
+  "pair": 64,
+  "human_is": 1,
+  "h": "129g-P18c",
+  "x": "129g-P18h",
+  "x_res": "AI (100%), 05:00:14",
+  "changed": 6
+ },
+ {
+  "pair": 65,
+  "human_is": 2,
+  "h": "129g-P2bP3c4",
+  "x": "128g-P2aP3f",
+  "x_res": "AI (100%), 04:53:55",
+  "changed": 6
+ },
+ {
+  "pair": 66,
+  "human_is": 2,
+  "h": "130g-P25b5P26",
+  "x": "134g-P25b9P26n",
+  "x_res": "Mixed (39% AI), 05:55:55: \"No upbringing can provide\u2026\" to P26's end (69 words)",
+  "changed": 6
+ },
+ {
+  "pair": 67,
+  "human_is": 2,
+  "h": "130g-P25b8",
+  "x": "133g-P25b10",
+  "x_res": "AI (100%), 05:52:37",
+  "changed": 6
+ },
+ {
+  "pair": 68,
+  "human_is": 2,
+  "h": "131g-P25b9P26",
+  "x": "133g-P25b10P26n",
+  "x_res": "AI (100%), 05:52:42",
+  "changed": 6
+ },
+ {
+  "pair": 69,
+  "human_is": 1,
+  "h": "133g-P13dP14c",
+  "x": "133g-P13fP14a",
+  "x_res": "AI (100%), 05:51:35",
+  "changed": 6
+ },
+ {
+  "pair": 70,
+  "human_is": 2,
+  "h": "133g-P13gP14c",
+  "x": "133g-P13fP14c",
+  "x_res": "Mixed (63% AI), 05:51:22: P13f and P14c's first sentence (68 words)",
+  "changed": 6
+ },
+ {
+  "pair": 71,
+  "human_is": 1,
+  "h": "134g-P13hP14c",
+  "x": "127g-P13aP14a",
+  "x_res": "Mixed (63% AI), 04:51:41: P13a and P14a's first sentence (71 words)",
+  "changed": 6
+ },
+ {
+  "pair": 72,
+  "human_is": 1,
+  "h": "134g-P19d",
+  "x": "134g-P19e",
+  "x_res": "AI (100%), 05:55:15",
+  "changed": 6
+ },
+ {
+  "pair": 73,
+  "human_is": 2,
+  "h": "135g-P25b13",
+  "x": "129g-P25b4",
+  "x_res": "Mixed (66% AI), 05:00:35: the same (86 words)",
+  "changed": 6
+ },
+ {
+  "pair": 74,
+  "human_is": 1,
+  "h": "167g-P13j3",
+  "x": "176g-P13o2",
+  "x_res": "AI (100%), 06:16:38",
+  "changed": 6
+ },
+ {
+  "pair": 75,
+  "human_is": 2,
+  "h": "167g-P13j3",
+  "x": "176g-P13o3",
+  "x_res": "AI (100%), 06:16:42",
+  "changed": 6
+ },
+ {
+  "pair": 76,
+  "human_is": 1,
+  "h": "176g-P13o1",
+  "x": "168g-P13k4",
+  "x_res": "AI (100%), 05:35:29",
+  "changed": 6
+ },
+ {
+  "pair": 77,
+  "human_is": 1,
+  "h": "176g-P14z3P15g1",
+  "x": "170g-P14zP15f2",
+  "x_res": "Mixed (59% AI), 05:51:34: P15f2 (69 words)",
+  "changed": 6
+ },
+ {
+  "pair": 78,
+  "human_is": 2,
+  "h": "197g-P8x",
+  "x": "197g-P8y",
+  "x_res": "AI (100%), 00:25:21",
+  "changed": 6
+ },
+ {
+  "pair": 79,
+  "human_is": 1,
+  "h": "129g-P13dP14a",
+  "x": "127g-P13aP14a",
+  "x_res": "Mixed (63% AI), 04:51:41: P13a and P14a's first sentence (71 words)",
+  "changed": 7
+ },
+ {
+  "pair": 80,
+  "human_is": 2,
+  "h": "130g-P18j",
+  "x": "129g-P18h",
+  "x_res": "AI (100%), 05:00:14",
+  "changed": 7
+ },
+ {
+  "pair": 81,
+  "human_is": 2,
+  "h": "130g-P25b5",
+  "x": "134g-P25b12",
+  "x_res": "AI (100%), 05:55:51",
+  "changed": 7
+ },
+ {
+  "pair": 82,
+  "human_is": 2,
+  "h": "131g-P25b9",
+  "x": "129g-P25b4",
+  "x_res": "Mixed (66% AI), 05:00:35: the same (86 words)",
+  "changed": 7
+ },
+ {
+  "pair": 83,
+  "human_is": 1,
+  "h": "133g-P13gP14c",
+  "x": "127g-P13aP14a",
+  "x_res": "Mixed (63% AI), 04:51:41: P13a and P14a's first sentence (71 words)",
+  "changed": 7
+ },
+ {
+  "pair": 84,
+  "human_is": 1,
+  "h": "133g-P18l",
+  "x": "129g-P18i",
+  "x_res": "AI (100%), 05:00:20",
+  "changed": 7
+ },
+ {
+  "pair": 85,
+  "human_is": 1,
+  "h": "134g-P19d",
+  "x": "137g-P19f",
+  "x_res": "AI (100%), 15:13:15",
+  "changed": 7
+ },
+ {
+  "pair": 86,
+  "human_is": 1,
+  "h": "134g-P25b11",
+  "x": "129g-P25b3",
+  "x_res": "Mixed (66% AI), 05:00:30: \"It would be great if\u2026\" to the end (85 words)",
+  "changed": 7
+ },
+ {
+  "pair": 87,
+  "human_is": 1,
+  "h": "135g-P25b11P26",
+  "x": "129g-P25b3P26",
+  "x_res": "AI (100%), 05:00:41",
+  "changed": 7
+ },
+ {
+  "pair": 88,
+  "human_is": 2,
+  "h": "166g-P14y3P15f2",
+  "x": "170g-P14zP15f2",
+  "x_res": "Mixed (59% AI), 05:51:34: P15f2 (69 words)",
+  "changed": 7
+ },
+ {
+  "pair": 89,
+  "human_is": 2,
+  "h": "167g-P13j3",
+  "x": "170g-P13n5",
+  "x_res": "Mixed (45% AI), 05:51:25: from \"That you can take\" (47 words)",
+  "changed": 7
+ },
+ {
+  "pair": 90,
+  "human_is": 2,
+  "h": "172g-P14z3P15f2",
+  "x": "173g-P14z5P15f2",
+  "x_res": "Mixed (59% AI), 05:59:12: P15f2 (69 words)",
+  "changed": 7
+ },
+ {
+  "pair": 91,
+  "human_is": 1,
+  "h": "179g-P14z4P15g1",
+  "x": "170g-P14zP15f2",
+  "x_res": "Mixed (59% AI), 05:51:34: P15f2 (69 words)",
+  "changed": 7
+ },
+ {
+  "pair": 92,
+  "human_is": 2,
+  "h": "179g-P14z5P15g1",
+  "x": "170g-P14zP15f2",
+  "x_res": "Mixed (59% AI), 05:51:34: P15f2 (69 words)",
+  "changed": 7
+ },
+ {
+  "pair": 93,
+  "human_is": 1,
+  "h": "192g-D2H3P34m",
+  "x": "191g-P34n1",
+  "x_res": "AI (100%), 23:01:31",
+  "changed": 7
+ },
+ {
+  "pair": 94,
+  "human_is": 1,
+  "h": "95g-P8",
+  "x": "97g-P8a",
+  "x_res": "Mixed (66% AI): \"Still, it's a powerful picture. In her account\u2026\" to the end (64 words)",
+  "changed": 7
+ },
+ {
+  "pair": 95,
+  "human_is": 1,
+  "h": "127g-P19b",
+  "x": "137g-P19h",
+  "x_res": "AI (100%), 15:13:20",
+  "changed": 8
+ },
+ {
+  "pair": 96,
+  "human_is": 1,
+  "h": "127g-P22aP23",
+  "x": "127g-P22cP23",
+  "x_res": "AI (100%), 04:52:59",
+  "changed": 8
+ },
+ {
+  "pair": 97,
+  "human_is": 2,
+  "h": "129g-P2bP3c4",
+  "x": "128g-P2aP3e",
+  "x_res": "AI (100%), 04:53:51",
+  "changed": 8
+ },
+ {
+  "pair": 98,
+  "human_is": 2,
+  "h": "129g-P2bP3c4",
+  "x": "129g-P2gP3e",
+  "x_res": "AI (100%), 04:59:21",
+  "changed": 8
+ },
+ {
+  "pair": 99,
+  "human_is": 1,
+  "h": "129g-P2bP3c4",
+  "x": "134g-P2oP3c4",
+  "x_res": "AI (100%), 05:54:40",
+  "changed": 8
+ },
+ {
+  "pair": 100,
+  "human_is": 1,
+  "h": "130g-P25b6",
+  "x": "129g-P25b4",
+  "x_res": "Mixed (66% AI), 05:00:35: the same (86 words)",
+  "changed": 8
+ },
+ {
+  "pair": 101,
+  "human_is": 1,
+  "h": "130g-P25b8",
+  "x": "129g-P25b4",
+  "x_res": "Mixed (66% AI), 05:00:35: the same (86 words)",
+  "changed": 8
+ },
+ {
+  "pair": 102,
+  "human_is": 1,
+  "h": "133g-P13gP14c",
+  "x": "129g-P13dP14b",
+  "x_res": "AI (100%), 04:59:33",
+  "changed": 8
+ },
+ {
+  "pair": 103,
+  "human_is": 2,
+  "h": "134g-P13hP14c",
+  "x": "133g-P13fP14a",
+  "x_res": "AI (100%), 05:51:35",
+  "changed": 8
+ },
+ {
+  "pair": 104,
+  "human_is": 1,
+  "h": "134g-P25a3",
+  "x": "134g-P25a5",
+  "x_res": "AI (100%), 05:55:42",
+  "changed": 8
+ },
+ {
+  "pair": 105,
+  "human_is": 2,
+  "h": "170g-P13n1",
+  "x": "170g-P13n2",
+  "x_res": "AI (100%), 05:51:20",
+  "changed": 8
+ },
+ {
+  "pair": 106,
+  "human_is": 1,
+  "h": "170g-P13n1",
+  "x": "170g-P13n5",
+  "x_res": "Mixed (45% AI), 05:51:25: from \"That you can take\" (47 words)",
+  "changed": 8
+ },
+ {
+  "pair": 107,
+  "human_is": 2,
+  "h": "172g-P14z4P15f2",
+  "x": "173g-P14z5P15f2",
+  "x_res": "Mixed (59% AI), 05:59:12: P15f2 (69 words)",
+  "changed": 8
+ },
+ {
+  "pair": 108,
+  "human_is": 1,
+  "h": "188g-P34m",
+  "x": "191g-P34n2",
+  "x_res": "AI (100%), 23:01:35",
+  "changed": 8
+ }
+]

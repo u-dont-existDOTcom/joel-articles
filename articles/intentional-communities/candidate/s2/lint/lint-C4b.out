@@ -1,0 +1,5 @@
+== tells_lint: C4b.txt
+verdict: REVIEW
+metrics: {'words': 53, 'my_words': 53, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.03, 'repeated_openers': {}, 'source_map': [(3, 0.78)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- D9 follows the source order (1)
+   * 1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger

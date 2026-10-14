@@ -1,0 +1,410 @@
+[
+ {
+  "op": "set",
+  "collection": "sets",
+  "doc_id": "F",
+  "data": {
+   "order": 1,
+   "title": "The 14 sweep flags in your paragraphs",
+   "intro": "On 12 October I checked sections 1 to 12 against the published article for three kinds of break: an \"it\" or vaguer word where the original names something, a narrower thing in place of a general one, and a dropped word that sets a standard or says how long something holds. 14 of its 18 flags landed in your own paragraphs. For each: \"You meant it\" (a change you made on purpose, so the check should leave your choices alone), \"Same meaning\" (the check is wrong, and I fix the check), or \"Fix it\" (a real mistake: I fix the text). Two of them (F4 and F6) contain my words, which you approved."
+  }
+ },
+ {
+  "op": "set",
+  "collection": "sets",
+  "doc_id": "I",
+  "data": {
+   "order": 2,
+   "title": "When is \"it\" clear?",
+   "intro": "You said \"it\" is fine when it's clear what it refers to. These are the cases my checks have argued about. For each, is the \"it\" clear in its place?"
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F1",
+  "data": {
+   "set": "F",
+   "n": 1,
+   "where": "Section 1, the Twin Oaks paragraph",
+   "published": "It felt more like a tiny hippie town with an unusually complicated labor-credit system.",
+   "now": "It was more like a tiny hippie town, but with a highly structured political system that didn't seem intuitive for hippies.",
+   "source": "Your edits of 30 September, 18:58 UTC (section 1 v3). Your edit took \"labor credit\" out.",
+   "check": "\"Political system\" stands in for the labor-credit system, so a reader can't tell that the labor-credit scheme was the complicated part.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F2",
+  "data": {
+   "set": "F",
+   "n": 2,
+   "where": "Section 2, what communal ownership needs",
+   "published": "Communal ownership therefore needs named stewardship, visible duties, consequences for chronic freeloading, and enough relational capacity to confront the problem before resentment becomes the real government.",
+   "now": "It requires knowing what to do if someone is leeching off the group and how to deal with it.",
+   "source": "Your rewrite of 1 October, 14:49 UTC, with one spelling fix (\"leaching\" to \"leeching\").",
+   "check": "\"Chronic\" is gone, so any leeching seems to call for action, and knowing what to do replaces consequences.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F3",
+  "data": {
+   "set": "F",
+   "n": 3,
+   "where": "Section 2, the same paragraph",
+   "published": "(the same published sentence as F2) ... and enough relational capacity to confront the problem before resentment becomes the real government.",
+   "now": "It requires developing healthier forms of relationships.",
+   "source": "Your rewrite of 1 October, 14:49 UTC, unchanged.",
+   "check": "The reader can't tell the need is enough capacity to confront freeloading early, before resentment takes over; it reads as relationships in general.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F4",
+  "data": {
+   "set": "F",
+   "n": 4,
+   "where": "Section 2, the same paragraph",
+   "published": "A community cannot run on the assumption that removing bosses removes passivity, selfishness, theft, or learned helplessness.",
+   "now": "No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or stop trying to act helpless.",
+   "source": "Your rewrite had \"or try to act helpless\". \"Stop trying to\" is mine: I proposed it on 1 October at 16:46 and you said \"agree fix it\".",
+   "check": "\"Act helpless\" says people pretend to be helpless, where \"learned helplessness\" says they learned to be.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F5",
+  "data": {
+   "set": "F",
+   "n": 5,
+   "where": "Section 2, the next paragraph",
+   "published": "The desire to return to a natural way of living together has outrun the knowledge.",
+   "now": "People want to go back to the old way of living, but ...",
+   "source": "Your rewrite of 1 October, 14:49 UTC, unchanged in these words.",
+   "check": "\"The old way of living\" could mean living together or just traditional life, and \"natural\" is gone.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F6",
+  "data": {
+   "set": "F",
+   "n": 6,
+   "where": "Section 2, the same paragraph",
+   "published": "They usually don't know why so many earlier communities failed, why the same conflicts keep returning, or how quickly beautiful land becomes irrelevant once money, children, jealousy, and ownership enter the picture.",
+   "now": "... they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something.",
+   "source": "Your rewrite had \"why it failed\" and \"they run out of money\". \"Why earlier communes failed\" and \"the group runs out of money\" are mine, proposed on 1 October at 16:46; you said \"agree fix it\".",
+   "check": "Trouble now seems to arrive only at those events (money running out, a birth), not whenever money or children are part of the group.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F7",
+  "data": {
+   "set": "F",
+   "n": 7,
+   "where": "Section 3, P9",
+   "published": "I want depth without a guru owning it, and distributed authority without pretending that people arrive emotionally finished.",
+   "now": "A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn't become a permanent repair shop.",
+   "source": "Your fix of 2 October, 00:52 UTC: you want people to come in largely healed.",
+   "check": "A reader now believes the community admits only people who have already done their healing.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F8",
+  "data": {
+   "set": "F",
+   "n": 8,
+   "where": "Section 4, Inner pl/ork",
+   "published": "Then there's somatic regulation, because the mind can make a magnificent decision while the nervous system quietly files an appeal.",
+   "now": "And it's built on somatic regulation first.",
+   "source": "Your rewrite of 2 October, 21:16 UTC.",
+   "check": "A reader can't tell what \"it\" is (reparenting, the inner adult or the child), and somatic regulation becomes the base, not a second practice.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F9",
+  "data": {
+   "set": "F",
+   "n": 9,
+   "where": "Section 8, Children Need Freedom Inside Real Protection",
+   "published": "Children should understand that their words carry power and that adults will listen seriously.",
+   "now": "Make sure kids understand what they say will be taken seriously if they are known to be honest.",
+   "source": "Your text of 7 October, 15:05 UTC, unchanged.",
+   "check": "Only children with a record of honesty now get heard seriously; the published promise is for every child.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F10",
+  "data": {
+   "set": "F",
+   "n": 10,
+   "where": "Section 8, the same paragraph",
+   "published": "A frightened or confused child may tell a story imperfectly and still need protection.",
+   "now": "A scared or confused kid may get mixed up telling what happened, and that's to be expected.",
+   "source": "Your text of 7 October, 15:05 UTC, unchanged. (You had called \"may X and still Y\" an AI tell that day.)",
+   "check": "A reader no longer learns that a muddled account must not be used to dismiss the report, or that the child still needs protection.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F11",
+  "data": {
+   "set": "F",
+   "n": 11,
+   "where": "Section 8, dangerous children",
+   "published": "The child, the family, and the people at risk all need access to competent help and review that the home community does not control.",
+   "now": "In those cases, the child, the family, and the people at risk all need access to competent help and review, hopefully including non-intrusive help from outside the home community.",
+   "source": "Your text of 7 October, 15:05 UTC, unchanged.",
+   "check": "The independence standard is gone: review could stay inside the community, and outside help is only hoped for.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F12",
+  "data": {
+   "set": "F",
+   "n": 12,
+   "where": "Section 8, The Door Must Open Outward at Adulthood",
+   "published": "If children grow up without using money, they especially need enough knowledge of the outside money world not to be helpless in it: jobs, rent, contracts, banking, scams, identification, transportation, and how to ask for help.",
+   "now": "Kids in or outside of intentional communities all need to learn enough about how the money world outside operates that they aren't helpless in it.",
+   "source": "Your text of 7 October, 15:05 UTC, unchanged.",
+   "check": "The condition and \"especially\" are gone: every child needs this equally, and a money-free upbringing adds no particular duty.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F13",
+  "data": {
+   "set": "F",
+   "n": 13,
+   "where": "Section 11, How My Own Model Could Become a Cult",
+   "published": "Abstaining cannot reduce membership rights.",
+   "now": "It should go without saying that nobody has to take medicine to have equal respect in the community.",
+   "source": "Your rewrite of 11 October, 18:35 UTC, unchanged.",
+   "check": "Abstainers are now promised equal respect, not their membership rights (voice, admission, housing).",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "F14",
+  "data": {
+   "set": "F",
+   "n": 14,
+   "where": "Section 11, the same part",
+   "published": "Medicine prerequisites can create gatekeepers with power over people at their most open.",
+   "now": "And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping.",
+   "source": "Your rewrite of 11 October, 18:35 UTC, unchanged (it goes on: \"Well, it is gatekeeping.\").",
+   "check": "One kind of prerequisite replaces the general one, and particular people's power over those at their most open becomes the community \"feeling like\" it gatekeeps.",
+   "question": "Is the check right that the meaning changed?",
+   "options": [
+    "You meant it",
+    "Same meaning",
+    "Fix it"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "I1",
+  "data": {
+   "set": "I",
+   "n": 1,
+   "where": "Section 4, Inner pl/ork (your words)",
+   "context": "Inner-child reparenting means learning to identify as the best inner adult ... The child receives all that love, protection, and guidance that you give it, and in this process actually gains more freedom to remain alive inside you.",
+   "now": "And it's built on somatic regulation first.",
+   "nowLabel": "The sentence",
+   "question": "Is it clear what \"it\" refers to here?",
+   "options": [
+    "Clear",
+    "Unclear"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "I2",
+  "data": {
+   "set": "I",
+   "n": 2,
+   "where": "Section 12, my v9 (you: \"what?\")",
+   "context": "... there's a lot of peer counseling going on, people listening to each other, being there for each other and helping each other process ordinary emotional stuff.",
+   "now": "But it's not infinite.",
+   "nowLabel": "The sentence",
+   "question": "Is it clear what \"it\" refers to here?",
+   "options": [
+    "Clear",
+    "Unclear"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "I3",
+  "data": {
+   "set": "I",
+   "n": 3,
+   "where": "Section 12, my v9 (you: \"it referring to what? unclear\")",
+   "context": "How to use the framing of “I don't have the capacity to…” without it becoming a respectable way to exclude disabled people, poor people, ... – I don't know.",
+   "now": "It's not going to be solved by pretending it's unlimited.",
+   "nowLabel": "The sentence",
+   "question": "Is it clear what \"it\" refers to here?",
+   "options": [
+    "Clear",
+    "Unclear"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "I4",
+  "data": {
+   "set": "I",
+   "n": 4,
+   "where": "A test sentence for section 13 (the published: \"The power to remove somebody is also one of the easiest powers to abuse.\")",
+   "context": "... Restorative work is useful when it can work on a reasonable timescale; nobody has a duty to turn the commune into a treatment program for a person who is endangering everyone else.",
+   "now": "It's also one of the easiest powers to abuse.",
+   "nowLabel": "The sentence",
+   "question": "Is it clear what \"it\" refers to here?",
+   "options": [
+    "Clear",
+    "Unclear"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "I5",
+  "data": {
+   "set": "I",
+   "n": 5,
+   "where": "Section 11, P5, before 12 October",
+   "context": "Allow for parallel implementations. Fork the method. If the community finds a way to alter Hearthwork and get better results, they've taught me something.",
+   "now": "If it needs the founder's “blessing”, then it's not really running in parallel, is it?",
+   "nowLabel": "The sentence",
+   "question": "Is it clear what \"it\" refers to here?",
+   "options": [
+    "Clear",
+    "Unclear"
+   ]
+  }
+ },
+ {
+  "op": "set",
+  "collection": "items",
+  "doc_id": "I6",
+  "data": {
+   "set": "I",
+   "n": 6,
+   "where": "Section 11, P5, now (the second \"it\")",
+   "context": "Allow for parallel implementations. Fork the method. If the community finds a way to alter Hearthwork and get better results, they've taught me something.",
+   "now": "If every change they make still needs the founder's “blessing”, then it's not really running in parallel, is it?",
+   "nowLabel": "The sentence",
+   "question": "Is it clear what \"it\" refers to here?",
+   "options": [
+    "Clear",
+    "Unclear"
+   ]
+  }
+ }
+]

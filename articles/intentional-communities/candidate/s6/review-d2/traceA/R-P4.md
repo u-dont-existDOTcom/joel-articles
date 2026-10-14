@@ -1,0 +1,1 @@
+Personally, I think it's a better idea to invest in being more independent as a human than to wait for certainty. It's better to have community and find out I didn't need an exit than to need an exit after spending ten years optimizing my feed, right?

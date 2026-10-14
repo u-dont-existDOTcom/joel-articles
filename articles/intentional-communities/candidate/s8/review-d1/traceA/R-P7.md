@@ -1,0 +1,1 @@
+I'm in the camp that says moms should raise their own kids, but in a community where the care is really shared, so it isn't all on them. The village can handle meals, supervision, teaching, protection, playing, and a lot of the fathering, but it should never take the kids from the moms to "liberate" the moms.

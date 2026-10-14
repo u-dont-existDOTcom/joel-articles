@@ -1,0 +1,104 @@
+{
+ "title": "Jealousy Can Capture Monogamy or Free Love: section 7 beside the published one",
+ "meta": "Community article · section 7 · candidate v3, 2026-10-07 · Pangram web app: 100% Human (479 words scanned, 01:47 UTC)",
+ "intro": [
+  "Your published section is on the left; the humanized candidate is on the right, with words changed from the published highlighted and words cut struck.",
+  "The whole section reads 100% Human in Pangram's web app, and every paragraph passes alone, or with its neighbor where it's under 50 words. As published, every paragraph read AI. Most sentences are Emulate's, with words fixed where the meaning had moved.",
+  "Your P3 is in, and you OK'd P4 to P6. The notes list the meaning points the checkers raised that are still open."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "Jealousy Can Capture Monogamy or Free Love"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Any community that lasts will eventually",
+     "source": [
+      "Any community that lasts will be"
+     ],
+     "notes": [
+      "Emulate's sentences, with fixes: \"the next morning\" back in; \"sharing childcare\" (Emulate had written \"sharing the same kids\"); its \"etc.\" taken out, because your list is closed; \"the labor\" for its \"the work load\".",
+      "Kept: \"eventually\" (the version without it went in with other changes, so it wasn't tested alone). \"The next morning\" now sits next to the kitchen, and one checker reads it as covering only the kitchen. Splitting that sentence read AI, and so did four other wordings of it."
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "The discussion generally goes straight to",
+     "source": [
+      "The usual argument—monogamy versus free love—starts"
+     ],
+     "notes": [
+      "Emulate's wording: the discussion \"goes straight to\" monogamy or free love, which is \"one level too late in the conversation\". \"capture\" is yours (Emulate had written \"corrupt\").",
+      "Kept: \"in close quarters, jealousy gets magnified\". Yours says close quarters make jealousy bigger; this can read as only where it happens. The one version with your wording went in with other changes and that section read AI; I didn't test it alone."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "Rigid monogamy can turn fear and",
+     "source": [
+      "Rigid monogamy can turn fear and"
+     ],
+     "notes": [
+      "Your first sentence as published, Emulate's second (with your \"inner pl/ork\"), and your third: commas and \"or\" for Emulate's \"and … and … and\" (\"that looks like emulate trying to cheat, and it wasn't needed\"). \"their fear\" stays, as you said."
+     ]
+    },
+    {
+     "label": "P4",
+     "article": "I don't think it should be up",
+     "source": [
+      "I don’t think a community should choose"
+     ],
+     "notes": [
+      "Emulate's \"People can make different agreements with each other, in pairs, threes, fours, whatever.\" for couples and other configurations. \"as they wish\" stays: you read it as I do."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "Whatever forms people choose, I do think",
+     "source": [
+      "Whatever forms people choose, housing,"
+     ],
+     "notes": [
+      "\"some agreement with the people they're romantically involved with\": plural, like P4's threes and fours. You OK'd it."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "ZEGG and Tamera have spent decades",
+     "source": [
+      "ZEGG and Tamera have spent decades"
+     ],
+     "notes": [
+      "Emulate's \"Their answers are not a set of commandments that everyone must follow.\" and \"It is not necessary for 20 adults to pretend…\". You OK'd it.",
+      "A fresh reader asked what ZEGG and Tamera are. Your published sentence doesn't say either; the links do."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "The non-negotiable for me is that",
+     "source": [
+      "The non-negotiable for me is that"
+     ],
+     "notes": [
+      "Emulate added \"This doesn't mean it can't come up.\" Your \"felt in the body\" already implies it.",
+      "\"community rules\" for \"policy\". The first version said \"rules\", and the whole-article check said that would cover partners' own agreements, which P4 leaves to them. This essay uses \"policy\" only for community policy.",
+      "Kept: \"It needs to be able to be talked about and felt in the body\" can read as feeling it being allowed, not required. The fix (\"and to be felt\", with \"can't become\" for \"not be allowed to become\") left P7's end reading AI in the section (91% Human overall)."
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "There are some ways the group can",
+     "source": [
+      "The group can offer support and"
+     ],
+     "notes": [
+      "Emulate's \"There are some ways the group can help, and … basic boundaries the group can enforce\"; \"disagreements about this\", so it's the relationship question that stays open.",
+      "Kept: \"some ways the group can help\" is a little smaller than \"can offer support\"."
+     ]
+    }
+   ]
+  }
+ ]
+}

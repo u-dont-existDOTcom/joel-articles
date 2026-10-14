@@ -1,0 +1,1 @@
+I mention vaccination specifically because it's one of the values I would absolutely need to share with people in a community, if I was going to raise children there. I'm not trying to design a village for everyone, only saying that communities need some common ground among the parents on children's health, enough that they can actually trust one another.

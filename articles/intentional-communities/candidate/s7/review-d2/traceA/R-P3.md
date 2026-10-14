@@ -1,0 +1,1 @@
+Rigid monogamy can turn fear and possession into a moral law. If people are doing free love, but aren't doing the inner pl/ork, they can just end up with a larger spreadsheet to distribute their fear over. It's not like calling something by a certain name dissolves the childhood panic and the comparison and the terror of abandonment and the desire to control another person.

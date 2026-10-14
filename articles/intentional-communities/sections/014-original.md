@@ -1,0 +1,76 @@
+# Your Little Forming Group Already Is the Community
+
+Land can wait. The first community is the small group considering whether to build one.
+
+Before ownership and major resources mix, process one real conflict all the way through.
+
+Don’t smooth it over with a vision statement or settle for a truce nobody believes. Name what happened. Give each person time. Find the jealousy, humiliation, fear, or old material involved. Reach an agreement only after the emotional pressure has changed enough that the agreement means something.
+
+A group that has never done this is still a circle of promising strangers. I would not ask that circle to take on a mortgage yet.
+
+Rent a meeting space, borrow a room, or use somebody’s home. Discover the group’s conflict capacity before hiring a surveyor.
+
+Do the boring capacity budget too: water, housing, food stores, health care, tools, seasonal labor, transport, schooling, market access, outside debts or cash runway if the community uses them, and the few skills whose absence can stop everything. A group can have extraordinary emotional skill and still die because the well fails or one exhausted person is the only one who knows where everything is and how it works.
+
+## Please Choose the Values Before Falling in Love With the View
+
+People often choose communities the way they choose vacation rentals: the land is gorgeous, the pond reflects the sunset, and everybody was warm during the visit.
+
+The pond gets the first date. The vaccination policy arrives two years later carrying documents.
+
+Before visiting a community, write down what you actually believe about children, money, ownership, romance, medicine, food, spiritual practice, technology, privacy, conflict, and exit. Mark the places where you’re unsure.
+
+Add sexuality and gender to that list. Could an LGBTQ+ member live openly, form relationships, and remain fully protected by the community? Should children be taught that they should question their sexual identities at an early age? What happens if one of the children grows up gay or trans? A group that hasn’t answered those questions hasn’t finished discussing either freedom or child-rearing values.
+
+“Willing to experiment” is a real value. It has to be declared because the person beside you may believe the experiment ended in 1978 and the results are now doctrine.
+
+Then compare your values with the group’s actual behavior, not only its public language. Ask how a recent conflict was handled. Ask who can block a decision. Ask what happened to the last person who left. Ask who owns the land. The view will still be there after the uncomfortable conversation.
+
+## Resources, Land, and Exit Terms
+
+Whoever owns the land holds enormous power over the community.
+
+If the founder’s name is on the deed, you have a landlord with a philosophy. If three of twelve members own everything, you have two membership classes whether or not the welcome packet uses the word “equal.”
+
+Choose the legal form—cooperative, trust, association, company, or whatever fits the jurisdiction—before the purchase. Decide voting rights, access and use rights for shared resources, contribution accounting if you use it, inheritance, outside debt, improvements, and what happens when somebody leaves.
+
+Then make the material system legible. A money-free community still has scarce things and bottlenecks. Members should be able to know what the community owns or holds in common, what is reserved, what obligations exist outside the community, who can allocate major resources, and where conflicts of interest lie. Large transfers of land, equipment, stores, or outside cash should not depend on one person’s memory or permission. Define exit rights in whatever unit makes sense—cash if the community uses it, but also tools, transport, temporary housing, stored goods, or continued use rights—so exit is not a paper right that works only when the community has spare money.
+
+Good people leave for good reasons: a dying parent, love, work, health, exhaustion, or a changed mind. If leaving means forfeiting everything contributed, staying becomes coercive.
+
+Write the exit terms while departure is still hypothetical. This is the community equivalent of discussing a prenup while planning the wedding: unromantic, protective, and much easier before anybody is furious.
+
+For the full sequence—vision before membership, membership before pooling major resources, major resources before land—read Diana Leafe Christian’s [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf).
+
+## From Visitor to Member—Slowly
+
+[The Farm](https://thefarmcommunity.com/) grew rapidly, with many people arriving in need and few effective filters. Openness felt spiritual. The practical burden accumulated anyway.
+
+A membership process protects existing members and newcomers. Nobody benefits from joining a group that cannot support what it has promised.
+
+Correspond first. Has the person read the materials? Do they understand why this community exists? Have they begun the relevant practices? A thoughtful exchange costs far less than a six-month misunderstanding.
+
+Short visit. Spend a week or two participating in ordinary life. Most people can be charming for two weeks. Congratulations: you have established that they can be charming for two weeks. 😅
+
+Long visit. Stay long enough for inconvenience and conflict to appear. Observe how the person responds when tired, corrected, attracted, disappointed, or bored. Even [a professional faker](http://sidney.u-dont-exist.com/) can sometimes perform for months; time gives you more evidence, not certainty.
+
+Provisional membership. Define the period, rights, responsibilities, review process, and exit. The recruiter should not control the decision.
+
+Full membership. Land and shared-resource rights, voice, and long-term obligations follow the founding agreements.
+
+At each stage, assess concrete conduct rather than spiritual vocabulary or therapeutic fluency. Vibes are easy, but so is mistaking conformity for safety. Six months gives you a larger sample; it does not validate a “good person” detector. For high-consequence roles involving children, shared resources, medicine, vehicles, or private records, use conduct-specific evidence, references where appropriate, staged access, and an independent way to challenge the decision.
+
+Before provisional membership, do more than hang out. Make one real group decision together, do one ordinary work or shared-resource task, and process one small conflict afterward. A premove simulation cannot reveal a soul, but it can reveal whether the actual coordination system works before anybody sells a house.
+
+Visitors, volunteers, workers, renters, and interns do not need full political membership to have rights. If a decision materially affects their compensation or access to shared resources, schedule, safety, housing, records, or discipline, they need clear terms, a way to be heard, and review. Egalitarianism that stops at the membership boundary can recreate a servant class between communes.
+
+## When Somebody Has to Go
+
+A safe community cannot promise to keep everyone. If somebody poses a serious or generalized danger, repeatedly violates essential boundaries, or makes ordinary shared life impossible, ejection can be the right answer. Restorative work is useful when it can work on a reasonable timescale; nobody has a duty to turn the commune into a treatment program for a person who is endangering everyone else.
+
+The power to remove somebody is also one of the easiest powers to abuse. Decide the process before the name: what conduct triggers immediate protective action, who preserves evidence, who is recused, who decides temporary restrictions, how the person replies, what review or appeal is possible without endangering others, how housing, access to common resources or outside funds if any, records, and family contact are protected during separation, and what calls for outside help.
+
+“Outside” does not always mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The important thing is a competent layer that is not reviewing its own conduct: sometimes another community, a federation, a professional, an autonomous regional institution, a court, regulator, or emergency service. The Zapatistas are an important correction here: autonomous institutions can review local power without becoming the state. But autonomy is not permission to erase non-waivable individual rights, and it does not make outside jurisdiction disappear.
+
+Also choose a mediator or ombud before the crisis. People who have never met the “neutral stranger” until the day of the explosion often do not trust them. Mediation is for repair; it is not a substitute for evidence, safeguarding, adjudication, or a final separation when consent is gone.
+

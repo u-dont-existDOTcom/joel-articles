@@ -1,0 +1,67 @@
+You're judging sentences from an essay by Joel for one AI-writing tell: a feeling, an idea, a quality or another abstraction doing what a person does (wanting, deciding, answering, teaching, arriving, trying). The tell isn't the grammar. People give abstractions a person's moves all the time, and that is ordinary speech. The tell is the neat, efficient, quotable version, the line built to sound wise, which models write far more often than people do. Joel's words: "the usage of abstract concepts or feelings as agents is one AI tell because it permits high efficiency of words"; and on "Modern life trains us to perform competence": "actually very human to say ... so common it's almost cliche, it's not a witty AI quip".
+
+Joel's own ratings follow (1 = a person would say it, 5 = AI). Judge the way he does.
+
+# Abstract concepts or feelings as agents: Joel's ratings (2026-10-02)
+
+Joel, 21:16: "maby we can do a special training on it if you want to get more clarity you could ask me to rate a number of versions of it for how ai it looks or something (and you also first tell me your guess)." I gave ten lines with my guesses, on a scale of 1 (a person talking) to 5 (AI). His answer, 23:49: "agree, except for 8 i'd say (4). 10: (2)".
+
+| # | line | my guess | Joel |
+|---|---|---|---|
+| 1 | "So the anger goes there, trying to get some justice." | 4 | 4 |
+| 2 | "Politics will become a way of carrying emotional material that people can't name." | 3 | 3 |
+| 3 | "Money won't fix that." | 1 | 1 |
+| 4 | "Grief doesn't keep a schedule." | 5 | 5 |
+| 5 | "My jealousy got the better of me that night." | 1 | 1 |
+| 6 | "Loneliness drove a lot of people into those comment sections." | 2 | 2 |
+| 7 | "Shame does its work in the dark." | 5 | 5 |
+| 8 | "The vision can't determine a departing member's share." | 3 | 4 |
+| 9 | "Fear makes the decision before you've even noticed it." | 4 | 4 |
+| 10 | "Hope kept that commune going for three more winters." | 3 | 2 |
+
+Where we differed: line 8 is an abstract agent doing an abstract job in a general claim (a published AI sentence from the community article), and he rated it more AI; line 10 is a small, concrete story with a time span, and he rated it more human. The idioms (3, 5) and the aphorisms (4, 7) we agreed on.
+
+## Joel's rulings, 2026-10-07 (community article)
+
+| line | where | Joel |
+|---|---|---|
+| "Once a kid is already living inside the disagreement, goodwill doesn't answer those questions." | section 8 P28, a rewrite of the published "Goodwill doesn't answer those questions after a child is already living inside the disagreement." | AI. 20:21 UTC: "that AI tell again, in the linter. abstracts doing things." It read AI in about 25 wordings; the cut passed. |
+| "Modern life trains us to perform competence while hiding whatever might complicate the performance." | the published article, a later section | Human. 23:50 UTC: "actually very human to say ... so common it's almost cliche, it's not a witty AI quip, you know?" |
+| "Nobody's status buys silence." | section 8 P19, from the published "nobody's status buys silence" | Between. 23:50 UTC: "intermediate between an ai quip and what a human would normally say, and it passed pangram so it's ok" |
+
+So the tell is the neat, quotable line where an abstraction does a person's job to make the sentence land ("Grief doesn't keep a schedule", "Shame does its work in the dark", "goodwill doesn't answer those questions"). A phrase people say all the time, even a cliché, is ordinary speech ("Money won't fix that", "Modern life trains us"). A word list can't tell them apart, and neither can a parser: the linter (O6) only collects candidates, and `abstract_agents_prompt.py` has a fresh agent judge them against these ratings.
+
+For each numbered CANDIDATE below (found by a script that reads the grammar, so some are misreadings), write one line:
+  N. EVERYDAY | BETWEEN | QUIP | NOT ONE - five to fifteen words on why
+- EVERYDAY: the way people actually talk or write, including clichés, idioms, reported beliefs ("believing love can heal anyone") and plain description ("interest climbed sharply").
+- BETWEEN: partly a neat line, partly ordinary (like "Nobody's status buys silence", which Joel left in).
+- QUIP: polished, aphoristic, efficient; the abstraction is doing a person's job to make the line land ("Grief doesn't keep a schedule", "goodwill doesn't answer those questions").
+- NOT ONE: the subject is a person or a group, or the script misread the sentence.
+A line marked [JOEL'S] is the author's own: label it, but propose nothing.
+
+Then, under "MISSED:", list any other sentence in THE TEXT where an abstraction does a person's job and you'd judge it BETWEEN or QUIP, quoted, with the same labels. Leave out the EVERYDAY ones there.
+
+End with one line: the counts of QUIP and BETWEEN, candidates and missed together. Don't suggest rewrites.
+
+CANDIDATES:
+1. At the federation level, that outward purpose gets concrete: spreading healing practices, training people, seeding new projects, and keeping any one comfortable enclave from thinking it's the whole movement.
+2. These things all take up labor and material capacity before any local crisis has eaten into them.
+
+THE TEXT:
+Experimenting with a different rule doesn't have to mean everybody goes out and buys new land right away. Try it inside the parent group first, then as a semi-autonomous project, and then, if it needs more independence, as a seed group nearby that still shares some tools, childcare, business or friendships. Splitting off completely should be just one step along that gradient, and nobody should have to do it just to be allowed to experiment.
+
+Some experiments (like a different land system, or a different population size, or any number of rules that work together) can't be tried in a way that's cheap. They may look bad when they're starved of the assets they actually need. "We tried it in one room for three months" isn't always a fair test.
+
+
+
+If these communities are supposed to spread, somebody eventually has to solve the boring problem of how they stay connected without turning into a super-commune (that's essentially just another state, with a nicer logo). I'd like them to connect, help each other and move people and knowledge around, but also to stay distinct enough that they can learn from one another. At the federation level, that outward purpose gets concrete: spreading healing practices, training people, seeding new projects, and keeping any one comfortable enclave from thinking it's the whole movement.
+
+The Federation of Egalitarian Communities says it's rebuilding, and that's a good warning. It takes work to run a federation. Delegates. Records. Compliance. Coordinating resources. Holding meetings. Succession. Whatever dispute function it actually takes on. These things all take up labor and material capacity before any local crisis has eaten into them. If the legal or economic environment requires it, the federation also needs to have a budget of outside money. It might also be good to know that the work of federation doesn't have to be done by a single entity. Two communities might want to be closely linked as friends, and that doesn't stop both of them from also being part of a general federation. There can also be local clusters, or single-function institutions like the FEC's PEACH health pool, which isn't currently governed by the FEC delegates.
+
+One key to this whole thing is that cooperation shouldn't quietly turn into merging. The FEC has full members and communities working toward full membership, and Friends who may just want to stay friends. Also, people need a practical freedom to move between communities, and that takes work: housing, status, health coverage, records, labor accounting, travel costs, taxes, and disputes over the transition all have to be set up, or the freedom to move is just decorative. Fortunately, that interface can often be thin, saying who's responsible for what while somebody crosses between them, and communities don't have to have the same internal systems for it to work.
+
+Even if nobody uses money internally, communities still need an honest way to keep track of exchanges and obligations. A gift of food, pooled medicine, a vehicle or a tool on loan, trades of labor, emergency housing, a shared building project, a visit that's mainly for training or relationship building: they're all different events, and some of them create future obligations while others don't. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be "even". If cash is used for transactions with the outside world, the same goes for grants and loans. Guarantees and shared enterprise commitments should be tracked separately too. Solidarity doesn't make every community liable for whatever the others owe, and it doesn't give anyone an unlimited claim on another community's labor and stores, or its land and tools.
+
+When you create a rule to deal with a collision of two principles, don't only store the rule. Store the hard case too: what happened, the principles involved, your first judgments, your final decision and rationale, any dissenting opinions, the consequences, and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
+
+Use no tools except reading this one file and writing your answer to /home/claude/lessons/articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/intentional-communities/candidate/s10/review-e1/ABSTRACT-e1.md with one Write call. Then return it as your final message.

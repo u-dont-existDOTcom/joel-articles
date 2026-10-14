@@ -1,0 +1,9 @@
+You are checking a rewrite against its published original for one kind of lost meaning. Work only from the two files named here.
+
+The kind: what one thing does for another. Example of a loss: the published "The container gives that work a stable place to happen" became "this part is the container itself". Naming what a part is doesn't say what it does for the others, so the function was lost. A function said in other words is not a loss ("The audit committee gives members a way to check the treasurer's work" and "the audit committee is how members can check what the treasurer did" say the same thing).
+
+Files: the published article /home/claude/reg1013/articles/intentional-communities/original.md and the current rewrite /home/claude/reg1013/articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md (HTML comments are notes, not text). Check sections 1, 2, 3, 6, 7, 8, 9, 10 and 11, matching each published section to the rewrite's section with the same or a similar heading. Skip sections 4, 5 and 12 (now the author's own text).
+
+For every sentence in the published sections that says what one thing (a person, a group, a practice, a structure, a document) does for, gives to, protects, enables or prevents for another, find where it landed in the rewrite. Report only the ones whose function is gone or changed: quote the published sentence, quote the rewrite's sentence that replaced it (or say it's gone), and say in one line what a reader of the rewrite no longer learns. Don't report style, register, or functions said in other words.
+
+Write the report to /home/claude/reg1013/articles/intentional-communities/candidate/sweep-20261013/SWEEP-C.md with a single Write call, at most 900 words, as a numbered list grouped by section. Then reply with only the number of findings per section.

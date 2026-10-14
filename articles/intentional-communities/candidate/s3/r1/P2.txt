@@ -1,0 +1,1 @@
+They may have had a solution for how to distribute property or labor, but when the deep waters of jealousy or childhood hurt or humiliation or attraction or resentment or grief came up, the group was without a common method for dealing with it. They just became agenda items.

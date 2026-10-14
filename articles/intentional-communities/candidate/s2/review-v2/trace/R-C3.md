@@ -1,0 +1,1 @@
+If you look at Google Trends for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)”, you can see that interest drifted down for years, then bent upward sharply in the mid-2020s.

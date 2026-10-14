@@ -1,0 +1,187 @@
+<title>Rule Scoring Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+/* Layout: one reading column; each example is a ruled block with the two versions side by side when there is room, and three answer buttons under it. */
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --ink: #1f2328;
+  --muted: #5b616b;
+  --rule: #dcd8cf;
+  --accent: #2f5d7c;
+  --accent-soft: #e3edf3;
+  --pub: #f1ede4;
+  --now: #eef3ee;
+  --chosen: #2f5d7c;
+  --chosen-ink: #ffffff;
+  --display: "Literata", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15181c; --surface: #1d2126; --ink: #e7e5e0; --muted: #a2a7ae; --rule: #343a42;
+    --accent: #8fb9d6; --accent-soft: #23313b; --pub: #26231d; --now: #1f2a22; --chosen: #8fb9d6; --chosen-ink: #10161b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15181c; --surface: #1d2126; --ink: #e7e5e0; --muted: #a2a7ae; --rule: #343a42;
+  --accent: #8fb9d6; --accent-soft: #23313b; --pub: #26231d; --now: #1f2a22; --chosen: #8fb9d6; --chosen-ink: #10161b;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 64px; }
+h1 { font-family: var(--display); font-weight: 600; font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 65ch; margin: 0 0 18px; }
+.bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 0 0 26px; }
+.bar .count { font-variant-numeric: tabular-nums; color: var(--muted); }
+button { font: inherit; cursor: pointer; }
+.btn { border: 1px solid var(--accent); background: transparent; color: var(--accent); border-radius: 6px; padding: 7px 12px; }
+.btn:hover { background: var(--accent-soft); }
+.btn:focus-visible, .opt:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#copied { color: var(--muted); font-size: 0.9rem; }
+section.set { margin: 0 0 40px; }
+section.set > h2 { font-family: var(--display); font-weight: 600; font-size: 1.35rem; margin: 0 0 4px; text-wrap: balance; }
+section.set > p.intro { color: var(--muted); margin: 0 0 16px; max-width: 70ch; }
+article.item { background: var(--surface); border-top: 1px solid var(--rule); padding: 16px 16px 14px; display: grid; gap: 10px; }
+article.item:last-child { border-bottom: 1px solid var(--rule); }
+.head { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; }
+.id { font-weight: 600; font-variant-numeric: tabular-nums; color: var(--accent); letter-spacing: 0.02em; }
+.where { color: var(--muted); font-size: 0.92rem; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 640px) { .pair { grid-template-columns: 1fr; } }
+.pair > div { min-width: 0; border-radius: 6px; padding: 10px 12px; }
+.pair .pub { background: var(--pub); }
+.pair .now { background: var(--now); }
+.tag { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 4px; }
+.quote { font-family: var(--display); font-size: 1.02rem; line-height: 1.5; white-space: pre-line; }
+.ctx { color: var(--muted); font-size: 0.92rem; font-style: italic; }
+.meta { font-size: 0.92rem; }
+.meta b { font-weight: 600; }
+.q { font-weight: 500; }
+.opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.opt { border: 1px solid var(--rule); background: transparent; color: var(--ink); border-radius: 999px; padding: 6px 12px; }
+.opt[aria-pressed="true"] { background: var(--chosen); color: var(--chosen-ink); border-color: var(--chosen); }
+textarea { width: 100%; box-sizing: border-box; min-height: 2.4em; resize: vertical; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px; }
+.saved { font-size: 0.82rem; color: var(--muted); min-height: 1.1em; }
+.state { color: var(--muted); padding: 18px 0; }
+@media (prefers-reduced-motion: no-preference) { .opt, .btn { transition: background-color .12s ease, color .12s ease; } }
+</style>
+
+<div class="wrap">
+  <h1>Rule Scoring Sheet</h1>
+  <p class="lede">Examples from the community article where I'm not sure how a rule should apply. Pick one answer for each; it saves as you go. Notes are optional. If you're in your other Claude account, press <em>Copy answers</em> and paste them into the chat.</p>
+  <div class="bar">
+    <button class="btn" id="copy" type="button">Copy answers</button>
+    <span class="count" id="count"></span>
+    <span id="copied" role="status"></span>
+  </div>
+  <div id="sets"><p class="state" id="state">Loading the examples…</p></div>
+</div>
+
+<script>
+(() => {
+  const setsEl = document.getElementById('sets');
+  const stateEl = document.getElementById('state');
+  const countEl = document.getElementById('count');
+  let sets = [], items = [], scores = {}, db = null, readOnly = false, needRender = false;
+  const pending = {};
+
+  function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function render() {
+    if (!sets.length || !items.length) return;
+    const focusId = document.activeElement && document.activeElement.id;
+    setsEl.replaceChildren();
+    const ordered = [...sets].sort((a, b) => (a.order || 0) - (b.order || 0));
+    for (const s of ordered) {
+      const its = items.filter(i => i.set === s.id).sort((a, b) => (a.n || 0) - (b.n || 0));
+      if (!its.length) continue;
+      const sec = el('section', 'set');
+      sec.append(el('h2', null, s.title));
+      if (s.intro) sec.append(el('p', 'intro', s.intro));
+      for (const it of its) sec.append(renderItem(it));
+      setsEl.append(sec);
+    }
+    const answered = items.filter(i => scores[i.id] && scores[i.id].choice).length;
+    countEl.textContent = answered + ' of ' + items.length + ' answered';
+    if (focusId) { const f = document.getElementById(focusId); if (f) f.focus(); }
+  }
+
+  function renderItem(it) {
+    const a = el('article', 'item');
+    const head = el('div', 'head');
+    head.append(el('span', 'id', it.id), el('span', 'where', it.where || ''));
+    a.append(head);
+    if (it.context) { const c = el('div', 'ctx'); c.textContent = 'Before it: ' + it.context; a.append(c); }
+    const pair = el('div', 'pair');
+    if (it.published) { const p = el('div', 'pub'); p.append(el('span', 'tag', it.publishedLabel || 'Published'), el('div', 'quote', it.published)); pair.append(p); }
+    if (it.now) { const n = el('div', 'now'); n.append(el('span', 'tag', it.nowLabel || 'In the article now'), el('div', 'quote', it.now)); pair.append(n); }
+    a.append(pair);
+    if (it.source) { const m = el('div', 'meta'); const b = el('b', null, 'Where it came from: '); m.append(b, document.createTextNode(it.source)); a.append(m); }
+    if (it.check) { const m = el('div', 'meta'); const b = el('b', null, 'What the check said: '); m.append(b, document.createTextNode(it.check)); a.append(m); }
+    a.append(el('div', 'q', it.question || ''));
+    const opts = el('div', 'opts');
+    const sc = scores[it.id] || {};
+    (it.options || []).forEach((o, k) => {
+      const b = el('button', 'opt', o);
+      b.type = 'button'; b.id = 'opt-' + it.id + '-' + k;
+      b.setAttribute('aria-pressed', sc.choice === o ? 'true' : 'false');
+      b.disabled = readOnly;
+      b.addEventListener('click', () => save(it.id, { choice: o }));
+      opts.append(b);
+    });
+    a.append(opts);
+    const ta = el('textarea'); ta.id = 'note-' + it.id; ta.placeholder = 'Note (optional)'; ta.value = sc.note || ''; ta.disabled = readOnly;
+    ta.setAttribute('aria-label', 'Note for ' + it.id);
+    const saved = el('div', 'saved'); saved.id = 'saved-' + it.id;
+    let t = null;
+    ta.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => save(it.id, { note: ta.value }), 800); });
+    ta.addEventListener('blur', () => { if (needRender) { needRender = false; render(); } });
+    a.append(ta, saved);
+    return a;
+  }
+
+  async function save(id, patch) {
+    if (!db || readOnly) return;
+    const cur = Object.assign({}, scores[id] || {}, patch, { at: new Date().toISOString() });
+    scores[id] = cur; if (!('note' in patch)) render();
+    const s = document.getElementById('saved-' + id);
+    if (pending[id]) await pending[id];
+    pending[id] = db.doc('scores/' + id).set(cur).then(() => {
+      const s2 = document.getElementById('saved-' + id); if (s2) s2.textContent = 'Saved';
+    }).catch(e => {
+      const s2 = document.getElementById('saved-' + id);
+      if (e && e.code === 'invalid_argument') { readOnly = true; render(); }
+      if (s2) s2.textContent = 'Not saved: copy your answers instead (' + (e && e.code || 'error') + ').';
+    }).finally(() => { pending[id] = null; });
+  }
+
+  document.getElementById('copy').addEventListener('click', () => {
+    const lines = [...items].sort((a, b) => (a.set + String(a.n).padStart(3, '0')).localeCompare(b.set + String(b.n).padStart(3, '0')))
+      .filter(i => scores[i.id] && (scores[i.id].choice || scores[i.id].note))
+      .map(i => i.id + ': ' + (scores[i.id].choice || '(no choice)') + (scores[i.id].note ? ' (' + scores[i.id].note.trim() + ')' : ''));
+    const text = lines.length ? 'Rule Scoring Sheet answers\n' + lines.join('\n') : 'Rule Scoring Sheet: no answers yet';
+    const out = document.getElementById('copied');
+    const done = () => { out.textContent = 'Copied ' + lines.length + ' answers.'; };
+    try {
+      navigator.clipboard.writeText(text).then(done, () => fallback(text));
+    } catch (e) { fallback(text); }
+    function fallback(t) {
+      const ta = document.getElementById('fallback') || Object.assign(document.createElement('textarea'), { id: 'fallback', readOnly: true });
+      ta.value = t; ta.setAttribute('aria-label', 'Answers to copy'); out.textContent = 'Select and copy:'; out.after(ta); ta.focus(); ta.select();
+    }
+  });
+
+  (async () => {
+    db = await window.claude?.use?.('db');
+    if (!db) { stateEl.textContent = 'Open this page in Claude to load the examples.'; return; }
+    db.collection('sets').onSnapshot(s => { sets = s.docs.map(d => Object.assign({ id: d.id }, d.data())); if (!sets.length) stateEl.textContent = 'No examples yet.'; render(); },
+      e => { stateEl.textContent = 'The examples could not be loaded (' + e.code + ').'; });
+    db.collection('items').onSnapshot(s => { items = s.docs.map(d => Object.assign({ id: d.id }, d.data())); render(); }, () => {});
+    db.collection('scores').onSnapshot(s => { const m = {}; s.docs.forEach(d => { m[d.id] = d.data(); }); scores = m; const ae = document.activeElement; if (ae && ae.tagName === 'TEXTAREA') needRender = true; else render(); }, () => {});
+  })();
+})();
+</script>

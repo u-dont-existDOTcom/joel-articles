@@ -1,0 +1,1 @@
+There’s a serious case against having medicine as part of a community. Physical and psychological negative effects of ayahuasca were common in the [Global Ayahuasca Survey](https://pubmed.ncbi.nlm.nih.gov/36962494/), although severe effects were far less common and context mattered. And these medicines can open things up faster than a person (or their group) can deal with.

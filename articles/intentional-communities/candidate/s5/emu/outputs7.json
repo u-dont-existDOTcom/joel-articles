@@ -1,0 +1,19 @@
+{
+ "round": 7,
+ "when": "2026-10-03 22:40 UTC",
+ "dir": "emulate-runs/community-s5g",
+ "inputs": {
+  "i1": "Another thing is that your integration is, well, your life. Ceremony opens something, and if it had any effect on you, the weeks after will show it. Look at your relationships and your daily behavior. At your sleep and your decisions, too. And at how well you tolerate frustration without declaring a new spiritual emergency.",
+  "i2": "Integration is ordinary life. Ceremony opens something. The following weeks reveal whether anything changed—in relationships, daily behavior, sleep, decisions, and the person’s ability to tolerate frustration without declaring a new spiritual emergency."
+ },
+ "outputs": {
+  "i1-emuA": "The other aspect is integration: your life. Did the ceremony open you up to anything? Look at your life over the last few weeks. Look at your relationships, how you behave, how you sleep, how you make decisions, how you handle frustration, etc, etc.",
+  "i1-emuB": "The other thing is integration, this is your life. Did the ceremony have an effect on you. How has your life changed in the few weeks since the ceremony? Look at your relationships, your behavior, how you sleep, how you make decisions, how you handle frustration, etc. etc.",
+  "i2": "refused by the tool: 32 words; Emulate takes 40 to 3000"
+ },
+ "log": [
+  "i1-emuA rc=0 balance 244179 -> 244124",
+  "i1-emuB rc=0 balance 244124 -> 244069",
+  "i2-emuA refused: 32 words"
+ ]
+}

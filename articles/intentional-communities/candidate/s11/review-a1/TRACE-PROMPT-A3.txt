@@ -1,0 +1,23 @@
+# Meaning trace: community section 11 ("Founderism: The Four Questions"), pairs P10, P11, P12, P14, rewrite against the published paragraphs
+
+Read `/home/claude/joel-articles/articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/intentional-communities/candidate/s11/review-a1/trace-in-A3.md`. It holds pairs: a PUBLISHED paragraph and its REWRITE, with the text before and after for context.
+
+For each pair, decide whether a reader of the rewrite comes away believing what a reader of the published paragraph believes. Go clause by clause through the published paragraph and find where each claim landed in the rewrite. Mark each one:
+- EQUIVALENT: a reader takes away the same claim. Changes of wording, register and rhythm are EQUIVALENT, and so are plainer, more conversational ways of saying the same thing.
+- SHIFT: a reader would now believe something different: a claim made stronger or weaker, a quantifier, tense or aspect that changes the fact, who does what, a logical relation (cause, contrast, condition, "or" turned into "also" or "and"), the scope of a word like "only", or a likely reading the published text doesn't allow.
+- LOST: a claim, list item, condition or qualifier is gone.
+Then list anything ADDED that makes a claim the published text doesn't (a new fact, opinion, intensity or cause; not a style word).
+
+**Conversational is not a shift** (Joel, 2026-10-09 22:08 UTC). Spoken phrasing often says a thing more loosely than the published sentence and means the same. "The closest thing to a whole example that I found", for the published "the closest whole example I found", is not a hedge: "doesn't seem like a hedge to me, sounds just more conversational". Before you mark a SHIFT, ask whether an ordinary reader would actually believe something different, not whether a stricter parse of the words could differ. Every SHIFT names what the reader would now wrongly believe; if you can't name it, it's EQUIVALENT.
+
+Logic is still strict (Joel, 2026-10-03: "OR is not ALSO"). A changed connective, negation, quantifier or modal is a SHIFT even when the sentence sounds natural.
+
+Where a phrase can be read two ways, say which reading a reader would most likely take, and mark SHIFT only when that reading differs from the published one.
+
+Give each SHIFT or LOST a fix in as few words as possible, as a replacement phrase. Don't suggest style changes. Markdown links and italics are restored later, so their absence is not a finding.
+
+End each pair with "Verdict: OK" or "Verdict: NEEDS FIX".
+
+Write the report to `/home/claude/joel-articles/articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/intentional-communities/candidate/s11/review-a1/trace-A3.md` with a single Write call, at most 700 words, as "# Trace" then one "## Pn → Pnx" section per pair with numbered findings. Don't read any other file. Reply with only the verdicts, one line each.
+
+Keep your working short: decide each clause once, don't redraft the report, and stay inside the word limit.
