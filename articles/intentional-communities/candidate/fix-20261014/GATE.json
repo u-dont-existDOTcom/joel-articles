@@ -487,5 +487,97 @@
  "J4-reparent": {
   "kind": "owner",
   "joel": "his section 4 v11 reparenting paragraph, as he gave it (a control)"
+ },
+ "E-S10P9fA": {
+  "kind": "edit",
+  "was": "section 10 v2 (2026-10-10): P8x passed alone (197g) and the section 100% Human (200g)",
+  "march": [
+   "S S S S S"
+  ],
+  "march_was": [
+   "S S S S S"
+  ],
+  "march_note": "gate/MARCH4-labels.txt; MARCH2-labels.txt T34 for the installed version",
+  "cold": "OK",
+  "cold_note": "SENSE4-s10A OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T11 OK",
+  "stance": 0,
+  "stance_note": "STANCE4: no conflict for wording A",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "S10v3A": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S10P9fA"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "C-S11P12": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "note": "control: the installed P1 and P2 (section 11 v13), re-checked"
+ },
+ "E-S11P2f-b": {
+  "kind": "edit",
+  "was": "section 11 v13 (2026-10-12): 100% Human as a section (267g); its paragraphs checked alone",
+  "march": [
+   "S S"
+  ],
+  "march_was": [
+   "S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE-s11 OK (this wording), SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T4 OK",
+  "stance": 0,
+  "stance_note": "STANCE #7 asked whether the definition covers his rule on his own land before critical mass; his own P13 says founderism is \"especially so ... as I'm describing may happen in my case\", so no conflict with his position; the definition goes to him as a question",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with the paragraph after it (P3, unchanged)"
+ },
+ "C-S11P23": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "note": "control: the installed P2 and P3, re-checked"
+ },
+ "E-S11P6f-b": {
+  "kind": "edit",
+  "was": "section 11 v13 (267g); the one-line lead-in was checked with the four questions after it",
+  "march": [
+   "S S"
+  ],
+  "march_was": [
+   "-"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T4 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with P5 before it and the four questions after it"
+ },
+ "C-S11P8": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "note": "control: the installed P8 alone, re-checked"
  }
 }

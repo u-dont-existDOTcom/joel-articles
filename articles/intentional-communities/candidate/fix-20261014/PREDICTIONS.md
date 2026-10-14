@@ -70,3 +70,19 @@ Results of 276g (2026-10-14 UTC): E-S3P4f **Human (low; 77 words)**, 05:30:14; E
 |---|---|---|
 | J4-orig-pair | AI | the pair with my one word read AI (276g); his reparenting paragraph is a definition with a list of three roles, which is likely what Pangram reads |
 | J4-reparent | AI (weak) | the same paragraph alone |
+
+Results of 277g (2026-10-14 UTC): E-S6P8f **Human (low; 69)**, 06:01:07; S6v22 **Human (100%), high (687)**, 06:01:18; E-S8P10f **Human (low; 67)**, 06:01:28; E-S8P12f **Human (medium; 109)**, 06:01:40; E-S8P20f **Human (low; 69)**, 06:01:51; E-S8P23f **Human (low; 56)**, 06:02:03; E-S8F10 **Human (medium; 136)**, 06:02:16; E-S8P26f **Human (medium; 124)**, 06:02:26; S8v29 **Human (100%), "Human Written", high (1,841)**, 06:02:37; E-S11P2f (with P1) **AI-Generated (low; 67), the whole pair**, 06:02:47; E-S11P4f **Human (medium; 147)**, 06:02:59; E-S11P6f (with the four questions and P8) **AI Detected: P6 and the questions Human (47), P8 AI (87)**, 06:03:13; E-S11P9f **Human (low; 59)**, 06:03:23; E-S11P10f **Human (low; 52)**, 06:03:34; S11v14 **"Mostly Human Written": one AI window, P4 from its second sentence to the end of its questions (82 words)**, 06:03:47. Score: 11 of 15. Sections 6 and 8 pass, every changed paragraph on its first try. Section 11 doesn't: P4's run of questions reads AI in the section though P4 passes alone.
+
+Results of 278g: J4-orig-pair (his v11 pair as he gave it) **AI Detected: his reparenting paragraph Human (61), his "And it's built on ..." paragraph AI (36)**, 06:03:58; J4-reparent **Human (low; 61)**, 06:04:11. Score: 1 of 2. So the pair read AI before my word too: his three-sentence paragraph reads AI beside the reparenting paragraph in his own wording. The section reads 100% Human with it (276g).
+
+## Batch 279g: section 10 wording A, and section 11's controls and other neighbors
+
+| text | mine | why |
+|---|---|---|
+| E-S10P9fA | AI (weak) | this opening has failed in most wordings (s10/PREDICTIONS-s10.md, 187g to 197g); the inline example lengthens it |
+| S10v3A | Human | the section passed with P9 reading AI alone (276g) |
+| C-S11P12 (installed P1 and P2) | AI (weak) | P1's list of five things a founder does |
+| E-S11P2f-b (P2 with the definition, and P3) | Human (weak) | |
+| C-S11P23 (installed P2 and P3) | Human | |
+| E-S11P6f-b (P5, P6 and the four questions) | Human (weak) | the questions run on from P5's |
+| C-S11P8 (installed P8 alone) | Human | it passed alone in 207g; it read AI after the four questions then too |
