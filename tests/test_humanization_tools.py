@@ -603,6 +603,19 @@ class MeaningSweepAuthorMarks(unittest.TestCase):
         self.assertTrue(out.startswith('The community has to share'))
         self.assertIn(meaning_sweep.MARK_OPEN + 'No, taking away the idea', out)
 
+    def test_wording_he_approved_stays_mine(self):
+        """2026-10-14: two of the three sweep flags he sent back (F4, F6) were in my wording he had approved ("agree fix
+        it"), which the ledger records; an entry marked "words": "proposed" gives no author marks."""
+        with tempfile.TemporaryDirectory() as d:
+            led = pathlib.Path(d) / 'led.json'
+            led.write_text(json.dumps({'entries': [
+                {'id': 'a', 'status': 'applied', 'must_contain': [self.HIS]},
+                {'id': 'b', 'status': 'applied', 'words': 'proposed',
+                 'must_contain': ['or stop trying to act helpless, which I proposed and he approved']}]}), encoding='utf-8')
+            owners = meaning_sweep.owner_strings(str(led), [])
+        self.assertIn(meaning_sweep.norm(self.HIS), owners)
+        self.assertFalse(any('stop trying to act helpless' in o for o in owners))
+
     def test_the_prompt_and_input(self):
         with tempfile.TemporaryDirectory() as d:
             d = pathlib.Path(d)
@@ -967,6 +980,22 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertEqual(r.returncode, 2)
         self.assertIn('the march blocks the call', r.stderr)
         self.assertIsNone(js)
+
+    def test_an_edit_keeps_the_installed_versions_march(self):
+        """E173 (2026-10-14): a fix of a few words in a paragraph that passed Pangram without a break is checked
+        in Pangram; an edit that takes out the installed version's break is blocked."""
+        e = dict(self.CLEAN, kind='edit', march=['S S S'], march_was=['S S S'], was='batch 267g, alone 100% Human')
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': e}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(e, march_was=['S B S'])}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('the fix made the march', r.stderr.lower())
+        g = dict(e); del g['was']
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("needs 'was'", r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(e, cold='[2] UNCLEAR')}, ['p'])
+        self.assertEqual(r.returncode, 2)
 
     def test_no_stance_check_blocks_the_call(self):
         g = dict(self.CLEAN); del g['stance']

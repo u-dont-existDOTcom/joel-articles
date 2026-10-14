@@ -1,0 +1,98 @@
+{
+ "title": "From One Community to a Movement · section 10 beside the published one",
+ "meta": "Community article · section 10 · v2, unchanged, 2026-10-14 · for question 25",
+ "intro": [
+  "Your published section is on the left. On the right is the version now in the article so far. Highlighted words are new since the version you last saw (your texts of 10-13, merged this morning), and struck words are ones that went.",
+  "Nothing changed in this section. The sweep of 10-13 flagged the opening of its last paragraph, \"a collision of two principles\" (four cold reads: none named, abrupt; the published opens \"And when two principles collide\", after the solidarity limits).",
+  "The two openings I tried are below. Each read AI alone in Pangram (276g at 05:32:11 UTC, 279g at 06:10:09 UTC), so the paragraph stays as it is; it passes alone and in the section. This opening failed in most wordings on 10-10 too. Question 25 on the questions page."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# From One Community to a Movement",
+    "## Experiment Before You Divorce"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Experimenting with a different rule doesn't",
+     "source": [
+      "Experimenting with a different rule does not"
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "Some experiments (like a different",
+     "source": [
+      "Some experiments cannot be tested cheaply"
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Federated Communities Make a Movement"
+   ],
+   "rows": [
+    {
+     "label": "P3 + P4 (joined)",
+     "article": "The problem of how these communities",
+     "source": [
+      "If these communities are supposed to spread",
+      "At federation scale, that outward purpose"
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "The Federation of Egalitarian Communities",
+     "source": [
+      "The Federation of Egalitarian Communities says"
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "Cooperation also shouldn't slide",
+     "source": [
+      "Cooperation also shouldn’t quietly become"
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "Even if nobody uses money internally",
+     "source": [
+      "Exchange and obligations need the same honesty"
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "When you create or apply a rule",
+     "source": [
+      "And when two principles collide"
+     ]
+    },
+    {
+     "label": "TRIED, read AI alone (276g) · not proposed",
+     "text": "Limits like those come from two principles colliding, solidarity and each community's claim on its own labor and stores. Whenever you create or apply a rule where principles collide, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.",
+     "proposal_of": "When you create or apply a rule",
+     "source": [
+      "And when two principles collide"
+     ],
+     "notes": [
+      "Names the pair from the paragraph before. Pangram: AI-Generated, the whole paragraph (103 words, 05:32:11 UTC, 276g)."
+     ]
+    },
+    {
+     "label": "TRIED, read AI alone (279g) · not proposed",
+     "text": "When you create or apply a rule to deal with a collision of two principles, like solidarity and a community's claim on its own stores, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.",
+     "proposal_of": "When you create or apply a rule",
+     "source": [
+      "And when two principles collide"
+     ],
+     "notes": [
+      "The pair named inside the opening. Pangram: AI-Generated, the whole paragraph (99 words, 06:10:09 UTC, 279g)."
+     ]
+    }
+   ]
+  }
+ ]
+}

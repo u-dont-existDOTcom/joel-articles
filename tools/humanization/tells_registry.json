@@ -2213,6 +2213,46 @@
    ],
    "rule": "B5",
    "example": "There is a difficult question to consider. Eight people still have to grow the food, fix the pump and keep the books, whoever joins them."
+  },
+  {
+   "id": "J53",
+   "tell": "an abstraction turned into another abstraction (\"not turning every limit into a flat-out rejection\"): read literally, it makes no sense",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014/joel-20261014-attachment.txt",
+     "quote": "W2: I can say why (note) (the AI version makes no sense. can't you see that?)"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "A limit can't be turned into a rejection; people get rejected."
+    }
+   ],
+   "reason": "Whether a phrase makes literal sense needs a reader of it; the same verb with people as its object is fine (\"not flat-out rejecting people every time it hits a limit\")."
+  },
+  {
+   "id": "J54",
+   "tell": "a second sentence on the first one's frame (\"We have a lot of incentives ... We have been encouraged ...\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014/joel-20261014-attachment.txt",
+     "quote": "the sentence prior to that was reading a bit robotic like a second \"we have\" talking about incentives/encouraging to be this or that way."
+    }
+   ],
+   "reason": "A repeated opener can be deliberate (anaphora he writes on purpose); whether it reads robotic is a reader's call."
+  },
+  {
+   "id": "J55",
+   "tell": "a paragraph that doesn't follow from the one before (two paragraphs that each pass alone read AI together)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014/joel-20261014-attachment.txt",
+     "quote": "so now looking at that, yeah, 2nd para doesn't follow the first, so pangram is right to flag it."
+    }
+   ],
+   "reason": "Whether one paragraph follows from another is a reading of both; the fix is the missing step, as his bridging sentence was."
   }
  ]
 }
