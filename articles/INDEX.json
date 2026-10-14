@@ -6021,6 +6021,11 @@
           "path": "articles/inner-child-therapy/experiments/t53-askgod/REVIEWS.md",
           "sha256": "62e35be2318816666d1eec2e91d94e8b1cc09e8377d85cd3f5acefb777512092",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-14-turn53.json",
+          "sha256": "96c1252801d11873985756a3150ff2d1d3df620c0adcb1d76e12910b1ab3d34a",
+          "role": "in_context_map"
         }
       ]
     },
