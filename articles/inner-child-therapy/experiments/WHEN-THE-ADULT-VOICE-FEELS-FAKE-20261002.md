@@ -700,3 +700,19 @@ Joel checked the heading, P2 and his P3 of Untangling the Belonging Bargains him
 
 1. His answer to question 20, and his merge of pull request #168 (turn 51; he merged #167 at 12:46 UTC).
 2. The next h2, Let the Child Be Bad at Things: its writers (`tools/targets/t51-g1.json` to `t51-g3.json`).
+
+## Turn 52 (2026-10-13, from 20:41 UTC): Joel's version of Untangling P1 to P3, and duplication reads AI
+
+Joel's message, sent 20:41 UTC (written as his reply to turn 51 and not sent then): "i see ok i fixed it plus also made the first para better. now the whole section is 100% human on pangram". His minimal fixes first: P2's last sentence and P3's first sentence from passive to active voice, which flipped each to Human but flipped parts of Four Pairs AI (his screenshot: Your little one can panic…, the first two questions, the aim's last two sentences, and the start of the differentiation paragraph), "which you might think is bad, but it's actually good, because when i read them now I see they do sound off". Then: "this entire section has too much duplication... i just told GPT to deduplicate and its output became 100% human, so lesson is duplication is very AI we already knew that but you're not checking that well enough."
+
+- **In, word for word:** his P1, P2's last sentence ("In the more shadowy presentation of caretakerism, you can even drift into keeping other people dependent.") and P3's first ("Beauty, intelligence, achievement and caretaking are things to be grateful for, but they become \"belonging bargains\" when…"). Four Pairs is unchanged; his two pastes were the same text, so that's the version in (the reply asks for GPT's if it differed). His check counts: the whole h2 100% Human.
+- **Left with his rewrite** (his call, recorded so nothing goes silently): the family's "particular kind of son or daughter", "a family or religion that's kind to you", and the caretaker's reason ("because being needed has become the caretaker's main source of value").
+- **This session's turn-40 notes** (2026-10-10, never pushed) were superseded by turns 41 to 51 and are not in the repository.
+- **Lesson E172:** every assembled section gets `reviewer.py repeats --focus` (a fresh Opus agent) before its Pangram check; `pangram_gate.py` refuses a section without `"repeats": 0`, with a unit test; the gate's step 1 says so.
+- **The sweep** (`experiments/t52-repeats/REPEATS-SWEEP-20261013.md`): inside this h1, six repeats (the premise of playing a part told three times; preferences set by other people's reactions four times in From Survival; stepping away three times; betraying yourself to belong twice, in his P1 and P3; gifts versus a condition for having a self; questions 3 and 4) and two contradictions (the real one may never have formed, against a guess isn't proof there's no little one; one bargain or two). The agent did the whole article too: 49 repeats and 8 contradictions. Nothing changed yet: each fix needs Pangram's web app, and the browser pane wasn't connected this turn.
+
+### Next
+
+1. The sweep's repeats inside this h1 that are in my text (39, 45, 46, 48, 49 and contradiction 7), fixed one at a time with Pangram checks; the two in his P1 and P3 (47, 48's first half) go to him.
+2. The h1 with his new h2, in the web app (a combination he didn't check), when the browser pane is reachable.
+3. The next h2, Let the Child Be Bad at Things.

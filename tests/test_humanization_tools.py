@@ -958,7 +958,7 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         text = 'One. Two, maybe. Three.'
         section = {'text': '# H\n\nBefore.\n\n' + text, 'prefix': '# H\n\nBefore.', 'prefix_from_storage': 'h_old'}
         gate = {'p': self.CLEAN, 'q': dict(self.CLEAN, grounding='same claims as p', stance='same claims as p'),
-                'h': {'kind': 'section', 'parts': ['installed', 'p']}}
+                'h': {'kind': 'section', 'parts': ['installed', 'p'], 'repeats': 0}}
         r, js, read = self.run_gate({'p': text, 'q': text + ' Four.', 'h': section}, gate, ['p', 'q', 'h'])
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn(hashlib.sha256(text.encode()).hexdigest(), js)
@@ -997,13 +997,30 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
     def test_a_section_can_be_joined_from_earlier_items(self):
         para = 'One. Two, maybe. Three.'
         sec = '# H\n\n' + para
-        gate = {'p': self.CLEAN, 'h': {'kind': 'section', 'parts': ['p']}}
+        gate = {'p': self.CLEAN, 'h': {'kind': 'section', 'parts': ['p'], 'repeats': 0}}
         r, js, _ = self.run_gate({'p': para, 'h': {'text': sec, 'concat': [{'lit': '# H\n\n'}, {'key': 'p'}]}}, gate, ['p', 'h'])
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn('() => "# H\\n\\n" + sessionStorage.getItem("p")', js)
         r, _, _ = self.run_gate({'p': para, 'h': {'text': sec + '!', 'concat': [{'lit': '# H\n\n'}, {'key': 'p'}]}}, gate, ['p', 'h'])
         self.assertNotEqual(r.returncode, 0)
 
+
+    def test_a_section_needs_a_repeats_check(self):
+        """E172 (Joel, 2026-10-13 20:41 UTC): "duplication is very AI we already knew that but you're not checking
+        that well enough". Untangling the Belonging Bargains read 100% Human only after its repeats came out."""
+        para = 'One. Two, maybe. Three.'
+        gate = {'p': self.CLEAN, 'h': {'kind': 'section', 'parts': ['p']}}
+        r, js, _ = self.run_gate({'p': para, 'h': '# H\n\n' + para}, gate, ['p', 'h'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('no repeats check of the assembled section', r.stderr)
+        self.assertIsNone(js)
+        for ok in (0, 'joel: 2026-10-13, keeps the second "belonging"'):
+            gate['h']['repeats'] = ok
+            r, js, _ = self.run_gate({'p': para, 'h': '# H\n\n' + para}, gate, ['p', 'h'])
+            self.assertEqual(r.returncode, 0, r.stderr)
+        gate['h']['repeats'] = 2
+        r, _, _ = self.run_gate({'p': para, 'h': '# H\n\n' + para}, gate, ['p', 'h'])
+        self.assertEqual(r.returncode, 2)
 
 class MarchSplitsLists(unittest.TestCase):
     """2026-10-12 (turn 49): the march reader got a list's lead-in and its items run together, so a lead-in and
