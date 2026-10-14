@@ -16,9 +16,29 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > For example, when I had a suspected bilharzia infection in 2021, and could only painfully pee blood, I promised to always be thankful if I could ever pee normally again. Miraculously, I then found some obscure ethnobotanical research (on [Google Scholar](http://scholar.google.com), before AI) which led me to drink roselle tea. Within an hour, I was cured.
 
 A reader peeing blood might take roselle tea as the cure and not see a doctor. The paragraph is about gratitude, so this only matters if a reader reads it as medical advice.
+The repeats check noticed something else here too: a vow of thanks followed by a cure you call a miracle can read like the "prosperity philosophy" your previous paragraph says you're not preaching.
 - **A. Leave it** as it is.
 - **B. Your words**, if you want to say something to that reader.
 
+
+### 🟣 22. Ask God for a Loan: two flagged spots, both lines kept from the guide (leave them, cut, or your words?)
+
+> The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.
+>
+> Find whatever access to that love is genuinely available now.
+
+That pair (75 words) reads AI, 0.53 ([the result](https://www.pangram.com/history/70aedaa2-9fbe-46a6-9205-5fc663854210), 2026-10-14 03:06 UTC). The first paragraph passed with the old section; the second line is the guide's own ("Find whatever access to that love is genuinely available now. Then bring the younger self into the same field.").
+
+> Once you start to feel that lovely softness of the heart, bring your little one in with you. […] If you pour more spirituality on top instead, it's the food bank all over again, and none of it is getting to them.
+>
+> This is the feast problem. You can have an enormous spiritual feast upstairs while the child is still starving downstairs. Spiritual integration means some of what you have actually reaches them.
+
+That pair (91 words) reads AI, 0.82 ([the result](https://www.pangram.com/history/2287d745-04e5-4f44-9318-b9d9e90c3279), 03:07 UTC); the first paragraph alone reads Human (60, 0.04, [the result](https://www.pangram.com/history/a1d8bff6-57ee-4bbb-977d-318c2849e4cb)). The feast paragraph is the guide's word for word, and the repeats check says it makes the food bank point a second time, right after the food bank line (your lesson from last turn).
+
+Your five gratitude paragraphs each read Human alone (83, 100, 103, 77 and 136 words). The Borrow Love h2 and the h1 checks wait for your call, since the repeat goes first.
+- **A. Leave both.**
+- **B. Cut the feast paragraph** (the food bank line already says it), and leave the first line or put it your way.
+- **C. Your words** for either or both.
 
 ## For you to do (no decision needed)
 

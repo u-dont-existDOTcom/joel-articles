@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "110d4005ea81285750e76ed5da74c80841c217a6e9f8e4805680e23be56d169d",
+          "sha256": "67f79c83b12e41f15e119fdcd7ab7aa6bc1db25dd5a24fb81a3068f57f0530ec",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "c5f2bb5a4a7cf7fceb6c579e1eaa415b5fc14e9a85f836c12f0c81c1cb7a4050",
+          "sha256": "13cb537d6a58ac9261fde28e14dcca944d73a3a1e4eb9c01e361fe433213885d",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "f8ef28f3876328fba4fa3f459b056a71f2d874df0daa00482ffbe45102c4bd8b",
+          "sha256": "f83532a47822dc4c2cfed1761cd89b220f2cd91aa99783ee14d7948ef2864ca4",
           "role": "owner_questions_page"
         },
         {
@@ -6016,6 +6016,11 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-14-turn53-a.js",
           "sha256": "303f0fadbdbb4eddc69565a1ed1d68c1a8f007d6eb097fd61ec83474d0667d51",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t53-askgod/REVIEWS.md",
+          "sha256": "62e35be2318816666d1eec2e91d94e8b1cc09e8377d85cd3f5acefb777512092",
+          "role": "humanization_working_record"
         }
       ]
     },
