@@ -18,7 +18,7 @@ GATE.json holds each key's gate record:
            "grounding": "same claims as P1", "stance": "same claims as P1"},
    "P1c": {"kind": "draft", ..., "missing": ["the tribes' predictable reactions"], "probe": true},
    "J4":  {"kind": "owner", "joel": "2026-10-12 03:13 UTC: ..."},
-   "h2":  {"kind": "section", "parts": ["P1", "installed"]}}
+   "h2":  {"kind": "section", "parts": ["P1", "installed"], "repeats": 0}}
 
 A draft goes to Pangram only with a march read that has a break in every reading, a cold read with
 every sentence OK, a clean grounding, a stance check with no conflicts, a linter verdict that isn't
@@ -28,7 +28,9 @@ one out goes only as a probe, a test of what Pangram reacts to, and a probe is n
 faithful first). "same claims as KEY" carries KEY's grounding or stance check
 over to an edit that changes no claim (a sentence split in two, say); KEY needs its own record. An
 owner text is Joel's own words, which the march doesn't block. A section passes when each of its new
-parts does ("installed" for paragraphs already in the article).
+parts does ("installed" for paragraphs already in the article) and the assembled section has had a repeats
+check ("repeats": 0 once every repeat inside it is fixed or answered; E172, Joel 2026-10-13: "duplication is
+very AI").
 
 Why (turn 48, 2026-10-12): in the web app the batch was a script I wrote by hand each time, so nothing
 stopped a call. Round 1's draft went to Pangram with a march of S S S and read 100% AI; later drafts
@@ -66,6 +68,11 @@ def problems(key, gate, seen=()):
     if kind == 'section':
         parts = g.get('parts') or []
         out = [] if parts else ["a section needs 'parts': its new paragraphs' keys, or \"installed\""]
+        rep = g.get('repeats')
+        if rep != 0 and not (isinstance(rep, str) and rep.lower().startswith('joel')):
+            out.append("no repeats check of the assembled section: run reviewer.py repeats --focus on it, fix or answer "
+                       "every repeat, then \"repeats\": 0 (or \"joel: ...\" for repeats he chose to keep). E172; Joel, "
+                       "2026-10-13: \"duplication is very AI we already knew that but you're not checking that well enough\"")
         for p in parts:
             if p != 'installed' and p not in seen:
                 out += ['part %s: %s' % (p, q) for q in problems(p, gate, seen + (key,))]

@@ -587,6 +587,12 @@ His message is kept verbatim in the community lane's `s9/joel-2208/joel-20261009
 - "continue" (turn 38 was finished and he had both pages, so it's the merge OK, and go on).
 - His next message (this turn's first clock read was 23:14): "Continue from where you left off." (the session had stopped mid-check; nothing of his to learn from).
 
+## Untangling the Belonging Bargains, question 20 (2026-10-13 20:41 UTC)
+
+- Passive to active voice, one flagged sentence at a time: "In its controlling form, that caretaking can drift into keeping other people dependent, because being needed has become the caretaker's main source of value." became "In the more shadowy presentation, you can take that caretaking role too far and end up keeping other people dependent, because being needed has become the your main source of value." (Human); then "Beauty, intelligence, achievement and caretaking can all be real gifts, but they become "belonging bargains" when…" became "…can all be real gifts, but you can end up feeling those as "belonging bargains" when…" (Human).
+- That flipped parts of Four Pairs AI, and he took the flips as information: "when i read them now I see they do sound off."
+- Then the duplication: "this entire section has too much duplication... i just told GPT to deduplicate and its output became 100% human, so lesson is duplication is very AI we already knew that but you're not checking that well enough." The version he kept: P1 rewritten ("This pull can come from family, a political tribe or a religious group you identify with…"; "as similarity is what defines groups"; "that's the insidious bargain"), P2's last sentence "In the more shadowy presentation of caretakerism, you can even drift into keeping other people dependent.", P3's first "…are things to be grateful for, but they become "belonging bargains" when…". (E172)
+
 ## Joel's final section 4 and section 12 rewrite, 2026-10-13 21:00 UTC (community sections 4 and 12)
 
 His message is kept verbatim in the community lane's `candidate/joel-20261013/joel-20261013-attachment.txt`. "here is the final section (human on pangram), try to learn lessons and see what you could have figured out yourself". The lessons are in `docs/HUMANIZATION-GATE.md`, "What Joel's section 4 and 12 texts of 2026-10-13 taught".
