@@ -95,3 +95,11 @@ Results of 279g (2026-10-14 UTC): E-S10P9fA **AI-Generated (low; 99), the whole 
 |---|---|---|
 | E-S11P4f-V2 | Human | short questions like v13's |
 | S11v14-V2 | Human (weak) | the AI window in 277g was P4's run of questions; this wording is closer to v13's, which passed |
+
+Results of 280g (2026-10-14 UTC): E-S11P4f-V2 **Human (medium; 140)**, 06:18:37; S11v14-V2 **"Mostly Human Written": the same window, P4 from its second sentence to the end of its questions (75 words)**, 06:18:50. Score: 1 of 2. Both wordings of P4 pass alone and leave the same AI window in the section; v13 passed with P4 as installed.
+
+## Batch 281g: section 11 with P4 and P6 as installed, and the other three fixes
+
+| text | mine | why |
+|---|---|---|
+| S11v14-b | Human (weak) | v13 passed with this P4; if this passes, the window comes from P4's changes (the cut question or the new wording), and P4's two flags go to Joel |
