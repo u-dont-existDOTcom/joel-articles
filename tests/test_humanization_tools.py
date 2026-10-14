@@ -511,6 +511,28 @@ class RenderInContextHeadings(unittest.TestCase):
         self.assertEqual(rc, 0, out)
         self.assertTrue(made)
 
+    def test_a_label_number_that_disagrees_with_the_page_is_dropped(self):
+        """Joel, 2026-10-13: "not sure why you numbered it p1-p4? it's just p1 right?". A map from before para_numbers
+        numbered rows across the section, and the page showed both numbers ("P1 · P4 · the principle")."""
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ART, encoding='utf-8')
+            m = {'title': 'T', 'blocks': [{'headings': ['# Title'], 'rows': [self.row('P1 · first', 'First')]},
+                                         {'headings': ['## Second Heading'], 'rows': [self.row('P7 · seventh', 'Seventh'),
+                                                                                     self.row('eighth', 'Eighth')]}]}
+            (d / 'm.json').write_text(json.dumps(m), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 'a.md'), '--against-source'],
+                               capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr)
+            page = (d / 'o.html').read_text(encoding='utf-8')
+        self.assertIn('P1 · first', page)
+        self.assertIn('P1 · seventh', page)
+        self.assertNotIn('P7', page)
+        self.assertIn('P2 · eighth', page)
+        self.assertIn('the label number was dropped', r.stderr)
+        self.assertIn('user-select:none', page)   # struck words don't come along in a copy (2026-10-13)
+
 
 class PreservationKeys(unittest.TestCase):
     """Joel, 2026-10-12 05:33, on community section 12: "then you broke p7 by reducing it to "but it's not infinite" ?

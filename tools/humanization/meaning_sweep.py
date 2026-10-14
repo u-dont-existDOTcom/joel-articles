@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """meaning_sweep.py - a fresh reader's sweep of rewritten sections for the breaks Joel found in community section 12.
+Kind 4, what one thing does for another, came from his section 4 of 2026-10-13 (the trace brief has it too).
 
 Joel, 2026-10-12 05:33 UTC, on section 12: "p3 got b roken ... then you broke p7 ... p16 also broke the meaning". The gate's
 correction rule asks for a sweep of the whole article for the same problem; the first sweep (community lane,
@@ -22,16 +23,17 @@ QUOTES = str.maketrans({'‘': "'", '’': "'", '“': '"', '”': '"'})
 
 BRIEF = '''You are checking a rewrite of an essay against the published essay. Read `{input}`. It holds {n} of the essay, each as PUBLISHED and then REWRITE. The rewrite keeps the published order; it also has whole paragraphs that are new, which you skip.
 
-Your only job is to find where the rewrite has lost or swapped a word that a claim rests on. Report only these three kinds:
+Your only job is to find where the rewrite has lost or swapped a word that a claim rests on. Report only these four kinds:
 1. A pronoun or vaguer word ("it", "this", "that", "they", "the thing") standing where the published sentence names something, when a reader could take it two ways and the sentence would say something different with each, or when nothing in reach names it. An "it" that is clear in its place is fine.
 2. A narrower thing in place of a general one: one example, one quoted phrase, one case or a smaller group in place of the published category.
 3. A dropped word that says what a claim is measured against (a "for ..." or "than ..." that sets the standard), how long it holds ("remains", "still", "already", "yet", "anymore", "again", "long after"), or the section's own term for its subject.
+4. What one thing does for another: a published sentence that says what a person, group, practice, structure or document does for, gives to, protects or makes possible for another, where the rewrite only names what it is, or has lost it. ("The container gives that work a stable place to happen" became "this part is the container itself".) A function said in other words is fine.
 
 Text between {open_} and {close} is the author's own: he wrote or approved those words, often to change the published meaning on purpose. Report nothing inside those marks.
 
-Plainer, looser, more conversational wording around a claim is fine, and so are changes of order, rhythm and tone. Don't report style, additions, cuts of whole sentences or anything outside the three kinds. Report a finding only when an ordinary reader of the rewrite would now believe something different, or couldn't tell what is meant, and say which.
+Plainer, looser, more conversational wording around a claim is fine, and so are changes of order, rhythm and tone. Don't report style, additions, cuts of whole sentences, except a lost function (kind 4), or anything outside the four kinds. Report a finding only when an ordinary reader of the rewrite would now believe something different, or couldn't tell what is meant, and say which.
 
-Write the report to `{report}` with a single Write call, at most {words} words: "# Sweep" then, for each finding, one line: the section heading's first words, kind 1, 2 or 3, the published words in quotes, the rewrite's words in quotes, and what a reader would now wrongly believe or can't tell. If there are none, write "No findings." Don't read any other file. Reply with only the number of findings.
+Write the report to `{report}` with a single Write call, at most {words} words: "# Sweep" then, for each finding, one line: the section heading's first words, kind 1, 2, 3 or 4, the published words in quotes, the rewrite's words in quotes, and what a reader would now wrongly believe or can't tell. If there are none, write "No findings." Don't read any other file. Reply with only the number of findings.
 
 Keep your working short: go through each published paragraph once, and don't redraft the report.'''
 

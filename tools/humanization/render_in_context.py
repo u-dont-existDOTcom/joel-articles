@@ -108,6 +108,8 @@ LINK = re.compile(r'\[([^\]]*)\]\(([^)]*)\)')
 LIST_LINE = re.compile(r'^(\d+\.|[-*+]) ', re.M)
 BR = '\u00b6'  # a line break inside a paragraph with a list; a word of its own, so diffs keep it
 
+# Struck words (<del>) can't be selected, so they don't come along when Joel copies a paragraph off the page: they
+# did twice, in his section 8 P10 (2026-10-07) and his section 4 P8 (2026-10-13), as published words he had cut himself.
 CSS = """
 :root{--bg:#fbfaf7;--fg:#1f1d1a;--mute:#6b665e;--line:#e3ded4;--card:#fff;--mark:rgba(240,190,60,.35);--flag:rgba(255,86,48,.16);--dup:rgba(60,130,230,.14);--dupline:#3c82e6;--link:#2f5fa7}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#171614;--fg:#ece8e1;--mute:#a39d93;--line:#34312c;--card:#201e1b;--mark:rgba(240,190,60,.28);--flag:rgba(255,86,48,.25);--dup:rgba(90,150,240,.22);--dupline:#7fb0f5;--link:#8fb4ee}}
@@ -125,7 +127,7 @@ a{color:var(--link)}
 .carries{width:100%;border-collapse:collapse;font:14px/1.45 system-ui,sans-serif;margin-top:4px}
 .carries th,.carries td{border-top:1px solid var(--line);padding:6px 8px 6px 0;vertical-align:top;text-align:left}
 .carries th{font-weight:600;color:var(--mute)} .add{color:var(--mute);font-style:italic}
-del{color:var(--mute);text-decoration-thickness:1px}
+del{color:var(--mute);text-decoration-thickness:1px;-webkit-user-select:none;user-select:none}
 .notes{font:15px/1.5 system-ui,sans-serif;margin:8px 0 0;padding-left:20px} .notes li{margin:4px 0}
 .block{margin-top:28px}
 .ctx{background:transparent;border:1px dashed var(--line);border-radius:10px;padding:10px 16px;margin:10px 0;color:var(--mute);font-size:15px;overflow-wrap:anywhere}
@@ -593,8 +595,17 @@ def main():
             lab = r.get('label', '')
             if p is not None and p == int(p) and 'article' in r:
                 pn = para_numbers.label_for(cur, int(p))
+                # One number per paragraph (Joel, 2026-10-13: "not sure why you numbered it p1-p4? it's just p1 right?").
+                # A map written before para_numbers (2026-10-11) numbered its rows across the whole section, so the page
+                # showed the page's number and the label's own side by side ("P1 · P4 · the principle"). A label number
+                # that disagrees with the page's is dropped, with a note; the page's number stands.
+                stale = re.match(r'P\d+\b\s*(?:·\s*)?', lab)
+                if pn and stale and not re.match(r'%s\b' % pn, lab):
+                    print('note: row %r numbers its paragraph %s on this page; the label number was dropped'
+                          % (lab, pn), file=sys.stderr)
+                    lab = lab[stale.end():]
                 if pn and not re.match(r'%s\b' % pn, lab):
-                    lab = '%s · %s' % (pn, lab)
+                    lab = '%s · %s' % (pn, lab) if lab else pn
             elif p is not None and p != int(p):
                 pn = next((para_numbers.label_for(cur, j) for j in range(int(p), -1, -1)
                            if para_numbers.label_for(cur, j) or HEAD.match(cur[j].strip())), None)
