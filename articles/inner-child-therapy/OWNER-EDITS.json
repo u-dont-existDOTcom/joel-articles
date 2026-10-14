@@ -2087,8 +2087,8 @@
   },
   {
    "id": "ask-god-gratitude-20261014",
-   "status": "applied",
-   "what": "Ask God for a Loan is Joel's new section, word for word: the gratitude door to divine love, with his sub-heading and his EndSickness.org short.",
+   "status": "superseded",
+   "what": "Ask God for a Loan is Joel's new section, word for word: the gratitude door to divine love, with his sub-heading and his EndSickness.org short. Superseded 2026-10-14 03:52 UTC by his rewrite of the gratitude paragraph's prosperity lines and the little-one paragraph (entry ask-god-rewrite-20261014b).",
    "joel": "2026-10-14 02:55 UTC: \"ok btw i'm replacing the ask god for a loan section with this, because i realized i never explained the importance of gratitude in finding love\".",
    "where": "Ask God for a Loan",
    "must_contain_exact": [
@@ -2097,6 +2097,24 @@
     "This is the feast problem. You can have an enormous spiritual feast upstairs while the child is still starving downstairs. Spiritual integration means some of what you have actually reaches them."
    ],
    "must_not_contain": [
+    "Get as close to it as you really can right now"
+   ]
+  },
+  {
+   "id": "ask-god-rewrite-20261014b",
+   "status": "applied",
+   "what": "Ask God for a Loan, Joel's rewrite, word for word: the gratitude paragraph's prosperity lines and the little-one paragraph, with the feast paragraph folded into its last sentence. His answers to questions 21 (the roselle tea line stays) and 22 (his words).",
+   "joel": "2026-10-14 03:52 UTC: \"ok good catches. it's fully human now and explained a bit better about prosperity issue. Someone can read to skip dr, if they want, but i did mention bilharzia not just any old peeing blood issue... i'm pretty sure i'm literally the only person in a culture with drs who would have not gone to one lol\".",
+   "where": "Ask God for a Loan",
+   "must_contain_exact": [
+    "#### You Already Got the Loan Without Realizing It!",
+    "One practical door anyone can use to slowly experience divine love is gratitude. This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That’s something to be grateful for. I’m not talking just about changing your “glass half empty” perception to a glass “half full perception.” I’m not pushing “toxic positivity.” And I’m certainly not preaching “prosperity philosophy,\" even though it can seem to start at that. I'm ultimately reaching for something much deeper.",
+    "Within an hour, I was cured.",
+    "Once you start to feel that lovely softness of the heart, invite your little one in with you as your spiritual integration practice. They might go numb, or call BS on that. If so, they might just need to see if you're actually humble enough, and grateful enough for them, to listen to their rejection and be patient. If you instead retreat back into your cozy corner, it's the food bank feast all over again: You can have an enormous spiritual feast upstairs while the child is still starving downstairs."
+   ],
+   "must_not_contain": [
+    "This is the feast problem.",
+    "I’m talking about something deeper.",
     "Get as close to it as you really can right now"
    ]
   }

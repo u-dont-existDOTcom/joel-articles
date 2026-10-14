@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-13 (turn 51). **One open question (20).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-14 (turn 54). **Two open questions (23 and 24).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,48 +11,68 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 21. Ask God for a Loan: the roselle tea line (leave it, or your words?)
+### 🟣 23. Your Untangling the Belonging Bargains: three repeats left in it (leave them, or your words?)
 
-> For example, when I had a suspected bilharzia infection in 2021, and could only painfully pee blood, I promised to always be thankful if I could ever pee normally again. Miraculously, I then found some obscure ethnobotanical research (on [Google Scholar](http://scholar.google.com), before AI) which led me to drink roselle tea. Within an hour, I was cured.
+This turn's repeats check of Sometimes There Isn't a Clear Child Yet (rule E172) found these in your GPT version. The h1's Pangram check waits for your call; I'm taking the repeats out of my own paragraphs in that h1.
 
-A reader peeing blood might take roselle tea as the cure and not see a doctor. The paragraph is about gratitude, so this only matters if a reader reads it as medical advice.
-The repeats check noticed something else here too: a vow of thanks followed by a cure you call a miracle can read like the "prosperity philosophy" your previous paragraph says you're not preaching.
-- **A. Leave it** as it is.
-- **B. Your words**, if you want to say something to that reader.
+> These can all be real gifts. The bargain begins when your worth depends on them, or when you feel you have to keep performing them to be loved.
 
+> You don't have to stop enjoying pleasure, praise, gain or belonging. The question is whether losing one of them would feel like losing yourself.
 
-### 🟣 22. Ask God for a Loan: two flagged spots, both lines kept from the guide (leave them, cut, or your words?)
+The same line drawn twice in one h2; the reader said the second carries it better, since it gives a test.
 
-> The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.
->
-> Find whatever access to that love is genuinely available now.
+> As a differentiated adult you can stay deeply embedded, free to question things or disagree.
 
-That pair (75 words) reads AI, 0.53 ([the result](https://www.pangram.com/history/70aedaa2-9fbe-46a6-9205-5fc663854210), 2026-10-14 03:06 UTC). The first paragraph passed with the old section; the second line is the guide's own ("Find whatever access to that love is genuinely available now. Then bring the younger self into the same field.").
+> Questioning what you were programmed to believe while holding the discomfort, and without having to stop loving anyone over it.
 
-> Once you start to feel that lovely softness of the heart, bring your little one in with you. […] If you pour more spirituality on top instead, it's the food bank all over again, and none of it is getting to them.
->
-> This is the feast problem. You can have an enormous spiritual feast upstairs while the child is still starving downstairs. Spiritual integration means some of what you have actually reaches them.
+Mild: the bullet adds "holding the discomfort".
 
-That pair (91 words) reads AI, 0.82 ([the result](https://www.pangram.com/history/2287d745-04e5-4f44-9318-b9d9e90c3279), 03:07 UTC); the first paragraph alone reads Human (60, 0.04, [the result](https://www.pangram.com/history/a1d8bff6-57ee-4bbb-977d-318c2849e4cb)). The feast paragraph is the guide's word for word, and the repeats check says it makes the food bank point a second time, right after the food bank line (your lesson from last turn).
+> Your little one, with nobody parenting it, takes those bargains to survive, because belonging feels like life or death.
 
-Your five gratitude paragraphs each read Human alone (83, 100, 103, 77 and 136 words). The Borrow Love h2 and the h1 checks wait for your call, since the repeat goes first.
-- **A. Leave both.**
-- **B. Cut the feast paragraph** (the food bank line already says it), and leave the first line or put it your way.
-- **C. Your words** for either or both.
+The backstory of the h1's opening and of From Survival's first paragraph, a third time.
+
+For your information, not a repeat: "Differentiation is slow, and it goes on your whole life." sits against When Healing Turns Into Checking's "just like real growing up is not something you do forever", and the reader found nothing that says how they fit.
+- **A. Leave them** as they are.
+- **B. Your words** for any of them.
+
+### 🟣 24. Borrow One Competency at a Time and your new Ask God: repeats inside the h1 (leave them, cut, or your words?)
+
+The Borrow Love h2 has no repeats inside it now, so it's going to Pangram. The h1 Borrow the Adult Before You Can Be the Adult has these, each with your words in it:
+
+> Even Mr. Rogers could help here if you felt some nice vibes from his show as a kid. *(Borrow One Competency P1, yours)*
+
+> If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have. *(P3: my paragraph, in the words of your 2026-09-25 edit)*
+
+> Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat […] Find whatever access to that love is genuinely available now. *(Ask God, yours)*
+
+Mr. Rogers as the fallback twice in one h2, and spiritual love mentioned in P3 before Ask God says it better.
+
+> Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you. 🙄 *(Borrow One Competency's last paragraph: mine, with your emoji)*
+
+> If so, they might just need to see if you're actually humble enough, and grateful enough for them, to listen to their rejection and be patient. *(your new Ask God)*
+
+Both say to hear out your little one's scorn; yours adds not retreating into your spiritual comfort.
+- **A. Leave them.**
+- **B. Cut P3's last sentence** (your P1 and Ask God carry both halves of it), and leave the hearing-it-out pair.
+- **C. Your words** for any of them.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #172 (turn 53)
+### 🟠 Merge pull request #172 (turns 53 and 54)
 
-This turn's work: GPT's Untangling, your new Ask God for a Loan and its checks. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+GPT's Untangling, your new Ask God for a Loan and your rewrite of it, and this turn's checks. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-14 03:52 UTC
+
+- Your answers to questions 21 and 22, your rewrite of Ask God for a Loan ("ok good catches. it's fully human now and explained a bit better about prosperity issue"): in, word for word. The roselle tea line stays ("i did mention bilharzia not just any old peeing blood issue"); the gratitude paragraph ends with your new prosperity lines; the little-one paragraph is your new one, with the feast paragraph folded into its last sentence. Your check counts, so I didn't check Ask God again; the Borrow Love h2 and the h1 are combinations you didn't check.
 
 ### 🟢 2026-10-14 02:55 UTC
 

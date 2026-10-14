@@ -313,6 +313,8 @@ This goodwill isn't just for the target of it, though. You may find it bounces b
 
 <!-- 2026-10-14 (turn 53): Joel's new Ask God for a Loan, word for word (02:55 UTC: "i'm replacing the ask god for a loan section with this, because i realized i never explained the importance of gratitude in finding love"). His first paragraph is the old P1; the old P2's little-one lines are now its second-to-last paragraph. "You Already Got the Loan Without Realizing It!" is a sub-heading under it (h4). -->
 
+<!-- 2026-10-14 (turn 54): Joel's rewrite, word for word (03:52 UTC: "ok good catches. it's fully human now and explained a bit better about prosperity issue"). His answers to questions 21 and 22: the roselle tea line stays ("Someone can read to skip dr, if they want, but i did mention bilharzia not just any old peeing blood issue"); the gratitude paragraph's prosperity lines are his new ones; the little-one paragraph is his new one, with the feast paragraph folded into its last sentence. His check of the section counts ("it's fully human now"). -->
+
 <!-- Native YouTube embed (Joel, 2026-10-14): a short from EndSickness.org about how gratitude helps the nervous system (https://www.youtube.com/shorts/4TYvq-d0-XM). -->
 
 The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.
@@ -321,7 +323,7 @@ Find whatever access to that love is genuinely available now.
 
 #### You Already Got the Loan Without Realizing It!
 
-One practical door anyone can use to slowly experience divine love is gratitude. This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That’s something to be grateful for. I’m not talking just about changing your “glass half empty” perception to a glass “half full perception.” I’m not pushing “toxic positivity.” And I’m certainly not preaching “prosperity philosophy.” I’m talking about something deeper.
+One practical door anyone can use to slowly experience divine love is gratitude. This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That’s something to be grateful for. I’m not talking just about changing your “glass half empty” perception to a glass “half full perception.” I’m not pushing “toxic positivity.” And I’m certainly not preaching “prosperity philosophy," even though it can seem to start at that. I'm ultimately reaching for something much deeper.
 
 If you have a moment right now to breathe, that’s something to be grateful for. I learned this many times the hard way. For example, when I had a suspected bilharzia infection in 2021, and could only painfully pee blood, I promised to always be thankful if I could ever pee normally again. Miraculously, I then found some obscure ethnobotanical research (on [Google Scholar](http://scholar.google.com), before AI) which led me to drink roselle tea. Within an hour, I was cured. I don’t always remember to say “thank you” when I pee now, but I try.
 
@@ -331,9 +333,7 @@ Of course, that’s not to say you should not try to suffer less. The point of l
 
 Notice how, when you offer thanks (to the universe, to life, to God, whatever you may believe in), a space in your heart opens up. It might not feel immediately like you suddenly know the real meaning of Divine Love, but it’s a little spark of … something.... There’s a tiny bit of freedom, of peace, stillness, softness. And as that softness deepens each time, you start to understand what I mean by Divine Love. Many people have written books on this topic (like [A. Helwa’s book](https://authorahelwa.com/), Secrets of Divine Love, for example), so I won’t belabor the point further here, but I hope you are able to experience this when you try it out for a while, and I’d really love to know how it works for you!
 
-Once you start to feel that lovely softness of the heart, bring your little one in with you. They might go numb, or just say "Bullshit." That becomes the conversation, and it's worth listening to. If you pour more spirituality on top instead, it's the food bank all over again, and none of it is getting to them.
-
-This is the feast problem. You can have an enormous spiritual feast upstairs while the child is still starving downstairs. Spiritual integration means some of what you have actually reaches them.
+Once you start to feel that lovely softness of the heart, invite your little one in with you as your spiritual integration practice. They might go numb, or call BS on that. If so, they might just need to see if you're actually humble enough, and grateful enough for them, to listen to their rejection and be patient. If you instead retreat back into your cozy corner, it's the food bank feast all over again: You can have an enormous spiritual feast upstairs while the child is still starving downstairs.
 
 ### When the Spiritual Relationship Hurts
 
