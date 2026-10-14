@@ -1994,7 +1994,7 @@
   },
   {
    "id": "bargains-rest-20261012d",
-   "status": "claim",
+   "status": "superseded",
    "what": "Untangling the Belonging Bargains P2 (the human doer, every arena, caretaking's controlling form) and P3 (gifts that become bargains; the child takes them; self-differentiation; praise, pity, fear, attraction, resonance), and the h3 Four Pairs That Commonly Hook the Child: Pema's map and the six goods, the four questions, the aim, differentiation inside with the three comparisons, the ordinary-life signs, slow and lifelong with distance, returning and permanent leaving. Turn 49. P3 is Joel's since turn 50 (q17-p3-fix-20261012d). P2's last sentence and P3's first are Joel's own since turn 52 (q20-bargains-own-version-20261013).",
    "joel": "2026-10-12 17:36 UTC: \"continue\"",
    "where": "Untangling the Belonging Bargains",
@@ -2013,11 +2013,12 @@
     "Noticing when you agreed in the moment and disagree later",
     "Differentiation is slow, and it goes on your whole life",
     "Some people come back later on different terms"
-   ]
+   ],
+   "superseded_by": "untangling-gpt-dedup-20261014"
   },
   {
    "id": "q17-p3-fix-20261012d",
-   "status": "applied",
+   "status": "superseded",
    "what": "Untangling P3 is Joel's fix, his words (\"beacuse\" spelled right): belonging bargains when your whole identity is tied up with living up to those ideals to please others; why a child of good parents can have this programming too; self-differentiation \"where you get to notice\"; \"water dripping through your hand\". In since turn 50; his check Human (medium), ours 100% Human (139).",
    "joel": "2026-10-13 00:47 UTC: \"17. Beauty, intelligence, achievement and caretaking can all be real gifts, but they become \"belonging bargains\" when your whole identity is so tied up with living up to those ideals to please others. Your little one, with nobody parenting it, takes those bargains to survive, because belonging feels like life or death. Even with good parents, you could still have some of this programming. Not beacuse of your own flaw, but maybe people simply repeatedly praised you for these things, rather than your inherent worth. Self-differentiation is where you get to notice where you're betraying yourself to belong, and then keeping your own ground instead. It also means noticing when what you thought you knew suddenly feels like water dripping through your hand as a result of praise/pity, fear/attraction, or something that really resonates with you. --that's human med conf on pangram\"",
    "where": "Untangling the Belonging Bargains",
@@ -2025,7 +2026,8 @@
     "when your whole identity is so tied up with living up to those ideals to please others",
     "maybe people simply repeatedly praised you for these things, rather than your inherent worth",
     "suddenly feels like water dripping through your hand"
-   ]
+   ],
+   "superseded_by": "untangling-gpt-dedup-20261014"
   },
   {
    "id": "q18-questions-fix-20261012d",
@@ -2049,7 +2051,7 @@
   },
   {
    "id": "q20-bargains-own-version-20261013",
-   "status": "applied",
+   "status": "superseded",
    "what": "Untangling the Belonging Bargains P1 to P3 are Joel's own version (his answer to question 20): P1 rewritten, P2's last sentence and P3's first in his words; Four Pairs unchanged. His check: the whole h2 100% Human.",
    "joel": "2026-10-13 20:41 UTC: \"i see ok i fixed it plus also made the first para better. now the whole section is 100% human on pangram... pasted whole section\" ... \"i just told GPT to deduplicate and its output became 100% human, so lesson is duplication is very AI we already knew that but you're not checking that well enough.\"",
    "where": "Untangling the Belonging Bargains, P1 to P3",
@@ -2062,6 +2064,40 @@
     "Or the expectations of a family or religion that’s kind to you.",
     "In its controlling form, that caretaking can drift",
     "can all be real gifts, but they become"
+   ],
+   "superseded_by": "untangling-gpt-dedup-20261014"
+  },
+  {
+   "id": "untangling-gpt-dedup-20261014",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human.",
+   "joel": "2026-10-14 02:55 UTC: \"my bad, i logged back into pangram, and the deduped GPT version i meant to put at the end of my last msg is this\"; 2026-10-13 20:41 UTC: \"i just told GPT to deduplicate and its output became 100% human\".",
+   "where": "Untangling the Belonging Bargains and Four Pairs That Commonly Hook the Child",
+   "must_contain_exact": [
+    "A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good.",
+    "These can all be real gifts. The bargain begins when your worth depends on them, or when you feel you have to keep performing them to be loved.",
+    "You don't have to stop enjoying pleasure, praise, gain or belonging. The question is whether losing one of them would feel like losing yourself.",
+    "- Noticing when what you thought you knew suddenly feels like water dripping through your hand because of praise or pity, fear or attraction, or something that really resonates with you."
+   ],
+   "must_not_contain": [
+    "This pull can come from family",
+    "In the more shadowy presentation of caretakerism",
+    "The aim isn't to stop enjoying pleasure or praise"
+   ]
+  },
+  {
+   "id": "ask-god-gratitude-20261014",
+   "status": "applied",
+   "what": "Ask God for a Loan is Joel's new section, word for word: the gratitude door to divine love, with his sub-heading and his EndSickness.org short.",
+   "joel": "2026-10-14 02:55 UTC: \"ok btw i'm replacing the ask god for a loan section with this, because i realized i never explained the importance of gratitude in finding love\".",
+   "where": "Ask God for a Loan",
+   "must_contain_exact": [
+    "#### You Already Got the Loan Without Realizing It!",
+    "One practical door anyone can use to slowly experience divine love is gratitude.",
+    "This is the feast problem. You can have an enormous spiritual feast upstairs while the child is still starving downstairs. Spiritual integration means some of what you have actually reaches them."
+   ],
+   "must_not_contain": [
+    "Get as close to it as you really can right now"
    ]
   }
  ]

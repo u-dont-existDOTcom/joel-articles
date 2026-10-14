@@ -716,3 +716,11 @@ Joel's message, sent 20:41 UTC (written as his reply to turn 51 and not sent the
 1. The sweep's repeats inside this h1 that are in my text (39, 45, 46, 48, 49 and contradiction 7), fixed one at a time with Pangram checks; the two in his P1 and P3 (47, 48's first half) go to him.
 2. The h1 with his new h2, in the web app (a combination he didn't check), when the browser pane is reachable.
 3. The next h2, Let the Child Be Bad at Things.
+
+## Turn 53 (2026-10-14, from 02:55 UTC): GPT's deduplicated Untangling, and Joel's new Ask God for a Loan
+
+Joel, 02:55 UTC: "my bad, i logged back into pangram, and the deduped GPT version i meant to put at the end of my last msg is this" (the whole h2, Four Pairs included), then "ok btw i'm replacing the ask god for a loan section with this, because i realized i never explained the importance of gratitude in finding love", then "continue".
+
+- **In, word for word:** the whole Untangling h2 in GPT's deduplicated version, replacing turn 52's (his check counts: "its output became 100% human"); and his new Ask God for a Loan, with his EndSickness.org short under the heading and "You Already Got the Loan Without Realizing It!" as a sub-heading (h4). Owner edits logged; the older Untangling entries are marked superseded.
+- **Question 21:** the roselle tea line (leave it, or his words), on the questions page with the passage.
+- **Next:** Ask God for a Loan in Pangram's web app (he didn't say he'd checked it): each paragraph alone, then Borrow Love with its h3s, then the h1 Borrow the Adult Before You Can Be the Adult, after E172's repeats check of the section. Then the h1 Sometimes There Isn't a Clear Child Yet with the new Untangling.

@@ -11,21 +11,31 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-*None open right now. Turn 52's notes are in Decided below.*
+### 🟣 21. Ask God for a Loan: the roselle tea line (leave it, or your words?)
+
+> For example, when I had a suspected bilharzia infection in 2021, and could only painfully pee blood, I promised to always be thankful if I could ever pee normally again. Miraculously, I then found some obscure ethnobotanical research (on [Google Scholar](http://scholar.google.com), before AI) which led me to drink roselle tea. Within an hour, I was cured.
+
+A reader peeing blood might take roselle tea as the cure and not see a doctor. The paragraph is about gratitude, so this only matters if a reader reads it as medical advice.
+- **A. Leave it** as it is.
+- **B. Your words**, if you want to say something to that reader.
+
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #171 (turn 52)
-
-This turn's work: your Untangling P1 to P3, rule E172 and the repeats sweep. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+*Nothing right now: you merged #171 (turn 52). Turn 53's pull request will be listed here.*
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-14 02:55 UTC
+
+- "the deduped GPT version i meant to put at the end of my last msg is this": in, word for word, the whole h2 with Four Pairs, in place of turn 52's. Your check counts ("its output became 100% human"), so I didn't check the h2 again.
+- "i'm replacing the ask god for a loan section with this, because i realized i never explained the importance of gratitude in finding love": in, word for word, with your EndSickness.org short under the heading. "You Already Got the Loan Without Realizing It!" is a sub-heading under Ask God for a Loan; say if you meant it as its own h3. You didn't say you'd checked it, so I'm checking it in Pangram. One question on it: 21 above.
 
 ### 🟢 2026-10-13 20:41 UTC
 
