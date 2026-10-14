@@ -68,6 +68,10 @@ def owner_strings(ledger_path, owner_files):
         for e in entries:
             if e.get('status') != 'applied':
                 continue
+            if e.get('words') == 'proposed':
+                # wording I proposed and he approved ("agree fix it") is still mine to check: two of the three sweep
+                # flags he sent back on 2026-10-14 (F4, F6) were in words like these, under author marks
+                continue
             out += [norm(m) for m in e.get('must_contain', []) if len(m) >= 25]
             if isinstance(e.get('joel'), str) and len(e['joel']) >= 25:
                 out.append(norm(e['joel']))

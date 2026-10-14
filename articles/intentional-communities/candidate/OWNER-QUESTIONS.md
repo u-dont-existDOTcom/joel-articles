@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-13, after your message of 21:00 UTC. **Open questions: 1.** To answer, reply in chat with the number and the letter, for example `21: done`, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-14, after your message of 03:04 UTC. **Open questions: 5.** To answer, reply in chat with the number and the letter, for example `22a`, or in your own words. Everything else in my messages is status.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,26 +9,55 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> One question for you.
+> Five questions, each with my pick. The passages are on the side-by-side pages I sent this turn.
 
-**🟣 21. Score the examples on the [Rule Scoring Sheet](https://claude.ai/artifact/NeH9dPAYfd1vGDSMTy1fGN).** It has three short sets, and you can answer them on the page; it saves as you go.
-- The 14 sweep flags in your paragraphs, each with where it came from. Did you change the meaning on purpose, is it the same meaning, or should I fix it?
-- Six "it" cases: is each one clear?
-- Two Pangram results I can't explain: can you say why?
+**🟣 22. Section 11's opening: define "Founderism"?** Six cold reads said the heading's word is never explained.
+- a) "That person ends up with real influence, and pretending they don't just makes that influence harder to look at. When that influence goes unchecked, I call it founderism." **My pick**: it fits your own "founderism is a problem in every community, it's especially so ... as I'm describing may happen in my case", and the four questions test exactly that.
+- b) "... That influence is what I mean by founderism." (the influence itself, unchecked or not)
+- c) Leave it undefined.
 
-Your answers become the rules' examples. In your other Claude account, press "Copy answers" and paste them into the chat.
+With a) or b) in, the section reads "Mostly Human": Pangram puts an AI window on P4's run of questions ("One is to judge the method by results people can actually see. Are the members flourishing ... start up and last?"), though P2 and P4 each pass alone (batches 281g and 282g). So whichever you pick, P4 probably needs a touch of yours; see 23.
+
+**🟣 23. Section 11, P4 and P6: three flags I couldn't fix in Pangram.**
+- P4's "Can it correct a prediction that turned out wrong?" (eleven reads: whose prediction?). My two wordings, "When the method gets a prediction wrong, can the community say so and change course?" and "Can it correct the method's wrong predictions?", pass alone, and each puts the same AI window on the questions in the section (277g, 280g).
+- P4's "Can it replace the founder?" repeats the four questions' "Can the community replace the role of the founder?" three paragraphs later (the repeats check, E172).
+- P6's "Here are the four questions about the founder:" (three reads: the four aren't set apart from P4's questions). Mine, "The questions so far have been about the method. These four are about the founder:", passes beside P5 and the questions; the section with it and P4's fix reads AI on P4 again (282g).
+
+- P8's "who picks the reviewers?" (nine reads: reviewers of whom?). "who picks the people who review the founder?" (P9's own words) and "who picks the people who handle complaints?" each read as narrower than the published "chooses reviewers" to a meaning trace, so it stays. My pick for P8: "the people who review the founder".
+
+My pick for P4 and P6: your own wording of P4's questions, since the run itself is what Pangram reads (it read AI in the section even with P4 and P6 as they are, once P2 changed). If you'd rather not, all three stay as they are; the section reads 100% Human that way (282g).
+
+**🟣 24. Two small fixes in your own paragraphs** (two cold reads each).
+- Section 8, P13 under "Children Need Freedom Inside Real Protection": "I looked through the research corpus for a well-documented case" (which corpus?). a) "I looked through all the research I'd gathered for a well-documented case" (same link). **My pick.** b) Leave it.
+- Section 4, P10 under "4. The container": "If one of them gets skipped, it will need to be dealt with eventually" (the first three parts, or all four?). a) "If one of the four gets skipped". **My pick**, since the land and labor clause after it is about the container. b) Leave it.
+
+For your information: your three-sentence paragraph "And it's built on somatic regulation first. ..." reads AI beside the reparenting paragraph before it, in your own wording too (278g, a control); the whole section reads 100% Human (276g).
+
+**🟣 25. Section 10's last paragraph: "a collision of two principles"** (four reads: none named, abrupt). Two openings that name the pair from the paragraph before ("Limits like those come from two principles colliding, solidarity and each community's claim on its own labor and stores." and "... a collision of two principles, like solidarity and a community's claim on its own stores, ...") read AI alone (276g, 279g); this opening failed in most wordings on 10-10 too. a) Leave it as it is (it passes alone and in the section). **My pick**, unless you want to word the bridge. b) Your wording.
+
+**🟣 26. Repeats in your words** (the repeats check, E172; each with my pick).
+- Section 4: "don't freeze into doctrine", then two paragraphs later "When agreements get frozen, religious communities tend to call the frozen version doctrine." Cut "and don't freeze into doctrine" from the first? **My pick: yes.**
+- Section 9: "A new ecovillage can't copy the diagram everyone can see" and, right after, "The useful thing isn't their diagram." Cut the second, so the next sentence reads "The useful thing is how they learn: they build things and ask questions, ..."? **My pick: yes** (one cold read also asked "what diagram?" at the first).
+- Section 11: "a dynamic, living, always re-assessed balance", "again, a living balance must be struck", "But again, balance". Cut "There are pros and cons to each extreme, and again, a living balance must be struck."? **My pick: yes**; the third gives its own reason. And "I can't decide any of this ahead of time" with "Nobody can give that advice ahead of time, including me": **my pick: keep both**, they're different decisions.
+- Section 12: your new "it's more about what fits where & when than good or bad" and the list's "This doesn't mean you're bad or doomed, it's about timing". **My pick: keep both**: the first is about labels, the second reassures the reader right when the list says they may not fit. Also, "free resource" now comes four paragraphs before its definition (it did before, as "free resource/capacity"); my pick is to leave it.
+- One cut in my own words is in, as a proposal: section 9's "not claiming they already proved my whole model", since your "the Zapatistas also don't prove my whole money-free economy goal" says it. Say if you want it back.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
-> One thing for you to do.
+> Nothing for you to do this time.
 
-- 🟠 Merge two pull requests when you're ready (about a minute): [169](https://github.com/u-dont-existDOTcom/joel-articles/pull/169), the lessons from your section 4 and 12 texts, and [170](https://github.com/u-dont-existDOTcom/joel-articles/pull/170), the registration. One command does both: `gh pr merge 169 -R u-dont-existDOTcom/joel-articles --merge && gh pr merge 170 -R u-dont-existDOTcom/joel-articles --merge`. They worked when both pages say Merged.
+- 🟢 Pull requests 169 and 170 are merged (see Decided).
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-10-14 03:04 UTC, on question 21 (your Rule Scoring Sheet answers): F4 and F6 are in as you wrote them ("thieving, nor suddenly unlearning learned helplessness"; "a baby is born or jealousy rears its head"). F10, "revert to yours": my sentence from before your 10-07 text is back, with your "what happened" for its "it", since your I answers say an "it" with nothing named nearby is unclear: "A scared or confused kid may get mixed up telling what happened and still need protection." If you meant the published sentence, it's "A frightened or confused child may tell a story imperfectly and still need protection." I1, "Unclear": "And inner pl/ork is built on somatic regulation first." I chose the subsection's subject over "reparenting", which the stance check found pulling against section 5's "Reparenting, somatic capacity, and peer counseling come first"; say if you meant reparenting. W1: your preferred P2 and P3 are in; each reads Human alone and as a pair, and the section 100% Human (274g). The rest ("You meant it", the "it" scores, W2) are in the rules, with what I could have seen myself.
+- 🟢 03:04: "try to merge also, but it said conflicts bc i guess of the merge i did on inner child lane". Yes: 169 and your inner-child merge (#171) had each added an entry at the end of the fixes catalogue. I kept both, and 169 and 170 are merged.
+- 🟢 A rule I found unhelpful, changed this turn (say if you want it back): the gate blocked any fix whose paragraph a reader labels with no "break" in its march. Fifteen of the twenty paragraphs the sweep's fixes touched got no break, and so did their versions already in the article, which had each passed Pangram alone; keeping the rule would have meant rewriting fifteen passing paragraphs to add one. A fix of a few words in a paragraph that already passed is now checked in Pangram unless the fix took out a break the paragraph had (E173).
+- 🟢 03:04: "pangram is logged in now also". The 18 fixes from the sweep went through Pangram: 13 are in (sections 3, 6, 7, 8, 9 and 11), every changed paragraph Human alone and each section 100% Human, all but section 11 on the first try. Five are questions 22 to 25. Details: [the turn's results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1014/articles/intentional-communities/candidate/fix-20261014/RESULTS.md).
 
 - 🟢 2026-10-13 21:00 UTC, on question 20: "yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork..." It doesn't fork them, so it's registered ([pull request 170](https://github.com/u-dont-existDOTcom/joel-articles/pull/170)). The rules are main's shared files, which the inner child lane and this one both add to, and registering copies none of them. It's registered the way Inner Child Therapy is: the published text is the working source master, the humanized article is the working copy until you accept it, and your edits are the ledger every render checks. Until now the community work lived on a branch 424 commits behind main; from here on it runs next to the same rules.
 - 🟢 21:00: your final section 4 ("here is the final section (human on pangram)") and your section 12 rewrite ("still passes pangram fully") are in as you wrote them, with the obvious typos fixed and your links and images back. In section 4's suttas paragraph, the published words you cut on 10-02 ("I consider the Abhidhamma a scholastic wrong turn", "secure enough to disagree") came along from the old page's struck text, so they're out again; say if you meant to bring the Abhidhamma line back. I couldn't re-check them on Pangram this turn: no browser with your sign-in was connected.
@@ -75,7 +104,6 @@ Your answers become the rules' examples. In your other Claude account, press "Co
 > [!NOTE]
 > What's next, and what happens if nothing changes.
 
-- 🔵 The sweep that goes with today's lessons, over sections 2 to 11 (no answer needed; say if you disagree with any call): 42 places two or more cold reads had flagged and I had left. I'll fix 18 of them with Pangram as soon as a browser with your sign-in is connected: section 11 has six (one, "Can it correct a prediction that turned out wrong?", was flagged by eleven reads: whose prediction?), and the rest are in sections 3, 6, 7, 8, 9 and 10 ("technosphere", "ZEGG and Tamera", "the Ye'kuana", "the Island Pond raid" and "caracoles" explained at first mention, plus a few rewordings). The other 24 stay: your own text or rulings, context the older cold reads didn't have, or a section's design. No lost functions outside your own paragraphs. The stance check of your changes found one line for section 13's pass ("A membership process protects existing members and newcomers.").
 - 🔵 Next: section 13, "Your Little Forming Group Already Is the Community", in the article's new folder, with Pangram batches through main's gate script (pull request 165's rule), once a browser with your Pangram sign-in is connected.
 - 🔵 Section 13, "Your Little Forming Group Already Is the Community": two lines shaped like "Decide the process before the name" wait for its pass ("Discover the group's conflict capacity before hiring a surveyor." and "Write the exit terms while departure is still hypothetical.").
 - 🔵 Information on section 12, no answer needed: the chart still says "A community can absorb only as much need as its members have free resource to meet." Your cut took that sentence out of the text, so now only the chart says it, and "Once there are 80 members" carries the point. Fine by me.

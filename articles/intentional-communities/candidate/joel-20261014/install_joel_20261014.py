@@ -92,7 +92,7 @@ have['s2-c11b']['status'] = 'superseded'
 have['s2-c11b']['superseded_by'] = 's2-joel-20261014-f6'
 e = have['s4-p12']
 e['must_contain_exact'] = [x for x in e['must_contain_exact'] if x != "And it's built on"]
-e['what'] += (' (2026-10-14: Joel\'s I1 answer says the "it" of "And it\'s built on" is unclear, so it names reparenting now; '
+e['what'] += (' (2026-10-14: Joel\'s I1 answer says the "it" of "And it\'s built on" is unclear, so it names inner pl/ork now; '
               'entry s4-joel-20261014-i1 checks it.)')
 e = have['s12-joel-20261013-2100']
 e['must_contain'] = [x for x in e['must_contain'] if not x.startswith('So the question isn’t whether')]
@@ -112,7 +112,7 @@ new = [
   'must_contain': ['People want to go back to the old way of living, but ' + F6, 'They just know they are tired and alone and want to change it.'],
   'must_not_contain': ['someone thinks they own something']},
  {'id': 's4-joel-20261014-i1', 'status': 'applied',
-  'what': 'Section 4, Inner pl/ork: I1 "Unclear" for his "And it\'s built on somatic regulation first." The sentence names reparenting now.',
+  'what': 'Section 4, Inner pl/ork: I1 "Unclear" for his "And it\'s built on somatic regulation first." The sentence names the subsection\'s subject, inner pl/ork, now (reparenting, the other candidate, pulled against section 5 in the stance check of 2026-10-14).',
   'joel': att[17].strip(), 'when': Q,
   'must_contain': ['And inner pl/ork is built on'], 'must_not_contain': ["And it's built on"]},
  {'id': 's8-joel-20261014-f10', 'status': 'applied',

@@ -603,6 +603,19 @@ class MeaningSweepAuthorMarks(unittest.TestCase):
         self.assertTrue(out.startswith('The community has to share'))
         self.assertIn(meaning_sweep.MARK_OPEN + 'No, taking away the idea', out)
 
+    def test_wording_he_approved_stays_mine(self):
+        """2026-10-14: two of the three sweep flags he sent back (F4, F6) were in my wording he had approved ("agree fix
+        it"), which the ledger records; an entry marked "words": "proposed" gives no author marks."""
+        with tempfile.TemporaryDirectory() as d:
+            led = pathlib.Path(d) / 'led.json'
+            led.write_text(json.dumps({'entries': [
+                {'id': 'a', 'status': 'applied', 'must_contain': [self.HIS]},
+                {'id': 'b', 'status': 'applied', 'words': 'proposed',
+                 'must_contain': ['or stop trying to act helpless, which I proposed and he approved']}]}), encoding='utf-8')
+            owners = meaning_sweep.owner_strings(str(led), [])
+        self.assertIn(meaning_sweep.norm(self.HIS), owners)
+        self.assertFalse(any('stop trying to act helpless' in o for o in owners))
+
     def test_the_prompt_and_input(self):
         with tempfile.TemporaryDirectory() as d:
             d = pathlib.Path(d)
