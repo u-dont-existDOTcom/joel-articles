@@ -45,7 +45,9 @@ Your five gratitude paragraphs each read Human alone (83, 100, 103, 77 and 136 w
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-*Nothing right now: you merged #171 (turn 52). Turn 53's pull request will be listed here.*
+### 🟠 Merge pull request #172 (turn 53)
+
+This turn's work: GPT's Untangling, your new Ask God for a Loan and its checks. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
