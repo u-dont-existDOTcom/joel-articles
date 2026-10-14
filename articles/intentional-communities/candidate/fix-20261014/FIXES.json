@@ -63,13 +63,6 @@
   "new": "In 1984, Vermont authorities [raided a religious community in Island Pond](https://vtdigger.org/2024/06/21/40-years-later-island-pond-has-little-interest-in-revisiting-its-historic-raid/) and took 112 kids into custody over suspected abuse. A judge turned down the state's blanket request to hold them, because it couldn't name any specific case, and the kids went home that same day."
  },
  {
-  "key": "S8P27f",
-  "section": 8,
-  "why": "cold reads (SENSE-s8.md and SENSE2-s8.md, 2 reads): \"the research corpus\" (which corpus?); published words (\"I also searched the research corpus\"), so a fix I propose under the rule for flags two reads raise",
-  "old": "I looked through [the research corpus](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) for a well-documented case",
-  "new": "I looked through [all the research I'd gathered](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) for a well-documented case"
- },
- {
   "key": "S9P2f",
   "section": 9,
   "why": "sweep: \"caracoles\" (2 reads: unexplained). Source: SOURCES.md",
@@ -110,13 +103,6 @@
   "why": "sweep: \"Here are the four questions about the founder:\" (3 reads: not set apart from the many questions above)",
   "old": "Here are the four questions about the founder:",
   "new": "The questions so far have been about the method. These four are about the founder:"
- },
- {
-  "key": "S11P8f",
-  "section": 11,
-  "why": "sweep: \"who picks the reviewers\" (9 reads: reviewers of whom?; P9 says \"the person to review the founder\")",
-  "old": "Who decides who gets admitted, and who picks the reviewers?",
-  "new": "Who decides who gets admitted, and who picks the people who handle complaints?"
  },
  {
   "key": "S11P9f",

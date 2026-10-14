@@ -41,3 +41,25 @@ Gate records in `GATE.json` (kind "edit", E173: a fix of a few words in a paragr
 | S9v15 | Human (weak) | section 9 took many rounds before; two small changes |
 | E-S10P9f | Human (weak) | the new opening sentence names two principles in a row, a slightly abstract run |
 | S10v3 | Human | |
+
+Results of 276g (2026-10-14 UTC): E-S3P4f **Human (low; 77 words)**, 05:30:14; E-S3P10f **Human (low; 83)**, 05:30:24; S3v12 **Human (100%), "Human Written", high (558)**, 05:30:36; E-S4I1 (his reparenting paragraph with the I1 paragraph) **AI-Generated (low; 99 words), the whole pair**, 05:30:47; S4v111 **Human (100%), "Human Written", high (1,555)**, 05:31:01; E-S7P6f **Human (low; 68)**, 05:31:13; S7v4 **Human (100%), high (486)**, 05:31:25; E-S9P2f **Human (low; 65)**, 05:31:35; E-S9P18f **Human (medium; 108)**, 05:31:47; S9v15 **Human (100%), high (1,037)**, 05:31:59; E-S10P9f **AI-Generated (medium; 103 words), the whole paragraph**, 05:32:11; S10v3 **Human (100%), high (746)**, 05:32:23. Score: 10 of 12. Sections 3, 7 and 9 pass with every changed paragraph on the first try; sections 4 and 10 pass whole, but the I1 pair and P9 read AI.
+
+## Batch 277g: sections 6, 8 and 11 with the sweep's fixes (and section 8's F10)
+
+| text | mine | why |
+|---|---|---|
+| E-S6P8f | Human | the march has two breaks (the "Ok, so" and his "right?") |
+| S6v22 | Human | |
+| E-S8P10f (with the friend paragraph) | Human | "the usual promo video" is plainer than "another" |
+| E-S8P12f | Human (weak) | the gloss makes a long first sentence longer |
+| E-S8P20f | Human (weak) | "without the panic actually preventing abuse" is close to the published wording |
+| E-S8P23f | Human (weak) | "A surprise has an end date." is short and flat |
+| E-S8F10 | Human | his paragraph; my old sentence back at its end |
+| E-S8P26f | Human (weak) | the new facts make a run of plain statements |
+| S8v29 | Human (weak) | six changes in one section |
+| E-S11P2f (with P1) | Human (weak) | the definition is a short last line |
+| E-S11P4f | Human (weak) | a run of questions; it passed before with one more |
+| E-S11P6f (with the four questions and P8) | Human | |
+| E-S11P9f | Human | |
+| E-S11P10f | Human | the list of signs passed before |
+| S11v14 | Human (weak) | five changes |
