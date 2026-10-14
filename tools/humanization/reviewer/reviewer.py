@@ -589,12 +589,26 @@ def build_repeats(article, focus=None, report=None):
 
 
 MD_LINK = re.compile(r'\[([^\]]+)\]\((?:[^()\s]|\([^()\s]*\))*\)')
+MD_LINK_URL = re.compile(r'\[([^\]]+)\]\(((?:[^()\s]|\([^()\s]*\))*)\)')
 HEADING = re.compile(r'(#{1,6}) +(.+?)\s*$')
 
 
+def link_note(m):
+    """A link as a reader of the page meets it: its words, marked as a link, and where it goes (2026-10-14). Two cold reads
+    asked "which corpus?" of section 8's "I looked through the research corpus", which is a link to the research; the
+    reader had been given the link's words only. Joel, 21:19 UTC: "the research corpus is linked in the article...
+    should be linked right there. reviewer doesn't know about links or something?\"."""
+    text, url = m.group(1), m.group(2)
+    if re.fullmatch(r'\s*https?://\S+\s*', text):
+        return text
+    short = re.sub(r'^https?://(www\.)?', '', url).split('?')[0].split('#')[0].rstrip('/')
+    return '%s [a link to %s]' % (text, short)
+
+
 def reader_view(md):
-    """Markdown blocks as a reader of the published page sees them: no comments or working notes, links as their
-    text, an image as "[an image]", captions kept, share buttons left out, a link card as its title."""
+    """Markdown blocks as a reader of the published page sees them: no comments or working notes, a link as its words
+    marked "[a link to ...]" (link_note), an image as "[an image]", captions kept, share buttons left out, a link card as
+    its title."""
     s = EMBED.sub(lambda m: '\n\n[Embedded post by the author: "%s"]\n\n' % m.group(1), article_images.show(md))  # image notes (E164)
     s = re.sub(r'<!--.*?-->', '', s, flags=re.S)
     # A Substack post card's title is a link whose text is a heading, across blank lines; it's one line on the page
@@ -617,7 +631,7 @@ def reader_view(md):
         if re.fullmatch(r'https://substack\.com/\S+', p):
             out.append('[Embedded Substack note by the author, shown as a preview card]')
             continue
-        out.append(MD_LINK.sub(r'\1', p))
+        out.append(MD_LINK_URL.sub(link_note, p))
     return out
 
 

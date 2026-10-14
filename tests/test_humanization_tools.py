@@ -716,7 +716,8 @@ class SectionColdReadPrompt(unittest.TestCase):
     def test_the_reader_gets_the_article_before_and_the_section_numbered(self):
         p = self.run_cmd('--section', 'Second Part', '--report', '/tmp/r.md')
         earlier = p[p.index('THE ARTICLE BEFORE'):p.index('THE SECTION:')]
-        self.assertIn('My father made a film in 1988.', earlier)        # a link reads as its text
+        # a link reads as its words, marked as a link, with where it goes (2026-10-14: "reviewer doesn't know about links")
+        self.assertIn('My father made a film [a link to example.com/film] in 1988.', earlier)
         self.assertIn('[an image]', earlier)
         self.assertIn('[caption] The banner my mom painted.', earlier)
         for gone in ('Share', 'working note', 'humanized article so far', 'https://'):
@@ -728,6 +729,20 @@ class SectionColdReadPrompt(unittest.TestCase):
         self.assertIn('After it, the next section starts: "# Third Part".', section)
         self.assertNotIn('The third part.', section)
         self.assertIn('/tmp/r.md', p)
+
+    def test_a_linked_phrase_is_marked_and_the_reader_is_told_what_that_means(self):
+        # Joel, 2026-10-14 21:19 UTC, on two cold reads asking "which corpus?" of a phrase that is a link to it: "the
+        # research corpus is linked in the article... should be linked right there. reviewer doesn't know about links or
+        # something?" The reader had been given the link's words only.
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        view = reviewer.reader_view('I looked through [the research corpus](https://www.example.org/blog/research/?s=1#top) for '
+                                    'a case, and [https://example.org](https://example.org) has the rest.')
+        self.assertEqual(view, ['I looked through the research corpus [a link to example.org/blog/research] for a case, and '
+                                'https://example.org has the rest.'])
+        p = self.run_cmd('--section', 'Second Part')
+        self.assertIn('Words followed by "[a link to ...]" are a link on the page', p)
+        self.assertIn('the research corpus is linked in the article', p)
 
     def test_the_shared_rules_are_in_it(self):
         p = self.run_cmd('--section', 'Second Part')
