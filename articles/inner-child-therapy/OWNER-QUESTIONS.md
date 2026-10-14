@@ -13,7 +13,7 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ### 🟣 23. Your Untangling the Belonging Bargains: three repeats left in it (leave them, or your words?)
 
-This turn's repeats check of Sometimes There Isn't a Clear Child Yet (rule E172) found these in your GPT version. The h1's Pangram check waits for your call; I'm taking the repeats out of my own paragraphs in that h1.
+This turn's two repeats checks of Sometimes There Isn't a Clear Child Yet (rule E172) found these in your GPT version. The h1's Pangram check waits for your call; I'm taking the repeats out of my own paragraphs in that h1.
 
 > These can all be real gifts. The bargain begins when your worth depends on them, or when you feel you have to keep performing them to be loved.
 
@@ -29,7 +29,13 @@ Mild: the bullet adds "holding the discomfort".
 
 > Your little one, with nobody parenting it, takes those bargains to survive, because belonging feels like life or death.
 
-The backstory of the h1's opening and of From Survival's first paragraph, a third time.
+The backstory of the h1's opening and of From Survival's first paragraph, a third time. A cold reader also stopped on "with nobody parenting it": the grown-up you now, or your parents back then?
+
+> But if going along means betraying yourself, that's the bargain.
+
+> Self-differentiation is noticing where you're betraying yourself to belong, and learning to keep your own ground instead.
+
+Two paragraphs in a row that close on "betraying yourself" (the second adds the name and the way out).
 
 For your information, not a repeat: "Differentiation is slow, and it goes on your whole life." sits against When Healing Turns Into Checking's "just like real growing up is not something you do forever", and the reader found nothing that says how they fit.
 - **A. Leave them** as they are.
