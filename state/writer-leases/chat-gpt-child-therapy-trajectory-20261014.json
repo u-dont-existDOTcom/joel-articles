@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/gpt-child-therapy-trajectory-20261014",
+  "source_ref": "main",
+  "source_base_sha": "0353ed22472822a0650acb042ca6323337a7bbe6",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "parent_integrator": "inner-child-therapy integration owner (see articles/inner-child-therapy/PARALLEL-WRITE-LOCK.json)",
+  "scope": "Owner-specific article architecture, semantic rule, and pending correction record for declining formal-therapy dependence alongside lifelong growth; no article-prose changes.",
+  "reconciliation_required": true
+}
