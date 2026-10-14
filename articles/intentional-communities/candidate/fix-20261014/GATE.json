@@ -579,5 +579,36 @@
   ],
   "repeats": 0,
   "note": "control: the installed P8 alone, re-checked"
+ },
+ "E-S11P4f-V2": {
+  "kind": "edit",
+  "was": "section 11 v13 (2026-10-12): 100% Human as a section (267g); P4 checked alone",
+  "march": [
+   "S S S S S S S S S S S S"
+  ],
+  "march_was": [
+   "S S S S S S S S S S S S S"
+  ],
+  "march_note": "gate/MARCH5-labels.txt; MARCH2-labels.txt T36",
+  "cold": "OK",
+  "cold_note": "SENSE5-s11V2: P1 to P25 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T12 NEEDS FIX on two items, both answered: (3) \"can it replace the founder\" is the E172 cut (the four questions ask it three paragraphs later; listed for Joel as a proposal); (5) \"the method's\" was accepted by TRACE-T8 (\"anchored by judge the method by results\")",
+  "stance": "same claims as E-S11P4f",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "S11v14-V2": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P2f-b",
+   "E-S11P4f-V2",
+   "E-S11P6f-b",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
  }
 }

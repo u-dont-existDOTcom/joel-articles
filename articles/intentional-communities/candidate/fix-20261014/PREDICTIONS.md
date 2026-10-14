@@ -86,3 +86,12 @@ Results of 278g: J4-orig-pair (his v11 pair as he gave it) **AI Detected: his re
 | C-S11P23 (installed P2 and P3) | Human | |
 | E-S11P6f-b (P5, P6 and the four questions) | Human (weak) | the questions run on from P5's |
 | C-S11P8 (installed P8 alone) | Human | it passed alone in 207g; it read AI after the four questions then too |
+
+Results of 279g (2026-10-14 UTC): E-S10P9fA **AI-Generated (low; 99), the whole paragraph**, 06:10:09; S10v3A **Human (100%), high (742)**, 06:10:19; C-S11P12 (installed P1 and P2) **AI-Generated (low; 58)**, 06:10:29; E-S11P2f-b **Human (low; 87)**, 06:10:41; C-S11P23 **Human (low; 78)**, 06:10:53; E-S11P6f-b **Human (low; 93)**, 06:11:06; C-S11P8 **Human (low; 87)**, 06:11:18. Score: 7 of 7. The installed P1 and P2 read AI together without my definition too, and my P2 passes beside P3; my P6 passes with P5 and the four questions; P8 passes alone and reads AI only after the four questions, as it did on 2026-10-10 (s11/PREDICTIONS-s11.md, 207g). Section 10's P9 fails alone in both new wordings, so it stays as installed and the flag goes to Joel (E169: one fix round, then hand him what still fails).
+
+## Batch 280g: section 11 with P4's shorter wording
+
+| text | mine | why |
+|---|---|---|
+| E-S11P4f-V2 | Human | short questions like v13's |
+| S11v14-V2 | Human (weak) | the AI window in 277g was P4's run of questions; this wording is closer to v13's, which passed |
