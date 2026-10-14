@@ -666,6 +666,13 @@ class DedupPrompts(unittest.TestCase):
         self.assertIn('"# Part One" was put together from several sources', p)
         self.assertIn('Return your findings as your final message', p)
 
+    def test_only_keeps_the_scope_sentence_whole(self):
+        """2026-10-14: a "report only" line written inside --focus garbled the scope sentence; --only says it instead."""
+        p = self.run_cmd('repeats', 'OUT', '--focus', '"# Part One"', '--only')
+        self.assertIn('"# Part One" was put together from several sources', p)
+        self.assertIn('Report only repeats and contradictions that involve at least one block there', p)
+        self.assertNotIn('Then check the rest of the article against itself', p)
+
     def test_each_group_says_where_it_goes_and_carries_its_passage(self):
         p = self.run_cmd('dedup', 'OUT', 'T1', '--report', '/tmp/r.md')
         self.assertIn('GROUP 1 (t_one): would go right after [B1]', p)
