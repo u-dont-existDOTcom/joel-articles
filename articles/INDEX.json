@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "55c2ffe821e243628efbcca567fce2c1e116d6cdc6a322a4ff2c3cc233a8ac2a",
+          "sha256": "43a9b6baad8eb79723a40d8d75d87e70b1437c051294bef95876b851214bd4a7",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "cef0d7d1aae95fcfa6c6be4ece5c1af4be56a2c492801413e463eeb706d482ee",
+          "sha256": "516395e99194d12c9c6b38e014f30e45a0ed3c96b0a7bd83fc9e09a18a2e8f81",
           "role": "owner_edits_ledger"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "05f1518bb4489dc3fdc72d959db93d5104b8adb3478343503494f29e3f7fd2fc",
+          "sha256": "d7a042b07a9fab6d1eae68b6dbe70d06ef58449d7233f96aae20012e89b5fc50",
           "role": "owner_questions_page"
         },
         {
@@ -6376,6 +6376,16 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-14-turn54.json",
           "sha256": "79e1505a512968983ae9984a68433112e4820f820f1d6234bfb7e25d3de57df4",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t55-answers/JOEL-ANSWERS-20261014-1951.md",
+          "sha256": "cc3ffadaa79279dd09c28e466fdb89489d9a93a6bcf583293d9bddb56b6d5fba",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t55-answers/JOEL-ASKGOD-20261014-1951.txt",
+          "sha256": "e4a9ed0a576d2be7c647687ffa1b66ca214aa31f5f5b6eaca5e8206984a92116",
+          "role": "humanization_working_record"
         }
       ]
     },

@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-14 (turn 54). **Three open questions (23 to 25).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-14 (turn 55). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,80 +11,28 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 23. Your Untangling the Belonging Bargains: the repeats left in it (leave them, or your words?)
-
-This turn's two repeats checks of Sometimes There Isn't a Clear Child Yet (rule E172) found these in your GPT version. The h1's Pangram check waits for your call; I'm taking the repeats out of my own paragraphs in that h1.
-
-> These can all be real gifts. The bargain begins when your worth depends on them, or when you feel you have to keep performing them to be loved.
-
-> You don't have to stop enjoying pleasure, praise, gain or belonging. The question is whether losing one of them would feel like losing yourself.
-
-The same line drawn twice in one h2; the reader said the second carries it better, since it gives a test.
-
-> As a differentiated adult you can stay deeply embedded, free to question things or disagree.
-
-> Questioning what you were programmed to believe while holding the discomfort, and without having to stop loving anyone over it.
-
-Mild: the bullet adds "holding the discomfort".
-
-> Your little one, with nobody parenting it, takes those bargains to survive, because belonging feels like life or death.
-
-The backstory of the h1's opening and of From Survival's first paragraph, a third time. A cold reader also stopped on "with nobody parenting it": the grown-up you now, or your parents back then?
-
-> But if going along means betraying yourself, that's the bargain.
-
-> Self-differentiation is noticing where you're betraying yourself to belong, and learning to keep your own ground instead.
-
-Two paragraphs in a row that close on "betraying yourself" (the second adds the name and the way out).
-
-For your information, not a repeat: "Differentiation is slow, and it goes on your whole life." sits against When Healing Turns Into Checking's "just like real growing up is not something you do forever", and the reader found nothing that says how they fit.
-- **A. Leave them** as they are.
-- **B. Your words** for any of them.
-
-### 🟣 24. Borrow One Competency at a Time and your new Ask God: repeats inside the h1 (leave them, cut, or your words?)
-
-The Borrow Love h2 has no repeats inside it now, so it's going to Pangram. The h1 Borrow the Adult Before You Can Be the Adult has these, each with your words in it:
-
-> Even Mr. Rogers could help here if you felt some nice vibes from his show as a kid. *(Borrow One Competency P1, yours)*
-
-> If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have. *(P3: my paragraph, in the words of your 2026-09-25 edit)*
-
-> Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat […] Find whatever access to that love is genuinely available now. *(Ask God, yours)*
-
-Mr. Rogers as the fallback twice in one h2, and spiritual love mentioned in P3 before Ask God says it better.
-
-> Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you. 🙄 *(Borrow One Competency's last paragraph: mine, with your emoji)*
-
-> If so, they might just need to see if you're actually humble enough, and grateful enough for them, to listen to their rejection and be patient. *(your new Ask God)*
-
-Both say to hear out your little one's scorn; yours adds not retreating into your spiritual comfort.
-- **A. Leave them.**
-- **B. Cut P3's last sentence** (your P1 and Ask God carry both halves of it), and leave the hearing-it-out pair.
-- **C. Your words** for any of them.
-
-### 🟣 25. Let the Child Be Bad at Things, P1: reads AI after one fix round (leave it, or your words?)
-
-The new h2 is in (the last h2 of Sometimes There Isn't a Clear Child Yet). Its P2 and P3 read Human alone; P1 doesn't, so it's in as the faithful version, marked as failing alone (E168):
-
-> Reflection can show you what got suppressed. For identity you also need some experiments out in real life, so go try something new with no obvious value for your résumé or your status, painting maybe, or a language you just like the sound of. Notice what holds your attention when nobody is impressed. It could be one small piece, like mixing the colors.
-
-Try 1 (a different draft, with "Maybe you end up in the back of a dance class, watching somebody else's feet and counting under your breath.") read AI, 0.90 ([the result](https://www.pangram.com/history/07fc18de-fe8e-4584-8440-c4b7301fe07b)); try 2, this one, AI, 0.97 ([the result](https://www.pangram.com/history/693762af-f306-43e0-960f-9b1f7a223e56)). Both carry the guide's three sentences in the guide's order (reflection isn't enough, try something with no résumé value, notice what holds your attention when nobody is impressed). The whole h2 reads AI, 0.89 ([the result](https://www.pangram.com/history/7040d0e1-011f-4561-a0f4-173114babe0d)).
-- **A. Leave it** as it is for now.
-- **B. Your words** for it.
+None right now. Your 19:51 answers to 23 to 25 are in (below, under Decided).
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #172 (turns 53 and 54)
+### 🟠 Merge pull request #172 (turns 53 to 55)
 
-GPT's Untangling, your new Ask God for a Loan and your rewrite of it, and this turn's checks. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+GPT's Untangling, your Ask God for a Loan in its latest version, your answers to 23 to 25, and the checks. Main is merged into it, with #174. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-14 19:51 UTC
+
+- Your updated Ask God for a Loan ("i updated my ask god section, here's the latest"): in, word for word. "when I got tuberculosis" for "when got tuberculosis" (your rule: obvious typos get fixed). Your paste was plain text, so its two links are kept from your earlier version, and your video note sits under the new sub-heading, where your paste had its blank lines; say if it belongs elsewhere. You didn't say you'd checked it, so it's going through Pangram.
+- 23: in. Untangling P3 has your three sentences for the unparented child and your new self-differentiation sentence; both belonging-bargain statements and both differentiation statements stay, and so does "Differentiation is slow, and it goes on your whole life." When Healing Turns Into Checking has your new sentence in place of "just like real growing up is not something you do forever", with the sentences after it as they were. That's also the pending edit from #174, now marked done.
+- 24: both Mr. Rogers sentences in Borrow One Competency are cut (with P3's goes its spiritual love, which Ask God has); both hearing-it-out lines stay.
+- 25: your P1 is in, word for word, pun and "(typo?)" included; your check counts. Say if "(typo?)" was a note to me and not part of the text.
 
 ### 🟢 2026-10-14 03:52 UTC
 

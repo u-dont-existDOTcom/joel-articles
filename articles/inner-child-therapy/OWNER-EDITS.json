@@ -1004,14 +1004,15 @@
   {
    "id": "guide-update-20261003-covered",
    "status": "claim",
-   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3.",
+   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3. 2026-10-14 (Joel, 19:51 UTC, question 24): P3's fallback sentence is cut; the Chicken-and-Egg section carries Mr. Rogers and Ask God for a Loan the spiritual love.",
    "where": "Borrow One Competency at a Time",
    "must_contain": [
     "If the love still isn't coming, you can at least stop judging your little one.",
     "That's enough to start being the adult, even if it isn't enough yet for them to trust you.",
     "Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us.",
     "Think of someone you remember fondly.",
-    "If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have."
+    "remember watching Mr. Rogers or Sesame Street?",
+    "Some people also know a love that's a whole different size, like God's"
    ]
   },
   {
@@ -2102,8 +2103,8 @@
   },
   {
    "id": "ask-god-rewrite-20261014b",
-   "status": "applied",
-   "what": "Ask God for a Loan, Joel's rewrite, word for word: the gratitude paragraph's prosperity lines and the little-one paragraph, with the feast paragraph folded into its last sentence. His answers to questions 21 (the roselle tea line stays) and 22 (his words).",
+   "status": "superseded",
+   "what": "Ask God for a Loan, Joel's rewrite, word for word: the gratitude paragraph's prosperity lines and the little-one paragraph, with the feast paragraph folded into its last sentence. His answers to questions 21 (the roselle tea line stays) and 22 (his words). Superseded 2026-10-14 19:51 UTC by his updated section (entry ask-god-update-20261014c).",
    "joel": "2026-10-14 03:52 UTC: \"ok good catches. it's fully human now and explained a bit better about prosperity issue. Someone can read to skip dr, if they want, but i did mention bilharzia not just any old peeing blood issue... i'm pretty sure i'm literally the only person in a culture with drs who would have not gone to one lol\".",
    "where": "Ask God for a Loan",
    "must_contain_exact": [
@@ -2120,9 +2121,9 @@
   },
   {
    "id": "owner-therapy-second-nature-and-lifelong-growth-20261014",
-   "status": "pending",
+   "status": "applied",
    "what": "Correct the misleading real-growing-up analogy while preserving decreased need for formal therapy, naturalized Nurturer/Protector/Guide responses, optional renewed support, and lifelong wisdom/compassion/differentiation.",
-   "joel": "2026-10-14: 'i meant what i said, that if the therapy is working, you should be needing less of it. not that you need none of it, although that would be ideal' and 'the therapy becomes less of a formal process and more of a natural automatic process ... not like you have to check the guide every day ... just like real parenting might start out reading some parenting books, and then you just naturally get into the groove of it'. Owner accepted draft response to Claude.",
+   "joel": "2026-10-14: 'i meant what i said, that if the therapy is working, you should be needing less of it. not that you need none of it, although that would be ideal' and 'the therapy becomes less of a formal process and more of a natural automatic process ... not like you have to check the guide every day ... just like real parenting might start out reading some parenting books, and then you just naturally get into the groove of it'. Owner accepted draft response to Claude. Confirmed in chat 2026-10-14 19:51 UTC (his answer to question 23, item 5): \"In When Healing Turns Into Checking, replace only the sentence beginning 'Real healing is ultimately measured...' with:\" the same text.",
    "where": "When Healing Turns Into Checking: paragraph starting 'Don't be afraid to ask your therapist/yourself', replace only the 'Real healing is ultimately measured...' sentence and preserve its neighboring daily-life/child-adult relationship sentence. Leave the 'Differentiation is slow...' sentence in Untangling the Belonging Bargains unchanged.",
    "old_anchor": "Real healing is ultimately measured by reduced need for the therapy, just like real growing up is not something you do forever.",
    "suggested_replacement": "Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.",
@@ -2143,6 +2144,70 @@
     "Lifelong differentiation and wisdom remain possible",
     "Useful reflection and return to therapy are distinguished from compulsive checking",
     "No article prose is claimed applied by this pending record"
+   ]
+  },
+  {
+   "id": "ask-god-update-20261014c",
+   "status": "applied",
+   "what": "Ask God for a Loan, Joel's updated section, word for word: the good-news line for the guide's \"Find whatever access…\", the h4 \"Your Loan is PRE-APPROVED!\", a new first gratitude paragraph, his tuberculosis story, and two sentences on compassion and his inner child. \"when I got tuberculosis\" for his \"when got tuberculosis\" (his typo rule, 2026-10-06); the two links kept from his earlier version.",
+   "joel": "2026-10-14 19:51 UTC: \"i updated my ask god section, here's the latest\" (experiments/t55-answers/JOEL-ASKGOD-20261014-1951.txt).",
+   "where": "Ask God for a Loan",
+   "must_contain_exact": [
+    "If you haven’t been there yet (and even if you have), I have good news for you!",
+    "#### Your Loan is PRE-APPROVED!",
+    "One practical door anyone can use to slowly experience divine love is gratitude (even after the Turkey’s done & Thanksgiving is over!). And gratitude isn’t just one way to experience divine love for the first time, or to get it back when the feeling fades. I think it’s essential if we want to live in that love instead of occasionally visiting it.",
+    "For example, when I got tuberculosis from a cave in Mexico at age 20, and coughed for six months straight, eventually literally unable to breathe, leading to a near death experience.",
+    "It connects me with the plight of the countless other beings suffering at that very moment, authentically bringing up a wellspring of compassion in my heart for all of us. And I see clearly that it is my inner child who is feeling this pain, and what an honor it is that I can be there for him.",
+    "(on [Google Scholar](http://scholar.google.com), before AI)",
+    "[A. Helwa’s book](https://authorahelwa.com/)"
+   ],
+   "must_not_contain": [
+    "Find whatever access to that love is genuinely available now.",
+    "You Already Got the Loan Without Realizing It!",
+    "This is the feast problem."
+   ]
+  },
+  {
+   "id": "untangling-p3-joel-20261014",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains P3, Joel's answer to question 23 (items 3 and 4): his three sentences for the unparented child, and his sentence for self-differentiation. Items 1, 2 and 5: leave the two belonging-bargain statements, the two differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\"",
+   "joel": "2026-10-14 19:51 UTC: \"3. The unparented child: clarify.\" and \"4. The two 'betraying yourself' statements: change the second.\" (experiments/t55-answers/JOEL-ANSWERS-20261014-1951.md)",
+   "where": "Untangling the Belonging Bargains",
+   "must_contain_exact": [
+    "Your little one can hang onto those bargains as if belonging were a matter of life or death, especially if you haven't learned to parent him or her yourself yet. Even with good parents, you could have learned this when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw.",
+    "Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead.",
+    "But if going along means betraying yourself, that's the bargain.",
+    "Differentiation is slow, and it goes on your whole life."
+   ],
+   "must_not_contain": [
+    "with nobody parenting it",
+    "Self-differentiation is noticing where you're betraying yourself to belong"
+   ]
+  },
+  {
+   "id": "borrow-mr-rogers-cut-20261014",
+   "status": "applied",
+   "what": "Borrow One Competency at a Time: both Mr. Rogers sentences cut (the Chicken-and-Egg section has him already), and with P3's, its spiritual love (Ask God for a Loan has it). Both hearing-it-out lines stay.",
+   "joel": "2026-10-14 19:51 UTC: \"24 you can cut botth mr rogers because i also have that before. can keep 2nd mention of spiritual love in Ask God... can keep both the 'listen to inner child' verses, they aren't really the same.\"",
+   "where": "Borrow One Competency at a Time",
+   "must_contain": [
+    "remember watching Mr. Rogers or Sesame Street?",
+    "Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow",
+    "to listen to their rejection and be patient"
+   ],
+   "must_not_contain": [
+    "Even Mr. Rogers could help here",
+    "If nobody comes to mind, you can look to examples like Mr. Rogers"
+   ]
+  },
+  {
+   "id": "let-child-p1-joel-20261014",
+   "status": "applied",
+   "what": "Let the Child Be Bad at Things P1 is Joel's, word for word (his answer to question 25); \"sMothered (typo?)\" is his pun, not a typo.",
+   "joel": "2026-10-14 19:51 UTC: \"25 yours was repetitive. this one is human (and typo is not a typo, it's a pun)\"",
+   "where": "Let the Child Be Bad at Things",
+   "must_contain_exact": [
+    "Reflection can show you what got sMothered (typo?) or suppressed. For identity you also need some experiments out in real life, so go try something new just for you. Maybe a foraging group, or a painting class. Stargazing can be awe-inspiring, and you might even see a UFO! Notice what holds your attention when nobody is impressed."
    ]
   }
  ]
