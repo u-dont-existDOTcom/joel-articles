@@ -1,0 +1,179 @@
+{
+ "O1-inst": {
+  "kind": "draft",
+  "grounding": "OK",
+  "stance": 0,
+  "record": "installed text; its grounding and stance check: experiments/t40-clear-child/"
+ },
+ "O2-inst": {
+  "kind": "draft",
+  "grounding": "OK",
+  "stance": 0,
+  "record": "installed text; its grounding and stance check: experiments/t40-clear-child/"
+ },
+ "S2-inst": {
+  "kind": "draft",
+  "grounding": "OK",
+  "stance": 0,
+  "record": "installed text; its grounding and stance check: experiments/t43-survival/"
+ },
+ "S56-inst": {
+  "kind": "draft",
+  "grounding": "OK",
+  "stance": 0,
+  "record": "installed text; its grounding and stance check: experiments/t46-survival/ and t47-survival/"
+ },
+ "S4-w1": {
+  "kind": "draft",
+  "grounding": "OK",
+  "stance": 0,
+  "record": "experiments/t54-repeats/REVIEWS.md (grounding all OK; stance check 0 conflicts)"
+ },
+ "t54_O1": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "same claims as O1-inst",
+  "stance": "same claims as O1-inst",
+  "note": "cut only: 'you only belonged as long as you played somebody else,' (E172 repeat; Joel's Untangling carries it)"
+ },
+ "t54_O2": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "same claims as O2-inst",
+  "stance": "same claims as O2-inst",
+  "note": "cut only: 'in trouble, or' (From Survival P1's 'punished' carries it); 'that part' to 'a part' with O1's cut; march read on the same sentences with 'that part'"
+ },
+ "t54_S2": {
+  "kind": "draft",
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "same claims as S2-inst",
+  "stance": "same claims as S2-inst",
+  "note": "cut only: the 'first phase' clause (P5's 'So early on' carries it)"
+ },
+ "t54_S4": {
+  "kind": "draft",
+  "march": [
+   "S B B",
+   "S B B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "same claims as S4-w1",
+  "stance": "same claims as S4-w1",
+  "note": "S4-w1 without its first sentence (Joel's water-dripping bullet carries the shifting sign); 'You might hear' to 'Maybe you hear' for the linter"
+ },
+ "t54_S3S4": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "t54_S4"
+  ],
+  "repeats": 0
+ },
+ "t54_S56": {
+  "kind": "draft",
+  "march": [
+   "S B S S B",
+   "S B S S B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "same claims as S56-inst",
+  "stance": "same claims as S56-inst",
+  "note": "P5 and P6 as one paragraph, without P6's temporary-distance sentence (Joel's B228 carries it)"
+ },
+ "t54_G1": {
+  "kind": "draft",
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0
+ },
+ "t54_G2": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g2-w4's two grounding flags fixed as the review proposed: the afterward/as-it-lands contrast cut, the guide's 'we' restored"
+ },
+ "t54_G3": {
+  "kind": "draft",
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g3-w6's grounding flag fixed as the review proposed: 'Either way, that's pl/ork' as its own sentence"
+ },
+ "t54_open": {
+  "kind": "section",
+  "parts": [
+   "t54_O1",
+   "t54_O2"
+  ],
+  "repeats": 0
+ },
+ "t54_fs_h2": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "t54_S2",
+   "t54_S4",
+   "t54_S56"
+  ],
+  "repeats": 0,
+  "note": "repeats check round 2 (experiments/t54-repeats/REPEATS-2.md): inside this h2 only no. 7's shared 'when nobody's...' condition (each instance a different step, the reader says), kept with its reason in REVIEWS.md"
+ },
+ "t54_play_h2": {
+  "kind": "section",
+  "parts": [
+   "t54_G1",
+   "t54_G2",
+   "t54_G3"
+  ],
+  "repeats": 0
+ },
+ "t54_spirit_h3": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "note": "diagnostic: the h3 alone, after the Borrow Love h2's AI window at its close"
+ }
+}
