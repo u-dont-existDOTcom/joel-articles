@@ -621,5 +621,27 @@
   ],
   "repeats": 0,
   "repeats_note": "repeats/REPEATS-DISPOSITIONS.md; with P4 as installed, the E172 repeat of \"Can it replace the founder?\" stays and goes to Joel"
+ },
+ "S11v14-c": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "P4 as installed keeps the E172 repeat; it goes to Joel"
+ },
+ "S11v14-f": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P4f-V2",
+   "E-S11P6f-b",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
  }
 }

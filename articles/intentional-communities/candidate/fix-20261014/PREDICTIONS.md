@@ -103,3 +103,12 @@ Results of 280g (2026-10-14 UTC): E-S11P4f-V2 **Human (medium; 140)**, 06:18:37;
 | text | mine | why |
 |---|---|---|
 | S11v14-b | Human (weak) | v13 passed with this P4; if this passes, the window comes from P4's changes (the cut question or the new wording), and P4's two flags go to Joel |
+
+Results of 281g: S11v14-b **"Mostly Human Written": the same window on P4's questions (80 words, medium)**, 06:20:12. Score: 0 of 1. So the window doesn't come from P4's own changes: with P4 and P6 as installed it's still there. What's left that differs from v13 is P2's definition (just before) and P9 and P10 (after).
+
+## Batch 282g: which change moves section 11's window
+
+| text | mine | why |
+|---|---|---|
+| S11v14-c (P2, P4 and P6 as installed; P9 and P10 fixed) | Human | v13 with the two fixes after P4 |
+| S11v14-f (P2 as installed; P4's shorter wording, P6, P9 and P10 fixed) | Human (weak) | if the definition moved the window, this passes too |
