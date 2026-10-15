@@ -1117,7 +1117,6 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-15 (turn 58) | group 4, round 3, p7-b [t58c_p7b], try 3 | Human, low (my call) | AI Generated (0.926, low; 78); 21:10:32 UTC, https://www.pangram.com/history/6f3d92bb-4cf1-42dc-89d4-d9932ef76cd8 | miss |
 | 2026-10-15 (turn 58) | group 4, round 3, p7-c [t58c_p7c], try 3 | Human, low (my call) | (its result was not in the history list when read; not used) | — |
 | 2026-10-15 (turn 58) | group 4, round 4, p5-d (the example carries the instruction) [t58d_p5d], try 4 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 4, p5-e (the example carries the instruction) [t58d_p5e], try 4 | Human, low (my call) | | |
 | 2026-10-15 (turn 58) | group 4, round 4, p6-d (the example carries the instruction) [t58d_p6d], try 4 | Human, low (my call) | | |
 | 2026-10-15 (turn 58) | group 4, round 4, p6-e (the example carries the instruction) [t58d_p6e], try 4 | Human, low (my call) | | |
 | 2026-10-15 (turn 58) | group 4, round 4, p7-d (the example carries the instruction) [t58d_p7d], try 4 | Human, low (my call) | | |

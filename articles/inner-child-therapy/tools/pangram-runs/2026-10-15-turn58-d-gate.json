@@ -12,8 +12,8 @@
   "march": [
    "S B S"
   ],
-  "lint": "REVIEW",
-  "note": "p5-e, my own, round 4 (E177): rounds 1 to 3 kept the guide's instruction as a sentence (\"the next step that makes sense and fits what you care about\", \"keep in mind what you're waiting for\", the one-sentence procedure) and read AI; here the example carries the instruction. March: my own reading."
+  "lint": "FAIL",
+  "note": "p5-e, my own, round 4 (E177): rounds 1 to 3 kept the guide's instruction as a sentence (\"the next step that makes sense and fits what you care about\", \"keep in mind what you're waiting for\", the one-sentence procedure) and read AI; here the example carries the instruction. March: my own reading. The linter FAILs it (coach density 2.2), so it is not screened."
  },
  "t58d_p6d": {
   "kind": "screen",
