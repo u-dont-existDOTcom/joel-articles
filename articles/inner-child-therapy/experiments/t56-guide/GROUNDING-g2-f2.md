@@ -1,0 +1,3 @@
+# Grounding, P2 fix draft g2-f2 (Opus, turn 56)
+
+All five sentences OK. [2] NEW claim (why the direction drops out), resting on the article's "often more like a critic, or a warden with rules"; [3] NEW, resting on "Both talk in your grown-up voice, so to your little one they're the same"; [4] carries "Candy, screens... can masquerade as self-love", "that way" ties them to sparing it everything; [5] carries "escape from anything difficult". QUESTIONS: none open (backing off when it says no; the Guide vs the old critic; what it loses if spared everything). PARAGRAPH: the whole permissive paragraph; no STRADDLES, nothing MISSING. GREAT: [2] to [4], the asks you grew up with came with love held back; the Guide keeps the love on while it asks, as at bedtime.

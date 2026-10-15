@@ -1,9 +1,9 @@
 {
- "title": "Turn 56: your answers to 26 and 27 and your new gratitude sentence, in and checked",
- "meta": "Inner Child Therapy · turn 56 (your message of 2026-10-15 10:43 UTC) · saved on the lane, not merged",
+ "title": "Turn 56: your answers in and checked, and the opening of The Inner Guide Comes Later",
+ "meta": "Inner Child Therapy · turn 56 (your messages of 2026-10-15, 10:43 and 12:15 UTC) · saved on the lane, not merged",
  "intro": [
-  "Your three texts are in word for word, with one obvious typo fixed (\"arsonists\" for \"arsons\"). The merge request's conflicts are fixed: main is merged into it.",
-  "Everything you didn't check reads Human Written, including both h1s with your new paragraphs. The AI window in Borrow the Adult is gone with your P1."
+  "Your texts are in word for word: the gratitude sentence, your Borrow Love P1, and your Untangling P2 and P3 as you sent them at 12:15 (\"arsonists\" is yours now too). Everything you didn't check reads Human Written. The merge request's conflicts are fixed.",
+  "The next h1 is started. Its P1 reads Human; P2 and P3 read AI after one fix round, so they're in as the faithful versions with question 28."
  ],
  "blocks": [
   {
@@ -39,7 +39,7 @@
      "notes": [
       "Alone Human Written (114): https://www.pangram.com/history/152cedff-e982-4841-8d59-9e106cec687b",
       "Ask God for a Loan (h3): Human Written, high (869): https://www.pangram.com/history/e4f4ebfe-61af-40ef-8599-e52dd7d2c460",
-      "Repeats check: your new sentence and your Biggie Smalls line two paragraphs later both say what you have isn't happiness itself. Your words both times, so left as they are."
+      "Not a repeat of the Biggie Smalls line (your 12:15 ruling); both stay."
      ]
     }
    ]
@@ -51,25 +51,72 @@
    ],
    "rows": [
     {
-     "label": "Your P2 with its new ending (\"arsonists\" for your \"arsons\")",
+     "label": "Your P2 of 12:15 (\"as a human being\")",
      "article": "Then there's another bargain, where you have to earn your worth",
      "source": [
       "When value isn’t felt internally, a person can become a “human doer”"
      ],
      "notes": [
-      "Alone Human Written (105): https://www.pangram.com/history/645ead12-6341-4f05-80be-4301b5c5fa9d"
+      "Alone Human Written (109): https://www.pangram.com/history/44f95f0b-ec4f-4fbd-9b23-6c6af21d5ff9"
      ]
     },
     {
-     "label": "Your P3 (question 26)",
-     "article": "These can all be real gifts.",
+     "label": "Your shorter P3 of 12:15",
+     "article": "Even with good parents, you could have learned unhealthy self-valuation",
+     "notes": [
+      "43 words, under Pangram's minimum alone; your check of it with P2 counts.",
+      "The h2 with Four Pairs: Human Written, high (794): https://www.pangram.com/history/4703e34d-1ad2-46d9-b7ab-c83dd4e3e2c3",
+      "The h1 Sometimes There Isn't a Clear Child Yet: Human Written, high (1,639): https://www.pangram.com/history/538378c0-1a67-4068-8993-43008a46e166"
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Inner Guide Comes Later"
+   ],
+   "rows": [
+    {
+     "label": "My P1: the Guide's jobs",
+     "article": "As the Guide, you choose what your little one learns",
      "source": [
-      "Beauty, intelligence, achievement, and caretaking can all be real gifts."
+      "Key adds the third adult function"
      ],
      "notes": [
-      "Your check counts (alone). \"specially\" is yours and stays.",
-      "The h2 with Four Pairs: Human Written, high (834): https://www.pangram.com/history/28bcc281-1d1a-4e98-b503-1f93d5fbe1de",
-      "The h1 Sometimes There Isn't a Clear Child Yet: Human Written, high (1,679): https://www.pangram.com/history/e7fad033-7e10-423b-bfd9-e97922ee0822"
+      "Alone Human Written (93): https://www.pangram.com/history/8f7958c9-ae15-4fd7-81d3-0e317ec6a7fc",
+      "Key and the Guide's introduction are left out: The Chicken-and-Egg Problem has both."
+     ]
+    },
+    {
+     "label": "My P2: permissive (question 28)",
+     "article": "Without that kind of direction, reparenting can turn permissive.",
+     "source": [
+      "Without direction, reparenting can become permissive."
+     ],
+     "notes": [
+      "FAILS PANGRAM ALONE after one fix round: AI 0.81, low: https://www.pangram.com/history/6d57323d-07e2-4eb1-8e76-c3a2b1df943e"
+     ]
+    },
+    {
+     "label": "My P3, first half: forced adulthood (question 28)",
+     "article": "The opposite trap is forced adulthood:",
+     "source": [
+      "The opposite trap is forced adulthood"
+     ],
+     "notes": [
+      "FAILS PANGRAM ALONE after one fix round: AI 0.985, low: https://www.pangram.com/history/90541b11-be79-4b1b-8d8d-f522128b437f",
+      "\"letting a safe person see something imperfect\" is left out: When to Change the Strategy has it."
+     ]
+    },
+    {
+     "label": "My P3, second half: the need and the strategy (question 28)",
+     "article": "Once a need does show, give it a fair hearing",
+     "source": [
+      "The opposite trap is forced adulthood"
+     ],
+     "notes": [
+      "FAILS PANGRAM ALONE after one fix round: AI 0.957, low: https://www.pangram.com/history/cf79b7c6-3718-4090-84a8-6373a4b0aeb0",
+      "The h1 so far: AI all through: https://www.pangram.com/history/58eebdfc-1fe5-4f77-813f-ddbc5f99c319"
      ]
     }
    ]

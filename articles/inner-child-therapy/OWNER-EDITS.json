@@ -2071,12 +2071,11 @@
   {
    "id": "untangling-gpt-dedup-20261014",
    "status": "applied",
-   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human. P3 has changed since, in his words: 2026-10-14 19:51 UTC (entry untangling-p3-joel-20261014) and 2026-10-15 10:43 UTC (entry untangling-joel-20261015); P2's last sentence too on 2026-10-15.",
+   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human. P3 has changed since, in his words: 2026-10-14 19:51 UTC (entry untangling-p3-joel-20261014) and 2026-10-15 10:43 UTC (entry untangling-joel-20261015); P2's last sentence too on 2026-10-15. On 2026-10-15 12:15 UTC his new P3 dropped \"These can all be real gifts…\" (entry untangling-joel-20261015b).",
    "joel": "2026-10-14 02:55 UTC: \"my bad, i logged back into pangram, and the deduped GPT version i meant to put at the end of my last msg is this\"; 2026-10-13 20:41 UTC: \"i just told GPT to deduplicate and its output became 100% human\".",
    "where": "Untangling the Belonging Bargains and Four Pairs That Commonly Hook the Child",
    "must_contain_exact": [
     "A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good.",
-    "These can all be real gifts. The bargain begins when your worth depends on them",
     "You don't have to stop enjoying pleasure, praise, gain or belonging. The question is whether losing one of them would feel like losing yourself.",
     "- Noticing when what you thought you knew suddenly feels like water dripping through your hand because of praise or pity, fear or attraction, or something that really resonates with you."
    ],
@@ -2222,8 +2221,8 @@
   },
   {
    "id": "untangling-joel-20261015",
-   "status": "applied",
-   "what": "Untangling the Belonging Bargains: Joel's P2 last sentence and P3, word for word, from the whole h2 he pasted (his answer to question 26). \"arsonists\" for his \"arsons\" (his typo rule, 2026-10-06); \"specially\" is his word, kept. Carried forward from his 19:51 answers: both belonging-bargain statements, both differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\"",
+   "status": "superseded",
+   "what": "Untangling the Belonging Bargains: Joel's P2 last sentence and P3, word for word, from the whole h2 he pasted (his answer to question 26). \"arsonists\" for his \"arsons\" (his typo rule, 2026-10-06); \"specially\" is his word, kept. Carried forward from his 19:51 answers: both belonging-bargain statements, both differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\" Superseded 2026-10-15 12:15 UTC by his new P2 and P3 (entry untangling-joel-20261015b).",
    "joel": "2026-10-15 10:43 UTC: \"26 this one passes alone\" and \"this h2 passes as human100%:, and it also fixed the h1\" (experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md).",
    "where": "Untangling the Belonging Bargains",
    "must_contain_exact": [
@@ -2251,6 +2250,25 @@
    "must_not_contain": [
     "Sometimes love isn't the missing part.",
     "who hasn't even chewed anything"
+   ]
+  },
+  {
+   "id": "untangling-joel-20261015b",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains: Joel's P2 (\"as a human being\" added; \"arsonists\" as he now writes it) and his new, shorter P3, word for word, to fix P3 repeating P2 and its gifts line not following P2. Carried forward: \"But if going along means betraying yourself, that's the bargain.\" and \"Differentiation is slow, and it goes on your whole life.\"",
+   "joel": "2026-10-15 12:15 UTC: \"P3 tho really does seem to repeat P2 in the untangling bargains section. and the first line of P3 is referencing gifts which are way before so it doesn't flow from P2 to P3. ok this passes and i think fixes those probs\" (experiments/t56-answers/JOEL-20261015-1215.md).",
+   "where": "Untangling the Belonging Bargains",
+   "must_contain_exact": [
+    "Then there's another bargain, where you have to earn your worth: when you don't feel your value inside as a human being, you can become a \"human doer,\" working for it in some arena outside yourself. That might be beauty, athleticism, sexual desirability, intelligence or grades. For some people it's money or status, and for others it's a sophisticated spiritual identity or becoming indispensable to everybody else's problems. It can feel really good to be the one everybody calls. In the more shadowy presentation, when you really need to feel needed, you might be like the firefighters who become arsonists to keep themselves employed.",
+    "Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead.",
+    "But if going along means betraying yourself, that's the bargain.",
+    "Differentiation is slow, and it goes on your whole life."
+   ],
+   "must_not_contain": [
+    "These can all be real gifts.",
+    "Your little one can hang onto those bargains",
+    "become arsons",
+    "keeping other people dependent"
    ]
   }
  ]

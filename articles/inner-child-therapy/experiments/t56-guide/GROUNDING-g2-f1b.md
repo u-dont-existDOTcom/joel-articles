@@ -1,0 +1,3 @@
+# Grounding, P2 draft g2-f1b (Opus, turn 56; shortened)
+
+All four sentences OK: [1] the guide's claim with "can"; [2] NEW cause, resting on the guide's critic script and "The old parent in your head may demand immediate talent", "everything" keeping it apart from "at its own pace"; [3] NEW aside pointing back to "That's what I was just asking of you"; [4] the guide's whole list with "can". QUESTIONS: none open (five checked). PARKED: permissiveness when the inherited parent was warm or indulgent. PARAGRAPH: the whole permissive paragraph; nothing MISSING. March, round 6: S S B S twice. Stance 6: 0. Cold read 6: all OK.
