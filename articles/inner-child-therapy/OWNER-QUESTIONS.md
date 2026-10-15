@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-15 (turn 56). **One open question (28).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-15 (turn 57). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,35 +11,26 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 28. The Inner Guide Comes Later, P2 and P3: read AI after one fix round (leave it, or your words?)
-
-The new h1 is started: its opening is in, after Let the Child Be Bad at Things. P1 reads Human alone ([the result](https://www.pangram.com/history/8f7958c9-ae15-4fd7-81d3-0e317ec6a7fc)). P2 and P3 (P3 is now two paragraphs) don't, so they're in as the faithful versions, marked as failing alone (E168):
-
-> Without that kind of direction, reparenting can turn permissive. Asking anything hard of your little one can start to sound like the inherited critic, so sparing it everything can feel like love. Maybe you felt a bit of that when I asked. Candy and screens can pass for self-love, and so can escaping anything difficult.
->
-> The opposite trap is forced adulthood: demanding perfect discipline of yourself and no visible needs, with very little joy or closeness. It can be the old "don't be needy" rule passing for the Guide. No wonder tightening control again feels like the grown-up thing. If you're stuck there, the next adult act may be asking someone safe for help, or saying what you'd prefer.
->
-> Once a need does show, give it a fair hearing, and judge how you go about meeting it, too. Wanting closeness is legitimate. You might want a lot of it, after all that hiding. Demanding instant replies or punishing someone for needing space isn't the same thing. The Guide helps you find some workable way to meet the need without erasing you or the other person.
-
-- P2: try 1, a plainer version ending "…the kindest thing you could do for your little one: "Why make it do anything hard?"", read AI with P1 before it, all 45 of its words, while P1 stayed Human ([the result](https://www.pangram.com/history/62c889c8-8b9e-40e6-a97a-7be0c7129781)). Try 2, this one: AI alone, 0.81, low ([the result](https://www.pangram.com/history/6d57323d-07e2-4eb1-8e76-c3a2b1df943e)), and AI all through with P1 ([the result](https://www.pangram.com/history/c2f6953e-8d3e-478f-8e6b-9fd53b525815)).
-- P3: try 1, one paragraph, AI 0.9987 ([the result](https://www.pangram.com/history/0266bc51-c55a-4c9a-b56d-6acdec406f23)). Try 2, these two: AI 0.985 ([the result](https://www.pangram.com/history/90541b11-be79-4b1b-8d8d-f522128b437f)) and 0.957 ([the result](https://www.pangram.com/history/cf79b7c6-3718-4090-84a8-6373a4b0aeb0)), both low, all of each. The h1 so far reads AI all through ([the result](https://www.pangram.com/history/58eebdfc-1fe5-4f77-813f-ddbc5f99c319)).
-- They carry the guide's three paragraphs in order. Left out because the article already says them: Key and the Guide's introduction and "The child receives attention but doesn't develop" (The Chicken-and-Egg Problem), and "letting a safe person see something imperfect" (When to Change the Strategy). Your 2026-09-27 "not that it's more important than the others per se" keeps the guide's "I consider this the most important" out. The guide's "The Guide does not need certainty…" waits for the next part, with the blocked-problem items from your queue.
-- **A. Leave it** as it is for now.
-- **B. Your words** for any of them.
+None right now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #177 (turn 56, from your 12:15 message on)
+### 🟠 Merge pull request #178 (turn 57, from your 16:39 message on)
 
-You merged #172 at 12:06, so #177 has what came after: your 12:15 Untangling fix and the opening of The Inner Guide Comes Later (question 28). About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+You merged #177 at 16:14, so #178 has what came after: the screen-first gate (E175) and the new P2 and P3 of The Inner Guide Comes Later. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-15 16:39 UTC
+
+- "why did that take you 4 hours 22 minutes to humanize 1 paragraph? ... did you run out of ideas, do you not see any AI tells, do you see human tells, what exactly are you doing?": you were right; my own gate held every draft for six rounds of meaning reviews before Pangram, and my own one-fix-round rule stopped me. Now (E175): the linter and march, then a Pangram screen, and the long reviews only for drafts that read Human; more rounds while there's an idea; every flag with the tells.
+- Question 28 (P2 and P3 read AI): answered by new versions, so the faithful ones are out. P2 (Go Fish) reads Human alone ([the result](https://www.pangram.com/history/3ea3355c-1d7c-4a35-8836-892ca64d504c)). P3 is two paragraphs now, P3 and P4: P3 (forced adulthood) took four rounds, because eight versions kept the guide's therapy words ("perfect discipline", "never let a need show", "joy or closeness", "someone safe") and read AI whatever scene they opened with; the same meaning in plain words reads Human ([the result](https://www.pangram.com/history/bc04eaee-d7f1-46c8-8329-b1c67073ddbb)). P4 reads Human alone ([the result](https://www.pangram.com/history/c3fdea09-4c49-4767-909d-f4085a60b21b)), and the h1 so far reads Human Written, high ([the result](https://www.pangram.com/history/e6761e96-5537-486a-a320-124ff83c92cc)).
 
 ### 🟢 2026-10-15 12:15 UTC
 

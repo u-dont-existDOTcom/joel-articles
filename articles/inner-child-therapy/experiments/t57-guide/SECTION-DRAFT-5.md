@@ -1,0 +1,9 @@
+# The Inner Guide Comes Later
+
+As the Guide, you choose what your little one learns and what it gets to experience, and you hold standards, the way a good parent would. You ask hard things of it so it can grow, at its own pace. That's what I was just asking of you, with that new interest. You also widen its world with art and music, and you point out beautiful things when you see them. Nature is part of that, and so is the wider world past the end of the street you grew up on.
+
+Maybe you've let a small child win at Go Fish and never found a good time to start playing for real. Who wants to be the grown-up who finally wins? Without the Guide, you can slide from looking after your little one into spoiling it the same way. Sweets and screens can pass for loving yourself, and so can getting it out of anything hard.
+
+I think the opposite trap can feel a lot like finally having your act together. It's forced adulthood, and it sounds like "Nope, all good!" from somebody with a fever who's cleaning the whole kitchen anyway. Not a lot of fun in that kitchen, and nobody gets very close to the person in it. If that's you, clamping down harder is going to feel like the fix, but it's just more of the same. I'd try croaking to someone you trust, "Could you pick up some soup?" Or maybe, "I'd really like to just watch a movie with you."
+
+Once a need does show, after all that hiding, it's okay to want a lot of closeness. Then someone you love goes for a walk alone, and you've sent "hello??" before they've reached the corner. When they get back, maybe you go quiet on them for the rest of the night. The need is fine, but that's not a great way to meet it. The Guide can help you find one that works for you and leaves them their walk. But hear the need out first: I think your little one just wants to know they're coming back.

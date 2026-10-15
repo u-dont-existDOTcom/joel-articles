@@ -1,0 +1,29 @@
+{
+ "t57h_p4w2e": {
+  "kind": "screen",
+  "march": [
+   "B S S B S S B B",
+   "S S S S S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "p4-w2e: P4 alone; p4-w2d read Human inside the h1 (0.20, high) but AI alone (0.65, medium). p4-w2d with its neat contrast split (\"The need's fine. That's just not a great way to meet it.\") and \"Hear the need out first, though.\"."
+ },
+ "t57h_p4w2f": {
+  "kind": "screen",
+  "march": [
+   "B S S S S B",
+   "S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "p4-w2f: P4 alone; p4-w2d read Human inside the h1 (0.20, high) but AI alone (0.65, medium). p4-w2b (Human alone, 0.051) with p4-w2d's going-quiet scene and the hug at the door."
+ },
+ "t57h_p4w2g": {
+  "kind": "screen",
+  "march": [
+   "B S S B S B B",
+   "S S S B S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "p4-w2g: P4 alone; p4-w2d read Human inside the h1 (0.20, high) but AI alone (0.65, medium). shorter: \"Wanting them close is fine! The texts and the sulking aren't\"."
+ }
+}

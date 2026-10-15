@@ -1,0 +1,18 @@
+# Grounding: p3-m2b (Opus, 2026-10-15; p3-m2 with the stance and grounding fixes; draft article with the new P2 before and p4-w2b after)
+
+[1] OK — carries: "The opposite trap" + NEW claim (it can feel like finally having your act together), grantable from "perfect discipline, no visible needs" and hedged with "can"
+[2] OK — carries: "forced adulthood: perfect discipline, no visible needs" through a NEW example (fever, the whole kitchen, "Nope, all good!"). It fits the definition and most readers will recognize it. The fever and "anyway" keep it apart from the article's "Clean your room!" Protector act
+[3] OK — carries: "very little joy or closeness"
+[4] OK — carries: "not tightening control again"; the NEW "is going to feel like the fix" follows from [1]
+[5] OK — carries: "asking for help" (+ "letting a safe person see something imperfect" through the croak). "Safe" is dropped, but at soup-sized stakes the article already covers it: "If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first."
+[6] OK — carries: "expressing a preference" (+ the closeness [3] says is missing)
+QUESTIONS: none open at this push level
+Q: "Isn't asking for help the opposite of being the grown-up?" — answered: earlier ("Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine.") — not open
+Q: "What if the people around me would make me pay for showing a need?" — answered: earlier ("People can earn more of you by how they handle the smaller things you tell them, and how they take it when you say no." / "If telling could put you in real danger ... protect yourself first.") — not open
+Q: "How do I tell this trap from really having my act together?" — answered: here ([2]–[3]: a need overridden and hidden, no fun, nobody close) — not open
+Q: "Is it okay to want that much, after hiding it so long?" — answered: later in the guide ("Once a need does show, after all that hiding, it's okay to want a lot of closeness.") — not open
+PARKED: how the movie in [6] differs from the "sweets and screens" that "can pass for loving yourself" one paragraph earlier ("with you" mostly answers it)
+PARAGRAPH: does the job of the first half of the guide's forced-adulthood paragraph ("The opposite trap is forced adulthood ... not tightening control again"). The second half ("Judge the strategy as well as the need ...") belongs to the next paragraph. No STRADDLES, no MISSING.
+SIZE: about 0 words. There are no flags and no open questions at this level, so it's within the push level. Taking GREAT would add about a clause, which is outside it.
+REGISTER: an image and a joke (the feverish kitchen) carrying a light instruction. The picture holds, and the instruction keeps the guide's small "may be" scope.
+GREAT: [3]–[5] — the hiding that once let your little one keep belonging can be the same thing that now keeps everyone out of that kitchen. So clamping down, which is more hiding, can't fix it, and showing a need to someone who stays can show the little one the hiding isn't needed anymore. Draws on the article's "your little one learned bit by bit to hide that part of their authentic self which wasn't allowed, so they could keep belonging. They might still be doing it." (The Parent You Inherited) and the guide's "which qualities have to disappear from view to preserve belonging". It would also give the next paragraph's "after all that hiding" something to point back to.

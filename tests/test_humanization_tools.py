@@ -1071,6 +1071,23 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertEqual(r.returncode, 2)
         self.assertIn("but gone has None", r.stderr)
 
+    def test_a_screen_needs_only_the_cheap_checks_and_never_joins_a_section(self):
+        """E175 (Joel, 2026-10-15 16:39 UTC: "why did that take you 4 hours 22 minutes to humanize 1 paragraph?"):
+        candidates are screened in Pangram after the linter and the march, before the long meaning reviews."""
+        screen = {'kind': 'screen', 'march': ['S S B S', 'S B S S'], 'lint': 'REVIEW'}
+        r, js, _ = self.run_gate({'p': 'One. Two, maybe. Three.'}, {'p': screen}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIsNotNone(js)
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(screen, march=['S S S', 'S B S'])}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('the march blocks the call', r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(screen, lint='FAIL')}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        gate = {'p': screen, 'h': {'kind': 'section', 'parts': ['p'], 'repeats': 0}}
+        r, js, _ = self.run_gate({'p': 'One. Two, maybe.', 'h': '# H\n\nOne. Two, maybe.'}, gate, ['h'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('is a screen', r.stderr)
+
     def test_a_draft_that_leaves_a_point_out_goes_only_as_a_probe(self):
         """E168 (Joel, 2026-10-12 17:36 UTC): "never take out something important in order to pass pangram"."""
         g = dict(self.CLEAN, missing=["political tribes' consistent positions and predictable reactions"])
