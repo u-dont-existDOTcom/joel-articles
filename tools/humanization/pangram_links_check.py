@@ -17,8 +17,11 @@ each check's link.
 import re
 import sys
 
-AI_RESULT = re.compile(r'\b(?:reads?|reading|read as)\s+(?:as\s+)?AI\b|\bAI[- ](?:Generated|Detected|window)\b|'
-                       r'\bMostly Human\b|\bAI-generated\b', re.I)
+# A result word Pangram itself shows, or "reads AI" where the unit is about a check (a batch name, Pangram, a %).
+# "a list of three reads AI" (a rule, not a result) isn't one.
+RESULT_WORDS = re.compile(r'\bAI[- ](?:Generated|Detected|window)\b|\bMostly Human\b|\bAI-generated\b', re.I)
+READS_AI = re.compile(r'\b(?:reads?|reading|read as)\s+(?:as\s+)?AI\b', re.I)
+CHECK_CONTEXT = re.compile(r'\bPangram\b|\b\d{3}g\b|\d+%', re.I)
 LINK = 'pangram.com/history/'
 
 
@@ -38,7 +41,8 @@ def units(text):
 
 
 def missing(text):
-    return [u for u in units(text) if AI_RESULT.search(u) and LINK not in u]
+    return [u for u in units(text)
+            if LINK not in u and (RESULT_WORDS.search(u) or (READS_AI.search(u) and CHECK_CONTEXT.search(u)))]
 
 
 def main(paths):

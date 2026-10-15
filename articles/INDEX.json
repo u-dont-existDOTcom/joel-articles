@@ -6373,7 +6373,7 @@
         },
         "current_state": {
           "path": "articles/intentional-communities/CURRENT-STATE.md",
-          "sha256": "def10ea3f9d4e2abb1cd59bca5e20dcb6bfead77275fe492ab1279f8a64a04a4"
+          "sha256": "ddda1d24624a34013e6ccf5f4b1be01079f75e313e504aa02a2507036537c016"
         }
       },
       "review": {
@@ -6408,17 +6408,17 @@
         {
           "path": "articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
           "role": "active_humanized_article",
-          "sha256": "fbaa1a91d9bbb3c81dcc1661737af08a4ecb51ff5cba3f49b93ff391629a5907"
+          "sha256": "68875d1b72f80aaab0c256335f871f804508f6b80bf1ba6c4adf814761a2052e"
         },
         {
           "path": "articles/intentional-communities/candidate/OWNER-EDITS.json",
           "role": "owner_edits_ledger",
-          "sha256": "0fec10f7bb99be977a7aa8e147607aa2f00f4c811037f26457cfab38fd1d17b6"
+          "sha256": "2bd25e1447e1a0f59dad910274a833db8bffeda36d621efab752dff90dbf6dcd"
         },
         {
           "path": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md",
           "role": "owner_questions_page",
-          "sha256": "774e81453d2e4a0772a395ddf6d35a9756c5bfa2fd79362c7b04bee6fc30fe38"
+          "sha256": "2f98b1d543c51333e1089dcb23f217d7825bf0324ead4c8629d13ca4c836762a"
         },
         {
           "path": "articles/intentional-communities/D6-LINKS.md",
@@ -6447,7 +6447,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/STATUS.md",
-          "sha256": "f7a9381c734948b4f3b2bf3c6437b5936900ea77e0b87e100ab7085676d1d977",
+          "sha256": "f478f8b77ccda5054eea44da050fd0c922bf5a820fd562ef8f32badd295a4c82",
           "role": "humanization_working_record"
         },
         {
@@ -6462,7 +6462,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/community-article-so-far.html",
-          "sha256": "dc5b921dcf6c6f1713989699564dab66616ddaec12763a6fc64e6cf0b1bcf1e1",
+          "sha256": "3a3ad2c4f5dfe02241c5d6c3cabd993b93da3b4082c93e86d220f2d1f213efea",
           "role": "humanization_working_record"
         },
         {
@@ -6472,7 +6472,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/community-questions.html",
-          "sha256": "b1d0280c441b33270d0cd8fa95a360c0364d4bfcc91949621d82bd1fce0ca85d",
+          "sha256": "c43bb633d26ddc23286dbfcd94b8c67a0dfa41092a9767ff859f58606de17dfe",
           "role": "humanization_working_record"
         },
         {
@@ -6487,7 +6487,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/community-section10-side-by-side.html",
-          "sha256": "bf9b3e5de52abf94651a2ebccab42bc76afeae8848ce61c4d767b9ec8925c5dc",
+          "sha256": "9c87e39127cf7787d8d239679a3350fa108542cdc7d4009e0c28463688ae328c",
           "role": "humanization_working_record"
         },
         {
@@ -6647,7 +6647,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/images.json",
-          "sha256": "799615a57544fde5342d280c59648665a2229980da93b06f190eeb286500c581",
+          "sha256": "ee631269ab4147e763465c09ae0c7712e71ed65bba858edcb621f8eaf4034429",
           "role": "humanization_working_record"
         },
         {
@@ -27552,7 +27552,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/HANDOFF-community-article.md",
-          "sha256": "db57ebbb361774e2eb46f39872146162312cbe4d2b007e0cdf462b542286b07f",
+          "sha256": "93ac8aa418fdddbd413512cdbec968c8647eef76acaafc3db8559d1d68cfb7a2",
           "role": "humanization_working_record"
         },
         {
@@ -28632,7 +28632,217 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls.json",
-          "sha256": "df103019ed8c84337cddecc3ff82f67264681b4a29ea2baffd776e47c073d0c0",
+          "sha256": "9cbba3064b53c9e55482f6a317085ce7d6e243390e37747a0b69d49f5e704e64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/GATE.json",
+          "sha256": "6d22ca8315718d2cb0178b3b61a9ec1a5d46088be47dc24c9b1a340900d7f0c6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/PREDICTIONS-scored.md",
+          "sha256": "893368b5b57f4d97513d26c3eb45db56014eb3be9059e871c8ec97a69081bf40",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/PREDICTIONS.md",
+          "sha256": "66457138051c22b7ae4f39439230f91f94d01b2f2fb3c173687036e0367a1709",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/S10-v4-draft.md",
+          "sha256": "04cbe1f611a800e32a4ec81bc32e09672a54c75fe749d016f916e36e2f8e7634",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/b283b-links.json",
+          "sha256": "8e7a1eccf96b46c3e87f6df728b9b9d0133692a74ef9ec8982edc4c52d88fdb7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/drafts.json",
+          "sha256": "c2250474bae805498ac4a0a375ab128342dbde6c5b855b73b00a6ecdf22e162b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/gate/PROMPT-sense-s10-a.txt",
+          "sha256": "85a95af0a0f8df60704facb6951627c3d9ea9c7df00d214b56f6e139723b9bde",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/gate/PROMPT-sense-s10-b.txt",
+          "sha256": "89a51f71d7fb6039f5ab76925bb893e34581bb2387d978f063ebf108a01531dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/gate/SENSE-s10-a.md",
+          "sha256": "28b69cc6f88b466d1b6ed2ef5c433b6833b891e77b8168b335aaf999424b4645",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/gate/SENSE-s10-b.md",
+          "sha256": "65837c0dafe33b0228f8de1ac856d3af982751962458af11176ef99f56e3f387",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/gui/b285-read.js",
+          "sha256": "a9150cc8030dd31065ead348e27f7dcc4458e67969aeecb42297d17e716cf2c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/gui/b285.js",
+          "sha256": "787011755a2609631f1bb09d3feb6086c26ce255d6f366dc3e3ddef4f9d64f61",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/make_batch.py",
+          "sha256": "b6065a5735219315eae9e138ba77a5a6592508e6f7750b177a4c807f947b8fc5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261015/make_pages.py",
+          "sha256": "c2a39ca716763f565d94f12eda34b43bee29ed7d09080271cab04316c57c8b97",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/images/image7-original.svg",
+          "sha256": "c98603bc109842e1bb2c06331852ae64f5f51036bb0436a90b74ad9d829fe33f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/images/image7-v2.png",
+          "sha256": "b2d5d3b55388091bd6d04b492c3557b31558f867f06c1ce5847c07486a986b91",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/images/image7-v2.svg",
+          "sha256": "696df5f4a6689e6fc3dcd2185ae36ab305f3aa0eba29bd7154fafc868eb43bb7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/in-context/ic10-v5.json",
+          "sha256": "6863a466690d7445e543882766bc402d665846fcda9f5eb4a5c4e660d9eb7057",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261015/install_joel_20261015.py",
+          "sha256": "c182cbd6cbd388b727a9f4bf6d01000825cf95be25b06baab76f80db537e6933",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261015/joel-20261015-0933-message.txt",
+          "sha256": "925019cd7de63108f8ba9f067ea4ec9b42f145fc1486d382990b9fe3a5a16333",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/GATE.json",
+          "sha256": "22935302c58d697b0d9fca4440f12052dd7eeebf50ec88e5cd39e2c2ad04aa0d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/PREDICTIONS-s13.md",
+          "sha256": "38fd21dd8ee05b95eab91ddce80efc16af19aa241a2b578c4eddecace37048e9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/STANCE-LEDGER-s13.md",
+          "sha256": "94755082e7d16a95210d1625cd5691eb6631aa4ebf48874bbc70264a4aebc20f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/drafts.json",
+          "sha256": "a2bf9f2bcca76f4e74a678afa452c935cb0e287d09f967d5843d17b8c76b0fdd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u1-emuA.txt",
+          "sha256": "e11dcb52b01df2bec5fe25bda0f94d53ccebb3b8a254c253ec456bc02fc015f8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u1-emuB.txt",
+          "sha256": "2fdb942ed44fb98fff29961ff5a96e1dfaae407626f682bc14a51e71bc8fd855",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u2-emuA.txt",
+          "sha256": "dabba6cff7ba5752320dd97864aef016846aa70df16c28dd672939e109bfa257",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u2-emuB.txt",
+          "sha256": "ba9ac36d4c4e8b1f16065bd90bc9e2da22a7190a15881dde3b84bf21d0bc673d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u3-emuA.txt",
+          "sha256": "8bc2444393f06099c560f015d835a10fedd09104ac99c61d7a9343d601c30de5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u3-emuB.txt",
+          "sha256": "51ad182bb3d55c31436192e99909126c81d2dff34cd82993967963a235170dc1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u4-emuA.txt",
+          "sha256": "d32cba1f6a4b1601bf1a2972f90aabf1f8aa7b208bf86b4846dd0678eb1f51be",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u4-emuB.txt",
+          "sha256": "3ddeddfb024fbe0d9c679317fa69e2fadcbc975e48c396ebebef5b9e607d62aa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u5-emuA.txt",
+          "sha256": "75c97d58c89f460c8a3152642b737f14dd08335b3bc31cbee2556c7e49dae079",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emu-a/u5-emuB.txt",
+          "sha256": "ba317e4af0590c43d39fa2d9fa60ce44958f1cefa01669263deb5d33fc3d0a7f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/emulate-a-inputs.json",
+          "sha256": "d0b8e1c50c4ea972e76d0adf8842738567308d38f7764accbbe23e419fe8f93f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/gui/b286-read.js",
+          "sha256": "687037c25b32fda01d5398043f98057fd8995a9fc882f51265b6bcee4069d6dc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/gui/b286-results.json",
+          "sha256": "3e1f472679a3885ab79662e817bca82bee5bc10718c4a0a357cbe69102dd373b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/gui/b286-want-by-key.json",
+          "sha256": "de0e10248f11cafe0ca10163788538a9911bdf20c8f5b4cb83551359b80396be",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/gui/b286.js",
+          "sha256": "0d746958f2d3805e50096019efe5714d8c317ba36469f4975365850514727692",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/make_baseline.py",
+          "sha256": "b887be75960c57a43618d98365bd1e946b503e84bc59f385d5b76f7c0dac35d0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/preservation-keys.json",
+          "sha256": "247c631ccb0072a3fac76850a7feadb6bd47e769a21d1e31625f9c3b201b36f1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/v1.md",
+          "sha256": "65566c04e86e1cc1b5ce8b070c5b1e6bd6dd5c34f22abf14b341a6692b4328cb",
           "role": "humanization_working_record"
         }
       ]

@@ -698,7 +698,8 @@ class PangramLinksInMessages(unittest.TestCase):
         msg = ('Your paragraph reads AI beside the reparenting paragraph (278g, a control).\n\n'
                '- The pair read AI: [check](https://www.pangram.com/history/4bb0032c-a069-447c-8add-1f975a1c1125).\n'
                '- The section reads 100% Human (284g).\n'
-               '- "Mostly Human Written": a window on P4\'s questions (281g).\n')
+               '- "Mostly Human Written": a window on P4\'s questions (281g).\n'
+               '- I used two of your three terms, since a list of three reads AI.\n')   # a rule, not a result
         found = plc.missing(msg)
         self.assertEqual(len(found), 2)
         self.assertTrue(found[0].startswith('Your paragraph reads AI'))
