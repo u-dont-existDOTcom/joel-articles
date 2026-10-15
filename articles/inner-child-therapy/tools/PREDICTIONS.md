@@ -1128,8 +1128,8 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-15 (turn 58) | group 4, round 5, p7-g [t58e_p7g], try 5 | Human, low (my call) | AI Generated (0.998, low; 75); 21:20:21 UTC, https://www.pangram.com/history/d737235d-1cd2-4da1-9fa0-97f25959933b | miss |
 | 2026-10-15 (turn 58) | group 4, round 5, p7-h [t58e_p7h], try 5 | Human, low (my call) | AI Generated (0.67, low; 75); 21:20:29 UTC, https://www.pangram.com/history/41d1b35e-d692-478a-944d-aa6ccf087de1 | miss |
 | 2026-10-15 (turn 58) | group 4, round 5, p7-i [t58e_p7i], try 5 | Human, low (my call) | AI Generated (0.978, low; 68); 21:20:40 UTC, https://www.pangram.com/history/d1fef907-a342-44b6-87cb-3053a635c02f | miss |
-| 2026-10-15 (turn 58) | group 4, round 6, p5-h3 [t58f_p5h3], try 6 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 6, p56-a [t58f_p56a], try 6 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 6, p7-f2 [t58f_p7f2], try 6 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 6, p7-f3 [t58f_p7f3], try 6 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 6, p7-h2 [t58f_p7h2], try 6 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 6, p5-h3 [t58f_p5h3], try 6 | Human, low (my call) | AI Generated (0.58, low; 61); 21:23:22 UTC, https://www.pangram.com/history/b51b25be-3b51-44be-b066-678575b79a25 | miss |
+| 2026-10-15 (turn 58) | group 4, round 6, p56-a [t58f_p56a], try 6 | Human, low (my call) | Human Written (0.018, low; 94); 21:23:33 UTC, https://www.pangram.com/history/624b7d08-e989-449c-b6b9-b2ba11c9eb11 | hit |
+| 2026-10-15 (turn 58) | group 4, round 6, p7-f2 [t58f_p7f2], try 6 | Human, low (my call) | Human Written (0.32, low; 79); 21:23:43 UTC, https://www.pangram.com/history/15b8ac91-cccc-4b4a-8fe7-504a60fc3528 | hit |
+| 2026-10-15 (turn 58) | group 4, round 6, p7-f3 [t58f_p7f3], try 6 | Human, low (my call) | Human Written (0.29, low; 83); 21:23:54 UTC, https://www.pangram.com/history/20694104-b672-445a-964a-e06b47dbf64b | hit |
+| 2026-10-15 (turn 58) | group 4, round 6, p7-h2 [t58f_p7h2], try 6 | Human, low (my call) | AI Generated (0.93, low; 75); 21:24:04 UTC, https://www.pangram.com/history/028eddbd-4231-464a-abd8-fb6f9a16e936 | miss |
