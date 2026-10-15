@@ -2071,12 +2071,12 @@
   {
    "id": "untangling-gpt-dedup-20261014",
    "status": "applied",
-   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human.",
+   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human. P3 has changed since, in his words: 2026-10-14 19:51 UTC (entry untangling-p3-joel-20261014) and 2026-10-15 10:43 UTC (entry untangling-joel-20261015); P2's last sentence too on 2026-10-15.",
    "joel": "2026-10-14 02:55 UTC: \"my bad, i logged back into pangram, and the deduped GPT version i meant to put at the end of my last msg is this\"; 2026-10-13 20:41 UTC: \"i just told GPT to deduplicate and its output became 100% human\".",
    "where": "Untangling the Belonging Bargains and Four Pairs That Commonly Hook the Child",
    "must_contain_exact": [
     "A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good.",
-    "These can all be real gifts. The bargain begins when your worth depends on them, or when you feel you have to keep performing them to be loved.",
+    "These can all be real gifts. The bargain begins when your worth depends on them",
     "You don't have to stop enjoying pleasure, praise, gain or belonging. The question is whether losing one of them would feel like losing yourself.",
     "- Noticing when what you thought you knew suddenly feels like water dripping through your hand because of praise or pity, fear or attraction, or something that really resonates with you."
    ],
@@ -2169,8 +2169,8 @@
   },
   {
    "id": "untangling-p3-joel-20261014",
-   "status": "applied",
-   "what": "Untangling the Belonging Bargains P3, Joel's answer to question 23 (items 3 and 4): his three sentences for the unparented child, and his sentence for self-differentiation. Items 1, 2 and 5: leave the two belonging-bargain statements, the two differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\"",
+   "status": "superseded",
+   "what": "Untangling the Belonging Bargains P3, Joel's answer to question 23 (items 3 and 4): his three sentences for the unparented child, and his sentence for self-differentiation. Items 1, 2 and 5: leave the two belonging-bargain statements, the two differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\" Superseded 2026-10-15 10:43 UTC by his new P3 (entry untangling-joel-20261015), which carries items 1, 2 and 5 forward.",
    "joel": "2026-10-14 19:51 UTC: \"3. The unparented child: clarify.\" and \"4. The two 'betraying yourself' statements: change the second.\" (experiments/t55-answers/JOEL-ANSWERS-20261014-1951.md)",
    "where": "Untangling the Belonging Bargains",
    "must_contain_exact": [
@@ -2208,6 +2208,49 @@
    "where": "Let the Child Be Bad at Things",
    "must_contain_exact": [
     "Reflection can show you what got sMothered (typo?) or suppressed. For identity you also need some experiments out in real life, so go try something new just for you. Maybe a foraging group, or a painting class. Stargazing can be awe-inspiring, and you might even see a UFO! Notice what holds your attention when nobody is impressed."
+   ]
+  },
+  {
+   "id": "gratitude-sentence-joel-20261015",
+   "status": "applied",
+   "what": "Ask God for a Loan, the gratitude paragraph \"This is a bit tricky to put into words…\": Joel's new sentence before its last, word for word.",
+   "joel": "2026-10-15 10:43 UTC: \"btw i changed this paragraph in gratitude section\" (experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md).",
+   "where": "Ask God for a Loan > Your Loan is PRE-APPROVED!",
+   "must_contain_exact": [
+    "This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That’s something to be grateful for. I’m not talking just about changing your “glass half empty” perception to a glass “half full perception.” I’m not pushing “toxic positivity.” And I’m certainly not preaching “prosperity philosophy,\" even though it can seem to start at that. We still need to remember that if we can only be thankful for the good things we have, we can fall into the trap of thinking that what we have is happiness itself. I'm ultimately reaching for something much deeper."
+   ]
+  },
+  {
+   "id": "untangling-joel-20261015",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains: Joel's P2 last sentence and P3, word for word, from the whole h2 he pasted (his answer to question 26). \"arsonists\" for his \"arsons\" (his typo rule, 2026-10-06); \"specially\" is his word, kept. Carried forward from his 19:51 answers: both belonging-bargain statements, both differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\"",
+   "joel": "2026-10-15 10:43 UTC: \"26 this one passes alone\" and \"this h2 passes as human100%:, and it also fixed the h1\" (experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md).",
+   "where": "Untangling the Belonging Bargains",
+   "must_contain_exact": [
+    "It can feel really good to be the one everybody calls. In the more shadowy presentation, when you really need to feel needed, you might be like the firefighters who become arsonists to keep themselves employed.",
+    "These can all be real gifts. The bargain begins when your worth depends on them, like you have to keep performing them to be loved. Your little one can hang onto those bargains, specially if you haven't learned to parent him or her yourself yet. Even with good parents, you could have learned this when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead.",
+    "But if going along means betraying yourself, that's the bargain.",
+    "Differentiation is slow, and it goes on your whole life."
+   ],
+   "must_not_contain": [
+    "become arsons",
+    "keeping other people dependent",
+    "as if belonging were a matter of life or death",
+    "with nobody parenting it"
+   ]
+  },
+  {
+   "id": "borrow-love-p1-joel-20261015",
+   "status": "applied",
+   "what": "Borrow Love—or Borrow the Perspective of Care P1 is Joel's, word for word, in place of Claude's (his answer to question 27).",
+   "joel": "2026-10-15 10:43 UTC: \"27 this passes\" (experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md).",
+   "where": "Borrow Love—or Borrow the Perspective of Care",
+   "must_contain_exact": [
+    "Sometimes it's not that you can't love in general. Your dog can chew up your good shoes and be forgiven before you've found the other one. But maybe you direct that love to your little one and the attempt goes flat, or starts to feel weirdly unsafe. Just feel that love you can feel for others for a minute, in your body, before you try to redirect anything. Then as you relax into that and enjoy it more, imagine it flowing downhill, like an overflowing river of delicious chocolate. Now imagine how happy your inner child is at the bottom of the hill to play in that chocolate love that rolled down!"
+   ],
+   "must_not_contain": [
+    "Sometimes love isn't the missing part.",
+    "who hasn't even chewed anything"
    ]
   }
  ]

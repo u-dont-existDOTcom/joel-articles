@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "43a9b6baad8eb79723a40d8d75d87e70b1437c051294bef95876b851214bd4a7",
+          "sha256": "e6764724270b9fa3aff2b4fe433b90c646af8d737c24e2418acc6cb52c9185fb",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "516395e99194d12c9c6b38e014f30e45a0ed3c96b0a7bd83fc9e09a18a2e8f81",
+          "sha256": "f184c0eb3f4cf2feebb3b0e9d5a61afbfb158623a32429561d469932b338d8c8",
           "role": "owner_edits_ledger"
         },
         {
@@ -6481,6 +6481,11 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-14-turn55.json",
           "sha256": "94fd96180ae3827220931ff1ab9a7fa5b507887100ecec8434bfd29eac4d0b21",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md",
+          "sha256": "401407a757fdd800b463f96a2f98155684d763b8549b1ac40fd24671f93e95c5",
+          "role": "humanization_working_record"
         }
       ]
     },
