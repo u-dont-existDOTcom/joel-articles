@@ -1,0 +1,27 @@
+[P1] OK
+[P2] OK
+[P3] OK
+[P4] OK
+[P5] OK
+[P6] OK
+[P7] OK
+[P8] OK
+[P9] OK
+[P10] OK
+[P11] OK
+[P12] OK
+[P13] OK
+[P14] OK
+[P15] OK
+[P16] OK
+[P17] OK
+[P18] OK
+[P19] OK
+[P20] OK
+[P21] OK
+[P22] OK
+[P23] OK
+[P24] OK
+[P25] OK
+[P26] (1) "The Zapatistas have been important in opening my eyes to the possibilities of autonomous regional institutions, which can review local power without becoming the state." Earlier in the article the Zapatistas dissolved their regional structure in 2023 because power had "crept up and consolidated itself at higher levels." Best reading: regional bodies are workable in principle despite that; as written it reads as the opposite of the earlier account. (2) "It's true that at first my research ... kinda leaned too far toward the nation-state." Best reading: an aside admitting an earlier bias; I can't see what it adds to the point, or what claim "It's true that" is conceding.
+[P27] OK
