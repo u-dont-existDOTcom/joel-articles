@@ -1,0 +1,29 @@
+{
+ "S13v21": {
+  "history_id": 16181600,
+  "link": "https://www.pangram.com/history/5e450ea7-ed52-402b-bae4-de06d266aec7",
+  "utc": "2026-10-15T21:07:28Z",
+  "words": 2198,
+  "avg_ai_likelihood": 0.5619090795516968,
+  "headline": "AI Detected",
+  "version": "4.0",
+  "fraction_ai": 0.5621025562286377,
+  "fraction_human": 0.4378974437713623,
+  "windows": [
+   "Human, High, 186",
+   "AI-Generated, High, 894",
+   "Human, High, 679",
+   "AI-Generated, High, 240",
+   "Human, High, 71",
+   "AI-Generated, High, 49",
+   "Human, High, 37",
+   "AI-Generated, High, 42"
+  ],
+  "flagged": [
+   "AI-Generated (894 words): from H1-P3 \"Until that’s happened, the group is still a circle of promising strangers\"",
+   "AI-Generated (240 words): from H4-P9 \"!) When decisions really affect their pay or access to shared resources\"",
+   "AI-Generated (49 words): H5-P3 \"The Zapatistas are an important correction here ... outside jurisdiction disappears\"",
+   "AI-Generated (42 words): H5-P4 \"Remember that mediation is about trying to restore good relations ... no longer present\""
+  ]
+ }
+}
