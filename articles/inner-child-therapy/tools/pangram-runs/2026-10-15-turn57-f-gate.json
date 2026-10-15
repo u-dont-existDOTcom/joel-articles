@@ -1,0 +1,65 @@
+{
+ "t56_ig_p1": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g1-w1b, as in batch D (Human alone, 0.0014)."
+ },
+ "t57f_p2": {
+  "kind": "draft",
+  "march": [
+   "B B S S",
+   "B B S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "p2-w2 (Go Fish), E175 round 1: Pangram screen Human 0.042 (t57a_p2w2). GROUNDING-p2-w2.md all OK; cold reads 1, 3 and 4 OK; stance checks 1 and 4: 0 conflicts."
+ },
+ "t57f_p3": {
+  "kind": "draft",
+  "march": [
+   "S S B S S B",
+   "S B B S S B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "p3-m2c (the fever and the kitchen, in plain words). GROUNDING-p3-m2b.md all OK, no MISSING; m2c only adds \"to someone you trust\", the stance check 3 fix (the grounding had noted \"safe\" as dropped but covered). Stance 4: 0 conflicts; cold read 4 OK. p3-m2b read Human 0.30 (t57e_p3m2b)."
+ },
+ "t57f_p4": {
+  "kind": "draft",
+  "march": [
+   "B B S S B",
+   "B B S S B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "p4-w2b (\"hello??\" before they've reached the corner; \"leaves room for both of you\", the stance check 2 fix, closer to the guide's \"without erasing either person\"). GROUNDING-p4-w2.md all OK; stance 4: 0; cold read 4 OK; screen Human 0.051 (t57e_p4w2b)."
+ },
+ "t57f_h1": {
+  "kind": "section",
+  "parts": [
+   "t56_ig_p1",
+   "t57f_p2",
+   "t57f_p3",
+   "t57f_p4"
+  ],
+  "repeats": 0,
+  "note": "REPEATS-2.md: nothing repeats inside the opening; its five cross-section echoes (B9's two traps, B14's chore on empty, B192's \"instead of saying you're fine\", B156's bedtime, B230's art and nature) are for the later sweep."
+ }
+}
