@@ -32,9 +32,9 @@ The new h1 is started: its opening is in, after Let the Child Be Bad at Things. 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #172 (turns 53 to 56)
+### 🟠 Merge pull request #177 (turn 56, from your 12:15 message on)
 
-GPT's Untangling, your Ask God for a Loan in its latest version, your answers to 23 to 27, the opening of The Inner Guide Comes Later, and the checks. Main is merged into it again (the Intentional Communities pull requests 173 and 175), so its conflicts are gone. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+You merged #172 at 12:06, so #177 has what came after: your 12:15 Untangling fix and the opening of The Inner Guide Comes Later (question 28). About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
