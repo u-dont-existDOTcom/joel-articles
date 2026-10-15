@@ -1,0 +1,162 @@
+{
+ "S13v21-1P3P4": {
+  "history_id": 16182694,
+  "link": "https://www.pangram.com/history/4bedaeeb-37e0-43db-a55d-a0337771d4d8",
+  "utc": "2026-10-15T21:15:54Z",
+  "words": 181,
+  "avg_ai_likelihood": 0.20617999136447906,
+  "headline": "Human Written",
+  "version": "4.0",
+  "fraction_ai": 0,
+  "fraction_human": 1,
+  "windows": [
+   "Human, Medium, 181"
+  ],
+  "flagged": []
+ },
+ "S13v21-2P1P2": {
+  "history_id": 16182710,
+  "link": "https://www.pangram.com/history/292ab419-dd60-46ea-bbc9-19f7a621a576",
+  "utc": "2026-10-15T21:16:05Z",
+  "words": 103,
+  "avg_ai_likelihood": 0.00013479516201186925,
+  "headline": "Human Written",
+  "version": "4.0",
+  "fraction_ai": 0,
+  "fraction_human": 1,
+  "windows": [
+   "Human, Medium, 103"
+  ],
+  "flagged": []
+ },
+ "S13v21-2P3P3b": {
+  "history_id": 16182728,
+  "link": "https://www.pangram.com/history/af52bc41-8afd-49bd-b111-13fefc76787d",
+  "utc": "2026-10-15T21:16:15Z",
+  "words": 117,
+  "avg_ai_likelihood": 0.11040965467691422,
+  "headline": "Human Written",
+  "version": "4.0",
+  "fraction_ai": 0,
+  "fraction_human": 1,
+  "windows": [
+   "Human, Medium, 117"
+  ],
+  "flagged": []
+ },
+ "S13v21-2P4h3P1": {
+  "history_id": 16182747,
+  "link": "https://www.pangram.com/history/bd7b0dcd-c7ee-4c89-9d3d-db7ac35d39a0",
+  "utc": "2026-10-15T21:16:29Z",
+  "words": 153,
+  "avg_ai_likelihood": 0.6481249332427979,
+  "headline": "AI Detected",
+  "version": "4.0",
+  "fraction_ai": 0.5263803601264954,
+  "fraction_human": 0.47361963987350464,
+  "windows": [
+   "Human, Medium, 76",
+   "AI-Generated, Medium, 77"
+  ],
+  "flagged": [
+   "AI-Generated (77 words): the heading \"Resources, Land, and Exit Terms\" and H3-P1"
+  ]
+ },
+ "S13v21-3P2P3": {
+  "history_id": 16182760,
+  "link": "https://www.pangram.com/history/d805d476-f8d9-4fb5-a394-216aa0d77368",
+  "utc": "2026-10-15T21:16:37Z",
+  "words": 234,
+  "avg_ai_likelihood": 0.5877342224121094,
+  "headline": "AI Detected",
+  "version": "4.0",
+  "fraction_ai": 0.45447975397109985,
+  "fraction_human": 0.5455202460289001,
+  "windows": [
+   "Human, High, 125",
+   "AI-Generated, High, 109"
+  ],
+  "flagged": [
+   "AI-Generated (109 words): H3-P3 \"Large transfers (land, equipment, stores or outside cash) can't depend on one person's memory or permission.\" through \"That's not much of a right.\""
+  ]
+ },
+ "S13v21-H3": {
+  "history_id": 16182781,
+  "link": "https://www.pangram.com/history/0b7c2345-0629-47ef-b66a-75f5f9be2e22",
+  "utc": "2026-10-15T21:16:47Z",
+  "words": 448,
+  "avg_ai_likelihood": 0.9959622621536255,
+  "headline": "AI Generated",
+  "version": "4.0",
+  "fraction_ai": 1,
+  "fraction_human": 0,
+  "windows": [
+   "AI-Generated, High, 448"
+  ],
+  "flagged": [
+   "AI-Generated (448 words): the whole subsection, heading and H3-P1 through H3-P5"
+  ]
+ },
+ "S13v21-H4": {
+  "history_id": 16182802,
+  "link": "https://www.pangram.com/history/0dfc76c1-1b4a-40c3-bfad-f307e555a08e",
+  "utc": "2026-10-15T21:16:57Z",
+  "words": 702,
+  "avg_ai_likelihood": 0.5759347081184387,
+  "headline": "AI Detected",
+  "version": "4.0",
+  "fraction_ai": 0.5077352523803711,
+  "fraction_human": 0.4922647774219513,
+  "windows": [
+   "AI-Generated, High, 258",
+   "Human, High, 98",
+   "AI-Generated, High, 72",
+   "Human, High, 205",
+   "AI-Generated, High, 34",
+   "Human, High, 35"
+  ],
+  "flagged": [
+   "AI-Generated (258 words): the heading through H4-P4 and the start of H4-P5 (\"From Visitor to Member—Slowly\" ... \"How long will a provisional membership be\")",
+   "AI-Generated (72 words): H4-P6 \"At each stage, always judge people based on their conduct. No matter how good it sounds when they t…\"",
+   "AI-Generated (34 words): H4-P9 \"(Yes, even the interns!) When decisions really affect their pay or access to shared resources, they…\""
+  ]
+ },
+ "S13v21-4P9h5P2": {
+  "history_id": 16182824,
+  "link": "https://www.pangram.com/history/edf0cb54-e5f7-428f-8e37-253d2954eea1",
+  "utc": "2026-10-15T21:17:09Z",
+  "words": 277,
+  "avg_ai_likelihood": 0.8700267672538757,
+  "headline": "AI Generated",
+  "version": "4.0",
+  "fraction_ai": 1,
+  "fraction_human": 0,
+  "windows": [
+   "AI-Generated, High, 277"
+  ],
+  "flagged": [
+   "AI-Generated (277 words): the whole text, H4-P9 through H5-P2"
+  ]
+ },
+ "S13v21-H5": {
+  "history_id": 16182846,
+  "link": "https://www.pangram.com/history/36184401-ef06-44e1-a068-eee2cdf871c6",
+  "utc": "2026-10-15T21:17:19Z",
+  "words": 374,
+  "avg_ai_likelihood": 0.3127942979335785,
+  "headline": "AI Detected",
+  "version": "4.0",
+  "fraction_ai": 0.3096539080142975,
+  "fraction_human": 0.6903460621833801,
+  "windows": [
+   "AI-Generated, Medium, 42",
+   "Human, High, 65",
+   "AI-Generated, High, 68",
+   "Human, High, 199"
+  ],
+  "flagged": [
+   "AI-Generated (42 words): When Somebody Has to Go / A safe community can’t promise to keep everyone. Yes, really. If someone is a serious or general danger, keeps violating essential boundaries, or is just impossible to live with, ejecting them can be the right call.",
+   "AI-Generated (68 words): H5-P2 \"What conduct might constitute cause for immediate action to protect people?\" through \"during separation?\""
+  ]
+ }
+}

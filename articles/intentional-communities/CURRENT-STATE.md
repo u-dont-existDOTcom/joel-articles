@@ -18,11 +18,12 @@ Humanize Joel's published intentional-communities Substack article section by se
 - Sections 1 to 12 are humanized candidates in `candidate/HUMANIZED-SO-FAR.md`. Sections 4 and 12 are Joel's own texts of 2026-10-13 (with his answers of 2026-10-14); section 5 is his of 2026-10-06; the others carry his edits and answers where he gave them. Every candidate section read 100% Human in Pangram's web app when it was installed (`DETECTOR-EVIDENCE.json`; for the changes of 2026-10-14, `candidate/fix-20261014/RESULTS.md`).
 - 2026-10-14: Joel's Rule Scoring Sheet answers and 13 fixes from the sweep of 2026-10-13 are in (sections 2, 3, 4, 6, 7, 8, 9, 11, 12), each changed paragraph Human alone and each section 100% Human in Pangram's web app. His answers of 21:19 UTC (questions 22 to 26) are in too: his own section 11 text and section 10 paragraph, and small cuts in sections 4, 9 and 11; sections 4, 9, 10 and 11 read 100% Human.
 - 2026-10-15: his answers 27 to 29 (section 10 v4; section 4's diagram rebuilt, waiting for his Substack upload) and, at 11:04, his two section 4 paragraphs (section 4 v11.3, 100% Human in batch 287g). Section 13 started: baseline all AI (batch 286g), drafts v1 to v6 through four gate rounds; 2 of 10 checked v5 paragraphs read Human (287g); not in the article yet. After his 13:10 answers (30 b: the visitor and founder lines stay as published; 31 a: paragraph by paragraph), Emulate rounds b to f, drafts v7 to v13 and gate rounds r5 to r9: 20 of its 27 paragraphs read Human alone or beside a neighbor that does (batches 289g to 292g, 23 of 28 checks Human).
-- Owner edits: 59 of 59 pass.
+- 2026-10-15, after his 18:28 answer (32 b: his research sentence stays as published): section 13 drafts v14 to v22, Emulate rounds g to i, gate rounds r10 to r15. Every part of v21 read Human on its own text and the whole section read 56% AI (298g); v22 rebuilds the two stretches that read AI everywhere (the land subsection; H4-P9 to H5-P2) from Emulate, and its review round r15 is done, its fixes next. Not in the article yet.
+- Owner edits: 60 of 60 pass.
 
 ## Current checkpoint
 
-Section 13, "Your Little Forming Group Already Is the Community", is the published text except one line fixed on 2026-10-12. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Section 13, "Your Little Forming Group Already Is the Community", is the published text in the article (except one line fixed on 2026-10-12); its draft is `candidate/s13/v22.md` (and `v22b.md`, the other way of H5-P2), in review. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
@@ -32,7 +33,7 @@ Section 13, "Your Little Forming Group Already Is the Community", is the publish
 
 ## Blockers / unresolved
 
-- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`): 32 (the research aside in section 13's "Outside" paragraph); the rebuilt section 4 diagram waits for his Substack upload.
+- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`): 33 (the 😜 in section 13's provisional-membership hint); the rebuilt section 4 diagram waits for his Substack upload.
 - Pangram checks run in the desktop app's browser pane, signed in to Joel's account; the API key is out of credits.
 
 ## Evidence / artifacts
@@ -43,4 +44,4 @@ Section 13, "Your Little Forming Group Already Is the Community", is the publish
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (on `claude/community-joel-1015` until its pull request merges). The old lane branch is frozen as history at `f4d24d2c`, whose last commit only adds the note that the work moved here. Continue section 13 from `candidate/s13/v13.md` (the handoff's next step): gate round r10 on the five paragraphs v13 changed (H3-P3, H4-P8, H5-P2, H5-P3, H5-P4), a fresh Emulate round for H1-P2, the third heading, then the repeats and the whole section, with Pangram batches through `tools/humanization/pangram_gate.py`. Before merging any lane branch into `main`, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (on `claude/community-joel-1015b` until its pull request merges). Continue section 13 from `candidate/s13/v22.md` with the handoff's next step (`candidate/HANDOFF-community-article.md`): the dispositions of gate round r15 (`candidate/s13/review-r15/`), draft v23, gate round r16, then Pangram for the rebuilt paragraphs, their stretches and the whole section through `tools/humanization/pangram_gate.py`. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
