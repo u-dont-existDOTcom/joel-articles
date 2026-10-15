@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-14, after your message of 03:04 UTC. **Open questions: 5.** To answer, reply in chat with the number and the letter, for example `22a`, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-14, after your message of 21:19 UTC. **Open questions: 2.** To answer, reply in chat with the number and the letter, for example `28a`, or in your own words. Everything else in my messages is status.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,50 +9,38 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Five questions, each with my pick. The passages are on the side-by-side pages I sent this turn.
+> Two questions, each with my pick. The passages are on the side-by-side pages I sent this turn (sections 4 and 10).
 
-**🟣 22. Section 11's opening: define "Founderism"?** Six cold reads said the heading's word is never explained.
-- a) "That person ends up with real influence, and pretending they don't just makes that influence harder to look at. When that influence goes unchecked, I call it founderism." **My pick**: it fits your own "founderism is a problem in every community, it's especially so ... as I'm describing may happen in my case", and the four questions test exactly that.
-- b) "... That influence is what I mean by founderism." (the influence itself, unchecked or not)
-- c) Leave it undefined.
+**🟣 28. Section 10's last paragraph: tie it to the federation?** Both cold reads of the section said your new paragraph reads as a new topic: nothing ties it to the federation paragraphs before it, and they couldn't tell whose rules these are. It reads Human alone and the section 100% Human (283g, 284g).
+- a) "Whenever you create or apply a federation rule, it's best practice ..." (one word). **My pick**: it ties the paragraph to the section and to the limits of solidarity just before it.
+- b) "Whenever a community or a federation creates or applies a rule, it's best practice ...", if you meant any rule, a community's too.
+- c) Leave it.
 
-With a) or b) in, the section reads "Mostly Human": Pangram puts an AI window on P4's run of questions ("One is to judge the method by results people can actually see. Are the members flourishing ... start up and last?"), though P2 and P4 each pass alone (batches 281g and 282g). So whichever you pick, P4 probably needs a touch of yours; see 23.
+Whichever you pick goes through Pangram before it's in.
 
-**🟣 23. Section 11, P4 and P6: three flags I couldn't fix in Pangram.**
-- P4's "Can it correct a prediction that turned out wrong?" (eleven reads: whose prediction?). My two wordings, "When the method gets a prediction wrong, can the community say so and change course?" and "Can it correct the method's wrong predictions?", pass alone, and each puts the same AI window on the questions in the section (277g, 280g).
-- P4's "Can it replace the founder?" repeats the four questions' "Can the community replace the role of the founder?" three paragraphs later (the repeats check, E172).
-- P6's "Here are the four questions about the founder:" (three reads: the four aren't set apart from P4's questions). Mine, "The questions so far have been about the method. These four are about the founder:", passes beside P5 and the questions; the section with it and P4's fix reads AI on P4 again (282g).
-
-- P8's "who picks the reviewers?" (nine reads: reviewers of whom?). "who picks the people who review the founder?" (P9's own words) and "who picks the people who handle complaints?" each read as narrower than the published "chooses reviewers" to a meaning trace, so it stays. My pick for P8: "the people who review the founder".
-
-My pick for P4 and P6: your own wording of P4's questions, since the run itself is what Pangram reads (it read AI in the section even with P4 and P6 as they are, once P2 changed). If you'd rather not, all three stay as they are; the section reads 100% Human that way (282g).
-
-**🟣 24. Two small fixes in your own paragraphs** (two cold reads each).
-- Section 8, P13 under "Children Need Freedom Inside Real Protection": "I looked through the research corpus for a well-documented case" (which corpus?). a) "I looked through all the research I'd gathered for a well-documented case" (same link). **My pick.** b) Leave it.
-- Section 4, P10 under "4. The container": "If one of them gets skipped, it will need to be dealt with eventually" (the first three parts, or all four?). a) "If one of the four gets skipped". **My pick**, since the land and labor clause after it is about the container. b) Leave it.
-
-For your information: your three-sentence paragraph "And it's built on somatic regulation first. ..." reads AI beside the reparenting paragraph before it, in your own wording too (278g, a control); the whole section reads 100% Human (276g).
-
-**🟣 25. Section 10's last paragraph: "a collision of two principles"** (four reads: none named, abrupt). Two openings that name the pair from the paragraph before ("Limits like those come from two principles colliding, solidarity and each community's claim on its own labor and stores." and "... a collision of two principles, like solidarity and a community's claim on its own stores, ...") read AI alone (276g, 279g); this opening failed in most wordings on 10-10 too. a) Leave it as it is (it passes alone and in the section). **My pick**, unless you want to word the bridge. b) Your wording.
-
-**🟣 26. Repeats in your words** (the repeats check, E172; each with my pick).
-- Section 4: "don't freeze into doctrine", then two paragraphs later "When agreements get frozen, religious communities tend to call the frozen version doctrine." Cut "and don't freeze into doctrine" from the first? **My pick: yes.**
-- Section 9: "A new ecovillage can't copy the diagram everyone can see" and, right after, "The useful thing isn't their diagram." Cut the second, so the next sentence reads "The useful thing is how they learn: they build things and ask questions, ..."? **My pick: yes** (one cold read also asked "what diagram?" at the first).
-- Section 11: "a dynamic, living, always re-assessed balance", "again, a living balance must be struck", "But again, balance". Cut "There are pros and cons to each extreme, and again, a living balance must be struck."? **My pick: yes**; the third gives its own reason. And "I can't decide any of this ahead of time" with "Nobody can give that advice ahead of time, including me": **my pick: keep both**, they're different decisions.
-- Section 12: your new "it's more about what fits where & when than good or bad" and the list's "This doesn't mean you're bad or doomed, it's about timing". **My pick: keep both**: the first is about labels, the second reassures the reader right when the list says they may not fit. Also, "free resource" now comes four paragraphs before its definition (it did before, as "free resource/capacity"); my pick is to leave it.
-- One cut in my own words is in, as a proposal: section 9's "not claiming they already proved my whole model", since your "the Zapatistas also don't prove my whole money-free economy goal" says it. Say if you want it back.
+**🟣 29. Section 4's diagram (image 7) still says "authority stays with the practitioner".** That's the published principle's line, under the roof. Your text now says "our practices weave the community into the quilt", and membership depends on the community's processes (your F13 answer). The stance check flagged the clash. It's your image, so only you can change it.
+- a) Change that line in the image to match your text. **My pick.**
+- b) Leave it.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
-> Nothing for you to do this time.
+> One thing to send.
 
-- 🟢 Pull requests 169 and 170 are merged (see Decided).
+- 🟠 27. Your fixed reparenting paragraph and the three-sentence paragraph after it (section 4) didn't come through. In your message, "here's the fixed reparenting + 3 sentence para:" goes straight on to 25, and the attachment holds section 11 only. Could you paste them again? Until then, section 4 has "And inner pl/ork is built on somatic regulation first." as before.
+- 🟢 Pull request 173 is merged (your "continue").
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-10-14 21:19 UTC, on 22: "founderism isn't my term, it's in the commune literature, and it's the problem of power staying in the hands of the founders longer than it should". Your section 11 text is in as you pasted it, with your definition ("When that power fails to get distributed as the conditions ripen for that, it's called founderism."). In the rules: before a sentence says you coined or name something, the term gets searched; the same idea is founder's syndrome in the organizational literature.
+- 🟢 21:19, on 23: "i fixed it, pasted.passes pangram. lmk if i overlooked anything". In: your P2, P3 and P4, my P6 lead-in ("ok good use yours") and P8's "the people who review the founder" ("agree"). Every changed paragraph reads Human alone, and the section 100% Human (1,673 words, 284g). What I checked for anything overlooked: a cold read found nothing to stop a reader, the stance check found nothing in your paragraphs that conflicts with the rest of the article, and the repeats check found nothing inside the section that doesn't add a step. Of what P4 lost, "Can people disagree, leave, and later tell a different story about it?" is still in P10's signs, and "leaving costs too much" is in your "without being trapped"; only "Is the community still materially viable?" is said nowhere else now. My opinion: fine without it, since it's about the method, not the founder.
+- 🟢 21:19, on 24: "the research corpus is linked in the article... should be linked right there. reviewer doesn't know about links or something?" It didn't: the cold reader got a link's words only. Now it sees "the research corpus [a link to ...]" and is told a linked phrase can name what its sentence doesn't explain. "The research corpus" stays as you wrote it. Section 4: "If one of the four gets skipped" is in ("p10 agree").
+- 🟢 21:19, on 25: your last paragraph for section 10 is in as you wrote it. It reads Human alone and the section 100% Human (283g, 284g). Its one flag is question 28.
+- 🟢 21:19, on 26: section 4 without "and don't freeze into doctrine", section 9's "The useful thing is how they learn:", section 11 without "There are pros and cons to each extreme, and again, a living balance must be struck.", and both "ahead of time" lines kept. Each reads Human, and each section 100% Human (283g, 284g). Section 12: "ok keep both, but free resource should be free resource/capacity at first not 2nd so it's defined where it first comes in". It already does: your P3 says "free resource/capacity", and the definition comes four paragraphs later. My note made it sound as if the first mention had lost "/capacity"; it hadn't. If you meant to move the whole definition up to P3, say so.
+- 🟢 21:19: "continue". Pull request 173 is merged; this turn's work is in pull request 175.
 
 - 🟢 2026-10-14 03:04 UTC, on question 21 (your Rule Scoring Sheet answers): F4 and F6 are in as you wrote them ("thieving, nor suddenly unlearning learned helplessness"; "a baby is born or jealousy rears its head"). F10, "revert to yours": my sentence from before your 10-07 text is back, with your "what happened" for its "it", since your I answers say an "it" with nothing named nearby is unclear: "A scared or confused kid may get mixed up telling what happened and still need protection." If you meant the published sentence, it's "A frightened or confused child may tell a story imperfectly and still need protection." I1, "Unclear": "And inner pl/ork is built on somatic regulation first." I chose the subsection's subject over "reparenting", which the stance check found pulling against section 5's "Reparenting, somatic capacity, and peer counseling come first"; say if you meant reparenting. W1: your preferred P2 and P3 are in; each reads Human alone and as a pair, and the section 100% Human (274g). The rest ("You meant it", the "it" scores, W2) are in the rules, with what I could have seen myself.
 - 🟢 03:04: "try to merge also, but it said conflicts bc i guess of the merge i did on inner child lane". Yes: 169 and your inner-child merge (#171) had each added an entry at the end of the fixes catalogue. I kept both, and 169 and 170 are merged.
@@ -104,7 +92,7 @@ For your information: your three-sentence paragraph "And it's built on somatic r
 > [!NOTE]
 > What's next, and what happens if nothing changes.
 
-- 🔵 Next: section 13, "Your Little Forming Group Already Is the Community", in the article's new folder, with Pangram batches through main's gate script (pull request 165's rule), once a browser with your Pangram sign-in is connected.
+- 🔵 Next: section 13, "Your Little Forming Group Already Is the Community", with Pangram batches through the gate script in the desktop app's browser pane.
 - 🔵 Section 13, "Your Little Forming Group Already Is the Community": two lines shaped like "Decide the process before the name" wait for its pass ("Discover the group's conflict capacity before hiring a surveyor." and "Write the exit terms while departure is still hypothetical.").
 - 🔵 Information on section 12, no answer needed: the chart still says "A community can absorb only as much need as its members have free resource to meet." Your cut took that sentence out of the text, so now only the chart says it, and "Once there are 80 members" carries the point. Fine by me.
 - 🔵 Information on earlier pages, no answer needed: section 10's "Make a Movement" repeats the section title; section 10 P8's stored "what happened" could expose the people in an intimate case (your published wording); an optional "why cooperation slides" sentence for section 10 P6, yours to write; section 9's stance question on your P9 and P11 against "When Somebody Has to Go" (which Zapatista body reviews local power after 2023) is on the section 9 page.

@@ -1,0 +1,82 @@
+{
+ "J11-P2P3": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his P2 (37 words, under 50) with his P3: \"i fixed it, pasted.passes pangram\"",
+  "words": 109
+ },
+ "J11-P3": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his P3",
+  "words": 74
+ },
+ "J11-P4": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his P4: \"there was too much stuff in that p4\"",
+  "words": 97
+ },
+ "J11-R15": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his R15 without the \"living balance\" sentence (\"sect 11: agree agree\")",
+  "words": 80
+ },
+ "J10-P5": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his paragraph: \"this version is clearer and passes\"",
+  "words": 91
+ },
+ "J4-P1pair": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his P1 of \"Founded on Freedom\" without \"and don't freeze into doctrine\" (\"sect 4: yes\"; 33 words, so with his P2)",
+  "words": 73
+ },
+ "J4-P10pair": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his \"If one of the four gets skipped\" (\"p10 agree\"; under 50 words, so with the paragraph before)",
+  "words": 61
+ },
+ "J9-P14": {
+  "kind": "owner",
+  "joel": "2026-10-14 21:19 UTC: his P14 with \"The useful thing is how they learn:\" (\"sect 9: yes\")",
+  "words": 66
+ },
+ "S4v112": {
+  "kind": "section",
+  "parts": [
+   "J4-P1pair",
+   "J4-P10pair",
+   "installed"
+  ],
+  "words": 1505,
+  "repeats": 0
+ },
+ "S9v16": {
+  "kind": "section",
+  "parts": [
+   "J9-P14",
+   "installed"
+  ],
+  "words": 1008,
+  "repeats": 0
+ },
+ "S10v3": {
+  "kind": "section",
+  "parts": [
+   "J10-P5",
+   "installed"
+  ],
+  "words": 711,
+  "repeats": 0
+ },
+ "S11v15": {
+  "kind": "section",
+  "parts": [
+   "J11-P2P3",
+   "J11-P3",
+   "J11-P4",
+   "J11-R15",
+   "installed"
+  ],
+  "words": 1628,
+  "repeats": 0
+ }
+}
