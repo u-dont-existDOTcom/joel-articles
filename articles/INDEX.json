@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "2cbdd41590c7a14ed344a0a4f7771aa2bc45a1444f9bcf47bf1b74ad211f8d4a"
+          "sha256": "e667d30a9530b38120b9d8b9f9e539d6677a26450a30739f4633f9a2960b3be2"
         }
       },
       "review": {
@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "8b56a8b78e89ff9b7f8e8a1fb23eba7245c5a60933ca1703cc267d080b6ac086",
+          "sha256": "6d30f37dee6563ab5ef56e2ae7c9377a0865c31b7dd52074cac0562392394d34",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "da01c7acd49d49fb2426e2509fd2daecf84cc166a60f2dbfc4f2d0e2a7168dfc",
+          "sha256": "734412767800b5645190766d8e2dc2511acd7866a3d5cb428ad046b61f00b653",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "b0c93f43e7c42e9fe3d695cb966bacc11ef145fcb7c84e443c2368f8ab6f20b6",
+          "sha256": "ddfa9dbc72166edc0e366b8be535240b8383dcc6aee27bb072d7ec6727fb1669",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "40a01f62a75f5ec7e4d7426e5a4eb262f4a6af7aa0ca3fdd919a49b30cb6b39a",
+          "sha256": "f6b30dce2b4655bca9f50b1ea5c29de4bf202ffeb8e95b610e9f79247706da91",
           "role": "owner_questions_page"
         },
         {
@@ -6549,7 +6549,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-15-turn56.json",
-          "sha256": "c434ee0cbbc59b31d77ee335c8d5d1f9954436212459b054fc0abcdc88e9571c",
+          "sha256": "6e37b72ba79c0ef9053c22f9b80debf139012aa63ef74cb110d55ee187cc93d8",
           "role": "in_context_map"
         },
         {
@@ -7051,6 +7051,11 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-15-turn56-e.js",
           "sha256": "04f0398d21935f4ccb5dcafb20bb7df952a12c6f67013d7ce3b664f068e70dbe",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-guide/REVIEWS.md",
+          "sha256": "86b5b8ab8c8af2d802becb97082c1999587ad105d79b05a4e86784d62644c0c7",
+          "role": "humanization_working_record"
         }
       ]
     },

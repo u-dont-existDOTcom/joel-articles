@@ -761,6 +761,9 @@ Joel, 10:43 UTC: a new sentence in Ask God's gratitude paragraph, his Untangling
 - **Pangram:** everything he didn't check reads Human Written: his gratitude paragraph, his P2 with "arsonists", Ask God, the Borrow Love h2, the h1 Borrow the Adult (turn 55's window is gone), Untangling with Four Pairs, and the h1 Sometimes There Isn't a Clear Child Yet. Record: `t56-answers/REVIEWS.md`.
 - **Lesson E174:** his pasted h2 survives only as the summary's comparison, because the conversation was compacted two minutes after his message and before anything was written; his message goes into the repository as the turn's first write.
 
+- **12:15 UTC:** his Untangling P2 ("as a human being") and a shorter P3, which fixes P3 repeating P2 and its gifts line not following on; P2 alone, the h2 and the h1 read Human Written, and P3 alone is under Pangram's minimum (his check of the pair counts). His ruling: the gratitude sentence and the Biggie Smalls line aren't a repeat.
+- **The Inner Guide Comes Later, started:** targets for its sixteen guide groups, one dedup (94 points: 24 said, 52 partly, 18 new) and a stance ledger; then its opening, the guide's first three paragraphs, through six review rounds (`t56-guide/REVIEWS.md`). P1 reads Human alone; P2 and P3 read AI after one fix round each (the fix writers started from the why the reviews called GREAT, E170), so they're in as the faithful versions, marked FAILS PANGRAM ALONE, with question 28.
+
 ### Next
 
-The h1 The Inner Guide Comes Later: the dedup of its guide points against the article first, then its opening a group at a time.
+His answer to 28. Then the h1's group 4 (the Guide needs no certainty; problems blocked from outside: queue items PGQ-014 and PGQ-017) and the healthy-mind paragraphs (PGQ-007), from the briefs the dedup already supports.

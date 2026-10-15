@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-15 (turn 56). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-15 (turn 56). **One open question (28).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,7 +11,21 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 28. The Inner Guide Comes Later, P2 and P3: read AI after one fix round (leave it, or your words?)
+
+The new h1 is started: its opening is in, after Let the Child Be Bad at Things. P1 reads Human alone ([the result](https://www.pangram.com/history/8f7958c9-ae15-4fd7-81d3-0e317ec6a7fc)). P2 and P3 (P3 is now two paragraphs) don't, so they're in as the faithful versions, marked as failing alone (E168):
+
+> Without that kind of direction, reparenting can turn permissive. Asking anything hard of your little one can start to sound like the inherited critic, so sparing it everything can feel like love. Maybe you felt a bit of that when I asked. Candy and screens can pass for self-love, and so can escaping anything difficult.
+>
+> The opposite trap is forced adulthood: demanding perfect discipline of yourself and no visible needs, with very little joy or closeness. It can be the old "don't be needy" rule passing for the Guide. No wonder tightening control again feels like the grown-up thing. If you're stuck there, the next adult act may be asking someone safe for help, or saying what you'd prefer.
+>
+> Once a need does show, give it a fair hearing, and judge how you go about meeting it, too. Wanting closeness is legitimate. You might want a lot of it, after all that hiding. Demanding instant replies or punishing someone for needing space isn't the same thing. The Guide helps you find some workable way to meet the need without erasing you or the other person.
+
+- P2: try 1, a plainer version ending "…the kindest thing you could do for your little one: "Why make it do anything hard?"", read AI with P1 before it, all 45 of its words, while P1 stayed Human ([the result](https://www.pangram.com/history/62c889c8-8b9e-40e6-a97a-7be0c7129781)). Try 2, this one: AI alone, 0.81, low ([the result](https://www.pangram.com/history/6d57323d-07e2-4eb1-8e76-c3a2b1df943e)), and AI all through with P1 ([the result](https://www.pangram.com/history/c2f6953e-8d3e-478f-8e6b-9fd53b525815)).
+- P3: try 1, one paragraph, AI 0.9987 ([the result](https://www.pangram.com/history/0266bc51-c55a-4c9a-b56d-6acdec406f23)). Try 2, these two: AI 0.985 ([the result](https://www.pangram.com/history/90541b11-be79-4b1b-8d8d-f522128b437f)) and 0.957 ([the result](https://www.pangram.com/history/cf79b7c6-3718-4090-84a8-6373a4b0aeb0)), both low, all of each. The h1 so far reads AI all through ([the result](https://www.pangram.com/history/58eebdfc-1fe5-4f77-813f-ddbc5f99c319)).
+- They carry the guide's three paragraphs in order. Left out because the article already says them: Key and the Guide's introduction and "The child receives attention but doesn't develop" (The Chicken-and-Egg Problem), and "letting a safe person see something imperfect" (When to Change the Strategy). Your 2026-09-27 "not that it's more important than the others per se" keeps the guide's "I consider this the most important" out. The guide's "The Guide does not need certainty…" waits for the next part, with the blocked-problem items from your queue.
+- **A. Leave it** as it is for now.
+- **B. Your words** for any of them.
 
 ## For you to do (no decision needed)
 
@@ -20,7 +34,7 @@ None right now.
 
 ### 🟠 Merge pull request #172 (turns 53 to 56)
 
-GPT's Untangling, your Ask God for a Loan in its latest version, your answers to 23 to 27, and the checks. Main is merged into it again (the Intentional Communities pull requests 173 and 175), so its conflicts are gone. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+GPT's Untangling, your Ask God for a Loan in its latest version, your answers to 23 to 27, the opening of The Inner Guide Comes Later, and the checks. Main is merged into it again (the Intentional Communities pull requests 173 and 175), so its conflicts are gone. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
