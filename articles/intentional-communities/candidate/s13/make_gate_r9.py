@@ -1,4 +1,4 @@
-"""Section 13, gate round r9 on v11 (2026-10-15): v11 fixes round r8's findings (review-r8/DISPOSITIONS-r8.md). Traces
+"""Section 13, gate round r9 on v12 (2026-10-15): v12 fixes round r8's findings (make_v11.py) and rebuilds H5-P2 and H5-P4 from Emulate round f after both read AI in 291g (make_v12.py). Traces
 go to the pairs whose rewrite changed since v10 and to the three pairs round r8's trace T2 never reported on (it stopped
 at its output limit, as round r6's T2 did; both had H3-P1 and H3-P3, so each of those now runs alone); the march read,
 both cold reads and both stance checks cover the whole section. Run from the repo root:
@@ -14,7 +14,7 @@ CAND = REPO / 'articles' / 'intentional-communities' / 'candidate'
 S13 = CAND / 's13'
 OUT = S13 / 'review-r9'
 MARCH_ONLY = '--march-only' in sys.argv
-DRAFT = S13 / 'v11.md'
+DRAFT = S13 / 'v12.md'
 PREV = S13 / 'v10.md'
 OUT.mkdir(exist_ok=True)
 HEAD = '# Your Little Forming Group Already Is the Community'
