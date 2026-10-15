@@ -1,0 +1,24 @@
+{
+ "t56c_unt_p2": {
+  "kind": "owner",
+  "joel": "2026-10-15 12:15 UTC: his P2 with \"as a human being\" (\"ok this passes and i think fixes those probs\"; his check was of the pair); P2 alone is a check he didn't make"
+ },
+ "t56c_unt_p3": {
+  "kind": "owner",
+  "joel": "2026-10-15 12:15 UTC: his new, shorter P3; P3 alone is a check he didn't make"
+ },
+ "t56c_unt_h2": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": "joel: his own fix of nos. 6 and 7 (\"P3 tho really does seem to repeat P2 ... the first line of P3 is referencing gifts which are way before\"), both now gone; his new P3 only removes sentences and adds \"unhealthy self-valuation\", so nothing new inside the h2 for the check to find; experiments/t56-answers/REPEATS.md"
+ },
+ "t56c_some_h1": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": "joel: as in its h2; turn 55's no. 12, his Let the Child P1's \"when nobody is impressed\" against From Survival P1's \"when nobody's grading you\", kept in turn 54 as that paragraph's only march break; experiments/t56-answers/REPEATS.md"
+ }
+}
