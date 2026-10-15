@@ -27,6 +27,11 @@ GPT's Untangling, your Ask God for a Loan in its latest version, your answers to
 > [!TIP]
 > Your answers in your words, and what I did with them.
 
+### 🟢 2026-10-15 12:15 UTC
+
+- Your Untangling P2 ("as a human being" added) and your new, shorter P3 ("P3 tho really does seem to repeat P2 ... the first line of P3 is referencing gifts which are way before"): in, word for word. Your check of the pair counts. P2 alone, the h2 and the h1 Sometimes There Isn't a Clear Child Yet all read Human Written ([P2](https://www.pangram.com/history/44f95f0b-ec4f-4fbd-9b23-6c6af21d5ff9), [the h2](https://www.pangram.com/history/4703e34d-1ad2-46d9-b7ab-c83dd4e3e2c3), [the h1](https://www.pangram.com/history/538378c0-1a67-4068-8993-43008a46e166)). P3 alone is 43 words, under the web app's minimum, so your check of it with P2 stands for it.
+- Your new gratitude sentence and the Biggie Smalls line: not a repeat ("the first one is saying what we should want, the 2nd one is talking about being grateful if you know that"). Noted, and left as they are.
+
 ### 🟢 2026-10-15 10:43 UTC
 
 - Your new gratitude sentence ("btw i changed this paragraph in gratitude section"): in, word for word. You didn't say you'd checked it: the paragraph alone, Ask God for a Loan, the Borrow Love h2 and the h1 Borrow the Adult all read Human Written ([the paragraph](https://www.pangram.com/history/152cedff-e982-4841-8d59-9e106cec687b), [the h1](https://www.pangram.com/history/0d8b1c4b-a8d6-4c0f-943b-85c1f9c5771a)).

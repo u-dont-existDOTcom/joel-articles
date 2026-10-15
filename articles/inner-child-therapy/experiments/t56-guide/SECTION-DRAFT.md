@@ -1,0 +1,7 @@
+# The Inner Guide Comes Later
+
+As the Guide, you choose what your little one learns and what it gets to experience, the way a good parent would. You hold standards, and you ask hard things of it so it can grow, at its own pace. That's what I was just asking of you, with that new interest. You also widen its world with art and music, and you point out beautiful things when you see them. Nature is part of that, and so is the wider world past the end of the street you grew up on.
+
+Without that kind of direction, reparenting can turn permissive, and your little one gets lots of attention without growing. Candy and screens can pass for self-love. So can escaping anything difficult. In the moment, that one sounds like the kindest thing you could do for your little one: "It's had enough, so why put it through this?"
+
+The opposite trap is forced adulthood, where your discipline is perfect and you have no visible needs, and there's very little joy or closeness. If you're stuck there, tightening control again probably feels like the grown-up thing, but the next adult act may be asking for help instead, or saying what you'd prefer. Or it may be letting a safe person see something imperfect. Judge the strategy as well as the need: wanting closeness is legitimate, and demanding instant replies or punishing someone for needing space isn't the same thing. When you're the one waiting, it's hard to tell the difference. The Guide helps you find a workable way to meet the need without erasing either of you.
