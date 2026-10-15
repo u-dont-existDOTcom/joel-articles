@@ -603,6 +603,19 @@ class MeaningSweepAuthorMarks(unittest.TestCase):
         self.assertTrue(out.startswith('The community has to share'))
         self.assertIn(meaning_sweep.MARK_OPEN + 'No, taking away the idea', out)
 
+    def test_wording_he_approved_stays_mine(self):
+        """2026-10-14: two of the three sweep flags he sent back (F4, F6) were in my wording he had approved ("agree fix
+        it"), which the ledger records; an entry marked "words": "proposed" gives no author marks."""
+        with tempfile.TemporaryDirectory() as d:
+            led = pathlib.Path(d) / 'led.json'
+            led.write_text(json.dumps({'entries': [
+                {'id': 'a', 'status': 'applied', 'must_contain': [self.HIS]},
+                {'id': 'b', 'status': 'applied', 'words': 'proposed',
+                 'must_contain': ['or stop trying to act helpless, which I proposed and he approved']}]}), encoding='utf-8')
+            owners = meaning_sweep.owner_strings(str(led), [])
+        self.assertIn(meaning_sweep.norm(self.HIS), owners)
+        self.assertFalse(any('stop trying to act helpless' in o for o in owners))
+
     def test_the_prompt_and_input(self):
         with tempfile.TemporaryDirectory() as d:
             d = pathlib.Path(d)
@@ -710,7 +723,8 @@ class SectionColdReadPrompt(unittest.TestCase):
     def test_the_reader_gets_the_article_before_and_the_section_numbered(self):
         p = self.run_cmd('--section', 'Second Part', '--report', '/tmp/r.md')
         earlier = p[p.index('THE ARTICLE BEFORE'):p.index('THE SECTION:')]
-        self.assertIn('My father made a film in 1988.', earlier)        # a link reads as its text
+        # a link reads as its words, marked as a link, with where it goes (2026-10-14: "reviewer doesn't know about links")
+        self.assertIn('My father made a film [a link to example.com/film] in 1988.', earlier)
         self.assertIn('[an image]', earlier)
         self.assertIn('[caption] The banner my mom painted.', earlier)
         for gone in ('Share', 'working note', 'humanized article so far', 'https://'):
@@ -722,6 +736,20 @@ class SectionColdReadPrompt(unittest.TestCase):
         self.assertIn('After it, the next section starts: "# Third Part".', section)
         self.assertNotIn('The third part.', section)
         self.assertIn('/tmp/r.md', p)
+
+    def test_a_linked_phrase_is_marked_and_the_reader_is_told_what_that_means(self):
+        # Joel, 2026-10-14 21:19 UTC, on two cold reads asking "which corpus?" of a phrase that is a link to it: "the
+        # research corpus is linked in the article... should be linked right there. reviewer doesn't know about links or
+        # something?" The reader had been given the link's words only.
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        view = reviewer.reader_view('I looked through [the research corpus](https://www.example.org/blog/research/?s=1#top) for '
+                                    'a case, and [https://example.org](https://example.org) has the rest.')
+        self.assertEqual(view, ['I looked through the research corpus [a link to example.org/blog/research] for a case, and '
+                                'https://example.org has the rest.'])
+        p = self.run_cmd('--section', 'Second Part')
+        self.assertIn('Words followed by "[a link to ...]" are a link on the page', p)
+        self.assertIn('the research corpus is linked in the article', p)
 
     def test_the_shared_rules_are_in_it(self):
         p = self.run_cmd('--section', 'Second Part')
@@ -974,6 +1002,22 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertEqual(r.returncode, 2)
         self.assertIn('the march blocks the call', r.stderr)
         self.assertIsNone(js)
+
+    def test_an_edit_keeps_the_installed_versions_march(self):
+        """E173 (2026-10-14): a fix of a few words in a paragraph that passed Pangram without a break is checked
+        in Pangram; an edit that takes out the installed version's break is blocked."""
+        e = dict(self.CLEAN, kind='edit', march=['S S S'], march_was=['S S S'], was='batch 267g, alone 100% Human')
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': e}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(e, march_was=['S B S'])}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('the fix made the march', r.stderr.lower())
+        g = dict(e); del g['was']
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("needs 'was'", r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(e, cold='[2] UNCLEAR')}, ['p'])
+        self.assertEqual(r.returncode, 2)
 
     def test_no_stance_check_blocks_the_call(self):
         g = dict(self.CLEAN); del g['stance']

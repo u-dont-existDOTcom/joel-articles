@@ -2213,6 +2213,62 @@
    ],
    "rule": "B5",
    "example": "There is a difficult question to consider. Eight people still have to grow the food, fix the pump and keep the books, whoever joins them."
+  },
+  {
+   "id": "J53",
+   "tell": "an abstraction turned into another abstraction (\"not turning every limit into a flat-out rejection\"): read literally, it makes no sense",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014/joel-20261014-attachment.txt",
+     "quote": "W2: I can say why (note) (the AI version makes no sense. can't you see that?)"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "A limit can't be turned into a rejection; people get rejected."
+    }
+   ],
+   "reason": "Whether a phrase makes literal sense needs a reader of it; the same verb with people as its object is fine (\"not flat-out rejecting people every time it hits a limit\")."
+  },
+  {
+   "id": "J54",
+   "tell": "a second sentence on the first one's frame (\"We have a lot of incentives ... We have been encouraged ...\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014/joel-20261014-attachment.txt",
+     "quote": "the sentence prior to that was reading a bit robotic like a second \"we have\" talking about incentives/encouraging to be this or that way."
+    }
+   ],
+   "reason": "A repeated opener can be deliberate (anaphora he writes on purpose); whether it reads robotic is a reader's call."
+  },
+  {
+   "id": "J55",
+   "tell": "a paragraph that doesn't follow from the one before (two paragraphs that each pass alone read AI together)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014/joel-20261014-attachment.txt",
+     "quote": "so now looking at that, yeah, 2nd para doesn't follow the first, so pangram is right to flag it."
+    }
+   ],
+   "reason": "Whether one paragraph follows from another is a reading of both; the fix is the missing step, as his bridging sentence was."
+  },
+  {
+   "id": "J56",
+   "tell": "a long run of questions in a row (eight tests of a method, one after another): the run itself reads AI, whatever each question says",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261014-2119/joel-20261014-2119-message.txt",
+     "quote": "23 section 11  i fixed it, pasted.passes pangram. lmk if i overlooked anything, there was too much stuff in that p4 tho"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "leaves Pangram's window in place, the part's shape is the problem: propose a cut"
+    }
+   ],
+   "reason": "How many questions are too many, and which ones the author would keep, is a judgment about the passage; his fix kept five of eight and closed the run with his own judgment."
   }
  ]
 }

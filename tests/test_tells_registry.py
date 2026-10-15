@@ -62,8 +62,8 @@ class RegistryShape(unittest.TestCase):
         ids = [t['id'] for t in TELLS]
         # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35; J51 from 23:12;
         # W84 (O39) from 2026-10-12 05:33; W85 (O40) and J52 from 17:23; W86 and W87 (B5's two announcing openers) from
-        # Joel's section 4 and 12 texts of 2026-10-13
-        self.assertEqual(len(ids), 139)
+        # Joel's section 4 and 12 texts of 2026-10-13; J53 to J55 from his Rule Scoring Sheet answers of 2026-10-14
+        self.assertEqual(len(ids), 143)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 87)
         for t in TELLS:

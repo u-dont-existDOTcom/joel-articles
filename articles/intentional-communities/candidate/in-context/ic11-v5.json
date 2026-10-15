@@ -1,0 +1,314 @@
+{
+ "title": "Founderism: The Four Questions · section 11 beside the published one",
+ "meta": "Community article · section 11 · v14, 2026-10-14 · in the article so far as a candidate",
+ "intro": [
+  "Your published section is on the left. On the right is the version now in the article so far. Highlighted words are new since the version you last saw (your texts of 10-13, merged this morning), and struck words are ones that went.",
+  "What changed: P9's \"no real way ... no matter how many meetings it holds\" (seven cold reads: circles are never set up in this section) and P10's \"the daily signs of founderism\" (two: signs of what?). Each reads Human alone, and the section 100% Human (1,690 words, 06:21:26 UTC, batch 282g), on the fourth section try.",
+  "The other fixes are questions 22 and 23 on the questions page, shown as proposals under the paragraphs they'd change: the definition of founderism (P2), P4's prediction question and its repeated \"Can it replace the founder?\", P6's lead-in to the four questions, and P8's reviewers. P2, P4 and P6 each pass alone, but with any of them in, Pangram puts an AI window on P4's run of questions in the section (277g, 280g, 281g, 282g).",
+  "Question 26 (a repeat in your words) is under your paragraph \"Peer counseling can become peer surveillance\"."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Founderism: The Four Questions"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "In every community there was somebody",
+     "source": [
+      "Every community begins with somebody’s initiative"
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "That person ends up with real influence",
+     "source": [
+      "That contribution creates real influence"
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 22a (my pick)",
+     "text": "That person ends up with real influence, and pretending they don't just makes that influence harder to look at. When that influence goes unchecked, I call it founderism.",
+     "proposal_of": "That person ends up with real influence",
+     "source": [
+      "That contribution creates real influence"
+     ],
+     "notes": [
+      "Six cold reads said the heading's word is never explained. This fits your own \"founderism is a problem in every community\" further down, and the four questions test exactly that.",
+      "Pangram: Human beside P3 (87 words, 06:10:41 UTC, 279g). With P1 it read AI (277g), and so do P1 and P2 as they are now (279g, a control). In the section it moves an AI window onto P4's questions (281g)."
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 22b",
+     "text": "That person ends up with real influence, and pretending they don't just makes that influence harder to look at. That influence is what I mean by founderism.",
+     "proposal_of": "That person ends up with real influence",
+     "source": [
+      "That contribution creates real influence"
+     ],
+     "notes": [
+      "The influence itself, unchecked or not.",
+      "Not checked in Pangram yet: I'll check it once you pick."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "I know this personally. Many of the",
+     "source": [
+      "I know the tension personally because"
+     ]
+    },
+    {
+     "label": "P4",
+     "article": "A few things help keep that in check",
+     "source": [
+      "A few things help. Judge the method"
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 23, P4, wording 1",
+     "text": "A few things help keep that in check. One is to judge the method by results people can actually see. Are the members flourishing, and are they safe? Can conflicts get resolved? Can people disagree, leave, and later tell a different story about it? Are the kids doing well once they grow up? Is the community still materially viable? When the method gets a prediction wrong, can the community say so and change course? And if the community is meant to spread, do new projects actually start up and last? How long a community has lasted, how full it is, whether it reaches consensus and how many members stay aren't enough on their own. A group can keep its members because people love it, or because leaving costs too much. And don't judge it by how closely people stick to the founder's own interpretation.",
+     "proposal_of": "A few things help keep that in check",
+     "source": [
+      "A few things help. Judge the method"
+     ],
+     "notes": [
+      "Eleven cold reads asked whose prediction. This names it, and drops \"Can it replace the founder?\", which the four questions ask again three paragraphs down (the repeats check).",
+      "Pangram: Human alone (147 words, 06:02:59 UTC, 277g); in the section, an AI window on these questions (06:03:47 UTC)."
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 23, P4, wording 2",
+     "text": "A few things help keep that in check. One is to judge the method by results people can actually see. Are the members flourishing, and are they safe? Can conflicts get resolved? Can people disagree, leave, and later tell a different story about it? Are the kids doing well once they grow up? Is the community still materially viable? Can it correct the method's wrong predictions? And if the community is meant to spread, do new projects actually start up and last? How long a community has lasted, how full it is, whether it reaches consensus and how many members stay aren't enough on their own. A group can keep its members because people love it, or because leaving costs too much. And don't judge it by how closely people stick to the founder's own interpretation.",
+     "proposal_of": "A few things help keep that in check",
+     "source": [
+      "A few things help. Judge the method"
+     ],
+     "notes": [
+      "Pangram: Human alone (140 words, 06:18:37 UTC, 280g); in the section, the same AI window (06:18:50 UTC). With P4 and P6 as they are now and P2's definition in, the window is there too (281g); so the run of questions itself is what Pangram reads. My pick: your own wording of P4's questions; if you'd rather not, P2, P4 and P6 stay as they are, and the section reads 100% Human that way."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "Allow for parallel implementations. Fork the method.",
+     "source": [
+      "Allow parallel implementations. Fork the method."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "Here are the four questions about the founder",
+     "source": [
+      "Here are the four questions"
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 23, P6",
+     "text": "The questions so far have been about the method. These four are about the founder:",
+     "proposal_of": "Here are the four questions about the founder",
+     "source": [
+      "Here are the four questions"
+     ],
+     "notes": [
+      "Three cold reads couldn't tell these four from P4's questions.",
+      "Pangram: Human beside P5 and the four questions (93 words, 06:11:06 UTC, 279g); in the section with P4's fix, the AI window on P4 again (06:21:36 UTC, 282g)."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "Can the community respectfully override the founder?",
+     "source": [
+      "Can the community respectfully override the founder?"
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "Then follow the practical power.",
+     "source": [
+      "Then follow the boring power."
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 23, P8 (my pick)",
+     "text": "Then follow the practical power. Whose name is on the deed? Who's in charge of the housing and the food stores, the vehicles and tools, and any bank account outside the community? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person.",
+     "proposal_of": "Then follow the practical power.",
+     "source": [
+      "Then follow the boring power."
+     ],
+     "notes": [
+      "Nine cold reads asked: reviewers of whom? These are the next paragraph's own words. A meaning trace read this wording, and \"the people who handle complaints\", as narrower than the published \"chooses reviewers\", so it isn't in.",
+      "Not checked in Pangram yet: I'll check it once you pick."
+     ]
+    },
+    {
+     "label": "P9 · changed today",
+     "article": "Remember, it's not an override unless",
+     "source": [
+      "An override is real only if it"
+     ],
+     "notes": [
+      "Now: \"then there's no real way for the community to override the founder, no matter how many meetings it holds.\"",
+      "Pangram: Human alone (59 words, 06:03:23 UTC, 277g)."
+     ]
+    },
+    {
+     "label": "P11 · changed today",
+     "article": "Also watch for the daily signs of founderism.",
+     "source": [
+      "Also watch the daily signs:"
+     ],
+     "notes": [
+      "Pangram: Human alone (52 words, 06:03:34 UTC, 277g)."
+     ]
+    },
+    {
+     "label": "P12",
+     "article": "Presence of one of these alone isn't",
+     "source": [
+      "None of these proves abuse by itself."
+     ]
+    },
+    {
+     "label": "P10 (moved)",
+     "article": "Ask these questions about any community",
+     "source": [
+      "Ask these about any community"
+     ]
+    },
+    {
+     "label": "J1 · yours",
+     "article": "While founderism is a problem in every community",
+     "source": []
+    },
+    {
+     "label": "J2 · yours",
+     "article": "If I could find a suitable commune to join",
+     "source": []
+    },
+    {
+     "label": "J3 · yours, one sentence mine",
+     "article": "It's a bit like the process of getting married",
+     "source": [],
+     "beside": {
+      "label": "Your words, 2026-10-11 23:12 UTC (16)",
+      "text": "j3. right you can mention it's the divorce half sure."
+     }
+    },
+    {
+     "label": "J4 · your answer 14, my wording",
+     "article": "Friends who come to visit don't get written terms",
+     "source": [],
+     "beside": {
+      "label": "Your words, 2026-10-11 23:12 UTC (14)",
+      "text": "nobody gives clear written terms to visiting friends, that's not how anything works. If they are offered something like an internship or a probationary period then that would require written terms. Or if it naturally evolves and they bring up the desire for something like that it could be done. Nobody can agree to written terms at first, they don't even know if they will stick around for a day or a week. But there are implied terms, like be nice, be respectful, be honest, etc etc. Those shouldn't need to be in writing tho."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## How My Own Model Could Become a Cult"
+   ],
+   "rows": [
+    {
+     "label": "P13",
+     "article": "Every practice in this article can be turned",
+     "source": [
+      "Every practice in this article can be turned"
+     ]
+    },
+    {
+     "label": "R14 · yours, plus your answer 15",
+     "article": "“Nothing suppressed, everything processed” can become a situation",
+     "source": [
+      "“Nothing suppressed, everything processed” can become compulsory"
+     ],
+     "beside": {
+      "label": "Your words, 2026-10-11 23:12 UTC (15)",
+      "text": "it depends on the situation, in general people can have their own private practices of course, but if they start worshipping Satan, they get booted, etc."
+     }
+    },
+    {
+     "label": "R15 · yours",
+     "article": "Peer counseling can become peer surveillance",
+     "source": [
+      "Peer counseling can become surveillance delivered"
+     ]
+    },
+    {
+     "label": "PROPOSAL · question 26 (my pick: yes)",
+     "text": "Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that's fine. Some communities will be stricter gatekeepers, and others will be more lax.",
+     "proposal_of": "Peer counseling can become peer surveillance",
+     "source": [
+      "Peer counseling can become surveillance delivered"
+     ],
+     "notes": [
+      "The repeats check: \"a dynamic, living, always re-assessed balance\" before it and \"But again, balance\" after it say it too; the third gives its own reason.",
+      "Not checked in Pangram yet: I'll check it once you pick."
+     ]
+    },
+    {
+     "label": "P16 (cut)",
+     "dropped": "The boundary is simple:"
+    },
+    {
+     "label": "P17 (cut)",
+     "dropped": "“Nothing suppressed” describes my relationship"
+    },
+    {
+     "label": "R16 · yours, plus your answer 13",
+     "article": "It should go without saying that nobody",
+     "source": [
+      "Medicine is optional."
+     ],
+     "beside": {
+      "label": "Your words, 2026-10-11 23:12 UTC (13)",
+      "text": "you are misunderstanding tho, the bar is not higher. i'm saying they won't fit it in if they don't follow the processes of the community. and if that gets to the point of impossible to live with, they will be kicked out. but naerly always they will leave way before they get kicked out, if they don't fit in. Of course, we should specify that they will not be demonized for not trying to fit in, they will be offered compassion, but ultimately it is up to them if they want to fit in and follow the communal processes. And in some cases perhaps the community will make exceptions for some people, like if they are actually sick and need care, maybe kicking them out would be like a death sentence. it depends on so many factors, i can't decide anything, it's up to the people involved."
+     }
+    },
+    {
+     "label": "R16d · your answer 13, my wording",
+     "article": "They should not be demonized for not trying to fit in",
+     "source": [],
+     "beside": {
+      "label": "Your words, 2026-10-11 23:12 UTC (13)",
+      "text": "you are misunderstanding tho, the bar is not higher. i'm saying they won't fit it in if they don't follow the processes of the community. and if that gets to the point of impossible to live with, they will be kicked out. but naerly always they will leave way before they get kicked out, if they don't fit in. Of course, we should specify that they will not be demonized for not trying to fit in, they will be offered compassion, but ultimately it is up to them if they want to fit in and follow the communal processes. And in some cases perhaps the community will make exceptions for some people, like if they are actually sick and need care, maybe kicking them out would be like a death sentence. it depends on so many factors, i can't decide anything, it's up to the people involved."
+     }
+    },
+    {
+     "label": "R17 · yours",
+     "article": "No single person or permanent group of people should handle",
+     "source": [
+      "“Your resistance is your wound talking”"
+     ]
+    },
+    {
+     "label": "R18 · yours",
+     "article": "There are some basic human rights",
+     "source": [
+      "There is also a floor the majority"
+     ]
+    },
+    {
+     "label": "R18b · your answer 12, my wording",
+     "article": "It can be tricky to spell everything out",
+     "source": [],
+     "beside": {
+      "label": "Your words, 2026-10-11 23:12 UTC (12)",
+      "text": "well this can be tricky to spell everything out... let's say a grandmother is demonizing the commune. cutting contact with her could make things way worse. i think the commune needs to intervene and help people decide on how to communicate with outsiders when it's tricky and dangerous for everyone like this. that's not advice I or anyone else can give now, it's in the moment, context by context."
+     }
+    },
+    {
+     "label": "R19 · yours",
+     "article": "If your human rights are unfairly stripped",
+     "source": [
+      {
+       "quote": "A majority vote does not make deprivation consensual.",
+       "from": "P20"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

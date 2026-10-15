@@ -13,8 +13,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 C = os.path.dirname(HERE)
 sys.argv, out_path = [sys.argv[0]], sys.argv[1]
 exec(open(os.path.join(HERE, 'parse_preds.py')).read().split('for f in sorted(glob.glob')[0])  # norm_pred, norm_res
+# parse_preds.py sets C to the old lane's checkout path; this folder's parent is the candidate folder wherever it's
+# checked out (2026-10-14: after the move to articles/intentional-communities/, the scorecard found 0 calls).
+C = os.path.dirname(HERE)
 rows = []
 files = sorted(glob.glob(C + '/s*/PREDICTIONS-*.md')) + sorted(glob.glob(C + '/s*/*/PREDICTIONS-*.md'))
+files += sorted(glob.glob(C + '/fix-*/PREDICTIONS-scored.md'))  # 2026-10-14 on: fix_preds.py's rows
 for f in files:
     sec = os.path.relpath(f, C).split('/')[0]
     lines = open(f, encoding='utf-8').read().split('\n')

@@ -1,0 +1,647 @@
+{
+ "J12-P2": {
+  "kind": "owner",
+  "joel": "2026-10-14 03:04 UTC, W1: \"i prefer this version\""
+ },
+ "J12-P3": {
+  "kind": "owner",
+  "joel": "2026-10-14 03:04 UTC, W1: \"i prefer this version\""
+ },
+ "J12-P2P3": {
+  "kind": "owner",
+  "joel": "2026-10-14 03:04 UTC, W1: \"i prefer this version\" (his pair)"
+ },
+ "S12v13": {
+  "kind": "owner",
+  "joel": "section 12 v13 is all his text: his rewrite of 2026-10-13 21:00 UTC with his W1 P2 and P3 of 2026-10-14 03:04 UTC. Its in-section repeats (fix-20261014/repeats/REPEATS-s12.md) are all in his words; my reading of each is in REPEATS-DISPOSITIONS.md, and #46 is a question for him."
+ },
+ "J2-P38": {
+  "kind": "owner",
+  "joel": "his rewrite of 2026-10-01 14:49 UTC with his F4 sentence of 2026-10-14 03:04 UTC"
+ },
+ "J2-P39": {
+  "kind": "owner",
+  "joel": "his rewrite of 2026-10-01 with his F6 clause of 2026-10-14 03:04 UTC"
+ },
+ "S2v32": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "J2-P38",
+   "J2-P39"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md: no in-section repeat to fix; the three listed are development or contrast"
+ },
+ "E-S3P4f": {
+  "kind": "edit",
+  "was": "section 3 v11 (2026-10-02): every paragraph 100% Human alone or with a neighbor that passes alone; the section 100% Human",
+  "march": [
+   "S S S"
+  ],
+  "march_was": [
+   "S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt (installed versions)",
+  "cold": "OK",
+  "cold_note": "SENSE-s3 and SENSE2-s3: OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T1 OK",
+  "stance": 0,
+  "stance_note": "gate/STANCE.md, STANCE2.md: no conflict from the edit",
+  "lint": "CLEAR",
+  "missing": []
+ },
+ "E-S3P10f": {
+  "kind": "edit",
+  "was": "section 3 v11 (2026-10-02): every paragraph 100% Human alone or with a neighbor; the section 100% Human",
+  "march": [
+   "S S S"
+  ],
+  "march_was": [
+   "S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt (installed versions)",
+  "cold": "OK",
+  "cold_note": "SENSE2-s3: OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T6 OK",
+  "stance": 0,
+  "stance_note": "gate/STANCE.md, STANCE2.md: no conflict from the edit",
+  "lint": "CLEAR",
+  "missing": []
+ },
+ "E-S4I1": {
+  "kind": "edit",
+  "was": "section 4 v11, Joel's final section of 2026-10-13 (\"human on pangram\", his check)",
+  "march": [
+   "S S B"
+  ],
+  "march_was": [
+   "S S B"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt (installed versions)",
+  "cold": "OK",
+  "cold_note": "SENSE2-s4: OK (SENSE-s4 flagged only his own third sentence, which the edit doesn't touch)",
+  "grounding": "OK",
+  "grounding_note": "no trace: the edit names the referent his I1 answer asked for; his F8 ruling keeps the stance",
+  "stance": 0,
+  "stance_note": "gate/STANCE.md, STANCE2.md: no conflict from the edit (S4I1: the somatic-first order is his F8 ruling, \"You meant it\")",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with the paragraph before it (his, unchanged)"
+ },
+ "E-S7P6f": {
+  "kind": "edit",
+  "was": "section 7 v3 (2026-10-07): the section 100% Human (01:47 UTC), its paragraphs checked in earlier versions",
+  "march": [
+   "S S S S"
+  ],
+  "march_was": [
+   "S S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt (installed versions)",
+  "cold": "OK",
+  "cold_note": "SENSE-s7: OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T1 OK (the gloss is sourced: SOURCES.md)",
+  "stance": 0,
+  "stance_note": "gate/STANCE.md, STANCE2.md: no conflict from the edit",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S9P2f": {
+  "kind": "edit",
+  "was": "section 9 v14 (2026-10-09), 100% Human as a section; its paragraphs checked alone",
+  "march": [
+   "B B B"
+  ],
+  "march_was": [
+   "B B B"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt (installed versions)",
+  "cold": "OK",
+  "cold_note": "SENSE-s9: OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T3 OK (gloss sourced)",
+  "stance": 0,
+  "stance_note": "gate/STANCE.md, STANCE2.md: no conflict from the edit",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S9P18f": {
+  "kind": "edit",
+  "was": "section 9 v14 (2026-10-09), 100% Human as a section; its paragraphs checked alone",
+  "march": [
+   "S S S S"
+  ],
+  "march_was": [
+   "S S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt (installed versions)",
+  "cold": "OK",
+  "cold_note": "SENSE-s9: OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T3 OK",
+  "stance": 0,
+  "stance_note": "gate/STANCE.md, STANCE2.md: no conflict from the edit",
+  "lint": "CLEAR",
+  "missing": []
+ },
+ "E-S10P9f": {
+  "kind": "edit",
+  "was": "section 10 v2 (2026-10-10), 100% Human as a section; its paragraphs checked alone",
+  "march": [
+   "S S S S S S"
+  ],
+  "march_was": [
+   "S S S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt (installed versions)",
+  "cold": "OK",
+  "cold_note": "SENSE-s10: OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T4 OK",
+  "stance": 0,
+  "stance_note": "gate/STANCE.md, STANCE2.md: no conflict from the edit",
+  "lint": "CLEAR",
+  "missing": []
+ },
+ "S3v12": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S3P4f",
+   "E-S3P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "S4v111": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S4I1"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "S7v4": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S7P6f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "S9v15": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S9P2f",
+   "E-S9P18f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "S10v3": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S10P9f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "E-S6P8f": {
+  "kind": "edit",
+  "was": "section 6 v21 (2026-10-07): the section 100% Human (637 words); its paragraphs checked alone",
+  "march": [
+   "B B"
+  ],
+  "march_was": [
+   "B B"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s6 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T9 OK",
+  "stance": 0,
+  "stance_note": "STANCE2: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S8P10f": {
+  "kind": "edit",
+  "was": "section 8 v28 (2026-10-07): 100% Human as a section (146g); its paragraphs checked alone",
+  "march": [
+   "B"
+  ],
+  "march_was": [
+   "B"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s8 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T2 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with the paragraph before it"
+ },
+ "E-S8P12f": {
+  "kind": "edit",
+  "was": "section 8 v28 (146g)",
+  "march": [
+   "S S S"
+  ],
+  "march_was": [
+   "S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s8 OK",
+  "grounding": "OK",
+  "grounding_note": "OK: TRACE-T2's one finding is the added \"she lived with\", a sourced fact (SOURCES.md: Wikipedia, Jean Liedloff)",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S8P20f": {
+  "kind": "edit",
+  "was": "section 8 v28 (146g)",
+  "march": [
+   "S S S"
+  ],
+  "march_was": [
+   "S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s8 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T9 OK",
+  "stance": 0,
+  "stance_note": "STANCE2: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S8P23f": {
+  "kind": "edit",
+  "was": "section 8 v28 (146g)",
+  "march": [
+   "S S S S"
+  ],
+  "march_was": [
+   "S S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s8 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T7 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S8P26f": {
+  "kind": "edit",
+  "was": "section 8 v28 (146g)",
+  "march": [
+   "S S S S S S S"
+  ],
+  "march_was": [
+   "S S S S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s8 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T9 OK (facts sourced: SOURCES.md)",
+  "stance": 0,
+  "stance_note": "STANCE2: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S11P2f": {
+  "kind": "edit",
+  "was": "section 11 v13 (2026-10-12): 100% Human as a section (267g); its paragraphs checked alone",
+  "march": [
+   "S S"
+  ],
+  "march_was": [
+   "S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE-s11 OK (this wording), SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T4 OK",
+  "stance": 0,
+  "stance_note": "STANCE #7 asked whether the definition covers his rule on his own land before critical mass; his own P13 says founderism is \"especially so ... as I'm describing may happen in my case\", so no conflict with his position; the definition goes to him as a question",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with the paragraph before it"
+ },
+ "E-S11P4f": {
+  "kind": "edit",
+  "was": "section 11 v13 (267g)",
+  "march": [
+   "S S S S S S S S S S S S"
+  ],
+  "march_was": [
+   "S S S S S S S S S S S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T8 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S11P6f": {
+  "kind": "edit",
+  "was": "section 11 v13 (267g); the one-line lead-in was checked with the four questions after it",
+  "march": [
+   "S S"
+  ],
+  "march_was": [
+   "-"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T4 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with the four questions and the paragraph after them"
+ },
+ "E-S11P9f": {
+  "kind": "edit",
+  "was": "section 11 v13 (267g)",
+  "march": [
+   "S S"
+  ],
+  "march_was": [
+   "S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T8 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S11P10f": {
+  "kind": "edit",
+  "was": "section 11 v13 (267g)",
+  "march": [
+   "S S S S S S S"
+  ],
+  "march_was": [
+   "S S S S S S S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T5 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "E-S8F10": {
+  "kind": "edit",
+  "was": "section 8 v28 (146g)",
+  "march": [
+   "S S S B S S S S S S"
+  ],
+  "march_was": [
+   "S S S B S S S S S S"
+  ],
+  "cold": "OK",
+  "cold_note": "SENSE3-s8 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T3 OK",
+  "stance": 0,
+  "stance_note": "STANCE conflicts 4 and 5 are his own sentences (his F9 answer: \"You meant it\")",
+  "lint": "CLEAR",
+  "missing": []
+ },
+ "S6v22": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S6P8f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "S8v29": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S8P10f",
+   "E-S8P12f",
+   "E-S8P20f",
+   "E-S8P23f",
+   "E-S8F10",
+   "E-S8P26f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "S11v14": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P2f",
+   "E-S11P4f",
+   "E-S11P6f",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "J4-orig-pair": {
+  "kind": "owner",
+  "joel": "his section 4 v11 of 2026-10-13 21:00 UTC, as he gave it: the reparenting paragraph and \"And it's built on somatic regulation first. ...\" (a control for E-S4I1)"
+ },
+ "J4-reparent": {
+  "kind": "owner",
+  "joel": "his section 4 v11 reparenting paragraph, as he gave it (a control)"
+ },
+ "E-S10P9fA": {
+  "kind": "edit",
+  "was": "section 10 v2 (2026-10-10): P8x passed alone (197g) and the section 100% Human (200g)",
+  "march": [
+   "S S S S S"
+  ],
+  "march_was": [
+   "S S S S S"
+  ],
+  "march_note": "gate/MARCH4-labels.txt; MARCH2-labels.txt T34 for the installed version",
+  "cold": "OK",
+  "cold_note": "SENSE4-s10A OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T11 OK",
+  "stance": 0,
+  "stance_note": "STANCE4: no conflict for wording A",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "S10v3A": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S10P9fA"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "C-S11P12": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "note": "control: the installed P1 and P2 (section 11 v13), re-checked"
+ },
+ "E-S11P2f-b": {
+  "kind": "edit",
+  "was": "section 11 v13 (2026-10-12): 100% Human as a section (267g); its paragraphs checked alone",
+  "march": [
+   "S S"
+  ],
+  "march_was": [
+   "S"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE-s11 OK (this wording), SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T4 OK",
+  "stance": 0,
+  "stance_note": "STANCE #7 asked whether the definition covers his rule on his own land before critical mass; his own P13 says founderism is \"especially so ... as I'm describing may happen in my case\", so no conflict with his position; the definition goes to him as a question",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with the paragraph after it (P3, unchanged)"
+ },
+ "C-S11P23": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "note": "control: the installed P2 and P3, re-checked"
+ },
+ "E-S11P6f-b": {
+  "kind": "edit",
+  "was": "section 11 v13 (267g); the one-line lead-in was checked with the four questions after it",
+  "march": [
+   "S S"
+  ],
+  "march_was": [
+   "-"
+  ],
+  "march_note": "gate/MARCH-labels.txt, MARCH2-labels.txt, MARCH3-labels.txt",
+  "cold": "OK",
+  "cold_note": "SENSE3-s11 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T4 OK",
+  "stance": 0,
+  "stance_note": "STANCE: no conflict",
+  "lint": "REVIEW",
+  "missing": [],
+  "note": "under 50 words, so with P5 before it and the four questions after it"
+ },
+ "C-S11P8": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "note": "control: the installed P8 alone, re-checked"
+ },
+ "E-S11P4f-V2": {
+  "kind": "edit",
+  "was": "section 11 v13 (2026-10-12): 100% Human as a section (267g); P4 checked alone",
+  "march": [
+   "S S S S S S S S S S S S"
+  ],
+  "march_was": [
+   "S S S S S S S S S S S S S"
+  ],
+  "march_note": "gate/MARCH5-labels.txt; MARCH2-labels.txt T36",
+  "cold": "OK",
+  "cold_note": "SENSE5-s11V2: P1 to P25 OK",
+  "grounding": "OK",
+  "grounding_note": "TRACE-T12 NEEDS FIX on two items, both answered: (3) \"can it replace the founder\" is the E172 cut (the four questions ask it three paragraphs later; listed for Joel as a proposal); (5) \"the method's\" was accepted by TRACE-T8 (\"anchored by judge the method by results\")",
+  "stance": "same claims as E-S11P4f",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "S11v14-V2": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P2f-b",
+   "E-S11P4f-V2",
+   "E-S11P6f-b",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ },
+ "S11v14-b": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P2f-b",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md; with P4 as installed, the E172 repeat of \"Can it replace the founder?\" stays and goes to Joel"
+ },
+ "S11v14-c": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "P4 as installed keeps the E172 repeat; it goes to Joel"
+ },
+ "S11v14-f": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "E-S11P4f-V2",
+   "E-S11P6f-b",
+   "E-S11P9f",
+   "E-S11P10f"
+  ],
+  "repeats": 0,
+  "repeats_note": "repeats/REPEATS-DISPOSITIONS.md"
+ }
+}

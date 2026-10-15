@@ -18,7 +18,9 @@ GATE.json holds each key's gate record:
            "grounding": "same claims as P1", "stance": "same claims as P1"},
    "P1c": {"kind": "draft", ..., "missing": ["the tribes' predictable reactions"], "probe": true},
    "J4":  {"kind": "owner", "joel": "2026-10-12 03:13 UTC: ..."},
-   "h2":  {"kind": "section", "parts": ["P1", "installed"], "repeats": 0}}
+   "h2":  {"kind": "section", "parts": ["P1", "installed"], "repeats": 0},
+   "P7e": {"kind": "edit", "was": "batch 267g: P7 alone, 100% Human", "march_was": ["S S S"], "march": ["S S S"],
+           "cold": "OK", "grounding": "OK", "stance": 0, "lint": "REVIEW", "missing": []}}
 
 A draft goes to Pangram only with a march read that has a break in every reading, a cold read with
 every sentence OK, a clean grounding, a stance check with no conflicts, a linter verdict that isn't
@@ -31,6 +33,15 @@ owner text is Joel's own words, which the march doesn't block. A section passes 
 parts does ("installed" for paragraphs already in the article) and the assembled section has had a repeats
 check ("repeats": 0 once every repeat inside it is fixed or answered; E172, Joel 2026-10-13: "duplication is
 very AI").
+
+An edit (E173, 2026-10-14) is a fix of a few words in a paragraph that is already in the article after its
+own Pangram pass ("was" says where). It needs everything a draft needs except that its march is read against
+the installed version's ("march_was"): it is blocked when the installed version had a break and the edit has
+none, since then the fix made the march. A paragraph that passed without a break keeps its structure through a
+fix of a few words, and Pangram is the test of it. Why: on 2026-10-14 the march read labeled 15 of the 20
+paragraphs that the sweep's fixes changed with no break, and their installed versions got the same labels,
+though each of those had read Human alone and in its section; the draft rule would have had every one of them
+rewritten to add a break.
 
 Why (turn 48, 2026-10-12): in the web app the batch was a script I wrote by hand each time, so nothing
 stopped a call. Round 1's draft went to Pangram with a march of S S S and read 100% AI; later drafts
@@ -77,16 +88,26 @@ def problems(key, gate, seen=()):
             if p != 'installed' and p not in seen:
                 out += ['part %s: %s' % (p, q) for q in problems(p, gate, seen + (key,))]
         return out
-    if kind != 'draft':
-        return ['kind must be draft, owner or section, not %r' % (kind,)]
+    if kind not in ('draft', 'edit'):
+        return ['kind must be draft, edit, owner or section, not %r' % (kind,)]
     out = []
     march = g.get('march') or []
     if not march:
         out.append('no march read (the march blocks the call)')
-    for m in march:
-        if 'B' not in m.split():
-            out.append('the march blocks the call: %r has no break. Break it where a person would react, '
-                       'pause, allow something or wonder what it feels like (E131)' % m)
+    if kind == 'edit':
+        if not g.get('was'):
+            out.append("an edit needs 'was': where the installed version it changes passed Pangram (E173)")
+        was = g.get('march_was') or []
+        if not was:
+            out.append("an edit needs 'march_was': the march read of the installed version (E173)")
+        elif march and any('B' in m.split() for m in was) and not all('B' in m.split() for m in march):
+            out.append('the march blocks the call: the installed version had a break (%r) and the edit has none (%r). '
+                       'The fix made the march; put the break back (E131, E173)' % (was, march))
+    else:
+        for m in march:
+            if 'B' not in m.split():
+                out.append('the march blocks the call: %r has no break. Break it where a person would react, '
+                           'pause, allow something or wonder what it feels like (E131)' % m)
     missing = g.get('missing')
     if missing is None:
         out.append("no 'missing' list: the guide points the draft leaves out ([] when it carries them all; E168)")

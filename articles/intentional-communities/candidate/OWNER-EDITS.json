@@ -27,14 +27,13 @@
   },
   {
    "id": "s2-c10",
-   "what": "Section 2: Joel's own rewrite of the paragraph on what communal ownership needs (2026-10-01 14:49), with one spelling fix, \"leaching\" to \"leeching\" [in the section 2 v3 candidate]",
+   "what": "Section 2: Joel's own rewrite of the paragraph on what communal ownership needs (2026-10-01 14:49), with one spelling fix, \"leaching\" to \"leeching\" [in the section 2 v3 candidate] (2026-10-14: his F4 sentence replaces its last sentence; entry s2-joel-20261014-f4 checks it.)",
    "status": "applied",
    "joel": "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leaching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or try to act helpless.",
    "must_contain": [
     "Communal ownership entails folks taking on visible and named stewardship duties.",
     "if someone is leeching off the group and how to deal with it",
-    "It requires developing healthier forms of relationships.",
-    "No, taking away the idea of a boss does not make everyone less passive, selfish, steal less,"
+    "It requires developing healthier forms of relationships."
    ]
   },
   {
@@ -111,22 +110,26 @@
   {
    "id": "s2-c10-fix",
    "what": "Section 2, P10: \"or stop trying to act helpless\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
-   "status": "applied",
+   "status": "superseded",
    "must_contain": [
     "or stop trying to act helpless"
    ],
    "must_not_contain": [
     "or try to act helpless"
-   ]
+   ],
+   "superseded_by": "s2-joel-20261014-f4",
+   "words": "proposed"
   },
   {
    "id": "s2-c11b",
    "what": "Section 2, P11: Joel's paragraph with \"why earlier communes failed\" and \"the group runs out of money\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
-   "status": "applied",
+   "status": "superseded",
    "must_contain": [
     "People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something.",
     "They just know they are tired and alone and want to change it."
-   ]
+   ],
+   "superseded_by": "s2-joel-20261014-f6",
+   "words": "proposed"
   },
   {
    "id": "s3-p4",
@@ -258,7 +261,7 @@
   },
   {
    "id": "s4-p12",
-   "what": "Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate]",
+   "what": "Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate] (2026-10-14: Joel's I1 answer says the \"it\" of \"And it's built on\" is unclear, so it names inner pl/ork now; entry s4-joel-20261014-i1 checks it.)",
    "status": "applied",
    "joel": "And it's built on somatic regulation first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.",
    "must_contain": [
@@ -266,7 +269,6 @@
     "symbolizes the adult/child relationship to me in some way as well."
    ],
    "must_contain_exact": [
-    "And it's built on",
     "the body's feelings"
    ]
   },
@@ -650,15 +652,15 @@
   },
   {
    "id": "s11-joel-20261011-1835",
-   "what": "Section 11: Joel's message of 2026-10-11 18:35 UTC. \"willing to be seen\" cut (his 4: \"this is redundant, i cut it\"). His article version of the land paragraph (J1 to J3: founderism in communities that form naturally, the probation reversal, the marriage analogy) replaces P10j; P10 and J1 to J3 move to the end of the first subsection \"so it flows correctly\". His rewrite of the whole second subsection: R14 to R19 replace P14 to P20 (P13 unchanged). Typos fixed only: \"ends by up treating\" to \"ends up treating\" (R14), a leading space; his characters kept as typed, double spaces included. [applied: section 11 v11, 2026-10-11] 2026-10-12: J3 is checked in two parts around the sentence added from his 23:12 answer (\"you can mention it's the divorce half\").",
+   "what": "Section 11: Joel's message of 2026-10-11 18:35 UTC. \"willing to be seen\" cut (his 4: \"this is redundant, i cut it\"). His article version of the land paragraph (J1 to J3: founderism in communities that form naturally, the probation reversal, the marriage analogy) replaces P10j; P10 and J1 to J3 move to the end of the first subsection \"so it flows correctly\". His rewrite of the whole second subsection: R14 to R19 replace P14 to P20 (P13 unchanged). Typos fixed only: \"ends by up treating\" to \"ends up treating\" (R14), a leading space; his characters kept as typed, double spaces included. [applied: section 11 v11, 2026-10-11] 2026-10-12: J3 is checked in two parts around the sentence added from his 23:12 answer (\"you can mention it's the divorce half\"). (2026-10-14 21:19: J3 with single spaces, as in his paste of section 11; R15 without \"There are pros and cons to each extreme, and again, a living balance must be struck.\" (his 26); entry s11-joel-20261014-2119 checks both.)",
    "status": "applied",
    "joel": "4 this is redundant, i cut it | 8. before critical mass, my rules apply, because it's my land ... you can't just take what i say to you and publish it. it has to make sense in context. I'd put it in as: [J1 to J3] ... and we need to put that after P10, but we need to move P10 + that to the end of the section so it flows correctly. | p15, you can' tsay \"required as pre-reqs\" that's redundant ... i rewrote this whole section: [P13, R14 to R19]",
    "must_contain_exact": [
     "While founderism is a problem in every community, it's especially so in communities which form naturally over time as I'm describing may happen in my case. In such cases, there's no formal community and no formal rules until people decide to come together to make them. It doesn't make sense to do that at first, if, say, I'm the only one there and I don't know who else will be there that I could trust. If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community.\"",
     "If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. But if we are all starting together from scratch, then we would all be at an equal probationary level with each other.",
-    "It's a bit like the process of getting married. At first, you visit your girlfriend or boyfriend when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a fully unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that's also contentious depending on how long the marriage was for, whether one person feels tricked, etc,  and unfortunately often ends up in court.  ",
+    "It's a bit like the process of getting married. At first, you visit your girlfriend or boyfriend when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a fully unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that's also contentious depending on how long the marriage was for, whether one person feels tricked, etc, and unfortunately often ends up in court. ",
     "When joining or forming a commune, we can hopefully be more conscious about the process and less romantic.",
-    "Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that's fine. Some communities will be stricter gatekeepers, and others will be more lax. There are pros and cons to each extreme, and again, a living balance must be struck.",
+    "Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that's fine. Some communities will be stricter gatekeepers, and others will be more lax.",
     "It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point.",
     "No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community. Each person should have a usable avenue for exit. Dissent is important for growth. That doesn't mean everything everyone says is equally valid, though. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that's as much a failure, if not more so.",
     "There are some basic human rights that can’t be voted away from you by the majority in a community, unless it's a question of resource availability as a whole. If safety and the conditions for health can be provided, it should be provided. People should be able to maintain relationships with others outside the community, as long as those relationships don't interfere with the community as a whole (for example, you can't bring your boyfriend to live with you if he's not only not a member of the community, but also antagonistic towards it).",
@@ -702,14 +704,14 @@
   },
   {
    "id": "s12-joel-20261012-0533",
-   "what": "Section 12, Joel's message of 2026-10-12 05:33 UTC: answers 17b and 18b; P3, P7 and P16 back to the guide's text, because my versions broke their meaning (P3 lost \"for community\", P7 became \"But it's not infinite.\", P16 lost \"this language of capacity\", \"capacity\" and \"remains\"); his own last sentence for P16, which names the power; P22 out of parentheses (\"that's 2 parentheticals in a row\"). Page numbering: the chart is P5. (2026-10-12 17:23: his own P16 replaces the guide's first sentence; see s12-joel-20261012-1723.) (2026-10-13 21:00: his own rewrite of section 12 changed three of these strings, the Maxi Pad line, \"dangerously tilted towards elitism\" and the cut eight-versus-eighty paragraph; entry s12-joel-20261013-2100 checks the new text, and the rest of this entry still holds.)",
+   "what": "Section 12, Joel's message of 2026-10-12 05:33 UTC: answers 17b and 18b; P3, P7 and P16 back to the guide's text, because my versions broke their meaning (P3 lost \"for community\", P7 became \"But it's not infinite.\", P16 lost \"this language of capacity\", \"capacity\" and \"remains\"); his own last sentence for P16, which names the power; P22 out of parentheses (\"that's 2 parentheticals in a row\"). Page numbering: the chart is P5. (2026-10-12 17:23: his own P16 replaces the guide's first sentence; see s12-joel-20261012-1723.) (2026-10-13 21:00: his own rewrite of section 12 changed three of these strings, the Maxi Pad line, \"dangerously tilted towards elitism\" and the cut eight-versus-eighty paragraph; entry s12-joel-20261013-2100 checks the new text, and the rest of this entry still holds.) (2026-10-14: his W1 P3 keeps \"for community\" in his own characters: \"aren't \"good enough\" for community\".)",
    "status": "applied",
    "joel": "17b 18b ... p3 got b roken because you changed \"\"good enough\" for community to \"good enough\" and i'm not understand anymore what they are good enough for. then you broke p7 by reducing it to \"but it's not infinite\" ? what? p16 also broke the meaning on the first sentence. it's not about \"i don't have the capacity to\" it's literalyl exactly what the guide said... and then broke again when it changed \"pretending capacity is unlimited\" to \"pretending 'it' is unlimited\" ... it referring to what? unclear. and broke again with last sentence too, you can't just remove \"remains\" and keep the same meaning. and even the original guide is confusing, what power? say \" Even then, the power to veto membership applications based on capacity remains dangerous.\" revert those to guide exactly. debug the error so it doesn't happen again (that shoudl go without saying of course). you can't put p22 into parentheses... that's 2 parentheticals in a row... continue",
    "must_contain": [
-    "So the question isn’t whether a person is “good enough” for community.",
     "Pretending capacity is unlimited won’t solve that.",
     "review by someone who wasn’t part of the decision",
-    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate,"
+    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate,",
+    "\"good enough\" for community"
    ],
    "must_not_contain": [
     "But it’s not infinite.",
@@ -748,13 +750,13 @@
   },
   {
    "id": "s4-joel-20261013-2100",
-   "what": "Section 4: Joel's final section from his message of 2026-10-13 21:00 UTC (\"here is the final section (human on pangram)\"), as written. It moves the pl/ork definition and the leaking paragraph up under the four-parts heading, rewrites the old P3 (\"And let's face it: ... That's more like a situationship.\"), renames \"One principle runs through all of them\" to \"Founded on Freedom\" (P1 less individualistic: \"our practices weave the community into the quilt\"), opens inner pl/ork with reparenting, rewrites the listener paragraph, merges the jealousy lines with the Romance Guide, makes medicine pl/ork and the container open with full sentences, gives his reason for less money, and puts back that the container gives the first three a stable place. Obvious typos fixed; the struck published words in his P8 taken out (his own cut, s4-p13).",
+   "what": "Section 4: Joel's final section from his message of 2026-10-13 21:00 UTC (\"here is the final section (human on pangram)\"), as written. It moves the pl/ork definition and the leaking paragraph up under the four-parts heading, rewrites the old P3 (\"And let's face it: ... That's more like a situationship.\"), renames \"One principle runs through all of them\" to \"Founded on Freedom\" (P1 less individualistic: \"our practices weave the community into the quilt\"), opens inner pl/ork with reparenting, rewrites the listener paragraph, merges the jealousy lines with the Romance Guide, makes medicine pl/ork and the container open with full sentences, gives his reason for less money, and puts back that the container gives the first three a stable place. Obvious typos fixed; the struck published words in his P8 taken out (his own cut, s4-p13). (2026-10-14 21:19: without \"and don't freeze into doctrine\", his 26; entry s4-joel-20261014-2119 checks it.)",
    "status": "applied",
    "joel": "p4-p3 is terrible ... the heading also doesn't make sense with the first para ... here is the final section (human on pangram), try to learn lessons and see what you could have figured out yourself",
    "must_contain": [
     "These four parts leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.",
     "And let's face it: food, housing, and logistics are not enough reason to bind whole lives together. That's more like a situationship. A community needs a shared sacred inner practice that gives the difficulty of our life together a deeper meaning. We help each other heal and choose love over fear. And we turn outward with a purpose, using the escuelita model to bring our healing to the world.",
-    "Nothing suppressed, everything processed. Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic, and don't freeze into doctrine.",
+    "Nothing suppressed, everything processed. Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic.",
     "Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.",
     "Probably the most obvious type of pl/ork is reparenting. Here’s an example: you teach your inner child geography, while s/he teaches you the world is a cat!",
     "But since we're merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn't translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you're ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.",
@@ -779,11 +781,10 @@
   },
   {
    "id": "s12-joel-20261013-2100",
-   "what": "Section 12: Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written: \"like a Heavy Flow Maxi Pad\", \"in different ratios\", the eight-versus-eighty paragraph cut and its point folded into \"Once there are 80 members ...\", \"a difficult catch-22 for fledgling groups\", \"dangerously tilted towards elitism\", \"submit it to yourself\", and the crisis item folded into the first item with \"free resource calculator\". Trailing spaces taken out; links and the italics on \"right now\" back.",
+   "what": "Section 12: Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written: \"like a Heavy Flow Maxi Pad\", \"in different ratios\", the eight-versus-eighty paragraph cut and its point folded into \"Once there are 80 members ...\", \"a difficult catch-22 for fledgling groups\", \"dangerously tilted towards elitism\", \"submit it to yourself\", and the crisis item folded into the first item with \"free resource calculator\". Trailing spaces taken out; links and the italics on \"right now\" back. (2026-10-14: his P3 of his W1 answer replaces this P3; entry s12-joel-20261014-w1 checks it.)",
    "status": "applied",
    "joel": "then section 12 i rewrote a bit, still passes pangram fully",
    "must_contain": [
-    "So the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. Consider how much attention they currently have available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.",
     "That does not make the community infinitely absorbent like a Heavy Flow Maxi Pad.",
     "Everyone has a certain amount of both in different ratios.",
     "And that also brings us to a difficult catch-22 for fledgling groups. The need for new members in a small community is greater, but the ability of that community to absorb disruption is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids. And the water system has to keep working. The water well doesn’t care how beautiful the new member’s heart is.",
@@ -797,6 +798,163 @@
     "The problem is that, in a group of eight people",
     "and the ratio varies",
     "(A founding group shouldn’t pretend it can give you those.)"
+   ]
+  },
+  {
+   "id": "s2-joel-20261014-f4",
+   "status": "applied",
+   "what": "Section 2, The Freeloader Problem: F4 \"Fix it\", his sentence as written.",
+   "joel": "F4: Fix it (replace with \"No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.\")",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness."
+   ],
+   "must_not_contain": [
+    "or stop trying to act helpless",
+    "steal less"
+   ]
+  },
+  {
+   "id": "s2-joel-20261014-f6",
+   "status": "applied",
+   "what": "Section 2, the next paragraph: F6 \"Fix it\", his clause as written (\"jealousy rears its head\" for \"someone thinks they own something\").",
+   "joel": "F6: Fix it (original didn't make sense, why would children make the land beauty less relevant? / but my fix also was redundant with owning. change to: / they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or jealousy rears its head.)",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or jealousy rears its head.",
+    "They just know they are tired and alone and want to change it."
+   ],
+   "must_not_contain": [
+    "someone thinks they own something"
+   ]
+  },
+  {
+   "id": "s4-joel-20261014-i1",
+   "status": "applied",
+   "what": "Section 4, Inner pl/ork: I1 \"Unclear\" for his \"And it's built on somatic regulation first.\" The sentence names the subsection's subject, inner pl/ork, now (reparenting, the other candidate, pulled against section 5 in the stance check of 2026-10-14).",
+   "joel": "I1: Unclear",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "And inner pl/ork is built on"
+   ],
+   "must_not_contain": [
+    "And it's built on"
+   ]
+  },
+  {
+   "id": "s8-joel-20261014-f10",
+   "status": "applied",
+   "what": "Section 8, Children Need Freedom Inside Real Protection, P18's last sentence: F10 \"Fix it (revert to yours)\": my v22 sentence back, with his \"what happened\" for its \"it\".",
+   "joel": "F10: Fix it (revert to yours)",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "A scared or confused kid may get mixed up telling what happened and still need protection."
+   ],
+   "must_not_contain": [
+    "and that's to be expected"
+   ]
+  },
+  {
+   "id": "s12-joel-20261014-w1",
+   "status": "applied",
+   "what": "Section 12, P2 and P3: his W1 versions (\"i prefer this version\"), as written.",
+   "joel": "the last part of the 1st para is that cute, wry and tidy ai quip ... so now looking at that, yeah, 2nd para doesn't follow the first, so pangram is right to flag it ... i prefer this version:",
+   "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
+   "must_contain": [
+    "This doesn't surprise me, since we're taught to put on a show of competence in modern society. We're given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got.",
+    "So then a lot of people end up thinking they aren't \"good enough\" for community, or getting labeled by others that way. And there's a real issue there, but it's more about what fits where & when than good or bad. The community needs to consider how much attention the newcomer currently has available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation."
+   ],
+   "must_not_contain": [
+    "appointing a subcommittee",
+    "We have been encouraged by our institutions",
+    "Rather, whether the fit is right."
+   ]
+  },
+  {
+   "id": "s11-joel-20261014-2119",
+   "status": "applied",
+   "what": "Section 11, \"Founderism: The Four Questions\" through \"Friends who come to visit\": his own text of 21:19 UTC, as pasted (P2's definition, his P3 and P4, my P6 lead-in, P8's \"the people who review the founder\"); and R15 without its \"living balance\" sentence (his 26).",
+   "joel": "22 no, founderism isn't my term, it's in the commune literature ... 23 section 11  i fixed it, pasted.passes pangram. lmk if i overlooked anything, there was too much stuff in that p4 tho | P6: ok good use yours | P8 agree | 26 ... sect 11: agree agree",
+   "when": "2026-10-14 21:19 UTC, his answers to questions 22 to 26 (joel-20261014-2119/)",
+   "must_contain_exact": [
+    "In every community there was somebody who took the initiative to get it started. Somebody found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest.",
+    "That person ends up with real influence, and pretending they don't just makes that influence harder to look at. When that power fails to get distributed as the conditions ripen for that, it's called founderism.",
+    "I've seen founderism in many communes that I've visited, and I can see it playing out if I were to be a founder as well. I've got all these proposals and visions here in my guides, and so it would be very easy for me to become the person who decides whether or not everyone else “understood” them correctly, even while I wish to remain humble and open to the input of all involved.",
+    "A few things help keep that in check. One is to judge the method by results people can actually see. Will they see the members safely flourishing without being trapped? Can conflicts get resolved? Are the kids doing well once they grow up? When the method gets a prediction wrong, can the community say so and change course? And if the community is meant to spread, do new projects actually start up and last? Those questions seem more important to me than how big or old the commune gets, or how many decisions are made by consensus.",
+    "Allow for parallel implementations. Fork the method. If the community finds a way to alter Hearthwork and get better results, they've taught me something. If every change they make still needs the founder's “blessing”, then it's not really running in parallel, is it?",
+    "The questions so far have been about the method. These four are about the founder:",
+    "Can the community respectfully override the founder? Can the community replace the role of the founder? Can the community alter the vision of the founder? Can the community exist without the founder?",
+    "Then follow the practical power. Whose name is on the deed? Who's in charge of the housing and the food stores, the vehicles and tools, and any bank account outside the community? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person.",
+    "Remember, it's not an override unless it can actually work on the person in question. If the founder selects the person to review the founder, holds the records, has title to the land, and can kick out complainers, then there's no real way for the community to override the founder, no matter how many meetings it holds.",
+    "Also watch for the daily signs of founderism. Increasing focus on the founder over time. Sense that disagreement is failure. Every bad result is blamed on lack of good implementation. Increasing “insider” knowledge while public accountability decreases. Results are never measured. Sense that former members become morally contaminated the moment they leave.",
+    "Presence of one of these alone isn't proof of abuse, but if several are present, they are worth paying attention to before the founder can explain how the situation is uniquely different in a spiritual way.",
+    "Ask these questions about any community, teacher or method. And ask them about me, if people end up living on land I buy.",
+    "While founderism is a problem in every community, it's especially so in communities which form naturally over time as I'm describing may happen in my case. In such cases, there's no formal community and no formal rules until people decide to come together to make them. It doesn't make sense to do that at first, if, say, I'm the only one there and I don't know who else will be there that I could trust. If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community.\"",
+    "If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. But if we are all starting together from scratch, then we would all be at an equal probationary level with each other.",
+    "It's a bit like the process of getting married. At first, you visit your girlfriend or boyfriend when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a fully unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that's also contentious depending on how long the marriage was for, whether one person feels tricked, etc, and unfortunately often ends up in court. Leaving a commune is the divorce half of it, where the shared resources have to get split up. When joining or forming a commune, we can hopefully be more conscious about the process and less romantic.",
+    "Friends who come to visit don't get written terms, though. That's not how anything works, and at first they don't even know if they'll stick around for a day or a week. There are implied terms, like be respectful and be honest, and those shouldn't need to be in writing. If someone is offered something like an internship or a probationary period, that would require written terms. Or if it naturally evolves and they bring up wanting something like that, it could be done."
+   ],
+   "must_not_contain": [
+    "I call it founderism",
+    "I know this personally.",
+    "Here are the four questions about the founder:",
+    "who picks the reviewers?",
+    "There are pros and cons to each extreme"
+   ]
+  },
+  {
+   "id": "s4-joel-20261014-2119",
+   "status": "applied",
+   "what": "Section 4: \"If one of the four gets skipped\" (his 24, \"p10 agree\") and P1 of \"Founded on Freedom\" without \"and don't freeze into doctrine\" (his 26).",
+   "joel": "24 ... p10 agree | 26 sect 4: yes",
+   "when": "2026-10-14 21:19 UTC, his answers to questions 22 to 26 (joel-20261014-2119/)",
+   "must_contain": [
+    "Nothing suppressed, everything processed. Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic.",
+    "If one of the four gets skipped, it will need to be dealt with eventually,"
+   ],
+   "must_not_contain": [
+    "and don't freeze into doctrine",
+    "If one of them gets skipped"
+   ]
+  },
+  {
+   "id": "s8-joel-20261014-2119",
+   "status": "applied",
+   "what": "Section 8: \"the research corpus\" stays, linked to the research (his 24: \"the research corpus is linked in the article... should be linked right there\").",
+   "joel": "24 the research corpus is linked in the article... should be linked right there. reviewer doesn't know about links or something?",
+   "when": "2026-10-14 21:19 UTC, his answers to questions 22 to 26 (joel-20261014-2119/)",
+   "must_contain": [
+    "I looked through [the research corpus](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) for a well-documented case"
+   ],
+   "must_not_contain": [
+    "all the research I'd gathered"
+   ]
+  },
+  {
+   "id": "s9-joel-20261014-2119",
+   "status": "applied",
+   "words": "proposed",
+   "what": "Section 9: \"The useful thing is how they learn:\" for \"The useful thing isn't their diagram. It's how they learn:\" (my proposal, his 26: \"sect 9: yes\").",
+   "joel": "26 ... sect 9: yes",
+   "when": "2026-10-14 21:19 UTC, his answers to questions 22 to 26 (joel-20261014-2119/)",
+   "must_contain": [
+    "The useful thing is how they learn:"
+   ],
+   "must_not_contain": [
+    "The useful thing isn't their diagram."
+   ]
+  },
+  {
+   "id": "s10-joel-20261014-2119",
+   "status": "applied",
+   "what": "Section 10, the last paragraph: his version of 21:19 UTC, as written.",
+   "joel": "25 Section 10's last paragraph:  this version is clearer and passes: ...",
+   "when": "2026-10-14 21:19 UTC, his answers to questions 22 to 26 (joel-20261014-2119/)",
+   "must_contain_exact": [
+    "Whenever you create or apply a rule, it's best practice to store the full case history so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch."
+   ],
+   "must_not_contain": [
+    "to deal with a collision of two principles"
    ]
   }
  ]

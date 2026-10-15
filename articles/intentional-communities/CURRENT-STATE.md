@@ -15,8 +15,9 @@ Humanize Joel's published intentional-communities Substack article section by se
 
 ## Completed
 
-- Sections 1 to 12 are humanized candidates in `candidate/HUMANIZED-SO-FAR.md`. Sections 4 and 12 are Joel's own texts of 2026-10-13; section 5 is his of 2026-10-06; the others carry his edits and answers where he gave them. Every candidate section read 100% Human in Pangram's web app when it was installed (`DETECTOR-EVIDENCE.json`).
-- Owner edits: 49 of 49 pass at registration.
+- Sections 1 to 12 are humanized candidates in `candidate/HUMANIZED-SO-FAR.md`. Sections 4 and 12 are Joel's own texts of 2026-10-13 (with his answers of 2026-10-14); section 5 is his of 2026-10-06; the others carry his edits and answers where he gave them. Every candidate section read 100% Human in Pangram's web app when it was installed (`DETECTOR-EVIDENCE.json`; for the changes of 2026-10-14, `candidate/fix-20261014/RESULTS.md`).
+- 2026-10-14: Joel's Rule Scoring Sheet answers and 13 fixes from the sweep of 2026-10-13 are in (sections 2, 3, 4, 6, 7, 8, 9, 11, 12), each changed paragraph Human alone and each section 100% Human in Pangram's web app. His answers of 21:19 UTC (questions 22 to 26) are in too: his own section 11 text and section 10 paragraph, and small cuts in sections 4, 9 and 11; sections 4, 9, 10 and 11 read 100% Human.
+- Owner edits: 57 of 57 pass.
 
 ## Current checkpoint
 
@@ -30,8 +31,8 @@ Section 13, "Your Little Forming Group Already Is the Community", is the publish
 
 ## Blockers / unresolved
 
-- Open questions for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`): scoring the Rule Scoring Sheet (question 21), J4's "be nice" in section 11, and the stance question on his section 9 P9 and P11 against "When Somebody Has to Go".
-- Pangram checks run in a browser signed in to Joel's account; the API key is out of credits.
+- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`): 27, his fixed section 4 reparenting paragraph, which didn't come through; 28, a one-word tie for section 10's last paragraph; 29, section 4's diagram line "authority stays with the practitioner".
+- Pangram checks run in the desktop app's browser pane, signed in to Joel's account; the API key is out of credits.
 
 ## Evidence / artifacts
 
@@ -41,4 +42,4 @@ Section 13, "Your Little Forming Group Already Is the Community", is the publish
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (on `claude/register-intentional-communities` until pull request 170 merges). The old lane branch is frozen as history at `f4d24d2c`, whose last commit only adds the note that the work moved here. Start section 13 as the lane's notes describe (stance ledger, key-word file, a baseline batch, Emulate rounds on the published paragraphs, meaning fixes, the gate), with Pangram batches through `tools/humanization/pangram_gate.py`. Before merging any lane branch into `main`, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (on `claude/community-joel-1014b` until its pull request merges). The old lane branch is frozen as history at `f4d24d2c`, whose last commit only adds the note that the work moved here. Put Joel's answers to 27 to 29 in first. Then start section 13 as the lane's notes describe (stance ledger, key-word file, a baseline batch, Emulate rounds on the published paragraphs, meaning fixes, the gate), with Pangram batches through `tools/humanization/pangram_gate.py`. Before merging any lane branch into `main`, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
