@@ -6,5 +6,7 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| J10-P5b | Human | his paragraph read Human alone (283g); the new subject, "a community or a federation", is plain | |
-| S10v4 | Human | v3 read 100% Human (284g); one sentence's subject changed | |
+| J10-P5b | Human | his paragraph read Human alone (283g); the new subject, "a community or a federation", is plain | **Human** (low; 97 words), 09:37:56, [check](https://www.pangram.com/history/e81a57be-e16a-48a5-8c53-ddef100c1cd4) |
+| S10v4 | Human | v3 read 100% Human (284g); one sentence's subject changed | **Human** (100%, "Human Written", high; 740 words), 09:38:10, [check](https://www.pangram.com/history/b035c409-6832-4ef7-a005-de067e109a43) |
+
+Results of 285g (Pangram's History, 2026-10-15 UTC): both read Human Written. Score: 2 of 2. The texts checked are the installed ones (same SHA-256).

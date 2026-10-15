@@ -689,6 +689,22 @@ class DedupPrompts(unittest.TestCase):
         self.assertLess(p.index('THE ARTICLE'), p.index('GROUP 1'))
 
 
+class PangramLinksInMessages(unittest.TestCase):
+    """pangram_links_check.py (2026-10-15). Joel, 09:33 UTC: "for future reference, give me the pangram check links when
+    you tell me to check something on pangram" (the questions page had told him a pair read AI, with no link)."""
+
+    def test_an_ai_result_needs_its_link_and_a_pass_does_not(self):
+        import pangram_links_check as plc
+        msg = ('Your paragraph reads AI beside the reparenting paragraph (278g, a control).\n\n'
+               '- The pair read AI: [check](https://www.pangram.com/history/4bb0032c-a069-447c-8add-1f975a1c1125).\n'
+               '- The section reads 100% Human (284g).\n'
+               '- "Mostly Human Written": a window on P4\'s questions (281g).\n')
+        found = plc.missing(msg)
+        self.assertEqual(len(found), 2)
+        self.assertTrue(found[0].startswith('Your paragraph reads AI'))
+        self.assertIn('Mostly Human', found[1])
+
+
 class SectionColdReadPrompt(unittest.TestCase):
     """reviewer.py sense-section (2026-10-11). Joel, 18:35 UTC: ""as I'm describing may happen in my case" is obvious so you
     should debug why the cold reader can't understand it." The community lane's section reads were written by hand, with a

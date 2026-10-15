@@ -947,14 +947,28 @@
   {
    "id": "s10-joel-20261014-2119",
    "status": "applied",
-   "what": "Section 10, the last paragraph: his version of 21:19 UTC, as written.",
+   "what": "Section 10, the last paragraph: his version of 21:19 UTC, as written. (2026-10-15: its opening is \"Whenever a community or a federation creates or applies a rule\", his 28 b; entry s10-joel-20261015-28b checks it.)",
    "joel": "25 Section 10's last paragraph:  this version is clearer and passes: ...",
    "when": "2026-10-14 21:19 UTC, his answers to questions 22 to 26 (joel-20261014-2119/)",
    "must_contain_exact": [
-    "Whenever you create or apply a rule, it's best practice to store the full case history so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch."
+    "Whenever a community or a federation creates or applies a rule, it's best practice to store the full case history so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch."
    ],
    "must_not_contain": [
     "to deal with a collision of two principles"
+   ]
+  },
+  {
+   "id": "s10-joel-20261015-28b",
+   "status": "applied",
+   "words": "proposed",
+   "what": "Section 10, the last paragraph: \"Whenever a community or a federation creates or applies a rule\" for \"Whenever you create or apply a rule\" (my option b, his pick).",
+   "joel": "28 b",
+   "when": "2026-10-15 09:33 UTC, his answers to 27 to 29 (joel-20261015/)",
+   "must_contain": [
+    "Whenever a community or a federation creates or applies a rule, it's best practice"
+   ],
+   "must_not_contain": [
+    "Whenever you create or apply a rule, it's best practice"
    ]
   }
  ]

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- background -->
+  <rect width="800" height="560" fill="#faf6ef"/>
+
+  <!-- roof -->
+  <path d="M 90 150 L 400 48 L 710 150 Z" fill="#7a5c3e" stroke="#5c452f" stroke-width="3"/>
+  <text x="400" y="122" text-anchor="middle" font-size="26" fill="#faf6ef" font-weight="bold">COMMUNITY</text>
+
+  <!-- roof principle line -->
+  <text x="400" y="180" text-anchor="middle" font-size="15" font-style="italic" fill="#5c452f">nothing suppressed · everything processed · authority stays with the practitioner</text>
+
+  <!-- pillar 1: inner work -->
+  <rect x="120" y="205" width="150" height="220" rx="8" fill="#4e7a5a" stroke="#3a5c44" stroke-width="3"/>
+  <text x="195" y="250" text-anchor="middle" font-size="21" fill="#faf6ef" font-weight="bold">INNER</text>
+  <text x="195" y="276" text-anchor="middle" font-size="21" fill="#faf6ef" font-weight="bold">PL/ORK</text>
+  <text x="195" y="315" text-anchor="middle" font-size="13.5" fill="#e8f0e8">reparenting</text>
+  <text x="195" y="336" text-anchor="middle" font-size="13.5" fill="#e8f0e8">somatic regulation</text>
+  <text x="195" y="357" text-anchor="middle" font-size="13.5" fill="#e8f0e8">contemplative</text>
+  <text x="195" y="378" text-anchor="middle" font-size="13.5" fill="#e8f0e8">practice</text>
+
+  <!-- pillar 2: relational work -->
+  <rect x="325" y="205" width="150" height="220" rx="8" fill="#b0562e" stroke="#8a4224" stroke-width="3"/>
+  <text x="400" y="250" text-anchor="middle" font-size="21" fill="#faf6ef" font-weight="bold">RELATIONAL</text>
+  <text x="400" y="276" text-anchor="middle" font-size="21" fill="#faf6ef" font-weight="bold">PL/ORK</text>
+  <text x="400" y="315" text-anchor="middle" font-size="13.5" fill="#f5e4da">peer counseling</text>
+  <text x="400" y="336" text-anchor="middle" font-size="13.5" fill="#f5e4da">jealousy processing</text>
+  <text x="400" y="357" text-anchor="middle" font-size="13.5" fill="#f5e4da">honesty practices</text>
+  <text x="400" y="378" text-anchor="middle" font-size="13.5" fill="#f5e4da">conflict metabolism</text>
+
+  <!-- pillar 3: medicine work -->
+  <rect x="530" y="205" width="150" height="220" rx="8" fill="#5b4a72" stroke="#453857" stroke-width="3"/>
+  <text x="605" y="250" text-anchor="middle" font-size="21" fill="#faf6ef" font-weight="bold">MEDICINE</text>
+  <text x="605" y="276" text-anchor="middle" font-size="21" fill="#faf6ef" font-weight="bold">PL/ORK</text>
+  <text x="605" y="315" text-anchor="middle" font-size="13.5" fill="#e6e0ee">peer-guided</text>
+  <text x="605" y="336" text-anchor="middle" font-size="13.5" fill="#e6e0ee">no shamans</text>
+  <text x="605" y="357" text-anchor="middle" font-size="13.5" fill="#e6e0ee">gated behind</text>
+  <text x="605" y="378" text-anchor="middle" font-size="13.5" fill="#e6e0ee">the other work</text>
+
+  <!-- foundation -->
+  <rect x="80" y="440" width="640" height="82" rx="10" fill="#8a6f4d" stroke="#6b5539" stroke-width="3"/>
+  <text x="400" y="474" text-anchor="middle" font-size="22" fill="#faf6ef" font-weight="bold">THE CONTAINER</text>
+  <text x="400" y="502" text-anchor="middle" font-size="15" fill="#f0e8da">membership · land · money · governance · children · exit</text>
+
+  <!-- caption -->
+  <text x="400" y="548" text-anchor="middle" font-size="14" font-style="italic" fill="#7a6a55">Skip a domain and the community falls apart along exactly that seam.</text>
+</svg>
