@@ -402,6 +402,9 @@ class StanceCheckPrompt(unittest.TestCase):
         self.assertIn('vaguer general one', p)
         # Joel, 2026-10-11 23:12, on "can't be voted away" beside "even by a majority vote": "fix the reviewers"
         self.assertIn("Read the way people talk.", p)
+        # Joel, 2026-10-15 13:10, on section 13's visitor rule flagged against his land before critical mass: "it's quite
+        # clear already without needing to add anything"
+        self.assertIn("Read each rule within the situation its section is about", p)
 
     def test_images_that_carry_content_are_described(self):
         essay = '# Essay\n\n[image 7](https://example.com/parts.svg)\n\nThese four parts leak.\n\n[image 8](https://example.com/x.png)\n'

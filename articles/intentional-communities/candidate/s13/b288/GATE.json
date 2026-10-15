@@ -1,0 +1,140 @@
+{
+ "S13v6-1P4": {
+  "kind": "draft",
+  "march": [
+   "S S S S S B S",
+   "S S S S S B S"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T4",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 97
+ },
+ "S13v6-2P1": {
+  "kind": "draft",
+  "march": [
+   "S B",
+   "S B"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T5",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 52
+ },
+ "S13v6-2P1h": {
+  "kind": "draft",
+  "march": [
+   "S B",
+   "S B"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T5",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 63
+ },
+ "S13v6-2P1P2": {
+  "kind": "draft",
+  "march": [
+   "S B",
+   "S B",
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T5, T6",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T1.md (OK); s13/review-r3/trace-T2.md (OK; unchanged since v5)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 92
+ },
+ "S13v6-2P3": {
+  "kind": "draft",
+  "march": [
+   "S B S S S S S S",
+   "S B S S S S S S"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T7",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 119
+ },
+ "S13v6-2P4": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T8",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 53
+ },
+ "S13v6-4P1": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T13",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 67
+ },
+ "S13v6-4P1h": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "s13/review-r4/MARCH-labels-a.txt and -b.txt, T13",
+  "cold": "OK",
+  "cold_note": "s13/review-r4/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r4/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r4/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 71
+ }
+}
