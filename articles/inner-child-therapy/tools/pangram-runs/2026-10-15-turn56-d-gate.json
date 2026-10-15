@@ -1,0 +1,60 @@
+{
+ "t56_ig_p1": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g1-w1b: writer 1 of three, with \"and you hold standards\" moved into the first sentence (stance check 1: the callback had read as the new interest being a standard). Grounding GROUNDING-g1-w1b.md; stance STANCE-2.md; cold read COLD-READ-2.md; march two Sonnet readers."
+ },
+ "t56_ig_p2": {
+  "kind": "draft",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g2-w3b: writer 3 of three, its \"and your little one gets lots of attention without growing\" cut (the repeats check: Chicken-and-Egg says it) and its quote \"It's had enough, so why put it through this?\" changed to \"Why make it do anything hard?\" (grounding and stance: the old quote put a real limit inside the trap). 44 words, under the web app's minimum alone, so it goes with P1."
+ },
+ "t56_ig_p12": {
+  "kind": "section",
+  "parts": [
+   "t56_ig_p1",
+   "t56_ig_p2"
+  ],
+  "repeats": 0,
+  "note": "P2 is too short alone; P1 and P2 together. REPEATS-2.md: nothing repeats inside the opening."
+ },
+ "t56_ig_p3": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g3-w1b: writer 1 of three, with \"demand perfect discipline of yourself\" (the grounding: the trap is the demand), \"Once a need does show,\" (the cold read couldn't tell whose strategy), and the safe-person line cut (the repeats check: When to Change the Strategy says it)."
+ },
+ "t56_ig_h1": {
+  "kind": "section",
+  "parts": [
+   "t56_ig_p1",
+   "t56_ig_p2",
+   "t56_ig_p3"
+  ],
+  "repeats": 0,
+  "note": "The h1 so far (its opening). REPEATS-2.md: no repeats inside it; its cross-section echoes (Chicken-and-Egg's two traps, When to Change the Strategy's texting a friend, Let the Child's art and nature) are for the later sweep."
+ }
+}
