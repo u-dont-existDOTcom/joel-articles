@@ -1104,6 +1104,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-15 (turn 58) | P6, p6-m1 (blocked from outside: the car part on back order; 88) [t58a_p6m1], try 1 | Human, medium (my call: one everyday scene, plain words) | AI Generated (0.92, low; 96), all of it; 21:02:04 UTC, https://www.pangram.com/history/9ce512b7-d0ca-4e99-a4f8-8caecd2b5563 | miss |
 | 2026-10-15 (turn 58) | P7, p7-m1 (one stuck problem, picking today's focus, the overwhelm step; 84) [t58a_p7m1], try 1 | Human, low-medium (my call: it carries a procedure, broken by a question and "That's plenty.") | AI Generated (0.97, low; 89), all of it; 21:02:18 UTC, https://www.pangram.com/history/539dcbb8-93ba-4eff-a88a-89b20b0e2c1b | miss |
 
-| 2026-10-15 (turn 58) | P5, round 2, p5-m2 (lying awake: "But what if the new job doesn't work out?"; ironing a shirt) [t58b_p5m2], try 2 | Human, low-medium (my call: starts inside a moment, an aside, no punchline) | | |
-| 2026-10-15 (turn 58) | P6, round 2, p6-m2 ("I should be doing more about the car.") [t58b_p6m2], try 2 | Human, low-medium (my call: self-talk first, one scene carried through) | | |
-| 2026-10-15 (turn 58) | P7, round 2, p7-m2 (the car and the rent; "Car's stuck, but the rent can't wait") [t58b_p7m2], try 2 | Human, low (my call: still a procedure) | | |
+| 2026-10-15 (turn 58) | P5, round 2, p5-m2 (lying awake: "But what if the new job doesn't work out?"; ironing a shirt) [t58b_p5m2], try 2 | Human, low-medium (my call: starts inside a moment, an aside, no punchline) | AI Generated (0.80, low; 66), all of it; 21:05:16 UTC, https://www.pangram.com/history/dc40e589-f339-4b62-b871-0bfd2c25ed90 | miss |
+| 2026-10-15 (turn 58) | P6, round 2, p6-m2 ("I should be doing more about the car.") [t58b_p6m2], try 2 | Human, low-medium (my call: self-talk first, one scene carried through) | AI Generated (0.999, low; 88), all of it; 21:05:27 UTC, https://www.pangram.com/history/a8b41d1e-e942-4258-a459-90c9d94084d7 | miss |
+| 2026-10-15 (turn 58) | P7, round 2, p7-m2 (the car and the rent; "Car's stuck, but the rent can't wait") [t58b_p7m2], try 2 | Human, low (my call: still a procedure) | AI Generated (0.998, low; 98), all of it; 21:05:38 UTC, https://www.pangram.com/history/3e3e080b-5393-4d98-9501-2652ba270bfd | hit |
+| 2026-10-15 (turn 58) | group 4, round 3, p5-a [t58c_p5a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p5-b [t58c_p5b], try 3 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p5-c [t58c_p5c], try 3 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p6-a [t58c_p6a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p6-b [t58c_p6b], try 3 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p6-c [t58c_p6c], try 3 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p7-a [t58c_p7a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p7-b [t58c_p7b], try 3 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 3, p7-c [t58c_p7c], try 3 | Human, low (my call) | | |
