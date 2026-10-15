@@ -6554,7 +6554,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/targets/t56-ig01.json",
-          "sha256": "0d4c2b2a8e4d10a455a683eece6d57168284f51dc429c76c90b8cd3e6c2788a5",
+          "sha256": "2952cc34b7af7cbcbdf2a77abff88c5410ad0d1f82ddc65e81ea275563767253",
           "role": "reviewer_target"
         },
         {
@@ -6854,7 +6854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/targets/t56-ig03b.json",
-          "sha256": "c20ed542c2c36653221fb74ca338b28de01b415cc3fbc2f589c23cf7a031227d",
+          "sha256": "9a1c82476c254237d6c9113dac7600d8d58945a82b60ac667b03ee5f17492f32",
           "role": "reviewer_target"
         },
         {
@@ -6985,6 +6985,36 @@
         {
           "path": "articles/inner-child-therapy/experiments/t56-guide/g3-f3c.txt",
           "sha256": "ce11a171076faa265c33a7a627f081b620bedd6dd24e6c99793e1274af569980",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-guide/COLD-READ-5.md",
+          "sha256": "cc3627060a03ec4035ef6e6f4b4047723b0104f00c4b5ac8671df3e8a39344af",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-guide/GROUNDING-round5.md",
+          "sha256": "6f85fd7c94958fcdf1099405747245a21806b40c57e4e17437f7c4d590738623",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-guide/MARCH-INPUT-6.txt",
+          "sha256": "f24f0f555a7d0b897e78c120e3aaa7cdc420da0826d4af8ecc5d08c8d2e722db",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-guide/SECTION-DRAFT-6.md",
+          "sha256": "bfc62c9b074937cd429ac38a13e9cfb3848d276edaaf1fab93cad572201c7404",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-guide/STANCE-5.md",
+          "sha256": "27cc852f4472cf481134e82eae846123f1244c13ee89df59653d2e3c25b0acef",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t56-guide/g2-f1b.txt",
+          "sha256": "f24f0f555a7d0b897e78c120e3aaa7cdc420da0826d4af8ecc5d08c8d2e722db",
           "role": "humanization_working_record"
         }
       ]
