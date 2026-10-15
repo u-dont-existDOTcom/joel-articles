@@ -6486,6 +6486,26 @@
           "path": "articles/inner-child-therapy/experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md",
           "sha256": "401407a757fdd800b463f96a2f98155684d763b8549b1ac40fd24671f93e95c5",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-15-turn56-a-drafts.json",
+          "sha256": "4676b3709c136e902b4e23a9ddcca4622aa09ec956d46f681c2b6933e4801b5e",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-15-turn56-a-gate.json",
+          "sha256": "83986d19aabec995de041d714b99f5f650bcd96e9c8f33d62757f6b7d2204618",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-15-turn56-a-read.js",
+          "sha256": "720dea4c4f48cdd4dd69ee6f654e585c7119b5ab17e58a2edd5d8cee372c1990",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-15-turn56-a.js",
+          "sha256": "16373357154bd4f90c0af1722abe9b7f97e6f709fa842965741cc87109184acc",
+          "role": "detector_check_texts"
         }
       ]
     },
