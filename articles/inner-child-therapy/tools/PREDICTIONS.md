@@ -1121,10 +1121,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-15 (turn 58) | group 4, round 4, p6-e (the example carries the instruction) [t58d_p6e], try 4 | Human, low (my call) | Human Written (0.002, low; 72); 21:15:32 UTC, https://www.pangram.com/history/a9e32fab-adc9-43c5-b50b-9fd6d13a8682 | hit |
 | 2026-10-15 (turn 58) | group 4, round 4, p7-d (the example carries the instruction) [t58d_p7d], try 4 | Human, low (my call) | AI Generated (0.999, low; 91); 21:15:40 UTC, https://www.pangram.com/history/739bff4f-0472-4f06-ad81-07063b1a9bec | miss |
 | 2026-10-15 (turn 58) | group 4, round 4, p7-e (the example carries the instruction) [t58d_p7e], try 4 | Human, low (my call) | AI Generated (0.99, low; 96); 21:15:51 UTC, https://www.pangram.com/history/468592a7-722c-4bfd-97ec-566bfd5c0981 | miss |
-| 2026-10-15 (turn 58) | group 4, round 5, p5-f [t58e_p5f], try 5 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 5, p5-g [t58e_p5g], try 5 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 5, p5-h [t58e_p5h], try 5 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 5, p7-f [t58e_p7f], try 5 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 5, p7-g [t58e_p7g], try 5 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 5, p7-h [t58e_p7h], try 5 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 5, p7-i [t58e_p7i], try 5 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 5, p5-f [t58e_p5f], try 5 | Human, low (my call) | AI Generated (0.999, low; 66); 21:19:39 UTC, https://www.pangram.com/history/3fe0d312-a854-496b-953e-438e66d20014 | miss |
+| 2026-10-15 (turn 58) | group 4, round 5, p5-g [t58e_p5g], try 5 | Human, low (my call) | AI Generated (0.75, low; 52); 21:19:47 UTC, https://www.pangram.com/history/80f11782-2a5a-4adc-a783-42bedb6b1cf3 | miss |
+| 2026-10-15 (turn 58) | group 4, round 5, p5-h [t58e_p5h], try 5 | Human, low (my call) | AI Generated (0.54, low; 60); 21:19:57 UTC, https://www.pangram.com/history/e0f1a9e9-308a-4a13-9bcb-6259d0c82030 | miss |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-f [t58e_p7f], try 5 | Human, low (my call) | AI Generated (0.53, low; 81); 21:20:08 UTC, https://www.pangram.com/history/b9d34e2a-8076-493c-b75b-1e6e9a9327e6 | miss |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-g [t58e_p7g], try 5 | Human, low (my call) | AI Generated (0.998, low; 75); 21:20:21 UTC, https://www.pangram.com/history/d737235d-1cd2-4da1-9fa0-97f25959933b | miss |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-h [t58e_p7h], try 5 | Human, low (my call) | AI Generated (0.67, low; 75); 21:20:29 UTC, https://www.pangram.com/history/41d1b35e-d692-478a-944d-aa6ccf087de1 | miss |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-i [t58e_p7i], try 5 | Human, low (my call) | AI Generated (0.978, low; 68); 21:20:40 UTC, https://www.pangram.com/history/d1fef907-a342-44b6-87cb-3053a635c02f | miss |
+| 2026-10-15 (turn 58) | group 4, round 6, p5-h3 [t58f_p5h3], try 6 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 6, p56-a [t58f_p56a], try 6 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 6, p7-f2 [t58f_p7f2], try 6 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 6, p7-f3 [t58f_p7f3], try 6 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 6, p7-h2 [t58f_p7h2], try 6 | Human, low (my call) | | |
