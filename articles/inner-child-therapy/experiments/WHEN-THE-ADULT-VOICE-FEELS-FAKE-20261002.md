@@ -767,3 +767,17 @@ Joel, 10:43 UTC: a new sentence in Ask God's gratitude paragraph, his Untangling
 ### Next
 
 His answer to 28. Then the h1's group 4 (the Guide needs no certainty; problems blocked from outside: queue items PGQ-014 and PGQ-017) and the healthy-mind paragraphs (PGQ-007), from the briefs the dedup already supports.
+
+## Turn 57 (2026-10-15, from 16:39 UTC): The Inner Guide Comes Later P2 and P3 again, screened first (E175)
+
+Joel, 16:39 UTC: why one paragraph took 4 hours 22 minutes, why I stopped after one try on P2 and P3, and what tells I see. Saved first (`t57-answers/JOEL-20261015-1639.md`); my answer to him went out in chat right away.
+
+- **The gate:** `pangram_gate.py` has a `screen` kind: the linter and march only, never installed, never a section part (with a test). E169's one-fix-round line is superseded by E175.
+- **P2:** three new drafts with one everyday scene each; all three read Human on the first screen. In: Go Fish (Human 0.042 and 0.034), after its grounding, stance and cold reads.
+- **P3, as two paragraphs:** the second (the need and how you meet it) read Human on the first screen (0.008). The first (forced adulthood) took four rounds: eight versions read AI (0.46 to 0.997), all keeping the guide's therapy words. My own version in plain words read Human (0.041); its fixed version is in (0.41). Lesson E176.
+- **The h1 so far:** with the second paragraph as screened, AI Detected over its last 59 words (the strategy sentences); with them as two small scenes, Human (0.20, high) though P4 alone then read AI (0.65); with the texts and the sulking named plainly, P4 alone Human (0.13) and the h1 Human Written (0.16, high).
+- **Reviews:** seven groundings, six stance checks (the last 0), seven cold reads and two repeats checks (nothing inside the opening). Question 28 is answered by these. Record: `t57-guide/REVIEWS.md`.
+
+### Next
+
+The h1's group 4 (the Guide needs no certainty; problems blocked from outside: PGQ-014 and PGQ-017) and the healthy-mind paragraphs (PGQ-007), screened first.
