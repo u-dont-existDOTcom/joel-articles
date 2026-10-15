@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-14, after your message of 21:19 UTC. **Open questions: 2.** To answer, reply in chat with the number and the letter, for example `28a`, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-15, after your message of 09:33 UTC. **Open questions: 0.** To answer, reply in chat with the number and the letter, or in your own words. Everything else in my messages is status.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,31 +9,24 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Two questions, each with my pick. The passages are on the side-by-side pages I sent this turn (sections 4 and 10).
-
-**🟣 28. Section 10's last paragraph: tie it to the federation?** Both cold reads of the section said your new paragraph reads as a new topic: nothing ties it to the federation paragraphs before it, and they couldn't tell whose rules these are. It reads Human alone and the section 100% Human (283g, 284g).
-- a) "Whenever you create or apply a federation rule, it's best practice ..." (one word). **My pick**: it ties the paragraph to the section and to the limits of solidarity just before it.
-- b) "Whenever a community or a federation creates or applies a rule, it's best practice ...", if you meant any rule, a community's too.
-- c) Leave it.
-
-Whichever you pick goes through Pangram before it's in.
-
-**🟣 29. Section 4's diagram (image 7) still says "authority stays with the practitioner".** That's the published principle's line, under the roof. Your text now says "our practices weave the community into the quilt", and membership depends on the community's processes (your F13 answer). The stance check flagged the clash. It's your image, so only you can change it.
-- a) Change that line in the image to match your text. **My pick.**
-- b) Leave it.
+> None right now. Section 13 is next; its baseline is under "Coming up".
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
-> One thing to send.
+> One thing to upload.
 
-- 🟠 27. Your fixed reparenting paragraph and the three-sentence paragraph after it (section 4) didn't come through. In your message, "here's the fixed reparenting + 3 sentence para:" goes straight on to 25, and the attachment holds section 11 only. Could you paste them again? Until then, section 4 has "And inner pl/ork is built on somatic regulation first." as before.
-- 🟢 Pull request 173 is merged (your "continue").
+- 🟠 Section 4's rebuilt diagram (image 7): upload image7-v2.svg (sent with this turn's message) in place of the current image on Substack. The article keeps the old image until then.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-10-15 09:33 UTC, on 27: "i actually could not reproduce the pangram failure on this part, so there's nothing to change. for future reference, give me the pangram check links when you tell me to check something on pangram". Nothing changed in section 4. The checks behind my note: your pair with "inner pl/ork" (https://www.pangram.com/history/9e9a47f3-1f41-4f18-91cf-b98c3f19bc8f, AI-Generated, low, 99 words) and in your own wording (https://www.pangram.com/history/4bb0032c-a069-447c-8add-1f975a1c1125, AI Detected on the 36-word paragraph, low). Both were single low-confidence reads, which a rerun can flip. From now on every Pangram result I give you comes with its check link, and a check fails any message that reports an AI result without one.
+- 🟢 09:33, on 28: "b". In: "Whenever a community or a federation creates or applies a rule, it's best practice ...". Both cold reads of the section now read every paragraph OK. Pangram: the paragraph Human (https://www.pangram.com/history/e81a57be-e16a-48a5-8c53-ddef100c1cd4), the section 100% Human (https://www.pangram.com/history/b035c409-6832-4ef7-a005-de067e109a43).
+- 🟢 09:33, on 29: "rebuild the diagram pls". Rebuilt from its own SVG, with the same layout and colors. Three lines changed to match your section 4 text: the roof line is "nothing suppressed · everything processed · our practices weave the community into the quilt"; "conflict metabolism" is "conflict handling" (metabolize is on your list of tics); the caption is your sentence, "If one of the four gets skipped, it will need to be dealt with eventually, at high stress.", in place of "Skip a domain and the community falls apart along exactly that seam." Say if you want either of the last two back.
+- 🟢 09:33: "continue". Nothing was waiting to merge (you'd merged pull request 175); this turn's work is in pull request {PR}.
 
 - 🟢 2026-10-14 21:19 UTC, on 22: "founderism isn't my term, it's in the commune literature, and it's the problem of power staying in the hands of the founders longer than it should". Your section 11 text is in as you pasted it, with your definition ("When that power fails to get distributed as the conditions ripen for that, it's called founderism."). In the rules: before a sentence says you coined or name something, the term gets searched; the same idea is founder's syndrome in the organizational literature.
 - 🟢 21:19, on 23: "i fixed it, pasted.passes pangram. lmk if i overlooked anything". In: your P2, P3 and P4, my P6 lead-in ("ok good use yours") and P8's "the people who review the founder" ("agree"). Every changed paragraph reads Human alone, and the section 100% Human (1,673 words, 284g). What I checked for anything overlooked: a cold read found nothing to stop a reader, the stance check found nothing in your paragraphs that conflicts with the rest of the article, and the repeats check found nothing inside the section that doesn't add a step. Of what P4 lost, "Can people disagree, leave, and later tell a different story about it?" is still in P10's signs, and "leaving costs too much" is in your "without being trapped"; only "Is the community still materially viable?" is said nowhere else now. My opinion: fine without it, since it's about the method, not the founder.
@@ -92,7 +85,7 @@ Whichever you pick goes through Pangram before it's in.
 > [!NOTE]
 > What's next, and what happens if nothing changes.
 
-- 🔵 Next: section 13, "Your Little Forming Group Already Is the Community", with Pangram batches through the gate script in the desktop app's browser pane.
+- 🔵 Next: section 13, "Your Little Forming Group Already Is the Community". Its baseline (the published text, batch 286g): every group read AI, and the whole section {S13RESULT}. The checks, one link each, are in section 13's predictions file ({S13LINK}). Next comes the stance ledger, the key-word file, Emulate rounds on the published paragraphs, and the gate.
 - 🔵 Section 13, "Your Little Forming Group Already Is the Community": two lines shaped like "Decide the process before the name" wait for its pass ("Discover the group's conflict capacity before hiring a surveyor." and "Write the exit terms while departure is still hypothetical.").
 - 🔵 Information on section 12, no answer needed: the chart still says "A community can absorb only as much need as its members have free resource to meet." Your cut took that sentence out of the text, so now only the chart says it, and "Once there are 80 members" carries the point. Fine by me.
 - 🔵 Information on earlier pages, no answer needed: section 10's "Make a Movement" repeats the section title; section 10 P8's stored "what happened" could expose the people in an intimate case (your published wording); an optional "why cooperation slides" sentence for section 10 P6, yours to write; section 9's stance question on your P9 and P11 against "When Somebody Has to Go" (which Zapatista body reviews local power after 2023) is on the section 9 page.
