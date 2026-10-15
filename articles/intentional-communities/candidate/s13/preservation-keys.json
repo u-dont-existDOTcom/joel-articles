@@ -1,6 +1,6 @@
 {
  "section": "Community section 13, \"Your Little Forming Group Already Is the Community\"",
- "about": "The words each preservation unit of STANCE-LEDGER-s13.md rests on (2026-10-15). Check: python3 tools/humanization/preservation_keys.py s13/preservation-keys.json DRAFT.",
+ "about": "The words each preservation unit of STANCE-LEDGER-s13.md rests on (2026-10-15). Check: python3 tools/humanization/preservation_keys.py s13/preservation-keys.json DRAFT. Alternatives added 2026-10-15 for v7 (Emulate's wording) carry a note_v7 on their unit: only words with the same meaning, each left for the trace to confirm.",
  "units": [
   {
    "id": "U1",
@@ -362,13 +362,16 @@
     [
      "behavior",
      "behaviour",
-     "actually does"
+     "actually does",
+     "actually functions"
     ],
     [
      "public language",
-     "public"
+     "public",
+     "how they talk about"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"actually functions\", \"how they talk about\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U22",
@@ -520,7 +523,8 @@
    "keys": [
     [
      "legible",
-     "visible"
+     "visible",
+     "visibility"
     ],
     [
      "money-free",
@@ -534,7 +538,8 @@
      "bottleneck",
      "bottlenecks"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"visibility\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U30",
@@ -557,12 +562,14 @@
     ],
     [
      "allocate",
-     "hand out"
+     "hand out",
+     "distribution"
     ],
     [
      "conflicts of interest"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"distribution\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U31",
@@ -659,24 +666,30 @@
      "forfeit",
      "forfeiting",
      "giving up everything",
-     "give up everything"
+     "give up everything",
+     "leave everything"
     ],
     [
-     "coercive"
+     "coercive",
+     "coercing"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"leave everything\", \"coercing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U35",
    "what": "exit terms while departure is hypothetical",
    "keys": [
     [
-     "exit terms"
+     "exit terms",
+     "terms of letting someone leave"
     ],
     [
-     "hypothetical"
+     "hypothetical",
+     "theoretical"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"terms of letting someone leave\", \"theoretical\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U36",
@@ -859,7 +872,8 @@
      "rights"
     ],
     [
-     "responsibilities"
+     "responsibilities",
+     "responsible for"
     ],
     [
      "review"
@@ -872,7 +886,8 @@
      "recruiter",
      "recruited"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"responsible for\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U45",
@@ -880,18 +895,22 @@
    "keys": [
     [
      "full membership",
-     "Full membership"
+     "Full membership",
+     "full member"
     ],
     [
      "voice"
     ],
     [
-     "obligations"
+     "obligations",
+     "responsible for over the long term"
     ],
     [
-     "founding agreements"
+     "founding agreements",
+     "agreements you draw up when you are first starting"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"full member\", \"responsible for over the long term\", \"agreements you draw up when you are first starting\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U46",
@@ -907,9 +926,11 @@
      "spiritual"
     ],
     [
-     "therapeutic"
+     "therapeutic",
+     "their therapy"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"their therapy\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U47",
@@ -919,7 +940,8 @@
      "vibes"
     ],
     [
-     "conformity"
+     "conformity",
+     "doing what everyone else is doing"
     ],
     [
      "safety"
@@ -930,7 +952,8 @@
     [
      "good person"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"doing what everyone else is doing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U48",
@@ -958,9 +981,11 @@
      "in stages"
     ],
     [
-     "challenge"
+     "challenge",
+     "appeal to a separate authority"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"appeal to a separate authority\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U49",
@@ -1066,18 +1091,22 @@
      "servant class"
     ],
     [
-     "between communes"
+     "between communes",
+     "from commune to commune"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"from commune to commune\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U54",
    "what": "cannot promise to keep everyone",
    "keys": [
     [
-     "keep everyone"
+     "keep everyone",
+     "kick people out"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"kick people out\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U55",
@@ -1090,7 +1119,8 @@
      "boundaries"
     ],
     [
-     "impossible"
+     "impossible",
+     "not someone people can live with"
     ],
     [
      "eject",
@@ -1099,7 +1129,8 @@
      "removal",
      "remove"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"not someone people can live with\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U56",
@@ -1112,13 +1143,15 @@
      "reasonable"
     ],
     [
-     "treatment program"
+     "treatment program",
+     "provide them treatment"
     ],
     [
      "endangering",
      "danger"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"provide them treatment\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U57",
@@ -1162,7 +1195,8 @@
      "recused",
      "recuse",
      "steps aside",
-     "step aside"
+     "step aside",
+     "participating in the decision"
     ],
     [
      "temporary"
@@ -1177,7 +1211,8 @@
      "appeal"
     ],
     [
-     "housing"
+     "housing",
+     "housed"
     ],
     [
      "records"
@@ -1190,7 +1225,8 @@
     ]
    ],
    "span": 2,
-   "note": "span 2 since v2 (2026-10-15): the protections during separation and outside help are their own paragraph after the process"
+   "note": "span 2 since v2 (2026-10-15): the protections during separation and outside help are their own paragraph after the process",
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"participating in the decision\", \"housed\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   },
   {
    "id": "U60",
@@ -1290,7 +1326,8 @@
    "what": "mediation is repair, not a substitute",
    "keys": [
     [
-     "repair"
+     "repair",
+     "restore good relations"
     ],
     [
      "evidence"
@@ -1308,7 +1345,8 @@
     [
      "consent"
     ]
-   ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"restore good relations\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
   }
  ]
 }

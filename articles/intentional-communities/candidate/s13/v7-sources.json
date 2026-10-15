@@ -1,0 +1,234 @@
+[
+ {
+  "id": "H1-P1",
+  "source": "emu-b e01-emuB (first paragraph)",
+  "fixes": [
+   "dropped the \"1.\" numbering",
+   "\"you are a community\" -> \"you are already a community\" (U2: the first community)"
+  ]
+ },
+ {
+  "id": "H1-P2",
+  "source": "emu-b e01-emuB (second paragraph)",
+  "fixes": [
+   "dropped the \"2.\" numbering",
+   "+\"all the way through\" (published)",
+   "+\"nobody believes\" (published)",
+   "\"where someone says \"what you did was wrong\" and everyone takes the time to deal with it\" -> \"where someone names what happened and each person gets time\" (published: name what happened, give each person time)",
+   "\"is always jealousy, humiliation, fear, and other stuff from the past\" -> \"is always jealousy, humiliation, fear, or other old material, so find out which\" (published: find the ... or old material involved)",
+   "\"until the emotional pressure valve changes and then you can make an agreement\" -> \"until the emotional pressure has changed enough for an agreement to mean something, and then you can make one\" (published condition)"
+  ]
+ },
+ {
+  "id": "H1-P3",
+  "source": "v6, unchanged (read Human alone, 287g)",
+  "fixes": []
+ },
+ {
+  "id": "H1-P4",
+  "source": "emu-c f01-emuA",
+  "fixes": [
+   "\"it would be a good idea to also budget\" -> \"you'll also need to budget\" (published: an instruction)",
+   "+\"outside\" before debts; \"how long will they last?\" -> \"how long will the cash last?\" (published: outside debts or cash runway)",
+   "\"be dead in the water physically due to a lack of foresight\" -> \"be dead in the water because the well fails, or because one exhausted person is the only one who knows where everything is and how it works\" (published causes)"
+  ]
+ },
+ {
+  "id": "H2-P1",
+  "source": "emu-c f02-emuA",
+  "fixes": [
+   "\"Do you feel like you chose your community in the same way you would choose\" -> \"Have you noticed people choose their community in the same way they would choose\" (published: people often choose; the reader hasn't chosen yet)",
+   "\"And a pond!!\" -> \"And a pond, with the sunset in it!!\" (published: the pond reflects the sunset)",
+   "cut \"before someone else grabs it\" (added haste)",
+   "\"2-years\" -> \"two years\"",
+   "\"You want ME to get a shot for what??\" -> \"Wait, there’s a vaccination policy??\" (published: the vaccination policy, either way; the shot took a side)"
+  ]
+ },
+ {
+  "id": "H2-P2",
+  "source": "v6, unchanged (read Human inside 2P1P2, 288g)",
+  "fixes": []
+ },
+ {
+  "id": "H2-P3",
+  "source": "emu-c f03-emuA",
+  "fixes": [
+   "\"Sexuality and Gender\" -> lower case",
+   "+\"openly\" (published: live openly)",
+   "\"look out for you\" -> \"keep you fully protected\" (published: remain fully protected)",
+   "\"sexual make up\" -> \"sexual identities\" (published)",
+   "\"will your community accept them?\" -> \"what happens then?\" (published: what happens if)",
+   "\"Until you ask yourself and your prospective community these questions, your list of Values is incomplete.\" -> \"Until your prospective community has answered these questions, its values on freedom and child-rearing are incomplete.\" (published: the group hasn't finished discussing freedom or child-rearing values)",
+   "\"includes\" -> \"declares\" (published: has to be declared)",
+   "\"some folks think\" -> \"the folks next to you may think\" (published: the person beside you may believe)",
+   "\"'78\" -> \"1978\"",
+   "\"should be considered doctrine\" -> \"is doctrine now\" (published: the results are now doctrine)"
+  ]
+ },
+ {
+  "id": "H2-P4",
+  "source": "emu-c f04-emuB",
+  "fixes": [
+   "dropped the \"5.\" numbering",
+   "\"How are conflicts handled?\" -> \"How was a recent conflict handled?\" (published)",
+   "\"Who can make decisions and how?\" -> \"Who can block decisions, and how?\" (published: who can block a decision)",
+   "\"How hard is it to leave the group?\" -> \"How did it go for the last person who left the group?\" (published: what happened to the last person who left)",
+   "\"Who “owns” the land?\" -> \"Who owns the land?\"",
+   "\"after you’ve seen it\" -> \"after you’ve had them\" (published: after the uncomfortable conversation)"
+  ]
+ },
+ {
+  "id": "H3-P1",
+  "source": "emu-b e02-emuB",
+  "fixes": [
+   "+\"over the community\" (published)",
+   "\"If it's in the founders name, then he's\" -> \"If the deed is in the founder's name, then they're\" (published: the deed; no gender)",
+   "\"3 members\" -> \"three members out of twelve\""
+  ]
+ },
+ {
+  "id": "H3-P2",
+  "source": "v6, unchanged (read Human alone, 287g)",
+  "fixes": []
+ },
+ {
+  "id": "H3-P3",
+  "source": "emu-b e03-emuB",
+  "fixes": [
+   "\"A description is important even in a non-money community.\" -> \"Visibility is important even in a money-free community.\" (published: make the material system legible)",
+   "\"always bottlenecks\" -> \"always scarce things and bottlenecks\" (published)",
+   "\"what the community has\" -> \"what the community owns or holds in common\" (published)",
+   "\"(land, equipment, stored resources, outside money, etc.)\" -> \"(land, equipment, stores, outside cash, etc.)\"; +\"and can't depend on one person's permission\" (published: not on one person's memory or permission)",
+   "\"stored resources, etc)\" -> \"stored goods, the right to keep using something, etc)\" (published: continued use rights)"
+  ]
+ },
+ {
+  "id": "H3-P4",
+  "source": "emu-b e04-emuA",
+  "fixes": [
+   "\"It’s best to set\" -> \"You should set\" (published: an instruction; round r4's stance check on \"best written\")",
+   "\"It’s not that romantic, but it’s a lot easier than doing it when people are angry.\" -> \"It’s not that romantic, but it’s protective, and a lot easier than doing it when people are furious.\" (published: protective; furious)",
+   "link and italics back on Creating a Life Together",
+   "\"then you get the people\" -> \"then you get the members\" (published: membership)"
+  ]
+ },
+ {
+  "id": "H4-P1",
+  "source": "v6, unchanged (read Human alone and with its heading, 288g)",
+  "fixes": []
+ },
+ {
+  "id": "H4-P2",
+  "source": "emu-b e05-emuB (first paragraph)",
+  "fixes": [
+   "cut \"Usually\" (published: correspond first, a step, not a custom)",
+   "\"the stuff\" -> \"the materials\" (published)",
+   "\"why this is thing is here\" -> \"why this community is here\"",
+   "\"do the thing\" -> \"do the practices\" (published)",
+   "\"half a year\" -> \"six months\" (published)"
+  ]
+ },
+ {
+  "id": "H4-P3",
+  "source": "emu-d g01-emuA (first paragraph; from the published short and long visit)",
+  "fixes": [
+   "\"The short version:\" -> \"The short visit:\" (the published stage)"
+  ]
+ },
+ {
+  "id": "H4-P4",
+  "source": "emu-d g01-emuA (second paragraph) with the middle sentence from g01-emuB",
+  "fixes": [
+   "\"The long version: It depends on how long you stay. If\" -> \"The long visit: If\" (the published stage)",
+   "the five states from g01-emuB: \"when inconvenienced, corrected, ...\" -> \"when tired, corrected, ...\" (published)",
+   "link back on \"a professional faker\"",
+   "+\", so time gets you more evidence, not certainty\" (published)"
+  ]
+ },
+ {
+  "id": "H4-P5",
+  "source": "emu-b e07-emuA",
+  "fixes": [
+   "\"(This should be addressed\" -> \"(These should be addressed\" (published: all of full membership follows the founding agreements)"
+  ]
+ },
+ {
+  "id": "H4-P6",
+  "source": "emu-b e08-emuA (first paragraph)",
+  "fixes": [
+   "\"HOW DO YOU KNOW?\" -> \"How do you know?\"",
+   "\"go by that.\" -> \"go by vibes.\" (published: vibes)",
+   "\"to go by people just doing what everyone else is doing.\" -> \"to mistake people just doing what everyone else is doing for safety.\" (published: mistaking conformity for safety)"
+  ]
+ },
+ {
+  "id": "H4-P7",
+  "source": "emu-b e08-emuB (second paragraph)",
+  "fixes": [
+   "+\"serious\" (published: high-consequence)",
+   "\"private information\" -> \"private records\" (published)",
+   "\"if they are good at that specific thing\" -> \"how they handle that specific thing\" (published: conduct-specific evidence)",
+   "\"or asking for references\" -> \"and asking for references\" (published: both)",
+   "\"gradually\" -> \"in stages\" (published: staged access)"
+  ]
+ },
+ {
+  "id": "H4-P8",
+  "source": "emu-b e09-emuA",
+  "fixes": [
+   "\"get some thing done (getting something done together to share can double duty as a test of this)\" -> \"get something done (an ordinary work or shared-resource task will do)\" (published)",
+   "\"process what didn't go well afterwards\" -> \"process a small conflict afterwards\" (published)",
+   "+\"like that\"",
+   "+\"It won't show you anyone's soul, but it can show you whether your way of coordinating works.\" (published)"
+  ]
+ },
+ {
+  "id": "H4-P9",
+  "source": "emu-d g03-emuA (first sentence) and g04-emuB (the rest)",
+  "fixes": [
+   "g03-emuA: \"visitors and people who volunteer to work or who work, rent, or intern at a commune\" -> \"visitors, volunteers, workers, renters and interns at a commune\" (published)",
+   "g04-emuB: \"Unless somebody joining a commune is joining its political party, and wants to be part of its political process, visitors, volunteers, workers, renters, interns, etc. need some basic rights when decisions really affect their pay or use of resources.\" -> \"When decisions really affect their pay or use of resources, they need clear terms and a way to be heard, and those decisions have to be open to review.\" (published remedy; round r4's trace: has to be open to review)",
+   "\"record,\" -> \"records,\""
+  ]
+ },
+ {
+  "id": "H5-P1",
+  "source": "emu-b e11-emuA",
+  "fixes": [
+   "\"safe space community\" -> \"safe community\" (published)",
+   "\"they’re serious\" -> \"they’re a serious\"",
+   "\"restorative justice\" -> \"restorative work\" (published)"
+  ]
+ },
+ {
+  "id": "H5-P2",
+  "source": "emu-b e12-emuA",
+  "fixes": [
+   "\"it’s also a lot easier to abuse\" -> \"the power to remove somebody is also one of the easiest powers to abuse\" (published; his I4: name the power)",
+   "\"so coming up with a process ahead of time is probably a good idea.\" -> his line \"So work out the process before it's about anyone in particular.\" (his answer 13, 2026-10-11)",
+   "\"What constitutes removing somebody for others’ safety?\" -> \"What constitutes a reason for immediate protective action, and who decides on temporary restrictions?\" (published)",
+   "\"How do document what’s going on\" -> \"How do you preserve the evidence\" (published)",
+   "\"How do people appeal the decision without threatening others?\" -> \"How does the person reply, and appeal the decision, without endangering others?\" (published)"
+  ]
+ },
+ {
+  "id": "H5-P3",
+  "source": "emu-d g06-emuA",
+  "fixes": [
+   "\"The 'outside' doesn't have to be a nation.\" -> \"'Outside' doesn't have to be a nation-state.\" (published; and three paragraphs opening on \"The\" failed the linter, B13)",
+   "link back on \"my research\"",
+   "\"a competent layer above the one under review\" -> \"a competent layer that isn't reviewing its own conduct\" (published; \"above\" put a layer over the community, which his 2026-10-07 position rules out)",
+   "\"a profession, or anything else\" -> \"a professional, a court, a regulatory agency, an emergency service, or anything else\" (published list)",
+   "\"autonomous regional institutions, whether courts, regulatory agencies, emergency services, etc.\" -> \"autonomous regional institutions, which can review local power without becoming the state\" (published)"
+  ]
+ },
+ {
+  "id": "H5-P4",
+  "source": "emu-b e14-emuA",
+  "fixes": [
+   "\"the Mediator or Ombud\" -> \"a mediator or ombud\"",
+   "\"have not met them before\" -> \"have not met this “neutral stranger” before\" (published)",
+   "\"if one party no longer wants to live with the other\" -> \"if one party no longer consents to staying\" (published: when consent is gone; round r4's trace on \"living together\")"
+  ]
+ }
+]

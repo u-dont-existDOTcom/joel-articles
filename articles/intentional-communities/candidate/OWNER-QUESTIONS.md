@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-15, after your message of 11:04 UTC. **Open questions: 2.** To answer, reply in chat with the number and the letter, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-15, after your message of 13:10 UTC. **Open questions: 0.** To answer, reply in chat with the number and the letter, or in your own words. Everything else in my messages is status.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,17 +9,7 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Two questions about section 13, each with my pick. Its draft is on the section 13 side-by-side page, sent with this turn's message.
-
-**🟣 30. Who are section 13's rules for?** Both stance checks flagged your published visitor paragraph: "Visitors, volunteers, workers, renters, and interns ... need clear terms, a way to be heard, and review." Against it: your section 11, "Friends who come to visit don't get written terms, though.", and your 2026-10-11 position, "before critical mass, my rules apply, because it's my land ... i decide who stays, i decide who leaves". The check against the published essay also flagged "If the founder’s name is on the deed, you have a landlord with a philosophy." against that same position. Both fit if section 13 is about a group that has formed a community together, but it never says so.
-- a) One sentence that says so, near the start of section 13, along the lines of: "All of this is for a group forming a community together. On land one person already owns, that person's rules apply until there's a real community, as in section 11." **My pick**: it settles both flags without changing a rule.
-- b) Leave it as published.
-- c) Your own words.
-
-**🟣 31. Section 13: how do you want to go on?** Your published section reads AI throughout (286g, the section 100% AI: https://www.pangram.com/history/cbfce01e-bf4a-4637-bef5-eceb756cee28). My draft keeps every point of yours and went through four review rounds, but it mostly still reads AI. Of the ten v5 paragraphs that came through the reviews clean, two read Human ([the circle and the surveyor](https://www.pangram.com/history/69a5536b-6a45-4664-8a61-4c170a8871b7), [the legal form](https://www.pangram.com/history/a3919437-f310-469a-8ca2-e5a737867016)) and eight read AI-Generated ([the opening with its heading](https://www.pangram.com/history/d0e3eb7d-f131-4c0e-8410-cf42f6fa8e66), [the real conflict](https://www.pangram.com/history/547c5a29-a195-4e3d-b1f9-59c70ff1ee87), [what members can see](https://www.pangram.com/history/1083fcfe-6ac0-40d3-bbd1-5b23dab36fd7), [good reasons to leave](https://www.pangram.com/history/f3883058-d09e-4b31-9058-7985293f5180), [conduct with roles](https://www.pangram.com/history/5d5b78ad-30f1-4a01-9a30-fb5a2470ba39), [roles alone](https://www.pangram.com/history/d16c1860-64c5-4d3b-9ca6-9944885ab7b3), [the trial run](https://www.pangram.com/history/0095907a-2360-47bf-92fc-a817787605a9), ["Outside"](https://www.pangram.com/history/600461d8-f79a-4f05-b112-f3f3de5d34f9)). The section 13 page shows each one beside your text.
-- a) I keep going: a fresh Emulate round for each of those eight, then your meaning put back one change at a time, each change checked in Pangram. **My pick**, since it costs you nothing until there's a version that passes. It will take a few turns; section 12 went that way.
-- b) You rewrite it yourself, as you did sections 11 and 12, from your text or from my draft, and I check it. So far that's been the fastest route to a passing section.
-- c) Split it: you take the subsections you care most about (my guess: "When Somebody Has to Go"), and I do the rest.
+> None right now. Section 13 is going on paragraph by paragraph (your 31 a); its state is under "Coming up".
 
 ## For you to do (no decision needed)
 
@@ -32,6 +22,9 @@ The master copy of this page is a file in Git, so a session in either of your ac
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-10-15 13:10 UTC, on 30: "b the stance checks must not be seeing the context because it's quite clear already without needing to add anything, you don't see that?" Yes, I see it now, and I should have before asking. Section 13's own frame (full political membership, provisional and full membership, land the group buys together) places these rules in a community that has formed, after the stage your section 11 describes. One of the two checks even said so in its report, and the section's notes had already settled the visitor line that morning. Nothing changes in the text. In the rules: a flag that only holds if a rule is read outside its section gets dismissed with that reason, not turned into a question, and the stance check is now told to read each rule within its section.
+- 🟢 13:10, on 31: "a yeah that way you learn, i guess". Section 13 goes on paragraph by paragraph: a fresh Emulate round for each paragraph that read AI, your meaning put back with as few changes as possible, and each paragraph to Pangram as soon as its own reviews are clean.
 
 - 🟢 2026-10-15 11:04 UTC, on 27: "this passes:" with your reparenting paragraph and the three-sentence paragraph after it. Both are in section 4 as you wrote them; the links stay on "Inner-child reparenting" and "somatic regulation". Your "And this reparenting journey is built on" replaces my "And inner pl/ork is built on" from your I1 answer. Pangram: your paragraph Human (https://www.pangram.com/history/09856129-17c7-4974-a846-706c1a61928f), the two together Human (https://www.pangram.com/history/a3a01334-bc9c-4bc4-816f-7abe9c09607c), and section 4 100% Human (https://www.pangram.com/history/e4c1b49b-d61c-4079-bb7f-b17a0fdac06c).
 
