@@ -1106,13 +1106,19 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 
 | 2026-10-15 (turn 58) | P5, round 2, p5-m2 (lying awake: "But what if the new job doesn't work out?"; ironing a shirt) [t58b_p5m2], try 2 | Human, low-medium (my call: starts inside a moment, an aside, no punchline) | AI Generated (0.80, low; 66), all of it; 21:05:16 UTC, https://www.pangram.com/history/dc40e589-f339-4b62-b871-0bfd2c25ed90 | miss |
 | 2026-10-15 (turn 58) | P6, round 2, p6-m2 ("I should be doing more about the car.") [t58b_p6m2], try 2 | Human, low-medium (my call: self-talk first, one scene carried through) | AI Generated (0.999, low; 88), all of it; 21:05:27 UTC, https://www.pangram.com/history/a8b41d1e-e942-4258-a459-90c9d94084d7 | miss |
-| 2026-10-15 (turn 58) | P7, round 2, p7-m2 (the car and the rent; "Car's stuck, but the rent can't wait") [t58b_p7m2], try 2 | Human, low (my call: still a procedure) | AI Generated (0.998, low; 98), all of it; 21:05:38 UTC, https://www.pangram.com/history/3e3e080b-5393-4d98-9501-2652ba270bfd | hit |
-| 2026-10-15 (turn 58) | group 4, round 3, p5-a [t58c_p5a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p5-b [t58c_p5b], try 3 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p5-c [t58c_p5c], try 3 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p6-a [t58c_p6a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p6-b [t58c_p6b], try 3 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p6-c [t58c_p6c], try 3 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p7-a [t58c_p7a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p7-b [t58c_p7b], try 3 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 3, p7-c [t58c_p7c], try 3 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | P7, round 2, p7-m2 (the car and the rent; "Car's stuck, but the rent can't wait") [t58b_p7m2], try 2 | Human, low (my call: still a procedure) | AI Generated (0.998, low; 98), all of it; 21:05:38 UTC, https://www.pangram.com/history/3e3e080b-5393-4d98-9501-2652ba270bfd | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p5-a [t58c_p5a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | AI Generated (0.64, low; 62); 21:09:17 UTC, https://www.pangram.com/history/1b3af484-ab49-4944-945a-fc818a56db99 | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p5-b [t58c_p5b], try 3 | Human, low (my call) | AI Generated (0.986, low; 68); 21:09:29 UTC, https://www.pangram.com/history/3836d82c-9618-45c0-bd62-c1788f40c0cc | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p5-c [t58c_p5c], try 3 | Human, low (my call) | AI Generated (0.971, low; 60); 21:09:39 UTC, https://www.pangram.com/history/58f03270-27c8-43ad-a18c-9e6b37478787 | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p6-a [t58c_p6a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | AI Generated (0.961, medium; 102); 21:09:49 UTC, https://www.pangram.com/history/d1a308e1-bed3-4916-8c10-ac251cd45775 | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p6-b [t58c_p6b], try 3 | Human, low (my call) | AI Generated (0.999, low; 83); 21:10:00 UTC, https://www.pangram.com/history/16a5e725-1f1a-4c0d-bc7c-f6a69ff37438 | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p6-c [t58c_p6c], try 3 | Human, low (my call) | AI Generated (0.999, low; 76); 21:10:11 UTC, https://www.pangram.com/history/75d30e5a-ac36-44f4-9e78-1e0ac2611cba | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p7-a [t58c_p7a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | AI Generated (0.897, low; 92); 21:10:22 UTC, https://www.pangram.com/history/1f3df53d-f6bc-4b83-b296-b7037ec7f1c8 | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p7-b [t58c_p7b], try 3 | Human, low (my call) | AI Generated (0.926, low; 78); 21:10:32 UTC, https://www.pangram.com/history/6f3d92bb-4cf1-42dc-89d4-d9932ef76cd8 | miss |
+| 2026-10-15 (turn 58) | group 4, round 3, p7-c [t58c_p7c], try 3 | Human, low (my call) | (its result was not in the history list when read; not used) | — |
+| 2026-10-15 (turn 58) | group 4, round 4, p5-d (the example carries the instruction) [t58d_p5d], try 4 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 4, p5-e (the example carries the instruction) [t58d_p5e], try 4 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 4, p6-d (the example carries the instruction) [t58d_p6d], try 4 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 4, p6-e (the example carries the instruction) [t58d_p6e], try 4 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 4, p7-d (the example carries the instruction) [t58d_p7d], try 4 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 4, p7-e (the example carries the instruction) [t58d_p7e], try 4 | Human, low (my call) | | |
