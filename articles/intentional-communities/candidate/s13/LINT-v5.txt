@@ -1,0 +1,79 @@
+== tells_lint: articles/intentional-communities/candidate/s13/v5.md
+verdict: REVIEW
+metrics: {'words': 1807, 'my_words': 1788, 'paragraphs': 25, 'coach_per_100': 0.0, 'you_per_100': 1.6, 'landing_rate': 0.12, 'instruction_paragraphs': 0, 'para_len_cv': 0.41, 'sent_len_cv': 0.52, 'repeated_openers': {}}
+-- B1 finished principle (5)
+   * Even if it’s just three people around somebody’s kitchen table, that counts.
+   * People often pick a community the way they’d pick a vacation rental: the land is gorgeous, the sunset shows up in the pond, and everybody seemed really nice whe
+   * Nobody finds that romantic, but it protects people.
+   * Being open to everybody felt spiritual, but the practical burden piled up anyway.
+   * Most people can be charming for two weeks, so congrats, you’ve found out they can be charming for two weeks. 😅
+-- B2 contrast (1)
+   * Neutral or not, they’re still a stranger.
+-- B3 short knock-down (2)
+   * It’s the boring part, I know.
+   * That’s not much of a right.
+-- B4/E15 list or packed sentence (20)
+   * You find out which jealousy, humiliation, fear or old material is involved, and you only reach an agreement once the emotional pressure has changed enough for i
+   * Meet in rented or borrowed space, or at someone’s house, and find out how much conflict the group can handle before anyone hires a surveyor.
+   * Water, housing, food stores, health care.
+   * Tools, seasonal labor, transport, schooling, getting to markets.
+   * When you go to visit a community, have a list ready of what you really believe about children, money, property ownership, romance, medicine, food, spiritual pra
+   * Ask how they handled a recent conflict, who can block a decision, what happened to the last person who left, and who owns the land.
+   * What legal form will hold the land: a cooperative, trust, association, company, or whatever fits your jurisdiction?
+   * Members ought to be able to see what the community owns or holds in common and what’s been set aside, and what it owes to anyone outside.
+   * Define exit rights, too, so people can leave with something, in whatever form makes sense: cash if the community uses it, and also tools, transport, temporary h
+   * If you want the whole sequence, Diana Leafe Christian’s Creating a Life Together has it: the vision first, then the members, then pooling major resources, and t
+   * Watch how the person reacts when they’re tired or corrected, attracted or disappointed, or just bored.
+   * Provisional membership: decide how long it lasts and what rights and responsibilities come with it, plus how the review works and how they’d leave.
+   * Then full membership: rights to the land and shared resources, a voice, and long-term obligations, as your founding agreements set them out.
+   * If someone’s going to have a role with real consequences, around children, shared resources, medicine, vehicles or private records, you want evidence of how the
+   * Visitors, volunteers, workers, renters and interns don’t need full political membership to have rights.
+   * If a decision really affects their pay or their access to shared resources, they need clear terms and a way to be heard, and the decision should be open to revi
+   * The same goes for decisions that really affect their schedule, safety or housing, and their records or discipline.
+   * Sometimes somebody is a serious or general danger, keeps violating essential boundaries, or has become impossible to live with, and then ejecting them can be th
+   * While they’re separated, their housing, records and contact with family need protecting, and so does their access to common resources, or to outside funds if th
+   * Mediation is there to repair things, but it doesn’t replace evidence, safeguarding or a ruling, and once someone no longer consents to living together, it can’t
+-- B7 short landing at paragraph end (3)
+   * Mark those places too.
+   * That’s a lot of deciding, I realize.
+   * That’s not much of a right.
+-- E1 kid (1)
+   * What will the community do if one of its kids grows up gay or trans?
+-- E125 list of three: an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it's really needed"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them" (12)
+   * humiliation, fear or old material is involved
+   * privacy, conflict and leaving.
+   * association, company, or whatever fits your jurisdiction?
+   * like a dying parent, love or work.
+   * they’re tired or corrected, attracted or disappointed
+   * the land and shared resources, a voice, and long-term obligations
+   * people by their conduct, however spiritual or therapeutic they sound.
+   * medicine, vehicles or private records
+   * really affect their schedule, safety or housing
+   * a serious or general danger, keeps violating essential boundaries, or has become impossible to
+   * or a court, a regulator or an emergency service.
+   * it doesn’t replace evidence, safeguarding or a ruling
+-- O12 "ordinary/regular/boring/quietly": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"; 2026-10-10 12:22, on "shouldn't quietly turn into": "using quietly all the time like that is a huge AI tell"); keep one that says something, judge published wording like new wording (2)
+   * It’s the boring part, I know.
+   * Make one real group decision, do one ordinary work or shared-resource task, and process one small conflict afterward.
+-- O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate's trick in a list (Joel 2026-10-07) (1)
+   * Provisional membership: decide how long it lasts and what rights and responsibilities come with it, plus how the review works and how they’d leave.
+-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that's also cheating"); a coinage or a rare word stays, a misspelling gets fixed: non-members (the closed form "nonmembers" is standard) (1)
+   * Equality that stops at the membership line can bring back a servant class of non-members moving between communes.
+-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that's also cheating"); a coinage or a rare word stays, a misspelling gets fixed: ombud (1)
+   * Also pick a mediator or ombud before there’s a crisis, because people who meet the “neutral stranger” for the first time on the day things explode often don’t t
+-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that's also cheating"); a coinage or a rare word stays, a misspelling gets fixed: prenup (1)
+   * It’s the community version of a prenup that you work out while planning the wedding.
+-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that's also cheating"); a coinage or a rare word stays, a misspelling gets fixed: trans (1)
+   * What will the community do if one of its kids grows up gay or trans?
+-- O25 "even" or "actually", 2 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; "They're words I add to sound casual, and they don't help"): keep one only where it says something (2)
+   * I mean actually going through the conflict together, emotionally.
+   * Yes, even the summer volunteer.
+-- O29 a run of three or more questions (gate step 7: "a few shared AI micro-patterns (question runs, triads, "isn't X, it's Y")"; its prediction review: "questions the text answers itself"): keep the ones a reader would ask (1)
+   * 3 questions: Could an LGBTQ+ member live openly, have relationships and stay fully protected by the community? Should children be taught to question their sexua
+-- O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell ("Grief doesn't keep a schedule"); a phrase people say all the time is not (Joel 2026-10-07 23:50: "Modern life trains us" is "so common it's almost cliche, it's not a witty AI quip"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible (2)
+   * Define exit rights, too, so people can leave with something, in whatever form makes sense: cash if the community uses it, and also tools, transport, temporary h
+   * But autonomy doesn’t give anyone permission to erase individual rights that can’t be waived, and it doesn’t make outside jurisdiction disappear.
+-- O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a 'not Y' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said (1)
+   * Even a professional faker can sometimes keep it up for months, so time gets you more evidence, not certainty.
+-- R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent") (1)
+   * Have you seen them do it?

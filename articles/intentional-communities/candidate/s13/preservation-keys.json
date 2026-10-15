@@ -576,7 +576,9 @@
      "equipment"
     ],
     [
-     "stores"
+     "stores",
+     "stored supplies",
+     "stored goods"
     ],
     [
      "cash"
@@ -1186,7 +1188,9 @@
     [
      "outside help"
     ]
-   ]
+   ],
+   "span": 2,
+   "note": "span 2 since v2 (2026-10-15): the protections during separation and outside help are their own paragraph after the process"
   },
   {
    "id": "U60",
