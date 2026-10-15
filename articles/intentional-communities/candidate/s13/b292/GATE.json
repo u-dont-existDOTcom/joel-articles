@@ -1,0 +1,142 @@
+{
+ "S13v12-1hP1P2": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T1, T2",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r7/trace-T1.md (OK; unchanged since v9); s13/review-r9/trace-T1.md (its one finding, \"relational pl/ork\", kept: review-r6/DISPOSITIONS-r6.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 160
+ },
+ "S13v12-1P1P2": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T1, T2",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r7/trace-T1.md (OK; unchanged since v9); s13/review-r9/trace-T1.md (its one finding, \"relational pl/ork\", kept: review-r6/DISPOSITIONS-r6.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 152
+ },
+ "S13v12-1P2": {
+  "kind": "draft",
+  "march": [
+   "S S B S B",
+   "S S B S B"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T2",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r9/trace-T1.md (its one finding, \"relational pl/ork\", kept: review-r6/DISPOSITIONS-r6.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 110
+ },
+ "S13v12-3P1": {
+  "kind": "draft",
+  "march": [
+   "B B S S S",
+   "B B S S S"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T10",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r9/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 62
+ },
+ "S13v12-3hP1": {
+  "kind": "draft",
+  "march": [
+   "B B S S S",
+   "B B S S S"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T10",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r9/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 67
+ },
+ "S13v12-4P7": {
+  "kind": "draft",
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T21",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r9/trace-T4.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 91
+ },
+ "S13v12-5P1": {
+  "kind": "draft",
+  "march": [
+   "S B S B S",
+   "S B S B S"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T24",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r9/trace-T5.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 70
+ },
+ "S13v12-5hP1": {
+  "kind": "draft",
+  "march": [
+   "S B S B S",
+   "S B S B S"
+  ],
+  "march_note": "s13/review-r9/MARCH-labels-a.txt and -b.txt, T24",
+  "cold": "OK",
+  "cold_note": "s13/review-r9/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r9/trace-T5.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r9/STANCE-pub.md, STANCE-sofar.md: no conflicts in the rewrite",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 75
+ }
+}
