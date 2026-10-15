@@ -1,0 +1,197 @@
+{
+ "J4-P11d": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-15 11:04 UTC: \"27: this passes:\" (joel-20261015/joel-20261015-1104-message.txt), his reparenting paragraph",
+  "words": 76
+ },
+ "J4-P11dP12d": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-15 11:04 UTC: \"27: this passes:\" (joel-20261015/joel-20261015-1104-message.txt), his two paragraphs (the second is under 50 words)",
+  "words": 113
+ },
+ "S4v113": {
+  "kind": "section",
+  "parts": [
+   "J4-P11d",
+   "J4-P11dP12d",
+   "installed"
+  ],
+  "repeats": 0,
+  "repeats_note": "s13/review-r3/REPEATS.md (2026-10-15): nothing on his two new paragraphs (B68, B69); the section's other repeats as answered on 2026-10-14 (fix-20261014b/gate/REPEATS-DISPOSITIONS.md)",
+  "words": 1523
+ },
+ "S13v5-1P1P2": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S S B S S",
+   "S S S B S S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T1, T2",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md; trace r3 T1 called \"Even if it’s just three people around somebody’s kitchen table, that counts.\" added; trace r2 T1 called the same words an instance of the published claim. Traces disagree on unchanged words: the published sentence decides (gate, section 3 lesson), and the line only illustrates \"small group\".; trace r3 T1 called \"That’s relational pl/ork.\" a new label; it names the article’s own section 4 term for working through conflict and jealousy (the r2 stance check quoted section 4 for it), and both stance checks of r3 read it with the whole article and raised nothing.",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 127
+ },
+ "S13v5-1P2": {
+  "kind": "draft",
+  "march": [
+   "S S S B S S",
+   "S S S B S S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T2",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md; trace r3 T1 called \"That’s relational pl/ork.\" a new label; it names the article’s own section 4 term for working through conflict and jealousy (the r2 stance check quoted section 4 for it), and both stance checks of r3 read it with the whole article and raised nothing.",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 86
+ },
+ "S13v5-1P3": {
+  "kind": "draft",
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T3",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 56
+ },
+ "S13v5-3P2": {
+  "kind": "draft",
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T10",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 67
+ },
+ "S13v5-3P3": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S B",
+   "S S S S S S B"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T11",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 146
+ },
+ "S13v5-3P4": {
+  "kind": "draft",
+  "march": [
+   "S S S S B B S S",
+   "S S S S B B S S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T12",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 112
+ },
+ "S13v5-4P6P7": {
+  "kind": "draft",
+  "march": [
+   "S B S S",
+   "S B S S",
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T18, T19",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 99
+ },
+ "S13v5-4P7": {
+  "kind": "draft",
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T19",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 57
+ },
+ "S13v5-4P8": {
+  "kind": "draft",
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T20",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 70
+ },
+ "S13v5-5P3": {
+  "kind": "draft",
+  "march": [
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "s13/review-r3/MARCH-labels-a.txt and -b.txt, paragraphs T24",
+  "cold": "OK",
+  "cold_note": "s13/review-r3/SENSE-a.md, SENSE-b.md: OK",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r3/trace-T*.md",
+  "stance": 0,
+  "stance_note": "s13/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflict in these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 93
+ }
+}

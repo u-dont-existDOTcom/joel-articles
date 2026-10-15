@@ -1,0 +1,1355 @@
+{
+ "section": "Community section 13, \"Your Little Forming Group Already Is the Community\"",
+ "about": "The words each preservation unit of STANCE-LEDGER-s13.md rests on (2026-10-15). Check: python3 tools/humanization/preservation_keys.py s13/preservation-keys.json DRAFT. Alternatives added 2026-10-15 for v7 (Emulate's wording) carry a note_v7 on their unit: only words with the same meaning, each left for the trace to confirm.",
+ "units": [
+  {
+   "id": "U1",
+   "what": "land can wait",
+   "keys": [
+    [
+     "land"
+    ]
+   ]
+  },
+  {
+   "id": "U2",
+   "what": "the first community is the small group considering whether to build one",
+   "keys": [
+    [
+     "first community",
+     "already is the community",
+     "already a community"
+    ],
+    [
+     "small group",
+     "group"
+    ]
+   ]
+  },
+  {
+   "id": "U3",
+   "what": "before ownership and major resources mix, process one real conflict",
+   "keys": [
+    [
+     "ownership"
+    ],
+    [
+     "resources"
+    ],
+    [
+     "conflict"
+    ]
+   ]
+  },
+  {
+   "id": "U4",
+   "what": "no vision statement or truce nobody believes",
+   "keys": [
+    [
+     "vision statement"
+    ],
+    [
+     "truce"
+    ]
+   ]
+  },
+  {
+   "id": "U5",
+   "what": "name what happened; time for each person; jealousy, humiliation, fear, old material",
+   "keys": [
+    [
+     "jealousy"
+    ],
+    [
+     "humiliation"
+    ],
+    [
+     "fear"
+    ],
+    [
+     "old material"
+    ]
+   ]
+  },
+  {
+   "id": "U6",
+   "what": "agree only after the emotional pressure changed",
+   "keys": [
+    [
+     "emotional pressure",
+     "pressure"
+    ],
+    [
+     "agreement",
+     "agree"
+    ]
+   ]
+  },
+  {
+   "id": "U7",
+   "what": "still a circle of promising strangers",
+   "keys": [
+    [
+     "circle"
+    ],
+    [
+     "strangers"
+    ]
+   ]
+  },
+  {
+   "id": "U8",
+   "what": "no mortgage yet",
+   "keys": [
+    [
+     "mortgage"
+    ],
+    [
+     "yet"
+    ]
+   ]
+  },
+  {
+   "id": "U9",
+   "what": "meet in a rented, borrowed or home space",
+   "keys": [
+    [
+     "rent",
+     "rented"
+    ],
+    [
+     "borrow",
+     "borrowed"
+    ],
+    [
+     "home",
+     "house"
+    ]
+   ]
+  },
+  {
+   "id": "U10",
+   "what": "conflict capacity before a surveyor",
+   "keys": [
+    [
+     "conflict"
+    ],
+    [
+     "surveyor",
+     "land"
+    ]
+   ]
+  },
+  {
+   "id": "U11",
+   "what": "the capacity budget, eleven items",
+   "keys": [
+    [
+     "budget"
+    ],
+    [
+     "water"
+    ],
+    [
+     "housing"
+    ],
+    [
+     "food"
+    ],
+    [
+     "health care",
+     "healthcare"
+    ],
+    [
+     "tools"
+    ],
+    [
+     "seasonal labor"
+    ],
+    [
+     "transport"
+    ],
+    [
+     "school",
+     "schooling"
+    ],
+    [
+     "market",
+     "markets"
+    ],
+    [
+     "debt",
+     "debts"
+    ],
+    [
+     "skills"
+    ]
+   ]
+  },
+  {
+   "id": "U12",
+   "what": "emotional skill, and still the well or one exhausted person",
+   "keys": [
+    [
+     "emotional",
+     "emotionally"
+    ],
+    [
+     "well"
+    ],
+    [
+     "exhausted"
+    ]
+   ]
+  },
+  {
+   "id": "U13",
+   "what": "choose communities like vacation rentals",
+   "keys": [
+    [
+     "vacation rental",
+     "vacation rentals"
+    ],
+    [
+     "pond"
+    ],
+    [
+     "sunset"
+    ]
+   ]
+  },
+  {
+   "id": "U14",
+   "what": "the pond first, the vaccination policy two years later",
+   "keys": [
+    [
+     "pond"
+    ],
+    [
+     "vaccination"
+    ],
+    [
+     "two years"
+    ]
+   ]
+  },
+  {
+   "id": "U15",
+   "what": "write down your beliefs about eleven areas",
+   "keys": [
+    [
+     "children",
+     "kids"
+    ],
+    [
+     "money"
+    ],
+    [
+     "ownership"
+    ],
+    [
+     "romance"
+    ],
+    [
+     "medicine"
+    ],
+    [
+     "food"
+    ],
+    [
+     "spiritual"
+    ],
+    [
+     "technology"
+    ],
+    [
+     "privacy"
+    ],
+    [
+     "conflict"
+    ],
+    [
+     "exit",
+     "leaving"
+    ]
+   ]
+  },
+  {
+   "id": "U16",
+   "what": "mark where you are unsure",
+   "keys": [
+    [
+     "unsure",
+     "not sure"
+    ]
+   ]
+  },
+  {
+   "id": "U17",
+   "what": "add sexuality and gender",
+   "keys": [
+    [
+     "sexuality"
+    ],
+    [
+     "gender"
+    ]
+   ]
+  },
+  {
+   "id": "U18",
+   "what": "the three questions",
+   "keys": [
+    [
+     "LGBTQ"
+    ],
+    [
+     "openly"
+    ],
+    [
+     "protected"
+    ],
+    [
+     "question their sexual identities",
+     "question their sexuality"
+    ],
+    [
+     "gay"
+    ],
+    [
+     "trans"
+    ]
+   ]
+  },
+  {
+   "id": "U19",
+   "what": "not finished discussing freedom or child-rearing values",
+   "keys": [
+    [
+     "freedom"
+    ],
+    [
+     "child-rearing",
+     "raising children",
+     "raise kids",
+     "raising kids"
+    ]
+   ]
+  },
+  {
+   "id": "U20",
+   "what": "willing to experiment must be declared; 1978; doctrine",
+   "keys": [
+    [
+     "experiment"
+    ],
+    [
+     "declare",
+     "declared"
+    ],
+    [
+     "1978"
+    ],
+    [
+     "doctrine"
+    ]
+   ]
+  },
+  {
+   "id": "U21",
+   "what": "actual behavior, not only public language",
+   "keys": [
+    [
+     "behavior",
+     "behaviour",
+     "actually does",
+     "actually functions"
+    ],
+    [
+     "public language",
+     "public",
+     "how they talk about"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"actually functions\", \"how they talk about\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U22",
+   "what": "the four questions to ask",
+   "keys": [
+    [
+     "recent conflict",
+     "conflict"
+    ],
+    [
+     "block"
+    ],
+    [
+     "last person who left",
+     "left"
+    ],
+    [
+     "owns the land"
+    ]
+   ]
+  },
+  {
+   "id": "U23",
+   "what": "the view will still be there",
+   "keys": [
+    [
+     "view"
+    ]
+   ]
+  },
+  {
+   "id": "U24",
+   "what": "whoever owns the land holds power",
+   "keys": [
+    [
+     "owns the land",
+     "land"
+    ],
+    [
+     "power"
+    ]
+   ]
+  },
+  {
+   "id": "U25",
+   "what": "a landlord with a philosophy",
+   "keys": [
+    [
+     "deed"
+    ],
+    [
+     "landlord"
+    ],
+    [
+     "philosophy"
+    ]
+   ]
+  },
+  {
+   "id": "U26",
+   "what": "three of twelve: two classes",
+   "keys": [
+    [
+     "three"
+    ],
+    [
+     "twelve"
+    ],
+    [
+     "two"
+    ],
+    [
+     "class",
+     "classes"
+    ],
+    [
+     "equal"
+    ]
+   ]
+  },
+  {
+   "id": "U27",
+   "what": "legal form before the purchase",
+   "keys": [
+    [
+     "legal"
+    ],
+    [
+     "cooperative"
+    ],
+    [
+     "trust"
+    ],
+    [
+     "association"
+    ],
+    [
+     "company"
+    ],
+    [
+     "jurisdiction"
+    ],
+    [
+     "purchase",
+     "buy",
+     "buying",
+     "bought"
+    ]
+   ]
+  },
+  {
+   "id": "U28",
+   "what": "the decisions",
+   "keys": [
+    [
+     "voting"
+    ],
+    [
+     "access"
+    ],
+    [
+     "use rights"
+    ],
+    [
+     "contribution",
+     "contributions"
+    ],
+    [
+     "inheritance",
+     "dies"
+    ],
+    [
+     "outside debt",
+     "debt"
+    ],
+    [
+     "improvements"
+    ],
+    [
+     "leaves",
+     "leave",
+     "leaving"
+    ]
+   ]
+  },
+  {
+   "id": "U29",
+   "what": "legible; money-free still has scarce things and bottlenecks",
+   "keys": [
+    [
+     "legible",
+     "visible",
+     "visibility"
+    ],
+    [
+     "money-free",
+     "moneyless",
+     "moneyfree"
+    ],
+    [
+     "scarce"
+    ],
+    [
+     "bottleneck",
+     "bottlenecks"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"visibility\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U30",
+   "what": "what members can know",
+   "keys": [
+    [
+     "owns",
+     "owned"
+    ],
+    [
+     "common"
+    ],
+    [
+     "reserved",
+     "set aside"
+    ],
+    [
+     "obligations",
+     "owes"
+    ],
+    [
+     "allocate",
+     "hand out",
+     "distribution"
+    ],
+    [
+     "conflicts of interest"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"distribution\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U31",
+   "what": "large transfers not on one person",
+   "keys": [
+    [
+     "transfer",
+     "transfers"
+    ],
+    [
+     "equipment"
+    ],
+    [
+     "stores",
+     "stored supplies",
+     "stored goods"
+    ],
+    [
+     "cash"
+    ],
+    [
+     "one person"
+    ]
+   ]
+  },
+  {
+   "id": "U32",
+   "what": "exit rights in kind, not a paper right",
+   "keys": [
+    [
+     "exit",
+     "leave"
+    ],
+    [
+     "tools"
+    ],
+    [
+     "transport"
+    ],
+    [
+     "housing"
+    ],
+    [
+     "stored goods",
+     "stores",
+     "stored food"
+    ],
+    [
+     "use rights",
+     "keep using"
+    ],
+    [
+     "paper right",
+     "on paper"
+    ]
+   ]
+  },
+  {
+   "id": "U33",
+   "what": "good people leave for good reasons",
+   "keys": [
+    [
+     "good reasons"
+    ],
+    [
+     "dying parent",
+     "parent"
+    ],
+    [
+     "love"
+    ],
+    [
+     "work"
+    ],
+    [
+     "health"
+    ],
+    [
+     "exhaustion"
+    ],
+    [
+     "changed mind",
+     "change of mind",
+     "changed their mind",
+     "mind"
+    ]
+   ]
+  },
+  {
+   "id": "U34",
+   "what": "forfeiting makes staying coercive",
+   "keys": [
+    [
+     "forfeit",
+     "forfeiting",
+     "giving up everything",
+     "give up everything",
+     "leave everything"
+    ],
+    [
+     "coercive",
+     "coercing"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"leave everything\", \"coercing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U35",
+   "what": "exit terms while departure is hypothetical",
+   "keys": [
+    [
+     "exit terms",
+     "terms of letting someone leave"
+    ],
+    [
+     "hypothetical",
+     "theoretical"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"terms of letting someone leave\", \"theoretical\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U36",
+   "what": "a prenup while planning the wedding",
+   "keys": [
+    [
+     "prenup",
+     "pre-nup"
+    ],
+    [
+     "wedding"
+    ],
+    [
+     "furious"
+    ]
+   ]
+  },
+  {
+   "id": "U37",
+   "what": "the sequence in Creating a Life Together",
+   "keys": [
+    [
+     "vision"
+    ],
+    [
+     "membership",
+     "members"
+    ],
+    [
+     "resources"
+    ],
+    [
+     "land"
+    ],
+    [
+     "Creating a Life Together"
+    ],
+    [
+     "Diana Leafe Christian"
+    ]
+   ]
+  },
+  {
+   "id": "U38",
+   "what": "The Farm: fast, in need, few filters, openness felt spiritual, the burden piled up",
+   "keys": [
+    [
+     "The Farm"
+    ],
+    [
+     "need"
+    ],
+    [
+     "filters"
+    ],
+    [
+     "spiritual"
+    ],
+    [
+     "burden"
+    ]
+   ]
+  },
+  {
+   "id": "U39",
+   "what": "a membership process protects both",
+   "keys": [
+    [
+     "membership process"
+    ],
+    [
+     "already there",
+     "existing members"
+    ],
+    [
+     "newcomers"
+    ],
+    [
+     "promised"
+    ]
+   ]
+  },
+  {
+   "id": "U40",
+   "what": "correspond first",
+   "keys": [
+    [
+     "correspond"
+    ],
+    [
+     "materials"
+    ],
+    [
+     "practices"
+    ],
+    [
+     "six-month",
+     "six months"
+    ]
+   ]
+  },
+  {
+   "id": "U41",
+   "what": "short visit: charming for two weeks",
+   "keys": [
+    [
+     "short visit",
+     "Short visit"
+    ],
+    [
+     "charming"
+    ],
+    [
+     "two weeks"
+    ]
+   ]
+  },
+  {
+   "id": "U42",
+   "what": "long visit: inconvenience and conflict; five states",
+   "keys": [
+    [
+     "long visit",
+     "Long visit"
+    ],
+    [
+     "inconvenience"
+    ],
+    [
+     "conflict",
+     "conflicts"
+    ],
+    [
+     "tired"
+    ],
+    [
+     "corrected"
+    ],
+    [
+     "attracted"
+    ],
+    [
+     "disappointed"
+    ],
+    [
+     "bored"
+    ]
+   ]
+  },
+  {
+   "id": "U43",
+   "what": "a professional faker: more evidence, not certainty",
+   "keys": [
+    [
+     "faker"
+    ],
+    [
+     "months"
+    ],
+    [
+     "evidence"
+    ],
+    [
+     "certainty"
+    ]
+   ]
+  },
+  {
+   "id": "U44",
+   "what": "provisional membership terms; recruiter does not decide",
+   "keys": [
+    [
+     "provisional"
+    ],
+    [
+     "how long",
+     "period"
+    ],
+    [
+     "rights"
+    ],
+    [
+     "responsibilities",
+     "responsible for"
+    ],
+    [
+     "review"
+    ],
+    [
+     "leave",
+     "exit"
+    ],
+    [
+     "recruiter",
+     "recruited"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"responsible for\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U45",
+   "what": "full membership per the founding agreements",
+   "keys": [
+    [
+     "full membership",
+     "Full membership",
+     "full member"
+    ],
+    [
+     "voice"
+    ],
+    [
+     "obligations",
+     "responsible for over the long term"
+    ],
+    [
+     "founding agreements",
+     "agreements you draw up when you are first starting"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"full member\", \"responsible for over the long term\", \"agreements you draw up when you are first starting\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U46",
+   "what": "conduct, not vocabulary or fluency",
+   "keys": [
+    [
+     "conduct",
+     "what they actually do"
+    ],
+    [
+     "spiritual vocabulary",
+     "vocabulary",
+     "spiritual"
+    ],
+    [
+     "therapeutic",
+     "their therapy"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"their therapy\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U47",
+   "what": "vibes; conformity for safety; no good-person detector",
+   "keys": [
+    [
+     "vibes"
+    ],
+    [
+     "conformity",
+     "doing what everyone else is doing"
+    ],
+    [
+     "safety"
+    ],
+    [
+     "six months"
+    ],
+    [
+     "good person"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"doing what everyone else is doing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U48",
+   "what": "high-consequence roles",
+   "keys": [
+    [
+     "children",
+     "kids"
+    ],
+    [
+     "medicine"
+    ],
+    [
+     "vehicles",
+     "cars"
+    ],
+    [
+     "records"
+    ],
+    [
+     "references"
+    ],
+    [
+     "staged",
+     "in stages"
+    ],
+    [
+     "challenge",
+     "appeal to a separate authority",
+     "appeal that decision",
+     "appeal decisions"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"appeal to a separate authority\"; v8: \"appeal that decision\"; v10: \"appeal decisions\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U49",
+   "what": "before provisional: decision, task, conflict",
+   "keys": [
+    [
+     "decision"
+    ],
+    [
+     "task",
+     "work"
+    ],
+    [
+     "conflict"
+    ]
+   ]
+  },
+  {
+   "id": "U50",
+   "what": "a simulation can not reveal a soul; before anybody sells a house",
+   "keys": [
+    [
+     "soul"
+    ],
+    [
+     "coordination",
+     "coordinating"
+    ],
+    [
+     "sells a house",
+     "sell their house"
+    ]
+   ]
+  },
+  {
+   "id": "U51",
+   "what": "non-members have rights",
+   "keys": [
+    [
+     "visitors"
+    ],
+    [
+     "volunteers"
+    ],
+    [
+     "workers"
+    ],
+    [
+     "renters"
+    ],
+    [
+     "interns"
+    ],
+    [
+     "rights"
+    ]
+   ]
+  },
+  {
+   "id": "U52",
+   "what": "clear terms, a way to be heard, and review",
+   "keys": [
+    [
+     "compensation",
+     "pay"
+    ],
+    [
+     "schedule"
+    ],
+    [
+     "safety"
+    ],
+    [
+     "housing"
+    ],
+    [
+     "records"
+    ],
+    [
+     "discipline"
+    ],
+    [
+     "clear terms"
+    ],
+    [
+     "heard"
+    ],
+    [
+     "review"
+    ]
+   ]
+  },
+  {
+   "id": "U53",
+   "what": "a servant class between communes",
+   "keys": [
+    [
+     "egalitarian",
+     "egalitarianism",
+     "equality"
+    ],
+    [
+     "servant class"
+    ],
+    [
+     "between communes",
+     "from commune to commune"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"from commune to commune\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U54",
+   "what": "cannot promise to keep everyone",
+   "keys": [
+    [
+     "keep everyone",
+     "kick people out"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"kick people out\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U55",
+   "what": "the three grounds; ejection",
+   "keys": [
+    [
+     "danger"
+    ],
+    [
+     "boundaries"
+    ],
+    [
+     "impossible",
+     "not someone people can live with"
+    ],
+    [
+     "eject",
+     "ejection",
+     "ejecting",
+     "removal",
+     "remove"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"not someone people can live with\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U56",
+   "what": "restorative work on a reasonable timescale; no treatment program",
+   "keys": [
+    [
+     "restorative"
+    ],
+    [
+     "reasonable"
+    ],
+    [
+     "treatment program",
+     "provide them treatment"
+    ],
+    [
+     "endangering",
+     "danger"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"provide them treatment\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  },
+  {
+   "id": "U57",
+   "what": "the power to remove is easy to abuse",
+   "keys": [
+    [
+     "power to remove"
+    ],
+    [
+     "abuse"
+    ]
+   ]
+  },
+  {
+   "id": "U58",
+   "what": "the process before it is about anyone",
+   "keys": [
+    [
+     "process"
+    ],
+    [
+     "before"
+    ],
+    [
+     "anyone in particular",
+     "anyone"
+    ]
+   ]
+  },
+  {
+   "id": "U59",
+   "what": "the parts of the process",
+   "keys": [
+    [
+     "protective action",
+     "action to protect"
+    ],
+    [
+     "evidence"
+    ],
+    [
+     "recused",
+     "recuse",
+     "steps aside",
+     "step aside",
+     "participating in the decision"
+    ],
+    [
+     "temporary"
+    ],
+    [
+     "replies",
+     "reply",
+     "respond"
+    ],
+    [
+     "review",
+     "appeal"
+    ],
+    [
+     "housing",
+     "housed"
+    ],
+    [
+     "records"
+    ],
+    [
+     "family"
+    ],
+    [
+     "outside help"
+    ]
+   ],
+   "span": 2,
+   "note": "span 2 since v2 (2026-10-15): the protections during separation and outside help are their own paragraph after the process",
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"participating in the decision\", \"housed\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back. v12: \"action to protect\" (Emulate round f's \"immediate action to protect people\")."
+  },
+  {
+   "id": "U60",
+   "what": "outside is not always the nation-state; his research",
+   "keys": [
+    [
+     "nation-state",
+     "nation state"
+    ],
+    [
+     "research"
+    ]
+   ]
+  },
+  {
+   "id": "U61",
+   "what": "a competent layer not reviewing its own conduct",
+   "keys": [
+    [
+     "competent"
+    ],
+    [
+     "own conduct"
+    ],
+    [
+     "community"
+    ],
+    [
+     "federation"
+    ],
+    [
+     "professional"
+    ],
+    [
+     "regional"
+    ],
+    [
+     "court"
+    ],
+    [
+     "regulator"
+    ],
+    [
+     "emergency"
+    ]
+   ]
+  },
+  {
+   "id": "U62",
+   "what": "the Zapatistas: autonomous review without the state",
+   "keys": [
+    [
+     "Zapatistas"
+    ],
+    [
+     "autonomous"
+    ],
+    [
+     "state"
+    ]
+   ]
+  },
+  {
+   "id": "U63",
+   "what": "non-waivable rights; outside jurisdiction",
+   "keys": [
+    [
+     "non-waivable",
+     "can’t be waived",
+     "can't be waived"
+    ],
+    [
+     "jurisdiction"
+    ]
+   ]
+  },
+  {
+   "id": "U64",
+   "what": "a mediator or ombud before the crisis",
+   "keys": [
+    [
+     "mediator"
+    ],
+    [
+     "ombud"
+    ],
+    [
+     "neutral stranger"
+    ],
+    [
+     "trust"
+    ]
+   ]
+  },
+  {
+   "id": "U65",
+   "what": "mediation is repair, not a substitute",
+   "keys": [
+    [
+     "repair",
+     "restore good relations"
+    ],
+    [
+     "evidence"
+    ],
+    [
+     "safeguarding"
+    ],
+    [
+     "adjudication",
+     "ruling"
+    ],
+    [
+     "separation"
+    ],
+    [
+     "consent"
+    ]
+   ],
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"restore good relations\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+  }
+ ]
+}

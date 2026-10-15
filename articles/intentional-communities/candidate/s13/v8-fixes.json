@@ -1,0 +1,296 @@
+[
+ {
+  "id": "H1-P2",
+  "old": "What comes up in conflicts is always jealousy, humiliation, fear, or other old material, so find out which.",
+  "new": "What comes up in the conflict is jealousy, humiliation, fear, or old material, and you find out which.",
+  "why": "trace T1 (shift: \"always\", and fear filed under old material) and both stance checks (every conflict made old wounds); \"the conflict\" is the one being processed. Not an imperative: the linter counted the paragraph as instructions (E23)"
+ },
+ {
+  "id": "H1-P2",
+  "old": "and then you can make one.",
+  "new": "and then you can make one. Otherwise, what's it worth?",
+  "why": "march: no break in either reading; the published \"enough that the agreement means something\" said again as a question"
+ },
+ {
+  "id": "H1-P4",
+  "old": "you'll also need to budget for the group's physical needs.",
+  "new": "you'll also need to budget for the group's practical side.",
+  "why": "trace T1: \"physical needs\" lists needs, not what the group can provide, and narrows the list"
+ },
+ {
+  "id": "H1-P4",
+  "old": "What critical skills will the group need that they don't currently have?",
+  "new": "What are the few critical skills that would stop everything if nobody had them?",
+  "why": "trace T1: the published \"the few skills whose absence can stop everything\", not only the missing ones"
+ },
+ {
+  "id": "H1-P4",
+  "old": "It's boring stuff but in the end, a group could be great",
+  "new": "It's boring stuff, I know. But in the end, a group could be great",
+  "why": "march: a break in one reading only; \"It's the boring part, I know.\" read as a break in both readings of round r4"
+ },
+ {
+  "id": "H2-P1",
+  "old": "Have you noticed people choose",
+  "new": "Have you noticed people often choose",
+  "why": "trace T1: \"often\" lost"
+ },
+ {
+  "id": "H2-P3",
+  "old": "Throw sexuality and gender onto that list. Is it ok",
+  "new": "Throw sexuality and gender onto that list. Yes, it keeps getting longer. Is it ok",
+  "why": "march: no break in either reading; the aside rounds r2 to r4 passed (\"an aside\", no claim)"
+ },
+ {
+  "id": "H2-P3",
+  "old": "if you are a member of the aforementioned community?",
+  "new": "if you are LGBTQ+?",
+  "why": "trace T2: \"the aforementioned community\" could be the community visited"
+ },
+ {
+  "id": "H2-P3",
+  "old": "Will your children be encouraged or discouraged",
+  "new": "Should children be encouraged or discouraged",
+  "why": "trace T2: \"should\" (what the community teaches), not \"will\", and children, not your own"
+ },
+ {
+  "id": "H2-P3",
+  "old": "Should your children grow up to be gay or transgender",
+  "new": "Should one of the children grow up to be gay or transgender",
+  "why": "trace T2: one of the children, as published"
+ },
+ {
+  "id": "H2-P4",
+  "old": "It might be uncomfortable to have some of these conversations",
+  "new": "It’ll be uncomfortable to have these conversations",
+  "why": "trace T2: the published says the conversation is uncomfortable, not that it might be"
+ },
+ {
+  "id": "H3-P1",
+  "old": "People tend to not take this into account enough. Whoever has the title to the land has a massive amount",
+  "new": "Who has the title to the land? People tend to not take this into account enough. Whoever has it has a massive amount",
+  "why": "trace T2: \"this\" pointed at nothing (a heading comes between); the question names it, and is the break the march read wanted (one reading had none)"
+ },
+ {
+  "id": "H3-P1",
+  "old": "If it's in the name of three members out of twelve,",
+  "new": "If three members out of twelve own everything,",
+  "why": "trace T2: everything owned, not only the title"
+ },
+ {
+  "id": "H3-P3",
+  "old": "If the community does not use money, it still needs to be able to provide people with resources when they leave (tools,",
+  "new": "Whether or not the community uses money, it still needs to be able to provide people with resources when they leave (cash if it uses money, plus tools,",
+  "why": "trace T2 and both stance checks: in-kind exit rights for every community, cash as well where it is used (\"plus\", not the published \"but also\": the linter's O36)"
+ },
+ {
+  "id": "H3-P3",
+  "old": "if there is money around.",
+  "new": "if there is money around. That's not much of a right.",
+  "why": "march: no break in either reading; round r3's trace: \"Not a claim\", it repeats \"paper right\""
+ },
+ {
+  "id": "H3-P4",
+  "old": "Good people leave for good reasons, often due to a dying parent,",
+  "new": "Good people leave for good reasons, like a dying parent,",
+  "why": "trace T3: the list is the reasons, not frequent causes among others"
+ },
+ {
+  "id": "H3-P4",
+  "old": "You should set the terms of letting someone leave when no one is leaving, and it’s just a theoretical discussion.",
+  "new": "You should write down the exit terms while no one is leaving yet, and it’s still just a theoretical discussion.",
+  "why": "trace T3: \"write\", \"exit terms\" and \"still\" lost"
+ },
+ {
+  "id": "H4-P2",
+  "old": "do the practices?",
+  "new": "do the relevant practices?",
+  "why": "trace T3: \"relevant\" lost"
+ },
+ {
+  "id": "H4-P2",
+  "old": "It’s better to just find out that way than after you spend six months together, right?",
+  "new": "It’s a lot cheaper to find out that way than after six months of misunderstanding, right?",
+  "why": "trace T3: the published \"costs far less than a six-month misunderstanding\""
+ },
+ {
+  "id": "H4-P3",
+  "old": "If you go for a week or two and just participate in normal life",
+  "new": "If they come for a week or two and just participate in normal life",
+  "why": "cold read b: \"you go\" made the visitor the one judging, then \"they\" the one judged"
+ },
+ {
+  "id": "H4-P3",
+  "old": "so if that's all you do,",
+  "new": "so if that's all they do,",
+  "why": "cold read b, the same"
+ },
+ {
+  "id": "H4-P4",
+  "old": "to actually experience any inconvenience or conflict with the person in question",
+  "new": "to actually experience inconvenience and conflict with the person in question",
+  "why": "trace T3: both, not either"
+ },
+ {
+  "id": "H4-P4",
+  "old": "bored, etc. Even",
+  "new": "bored, etc. (Hopefully not all at once!) Even",
+  "why": "march: no break in either reading; an aside on the five states, no claim"
+ },
+ {
+  "id": "H4-P4",
+  "old": "may be able to pull off an act for a few months if they're really motivated, so",
+  "new": "may be able to pull off an act for months, so",
+  "why": "trace T3: \"if they're really motivated\" a new cause, \"a few\" a cap"
+ },
+ {
+  "id": "H4-P5",
+  "old": "Who will make the decision about a person becoming a full member? (It shouldn't be",
+  "new": "Who will make the decision about a person becoming a full member? (Hint: it shouldn't be",
+  "why": "march: no break in either reading; the published \"the recruiter should not control the decision\" said again as an aside"
+ },
+ {
+  "id": "H4-P5",
+  "old": "(These should be addressed",
+  "new": "(Both should be addressed",
+  "why": "trace T4: \"These\" took in the provisional questions; the founding agreements set full membership's terms"
+ },
+ {
+  "id": "H4-P6",
+  "old": "Even giving it six months will not give you enough data to know if someone is a good person.",
+  "new": "Even giving it six months will give you more data, but it won’t tell you if someone is a good person.",
+  "why": "trace T4: more data doesn't make the judging valid; the limit isn't the amount of data"
+ },
+ {
+  "id": "H4-P7",
+  "old": "you want to know how they handle that specific thing.",
+  "new": "you want to know how they handle that specific thing. Being great with kids doesn’t mean someone should have the van keys!",
+  "why": "march: no break in either reading; the published \"conduct-specific evidence\" said again as an example"
+ },
+ {
+  "id": "H4-P7",
+  "old": "You can do this by asking if you’ve seen them",
+  "new": "You can find out by asking if you’ve seen them",
+  "why": "after the new example, \"do this\" could point at it; \"find out\" (how they handle that thing) can't"
+ },
+ {
+  "id": "H4-P7",
+  "old": "some way for someone to appeal to a separate authority if needed.",
+  "new": "some way for someone to appeal that decision to a separate authority if needed.",
+  "why": "trace T4: what is appealed, lost"
+ },
+ {
+  "id": "H4-P8",
+  "old": "Do stuff together prior to making them provisional members. Can",
+  "new": "Do stuff together prior to making them provisional members. Hanging out doesn't count! Can",
+  "why": "march: no break in either reading; the published \"do more than hang out\" said again as a reaction"
+ },
+ {
+  "id": "H4-P8",
+  "old": "before people have to sell their houses to join.",
+  "new": "before anybody sells a house.",
+  "why": "trace T4: the published doesn't say joining means selling a house"
+ },
+ {
+  "id": "H4-P9",
+  "old": "even if they're not \"in\" the commune politically?",
+  "new": "even if they're not fully \"in\" the commune politically?",
+  "why": "trace T4: \"full\" political membership"
+ },
+ {
+  "id": "H4-P9",
+  "old": "pay or use of resources,",
+  "new": "pay or access to shared resources,",
+  "why": "trace T4: access, and shared"
+ },
+ {
+  "id": "H4-P9",
+  "old": "records, discipline, etc.",
+  "new": "records or discipline.",
+  "why": "trace T4: \"etc.\" opened the list of what a decision has to affect"
+ },
+ {
+  "id": "H4-P9",
+  "old": "a risk of creating servant classes from commune to commune.",
+  "new": "a risk of recreating a servant class that moves from commune to commune.",
+  "why": "trace T4: one class between communes, and \"recreating\""
+ },
+ {
+  "id": "H5-P1",
+  "old": "If someone won’t follow basic rules and boundaries, and won’t stop,",
+  "new": "If someone won’t respect essential boundaries, and won’t stop,",
+  "why": "both stance checks: refusing rules isn't a ground for ejection; the published \"essential boundaries\""
+ },
+ {
+  "id": "H5-P1",
+  "old": "If the community feels like they can do restorative work with them in a reasonable amount of time that’s cool, but if",
+  "new": "If restorative work with them can work in a reasonable amount of time, that’s cool! But if",
+  "why": "trace T5: the work's chance of working is the test, not the community's feeling; and the march (no break in either reading): \"that’s cool!\" as its own reaction"
+ },
+ {
+  "id": "H5-P1",
+  "old": "the community doesn’t have to provide them treatment.",
+  "new": "the community doesn’t have to turn into their treatment program.",
+  "why": "trace T5: the published denies turning the commune into a program, not all treatment"
+ },
+ {
+  "id": "H5-P2",
+  "old": "How do you preserve the evidence and make sure that people who are involved in it aren’t participating in the decision?",
+  "new": "Who preserves the evidence, and how do you make sure that people who are involved in the case aren’t participating in the decisions?",
+  "why": "trace T5: who, not how; \"it\" named nothing; every decision, not one"
+ },
+ {
+  "id": "H5-P2",
+  "old": "How does the person reply, and appeal the decision, without endangering others?",
+  "new": "How does the person reply, and what review or appeal is possible without endangering others?",
+  "why": "trace T5: \"review\" lost, and \"without endangering others\" had taken in the reply"
+ },
+ {
+  "id": "H5-P2",
+  "old": "have access to outside funds?",
+  "new": "have access to outside funds, if any?",
+  "why": "trace T5: \"if any\" lost"
+ },
+ {
+  "id": "H5-P2",
+  "old": "When do people reach for outside help?",
+  "new": "When do people reach for outside help? (More on that one next.)",
+  "why": "march: no break in either reading; an aside about the text, no claim"
+ },
+ {
+  "id": "H5-P3",
+  "old": "(It's true that I've been kinda assuming that in [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/).)",
+  "new": "(It's true that at first [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) kinda leaned too far toward the nation-state.)",
+  "why": "trace T5, both stance checks and cold read b: the lean was early and since corrected, and \"that\" could be either"
+ },
+ {
+  "id": "H5-P3",
+  "old": "All that's really needed is",
+  "new": "What's really needed is",
+  "why": "trace T5: \"all\" made it the only requirement"
+ },
+ {
+  "id": "H5-P3",
+  "old": "But that doesn't mean that they can violate non-waivable individual rights, or that there can't be jurisdiction above them.",
+  "new": "But autonomy doesn't mean that these institutions can violate non-waivable individual rights, or that outside jurisdiction stops applying to them.",
+  "why": "trace T5 and cold read a: who \"they\" are; outside jurisdiction stays, and \"above\" put a layer over the community"
+ },
+ {
+  "id": "H5-P4",
+  "old": "they are unlikely to trust them.",
+  "new": "the parties often do not trust them.",
+  "why": "trace T5: \"often\", and \"they\" had just meant the mediator"
+ },
+ {
+  "id": "H2-P3b",
+  "old": "Also make sure that your list declares whether or not you value experimenting, the folks next to you may think experimenting ended in 1978 and anything that came from it is doctrine now.",
+  "new": "Willing to experiment? That's a real value too! Make sure that your list declares whether or not you value experimenting, because the folks next to you may think experimenting ended in 1978 and anything that came from it is doctrine now.",
+  "why": "trace T2 (lost: \"a real value\", and the \"because\"), cold read a (experimenting with what? read inside the sexuality questions); its own paragraph again, as published, with the published claim said again as a question and an exclamation (the break)"
+ },
+ {
+  "id": "H3-P5",
+  "old": "For the whole sequence, see Diana Leafe Christian’s [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf): First you get the vision, then you get the members, then you pool the major resources, and lastly you get the land.",
+  "new": "For the order to do all this in, see Diana Leafe Christian’s [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf): First you get the vision, then you get the members, then you pool the major resources, and lastly you get the land. So yes, the land comes last!",
+  "why": "cold reads a and b of r5, and b of r4: \"which sequence?\", \"why here?\" after the exit terms. Its own paragraph again, as published, and \"for the order to do all this in\" ties it to the section; \"So yes, the land comes last!\" is the break, the sequence's last step said again as a reaction"
+ }
+]

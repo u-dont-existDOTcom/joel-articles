@@ -1,0 +1,123 @@
+{
+ "S13v9-1P2": {
+  "kind": "draft",
+  "march": [
+   "S S S S S B",
+   "S S S S S B"
+  ],
+  "march_note": "s13/review-r6/MARCH-labels-a.txt and -b.txt, T2",
+  "cold": "OK",
+  "cold_note": "s13/review-r6/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T1.md (its one finding, \"relational pl/ork\", kept: review-r6/DISPOSITIONS-r6.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r6/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 110
+ },
+ "S13v9-2P1": {
+  "kind": "draft",
+  "march": [
+   "B B B B B B B B B",
+   "B B B B B B B B B"
+  ],
+  "march_note": "s13/review-r6/MARCH-labels-a.txt and -b.txt, T5",
+  "cold": "OK",
+  "cold_note": "s13/review-r6/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r6/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 61
+ },
+ "S13v9-2P1h": {
+  "kind": "draft",
+  "march": [
+   "B B B B B B B B B",
+   "B B B B B B B B B"
+  ],
+  "march_note": "s13/review-r6/MARCH-labels-a.txt and -b.txt, T5",
+  "cold": "OK",
+  "cold_note": "s13/review-r6/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r6/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 72
+ },
+ "S13v9-3P4": {
+  "kind": "draft",
+  "march": [
+   "S S S B B",
+   "S S S B S"
+  ],
+  "march_note": "s13/review-r6/MARCH-labels-a.txt and -b.txt, T13",
+  "cold": "OK",
+  "cold_note": "s13/review-r6/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T3.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r6/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 88
+ },
+ "S13v9-3P4P5": {
+  "kind": "draft",
+  "march": [
+   "S S S B B",
+   "S S S B S",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s13/review-r6/MARCH-labels-a.txt and -b.txt, T13, T14",
+  "cold": "OK",
+  "cold_note": "s13/review-r6/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T3.md (OK); s13/review-r6/trace-T3.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r6/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 132
+ },
+ "S13v9-4P4": {
+  "kind": "draft",
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "s13/review-r6/MARCH-labels-a.txt and -b.txt, T18",
+  "cold": "OK",
+  "cold_note": "s13/review-r6/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T4.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r6/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 68
+ },
+ "S13v9-4P6": {
+  "kind": "draft",
+  "march": [
+   "B S S S S S",
+   "B S S S S S"
+  ],
+  "march_note": "s13/review-r6/MARCH-labels-a.txt and -b.txt, T20",
+  "cold": "OK",
+  "cold_note": "s13/review-r6/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T4.md (OK; the pair with H4-P7, OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r6/STANCE-pub.md, STANCE-sofar.md: nothing on these paragraphs",
+  "lint": "CLEAR",
+  "missing": [],
+  "words": 76
+ }
+}

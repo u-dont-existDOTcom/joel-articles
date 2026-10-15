@@ -247,13 +247,13 @@
   },
   {
    "id": "s4-p11",
-   "what": "Section 4, P11: Joel's rewrite (21:16): the best inner adult, three roles, \"Guide\" [in the section 4 v8 candidate]",
+   "what": "Section 4, P11: Joel's rewrite (21:16): the best inner adult, three roles, \"Guide\" [in the section 4 v8 candidate] (2026-10-15 11:04: his new version, \"the best holistic inner adult\" and \"your little one ... the joy of life\"; entry s4-joel-20261015-1104.)",
    "status": "applied",
    "joel": "Inner-child reparenting means learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and in this process actually gains more freedom to remain alive inside you.",
    "must_contain": [
-    "learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide.",
+    "learning to identify as the best holistic inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide.",
     "The newly developed adult reparents their newly recognized inner child.",
-    "actually gains more freedom to remain alive inside you."
+    "your little one gains more freedom to remain alive inside you, which brings back the joy of life that many adults have forgotten about."
    ],
    "must_not_contain": [
     "not the other way around"
@@ -261,11 +261,11 @@
   },
   {
    "id": "s4-p12",
-   "what": "Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate] (2026-10-14: Joel's I1 answer says the \"it\" of \"And it's built on\" is unclear, so it names inner pl/ork now; entry s4-joel-20261014-i1 checks it.)",
+   "what": "Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate] (2026-10-14: Joel's I1 answer says the \"it\" of \"And it's built on\" is unclear, so it names inner pl/ork now; entry s4-joel-20261014-i1 checks it.) (2026-10-15 11:04: his new version, \"And this reparenting journey is built on\" and \"I.e., listening\"; entry s4-joel-20261015-1104.)",
    "status": "applied",
    "joel": "And it's built on somatic regulation first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.",
    "must_contain": [
-    "first. Listening to the body's feelings before making a decision with the mind.",
+    "first. I.e., listening to the body's feelings before making a decision with the mind.",
     "symbolizes the adult/child relationship to me in some way as well."
    ],
    "must_contain_exact": [
@@ -831,14 +831,15 @@
   {
    "id": "s4-joel-20261014-i1",
    "status": "applied",
-   "what": "Section 4, Inner pl/ork: I1 \"Unclear\" for his \"And it's built on somatic regulation first.\" The sentence names the subsection's subject, inner pl/ork, now (reparenting, the other candidate, pulled against section 5 in the stance check of 2026-10-14).",
+   "what": "Section 4, Inner pl/ork: I1 \"Unclear\" for his \"And it's built on somatic regulation first.\" The sentence names the subsection's subject, inner pl/ork, now (reparenting, the other candidate, pulled against section 5 in the stance check of 2026-10-14). 2026-10-15 11:04: his own fix names reparenting (\"And this reparenting journey is built on\"); that replaces my \"inner pl/ork\" choice.",
    "joel": "I1: Unclear",
    "when": "2026-10-14 03:04 UTC, Rule Scoring Sheet answers (joel-20261014/joel-20261014-attachment.txt)",
    "must_contain": [
-    "And inner pl/ork is built on"
+    "And this reparenting journey is built on"
    ],
    "must_not_contain": [
-    "And it's built on"
+    "And it's built on",
+    "And inner pl/ork is built on"
    ]
   },
   {
@@ -947,14 +948,40 @@
   {
    "id": "s10-joel-20261014-2119",
    "status": "applied",
-   "what": "Section 10, the last paragraph: his version of 21:19 UTC, as written.",
+   "what": "Section 10, the last paragraph: his version of 21:19 UTC, as written. (2026-10-15: its opening is \"Whenever a community or a federation creates or applies a rule\", his 28 b; entry s10-joel-20261015-28b checks it.)",
    "joel": "25 Section 10's last paragraph:  this version is clearer and passes: ...",
    "when": "2026-10-14 21:19 UTC, his answers to questions 22 to 26 (joel-20261014-2119/)",
    "must_contain_exact": [
-    "Whenever you create or apply a rule, it's best practice to store the full case history so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch."
+    "Whenever a community or a federation creates or applies a rule, it's best practice to store the full case history so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch."
    ],
    "must_not_contain": [
     "to deal with a collision of two principles"
+   ]
+  },
+  {
+   "id": "s10-joel-20261015-28b",
+   "status": "applied",
+   "words": "proposed",
+   "what": "Section 10, the last paragraph: \"Whenever a community or a federation creates or applies a rule\" for \"Whenever you create or apply a rule\" (my option b, his pick).",
+   "joel": "28 b",
+   "when": "2026-10-15 09:33 UTC, his answers to 27 to 29 (joel-20261015/)",
+   "must_contain": [
+    "Whenever a community or a federation creates or applies a rule, it's best practice"
+   ],
+   "must_not_contain": [
+    "Whenever you create or apply a rule, it's best practice"
+   ]
+  },
+  {
+   "id": "s4-joel-20261015-1104",
+   "status": "applied",
+   "when": "2026-10-15 11:04 UTC: \"27: this passes:\" (joel-20261015/joel-20261015-1104-message.txt)",
+   "what": "Section 4, Inner pl/ork: his reparenting paragraph and the three-sentence paragraph after it, as written (links on \"Inner-child reparenting\" and \"somatic regulation\" kept).",
+   "joel": "Inner-child reparenting means learning to identify as the best holistic inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and as a result, your little one gains more freedom to remain alive inside you, which brings back the joy of life that many adults have forgotten about.\nAnd this reparenting journey is built on somatic regulation first. I.e., listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.",
+   "must_contain_exact": [
+    "means learning to identify as the best holistic inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and as a result, your little one gains more freedom to remain alive inside you, which brings back the joy of life that many adults have forgotten about.",
+    "And this reparenting journey is built on",
+    "first. I.e., listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well."
    ]
   }
  ]

@@ -1,0 +1,122 @@
+[
+ {
+  "id": "H1-P2",
+  "old": "Third, don't even think",
+  "new": "Don't even think",
+  "why": "the numbering (\"First\", \"Second\", \"Third\") was Emulate's"
+ },
+ {
+  "id": "H1-P2",
+  "old": "or by saying \"Let's all just agree to leave each other alone\".",
+  "new": "or by calling a truce nobody believes, like \"Let's all just agree to leave each other alone\".",
+  "why": "the published \"a truce nobody believes\""
+ },
+ {
+  "id": "H1-P2",
+  "old": "But really, truly dealt with it. Do the real relational pl/ork",
+  "new": "But really, truly dealt with it. That's the real relational pl/ork",
+  "why": "not a second imperative: the linter counts two in a paragraph as instructions (E23), and with the trial-run paragraph that failed it"
+ },
+ {
+  "id": "H1-P2",
+  "old": "allowing whatever is there (jealousy, humiliation, fear, past material, whatever) to come up,",
+  "new": "finding whatever is there (jealousy, humiliation, fear, old material, whatever),",
+  "why": "the published \"Find the jealousy, humiliation, fear, or old material involved\""
+ },
+ {
+  "id": "H1-P2",
+  "old": "until the emotional pressure is such that an agreement to do something differently actually means something.",
+  "new": "until the emotional pressure has changed enough that an agreement actually means something.",
+  "why": "the published \"has changed enough\"; \"to do something differently\" was Emulate's"
+ },
+ {
+  "id": "H2-P3",
+  "old": "Date and/or be in a relationship with whomever they choose?",
+  "new": "Date and/or be in a relationship?",
+  "why": "traces T2 of r6 and T1 of r7: \"whomever they choose\" set a standard the published doesn't"
+ },
+ {
+  "id": "H2-P4",
+  "old": "(not just how they talk about functioning)",
+  "new": "(not just how they talk about it in public)",
+  "why": "trace T2 of r7: the published \"public language\""
+ },
+ {
+  "id": "H2-P4",
+  "old": "Who can block decisions, and how?",
+  "new": "Who can block decisions?",
+  "why": "traces T2 of r5 and r7: \"and how?\" added"
+ },
+ {
+  "id": "H3-P1",
+  "old": "People tend to not take this into account enough, but it matters so much!",
+  "new": "It matters so much!",
+  "why": "traces T2 of r5 and r7: a new claim about people; the reaction stays as the break"
+ },
+ {
+  "id": "H3-P3",
+  "old": "Transfers of major resources (land, equipment, stores, outside cash, etc.) need to be recorded",
+  "new": "Large transfers (land, equipment, stores or outside cash) need to be recorded",
+  "why": "trace T3 of r7: large transfers, a closed list"
+ },
+ {
+  "id": "H3-P3",
+  "old": "provide people with resources when they leave (cash if it uses money, plus tools, transportation, temporary housing, stored goods, the right to keep using something, etc).",
+  "new": "provide people with resources when they leave, in whatever form makes sense (cash if it uses money, or tools, transportation, temporary housing, stored goods, the right to keep using something).",
+  "why": "trace T3 of r7: \"in whatever unit makes sense\", alternatives, not a bundle"
+ },
+ {
+  "id": "H3-P3",
+  "old": "can only be exercised if there is money around.",
+  "new": "can only be exercised if the community has spare money.",
+  "why": "trace T3 of r7: the community's spare money"
+ },
+ {
+  "id": "H4-P7",
+  "old": "that has serious consequences, for example with kids,",
+  "new": "that has serious consequences, involving kids,",
+  "why": "trace T4 of r7: the published list is closed"
+ },
+ {
+  "id": "H4-P7",
+  "old": "ensure there’s always some way for someone to appeal that decision to a separate authority if needed.",
+  "new": "ensure there’s always some way to appeal decisions about these roles to a separate authority if needed.",
+  "why": "both cold reads of r7: which decision"
+ },
+ {
+  "id": "H4-P8",
+  "old": "Sorry, hanging out doesn't count!",
+  "new": "(Sorry, hanging out doesn't count!)",
+  "why": "march: no break in reading a; asides in parentheses were breaks in every reading of r6 and r7"
+ },
+ {
+  "id": "H5-P1",
+  "old": "Even in a safe community it’s ok to kick people out if they’re a serious or general danger. If someone won’t respect essential boundaries, and won’t stop, and/or is just impossible to live with, it can be okay to eject them.",
+  "new": "Even a safe community can’t promise to keep everyone. If someone is a serious or general danger, won’t respect essential boundaries and won’t stop, or is just impossible to live with, ejecting them can be the right call.",
+  "why": "both stance checks of r7, from opposite sides; the published \"cannot promise to keep everyone\" and \"can be the right answer\""
+ },
+ {
+  "id": "H5-P2",
+  "old": "What constitutes a reason for immediate protective action",
+  "new": "What conduct constitutes a reason for immediate protective action",
+  "why": "trace T5 and the published-essay stance check of r7: conduct"
+ },
+ {
+  "id": "H5-P3",
+  "old": "But autonomy doesn't mean that these institutions can violate non-waivable individual rights, or that outside jurisdiction stops applying to them.",
+  "new": "But autonomy doesn't mean that anyone can erase non-waivable individual rights, or that outside jurisdiction disappears.",
+  "why": "trace T6 and both stance checks of r7: the limit is on autonomy, the community's own included"
+ },
+ {
+  "id": "H5-P4",
+  "old": "it does not replace the need for evidence and safeguarding and, if necessary, a ruling.",
+  "new": "it does not replace the need for evidence, safeguarding or a ruling.",
+  "why": "traces T6 of r6 and r7: the ruling isn't conditional"
+ },
+ {
+  "id": "H5-P4",
+  "old": "once consent is gone.",
+  "new": "once someone no longer consents to the shared life.",
+  "why": "both cold reads of r7: whose consent, to what; \"the shared life\" is the section's \"ordinary shared life\""
+ }
+]

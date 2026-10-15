@@ -402,6 +402,9 @@ class StanceCheckPrompt(unittest.TestCase):
         self.assertIn('vaguer general one', p)
         # Joel, 2026-10-11 23:12, on "can't be voted away" beside "even by a majority vote": "fix the reviewers"
         self.assertIn("Read the way people talk.", p)
+        # Joel, 2026-10-15 13:10, on section 13's visitor rule flagged against his land before critical mass: "it's quite
+        # clear already without needing to add anything"
+        self.assertIn("Read each rule within the situation its section is about", p)
 
     def test_images_that_carry_content_are_described(self):
         essay = '# Essay\n\n[image 7](https://example.com/parts.svg)\n\nThese four parts leak.\n\n[image 8](https://example.com/x.png)\n'
@@ -694,6 +697,23 @@ class DedupPrompts(unittest.TestCase):
         self.assertIn('(No drafts yet', p)
         self.assertIn('/tmp/r.md', p)
         self.assertLess(p.index('THE ARTICLE'), p.index('GROUP 1'))
+
+
+class PangramLinksInMessages(unittest.TestCase):
+    """pangram_links_check.py (2026-10-15). Joel, 09:33 UTC: "for future reference, give me the pangram check links when
+    you tell me to check something on pangram" (the questions page had told him a pair read AI, with no link)."""
+
+    def test_an_ai_result_needs_its_link_and_a_pass_does_not(self):
+        import pangram_links_check as plc
+        msg = ('Your paragraph reads AI beside the reparenting paragraph (278g, a control).\n\n'
+               '- The pair read AI: [check](https://www.pangram.com/history/4bb0032c-a069-447c-8add-1f975a1c1125).\n'
+               '- The section reads 100% Human (284g).\n'
+               '- "Mostly Human Written": a window on P4\'s questions (281g).\n'
+               '- I used two of your three terms, since a list of three reads AI.\n')   # a rule, not a result
+        found = plc.missing(msg)
+        self.assertEqual(len(found), 2)
+        self.assertTrue(found[0].startswith('Your paragraph reads AI'))
+        self.assertIn('Mostly Human', found[1])
 
 
 class SectionColdReadPrompt(unittest.TestCase):

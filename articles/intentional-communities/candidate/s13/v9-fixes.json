@@ -1,0 +1,128 @@
+[
+ {
+  "id": "H1-P1",
+  "old": "you are already a community. It sounds",
+  "new": "you are already a community, even if it's still an untested one. It sounds",
+  "why": "both cold reads and the so-far stance check of r6 (cold read b of r5 too): \"already a community\" against H1-P3's \"still a circle of promising strangers\"; this says in what sense"
+ },
+ {
+  "id": "H1-P4",
+  "old": "you'll also need to budget for the group's practical side.",
+  "new": "you'll also need to budget for what the group can provide on the practical side.",
+  "why": "trace T1 of r6: name the budget as what the group can provide (not \"capacity\", which Joel called an AI tell)"
+ },
+ {
+  "id": "H1-P4",
+  "old": "that would stop everything if nobody had them?",
+  "new": "that could stop everything if nobody had them?",
+  "why": "trace T1 of r6: \"can\", not \"would\""
+ },
+ {
+  "id": "H2-P3",
+  "old": "Is it ok to be openly part of the LGBTQ+ community? Is it okay to date and/or be in a relationship with whomever you choose? Will your community keep you fully protected if you are LGBTQ+?",
+  "new": "Could an LGBTQ+ member live openly there? Date and/or be in a relationship with whomever they choose? Would the community keep them fully protected?",
+  "why": "trace T1 of r6: the community being judged and its LGBTQ+ member, not \"the LGBTQ+ community\" or anyone's partner choice"
+ },
+ {
+  "id": "H2-P3",
+  "old": "Should children be encouraged or discouraged to question",
+  "new": "Should children be taught to question",
+  "why": "traces T2 of r5 and T1 of r6: \"taught\", as published"
+ },
+ {
+  "id": "H2-P3",
+  "old": "Until your prospective community has answered these questions,",
+  "new": "Until a group has answered these questions,",
+  "why": "trace T1 of r6: any group, the reader's own included"
+ },
+ {
+  "id": "H3-P1",
+  "old": "People tend to not take this into account enough.",
+  "new": "People tend to not take this into account enough, but it matters so much!",
+  "why": "march: no break in either reading; the published \"enormous power\" said again as a reaction"
+ },
+ {
+  "id": "H4-P2",
+  "old": "Did they read the materials?",
+  "new": "Did they read the materials? (Not everyone does!)",
+  "why": "march: no break in reading b; an aside on the question's point"
+ },
+ {
+  "id": "H4-P2",
+  "old": "find out that way than after",
+  "new": "find out through a thoughtful exchange than after",
+  "why": "traces T3 of r5 and r6: \"thoughtful\""
+ },
+ {
+  "id": "H4-P3",
+  "old": "most people can be charming for two weeks, so if that's all they do, congratulations, you've established",
+  "new": "most people can be charming for two weeks. So if that's all they do, congratulations! You've established",
+  "why": "march: no break in either reading; the published \"Congratulations\" as its own reaction"
+ },
+ {
+  "id": "H4-P5",
+  "old": "(Both should be addressed in the agreements you draw up when you are first starting your group.)",
+  "new": "(A full member's rights and responsibilities should be addressed in the agreements you draw up when you are first starting your group.) Yes, it's a lot of homework!",
+  "why": "traces T4 of r5 and r6: name what the founding agreements cover; the march (no break in either reading): a remark on the text, like \"That's a lot of deciding, I realize.\""
+ },
+ {
+  "id": "H4-P7",
+  "old": "Being great with kids doesn’t mean someone should have the van keys!",
+  "new": "I wouldn’t hand someone the van keys just because they’re great with kids!",
+  "why": "march: a break in one reading only; the same example in the writer's voice"
+ },
+ {
+  "id": "H4-P8",
+  "old": "Hanging out doesn't count!",
+  "new": "Sorry, hanging out doesn't count!",
+  "why": "march: no break in either reading; the writer's voice on the published \"do more than hang out\""
+ },
+ {
+  "id": "H4-P9",
+  "old": "politically? When decisions",
+  "new": "politically? (Yes, even the interns!) When decisions",
+  "why": "march: no break in reading a; an aside on the published \"interns ... have rights\""
+ },
+ {
+  "id": "H5-P1",
+  "old": "it’s okay to eject them.",
+  "new": "it can be okay to eject them.",
+  "why": "stance check, published essay, r6: \"can be the right answer\", not a flat \"okay\""
+ },
+ {
+  "id": "H5-P1",
+  "old": "and/or is just not someone people can live with,",
+  "new": "and/or is just impossible to live with,",
+  "why": "the same check: the published \"makes ordinary shared life impossible\"; Joel's \"impossible to live with\" (2026-10-11 23:12)"
+ },
+ {
+  "id": "H5-P2",
+  "old": "Who preserves the evidence, and how do you make sure that people who are involved in the case aren’t participating in the decisions?",
+  "new": "Who preserves the evidence, and who has to step aside from the decisions?",
+  "why": "traces T5 of r5 and r6: who is recused, anyone too close, not only people in the case"
+ },
+ {
+  "id": "H5-P3",
+  "old": "The Zapatistas have been very important in opening my eyes",
+  "new": "The Zapatistas have been important in opening my eyes",
+  "why": "trace T5 of r6: \"very\" made them matter more than published (the rest kept: DISPOSITIONS-r6.md)"
+ },
+ {
+  "id": "H5-P4",
+  "old": "Why should a mediator or ombud be chosen beforehand? Because if they are chosen in a crisis, and if the parties have not met this “neutral stranger” before, the parties often do not trust them.",
+  "new": "Also pick a mediator or ombud beforehand. Why bother? Because if they are chosen in a crisis, and nobody has met this “neutral stranger” before, people often do not trust them.",
+  "why": "trace T6 (\"Also\" lost; \"people\", not \"the parties\") and cold read a (the question took the claim as made): the instruction first; \"Why bother?\", the reader's objection, is the break (march: none in reading a)"
+ },
+ {
+  "id": "H5-P4",
+  "old": "although mediation can help restore good relations,",
+  "new": "although mediation is for repairing relations,",
+  "why": "trace T6: what mediation is for, not what it can help with"
+ },
+ {
+  "id": "H5-P4",
+  "old": "if one party no longer consents to staying.",
+  "new": "once consent is gone.",
+  "why": "trace T6: whose consent and to what are the published's to leave open (round r4's trace on \"living together\")"
+ }
+]

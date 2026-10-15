@@ -1,0 +1,95 @@
+{
+ "S13v9-4P6": {
+  "history_id": 16138003,
+  "link": "https://www.pangram.com/history/3ea3ec62-b1d1-432a-b35e-b15a28d5a15a",
+  "utc": "2026-10-15T15:09:29Z",
+  "words": 80,
+  "avg_ai_likelihood": 0.00627595279365778,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 80"
+  ],
+  "flagged": []
+ },
+ "S13v9-4P4": {
+  "history_id": 16137975,
+  "link": "https://www.pangram.com/history/4a16962b-2931-4cdc-bf60-95f1bcea016d",
+  "utc": "2026-10-15T15:09:17Z",
+  "words": 70,
+  "avg_ai_likelihood": 6.65042462060228e-05,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 70"
+  ],
+  "flagged": []
+ },
+ "S13v9-3P4P5": {
+  "history_id": 16137952,
+  "link": "https://www.pangram.com/history/4fd6d4e2-3441-4702-a236-84dd12ed6ce0",
+  "utc": "2026-10-15T15:09:06Z",
+  "words": 140,
+  "avg_ai_likelihood": 0.000691325927618891,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Medium, 140"
+  ],
+  "flagged": []
+ },
+ "S13v9-3P4": {
+  "history_id": 16137916,
+  "link": "https://www.pangram.com/history/5ad43355-f779-46ab-b089-b704071b8d07",
+  "utc": "2026-10-15T15:08:58Z",
+  "words": 95,
+  "avg_ai_likelihood": 0.03628553822636604,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 95"
+  ],
+  "flagged": []
+ },
+ "S13v9-2P1h": {
+  "history_id": 16137882,
+  "link": "https://www.pangram.com/history/97cea9b6-9e6f-4dc9-8664-d840ae58049c",
+  "utc": "2026-10-15T15:08:45Z",
+  "words": 74,
+  "avg_ai_likelihood": 0.00228530983440578,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 74"
+  ],
+  "flagged": []
+ },
+ "S13v9-2P1": {
+  "history_id": 16137866,
+  "link": "https://www.pangram.com/history/e64cae18-0de0-4eeb-aed0-7e0b337b8909",
+  "utc": "2026-10-15T15:08:35Z",
+  "words": 63,
+  "avg_ai_likelihood": 0.009293178096413612,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 63"
+  ],
+  "flagged": []
+ },
+ "S13v9-1P2": {
+  "history_id": 16137844,
+  "link": "https://www.pangram.com/history/4326944e-db0c-4ea5-a531-cef3d978ef00",
+  "utc": "2026-10-15T15:08:25Z",
+  "words": 114,
+  "avg_ai_likelihood": 0.9231228828430176,
+  "headline": "AI Generated",
+  "version": "4.0",
+  "windows": [
+   "AI-Generated, Medium, 114"
+  ],
+  "flagged": [
+   "AI-Generated (114 words): Don't combine ownership/major resources until the group has had at least one real conflict and dealt with it all the way through. ..."
+  ]
+ }
+}

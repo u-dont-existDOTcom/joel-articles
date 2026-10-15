@@ -1,0 +1,36 @@
+# Meaning trace: community section 13 ("Your Little Forming Group Already Is the Community"), pairs 29 to 32 of 32, rewrite against the published paragraphs
+
+Read `/home/claude/w1015/articles/intentional-communities/candidate/s13/review-r1/trace-in-T8.md`. It holds pairs: a PUBLISHED paragraph and its REWRITE, with the text before and after for context.
+
+For each pair, decide whether a reader of the rewrite comes away believing what a reader of the published paragraph believes. Go clause by clause through the published paragraph and find where each claim landed in the rewrite. Mark each one:
+- EQUIVALENT: a reader takes away the same claim. Changes of wording, register and rhythm are EQUIVALENT, and so are plainer, more conversational ways of saying the same thing.
+- SHIFT: a reader would now believe something different: a claim made stronger or weaker, a quantifier, tense or aspect that changes the fact, who does what, a logical relation (cause, contrast, condition, "or" turned into "also" or "and"), the scope of a word like "only", or a likely reading the published text doesn't allow.
+- LOST: a claim, list item, condition or qualifier is gone.
+Then list anything ADDED that makes a claim the published text doesn't (a new fact, opinion, intensity or cause; not a style word).
+
+**Conversational is not a shift** (Joel, 2026-10-09 22:08 UTC). Spoken phrasing often says a thing more loosely than the published sentence and means the same. "The closest thing to a whole example that I found", for the published "the closest whole example I found", is not a hedge: "doesn't seem like a hedge to me, sounds just more conversational". Before you mark a SHIFT, ask whether an ordinary reader would actually believe something different, not whether a stricter parse of the words could differ. Every SHIFT names what the reader would now wrongly believe; if you can't name it, it's EQUIVALENT.
+
+Logic is still strict (Joel, 2026-10-03: "OR is not ALSO"). A changed connective, negation, quantifier or modal is a SHIFT even when the sentence sounds natural.
+
+**The words a claim rests on are never just conversational** (Joel, 2026-10-12 05:33 UTC, community section 12). Two or three traces each called these EQUIVALENT, and each one broke the meaning:
+- *A pronoun whose referent isn't clear.* "But it's not infinite." for "That does not make the community infinitely absorbent."; "pretending it's unlimited" for "Pretending capacity is unlimited" ("it referring to what? unclear"). For every "it", "this", "that" or "they" in the rewrite that stands where the published sentence has a noun, write what it points to. An "it" that is clear in its place is fine (Joel, 2026-10-12 17:23 UTC: ""it" is ok when it's clear what "it" is"): the thing was just named, or nothing else in reach could be meant. It's a SHIFT when a reader could take it two ways and the sentence would say something different with each, or when nothing in reach names it, whatever your own best reading is. The fix is the published noun.
+- *A narrower thing in place of a general one.* "the framing of “I don't have the capacity to…”" for "this language of capacity": one phrase in place of a whole way of talking ("it's not about "i don't have the capacity to" it's literally exactly what the guide said"). A quoted example, a single case or a smaller group in place of the published category is a SHIFT.
+- *A dropped word that says what a claim is measured against, how long it holds, or what the section is about.* "good enough" without "for community" ("i'm not understand anymore what they are good enough for"); "the power is dangerous" for "the power remains dangerous" ("you can't just remove "remains" and keep the same meaning"); "not infinite" for "not ... infinitely absorbent", in a section called "The Math of Absorption". Each is LOST even when the gist survives. Words like "remains", "still", "already", "yet", "anymore", "again", a "for ..." or "than ..." that sets the standard, and the section's own terms are never style.
+- *What one thing does for another.* "this part is the container itself" for "The container gives that work a stable place to happen": naming what a part is doesn't say what it does for the others (community section 4, 2026-10-13: a trace called it the same meaning, and Joel put the function back, "this container is what gives those a stable place to manifest").
+Conversational looseness is in the words around a claim, never in these.
+
+**An abstract thing acting like a person is not a claim of its own** (Joel, 2026-10-14: "that agentic abstract concept ai tell + tidy quip. it reads very nice, but very ai also so i took it out"). When the published sentence makes an idea or a feeling do what a person does ("resentment becomes the real government", "the desire to return ... has outrun the knowledge", "the nervous system quietly files an appeal"), the meaning is the plain claim under the figure (confront freeloading before resentment takes over; people want this and don't know how; listen to the body before deciding). Losing the figure is not LOST; losing the plain claim is. Never propose the figure back as a fix.
+
+**His scores on "it"** (2026-10-14), as examples of the rule above. Clear: "If every change they make still needs the founder's “blessing”, then it's not really running in parallel, is it?", right after "Fork the method. If the community finds a way to alter Hearthwork and get better results, they've taught me something." Unclear: "And it's built on somatic regulation first." after a paragraph that names reparenting, the inner adult and the child; "But it's not infinite." after a paragraph about peer counseling (what isn't infinite was never named); in "It's not going to be solved by pretending it's unlimited.", the first "it" is clear and the second isn't; "It's also one of the easiest powers to abuse." after a sentence that never names the power.
+
+**Words marked as the author's own are his choices** (Joel, 2026-10-12 17:23: "rather than just ignoring rules that fail my prose, we should fix the rules so they don't fail my prose"). Text between ⟦author⟧ and ⟦/author⟧ is his: he wrote or approved those words, often to change the published meaning on purpose. Report nothing inside the marks.
+
+Where a phrase can be read two ways, say which reading a reader would most likely take, and mark SHIFT only when that reading differs from the published one.
+
+Give each SHIFT or LOST a fix in as few words as possible, as a replacement phrase. Don't suggest style changes. Markdown links and italics are restored later, so their absence is not a finding.
+
+End each pair with "Verdict: OK" or "Verdict: NEEDS FIX".
+
+Write the report to `/home/claude/w1015/articles/intentional-communities/candidate/s13/review-r1/trace-T8.md` with a single Write call, at most 750 words, as "# Trace" then one "## Pn → Pnx" section per pair with numbered findings. Don't read any other file. Reply with only the verdicts, one line each.
+
+Keep your working short: decide each clause once, don't redraft the report, and stay inside the word limit.

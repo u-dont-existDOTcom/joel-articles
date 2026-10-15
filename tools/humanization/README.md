@@ -23,6 +23,8 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/meaning_sweep.py --article ART.md --source PUB.md --section N --input IN.md --report REPORT.md --out PROMPT.txt --ledger OWNER-EDITS.json [--owner-text FILE]`
 - `pangram_gate.py`: the Pangram web-app batch and its History reader, written only for texts whose gate record passes (march with a break, cold read, grounding, stance check, linter; E167, 2026-10-12). Use it for every web-app check.
   `python3 tools/humanization/pangram_gate.py DRAFTS.json GATE.json OUT.js --name NAME KEY [KEY ...]`
+- `pangram_links_check.py`: fails a message or page that reports an AI result from Pangram without the check's link (E175, Joel 2026-10-15: "give me the pangram check links when you tell me to check something on pangram").
+  `python3 tools/humanization/pangram_links_check.py MESSAGE.md [MORE.md ...]`
 - `pangram_batch_gen.py`: the older action-list batch of up to three Pangram checks (no gate check; use `pangram_gate.py`), each text's SHA-256 checked before the click.
   `python3 tools/humanization/pangram_batch_gen.py drafts.json out.json KEY1 KEY2 KEY3`
 - `emulate_humanize.py`: the Emulate API tool (`docs/EMULATE-FALLBACK.md`, section 3). It runs on Joel's laptop, where the key is.

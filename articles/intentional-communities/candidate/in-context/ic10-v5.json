@@ -1,0 +1,79 @@
+{
+ "title": "From One Community to a Movement · section 10 beside the published one",
+ "meta": "Community article · section 10 · v4, 2026-10-15 09:33 · in the article so far as a candidate",
+ "intro": [
+  "Your published section is on the left. On the right is the version now in the article so far. Highlighted words are new since the version you merged last night (pull request 175), and struck words are ones that went.",
+  "What changed: your 28 b, \"Whenever a community or a federation creates or applies a rule\" for \"Whenever you create or apply a rule\".",
+  "Both cold reads of the section now read every paragraph OK. Pangram's web app: the paragraph reads Human alone (97 words, 09:37:56 UTC, https://www.pangram.com/history/e81a57be-e16a-48a5-8c53-ddef100c1cd4), and the whole section 100% Human (740 words, 09:38:10 UTC, https://www.pangram.com/history/b035c409-6832-4ef7-a005-de067e109a43)."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# From One Community to a Movement",
+    "## Experiment Before You Divorce"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Experimenting with a different rule doesn't",
+     "source": [
+      "Experimenting with a different rule does not"
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "Some experiments (like a different",
+     "source": [
+      "Some experiments cannot be tested cheaply"
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Federated Communities Make a Movement"
+   ],
+   "rows": [
+    {
+     "label": "P3 + P4 (joined)",
+     "article": "The problem of how these communities",
+     "source": [
+      "If these communities are supposed to spread",
+      "At federation scale, that outward purpose"
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "The Federation of Egalitarian Communities",
+     "source": [
+      "The Federation of Egalitarian Communities says"
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "Cooperation also shouldn't slide",
+     "source": [
+      "Cooperation also shouldn’t quietly become"
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "Even if nobody uses money internally",
+     "source": [
+      "Exchange and obligations need the same honesty"
+     ]
+    },
+    {
+     "label": "P8 · yours, changed today · changed today",
+     "article": "Whenever a community or a federation creates or applies a rule",
+     "source": [
+      "And when two principles collide"
+     ],
+     "notes": [
+      "Your 28 b."
+     ]
+    }
+   ]
+  }
+ ]
+}

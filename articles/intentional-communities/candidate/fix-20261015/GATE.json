@@ -1,0 +1,17 @@
+{
+ "J10-P5b": {
+  "kind": "owner",
+  "joel": "2026-10-15 09:33 UTC: \"28 b\" (my wording, his pick)",
+  "words": 95
+ },
+ "S10v4": {
+  "kind": "section",
+  "parts": [
+   "J10-P5b",
+   "installed"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261014b/gate/REPEATS.md (2026-10-14 21:19): nothing inside section 10; the change is one sentence's subject",
+  "words": 715
+ }
+}
