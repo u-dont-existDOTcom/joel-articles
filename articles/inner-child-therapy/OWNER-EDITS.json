@@ -1004,14 +1004,15 @@
   {
    "id": "guide-update-20261003-covered",
    "status": "claim",
-   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3.",
+   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3. 2026-10-14 (Joel, 19:51 UTC, question 24): P3's fallback sentence is cut; the Chicken-and-Egg section carries Mr. Rogers and Ask God for a Loan the spiritual love.",
    "where": "Borrow One Competency at a Time",
    "must_contain": [
     "If the love still isn't coming, you can at least stop judging your little one.",
     "That's enough to start being the adult, even if it isn't enough yet for them to trust you.",
     "Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us.",
     "Think of someone you remember fondly.",
-    "If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have."
+    "remember watching Mr. Rogers or Sesame Street?",
+    "Some people also know a love that's a whole different size, like God's"
    ]
   },
   {
@@ -1597,12 +1598,12 @@
   {
    "id": "pl-ork-first-phase-said-20261011",
    "status": "applied",
-   "what": "Joel agreed to cut \"The pl/ork begins earlier, with finding or building the self.\" from the opening of Sometimes There Isn't a Clear Child Yet because the next h2 says it. From Survival to Experimental Play P2 (turn 43) says it: the pl/ork you get to do late, and making it safe enough as the first phase when your little one isn't easy to feel yet.",
+   "what": "Joel agreed to cut \"The pl/ork begins earlier, with finding or building the self.\" from the opening of Sometimes There Isn't a Clear Child Yet because the next h2 says it. From Survival to Experimental Play P2 (turn 43) says it: the pl/ork you get to do late, and making it safe enough as the first phase when your little one isn't easy to feel yet. Turn 54 (E172): P2's \"making it safe like that is the first phase\" came out as a repeat of P5's \"So early on, the practice is finding out who's actually in there\", which now carries the \"earlier\" half.",
    "joel": "2026-10-10 19:37 UTC (answer 4): \"agreed\"",
    "where": "From Survival to Experimental Play",
    "must_contain": [
     "Some of this is developmental pl/ork you get to do late",
-    "making it safe like that is the first phase"
+    "So early on, the practice is finding out who's actually in there"
    ]
   },
   {
@@ -1838,13 +1839,13 @@
   {
    "id": "survival-p4-signs-20261011c",
    "status": "claim",
-   "what": "From Survival to Experimental Play P4 carries the guide's last three possible signs (preferences and beliefs shifting with the people around you; not knowing what you'd choose without the fear of disappointing somebody; a guessed answer about your little one, which isn't proof there's no little one in there). The other two signs are already said: the h1's opening (\"love yourself\" feeling pretty empty) and P2 (checking anyone's face). Turn 45, after the gate and Pangram.",
+   "what": "From Survival to Experimental Play P4 carries the guide's last three possible signs (preferences and beliefs shifting with the people around you; not knowing what you'd choose without the fear of disappointing somebody; a guessed answer about your little one, which isn't proof there's no little one in there). The other two signs are already said: the h1's opening (\"love yourself\" feeling pretty empty) and P2 (checking anyone's face). Turn 45, after the gate and Pangram. Turn 54 (E172): P4 carries the guessed answer; the shifting sign is Joel's Untangling bullet (\"water dripping through your hand because of praise or pity, fear or attraction\"), and the fear of disappointing somebody is P2's \"checked anyone's face\".",
    "joel": "2026-10-11 23:33 UTC: \"12. continue\"",
    "where": "From Survival to Experimental Play",
    "must_contain": [
-    "with the people around you",
-    "without the fear of disappointing somebody",
-    "isn't proof there's no little one in there"
+    "isn't proof there's no little one in there",
+    "before you've checked anyone's face",
+    "water dripping through your hand because of praise or pity"
    ]
   },
   {
@@ -1955,14 +1956,14 @@
   {
    "id": "survival-p6-focusing-20261012b",
    "status": "claim",
-   "what": "From Survival to Experimental Play P6 carries the guide's \"Focusing can be especially useful…\" paragraph: Focusing for noticing feelings and preferences the part you've been playing learned to overlook; tentative words, looked at and revised; temporary, intentional distance for some people. Turn 47, after the gate and Pangram.",
+   "what": "From Survival to Experimental Play P6 carries the guide's \"Focusing can be especially useful…\" paragraph: Focusing for noticing feelings and preferences the part you've been playing learned to overlook; tentative words, looked at and revised; temporary, intentional distance for some people. Turn 47, after the gate and Pangram. Turn 54 (E172): P5 and P6 are one paragraph, and the temporary distance is Joel's Untangling line (\"temporary distance may be necessary\").",
    "joel": "2026-10-12 03:13 UTC: \"continue\"",
    "where": "From Survival to Experimental Play",
    "must_contain": [
     "Focusing (Eugene Gendlin's method",
     "can stay tentative",
     "revise how you read them",
-    "temporary, intentional distance from whoever they've been playing the part for"
+    "temporary distance may be necessary"
    ]
   },
   {
@@ -1994,7 +1995,7 @@
   },
   {
    "id": "bargains-rest-20261012d",
-   "status": "claim",
+   "status": "superseded",
    "what": "Untangling the Belonging Bargains P2 (the human doer, every arena, caretaking's controlling form) and P3 (gifts that become bargains; the child takes them; self-differentiation; praise, pity, fear, attraction, resonance), and the h3 Four Pairs That Commonly Hook the Child: Pema's map and the six goods, the four questions, the aim, differentiation inside with the three comparisons, the ordinary-life signs, slow and lifelong with distance, returning and permanent leaving. Turn 49. P3 is Joel's since turn 50 (q17-p3-fix-20261012d). P2's last sentence and P3's first are Joel's own since turn 52 (q20-bargains-own-version-20261013).",
    "joel": "2026-10-12 17:36 UTC: \"continue\"",
    "where": "Untangling the Belonging Bargains",
@@ -2013,11 +2014,12 @@
     "Noticing when you agreed in the moment and disagree later",
     "Differentiation is slow, and it goes on your whole life",
     "Some people come back later on different terms"
-   ]
+   ],
+   "superseded_by": "untangling-gpt-dedup-20261014"
   },
   {
    "id": "q17-p3-fix-20261012d",
-   "status": "applied",
+   "status": "superseded",
    "what": "Untangling P3 is Joel's fix, his words (\"beacuse\" spelled right): belonging bargains when your whole identity is tied up with living up to those ideals to please others; why a child of good parents can have this programming too; self-differentiation \"where you get to notice\"; \"water dripping through your hand\". In since turn 50; his check Human (medium), ours 100% Human (139).",
    "joel": "2026-10-13 00:47 UTC: \"17. Beauty, intelligence, achievement and caretaking can all be real gifts, but they become \"belonging bargains\" when your whole identity is so tied up with living up to those ideals to please others. Your little one, with nobody parenting it, takes those bargains to survive, because belonging feels like life or death. Even with good parents, you could still have some of this programming. Not beacuse of your own flaw, but maybe people simply repeatedly praised you for these things, rather than your inherent worth. Self-differentiation is where you get to notice where you're betraying yourself to belong, and then keeping your own ground instead. It also means noticing when what you thought you knew suddenly feels like water dripping through your hand as a result of praise/pity, fear/attraction, or something that really resonates with you. --that's human med conf on pangram\"",
    "where": "Untangling the Belonging Bargains",
@@ -2025,7 +2027,8 @@
     "when your whole identity is so tied up with living up to those ideals to please others",
     "maybe people simply repeatedly praised you for these things, rather than your inherent worth",
     "suddenly feels like water dripping through your hand"
-   ]
+   ],
+   "superseded_by": "untangling-gpt-dedup-20261014"
   },
   {
    "id": "q18-questions-fix-20261012d",
@@ -2049,7 +2052,7 @@
   },
   {
    "id": "q20-bargains-own-version-20261013",
-   "status": "applied",
+   "status": "superseded",
    "what": "Untangling the Belonging Bargains P1 to P3 are Joel's own version (his answer to question 20): P1 rewritten, P2's last sentence and P3's first in his words; Four Pairs unchanged. His check: the whole h2 100% Human.",
    "joel": "2026-10-13 20:41 UTC: \"i see ok i fixed it plus also made the first para better. now the whole section is 100% human on pangram... pasted whole section\" ... \"i just told GPT to deduplicate and its output became 100% human, so lesson is duplication is very AI we already knew that but you're not checking that well enough.\"",
    "where": "Untangling the Belonging Bargains, P1 to P3",
@@ -2062,13 +2065,65 @@
     "Or the expectations of a family or religion that’s kind to you.",
     "In its controlling form, that caretaking can drift",
     "can all be real gifts, but they become"
+   ],
+   "superseded_by": "untangling-gpt-dedup-20261014"
+  },
+  {
+   "id": "untangling-gpt-dedup-20261014",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human. P3 has changed since, in his words: 2026-10-14 19:51 UTC (entry untangling-p3-joel-20261014) and 2026-10-15 10:43 UTC (entry untangling-joel-20261015); P2's last sentence too on 2026-10-15.",
+   "joel": "2026-10-14 02:55 UTC: \"my bad, i logged back into pangram, and the deduped GPT version i meant to put at the end of my last msg is this\"; 2026-10-13 20:41 UTC: \"i just told GPT to deduplicate and its output became 100% human\".",
+   "where": "Untangling the Belonging Bargains and Four Pairs That Commonly Hook the Child",
+   "must_contain_exact": [
+    "A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good.",
+    "These can all be real gifts. The bargain begins when your worth depends on them",
+    "You don't have to stop enjoying pleasure, praise, gain or belonging. The question is whether losing one of them would feel like losing yourself.",
+    "- Noticing when what you thought you knew suddenly feels like water dripping through your hand because of praise or pity, fear or attraction, or something that really resonates with you."
+   ],
+   "must_not_contain": [
+    "This pull can come from family",
+    "In the more shadowy presentation of caretakerism",
+    "The aim isn't to stop enjoying pleasure or praise"
+   ]
+  },
+  {
+   "id": "ask-god-gratitude-20261014",
+   "status": "superseded",
+   "what": "Ask God for a Loan is Joel's new section, word for word: the gratitude door to divine love, with his sub-heading and his EndSickness.org short. Superseded 2026-10-14 03:52 UTC by his rewrite of the gratitude paragraph's prosperity lines and the little-one paragraph (entry ask-god-rewrite-20261014b).",
+   "joel": "2026-10-14 02:55 UTC: \"ok btw i'm replacing the ask god for a loan section with this, because i realized i never explained the importance of gratitude in finding love\".",
+   "where": "Ask God for a Loan",
+   "must_contain_exact": [
+    "#### You Already Got the Loan Without Realizing It!",
+    "One practical door anyone can use to slowly experience divine love is gratitude.",
+    "This is the feast problem. You can have an enormous spiritual feast upstairs while the child is still starving downstairs. Spiritual integration means some of what you have actually reaches them."
+   ],
+   "must_not_contain": [
+    "Get as close to it as you really can right now"
+   ]
+  },
+  {
+   "id": "ask-god-rewrite-20261014b",
+   "status": "superseded",
+   "what": "Ask God for a Loan, Joel's rewrite, word for word: the gratitude paragraph's prosperity lines and the little-one paragraph, with the feast paragraph folded into its last sentence. His answers to questions 21 (the roselle tea line stays) and 22 (his words). Superseded 2026-10-14 19:51 UTC by his updated section (entry ask-god-update-20261014c).",
+   "joel": "2026-10-14 03:52 UTC: \"ok good catches. it's fully human now and explained a bit better about prosperity issue. Someone can read to skip dr, if they want, but i did mention bilharzia not just any old peeing blood issue... i'm pretty sure i'm literally the only person in a culture with drs who would have not gone to one lol\".",
+   "where": "Ask God for a Loan",
+   "must_contain_exact": [
+    "#### You Already Got the Loan Without Realizing It!",
+    "One practical door anyone can use to slowly experience divine love is gratitude. This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That’s something to be grateful for. I’m not talking just about changing your “glass half empty” perception to a glass “half full perception.” I’m not pushing “toxic positivity.” And I’m certainly not preaching “prosperity philosophy,\" even though it can seem to start at that. I'm ultimately reaching for something much deeper.",
+    "Within an hour, I was cured.",
+    "Once you start to feel that lovely softness of the heart, invite your little one in with you as your spiritual integration practice. They might go numb, or call BS on that. If so, they might just need to see if you're actually humble enough, and grateful enough for them, to listen to their rejection and be patient. If you instead retreat back into your cozy corner, it's the food bank feast all over again: You can have an enormous spiritual feast upstairs while the child is still starving downstairs."
+   ],
+   "must_not_contain": [
+    "This is the feast problem.",
+    "I’m talking about something deeper.",
+    "Get as close to it as you really can right now"
    ]
   },
   {
    "id": "owner-therapy-second-nature-and-lifelong-growth-20261014",
-   "status": "pending",
+   "status": "applied",
    "what": "Correct the misleading real-growing-up analogy while preserving decreased need for formal therapy, naturalized Nurturer/Protector/Guide responses, optional renewed support, and lifelong wisdom/compassion/differentiation.",
-   "joel": "2026-10-14: 'i meant what i said, that if the therapy is working, you should be needing less of it. not that you need none of it, although that would be ideal' and 'the therapy becomes less of a formal process and more of a natural automatic process ... not like you have to check the guide every day ... just like real parenting might start out reading some parenting books, and then you just naturally get into the groove of it'. Owner accepted draft response to Claude.",
+   "joel": "2026-10-14: 'i meant what i said, that if the therapy is working, you should be needing less of it. not that you need none of it, although that would be ideal' and 'the therapy becomes less of a formal process and more of a natural automatic process ... not like you have to check the guide every day ... just like real parenting might start out reading some parenting books, and then you just naturally get into the groove of it'. Owner accepted draft response to Claude. Confirmed in chat 2026-10-14 19:51 UTC (his answer to question 23, item 5): \"In When Healing Turns Into Checking, replace only the sentence beginning 'Real healing is ultimately measured...' with:\" the same text.",
    "where": "When Healing Turns Into Checking: paragraph starting 'Don't be afraid to ask your therapist/yourself', replace only the 'Real healing is ultimately measured...' sentence and preserve its neighboring daily-life/child-adult relationship sentence. Leave the 'Differentiation is slow...' sentence in Untangling the Belonging Bargains unchanged.",
    "old_anchor": "Real healing is ultimately measured by reduced need for the therapy, just like real growing up is not something you do forever.",
    "suggested_replacement": "Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.",
@@ -2089,6 +2144,113 @@
     "Lifelong differentiation and wisdom remain possible",
     "Useful reflection and return to therapy are distinguished from compulsive checking",
     "No article prose is claimed applied by this pending record"
+   ]
+  },
+  {
+   "id": "ask-god-update-20261014c",
+   "status": "applied",
+   "what": "Ask God for a Loan, Joel's updated section, word for word: the good-news line for the guide's \"Find whatever access…\", the h4 \"Your Loan is PRE-APPROVED!\", a new first gratitude paragraph, his tuberculosis story, and two sentences on compassion and his inner child. \"when I got tuberculosis\" for his \"when got tuberculosis\" (his typo rule, 2026-10-06); the two links kept from his earlier version.",
+   "joel": "2026-10-14 19:51 UTC: \"i updated my ask god section, here's the latest\" (experiments/t55-answers/JOEL-ASKGOD-20261014-1951.txt).",
+   "where": "Ask God for a Loan",
+   "must_contain_exact": [
+    "If you haven’t been there yet (and even if you have), I have good news for you!",
+    "#### Your Loan is PRE-APPROVED!",
+    "One practical door anyone can use to slowly experience divine love is gratitude (even after the Turkey’s done & Thanksgiving is over!). And gratitude isn’t just one way to experience divine love for the first time, or to get it back when the feeling fades. I think it’s essential if we want to live in that love instead of occasionally visiting it.",
+    "For example, when I got tuberculosis from a cave in Mexico at age 20, and coughed for six months straight, eventually literally unable to breathe, leading to a near death experience.",
+    "It connects me with the plight of the countless other beings suffering at that very moment, authentically bringing up a wellspring of compassion in my heart for all of us. And I see clearly that it is my inner child who is feeling this pain, and what an honor it is that I can be there for him.",
+    "(on [Google Scholar](http://scholar.google.com), before AI)",
+    "[A. Helwa’s book](https://authorahelwa.com/)"
+   ],
+   "must_not_contain": [
+    "Find whatever access to that love is genuinely available now.",
+    "You Already Got the Loan Without Realizing It!",
+    "This is the feast problem."
+   ]
+  },
+  {
+   "id": "untangling-p3-joel-20261014",
+   "status": "superseded",
+   "what": "Untangling the Belonging Bargains P3, Joel's answer to question 23 (items 3 and 4): his three sentences for the unparented child, and his sentence for self-differentiation. Items 1, 2 and 5: leave the two belonging-bargain statements, the two differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\" Superseded 2026-10-15 10:43 UTC by his new P3 (entry untangling-joel-20261015), which carries items 1, 2 and 5 forward.",
+   "joel": "2026-10-14 19:51 UTC: \"3. The unparented child: clarify.\" and \"4. The two 'betraying yourself' statements: change the second.\" (experiments/t55-answers/JOEL-ANSWERS-20261014-1951.md)",
+   "where": "Untangling the Belonging Bargains",
+   "must_contain_exact": [
+    "Your little one can hang onto those bargains as if belonging were a matter of life or death, especially if you haven't learned to parent him or her yourself yet. Even with good parents, you could have learned this when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw.",
+    "Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead.",
+    "But if going along means betraying yourself, that's the bargain.",
+    "Differentiation is slow, and it goes on your whole life."
+   ],
+   "must_not_contain": [
+    "with nobody parenting it",
+    "Self-differentiation is noticing where you're betraying yourself to belong"
+   ]
+  },
+  {
+   "id": "borrow-mr-rogers-cut-20261014",
+   "status": "applied",
+   "what": "Borrow One Competency at a Time: both Mr. Rogers sentences cut (the Chicken-and-Egg section has him already), and with P3's, its spiritual love (Ask God for a Loan has it). Both hearing-it-out lines stay.",
+   "joel": "2026-10-14 19:51 UTC: \"24 you can cut botth mr rogers because i also have that before. can keep 2nd mention of spiritual love in Ask God... can keep both the 'listen to inner child' verses, they aren't really the same.\"",
+   "where": "Borrow One Competency at a Time",
+   "must_contain": [
+    "remember watching Mr. Rogers or Sesame Street?",
+    "Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow",
+    "to listen to their rejection and be patient"
+   ],
+   "must_not_contain": [
+    "Even Mr. Rogers could help here",
+    "If nobody comes to mind, you can look to examples like Mr. Rogers"
+   ]
+  },
+  {
+   "id": "let-child-p1-joel-20261014",
+   "status": "applied",
+   "what": "Let the Child Be Bad at Things P1 is Joel's, word for word (his answer to question 25); \"sMothered (typo?)\" is his pun, not a typo.",
+   "joel": "2026-10-14 19:51 UTC: \"25 yours was repetitive. this one is human (and typo is not a typo, it's a pun)\"",
+   "where": "Let the Child Be Bad at Things",
+   "must_contain_exact": [
+    "Reflection can show you what got sMothered (typo?) or suppressed. For identity you also need some experiments out in real life, so go try something new just for you. Maybe a foraging group, or a painting class. Stargazing can be awe-inspiring, and you might even see a UFO! Notice what holds your attention when nobody is impressed."
+   ]
+  },
+  {
+   "id": "gratitude-sentence-joel-20261015",
+   "status": "applied",
+   "what": "Ask God for a Loan, the gratitude paragraph \"This is a bit tricky to put into words…\": Joel's new sentence before its last, word for word.",
+   "joel": "2026-10-15 10:43 UTC: \"btw i changed this paragraph in gratitude section\" (experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md).",
+   "where": "Ask God for a Loan > Your Loan is PRE-APPROVED!",
+   "must_contain_exact": [
+    "This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That’s something to be grateful for. I’m not talking just about changing your “glass half empty” perception to a glass “half full perception.” I’m not pushing “toxic positivity.” And I’m certainly not preaching “prosperity philosophy,\" even though it can seem to start at that. We still need to remember that if we can only be thankful for the good things we have, we can fall into the trap of thinking that what we have is happiness itself. I'm ultimately reaching for something much deeper."
+   ]
+  },
+  {
+   "id": "untangling-joel-20261015",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains: Joel's P2 last sentence and P3, word for word, from the whole h2 he pasted (his answer to question 26). \"arsonists\" for his \"arsons\" (his typo rule, 2026-10-06); \"specially\" is his word, kept. Carried forward from his 19:51 answers: both belonging-bargain statements, both differentiation statements, and \"Differentiation is slow, and it goes on your whole life.\"",
+   "joel": "2026-10-15 10:43 UTC: \"26 this one passes alone\" and \"this h2 passes as human100%:, and it also fixed the h1\" (experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md).",
+   "where": "Untangling the Belonging Bargains",
+   "must_contain_exact": [
+    "It can feel really good to be the one everybody calls. In the more shadowy presentation, when you really need to feel needed, you might be like the firefighters who become arsonists to keep themselves employed.",
+    "These can all be real gifts. The bargain begins when your worth depends on them, like you have to keep performing them to be loved. Your little one can hang onto those bargains, specially if you haven't learned to parent him or her yourself yet. Even with good parents, you could have learned this when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead.",
+    "But if going along means betraying yourself, that's the bargain.",
+    "Differentiation is slow, and it goes on your whole life."
+   ],
+   "must_not_contain": [
+    "become arsons",
+    "keeping other people dependent",
+    "as if belonging were a matter of life or death",
+    "with nobody parenting it"
+   ]
+  },
+  {
+   "id": "borrow-love-p1-joel-20261015",
+   "status": "applied",
+   "what": "Borrow Love—or Borrow the Perspective of Care P1 is Joel's, word for word, in place of Claude's (his answer to question 27).",
+   "joel": "2026-10-15 10:43 UTC: \"27 this passes\" (experiments/t56-answers/JOEL-ANSWERS-20261015-1043.md).",
+   "where": "Borrow Love—or Borrow the Perspective of Care",
+   "must_contain_exact": [
+    "Sometimes it's not that you can't love in general. Your dog can chew up your good shoes and be forgiven before you've found the other one. But maybe you direct that love to your little one and the attempt goes flat, or starts to feel weirdly unsafe. Just feel that love you can feel for others for a minute, in your body, before you try to redirect anything. Then as you relax into that and enjoy it more, imagine it flowing downhill, like an overflowing river of delicious chocolate. Now imagine how happy your inner child is at the bottom of the hill to play in that chocolate love that rolled down!"
+   ],
+   "must_not_contain": [
+    "Sometimes love isn't the missing part.",
+    "who hasn't even chewed anything"
    ]
   }
  ]

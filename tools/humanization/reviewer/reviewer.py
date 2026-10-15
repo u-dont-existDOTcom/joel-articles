@@ -35,7 +35,7 @@ The commands:
                                             target's guide passage against the whole article and against the
                                             other targets, SAID / PARTLY / NEW, and what's left to add. Run it
                                             before drafting, and again with the drafts; give it to an "opus" subagent
-  reviewer.py repeats OUT --article A [--focus TEXT] [--report PATH]
+  reviewer.py repeats OUT --article A [--focus TEXT [--only]] [--report PATH]
                                             the whole-article repeat check (repeats.txt, E151): every point the
                                             article makes twice, and contradictions
 
@@ -579,11 +579,14 @@ def build_dedup(targets, drafts=None, report=None, article=None):
             .replace('{groups}', '\n\n---\n\n'.join(groups)))
 
 
-def build_repeats(article, focus=None, report=None):
-    """The whole-article repeat check (E151): every point the article makes more than once."""
+def build_repeats(article, focus=None, report=None, only=False):
+    """The whole-article repeat check (E151): every point the article makes more than once. With only=True the reader
+    reports just what touches the focus part (2026-10-14: a "report only" line written inside --focus turned the scope
+    sentence into nonsense, and four readers in turns 54 and 55 said so)."""
+    tail = ('Report only repeats and contradictions that involve at least one block there, and name the section of every '
+            'instance.' if only else 'Then check the rest of the article against itself.')
     f = ('WHERE TO LOOK HARDEST\n\n%s was put together from several sources at different times, so check every block there '
-         'against every other block there, and against the rest of the article. Then check the rest of the article against '
-         'itself.' % focus) if focus else ''
+         'against every other block there, and against the rest of the article. %s' % (focus, tail)) if focus else ''
     return (read('repeats.txt').replace('{focus}', f).replace('{report}', report_line(report))
             .replace('{article}', numbered_article(article)))
 
@@ -766,6 +769,7 @@ def main():
     s.add_argument('--report', help='a path the reader writes its findings to (default: its final message)')
     s = cmd('repeats'); s.add_argument('out')
     s.add_argument('--focus', help='the part of the article to check hardest, e.g. \'"# Before You Try to Go Deep" ([B32] to [B77])\'')
+    s.add_argument('--only', action='store_true', help='report only what touches the --focus part (keep --focus a name)')
     s.add_argument('--report', help='a path the reader writes its findings to (default: its final message)')
     s = cmd('sense-section'); s.add_argument('out')
     s.add_argument('--section', required=True, help='the heading of the section to read, without the #s')
@@ -807,7 +811,7 @@ def main():
     elif a.cmd == 'repeats':
         if not PATHS['article']:
             sys.exit('reviewer.py repeats: give --article PATH')
-        write(a.out, build_repeats(PATHS['article'], a.focus, a.report))
+        write(a.out, build_repeats(PATHS['article'], a.focus, a.report, a.only))
     elif a.cmd == 'sense-section':
         if not PATHS['article']:
             sys.exit('reviewer.py sense-section: give --article PATH')

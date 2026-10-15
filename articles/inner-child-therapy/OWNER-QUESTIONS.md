@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-13 (turn 51). **One open question (20).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-15 (turn 56). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,21 +11,45 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-*None open right now. Turn 52's notes are in Decided below.*
+None right now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #171 (turn 52)
+### 🟠 Merge pull request #172 (turns 53 to 56)
 
-This turn's work: your Untangling P1 to P3, rule E172 and the repeats sweep. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+GPT's Untangling, your Ask God for a Loan in its latest version, your answers to 23 to 27, and the checks. Main is merged into it again (the Intentional Communities pull requests 173 and 175), so its conflicts are gone. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-15 10:43 UTC
+
+- Your new gratitude sentence ("btw i changed this paragraph in gratitude section"): in, word for word. You didn't say you'd checked it: the paragraph alone, Ask God for a Loan, the Borrow Love h2 and the h1 Borrow the Adult all read Human Written ([the paragraph](https://www.pangram.com/history/152cedff-e982-4841-8d59-9e106cec687b), [the h1](https://www.pangram.com/history/0d8b1c4b-a8d6-4c0f-943b-85c1f9c5771a)).
+- 26: your P3 and your new P2 ending are in, word for word, from the h2 you pasted; your checks count. "arsonists" for "arsons" (your rule: obvious typos get fixed), so P2 alone, the h2 and the h1 Sometimes There Isn't a Clear Child Yet were checked again with it, and all read Human Written ([the h2](https://www.pangram.com/history/28bcc281-1d1a-4e98-b503-1f93d5fbe1de), [the h1](https://www.pangram.com/history/e7fad033-7e10-423b-bfd9-e97922ee0822)). "specially" stays: it's an informal "especially", and your check of P3 had it.
+- 27: your P1 is in, word for word; your check counts. With it the Borrow Love h2 reads Human Written ([the h2](https://www.pangram.com/history/fa478c86-93f1-4846-877f-294f00af8d41)), and the h1 Borrow the Adult's AI window from turn 55 is gone.
+- "there are conflicts for pr 172": fixed. Main is merged into the lane; the one conflict was a note in the gate's instructions, and both versions are kept.
+- From the repeats check, in your words both times, so left as they are (say if you'd trim one): your new sentence ("what we have is happiness itself") and your Biggie Smalls line two paragraphs later ("having money is not real happiness"); and P2's "another bargain, where you have to earn your worth" with P3's "The bargain begins when your worth depends on them", back to back. A mild pull across the article, too: My Journey says "Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me.", while your new sentence says "we can fall into the trap".
+
+### 🟢 2026-10-14 19:51 UTC
+
+- Your updated Ask God for a Loan ("i updated my ask god section, here's the latest"): in, word for word. "when I got tuberculosis" for "when got tuberculosis" (your rule: obvious typos get fixed). Your paste was plain text, so its two links are kept from your earlier version, and your video note sits under the new sub-heading, where your paste had its blank lines; say if it belongs elsewhere. You didn't say you'd checked it, so it's going through Pangram.
+- 23: in. Untangling P3 has your three sentences for the unparented child and your new self-differentiation sentence; both belonging-bargain statements and both differentiation statements stay, and so does "Differentiation is slow, and it goes on your whole life." When Healing Turns Into Checking has your new sentence in place of "just like real growing up is not something you do forever", with the sentences after it as they were. That's also the pending edit from #174, now marked done.
+- 24: both Mr. Rogers sentences in Borrow One Competency are cut (with P3's goes its spiritual love, which Ask God has); both hearing-it-out lines stay.
+- 25: your P1 is in, word for word, pun and "(typo?)" included; your check counts. Say if "(typo?)" was a note to me and not part of the text.
+
+### 🟢 2026-10-14 03:52 UTC
+
+- Your answers to questions 21 and 22, your rewrite of Ask God for a Loan ("ok good catches. it's fully human now and explained a bit better about prosperity issue"): in, word for word. The roselle tea line stays ("i did mention bilharzia not just any old peeing blood issue"); the gratitude paragraph ends with your new prosperity lines; the little-one paragraph is your new one, with the feast paragraph folded into its last sentence. Your check counts, so I didn't check Ask God again; the Borrow Love h2 and the h1 are combinations you didn't check.
+
+### 🟢 2026-10-14 02:55 UTC
+
+- "the deduped GPT version i meant to put at the end of my last msg is this": in, word for word, the whole h2 with Four Pairs, in place of turn 52's. Your check counts ("its output became 100% human"), so I didn't check the h2 again.
+- "i'm replacing the ask god for a loan section with this, because i realized i never explained the importance of gratitude in finding love": in, word for word, with your EndSickness.org short under the heading. "You Already Got the Loan Without Realizing It!" is a sub-heading under Ask God for a Loan; say if you meant it as its own h3. You didn't say you'd checked it, so I'm checking it in Pangram. One question on it: 21 above.
 
 ### 🟢 2026-10-13 20:41 UTC
 
@@ -119,9 +143,9 @@ This turn's work: your Untangling P1 to P3, rule E172 and the repeats sweep. Abo
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: Let the Child Be Bad at Things
+### 🔵 Next: The Inner Guide Comes Later
 
-The last h2 of Sometimes There Isn't a Clear Child Yet: three guide paragraphs (experiments over reflection, the old internal parent's verdict on a first attempt, enough repetitions to get past being a beginner). Then the h1 The Inner Guide Comes Later.
+The next h1 (Key's third adult function, the Leader, Guide or Guru). Let the Child Be Bad at Things went in this turn; the h1 Sometimes There Isn't a Clear Child Yet gets its whole check once you've answered 23 and 25.
 
 ### 🔵 Saved for when Altered States is humanized
 

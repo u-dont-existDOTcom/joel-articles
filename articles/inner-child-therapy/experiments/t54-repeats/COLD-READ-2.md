@@ -1,0 +1,24 @@
+# Cold read 2: "Sometimes There Isn't a Clear Child Yet"
+
+- P1: OK
+- P2: OK
+- P3: OK
+- P4: OK
+- P5: OK
+- P6: OK
+- P7: OK
+- P8: OK
+- P9: OK
+- P10: "Your little one, with nobody parenting it, takes those bargains to survive": who is the "nobody"? I weighed two readings. One is the inner adult: no grown-up you is parenting your little one yet, so it keeps taking the bargains now. The other is the real parents back then: a child with no one parenting it took them. The present tense "takes" and the article's frame (you parent your little one) point to the first; the next sentence, "Even with good parents," points to the second. The sentence says something different with each: why the bargains keep going now, or how they started.
+- P11: OK
+- P12: OK
+- P13: OK
+- P14: OK
+- P15: OK
+- P16: OK
+- P17: OK
+- P18: OK
+- P19: OK
+- P20: OK
+- P21: OK
+- P22: OK

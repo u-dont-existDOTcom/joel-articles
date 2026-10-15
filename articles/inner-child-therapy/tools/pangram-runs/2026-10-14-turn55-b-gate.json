@@ -1,0 +1,39 @@
+{
+ "t55_seam_p1": {
+  "kind": "draft",
+  "march": [
+   "S S S S B B S B",
+   "S S S S B B S B"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "the installed P1 with one sentence added at its end, \"I wonder what that'd feel like on their end.\" (writer 2 of two), for the h1's AI window at P1's end and P2's start"
+ },
+ "t55_seam_p12": {
+  "kind": "section",
+  "parts": [
+   "t55_seam_p1",
+   "installed"
+  ],
+  "repeats": 0
+ },
+ "t55_seam_h2": {
+  "kind": "section",
+  "parts": [
+   "t55_seam_p1",
+   "installed"
+  ],
+  "repeats": "joel: no. 9 as in Ask God (his words); nothing else inside this h2"
+ },
+ "t55_seam_h1": {
+  "kind": "section",
+  "parts": [
+   "t55_seam_p1",
+   "installed"
+  ],
+  "repeats": "joel: no. 8, the two hearing-it-out lines, kept by his answer to question 24; no. 9 his words; no. 6 answered"
+ }
+}
