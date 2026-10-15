@@ -1,0 +1,36 @@
+[
+ {
+  "id": "H1-P2",
+  "source": "emu-g/out/j02-emuA.txt, its second paragraph (from v14)"
+ },
+ {
+  "id": "H1-P2",
+  "old": "at least one conflict together",
+  "new": "at least one real conflict together",
+  "why": "the published \"one real conflict\""
+ },
+ {
+  "id": "H1-P2",
+  "old": "Not dealt with it by writing out a vision statement and shaking hands or agreeing to leave each other alone or any other BS way of \"resolving\" things.",
+  "new": "Not dealt with it by writing out a vision statement and shaking hands, or any other fake way of \"resolving\" things, like a truce nobody believes (\"let's just leave each other alone\").",
+  "why": "the published \"a truce nobody believes\" (traces of r5 and r7), as the example of a fake way, so the sentence keeps two items (the linter fails two lists of three in one paragraph); Emulate's example as its words; \"fake\" for \"BS\", a word that isn't his"
+ },
+ {
+  "id": "H1-P2",
+  "old": "giving each of you the time you need,",
+  "new": "giving each of you time,",
+  "why": "stance check against the article so far, r8: section 4's relational pl/ork gives everyone equal time; the published \"Give each person time\""
+ },
+ {
+  "id": "H1-P2",
+  "old": "(jealousy, humiliation, fear, whatever)",
+  "new": "(jealousy, humiliation, fear, old material, whatever)",
+  "why": "the published \"old material\" (key U5)"
+ },
+ {
+  "id": "H1-P2",
+  "old": "what ever agreement",
+  "new": "whatever agreement",
+  "why": "a typo of Emulate's"
+ }
+]

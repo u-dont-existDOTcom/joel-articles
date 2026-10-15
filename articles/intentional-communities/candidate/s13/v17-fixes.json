@@ -1,0 +1,79 @@
+[
+ {
+  "id": "H3-P1",
+  "variant": "A",
+  "file": "v17.md",
+  "source": "v16 H3-P1",
+  "fixes": [
+   {
+    "old": "then they're really a landlord just with a philosophy.",
+    "new": "then they're really a landlord with a philosophy.",
+    "why": "his phrase whole, as published (\"a landlord with a philosophy\")"
+   },
+   {
+    "old": "even if the literature says everyone's equal.",
+    "new": "even if the welcome packet says everyone's equal.",
+    "why": "the published \"welcome packet\", a concrete thing for Emulate's \"the literature\""
+   }
+  ],
+  "text": "Who has the title to the land? It matters so much! Whoever has it has a massive amount of power over the community. If the deed is in the founder's name, then they're really a landlord with a philosophy. If three members out of twelve own everything, then there's effectively two classes of members even if the welcome packet says everyone's equal."
+ },
+ {
+  "id": "H3-P1",
+  "variant": "B",
+  "file": "v17b.md",
+  "source": "emu-h/out/k02-emuA.txt",
+  "fixes": [
+   {
+    "old": "This is very important.",
+    "new": "This is very important!",
+    "why": "a reaction, as \"It matters so much!\" was (the march break)"
+   },
+   {
+    "old": "The person who holds the title has",
+    "new": "Whoever holds the title has",
+    "why": "the published \"Whoever owns the land\": not one person"
+   },
+   {
+    "old": "If the land is in the name of the founder, for instance, then he is essentially a landlord with a philosophy.",
+    "new": "If the deed is in the founder's name, for instance, then they're essentially a landlord with a philosophy.",
+    "why": "the published deed (key U25), and a founder who is no one in particular (\"you have a landlord\"); his phrase whole"
+   },
+   {
+    "old": "If the land is owned by three out of twelve members,",
+    "new": "If three out of twelve members own everything,",
+    "why": "the published \"own everything\", not only the land"
+   },
+   {
+    "old": "despite what the group's literature may say.",
+    "new": "despite what the group's literature may say about everyone being equal.",
+    "why": "the published \"equal\" (key U26)"
+   }
+  ],
+  "text": "Who has the title to the land? This is very important! Whoever holds the title has a great deal of power over the community. If the deed is in the founder's name, for instance, then they're essentially a landlord with a philosophy. If three out of twelve members own everything, then there are really two classes of members, despite what the group's literature may say about everyone being equal."
+ },
+ {
+  "id": "H3-P1",
+  "variant": "C",
+  "file": "v17c.md",
+  "source": "v16 H3-P1",
+  "fixes": [
+   {
+    "old": "then they're really a landlord just with a philosophy.",
+    "new": "then they're really a landlord with a philosophy.",
+    "why": "his phrase whole, as published (\"a landlord with a philosophy\")"
+   },
+   {
+    "old": "even if the literature says everyone's equal.",
+    "new": "even if the welcome packet says everyone's equal.",
+    "why": "the published \"welcome packet\", a concrete thing for Emulate's \"the literature\""
+   },
+   {
+    "old": "Who has the title to the land? It matters so much! Whoever has it",
+    "new": "It matters so much who has the title to the land! Whoever has it",
+    "why": "no question right after the heading; the exclamation first (not \"The title ...\": a third paragraph opening \"The\" fails B13)"
+   }
+  ],
+  "text": "It matters so much who has the title to the land! Whoever has it has a massive amount of power over the community. If the deed is in the founder's name, then they're really a landlord with a philosophy. If three members out of twelve own everything, then there's effectively two classes of members even if the welcome packet says everyone's equal."
+ }
+]

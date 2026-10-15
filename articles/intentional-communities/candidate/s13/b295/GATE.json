@@ -1,0 +1,36 @@
+{
+ "S13v19-3P3": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S S S S B",
+   "S S S S S S S S S B"
+  ],
+  "march_note": "s13/review-r12/MARCH-labels-a.txt and -b.txt, T12",
+  "cold": "OK",
+  "cold_note": "s13/review-r12/SENSE-a.md, SENSE-b.md: OK, but for reader b's question on \"that way\" in Joel's own sentence in H5-P3, kept (his 32 b): review-r12/DISPOSITIONS-r12.md",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r12/trace-T1.md (its one finding, \"can't depend\", kept: review-r12/DISPOSITIONS-r12.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r12/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (the one in STANCE-pub is H5-P4, fixed in v20)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 161
+ },
+ "S13v19-5P3": {
+  "kind": "draft",
+  "march": [
+   "S S S B S S",
+   "S S S B S S"
+  ],
+  "march_note": "s13/review-r12/MARCH-labels-a.txt and -b.txt, T26",
+  "cold": "OK",
+  "cold_note": "s13/review-r12/SENSE-a.md, SENSE-b.md: OK, but for reader b's question on \"that way\" in Joel's own sentence in H5-P3, kept (his 32 b): review-r12/DISPOSITIONS-r12.md",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r12/trace-T2.md (its one finding, the Zapatista clause, kept: review-r12/DISPOSITIONS-r12.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r12/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (the one in STANCE-pub is H5-P4, fixed in v20)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 103
+ }
+}

@@ -983,6 +983,20 @@
     "And this reparenting journey is built on",
     "first. I.e., listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well."
    ]
+  },
+  {
+   "id": "s13-joel-20261015-1828-32b",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 13, \"When Somebody Has to Go\", the outside-review paragraph: his published sentence \"My research initially leaned too far that way.\" stays as written, with its link on \"My research\" (question 32 b). My draft's \"(It's true that at first my research kinda leaned too far toward the nation-state.)\" is out.",
+   "joel": "32b this is the same problem we had before where you forgot to notice that \"research\" is a link to my research report, so it's about that.",
+   "when": "2026-10-15 18:28 UTC (joel-20261015/joel-20261015-1828-message.txt)",
+   "must_contain_exact": [
+    "[My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way."
+   ],
+   "must_not_contain": [
+    "kinda leaned too far toward the nation-state"
+   ]
   }
  ]
 }

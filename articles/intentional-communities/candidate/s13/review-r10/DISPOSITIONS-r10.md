@@ -1,0 +1,21 @@
+# Round r10 on v14: what each finding got (2026-10-15)
+
+Reports: `trace-T1.md` (H3-P3 alone), `trace-T2.md` (H4-P8, H5-P2), `trace-T3.md` (H5-P3, H5-P4), `SENSE-a.md`, `SENSE-b.md`, `MARCH-labels-a.txt`, `MARCH-labels-b.txt`, `STANCE-pub.md`, `STANCE-sofar.md`. Same rule as round r6 (`../review-r6/DISPOSITIONS-r6.md`). New this round: the cold reads have the rule on sentences about a linked thing (Joel's 32 b), the march readers are told the right article (until r9 the prompt said "a friendly self-help article about inner-child work"), and every flag that touches a linked sentence goes through `tools/humanization/link_flags.py` with this file. Fixes are in `../make_v15.py`.
+
+## Kept, with the reason
+
+- **H5-P3, "My research initially leaned too far that way": "that way" (cold read a: toward the nation-state, or toward "doesn't have to be a nation-state").** Joel's sentence, as he decided at 18:28 (32 b). Reader a's own best reading is the meant one (toward treating "outside" as the nation-state), and the link goes to his research report, which leans that way, so a reader who opens the link sees which way. One reader; reader b found the paragraph OK, and so did both traces of his sentence.
+- **H4-P8, "I know, it's the fun part." (trace T2, added: "a new opinion (hanging out is the fun part), unmarked. Minor."; fix: cut).** One reviewer, and the cut loses the paragraph's only break: both march readings take this sentence, after "(Hanging out doesn't count, I'm afraid!)" got none in either reading of r9. It concedes what a reader feels about the rule just given; no position in the article says otherwise.
+- **H5-P3, "and when power crept up in their own system, they pushed it back down" (trace T3, added: "a new historical claim about a named group", and "it also reads as self-correction, against 'not reviewing its own conduct'"; fix: cut, or mark it as Joel's).** The claim is the article's own, in section 9 (published: "The Zapatistas reviewed theirs and pushed authority downward"), which the tracer can't see; both stance checks of this round name that passage as its support, and neither cold read stopped at it. On self-correction: the clause tells how the reviewing layer was kept from becoming a state (power pushed back down to the communities), which is the paragraph's point, not a community judging its own conduct. Joel saw this fix in the 17:13 message and didn't object. One reviewer on that point.
+- **The published contradiction, "already a community" against "still a circle of promising strangers" (published-essay stance check: the rewrite "still has it, in a milder form").** No change: round r9's published-essay check found the bridge settles it, and Joel has it among the three passages reported at 17:13.
+- **H2-P2, the values list (no break in either march reading).** Done, as in round r9: it read Human beside H2-P1 (291g).
+
+## Fixed in v15
+
+- H3-P3: "can't depend on one person's memory or permission" (trace T1: "memory" lost, since "recorded somewhere" names a way of keeping track, and one person's notebook would do; round r9's trace called it equivalent, but the fix loses nothing: the published words).
+- H4-P5: "(A full member's rights and responsibilities should be addressed in your founding agreements.)" for "... in the agreements you draw up when you are first starting your group." (stance check against the article so far: the timing put members' land and resource rights before practice, a processed conflict and testing membership, against section 16's order; the published "follow the founding agreements" sets no time). H4-P5 read Human in 290g, so it goes back through the gate and Pangram alone.
+- H5-P3: "Just not the community itself!" after the list of outside bodies (march: no break in either reading once Joel's sentence replaced my aside, which had been the paragraph's break). It says again, as a reaction, the published "a competent layer that is not reviewing its own conduct".
+
+## Clean after r10, to Pangram (batch 293g)
+
+H4-P8, H5-P2 and H5-P4: trace OK or kept above, both cold reads OK, a break in both march readings, nothing in either stance check, keys PASS. With them, the "Resources, Land, and Exit Terms" heading over H3-P1 again (its one AI reading was low confidence), and over H3-P1 and H3-P2.

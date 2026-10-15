@@ -716,6 +716,65 @@ class PangramLinksInMessages(unittest.TestCase):
         self.assertIn('Mostly Human', found[1])
 
 
+class LinkFlags(unittest.TestCase):
+    """link_flags.py (2026-10-15). Joel, 18:28 UTC, question 32: four cold reads asked "why is this here?" of a sentence
+    about his linked research report, and I proposed a cut without looking at the link: "you forgot to notice that
+    "research" is a link to my research report, so it's about that"."""
+    DRAFT = ('# Part\n\n"Outside" does not always mean the nation-state. [My research](https://example.org/research/) '
+             'initially leaned too far that way. The important thing is a competent layer.\n\n'
+             'Also choose a mediator before the crisis.\n')
+
+    def run_tool(self, report, disp=None):
+        import link_flags
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'draft.md').write_text(self.DRAFT, encoding='utf-8')
+            (d / 'r.md').write_text(report, encoding='utf-8')
+            args = [str(d / 'draft.md'), str(d / 'r.md')]
+            if disp is not None:
+                (d / 'disp.md').write_text(disp, encoding='utf-8')
+                args += ['--dispositions', str(d / 'disp.md')]
+            found = link_flags.flags(self.DRAFT, [str(d / 'r.md')])
+            return found, link_flags.main(args)
+
+    def test_a_flag_on_a_linked_sentence_is_listed_with_its_address(self):
+        found, code = self.run_tool('[P1] Why is this here: "My research [a link to example.org/research] initially '
+                                    'leaned too far that way." Nothing earlier shows it.\n[P2] "choose a mediator before the '
+                                    'crisis": OK really.\n')
+        self.assertEqual(len(found), 1)
+        self.assertEqual(found[0]['links'], [('My research', 'https://example.org/research/')])
+        self.assertEqual(code, 0)
+
+    def test_an_equivalent_line_is_not_a_flag(self):
+        found, code = self.run_tool('1. "My research initially leaned too far that way": EQUIVALENT. Word for word.\n'
+                                    '[P1] OK\n2. ADDED: "initially leaned too far that way" is new.\n')
+        self.assertEqual(len(found), 1)
+        self.assertTrue(found[0]['line'].startswith('2. ADDED'))
+
+    def test_with_dispositions_the_flag_needs_a_line_on_its_link(self):
+        rep = '[P1] "initially leaned too far that way" ... why is this here?\n'
+        _, code = self.run_tool(rep, disp='- Kept: "initially leaned too far that way" (one reader).\n')
+        self.assertEqual(code, 1)
+        _, code = self.run_tool(rep, disp='- Kept: "initially leaned too far that way": the link goes to his report, '
+                                          'and the sentence tells its readers which way it leans.\n')
+        self.assertEqual(code, 0)
+
+
+class MarchPrompt(unittest.TestCase):
+    """reviewer.py march --about (2026-10-15): the march prompt told every reader it was reading the inner-child article,
+    the community lane's paragraphs included."""
+
+    def test_about_names_the_article_and_drops_the_inner_child_line(self):
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        p = reviewer.build_march('One step. Then another!\n\nA second paragraph.', 'a blog article about building '
+                                 'intentional communities')
+        self.assertTrue(p.startswith('Below are 2 paragraphs from a blog article about building intentional communities,'))
+        self.assertNotIn('inner child', p.split('\n', 1)[0])
+        self.assertIn('T1: [1] One step. [2] Then another!', p)
+        self.assertIn('inner-child work', reviewer.build_march('One. Two.'))   # the default is unchanged
+
+
 class SectionColdReadPrompt(unittest.TestCase):
     """reviewer.py sense-section (2026-10-11). Joel, 18:35 UTC: ""as I'm describing may happen in my case" is obvious so you
     should debug why the cold reader can't understand it." The community lane's section reads were written by hand, with a
@@ -770,6 +829,15 @@ class SectionColdReadPrompt(unittest.TestCase):
         p = self.run_cmd('--section', 'Second Part')
         self.assertIn('Words followed by "[a link to ...]" are a link on the page', p)
         self.assertIn('the research corpus is linked in the article', p)
+
+    def test_a_sentence_about_a_linked_report_is_for_whoever_opens_it(self):
+        # Joel, 2026-10-15 18:28 UTC, question 32: four cold reads had asked "why is this here?" of "My research initially
+        # leaned too far that way", where "My research" links to his research report: "this is the same problem we had
+        # before where you forgot to notice that "research" is a link to my research report, so it's about that."
+        p = self.run_cmd('--section', 'Second Part')
+        self.assertIn('A sentence about a linked thing can be there for the reader who opens the link.', p)
+        self.assertIn('so it\'s about that', p)
+        self.assertIn('only when it would tell a reader who clicked through nothing', p)
 
     def test_the_shared_rules_are_in_it(self):
         p = self.run_cmd('--section', 'Second Part')

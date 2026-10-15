@@ -66,7 +66,7 @@ By default, publish the best current conclusion—not the backstage sequence by 
 
 Do not automatically convert research notes such as `I thought X`, `I had heard Y`, `I checked it`, `I wasn't sure what the term was`, or `the check I did here showed...` into article narration. Collapse them to the reader-relevant result, including uncertainty or evidence limits where needed.
 
-Keep the inquiry/correction process only when **the process itself performs a real article function**: for example, the article is explicitly methodological, the change of mind is evidence for the argument, the original misconception is common and worth correcting, or the provenance of the uncertainty materially matters. Otherwise, research workflow is source metadata, not prose.
+Keep the inquiry/correction process only when **the process itself performs a real article function**: for example, the article is explicitly methodological, the change of mind is evidence for the argument, the original misconception is common and worth correcting, the provenance of the uncertainty materially matters, or the sentence corrects a document the article links to, which a reader may open. Joel, 2026-10-15, on "My research initially leaned too far that way", where "My research" links to his published research report and I had proposed a cut under this gate: "you forgot to notice that "research" is a link to my research report, so it's about that." Before applying this gate to a sentence, look at what its links point to. Otherwise, research workflow is source metadata, not prose.
 
 ## Method fit and switching
 

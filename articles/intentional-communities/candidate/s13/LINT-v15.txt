@@ -1,0 +1,98 @@
+== tells_lint: s13/v15.md
+verdict: REVIEW
+metrics: {'words': 2095, 'my_words': 2095, 'paragraphs': 27, 'coach_per_100': 0.1, 'you_per_100': 2.1, 'landing_rate': 0.26, 'instruction_paragraphs': 1, 'para_len_cv': 0.37, 'sent_len_cv': 0.69, 'repeated_openers': {}}
+-- B1 finished principle (6)
+   * If you've got a small handful of people who want to make a community but aren't sure yet, you are already a community, even if it's still an untested one.
+   * If three members out of twelve own everything, then there's effectively two classes of members even if the literature says everyone's equal.
+   * The practical burden piled up anyway.
+   * The long visit: If you're not around long enough to actually experience inconvenience and conflict with the person in question, then you're not going to learn v
+   * Do visitors, volunteers, workers, renters and interns at a commune need some rights even if they're not fully "in" the commune politically? (Yes, even the inter
+   * People often do not trust someone who they have not met, and who appears at the time of a crisis to act as a ‘neutral stranger’.
+-- B2 contrast (2)
+   * If you've got a small handful of people who want to make a community but aren't sure yet, you are already a community, even if it's still an untested one.
+   * It’s not that romantic, but it’s protective, and a lot easier than doing it when people are furious.
+-- B3 short knock-down (5)
+   * It sounds cheesy but it's true.
+   * But really, truly dealt with it.
+   * It's boring stuff, I know.
+   * That's not much of a right.
+   * So yes, the land comes last!
+-- B4/E15 list or packed sentence (17)
+   * That's the real relational pl/ork of each of you naming what happened, giving each of you time, finding whatever is there (jealousy, humiliation, fear, old mate
+   * Meet in rented or borrowed space, or at someone’s house, and find out how much conflict the group can handle before anyone hires a surveyor.
+   * That is, the things they can offer in the way of water, housing, food stores, health care, tools, seasonal labor, transportation, schooling, market access, etc.
+   * When you go to visit a community, have a list ready of what you really believe about children, money, property ownership, romance, medicine, food, spiritual pra
+   * What legal form will hold the land: a cooperative, trust, association, company, or whatever fits your jurisdiction?
+   * Large transfers (land, equipment, stores or outside cash) need to be recorded somewhere, and can't depend on one person's memory or permission.
+   * Whether or not the community uses money, it still needs to be able to provide people with resources when they leave, in whatever form makes sense (cash if it us
+   * Good people leave for good reasons, like a dying parent, love, work, health, exhaustion, or just a simple change of mind.
+   * For the order to do all this in, see Diana Leafe Christian’s Creating a Life Together: First you get the vision, then you get the members, then you pool the maj
+   * Watch how they react when tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even a professional faker may be able to pull off 
+   * If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to kn
+   * Do visitors, volunteers, workers, renters and interns at a commune need some rights even if they're not fully "in" the commune politically? (Yes, even the inter
+   * Also when decisions really affect their schedule, safety, housing, records or discipline.
+   * If someone is a serious or general danger, keeps violating essential boundaries, or is just impossible to live with, ejecting them can be the right call.
+   * What will be done to protect their housing, records, family contact, and access to common resources or outside funds (if any) during separation?
+   * That can be another community, a federation, a professional, an autonomous regional institution, a court, a regulatory agency, an emergency service.
+   * It does not remove the need for evidence, for safeguarding, for a ruling, or for a final separation when consent to continue in a relationship or a shared life 
+-- B7 short landing at paragraph end (7)
+   * It sounds cheesy but it's true.
+   * Until then, what's it worth?
+   * And you need paperwork for it?!?!”
+   * Mark those places too.
+   * That’s a lot of deciding, I realize.
+   * That's not much of a right.
+   * So yes, the land comes last!
+-- E1 kid (2)
+   * If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to kn
+   * I wouldn’t hand someone the van keys just because they’re great with kids!
+-- E125 list of three: an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it's really needed"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them" (8)
+   * old material, whatever), and dealing with it until
+   * privacy, conflict and leaving.
+   * association, company, or whatever fits your jurisdiction?
+   * health, exhaustion, or just a simple change
+   * medicine, vehicles or private records
+   * housing, records or discipline.
+   * records, family contact, and access to common resources
+   * for safeguarding, for a ruling, or for a final separation
+-- E23 paragraph of instructions (1)
+   * Do stuff together prior to making them provisional members. (Sorry, hanging out doesn't co...
+-- E41 coach phrase (2)
+   * You can find out by asking if you’ve seen them do this thing before, and asking for references if appropriate.
+   * Remember that mediation is about trying to restore good relations between people.
+-- O12 "ordinary/regular/boring/quietly": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"; 2026-10-10 12:22, on "shouldn't quietly turn into": "using quietly all the time like that is a huge AI tell"); keep one that says something, judge published wording like new wording (2)
+   * It's boring stuff, I know.
+   * Can you actually work together to get something done (an ordinary work or shared-resource task will do)?
+-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that's also cheating"); a coinage or a rare word stays, a misspelling gets fixed: ombud (1)
+   * Also agree on a mediator or ombud in advance.
+-- O18 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like 'Not x, but still y.'"): say the claim plainly; keep the contrast only when the reader needs the other side said (1)
+   * You should write down the exit terms while no one is leaving yet, and it’s still just a theoretical discussion.
+-- O24 a stock line (the gate's 2026-10-10 prediction review: "stock lines like "I see the need to", "It's also important to", "One thing to notice about""): say the thing itself (1)
+   * It is also important to specify what rights people have to resources when they leave the community.
+-- O25 "even" or "actually", 10 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; "They're words I add to sound casual, and they don't help"): keep one only where it says something (10)
+   * Don't even think about combining ownership or other big resources until you have gone through at least one real conflict together and really dealt with it.
+   * That's the real relational pl/ork of each of you naming what happened, giving each of you time, finding whatever is there (jealousy, humiliation, fear, old mate
+   * Once you’ve got a good sense of what is important to you, compare this to how the group actually functions (not just how they talk about it in public).
+   * Visibility is important even in a money-free community.
+   * The long visit: If you're not around long enough to actually experience inconvenience and conflict with the person in question, then you're not going to learn v
+   * Watch how they react when tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even a professional faker may be able to pull off 
+   * I know, it's the fun part.) Can you actually make a decision as a group?
+   * Can you actually work together to get something done (an ordinary work or shared-resource task will do)?
+   * Can you even process a small conflict afterwards?
+   * Do visitors, volunteers, workers, renters and interns at a commune need some rights even if they're not fully "in" the commune politically? (Yes, even the inter
+-- O29 a run of three or more questions (gate step 7: "a few shared AI micro-patterns (question runs, triads, "isn't X, it's Y")"; its prediction review: "questions the text answers itself"): keep the ones a reader would ask (6)
+   * 5 questions: Could an LGBTQ+ member live openly there? Date and/or be in a relationship? Would the community keep them fully protected? Should children be taugh
+   * 4 questions: How was a recent conflict handled? Who can block decisions? How did it go for the last person who left the group? Who owns the land?
+   * 3 questions: Did they read the materials? (Not everyone does!) Do they get the basic idea of why this community is here? Are they at least starting to do the re
+   * 5 questions: Have you thought about these questions: How long will a provisional membership be? What will a provisional member be responsible for and what are t
+   * 3 questions: I know, it's the fun part.) Can you actually make a decision as a group? Can you actually work together to get something done (an ordinary work or 
+   * 6 questions: What conduct might constitute cause for immediate action to protect people? Who will decide whether to place temporary restrictions on someone? Who
+-- O30 a phrase said three or more times in one paragraph (gate, 2026-10-07: my "a commitment they make as adults" "gave P22 its fourth "as adults""; Joel: "take out second adults that's obvious"): keep it only where the repeat does a job (2)
+   * "dealt with it" 3 times: Don't even think about combining ownership or other big resources until you have gone through at least one real conflict together and r
+   * "will a provisional" 3 times: Have you thought about these questions: How long will a provisional membership be? / What will a provisional member be responsible
+-- O36 a "but also" pair (the gate's 2026-10-10 prediction review: one of the tells a fragile pass carried, with "the boring problem" and the "nicer logo" quip) (1)
+   * Whether or not the community uses money, it still needs to be able to provide people with resources when they leave, in whatever form makes sense (cash if it us
+-- O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell ("Grief doesn't keep a schedule"); a phrase people say all the time is not (Joel 2026-10-07 23:50: "Modern life trains us" is "so common it's almost cliche, it's not a witty AI quip"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible (1)
+   * Whether or not the community uses money, it still needs to be able to provide people with resources when they leave, in whatever form makes sense (cash if it us
+-- O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a 'not Y' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said (1)
+   * Watch how they react when tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even a professional faker may be able to pull off 
