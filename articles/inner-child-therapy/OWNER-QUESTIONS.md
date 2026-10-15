@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-15 (turn 57). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-15 (turn 58). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -18,14 +18,16 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #178 (turn 57, from your 16:39 message on)
-
-You merged #177 at 16:14, so #178 has what came after: the screen-first gate (E175) and the new P2 and P3 of The Inner Guide Comes Later. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+Nothing right now: you merged #178 at 20:51 UTC. A new merge request comes with the next finished section.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-15 20:56 UTC
+
+- "4 hours for 2 paragraphs is a pretty bad result again ... i'm at 92% utliization so you need to be updating everything on gh as you go": the lean process (E177): I write the drafts myself in plain words, screen them in Pangram, and send each section to one round of reviews on cheaper models; every step is pushed as it finishes, and `CURRENT-STATE.md` says the next step, so another account can pick up mid-section.
 
 ### 🟢 2026-10-15 16:39 UTC
 

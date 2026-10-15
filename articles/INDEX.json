@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "165b94c510c8786368182206b2cb2d94e244ceb52a03871b1e67e161130e7e55"
+          "sha256": "ff23005b0da82dc0c8d68752bd39870e227ae819c4d3cd7f3762d721d1101c39"
         }
       },
       "review": {
@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "cbf96561d279a205d8954141649e441399733ef47d6cb55a332633bbd2b606fb",
+          "sha256": "acb5045131d5b02594369d2f9d189257f34a3a69dea0e02e8ded706f5bb6fa80",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "ac09fd38fc929710c45c613a0be98d88481cdc8c4886d024fce4cf57ea3aef78",
+          "sha256": "ded2214b297f862726ab622cb41f0a8a3a4b23cf2a92e3a264fc1a222b0db42b",
           "role": "owner_questions_page"
         },
         {
@@ -7616,6 +7616,11 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-15-turn57.json",
           "sha256": "9cf77c81e5c0c083feca1824712560e4d3ef26935e443503a1c6311706489899",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t58-answers/JOEL-20261015-2056.md",
+          "sha256": "64e839943b2f6c6b790bf4357a323805076c44da8b2403b53bf900cf29c565bc",
+          "role": "humanization_working_record"
         }
       ]
     },
