@@ -1,0 +1,74 @@
+{
+ "t56e_p2": {
+  "kind": "draft",
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g2-f1b: fix-round writer 1 (E170, from the why its reviews called GREAT), with the critic named as the article does (\"the inherited critic\") and candy, screens and escape as their own sentence. GROUNDING-g2-f1b.md, STANCE-6.md, COLD-READ-6.md."
+ },
+ "t56e_p3a": {
+  "kind": "draft",
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g3-f3c, first paragraph: fix-round writer 3, with \"It can be\" (the old rule is one way in), the duplicate backstory cut, \"someone safe\", and \"and asking for anything feels needy\" cut (the repeats check: said twice). GROUNDING-round5.md, STANCE-5.md and STANCE-6.md, COLD-READ-5.md and -6.md."
+ },
+ "t56e_p3b": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g3-f3c, second paragraph: \"give it a fair hearing, and judge how you go about meeting it, too\" (two groundings: the need gets heard, the strategy gets checked)."
+ },
+ "t56e_p12": {
+  "kind": "section",
+  "parts": [
+   "t56_ig_p1",
+   "t56e_p2"
+  ],
+  "repeats": 0,
+  "note": "P1 (Human alone in batch D) with P2, in case P2 alone is under the minimum."
+ },
+ "t56e_h1": {
+  "kind": "section",
+  "parts": [
+   "t56_ig_p1",
+   "t56e_p2",
+   "t56e_p3a",
+   "t56e_p3b"
+  ],
+  "repeats": 0,
+  "note": "REPEATS-4.md: nothing inside the opening; versions 5 and 6 reword P2 and one clause of P3 without new points. Its cross-section echoes are for the later sweep."
+ },
+ "t56_ig_p1": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "lint": "REVIEW",
+  "missing": [],
+  "grounding": "OK",
+  "stance": 0,
+  "note": "g1-w1b, as in batch D (Human alone, 0.0014)."
+ }
+}

@@ -1,0 +1,26 @@
+const items = [["t56e_p3a", () => "The opposite trap is forced adulthood: demanding perfect discipline of yourself and no visible needs, with very little joy or closeness. It can be the old \"don't be needy\" rule passing for the Guide. No wonder tightening control again feels like the grown-up thing. If you're stuck there, the next adult act may be asking someone safe for help, or saying what you'd prefer.", "cdfe6d683c2d373e8010e97a5053f3c4d66e30c105b7bfe12d5be5f4b8662514"], ["t56e_p3b", () => "Once a need does show, give it a fair hearing, and judge how you go about meeting it, too. Wanting closeness is legitimate. You might want a lot of it, after all that hiding. Demanding instant replies or punishing someone for needing space isn't the same thing. The Guide helps you find some workable way to meet the need without erasing you or the other person.", "b1243dc70db380b19829bf3b87654ba8bb892711a824e248926da241ce23bdeb"], ["t56e_p12", () => "As the Guide, you choose what your little one learns and what it gets to experience, and you hold standards, the way a good parent would. You ask hard things of it so it can grow, at its own pace. That's what I was just asking of you, with that new interest. You also widen its world with art and music, and you point out beautiful things when you see them. Nature is part of that, and so is the wider world past the end of the street you grew up on.\n\nWithout that kind of direction, reparenting can turn permissive. Asking anything hard of your little one can start to sound like the inherited critic, so sparing it everything can feel like love. Maybe you felt a bit of that when I asked. Candy and screens can pass for self-love, and so can escaping anything difficult.", "ebc49c1026ec07e7c30cd5655cd622b0ef7ceff39521aca4896af8ba40a9a9f1"], ["t56e_h1", () => "# The Inner Guide Comes Later\n\nAs the Guide, you choose what your little one learns and what it gets to experience, and you hold standards, the way a good parent would. You ask hard things of it so it can grow, at its own pace. That's what I was just asking of you, with that new interest. You also widen its world with art and music, and you point out beautiful things when you see them. Nature is part of that, and so is the wider world past the end of the street you grew up on.\n\nWithout that kind of direction, reparenting can turn permissive. Asking anything hard of your little one can start to sound like the inherited critic, so sparing it everything can feel like love. Maybe you felt a bit of that when I asked. Candy and screens can pass for self-love, and so can escaping anything difficult.\n\nThe opposite trap is forced adulthood: demanding perfect discipline of yourself and no visible needs, with very little joy or closeness. It can be the old \"don't be needy\" rule passing for the Guide. No wonder tightening control again feels like the grown-up thing. If you're stuck there, the next adult act may be asking someone safe for help, or saying what you'd prefer.\n\nOnce a need does show, give it a fair hearing, and judge how you go about meeting it, too. Wanting closeness is legitimate. You might want a lot of it, after all that hiding. Demanding instant replies or punishing someone for needing space isn't the same thing. The Guide helps you find some workable way to meet the need without erasing you or the other person.", "1e00b5e16e27893d4ed5017064ddb5fd460e0962f06b2f0950e322b932a28577"], ["t56e_p2", () => "Without that kind of direction, reparenting can turn permissive. Asking anything hard of your little one can start to sound like the inherited critic, so sparing it everything can feel like love. Maybe you felt a bit of that when I asked. Candy and screens can pass for self-love, and so can escaping anything difficult.", "f4eb9e0a162d13a386c0e9fea88c59854ce3a3b3a2598d5532a8fb3a2e55c6dd"]];
+window.__t56e = [];
+const log = m => window.__t56e.push(m);
+const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
+const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');
+const button = () => [...document.querySelectorAll('button[type=submit]')].find(b => /check for ai/i.test(b.innerText));
+const wait = ms => new Promise(r => setTimeout(r, ms));
+async function run() {
+  for (const [k, mk, want] of items) {
+    const T = mk();  // built when its turn comes, so it can use texts stored earlier in this batch
+    for (let j = 0; j < 20 && !(button() && document.querySelector('textarea')); j++) await wait(500);
+    const ta = document.querySelector('textarea');
+    if (!ta) { log(k + ': no textarea'); break; }
+    setter.call(ta, T); ta.dispatchEvent(new Event('input', {bubbles: true}));
+    let b = null;
+    for (let j = 0; j < 30; j++) { await wait(500); b = button(); if (b && !b.disabled) break; }
+    const h = await sha(ta.value);
+    if (h !== want) { log(k + ': hash mismatch ' + h + ' (is its prefix in sessionStorage?)'); break; }
+    if (!b || b.disabled) { log(k + ': button not ready'); break; }
+    try { sessionStorage.setItem(k, T); } catch (e) {}
+    b.click(); log(k + ': clicked');
+    await wait(10000);
+  }
+  log('end');
+}
+run(); 'started'
