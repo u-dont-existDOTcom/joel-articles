@@ -781,3 +781,13 @@ Joel, 16:39 UTC: why one paragraph took 4 hours 22 minutes, why I stopped after 
 ### Next
 
 The h1's group 4 (the Guide needs no certainty; problems blocked from outside: PGQ-014 and PGQ-017) and the healthy-mind paragraphs (PGQ-007), screened first.
+
+## Turn 58 (2026-10-15, from 20:56 UTC): group 4, the lean way (E177); stopped at 21:41
+
+Joel, 20:56 UTC: "4 hours for 2 paragraphs is a pretty bad result again ... updating everything on gh as you go". Lesson E177: my own drafts, my own march reading, a Pangram screen, one Sonnet review round; every step pushed.
+
+- **Group 4** (the Guide needs no certainty; blocked problems, PGQ-014; one stuck problem, PGQ-017): 31 drafts of mine in six rounds; three read Human alone. Picked P5 = p56-a (0.018) and P6 = p7-f3 (0.29). Stance check 0; repeats: P6's first two sentences restate P5. The grounding wasn't run (Joel declined it). Record: `t58-guide/REVIEWS.md`.
+
+### Next
+
+Cut P6's repeated opening and screen it again; the grounding if Joel wants it; install after P4; the h1 in Pangram; a pull request. Then the healthy-mind paragraphs (PGQ-007).
