@@ -43,6 +43,14 @@ paragraphs that the sweep's fixes changed with no break, and their installed ver
 though each of those had read Human alone and in its section; the draft rule would have had every one of them
 rewritten to add a break.
 
+A screen (E175, 2026-10-15) is a candidate that has passed only the cheap checks, a linter verdict that isn't FAIL
+and a march read with a break in every reading: {"kind": "screen", "march": [...], "lint": "REVIEW"}. It goes to
+Pangram before the long meaning reviews (cold read, grounding, stance check, repeats), and only the screens that
+read Human go on to them; a screen is never installed and is never a part of a section check. Why: on 2026-10-15
+the h1 opening of The Inner Guide Comes Later went through six rounds of meaning reviews (10 to 18 minutes each)
+for two Pangram tries per paragraph, 3 hours 20 minutes in all (Joel, 16:39 UTC: "why did that take you 4 hours
+22 minutes to humanize 1 paragraph? that's like 4x longer than normal for a whole section").
+
 Why (turn 48, 2026-10-12): in the web app the batch was a script I wrote by hand each time, so nothing
 stopped a call. Round 1's draft went to Pangram with a march of S S S and read 100% AI; later drafts
 went before their stance checks and march reads. Lesson E167.
@@ -85,11 +93,28 @@ def problems(key, gate, seen=()):
                        "every repeat, then \"repeats\": 0 (or \"joel: ...\" for repeats he chose to keep). E172; Joel, "
                        "2026-10-13: \"duplication is very AI we already knew that but you're not checking that well enough\"")
         for p in parts:
-            if p != 'installed' and p not in seen:
+            if p != 'installed' and (gate.get(p) or {}).get('kind') == 'screen':
+                out.append('part %s is a screen: it needs its meaning reviews (a draft record) before it can be part '
+                           'of a section check (E175)' % p)
+            elif p != 'installed' and p not in seen:
                 out += ['part %s: %s' % (p, q) for q in problems(p, gate, seen + (key,))]
         return out
+    if kind == 'screen':
+        # E175 (Joel, 2026-10-15 16:39 UTC: "why did that take you 4 hours 22 minutes to humanize 1 paragraph?"):
+        # a candidate that passes the cheap checks is screened in Pangram before the long meaning reviews, and only
+        # the ones that read Human go on to them. A screen is never installed and never part of a section check.
+        out = []
+        march = g.get('march') or []
+        if not march:
+            out.append('no march read (the march blocks the call)')
+        for m in march:
+            if 'B' not in m.split():
+                out.append('the march blocks the call: %r has no break (E131)' % m)
+        if not g.get('lint') or str(g.get('lint')).upper() == 'FAIL':
+            out.append('linter: %r (run it; a FAIL means rewrite)' % (g.get('lint'),))
+        return out
     if kind not in ('draft', 'edit'):
-        return ['kind must be draft, edit, owner or section, not %r' % (kind,)]
+        return ['kind must be draft, edit, screen, owner or section, not %r' % (kind,)]
     out = []
     march = g.get('march') or []
     if not march:
