@@ -18,9 +18,9 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #PR_NUMBER (turn 57, from your 16:39 message on)
+### 🟠 Merge pull request #178 (turn 57, from your 16:39 message on)
 
-You merged #177 at 16:14, so #PR_NUMBER has what came after: the screen-first gate (E175) and the new P2 and P3 of The Inner Guide Comes Later. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+You merged #177 at 16:14, so #178 has what came after: the screen-first gate (E175) and the new P2 and P3 of The Inner Guide Comes Later. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
