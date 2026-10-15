@@ -1116,8 +1116,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-15 (turn 58) | group 4, round 3, p7-a [t58c_p7a], try 3 | Human, low-medium (my call: tied to your little one and the Guide as its parent) | AI Generated (0.897, low; 92); 21:10:22 UTC, https://www.pangram.com/history/1f3df53d-f6bc-4b83-b296-b7037ec7f1c8 | miss |
 | 2026-10-15 (turn 58) | group 4, round 3, p7-b [t58c_p7b], try 3 | Human, low (my call) | AI Generated (0.926, low; 78); 21:10:32 UTC, https://www.pangram.com/history/6f3d92bb-4cf1-42dc-89d4-d9932ef76cd8 | miss |
 | 2026-10-15 (turn 58) | group 4, round 3, p7-c [t58c_p7c], try 3 | Human, low (my call) | (its result was not in the history list when read; not used) | — |
-| 2026-10-15 (turn 58) | group 4, round 4, p5-d (the example carries the instruction) [t58d_p5d], try 4 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 4, p6-d (the example carries the instruction) [t58d_p6d], try 4 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 4, p6-e (the example carries the instruction) [t58d_p6e], try 4 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 4, p7-d (the example carries the instruction) [t58d_p7d], try 4 | Human, low (my call) | | |
-| 2026-10-15 (turn 58) | group 4, round 4, p7-e (the example carries the instruction) [t58d_p7e], try 4 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 4, p5-d (the example carries the instruction) [t58d_p5d], try 4 | Human, low (my call) | AI Generated (0.81, low; 56); 21:15:09 UTC, https://www.pangram.com/history/10f763a7-a670-44b4-9de2-e7ce62ead582 | miss |
+| 2026-10-15 (turn 58) | group 4, round 4, p6-d (the example carries the instruction) [t58d_p6d], try 4 | Human, low (my call) | AI Generated (0.99, low; 72); 21:15:19 UTC, https://www.pangram.com/history/0b8df5d8-5f7b-4f44-812c-b0b76c431447 | miss |
+| 2026-10-15 (turn 58) | group 4, round 4, p6-e (the example carries the instruction) [t58d_p6e], try 4 | Human, low (my call) | Human Written (0.002, low; 72); 21:15:32 UTC, https://www.pangram.com/history/a9e32fab-adc9-43c5-b50b-9fd6d13a8682 | hit |
+| 2026-10-15 (turn 58) | group 4, round 4, p7-d (the example carries the instruction) [t58d_p7d], try 4 | Human, low (my call) | AI Generated (0.999, low; 91); 21:15:40 UTC, https://www.pangram.com/history/739bff4f-0472-4f06-ad81-07063b1a9bec | miss |
+| 2026-10-15 (turn 58) | group 4, round 4, p7-e (the example carries the instruction) [t58d_p7e], try 4 | Human, low (my call) | AI Generated (0.99, low; 96); 21:15:51 UTC, https://www.pangram.com/history/468592a7-722c-4bfd-97ec-566bfd5c0981 | miss |
+| 2026-10-15 (turn 58) | group 4, round 5, p5-f [t58e_p5f], try 5 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 5, p5-g [t58e_p5g], try 5 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 5, p5-h [t58e_p5h], try 5 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-f [t58e_p7f], try 5 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-g [t58e_p7g], try 5 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-h [t58e_p7h], try 5 | Human, low (my call) | | |
+| 2026-10-15 (turn 58) | group 4, round 5, p7-i [t58e_p7i], try 5 | Human, low (my call) | | |
