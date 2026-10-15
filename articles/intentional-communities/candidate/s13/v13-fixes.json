@@ -1,0 +1,50 @@
+[
+ {
+  "id": "H3-P3",
+  "old": "(cash if it uses money, or tools, transportation, temporary housing, stored goods, the right to keep using something).",
+  "new": "(cash if it uses money, but also tools, transportation, temporary housing, stored goods or the right to keep using something).",
+  "why": "trace T3 of r9: the published \"but also\" (in-kind forms on top of cash), with its \"or\" before the last item, which round r7's trace wanted (alternatives, not a bundle)"
+ },
+ {
+  "id": "H4-P8",
+  "old": "(Hanging out doesn't count, I'm afraid!)",
+  "new": "(Sorry, hanging out doesn't count! I know, it's the fun part.)",
+  "why": "march: no break in either reading of r9; \"I know\" remarks have been breaks in every reading"
+ },
+ {
+  "id": "H5-P2",
+  "old": "On the other hand, the power to remove people is one of the easiest to abuse.",
+  "new": "On the other hand, the power to remove people is also one of the easiest to abuse.",
+  "why": "trace T5 of r9: \"also\", a further fact, as published"
+ },
+ {
+  "id": "H5-P2",
+  "old": "How can the person reply and request a review or appeal of the decision without endangering others?",
+  "new": "How can the person reply, and what review or appeal is possible without endangering others?",
+  "why": "trace T5 of r9: the published \"what review or appeal is possible\""
+ },
+ {
+  "id": "H5-P2",
+  "old": "What will be done to provide housing, protect records, preserve access to family, allow access to common resources, and/or provide access to outside funds (if any)?",
+  "new": "What will be done to protect their housing, records, family contact, and access to common resources or outside funds (if any) during separation?",
+  "why": "trace T5 of r9: protect what the person has, all of it, during separation"
+ },
+ {
+  "id": "H5-P3",
+  "old": ", an emergency service, or anything else.",
+  "new": ", an emergency service.",
+  "why": "traces T5 of r6 and T6 of r9: the published names the forms; two reviewers now"
+ },
+ {
+  "id": "H5-P3",
+  "old": "and when power crept up in theirs, they pushed it back down.",
+  "new": "and when power crept up in their own system, they pushed it back down.",
+  "why": "trace T6 of r9: \"theirs\" could be any autonomous institutions; the clause is section 9's account (kept: review-r9/DISPOSITIONS-r9.md)"
+ },
+ {
+  "id": "H5-P4",
+  "old": "or for accepting the finality of separation when",
+  "new": "or for a final separation when",
+  "why": "trace T6 of r9: the separation itself, as published, not someone's accepting it"
+ }
+]

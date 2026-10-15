@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""fix_preds.py - the scorecard's rows from the PREDICTIONS.md files of the fix-* folders (2026-10-14).
+"""fix_preds.py - the scorecard's rows from the PREDICTIONS.md files of the fix-* folders (2026-10-14) and of the
+section batch folders `s*/bNNN/` (2026-10-15).
 
 From 2026-10-14 the lane's predictions are in `fix-YYYYMMDD*/PREDICTIONS.md`: a "## Batch NNNg" heading, a table
 "| text | mine | why |" (or with a fourth column, "Pangram", filled after the call), and, under it, a line
@@ -55,6 +56,7 @@ def convert(path):
 
 
 if __name__ == '__main__':
-    for p in sorted(glob.glob(os.path.join(C, 'fix-*', 'PREDICTIONS.md'))):
+    # 2026-10-15 on, section 13's batches have their own folders (s13/b288/ ...), same format
+    for p in sorted(glob.glob(os.path.join(C, 'fix-*', 'PREDICTIONS.md'))) + sorted(glob.glob(os.path.join(C, 's*', 'b[0-9]*', 'PREDICTIONS.md'))):
         out, n = convert(p)
         print(os.path.relpath(out, C), n, 'rows')

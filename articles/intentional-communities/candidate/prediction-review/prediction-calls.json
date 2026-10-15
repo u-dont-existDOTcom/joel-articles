@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1089,
-  "right": 770,
+  "calls": 1125,
+  "right": 795,
   "since_review": {
-   "calls": 687,
-   "right": 515,
-   "passed": 398
+   "calls": 723,
+   "right": 540,
+   "passed": 423
   },
   "today": {
-   "calls": 137,
-   "right": 114,
-   "passed": 83
+   "calls": 173,
+   "right": 139,
+   "passed": 108
   }
  },
  "windows": [
@@ -145,10 +145,18 @@
   {
    "from": 280,
    "to": 289,
-   "calls": 48,
-   "right": 41,
-   "passed": 20,
-   "always_ai_right": 28
+   "calls": 63,
+   "right": 52,
+   "passed": 28,
+   "always_ai_right": 35
+  },
+  {
+   "from": 290,
+   "to": 299,
+   "calls": 21,
+   "right": 14,
+   "passed": 17,
+   "always_ai_right": 4
   }
  ],
  "misses": [
@@ -2405,6 +2413,160 @@
    "passed": false,
    "right": false,
    "text": "The Math of Absorption, and Who This Isn’t For\n\nMany perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.\n\nThis does not surprise me, since we are taught to put on a show of competence in modern society. We have a lot of incentives to hide ourselves in our lives and disappear behind our screens the second things get uncomfortable. We have been encouraged by our institutions to be narrow in our skills, and then they act surprised when nobody can sit through a conflict without appointing a subcommittee or blocking somebody.\n\nSo the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. Consider how much attention they currently have available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.\n\nSome people have engaged in long practices of contemplation or therapy, or have had very good luck in childhood; other people are just trying to survive some emergency in their life and need care more than responsibility. Most of us are all of these at different times in our lives.\n\nIn the model I’m imagining, some of the functions that are outsourced to therapists in modern society are distributed throughout the community. In other words, there’s a lot of peer counseling going on, people listening to each other, being there for each other and helping each other process ordinary emotional stuff.\n\nThat does not make the community infinitely absorbent.\n\nI’m going to use the phrase “free resource,” which comes from Re-evaluation Counseling, to refer to the attention, steadiness, skill and practical capacity people have left over for others once they’ve dealt with enough of their own immediate stuff, and “need” to refer to the amount of help people need at a given time.\n\nEveryone has a certain amount of both, and the ratio varies.\n\nMy own need has exceeded my free resource at many points. Good Lord. During one stretch, my first wife tried to kill me while psychotic because she believed I was her sociopathic father. Then she took my son. Later she tried to kill my mother, while her pimp stalked my sister’s family until they moved to Canada.\n\nI could go on and on, but the math is pretty clear by now. There wasn’t much of me left over for anybody else. So when I say someone might need to stabilize and do inner pl/ork before helping found a community, I’m not saying it from a mountaintop.\n\nThe problem is that, in a group of eight people, if two are in a sustained crisis mode, the group may end up spending most of its attention caring for those in crisis. However, in a group of eighty people, the same need, or even more of it, can often be spread across lots of relationships and roles. A group can only absorb as much need as its members have free resource to meet.\n\nThe ability to welcome somebody is partly a problem of resources, then, not compassion -- how many people can a group take in without hurting the existing members or the people they are taking in?\n\nThere is a difficult paradox to consider. The need for new members in a small community is greater, but the ability of that community to tolerate the disruption of new members is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids, and the water system has to keep working. The water well doesn’t care how beautiful someone’s heart is.\n\nSo early on, members usually need to have more available resource than acute need, and some practical skills to contribute. They usually need to be willing to learn, too.\n\nI still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, maybe simply uncomfortable or unfamiliar with therapeutic language, or for whatever reason deemed inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision on membership. Even then, the power to veto membership applications based on capacity remains dangerous.\n\nThis community may not be a good fit for you right now if:\n\nYou’re running from some crisis right now and mainly need a place to land, get treatment, housing, legal aid, etc. (A founding group shouldn’t pretend it can give you those.)\n\nYou want the feeling of village life but don’t want to take on governance, maintenance, conflict, care, etc.\n\nYou’re not willing to look at yourself when jealousy or conflict comes up.\n\nYou have a need that far outstrips your free resource right now. (This doesn’t mean you’re bad or doomed, it’s about timing; it may mean you need to take a first step of finding support where you are and building up your resources.)\n\nAny humane membership process should have ways of not flat-out rejecting people who fall into these categories, or anyone else it can’t take right now, like saying “later,” or “in another role,” or “with more support.”"
+  },
+  {
+   "sec": "s13",
+   "batch": 288,
+   "name": "288g-S13v6-2P1",
+   "mine": "Human",
+   "why": "the vacation-rental picture and the pond joke, both from the published text, in looser words",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI-Generated, low; 53 words, the whole text), 13:15:51, [check](https://www.pangram.com/history/a2da8ef0-c964-4589-92e3-6eaabd059bf5)",
+   "where": "s13/b288/PREDICTIONS-scored.md:6",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 288,
+   "name": "288g-S13v6-2P1h",
+   "mine": "Human",
+   "why": "the same with its heading",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI-Generated, low; 64 words, the whole text), 13:16:04, [check](https://www.pangram.com/history/d248de0b-b8a2-4a07-a5a6-0859f2b7c2df)",
+   "where": "s13/b288/PREDICTIONS-scored.md:7",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 288,
+   "name": "288g-S13v6-2P1P2",
+   "mine": "Human",
+   "why": "the joke paragraph carries the short values-list one",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Detected: AI-Generated, Low, 53; Human, Low, 40), 13:16:14, [check](https://www.pangram.com/history/6bafada2-623c-460f-bc1c-83ece520122d)",
+   "where": "s13/b288/PREDICTIONS-scored.md:8",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 289,
+   "name": "289g-S13v9-1P2",
+   "mine": "Human",
+   "why": "Emulate's shape (the \"Not 'dealt with it' by ...\" correction, \"In other words\", \"Deal with it until\"), my words only as word fixes; it ends on \"Otherwise, what's it worth?\" The risk is the list sentence in the middle",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI-Generated, medium; 114 words, the whole text), 15:08:25, [check](https://www.pangram.com/history/4326944e-db0c-4ea5-a531-cef3d978ef00)",
+   "where": "s13/b289/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 291,
+   "name": "291g-S13v10-2P3",
+   "mine": "AI",
+   "why": "five questions in a row, and the meaning fixes made the first and fourth nearly the published ones (\"Could an LGBTQ+ member live openly\", \"taught to question their sexual identities at an early age\")",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (low; 77 words), 16:29:51, [check](https://www.pangram.com/history/dc84debe-4b05-42e1-8588-6f9c0ed3d677)",
+   "where": "s13/b291/PREDICTIONS-scored.md:6",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 291,
+   "name": "291g-S13v10-2P3P3b",
+   "mine": "AI",
+   "why": "goes with the paragraph above",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (medium; 119 words), 16:30:04, [check](https://www.pangram.com/history/1b705e5a-900b-47bc-850f-168a91f6d270)",
+   "where": "s13/b291/PREDICTIONS-scored.md:7",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 291,
+   "name": "291g-S13v10-5P4",
+   "mine": "Human",
+   "why": "\"Why bother? Because ...\", Emulate's \"And remember that although ...\"",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI-Generated, low; 70 words, the whole text), 16:30:49, [check](https://www.pangram.com/history/8592c980-ad7c-4480-8f65-c44a1a4cd78a)",
+   "where": "s13/b291/PREDICTIONS-scored.md:11",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 292,
+   "name": "292g-S13v12-1P2",
+   "mine": "Human",
+   "why": "round e's paragraph alone",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI-Generated, medium; 115 words, the whole text), 16:54:12, [check](https://www.pangram.com/history/200f9c1d-79c6-4f49-8223-503258cec054)",
+   "where": "s13/b292/PREDICTIONS-scored.md:7",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 292,
+   "name": "292g-S13v12-3hP1",
+   "mine": "Human",
+   "why": "the same with its heading",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI-Generated, low; 71 words, the whole text), 16:54:35, [check](https://www.pangram.com/history/9ac75023-1174-491a-a638-722dcbada762)",
+   "where": "s13/b292/PREDICTIONS-scored.md:9",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 292,
+   "name": "292g-S13v12-5P1",
+   "mine": "AI",
+   "why": "its first sentence is the published one, and the second carries the published three grounds in one sentence; \"Yes, really.\" and \"that's cool!\" may not be enough",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (low; 73 words), 16:54:56, [check](https://www.pangram.com/history/3f7add0b-a64b-495a-84ca-d2b8346c472e)",
+   "where": "s13/b292/PREDICTIONS-scored.md:11",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 292,
+   "name": "292g-S13v12-5hP1",
+   "mine": "AI",
+   "why": "the same with its heading",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (low; 78 words), 16:55:06, [check](https://www.pangram.com/history/6ec7073d-47e8-42aa-9d4e-08b935c9c2bd)",
+   "where": "s13/b292/PREDICTIONS-scored.md:12",
+   "passed": true,
+   "right": false,
+   "text": ""
   },
   {
    "sec": "s4",

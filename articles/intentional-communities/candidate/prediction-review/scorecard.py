@@ -58,6 +58,8 @@ for v in glob.glob(C + '/s*/v*.json') + glob.glob(C + '/s*/*/v*.json'):
         d = json.load(open(v, encoding='utf-8'))
     except Exception:
         continue
+    if not isinstance(d, dict):  # s13/vNN-fixes.json are lists of fixes, not texts (2026-10-15)
+        continue
     for k, t in (d.get('texts') or {}).items():
         texts[k] = t
 for r in rows:
