@@ -18,7 +18,7 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #PRNUM (turns 58 and 59)
+### 🟠 Merge pull request #180 (turns 58 and 59)
 
 The Inner Guide Comes Later's P5 to P8; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
