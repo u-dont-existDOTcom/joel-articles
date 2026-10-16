@@ -19,4 +19,5 @@ What read AI in P8: teaching the three suttas one after another (c, d, e, g), a 
 | e | P8's last sentences reworded, claims unchanged: p8-k1 (the last two sentences joined), p8-k3 (the king's remorse moved after the lesson), p8-k5 (the lesson out of its colon list, the last two joined); each alone and inside P5 to P8 | alone: k1 Human 0.036, k3 Human 0.23, **k5 Human 0.048** (https://www.pangram.com/history/7fb09650-0426-48a4-a5a3-2ec10f95d5bc); inside P5 to P8: k1 Human 0.23, k3 AI Detected 0.35 (a 73-word window from "When he finally owned up"), **k5 Human 0.25, high** (https://www.pangram.com/history/74acf692-3363-4cdd-aeec-baf1440b6944) |
 
 Picked for P8: **p8-k5**. It reads Human alone and inside P5 to P8, and its DN 2 lesson isn't a list of three in a row (Joel, 2026-10-03: "lists of 3 in general are an ai pattern"); k1 scored a little lower alone but keeps the colon list. Its claims are p8-k's, so p8-k's reviews carry over to it ("same claims as").
+| f | the h1 so far with P8 = p8-k5 | **Human Written, 0.21, high** (824 words, one Human window; https://www.pangram.com/history/3a8ad8d3-d2a8-43b1-887c-d9ef71d2973f) |
 
