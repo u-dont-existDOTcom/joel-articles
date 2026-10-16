@@ -6,7 +6,7 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S13v31-H1-P1 | AI | "It may sound cheesy, but it's true all the same" is the concede-then-affirm formula, and "even if it's still an untested one" is polished; 51 words leave little else | |
+| S13v31-H1-P1+P2 | AI | H1-P1 is 46 words (under Pangram's 50), so it goes with H1-P2: "It may sound cheesy, but it's true all the same" is the concede-then-affirm formula, and H1-P2 has the "Not dealt with it by ... But really, truly" antithesis | |
 | S13v31-H1-P2 | AI | the "Not dealt with it by ... But really, truly dealt with it" antithesis, a four-part gerund list, and the closing "Until then, what's it worth?"; 308g's first window started here | |
 | S13v31-H1-P3 | Human | "That's okay! There's lots you can do!" and the plain meeting places | |
 | S13v31-H1-P4 | Human | "This is the boring stuff!", the run-on list ending "etc.", "dead in the water"; the risk is the run of three questions | |

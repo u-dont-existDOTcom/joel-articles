@@ -46,8 +46,13 @@ def words(t):
 
 ITEMS = {}
 for i, p in enumerate(PARAS):
-    if words(plain(V31[p])) >= 50:
+    # Pangram's 50-word minimum counts words split on spaces ("Don't" is one word): batch 312g's first run stopped at
+    # H1-P1, 51 words by \w+ but 46 by spaces, with the button disabled
+    if len(plain(V31[p]).split()) >= 50:
         ITEMS['S13v31-' + p] = ('v31', [p])
+    elif i == 0 or PARAS[i - 1].split('-')[0] != p.split('-')[0]:
+        nxt = PARAS[i + 1]
+        ITEMS['S13v31-%s+%s' % (p, nxt.split('-')[1])] = ('v31', [p, nxt])
     else:
         prev = PARAS[i - 1]
         ITEMS['S13v31-%s+%s' % (prev, p.split('-')[1])] = ('v31', [prev, p])
