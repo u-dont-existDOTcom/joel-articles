@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-15 (turn 58). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-16 (turn 59). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -18,7 +18,9 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-Nothing right now: you merged #178 at 20:51 UTC. A new merge request comes with the next finished section.
+### 🟠 Merge pull request #PRNUM (turns 58 and 59)
+
+The Inner Guide Comes Later's P5 to P8; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
@@ -155,9 +157,9 @@ Nothing right now: you merged #178 at 20:51 UTC. A new merge request comes with 
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: The Inner Guide Comes Later
+### 🔵 Next: The Inner Guide Comes Later, groups 7 to 9
 
-The next h1 (Key's third adult function, the Leader, Guide or Guru). Let the Child Be Bad at Things went in this turn; the h1 Sometimes There Isn't a Clear Child Yet gets its whole check once you've answered 23 and 25.
+P5 to P8 went in this turn. Next: the Guide pointing toward a belonging that doesn't depend on any group, which makes the group's approval less desperate, and the Guide's other names ("Guru" for some, not for cult survivors). Six rounds of my drafts read AI; the opening that read Human is "Picture your crew from work, or your church, deciding tomorrow that you're out." (https://www.pangram.com/history/d93bfbd0-5b3e-4c44-83be-1652a492940a). If nothing changes, I keep that opening and try fresh writers.
 
 ### 🔵 Saved for when Altered States is humanized
 
