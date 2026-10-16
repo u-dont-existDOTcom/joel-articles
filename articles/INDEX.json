@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "28d5a031d3309bcf48ee763c154011d3b0288351586ffe206fcbef59785cf214"
+          "sha256": "ceeb40796c4f954c8a0806bef92c5f511afaa55cfbf8291aa3e76d911ecd043b"
         }
       },
       "review": {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "92524bf70a0c4a430f52b46759a25c4ff54830e8d76e9744c5132c42f53d5e54",
+          "sha256": "00cddde83734106d5e3e3e77ca2c8c439bc82cd80ea28d7075a2d954687bb18a",
           "role": "owner_questions_page"
         },
         {
@@ -8811,6 +8811,11 @@
           "path": "articles/inner-child-therapy/experiments/t60-guide/REVIEWS.md",
           "sha256": "61aaee8e1cbf6d68908d3f0c308ce1b7fc3dacb92ee22e0edc1dfaadfb9bb91b",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-16-turn60.json",
+          "sha256": "10b3bd5d439cade013a65c23e5eb35d004b0832acc345a9953a332211d10be19",
+          "role": "in_context_map"
         }
       ]
     },

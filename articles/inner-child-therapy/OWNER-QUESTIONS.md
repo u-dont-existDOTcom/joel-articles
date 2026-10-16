@@ -24,9 +24,9 @@ Group 4 again, after your 21:37 message: one paragraph around the guide's point 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #180 (turns 58 and 59)
+### 🟠 Merge pull request #182 (turn 60)
 
-The Inner Guide Comes Later's P5 to P8; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+Your P8, P5 around the guide's point, and the fixes for what broke; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
