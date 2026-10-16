@@ -1218,5 +1218,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-16 (turn 62) | p8k alone (98 words) [t62b_p8k], a screen | Human, low (my call) | AI Generated (0.78, medium; 101); 23:26:52 UTC, https://www.pangram.com/history/a6a3ee7a-6bfe-43d6-8bf3-0393727c93d2 | miss |
 | 2026-10-16 (turn 62) | p8l alone (85 words) [t62b_p8l], a screen | Human, low (my call) | AI Generated (0.97, low; 90); 23:27:02 UTC, https://www.pangram.com/history/8be3be1a-0dff-4c7b-9d28-6592fbf9d926 | miss |
 | 2026-10-16 (turn 62) | p9i alone (63 words) [t62b_p9i], a screen | Human, low (my call) | AI Generated (0.96, low; 65); 23:27:13 UTC, https://www.pangram.com/history/b55a5f54-a97e-46d1-b9ed-afde585e337a | miss |
-| 2026-10-16 (turn 62) | p8m2 alone (113 words) [t62c_p8m2], a screen | Human, low (my call: plain words for every guide phrase) | (pending) | |
-| 2026-10-16 (turn 62) | p8n2 alone (112 words) [t62c_p8n2], a screen | Human, low (my call: plain words for every guide phrase) | (pending) | |
+| 2026-10-16 (turn 62) | p8m2 alone (113 words) [t62c_p8m2], a screen | Human, low (my call: plain words for every guide phrase) | AI Generated (0.92, medium; 120); 23:29:47 UTC, https://www.pangram.com/history/17beaa57-c40f-4375-a9c8-977d299dd00a | miss |
+| 2026-10-16 (turn 62) | p8n2 alone (112 words) [t62c_p8n2], a screen | Human, low (my call: plain words for every guide phrase) | AI Detected (0.50; 118): Human for its first 53 words (the two plain-word sentences), an AI window of 65 on the rest ("It sinks in when you actually spend time outside…"); 23:29:57 UTC, https://www.pangram.com/history/5e859404-eb4d-46ce-9d26-7e42c2300231 | miss |
+| 2026-10-16 (turn 62) | p8o alone (113 words) [t62d_p8o], a screen | Human, low (my call: its first half read Human) | (pending) | |
+| 2026-10-16 (turn 62) | p8p alone (105 words) [t62d_p8p], a screen | Human, low (my call: its first half read Human) | (pending) | |
