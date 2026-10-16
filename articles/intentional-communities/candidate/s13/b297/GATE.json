@@ -1,0 +1,72 @@
+{
+ "S13v21-2P3": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S S B",
+   "S S S S S S S B"
+  ],
+  "march_note": "s13/review-r14/MARCH-labels-a.txt and -b.txt, T7",
+  "cold": "OK",
+  "cold_note": "s13/review-r14/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r14/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r14/STANCE-pub.md, STANCE-sofar.md: no conflicts",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 73
+ },
+ "S13v21-3P4P5": {
+  "kind": "draft",
+  "march": [
+   "S S S B B",
+   "S S S B B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s13/review-r14/MARCH-labels-a.txt and -b.txt, T13, T14",
+  "cold": "OK",
+  "cold_note": "s13/review-r14/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r6/trace-T3.md (OK; unchanged since v8); s13/review-r14/trace-T1.md (its one finding, the reading-list pointer, kept: review-r14/DISPOSITIONS-r14.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r14/STANCE-pub.md, STANCE-sofar.md: no conflicts",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 128
+ },
+ "S13v21-4P5": {
+  "kind": "draft",
+  "march": [
+   "S S S S S B S S",
+   "S S S S S B S S"
+  ],
+  "march_note": "s13/review-r14/MARCH-labels-a.txt and -b.txt, T19",
+  "cold": "OK",
+  "cold_note": "s13/review-r14/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r14/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r14/STANCE-pub.md, STANCE-sofar.md: no conflicts",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 107
+ },
+ "S13v21-5P3": {
+  "kind": "draft",
+  "march": [
+   "B S S B S S",
+   "S S S B S S"
+  ],
+  "march_note": "s13/review-r14/MARCH-labels-a.txt and -b.txt, T26",
+  "cold": "OK",
+  "cold_note": "s13/review-r14/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r14/trace-T2.md (its one finding, the Zapatista clause, kept: review-r14/DISPOSITIONS-r14.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r14/STANCE-pub.md, STANCE-sofar.md: no conflicts",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 103
+ }
+}

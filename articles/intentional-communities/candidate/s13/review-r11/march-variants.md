@@ -1,0 +1,3 @@
+Who has the title to the land? This is very important! Whoever holds the title has a great deal of power over the community. If the deed is in the founder's name, for instance, then they're essentially a landlord with a philosophy. If three out of twelve members own everything, then there are really two classes of members, despite what the group's literature may say about everyone being equal.
+
+It matters so much who has the title to the land! Whoever has it has a massive amount of power over the community. If the deed is in the founder's name, then they're really a landlord with a philosophy. If three members out of twelve own everything, then there's effectively two classes of members even if the welcome packet says everyone's equal.

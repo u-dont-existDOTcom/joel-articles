@@ -697,7 +697,7 @@ def march_paragraphs(t):
     return out
 
 
-def build_march(draft):
+def build_march(draft, about=None):
     """The marching-order check (E131; Joel, 2026-10-03: "the marching order of code instructions
     translated to english"). A reader labels each sentence a step or a break. Tested blind on 100
     calibration paragraphs (tools/humanization/calibration/MARCH-READER-TEST-20261003.json): two readers
@@ -706,7 +706,11 @@ def build_march(draft):
     ps = march_paragraphs(draft)
     body = '\n\n'.join('T%d: ' % (i + 1) + ' '.join('[%d] %s' % (j + 1, s) for j, s in enumerate(ss))
                        for i, ss in enumerate(ps))
-    return read('march.txt').replace('{n}', str(len(ps))).replace('{paragraphs}', body)
+    s = read('march.txt')
+    if about:  # 2026-10-15: the prompt named the inner-child article for every lane; --about names the right one
+        first, rest = s.split('\n', 1)
+        s = 'Below are {n} paragraphs from %s, each one on its own, with its sentences numbered.\n' % about + rest
+    return s.replace('{n}', str(len(ps))).replace('{paragraphs}', body)
 
 
 def march_score(draft, labels):
@@ -762,6 +766,7 @@ def main():
     s = cmd('human-test'); s.add_argument('outdir')
     s = cmd('score'); s.add_argument('key'); s.add_argument('answers', nargs='+')
     s = cmd('march'); s.add_argument('draft'); s.add_argument('out')
+    s.add_argument('--about', help='what the article is, for the first line (default: the inner-child article)')
     s = cmd('march-score'); s.add_argument('draft'); s.add_argument('labels')
     s = cmd('dedup'); s.add_argument('out'); s.add_argument('targets', nargs='+')
     s.add_argument('--draft', action='append', default=[], metavar='TARGET=FILE',
@@ -799,7 +804,7 @@ def main():
     elif a.cmd == 'score':
         score(a.key, a.answers)
     elif a.cmd == 'march':
-        write(a.out, build_march(rd(a.draft)))
+        write(a.out, build_march(rd(a.draft), a.about))
     elif a.cmd == 'march-score':
         sys.exit(march_score(rd(a.draft), rd(a.labels)))
     elif a.cmd == 'dedup':

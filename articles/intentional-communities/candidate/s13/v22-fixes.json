@@ -1,0 +1,212 @@
+[
+ {
+  "id": "H3-P1",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "INTERESTED Parties -- Who will have title",
+  "new": "Who will have title",
+  "why": "Emulate's opening, a mailing-list salutation, not text"
+ },
+ {
+  "id": "H3-P1",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "If it's in the name of the \"founder\", then he or she is really your landlord, with a philosophy.",
+  "new": "If the deed is in the name of the founder, then he or she is really a landlord with a philosophy.",
+  "why": "key U25 \"deed\"; his phrase \"a landlord with a philosophy\" whole (kept since round r11); the quotes on \"founder\" doubted that he founded it, which the published does not say"
+ },
+ {
+  "id": "H3-P1",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "in the names of 3 out of 12 members, then despite what your literature says, there are",
+  "new": "in the names of three out of twelve members, then despite what your literature says about everyone being equal, there are",
+  "why": "key U26 \"three\", \"twelve\", \"equal\" (the published \"whether or not the welcome packet uses the word “equal”\")"
+ },
+ {
+  "id": "H3-P2",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "2. WHAT kind of legal entity (co-op, trust, association, company, etc.) will hold the land?",
+  "new": "What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land?",
+  "why": "the number is Emulate's list artifact; key U27 \"cooperative\", \"jurisdiction\" (the published \"or whatever fits the jurisdiction\")"
+ },
+ {
+  "id": "H3-P2",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "This needs to be decided before it's bought, so that you can decide who has what voting rights, who has what access to and use of common resources,",
+  "new": "This needs to be decided before it's bought. Then you'll need to decide who has what voting rights, who has what access and use rights to common resources,",
+  "why": "\"so that\" made the legal form the reason for the decisions after it, which the published lists side by side; key U28 \"use rights\""
+ },
+ {
+  "id": "H3-P2",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "can an owner borrow money outside the community and what happens if they do, what happens when someone wants to leave",
+  "new": "what about outside debt (can an owner borrow money outside the community, and what happens if they do?), how improvements get handled, what happens when someone wants to leave",
+  "why": "key U28 \"outside debt\", \"improvements\": both in the published list; Emulate narrowed the debt to one case and dropped improvements"
+ },
+ {
+  "id": "H3-P3",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "3. How will you handle VISIBILITY of this issue? Even if you don't use money, you'll still have",
+  "new": "How will you handle VISIBILITY of what you have? Even if you're a money-free community, you'll still have",
+  "why": "the number is Emulate's; \"this issue\" named nothing; key U29 \"money-free\""
+ },
+ {
+  "id": "H3-P3",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "know what you have, what you've set aside, what you owe, who has authority to distribute the major resources,",
+  "new": "know what's owned or held in common, what you've set aside, what obligations you have to outsiders, who has authority to hand out the major resources,",
+  "why": "key U30 \"owned\", \"common\", \"obligations\", \"hand out\" (the published: owns or holds in common, obligations outside the community, who can allocate)"
+ },
+ {
+  "id": "H3-P3",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "(whether it's cash or tools or transportation or temporary housing or stored up goods or whatever)",
+  "new": "(whether it's cash, if you use it, or tools, transportation, temporary housing, stored up goods, the right to keep using something, or whatever)",
+  "why": "linter O14, his ban on Emulate's \"or ... or\" chains; key U32 \"keep using\" (the published \"continued use rights\"); \"if you use it\", the published \"cash if the community uses it\""
+ },
+ {
+  "id": "H3-P3",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "it can't be exercised without money!",
+  "new": "it can't be exercised unless the community has spare money!",
+  "why": "the published \"a paper right that works only when the community has spare money\": \"without money\" made it the leaver's money"
+ },
+ {
+  "id": "H3-P4",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "4. Good people",
+  "new": "Good people",
+  "why": "the number is Emulate's"
+ },
+ {
+  "id": "H3-P4",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "That's a subtle way of saying they HAVE to stay if they can't afford to.",
+  "new": "That's coercive -- they HAVE to stay if they can't afford to go.",
+  "why": "key U34 \"coercive\" (the published \"staying becomes coercive\"); \"subtle\" was added"
+ },
+ {
+  "id": "H3-P4",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "Write it up when it's only theoretical",
+  "new": "Write up the exit terms when it's only theoretical",
+  "why": "key U35 \"exit terms\"; \"it\" named nothing"
+ },
+ {
+  "id": "H3-P4",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "Much easier that way.",
+  "new": "Much easier than doing it once everybody's furious.",
+  "why": "key U36 \"furious\" (the published \"much easier before anybody is furious\")"
+ },
+ {
+  "id": "H3-P5",
+  "source": "emu-i/out/l01-emuA.txt",
+  "old": "For a fuller sequence, see Diana Leafe Christian's Creating a Life Together (on the reading list at the end) -- vision, then people,",
+  "new": "For the full sequence, see Diana Leafe Christian's [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) (on the reading list at the end) -- vision, then members,",
+  "why": "the published \"full\" (trace T1 of r13 caught it lost before); key U37 \"members\"; the link on the title as published"
+ },
+ {
+  "id": "H4-P9",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "People who visit, work, rent and intern at the commune (yes, even interns!)",
+  "new": "Visitors, volunteers, workers, renters and interns at the commune (yes, even interns!)",
+  "why": "key U51: the published list; Emulate's verbs dropped the volunteers"
+ },
+ {
+  "id": "H4-P9",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "They should have the chance to know the terms of their association, to be heard, and to have such decisions reviewed.",
+  "new": "They should have clear terms, and the chance to be heard and to have such decisions reviewed.",
+  "why": "key U52 \"clear terms\" (the published \"clear terms, a way to be heard, and review\")"
+ },
+ {
+  "id": "H4-P9",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "All people are created equal, even the servants. (Wait, when did there become a class of people moving from commune to commune to be servants?)",
+  "new": "Equality is for everybody, not just members, or communes can end up recreating a servant class that moves from commune to commune.",
+  "why": "the published \"Egalitarianism that stops at the membership boundary can recreate a servant class between communes\": Emulate's two sentences said the servants are already there and asked when the class began; key U53 \"equality\", \"servant class\""
+ },
+ {
+  "id": "H5-P1",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "It may not be possible to make the community safe for everyone.",
+  "new": "A community that wants to be safe can't promise to keep everyone.",
+  "why": "both Emulate calls read the published \"A safe community cannot promise to keep everyone\" as a community that cannot be safe for everyone; key U54 \"keep everyone\""
+ },
+ {
+  "id": "H5-P1",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "It can be the right thing to do when someone is generally or in some way a serious danger to others, repeatedly violates essential community boundaries, or is just generally intolerable to live with.",
+  "new": "It can be the right thing to eject someone when they're a serious danger to others (or to everyone in general), repeatedly violate essential community boundaries, or are just impossible to live with.",
+  "why": "key U55 \"eject\", \"impossible\"; \"generally or in some way a serious danger\" garbled the published \"a serious or generalized danger\""
+ },
+ {
+  "id": "H5-P1",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "do the necessary work with the person",
+  "new": "do restorative work with the person",
+  "why": "key U56 \"restorative\""
+ },
+ {
+  "id": "H5-P2",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "The power to remove people is also susceptible to abuse. It's important to know in advance how it will be used.",
+  "new": "But the power to remove people is also one of the easiest to abuse. So work out the process before it's about anyone in particular.",
+  "why": "\"susceptible\" lost the published \"one of the easiest powers to abuse\"; his own sentence of 2026-10-11 back in place of Emulate's; \"But\": the linter's B13 failed a third paragraph opening \"The\" (with \"The short visit\" and \"The long visit\")"
+ },
+ {
+  "id": "H5-P2",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "immediate action to protect the community?",
+  "new": "immediate action to protect people?",
+  "why": "the published \"immediate protective action\": people, not the community as such"
+ },
+ {
+  "id": "H5-P2",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "family and access to common resources and outside funds (if any) be ensured during the separation?",
+  "new": "family contact, access to common resources and outside funds (if any) be protected during the separation?",
+  "why": "linter O14 (\"and ... and\"); the published \"family contact\" and \"are protected\""
+ },
+ {
+  "id": "H5-P2",
+  "source": "emu-i/out/l02-emuA.txt",
+  "old": "When will help be sought from outside?",
+  "new": "When will outside help be sought?",
+  "why": "key U59 \"outside help\""
+ },
+ {
+  "id": "H5-P2b",
+  "source": "emu-i/out/l02-emuB.txt",
+  "old": "Since this power can easily be abused, though, it's a good idea to prepare ahead for dealing with it.",
+  "new": "This power to remove people is also one of the easiest to abuse, though. So work out the process before it's about anyone in particular.",
+  "why": "\"this power\" pointed to call B's own first paragraph, which isn't used, so it names the power; the published \"one of the easiest powers to abuse\"; his own sentence of 2026-10-11"
+ },
+ {
+  "id": "H5-P2b",
+  "source": "emu-i/out/l02-emuB.txt",
+  "old": "What might cause the community to have to act immediately to protect people from somebody?",
+  "new": "What might call for immediate action to protect people from somebody?",
+  "why": "key U59 \"action to protect\""
+ },
+ {
+  "id": "H5-P2b",
+  "source": "emu-i/out/l02-emuB.txt",
+  "old": "Who should stay out of these decisions?",
+  "new": "Who should step aside from these decisions?",
+  "why": "key U59 \"step aside\" (the published \"who is recused\")"
+ },
+ {
+  "id": "H5-P2b",
+  "source": "emu-i/out/l02-emuB.txt",
+  "old": "housing, records, family, access to common stuff, outside money, etc., during the separation?",
+  "new": "housing, records, family contact, access to common stuff, outside money (if any), etc., during the separation?",
+  "why": "the published \"family contact\" and \"outside funds if any\""
+ },
+ {
+  "id": "H5-P2b",
+  "source": "emu-i/out/l02-emuB.txt",
+  "old": "When will the community seek outside help, to be discussed next?",
+  "new": "When will the community seek outside help? (More on that next.)",
+  "why": "\"to be discussed next\" read as the help being discussed; the signpost as in v21, a break in every reading"
+ }
+]

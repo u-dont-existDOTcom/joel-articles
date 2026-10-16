@@ -1,0 +1,35 @@
+# Section 13 pairs (T4): published paragraph and rewrite
+
+Section 13 is "Your Little Forming Group Already Is the Community", with four subheadings. The rewrite keeps the published order and headings. Both pairs below are other ways of writing the same rewrite paragraph, each judged on its own against the published paragraphs.
+
+## Resources, Land, and Exit Terms P1+2 → P1 (way B)
+
+CONTEXT BEFORE: (the heading "Resources, Land, and Exit Terms" comes between) Once you’ve got a good sense of what is important to you, compare this to how the group actually functions (not just how they talk about it in public). How was a recent conflict handled? Who can block decisions? How did it go for the last person who left the group? Who owns the land? It’ll be uncomfortable to have these conversations, b
+
+PUBLISHED:
+
+Whoever owns the land holds enormous power over the community.
+
+If the founder’s name is on the deed, you have a landlord with a philosophy. If three of twelve members own everything, you have two membership classes whether or not the welcome packet uses the word “equal.”
+
+REWRITE:
+
+Who has the title to the land? This is very important! Whoever holds the title has a great deal of power over the community. If the deed is in the founder's name, for instance, then they're essentially a landlord with a philosophy. If three out of twelve members own everything, then there are really two classes of members, despite what the group's literature may say about everyone being equal.
+
+CONTEXT AFTER: What legal form will hold the land: a cooperative, trust, association, company, or whatever fits your jurisdiction? Decide that before the land is bought. Then you need to decide voting rights and access/use rights for shared resources, and contribution accounting if you use it. Work out inheritance and outside debt, how improvements get handled, and what happens when somebody leaves. That’s a lot
+
+## Resources, Land, and Exit Terms P1+2 → P1 (way C)
+
+CONTEXT BEFORE: (the heading "Resources, Land, and Exit Terms" comes between) Once you’ve got a good sense of what is important to you, compare this to how the group actually functions (not just how they talk about it in public). How was a recent conflict handled? Who can block decisions? How did it go for the last person who left the group? Who owns the land? It’ll be uncomfortable to have these conversations, b
+
+PUBLISHED:
+
+Whoever owns the land holds enormous power over the community.
+
+If the founder’s name is on the deed, you have a landlord with a philosophy. If three of twelve members own everything, you have two membership classes whether or not the welcome packet uses the word “equal.”
+
+REWRITE:
+
+It matters so much who has the title to the land! Whoever has it has a massive amount of power over the community. If the deed is in the founder's name, then they're really a landlord with a philosophy. If three members out of twelve own everything, then there's effectively two classes of members even if the welcome packet says everyone's equal.
+
+CONTEXT AFTER: What legal form will hold the land: a cooperative, trust, association, company, or whatever fits your jurisdiction? Decide that before the land is bought. Then you need to decide voting rights and access/use rights for shared resources, and contribution accounting if you use it. Work out inheritance and outside debt, how improvements get handled, and what happens when somebody leaves. That’s a lot

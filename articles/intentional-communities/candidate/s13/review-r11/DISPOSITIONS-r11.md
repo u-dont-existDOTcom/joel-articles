@@ -1,0 +1,22 @@
+# Round r11 on v17: what each finding got (2026-10-15)
+
+Reports: `trace-T1.md` (H1-P2, H3-P1 way A), `trace-T2.md` (H3-P3 alone), `trace-T3.md` (H4-P5, H5-P3), `trace-T4.md` (H3-P1 ways B and C), `SENSE-a.md` and `SENSE-b.md` (v17, way A), `SENSE-B-a.md` and `SENSE-B-b.md` (v17b), `SENSE-C-a.md` and `SENSE-C-b.md` (v17c), `MARCH-labels-a.txt` and `-b.txt` (v17), `MARCH-variants-labels-a.txt` and `-b.txt` (ways B and C), `STANCE-pub.md`, `STANCE-sofar.md`. Same rule as round r6 (`../review-r6/DISPOSITIONS-r6.md`); every flag that touches a linked sentence went through `tools/humanization/link_flags.py` with this file. Fixes are in `../make_v18.py`.
+
+## Kept, with the reason
+
+- **H5-P3, "and when power crept up in their own system, they pushed it back down" (trace T3, added: "a new factual claim about the Zapatistas"; fix: cut).** As in rounds r9 and r10: the claim is the article's own, in section 9, which no tracer is shown. Three tracers have raised it, and all three read section 13's pairs alone; both stance checks of r10 named section 9 as its support, and neither of this round's, nor any cold read since r8, stopped at it. The two-reviewers rule counts reviewers who could see what the words rely on.
+- **H4-P5, "Yes, it's a lot of homework!" (trace T3, added: "an opinion on how much work this is"; fix: cut).** A second tracer now (round r7's T4 was the first). It remarks on the eight questions just asked, the reader's work, and claims nothing about communities; it is the paragraph's only break in both march readings of every round since r7, and the paragraph read Human with it (290g). Joel has seen it on the section 13 page twice. Cutting it would leave the paragraph without a break, so it stays, and the dispositions say so.
+- **H3-P5, "First you get the vision, then you get the members, then you pool the major resources, and lastly you get the land." (stance check against the article so far: "First" puts the vision ahead of practice and a processed conflict, section 16's order).** The sentence gives the order of the book it links to (Diana Leafe Christian's *Creating a Life Together*: the link goes to the book, and "For the order to do all this in, see" says the order is hers), and the published sentence starts the same sequence with the vision too ("the full sequence—vision before membership, ..."). Section 16's practice-first steps are what a forming group does before it decides any of these. One reviewer; the paragraph read Human with H3-P4 (289g).
+- **The published contradiction, "already a community" against "still a circle of promising strangers" (both stance checks: the rewrite eases it).** No change, as in rounds r9 and r10; Joel has it among the passages reported at 17:13.
+- **H2-P2, the values list (no break in reading b; a break in reading a this time).** Done, as before.
+
+## Fixed in v18
+
+- H5-P3: "'Outside' doesn't always mean the nation-state." for "'Outside' doesn't have to be a nation-state." Four of this round's six cold reads (v17 a and b, v17b a and b) and one of round r10's asked which way "that way" points in Joel's next sentence ("My research initially leaned too far that way"): toward the nation-state, every reader's best reading, or toward "doesn't have to be a nation-state". His sentence stays as he decided (32 b); the fix is in mine before it, back to his published "does not always mean the nation-state", so "that way" leans toward the state. The link on "My research" goes to his research report, the one that leaned that way.
+- H3-P3: "Large transfers (land, equipment, stores or outside cash) can't depend on one person's memory or permission." (trace T2: "need to be recorded somewhere" added a requirement the published doesn't make; round r10's trace had found "memory" lost beside it. Two tracers on the same words, and the fix loses nothing: the published sentence).
+
+## Clean after r11, to Pangram (batch 294g)
+
+- H1-P2, round g's version: trace OK, all six cold reads OK, a break in both march readings, nothing in either stance check, keys PASS, lint REVIEW. Alone, after H1-P1, and with the section's heading over both.
+- H3-P1, all three ways: traces OK (T1 for A, T4 for B and C); the cold reads of each way OK on it (A: v17 a and b; B: v17b a and b; C: v17c a and b); breaks in both march readings of each; nothing in either stance check (B and C make the same claims as A). Each alone and under the heading.
+- H4-P5 (the founding-agreements fix of v15): trace kept above, cold reads OK, the break in both readings, nothing in either stance check. Alone.

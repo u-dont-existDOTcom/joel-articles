@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1125,
-  "right": 795,
+  "calls": 1157,
+  "right": 817,
   "since_review": {
-   "calls": 723,
-   "right": 540,
-   "passed": 423
+   "calls": 755,
+   "right": 562,
+   "passed": 445
   },
   "today": {
-   "calls": 173,
-   "right": 139,
-   "passed": 108
+   "calls": 205,
+   "right": 161,
+   "passed": 130
   }
  },
  "windows": [
@@ -153,10 +153,10 @@
   {
    "from": 290,
    "to": 299,
-   "calls": 21,
-   "right": 14,
-   "passed": 17,
-   "always_ai_right": 4
+   "calls": 53,
+   "right": 36,
+   "passed": 39,
+   "always_ai_right": 14
   }
  ],
  "misses": [
@@ -2565,6 +2565,146 @@
    "res_raw": "Human (low; 78 words), 16:55:06, [check](https://www.pangram.com/history/6ec7073d-47e8-42aa-9d4e-08b935c9c2bd)",
    "where": "s13/b292/PREDICTIONS-scored.md:12",
    "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 293,
+   "name": "293g-S13v14-5P2",
+   "mine": "AI",
+   "why": "round f's frame, but the fixes brought the questions back to the published list nearly item by item (\"what review or appeal is possible without endangering others\", \"protect their housing, records, family contact ... during separation\"), the shape that read AI in 291g",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (medium; 107 words), 18:56:54, [check](https://www.pangram.com/history/3e2f4e5e-97dc-44b8-a6d0-bb73b2d2ee1c)",
+   "where": "s13/b293/PREDICTIONS-scored.md:6",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 294,
+   "name": "294g-S13v17b-3P1",
+   "mine": "AI",
+   "why": "Emulate round h's sentences are flatter than round b's (\"This is very important!\", \"a great deal of power\", \"despite what the group's literature may say\")",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (low; 72 words; AI likelihood 0.02), 19:28:06, [check](https://www.pangram.com/history/844e3252-d579-40cb-a74b-450334a0e899)",
+   "where": "s13/b294/PREDICTIONS-scored.md:10",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 294,
+   "name": "294g-S13v17b-3hP1",
+   "mine": "AI",
+   "why": "the same under the heading",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (low; 77 words; AI likelihood 0.00), 19:28:17, [check](https://www.pangram.com/history/71bcef45-586a-4fec-bc6c-f6c84786ca8f)",
+   "where": "s13/b294/PREDICTIONS-scored.md:11",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 294,
+   "name": "294g-S13v17c-3hP1",
+   "mine": "Human",
+   "why": "the hypothesis of way C: a heading then a rhetorical question is the shape that read AI, and C has no question",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI-Generated, low; 71 words, the whole text; AI likelihood 0.93), 19:28:39, [check](https://www.pangram.com/history/b765c44e-3d8d-48d3-b9cf-2dc8754df733)",
+   "where": "s13/b294/PREDICTIONS-scored.md:13",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 295,
+   "name": "295g-S13v19-3P3",
+   "mine": "AI",
+   "why": "two stock openings (\"It is important that people be able to know\", \"It is also important to specify\"), and the large-transfers sentence now nearly the published one; \"That's not much of a right.\" may not carry 161 words",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (medium; 165 words; AI likelihood 0.07), 20:06:30, [check](https://www.pangram.com/history/c8386c9d-299d-4cdb-8dee-c1dd94fa5a47)",
+   "where": "s13/b295/PREDICTIONS-scored.md:5",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 295,
+   "name": "295g-S13v19-5P3",
+   "mine": "AI",
+   "why": "it opens with two sentences that are now nearly the published pair (\"doesn't always mean the nation-state\", his sentence as published), then the list of seven; \"Just not the community itself!\" is the only break",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (medium; 109 words; AI likelihood 0.15), 20:06:41, [check](https://www.pangram.com/history/b19fd507-a514-4677-9d02-0bb2e2257f87)",
+   "where": "s13/b295/PREDICTIONS-scored.md:6",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 297,
+   "name": "297g-S13v21-3P4P5",
+   "mine": "AI",
+   "why": "H3-P4 read Human, but H3-P5 is now nearly the published sentence (\"For the full sequence ... the vision comes before the members, the members before you pool the major resources, and the land comes last\"), with only the pointer to the reading list as mine",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (medium; 137 words; AI likelihood 0.00), 21:04:06, [check](https://www.pangram.com/history/5bb8ef86-7a12-471e-bb82-e33858c8b78c)",
+   "where": "s13/b297/PREDICTIONS-scored.md:6",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 298,
+   "name": "298g-S13v21",
+   "mine": "Human",
+   "why": "every part reads Human on its own, most of them medium or high; the risk is a window across the visitor subsection's run of questions (H4-P5's eight, then H4-P6's \"How do you know?\")",
+   "res": "AI",
+   "pct": 56.0,
+   "res_raw": "AI (AI Detected, 56% AI, high: Human 186 words, AI 894, Human 679, AI 240, Human 71, AI 49, Human 37, AI 42; 2198 words), 21:07:28, [check](https://www.pangram.com/history/5e450ea7-ed52-402b-bae4-de06d266aec7)",
+   "where": "s13/b298/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 299,
+   "name": "299g-S13v21-2P4h3P1",
+   "mine": "Human",
+   "why": "the comparison questions, the heading and way B, which read Human with its heading (294g)",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Detected: Human, medium, 76 words, H2-P4; AI-Generated, medium, 77, the heading and H3-P1), 21:16:29, [check](https://www.pangram.com/history/bd7b0dcd-c7ee-4c89-9d3d-db7ac35d39a0)",
+   "where": "s13/b299/PREDICTIONS-scored.md:8",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 299,
+   "name": "299g-S13v21-H4",
+   "mine": "Human",
+   "why": "the visitor subsection read Human in the section (679 words) up to the middle of H4-P9; the risk is P9's tail",
+   "res": "AI",
+   "pct": 51.0,
+   "res_raw": "AI (AI Detected, 51% AI: AI-Generated, high, 258 words, the heading through H4-P4 and the first question of H4-P5; Human 98; AI 72, H4-P6 from At each stage; Human 205; AI 34, H4-P9 from (Yes, even the interns!); Human 35), 21:16:57, [check](https://www.pangram.com/history/0dfc76c1-1b4a-40c3-bfad-f307e555a08e)",
+   "where": "s13/b299/PREDICTIONS-scored.md:11",
+   "passed": false,
    "right": false,
    "text": ""
   },

@@ -1,0 +1,70 @@
+{
+ "S13v14-4P8": {
+  "kind": "draft",
+  "march": [
+   "S S B S S S S S",
+   "S S B S S S S S"
+  ],
+  "march_note": "s13/review-r10/MARCH-labels-a.txt and -b.txt, T22",
+  "cold": "OK",
+  "cold_note": "s13/review-r10/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r10/trace-T2.md (its one finding, \"I know, it's the fun part.\", kept: review-r10/DISPOSITIONS-r10.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r10/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (the one in STANCE-sofar is H4-P5, fixed in v15)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 82
+ },
+ "S13v14-5P2": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S S S S B",
+   "S S S S S S S S S B"
+  ],
+  "march_note": "s13/review-r10/MARCH-labels-a.txt and -b.txt, T25",
+  "cold": "OK",
+  "cold_note": "s13/review-r10/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r10/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r10/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (the one in STANCE-sofar is H4-P5, fixed in v15)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 106
+ },
+ "S13v14-5P4": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "s13/review-r10/MARCH-labels-a.txt and -b.txt, T27",
+  "cold": "OK",
+  "cold_note": "s13/review-r10/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r10/trace-T3.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r10/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (the one in STANCE-sofar is H4-P5, fixed in v15)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 82
+ },
+ "S13v14-3hP1": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "s13/review-r10/MARCH-labels-a.txt and -b.txt, T10",
+  "cold": "OK",
+  "cold_note": "s13/review-r10/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r9/trace-T2.md (OK; unchanged since v12)",
+  "stance": 0,
+  "stance_note": "s13/review-r10/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (the one in STANCE-sofar is H4-P5, fixed in v15)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 67
+ }
+}

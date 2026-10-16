@@ -1,0 +1,136 @@
+{
+ "S13v17-4P5": {
+  "history_id": 16169073,
+  "link": "https://www.pangram.com/history/780e1f93-06b9-480d-b499-ee898756660b",
+  "utc": "2026-10-15T19:28:49Z",
+  "words": 117,
+  "avg_ai_likelihood": 0.0014280530158430338,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Medium, 117"
+  ],
+  "flagged": []
+ },
+ "S13v17c-3hP1": {
+  "history_id": 16169051,
+  "link": "https://www.pangram.com/history/b765c44e-3d8d-48d3-b9cf-2dc8754df733",
+  "utc": "2026-10-15T19:28:39Z",
+  "words": 71,
+  "avg_ai_likelihood": 0.9302237629890442,
+  "headline": "AI Generated",
+  "version": "4.0",
+  "windows": [
+   "AI-Generated, Low, 71"
+  ],
+  "flagged": [
+   "AI-Generated (71 words): the whole text"
+  ]
+ },
+ "S13v17c-3P1": {
+  "history_id": 16169035,
+  "link": "https://www.pangram.com/history/e82cebc1-d59a-4934-aa03-e43088002ecc",
+  "utc": "2026-10-15T19:28:27Z",
+  "words": 66,
+  "avg_ai_likelihood": 0.10215938091278076,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 66"
+  ],
+  "flagged": []
+ },
+ "S13v17b-3hP1": {
+  "history_id": 16169013,
+  "link": "https://www.pangram.com/history/71bcef45-586a-4fec-bc6c-f6c84786ca8f",
+  "utc": "2026-10-15T19:28:17Z",
+  "words": 77,
+  "avg_ai_likelihood": 0.004795985762029886,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 77"
+  ],
+  "flagged": []
+ },
+ "S13v17b-3P1": {
+  "history_id": 16169002,
+  "link": "https://www.pangram.com/history/844e3252-d579-40cb-a74b-450334a0e899",
+  "utc": "2026-10-15T19:28:06Z",
+  "words": 72,
+  "avg_ai_likelihood": 0.024067068472504616,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 72"
+  ],
+  "flagged": []
+ },
+ "S13v17-3hP1": {
+  "history_id": 16168986,
+  "link": "https://www.pangram.com/history/4cc53227-5b72-4a63-aaf5-90ba153d28a3",
+  "utc": "2026-10-15T19:27:57Z",
+  "words": 71,
+  "avg_ai_likelihood": 0.7931287884712219,
+  "headline": "AI Generated",
+  "version": "4.0",
+  "windows": [
+   "AI-Generated, Low, 71"
+  ],
+  "flagged": [
+   "AI-Generated (71 words): the whole text"
+  ]
+ },
+ "S13v17-3P1": {
+  "history_id": 16168962,
+  "link": "https://www.pangram.com/history/539a3434-69d1-441c-917f-2da0057a1f42",
+  "utc": "2026-10-15T19:27:45Z",
+  "words": 66,
+  "avg_ai_likelihood": 0.04996451735496521,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Low, 66"
+  ],
+  "flagged": []
+ },
+ "S13v17-1hP1P2": {
+  "history_id": 16168951,
+  "link": "https://www.pangram.com/history/e988feca-0140-4bb4-9e13-518b58a5d80c",
+  "utc": "2026-10-15T19:27:36Z",
+  "words": 186,
+  "avg_ai_likelihood": 0.0013907516840845346,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Medium, 186"
+  ],
+  "flagged": []
+ },
+ "S13v17-1P1P2": {
+  "history_id": 16168928,
+  "link": "https://www.pangram.com/history/ca49db31-6137-48b4-908a-7a2fc5e3b2ae",
+  "utc": "2026-10-15T19:27:24Z",
+  "words": 178,
+  "avg_ai_likelihood": 0.002572087338194251,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Medium, 178"
+  ],
+  "flagged": []
+ },
+ "S13v17-1P2": {
+  "history_id": 16168914,
+  "link": "https://www.pangram.com/history/95af1247-6c44-4100-a616-1593bc0775d5",
+  "utc": "2026-10-15T19:27:15Z",
+  "words": 131,
+  "avg_ai_likelihood": 0.0041128783486783504,
+  "headline": "Human Written",
+  "version": "4.0",
+  "windows": [
+   "Human, Medium, 131"
+  ],
+  "flagged": []
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "S13v20-4P6": {
+  "kind": "draft",
+  "march": [
+   "B S S S S S",
+   "B S S S S S"
+  ],
+  "march_note": "s13/review-r13/MARCH-labels-a.txt and -b.txt, T20",
+  "cold": "OK",
+  "cold_note": "s13/review-r13/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r13/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r13/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (theirs are in H3-P5, H4-P5 and H5-P3, fixed in v21)",
+  "lint": "CLEAR",
+  "missing": [],
+  "words": 72
+ },
+ "S13v20-5P4": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "s13/review-r13/MARCH-labels-a.txt and -b.txt, T27",
+  "cold": "OK",
+  "cold_note": "s13/review-r13/SENSE-a.md, SENSE-b.md: OK for these paragraphs",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r13/trace-T3.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r13/STANCE-pub.md, STANCE-sofar.md: no conflicts in these paragraphs (theirs are in H3-P5, H4-P5 and H5-P3, fixed in v21)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 79
+ }
+}

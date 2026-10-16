@@ -34,12 +34,14 @@
      "ownership"
     ],
     [
-     "resources"
+     "resources",
+     "resource"
     ],
     [
      "conflict"
     ]
-   ]
+   ],
+   "note_v16": "2026-10-15, v16: Emulate round g's \"any other big resource\" (singular, the same thing) added as an alternative; the meaning trace confirms it, and a trace that calls it a shift puts the published word back."
   },
   {
    "id": "U4",

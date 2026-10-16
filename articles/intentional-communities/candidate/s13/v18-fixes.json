@@ -1,0 +1,14 @@
+[
+ {
+  "id": "H3-P3",
+  "old": "Large transfers (land, equipment, stores or outside cash) need to be recorded somewhere, and can't depend on one person's memory or permission.",
+  "new": "Large transfers (land, equipment, stores or outside cash) can't depend on one person's memory or permission.",
+  "why": "trace T2 of r11: \"recorded somewhere\" added a requirement; with trace T1 of r10 on the same words, two tracers; the published sentence"
+ },
+ {
+  "id": "H5-P3",
+  "old": "'Outside' doesn't have to be a nation-state.",
+  "new": "'Outside' doesn't always mean the nation-state.",
+  "why": "cold reads of r10 (a) and r11 (four of six): which way \"that way\" points in Joel's next sentence; his published \"does not always mean the nation-state\", so it leans toward the state"
+ }
+]

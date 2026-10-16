@@ -1,0 +1,14 @@
+# Predictions and Pangram results: batch 293g (2026-10-15, after Joel's 32 b)
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). Section 13 v14 paragraphs whose records came back clean in gate round r10 (`s13/review-r10/`, with `DISPOSITIONS-r10.md`), each alone, and the "Resources, Land, and Exit Terms" heading over H3-P1 again: the same text as 292g's S13v12-3hP1, which read AI (low), to see whether a repeat gives the same reading. Texts in `drafts.json`, records in `GATE.json` (built by `make_batch.py`). Predictions written before the call; results from the History, each with its check link (E175).
+
+## Batch 293g
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S13v14-4P8 | Human | "(Sorry, hanging out doesn't count! I know, it's the fun part.)" and "Can you even process a small conflict afterwards?"; the risk is the three "Can you" questions in a row and the closing "won't show you anyone's soul, but it can show you" | **Human** (low; 87 words), 18:56:44, [check](https://www.pangram.com/history/f46f5254-4af3-4ced-bfa4-02961d107781) |
+| S13v14-5P2 | AI | round f's frame, but the fixes brought the questions back to the published list nearly item by item ("what review or appeal is possible without endangering others", "protect their housing, records, family contact ... during separation"), the shape that read AI in 291g | **Human** (medium; 107 words), 18:56:54, [check](https://www.pangram.com/history/3e2f4e5e-97dc-44b8-a6d0-bb73b2d2ee1c) |
+| S13v14-5P4 | Human | round f's sentences ("Why bother?", "to act as a 'neutral stranger'", "Remember that mediation is about trying to restore good relations"), with one fix in the last sentence; the risk is that last sentence's list of four "for"s | **Human** (low; 82 words), 18:57:05, [check](https://www.pangram.com/history/680316d5-a867-4770-8178-4ea9d2f8d9b9) |
+| S13v14-3hP1 | AI | the same text that read AI (low) in 292g; if Pangram gives the same text the same reading, it reads AI again | **AI** (AI-Generated, low; 71 words, the whole text; AI likelihood 0.56, against 0.61 for the same text in 292g), 18:57:15, [check](https://www.pangram.com/history/ef3cdc0c-fd0a-455e-8e68-1c0e7a9c147a) |
+
+Results of 293g (Pangram's History, 2026-10-15 UTC): three of four read Human: the trial-run paragraph (H4-P8), the removal process (H5-P2) and the mediator paragraph (H5-P4), each alone. The land-title paragraph under its heading read AI again, low confidence, over the whole text: the same text as 292g, with the same label and a score that moved (AI likelihood 0.61 in 292g, 0.56 now), so a rerun of a text gives its reading again within a few points. It goes to Emulate round h. Score: 3 of 4 (right: S13v14-4P8, S13v14-5P4, S13v14-3hP1). Every text checked is the one in `drafts.json` (same SHA-256).
