@@ -102,6 +102,7 @@ guide paragraph as its source, so drafts that carry the whole paragraph looked l
 import argparse, difflib, html, json, math, pathlib, re, subprocess, sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import para_numbers
+from html_links import linkify  # every address on the page is a link (Joel, 2026-10-16: "your links are not clickable")
 
 QUOTES = str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'})
 LINK = re.compile(r'\[([^\]]*)\]\(([^)]*)\)')
@@ -514,14 +515,14 @@ def main():
         legend += (' <span class="dup">Blue</span> is something the article, or another draft on this page, '
                    'already says; the note under it says where.')
     body = ['<p class="meta">%s</p>' % html.escape(m.get('meta', '')), '<p class="meta">%s</p>' % legend]
-    body += ['<p class="intro">%s</p>' % html.escape(t) for t in m.get('intro', [])]
+    body += ['<p class="intro">%s</p>' % linkify(t) for t in m.get('intro', [])]
     pos = place_rows(m, cur)
     for bi, blk in enumerate(m['blocks']):
         body.append('<div class="block">')
         for h in blk.get('headings', []):
             n = min(len(h) - len(h.lstrip('#')), 3) or 2
             body.append('<h%d>%s</h%d>' % (n, html.escape(h.lstrip('#').strip()), n))
-        body += ['<p class="intro">%s</p>' % html.escape(t) for t in blk.get('intro', [])]
+        body += ['<p class="intro">%s</p>' % linkify(t) for t in blk.get('intro', [])]
         placed = [pos[(bi, ri)] for ri in range(len(blk['rows']))]
         first = next((q for q in placed if q is not None), None)
         if first is not None:
@@ -581,9 +582,9 @@ def main():
             shown = shown.replace(BR, '<br>')
             if text.startswith('https://') and ' ' not in text:
                 shown = '<a href="%s">%s</a>' % (html.escape(text), html.escape(text))
-            notes = ['<p class="meta">%s%s</p>' % (html.escape(state), (' · ' + html.escape(r['note'])) if r.get('note') else '')]
+            notes = ['<p class="meta">%s%s</p>' % (html.escape(state), (' · ' + linkify(r['note'])) if r.get('note') else '')]
             if r.get('notes'):
-                notes.append('<ul class="notes">%s</ul>' % ''.join('<li>%s</li>' % html.escape(n) for n in r['notes']))
+                notes.append('<ul class="notes">%s</ul>' % ''.join('<li>%s</li>' % linkify(n) for n in r['notes']))
             rep = repeat_notes(r, cur, rows)
             if rep:
                 notes.append('<p class="meta">What already says it:</p><ul class="notes">%s</ul>'

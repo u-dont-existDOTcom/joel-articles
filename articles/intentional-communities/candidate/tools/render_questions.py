@@ -12,6 +12,9 @@ import sys
 
 import markdown
 
+sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parents[4] / 'tools' / 'humanization'))
+from html_links import autolink_markdown  # noqa: E402  Joel, 2026-10-16: "your links are not clickable"
+
 KINDS = {'🟣': ('q', 'Question for you'), '🟠': ('todo', 'For you to do'), '🔵': ('next', 'Next or in progress'),
          '🟢': ('done', 'Done or decided')}
 CALLOUTS = {'IMPORTANT': 'q', 'WARNING': 'todo', 'TIP': 'done', 'NOTE': 'next'}
@@ -97,7 +100,7 @@ def render(md_text):
     body = re.sub(r'(?m)^((?!- )[^\n]+)\n(?=- )', r'\1\n\n', body)
     # a blank line between two bullets separates groups (days); keep it as a gap, not a loose list
     body = re.sub(r'(?m)^(- [^\n]*)\n\n(?=- )', r'\1\n- @@GAP@@\n', body)
-    out = markdown.markdown(body, extensions=['sane_lists'])
+    out = markdown.markdown(autolink_markdown(body), extensions=['sane_lists'])
     out = out.replace('<li>@@GAP@@</li>', '<li class="gap" aria-hidden="true"></li>')
     # legend paragraph
     def legend(m):

@@ -36,6 +36,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import article_images
 import check_owner_edits
 import para_numbers
+from html_links import linkify, join_split_links  # Joel, 2026-10-16: "your links are not clickable"
 
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('out', nargs='?', help='the HTML file to write')
@@ -66,10 +67,10 @@ def numbered(md):
     return '\n\n'.join(out)
 
 
-md = numbered(md)
+md = numbered(join_split_links(md))  # the pasted post card's link, which Markdown can't parse across its heading
 md = article_images.figure_html(md)  # an image note shows the image where it goes (2026-10-11)
 md = re.sub(r'<!--\s*CANDIDATE:(.*?)-->',
-            lambda m: '\n\n<div class="candidate">' + html.escape(m.group(1).strip()) + '</div>\n\n',
+            lambda m: '\n\n<div class="candidate">' + linkify(m.group(1).strip()) + '</div>\n\n',
             md, flags=re.S)
 body = markdown.markdown(md)
 chk = check_owner_edits.run(SRC, a.ledger) if a.ledger else None

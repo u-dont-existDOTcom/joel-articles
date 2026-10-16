@@ -1,0 +1,210 @@
+{
+ "S13v27-1P3P4": {
+  "kind": "screen",
+  "march": [
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "H1-P3: r19 (second read) ['S B B S', 'S B B S']; H1-P4: r19 (second read) ['S B S S S S S', 'S B S S S S S']",
+  "lint": "REVIEW",
+  "words": 168
+ },
+ "S13v27-H1": {
+  "kind": "screen",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B",
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "H1-P1: r19 (second read) ['S S B', 'S S B']; H1-P2: r19 (second read) ['S S B S B', 'S S B S B']; H1-P3: r19 (second read) ['S B B S', 'S B B S']; H1-P4: r19 (second read) ['S B S S S S S', 'S B S S S S S']",
+  "lint": "REVIEW",
+  "words": 348
+ },
+ "S13v27-2P2P3": {
+  "kind": "screen",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S S S S S B",
+   "S S S S S S S B"
+  ],
+  "march_note": "H2-P2: r19 (first read) ['S B S', 'S B S']; H2-P3: r19 (first read) ['S S S S S S S B', 'S S S S S S S B']",
+  "lint": "REVIEW",
+  "words": 135
+ },
+ "S13v27-2P3bP4": {
+  "kind": "screen",
+  "march": [
+   "S B S S",
+   "S B S S",
+   "S S S S S B",
+   "S S S S S B"
+  ],
+  "march_note": "H2-P3b: r19 (first read) ['S B S S', 'S B S S']; H2-P4: r19 (first read) ['S S S S S B', 'S S S S S B']",
+  "lint": "REVIEW",
+  "words": 106
+ },
+ "S13v27-H2": {
+  "kind": "screen",
+  "march": [
+   "B B B B B B B B B",
+   "B B B B B B B B B",
+   "S B S",
+   "S B S",
+   "S S S S S S S B",
+   "S S S S S S S B",
+   "S B S S",
+   "S B S S",
+   "S S S S S B",
+   "S S S S S B"
+  ],
+  "march_note": "H2-P1: r19 (first read) ['B B B B B B B B B', 'B B B B B B B B B']; H2-P2: r19 (first read) ['S B S', 'S B S']; H2-P3: r19 (first read) ['S S S S S S S B', 'S S S S S S S B']; H2-P3b: r19 (first read) ['S B S S', 'S B S S']; H2-P4: r19 (first read) ['S S S S S B', 'S S S S S B']",
+  "lint": "REVIEW",
+  "words": 313
+ },
+ "S13v27-J1": {
+  "kind": "screen",
+  "march": [
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S",
+   "B B B B B B B B B",
+   "B B B B B B B B B",
+   "S B S",
+   "S B S",
+   "S S S S S S S B",
+   "S S S S S S S B",
+   "S B S S",
+   "S B S S",
+   "S S S S S B",
+   "S S S S S B"
+  ],
+  "march_note": "H1-P3: r19 (second read) ['S B B S', 'S B B S']; H1-P4: r19 (second read) ['S B S S S S S', 'S B S S S S S']; H2-P1: r19 (first read) ['B B B B B B B B B', 'B B B B B B B B B']; H2-P2: r19 (first read) ['S B S', 'S B S']; H2-P3: r19 (first read) ['S S S S S S S B', 'S S S S S S S B']; H2-P3b: r19 (first read) ['S B S S', 'S B S S']; H2-P4: r19 (first read) ['S S S S S B', 'S S S S S B']",
+  "lint": "REVIEW",
+  "words": 481
+ },
+ "S13v27-5P1P2": {
+  "kind": "screen",
+  "march": [
+   "S S B B S S S",
+   "S S B B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B"
+  ],
+  "march_note": "H5-P1: r19 (second read) ['S S B B S S S', 'S S B B S S S']; H5-P2: r19 (second read) ['S S S S S S S S S B', 'S S S S S S S S S B']",
+  "lint": "REVIEW",
+  "words": 206
+ },
+ "S13v27-5P3P4": {
+  "kind": "screen",
+  "march": [
+   "S B S S B S S",
+   "S B S S B S S",
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "H5-P3: r19 (second read) ['S B S S B S S', 'S B S S B S S']; H5-P4: r19 (second read) ['S B S S S', 'S B S S S']",
+  "lint": "REVIEW",
+  "words": 168
+ },
+ "S13v27-H5": {
+  "kind": "screen",
+  "march": [
+   "S S B B S S S",
+   "S S B B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B",
+   "S B S S B S S",
+   "S B S S B S S",
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "H5-P1: r19 (second read) ['S S B B S S S', 'S S B B S S S']; H5-P2: r19 (second read) ['S S S S S S S S S B', 'S S S S S S S S S B']; H5-P3: r19 (second read) ['S B S S B S S', 'S B S S B S S']; H5-P4: r19 (second read) ['S B S S S', 'S B S S S']",
+  "lint": "REVIEW",
+  "words": 379
+ },
+ "S13v27-4P9h5P2": {
+  "kind": "screen",
+  "march": [
+   "S S B S S S",
+   "S S B S S S",
+   "S S B B S S S",
+   "S S B B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B"
+  ],
+  "march_note": "H4-P9: b304 ['S S B S S S', 'S S B S S S']; H5-P1: r19 (second read) ['S S B B S S S', 'S S B B S S S']; H5-P2: r19 (second read) ['S S S S S S S S S B', 'S S S S S S S S S B']",
+  "lint": "REVIEW",
+  "words": 309
+ },
+ "S13v27": {
+  "kind": "screen",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B",
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S",
+   "B B B B B B B B B",
+   "B B B B B B B B B",
+   "S B S",
+   "S B S",
+   "S S S S S S S B",
+   "S S S S S S S B",
+   "S B S S",
+   "S B S S",
+   "S S S S S B",
+   "S S S S S B",
+   "S B S S S",
+   "S B S S S",
+   "S S S B",
+   "S S S B",
+   "S S B S S S S S",
+   "S S B S S S S S",
+   "S S S S B S",
+   "S S S S B S",
+   "S B",
+   "S B",
+   "S B S S S",
+   "S B S S S",
+   "S S B S S S",
+   "S S B S S B",
+   "S B B",
+   "S B B",
+   "S S B S",
+   "S S B S",
+   "S S S S S B S S",
+   "S S S S S B S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S",
+   "S B S S",
+   "S S B S S S S S",
+   "S S B S S S S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S S B B S S S",
+   "S S B B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B",
+   "S B S S B S S",
+   "S B S S B S S",
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "H1-P1: r19 (second read) ['S S B', 'S S B']; H1-P2: r19 (second read) ['S S B S B', 'S S B S B']; H1-P3: r19 (second read) ['S B B S', 'S B B S']; H1-P4: r19 (second read) ['S B S S S S S', 'S B S S S S S']; H2-P1: r19 (first read) ['B B B B B B B B B', 'B B B B B B B B B']; H2-P2: r19 (first read) ['S B S', 'S B S']; H2-P3: r19 (first read) ['S S S S S S S B', 'S S S S S S S B']; H2-P3b: r19 (first read) ['S B S S', 'S B S S']; H2-P4: r19 (first read) ['S S S S S B', 'S S S S S B']; H3-P1: b304 ['S B S S S', 'S B S S S']; H3-P2: b304 ['S S S B', 'S S S B']; H3-P3: b304 ['S S B S S S S S', 'S S B S S S S S']; H3-P4: b304 ['S S S S B S', 'S S S S B S']; H3-P5: b304 ['S B', 'S B']; H4-P1: b304 ['S B S S S', 'S B S S S']; H4-P2: b304 ['S S B S S S', 'S S B S S B']; H4-P3: b304 ['S B B', 'S B B']; H4-P4: b304 ['S S B S', 'S S B S']; H4-P5: b304 ['S S S S S B S S', 'S S S S S B S S']; H4-P6: b304 ['S S B S S S', 'S S B S S S']; H4-P7: b304 ['S B S S', 'S B S S']; H4-P8: b304 ['S S B S S S S S', 'S S B S S S S S']; H4-P9: b304 ['S S B S S S', 'S S B S S S']; H5-P1: r19 (second read) ['S S B B S S S', 'S S B B S S S']; H5-P2: r19 (second read) ['S S S S S S S S S B', 'S S S S S S S S S B']; H5-P3: r19 (second read) ['S B S S B S S', 'S B S S B S S']; H5-P4: r19 (second read) ['S B S S S', 'S B S S S']",
+  "lint": "REVIEW",
+  "words": 2167
+ }
+}

@@ -13,9 +13,17 @@ A paragraph or list item that reports an AI result (reads AI, read AI, AI-Genera
 Mostly Human) needs a https://www.pangram.com/history/ link in the same paragraph or item. Prints each one that
 doesn't have one, and exits 1 if there are any. Passing results can point to the turn's results file, which lists
 each check's link.
+
+With --chat (a message for the chat, not a page), every address must also be one Joel can click: written as
+[text](url). Joel, 2026-10-16 21:05 UTC: "(your links are not clickable btw)"; my final message had given each check as a
+bare address, which his app shows as text. Addresses inside `code` are a command's text and are left alone.
 """
+import pathlib
 import re
 import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from html_links import bare_urls  # noqa: E402
 
 # A result word Pangram itself shows, or "reads AI" where the unit is about a check (a batch name, Pangram, a %).
 # "a list of three reads AI" (a rule, not a result) isn't one.
@@ -45,12 +53,19 @@ def missing(text):
             if LINK not in u and (RESULT_WORDS.search(u) or (READS_AI.search(u) and CHECK_CONTEXT.search(u)))]
 
 
-def main(paths):
+def main(argv):
+    chat = '--chat' in argv
+    paths = [a for a in argv if a != '--chat']
     bad = 0
     for p in paths:
-        for u in missing(open(p, encoding='utf-8').read()):
+        text = open(p, encoding='utf-8').read()
+        for u in missing(text):
             bad += 1
             print('%s: an AI result with no Pangram check link: %s' % (p, u[:200]))
+        if chat:
+            for url in bare_urls(text):
+                bad += 1
+                print('%s: a link Joel can\'t click (write it as [text](url)): %s' % (p, url))
     print('verdict: %s' % ('FAIL' if bad else 'PASS'))
     return 1 if bad else 0
 

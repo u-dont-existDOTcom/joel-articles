@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1209,
-  "right": 860,
+  "calls": 1234,
+  "right": 882,
   "since_review": {
-   "calls": 807,
-   "right": 605,
-   "passed": 482
+   "calls": 832,
+   "right": 627,
+   "passed": 500
   },
   "today": {
-   "calls": 257,
-   "right": 204,
-   "passed": 167
+   "calls": 282,
+   "right": 226,
+   "passed": 185
   }
  },
  "windows": [
@@ -161,10 +161,10 @@
   {
    "from": 300,
    "to": 309,
-   "calls": 52,
-   "right": 43,
-   "passed": 37,
-   "always_ai_right": 15
+   "calls": 77,
+   "right": 65,
+   "passed": 55,
+   "always_ai_right": 22
   }
  ],
  "misses": [
@@ -2755,6 +2755,48 @@
    "res_raw": "AI (AI Generated, high, 403 words, AI likelihood 0.81), 19:53:56, [check](https://www.pangram.com/history/fc497395-8872-4684-84b8-8f12ba986762)",
    "where": "s13/b304/PREDICTIONS-scored.md:18",
    "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 307,
+   "name": "307g-S13v27-5P3P4",
+   "mine": "Human",
+   "why": "\"Just not whoever’s being reviewed!\" and \"Why bother?\" held as breaks; H5-P4's last two sentences are close to v26's",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, high, 179 words, AI likelihood 0.99), 21:43:02, [check](https://www.pangram.com/history/9c0d3fb3-9975-42ab-bf7f-63b0b532c68b)",
+   "where": "s13/b307/PREDICTIONS-scored.md:12",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 307,
+   "name": "307g-S13v27-H5",
+   "mine": "Human",
+   "why": "the last subsection read AI as a whole both ways in 304g (0.68, 0.81); now it's round j's, sent whole, with the meaning put back inside its sentences",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, high, 399 words, AI likelihood 0.84), 21:43:13, [check](https://www.pangram.com/history/9589c085-6585-4321-9fbb-37b809262f16)",
+   "where": "s13/b307/PREDICTIONS-scored.md:13",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 309,
+   "name": "309g-S13v29",
+   "mine": "Mixed",
+   "why": "the three fixes should clear windows 2 to 4, but window 1 ran from H1-P2's second sentence (\"Not dealt with it by writing out a vision statement\"), which no variant changes",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, windows: Human, High, 1722; Human, High, 503, 2322 words, AI likelihood 0.07), 22:11:30, [check](https://www.pangram.com/history/924264d4-24d9-4ee2-a46b-2eb64818b47d)",
+   "where": "s13/b309/PREDICTIONS-scored.md:5",
+   "passed": true,
    "right": false,
    "text": ""
   },

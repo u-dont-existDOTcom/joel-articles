@@ -146,9 +146,11 @@ def pct(name):
 
 
 def split_sentences(p):
-    """Like tells_lint.sentences, but keeps a closing quote with its sentence."""
+    """Like tells_lint.sentences, but keeps a closing quote with its sentence. A sentence can open with a link, a single
+    quote or emphasis (2026-10-16: community section 13's "‘Outside’ doesn’t always mean the nation-state. [My research](...)
+    initially leaned too far that way." went to the march readers as one sentence, so two readers gave it one label)."""
     p = re.sub(r'\s+', ' ', p).strip()
-    parts = re.split(r'(?<=[.!?]["”)])\s+(?=["“(]?[A-Z0-9])|(?<=[.!?])\s+(?=["“(]?[A-Z0-9])', p)
+    parts = re.split(r'(?<=[.!?]["”’)])\s+(?=["“‘\'(\[*_]*[A-Z0-9])|(?<=[.!?])\s+(?=["“‘\'(\[*_]*[A-Z0-9])', p)
     out = []
     for s in (x.strip() for x in parts if x and x.strip()):
         if out and out[-1].endswith(('Mr.', 'Mrs.', 'Ms.', 'Dr.', 'St.', 'vs.', 'e.g.', 'i.e.')):

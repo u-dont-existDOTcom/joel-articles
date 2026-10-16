@@ -774,6 +774,16 @@ class MarchPrompt(unittest.TestCase):
         self.assertIn('T1: [1] One step. [2] Then another!', p)
         self.assertIn('inner-child work', reviewer.build_march('One. Two.'))   # the default is unchanged
 
+    def test_a_sentence_that_opens_with_a_link_or_a_single_quote_is_its_own_sentence(self):
+        # 2026-10-16: section 13's "‘Outside’ doesn’t always mean the nation-state. [My research](...) initially leaned too
+        # far that way." reached both march readers as one sentence with one label.
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        self.assertEqual(reviewer.split_sentences('Then this. ‘Outside’ isn’t the state. [My research](https://x.example/r) '
+                                                  'leaned that way. *Very* important! Dr. Who stays.'),
+                         ['Then this.', '‘Outside’ isn’t the state.', '[My research](https://x.example/r) leaned that way.',
+                          '*Very* important!', 'Dr. Who stays.'])
+
 
 class SectionColdReadPrompt(unittest.TestCase):
     """reviewer.py sense-section (2026-10-11). Joel, 18:35 UTC: ""as I'm describing may happen in my case" is obvious so you
@@ -1293,3 +1303,59 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn('know what? doesn\'t seem to follow', t)
         self.assertIn('picks up something from a paragraph or two back', t)
         self.assertIn('add one line that starts "Paused:"', t)
+
+
+class ClickableLinks(unittest.TestCase):
+    """html_links.py and pangram_links_check.py --chat (2026-10-16). Joel, 21:05 UTC: "(your links are not clickable btw)":
+    my final message gave each Pangram check as a bare address, and the pages escaped their notes, so no address was a link."""
+
+    def test_linkify_makes_each_address_a_link_and_keeps_the_punctuation_after_it(self):
+        import html_links
+        out = html_links.linkify('Human, high (https://www.pangram.com/history/abc-1). Next: <b>')
+        self.assertIn('<a href="https://www.pangram.com/history/abc-1">https://www.pangram.com/history/abc-1</a>). Next: &lt;b&gt;', out)
+
+    def test_autolink_markdown_leaves_written_links_and_code_alone(self):
+        import html_links
+        md = 'See https://a.example/x, [the page](https://b.example/y) and `gh pr view https://c.example/z`.'
+        self.assertEqual(html_links.autolink_markdown(md),
+                         'See <https://a.example/x>, [the page](https://b.example/y) and `gh pr view https://c.example/z`.')
+        self.assertEqual(html_links.bare_urls(md), ['https://a.example/x'])
+
+    def test_the_questions_renderer_links_bare_addresses(self):
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import render_questions
+        out = render_questions.render('# Q\n\nLast updated today.\n\n## Open questions\n\n- 🟢 It reads Human: https://www.pangram.com/history/abc-2\n')
+        self.assertIn('<a href="https://www.pangram.com/history/abc-2">', out)
+
+    def test_the_chat_check_fails_a_bare_address_and_passes_a_written_link(self):
+        script = str(TOOLS / 'pangram_links_check.py')
+        with tempfile.TemporaryDirectory() as d:
+            bad = pathlib.Path(d) / 'bad.md'
+            bad.write_text('The section reads Human: https://www.pangram.com/history/abc-3\n', encoding='utf-8')
+            good = pathlib.Path(d) / 'good.md'
+            good.write_text('The section reads Human: [check](https://www.pangram.com/history/abc-3). Merge: `gh pr merge 1`.\n',
+                            encoding='utf-8')
+            r = subprocess.run([sys.executable, script, '--chat', str(bad)], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 1)
+            self.assertIn("can't click", r.stdout)
+            r = subprocess.run([sys.executable, script, '--chat', str(good)], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stdout)
+            r = subprocess.run([sys.executable, script, str(bad)], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, 'without --chat a page source may hold bare addresses; its renderer links them')
+
+    def test_a_pasted_post_card_link_becomes_its_heading_with_the_link(self):
+        import html_links
+        md = ('I wrote separately:\n\n[Spirit and Mind Health](https://a.example/p)[\n\n## Facing the Polycrisis\n\n'
+              '](https://a.example/p)[u-dont-exist.com](https://b.example/u)·15 novembre 2025\n\nNext paragraph.')
+        out = html_links.join_split_links(md)
+        self.assertIn('[Spirit and Mind Health](https://a.example/p)\n\n## [Facing the Polycrisis](https://a.example/p)\n\n'
+                      '[u-dont-exist.com](https://b.example/u)·15 novembre 2025', out)
+        import markdown
+        self.assertEqual(html_links.bare_urls_in_html(markdown.markdown(out)), [])
+        self.assertTrue(html_links.bare_urls_in_html(markdown.markdown(md)), 'the card as pasted shows its address as text')
+
+    def test_the_page_check_finds_an_address_shown_as_text(self):
+        import html_links
+        page = ('<style>a{color:red} /* https://x.example/css */</style><p>Human (<a href="https://www.pangram.com/history/a1">'
+                'https://www.pangram.com/history/a1</a>), and https://www.pangram.com/history/a2.</p>')
+        self.assertEqual(html_links.bare_urls_in_html(page), ['https://www.pangram.com/history/a2'])

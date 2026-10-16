@@ -18,10 +18,8 @@ The master copy of this page is a file in Git, so a session in either of your ac
 
 ## For you to do (no decision needed)
 
-> [!WARNING]
-> One thing to upload.
-
-- 🟠 Section 4's rebuilt diagram (image 7): upload image7-v2.svg (sent with this turn's message) in place of the current image on Substack. The article keeps the old image until then.
+> [!TIP]
+> Nothing right now.
 
 ## Decided
 
