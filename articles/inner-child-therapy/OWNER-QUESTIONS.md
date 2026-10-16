@@ -26,7 +26,7 @@ The next part of the section, written the new way (E179): the guide's own senten
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #PRNUM (turn 61)
+### 🟠 Merge pull request #184 (turn 61)
 
 Your P5, and P8 and P9; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
