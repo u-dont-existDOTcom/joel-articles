@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "e6cc19f4d3818df1e490b142fc5513e60f0fa2b9aa66a97ec2e3286114e159c6"
+          "sha256": "0b43133317c243ce166b46c736abeb18bf8bb5744d34182daebe988453b75b9c"
         }
       },
       "review": {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "134915300c912f16b4ffa3bb4a23be37fc76df156b94f043c1f78f421b00e7c5",
+          "sha256": "fdbe33f5bac572d91c087298cf26e5097cdbf5de66d87f310171f70a34931125",
           "role": "detector_prediction_log"
         },
         {
@@ -8156,6 +8156,36 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-c.js",
           "sha256": "2a5b9c87b2132d7ec4b71a8692f5ef4d6671c3b22d239f3a698f1f31a1732dbe",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/ARTICLE-DRAFT.md",
+          "sha256": "fe9f29ded86c9837fcf4933ffec7b7d04c52adf62c4a5734e4318734988fe32c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/GROUPS456-DRAFT.md",
+          "sha256": "4a848364692e80fed6c8d64fb0c9082715721ec65fe505f4a604e84669efc7eb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/POSITIONS.txt",
+          "sha256": "94caee40400f9b73c079ca6a09f0e5a08346ee2a58a4a8736b528639318722c8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-d-drafts.json",
+          "sha256": "078175e40d871e984d38fd58a043ed55320defb297cd4da89c3578007041fb7a",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-d-gate.json",
+          "sha256": "65e39ecc1a0acf504a545183cf3353d737148f453eabdbdb84ec290dfedbbaf5",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/t59-g456.json",
+          "sha256": "15b8a550120d7a725dd10eaf4c68ebe299df6bf7c17a30df005a48d02ca75b86",
+          "role": "reviewer_target"
         }
       ]
     },
