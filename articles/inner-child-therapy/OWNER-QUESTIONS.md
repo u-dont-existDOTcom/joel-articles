@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-16 (turn 59). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-16 (turn 60). **One open question (29).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,21 +11,32 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 29. The Inner Guide Comes Later P5 reads AI alone (your fix?)
+
+> The Guide doesn't need certainty. It chooses the next sane step that fits your values while the future remains unknown, and that's how it helps your little one grow toward a whole life. Waiting to be sure first can keep life on hold, and then your little one's world stays small. Sometimes something really is stuck on someone else's end (you've asked, and followed up, and there's nothing left for you to do yet), and waiting on that isn't avoidance. The Guide can let it wait, keeping an eye out for when it frees up, and keep the rest of your life moving, so your little one keeps growing anyway.
+
+Group 4 again, after your 21:37 message: one paragraph around the guide's point ("The Guide does not need certainty. It chooses the next sane, value-consistent action while the future remains unknown."), so your little one keeps growing toward a whole life, with the two queue items as one case of it instead of the landlord, the cat and the report. The new main-point check flagged my first try for drifting into a procedure for blocked problems; this one fixes that. Nine versions like it read AI alone; this one 0.968 (https://www.pangram.com/history/a176effd-d7c7-45b7-82fb-6eca69990033). In its h1 it reads Human: The Inner Guide Comes Later, Human Written 0.15, high (https://www.pangram.com/history/f541960a-a866-46d5-b476-04dc76ee26c4). The AI tells I see: it opens on a flat rule, then each sentence is the next rule in the guide's order, in the guide's abstract words (certainty, sane step, values, avoidance). The human tells: the parenthetical "(you've asked, and followed up, and there's nothing left for you to do yet)" and "keeps growing anyway".
+- **A. Your fix.**
+- **B. Leave it** (it reads Human in its section).
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #180 (turns 58 and 59)
+### 🟠 Merge pull request #182 (turn 60)
 
-The Inner Guide Comes Later's P5 to P8; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+Your P8, P5 around the guide's point, and the fixes for what broke; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-16 21:37 UTC
+
+- Your P8 of The Inner Guide Comes Later, word for word ("I think this is closer to Buddhist practice too. ..."); it's now the section's P7, after the jingle paragraph.
+- "inner guide p5-p6 ... much more rambling and less faithful to the intent of the original ... what broke?": P5 and P6 are one paragraph now, close to the guide's own sentences, with the queue items as clauses (question 29). What broke, and the fix, is lesson E179: the brief made the queue items' steps the content, Pangram picked among scenes, and no review asked what a reader comes away with. Now each draft starts from the passage's main point, the grounding flags drift and outsized examples, and the cold read is back.
 
 ### 🟢 2026-10-15 20:56 UTC
 

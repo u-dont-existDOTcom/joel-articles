@@ -1,0 +1,34 @@
+{
+ "t60a_p5v1": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 60: group 4 as one paragraph close to the guide's own sentences (E179, after Joel 21:37 UTC: P5 and P6 rambled, \"less faithful to the intent of the original\"). March: my own reading."
+ },
+ "t60a_p5v2": {
+  "kind": "screen",
+  "march": [
+   "S S S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 60: the same with a parenthetical example, as in Joel's P8. March: my own reading."
+ },
+ "t60a_g1": {
+  "kind": "screen",
+  "march": [
+   "P5 S S S S S B | P6 S S B S S S S | P7 (Joel's)"
+  ],
+  "lint": "REVIEW",
+  "note": "p5-v1, the jingle paragraph and Joel's P8 together, as they would stand after P4."
+ },
+ "t60a_g2": {
+  "kind": "screen",
+  "march": [
+   "P5 S S S B S B | P6 S S B S S S S | P7 (Joel's)"
+  ],
+  "lint": "REVIEW",
+  "note": "p5-v2, the jingle paragraph and Joel's P8 together."
+ }
+}

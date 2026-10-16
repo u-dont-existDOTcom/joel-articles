@@ -237,10 +237,32 @@ def reader_js(items, pages=5):
             "JSON.stringify(out)\n")
 
 
+def lint_verdict(text, article):
+    """tells_lint.py's verdict (CLEAR, REVIEW or FAIL) on TEXT, with ARTICLE as the installed text. Turn 60
+    (2026-10-16): a draft the linter FAILs went into a batch as REVIEW, because the gate file's "lint" was typed
+    by hand (E179)."""
+    import subprocess
+    import tempfile
+    with tempfile.NamedTemporaryFile('w', suffix='.txt', delete=False, encoding='utf-8') as f:
+        f.write(text)
+        name = f.name
+    try:
+        out = subprocess.run([sys.executable, str(pathlib.Path(__file__).with_name('tells_lint.py')), name,
+                              '--installed', article], capture_output=True, text=True).stdout
+    finally:
+        pathlib.Path(name).unlink()
+    for line in out.splitlines():
+        if line.startswith('verdict:'):
+            return line.split(':', 1)[1].strip().upper()
+    return 'UNKNOWN'
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('drafts'); ap.add_argument('gate'); ap.add_argument('out')
     ap.add_argument('--name', required=True, help='window.__NAME keeps the batch progress')
+    ap.add_argument('--lint-article', help='the installed article: the linter runs on every screen, draft and edit '
+                    'here, and its verdict, not the one typed in GATE.json, decides (E179)')
     ap.add_argument('keys', nargs='+')
     a = ap.parse_args(argv)
     drafts = json.loads(pathlib.Path(a.drafts).read_text(encoding='utf-8'))
@@ -249,6 +271,11 @@ def main(argv=None):
     for k in a.keys:
         if k not in drafts:
             print('%s: not in %s' % (k, a.drafts), file=sys.stderr); bad = True
+        elif a.lint_article and (gate.get(k) or {}).get('kind') in ('screen', 'draft', 'edit'):
+            v = lint_verdict(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'], a.lint_article)
+            if v != str((gate.get(k) or {}).get('lint', '')).upper():
+                print('%s: the linter says %s, GATE.json says %r; it now says %s' % (k, v, gate[k].get('lint'), v), file=sys.stderr)
+            gate[k] = dict(gate[k], lint=v)
         for p in problems(k, gate):
             print('%s: %s' % (k, p), file=sys.stderr); bad = True
     if bad:
