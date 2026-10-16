@@ -20,21 +20,22 @@ Humanize Joel's published intentional-communities Substack article section by se
 - 2026-10-15: his answers 27 to 29 (section 10 v4; section 4's diagram rebuilt, waiting for his Substack upload) and, at 11:04, his two section 4 paragraphs (section 4 v11.3, 100% Human in batch 287g). Section 13 started: baseline all AI (batch 286g), drafts v1 to v6 through four gate rounds; 2 of 10 checked v5 paragraphs read Human (287g); not in the article yet. After his 13:10 answers (30 b: the visitor and founder lines stay as published; 31 a: paragraph by paragraph), Emulate rounds b to f, drafts v7 to v13 and gate rounds r5 to r9: 20 of its 27 paragraphs read Human alone or beside a neighbor that does (batches 289g to 292g, 23 of 28 checks Human).
 - 2026-10-15, after his 18:28 answer (32 b: his research sentence stays as published): section 13 drafts v14 to v22, Emulate rounds g to i, gate rounds r10 to r15. Every part of v21 read Human on its own text and the whole section read 56% AI (298g); v22 rebuilds the two stretches that read AI everywhere (the land subsection; H4-P9 to H5-P2) from Emulate, and its review round r15 is done, its fixes next. Not in the article yet.
 - 2026-10-16, after his 18:22 message (33 a; his cut of "How do you know?"; "continue into next section now"): section 14 ("Dissolution and Exit") is a humanized candidate in `candidate/HUMANIZED-SO-FAR.md` (v5; every group Human and the whole section 100% Human, high, batch 306g). Section 13 had one more bounded pass (drafts v23 to v26, rounds r16 to r18, batch 304g): every changed group Human, the land subsection Human; the whole section reads 38% AI (56% before), in two long stretches. Not in the article yet.
+- 2026-10-16, after his 21:05 message (34 a, "learn from how emulate fixes it"; links he can click; the diagram is uploaded): Emulate round j on section 13's two stretches that read AI, each sent whole, and drafts v27 to v29 with the meaning put back inside Emulate's sentences. v29, the whole section, reads 100% Human, high (batch 309g; it read 38% AI in 304g). Its meaning reviews (round r19) are running.
 - Owner edits: 60 pass, 2 waiting (his two answers of 18:22, applied in section 13's draft).
 
 ## Current checkpoint
 
-Section 13, "Your Little Forming Group Already Is the Community", is the published text in the article (except one line fixed on 2026-10-12); its draft is `candidate/s13/v26.md` (and `v26b.md`, the other way of H5-P2), waiting on Joel's question 34. Section 14 is in the article as v5. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Section 13, "Your Little Forming Group Already Is the Community", is the published text in the article (except one line fixed on 2026-10-12); its draft is `candidate/s13/v29.md`, which reads 100% Human as a whole (309g), in its meaning reviews (`candidate/s13/review-r19/`); it installs with `candidate/s13/install/install_s13_v29.py` once they're answered. Section 14 is in the article as v5. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Section 13 (question 34), sections 15 and 16 and the appendix.
+- Section 13's meaning reviews (round r19) and its install, then sections 15 and 16 and the appendix.
 - Joel's acceptance of the candidate sections, then promotion of the humanized article to the registered master with a promotion receipt.
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
 ## Blockers / unresolved
 
-- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`): 34 (section 13 after its bounded pass); the rebuilt section 4 diagram waits for his Substack upload.
+- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`). The rebuilt section 4 diagram is uploaded (his 21:05 message); the article's image 7 link is still the old one until the new address is known.
 - Pangram checks run in the desktop app's browser pane, signed in to Joel's account; the API key is out of credits.
 
 ## Evidence / artifacts
@@ -45,4 +46,4 @@ Section 13, "Your Little Forming Group Already Is the Community", is the publish
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (on `claude/community-joel-1016` until its pull request merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): Joel's answer to 34 (my pick: Emulate on section 13's two stretches that read AI in the whole section), then section 15. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (on `claude/community-joel-1016b` until its pull request merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): section 13's round r19 reports (traces, cold reads, stance checks, repeats) answered in `candidate/s13/review-r19/DISPOSITIONS-r19.md`, any fixes screened again with the whole section, then the install; then section 15. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
