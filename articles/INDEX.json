@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "0eda2127a3b03f309d798ec4e2b3e393b430ef4f64cea4aa8ef0fd10bbc67a7f",
+          "sha256": "5d2afcfe1003dcbe053920b0d14405a3a419d5b2c561dd15c29e3519036d0d9a",
           "role": "detector_prediction_log"
         },
         {
@@ -8920,6 +8920,36 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn61-b-gate.json",
           "sha256": "4b1bf0a3023d69bd91eef0fa43ea6d39add32a7eda15ac3d282f8ad08dae5464",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t61-guide/p8-e.txt",
+          "sha256": "30352a40edf1ee397fd2cd89e9abd0b2ab7223afa98e13f3d33c2e22238adde5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t61-guide/p9-e.txt",
+          "sha256": "ef3fec005b64f722dd9c7c13ed9c273f9e571e59e5d8e64c03ce1b6a4b5c56cb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn61-c-drafts.json",
+          "sha256": "330986afe62d5f4ce8ae95d78606f1c773d57059d423ec435c5ef408d57e14ca",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn61-c-gate.json",
+          "sha256": "d7b475936081a88ccd7b7fb0bc2492518314b345ed4e823aa0ddebf8d5c2e6fa",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn61-c-read.js",
+          "sha256": "4ef5c27632ce492e7ffbbef575a242c2dcd446da63888275c5504ddf74e16bd7",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn61-c.js",
+          "sha256": "1add847c1d1c42652dd1056ee576f024b4f100ad5e4ae1acf92da31a1794be52",
           "role": "detector_check_texts"
         }
       ]

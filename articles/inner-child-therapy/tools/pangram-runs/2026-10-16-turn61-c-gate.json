@@ -1,0 +1,50 @@
+{
+ "t61c_p8c": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round c: the grounding's fixes, and openers that don't repeat Joel's P5 (\"The Guide …\"; the linter's hard B13 failed round b's h1 for three paragraphs opening \"The\"). March: my own reading."
+ },
+ "t61c_p8e": {
+  "kind": "screen",
+  "march": [
+   "B S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round c: the grounding's fixes, and openers that don't repeat Joel's P5 (\"The Guide …\"; the linter's hard B13 failed round b's h1 for three paragraphs opening \"The\"). March: my own reading."
+ },
+ "t61c_p9c": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round c: the grounding's fixes, and openers that don't repeat Joel's P5 (\"The Guide …\"; the linter's hard B13 failed round b's h1 for three paragraphs opening \"The\"). March: my own reading."
+ },
+ "t61c_p9e": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round c: the grounding's fixes, and openers that don't repeat Joel's P5 (\"The Guide …\"; the linter's hard B13 failed round b's h1 for three paragraphs opening \"The\"). March: my own reading."
+ },
+ "t61c_h1ee": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 B S S B | P9 S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "the h1 with P8 (e) and P9 (e)."
+ },
+ "t61c_h1ce": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S S B | P9 S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "the h1 with P8 (c) and P9 (e)."
+ }
+}

@@ -1202,9 +1202,9 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-16 (turn 61) | P8, p8-b (a belonging that doesn't require betraying yourself) (87 words) [t61a_p8b], a screen | AI, low (my call: close to the guide, with its list of the ultimate) | AI Generated (0.80, low; 90), all of it; 22:40:16 UTC, https://www.pangram.com/history/297e888c-f056-48b7-a1cc-b5d7eb558e23 | hit |
 | 2026-10-16 (turn 61) | P9, p9-b (the names; "Guru") (56 words) [t61a_p9b], a screen | AI, low (my call: short, and a list) | AI Generated (0.96, low; 56), all of it; 22:40:27 UTC, https://www.pangram.com/history/124daf07-fe2f-4924-9c0c-679cf3507882 | hit |
 | 2026-10-16 (turn 61) | The Inner Guide Comes Later with P8 and P9 added (911 words) [t61a_h1x], a screen | Human, medium (my call) | Human Written (0.12, high; 952), one Human window; 22:40:37 UTC, https://www.pangram.com/history/7cf5060b-487b-4673-91a6-6f78b0102d18 | hit |
-| 2026-10-16 (turn 61) | P8/P9 alone, p8c (93 words) [t61b_p8c], a screen | AI, low (my call) | (pending) | |
-| 2026-10-16 (turn 61) | P8/P9 alone, p8d (99 words) [t61b_p8d], a screen | AI, low (my call) | (pending) | |
-| 2026-10-16 (turn 61) | P8/P9 alone, p9c (66 words) [t61b_p9c], a screen | AI, low (my call) | (pending) | |
-| 2026-10-16 (turn 61) | P8/P9 alone, p9d (64 words) [t61b_p9d], a screen | AI, low (my call) | (pending) | |
-| 2026-10-16 (turn 61) | The Inner Guide Comes Later with P8 and P9 cc (927 words) [t61b_h1cc], a screen | Human, medium (my call) | (pending) | |
-| 2026-10-16 (turn 61) | The Inner Guide Comes Later with P8 and P9 dd (931 words) [t61b_h1dd], a screen | Human, medium (my call) | (pending) | |
+| 2026-10-16 (turn 61) | P8/P9 alone, p8c (93 words) [t61c_p8c], a screen | AI, low (my call) | (pending) | |
+| 2026-10-16 (turn 61) | P8/P9 alone, p8e (101 words) [t61c_p8e], a screen | AI, low (my call) | (pending) | |
+| 2026-10-16 (turn 61) | P8/P9 alone, p9c (66 words) [t61c_p9c], a screen | AI, low (my call) | (pending) | |
+| 2026-10-16 (turn 61) | P8/P9 alone, p9e (60 words) [t61c_p9e], a screen | AI, low (my call) | (pending) | |
+| 2026-10-16 (turn 61) | The Inner Guide Comes Later with P8 and P9 ee (929 words) [t61c_h1ee], a screen | Human, medium (my call) | (pending) | |
+| 2026-10-16 (turn 61) | The Inner Guide Comes Later with P8 and P9 ce (921 words) [t61c_h1ce], a screen | Human, medium (my call) | (pending) | |
