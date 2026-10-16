@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-16 (turn 59). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-16 (turn 60). **One open question (29).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,7 +11,13 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 29. The Inner Guide Comes Later P5 reads AI alone (your fix?)
+
+> The Guide doesn't need certainty. It chooses the next sane step that fits your values while the future is still unknown, and that's how it helps your little one grow toward a whole life. Some problems really are blocked for now (say you're waiting on someone else's decision), and waiting on something like that isn't a lack of motivation or avoidance. So there's no need to force a workaround that pretends the block isn't there. Keep in mind what would open it back up, and in the meantime, put your energy into something else that matters and can actually move. One stuck problem doesn't have to put your whole life on hold.
+
+Group 4 again, after your 21:37 message: one paragraph close to the guide's own sentences ("The Guide does not need certainty. It chooses the next sane, value-consistent action while the future remains unknown."), with the two queue items as clauses instead of the landlord, the cat and the report. Six versions like it read AI alone; this one 0.986 (https://www.pangram.com/history/fb81add5-45c7-4ba8-a8d9-7ff762bdbe50). In its h1 it reads Human: The Inner Guide Comes Later, Human Written 0.16, high (https://www.pangram.com/history/71eae89b-7d2f-4682-920c-71a10c8ab8aa). The AI tells I see: a run of rules in the guide's order, one per sentence, in the guide's abstract words (certainty, sane step, motivation, workaround), closing on a saying. The human tell: the example in parentheses.
+- **A. Your fix.**
+- **B. Leave it** (it reads Human in its section).
 
 ## For you to do (no decision needed)
 
@@ -26,6 +32,11 @@ The Inner Guide Comes Later's P5 to P8; the link is in my message. About a minut
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-16 21:37 UTC
+
+- Your P8 of The Inner Guide Comes Later, word for word ("I think this is closer to Buddhist practice too. ..."); it's now the section's P7, after the jingle paragraph.
+- "inner guide p5-p6 ... much more rambling and less faithful to the intent of the original ... what broke?": P5 and P6 are one paragraph now, close to the guide's own sentences, with the queue items as clauses (question 29). What broke, and the fix, is lesson E179: the brief made the queue items' steps the content, Pangram picked among scenes, and no review asked what a reader comes away with. Now each draft starts from the passage's main point, the grounding flags drift and outsized examples, and the cold read is back.
 
 ### 🟢 2026-10-15 20:56 UTC
 

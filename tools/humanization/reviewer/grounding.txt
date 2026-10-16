@@ -16,6 +16,8 @@ Why this review exists. Every sentence of these earlier drafts read fine on its 
 
 THE STEPS
 
+0. The main point first. In one plain sentence, say what the guide passage is for: what a reader should come away with, and what it does in its section (for the Guide's "next sane, value-consistent action": that the Guide keeps the little one growing toward a whole life without needing to know how things turn out). Then say, in one sentence, what the draft leaves a reader with. If those differ, flag DRIFT. Flag OUTSIZED for an example, scene or detail that takes more room than the point it serves, carries the paragraph instead of illustrating it, or brings in a story or image much stronger than the passage's own (a king who killed his father beside a jingle at a funeral). A queue item or a helper's procedure that the passage only touches on gets a clause, not the paragraph. Why (the author, 2026-10-16, on paragraphs that every earlier check had passed): "the main point is the guide 'helps the child grow toward a whole life' yet you talk on and on about rent, cat, work project ... it almost seems like humanization was the main priority rather than making the guide meaning clear again", and "we went from a random thought that you can just focus on something else to KILLING YOUR FATHER".
+
 1. For each numbered sentence, name what it carries: the guide sentence or article concept (quote a few words), or NEW if it adds something neither says.
 
 2. For each sentence that carries a guide claim, rebuild the claim before you judge it:
@@ -65,6 +67,7 @@ RULES
 - Raise a flag only if you'd defend it to the author. Missing a real problem costs him more than an extra flag, but a flag that's only taste wastes his time.
 
 OUTPUT, exactly this shape and nothing else:
+MAIN POINT: the passage: <one sentence> / the draft: <one sentence> — OK, or FLAG DRIFT: what the reader should come away with instead
 [H] OK, or FLAG HEADING: "quoted" — problem — what the heading should promise   (only when there's a heading)
 [1] OK — carries: <a few words of the guide, or NEW example/aside/instruction/claim>
 [2] FLAG <TYPE>: "quoted words" — the problem, in one or two lines — what the reader should get instead
@@ -78,7 +81,7 @@ SIZE: about how many words your flags and questions would add or take away, and 
 REGISTER: a few words.
 GREAT: where — the deeper why, in a few words — what it draws on; or "none"
 
-Types: CHANGED, CATEGORY, UNSUPPORTED, MISFIRES, QUESTION, ASK AUTHOR, DUPLICATE, UNCLEAR, NON-SEQUITUR, CONTRADICTS, INVENTED, STRADDLES, MISSING, HEADING.
+Types: DRIFT, OUTSIZED, CHANGED, CATEGORY, UNSUPPORTED, MISFIRES, QUESTION, ASK AUTHOR, DUPLICATE, UNCLEAR, NON-SEQUITUR, CONTRADICTS, INVENTED, STRADDLES, MISSING, HEADING.
 
 Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.
 

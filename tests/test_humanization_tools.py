@@ -1010,6 +1010,19 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
             read = (d / 'b-read.js').read_text(encoding='utf-8') if (d / 'b-read.js').exists() else None
         return r, js, read
 
+    def test_the_linter_decides_lint_when_given_the_article(self):
+        # 2026-10-16 (E179): a draft the linter FAILs went into a batch as REVIEW, typed by hand.
+        fail = ('You can try this. You can also try that. You might want to start small. It helps to breathe. '
+                'You can keep going. You might notice a change. It helps to rest. You can stop anytime.')
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'art.md').write_text('# A\n\nSome installed text here.\n', encoding='utf-8')
+            (d / 'drafts.json').write_text(json.dumps({'p': fail}), encoding='utf-8')
+            (d / 'gate.json').write_text(json.dumps({'p': {'kind': 'screen', 'march': ['S B S'], 'lint': 'REVIEW'}}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'pangram_gate.py'), str(d / 'drafts.json'), str(d / 'gate.json'),
+                                str(d / 'b.js'), '--name', 'tx', '--lint-article', str(d / 'art.md'), 'p'], capture_output=True, text=True)
+        self.assertIn('the linter says', r.stderr)
+
     def test_the_reader_gives_each_result_its_link_and_flagged_words(self):
         # 2026-10-13 (E171): Joel couldn't see what had been checked when a flag was reported.
         _, _, read = self.run_gate({'p': 'One. Two.'}, {'p': self.CLEAN}, ['p'])

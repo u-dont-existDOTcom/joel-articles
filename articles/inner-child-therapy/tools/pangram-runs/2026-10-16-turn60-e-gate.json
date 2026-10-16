@@ -1,0 +1,50 @@
+{
+ "t60e_p5w1": {
+  "kind": "screen",
+  "march": [
+   "S S B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 60 round e: P5 around its main point after the main-point grounding (GROUNDING-1.md: DRIFT, OUTSIZED, MISFIRES, the MUST question, GREAT). March: my own reading."
+ },
+ "t60e_h1w1": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 S S B S B S | P6 S S B S S S S | P7 Joel's"
+  ],
+  "lint": "REVIEW",
+  "note": "the h1 with P5 = p5-w1."
+ },
+ "t60e_p5w3": {
+  "kind": "screen",
+  "march": [
+   "S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 60 round e: P5 around its main point after the main-point grounding (GROUNDING-1.md: DRIFT, OUTSIZED, MISFIRES, the MUST question, GREAT). March: my own reading."
+ },
+ "t60e_h1w3": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 S S S S B | P6 S S B S S S S | P7 Joel's"
+  ],
+  "lint": "REVIEW",
+  "note": "the h1 with P5 = p5-w3."
+ },
+ "t60e_p5w4": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 60 round e: P5 around its main point after the main-point grounding (GROUNDING-1.md: DRIFT, OUTSIZED, MISFIRES, the MUST question, GREAT). March: my own reading."
+ },
+ "t60e_h1w4": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 S S B S S | P6 S S B S S S S | P7 Joel's"
+  ],
+  "lint": "REVIEW",
+  "note": "the h1 with P5 = p5-w4."
+ }
+}
