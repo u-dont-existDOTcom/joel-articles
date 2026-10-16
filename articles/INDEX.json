@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "a7b3fc42adc94960ae1bccfb5a4901830b538fd76b97861b194d8c8c354bfda4",
+          "sha256": "0f0fc7168cce5f630a6079130ccb741e0f8c9a76ce638e1016510d03312d9fb0",
           "role": "detector_prediction_log"
         },
         {
@@ -8480,6 +8480,76 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-l.js",
           "sha256": "9315545e5d06396f7861ea577d8e3fa847575c6956fe99a855d12b545d5cbd19",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/ARTICLE-DRAFT-3.md",
+          "sha256": "f9054b3aaabca820229f16c337a612ab5686295595759b82ef8e416c2cf073c6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/GROUNDING-1.md",
+          "sha256": "834e03b7625a52db649187f9364f31fc438ca2e1345f14c44951c2a5e913d81c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/GROUPS456-DRAFT-2.md",
+          "sha256": "0784165d7a621e4ba7ad1906ec20c7c792742b14c5f1a321bd30e512e6d8d256",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/REPEATS-1.md",
+          "sha256": "b7417833bd145fd843f5cf1df75c58f80c2c7444168fc401514ac52b7afcf606",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/STANCE-1.md",
+          "sha256": "fbdccdb0eec0974e296db6a18edc00b84cc2144af7c04d08962ebc83b11d99d1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/p5-b.txt",
+          "sha256": "a2f0a8e002088333996278539c8d27135a53f96c1e444101c7c39eab445a0dfd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/p6-b.txt",
+          "sha256": "218179410b00201b196645a7c2369db1b50fc2e082e533038f10ac7fc54324f7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/p6-c.txt",
+          "sha256": "4f23d53a960ef4a46dcab7efc69d847474f93ed79a8992b3fd46055d221dbc42",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/p8-l.md",
+          "sha256": "0ea99dd241c44403dc82cfed3fb1e1f5f4beeb47bbad32c2aae45a897def283b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t59-guide/p8-l.txt",
+          "sha256": "08ec85571fe33f77f2b6ec2525c2883eb10a166125dd0fbe1881e5a0621f53c3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-m-drafts.json",
+          "sha256": "0325e6b45774a1f18a2fa7cc48d55ca1b79687e5eead60a24ad6a437f5480d7f",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-m-gate.json",
+          "sha256": "b3780bcb99aa4d158ce7b33e63d031e049600e00f81cfaa3743d0a147ba26541",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-m-read.js",
+          "sha256": "b5eaf4f12d8a27ba55d9e010e23139a310ffb2ce3368bd14872fb002bee873fe",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-16-turn59-m.js",
+          "sha256": "9cd33e65e77418f7c5c3a59bb3a4e4172093edac1af6c2b7070befd90b161423",
           "role": "detector_check_texts"
         }
       ]
