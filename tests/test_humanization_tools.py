@@ -1329,6 +1329,20 @@ class ClickableLinks(unittest.TestCase):
         out = render_questions.render('# Q\n\nLast updated today.\n\n## Open questions\n\n- 🟢 It reads Human: https://www.pangram.com/history/abc-2\n')
         self.assertIn('<a href="https://www.pangram.com/history/abc-2">', out)
 
+    def test_two_blank_lines_between_items_keep_the_text_column(self):
+        """Joel's screenshot, 2026-10-16 23:38 UTC: an item after two blank lines showed one word per line, because
+        python-markdown wrapped it in <p> and the grid put the <p> in the dot's .7rem column."""
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import render_questions
+        md = ('# Q\n\nLast updated today.\n\n## Decided\n\n> [!TIP]\n> Answered.\n\n- 🟢 one\n- 🟢 two\n\n\n'
+              '- 🟢 three, after two blank lines\n- 🟢 four\n')
+        out = render_questions.render(md)
+        self.assertNotIn('<li>\n<p>', out)
+        self.assertIn('<div>three, after two blank lines</div>', out)
+        self.assertEqual(out.count('<li class="gap"'), 1)
+        self.assertEqual(render_questions.misplaced_items(
+            '<ul class="items"><li>\n<p><span class="dot done"></span>squeezed</p>\n</li></ul>'), ['squeezed'])
+
     def test_the_chat_check_fails_a_bare_address_and_passes_a_written_link(self):
         script = str(TOOLS / 'pangram_links_check.py')
         with tempfile.TemporaryDirectory() as d:

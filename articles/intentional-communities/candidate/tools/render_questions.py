@@ -72,6 +72,7 @@ ul.items { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; 
 ul.items > li { display: grid; grid-template-columns: .7rem 1fr; gap: .65rem; align-items: start; min-width: 0; }
 ul.items > li > .dot { margin-top: .45rem; }
 ul.items > li > div { min-width: 0; overflow-wrap: anywhere; }
+ul.items > li > div > p { margin: 0 0 .45rem; } ul.items > li > div > p:last-child { margin-bottom: 0; }
 .gap { block-size: .4rem; }
 a { color: var(--link); text-underline-offset: 2px; }
 a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 2px; }
@@ -98,8 +99,10 @@ def render(md_text):
     body = re.sub(r'(?m)^> \[!(IMPORTANT|WARNING|TIP|NOTE)\]\n> (.+)$', callout, body)
     # GitHub starts a list right after a paragraph line; python-markdown needs a blank line first
     body = re.sub(r'(?m)^((?!- )[^\n]+)\n(?=- )', r'\1\n\n', body)
-    # a blank line between two bullets separates groups (days); keep it as a gap, not a loose list
-    body = re.sub(r'(?m)^(- [^\n]*)\n\n(?=- )', r'\1\n- @@GAP@@\n', body)
+    # blank lines between two bullets separate groups (days); keep them as one gap, not a loose list. Two blank lines
+    # used to slip past this (one was assumed), python-markdown then wrapped the items in <p>, and the grid put that
+    # <p> in the dot's .7rem column: one word per line (Joel's screenshot, 2026-10-16 23:38 UTC).
+    body = re.sub(r'(?m)^(- [^\n]*)\n(?:[ \t]*\n)+(?=- )', r'\1\n- @@GAP@@\n', body)
     out = markdown.markdown(autolink_markdown(body), extensions=['sane_lists'])
     out = out.replace('<li>@@GAP@@</li>', '<li class="gap" aria-hidden="true"></li>')
     # legend paragraph
@@ -125,13 +128,31 @@ def render(md_text):
             content = blocks[0] + ''.join('<div class="q-block">%s</div>' % b for b in blocks[1:])
         else:
             content = content.replace('<ul>', '<ul class="items">')
+            # an item python-markdown wrapped in <p> (a loose list) keeps its paragraphs inside the text column
+            content = re.sub(r'<li>\s*<p>([🟣🟠🔵🟢]) (.*?)</p>\s*</li>',
+                             lambda m: '<li>%s<div><p>%s</p></div></li>' % (marker(m.group(1)), m.group(2)), content, flags=re.S)
             content = re.sub(r'<li>([🟣🟠🔵🟢]) (.*?)</li>', lambda m: '<li>%s<div>%s</div></li>' % (marker(m.group(1)), m.group(2)),
                              content, flags=re.S)
         content = re.sub('[🟣🟠🔵🟢] ?', lambda m: marker(m.group(0).strip()), content)
         html_out.append('<section class="%s">%s%s</section>' % (cls, h, content))
     page = '\n'.join(html_out)
     page = page.replace('<p>The master copy of this page', '<p class="small">The master copy of this page')
+    bad = misplaced_items(page)
+    if bad:
+        raise ValueError('items the layout would squeeze into the dot column: %s' % '; '.join(b[:90] for b in bad))
     return STYLE + '<main>\n' + page + '\n</main>\n'
+
+
+def misplaced_items(page):
+    """Every item of a status list must be the dot then its text column (or a gap); anything else lands in the
+    .7rem dot column of the grid and shows one word per line. Returns the items that don't fit."""
+    bad = []
+    for ul in re.findall(r'<ul class="items">(.*?)</ul>', page, flags=re.S):
+        for li in re.findall(r'<li\b[^>]*>.*?</li>', ul, flags=re.S):
+            if li.startswith('<li class="gap"') or re.match(r'<li><span class="dot \w+"[^>]*></span><div>', li):
+                continue
+            bad.append(re.sub(r'\s+', ' ', re.sub('<.*?>', '', li)).strip())
+    return bad
 
 
 def main():
