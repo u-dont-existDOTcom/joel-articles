@@ -1214,7 +1214,9 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-16 (turn 62) | p9f alone (70 words) [t62a_p9f], a screen | Human, low (my call: the named tells fixed) | AI Generated (0.89, low; 72); 23:22:51 UTC, https://www.pangram.com/history/e92f8c0d-caa4-4337-b93d-bfcc1c5f1f3c | miss |
 | 2026-10-16 (turn 62) | p9h alone (56 words) [t62a_p9h], a screen | Human, low (my call: the named tells fixed) | AI Generated (0.97, low; 57); 23:23:02 UTC, https://www.pangram.com/history/fb035eee-3f90-4b3a-be9a-df4ed88c611e | miss |
 | 2026-10-16 (turn 62) | p89a alone (154 words) [t62a_p89a], a screen | Human, low (my call: the named tells fixed) | AI Generated (0.935, high; 160); 23:23:12 UTC, https://www.pangram.com/history/ba281386-d8c0-4fd6-91d5-c5f65e476282 | miss |
-| 2026-10-16 (turn 62) | p8j alone (99 words) [t62b_p8j], a screen | Human, low (my call) | (pending) | |
-| 2026-10-16 (turn 62) | p8k alone (98 words) [t62b_p8k], a screen | Human, low (my call) | (pending) | |
-| 2026-10-16 (turn 62) | p8l alone (85 words) [t62b_p8l], a screen | Human, low (my call) | (pending) | |
-| 2026-10-16 (turn 62) | p9i alone (63 words) [t62b_p9i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | p8j alone (99 words) [t62b_p8j], a screen | Human, low (my call) | AI Generated (0.985, medium; 106); 23:26:42 UTC, https://www.pangram.com/history/1b134069-720c-4b47-8684-d001200858b8 | miss |
+| 2026-10-16 (turn 62) | p8k alone (98 words) [t62b_p8k], a screen | Human, low (my call) | AI Generated (0.78, medium; 101); 23:26:52 UTC, https://www.pangram.com/history/a6a3ee7a-6bfe-43d6-8bf3-0393727c93d2 | miss |
+| 2026-10-16 (turn 62) | p8l alone (85 words) [t62b_p8l], a screen | Human, low (my call) | AI Generated (0.97, low; 90); 23:27:02 UTC, https://www.pangram.com/history/8be3be1a-0dff-4c7b-9d28-6592fbf9d926 | miss |
+| 2026-10-16 (turn 62) | p9i alone (63 words) [t62b_p9i], a screen | Human, low (my call) | AI Generated (0.96, low; 65); 23:27:13 UTC, https://www.pangram.com/history/b55a5f54-a97e-46d1-b9ed-afde585e337a | miss |
+| 2026-10-16 (turn 62) | p8m2 alone (113 words) [t62c_p8m2], a screen | Human, low (my call: plain words for every guide phrase) | (pending) | |
+| 2026-10-16 (turn 62) | p8n2 alone (112 words) [t62c_p8n2], a screen | Human, low (my call: plain words for every guide phrase) | (pending) | |
