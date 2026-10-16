@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-16 (turn 60). **One open question (29).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-16 (turn 61). **One open question (30).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,27 +11,33 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 29. The Inner Guide Comes Later P5 reads AI alone (your fix?)
+### 🟣 30. The Inner Guide Comes Later P8 and P9 read AI alone (your fix?)
 
-> The Guide doesn't need certainty. It chooses the next sane step that fits your values while the future remains unknown, and that's how it helps your little one grow toward a whole life. Waiting to be sure first can keep life on hold, and then your little one's world stays small. Sometimes something really is stuck on someone else's end (you've asked, and followed up, and there's nothing left for you to do yet), and waiting on that isn't avoidance. The Guide can let it wait, keeping an eye out for when it frees up, and keep the rest of your life moving, so your little one keeps growing anyway.
+> The Guide also points beyond itself, toward a belonging that doesn't require betraying yourself. That might be nature, or existence itself, or whatever your tradition recognizes as ultimate (God, the divine, the universe, source, the Three Jewels, the Tao, life). Time outside and contemplative practice make it more than another nice idea. That ground can make belonging with people a lot less desperate (not overnight, but over time), as the Guide keeps reminding your little one that a group's approval, the kind you only keep by performing, isn't the deepest place it belongs.
 
-Group 4 again, after your 21:37 message: one paragraph around the guide's point ("The Guide does not need certainty. It chooses the next sane, value-consistent action while the future remains unknown."), so your little one keeps growing toward a whole life, with the two queue items as one case of it instead of the landlord, the cat and the report. The new main-point check flagged my first try for drifting into a procedure for blocked problems; this one fixes that. Nine versions like it read AI alone; this one 0.968 (https://www.pangram.com/history/a176effd-d7c7-45b7-82fb-6eca69990033). In its h1 it reads Human: The Inner Guide Comes Later, Human Written 0.15, high (https://www.pangram.com/history/f541960a-a866-46d5-b476-04dc76ee26c4). The AI tells I see: it opens on a flat rule, then each sentence is the next rule in the guide's order, in the guide's abstract words (certainty, sane step, values, avoidance). The human tells: the parenthetical "(you've asked, and followed up, and there's nothing left for you to do yet)" and "keeps growing anyway".
-- **A. Your fix.**
-- **B. Leave it** (it reads Human in its section).
+> You could just as well call the Guide the Leader, the Wise One, the Sage, your Inner Teacher or your Director. Or the Guru, which carries real spiritual weight for some readers, though for cult survivors it can be a trigger word (understandably). Pick whatever fits. What matters more than the name is that it keeps pointing you past itself.
+
+The next part of the section, written the new way (E179): the guide's own sentences on a belonging beyond any group, then the Guide's other names and the two sides of "Guru". The main-point check and the cold read came before Pangram; their fixes are in ("can … not overnight, but over time", since that ground doesn't switch the panic off; "Guru" introduced as one of its names; the Guide called a role, not a part). Alone they read AI, both at low confidence: P8 0.915 (https://www.pangram.com/history/3b27d9ea-46b3-47a1-ba50-c779da434732), P9 0.733 (https://www.pangram.com/history/26329b31-8814-4028-8dbc-96c005d865dd). In the h1 they read Human: The Inner Guide Comes Later, Human Written 0.12, high (https://www.pangram.com/history/906bf13c-0bb3-492d-9d52-1e90bbb3a8b9). The AI tells I see: P8 keeps the guide's list of the ultimate as a list, and P9 is a list of names with a caveat. The human tells: "(not overnight, but over time)", "(understandably)" and "Pick whatever fits."
+- **A. Your fix** (either or both).
+- **B. Leave them** (they read Human in their section).
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #182 (turn 60)
+### 🟠 Merge pull request #PRNUM (turn 61)
 
-Your P8, P5 around the guide's point, and the fixes for what broke; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+Your P5, and P8 and P9; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-16 22:34 UTC
+
+- 29, A: your P5, word for word ("The Guide doesn't need to know everything for sure (that would be an OCD Guide, and then you'd need a Guide for the OCD Guide). ..."). What your fix taught (now in the writer prompt and the tickets): the abstract word said plainly with a joke in parentheses that shows why, and the condition a why needs ("is sometimes proper & prudent, but if it's a pattern").
 
 ### 🟢 2026-10-16 21:37 UTC
 

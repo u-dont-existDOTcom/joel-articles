@@ -819,3 +819,14 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His answer to question 29 (his fix of P5, or leave it), and his merge of this turn's pull request.
 2. Groups 7 to 9 of The Inner Guide Comes Later the E179 way: the main point first, close to the guide's sentences with a plain gloss, his P7 as the model; the main-point grounding and the cold read before Pangram picks.
+
+## Turn 61 (2026-10-16, from 22:34 UTC): his P5; P8 and P9 the E179 way
+
+- **In:** his P5, word for word (question 29, A); the section reads Human (0.056, high). P8 and P9 (groups 7 to 9: a belonging beyond any group; the Guide's other names), my drafts close to the guide, reviewed for meaning first (cold read OK; the grounding's three flags fixed), then Pangram: alone AI at low confidence, in the h1 Human (0.12, high), so question 30. Record: `t61-guide/REVIEWS.md`.
+- **From his fix:** the writer prompt and the tickets now carry his two moves (a plain word with a joke in parentheses that shows why; the condition a why needs).
+- **The gate's linter at work:** `pangram_gate.py --lint-article` refused a batch whose h1 had three paragraphs opening "The" (the hard B13), which a hand-typed lint would have let through.
+
+### Next
+
+1. His answer to question 30, and his merge of this turn's pull request.
+2. Group 10 of The Inner Guide Comes Later (`tools/targets/t56-ig10.json`: an external guru who demands surrender; the grounding's GREAT for it is in `t61-guide/GROUNDING-1.md`), the E179 way.
