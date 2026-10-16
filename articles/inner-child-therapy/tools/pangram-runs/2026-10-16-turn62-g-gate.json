@@ -1,0 +1,34 @@
+{
+ "t62g_p9k": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round g: P9 with the names as \"By the way, this job doesn't have to be called the Guide.\"; p9-j read Human for its first 56 words and AI for the names. March: my own reading."
+ },
+ "t62g_p9l": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round g: P9 with the names in parentheses at its end; p9-j read Human for its first 56 words and AI for the names. March: my own reading."
+ },
+ "t62g_p9m": {
+  "kind": "screen",
+  "march": [
+   "S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round g: P9 without the names (if p8-r carries them); p9-j read Human for its first 56 words and AI for the names. March: my own reading."
+ },
+ "t62g_p8r": {
+  "kind": "screen",
+  "march": [
+   "S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round g: P8 with the names in parentheses where the Guide is first named; p9-j read Human for its first 56 words and AI for the names. March: my own reading."
+ }
+}
