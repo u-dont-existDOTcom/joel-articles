@@ -1,0 +1,19 @@
+{
+ "S14v2-P567": {
+  "kind": "screen",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "B B",
+   "B B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s14/review-r2/MARCH-labels-a.txt and -b.txt: P5, P6, P7",
+  "lint": "REVIEW",
+  "lint_note": "s14/LINT-v2.txt",
+  "keys": "PASS",
+  "words": 119,
+  "why": "P6 and P7 are under 50 words each; P6 with P7 read AI (301g), P5 reads Human alone (301g), so the run anchored by P5 is the check the rule allows"
+ }
+}

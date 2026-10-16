@@ -1,0 +1,47 @@
+{
+ "S14-A": {
+  "kind": "owner",
+  "joel": "the published text of section 14, Dissolution and Exit",
+  "blocks": [
+   0,
+   2
+  ],
+  "words": 97
+ },
+ "S14-B": {
+  "kind": "owner",
+  "joel": "the published text of section 14, Dissolution and Exit",
+  "blocks": [
+   3,
+   4
+  ],
+  "words": 71
+ },
+ "S14-C": {
+  "kind": "owner",
+  "joel": "the published text of section 14, Dissolution and Exit",
+  "blocks": [
+   5,
+   5
+  ],
+  "words": 55
+ },
+ "S14-D": {
+  "kind": "owner",
+  "joel": "the published text of section 14, Dissolution and Exit",
+  "blocks": [
+   5,
+   7
+  ],
+  "words": 102
+ },
+ "S14v0": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "repeats_note": "a measurement of the published section; fix-20261014b/gate/REPEATS.md read the whole article",
+  "words": 270
+ }
+}

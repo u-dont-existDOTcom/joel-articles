@@ -1,0 +1,92 @@
+{
+ "S14v2-1P12": {
+  "kind": "screen",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S S S S S S B",
+   "S S S S S S S S B"
+  ],
+  "march_note": "s14/review-r2/MARCH-labels-a.txt and -b.txt: P1, P2",
+  "lint": "REVIEW",
+  "lint_note": "s14/LINT-v2.txt",
+  "keys": "PASS",
+  "words": 165
+ },
+ "S14v2-P2": {
+  "kind": "screen",
+  "march": [
+   "S S S S S S S S B",
+   "S S S S S S S S B"
+  ],
+  "march_note": "s14/review-r2/MARCH-labels-a.txt and -b.txt: P2",
+  "lint": "REVIEW",
+  "lint_note": "s14/LINT-v2.txt",
+  "keys": "PASS",
+  "words": 125
+ },
+ "S14v2-P34": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "s14/review-r2/MARCH-labels-a.txt and -b.txt: P3, P4",
+  "lint": "REVIEW",
+  "lint_note": "s14/LINT-v2.txt",
+  "keys": "PASS",
+  "words": 83
+ },
+ "S14v2-P5": {
+  "kind": "screen",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "s14/review-r2/MARCH-labels-a.txt and -b.txt: P5",
+  "lint": "REVIEW",
+  "lint_note": "s14/LINT-v2.txt",
+  "keys": "PASS",
+  "words": 64
+ },
+ "S14v2-P67": {
+  "kind": "screen",
+  "march": [
+   "B B",
+   "B B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s14/review-r2/MARCH-labels-a.txt and -b.txt: P6, P7",
+  "lint": "REVIEW",
+  "lint_note": "s14/LINT-v2.txt",
+  "keys": "PASS",
+  "words": 55
+ },
+ "S14v2": {
+  "kind": "screen",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S S S S S S B",
+   "S S S S S S S S B",
+   "S B",
+   "S B",
+   "S B S S",
+   "S B S S",
+   "S B S S S",
+   "S B S S S",
+   "B B",
+   "B B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s14/review-r2/MARCH-labels-a.txt and -b.txt: P1, P2, P3, P4, P5, P6, P7",
+  "lint": "REVIEW",
+  "lint_note": "s14/LINT-v2.txt",
+  "keys": "PASS",
+  "words": 367
+ }
+}

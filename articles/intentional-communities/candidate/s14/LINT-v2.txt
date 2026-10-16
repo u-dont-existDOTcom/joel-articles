@@ -1,0 +1,27 @@
+== tells_lint: s14/v2.md
+note: O15 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)
+note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c "import nltk; nltk.download('wordnet')"
+verdict: REVIEW
+metrics: {'words': 367, 'my_words': 345, 'paragraphs': 7, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.29, 'instruction_paragraphs': 0, 'para_len_cv': 0.62, 'sent_len_cv': 0.5, 'repeated_openers': {}}
+-- B1 finished principle (2)
+   * People may leave hurt, but they keep the transition support they agreed on, and their dignity.
+   * Even if the legal entity dies, some of what people learned to give one another can go on.
+-- B2 contrast (1)
+   * The institution may not be salvageable, but who’s making breakfast tomorrow?
+-- B3 short knock-down (2)
+   * That’s a lot of loose ends!
+   * That gives me hope.
+-- B4/E15 list or packed sentence (2)
+   * Who takes responsibility for bridging gaps in food, housing, care, external income/benefits, etc., if applicable?
+   * Who takes responsibility for transportation, for the records, for family contact, for the animals, for ensuring obligations to the land are met, and for any unr
+-- B7 short landing at paragraph end (2)
+   * That’s a lot of loose ends!
+   * That gives me hope.
+-- E1 kid (1)
+   * Who keeps childcare going and makes sure the kids continue to go to school?
+-- E125 list of three: an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it's really needed"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them" (1)
+   * equipment, common stores or funds?
+-- O29 a run of three or more questions (gate step 7: "a few shared AI micro-patterns (question runs, triads, "isn't X, it's Y")"; its prediction review: "questions the text answers itself"): keep the ones a reader would ask (1)
+   * 8 questions: If the commune dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens
+-- O30 a phrase said three or more times in one paragraph (gate, 2026-10-07: my "a commitment they make as adults" "gave P22 its fourth "as adults""; Joel: "take out second adults that's obvious"): keep it only where the repeat does a job (1)
+   * "takes responsibility for" 3 times: Who takes responsibility for making sure people get their medications and the other care they need? / Who takes responsibili

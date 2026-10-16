@@ -636,23 +636,24 @@ The power to remove somebody is also one of the easiest powers to abuse. So work
 
 Also choose a mediator or ombud before the crisis. People who have never met the “neutral stranger” until the day of the explosion often do not trust them. Mediation is for repair; it is not a substitute for evidence, safeguarding, adjudication, or a final separation when consent is gone.
 
+<!-- CANDIDATE: section 14 v5 (2026-10-16): Emulate round a's call A of the published section with the preservation keys and Emulate's slips put back (s14/make_v1.py), a break in each paragraph (make_v2.py), the meaning reviews' fixes (make_v3.py, make_v4.py), ending W2 for the father lines and the close, and P2 at the length that reads as one window (make_v5.py). Records: s14/review-r1 to review-r5 with DISPOSITIONS-r3.md and DISPOSITIONS-r5.md; key-word check PASS (s14/preservation-keys.json); lint REVIEW. Pangram web app, every group Human (305g, 305g-x) and the whole section 100% Human, high (382 words, AI likelihood 0.19, 19:54:06 UTC, batch 306g, https://www.pangram.com/history/c04a43b6-a611-4d68-bb76-2f644ee64654). Not accepted until Joel says so. -->
 # Dissolution and Exit
 
 [image 18](https://substackcdn.com/image/fetch/$s_!9Q3c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd2a051-9ac5-4630-868b-5a37226707f9_1536x1024.png)
 
-Founders rarely want to discuss dissolution while choosing a name and imagining the first harvest. That is when the discussion needs to happen.
+Dissolution is something founders rarely want to talk about while they’re picking a name for their community and looking forward to its first harvest. Who would? But that’s exactly when it needs to be talked about.
 
-If the community ends, what happens to the land, outside debts, buildings, equipment, common stores or funds, and each member’s agreed rights? More immediately: who keeps people housed and fed, gets medications and care to whoever needs them, keeps childcare and schooling going, bridges food, housing, care, outside cash or benefits if relevant, provides transport, maintains records and family contact, takes responsibility for animals and land obligations, and handles unresolved claims?
+If the community dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens to each member’s agreed rights? More immediately, who is responsible for ensuring that everyone has a place to live and food to eat? Who takes responsibility for making sure people get their medications and the other care they need? Who keeps childcare going, and makes sure the kids’ schooling carries on? Who takes responsibility for bridging people’s food, housing and care, and any outside cash or benefits, if relevant? Who takes responsibility for transportation, for the records, for family contact, for the animals, for making sure land obligations are met, and for any unresolved claims? That’s a lot of loose ends!
 
-Design this like a living will. Preassign a bridge or successor for each critical function. The institution may be unsalvageable and the people still need breakfast on Tuesday; continuity of basic life should not depend on resurrecting the commune.
+Think of it like a living will, and assign a bridge or successor for each critical function in advance, so basic life doesn’t depend on reviving the commune. The institution may not be salvageable, but who’s making breakfast tomorrow?
 
-A group with dissolution terms can end without turning every friendship into evidence. People may leave hurt and still retain their agreed transition support, dignity, and a coherent story of what happened.
+Dissolution terms are also a way for a group to end without turning every friendship into evidence. Who wants that? People may leave hurt, but they keep the transition support they agreed on, and their dignity. And they can tell a coherent story of what happened.
 
-There is consolation in the fact that institutions and relationships do not die at the same time. *American Commune* follows two sisters raised at The Farm. When one later became ill, former members she had not seen in years reached out with support. The communal economy had changed dramatically; the human bonds had not vanished.
+Institutions and relationships don’t die at the same time. What a relief! The film *American Commune* follows two sisters who grew up on The Farm. When one of them later became ill, former members who hadn’t seen her in years reached out with support. The communal economy had changed dramatically, but the bonds hadn’t vanished.
 
-My father carried the Bruderhof long after leaving it. It shaped the foundation he started, the film he made, the places he took me, and the questions I’m still asking.
+My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).
 
-Even after the legal entity ends, some of what people learned to give one another may continue.
+Even after the community ends as a legal entity, some of what people learned to give one another may go on. I hope so, anyway.
 
 # What This Looks Like From Sénégal
 

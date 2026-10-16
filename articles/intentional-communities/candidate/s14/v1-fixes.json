@@ -1,0 +1,79 @@
+[
+ {
+  "id": "P1",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "It’s something the founders of any institution probably don’t want to talk about while they’re naming it and looking forward to its harvests, but it needs to be talked about.",
+  "new": "Dissolution is something founders probably don’t want to talk about while they’re picking a name for their community and looking forward to its first harvest, but that’s exactly when it needs to be talked about.",
+  "why": "key U1 \"dissolution\" (the section opens on its subject, not \"It\", the opener rule of 2026-10-16), \"harvest\"; \"founders of any institution\" widened the published founders of a community; key U2: the published \"That is when the discussion needs to happen\" (the timing) was lost in \"it needs to be talked about\""
+ },
+ {
+  "id": "P2",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "If the commune/intentional community/co-op dissolves, what happens to the land, any outside debts, any other property (buildings, equipment, stores, funds, etc.)? What are the rights of each person at this time?",
+  "new": "If the commune dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens to each member’s agreed rights?",
+  "why": "key U3 \"agreed\": the published \"each member's agreed rights\"; \"etc.\" opened the published closed list; the slashes named three kinds of group where the article means the commune; split in two so the sentence has no two lists of three (linter E125, Joel 2026-10-03)"
+ },
+ {
+  "id": "P2",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "Who is responsible for ensuring that everyone has a place to live and food to eat?",
+  "new": "More immediately, who is responsible for ensuring that everyone has a place to live and food to eat?",
+  "why": "key U4 \"immediately\": the published \"More immediately\" puts these duties first"
+ },
+ {
+  "id": "P2",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "Who takes responsibility for making sure people get their meds and/or other care they need? Who makes sure the kids are taken care of and continue to go to school?",
+  "new": "Who takes responsibility for making sure people get their medications and the other care they need? Who keeps childcare going and makes sure the kids continue to go to school?",
+  "why": "key U4 \"medications\", \"childcare\""
+ },
+ {
+  "id": "P2",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "Who takes responsibility for transportation, for record-keeping, for helping people stay in touch with family, for the animals, for ensuring obligations to the land are met, for other claims on the group’s time/attention/etc., if applicable?",
+  "new": "Who takes responsibility for transportation, for the records, for family contact, for the animals, for ensuring obligations to the land are met, and for any unresolved claims?",
+  "why": "key U4 \"records\", \"family contact\", \"claims\": the published \"handles unresolved claims\"; \"claims on the group's time/attention\" changed what the claims are"
+ },
+ {
+  "id": "P3",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "assign a bridge/successor for each function in advance. The institution may not be salvageable, but people’s lives need to go on.",
+  "new": "assign a bridge/successor for each critical function in advance. The institution may not be salvageable, but people still need breakfast, and basic life shouldn’t depend on reviving the commune.",
+  "why": "key U6 \"critical\"; key U7 \"breakfast\" (the published \"the people still need breakfast\", without its \"Tuesday\", the weekday tell O11); key U8 \"basic\", \"reviving\": the published \"continuity of basic life should not depend on resurrecting the commune\""
+ },
+ {
+  "id": "P4",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "It’s also a way for a group to end without destroying all the friendships involved, or without people losing their dignity.",
+  "new": "Dissolution terms are also a way for a group to end without turning every friendship into evidence. People may leave hurt, but they keep the transition support they agreed on, and their dignity. And they can tell a coherent story of what happened.",
+  "why": "key U9 \"dissolution terms\", \"evidence\" (the published \"without turning every friendship into evidence\"; \"destroying\" lost the picture of friendships turned into a case file); key U10 \"hurt\", \"support\", \"story\". The published list of three (support, dignity, story) is split the way Joel splits his: the third item in its own sentence"
+ },
+ {
+  "id": "P5",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "Institutions and the relationships that make them up don’t have to die together.",
+  "new": "Institutions and the relationships that make them up don’t have to die at the same time.",
+  "why": "key U11 \"same time\""
+ },
+ {
+  "id": "P5",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "American Commune recently ran an article about two sisters who grew up on The Farm. One of them recently became ill, and even though the economic institution they were born into had changed dramatically over the years, former members who hadn’t seen her in years still rallied around her.",
+  "new": "American Commune follows two sisters who grew up on The Farm. When one of them later became ill, former members who hadn’t seen her in years reached out with support. The communal economy they were born into had changed dramatically, but the bonds hadn’t vanished.",
+  "why": "American Commune is a film that follows the sisters, not an article (the published \"American Commune follows two sisters raised at The Farm\"); \"recently\" for the published \"later\"; key U13 \"support\"; key U14 \"economy\", \"bonds\""
+ },
+ {
+  "id": "P6",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "The Bruderhof still impacts my father’s life, the foundation he started, the movie he made, and the places he’s brought me to, and me, in ways I’m only starting to comprehend.",
+  "new": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started, the film he made, the places he took me, and the questions I’m still asking.",
+  "why": "Joel's own lines about his father, his published words back: Emulate made the Bruderhof shape his father's life now and added \"in ways I'm only starting to comprehend\"; keys U15 \"long after\", U16 \"film\", \"questions\""
+ },
+ {
+  "id": "P7",
+  "source": "emu-a/out/s01-emuA.txt",
+  "old": "Even if the legal entity dies, the rest of it doesn’t have to.",
+  "new": "Even if the legal entity dies, some of what people learned to give one another can go on.",
+  "why": "key U17 \"learned\", \"give\", \"go on\": \"the rest of it\" left a reader asking the rest of what"
+ }
+]

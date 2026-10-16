@@ -1212,3 +1212,84 @@ class MarchSplitsLists(unittest.TestCase):
         self.assertEqual(ps[0], ["While you're hooked, ask yourself these:", 'What am I about to lose?',
                                  'Whose approval feels like survival?', 'Caring about somebody without losing your ground'])
         self.assertEqual(ps[1], ['A plain paragraph.', 'It has two sentences.'])
+
+
+class PauseTally(unittest.TestCase):
+    """pause_tally.py (2026-10-16). Joel, 18:22 UTC, on section 13's "How do you know?": "why did the reviewer not cut that,
+    what's that? know what? doesn't seem to follow...". Four cold reads in three rounds had paused there and settled it from
+    the next sentence; nothing counted the pauses."""
+    DRAFT = ('# Part\n\nWrite down your answers to these questions.\n\nHow do you know? Judge people by their conduct.\n\n'
+             'My research initially leaned too far that way.\n')
+
+    def reports(self, d, texts):
+        out = []
+        for i, t in enumerate(texts):
+            p = pathlib.Path(d) / ('SENSE-%d.md' % i)
+            p.write_text(t, encoding='utf-8')
+            out.append(str(p))
+        return out
+
+    def test_old_prose_pauses_and_new_paused_lines_both_count(self):
+        import pause_tally
+        with tempfile.TemporaryDirectory() as d:
+            reps = self.reports(d, [
+                'No breaks found. Places where I paused and then got it (so not reported): P20 "How do you know?" read as '
+                'how to judge a newcomer; P26 "that way" read as toward the nation-state.',
+                'No breaks. Every phrase that made me pause (for example P20 "How do you know?", P14 "the full sequence") '
+                'is settled by the next one.',
+                '[P1] OK\nPaused: P20 “How do you know?”; P3 "promising strangers"',
+                'Paused: none'])
+            found = pause_tally.repeated(reps)
+        self.assertEqual([(f['quote'], f['count']) for f in found], [('How do you know?', 3)])
+
+    def test_a_reading_in_quotes_after_the_phrase_is_not_a_pause(self):
+        import pause_tally
+        self.assertEqual(pause_tally.pauses('Paused: P3 "promising strangers" read as "untested", per P1'),
+                         [(3, 'promising strangers')])
+
+    def test_the_draft_and_the_authors_own_sentences_filter_the_list(self):
+        import pause_tally
+        with tempfile.TemporaryDirectory() as d:
+            reps = self.reports(d, ['Paused: P20 "How do you know?"; P26 "that way"; P9 "gone phrase"'] * 2)
+            (pathlib.Path(d) / 'draft.md').write_text(self.DRAFT, encoding='utf-8')
+            (pathlib.Path(d) / 'his.txt').write_text('My research initially leaned too far that way.', encoding='utf-8')
+            found = pause_tally.repeated(reps, str(pathlib.Path(d) / 'draft.md'), None, [str(pathlib.Path(d) / 'his.txt')])
+        self.assertEqual([f['quote'] for f in found], ['How do you know?'])
+
+    def test_with_dispositions_each_repeated_pause_needs_an_answer(self):
+        import pause_tally
+        with tempfile.TemporaryDirectory() as d:
+            reps = self.reports(d, ['Paused: P20 "How do you know?"'] * 2)
+            disp = pathlib.Path(d) / 'D.md'
+            disp.write_text('- Kept: nothing about it.\n', encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 1)
+            disp.write_text('- Cut: "How do you know?" (Joel, 18:22).\n', encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 0)
+
+
+class AuthorMarksReadExactLocksAndLinks(unittest.TestCase):
+    """meaning_sweep.owner_strings (2026-10-16): his published "[My research](...) initially leaned too far that way.", kept by
+    his 32 b as a must_contain_exact lock with its link, was in no owner string, so the pause tally listed "that way" as mine."""
+
+    def test_an_exact_lock_with_a_link_marks_the_visible_sentence(self):
+        with tempfile.TemporaryDirectory() as d:
+            led = pathlib.Path(d) / 'OWNER-EDITS.json'
+            led.write_text(json.dumps({'entries': [{'id': 'x', 'status': 'applied', 'words': 'his',
+                                                     'must_contain_exact': ['[My research](https://example.org/r/) initially '
+                                                                            'leaned too far that way.']}]}), encoding='utf-8')
+            owners = meaning_sweep.owner_strings(str(led), [])
+        out = meaning_sweep.mark_author('Outside is not the state. My research initially leaned too far that way.', owners)
+        self.assertIn(meaning_sweep.MARK_OPEN + 'My research initially leaned too far that way.' + meaning_sweep.MARK_CLOSE, out)
+
+
+class ColdReadOpenerRule(unittest.TestCase):
+    """sense_section.txt (2026-10-16): a paragraph's first sentence has to follow from what comes before it, and every cold
+    read ends with a "Paused:" line. Joel, 18:22 UTC: "what's that? know what? doesn't seem to follow...". Narrowed after
+    the control read of his section 11 flagged two of his openers that pick up an earlier paragraph or turn with "though"."""
+
+    def test_the_prompt_carries_the_rule_its_limit_and_the_paused_line(self):
+        t = (TOOLS / 'reviewer' / 'sense_section.txt').read_text(encoding='utf-8')
+        self.assertIn("A paragraph's first sentence has to follow from what comes before it.", t)
+        self.assertIn('know what? doesn\'t seem to follow', t)
+        self.assertIn('picks up something from a paragraph or two back', t)
+        self.assertIn('add one line that starts "Paused:"', t)

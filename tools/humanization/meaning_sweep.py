@@ -72,9 +72,13 @@ def owner_strings(ledger_path, owner_files):
                 # wording I proposed and he approved ("agree fix it") is still mine to check: two of the three sweep
                 # flags he sent back on 2026-10-14 (F4, F6) were in words like these, under author marks
                 continue
-            out += [norm(m) for m in e.get('must_contain', []) if len(m) >= 25]
+            # must_contain_exact too, with its Markdown links read as their words (2026-10-16: his published "[My
+            # research](...) initially leaned too far that way.", kept by his 32 b, was in no owner string, so the
+            # pause tally listed "that way" as mine)
+            locked = e.get('must_contain', []) + e.get('must_contain_exact', [])
+            out += [norm(_plain(m)) for m in locked if len(_plain(m)) >= 25]
             if isinstance(e.get('joel'), str) and len(e['joel']) >= 25:
-                out.append(norm(e['joel']))
+                out.append(norm(_plain(e['joel'])))
     for f in owner_files or []:
         raw = pathlib.Path(f).read_text(encoding='utf-8')
         if f.endswith('.json'):
@@ -84,6 +88,12 @@ def owner_strings(ledger_path, owner_files):
                 pass
         out.append(norm(raw))
     return out
+
+
+def _plain(t):
+    """Markdown links and emphasis read as their words, the way visible() shows the article."""
+    t = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', t)
+    return re.sub(r'(?<!\w)\*([^*\n]+)\*(?!\w)', r'\1', t)
 
 
 def _strings(o):

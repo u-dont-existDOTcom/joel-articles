@@ -1,0 +1,23 @@
+{
+ "S13v26": {
+  "history_id": 16309487,
+  "link": "https://www.pangram.com/history/9a7c5448-ae59-47ba-9133-72b1a8c76673",
+  "utc": "2026-10-16T20:09:40Z",
+  "words": 2253,
+  "avg_ai_likelihood": 0.38569939136505127,
+  "headline": "AI Detected",
+  "windows": [
+   "Human, High, 190",
+   "AI-Generated, High, 505",
+   "Human, High, 1122",
+   "AI-Generated, High, 35",
+   "Human, High, 78",
+   "AI-Generated, High, 323"
+  ],
+  "flagged": [
+   "AI-Generated (505 words): from H1-P3 (\"Until that's happened, the group is still a circle of promising strangers\") through the values subsection",
+   "AI-Generated (35 words): the last two sentences of H4-P9",
+   "AI-Generated (323 words): from H5-P1's last sentence (\"But if the person is endangering everyone else\") to the end"
+  ]
+ }
+}
