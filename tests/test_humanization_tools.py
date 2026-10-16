@@ -1320,6 +1320,8 @@ class ClickableLinks(unittest.TestCase):
         self.assertEqual(html_links.autolink_markdown(md),
                          'See <https://a.example/x>, [the page](https://b.example/y) and `gh pr view https://c.example/z`.')
         self.assertEqual(html_links.bare_urls(md), ['https://a.example/x'])
+        # the resume line, written [url](url) as Joel asked (2026-10-16), is a link
+        self.assertEqual(html_links.bare_urls('read [https://g.example/h.md](https://g.example/h.md) and go on'), [])
 
     def test_the_questions_renderer_links_bare_addresses(self):
         sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))

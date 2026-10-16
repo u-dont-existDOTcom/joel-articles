@@ -59,6 +59,8 @@ def _bare(md):
         if md[max(0, s - 2):s] == '](' or md[max(0, s - 1):s] == '<' or md[max(0, s - 6):s].endswith('href="'):
             continue
         url = _trim(m.group(0))
+        if md[max(0, s - 1):s] == '[' and md[s + len(url):s + len(url) + 2] == '](':
+            continue  # the address is the link's own text, [url](url): the resume line Joel asked for (2026-10-16)
         if url:
             out.append((s, s + len(url), url))
     return out
