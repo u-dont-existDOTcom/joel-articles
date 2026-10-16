@@ -1,4 +1,4 @@
-const want = {"75b6a57e951bcf4c0ef69bc25a187fdd28794e7b84bfaedabdac69a38efd922e": "t60b_p5v3", "185f7e7ebbc652f3cde7c7692fc26592d41fcd8e9271f149590e610ffdfcdee5": "t60b_p5v4", "47f1192a41960b65071592e5f6b6d39fadd07981fb67a2a45046b85b1a3c1f86": "t60b_p5v5"};
+const want = {"185f7e7ebbc652f3cde7c7692fc26592d41fcd8e9271f149590e610ffdfcdee5": "t60b_p5v4", "47f1192a41960b65071592e5f6b6d39fadd07981fb67a2a45046b85b1a3c1f86": "t60b_p5v5"};
 const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');
 const out = {};
 let url = 'https://web.pangram.com/api/history-list/?limit=20&offset=0';

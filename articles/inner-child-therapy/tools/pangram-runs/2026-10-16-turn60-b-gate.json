@@ -4,8 +4,8 @@
   "march": [
    "S B S S S S B"
   ],
-  "lint": "REVIEW",
-  "note": "turn 60 round b: group 4 close to the guide's sentences, with a gloss or reaction of the kind Joel's P8 has. March: my own reading."
+  "lint": "FAIL",
+  "note": "turn 60 round b: group 4 close to the guide's sentences, with a gloss or reaction of the kind Joel's P8 has. March: my own reading. The linter FAILs it (three coach phrases), so it stays out of the batch."
  },
  "t60b_p5v4": {
   "kind": "screen",
