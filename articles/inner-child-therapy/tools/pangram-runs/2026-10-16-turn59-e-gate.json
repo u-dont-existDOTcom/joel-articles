@@ -1,0 +1,50 @@
+{
+ "t59e_p8k1": {
+  "kind": "screen",
+  "march": [
+   "B S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "p8-k1: p8-k with its last sentences reworded for the AI window they showed inside P5 to P8 (t59d_g456); claims unchanged. Alone, links shown as their words. March: my own reading."
+ },
+ "t59e_p8k1_g456": {
+  "kind": "screen",
+  "march": [
+   "P5 S S B S | P6 S S B | P7 S S B S S S S | P8 B S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "P5 to P8 together with p8-k1, as installed (P8 with its links)."
+ },
+ "t59e_p8k3": {
+  "kind": "screen",
+  "march": [
+   "B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "p8-k3: p8-k with its last sentences reworded for the AI window they showed inside P5 to P8 (t59d_g456); claims unchanged. Alone, links shown as their words. March: my own reading."
+ },
+ "t59e_p8k3_g456": {
+  "kind": "screen",
+  "march": [
+   "P5 S S B S | P6 S S B | P7 S S B S S S S | P8 B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "P5 to P8 together with p8-k3, as installed (P8 with its links)."
+ },
+ "t59e_p8k5": {
+  "kind": "screen",
+  "march": [
+   "B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "p8-k5: p8-k with its last sentences reworded for the AI window they showed inside P5 to P8 (t59d_g456); claims unchanged. Alone, links shown as their words. March: my own reading."
+ },
+ "t59e_p8k5_g456": {
+  "kind": "screen",
+  "march": [
+   "P5 S S B S | P6 S S B | P7 S S B S S S S | P8 B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "P5 to P8 together with p8-k5, as installed (P8 with its links)."
+ }
+}
