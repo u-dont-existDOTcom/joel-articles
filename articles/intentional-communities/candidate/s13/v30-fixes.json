@@ -1,0 +1,121 @@
+[
+ {
+  "id": "H1-P4",
+  "old": "How long will your cash reserves last?",
+  "new": "How long will your cash reserves last, if you have any?",
+  "review": "T1-1",
+  "why": "the published \"outside debts or cash runway if the community uses them\": not every group holds cash"
+ },
+ {
+  "id": "H1-P4",
+  "old": "gets too exhausted to keep going",
+  "new": "gets exhausted",
+  "review": "T1-3",
+  "why": "the published \"one exhausted person\": exhausted, not a coming breakdown"
+ },
+ {
+  "id": "H2-P3",
+  "old": "whether or not LGBTQ+ people should be able to live openly",
+  "new": "whether or not LGBTQ+ people would be able to live openly",
+  "review": "T2-2",
+  "why": "the published \"Could an LGBTQ+ member live openly\": whether the community would, not what the reader thinks ought to be"
+ },
+ {
+  "id": "H2-P3",
+  "old": "and be fully protected by the community",
+  "new": "and stay fully protected by the community",
+  "review": "T2-3",
+  "why": "the published \"remain fully protected\""
+ },
+ {
+  "id": "H2-P3",
+  "old": "and what should happen if one of",
+  "new": "and what happens if one of",
+  "review": "T2-2",
+  "why": "the published \"What happens if\""
+ },
+ {
+  "id": "H2-P3",
+  "old": "You don’t have your community’s values on freedom and raising children complete until you answer these questions. Both of them!",
+  "new": "Until you answer these questions, you don’t have your community’s values on freedom and raising children complete. Both of them!",
+  "review": "T2-6",
+  "why": "\"Both of them!\" now follows the pair it means (freedom and raising children), not \"these questions\"; two cold reads paused at it"
+ },
+ {
+  "id": "H2-P3b",
+  "old": "whether or not you are willing to experiment. The people next to you may feel that all experimenting ended in 1978,",
+  "new": "whether or not you are willing to experiment, because the people next to you may feel that the experiment ended in 1978,",
+  "review": "T3-3, T3-5",
+  "why": "the published \"It has to be declared, because the person beside you may believe the experiment ended in 1978\""
+ },
+ {
+  "id": "H2-P4",
+  "old": "It may be an uncomfortable conversation",
+  "new": "It’ll be an uncomfortable conversation",
+  "review": "T3-4",
+  "why": "the published \"the uncomfortable conversation\": uncomfortable, not maybe"
+ },
+ {
+  "id": "H3-P5",
+  "old": "It's the first book I'd hand to any group starting out.",
+  "new": "Honestly, it's where I'd start for getting that order right!",
+  "review": "STANCE-sofar 1",
+  "why": "the article's first step for a new group is the inner pl/ork (\"What to Do This Month\"); its appendix recommends this book \"for sequencing, membership, money, land, and agreements\". \"Honestly\" and the \"!\" keep it the paragraph's break: march r19 read 5a found none in \"It's where I'd start for getting that order right.\""
+ },
+ {
+  "id": "H5-P1",
+  "old": "There’s going to be times when someone has to go.",
+  "new": "There may be times when someone has to go.",
+  "review": "T4-1",
+  "why": "the published \"cannot promise to keep everyone\": it can happen, not it will"
+ },
+ {
+  "id": "H5-P1",
+  "old": "just makes living together impossible for everyone else",
+  "new": "just makes everyday life together impossible for everyone else",
+  "review": "T4-2",
+  "why": "the published \"makes ordinary shared life impossible\""
+ },
+ {
+  "id": "H5-P2",
+  "old": "while the separation is being worked out",
+  "new": "during the separation",
+  "review": "T5-1",
+  "why": "the published \"during separation\""
+ },
+ {
+  "id": "H5-P2",
+  "old": "and have the decision reviewed or appealed, without anyone being put in danger?",
+  "new": "and have the decision reviewed or appealed without putting others in danger?",
+  "review": "T5-2",
+  "why": "the published \"what review or appeal is possible without endangering others\": the limit is on the review, and it protects others"
+ },
+ {
+  "id": "H5-P3",
+  "old": "But when power started creeping upward in their own system, they pushed it back down again.",
+  "new": "But when power had crept up in their own system over the years, it took them a long review to push it back down.",
+  "review": "STANCE-sofar 2, T6-4",
+  "why": "the article's Zapatista section: power \"had crept up and consolidated itself at higher levels over time\", reversed \"After a long internal review, in 2023\"; T6 asked for a cut, and the clause stays (round r9's disposition: it answers two cold reads and a stance check, from section 9) with its timing right"
+ },
+ {
+  "id": "H5-P4",
+  "old": "This does not obviate the need for evidence, safeguarding, rulings, etc.",
+  "new": "A mediator doesn't obviate the need for evidence, safeguarding, rulings, etc.",
+  "review": "T6-2",
+  "why": "\"This\" could be read as the advance choice or the distrust; a mediator is what doesn't replace them"
+ },
+ {
+  "id": "H5-P4",
+  "old": "it's time for a separation.",
+  "new": "they still need a final separation.",
+  "review": "T6-4",
+  "why": "the published \"not a substitute for ... a final separation when consent is gone\": \"still\" says mediation doesn't replace it, and it is final"
+ },
+ {
+  "id": "H3-P1",
+  "old": "Who will have title to the land? Very important! Whoever has it will have enormous power over the rest of the community. If the deed’s in the name of the “founder,” then he or she is really your landlord, with a philosophy. If three out of twelve members own everything, then despite what your literature says about everyone being equal, there are two classes of members.",
+  "new": "Who will have title to the land? Very important! Whoever has it will have enormous power over the rest of the community. If the deed is in the name of the founder, then he or she is really a landlord with a philosophy. If three out of twelve members own everything, then whether or not your literature says everyone is equal, there are two classes of members.",
+  "review": "T4-1, T4-2",
+  "why": "v28's text back whole: \"whether or not your literature says everyone is equal\" (round i's \"despite\" presumed the literature claims equality) and no scare quotes on \"founder\""
+ }
+]

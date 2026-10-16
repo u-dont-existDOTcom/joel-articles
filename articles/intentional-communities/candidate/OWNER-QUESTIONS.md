@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-16, in the turn that began with your message of 18:22 UTC. **Open questions: 1.** To answer, reply in chat with the number and the letter, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-16, in the turn that began with your message of 21:05 UTC. **Open questions: 0.** To answer, reply in chat with the number and the letter, or in your own words. Everything else in my messages is status.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,12 +9,7 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> One question, about section 13's last two stretches. The section 13 side-by-side page, sent with this turn's message, has every paragraph.
-
-**🟣 34. Section 13 after this pass.** This was the one more bounded fix-and-check pass I said I'd give it. Every group that holds a paragraph changed since 10-15 reads Human, and the land subsection reads Human as a whole (100% AI before; now Human, high: https://www.pangram.com/history/f43b2b32-6763-4446-baab-42006950ca88). The whole section now reads AI over 38% of its words (it was 56%): https://www.pangram.com/history/9a7c5448-ae59-47ba-9133-72b1a8c76673. The AI windows: the 505 words from "Until that's happened, the group is still a circle of promising strangers" through the values subsection, where the first AI window began last time too; the last two sentences of the visitors' rights paragraph; and the 323 words from "But if the person is endangering everyone else" to the end of the section. Every paragraph in those stretches reads Human alone or with its neighbor, so it's the stretches as wholes. The rounds converged: the meaning traces found 20 items in round r15, 9 in r16, 8 in r17 and none in r18.
-- a) I send the two long stretches to Emulate, each whole (the two paragraphs before the values subsection with that subsection, and the last subsection), put your meaning back, and check them and the section. **My pick**: that's what turned the land subsection from 100% AI to Human.
-- b) You rewrite one or both stretches yourself (they're on the section 13 page).
-- c) Leave section 13 as it is for now and go on to section 15.
+> Nothing open right now.
 
 ## For you to do (no decision needed)
 
@@ -25,6 +20,10 @@ The master copy of this page is a file in Git, so a session in either of your ac
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-10-16 21:05 UTC, on 34: "34a and learn from how emulate fixes it." Done, and section 13 now reads 100% Human, high, as a whole ([check](https://www.pangram.com/history/924264d4-24d9-4ee2-a46b-2eb64818b47d)); before this it read 38% AI. Emulate rewrote the two long stretches, each sent whole. What I learned from how it fixes them: it writes the way people talk (short reactions like "That's okay! There's lots you can do!", run-on lists that end in "etc.", a word said twice, uneven sentences, no neat closing line), and the AI reading comes back wherever I put your meaning back by rebuilding the published sentence. My first pass did that, and the last subsection still read 0.84 AI ([check](https://www.pangram.com/history/9589c085-6585-4321-9fbb-37b809262f16)). Putting the meaning back inside Emulate's own sentence instead, it read 0.00 ([check](https://www.pangram.com/history/14983043-5d03-47b7-8fc5-6bb5e8fc226b)). The last AI stretches were the published "a circle of promising strangers" and two runs of questions; Emulate's other version said the five questions about sexuality and gender as statements, and the four questions to ask a group are now partly one sentence. Your own sentences are as you wrote them. The rule is in the shared gate, with the cases. The section's meaning checks are running now; it goes into the article once they're answered.
+- 🟢 21:05: "i did upload the rebuilt diagram, take that off todo list". Off the list. The article file still links the old image address; when the post with the new one is up I'll swap the address in.
+- 🟢 21:05: "(your links are not clickable btw)". You're right. My messages gave each check as a bare address, and the pages showed theirs as text (33 on the section 13 page, 11 on section 14's, and the post card on the article page). The rule I had asked for a link with every result, but nothing checked that you could click it. Now the pages turn every address into a link, my messages write each one as a link, and two checks fail any page or message with an address shown as text.
 
 - 🟢 2026-10-16 18:22 UTC, on 33: "33a on owner questions page (keep the emoji, that's fine)". The 😜 stays: "(Hint: not the person who recruited them! 😜)".
 - 🟢 18:22: "i would cut the first sentence "How do you know?" in p6 of From Visitor to Member, slowly. why did the reviewer not cut that, what's that? know what? doesn't seem to follow..." Cut. The paragraph's break is now "What do they actually do?", right after "don't go by that", which both march readings see (it reads Human: https://www.pangram.com/history/3bf7525c-cc2e-4ca8-a913-207f1ad3b3ae). Why the reviewers kept it: the line was mine, a break added when the march read found none in that paragraph. Four cold reads in three rounds paused there and worked out what it meant from the next sentence, and their prompt said a pause they could settle wasn't a problem, so none reported it; the meaning traces listed it as an added lead-in and, as their brief says of additions, asked for no fix. The signal was there four times and nothing counted it. Now the cold read has a rule for a paragraph's first sentence (it has to follow from what comes before it; working it out from the next sentence doesn't count), every cold read ends with a list of the phrases it paused at, and a check counts the phrases two or more readers paused at across rounds; each needs a fix or a reason before Pangram. I tested the rule before using it: it finds "How do you know?" and an opener I planted in section 12, and flags none of your openers in section 11 (my first wording flagged two of them). Sweeps of the other sections found no other opener like it. The pause counts gave section 13 three more plain-wording fixes this turn ("a budget of what the group can provide", "All of them should have clear terms", "Six months will give you more data").
