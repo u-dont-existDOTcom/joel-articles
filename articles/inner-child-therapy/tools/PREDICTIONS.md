@@ -1208,3 +1208,9 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-16 (turn 61) | P8/P9 alone, p9e (60 words) [t61c_p9e], a screen | AI, low (my call) | AI Generated (0.73, low; 60), all of it; 22:47:33 UTC, https://www.pangram.com/history/26329b31-8814-4028-8dbc-96c005d865dd | hit |
 | 2026-10-16 (turn 61) | The Inner Guide Comes Later with P8 and P9 ee (929 words) [t61c_h1ee], a screen | Human, medium (my call) | AI Detected (0.16; 971): Human 868, then an AI window of 103 words on P8's last sentence and P9 ("That ground can make belonging with people a lot less desperate (not overnight, but over time)…"); 22:47:41 UTC, https://www.pangram.com/history/ae65a015-3f45-4beb-9ee0-9206cf68aa4e | miss |
 | 2026-10-16 (turn 61) | The Inner Guide Comes Later with P8 and P9 ce (921 words) [t61c_h1ce], a screen | Human, medium (my call) | Human Written (0.12, high; 962), one Human window; 22:47:52 UTC, https://www.pangram.com/history/906bf13c-0bb3-492d-9d52-1e90bbb3a8b9 | hit |
+| 2026-10-16 (turn 62) | p8f alone (100 words) [t62a_p8f], a screen | Human, low (my call: the named tells fixed) | (pending) | |
+| 2026-10-16 (turn 62) | p8h alone (92 words) [t62a_p8h], a screen | Human, low (my call: the named tells fixed) | (pending) | |
+| 2026-10-16 (turn 62) | p8i alone (107 words) [t62a_p8i], a screen | Human, low (my call: the named tells fixed) | (pending) | |
+| 2026-10-16 (turn 62) | p9f alone (70 words) [t62a_p9f], a screen | Human, low (my call: the named tells fixed) | (pending) | |
+| 2026-10-16 (turn 62) | p9h alone (56 words) [t62a_p9h], a screen | Human, low (my call: the named tells fixed) | (pending) | |
+| 2026-10-16 (turn 62) | p89a alone (154 words) [t62a_p89a], a screen | Human, low (my call: the named tells fixed) | (pending) | |
