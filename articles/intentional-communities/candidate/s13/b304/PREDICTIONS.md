@@ -27,4 +27,6 @@ Results of 304g stage 1 (Pangram's History, 2026-10-16 UTC, 19:51:32 to 19:53:56
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S13v26 | Mixed | stage 1 read every changed group Human, the land subsection Human and the H4-P9 to H5-P2 stretch Human both ways, but the last subsection reads AI as a whole both ways, and the visitor subsection's opening reads AI inside it | |
+| S13v26 | Mixed | stage 1 read every changed group Human, the land subsection Human and the H4-P9 to H5-P2 stretch Human both ways, but the last subsection reads AI as a whole both ways, and the visitor subsection's opening reads AI inside it | **Mixed** (AI Detected; windows: Human, High, 190; AI-Generated, High, 505; Human, High, 1122; AI-Generated, High, 35; Human, High, 78; AI-Generated, High, 323, 2253 words, AI likelihood 0.39), 20:09:40, [check](https://www.pangram.com/history/9a7c5448-ae59-47ba-9133-72b1a8c76673) |
+
+Results of 304g stage 2 (Pangram's History, 2026-10-16 UTC, 20:09:40): the whole section reads AI over 863 of its 2,253 words (38%; v21 read 56% AI in 298g), in three windows: 505 words from H1-P3 ("Until that's happened, the group is still a circle of promising strangers") through the values subsection, where 298g's first AI window began too; 35 words, the last two sentences of H4-P9; and 323 words from H5-P1's last sentence to the end. The land subsection and most of the visitor subsection now read Human inside the section (1,122 words, high). Prediction: 1 of 1 (Mixed).

@@ -7983,7 +7983,7 @@
         },
         "current_state": {
           "path": "articles/intentional-communities/CURRENT-STATE.md",
-          "sha256": "ab0b09e7737c68ce6df397bedd6e195a7771d177d33375a3537648cef17b06d3"
+          "sha256": "b06f81a46d25f61aa010377fe0af53664c34bf3babe1b9549992d0601f380a46"
         }
       },
       "review": {
@@ -8028,7 +8028,7 @@
         {
           "path": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md",
           "role": "owner_questions_page",
-          "sha256": "c05ef65a749130c79727f5b87998f8ca59c7c8b19beb02821c9f93f1faff014f"
+          "sha256": "5eec08d3a1e62189efbd3ccf63534a202a5b456e7a1dd54d3a31f8013574feca"
         },
         {
           "path": "articles/intentional-communities/D6-LINKS.md",
@@ -8057,7 +8057,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/STATUS.md",
-          "sha256": "5f1f147aa620e9c415957818932a653656f3dcaef5ff3f10867f4f1679f6dba0",
+          "sha256": "a3e80ab6a1184e5ae287d7597e2e1a89888c8f04fd9a32b913dc51f18ae7d084",
           "role": "humanization_working_record"
         },
         {
@@ -8082,7 +8082,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/community-questions.html",
-          "sha256": "a1946c1128bae3e96a129aa27accb80b28055663673d03f876d974cbda932559",
+          "sha256": "100de21bad792ed6c9154754646272874c004f52767697d476de833a081b155e",
           "role": "humanization_working_record"
         },
         {
@@ -8537,7 +8537,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/dashboard/ds-calls.json",
-          "sha256": "d900d07d4aed8fbccc4074eacb02cbce78f0ec929389ee19e7d83d16647e0dff",
+          "sha256": "f2398af4024e46ffe0b607f486dc53acf58c4ae0eb6a136f445e136b047cdd2e",
           "role": "humanization_working_record"
         },
         {
@@ -29162,7 +29162,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/HANDOFF-community-article.md",
-          "sha256": "0a89574f2b9973b47f06d8fb2cb58c09241a3a4fa3d483324d27dbd66f5e18f6",
+          "sha256": "253bed987e81d2c29420c27244891c5d1d498765acdef19a2e0da6032456e3fa",
           "role": "humanization_working_record"
         },
         {
@@ -30242,7 +30242,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls.json",
-          "sha256": "57a3ba441ddea1dbeb9f0693d69b979c4d663350f36443af37e9b83fbf79cb74",
+          "sha256": "fa78e06860fd8daec577dccb432237c2ba1d0b4c035c7bf4cad433701f54f2ab",
           "role": "humanization_working_record"
         },
         {
@@ -31082,7 +31082,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/community-section13-side-by-side.html",
-          "sha256": "f35b131d45a5181f7712bd64d123dca641811d6a9e758fe4a3df64a39de87bb9",
+          "sha256": "d9c8eefd95af14c64665b52164c82d8aba1721cbf8d851b8bffc43ddeff5a029",
           "role": "humanization_working_record"
         },
         {
@@ -34247,12 +34247,12 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s13/b304/PREDICTIONS-scored.md",
-          "sha256": "25456bce5f4ed62adfe84f832aef0d48670de3517ae0530781ccf9795f6d1456",
+          "sha256": "0bbad6a33ce3f41f5bdecd6d02a6fc991cf6de3f8d73c186e712a765b3bf0fbf",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/intentional-communities/candidate/s13/b304/PREDICTIONS.md",
-          "sha256": "24918a20cf64a990a78a2bef6d836600d2e699490843ff2552427724bed33fa4",
+          "sha256": "a59faafa55a775835886ecf3e50e9bb1943e593c48c36e7a48fa1d80b1b24548",
           "role": "humanization_working_record"
         },
         {
@@ -34312,7 +34312,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s13/make_page_v26.py",
-          "sha256": "255c8640a0ab6de371fabd168bdc3f305268059ad953c268b791338307937417",
+          "sha256": "a875c5244cf46873ce79e31b64ca36a396e1a0ffee82c4fafd40ee32ba004a2a",
           "role": "humanization_working_record"
         },
         {
@@ -34342,7 +34342,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s13/page/ic13-v26.json",
-          "sha256": "934a2ead83bcf8335404b2254e157664fe1532d9bf209156a584a2464fced4ba",
+          "sha256": "1537ee42098caf2eb5749bb07c10bb18a66facad03da056897555925917ffc22",
           "role": "humanization_working_record"
         },
         {
@@ -35623,6 +35623,11 @@
         {
           "path": "articles/intentional-communities/candidate/sweep-20261016/make_opener_sweep.py",
           "sha256": "1eda716d8dcf9620a5e6d365bd0fd905d06e097742f190d5cbe61e1c0338b254",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s13/b304/b304s-results.json",
+          "sha256": "8d946aaf02540f0e93b388b766550e954b5b475cbcc9c88ab84cdb3b191b5f72",
           "role": "humanization_working_record"
         }
       ]

@@ -1,15 +1,15 @@
 {
  "summary": {
-  "calls": 1208,
-  "right": 859,
+  "calls": 1209,
+  "right": 860,
   "since_review": {
-   "calls": 806,
-   "right": 604,
+   "calls": 807,
+   "right": 605,
    "passed": 482
   },
   "today": {
-   "calls": 256,
-   "right": 203,
+   "calls": 257,
+   "right": 204,
    "passed": 167
   }
  },
@@ -161,10 +161,10 @@
   {
    "from": 300,
    "to": 309,
-   "calls": 51,
-   "right": 42,
+   "calls": 52,
+   "right": 43,
    "passed": 37,
-   "always_ai_right": 14
+   "always_ai_right": 15
   }
  ],
  "misses": [
