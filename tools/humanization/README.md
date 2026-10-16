@@ -21,6 +21,8 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/preservation_keys.py KEYS.json DRAFT.md`
 - `meaning_sweep.py`: a fresh reader's sweep of rewritten sections against the published ones for the breaks Joel found in community section 12, with his own sentences marked so the reader leaves them alone (2026-10-12).
   `python3 tools/humanization/meaning_sweep.py --article ART.md --source PUB.md --section N --input IN.md --report REPORT.md --out PROMPT.txt --ledger OWNER-EDITS.json [--owner-text FILE]`
+- `pause_tally.py`: the phrases two or more cold reads paused at and settled, counted across rounds, outside Joel's own sentences (2026-10-16: four readers in three rounds had paused at section 13's "How do you know?" and nothing counted it). With `--dispositions`, each one needs an answer there.
+  `python3 tools/humanization/pause_tally.py REPORT.md ... --draft DRAFT.md --ledger OWNER-EDITS.json [--owner-text FILE] [--dispositions DISPOSITIONS.md]`
 - `pangram_gate.py`: the Pangram web-app batch and its History reader, written only for texts whose gate record passes (march with a break, cold read, grounding, stance check, linter; E167, 2026-10-12). Use it for every web-app check.
   `python3 tools/humanization/pangram_gate.py DRAFTS.json GATE.json OUT.js --name NAME KEY [KEY ...]`
 - `pangram_links_check.py`: fails a message or page that reports an AI result from Pangram without the check's link (E175, Joel 2026-10-15: "give me the pangram check links when you tell me to check something on pangram").

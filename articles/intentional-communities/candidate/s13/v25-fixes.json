@@ -1,0 +1,23 @@
+[
+ {
+  "id": "H4-P6",
+  "old": "Even giving it six months will give you more data, but there’s still no “good person” detector.",
+  "new": "Six months will give you more data, but there’s still no “good person” detector.",
+  "why": "trace r17 T4: \"it\" in \"giving it six months\" had no noun in reach (vibes? a stage? the person?), so a reader could take six months for something other than watching people. The published \"Six months gives you a larger sample; it does not validate a \"good person\" detector.\" has no \"it\"; its subject back, and the rest of the sentence unchanged",
+  "disposition": "review-r17/DISPOSITIONS-r17.md"
+ },
+ {
+  "id": "H1-P4",
+  "old": "Along with that, you'll also need to budget for what the group can provide on the practical side.",
+  "new": "Along with that, you'll also need a budget of what the group can provide on the practical side.",
+  "why": "a repeated pause (cold reads r16 a and r17 b: \"budget for what the group can provide\"): \"budget for\" reads as setting money aside for something, where the published \"Do the boring capacity budget too\" is a tally of what the group has. The published noun back, nothing else",
+  "disposition": "review-r17/DISPOSITIONS-r17.md"
+ },
+ {
+  "id": "H4-P9",
+  "old": "They should have clear terms, and the chance to be heard",
+  "new": "All of them should have clear terms, and the chance to be heard",
+  "why": "a repeated pause (validation read V1 and cold read r17 b: \"They should have clear terms\"): after \"(yes, even interns!)\" and \"Why wouldn't they be?\", \"They\" could be the interns alone; the published \"they need clear terms\" is about all five groups, which \"All of them\" says",
+  "disposition": "review-r17/DISPOSITIONS-r17.md"
+ }
+]

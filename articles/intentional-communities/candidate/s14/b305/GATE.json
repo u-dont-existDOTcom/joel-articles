@@ -1,0 +1,130 @@
+{
+ "S14v4-1P12": {
+  "kind": "draft",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S S S S S S B",
+   "S S S S S S S S B"
+  ],
+  "march_note": "s14/review-r4/MARCH-labels-W2-a.txt and -b.txt: P1, P2",
+  "cold": "OK",
+  "cold_note": "s14/review-r5/SENSE-a.md, SENSE-b.md: OK for all seven paragraphs (v3 with W2)",
+  "grounding": "OK",
+  "grounding_note": "s14/review-r5/trace-T1.md (\"Who would?\" kept, review-r3/DISPOSITIONS-r3.md and review-r5/DISPOSITIONS-r5.md); s14/review-r5/trace-T1.md (its SHIFT and LOST fixed in v4 with the published words; \"That's a lot of loose ends!\" kept)",
+  "stance": 0,
+  "stance_note": "s14/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflicts; v3 and v4 put published words back",
+  "lint": "REVIEW",
+  "keys": "PASS",
+  "missing": [],
+  "words": 158
+ },
+ "S14v4-P2": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S S S B",
+   "S S S S S S S S B"
+  ],
+  "march_note": "s14/review-r4/MARCH-labels-W2-a.txt and -b.txt: P2",
+  "cold": "OK",
+  "cold_note": "s14/review-r5/SENSE-a.md, SENSE-b.md: OK for all seven paragraphs (v3 with W2)",
+  "grounding": "OK",
+  "grounding_note": "s14/review-r5/trace-T1.md (its SHIFT and LOST fixed in v4 with the published words; \"That's a lot of loose ends!\" kept)",
+  "stance": 0,
+  "stance_note": "s14/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflicts; v3 and v4 put published words back",
+  "lint": "REVIEW",
+  "keys": "PASS",
+  "missing": [],
+  "words": 119
+ },
+ "S14v4-P34": {
+  "kind": "draft",
+  "march": [
+   "S B",
+   "S B",
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "s14/review-r4/MARCH-labels-W2-a.txt and -b.txt: P3, P4",
+  "cold": "OK",
+  "cold_note": "s14/review-r5/SENSE-a.md, SENSE-b.md: OK for all seven paragraphs (v3 with W2)",
+  "grounding": "OK",
+  "grounding_note": "s14/review-r3/trace-T2.md (OK); s14/review-r3/trace-T2.md (\"Who wants that?\" kept, DISPOSITIONS-r3.md)",
+  "stance": 0,
+  "stance_note": "s14/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflicts; v3 and v4 put published words back",
+  "lint": "REVIEW",
+  "keys": "PASS",
+  "missing": [],
+  "words": 85
+ },
+ "S14v4-P5": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "s14/review-r4/MARCH-labels-W2-a.txt and -b.txt: P5",
+  "cold": "OK",
+  "cold_note": "s14/review-r5/SENSE-a.md, SENSE-b.md: OK for all seven paragraphs (v3 with W2)",
+  "grounding": "OK",
+  "grounding_note": "s14/review-r5/trace-T2.md (OK)",
+  "stance": 0,
+  "stance_note": "s14/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflicts; v3 and v4 put published words back",
+  "lint": "CLEAR",
+  "keys": "PASS",
+  "missing": [],
+  "words": 55
+ },
+ "S14v4-P67": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s14/review-r4/MARCH-labels-W2-a.txt and -b.txt: P6, P7",
+  "cold": "OK",
+  "cold_note": "s14/review-r5/SENSE-a.md, SENSE-b.md: OK for all seven paragraphs (v3 with W2)",
+  "grounding": "OK",
+  "grounding_note": "s14/review-r5/trace-T2.md (\"(as you may have noticed!)\" kept, DISPOSITIONS-r5.md); s14/review-r5/trace-T2.md (\"I hope so, anyway.\" kept, DISPOSITIONS-r5.md)",
+  "stance": 0,
+  "stance_note": "s14/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflicts; v3 and v4 put published words back",
+  "lint": "REVIEW",
+  "keys": "PASS",
+  "missing": [],
+  "words": 67
+ },
+ "S14v4-P567": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S S B",
+   "S S B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s14/review-r4/MARCH-labels-W2-a.txt and -b.txt: P5, P6, P7",
+  "cold": "OK",
+  "cold_note": "s14/review-r5/SENSE-a.md, SENSE-b.md: OK for all seven paragraphs (v3 with W2)",
+  "grounding": "OK",
+  "grounding_note": "s14/review-r5/trace-T2.md (OK); s14/review-r5/trace-T2.md (\"(as you may have noticed!)\" kept, DISPOSITIONS-r5.md); s14/review-r5/trace-T2.md (\"I hope so, anyway.\" kept, DISPOSITIONS-r5.md)",
+  "stance": 0,
+  "stance_note": "s14/review-r3/STANCE-pub.md, STANCE-sofar.md: no conflicts; v3 and v4 put published words back",
+  "lint": "REVIEW",
+  "keys": "PASS",
+  "missing": [],
+  "words": 122
+ },
+ "S14v4": {
+  "kind": "section",
+  "parts": [
+   "S14v4-1P12",
+   "S14v4-P34",
+   "S14v4-P567"
+  ],
+  "repeats": 0,
+  "repeats_note": "s14/review-r3/REPEATS.md, answered in s14/review-r3/DISPOSITIONS-r3.md (1 fixed, 5 kept)"
+ }
+}

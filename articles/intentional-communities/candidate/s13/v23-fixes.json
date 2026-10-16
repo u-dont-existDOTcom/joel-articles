@@ -1,0 +1,128 @@
+[
+ {
+  "id": "H1-P2",
+  "old": "whatever agreement you come up with means anything. Until then, what's it worth?",
+  "new": "whatever agreement you come up with means anything.",
+  "why": "lint, H1 as a whole: B7/B13 FAIL, two of its four paragraphs end on a short line (the subsection lint of 2026-10-15). This one goes: H1-P2 keeps its other break, \"But really, truly dealt with it.\" (march r15, T2, both readings)",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H2-P2",
+  "old": "Where are you still unsure? Mark those places too.",
+  "new": "Mark the places on your list where you're still unsure, too.",
+  "why": "lint, H2 as a whole: B7/B13 FAIL, three of its five paragraphs end on a short line. H2-P2 had no break in either march reading (r15, T6), so its end becomes one sentence; the published \"Mark where you are unsure\" kept",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H3-P1",
+  "old": "If it's in the names of three out of twelve members, then despite what your literature says about everyone being equal, there are two classes of members.",
+  "new": "If three out of twelve members own everything, then whether or not your literature says everyone is equal, there are two classes of members.",
+  "why": "trace T1: LOST \"own everything\" (\"it\" was the deed, so the condition shrank to holding title) and SHIFT \"despite\" (it presupposed the literature claims equality; the published \"whether or not\"). Published words back, Emulate's shape kept",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H3-P2",
+  "old": "what about outside debt (can an owner borrow money outside the community, and what happens if they do?), how improvements get handled, what happens when someone wants to leave the community, etc., etc. Lots of decisions to make!",
+  "new": "what about outside debt, how improvements get handled, and what happens when someone wants to leave the community. Lots of decisions to make!",
+  "why": "trace T1 and three stance checks: the parenthesis made outside debt an owner's private borrowing, where the essay means the community's own debts (section 14, the capacity budget); trace T1: \"etc., etc.\" opened the published closed list. \"Lots of decisions to make!\" stays, the paragraph's break in both march readings",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H3-P3",
+  "old": "who has authority to hand out the major resources, where conflicts of interest are, etc. It won't do",
+  "new": "who has authority to hand out the major resources, where conflicts of interest are, etc. Could anyone in your group answer all of that today? It won't do",
+  "why": "march r15: no break in either reading (T12). A question made from the paragraph's own list, placed right after it, not last (E176 and the landing lesson)",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H4-P6",
+  "old": "How do you know? At each stage, always judge people based on their conduct. No matter how good it sounds when they talk about their spirituality or their therapy, don’t go by that.",
+  "new": "At each stage, always judge people based on their conduct. No matter how good it sounds when they talk about their spirituality or their therapy, don’t go by that. What do they actually do?",
+  "why": "Joel, 2026-10-16 18:22 UTC: \"i would cut the first sentence \"How do you know?\" ... know what? doesn't seem to follow\". It was the paragraph's only break (march r15, T20, both readings), so a question that follows from the sentence before it takes its place",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H4-P9",
+  "old": "What about people who aren't \"in\" the commune politically?",
+  "new": "What about people who aren't fully \"in\" the commune politically?",
+  "why": "trace T4: LOST \"full\" (the published \"do not need full political membership\")",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H4-P9",
+  "old": "are entitled to some rights when decisions really affect them, like pay and access to common resources.",
+  "new": "are entitled to some rights when decisions really affect their pay or access to common resources.",
+  "why": "trace T4: \"like\" made the published closed list of triggers examples, and \"and\" replaced \"or\"",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H4-P9",
+  "old": "The same is true for decisions really affecting their schedule, safety, housing, records or discipline. Equality is for everybody, not just members, or communes can end up recreating a servant class that moves from commune to commune.",
+  "new": "The same is true for decisions really affecting their schedule, safety, housing, records or discipline. That's only fair. Equality that stops at the membership line can end up recreating a servant class that moves from commune to commune.",
+  "why": "trace T4 and two stance checks: \"Equality is for everybody\" was a new universal claim; the published \"Egalitarianism that stops at the membership boundary can recreate a servant class\". \"That's only fair.\" gives the paragraph a break both march readings can see (r15: reading a only, T23), from what the paragraph says",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P1",
+  "old": "repeatedly violate essential community boundaries,",
+  "new": "repeatedly violate essential boundaries,",
+  "why": "trace T4: \"community\" narrowed the published \"essential boundaries\"",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P1",
+  "old": "If it's possible to do restorative work with the person in question in a reasonable amount of time, all the better.",
+  "new": "If restorative work can work with the person in question in a reasonable amount of time, all the better.",
+  "why": "trace T4: \"possible to do\" lost the published \"when it can work\" (effectiveness, not feasibility)",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P1",
+  "old": "But if the person is dangerous, the community",
+  "new": "But if the person is endangering everyone else, the community",
+  "why": "trace T4: LOST \"everyone else\" (the published \"a person who is endangering everyone else\")",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P2",
+  "old": "Who will recuse themselves?",
+  "new": "Who will be recused?",
+  "why": "trace T5: self-recusal for the published \"who is recused\"",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P2",
+  "old": "access to common resources and outside funds (if any)",
+  "new": "access to common resources or outside funds (if any)",
+  "why": "trace T5: \"and\" for the published \"or\"",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P2b",
+  "old": "Who will collect and preserve evidence?",
+  "new": "Who will preserve evidence?",
+  "why": "trace T6: \"collect and\" added a duty",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P2b",
+  "old": "How will the person be able to reply to the charges against them?",
+  "new": "How will the person be able to reply?",
+  "why": "trace T6: \"the charges against them\" framed formal charges the published doesn't",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P2b",
+  "old": "without creating danger?",
+  "new": "without endangering others?",
+  "why": "trace T6: LOST \"others\"",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ },
+ {
+  "id": "H5-P2b",
+  "old": "outside money (if any), etc., during the separation?",
+  "new": "outside money (if any) during the separation?",
+  "why": "trace T6: \"etc.\" opened the published closed list",
+  "disposition": "review-r15/DISPOSITIONS-r15.md"
+ }
+]

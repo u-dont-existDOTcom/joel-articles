@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1157,
-  "right": 817,
+  "calls": 1208,
+  "right": 859,
   "since_review": {
-   "calls": 755,
-   "right": 562,
-   "passed": 445
+   "calls": 806,
+   "right": 604,
+   "passed": 482
   },
   "today": {
-   "calls": 205,
-   "right": 161,
-   "passed": 130
+   "calls": 256,
+   "right": 203,
+   "passed": 167
   }
  },
  "windows": [
@@ -156,6 +156,14 @@
    "calls": 53,
    "right": 36,
    "passed": 39,
+   "always_ai_right": 14
+  },
+  {
+   "from": 300,
+   "to": 309,
+   "calls": 51,
+   "right": 42,
+   "passed": 37,
    "always_ai_right": 14
   }
  ],
@@ -2704,6 +2712,132 @@
    "pct": 51.0,
    "res_raw": "AI (AI Detected, 51% AI: AI-Generated, high, 258 words, the heading through H4-P4 and the first question of H4-P5; Human 98; AI 72, H4-P6 from At each stage; Human 205; AI 34, H4-P9 from (Yes, even the interns!); Human 35), 21:16:57, [check](https://www.pangram.com/history/0dfc76c1-1b4a-40c3-bfad-f307e555a08e)",
    "where": "s13/b299/PREDICTIONS-scored.md:11",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 304,
+   "name": "304g-S13v26-H3",
+   "mine": "AI",
+   "why": "the land subsection read 100% AI as a whole in 299g though each paragraph read Human; four review rounds pulled its wording back toward the published",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 460 words, AI likelihood 0.00), 19:52:38, [check](https://www.pangram.com/history/f43b2b32-6763-4446-baab-42006950ca88)",
+   "where": "s13/b304/PREDICTIONS-scored.md:11",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 304,
+   "name": "304g-S13v26-4P9h5P2",
+   "mine": "AI",
+   "why": "way A's H5-P2 is the formal one (\"What will constitute cause\", \"Who will be recused?\"), and the stretch read 100% AI in 299g",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 312 words, AI likelihood 0.23), 19:53:22, [check](https://www.pangram.com/history/dd52e1a0-06ea-4b9b-bc0d-0245a3e0f600)",
+   "where": "s13/b304/PREDICTIONS-scored.md:15",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 304,
+   "name": "304g-S13v26b-H5",
+   "mine": "Human",
+   "why": "as the stretch, way B",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, high, 403 words, AI likelihood 0.81), 19:53:56, [check](https://www.pangram.com/history/fc497395-8872-4684-84b8-8f12ba986762)",
+   "where": "s13/b304/PREDICTIONS-scored.md:18",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 301,
+   "name": "301g-S14v2-P34",
+   "mine": "AI",
+   "why": "P3 and P4 are mostly my fixes: \"so basic life doesn't depend on reviving the commune\", and P4's \"the transition support they agreed on, and their dignity\" and \"a coherent story of what happened\" are the published words",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 86 words, AI likelihood 0.03), 18:58:58, [check](https://www.pangram.com/history/1fa00349-43b3-4cb5-83ab-419f7353709d)",
+   "where": "s14/b301/PREDICTIONS-scored.md:7",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 301,
+   "name": "301g-S14v2-P5",
+   "mine": "AI",
+   "why": "the closing antithesis is mine (\"had changed dramatically, but the bonds hadn't vanished\"), and \"What a relief!\" is a short reaction on a summary sentence",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 67 words, AI likelihood 0.12), 18:59:09, [check](https://www.pangram.com/history/d92b948a-ace1-4443-97fb-8082dbcb7f72)",
+   "where": "s14/b301/PREDICTIONS-scored.md:8",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 301,
+   "name": "301g-S14v2",
+   "mine": "Mixed",
+   "why": "Human windows over P1 and P2, AI over P3 to P7",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 380 words, AI likelihood 0.11), 18:59:29, [check](https://www.pangram.com/history/bccb5489-6b1e-4492-b554-4cbb894585ef)",
+   "where": "s14/b301/PREDICTIONS-scored.md:10",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 302,
+   "name": "302g-S14v2-P567",
+   "mine": "Human",
+   "why": "P5's sisters story and \"What a relief!\" lead into his father lines the way the published section runs, and the whole section read Human at high confidence with these three in it (301g); the risk is P7's closing aphorism",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, medium, 123 words, AI likelihood 0.67), 19:04:15, [check](https://www.pangram.com/history/319ebe9e-73ea-4ce6-a572-5cda20a58243)",
+   "where": "s14/b302/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 303,
+   "name": "303g-S14v3W5-P567",
+   "mine": "AI",
+   "why": "as W5's pair",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, medium, 134 words, AI likelihood 0.32), 19:26:49, [check](https://www.pangram.com/history/8487806c-a026-41af-9784-7152a19752e2)",
+   "where": "s14/b303/PREDICTIONS-scored.md:18",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 305,
+   "name": "305g-S14v4-P2",
+   "mine": "Human",
+   "why": "as above; the risk is the published list back inside the question run",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, Medium, 89; AI-Generated, Medium, 33, 122 words, AI likelihood 0.46), 19:43:58, [check](https://www.pangram.com/history/dedaa1cc-aaec-4b8b-978a-9dd49dd848c0)",
+   "where": "s14/b305/PREDICTIONS-scored.md:6",
    "passed": false,
    "right": false,
    "text": ""

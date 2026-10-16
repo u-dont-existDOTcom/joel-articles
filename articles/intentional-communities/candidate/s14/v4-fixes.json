@@ -1,0 +1,23 @@
+[
+ {
+  "id": "P2",
+  "old": "Who keeps childcare going and makes sure the kids continue to go to school?",
+  "new": "Who keeps childcare and schooling going?",
+  "why": "trace r5 T1: SHIFT, \"makes sure the kids continue to go to school\" narrowed schooling in any form (in the community, at home) to attending a school; the published \"keeps childcare and schooling going\"",
+  "disposition": "review-r5/DISPOSITIONS-r5.md"
+ },
+ {
+  "id": "P2",
+  "old": "Who takes responsibility for tiding people over until they’re housed and settled again, including with outside cash or benefits, if relevant?",
+  "new": "Who takes responsibility for bridging people’s food, housing and care, and any outside cash or benefits, if relevant?",
+  "why": "trace r5 T1: LOST, v3's \"tiding people over until they're housed and settled again\" no longer named food, housing and care as what gets bridged, added an end point, and dropped \"bridges\", which P3's \"bridge/successor\" leans on. The published words back, as the trace's fix has them, with \"people's\" and \"any\" so that the paragraph doesn't carry two lists of three (linter E125)",
+  "disposition": "review-r5/DISPOSITIONS-r5.md"
+ },
+ {
+  "id": "P3",
+  "old": "assign a bridge/successor for each critical function",
+  "new": "assign a bridge or successor for each critical function",
+  "why": "a repeated pause (both cold reads of round r5: \"bridge/successor\"): the published \"Preassign a bridge or successor for each critical function\", without the slash",
+  "disposition": "review-r5/DISPOSITIONS-r5.md"
+ }
+]

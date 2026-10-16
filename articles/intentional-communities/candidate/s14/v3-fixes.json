@@ -1,0 +1,107 @@
+[
+ {
+  "id": "P1",
+  "old": "Dissolution is something founders probably don’t want to talk about",
+  "new": "Dissolution is something founders rarely want to talk about",
+  "why": "trace T1: \"probably don't want\" made the published pattern (\"rarely want to discuss\") a guess; the trace's own fix",
+  "disposition": "review-r3/DISPOSITIONS-r3.md"
+ },
+ {
+  "id": "P2",
+  "old": "If the commune dissolves,",
+  "new": "If the community dissolves,",
+  "why": "trace T1: the published \"If the community ends\"; \"commune\" narrowed the questions",
+  "disposition": "review-r3/DISPOSITIONS-r3.md"
+ },
+ {
+  "id": "P2",
+  "old": "Who takes responsibility for bridging gaps in food, housing, care, external income/benefits, etc., if applicable?",
+  "new": "Who takes responsibility for tiding people over until they’re housed and settled again, including with outside cash or benefits, if relevant?",
+  "why": "trace T1: \"etc.\" opened the published closed list; both cold reads paused at \"bridging gaps in food, housing, care\", which the two questions just before it already ask about (a place to live, food, medications and care). The published \"bridges food, housing, care, outside cash or benefits if relevant\" said plainly: to tide people over is to carry them across the gap in what those questions name, and the published \"outside cash\" and \"if relevant\" are back, with \"housed\" (key U4: the published \"keeps people housed\"). Its own list of food, housing and care went: with the buildings list it made two lists of three in the paragraph (linter E125, FAIL)",
+  "disposition": "review-r3/DISPOSITIONS-r3.md"
+ },
+ {
+  "id": "P2",
+  "old": "for ensuring obligations to the land are met,",
+  "new": "for making sure land obligations are met,",
+  "why": "trace T1: \"obligations to the land\" read as duties owed to the land; the published \"land obligations\" (taxes, leases, covenants too). Both cold reads paused at \"obligations to the land\"",
+  "disposition": "review-r3/DISPOSITIONS-r3.md"
+ },
+ {
+  "id": "P5",
+  "old": "Institutions and the relationships that make them up don’t have to die at the same time.",
+  "new": "Institutions and relationships don’t die at the same time.",
+  "why": "trace T3: \"don't have to\" made the published fact (\"do not die at the same time\") a possibility, and \"the relationships that make them up\" narrowed the published \"relationships\" and added a claim; the published words",
+  "disposition": "review-r3/DISPOSITIONS-r3.md"
+ },
+ {
+  "id": "P5",
+  "old": "American Commune follows two sisters",
+  "new": "The film *American Commune* follows two sisters",
+  "why": "both cold reads paused at \"American Commune follows two sisters\": v2 lost the published italics, so it read as a group, not a title. The italics back, and \"The film\" from the reading list at the end, which gives its YouTube link",
+  "disposition": "review-r3/DISPOSITIONS-r3.md"
+ },
+ {
+  "id": "P5",
+  "old": "The communal economy they were born into had changed dramatically,",
+  "new": "The communal economy had changed dramatically,",
+  "why": "trace T3: \"they were born into\" was a new fact, and \"they\" could be the former members; the published words",
+  "disposition": "review-r3/DISPOSITIONS-r3.md"
+ },
+ {
+  "id": "P6",
+  "ending": "W1",
+  "old": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started, the film he made, the places he took me, and the questions I’m still asking.",
+  "new": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started, the film he made, the places he took me, and the questions I’m still asking.",
+  "why": "ending W1 (docstring)"
+ },
+ {
+  "id": "P7",
+  "ending": "W1",
+  "old": "Even if the legal entity dies, some of what people learned to give one another can go on. That gives me hope.",
+  "new": "Even after the community ends as a legal entity, some of what people learned to give one another may go on. I hope so, anyway.",
+  "why": "both cold reads paused at \"the legal entity\", which after P6 could be the Bruderhof's; \"the community\" says whose (P2's word). The published \"may continue\" back for v2's \"can go on\" (U17 keeps \"go on\"), and the break is the writer's hedge on that \"may\", not v2's \"That gives me hope.\" (P6 and P7 read AI together, 301g)"
+ },
+ {
+  "id": "P6",
+  "ending": "W2",
+  "old": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started, the film he made, the places he took me, and the questions I’m still asking.",
+  "new": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).",
+  "why": "ending W2 (docstring)"
+ },
+ {
+  "id": "P7",
+  "ending": "W2",
+  "old": "Even if the legal entity dies, some of what people learned to give one another can go on. That gives me hope.",
+  "new": "Even after the community ends as a legal entity, some of what people learned to give one another may go on. I hope so, anyway.",
+  "why": "both cold reads paused at \"the legal entity\", which after P6 could be the Bruderhof's; \"the community\" says whose (P2's word). The published \"may continue\" back for v2's \"can go on\" (U17 keeps \"go on\"), and the break is the writer's hedge on that \"may\", not v2's \"That gives me hope.\" (P6 and P7 read AI together, 301g)"
+ },
+ {
+  "id": "P6",
+  "ending": "W3",
+  "old": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started, the film he made, the places he took me, and the questions I’m still asking.",
+  "new": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started, and *Where’s Utopia?*, the film he made. It shaped the places he took me. And it’s shaped the questions I’m still asking, as you’ve probably noticed by now!",
+  "why": "ending W3 (docstring)"
+ },
+ {
+  "id": "P7",
+  "ending": "W3",
+  "old": "Even if the legal entity dies, some of what people learned to give one another can go on. That gives me hope.",
+  "new": "The community can end as a legal entity, and some of what people learned to give one another may still go on. I like to think so, anyway.",
+  "why": "both cold reads paused at \"the legal entity\", which after P6 could be the Bruderhof's; \"the community\" says whose (P2's word). The published \"may continue\" back for v2's \"can go on\" (U17 keeps \"go on\"), and the break is the writer's hedge on that \"may\", not v2's \"That gives me hope.\" (P6 and P7 read AI together, 301g)"
+ },
+ {
+  "id": "P6",
+  "ending": "W5",
+  "old": "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started, the film he made, the places he took me, and the questions I’m still asking.",
+  "new": "My father carried the Bruderhof with him long after he left it. I can see it in the foundation he started and the film he made, and in the places he took me. And honestly, I can see it in the questions I’m still asking.",
+  "why": "ending W5 (docstring)"
+ },
+ {
+  "id": "P7",
+  "ending": "W5",
+  "old": "Even if the legal entity dies, some of what people learned to give one another can go on. That gives me hope.",
+  "new": "Even after the community ends as a legal entity, some of what people learned to give one another may go on. That’s what I’m hoping for, at least.",
+  "why": "both cold reads paused at \"the legal entity\", which after P6 could be the Bruderhof's; \"the community\" says whose (P2's word). The published \"may continue\" back for v2's \"can go on\" (U17 keeps \"go on\"), and the break is the writer's hedge on that \"may\", not v2's \"That gives me hope.\" (P6 and P7 read AI together, 301g)"
+ }
+]

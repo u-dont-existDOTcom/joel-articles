@@ -1,0 +1,114 @@
+[
+ {
+  "id": "H1-P1",
+  "old": "It sounds cheesy but it's true.",
+  "new": "It may sound cheesy, but it's true all the same.",
+  "why": "the subsection lint (B7/B13): H1-P2 keeps its last line (above), so this one is no longer a short landing; the same aside, still the paragraph's break",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H3-P2",
+  "old": "what happens when an owner dies,",
+  "new": "how inheritance works,",
+  "why": "stance check against the article so far (review-r16/STANCE-sofar.md): \"what happens when an owner dies\" narrowed the published \"inheritance\" to an owner's death (a member's heirs and children left out). The published word back, nothing else; round r17's reviews ran before this change",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H3-P3",
+  "old": "How will you handle VISIBILITY of what you have?",
+  "new": "And how will you handle the VISIBILITY of what the community has?",
+  "why": "cold read r16 b: the opener didn't follow from the paragraph before (the opener rule of 2026-10-16), and reader a paused at \"VISIBILITY of what you have\"; \"And\" makes it the next decision after H3-P2's, \"the community\" says whose",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H3-P3",
+  "old": "where conflicts of interest are, etc. Could anyone in your group answer all of that today?",
+  "new": "where conflicts of interest are, etc.",
+  "why": "trace T3: the question implied the group can't answer now, which the published doesn't say. Its replacement in the first v24, \"Who's keeping track of all that?\", read as a step in both march readings of round r17 (T12), so the break moves (below)",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H3-P3",
+  "old": "you'll still have scarce resources and bottlenecks.",
+  "new": "you'll still have scarce resources and bottlenecks. Sorry!",
+  "why": "the break: the writer reacting to the claim just made, mid-paragraph, no claim of its own (E176)",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H3-P3",
+  "old": "(whether it's cash, if you use it, or tools,",
+  "new": "(cash, if you use it, but also tools,",
+  "why": "trace T3: \"or\" made the other things alternatives to cash; the published \"Cash if the community uses it, but also tools ...\" (a cash-only right still depends on spare money, which the next sentence says); readers a and V1 paused at \"unless the community has spare money\"",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H3-P5",
+  "old": "For the full sequence, see Diana Leafe Christian's [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) (on the reading list at the end) -- vision, then members, then pooling major resources, then land.",
+  "new": "For the full sequence -- vision, then members, then pooling major resources, then land -- see Diana Leafe Christian's [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) (on the reading list at the end). It's the first book I'd hand to any group starting out.",
+  "why": "a repeated pause (r9 a, r14 a, r16 a and b: \"the full sequence\" before the reader learns what it is): the sequence goes right after the phrase, as in the published sentence. The break (round r17's march: none in either reading, T14) is the writer's own recommendation, from his appendix's \"start here for sequencing, membership, money, land, and agreements\"; eleven words, so the land subsection's landing rate holds",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H4-P2",
+  "old": "There’s some correspondence first.",
+  "new": "First, correspond with them.",
+  "why": "a repeated pause (V1 and r16 a: \"There's some correspondence first\"): the published \"Correspond first.\", with whom said (key U40 \"correspond\"); round r17's trace T3: \"for a while\" added a length, so it went",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H4-P6",
+  "old": "It’s also easy to mistake people just doing what everyone else is doing for safety.",
+  "new": "It’s also easy to take people doing what everyone else is doing as a sign of safety.",
+  "why": "a repeated pause (V1, r16 a and b): \"doing ... for safety\" read first as what they do it for; the published \"mistaking conformity for safety\" without the garden path (key U47 kept)",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H4-P7",
+  "old": "You can find out by asking if you’ve seen them do this thing before,",
+  "new": "You can find out by checking whether you’ve seen them do this thing before,",
+  "why": "a repeated pause (V1, r16 a and b): \"asking\" whom?",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H4-P9",
+  "old": "What about people who aren't fully \"in\" the commune politically?",
+  "new": "Then there are the people who aren't fully \"in\" the commune politically.",
+  "why": "cold read r16 b: after the trial run with candidates, the question first read as being about them; \"Then there are\" opens the new group",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H4-P9",
+  "old": "are entitled to some rights when decisions really affect their pay or access to common resources.",
+  "new": "are entitled to some rights when decisions really affect their pay or access to common resources. Why wouldn't they be?",
+  "why": "the break, a question about the claim just made (E176); it replaces \"That's only fair.\" below",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H4-P9",
+  "old": " That's only fair.",
+  "new": "",
+  "why": "trace T4: a new justification (fairness); the published argues from the servant-class risk",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H5-P1",
+  "old": "a serious danger to others (or to everyone in general)",
+  "new": "a serious or generalized danger to others",
+  "why": "trace T5: \"serious\" came to cover both cases; the published \"a serious or generalized danger\"",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H5-P2b",
+  "old": "What might call for immediate action",
+  "new": "What conduct might call for immediate action",
+  "why": "trace T7: LOST \"conduct\" (the published \"what conduct triggers immediate protective action\")",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ },
+ {
+  "id": "H1-P2",
+  "old": "v23's H1-P2",
+  "new": "v22's H1-P2",
+  "why": "march r16 reading a found no break once \"Until then, what's it worth?\" was gone",
+  "disposition": "review-r16/DISPOSITIONS-r16.md"
+ }
+]

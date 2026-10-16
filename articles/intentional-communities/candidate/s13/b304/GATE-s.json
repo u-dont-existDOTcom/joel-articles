@@ -1,0 +1,320 @@
+{
+ "S13v26-1hP1P2": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B"
+  ],
+  "march_note": "H1-P1: r17/r17b/r18, ['S S B', 'S S B']; H1-P2: b298 S13v17-1P2, ['S S B S B', 'S S B S B']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H1-P1: s13/review-r17/trace-T1.md (OK); H1-P2: unchanged since v21 (b298 S13v17-1P2)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 180
+ },
+ "S13v26-1P3P4": {
+  "kind": "draft",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S S B S",
+   "S S S S B S"
+  ],
+  "march_note": "H1-P3: b298 S13v5-1P3, ['S B S', 'S B S']; H1-P4: r17/r17b/r18, ['S S S S B S', 'S S S S B S']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H1-P3: unchanged since v21 (b298 S13v5-1P3); H1-P4: s13/review-r18/trace-T1.md (v25's \"a budget of\"); before it unchanged since v21 (b298: S13v9-1P4)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 175
+ },
+ "S13v26-2P1P2": {
+  "kind": "edit",
+  "was": "batch 299g: S13v21-2P1P2 (H2-P1 with H2-P2), Human (medium); H2-P1 unchanged since",
+  "march_was": [
+   "S B S",
+   "S B S"
+  ],
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "was: b298 S13v10-2P1P2 (H2-P2's readings); now: s13/review-r18/MARCH-labels-h2a-a.txt and -b.txt",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "s13/review-r18/trace-T1.md (v26's break \"Long list, huh?\"); its v23 wording: s13/review-r16/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 105
+ },
+ "S13v26-3P1P2": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "H3-P1: r17/r17b/r18, ['S B S S S', 'S B S S S']; H3-P2: r17/r17b/r18, ['S S S B', 'S S S B']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H3-P1: s13/review-r16/trace-T2.md (OK); H3-P2: s13/review-r16/trace-T2.md (OK); v24's \"how inheritance works\" is the published word (s13/review-r16/DISPOSITIONS-r16.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 148
+ },
+ "S13v26-3P3": {
+  "kind": "draft",
+  "march": [
+   "S S B S S S S S",
+   "S S B S S S S S"
+  ],
+  "march_note": "H3-P3: r17/r17b/r18, ['S S B S S S S S', 'S S B S S S S S']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H3-P3: s13/review-r17b/trace-T1.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 174
+ },
+ "S13v26-3P4P5": {
+  "kind": "draft",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B",
+   "S B"
+  ],
+  "march_note": "H3-P4: r17/r17b/r18, ['S S S S B S', 'S S S S B S']; H3-P5: r17/r17b/r18, ['S B', 'S B']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H3-P4: s13/review-r15/trace-T3.md (OK); H3-P5: s13/review-r17b/trace-T1.md (two findings kept, s13/review-r17/DISPOSITIONS-r17.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 115
+ },
+ "S13v26-H3": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S S S B",
+   "S S S B",
+   "S S B S S S S S",
+   "S S B S S S S S",
+   "S S S S B S",
+   "S S S S B S",
+   "S B",
+   "S B"
+  ],
+  "march_note": "H3-P1: r17/r17b/r18, ['S B S S S', 'S B S S S']; H3-P2: r17/r17b/r18, ['S S S B', 'S S S B']; H3-P3: r17/r17b/r18, ['S S B S S S S S', 'S S B S S S S S']; H3-P4: r17/r17b/r18, ['S S S S B S', 'S S S S B S']; H3-P5: r17/r17b/r18, ['S B', 'S B']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H3-P1: s13/review-r16/trace-T2.md (OK); H3-P2: s13/review-r16/trace-T2.md (OK); v24's \"how inheritance works\" is the published word (s13/review-r16/DISPOSITIONS-r16.md); H3-P3: s13/review-r17b/trace-T1.md (OK); H3-P4: s13/review-r15/trace-T3.md (OK); H3-P5: s13/review-r17b/trace-T1.md (two findings kept, s13/review-r17/DISPOSITIONS-r17.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 442
+ },
+ "S13v26-4P1P2": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S S B S S S",
+   "S S B S S B"
+  ],
+  "march_note": "H4-P1: b298 S13v6-4P1, ['S B S S S', 'S B S S S']; H4-P2: r17/r17b/r18, ['S S B S S S', 'S S B S S B']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H4-P1: unchanged since v21 (b298 S13v6-4P1); H4-P2: s13/review-r17/trace-T3.md (\"for a while\" cut in v24, \"(Not everyone does!)\" kept, s13/review-r17/DISPOSITIONS-r17.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 119
+ },
+ "S13v26-4P6P7": {
+  "kind": "draft",
+  "march": [
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "H4-P6: r17/r17b/r18, ['S S B S S S', 'S S B S S S']; H4-P7: r17/r17b/r18, ['S B S S', 'S B S S']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H4-P6: s13/review-r18/trace-T2.md (v25's \"Six months\"); s13/review-r17/trace-T4.md before it; H4-P7: s13/review-r18/trace-T2.md; the van-keys line kept (s13/review-r17/DISPOSITIONS-r17.md)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 163
+ },
+ "S13v26-H4": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S S B S S S",
+   "S S B S S B",
+   "S B B",
+   "S B B",
+   "S S B S",
+   "S S B S",
+   "S S S S S B S S",
+   "S S S S S B S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S",
+   "S B S S",
+   "S S B S S S S S",
+   "S S B S S S S S",
+   "S S B S S S",
+   "S S B S S S"
+  ],
+  "march_note": "H4-P1: b298 S13v6-4P1, ['S B S S S', 'S B S S S']; H4-P2: r17/r17b/r18, ['S S B S S S', 'S S B S S B']; H4-P3: b298 S13v9-4P3P4, ['S B B', 'S B B']; H4-P4: b298 S13v9-4P4, ['S S B S', 'S S B S']; H4-P5: b298 S13v21-4P5, ['S S S S S B S S', 'S S S S S B S S']; H4-P6: r17/r17b/r18, ['S S B S S S', 'S S B S S S']; H4-P7: r17/r17b/r18, ['S B S S', 'S B S S']; H4-P8: b298 S13v14-4P8, ['S S B S S S S S', 'S S B S S S S S']; H4-P9: r17/r17b/r18, ['S S B S S S', 'S S B S S S']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H4-P1: unchanged since v21 (b298 S13v6-4P1); H4-P2: s13/review-r17/trace-T3.md (\"for a while\" cut in v24, \"(Not everyone does!)\" kept, s13/review-r17/DISPOSITIONS-r17.md); H4-P3: unchanged since v21 (b298 S13v9-4P3P4); H4-P4: unchanged since v21 (b298 S13v9-4P4); H4-P5: unchanged since v21 (b298 S13v21-4P5); H4-P6: s13/review-r18/trace-T2.md (v25's \"Six months\"); s13/review-r17/trace-T4.md before it; H4-P7: s13/review-r18/trace-T2.md; the van-keys line kept (s13/review-r17/DISPOSITIONS-r17.md); H4-P8: unchanged since v21 (b298 S13v14-4P8); H4-P9: s13/review-r18/trace-T2.md (v25's \"All of them\"); s13/review-r17/trace-T4.md (OK) before it",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 685
+ },
+ "S13v26-4P9h5P2": {
+  "kind": "draft",
+  "march": [
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S S",
+   "S B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B"
+  ],
+  "march_note": "H4-P9: r17/r17b/r18, ['S S B S S S', 'S S B S S S']; H5-P1: r17/r17b/r18, ['S B S S S', 'S B S S S']; H5-P2: r17/r17b/r18, ['S S S S S S S S S B', 'S S S S S S S S S B']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H4-P9: s13/review-r18/trace-T2.md (v25's \"All of them\"); s13/review-r17/trace-T4.md (OK) before it; H5-P1: s13/review-r17/trace-T5.md (\"Yeah, that's pretty tough ...\" kept, s13/review-r17/DISPOSITIONS-r17.md); H5-P2: s13/review-r16/trace-T6.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 304
+ },
+ "S13v26b-4P9h5P2": {
+  "kind": "draft",
+  "march": [
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S S",
+   "S B S S S",
+   "S S S S S S S S S S B",
+   "S S S S S S S S S S B"
+  ],
+  "march_note": "H4-P9: r17/r17b/r18, ['S S B S S S', 'S S B S S S']; H5-P1: r17/r17b/r18, ['S B S S S', 'S B S S S']; H5-P2: r17/r17b/r18, ['S S S S S S S S S S B', 'S S S S S S S S S S B']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H4-P9: s13/review-r18/trace-T2.md (v25's \"All of them\"); s13/review-r17/trace-T4.md (OK) before it; H5-P1: s13/review-r17/trace-T5.md (\"Yeah, that's pretty tough ...\" kept, s13/review-r17/DISPOSITIONS-r17.md); H5-P2: s13/review-r17/trace-T6.md (OK)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 305
+ },
+ "S13v26-H5": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B",
+   "B S S B S S",
+   "S S S B S S",
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "H5-P1: r17/r17b/r18, ['S B S S S', 'S B S S S']; H5-P2: r17/r17b/r18, ['S S S S S S S S S B', 'S S S S S S S S S B']; H5-P3: b298 S13v21-5P3, ['B S S B S S', 'S S S B S S']; H5-P4: b298 S13v20-5P4, ['S B S S S', 'S B S S S']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H5-P1: s13/review-r17/trace-T5.md (\"Yeah, that's pretty tough ...\" kept, s13/review-r17/DISPOSITIONS-r17.md); H5-P2: s13/review-r16/trace-T6.md (OK); H5-P3: unchanged since v21 (b298 S13v21-5P3); H5-P4: unchanged since v21 (b298 S13v20-5P4)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 388
+ },
+ "S13v26b-H5": {
+  "kind": "draft",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S S S S S S S S S S B",
+   "S S S S S S S S S S B",
+   "B S S B S S",
+   "S S S B S S",
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "H5-P1: r17/r17b/r18, ['S B S S S', 'S B S S S']; H5-P2: r17/r17b/r18, ['S S S S S S S S S S B', 'S S S S S S S S S S B']; H5-P3: b298 S13v21-5P3, ['B S S B S S', 'S S S B S S']; H5-P4: b298 S13v20-5P4, ['S B S S S', 'S B S S S']",
+  "cold": "OK",
+  "cold_note": "s13/review-r17/SENSE-a.md, SENSE-b.md: OK for all 27 paragraphs of v24 (v25 and v26 change a few words in four)",
+  "grounding": "OK",
+  "grounding_note": "H5-P1: s13/review-r17/trace-T5.md (\"Yeah, that's pretty tough ...\" kept, s13/review-r17/DISPOSITIONS-r17.md); H5-P2: s13/review-r17/trace-T6.md (OK); H5-P3: unchanged since v21 (b298 S13v21-5P3); H5-P4: unchanged since v21 (b298 S13v20-5P4)",
+  "stance": 0,
+  "stance_note": "s13/review-r16/STANCE-pub.md, STANCE-sofar.md on v23: one conflict, fixed in v24 (\"how inheritance works\"); v24 to v26 put published words back and add no position",
+  "missing": [],
+  "lint": "REVIEW",
+  "words": 389
+ },
+ "S13v26": {
+  "kind": "section",
+  "parts": [
+   "S13v26-1hP1P2",
+   "S13v26-1P3P4",
+   "S13v26-2P1P2",
+   "S13v26-3P1P2",
+   "S13v26-3P3",
+   "S13v26-3P4P5",
+   "S13v26-H3",
+   "S13v26-4P1P2",
+   "S13v26-4P6P7",
+   "S13v26-H4",
+   "S13v26-4P9h5P2",
+   "S13v26-H5"
+  ],
+  "repeats": 0,
+  "repeats_note": "s13/review-r15/REPEATS.md, answered in s13/review-r15/DISPOSITIONS-r15.md; v23 to v26 add breaks and no claim, and the two apologies (\"Sorry!\" in H3-P3, \"(Sorry, hanging out doesn't count!\" in H4-P8) are two subsections apart"
+ }
+}

@@ -1,0 +1,30 @@
+# Predictions and Pangram results: batch 304g (2026-10-16, section 13 draft v26)
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). Section 13 v26: v21 read 56% AI as a whole (298g) and 299g found the land subsection and the stretch from H4-P9 through H5-P2 AI in every context; v22 to v26 rewrote those from Emulate round i, put the meaning back over rounds r15 to r18, and made the fixes those rounds called for, among them Joel's cut of "How do you know?" (18:22 UTC). This is the one more bounded fix-and-check pass. Stage 1: every group that holds a changed paragraph, the three subsections that read AI before, and the H4-P9 to H5-P2 stretch both ways (way B is H5-P2's other wording). Stage 2: the whole section, the better way. Records in `GATE.json` (built by `make_batch.py`); every prediction was written before the batch ran.
+
+## Batch 304g, stage 1
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S13v26-1hP1P2 | Human | the heading and the first two paragraphs read Human in the whole of v21 (298g); H1-P1's aside is longer now | **Human** (Human Written, high, 190 words, AI likelihood 0.00), 19:51:32, [check](https://www.pangram.com/history/e04b102b-49b4-4877-80e2-51219decf3d2) |
+| S13v26-1P3P4 | Human | read Human (medium) in 299g; v25 changes two words in H1-P4 | **Human** (Human Written, high, 181 words, AI likelihood 0.18), 19:51:43, [check](https://www.pangram.com/history/0eb45f5f-0366-4d54-add8-0d38238cdec6) |
+| S13v26-2P1P2 | Human | read Human (medium) in 299g; "Long list, huh?" is a casual remark in the middle of H2-P2 | **Human** (Human Written, medium, 108 words, AI likelihood 0.00), 19:51:53, [check](https://www.pangram.com/history/f3fc904f-d000-453f-bd66-244fa8a606c4) |
+| S13v26-3P1P2 | Human | Emulate round i's land paragraphs, with published words put back in a few places | **Human** (Human Written, high, 151 words, AI likelihood 0.00), 19:52:05, [check](https://www.pangram.com/history/2f72e473-3796-4cf5-8e84-72925ad559f5) |
+| S13v26-3P3 | Human | 174 words of Emulate's with "Sorry!" in the middle | **Human** (Human Written, high, 183 words, AI likelihood 0.00), 19:52:17, [check](https://www.pangram.com/history/976898e7-b92d-499e-85cc-f3900b0d6d2a) |
+| S13v26-3P4P5 | Human | the leaving paragraph and the book's sequence, with "It's the first book I'd hand to any group starting out." | **Human** (Human Written, medium, 121 words, AI likelihood 0.00), 19:52:28, [check](https://www.pangram.com/history/61b0d1f5-b4b0-48ef-a966-0b04dfeca072) |
+| S13v26-H3 | AI | the land subsection read 100% AI as a whole in 299g though each paragraph read Human; four review rounds pulled its wording back toward the published | **Human** (Human Written, high, 460 words, AI likelihood 0.00), 19:52:38, [check](https://www.pangram.com/history/f43b2b32-6763-4446-baab-42006950ca88) |
+| S13v26-4P1P2 | Human | H4-P2 is now the published "First, correspond with them." with the casual questions after it | **Human** (Human Written, medium, 123 words, AI likelihood 0.11), 19:52:49, [check](https://www.pangram.com/history/cd97c033-e395-4288-81f6-6cd2d0f7bba2) |
+| S13v26-4P6P7 | Human | "What do they actually do?" and the van keys | **Human** (Human Written, high, 171 words, AI likelihood 0.00), 19:53:01, [check](https://www.pangram.com/history/3bf7525c-cc2e-4ca8-a913-207f1ad3b3ae) |
+| S13v26-H4 | AI | the visitor subsection read 51% AI alone in 299g (its first four paragraphs) and Human in the section | **AI** (AI Detected; windows: AI-Generated, High, 173; Human, High, 536, 709 words, AI likelihood 0.24), 19:53:12, [check](https://www.pangram.com/history/42e3c294-d84d-4fc9-91eb-475b6937f408) |
+| S13v26-4P9h5P2 | AI | way A's H5-P2 is the formal one ("What will constitute cause", "Who will be recused?"), and the stretch read 100% AI in 299g | **Human** (Human Written, high, 312 words, AI likelihood 0.23), 19:53:22, [check](https://www.pangram.com/history/dd52e1a0-06ea-4b9b-bc0d-0245a3e0f600) |
+| S13v26b-4P9h5P2 | Human | way B's H5-P2 is the casual one ("though", "common stuff", "outside money") | **Human** (Human Written, high, 314 words, AI likelihood 0.03), 19:53:34, [check](https://www.pangram.com/history/604664e3-f40e-4eb5-a4f1-b65856789a5d) |
+| S13v26-H5 | AI | as the stretch, way A | **AI** (AI Generated, high, 401 words, AI likelihood 0.68), 19:53:48, [check](https://www.pangram.com/history/dacc528c-8021-4b46-9cae-d859d76ff5d2) |
+| S13v26b-H5 | Human | as the stretch, way B | **AI** (AI Generated, high, 403 words, AI likelihood 0.81), 19:53:56, [check](https://www.pangram.com/history/fc497395-8872-4684-84b8-8f12ba986762) |
+
+Results of 304g stage 1 (Pangram's History, 2026-10-16 UTC, 19:51:32 to 19:53:56): every group that holds a paragraph changed since v21 reads Human, nine of them at high confidence. The land subsection, 100% AI as a whole in 299g, reads Human (high, 460 words, 0.00), and so does the stretch from H4-P9 through H5-P2, both ways (A high 0.23, B high 0.03). Two stretches still read AI: the visitor subsection's first 173 words inside the whole subsection (its heading, H4-P1 and H4-P2; the other 536 words Human, high), though H4-P1 with H4-P2 reads Human alone (medium); and the last subsection as a whole, both ways (A high 0.68, B high 0.81), though its first three paragraphs read Human together. What the last subsection adds to that stretch is H5-P3 and H5-P4, unchanged since v21, which read Human alone (297g, 296g). Predictions: 11 of 14 (wrong: the land subsection, which I expected AI; way A's stretch, which I expected AI; way B's subsection, which I expected Human).
+
+## Batch 304g, stage 2 (written before the run, after stage 1's results)
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S13v26 | Mixed | stage 1 read every changed group Human, the land subsection Human and the H4-P9 to H5-P2 stretch Human both ways, but the last subsection reads AI as a whole both ways, and the visitor subsection's opening reads AI inside it | |
