@@ -91,6 +91,22 @@
       "service": "Pangram web app (dashboard), unless the note says the API",
       "record": "CANDIDATE: section 12 v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written; trailing spaces taken out; links, the italics on \"right now\" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so.",
       "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 14,
+      "version": "v5",
+      "passage": "section 14 v5 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard)",
+      "record": "CANDIDATE: section 14 v5 (2026-10-16): every group Human (batches 305g, 305g-x) and the whole section 100% Human, high (382 words, AI likelihood 0.19, batch 306g, https://www.pangram.com/history/c04a43b6-a611-4d68-bb76-2f644ee64654). Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup. Per-batch records are in candidate/s14/bNNN/PREDICTIONS.md."
+    },
+    {
+      "section": 13,
+      "version": "v31",
+      "passage": "section 13 v31 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard)",
+      "record": "CANDIDATE: section 13 v31 (2026-10-16): every subsection holding a changed paragraph Human with its exact text (batches 309g, 310g; the visitor subsection's paragraphs 304g and b298) and the whole section 100% Human, high (2,324 words, AI likelihood 0.10, batch 311g, https://www.pangram.com/history/0f17c2f0-8343-4b4a-9bb7-6b390136fd0b). Read alone, the visitor subsection's first 173 words read AI (304g); inside the section they read Human. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup. Per-batch records are in candidate/s13/bNNN/PREDICTIONS.md; gate records in candidate/s13/install/GATE-v31.json."
     }
   ]
 }

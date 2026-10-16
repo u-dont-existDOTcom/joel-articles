@@ -1000,7 +1000,7 @@
   },
   {
    "id": "s13-joel-20261016-1822-33a",
-   "status": "pending",
+   "status": "applied",
    "words": "proposed",
    "what": "Section 13, \"From Visitor to Member—Slowly\", the provisional-membership questions: the hint keeps its emoji, \"(Hint: not the person who recruited them! 😜)\" (question 33 a, my pick).",
    "joel": "33a on owner questions page  (keep the emoji, that's fine)",
@@ -1008,11 +1008,12 @@
    "waits_for": "section 13's install in HUMANIZED-SO-FAR.md",
    "must_contain": [
     "(Hint: not the person who recruited them! 😜)"
-   ]
+   ],
+   "applied": "2026-10-16: section 13 v31 installed (s13/install/install_s13_v31.py)"
   },
   {
    "id": "s13-joel-20261016-1822-cut",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
    "what": "Section 13, \"From Visitor to Member—Slowly\", P6: the opening question \"How do you know?\" is cut; the paragraph starts \"At each stage, always judge people based on their conduct.\"",
    "joel": "but i would cut the first sentence \"How do you know?\" in p6 of From Visitor to Member, slowly. why did the reviewer not cut that, what's that? know what? doesn't seem to follow...",
@@ -1023,7 +1024,8 @@
    ],
    "must_not_contain": [
     "How do you know?"
-   ]
+   ],
+   "applied": "2026-10-16: section 13 v31 installed (s13/install/install_s13_v31.py)"
   }
  ]
 }

@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1234,
-  "right": 882,
+  "calls": 1244,
+  "right": 890,
   "since_review": {
-   "calls": 832,
-   "right": 627,
-   "passed": 500
+   "calls": 842,
+   "right": 635,
+   "passed": 507
   },
   "today": {
-   "calls": 282,
-   "right": 226,
-   "passed": 185
+   "calls": 292,
+   "right": 234,
+   "passed": 192
   }
  },
  "windows": [
@@ -165,6 +165,14 @@
    "right": 65,
    "passed": 55,
    "always_ai_right": 22
+  },
+  {
+   "from": 310,
+   "to": 319,
+   "calls": 10,
+   "right": 8,
+   "passed": 7,
+   "always_ai_right": 3
   }
  ],
  "misses": [
@@ -2796,6 +2804,34 @@
    "pct": 0.0,
    "res_raw": "Human (Human Written, high, windows: Human, High, 1722; Human, High, 503, 2322 words, AI likelihood 0.07), 22:11:30, [check](https://www.pangram.com/history/924264d4-24d9-4ee2-a46b-2eb64818b47d)",
    "where": "s13/b309/PREDICTIONS-scored.md:5",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 310,
+   "name": "310g-S13v30",
+   "mine": "Human",
+   "why": "v29 read Human (0.07); the fixes change a few words each, none of them back to a published sentence or a run of questions, and H3-P1's v28 text read Human inside the section in 309g's v29b",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: AI-Generated, High, 212; Human, High, 427; AI-Generated, High, 89; Human, High, 1596, 2324 words, AI likelihood 0.13), 22:53:06, [check](https://www.pangram.com/history/0af40fd9-46ba-4a93-8e73-2e2c8228fae4)",
+   "where": "s13/b310/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 311,
+   "name": "311g-S13v30a",
+   "mine": "Mixed",
+   "why": "H1-P4 as in v29 should clear the first window; H2-P4's window stays",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, windows: Human, High, 1721; Human, High, 507, 2324 words, AI likelihood 0.10), 22:57:35, [check](https://www.pangram.com/history/0f17c2f0-8343-4b4a-9bb7-6b390136fd0b)",
+   "where": "s13/b311/PREDICTIONS-scored.md:5",
    "passed": true,
    "right": false,
    "text": ""
