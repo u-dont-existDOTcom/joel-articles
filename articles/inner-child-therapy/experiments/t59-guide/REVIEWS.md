@@ -36,3 +36,7 @@ The Guide points toward a belonging that doesn't require self-betrayal (nature, 
 
 The tells I see: the examples as a run of "For some people… For others…" or "If you pray… If you meditate…"; "It gets more solid than an idea once…" and "Reading about it won't do much" (an aphorism about the guide's "more than another idea"); a closing turn ("still hurts, but it doesn't feel like life or death"); the names paragraph is a list whatever its wording. What read Human: the opening case, "Picture your crew from work, or your church, deciding tomorrow that you're out. I'd want your little one to have somewhere it belongs that can't vote it out." Next: keep that opening, give the places one sentence that tells of one place the way P7 tells the funeral, and try fresh writers (E177: when my own drafts keep failing).
 
+## The review round
+
+First try (18:52 UTC): three Sonnet agents, one grounding of P5 to P8 as one draft (`tools/targets/t59-g456.json`, the article `ARTICLE-DRAFT.md`), one stance check (`POSITIONS.txt`), one repeats check. All three stopped after 25 to 30 minutes at the 64,000-token output maximum without a report (lesson E178). Second try: each call with limits (only P5 to P8; short reasoning; a capped report); the grounding on Opus.
+
