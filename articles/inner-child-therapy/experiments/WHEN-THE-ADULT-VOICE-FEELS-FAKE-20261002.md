@@ -781,3 +781,28 @@ Joel, 16:39 UTC: why one paragraph took 4 hours 22 minutes, why I stopped after 
 ### Next
 
 The h1's group 4 (the Guide needs no certainty; problems blocked from outside: PGQ-014 and PGQ-017) and the healthy-mind paragraphs (PGQ-007), screened first.
+
+## Turn 58 (2026-10-15, from 20:56 UTC): group 4, the lean way (E177); stopped at 21:41
+
+Joel, 20:56 UTC: "4 hours for 2 paragraphs is a pretty bad result again ... updating everything on gh as you go". Lesson E177: my own drafts, my own march reading, a Pangram screen, one Sonnet review round; every step pushed.
+
+- **Group 4** (the Guide needs no certainty; blocked problems, PGQ-014; one stuck problem, PGQ-017): 31 drafts of mine in six rounds; three read Human alone. Picked P5 = p56-a (0.018) and P6 = p7-f3 (0.29). Stance check 0; repeats: P6's first two sentences restate P5. The grounding wasn't run (Joel declined it). Record: `t58-guide/REVIEWS.md`.
+
+### Next
+
+Cut P6's repeated opening and screen it again; the grounding if Joel wants it; install after P4; the h1 in Pangram; a pull request. Then the healthy-mind paragraphs (PGQ-007).
+
+## Turn 59 (2026-10-16, from 18:23 UTC): groups 4 to 6 in, the lean way (E177)
+
+Joel's resume line (`t59-answers/`). The Inner Guide Comes Later now runs to P8.
+
+- **In:** P5 and P6 (group 4: the Guide needs no certainty; blocked problems, PGQ-014; one stuck problem, PGQ-017), turn 58's two drafts, rebuilt where the review round flagged them (how you know it's really stuck; the cat now a choice between two things that can move). P7 (a healthy mind isn't a perfect mind: the jingle at the funeral) and P8 (why that's closer to what the Buddha taught: AN 6.63, MN 20 and DN 2 as SuttaCentral links). Each reads Human alone; together Human (0.30, high); the h1 Human Written (0.19, high). Record: `t59-guide/REVIEWS.md`.
+- **Review round:** stance 0 conflicts; six repeats (one fixed, five answered); grounding flags on P6, P8 and a MUST question on P5, all fixed. The fixes took three Pangram rounds (one of them moved AI windows into the installed P2 and P4).
+- **Not in yet:** groups 7 to 9 (a belonging beyond the social; the Guide's other names): six rounds of mine read AI. The best opening read Human ("Picture your crew from work, or your church, deciding tomorrow that you're out.").
+- **Lesson E178:** the first three review agents ran out of output (64,000 tokens) after half an hour without a report; review calls now carry limits, and the grounding goes to Opus.
+- **Pushed straight from the cloud session now** (the repo is in its sources): every step, each push with CURRENT-STATE's next step.
+
+### Next
+
+1. His merge of this turn's pull request.
+2. Groups 7 to 9 of The Inner Guide Comes Later: keep the crew opening, try fresh writers (E177), then the review round with limits (E178).

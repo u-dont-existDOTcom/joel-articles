@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-15 (turn 57). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-16 (turn 59). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -18,14 +18,18 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #178 (turn 57, from your 16:39 message on)
+### 🟠 Merge pull request #180 (turns 58 and 59)
 
-You merged #177 at 16:14, so #178 has what came after: the screen-first gate (E175) and the new P2 and P3 of The Inner Guide Comes Later. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+The Inner Guide Comes Later's P5 to P8; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-15 20:56 UTC
+
+- "4 hours for 2 paragraphs is a pretty bad result again ... i'm at 92% utliization so you need to be updating everything on gh as you go": the lean process (E177): I write the drafts myself in plain words, screen them in Pangram, and send each section to one round of reviews on cheaper models; every step is pushed as it finishes, and `CURRENT-STATE.md` says the next step, so another account can pick up mid-section.
 
 ### 🟢 2026-10-15 16:39 UTC
 
@@ -153,9 +157,9 @@ You merged #177 at 16:14, so #178 has what came after: the screen-first gate (E1
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: The Inner Guide Comes Later
+### 🔵 Next: The Inner Guide Comes Later, groups 7 to 9
 
-The next h1 (Key's third adult function, the Leader, Guide or Guru). Let the Child Be Bad at Things went in this turn; the h1 Sometimes There Isn't a Clear Child Yet gets its whole check once you've answered 23 and 25.
+P5 to P8 went in this turn. Next: the Guide pointing toward a belonging that doesn't depend on any group, which makes the group's approval less desperate, and the Guide's other names ("Guru" for some, not for cult survivors). Six rounds of my drafts read AI; the opening that read Human is "Picture your crew from work, or your church, deciding tomorrow that you're out." (https://www.pangram.com/history/d93bfbd0-5b3e-4c44-83be-1652a492940a). If nothing changes, I keep that opening and try fresh writers.
 
 ### 🔵 Saved for when Altered States is humanized
 

@@ -1,0 +1,18 @@
+{
+ "t59d_g456": {
+  "kind": "screen",
+  "march": [
+   "P5 S S B S | P6 S S B | P7 S S B S S S S | P8 B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "P5 to P8 together as one text (groups 4 to 6), before their review round; a screen, not a section record (E175). As installed, so P8 carries its three sutta links in Markdown."
+ },
+ "t59d_h1": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 S S B S | P6 S S B | P7 S S B S S S S | P8 B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "The h1 so far with P5 to P8 in, as a screen before the review round: the article text from the heading to its end, HTML comments removed, blocks joined by a blank line (the lane's section text), P8's links in Markdown. March: my own reading, paragraph by paragraph."
+ }
+}

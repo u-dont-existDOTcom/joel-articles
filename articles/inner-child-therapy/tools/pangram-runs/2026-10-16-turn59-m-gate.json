@@ -1,0 +1,42 @@
+{
+ "t59m_p5b": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, the review round's fixes (GROUNDING-1.md: Q1 MUST, [5], [6], Q2, [15], [16], [20]; REPEATS-1.md repeat 5): P5 with \"you've already sent him the reminder, so the next move really is his\" (Q1). March: my own reading."
+ },
+ "t59m_p6c": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, the review round's fixes (GROUNDING-1.md: Q1 MUST, [5], [6], Q2, [15], [16], [20]; REPEATS-1.md repeat 5): P6 as a choice between two things that can move, by what can't wait ([5], [6], Q2, repeat 5). March: my own reading."
+ },
+ "t59m_p8l": {
+  "kind": "screen",
+  "march": [
+   "B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, the review round's fixes (GROUNDING-1.md: Q1 MUST, [5], [6], Q2, [15], [16], [20]; REPEATS-1.md repeat 5): P8 with \"start out with a spotless mind … that's what the training is for\" ([15]), \"karma\" ([16]), \"a thought that just popped up, however ugly, isn't something you did\" ([20]). Alone, links as their words. March: my own reading."
+ },
+ "t59m_g456": {
+  "kind": "screen",
+  "march": [
+   "P5 S S B S | P6 S S B S | P7 S S B S S S S | P8 B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, the review round's fixes (GROUNDING-1.md: Q1 MUST, [5], [6], Q2, [15], [16], [20]; REPEATS-1.md repeat 5): P5 to P8 together, as installed (P8 with its links)."
+ },
+ "t59m_h1": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 S S B S | P6 S S B S | P7 S S B S S S S | P8 B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, the review round's fixes (GROUNDING-1.md: Q1 MUST, [5], [6], Q2, [15], [16], [20]; REPEATS-1.md repeat 5): the h1 so far with the fixed P5 to P8 (section text as installed)."
+ }
+}
