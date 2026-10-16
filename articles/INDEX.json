@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "fdcc087b98e5cb658d292ddd7ffb26d0bc3620bd6b6b1217508bdf07a47c8db3"
+          "sha256": "28d5a031d3309bcf48ee763c154011d3b0288351586ffe206fcbef59785cf214"
         }
       },
       "review": {
@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "d504c9ddd19c2c13f207201b45453bfd6db57c8d761d87b8e302e3309f7fb381",
+          "sha256": "3d0b42cc1e268c869a3398e6b44257b9e2a39659485544a0b9e6ba4a0e18fc91",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "932a8cc4a75234735fa8bc6b2ffb5f761b40a41bf22d98c401611cd31ad770a8",
+          "sha256": "8915ba656b130461e78a9e123696f3a9570bb3f270e66486731598ec67d8be7a",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "54b801de8221b5cfa82e3fd6e7e93b5724fdcf3abec78df8d2e190b5c4dcfc24",
+          "sha256": "bf71708e9b97a83fe244a711b6c11631bd4935a64c61922bd3958b7fcca575c1",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "465f77ea4b511c8fd87323c738336336e77b4796a46fd90a4a688eb616fe6095",
+          "sha256": "92524bf70a0c4a430f52b46759a25c4ff54830e8d76e9744c5132c42f53d5e54",
           "role": "owner_questions_page"
         },
         {
@@ -8806,6 +8806,11 @@
           "path": "articles/inner-child-therapy/tools/targets/t60-g4.json",
           "sha256": "56d4dfa87f8e46a3573eb3517af94ea5901e3526ae994eb0c2a383f6d996cccd",
           "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t60-guide/REVIEWS.md",
+          "sha256": "61aaee8e1cbf6d68908d3f0c308ce1b7fc3dacb92ee22e0edc1dfaadfb9bb91b",
+          "role": "humanization_working_record"
         }
       ]
     },

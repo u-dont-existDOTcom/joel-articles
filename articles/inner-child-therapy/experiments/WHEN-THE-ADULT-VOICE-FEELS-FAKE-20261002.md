@@ -806,3 +806,16 @@ Joel's resume line (`t59-answers/`). The Inner Guide Comes Later now runs to P8.
 
 1. His merge of this turn's pull request.
 2. Groups 7 to 9 of The Inner Guide Comes Later: keep the crew opening, try fresh writers (E177), then the review round with limits (E178).
+
+## Turn 60 (2026-10-16, from 21:37 UTC): "what broke?"
+
+Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead of what the Guide is for; P8 went from a jingle to a king who killed his father; "what broke?"; his own P8 (`t60-answers/`). He had merged #180.
+
+- **In:** his P8 word for word (now P7); P5 and P6 as one paragraph around the guide's point (the Guide doesn't need certainty, so the little one keeps growing toward a whole life), the queue items as one case of it. Nine versions read AI alone, all Human in the h1 (0.15, high): question 29.
+- **Lesson E179 (what broke):** the brief made the queue items' steps the content; Pangram picked among scenes; E177 had dropped the cold read and the grounding checked coverage, not the point. Fixes: the grounding's main-point step (DRIFT, OUTSIZED), examples limited in the writer prompt, the cold read back, the lint verdict computed. The new check caught my first redo drifting the same way.
+- Record: `t60-guide/REVIEWS.md`.
+
+### Next
+
+1. His answer to question 29 (his fix of P5, or leave it), and his merge of this turn's pull request.
+2. Groups 7 to 9 of The Inner Guide Comes Later the E179 way: the main point first, close to the guide's sentences with a plain gloss, his P7 as the model; the main-point grounding and the cold read before Pangram picks.
