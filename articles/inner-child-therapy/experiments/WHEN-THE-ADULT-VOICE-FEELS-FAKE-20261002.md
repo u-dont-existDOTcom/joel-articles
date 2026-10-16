@@ -830,3 +830,14 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His answer to question 30, and his merge of this turn's pull request.
 2. Group 10 of The Inner Guide Comes Later (`tools/targets/t56-ig10.json`: an external guru who demands surrender; the grounding's GREAT for it is in `t61-guide/GROUNDING-1.md`), the E179 way.
+
+## Turn 62 (2026-10-16, from 23:17 UTC): "why can't you fix them?"
+
+- **His message:** question 30 offered "leave them (they read Human in their section)" for P8 and P9, which failed alone, against the gate's first rule; it named the AI tells I saw and asked for his fix instead of trying them; and I needed no help.
+- **Fixed, the same points:** eight rounds (a to h) found a P8 (0.097) and a P9 (0.27) that each read Human alone; the h1 reads Human Written, 0.062, high, and both seams read Human. The lists weren't the tell (round a); plain words got half of P8 to read Human; the half that read AI read Human as the start of P9; the Guide's other names read Human as an aside and AI in parentheses. Record: `t62-guide/REVIEWS.md`.
+- **Lesson E180:** a paragraph is shown as done only when it reads Human alone; a question about one that fails comes only after every tell I can name has had its own try, lists each try, and says what help I need; a section's result is never an option for it. E168's and E179's marked install says so now.
+
+### Next
+
+1. His merge of pull request #184 (turns 61 and 62).
+2. Group 10 of The Inner Guide Comes Later (`tools/targets/t56-ig10.json`: an external guru who demands surrender, and surrender from our side), the E179 way, installed only when each paragraph reads Human alone (E180).

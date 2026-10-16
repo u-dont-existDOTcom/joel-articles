@@ -1,0 +1,130 @@
+{
+ "t62i_p8s": {
+  "kind": "screen",
+  "march": [
+   "S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: p8-q with the grounding's two fixes (GROUNDING-1 [1], the MUST question: the belonging doesn't cost you yourself; [3]: the parenthetical's second half cut, a near repeat of My Journey); p8-s. March: my own reading."
+ },
+ "t62i_p8v": {
+  "kind": "screen",
+  "march": [
+   "S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: p8-q with the grounding's two fixes (GROUNDING-1 [1], the MUST question: the belonging doesn't cost you yourself; [3]: the parenthetical's second half cut, a near repeat of My Journey); p8-v. March: my own reading."
+ },
+ "t62i_p8w": {
+  "kind": "screen",
+  "march": [
+   "S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: p8-q with the grounding's two fixes (GROUNDING-1 [1], the MUST question: the belonging doesn't cost you yourself; [3]: the parenthetical's second half cut, a near repeat of My Journey); p8-w. March: my own reading."
+ },
+ "t62i_p8x": {
+  "kind": "screen",
+  "march": [
+   "S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: p8-q with the grounding's two fixes (GROUNDING-1 [1], the MUST question: the belonging doesn't cost you yourself; [3]: the parenthetical's second half cut, a near repeat of My Journey); p8-x. March: my own reading."
+ },
+ "t62i_p89s": {
+  "kind": "screen",
+  "march": [
+   "P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P8+P9, p8-s and p9-k."
+ },
+ "t62i_p89v": {
+  "kind": "screen",
+  "march": [
+   "P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P8+P9, p8-v and p9-k."
+ },
+ "t62i_p89w": {
+  "kind": "screen",
+  "march": [
+   "P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P8+P9, p8-w and p9-k."
+ },
+ "t62i_p89x": {
+  "kind": "screen",
+  "march": [
+   "P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P8+P9, p8-x and p9-k."
+ },
+ "t62i_p78s": {
+  "kind": "screen",
+  "march": [
+   "P7 Joel's | P8 S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P7+P8, Joel's P7 and p8-s."
+ },
+ "t62i_p78v": {
+  "kind": "screen",
+  "march": [
+   "P7 Joel's | P8 S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P7+P8, Joel's P7 and p8-v."
+ },
+ "t62i_p78w": {
+  "kind": "screen",
+  "march": [
+   "P7 Joel's | P8 S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P7+P8, Joel's P7 and p8-w."
+ },
+ "t62i_p78x": {
+  "kind": "screen",
+  "march": [
+   "P7 Joel's | P8 S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: P7+P8, Joel's P7 and p8-x."
+ },
+ "t62i_h1s": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: the h1 with P8 = p8-s and P9 = p9-k."
+ },
+ "t62i_h1v": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: the h1 with P8 = p8-v and P9 = p9-k."
+ },
+ "t62i_h1w": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: the h1 with P8 = p8-w and P9 = p9-k."
+ },
+ "t62i_h1x": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round i: the h1 with P8 = p8-x and P9 = p9-k."
+ }
+}

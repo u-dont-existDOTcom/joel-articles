@@ -1231,6 +1231,22 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-16 (turn 62) | P9 with the names in parentheses at its end alone (90 words) [t62g_p9l], a screen | Human, low (my call) | AI Generated (0.66, low; 94); 23:40:24 UTC, https://www.pangram.com/history/334e3db5-22d0-4054-9da9-c729d5a22692 | miss |
 | 2026-10-16 (turn 62) | P9 without the names (if p8-r carries them) alone (53 words) [t62g_p9m], a screen | Human, low (my call) | Human Written (0.28, low; 56); 23:40:35 UTC, https://www.pangram.com/history/1473d0fe-e51c-4efa-8ca0-fca9fd0380e9 | hit |
 | 2026-10-16 (turn 62) | P8 with the names in parentheses where the Guide is first named alone (116 words) [t62g_p8r], a screen | Human, low (my call) | Human Written (0.30, medium; 120); 23:40:44 UTC, https://www.pangram.com/history/1cde4280-c71f-4c6b-ae4e-edf350d2c889 | hit |
-| 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-q and p9-k (951 words) [t62h_h1], a screen | Human, low (my call: the h1 with p9-j read Human, high, and p9-k changes only the names) | (pending) | |
-| 2026-10-16 (turn 62) | P8+P9, p8-q and p9-k (183 words) [t62h_p89], a screen | Human, low (my call) | (pending) | |
-| 2026-10-16 (turn 62) | P7+P8, Joel's P7 and p8-q (232 words) [t62h_p78], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-q and p9-k (951 words) [t62h_h1], a screen | Human, low (my call: the h1 with p9-j read Human, high, and p9-k changes only the names) | Human Written (0.062, high; 996), one Human window; 23:48:19 UTC, https://www.pangram.com/history/c42100a8-9b32-4db9-ac33-bed2c29f8eff | hit |
+| 2026-10-16 (turn 62) | P8+P9, p8-q and p9-k (183 words) [t62h_p89], a screen | Human, low (my call) | Human Written (0.39, high; 190), one Human window; 23:48:29 UTC, https://www.pangram.com/history/6078d05d-aeb8-4faf-bb90-61f6d34c5845 | hit |
+| 2026-10-16 (turn 62) | P7+P8, Joel's P7 and p8-q (232 words) [t62h_p78], a screen | Human, low (my call) | Human Written (0.001, high; 243); 23:48:40 UTC, https://www.pangram.com/history/aa32ead0-77d1-49c4-9f80-c78cee19cc77 | hit |
+| 2026-10-16 (turn 62) | P8, p8-s alone (87 words): the grounding's fixes, "one you never have to betray yourself to keep", "(that part is optional)" [t62i_p8s], a screen | Human, low (my call: one clause added to p8-q, one cut) | (pending) | |
+| 2026-10-16 (turn 62) | P8, p8-v alone (88 words): the grounding's fixes, "one that doesn't ask you to give up being yourself", "(that part is optional)" [t62i_p8v], a screen | Human, low (my call: one clause added to p8-q, one cut) | (pending) | |
+| 2026-10-16 (turn 62) | P8, p8-w alone (87 words): the grounding's fixes, "one you never have to betray yourself to keep", "if you have one" [t62i_p8w], a screen | Human, low (my call: one clause added to p8-q, one cut) | (pending) | |
+| 2026-10-16 (turn 62) | P8, p8-x alone (84 words): the grounding's fixes, "one that doesn't cost you yourself", "(that part is optional)" [t62i_p8x], a screen | Human, low (my call: one clause added to p8-q, one cut) | (pending) | |
+| 2026-10-16 (turn 62) | P8+P9, p8-s and p9-k (179 words) [t62i_p89s], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | P8+P9, p8-v and p9-k (180 words) [t62i_p89v], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | P8+P9, p8-w and p9-k (179 words) [t62i_p89w], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | P8+P9, p8-x and p9-k (176 words) [t62i_p89x], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | P7+P8, Joel's P7 and p8-s (228 words) [t62i_p78s], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | P7+P8, Joel's P7 and p8-v (229 words) [t62i_p78v], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | P7+P8, Joel's P7 and p8-w (228 words) [t62i_p78w], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | P7+P8, Joel's P7 and p8-x (225 words) [t62i_p78x], a screen | Human, low (my call) | (pending) | |
+| 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-s and p9-k (947 words) [t62i_h1s], a screen | Human, low (my call: the h1 with p8-q read Human, high) | (pending) | |
+| 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-v and p9-k (948 words) [t62i_h1v], a screen | Human, low (my call: the h1 with p8-q read Human, high) | (pending) | |
+| 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-w and p9-k (947 words) [t62i_h1w], a screen | Human, low (my call: the h1 with p8-q read Human, high) | (pending) | |
+| 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-x and p9-k (944 words) [t62i_h1x], a screen | Human, low (my call: the h1 with p8-q read Human, high) | (pending) | |
