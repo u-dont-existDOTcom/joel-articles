@@ -1,0 +1,26 @@
+{
+ "t59o_p8n": {
+  "kind": "screen",
+  "march": [
+   "B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, round o of the review fixes: P8 ending for [20] in p8-k5's shape (\"but I wouldn't put a thought that just popped up in the same bin, however ugly it is\"): a bin is a kind, not a size. March: my own reading."
+ },
+ "t59o_g456": {
+  "kind": "screen",
+  "march": [
+   "P5 S S B S | P6 S S B S | P7 S S B S S S S | P8 B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, round o of the review fixes: P5 to P8 with p5-d, p6-c, p7-c, p8-n, as installed."
+ },
+ "t59o_h1": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 S S B S | P6 S S B S | P7 S S B S S S S | P8 B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 59, round o of the review fixes: the h1 so far with p5-d, p6-c, p7-c, p8-n."
+ }
+}
