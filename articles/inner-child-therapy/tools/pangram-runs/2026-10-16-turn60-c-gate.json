@@ -1,0 +1,18 @@
+{
+ "t60c_p5v6": {
+  "kind": "screen",
+  "march": [
+   "S S S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 60 round c: group 4 close to the guide, with an idiom (\"hold your whole life hostage\") and, in v7, the article's first-person \"I'd\". Lint computed by the build script. March: my own reading."
+ },
+ "t60c_p5v7": {
+  "kind": "screen",
+  "march": [
+   "B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 60 round c: group 4 close to the guide, with an idiom (\"hold your whole life hostage\") and, in v7, the article's first-person \"I'd\". Lint computed by the build script. March: my own reading."
+ }
+}
