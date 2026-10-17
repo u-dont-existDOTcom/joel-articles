@@ -1,0 +1,56 @@
+{
+ "t69a_rwb1": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S B B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69a_rwb1.md",
+  "note": "t69a: rw-b1, alone."
+ },
+ "t69a_rwb2": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69a_rwb2.md",
+  "note": "t69a: rw-b2, alone."
+ },
+ "t69a_rwb3": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S B S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69a_rwb3.md",
+  "note": "t69a: rw-b3, alone."
+ },
+ "t69a_ks0joel": {
+  "kind": "screen",
+  "march": [
+   "S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69a_ks0joel.md",
+  "note": "t69a: ks0-joel, alone."
+ },
+ "t69a_secsp": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-b1: S S S B S S B B S B, ks0-joel: S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/CANDIDATE.md",
+  "note": "t69a: # Simple Practices as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t69a_secks": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-b1: S S S B S S B B S B, ks0-joel: S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/CANDIDATE.md",
+  "note": "t69a: # If You Want to Kill Yourself as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}
