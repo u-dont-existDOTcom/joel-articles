@@ -67,7 +67,7 @@ def build(article, heading, rnd, cands, section_march, note, more=(), alone_only
             continue
         # Under a fresh heading, or after the section's only paragraph, the pair is the section itself (give or take
         # the heading line), checked below; turn 65 checked both and paid for each twice.
-        if not before.startswith('#') and n > 1:
+        if not before.startswith('#') and n > 1 and alone_only != 'section':  # a section-only check needs no pair
             drafts[f'{rnd}_pair{tag}'] = before + '\n\n' + text
             gate[f'{rnd}_pair{tag}'] = {'kind': 'screen', 'march': [f'P{n} (installed) | P{n + 1} {march}'], 'lint': 'REVIEW',
                                         'note': f'{rnd}: P{n}+P{n + 1}, the paragraph before and {pathlib.Path(path).stem}.'}
