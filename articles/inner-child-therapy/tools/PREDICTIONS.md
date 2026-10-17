@@ -2182,17 +2182,26 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | st1p6 w7 p1 alone, my own draft (106 words) [t65z20_st1p6w7p1], a screen | Human, low (my call) | AI Generated (0.67, Medium; 108); 09:45:20 UTC, https://www.pangram.com/history/1c617e65-b33a-4b6c-a23a-397581afee12 | miss |
 | 2026-10-17 (turn 65) | st1p6 w8 p1 alone, my own draft (95 words) [t65z20_st1p6w8p1], a screen | Human, low (my call) | AI Generated (0.74, Low; 97); 09:45:09 UTC, https://www.pangram.com/history/4b6463c5-be11-491c-9eae-95c078136cd7 | miss |
 | 2026-10-17 (turn 65) | st1p6 w9 p1 alone, my own draft (101 words) [t65z20_st1p6w9p1], a screen | Human, low (my call) | AI Generated (0.57, Medium; 105); 09:44:59 UTC, https://www.pangram.com/history/3ab1d6bc-8d97-4265-a600-5434597f5882 | miss |
-| 2026-10-17 (turn 66) | fg1p3 w10 p1 alone, my own draft (140 words) [t66a_fg1p3w10p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | fg1p3 w11 p1 alone, my own draft (150 words) [t66a_fg1p3w11p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | fg1p3 w12 p1 alone, my own draft (143 words) [t66a_fg1p3w12p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | fg1p1 w10 p1 alone, my own draft (92 words) [t66a_fg1p1w10p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | fg1p1 w11 p1 alone, my own draft (95 words) [t66a_fg1p1w11p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | fg1p1 w12 p1 alone, my own draft (89 words) [t66a_fg1p1w12p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | fg1p1 w13 p1 alone, my own draft (93 words) [t66a_fg1p1w13p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w10-p1) (98 words) [t66a_secfgh1p1w10], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w11-p1) (101 words) [t66a_secfgh1p1w11], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w12-p1) (95 words) [t66a_secfgh1p1w12], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w13-p1) (99 words) [t66a_secfgh1p1w13], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w10-p1) (240 words) [t66a_secfgp2p3w10], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w11-p1) (250 words) [t66a_secfgp2p3w11], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w12-p1) (243 words) [t66a_secfgp2p3w12], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p3 w10 p1 alone, my own draft (140 words) [t66a_fg1p3w10p1], a screen | Human, low (my call) | AI Generated (0.98, Medium; 147); 12:21:41 UTC, https://www.pangram.com/history/53ea4465-61bc-4b7a-8736-4203a817adf3 | miss |
+| 2026-10-17 (turn 66) | fg1p3 w11 p1 alone, my own draft (150 words) [t66a_fg1p3w11p1], a screen | Human, low (my call) | Human Written (0.14, High; 156); 12:21:51 UTC, https://www.pangram.com/history/2b66c97e-ae7e-4a25-8e79-0943044e636c | hit |
+| 2026-10-17 (turn 66) | fg1p3 w12 p1 alone, my own draft (143 words) [t66a_fg1p3w12p1], a screen | Human, low (my call) | AI Generated (0.98, Medium; 148); 12:22:02 UTC, https://www.pangram.com/history/5e737f79-48d1-463c-a561-554044a5fc88 | miss |
+| 2026-10-17 (turn 66) | fg1p1 w10 p1 alone, my own draft (92 words) [t66a_fg1p1w10p1], a screen | Human, low (my call) | AI Generated (0.84, Low; 94); 12:22:14 UTC, https://www.pangram.com/history/cb1bef72-54bb-4096-b0eb-b7f88c4ef641 | miss |
+| 2026-10-17 (turn 66) | fg1p1 w11 p1 alone, my own draft (95 words) [t66a_fg1p1w11p1], a screen | Human, low (my call) | AI Generated (0.72, Low; 100); 12:22:27 UTC, https://www.pangram.com/history/2d8bfc0f-84ad-49bd-88b7-1d9f488633c5 | miss |
+| 2026-10-17 (turn 66) | fg1p1 w12 p1 alone, my own draft (89 words) [t66a_fg1p1w12p1], a screen | Human, low (my call) | AI Generated (1, Low; 92); 12:22:38 UTC, https://www.pangram.com/history/76105604-d76d-4e43-a4dc-a04cd1d8de33 | miss |
+| 2026-10-17 (turn 66) | fg1p1 w13 p1 alone, my own draft (93 words) [t66a_fg1p1w13p1], a screen | Human, low (my call) | AI Generated (1, Low; 96); 12:22:49 UTC, https://www.pangram.com/history/613391c7-b7a3-4cb5-bac3-2e3791de7c8c | miss |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w10-p1) (98 words) [t66a_secfgh1p1w10], a screen | Human, low (my call) | AI Detected (0.39; 99), 2 windows: AI-Generated 35 words (Low); 12:22:58 UTC, https://www.pangram.com/history/78404b34-2f57-4ee1-952e-a984bca74ae9 | miss |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w11-p1) (101 words) [t66a_secfgh1p1w11], a screen | Human, low (my call) | AI Generated (0.86, Medium; 105); 12:23:09 UTC, https://www.pangram.com/history/9fae7b0f-e1d1-4e66-b5f1-373995d14ce6 | miss |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w12-p1) (95 words) [t66a_secfgh1p1w12], a screen | Human, low (my call) | AI Generated (1, Low; 97); 12:22:57 UTC, https://www.pangram.com/history/c8b38d14-fa8e-4e9c-82d2-c35f15154023 | miss |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w13-p1) (99 words) [t66a_secfgh1p1w13], a screen | Human, low (my call) | AI Generated (0.99, Medium; 101); 12:22:45 UTC, https://www.pangram.com/history/b63e2273-a94b-4d82-8fa1-8e9a6a695e99 | miss |
+| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w10-p1) (240 words) [t66a_secfgp2p3w10], a screen | Human, low (my call) | AI Generated (0.76, High; 249); 12:22:34 UTC, https://www.pangram.com/history/50f6adc0-d0d5-4a3a-b75d-f5dab69e47db | miss |
+| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w11-p1) (250 words) [t66a_secfgp2p3w11], a screen | Human, low (my call) | Human Written (0.079, High; 258); 12:22:24 UTC, https://www.pangram.com/history/abdc2f86-5288-42f3-97c9-7a57c947e131 | hit |
+| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w12-p1) (243 words) [t66a_secfgp2p3w12], a screen | Human, low (my call) | AI Generated (0.77, High; 250); 12:22:12 UTC, https://www.pangram.com/history/ad7a34c6-7b22-4224-902c-ae2c943162d5 | miss |
+| 2026-10-17 (turn 66) | fg1p1 w14 p1 alone, my own draft (103 words) [t66b_fg1p1w14p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p1 w15 p1 alone, my own draft (97 words) [t66b_fg1p1w15p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p1 w16 p1 alone, my own draft (94 words) [t66b_fg1p1w16p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w14-p1) (109 words) [t66b_secfgh1p1w14], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w14-p1, W:fg1p2-w8-p1, W:fg1p3-w11-p1, W:fg1p4-w5-p1) (477 words) [t66b_secfgallw14], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w15-p1) (103 words) [t66b_secfgh1p1w15], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w15-p1, W:fg1p2-w8-p1, W:fg1p3-w11-p1, W:fg1p4-w5-p1) (471 words) [t66b_secfgallw15], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w16-p1) (100 words) [t66b_secfgh1p1w16], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w16-p1, W:fg1p2-w8-p1, W:fg1p3-w11-p1, W:fg1p4-w5-p1) (468 words) [t66b_secfgallw16], a screen | Human, low (my call) | (pending) | |
