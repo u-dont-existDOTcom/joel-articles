@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "3bc968f3367b83e1e8785e1111ba9455315073d9f0827236308fbe8cca316bf0",
+          "sha256": "5619d44ce4e9e7312059fe02057395f95c5e8dd6f903a5a58a9cc00229f68be7",
           "role": "detector_prediction_log"
         },
         {
@@ -9764,7 +9764,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t65-guide/p13-b.txt",
-          "sha256": "7e6264c2b9770d1d4a0fcd802dc4bece5da30178063e65fa39e8778691a2b147",
+          "sha256": "6d3d7a9dc337016c7199376f5e3ac3463b743ee60f06b6e63071960522ae84a8",
           "role": "humanization_working_record"
         },
         {
@@ -9779,7 +9779,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-c-drafts.json",
-          "sha256": "3ab307cfd9fe8c9a1de8367f181ea54457cc79bb88253e27d866252f1a104de9",
+          "sha256": "043032deaff5e9976dccda3a7160aae805c41edbde4c7629779bf387bdf99b5f",
           "role": "detector_check_texts"
         },
         {
@@ -9791,6 +9791,21 @@
           "path": "articles/inner-child-therapy/tools/targets/t65-g13.json",
           "sha256": "b6cb27763a60e9a7042ad8e418b4f6bf5f7d8188f086a06cc6e3e65d3efc577e",
           "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/COLD-READ-p12f.md",
+          "sha256": "d1c107ea99cc10b3a6648234acd731e1f5156f8bdea3e526c8e8fef300c74247",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-c-read.js",
+          "sha256": "a10f74b0fb801536fe6b35258448d172e503c23329c88f0b505f94fcd8604ea3",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-c.js",
+          "sha256": "c426f2ea336c53d68831ac0e3523ad952c61687f0988d36b62d301817c6a5414",
+          "role": "detector_check_texts"
         }
       ]
     },
