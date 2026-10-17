@@ -1104,6 +1104,10 @@
     {
      "file": "docs/HUMANIZATION-GATE.md",
      "quote": "for P3 it's a list of 3 that's why it's AI, you couldn' tsee that?"
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t67-answers/JOEL-20261017-1401.md",
+     "quote": "we got that list of 3 going on again. how is that not detected?"
     }
    ],
    "rule": "E125",
@@ -2340,6 +2344,31 @@
    "rule": "A2",
    "example": "Now the young people can work in the city as long as they come back to help with the harvest. I like that.",
    "source_text": "Now the young people can work in the city as long as they come back to help with the harvest every year."
+  },
+  {
+   "id": "W93",
+   "tell": "\"X can … without Y\" (\"A meal can help, and so can a boundary or a kind sentence, without touching the question underneath\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t67-answers/JOEL-20261017-1401.md",
+     "quote": "here we got that X can without Y ai tell"
+    }
+   ],
+   "rule": "E186",
+   "example": "A walk can help, and so can a call to a friend, without touching what's underneath it. Most weeks that is enough to get by."
+  },
+  {
+   "id": "J57",
+   "tell": "formulaic expression (a stock phrase where his own words would be: \"Take that question seriously\", \"for what it's worth\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t67-answers/JOEL-20261017-1401.md",
+     "quote": "marching order and formulaic expression"
+    }
+   ],
+   "reason": "A stock phrase is formulaic by how common it is in this kind of writing and whether it says the thing, which a reader judges; a fixed list would ban phrases he uses on purpose (\"Yes, yes,\", \"No problem\")."
   }
  ]
 }

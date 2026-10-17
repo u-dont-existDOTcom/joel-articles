@@ -1,0 +1,166 @@
+[
+{
+"key": "ks4m",
+"draft": "ks4-m",
+"label": "If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft m (plain, close to the guide)"
+},
+{
+"key": "ks4n",
+"draft": "ks4-n",
+"label": "If You Want to Kill Yourself P4 alone, my draft n (plain)"
+},
+{
+"key": "ks4o",
+"draft": "ks4-o",
+"label": "If You Want to Kill Yourself P4 alone, my draft o (plain)"
+},
+{
+"key": "ks4p",
+"draft": "ks4-p",
+"label": "If You Want to Kill Yourself P4 alone, my draft p (plain, opening on P3's self)"
+},
+{
+"key": "lm4p1j3",
+"draft": "lm4-p1-j3",
+"label": "How Much Happiness P1 alone, my draft j3 (a question in place of the heading's echo)"
+},
+{
+"key": "lm4p1j4",
+"draft": "lm4-p1-j4",
+"label": "How Much Happiness P1 alone, my draft j4 (the heading's words out of its first sentence)"
+},
+{
+"key": "le2f1c",
+"draft": "le2-f1c",
+"label": "When One Life Has Ended P2 in two, first half alone, my draft f1c"
+},
+{
+"key": "le2f2c",
+"draft": "le2-f2c",
+"label": "When One Life Has Ended P2 in two, second half alone, my draft f2c"
+},
+{
+"key": "le2f2d",
+"draft": "le2-f2d",
+"label": "When One Life Has Ended P2 in two, second half alone, my draft f2d"
+},
+{
+"key": "le3aj",
+"draft": "le3a-j",
+"label": "When One Life Has Ended P3 in two, first half alone, my draft j (plain)"
+},
+{
+"key": "secksme",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-m",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-m, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-m: S S B S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "secksne",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-n",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-n, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-n: S B S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "secksoe",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-o",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-o, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-o: S S B S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "seckspe",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-p",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-p, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-p: B B S S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "seclm4j3",
+"blocks": [
+"## How Much Happiness Do You Know Is Possible?",
+"D:lm4-p1-j3",
+"D:lm4-p2-j3",
+"D:lm4-p3-j2",
+"J:joel-lm4-p4",
+"G:lm4-p5-c"
+],
+"label": "How Much Happiness, the h2 with P1 lm4-p1-j3, P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c",
+"march": "P1 lm4-p1-j3: S B B S S S | P2 j3: B S S B S | P3 j2: B S S B S B | Joel's P4: S B B B"
+},
+{
+"key": "seclm4j4",
+"blocks": [
+"## How Much Happiness Do You Know Is Possible?",
+"D:lm4-p1-j4",
+"D:lm4-p2-j3",
+"D:lm4-p3-j2",
+"J:joel-lm4-p4",
+"G:lm4-p5-c"
+],
+"label": "How Much Happiness, the h2 with P1 lm4-p1-j4, P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c",
+"march": "P1 lm4-p1-j4: S S B S S | P2 j3: B S S B S | P3 j2: B S S B S B | Joel's P4: S B B B"
+},
+{
+"key": "seclovej3",
+"blocks": [
+"S:# When Love Still Feels Missing",
+"## How Much Happiness Do You Know Is Possible?",
+"D:lm4-p1-j3",
+"D:lm4-p2-j3",
+"D:lm4-p3-j2",
+"J:joel-lm4-p4",
+"G:lm4-p5-c"
+],
+"label": "When Love Still Feels Missing, the h1 as installed with How Much Happiness at its end (P1 lm4-p1-j3, P2 j3, P3 j2, Joel's P4, P5)",
+"march": "installed paragraphs | How Much Happiness P1 lm4-p1-j3: S B B S S S | Joel's P4: S B B B"
+},
+{
+"key": "seclovej4",
+"blocks": [
+"S:# When Love Still Feels Missing",
+"## How Much Happiness Do You Know Is Possible?",
+"D:lm4-p1-j4",
+"D:lm4-p2-j3",
+"D:lm4-p3-j2",
+"J:joel-lm4-p4",
+"G:lm4-p5-c"
+],
+"label": "When Love Still Feels Missing, the h1 as installed with How Much Happiness at its end (P1 lm4-p1-j4, P2 j3, P3 j2, Joel's P4, P5)",
+"march": "installed paragraphs | How Much Happiness P1 lm4-p1-j4: S S B S S | Joel's P4: S B B B"
+}
+]
