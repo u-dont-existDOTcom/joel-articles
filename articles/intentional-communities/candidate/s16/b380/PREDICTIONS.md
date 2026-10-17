@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v23ggkk | Mixed | the whole section: v22's one window ends at H3-P8's end; this changes H3-P8's list (shape ggkk) | |
+| S16v23ggkk | Mixed | the whole section: v22's one window ends at H3-P8's end; this changes H3-P8's list (shape ggkk) | **Mixed** (AI Detected; windows: Human, High, 597; AI-Generated, High, 297, 894 words, AI likelihood 0.44), 11:28:14, [check](https://www.pangram.com/history/9190e3a5-3f9e-478e-9a73-7244eaa238b1) |
+
+## Results of 380g
+
+One of one right. H3-P8's four joined by "and" on v22 gkk: worse, AI from H3-P4's list of places to H3-P8 (297 words).

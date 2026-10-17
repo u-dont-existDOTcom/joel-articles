@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v23gdmk | Mixed | the whole section: v22's one window ends at H3-P8's end; this changes H3-P8's list (shape gdmk) | |
+| S16v23gdmk | Mixed | the whole section: v22's one window ends at H3-P8's end; this changes H3-P8's list (shape gdmk) | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 280; AI-Generated, High, 110; Human, High, 87, 904 words, AI likelihood 0.34), 11:28:34, [check](https://www.pangram.com/history/12f3d8c5-d924-4c67-8718-5e397907aaf6) |
+
+## Results of 382g
+
+One of one right. H3-P8's "and" shape on v22 dmk: the H2 window back (96 words) and 110 from H3-P6's showers sentence.
