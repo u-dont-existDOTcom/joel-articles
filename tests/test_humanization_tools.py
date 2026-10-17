@@ -581,6 +581,28 @@ class PreservationKeys(unittest.TestCase):
         self.assertIn('MISSING U40', bad.stdout)
 
 
+class PreservationKeysElsewhere(unittest.TestCase):
+    """Joel, 2026-10-17 02:07 UTC: "you can only cut if it isn't losing important meaning or there's no good way to merge".
+    Section 16 repeats section 14's list of what the Bruderhof shaped in his father; the dedup leaves it to section 14, and
+    the key check passes the unit only when section 14 of the article carries its words."""
+    UNITS = {'units': [{'id': 'U44', 'what': 'the father made a film and founded a research organization',
+                        'keys': [['film'], ['research']],
+                        'elsewhere': {'section': '# Dissolution and Exit', 'words': ['foundation he started', 'film he made'],
+                                      'why': 'the dedup'}}]}
+    DRAFT = 'Decades after the Bruderhof shaped my father, I am publishing his film.'
+    ART = ('# Dissolution and Exit\n\nIt shaped the foundation he started and the film he made.\n\n'
+           '# What This Looks Like\n\nSomething else.\n')
+
+    def test_the_other_section_has_to_carry_it(self):
+        moved = []
+        self.assertEqual(preservation_keys.check(self.UNITS, self.DRAFT, self.ART, moved), [])
+        self.assertEqual([m['id'] for m in moved], ['U44'])
+        # without the article, or with the words gone from that section (or only in another one), it is missing
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, self.DRAFT)], ['U44'])
+        gone = self.ART.replace('the foundation he started and ', '') + '\nthe foundation he started\n'
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, self.DRAFT, gone)], ['U44'])
+
+
 class PreservationKeysSectionTerms(unittest.TestCase):
     """Trace r6, 2026-10-12: "tolerate the disruption" for the published "absorb disruption", in a section called "The Math
     of Absorption"; the unit had never listed "absorb", so the key-word check passed it."""

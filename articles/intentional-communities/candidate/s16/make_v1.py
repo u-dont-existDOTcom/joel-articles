@@ -34,46 +34,61 @@ NEW = {
            '(B had "figure out who you want in" for testing membership, and no real conflict), and the published "less '
            'cinematic"'),
  'H1-P3': (("Likewise, the economic side has to go in stages. You're probably not going to be able to fly straight to the "
-            "economic destination! Start with a cluster of households where nobody has to buy the basics of life inside the "
-            "cluster anymore, and anyone making money on the outside contributes a set share. Only after you've proven that "
-            "you can reliably provide for everybody, and fairly decide who gets what from the common, should you move to a "
-            "common purse. Cutting back on outside money, or getting rid of it, comes from what you've shown you can do. "
+            "economic destination! Only after the group has proven it can reliably provide for everybody, and fairly decide "
+            "who gets what from the common, should it move to a common purse. And cutting back on outside money, or getting rid of it, comes from what the group has shown it "
+            "can do. "
             "(\"Money is impure!\" is a weird thing to say while somebody else is quietly paying the tax bill.)"), 'A',
            'A\'s sentences and its aside; the published staging "the same way", the common purse only after the group can '
            'provision members reliably and allocate the common fairly, and outside money reduced from demonstrated ability (A '
-           'ran the two together)'),
+           'ran the two together); the group, not "you", proves and shows it (A\'s three "you can"s were the linter\'s coach '
+           'register, E41). DEDUP (repeats r1 item 4): the first stage, households that stop buying the basics among '
+           'themselves while outside earners bring in a share, is section 4\'s, in Joel\'s own words ("First there will be '
+           'no money exchanged between members for basic community functions ... they bring an agreed share of that income '
+           'in"); what stays is this paragraph\'s own, the readiness test and the impure-money joke'),
  'H2-P1': (("I realize that for most people reading this there are a lot of reasons why they can't just head off and go build "
             "community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a "
             "circle... That's fine! The most important pl/ork doesn't need land anyway."), 'A and B',
            'A\'s opening and its list, B\'s "go build community on some land"; the published circle joke, "Fine." and the '
            'most important pl/ork that needs no land (both calls dropped them)'),
  'H2-P2': (("People sometimes buy forty acres and then bring all their unprocessed baggage with them to a more scenic location. "
-            "Sure, the view's better! But now the conflict has goats."), 'A and B',
-           'A\'s baggage, B\'s goats; the published unprocessed material, the scenic location and the view'),
+            "The view's better, I'll give them that! But now the conflict has goats."), 'A and B',
+           'A\'s baggage, B\'s goats; the published unprocessed material, the scenic location and the view ("Sure," as a '
+           'clause is Joel\'s ban, O2)'),
  'H2-P3': (("But there's no reason you can't start the inner pl/ork where you live. [Peer counseling](" + L['Peer counseling'] +
             ") only needs two people and enough privacy to talk. And reparenting, somatic work, jealousy, conflict repair, etc. "
             "don't have to wait for a deed!"), 'B',
            'B\'s sentences; the published two people and privacy, and the deed nothing has to wait for'),
- 'H2-P4': (("A group that practices together weekly for two years already has a real piece of community, even if it never owns "
-            "land, and it can make a difference in how people get through divorce, illness, grief, parenting and plain old "
-            "loneliness."), 'A and B',
+ 'H2-P4': (("A group that practices together weekly for two years may never own land, and it can still make a difference in how "
+            "people get through divorce, illness, grief, parenting and plain old loneliness."), 'A and B',
            'A\'s "make a difference in how people deal with divorce, illness, grief", B\'s "weekly for two years"; the '
-           'published real piece of community and "may never own land" (A: "never buy land")'),
+           'published "may never own land" (A: "never buy land"). DEDUP (repeats r1 item 7): "already contains a real piece '
+           'of community" is section 13\'s opening ("you are already a community, even if it\'s still an untested one"); '
+           'what stays is this paragraph\'s own, what such a group does for people even without land'),
+ 'H2-P5': (("Remote or constrained readers can build the portion available. Hold a weekly meal with two households. Arrange a "
+            "counseling exchange with one friend in person or by video. Share tools and childcare. Or a sauna! Add acro-yoga, "
+            "dance improvisation, a mothers' circle, or a [cuddle puddle](" + L['cuddle puddle'] + ") if you're hippie "
+            "enough."), 'published',
+           'the published paragraph (Human in 324g, S16-E, 0.46) has two lists of three, the linter\'s E125 FAIL; by Joel\'s list '
+           'rule (2026-10-03, 10-07) the first keeps tools and childcare, the sauna is its own exclamation, and transport and food '
+           'preparation, the items that matter least, go'),
  'H2-P6': (("If three households can commit to showing up for each other like this for six months, you'll learn more than you "
             "would from another year of daydreaming about the ideal village."), 'A',
            'A\'s sentence; the published six months (A: "half a year"), another year and the ideal village'),
- 'H3-P2': (("Here's your first month, no heroic land purchase required. Start working on the inner pl/ork, whether it's "
+ 'H3-P2': (("Start working on the inner pl/ork, whether it's "
             "following the free [reparenting guide](" + L['reparenting guide'] + ") and [Hearthwork manual](" +
             L['Hearthwork manual'] + ") or another serious practice you already trust. And practice before you have an "
             "audience!"), 'B',
-           'the published lead-in (H3-P1) as the first sentence; B\'s "whether it\'s following ... or something else"; the '
-           'published serious practice you already trust and the audience'),
- 'H3-P3': (("Find two or three people to form a practice group with (call it that, not a commune). Meet regularly, and learn to "
+           'B\'s "whether it\'s following ... or something else"; the published serious practice you already trust and the '
+           'audience. DEDUP (repeats r1 item 10): the lead-in\'s "without the heroic land purchase" was the fourth time in '
+           'twenty paragraphs that land can wait; the order (H1-P2) and "If You Can\'t Move" (H2-P1) carry it, and the '
+           'heading says "This Month"'),
+ 'H3-P3': (("Find two or three people to form a practice group with (call it that, not a commune, at least for now). Meet regularly, and learn to "
             "listen, switch roles, handle one disagreement and keep your commitments before you start talking about a shared "
             "future."), 'B',
            'B\'s first sentence; the published "rather than a commune" (A had "or a commune, whatever") and what to learn '
-           'before discussing a shared future'),
- 'H3-P4': (("Where do you find them? You can try unprogrammed Quaker meetings, restorative practice groups, open-hearted "
+           'before discussing a shared future; "at least for now", since section 13 tells the same small group it is already '
+           'a community (repeats r1, contradiction 1): the name keeps expectations low, it doesn\'t deny the community'),
+ 'H3-P4': (("Where do you find them? Maybe try unprogrammed Quaker meetings, restorative practice groups, open-hearted "
             "congregations, mature recovery groups, meditation groups, or people who came back from a long retreat kinder "
             "rather than more impressed with themselves."), 'B',
            'B\'s "You can try going to" and its list; the published congregations, and the retreat people who came back kinder '
@@ -83,7 +98,7 @@ NEW = {
             "[ecovillages](" + L['ecovillages'] + ") take visitors too). Just check their current visitor requirements "
             "first."), 'B',
            'B\'s list with its parenthesis; the published "Read their current visitor requirements first"'),
- 'H3-P6': (("You'll learn things no manifesto can teach you: how much togetherness you actually enjoy, what kind of privacy you "
+ 'H3-P6': (("You'll find out stuff no manifesto can tell you: how much togetherness you actually enjoy, what kind of privacy you "
             "need, which labor system drives you nuts, and whether communal showers feel liberating or send you off pricing "
             "studio apartments."), 'A and B',
            'A\'s "how much you like being together" and its showers, B\'s "what you want and don\'t want"; the published '
@@ -91,11 +106,13 @@ NEW = {
  'H3-P7': (("So do those three things first, before you spend serious time or money looking for land."), 'B',
            'B\'s "Don\'t go looking for land until you\'ve done the above" with the published three things and the time or '
            'money'),
- 'H3-P8': (("I'm not trying to sell you a retreat or get you to fill out an application or anything, the manuals are free. I'm "
-            "in Sénégal and I expect to buy land, but it's not like I'm announcing a commune. I've just noticed that community "
+ 'H3-P8': (("I'm not trying to sell you a retreat or get you to fill out an application or anything, the manuals are free. I've just noticed that community "
             "tends to gather wherever people find real care, play, usefulness and room to become more honest."), 'B',
-           'B\'s run-on first sentence and "it\'s not like I\'m starting a commune or anything"; the published last sentence '
-           '(both calls changed it: "wherever people take it seriously", "they will end up building a community")'),
+           'B\'s run-on first sentence; the published last sentence (both calls changed it: "wherever people take it '
+           'seriously", "they will end up building a community"). DEDUP (repeats r1 item 3): "I\'m in Sénégal and expect to buy '
+           'land, but I\'m not announcing a commune" is section 2\'s disclosure ("I am not currently recruiting anyone or '
+           'founding a community ... I do plan to buy land"), which adds that the article\'s warnings apply to him; the no '
+           'application, no retreat, free manuals and where community gathers stay'),
  'H3-P9': (("Decades after the Bruderhof shaped my father, I'm publishing the film he made, and writing this."), 'published',
            'DEDUP: the published "He made a film, founded a research organization, and carried me through communal '
            'experiments" is section 14\'s last paragraph ("It shaped the foundation he started and the film he made. It '
@@ -130,7 +147,7 @@ for b in bl:
         log.append({'id': pid, 'old': OLD[pid], 'new': new, 'source': 'Emulate round a call ' + src, 'why': why})
     else:
         out.append(b)
-        log.append({'id': pid, 'old': OLD[pid], 'new': b, 'source': 'published', 'why': 'read Human in the baseline (324g, S16-E, 0.46)'})
+        log.append({'id': pid, 'old': OLD[pid], 'new': b, 'source': 'published', 'why': 'as published'})
 (HERE / 'v1.md').write_text('\n\n'.join(out) + '\n', encoding='utf-8')
 (HERE / 'v1-fixes.json').write_text(json.dumps(log, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 print('wrote v1.md', len(out), 'blocks')

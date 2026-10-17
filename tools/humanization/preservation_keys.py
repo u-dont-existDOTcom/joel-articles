@@ -27,6 +27,12 @@ Exit 1 when a unit is missing a key.
 Absorption". A unit whose meaning ("what") uses one must list it as a key: trace r6 found "tolerate" where the published
 P13 says "absorb disruption", and the unit had never listed "absorb". The check fails the key file itself when a unit
 leaves its section term out.
+
+"elsewhere" (2026-10-17, Joel's standing dedup rule of 02:07 UTC: "you can only cut if it isn't losing important meaning
+or there's no good way to merge"): a unit a dedup cut leaves to another section names that section and the words it
+rests on there, {"section": "# Dissolution and Exit", "words": ["foundation", "film"], "why": "..."}. It passes only when
+--article is given and that section of the article has every one of the words; otherwise it is missing like any other.
+A key file can't use this to drop a point: the other section has to carry it, word for word.
 """
 import argparse, json, re, sys
 
@@ -51,7 +57,32 @@ def incomplete_units(keys_doc):
     return out
 
 
-def check(keys_doc, draft):
+def section_of(article, heading):
+    """The text of the section under the heading (to the next heading of its level or higher), or None."""
+    lines = article.split('\n')
+    level = len(heading) - len(heading.lstrip('#'))
+    out, inside = [], False
+    for line in lines:
+        if line.strip() == heading.strip():
+            inside = True
+            continue
+        if inside and line.startswith('#') and len(line) - len(line.lstrip('#')) <= level:
+            break
+        if inside:
+            out.append(line)
+    return '\n'.join(out) if inside else None
+
+
+def carried(unit, article):
+    """True when the unit's "elsewhere" section of the article has every word it names."""
+    e = unit.get('elsewhere')
+    if not e or article is None:
+        return False
+    sec = section_of(article, e['section'])
+    return sec is not None and all(normalize(w) in normalize(sec) for w in e['words'])
+
+
+def check(keys_doc, draft, article=None, carried_out=None):
     paras = [normalize(b) for b in re.split(r'\n\s*\n', draft) if normalize(b).strip()]
     missing = []
     for unit in keys_doc['units']:
@@ -64,7 +95,11 @@ def check(keys_doc, draft):
                 best = lost
             if not lost:
                 break
-        if best:
+        if best and carried(unit, article):
+            if carried_out is not None:
+                carried_out.append({'id': unit['id'], 'what': unit.get('what', ''), 'section': unit['elsewhere']['section'],
+                                    'why': unit['elsewhere'].get('why', '')})
+        elif best:
             missing.append({'id': unit['id'], 'what': unit.get('what', ''), 'missing': best})
     return missing
 
@@ -74,16 +109,22 @@ def main(argv=None):
     ap.add_argument('keys')
     ap.add_argument('draft')
     ap.add_argument('--json', action='store_true')
+    ap.add_argument('--article', help='the article with the other sections, for units a dedup left "elsewhere"')
     a = ap.parse_args(argv)
     keys_doc = json.load(open(a.keys, encoding='utf-8'))
-    missing = check(keys_doc, open(a.draft, encoding='utf-8').read())
+    art = open(a.article, encoding='utf-8').read() if a.article else None
+    moved = []
+    missing = check(keys_doc, open(a.draft, encoding='utf-8').read(), art, moved)
     gaps = incomplete_units(keys_doc)
     if a.json:
-        print(json.dumps({'units': len(keys_doc['units']), 'missing': missing, 'key_file_gaps': gaps}, ensure_ascii=False, indent=1))
+        print(json.dumps({'units': len(keys_doc['units']), 'missing': missing, 'carried_elsewhere': moved, 'key_file_gaps': gaps},
+                         ensure_ascii=False, indent=1))
     else:
         print('== preservation_keys: %s, %d units' % (a.draft, len(keys_doc['units'])))
         for g in gaps:
             print('KEY FILE %s (%s): its meaning uses the section\'s term %r, but no key requires it' % (g['id'], g['what'], g['term']))
+        for m in moved:
+            print('CARRIED ELSEWHERE %s (%s): in %s (%s)' % (m['id'], m['what'], m['section'], m['why']))
         for m in missing:
             print('MISSING %s (%s): %s' % (m['id'], m['what'], ' | '.join(' or '.join(repr(x) for x in alts) for alts in m['missing'])))
         print('verdict: %s' % ('FAIL' if missing or gaps else 'PASS'))

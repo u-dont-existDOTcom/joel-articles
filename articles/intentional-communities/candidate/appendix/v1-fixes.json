@@ -1,0 +1,17 @@
+[
+ {
+  "old": "start here for sequencing, membership, money, land, and agreements.",
+  "new": "start here for membership, money, land, and agreements.",
+  "why": "Joel 2026-10-16 23:38 UTC: the book is not recommended for its order; his order is section 16's"
+ },
+ {
+  "old": "my father’s documentary, made with Jerry Mintz and now online.",
+  "new": "my father’s documentary, made with Jerry Mintz.",
+  "why": "dedup (repeats r1 item 1): section 1 says it's online, and the entry links it"
+ },
+ {
+  "old": " My father lived there for 17 years. The Bruderhof also has",
+  "new": " The Bruderhof also has",
+  "why": "dedup (repeats r1 item 2): sections 1 and 4 say it"
+ }
+]
