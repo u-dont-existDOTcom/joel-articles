@@ -863,3 +863,21 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His merge of this turn's pull request.
 2. Group 12 of The Inner Guide Comes Later (`tools/targets/t56-ig12.json`: love bombing; what the affection is doing to your judgment; don't argue with the feeling, slow down and verify), the E181 way.
+
+## Turn 65 (2026-10-17, from 02:11 UTC): the 12-hour run
+
+- **His messages:** "31a" (his P5 stays; lesson E182), "work continuously for 12 hours doing as much as you can. if you find that you are stumbling on a paragraph too much, just leave it for later and go to an easier one, then at the end we will see what you needed help with for the whole article", and "there were conflicts in 186" (fixed). Saved in `t65-answers/`.
+- **In:** The Inner Guide Comes Later P12 and P13 and Timing Is Individual; Simple Practices with three practices (Borrow Hindsight, Remember When You Already Did It, A Heart-to-Child Loop); When Love Still Feels Missing (its opening, Notice the Part That Came Here, Somatic Heart Opening; the h1 Human Written 0.26, high); When the Practice Feels Real but Stays Shallow. Each paragraph read Human alone and in its section; cold reads OK.
+- **How (`t65-guide/REVIEWS.md`):** my drafts, then fresh writer agents (E177), then joins: a draft that read AI Detected with a Human window kept that half and got a new other half (E180). Joins gave most of the late passes. Lessons E183 (grounding before the screen for new content), E184 (one batch per round).
+- **Stopped** a little before 10:00 UTC, when the account hit its session limit with 16 to 20 writers running at once (E185). Parked, with every try: `t65-guide/PARKED.md`.
+
+## Turn 66 (2026-10-17, from 12:15 UTC): "Continue in regular section mode for daytime now"
+
+- **His message:** "You missed the overnight window. Continue in regular section mode for daytime now" (`t66-answers/`).
+- **In:** How to Forgive Without Forgetting. P1 and P3 had read AI in 28 and 26 versions; my plain-word drafts gave each a Human first half, and new second halves read Human alone (P1 0.061, P3 0.14, high); with turn 65's P2 and P4 the section read Human Written (0.033, high). The cold read's one flag (P4's "they" with no referent) fixed as "whoever did it"; the section as installed 0.028, high; cold read 2 OK. Then a placeholder for the three sections still waiting, and the closing (You Are Worthy of Love. Always.). Record: `t66-guide/REVIEWS.md`.
+- **Questions 32 to 40** ask for what the run couldn't finish without him (OWNER-QUESTIONS.md).
+
+### Next
+
+1. His merge of #186 (turns 64 to 66), and his answers to 32 to 40.
+2. When One Life Has Ended and the Next Hasn't Begun (P2 and P3), the way How to Forgive went in: my drafts in plain words, joins of any Human half, at most four agents (E185).

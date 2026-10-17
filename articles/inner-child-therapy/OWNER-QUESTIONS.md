@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-17 (turn 65). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-17 (turn 66). **Nine open questions (32 to 40)**: what the 12-hour run couldn't finish without you. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,21 +11,85 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 32. If You Want to Kill Yourself: the "adult in the room" step
+
+> Then, before getting philosophical, make sure there's a grown-up in the room. When the part that wants to die feels like all of you, it can help to notice who's doing the noticing (Noticing Counts), or to borrow an adult. Any part of you that can watch, or wants to keep your body safe, or would rather wait on a decision you can't undo, is welcome. And if none of them shows up yet? Then the questions wait, and the person you called is the adult for now. If you can already watch the suicidal state without being swallowed by it, go ahead to the questions.
+
+Eleven versions of this step read AI alone, so the section isn't in (its crisis steps and four other paragraphs read Human alone, and without this step the section reads AI). Two more lines there are yours to call: the crisis paragraph's "This isn't me answering whether life is worth living" speaks as you, and the guide's "the accumulating scientific evidence" (that the mind's causal process goes on after the body dies) is a claim. Every try is in PARKED.md.
+- **A. Your words** for this step, and for any crisis line you want worded your way.
+- **B. Leave the section out** for now (the default).
+
+### 🟣 33. Borrowed Adulthood in Relationship, P2
+
+> Say they're the one who always remembers your appointments. Over time, reparenting can help you take in some of what they've been doing for you, and start doing it yourself, the calendar part included. What you're after is care your little one can count on from more than one place, while the relationship stays precious and important. Other jobs can go to friends or community, to professionals or services, or to routines and simple tools. Which of these could become more yours? Some are healthiest shared, and some really do belong inside that relationship.
+
+P1 reads Human alone; this P2 read AI in thirteen versions (the guide's list of where jobs can go, and its three questions, every time).
+- **A. Your words** (or a word on whether the three questions could be one).
+- **B. Leave the section out** for now (the default).
+
+### 🟣 34. How Much Happiness Do You Know Is Possible?, P4
+
+> Sometimes care isn't what's missing. The whole horizon of life feels too small. A meal can help, and so can a boundary or a kind sentence, without touching the question underneath: "Why should I want this life at all?" Or however you'd put it. Take that question seriously: what would have to be possible for being alive to feel worth discovering, instead of just something to endure?
+
+P1, P2, P3 and P5 read Human alone; P4 read AI in eleven versions, so the h2 waits.
+- **A. Your words.**
+- **B. Leave the h2 out** for now (the default).
+
+### 🟣 35. The Inner Guide Comes Later, P14 ("Timing is individual")
+
+> Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
+
+Two versions read Human alone, but the h1 kept an AI window on it every time (sixteen drafts in all). PARKED.md asks whether the point could live in one sentence of P1 instead, since the heading already says the Guide comes later.
+- **A. Your words** (or that one-sentence idea).
+- **B. Leave it out** (the default).
+
+### 🟣 36. Six Simple Practices
+
+Each has paragraphs that read Human alone and one that never did: Journal With Each Hand (P1), "And So That's the Way It Happened!" (P2), One Intention in the Morning (P1), Just Like Me (P2), Use Childhood Photographs (P1; and its h2 read AI with every opener) and Close the Session (its only paragraph). My best version of each, with every try, is in PARKED.md.
+- **A. Your words** for any of them (say which).
+- **B. Leave them out** for now (the default).
+
+### 🟣 37. When One Life Has Ended and the Next Hasn't Begun, P2 and P3
+
+P1 reads Human alone and with its heading. P2 (the questions for the gap; don't force a new identity; what the grown-up you keeps doing) read AI in seventeen versions, and P3 (missing someone as a cue for love, and its limits) in fifteen. Both drafts are in PARKED.md.
+- **A. Your words** (or whether three of the guide's five questions are enough).
+- **B. Leave the section out** for now (the default).
+
+### 🟣 38. Speak Toward What You Are Building, and Hearthwork
+
+P3 and P4 read Human alone and together (0.067, high). P1, P2, P5 and P6 never did (thirteen, fourteen, eight and sixteen versions; P6's closest was 0.57). The guide also names Hearthwork as "my peer-counseling framework" there; the drafts leave the name out.
+- **A. Your words** for any of P1, P2, P5 and P6, and whether Hearthwork goes in, and how.
+- **B. Leave the section out** for now (the default).
+
+### 🟣 39. Your life, from the guide's first person
+
+The guide says these in its "I", and the article doesn't have them in your words, so they're left out: your father's suggestion to remember a time you met a difficulty well (Remember When You Already Did It); the kindergarten recess line (A Heart-to-Child Loop); Xandria and the story phrase ("And So That's the Way It Happened!"); your father's line to suicidal people, and "I get stricter about spirituality with suicidal people"; your deepest peaks coming when you least wanted to exist, and your nibbana article (This human life); and in the three Altered States sections, the childhood ghosts and the window, the sleep-paralysis attacks, training others on psychedelics, and your guides. Those sections aren't started, since most of their points are these, and their warnings go in only in your words, with no amounts or recipes.
+- **A. Your words** for the ones you want in (say which).
+- **B. Leave them out** (the default).
+
+### 🟣 40. "Non-judgement is a place to start."
+
+It's in the r4 guide but not the original, and I can't see where it came from, so A Heart-to-Child Loop leaves it out.
+- **A. It's yours: put it back.**
+- **B. Leave it out** (the default).
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #186 (turn 64)
+### 🟠 Merge pull request #186 (turns 64 to 66)
 
-P11 of The Inner Guide Comes Later, and the faster process; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+P11 of The Inner Guide Comes Later (turn 64); from the 12-hour run, P12, P13 and Timing Is Individual, three Simple Practices, When Love Still Feels Missing, the shallow-practice section, and the closing; and How to Forgive Without Forgetting (turn 66). The link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-17 12:15 UTC
+
+- "You missed the overnight window. Continue in regular section mode for daytime now": the run stopped a little before 10:00 UTC, when the account hit its session limit; I had 16 to 20 writer agents running at once. Lesson E185: at most four agents at a time, joins of a Human half first, then my own drafts, then writers. Back in section mode, How to Forgive Without Forgetting went in (every paragraph Human alone, the section Human Written 0.028, high; cold read fixes in), with the closing after placeholders for the three sections still waiting.
 
 ### 🟢 2026-10-17 02:11 UTC
 
@@ -184,9 +248,9 @@ P11 of The Inner Guide Comes Later, and the faster process; the link is in my me
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: The Inner Guide Comes Later, group 12
+### 🔵 Next: When One Life Has Ended and the Next Hasn't Begun
 
-P11 went in this turn. Next: the guide's love bombing (not just too much affection; ask what it's doing to your judgment; private attention or specialness making contrary evidence disappear; don't argue with the feeling, slow down and verify). If nothing changes, I draft it the E181 way, and it goes in only when it reads Human alone.
+How to Forgive went in this turn. Next, section by section: When One Life Has Ended (P2 and P3), the way the forgiveness section finally went: my drafts in plain words, a join of any half that reads Human, at most four agents. If two rounds give nothing, it waits for your answer to 37, and I take Speak Toward next.
 
 ### 🔵 Saved for when Altered States is humanized
 
