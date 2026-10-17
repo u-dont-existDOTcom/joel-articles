@@ -6,7 +6,9 @@ them) finds them for a few credits, and a draft goes to a whole-section screen w
 Usage (from candidate/): python3 s16/slide.py NNN NAME SCRIPT [ARG ...] --draft vNN.md --march MAP.json [--only H2,H3]
   [--changed H2-P3,H2-P4]   (only the runs that hold a changed paragraph)  [--pairs]  (and each changed paragraph alone
   and with each neighbor)  [--whole]  (and the whole section)  [--starts H3-P4,...]  (only the runs that start at these
-  paragraphs, for a variant screened beside another: 2026-10-17, v16)
+  paragraphs, for a variant screened beside another: 2026-10-17, v16)  [--stretch H3-P2:H3-P7,...]  (longer stretches, with the
+  heading or caption before the first: Pangram's windows inside the whole section ran to 330 words in 354g to 358g)  [--sub H3,...]
+  (a subsection whole, with its heading)
 MAP.json: {"H2-P3": "H2-P3e", ...}, the march key of each paragraph that differs from the plain id (rounds r2 to r22).
 Writes s16/bNNN/ (drafts.json, GATE.json, the in-page batch and bNNN-items.json)."""
 import hashlib, json, pathlib, re, subprocess, sys, tempfile
@@ -97,6 +99,26 @@ for w in range(len(pidx) - 2):
     gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in M[p]], 'march_note': 'rounds r2 to r22, as in 346g',
                  'lint': lint('\n\n'.join(t for k, i, t in seq if k == 'p' and i.split('-')[0] in subs)),
                  'lint_note': 'the subsections the run touches: ' + ', '.join(subs), 'words': len(drafts[key].split())}
+def stretch(first, last, key):
+    s, e = seq.index(next(x for x in seq if x[1] == first)), seq.index(next(x for x in seq if x[1] == last))
+    while s > 0 and seq[s - 1][0] in 'hc':
+        s -= 1
+    part = seq[s:e + 1]
+    ps = [i for k, i, _ in part if k == 'p']
+    drafts[key] = '\n\n'.join(plain(t.lstrip('#').strip()) if k == 'h' else plain(t) for k, _, t in part)
+    subs = sorted({p.split('-')[0] for p in ps})
+    gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in M[p]], 'march_note': 'every paragraph of the stretch',
+                 'lint': lint('\n\n'.join(t for k, i, t in seq if k == 'p' and i.split('-')[0] in subs)),
+                 'lint_note': 'the subsections the stretch touches: ' + ', '.join(subs), 'words': len(drafts[key].split())}
+
+
+for spec in (opt('--stretch').split(',') if opt('--stretch') else []):
+    f, l = spec.split(':')
+    same = f.split('-')[0] == l.split('-')[0]
+    stretch(f, l, '%s-%s-%s' % (NAME, f, l.split('-')[1] if same else l))
+for sub in (opt('--sub').split(',') if opt('--sub') else []):
+    ps = [i for i in PARAS if i.split('-')[0] == sub]
+    stretch(ps[0], ps[-1], '%s-%s' % (NAME, sub))
 if CHANGED and '--pairs' in a:
     # each changed paragraph alone (50 words or more) and with each neighbor under its heading, for paragraphs_alone.py
     T = {i: t for k, i, t in seq if k == 'p'}

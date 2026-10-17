@@ -6,6 +6,10 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v16ekkk-H3-P3-P5 | Human | v15's H3-P4 (round e's questions) with the new H3-P3 and H3-P5 | |
-| S16v16ekkk-H3-P4-P6 | AI | round e's H3-P4 has read AI in this run with round e's H3-P5 and H3-P6 (0.69); only H3-P5 and H3-P6 change | |
-| S16v16ekkk | Mixed | the whole section, with round e's H3-P4 | |
+| S16v16ekkk-H3-P3-P5 | Human | v15's H3-P4 (round e's questions) with the new H3-P3 and H3-P5 | **AI** (AI Generated, high, 155 words, AI likelihood 0.83), 09:09:03, [check](https://www.pangram.com/history/e86345e9-5e59-44af-a5c5-ef67609edeaa) |
+| S16v16ekkk-H3-P4-P6 | AI | round e's H3-P4 has read AI in this run with round e's H3-P5 and H3-P6 (0.69); only H3-P5 and H3-P6 change | **AI** (AI Generated, medium, 145 words, AI likelihood 0.80), 09:09:13, [check](https://www.pangram.com/history/cd6c50b5-458d-456d-acec-8609709c4d65) |
+| S16v16ekkk | Mixed | the whole section, with round e's H3-P4 | **Mixed** (AI Detected; windows: Human, High, 454; AI-Generated, High, 48; Human, High, 40; AI-Generated, High, 337, 879 words, AI likelihood 0.49), 09:09:23, [check](https://www.pangram.com/history/138bc06e-e810-4688-a81d-9a9901a3e922) |
+
+## Results of 355g
+
+Two of three right. With round e's H3-P4 the hand-written H3-P5 and H3-P6 read AI in the run (0.80), and the whole section read like 354g's (AI from H3-P3's second sentence to the end, 337 words, and over H2-P6 and H3-P2's question, 48 words).
