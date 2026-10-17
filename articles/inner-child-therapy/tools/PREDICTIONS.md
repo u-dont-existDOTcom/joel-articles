@@ -2174,11 +2174,25 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | st1p2v w2 p3 alone, a fresh writer (95 words) [t65z18_st1p2vw2p3], a screen | Human, low (my call) | AI Generated (1, Low; 99); 09:37:11 UTC, https://www.pangram.com/history/b8f89380-eff8-485c-8d42-945ee16aadcf | miss |
 | 2026-10-17 (turn 65) | st1p6 w5 p1 alone, my own draft (115 words) [t65z19_st1p6w5p1], a screen | Human, low (my call) | AI Generated (0.7, Medium; 118); 09:41:07 UTC, https://www.pangram.com/history/75e8b719-88b1-4229-8828-a3d1fc5cdb0b | miss |
 | 2026-10-17 (turn 65) | st1p6 w6 p1 alone, my own draft (107 words) [t65z19_st1p6w6p1], a screen | Human, low (my call) | AI Generated (0.64, Medium; 109); 09:41:09 UTC, https://www.pangram.com/history/89003d5e-4664-4a43-bbe2-f65e708c7f77 | miss |
-| 2026-10-17 (turn 65) | fg1p1 w7 p1 alone, my own draft (104 words) [t65z20_fg1p1w7p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p1 w8 p1 alone, my own draft (90 words) [t65z20_fg1p1w8p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p1 w9 p1 alone, my own draft (99 words) [t65z20_fg1p1w9p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3 w8 p1 alone, my own draft (152 words) [t65z20_fg1p3w8p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3 w9 p1 alone, my own draft (144 words) [t65z20_fg1p3w9p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p6 w7 p1 alone, my own draft (106 words) [t65z20_st1p6w7p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p6 w8 p1 alone, my own draft (95 words) [t65z20_st1p6w8p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p6 w9 p1 alone, my own draft (101 words) [t65z20_st1p6w9p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p1 w7 p1 alone, my own draft (104 words) [t65z20_fg1p1w7p1], a screen | Human, low (my call) | AI Generated (0.93, Medium; 108); 09:44:56 UTC, https://www.pangram.com/history/28eced4a-6c08-4d2c-ada2-193453c93ad7 | miss |
+| 2026-10-17 (turn 65) | fg1p1 w8 p1 alone, my own draft (90 words) [t65z20_fg1p1w8p1], a screen | Human, low (my call) | AI Generated (0.97, Low; 95); 09:45:07 UTC, https://www.pangram.com/history/b51866a4-1f7a-4d73-b862-bffab2afd3ca | miss |
+| 2026-10-17 (turn 65) | fg1p1 w9 p1 alone, my own draft (99 words) [t65z20_fg1p1w9p1], a screen | Human, low (my call) | AI Generated (1, Medium; 105); 09:45:17 UTC, https://www.pangram.com/history/8c9ed85d-89dc-4f71-a2d2-601c8eb5e2f5 | miss |
+| 2026-10-17 (turn 65) | fg1p3 w8 p1 alone, my own draft (152 words) [t65z20_fg1p3w8p1], a screen | Human, low (my call) | AI Generated (0.92, High; 156); 09:45:28 UTC, https://www.pangram.com/history/8b9cba7d-5e50-42ae-9cfa-bf57ac9ba5a5 | miss |
+| 2026-10-17 (turn 65) | fg1p3 w9 p1 alone, my own draft (144 words) [t65z20_fg1p3w9p1], a screen | Human, low (my call) | AI Detected (0.42; 149), 2 windows: AI-Generated 68 words (Medium); 09:45:31 UTC, https://www.pangram.com/history/4a935551-f56d-4c5d-966c-d3161b8ab97b | miss |
+| 2026-10-17 (turn 65) | st1p6 w7 p1 alone, my own draft (106 words) [t65z20_st1p6w7p1], a screen | Human, low (my call) | AI Generated (0.67, Medium; 108); 09:45:20 UTC, https://www.pangram.com/history/1c617e65-b33a-4b6c-a23a-397581afee12 | miss |
+| 2026-10-17 (turn 65) | st1p6 w8 p1 alone, my own draft (95 words) [t65z20_st1p6w8p1], a screen | Human, low (my call) | AI Generated (0.74, Low; 97); 09:45:09 UTC, https://www.pangram.com/history/4b6463c5-be11-491c-9eae-95c078136cd7 | miss |
+| 2026-10-17 (turn 65) | st1p6 w9 p1 alone, my own draft (101 words) [t65z20_st1p6w9p1], a screen | Human, low (my call) | AI Generated (0.57, Medium; 105); 09:44:59 UTC, https://www.pangram.com/history/3ab1d6bc-8d97-4265-a600-5434597f5882 | miss |
+| 2026-10-17 (turn 66) | fg1p3 w10 p1 alone, my own draft (140 words) [t66a_fg1p3w10p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p3 w11 p1 alone, my own draft (150 words) [t66a_fg1p3w11p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p3 w12 p1 alone, my own draft (143 words) [t66a_fg1p3w12p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p1 w10 p1 alone, my own draft (92 words) [t66a_fg1p1w10p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p1 w11 p1 alone, my own draft (95 words) [t66a_fg1p1w11p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p1 w12 p1 alone, my own draft (89 words) [t66a_fg1p1w12p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | fg1p1 w13 p1 alone, my own draft (93 words) [t66a_fg1p1w13p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w10-p1) (98 words) [t66a_secfgh1p1w10], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w11-p1) (101 words) [t66a_secfgh1p1w11], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w12-p1) (95 words) [t66a_secfgh1p1w12], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w13-p1) (99 words) [t66a_secfgh1p1w13], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w10-p1) (240 words) [t66a_secfgp2p3w10], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w11-p1) (250 words) [t66a_secfgp2p3w11], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 66) | W:fg1p2-w8-p1, mixed (W:fg1p3-w12-p1) (243 words) [t66a_secfgp2p3w12], a screen | Human, low (my call) | (pending) | |

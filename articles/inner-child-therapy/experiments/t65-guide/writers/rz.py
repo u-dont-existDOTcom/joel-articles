@@ -88,7 +88,7 @@ def build(march_file, rnd, out_prefix, combos_file=None):
     m = json.loads(pathlib.Path(march_file).read_text())
     drafts, gate, rows = {}, {}, []
     combos = json.loads(pathlib.Path(combos_file).read_text()) if combos_file else {}
-    date = '2026-10-17 (turn 65)'
+    date = '2026-10-17 (turn %s)' % re.match(r't(\d+)', rnd).group(1)
     sets = {}
     for stem, march in m.items():  # stem: job-wN-pI
         job, w, p = stem.rsplit('-', 2)
