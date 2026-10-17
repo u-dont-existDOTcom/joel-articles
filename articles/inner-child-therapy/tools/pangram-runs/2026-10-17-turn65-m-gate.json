@@ -1,0 +1,98 @@
+{
+ "t65m_sp2a": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round m: Remember When You Already Did It (your own past success as a source; what you did and what helped; one part of it now; small is enough; past capacity doesn't cancel present limits; another doorway), the E181 way, without the guide's line about Joel's father (E159); sp2-a. March: my own reading."
+ },
+ "t65m_sp2c": {
+  "kind": "screen",
+  "march": [
+   "B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round m: Remember When You Already Did It (your own past success as a source; what you did and what helped; one part of it now; small is enough; past capacity doesn't cancel present limits; another doorway), the E181 way, without the guide's line about Joel's father (E159); sp2-c. March: my own reading."
+ },
+ "t65m_sp2d": {
+  "kind": "screen",
+  "march": [
+   "S S S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round m: Remember When You Already Did It (your own past success as a source; what you did and what helped; one part of it now; small is enough; past capacity doesn't cancel present limits; another doorway), the E181 way, without the guide's line about Joel's father (E159); sp2-d. March: my own reading."
+ },
+ "t65m_sp2e": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round m: Remember When You Already Did It (your own past success as a source; what you did and what helped; one part of it now; small is enough; past capacity doesn't cancel present limits; another doorway), the E181 way, without the guide's line about Joel's father (E159); sp2-e. March: my own reading."
+ },
+ "t65m_secsp2a": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Remember When You Already Did It with P1 = sp2-a."
+ },
+ "t65m_secsp2c": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Remember When You Already Did It with P1 = sp2-c."
+ },
+ "t65m_secsp2d": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Remember When You Already Did It with P1 = sp2-d."
+ },
+ "t65m_secsp2e": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Remember When You Already Did It with P1 = sp2-e."
+ },
+ "t65m_sec2sp2a": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Simple Practices with sp2-a at its end."
+ },
+ "t65m_sec2sp2c": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Simple Practices with sp2-c at its end."
+ },
+ "t65m_sec2sp2d": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | S S S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Simple Practices with sp2-d at its end."
+ },
+ "t65m_sec2sp2e": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65m: Simple Practices with sp2-e at its end."
+ }
+}

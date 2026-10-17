@@ -1430,19 +1430,31 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Simple Practices with sp1p1b at its end (72 words) [t65k_sec2sp1p1b], a screen | Human, low (my call) | Human Written (0.14, low; 72), the h1; 03:42:52 UTC, https://www.pangram.com/history/88d442a4-77a7-4751-8847-57d76b59c526 | hit |
 | 2026-10-17 (turn 65) | Simple Practices with sp1p1d at its end (75 words) [t65k_sec2sp1p1d], a screen | Human, low (my call) | Human Written (0.026, low; 74), the h1; 03:43:03 UTC, https://www.pangram.com/history/498b54a5-e2f2-406d-ba47-532912449099 | hit |
 | 2026-10-17 (turn 65) | Simple Practices with sp1p1e at its end (74 words) [t65k_sec2sp1p1e], a screen | Human, low (my call) | Human Written (0.13, low; 76), the h1; 03:43:17 UTC, https://www.pangram.com/history/fcf6c3a0-076b-4837-b2cf-4ead720ee1f4 | hit |
-| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2a alone (57 words) [t65l_sp1p2a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2c alone (52 words) [t65l_sp1p2c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2d alone (64 words) [t65l_sp1p2d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2e alone (63 words) [t65l_sp1p2e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P1+P2, with sp1p2a (126 words) [t65l_pairsp1p2a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P1+P2, with sp1p2c (121 words) [t65l_pairsp1p2c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P1+P2, with sp1p2d (133 words) [t65l_pairsp1p2d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P1+P2, with sp1p2e (132 words) [t65l_pairsp1p2e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2a (129 words) [t65l_secsp1p2a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2c (124 words) [t65l_secsp1p2c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2d (136 words) [t65l_secsp1p2d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2e (135 words) [t65l_secsp1p2e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices with sp1p2a at its end (132 words) [t65l_sec2sp1p2a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices with sp1p2c at its end (127 words) [t65l_sec2sp1p2c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices with sp1p2d at its end (139 words) [t65l_sec2sp1p2d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices with sp1p2e at its end (138 words) [t65l_sec2sp1p2e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2a alone (57 words) [t65l_sp1p2a], a screen | Human, low (my call) | Human Written (0.01, low; 60); 03:49:17 UTC, https://www.pangram.com/history/d3ea5c7f-1157-4cd1-9603-6eeb171f3a30 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2c alone (52 words) [t65l_sp1p2c], a screen | Human, low (my call) | Human Written (0.002, low; 55); 03:49:28 UTC, https://www.pangram.com/history/36fb788a-29e6-4e7c-bd0e-90af018bbf91 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2d alone (64 words) [t65l_sp1p2d], a screen | Human, low (my call) | Human Written (0.20, low; 67); 03:49:39 UTC, https://www.pangram.com/history/29c4c05d-d0d6-4d57-8689-e3a2d2be9277 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2e alone (63 words) [t65l_sp1p2e], a screen | Human, low (my call) | Human Written (0.0, low; 68); 03:49:49 UTC, https://www.pangram.com/history/1f79b23a-61af-4055-bbe5-62536dd2ce5c | hit |
+| 2026-10-17 (turn 65) | P1+P2, with sp1p2a (126 words) [t65l_pairsp1p2a], a screen | Human, low (my call) | Human Written (0.20, medium; 130); 03:50:00 UTC, https://www.pangram.com/history/129a8760-190a-42e9-a590-1cf05815b8d3 | hit |
+| 2026-10-17 (turn 65) | P1+P2, with sp1p2c (121 words) [t65l_pairsp1p2c], a screen | Human, low (my call) | Human Written (0.054, medium; 125); 03:50:10 UTC, https://www.pangram.com/history/6c504f9e-239b-4518-8f54-65eca9f955de | hit |
+| 2026-10-17 (turn 65) | P1+P2, with sp1p2d (133 words) [t65l_pairsp1p2d], a screen | Human, low (my call) | AI Detected (0.42; 137): an AI window of 75 (medium) on P2; 03:50:21 UTC, https://www.pangram.com/history/251fea3c-f599-446f-a52e-0b63fd00d699 | miss |
+| 2026-10-17 (turn 65) | P1+P2, with sp1p2e (132 words) [t65l_pairsp1p2e], a screen | Human, low (my call) | Human Written (0.011, medium; 138); 03:50:32 UTC, https://www.pangram.com/history/8f3018db-a0a3-413e-a4b4-549c96e8f713 | hit |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2a (129 words) [t65l_secsp1p2a], a screen | Human, low (my call) | Human Written (0.15, medium; 132), the h2; 03:50:45 UTC, https://www.pangram.com/history/00326cbf-2f4e-40ac-afc8-80d6ee2e6092 | hit |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2c (124 words) [t65l_secsp1p2c], a screen | Human, low (my call) | Human Written (0.03, medium; 127), the h2; 03:50:57 UTC, https://www.pangram.com/history/aa86c9b9-f6db-4bef-8667-97d2d3e437a0 | hit |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2d (136 words) [t65l_secsp1p2d], a screen | Human, low (my call) | AI Detected (0.45; 139): an AI window of 75 (medium) on P2, the h2; 03:51:09 UTC, https://www.pangram.com/history/52b0bea4-d8d2-4aa0-ae6b-3db01ad74c82 | miss |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2e (135 words) [t65l_secsp1p2e], a screen | Human, low (my call) | Human Written (0.012, medium; 140), the h2; 03:51:21 UTC, https://www.pangram.com/history/14d1b388-22c5-47e4-92f1-2d271643e3db | hit |
+| 2026-10-17 (turn 65) | Simple Practices with sp1p2a at its end (132 words) [t65l_sec2sp1p2a], a screen | Human, low (my call) | Human Written (0.155, medium; 134), the h1; 03:51:32 UTC, https://www.pangram.com/history/2c8553fc-e10b-4842-af8b-9ac28c5e39b2 | hit |
+| 2026-10-17 (turn 65) | Simple Practices with sp1p2c at its end (127 words) [t65l_sec2sp1p2c], a screen | Human, low (my call) | Human Written (0.031, medium; 129), the h1; 03:51:42 UTC, https://www.pangram.com/history/a889f28c-bb60-48bf-bccf-4f157bbe2308 | hit |
+| 2026-10-17 (turn 65) | Simple Practices with sp1p2d at its end (139 words) [t65l_sec2sp1p2d], a screen | Human, low (my call) | Human Written (0.37, medium; 141), the h1; 03:51:52 UTC, https://www.pangram.com/history/b3055b36-2ba0-4824-821a-b0982569f33d | hit |
+| 2026-10-17 (turn 65) | Simple Practices with sp1p2e at its end (138 words) [t65l_sec2sp1p2e], a screen | Human, low (my call) | Human Written (0.014, medium; 142), the h1; 03:52:03 UTC, https://www.pangram.com/history/6eefea96-1f9b-4f6b-a9ab-19122c258648 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Remember When You Already Did It, sp2a alone (76 words) [t65m_sp2a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Remember When You Already Did It, sp2c alone (81 words) [t65m_sp2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Remember When You Already Did It, sp2d alone (82 words) [t65m_sp2d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Remember When You Already Did It, sp2e alone (79 words) [t65m_sp2e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Remember When You Already Did It with P1 = sp2a (83 words) [t65m_secsp2a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Remember When You Already Did It with P1 = sp2c (88 words) [t65m_secsp2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Remember When You Already Did It with P1 = sp2d (89 words) [t65m_secsp2d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Remember When You Already Did It with P1 = sp2e (86 words) [t65m_secsp2e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices with sp2a at its end (221 words) [t65m_sec2sp2a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices with sp2c at its end (226 words) [t65m_sec2sp2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices with sp2d at its end (227 words) [t65m_sec2sp2d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices with sp2e at its end (224 words) [t65m_sec2sp2e], a screen | Human, low (my call) | (pending) | |
