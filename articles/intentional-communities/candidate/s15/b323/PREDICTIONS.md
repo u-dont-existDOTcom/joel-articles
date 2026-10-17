@@ -6,24 +6,26 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S15v3-H1-P4 | AI | Emulate B's two sentences, but the quip is the published one's shape ("Nobody's holding a workshop ... because some aunt already gave three people a task"), and it read AI in v2 | |
-| S15v3-H2-P1+P2 | Human | B's question with its "No!", then B's two long run-on sentences about the law | |
-| S15v3-H2-P2 | Human | B's run-ons ("...and it also made public "apology" for homosexuality a crime, along with ..."), the mob sentence in one breath | |
-| S15v3-H2-P3 | Human | the question "So which is it?" with A's "Well, in a way, it's both." and "It's interesting to see that ...", with a comma splice | |
-| S15v3-H2-P3+P4 | Human | as above, then A's "people will go to pretty funny lengths" and the sheep question | |
-| S15v3-H2-P4+P5 | Human | the sheep, then the moringa pods (published, Human with the sheep paragraph in 321g and 322g) | |
-| S15v3-H2-P5+P6 | Human | the moringa pods, then B's "(even me!)" and its list of what makes another world | |
-| S15v3-H2-P6+P7 | Human | B's sheep, then A's "Of course, the old ways here are changing" and its run-on list with "etc." | |
-| S15v3-H2-P7 | Human | A's run-on list and "And can you blame them?" | |
-| S15v3-H3-P1 | AI | the instinct and the real claim are v2's sentences ("In the ancestral way of doing things nobody made it alone ..."), which read AI | |
-| S15v3-H3-P2 | Human | A's loose sentences ("The problem is that ...", "And yet the relatives stay dependent"), though the obligation sentence is mine | |
-| S15v3-H3-P3 | Human | A's "thorny boundary issues", "but it does mean someone has to handle it! Who's that going to be?" | |
-| S15v3-H3-P4 | Human | A's "different ..." run-on list with "etc. etc.", the tag question | |
-| S15v3-H3-P5 | AI | A's opening, but the middle two sentences carry the published point nearly in its order | |
-| S15v3-H3-P7 | Human | B's question and the run of instructions with an exclamation | |
-| S15v3-H1-P4x | Human | the quip as a question at the end, a break | |
-| S15v3-H1 | Mixed | P4's quip as in v2 | |
-| S15v3-H2 | Human | every paragraph from Emulate round b but the moringa pods (published, Human) | |
-| S15v3-H3 | Mixed | P1 and P5 | |
-| S15v3x-H1 | Human | the subsection with variant x | |
-| S15v3 | Mixed | the Black Tax subsection's P1 and P5, and H1-P4 | |
+| S15v3-H1-P4 | AI | Emulate B's two sentences, but the quip is the published one's shape ("Nobody's holding a workshop ... because some aunt already gave three people a task"), and it read AI in v2 | **Human** (Human Written, low, 79 words, AI likelihood 0.25), 03:43:26, [check](https://www.pangram.com/history/193439c9-f305-4428-b69a-8fb77ad02c0d) |
+| S15v3-H2-P1+P2 | Human | B's question with its "No!", then B's two long run-on sentences about the law | **Human** (Human Written, medium, 141 words, AI likelihood 0.19), 03:43:37, [check](https://www.pangram.com/history/6dcc30a3-32a6-4f49-ab08-7072ebdf2437) |
+| S15v3-H2-P2 | Human | B's run-ons ("...and it also made public "apology" for homosexuality a crime, along with ..."), the mob sentence in one breath | **Human** (Human Written, medium, 107 words, AI likelihood 0.06), 03:43:47, [check](https://www.pangram.com/history/2c608c7b-45b7-4a59-900b-e75f66023bfa) |
+| S15v3-H2-P3 | Human | the question "So which is it?" with A's "Well, in a way, it's both." and "It's interesting to see that ...", with a comma splice | **Human** (Human Written, low, 68 words, AI likelihood 0.00), 03:44:00, [check](https://www.pangram.com/history/9e42e13b-3658-49c0-8bec-8b2c23996188) |
+| S15v3-H2-P3+P4 | Human | as above, then A's "people will go to pretty funny lengths" and the sheep question | **Human** (Human Written, medium, 108 words, AI likelihood 0.00), 03:44:11, [check](https://www.pangram.com/history/334770b3-4079-4c54-8dd1-e8e5d9af6312) |
+| S15v3-H2-P4+P5 | Human | the sheep, then the moringa pods (published, Human with the sheep paragraph in 321g and 322g) | **Human** (Human Written, low, 71 words, AI likelihood 0.00), 03:44:22, [check](https://www.pangram.com/history/09cc5777-568e-439c-b4d6-b2b87e0f940f) |
+| S15v3-H2-P5+P6 | Human | the moringa pods, then B's "(even me!)" and its list of what makes another world | **Human** (Human Written, low, 69 words, AI likelihood 0.00), 03:44:32, [check](https://www.pangram.com/history/8deb27ea-6c26-47b7-9a53-d6dccefa1707) |
+| S15v3-H2-P6+P7 | Human | B's sheep, then A's "Of course, the old ways here are changing" and its run-on list with "etc." | **Human** (Human Written, medium, 103 words, AI likelihood 0.00), 03:44:42, [check](https://www.pangram.com/history/6dccf43c-856e-485a-8113-e9c13f2e244f) |
+| S15v3-H2-P7 | Human | A's run-on list and "And can you blame them?" | **Human** (Human Written, low, 65 words, AI likelihood 0.00), 03:44:53, [check](https://www.pangram.com/history/7d25eeb3-3b94-4876-a118-117f5bcb24fb) |
+| S15v3-H3-P1 | AI | the instinct and the real claim are v2's sentences ("In the ancestral way of doing things nobody made it alone ..."), which read AI | **Human** (Human Written, medium, 104 words, AI likelihood 0.00), 03:45:03, [check](https://www.pangram.com/history/f2158292-8ae8-42cd-bf1b-f2e7f97cbd62) |
+| S15v3-H3-P2 | Human | A's loose sentences ("The problem is that ...", "And yet the relatives stay dependent"), though the obligation sentence is mine | **Human** (Human Written, medium, 110 words, AI likelihood 0.11), 03:45:15, [check](https://www.pangram.com/history/98fde8f6-1b6c-4ab6-b860-15019b64bb09) |
+| S15v3-H3-P3 | Human | A's "thorny boundary issues", "but it does mean someone has to handle it! Who's that going to be?" | **Human** (Human Written, medium, 107 words, AI likelihood 0.00), 03:45:27, [check](https://www.pangram.com/history/9e569b47-ab7e-4406-8e67-0fd32ac94707) |
+| S15v3-H3-P4 | Human | A's "different ..." run-on list with "etc. etc.", the tag question | **Human** (Human Written, medium, 141 words, AI likelihood 0.15), 03:45:38, [check](https://www.pangram.com/history/589b419f-a0ec-420a-a602-af6e7a8f5ce0) |
+| S15v3-H3-P5 | AI | A's opening, but the middle two sentences carry the published point nearly in its order | **Human** (Human Written, low, 76 words, AI likelihood 0.25), 03:45:49, [check](https://www.pangram.com/history/5297a906-dd63-4fe9-bf7b-08c79835b3b5) |
+| S15v3-H3-P7 | Human | B's question and the run of instructions with an exclamation | **Human** (Human Written, low, 77 words, AI likelihood 0.02), 03:45:59, [check](https://www.pangram.com/history/dd905e4e-7fd0-4cf7-abc4-5721fba7d3ee) |
+| S15v3-H1-P4x | Human | the quip as a question at the end, a break | **Human** (Human Written, low, 79 words, AI likelihood 0.08), 03:46:10, [check](https://www.pangram.com/history/7700db34-bbf4-4066-a2b9-591f973a67b9) |
+| S15v3-H1 | Mixed | P4's quip as in v2 | **Human** (Human Written, high, 268 words, AI likelihood 0.25), 03:46:20, [check](https://www.pangram.com/history/3043d0ff-50ca-4c07-b81d-6d844518711d) |
+| S15v3-H2 | Human | every paragraph from Emulate round b but the moringa pods (published, Human) | **Mixed** (Mostly Human Written; windows: AI-Generated, Low, 40; Human, High, 349, 389 words, AI likelihood 0.06), 03:46:31, [check](https://www.pangram.com/history/4b6fc9e9-c969-4691-9b11-224e675ce71b) |
+| S15v3-H3 | Mixed | P1 and P5 | **Human** (Human Written, high, 762 words, AI likelihood 0.07), 03:46:41, [check](https://www.pangram.com/history/4abcafbc-078a-4cbb-b684-dc2159d15acc) |
+| S15v3x-H1 | Human | the subsection with variant x | **Human** (Human Written, high, 268 words, AI likelihood 0.19), 03:46:53, [check](https://www.pangram.com/history/e2477cf6-e6bc-4910-b71b-d46535acb2c4) |
+| S15v3 | Mixed | the Black Tax subsection's P1 and P5, and H1-P4 | **Human** (Human Written, high, 1447 words, AI likelihood 0.08), 03:47:03, [check](https://www.pangram.com/history/a93ce20b-6d7f-48ba-b557-c9534c291482) |
+
+Results of 323g (Pangram's History, 2026-10-17 03:43:26 to 03:47:03 UTC): 14 of 21 predictions right. Every changed paragraph reads Human alone or with each neighbor (0.00 to 0.25), H1-P4 both ways (v3 0.25, variant x 0.08), and the whole section reads 100% Human, high (0.08, 1,447 words; it read "AI Detected", 0.56, in 322g). H1 and H3 read Human (0.25 both ways for H1; H3 0.07). H2 reads "Mostly Human" (0.06): a 40-word AI window, low, over its heading and P1 (the published meaning put back, "The warmth has hard limits, and for LGBTQ+ people who cross them, it can be brutal."), which reads Human without the heading (P1 with P2, 0.19); a pass is 100% Human, so H2-P1 goes again (Emulate round c, `../emu-c/`, and two hand variants). The misses were all on the safe side: H1-P4, H3-P1 and H3-P5 (called AI, read Human), and the three subsections and the section (called Mixed, read Human), but H2 (called Human, read Mostly Human).
