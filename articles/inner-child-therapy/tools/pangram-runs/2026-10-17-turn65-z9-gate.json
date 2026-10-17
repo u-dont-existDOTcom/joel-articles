@@ -1,0 +1,110 @@
+{
+ "t65z9_sp4p1w8p1": {
+  "kind": "screen",
+  "march": [
+   "S B S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: fresh writer w8 (E177) of sp4p1, paragraph 1. March: my own reading."
+ },
+ "t65z9_sp4p1w9p1": {
+  "kind": "screen",
+  "march": [
+   "S B S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: my own draft (w9) of sp4p1, paragraph 1. March: my own reading."
+ },
+ "t65z9_p14w8p1": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: fresh writer w8 (E177) of p14, paragraph 1. March: my own reading."
+ },
+ "t65z9_p14w9p1": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: my own draft (w9) of p14, paragraph 1. March: my own reading."
+ },
+ "t65z9_sh1w5p1": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: fresh writer w5 (E177) of sh1, paragraph 1. March: my own reading."
+ },
+ "t65z9_secsh1w5": {
+  "kind": "screen",
+  "march": [
+   "w5 S S S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: # When the Practice Feels Real but Stays Shallow with fresh writer w5's paragraphs."
+ },
+ "t65z9_secsp4h2w8": {
+  "kind": "screen",
+  "march": [
+   "w8 S B S B S S S | w1 P2 (read Human alone)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: ## Journal With Each Hand, mixed: W:sp4p1-w8-p1, W:sp4-w1-p2."
+ },
+ "t65z9_secsp4h2w9": {
+  "kind": "screen",
+  "march": [
+   "w9 S B S B S S | w1 P2 (read Human alone)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: ## Journal With Each Hand, mixed: W:sp4p1-w9-p1, W:sp4-w1-p2."
+ },
+ "t65z9_secp14h2w8": {
+  "kind": "screen",
+  "march": [
+   "P14 w8 B S S S | P15 (installed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: ## Timing Is Individual, mixed: W:p14-w8-p1, W:p15-installed."
+ },
+ "t65z9_secp14h2w9": {
+  "kind": "screen",
+  "march": [
+   "P14 w9 S B S S | P15 (installed)"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: ## Timing Is Individual, mixed: W:p14-w9-p1, W:p15-installed."
+ },
+ "t65z9_secp14h1w8": {
+  "kind": "screen",
+  "march": [
+   "the h1 as installed (Human Written 0.108, high) with P14 w8 B S S S under its heading"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: W:p14h1-w8, mixed: ."
+ },
+ "t65z9_secp14h1w9": {
+  "kind": "screen",
+  "march": [
+   "the h1 as installed (Human Written 0.108, high) with P14 w9 S B S S under its heading"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z9: W:p14h1-w9, mixed: ."
+ }
+}
