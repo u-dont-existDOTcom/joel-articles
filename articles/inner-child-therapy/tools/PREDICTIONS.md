@@ -1289,3 +1289,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 63) | P10, p10-q alone (64 words) [t63e_p10q], a screen | Human, low (my call: both halves read Human) | Human Written (0.007, low; 67); 00:46:53 UTC, https://www.pangram.com/history/d506ddfd-7907-4dd6-8cd4-13eba11ef9c3 | hit |
 | 2026-10-17 (turn 63) | P9+P10, p9-k and p10-q (156 words) [t63e_p910q], a screen | Human, low (my call) | Human Written (0.019, high; 163), one Human window; 00:47:04 UTC, https://www.pangram.com/history/9d0feab6-ed5e-49ac-99f0-b7a865133c8b | hit |
 | 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-q (1012 words) [t63e_h1q], a screen | Human, low (my call) | Human Written (0.062, high; 1061), one Human window; 00:47:14 UTC, https://www.pangram.com/history/9658a709-ec76-4e23-b48a-2b2414ad2cf8 | hit |
+| 2026-10-17 (turn 64) | P11 (group 11), p11a alone (95 words) [t64a_p11a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | P11 (group 11), p11b alone (98 words) [t64a_p11b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | P11 (group 11), p11c alone (91 words) [t64a_p11c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | P11 (group 11), p11d alone (92 words) [t64a_p11d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | P10+P11, with p11a (159 words) [t64a_pairp11a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | P10+P11, with p11b (162 words) [t64a_pairp11b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | P10+P11, with p11c (155 words) [t64a_pairp11c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | P10+P11, with p11d (156 words) [t64a_pairp11d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | The Inner Guide Comes Later with P11 = p11a (1107 words) [t64a_secp11a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | The Inner Guide Comes Later with P11 = p11b (1110 words) [t64a_secp11b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | The Inner Guide Comes Later with P11 = p11c (1103 words) [t64a_secp11c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 64) | The Inner Guide Comes Later with P11 = p11d (1104 words) [t64a_secp11d], a screen | Human, low (my call) | (pending) | |
