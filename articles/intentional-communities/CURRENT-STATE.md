@@ -21,11 +21,12 @@ Humanize Joel's published intentional-communities Substack article section by se
 - 2026-10-15, after his 18:28 answer (32 b: his research sentence stays as published): section 13 drafts v14 to v22, Emulate rounds g to i, gate rounds r10 to r15. Every part of v21 read Human on its own text and the whole section read 56% AI (298g); v22 rebuilds the two stretches that read AI everywhere (the land subsection; H4-P9 to H5-P2) from Emulate, and its review round r15 is done, its fixes next. Not in the article yet.
 - 2026-10-16, after his 18:22 message (33 a; his cut of "How do you know?"; "continue into next section now"): section 14 ("Dissolution and Exit") is a humanized candidate in `candidate/HUMANIZED-SO-FAR.md` (v5; every group Human and the whole section 100% Human, high, batch 306g). Section 13 had one more bounded pass (drafts v23 to v26, rounds r16 to r18, batch 304g): every changed group Human, the land subsection Human; the whole section reads 38% AI (56% before), in two long stretches. Not in the article yet.
 - 2026-10-16, after his 21:05 message (34 a, "learn from how emulate fixes it"; links he can click; the diagram is uploaded): Emulate round j on section 13's two stretches that read AI, each sent whole, and drafts v27 to v31 with the meaning put back inside Emulate's sentences. Section 13 is a humanized candidate in `candidate/HUMANIZED-SO-FAR.md` (v31): the whole section 100% Human, high (batch 311g; it read 38% AI in 304g), its meaning reviews done (rounds r19 and r20).
+- 2026-10-17, after his 2026-10-16 23:38 message (the questions page's layout bug and hidden questions; his "if the community uses them" back; "it's all fairly borderline human. so we should fix it"; the book not leaning on Christian's order; the dedup): section 13 is in the article as v34 (every paragraph Human alone, batches 312g to 318g, `tools/humanization/paragraphs_alone.py` PASS; the whole section 100% Human, high, 0.06, batch 317g; the values stretch that read AI inside the section in 316g reads Human without the monologue too) and section 14 as v8 (every paragraph Human alone; the whole section 100% Human, 316g), each deduplicated. The questions page lists questions 35 to 38.
 - Owner edits: 62 pass, none waiting.
 
 ## Current checkpoint
 
-Sections 13 (v31) and 14 (v5) are in the article, not accepted until Joel says so. Section 15, "What This Looks Like From Sénégal", is next. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Sections 13 (v34) and 14 (v8) are in the article, not accepted until Joel says so. Section 15, "What This Looks Like From Sénégal", is next. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 

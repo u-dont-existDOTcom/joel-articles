@@ -1,5 +1,5 @@
 """Section 13's side-by-side page for Joel: v34, now in the article, beside the published section (2026-10-17), each
-paragraph with the Pangram check that read its exact text alone (Joel's rule of 2026-10-01; batches 312g to 317g) and, where
+paragraph with the Pangram check that read its exact text alone (Joel's rule of 2026-10-01; batches 312g to 318g) and, where
 this turn changed it since v31, what changed and why (v32-fixes.json, v33-fixes.json, v34-fixes.json). Run from the repo root:
   python3 articles/intentional-communities/candidate/s13/make_page_v34.py
 """
@@ -37,7 +37,7 @@ MAP = [
     [([1, 2], [1]), ([3], [2]), ([4], [3]), ([5], [4]), ([6, 7], [5]), ([8], [6, 7]), ([9], [8]), ([10], [9])],
     [([1], [1]), ([2], [2]), ([3], [3]), ([4], [4])],
 ]
-checks = page_checks.alone(v34, [S13 / 'b317', S13 / 'b316', S13 / 'b314', S13 / 'b312'])
+checks = page_checks.alone(v34, [S13 / 'b318', S13 / 'b317', S13 / 'b316', S13 / 'b314', S13 / 'b312'])
 CHECK = {p: g for p, g in checks}
 fixes = [f for v in ('v32', 'v33', 'v34') for f in json.loads((S13 / (v + '-fixes.json')).read_text(encoding='utf-8'))]
 v31 = [x.strip() for x in re.split(r'\n\s*\n', (S13 / 'v31.md').read_text(encoding='utf-8')) if x.strip()]
@@ -116,7 +116,8 @@ out = {'title': 'Your Little Forming Group Already Is the Community · section 1
                  'And your point that it was all borderline: with all that in, the whole section read AI over the values paragraphs '
                  'after the opening story (316g, https://www.pangram.com/history/2be7c617-a4ed-4ea2-a9f5-14b303c84775), though each '
                  'read Human alone and the subsection read Human with its story. So those four paragraphs are Emulate\'s now, with '
-                 'your points put back inside its sentences, and the meaning checks asked for five small fixes on the way.'],
+                 'your points put back inside its sentences; the meaning checks caught four places where one of your points had slipped, '
+                 'each fixed before the Pangram checks. Now the whole section reads Human, and so do those four paragraphs without the story.'],
        'blocks': blocks}
 mp = S13 / 'page' / 'ic13-v34.json'
 mp.write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')

@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1244,
-  "right": 890,
+  "calls": 1316,
+  "right": 947,
   "since_review": {
-   "calls": 842,
-   "right": 635,
-   "passed": 507
+   "calls": 914,
+   "right": 692,
+   "passed": 572
   },
   "today": {
-   "calls": 292,
-   "right": 234,
-   "passed": 192
+   "calls": 364,
+   "right": 291,
+   "passed": 257
   }
  },
  "windows": [
@@ -169,10 +169,10 @@
   {
    "from": 310,
    "to": 319,
-   "calls": 10,
-   "right": 8,
-   "passed": 7,
-   "always_ai_right": 3
+   "calls": 82,
+   "right": 65,
+   "passed": 72,
+   "always_ai_right": 10
   }
  ],
  "misses": [
@@ -2837,6 +2837,188 @@
    "text": ""
   },
   {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H1-P1+P2",
+   "mine": "AI",
+   "why": "H1-P1 is 46 words (under Pangram's 50), so it goes with H1-P2: \"It may sound cheesy, but it's true all the same\" is the concede-then-affirm formula, and H1-P2 has the \"Not dealt with it by ... But really, truly\" antithesis",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 182 words, AI likelihood 0.01), 23:57:29, [check](https://www.pangram.com/history/f76c2325-60f1-4624-9391-e045f6523f8d)",
+   "where": "s13/b312/PREDICTIONS-scored.md:5",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H1-P2",
+   "mine": "AI",
+   "why": "the \"Not dealt with it by ... But really, truly dealt with it\" antithesis, a four-part gerund list, and the closing \"Until then, what's it worth?\"; 308g's first window started here",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, medium, 131 words, AI likelihood 0.00), 23:57:39, [check](https://www.pangram.com/history/9abffa08-1d75-4871-bece-49d2f31fbe16)",
+   "where": "s13/b312/PREDICTIONS-scored.md:6",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H2-P3",
+   "mine": "AI",
+   "why": "\"This list should also include your thoughts on\", \"whether or not\" twice, and a tidy \"Until you answer these questions\" verdict",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 97 words, AI likelihood 0.02), 23:58:33, [check](https://www.pangram.com/history/ae89149b-e659-4a76-9518-615478c19773)",
+   "where": "s13/b312/PREDICTIONS-scored.md:11",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H2-P4",
+   "mine": "AI",
+   "why": "it was an AI window by itself in v30 (310g): \"not just its public face\", two questions in a row, and the neat callback closer about the view",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 89 words, AI likelihood 0.00), 23:58:57, [check](https://www.pangram.com/history/9bba65c7-714d-41d8-9a0a-2488a568e310)",
+   "where": "s13/b312/PREDICTIONS-scored.md:13",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H3-P1",
+   "mine": "AI",
+   "why": "two parallel \"If ..., then ...\" sentences after \"Very important!\"; 308g's fourth window sat on the second",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 67 words, AI likelihood 0.00), 23:59:09, [check](https://www.pangram.com/history/df0cd604-50aa-4599-b973-ccf55f656933)",
+   "where": "s13/b312/PREDICTIONS-scored.md:14",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H4-P2+P3",
+   "mine": "Human",
+   "why": "the charming-for-two-weeks joke and the emoji",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, Low, 53; AI-Generated, Low, 45, 98 words, AI likelihood 0.36), 00:00:28, [check](https://www.pangram.com/history/a9a8ab2f-4974-43d8-a45f-48b4ae4c3134)",
+   "where": "s13/b312/PREDICTIONS-scored.md:21",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H4-P5",
+   "mine": "AI",
+   "why": "a run of seven questions, alone, with only the hint as a break",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, medium, 108 words, AI likelihood 0.03), 00:00:51, [check](https://www.pangram.com/history/0efb6641-c687-414e-8a54-3639203a5d4c)",
+   "where": "s13/b312/PREDICTIONS-scored.md:23",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-H4-P9",
+   "mine": "AI",
+   "why": "ends on the published aphorism \"Equality that stops at the membership line can end up recreating a servant class\"",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 100 words, AI likelihood 0.03), 00:01:36, [check](https://www.pangram.com/history/52f045a6-2202-46e5-a42d-a6e32d4a5ffa)",
+   "where": "s13/b312/PREDICTIONS-scored.md:27",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31-open",
+   "mine": "AI",
+   "why": "the same 212 words read AI as a window of v30 (310g)",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 212 words, AI likelihood 0.03), 00:02:33, [check](https://www.pangram.com/history/d1f8f378-7f43-440f-805c-4ecf1e7e1309)",
+   "where": "s13/b312/PREDICTIONS-scored.md:32",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 312,
+   "name": "312g-S13v31q",
+   "mine": "Mixed",
+   "why": "v30 with the same kind of change read AI over two windows (310g); nothing else changed since",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written; windows: Human, High, 1726; Human, High, 507, 2329 words, AI likelihood 0.11), 00:02:43, [check](https://www.pangram.com/history/5035b8bd-0dd1-4c03-aeb0-8d68c0e90923)",
+   "where": "s13/b312/PREDICTIONS-scored.md:33",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 314,
+   "name": "314g-S13v32-H4",
+   "mine": "Human",
+   "why": "the visitor subsection with the short visit fixed; it read Human inside every whole-section check",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: AI-Generated, High, 183; Human, High, 501, 684 words, AI likelihood 0.26), 00:39:37, [check](https://www.pangram.com/history/b39b4676-3722-4d1e-bf1b-02c7939c33a3)",
+   "where": "s13/b314/PREDICTIONS-scored.md:15",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 314,
+   "name": "314g-S13v32",
+   "mine": "Human",
+   "why": "v31 with his words read 100% Human (0.11, 312g); the changes are cuts and plainer words, plus two new breaks",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 640; AI-Generated, High, 89; Human, High, 1522, 2251 words, AI likelihood 0.09), 00:39:48, [check](https://www.pangram.com/history/85286f6d-1e7d-435d-bada-1c6439b2fe56)",
+   "where": "s13/b314/PREDICTIONS-scored.md:16",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s13",
+   "batch": 316,
+   "name": "316g-S13v33",
+   "mine": "Human",
+   "why": "the one AI window of 314g was H2-P4; nothing else changed",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 422; AI-Generated, High, 291; Human, High, 1513, 2226 words, AI likelihood 0.17), 00:51:14, [check](https://www.pangram.com/history/2be7c617-a4ed-4ea2-a9f5-14b303c84775)",
+   "where": "s13/b316/PREDICTIONS-scored.md:12",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
    "sec": "s14",
    "batch": 301,
    "name": "301g-S14v2-P34",
@@ -2916,6 +3098,34 @@
    "pct": null,
    "res_raw": "Mixed (AI Detected; windows: Human, Medium, 89; AI-Generated, Medium, 33, 122 words, AI likelihood 0.46), 19:43:58, [check](https://www.pangram.com/history/dedaa1cc-aaec-4b8b-978a-9dd49dd848c0)",
    "where": "s14/b305/PREDICTIONS-scored.md:6",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 313,
+   "name": "313g-S14v6-P2",
+   "mine": "Human",
+   "why": "\"That's a lot of loose ends!\" stays; the run of questions is P2's as before",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, medium, 124 words, AI likelihood 0.78), 00:18:05, [check](https://www.pangram.com/history/3ac9ccfc-bc5a-4080-bfab-993bf61feb65)",
+   "where": "s14/b313/PREDICTIONS-scored.md:6",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s14",
+   "batch": 315,
+   "name": "315g-S14v7-P2",
+   "mine": "Human",
+   "why": "four questions, then plain short statements; \"Then there's the animals and land obligations\" is how people list things out loud",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, medium, 109 words, AI likelihood 0.96), 00:40:08, [check](https://www.pangram.com/history/da77a942-f71b-48de-b843-453427682fee)",
+   "where": "s14/b315/PREDICTIONS-scored.md:6",
    "passed": false,
    "right": false,
    "text": ""

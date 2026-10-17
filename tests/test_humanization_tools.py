@@ -1381,6 +1381,20 @@ class ClickableLinks(unittest.TestCase):
         self.assertEqual(render_questions.misplaced_items(
             '<ul class="items"><li>\n<p><span class="dot done"></span>squeezed</p>\n</li></ul>'), ['squeezed'])
 
+    def test_sub_bullets_stay_inside_their_item(self):
+        """2026-10-17: a decided item with sub-bullets (indented two spaces, as GitHub nests them) came out as top-level
+        items without a dot, which the grid squeezes into the dot column; misplaced_items stopped the page from being
+        built. Now two-space sub-bullets nest under their item, as an ordinary list in its text column."""
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import render_questions
+        md = ('# Q\n\nLast updated today.\n\n## Decided\n\n> [!TIP]\n> Answered.\n\n- 🟢 Done now, cutting:\n'
+              '  - the failing well;\n  - scarcity without money;\n- 🟢 the next item\n')
+        out = render_questions.render(md)
+        self.assertEqual(render_questions.misplaced_items(out), [])
+        self.assertEqual(out.count('<span class="dot done"'), 3)  # the heading's dot and one per item, none for sub-bullets
+        self.assertRegex(out, r'<div>(<p>)?Done now, cutting:(</p>)?\s*<ul>\s*<li>the failing well;</li>')
+        self.assertRegex(out, r'<div>(<p>)?the next item')
+
     def test_the_questions_lint_finds_questions_hidden_under_coming_up(self):
         """Joel, 2026-10-16 23:38 UTC: "those coming up questions also not numbered with options for some reason so harder to
         asnwser. why are questions about the sections that are now finished still "coming up"..." """
