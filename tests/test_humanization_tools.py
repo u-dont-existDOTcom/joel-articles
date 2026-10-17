@@ -289,6 +289,25 @@ class LinterListsOfThree(unittest.TestCase):
         self.assertIn('E125 list of three', out)
         self.assertNotIn('E125 two lists', out)
 
+    def test_one_list_in_my_sentence_fails(self):
+        # E186 (Joel, 2026-10-17 14:01: "we got that list of 3 going on again. how is that not detected?")
+        rc, out = self.lint("Any part of you that can watch, or wants to keep your body safe, or would rather wait on a decision "
+                            "you can't undo, is welcome. And if none of them shows up yet? Then the questions wait.\n")
+        self.assertIn('E125 list of three', out)
+        self.assertIn('A FAIL in my sentences since 2026-10-17', out)
+        self.assertEqual(rc, 2)
+
+    def test_can_without_fails_and_other_without_ing_reviews(self):
+        # E186 (Joel, 2026-10-17 14:01: "here we got that X can without Y ai tell")
+        rc, out = self.lint("A meal can help, and so can a boundary or a kind sentence, without touching the question underneath. "
+                            "Then the evening goes on as it was.\n")
+        self.assertIn('E186 "X can ... without Y"', out)
+        self.assertEqual(rc, 2)
+        rc, out = self.lint("He left the farm without saying goodbye to anyone. The dog waited by the gate until dark.\n")
+        self.assertIn('E186 "without ...ing"', out)
+        self.assertNotIn('E186 "X can', out)
+        self.assertNotIn('E186', self.lint("You can do it without anything special. The barn has room for all of it.\n")[1])
+
     def test_pairs_and_quotes_are_not_lists(self):
         for s in ('If words are there, speak or write them.\n',
                   'Or you tell a therapist, \u201cNo, that\'s not right for me,\u201d and they call it resistance.\n',

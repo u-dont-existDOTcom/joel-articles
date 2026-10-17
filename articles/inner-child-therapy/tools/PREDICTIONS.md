@@ -2207,3 +2207,26 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w16-p1, W:fg1p2-w8-p1, W:fg1p3-w11-p1, W:fg1p4-w5-p1) (468 words) [t66b_secfgallw16], a screen | Human, low (my call) | Human Written (0.033, High; 482); 12:25:52 UTC, https://www.pangram.com/history/3c70b607-d29f-4a11-8896-02622f661683 | hit |
 | 2026-10-17 (turn 66) | fg1p4 w7 p1 alone, my own draft (120 words) [t66c_fg1p4w7p1], a screen | Human, low (my call) | Human Written (0.066, Medium; 124); 12:33:54 UTC, https://www.pangram.com/history/1a3add5b-e0e3-46ea-a554-c33cebc1d874 | hit |
 | 2026-10-17 (turn 66) | How to Forgive Without Forgetting, mixed (W:fg1p1-w16-p1, W:fg1p2-w8-p1, W:fg1p3-w11-p1, W:fg1p4-w7-p1) (470 words) [t66c_secfgall4w7], a screen | Human, low (my call) | Human Written (0.028, High; 484); 12:33:57 UTC, https://www.pangram.com/history/a3f6ae6c-2ce3-4ff3-b4e7-5b1d6c04433f | hit |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft a (113 words) [t67a_ks4a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft b (106 words) [t67a_ks4b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft c (89 words) [t67a_ks4c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft d (90 words) [t67a_ks4d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft e (93 words) [t67a_ks4e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P2 alone, my draft a2 (132 words) [t67a_le2a2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P2 alone, my draft b (127 words) [t67a_le2b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P2 alone, my draft c (123 words) [t67a_le2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P2 alone, my draft d2 (132 words) [t67a_le2d2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P3 (one paragraph) alone, my draft a (155 words) [t67a_le3a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P3 in two, first half alone, my draft a (76 words) [t67a_le3aa], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P3 in two, second half alone, my draft a (89 words) [t67a_le3ba], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P3 in two, first half alone, my draft b2 (81 words) [t67a_le3ab2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P3 in two, second half alone, my draft b (94 words) [t67a_le3bb], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | Borrowed Adulthood in Relationship, the h1 as it would go in: P1 ba1p1-w9-p1, Joel's P2 (178 words) [t67a_secba9], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | Borrowed Adulthood in Relationship, the h1 with P1 ba1p1-w8-p1 and Joel's P2 (196 words) [t67a_secba8], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | How Much Happiness Do You Know Is Possible?, the h2 with Joel's P4 (332 words) [t67a_seclm4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When Love Still Feels Missing, the h1 with How Much Happiness in (838 words) [t67a_seclove], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | Timing Is Individual, the h2 with Joel's P14 (139 words) [t67a_sectiming], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | The Inner Guide Comes Later, the h1 with Joel's P14 (1385 words) [t67a_secguide], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | Use Childhood Photographs Gently P2 alone, Joel's, with glean for gleam (96 words) [t67a_photop2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | Use Childhood Photographs Gently, Joel's h2 with glean for gleam (441 words) [t67a_secphotos], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | Simple Practices, the h1 with Joel's Photos h2 in (871 words) [t67a_secsp], a screen | Human, low (my call) | (pending) | |
