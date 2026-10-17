@@ -296,6 +296,8 @@ def main(argv=None):
     if bad:
         print('No batch written: the gate comes before Pangram (docs/HUMANIZATION-GATE.md).', file=sys.stderr)
         return 2
+    if verdicts:  # the record keeps the linter's verdict, not the one typed or guessed (turn 65)
+        pathlib.Path(a.gate).write_text(json.dumps(gate, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
     items = [(k, drafts[k]) for k in a.keys]
     out = pathlib.Path(a.out)
     out.write_text(batch_js(a.name, items), encoding='utf-8')

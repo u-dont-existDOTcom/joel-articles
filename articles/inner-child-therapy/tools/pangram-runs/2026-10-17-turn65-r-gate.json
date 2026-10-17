@@ -1,0 +1,389 @@
+{
+ "t65r_sp1p2g": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Borrow Hindsight split as in the guide (its grounding: 'fits one short addition per paragraph if [9] becomes its own paragraph'); P2 = sp1-p2-e's first three sentences and the [8] fix (the smallest honest thing, a no or a pause, without faking the feeling); sp1-p2-g. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P1.md"
+ },
+ "t65r_sp1p2h": {
+  "kind": "screen",
+  "march": [
+   "S B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Borrow Hindsight split as in the guide (its grounding: 'fits one short addition per paragraph if [9] becomes its own paragraph'); P2 = sp1-p2-e's first three sentences and the [8] fix (the smallest honest thing, a no or a pause, without faking the feeling); sp1-p2-h. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P1.md"
+ },
+ "t65r_sp1p2i": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Borrow Hindsight split as in the guide (its grounding: 'fits one short addition per paragraph if [9] becomes its own paragraph'); P2 = sp1-p2-e's first three sentences and the [8] fix (the smallest honest thing, a no or a pause, without faking the feeling); sp1-p2-i. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P1.md"
+ },
+ "t65r_secsp1p2g": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Borrow Hindsight with P2 = sp1-p2-g.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P1.md"
+ },
+ "t65r_secsp1p2h": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Borrow Hindsight with P2 = sp1-p2-h.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P1.md"
+ },
+ "t65r_secsp1p2i": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Borrow Hindsight with P2 = sp1-p2-i.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P1.md"
+ },
+ "t65r_sp1p3a2": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Borrow Hindsight P3, the other person's wiser future self with the [9] fix (it changes nothing about what you go by now), after P2 = sp1-p2-i (my pick before the results); sp1-p3-a2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_sp1p3d": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Borrow Hindsight P3, the other person's wiser future self with the [9] fix (it changes nothing about what you go by now), after P2 = sp1-p2-i (my pick before the results); sp1-p3-d. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_sp1p3e": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Borrow Hindsight P3, the other person's wiser future self with the [9] fix (it changes nothing about what you go by now), after P2 = sp1-p2-i (my pick before the results); sp1-p3-e. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_pairsp1p3a2": {
+  "kind": "screen",
+  "march": [
+   "P2 (installed) | P3 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: P2+P3, the paragraph before and sp1-p3-a2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_pairsp1p3d": {
+  "kind": "screen",
+  "march": [
+   "P2 (installed) | P3 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: P2+P3, the paragraph before and sp1-p3-d.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_pairsp1p3e": {
+  "kind": "screen",
+  "march": [
+   "P2 (installed) | P3 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: P2+P3, the paragraph before and sp1-p3-e.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_secsp1p3a2": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Borrow Hindsight with P3 = sp1-p3-a2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_secsp1p3d": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Borrow Hindsight with P3 = sp1-p3-d.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_secsp1p3e": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Borrow Hindsight with P3 = sp1-p3-e.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2I.md"
+ },
+ "t65r_sp4a2": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Journal With Each Hand (dedup G4: the two-hand method, for when talking or picturing meets silence, the protector gets the clumsy hand first); E1 and O15 fixed before the screen (no \"kid\", no \"non-dominant\"); sp4-a2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_sp4b2": {
+  "kind": "screen",
+  "march": [
+   "S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Journal With Each Hand (dedup G4: the two-hand method, for when talking or picturing meets silence, the protector gets the clumsy hand first); E1 and O15 fixed before the screen (no \"kid\", no \"non-dominant\"); sp4-b2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_sp4c2": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Journal With Each Hand (dedup G4: the two-hand method, for when talking or picturing meets silence, the protector gets the clumsy hand first); E1 and O15 fixed before the screen (no \"kid\", no \"non-dominant\"); sp4-c2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_sp4d2": {
+  "kind": "screen",
+  "march": [
+   "S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: Journal With Each Hand (dedup G4: the two-hand method, for when talking or picturing meets silence, the protector gets the clumsy hand first); E1 and O15 fixed before the screen (no \"kid\", no \"non-dominant\"); sp4-d2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_secsp4a2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Journal With Each Hand with P1 = sp4-a2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_secsp4b2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Journal With Each Hand with P1 = sp4-b2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_secsp4c2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Journal With Each Hand with P1 = sp4-c2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_secsp4d2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: Journal With Each Hand with P1 = sp4-d2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65r_sp5p1d": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the story phrase practice P1 (dedup G5: both phrases, a chapter of your life story instead of a trial still going, a manageable memory); the guide's \"My ex, Xandria, taught me\" is left out (E159) and listed for Joel; sp5-p1-d. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5.md"
+ },
+ "t65r_sp5p1e": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the story phrase practice P1 (dedup G5: both phrases, a chapter of your life story instead of a trial still going, a manageable memory); the guide's \"My ex, Xandria, taught me\" is left out (E159) and listed for Joel; sp5-p1-e. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5.md"
+ },
+ "t65r_sp5p1f": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the story phrase practice P1 (dedup G5: both phrases, a chapter of your life story instead of a trial still going, a manageable memory); the guide's \"My ex, Xandria, taught me\" is left out (E159) and listed for Joel; sp5-p1-f. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5.md"
+ },
+ "t65r_secsp5p1d": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: “And So That’s the Way It Happened!” with P1 = sp5-p1-d.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5.md"
+ },
+ "t65r_secsp5p1e": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: “And So That’s the Way It Happened!” with P1 = sp5-p1-e.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5.md"
+ },
+ "t65r_secsp5p1f": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: “And So That’s the Way It Happened!” with P1 = sp5-p1-f.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5.md"
+ },
+ "t65r_sp5p2a": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the story phrase practice P2 (neither fiction nor proof; stop if the narrator sneers, the shame grows or you feel unreal, and add no distance; keep it short), after P1 = sp5-p1-e (my pick before the results); sp5-p2-a. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1.md"
+ },
+ "t65r_sp5p2b": {
+  "kind": "screen",
+  "march": [
+   "S S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the story phrase practice P2 (neither fiction nor proof; stop if the narrator sneers, the shame grows or you feel unreal, and add no distance; keep it short), after P1 = sp5-p1-e (my pick before the results); sp5-p2-b. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1.md"
+ },
+ "t65r_sp5p2d": {
+  "kind": "screen",
+  "march": [
+   "S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the story phrase practice P2 (neither fiction nor proof; stop if the narrator sneers, the shame grows or you feel unreal, and add no distance; keep it short), after P1 = sp5-p1-e (my pick before the results); sp5-p2-d. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1.md"
+ },
+ "t65r_secsp5p2a": {
+  "kind": "screen",
+  "march": [
+   "P1 B S S S | P2 S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: “And So That’s the Way It Happened!” with P2 = sp5-p2-a.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1.md"
+ },
+ "t65r_secsp5p2b": {
+  "kind": "screen",
+  "march": [
+   "P1 B S S S | P2 S S B S B"
+  ],
+  "lint": "CLEAR",
+  "note": "t65r: “And So That’s the Way It Happened!” with P2 = sp5-p2-b.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1.md"
+ },
+ "t65r_secsp5p2d": {
+  "kind": "screen",
+  "march": [
+   "P1 B S S S | P2 S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: “And So That’s the Way It Happened!” with P2 = sp5-p2-d.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1.md"
+ },
+ "t65r_sp6p1d": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "CLEAR",
+  "note": "turn 65 round r: the morning and night practice P1 (dedup G6: one modest intention, the night review without a trial, where you noticed the hook and where it ran anyway, the next repair); one question, since a run of three is O29; sp6-p1-d. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6.md"
+ },
+ "t65r_sp6p1e": {
+  "kind": "screen",
+  "march": [
+   "S S S B S"
+  ],
+  "lint": "CLEAR",
+  "note": "turn 65 round r: the morning and night practice P1 (dedup G6: one modest intention, the night review without a trial, where you noticed the hook and where it ran anyway, the next repair); one question, since a run of three is O29; sp6-p1-e. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6.md"
+ },
+ "t65r_secsp6p1d": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S B S"
+  ],
+  "lint": "CLEAR",
+  "note": "t65r: One Intention in the Morning, One Review at Night with P1 = sp6-p1-d.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6.md"
+ },
+ "t65r_secsp6p1e": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S S B S"
+  ],
+  "lint": "CLEAR",
+  "note": "t65r: One Intention in the Morning, One Review at Night with P1 = sp6-p1-e.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6.md"
+ },
+ "t65r_sp6p2f": {
+  "kind": "screen",
+  "march": [
+   "S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the morning and night practice P2 (the good you got; recognition counts, late too; repair, the same intention, sleep), after P1 = sp6-p1-d (my pick before the results); sp6-p2-f. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6-P1.md"
+ },
+ "t65r_sp6p2g": {
+  "kind": "screen",
+  "march": [
+   "S B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round r: the morning and night practice P2 (the good you got; recognition counts, late too; repair, the same intention, sleep), after P1 = sp6-p1-d (my pick before the results); sp6-p2-g. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6-P1.md"
+ },
+ "t65r_secsp6p2f": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S | P2 S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: One Intention in the Morning, One Review at Night with P2 = sp6-p2-f.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6-P1.md"
+ },
+ "t65r_secsp6p2g": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S | P2 S B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65r: One Intention in the Morning, One Review at Night with P2 = sp6-p2-g.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6-P1.md"
+ }
+}
