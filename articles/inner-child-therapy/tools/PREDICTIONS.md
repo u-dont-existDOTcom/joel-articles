@@ -2090,3 +2090,24 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with w2's paragraphs (192 words) [t65z14_secba1w2], a screen | Human, low (my call) | AI Generated (1, High; 193); 08:41:35 UTC, https://www.pangram.com/history/66832d60-3e2f-49af-8b38-2908665e11e3 | miss |
 | 2026-10-17 (turn 65) | When One Life Has Ended and the Next Hasn’t Begun with w2's paragraphs (350 words) [t65z14_secle1w2], a screen | Human, low (my call) | AI Generated (0.78, High; 368); 08:41:25 UTC, https://www.pangram.com/history/258b066e-371c-4c82-be8f-5a77c7c8260a | miss |
 | 2026-10-17 (turn 65) | Just Like Me with w3's paragraphs (174 words) [t65z14_secsp7w3], a screen | Human, low (my call) | AI Generated (1, High; 176); 08:41:14 UTC, https://www.pangram.com/history/363eeaca-de33-4dcb-9416-6f98ebc83e44 | miss |
+| 2026-10-17 (turn 65) | st1p1 w5 p1 alone, my own draft (100 words) [t65z15_st1p1w5p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p1 w6 p1 alone, my own draft (96 words) [t65z15_st1p1w6p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p3 w5 p1 alone, my own draft (128 words) [t65z15_fg1p3w5p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | le1p2b w1 p1 alone, a fresh writer (92 words) [t65z15_le1p2bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | le1p2b w2 p1 alone, a fresh writer (93 words) [t65z15_le1p2bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p5b w1 p1 alone, a fresh writer (81 words) [t65z15_st1p5bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p5b w2 p1 alone, a fresh writer (76 words) [t65z15_st1p5bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p4b w2 p1 alone, a fresh writer (110 words) [t65z15_fg1p4bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p2b w1 p1 alone, a fresh writer (85 words) [t65z15_st1p2bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p6b w2 p1 alone, a fresh writer (108 words) [t65z15_st1p6bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | le1p3b w1 p1 alone, a fresh writer (142 words) [t65z15_le1p3bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | le1p3b w2 p1 alone, a fresh writer (156 words) [t65z15_le1p3bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm4p4b w1 p1 alone, a fresh writer (86 words) [t65z15_lm4p4bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p1b w2 p1 alone, a fresh writer (97 words) [t65z15_fg1p1bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p1b w1 p1 alone, a fresh writer (95 words) [t65z15_fg1p1bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p6b w1 p1 alone, a fresh writer (100 words) [t65z15_st1p6bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p4b w1 p1 alone, a fresh writer (125 words) [t65z15_fg1p4bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p3b w1 p1 alone, a fresh writer (139 words) [t65z15_fg1p3bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p2b w2 p1 alone, a fresh writer (85 words) [t65z15_st1p2bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | W:st1p3-w1-p1, mixed (W:st1p4-w8-p1) (213 words) [t65z15_secst34a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | W:st1p3-w2-p1, mixed (W:st1p4-w8-p1) (214 words) [t65z15_secst34b], a screen | Human, low (my call) | (pending) | |
