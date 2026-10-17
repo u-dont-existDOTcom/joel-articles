@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v24ams | Mixed | the whole section: both changes to v23 j dmk's 57-word window | |
+| S16v24ams | Mixed | the whole section: both changes to v23 j dmk's 57-word window | **Human** (Human Written, high, 904 words, AI likelihood 0.26), 11:35:00, [check](https://www.pangram.com/history/8c6e6a37-0623-4ada-9e55-ed8fba78af79) |
+
+## Results of 387g
+
+None of one right: **the whole section reads 100% Human, high (0.26, 904 words, one window, https://www.pangram.com/history/8c6e6a37-0623-4ada-9e55-ed8fba78af79)** with both changes together, where each alone left windows (385g, 386g). v24 ams is the candidate; next its paragraphs alone and its meaning reviews.

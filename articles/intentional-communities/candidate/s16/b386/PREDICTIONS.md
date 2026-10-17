@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v24amk | Mixed | the whole section: v23 j dmk's one 57-word window (H3-P6's end, H3-P7, H3-P8's first sentence) with shape amk | |
+| S16v24amk | Mixed | the whole section: v23 j dmk's one 57-word window (H3-P6's end, H3-P7, H3-P8's first sentence) with shape amk | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 280; AI-Generated, High, 82; Human, High, 115, 904 words, AI likelihood 0.29), 11:34:49, [check](https://www.pangram.com/history/5692738e-fca4-47b4-8af6-274d37e702e5) |
+
+## Results of 386g
+
+One of one right. H3-P6's last sentence as a reaction: the H2 window back (96 words) and 82 words from H3-P6's showers sentence.
