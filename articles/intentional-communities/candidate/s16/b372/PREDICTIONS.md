@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v20kmk | Mixed | the whole section with shape kmk (one or two of the three changes): v19 d h had four windows | |
+| S16v20kmk | Mixed | the whole section with shape kmk (one or two of the three changes): v19 d h had four windows | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 217; AI-Generated, High, 155; Human, High, 38; AI-Generated, High, 39, 876 words, AI likelihood 0.41), 11:11:57, [check](https://www.pangram.com/history/2d16fd51-22c4-4fa1-a6fe-da35501b9a21) |
+
+## Results of 372g
+
+One of one right. H3-P3's pairs with H3-P5's ecovillages, H3-P10 as it was: the H2 window (96), H3-P5's list to H3-P8 (155) and the last 39 words, all three back.

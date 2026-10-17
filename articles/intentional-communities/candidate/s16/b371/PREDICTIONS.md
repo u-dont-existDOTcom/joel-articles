@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v20heb | Mixed | the whole section with shape heb (one or two of the three changes): v19 d h had four windows | |
+| S16v20heb | Mixed | the whole section with shape heb (one or two of the three changes): v19 d h had four windows | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 158; Human, High, 62; AI-Generated, High, 328, 879 words, AI likelihood 0.47), 11:11:47, [check](https://www.pangram.com/history/2b5e3640-a54b-4cf3-af17-b11a218f342d) |
+
+## Results of 371g
+
+One of one right. H3-P10's split alone: as 370g's (H2 158 words; H3-P3's third sentence to the end, 328).

@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v20kek | Mixed | the whole section with shape kek (one or two of the three changes): v19 d h had four windows | |
+| S16v20kek | Mixed | the whole section with shape kek (one or two of the three changes): v19 d h had four windows | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 241; AI-Generated, High, 130; Human, Medium, 77, 875 words, AI likelihood 0.37), 11:11:26, [check](https://www.pangram.com/history/9751414a-7516-474a-aa38-74f906508eea) |
+
+## Results of 369g
+
+One of one right. H3-P3's pairs alone clear H3-P3's window and the last one; the H2 window (96 words) stays, and one from H3-P6 to H3-P8 (130).

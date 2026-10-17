@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v20hmk | Mixed | the whole section with shape hmk (one or two of the three changes): v19 d h had four windows | |
+| S16v20hmk | Mixed | the whole section with shape hmk (one or two of the three changes): v19 d h had four windows | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 158; Human, High, 67; AI-Generated, High, 314, 870 words, AI likelihood 0.46), 11:11:37, [check](https://www.pangram.com/history/f8562cab-9df5-4c13-8ace-1758aa3a9084) |
+
+## Results of 370g
+
+One of one right. H3-P5's ecovillages alone: the H2 window grows (158 words) and the AI stretch runs from H3-P3's colon list to the end (314).

@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v20keb | Mixed | the whole section with shape keb (one or two of the three changes): v19 d h had four windows | |
+| S16v20keb | Mixed | the whole section with shape keb (one or two of the three changes): v19 d h had four windows | **Mixed** (AI Detected; windows: Human, High, 644; AI-Generated, High, 154; Human, High, 87, 885 words, AI likelihood 0.38), 11:12:10, [check](https://www.pangram.com/history/8efb52bf-5056-4423-8c7e-758bdbbc5ae5) |
+
+## Results of 373g
+
+One of one right. H3-P3's pairs with H3-P10's split, H3-P5 as it was: one window, as 368g's (154 words from H3-P5's list of communities). So the two changes that matter are H3-P3's and H3-P10's, and only together; v21 (`../make_v21.py`) changes the list of communities and H3-P7.

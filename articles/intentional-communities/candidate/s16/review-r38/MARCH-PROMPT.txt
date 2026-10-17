@@ -1,0 +1,16 @@
+Below are 3 paragraphs from a blog article about building intentional communities, each one on its own, with its sentences numbered.
+
+Label every numbered sentence of every paragraph S (STEP) or B (BREAK):
+- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.
+- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said ("Or put it in your own words."); a pause, waiting, or a permission ("If it doesn't come, that's okay for today."); stopping to consider what something might feel like or be like ("It might be more of a mood. Sadness, maybe."); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.
+Judge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.
+
+Don't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:
+T1: S S B S S
+T2: S B S B
+
+T1: [1] Go visit some real communities. [2] Really, go! [3] Twin Oaks will welcome visitors, as will East Wind, Acorn, and many other intentional communities and ecovillages. [4] Check their requirements first.
+
+T2: [1] Go visit some real communities. [2] Really, go! [3] Twin Oaks is one. [4] East Wind is another, and so is Acorn, and there are plenty of other intentional communities. [5] Lots of ecovillages are open to visitors too. [6] Check their requirements first.
+
+T3: [1] Don't invest serious time or money in looking for land until you've done these three things. [2] The land isn't going anywhere!
