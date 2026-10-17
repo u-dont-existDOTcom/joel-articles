@@ -49427,7 +49427,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/fix-20261017d/b425/PREDICTIONS.md",
-          "sha256": "d9fea7f256e5a9cb8e0ac0c91ca8565bbbcd437a4e84fc475dc5e2c2c1df95b0",
+          "sha256": "6f56d1aee27d891ec3264ccdc7a832a7e966b35097f2058310352f03a18a9a4a",
           "role": "humanization_working_record"
         },
         {
@@ -49533,6 +49533,56 @@
         {
           "path": "articles/intentional-communities/candidate/fix-20261017d/records_2310.py",
           "sha256": "28c51889f1f4a07cbdc6f774a05900ee43c9775b66570986abe2b5586a7f9cf4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b425/b425-results.json",
+          "sha256": "9f92d9fc33c9aa9bfa99f80fcdefd4db7b68a5f06e53f5a5202f36feaa6f00fa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b426/GATE.json",
+          "sha256": "7ac52c667c5d75fe77f4dc6ffb4a878ce0908cf329643800a9911ee5253e8623",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b426/PREDICTIONS.md",
+          "sha256": "9500e1e2e5e78b1cd0b1aaf904ad050b4ee9654717b2f6f465b7d9bbcf657deb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b426/b426-items.json",
+          "sha256": "2be62b8560070edd365b6071925d66b291320b8fa18dfcafe3956d3b93891dd4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b426/b426-read.js",
+          "sha256": "8b9a725237222fd0cdaa71d80ccbda49e9b8c63f4c9f62cb0a25df1e3b33b099",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b426/b426.js",
+          "sha256": "2d3823c29b8c1e3b1d541a7f88b5c02b84889b8b639a0c05f4c948e6e1fe99b3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b426/drafts.json",
+          "sha256": "852bafdbf56e5480feee3e9e8e312e6653768ef8691a06fa6b372f182bb3384f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/b426/make_b426.txt",
+          "sha256": "4fb55234f6665baa53fb5c1cf5319b7245e37d5916dae01b120c66808932aab1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/s2-v35cm.md",
+          "sha256": "a2ff46e1ff25492908f7bdd8165326b53ac39afb1d91bc622f223ab3d73e82ab",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017d/s2-v35m.md",
+          "sha256": "088dc7e6260acafff0487039c20082815c5f6f83dbe89e823d795e440ae9f1c2",
           "role": "humanization_working_record"
         }
       ]
