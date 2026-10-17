@@ -100,7 +100,11 @@ for k in drafts:
     print(k, gate[k]['words'], gate[k]['kind'], '|', drafts[k][:70].replace('\n', ' / '))
 print('aliases:', aliases)
 print(len(drafts), 'items,', sum(gate[k]['words'] for k in drafts), 'words')
-if all(f.exists() for f in REP.values()) and (HERE / 'DISPOSITIONS-2310.md').exists():
+ONLY2 = '--section2' in sys.argv   # section 2 first, while section 8's repeats check runs (section 8 goes in 426g)
+if ONLY2:
+    for k in [k for k in drafts if k.startswith('S8')]:
+        del drafts[k]
+if (ONLY2 and REP['s2b'].exists() or all(f.exists() for f in REP.values())) and (HERE / 'DISPOSITIONS-2310.md').exists():
     out = HERE / 'b425'
     out.mkdir(exist_ok=True)
     (out / 'aliases.json').write_text(json.dumps(aliases, indent=1) + '\n', encoding='utf-8')

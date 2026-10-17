@@ -1,0 +1,82 @@
+{
+ "S2v35-P1+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt): 52 \"this is human\" (his section 2 opening; the published link on \"the U.S. Surgeon General\" kept), with 53 \"fixed (fact checked with gemini)\" (his aside in P2)",
+  "words": 103
+ },
+ "S2v35-P2": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt): 52 \"this is human\" (his section 2 opening; the published link on \"the U.S. Surgeon General\" kept), with 53 \"fixed (fact checked with gemini)\" (his aside in P2)",
+  "words": 60
+ },
+ "S2v35-P2+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt): 52 \"this is human\" (his section 2 opening; the published link on \"the U.S. Surgeon General\" kept), with 53 \"fixed (fact checked with gemini)\" (his aside in P2)",
+  "words": 80
+ },
+ "S8v32-truth": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt): 54 \"actually i would change it to: ...\" (his sentence after \"if they are known to be honest.\")",
+  "words": 152
+ },
+ "S2v34-A46": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 50,
+  "read": "batch 421g (fix-20261017d/b421/b421-results.json)"
+ },
+ "S2v34-A46+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 70,
+  "read": "batch 421g (fix-20261017d/b421/b421-results.json)"
+ },
+ "S2v35": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v35-P1+next",
+   "S2v35-P2",
+   "S2v35-P2+next"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS-2310.md (REPEATS-s2b.md)",
+  "words": 606
+ },
+ "S2v35b": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v35-P1+next",
+   "S2v35-P2",
+   "S2v34-A46",
+   "S2v34-A46+next"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS-2310.md (REPEATS-s2b.md)",
+  "words": 656
+ },
+ "S2v35c": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v35-P1+next",
+   "S2v35-P2",
+   "S2v34-A46",
+   "S2v34-A46+next"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS-2310.md (REPEATS-s2b.md)",
+  "words": 664
+ },
+ "S8v32": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S8v32-truth"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS-2310.md (REPEATS-s8b.md)",
+  "words": 1806
+ }
+}
