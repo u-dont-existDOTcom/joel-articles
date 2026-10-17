@@ -1,0 +1,122 @@
+{
+ "S16v17bq-H2-P6-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "B S",
+   "B S",
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2, H3",
+  "words": 136
+ },
+ "S16v17bq-H3-P2-P4": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 146
+ },
+ "S16v17bq-H3-P3-P5": {
+  "kind": "screen",
+  "march": [
+   "S S S S B B",
+   "S S S S B S",
+   "B S",
+   "B S",
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 138
+ },
+ "S16v17bq-H3": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B S",
+   "B S",
+   "B S",
+   "S B S S S",
+   "S B S S S",
+   "S B",
+   "S B",
+   "S B",
+   "S B",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph of the stretch",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the stretch touches: H3",
+  "words": 374
+ },
+ "S16v17bq": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B",
+   "S S B S",
+   "S B B S",
+   "S B",
+   "S B",
+   "S S B B S",
+   "S S B B S",
+   "S B S S",
+   "S B S S",
+   "S S S S S B S",
+   "S S S S S B B",
+   "B S",
+   "B S",
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B S",
+   "B S",
+   "B S",
+   "S B S S S",
+   "S B S S S",
+   "S B",
+   "S B",
+   "S B",
+   "S B",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph",
+  "lint": "REVIEW",
+  "words": 844
+ }
+}

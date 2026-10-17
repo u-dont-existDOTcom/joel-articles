@@ -1,0 +1,142 @@
+[
+ {
+  "id": "H1-P1",
+  "old": "Most community projects begin in the wrong order: land first, vision in a document, ownership concentrated because somebody had the money, and emotional preparation deferred until everyone has more time.",
+  "new": "One of the main problems I see with how people go about building community is that they do the steps in the wrong order. They get the land first, put the vision in a document, let ownership pile up with whoever had the money, and put off the emotional preparation until everyone has more time.",
+  "source": "Emulate round a call B",
+  "why": "B's opening sentence; the published list of the wrong steps (both calls dropped it) as one run-on sentence"
+ },
+ {
+  "id": "H1-P2",
+  "old": "The better order is less cinematic. Practice together. Process a real conflict. Clarify values. Test membership. Decide ownership and exit. Then consider land.",
+  "new": "The better order is less cinematic, more like this: practice together, process a real conflict, clarify your values, test membership, decide ownership and exit, and only then think about land.",
+  "source": "Emulate round a call B",
+  "why": "B's \"It's more like this:\" and its one run-on list; Joel's order (2026-10-16 23:38) step by step, every step his (B had \"figure out who you want in\" for testing membership, and no real conflict), and the published \"less cinematic\""
+ },
+ {
+  "id": "H1-P3",
+  "old": "The economic path should be staged the same way. A cluster of cooperating households can first take basic internal life out of purchase while outside earners contribute a defined share. It should move to a common purse only after it can provision members reliably and allocate the common fairly. Reducing or eliminating outside money should emerge from demonstrated capacity, not from declaring money impure while somebody else quietly pays the tax bill.",
+  "new": "Likewise, the economic side has to go in stages. You're probably not going to be able to fly straight to the economic destination! Only after the group has proven it can reliably provide for everybody, and fairly decide who gets what from the common, should it move to a common purse. And cutting back on outside money, or getting rid of it, comes from what the group has shown it can do. (\"Money is impure!\" is a weird thing to say while somebody else is quietly paying the tax bill.)",
+  "source": "Emulate round a call A",
+  "why": "A's sentences and its aside; the published staging \"the same way\", the common purse only after the group can provision members reliably and allocate the common fairly, and outside money reduced from demonstrated ability (A ran the two together); the group, not \"you\", proves and shows it (A's three \"you can\"s were the linter's coach register, E41). DEDUP (repeats r1 item 4): the first stage, households that stop buying the basics among themselves while outside earners bring in a share, is section 4's, in Joel's own words (\"First there will be no money exchanged between members for basic community functions ... they bring an agreed share of that income in\"); what stays is this paragraph's own, the readiness test and the impure-money joke"
+ },
+ {
+  "id": "H2-P1",
+  "old": "Most readers have a job, children, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle. Fine. The most important pl/ork does not require land.",
+  "new": "I realize that for most people reading this there are a lot of reasons why they can't just head off and go build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That's fine! The most important pl/ork doesn't need land anyway.",
+  "source": "Emulate round a call A and B",
+  "why": "A's opening and its list, B's \"go build community on some land\"; the published circle joke, \"Fine.\" and the most important pl/ork that needs no land (both calls dropped them)"
+ },
+ {
+  "id": "H2-P2",
+  "old": "People sometimes buy forty acres and then import every kilogram of their unprocessed material to a more scenic location. The view improves. The conflict acquires goats.",
+  "new": "People sometimes buy forty acres and then bring all their unprocessed baggage with them to a more scenic location. The view's better, I'll give them that! But now the conflict has goats.",
+  "source": "Emulate round a call A and B",
+  "why": "A's baggage, B's goats; the published unprocessed material, the scenic location and the view (\"Sure,\" as a clause is Joel's ban, O2)"
+ },
+ {
+  "id": "H2-P3",
+  "old": "Inner pl/ork can begin where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) needs two people and enough privacy to speak. Reparenting, somatic practice, jealousy processing, and conflict repair do not wait for a deed.",
+  "new": "But there's no reason you can't start the inner pl/ork where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) only needs two people and enough privacy to talk. And reparenting, somatic work, jealousy, conflict repair, etc. don't have to wait for a deed!",
+  "source": "Emulate round a call B",
+  "why": "B's sentences; the published two people and privacy, and the deed nothing has to wait for"
+ },
+ {
+  "id": "H2-P4",
+  "old": "A weekly group that has practiced together for two years already contains a real piece of community. It may never own land. It can still change how people survive divorce, illness, grief, parenting, and ordinary loneliness.",
+  "new": "A group that practices together weekly for two years may never own land, and it can still make a difference in how people get through divorce, illness, grief, parenting and plain old loneliness.",
+  "source": "Emulate round a call A and B",
+  "why": "A's \"make a difference in how people deal with divorce, illness, grief\", B's \"weekly for two years\"; the published \"may never own land\" (A: \"never buy land\"). DEDUP (repeats r1 item 7): \"already contains a real piece of community\" is section 13's opening (\"you are already a community, even if it's still an untested one\"); what stays is this paragraph's own, what such a group does for people even without land"
+ },
+ {
+  "id": "H2-P5",
+  "old": "Remote or constrained readers can build the portion available. Hold a weekly meal with two households. Arrange a counseling exchange with one friend in person or by video. Share tools, childcare, transport, food preparation, or a sauna. Add acro-yoga, dance improvisation, a mothers’ circle, or a [cuddle puddle](http://cuddleparty.com/) if you’re hippie enough.",
+  "new": "Remote or constrained readers can build the portion available. Hold a weekly meal with two households. Arrange a counseling exchange with one friend in person or by video. Share tools and childcare. Or a sauna! Add acro-yoga, dance improvisation, a mothers' circle, or a [cuddle puddle](http://cuddleparty.com/) if you're hippie enough.",
+  "source": "Emulate round a call published",
+  "why": "the published paragraph (Human in 324g, S16-E, 0.46) has two lists of three, the linter's E125 FAIL; by Joel's list rule (2026-10-03, 10-07) the first keeps tools and childcare, the sauna is its own exclamation, and transport and food preparation, the items that matter least, go"
+ },
+ {
+  "id": "H2-P6",
+  "old": "Three households reliably showing up for one another for six months will teach you more than another year of imagining the ideal village.",
+  "new": "If three households can commit to showing up for each other like this for six months, you'll learn more than you would from another year of daydreaming about the ideal village.",
+  "source": "Emulate round a call A",
+  "why": "A's sentence; the published six months (A: \"half a year\"), another year and the ideal village"
+ },
+ {
+  "id": "H3-P1",
+  "old": "Here is the first month without the heroic land purchase:",
+  "new": "",
+  "source": "merged",
+  "why": "into H3-P2's first sentence"
+ },
+ {
+  "id": "H3-P2",
+  "old": "Start the inner pl/ork. Read the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), or begin with another serious practice you already trust. Practice before you have an audience.",
+  "new": "Start working on the inner pl/ork, whether it's following the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) or another serious practice you already trust. And practice before you have an audience!",
+  "source": "Emulate round a call B",
+  "why": "B's \"whether it's following ... or something else\"; the published serious practice you already trust and the audience. DEDUP (repeats r1 item 10): the lead-in's \"without the heroic land purchase\" was the fourth time in twenty paragraphs that land can wait; the order (H1-P2) and \"If You Can't Move\" (H2-P1) carry it, and the heading says \"This Month\""
+ },
+ {
+  "id": "H3-P3",
+  "old": "Find two or three people. Call it a practice group rather than a commune. Meet regularly. Learn to listen, switch roles, handle one disagreement, and keep commitments before discussing a shared future.",
+  "new": "Find two or three people to form a practice group with (call it that, not a commune, at least for now). Meet regularly, and learn to listen, switch roles, handle one disagreement and keep your commitments before you start talking about a shared future.",
+  "source": "Emulate round a call B",
+  "why": "B's first sentence; the published \"rather than a commune\" (A had \"or a commune, whatever\") and what to learn before discussing a shared future; \"at least for now\", since section 13 tells the same small group it is already a community (repeats r1, contradiction 1): the name keeps expectations low, it doesn't deny the community"
+ },
+ {
+  "id": "H3-P4",
+  "old": "Possible places to meet people include unprogrammed Quaker meetings, restorative-practice groups, open-hearted congregations, mature recovery communities, meditation groups, and people who came back from a long retreat kinder rather than more impressed with themselves.",
+  "new": "Where do you find them? Maybe try unprogrammed Quaker meetings, restorative practice groups, open-hearted congregations, mature recovery groups, meditation groups, or people who came back from a long retreat kinder rather than more impressed with themselves.",
+  "source": "Emulate round a call B",
+  "why": "B's \"You can try going to\" and its list; the published congregations, and the retreat people who came back kinder rather than more impressed with themselves (B: \"come back humble\"); the question is the break"
+ },
+ {
+  "id": "H3-P5",
+  "old": "Visit actual communities. [Twin Oaks](https://twinoaks.org/), [East Wind](http://eastwind.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), other [intentional communities](https://www.ic.org/), and many [ecovillages](https://ecovillage.org/) receive visitors. Read their current visitor requirements first.",
+  "new": "Then go visit actual communities, like [Twin Oaks](https://twinoaks.org/), [East Wind](http://eastwind.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/) or other [intentional communities](https://www.ic.org/) (a lot of [ecovillages](https://ecovillage.org/) take visitors too). Just check their current visitor requirements first.",
+  "source": "Emulate round a call B",
+  "why": "B's list with its parenthesis; the published \"Read their current visitor requirements first\""
+ },
+ {
+  "id": "H3-P6",
+  "old": "Visits teach you what no manifesto can: how much togetherness you enjoy, which forms of privacy you need, what labor system irritates you, and whether communal showers feel liberating or make you start pricing studio apartments.",
+  "new": "You'll find out stuff no manifesto can tell you: how much togetherness you actually enjoy, what kind of privacy you need, which labor system drives you nuts, and whether communal showers feel liberating or send you off pricing studio apartments.",
+  "source": "Emulate round a call A and B",
+  "why": "A's \"how much you like being together\" and its showers, B's \"what you want and don't want\"; the published manifesto, the labor system that irritates you and the studio apartments (A: \"a two-bedroom studio apartment\")"
+ },
+ {
+  "id": "H3-P7",
+  "old": "Do those three things before you spend serious time or money looking for land.",
+  "new": "So do those three things first, before you spend serious time or money looking for land.",
+  "source": "Emulate round a call B",
+  "why": "B's \"Don't go looking for land until you've done the above\" with the published three things and the time or money"
+ },
+ {
+  "id": "H3-P8",
+  "old": "I have no application form for you and no retreat to sell. The manuals are free. I’m in Sénégal and expect to buy land, but I’m not announcing a commune. I’ve simply noticed that community tends to gather wherever people experience real care, play, usefulness, and room to become more honest.",
+  "new": "I'm not trying to sell you a retreat or get you to fill out an application or anything, the manuals are free. I've just noticed that community tends to gather wherever people find real care, play, usefulness and room to become more honest.",
+  "source": "Emulate round a call B",
+  "why": "B's run-on first sentence; the published last sentence (both calls changed it: \"wherever people take it seriously\", \"they will end up building a community\"). DEDUP (repeats r1 item 3): \"I'm in Sénégal and expect to buy land, but I'm not announcing a commune\" is section 2's disclosure (\"I am not currently recruiting anyone or founding a community ... I do plan to buy land\"), which adds that the article's warnings apply to him; the no application, no retreat, free manuals and where community gathers stay"
+ },
+ {
+  "id": "H3-P9",
+  "old": "The Bruderhof shaped my father. He made a film, founded a research organization, and carried me through communal experiments. Decades later I’m publishing the film and writing this.",
+  "new": "Decades after the Bruderhof shaped my father, I'm publishing the film he made, and writing this.",
+  "source": "Emulate round a call published",
+  "why": "DEDUP: the published \"He made a film, founded a research organization, and carried me through communal experiments\" is section 14's last paragraph (\"It shaped the foundation he started and the film he made. It shaped the places he took me, too\"); what is this paragraph's own, decades later he publishes the film and writes this, stays"
+ },
+ {
+  "id": "H3-P10",
+  "old": "Maybe somebody will build something useful from it. Maybe that community will teach somebody who builds another. The transmission does not require one institution, one founder, or one official version.",
+  "new": "Maybe some of you will help build something good from this. Maybe you'll teach someone else, who'll build another. Passing it on doesn't need one institution, one founder or one official version.",
+  "source": "Emulate round a call A",
+  "why": "A's two \"Maybe\" sentences; the published transmission that needs no one institution, founder or official version (both calls dropped it)"
+ },
+ {
+  "id": "H3-P11",
+  "old": "If you build something real, maybe we’ll hear about each other. If you teach other people to build, hearing about it matters less.",
+  "new": "If you build something real, maybe we'll hear about each other. And if you teach other people to build, hearing about it matters less.",
+  "source": "Emulate round a call A",
+  "why": "A's pair; the published \"hear about each other\" and \"matters less\" (A: \"it won't matter\")"
+ }
+]

@@ -1,0 +1,22 @@
+# Predictions and Pangram results: batch 337g (2026-10-17, section 16 v6)
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). Section 16 v6 (`../make_v6.py`): H1-P2 numbered inline, H2-P5 from Emulate round b's call B, H3-P4 from call A, H3-P5 opening with a question. Each changed paragraph with each neighbor, H2-P5 alone too, each subsection, the whole section. Marches review-r11 (two readings, a break in each); lint REVIEW. Predictions written before the run.
+
+## Batch 337g
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S16v6-H1-P1+P2 | Human | H1-P2 numbered inline, Joel's own way with a list (section 4); a numbered list read Human in the appendix | **AI** (AI Generated, low, 92 words, AI likelihood 0.78), 06:00:45, [check](https://www.pangram.com/history/1c2f580a-754f-4afe-af7c-ba67e5f91b75) |
+| S16v6-H1-P2+P3 | Human | H1-P2 with H1-P3 read Human in 328g with the plain list | **AI** (AI Generated, medium, 130 words, AI likelihood 0.59), 06:00:55, [check](https://www.pangram.com/history/1d5f94f3-135c-4722-86c5-4e273c03cd4f) |
+| S16v6-H1 | Mixed | the end of H1-P3 read AI inside H1 in 333g | **Mixed** (AI Detected; windows: AI-Generated, High, 86; Human, High, 57; AI-Generated, High, 40, 183 words, AI likelihood 0.66), 06:01:07, [check](https://www.pangram.com/history/f3a89976-3c50-4409-a0e2-5940382cb9f0) |
+| S16v6-H2-P4+P5 | Human | call B's "Here's an idea if you're remote, or stuck where you are" | **Human** (Human Written, medium, 105 words, AI likelihood 0.09), 06:01:18, [check](https://www.pangram.com/history/22b6fa4a-148a-4a2f-bf5b-cdffa82caa4d) |
+| S16v6-H2-P5 | Human | as above | **Human** (Human Written, low, 71 words, AI likelihood 0.01), 06:01:29, [check](https://www.pangram.com/history/aa73f6ad-51bc-4600-b945-e3ff2e566cda) |
+| S16v6-H2-P5+P6 | Human | H2-P5's first sentences were the AI window with H2-P6 | **Human** (Human Written, medium, 106 words, AI likelihood 0.40), 06:01:42, [check](https://www.pangram.com/history/cb08e418-04db-4765-bb00-871c83039229) |
+| S16v6-H2 | Human | read Human in 328g and 333g | **Human** (Human Written, high, 278 words, AI likelihood 0.27), 06:01:54, [check](https://www.pangram.com/history/6c6a7095-b5bb-475c-bf00-d12445437664) |
+| S16v6-H3-P3+P4 | Human | call A's one run of places, "Where might you find them?" | **AI** (AI Generated, low, 81 words, AI likelihood 0.80), 06:02:05, [check](https://www.pangram.com/history/84425c1c-7508-489e-9b83-07f0737fb358) |
+| S16v6-H3-P4+P5 | Mixed | H3-P5's "Have you ever visited an actual community? Go!" against a list of links | **AI** (AI Generated, low, 70 words, AI likelihood 0.66), 06:02:15, [check](https://www.pangram.com/history/37290ac6-e118-4524-bec1-903696b20893) |
+| S16v6-H3-P5+P6 | Human | the question openers of both | **Human** (Human Written, low, 82 words, AI likelihood 0.26), 06:02:25, [check](https://www.pangram.com/history/49de0565-abaf-4b90-a410-69d12335e655) |
+| S16v6-H3 | Mixed | H3-P4 to H3-P6 were the AI window in 328g and 333g | **Mixed** (AI Detected; windows: Human, High, 84; AI-Generated, High, 114; Human, High, 143, 341 words, AI likelihood 0.47), 06:02:36, [check](https://www.pangram.com/history/a7fabcf9-73ee-49cb-97fb-58377a8e411f) |
+| S16v6 | Mixed | H1's opening has read AI in every version | **Mixed** (AI Detected; windows: AI-Generated, High, 86; Human, High, 57; AI-Generated, High, 40; Human, High, 63; AI-Generated, High, 165; Human, High, 140; AI-Generated, High, 114; Human, High, 143, 808 words, AI likelihood 0.54), 06:02:47, [check](https://www.pangram.com/history/f59dcec4-f2b8-4a60-9d02-a160433641d0) |
+
+Results of 337g (Pangram's History, 2026-10-17 06:00:45 to 06:02:47 UTC): H2 is done: call B's H2-P5 reads Human alone (0.01), with H2-P4 (0.09) and with H2-P6 (0.40), and H2 reads Human (0.27). H3-P5 with its question reads Human with H3-P6 (0.26). H1-P2 numbered reads AI with H1-P1 (0.78) and with H1-P3 (0.59; the plain list read Human with H1-P3, 0.34, in 328g), so v5's plain H1-P2 comes back. H3-P4 reads AI with each neighbor in its third shape (0.80, 0.66). The whole section reads Mixed (0.54): four AI windows, H1's opening, the end of H1-P3, the stretch from H2's caption to H2-P5, and H3-P4 to H3-P6, though every pair in H2 reads Human. Section 13's lesson applies (a stretch that passes paragraph by paragraph has to pass as a stretch): Emulate round c takes each stretch whole (`../emu-c/`).

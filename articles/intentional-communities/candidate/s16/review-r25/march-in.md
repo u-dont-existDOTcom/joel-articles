@@ -1,0 +1,1 @@
+So your inner pl/ork can start now, right where you live. Peer counseling takes two people and a private place to sit and talk. That's it! And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.

@@ -1,0 +1,138 @@
+"""Section 15 draft v5 (2026-10-17): v4 (H1-P4 variant x, H2-P1 variant b) with the fixes of review round r4 (the meaning
+traces, the cold read and the stance check of v4; review-r4/DISPOSITIONS-r4.md says what each finding got). A fix replaces
+words inside the paragraph; each changed paragraph goes to Pangram again alone (or with a neighbor) and in its subsection,
+and the whole section after. Writes v5.md and v5-fixes.json. Run from this folder: python3 make_v5.py"""
+import json, pathlib
+
+HERE = pathlib.Path(__file__).resolve().parent
+t = (HERE / 'v4.md').read_text(encoding='utf-8')
+FIX = [
+ ('H1-P1', "a strange Western phrase. Don't human beings already do that?",
+  "a strange Western phrase. People here are like, \"Don't human beings already do that?\"",
+  'trace T1: the question read as the narrator\'s own claim and lost "people assume"; it is theirs now, and still the break'),
+ ('H1-P4', "etc. etc. all get taken care of by the extended family and local memory, in addition to whatever formal systems there "
+           "might be.",
+  "etc. etc. often get taken care of by the extended family and local memory, in addition to the formal systems.",
+  'trace T2: the published "often" (Emulate\'s "all" made it always) and formal systems that exist (Emulate\'s "whatever '
+  'formal systems there might be" left open that there are none)'),
+ ('H1-P4', "In the villages and families I've spent time around, a lot of the things we think we have to \"re-invent\" to form "
+           "intentional communities are simply the way things are done. Land, childcare,",
+  "In the villages and families I've spent time around, land, childcare,",
+  'trace T2 and the stance check, two readers: "a lot of the things we think we have to "re-invent" ... are simply the way '
+  'things are done" told the reader the villages already do it all and there is little left to build; the published says '
+  'only what often passes through the family; variant s (v5-variants.json) keeps a softer form of the sentence'),
+ ('H2-P7', "And can you blame them? Families that used to share almost everything are now more reliant on cash and individual "
+           "opportunities.",
+  "So what about the families? The ones that used to share almost everything are now more reliant on cash and individual "
+  "opportunities.",
+  'trace T5 and the stance check, two readers: "And can you blame them?" was a verdict on the young people\'s choices the '
+  'published never gives; the break is now a question the published sentence answers'),
+ ('H1-P5', "Even in Dakar, I see things like this spray painted on walls:",
+  "Even in Dakar, I found this graffiti on a wall:",
+  'trace T3: one find, as published ("I found graffiti reading"); "I see things like this" made it a common sight'),
+ ('H2-P2', "I can't just praise the virtues of community and ignore the people who have to hide who they are to survive in it, or "
+           "leave.",
+  "I'm not going to praise communal belonging and ignore the people who have to hide who they are to survive it, or leave.",
+  'trace T3: "can\'t" made a choice an inability (the published "I don\'t want to"; "I don\'t want to" opening a stance is '
+  'the linter\'s O20, so his refusal is "I\'m not going to"); the published "communal belonging" and "survive it", the '
+  'belonging the next paragraph\'s "belong without pretending" rests on'),
+ ('H2-P3', "It's possible for a society to be incredibly spiritually alive, generous, funny and super communal, while at the same "
+           "time being extremely cruel to those who break its social categories.",
+  "It's possible for a society to be spiritually alive, generous, funny and super communal, while still becoming cruel to "
+  "those who break its social categories.",
+  'trace T4: the published "still becoming" cruel (Emulate\'s "being" made it simply cruel), and no "incredibly" or '
+  '"extremely" the published never gives'),
+ ('H2-P3', "it depends on whether you're allowed to belong without pretending.",
+  "it all depends on whether you're allowed to belong without pretending.",
+  'trace T4: the published "Everything depends"'),
+ ('H2-P4', "One other shadow side of the forgiving social culture here is that people will go to pretty funny lengths to avoid "
+           "confrontation.",
+  "One other shadow side of the otherwise forgiving social culture here is that people may go to great lengths to avoid "
+  "confrontation.",
+  'trace T4: the published "otherwise" (forgiving but for the cruelty just described) and "may"; "pretty funny" was a new '
+  'opinion, and "great lengths" is the published "so thoroughly"'),
+ ('H2-P7', "Of course, the old ways here are changing. Young people want to move to the city, get a job, get a phone, eat "
+           "imported food, be part of the wider world, etc. (some young men even make the dangerous journey by sea to Europe).",
+  "Of course, the old communal ways here are changing. Young people move to the city, get a job, get a phone, eat imported "
+  "food, become part of the wider world, etc. (some of the men even make the dangerous journey by sea to Europe).",
+  'trace T5: the published "communal" patterns; they do these things (not only "want to"); men, not only young men'),
+ ('H3-P1', "Then there's the so-called \"Black Tax,\" a legacy of the old communal system: if you've got any money at all, you're "
+           "expected to share it with your parents, your siblings, to pay school fees,",
+  "Then there's the so-called \"Black Tax,\" a strange legacy of the old communal system: if you've got any money at all, "
+  "you're expected to share it with your parents, your siblings, your cousins, to pay school fees,",
+  'trace T6: the published "strange" survival, and "cousins", the extended family the obligation reaches (the list\'s "etc." '
+  'came after the costs); "housed and protected" stay out by Joel\'s list rule (2026-10-03, 10-07), so the paragraph keeps '
+  'one list of three (E125), recorded in make_v3'),
+ ('H3-P1', "So why not share in return? It was the most natural thing to do, and that's how the whole organism survived (nobody "
+           "thought of it as charity).",
+  "So why not share in return? That's how the whole organism survived (it wasn't charity).",
+  'trace T6: "the most natural thing to do" was Emulate\'s new opinion; the published says what sharing was, not what '
+  'everyone thought ("it wasn\'t charity")'),
+ ('H3-P2', "The problem is that it can be very soul destroying in today's world. The obligation is still there, but most people "
+           "no longer live close enough to share land, work, childcare, food etc. and feel part of a larger whole, while whoever "
+           "earns the cash",
+  "The problem is that it can be soul destroying in today's world. The obligation is still there, but a lot of the communal "
+  "life that held it up is gone (people don't fully share the land, the work, the childcare, the food and the daily belonging "
+  "like they used to), while whoever earns the cash",
+  'trace T6: no "very"; the published communal life that supported the obligation, "much of" it gone and the rest "no longer '
+  'fully shared" (Emulate\'s "most people no longer live close enough" gave distance as the cause, which the published '
+  'never says), with its "daily belonging"'),
+ ('H3-P2', "So the ancestral ethic carries on inside the individualistic cash economy, keeping people alive but gnawing at both "
+           "sides.",
+  "The ancestral ethic carries on inside the individualistic cash economy, where it can keep people alive but gnaw at both "
+  "sides.",
+  'trace T6: "So" made it follow from the relatives\' dependence; the published "can"'),
+ ('H3-P3', "It's also one of the thorny boundary issues of living without money inside a money-based society.",
+  "It's also the thorny boundary issue of living without money inside a money-based society.",
+  'trace T7: the published names the boundary problem, not one of several'),
+ ('H3-P3', "That doesn't mean going back to individuals working for wages and bringing them into the commune, but",
+  "That doesn't mean going back to individual wages inside the commune, but",
+  'trace T7: the published rules out wages inside the commune; "individuals working for wages and bringing them into the '
+  'commune" ruled out the outside work the next paragraph allows'),
+ ('H3-P4', "Another aspect of outside work is that it's not just money you're bringing into the commune.",
+  "Another aspect of outside work, even before there's a common purse, is that it's not just money you're bringing into the "
+  "commune.",
+  'trace T7: the published "even before a common purse"'),
+ ('H3-P4', "different loyalties, different consumption habits etc. etc.",
+  "different loyalties, and often different consumption habits etc. etc.",
+  'trace T7: the published "often"'),
+ ('H3-P4', "In the first stage, where some people work outside and contribute an agreed share, it's really important that they "
+           "can't use the money to buy their way out of communal work,",
+  "In the first stage, where people working outside should contribute an agreed share, it's really important that they can't "
+  "use the money to buy their way out of everyday communal work,",
+  'trace T7: the published "should" contribute, and "ordinary" communal work'),
+ ('H3-P4', "It's also important that outside jobs don't drain the energy and skills out of the people who could be building the "
+           "communal livelihoods. Otherwise the commune will never develop a common purse, and it will stay a dormitory for the "
+           "money economy.",
+  "It's also important that the group notices when outside jobs start draining the people and skills it needs to build the "
+  "communal livelihoods. Otherwise the commune will stay a dormitory for the money economy instead of moving toward a common "
+  "purse.",
+  'trace T7: the group\'s job to notice, the people and skills it needs (Emulate\'s "who could be building" made them only '
+  'available), and the published "instead of moving toward a common purse" (Emulate\'s "never develop" was absolute)'),
+ ('H3-P5', "used to try to stop their young people from emigrating, which is a version of the same problem.",
+  "used to try to stop their young people from leaving, which is a version of the same outside-work problem.",
+  'trace T8: the published "leaving" (migration need not cross a border); the cold read: "the same problem" could be the '
+  'money owed to relatives or the outside jobs, so it is named (the published "this" is the outside-work boundary)'),
+ ('H3-P7', "There's knowledge in the living villages that no book can give you. And by the way, if you visit, remember they're "
+           "people, not museums.",
+  "There's still knowledge in the living villages that no book can give you. But if you visit, remember they're people, not "
+  "museums.",
+  'trace T9: the published "still", and "but": the people are the counterweight to the knowledge, not an aside'),
+ ('H3-P7', "So be respectful, go wanting to contribute, learn some of the language, and don't expect",
+  "So be respectful, contribute something, learn the language, and don't expect",
+  'trace T9: the published asks for a contribution and the language, not the wish or some of it'),
+ ('H3-P8', "getting my residency here was pretty cheap and straightforward.",
+  "getting my residency in Sénégal was pretty cheap and straightforward.",
+  'trace T9: the published names the country, and "the country\'s" ideal two sentences on needs it'),
+ ('H3-P8', "and they won't let me pay rent! I know, I'm lucky.",
+  "and they won't let me pay rent! Can you believe it?",
+  'trace T9: "I\'m lucky" was a new self-assessment; the break claims nothing now'),
+]
+log = []
+for pid, old, new, why in FIX:
+    assert t.count(old) == 1, (pid, old[:50])
+    t = t.replace(old, new)
+    log.append({'id': pid, 'old': old, 'new': new, 'why': why})
+(HERE / 'v5.md').write_text(t, encoding='utf-8')
+(HERE / 'v5-fixes.json').write_text(json.dumps(log, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+print('wrote v5.md', len(log), 'fixes')

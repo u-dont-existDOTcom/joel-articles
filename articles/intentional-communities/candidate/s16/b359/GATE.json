@@ -1,0 +1,181 @@
+{
+ "S16v17hq-H2-P6-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "B S",
+   "B S",
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B B"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2, H3",
+  "words": 129
+ },
+ "S16v17hq-H3-P2-P4": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B B",
+   "B S",
+   "B S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 139
+ },
+ "S16v17hq-H3-P3-P5": {
+  "kind": "screen",
+  "march": [
+   "S S S S B B",
+   "S S S S B B",
+   "B S",
+   "B S",
+   "S B S S S",
+   "S B S S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 131
+ },
+ "S16v17hq-H2-P5-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B S",
+   "S S S S S B B",
+   "B S",
+   "B S",
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B B"
+  ],
+  "march_note": "every paragraph of the stretch",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the stretch touches: H2, H3",
+  "words": 197
+ },
+ "S16v17hq-H3-P5-P11": {
+  "kind": "screen",
+  "march": [
+   "S B S S S",
+   "S B S S S",
+   "S B",
+   "S B",
+   "S B",
+   "S B",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph of the stretch",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the stretch touches: H3",
+  "words": 228
+ },
+ "S16v17hq-H3-P7-P11": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph of the stretch",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the stretch touches: H3",
+  "words": 136
+ },
+ "S16v17hq-H3": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B B",
+   "B S",
+   "B S",
+   "S B S S S",
+   "S B S S S",
+   "S B",
+   "S B",
+   "S B",
+   "S B",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph of the stretch",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the stretch touches: H3",
+  "words": 367
+ },
+ "S16v17hq": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B",
+   "S S B S",
+   "S B B S",
+   "S B",
+   "S B",
+   "S S B B S",
+   "S S B B S",
+   "S B S S",
+   "S B S S",
+   "S S S S S B S",
+   "S S S S S B B",
+   "B S",
+   "B S",
+   "B S S",
+   "B S S",
+   "S S S S B B",
+   "S S S S B B",
+   "B S",
+   "B S",
+   "S B S S S",
+   "S B S S S",
+   "S B",
+   "S B",
+   "S B",
+   "S B",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph",
+  "lint": "REVIEW",
+  "words": 837
+ }
+}

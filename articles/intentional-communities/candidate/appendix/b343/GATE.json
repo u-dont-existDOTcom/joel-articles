@@ -1,0 +1,22 @@
+{
+ "APXv9-E25": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "appendix/review-r*, one paragraph per item, by its exact text",
+  "lint": "REVIEW",
+  "words": 66
+ },
+ "APXv9": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S B B S S S S B S S B S B S B S S B S S S S S S S S B S S B B S S S S B S B S S S S B S S S S B",
+   "S S S B S S S B B S S S S B S S B S B S B S S B S S S S S S S S B S S B B S S S S B S B S S S S B S S S S B"
+  ],
+  "march_note": "appendix/review-r*, one paragraph per item, by its exact text",
+  "lint": "REVIEW",
+  "words": 655
+ }
+}

@@ -1,0 +1,15 @@
+# Predictions and Pangram results: batch 347g (2026-10-17, the stretches of section 16 that read AI inside the whole section)
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). Every paragraph, every pair and H2 alone read Human, but the whole section reads AI over the same two stretches in every draft (344g to 346g). This batch screens those stretches alone, as Pangram cut them, in v10 db, v11 (a, a) and v10's H3: which ones read AI without the rest of the section around them. Marches as in 344g to 346g; lint REVIEW. Predictions written before the run.
+
+## Batch 347g
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S16v10-cap+H2-P2-P4 | AI | the window over the caption and H2-P2 to H2-P4 in v10 db's whole (344g) | **AI** (AI Generated, medium, 115 words, AI likelihood 0.92), 07:50:40, [check](https://www.pangram.com/history/5473ebfd-caa4-422e-a5b2-73a357e70ba7) |
+| S16v10-H2-P3-P5 | AI | three list-shaped paragraphs in a row | **AI** (AI Generated, medium, 147 words, AI likelihood 0.77), 07:50:51, [check](https://www.pangram.com/history/e236da66-59ee-4a8b-ae34-7e9b16e9e821) |
+| S16v10-H3-P4-P6 | AI | the window in v10's whole (344g) | **AI** (AI Generated, medium, 128 words, AI likelihood 0.83), 07:51:01, [check](https://www.pangram.com/history/419cad89-0658-499e-a390-59e096e79f0f) |
+| S16v10-H3-P5-P7 | AI | the window inside v9's H3 (342g) | **Human** (Human Written, medium, 101 words, AI likelihood 0.09), 07:51:12, [check](https://www.pangram.com/history/0205e65e-38f9-454b-ad0b-0109c2cd4cde) |
+| S16v11-cap+H2-P2-P4 | Human | round e's shapes | **Mixed** (AI Detected; windows: Human, Medium, 52; AI-Generated, Medium, 71, 123 words, AI likelihood 0.50), 07:51:23, [check](https://www.pangram.com/history/7b384c69-bc06-4cf1-baf3-945c71ad1a73) |
+| S16v11-H2-P3-P5 | AI | the window in v11's whole (345g) | **Mixed** (AI Detected; windows: Human, High, 36; AI-Generated, High, 87; Human, High, 31, 154 words, AI likelihood 0.48), 07:51:33, [check](https://www.pangram.com/history/1cc270f9-c4c3-4ed0-9342-65c39c8b8fb3) |
+| S16v11-H3-P5-P7 | AI | the window in v11's whole (345g) | **Human** (Human Written, medium, 107 words, AI likelihood 0.07), 07:51:43, [check](https://www.pangram.com/history/c69f5788-46e2-4bf9-b137-ad8726592a61) |

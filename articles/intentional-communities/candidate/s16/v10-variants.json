@@ -1,0 +1,26 @@
+{
+ "paragraphs": {
+  "P1D": "Most people try and do community in the wrong order. \"First let's get land!\" \"Then let's write down a vision document!\" \"And whoever's putting in the money can own the place!\" And the emotional side of things? That doesn't get done until \"later on, when everyone has more time\".",
+  "P2D": "The order should be more like this: practice together, process a real conflict, clarify values, test membership, work out ownership and exit, and only then think about land. Less cinematic, I know! (It would make for a pretty bad movie.)",
+  "P2B": "It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know! (It would make for a pretty bad movie.)",
+  "P3D": "Same with money: do it in stages. Don't try and fly right to the economic destination in one go! Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because \"money is impure!\" (That sounds kind of weird when somebody else is quietly paying the tax bill.)"
+ },
+ "shapes": {
+  "dd": [
+   "P1D",
+   "P2D",
+   "P3D"
+  ],
+  "db": [
+   "P1D",
+   "P2B",
+   "P3D"
+  ],
+  "ed": [
+   null,
+   "P2D",
+   "P3D"
+  ]
+ },
+ "chosen": "db"
+}

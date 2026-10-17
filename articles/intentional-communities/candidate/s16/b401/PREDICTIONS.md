@@ -1,0 +1,13 @@
+# Predictions and Pangram results: batch 401g (2026-10-17, section 16 v26 shape jnk)
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). Section 16 v26 (`../make_v26.py jnk`): v25 (all five fixes of meaning round r42) with the junction where its window sits (H3-P5's last sentence to H3-P7) in shape jnk (P5 P6 P7: k keeps v25's; see the script). The whole section; 395g to 402g run in one pass. March review-r44; lint REVIEW. Prediction written before the run.
+
+## Batch 401g
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S16v26jnk | Mixed | the whole section with all of r42's fixes and the junction in shape jnk; v25's had one window there | **Mixed** (AI Detected; windows: Human, High, 633; AI-Generated, High, 156; Human, High, 87, 876 words, AI likelihood 0.38), 12:08:11, [check](https://www.pangram.com/history/38fc813c-9e17-411b-869f-d486a2847a7b) |
+
+## Results of 401g
+
+One of one right. AI Detected (0.38): windows Human, High, 633; AI-Generated, High, 156; Human, High, 87.

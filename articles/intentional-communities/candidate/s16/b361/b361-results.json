@@ -1,0 +1,52 @@
+{
+ "S16v17bq": [
+  "AI Detected",
+  0.47,
+  876,
+  "Human, High, 564; AI-Generated, High, 312",
+  "09:41:30",
+  "/78477b3f-7437-4026-abe4-6982ca28a606",
+  [
+   "AI-Generated (312 words): Just get together regularly, and learn to listen, switch roles, handle one disagreemen ..."
+  ]
+ ],
+ "S16v17bq-H3": [
+  "AI Detected",
+  0.52,
+  387,
+  "Human, High, 174; AI-Generated, High, 136; Human, High, 38; AI-Generated, High, 39",
+  "09:41:19",
+  "/74f13980-f67d-47bd-8a9f-34d823759840",
+  [
+   "AI-Generated (136 words): Many ecovillages are too. Check their current visitor requirements first. By visiting  ...",
+   "AI-Generated (39 words): Passing it on doesn't need one institution, one founder or one official version. If yo ..."
+  ]
+ ],
+ "S16v17bq-H3-P3-P5": [
+  "Human Written",
+  0.17,
+  142,
+  "Human, Medium, 142",
+  "09:41:07",
+  "/ee0a8ca3-938c-4914-9e45-ec013ded01f6",
+  []
+ ],
+ "S16v17bq-H3-P2-P4": [
+  "Human Written",
+  0.02,
+  151,
+  "Human, High, 151",
+  "09:40:56",
+  "/f157ba18-2c97-43da-b63f-58fba8c2186b",
+  []
+ ],
+ "S16v17bq-H2-P6-H3-P3": [
+  "Human Written",
+  0.29,
+  140,
+  "Human, Medium, 140",
+  "09:40:46",
+  "/07a55170-080a-48ab-893c-260ace830d39",
+  []
+ ]
+}

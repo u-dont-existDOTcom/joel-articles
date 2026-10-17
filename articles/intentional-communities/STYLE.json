@@ -1,0 +1,30 @@
+{
+ "article": "intentional-communities",
+ "register": "conversational",
+ "note": "Joel's Substack essay voice: first person, asides, jokes and questions to the reader. Lists keep one break per run of entries (Joel, 2026-10-17 13:11, question 41: 'a is fine for this article'). Sections 1 to 12 end about 0.3% of their sentences with an exclamation mark, sections 13 to 16 about 12% (question 43).",
+ "breaks": {
+  "required": true,
+  "kinds": [
+   "a reaction, inside the exclamation range below (most reactions end with a period)",
+   "an aside that loosens what was just said",
+   "a question to the reader",
+   "a joke",
+   "a story or a memory",
+   "a pause, waiting, or a permission",
+   "the writer's own doubt or opinion, only where the published text holds it (tells_lint A2)"
+  ],
+  "never": [
+   "an opinion or feeling the published text doesn't hold (tells_lint A2)",
+   "more exclamations in a row than the article has (tells_lint S1)"
+  ],
+  "lists": "per-run",
+  "lists_note": "one break per run of entries, the stretch Pangram reads"
+ },
+ "exclamations": {
+  "window": 4,
+  "max_in_window": 2,
+  "share": 0.039,
+  "measured_from": "articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+  "measured": "2026-10-17"
+ }
+}

@@ -1,0 +1,14 @@
+You are checking one paragraph of a blog article against the study it cites. Do not read any other file.
+
+THE PARAGRAPH (Markdown; the link is on "new study"):
+
+A [new study](https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/) found the same goes for how we see the world. Where relationships are easy to make and break, people line up their view of reality with whoever helps them reach their goals, and feel less on the same page with whoever doesn't. Kind of a "no, duh" study, but still.
+
+It comes right after this sentence in the article: "Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got." "Kind of a 'no, duh' study" is the author's own comment on it.
+
+Open the link (https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/) with your web-fetch tool and read the write-up of the study. Then report, in plain sentences:
+1. Each claim the paragraph makes about the study: SUPPORTED (quote the write-up's words that support it, under 15 words), OVERSTATED (what the write-up says instead), or NOT IN THE WRITE-UP.
+2. Whether "found the same goes for how we see the world", right after the career-market sentence, misreads the study.
+3. Whether anything the study found that a reader would need to read the paragraph fairly is missing (only if its absence makes the paragraph wrong, not merely shorter).
+End with one line: VERDICT: OK, or VERDICT: FIX followed by the smallest change in the paragraph's own casual voice.
+Write the report to /home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017/SOURCE-s12.md and reply "done".

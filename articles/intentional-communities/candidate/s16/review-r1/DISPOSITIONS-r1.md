@@ -1,0 +1,42 @@
+# The repeats check for sections 15, 16 and the appendix: what each finding got
+
+One run for all three sections (`REPEATS-PROMPT.txt`, Sonnet) stopped when its answer passed the 64,000-token output limit, with no report. Two narrower runs replaced it, each reading the whole article (section 15 as v3, `article-with-s15v3.md`): `REPEATS-PROMPT-15A.txt` (section 15 and the appendix, report `REPEATS-15A.md`) and `REPEATS-PROMPT-16.txt` (section 16, report `REPEATS-16.md`). Joel's standing dedup rule decides each one (2026-10-17 02:07 UTC: "you can only cut if it isn't losing important meaning or there's no good way to merge"): a repeat is cut where the other place carries the point; when both places carry meaning and there's no good merge, both stay, with what each carries.
+
+## Section 15 and the appendix (REPEATS-15A.md)
+
+1. The film online (section 1 and the appendix's film entry, "now online"): the appendix entry's link says it, so "and now online" goes from the appendix. Nothing else in the entry repeats.
+2. His father's 17 years in the Bruderhof (sections 1 and 4, and the appendix's entry for *Inside the Bruderhof*, "My father lived there for 17 years."): the third telling goes from the appendix; sections 1 and 4 keep it.
+3. Hidden hierarchy (sections 2 and 11, and a source's note in the appendix): kept. The appendix note says what that source argues; a reading list's note has to say it.
+4. A moneyless commune still needs outside cash (section 4's cash boundary, section 15's Black Tax paragraph H3-P3, section 16's tax bill): kept. Section 15 adds the concrete costs, who handles them and the status hierarchy outside money can create, seen through the Black Tax; section 4 sets the stage plan. Section 16's line is its own joke about declaring money impure (see its own list below).
+5. The Continuum Concept's caution (section 8 and its appendix entry): kept; the entry's caution is for a reader who goes to the list first.
+6. *The Fire and the Word* (section 9 and its appendix entry): kept; the entry says what the book covers, which is what an entry is for.
+7. The 2023 Zapatista restructure (section 9 and the appendix's pointer to the archive): kept, mild; the appendix points to the source.
+8. Inherited communal life against rebuilding it (sections 9 and 15): kept; the reviewer calls it a developing theme, each with a new example.
+9. Longevity is not the test (section 11 and a source's note in the appendix): kept, as 3.
+10. *American Commune* (section 14 and its appendix entry): kept; section 14 tells the story, the entry what the film is and why it matters here.
+11. Sénégal feels like another world (H1-P2 and H1-P3 against H2-P6's "another world, with the music, the animals, the joking, the praying"): kept. H2-P6 sums up, and its own points are the animals, the constant company and the feeling of another world (the published U25).
+12. Murals and graffiti (H1-P2, H1-P5 and the caption): kept. H1-P2 is Sufism in everyday murals, H1-P5 the Sufi leaders and the wall's words in Dakar; the caption is the published image's.
+13. Hospitality beside conservatism (H2-P3's cruelty to people who break its categories, H3-P8's social conservatism): kept; two different points (the cruelty to LGBTQ+ people, the everyday conservatism beside the hospitality).
+14. Outside money and status (H3-P3 and H3-P4): kept; H3-P3 is access to outside money turning into status, H3-P4 money buying exemption from work or political say, two different mechanisms.
+
+Contradictions: 1, "going back to individuals working for wages and bringing them into the commune" against the stages that take outside wages in, was a trace finding too and is fixed in section 15 v5 ("going back to individual wages inside the commune"). 2, the reading list "in Reading Order" and its "start here for sequencing" against section 16's "Start the inner pl/ork" and its order: the appendix's "start here for sequencing" becomes "start here for membership, money, land, and agreements" (Joel 2026-10-16 23:38, on the book's order: "we should not lean on Christian's book order if it contradicts my own order"); "in Reading Order" is the order of the list, not of the steps, and stays.
+
+## Section 16 (REPEATS-16.md)
+
+Each cut is in `../make_v1.py` with where the point is said; a unit the cut leaves to another section is marked "elsewhere" in `../preservation-keys.json`, and the key check passes it only when that section of the article has the words (`tools/humanization/preservation_keys.py --article`).
+
+1. Communities train people who build elsewhere (sections 1, 6 and 9, and section 16's "Maybe that community will teach somebody who builds another."): kept. It is the closing echo of section 1, and section 16 adds its own point, that passing it on needs no one institution, founder or official version.
+2. Unprocessed pain travels with people (section 1 and the forty acres): kept. Section 16's is the concrete warning for a reader about to relocate, with its joke.
+3. Not recruiting but planning to buy land (section 2 and section 16's "I'm in Sénégal and expect to buy land, but I'm not announcing a commune."): cut from section 16. Section 2 says it and adds that the article's warnings apply to him; section 16 keeps what is its own (no application form, no retreat to sell, the free manuals, where community gathers).
+4. The staged money path (section 4's three stages and section 16's first paragraph on money): the first stage, households that stop buying the basics among themselves while outside earners bring in a share, is cut from section 16; section 4 says it in Joel's own words. Section 16 keeps its own: the readiness test for a common purse (after the group can provide for everybody reliably and divide the common fairly), outside money reduced from what the group has shown it can do, and the impure-money joke.
+5. Concentrated ownership (sections 4 and 13, and a clause in section 16's list of the wrong order): kept; the clause is one item of section 16's own list.
+6. Inner work deferred (section 4 and the same list): kept, as 5.
+7. A small group is already community (section 13's opening and section 16's weekly group): "already contains a real piece of community" is cut from section 16; section 13 says it. Section 16 keeps what is its own, what such a group does for people even if it never owns land.
+8. A real conflict before committing resources (section 13, and section 16's order and first-month practice): kept. The order is Joel's (2026-10-16 23:38), every step of it; the first month's "handle one disagreement" is a practice, not the rule.
+9. The Bruderhof shaped his father (section 14's last paragraph and section 16's): section 16's list (the film, the research organization, the communal experiments) is cut; section 14 says it ("the foundation he started", "the film he made", "the places he took me"), and section 1 tells it in full. Section 16 keeps its own sentence, decades later he's publishing the film and writing this.
+10. Land can wait, said four or five times in section 16: the month's lead-in ("without the heroic land purchase") is cut; the order (H1-P2), "If You Can't Move" (H2-P1), the deed (H2-P3) and "Do those three things before you spend serious time or money looking for land" (H3-P7, the month's own instruction) stay.
+11. Experience teaches more than planning (the six months of three households, and visits): kept, the lessons differ; the visit paragraph's wording no longer has the same shape ("You'll find out stuff no manifesto can tell you").
+
+Contradictions: 1, "Call it a practice group rather than a commune" against section 13's "you are already a community": the practice group is "not a commune, at least for now"; the name keeps a new group's expectations low, it doesn't deny that it is a community. 2, section 4 calls the container the foundation, and section 16 puts practice before property: both are Joel's (section 4 is his text of 10-13, the order his of 10-16), and the reviewer was not sure a reader would see a conflict, so it is question 39 on the questions page, with the default to leave both.
+
+Later (round r4, 2026-10-17): contradiction 1's "at least for now" was cut in v3, because trace T6 read it as a new claim (the commune label only postponed). Section 13 calls such a group a community, and section 16 says not to call it a commune: two different words, so nothing needs reconciling (`../review-r4/DISPOSITIONS-r4.md`).

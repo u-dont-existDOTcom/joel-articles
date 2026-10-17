@@ -1,0 +1,25 @@
+# Predictions and Pangram results: batch 348g (2026-10-17, every run of three paragraphs in section 16 v11 (a, a))
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). Batch 347g showed that the whole section's AI windows are stretches that read AI alone. This batch screens every run of three paragraphs of v11 (a, a) (`../slide.py`), with the heading or caption before a run as the whole section has it, to find each AI stretch before a whole-section screen. Marches as in 345g; each run linted as the subsections it touches (REVIEW). Predictions written before the run.
+
+## Batch 348g
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S16v11aa-H1-P1-P3 | Human | the opening reads Human whole (344g, 0.00) | **Human** (Human Written, high, 189 words, AI likelihood 0.00), 07:56:20, [check](https://www.pangram.com/history/c2ccdd1e-68f1-4c94-9524-0c2130b54844) |
+| S16v11aa-H1-P2-H2-P1 | Human | the opening reads Human whole (344g, 0.00) | **Human** (Human Written, high, 195 words, AI likelihood 0.00), 07:56:29, [check](https://www.pangram.com/history/bb8b4b98-0efb-4f00-828f-6009c57e83bd) |
+| S16v11aa-H1-P3-H2-P2 | Human | the opening reads Human whole (344g, 0.00) | **Human** (Human Written, high, 187 words, AI likelihood 0.01), 07:56:39, [check](https://www.pangram.com/history/911b5060-128c-4128-be44-876a61c1d561) |
+| S16v11aa-H2-P1-P3 | Human | outside the windows that read AI in the whole (345g) | **Human** (Human Written, medium, 149 words, AI likelihood 0.10), 07:56:50, [check](https://www.pangram.com/history/a8edf23f-0dbd-4d12-b575-605e22da84a3) |
+| S16v11aa-H2-P2-P4 | AI | read 0.50 alone in 347g (the same text) | **Mixed** (AI Detected; windows: Human, Medium, 52; AI-Generated, Medium, 71, 123 words, AI likelihood 0.52), 07:57:00, [check](https://www.pangram.com/history/b3e6c097-0746-43b7-aa84-0c226f6ce27b) |
+| S16v11aa-H2-P3-P5 | AI | read 0.48 alone in 347g | **Mixed** (AI Detected; windows: Human, High, 36; AI-Generated, High, 87; Human, High, 31, 154 words, AI likelihood 0.44), 07:57:11, [check](https://www.pangram.com/history/730a4724-43be-434f-8727-5a0b66338683) |
+| S16v11aa-H2-P4-P6 | Human | outside the windows that read AI in the whole (345g) | **Human** (Human Written, medium, 144 words, AI likelihood 0.38), 07:57:21, [check](https://www.pangram.com/history/eb37b311-1577-4292-b6a9-9ee7ab7dc59a) |
+| S16v11aa-H2-P5-H3-P2 | Human | outside the windows that read AI in the whole (345g) | **Human** (Human Written, medium, 142 words, AI likelihood 0.20), 07:57:32, [check](https://www.pangram.com/history/d45e12c0-04a7-44ab-b3c3-56962b867bc4) |
+| S16v11aa-H2-P6-H3-P3 | Human | outside the windows that read AI in the whole (345g) | **Mixed** (AI Detected; windows: Human, Medium, 49; AI-Generated, Medium, 65, 114 words, AI likelihood 0.56), 07:57:42, [check](https://www.pangram.com/history/dd4ad310-8698-4f1d-8eed-cf2a2026e9a4) |
+| S16v11aa-H3-P2-P4 | AI | the heading and H3-P2 read AI inside H3 (345g) | **AI** (AI Generated, medium, 139 words, AI likelihood 0.74), 07:57:53, [check](https://www.pangram.com/history/1112634c-d041-4e4b-b048-3fc4afa1d3e5) |
+| S16v11aa-H3-P3-P5 | Human | outside the windows that read AI in the whole (345g) | **AI** (AI Generated, medium, 144 words, AI likelihood 0.85), 07:58:03, [check](https://www.pangram.com/history/33bd06f0-d2c8-4d62-acb1-393f2e737813) |
+| S16v11aa-H3-P4-P6 | Human | outside the windows that read AI in the whole (345g) | **AI** (AI Generated, medium, 148 words, AI likelihood 0.69), 07:58:14, [check](https://www.pangram.com/history/14776e26-7c9a-4d2f-b6df-5eda06f97291) |
+| S16v11aa-H3-P5-P7 | Human | read 0.07 alone in 347g | **Human** (Human Written, medium, 107 words, AI likelihood 0.07), 07:58:25, [check](https://www.pangram.com/history/f54e4713-07db-4c33-933f-887106ed4dc5) |
+| S16v11aa-H3-P6-P8 | AI | the end of the window over H3-P5 to H3-P8 in the whole (345g) | **Human** (Human Written, medium, 114 words, AI likelihood 0.04), 07:58:35, [check](https://www.pangram.com/history/86dc465b-aaff-4367-8f8d-9357e7cf1631) |
+| S16v11aa-H3-P7-P9 | AI | the end of the window over H3-P5 to H3-P8 in the whole (345g) | **Human** (Human Written, low, 83 words, AI likelihood 0.00), 07:58:46, [check](https://www.pangram.com/history/f26dc633-a5fc-4b57-b47e-ec832793906a) |
+| S16v11aa-H3-P8-P10 | Human | outside the windows that read AI in the whole (345g) | **Human** (Human Written, low, 99 words, AI likelihood 0.03), 07:58:56, [check](https://www.pangram.com/history/3ee01638-fa88-4367-95bb-21aff1404917) |
+| S16v11aa-H3-P9-P11 | Human | outside the windows that read AI in the whole (345g) | **Human** (Human Written, low, 77 words, AI likelihood 0.04), 07:59:07, [check](https://www.pangram.com/history/ce2a766a-e85c-4b14-9675-7cfd37885c80) |

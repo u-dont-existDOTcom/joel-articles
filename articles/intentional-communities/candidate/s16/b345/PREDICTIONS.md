@@ -1,0 +1,22 @@
+# Predictions and Pangram results: batch 345g (2026-10-17, section 16 v11)
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). Section 16 v11 (`../make_v11.py`): v10 db (every paragraph Human alone, its opening Human whole, 344g) with the two stretches that read AI inside the whole section rebuilt from Emulate round e (H2-P2 to H2-P4 from call A: "the conflict PLUS goats", "working on jealousy, learning how to repair conflict, etc etc?", "Even if a group practices together every week for two years"; H3-P4 to H3-P6 from calls A and C: "Where can you find some of these people? ... How about restorative-practice groups?", "If not, you should go!", "drives you bananas"). Each new paragraph alone when it has 50 words and with each neighbor, H2 and H3, and the whole section with either stretch or both. Marches review-r20 (two readings, a break in each); lint REVIEW. Predictions written before the run.
+
+## Batch 345g
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S16v11-H2-P1+P2 | Human | H2-P1 read Human alone (328g); "PLUS goats" | **Human** (Human Written, low, 93 words, AI likelihood 0.00), 07:24:26, [check](https://www.pangram.com/history/21b6ff03-76f3-4d4a-aa24-76387ce3164f) |
+| S16v11-H2-P2+P3 | Human | call A's shapes | **Human** (Human Written, low, 80 words, AI likelihood 0.04), 07:24:37, [check](https://www.pangram.com/history/9ef029b5-5d8c-474e-9c05-73305697084e) |
+| S16v11-H2-P3+P4 | Human | as above | **Mixed** (AI Detected; windows: Human, Low, 45; AI-Generated, Low, 37, 82 words, AI likelihood 0.38), 07:24:47, [check](https://www.pangram.com/history/361a78c3-5b70-477a-8e5b-06880f7a1ce9) |
+| S16v11-H2-P4+P5 | Human | H2-P5 read Human alone (340g, 0.01) | **Human** (Human Written, medium, 109 words, AI likelihood 0.14), 07:24:58, [check](https://www.pangram.com/history/7eab31e9-b01f-4f65-9861-3da98ab5e218) |
+| S16v11-H3-P4 | Human | questions and "Maybe there's ... you can check out" | **Human** (Human Written, low, 60 words, AI likelihood 0.02), 07:26:43, [check](https://www.pangram.com/history/5c922a1a-ce0d-442b-b4d9-a040bfd610a6) |
+| S16v11-H3-P3+P4 | AI | H3-P3 read AI with every H3-P4 so far (328g to 340g, 0.80 to 0.85), Human only with H3-P2 | **Human** (Human Written, medium, 104 words, AI likelihood 0.14), 07:25:08, [check](https://www.pangram.com/history/28992674-d548-46e5-aae6-7162d0f6b060) |
+| S16v11-H3-P4+P5 | Human | as above | **Human** (Human Written, low, 100 words, AI likelihood 0.03), 07:25:19, [check](https://www.pangram.com/history/30bc6d65-9169-48ab-bbea-278560d0b370) |
+| S16v11-H3-P5+P6 | Human | "If not, you should go!", "drives you bananas" | **Human** (Human Written, low, 88 words, AI likelihood 0.12), 07:25:30, [check](https://www.pangram.com/history/165c138c-c0d5-4d65-bc3e-fd792e9b54b2) |
+| S16v11-H3-P6+P7 | Human | "And which ..." read Human with H3-P7 (342g, 0.31) | **Human** (Human Written, low, 67 words, AI likelihood 0.07), 07:25:40, [check](https://www.pangram.com/history/7afc94e5-c11a-4754-bba5-c4749a4f3f71) |
+| S16v11a-H2 | Human | H2 read Human in v8 (340g, 0.32) | **Human** (Human Written, medium, 287 words, AI likelihood 0.39), 07:25:50, [check](https://www.pangram.com/history/cf0ed5ba-a452-4ced-a053-10c2a247e2b9) |
+| S16v11a-H3 | Mixed | H3 has read AI over the visit in every version | **Mixed** (AI Detected; windows: AI-Generated, High, 75; Human, High, 77; AI-Generated, High, 218, 370 words, AI likelihood 0.66), 07:26:01, [check](https://www.pangram.com/history/c8016bd4-c4a9-4d1f-b15f-a87967c7a772) |
+| S16v11aa | Mixed | the opening and H2 Human; H3 as above | **Mixed** (AI Detected; windows: Human, High, 293; AI-Generated, High, 127; Human, High, 214; AI-Generated, High, 141; Human, High, 77, 852 words, AI likelihood 0.45), 07:26:12, [check](https://www.pangram.com/history/3f5d0143-1cd5-4bfb-b1a7-7b640db7b950) |
+| S16v11ak | Mixed | v10's H3 | **Mixed** (AI Detected; windows: Human, High, 304; AI-Generated, High, 116; Human, High, 146; AI-Generated, High, 123; Human, High, 143, 832 words, AI likelihood 0.39), 07:26:23, [check](https://www.pangram.com/history/d2640e02-2ed1-4fa1-ac11-3947ee09797f) |
+| S16v11ka | Mixed | v10's H2 | **Mixed** (AI Detected; windows: Human, High, 286; AI-Generated, High, 126; Human, High, 214; AI-Generated, High, 141; Human, High, 77, 844 words, AI likelihood 0.47), 07:26:33, [check](https://www.pangram.com/history/0980e005-a380-4c37-adce-30c6649380ee) |

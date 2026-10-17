@@ -1,0 +1,219 @@
+{
+ "S15v2-H1-P1+P2": [
+  "Human Written",
+  0.01,
+  73,
+  "Human, Low, 73",
+  "03:05:11",
+  "/b4cc44be-5a33-44fd-96fb-71fae4e03b97",
+  []
+ ],
+ "S15v2-H1-P3": [
+  "Human Written",
+  0.31,
+  57,
+  "Human, Low, 57",
+  "03:05:22",
+  "/7a09e62a-6a62-4f21-8c15-6c4b14e1cf3f",
+  []
+ ],
+ "S15v2-H1-P4": [
+  "AI Generated",
+  0.99,
+  65,
+  "AI-Generated, Low, 65",
+  "03:05:33",
+  "/15d5e4a5-3566-4637-bb21-83c126acae96",
+  [
+   "AI-Generated (65 words)"
+  ]
+ ],
+ "S15v2-H1-P5": [
+  "Human Written",
+  0.0,
+  53,
+  "Human, Low, 53",
+  "03:05:43",
+  "/30ac80f0-d4e3-4e06-9afc-78a6fedf849a",
+  []
+ ],
+ "S15v2-H2-P1+P2": [
+  "AI Detected",
+  0.42,
+  134,
+  "Human, Medium, 51; AI-Generated, Medium, 38; Human, Medium, 45",
+  "03:05:54",
+  "/3e196978-04b5-4d9f-9210-81ffa3e8f059",
+  [
+   "AI-Generated (38 words)"
+  ]
+ ],
+ "S15v2-H2-P2": [
+  "Human Written",
+  0.19,
+  108,
+  "Human, Medium, 108",
+  "03:06:04",
+  "/9aa4103a-4525-4a49-9769-074ee2161ecd",
+  []
+ ],
+ "S15v2-H2-P3+P4": [
+  "AI Generated",
+  0.99,
+  85,
+  "AI-Generated, Low, 85",
+  "03:06:15",
+  "/69a98b50-ace2-40bb-bafc-a888915f136b",
+  [
+   "AI-Generated (85 words)"
+  ]
+ ],
+ "S15v2-H2-P5+P6": [
+  "Human Written",
+  0.02,
+  60,
+  "Human, Low, 60",
+  "03:06:25",
+  "/0606afd7-b4a9-4d4a-a6b6-0666fed15cd0",
+  []
+ ],
+ "S15v2-H2-P7": [
+  "Human Written",
+  0.0,
+  57,
+  "Human, Low, 57",
+  "03:06:36",
+  "/a843ef52-ff72-4234-bac9-d048df6eb247",
+  []
+ ],
+ "S15v2-H3-P1": [
+  "AI Generated",
+  1.0,
+  95,
+  "AI-Generated, Low, 95",
+  "03:06:46",
+  "/f5d3d34e-d3d2-458e-ae4c-97e97d7fc76a",
+  [
+   "AI-Generated (95 words)"
+  ]
+ ],
+ "S15v2-H3-P2": [
+  "AI Generated",
+  0.95,
+  119,
+  "AI-Generated, Medium, 119",
+  "03:06:57",
+  "/27d09e73-435a-4054-82c6-52af6a4bebb8",
+  [
+   "AI-Generated (119 words)"
+  ]
+ ],
+ "S15v2-H3-P3": [
+  "AI Generated",
+  0.5,
+  86,
+  "AI-Generated, Low, 86",
+  "03:07:07",
+  "/db7d4952-7a93-40a5-ad2e-eb29cc814bfe",
+  [
+   "AI-Generated (86 words)"
+  ]
+ ],
+ "S15v2-H3-P4": [
+  "AI Generated",
+  0.64,
+  122,
+  "AI-Generated, Medium, 122",
+  "03:07:18",
+  "/e2b04fb6-50b4-4f8d-b645-59fa8c1a3c8e",
+  [
+   "AI-Generated (122 words)"
+  ]
+ ],
+ "S15v2-H3-P5": [
+  "AI Generated",
+  0.6,
+  68,
+  "AI-Generated, Low, 68",
+  "03:07:29",
+  "/29d11df9-2a4d-4dcf-8aeb-9413099ef371",
+  [
+   "AI-Generated (68 words)"
+  ]
+ ],
+ "S15v2-H3-P6": [
+  "Human Written",
+  0.02,
+  62,
+  "Human, Low, 62",
+  "03:07:39",
+  "/a33242d1-8f25-4c35-bef5-b5fb99b568a4",
+  []
+ ],
+ "S15v2-H3-P7": [
+  "AI Generated",
+  0.59,
+  66,
+  "AI-Generated, Low, 66",
+  "03:07:49",
+  "/e98c81cb-b886-4016-b580-671dde99846b",
+  [
+   "AI-Generated (66 words)"
+  ]
+ ],
+ "S15v2-H3-P8": [
+  "Human Written",
+  0.26,
+  80,
+  "Human, Low, 80",
+  "03:08:00",
+  "/43082dcc-dd0f-4868-b39c-e427f916452f",
+  []
+ ],
+ "S15v2-H1": [
+  "AI Detected",
+  0.34,
+  254,
+  "Human, High, 168; AI-Generated, High, 33; Human, High, 53",
+  "03:08:11",
+  "/7d9018c6-0801-42bb-b0ba-ecf1536eef00",
+  [
+   "AI-Generated (33 words)"
+  ]
+ ],
+ "S15v2-H2": [
+  "AI Detected",
+  0.56,
+  342,
+  "AI-Generated, High, 190; Human, High, 77; AI-Generated, High, 75",
+  "03:08:21",
+  "/bb201de7-6ea6-478a-8789-0f55b30489cb",
+  [
+   "AI-Generated (190 words)",
+   "AI-Generated (75 words)"
+  ]
+ ],
+ "S15v2-H3": [
+  "AI Detected",
+  0.81,
+  703,
+  "AI-Generated, High, 646; Human, Medium, 57",
+  "03:08:35",
+  "/2363a5c6-0532-44e4-9c82-099d022ab2c6",
+  [
+   "AI-Generated (646 words)"
+  ]
+ ],
+ "S15v2": [
+  "AI Detected",
+  0.56,
+  1327,
+  "Human, High, 298; AI-Generated, High, 174; Human, High, 95; AI-Generated, High, 680; Human, Medium, 80",
+  "03:08:42",
+  "/6be55565-2241-493d-819b-cadf2b3e4d67",
+  [
+   "AI-Generated (174 words)",
+   "AI-Generated (680 words)"
+  ]
+ ]
+}

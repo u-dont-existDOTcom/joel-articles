@@ -1,0 +1,75 @@
+{
+ "S16v11-H3-P5-P7": [
+  "Human Written",
+  0.07,
+  107,
+  "Human, Medium, 107",
+  "07:51:43",
+  "/c69f5788-46e2-4bf9-b137-ad8726592a61",
+  []
+ ],
+ "S16v11-H2-P3-P5": [
+  "AI Detected",
+  0.48,
+  154,
+  "Human, High, 36; AI-Generated, High, 87; Human, High, 31",
+  "07:51:33",
+  "/1cc270f9-c4c3-4ed0-9342-65c39c8b8fb3",
+  [
+   "AI-Generated (87 words): None of that has to wait for a deed! / Even if a group practices together every week for two years, it may never own land. So w ..."
+  ]
+ ],
+ "S16v11-cap+H2-P2-P4": [
+  "AI Detected",
+  0.5,
+  123,
+  "Human, Medium, 52; AI-Generated, Medium, 71",
+  "07:51:23",
+  "/7b384c69-bc06-4cf1-baf3-945c71ad1a73",
+  [
+   "AI-Generated (71 words): Peer counseling only requires two people and a place to talk privately. Reparenting, somatic work, working on jealousy, learn ..."
+  ]
+ ],
+ "S16v10-H3-P5-P7": [
+  "Human Written",
+  0.09,
+  101,
+  "Human, Medium, 101",
+  "07:51:12",
+  "/0205e65e-38f9-454b-ad0b-0109c2cd4cde",
+  []
+ ],
+ "S16v10-H3-P4-P6": [
+  "AI Generated",
+  0.83,
+  128,
+  "AI-Generated, Medium, 128",
+  "07:51:01",
+  "/419cad89-0658-499e-a390-59e096e79f0f",
+  [
+   "AI-Generated (128 words): (the whole stretch)"
+  ]
+ ],
+ "S16v10-H2-P3-P5": [
+  "AI Generated",
+  0.77,
+  147,
+  "AI-Generated, Medium, 147",
+  "07:50:51",
+  "/e236da66-59ee-4a8b-ae34-7e9b16e9e821",
+  [
+   "AI-Generated (147 words): (the whole stretch)"
+  ]
+ ],
+ "S16v10-cap+H2-P2-P4": [
+  "AI Generated",
+  0.92,
+  115,
+  "AI-Generated, Medium, 115",
+  "07:50:40",
+  "/5473ebfd-caa4-422e-a5b2-73a357e70ba7",
+  [
+   "AI-Generated (115 words): (the whole stretch)"
+  ]
+ ]
+}

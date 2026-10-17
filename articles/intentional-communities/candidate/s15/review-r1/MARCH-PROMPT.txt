@@ -1,0 +1,50 @@
+Below are 20 paragraphs from a blog article about building intentional communities, each one on its own, with its sentences numbered.
+
+Label every numbered sentence of every paragraph S (STEP) or B (BREAK):
+- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.
+- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said ("Or put it in your own words."); a pause, waiting, or a permission ("If it doesn't come, that's okay for today."); stopping to consider what something might feel like or be like ("It might be more of a mood. Sadness, maybe."); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.
+Judge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.
+
+Don't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:
+T1: S S B S S
+T2: S B S B
+
+T1: [1] I live in Sénégal, where "intentional community" often sounds like a strange Western phrase. [2] Don't human beings already do that?
+
+T2: [1] Sénégal is unlike anywhere else I've lived. [2] Five times a day the prayers pour out into the streets, and I find them so soothing. [3] And Sufism doesn't stay inside designated "spiritual" places here. [4] It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
+
+T3: [1] And the humor! [2] People are outside laughing for hours at a time. [3] It's the most joking culture I've ever been in, and I keep wondering if I'll ever understand the really complicated jokes in Wolof. [4] Basic conversation is one thing. [5] But knowing why twelve people are suddenly crying with laughter? [6] That's graduate school.
+
+T4: [1] In the villages and families I've spent time around, a lot of what we're trying to "re-invent" with intentional community is just done. [2] Land, childcare, housing, food, obligations, etc. all go through the extended family and local memory, alongside the formal systems. [3] Nobody has to announce a workshop called "Rebuilding Intergenerational Belonging." [4] An aunt has already given three people a task.
+
+T5: [1] Even in Dakar, I see things like this spray painted on walls: "Tolerance! [2] Openness! [3] Union! [4] Happiness! [5] Love!" [6] And elsewhere there are murals of Sufi leaders. [7] Spiritual graffiti still surprises me! [8] Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis.
+
+T6: [1] Not that Sénégal is some communal paradise that survived! [2] The warmth has hard limits, and for LGBTQ+ people who cross them, it can be brutal.
+
+T7: [1] In March 2026, Sénégal passed [Law No. [2] 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/), which raised the penalty for consensual same-sex intimacy to five to ten years in prison. [3] It also makes public "apology" for homosexuality a crime, and certain financing or support meant to promote it. [4] And that's on top of the arrests, rejection by family, harassment, assault and mob violence that were already happening. [5] Some people say that once homosexuals are arrested they're actually protected in jail, because the mob can't get at them. [6] I'm not going to praise communal belonging while ignoring the people who survive it by hiding who they are, or by leaving.
+
+T8: [1] So yes, a society can be spiritually alive, generous, funny and super communal. [2] It can also be cruel to people who break its categories. [3] Community isn't automatically freeing, then. [4] It depends on who gets to belong without having to pretend.
+
+T9: [1] The forgiving social culture has its shadows too. [2] People avoid confrontation so much that everybody knows who stole the sheep, and nobody wants to make a stink by saying it out loud.
+
+T10: [1] Where I live, neighbors steal our moringa pods every morning. [2] Every morning! [3] They could plant a moringa tree in their own yard. [4] Apparently maintaining this relationship with ours is more entertaining. 😂
+
+T11: [1] Everybody raises sheep here, including me, and they are extremely cute. [2] The music, animals, joking, prayer, and constant presence of other people can make life feel like another world.
+
+T12: [1] But the old communal ways are changing too. [2] The young people are heading for the cities, for jobs, phones, imported food, the wider world (and some of the men take the dangerous sea route to Europe). [3] Families that used to share nearly everything end up depending more on cash, and on individual opportunity.
+
+T13: [1] One strange leftover of the old communal system is what people call the "Black Tax." [2] If you make any money at all, you're expected to support your parents, your siblings, school fees, medical bills, funerals, whoever else the family's carrying. [3] I understand the instinct, though. [4] In the ancestral way of doing things, nobody made it alone. [5] The people who fed you, raised you, housed you and protected you had a real claim on whatever you made of yourself later. [6] So sharing was how the whole organism survived. [7] Nobody thought of it as charity.
+
+T14: [1] Today it can be soul destroying, because the obligation is still there but most of the communal life that held it up is gone. [2] People don't share the land, the work, the childcare, the food and the daily belonging the way they did, but whoever earns the cash can still be expected to carry everybody. [3] They can hardly build any independence or long-term stability. [4] And the relatives who get the money stay dependent, because the payments don't give them any real alternative. [5] The ancestral ethic is still alive, just inside an individualistic cash economy now. [6] It keeps people alive, and it eats away at both sides while it does.
+
+T15: [1] It's also the boundary problem any money-free commune runs into. [2] Life inside can go without cash, but taxes, hospitals, visas, school fees, family obligations, imported tools, etc. all still come with a price in money. [3] And no, that doesn't mean bringing individual wages back inside! [4] It means somebody has to handle all that, and the group has to decide how much shared cash to keep for it. [5] And how do you stop access to outside money from turning into a new status hierarchy?
+
+T16: [1] Outside work complicates that boundary too, and it starts before there's a common purse. [2] Cash is only part of what it brings in. [3] There's another schedule, another status system and social world, other loyalties, and often new habits of consumption. [4] In the first stage, whoever works outside gives the commune an agreed share, but the money can't buy them out of doing their share of the communal work, or buy extra political authority. [5] And the group has to watch for outside jobs draining the people and skills it needs to build shared livelihoods. [6] Otherwise the commune stays a dormitory for the cash economy, and the common purse never happens.
+
+T17: [1] Zapatista communities ran into a version of this with migration. [2] Some of them used to try to stop their young people from leaving, and now they negotiate with them instead: migrants can work elsewhere as long as they keep defined obligations to the community. [3] The pull between leaving and belonging didn't go away. [4] But now it's something the community can name and negotiate.
+
+T18: [1] Westerners often start out isolated and try to rebuild a tribe. [2] A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. [3] And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
+
+T19: [1] So this is a global conversation. [2] It's way bigger than some Western lifestyle niche. [3] There's knowledge in the living villages that no book can give you. [4] But they're people, not exhibits! [5] If you go, be respectful, and be ready to contribute and learn the language. [6] Just don't show up expecting a spiritual service package.
+
+T20: [1] Oh, and a practical note: getting my residency here was pretty cheap and straightforward. [2] French and Wolof matter a lot more than English. [3] And the country's famous ideal of Teranga (hospitality) is real in my life. [4] I'm staying in a friend's family's house, and they won't let me pay rent! [5] Of course that generosity lives right alongside watchfulness, social conservatism, bureaucracy and all the usual complications of a real country.

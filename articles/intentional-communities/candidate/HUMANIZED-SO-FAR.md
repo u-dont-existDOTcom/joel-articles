@@ -1,3 +1,4 @@
+<!-- CANDIDATE: section 1 (2026-10-17): "That's the sort of thing that doesn't make it into the history books." for "It's the sort of thing ..." (the sweep of Joel's 13:11 "this is not the same as it"; the published sentence is "These are the questions history books neglect."). Human alone and with the paragraph before (410g), the whole section 100% Human (412g). Records: fix-20261017/. -->
 [image 1](https://substackcdn.com/image/fetch/$s_!OKIC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bc9c45d-5a42-47a4-8880-e9981386f886_1536x1024.png)
 
 # The New Age May Dawn Suddenly
@@ -30,7 +31,7 @@ We spent a lot of time on our knees in the community garden growing food they co
 
 My father eventually gave the community his airplane. They sold it instead of using it. He felt tricked, began exposing what was happening, and then we were asked to leave.
 
-The [East Wind](http://eastwind.org/) commune was almost the opposite way. There were maybe eighty people when I was there, enough to have a variety of personalities, small enough to actually make friends. I was happy there. I especially liked showering in a communal shower with both sexes present. I wonder if that still goes on at East Wind? It's the sort of thing that doesn't make it into the history books.
+The [East Wind](http://eastwind.org/) commune was almost the opposite way. There were maybe eighty people when I was there, enough to have a variety of personalities, small enough to actually make friends. I was happy there. I especially liked showering in a communal shower with both sexes present. I wonder if that still goes on at East Wind? That's the sort of thing that doesn't make it into the history books.
 
 Even at East Wind, though, there was a quieter power issue. They had a nut butter factory that brought in a lot of their income, which seemed to make the woman running it very hard to question. Otherwise I thought the community had a great social life, a nice way of distributing labor, and no obvious guru.
 
@@ -110,7 +111,7 @@ The deeper problem is that somebody who's earned authority in one role can use i
 
 I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
-<!-- CANDIDATE: section 4 v11.3 (2026-10-15 11:04): v11.2 with Joel's reparenting paragraph and the three-sentence paragraph after it, as he wrote them ("27: this passes"; joel-20261015/), the links kept on the same words. Pangram: fix-20261015b/PREDICTIONS.md. Before: section 4 v11.2 (2026-10-14 21:19): v11.1 with "If one of the four gets skipped" (Joel's 24, "p10 agree") and without "and don't freeze into doctrine" (his 26, "sect 4: yes"). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 4 v11.1 (2026-10-14): v11 with "And inner pl/ork is built on" for "And it's built on" (Joel's I1 answer, 2026-10-14: the "it" is unclear; inner pl/ork is the subsection's subject, and the stance check found "reparenting" there pulling against section 5's "Reparenting, somatic capacity, and peer counseling come first"); Pangram results in fix-20261014/RESULTS.md. v11 (2026-10-13): Joel's final section from his message of 2026-10-13 21:00 UTC ("here is the final section (human on pangram)"), as written; obvious typos fixed (otther, "heal. and", "3:", double spaces); in his P8 the published words that came along from the side-by-side page's struck text taken out (his own 2026-10-02 cut, ledger s4-p13); links, italics and the two images back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 4 v11.4 (2026-10-17, after Joel's 13:11 message): v11.3 with his answer to question 39 after the container line ("It's the practical logistical foundation that gets built once the architects can work well together."; his "I'd say" dropped). Human with either neighbor (410g), the whole section 100% Human (412g). Records: fix-20261017/. Before: CANDIDATE: section 4 v11.3 (2026-10-15 11:04): v11.2 with Joel's reparenting paragraph and the three-sentence paragraph after it, as he wrote them ("27: this passes"; joel-20261015/), the links kept on the same words. Pangram: fix-20261015b/PREDICTIONS.md. Before: section 4 v11.2 (2026-10-14 21:19): v11.1 with "If one of the four gets skipped" (Joel's 24, "p10 agree") and without "and don't freeze into doctrine" (his 26, "sect 4: yes"). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 4 v11.1 (2026-10-14): v11 with "And inner pl/ork is built on" for "And it's built on" (Joel's I1 answer, 2026-10-14: the "it" is unclear; inner pl/ork is the subsection's subject, and the stance check found "reparenting" there pulling against section 5's "Reparenting, somatic capacity, and peer counseling come first"); Pangram results in fix-20261014/RESULTS.md. v11 (2026-10-13): Joel's final section from his message of 2026-10-13 21:00 UTC ("here is the final section (human on pangram)"), as written; obvious typos fixed (otther, "heal. and", "3:", double spaces); in his P8 the published words that came along from the side-by-side page's struck text taken out (his own 2026-10-02 cut, ledger s4-p13); links, italics and the two images back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 
 # The Four Parts That Have to Pl/ork Together
 
@@ -178,7 +179,7 @@ These are less exciting topics to discuss spiritually. It's rare to see someone 
 
 But no amount of gorgeous land will make up for the mess that is created when one person owns the land or has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement.
 
-The first three parts are the inside of the container, and this container is what gives those a stable place to manifest.
+The first three parts are the inside of the container, and this container is what gives those a stable place to manifest. It's the practical logistical foundation that gets built once the architects can work well together.
 
 If one of the four gets skipped, it will need to be dealt with eventually, at high stress, usually after the group has invested land, labor, or other resources and everyone has an opinion on how things should be.
 
@@ -316,7 +317,7 @@ The non-negotiable for me is that jealousy not be allowed to become the hidden g
 
 There are some ways the group can help, and basic boundaries the group can enforce, without deciding what type of relationships people have. Even so, there will still be disagreements about this. That's more realistic than saying it's all been resolved.
 
-<!-- CANDIDATE: section 8 v29 (2026-10-14): v28 with P18's last sentence back to mine of v22 with his "what happened" (Joel's F10 answer, 2026-10-14: "Fix it (revert to yours)"), and five fixes for flags two or more cold reads raised: "the usual promo video", the Ye'kuana and the Island Pond raid explained (sources in fix-20261014/SOURCES.md), "When adults panic like that, kids can lose all those grownups", "A surprise has an end date." 277g: every changed paragraph Human alone and the section 100% Human (1,841 words), on the first try. Records: fix-20261014/RESULTS.md. v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 8 v30 (2026-10-17): v29 with "quietly" out of "Older kids can't be allowed to quietly boss the younger ones around there." (the sweep of Joel's 13:11 "remove "quietly" that's an ai tell"). Human with either neighbor (410g), the whole section 100% Human (412g). Records: fix-20261017/. Before: CANDIDATE: section 8 v29 (2026-10-14): v28 with P18's last sentence back to mine of v22 with his "what happened" (Joel's F10 answer, 2026-10-14: "Fix it (revert to yours)"), and five fixes for flags two or more cold reads raised: "the usual promo video", the Ye'kuana and the Island Pond raid explained (sources in fix-20261014/SOURCES.md), "When adults panic like that, kids can lose all those grownups", "A surprise has an end date." 277g: every changed paragraph Human alone and the section 100% Human (1,841 words), on the first try. Records: fix-20261014/RESULTS.md. v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
 # The Grown Children Get the Final Review
 
 Couples who live together, share the same culture and even the same bed still disagree about screens, vaccinations, [schooling](https://www.instagram.com/p/DcDGotaFCeZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), religion, food, discipline and medical care. And that's just two people. Now think of twenty adults, all with different childhoods.
@@ -359,7 +360,7 @@ Kids also need their own territory, places where they can create their own socie
 
 I got a taste of that at a Unitarian youth camp, and it's still one of the freest memories I have. ZEGG's *Kinderhaus* works from a similar intuition. Adults take care of safety on the outside, but kids still get a world of their own.
 
-This could be badly misunderstood, so the safeguards need to be explicit. The adults still have to pay attention to what goes on in a children's territory. Older kids can't be allowed to quietly boss the younger ones around there. And keeping secrets can't be treated as independence.
+This could be badly misunderstood, so the safeguards need to be explicit. The adults still have to pay attention to what goes on in a children's territory. Older kids can't be allowed to boss the younger ones around there. And keeping secrets can't be treated as independence.
 
 I also reject the suburban panic that treats every warm relationship between a child and an unrelated adult as suspicious. It's good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something's wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse.
 
@@ -436,7 +437,7 @@ As part of [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-
 
 [Sociocracy](https://www.sociocracyforall.org/sociocracy/) has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there's a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
 
-<!-- CANDIDATE: section 10 v4 (2026-10-15 09:33): v3 with "Whenever a community or a federation creates or applies a rule" (Joel's 28 b; both cold reads of v3 had found the paragraph a jump from the federation paragraphs). Pangram 285g: the paragraph Human alone, the section 100% Human (fix-20261015/PREDICTIONS.md). Before: section 10 v3 (2026-10-14 21:19): v2 with Joel's last paragraph of 21:19 UTC, as written ("this version is clearer and passes"). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 10 v2 (2026-10-10), Joel's changes of 12:22 UTC in: P3+P4 without "boring" and without "I don't want one super-commune with a nicer logo.", P6 "slide into" for "quietly turn into" (trace H OK), and his heading "Federated Communities Make a Movement" (his 13:00 answer, after grounding f1 and stance f1 flagged "Improve Resilience"). Pangram web app (the final test): the section 100% Human (731 words scanned, 13:04:52 UTC, batch 200g); P3+P4 and P6 pass alone, the heading with P3+P4 and P2 across it pass. Records are in the lane's section 10 folder. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 10 v5 (2026-10-17 02:07): v4 with "(with private details protected)" after "store the full case history" in the last paragraph (Joel's 36 a; joel-20261017/). Pangram 320g: the paragraph Human alone (0.10), the section 100% Human, high (0.06, https://www.pangram.com/history/a20d6f1a-66a7-41c6-9468-1524d6578d72). Before: section 10 v4 (2026-10-15 09:33): v3 with "Whenever a community or a federation creates or applies a rule" (Joel's 28 b; both cold reads of v3 had found the paragraph a jump from the federation paragraphs). Pangram 285g: the paragraph Human alone, the section 100% Human (fix-20261015/PREDICTIONS.md). Before: section 10 v3 (2026-10-14 21:19): v2 with Joel's last paragraph of 21:19 UTC, as written ("this version is clearer and passes"). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 10 v2 (2026-10-10), Joel's changes of 12:22 UTC in: P3+P4 without "boring" and without "I don't want one super-commune with a nicer logo.", P6 "slide into" for "quietly turn into" (trace H OK), and his heading "Federated Communities Make a Movement" (his 13:00 answer, after grounding f1 and stance f1 flagged "Improve Resilience"). Pangram web app (the final test): the section 100% Human (731 words scanned, 13:04:52 UTC, batch 200g); P3+P4 and P6 pass alone, the heading with P3+P4 and P2 across it pass. Records are in the lane's section 10 folder. Not accepted until Joel says so. -->
 # From One Community to a Movement
 
 ## Experiment Before You Divorce
@@ -455,7 +456,7 @@ Cooperation also shouldn't slide into assimilation. The FEC has full members and
 
 Even if nobody uses money internally, communities still need the same honesty about exchanges and obligations. A gift of food, pooled medicine, a vehicle or a tool on loan, trades of labor, emergency housing, a shared building project, a visit that's mainly for training or relationship building: they're all different events, and some of them create future obligations while others don't. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be "even". If cash is used for transactions with the outside world, grants and loans need to be kept separate the same way, and so do guarantees and shared enterprise commitments. Solidarity doesn't mean every community is liable for whatever the others owe, and it doesn't mean anyone has an unlimited claim on another community's labor and stores, or its land and tools.
 
-Whenever a community or a federation creates or applies a rule, it's best practice to store the full case history so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch.
+Whenever a community or a federation creates or applies a rule, it's best practice to store the full case history (with private details protected) so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch.
 
 <!-- 2026-10-12: section 11 v13 = v12 with P5c ("If every change they make still needs the founder's “blessing”"; the published "every" and "still" back, found by the sweep in sweep-20261012/). The section 100% Human (1,686 words, 07:46:55 UTC, batch 267g), P5c with P4 100% Human (268g); s11/PREDICTIONS-s11.md. -->
 <!-- CANDIDATE: section 11 v15 (2026-10-14 21:19): Joel's own text of the first subsection, through "Friends who come to visit", as he pasted it at 21:19 UTC ("i fixed it, pasted.passes pangram"): his P2 definition, P3 and P4, my P6 lead-in ("ok good use yours"), P8's "the people who review the founder" ("agree"); and R15 without its "living balance" sentence (his 26). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 11 v14 (2026-10-14): v13 with P9's "no real way ... no matter how many meetings it holds" and P10's "the daily signs of founderism". 277g and 282g: both Human alone, the section 100% Human (1,690 words) on the fourth section try. The fixes for P2 (a definition of founderism), P4 and P6 are out: each moved an AI window onto P4's questions in the section (277g, 280g, 281g, 282g); they are questions for Joel. Records: fix-20261014/RESULTS.md. Before: section 11 v13 (2026-10-12): v12 with P5's "every" and "still" back ("If every change they make still needs the founder's “blessing”", found by the meaning sweep), 100% Human as a section, batch 267g. v12: Joel's answers of 2026-10-11 23:12 UTC fitted into his paragraphs under his 18:35 rule (an answer in chat is content, fitted in context, changes shown): J3b names the divorce half; J4 his answer on terms for visiting friends; R14c his answer on private practices, with "some practices go too far against the communal spirit" from a cold read's "no principle"; R16c and R16d his answer on members who don't fit in; R18b his grandmother case. Pangram web app: the section 100% Human (1,682 words scanned, 00:00:52 UTC, batch 233g); every changed paragraph 100% Human alone and in its run. Gate round a6. Records are in the lane's section 11 folder. Not accepted until Joel says so. -->
@@ -517,12 +518,15 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
-<!-- CANDIDATE: section 12 v13 (2026-10-14): v12 with Joel's P2 and P3 from his W1 answer of 2026-10-14 03:04 UTC ("i prefer this version"), as written; Pangram results in fix-20261014/RESULTS.md. v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 12 v14 (2026-10-17, after Joel's 13:11 message): v13 with the PsyPost study he sent at the end of his P2 (his link, his "no, duh") and his screenshot after it as an image note; question 44 asks him about the placement. P2 Human alone and with P3 (411g), the whole section 100% Human (411g). Records: fix-20261017/ (march r3, cold reads SENSE-s12*.md, the study check SOURCE-s12.md, the stance check STANCE-s12.md). Before: CANDIDATE: section 12 v13 (2026-10-14): v12 with Joel's P2 and P3 from his W1 answer of 2026-10-14 03:04 UTC ("i prefer this version"), as written; Pangram results in fix-20261014/RESULTS.md. v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
 
-This doesn't surprise me, since we're taught to put on a show of competence in modern society. We're given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got.
+This doesn't surprise me, since we're taught to put on a show of competence in modern society. We're given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got. A [new study](https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/) found that where relationships are easy to make and break, people even feel less on the same page with whoever doesn't help them reach their goals. Kind of a "no, duh" study, but still.
+
+<!-- IMAGE https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/d8252275008b83064aa2ed7d89b183898097c262/articles/intentional-communities/candidate/images/psypost-relational-mobility.png : a screenshot of the opening of PsyPost's write-up of the study: new research suggests that the culture or social setting we live in shapes whose version of the world we adopt, and that where relationships are easily formed and broken, people line up their worldviews more selectively with the people who help them reach their goals; published in Social Psychological and Personality Science. -->
+<!-- The screenshot is Joel's, sent 2026-10-17 13:11 (candidate/images/psypost-relational-mobility.png); the Substack image goes in when he uploads it. -->
 
 So then a lot of people end up thinking they aren't "good enough" for community, or getting labeled by others that way. And there's a real issue there, but it's more about what fits where & when than good or bad. The community needs to consider how much attention the newcomer currently has available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.
 
@@ -560,7 +564,7 @@ You’re not willing to look at yourself when jealousy or conflict comes up.
 
 Any humane membership process should have ways of not flat-out rejecting people who fall into these categories, or anyone else it can’t take right now, like saying “later,” or “in another role,” or “with more support.”
 
-<!-- CANDIDATE: section 13 v34 (2026-10-17): v31 with Joel's "if the community uses them" back (his 23:38 answer), the short visit's punchline replaced (the one paragraph that read AI alone, 312g), the book line pointing to the book for its nuts and bolts instead of its order (his 23:38 answer), the dedup he asked for, round r21's trace fixes and seven plainer phrases from the pause tally (s13/make_v32.py), the two repeats a reader would most notice cut (s13/make_v33.py), and the values subsection's last four paragraphs from Emulate round k with the meaning put back, after 316g read them AI inside the whole section, plus three trace fixes (s13/make_v34.py). Records: s13/review-r1 to review-r24b with their DISPOSITIONS files; key-word check PASS (s13/preservation-keys.json); lint REVIEW. Pangram web app: every paragraph Human alone (312g to 318g; tools/humanization/paragraphs_alone.py PASS) and the whole section Human (317g). Not accepted until Joel says so. -->
+<!-- ACCEPTED: section 13 v34 (2026-10-17): accepted by Joel at 02:07 UTC ("accept 13 and 14."), keeping both his removal sentence and section 8's (35 b). Before acceptance: v31 with Joel's "if the community uses them" back (his 23:38 answer), the short visit's punchline replaced (the one paragraph that read AI alone, 312g), the book line pointing to the book for its nuts and bolts instead of its order (his 23:38 answer), the dedup he asked for, round r21's trace fixes and seven plainer phrases from the pause tally (s13/make_v32.py), the two repeats a reader would most notice cut (s13/make_v33.py), and the values subsection's last four paragraphs from Emulate round k with the meaning put back, after 316g read them AI inside the whole section, plus three trace fixes (s13/make_v34.py). Records: s13/review-r1 to review-r24b with their DISPOSITIONS files; key-word check PASS (s13/preservation-keys.json); lint REVIEW. Pangram web app: every paragraph Human alone (312g to 318g; tools/humanization/paragraphs_alone.py PASS) and the whole section Human (317g). -->
 # Your Little Forming Group Already Is the Community
 
 Don't worry about getting land yet. If you've got a small handful of people who want to make a community but aren't sure yet, you are already a community, even if it's still an untested one. It may sound cheesy, but it's true all the same.
@@ -625,14 +629,14 @@ Note that "outside" doesn't have to mean the nation-state. [My research](https:/
 
 Also decide on a mediator or ombudsperson in advance. Why bother? People often won't trust someone they haven't already met, who comes in during a crisis as a "neutral stranger." A mediator doesn't obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good relations between people. When people can't or won't consent to being in community any more, they still need a final separation.
 
-<!-- CANDIDATE: section 14 v8 (2026-10-17): v5 deduplicated at Joel's word (2026-10-16 23:38 UTC): the last paragraph's point in P5, P2 kept as in v5 after two shorter versions read AI alone (313g, 315g), and "The Farm's communal economy" (a repeated pause) (s14/make_v6.py to make_v8.py). Records: s14/review-r1 to review-r6 with their DISPOSITIONS files; key-word check PASS; lint REVIEW. Pangram web app: every paragraph Human alone (305g-x, 315g; tools/humanization/paragraphs_alone.py PASS) and the whole section Human (316g). Not accepted until Joel says so. -->
+<!-- ACCEPTED: section 14 v9 (2026-10-17): accepted by Joel at 02:07 UTC ("accept 13 and 14."), with his P2 of the same message (38 b: the repeated bridging question cut; s14/make_v9.py). Pangram 319g: his P2 Human alone (0.01), the section 100% Human, high (0.15, https://www.pangram.com/history/ecdae74f-2cb1-47fe-97b4-86f5aff0a620). Before: section 14 v8 (2026-10-17): v5 deduplicated at his word; every paragraph Human alone (305g-x, 315g). Records: s14/review-r1 to review-r6, batches b300 to b306, b313, b315, b319, and s13/b316. -->
 # Dissolution and Exit
 
 [image 18](https://substackcdn.com/image/fetch/$s_!9Q3c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd2a051-9ac5-4630-868b-5a37226707f9_1536x1024.png)
 
 Dissolution is something founders rarely want to talk about while they’re picking a name for their community and looking forward to its first harvest. Who would? But that’s exactly when it needs to be talked about.
 
-If the community dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens to each member’s agreed rights? More immediately, who is responsible for ensuring that everyone has a place to live and food to eat? Who takes responsibility for making sure people get their medications and the other care they need? Who keeps childcare going, and makes sure the kids’ schooling carries on? Who takes responsibility for bridging people’s food, housing and care, and any outside cash or benefits, if relevant? Who takes responsibility for transportation, for the records, for family contact, for the animals, for making sure land obligations are met, and for any unresolved claims? That’s a lot of loose ends!
+If the community dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens to each member’s agreed rights? More immediately, who is responsible for ensuring that everyone has a place to live and food to eat? Who takes responsibility for making sure people get their medications and the other care they need? Who keeps childcare going, and makes sure the kids’ schooling carries on? Who takes responsibility for transportation, for the records, for family contact, for the animals, for making sure land obligations are met, and for any unresolved claims? That’s a lot of loose ends!
 
 Think of it like a living will, and assign a bridge or successor for each critical function in advance, so basic life doesn’t depend on reviving the commune. The institution may not be salvageable, but who’s making breakfast tomorrow?
 
@@ -642,21 +646,22 @@ Institutions and relationships don’t die at the same time, and some of what pe
 
 My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).
 
+<!-- CANDIDATE: section 15 v13 (2026-10-17, after Joel's 13:11 message): v12 with his three corrections (H2-P2: "public advocacy for homosexuality", without quotes, for the law's French "apologie", and the financing clause he called redundant cut; H3-P3: "This is also" for "It's also"; H3-P5: his "I understand the motivation to negotiate like that, but I think it's not a full solution either." for the "I like that." I had added) and H1-P3's "This is the most joking culture" (the sweep of his "this" rule). Each changed paragraph Human alone (410g), the whole section 100% Human (412g); key words PASS; his 40 a keeps H1-P4. Records: s15/make_v13.py, fix-20261017/. Before: CANDIDATE: section 15 v12 (2026-10-17, the overnight run): Emulate rounds a to e (s15/emu-a to emu-e) with the published meaning put back (s15/make_v1.py to make_v12.py), meaning rounds r1 to r8 with their DISPOSITIONS files, key-word check PASS, lint REVIEW. Pangram web app: every paragraph Human alone (322g to 335g; tools/humanization/paragraphs_alone.py PASS) and the whole section 100% Human (338g). H1-P4 is round d's shape c ("so much is taken care of by"), the only one of eleven that reads Human alone; trace r7 called it a shift from the published "often pass through", so it is question 40 for Joel. Not accepted until Joel says so. -->
 # What This Looks Like From Sénégal
 
 [image 19](https://substackcdn.com/image/fetch/$s_!Uv0z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7db4e048-c31e-445c-9d1d-5c4f48de86ab_340x339.jpeg)
 
 [caption] The “African Renaissance Monument” in Dakar, Sénégal, which stands at 160 feet tall and took 4 years to build.
 
-I live in Sénégal, where “intentional community” often sounds like a strange Western phrase for something people assume human beings already do.
+I live in Sénégal, where "intentional community" often sounds like a strange Western phrase. People here are like, "Don't human beings already do that?"
 
-This country feels unlike anywhere else I’ve lived. Five times a day, devotional prayers pour into the streets. I find them deeply soothing. Sufi spirituality appears in music, public images, murals, names, and ordinary conversation rather than remaining inside designated spiritual spaces.
+Sénégal is unlike anywhere else I've lived. Five times a day the prayers pour out into the streets. I find them so soothing! And Sufism doesn't stay inside designated "spiritual" places here. It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
 
-I also hear people laughing outside for hours. This is the most intensely joking culture I’ve encountered, and I keep wondering whether I’ll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. Knowing why twelve people are suddenly crying with laughter is graduate school.
+And the humor! People are outside laughing for hours at a time. This is the most joking culture I've ever been in, and I keep wondering if I'll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. But knowing why twelve people are suddenly crying with laughter? That's graduate school.
 
-In the villages and families I’ve spent time around, land, childcare, housing, food, and obligation often pass through extended family and local memory alongside formal systems. Nobody needs to announce a workshop called “Rebuilding Intergenerational Belonging.” An aunt has already assigned three people a task.
+In the villages and families I've spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems. Whether it's land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
 
-Even in Dakar I found graffiti reading, “Tolerance! Openness! Union! Happiness! Love!” Murals of Sufi leaders appear elsewhere. Spiritual graffiti still surprises me because I grew up expecting urban walls to advertise either a product or somebody’s inability to draw a penis.
+Even in Dakar, I found this graffiti on a wall: "Tolerance! Openness! Union! Happiness! Love!" And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me! Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis.
 
 [image 20](https://substackcdn.com/image/fetch/$s_!1Hvp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98df3b3c-7b43-40df-80d7-112f1bc91d75_849x1037.png)
 
@@ -664,160 +669,160 @@ Even in Dakar I found graffiti reading, “Tolerance! Openness! Union! Happiness
 
 ## All is not well in paradise
 
-I don’t want to turn this into Sénégal as a surviving communal paradise either. The warmth has hard boundaries, and LGBTQ+ people can pay brutally for crossing them.
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either! The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
 
-In March 2026, Sénégal enacted [Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/), raising the penalty for consensual same-sex intimacy to five to ten years in prison. The amended article also criminalizes public “apology” for homosexuality and certain financing or support intended to promote it. The law comes within the context of an existing reality of arrests, family rejection, harassment, assault, and mob violence—some say prison actually protects homosexuals from the mob. I don’t want to praise communal belonging while ignoring people who survive that belonging by hiding who they are—or by leaving.
+Sénégal passed a law in March 2026 ([Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/)) that increased the penalty for consensual same-sex intimacy to 5 to 10 years in prison, and it also made public advocacy for homosexuality a crime. Homosexuals were already facing arrests, family rejection, harassment, assault and mob violence, but some say they're actually protected once they're arrested, because then at least the mob can't get at them. I'm not going to praise communal belonging and ignore the people who have to hide who they are to survive it, or leave.
 
-A society can be spiritually alive, generous, funny, and intensely communal while still becoming cruel toward people who violate its accepted categories. Community itself isn’t automatically liberating. Everything depends on who is permitted to belong without pretending.
+So which is it? Well, in a way, it's both. It's possible for a society to be spiritually alive, generous, funny and super communal, while still becoming cruel to those who break its social categories. It's interesting to see that being in community isn't necessarily liberating for everyone, it all depends on whether you're allowed to belong without pretending.
 
-The otherwise forgiving social culture has other shadows, too. People may avoid confrontation so thoroughly that everybody knows who stole the sheep and nobody wants to create trouble by saying it aloud.
+One other shadow side of the otherwise forgiving social culture here is that people may go to great lengths to avoid confrontation. Who stole the sheep? We all know, but nobody wants to cause a stink by bringing it up.
 
 Where I live, neighbors steal our moringa pods every morning. Every morning! They could plant a moringa tree in their own yard. Apparently maintaining this relationship with ours is more entertaining. 😂
 
-Everybody raises sheep here, including me, and they are extremely cute. The music, animals, joking, prayer, and constant presence of other people can make life feel like another world.
+Everybody here has sheep (even me!), and they are super cute! It can feel like you're living in another world, with the music, the animals, the joking, the praying, and just being around people all the time.
 
 [image 21]
 
 [Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑](https://ibogaqueen.substack.com/p/professor-baby-sheep-taught-me-inner)Copy link
 
-The older communal patterns are also changing. Young people move toward cities, jobs, phones, imported foods, and the wider world. Men take dangerous sea routes toward Europe. Families that once shared nearly everything become more dependent on cash and individual opportunity.
+Of course, the old communal ways here are changing. Young people move to the city, get a job, get a phone, eat imported food, become part of the wider world, etc. (some of the men even make the dangerous journey by sea to Europe). So what about the families? The ones that used to share almost everything are now more reliant on cash and individual opportunities.
 
 ## Lessons from the Black Tax
 
-One strange survival of the old communal system is what people call the “Black Tax”: when one person begins earning money, they’re expected to support parents, siblings, cousins, school fees, medical bills, funerals, and whoever else the family is carrying. I understand the instinct behind it. In the ancestral arrangement, nobody succeeded alone. The people who fed, raised, housed, and protected you had a real claim on whatever prosperity later came through you. Sharing wasn’t charity. It was how the whole organism survived.
+Then there's the so-called "Black Tax," a strange legacy of the old communal system: if you've got any money at all, you're expected to share it with your parents, your siblings, your cousins, to pay school fees, medical bills, funerals, etc. I understand the instinct. In the ancestral way of doing things nobody made it alone, and the people who fed and raised you had a real claim on whatever you made of yourself later. So why not share in return? That's how the whole organism survived (it wasn't charity).
 
 Double click to interact with video
 
-The modern version can become soul-destroying because the obligation survived while much of the communal life supporting it disappeared. The land, labor, childcare, food, and daily belonging are no longer fully shared, but the person earning cash may still be expected to carry everybody. They struggle to build any independence or long-term stability, while the relatives receiving the money remain dependent because the payments don’t create a viable alternative. The ancestral ethic is still alive inside an individualistic cash economy, where it can keep people alive while quietly consuming both sides.
+But these days it can be soul destroying. People have a lot less of the communal life that held the obligation up (the shared land, work, childcare, food and daily belonging), but they still carry it. So if one of them makes it into the cash economy, it's really hard to build any independence or long-term stability, because they may be expected to carry everybody. How can they get ahead, when all these people are dependent on them? And the relatives stay dependent too, since the payments don't give them a real alternative. It's the ancestral ethic playing out inside an individualistic cash economy. It can keep people alive, but it eats away at both sides too.
 
-This is also the boundary problem a money-free commune has to solve. Internal life can be cashless while taxes, hospitals, visas, school fees, family obligations, imported tools, and other outside relationships still arrive denominated in money. The question is not whether to recreate individual wages inside the commune. It is who handles that interface, how much collective cash is kept for it, and how to stop access to outside money from becoming a new status hierarchy.
+This is also the thorny boundary issue of living without money inside a money-based society. Life inside the commune can go without cash, but you'll still need money for taxes, hospital bills, visas, school fees, family obligations, buying in tools etc. That doesn't mean going back to individual wages inside the commune, but it does mean someone has to handle it! Who's that going to be? And the commune has to work out how much shared cash it keeps for these things, and how to stop access to outside money from creating a new status hierarchy.
 
-Outside work complicates that boundary even before a common purse. It does not only bring cash. It brings another schedule, status system, social world, set of loyalties, and often new consumption expectations. During the first stage, an outside earner should contribute an agreed share, but money cannot buy exemption from ordinary communal work or extra political authority. The group also has to notice when outside jobs are draining the people and skills needed to build shared livelihoods. Otherwise the commune remains a dormitory for the cash economy instead of moving toward a common purse.
+Another aspect of outside work, even before there's a common purse, is that it's not just money you're bringing into the commune. You're also bringing in a different schedule, a different status system, a different social world, different loyalties, and often different consumption habits etc. etc. And you can't exactly leave all that at the door, can you? In the first stage, where people working outside should contribute an agreed share, it's really important that they can't use the money to buy their way out of everyday communal work, or to buy a greater say in the political system. It's also important that the group notices when outside jobs start draining the people and skills it needs to build the communal livelihoods. Otherwise the commune will stay a dormitory for the money economy instead of moving toward a common purse.
 
-Zapatista communities faced a version of this with migration. Some moved from trying to stop young people from leaving toward negotiated arrangements in which migrants could work elsewhere while retaining defined communal obligations. The conflict between mobility and belonging did not disappear. It became something the community could name and negotiate.
+Some Zapatista communities used to try to stop their young people from leaving, which is a version of the same outside-work problem. Now they talk it through with them instead: it's OK to go and work elsewhere, as long as the migrants keep certain defined obligations to the community. That doesn't make the pull between leaving and belonging go away, but at least now it's something they can name and negotiate. I understand the motivation to negotiate like that, but I think it's not a full solution either.
 
-Westerners often begin with isolation and try to rebuild tribe. Many Africans begin with inherited communal life and watch parts of it dissolve. Urban Africans interested in intentional community may arrive after feeling alienated from both the city and the tradition they left.
+Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem, isn't it? And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
 
-That makes this a global conversation rather than a Western lifestyle niche. Living villages still contain knowledge no book can reproduce, but they are living people rather than exhibits. Go respectfully, contribute something, learn the language, and do not arrive expecting a spiritual service package.
+So this is a global issue, far from some Western lifestyle niche. There's still knowledge in the living villages that no book can give you. But if you visit, remember they're people, not museums. Would you like people coming to your house to stare at you and your family? So be respectful, contribute something, learn the language, and don't expect anyone to hand you a spiritual service package!
 
-A practical note: my own residency process in Sénégal was inexpensive and straightforward. French and Wolof matter much more than English. The country’s famous ideal of *Teranga*—hospitality—is real in my life: I stay in a friend’s family house, and they refuse rent. That generosity exists beside watchfulness, social conservatism, bureaucracy, and all the ordinary complications of a real country.
+Oh, and a practical note: getting my residency in Sénégal was pretty cheap and straightforward. French and Wolof matter a lot more than English. And the country's famous ideal of Teranga (hospitality) is real in my life. I'm staying in a friend's family's house, and they won't let me pay rent! Can you believe it? Of course that generosity lives right alongside watchfulness, social conservatism, bureaucracy and all the usual complications of a real country.
 
+<!-- CANDIDATE: section 16 v28 (2026-10-17, after Joel's 13:11 message): v26 kni, the best faithful version (Mostly Human, 0.32, one 61-word window, 399g), with his lines for that stretch (question 42: "And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that! Look before you leap. It will really save you some time & money.") and "quietly" out of the opening (his correction). Every changed paragraph Human alone or with its neighbor (410g) and the whole section 100% Human (412g); key words PASS; the repeated pauses answered (fix-20261017/DISPOSITIONS-PAUSES-20261017.md). Records: s16/make_v28.py, fix-20261017/. Not accepted until Joel says so. -->
 # Practice Comes Before Property
 
-Most community projects begin in the wrong order: land first, vision in a document, ownership concentrated because somebody had the money, and emotional preparation deferred until everyone has more time.
+Most people try and do community in the wrong order. "First let's get land!" "Then let's write down a vision document!" "And whoever's putting in the money can own the place!" And the emotional side of things? That doesn't get done until "later on, when everyone has more time".
 
-The better order is less cinematic. Practice together. Process a real conflict. Clarify values. Test membership. Decide ownership and exit. Then consider land.
+It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know! (It would make for a pretty bad movie.)
 
-The economic path should be staged the same way. A cluster of cooperating households can first take basic internal life out of purchase while outside earners contribute a defined share. It should move to a common purse only after it can provision members reliably and allocate the common fairly. Reducing or eliminating outside money should emerge from demonstrated capacity, not from declaring money impure while somebody else quietly pays the tax bill.
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go! Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
 
 ## If You Can’t Move
 
-Most readers have a job, children, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle. Fine. The most important pl/ork does not require land.
+I realize that for most people reading this there are a lot of reasons why they can't just head off and go build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That's fine! The most important pl/ork doesn't need land anyway.
 
 [image 22](https://substackcdn.com/image/fetch/$s_!LmXZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d334efc-a191-40fe-8bbd-164bd0c639f5_4080x3060.jpeg)
 
 [caption] Too bad you can’t move…
 
-People sometimes buy forty acres and then import every kilogram of their unprocessed material to a more scenic location. The view improves. The conflict acquires goats.
+People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It's a more beautiful view for sure, but now you have the conflict PLUS goats.
 
-Inner pl/ork can begin where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) needs two people and enough privacy to speak. Reparenting, somatic practice, jealousy processing, and conflict repair do not wait for a deed.
+So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. That's it! And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
 
-A weekly group that has practiced together for two years already contains a real piece of community. It may never own land. It can still change how people survive divorce, illness, grief, parenting, and ordinary loneliness.
+A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.
 
-Remote or constrained readers can build the portion available. Hold a weekly meal with two households. Arrange a counseling exchange with one friend in person or by video. Share tools, childcare, transport, food preparation, or a sauna. Add acro-yoga, dance improvisation, a mothers’ circle, or a [cuddle puddle](http://cuddleparty.com/) if you’re hippie enough.
+Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna! And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a [cuddle puddle](http://cuddleparty.com/).
 
-Three households reliably showing up for one another for six months will teach you more than another year of imagining the ideal village.
+Trust me on this one. If three households keep showing up for each other like this for six months, you'll learn more than you would from another year of daydreaming about the ideal village.
 
 ## What to Do This Month
 
-Here is the first month without the heroic land purchase:
+So what do you actually do this month? Start doing some inner pl/ork, with the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) or with another serious practice you already trust. And practice before you have an audience!
 
-Start the inner pl/ork. Read the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), or begin with another serious practice you already trust. Practice before you have an audience.
+Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. One disagreement is enough! You can talk about a shared future later.
 
-Find two or three people. Call it a practice group rather than a commune. Meet regularly. Learn to listen, switch roles, handle one disagreement, and keep commitments before discussing a shared future.
+Where do you find these people? Try an unprogrammed Quaker meeting, a restorative-practice group, an open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.
 
-Possible places to meet people include unprogrammed Quaker meetings, restorative-practice groups, open-hearted congregations, mature recovery communities, meditation groups, and people who came back from a long retreat kinder rather than more impressed with themselves.
+Go visit some real communities. Really, go! [Twin Oaks](https://twinoaks.org/) is one. [East Wind](http://eastwind.org/) is another, and so is [Acorn](https://www.ic.org/directory/acorn-community-farm/), and there are plenty of other [intentional communities](https://www.ic.org/). Lots of [ecovillages](https://ecovillage.org/) are open to visitors too. Check their current visitor requirements first.
 
-Visit actual communities. [Twin Oaks](https://twinoaks.org/), [East Wind](http://eastwind.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), other [intentional communities](https://www.ic.org/), and many [ecovillages](https://ecovillage.org/) receive visitors. Read their current visitor requirements first.
+By visiting some communities, you'll get a better idea of how much togetherness you enjoy and what kind of privacy you need, and what kind of labor system irritates you. And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that!
 
-Visits teach you what no manifesto can: how much togetherness you enjoy, which forms of privacy you need, what labor system irritates you, and whether communal showers feel liberating or make you start pricing studio apartments.
+Look before you leap. It will really save you some time & money.
 
-Do those three things before you spend serious time or money looking for land.
-
-I have no application form for you and no retreat to sell. The manuals are free. I’m in Sénégal and expect to buy land, but I’m not announcing a commune. I’ve simply noticed that community tends to gather wherever people experience real care, play, usefulness, and room to become more honest.
+I'm not trying to sell you a retreat or get you to fill out an application or anything. The manuals I mentioned are free. I've just noticed that wherever people are taking real care of each other and playing, feeling useful and having room to become more honest, community tends to gather.
 
 [image 23](https://substackcdn.com/image/fetch/$s_!BmI8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd33aef69-9a43-44f1-885f-777d53769f46_967x617.png)
 
-The Bruderhof shaped my father. He made a film, founded a research organization, and carried me through communal experiments. Decades later I’m publishing the film and writing this.
+Decades after the Bruderhof shaped my father, I'm publishing the film he made, and writing this.
 
-Maybe somebody will build something useful from it. Maybe that community will teach somebody who builds another. The transmission does not require one institution, one founder, or one official version.
+Maybe some of you will build something useful from this. Maybe that community will teach someone else, who'll build another. Passing it on doesn't need one institution or one founder. And there doesn't have to be one official version of it, either.
 
-If you build something real, maybe we’ll hear about each other. If you teach other people to build, hearing about it matters less.
+If you build something real, maybe we'll hear about each other. And if you teach other people to build, hearing about it matters less.
 
+<!-- CANDIDATE: the appendix v9 (2026-10-17, the overnight run): Emulate round a (appendix/emu-a) for the entries, the published meaning put back (appendix/make_v1.py to make_v9.py), meaning rounds r7, r12, r12x, r14 and r16 (traces of every entry, a cold read, the stance check) with their DISPOSITIONS files. Pangram web app: every entry Human in its run (329g to 343g; tools/humanization/paragraphs_alone.py PASS, list entries in the shortest run Pangram can read) and the whole appendix 100% Human (343g). The breaks in the list are question 41 for Joel. Not accepted until Joel says so. -->
 # Appendix: Watch These, Then Read These
 
 ## Films
 
-[***Where’s Utopia?***](https://utopia.u-dont-exist.com/) (1988) — my father’s documentary, made with Jerry Mintz and now online.
+[***Where’s Utopia?***](https://utopia.u-dont-exist.com/) (1988) is a documentary by my father, made with Jerry Mintz.
 
-[***A Place Called Chiapas***](https://moviesfoundonline.com/video/place-called-chiapas-1998/) (1998) — the Zapatistas during their early years.
+[***A Place Called Chiapas***](https://moviesfoundonline.com/video/place-called-chiapas-1998/) (1998) is about the early days of the Zapatistas.
 
-[***American Commune***](https://www.youtube.com/watch?v=3ryzpd9r4oI) (2013) — The Farm through the eyes of two sisters raised there. For this article, the grown children’s perspective is essential.
+[***American Commune***](https://www.youtube.com/watch?v=3ryzpd9r4oI) (2013) is about The Farm, seen through the eyes of two sisters who grew up there. Why this one? For this article, the view of the grown children is essential.
 
-[***Commune***](https://www.youtube.com/watch?v=-mWsTCCcUTM) (2005) — Black Bear Ranch and the relational consequences of radical freedom.
+[***Commune***](https://www.youtube.com/watch?v=-mWsTCCcUTM) (2005) is about Black Bear Ranch, and what radical freedom did to the relationships there.
 
-[***A New We***](https://newwe.jimdofree.com/) — a tour of European ecovillages showing how many different arrangements hide under one label.
+[***A New We***](https://newwe.jimdofree.com/) takes you on a tour of a bunch of ecovillages in Europe. How many different arrangements can hide under that one label? A lot, it turns out!
 
-[***Within Reach***](https://fellowshipforintentionalcommunity.vhx.tv/products/within-reach-journey-to-find-sustainable-community) — a couple bicycles 6,500 miles through roughly one hundred communities.
+[***Within Reach***](https://fellowshipforintentionalcommunity.vhx.tv/products/within-reach-journey-to-find-sustainable-community) follows a couple as they bike 6,500 miles, visiting a hundred or so communities.
 
-[***Seeking the Good Life in America***](https://www.youtube.com/watch?v=tMSPZu_47Oc) — Twin Oaks, Acorn, and Light Morning compared.
+[***Seeking the Good Life in America***](https://www.youtube.com/watch?v=tMSPZu_47Oc) compares Twin Oaks, Acorn and Light Morning.
 
-[***Voices of Cohousing***](https://fellowshipforintentionalcommunity.vhx.tv/products/voices-of-cohousing-building-small-villages-in-the-city) — the partial-community option: high neighborliness with more private autonomy.
+[***Voices of Cohousing***](https://fellowshipforintentionalcommunity.vhx.tv/products/voices-of-cohousing-building-small-villages-in-the-city) shows the partial-community option, where you get high neighborliness and more private autonomy.
 
-[***Inside the Bruderhof***](https://www.bbc.co.uk/programmes/m00071xr) — high-commitment religious community, including the autonomy it requires members to surrender. My father lived there for 17 years. The Bruderhof also has an extensive [YouTube channel](https://www.youtube.com/channel/UCr6Df5XndlMFVB43NodfUsQ).
+[***Inside the Bruderhof***](https://www.bbc.co.uk/programmes/m00071xr) is about a high-commitment religious community, including the autonomy it requires members to give up. Oh, and the Bruderhof has a pretty extensive [YouTube channel](https://www.youtube.com/channel/UCr6Df5XndlMFVB43NodfUsQ) too.
 
-[***Living in the Future: Lammas***](https://livinginthefuture.org/episodes/1-introducing-lammas.php) — community-building meets land use and planning law.
+[***Living in the Future: Lammas***](https://livinginthefuture.org/episodes/1-introducing-lammas.php) is about what happens when community-building meets land use and planning law.
 
 ## Books and Papers, in Reading Order
 
 ## For Child-Rearing
 
-[Jean Liedloff, *The Continuum Concept***](https://www.arvindguptatoys.com/arvindgupta/conconcept.pdf) (1975) — a foundational natural-child-rearing book based on Liedloff’s time with the Ye’kuana. Read it as provocative observation rather than settled anthropology.
+[***The Continuum Concept***](https://www.arvindguptatoys.com/arvindgupta/conconcept.pdf) by Jean Liedloff (1975) is a foundational natural-child-rearing book, based on her time with the Ye’kuana. Is it settled anthropology? No, it's provocative observation, so take it with a grain of salt.
 
-[Michaeleen Doucleff, *Hunt, Gather, Parent***](https://www.amazon.com/Hunt-Gather-Parent-Ancient-Cultures/dp/1982149671) (2021) — a practical, accessible book about children participating in family life, autonomy, and distributed care.
+[***Hunt, Gather, Parent***](https://www.amazon.com/Hunt-Gather-Parent-Ancient-Cultures/dp/1982149671) by Michaeleen Doucleff (2021) is a practical, accessible book about kids taking part in family life. It's also about autonomy, and spreading out the work of caring for them.
 
 ## Practical Community-Building Guides
 
-Diana Leafe Christian, [***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) — start here for sequencing, membership, money, land, and agreements.
+Where do you start with the nuts and bolts? [***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) by Diana Leafe Christian, for membership, money, land and agreements.
 
-Yana Ludwig, [***Building Belonging***](https://www.ic.org/building-belonging/) — a whole-systems guide to intentional community.
+Want a guide to intentional community that covers the whole system? There's [***Building Belonging***](https://www.ic.org/building-belonging/) by Yana Ludwig.
 
 ## Governance Manuals
 
-Rau and Koch-Gonzalez, [***Many Voices One Song***](https://www.sociocracyforall.org/product/many-voices-one-song-ebook/) — a practical sociocracy manual.
+[***Many Voices One Song***](https://www.sociocracyforall.org/product/many-voices-one-song-ebook/) by Rau and Koch-Gonzalez is a practical manual for doing sociocracy.
 
-Schaub and colleagues, [***Building United Judgment***](https://www.ic.org/community-bookstore/product/building-united-judgment/) — consensus decision-making.
+[***Building United Judgment***](https://www.ic.org/community-bookstore/product/building-united-judgment/) by Schaub and colleagues is about consensus decision-making.
 
-Ludwig and Gimnig, [***The Cooperative Culture Handbook***](https://www.ic.org/community-bookstore/product/the-cooperative-culture-handbook/) — exercises for cooperation, conflict, and group culture.
+Ludwig and Gimnig's [***The Cooperative Culture Handbook***](https://www.ic.org/community-bookstore/product/the-cooperative-culture-handbook/) has a bunch of exercises for being more cooperative, dealing with conflict and building group culture.
 
 ## What Helps Communities Last—and Whether Longevity Is Enough
 
-Dmitry Orlov, [***Communities That Abide***](https://philebersole.wordpress.com/2014/06/23/dmitry-orlov-on-communities-that-abide/) — an uncomfortable argument that long-surviving communities often rely on communal property, separation, boundaries, and binding ideology. Cohesion and capture can resemble each other from a distance.
+[***Communities That Abide***](https://philebersole.wordpress.com/2014/06/23/dmitry-orlov-on-communities-that-abide/) by Dmitry Orlov makes an uncomfortable argument: the communities that last a long time often rely on 1) communal property, 2) separation, 3) boundaries and 4) a binding ideology. From a distance, cohesion and capture can look a lot alike.
 
-Rubin, Willis, and Ludwig, [“Measuring Success in Intentional Communities”](https://www.researchgate.net/publication/334857266_Measuring_Success_in_Intentional_Communities_A_Critical_Evaluation_of_Commitment_and_Longevity_Theories) — asks whether longevity alone is a meaningful measure when a community may persist without members flourishing.
+Is longevity alone a meaningful measure, when a community may keep going without its members flourishing? That's the question in [“Measuring Success in Intentional Communities”](https://www.researchgate.net/publication/334857266_Measuring_Success_in_Intentional_Communities_A_Critical_Evaluation_of_Commitment_and_Longevity_Theories), a paper by Rubin, Willis and Ludwig.
 
-Rosabeth Moss Kanter, [***Commitment and Community***](https://www.amazon.com/Commitment-Community-Communes-Sociological-Perspective/dp/0674145763) — a classic comparison of nineteenth-century communes and the practices that built commitment.
+[***Commitment and Community***](https://www.amazon.com/Commitment-Community-Communes-Sociological-Perspective/dp/0674145763) by Rosabeth Moss Kanter is a classic. It compares a bunch of nineteenth-century communes, and the practices that built commitment in them.
 
-Benjamin Zablocki, [***Alienation and Charisma***](https://annas-archive.pk/md5/72f23810c1c2ab152c625338eb11c4f5) — field research on communes and the role of charisma.
+[***Alienation and Charisma***](https://annas-archive.pk/md5/72f23810c1c2ab152c625338eb11c4f5) by Benjamin Zablocki is field research on communes, and on the role charisma plays in them.
 
-Jo Freeman, [“The Tyranny of Structurelessness”](https://www.jofreeman.com/joreen/tyranny.htm) (1970) — the classic argument that hidden hierarchy can be harder to challenge than explicit authority.
+Jo Freeman's [“The Tyranny of Structurelessness”](https://www.jofreeman.com/joreen/tyranny.htm) (1970) is the classic essay on hidden hierarchy. Can it be harder to challenge than explicit authority? She argues it can.
 
 ## For the Zapatistas
 
-Gloria Muñoz Ramírez and Subcomandante Marcos, [***The Fire and the Word***](https://www.amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X) — movement formation, practice-before-theory, autonomous institutions, and the original Good Government Boards.
+[***The Fire and the Word***](https://www.amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X) by Gloria Muñoz Ramírez and Subcomandante Marcos is about how the Zapatista movement came about, its practice-before-theory approach, how it built autonomous institutions, and the original Good Government Boards.
 
-The Zapatistas’ own [Enlace Zapatista](https://enlacezapatista.ezln.org.mx/) archive, especially their 2023 explanations of the new autonomy.
+Want it straight from the Zapatistas? Their own archive is [Enlace Zapatista](https://enlacezapatista.ezln.org.mx/), and look especially for their 2023 explanations of the new autonomy.
 
 ## Research Behind This Article
 
-I did a much larger source audit than would fit comfortably inside the article. The [public research report](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) shows the evidence base, limits, counterexamples, and what I still could not verify. It is there so you can inspect the research without turning this article into a 200-row ledger.
+If you're curious about the research behind this, it was a much bigger source audit than would comfortably fit in an article (a lot bigger!). It's all in the [public research report](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/): the evidence base and its limits, the counterexamples, what I still couldn't verify, etc. So you can check it yourself, and this article doesn't have to be a 200-row ledger. Can you imagine? 😂

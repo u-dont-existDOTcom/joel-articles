@@ -1,0 +1,149 @@
+{
+ "S16v14-H3-P3": [
+  "Human Written",
+  0.03,
+  55,
+  "Human, Low, 55",
+  "08:36:15",
+  "/136d38f4-a105-46af-85c8-531bcd30506c",
+  []
+ ],
+ "S16v14": [
+  "AI Detected",
+  0.6,
+  868,
+  "Human, High, 331; AI-Generated, High, 537",
+  "08:36:04",
+  "/141ea24e-1402-4674-8c2f-1c98e5bb2680",
+  [
+   "AI-Generated (537 words): None of it has to wait until somebody has a deed in hand. ... (from the end of H2-P3 to the end)"
+  ]
+ ],
+ "S16v14-H3-P4+P5": [
+  "Human Written",
+  0.31,
+  90,
+  "Human, Low, 90",
+  "08:35:54",
+  "/12d06e0f-f235-4615-94da-c12c0c7fd800",
+  []
+ ],
+ "S16v14-H3-P3+P4": [
+  "AI Generated",
+  0.97,
+  105,
+  "AI-Generated, Medium, 105",
+  "08:35:42",
+  "/3979f3f1-e5b0-4a2d-beb4-b71cf3a9823a",
+  [
+   "AI-Generated (105 words): (the whole pair)"
+  ]
+ ],
+ "S16v14-H3-P2+P3": [
+  "Human Written",
+  0.29,
+  93,
+  "Human, Low, 93",
+  "08:35:31",
+  "/c261f69c-518d-4eea-929f-6b127800c080",
+  []
+ ],
+ "S16v14-H2-P5+P6": [
+  "Human Written",
+  0.18,
+  107,
+  "Human, Medium, 107",
+  "08:35:21",
+  "/b7cd84ef-557f-49b0-b4e3-871696192c0d",
+  []
+ ],
+ "S16v14-H2-P4+P5": [
+  "Human Written",
+  0.02,
+  110,
+  "Human, Medium, 110",
+  "08:35:12",
+  "/04c06fc7-2d93-42f9-b242-7179649bf7a8",
+  []
+ ],
+ "S16v14-H2-P5": [
+  "Human Written",
+  0.01,
+  72,
+  "Human, Low, 72",
+  "08:34:59",
+  "/41ced67d-79b5-4a02-97e9-8c2fe00878cd",
+  []
+ ],
+ "S16v14-H3-P4-P6": [
+  "AI Generated",
+  0.98,
+  138,
+  "AI-Generated, Medium, 138",
+  "08:34:49",
+  "/12815a2f-9ca4-487b-b8c4-00bbaadccffc",
+  [
+   "AI-Generated (138 words): (the whole run)"
+  ]
+ ],
+ "S16v14-H3-P3-P5": [
+  "AI Generated",
+  0.99,
+  145,
+  "AI-Generated, Medium, 145",
+  "08:34:39",
+  "/5984bf6d-8d4d-4b0f-9aa8-c9cf13a8f8af",
+  [
+   "AI-Generated (145 words): (the whole run)"
+  ]
+ ],
+ "S16v14-H3-P2-P4": [
+  "AI Generated",
+  0.98,
+  148,
+  "AI-Generated, Medium, 148",
+  "08:34:28",
+  "/8d567561-eeea-42f7-9139-372f03f51262",
+  [
+   "AI-Generated (148 words): (the whole run, with its heading)"
+  ]
+ ],
+ "S16v14-H2-P6-H3-P3": [
+  "AI Generated",
+  0.91,
+  133,
+  "AI-Generated, Medium, 133",
+  "08:34:17",
+  "/b80a963d-5a4f-4d93-822f-2846a5a1251c",
+  [
+   "AI-Generated (133 words): (the whole run)"
+  ]
+ ],
+ "S16v14-H2-P5-H3-P2": [
+  "Human Written",
+  0.13,
+  150,
+  "Human, High, 150",
+  "08:34:07",
+  "/bc1671f4-09ef-498d-91ce-e0a57816a4a3",
+  []
+ ],
+ "S16v14-H2-P4-P6": [
+  "Human Written",
+  0.12,
+  145,
+  "Human, Medium, 145",
+  "08:33:56",
+  "/6c1052c5-0b81-4c2a-90c8-d11e0f3f15fd",
+  []
+ ],
+ "S16v14-H2-P3-P5": [
+  "Human Written",
+  0.11,
+  161,
+  "Human, High, 161",
+  "08:33:46",
+  "/c59ce74a-1b75-4aef-b293-553864a9ba9d",
+  []
+ ]
+}

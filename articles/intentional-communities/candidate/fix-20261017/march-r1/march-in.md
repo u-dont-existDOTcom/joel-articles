@@ -1,0 +1,5 @@
+A [new study](https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/) found the same goes for how we see the world. Where relationships are easy to make and break, people line up their view of reality with whoever helps them reach their goals, and feel less on the same page with whoever doesn't. Kind of a "no, duh" study, but still.
+
+In the villages and families I've spent time around, so much is often taken care of by the extended family and the local memory, alongside the formal systems. Whether it's land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
+
+In the villages and families I've spent time around, things go through the extended family and the local memory, alongside the formal systems. Whether it's land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?

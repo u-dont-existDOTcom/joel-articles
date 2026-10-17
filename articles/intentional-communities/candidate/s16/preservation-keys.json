@@ -1,0 +1,887 @@
+{
+ "section": "# Practice Comes Before Property",
+ "about": "Section 16, frozen from the published text (2026-10-17): each unit is a claim, with the words it rests on; a key is a list of alternatives, every key must appear in one paragraph of the draft. Alternatives are added only when a trace calls the new word equivalent. A list's items are keys where an item carries the point; Joel's list rulings (2026-10-03, 10-07: \"when there's no actual need for 3 items you can remove one of them\") let an item that matters least go, recorded in the draft's fixes file. His order (U6) is his stated position of 2026-10-16 23:38 UTC, every step a key. A unit a dedup cut moves to an earlier section says so in the draft's fixes file, with the section that carries it (Joel 2026-10-17: \"you can only cut if it isn't losing important meaning or there's no good way to merge\").",
+ "section_terms": [
+  "pl/ork"
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "what": "most community projects begin in the wrong order, land first",
+   "keys": [
+    [
+     "wrong order",
+     "backwards",
+     "wrong way",
+     "out of order"
+    ],
+    [
+     "land"
+    ]
+   ]
+  },
+  {
+   "id": "U2",
+   "what": "with the vision in a document",
+   "keys": [
+    [
+     "vision"
+    ],
+    [
+     "document",
+     "paper",
+     "written"
+    ]
+   ]
+  },
+  {
+   "id": "U3",
+   "what": "ownership concentrated because somebody had the money",
+   "keys": [
+    [
+     "ownership",
+     "own",
+     "owns"
+    ],
+    [
+     "money"
+    ]
+   ]
+  },
+  {
+   "id": "U4",
+   "what": "emotional preparation deferred until everyone has more time",
+   "keys": [
+    [
+     "emotional"
+    ],
+    [
+     "time"
+    ]
+   ]
+  },
+  {
+   "id": "U5",
+   "what": "the better order is less cinematic",
+   "keys": [
+    [
+     "cinematic",
+     "less exciting",
+     "less glamorous",
+     "less dramatic",
+     "less romantic"
+    ]
+   ]
+  },
+  {
+   "id": "U6",
+   "what": "Joel's order (2026-10-16 23:38): practice together, process a real conflict, clarify values, test membership, decide ownership and exit, then consider land",
+   "keys": [
+    [
+     "practice"
+    ],
+    [
+     "conflict"
+    ],
+    [
+     "values"
+    ],
+    [
+     "membership",
+     "members"
+    ],
+    [
+     "ownership"
+    ],
+    [
+     "exit"
+    ],
+    [
+     "land"
+    ]
+   ]
+  },
+  {
+   "id": "U7",
+   "what": "the economic path should be staged the same way",
+   "keys": [
+    [
+     "economic",
+     "economy",
+     "money"
+    ],
+    [
+     "stage",
+     "staged",
+     "stages",
+     "step",
+     "steps"
+    ]
+   ]
+  },
+  {
+   "id": "U8",
+   "what": "a cluster of cooperating households can first take basic internal life out of purchase while outside earners contribute a defined share",
+   "keys": [
+    [
+     "households"
+    ],
+    [
+     "purchase",
+     "buying",
+     "buy",
+     "market"
+    ],
+    [
+     "outside"
+    ],
+    [
+     "share"
+    ]
+   ],
+   "elsewhere": {
+    "section": "### 4. The container",
+    "words": [
+     "no money exchanged between members for basic community functions",
+     "agreed share of that income"
+    ],
+    "why": "repeats r1 item 4: the first stage is section 4's, in Joel's own words"
+   }
+  },
+  {
+   "id": "U9",
+   "what": "it moves to a common purse only after it can provision members reliably and allocate the common fairly",
+   "keys": [
+    [
+     "common purse"
+    ],
+    [
+     "reliably",
+     "reliable"
+    ],
+    [
+     "fair",
+     "fairly"
+    ]
+   ]
+  },
+  {
+   "id": "U10",
+   "what": "reducing or eliminating outside money should come from demonstrated ability",
+   "keys": [
+    [
+     "outside money",
+     "money from outside"
+    ],
+    [
+     "demonstrated",
+     "proven",
+     "shown",
+     "proved"
+    ]
+   ]
+  },
+  {
+   "id": "U11",
+   "what": "not from declaring money impure while somebody else quietly pays the tax bill",
+   "keys": [
+    [
+     "impure",
+     "dirty",
+     "evil",
+     "unclean"
+    ],
+    [
+     "tax"
+    ]
+   ]
+  },
+  {
+   "id": "U12",
+   "what": "most readers have a job, children, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle; Joel's list rule (10-03, 10-07) lets an item that matters least go",
+   "keys": [
+    [
+     "job"
+    ],
+    [
+     "children",
+     "kids"
+    ],
+    [
+     "mortgage",
+     "debt"
+    ],
+    [
+     "sick parent",
+     "parent"
+    ],
+    [
+     "circle"
+    ]
+   ]
+  },
+  {
+   "id": "U13",
+   "what": "fine: the most important pl/ork does not require land",
+   "keys": [
+    [
+     "pl/ork"
+    ],
+    [
+     "land"
+    ],
+    [
+     "require",
+     "need",
+     "needs"
+    ]
+   ]
+  },
+  {
+   "id": "U14",
+   "what": "people sometimes buy forty acres and then import every kilogram of their unprocessed material to a more scenic location",
+   "keys": [
+    [
+     "forty acres",
+     "40 acres"
+    ],
+    [
+     "unprocessed"
+    ],
+    [
+     "scenic"
+    ]
+   ]
+  },
+  {
+   "id": "U15",
+   "what": "the view improves; the conflict acquires goats",
+   "keys": [
+    [
+     "view"
+    ],
+    [
+     "goats"
+    ]
+   ]
+  },
+  {
+   "id": "U16",
+   "what": "inner pl/ork can begin where you live",
+   "keys": [
+    [
+     "inner pl/ork",
+     "pl/ork"
+    ],
+    [
+     "where you live",
+     "where you are",
+     "at home"
+    ]
+   ]
+  },
+  {
+   "id": "U17",
+   "what": "peer counseling needs two people and enough privacy to speak",
+   "keys": [
+    [
+     "peer counseling"
+    ],
+    [
+     "two people",
+     "two of you",
+     "2 people"
+    ],
+    [
+     "privacy",
+     "private"
+    ]
+   ]
+  },
+  {
+   "id": "U18",
+   "what": "reparenting, somatic practice, jealousy processing and conflict repair do not wait for a deed",
+   "keys": [
+    [
+     "reparenting"
+    ],
+    [
+     "somatic"
+    ],
+    [
+     "jealousy"
+    ],
+    [
+     "repair"
+    ],
+    [
+     "deed"
+    ]
+   ]
+  },
+  {
+   "id": "U19",
+   "what": "a weekly group that has practiced together for two years already contains a real piece of community",
+   "keys": [
+    [
+     "weekly"
+    ],
+    [
+     "two years",
+     "2 years"
+    ],
+    [
+     "community"
+    ]
+   ],
+   "elsewhere": {
+    "section": "# Your Little Forming Group Already Is the Community",
+    "words": [
+     "you are already a community"
+    ],
+    "why": "repeats r1 item 7: section 13's opening"
+   }
+  },
+  {
+   "id": "U20",
+   "what": "it may never own land, and it can still change how people survive divorce, illness, grief, parenting and ordinary loneliness",
+   "keys": [
+    [
+     "own land",
+     "owns land",
+     "owning land"
+    ],
+    [
+     "divorce"
+    ],
+    [
+     "illness",
+     "sick",
+     "sickness"
+    ],
+    [
+     "grief"
+    ],
+    [
+     "loneliness",
+     "lonely"
+    ]
+   ]
+  },
+  {
+   "id": "U21",
+   "what": "remote or constrained readers can build the portion available",
+   "keys": [
+    [
+     "remote",
+     "far away",
+     "far from"
+    ],
+    [
+     "portion",
+     "part",
+     "piece"
+    ]
+   ]
+  },
+  {
+   "id": "U22",
+   "what": "hold a weekly meal with two households",
+   "keys": [
+    [
+     "meal",
+     "dinner",
+     "eat"
+    ],
+    [
+     "two households"
+    ]
+   ]
+  },
+  {
+   "id": "U23",
+   "what": "arrange a counseling exchange with one friend, in person or by video",
+   "keys": [
+    [
+     "counseling"
+    ],
+    [
+     "friend"
+    ],
+    [
+     "video"
+    ]
+   ]
+  },
+  {
+   "id": "U24",
+   "what": "share tools, childcare, transport, food preparation or a sauna",
+   "keys": [
+    [
+     "tools"
+    ],
+    [
+     "childcare"
+    ],
+    [
+     "sauna"
+    ]
+   ]
+  },
+  {
+   "id": "U25",
+   "what": "add acro-yoga, dance improvisation, a mothers' circle or a cuddle puddle if you're hippie enough",
+   "keys": [
+    [
+     "acro-yoga",
+     "acroyoga",
+     "acro yoga"
+    ],
+    [
+     "dance"
+    ],
+    [
+     "mothers' circle",
+     "mothers circle",
+     "mother's circle",
+     "moms circle",
+     "moms' circle"
+    ],
+    [
+     "cuddle puddle"
+    ],
+    [
+     "hippie"
+    ]
+   ]
+  },
+  {
+   "id": "U26",
+   "what": "three households reliably showing up for one another for six months will teach you more than another year of imagining the ideal village",
+   "keys": [
+    [
+     "three households",
+     "3 households"
+    ],
+    [
+     "six months",
+     "6 months"
+    ],
+    [
+     "ideal village",
+     "perfect village",
+     "dream village"
+    ],
+    [
+     "year"
+    ]
+   ]
+  },
+  {
+   "id": "U27",
+   "what": "the first month without the heroic land purchase",
+   "keys": [
+    [
+     "month"
+    ]
+   ],
+   "note_v1": "2026-10-17, v1: the dedup inside the section (repeats r1 item 10): \"without the heroic land purchase\" was the fourth time that land can wait; H1-P2 and H2-P1 carry it, and the heading says \"This Month\""
+  },
+  {
+   "id": "U28",
+   "what": "start the inner pl/ork: read the free reparenting guide and Hearthwork manual, or begin with another serious practice you already trust",
+   "keys": [
+    [
+     "pl/ork"
+    ],
+    [
+     "reparenting guide"
+    ],
+    [
+     "Hearthwork"
+    ],
+    [
+     "free"
+    ],
+    [
+     "trust"
+    ]
+   ]
+  },
+  {
+   "id": "U29",
+   "what": "practice before you have an audience",
+   "keys": [
+    [
+     "audience"
+    ]
+   ]
+  },
+  {
+   "id": "U30",
+   "what": "find two or three people, and call it a practice group rather than a commune",
+   "keys": [
+    [
+     "two or three",
+     "2 or 3"
+    ],
+    [
+     "practice group"
+    ],
+    [
+     "commune"
+    ]
+   ]
+  },
+  {
+   "id": "U31",
+   "what": "meet regularly; learn to listen, switch roles, handle one disagreement and keep commitments before discussing a shared future",
+   "keys": [
+    [
+     "regularly",
+     "regular"
+    ],
+    [
+     "listen"
+    ],
+    [
+     "roles"
+    ],
+    [
+     "disagreement"
+    ],
+    [
+     "commitments",
+     "commitment"
+    ],
+    [
+     "future"
+    ]
+   ]
+  },
+  {
+   "id": "U32",
+   "what": "places to meet people: unprogrammed Quaker meetings, restorative-practice groups, open-hearted congregations, mature recovery communities, meditation groups",
+   "keys": [
+    [
+     "Quaker"
+    ],
+    [
+     "restorative"
+    ],
+    [
+     "congregation",
+     "congregations"
+    ],
+    [
+     "recovery"
+    ],
+    [
+     "meditation"
+    ]
+   ]
+  },
+  {
+   "id": "U33",
+   "what": "and people who came back from a long retreat kinder rather than more impressed with themselves",
+   "keys": [
+    [
+     "retreat"
+    ],
+    [
+     "kinder"
+    ],
+    [
+     "impressed"
+    ]
+   ]
+  },
+  {
+   "id": "U34",
+   "what": "visit actual communities: Twin Oaks, East Wind, Acorn, other intentional communities and many ecovillages receive visitors",
+   "keys": [
+    [
+     "Twin Oaks"
+    ],
+    [
+     "East Wind"
+    ],
+    [
+     "Acorn"
+    ],
+    [
+     "ecovillage",
+     "ecovillages"
+    ],
+    [
+     "visit",
+     "visitors",
+     "visiting"
+    ]
+   ]
+  },
+  {
+   "id": "U35",
+   "what": "read their current visitor requirements first",
+   "keys": [
+    [
+     "requirements",
+     "rules"
+    ],
+    [
+     "visitor",
+     "visiting",
+     "visit"
+    ]
+   ]
+  },
+  {
+   "id": "U36",
+   "what": "visits teach you what no manifesto can",
+   "keys": [
+    [
+     "manifesto"
+    ]
+   ]
+  },
+  {
+   "id": "U37",
+   "what": "how much togetherness you enjoy, which forms of privacy you need, what labor system irritates you, and whether communal showers feel liberating or make you start pricing studio apartments",
+   "keys": [
+    [
+     "togetherness"
+    ],
+    [
+     "privacy"
+    ],
+    [
+     "labor",
+     "work system"
+    ],
+    [
+     "showers",
+     "shower"
+    ],
+    [
+     "studio"
+    ]
+   ]
+  },
+  {
+   "id": "U38",
+   "what": "look before you leap: it will save you time and money (Joel's own words of 2026-10-17 13:11 UTC for the published \"do those three things before you spend serious time or money looking for land\")",
+   "keys": [
+    [
+     "look before you leap"
+    ],
+    [
+     "time & money",
+     "time and money"
+    ]
+   ],
+   "was": {
+    "what": "do those three things before you spend serious time or money looking for land",
+    "keys": [
+     [
+      "three things",
+      "3 things"
+     ],
+     [
+      "land"
+     ],
+     [
+      "money"
+     ]
+    ]
+   },
+   "joel": "2026-10-17 13:11 UTC, question 42: \"I replaced the AI lines with: '... Look before you leap. It will really save you some time & money.' ... I felt like 'do those three things' also sounded ai bc instruction manual + ai always doing three things.\" (joel-20261017/joel-20261017-1311-message.txt)"
+  },
+  {
+   "id": "U39",
+   "what": "he has no application form for you and no retreat to sell",
+   "keys": [
+    [
+     "application"
+    ],
+    [
+     "retreat"
+    ],
+    [
+     "sell",
+     "selling"
+    ]
+   ]
+  },
+  {
+   "id": "U40",
+   "what": "the manuals are free",
+   "keys": [
+    [
+     "manuals",
+     "manual"
+    ],
+    [
+     "free"
+    ]
+   ]
+  },
+  {
+   "id": "U41",
+   "what": "he's in Sénégal and expects to buy land, but he isn't announcing a commune",
+   "keys": [
+    [
+     "Sénégal",
+     "Senegal"
+    ],
+    [
+     "buy land",
+     "buying land"
+    ],
+    [
+     "announcing",
+     "announce"
+    ]
+   ],
+   "elsewhere": {
+    "section": "# Communes Are Hot Again 🔥",
+    "words": [
+     "I do plan to buy land",
+     "not currently recruiting anyone or founding a community"
+    ],
+    "why": "repeats r1 item 3: section 2's disclosure"
+   }
+  },
+  {
+   "id": "U42",
+   "what": "community tends to gather wherever people experience real care, play, usefulness and room to become more honest",
+   "keys": [
+    [
+     "care"
+    ],
+    [
+     "play"
+    ],
+    [
+     "useful",
+     "usefulness"
+    ],
+    [
+     "honest"
+    ]
+   ]
+  },
+  {
+   "id": "U43",
+   "what": "the Bruderhof shaped his father",
+   "keys": [
+    [
+     "Bruderhof"
+    ],
+    [
+     "father",
+     "dad"
+    ]
+   ]
+  },
+  {
+   "id": "U44",
+   "what": "his father made a film, founded a research organization and carried him through communal experiments",
+   "keys": [
+    [
+     "film"
+    ],
+    [
+     "research"
+    ],
+    [
+     "experiments",
+     "experiment"
+    ]
+   ],
+   "elsewhere": {
+    "section": "# Dissolution and Exit",
+    "words": [
+     "the foundation he started",
+     "the film he made",
+     "the places he took me"
+    ],
+    "why": "repeats r1 item 9: section 14's last paragraph"
+   }
+  },
+  {
+   "id": "U45",
+   "what": "decades later he's publishing the film and writing this",
+   "keys": [
+    [
+     "decades"
+    ],
+    [
+     "publishing",
+     "publish"
+    ]
+   ]
+  },
+  {
+   "id": "U46",
+   "what": "maybe somebody will build something useful from it; maybe that community will teach somebody who builds another",
+   "keys": [
+    [
+     "build",
+     "builds"
+    ],
+    [
+     "teach",
+     "teaches"
+    ],
+    [
+     "another"
+    ]
+   ]
+  },
+  {
+   "id": "U47",
+   "what": "the transmission does not require one institution, one founder or one official version",
+   "keys": [
+    [
+     "transmission",
+     "passing it on",
+     "pass it on",
+     "passed on"
+    ],
+    [
+     "institution"
+    ],
+    [
+     "founder"
+    ],
+    [
+     "official"
+    ]
+   ]
+  },
+  {
+   "id": "U48",
+   "what": "if you build something real, maybe we'll hear about each other",
+   "keys": [
+    [
+     "hear about each other",
+     "hear of each other"
+    ]
+   ]
+  },
+  {
+   "id": "U49",
+   "what": "if you teach other people to build, hearing about it matters less",
+   "keys": [
+    [
+     "teach"
+    ],
+    [
+     "matters less",
+     "matter less",
+     "doesn't matter as much"
+    ]
+   ]
+  }
+ ]
+}

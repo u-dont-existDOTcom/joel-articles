@@ -1,0 +1,140 @@
+{
+ "S16v24-H3-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "S S S S S B B",
+   "S S S S S B B"
+  ],
+  "march_note": "the pair",
+  "words": 96,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B B",
+   "S S S S S B B"
+  ],
+  "march_note": "its own march",
+  "words": 60,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P3+P4": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B B",
+   "S S S S S B B",
+   "B S",
+   "B S"
+  ],
+  "march_note": "the pair",
+  "words": 104,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "B S",
+   "B S",
+   "S B S S S S",
+   "S B S S S S"
+  ],
+  "march_note": "the pair",
+  "words": 83,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P5+P6": {
+  "kind": "screen",
+  "march": [
+   "S B S S S S",
+   "S B S S S S",
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "the pair",
+  "words": 103,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P6": {
+  "kind": "screen",
+  "march": [
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "its own march",
+  "words": 64,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P6+P7": {
+  "kind": "screen",
+  "march": [
+   "S B B",
+   "S B B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "the pair",
+  "words": 86,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P7+P8": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "the pair",
+  "words": 73,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P8": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "its own march",
+  "words": 51,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P8+P9": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "B",
+   "B"
+  ],
+  "march_note": "the pair",
+  "words": 67,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P9+P10": {
+  "kind": "screen",
+  "march": [
+   "B",
+   "B",
+   "B B S S",
+   "B B S S"
+  ],
+  "march_note": "the pair",
+  "words": 58,
+  "lint": "REVIEW"
+ },
+ "S16v24-H3-P10+P11": {
+  "kind": "screen",
+  "march": [
+   "B B S S",
+   "B B S S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "the pair",
+  "words": 66,
+  "lint": "REVIEW"
+ }
+}

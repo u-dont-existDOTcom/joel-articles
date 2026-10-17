@@ -1,0 +1,62 @@
+[
+ {
+  "id": "H1-P1",
+  "old": "One of the main problems I see with how people go about building community is that they do the steps in the wrong order.",
+  "new": "Most people building community do the steps in the wrong order.",
+  "why": "trace T1: the published \"Most\" (how common it is); \"one of the main problems I see\" ranked it and rested it on my view"
+ },
+ {
+  "id": "H1-P3",
+  "old": "Likewise, the economic side has to go in stages. You're probably not going to be able to fly straight to the economic destination!",
+  "new": "Likewise, the economic side should go in stages. You shouldn't try to fly straight to the economic destination!",
+  "why": "trace T2: the published \"should\" (Emulate's \"has to\" made it required), and the break advises as the published does (Emulate's \"You're probably not going to be able to\" predicted failure)"
+ },
+ {
+  "id": "H1-P3",
+  "old": "comes from what the group has shown it can do.",
+  "new": "should come from what the group has shown it can do.",
+  "why": "trace T2: the published \"should emerge from demonstrated capacity\""
+ },
+ {
+  "id": "H2-P5",
+  "old": "Share tools and childcare. Or a sauna!",
+  "new": "Share tools and childcare, or transport and food preparation. Or a sauna!",
+  "why": "trace T4: transport and food preparation were lost; they come back as a second pair, so the paragraph still has one list of three (E125)"
+ },
+ {
+  "id": "H3-P2",
+  "old": "With what? Maybe the free [reparenting guide]",
+  "new": "With what? The free [reparenting guide]",
+  "why": "trace T5: \"Maybe\" made the published instruction a half-recommendation"
+ },
+ {
+  "id": "H3-P3",
+  "old": "(call it that, not a commune, at least for now)",
+  "new": "(call it that, not a commune)",
+  "why": "trace T6: \"at least for now\" said the commune label is only postponed, a new claim; section 13 calls such a group a community, and this says not to call it a commune, two different words, so nothing needs reconciling"
+ },
+ {
+  "id": "H3-P3",
+  "old": "One disagreement is plenty to start with!",
+  "new": "One disagreement is enough!",
+  "why": "trace T6: \"plenty to start with\" said one is a lot and more will follow; the published sets one as the bar"
+ },
+ {
+  "id": "H3-P5",
+  "old": "Just check their current visitor requirements first. Nobody likes surprise guests, right?",
+  "new": "Ever been to one? Just check their current visitor requirements first.",
+  "why": "trace T7: \"Nobody likes surprise guests\" gave a reason the published doesn't; the break is a question that claims nothing"
+ },
+ {
+  "id": "H3-P7",
+  "old": "So do those three things first, before you spend serious time or money looking for land. The land will still be there!",
+  "new": "What about the land? Do those three things first, before you spend serious time or money looking for it.",
+  "why": "trace T8: \"The land will still be there!\" said waiting costs nothing, a reason the published doesn't give; the break is a question"
+ },
+ {
+  "id": "H3-P8",
+  "old": "or anything, the manuals are free.",
+  "new": "or anything, the manuals I mentioned are free.",
+  "why": "the cold read: \"the manuals\" were six paragraphs back"
+ }
+]

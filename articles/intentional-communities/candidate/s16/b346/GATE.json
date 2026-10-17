@@ -1,0 +1,222 @@
+{
+ "S16v12-H2-P3": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 55
+ },
+ "S16v12-H2-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 89
+ },
+ "S16v12-H2-P3+P4": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B",
+   "B B B S",
+   "B B B S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 95
+ },
+ "S16v12-H2-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "B B B S",
+   "B B B S",
+   "S S S S S B B",
+   "S S S S S B S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 108
+ },
+ "S16v12-H3-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "B S S S S",
+   "B B B S S",
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 98
+ },
+ "S16v12-H3-P5+P6": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "B B S S S",
+   "B B S S S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 93
+ },
+ "S16v12-H3-P6": {
+  "kind": "screen",
+  "march": [
+   "B B S S S",
+   "B B S S S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 52
+ },
+ "S16v12-H3-P6+P7": {
+  "kind": "screen",
+  "march": [
+   "B B S S S",
+   "B B S S S",
+   "S B",
+   "S B"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 72
+ },
+ "S16v12-H3-P7+P8": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "B S S",
+   "B B S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 71
+ },
+ "S16v12-H3-P8": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B B S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 51
+ },
+ "S16v12-H3-P8+P9": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B B S",
+   "B",
+   "B"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 67
+ },
+ "S16v12-H2": {
+  "kind": "screen",
+  "march": [
+   "S S B S",
+   "S B B S",
+   "S B",
+   "S B",
+   "S S S B",
+   "S S S B",
+   "B B B S",
+   "B B B S",
+   "S S S S S B B",
+   "S S S S S B S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 289
+ },
+ "S16v12-H3": {
+  "kind": "screen",
+  "march": [
+   "S B S S",
+   "S B S S",
+   "S S B",
+   "S S B",
+   "B S S S S",
+   "B B B S S",
+   "B S S",
+   "B S S",
+   "B B S S S",
+   "B B S S S",
+   "S B",
+   "S B",
+   "B S S",
+   "B B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "s16/review-r21; the rest as in 345g",
+  "lint": "REVIEW",
+  "words": 372
+ },
+ "S16v12": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B",
+   "S S B S",
+   "S B B S",
+   "S B",
+   "S B",
+   "S S S B",
+   "S S S B",
+   "B B B S",
+   "B B B S",
+   "S S S S S B B",
+   "S S S S S B S",
+   "B S",
+   "B S",
+   "S B S S",
+   "S B S S",
+   "S S B",
+   "S S B",
+   "B S S S S",
+   "B B B S S",
+   "B S S",
+   "B S S",
+   "B B S S S",
+   "B B S S S",
+   "S B",
+   "S B",
+   "B S S",
+   "B B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph",
+  "lint": "REVIEW",
+  "words": 850
+ }
+}

@@ -22,5 +22,5 @@ Thirty-one versions this turn. P2 split in two: its first half (the questions) r
 
 ## E186 and E187
 
-- E186: the help-request format; the linter makes a list of three in my sentence a FAIL unless it ends on a catch-all, and "can ... without ...ing" a FAIL (data and false-positive fixes in the lesson); his moves are in reviewer/writer_draft.txt; tells_registry.json has W88 and J57; tests for each.
+- E186: the help-request format; the linter makes a list of three in my sentence a FAIL unless it ends on a catch-all, and "can ... without ...ing" a FAIL (data and false-positive fixes in the lesson); his moves are in reviewer/writer_draft.txt; tells_registry.json has W93 and J57 (W93 was W88 until main's community merge took that number); tests for each.
 - E187: a result is cited by its text, not its key. The turn-65 key ks1p4c was two files', and PARKED.md gave the opposite-claim paragraph's Human result (0.39) to the Buddhist view. Every other "read Human alone" claim in PARKED.md, and every paragraph installed from turn 64 on, matches a stored Human-alone result by its text.

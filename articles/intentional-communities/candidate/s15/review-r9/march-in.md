@@ -1,0 +1,5 @@
+In the villages and families I've spent time around, things often go through the extended family and the local memory, alongside the formal systems. Land, childcare, housing, food, obligations, you name it! Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
+
+In the villages and families I've spent time around, things often go through the extended family and the local memory, alongside the formal systems. That goes for land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
+
+In the villages and families I've spent time around, so much often passes through the extended family and the local memory, alongside the formal systems. Whether it's land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?

@@ -1,0 +1,5 @@
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No! For LGBTQ+ people it can be a brutal place, because the warmth has hard limits and they pay for crossing them.
+
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No! The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
+
+Now, I don't in any way think that Sénégal is some magical utopia where everyone still lives in a communal paradise, far from it. For LGBTQ+ people, the warmth has hard limits, and crossing them can be brutal.

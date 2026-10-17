@@ -119,9 +119,39 @@ def repeated(reports, draft=None, ledger=None, owner_files=None, minimum=2):
     return found
 
 
+LIST_ONLY = re.compile(r'for the cross-round count', re.I)
+FILLER = {'and', 'or', 'the', 'published', 'also', 'too', 'both'}
+
+
+def answered(phrase, dispositions_text):
+    """True when a line quotes the phrase and says something about it before the next quote: a fix or a reason.
+    2026-10-17: section 15's "apology" (the law's French "apologie", which Joel at 13:11 said should have been "advocacy") was
+    paused at in rounds r4 and r8, and both dispositions only listed it, "Phrases paused at, for the cross-round count: ...
+    "apology" (published), ...". The old test (the phrase anywhere in the file) took the list for an answer, so the tally
+    passed and nobody looked at the word. A list line answers nothing, and "(published)" is not a reason (gate: "A flag two
+    or more cold reads raise, published words included, gets a fix I propose")."""
+    k = norm(phrase)
+    said = lambda s: len([w for w in re.findall(r"[A-Za-z']{3,}", re.sub(r'\(\s*published\s*\)', ' ', s, flags=re.I))
+                          if w.lower() not in FILLER]) >= 2
+    for line in dispositions_text.splitlines():
+        if LIST_ONLY.search(line):
+            continue
+        nl = line.replace('“', '"').replace('”', '"').replace('’', "'")
+        quotes = list(re.finditer(r'"([^"]+)"', nl))
+        for m in quotes:
+            q = norm(m.group(1))
+            if q != k and k not in q:
+                continue
+            after = nl[m.end():]
+            nxt = after.find('"')
+            # what follows this quote, up to the next one; or, on a line that quotes only this phrase, the whole line
+            if said(after[:nxt] if nxt >= 0 else after) or (len(quotes) == 1 and said(nl[:m.start()] + ' ' + after)):
+                return True
+    return False
+
+
 def unanswered(found, dispositions_text):
-    d = norm(dispositions_text)
-    return [f for f in found if norm(f['quote']) not in d]
+    return [f for f in found if not answered(f['quote'], dispositions_text)]
 
 
 def main(argv=None):
