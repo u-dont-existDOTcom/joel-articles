@@ -2397,7 +2397,7 @@
   {
    "id": "published-first-person-pending-20261017",
    "status": "pending",
-   "what": "The rest of his published first-person lines go in with their sections. He has seen each whole and in context and said they're his words (question 43, 2026-10-17 22:59 UTC: \"43 my words\"): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his deepest peaks coming when he least wanted to exist, and his nibbana article (This human life is the most precious opportunity); his guides, the childhood ghosts and the window, the sleep-paralysis attacks, sending love, training others, the thugs, and \"If I were to do that\" (the Altered States sections), with their warnings in his words and no amounts or recipes. One line there isn't his: \"If a voice or urge is directing you towards harm ... as with myself and those ghosts at home, move away from that open window and get some outside support.\" is the guide's wording (\"that's therapy speak from AI based on my story, but it's ok if it passes\"). His Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building (turn 70).",
+   "what": "The rest of his published first-person lines go in with their sections. He has seen each whole and in context and said they're his words (question 43, 2026-10-17 22:59 UTC: \"43 my words\"): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his guides, the childhood ghosts and the window, the sleep-paralysis attacks, sending love, training others, the thugs, and \"If I were to do that\" (the Altered States sections), with their warnings in his words and no amounts or recipes. One line there isn't his: \"If a voice or urge is directing you towards harm ... as with myself and those ghosts at home, move away from that open window and get some outside support.\" is the guide's wording (\"that's therapy speak from AI based on my story, but it's ok if it passes\"). His Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building (turn 70). This human life is in too (turn 70).",
    "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"now that you are showing me in context exactly, i see i got paraphrased\" (experiments/t69-answers/JOEL-20261017-1856.md). 2026-10-17 22:59 UTC: \"43 my words. except the last one about voice or urge directing you towards harm, that's therapy speak from AI based on my story, but it's ok if it passes.\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "those sections, when humanized",
    "must_contain": [
@@ -2435,6 +2435,26 @@
    "must_not_contain": [
     "A question to borrow from your future self",
     "What can help is seeing how they got there."
+   ]
+  },
+  {
+   "id": "this-human-life-20261017-2259",
+   "status": "applied",
+   "what": "This human life is the most precious opportunity is in as he published it, with its two links: its first sentence is his first person (question 43, 6), and the turtle and the ticket are his guide's own sentences.",
+   "joel": "2026-10-17 22:59 UTC: \"43 my words\" (experiments/t70-answers/JOEL-20261017-2259.md).",
+   "where": "If You Want to Kill Yourself",
+   "must_contain_exact": [
+    "As I mentioned in my [nibbana article](http://nibbana.u-dont-exist.com/), I’ve had my most profound spiritual peak experiences and realizations when I had the least interest in continued existence. And the Buddha taught in [MN 129](https://suttacentral.net/mn129/en/sujato), attaining a human birth is as rare and precious as it would be for a one-eyed turtle to pop his head up through a hoop on the surface of the vast ocean. You won the cosmic jackpot, so don’t throw away the ticket before you open the envelope to find it!"
+   ],
+   "must_link": [
+    {
+     "text": "nibbana article",
+     "url": "http://nibbana.u-dont-exist.com/"
+    },
+    {
+     "text": "MN 129",
+     "url": "https://suttacentral.net/mn129/en/sujato"
+    }
    ]
   },
   {
