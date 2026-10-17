@@ -28,11 +28,24 @@ NEW_HEAD = ('Last updated 2026-10-17 in the evening, after your message of 19:14
             'decided and what I did about it, and what\'s coming up next.\n')
 assert page.count(OLD_HEAD) == 1
 page = page.replace(OLD_HEAD, NEW_HEAD)
+FIXES = [('It started as Emulate\'s aside "(one is enough!)", and I made it its own sentence in an earlier round to give the paragraph a break: the same cheat you suspected in Emulate. My own turn instead ("(One is plenty for now.)") still failed the linter on the paragraph\'s coaching tone.',
+          'I wrote it in an early round, as a joke on your published "handle one disagreement"; Emulate kept it as an aside, and I made it its own sentence again to give the paragraph a break: the same cheat you suspected in Emulate. My own turn instead ("(One is plenty for now.)") got a break in both reads, but the linter flags the paragraph\'s coaching tone with or without it, so I didn\'t run it in Pangram.'),
+         ('Fixed, with your published words, each checked in Pangram:',
+          "Fixed, with your published points back (in the rewrite's wording, close to yours), each checked in Pangram:")]
+for old, new in FIXES:   # the fact-check of 19:12 UTC (the origin of "One disagreement is enough!"; "published words")
+    assert page.count(old) == 1, old[:60]
+    page = page.replace(old, new)
 q48a = page.index('**🟣 48. ')
 q48b = page.index("If you don't answer, c.", q48a) + len("If you don't answer, c.")
 old48 = page[q48a:q48b]
 rep = re.search(r'^- One repeat: .*$', old48, flags=re.M).group(0)
 length = re.search(r'^- Length: .*$', old48, flags=re.M).group(0)
+old_t = 'A tightening pass would cut repeats inside it, with every paragraph and the section checked again.'
+assert length.count(old_t) == 1
+length = length.replace(old_t, 'A tightening pass would cut repeats inside it and put back the anchor a cold reader missed at '
+                        '"There will be bottlenecks, sorry." ("Bottlenecks in what?"; your published "A money-free community '
+                        'still has scarce things and bottlenecks.", cut in v34 as a repeat of section 4), with every paragraph and '
+                        'the section checked again.')
 NEW48 = ('**🟣 48. Sections 13 and 14 (accepted): two exclamation phrases, one repeat, and length.** Your "i agree with your excl 13 '
          '14 ideas" is done (Decided, below), except two of the cuts: each phrase is its paragraph\'s only turn, and without it both '
          'readers found a run of steps, so by your 43 ("give me the paragraph and i\'ll help") these two are yours. Each is still as '

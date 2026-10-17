@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1824,
-  "right": 1328,
+  "calls": 1843,
+  "right": 1347,
   "since_review": {
-   "calls": 1422,
-   "right": 1073,
-   "passed": 854
+   "calls": 1441,
+   "right": 1092,
+   "passed": 873
   },
   "today": {
-   "calls": 872,
-   "right": 672,
-   "passed": 539
+   "calls": 891,
+   "right": 691,
+   "passed": 558
   }
  },
  "windows": [
@@ -253,6 +253,14 @@
    "right": 55,
    "passed": 57,
    "always_ai_right": 12
+  },
+  {
+   "from": 420,
+   "to": 429,
+   "calls": 19,
+   "right": 19,
+   "passed": 19,
+   "always_ai_right": 0
   }
  ],
  "misses": [

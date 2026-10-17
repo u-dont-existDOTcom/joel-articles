@@ -85,10 +85,11 @@ out = {'title': 'Your Little Forming Group Already Is the Community · section 1
                  'that paragraph alone (your rule: every paragraph passes alone), and what your decision on the exclamations changed.',
                  'The whole section reads %s (420g, %s words, AI likelihood %.2f): %s' % (whole[0].replace(' Written', ''),
                                                                                                   whole[2], whole[1], WHOLE),
-                 'What changed since v34: the exclamations list you agreed with at 19:14 ("i agree with your excl 13 14 ideas"), and two '
-                 'more the list missed because each had an emoji after its mark ("Not exactly a high bar! 😅" and "(Hint: not the person '
-                 'who recruited them! 😜)"), which got the same treatment, the emoji staying. Kept: "That\'s okay!", "(And who owns the '
+                 'What changed since v34: the exclamations list you agreed with at 19:14 ("i agree with your excl 13 14 ideas"). The list '
+                 'missed two, because each has an emoji after its mark: "Not exactly a high bar! 😅" got the same treatment, the emoji '
+                 'staying, and "(Hint: not the person who recruited them! 😜)" stays as it is. Kept: "That\'s okay!", "(And who owns the '
                  'land!)", "Being open to everybody felt so spiritual!", "(Hopefully not all at once!)" and the quoted visitor\'s own. '
+                 'Held back: the cuts of "Very important!" and "Lots of decisions to make!", each its paragraph\'s only turn (question 48). '
                  'Section 14 keeps all of its own, as the list said.'],
        'blocks': blocks}
 mp = S13 / 'page' / 'ic13-v35.json'
