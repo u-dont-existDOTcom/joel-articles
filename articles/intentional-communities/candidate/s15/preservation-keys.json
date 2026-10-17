@@ -276,19 +276,35 @@
   },
   {
    "id": "U15",
-   "what": "the amended article also criminalizes public \"apology\" for homosexuality and certain financing or support meant to promote it",
+   "what": "the amended article also criminalizes public advocacy for homosexuality (Joel's translation of the law's \"apologie\"; he cut the financing clause as redundant)",
    "keys": [
     [
-     "apology"
+     "advocacy"
     ],
     [
-     "financing",
-     "funding"
+     "homosexuality"
     ],
     [
-     "promote"
+     "crime",
+     "criminal"
     ]
-   ]
+   ],
+   "was": {
+    "what": "the amended article also criminalizes public \"apology\" for homosexuality and certain financing or support meant to promote it",
+    "keys": [
+     [
+      "apology"
+     ],
+     [
+      "financing",
+      "funding"
+     ],
+     [
+      "promote"
+     ]
+    ]
+   },
+   "joel": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt): \"the french word apology should have been translated as 'advocacy' and it doesn't need to be in quotes. and then we can remove the ', along with certain financing or support meant to promote it.' as that sounds redundant.\""
   },
   {
    "id": "U16",
@@ -633,6 +649,9 @@
    "what": "this is also the boundary problem a money-free commune has to solve",
    "keys": [
     [
+     "this is also"
+    ],
+    [
      "boundary"
     ],
     [
@@ -641,7 +660,22 @@
      "without money",
      "money free"
     ]
-   ]
+   ],
+   "was": {
+    "what": "this is also the boundary problem a money-free commune has to solve",
+    "keys": [
+     [
+      "boundary"
+     ],
+     [
+      "money-free",
+      "moneyless",
+      "without money",
+      "money free"
+     ]
+    ]
+   },
+   "joel": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt): \"you replaced 'this is ' with 'it's'... 'this' is not the same as 'it'... you can't use those interchangeably all the time.\""
   },
   {
    "id": "U37",
@@ -797,6 +831,19 @@
      "belonging"
     ]
    ]
+  },
+  {
+   "id": "U44b",
+   "what": "he understands the motivation to negotiate like that, but thinks it's not a full solution either (Joel's own sentence, in place of the added \"I like that.\")",
+   "keys": [
+    [
+     "understand the motivation"
+    ],
+    [
+     "not a full solution"
+    ]
+   ],
+   "joel": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt): \"for p6 at the end you added 'i like that.' why? I actually don't know that i like that ... I'd rather say that... i understand the motivation to negotiate like that but i think it's not a full solution either.\""
   },
   {
    "id": "U45",

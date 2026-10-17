@@ -669,19 +669,32 @@
   },
   {
    "id": "U38",
-   "what": "do those three things before you spend serious time or money looking for land",
+   "what": "look before you leap: it will save you time and money (Joel's own words of 2026-10-17 13:11 UTC for the published \"do those three things before you spend serious time or money looking for land\")",
    "keys": [
     [
-     "three things",
-     "3 things"
+     "look before you leap"
     ],
     [
-     "land"
-    ],
-    [
-     "money"
+     "time & money",
+     "time and money"
     ]
-   ]
+   ],
+   "was": {
+    "what": "do those three things before you spend serious time or money looking for land",
+    "keys": [
+     [
+      "three things",
+      "3 things"
+     ],
+     [
+      "land"
+     ],
+     [
+      "money"
+     ]
+    ]
+   },
+   "joel": "2026-10-17 13:11 UTC, question 42: \"I replaced the AI lines with: '... Look before you leap. It will really save you some time & money.' ... I felt like 'do those three things' also sounded ai bc instruction manual + ai always doing three things.\" (joel-20261017/joel-20261017-1311-message.txt)"
   },
   {
    "id": "U39",

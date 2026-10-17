@@ -39767,7 +39767,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s15/preservation-keys.json",
-          "sha256": "81175e648361212a2e6444ce2a31cbfe98fab45eab54f4d43b3bb7f4c233f77f",
+          "sha256": "b8451fcb1288ec386c64aa17b1e15b606d60b78d894ee5b308e99c8ddcad903a",
           "role": "humanization_working_record"
         },
         {
@@ -40052,7 +40052,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s16/preservation-keys.json",
-          "sha256": "d4962f6acb20cd439aa9ed9c3f16b5aeb5bea1e46691d5160349c6ae3259a555",
+          "sha256": "5822ce11e9d2218a0aacc08bdf4d9373ca167dfd2727d946737346f7cc0d4ad1",
           "role": "humanization_working_record"
         },
         {
@@ -47353,6 +47353,41 @@
         {
           "path": "articles/intentional-communities/candidate/s16/page/ic16-v26.json",
           "sha256": "d02690c54dc81cafb9aae0b7d4256b4b029056ec803d68dbf198a263e21c704c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/images/psypost-relational-mobility.png",
+          "sha256": "8e52f2d04729d36fd8af0c7a06aa7a2c8dc04a9daf3842c0b5f347d023753881",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261017/joel-20261017-1311-message.txt",
+          "sha256": "5cd26db890ddca04cb67751bfe5096045e7b13746435c5e0ccd9e2659edfb085",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261017/psypost-screenshot-1311.png",
+          "sha256": "8e52f2d04729d36fd8af0c7a06aa7a2c8dc04a9daf3842c0b5f347d023753881",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/make_v13.py",
+          "sha256": "bf506797fd3ef832de06c507f56c899ccff96e67778b1aaa93a4c835b38d1920",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/v13.md",
+          "sha256": "20f0785a55426fd5f79839bb2a8e18867b004aed12cecde80664129044db11a3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/make_v28.py",
+          "sha256": "06eb9c20a6e3e2ffc243fd09d700c1561a357ded499b7f70b2c2714eee01d1fa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/v28.md",
+          "sha256": "66ff17a07e596d98dd31682c294ef7adb05a4498aeca676e2728824607a516e9",
           "role": "humanization_working_record"
         }
       ]
