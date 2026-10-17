@@ -1,0 +1,252 @@
+{
+ "S16v10dd-H1-P1+P2": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 89
+ },
+ "S16v10dd-H1-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 122
+ },
+ "S16v10-H1-P3": {
+  "kind": "screen",
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 82
+ },
+ "S16v10dd-H1": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 175
+ },
+ "S16v10dd": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B",
+   "S S B S",
+   "S B B S",
+   "S B B",
+   "S B B",
+   "S S B S",
+   "S S B S",
+   "S B S",
+   "S B S",
+   "S S S S S B B",
+   "S S S S S B S",
+   "B S",
+   "B S",
+   "S B S S",
+   "S B S S",
+   "S S B",
+   "S S B",
+   "B S S S B",
+   "B S S S S",
+   "B S S S",
+   "B S S S",
+   "B S S S S",
+   "B S S S S",
+   "B S",
+   "B S",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph",
+  "lint": "REVIEW",
+  "words": 787
+ },
+ "S16v10db-H1-P1+P2": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 98
+ },
+ "S16v10db-H1-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 131
+ },
+ "S16v10db-H1": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 184
+ },
+ "S16v10db": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B",
+   "S S B S",
+   "S B B S",
+   "S B B",
+   "S B B",
+   "S S B S",
+   "S S B S",
+   "S B S",
+   "S B S",
+   "S S S S S B B",
+   "S S S S S B S",
+   "B S",
+   "B S",
+   "S B S S",
+   "S B S S",
+   "S S B",
+   "S S B",
+   "B S S S B",
+   "B S S S S",
+   "B S S S",
+   "B S S S",
+   "B S S S S",
+   "B S S S S",
+   "B S",
+   "B S",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph",
+  "lint": "REVIEW",
+  "words": 796
+ },
+ "S16v10ed-H1-P1+P2": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 83
+ },
+ "S16v10ed-H1": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "s16/review-r18; the rest as in 342g",
+  "lint": "REVIEW",
+  "words": 169
+ },
+ "S16v10ed": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B",
+   "S S B S",
+   "S B B S",
+   "S B B",
+   "S B B",
+   "S S B S",
+   "S S B S",
+   "S B S",
+   "S B S",
+   "S S S S S B B",
+   "S S S S S B S",
+   "B S",
+   "B S",
+   "S B S S",
+   "S B S S",
+   "S S B",
+   "S S B",
+   "B S S S B",
+   "B S S S S",
+   "B S S S",
+   "B S S S",
+   "B S S S S",
+   "B S S S S",
+   "B S",
+   "B S",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph",
+  "lint": "REVIEW",
+  "words": 781
+ }
+}
