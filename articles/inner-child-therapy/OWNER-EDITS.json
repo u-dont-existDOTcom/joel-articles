@@ -2386,24 +2386,56 @@
   {
    "id": "published-first-person-20261017",
    "status": "applied",
-   "what": "His published first-person lines are his words (E188), and four are back where his article and guide have them: his father's suggestion (Remember When You Already Did It), the kindergarten recess (A Heart-to-Child Loop), \"I get stricter about spirituality, not looser\" and his father's line to suicidal people (If You Want to Kill Yourself).",
-   "joel": "2026-10-17 16:58 UTC: \"39 what do you mean those aren't in my words? yes they are, pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md).",
+   "what": "Four of his published first-person lines went back where his article and guide have them (E188): his father's suggestion (Remember When You Already Did It), the kindergarten recess (A Heart-to-Child Loop), \"I get stricter about spirituality, not looser\" and his father's line to suicidal people (If You Want to Kill Yourself). Turn 69 (E189): two of them were paraphrases of him, his father's suggestion and \"I get stricter about spirituality\", and his own words replace them (remember-when-joel-20261017-1856, crisis-opening-joel-20261017-1856). The other two stay; he has seen them shortened, and question 43 shows them in full.",
+   "joel": "2026-10-17 16:58 UTC: \"39 what do you mean those aren't in my words? yes they are, pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"all those were my words, except now that you are showing me in context exactly, i see i got paraphrased about my father... oh and actually i was paraphrased for if you want to kill yourself as well\" (experiments/t69-answers/JOEL-20261017-1856.md).",
    "where": "Simple Practices; If You Want to Kill Yourself",
    "must_contain_exact": [
-    "My father often suggested remembering a time when I met a difficulty in a way I respected.",
     "One punch there hurts a lot, as I sadly learned while getting beaten up every day at kindergarten recess by a gang organized by my best friend. Can you believe it?",
-    "When somebody tells me they want to kill themselves, I get stricter about spirituality, not looser.",
     "My father used to tell suicidal people, \"Oh, you want to kill yourself? That's wonderful. Now you can change what you've always been too afraid to change in your life, and then see if you still want to end it!\" His point wasn't that dying is wonderful."
    ]
   },
   {
    "id": "published-first-person-pending-20261017",
    "status": "pending",
-   "what": "The rest of his published first-person lines go in with their sections (E188): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his deepest peaks coming when he least wanted to exist, his nibbana article, the turtle and the ticket (This human life is the most precious opportunity); the childhood ghosts and the window, the sleep-paralysis attacks, training others, and his guides (the three Altered States sections), with their warnings in his words and no amounts or recipes.",
-   "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md).",
+   "what": "The rest of his published first-person lines go in with their sections, each once he has seen it in full and in context and said it's his wording, or with his own words in its place (E189; question 43): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his deepest peaks coming when he least wanted to exist, his nibbana article, the turtle and the ticket (This human life is the most precious opportunity); the childhood ghosts and the window, the sleep-paralysis attacks, training others, and his guides (the three Altered States sections), with their warnings in his words and no amounts or recipes; Hearthwork, \"my peer-counseling framework\" (Speak Toward What You Are Building).",
+   "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"now that you are showing me in context exactly, i see i got paraphrased\" (experiments/t69-answers/JOEL-20261017-1856.md).",
    "where": "those sections, when humanized",
    "must_contain": [
     "Xandria"
+   ]
+  },
+  {
+   "id": "remember-when-joel-20261017-1856",
+   "status": "applied",
+   "what": "Remember When You Already Did It P1 opens with Joel's own words for his father's suggestion and his sister's line (question 39), with one obvious fix (his link had a space between ] and \"(\"); his published paraphrase is out. The rest of the paragraph is my humanized version of the guide's (experiments/t69-guide/drafts/rw-b1.txt).",
+   "joel": "2026-10-17 18:56 UTC: \"i see i got paraphrased about my father... change that para to say\" (experiments/t69-answers/JOEL-20261017-1856.md).",
+   "where": "Remember When You Already Did It",
+   "must_contain_exact": [
+    "My father often suggested folks remember a similar-level (or even harder) challenge that they were able to handle. Maybe you survived a car crash and surgery a few years ago, but now you're having trouble with emotional eating. You can draw strength from the past. As my sister, a historian, likes to say, [\"The past didn't go anywhere.\"](https://theanarchistlibrary.org/library/april-rosenblum-the-past-didn-t-go-anywhere)"
+   ],
+   "must_not_contain": [
+    "My father often suggested remembering a time when I met a difficulty in a way I respected.",
+    "] (https://theanarchistlibrary"
+   ],
+   "must_link": [
+    {
+     "text": "\"The past didn't go anywhere.\"",
+     "url": "https://theanarchistlibrary.org/library/april-rosenblum-the-past-didn-t-go-anywhere"
+    }
+   ]
+  },
+  {
+   "id": "crisis-opening-joel-20261017-1856",
+   "status": "applied",
+   "what": "If You Want to Kill Yourself opens with Joel's own two sentences in place of his published first sentence (question 39), as its own paragraph like the first sentence in his guide, with one obvious typo fixed: \"proselytize\" for his \"prosletyze\".",
+   "joel": "2026-10-17 18:56 UTC: \"i was paraphrased for if you want to kill yourself as well.  the first sentence should be expanded to\" (experiments/t69-answers/JOEL-20261017-1856.md).",
+   "where": "If You Want to Kill Yourself",
+   "must_contain_exact": [
+    "I try not to proselytize about spirituality, because I've made that mistake before, and I now see that it's better to let folks find it when they are ready. But when someone tells me they want to kill themself, I consider the topic to be brutally opened by default, regardless of whether they meant to do that, because if they actually do kill their body (which they might mistake to be their self), that's a very powerful spiritual challenge right there, even if they didn't realize it would be."
+   ],
+   "must_not_contain": [
+    "I get stricter about spirituality",
+    "prosletyze"
    ]
   },
   {
