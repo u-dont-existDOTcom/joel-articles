@@ -897,9 +897,59 @@ What was it? It might have been hope, or desperation. Maybe you were curious, or
 
 Rumi says you have to keep breaking your heart until it stays open. Some people find that deep grieving gives way to warmth, or to feeling connected. Some feel held, in the body. That describes what they feel, and it doesn't prove how the body produces it. Being loved can open grief from the other side, too. Someone takes care of you, and you think, "Why does this make me sad?" It can be sadness for the care that was missing, and that doesn't mean the love failed. While you're present and still choosing, stay with it. Once it's swamping you instead of opening you, slow down (like turning the song off for the night).
 
-<!-- Parked: How Much Happiness Do You Know Is Possible? (PARKED.md: P1, P2, P3 and P5 read Human alone, P4 never did, and the h2 read AI with every P4). It goes here. -->
+## How Much Happiness Do You Know Is Possible?
 
-<!-- Parked between the love section and this one (experiments/t65-guide/PARKED.md, with what each needs from Joel): If You Want to Kill Yourself (the crisis steps read Human alone; the adult-in-the-room paragraph never did, and the section reads AI without it); This human life is the most precious opportunity (the guide's first person about his own life); Altered States Can Deepen the Therapy, Altered States Can Require Reparenting and Non-altered states can feel like this too (his own stories, guides and images). They go here, in that order. -->
+<!-- Turn 67 (E186), my own draft (experiments/t67-guide/drafts/lm4-p1-j6.txt; GROUNDING-lm4.md): what you picture when you wish someone well, practical love (babies get it), and how far the wish reaches depending on the happiness you know is possible. The turn-65 P1 read Human alone, but the h2 read AI over it with every P2 and P3 (its first sentence echoed the heading); without any P1 the h2 read Human (round t67c). Alone Human Written (0.37, low), https://www.pangram.com/history/2cb5b084-39b3-425a-af1f-218bfa1b0052. -->
+
+What do you picture when you wish someone well? Probably them fed and safe, with people around who like them, stuff like that. Wanting that for somebody is love (babies get this part already), and practical love matters a lot. How far the wish can reach depends partly on the kind of happiness you know is possible, though.
+
+<!-- Turn 67 (E186), my own draft (lm4-p2-j3): a big spiritual experience can show a peace or a love you didn't know existed; why loving-kindness can sound simple or powerful; repeating the phrase isn't automatically profound love (the grounding's [7]), and it's one way to find and grow it. Alone Human Written (0.011, low), https://www.pangram.com/history/21264e66-a92b-4a1d-bc64-416a8e0f6d13. -->
+
+But what if you've had a big spiritual experience, and it showed you a kind of peace, or a love, you didn't know existed? Then "I want you to be happy" means something much bigger, almost overnight. Loving-kindness meditation can sound comically simple to someone who's never been near that, which makes sense, and so powerful to someone who has. Repeating "may you be happy" isn't some automatic shortcut to profound love, of course. It's one way to find that love and grow it.
+
+<!-- Turn 67 (E186), my own draft (lm4-p3-j2): follow the curiosity without pretending to believe; read and meet people across traditions; judge a path by its fruits, not by how certain it makes people (the guide's G4.11, which the turn-65 writer's version had lost). Alone Human Written (0.03, low), https://www.pangram.com/history/76179f60-f36c-4f03-9011-f7462be1df33. -->
+
+Curious about that bigger happiness? Then follow the curiosity, and skip pretending to believe. Read people from different traditions. Meet a few whose lives make you wonder what they found, if you can (you may know one already, someone who's happy in a way that doesn't quite add up). And watch the fruits. Is the path making them more loving, and better at facing suffering, or mainly more certain they're right?
+
+<!-- Turn 67: Joel's P4, word for word (2026-10-17 14:01 UTC, his answer to question 34: "this one is human"; experiments/t67-answers/JOEL-20261017-1401.md). His check counts for it alone. With it, the h2 read Human Written (0.38, high, 349 words), https://www.pangram.com/history/c0f1db60-a061-432a-a565-689a841c09e2, and the h1 When Love Still Feels Missing Human Written (0.25, high, 868 words), https://www.pangram.com/history/955c23e0-561f-4652-90ef-69e7610f7663 (round t67e). -->
+
+Sometimes care isn't the main thing missing. A meal can help, and so can a boundary or a kind sentence, but is that actually targeting the deeper existential question underneath? Life shouldn't be just something you endure, like a hamster wheel or a rat race. What would you need to bring zest to a life of discovery?
+
+<!-- Turn 65, my own draft (lm4-p5-c): curiosity can be enough, and the limits of what you've felt aren't the limits of what's possible. Alone Human Written (0.002, low), https://www.pangram.com/history/c690f23b-fdb2-4e14-a2ed-663e50460455. -->
+
+Curiosity can be enough here, something like "Other people say they've felt a depth of love or peace that I never have. I don't know if I believe their explanation. But what if the experience is possible for me?" Don't assume the limits of what you've felt so far are the limits of what's possible.
+
+# If You Want to Kill Yourself
+
+<!-- Turn 65 (E177), my own draft (writers/ks12-w8-p1; GROUNDING-ks01.md's MUSTs: a crisis line or emergency number counts as another human being, and if you can't tell whether it's you, treat it like it is). Alone Human Written (0.2, low), https://www.pangram.com/history/981ab947-596f-4de7-8c7f-adbe370c04fe. -->
+
+Maybe you're reading this with a plan, or the means, close by. Then before anything else, get another human being involved, and put some distance between you and the means. A crisis line or an emergency number counts, and the person on the other end can be a total stranger. Do the same if you can't stop yourself, or you're badly disoriented or intoxicated. Can't tell if that's you? Treat it like it is. This isn't me answering whether life is worth living. It just keeps the question open long enough to look at.
+
+<!-- Turn 67: Joel's P2, word for word (2026-10-17 14:01 UTC, his answer to question 32: "i removed most of the AI tells, this is now human and it makes more sense"; experiments/t67-answers/JOEL-20261017-1401.md). His check counts for it alone. -->
+
+Then, before getting all philosophical, make sure there's a real, live grown-up in the room or on the phone, if that's possible. And as for the internal psychology of it, when the part that wants to die feels like all of you, go ahead and notice who's doing the noticing (as we discussed in Noticing Counts), or borrow an adult from the adult lending library in your head :). Any part of you that can help keep your body safe, or would rather wait on a decision you can't undo, is welcome. And if none of them shows up yet? No problem, the questions can wait.
+
+<!-- Turn 65, my own draft (ks1-p3-a): what is the self you want to kill, and what makes you sure destroying the body ends a state of mind. Alone Human Written (0.002, low), https://www.pangram.com/history/a691708e-29fa-4c24-802d-4f27c341a066. -->
+
+Then ask: what is the self you want to kill? Is that self the same thing as your body? Why? Do you have the same body in dreams? What exactly do you expect your body's death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?
+
+<!-- Turn 67 (E186, E187), my own draft (experiments/t67-guide/drafts/ks4-o.txt): the Buddhist view in plain words, close to the guide. The turn-65 record said an earlier version read Human alone; that result was another file's (E187), and fourteen versions had read AI (0.36 to 0.98) before this one. Alone Human Written (0.099, low), https://www.pangram.com/history/6c232c89-9116-4d0c-accb-c662f29f9ac7. -->
+
+In Buddhism, death isn't an off switch, and it isn't a free get-out-of-jail card back to the source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms. A human birth is a rare chance to understand suffering and end its causes. You don't have to believe that, of course.
+
+<!-- Turn 65's ks1-p4c (the grounding's [16]: for someone weighing it, and anyone at the edge does the first step first; alone Human 0.39) with its last sentence changed in turn 67 (drafts/ks4b-e1.txt), since the h1 had an AI window from it into P5. Alone Human Written (0.19, low), https://www.pangram.com/history/1c284efa-a488-49ea-9829-a18c8cd5cdab. -->
+
+But if you're still weighing your life against the opposite claim, look into that claim first (and if you're at the edge right now, the first step above comes before any of this). Near-death experiences and seriously studied rebirth reports can't give you reliable odds about death. They can still put a dent in the certainty that destroying the body means nothing comes after.
+
+<!-- Turn 65's ks1-p5-b (alone Human 0.086) changed in turn 67 (drafts/ks5-e2.txt): its first sentence (its "that momentum" had nothing to point to after P4b), its three short claims (two kept, isolation an aside) and its "without taking away" ending (E186). Alone Human Written (0.2, low), https://www.pangram.com/history/22b9a51c-c3c4-46dd-8ede-a73ad8a59a8e. "The accumulating scientific evidence" is the guide's claim, still Joel's to call (OWNER-QUESTIONS). -->
+
+And you can watch the mind pick up momentum inside this one life, too. Rumination feeds rumination, and the more you hate yourself, the better your mind gets at it (being isolated doesn't help). Physical life keeps handing you redirections, though, like other people and things you have to do, and help when you reach for it. If the many traditions and the accumulating scientific evidence are right that the mind's causal process goes on after the body dies, killing the body may take away some of those redirections and leave the suffering right where it was.
+
+<!-- Turn 65, my own draft (ks1-p6-d): the change you still can't make; smaller than dying but not free, and it can wait until you're calmer and have help (the grounding's [28]). Alone Human Written (0.022, low), https://www.pangram.com/history/04587d39-7d40-4cd2-b6b1-96173fe546ae. The h1 with every paragraph read Human Written (0.24, high, 601 words), https://www.pangram.com/history/71cbf2e1-e6dd-4d34-a1b7-96cd6b4a192f (round t67e). -->
+
+So, if everything's already on the table, what's the change you still can't bring yourself to make? Leaving? Quitting? Moving? Telling your family who you really are? Those aren't free, and you can't always take them back, but they're smaller than dying, and they can wait until you're calmer and have some help. Look at that life you've been afraid to change while you still have a human body, and people around to help redirect the path.
+
+<!-- Parked between this section and When the Practice Feels Real but Stays Shallow (experiments/t65-guide/PARKED.md, with what each needs from Joel): This human life is the most precious opportunity (the guide's first person about his own life); Altered States Can Deepen the Therapy, Altered States Can Require Reparenting and Non-altered states can feel like this too (his own stories, guides and images). They go here, in that order. -->
 
 # When the Practice Feels Real but Stays Shallow
 

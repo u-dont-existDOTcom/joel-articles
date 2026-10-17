@@ -34,6 +34,10 @@ def joel(stem):
     return (T / (stem + '.txt')).read_text(encoding='utf-8').strip()
 
 
+def draft(stem):
+    return (T / 'drafts' / (stem + '.txt')).read_text(encoding='utf-8').strip()
+
+
 def photos():
     """His section as he sent it, with the one obvious typo fixed under his rule (2026-10-06): "glean" for "gleam"."""
     t = joel('joel-photos-h2')
@@ -76,25 +80,64 @@ def installs(names=None):
                 '"glean" for "gleam" in P2. His check counts for the section as he sent it. @@PHOTOS@@ -->\n\n' + body.strip() +
                 '\n\n<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md): Close the Session and Return to Life. '
                 'It goes here. -->'))
-    # 34: How Much Happiness, with his P4
+    # 34: How Much Happiness, with his P4, and new P1 to P3 of mine (rounds t67b to t67e: with the turn-65 ones the h2 read AI)
     old = find(r"<!-- Parked: How Much Happiness Do You Know Is Possible\?.*?It goes here\. -->")
     out.append(('lm4', old,
                 '## How Much Happiness Do You Know Is Possible?\n\n'
-                '<!-- Turn 65 (E177), my own draft (lm4-p1-a, experiments/t65-guide/; GROUNDING-lm4.md): part of love is wanting '
-                'someone to be well, and how far the wish reaches depends partly on the happiness you know is possible; practical '
-                'love matters. Alone Human Written (0.34, low), https://www.pangram.com/history/fd9e5026-04d5-4984-8575-6778f5ededd1. -->\n\n'
-                + g65('lm4-p1-a') + '\n\n'
-                '<!-- Turn 65, my own draft (lm4-p2-a2): a big spiritual experience can show a peace or love you didn\'t know existed, '
-                'and loving-kindness meditation sounds simple until then. Alone Human Written (0.18, low), '
-                'https://www.pangram.com/history/d9c8418f-1376-494c-b6c6-e8eec760c2b6. -->\n\n' + g65('lm4-p2-a2') + '\n\n'
-                '<!-- Turn 65, round z, fresh writer 2 (writers/lm4-w2-p1): follow the curiosity, read people from different '
-                'traditions, judge a path by its fruits. Alone Human Written (0.15, low), '
-                'https://www.pangram.com/history/90ea50b3-6ebf-45af-af5d-4d2e81300bc5. -->\n\n' + g65('writers/lm4-w2-p1') + '\n\n'
+                '<!-- Turn 67 (E186), my own draft (experiments/t67-guide/drafts/lm4-p1-j6.txt; GROUNDING-lm4.md): what you picture '
+                'when you wish someone well, practical love (babies get it), and how far the wish reaches depending on the happiness '
+                'you know is possible. The turn-65 P1 read Human alone, but the h2 read AI over it with every P2 and P3 (its first '
+                'sentence echoed the heading); without any P1 the h2 read Human (round t67c). Alone Human Written (0.37, low), '
+                'https://www.pangram.com/history/2cb5b084-39b3-425a-af1f-218bfa1b0052. -->\n\n' + draft('lm4-p1-j6') + '\n\n'
+                '<!-- Turn 67 (E186), my own draft (lm4-p2-j3): a big spiritual experience can show a peace or a love you didn\'t '
+                'know existed; why loving-kindness can sound simple or powerful; repeating the phrase isn\'t automatically profound '
+                'love (the grounding\'s [7]), and it\'s one way to find and grow it. Alone Human Written (0.011, low), '
+                'https://www.pangram.com/history/21264e66-a92b-4a1d-bc64-416a8e0f6d13. -->\n\n' + draft('lm4-p2-j3') + '\n\n'
+                '<!-- Turn 67 (E186), my own draft (lm4-p3-j2): follow the curiosity without pretending to believe; read and meet '
+                'people across traditions; judge a path by its fruits, not by how certain it makes people (the guide\'s G4.11, '
+                'which the turn-65 writer\'s version had lost). Alone Human Written (0.03, low), '
+                'https://www.pangram.com/history/76179f60-f36c-4f03-9011-f7462be1df33. -->\n\n' + draft('lm4-p3-j2') + '\n\n'
                 '<!-- Turn 67: Joel\'s P4, word for word (2026-10-17 14:01 UTC, his answer to question 34: "this one is human"; '
                 + SAID + '). His check counts for it alone. @@LM4@@ -->\n\n' + joel('joel-lm4-p4') + '\n\n'
                 '<!-- Turn 65, my own draft (lm4-p5-c): curiosity can be enough, and the limits of what you\'ve felt aren\'t the '
                 'limits of what\'s possible. Alone Human Written (0.002, low), '
                 'https://www.pangram.com/history/c690f23b-fdb2-4e14-a2ed-663e50460455. -->\n\n' + g65('lm4-p5-c')))
+    # 32: If You Want to Kill Yourself, with his P2; the Buddhist view (P4) and the edits of P4b and P5 are this turn's
+    old = find(r"<!-- Parked between the love section and this one \(experiments/t65-guide/PARKED\.md, with what each needs "
+               r"from Joel\): If You Want to Kill Yourself.*?They go here, in that order\. -->")
+    out.append(('ks', old,
+                '# If You Want to Kill Yourself\n\n'
+                '<!-- Turn 65 (E177), my own draft (writers/ks12-w8-p1; GROUNDING-ks01.md\'s MUSTs: a crisis line or emergency number '
+                'counts as another human being, and if you can\'t tell whether it\'s you, treat it like it is). Alone Human Written '
+                '(0.2, low), https://www.pangram.com/history/981ab947-596f-4de7-8c7f-adbe370c04fe. -->\n\n' + g65('writers/ks12-w8-p1') +
+                '\n\n<!-- Turn 67: Joel\'s P2, word for word (2026-10-17 14:01 UTC, his answer to question 32: "i removed most of the '
+                'AI tells, this is now human and it makes more sense"; ' + SAID + '). His check counts for it alone. -->\n\n'
+                + joel('joel-ks-p2') + '\n\n'
+                '<!-- Turn 65, my own draft (ks1-p3-a): what is the self you want to kill, and what makes you sure destroying the '
+                'body ends a state of mind. Alone Human Written (0.002, low), '
+                'https://www.pangram.com/history/a691708e-29fa-4c24-802d-4f27c341a066. -->\n\n' + g65('ks1-p3-a') + '\n\n'
+                '<!-- Turn 67 (E186, E187), my own draft (experiments/t67-guide/drafts/ks4-o.txt): the Buddhist view in plain words, '
+                'close to the guide. The turn-65 record said an earlier version read Human alone; that result was another file\'s '
+                '(E187), and fourteen versions had read AI (0.36 to 0.98) before this one. Alone Human Written (0.099, low), '
+                'https://www.pangram.com/history/6c232c89-9116-4d0c-accb-c662f29f9ac7. -->\n\n' + draft('ks4-o') + '\n\n'
+                '<!-- Turn 65\'s ks1-p4c (the grounding\'s [16]: for someone weighing it, and anyone at the edge does the first step '
+                'first; alone Human 0.39) with its last sentence changed in turn 67 (drafts/ks4b-e1.txt), since the h1 had an AI '
+                'window from it into P5. Alone Human Written (0.19, low), '
+                'https://www.pangram.com/history/1c284efa-a488-49ea-9829-a18c8cd5cdab. -->\n\n' + draft('ks4b-e1') + '\n\n'
+                '<!-- Turn 65\'s ks1-p5-b (alone Human 0.086) changed in turn 67 (drafts/ks5-e2.txt): its first sentence (its "that '
+                'momentum" had nothing to point to after P4b), its three short claims (two kept, isolation an aside) and its '
+                '"without taking away" ending (E186). Alone Human Written (0.2, low), '
+                'https://www.pangram.com/history/22b9a51c-c3c4-46dd-8ede-a73ad8a59a8e. "The accumulating scientific evidence" is '
+                'the guide\'s claim, still Joel\'s to call (OWNER-QUESTIONS). -->\n\n' + draft('ks5-e2') + '\n\n'
+                '<!-- Turn 65, my own draft (ks1-p6-d): the change you still can\'t make; smaller than dying but not free, and it can '
+                'wait until you\'re calmer and have help (the grounding\'s [28]). Alone Human Written (0.022, low), '
+                'https://www.pangram.com/history/04587d39-7d40-4cd2-b6b1-96173fe546ae. The h1 with every paragraph read Human '
+                'Written (0.24, high, 601 words), https://www.pangram.com/history/71cbf2e1-e6dd-4d34-a1b7-96cd6b4a192f (round t67e). -->'
+                '\n\n' + g65('ks1-p6-d') + '\n\n'
+                '<!-- Parked between this section and When the Practice Feels Real but Stays Shallow (experiments/t65-guide/PARKED.md, '
+                'with what each needs from Joel): This human life is the most precious opportunity (the guide\'s first person about '
+                'his own life); Altered States Can Deepen the Therapy, Altered States Can Require Reparenting and Non-altered states '
+                'can feel like this too (his own stories, guides and images). They go here, in that order. -->'))
     # 33: Borrowed Adulthood, P1 (w8; with w9 the h1 read AI in round a) and his P2
     old = find(r"<!-- Parked between this section and the closing \(experiments/t65-guide/PARKED\.md, with what each "
                r"needs from Joel\): When One Life Has Ended.*?They go here, in that order\. -->")
