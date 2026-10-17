@@ -841,3 +841,14 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His merge of pull request #184 (turns 61 and 62).
 2. Group 10 of The Inner Guide Comes Later (`tools/targets/t56-ig10.json`: an external guru who demands surrender, and surrender from our side), the E179 way, installed only when each paragraph reads Human alone (E180).
+
+## Turn 63 (2026-10-17, from 00:21 UTC): group 10 as P10
+
+- **His message:** "continue", after merging pull request #184.
+- **In:** P10 of The Inner Guide Comes Later (group 10: a guru who demands surrender puts themselves where the source should be; surrender can come from our side, when someone seems to get your little one like nobody ever has or treats it like it's special). Alone Human 0.007; beside P9 Human 0.019, high; the h1 Human Written 0.062, high. The grounding and the cold read found it OK. Record: `t63-guide/REVIEWS.md`.
+- **What read AI first:** rounds a and b (eight drafts, 0.41 to 0.98 alone) kept one shape (the claim, a contrast, "doesn't always", the case) and the guide's words. What read Human: the abstract point as a joke in parentheses ("so, more or less, they'd like to be your God"), the little one's own words for the handover, and no casual "even" (the linter's O25).
+
+### Next
+
+1. His merge of this turn's pull request.
+2. Group 11 of The Inner Guide Comes Later (`tools/targets/t56-ig11.json`: manipulators who present as gifted but wounded, flawed but honest; compassion excusing what your evidence knows; an admitted flaw is evidence it exists now; self-awareness isn't correction), the E179 way, installed only when each paragraph reads Human alone (E180).

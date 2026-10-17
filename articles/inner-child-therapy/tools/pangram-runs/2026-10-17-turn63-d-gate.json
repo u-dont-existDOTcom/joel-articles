@@ -1,0 +1,66 @@
+{
+ "t63d_p910k": {
+  "kind": "screen",
+  "march": [
+   "P9 S B S S | P10 B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: P9+P10, p9-k and p10-k (p10-k read Human alone in round c)."
+ },
+ "t63d_p910l": {
+  "kind": "screen",
+  "march": [
+   "P9 S B S S | P10 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: P9+P10, p9-k and p10-l (p10-l read Human alone in round c)."
+ },
+ "t63d_p910o": {
+  "kind": "screen",
+  "march": [
+   "P9 S B S S | P10 B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: P9+P10, p9-k and p10-o (p10-o read Human alone in round c)."
+ },
+ "t63d_p910p": {
+  "kind": "screen",
+  "march": [
+   "P9 S B S S | P10 B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: P9+P10, p9-k and p10-p (p10-p read Human alone in round c)."
+ },
+ "t63d_h1k": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: the h1 with P10 = p10-k."
+ },
+ "t63d_h1l": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: the h1 with P10 = p10-l."
+ },
+ "t63d_h1o": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: the h1 with P10 = p10-o."
+ },
+ "t63d_h1p": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round d: the h1 with P10 = p10-p."
+ }
+}
