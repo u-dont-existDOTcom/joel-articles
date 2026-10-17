@@ -1301,3 +1301,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 64) | The Inner Guide Comes Later with P11 = p11b (1110 words) [t64a_secp11b], a screen | Human, low (my call) | Human Written (0.059, high; 1164), one Human window; 01:23:08 UTC, https://www.pangram.com/history/b4b14a00-85e5-4819-a1b6-4c3db7387316 | hit |
 | 2026-10-17 (turn 64) | The Inner Guide Comes Later with P11 = p11c (1103 words) [t64a_secp11c], a screen | Human, low (my call) | Human Written (0.062, high; 1156), one Human window; 01:23:19 UTC, https://www.pangram.com/history/25667554-f43b-457f-be46-423c15ed292d | hit |
 | 2026-10-17 (turn 64) | The Inner Guide Comes Later with P11 = p11d (1104 words) [t64a_secp11d], a screen | Human, low (my call) | Human Written (0.069, high; 1162), one Human window; 01:23:29 UTC, https://www.pangram.com/history/e1a2f300-1d2c-4ec8-a784-538abb3ad952 | hit |
+| 2026-10-17 (turn 65) | P12 (group 12), p12a alone (74 words) [t65a_p12a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12 (group 12), p12b alone (72 words) [t65a_p12b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12 (group 12), p12c alone (78 words) [t65a_p12c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12 (group 12), p12d alone (69 words) [t65a_p12d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P11+P12, with p12a (172 words) [t65a_pairp12a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P11+P12, with p12b (170 words) [t65a_pairp12b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P11+P12, with p12c (176 words) [t65a_pairp12c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P11+P12, with p12d (167 words) [t65a_pairp12d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12a (1184 words) [t65a_secp12a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12b (1182 words) [t65a_secp12b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12c (1188 words) [t65a_secp12c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12d (1179 words) [t65a_secp12d], a screen | Human, low (my call) | (pending) | |
