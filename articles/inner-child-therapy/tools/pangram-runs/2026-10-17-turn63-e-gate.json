@@ -1,0 +1,26 @@
+{
+ "t63e_p10q": {
+  "kind": "screen",
+  "march": [
+   "B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round e: p10-l's first two sentences (the bridge from P9's cult-survivor line, \"Some gurus really do demand surrender\", and \"the opposite of the Guide\") with p10-o's last (the little one's \"They know me better than I know myself.\", which says the judgment goes over); p10-q. March: my own reading."
+ },
+ "t63e_p910q": {
+  "kind": "screen",
+  "march": [
+   "P9 S B S S | P10 B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round e: P9+P10, p9-k and p10-q."
+ },
+ "t63e_h1q": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 63 round e: the h1 with P10 = p10-q."
+ }
+}

@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "98c497d35b43583b756043712f51825cc187902f9f2eb6fcc28deadd83cf195d"
+          "sha256": "fa3f64e1a8629e99aeb491448d305f68d8c79e6784a9b358b0287433c65929f8"
         }
       },
       "review": {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "c78b44daf5c5e0d02c37eb357b266dd1db7d9a3dc54e53b7cb8fafc45b421f6c",
+          "sha256": "0ff50faae34c3060c8a296570d2779cb444ef4fb09f136e32e556108fca0ce2d",
           "role": "detector_prediction_log"
         },
         {
@@ -9505,6 +9505,31 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn63-d.js",
           "sha256": "7f1a1489c82bb16fcd2b516c5cfcecdd66352d8ea9040cda417a4dd088ccb2ba",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t63-guide/p10-q.txt",
+          "sha256": "35467c30dc281d3d780f82d5fdb2b05b3e5ef765a70cd1f11e9bfabf57b097bf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn63-e-drafts.json",
+          "sha256": "ad7ecbdf27b1a3d48d2546241d41db8fdfe29d13f4cfa14c1eee0802bae76d66",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn63-e-gate.json",
+          "sha256": "e24d93d6d2a87c7c7caa713dfc4e659c41ecc7f27b01a4353d87adf92f327022",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn63-e-read.js",
+          "sha256": "4c2dccaad0c8502c4deb01f674325767e11e0c5f2a642094f76bfaf5a62fe750",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn63-e.js",
+          "sha256": "f01007545f993471f2f2ab2b128ee3ae027ba484de582867e0192089ba7da13e",
           "role": "detector_check_texts"
         }
       ]
