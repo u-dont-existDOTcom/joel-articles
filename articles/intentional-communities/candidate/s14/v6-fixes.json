@@ -1,0 +1,20 @@
+[
+ {
+  "id": "P2",
+  "old": "Who takes responsibility for bridging people’s food, housing and care, and any outside cash or benefits, if relevant?",
+  "new": "Who takes responsibility for bridging any outside cash or benefits people depend on, if relevant?",
+  "why": "repeats r3 item 2: food, housing and care are already asked about in the first two questions; the new part is the outside cash or benefits"
+ },
+ {
+  "id": "P5",
+  "old": "Institutions and relationships don’t die at the same time. What a relief!",
+  "new": "Institutions and relationships don’t die at the same time, and some of what people learned to give one another may go on too. What a relief!",
+  "why": "repeats r3 item 3: the last paragraph told P5's point again; its own part, what people learned to give one another, is here now"
+ },
+ {
+  "id": "P7",
+  "old": "Even after the community ends as a legal entity, some of what people learned to give one another may go on. I hope so, anyway.",
+  "new": "",
+  "why": "repeats r3 item 3: merged into P5 (the legal entity is P5's \"institutions\")"
+ }
+]

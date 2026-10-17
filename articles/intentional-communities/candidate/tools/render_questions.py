@@ -12,6 +12,9 @@ import sys
 
 import markdown
 
+sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parents[4] / 'tools' / 'humanization'))
+from html_links import autolink_markdown  # noqa: E402  Joel, 2026-10-16: "your links are not clickable"
+
 KINDS = {'🟣': ('q', 'Question for you'), '🟠': ('todo', 'For you to do'), '🔵': ('next', 'Next or in progress'),
          '🟢': ('done', 'Done or decided')}
 CALLOUTS = {'IMPORTANT': 'q', 'WARNING': 'todo', 'TIP': 'done', 'NOTE': 'next'}
@@ -69,6 +72,9 @@ ul.items { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; 
 ul.items > li { display: grid; grid-template-columns: .7rem 1fr; gap: .65rem; align-items: start; min-width: 0; }
 ul.items > li > .dot { margin-top: .45rem; }
 ul.items > li > div { min-width: 0; overflow-wrap: anywhere; }
+ul.items > li > div > p { margin: 0 0 .45rem; } ul.items > li > div > p:last-child { margin-bottom: 0; }
+ul.items > li > div ul { margin: .3rem 0 .45rem; padding-inline-start: 1.2rem; display: block; }
+ul.items > li > div li { display: list-item; margin: .2rem 0; }
 .gap { block-size: .4rem; }
 a { color: var(--link); text-underline-offset: 2px; }
 a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 2px; }
@@ -93,11 +99,16 @@ def render(md_text):
     def callout(m):
         return '\n<p class="callout %s">%s</p>\n' % (CALLOUTS[m.group(1)], html.escape(m.group(2).strip()))
     body = re.sub(r'(?m)^> \[!(IMPORTANT|WARNING|TIP|NOTE)\]\n> (.+)$', callout, body)
+    # GitHub nests a list item indented two spaces under the one before; python-markdown needs four, and with two it
+    # makes them siblings of the item, without a dot (2026-10-17: the sub-bullets of the dedup item)
+    body = re.sub(r'(?m)^ {2}(?=- )', '    ', body)
     # GitHub starts a list right after a paragraph line; python-markdown needs a blank line first
     body = re.sub(r'(?m)^((?!- )[^\n]+)\n(?=- )', r'\1\n\n', body)
-    # a blank line between two bullets separates groups (days); keep it as a gap, not a loose list
-    body = re.sub(r'(?m)^(- [^\n]*)\n\n(?=- )', r'\1\n- @@GAP@@\n', body)
-    out = markdown.markdown(body, extensions=['sane_lists'])
+    # blank lines between two bullets separate groups (days); keep them as one gap, not a loose list. Two blank lines
+    # used to slip past this (one was assumed), python-markdown then wrapped the items in <p>, and the grid put that
+    # <p> in the dot's .7rem column: one word per line (Joel's screenshot, 2026-10-16 23:38 UTC).
+    body = re.sub(r'(?m)^(- [^\n]*)\n(?:[ \t]*\n)+(?=- )', r'\1\n- @@GAP@@\n', body)
+    out = markdown.markdown(autolink_markdown(body), extensions=['sane_lists'])
     out = out.replace('<li>@@GAP@@</li>', '<li class="gap" aria-hidden="true"></li>')
     # legend paragraph
     def legend(m):
@@ -121,19 +132,86 @@ def render(md_text):
             blocks = re.split(r'(?=<p><strong>🟣)', content)
             content = blocks[0] + ''.join('<div class="q-block">%s</div>' % b for b in blocks[1:])
         else:
-            content = content.replace('<ul>', '<ul class="items">')
-            content = re.sub(r'<li>([🟣🟠🔵🟢]) (.*?)</li>', lambda m: '<li>%s<div>%s</div></li>' % (marker(m.group(1)), m.group(2)),
-                             content, flags=re.S)
+            content = status_lists(content)
         content = re.sub('[🟣🟠🔵🟢] ?', lambda m: marker(m.group(0).strip()), content)
         html_out.append('<section class="%s">%s%s</section>' % (cls, h, content))
     page = '\n'.join(html_out)
     page = page.replace('<p>The master copy of this page', '<p class="small">The master copy of this page')
+    bad = misplaced_items(page)
+    if bad:
+        raise ValueError('items the layout would squeeze into the dot column: %s' % '; '.join(b[:90] for b in bad))
     return STYLE + '<main>\n' + page + '\n</main>\n'
+
+
+TAG = re.compile(r'<(/?)(ul|li)\b[^>]*>')
+
+
+def top_items(html_text):
+    """(start, end, inner_start, inner_end, depth-0 ul start) for each top-level <li> of each top-level <ul>, nesting
+    counted, so an item holding its own list (sub-bullets) stays one item."""
+    out, depth, ul_start, li = [], 0, None, None
+    for m in TAG.finditer(html_text):
+        closing, name = m.group(1), m.group(2)
+        if name == 'ul':
+            if not closing:
+                if depth == 0:
+                    ul_start = m.start()
+                depth += 1
+            else:
+                depth -= 1
+        elif depth == 1:
+            if not closing and li is None:
+                li = (m.start(), m.end())
+            elif closing and li is not None:
+                out.append((li[0], m.end(), li[1], m.start(), ul_start))
+                li = None
+    return out
+
+
+def status_lists(content):
+    """The top-level lists of a status section become the dot-and-text grid; a nested list (sub-bullets of an item)
+    stays an ordinary list inside its item's text column. 2026-10-17: "items" went on every <ul>, nested ones too, so
+    sub-bullets landed in the .7rem dot column, the bug of Joel's screenshot again (misplaced_items caught it)."""
+    starts = sorted({u for *_, u in top_items(content)})
+    for u in reversed(starts):
+        content = content[:u] + re.sub(r'^<ul\b[^>]*>', '<ul class="items">', content[u:], count=1)
+    pieces, last = [], 0
+    for a, b, ia, ib, _ in top_items(content):
+        inner = content[ia:ib]
+        m = re.match(r'\s*(<p>)?([🟣🟠🔵🟢]) ', inner)
+        if m:
+            rest = inner[m.end():]
+            item = '<li>%s<div>%s%s</div></li>' % (marker(m.group(2)), '<p>' if m.group(1) else '', rest)
+            pieces += [content[last:a], item]
+            last = b
+    pieces.append(content[last:])
+    return ''.join(pieces)
+
+
+def misplaced_items(page):
+    """Every item of a status list must be the dot then its text column (or a gap); anything else lands in the
+    .7rem dot column of the grid and shows one word per line. Returns the items that don't fit. Only the top-level
+    items of each grid count: a list nested inside an item's text column is an ordinary list."""
+    bad = []
+    for a, b, ia, ib, u in top_items(page):
+        if not page.startswith('<ul class="items">', u):
+            continue
+        li = page[a:b]
+        if li.startswith('<li class="gap"') or re.match(r'<li><span class="dot \w+"[^>]*></span><div>', li):
+            continue
+        bad.append(re.sub(r'\s+', ' ', re.sub('<.*?>', '', li)).strip())
+    return bad
 
 
 def main():
     src, dst = sys.argv[1], sys.argv[2]
     text = open(src, encoding='utf-8').read()
+    # Joel, 2026-10-16 23:38 UTC: questions hid under "Coming up", unnumbered and without options (questions_lint.py)
+    sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
+    import questions_lint
+    bad = questions_lint.problems(text)
+    if bad:
+        raise SystemExit('questions_lint FAIL, the page was not written:\n- ' + '\n- '.join(bad))
     open(dst, 'w', encoding='utf-8').write(render(text))
     print('%s: %d bytes' % (dst, len(open(dst, encoding='utf-8').read())))
 

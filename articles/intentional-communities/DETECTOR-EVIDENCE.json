@@ -91,6 +91,38 @@
       "service": "Pangram web app (dashboard), unless the note says the API",
       "record": "CANDIDATE: section 12 v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written; trailing spaces taken out; links, the italics on \"right now\" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so.",
       "limitations": "Plain text checked, without link markup; a section the note calls Joel's own text was checked by him. Per-batch records are in candidate/sN/PREDICTIONS-sN.md."
+    },
+    {
+      "section": 14,
+      "version": "v5",
+      "passage": "section 14 v5 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard)",
+      "record": "CANDIDATE: section 14 v5 (2026-10-16): every group Human (batches 305g, 305g-x) and the whole section 100% Human, high (382 words, AI likelihood 0.19, batch 306g, https://www.pangram.com/history/c04a43b6-a611-4d68-bb76-2f644ee64654). Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup. Per-batch records are in candidate/s14/bNNN/PREDICTIONS.md."
+    },
+    {
+      "section": 13,
+      "version": "v31",
+      "passage": "section 13 v31 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard)",
+      "record": "CANDIDATE: section 13 v31 (2026-10-16): every subsection holding a changed paragraph Human with its exact text (batches 309g, 310g; the visitor subsection's paragraphs 304g and b298) and the whole section 100% Human, high (2,324 words, AI likelihood 0.10, batch 311g, https://www.pangram.com/history/0f17c2f0-8343-4b4a-9bb7-6b390136fd0b). Read alone, the visitor subsection's first 173 words read AI (304g); inside the section they read Human. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup. Per-batch records are in candidate/s13/bNNN/PREDICTIONS.md; gate records in candidate/s13/install/GATE-v31.json."
+    },
+    {
+      "section": 14,
+      "version": "v8",
+      "passage": "section 14 v8 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard)",
+      "record": "CANDIDATE: section 14 v8 (2026-10-17): every paragraph Human alone (batches 305g-x, 315g; tools/humanization/paragraphs_alone.py PASS) and the whole section 100% Human, high (373 words, AI likelihood 0.17, batch 316g, https://www.pangram.com/history/22059ea5-61c6-479a-b9c9-2cb8432b3df9). Its second paragraph is v5's: both shorter versions read AI alone (313g 0.78, 315g 0.96). Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup. Per-batch records are in candidate/s14/bNNN/PREDICTIONS.md and, for 316g, candidate/s13/b316/PREDICTIONS.md."
+    },
+    {
+      "section": 13,
+      "version": "v34",
+      "passage": "section 13 v34 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+      "service": "Pangram web app (dashboard)",
+      "record": "CANDIDATE: section 13 v34 (2026-10-17): every paragraph Human alone (batches 312g, 314g, 316g, 317g, 318g; tools/humanization/paragraphs_alone.py PASS) and the whole section 100% Human, high (2,195 words, two Human windows, AI likelihood 0.06, batch 317g, https://www.pangram.com/history/1240dc9f-b708-4440-9870-90c94b249502). The values stretch (H2-P2 to H2-P4) reads Human without the monologue before it (0.02, 317g); in 316g v33's read AI inside the whole section (291 words). The weakest paragraph alone: H2-P3 (0.25, low). Read alone, the visitor subsection's first 183 words read AI (304g, 314g, 316g); inside the section they read Human. Not accepted until Joel says so.",
+      "limitations": "Plain text checked, without link markup. Per-batch records are in candidate/s13/bNNN/PREDICTIONS.md; gate records in each batch's GATE.json."
     }
   ]
 }

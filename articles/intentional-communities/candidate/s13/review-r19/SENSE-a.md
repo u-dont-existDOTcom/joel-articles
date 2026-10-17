@@ -1,0 +1,29 @@
+[P1] OK
+[P2] OK
+[P3] OK
+[P4] OK
+[P5] OK
+[P6] OK
+[P7] OK
+[P8] OK
+[P9] OK
+[P10] OK
+[P11] OK
+[P12] OK
+[P13] OK
+[P14] OK
+[P15] OK
+[P16] OK
+[P17] OK
+[P18] OK
+[P19] OK
+[P20] OK
+[P21] OK
+[P22] OK
+[P23] OK
+[P24] OK
+[P25] OK
+[P26] OK
+[P27] OK
+
+Paused: P1 "Don't worry about getting land yet"; P3 "promising strangers"; P6 "Whenever you go to visit a community"; P7 "Both of them!"; P8 "ended in 1978"; P13 "make them leave everything they've put in"; P16 "correspond with them"; P20 "Six months will give you more data"; P23 "Visitors ... All of them should have clear terms" (earlier: "Friends who come to visit don't get written terms"); P27 "ombud"

@@ -1,0 +1,14 @@
+# Predictions and Pangram results: batch 311g (2026-10-16, section 13: v30 with one review fix at a time put back)
+
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). v29 read 100% Human as a whole (309g); v30, with round r19's fixes, read AI over 301 of its 2,324 words in two windows (310g): from the heading through H1-P3's first sentence, and over H2-P4 whole. Both windows sit beside small fixes: H1-P4's ", if you have any?" and "gets exhausted", H2-P4's "It'll be" and H2-P3b's "because" just before it. Each variant (`../make_v30v.py`) puts back v29's text in one place, so the batch shows which fix moved which window. Screens (E175). Predictions written before the run.
+
+## Batch 311g
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| S13v30a | Mixed | H1-P4 as in v29 should clear the first window; H2-P4's window stays | **Human** (Human Written, high, windows: Human, High, 1721; Human, High, 507, 2324 words, AI likelihood 0.10), 22:57:35, [check](https://www.pangram.com/history/0f17c2f0-8343-4b4a-9bb7-6b390136fd0b) |
+| S13v30b | Mixed | H2-P4's "It may be" back should clear the second window; the first stays | **Mixed** (Mostly Human Written; windows: AI-Generated, High, 48; Human, High, 43; AI-Generated, Medium, 121; Human, High, 427; AI-Generated, High, 54; Human, High, 1631, 2324 words, AI likelihood 0.13), 22:57:46, [check](https://www.pangram.com/history/88bbfda0-7d37-4ede-baf5-af2c907fc95f) |
+| S13v30d | Mixed | H2-P3b's two sentences back may clear the second window; the first stays | **Mixed** (Mostly Human Written; windows: AI-Generated, High, 48; Human, High, 43; AI-Generated, High, 121; Human, High, 1715; Human, High, 313, 2323 words, AI likelihood 0.12), 22:57:56, [check](https://www.pangram.com/history/44c50b93-a24d-4694-84f7-7cb31a4ae66e) |
+| S13v30c | Human | all three back; what is left of v30's fixes is H2-P3's, H3-P1's, H3-P5's and the last subsection's, none of them beside a window in 310g | **Human** (Human Written, high, windows: Human, High, 1721; Human, High, 507, 2323 words, AI likelihood 0.09), 22:58:07, [check](https://www.pangram.com/history/ee42f2ef-084c-4192-a4ae-fd8204ae50ea) |
+
+Results of 311g (Pangram's History, 2026-10-16 UTC, 22:57:35 to 22:58:07): **v30a, v30 with H1-P4 as in v29, reads 100% Human, high (Human Written, 2,324 words, AI likelihood 0.10; two windows, both Human).** So both of 310g's windows came from the two small fixes in H1-P4 (", if you have any?" and "gets exhausted"), the second window included, which sat over H2-P4 two paragraphs later. Putting back H2-P4's "It may be" (v30b) or H2-P3b's two sentences (v30d) alone left windows at the start; all three together (v30c) read Human. v30a becomes v31 (`../make_v31.py`), and the two H1-P4 findings are kept with their reasons (`../review-r19/DISPOSITIONS-r19.md`). Predictions: 2 of 4 (v30a was a Mixed call, v30d's second window cleared too).

@@ -92,12 +92,14 @@
    "what": "still a circle of promising strangers",
    "keys": [
     [
-     "circle"
+     "circle",
+     "all still promising strangers"
     ],
     [
      "strangers"
     ]
-   ]
+   ],
+   "note_v29": "2026-10-16, v29: \"you’re all still promising strangers\" says the published \"still a circle of promising strangers\" without \"circle\", which every whole-section read since v26 read AI at (b308); the meaning trace confirms it, and a trace that calls it a shift puts the published word back."
   },
   {
    "id": "U8",
@@ -134,13 +136,11 @@
    "what": "conflict capacity before a surveyor",
    "keys": [
     [
-     "conflict"
-    ],
-    [
      "surveyor",
      "land"
     ]
-   ]
+   ],
+   "note_v33": "2026-10-17, v33: the conflict test is said once, in H1-P2 (\"until you've been through at least one real conflict together\"); H1-P3 keeps the land coming later (\"long before anyone needs a land surveyor\"), repeats r21 item 19"
   },
   {
    "id": "U11",
@@ -197,12 +197,10 @@
      "emotionally"
     ],
     [
-     "well"
-    ],
-    [
      "exhausted"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): the well is told in section 12 (\"The water well doesn't care how beautiful the new member's heart is.\", his), repeats r19 item 3"
   },
   {
    "id": "U13",
@@ -343,11 +341,13 @@
    "what": "willing to experiment must be declared; 1978; doctrine",
    "keys": [
     [
-     "experiment"
+     "experiment",
+     "on your list"
     ],
     [
      "declare",
-     "declared"
+     "declared",
+     "on your list"
     ],
     [
      "1978"
@@ -355,7 +355,8 @@
     [
      "doctrine"
     ]
-   ]
+   ],
+   "note_v34": "2026-10-17, v34: Emulate round k's \"Put it on your list\" for the published \"It has to be declared\"; the meaning trace confirms it"
   },
   {
    "id": "U21",
@@ -365,15 +366,22 @@
      "behavior",
      "behaviour",
      "actually does",
-     "actually functions"
+     "actually functions",
+     "really works",
+     "really operate"
     ],
     [
      "public language",
      "public",
-     "how they talk about"
+     "how they talk about",
+     "what it says about itself",
+     "says about itself",
+     "what the group says"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"actually functions\", \"how they talk about\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"actually functions\", \"how they talk about\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v33": "2026-10-17, v33: \"go see how the group really works, not only what it says about itself\" for the published \"compare your values with the group's actual behavior, not only its public language\" (314g: the old wording's paragraph was the section's one AI window); the meaning trace confirms it",
+   "note_v34": "2026-10-17, v34: Emulate round k's call A, \"don't just listen to what the group says. Look at how they really operate.\", after round r24's trace T2 called v33's \"look past what the group says about itself\" a shift (it set the group's account aside; the published compares \"not only its public language\"); round r24b's trace confirms it"
   },
   {
    "id": "U22",
@@ -529,19 +537,12 @@
      "visibility"
     ],
     [
-     "money-free",
-     "moneyless",
-     "moneyfree"
-    ],
-    [
-     "scarce"
-    ],
-    [
      "bottleneck",
      "bottlenecks"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"visibility\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"visibility\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): scarcity without money is told in section 4 (\"Even in a moneyless community, someone can control what's scarce.\", his), repeats r19 item 1"
   },
   {
    "id": "U30",
@@ -617,7 +618,8 @@
     [
      "stored goods",
      "stores",
-     "stored food"
+     "stored food",
+     "stored up goods"
     ],
     [
      "use rights",
@@ -627,7 +629,8 @@
      "paper right",
      "on paper"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32: the exit resources moved into H3-P4 (repeats r19 item 6), where \"stored up goods\" (v31's words) is the published \"stored goods\""
   },
   {
    "id": "U33",
@@ -669,14 +672,16 @@
      "forfeiting",
      "giving up everything",
      "give up everything",
-     "leave everything"
+     "leave everything",
+     "lose everything"
     ],
     [
      "coercive",
      "coercing"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"leave everything\", \"coercing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"leave everything\", \"coercing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v32": "2026-10-17, v32: \"You don't want them to lose everything they've put in!\", the pause tally's fix (r17 a, r19 a); \"lose\" is the published \"forfeiting\""
   },
   {
    "id": "U35",
@@ -711,28 +716,16 @@
   },
   {
    "id": "U37",
-   "what": "the sequence in Creating a Life Together",
+   "what": "the book Creating a Life Together, for the practical steps (not its order: Joel, 2026-10-16 23:38 UTC)",
    "keys": [
-    [
-     "vision"
-    ],
-    [
-     "membership",
-     "members"
-    ],
-    [
-     "resources"
-    ],
-    [
-     "land"
-    ],
     [
      "Creating a Life Together"
     ],
     [
      "Diana Leafe Christian"
     ]
-   ]
+   ],
+   "note_v32": "Joel, 2026-10-16 23:38 UTC: \"no we should not lean on Christian's book order if it contradicts my own order that wouldn't make sense so fix that\"; his order is in \"Practice Comes Before Property\""
   },
   {
    "id": "U38",
@@ -768,11 +761,9 @@
     ],
     [
      "newcomers"
-    ],
-    [
-     "promised"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): \"Nobody benefits from joining a group that cannot support what it has promised\" is told in section 5 (\"recruit too quickly and promise too much\") and section 12's capacity math, repeats r19 item 4"
   },
   {
    "id": "U40",
@@ -843,21 +834,16 @@
   },
   {
    "id": "U43",
-   "what": "a professional faker: more evidence, not certainty",
+   "what": "a professional faker can keep up an act for months",
    "keys": [
     [
      "faker"
     ],
     [
      "months"
-    ],
-    [
-     "evidence"
-    ],
-    [
-     "certainty"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): \"more evidence, not certainty\" is said once, in H4-P6 (\"Six months will give you more data, but there's still no good person detector\"), repeats r19 item 15"
   },
   {
    "id": "U44",
@@ -943,10 +929,12 @@
     ],
     [
      "conformity",
-     "doing what everyone else is doing"
+     "doing what everyone else is doing",
+     "going along with everyone"
     ],
     [
-     "safety"
+     "safety",
+     "safe"
     ],
     [
      "six months"
@@ -955,7 +943,8 @@
      "good person"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"doing what everyone else is doing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"doing what everyone else is doing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v32": "2026-10-17, v32: \"think someone's safe just because they're going along with everyone else\", the pause tally's fix (r19 b, r21 a) for the published \"mistaking conformity for safety\""
   },
   {
    "id": "U48",
@@ -1012,17 +1001,17 @@
    "what": "a simulation can not reveal a soul; before anybody sells a house",
    "keys": [
     [
-     "soul"
-    ],
-    [
      "coordination",
      "coordinating"
     ],
     [
      "sells a house",
-     "sell their house"
+     "sell their house",
+     "sells their house"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32: \"before anybody sells their house to move in\", the pause tally's fix (r17 b, r19 b)",
+   "note_v33": "2026-10-17, v33: \"cannot reveal a soul\" is said by H4-P6's \"no good person detector\" and the faker (H4-P4), repeats r21 item 22; the trial run's own point (whether the coordination works) stays"
   },
   {
    "id": "U51",

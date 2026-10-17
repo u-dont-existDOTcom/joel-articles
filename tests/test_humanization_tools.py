@@ -774,6 +774,26 @@ class MarchPrompt(unittest.TestCase):
         self.assertIn('T1: [1] One step. [2] Then another!', p)
         self.assertIn('inner-child work', reviewer.build_march('One. Two.'))   # the default is unchanged
 
+    def test_a_sentence_that_opens_with_a_link_or_a_single_quote_is_its_own_sentence(self):
+        # 2026-10-16: section 13's "‘Outside’ doesn’t always mean the nation-state. [My research](...) initially leaned too
+        # far that way." reached both march readers as one sentence with one label.
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        self.assertEqual(reviewer.split_sentences('Then this. ‘Outside’ isn’t the state. [My research](https://x.example/r) '
+                                                  'leaned that way. *Very* important! Dr. Who stays.'),
+                         ['Then this.', '‘Outside’ isn’t the state.', '[My research](https://x.example/r) leaned that way.',
+                          '*Very* important!', 'Dr. Who stays.'])
+
+    def test_an_emoji_between_sentences_ends_the_first_one(self):
+        # 2026-10-17: "...charming for two weeks! 😅 So that's about all you'll find out." reached the march readers as one
+        # sentence, so they gave it one label (S), and the paragraph's break went unseen.
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        self.assertEqual(reviewer.split_sentences("Charming for two weeks! 😅 So that's about all. Fine 😜 then."),
+                         ['Charming for two weeks! 😅', "So that's about all.", 'Fine 😜 then.'])
+        self.assertEqual(reviewer.split_sentences('Who decides? (Hint: not the recruiter! 😜) What rights will they have?'),
+                         ['Who decides?', '(Hint: not the recruiter! 😜)', 'What rights will they have?'])
+
 
 class SectionColdReadPrompt(unittest.TestCase):
     """reviewer.py sense-section (2026-10-11). Joel, 18:35 UTC: ""as I'm describing may happen in my case" is obvious so you
@@ -1098,6 +1118,34 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertIn('start_index', read)
         self.assertIn("flagged:", read)
 
+    def test_a_note_cannot_waive_a_dropped_point(self):
+        """2026-10-16: section 13 v31 passed with "missing": [] and the dropped "if the community uses them" written in a
+        note. Joel, 23:38 UTC: "yes i want "if the community uses them" back"."""
+        note = dict(self.CLEAN, missing_note='keeps the questions without the published "if the community uses them"')
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': note}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("a note can't waive a dropped point", r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': dict(note, owner_ok='Joel, 2026-10-17: "fine without it"')}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+
+    def test_every_paragraph_needs_a_human_result_alone(self):
+        """Joel, 2026-10-16 23:38 UTC: "no ai tells you see, and it has human tells? isn't that part of the rules?" Section
+        13 went in checked only in groups; alone, its short visit read AI (312g)."""
+        import paragraphs_alone
+        long1 = ' '.join(['word%d' % i for i in range(60)]) + '.'
+        short = 'A short one, under fifty words.'
+        md = '# S\n\n' + long1 + '\n\n' + short + '\n'
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'drafts.json').write_text(json.dumps({'a': long1, 'ab': long1 + '\n\n' + short}), encoding='utf-8')
+            (d / 'b1-results.json').write_text(json.dumps({'a': ['Human Written'], 'ab': ['AI Detected']}), encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertFalse(ok)
+            self.assertTrue(report[1].startswith('MISS A short one'), report)
+            (d / 'b1-results.json').write_text(json.dumps({'a': ['Human Written'], 'ab': ['Human Written']}), encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertTrue(ok, report)
+
     def test_a_march_without_a_break_blocks_the_call(self):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(self.CLEAN, march=['S S S'])}, ['p'])
         self.assertEqual(r.returncode, 2)
@@ -1306,3 +1354,107 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn('know what? doesn\'t seem to follow', t)
         self.assertIn('picks up something from a paragraph or two back', t)
         self.assertIn('add one line that starts "Paused:"', t)
+
+
+class ClickableLinks(unittest.TestCase):
+    """html_links.py and pangram_links_check.py --chat (2026-10-16). Joel, 21:05 UTC: "(your links are not clickable btw)":
+    my final message gave each Pangram check as a bare address, and the pages escaped their notes, so no address was a link."""
+
+    def test_linkify_makes_each_address_a_link_and_keeps_the_punctuation_after_it(self):
+        import html_links
+        out = html_links.linkify('Human, high (https://www.pangram.com/history/abc-1). Next: <b>')
+        self.assertIn('<a href="https://www.pangram.com/history/abc-1">https://www.pangram.com/history/abc-1</a>). Next: &lt;b&gt;', out)
+
+    def test_autolink_markdown_leaves_written_links_and_code_alone(self):
+        import html_links
+        md = 'See https://a.example/x, [the page](https://b.example/y) and `gh pr view https://c.example/z`.'
+        self.assertEqual(html_links.autolink_markdown(md),
+                         'See <https://a.example/x>, [the page](https://b.example/y) and `gh pr view https://c.example/z`.')
+        self.assertEqual(html_links.bare_urls(md), ['https://a.example/x'])
+        # the resume line, written [url](url) as Joel asked (2026-10-16), is a link
+        self.assertEqual(html_links.bare_urls('read [https://g.example/h.md](https://g.example/h.md) and go on'), [])
+
+    def test_the_questions_renderer_links_bare_addresses(self):
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import render_questions
+        out = render_questions.render('# Q\n\nLast updated today.\n\n## Open questions\n\n- 🟢 It reads Human: https://www.pangram.com/history/abc-2\n')
+        self.assertIn('<a href="https://www.pangram.com/history/abc-2">', out)
+
+    def test_two_blank_lines_between_items_keep_the_text_column(self):
+        """Joel's screenshot, 2026-10-16 23:38 UTC: an item after two blank lines showed one word per line, because
+        python-markdown wrapped it in <p> and the grid put the <p> in the dot's .7rem column."""
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import render_questions
+        md = ('# Q\n\nLast updated today.\n\n## Decided\n\n> [!TIP]\n> Answered.\n\n- 🟢 one\n- 🟢 two\n\n\n'
+              '- 🟢 three, after two blank lines\n- 🟢 four\n')
+        out = render_questions.render(md)
+        self.assertNotIn('<li>\n<p>', out)
+        self.assertIn('<div>three, after two blank lines</div>', out)
+        self.assertEqual(out.count('<li class="gap"'), 1)
+        self.assertEqual(render_questions.misplaced_items(
+            '<ul class="items"><li>\n<p><span class="dot done"></span>squeezed</p>\n</li></ul>'), ['squeezed'])
+
+    def test_sub_bullets_stay_inside_their_item(self):
+        """2026-10-17: a decided item with sub-bullets (indented two spaces, as GitHub nests them) came out as top-level
+        items without a dot, which the grid squeezes into the dot column; misplaced_items stopped the page from being
+        built. Now two-space sub-bullets nest under their item, as an ordinary list in its text column."""
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import render_questions
+        md = ('# Q\n\nLast updated today.\n\n## Decided\n\n> [!TIP]\n> Answered.\n\n- 🟢 Done now, cutting:\n'
+              '  - the failing well;\n  - scarcity without money;\n- 🟢 the next item\n')
+        out = render_questions.render(md)
+        self.assertEqual(render_questions.misplaced_items(out), [])
+        self.assertEqual(out.count('<span class="dot done"'), 3)  # the heading's dot and one per item, none for sub-bullets
+        self.assertRegex(out, r'<div>(<p>)?Done now, cutting:(</p>)?\s*<ul>\s*<li>the failing well;</li>')
+        self.assertRegex(out, r'<div>(<p>)?the next item')
+
+    def test_the_questions_lint_finds_questions_hidden_under_coming_up(self):
+        """Joel, 2026-10-16 23:38 UTC: "those coming up questions also not numbered with options for some reason so harder to
+        asnwser. why are questions about the sections that are now finished still "coming up"..." """
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import questions_lint
+        head = '# Q\n\nLast updated today. **Open questions: 1.**\n\n'
+        good = (head + '## Open questions\n\n**🟣 35. A title.** What it is.\n- a) one. **My pick**\n- b) two\n\n'
+                '## Decided\n\n- 🟢 done\n\n## Coming up (not a question yet)\n\n- 🔵 Section 15 next ("Who would?" is his).\n')
+        self.assertEqual(questions_lint.problems(good), [])
+        hidden = good.replace('- 🔵 Section 15 next', '- 🔵 Section 13, kept unless you say otherwise: the budget line')
+        self.assertTrue(any('asks for an answer' in p for p in questions_lint.problems(hidden)))
+        asked = good.replace('- 🔵 Section 15 next ("Who would?" is his).', '- 🔵 Should the chart change?')
+        self.assertTrue(any('question mark' in p for p in questions_lint.problems(asked)))
+        no_options = good.replace('- b) two\n', '')
+        self.assertTrue(any('lettered options' in p for p in questions_lint.problems(no_options)))
+        miscount = good.replace('Open questions: 1.', 'Open questions: 0.')
+        self.assertTrue(any('header says 0' in p for p in questions_lint.problems(miscount)))
+
+    def test_the_chat_check_fails_a_bare_address_and_passes_a_written_link(self):
+        script = str(TOOLS / 'pangram_links_check.py')
+        with tempfile.TemporaryDirectory() as d:
+            bad = pathlib.Path(d) / 'bad.md'
+            bad.write_text('The section reads Human: https://www.pangram.com/history/abc-3\n', encoding='utf-8')
+            good = pathlib.Path(d) / 'good.md'
+            good.write_text('The section reads Human: [check](https://www.pangram.com/history/abc-3). Merge: `gh pr merge 1`.\n',
+                            encoding='utf-8')
+            r = subprocess.run([sys.executable, script, '--chat', str(bad)], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 1)
+            self.assertIn("can't click", r.stdout)
+            r = subprocess.run([sys.executable, script, '--chat', str(good)], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stdout)
+            r = subprocess.run([sys.executable, script, str(bad)], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, 'without --chat a page source may hold bare addresses; its renderer links them')
+
+    def test_a_pasted_post_card_link_becomes_its_heading_with_the_link(self):
+        import html_links
+        md = ('I wrote separately:\n\n[Spirit and Mind Health](https://a.example/p)[\n\n## Facing the Polycrisis\n\n'
+              '](https://a.example/p)[u-dont-exist.com](https://b.example/u)·15 novembre 2025\n\nNext paragraph.')
+        out = html_links.join_split_links(md)
+        self.assertIn('[Spirit and Mind Health](https://a.example/p)\n\n## [Facing the Polycrisis](https://a.example/p)\n\n'
+                      '[u-dont-exist.com](https://b.example/u)·15 novembre 2025', out)
+        import markdown
+        self.assertEqual(html_links.bare_urls_in_html(markdown.markdown(out)), [])
+        self.assertTrue(html_links.bare_urls_in_html(markdown.markdown(md)), 'the card as pasted shows its address as text')
+
+    def test_the_page_check_finds_an_address_shown_as_text(self):
+        import html_links
+        page = ('<style>a{color:red} /* https://x.example/css */</style><p>Human (<a href="https://www.pangram.com/history/a1">'
+                'https://www.pangram.com/history/a1</a>), and https://www.pangram.com/history/a2.</p>')
+        self.assertEqual(html_links.bare_urls_in_html(page), ['https://www.pangram.com/history/a2'])

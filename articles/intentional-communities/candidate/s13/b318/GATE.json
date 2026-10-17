@@ -1,0 +1,34 @@
+{
+ "S13v34-H3-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "S S S S S S B S",
+   "S S S S S S B S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r24c (v34 as it is now); H3-P4 and H4-P8 changed one word group each in v34 (trace fixes), their sentences and breaks unchanged",
+  "lint": "REVIEW",
+  "words": 166
+ },
+ "S13v34-H4-P6": {
+  "kind": "screen",
+  "march": [
+   "S S B S S S",
+   "S S B S S S"
+  ],
+  "march_note": "s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r24c (v34 as it is now); H3-P4 and H4-P8 changed one word group each in v34 (trace fixes), their sentences and breaks unchanged",
+  "lint": "REVIEW",
+  "words": 72
+ },
+ "S13v34-H5-P4": {
+  "kind": "screen",
+  "march": [
+   "S B S S S S",
+   "S B S S S S"
+  ],
+  "march_note": "s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r24c (v34 as it is now); H3-P4 and H4-P8 changed one word group each in v34 (trace fixes), their sentences and breaks unchanged",
+  "lint": "REVIEW",
+  "words": 69
+ }
+}

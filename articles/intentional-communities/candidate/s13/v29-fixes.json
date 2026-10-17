@@ -1,0 +1,55 @@
+[
+ {
+  "id": "H1-P3",
+  "way": "a",
+  "emulate_file": null,
+  "emulate": null,
+  "v28": "Until that’s happened, it’s still just a circle of promising strangers, and you don’t want to take out a mortgage with them yet. That’s okay! There’s lots you can do! You can all meet in a rented or borrowed space, or at each other’s houses, and find out how much conflict the group can handle before you need a surveyor.",
+  "new": "Until that’s happened, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. That’s okay! There’s lots you can do! You can all meet in a rented or borrowed space, or at each other’s houses, and find out how much conflict the group can handle before you need a surveyor.",
+  "fixes": [
+   "\"it’s still just a circle of promising strangers, and you don’t want to take out a mortgage with them yet\" -> \"you’re all still promising strangers, and you don’t want to take out a mortgage together yet\" (the published \"circle\", which every whole-section read since v26 has read AI at, out; \"promising strangers\" and the advice stay; keys U7 note_v29)"
+  ]
+ },
+ {
+  "id": "H2-P3",
+  "way": "b",
+  "emulate_file": "emu-j/out/j01-emuB.txt",
+  "emulate": "This list should also include your thoughts on sexuality and gender, and whether or not LGBTQ people should be able to live openly in your community, to date or be in relationships, and be fully protected by the community. You should also include whether or not it’s important that children not be forced to question their sexual identities from a young age, and what should happen if one of the community’s children comes out as gay or transgender. You don’t have your community’s values on freedom and children complete until you answer these questions.",
+  "v28": "You better also include sexuality and gender on that list. Can LGBTQ+ people live openly in the community? Can they date or be in relationships? Will they be fully protected? Is it okay for children to be taught to question their sexuality at an early age? What will you do if one of the community’s children turns out to be gay or transgender? Until a group has answered those questions, its stance on freedom and raising children is incomplete. Both of them!",
+  "new": "This list should also include your thoughts on sexuality and gender, and whether or not LGBTQ+ people should be able to live openly in your community, to date or be in relationships, and be fully protected by the community. You should also include whether or not children should be taught to question their sexual identities from a young age, and what should happen if one of the community’s children comes out as gay or transgender. You don’t have your community’s values on freedom and raising children complete until you answer these questions. Both of them!",
+  "fixes": [
+   "call B, which says the five questions as statements (308g's window 2 started on call A's run of them)",
+   "\"LGBTQ\" -> \"LGBTQ+\" (the published term)",
+   "\"whether or not it’s important that children not be forced to question their sexual identities\" -> \"whether or not children should be taught to question their sexual identities\" (call B reversed the published question, \"Should children be taught that they should question their sexual identities at an early age?\")",
+   "\"on freedom and children\" -> \"on freedom and raising children\" (the published \"child-rearing values\", keys U19)",
+   "\"Both of them!\" (v26's break)"
+  ]
+ },
+ {
+  "id": "H2-P4",
+  "way": "b",
+  "emulate_file": "emu-j/out/j01-emuA.txt",
+  "emulate": "When you have a good idea of what’s important to you, you can look at how a group functions, and make a choice whether or not it functions in a way that is important to you. It may be an uncomfortable conversation, but the view will still be there after you’ve had it.",
+  "v28": "When you have this list well in hand, compare it to how the group you’re joining actually functions, not just its public face. How was a recent conflict handled? Who can block group decisions? How did leaving go for the last person who left? Who owns the land? It will be uncomfortable to talk about these things, but the view isn’t going anywhere.",
+  "new": "When you have a good idea of what’s important to you, you can look at how a group actually functions, not just its public face. Find out how it handled its last conflict, and who can block a decision. How did leaving go for the last person who left? Who owns the land? Then make a choice whether or not it functions in a way that is important to you. It may be an uncomfortable conversation, but the view will still be there after you’ve had it.",
+  "fixes": [
+   "call A (308g's window 3 started on call B's run of four questions)",
+   "\"you can look at how a group functions\" -> \"you can look at how a group actually functions, not just its public face\" (call B's words for the published \"the group’s actual behavior, not only its public language\", keys U21)",
+   "the published four questions back, which call A dropped, two in a sentence and two as questions (keys U22): \"Find out how it handled its last conflict, and who can block a decision. How did leaving go for the last person who left? Who owns the land?\" (the last two are call B's)",
+   "\", and make a choice\" -> \". Then make a choice\" (the questions come between)"
+  ]
+ },
+ {
+  "id": "H3-P1",
+  "way": "c",
+  "emulate_file": "emu-i/out/l01-emuA.txt",
+  "emulate": "INTERESTED Parties -- Who will have title to the land? Very important! Whoever has it will have enormous power over the rest of the community. If it's in the name of the \"founder\", then he or she is really your landlord, with a philosophy. If it's in the names of 3 out of 12 members, then despite what your literature says, there are two classes of members.",
+  "v28": "Who will have title to the land? Very important! Whoever has it will have enormous power over the rest of the community. If the deed is in the name of the founder, then he or she is really a landlord with a philosophy. If three out of twelve members own everything, then whether or not your literature says everyone is equal, there are two classes of members.",
+  "new": "Who will have title to the land? Very important! Whoever has it will have enormous power over the rest of the community. If the deed’s in the name of the “founder,” then he or she is really your landlord, with a philosophy. If three out of twelve members own everything, then despite what your literature says about everyone being equal, there are two classes of members.",
+  "fixes": [
+   "Emulate round i's call A back for the last two sentences (v22 on had rebuilt them from the published ones; 308g's window 4 started there), with \"it’s\" -> \"the deed’s\" (keys U25): \"If the deed’s in the name of the “founder,” then he or she is really your landlord, with a philosophy.\"",
+   "\"If it’s in the names of 3 out of 12 members, then despite what your literature says\" -> \"If three out of twelve members own everything, then despite what your literature says about everyone being equal\" (the published \"three of twelve members own everything\" and \"whether or not the welcome packet uses the word “equal”\"; keys U26)",
+   "Emulate's heading prefix \"INTERESTED Parties --\" out (the heading is Joel's)"
+  ]
+ }
+]

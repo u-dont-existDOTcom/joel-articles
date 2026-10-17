@@ -1,0 +1,19 @@
+## From Visitor to Member—Slowly
+
+When [The Farm](https://thefarmcommunity.com/) grew fast, a lot of the people who came were in need, and there weren’t many filters that worked. Being open to everybody felt so spiritual! The practical burden piled up anyway. A membership process is there to protect both the people who are already there and the newcomers.
+
+First, correspond with them. Did they read the materials? (Not everyone does!) Do they get the basic idea of why this community is here? Are they at least starting to do the relevant practices? It’s a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right?
+
+The short visit: If they come for a week or two and just participate in normal life, well, most people can be charming for two weeks. Not exactly a high bar! 😅 So that's about all you'll find out.
+
+The long visit: If you're not around long enough to actually experience inconvenience and conflict with the person in question, then you're not going to learn very much about them. Watch how they react when tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even [a professional faker](http://sidney.u-dont-exist.com/) may be able to pull off an act for months!
+
+Write down your answers to these questions: How long will a provisional membership be? What will a provisional member be responsible for and what are their rights? How will a provisional member's membership be reviewed? How might a person leave provisional membership? Who will make the decision about a person becoming a full member? (Hint: not the person who recruited them! 😜) What rights will a full member have in terms of the land, other shared resources, and their voice within the group? What will a member be responsible for over the long term? (A full member's rights and responsibilities should be addressed in your founding agreements.)
+
+At each stage, always judge people based on their conduct. No matter how good it sounds when they talk about their spirituality or their therapy, don’t go by that. What do they actually do? It’s too easy to go by vibes. It’s also easy to think someone’s safe just because they’re going along with everyone else. Six months with someone will give you more data, but there’s still no “good person” detector.
+
+If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to know how they handle that specific thing. I wouldn’t hand someone the van keys just because they’re great with kids! You can find out by checking whether you’ve seen them do this thing before, and asking for references if appropriate. Give people access to these things in stages and ensure there’s always some way to appeal decisions about these roles to a separate authority if needed.
+
+Do stuff together prior to making them provisional members. (Sorry, hanging out doesn't count! I know, it's the fun part.) Can you actually make a decision as a group? Can you actually work together to get something done (an ordinary work or shared-resource task will do)? Can you even process a small conflict afterwards? Do a trial run like that before anybody sells their house to move in. It won't show you anyone's soul, but it can show you whether your way of coordinating works.
+
+Then there are the people who aren't fully "in" the commune politically. Visitors, volunteers, workers, renters and interns at the commune (yes, even interns!) are entitled to some rights when decisions really affect their pay or access to common resources. Why wouldn't they be? All of them should have clear terms, and the chance to be heard and to have such decisions reviewed. The same is true for decisions really affecting their schedule, safety, housing, records or discipline. Equality that stops at the membership line can end up recreating a servant class that moves from commune to commune.
