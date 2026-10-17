@@ -22,3 +22,5 @@ The brief (scratch: the three sections, each with its r4 guide passage and the p
 - P2 (Joel's) "the inner relationship": the reader's best reading is the bond with your little one, so it isn't a break. The guide had meant the bond with the person who's been helping ("the relationship itself can remain precious"); his question 33 note asked "which relationship stays precious?" and his version answers "the inner relationship", and his last sentence keeps the outer side ("the balance is dynamic between inner & outer reliance"). His choice; noted in the Decided entry, no question.
 - P1 "on your own" where the guide says "in isolation": the same meaning. No change.
 - Repeat "they keep track of the appointments" (P1) and "the one who always remembers your appointments" (P2): P2 picks one of P1's jobs to work through, so it's a worked example. No change.
+
+Round t67g: the three agreed fixes each read Human alone (ks4-o2 0.052, ks4b-e3 0.088, ks5-e3 0.24) and the h1 with them Human Written (0.18, high, 612 words), https://www.pangram.com/history/63dd39bd-670a-4127-a1b5-80ec7b4211e6. They're installed.
