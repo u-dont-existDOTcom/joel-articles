@@ -2151,24 +2151,26 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | st1p6v w1 p1 alone, a fresh writer (105 words) [t65z17_st1p6vw1p1], a screen | Human, low (my call) | AI Generated (0.98, Medium; 106); 09:28:21 UTC, https://www.pangram.com/history/047dd66e-2629-48c4-b7aa-76f4ede653f2 | miss |
 | 2026-10-17 (turn 65) | st1p6v w1 p2 alone, a fresh writer (105 words) [t65z17_st1p6vw1p2], a screen | Human, low (my call) | AI Generated (0.74, Medium; 106); 09:28:10 UTC, https://www.pangram.com/history/720400f2-8cea-4aa8-890a-eee1d798e03d | miss |
 | 2026-10-17 (turn 65) | st1p6v w1 p3 alone, a fresh writer (105 words) [t65z17_st1p6vw1p3], a screen | Human, low (my call) | AI Generated (0.96, Medium; 106); 09:28:00 UTC, https://www.pangram.com/history/e9bfac0a-83de-4476-86b8-9ddbcbf3321a | miss |
-| 2026-10-17 (turn 65) | fg1p3v w1 p1 alone, a fresh writer (137 words) [t65z18_fg1p3vw1p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3v w1 p2 alone, a fresh writer (141 words) [t65z18_fg1p3vw1p2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3v w1 p3 alone, a fresh writer (155 words) [t65z18_fg1p3vw1p3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3v w2 p1 alone, a fresh writer (150 words) [t65z18_fg1p3vw2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3v w2 p2 alone, a fresh writer (157 words) [t65z18_fg1p3vw2p2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3v w2 p3 alone, a fresh writer (142 words) [t65z18_fg1p3vw2p3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p3 w7 p1 alone, my own draft (143 words) [t65z18_fg1p3w7p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p1 w6 p1 alone, my own draft (97 words) [t65z18_fg1p1w6p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | le1p2 w5 p1 alone, my own draft (96 words) [t65z18_le1p2w5p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p2 w5 p1 alone, my own draft (101 words) [t65z18_st1p2w5p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p2 w6 p1 alone, my own draft (109 words) [t65z18_st1p2w6p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p2 w7 p1 alone, my own draft (99 words) [t65z18_st1p2w7p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p1v w2 p1 alone, a fresh writer (96 words) [t65z18_st1p1vw2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p1v w2 p2 alone, a fresh writer (101 words) [t65z18_st1p1vw2p2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p1v w2 p3 alone, a fresh writer (95 words) [t65z18_st1p1vw2p3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p6v w2 p1 alone, a fresh writer (105 words) [t65z18_st1p6vw2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p6v w2 p2 alone, a fresh writer (104 words) [t65z18_st1p6vw2p2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p6v w2 p3 alone, a fresh writer (105 words) [t65z18_st1p6vw2p3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p2v w2 p1 alone, a fresh writer (89 words) [t65z18_st1p2vw2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p2v w2 p2 alone, a fresh writer (88 words) [t65z18_st1p2vw2p2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p2v w2 p3 alone, a fresh writer (95 words) [t65z18_st1p2vw2p3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p3v w1 p1 alone, a fresh writer (137 words) [t65z18_fg1p3vw1p1], a screen | Human, low (my call) | AI Generated (1, Medium; 145); 09:37:08 UTC, https://www.pangram.com/history/d2a4e85c-a3cc-4f01-92fe-0b3b3e56af56 | miss |
+| 2026-10-17 (turn 65) | fg1p3v w1 p2 alone, a fresh writer (141 words) [t65z18_fg1p3vw1p2], a screen | Human, low (my call) | AI Generated (1, Medium; 149); 09:37:18 UTC, https://www.pangram.com/history/783bb003-d62a-43e3-820e-e9331bc9137b | miss |
+| 2026-10-17 (turn 65) | fg1p3v w1 p3 alone, a fresh writer (155 words) [t65z18_fg1p3vw1p3], a screen | Human, low (my call) | AI Generated (1, High; 163); 09:37:29 UTC, https://www.pangram.com/history/33741491-8c9c-43dc-acb5-b76530cb4511 | miss |
+| 2026-10-17 (turn 65) | fg1p3v w2 p1 alone, a fresh writer (150 words) [t65z18_fg1p3vw2p1], a screen | Human, low (my call) | AI Generated (1, High; 155); 09:37:43 UTC, https://www.pangram.com/history/30372153-cba9-4cf2-a2f3-0eb00c6b437b | miss |
+| 2026-10-17 (turn 65) | fg1p3v w2 p2 alone, a fresh writer (157 words) [t65z18_fg1p3vw2p2], a screen | Human, low (my call) | AI Generated (1, High; 162); 09:37:52 UTC, https://www.pangram.com/history/7529bbc5-c9a5-447a-ac57-05c58a4de351 | miss |
+| 2026-10-17 (turn 65) | fg1p3v w2 p3 alone, a fresh writer (142 words) [t65z18_fg1p3vw2p3], a screen | Human, low (my call) | AI Generated (1, Medium; 147); 09:38:04 UTC, https://www.pangram.com/history/0c73da37-ef4d-4c8c-9d4f-29d8a65daf2e | miss |
+| 2026-10-17 (turn 65) | fg1p3 w7 p1 alone, my own draft (143 words) [t65z18_fg1p3w7p1], a screen | Human, low (my call) | AI Generated (0.83, Medium; 147); 09:38:17 UTC, https://www.pangram.com/history/b02496c2-1ea6-4c33-ad94-093a16da53de | miss |
+| 2026-10-17 (turn 65) | fg1p1 w6 p1 alone, my own draft (97 words) [t65z18_fg1p1w6p1], a screen | Human, low (my call) | AI Generated (0.93, Medium; 103); 09:38:28 UTC, https://www.pangram.com/history/8173f8d3-d12b-4fd4-be7a-7bd6d36cdd6f | miss |
+| 2026-10-17 (turn 65) | le1p2 w5 p1 alone, my own draft (96 words) [t65z18_le1p2w5p1], a screen | Human, low (my call) | AI Generated (0.99, Medium; 103); 09:38:39 UTC, https://www.pangram.com/history/c94c76ff-f6e4-4c73-a219-5f6ab568b87a | miss |
+| 2026-10-17 (turn 65) | st1p2 w5 p1 alone, my own draft (101 words) [t65z18_st1p2w5p1], a screen | Human, low (my call) | AI Generated (0.98, Medium; 111); 09:38:50 UTC, https://www.pangram.com/history/8ea4af3a-95de-4bfd-8289-b41b60155b4f | miss |
+| 2026-10-17 (turn 65) | st1p2 w6 p1 alone, my own draft (109 words) [t65z18_st1p2w6p1], a screen | Human, low (my call) | AI Generated (0.99, Medium; 115); 09:39:00 UTC, https://www.pangram.com/history/db3bd848-add2-424a-9b97-e9ddcf709168 | miss |
+| 2026-10-17 (turn 65) | st1p2 w7 p1 alone, my own draft (99 words) [t65z18_st1p2w7p1], a screen | Human, low (my call) | AI Generated (0.96, Medium; 105); 09:38:55 UTC, https://www.pangram.com/history/43247fcc-665c-472d-a824-cdc0f083601c | miss |
+| 2026-10-17 (turn 65) | st1p1v w2 p1 alone, a fresh writer (96 words) [t65z18_st1p1vw2p1], a screen | Human, low (my call) | AI Generated (1, Low; 99); 09:38:44 UTC, https://www.pangram.com/history/69d06efa-1d8b-43ab-8b53-b9c003af39ad | miss |
+| 2026-10-17 (turn 65) | st1p1v w2 p2 alone, a fresh writer (101 words) [t65z18_st1p1vw2p2], a screen | Human, low (my call) | AI Generated (1, Medium; 104); 09:38:32 UTC, https://www.pangram.com/history/61e089a1-0802-4566-9761-2bdb40131af9 | miss |
+| 2026-10-17 (turn 65) | st1p1v w2 p3 alone, a fresh writer (95 words) [t65z18_st1p1vw2p3], a screen | Human, low (my call) | AI Generated (1, Low; 99); 09:38:20 UTC, https://www.pangram.com/history/9e97ff37-b509-4691-91f1-0f8aadb9e08c | miss |
+| 2026-10-17 (turn 65) | st1p6v w2 p1 alone, a fresh writer (105 words) [t65z18_st1p6vw2p1], a screen | Human, low (my call) | AI Generated (0.91, Medium; 106); 09:38:08 UTC, https://www.pangram.com/history/6c55c20d-58b3-463c-a288-0dd9646c9dd9 | miss |
+| 2026-10-17 (turn 65) | st1p6v w2 p2 alone, a fresh writer (104 words) [t65z18_st1p6vw2p2], a screen | Human, low (my call) | AI Generated (0.76, Medium; 105); 09:37:56 UTC, https://www.pangram.com/history/23419a0b-2093-4e0c-b0d7-2d31688b7e9a | miss |
+| 2026-10-17 (turn 65) | st1p6v w2 p3 alone, a fresh writer (105 words) [t65z18_st1p6vw2p3], a screen | Human, low (my call) | AI Detected (0.53; 108), 2 windows: AI-Generated 56 words (Medium); 09:37:43 UTC, https://www.pangram.com/history/f9aedda8-f2fb-4799-b5ee-b13d0d498983 | miss |
+| 2026-10-17 (turn 65) | st1p2v w2 p1 alone, a fresh writer (89 words) [t65z18_st1p2vw2p1], a screen | Human, low (my call) | AI Generated (0.98, Low; 93); 09:37:32 UTC, https://www.pangram.com/history/286b6a85-35b0-41d3-86f3-ec39d80fd51a | miss |
+| 2026-10-17 (turn 65) | st1p2v w2 p2 alone, a fresh writer (88 words) [t65z18_st1p2vw2p2], a screen | Human, low (my call) | AI Generated (1, Low; 93); 09:37:22 UTC, https://www.pangram.com/history/59806aad-0795-4e45-8727-4596245abf2c | miss |
+| 2026-10-17 (turn 65) | st1p2v w2 p3 alone, a fresh writer (95 words) [t65z18_st1p2vw2p3], a screen | Human, low (my call) | AI Generated (1, Low; 99); 09:37:11 UTC, https://www.pangram.com/history/b8f89380-eff8-485c-8d42-945ee16aadcf | miss |
+| 2026-10-17 (turn 65) | st1p6 w5 p1 alone, my own draft (115 words) [t65z19_st1p6w5p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p6 w6 p1 alone, my own draft (107 words) [t65z19_st1p6w6p1], a screen | Human, low (my call) | (pending) | |
