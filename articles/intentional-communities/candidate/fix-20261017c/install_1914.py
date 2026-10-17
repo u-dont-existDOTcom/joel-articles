@@ -28,10 +28,11 @@ else:
     old_note = '<!-- ACCEPTED: section 13 v34'
     i = md.index(old_note)
     note = ('<!-- ACCEPTED: section 13 v35 (2026-10-17): Joel\'s decision of 19:14 UTC on its exclamations ("i agree with your excl '
-            '13 14 ideas", the list sent with question 48, fix-20261017b/excl-13-14.md): 17 marks made periods or dropped inside '
-            'brackets, three filler phrases out ("There\'s lots you can do!", "Very important!", "Lots of decisions to make!"), '
-            'four kept, the quoted visitor\'s own kept; the two the list missed (each with an emoji after it) the same way '
-            '(fix-20261017c/make_s13_v35.py). Pangram web app (420g): every changed paragraph Human alone or with its neighbor, '
+            '13 14 ideas", the list sent with question 48, fix-20261017b/excl-13-14.md): 15 marks made periods (one, inside a bracket, '
+            'simply dropped), one filler phrase out ("There\'s lots you can do!"), four kept, the quoted visitor\'s own kept; one the '
+            'list missed ("Not exactly a high bar! 😅", an emoji after its mark) the same way (fix-20261017c/make_s13_v35.py). Held '
+            'back after the march reads, each its paragraph\'s only break: the cuts of "Very important!" and "Lots of decisions to '
+            'make!" (question 48); the hint\'s mark stays. Pangram web app (420g): every changed paragraph Human alone or with its neighbor, '
             'the whole section %s (%s). Section 14 unchanged. Before: -->\n'
             % (R[KEY][0].replace(' Written', ''), 'https://www.pangram.com/history' + R[KEY][5]))
     md = md[:i] + note + md[i:]
