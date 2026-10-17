@@ -1,0 +1,56 @@
+{
+ "t69h_rwb4": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S B S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69h_rwb4.md",
+  "note": "t69h: rw-b4, alone."
+ },
+ "t69h_rwb5": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69h_rwb5.md",
+  "note": "t69h: rw-b5, alone."
+ },
+ "t69h_ks1t": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69h: ks1-t, alone."
+ },
+ "t69h_ks1u": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69h: ks1-u, alone."
+ },
+ "t69h_secsp": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-b4: S S S B S S S B S B, ks1-t: S S S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/CANDIDATE.md",
+  "note": "t69h: # Simple Practices as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t69h_secks": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-b4: S S S B S S S B S B, ks1-t: S S S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/CANDIDATE.md",
+  "note": "t69h: # If You Want to Kill Yourself as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

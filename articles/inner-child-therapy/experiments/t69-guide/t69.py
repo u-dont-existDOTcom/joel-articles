@@ -50,6 +50,8 @@ SAID = 'experiments/t69-answers/JOEL-20261017-1856.md'
 
 
 RW = os.environ.get('RW', 'rw-b1')   # the Remember When draft to install
+RW2 = os.environ.get('RW2', 'rw-b4')   # its cold-read fix
+KS2 = os.environ.get('KS2', 'ks1-t')   # the safety paragraph's cold-read fix
 
 RESULTS = {}   # @@NAME@@ in a comment -> the checks' results, filled in once they're in (install)
 
@@ -88,6 +90,11 @@ def installs(names=None):
                 '<!-- Turn 65 (E177), my own draft again as it was (writers/ks12-w8-p1), now that his opening is its own paragraph. '
                 'Alone Human Written (0.2, low), https://www.pangram.com/history/981ab947-596f-4de7-8c7f-adbe370c04fe. @@KS1@@ -->'
                 '\n\n' + g65('writers/ks12-w8-p1')))
+    # the cold read's fixes (COLD-READ-t69.md): Remember When's referents; the safety paragraph's "about to act", "close by" and "This"
+    old = find(re.escape(draft('rw-b1')))
+    out.append(('rw2', old, draft(RW2)))
+    old = find(re.escape(g65('writers/ks12-w8-p1')))
+    out.append(('ks2', old, draft(KS2)))
     return [(o, n) for name, o, n in out if (names is None or name in names) and o is not None]
 
 
