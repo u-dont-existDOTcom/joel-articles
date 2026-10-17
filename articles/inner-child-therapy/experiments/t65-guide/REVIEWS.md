@@ -78,3 +78,17 @@ What changed for round t (E183): one representative draft of each practice went 
 - Installed: # Simple Practices with Borrow Hindsight (P1 d, P2 j, P3 i4), Remember When You Already Did It (f) and A Heart-to-Child Loop (P1 c, P2 d2). The installed h1 is round v's checked text, character for character (Human Written 0.099, high, https://www.pangram.com/history/aa97d3db-6dc0-4fda-bfdb-4f93b26d9a61). A cold read of it is running (`COLD-READ-sp-2.md`).
 - Parked (`PARKED.md`, with my best faithful drafts and every try): Journal With Each Hand, Close the Session, One Intention P1, the story phrase's P2, Just Like Me's P2, the photo practice's P1 and P4b. Their P1s that read Human alone and in their h2 (the story phrase, Just Like Me) wait with them.
 - When Love Still Feels Missing (grounded first, `GROUNDING-lm1.md` to `lm4.md`): How Much Happiness P1 (lm4-p1-a) read Human alone (0.34) and with its heading (0.28); P2 (lm4-p2-a2, with the grounding's "profound") and Notice the Part P2 (lm2-p2-c) read Human alone; everything else read AI in two rounds (u, v).
+
+## Rounds w to y (the later sections, my own drafts)
+
+Groundings first (`GROUNDING-ks01.md`, `sh01`, `fg01`, `le01`, `ba01`), their MUST fixes in every draft (E183). Three rounds, about 100 checks; every result and link in `tools/PREDICTIONS.md` (rows t65w to t65y), scored with `pangram_score.py`. Eight read Human:
+
+- If You Want to Kill Yourself: P3 a (the self you want to kill, 0.002), P4 c (the Buddhist view, 0.39), P5 b (momentum and redirections, 0.086) and P6 d (the change you still can't make, 0.022) alone; P1 e (the crisis steps) read Human in its section (0.37) and AI alone (0.82).
+- When One Life Has Ended: P1 c (the gap and the bardo) alone (0.16) and with its heading (0.16).
+- When Love Still Feels Missing: How Much Happiness P5 c alone (0.002).
+- Never Human in three rounds: How to Forgive Without Forgetting (seventeen versions of four paragraphs), Borrowed Adulthood in Relationship (six), When the Practice Feels Real but Stays Shallow (seven), the crisis steps alone and the adult-in-the-room paragraph (six), and the rest of When One Life Has Ended (nine).
+- The sixteen checks left "(pending)" since rounds a to x were found in the History by their first 300 characters (the list gives that much of each text) and scored; two were the same text as an earlier check, which Pangram reads once.
+
+## Round z (fresh writers, E177)
+
+My own drafts had read Human about one time in twelve since round w, against about one in four earlier in the turn, so every paragraph still failing went to fresh writer agents (`writers/`, prompts built by `writers/writers_jobs.py` from `reviewer/writer_draft.txt` with each passage's points and its grounding's MUST fixes; the guide's first-person life facts left out, E159). Twenty jobs, the Simple Practices and When Love Still Feels Missing paragraphs still parked, the later sections, and three not tried yet (Speak Toward What You Are Building without the framework's name, and the closing paragraph). Two writers on the same prompt came back nearly word for word alike, so the third writer of each job runs on a different model.

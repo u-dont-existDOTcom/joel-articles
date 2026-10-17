@@ -80,9 +80,9 @@ def build(march_file, rnd, out_prefix):
         k = '%s_%s%s%s' % (rnd, job, w, p)
         drafts[k] = text
         gate[k] = {'kind': 'screen', 'march': [march], 'lint': 'REVIEW', 'lint_article': str(ART),
-                   'note': '%s: fresh writer %s of %s (E177), paragraph %s. March: my own reading.' % (rnd, w, job, p[1:])}
-        rows.append('| %s | %s %s %s alone, a fresh writer (%d words) [%s], a screen | Human, low (my call) | (pending) | |'
-                    % (date, job, w, p, len(text.split()), k))
+                   'note': '%s: %s of %s, paragraph %s. March: my own reading.' % (rnd, 'my own draft (w9)' if w == 'w9' else 'fresh writer %s (E177)' % w, job, p[1:])}
+        rows.append('| %s | %s %s %s alone, %s (%d words) [%s], a screen | Human, low (my call) | (pending) | |'
+                    % (date, job, w, p, 'my own draft' if w == 'w9' else 'a fresh writer', len(text.split()), k))
         sets.setdefault((job, w), []).append((int(p[1:]), stem, march))
     for (job, w), items in sorted(sets.items()):
         sec = SECTIONS.get(job)

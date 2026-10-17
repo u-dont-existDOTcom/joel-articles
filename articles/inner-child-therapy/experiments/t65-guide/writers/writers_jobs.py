@@ -20,7 +20,7 @@ JOBS = {
    after="## \"And So That's the Way It Happened!\" (the next practice)",
    brief='''Paragraph 1:
 - what it's for: when talking to your little one, or picturing them, only gets you silence.
-- the method: write the scared or hurting thoughts and feelings with your non-dominant hand (the clumsy one; its writing already looks like a child's, which is why it's your little one's hand), and answer with your dominant hand, as the grown-up offering love, protection and guidance.
+- the method: write the scared or hurting thoughts and feelings with your other hand, the one you don't write with (the clumsy one; its writing already looks like a child's, which is why it's your little one's hand), and answer with your usual writing hand, as the grown-up offering love, protection and guidance.
 - MUST (a reader's question the review found unanswered, "If my little one stays silent, do I make up what they'd say?"): write only what's really there, what you actually feel; nothing invented.
 - if the protective part shows up first, it gets the non-dominant hand first, until it's had its say.
 Paragraph 2 (a queued guide change: memory support isn't the same as reflective journaling):
@@ -96,7 +96,7 @@ Paragraph 2:
  'lm3': dict(n=1, length='one paragraph, 70 to 110 words',
    before=opens(txt('lm2-p2-c'), '## Somatic Heart Opening'),
    after='## How Much Happiness Do You Know Is Possible? (the next part)',
-   brief='''- Rumi: keep breaking your heart until it opens.
+   brief='''- Rumi says you have to keep breaking your heart until it stays open (the guide's words).
 - some people find that deep grieving gives way to warmth, connection, or a feeling in the body of being held; that describes an experience, not proof of how the body produces it.
 - love can open grief from the other side: being cared for can bring up sadness for the care that was missing, and that doesn't mean the love failed.
 - MUST: stay with it while you're present and can still choose, and slow down when it's swamping you instead of opening you.'''),
@@ -119,7 +119,7 @@ Paragraph 1:
 - MUST: if you can't tell whether you're about to act, treat it as if you are.
 - that isn't the answer to whether life is worth living; it keeps the question open long enough to look into it.
 Paragraph 2:
-- before getting philosophical, make sure there's an adult in the room: if the part that wants to die feels like all of you, use the Witness or the borrowed-adult move from earlier in the article, and invite any part that can watch what's happening, protect the body, or put off a decision that can't be undone.
+- before getting philosophical, make sure there's an adult in the room: if the part that wants to die feels like all of you, use the noticing from the article's section Noticing Counts (whoever is noticing is already more than the part that wants to die) or borrow an adult, as in Borrow the Adult Before You Can Be the Adult, and invite any part that can watch what's happening, protect the body, or put off a decision that can't be undone.
 - if you can already watch the suicidal state without being completely caught up in it, skip this step.
 - MUST: if no part of you can watch yet, the questions wait, and the person from the first step is the adult for now.'''),
  'ks4b': dict(n=1, length='one paragraph, 45 to 80 words',

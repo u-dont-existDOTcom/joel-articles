@@ -1306,13 +1306,13 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | P12 (group 12), p12c alone (78 words) [t65a_p12c], a screen | Human, low (my call) | AI Generated (0.99, low; 81); 02:22:08 UTC, https://www.pangram.com/history/c1720a24-dbd3-4504-8a81-dee1bc298895 | miss |
 | 2026-10-17 (turn 65) | P12 (group 12), p12d alone (69 words) [t65a_p12d], a screen | Human, low (my call) | AI Generated (0.76, low; 73); 02:22:19 UTC, https://www.pangram.com/history/50f32fa0-eee0-43b4-bd88-91f129c0a92d | miss |
 | 2026-10-17 (turn 65) | P11+P12, with p12a (172 words) [t65a_pairp12a], a screen | Human, low (my call) | AI Generated (0.99, high; 181); 02:22:30 UTC, https://www.pangram.com/history/864f5117-b5f1-4f9a-a13a-36a995459485 | miss |
-| 2026-10-17 (turn 65) | P11+P12, with p12b (170 words) [t65a_pairp12b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P11+P12, with p12c (176 words) [t65a_pairp12c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P11+P12, with p12d (167 words) [t65a_pairp12d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12a (1184 words) [t65a_secp12a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12b (1182 words) [t65a_secp12b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12c (1188 words) [t65a_secp12c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12d (1179 words) [t65a_secp12d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P11+P12, with p12b (170 words) [t65a_pairp12b], a screen | Human, low (my call) | AI Generated (0.99, High; 179); 02:22:40 UTC, https://www.pangram.com/history/e0a8ea79-69be-4cd0-b575-4a07c486103d | miss |
+| 2026-10-17 (turn 65) | P11+P12, with p12c (176 words) [t65a_pairp12c], a screen | Human, low (my call) | AI Generated (0.99, High; 184); 02:22:50 UTC, https://www.pangram.com/history/ff55a75a-90ea-44a2-b8f3-7ab7f4f0f3ab | miss |
+| 2026-10-17 (turn 65) | P11+P12, with p12d (167 words) [t65a_pairp12d], a screen | Human, low (my call) | AI Generated (0.99, High; 176); 02:23:01 UTC, https://www.pangram.com/history/3070d4e3-9557-40e2-81c0-d2234384995d | miss |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12a (1184 words) [t65a_secp12a], a screen | Human, low (my call) | Human Written (0.1, High; 1242); 02:23:13 UTC, https://www.pangram.com/history/53e15e5e-97f5-41db-b4b2-b54514ef26d3 | hit |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12b (1182 words) [t65a_secp12b], a screen | Human, low (my call) | Human Written (0.081, High; 1240); 02:23:22 UTC, https://www.pangram.com/history/ca90a506-cdb9-4aa2-bbc2-169046d7ca7b | hit |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12c (1188 words) [t65a_secp12c], a screen | Human, low (my call) | Mostly Human Written (0.15; 1245), 2 windows: AI-Generated 81 words (High); 02:23:34 UTC, https://www.pangram.com/history/06a9165e-8b94-4728-a5ca-e1799b740aa9 | hit |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12d (1179 words) [t65a_secp12d], a screen | Human, low (my call) | Mostly Human Written (0.12; 1237), 2 windows: AI-Generated 53 words (Medium); 02:23:46 UTC, https://www.pangram.com/history/ec9ce75c-a1d1-47dc-abfd-a0b5f83e6d31 | hit |
 | 2026-10-17 (turn 65) | P12 (group 12), p12e alone (73 words) [t65b_p12e], a screen | Human, low (my call) | AI Generated (0.94, low; 78); 02:26:02 UTC, https://www.pangram.com/history/f70dd5da-18b4-4e6e-800a-1b6752249294 | miss |
 | 2026-10-17 (turn 65) | P12 (group 12), p12f alone (65 words) [t65b_p12f], a screen | Human, low (my call) | Human Written (0.105, low; 70); 02:26:13 UTC, https://www.pangram.com/history/c70cc7b1-d610-4d01-9070-025a0a50650f | hit |
 | 2026-10-17 (turn 65) | P12 (group 12), p12g alone (74 words) [t65b_p12g], a screen | Human, low (my call) | AI Generated (0.78, low; 79); 02:26:23 UTC, https://www.pangram.com/history/bc54bb80-6628-4075-86e9-ccabd1b797a3 | miss |
@@ -1348,7 +1348,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12f2 (1194 words) [t65d_secp12f2], a screen | Human, low (my call) | Human Written (0.079, high; 1253), one Human window; 02:41:30 UTC, https://www.pangram.com/history/2c31267b-59df-4eb9-820d-5c0e598bdaa3 | hit |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12f4 (1196 words) [t65d_secp12f4], a screen | Human, low (my call) | Human Written (0.094, high; 1254), one Human window; 02:41:42 UTC, https://www.pangram.com/history/86507ce9-d029-4d53-9921-e36a2d89e229 | hit |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12f6 (1197 words) [t65d_secp12f6], a screen | Human, low (my call) | Human Written (0.075, high; 1254), one Human window; 02:41:54 UTC, https://www.pangram.com/history/04e5f8ad-5c22-4ca9-8235-da59dd91b98f | hit |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12f7 (1189 words) [t65d_secp12f7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12f7 (1189 words) [t65d_secp12f7], a screen | Human, low (my call) | Human Written (0.065, High; 1248); 02:42:05 UTC, https://www.pangram.com/history/3d5a527b-f272-4f9e-bd0e-5bfeb57053d0 | hit |
 | 2026-10-17 (turn 65) | P14 (group 14), p14a alone (65 words) [t65e_p14a], a screen | Human, low (my call) | AI Generated (0.99, low; 68); 02:50:01 UTC, https://www.pangram.com/history/770f2164-6ab0-49d4-92bc-568525b2996a | miss |
 | 2026-10-17 (turn 65) | P14 (group 14), p14b alone (59 words) [t65e_p14b], a screen | Human, low (my call) | Human Written (0.21, low; 60); 02:50:11 UTC, https://www.pangram.com/history/216dfbcb-8089-4c94-ae40-3f032a0d2c96 | hit |
 | 2026-10-17 (turn 65) | P14 (group 14), p14c alone (67 words) [t65e_p14c], a screen | Human, low (my call) | AI Generated (0.67, low; 72); 02:50:22 UTC, https://www.pangram.com/history/03ac06f6-48d2-4b0f-ba0e-37eaf47d7956 | miss |
@@ -1373,8 +1373,8 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14f (1316 words) [t65f_secp14f], a screen | Human, low (my call) | Mostly Human Written (0.18; 1384): an AI window of 92 (high) on P14; 02:57:36 UTC, https://www.pangram.com/history/ca342f69-e86a-4107-8985-4afb05a8a312 | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14g (1309 words) [t65f_secp14g], a screen | Human, low (my call) | Mostly Human Written (0.19; 1375): an AI window of 83 (high) on P14; 02:57:48 UTC, https://www.pangram.com/history/beecaa9e-2af8-4c5f-bb5d-19e69f4af811 | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14h (1311 words) [t65f_secp14h], a screen | Human, low (my call) | AI Detected (0.20; 1378): AI windows of 96 and 86 (high) on P13 and P14; 02:57:59 UTC, https://www.pangram.com/history/4de6a5de-aee5-4e0d-87aa-52ae78645ad5 | miss |
-| 2026-10-17 (turn 65) | P14 (group 14), p14b3 alone (53 words) [t65g_p14b3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P14 (group 14), p14i alone (57 words) [t65g_p14i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P14 (group 14), p14b3 alone (53 words) [t65g_p14b3], a screen | Human, low (my call) | Human Written (0.24, Low; 54); 03:01:42 UTC, https://www.pangram.com/history/3f05e658-7ba3-4000-a7ff-3717a5572ed3 | hit |
+| 2026-10-17 (turn 65) | P14 (group 14), p14i alone (57 words) [t65g_p14i], a screen | Human, low (my call) | AI Generated (0.99, Low; 62); 03:01:53 UTC, https://www.pangram.com/history/a32121bb-ea6f-4d01-b8fe-93690559fca3 | miss |
 | 2026-10-17 (turn 65) | P14 (group 14), p14j alone (60 words) [t65g_p14j], a screen | Human, low (my call) | AI Generated (0.79, low; 62); 03:02:03 UTC, https://www.pangram.com/history/0bab2be6-5161-4ef7-8787-46bd1cc25754 | miss |
 | 2026-10-17 (turn 65) | P14 (group 14), p14k alone (60 words) [t65g_p14k], a screen | Human, low (my call) | AI Generated (0.99, low; 62); 03:02:14 UTC, https://www.pangram.com/history/1696b235-468d-4bd2-a649-5168d2f76a13 | miss |
 | 2026-10-17 (turn 65) | P13+P14, with p14b3 (57 words) [t65g_pairp14b3], a screen | Human, low (my call) | AI Generated (0.69, low; 57), the heading with P14; 03:02:25 UTC, https://www.pangram.com/history/07498439-05f6-4297-bdbf-5ff1c9bdd85c | miss |
@@ -1384,7 +1384,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14b3 (1303 words) [t65g_secp14b3], a screen | Human, low (my call) | Mostly Human Written (0.14; 1365): an AI window of 45 (high) on P14; 03:03:07 UTC, https://www.pangram.com/history/6317b7e0-606f-41c3-b24a-b6516dc8bdc7 | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14i (1307 words) [t65g_secp14i], a screen | Human, low (my call) | Mostly Human Written (0.13; 1373): an AI window of 65 (high) on P14; 03:03:17 UTC, https://www.pangram.com/history/fe2a1912-d529-45da-8a02-7ad5eefa9121 | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14j (1310 words) [t65g_secp14j], a screen | Human, low (my call) | Mostly Human Written (0.135; 1373): an AI window of 53 (high) on P14; 03:03:28 UTC, https://www.pangram.com/history/094ee7df-ec88-481a-b191-b3dd3642749d | miss |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14k (1310 words) [t65g_secp14k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14k (1310 words) [t65g_secp14k], a screen | Human, low (my call) | Mostly Human Written (0.16; 1373), 2 windows: AI-Generated 65 words (High); 03:03:39 UTC, https://www.pangram.com/history/8d98756d-c597-463c-95a3-6f21fe6ce62a | hit |
 | 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15a alone (60 words) [t65h_p15a], a screen | Human, low (my call) | Human Written (0.007, low; 61); 03:06:39 UTC, https://www.pangram.com/history/ae1eaf93-c492-4780-b7ac-dc2ed0177210 | hit |
 | 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15b alone (50 words) [t65h_p15b], a screen | Human, low (my call) | AI Generated (0.72, low; 52); 03:06:49 UTC, https://www.pangram.com/history/7173dc94-d6a9-47c0-9f32-6861f43fcda6 | miss |
 | 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15c alone (60 words) [t65h_p15c], a screen | Human, low (my call) | Human Written (0.29, low; 63); 03:06:59 UTC, https://www.pangram.com/history/6872d38b-618e-42f9-9701-6e1cecd3b2b8 | hit |
@@ -1653,7 +1653,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | P2+P3, with sp1p3i3 (123 words) [t65u_pairsp1p3i3], a screen | Human, low (my call) | AI Detected (0.66; 131), 2 windows: AI-Generated 91 words (Medium); 05:34:39 UTC, https://www.pangram.com/history/56fab0ca-4136-4ab4-b2f4-0ca52f06e074 | miss |
 | 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3i2 (194 words) [t65u_secsp1p3i2], a screen | Human, low (my call) | AI Generated (0.86, High; 201); 05:33:57 UTC, https://www.pangram.com/history/5ae77c60-5ccc-4894-9c01-24ed4901edcb | miss |
 | 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3i3 (195 words) [t65u_secsp1p3i3], a screen | Human, low (my call) | AI Generated (0.71, High; 203); 05:33:46 UTC, https://www.pangram.com/history/ca739a1a-f79b-445a-858a-fc726f5bf7d5 | miss |
-| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1a (139 words) [t65u_pairsp3p2d2h1a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1a (139 words) [t65u_pairsp3p2d2h1a], a screen | Human, low (my call) | Human Written (0.014, Medium; 142); 05:52:05 UTC, https://www.pangram.com/history/3b6442b5-95f1-4445-86af-72f93c61b17d | hit |
 | 2026-10-17 (turn 65) | Simple Practices with P6 = sp3p2d2h1a (434 words) [t65u_secsp3p2d2h1a], a screen | Human, low (my call) | Human Written (0.21, High; 446); 05:33:36 UTC, https://www.pangram.com/history/dff26410-1cb8-4810-b333-51293313dc31 | hit |
 | 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1b (139 words) [t65u_pairsp3p2d2h1b], a screen | Human, low (my call) | Human Written (0.013, Medium; 142); 05:34:29 UTC, https://www.pangram.com/history/18587816-4c1e-4557-a781-f691f7255af5 | hit |
 | 2026-10-17 (turn 65) | Simple Practices with P6 = sp3p2d2h1b (435 words) [t65u_secsp3p2d2h1b], a screen | Human, low (my call) | Human Written (0.18, High; 448); 05:33:25 UTC, https://www.pangram.com/history/62caeda2-38aa-419e-af08-cd01b72839e1 | hit |
@@ -1708,7 +1708,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1b alone (97 words) [t65u_lm3p1b], a screen | Human, low (my call) | AI Generated (0.99, Medium; 101); 05:35:22 UTC, https://www.pangram.com/history/cf16f31b-1858-4140-a642-66430f4c7909 | miss |
 | 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1a2 (104 words) [t65u_seclm3p1a2], a screen | Human, low (my call) | AI Generated (0.63, Medium; 106); 05:29:58 UTC, https://www.pangram.com/history/4aa02c26-6580-41a8-ae9e-3eede89f1454 | miss |
 | 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1b (101 words) [t65u_seclm3p1b], a screen | Human, low (my call) | AI Generated (0.97, Medium; 104); 05:29:44 UTC, https://www.pangram.com/history/6eab002a-c003-4b7e-b91e-5b947e18178a | miss |
-| 2026-10-17 (turn 65) | How Much Happiness P1, lm4p1a alone (67 words) [t65u_lm4p1a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness P1, lm4p1a alone (67 words) [t65u_lm4p1a], a screen | Human, low (my call) | Human Written (0.34, Low; 67); 05:48:53 UTC, https://www.pangram.com/history/fd9e5026-04d5-4984-8575-6778f5ededd1 | hit |
 | 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible? with P1 = lm4p1a (76 words) [t65u_seclm4p1a], a screen | Human, low (my call) | Human Written (0.28, Low; 75); 05:29:36 UTC, https://www.pangram.com/history/6d29b396-0ccb-41ca-b293-cb5d37680b10 | hit |
 | 2026-10-17 (turn 65) | How Much Happiness P2 to P4, lm4p2a2 alone (83 words) [t65u_lm4p2a2], a screen | Human, low (my call) | Human Written (0.18, Low; 90); 05:35:21 UTC, https://www.pangram.com/history/d9c8418f-1376-494c-b6c6-e8eec760c2b6 | hit |
 | 2026-10-17 (turn 65) | How Much Happiness P2 to P4, lm4p3a alone (60 words) [t65u_lm4p3a], a screen | Human, low (my call) | AI Generated (0.65, Low; 62); 05:35:11 UTC, https://www.pangram.com/history/ccdebe99-270c-4bbf-a42f-5fbf05ce2c3b | miss |
@@ -1719,9 +1719,9 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | P2+P3, with sp1p3i5 (121 words) [t65v_pairsp1p3i5], a screen | Human, low (my call) | AI Detected (0.64; 129), 2 windows: AI-Generated 89 words (Medium); 05:52:16 UTC, https://www.pangram.com/history/f64011ae-15a9-4538-89b3-c79fd29f3ed3 | miss |
 | 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3i4 (190 words) [t65v_secsp1p3i4], a screen | Human, low (my call) | Human Written (0.36, High; 197); 05:51:23 UTC, https://www.pangram.com/history/85ad0398-755d-4857-8d42-9c695f4c911c | hit |
 | 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3i5 (193 words) [t65v_secsp1p3i5], a screen | Human, low (my call) | AI Detected (0.49; 201), 2 windows: AI-Generated 89 words (High); 05:51:13 UTC, https://www.pangram.com/history/911f1c85-65db-4d54-bdb6-ad63fcfe48e8 | miss |
-| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1c (139 words) [t65v_pairsp3p2d2h1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1c (139 words) [t65v_pairsp3p2d2h1c], a screen | Human, low (my call) | not checked: the same text as [t65u_pairsp3p2d2h1a] (P5 and P6 unchanged), which Pangram read once, Human Written (0.014, Medium; 142); https://www.pangram.com/history/3b6442b5-95f1-4445-86af-72f93c61b17d | (none) |
 | 2026-10-17 (turn 65) | Simple Practices with P6 = sp3p2d2h1c (430 words) [t65v_secsp3p2d2h1c], a screen | Human, low (my call) | Human Written (0.099, High; 442); 05:51:02 UTC, https://www.pangram.com/history/aa97d3db-6dc0-4fda-bfdb-4f93b26d9a61 | hit |
-| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1d (139 words) [t65v_pairsp3p2d2h1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1d (139 words) [t65v_pairsp3p2d2h1d], a screen | Human, low (my call) | not checked: the same text as [t65u_pairsp3p2d2h1a] (P5 and P6 unchanged), which Pangram read once, Human Written (0.014, Medium; 142); https://www.pangram.com/history/3b6442b5-95f1-4445-86af-72f93c61b17d | (none) |
 | 2026-10-17 (turn 65) | Simple Practices with P6 = sp3p2d2h1d (433 words) [t65v_secsp3p2d2h1d], a screen | Human, low (my call) | Human Written (0.1, High; 446); 05:50:52 UTC, https://www.pangram.com/history/372fe8fd-05fa-4985-957d-10b6e6cab058 | hit |
 | 2026-10-17 (turn 65) | P2+P3, with sp3p2d2h1e (139 words) [t65v_pairsp3p2d2h1e], a screen | Human, low (my call) | Human Written (0.014, Medium; 142); 05:52:05 UTC, https://www.pangram.com/history/3b6442b5-95f1-4445-86af-72f93c61b17d | hit |
 | 2026-10-17 (turn 65) | Simple Practices with P3 = sp3p2d2h1e (240 words) [t65v_secsp3p2d2h1e], a screen | Human, low (my call) | Human Written (0.25, High; 245); 05:50:41 UTC, https://www.pangram.com/history/3f43ca1e-cf9d-4983-bdcf-6adabb812616 | hit |
@@ -1822,7 +1822,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1h (62 words) [t65x_seclm1p1h], a screen | Human, low (my call) | AI Generated (0.91, Low; 62); 06:18:05 UTC, https://www.pangram.com/history/13f1ef1d-e635-411a-91e5-d85354d35781 | miss |
 | 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p2f alone (76 words) [t65x_lm1p2f], a screen | Human, low (my call) | AI Generated (1, Low; 83); 06:20:58 UTC, https://www.pangram.com/history/148410b9-2458-4b69-bfc0-d5a34a40ae77 | miss |
 | 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p3f alone (92 words) [t65x_lm1p3f], a screen | Human, low (my call) | AI Generated (1, Low; 95); 06:21:09 UTC, https://www.pangram.com/history/8ee7b46f-464c-472c-a0ad-ed08560d4b63 | miss |
-| 2026-10-17 (turn 65) | Notice the Part That Came Here P1, lm2p1f alone (77 words) [t65x_lm2p1f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here P1, lm2p1f alone (77 words) [t65x_lm2p1f], a screen | Human, low (my call) | AI Generated (0.98, Low; 81); 06:21:19 UTC, https://www.pangram.com/history/d9c0efb3-861e-423a-9a55-78931d9c3d4b | miss |
 | 2026-10-17 (turn 65) | Notice the Part That Came Here with P1 = lm2p1f (84 words) [t65x_seclm2p1f], a screen | Human, low (my call) | AI Generated (0.99, Low; 87); 06:17:54 UTC, https://www.pangram.com/history/86215ef0-8c65-4267-95b1-91c59e620fe3 | miss |
 | 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1f alone (98 words) [t65x_lm3p1f], a screen | Human, low (my call) | AI Generated (0.99, Medium; 104); 06:21:07 UTC, https://www.pangram.com/history/14073921-b254-4fc2-af9f-c4ca3fc4b8f6 | miss |
 | 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1f (102 words) [t65x_seclm3p1f], a screen | Human, low (my call) | AI Generated (0.96, Medium; 107); 06:17:44 UTC, https://www.pangram.com/history/c739a9be-c805-4e36-a0e7-a63abaebf537 | miss |
@@ -1860,3 +1860,69 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship P2, ba1p2d alone (74 words) [t65y_ba1p2d], a screen | Human, low (my call) | AI Generated (0.92, Low; 75); 06:27:46 UTC, https://www.pangram.com/history/08ffb026-f5a9-45ac-8dd3-3b18c91f360c | miss |
 | 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow, sh1d alone (110 words) [t65y_sh1d], a screen | Human, low (my call) | AI Generated (0.96, Medium; 114); 06:27:36 UTC, https://www.pangram.com/history/ef414cf0-25db-4879-b2b7-86fdf7594fe0 | miss |
 | 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with P1 = sh1d (119 words) [t65y_secsh1d], a screen | Human, low (my call) | AI Generated (0.95, Medium; 122); 06:26:33 UTC, https://www.pangram.com/history/ebc9552e-4850-447b-9be4-ac764bd8fc54 | miss |
+| 2026-10-17 (turn 65) | sp8p1 w1 p1 alone, a fresh writer (70 words) [t65z_sp8p1w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp8p4b w1 p1 alone, a fresh writer (66 words) [t65z_sp8p4bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ks4b w1 p1 alone, a fresh writer (71 words) [t65z_ks4bw1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm3 w1 p1 alone, a fresh writer (110 words) [t65z_lm3w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp7 w1 p1 alone, a fresh writer (85 words) [t65z_sp7w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp5 w1 p1 alone, a fresh writer (111 words) [t65z_sp5w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp8p1 w2 p1 alone, a fresh writer (63 words) [t65z_sp8p1w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp6 w1 p1 alone, a fresh writer (61 words) [t65z_sp6w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp6 w1 p2 alone, a fresh writer (83 words) [t65z_sp6w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp9 w1 p1 alone, a fresh writer (99 words) [t65z_sp9w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp5 w2 p1 alone, a fresh writer (112 words) [t65z_sp5w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm2 w1 p1 alone, a fresh writer (78 words) [t65z_lm2w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm2 w1 p2 alone, a fresh writer (63 words) [t65z_lm2w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp7 w2 p1 alone, a fresh writer (84 words) [t65z_sp7w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sh1 w1 p1 alone, a fresh writer (136 words) [t65z_sh1w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm4 w1 p1 alone, a fresh writer (55 words) [t65z_lm4w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm4 w1 p2 alone, a fresh writer (79 words) [t65z_lm4w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp6 w2 p1 alone, a fresh writer (66 words) [t65z_sp6w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp6 w2 p2 alone, a fresh writer (76 words) [t65z_sp6w2p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ba1 w1 p1 alone, a fresh writer (92 words) [t65z_ba1w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ba1 w1 p2 alone, a fresh writer (95 words) [t65z_ba1w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm1 w1 p1 alone, a fresh writer (66 words) [t65z_lm1w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm1 w1 p2 alone, a fresh writer (54 words) [t65z_lm1w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm1 w1 p3 alone, a fresh writer (112 words) [t65z_lm1w1p3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | le1 w1 p1 alone, a fresh writer (100 words) [t65z_le1w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | le1 w1 p2 alone, a fresh writer (149 words) [t65z_le1w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp4 w1 p1 alone, a fresh writer (106 words) [t65z_sp4w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp4 w1 p2 alone, a fresh writer (88 words) [t65z_sp4w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ks12 w9 p1 alone, my own draft (91 words) [t65z_ks12w9p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ks12 w9 p2 alone, my own draft (93 words) [t65z_ks12w9p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp8p4b w2 p1 alone, a fresh writer (63 words) [t65z_sp8p4bw2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ks12 w1 p1 alone, a fresh writer (95 words) [t65z_ks12w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ks12 w1 p2 alone, a fresh writer (100 words) [t65z_ks12w1p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm2 w2 p1 alone, a fresh writer (80 words) [t65z_lm2w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm2 w2 p2 alone, a fresh writer (64 words) [t65z_lm2w2p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp4 w2 p1 alone, a fresh writer (109 words) [t65z_sp4w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp4 w2 p2 alone, a fresh writer (95 words) [t65z_sp4w2p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | wl1 w1 p1 alone, a fresh writer (66 words) [t65z_wl1w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm1 w2 p1 alone, a fresh writer (70 words) [t65z_lm1w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm1 w2 p2 alone, a fresh writer (53 words) [t65z_lm1w2p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm1 w2 p3 alone, a fresh writer (119 words) [t65z_lm1w2p3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm3 w2 p1 alone, a fresh writer (110 words) [t65z_lm3w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm4 w2 p1 alone, a fresh writer (61 words) [t65z_lm4w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | lm4 w2 p2 alone, a fresh writer (64 words) [t65z_lm4w2p2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp9 w2 p1 alone, a fresh writer (102 words) [t65z_sp9w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with w1's paragraphs (192 words) [t65z_secba1w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When One Life Has Ended and the Next Hasn’t Begun with w1's paragraphs (359 words) [t65z_secle1w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with w1's paragraphs (238 words) [t65z_seclm1w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with w2's paragraphs (248 words) [t65z_seclm1w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here with w1's paragraphs (148 words) [t65z_seclm2w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here with w2's paragraphs (151 words) [t65z_seclm2w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Somatic Heart Opening with w1's paragraphs (114 words) [t65z_seclm3w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Somatic Heart Opening with w2's paragraphs (114 words) [t65z_seclm3w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible? with w1's paragraphs (348 words) [t65z_seclm4w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible? with w2's paragraphs (339 words) [t65z_seclm4w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w1's paragraphs (145 words) [t65z_secsh1w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Journal With Each Hand with w1's paragraphs (199 words) [t65z_secsp4w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Journal With Each Hand with w2's paragraphs (209 words) [t65z_secsp4w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with w1's paragraphs (188 words) [t65z_secsp5w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with w2's paragraphs (189 words) [t65z_secsp5w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with w1's paragraphs (154 words) [t65z_secsp6w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with w2's paragraphs (152 words) [t65z_secsp6w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with w1's paragraphs (172 words) [t65z_secsp7w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with w2's paragraphs (171 words) [t65z_secsp7w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with w1's paragraphs (107 words) [t65z_secsp9w1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with w2's paragraphs (110 words) [t65z_secsp9w2], a screen | Human, low (my call) | (pending) | |
