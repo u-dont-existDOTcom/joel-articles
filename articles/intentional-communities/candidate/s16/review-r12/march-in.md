@@ -1,0 +1,9 @@
+Most people building community do it in the wrong order: 1) Get the land! 2) Write the vision down in a document! 3) Let whoever had the money end up owning it. 4) And all the emotional preparation? Let's get around to that later, when everyone has more time!
+
+The better order is less cinematic: 1) Practice together! 2) Process a real conflict! 3) Get clear on your values. 4) Test membership. 5) Decide ownership and exit. 6) Only then, start thinking about land. I know, it wouldn't make much of a movie!
+
+The money side should go in stages too: don't try to fly straight to the economic destination! Only once the group can reliably provide for everybody, and fairly decide who gets what from the common, should it move to a common purse. And cutting back on outside money, or getting rid of it, should come from what the group has shown it can do, rather than from deciding that "money is impure!" (which sounds weird while somebody else is quietly paying the tax bill).
+
+Most people building community do it in the wrong order. Get the land first! Put the vision in a document! Let whoever had the money end up owning it! And the emotional preparation? That can wait until later, when everyone has more time.
+
+Where do you find them? Are there any unprogrammed Quaker meetings or restorative-practice groups near you? Any open-hearted congregations? Maybe a mature recovery group, or a meditation group? Or someone who came back from a long retreat kinder, rather than more impressed with themselves?
