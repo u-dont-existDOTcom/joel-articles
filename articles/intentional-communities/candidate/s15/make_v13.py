@@ -8,6 +8,8 @@
 - P6: "for p6 at the end you added "i like that." why? I actually don't know that i like that ... I'd rather say that... i
   understand the motivation to negotiate like that but i think it's not a full solution either." His sentence in place of
   "I like that.", with capital I's and a comma before "but".
+And the sweep of his rule over the article (fix-20261017/SWEEP-20261017.md, the linter's R2): H1-P3's "It's the most joking culture
+I've ever been in" stood for the published "This is the most intensely joking culture I've encountered"; "This" is back.
 Writes v13.md. Run from this folder: python3 make_v13.py"""
 import pathlib
 
@@ -18,6 +20,8 @@ CH = [
      'and it also made public advocacy for homosexuality a crime.'),
     ("It's also the thorny boundary issue of living without money inside a money-based society.",
      "This is also the thorny boundary issue of living without money inside a money-based society."),
+    ("It's the most joking culture I've ever been in, and I keep wondering",
+     "This is the most joking culture I've ever been in, and I keep wondering"),
     ("but at least now it's something they can name and negotiate. I like that.",
      "but at least now it's something they can name and negotiate. I understand the motivation to negotiate like that, but I "
      "think it's not a full solution either."),

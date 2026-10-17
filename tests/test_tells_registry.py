@@ -62,10 +62,11 @@ class RegistryShape(unittest.TestCase):
         ids = [t['id'] for t in TELLS]
         # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35; J51 from 23:12;
         # W84 (O39) from 2026-10-12 05:33; W85 (O40) and J52 from 17:23; W86 and W87 (B5's two announcing openers) from
-        # Joel's section 4 and 12 texts of 2026-10-13; J53 to J55 from his Rule Scoring Sheet answers of 2026-10-14
-        self.assertEqual(len(ids), 143)
+        # Joel's section 4 and 12 texts of 2026-10-13; J53 to J55 from his Rule Scoring Sheet answers of 2026-10-14; W88 to
+        # W92 (O41, S1, S2, R2, A2) from his message of 2026-10-17 13:11, which also moved W02 ("quietly") to O42
+        self.assertEqual(len(ids), 148)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 87)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 92)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))
@@ -227,3 +228,67 @@ class TwoParentheticalsInARow(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class ChecksFromJoelsCorrectionsOf20261017(unittest.TestCase):
+    """Joel, 2026-10-17 13:11 UTC (community sections 15 and 16): "quietly" (O42), "Do those three things" (O41), three
+    exclamations in a row (S1, with S2 for the rate), "this is not the same as it" (R2), and an added "I like that." (A2).
+    Each check must leave alone the cases that aren't the tell."""
+    def lint_with(self, text, source=None, owner=None):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text + '\n', encoding='utf-8')
+            cmd = [sys.executable, str(TOOLS / 'tells_lint.py'), str(f)]
+            if source is not None:
+                (pathlib.Path(d) / 'source.txt').write_text(source + '\n', encoding='utf-8')
+                cmd += ['--source', str(pathlib.Path(d) / 'source.txt')]
+            if owner is not None:
+                (pathlib.Path(d) / 'owner.txt').write_text(owner + '\n', encoding='utf-8')
+                cmd += ['--owner', str(pathlib.Path(d) / 'owner.txt')]
+            r = subprocess.run(cmd, capture_output=True, text=True)
+            self.assertIn('verdict:', r.stdout, r.stderr[-600:])
+            return r.stdout
+
+    def test_quietly_fails_but_not_for_a_sound_or_a_movement(self):
+        self.assertIn('verdict: FAIL', lint('Somebody else is quietly paying the tax bill for the whole group every single spring.'))
+        for s in ('She spoke quietly so the children could sleep through the meeting in the next room.',
+                  'He left quietly before the meeting ended, and nobody noticed until the soup was served.'):
+            with self.subTest(s=s[:40]):
+                self.assertNotIn('O42', rule_ids(lint(s)))
+
+    def test_a_count_that_names_a_models_parts_is_content(self):
+        for s in ("I've broken the model I propose down into the 4 parts shown in the diagram above, with a page for each.",
+                  'The three of us took turns cooking for the whole group every night during the harvest that year.'):
+            with self.subTest(s=s[:40]):
+                self.assertNotIn('O41', rule_ids(lint(s)))
+
+    def test_exclamations_inside_quotes_and_captions_are_not_the_writers(self):
+        text = ('Even in Dakar, I found this graffiti on a wall: "Tolerance! Openness! Union! Happiness! Love!" And elsewhere there '
+                'are murals of Sufi leaders.\n\n[caption] Graffiti in Dakar: Tolerance! Openness! Union! Happiness! Love!\n\nThe '
+                'murals are everywhere, and most of them are hand painted by people from the neighborhood.')
+        self.assertNotIn('S1', rule_ids(lint(text)))
+
+    def test_two_in_a_row_is_in_range(self):
+        text = ('And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is '
+                'going to tell you any of that! Look before you leap. It will really save you some time and money.')
+        self.assertNotIn('S1', rule_ids(lint(text)))
+
+    def test_a_dummy_it_and_a_kept_this_are_fine(self):
+        src = 'I did not find one. That may be because records are private or cases were routed elsewhere, so I cannot claim it.'
+        self.assertNotIn('R2', rule_ids(self.lint_with(
+            "I couldn't find one. It's possible that records are private, or that cases were referred elsewhere, so I can't claim it.",
+            source=src)))
+        src2 = 'This is also the boundary problem a money-free commune has to solve, with taxes and hospital bills in money.'
+        self.assertNotIn('R2', rule_ids(self.lint_with(
+            'This is also the thorny boundary issue of living without money, with taxes and hospital bills still paid in money.',
+            source=src2)))
+
+    def test_an_opinion_the_published_text_holds_is_fine(self):
+        src = 'Now the young people can work in the city as long as they come back for the harvest. I like that arrangement.'
+        self.assertNotIn('A2', rule_ids(self.lint_with(
+            'Now the young people can work in the city as long as they come back for the harvest. I like that.', source=src)))
+
+    def test_his_own_lines_are_his(self):
+        s = 'Now the young people can work in the city as long as they come back for the harvest. I like that.'
+        src = 'Now the young people can work in the city as long as they come back for the harvest every year.'
+        self.assertNotIn('A2', rule_ids(self.lint_with(s, source=src, owner=s)))

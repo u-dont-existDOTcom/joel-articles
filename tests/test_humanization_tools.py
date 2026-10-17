@@ -1387,6 +1387,23 @@ class PauseTally(unittest.TestCase):
             disp.write_text('- Cut: "How do you know?" (Joel, 18:22).\n', encoding='utf-8')
             self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 0)
 
+    def test_a_list_of_paused_phrases_answers_nothing(self):
+        """2026-10-17: section 15's "apology" (the law's French "apologie"; Joel at 13:11: "should have been translated as
+        "advocacy"") was paused at in rounds r4 and r8, and both dispositions only listed it "for the cross-round count",
+        with "(published)". The tally took the list for an answer."""
+        import pause_tally
+        with tempfile.TemporaryDirectory() as d:
+            reps = self.reports(d, ['Paused: P7 "apology"; P8 "So which is it?"'] * 2)
+            disp = pathlib.Path(d) / 'D.md'
+            disp.write_text('- Phrases paused at, for the cross-round count: "apology" (published), "So which is it?".\n',
+                            encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 1)
+            disp.write_text('- Others: "apology" (published), "So which is it?" (published).\n', encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 1)
+            disp.write_text('- "apology": fixed by Joel, now "advocacy".\n- "So which is it?": kept because the next sentence '
+                            'answers it.\n', encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 0)
+
 
 class AuthorMarksReadExactLocksAndLinks(unittest.TestCase):
     """meaning_sweep.owner_strings (2026-10-16): his published "[My research](...) initially leaned too far that way.", kept by
