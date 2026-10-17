@@ -1095,6 +1095,34 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertIn('start_index', read)
         self.assertIn("flagged:", read)
 
+    def test_a_note_cannot_waive_a_dropped_point(self):
+        """2026-10-16: section 13 v31 passed with "missing": [] and the dropped "if the community uses them" written in a
+        note. Joel, 23:38 UTC: "yes i want "if the community uses them" back"."""
+        note = dict(self.CLEAN, missing_note='keeps the questions without the published "if the community uses them"')
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': note}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("a note can't waive a dropped point", r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': dict(note, owner_ok='Joel, 2026-10-17: "fine without it"')}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+
+    def test_every_paragraph_needs_a_human_result_alone(self):
+        """Joel, 2026-10-16 23:38 UTC: "no ai tells you see, and it has human tells? isn't that part of the rules?" Section
+        13 went in checked only in groups; alone, its short visit read AI (312g)."""
+        import paragraphs_alone
+        long1 = ' '.join(['word%d' % i for i in range(60)]) + '.'
+        short = 'A short one, under fifty words.'
+        md = '# S\n\n' + long1 + '\n\n' + short + '\n'
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'drafts.json').write_text(json.dumps({'a': long1, 'ab': long1 + '\n\n' + short}), encoding='utf-8')
+            (d / 'b1-results.json').write_text(json.dumps({'a': ['Human Written'], 'ab': ['AI Detected']}), encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertFalse(ok)
+            self.assertTrue(report[1].startswith('MISS A short one'), report)
+            (d / 'b1-results.json').write_text(json.dumps({'a': ['Human Written'], 'ab': ['Human Written']}), encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertTrue(ok, report)
+
     def test_a_march_without_a_break_blocks_the_call(self):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(self.CLEAN, march=['S S S'])}, ['p'])
         self.assertEqual(r.returncode, 2)
@@ -1342,6 +1370,24 @@ class ClickableLinks(unittest.TestCase):
         self.assertEqual(out.count('<li class="gap"'), 1)
         self.assertEqual(render_questions.misplaced_items(
             '<ul class="items"><li>\n<p><span class="dot done"></span>squeezed</p>\n</li></ul>'), ['squeezed'])
+
+    def test_the_questions_lint_finds_questions_hidden_under_coming_up(self):
+        """Joel, 2026-10-16 23:38 UTC: "those coming up questions also not numbered with options for some reason so harder to
+        asnwser. why are questions about the sections that are now finished still "coming up"..." """
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import questions_lint
+        head = '# Q\n\nLast updated today. **Open questions: 1.**\n\n'
+        good = (head + '## Open questions\n\n**🟣 35. A title.** What it is.\n- a) one. **My pick**\n- b) two\n\n'
+                '## Decided\n\n- 🟢 done\n\n## Coming up (not a question yet)\n\n- 🔵 Section 15 next ("Who would?" is his).\n')
+        self.assertEqual(questions_lint.problems(good), [])
+        hidden = good.replace('- 🔵 Section 15 next', '- 🔵 Section 13, kept unless you say otherwise: the budget line')
+        self.assertTrue(any('asks for an answer' in p for p in questions_lint.problems(hidden)))
+        asked = good.replace('- 🔵 Section 15 next ("Who would?" is his).', '- 🔵 Should the chart change?')
+        self.assertTrue(any('question mark' in p for p in questions_lint.problems(asked)))
+        no_options = good.replace('- b) two\n', '')
+        self.assertTrue(any('lettered options' in p for p in questions_lint.problems(no_options)))
+        miscount = good.replace('Open questions: 1.', 'Open questions: 0.')
+        self.assertTrue(any('header says 0' in p for p in questions_lint.problems(miscount)))
 
     def test_the_chat_check_fails_a_bare_address_and_passes_a_written_link(self):
         script = str(TOOLS / 'pangram_links_check.py')

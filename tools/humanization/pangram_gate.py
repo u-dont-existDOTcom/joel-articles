@@ -140,6 +140,12 @@ def problems(key, gate, seen=()):
         out.append('leaves out %s. A draft that drops a point goes to Pangram only as a probe ("probe": true), and a probe '
                    'is never installed (E168; Joel, 2026-10-12: "never take out something important in order to pass '
                    'pangram")' % '; '.join(missing))
+    elif not missing and str(g.get('missing_note') or '').strip() and not g.get('owner_ok'):
+        # 2026-10-16: section 13 v31 went in with "missing": [] and the dropped "if the community uses them" written in
+        # "missing_note", so this check never saw the loss. Joel, 23:38 UTC: "yes i want "if the community uses them" back".
+        out.append("'missing' is empty but 'missing_note' describes something: a note can't waive a dropped point. Put it in "
+                   "'missing' (the draft then goes only as a probe), or quote Joel's answer that the loss is fine in "
+                   "'owner_ok' (Joel, 2026-10-12: \"never take out something important in order to pass pangram\")")
     if g.get('cold') != 'OK':
         out.append('cold read: %r (every sentence OK first)' % (g.get('cold'),))
     if not g.get('lint') or str(g.get('lint')).upper() == 'FAIL':

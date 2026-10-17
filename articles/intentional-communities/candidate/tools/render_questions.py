@@ -158,6 +158,12 @@ def misplaced_items(page):
 def main():
     src, dst = sys.argv[1], sys.argv[2]
     text = open(src, encoding='utf-8').read()
+    # Joel, 2026-10-16 23:38 UTC: questions hid under "Coming up", unnumbered and without options (questions_lint.py)
+    sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
+    import questions_lint
+    bad = questions_lint.problems(text)
+    if bad:
+        raise SystemExit('questions_lint FAIL, the page was not written:\n- ' + '\n- '.join(bad))
     open(dst, 'w', encoding='utf-8').write(render(text))
     print('%s: %d bytes' % (dst, len(open(dst, encoding='utf-8').read())))
 

@@ -44,10 +44,10 @@ FIX = [
      'Joel, 2026-10-16 23:38 UTC: "yes i want "if the community uses them" back"; his published words, read Human in v31 (312g)'),
     ('H1-P4', 'dead in the water if your well fails, or if the one person', 'dead in the water if the one person',
      'repeats r19 item 3: section 12\'s well (his) carries it'),
-    ('H3-P3', 'Even if you\'re a money-free community, you\'ll still have scarce resources and bottlenecks. Sorry! ', '',
-     'repeats r19 item 1: section 4\'s "Even in a moneyless community, someone can control what\'s scarce." (his) carries it'),
-    ('H3-P3', 'where conflicts of interest are, etc.', 'where the bottlenecks and conflicts of interest are, etc.',
-     'the bottlenecks from the cut sentence, in the list of what people need to see'),
+    ('H3-P3', 'Even if you\'re a money-free community, you\'ll still have scarce resources and bottlenecks. Sorry! ',
+     'There will be bottlenecks, sorry! ',
+     'repeats r19 item 1: section 4\'s "Even in a moneyless community, someone can control what\'s scarce." (his) carries the '
+     'scarcity; the bottlenecks and the "Sorry!" (the paragraph\'s break; march r21 read b found none without it) stay'),
     ('H3-P3', ' It will be important to have it specified ahead of time what people\'s rights are to the common resources when '
               'they leave the community. ' + EXIT, '',
      'repeats r19 item 6: the exit resources move into H3-P4; "specified ahead of time" is H3-P4\'s "Write up the exit terms '
@@ -60,15 +60,15 @@ FIX = [
     ('H3-P5', 'For the full sequence -- vision, then members, then pooling major resources, then land -- see Diana Leafe '
               'Christian\'s ' + BOOK + ' (on the reading list at the end). Honestly, it\'s where I\'d start for getting that '
               'order right!',
-     'For the nuts and bolts of all this (members, money, land, agreements, etc.), I\'d honestly go to Diana Leafe '
-     'Christian\'s ' + BOOK + ' (on the reading list at the end).',
+     'For the nuts and bolts of all this (members, money, land, agreements, etc.), see Diana Leafe Christian\'s ' + BOOK +
+     ' (on the reading list at the end). Honestly, it\'s where I\'d start for those!',
      'Joel, 23:38: "no we should not lean on Christian\'s book order if it contradicts my own order"; his order is in "Practice '
      'Comes Before Property", and his reading list recommends the book for membership, money, land and agreements'),
     ('H4-P1', ' It’s no good for anyone to join a group that can’t deliver what it promised.', '',
      'repeats r19 item 4: section 12\'s capacity point and section 5\'s "recruit too quickly and promise too much" carry it'),
     ('H4-P3', 'charming for two weeks. So if that\'s all they do, congratulations! You\'ve established that they can be charming '
-              'for two weeks. 😅', 'charming for two weeks, ' +
-     'so that\'s about all you\'ll find out. 😅',
+              'for two weeks. 😅', 'charming for two weeks! 😅 ' +
+     'So that\'s about all you\'ll find out.',
      'batch 312g: with H4-P2 it read AI over exactly these 45 words; the "Congratulations: you have established" format is '
      'AI\'s now (his 2026-10-02 ruling on quips: keep the point)'),
     ('H4-P4', 'may be able to pull off an act for months, so time gets you more evidence, not certainty.',
