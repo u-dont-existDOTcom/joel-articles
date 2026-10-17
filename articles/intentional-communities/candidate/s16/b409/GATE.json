@@ -1,0 +1,48 @@
+{
+ "S16v26kni-H3-P6": {
+  "kind": "screen",
+  "march": [
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "its own march",
+  "words": 54,
+  "lint": "REVIEW"
+ },
+ "S16v26kni-H3-P5+P6": {
+  "kind": "screen",
+  "march": [
+   "S B S S S S",
+   "S B S S S S",
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "the pair",
+  "words": 95,
+  "lint": "REVIEW"
+ },
+ "S16v26kni-H3-P6+P7": {
+  "kind": "screen",
+  "march": [
+   "S B B",
+   "S B B",
+   "S B",
+   "S B"
+  ],
+  "march_note": "the pair",
+  "words": 72,
+  "lint": "REVIEW"
+ },
+ "S16v26kni-H3-P7+P8": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "B S S",
+   "B S B"
+  ],
+  "march_note": "the pair",
+  "words": 70,
+  "lint": "REVIEW"
+ }
+}

@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v27tkk | Mixed | the whole section with all of r42's fixes and H3-P6's showers sentence in shape tkk | |
+| S16v27tkk | Mixed | the whole section with all of r42's fixes and H3-P6's showers sentence in shape tkk | **Mixed** (AI Detected; windows: Human, High, 629; AI-Generated, High, 251, 880 words, AI likelihood 0.43), 12:17:27, [check](https://www.pangram.com/history/23c64fb9-bd17-4e6e-aa5c-34b3e9919fb1) |
+
+## Results of 407g
+
+One of one right. AI Detected (0.43): windows Human, High, 629; AI-Generated, High, 251. None of v27's six shapes reads better than v26 kni and khi (0.32, one 61-word window, 399g and 400g).
