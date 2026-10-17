@@ -44,11 +44,14 @@ def photos():
 SAID = 'experiments/t67-answers/JOEL-20261017-1401.md'
 
 
-def installs():
-    """(old, new): each replaces one exact passage of the article. The results go into the comments after the checks."""
+RESULTS = {}   # @@NAME@@ in a comment -> the checks' results, filled in once they're in (install)
+
+
+def installs(names=None):
+    """(old, new): each replaces one exact passage of the article; NAMES picks some of them (timing, photos, lm4, ba)."""
     out = []
     # 35: his P14, first under the guide's own subheading
-    out.append(('## Timing Is Individual\n\n<!-- Turn 65 (E181), my own draft, groups 15 and 16',
+    out.append(('timing', '## Timing Is Individual\n\n<!-- Turn 65 (E181), my own draft, groups 15 and 16',
                 '## Timing Is Individual\n\n<!-- Turn 67: Joel\'s P14, word for word (2026-10-17 14:01 UTC, his answer to question 35: '
                 '"added a marching order break that sounds a bit human, now it passes"; ' + SAID + '). His check counts for it '
                 'alone. @@TIMING@@ -->\n\n' + joel('joel-guide-p14') + '\n\n<!-- Turn 65 (E181), my own draft, groups 15 and 16'))
@@ -58,7 +61,7 @@ def installs():
     ph = photos()
     head, body = ph.split('\n', 1)
     assert head == '## Use Childhood Photographs Gently'
-    out.append((old,
+    out.append(('photos', old,
                 '<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md, with what each needs from Joel): Journal With '
                 'Each Hand; And So That\'s the Way It Happened!; One Intention in the Morning, One Review at Night; Just Like Me. '
                 'They go here, in that order. -->\n\n' + head + '\n\n<!-- Turn 67: Joel\'s section, word for word under his heading '
@@ -70,7 +73,7 @@ def installs():
     # 34: How Much Happiness, with his P4
     old = re.search(r"<!-- Parked: How Much Happiness Do You Know Is Possible\?.*?It goes here\. -->",
                     ART.read_text(encoding='utf-8')).group(0)
-    out.append((old,
+    out.append(('lm4', old,
                 '## How Much Happiness Do You Know Is Possible?\n\n'
                 '<!-- Turn 65 (E177), my own draft (lm4-p1-a, experiments/t65-guide/; GROUNDING-lm4.md): part of love is wanting '
                 'someone to be well, and how far the wish reaches depends partly on the happiness you know is possible; practical '
@@ -87,33 +90,46 @@ def installs():
                 '<!-- Turn 65, my own draft (lm4-p5-c): curiosity can be enough, and the limits of what you\'ve felt aren\'t the '
                 'limits of what\'s possible. Alone Human Written (0.002, low), '
                 'https://www.pangram.com/history/c690f23b-fdb2-4e14-a2ed-663e50460455. -->\n\n' + g65('lm4-p5-c')))
-    # 33: Borrowed Adulthood, P1 (w9: it doesn't name the appointments his P2 opens on) and his P2
+    # 33: Borrowed Adulthood, P1 (w8; with w9 the h1 read AI in round a) and his P2
     old = re.search(r"<!-- Parked between this section and the closing \(experiments/t65-guide/PARKED\.md, with what each "
                     r"needs from Joel\): When One Life Has Ended.*?They go here, in that order\. -->",
                     ART.read_text(encoding='utf-8')).group(0)
-    out.append((old,
+    out.append(('ba', old,
                 '<!-- Parked between this section and Borrowed Adulthood (experiments/t65-guide/PARKED.md, with what it needs): '
                 'When One Life Has Ended and the Next Hasn\'t Begun (its P1 reads Human alone; P2 and P3 are this turn\'s work). '
                 'It goes here. -->\n\n# Borrowed Adulthood in Relationship\n\n'
-                '<!-- Turn 65 (E177), my own draft (writers/ba1p1-w9-p1; GROUNDING-ba01.md): reparenting is usually talked about as '
+                '<!-- Turn 65 (E177), my own draft (writers/ba1p1-w8-p1; GROUNDING-ba01.md): reparenting is usually talked about as '
                 'something done alone or with a therapist, but a relational hurt heals only so far alone; one person may be doing a '
-                'lot of the borrowed grown-up jobs, which is a blessing while you struggle. Alone Human Written (0.21, low), '
-                'https://www.pangram.com/history/e5dee9f7-60b6-4ac8-946a-050c45439240. @@BA1@@ -->\n\n' + g65('writers/ba1p1-w9-p1') +
+                'lot of the borrowed grown-up jobs at once, which can be an enormous blessing while you struggle. Alone Human Written '
+                '(0.21, medium), https://www.pangram.com/history/847b3962-516a-440b-887c-2166e1523f9e. @@BA1@@ -->\n\n' + g65('writers/ba1p1-w8-p1') +
                 '\n\n<!-- Turn 67: Joel\'s P2, word for word (2026-10-17 14:01 UTC, his answer to question 33: "this version passes"; '
                 + SAID + '). His check counts for it alone. @@BA2@@ -->\n\n' + joel('joel-ba-p2') + '\n\n'
                 '<!-- Parked between this section and the closing (experiments/t65-guide/PARKED.md, with what it needs from Joel): '
                 'Speak Toward What You Are Building (P3 and P4 read Human alone and together; P1, P2, P5 and P6 never did; the '
                 'guide\'s Hearthwork naming needs him). It goes here. -->'))
-    return out
+    return [(o, n) for name, o, n in out if names is None or name in names]
 
 
-def candidate():
+def candidate(names=None):
     t = ART.read_text(encoding='utf-8')
-    for old, new in installs():
+    for old, new in installs(names):
         assert t.count(old) == 1, old[:80]
         t = t.replace(old, new)
     CAND.write_text(t, encoding='utf-8')
     return t
+
+
+def install(names, results_file):
+    """Put NAMES into the article itself, with each @@NAME@@ in their comments replaced from RESULTS_FILE (JSON)."""
+    res = json.loads(pathlib.Path(results_file).read_text(encoding='utf-8'))
+    t = ART.read_text(encoding='utf-8')
+    for old, new in installs(names):
+        assert t.count(old) == 1, old[:80]
+        for k, v in res.items():
+            new = new.replace('@@%s@@' % k, v)
+        assert '@@' not in new, new[:200]
+        t = t.replace(old, new)
+    ART.write_text(t, encoding='utf-8')
 
 
 def section(md, heading):
@@ -187,5 +203,7 @@ def batch(rnd, spec_file):
 if __name__ == '__main__':
     if sys.argv[1] == 'candidate':
         candidate(); print('wrote', CAND)
+    elif sys.argv[1] == 'install':
+        install(sys.argv[2].split(','), sys.argv[3]); print('installed', sys.argv[2])
     else:
         sys.exit(batch(sys.argv[2], sys.argv[3]))

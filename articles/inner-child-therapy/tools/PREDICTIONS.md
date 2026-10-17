@@ -2255,3 +2255,21 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 67) | How Much Happiness, the h2 with P2 lm4-p2-j2 and P3 lm4-p3-j2 (P1 lm4-p1-a, Joel's P4, P5 lm4-p5-c) (352 words) [t67b_seclm4j2j2], a screen | Human, low (my call) | (pending) | |
 | 2026-10-17 (turn 67) | How Much Happiness, the h2 with P2 lm4-p2-j3 and P3 lm4-p3-j2 (P1 lm4-p1-a, Joel's P4, P5 lm4-p5-c) (343 words) [t67b_seclm4j3j2], a screen | Human, low (my call) | (pending) | |
 | 2026-10-17 (turn 67) | How Much Happiness, the h2 with P2 lm4-p2-j1 and P3 writers/lm4-w2-p1 (P1 lm4-p1-a, Joel's P4, P5 lm4-p5-c) (346 words) [t67b_seclm4j1w2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft g (104 words) [t67c_ks4g], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft k (94 words) [t67c_ks4k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft l (91 words) [t67c_ks4l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P4b alone, ks1-p4c with its last sentence changed (e1: the h1 window ran from it into P5) (64 words) [t67c_ks4be1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself P5 alone, ks1-p5-b with its first sentence (the referent) and its "without taking away" ending changed (e1) (92 words) [t67c_ks5e1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | How Much Happiness P1 alone, my draft j1 (E186) (75 words) [t67c_lm4p1j1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | How Much Happiness P1 alone, my draft j2 (E186) (67 words) [t67c_lm4p1j2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P2 alone, my draft h (117 words) [t67c_le2h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P2 alone, my draft i (with a pointer to The Inner Guide Comes Later) (122 words) [t67c_le2i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P3 in two, first half alone, my draft g (77 words) [t67c_le3ag], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | When One Life Has Ended P3 in two, first half alone, my draft h (76 words) [t67c_le3ah], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-a2, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d (605 words) [t67c_secksa2e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-g, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d (608 words) [t67c_secksge], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-k, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d (598 words) [t67c_seckske], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-l, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d (595 words) [t67c_secksle], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | How Much Happiness, the h2 with P1 lm4-p1-j1, P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c (351 words) [t67c_seclm4j1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | How Much Happiness, the h2 with P1 lm4-p1-j2, P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c (343 words) [t67c_seclm4j2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 67) | How Much Happiness, the h2 with P1 left out (a probe: where the AI window starts), P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c (276 words) [t67c_seclm4nop1], a screen | Human, low (my call) | (pending) | |

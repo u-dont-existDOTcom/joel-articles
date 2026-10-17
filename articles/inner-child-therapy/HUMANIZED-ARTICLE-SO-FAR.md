@@ -807,6 +807,10 @@ Humor can sneak things past you too. "Ha, I'll just borrow your card, kidding...
 
 ## Timing Is Individual
 
+<!-- Turn 67: Joel's P14, word for word (2026-10-17 14:01 UTC, his answer to question 35: "added a marching order break that sounds a bit human, now it passes"; experiments/t67-answers/JOEL-20261017-1401.md). His check counts for it alone. With it under the heading, the h2 read Human Written (0.27, medium, 140 words), https://www.pangram.com/history/16516cc7-5343-427c-928b-6a72439b2543, and the h1 Human Written (0.10, high, 1448 words), https://www.pangram.com/history/cb9aec61-0957-43eb-b28f-4c0f30633cae (round t67a). -->
+
+Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
+
 <!-- Turn 65 (E181), my own draft, groups 15 and 16, under the guide's own subheading ("Timing is individual"): spiritual openings keep their own schedule and may be completely real (group 15 is already in the article, so only a pointer); the integration question: did it deepen or widen your love, has it reached your little one, and does it show with people (more honest and dependable, protective and compassionate, better at relationships). P14 (group 14, the timing itself) is parked (experiments/t65-guide/PARKED.md) and goes above this paragraph under the same heading when it's done. Its grounding's fixes (the opening named; your little one first, the MUST question) and the cold read's (no bridge from the humor paragraph) are in. Alone Human Written (0.06, low), https://www.pangram.com/history/c7944fca-9673-4fb0-b668-05c6cbe4034d; with the heading Human (0.056, low); the h1 Human Written (0.108, high), https://www.pangram.com/history/2ace607d-f5cd-481e-8d3b-f6397305ea39. Record: experiments/t65-guide/REVIEWS.md. -->
 
 Spiritual openings keep their own schedule, too. Yours may have come long before you had much of a Nurturer or Protector, and it may have been completely real. The question afterward is whether it made your love deeper or wider. Has it reached your little one yet? And does it show with people, in being more honest and dependable, more protective and compassionate, better at relationships?
@@ -843,7 +847,25 @@ With a little warmth to work with, rest one hand at the center of your chest (th
 
 Picture the love traveling from your heart down to your little one. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. No warmth today? Then rest your hands there and notice what you find, no faking required.
 
-<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md, with what each needs from Joel): Journal With Each Hand; And So That's the Way It Happened!; One Intention in the Morning, One Review at Night; Just Like Me; Use Childhood Photographs Without Interrogating Them; Close the Session and Return to Life. They go here, in that order. -->
+<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md, with what each needs from Joel): Journal With Each Hand; And So That's the Way It Happened!; One Intention in the Morning, One Review at Night; Just Like Me. They go here, in that order. -->
+
+## Use Childhood Photographs Gently
+
+<!-- Turn 67: Joel's section, word for word under his heading (2026-10-17 14:01 UTC, his answer to question 36: "here learn some lessons this passes"; experiments/t67-answers/JOEL-20261017-1401.md; his paste is experiments/t67-guide/joel-photos-h2.txt). One obvious typo fixed under his rule (2026-10-06): "glean" for "gleam" in P2. His check counts for the section as he sent it. With the fix, P2 read Human alone (0.0004, low), https://www.pangram.com/history/f91ae99f-1b52-4f44-83c9-a6be8cb8bb2e; the h2 Human Written (0.041, high, 463 words), https://www.pangram.com/history/7171bb76-f8de-4462-8b4f-72df4f444971; and the Simple Practices h1 with it Human Written (0.061, high, 905 words), https://www.pangram.com/history/95ad57f0-d31b-4df6-b8fa-a0a5fb780c58 (round t67a). -->
+
+Maybe you've tried picturing your little one and thought, "This feels fake. I'm just making it up." A real photo of you as a child can help with that, since there's no face or posture to invent. Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up.
+
+While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then ("You hated that coat"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up, which is also completely OK. Ask what your little one needs from you now, and do a bit of it.
+
+We don't need to ask it leading questions, like "Who abused me & how?" or "What memory is my body hiding?" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions, so we gotta be careful about that. [Look at this study, for example](https://link.springer.com/article/10.3758/BF03196318), where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.
+
+A photo is just one moment that somebody picked and framed... not necessarily representative. Flipping thru an album may give different jolts in your body.
+
+If you start to suspect someone of something serious, like abusing you, please don't confront or accuse anyone based only on what came up here. You might be looking at the photo thinking, "That would explain so much." Journal what came up and how it came up, and see if you can get support from someone level-headed who won't lead you toward an answer.
+
+Put the photo back in its drawer when you're finished. If it starts tugging at you, so you keep going back to search it or you need to know for sure, or you're getting overwhelmed, take a break from it right then. Settle yourself in the present to close out properly. Re-evaluation counseling always ends on this "Present Time" reminder. Can be as simple and silly as "Oh, Today is Monday, my favorite day of the week!"
+
+<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md): Close the Session and Return to Life. It goes here. -->
 
 # When Love Still Feels Missing
 
@@ -903,7 +925,19 @@ They still have to answer for what they did, and it still hurt. Seeing how they 
 
 Forgiving yourself works the same way. Own what you did (only what was yours), and let yourself feel the remorse. Repair what you can, by apologizing or making amends. Changing the behavior counts too. Then you're allowed to stop holding yourself hostage, and the responsibility stays. If you're thinking "not me, not after what I did," forgiving other people tends to be harder too. Some harms take years, so don't push it. Forgive too soon and it's only a show; stay in the resentment and you end up living there. Every so often, come back to how whoever did it got to be someone who could do that, until you understand it well enough that it changes how you feel.
 
-<!-- Parked between this section and the closing (experiments/t65-guide/PARKED.md, with what each needs from Joel): When One Life Has Ended and the Next Hasn't Begun (its P1 reads Human alone; P2 and P3 never did); Borrowed Adulthood in Relationship (its P1 reads Human alone; P2 never did, in thirteen versions); Speak Toward What You Are Building (P3 and P4 read Human alone and together; P1, P2, P5 and P6 never did; the guide's Hearthwork naming needs him). They go here, in that order. -->
+<!-- Parked between this section and Borrowed Adulthood (experiments/t65-guide/PARKED.md, with what it needs): When One Life Has Ended and the Next Hasn't Begun (its P1 reads Human alone; P2 and P3 are this turn's work). It goes here. -->
+
+# Borrowed Adulthood in Relationship
+
+<!-- Turn 65 (E177), my own draft (writers/ba1p1-w8-p1; GROUNDING-ba01.md): reparenting is usually talked about as something done alone or with a therapist, but a relational hurt heals only so far alone; one person may be doing a lot of the borrowed grown-up jobs at once, which can be an enormous blessing while you struggle. Alone Human Written (0.21, medium), https://www.pangram.com/history/847b3962-516a-440b-887c-2166e1523f9e. Turn 67: the other P1 (w9, 0.21 alone) read AI in the h1 with Joel's P2 (0.875), https://www.pangram.com/history/f75f118e-61bb-4831-9307-ac62ec8b1e42, so this one. -->
+
+Reparenting is usually talked about as something you do alone, or with a therapist. But your little one got hurt in relationships, and that kind of hurt can only heal so far on your own. Sometimes one person ends up doing a lot of the borrowed grown-up jobs at once. They cook, they keep track of the appointments, they drive, they're the one who says it'll be okay, or they're just the competent person in the room. Maybe you're picturing them right now. Having someone like that while you're struggling can be an enormous blessing.
+
+<!-- Turn 67: Joel's P2, word for word (2026-10-17 14:01 UTC, his answer to question 33: "this version passes"; experiments/t67-answers/JOEL-20261017-1401.md). His check counts for it alone. The h1 with both read Human Written (0.19, high, 205 words), https://www.pangram.com/history/6add1dc0-16c2-41ee-81eb-be2b88d43947 (round t67a). -->
+
+Say they're the one who always remembers your appointments. Over time, reparenting can help you take in some of what they've been doing for you, and start doing it yourself, even that calendar bit. What you're after is care your little one can count on from more than one place, while the inner relationship stays precious and important. Other jobs can go to friends or community, outsource to the tools or pros, whatever works. You'll find the balance is dynamic between inner & outer reliance, and going too far in either extreme isn't generally the healthiest.
+
+<!-- Parked between this section and the closing (experiments/t65-guide/PARKED.md, with what it needs from Joel): Speak Toward What You Are Building (P3 and P4 read Human alone and together; P1, P2, P5 and P6 never did; the guide's Hearthwork naming needs him). It goes here. -->
 
 # You Are Worthy of Love. Always.
 

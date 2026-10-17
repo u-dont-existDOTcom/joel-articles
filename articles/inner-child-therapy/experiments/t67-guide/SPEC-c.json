@@ -1,0 +1,155 @@
+[
+{
+"key": "ks4g",
+"draft": "ks4-g",
+"label": "If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft g"
+},
+{
+"key": "ks4k",
+"draft": "ks4-k",
+"label": "If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft k"
+},
+{
+"key": "ks4l",
+"draft": "ks4-l",
+"label": "If You Want to Kill Yourself P4 (the Buddhist view) alone, my draft l"
+},
+{
+"key": "ks4be1",
+"draft": "ks4b-e1",
+"label": "If You Want to Kill Yourself P4b alone, ks1-p4c with its last sentence changed (e1: the h1 window ran from it into P5)"
+},
+{
+"key": "ks5e1",
+"draft": "ks5-e1",
+"label": "If You Want to Kill Yourself P5 alone, ks1-p5-b with its first sentence (the referent) and its \"without taking away\" ending changed (e1)"
+},
+{
+"key": "lm4p1j1",
+"draft": "lm4-p1-j1",
+"label": "How Much Happiness P1 alone, my draft j1 (E186)"
+},
+{
+"key": "lm4p1j2",
+"draft": "lm4-p1-j2",
+"label": "How Much Happiness P1 alone, my draft j2 (E186)"
+},
+{
+"key": "le2h",
+"draft": "le2-h",
+"label": "When One Life Has Ended P2 alone, my draft h"
+},
+{
+"key": "le2i",
+"draft": "le2-i",
+"label": "When One Life Has Ended P2 alone, my draft i (with a pointer to The Inner Guide Comes Later)"
+},
+{
+"key": "le3ag",
+"draft": "le3a-g",
+"label": "When One Life Has Ended P3 in two, first half alone, my draft g"
+},
+{
+"key": "le3ah",
+"draft": "le3a-h",
+"label": "When One Life Has Ended P3 in two, first half alone, my draft h"
+},
+{
+"key": "secksa2e",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-a2",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-a2, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-a2: S S S S B S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "secksge",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-g",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-g, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-g: S B S S B S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "seckske",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-k",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-k, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-k: B S S S B S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "secksle",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-l",
+"D:ks4b-e1",
+"D:ks5-e1",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1: P1 ks12-w8-p1, Joel's P2, ks1-p3-a, P4 ks4-l, P4b ks4b-e1, P5 ks5-e1, ks1-p6-d",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 ks4-l: S S S B S S | P4b e1: B S S | P5 e1: S S S B S"
+},
+{
+"key": "seclm4j1",
+"blocks": [
+"## How Much Happiness Do You Know Is Possible?",
+"D:lm4-p1-j1",
+"D:lm4-p2-j3",
+"D:lm4-p3-j2",
+"J:joel-lm4-p4",
+"G:lm4-p5-c"
+],
+"label": "How Much Happiness, the h2 with P1 lm4-p1-j1, P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c",
+"march": "P1 S S S S B | P2 j3: B S S B S | P3 j2: B S S B S B | Joel's P4: S B B B"
+},
+{
+"key": "seclm4j2",
+"blocks": [
+"## How Much Happiness Do You Know Is Possible?",
+"D:lm4-p1-j2",
+"D:lm4-p2-j3",
+"D:lm4-p3-j2",
+"J:joel-lm4-p4",
+"G:lm4-p5-c"
+],
+"label": "How Much Happiness, the h2 with P1 lm4-p1-j2, P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c",
+"march": "P1 S B S S | P2 j3: B S S B S | P3 j2: B S S B S B | Joel's P4: S B B B"
+},
+{
+"key": "seclm4nop1",
+"blocks": [
+"## How Much Happiness Do You Know Is Possible?",
+"D:lm4-p2-j3",
+"D:lm4-p3-j2",
+"J:joel-lm4-p4",
+"G:lm4-p5-c"
+],
+"label": "How Much Happiness, the h2 with P1 left out (a probe: where the AI window starts), P2 lm4-p2-j3, P3 lm4-p3-j2, Joel's P4, P5 lm4-p5-c",
+"march": "P1 none | P2 j3: B S S B S | P3 j2: B S S B S B | Joel's P4: S B B B"
+}
+]

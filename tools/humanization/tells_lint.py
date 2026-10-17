@@ -671,7 +671,8 @@ WITHOUT_ING = re.compile(r"\bwithout\s+(?!(?:any|some|no|every)thing\b)[\w'’]+
 # E186: his fixes of a list of three end it on a casual catch-all ("or a bit of each", 2026-10-03; "whatever works",
 # 2026-10-17), which keeps it a REVIEW; any other list of three in my sentence is a FAIL.
 CATCH_ALL = re.compile(r"(?:,\s*|\b(?:or|and)\s+)(?:a bit of (?:each|both|everything|all)|whatever (?:works|helps|fits)|whatever|"
-                       r"all of the above|something like that|stuff like that|so on|all that|what have you|you name it)\b", re.I)
+                       r"all of the above|something like that|stuff like that|that kind of thing|that sort of thing|so on|all that|what have you|"
+                       r"you name it|and the like)\b", re.I)
 BUT_ALSO = re.compile(r"\bbut also\b", re.I)
 # O38: a prerequisite is already required (Joel, 2026-10-11 18:35: "you can't say "required as pre-reqs" that's redundant")
 PREREQ = r"pre-?req(?:uisite)?s?"
