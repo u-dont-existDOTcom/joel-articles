@@ -243,7 +243,8 @@ class LinterOwnerScopes(unittest.TestCase):
     def test_o12_quietly_o20_o21_joel_20261010(self):
         """Joel, 2026-10-10 12:22 UTC, on community section 10: "quietly" is an AI-frequency word (O12), "I don't want ..."
         opening a stance is in the tells list (O20), and "one super-commune with a nicer logo" is "an AI-tell quip" (O21)."""
-        self.assertIn('O12', self.lint("Cooperation also shouldn't quietly turn into assimilation, and that matters.\n"))
+        # "quietly" moved from O12 (a REVIEW) to O42 (a FAIL) at Joel's third flag of it, 2026-10-17 13:11
+        self.assertIn('O42', self.lint("Cooperation also shouldn't quietly turn into assimilation, and that matters.\n"))
         self.assertIn('O20', self.lint("I don't want one big federation for every community in the region.\n"))
         self.assertIn('O20', self.lint("It has to be solved. I want communities that can help one another.\n"))
         self.assertNotIn('O20', self.lint("The members want communities that can help one another.\n"))
@@ -580,6 +581,28 @@ class PreservationKeys(unittest.TestCase):
         self.assertEqual((ok.returncode, bad.returncode), (0, 1), ok.stderr + bad.stderr)
         self.assertIn('verdict: PASS', ok.stdout)
         self.assertIn('MISSING U40', bad.stdout)
+
+
+class PreservationKeysElsewhere(unittest.TestCase):
+    """Joel, 2026-10-17 02:07 UTC: "you can only cut if it isn't losing important meaning or there's no good way to merge".
+    Section 16 repeats section 14's list of what the Bruderhof shaped in his father; the dedup leaves it to section 14, and
+    the key check passes the unit only when section 14 of the article carries its words."""
+    UNITS = {'units': [{'id': 'U44', 'what': 'the father made a film and founded a research organization',
+                        'keys': [['film'], ['research']],
+                        'elsewhere': {'section': '# Dissolution and Exit', 'words': ['foundation he started', 'film he made'],
+                                      'why': 'the dedup'}}]}
+    DRAFT = 'Decades after the Bruderhof shaped my father, I am publishing his film.'
+    ART = ('# Dissolution and Exit\n\nIt shaped the foundation he started and the film he made.\n\n'
+           '# What This Looks Like\n\nSomething else.\n')
+
+    def test_the_other_section_has_to_carry_it(self):
+        moved = []
+        self.assertEqual(preservation_keys.check(self.UNITS, self.DRAFT, self.ART, moved), [])
+        self.assertEqual([m['id'] for m in moved], ['U44'])
+        # without the article, or with the words gone from that section (or only in another one), it is missing
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, self.DRAFT)], ['U44'])
+        gone = self.ART.replace('the foundation he started and ', '') + '\nthe foundation he started\n'
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, self.DRAFT, gone)], ['U44'])
 
 
 class PreservationKeysSectionTerms(unittest.TestCase):
@@ -1146,6 +1169,44 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
             (d / 'b1-results.json').write_text(json.dumps({'a': ['Human Written'], 'ab': ['Human Written']}), encoding='utf-8')
             ok, report = paragraphs_alone.check(md, [d])
             self.assertTrue(ok, report)
+            # the page's embed lines (section 15's post card and video) are not paragraphs; a prose line that only starts
+            # with a link still is
+            emb = md + '\n[Professor Baby Sheep Taught Me](https://x.substack.com/p/y)Copy link\n\nDouble click to interact with video\n'
+            ok, report = paragraphs_alone.check(emb, [d])
+            self.assertTrue(ok, report)
+            prose = md + '\n[A link](https://x.example/) and then a sentence of mine.\n'
+            ok, report = paragraphs_alone.check(prose, [d])
+            self.assertFalse(ok, report)
+
+    def test_a_short_list_entry_counts_in_the_shortest_run_pangram_can_read(self):
+        """2026-10-17, the community article's appendix: two or three entries of 8 to 40 words under each heading, so no
+        pair under one heading reaches Pangram's 50 words. Such an entry counts inside the shortest run around it (headings
+        between included) that reaches 50 words; a longer run doesn't count for it."""
+        import paragraphs_alone
+        e = lambda n, k: ' '.join('%s%d' % (k, j) for j in range(n)) + '.'
+        a, b, c, d_ = e(20, 'a'), e(20, 'b'), e(20, 'c'), e(20, 'd')
+        md = '# Top\n\n## One\n\n' + a + '\n\n' + b + '\n\n## Two\n\n' + c + '\n\n' + d_ + '\n'
+        abc = a + '\n\n' + b + '\n\nTwo\n\n' + c   # 61 words: a and b with c (b, Two and c alone: 41)
+        bcd = b + '\n\nTwo\n\n' + c + '\n\n' + d_  # 61 words
+        runs = {(x, y) for x, y, _, _ in paragraphs_alone.minimal_runs(md, 1)}
+        self.assertEqual(runs, {(0, 2), (1, 3)})
+        abcd = abc + '\n\n' + d_                   # 81 words: d can go and it still reaches 50, so it isn't the shortest
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'drafts.json').write_text(json.dumps({'abcd': abcd}), encoding='utf-8')
+            (d / 'b1-results.json').write_text(json.dumps({'abcd': ['Human Written']}), encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertFalse(ok, report)
+            (d / 'drafts.json').write_text(json.dumps({'abc': abc, 'bcd': bcd}), encoding='utf-8')
+            (d / 'b1-results.json').write_text(json.dumps({'abc': ['Human Written'], 'bcd': ['Human Written']}),
+                                               encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertTrue(ok, report)
+            (d / 'b1-results.json').write_text(json.dumps({'abc': ['Human Written'], 'bcd': ['AI Detected']}),
+                                               encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertFalse(ok, report)                # d is only in bcd
+            self.assertTrue(report[3].startswith('MISS d0'), report)
 
     def test_a_march_without_a_break_blocks_the_call(self):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(self.CLEAN, march=['S S S'])}, ['p'])
@@ -1326,6 +1387,23 @@ class PauseTally(unittest.TestCase):
             disp.write_text('- Kept: nothing about it.\n', encoding='utf-8')
             self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 1)
             disp.write_text('- Cut: "How do you know?" (Joel, 18:22).\n', encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 0)
+
+    def test_a_list_of_paused_phrases_answers_nothing(self):
+        """2026-10-17: section 15's "apology" (the law's French "apologie"; Joel at 13:11: "should have been translated as
+        "advocacy"") was paused at in rounds r4 and r8, and both dispositions only listed it "for the cross-round count",
+        with "(published)". The tally took the list for an answer."""
+        import pause_tally
+        with tempfile.TemporaryDirectory() as d:
+            reps = self.reports(d, ['Paused: P7 "apology"; P8 "So which is it?"'] * 2)
+            disp = pathlib.Path(d) / 'D.md'
+            disp.write_text('- Phrases paused at, for the cross-round count: "apology" (published), "So which is it?".\n',
+                            encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 1)
+            disp.write_text('- Others: "apology" (published), "So which is it?" (published).\n', encoding='utf-8')
+            self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 1)
+            disp.write_text('- "apology": fixed by Joel, now "advocacy".\n- "So which is it?": kept because the next sentence '
+                            'answers it.\n', encoding='utf-8')
             self.assertEqual(pause_tally.main(reps + ['--dispositions', str(disp)]), 0)
 
 
@@ -1521,6 +1599,19 @@ class ClickableLinks(unittest.TestCase):
         self.assertTrue(any('lettered options' in p for p in questions_lint.problems(no_options)))
         miscount = good.replace('Open questions: 1.', 'Open questions: 0.')
         self.assertTrue(any('header says 0' in p for p in questions_lint.problems(miscount)))
+
+    def test_the_questions_lint_finds_a_decision_under_for_you_to_do(self):
+        """Joel, 2026-10-17 02:07 UTC: "now you say for me to do (no decision needed) then ask me to make 2 decisions, emrging
+        and accepting changes, funny." """
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import questions_lint
+        head = '# Q\n\nLast updated today. **Open questions: 0.**\n\n## Open questions\n\nNone right now.\n\n'
+        todo = '## For you to do\n\n- 🟠 Merge this turn\'s work: `gh pr merge 1`.\n\n## Decided\n\n- 🟢 done\n'
+        self.assertEqual(questions_lint.problems(head + todo), [])
+        claim = todo.replace('## For you to do', '## For you to do (no decision needed)')
+        self.assertTrue(any('says no decision is needed' in p for p in questions_lint.problems(head + claim)))
+        accept = todo.replace("- 🟠 Merge this turn's work", '- 🟠 Look over sections 13 and 14 and say "accept 13 and 14", or what to change')
+        self.assertTrue(any('asks for a decision' in p for p in questions_lint.problems(head + accept)))
 
     def test_the_chat_check_fails_a_bare_address_and_passes_a_written_link(self):
         script = str(TOOLS / 'pangram_links_check.py')

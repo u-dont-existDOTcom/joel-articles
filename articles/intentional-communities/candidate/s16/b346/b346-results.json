@@ -1,0 +1,138 @@
+{
+ "S16v12-H3-P8": [
+  "Human Written",
+  0.12,
+  54,
+  "Human, Low, 54",
+  "07:46:05",
+  "/1def1eb6-d002-432e-ab71-1eb312cfd7b3",
+  []
+ ],
+ "S16v12-H3-P6": [
+  "Human Written",
+  0.15,
+  52,
+  "Human, Low, 52",
+  "07:45:55",
+  "/fd936b0b-21b3-44b5-8d8a-723bd22a5e26",
+  []
+ ],
+ "S16v12-H2-P3": [
+  "Human Written",
+  0,
+  56,
+  "Human, Low, 56",
+  "07:45:47",
+  "/a9f7a594-fb7a-4ff3-81e2-fb0c92734ba8",
+  []
+ ],
+ "S16v12": [
+  "AI Detected",
+  0.6,
+  881,
+  "AI-Generated, High, 222; Human, High, 30; AI-Generated, High, 183; Human, High, 216; AI-Generated, High, 153; Human, High, 77",
+  "07:45:34",
+  "/c13ca32d-53e4-416d-b039-26e74dffe626",
+  [
+   "AI-Generated (222 words): Practice Comes Before Property / Most people try and do community in the wrong order. ... (H1 and the start of H2)",
+   "AI-Generated (183 words): Too bad you can’t move… / People sometimes buy forty acres ... (the caption, H2-P2 to H2-P5)",
+   "AI-Generated (153 words): Twin Oaks, East Wind, Acorn and other intentional communities take visitors ... (H3-P5 to H3-P8)"
+  ]
+ ],
+ "S16v12-H3": [
+  "AI Detected",
+  0.6,
+  384,
+  "AI-Generated, Medium, 75; Human, High, 79; AI-Generated, High, 153; Human, High, 38; AI-Generated, Medium, 39",
+  "07:45:23",
+  "/c738dfac-6987-4ac6-a03c-fbdbf27c67cf",
+  [
+   "AI-Generated (75 words): What to Do This Month / Start working on the inner pl/ork. With what? ... (the heading, H3-P2 and H3-P3)",
+   "AI-Generated (153 words): Twin Oaks, East Wind, Acorn ... (H3-P5 to H3-P8)",
+   "AI-Generated (39 words): Passing it on doesn't need one institution, one founder or one official version. / If you build something real, maybe we'll hear about each other. ..."
+  ]
+ ],
+ "S16v12-H2": [
+  "AI Detected",
+  0.45,
+  302,
+  "Human, High, 154; AI-Generated, High, 82; Human, Medium, 66",
+  "07:45:13",
+  "/c03323ab-bcb9-49ea-9f27-18b5a15ffe6d",
+  [
+   "AI-Generated (82 words): What if, after two years of practicing together every week, the group still doesn't own land? Would that be a waste of time? Nope. ... (H2-P4 and H2-P5)"
+  ]
+ ],
+ "S16v12-H3-P8+P9": [
+  "Human Written",
+  0,
+  71,
+  "Human, Low, 71",
+  "07:45:02",
+  "/79f46f7d-741a-4d77-8e55-6b1d9c97c983",
+  []
+ ],
+ "S16v12-H3-P7+P8": [
+  "Human Written",
+  0,
+  74,
+  "Human, Low, 74",
+  "07:44:51",
+  "/db49d3a7-8717-42a9-9a77-4a2f7f0c0d77",
+  []
+ ],
+ "S16v12-H3-P6+P7": [
+  "Human Written",
+  0.03,
+  72,
+  "Human, Low, 72",
+  "07:44:41",
+  "/773f97db-fc8e-489b-9d7f-5d7c0b37bebf",
+  []
+ ],
+ "S16v12-H3-P5+P6": [
+  "Human Written",
+  0.06,
+  94,
+  "Human, Low, 94",
+  "07:44:30",
+  "/12d59878-da35-4398-aa04-29b0f87c4c7c",
+  []
+ ],
+ "S16v12-H3-P4+P5": [
+  "Human Written",
+  0.03,
+  102,
+  "Human, Medium, 102",
+  "07:44:20",
+  "/3a798107-0778-4d3e-855b-d58a55d3478c",
+  []
+ ],
+ "S16v12-H2-P4+P5": [
+  "Human Written",
+  0.11,
+  113,
+  "Human, Medium, 113",
+  "07:44:09",
+  "/90f8a4ee-db31-447b-aaf1-808aba23e3d8",
+  []
+ ],
+ "S16v12-H2-P3+P4": [
+  "Human Written",
+  0.21,
+  97,
+  "Human, Low, 97",
+  "07:43:59",
+  "/c623cfcc-a5d4-4ae4-9d9b-cca60f49a424",
+  []
+ ],
+ "S16v12-H2-P2+P3": [
+  "Human Written",
+  0.03,
+  91,
+  "Human, Low, 91",
+  "07:43:48",
+  "/9fa572e5-a0ef-46e4-a7c5-18dfb9c0ca78",
+  []
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "S15-A": [
+  "AI Generated",
+  0.65,
+  71,
+  "AI-Generated, Low, 71",
+  "02:35:21",
+  "/6ce79f45-453b-484d-9648-afe84530cc49",
+  [
+   "AI-Generated (71 words)"
+  ]
+ ],
+ "S15-B": [
+  "AI Generated",
+  0.96,
+  96,
+  "AI-Generated, Low, 96",
+  "02:35:31",
+  "/38c2c4ce-8a9a-4497-9c1f-fb435b207f6b",
+  [
+   "AI-Generated (96 words)"
+  ]
+ ],
+ "S15-C": [
+  "AI Generated",
+  0.74,
+  89,
+  "AI-Generated, Low, 89",
+  "02:35:42",
+  "/3deea7cc-3008-4fae-8b4d-828792b6bab2",
+  [
+   "AI-Generated (89 words)"
+  ]
+ ],
+ "S15-D": [
+  "AI Generated",
+  0.85,
+  128,
+  "AI-Generated, Medium, 128",
+  "02:35:53",
+  "/5d366556-3597-4f36-b2b7-8ed6c8486106",
+  [
+   "AI-Generated (128 words)"
+  ]
+ ],
+ "S15-E": [
+  "AI Generated",
+  0.99,
+  70,
+  "AI-Generated, Low, 70",
+  "02:36:06",
+  "/60dde207-1b8a-4872-b28e-a859b91ae6aa",
+  [
+   "AI-Generated (70 words)"
+  ]
+ ],
+ "S15-F": [
+  "Human Written",
+  0.02,
+  60,
+  "Human, Low, 60",
+  "02:36:18",
+  "/7e3102e5-7f9e-4ae3-8c88-34c61238374a",
+  []
+ ],
+ "S15-G": [
+  "AI Generated",
+  0.82,
+  70,
+  "AI-Generated, Low, 70",
+  "02:36:30",
+  "/b69209eb-676c-4952-b25f-5fc462be1bc2",
+  [
+   "AI-Generated (70 words)"
+  ]
+ ],
+ "S15-H": [
+  "AI Generated",
+  0.99,
+  90,
+  "AI-Generated, Low, 90",
+  "02:36:41",
+  "/4cf600a2-3c69-4bf6-8717-16660bef6ccb",
+  [
+   "AI-Generated (90 words)"
+  ]
+ ],
+ "S15-I": [
+  "AI Generated",
+  1.0,
+  94,
+  "AI-Generated, Low, 94",
+  "02:36:54",
+  "/93687844-7a18-43f6-a2df-931de886c1d0",
+  [
+   "AI-Generated (94 words)"
+  ]
+ ],
+ "S15-J": [
+  "AI Generated",
+  0.99,
+  77,
+  "AI-Generated, Low, 77",
+  "02:37:05",
+  "/ba02806c-2888-419f-b336-acd200e241cf",
+  [
+   "AI-Generated (77 words)"
+  ]
+ ],
+ "S15-K": [
+  "AI Generated",
+  1.0,
+  94,
+  "AI-Generated, Low, 94",
+  "02:37:15",
+  "/85f1505f-fabc-41ed-90c9-13d80689f727",
+  [
+   "AI-Generated (94 words)"
+  ]
+ ],
+ "S15-L": [
+  "AI Generated",
+  1.0,
+  51,
+  "AI-Generated, Low, 51",
+  "02:37:26",
+  "/aa0a0732-da4f-458c-885c-21ed885a6e5f",
+  [
+   "AI-Generated (51 words)"
+  ]
+ ],
+ "S15-M": [
+  "AI Generated",
+  1.0,
+  88,
+  "AI-Generated, Low, 88",
+  "02:37:36",
+  "/46f91258-7964-4ae1-92c7-d13f700ddadf",
+  [
+   "AI-Generated (88 words)"
+  ]
+ ],
+ "S15-N": [
+  "AI Generated",
+  0.91,
+  63,
+  "AI-Generated, Low, 63",
+  "02:37:47",
+  "/ff117732-3121-4f0c-b4ff-57003bbd7005",
+  [
+   "AI-Generated (63 words)"
+  ]
+ ],
+ "S15v0": [
+  "AI Detected",
+  0.8,
+  1094,
+  "AI-Generated, High, 436; Human, High, 42; AI-Generated, High, 616",
+  "02:37:59",
+  "/f7326b4d-400f-4b5f-9b0e-9bbe6e4685be",
+  [
+   "AI-Generated (436 words)",
+   "AI-Generated (616 words)"
+  ]
+ ]
+}

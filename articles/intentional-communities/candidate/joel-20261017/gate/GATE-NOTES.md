@@ -1,0 +1,4 @@
+# Gate notes for Joel's 02:07 answers (2026-10-17)
+
+- 36 a, section 10 v5: gate kind "owner" (my wording, his pick), as 28 b's change was (`../../fix-20261015/GATE.json`). One cold read of section 10 with the change (`SENSE-s10.md`): every paragraph OK but P7 (in the reader's numbering, his last paragraph), which the reader finds a jump from P6's exchanges to rules and records. That is the flag both cold reads of v3 raised, which his 28 b answered with "Whenever a community or a federation creates or applies a rule"; on the current wording it is one reader, so by the pause-tally rule (two or more readers on one passage get a fix) it waits for a second. The added words, "(with private details protected)", drew nothing. Pangram 320g: the paragraph Human alone (0.10), the section 100% Human (0.06).
+- 38 b, section 14 v9: his own text (gate kind "owner"). Pangram 319g: Human alone (0.01), the section 100% Human (0.15).

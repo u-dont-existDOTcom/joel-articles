@@ -1,0 +1,229 @@
+{
+ "S16v13M-H2-P1-P3": {
+  "kind": "screen",
+  "march": [
+   "S S B S",
+   "S B B S",
+   "S B",
+   "S B",
+   "S S B B S",
+   "S S B B S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2",
+  "words": 146
+ },
+ "S16v13M-H2-P2-P4": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "S S B B S",
+   "S S B B S",
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2",
+  "words": 126
+ },
+ "S16v13M-H2-P3-P5": {
+  "kind": "screen",
+  "march": [
+   "S S B B S",
+   "S S B B S",
+   "S B S S",
+   "S B S S",
+   "S S S S S B B",
+   "S S S S S B S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2",
+  "words": 155
+ },
+ "S16v13M-H2-P4-P6": {
+  "kind": "screen",
+  "march": [
+   "S B S S",
+   "S B S S",
+   "S S S S S B B",
+   "S S S S S B S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2",
+  "words": 140
+ },
+ "S16v13M-H2-P5-H3-P2": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B B",
+   "S S S S S B S",
+   "B S",
+   "B S",
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2, H3",
+  "words": 145
+ },
+ "S16v13M-H2-P6-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "B S",
+   "B S",
+   "S B S",
+   "S B S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2, H3",
+  "words": 129
+ },
+ "S16v13M-H3-P2-P4": {
+  "kind": "screen",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S B",
+   "S S S B",
+   "B B B B B",
+   "B S S S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 145
+ },
+ "S16v13M-H3-P3-P5": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B",
+   "B B B B B",
+   "B S S S S",
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 142
+ },
+ "S16v13M-H3-P4-P6": {
+  "kind": "screen",
+  "march": [
+   "B B B B B",
+   "B S S S S",
+   "B S S",
+   "B S S",
+   "B S S S S",
+   "B S S S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 138
+ },
+ "S16v13M-H2-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "S S B B S",
+   "S S B B S"
+  ],
+  "march_note": "the pair",
+  "words": 83,
+  "lint": "REVIEW"
+ },
+ "S16v13M-H2-P3+P4": {
+  "kind": "screen",
+  "march": [
+   "S S B B S",
+   "S S B B S",
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "the pair",
+  "words": 87,
+  "lint": "REVIEW"
+ },
+ "S16v13M-H2-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "S B S S",
+   "S B S S",
+   "S S S S S B B",
+   "S S S S S B S"
+  ],
+  "march_note": "the pair",
+  "words": 106,
+  "lint": "REVIEW"
+ },
+ "S16v13M-H3-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "the pair",
+  "words": 90,
+  "lint": "REVIEW"
+ },
+ "S16v13M-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "its own march",
+  "words": 52,
+  "lint": "REVIEW"
+ },
+ "S16v13M-H3-P3+P4": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B",
+   "B B B B B",
+   "B S S S S"
+  ],
+  "march_note": "the pair",
+  "words": 102,
+  "lint": "REVIEW"
+ },
+ "S16v13M-H3-P4": {
+  "kind": "screen",
+  "march": [
+   "B B B B B",
+   "B S S S S"
+  ],
+  "march_note": "its own march",
+  "words": 50,
+  "lint": "REVIEW"
+ },
+ "S16v13M-H3-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "B B B B B",
+   "B S S S S",
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "the pair",
+  "words": 90,
+  "lint": "REVIEW"
+ }
+}

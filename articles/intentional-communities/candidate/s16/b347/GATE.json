@@ -1,0 +1,100 @@
+{
+ "S16v10-cap+H2-P2-P4": {
+  "kind": "screen",
+  "march": [
+   "S B B",
+   "S B B",
+   "S S B S",
+   "S S B S",
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "as in 344g to 346g",
+  "lint": "REVIEW",
+  "words": 111
+ },
+ "S16v10-H2-P3-P5": {
+  "kind": "screen",
+  "march": [
+   "S S B S",
+   "S S B S",
+   "S B S",
+   "S B S",
+   "S S S S S B B",
+   "S S S S S B S"
+  ],
+  "march_note": "as in 344g to 346g",
+  "lint": "REVIEW",
+  "words": 142
+ },
+ "S16v10-H3-P4-P6": {
+  "kind": "screen",
+  "march": [
+   "B S S S B",
+   "B S S S S",
+   "B S S S",
+   "B S S S",
+   "B S S S S",
+   "B S S S S"
+  ],
+  "march_note": "as in 344g to 346g",
+  "lint": "REVIEW",
+  "words": 126
+ },
+ "S16v10-H3-P5-P7": {
+  "kind": "screen",
+  "march": [
+   "B S S S",
+   "B S S S",
+   "B S S S S",
+   "B S S S S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "as in 344g to 346g",
+  "lint": "REVIEW",
+  "words": 101
+ },
+ "S16v11-cap+H2-P2-P4": {
+  "kind": "screen",
+  "march": [
+   "S B",
+   "S B",
+   "S S S B",
+   "S S B S",
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "as in 344g to 346g",
+  "lint": "REVIEW",
+  "words": 120
+ },
+ "S16v11-H2-P3-P5": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S B S",
+   "S B S",
+   "S B S",
+   "S S S S S B B",
+   "S S S S S B S"
+  ],
+  "march_note": "as in 344g to 346g",
+  "lint": "REVIEW",
+  "words": 149
+ },
+ "S16v11-H3-P5-P7": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "B S S S S",
+   "B S S S S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "as in 344g to 346g",
+  "lint": "REVIEW",
+  "words": 107
+ }
+}

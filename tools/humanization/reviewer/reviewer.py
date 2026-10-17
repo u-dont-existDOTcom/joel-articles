@@ -705,7 +705,7 @@ def march_paragraphs(t):
     return out
 
 
-def build_march(draft, about=None):
+def build_march(draft, about=None, style=None):
     """The marching-order check (E131; Joel, 2026-10-03: "the marching order of code instructions
     translated to english"). A reader labels each sentence a step or a break. Tested blind on 100
     calibration paragraphs (tools/humanization/calibration/MARCH-READER-TEST-20261003.json): two readers
@@ -715,6 +715,16 @@ def build_march(draft, about=None):
     body = '\n\n'.join('T%d: ' % (i + 1) + ' '.join('[%d] %s' % (j + 1, s) for j, s in enumerate(ss))
                        for i, ss in enumerate(ps))
     s = read('march.txt')
+    if style:  # 2026-10-17 (Joel, 13:11: "we need rules that are more flexible depending on the style of the article needed"):
+        # in a formal article a reaction or an exclamation isn't a break (tools/humanization/style_profile.py)
+        st = json.loads(pathlib.Path(style).read_text(encoding='utf-8'))
+        sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
+        import style_profile
+        if st.get('register') in style_profile.MARCH_B:
+            lines = s.split('\n')
+            k = next(i for i, l in enumerate(lines) if l.startswith('- B, a break:'))
+            lines[k] = style_profile.MARCH_B[st['register']]
+            s = '\n'.join(lines)
     if about:  # 2026-10-15: the prompt named the inner-child article for every lane; --about names the right one
         first, rest = s.split('\n', 1)
         s = 'Below are {n} paragraphs from %s, each one on its own, with its sentences numbered.\n' % about + rest
@@ -775,6 +785,7 @@ def main():
     s = cmd('score'); s.add_argument('key'); s.add_argument('answers', nargs='+')
     s = cmd('march'); s.add_argument('draft'); s.add_argument('out')
     s.add_argument('--about', help='what the article is, for the first line (default: the inner-child article)')
+    s.add_argument('--style', help="the article's STYLE.json (style_profile.py): which sentences count as a break")
     s = cmd('march-score'); s.add_argument('draft'); s.add_argument('labels')
     s = cmd('dedup'); s.add_argument('out'); s.add_argument('targets', nargs='+')
     s.add_argument('--draft', action='append', default=[], metavar='TARGET=FILE',
@@ -812,7 +823,7 @@ def main():
     elif a.cmd == 'score':
         score(a.key, a.answers)
     elif a.cmd == 'march':
-        write(a.out, build_march(rd(a.draft), a.about))
+        write(a.out, build_march(rd(a.draft), a.about, a.style))
     elif a.cmd == 'march-score':
         sys.exit(march_score(rd(a.draft), rd(a.labels)))
     elif a.cmd == 'dedup':

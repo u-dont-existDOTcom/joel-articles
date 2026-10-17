@@ -1,0 +1,94 @@
+{
+ "S16v25-H3-P8": [
+  "Human Written",
+  0.02,
+  54,
+  "Human, Low, 54",
+  "11:59:19",
+  "/c2efc0a1-48da-4842-9746-eb209ed1856e",
+  []
+ ],
+ "S16v25-H3-P6": [
+  "Human Written",
+  0.07,
+  56,
+  "Human, Low, 56",
+  "11:59:09",
+  "/69d77356-e225-46df-8d9d-20847df0d23e",
+  []
+ ],
+ "S16v25": [
+  "AI Detected",
+  0.35,
+  876,
+  "Human, High, 657; AI-Generated, High, 103; Human, High, 116",
+  "11:58:05",
+  "/a3d42d23-4c77-4a2a-b03a-1809ad20cebe",
+  [
+   "AI-Generated (103 words): Check their current visitor requirements first. By visiting some communities, you'll g ..."
+  ]
+ ],
+ "S16v25-H3-P8+P9": [
+  "Human Written",
+  0,
+  71,
+  "Human, Low, 71",
+  "11:57:54",
+  "/020a83f5-1f9f-432f-a614-411ed5ac4a3b",
+  []
+ ],
+ "S16v25-H3-P7+P8": [
+  "Human Written",
+  0,
+  70,
+  "Human, Low, 70",
+  "11:57:43",
+  "/60f30830-49e4-4fa2-8d62-fd88b05ab450",
+  []
+ ],
+ "S16v25-H3-P6+P7": [
+  "Human Written",
+  0.18,
+  72,
+  "Human, Low, 72",
+  "11:57:34",
+  "/da094c1c-89c4-4ad1-baf5-1eb5bf0240f3",
+  []
+ ],
+ "S16v25-H3-P5+P6": [
+  "Human Written",
+  0.08,
+  97,
+  "Human, Low, 97",
+  "11:57:22",
+  "/1dbe5d2e-0ea9-413f-8a64-252ec704ed69",
+  []
+ ],
+ "S16v25-H3-P4+P5": [
+  "Human Written",
+  0,
+  87,
+  "Human, Low, 87",
+  "11:57:12",
+  "/5e4393b0-eb3a-4e1b-8d6c-8b985a2bc257",
+  []
+ ],
+ "S16v25-H3-P3+P4": [
+  "Human Written",
+  0.2,
+  91,
+  "Human, Low, 91",
+  "11:57:02",
+  "/ed7e692e-c397-4f32-b30e-999d686ce7ff",
+  []
+ ],
+ "S16v25-H3-P2+P3": [
+  "Human Written",
+  0,
+  82,
+  "Human, Low, 82",
+  "11:56:51",
+  "/d452c720-9651-41b2-b641-5214eef29b1a",
+  []
+ ]
+}

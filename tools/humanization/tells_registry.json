@@ -524,9 +524,13 @@
     {
      "file": "docs/HUMANIZATION-GATE.md",
      "quote": "\"using quietly all the time like that is a huge AI tell. you don't have any other way to say that?\""
+    },
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261017/joel-20261017-1311-message.txt",
+     "quote": "practice comes before property p3: remove \"quietly\" that's an ai tell at the end"
     }
    ],
-   "rule": "O12",
+   "rule": "O42",
    "example": "Cooperation with the next valley shouldn't quietly turn into a merger of the two land trusts. Each group keeps its own council and its own books for now."
   },
   {
@@ -2269,6 +2273,73 @@
     }
    ],
    "reason": "How many questions are too many, and which ones the author would keep, is a judgment about the passage; his fix kept five of eight and closed the run with his own judgment."
+  },
+  {
+   "id": "W88",
+   "tell": "a count pointing back at the text's own advice (\"Do those three things before ...\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261017/joel-20261017-1311-message.txt",
+     "quote": "I felt like \"do those three things\" also sounded ai bc instruction manual + ai always doing three things."
+    }
+   ],
+   "rule": "O41",
+   "example": "Do those three things before you spend money on the land. The well can wait until the spring rains are over."
+  },
+  {
+   "id": "W89",
+   "tell": "exclamations out of the article's range: more sentences in a row ending with \"!\" than the article ever has (three of four, where it has at most two)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261017/joel-20261017-1311-message.txt",
+     "quote": "damn you have three sentences ending in exclamation marks in a row that's pretty nuts, you should check the article style before you do something so far out of range."
+    }
+   ],
+   "rule": "S1",
+   "example": "We got the barn up in a week! Nobody fell off the roof! The goats moved in that night! Then it rained for a month."
+  },
+  {
+   "id": "W90",
+   "tell": "exclamations above the article's rate: a draft whose share of \"!\" sentences is more than twice the article's",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261017/joel-20261017-1311-message.txt",
+     "quote": "you should check the article style before you do something so far out of range."
+    }
+   ],
+   "rule": "S2",
+   "example": "The barn is up! It took a week. The goats moved in. Then it rained! Nobody minded. We sang that night. The roof held! We were proud of it."
+  },
+  {
+   "id": "W91",
+   "tell": "a published pointing \"this\" or \"that\" turned into \"it\" (\"It's also the thorny boundary issue\" for \"This is also the boundary problem\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261017/joel-20261017-1311-message.txt",
+     "quote": "for p4 in black tax section, you replaced \"this is \" with \"it's\"... \"this\" is not the same as \"it\"... you can't use those interchangeably all the time."
+    }
+   ],
+   "rule": "R2",
+   "example": "It's also the hardest part of the budget to plan for. The taxes come due in spring, and the hospital bills come whenever they come.",
+   "source_text": "This is also the hardest part of the budget. Taxes come due in spring, and hospital bills come at any time of the year."
+  },
+  {
+   "id": "W92",
+   "tell": "a reaction that adds the writer's opinion (\"I like that.\") where the published paragraph has none",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261017/joel-20261017-1311-message.txt",
+     "quote": "for p6 at the end you added \"i like that.\" why? I actually don't know that i like that"
+    }
+   ],
+   "rule": "A2",
+   "example": "Now the young people can work in the city as long as they come back to help with the harvest. I like that.",
+   "source_text": "Now the young people can work in the city as long as they come back to help with the harvest every year."
   }
  ]
 }

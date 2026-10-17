@@ -57,6 +57,7 @@ def convert(path):
 
 if __name__ == '__main__':
     # 2026-10-15 on, section 13's batches have their own folders (s13/b288/ ...), same format
-    for p in sorted(glob.glob(os.path.join(C, 'fix-*', 'PREDICTIONS.md'))) + sorted(glob.glob(os.path.join(C, 's*', 'b[0-9]*', 'PREDICTIONS.md'))):
+    for p in sorted(glob.glob(os.path.join(C, 'fix-*', 'PREDICTIONS.md'))) + sorted(glob.glob(os.path.join(C, 's*', 'b[0-9]*', 'PREDICTIONS.md'))) \
+            + sorted(glob.glob(os.path.join(C, 'fix-*', 'b[0-9]*', 'PREDICTIONS.md'))):   # 2026-10-17: a turn's batches in its fix folder
         out, n = convert(p)
         print(os.path.relpath(out, C), n, 'rows')

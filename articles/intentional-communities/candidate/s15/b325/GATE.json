@@ -1,0 +1,104 @@
+{
+ "S15v4a-H2h-P1+P2": {
+  "kind": "screen",
+  "march": [
+   "B B S",
+   "B B S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "H2-P1a review-r4b; H2-P2 review-r3",
+  "lint": "REVIEW",
+  "words": 145
+ },
+ "S15v4a-H2": {
+  "kind": "screen",
+  "march": [
+   "B B S",
+   "B B S",
+   "S S S B",
+   "S S S B",
+   "B S S S",
+   "B S S S",
+   "S B S",
+   "S B S",
+   "S B B B",
+   "S B B B",
+   "B B",
+   "B B",
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "H2-P1a review-r4b; the rest as in 323g",
+  "lint": "REVIEW",
+  "words": 382
+ },
+ "S15v4b-H2h-P1+P2": {
+  "kind": "screen",
+  "march": [
+   "B B S",
+   "B B S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "H2-P1b review-r4b; H2-P2 review-r3",
+  "lint": "REVIEW",
+  "words": 141
+ },
+ "S15v4b-H2": {
+  "kind": "screen",
+  "march": [
+   "B B S",
+   "B B S",
+   "S S S B",
+   "S S S B",
+   "B S S S",
+   "B S S S",
+   "S B S",
+   "S B S",
+   "S B B B",
+   "S B B B",
+   "B B",
+   "B B",
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "H2-P1b review-r4b; the rest as in 323g",
+  "lint": "REVIEW",
+  "words": 378
+ },
+ "S15v4c-H2h-P1+P2": {
+  "kind": "screen",
+  "march": [
+   "B S",
+   "B S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "H2-P1c review-r4b; H2-P2 review-r3",
+  "lint": "REVIEW",
+  "words": 145
+ },
+ "S15v4c-H2": {
+  "kind": "screen",
+  "march": [
+   "B S",
+   "B S",
+   "S S S B",
+   "S S S B",
+   "B S S S",
+   "B S S S",
+   "S B S",
+   "S B S",
+   "S B B B",
+   "S B B B",
+   "B B",
+   "B B",
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "H2-P1c review-r4b; the rest as in 323g",
+  "lint": "REVIEW",
+  "words": 382
+ }
+}

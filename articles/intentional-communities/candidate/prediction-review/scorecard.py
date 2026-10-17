@@ -19,6 +19,7 @@ C = os.path.dirname(HERE)
 rows = []
 files = sorted(glob.glob(C + '/s*/PREDICTIONS-*.md')) + sorted(glob.glob(C + '/s*/*/PREDICTIONS-*.md'))
 files += sorted(glob.glob(C + '/fix-*/PREDICTIONS-scored.md'))  # 2026-10-14 on: fix_preds.py's rows
+files += sorted(glob.glob(C + '/fix-*/b[0-9]*/PREDICTIONS-scored.md'))  # 2026-10-17: a turn's batches in its fix folder
 for f in files:
     sec = os.path.relpath(f, C).split('/')[0]
     lines = open(f, encoding='utf-8').read().split('\n')

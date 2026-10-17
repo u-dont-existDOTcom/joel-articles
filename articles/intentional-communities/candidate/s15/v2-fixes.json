@@ -1,0 +1,80 @@
+[
+ {
+  "id": "H1-P2",
+  "old": "Five times a day the prayers pour out into the streets, and I find them so soothing.",
+  "new": "Five times a day the prayers pour out into the streets. I find them so soothing!",
+  "why": "the break: his reaction on its own (march r1: no break in either reading)"
+ },
+ {
+  "id": "H2-P1",
+  "old": "Not that Sénégal is some communal paradise that survived! The warmth has hard limits, and for LGBTQ+ people who cross them, it can be brutal.",
+  "new": "Does that make Sénégal some communal paradise that survived? No! The warmth has hard limits, and for LGBTQ+ people who cross them, it can be brutal.",
+  "why": "the break: a question and his answer (round r2's march found none in \"I wish I didn't have to say this\", the first try) (march r1: no break in either reading)"
+ },
+ {
+  "id": "H2-P3",
+  "old": "It can also be cruel to people who break its categories. Community isn't automatically freeing, then.",
+  "new": "It can also be cruel to people who break its categories. Both at once, which is hard to take in. Community isn't automatically freeing, then.",
+  "why": "the break: stopping to take in the two halves (march r1: no break in either reading)"
+ },
+ {
+  "id": "H2-P4",
+  "old": "People avoid confrontation so much that everybody knows who stole the sheep, and nobody wants to make a stink by saying it out loud.",
+  "new": "People avoid confrontation so much it's almost funny. Who stole the sheep? Everybody knows. And nobody wants to make a stink by saying it out loud.",
+  "why": "the break: the question and its answer, and a reaction (march r1: no break in either reading)"
+ },
+ {
+  "id": "H1-P4",
+  "old": "Nobody has to announce a workshop called \"Rebuilding Intergenerational Belonging.\" An aunt has already given three people a task.",
+  "new": "Nobody has to announce a workshop called \"Rebuilding Intergenerational Belonging,\" because an aunt has already given three people a task.",
+  "why": "the linter fails the first subsection on landings (B7/B13: three of five paragraphs ended on a short line); the joke in one sentence"
+ },
+ {
+  "id": "H2-P6",
+  "old": "Everybody raises sheep here, including me, and they are extremely cute.",
+  "new": "Everybody here raises sheep (me too), and they are extremely cute.",
+  "why": "the linter fails the paragraph on two lists of three (E125, Joel 2026-10-03: \"P! failed b ecause it has 2 lists of 3\"); this one is only a sentence shaped like a list, so the shape goes and the music-to-people list, the published point, stays"
+ },
+ {
+  "id": "H2-P7",
+  "old": "the wider world (and some of the men take the dangerous sea route to Europe).",
+  "new": "the wider world (and some of the men take the dangerous sea route to Europe). Can you blame them?",
+  "why": "the break: a question (march r1: no break in either reading)"
+ },
+ {
+  "id": "H3-P2",
+  "old": "They can hardly build any independence or long-term stability.",
+  "new": "They can hardly build any independence or long-term stability. How are they supposed to get ahead?",
+  "why": "the break: a question in the earner's place (march r1: no break in either reading)"
+ },
+ {
+  "id": "H3-P4",
+  "old": "There's another schedule, another status system and social world, other loyalties, and often new habits of consumption.",
+  "new": "There's another schedule, another status system and social world, other loyalties, and often new habits of consumption. That's a lot to bring home from a job!",
+  "why": "the break: a reaction to the list (march r1: no break in either reading)"
+ },
+ {
+  "id": "H3-P5",
+  "old": "But now it's something the community can name and negotiate.",
+  "new": "But now it's something the community can name and negotiate. I like that.",
+  "why": "the break: his opinion, stepping back (march r1: no break in either reading)"
+ },
+ {
+  "id": "H3-P6",
+  "old": "and watch parts of it fall apart.",
+  "new": "and watch parts of it fall apart. Kind of the opposite problem, isn't it?",
+  "why": "the break: a tag question (march r1: no break in either reading)"
+ },
+ {
+  "id": "H3-P7",
+  "old": "But they're people, not exhibits!",
+  "new": "But they're people, not exhibits! Would you want tourists staring at your family?",
+  "why": "the break: a question (march r1: no break in either reading)"
+ },
+ {
+  "id": "H3-P8",
+  "old": "and they won't let me pay rent!",
+  "new": "and they won't let me pay rent! I know, I'm lucky.",
+  "why": "the break: an aside (march r1: no break in either reading)"
+ }
+]

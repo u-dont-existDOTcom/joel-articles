@@ -1,0 +1,1 @@
+Start working on the inner pl/ork. With what? Maybe the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), or another serious practice you already trust. And practice before you have an audience!

@@ -1,0 +1,95 @@
+{
+ "S16v9qa": [
+  "AI Detected",
+  0.56,
+  810,
+  "AI-Generated, High, 398; Human, High, 146; AI-Generated, High, 189; Human, High, 77",
+  "06:59:34",
+  "/36509659-b01f-4757-888d-84a620b679ce",
+  [
+   "AI-Generated (398 words): Practice Comes Before Property / Most people building community do it in the wrong order. ... (H1 and the start of H2)",
+   "AI-Generated (189 words): Are there any unprogrammed Quaker meetings or restorative-practice groups near you? ... (H3-P4 to H3-P6)"
+  ]
+ ],
+ "S16v9q-H1": [
+  "AI Generated",
+  0.71,
+  175,
+  "AI-Generated, High, 175",
+  "06:59:23",
+  "/0a4fed77-fcf0-42d6-aa64-3be37d61010d",
+  [
+   "AI-Generated (175 words): the whole of H1"
+  ]
+ ],
+ "S16v9q-H1-P2+P3": [
+  "Human Written",
+  0.39,
+  128,
+  "Human, Medium, 128",
+  "06:59:12",
+  "/4911960b-2466-4411-8d4a-7e0f445c1c5f",
+  []
+ ],
+ "S16v9q-H1-P3": [
+  "Human Written",
+  0.38,
+  88,
+  "Human, Low, 88",
+  "06:59:01",
+  "/34bfe5db-d2dc-4d4b-a4d3-b16dece30fd9",
+  []
+ ],
+ "S16v9La": [
+  "AI Detected",
+  0.56,
+  809,
+  "AI-Generated, High, 397; Human, High, 146; AI-Generated, High, 123; Human, High, 143",
+  "06:58:49",
+  "/18b24571-f01e-4a0d-aeb2-efa1e665f071",
+  [
+   "AI-Generated (397 words): Practice Comes Before Property / Most people building community do it in the wrong order. ... (H1 and the start of H2)",
+   "AI-Generated (123 words): Are there any unprogrammed Quaker meetings or restorative-practice groups near you? ... (H3-P4 to H3-P6)"
+  ]
+ ],
+ "S16v9a-H3": [
+  "AI Detected",
+  0.42,
+  350,
+  "Human, High, 133; AI-Generated, High, 74; Human, High, 143",
+  "06:58:37",
+  "/b7b320fa-8abe-40d6-99be-8b7469c34fa3",
+  [
+   "AI-Generated (74 words): Twin Oaks, East Wind, Acorn and other intentional communities take visitors, and so do a lot of ecovillages. Just check their current visitor requirements first. / What do you get out of a visit? ... (H3-P6)"
+  ]
+ ],
+ "S16v9a-H3-P6+P7": [
+  "Human Written",
+  0.31,
+  68,
+  "Human, Low, 68",
+  "06:58:25",
+  "/11689646-97d7-4eb9-90c4-dd2586a31f60",
+  []
+ ],
+ "S16v9a-H3-P5+P6": [
+  "Human Written",
+  0.24,
+  82,
+  "Human, Low, 82",
+  "06:58:14",
+  "/262196c6-8b70-4b4a-aa73-1ff8324f7002",
+  []
+ ],
+ "S16v9L-H1": [
+  "AI Generated",
+  0.76,
+  174,
+  "AI-Generated, High, 174",
+  "06:58:04",
+  "/dc574a3f-e2ae-46f1-83f1-6ac8d68178f4",
+  [
+   "AI-Generated (174 words): the whole of H1"
+  ]
+ ]
+}

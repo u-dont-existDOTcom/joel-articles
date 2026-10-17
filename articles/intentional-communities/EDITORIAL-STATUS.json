@@ -2,6 +2,24 @@
   "schema_version": 1,
   "article_id": "intentional-communities",
   "status": "pending",
-  "note": "Editorial status of the humanized candidate. Sections are candidates until Joel accepts them; the gate in docs/HUMANIZATION-GATE.md (meaning traces, cold reads, the whole-article stance check, the linter, the owner-edits ledger) runs on every candidate section, and its records are in candidate/sN/.",
-  "checks": []
+  "note": "Editorial status of the humanized candidate. Sections are candidates until Joel accepts them; the gate in docs/HUMANIZATION-GATE.md (meaning traces, cold reads, the whole-article stance check, the linter, the owner-edits ledger) runs on every candidate section, and its records are in candidate/sN/. Accepted sections are listed under \"accepted\", with Joel's words; their notes in candidate/HUMANIZED-SO-FAR.md start \"ACCEPTED:\" instead of \"CANDIDATE:\".",
+  "checks": [],
+  "accepted": [
+    {
+      "section": 13,
+      "version": "v34",
+      "by": "Joel",
+      "when": "2026-10-17 02:07 UTC",
+      "words": "accept 13 and 14.",
+      "record": "joel-20261017/joel-20261017-0207-message.txt"
+    },
+    {
+      "section": 14,
+      "version": "v9",
+      "by": "Joel",
+      "when": "2026-10-17 02:07 UTC",
+      "words": "accept 13 and 14.",
+      "record": "joel-20261017/joel-20261017-0207-message.txt"
+    }
+  ]
 }

@@ -784,11 +784,77 @@ def repeated_phrases(ss, mine):
     return [(ph, c, w) for ph, (c, w) in found.items()]
 
 
+# O42: "quietly" right after one of these says how a sound or a movement was made, which is the word's own job.
+QUIET_LITERAL = (r"(?:said|say|says|saying|spoke|speak|speaks|speaking|talk\w*|whisper\w*|sang|sing\w*|hum\w*|laugh\w*|cr(?:y|ied|ies|ying)|"
+                 r"sob\w*|breath\w*|clos(?:e|ed|es|ing)|shut\w*|walk\w*|tiptoe\w*|play\w*|knock\w*|mov(?:e|ed|es|ing)|left|leave|leaving|"
+                 r"enter\w*|sat|sit\w*|slipped|slip|wept|weep\w*)")
+# O41: a count pointing back at the text's own advice
+_NUM = r"(?:two|three|four|five|six|seven|2|3|4|5|6|7)"
+COUNT_BACK = re.compile(r"\b(?:do|try|follow|keep|remember|use|start with|practice|apply|get through)\s+(?:all\s+)?(?:these|those|the)\s+"
+                        + _NUM + r"\s+(?:things|steps|tips|rules|ideas|practices|points|moves|habits|ways)\b"
+                        r"|^(?:These|Those)\s+" + _NUM + r"\s+(?:things|steps|tips|rules|ideas|practices|moves|habits)\b", re.I)
+# S1/S2 (Joel, 2026-10-17 13:11, on section 16: "damn you have three sentences ending in exclamation marks in a row that's pretty
+# nuts, you should check the article style before you do something so far out of range"). The article's own range comes from
+# --style (an article's STYLE.json) or from --installed; without either, these defaults (the community article on 2026-10-17:
+# no stretch of four sentences outside quotes with more than two exclamations, and about 4% of sentences end with one).
+BANG_WINDOW, BANG_MAX_DEFAULT, BANG_SHARE_DEFAULT = 4, 2, 0.04
+QUOTED = re.compile(r'"[^"\n]*"|“[^”\n]*”')
+# captions, image lines and embeds are the page's, not the writer's sentences (a caption quotes the graffiti it shows)
+NOT_PROSE = re.compile(r'^(?:\[caption\]|\[image \d+\]|image \d+\b|Double click to interact|\[[^\]]+\]\(https?://[^)]*\)\s*(?:Copy link)?$)')
+
+
+def bang_sequence(paragraph_texts):
+    """[(ends with "!", paragraph index)] for every sentence outside quotes, in reading order. A quotation ("Tolerance!
+    Openness! ...") becomes one token, so someone else's exclamations aren't the writer's."""
+    out = []
+    for k, p in enumerate(paragraph_texts):
+        if NOT_PROSE.match(p.strip()):
+            continue
+        q = QUOTED.sub(lambda m: 'Q.' if re.search(r'[.!?]["”]$', m.group(0)) else 'Q', re.sub(r'\s+', ' ', p))
+        for s in sentences(q):
+            t = s.rstrip(' )"”’\'')
+            out.append((t.endswith('!'), k))
+    return out
+
+
+def bang_range(paragraph_texts):
+    """(the most exclamations in any BANG_WINDOW sentences in a row, the share of sentences that end with one)"""
+    seq = bang_sequence(paragraph_texts)
+    most = max((sum(b for b, _ in seq[i:i + BANG_WINDOW]) for i in range(max(1, len(seq) - BANG_WINDOW + 1))), default=0)
+    return most, (sum(b for b, _ in seq) / len(seq) if seq else 0.0)
+
+
+# R2 (Joel, 2026-10-17 13:11, on section 15's "It's also the thorny boundary issue ..." for the published "This is also the
+# boundary problem ...": ""this" is not the same as "it"... you can't use those interchangeably all the time"). A published sentence
+# whose subject is a pointing "this" or "that" points at what was just said; "it" names a thing. Trace r4 T7 had called the two
+# the same referent. A sentence of mine that turned one into the other fails; the published word goes back.
+DEMONSTRATIVE_OPEN = re.compile(r"^(?:And |But |So )?(This|That|These|Those)\s+(?:is|was|are|were|'s|means|meant|makes|made|does|did|"
+                                r"doesn't|didn't|isn't|wasn't|has|had|can|could|will|would|should|may|might|must|gives|leaves|matters|"
+                                r"explains|shows|keeps|becomes|became|seems|sounds|happens|works|helps|takes|turns|puts|changes|also|"
+                                r"alone|all|one)\b")
+IT_OPEN = re.compile(r"^(?:And |But |So )?(It|It's|Its|They|They're)\b")
+# a dummy "it" points at nothing ("It's possible that records are private"), so it can't have taken a "that"'s place
+DUMMY_IT = re.compile(r"^(?:And |But |So )?It(?:'s| is| was| may be| might be| could be| would be)\s+(?:\w+ly\s+)?(?:possible|likely|unlikely|"
+                      r"true|clear|hard|easy|important|worth|obvious|interesting|fine|okay|OK|better|best|good|bad|sad|funny|strange|weird|"
+                      r"rare|common|tempting|tough|difficult|impossible|necessary|unclear|time|up to|no wonder|not that)\b")
+# A2 (Joel, 2026-10-17 13:11, on section 15's "I like that." after the Zapatista negotiation: "for p6 at the end you added "i like
+# that." why? I actually don't know that i like that"). A reaction that states the writer's liking, approval or feeling is an
+# opinion, not a pause, and the published text has to hold it. The trace brief had told reviewers a short reaction is there on
+# purpose unless it states something new about the world (trace r4 T8: ""I like that." is the deliberate reaction and states no
+# new fact").
+EVAL_OPINION = re.compile(r"\bI\s+(?:really\s+|kind of\s+|sort of\s+|actually\s+|totally\s+|just\s+|do\s+)?(?:like|love|admire|appreciate|"
+                          r"enjoy|adore|prefer|hate|dislike|respect)\s+(?:that|this|it|them|those|these|how|what|the way)\b"
+                          r"|^(?:Love|Like|Gotta love) (?:that|this|it)\b|\bwhich I (?:love|like|admire|appreciate)\b"
+                          r"|^I'm (?:so )?(?:glad|happy|thrilled|impressed)\b", re.I)
+EVAL_IN_SOURCE = re.compile(r"\bI\s+(?:\w+\s+){0,2}(?:like|love|admire|appreciate|enjoy|adore|prefer|hate|dislike|respect|glad|happy)\b", re.I)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('draft'); ap.add_argument('--source')
     ap.add_argument('--owner'); ap.add_argument('--quiet', action='store_true')
     ap.add_argument('--installed', help='the article as installed: its sentences passed already and get no flags')
+    ap.add_argument('--style', help="the article's STYLE.json (tools/humanization/style_profile.py): the range S1 and S2 hold a draft to")
     a = ap.parse_args()
     raw = open(a.draft, encoding='utf-8').read()
     text = clean(raw)
@@ -801,6 +867,12 @@ def main():
     old = set()
     if a.installed:
         old = {re.sub(r'\s+', ' ', x) for q in paragraphs(clean(open(a.installed, encoding='utf-8').read())) for x in sentences(q)}
+        # 2026-10-17: the published section a draft replaces is often still in the installed article, so its sentences counted
+        # as passed, and published wording carried into the draft was never judged ("Do those three things", which Joel
+        # flagged at 13:11; O12's own text says "judge published wording like new wording"). The --source sentences are the
+        # ones being rewritten: they're judged like mine.
+        if a.source:
+            old -= {re.sub(r'\s+', ' ', x) for q in paragraphs(clean(open(a.source, encoding='utf-8').read())) for x in sentences(q)}
     known = owner | old
     def is_known(x):
         # An owner file can hold whole paragraphs, one per line (the calibration .owner files do); until
@@ -912,9 +984,27 @@ def main():
                 flag('FAIL', 'O11 owner ban: a weekday put in to sound concrete (Joel 2026-10-07: "AI is always saying Tuesday, on Tuesday, '
                      'or some specific day like this. on a regular Tuesday is the worst"; SKILL.md "Synthetic specificity"). Keep one only '
                      'when it is a real fact from the source and matters to the thought', s)
-            if re.search(r"\b(ordinary|regular|boring|everyday|mundane|quietly)\b", n, re.I):
-                flag('REVIEW', 'O12 "ordinary/regular/boring/quietly": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
-                     'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"; 2026-10-10 12:22, on "shouldn\'t quietly turn into": "using quietly all the time like that is a huge AI tell"); keep one that says something, judge published wording like new wording', s)
+            if re.search(r"\b(ordinary|regular|boring|everyday|mundane)\b", n, re.I):
+                flag('REVIEW', 'O12 "ordinary/regular/boring": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
+                     'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"); keep one that says something, judge published wording like new wording', s)
+            # O42 (Joel, 2026-10-17 13:11, community section 16's opening, on the published "while somebody else quietly pays the tax
+            # bill": "remove "quietly" that's an ai tell at the end"). O12 had flagged it as a REVIEW, and a REVIEW on published wording
+            # was never answered, so it stayed; the third time he named the word (2026-10-10: "using quietly all the time like that is
+            # a huge AI tell"). In my text it fails, unless it says how a sound or a movement was made ("spoke quietly", "left quietly").
+            for mq in re.finditer(r"\bquietly\b", n, re.I):
+                before = words(n[:mq.start()])[-3:]
+                if not any(re.fullmatch(QUIET_LITERAL, w, re.I) for w in before):
+                    flag('FAIL', 'O42 "quietly" as understatement (Joel 2026-10-17 13:11: "remove "quietly" that\'s an ai tell"; 2026-10-10: '
+                         '"using quietly all the time like that is a huge AI tell"): take it out, published wording included; it stays '
+                         'only for how a sound or a movement was made', s)
+                    break
+            # O41 (Joel, 2026-10-17 13:11, on section 16's published "Do those three things before you spend serious time or money
+            # looking for land": "i felt like "do those three things" also sounded ai bc instruction manual + ai always doing three
+            # things"). A count that points back at the text's own advice. A count that names a model's parts ("the 4 parts") is
+            # content, and isn't matched.
+            if COUNT_BACK.search(n):
+                flag('FAIL', 'O41 a count pointing back at the advice ("Do those three things", Joel 2026-10-17 13:11: "instruction manual + '
+                     'ai always doing three things"): say the thing itself, as his "Look before you leap."', s)
             # O20 (Joel 2026-10-10 12:22): "I want / I don't want" as the opener of a stance. SKILL.md has the rule; his 2026-10-02 exception for the
             # community article (his own wish to live in one) stands, "but there's just too much of this". A list fits: the opener is a fixed form.
             # "I'd like" (2026-10-11): the branch was "I 'd like", with a space no one types, so it never matched.
@@ -1053,6 +1143,70 @@ def main():
         wd = [j for j in range(len(ss)) if WHEN_DONT.match(nss[j].strip())]
         if len(wd) >= 2 and any(mine_s[j] for j in wd):
             flag('REVIEW', 'O31 parallel "When…, don\'t…" lines (JOEL-FIXES-CATALOGUE, Minimal-fix lesson 1: the window Pangram flagged held "two parallel "When…, don\'t…" lines"): break the pattern, or keep one', ' / '.join(ss[j] for j in wd))
+    # S1 and S2 (2026-10-17): the draft's exclamations against the article's own range (see BANG_WINDOW above)
+    bang_max, bang_share = BANG_MAX_DEFAULT, BANG_SHARE_DEFAULT
+    if a.style:
+        import json as _json
+        st = _json.load(open(a.style, encoding='utf-8')).get('exclamations', {})
+        bang_max, bang_share = st.get('max_in_window', bang_max), st.get('share', bang_share)
+    elif a.installed:
+        bang_max, bang_share = bang_range(paragraphs(clean(open(a.installed, encoding='utf-8').read())))
+        bang_max = max(bang_max, 1)
+    seq = bang_sequence(ps)
+    mine_para = [any(not is_known(x) for x in sentences(p)) for p in ps]
+    seen_s1 = set()
+    for i in range(max(0, len(seq) - BANG_WINDOW + 1)):
+        win = seq[i:i + BANG_WINDOW]
+        if sum(b for b, _ in win) > bang_max and any(b and mine_para[k] for b, k in win):
+            ks = tuple(sorted({k for b, k in win if b}))
+            if ks in seen_s1:
+                continue
+            seen_s1.add(ks)
+            flag('FAIL', 'S1 exclamations out of the article\'s range: %d of %d sentences in a row end with "!", where the article '
+                 'has at most %d (Joel 2026-10-17 13:11: "you have three sentences ending in exclamation marks in a row that\'s '
+                 'pretty nuts, you should check the article style before you do something so far out of range"); end some '
+                 'with a period, or make the pause a question, an aside or a plain short sentence'
+                 % (sum(b for b, _ in win), BANG_WINDOW, bang_max), ' / '.join(ps[k][:70] for k in ks))
+    n_bang = sum(b for b, _ in seq)
+    if seq and n_bang >= 3 and n_bang / len(seq) > 2 * bang_share:
+        flag('REVIEW', 'S2 exclamations above the article\'s rate: %d of %d sentences end with "!" (%.0f%%), more than twice the '
+             'article\'s %.0f%% (Joel 2026-10-17 13:11: "check the article style"): keep the ones that are a real reaction'
+             % (n_bang, len(seq), 100 * n_bang / len(seq), 100 * bang_share), '%d exclamations' % n_bang)
+    # R2 and A2 (2026-10-17) read the published paragraph each of mine comes from
+    if a.source:
+        src_ps = [q for q in paragraphs(clean(open(a.source, encoding='utf-8').read())) if len(q.split()) >= 8]
+        def source_of(p):
+            sims = [cos(content(straight(p)), content(straight(q))) for q in src_ps]
+            j = max(range(len(sims)), key=lambda k: sims[k]) if sims else -1
+            return src_ps[j] if j >= 0 and sims[j] >= 0.15 else None
+        for p in ps:
+            q = source_of(p)
+            if q is None:
+                continue
+            ss, qs = sentences(p), [straight(x) for x in sentences(q)]
+            for s in ss:
+                if is_known(s):
+                    continue
+                n = straight(s)
+                mi = IT_OPEN.match(n)
+                if mi and not DUMMY_IT.match(n):
+                    for x in qs:
+                        md = DEMONSTRATIVE_OPEN.match(x)
+                        if md and (cos(content(n), content(x)) >= 0.25 or (s == ss[0] and x == qs[0])):
+                            flag('FAIL', 'R2 the published "%s" became "%s" (Joel 2026-10-17 13:11: ""this" is not the same as "it"... you '
+                                 'can\'t use those interchangeably all the time"): put the published word back. Published: %s'
+                                 % (md.group(1), mi.group(1), x[:90]), s)
+                            break
+                if EVAL_OPINION.search(n) and not EVAL_IN_SOURCE.search(' '.join(qs)):
+                    flag('FAIL', 'A2 an opinion the published paragraph doesn\'t hold (Joel 2026-10-17 13:11, on "I like that.": "why? I '
+                         'actually don\'t know that i like that"): a pause can\'t state what the writer likes, approves of or feels; '
+                         'take it out or ask him', s)
+    else:
+        for p in ps:
+            for s in sentences(p):
+                if not is_known(s) and EVAL_OPINION.search(straight(s)):
+                    flag('REVIEW', 'A2 the writer\'s liking or approval (Joel 2026-10-17 13:11, on "I like that.": "I actually don\'t know '
+                         'that i like that"): with --source the published paragraph decides; without it, check that he said it', s)
     # O25 (2026-10-11): "even" and "actually", with the draft's count (TELLS-FROM-PANGRAM-DATA-20261007.md, finding 3)
     if casual:
         o25 = ('O25 "even" or "actually", %d in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; '

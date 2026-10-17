@@ -1,0 +1,240 @@
+{
+ "title": "What This Looks Like From Sénégal · section 15 (v13, in the article) beside the published one",
+ "meta": "Community article · section 15 · v13, 2026-10-17 · in the article, not accepted until you say so",
+ "intro": [
+  "Your published section is on the left; v13, now in the article, is on the right. Each row shows the check that read that paragraph alone (your rule: every paragraph passes alone).",
+  "The whole section reads Human (412g, 1429 words, AI likelihood 0.14): https://www.pangram.com/history/6157df33-84f8-461b-a6c4-82937e0983c4",
+  "How it was made: Emulate rewrote the section (five rounds, the last ones on single paragraphs), and your meaning went back inside its sentences; meaning checks then compared every paragraph with yours and caught where a point had slipped, each fixed before the Pangram checks. Nothing was cut as a repeat: each place that says something another section says carries its own point here.",
+  "What changed today: your three corrections of 13:11 (\"advocacy\", \"This is also\", and your sentence for the \"I like that.\" I had added), and \"This is the most joking culture\" from the sweep of your \"this\" rule."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# What This Looks Like From Sénégal"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "I live in Sénégal, where \"intentional",
+     "source": [
+      "I live in Sénégal, where “intentional"
+     ],
+     "notes": [
+      "326g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.01, S15v5-H1-P1+P2) https://www.pangram.com/history/a0142be9-de15-4223-b970-4b89702c7240"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Sénégal is unlike anywhere else I've",
+     "source": [
+      "This country feels unlike anywhere else"
+     ],
+     "notes": [
+      "410g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.15, S15v13-H1P3+prev) https://www.pangram.com/history/c88c5312-2a64-4402-acd4-5efc35a14748"
+     ]
+    },
+    {
+     "label": "",
+     "article": "And the humor! People are outside",
+     "source": [
+      "I also hear people laughing outside"
+     ],
+     "notes": [
+      "410g, alone: Human (AI likelihood 0.31, S15v13-H1P3) https://www.pangram.com/history/d07ab087-7033-4bdb-8e4d-63f4961969bb",
+      "\"This is the most joking culture\" again, your published \"This\": the sweep of your 13:11 rule (\"this\" is not the same as \"it\") found \"It's the most joking culture\" here."
+     ]
+    },
+    {
+     "label": "",
+     "article": "In the villages and families I've",
+     "source": [
+      "In the villages and families I’ve"
+     ],
+     "notes": [
+      "327g, alone: Human (AI likelihood 0.54, S15v6-H1-P4c) https://www.pangram.com/history/2a616fc2-d2b6-4d43-afc7-22816e9e01b6",
+      "Your 40 a: \"so much is taken care of by\" stays. The ten shapes that keep \"often\" read AI alone; the probe for your question is on the questions page."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Even in Dakar, I found this",
+     "source": [
+      "Even in Dakar I found graffiti"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.00, S15v5-H1-P5) https://www.pangram.com/history/67561afd-8188-4200-8f14-245b3837a906"
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## All is not well in paradise"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "But does this mean I think",
+     "source": [
+      "I don’t want to turn this"
+     ],
+     "notes": [
+      "410g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.18, S15v13-H2P2+prev) https://www.pangram.com/history/68a12c46-b5b4-406d-aa99-733e00f79f78",
+      "Your \"either\" is back (\"No, not that either!\"): a meaning check found the rewrite had dropped it."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Sénégal passed a law in March",
+     "source": [
+      "In March 2026, Sénégal enacted Law"
+     ],
+     "notes": [
+      "410g, alone: Human (AI likelihood 0.29, S15v13-H2P2) https://www.pangram.com/history/9e80d2f8-0de4-4142-be87-266c886720e2",
+      "Your 13:11 correction: \"public advocacy for homosexuality\", without quotes (the law's French \"apologie\" is advocacy, not \"apology\"), and the financing clause you called redundant is out."
+     ]
+    },
+    {
+     "label": "",
+     "article": "So which is it? Well, in",
+     "source": [
+      "A society can be spiritually alive,"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.01, S15v5-H2-P3) https://www.pangram.com/history/289b8c6c-d0dd-4d58-8026-0f6914fcc1c6"
+     ]
+    },
+    {
+     "label": "",
+     "article": "One other shadow side of the",
+     "source": [
+      "The otherwise forgiving social culture has"
+     ],
+     "notes": [
+      "326g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S15v5-H2-P3+P4) https://www.pangram.com/history/e632fcb7-7a4a-4160-a1fe-ed3a07f4e039"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Where I live, neighbors steal our",
+     "source": [
+      "Where I live, neighbors steal our"
+     ],
+     "notes": [
+      "326g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S15v5-H2-P4+P5) https://www.pangram.com/history/e438a32f-5fa5-4b64-a58d-6c8d838bd351"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Everybody here has sheep (even me!),",
+     "source": [
+      "Everybody raises sheep here, including me,"
+     ],
+     "notes": [
+      "323g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S15v3-H2-P5+P6) https://www.pangram.com/history/8deb27ea-6c26-47b7-9a53-d6dccefa1707"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Of course, the old communal ways",
+     "source": [
+      "The older communal patterns are also"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.00, S15v5-H2-P7) https://www.pangram.com/history/cf202e52-6d74-4a59-939b-4331c3519b23"
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Lessons from the Black Tax"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "Then there's the so-called \"Black Tax,\"",
+     "source": [
+      "One strange survival of the old"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.02, S15v5-H3-P1) https://www.pangram.com/history/6004145e-b24f-4d9f-92c9-33e21054ace3"
+     ]
+    },
+    {
+     "label": "",
+     "article": "But these days it can be",
+     "source": [
+      "The modern version can become soul-destroying"
+     ],
+     "notes": [
+      "332g, alone: Human (AI likelihood 0.06, S15v10-H3-P2) https://www.pangram.com/history/102b4871-9084-40c8-9d5d-c090dbc57b1d",
+      "Your \"may\" and your \"any independence or long-term stability\" are back: meaning checks found the rewrite had made the expectation certain and dropped \"any\" and \"long-term\"."
+     ]
+    },
+    {
+     "label": "",
+     "article": "This is also the thorny boundary",
+     "source": [
+      "This is also the boundary problem"
+     ],
+     "notes": [
+      "410g, alone: Human (AI likelihood 0.02, S15v13-H3P3) https://www.pangram.com/history/07834a32-b8df-4474-855d-ddd94a2f8f94",
+      "Your 13:11 correction: \"This is also\", your published \"This\", for my \"It's also\"."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Another aspect of outside work, even",
+     "source": [
+      "Outside work complicates that boundary even"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.23, S15v5-H3-P4) https://www.pangram.com/history/b54038f5-c51b-4731-93a0-93847e62c2ca"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Some Zapatista communities used to try",
+     "source": [
+      "Zapatista communities faced a version of"
+     ],
+     "notes": [
+      "410g, alone: Human (AI likelihood 0.18, S15v13-H3P5) https://www.pangram.com/history/a501bc8e-0f7f-4baf-b800-cd271b15b9b5",
+      "Your 13:11 sentence, \"I understand the motivation to negotiate like that, but I think it's not a full solution either.\", in place of the \"I like that.\" I had added (with capital I's and a comma before \"but\")."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Westerners often start out isolated and",
+     "source": [
+      "Westerners often begin with isolation and"
+     ],
+     "notes": [
+      "322g, alone: Human (AI likelihood 0.02, S15v2-H3-P6) https://www.pangram.com/history/a33242d1-8f25-4c35-bef5-b5fb99b568a4"
+     ]
+    },
+    {
+     "label": "",
+     "article": "So this is a global issue,",
+     "source": [
+      "That makes this a global conversation"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.04, S15v5-H3-P7) https://www.pangram.com/history/d0ae702b-9761-4b54-8d30-c0ee05fc5299"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Oh, and a practical note: getting",
+     "source": [
+      "A practical note: my own residency"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.27, S15v5-H3-P8) https://www.pangram.com/history/2bc1ef02-fdfa-4193-b8a4-ea3d1feb0383"
+     ]
+    }
+   ]
+  }
+ ]
+}

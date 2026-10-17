@@ -1,0 +1,70 @@
+{
+ "S16v15q": [
+  "AI Detected",
+  0.47,
+  874,
+  "Human, High, 542; AI-Generated, High, 35; Human, High, 47; AI-Generated, High, 250",
+  "08:44:33",
+  "/53673eef-b6e6-4e3c-879e-da1505286134",
+  [
+   "AI-Generated (35 words): Call it that, not a commune! Before you start talking about a shared future, meet reg ...",
+   "AI-Generated (250 words): Or maybe you know someone who came back from a long retreat kinder, rather than more ..."
+  ]
+ ],
+ "S16v15q-H3-P3+P4": [
+  "Human Written",
+  0.07,
+  112,
+  "Human, Medium, 112",
+  "08:44:22",
+  "/be0a5279-2f1b-4d2d-aa1d-082c7fc89aa5",
+  []
+ ],
+ "S16v15q-H3-P2+P3": [
+  "Human Written",
+  0.01,
+  89,
+  "Human, Low, 89",
+  "08:44:12",
+  "/fda8e1da-b9e8-4a69-baab-8f207ad29a6b",
+  []
+ ],
+ "S16v15q-H3-P3-P5": [
+  "Human Written",
+  0.06,
+  152,
+  "Human, High, 152",
+  "08:44:01",
+  "/1101ecb2-62a1-4e8b-b047-0e9ad715f6e3",
+  []
+ ],
+ "S16v15q-H3-P2-P4": [
+  "Human Written",
+  0.03,
+  154,
+  "Human, High, 154",
+  "08:43:50",
+  "/bdf9aef4-0c58-4d4a-bc8d-0b3ed0e73d0f",
+  []
+ ],
+ "S16v15q-H2-P6-H3-P3": [
+  "AI Detected",
+  0.31,
+  129,
+  "Human, Medium, 94; AI-Generated, Medium, 35",
+  "08:43:40",
+  "/c0bc5526-2a20-48b4-8b2a-1eb8da148509",
+  [
+   "AI-Generated (35 words): Before you start talking about a shared future, meet regularly: practice listening an ..."
+  ]
+ ],
+ "S16v15q-H2-P5-H3-P2": [
+  "Human Written",
+  0.13,
+  149,
+  "Human, Medium, 149",
+  "08:43:29",
+  "/0b6d4f99-f4bb-4804-85ee-c331aebfbdc4",
+  []
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "S15v4a-H2h-P1+P2": [
+  "Human Written",
+  0.08,
+  152,
+  "Human, High, 152",
+  "03:55:23",
+  "/f3c8206f-e8bc-4537-b541-5ae7f6266627",
+  []
+ ],
+ "S15v4a-H2": [
+  "Human Written",
+  0.05,
+  394,
+  "Human, High, 394",
+  "03:55:34",
+  "/04eb521a-84c0-42e9-9c04-13037f8e6877",
+  []
+ ],
+ "S15v4b-H2h-P1+P2": [
+  "Human Written",
+  0.09,
+  148,
+  "Human, Medium, 148",
+  "03:55:44",
+  "/b52d4889-9c88-48fe-8647-33b9148437f8",
+  []
+ ],
+ "S15v4b-H2": [
+  "Human Written",
+  0.04,
+  390,
+  "Human, High, 390",
+  "03:55:54",
+  "/e4ced495-4a39-4601-b312-e4f6b7921ee6",
+  []
+ ],
+ "S15v4c-H2h-P1+P2": [
+  "Human Written",
+  0.12,
+  152,
+  "Human, High, 152",
+  "03:56:05",
+  "/069a3b95-ec3b-412b-84f3-81e803e376ef",
+  []
+ ],
+ "S15v4c-H2": [
+  "AI Detected",
+  0.13,
+  394,
+  "AI-Generated, Low, 45; Human, High, 349",
+  "03:56:16",
+  "/9be12faf-aebb-483b-8ec0-b48b721b6fcc",
+  [
+   "AI-Generated (45 words)"
+  ]
+ ]
+}

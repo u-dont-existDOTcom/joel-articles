@@ -1,0 +1,3 @@
+Find two or three other people and meet regularly. This is not quite the same thing as forming a commune. Call it a practice group. Practice the skills you need to practice: listening, switching roles, handling one disagreement, keeping your commitments, etc. One disagreement is enough! You can talk about a shared future later.
+
+Get a few people together, two or three, and start practicing together. Don't call it a commune, and you don't have to actually be a commune. Call it a practice group. Just get together regularly, and learn to listen, switch roles, handle one disagreement and keep your commitments. One disagreement is enough! You can talk about a shared future after that.

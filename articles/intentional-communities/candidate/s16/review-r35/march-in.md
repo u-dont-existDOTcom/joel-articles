@@ -1,0 +1,1 @@
+By visiting some communities, you'll get a better idea of how much togetherness you enjoy, what kind of privacy you need, what kind of labor system irritates you, whether communal showers feel liberating, or if you'll immediately begin looking at studio apartments for rent after the first communal shower you take. You're not going to find any of that in a manifesto!

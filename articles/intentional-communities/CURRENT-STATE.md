@@ -22,16 +22,21 @@ Humanize Joel's published intentional-communities Substack article section by se
 - 2026-10-16, after his 18:22 message (33 a; his cut of "How do you know?"; "continue into next section now"): section 14 ("Dissolution and Exit") is a humanized candidate in `candidate/HUMANIZED-SO-FAR.md` (v5; every group Human and the whole section 100% Human, high, batch 306g). Section 13 had one more bounded pass (drafts v23 to v26, rounds r16 to r18, batch 304g): every changed group Human, the land subsection Human; the whole section reads 38% AI (56% before), in two long stretches. Not in the article yet.
 - 2026-10-16, after his 21:05 message (34 a, "learn from how emulate fixes it"; links he can click; the diagram is uploaded): Emulate round j on section 13's two stretches that read AI, each sent whole, and drafts v27 to v31 with the meaning put back inside Emulate's sentences. Section 13 is a humanized candidate in `candidate/HUMANIZED-SO-FAR.md` (v31): the whole section 100% Human, high (batch 311g; it read 38% AI in 304g), its meaning reviews done (rounds r19 and r20).
 - 2026-10-17, after his 2026-10-16 23:38 message (the questions page's layout bug and hidden questions; his "if the community uses them" back; "it's all fairly borderline human. so we should fix it"; the book not leaning on Christian's order; the dedup): section 13 is in the article as v34 (every paragraph Human alone, batches 312g to 318g, `tools/humanization/paragraphs_alone.py` PASS; the whole section 100% Human, high, 0.06, batch 317g; the values stretch that read AI inside the section in 316g reads Human without the monologue too) and section 14 as v8 (every paragraph Human alone; the whole section 100% Human, 316g), each deduplicated. The questions page lists questions 35 to 38.
-- Owner edits: 62 pass, none waiting.
+- 2026-10-17, after his 02:07 message (35 b, 36 a, 37 a, 38 b his own section 14 paragraph; "accept 13 and 14"; his standing dedup rule: cut only when no important meaning is lost or there's no good way to merge): sections 13 (v34) and 14 (v9) are accepted (`EDITORIAL-STATUS.json`); section 10 is v5 (his 36 a, Human alone and as a section, batch 320g).
+- 2026-10-17, after his 13:11 message (39 his sentence in section 4; 40 a; 41 a, and rules that depend on the article's style; 42 his lines for section 16's last stretch; his corrections in sections 15 and 16; the PsyPost study): section 16 is in the article as v28 (every changed paragraph Human, the whole section 100% Human, 413g), so every section is in; section 15 v13, section 12 v14 (the study), section 8 v30 and section 1 (the sweep of his "this"/"quietly" rules) 100% Human (412g); section 4 v11.4 (414g, 100% Human). New checks for each correction (`docs/HUMANIZATION-GATE.md`); questions 43 to 45 open.
+- Owner edits: 76 pass, none waiting.
 
 ## Current checkpoint
 
-Sections 13 (v34) and 14 (v8) are in the article, not accepted until Joel says so. Section 15, "What This Looks Like From Sénégal", is next. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Sections 13 (v34) and 14 (v9) are accepted. After Joel's message of 2026-10-17 13:11 UTC, every section is in `candidate/HUMANIZED-SO-FAR.md` as a candidate:
+- Section 16, "Practice Comes Before Property": v28 (`candidate/s16/make_v28.py`, installed by `candidate/fix-20261017/install_20261017.py`), with his lines for the stretch that read AI and "quietly" out; the whole section 100% Human (413g, 0.29).
+- Section 15 v13 (his three corrections and the sweep's "This"), section 12 v14 (the PsyPost study he sent, his screenshot as an image note), section 8 v30 and section 1 (the sweep): each 100% Human as a whole (412g). Section 4 v11.4 (his answer to 39): 100% Human (414g).
+- Open questions 43 (exclamations in sections 13 to 16), 44 (the study's place) and 45 (accept the article) are on the lane's questions page.
+The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Sections 15 and 16 and the appendix.
-- Joel's acceptance of the candidate sections, then promotion of the humanized article to the registered master with a promotion receipt.
+- Joel's answers to questions 43 to 45; with 45 a, promotion of the humanized article to the registered master with a promotion receipt.
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
 ## Blockers / unresolved
@@ -47,4 +52,4 @@ Sections 13 (v34) and 14 (v8) are in the article, not accepted until Joel says s
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (on `claude/community-joel-1016b` until its pull request merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): section 15 the way section 14 went (baseline, Emulate on the whole section, the meaning put back inside Emulate's sentences, screens, the meaning reviews, the whole-section check after their fixes). Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 187, until it merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): wait for Joel's answers to questions 43 to 45, then do what each answer says there. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.

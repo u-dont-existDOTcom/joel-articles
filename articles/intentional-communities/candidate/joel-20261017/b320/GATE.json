@@ -1,0 +1,15 @@
+{
+ "S10v5-P9": {
+  "kind": "owner",
+  "joel": "2026-10-17 02:07 UTC: \"36a\" (my wording, his pick; joel-20261017/joel-20261017-0207-message.txt)"
+ },
+ "S10v5": {
+  "kind": "section",
+  "parts": [
+   "S10v5-P9",
+   "installed"
+  ],
+  "repeats": 0,
+  "repeats_note": "the change adds four words inside one sentence; section 10 had no repeats inside it (fix-20261014b/gate/REPEATS.md)"
+ }
+}
