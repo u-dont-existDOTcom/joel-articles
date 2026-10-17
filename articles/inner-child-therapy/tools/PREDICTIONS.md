@@ -1250,3 +1250,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-v and p9-k (948 words) [t62i_h1v], a screen | Human, low (my call: the h1 with p8-q read Human, high) | Human Written (0.087, high; 994), one Human window; 2026-10-17 00:03:35 UTC, https://www.pangram.com/history/f0544afa-e8eb-41fa-9ff2-38620b972a5d | hit |
 | 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-w and p9-k (947 words) [t62i_h1w], a screen | Human, low (my call: the h1 with p8-q read Human, high) | Human Written (0.076, high; 992), one Human window; 2026-10-17 00:03:46 UTC, https://www.pangram.com/history/3d573173-4746-4ceb-a7c8-26aa2898d4a9 | hit |
 | 2026-10-16 (turn 62) | The Inner Guide Comes Later with p8-x and p9-k (944 words) [t62i_h1x], a screen | Human, low (my call: the h1 with p8-q read Human, high) | Human Written (0.094, high; 990), one Human window; 2026-10-17 00:03:57 UTC, https://www.pangram.com/history/beb18f95-769b-4c28-878a-21cf6782b9e8 | hit |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-a alone (71 words) [t63a_p10a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-c alone (66 words) [t63a_p10c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-d alone (64 words) [t63a_p10d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-e alone (68 words) [t63a_p10e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-a (163 words) [t63a_p910a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-c (158 words) [t63a_p910c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-d (156 words) [t63a_p910d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-e (160 words) [t63a_p910e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-a (1019 words) [t63a_h1a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-c (1014 words) [t63a_h1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-d (1012 words) [t63a_h1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-e (1016 words) [t63a_h1e], a screen | Human, low (my call) | (pending) | |
