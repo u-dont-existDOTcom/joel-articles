@@ -13,13 +13,13 @@
    ],
    "rows": [
     {
-     "label": "P1 (changed: your opening, then my rest)",
+     "label": "P1 (changed: your opening, then my rest, with the cold read's fixes)",
      "article": "My father often suggested folks remember",
      "source": [
       "My father often suggested"
      ],
      "notes": [
-      "Turn 69 (E189): Joel's opening, word for word (2026-10-17 18:56 UTC, his answer to question 39: \"i see i got paraphrased about my father... change that para to say\"; experiments/t69-answers/JOEL-20261017-1856.md), with one obvious fix: his link had a space between ] and (. His published line, \"My father often suggested remembering a time when I met a difficulty in a way I respected.\", was a paraphrase of him, so it is out. Then my humanized version of the rest of the guide's passage (experiments/t69-guide/drafts/rw-b1.txt): what helped then, one piece of it within reach, a small real example is enough (not a dramatic one; his \"similar-level (or even harder)\" carries the guide's \"The earlier situation need not have been harder\"), past capacity no proof that exhaustion or present limits should go (the stick), another doorway. Alone Human Written (0.0048, high), https://www.pangram.com/history/7cdcbabb-5b0d-4e2c-b27e-e5cd8838a7a2 (round t69a; the other two rests read Human too, b2 0.0082 and b3 0.020); Simple Practices Human Written (0.057, high, 1007 words), https://www.pangram.com/history/6ce51c25-9024-40b8-903a-2208e3dab44b."
+      "Turn 69 (E189): Joel's opening, word for word (2026-10-17 18:56 UTC, his answer to question 39: \"i see i got paraphrased about my father... change that para to say\"; experiments/t69-answers/JOEL-20261017-1856.md), with one obvious fix: his link had a space between ] and (. His published line, \"My father often suggested remembering a time when I met a difficulty in a way I respected.\", was a paraphrase of him, so it is out. Then my humanized version of the rest of the guide's passage (experiments/t69-guide/drafts/rw-b4.txt, with the cold read's two fixes, experiments/t69-guide/COLD-READ-t69.md: \"Your own challenge doesn't need to be as dramatic as that\" first, so \"it\" and \"that\" have something to point to; round a's version was rw-b1): what helped then, one piece of it within reach, a small real example is enough (not a dramatic one; his \"similar-level (or even harder)\" carries the guide's \"The earlier situation need not have been harder\"), past capacity no proof that exhaustion or present limits should go (the stick), another doorway. Alone Human Written (0.0048, high), https://www.pangram.com/history/7cdcbabb-5b0d-4e2c-b27e-e5cd8838a7a2 (round t69a; the other two rests read Human too, b2 0.0082 and b3 0.020); Simple Practices Human Written (0.057, high, 1007 words), https://www.pangram.com/history/6ce51c25-9024-40b8-903a-2208e3dab44b. With the fixes (round t69h): alone Human Written (0.011, high), https://www.pangram.com/history/5134d959-9f7d-4325-a6fd-da4e827368f8; Simple Practices Human Written (0.064, high, 1009 words), https://www.pangram.com/history/e8179b15-7581-480f-b811-91cacd7b2ade."
      ],
      "beside": {
       "label": "Your words, 18:56 UTC",
@@ -48,13 +48,13 @@
      }
     },
     {
-     "label": "P2 (turn 65's again, now its own paragraph)",
-     "article": "Maybe you're reading this with a plan",
+     "label": "P2 (turn 65's, now its own paragraph, with the cold read's fixes)",
+     "article": "Maybe you're reading this about to act",
      "source": [
       "If you’re about to act, can’t stop yourself"
      ],
      "notes": [
-      "Turn 65 (E177), my own draft again as it was (writers/ks12-w8-p1), now that his opening is its own paragraph. Alone Human Written (0.2, low), https://www.pangram.com/history/981ab947-596f-4de7-8c7f-adbe370c04fe. The h1 with his opening first read Human Written (0.15, high), https://www.pangram.com/history/36f80c9c-b09c-4955-8d16-f67a808dc218."
+      "Turn 65 (E177), my own draft (writers/ks12-w8-p1), now that his opening is its own paragraph, with the turn-69 cold read's three fixes (experiments/t69-guide/drafts/ks1-u.txt, COLD-READ-t69.md): the guide's \"about to act\", \"with the means close by\", and \"None of that\" for a \"This\" that pointed to the sentence before. Alone Human Written (0.43, medium), https://www.pangram.com/history/a03e39a3-acef-4f04-b5ee-e4db48fc4a11 (\"Getting help and some distance isn't me answering\" read AI, 0.46); the h1 Human Written (0.15, high, 756 words), https://www.pangram.com/history/0fd5863b-a4f0-4669-b9b6-4550abf94fb4 (round t69i). Turn 65's version alone read Human Written (0.2, low), https://www.pangram.com/history/981ab947-596f-4de7-8c7f-adbe370c04fe."
      ]
     }
    ]
