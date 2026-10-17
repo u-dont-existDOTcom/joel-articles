@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-17 in the turn that began with Joel's message of 2026-10-16 23:38 UTC (the questions page's layout bug and its hidden questions; "yes i want "if the community uses them" back in section 13 ... it's all fairly borderline human. so we should fix it"; "we should not lean on Christian's book order"; "let's merge/dedup section 14"; "also dedeup other sections"), by the session https://claude.ai/code/session_01Mxpoi6tFT3FgKmBvtGjRtS.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-17 at about 12:30 UTC, at the end of the overnight run that began with Joel's message of 02:07 UTC ("continue, and don't stop because this is overnight run") and his 12:15 message ("You missed the overnight window. Continue in regular section mode for daytime now"), by the session https://claude.ai/code/session_01Mxpoi6tFT3FgKmBvtGjRtS.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1017/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
