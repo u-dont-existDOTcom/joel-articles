@@ -1,6 +1,6 @@
 """The appendix's baseline (2026-10-17): the published "Appendix: Watch These, Then Read These" as it stands in
 HUMANIZED-SO-FAR.md (the same bytes as original.md's end), read by Pangram in groups of at least 50 words by spaces (its entries
-are short, so each group is a run of entries under one heading, with the heading) and as a whole. Batch 329g.
+are short, so each group is a run of entries, with the headings among them) and as a whole. Batch 329g.
 Run from candidate/: python3 appendix/make_baseline.py"""
 import hashlib, json, pathlib, re, subprocess, sys
 
@@ -12,23 +12,18 @@ from ptext import plain  # noqa: E402
 
 bl = [b.strip() for b in re.split(r'\n\s*\n', (HERE / 'v0.md').read_text(encoding='utf-8')) if b.strip()]
 assert bl[0].startswith('# Appendix')
-heads = [i for i, b in enumerate(bl) if b.startswith('#')]
 P = lambda b: plain(b.lstrip('#').strip())
-films = bl[heads[1] + 1: heads[2]]
-GROUPS = {
- 'A': [bl[heads[1]]] + films[:3], 'B': films[3:7], 'C': films[7:10],
- 'D': [bl[heads[2]], bl[heads[3]]] + bl[heads[3] + 1: heads[4]],
- 'E': [bl[heads[4]]] + bl[heads[4] + 1: heads[5]] + [bl[heads[5]]] + bl[heads[5] + 1: heads[6]],
- 'F': [bl[heads[6]]] + bl[heads[6] + 1: heads[7]],
- 'G': [bl[heads[7]]] + bl[heads[7] + 1: heads[8]] + [bl[heads[8]]] + bl[heads[8] + 1:],
-}
+# runs of blocks by index, each at least 56 words by spaces (Pangram's own count came in 6% under ours: 47 for a run of 50)
+RUNS = {'A': range(1, 6), 'B': range(6, 10), 'C': range(10, 15), 'D': range(15, 22), 'E': range(22, 26), 'F': range(26, 30),
+        'G': range(30, 34)}
+GROUPS = {g: [bl[i] for i in r] for g, r in RUNS.items()}
 drafts, gate = {}, {}
 for g, parts in GROUPS.items():
     t = '\n\n'.join(P(b) for b in parts)
     k = 'APX-' + g
     drafts[k] = t
     gate[k] = {'kind': 'owner', 'joel': 'the published text of the appendix', 'parts': [b[:30] for b in parts], 'words': len(t.split())}
-    assert len(t.split()) >= 50, (k, len(t.split()))
+    assert len(t.split()) >= 56, (k, len(t.split()))
 drafts['APXv0'] = '\n\n'.join(P(b) for b in bl)
 gate['APXv0'] = {'kind': 'section', 'parts': ['installed'], 'repeats': 0, 'repeats_note': 'a measurement of the published appendix, not an install',
                  'words': len(drafts['APXv0'].split())}

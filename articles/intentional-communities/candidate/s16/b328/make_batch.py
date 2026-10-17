@@ -1,8 +1,10 @@
-"""Batch 328g (2026-10-17): screens (E175) of section 16 draft v1 (../make_v1.py: Emulate round a with the published meaning
-put back, the dedup of the repeats check, review-r1/DISPOSITIONS-r1.md). Every paragraph alone, or with each neighbor in its
+"""Batch 328g (2026-10-17): screens (E175) of section 16 draft v2 (../make_v2.py: v1, ../make_v1.py, Emulate round a with the
+published meaning put back and the dedup of the repeats check, review-r1/DISPOSITIONS-r1.md, with a break in each paragraph
+round r2's march found none in). Every paragraph alone, or with each neighbor in its
 subsection when it is under 50 words by spaces (H3-P9 with H3-P10 is 48 words, so H3-P9 goes with H3-P8 only); each
 subsection with its heading; the whole section as a reader sees it (the caption in, the images out). Marches: review-r2 (two
-readings). Run from candidate/: python3 s16/b328/make_batch.py"""
+readings), review-r3 for the ten paragraphs v2 changes, review-r3b for H1-P1 and H2-P4 and review-r3c for H3-P2 (each
+changed again after the march before it). Run from candidate/: python3 s16/b328/make_batch.py"""
 import hashlib, json, pathlib, re, subprocess, sys, tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -12,7 +14,7 @@ REPO = C.parents[2]
 sys.path.insert(0, str(C / 'fix-20261014'))
 from ptext import plain  # noqa: E402
 
-V = 'v1'
+V = 'v2'
 DRAFT = S16 / (V + '.md')
 SKIP = re.compile(r'^\[image \d+\]')
 bl = [b.strip() for b in re.split(r'\n\s*\n', DRAFT.read_text(encoding='utf-8')) if b.strip()]
@@ -28,6 +30,11 @@ L = [{int(k): v.strip() for k, v in re.findall(r'^\s*T(\d+):\s*([SB ]+?)\s*$',
 r2 = json.loads((S16 / 'review-r2' / 'march-ids.json').read_text())
 assert r2 == PARAS, (r2, PARAS)
 MARCH = {p: [m[n] for m in L] for n, p in enumerate(PARAS, start=1)}
+for rnd in ('review-r3', 'review-r3b', 'review-r3c'):
+    Lr = [{int(k): v.strip() for k, v in re.findall(r'^\s*T(\d+):\s*([SB ]+?)\s*$',
+           (S16 / rnd / ('MARCH-labels-%s.txt' % x)).read_text(encoding='utf-8'), re.M)} for x in 'ab']
+    for n, p in enumerate(json.loads((S16 / rnd / 'march-ids.json').read_text()), start=1):
+        MARCH[p] = [m[n] for m in Lr]
 ITEMS = {}
 for i, p in enumerate(PARAS):
     if len(plain(T[p]).split()) >= 50:
@@ -53,7 +60,7 @@ drafts, gate = {}, {}
 for key, parts in ITEMS.items():
     drafts[key] = '\n\n'.join(plain(T[p].lstrip('#').strip()) if p in ('H1', 'H2', 'H3') else plain(T[p]) for p in parts)
     ps = [p for p in parts if p in MARCH]
-    gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in MARCH[p]], 'march_note': 's16/review-r2',
+    gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in MARCH[p]], 'march_note': 's16/review-r2, r3, r3b, r3c',
                  'lint': lint('\n\n'.join(T[p] for p in parts if not T[p].startswith('#'))), 'words': len(drafts[key].split())}
     assert gate[key]['words'] >= 50, (key, gate[key]['words'])
 drafts['S16' + V] = '\n\n'.join(plain(re.sub(r'^\[caption\]\s*', '', b).lstrip('#').strip()) for b in reader)

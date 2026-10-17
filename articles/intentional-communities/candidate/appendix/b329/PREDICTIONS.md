@@ -1,6 +1,6 @@
 # Predictions and Pangram results: batch 329g (2026-10-17, the appendix's baseline)
 
-Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). The published appendix, "Appendix: Watch These, Then Read These", as it stands in the article (the same bytes as the end of `original.md`): seven groups of at least 50 words by spaces (a run of entries under one heading, with the heading) and the whole appendix (`../make_baseline.py`). Predictions written before the run.
+Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro account). The published appendix, "Appendix: Watch These, Then Read These", as it stands in the article (the same bytes as the end of `original.md`): seven runs of entries of at least 56 words by spaces (Pangram counted the first try at 50 as 47 and refused it) and the whole appendix (`../make_baseline.py`). Predictions written before the run.
 
 ## Batch 329g
 
