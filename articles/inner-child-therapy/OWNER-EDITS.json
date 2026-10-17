@@ -2359,6 +2359,68 @@
      "url": "https://link.springer.com/article/10.3758/BF03196318"
     }
    ]
+  },
+  {
+   "id": "gap-p3-joel-20261017",
+   "status": "applied",
+   "what": "When One Life Has Ended and the Next Hasn't Begun P3 (the second half of the guide's P2) is Joel's, word for word (question 41), with \"feels too heavy\" for his \"feels gets too heavy\" (two verbs, one left from an edit; \"gets\" is a word away if he meant that).",
+   "joel": "2026-10-17 16:58 UTC: \"But, I prefer this version which looks even more human to me and more inside the thought\" (experiments/t68-answers/JOEL-20261017-1658.md).",
+   "where": "When One Life Has Ended and the Next Hasn't Begun",
+   "must_contain_exact": [
+    "Something basic can mark the ending, like boxing up the old keys. Nobody needs to know what door will open next. But when the not-knowing feels too heavy, a new identity can sure look tempting. Like a borrowed coat that doesn't fit but at least it's warm. But you can't go far with a borrowed coat anyway, so don't force the future on. Keep taking care of yourself, and grieve what ended with your little one beside you during the metamorphosis."
+   ],
+   "must_not_contain": [
+    "feels gets too heavy"
+   ]
+  },
+  {
+   "id": "nonjudgement-joel-20261017",
+   "status": "applied",
+   "what": "A Heart-to-Child Loop ends on his \"Non-judgement is a place to start. It can blossom into love over time.\" (question 40, A; his October guide has it, his September article had \"Non-cruelty is enough for a first session.\").",
+   "joel": "2026-10-17 16:58 UTC: \"40. a i don't understand, you said this is not in the original? it is\" (experiments/t68-answers/JOEL-20261017-1658.md).",
+   "where": "A Heart-to-Child Loop",
+   "must_contain_exact": [
+    "Non-judgement is a place to start. It can blossom into love over time."
+   ]
+  },
+  {
+   "id": "published-first-person-20261017",
+   "status": "applied",
+   "what": "His published first-person lines are his words (E188), and four are back where his article and guide have them: his father's suggestion (Remember When You Already Did It), the kindergarten recess (A Heart-to-Child Loop), \"I get stricter about spirituality, not looser\" and his father's line to suicidal people (If You Want to Kill Yourself).",
+   "joel": "2026-10-17 16:58 UTC: \"39 what do you mean those aren't in my words? yes they are, pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md).",
+   "where": "Simple Practices; If You Want to Kill Yourself",
+   "must_contain_exact": [
+    "My father often suggested remembering a time when I met a difficulty in a way I respected.",
+    "One punch there hurts a lot, as I sadly learned while getting beaten up every day at kindergarten recess by a gang organized by my best friend. Can you believe it?",
+    "When somebody tells me they want to kill themselves, I get stricter about spirituality, not looser.",
+    "My father used to tell suicidal people, \"Oh, you want to kill yourself? That's wonderful. Now you can change what you've always been too afraid to change in your life, and then see if you still want to end it!\" His point wasn't that dying is wonderful."
+   ]
+  },
+  {
+   "id": "published-first-person-pending-20261017",
+   "status": "pending",
+   "what": "The rest of his published first-person lines go in with their sections (E188): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his deepest peaks coming when he least wanted to exist, his nibbana article, the turtle and the ticket (This human life is the most precious opportunity); the childhood ghosts and the window, the sleep-paralysis attacks, training others, and his guides (the three Altered States sections), with their warnings in his words and no amounts or recipes.",
+   "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md).",
+   "where": "those sections, when humanized",
+   "must_contain": [
+    "Xandria"
+   ]
+  },
+  {
+   "id": "hearthwork-joel-20261017",
+   "status": "pending",
+   "what": "Speak Toward What You Are Building names Hearthwork as his peer-counseling framework, linked to hearthwork.u-dont-exist.com, when that section goes in.",
+   "joel": "2026-10-17 16:58 UTC: \"it is, yes, hearthwork.u-dont-exist.com that's my framework, so why did you remove it?\" (experiments/t68-answers/JOEL-20261017-1658.md).",
+   "where": "Speak Toward What You Are Building, when humanized",
+   "must_contain": [
+    "Hearthwork"
+   ],
+   "must_link": [
+    {
+     "text": "Hearthwork",
+     "url": "https://hearthwork.u-dont-exist.com"
+    }
+   ]
   }
  ]
 }

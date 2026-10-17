@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-17 (turn 67). **Four open questions (38 to 41).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-17 (turn 68). **One open question (42).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,50 +8,31 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-> [!IMPORTANT]
-> Each needs your word because it's about your life, or only you know the answer, or (41) because I can't find any more AI tells in it. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
+### 🟣 42. Turn 67's lessons
 
-### 🟣 41. When One Life Has Ended and the Next Hasn't Begun: the second half of P2
-
-> Something small and practical can mark the ending, like boxing up the old keys. Nobody needs to know the next beginning to close this one. When the not-knowing gets unbearable, a new identity can look awfully tempting, like a borrowed coat that doesn't fit but at least it's warm. Don't force it. Keep your body and your routines going, and grieve what ended with your little one beside you while the next life takes shape.
-
-I can't find any more AI tells here, and I see some human tells, like these: "boxing up the old keys", "a borrowed coat that doesn't fit but at least it's warm", "Nobody needs to know the next beginning to close this one", and the grown-up's four jobs folded into two, with grieving done "with your little one beside you". Can you help show me the tells I'm missing?
-
-What I tried, with your lessons (seven versions of this half, 0.96 to 1.0; this one 0.96, [the result](https://www.pangram.com/history/f67f9f04-a465-4796-9b06-90d76dff9491)): the run of instructions said as statements, as a question, and with asides; the grown-up's jobs as a pair, and as sentences of different shapes; the order turned round (the grown-up's part first, then the new identity first); a coat, a life raft and a port in a storm; and the linter's flags on it (a paragraph of instructions, a finished principle) each had a try. Everything else in the section now reads Human alone: P1, the first half of P2 (the questions), and both halves of P3. They're all in [PARKED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t65-guide/PARKED.md).
-- **A. Your words**, or the tells I'm missing.
-- **B. Leave the section out** for now (the default).
-
-### 🟣 38. Hearthwork, in Speak Toward What You Are Building
-
-The guide names Hearthwork as "my peer-counseling framework" there, and the drafts leave the name out, since it's your framework in your first person. (The section's P1, P2, P5 and P6 are my work again, with your lessons: they go back on my list, not yours.)
-- **A. Put it in**, and how (your words).
-- **B. Leave the name out** (the default).
-
-### 🟣 39. Your life, from the guide's first person
-
-The guide says these in its "I", and the article doesn't have them in your words, so they're left out: your father's suggestion to remember a time you met a difficulty well (Remember When You Already Did It); the kindergarten recess line (A Heart-to-Child Loop); Xandria and the story phrase ("And So That's the Way It Happened!"); your father's line to suicidal people, and "I get stricter about spirituality with suicidal people"; your deepest peaks coming when you least wanted to exist, and your nibbana article (This human life); and in the three Altered States sections, the childhood ghosts and the window, the sleep-paralysis attacks, training others on psychedelics, and your guides. Those sections aren't started, since most of their points are these, and their warnings go in only in your words, with no amounts or recipes.
-- **A. Your words** for the ones you want in (say which).
-- **B. Leave them out** (the default).
-
-### 🟣 40. "Non-judgement is a place to start."
-
-It's in the r4 guide but not the original, and I can't see where it came from, so A Heart-to-Child Loop leaves it out.
-- **A. It's yours: put it back.**
-- **B. Leave it out** (the default).
+You said I got some lessons wrong in turn 67. The ones I've found and fixed are lesson E188: your published lines are your words (Hearthwork and the first-person lines I'd left out); "not in the original" without checking your October guide; the "glean" wording; and question 41's human tells and the march I said wasn't there. Turn 67's other lessons are E186 (the help-request format; a list of three in my sentences now blocks the check unless it ends on a catch-all; "can ... without ...ing" blocks too) and E187 (a result is cited by its text, not its file name).
+- **A. Those are the ones.**
+- **B. Others too** (say which).
 
 ## For you to do (no decision needed)
 
-> [!WARNING]
-> Comes back every turn. My merges are refused by the safety check, so it stays yours.
+### 🟠 The turn-67 pull request, when you're happy with the lessons
 
-### 🟠 Merge the turn-67 pull request
-
-You merged #186 (turns 64 to 66) at 13:13 UTC, thank you. This turn is a new pull request from the same lane: your P14, your Use Childhood Photographs Gently, How Much Happiness Do You Know Is Possible?, If You Want to Kill Yourself and Borrowed Adulthood in Relationship, with E186 in the linter. The link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+Its conflicts were main's community merge (#187), which had also added tells to the registry under the same numbers; they're resolved, and the pull request merges cleanly again. Merging is yours, whenever you're happy with the lessons.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-17 16:58 UTC
+
+- 38, Hearthwork: you're right, and I was wrong to take it out. Your article and your guide both name it as your framework, so it's your words. It goes in when Speak Toward What You Are Building goes in, linked to [hearthwork.u-dont-exist.com](https://hearthwork.u-dont-exist.com) (it opens your Hearthwork article); that section isn't in the article yet.
+- 39, "show me exactly what you think is not in my words and what made you think that": they are your words. Every line I'd listed is in your published article and in your October guide, word for word, and nothing in them looked unlike you. What made me leave them out was a shared rule, "The source's 'I' is an AI draft of his ideas" (the humanization gate, from lessons E71 and E159), which I applied to text you published yourself. That was wrong (lesson E188). Four are back now, and each section reads Human again: your father's suggestion (Remember When You Already Did It), the kindergarten recess (A Heart-to-Child Loop), "I get stricter about spirituality, not looser" and your father's line to suicidal people (If You Want to Kill Yourself). The rest go in with their sections: Xandria with "And So That's the Way It Happened!", your peak experiences and your nibbana article with This human life, and the Altered States stories with those sections (their warnings in your words, no amounts or recipes).
+- 40, A: it's in your October guide, so it's yours. My "not in the original" had compared your September article, which has "Non-cruelty is enough for a first session." in the same place. It's in now, at the end of A Heart-to-Child Loop: the h2 [Human Written 0.0052, high](https://www.pangram.com/history/8e8d9cf1-d8f1-4ed3-93a8-e84ae1990fa1), Simple Practices [Human Written 0.066, high](https://www.pangram.com/history/af0ec79f-afee-4b7c-9b53-935c9d33ac57).
+- 41: your version is in, word for word, with "feels too heavy" for "feels gets too heavy" (if you meant "gets", it's one word). When One Life Has Ended and the Next Hasn't Begun is in, [Human Written 0.20, high](https://www.pangram.com/history/aa326b66-3952-48f9-b535-d72e33e5d960). You were right: "Don't force it." was the predictable next instruction, and the things I called human tells weren't. The lesson (E188): every sentence gets its own march read before I ask, and a human tell I name has to be one of the kinds your fixes show.
+- "you called "glean" a typo?": no, the typo was what you typed in your 14:01 message, "you might even gleam from talking to family/friends" (I checked it again). "Glean" is the word you meant, and it's what the article has. My note "glean for gleam (your typo rule)" made it sound the other way round.
+- "i'm not merging anything, plus the pr has conflicts": understood. The conflicts came from main's community merge, which had used the same registry numbers; they're resolved (this lane's new tell is now W93), and the pull request merges cleanly again. Question 42 asks whether there are lessons I haven't found.
 
 ### 🟢 2026-10-17 14:01 UTC
 

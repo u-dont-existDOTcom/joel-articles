@@ -893,3 +893,14 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His merge of #186 (turns 64 to 67), and his answers to 38 to 41.
 2. With his lessons, my list: the five parked Simple Practices, Speak Toward P1, P2, P5 and P6, then the section check of When One Life Has Ended once P2's second half reads Human.
+
+## Turn 68 (2026-10-17, from 16:58 UTC): his answers to 38 to 41, and what turn 67 got wrong
+
+- **His message:** "38 i didn't understand why you removed the name?" (Hearthwork); "39 what do you mean those aren't in my words? yes they are"; "40. a"; his version of 41 ("Marching order, you didn't see that?"); not merging, since some lessons were wrong and the pull request had conflicts; and "glean" (`t68-answers/`).
+- **Checked first:** his 14:01 message as sent had "gleam" (the article's "glean" stands); every first-person line of question 39, Hearthwork and "Non-judgement is a place to start." are in his published texts, so they're his words (E188).
+- **In:** When One Life Has Ended and the Next Hasn't Begun (his P3; h1 0.20, high); four of his published lines back (his father twice, the kindergarten recess, "I get stricter about spirituality, not looser") and the non-judgement lines, with Simple Practices (0.066, high) and If You Want to Kill Yourself (0.12, high) checked again. The conflicts with main's community merge are resolved.
+
+### Next
+
+1. His answer to 42 (were other turn-67 lessons wrong?) and, when he's happy, his merge of #188.
+2. Speak Toward with Hearthwork named and linked; "And So That's the Way It Happened!" with Xandria; This human life and the three Altered States sections with his published stories; the other parked Simple Practices.

@@ -2,6 +2,8 @@
 
 Turn 65 (the 12-hour run) and turn 66, updated in turn 67 (Joel's 14:01 UTC answers). Each entry says what has read Human, what never did and how many versions were tried, my best faithful draft, the tells I see, and what I'd want from you.
 
+**Turn 68 (his 16:58 UTC answers):** When One Life Has Ended and the Next Hasn't Begun is in, with his P2 second half (question 41). His published first-person lines are his words (E188: every one below is in his published article and his October guide), so four are back in the article (his father twice, the kindergarten recess, "I get stricter about spirituality, not looser"), "Non-judgement is a place to start." is in (question 40), Hearthwork goes in with Speak Toward, and the rest go in with their sections. What's left here is my work, not his: five Simple Practices, Speak Toward P1, P2, P5 and P6 (with Hearthwork), This human life, and the three Altered States sections.
+
 **Turn 67:** Joel's own versions of four parked paragraphs, and his own Use Childhood Photographs Gently, are in the article, and so are the sections they finished: If You Want to Kill Yourself, Borrowed Adulthood in Relationship, How Much Happiness Do You Know Is Possible?, and Timing Is Individual (results in experiments/t67-guide/REVIEWS.md). His rule now (E186): a help request goes to him only when I can't find any more AI tells, and it says so, with the human tells I see. So:
 - a question now: When One Life Has Ended P2's second half (question 41), Hearthwork (38), the guide's first-person life facts (39), "Non-judgement is a place to start." (40), This human life and the three Altered States sections (39);
 - back on my list, with his lessons: five Simple Practices (Journal With Each Hand P1, "And So That's the Way It Happened!" P2, One Intention P1, Just Like Me P2, Close the Session) and Speak Toward P1, P2, P5 and P6.
@@ -25,9 +27,13 @@ The tells I see: the paragraph is a sequence (first warmth and safety, then dire
 
 ## Simple Practices, A Heart-to-Child Loop: one sentence the r4 guide added
 
+**In (turn 68):** it's in his October guide (his September article had "Non-cruelty is enough for a first session." there), so it's his; it ends A Heart-to-Child Loop now. The note below was wrong.
+
 "Non-judgement is a place to start." is in the r4 guide but not the original one, and nothing I can see traces where it came from (E155: a guide addition needs its map change and why the reader needs it), so the dedup and the drafts leave it out. If it's yours, it can go back in.
 
 ## Simple Practices: three things from the guide's first person, left out (E159)
+
+**Turn 68 (E188): they're his words**, in his published article and his October guide. His father's suggestion and the kindergarten recess are back in Remember When You Already Did It and A Heart-to-Child Loop; Xandria goes in with "And So That's the Way It Happened!". The reasoning below was wrong.
 
 The guide says these in its own "I", and the article doesn't have them in your words, so the drafts leave them out. If they're yours and you want them in, tell me how you'd say them.
 
@@ -143,6 +149,8 @@ What I'd want from you: your own P4.
 
 ## When One Life Has Ended and the Next Hasn't Begun: P2 and P3
 
+**In (turn 68):** with Joel's version of P2's second half ("Something basic can mark the ending, like boxing up the old keys. ... during the metamorphosis."), the h1 reads Human Written (0.20, high), https://www.pangram.com/history/aa326b66-3952-48f9-b535-d72e33e5d960. What his fix showed (E188): "Don't force it." was the predictable next instruction, and the human tells I'd named weren't ones he'd call human. The records below are the history.
+
 **Turn 67 (Joel: "learn some lessons from what i gave you and you continue from there").** Thirty-one versions, with his moves. P2 and P3 are each in two now, and every piece but one reads Human alone (every result in `tools/PREDICTIONS.md`, rows t67a to t67f, keys le2 and le3):
 
 P2, first half (le2-f1c, 0.34, https://www.pangram.com/history/387b3d6d-c325-44fa-b20e-a297796cf3f4):
@@ -186,6 +194,8 @@ P3 (asking what kind of company someone wants) read Human alone in two writers' 
 The tells I see: P2 needs two long lists (the accurate words; what can be protected, practiced, repaired, chosen or grown), and the linter won't pass two lists in one paragraph, so every version breaks one up and still reads AI; P5 and P6 end on the guide's moral ("a serious healing path can include both"; "the loop matters more than the door") wherever it's put. The guide also names Hearthwork as "my peer-counseling framework" here; the drafts leave the name out (E159). Turn 67: P1, P2, P5 and P6 are back on my list, with Joel's lessons (E186); whether Hearthwork goes in, and how, is question 38.
 
 ## Not started: they need your words first
+
+**Turn 68 (E188): they're his words already**, in his published article and his October guide, so these are my work now, not questions: This human life and the three Altered States sections go in with his first-person lines as he published them (their warnings in his words, no amounts or recipes); Speak Toward names Hearthwork, linked to https://hearthwork.u-dont-exist.com; his father's line and "I get stricter about spirituality" are back in If You Want to Kill Yourself.
 
 - This human life is the most precious opportunity (the guide's precious-human-life section): its three points are in the guide's first person (his deepest peaks came when he least wanted to exist; the turtle and the rare human birth, MN 129; don't throw away the ticket), with his nibbana article. Your words for any of it, or leave it out.
 - Altered States Can Deepen the Therapy, and the two Altered States sections after it: most of their points are your own experiences in the guide's first person (the childhood ghosts, the sleep-paralysis attacks, training others, your guides, Hearthwork), and the warnings go in only in your words, with no amounts or recipes. Your words for the parts you want in, or leave them for later.
