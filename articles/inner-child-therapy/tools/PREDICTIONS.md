@@ -2004,7 +2004,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with w9's paragraphs (186 words) [t65z6_secba1w9], a screen | Human, low (my call) | AI Generated (0.99, High; 190); 07:48:12 UTC, https://www.pangram.com/history/1901ef91-abf1-47a0-9796-9055c3f43b72 | miss |
 | 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w8's paragraphs (141 words) [t65z6_secsh1w8], a screen | Human, low (my call) | Human Written (0.37, Medium; 146); 07:48:02 UTC, https://www.pangram.com/history/d82d727b-fff0-4e3b-88b0-86aa204ea2f8 | hit |
 | 2026-10-17 (turn 65) | Somatic Heart Opening, mixed (W:lm3v-w8-p1) (119 words) [t65z6_secsomh2v8], a screen | Human, low (my call) | Human Written (0.21, Medium; 122); 07:47:52 UTC, https://www.pangram.com/history/632b468d-cd78-4164-9b45-c500d1c9bb6c | hit |
-| 2026-10-17 (turn 65) | sh1 w7 p1 alone, a fresh writer (139 words) [t65z7_sh1w7p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | sh1 w6 p1 alone, a fresh writer (127 words) [t65z7_sh1w6p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w6's paragraphs (136 words) [t65z7_secsh1w6], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w7's paragraphs (148 words) [t65z7_secsh1w7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sh1 w7 p1 alone, a fresh writer (139 words) [t65z7_sh1w7p1], a screen | Human, low (my call) | Human Written (0.47, Medium; 145); 07:50:53 UTC, https://www.pangram.com/history/43c1a6c9-b082-427b-b2eb-18ab94492cd9 | hit |
+| 2026-10-17 (turn 65) | sh1 w6 p1 alone, a fresh writer (127 words) [t65z7_sh1w6p1], a screen | Human, low (my call) | Human Written (0.044, Medium; 133); 07:51:04 UTC, https://www.pangram.com/history/03589a31-75f5-49df-9a7a-dc38de6f2fb0 | hit |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w6's paragraphs (136 words) [t65z7_secsh1w6], a screen | Human, low (my call) | Human Written (0.073, Medium; 141); 07:51:06 UTC, https://www.pangram.com/history/00c24c11-447a-45cf-84a6-13fcca2bdb0d | hit |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w7's paragraphs (148 words) [t65z7_secsh1w7], a screen | Human, low (my call) | Human Written (0.27, High; 153); 07:50:55 UTC, https://www.pangram.com/history/e79a30e7-153e-46a4-963e-c642fd3a1b98 | hit |
+| 2026-10-17 (turn 65) | ba1p1 w8 p1 alone, a fresh writer (95 words) [t65z8_ba1p1w8p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ba1p1 w9 p1 alone, my own draft (77 words) [t65z8_ba1p1w9p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ba1p2 w8 p1 alone, a fresh writer (100 words) [t65z8_ba1p2w8p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ba1p2 w9 p1 alone, my own draft (93 words) [t65z8_ba1p2w9p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w8-p1, W:ba1p2-w8-p1) (200 words) [t65z8_secba1p8p8], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w8-p1, W:ba1p2-w9-p1) (193 words) [t65z8_secba1p8p9], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w9-p1, W:ba1p2-w8-p1) (182 words) [t65z8_secba1p9p8], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w9-p1, W:ba1p2-w9-p1) (175 words) [t65z8_secba1p9p9], a screen | Human, low (my call) | (pending) | |
