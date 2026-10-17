@@ -664,14 +664,16 @@
      "forfeiting",
      "giving up everything",
      "give up everything",
-     "leave everything"
+     "leave everything",
+     "lose everything"
     ],
     [
      "coercive",
      "coercing"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"leave everything\", \"coercing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"leave everything\", \"coercing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v32": "2026-10-17, v32: \"You don't want them to lose everything they've put in!\", the pause tally's fix (r17 a, r19 a); \"lose\" is the published \"forfeiting\""
   },
   {
    "id": "U35",
@@ -919,10 +921,12 @@
     ],
     [
      "conformity",
-     "doing what everyone else is doing"
+     "doing what everyone else is doing",
+     "going along with everyone"
     ],
     [
-     "safety"
+     "safety",
+     "safe"
     ],
     [
      "six months"
@@ -931,7 +935,8 @@
      "good person"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"doing what everyone else is doing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"doing what everyone else is doing\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v32": "2026-10-17, v32: \"think someone's safe just because they're going along with everyone else\", the pause tally's fix (r19 b, r21 a) for the published \"mistaking conformity for safety\""
   },
   {
    "id": "U48",
@@ -996,9 +1001,11 @@
     ],
     [
      "sells a house",
-     "sell their house"
+     "sell their house",
+     "sells their house"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32: \"before anybody sells their house to move in\", the pause tally's fix (r17 b, r19 b)"
   },
   {
    "id": "U51",

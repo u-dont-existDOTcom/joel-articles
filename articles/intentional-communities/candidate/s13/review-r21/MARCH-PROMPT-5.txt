@@ -1,0 +1,20 @@
+Below are 5 paragraphs from a blog article about building intentional communities, each one on its own, with its sentences numbered.
+
+Label every numbered sentence of every paragraph S (STEP) or B (BREAK):
+- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.
+- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said ("Or put it in your own words."); a pause, waiting, or a permission ("If it doesn't come, that's okay for today."); stopping to consider what something might feel like or be like ("It might be more of a mood. Sadness, maybe."); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.
+Judge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.
+
+Don't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:
+T1: S S B S S
+T2: S B S B
+
+T1: [1] Who will have title to the land? [2] Very important! [3] Whoever has it will have enormous power over the rest of the community. [4] If the deed is in the name of the founder, then he or she is really a landlord with a philosophy. [5] If three out of twelve members own everything, then whether or not your literature says everyone is equal, there are two classes of members.
+
+T2: [1] What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land? [2] This needs to be decided before it's bought. [3] Then you'll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people's contributions (if at all), how inheritance works, what about outside debt, how improvements get handled, and what happens when someone wants to leave the community. [4] Lots of decisions to make!
+
+T3: [1] And how will you handle the VISIBILITY of what the community has? [2] There will be bottlenecks, sorry! [3] It will be important for people to know what's owned or held in common, what you've set aside, what obligations you have to outsiders, who has authority to hand out the major resources, where conflicts of interest are, etc. [4] It won't do to have the transfer of major resources (land, equipment, stores, outside cash, etc.) dependent on one person's memory or permission.
+
+T4: [1] Good people leave for good reasons -- dying parent, love, work, health, exhaustion, change of mind, etc. [2] You don't want them to lose everything they've put in! [3] That's coercive -- they HAVE to stay if they can't afford to go. [4] Whether or not you use money, you'll need to have a way of providing people with resources when they leave (cash, if you use it, but also tools, transportation, temporary housing, stored up goods, the right to keep using something, or whatever). [5] Otherwise their "right" to leave is only on paper -- it only works when the community happens to have spare money! [6] Write up the exit terms when it's only theoretical -- like a pre-nup when you're planning the wedding. [7] Not romantic, but protective! [8] Much easier than doing it once anybody's furious.
+
+T5: [1] Honestly? [2] For the nuts and bolts of all this (members, resources, land, agreements, etc.), I'd go to Diana Leafe Christian's [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) (on the reading list at the end).

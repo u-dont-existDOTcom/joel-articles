@@ -784,6 +784,16 @@ class MarchPrompt(unittest.TestCase):
                          ['Then this.', '‘Outside’ isn’t the state.', '[My research](https://x.example/r) leaned that way.',
                           '*Very* important!', 'Dr. Who stays.'])
 
+    def test_an_emoji_between_sentences_ends_the_first_one(self):
+        # 2026-10-17: "...charming for two weeks! 😅 So that's about all you'll find out." reached the march readers as one
+        # sentence, so they gave it one label (S), and the paragraph's break went unseen.
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        self.assertEqual(reviewer.split_sentences("Charming for two weeks! 😅 So that's about all. Fine 😜 then."),
+                         ['Charming for two weeks! 😅', "So that's about all.", 'Fine 😜 then.'])
+        self.assertEqual(reviewer.split_sentences('Who decides? (Hint: not the recruiter! 😜) What rights will they have?'),
+                         ['Who decides?', '(Hint: not the recruiter! 😜)', 'What rights will they have?'])
+
 
 class SectionColdReadPrompt(unittest.TestCase):
     """reviewer.py sense-section (2026-10-11). Joel, 18:35 UTC: ""as I'm describing may happen in my case" is obvious so you

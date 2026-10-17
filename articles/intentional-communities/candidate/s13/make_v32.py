@@ -60,21 +60,57 @@ FIX = [
     ('H3-P5', 'For the full sequence -- vision, then members, then pooling major resources, then land -- see Diana Leafe '
               'Christian\'s ' + BOOK + ' (on the reading list at the end). Honestly, it\'s where I\'d start for getting that '
               'order right!',
-     'For the nuts and bolts of all this (members, money, land, agreements, etc.), see Diana Leafe Christian\'s ' + BOOK +
-     ' (on the reading list at the end). Honestly, it\'s where I\'d start for those!',
+     'Honestly? For the nuts and bolts of all this (members, resources, land, agreements, etc.), I\'d go to Diana Leafe '
+     'Christian\'s ' + BOOK + ' (on the reading list at the end).',
      'Joel, 23:38: "no we should not lean on Christian\'s book order if it contradicts my own order"; his order is in "Practice '
      'Comes Before Property", and his reading list recommends the book for membership, money, land and agreements'),
     ('H4-P1', ' It’s no good for anyone to join a group that can’t deliver what it promised.', '',
      'repeats r19 item 4: section 12\'s capacity point and section 5\'s "recruit too quickly and promise too much" carry it'),
     ('H4-P3', 'charming for two weeks. So if that\'s all they do, congratulations! You\'ve established that they can be charming '
-              'for two weeks. 😅', 'charming for two weeks! 😅 ' +
-     'So that\'s about all you\'ll find out.',
+              'for two weeks. 😅', 'charming for two weeks. Not exactly a ' +
+     'high bar! 😅 So that\'s about all you\'ll find out.',
      'batch 312g: with H4-P2 it read AI over exactly these 45 words; the "Congratulations: you have established" format is '
      'AI\'s now (his 2026-10-02 ruling on quips: keep the point)'),
     ('H4-P4', 'may be able to pull off an act for months, so time gets you more evidence, not certainty.',
      'may be able to pull off an act for months!',
      'repeats r19 item 15: H4-P6\'s "Six months will give you more data, but there\'s still no "good person" detector." '
      'carries it'),
+    # the phrases two or more cold reads paused at across rounds (pause_tally.py over review-r11 to review-r21; the rule of
+    # Joel's 2026-10-16 18:22 answer: each gets a fix or a reason before Pangram); these had none
+    ('H1-P3', 'before you need a surveyor', 'before you need a land surveyor',
+     'pause tally: "before you need a surveyor" (r19 b, r21 a); "land" says what the surveyor is for (published "before hiring '
+     'a surveyor")'),
+    ('H3-P4', 'You don\'t want to make them leave everything they\'ve put in!', 'You don\'t want them to lose everything they\'ve '
+     'put in!', 'pause tally: "make them leave everything they\'ve put in" (r17 a, r19 a); the published "forfeiting everything '
+     'contributed"'),
+    ('H3-P4', 'it can\'t be exercised unless the community has spare money!', 'it only works when the community happens to have '
+     'spare money!', 'pause tally: "unless the community has spare money" (r16 a, r19 b); the published "a paper right that works '
+     'only when the community has spare money"'),
+    ('H4-P6', 'It’s also easy to take people doing what everyone else is doing as a sign of safety.',
+     'It’s also easy to think someone’s safe just because they’re going along with everyone else.',
+     'pause tally: "doing what everyone else is doing as a sign of safety" (r19 b, r21 a); the published "mistaking conformity '
+     'for safety"'),
+    ('H4-P6', 'Six months will give you more data', 'Six months with someone will give you more data',
+     'pause tally: "Six months" (r19 a, r21 a): six months of what; the published "Six months gives you a larger sample"'),
+    ('H4-P8', 'before anybody sells a house.', 'before anybody sells their house to move in.',
+     'pause tally: "before anybody sells a house" (r17 b, r19 b); whose house and why'),
+    ('H5-P4', 'Also decide on a mediator or ombud in advance.', 'Also decide on a mediator or ombudsperson in advance.',
+     'pause tally: "ombud" (six reports, r16 to r21); the plainer word for the published "ombud"'),
+    # round r21's trace T1 (review-r21/trace-T1.md) on the merged H3-P4
+    ('H3-P4', 'You don\'t want them to lose everything they\'ve put in! Whether or not you use money, you\'ll need to have a way '
+              'of providing people with resources when they leave (cash, if you use it, but also tools, transportation, '
+              'temporary housing, stored up goods, the right to keep using something, or whatever). Otherwise their "right" to '
+              'leave is only on paper -- it only works when the community happens to have spare money! That\'s coercive -- they '
+              'HAVE to stay if they can\'t afford to go.',
+     'You don\'t want them to lose everything they\'ve put in! That\'s coercive -- they HAVE to stay if they can\'t afford to '
+     'go. Whether or not you use money, you\'ll need to have a way of providing people with resources when they leave (cash, '
+     'if you use it, but also tools, transportation, temporary housing, stored up goods, the right to keep using something, or '
+     'whatever). Otherwise their "right" to leave is only on paper -- it only works when the community happens to have spare '
+     'money!',
+     'trace r21 T1-1 (SHIFT): after the move, "That\'s coercive" read as the paper right; the published ties coercion to '
+     'forfeiting everything contributed, so it follows "lose everything" again, and the exit resources come after it'),
+    ('H3-P4', 'Much easier than doing it once everybody\'s furious.', 'Much easier than doing it once anybody\'s furious.',
+     'trace r21 T1-2 (SHIFT): "everybody" made the window last until all are angry; the published "before anybody is furious"'),
 ]
 log = []
 for pid, old, new, why in FIX:

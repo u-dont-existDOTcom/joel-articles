@@ -1,0 +1,210 @@
+{
+ "S13v32-H1-P4": {
+  "kind": "screen",
+  "march": [
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 109
+ },
+ "S13v32-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "B B S S",
+   "B B S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 79
+ },
+ "S13v32-H3-P4": {
+  "kind": "screen",
+  "march": [
+   "S S S S S S B S",
+   "S S S S S S B S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 133
+ },
+ "S13v32-H3-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "S S S S S S B S",
+   "S S S S S S B S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 164
+ },
+ "S13v32-H4-P1": {
+  "kind": "screen",
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 52
+ },
+ "S13v32-H4-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "S S B S S S",
+   "S S B S S B",
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 91
+ },
+ "S13v32-H4-P3+P4": {
+  "kind": "screen",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 99
+ },
+ "S13v32-H4-P4": {
+  "kind": "screen",
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 60
+ },
+ "S13v32-H1": {
+  "kind": "screen",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B",
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 346
+ },
+ "S13v32-H3": {
+  "kind": "screen",
+  "march": [
+   "B B S S S",
+   "B B S S S",
+   "B S S B",
+   "B S S B",
+   "B B S S",
+   "B B S S",
+   "S S S S S S B S",
+   "S S S S S S B S",
+   "B S",
+   "B S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 396
+ },
+ "S13v32-H4": {
+  "kind": "screen",
+  "march": [
+   "S B S S",
+   "S B S S",
+   "S S B S S S",
+   "S S B S S B",
+   "S B S",
+   "S B S",
+   "S S B S",
+   "S S B S",
+   "S S S S S B S S S",
+   "S S S S S B S S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S",
+   "S B S S",
+   "S B B S S S S S",
+   "S B B S S S S S",
+   "S S B S S S",
+   "S S B S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 660
+ },
+ "S13v32": {
+  "kind": "screen",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B",
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S",
+   "B B B B B B B B B",
+   "B B B B B B B B B",
+   "S B S",
+   "S B S",
+   "S S S B",
+   "S S S B",
+   "S B S",
+   "S B S",
+   "S S S S S B",
+   "S S S S S B",
+   "B B S S S",
+   "B B S S S",
+   "B S S B",
+   "B S S B",
+   "B B S S",
+   "B B S S",
+   "S S S S S S B S",
+   "S S S S S S B S",
+   "B S",
+   "B S",
+   "S B S S",
+   "S B S S",
+   "S S B S S S",
+   "S S B S S B",
+   "S B S",
+   "S B S",
+   "S S B S",
+   "S S B S",
+   "S S S S S B S S S",
+   "S S S S S B S S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S",
+   "S B S S",
+   "S B B S S S S S",
+   "S B B S S S S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S S B B S S S",
+   "S S B B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B",
+   "S B S S S S S S",
+   "S B S S S S S S",
+   "S B S S S S",
+   "S B S S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt",
+  "lint": "REVIEW",
+  "words": 2167
+ }
+}

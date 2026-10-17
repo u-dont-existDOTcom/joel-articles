@@ -1,4 +1,4 @@
-"""Batch 314g (2026-10-17): screens (E175) of section 13 draft v32 (section 14 v6 went in 313g), from Joel's message of
+"""Batch 314g (2026-10-17): screens (E175) of section 13 draft v32 (section 14 v7 goes in 315g), from Joel's message of
 2026-10-16 23:38 UTC. Section 13 v32 (../make_v32.py): his "if the community uses them" back, the short visit's punchline
 fixed (the one paragraph that read AI alone in 312g), the book line pointing to the book for its nuts and bolts instead of
 its order, and the dedup. Section 14 v6 (../../s14/make_v6.py): the dedup. Every changed paragraph alone (under 50 words by
@@ -27,15 +27,37 @@ def labels(path):
 
 
 M13 = [labels(C / 's13' / 'review-r21' / ('MARCH-labels-2%s.txt' % x)) for x in 'ab']
+H4M = [labels(C / 's13' / 'review-r21' / ('MARCH-labels-4%s.txt' % x)) for x in 'ab']
+for m, h in zip(M13, H4M):
+    assert sorted(h) == list(range(1, 10)), sorted(h)
+    for i in range(9):
+        m[15 + i] = h[i + 1]   # H4-P1..P9 are T15..T23 of the whole-section read
+H3M = [labels(C / 's13' / 'review-r21' / ('MARCH-labels-5%s.txt' % x)) for x in 'ab']
+for m, h in zip(M13, H3M):
+    assert sorted(h) == list(range(1, 6)), sorted(h)
+    for i in range(5):
+        m[10 + i] = h[i + 1]   # H3-P1..P5 are T10..T14 (the land subsection read again after the book line's last change)
 for m in M13:
     assert sorted(m) == list(range(1, len(PARAS13) + 1)), sorted(m)
 MARCH = {p: [m[n] for m in M13] for n, p in enumerate(PARAS13, start=1)}
-s14 = [b.strip() for b in re.split(r'\n\s*\n', (C / 's14' / 'v6.md').read_text(encoding='utf-8')) if b.strip()]
+# a paragraph unchanged since v31 whose new readings miss its break keeps its earlier march (convergent review: an unchanged
+# item keeps its verdict), as batch 311g did: round r19's reads 5 and 6, and b304's for the visitor subsection
+v31 = [b.strip() for b in re.split(r'\n\s*\n', (C / 's13' / 'v31.md').read_text(encoding='utf-8')) if b.strip()]
+V31 = {(p or HEADS[i]): b for i, (p, b) in enumerate(zip(IDS, v31))}
+R5_ORDER = ['H1-P1', 'H1-P2', 'H1-P3', 'H1-P4', 'H2-P1', 'H2-P2', 'H2-P3', 'H2-P3b', 'H2-P4',
+            'H3-P1', 'H3-P2', 'H3-P3', 'H3-P4', 'H3-P5', 'H5-P1', 'H5-P2', 'H5-P3', 'H5-P4']
+R5 = [labels(C / 's13' / 'review-r19' / ('MARCH-labels-5%s.txt' % x)) for x in 'ab']
+OLD = {p: [r[n] for r in R5] for n, p in enumerate(R5_ORDER, start=1)}
+for p in PARAS13:
+    if T13[p] == V31[p] and not all('B' in m.split() for m in MARCH[p]) and p in OLD:
+        MARCH[p] = OLD[p]
+        print('march of unchanged', p, 'from round r19 read 5:', OLD[p])
+s14 = [b.strip() for b in re.split(r'\n\s*\n', (C / 's14' / 'v7.md').read_text(encoding='utf-8')) if b.strip()]
 s14 = [b for b in s14 if not b.startswith('[image')]
 assert s14[0] == '# Dissolution and Exit' and len(s14) == 7
 K14 = ['S14H', 'S14-P1', 'S14-P2', 'S14-P3', 'S14-P4', 'S14-P5', 'S14-P6']
 T = dict(T13, **dict(zip(K14, s14)))
-M14 = [labels(C / 's14' / 'review-r6' / ('MARCH-labels-%s.txt' % x)) for x in 'ab']
+M14 = [labels(C / 's14' / 'review-r6' / ('MARCH-labels-2%s.txt' % x)) for x in 'ab']
 for m in M14:
     assert sorted(m) == list(range(1, 7)), sorted(m)
 MARCH.update({K14[n]: [m[n] for m in M14] for n in range(1, 7)})
@@ -62,7 +84,7 @@ for key, parts in ITEMS.items():
     drafts[key] = '\n\n'.join(plain(T[p]) for p in parts)
     ps = [p for p in parts if p in MARCH]
     gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in MARCH[p]],
-                 'march_note': ('s13/review-r21' if key.startswith('S13') else 's14/review-r6') + '/MARCH-labels-a.txt, -b.txt (s14); s13: review-r21/MARCH-labels-2a.txt, -2b.txt',
+                 'march_note': ('s13/review-r21' if key.startswith('S13') else 's14/review-r6') + '/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt',
                  'lint': lint('\n\n'.join(T[p] for p in parts if not T[p].startswith('#'))), 'words': len(drafts[key].split())}
     assert gate[key]['words'] >= 50, (key, gate[key]['words'])
 (HERE / 'drafts.json').write_text(json.dumps(drafts, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
