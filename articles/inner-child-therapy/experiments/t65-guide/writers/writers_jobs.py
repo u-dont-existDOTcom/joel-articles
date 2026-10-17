@@ -391,6 +391,56 @@ Paragraph 3:
    brief='''This opens the practice; the next paragraph (below) says what to notice while you look.
 - if picturing your little one feels fake, like you're making it up, a real photo of you as a child can help: there's no face or posture to invent.
 - look at it gently and notice what comes up, without deciding ahead of time what the picture is supposed to prove.'''),
+ 'fg1p1v': dict(n=1, length='one paragraph, 60 to 100 words', examples=True, variants=True,
+   before=opens((G / 'writers/sh1-w5-p1.txt').read_text(encoding='utf-8').strip(), '# How to Forgive Without Forgetting'),
+   after=(G / 'writers/fg1p2-w8-p1.txt').read_text(encoding='utf-8').strip(),
+   brief="""The section's first paragraph; the one after it (below) is done.
+- for many people, healing eventually includes some forgiveness, or at least getting out from under active resentment; it can't be put on a schedule, and you don't need it first in order to be safe, hold someone accountable, set boundaries, get justice or recover.
+- active resentment can narrow what you see and keep your little one organized around the injury; pressure to forgive early produces an enlightened-looking performance while the wound goes underground."""),
+ 'fg1p3v': dict(n=1, length='one paragraph, 70 to 115 words', examples=True, variants=True,
+   before=(G / 'writers/fg1p2-w8-p1.txt').read_text(encoding='utf-8').strip(),
+   after=(G / 'writers/fg1p4-w5-p1.txt').read_text(encoding='utf-8').strip(),
+   brief="""The paragraph before it (above) is done.
+- that doesn't make what they did harmless, or mean no other option existed in theory; it means punishment can't go back and create the awareness, support or ability they didn't have enough of. The useful work is repairing what can be repaired and making a different response more available now.
+- accountability stays and the harm is real: boundaries, legal consequences, moral judgment, distance and permanent no-contact can all still be right. You can understand them, hold them responsible, never speak to them again, and forgive them. "I understand how you became this way" can sit beside "I now understand why I shouldn't rely on you for this." """),
+ 'le1p2v': dict(n=1, length='one paragraph, 60 to 100 words', examples=True, variants=True,
+   before=txt('le1-p1-c'),
+   after=(G / 'writers/le1-w1-p2.txt').read_text(encoding='utf-8').strip(),
+   brief="""The section's second paragraph; the first (above) is done.
+- questions for the gap: what has actually ended? what are you still trying to keep going? what isn't known yet? what is your little one afraid will happen in the gap? what practical act or small ritual would mark the ending without pretending you know the next beginning? (Not all of them as a run of three or more questions; the author's linter flags that.)
+- don't force a new identity because the uncertainty feels unbearable; the grown-up you can keep routines, protect the body, grieve what ended, and stay with your little one while the next life takes shape."""),
+ 'le1p3v': dict(n=1, length='one paragraph, 80 to 130 words', examples=True, variants=True,
+   before=(G / 'writers/le1-w1-p1.txt').read_text(encoding='utf-8').strip(),
+   after='# Borrowed Adulthood in Relationship (the next section)',
+   brief="""The section's last paragraph.
+- missing someone doesn't have to become another problem to solve; sometimes the ache itself can become a cue for love. Don't push the missing away.
+- if love is there, let "I miss you" become "I love you," or offer a simple wish: "May you be safe. May you be held in love." Picture them, or just feel the direction of the care.
+- it's about what happens in you: it doesn't require believing they receive anything, and it doesn't replace grief, contact, boundaries or practical action.
+- if sending love makes you more compulsive or unreal, or you can't get back to your life, make it simpler: "I miss you, and I care." You can also offer some of the same care to the part of you that's still here."""),
+ 'st1p1v': dict(n=1, length='one paragraph, 55 to 95 words', examples=True, variants=True,
+   before=opens((G / 'writers/ba1p1-w8-p1.txt').read_text(encoding='utf-8').strip(), '# Speak Toward What You Are Building'),
+   after=(G / 'writers/st1a-w1-p2.txt').read_text(encoding='utf-8').strip(),
+   brief="""The section's first paragraph.
+- the words you use in this work direct attention: when a painful or negative frame isn't itself what needs naming, prefer words that point toward the capacity, relationship or action you want to strengthen.
+- the guide's example: "Let's help you build more ways to feel cared for and supported" usually gives the mind a clearer direction than bringing in a label like "dependency" just to deny it or argue with it.
+- in inner-child work and hypnosis especially, make the direction easy to imagine: warmth, protection, steadiness, rest, or whatever is actually needed."""),
+ 'st1p2v': dict(n=1, length='one paragraph, 55 to 90 words', examples=True, variants=True,
+   before=(G / 'writers/st1a-w1-p1.txt').read_text(encoding='utf-8').strip(),
+   after=(G / 'writers/st1p3-w1-p1.txt').read_text(encoding='utf-8').strip(),
+   brief="""The paragraph after it (below) is done.
+- this isn't forced positivity: grief is grief, and danger should be called danger; harm, anger, limits, accountability, consent and practical constraints still need accurate words.
+- once reality has been named, spend most of the energy on what can be protected, practiced, repaired, chosen or grown, not on an unneeded picture of what the person shouldn't become."""),
+ 'st1p5v': dict(n=1, length='one paragraph, 50 to 85 words', examples=True, variants=True,
+   before=(G / 'writers/st1p4-w8-p1.txt').read_text(encoding='utf-8').strip(),
+   after=(G / 'writers/st1b-w1-p3.txt').read_text(encoding='utf-8').strip(),
+   brief="""- this can be borrowed adulthood at its healthiest: the peer doesn't become your permanent parent; they show you a capacity, help you take part in it, and hand it back to you.
+- therapy stays useful for what therapy does; community and disciplined peer support do something different, and a serious healing path can include both."""),
+ 'st1p6v': dict(n=1, length='one paragraph, 65 to 105 words', examples=True, variants=True,
+   before=(G / 'writers/st1b-w1-p2.txt').read_text(encoding='utf-8').strip(),
+   after='# You Are Worthy of Love. Always. (the closing section)',
+   brief="""The section's last paragraph.
+- community can work in both directions: sometimes loving people give someone enough safety and belonging for a deeper opening to become possible; other times the opening comes first, and it changes what kinds of people and relationships they can "manifest"; then community helps make the opening practical, real and embodied.
+- love moves from spiritual experience to your little one, from your little one into the grown-up relationship, from you into other people, and back again; the loop matters more than which door you came in through."""),
 }
 
 
@@ -417,6 +467,11 @@ def prompt(job):
     what = 'the paragraph' if job['n'] == 1 else 'the %d paragraphs' % job['n']
     last = ('Write %s: %s, in the second person like the paragraphs around it. No heading. Output only %s.'
             % (what, job['length'], what))
+    if job.get('variants'):
+        last = ('Write three versions of the paragraph, each %s, in the second person like the paragraphs around it, '
+                'each a different way in: a different opening, a different order of the points, a different place for '
+                'the sentence that stops the march. Every version carries every point. No heading. Put a line with only '
+                '--- between the versions, and output only the three versions.' % job['length'].replace('one paragraph, ', ''))
     return w[:i] + (EXAMPLES + '\n' if job.get('examples') else '') + reviewer.joel_fixes() + '\n\n' + last + w[j:]
 
 
