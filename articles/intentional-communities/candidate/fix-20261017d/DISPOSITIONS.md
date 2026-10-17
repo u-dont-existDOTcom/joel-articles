@@ -11,7 +11,10 @@ question 48's tightening, done in section 13).
 - Section 15, item 6: his new P1 ("The warmth has hard limits here.") and P2 ("I'm not going to praise communal belonging and
   ignore ...") against P3's "So which is it? Well, in a way, it's both." The recap predates his rewrite, and the march found it
   is P3's only turn (fix-20261017d/march-r1, change 10). It goes to him as a question (the questions page), since cutting it
-  would leave P3 a run of steps and keeping it says his point a third time.
+  would leave P3 a run of steps and keeping it says his point a third time. Later the same night, after cuts stopped waiting on
+  the march, the cut was checked instead (section 15 v18, batch 424g): it read AI beside his law paragraph (0.95) though Human
+  with the paragraph after, so by his borderline rule it stays, and the questions page's Decided entry offers a line of his in
+  its place instead of a question.
 - Section 15, items 1 to 5 and 7 to 9: none involves his rewrite; they predate this.
 - Section 8, contradiction 1: the restored "If it can't, it can still avoid punishing departure." (grown kids leaving) against
   section 13's exit resources for members ("Otherwise their "right" to leave is only on paper"). Kept, both: the published article
