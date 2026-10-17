@@ -545,7 +545,7 @@
     "All of the community's design and implementation will ultimately be reviewed by the kids, once they're grown",
     "The Buddha even taught his son honesty as the most important first lesson.",
     "hopefully including non-intrusive help from outside the home community.",
-    "Older kids can't be allowed to quietly boss the younger ones around there."
+    "Older kids can't be allowed to boss the younger ones around there."
    ],
    "must_contain": [
     "Communal Parenting Adds On"
@@ -555,7 +555,8 @@
     "My view is that moms raise their own kids",
     "that the home community does not control",
     "Discuss Child-Rearing Values Before Children Are Caught Between Them"
-   ]
+   ],
+   "note_20261017": "The P13 lock held the whole sentence for his ruling \"boss is fine\" (s8/joel-1505/joel-20261007-1505.json); \"quietly\" was not his word. It came out on 2026-10-17 under his 13:11 rule (\"remove \"quietly\" that's an ai tell\"), in the sweep (fix-20261017/SWEEP-20261017.md); \"boss\" stays."
   },
   {
    "id": "s8-joel-20261007-2021",
@@ -1114,7 +1115,7 @@
   },
   {
    "id": "s16-joel-20261017-1311-42",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
    "what": "Section 16, H3-P6 and H3-P7: his lines for the stretch that read AI (question 42); \"Do those three things ... I know, I know!\" is out.",
    "joel": "42 ... I replaced the AI lines with: \"And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that! Look before you leap. It will really save you some time & money.\" and now the whole section is 100% human.",
@@ -1130,7 +1131,7 @@
   },
   {
    "id": "s16-joel-20261017-1311-quietly",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
    "what": "Section 16, H1-P3: \"quietly\" out of the last sentence.",
    "joel": "practice comes before property p3: remove \"quietly\" that's an ai tell at the end",
@@ -1144,7 +1145,7 @@
   },
   {
    "id": "s15-joel-20261017-1311-advocacy",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
    "what": "Section 15, \"All is not well in paradise\" P2: \"advocacy\" for the law's French \"apologie\", no quotes; the financing clause cut.",
    "joel": "section 15 p2 in all is not well in paradise, the french word apologyshould have been translated as \"advocacy\" and it doesn't need to be in quotes. and then we can remove the \", along with certain financing or support meant to promote it.\" as that sounds redundant.",
@@ -1159,7 +1160,7 @@
   },
   {
    "id": "s15-joel-20261017-1311-this",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
    "what": "Section 15, \"Lessons from the Black Tax\" P4 (the video counted): \"This is also\" for \"It's also\".",
    "joel": "for p4 in black tax section, you replaced \"this is \" with \"it's\"... \"this\" is not the same as \"it\"... you can't use those interchangeably all the time.",
@@ -1173,7 +1174,7 @@
   },
   {
    "id": "s15-joel-20261017-1311-p6",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
    "what": "Section 15, \"Lessons from the Black Tax\" P6: his sentence in place of the \"I like that.\" I had added, with capital I's and a comma before \"but\".",
    "joel": "for p6 at the end you added \"i like that.\" why? I actually don't know that i like that, it seems highly complicated to ask people to send money back and expect they will after they no longer belong to the communtiy. I'd rather say that... i understand the motivation to negotiate like that but i think it's not a full solution either.",
@@ -1187,19 +1188,20 @@
   },
   {
    "id": "s12-joel-20261017-1311-psypost",
-   "status": "pending",
+   "status": "applied",
    "words": "proposed",
    "what": "Section 12, the end of P2: the PsyPost study he sent, with his link and his \"no, duh\", and his screenshot after the paragraph (question 44 asks about the placement).",
    "joel": "i also want to add this link and screenshot somewhere in thea rticle where it belongs (altho it's kind of a \"no, duh\" study):  https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
    "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
    "must_contain": [
-    "https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
+    "A new study found that where relationships are easy to make and break, people even feel less on the same page with whoever doesn't help them reach their goals.",
     "Kind of a \"no, duh\" study, but still."
-   ]
+   ],
+   "link_note": "the link on \"new study\" is his: https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/"
   },
   {
    "id": "sweep-joel-20261017-1311-rules",
-   "status": "pending",
+   "status": "applied",
    "words": "proposed",
    "what": "His rules of 13:11 swept over the article: \"This is the most joking culture\" (section 15), \"That's the sort of thing\" (section 1), \"quietly\" out of section 8.",
    "joel": "\"this\" is not the same as \"it\"... you can't use those interchangeably all the time.; remove \"quietly\" that's an ai tell",

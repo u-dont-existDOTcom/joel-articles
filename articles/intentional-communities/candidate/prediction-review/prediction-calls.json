@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1755,
-  "right": 1273,
+  "calls": 1779,
+  "right": 1296,
   "since_review": {
-   "calls": 1353,
-   "right": 1018,
-   "passed": 797
+   "calls": 1377,
+   "right": 1041,
+   "passed": 819
   },
   "today": {
-   "calls": 803,
-   "right": 617,
-   "passed": 482
+   "calls": 827,
+   "right": 640,
+   "passed": 504
   }
  },
  "windows": [
@@ -245,6 +245,14 @@
    "right": 13,
    "passed": 4,
    "always_ai_right": 9
+  },
+  {
+   "from": 410,
+   "to": 419,
+   "calls": 24,
+   "right": 23,
+   "passed": 22,
+   "always_ai_right": 2
   }
  ],
  "misses": [
@@ -4934,6 +4942,20 @@
    "pct": 100.0,
    "res_raw": "AI (AI-Generated, medium; 102 words, the whole text), 12:24:16, [check](https://www.pangram.com/history/5d5b78ad-30f1-4a01-9a30-fb5a2470ba39)",
    "where": "fix-20261015b/PREDICTIONS-scored.md:14",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017",
+   "batch": 410,
+   "name": "410g-Q40-g-minus-often",
+   "mine": "Human",
+   "why": "the other half of the probe: taking \"often\" out of an AI shape turns it Human, if \"often\" was part of it",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, low, 52 words, AI likelihood 0.72), 13:49:45, [check](https://www.pangram.com/history/234cf5d4-3391-4f1f-a8fc-c64daf04dbed)",
+   "where": "fix-20261017/b410/PREDICTIONS-scored.md:22",
    "passed": false,
    "right": false,
    "text": ""

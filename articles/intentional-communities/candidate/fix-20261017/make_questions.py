@@ -6,8 +6,9 @@ import json, pathlib, re
 HERE = pathlib.Path(__file__).resolve().parent
 C = HERE.parent
 R = {}
-for b in ('b410', 'b411', 'b412', 'b413'):
-    R.update(json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8')))
+for b in ('b410', 'b411', 'b412', 'b413', 'b414'):
+    if (HERE / b / ('%s-results.json' % b)).exists():
+        R.update(json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8')))
 L = lambda k: '[check](https://www.pangram.com/history%s)' % R[k][5]
 page = (C / 'OWNER-QUESTIONS.md').read_text(encoding='utf-8')
 head_end = page.index('\nColours:')

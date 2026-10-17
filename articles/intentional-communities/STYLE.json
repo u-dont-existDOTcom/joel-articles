@@ -1,7 +1,7 @@
 {
  "article": "intentional-communities",
  "register": "conversational",
- "note": "Joel's Substack essay voice: first person, asides, jokes and questions to the reader. Lists keep one break per run of entries (Joel, 2026-10-17 13:11, question 41: 'a is fine for this article').",
+ "note": "Joel's Substack essay voice: first person, asides, jokes and questions to the reader. Lists keep one break per run of entries (Joel, 2026-10-17 13:11, question 41: 'a is fine for this article'). Sections 1 to 12 end about 0.3% of their sentences with an exclamation mark, sections 13 to 16 about 12% (question 43).",
  "breaks": {
   "required": true,
   "kinds": [
@@ -24,7 +24,7 @@
   "window": 4,
   "max_in_window": 2,
   "share": 0.039,
-  "measured_from": "articles/intentional-communities/candidate/fix-20261017/article-with-drafts.md",
+  "measured_from": "articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
   "measured": "2026-10-17"
  }
 }

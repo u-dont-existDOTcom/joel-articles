@@ -27,10 +27,14 @@ assert len(A) == len(P) == 17, (len(A), len(P))
 # his own words: the ledger's "his" entries, and the sections he wrote himself (section 5's CANDIDATE note: "Joel's own text of
 # 2026-10-06"; section 12 v12 and v13: his rewrite and his P2 and P3, "as written")
 led = json.loads((C / 'OWNER-EDITS.json').read_text(encoding='utf-8'))['entries']
-owner = []
+owner, locked = [], []
 for e in led:
     if e.get('words') == 'his':
         owner += e.get('must_contain', []) + e.get('must_contain_exact', [])
+    elif e.get('words') != 'proposed':
+        # an older entry has no "words": its exact locks can hold his ruling on one word of a sentence of mine (section 8's
+        # "boss is fine" locked "Older kids can't be allowed to quietly boss ..."), so a flag inside one is listed for his ruling
+        locked += e.get('must_contain_exact', [])
 HIS_SECTIONS = {'# The Medicine Part', '# The Math of Absorption'}
 report, out = ['# Sweep of the checks made on 2026-10-17 13:11 (O41, O42, S1, S2, R2, A2)', '',
                'Each section of the article with this turn\'s drafts in place, linted against its published section. His own '
@@ -58,8 +62,11 @@ with tempfile.TemporaryDirectory() as d:
             if cur and line.startswith('   * '):
                 flags.append({'rule': cur, 'what': rule_text[:200], 'text': line[5:]})
         out[head] = flags
+        for f in flags:
+            if any(f['text'][:60] in L or L[:60] in f['text'] for L in locked):
+                f['locked'] = 'inside a ledger lock: read the ruling behind it before changing it'
         report += ['## ' + head[2:], '']
-        report += ['- %s: %s' % (f['rule'], f['text']) for f in flags] or ['- nothing']
+        report += ['- %s: %s%s' % (f['rule'], f['text'], ' (%s)' % f['locked'] if f.get('locked') else '') for f in flags] or ['- nothing']
         report.append('')
 # S1 across section breaks: the whole article in reading order, his words left out of the "mine" test
 (d2 := pathlib.Path(tempfile.mkdtemp()))

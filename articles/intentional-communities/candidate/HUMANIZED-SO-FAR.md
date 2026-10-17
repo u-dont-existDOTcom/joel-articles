@@ -1,3 +1,4 @@
+<!-- CANDIDATE: section 1 (2026-10-17): "That's the sort of thing that doesn't make it into the history books." for "It's the sort of thing ..." (the sweep of Joel's 13:11 "this is not the same as it"; the published sentence is "These are the questions history books neglect."). Human alone and with the paragraph before (410g), the whole section 100% Human (412g). Records: fix-20261017/. -->
 [image 1](https://substackcdn.com/image/fetch/$s_!OKIC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bc9c45d-5a42-47a4-8880-e9981386f886_1536x1024.png)
 
 # The New Age May Dawn Suddenly
@@ -30,7 +31,7 @@ We spent a lot of time on our knees in the community garden growing food they co
 
 My father eventually gave the community his airplane. They sold it instead of using it. He felt tricked, began exposing what was happening, and then we were asked to leave.
 
-The [East Wind](http://eastwind.org/) commune was almost the opposite way. There were maybe eighty people when I was there, enough to have a variety of personalities, small enough to actually make friends. I was happy there. I especially liked showering in a communal shower with both sexes present. I wonder if that still goes on at East Wind? It's the sort of thing that doesn't make it into the history books.
+The [East Wind](http://eastwind.org/) commune was almost the opposite way. There were maybe eighty people when I was there, enough to have a variety of personalities, small enough to actually make friends. I was happy there. I especially liked showering in a communal shower with both sexes present. I wonder if that still goes on at East Wind? That's the sort of thing that doesn't make it into the history books.
 
 Even at East Wind, though, there was a quieter power issue. They had a nut butter factory that brought in a lot of their income, which seemed to make the woman running it very hard to question. Otherwise I thought the community had a great social life, a nice way of distributing labor, and no obvious guru.
 
@@ -316,7 +317,7 @@ The non-negotiable for me is that jealousy not be allowed to become the hidden g
 
 There are some ways the group can help, and basic boundaries the group can enforce, without deciding what type of relationships people have. Even so, there will still be disagreements about this. That's more realistic than saying it's all been resolved.
 
-<!-- CANDIDATE: section 8 v29 (2026-10-14): v28 with P18's last sentence back to mine of v22 with his "what happened" (Joel's F10 answer, 2026-10-14: "Fix it (revert to yours)"), and five fixes for flags two or more cold reads raised: "the usual promo video", the Ye'kuana and the Island Pond raid explained (sources in fix-20261014/SOURCES.md), "When adults panic like that, kids can lose all those grownups", "A surprise has an end date." 277g: every changed paragraph Human alone and the section 100% Human (1,841 words), on the first try. Records: fix-20261014/RESULTS.md. v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 8 v30 (2026-10-17): v29 with "quietly" out of "Older kids can't be allowed to quietly boss the younger ones around there." (the sweep of Joel's 13:11 "remove "quietly" that's an ai tell"). Human with either neighbor (410g), the whole section 100% Human (412g). Records: fix-20261017/. Before: CANDIDATE: section 8 v29 (2026-10-14): v28 with P18's last sentence back to mine of v22 with his "what happened" (Joel's F10 answer, 2026-10-14: "Fix it (revert to yours)"), and five fixes for flags two or more cold reads raised: "the usual promo video", the Ye'kuana and the Island Pond raid explained (sources in fix-20261014/SOURCES.md), "When adults panic like that, kids can lose all those grownups", "A surprise has an end date." 277g: every changed paragraph Human alone and the section 100% Human (1,841 words), on the first try. Records: fix-20261014/RESULTS.md. v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
 # The Grown Children Get the Final Review
 
 Couples who live together, share the same culture and even the same bed still disagree about screens, vaccinations, [schooling](https://www.instagram.com/p/DcDGotaFCeZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), religion, food, discipline and medical care. And that's just two people. Now think of twenty adults, all with different childhoods.
@@ -359,7 +360,7 @@ Kids also need their own territory, places where they can create their own socie
 
 I got a taste of that at a Unitarian youth camp, and it's still one of the freest memories I have. ZEGG's *Kinderhaus* works from a similar intuition. Adults take care of safety on the outside, but kids still get a world of their own.
 
-This could be badly misunderstood, so the safeguards need to be explicit. The adults still have to pay attention to what goes on in a children's territory. Older kids can't be allowed to quietly boss the younger ones around there. And keeping secrets can't be treated as independence.
+This could be badly misunderstood, so the safeguards need to be explicit. The adults still have to pay attention to what goes on in a children's territory. Older kids can't be allowed to boss the younger ones around there. And keeping secrets can't be treated as independence.
 
 I also reject the suburban panic that treats every warm relationship between a child and an unrelated adult as suspicious. It's good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something's wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse.
 
@@ -517,12 +518,15 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
-<!-- CANDIDATE: section 12 v13 (2026-10-14): v12 with Joel's P2 and P3 from his W1 answer of 2026-10-14 03:04 UTC ("i prefer this version"), as written; Pangram results in fix-20261014/RESULTS.md. v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 12 v14 (2026-10-17, after Joel's 13:11 message): v13 with the PsyPost study he sent at the end of his P2 (his link, his "no, duh") and his screenshot after it as an image note; question 44 asks him about the placement. P2 Human alone and with P3 (411g), the whole section 100% Human (411g). Records: fix-20261017/ (march r3, cold reads SENSE-s12*.md, the study check SOURCE-s12.md, the stance check STANCE-s12.md). Before: CANDIDATE: section 12 v13 (2026-10-14): v12 with Joel's P2 and P3 from his W1 answer of 2026-10-14 03:04 UTC ("i prefer this version"), as written; Pangram results in fix-20261014/RESULTS.md. v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
 
-This doesn't surprise me, since we're taught to put on a show of competence in modern society. We're given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got.
+This doesn't surprise me, since we're taught to put on a show of competence in modern society. We're given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn't pay the bills. Instead we optimize to fit the career market with all the little energy we've got. A [new study](https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/) found that where relationships are easy to make and break, people even feel less on the same page with whoever doesn't help them reach their goals. Kind of a "no, duh" study, but still.
+
+<!-- IMAGE https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/d8252275008b83064aa2ed7d89b183898097c262/articles/intentional-communities/candidate/images/psypost-relational-mobility.png : a screenshot of the opening of PsyPost's write-up of the study: new research suggests that the culture or social setting we live in shapes whose version of the world we adopt, and that where relationships are easily formed and broken, people line up their worldviews more selectively with the people who help them reach their goals; published in Social Psychological and Personality Science. -->
+<!-- The screenshot is Joel's, sent 2026-10-17 13:11 (candidate/images/psypost-relational-mobility.png); the Substack image goes in when he uploads it. -->
 
 So then a lot of people end up thinking they aren't "good enough" for community, or getting labeled by others that way. And there's a real issue there, but it's more about what fits where & when than good or bad. The community needs to consider how much attention the newcomer currently has available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.
 
@@ -642,7 +646,7 @@ Institutions and relationships don’t die at the same time, and some of what pe
 
 My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).
 
-<!-- CANDIDATE: section 15 v12 (2026-10-17, the overnight run): Emulate rounds a to e (s15/emu-a to emu-e) with the published meaning put back (s15/make_v1.py to make_v12.py), meaning rounds r1 to r8 with their DISPOSITIONS files, key-word check PASS, lint REVIEW. Pangram web app: every paragraph Human alone (322g to 335g; tools/humanization/paragraphs_alone.py PASS) and the whole section 100% Human (338g). H1-P4 is round d's shape c ("so much is taken care of by"), the only one of eleven that reads Human alone; trace r7 called it a shift from the published "often pass through", so it is question 40 for Joel. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 15 v13 (2026-10-17, after Joel's 13:11 message): v12 with his three corrections (H2-P2: "public advocacy for homosexuality", without quotes, for the law's French "apologie", and the financing clause he called redundant cut; H3-P3: "This is also" for "It's also"; H3-P5: his "I understand the motivation to negotiate like that, but I think it's not a full solution either." for the "I like that." I had added) and H1-P3's "This is the most joking culture" (the sweep of his "this" rule). Each changed paragraph Human alone (410g), the whole section 100% Human (412g); key words PASS; his 40 a keeps H1-P4. Records: s15/make_v13.py, fix-20261017/. Before: CANDIDATE: section 15 v12 (2026-10-17, the overnight run): Emulate rounds a to e (s15/emu-a to emu-e) with the published meaning put back (s15/make_v1.py to make_v12.py), meaning rounds r1 to r8 with their DISPOSITIONS files, key-word check PASS, lint REVIEW. Pangram web app: every paragraph Human alone (322g to 335g; tools/humanization/paragraphs_alone.py PASS) and the whole section 100% Human (338g). H1-P4 is round d's shape c ("so much is taken care of by"), the only one of eleven that reads Human alone; trace r7 called it a shift from the published "often pass through", so it is question 40 for Joel. Not accepted until Joel says so. -->
 # What This Looks Like From Sénégal
 
 [image 19](https://substackcdn.com/image/fetch/$s_!Uv0z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7db4e048-c31e-445c-9d1d-5c4f48de86ab_340x339.jpeg)
@@ -653,7 +657,7 @@ I live in Sénégal, where "intentional community" often sounds like a strange W
 
 Sénégal is unlike anywhere else I've lived. Five times a day the prayers pour out into the streets. I find them so soothing! And Sufism doesn't stay inside designated "spiritual" places here. It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
 
-And the humor! People are outside laughing for hours at a time. It's the most joking culture I've ever been in, and I keep wondering if I'll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. But knowing why twelve people are suddenly crying with laughter? That's graduate school.
+And the humor! People are outside laughing for hours at a time. This is the most joking culture I've ever been in, and I keep wondering if I'll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. But knowing why twelve people are suddenly crying with laughter? That's graduate school.
 
 In the villages and families I've spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems. Whether it's land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
 
@@ -667,7 +671,7 @@ Even in Dakar, I found this graffiti on a wall: "Tolerance! Openness! Union! Hap
 
 But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either! The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
 
-Sénégal passed a law in March 2026 ([Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/)) that increased the penalty for consensual same-sex intimacy to 5 to 10 years in prison, and it also made public "apology" for homosexuality a crime, along with certain financing or support meant to promote it. Homosexuals were already facing arrests, family rejection, harassment, assault and mob violence, but some say they're actually protected once they're arrested, because then at least the mob can't get at them. I'm not going to praise communal belonging and ignore the people who have to hide who they are to survive it, or leave.
+Sénégal passed a law in March 2026 ([Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/)) that increased the penalty for consensual same-sex intimacy to 5 to 10 years in prison, and it also made public advocacy for homosexuality a crime. Homosexuals were already facing arrests, family rejection, harassment, assault and mob violence, but some say they're actually protected once they're arrested, because then at least the mob can't get at them. I'm not going to praise communal belonging and ignore the people who have to hide who they are to survive it, or leave.
 
 So which is it? Well, in a way, it's both. It's possible for a society to be spiritually alive, generous, funny and super communal, while still becoming cruel to those who break its social categories. It's interesting to see that being in community isn't necessarily liberating for everyone, it all depends on whether you're allowed to belong without pretending.
 
@@ -691,11 +695,11 @@ Double click to interact with video
 
 But these days it can be soul destroying. People have a lot less of the communal life that held the obligation up (the shared land, work, childcare, food and daily belonging), but they still carry it. So if one of them makes it into the cash economy, it's really hard to build any independence or long-term stability, because they may be expected to carry everybody. How can they get ahead, when all these people are dependent on them? And the relatives stay dependent too, since the payments don't give them a real alternative. It's the ancestral ethic playing out inside an individualistic cash economy. It can keep people alive, but it eats away at both sides too.
 
-It's also the thorny boundary issue of living without money inside a money-based society. Life inside the commune can go without cash, but you'll still need money for taxes, hospital bills, visas, school fees, family obligations, buying in tools etc. That doesn't mean going back to individual wages inside the commune, but it does mean someone has to handle it! Who's that going to be? And the commune has to work out how much shared cash it keeps for these things, and how to stop access to outside money from creating a new status hierarchy.
+This is also the thorny boundary issue of living without money inside a money-based society. Life inside the commune can go without cash, but you'll still need money for taxes, hospital bills, visas, school fees, family obligations, buying in tools etc. That doesn't mean going back to individual wages inside the commune, but it does mean someone has to handle it! Who's that going to be? And the commune has to work out how much shared cash it keeps for these things, and how to stop access to outside money from creating a new status hierarchy.
 
 Another aspect of outside work, even before there's a common purse, is that it's not just money you're bringing into the commune. You're also bringing in a different schedule, a different status system, a different social world, different loyalties, and often different consumption habits etc. etc. And you can't exactly leave all that at the door, can you? In the first stage, where people working outside should contribute an agreed share, it's really important that they can't use the money to buy their way out of everyday communal work, or to buy a greater say in the political system. It's also important that the group notices when outside jobs start draining the people and skills it needs to build the communal livelihoods. Otherwise the commune will stay a dormitory for the money economy instead of moving toward a common purse.
 
-Some Zapatista communities used to try to stop their young people from leaving, which is a version of the same outside-work problem. Now they talk it through with them instead: it's OK to go and work elsewhere, as long as the migrants keep certain defined obligations to the community. That doesn't make the pull between leaving and belonging go away, but at least now it's something they can name and negotiate. I like that.
+Some Zapatista communities used to try to stop their young people from leaving, which is a version of the same outside-work problem. Now they talk it through with them instead: it's OK to go and work elsewhere, as long as the migrants keep certain defined obligations to the community. That doesn't make the pull between leaving and belonging go away, but at least now it's something they can name and negotiate. I understand the motivation to negotiate like that, but I think it's not a full solution either.
 
 Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem, isn't it? And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
 
@@ -703,57 +707,56 @@ So this is a global issue, far from some Western lifestyle niche. There's still 
 
 Oh, and a practical note: getting my residency in Sénégal was pretty cheap and straightforward. French and Wolof matter a lot more than English. And the country's famous ideal of Teranga (hospitality) is real in my life. I'm staying in a friend's family's house, and they won't let me pay rent! Can you believe it? Of course that generosity lives right alongside watchfulness, social conservatism, bureaucracy and all the usual complications of a real country.
 
+<!-- CANDIDATE: section 16 v28 (2026-10-17, after Joel's 13:11 message): v26 kni, the best faithful version (Mostly Human, 0.32, one 61-word window, 399g), with his lines for that stretch (question 42: "And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that! Look before you leap. It will really save you some time & money.") and "quietly" out of the opening (his correction). Every changed paragraph Human alone or with its neighbor (410g) and the whole section 100% Human (412g); key words PASS; the repeated pauses answered (fix-20261017/DISPOSITIONS-PAUSES-20261017.md). Records: s16/make_v28.py, fix-20261017/. Not accepted until Joel says so. -->
 # Practice Comes Before Property
 
-Most community projects begin in the wrong order: land first, vision in a document, ownership concentrated because somebody had the money, and emotional preparation deferred until everyone has more time.
+Most people try and do community in the wrong order. "First let's get land!" "Then let's write down a vision document!" "And whoever's putting in the money can own the place!" And the emotional side of things? That doesn't get done until "later on, when everyone has more time".
 
-The better order is less cinematic. Practice together. Process a real conflict. Clarify values. Test membership. Decide ownership and exit. Then consider land.
+It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know! (It would make for a pretty bad movie.)
 
-The economic path should be staged the same way. A cluster of cooperating households can first take basic internal life out of purchase while outside earners contribute a defined share. It should move to a common purse only after it can provision members reliably and allocate the common fairly. Reducing or eliminating outside money should emerge from demonstrated capacity, not from declaring money impure while somebody else quietly pays the tax bill.
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go! Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
 
 ## If You Can’t Move
 
-Most readers have a job, children, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle. Fine. The most important pl/ork does not require land.
+I realize that for most people reading this there are a lot of reasons why they can't just head off and go build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That's fine! The most important pl/ork doesn't need land anyway.
 
 [image 22](https://substackcdn.com/image/fetch/$s_!LmXZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d334efc-a191-40fe-8bbd-164bd0c639f5_4080x3060.jpeg)
 
 [caption] Too bad you can’t move…
 
-People sometimes buy forty acres and then import every kilogram of their unprocessed material to a more scenic location. The view improves. The conflict acquires goats.
+People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It's a more beautiful view for sure, but now you have the conflict PLUS goats.
 
-Inner pl/ork can begin where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) needs two people and enough privacy to speak. Reparenting, somatic practice, jealousy processing, and conflict repair do not wait for a deed.
+So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. That's it! And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
 
-A weekly group that has practiced together for two years already contains a real piece of community. It may never own land. It can still change how people survive divorce, illness, grief, parenting, and ordinary loneliness.
+A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.
 
-Remote or constrained readers can build the portion available. Hold a weekly meal with two households. Arrange a counseling exchange with one friend in person or by video. Share tools, childcare, transport, food preparation, or a sauna. Add acro-yoga, dance improvisation, a mothers’ circle, or a [cuddle puddle](http://cuddleparty.com/) if you’re hippie enough.
+Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna! And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a [cuddle puddle](http://cuddleparty.com/).
 
-Three households reliably showing up for one another for six months will teach you more than another year of imagining the ideal village.
+Trust me on this one. If three households keep showing up for each other like this for six months, you'll learn more than you would from another year of daydreaming about the ideal village.
 
 ## What to Do This Month
 
-Here is the first month without the heroic land purchase:
+So what do you actually do this month? Start doing some inner pl/ork, with the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) or with another serious practice you already trust. And practice before you have an audience!
 
-Start the inner pl/ork. Read the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), or begin with another serious practice you already trust. Practice before you have an audience.
+Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. One disagreement is enough! You can talk about a shared future later.
 
-Find two or three people. Call it a practice group rather than a commune. Meet regularly. Learn to listen, switch roles, handle one disagreement, and keep commitments before discussing a shared future.
+Where do you find these people? Try an unprogrammed Quaker meeting, a restorative-practice group, an open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.
 
-Possible places to meet people include unprogrammed Quaker meetings, restorative-practice groups, open-hearted congregations, mature recovery communities, meditation groups, and people who came back from a long retreat kinder rather than more impressed with themselves.
+Go visit some real communities. Really, go! [Twin Oaks](https://twinoaks.org/) is one. [East Wind](http://eastwind.org/) is another, and so is [Acorn](https://www.ic.org/directory/acorn-community-farm/), and there are plenty of other [intentional communities](https://www.ic.org/). Lots of [ecovillages](https://ecovillage.org/) are open to visitors too. Check their current visitor requirements first.
 
-Visit actual communities. [Twin Oaks](https://twinoaks.org/), [East Wind](http://eastwind.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), other [intentional communities](https://www.ic.org/), and many [ecovillages](https://ecovillage.org/) receive visitors. Read their current visitor requirements first.
+By visiting some communities, you'll get a better idea of how much togetherness you enjoy and what kind of privacy you need, and what kind of labor system irritates you. And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that!
 
-Visits teach you what no manifesto can: how much togetherness you enjoy, which forms of privacy you need, what labor system irritates you, and whether communal showers feel liberating or make you start pricing studio apartments.
+Look before you leap. It will really save you some time & money.
 
-Do those three things before you spend serious time or money looking for land.
-
-I have no application form for you and no retreat to sell. The manuals are free. I’m in Sénégal and expect to buy land, but I’m not announcing a commune. I’ve simply noticed that community tends to gather wherever people experience real care, play, usefulness, and room to become more honest.
+I'm not trying to sell you a retreat or get you to fill out an application or anything. The manuals I mentioned are free. I've just noticed that wherever people are taking real care of each other and playing, feeling useful and having room to become more honest, community tends to gather.
 
 [image 23](https://substackcdn.com/image/fetch/$s_!BmI8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd33aef69-9a43-44f1-885f-777d53769f46_967x617.png)
 
-The Bruderhof shaped my father. He made a film, founded a research organization, and carried me through communal experiments. Decades later I’m publishing the film and writing this.
+Decades after the Bruderhof shaped my father, I'm publishing the film he made, and writing this.
 
-Maybe somebody will build something useful from it. Maybe that community will teach somebody who builds another. The transmission does not require one institution, one founder, or one official version.
+Maybe some of you will build something useful from this. Maybe that community will teach someone else, who'll build another. Passing it on doesn't need one institution or one founder. And there doesn't have to be one official version of it, either.
 
-If you build something real, maybe we’ll hear about each other. If you teach other people to build, hearing about it matters less.
+If you build something real, maybe we'll hear about each other. And if you teach other people to build, hearing about it matters less.
 
 <!-- CANDIDATE: the appendix v9 (2026-10-17, the overnight run): Emulate round a (appendix/emu-a) for the entries, the published meaning put back (appendix/make_v1.py to make_v9.py), meaning rounds r7, r12, r12x, r14 and r16 (traces of every entry, a cold read, the stance check) with their DISPOSITIONS files. Pangram web app: every entry Human in its run (329g to 343g; tools/humanization/paragraphs_alone.py PASS, list entries in the shortest run Pangram can read) and the whole appendix 100% Human (343g). The breaks in the list are question 41 for Joel. Not accepted until Joel says so. -->
 # Appendix: Watch These, Then Read These

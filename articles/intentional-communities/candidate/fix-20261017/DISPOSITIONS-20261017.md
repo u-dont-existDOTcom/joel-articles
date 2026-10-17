@@ -40,3 +40,18 @@ recorded as such.
   children, exit are the others). C1 ("you are already a community" against "Call it a practice group, not a commune.") and
   C2 (peer counseling under "inner pl/ork" in section 16, "relational pl/ork" in section 4) are in the published text;
   neither is this turn's. Kept, on the record.
+- A second reading of the same check (REPEATS-s16.md, the first run, without the output budget: 7 repeats, 1 contradiction)
+  found the same points and nothing in this turn's changes.
+- A second reading (REPEATS-b-s15.md, budgeted: 6 repeats, 0 contradictions) found one inside Joel's new paragraph end (#6:
+  "That doesn't make the pull between leaving and belonging go away" and his "I think it's not a full solution either."). Kept:
+  the sentence is his, as he wrote it ("I'd rather say that..."), and it adds his own verdict (he understands the motivation
+  to negotiate) to the community's experience the sentence before it gives.
+
+## Section 4 (REPEATS-b-s4.md: 11 repeats, 2 mild contradictions)
+
+- None involves this turn's change. Joel's new sentence ("It's the practical logistical foundation that gets built once the
+  architects can work well together.", block B87) is listed only as a callback to his own "practical logistical foundation"
+  in the section's opening, which is what he meant it to be.
+- The eleven repeats and both contradictions are in text this turn doesn't change: section 4 is his own text (2026-10-13, with
+  his paragraphs of 10-15), and the other passages are in sections 1, 3, 5, 12, 13, 15 and 16 as they stood. Nothing here was
+  created today.

@@ -3,7 +3,7 @@ published section, and section 15 v13, section 4 v11.4, section 12 v14, section 
 their installed versions. It refuses unless every changed paragraph read Human alone or with its neighbor (410g, 411g), every
 changed section read 100% Human as a whole (411g, 412g), the key files pass where a section has one, the linter finds no FAIL
 in the new text, and the repeated pauses of sections 15 and 16 are answered.
-Run from candidate/: python3 fix-20261017/install_20261017.py"""
+Run from candidate/: python3 fix-20261017/install_20261017.py [s16,s15,s4,s12,s8,s1]  (the sections to put in; default all)"""
 import json, pathlib, re, subprocess, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -11,9 +11,11 @@ C = HERE.parent
 REPO = C.parents[2]
 T = REPO / 'tools' / 'humanization'
 py = sys.executable
+WANT = sys.argv[1].split(',') if len(sys.argv) > 1 else ['s16', 's15', 's4', 's12', 's8', 's1']
 R = {}
-for b in ('b410', 'b411', 'b412'):
-    R.update(json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8')))
+for b in ('b410', 'b411', 'b412', 'b413', 'b414'):
+    if (HERE / b / ('%s-results.json' % b)).exists():
+        R.update(json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8')))
 
 
 def human(k):
@@ -21,24 +23,25 @@ def human(k):
     return r[0].startswith('Human') and all(w.startswith('Human') for w in r[3].split('; '))
 
 
-PARAS = ['S16v28-H1P3', 'S16v28-H1P3+prev', 'S16v28-H3P7+prev', 'S16v28-H3P7+next', 'S15v13-H1P3', 'S15v13-H1P3+prev',
-         'S15v13-H2P2', 'S15v13-H2P2+prev', 'S15v13-H3P3', 'S15v13-H3P5', 'S4v114-container+prev', 'S4v114-container+next',
-         'S1sw-EastWind', 'S1sw-EastWind+prev', 'S8v30-safeguards+prev', 'S8v30-safeguards+next']
-S12PARAS = [k for k in R if k.startswith('S12v14-')]
-WHOLES = ['S16v28', 'S15v13', 'S4v114', 'S1sw', 'S8v30', 'S12v14']
-bad = [k for k in PARAS + S12PARAS + WHOLES if k not in R or not human(k)]
-assert S12PARAS and not bad, ('not Human, or not checked:', bad, S12PARAS)
-for keys, draft in (('s15/preservation-keys.json', 's15/v13.md'), ('s16/preservation-keys.json', 's16/v28.md')):
+NEED = {'s16': ['S16v28-H1P3', 'S16v28-H1P3+prev', 'S16v28-H3P7+prev', 'S16v28-H3P7+next', 'S16v28'],
+        's15': ['S15v13-H1P3', 'S15v13-H1P3+prev', 'S15v13-H2P2', 'S15v13-H2P2+prev', 'S15v13-H3P3', 'S15v13-H3P5', 'S15v13'],
+        's4': ['S4v114-container+prev', 'S4v114-container+next', 'S4v114'],
+        's12': ['S12v14-P2', 'S12v14'],
+        's8': ['S8v30-safeguards+prev', 'S8v30-safeguards+next', 'S8v30'],
+        's1': ['S1sw-EastWind', 'S1sw-EastWind+prev', 'S1sw']}
+bad = [k for s in WANT for k in NEED[s] if k not in R or not human(k)]
+assert not bad, ('not Human, or not checked:', bad)
+for keys, draft in [x for x in (('s15/preservation-keys.json', 's15/v13.md'), ('s16/preservation-keys.json', 's16/v28.md')) if x[1][:3] in WANT]:
     r = subprocess.run([py, str(T / 'preservation_keys.py'), str(C / keys), str(C / draft), '--article',
                         str(C / 's16' / 'review-r1' / 'article-with-s15v3.md')], capture_output=True, text=True)
     assert 'verdict: PASS' in r.stdout, r.stdout
-for reps, draft in (('s15/review-r*/SENSE*.md', 's15/v13.md'), ('s16/review-r*/SENSE*.md', 's16/v28.md')):
+for reps, draft in [x for x in (('s15/review-r*/SENSE*.md', 's15/v13.md'), ('s16/review-r*/SENSE*.md', 's16/v28.md')) if x[1][:3] in WANT]:
     r = subprocess.run([py, str(T / 'pause_tally.py')] + sorted(str(p) for p in C.glob(reps)) +
                        ['--draft', str(C / draft), '--ledger', str(C / 'OWNER-EDITS.json'), '--dispositions',
                         str(HERE / 'DISPOSITIONS-PAUSES-20261017.md')], capture_output=True, text=True)
     assert 'verdict: PASS' in r.stdout, r.stdout
 art = (C / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8')
-for draft, src in ((C / 's16' / 'v28.md', C / 's16' / 'v0.md'), (C / 's15' / 'v13.md', C / 's15' / 'v0.md')):
+for draft, src in [x for x in ((C / 's16' / 'v28.md', C / 's16' / 'v0.md'), (C / 's15' / 'v13.md', C / 's15' / 'v0.md')) if x[0].parent.name in WANT]:
     r = subprocess.run([py, str(T / 'tells_lint.py'), str(draft), '--source', str(src), '--installed', str(C / 'HUMANIZED-SO-FAR.md'),
                         '--style', str(C.parent / 'STYLE.json')], capture_output=True, text=True)
     assert 'verdict: FAIL' not in r.stdout, r.stdout[-2500:]
@@ -60,9 +63,10 @@ NOTES = {
          'until Joel says so.'),
 }
 # section 16: the published section goes
-a, b = art.index('# Practice Comes Before Property'), art.index('<!-- CANDIDATE: the appendix')
-assert art[a:b].strip() == (C / 's16' / 'v0.md').read_text(encoding='utf-8').strip(), 'the article does not hold the published section 16'
-art = art[:a] + '<!-- ' + NOTES['s16'] + ' -->\n' + (C / 's16' / 'v28.md').read_text(encoding='utf-8').strip() + '\n\n' + art[b:]
+if 's16' in WANT:
+    a, b = art.index('# Practice Comes Before Property'), art.index('<!-- CANDIDATE: the appendix')
+    assert art[a:b].strip() == (C / 's16' / 'v0.md').read_text(encoding='utf-8').strip(), 'the article does not hold the published section 16'
+    art = art[:a] + '<!-- ' + NOTES['s16'] + ' -->\n' + (C / 's16' / 'v28.md').read_text(encoding='utf-8').strip() + '\n\n' + art[b:]
 # the others: each installed section, from its heading to the next note or section, replaced by this turn's version
 SWAPS = [
  ('# What This Looks Like From Sénégal', C / 's15' / 'v13.md', '<!-- CANDIDATE: section 15 v12',
@@ -86,18 +90,22 @@ SWAPS = [
   'ones around there." (the sweep of Joel\'s 13:11 "remove "quietly" that\'s an ai tell"). Human with either neighbor (410g), the '
   'whole section 100% Human (412g). Records: fix-20261017/. Before: '),
 ]
+KEY = {'# What This Looks Like From Sénégal': 's15', '# The Four Parts That Have to Pl/ork Together': 's4',
+       '# The Math of Absorption, and Who This Isn’t For': 's12', '# The Grown Children Get the Final Review': 's8'}
 for head, path, old_note, note in SWAPS:
+    if KEY[head] not in WANT:
+        continue
     i = art.index(old_note)
     j = art.index('-->', i) + 3
     art = art[:i] + '<!-- ' + note + art[i + 5:j - 3].strip() + ' -->' + art[j:]
     a, b = region(art, head, r'\n(<!-- CANDIDATE|<!-- ACCEPTED|<!-- Section|# )')
     art = art[:a] + path.read_text(encoding='utf-8').strip() + '\n' + art[b:]
 # section 1 has no note of its own: it starts the file, before section 2's note
-a = art.index('# The New Age May Dawn Suddenly')
 b = art.index('<!-- CANDIDATE: section 2')
 s1 = (HERE / 's1-swept.md').read_text(encoding='utf-8').strip()
 assert s1.startswith('[image 1]')
-art = ('<!-- CANDIDATE: section 1 (2026-10-17): "That\'s the sort of thing that doesn\'t make it into the history books." for "It\'s '
+if 's1' in WANT:
+  art = ('<!-- CANDIDATE: section 1 (2026-10-17): "That\'s the sort of thing that doesn\'t make it into the history books." for "It\'s '
        'the sort of thing ..." (the sweep of Joel\'s 13:11 "this is not the same as it"; the published sentence is "These are the '
        'questions history books neglect."). Human alone and with the paragraph before (410g), the whole section 100% Human '
        '(412g). Records: fix-20261017/. -->\n' + s1 + '\n\n' + art[b:])
@@ -105,4 +113,4 @@ art = ('<!-- CANDIDATE: section 1 (2026-10-17): "That\'s the sort of thing that 
 r = subprocess.run([py, str(T / 'check_owner_edits.py'), '--article', str(C / 'HUMANIZED-SO-FAR.md'), '--ledger',
                     str(C / 'OWNER-EDITS.json')], capture_output=True, text=True)
 print(r.stdout[-600:])
-print('installed: section 16 v28, section 15 v13, section 4 v11.4, section 12 v14, section 8 v30, section 1 (the sweep)')
+print('installed:', WANT)
