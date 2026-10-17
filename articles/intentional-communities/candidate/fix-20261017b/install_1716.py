@@ -1,5 +1,6 @@
 """Install this turn's sections into HUMANIZED-SO-FAR.md once batch 415g has read every changed paragraph and section Human
-(Joel's message of 2026-10-17 17:16 UTC): section 2 v3.3, section 9 v17, section 15 v14 and section 16 v29, each in place of
+(Joel's message of 2026-10-17 17:16 UTC): section 9 v17, section 15 v14 and section 16 v29 (section 2 stays as it is,
+question 47), each in place of
 the section now there, with a new CANDIDATE note in front of the old one. Section 12 v15 went in already (install_44c.py).
 Refuses unless every item of its sections read Human in b415-results.json. Idempotent.
 Run from candidate/: python3 fix-20261017b/install_1716.py"""
@@ -11,9 +12,6 @@ ART = C / 'HUMANIZED-SO-FAR.md'
 R = json.loads((HERE / 'b415' / 'b415-results.json').read_text(encoding='utf-8'))
 link = lambda k: 'https://www.pangram.com/history' + R[k][5]
 SECT = [
-    ('# Communes Are Hot Again', HERE / 's2-v3.3.md', 'S2v33', '<!-- CANDIDATE: section 2 v3.2',
-     'section 2 v3.3 (2026-10-17, after Joel\'s 17:16 message): v3.2 with "starving" for Emulate\'s "starvin\'" (the '
-     'faithfulness pass; his section 5 rule: unusual spellings are cheating)'),
     ('# The Best Model I’ve Seen: Zapatistas', HERE / 's9-v17.md', 'S9v17', '<!-- CANDIDATE: section 9 v16',
      'section 9 v17 (2026-10-17, after Joel\'s 17:16 message): v16 with the published limit back after the Escuelita evidence, '
      '"I\'m not claiming the Zapatistas already proved my whole model." (the faithfulness pass; cut on 2026-10-14 as a repeat of '
