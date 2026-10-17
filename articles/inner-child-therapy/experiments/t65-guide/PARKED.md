@@ -84,3 +84,26 @@ Read Human alone: P2 (sp8-p2-c, 0.29, with the grounding's turn to what your lit
 > If something serious starts to take shape, like the idea that someone hurt you, don't confront or accuse anybody based on this alone. Write down exactly what came up and how it came up. Then talk it over with someone steady, someone who won't lead you toward the answer they'd expect.
 
 The tells I see: P1 is a short opener (50 to 65 words) that says what the practice is for, and P4b is a safety procedure (don't confront on this alone; write it down; take it to someone who won't lead you). What I'd want from you: your own opener, and how you'd put the steps.
+
+## When Love Still Feels Missing (the guide's next h1, after Simple Practices): most of it
+
+Dedup: `LM-DEDUP-REPORT.md`; groundings first (`GROUNDING-lm1.md` to `lm4.md`), their fixes in every draft. Four rounds (u to x); every result and link in `tools/PREDICTIONS.md` (rows t65u to t65x, lm).
+
+- Read Human alone and with its heading: How Much Happiness P1 (lm4-p1-a, 0.34 alone; 0.28 with the heading, https://www.pangram.com/history/6d29b396-0ccb-41ca-b293-cb5d37680b10).
+- Read Human alone, waiting on the paragraph before: How Much Happiness P2 (lm4-p2-a2, 0.18; with P1 the h2 read AI) and P5 (lm4-p5-c, 0.002); Notice the Part P2 (lm2-p2-c, 0.21).
+- Never read Human: the h1's own three paragraphs (eleven versions: the unloved-child opening, the least-cruel start, the guard that keeps the feeling out); Notice the Part P1 (six versions); Somatic Heart Opening (six versions); How Much Happiness P3 and P4 (nine versions).
+
+My best faithful versions of the ones that never read Human:
+
+> If you weren't loved well as a child, "love your inner child" might sound like nonsense. You can sincerely want the best for your little one, hug them in your imagination, or miss them, and still feel none of the warmth people mean when they say love. That doesn't close the door. It means starting with smaller things.
+
+> If picturing a caring grown-up makes things worse, more scary or more lonely, don't force it. Go for the least cruel thing a decent adult could do instead, and do that. Nobody's grading you on whether you were loved enough as a child. Think of it as scaffolding, something to lean on while there's room for warmth to show up, with no promise about when.
+
+> Taking the hostility out makes room for the warmth to get in. What people say helps the most, though, is letting their defenses down, by choice, once the guarding part has been heard. If you've never felt safe being loved, the ego can act like a stiff security guard who won't let the feeling past the door, and vulnerability is the opening the feeling needs. Sometimes the warmth isn't gone at all. A cold or cynical part is standing in front of it, guarding something, and it tends to step aside once it's been heard (like in Hear the Protective Part First).
+
+> Some people don't just say love feels out of reach. They say, "No. I hate myself." I'm not going to argue you out of that. If hatred is what you find in there, it deserves an honest hearing. But I don't want to skip something else. If you chose to open this article, come to therapy, ask somebody for help, or try again after deciding you were hopeless, something in you wanted something to be different.
+
+> Rumi says you have to keep breaking your heart until it stays open. Some people find that deep grieving gives way to warmth or connection, or to a feeling in the body of being held by the universe. That's a description of an experience, though, not proof of how the body produces it. And love can open grief from the other side: being cared for may bring sadness for the care that was missing, which doesn't mean the love failed. Stay with it while you're present and still have a choice, and slow down if it starts to swamp you.
+
+The tells I see: these are the guide's reflective paragraphs (no practice to describe, so no hands or photos or pens), and my drafts paraphrase its abstractions (warmth, defenses, vulnerability, the horizon) even with jokes on top. What I'd want from you: your own versions, the way you wrote P5 and P8 of The Inner Guide Comes Later.
+
