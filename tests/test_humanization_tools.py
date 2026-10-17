@@ -1467,6 +1467,13 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn('turns a minimum into a maximum', t)
         self.assertIn('a word like "either", "too", "also" or "again" with nothing before it to refer to', t)
 
+    def test_the_prompt_names_a_sentence_that_only_takes_back_the_one_before_it(self):
+        """Joel, 2026-10-17 23:10 UTC, rewrote section 2's opening: my "an advisory about it. Or about the loneliness under it,
+        at least." only patched my own first clause, and his names the loneliness there ("the longing to escape loneliness
+        which inspired my father's movie"), so nothing needs taking back."""
+        t = (TOOLS / 'reviewer' / 'sense_section.txt').read_text(encoding='utf-8')
+        self.assertIn('a sentence that only takes back the one before it', t)
+
 
 class ClickableLinks(unittest.TestCase):
     """html_links.py and pangram_links_check.py --chat (2026-10-16). Joel, 21:05 UTC: "(your links are not clickable btw)":

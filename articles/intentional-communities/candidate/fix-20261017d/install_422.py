@@ -18,7 +18,7 @@ J = 'Joel\'s message of 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt'
 SECT = [
     ('S13v36', '# Your Little Forming Group Already Is the Community', C / 's13' / 'v36.md', '<!-- ACCEPTED: section 13 v35', 'ACCEPTED',
      'section 13 v36 (2026-10-17, after %s, 48 a and 51 a): the tightening, in the four paragraphs where the march let it through: '
-     'the conflict paragraph with one "dealt with it" fewer and no capitals ("Dealing with it for real" is the tone reader\'s '
+     'the conflict paragraph with two of its three "dealt with it" out and no capitals ("Dealing with it for real" is the tone reader\'s '
      'wording), "visibility" in lower case with the published anchor back ("A money-free community still has scarce things and '
      'bottlenecks, sorry."), the provisional-membership questions folded into fewer (the last in the tone reader\'s wording), and '
      'the repeat of section 9 out ("But when power had crept up in their own system over the years, it took them a long review to '

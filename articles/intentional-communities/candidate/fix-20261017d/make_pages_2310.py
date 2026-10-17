@@ -13,7 +13,9 @@ import make_pages as M  # noqa: E402  (its build() reads the article now on disk
 
 M.SINCE = '000ff576'
 R, BATCH = {}, {}
-for b in ('b421', 'b425'):
+for b in ('b421', 'b425', 'b427'):
+    if not (HERE / b / ('%s-results.json' % b)).exists():
+        continue
     r = json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8'))
     al = HERE / b / 'aliases.json'
     for k, v in (json.loads(al.read_text()) if al.exists() else {}).items():

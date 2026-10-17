@@ -128,7 +128,7 @@ DEC = (
     'the next point, so the check I run before Pangram stopped them.\n'
     '  - "Trust me on this one.": stays.\n'
     '  - 48 a: done in section 13, each change checked alone and in the section:\n'
-    '    - the conflict paragraph has one "dealt with it" fewer and no capitals: "and really dealt with it. Not by writing out a '
+    '    - the conflict paragraph has two of its three "dealt with it" out and no capitals: "and really dealt with it. Not by writing out a '
     'vision statement and shaking hands ..." and "Dealing with it for real includes the relational pl/ork ...";\n'
     '    - "And how will you handle the visibility of what the community has? A money-free community still has scarce things and '
     'bottlenecks, sorry." (your published "A money-free community still has scarce things and bottlenecks." back, with the "sorry" the line had);\n'

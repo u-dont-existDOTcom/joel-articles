@@ -7,7 +7,9 @@ HERE = pathlib.Path(__file__).resolve().parent
 C = HERE.parent
 A = C.parent
 R = {}
-for b in ('b421', 'b425'):
+for b in ('b421', 'b425', 'b426', 'b427'):
+    if not (HERE / b / ('%s-results.json' % b)).exists():
+        continue
     r = json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8'))
     al = HERE / b / 'aliases.json'
     for k, v in (json.loads(al.read_text()) if al.exists() else {}).items():
@@ -27,9 +29,17 @@ p = C / 'OWNER-EDITS.json'
 raw = p.read_text(encoding='utf-8')
 d = json.loads(raw)
 E = {e['id']: e for e in d['entries']}
-if S2:
-    E['s2-joel-20261017-2137-47-5']['status'] = 'superseded'
-    E['s2-joel-20261017-2137-47-5']['what'] += ' Superseded at 23:10 UTC by his own opening (52 a, s2-joel-20261017-2310-52a).'
+e = E['s2-joel-20261017-2137-47-5']
+if e['status'] != 'superseded':
+    e['status'] = 'superseded'
+    e['what'] += (' Superseded at 23:10 UTC by his own opening (52 a, s2-joel-20261017-2310-52a)%s.'
+                  % ('' if S2 else ', which waits on question 56'))
+if not S2:
+    for k, w in (('s2-joel-20261017-2137-46a', 'his opening (52 a), which waits on question 56'),
+                 ('all-joel-20261017-2137-45a', 'section 2 (52 a and 46 a), which waits on question 56')):
+        if E[k]['status'] == 'pending' and 'question 56' not in E[k]['what']:
+            E[k]['what'] += ' At 23:10 UTC it waits on %s.' % w
+            E[k]['waits_for'] = 'question 56'
 if S2 in ('S2v35b', 'S2v35c'):
     e = E['s2-joel-20261017-2137-46a']
     e['status'] = 'applied'
@@ -39,10 +49,15 @@ if PROMOTED:
     E['all-joel-20261017-2137-45a']['status'] = 'applied'
     E['all-joel-20261017-2137-45a']['what'] += ' Done at 23:10 UTC, when section 2 settled 46: master.md is the registered master.'
 new = []
-if S2:
-    new.append({'id': 's2-joel-20261017-2310-52a', 'status': 'applied', 'words': 'his',
+if True:
+    new.append({'id': 's2-joel-20261017-2310-52a', 'status': 'applied' if S2 else 'pending', 'words': 'his',
                 'what': 'Section 2: his opening as he wrote it (P1 and P2, with his 53 aside), the published link on "the U.S. Surgeon '
-                        'General" kept. Pangram 425g: his P1 with his P2 Human, his P2 alone Human, the section 100% Human.',
+                        'General" kept. ' + ('Pangram 425g: his P1 with his P2 Human, his P2 alone Human, the section 100% Human.' if S2 else
+                        'Not in yet: his P1 with his P2 reads Human (425g, 0.05) and his P2 alone (0.13), but every version of the '
+                        'section reads one AI window, the heading and his first paragraph (50 words): 425g S2v35 0.22, S2v35b 0.30, '
+                        'S2v35c 0.27; 426g, his two paragraphs joined, 0.23 and 0.27. Question 56 asks for his rewording of the first '
+                        'sentence; question 55 is on the aside\'s fact.'),
+                **({} if S2 else {'waits_for': 'question 56'}),
                 'joel': '52 this is human: ... 53 fixed (fact checked with gemini)', 'when': WHEN,
                 'must_contain': ['Suddenly the longing to escape loneliness which inspired my father’s movie is everywhere again',
                                  'even put out an advisory, saying roughly half of American adults experience loneliness',
@@ -50,7 +65,7 @@ if S2:
                 'must_not_contain': ['Or about the loneliness under it, at least.', 'is starvin’ them']})
 if S8:
     new.append({'id': 's8-joel-20261017-2310-54', 'status': 'applied', 'words': 'his',
-                'what': 'Section 8: his sentence after the truthfulness line. Pangram 425g: the paragraph Human, the section 100% Human.',
+                'what': 'Section 8: his sentence after the truthfulness line. Pangram 427g: the paragraph Human, the section 100% Human.',
                 'joel': '54 actually i would change it to: "Make sure kids understand ... And those who are known to lie a lot are '
                         'especially targeted by abusers who know their accusations won\'t be believed."', 'when': WHEN,
                 'must_contain': ['if they are known to be honest. And those who are known to lie a lot are especially targeted by '

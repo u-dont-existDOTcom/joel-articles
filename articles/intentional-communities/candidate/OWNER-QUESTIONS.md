@@ -57,7 +57,7 @@ If you don't answer, a.
   - Point 5, your section 2 paragraph: waits on questions 52 and 53. On "starvin'": the dropped g came from Emulate, the kind of thing your section 5 rule calls cheating, and your version doesn't need it. What I meant by "didn't have a turn": none of my rewordings had a break in the thought, a sentence where the writer reacts, jokes or steps aside instead of making the next point, so the check I run before Pangram stopped them.
   - "Trust me on this one.": stays.
   - 48 a: done in section 13, each change checked alone and in the section:
-    - the conflict paragraph has one "dealt with it" fewer and no capitals: "and really dealt with it. Not by writing out a vision statement and shaking hands ..." and "Dealing with it for real includes the relational pl/ork ...";
+    - the conflict paragraph has two of its three "dealt with it" out and no capitals: "and really dealt with it. Not by writing out a vision statement and shaking hands ..." and "Dealing with it for real includes the relational pl/ork ...";
     - "And how will you handle the visibility of what the community has? A money-free community still has scarce things and bottlenecks, sorry." (your published "A money-free community still has scarce things and bottlenecks." back, with the "sorry" the line had);
     - the provisional-membership questions folded together: "Write down your answers: How long is a provisional membership, and what are a provisional member's rights and responsibilities? How is it reviewed, and how does someone leave it? ...";
     - the repeat of your section 9 out ("But when power had crept up in their own system over the years, it took them a long review to push it back down.");

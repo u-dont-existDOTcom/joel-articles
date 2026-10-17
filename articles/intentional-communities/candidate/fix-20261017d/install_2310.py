@@ -1,7 +1,7 @@
 """Install Joel's texts of 2026-10-17 23:10 UTC (make_2310.py) where batch 425g read them Human: section 2 with his opening in the
 fullest form that passed (v3.5c: with the anomie paragraph and his screenshot and caption, his 46 a, and then section 12 v16
 without them; else v3.5b, the anomie paragraph without the screenshot; else v3.5, as he pasted it), and section 8 v32 (his 54
-sentence). A section goes in only if 425g read it whole Human with no AI window and every check of its changed paragraphs Human
+sentence, checked in 427g after its repeats check). A section goes in only if Pangram read it whole Human with no AI window and every check of its changed paragraphs Human
 (the anomie paragraph's own checks are 421g's). Idempotent. Run from candidate/: python3 fix-20261017d/install_2310.py"""
 import json, pathlib, re
 
@@ -9,13 +9,17 @@ HERE = pathlib.Path(__file__).resolve().parent
 C = HERE.parent
 ART = C / 'HUMANIZED-SO-FAR.md'
 R = {}
-for b in ('b421', 'b425'):
+for b in ('b421', 'b425', 'b427'):
+    if not (HERE / b / ('%s-results.json' % b)).exists():
+        continue
     r = json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8'))
     al = HERE / b / 'aliases.json'
     for k, v in (json.loads(al.read_text()) if al.exists() else {}).items():
         r.setdefault(k, r[v])
     R.update(r)
 G = json.loads((HERE / 'b425' / 'GATE.json').read_text(encoding='utf-8'))
+if (HERE / 'b427' / 'GATE.json').exists():   # section 8 went in 427g, after its repeats check
+    G.update(json.loads((HERE / 'b427' / 'GATE.json').read_text(encoding='utf-8')))
 ok = lambda k: k in R and R[k][0].startswith('Human') and R[k][3].startswith('Human') and '; AI' not in R[k][3]
 link = lambda k: 'https://www.pangram.com/history' + R[k][5]
 good = lambda key: ok(key) and all(ok(p) for p in G[key]['parts'] if p != 'installed')
@@ -53,7 +57,7 @@ for key, h1, path, old_note, word, what in SECT:
     m = re.search(r'\n(<!-- CANDIDATE|<!-- ACCEPTED|<!-- Section|# )', md[a + 3:])
     md = md[:a] + new + '\n' + md[a + 3 + m.start():]
     i = md.index(old_note)
-    src = '421g' if key == 'S12v16' else '425g'
+    src = {'S12v16': '421g', 'S8v32': '427g'}.get(key, '425g')
     note = ('<!-- %s: %s. Pangram web app (%s): every changed paragraph Human alone or with its neighbor, the whole section %s (%s). '
             'Records: fix-20261017d/. Before: -->\n' % (word, what, src, R[key][0].replace(' Written', ''), link(key)))
     md = md[:i] + note + md[i:]

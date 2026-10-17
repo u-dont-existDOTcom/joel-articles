@@ -54,7 +54,7 @@ CHECK = {p: g for p, g in checks}
 v35p = [x.strip() for x in re.split(r'\n\s*\n', (S13 / 'v35.md').read_text(encoding='utf-8')) if x.strip()]
 # What changed since v35, by paragraph (Joel's 21:37 answers 48 a and 51 a; the tightening pass and Emulate's lines, batches 422g and 423g)
 NOTE = {
- 'H1-P2': ('Your 48 a (the tightening): one "dealt with it" fewer and no capitals ("and really dealt with it. Not by writing out ...", '
+ 'H1-P2': ('Your 48 a (the tightening): two of the three "dealt with it" out and no capitals ("and really dealt with it. Not by writing out ...", '
            '"Dealing with it for real includes ..."). "Until then, what\'s it worth?" stays: with it and the cheesy line above out as '
            'well, Pangram read three windows of the section AI (423g).'),
  'H3-P3': ('"visibility" in lower case, and your published sentence back, with the "sorry" the line had: "A money-free community still has scarce things and '

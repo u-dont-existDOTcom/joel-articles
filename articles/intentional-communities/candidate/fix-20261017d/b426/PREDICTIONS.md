@@ -9,6 +9,6 @@ anomie paragraph and his screenshot, his 46 a). Predictions written before the r
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S2v35m-P12 | Human | his two paragraphs as one; together they read Human in 425g (0.05) | |
-| S2v35m | Human | the first window can't stop after a 43-word paragraph now | |
-| S2v35cm | Human | the same with the anomie paragraph and the screenshot | |
+| S2v35m-P12 | Human | his two paragraphs as one; together they read Human in 425g (0.05) | **Human** (Human Written, medium, 109 words, AI likelihood 0.05), 23:41:33, [check](https://www.pangram.com/history/106ec851-2a14-4a5a-bd86-327cf18c1a2e) |
+| S2v35m | Human | the first window can't stop after a 43-word paragraph now | **Mixed** (Mostly Human Written; windows: AI-Generated, Low, 50; Human, High, 579, 629 words, AI likelihood 0.23), 23:41:44, [check](https://www.pangram.com/history/c6bed8cb-7abc-406c-8b4d-642c257e4965) |
+| S2v35cm | Human | the same with the anomie paragraph and the screenshot | **Mixed** (Mostly Human Written; windows: AI-Generated, Medium, 50; Human, High, 641, 691 words, AI likelihood 0.27), 23:41:54, [check](https://www.pangram.com/history/390b008b-16a9-4480-bf50-e5758f011a62) |

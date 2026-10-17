@@ -14,3 +14,16 @@ before (DISPOSITIONS.md, for the reports of 21:37).
 - Section 2, callbacks: the report lists his "the longing to escape loneliness" (picking up section 1's "the same loneliness") and
   "saying roughly half of American adults experience loneliness" (which the health-outcome line of "Which Connections to the Technosphere Do You Keep?" leans on) as callbacks, not
   repeats; nothing to do.
+
+## Section 8 (REPEATS-s8b.md)
+
+The full check of section 8 (REPEATS-PROMPT-s8b.txt, every block of the section against every other block and the article) ran
+out of output three times and was stopped. Only his 54 sentence is new since the 21:37 report (REPEATS-s8.md, answered in
+DISPOSITIONS.md), so the check that ran (REPEATS-PROMPT-s8c.txt) takes that one sentence against the whole article.
+
+- Repeats: none; contradictions: none. Nothing to answer.
+- Near-miss 1, his own "Make sure kids understand what they say will be taken seriously if they are known to be honest." in the
+  same paragraph: the sentence he put after it on purpose (54), giving the reason for it, abusers counting on a known liar not
+  being believed. Kept, as he wrote it.
+- Near-misses 2 and 3 ("Hear the child even when the accused is someone people love."; complaints "painted as projection"): a
+  different cause each (the accused's standing, adults' grievances). Nothing to do.
