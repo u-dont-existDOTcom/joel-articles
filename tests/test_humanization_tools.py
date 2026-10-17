@@ -1,5 +1,6 @@
 """Regression tests for the shared humanization tools' 2026-10-02 additions: the exact-character ledger check,
 the linter's abstract-agent flag (O6) and the whole-article stance-check prompt."""
+import importlib.util
 import json
 import os
 import pathlib
@@ -1466,12 +1467,14 @@ class ClickableLinks(unittest.TestCase):
         # the resume line, written [url](url) as Joel asked (2026-10-16), is a link
         self.assertEqual(html_links.bare_urls('read [https://g.example/h.md](https://g.example/h.md) and go on'), [])
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_the_questions_renderer_links_bare_addresses(self):
         sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
         import render_questions
         out = render_questions.render('# Q\n\nLast updated today.\n\n## Open questions\n\n- 🟢 It reads Human: https://www.pangram.com/history/abc-2\n')
         self.assertIn('<a href="https://www.pangram.com/history/abc-2">', out)
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_two_blank_lines_between_items_keep_the_text_column(self):
         """Joel's screenshot, 2026-10-16 23:38 UTC: an item after two blank lines showed one word per line, because
         python-markdown wrapped it in <p> and the grid put the <p> in the dot's .7rem column."""
@@ -1486,6 +1489,7 @@ class ClickableLinks(unittest.TestCase):
         self.assertEqual(render_questions.misplaced_items(
             '<ul class="items"><li>\n<p><span class="dot done"></span>squeezed</p>\n</li></ul>'), ['squeezed'])
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_sub_bullets_stay_inside_their_item(self):
         """2026-10-17: a decided item with sub-bullets (indented two spaces, as GitHub nests them) came out as top-level
         items without a dot, which the grid squeezes into the dot column; misplaced_items stopped the page from being
@@ -1534,6 +1538,7 @@ class ClickableLinks(unittest.TestCase):
             r = subprocess.run([sys.executable, script, str(bad)], capture_output=True, text=True)
             self.assertEqual(r.returncode, 0, 'without --chat a page source may hold bare addresses; its renderer links them')
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_a_pasted_post_card_link_becomes_its_heading_with_the_link(self):
         import html_links
         md = ('I wrote separately:\n\n[Spirit and Mind Health](https://a.example/p)[\n\n## Facing the Polycrisis\n\n'
