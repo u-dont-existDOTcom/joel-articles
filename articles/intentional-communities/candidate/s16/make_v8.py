@@ -10,8 +10,10 @@
   v: the published contrast as its own sentence ("Not from deciding that "money is impure!" while somebody else is quietly
      paying the tax bill.").
 - H2-P5: trace T1 of review-r13 (SHIFT): "Share tools and childcare, or transport and food prep." made pairs out of the
-  published list of five things, any of which will do; its fix, "Share tools, childcare, transport or food prep." ("Or a
-  sauna!" stays).
+  published list of five things, any of which will do. Its fix, "Share tools, childcare, transport or food prep.", gave the
+  paragraph two lists of three (with "with one friend, in person or by video"; lint E125, a FAIL), so the five stay
+  separate options over two sentences and the sauna: "Share tools or childcare. Transport or food prep work too. Or a
+  sauna!" (lint REVIEW; marched in review-r16).
 Writes v8.md and v8-variants.json. Run from this folder: python3 make_v8.py [n|e] [y|v]"""
 import json, pathlib, subprocess, sys
 
@@ -34,7 +36,7 @@ V = {
               "somebody else is quietly paying the tax bill."),
 }
 P5_OLD = "Share tools and childcare, or transport and food prep."
-P5_NEW = "Share tools, childcare, transport or food prep."
+P5_NEW = "Share tools or childcare. Transport or food prep work too."
 assert t.count(P3_V7) == 1 and t.count(P5_OLD) == 1
 t = t.replace(P3_V7, V[p3]).replace(P5_OLD, P5_NEW)
 (HERE / 'v8.md').write_text(t, encoding='utf-8')

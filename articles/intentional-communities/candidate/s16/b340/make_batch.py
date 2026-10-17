@@ -1,7 +1,10 @@
-"""Batch 340g (2026-10-17): screens (E175) of section 16 draft v7 (../make_v7.py: H1 rebuilt from Emulate round c in two shapes,
-n and e, H3-P4 as round c's questions, and H3-P6 with trace r13 T3's fix). For each shape: H1-P1 with H1-P2, H1-P2 with
-H1-P3, H1, and the whole section; H3-P3 to H3-P7 in pairs, and H3, once. Marches: review-r12 and r14 (two readings) for the new paragraphs, the rest as in
-337g. Run from candidate/: python3 s16/b340/make_batch.py"""
+"""Batch 340g (2026-10-17): screens (E175) of section 16 draft v8 (../make_v8.py: v7's H1 in two shapes, n and e, H1-P3 with a
+break in two shapes, y and v; H3-P4 as round c's questions and H3-P6 with trace r13 T3's fix, both from v7). For each H1
+shape: H1-P1 with H1-P2; for each H1 shape and H1-P3 shape: H1-P2 with H1-P3, and H1; H3-P3 to H3-P7 in pairs, and H3,
+once; H2-P5 (trace r13 T1's fix, in review-r16's shape) alone and with its neighbors, and H2, once. The whole section goes to
+the next batch, with the H1 shapes that read Human here. Marches: review-r12, r14, r15 and r16 (two readings) for the new
+paragraphs, the rest as in 337g. Run from
+candidate/: python3 s16/b340/make_batch.py"""
 import hashlib, json, pathlib, re, subprocess, sys, tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -27,7 +30,7 @@ L = labels(S16 / 'review-r2')
 for n, p in enumerate(json.loads((S16 / 'review-r2' / 'march-ids.json').read_text()), start=1):
     MARCH[p] = [m[n] for m in L]
 for rnd in ('review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 'review-r6', 'review-r8', 'review-r9',
-            'review-r10', 'review-r11', 'review-r12', 'review-r14'):
+            'review-r10', 'review-r11', 'review-r12', 'review-r14', 'review-r15', 'review-r16'):
     L = labels(S16 / rnd)
     for n, p in enumerate(json.loads((S16 / rnd / 'march-ids.json').read_text()), start=1):
         if p.startswith('s15-'):
@@ -36,14 +39,15 @@ for rnd in ('review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 
             p = 's16-H1-P2num'  # v6's numbered H1-P2, not the plain one shape e keeps
         MARCH[p[4:] if p.startswith('s16-') else p] = [m[n] for m in L]
 MARCH['H2-P3'] = MARCH['H2-P3a']
+MARCH['H2-P5'] = MARCH['H2-P5d']  # trace r13 T1's fix in the shape the linter passes (../make_v8.py), review-r16
 MARCH['H3-P4'] = MARCH['H3-P4x']
-SHAPE = {'n': {'H1-P1': MARCH['H1-P1n'], 'H1-P2': MARCH['H1-P2n'], 'H1-P3': MARCH['H1-P3x']},
-         'e': {'H1-P1': MARCH['H1-P1e'], 'H1-P2': MARCH['H1-P2'], 'H1-P3': MARCH['H1-P3x']}}
+SHAPE = {'n': {'H1-P1': MARCH['H1-P1n'], 'H1-P2': MARCH['H1-P2n']},
+         'e': {'H1-P1': MARCH['H1-P1e'], 'H1-P2': MARCH['H1-P2']}}
 
 
-def blocks(shape):
-    subprocess.run([sys.executable, str(S16 / 'make_v7.py'), shape], check=True, capture_output=True)
-    bl = [b.strip() for b in re.split(r'\n\s*\n', (S16 / 'v7.md').read_text(encoding='utf-8')) if b.strip()]
+def blocks(h1, p3):
+    subprocess.run([sys.executable, str(S16 / 'make_v8.py'), h1, p3], check=True, capture_output=True)
+    bl = [b.strip() for b in re.split(r'\n\s*\n', (S16 / 'v8.md').read_text(encoding='utf-8')) if b.strip()]
     reader = [b for b in bl if not SKIP.match(b)]
     prose = [b for b in reader if not b.startswith('[caption]')]
     assert len(prose) == len(IDS)
@@ -61,29 +65,32 @@ drafts, gate = {}, {}
 def add(key, parts, T, M):
     drafts[key] = '\n\n'.join(plain(T[p].lstrip('#').strip()) if p in ('H1', 'H2', 'H3') else plain(T[p]) for p in parts)
     ps = [p for p in parts if p in M]
-    gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in M[p]], 'march_note': 's16/review-r12; the rest as in 337g',
+    gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in M[p]], 'march_note': 's16/review-r12, r14, r15, r16; the rest as in 337g',
                  'lint': lint('\n\n'.join(T[p] for p in parts if not T[p].startswith('#'))), 'words': len(drafts[key].split())}
     assert gate[key]['words'] >= 50, (key, gate[key]['words'])
 
 
 SUB = {h: [h] + [p for p in PARAS if p.startswith(h + '-')] for h in ('H1', 'H2', 'H3')}
-for shape in ('n', 'e'):
-    reader, T = blocks(shape)
-    M = dict(MARCH, **SHAPE[shape])
-    add('S16v7%s-H1-P1+P2' % shape, ['H1-P1', 'H1-P2'], T, M)
-    add('S16v7%s-H1-P2+P3' % shape, ['H1-P2', 'H1-P3'], T, M)
-    add('S16v7%s-H1' % shape, SUB['H1'], T, M)
-    if shape == 'n':
-        add('S16v7-H3-P3+P4', ['H3-P3', 'H3-P4'], T, M)
-        add('S16v7-H3-P4+P5', ['H3-P4', 'H3-P5'], T, M)
-        add('S16v7-H3-P5+P6', ['H3-P5', 'H3-P6'], T, M)
-        add('S16v7-H3-P6+P7', ['H3-P6', 'H3-P7'], T, M)
-        add('S16v7-H3', SUB['H3'], T, M)
-    key = 'S16v7' + shape
-    drafts[key] = '\n\n'.join(plain(re.sub(r'^\[caption\]\s*', '', b).lstrip('#').strip()) for b in reader)
-    gate[key] = {'kind': 'screen', 'march': [x for p in PARAS for x in M[p]], 'march_note': 'every paragraph',
-                 'lint': lint('\n\n'.join(b for b in reader if not b.startswith(('#', '[caption]')))), 'words': len(drafts[key].split())}
-subprocess.run([sys.executable, str(S16 / 'make_v7.py'), 'n'], check=True, capture_output=True)
+for h1 in ('n', 'e'):
+    for p3 in ('y', 'v'):
+        reader, T = blocks(h1, p3)
+        M = dict(MARCH, **SHAPE[h1])
+        M['H1-P3'] = MARCH['H1-P3' + p3]
+        if p3 == 'y':
+            add('S16v8%s-H1-P1+P2' % h1, ['H1-P1', 'H1-P2'], T, M)
+        add('S16v8%s%s-H1-P2+P3' % (h1, p3), ['H1-P2', 'H1-P3'], T, M)
+        add('S16v8%s%s-H1' % (h1, p3), SUB['H1'], T, M)
+        if (h1, p3) == ('n', 'y'):
+            add('S16v8-H2-P4+P5', ['H2-P4', 'H2-P5'], T, M)
+            add('S16v8-H2-P5', ['H2-P5'], T, M)
+            add('S16v8-H2-P5+P6', ['H2-P5', 'H2-P6'], T, M)
+            add('S16v8-H2', SUB['H2'], T, M)
+            add('S16v8-H3-P3+P4', ['H3-P3', 'H3-P4'], T, M)
+            add('S16v8-H3-P4+P5', ['H3-P4', 'H3-P5'], T, M)
+            add('S16v8-H3-P5+P6', ['H3-P5', 'H3-P6'], T, M)
+            add('S16v8-H3-P6+P7', ['H3-P6', 'H3-P7'], T, M)
+            add('S16v8-H3', SUB['H3'], T, M)
+subprocess.run([sys.executable, str(S16 / 'make_v8.py'), 'n', 'y'], check=True, capture_output=True)
 (HERE / 'drafts.json').write_text(json.dumps(drafts, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 (HERE / 'GATE.json').write_text(json.dumps(gate, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 r = subprocess.run([sys.executable, str(REPO / 'tools' / 'humanization' / 'pangram_gate.py'), str(HERE / 'drafts.json'),
