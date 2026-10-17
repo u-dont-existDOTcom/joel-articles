@@ -47,6 +47,12 @@ SAID = 'experiments/t67-answers/JOEL-20261017-1401.md'
 RESULTS = {}   # @@NAME@@ in a comment -> the checks' results, filled in once they're in (install)
 
 
+def find(pattern):
+    """The article's passage that PATTERN matches, or None once it has been replaced (installed)."""
+    m = re.search(pattern, ART.read_text(encoding='utf-8'), re.S)
+    return m.group(0) if m else None
+
+
 def installs(names=None):
     """(old, new): each replaces one exact passage of the article; NAMES picks some of them (timing, photos, lm4, ba)."""
     out = []
@@ -56,8 +62,8 @@ def installs(names=None):
                 '"added a marching order break that sounds a bit human, now it passes"; ' + SAID + '). His check counts for it '
                 'alone. @@TIMING@@ -->\n\n' + joel('joel-guide-p14') + '\n\n<!-- Turn 65 (E181), my own draft, groups 15 and 16'))
     # 36: his Photos section, in the Simple Practices order (after the four still parked before it, Close the Session after)
-    old = re.search(r"<!-- Parked from Simple Practices \(experiments/t65-guide/PARKED\.md, with what each needs from Joel\): "
-                    r"Journal With Each Hand;.*?They go here, in that order\. -->", ART.read_text(encoding='utf-8')).group(0)
+    old = find(r"<!-- Parked from Simple Practices \(experiments/t65-guide/PARKED\.md, with what each needs from Joel\): "
+               r"Journal With Each Hand;.*?They go here, in that order\. -->")
     ph = photos()
     head, body = ph.split('\n', 1)
     assert head == '## Use Childhood Photographs Gently'
@@ -71,8 +77,7 @@ def installs(names=None):
                 '\n\n<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md): Close the Session and Return to Life. '
                 'It goes here. -->'))
     # 34: How Much Happiness, with his P4
-    old = re.search(r"<!-- Parked: How Much Happiness Do You Know Is Possible\?.*?It goes here\. -->",
-                    ART.read_text(encoding='utf-8')).group(0)
+    old = find(r"<!-- Parked: How Much Happiness Do You Know Is Possible\?.*?It goes here\. -->")
     out.append(('lm4', old,
                 '## How Much Happiness Do You Know Is Possible?\n\n'
                 '<!-- Turn 65 (E177), my own draft (lm4-p1-a, experiments/t65-guide/; GROUNDING-lm4.md): part of love is wanting '
@@ -91,9 +96,8 @@ def installs(names=None):
                 'limits of what\'s possible. Alone Human Written (0.002, low), '
                 'https://www.pangram.com/history/c690f23b-fdb2-4e14-a2ed-663e50460455. -->\n\n' + g65('lm4-p5-c')))
     # 33: Borrowed Adulthood, P1 (w8; with w9 the h1 read AI in round a) and his P2
-    old = re.search(r"<!-- Parked between this section and the closing \(experiments/t65-guide/PARKED\.md, with what each "
-                    r"needs from Joel\): When One Life Has Ended.*?They go here, in that order\. -->",
-                    ART.read_text(encoding='utf-8')).group(0)
+    old = find(r"<!-- Parked between this section and the closing \(experiments/t65-guide/PARKED\.md, with what each "
+               r"needs from Joel\): When One Life Has Ended.*?They go here, in that order\. -->")
     out.append(('ba', old,
                 '<!-- Parked between this section and Borrowed Adulthood (experiments/t65-guide/PARKED.md, with what it needs): '
                 'When One Life Has Ended and the Next Hasn\'t Begun (its P1 reads Human alone; P2 and P3 are this turn\'s work). '
@@ -107,7 +111,7 @@ def installs(names=None):
                 '<!-- Parked between this section and the closing (experiments/t65-guide/PARKED.md, with what it needs from Joel): '
                 'Speak Toward What You Are Building (P3 and P4 read Human alone and together; P1, P2, P5 and P6 never did; the '
                 'guide\'s Hearthwork naming needs him). It goes here. -->'))
-    return [(o, n) for name, o, n in out if names is None or name in names]
+    return [(o, n) for name, o, n in out if (names is None or name in names) and o is not None]
 
 
 def candidate(names=None):
@@ -146,6 +150,8 @@ def block(b):
     if b.startswith('#'):
         return b
     d, stem = b.split(':', 1)
+    if d == 'S':   # a section of the article as it stands, comments out
+        return section(ART.read_text(encoding='utf-8'), stem)
     if d == 'G':
         return g65(stem)
     if d == 'J':
@@ -169,7 +175,7 @@ def batch(rnd, spec_file):
             # the settled parts (G: read Human alone, J: his) count as installed for the linter; only my new drafts (D:) are
             # linted as mine
             la = CAND.with_name('lint-%s.md' % k)
-            la.write_text(md['candidate'] + '\n\n' + '\n\n'.join(block(b) for b in it['blocks'] if b[:2] in ('G:', 'J:')),
+            la.write_text(md['candidate'] + '\n\n' + '\n\n'.join(block(b) for b in it['blocks'] if b[:2] in ('G:', 'J:', 'S:')),
                           encoding='utf-8')
             gate[k] = {'kind': 'screen', 'march': [it['march']], 'lint': 'REVIEW', 'lint_article': str(la),
                        'note': 't67%s: %s, put together: %s.' % (rnd, it['blocks'][0], ', '.join(it['blocks'][1:]))}
@@ -202,7 +208,7 @@ def batch(rnd, spec_file):
 
 if __name__ == '__main__':
     if sys.argv[1] == 'candidate':
-        candidate(); print('wrote', CAND)
+        candidate(sys.argv[2].split(',') if len(sys.argv) > 2 else []); print('wrote', CAND)   # names not installed yet
     elif sys.argv[1] == 'install':
         install(sys.argv[2].split(','), sys.argv[3]); print('installed', sys.argv[2])
     else:

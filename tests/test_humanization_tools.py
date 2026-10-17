@@ -312,7 +312,13 @@ class LinterListsOfThree(unittest.TestCase):
         for s in ('If words are there, speak or write them.\n',
                   'Or you tell a therapist, \u201cNo, that\'s not right for me,\u201d and they call it resistance.\n',
                   'If the room itself triggers your spidey sense, leave, or lock the door and get help.\n',
-                  'Or something does come, a voice or a hunch, and you listen without putting it in charge.\n'):
+                  'Or something does come, a voice or a hunch, and you listen without putting it in charge.\n',
+                  # E186 (2026-10-17): an opening phrase, a speaker aside, a doubled word and a quote the sentence splitter
+                  # cut short aren't items, now that one list is a FAIL
+                  'In that view, repeated thought and intention shape the mind, and that keeps going through death.\n',
+                  'Repeated thought and intention shape the mind, it says, and that keeps going through death.\n',
+                  'Whatever you keep thinking and intending, over and over, bends the mind that way.\n',
+                  'If it makes you unreal, so it\'s hard to get back to your life, make it simpler: "I miss you, and I care."\n'):
             self.assertNotIn('E125', self.lint(s)[1], s)
 
     def test_installed_text_gets_no_flags(self):

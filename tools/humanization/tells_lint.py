@@ -407,6 +407,10 @@ def abstract_agents(sentence):
 LEAD = set("""but so because since though although if when whenever while as once until unless which that who whom whose
 where why how then than like even just before after""".split())
 PRON = set("i you he she it we they there this that these those".split())
+# E186 (2026-10-17): with a list of three now a FAIL, an opening phrase and a speaker aside stopped counting as items
+PREP = set("in on at for from by with within without during over under about after before across among around between "
+           "beyond inside outside through throughout toward towards upon".split())
+ASIDE = re.compile(r"(?:it|he|she|they|you|i|we)\s+(?:say|says|said|think|thinks|thought|know|knows|mean|guess|suppose|hope)\b", re.I)
 NOT_OR = re.compile(r"\bor\s+(not|so|less|more|else|other|two|three|whatever)\b", re.I)
 QUOTED = re.compile(r'"[^"]*"|“[^”]*”')
 WHO_ITEM = re.compile(r"who(?:'s|\s+(?:is|are|was|were))\b", re.I)
@@ -451,12 +455,15 @@ def _find(s):
         if who_list:
             if len(mw) > 14: continue
         elif not (1 <= len(mw) <= 6) or mw[0].lower() in LEAD | {'not'}: continue
+        # E186 (2026-10-17): "the mind, it says, and that keeps going" is an aside, not an item
+        if ASIDE.match(mid): continue
         if k - 2 == 0:
             fw = first.split()
             if len(fw) <= 1: continue                             # "Honestly, I think so, and he agreed"
             # an opening clause ("If the room itself triggers your spidey sense, leave, or lock the door"),
-            # unless the items are short ("If you're stuck, tired, or bored")
-            if _w0(first) in LEAD and not (len(mw) <= 2 and len(last.split()) <= 3): continue
+            # unless the items are short ("If you're stuck, tired, or bored"); since 2026-10-17 (E186) an opening phrase
+            # too ("In Buddhism, death isn't an off switch, and it isn't...")
+            if _w0(first) in LEAD | PREP and not (len(mw) <= 2 and len(last.split()) <= 3): continue
         a = seg[k-2][0] + len(seg[k-2][1].rstrip()) - len(' '.join(first.split()[-5:]))
         b = seg[k][0] + len(seg[k][1]) - len(seg[k][1].lstrip()) + len(' '.join(last.split()[:5]))
         hits.append(('serial', a, b))
@@ -470,7 +477,7 @@ def _find(s):
         if PAIR_IDIOM.match(part): continue
         if _w0(m.group(2)) in PRON or part.startswith('"'): continue  # "“No, that's not right for me,” and they call it": a clause
         prev = seg[k-1][1].strip()
-        if not prev or (k - 1 == 0 and (len(prev.split()) <= 1 or _w0(prev) in LEAD)): continue   # "If words are there, speak or write them"
+        if not prev or (k - 1 == 0 and (len(prev.split()) <= 1 or _w0(prev) in LEAD | PREP)): continue   # "If words are there, speak or write them"; "In that view, thought and intention shape the mind" (E186)
         # "Or something does come, a voice or a hunch, and": the pair says what came (an aside), it isn't a third item
         if re.match(r"(a|an|the|some)\s", part, re.I) and re.search(r"\b(does|do|did|is|are|was|were|can|could|will|would|might|may|has|have|had|comes?|came)\b", prev, re.I):
             continue
