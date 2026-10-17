@@ -1410,6 +1410,16 @@ class AuthorMarksReadExactLocksAndLinks(unittest.TestCase):
     """meaning_sweep.owner_strings (2026-10-16): his published "[My research](...) initially leaned too far that way.", kept by
     his 32 b as a must_contain_exact lock with its link, was in no owner string, so the pause tally listed "that way" as mine."""
 
+    def test_closing_quotes_and_line_breaks_survive_the_marks(self):
+        """2026-10-17: the splitter swallowed a closing quote after a sentence end ("keep clean.” Again" came out "keep
+        clean. Again"), so the faithfulness readers reported nine quotes missing that the article has."""
+        text = ('We sang: “Pick up your toys, keep clean.” Again and again. He said “little school.” I went.\n'
+                'A list line? (Not everyone does!) Then "First let\'s get land!" "Then a vision!" Done.')
+        self.assertEqual(meaning_sweep.mark_author(text, []), text)
+        out = meaning_sweep.mark_author(text, [meaning_sweep.norm('He said “little school.”')])
+        self.assertIn(meaning_sweep.MARK_OPEN + 'He said “little school.”' + meaning_sweep.MARK_CLOSE + ' I went.\nA list', out)
+        self.assertEqual(out.replace(meaning_sweep.MARK_OPEN, '').replace(meaning_sweep.MARK_CLOSE, ''), text)
+
     def test_an_exact_lock_with_a_link_marks_the_visible_sentence(self):
         with tempfile.TemporaryDirectory() as d:
             led = pathlib.Path(d) / 'OWNER-EDITS.json'

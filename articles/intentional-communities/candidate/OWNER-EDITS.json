@@ -1188,7 +1188,7 @@
   },
   {
    "id": "s12-joel-20261017-1311-psypost",
-   "status": "applied",
+   "status": "superseded",
    "words": "proposed",
    "what": "Section 12, the end of P2: the PsyPost study he sent, with his link and his \"no, duh\", and his screenshot after the paragraph (question 44 asks about the placement).",
    "joel": "i also want to add this link and screenshot somewhere in thea rticle where it belongs (altho it's kind of a \"no, duh\" study):  https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
@@ -1197,7 +1197,8 @@
     "A new study found that where relationships are easy to make and break, people even feel less on the same page with whoever doesn't help them reach their goals.",
     "Kind of a \"no, duh\" study, but still."
    ],
-   "link_note": "the link on \"new study\" is his: https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/"
+   "link_note": "the link on \"new study\" is his: https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
+   "superseded_by": "s12-joel-20261017-1716-44c"
   },
   {
    "id": "sweep-joel-20261017-1311-rules",
@@ -1215,6 +1216,87 @@
     "It's the most joking culture",
     "It's the sort of thing that doesn't make it into the history books.",
     "quietly boss"
+   ]
+  },
+  {
+   "id": "s12-joel-20261017-1716-44c",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 12: his P2 as written (my two sentences about the PsyPost study out); his screenshot after it, with his aside to me as the caption and the link on \"study\". Where it finally goes is question 46.",
+   "joel": "44c i was not saying to put the prose in, i wanted the actual screenshot with the link and my caption as that quote aside to you.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "must_contain": [
+    "Instead we optimize to fit the career market with all the little energy we've got.",
+    "It's kind of a \"no, duh\" study."
+   ],
+   "must_not_contain": [
+    "people even feel less on the same page with whoever",
+    "Kind of a \"no, duh\" study, but still."
+   ],
+   "must_link": [
+    {
+     "text": "study",
+     "url": "https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/"
+    }
+   ]
+  },
+  {
+   "id": "all-joel-20261017-1716-43",
+   "status": "claim",
+   "words": "his",
+   "what": "The exclamation rule (his 43): an exclamation is content; \"!\" becomes \".\" only where the sentence still reads right with a period. Otherwise cut the exclamation phrase itself, fix the AI structure under it, find a real turn of thought, or give him the paragraph. Applied in sections 15 and 16 (fix-20261017b/), in the gate doc.",
+   "joel": "43 the problem is you can't just change ! to . if the actual wording was put in as an exclamation. you can't change \"That's it!\" to \"that's it.\" ... so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sernse to, or idk ask me if you need help.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "must_not_contain": [
+    "That's it."
+   ]
+  },
+  {
+   "id": "all-joel-20261017-1716-45-pass",
+   "status": "pending",
+   "words": "proposed",
+   "what": "The whole-article faithfulness pass (his 45): the published words back where the readers found a loss or shift in my wording or Emulate's, in candidate sections (fix-20261017b/faithful/TRIAGE.md). Applied when batch 415g reads them Human.",
+   "joel": "45 we should do a final pass to make sure it's faithful to the original i think before we are done ... i will also read it thru but if you didn't yet then you should first to save me time.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "waits_for": "batch 415g and fix-20261017b/install_1716.py",
+   "must_contain": [
+    "something about the current arrangement is starving them.",
+    "I'm not claiming the Zapatistas already proved my whole model.",
+    "Being in community isn't automatically liberating. It all depends on who is allowed to belong without pretending.",
+    "had a real claim on whatever prosperity came through you later.",
+    "It can still change how people survive a divorce, an illness or grief.",
+    "rather than by declaring \"money is impure!\""
+   ],
+   "must_not_contain": [
+    "starvin’ them",
+    "It's interesting to see that being in community",
+    "whatever you made of yourself later",
+    "It can still make a difference when people are going through"
+   ]
+  },
+  {
+   "id": "all-joel-20261017-1716-43-applied",
+   "status": "pending",
+   "words": "proposed",
+   "what": "His 43 applied in sections 15 and 16 (fix-20261017b/make_excl.py): five marks to periods in section 15 and \"No, not that either.\"; four in section 16 and \"That's it!\" out; the real reactions and his own lines kept. Applied when 415g reads them Human.",
+   "joel": "43 ... so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sernse to, or idk ask me if you need help.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "waits_for": "batch 415g and fix-20261017b/install_1716.py",
+   "must_contain": [
+    "I find them so soothing.",
+    "Spiritual graffiti still surprises me.",
+    "Everybody here has sheep (even me), and they are super cute.",
+    "And the humor!",
+    "Every morning!",
+    "That's fine!",
+    "Or a sauna.",
+    "And practice before you have an audience.",
+    "No, not that either."
+   ],
+   "must_not_contain": [
+    "I find them so soothing!",
+    "That's it!",
+    "Spiritual graffiti still surprises me!"
    ]
   }
  ]

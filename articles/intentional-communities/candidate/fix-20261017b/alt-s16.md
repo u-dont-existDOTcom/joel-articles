@@ -1,0 +1,3 @@
+Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. (One is plenty for now.) You can talk about a shared future later.
+
+Go visit some real communities, the way I did as a kid. [Twin Oaks](https://twinoaks.org/) is one. [East Wind](http://eastwind.org/) is another, and so is [Acorn](https://www.ic.org/directory/acorn-community-farm/), and there are plenty of other [intentional communities](https://www.ic.org/). Lots of [ecovillages](https://ecovillage.org/) are open to visitors too. Check their current visitor requirements first.
