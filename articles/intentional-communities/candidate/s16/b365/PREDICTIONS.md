@@ -6,5 +6,9 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v18ebe-H3 | Human | the subsection alone, with both of the window's first two sentences changed back toward Emulate's (H3-P5's end and H3-P6) | |
-| S16v18ebe | Mixed | the whole section: v17 h q's also had 96 words of H2 in an AI window, which these changes don't touch | |
+| S16v18ebe-H3 | Human | the subsection alone, with both of the window's first two sentences changed back toward Emulate's (H3-P5's end and H3-P6) | **Mixed** (AI Detected; windows: Human, High, 165; AI-Generated, High, 133; Human, High, 77, 375 words, AI likelihood 0.51), 10:54:57, [check](https://www.pangram.com/history/5b533f99-9a98-40cb-b24f-3640884b2260) |
+| S16v18ebe | Mixed | the whole section: v17 h q's also had 96 words of H2 in an AI window, which these changes don't touch | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 27; AI-Generated, High, 35; Human, High, 62; AI-Generated, High, 313, 864 words, AI likelihood 0.49), 10:55:09, [check](https://www.pangram.com/history/3a5e976c-eb87-4cff-9532-828e7ca71106) |
+
+## Results of 365g
+
+One of two right. With H3-P8's first half from Emulate as well, the subsection and the whole section read as 364g's (133 and 313 words AI): H3-P8's first half moved nothing.

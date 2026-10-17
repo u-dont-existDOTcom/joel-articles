@@ -6,5 +6,9 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v18kbk-H3 | Mixed | the subsection alone; v17 h q's read AI over H3-P5's end to H3-P8 (136 words), and this changes part of that stretch | |
-| S16v18kbk | Mixed | the whole section: v17 h q's also had 96 words of H2 in an AI window | |
+| S16v18kbk-H3 | Mixed | the subsection alone; v17 h q's read AI over H3-P5's end to H3-P8 (136 words), and this changes part of that stretch | **Mixed** (AI Detected; windows: Human, Medium, 35; AI-Generated, High, 270; Human, High, 38; AI-Generated, High, 39, 382 words, AI likelihood 0.64), 10:54:16, [check](https://www.pangram.com/history/1133e7e3-dfa6-4f8e-adb0-2d756d223247) |
+| S16v18kbk | Mixed | the whole section: v17 h q's also had 96 words of H2 in an AI window | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 27; AI-Generated, High, 35; Human, High, 62; AI-Generated, High, 320, 871 words, AI likelihood 0.48), 10:54:27, [check](https://www.pangram.com/history/a7b6c777-c697-4657-940e-7cc11e6d3e8c) |
+
+## Results of 363g
+
+Two of two right. Emulate's whole run-on list for H3-P6 (with "You're not going to find any of that in a manifesto!") read worse: the subsection AI from H3-P2's last sentence to H3-P8 (270 words) and over H3-P11, the whole section AI from H3-P3's third sentence on.

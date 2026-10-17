@@ -6,5 +6,9 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v18ebk-H3 | Human | the subsection alone, with both of the window's first two sentences changed back toward Emulate's (H3-P5's end and H3-P6) | |
-| S16v18ebk | Mixed | the whole section: v17 h q's also had 96 words of H2 in an AI window, which these changes don't touch | |
+| S16v18ebk-H3 | Human | the subsection alone, with both of the window's first two sentences changed back toward Emulate's (H3-P5's end and H3-P6) | **Mixed** (AI Detected; windows: Human, High, 165; AI-Generated, High, 138; Human, High, 77, 380 words, AI likelihood 0.51), 10:54:36, [check](https://www.pangram.com/history/3daf01df-27aa-47ba-803e-9f1efa07677b) |
+| S16v18ebk | Mixed | the whole section: v17 h q's also had 96 words of H2 in an AI window, which these changes don't touch | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 27; AI-Generated, High, 35; Human, High, 62; AI-Generated, High, 318, 869 words, AI likelihood 0.48), 10:54:47, [check](https://www.pangram.com/history/a730a891-ec3a-402e-8892-5e86ae06493a) |
+
+## Results of 364g
+
+One of two right. H3-P5's new end with the run-on H3-P6: the subsection AI over the same stretch as 359g's (138 words), the whole section AI from H3-P3's third sentence on (318 words), as in 363g.
