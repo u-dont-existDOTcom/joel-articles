@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "25821b3a26189e593947cb653bf2a667c75d7cea39d924224e946caa3d13f02b"
+          "sha256": "571ff01f94779ce81340732ac4d876c22d19b1209cab343c80e3f39e8b3cb4cf"
         }
       },
       "review": {
@@ -9279,7 +9279,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t62-guide/REVIEWS.md",
-          "sha256": "d294523d23b20353246235c1f90c03b2ac64084830992d8ac988f156704de436",
+          "sha256": "f530f0e677b0beef663575e6e1a9b612eca10133f0ed06d9929f829a19d5bfb5",
           "role": "humanization_working_record"
         },
         {
@@ -9330,6 +9330,11 @@
         {
           "path": "articles/inner-child-therapy/experiments/t62-guide/SECTION-DRAFT-2.md",
           "sha256": "b125e0cfd6ebe685368cf17a74c1a0a023e7a8f6178ae46271e53f6f54d16b59",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t62-guide/COLD-READ-2.md",
+          "sha256": "57b5a2340d06902810b8c71050befd8d3e5dd3d291c8af6908511a54674cb918",
           "role": "humanization_working_record"
         }
       ]
