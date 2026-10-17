@@ -36,11 +36,14 @@ def section_text(md, heading):
     return '\n\n'.join(b.strip() for b in re.split(r'\n\s*\n', md[start:]) if b.strip())
 
 
-def build(article, heading, rnd, cands, section_march, note):
-    """Drafts and gate records for every candidate: alone, after the section's last block, and in the section."""
-    sec = section_text(pathlib.Path(article).read_text(encoding='utf-8'), heading)
+def build(article, heading, rnd, cands, section_march, note, more=()):
+    """Drafts and gate records for every candidate: alone, after the section's last block, and in the section.
+    MORE: (heading, march) pairs for the larger sections around it (an h1 around an h2), each checked too."""
+    md = pathlib.Path(article).read_text(encoding='utf-8')
+    sec = section_text(md, heading)
     before = sec.split('\n\n')[-1]
     n = len([b for b in sec.split('\n\n') if not b.startswith('#')])
+    outer = [(h, m, section_text(md, h)) for h, m in more]
     drafts, gate = {}, {}
     for path, march in cands:
         text = pathlib.Path(path).read_text(encoding='utf-8').strip()
@@ -48,14 +51,20 @@ def build(article, heading, rnd, cands, section_march, note):
         drafts[f'{rnd}_{tag}'] = text
         gate[f'{rnd}_{tag}'] = {'kind': 'screen', 'march': [march], 'lint': 'REVIEW',
                                 'note': f'{note}; {pathlib.Path(path).stem}. March: my own reading.'}
-        drafts[f'{rnd}_pair{tag}'] = before + '\n\n' + text
-        gate[f'{rnd}_pair{tag}'] = {'kind': 'screen', 'march': [f'P{n} (installed) | P{n + 1} {march}'], 'lint': 'REVIEW',
-                                    'note': f'{rnd}: P{n}+P{n + 1}, the paragraph before and {pathlib.Path(path).stem}.'}
+        if not before.startswith('#'):  # under a fresh heading the pair is the section itself, checked below
+            drafts[f'{rnd}_pair{tag}'] = before + '\n\n' + text
+            gate[f'{rnd}_pair{tag}'] = {'kind': 'screen', 'march': [f'P{n} (installed) | P{n + 1} {march}'], 'lint': 'REVIEW',
+                                        'note': f'{rnd}: P{n}+P{n + 1}, the paragraph before and {pathlib.Path(path).stem}.'}
         drafts[f'{rnd}_sec{tag}'] = sec + '\n\n' + text
         gate[f'{rnd}_sec{tag}'] = {'kind': 'screen', 'march': [f'{section_march} | P{n + 1} {march}'], 'lint': 'REVIEW',
                                    'note': f'{rnd}: {heading} with P{n + 1} = {pathlib.Path(path).stem}.'}
+        for i, (h, m, osec) in enumerate(outer, 2):
+            drafts[f'{rnd}_sec{i}{tag}'] = osec + '\n\n' + text
+            gate[f'{rnd}_sec{i}{tag}'] = {'kind': 'screen', 'march': [f'{m} | {march}'], 'lint': 'REVIEW',
+                                          'note': f'{rnd}: {h} with {pathlib.Path(path).stem} at its end.'}
     order = [k for k in drafts if '_pair' not in k and '_sec' not in k]
-    order += [k for k in drafts if '_pair' in k] + [k for k in drafts if '_sec' in k]
+    order += [k for k in drafts if '_pair' in k] + [k for k in drafts if '_sec' in k and not re.match(r'.*_sec\d', k)]
+    order += [k for k in drafts if re.match(r'.*_sec\d', k)]
     return {k: drafts[k] for k in order}, {k: gate[k] for k in order}, n + 1
 
 
@@ -66,10 +75,13 @@ def main(argv=None):
     ap.add_argument('--label', default='the new paragraph')
     ap.add_argument('--note', default='')
     ap.add_argument('--prediction', default='Human, low (my call)')
+    ap.add_argument('--outer', action='append', default=[], metavar='HEADING::MARCH',
+                    help='a larger section around --heading to check too, with its march (e.g. the h1 around an h2)')
     ap.add_argument('cands', nargs='+', help='DRAFT.txt:MARCH')
     a = ap.parse_args(argv)
     cands = [c.rsplit(':', 1) for c in a.cands]
-    drafts, gate, pn = build(a.article, a.heading, a.round, cands, a.section_march, a.note or a.round)
+    more = [tuple(o.split('::', 1)) for o in a.outer]
+    drafts, gate, pn = build(a.article, a.heading, a.round, cands, a.section_march, a.note or a.round, more)
     out = pathlib.Path(a.out_prefix)
     out.with_name(out.name + '-drafts.json').write_text(json.dumps(drafts, indent=1, ensure_ascii=False), encoding='utf-8')
     out.with_name(out.name + '-gate.json').write_text(json.dumps(gate, indent=1, ensure_ascii=False), encoding='utf-8')
@@ -79,6 +91,9 @@ def main(argv=None):
         words = len(text.split())
         if stem.startswith('pair'):
             what = f'P{pn - 1}+P{pn}, with {stem[4:]} ({words} words)'
+        elif re.match(r'sec\d', stem):
+            h = more[int(stem[3]) - 2][0]
+            what = f'{h} with {stem[4:]} at its end ({words} words)'
         elif stem.startswith('sec'):
             what = f'{a.heading} with P{pn} = {stem[3:]} ({words} words)'
         else:
