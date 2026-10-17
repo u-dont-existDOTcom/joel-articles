@@ -50,17 +50,17 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 ## The pages Joel uses
 - Community Article Questions: https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J, published by the account of session 01Mxpoi6…; only that account can republish it. Its master is `candidate/OWNER-QUESTIONS.md` (render: `python3 tools/render_questions.py OWNER-QUESTIONS.md community-questions.html` from `candidate/`; the cloud workspace has Python's markdown module, the laptop doesn't). From the other account, update the file, push, and give Joel the file's GitHub link as [text](url): https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1017/articles/intentional-communities/candidate/OWNER-QUESTIONS.md (on main after this branch's pull request merges). Run `pangram_links_check.py` on it and `tools/humanization/html_links.py` on the rendered page. Version 14 published 2026-10-17 at night (questions 52 to 54).
 - Rule Scoring Sheet https://claude.ai/artifact/NeH9dPAYfd1vGDSMTy1fGN and Prediction Scorecard https://claude.ai/artifact/Sjpy4EiZGUa21iiMstDLPv: same account as the questions page (`candidate/scoring/`, `candidate/prediction-review/`). Rebuild the scorecard's data after any turn with Pangram checks (from `candidate/`: `python3 prediction-review/fix_preds.py && python3 prediction-review/scorecard.py prediction-review/prediction-calls.json`; predictions go in a fix folder's or a section batch folder's (`sN/bNNN/`) `PREDICTIONS.md` under "## Batch NNNg", with a Pangram column or a "Results of NNNg" line), then the publishing account uploads the JSON and republishes (`prediction-review/dashboard/README.md`).
-- Every turn, send Joel the article so far (`candidate/community-article-so-far.html`) and the side-by-side page of any section that changed, as files (section 13's page: `s13/make_page_v35.py`; section 14's: `s14/make_page_v8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
+- Every turn, send Joel the article so far (`candidate/community-article-so-far.html`) and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
 1. Merge pull request 189 (`claude/community-joel-1017`, https://github.com/u-dont-existDOTcom/joel-articles/pull/189): `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge`.
-2. Questions 45 to 51 on the questions page (each with a default if he doesn't answer).
-3. The new image 7 address, when his post with the rebuilt diagram is up (the article file still links the old one); and his upload of the PsyPost screenshot to Substack (the article has an image note with his caption where it goes; question 46 may move it).
-4. Still open from earlier: J4's "be nice" (section 11, optional); section 4's Abhidhamma line, if he meant it back; whether E173 stays (my opinion: keep it).
+2. Questions 52 to 54 on the questions page (each with a default if he doesn't answer).
+3. The new image 7 address, when his post with the rebuilt diagram is up (the article file still links the old one); and his upload of the PsyPost screenshot to Substack (the article has an image note with his caption in section 12; his 46 a moves it to section 2 once section 2 passes with it).
+4. Still open from earlier: J4's "be nice" (section 11, optional); section 4's Abhidhamma line, if he meant it back. (E173 now exempts a cut, after his Pangram test of 2026-10-17 21:37.)
 
 ## Next step
-1. His answers to 45 to 51 (the START HERE block says what each "a" leads to).
-2. After 45 a: promotion of the humanized article to the registered master with a promotion receipt.
+1. His answers to 52 to 54 (the START HERE block says what each leads to).
+2. Once section 2 is settled: his 45 a, the promotion of the humanized article to the registered master with a promotion receipt (`fix-20261017d/make_master.py`, `promote.py`).
 3. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`, `python scripts/validate_article_architecture_maps.py --root .`, `python scripts/audit_codex_github.py --root . --fail-on error`); the hashes of `CURRENT-STATE.md` and `DETECTOR-EVIDENCE.json` in `articles/INDEX.json` are replaced by hand when either changes (the session's `prepush.py` did both).
 
 ## Where everything is
