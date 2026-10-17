@@ -1426,6 +1426,19 @@ class ClickableLinks(unittest.TestCase):
         miscount = good.replace('Open questions: 1.', 'Open questions: 0.')
         self.assertTrue(any('header says 0' in p for p in questions_lint.problems(miscount)))
 
+    def test_the_questions_lint_finds_a_decision_under_for_you_to_do(self):
+        """Joel, 2026-10-17 02:07 UTC: "now you say for me to do (no decision needed) then ask me to make 2 decisions, emrging
+        and accepting changes, funny." """
+        sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
+        import questions_lint
+        head = '# Q\n\nLast updated today. **Open questions: 0.**\n\n## Open questions\n\nNone right now.\n\n'
+        todo = '## For you to do\n\n- 🟠 Merge this turn\'s work: `gh pr merge 1`.\n\n## Decided\n\n- 🟢 done\n'
+        self.assertEqual(questions_lint.problems(head + todo), [])
+        claim = todo.replace('## For you to do', '## For you to do (no decision needed)')
+        self.assertTrue(any('says no decision is needed' in p for p in questions_lint.problems(head + claim)))
+        accept = todo.replace("- 🟠 Merge this turn's work", '- 🟠 Look over sections 13 and 14 and say "accept 13 and 14", or what to change')
+        self.assertTrue(any('asks for a decision' in p for p in questions_lint.problems(head + accept)))
+
     def test_the_chat_check_fails_a_bare_address_and_passes_a_written_link(self):
         script = str(TOOLS / 'pangram_links_check.py')
         with tempfile.TemporaryDirectory() as d:
