@@ -32,7 +32,7 @@
 
 ## Practical Community-Building Guides
 
-[***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) by Diana Leafe Christian is the place to start, for the nuts and bolts of membership, money, land and agreements.
+Where do you start with the nuts and bolts? [***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) by Diana Leafe Christian, for membership, money, land and agreements.
 
 Want a guide to intentional community that covers the whole system? There's [***Building Belonging***](https://www.ic.org/building-belonging/) by Yana Ludwig.
 

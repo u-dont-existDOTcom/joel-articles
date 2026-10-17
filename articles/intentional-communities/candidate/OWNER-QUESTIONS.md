@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-17, during the overnight run that began with your message of 02:07 UTC. **Open questions: 0.** Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "39 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
+Last updated 2026-10-17, during the overnight run that began with your message of 02:07 UTC. **Open questions: 3** (39 to 41). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "39 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,7 +9,28 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> None right now. New ones from tonight's work will show up here, each with what happens if you don't answer.
+> Three questions from tonight's work. Each quotes its passage; the side-by-side pages sent with this run's message show them in place.
+
+**🟣 39. Section 4's "container" and section 16's order.** Section 4 calls its fourth part "the practical logistical foundation", and its container section says "this container is what gives those a stable place to manifest". Section 16 says practice comes before property, with land last. A reviewer wasn't sure a reader would see a conflict.
+- a) Leave both as they are. **My pick**: the container is what the community ends up with, and section 16 is the order you build it in.
+- b) Add a few words to section 16 tying them together, for example "(the container from section 4 comes last, not first)".
+- c) Your own words.
+
+If you don't answer, both stay as they are (a).
+
+**🟣 40. Section 15: the extended family and the local memory.** In the article now: "In the villages and families I've spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems." It's the only one of eleven wordings that reads Human alone ([check](https://www.pangram.com/history/2a616fc2-d2b6-4d43-afc7-22816e9e01b6)). You published that these things "often pass through" them, and a meaning check called "so much is taken care of" a shift. All ten wordings that keep "often" read AI alone, for example "things often go through the extended family" ([check](https://www.pangram.com/history/450082a7-13ba-4d19-8e9b-e00aedad18a2)). The whole section reads 100% Human either way ([check](https://www.pangram.com/history/f0106f75-7ed8-4096-b923-1752da5706dc)).
+- a) Keep "so much is taken care of by". **My pick**: the aunt who "has already given three people a task" is the family taking care of it, so it says what the paragraph means.
+- b) Your published sense, "things often go through ...", though that paragraph then reads AI alone, against your rule.
+- c) Your own words for that sentence; I check them alone and in the section.
+
+If you don't answer, a stays.
+
+**🟣 41. Breaks in a reading list.** The rule that every paragraph needs a break (a reaction, a question, an aside) can't work for the appendix's one-line entries, so I read it per run of entries, the same stretch Pangram reads, and added one to each run that had none: questions and asides like "Why this one?" before *American Commune*, "Want it straight from the Zapatistas?" and "Where do you start with the nuts and bolts?".
+- a) Keep the breaks, and read a list's breaks per run. **My pick**.
+- b) A reading list doesn't need them: take them out, and let list entries skip the break rule (Pangram still has to pass them).
+- c) Something else.
+
+If you don't answer, a.
 
 ## For you to do
 
@@ -23,6 +44,11 @@ The master copy of this page is a file in Git, so a session in either of your ac
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 Overnight, your dedup rule (02:07: "you can only cut if it isn't losing important meaning or there's no good way to merge") on sections 15, 16 and the appendix. Cut, because another place says the point:
+  - Section 16: "I'm in Sénégal and expect to buy land, but I'm not announcing a commune." (section 2 says it); the first money stage, households that stop buying the basics among themselves (section 4 says it in your words); "already contains a real piece of community" (section 13 opens with it); "He made a film, founded a research organization, and carried me through communal experiments." (sections 1 and 14); and the month's lead-in "without the heroic land purchase" (the section says land can wait four other times).
+  - The appendix: "and now online" on your father's film (section 1 says it, and the entry links it), and "My father lived there for 17 years." on *Inside the Bruderhof* (sections 1 and 4).
+  - Kept in both places, because each carries its own point: section 15's twelve repeats the check found, and section 16's six others (the forty acres, training people who build elsewhere, the order of steps, among them). The record of each is in the repeats file.
+- 🟢 Your 23:38 point about the book's order, in the appendix too: "start here for sequencing, membership, money, land, and agreements" is now "the place to start, for the nuts and bolts of membership, money, land and agreements".
 - 🟢 2026-10-17 02:07 UTC: "35b because i don't see how we could cut one of those without losing the intended meaning (that should be a standing dedup pass rule, you can only cut if it isn't losing important meaning or there's no good way to merge)". Both stay: your removal sentence in section 13 and section 8's about a child's report. Your rule is now in the shared rules for every article: a dedup cut is made only when it loses no important meaning, and when both places carry meaning and there's no good way to merge them, both stay, with a note saying what each carries.
 - 🟢 02:07: "36a". In: section 10's last paragraph now says "store the full case history (with private details protected) so it can be re-evaluated in future". The paragraph reads Human alone ([check](https://www.pangram.com/history/c0bea610-c638-47c8-9473-a424070bb159)) and section 10 reads 100% Human ([check](https://www.pangram.com/history/a20d6f1a-66a7-41c6-9468-1524d6578d72)).
 - 🟢 02:07: "37a". Section 14's four short breaks stay.

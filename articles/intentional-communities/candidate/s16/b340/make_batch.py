@@ -1,6 +1,6 @@
 """Batch 340g (2026-10-17): screens (E175) of section 16 draft v7 (../make_v7.py: H1 rebuilt from Emulate round c in two shapes,
-n and e, and H3-P4 as round c's questions). For each shape: H1-P1 with H1-P2, H1-P2 with H1-P3, H1, and the whole section;
-H3-P3 with H3-P4, H3-P4 with H3-P5, and H3, once. Marches: review-r12 (two readings) for the new paragraphs, the rest as in
+n and e, H3-P4 as round c's questions, and H3-P6 with trace r13 T3's fix). For each shape: H1-P1 with H1-P2, H1-P2 with
+H1-P3, H1, and the whole section; H3-P3 to H3-P7 in pairs, and H3, once. Marches: review-r12 and r14 (two readings) for the new paragraphs, the rest as in
 337g. Run from candidate/: python3 s16/b340/make_batch.py"""
 import hashlib, json, pathlib, re, subprocess, sys, tempfile
 
@@ -27,7 +27,7 @@ L = labels(S16 / 'review-r2')
 for n, p in enumerate(json.loads((S16 / 'review-r2' / 'march-ids.json').read_text()), start=1):
     MARCH[p] = [m[n] for m in L]
 for rnd in ('review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 'review-r6', 'review-r8', 'review-r9',
-            'review-r10', 'review-r11', 'review-r12'):
+            'review-r10', 'review-r11', 'review-r12', 'review-r14'):
     L = labels(S16 / rnd)
     for n, p in enumerate(json.loads((S16 / rnd / 'march-ids.json').read_text()), start=1):
         if p.startswith('s15-'):
@@ -76,6 +76,8 @@ for shape in ('n', 'e'):
     if shape == 'n':
         add('S16v7-H3-P3+P4', ['H3-P3', 'H3-P4'], T, M)
         add('S16v7-H3-P4+P5', ['H3-P4', 'H3-P5'], T, M)
+        add('S16v7-H3-P5+P6', ['H3-P5', 'H3-P6'], T, M)
+        add('S16v7-H3-P6+P7', ['H3-P6', 'H3-P7'], T, M)
         add('S16v7-H3', SUB['H3'], T, M)
     key = 'S16v7' + shape
     drafts[key] = '\n\n'.join(plain(re.sub(r'^\[caption\]\s*', '', b).lstrip('#').strip()) for b in reader)

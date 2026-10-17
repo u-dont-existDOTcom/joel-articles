@@ -15,6 +15,8 @@ stretch sent whole), the published meaning put back inside Emulate's sentences.
   "IF YOU WANT TO" (an added choice).
 - H3-P4 (c03, call B): the possible places as questions ("Are there any unprogrammed Quaker meetings or restorative-practice
   groups near you? ..."), the person back from a long retreat kinder, "rather than more impressed with themselves", the last.
+- H3-P6: trace T3 of review-r13's fix, the four lessons of a visit joined again ("Which labor system drives you nuts!" for
+  "Or which ...").
 Writes v7.md and v7-variants.json. Run from this folder: python3 make_v7.py [n|e]"""
 import json, pathlib, subprocess, sys
 
@@ -61,8 +63,13 @@ V = {
 NEW_P4 = ("Where do you find them? Are there any unprogrammed Quaker meetings or restorative-practice groups near you? Any "
           "open-hearted congregations? Maybe a mature recovery group, or a meditation group? Or someone who came back from a long "
           "retreat kinder, rather than more impressed with themselves?")
+# trace T3 of review-r13: H3-P6's "Or which labor system drives you nuts!" offered the labor system as an alternative to the
+# other lessons (SHIFT); the published joins all four with "and"
+P6_OLD = "Or which labor system drives you nuts!"
+P6_NEW = "Which labor system drives you nuts!"
+assert t.count(P6_OLD) == 1
 v = V[choice]
-t = t.replace(P1, v['H1-P1']).replace(P2, v['H1-P2']).replace(P3, v['H1-P3']).replace(P4, NEW_P4)
+t = t.replace(P1, v['H1-P1']).replace(P2, v['H1-P2']).replace(P3, v['H1-P3']).replace(P4, NEW_P4).replace(P6_OLD, P6_NEW)
 (HERE / 'v7.md').write_text(t, encoding='utf-8')
 (HERE / 'v7-variants.json').write_text(json.dumps({'H1': V, 'H3-P4': NEW_P4, 'chosen': choice}, ensure_ascii=False, indent=1) + '\n',
                                        encoding='utf-8')
