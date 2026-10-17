@@ -71,6 +71,7 @@ What else I tried, in all three: lists cut to pairs or ended on a catch-all, asi
 - **A. Your versions** of any of them.
 - **B. The tells I'm missing**, and I'll try again.
 - **C. Leave it for now**: the section stays parked, with the five paragraphs that read Human.
+- **D. P2 can carry fewer of the guide's items** (say which can go): it would no longer finish the whole list.
 
 ## For you to do (no decision needed)
 
