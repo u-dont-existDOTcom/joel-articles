@@ -625,7 +625,7 @@ Note that "outside" doesn't have to mean the nation-state. [My research](https:/
 
 Also decide on a mediator or ombud in advance. Why bother? People often won't trust someone they haven't already met, who comes in during a crisis as a "neutral stranger." A mediator doesn't obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good relations between people. When people can't or won't consent to being in community any more, they still need a final separation.
 
-<!-- CANDIDATE: section 14 v5 (2026-10-16): Emulate round a's call A of the published section with the preservation keys and Emulate's slips put back (s14/make_v1.py), a break in each paragraph (make_v2.py), the meaning reviews' fixes (make_v3.py, make_v4.py), ending W2 for the father lines and the close, and P2 at the length that reads as one window (make_v5.py). Records: s14/review-r1 to review-r5 with DISPOSITIONS-r3.md and DISPOSITIONS-r5.md; key-word check PASS (s14/preservation-keys.json); lint REVIEW. Pangram web app, every group Human (305g, 305g-x) and the whole section 100% Human, high (382 words, AI likelihood 0.19, 19:54:06 UTC, batch 306g, https://www.pangram.com/history/c04a43b6-a611-4d68-bb76-2f644ee64654). Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 14 v8 (2026-10-17): v5 deduplicated at Joel's word (2026-10-16 23:38 UTC): the last paragraph's point in P5, P2 kept as in v5 after two shorter versions read AI alone (313g, 315g), and "The Farm's communal economy" (a repeated pause) (s14/make_v6.py to make_v8.py). Records: s14/review-r1 to review-r6 with their DISPOSITIONS files; key-word check PASS; lint REVIEW. Pangram web app: every paragraph Human alone (305g-x, 315g; tools/humanization/paragraphs_alone.py PASS) and the whole section Human (316g). Not accepted until Joel says so. -->
 # Dissolution and Exit
 
 [image 18](https://substackcdn.com/image/fetch/$s_!9Q3c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd2a051-9ac5-4630-868b-5a37226707f9_1536x1024.png)
@@ -638,11 +638,9 @@ Think of it like a living will, and assign a bridge or successor for each critic
 
 Dissolution terms are also a way for a group to end without turning every friendship into evidence. Who wants that? People may leave hurt, but they keep the transition support they agreed on, and their dignity. And they can tell a coherent story of what happened.
 
-Institutions and relationships don’t die at the same time. What a relief! The film *American Commune* follows two sisters who grew up on The Farm. When one of them later became ill, former members who hadn’t seen her in years reached out with support. The communal economy had changed dramatically, but the bonds hadn’t vanished.
+Institutions and relationships don’t die at the same time, and some of what people learned to give one another may go on too. What a relief! The film *American Commune* follows two sisters who grew up on The Farm. When one of them later became ill, former members who hadn’t seen her in years reached out with support. The Farm’s communal economy had changed dramatically, but the bonds hadn’t vanished.
 
 My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).
-
-Even after the community ends as a legal entity, some of what people learned to give one another may go on. I hope so, anyway.
 
 # What This Looks Like From Sénégal
 

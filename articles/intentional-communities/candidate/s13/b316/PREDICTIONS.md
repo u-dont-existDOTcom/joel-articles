@@ -6,12 +6,14 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S13v33-H1-P3+P4 | Human | H1-P3 is 48 words now, so it goes with H1-P4; read Human alone in 312g (0.00); the conflict clause cut, "long before anyone needs a land surveyor" | |
-| S13v33-H4-P8 | Human | read Human alone in 312g (0.00); "It'll show you whether your way of coordinating works." in place of the soul clause | |
-| S13v33-H1 | Human | read Human in 314g (0.01) | |
-| S13v33-H4 | Mixed | its first 183 words read AI alone in 314g, and in 304g; v33 changes only H4-P8, after that stretch | |
-| S13v33-H2-P4 | Human | one question instead of a run, "(And who owns the land!)", "These are uncomfortable conversations, I know" | |
-| S13v33-H2-P3b+P4 | Human | "That's a real value too!" before it | |
-| S13v33-H2 | Human | the values subsection read Human alone in 307g to 310g with the old H2-P4 | |
-| S13v33 | Human | the one AI window of 314g was H2-P4; nothing else changed | |
-| S14v8 | Human | v7 read 100% Human (0.09, 315g); v5's P2 read Human alone and inside v5 | |
+| S13v33-H1-P3+P4 | Human | H1-P3 is 48 words now, so it goes with H1-P4; read Human alone in 312g (0.00); the conflict clause cut, "long before anyone needs a land surveyor" | **Human** (Human Written, high, 164 words, AI likelihood 0.00), 00:49:54, [check](https://www.pangram.com/history/629463f5-c6b0-4458-a3cd-45113f60cc24) |
+| S13v33-H4-P8 | Human | read Human alone in 312g (0.00); "It'll show you whether your way of coordinating works." in place of the soul clause | **Human** (Human Written, low, 81 words, AI likelihood 0.00), 00:50:04, [check](https://www.pangram.com/history/c62eb9db-2c6e-4a59-a94c-d1f0f5e32216) |
+| S13v33-H1 | Human | read Human in 314g (0.01) | **Human** (Human Written, high, 354 words, AI likelihood 0.04), 00:50:15, [check](https://www.pangram.com/history/752e8d91-9737-4181-a156-5ec3a9b3af8c) |
+| S13v33-H4 | Mixed | its first 183 words read AI alone in 314g, and in 304g; v33 changes only H4-P8, after that stretch | **Mixed** (AI Detected; windows: AI-Generated, High, 183; Human, High, 492, 675 words, AI likelihood 0.27), 00:50:25, [check](https://www.pangram.com/history/a40ac610-f293-4d05-adbc-d0318978aab3) |
+| S13v33-H2-P4 | Human | one question instead of a run, "(And who owns the land!)", "These are uncomfortable conversations, I know" | **Human** (Human Written, low, 82 words, AI likelihood 0.10), 00:50:36, [check](https://www.pangram.com/history/031886a5-f791-4867-9d69-645d7fa59c53) |
+| S13v33-H2-P3b+P4 | Human | "That's a real value too!" before it | **Human** (Human Written, medium, 134 words, AI likelihood 0.02), 00:50:48, [check](https://www.pangram.com/history/25fb8797-923a-485e-a79d-fbe5781b5311) |
+| S13v33-H2 | Human | the values subsection read Human alone in 307g to 310g with the old H2-P4 | **Human** (Human Written, high, 359 words, AI likelihood 0.00), 00:51:01, [check](https://www.pangram.com/history/feef6cc8-42ed-4ad0-8ac6-7cac2972cf82) |
+| S13v33 | Human | the one AI window of 314g was H2-P4; nothing else changed | **Mixed** (AI Detected; windows: Human, High, 422; AI-Generated, High, 291; Human, High, 1513, 2226 words, AI likelihood 0.17), 00:51:14, [check](https://www.pangram.com/history/2be7c617-a4ed-4ea2-a9f5-14b303c84775) |
+| S14v8 | Human | v7 read 100% Human (0.09, 315g); v5's P2 read Human alone and inside v5 | **Human** (Human Written, high, 373 words, AI likelihood 0.17), 00:51:23, [check](https://www.pangram.com/history/22059ea5-61c6-479a-b9c9-2cb8432b3df9) |
+
+Results of 316g (Pangram's History, 2026-10-17 00:49:54 to 00:51:23 UTC): 8 of 9 predictions right. Every changed paragraph reads Human alone (H1-P3+P4 0.00, H4-P8 0.00, H2-P4 0.10 low, H2-P3b+P4 0.02), and so do the first and values subsections (0.04 and 0.00). Section 14 v8 reads 100% Human (0.17). The miss: the whole of section 13 reads "AI Detected" (0.17), with one AI window of 291 words, from the end of H2-P1 (the monologue's last line) through H2-P4, the values paragraphs after the monologue, while the values subsection alone reads Human (0.00, high). So those paragraphs read Human only with the monologue's help, which is Joel's point at 23:38 ("it's all fairly borderline human"): their tells were the instructions ("This list should also include", "You should also include", "Make sure your list of values declares"), "whether or not" three times, and the tidy verdict. v34 (`../make_v34.py`) rewrites them from Emulate round k. The visitor subsection alone reads AI over its first 183 words again, as in 304g and 314g; inside the whole section it reads Human.

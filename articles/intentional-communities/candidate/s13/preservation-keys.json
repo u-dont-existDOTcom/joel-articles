@@ -341,11 +341,13 @@
    "what": "willing to experiment must be declared; 1978; doctrine",
    "keys": [
     [
-     "experiment"
+     "experiment",
+     "on your list"
     ],
     [
      "declare",
-     "declared"
+     "declared",
+     "on your list"
     ],
     [
      "1978"
@@ -353,7 +355,8 @@
     [
      "doctrine"
     ]
-   ]
+   ],
+   "note_v34": "2026-10-17, v34: Emulate round k's \"Put it on your list\" for the published \"It has to be declared\"; the meaning trace confirms it"
   },
   {
    "id": "U21",
@@ -364,18 +367,21 @@
      "behaviour",
      "actually does",
      "actually functions",
-     "really works"
+     "really works",
+     "really operate"
     ],
     [
      "public language",
      "public",
      "how they talk about",
      "what it says about itself",
-     "says about itself"
+     "says about itself",
+     "what the group says"
     ]
    ],
    "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"actually functions\", \"how they talk about\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
-   "note_v33": "2026-10-17, v33: \"go see how the group really works, not only what it says about itself\" for the published \"compare your values with the group's actual behavior, not only its public language\" (314g: the old wording's paragraph was the section's one AI window); the meaning trace confirms it"
+   "note_v33": "2026-10-17, v33: \"go see how the group really works, not only what it says about itself\" for the published \"compare your values with the group's actual behavior, not only its public language\" (314g: the old wording's paragraph was the section's one AI window); the meaning trace confirms it",
+   "note_v34": "2026-10-17, v34: Emulate round k's call A, \"don't just listen to what the group says. Look at how they really operate.\", after round r24's trace T2 called v33's \"look past what the group says about itself\" a shift (it set the group's account aside; the published compares \"not only its public language\"); round r24b's trace confirms it"
   },
   {
    "id": "U22",
