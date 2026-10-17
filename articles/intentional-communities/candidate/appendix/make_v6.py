@@ -5,7 +5,8 @@ talks ("I did a ton of research for this, by the way"; Emulate's call B: "If you
 conclusions"), and keep the published claims: a much larger source audit than fits in the article, the report's evidence
 base, limits, counterexamples and what he still couldn't verify, and the report as the way to inspect the research without
 a 200-row ledger in the article.
-- r3: "I did a ton of research for this, by the way: ..." ending on the ledger and an emoji;
+- r3: "I did a ton of research for this, by the way: ..." ending on the ledger, "Phew!" and an emoji (ending on the
+  ledger and the emoji alone, the march found no break in either reading, review-r5);
 - r4: "If you're curious how I got to all this, ..." ending on "Can you imagine?" and an emoji.
 v6 is o1 with r3, v6x o1 with r4. Writes v6.md, v6x.md and v6-variants.json. Run from this folder: python3 make_v6.py"""
 import json, pathlib, subprocess, sys
@@ -19,7 +20,7 @@ assert t.count(R1) == 1
 V = {
  'r3': ("I did a ton of research for this, by the way: a much bigger source audit than would comfortably fit in an article. The "
         "[public research report](%s) has the evidence base and its limits, the counterexamples, and what I still couldn't "
-        "verify. That way you can check my work without this article turning into a 200-row ledger 😅" % RU),
+        "verify. That way you can check my work, and this article doesn't turn into a 200-row ledger. Phew! 😅" % RU),
  'r4': ("If you're curious how I got to all this, the research behind it was a much bigger source audit than would comfortably "
         "fit in an article. It's all in the [public research report](%s), with the evidence base and its limits, the "
         "counterexamples, and what I still couldn't verify. So you can check it yourself, and this article doesn't have to be a "

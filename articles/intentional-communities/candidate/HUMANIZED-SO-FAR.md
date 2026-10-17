@@ -642,21 +642,22 @@ Institutions and relationships don’t die at the same time, and some of what pe
 
 My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).
 
+<!-- CANDIDATE: section 15 v12 (2026-10-17, the overnight run): Emulate rounds a to e (s15/emu-a to emu-e) with the published meaning put back (s15/make_v1.py to make_v12.py), meaning rounds r1 to r8 with their DISPOSITIONS files, key-word check PASS, lint REVIEW. Pangram web app: every paragraph Human alone (322g to 335g; tools/humanization/paragraphs_alone.py PASS) and the whole section 100% Human (338g). H1-P4 is round d's shape c ("so much is taken care of by"), the only one of eleven that reads Human alone; trace r7 called it a shift from the published "often pass through", so it is question 40 for Joel. Not accepted until Joel says so. -->
 # What This Looks Like From Sénégal
 
 [image 19](https://substackcdn.com/image/fetch/$s_!Uv0z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7db4e048-c31e-445c-9d1d-5c4f48de86ab_340x339.jpeg)
 
 [caption] The “African Renaissance Monument” in Dakar, Sénégal, which stands at 160 feet tall and took 4 years to build.
 
-I live in Sénégal, where “intentional community” often sounds like a strange Western phrase for something people assume human beings already do.
+I live in Sénégal, where "intentional community" often sounds like a strange Western phrase. People here are like, "Don't human beings already do that?"
 
-This country feels unlike anywhere else I’ve lived. Five times a day, devotional prayers pour into the streets. I find them deeply soothing. Sufi spirituality appears in music, public images, murals, names, and ordinary conversation rather than remaining inside designated spiritual spaces.
+Sénégal is unlike anywhere else I've lived. Five times a day the prayers pour out into the streets. I find them so soothing! And Sufism doesn't stay inside designated "spiritual" places here. It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
 
-I also hear people laughing outside for hours. This is the most intensely joking culture I’ve encountered, and I keep wondering whether I’ll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. Knowing why twelve people are suddenly crying with laughter is graduate school.
+And the humor! People are outside laughing for hours at a time. It's the most joking culture I've ever been in, and I keep wondering if I'll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. But knowing why twelve people are suddenly crying with laughter? That's graduate school.
 
-In the villages and families I’ve spent time around, land, childcare, housing, food, and obligation often pass through extended family and local memory alongside formal systems. Nobody needs to announce a workshop called “Rebuilding Intergenerational Belonging.” An aunt has already assigned three people a task.
+In the villages and families I've spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems. Whether it's land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
 
-Even in Dakar I found graffiti reading, “Tolerance! Openness! Union! Happiness! Love!” Murals of Sufi leaders appear elsewhere. Spiritual graffiti still surprises me because I grew up expecting urban walls to advertise either a product or somebody’s inability to draw a penis.
+Even in Dakar, I found this graffiti on a wall: "Tolerance! Openness! Union! Happiness! Love!" And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me! Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis.
 
 [image 20](https://substackcdn.com/image/fetch/$s_!1Hvp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98df3b3c-7b43-40df-80d7-112f1bc91d75_849x1037.png)
 
@@ -664,43 +665,43 @@ Even in Dakar I found graffiti reading, “Tolerance! Openness! Union! Happiness
 
 ## All is not well in paradise
 
-I don’t want to turn this into Sénégal as a surviving communal paradise either. The warmth has hard boundaries, and LGBTQ+ people can pay brutally for crossing them.
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either! The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
 
-In March 2026, Sénégal enacted [Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/), raising the penalty for consensual same-sex intimacy to five to ten years in prison. The amended article also criminalizes public “apology” for homosexuality and certain financing or support intended to promote it. The law comes within the context of an existing reality of arrests, family rejection, harassment, assault, and mob violence—some say prison actually protects homosexuals from the mob. I don’t want to praise communal belonging while ignoring people who survive that belonging by hiding who they are—or by leaving.
+Sénégal passed a law in March 2026 ([Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/)) that increased the penalty for consensual same-sex intimacy to 5 to 10 years in prison, and it also made public "apology" for homosexuality a crime, along with certain financing or support meant to promote it. Homosexuals were already facing arrests, family rejection, harassment, assault and mob violence, but some say they're actually protected once they're arrested, because then at least the mob can't get at them. I'm not going to praise communal belonging and ignore the people who have to hide who they are to survive it, or leave.
 
-A society can be spiritually alive, generous, funny, and intensely communal while still becoming cruel toward people who violate its accepted categories. Community itself isn’t automatically liberating. Everything depends on who is permitted to belong without pretending.
+So which is it? Well, in a way, it's both. It's possible for a society to be spiritually alive, generous, funny and super communal, while still becoming cruel to those who break its social categories. It's interesting to see that being in community isn't necessarily liberating for everyone, it all depends on whether you're allowed to belong without pretending.
 
-The otherwise forgiving social culture has other shadows, too. People may avoid confrontation so thoroughly that everybody knows who stole the sheep and nobody wants to create trouble by saying it aloud.
+One other shadow side of the otherwise forgiving social culture here is that people may go to great lengths to avoid confrontation. Who stole the sheep? We all know, but nobody wants to cause a stink by bringing it up.
 
 Where I live, neighbors steal our moringa pods every morning. Every morning! They could plant a moringa tree in their own yard. Apparently maintaining this relationship with ours is more entertaining. 😂
 
-Everybody raises sheep here, including me, and they are extremely cute. The music, animals, joking, prayer, and constant presence of other people can make life feel like another world.
+Everybody here has sheep (even me!), and they are super cute! It can feel like you're living in another world, with the music, the animals, the joking, the praying, and just being around people all the time.
 
 [image 21]
 
 [Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑](https://ibogaqueen.substack.com/p/professor-baby-sheep-taught-me-inner)Copy link
 
-The older communal patterns are also changing. Young people move toward cities, jobs, phones, imported foods, and the wider world. Men take dangerous sea routes toward Europe. Families that once shared nearly everything become more dependent on cash and individual opportunity.
+Of course, the old communal ways here are changing. Young people move to the city, get a job, get a phone, eat imported food, become part of the wider world, etc. (some of the men even make the dangerous journey by sea to Europe). So what about the families? The ones that used to share almost everything are now more reliant on cash and individual opportunities.
 
 ## Lessons from the Black Tax
 
-One strange survival of the old communal system is what people call the “Black Tax”: when one person begins earning money, they’re expected to support parents, siblings, cousins, school fees, medical bills, funerals, and whoever else the family is carrying. I understand the instinct behind it. In the ancestral arrangement, nobody succeeded alone. The people who fed, raised, housed, and protected you had a real claim on whatever prosperity later came through you. Sharing wasn’t charity. It was how the whole organism survived.
+Then there's the so-called "Black Tax," a strange legacy of the old communal system: if you've got any money at all, you're expected to share it with your parents, your siblings, your cousins, to pay school fees, medical bills, funerals, etc. I understand the instinct. In the ancestral way of doing things nobody made it alone, and the people who fed and raised you had a real claim on whatever you made of yourself later. So why not share in return? That's how the whole organism survived (it wasn't charity).
 
 Double click to interact with video
 
-The modern version can become soul-destroying because the obligation survived while much of the communal life supporting it disappeared. The land, labor, childcare, food, and daily belonging are no longer fully shared, but the person earning cash may still be expected to carry everybody. They struggle to build any independence or long-term stability, while the relatives receiving the money remain dependent because the payments don’t create a viable alternative. The ancestral ethic is still alive inside an individualistic cash economy, where it can keep people alive while quietly consuming both sides.
+But these days it can be soul destroying. People have a lot less of the communal life that held the obligation up (the shared land, work, childcare, food and daily belonging), but they still carry it. So if one of them makes it into the cash economy, it's really hard to build any independence or long-term stability, because they may be expected to carry everybody. How can they get ahead, when all these people are dependent on them? And the relatives stay dependent too, since the payments don't give them a real alternative. It's the ancestral ethic playing out inside an individualistic cash economy. It can keep people alive, but it eats away at both sides too.
 
-This is also the boundary problem a money-free commune has to solve. Internal life can be cashless while taxes, hospitals, visas, school fees, family obligations, imported tools, and other outside relationships still arrive denominated in money. The question is not whether to recreate individual wages inside the commune. It is who handles that interface, how much collective cash is kept for it, and how to stop access to outside money from becoming a new status hierarchy.
+It's also the thorny boundary issue of living without money inside a money-based society. Life inside the commune can go without cash, but you'll still need money for taxes, hospital bills, visas, school fees, family obligations, buying in tools etc. That doesn't mean going back to individual wages inside the commune, but it does mean someone has to handle it! Who's that going to be? And the commune has to work out how much shared cash it keeps for these things, and how to stop access to outside money from creating a new status hierarchy.
 
-Outside work complicates that boundary even before a common purse. It does not only bring cash. It brings another schedule, status system, social world, set of loyalties, and often new consumption expectations. During the first stage, an outside earner should contribute an agreed share, but money cannot buy exemption from ordinary communal work or extra political authority. The group also has to notice when outside jobs are draining the people and skills needed to build shared livelihoods. Otherwise the commune remains a dormitory for the cash economy instead of moving toward a common purse.
+Another aspect of outside work, even before there's a common purse, is that it's not just money you're bringing into the commune. You're also bringing in a different schedule, a different status system, a different social world, different loyalties, and often different consumption habits etc. etc. And you can't exactly leave all that at the door, can you? In the first stage, where people working outside should contribute an agreed share, it's really important that they can't use the money to buy their way out of everyday communal work, or to buy a greater say in the political system. It's also important that the group notices when outside jobs start draining the people and skills it needs to build the communal livelihoods. Otherwise the commune will stay a dormitory for the money economy instead of moving toward a common purse.
 
-Zapatista communities faced a version of this with migration. Some moved from trying to stop young people from leaving toward negotiated arrangements in which migrants could work elsewhere while retaining defined communal obligations. The conflict between mobility and belonging did not disappear. It became something the community could name and negotiate.
+Some Zapatista communities used to try to stop their young people from leaving, which is a version of the same outside-work problem. Now they talk it through with them instead: it's OK to go and work elsewhere, as long as the migrants keep certain defined obligations to the community. That doesn't make the pull between leaving and belonging go away, but at least now it's something they can name and negotiate. I like that.
 
-Westerners often begin with isolation and try to rebuild tribe. Many Africans begin with inherited communal life and watch parts of it dissolve. Urban Africans interested in intentional community may arrive after feeling alienated from both the city and the tradition they left.
+Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem, isn't it? And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
 
-That makes this a global conversation rather than a Western lifestyle niche. Living villages still contain knowledge no book can reproduce, but they are living people rather than exhibits. Go respectfully, contribute something, learn the language, and do not arrive expecting a spiritual service package.
+So this is a global issue, far from some Western lifestyle niche. There's still knowledge in the living villages that no book can give you. But if you visit, remember they're people, not museums. Would you like people coming to your house to stare at you and your family? So be respectful, contribute something, learn the language, and don't expect anyone to hand you a spiritual service package!
 
-A practical note: my own residency process in Sénégal was inexpensive and straightforward. French and Wolof matter much more than English. The country’s famous ideal of *Teranga*—hospitality—is real in my life: I stay in a friend’s family house, and they refuse rent. That generosity exists beside watchfulness, social conservatism, bureaucracy, and all the ordinary complications of a real country.
+Oh, and a practical note: getting my residency in Sénégal was pretty cheap and straightforward. French and Wolof matter a lot more than English. And the country's famous ideal of Teranga (hospitality) is real in my life. I'm staying in a friend's family's house, and they won't let me pay rent! Can you believe it? Of course that generosity lives right alongside watchfulness, social conservatism, bureaucracy and all the usual complications of a real country.
 
 # Practice Comes Before Property
 
