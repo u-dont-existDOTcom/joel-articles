@@ -45767,7 +45767,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s16/b384/PREDICTIONS.md",
-          "sha256": "f46af5d8f299fa8a4218f2b4c9ae6a67a13536482d6b76cf9c82b3fa348d2abe",
+          "sha256": "5a4639d28997c2b51591c68eeed75a58b05c77f21cf5a15742aad0017b454062",
           "role": "humanization_working_record"
         },
         {
@@ -45812,12 +45812,117 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s16/v24-variants.json",
-          "sha256": "2c63c6a9d28cf77e8e2880a0491af5de18d8d59ea3dfdef2a44c858d9906a805",
+          "sha256": "66e567b42983b0305a61521fa849eb70333c879b4d8b6f2bbe274b047d334137",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/intentional-communities/candidate/s16/v24.md",
-          "sha256": "8bf021c29e47adc981f42f58310873ddd0956e0570acad1746d6587b645e3f54",
+          "sha256": "e63cea3f84bfae8ae3569ec2aef09334bb3a79b44b9c861ca2f886081bec9e48",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b384/b384-results.json",
+          "sha256": "bb44c087b7cbcf1a31184cd9e2837e74cd1ddffa8406b6ee46a181a1360a1cf4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b385/GATE.json",
+          "sha256": "8dc2fde964f86220253cbe6e30b14d87487197290d08a53e27567e4ce4a87329",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b385/PREDICTIONS.md",
+          "sha256": "1c38bbb705fe386d475de0697336e12d037ab6ea76637e5ea64603b29306f99e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b385/b385-items.json",
+          "sha256": "be8306e5868753453dc8f57ba81fa73aa8384cdf6da7a0d8ffa433b957a49b60",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b385/b385-read.js",
+          "sha256": "2025b60da9db190c24e8fcb075a0c69cbd25391693a0f0d34030bf7f227308b7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b385/b385.js",
+          "sha256": "906a7874825b2ad14b0bb3991568fa77d31b51cfecca76a481f67ec6152d4257",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b385/drafts.json",
+          "sha256": "5cc06e6daf498acaccf6c3c0a0c8e455a6b060dfb64ff583ced5a5ffcb359ac3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b386/GATE.json",
+          "sha256": "97c4557ffde91061736b950ab844eddc80a13d066f7f859629b3d9917dd143ac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b386/PREDICTIONS.md",
+          "sha256": "7af97f569ecd41254284afa029a0e7e8f4ecf0b64194a1eee0e9dfd240adf2f9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b386/b386-items.json",
+          "sha256": "440424c8d762f4060bada096dc27339708e3ceeb1da2a831bf67d80c2599e185",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b386/b386-read.js",
+          "sha256": "44998b3ba6a9be7abd7c267835177ff625f3f4ce74abeb347fa8a22411f42a0c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b386/b386.js",
+          "sha256": "c68eec81f814539c592200c1e3df0abcbc056dc6dab90433ae8ceccbde52c3b4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b386/drafts.json",
+          "sha256": "416bd920725dcaae632f8a7c5cc3996c2757cf8cc51de9e2475c5b717e937f81",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b387/GATE.json",
+          "sha256": "32a676cb8ea9c07e34eb6919711a4b8bca5579562cdc277116f894425f244b6d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b387/PREDICTIONS.md",
+          "sha256": "9404d85f1da40c73fd307b9572534a8d6348f8f4634f6421c6eef377f11e31b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b387/b387-items.json",
+          "sha256": "063e496dfbac76bf8fa812bacb393208ed1d32c27fb742c77e273c79b79a86f6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b387/b387-read.js",
+          "sha256": "4ea41f4ca89907d660c76c57dbe5740ec041749deabf16ebebe9f659dee3be07",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b387/b387.js",
+          "sha256": "0c0a73a12865a2ab6e0c4eb4dc8f7976a0f09b9a01b8a178fa43d6d1d9bbf0c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/b387/drafts.json",
+          "sha256": "047378c9bef67bd2b97db506ea59d79a4170aa9a9d509f044ff691e2026c9429",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/review-r41/MARCH-labels-a.txt",
+          "sha256": "6dabc11c523234a6a02f5fbc9759ca6b6e0f5737e3636e818fd66f4a17b35ad4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s16/review-r41/MARCH-labels-b.txt",
+          "sha256": "6dabc11c523234a6a02f5fbc9759ca6b6e0f5737e3636e818fd66f4a17b35ad4",
           "role": "humanization_working_record"
         }
       ]
