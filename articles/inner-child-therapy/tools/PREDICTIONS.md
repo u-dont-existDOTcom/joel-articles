@@ -1713,3 +1713,46 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | How Much Happiness P2 to P4, lm4p2a2 alone (83 words) [t65u_lm4p2a2], a screen | Human, low (my call) | Human Written (0.18, Low; 90); 05:35:21 UTC, https://www.pangram.com/history/d9c8418f-1376-494c-b6c6-e8eec760c2b6 | hit |
 | 2026-10-17 (turn 65) | How Much Happiness P2 to P4, lm4p3a alone (60 words) [t65u_lm4p3a], a screen | Human, low (my call) | AI Generated (0.65, Low; 62); 05:35:11 UTC, https://www.pangram.com/history/ccdebe99-270c-4bbf-a42f-5fbf05ce2c3b | miss |
 | 2026-10-17 (turn 65) | How Much Happiness P2 to P4, lm4p4a alone (100 words) [t65u_lm4p4a], a screen | Human, low (my call) | AI Generated (1, Medium; 108); 05:35:00 UTC, https://www.pangram.com/history/6009babc-96fb-477a-9920-c51260884d8a | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3i4 alone (52 words) [t65v_sp1p3i4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3i5 alone (55 words) [t65v_sp1p3i5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P2+P3, with sp1p3i4 (118 words) [t65v_pairsp1p3i4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P2+P3, with sp1p3i5 (121 words) [t65v_pairsp1p3i5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3i4 (190 words) [t65v_secsp1p3i4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3i5 (193 words) [t65v_secsp1p3i5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1c (139 words) [t65v_pairsp3p2d2h1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices with P6 = sp3p2d2h1c (430 words) [t65v_secsp3p2d2h1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P5+P6, with sp3p2d2h1d (139 words) [t65v_pairsp3p2d2h1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices with P6 = sp3p2d2h1d (433 words) [t65v_secsp3p2d2h1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P2+P3, with sp3p2d2h1e (139 words) [t65v_pairsp3p2d2h1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices with P3 = sp3p2d2h1e (240 words) [t65v_secsp3p2d2h1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness P1, lm4p1a alone (67 words) [t65v_lm4p1a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2b5 alone (88 words) [t65v_sp5p2b5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2b6 alone (53 words) [t65v_sp5p2b6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b5 (165 words) [t65v_secsp5p2b5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b6 (130 words) [t65v_secsp5p2b6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P3, sp5p3b6 alone (58 words) [t65v_sp5p3b6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P2+P3, with sp5p3b6 (111 words) [t65v_pairsp5p3b6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P3 = sp5p3b6 (188 words) [t65v_secsp5p3b6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2j alone (76 words) [t65v_sp7p2j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2l alone (68 words) [t65v_sp7p2l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2j (163 words) [t65v_secsp7p2j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2l (155 words) [t65v_secsp7p2l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs P1, sp8p12a alone (117 words) [t65v_sp8p12a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Use Childhood Photographs Without Interrogating Them with P1 = sp8p12a (124 words) [t65v_secsp8p12a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs P4b, sp8p4b2 alone (59 words) [t65v_sp8p4b2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs P4b, sp8p4b3 alone (58 words) [t65v_sp8p4b3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1c alone (61 words) [t65v_lm1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1d alone (55 words) [t65v_lm1p1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1c (67 words) [t65v_seclm1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1d (61 words) [t65v_seclm1p1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p2c alone (72 words) [t65v_lm1p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p3c alone (96 words) [t65v_lm1p3c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here P1, lm2p1c alone (72 words) [t65v_lm2p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here with P1 = lm2p1c (79 words) [t65v_seclm2p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here P2, lm2p2c alone (56 words) [t65v_lm2p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1c alone (96 words) [t65v_lm3p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1c (100 words) [t65v_seclm3p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness P1, lm4p1b alone (67 words) [t65v_lm4p1b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible? with P1 = lm4p1b (76 words) [t65v_seclm4p1b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness P3 and P4, lm4p3b alone (60 words) [t65v_lm4p3b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness P3 and P4, lm4p4b alone (112 words) [t65v_lm4p4b], a screen | Human, low (my call) | (pending) | |
