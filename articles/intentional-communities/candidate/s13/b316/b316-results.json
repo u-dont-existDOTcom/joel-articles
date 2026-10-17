@@ -1,0 +1,87 @@
+{
+ "S13v33": [
+  "AI Detected",
+  0.17,
+  2226,
+  "Human, High, 422; AI-Generated, High, 291; Human, High, 1513",
+  "00:51:14",
+  "/2be7c617-a4ed-4ea2-a9f5-14b303c84775",
+  [
+   "AI-Generated (291 words): from the end of H2-P1 (\"And you need paperwork for it?!?!\") through H2-P4 (\"... but the view isn't going anywhere!\")"
+  ]
+ ],
+ "S13v33-H1": [
+  "Human Written",
+  0.035,
+  354,
+  "Human, High, 354",
+  "00:50:15",
+  "/752e8d91-9737-4181-a156-5ec3a9b3af8c",
+  []
+ ],
+ "S13v33-H1-P3+P4": [
+  "Human Written",
+  0.0,
+  164,
+  "Human, High, 164",
+  "00:49:54",
+  "/629463f5-c6b0-4458-a3cd-45113f60cc24",
+  []
+ ],
+ "S13v33-H2": [
+  "Human Written",
+  0.001,
+  359,
+  "Human, High, 359",
+  "00:51:01",
+  "/feef6cc8-42ed-4ad0-8ac6-7cac2972cf82",
+  []
+ ],
+ "S13v33-H2-P3b+P4": [
+  "Human Written",
+  0.017,
+  134,
+  "Human, Medium, 134",
+  "00:50:48",
+  "/25fb8797-923a-485e-a79d-fbe5781b5311",
+  []
+ ],
+ "S13v33-H2-P4": [
+  "Human Written",
+  0.102,
+  82,
+  "Human, Low, 82",
+  "00:50:36",
+  "/031886a5-f791-4867-9d69-645d7fa59c53",
+  []
+ ],
+ "S13v33-H4": [
+  "AI Detected",
+  0.265,
+  675,
+  "AI-Generated, High, 183; Human, High, 492",
+  "00:50:25",
+  "/a40ac610-f293-4d05-adbc-d0318978aab3",
+  [
+   "AI-Generated (183 words): the heading through H4-P4's first sentence (\"From Visitor to Member—Slowly ... you're not going to learn very much about them\")"
+  ]
+ ],
+ "S13v33-H4-P8": [
+  "Human Written",
+  0.001,
+  81,
+  "Human, Low, 81",
+  "00:50:04",
+  "/c62eb9db-2c6e-4a59-a94c-d1f0f5e32216",
+  []
+ ],
+ "S14v8": [
+  "Human Written",
+  0.167,
+  373,
+  "Human, High, 373",
+  "00:51:23",
+  "/22059ea5-61c6-479a-b9c9-2cb8432b3df9",
+  []
+ ]
+}

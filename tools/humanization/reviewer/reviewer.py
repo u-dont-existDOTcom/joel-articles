@@ -146,9 +146,17 @@ def pct(name):
 
 
 def split_sentences(p):
-    """Like tells_lint.sentences, but keeps a closing quote with its sentence."""
+    """Like tells_lint.sentences, but keeps a closing quote with its sentence. A sentence can open with a link, a single
+    quote or emphasis (2026-10-16: community section 13's "‘Outside’ doesn’t always mean the nation-state. [My research](...)
+    initially leaned too far that way." went to the march readers as one sentence, so two readers gave it one label)."""
     p = re.sub(r'\s+', ' ', p).strip()
-    parts = re.split(r'(?<=[.!?]["”)])\s+(?=["“(]?[A-Z0-9])|(?<=[.!?])\s+(?=["“(]?[A-Z0-9])', p)
+    # an emoji after a sentence's end stays with that sentence (with a closing bracket after it), and the next one starts
+    # after it (2026-10-17: section 13's "...charming for two weeks! 😅 So that's about all you'll find out." and "(Hint: not
+    # the person who recruited them! 😜) What rights will ..." went to the march readers as one sentence each)
+    p = re.sub(r'([.!?]["”’)]?)\s*((?:[\U0001F300-\U0001FAFF\u2600-\u27BF]\uFE0F?\s*)+?)([)"”’]?)\s+(?=["“‘\'(\[*_]*[A-Z0-9])',
+               lambda m: m.group(1) + ' ' + m.group(2).strip() + m.group(3) + '\x00', p)
+    parts = [y for x in p.split('\x00') for y in
+             re.split(r'(?<=[.!?]["”’)])\s+(?=["“‘\'(\[*_]*[A-Z0-9])|(?<=[.!?])\s+(?=["“‘\'(\[*_]*[A-Z0-9])', x)]
     out = []
     for s in (x.strip() for x in parts if x and x.strip()):
         if out and out[-1].endswith(('Mr.', 'Mrs.', 'Ms.', 'Dr.', 'St.', 'vs.', 'e.g.', 'i.e.')):

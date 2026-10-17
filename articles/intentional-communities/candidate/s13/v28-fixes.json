@@ -1,0 +1,96 @@
+[
+ {
+  "id": "H1-P3",
+  "emulate": "Until then, it’s still just a group, and maybe you don’t want to take out a mortgage yet. That’s okay! There’s lots you can do! You can all meet in a rented or borrowed space, or at each others houses, and get to the point of dealing with conflict before you need a surveyor.",
+  "v27": "Until that’s happened, the group’s still a circle of promising strangers, and I wouldn’t ask that circle to take out a mortgage yet. That’s okay! There’s lots you can do! You can all meet in a rented or borrowed space, or at each other’s houses, and find out how much conflict the group can handle before you need a surveyor.",
+  "new": "Until that’s happened, it’s still just a circle of promising strangers, and you don’t want to take out a mortgage with them yet. That’s okay! There’s lots you can do! You can all meet in a rented or borrowed space, or at each other’s houses, and find out how much conflict the group can handle before you need a surveyor.",
+  "fixes": [
+   "\"Until then\" -> \"Until that’s happened\" (kept from v27: H1-P2 ends on \"Until then, what’s it worth?\")",
+   "\"just a group\" -> \"just a circle of promising strangers\" (the published words, keys U7)",
+   "\"maybe you don’t want to take out a mortgage yet\" -> \"you don’t want to take out a mortgage with them yet\" (the published \"I would not ask that circle to take on a mortgage yet\" is advice; \"you don’t want to\" says it in Emulate's voice. v27's \"I wouldn’t ask that circle\" rebuilt the published sentence, where the section's first AI window ended)",
+   "\"each others\" -> \"each other’s\" (a typing slip, O27)",
+   "\"get to the point of dealing with conflict\" -> \"find out how much conflict the group can handle\" (kept from v27: the published \"Discover the group’s conflict capacity\")"
+  ]
+ },
+ {
+  "id": "H1-P4",
+  "emulate": "You will also want a good idea of what you have in the way of resources. This is the boring stuff, but you will need to know what the group can offer in the way of water, housing, food stores, health care, tools, seasonal labor, transportation, access to markets, schooling, etc. Do you have outside debts to pay? How long will your cash reserves last? What critical skills will you need? It’s boring, but great feelings for each other will not stop you from being dead in the water if your well fails, or the one person who knows where everything is and how it works collapses from exhaustion.",
+  "v27": "You’ll also want a budget of what the group can provide. This is the boring stuff! But you need to know what the group can offer in the way of water, housing, food stores, health care, tools, seasonal labor, transportation, access to markets, schooling, etc. Do you have outside debts to pay? How long will your cash reserves last? Which few skills would stop everything if nobody had them? A group that’s great on an emotional level can still be dead in the water if the well fails, or if the one person who knows where everything is and how it works is too exhausted to go on.",
+  "new": "You will also want a budget of what you have in the way of resources. This is the boring stuff! But you will need to know what the group can offer in the way of water, housing, food stores, health care, tools, seasonal labor, transportation, access to markets, schooling, etc. Do you have outside debts to pay? How long will your cash reserves last? What critical skills will you need? Being great at the emotional stuff won’t stop you from being dead in the water if your well fails, or if the one person who knows where everything is and how it works gets too exhausted to keep going.",
+  "fixes": [
+   "\"a good idea of what you have\" -> \"a budget of what you have\" (the published \"capacity budget\", keys U11)",
+   "\"This is the boring stuff, but you will need\" -> \"This is the boring stuff! But you will need\" (kept from v27: the march found no break in Emulate's paragraph)",
+   "\"It’s boring, but great feelings for each other will not stop you\" -> \"Being great at the emotional stuff won’t stop you\" (the published \"extraordinary emotional skill\": a skill, not affection, keys U12; one \"boring\", O12)",
+   "\"collapses from exhaustion\" -> \"gets too exhausted to keep going\" (the published \"one exhausted person\", keys U12)",
+   "Emulate's \"What critical skills will you need?\" back for v27's \"Which few skills would stop everything if nobody had them?\", which rebuilt the published \"the few skills whose absence can stop everything\" (the section's second AI window starts at these questions)"
+  ]
+ },
+ {
+  "id": "H2-P2",
+  "emulate": "Whenever you go to visit a community, have a list ready of what you believe should be the community’s stance on children, money, property ownership, romance, medicine, food, spiritual practice, technology, privacy, how to deal with conflict, leaving the community, etc. It’s a long list, I know. Put some question marks next to the things you aren’t sure about yet.",
+  "v27": "Whenever you go to visit a community, have a list ready of what you really believe about children, money, property ownership, romance, medicine, food, spiritual practice, technology, privacy, how to deal with conflict, and leaving the community. Long list, huh? Put some question marks next to the things you’re not sure about yet.",
+  "new": "Whenever you go to visit a community, have a list ready of what you really believe about children, money, property ownership, romance, medicine, food, spiritual practice, technology, privacy, how to deal with conflict, leaving the community, etc. Long list, huh? Put some question marks next to the things you’re not sure about yet.",
+  "fixes": [
+   "\"what you believe should be the community’s stance on\" -> \"what you really believe about\" (the published \"what you actually believe\": the reader's own beliefs)",
+   "\"It’s a long list, I know.\" -> \"Long list, huh?\" (kept from v27: v26's break; the section already has \"I know, it’s the fun part.\")",
+   "\"you aren’t sure\" -> \"you’re not sure\" (keys U16)",
+   "Emulate's \", etc.\" back (v27 had closed the list as published)"
+  ]
+ },
+ {
+  "id": "H2-P3",
+  "emulate": "You better also include sexuality and gender on that list. Can LGBTQ people live openly in the community? Can they date or be in relationships? Will you protect them? Is it okay to question a child’s sexuality at an early age? What will you do if one of the community’s children turns out to be gay or transgender? Until you’ve answered those questions, your stance on freedom and children is incomplete.",
+  "v27": "You better put sexuality and gender on that list too. Can LGBTQ+ people live openly in the community? Can they date or be in relationships? Will the community keep them fully protected? Should children be taught to question their sexual identities at an early age? What will the community do if one of its children turns out to be gay or transgender? Until a group has answered those questions, its values on freedom and on raising children aren’t complete. Both of them!",
+  "new": "You better also include sexuality and gender on that list. Can LGBTQ+ people live openly in the community? Can they date or be in relationships? Will they be fully protected? Is it okay for children to be taught to question their sexuality at an early age? What will you do if one of the community’s children turns out to be gay or transgender? Until a group has answered those questions, its stance on freedom and raising children is incomplete. Both of them!",
+  "fixes": [
+   "\"LGBTQ\" -> \"LGBTQ+\" (the published term)",
+   "\"Will you protect them?\" -> \"Will they be fully protected?\" (the published \"remain fully protected by the community\": the community protects them, not the reader; keys U18)",
+   "\"Is it okay to question a child’s sexuality at an early age?\" -> \"Is it okay for children to be taught to question their sexuality at an early age?\" (the published question is whether children are taught to question their own identities; Emulate's made it adults questioning a child's; keys U18)",
+   "\"Until you’ve answered those questions, your stance on freedom and children\" -> \"Until a group has answered those questions, its stance on freedom and raising children\" (the published \"A group that has not answered these has not completed its values on freedom or children\"; keys U19 \"raising children\")",
+   "\"Both of them!\" (v26's break, the march's only break in this paragraph)",
+   "Emulate's own sentences back where v27 had rebuilt the published ones (\"You better put ... too\", \"Will the community keep them fully protected?\", \"Should children be taught to question their sexual identities\", \"What will the community do\", \"its values on freedom and on raising children aren’t complete\")"
+  ]
+ },
+ {
+  "id": "H2-P3b",
+  "emulate": "Are you willing to experiment? Make sure your list of values includes whether or not you are willing to experiment. The people next to you may feel that all experimenting ended in 1978, and everything since has been doctrine.",
+  "v27": "Are you willing to experiment? That’s a real value too! Make sure your list declares whether or not you are. The people next to you may feel that all experimenting ended in 1978, and that whatever came out of it is doctrine now.",
+  "new": "Are you willing to experiment? That’s a real value too! Make sure your list of values declares whether or not you are willing to experiment. The people next to you may feel that all experimenting ended in 1978, and everything that came out of it has been doctrine ever since.",
+  "fixes": [
+   "\"That’s a real value too!\" (the published \"“Willing to experiment” is a real value\"; v26's break)",
+   "\"includes whether or not\" -> \"declares whether or not\" (the published \"It has to be declared\", keys U20)",
+   "\"and everything since has been doctrine\" -> \"and everything that came out of it has been doctrine ever since\" (the published \"the results are now doctrine\": what came out of the experimenting, not everything after 1978)"
+  ]
+ },
+ {
+  "id": "H5-P3",
+  "emulate": "Note that \"outside\" doesn't have to mean the nation state, though at first, when doing this research, that's where it seemed to have to go. The basic need here is for a competent level of authority that is not reviewing its own actions. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it's not the same people! An important correction that came from the Zapatistas: it's ok for that authority to be in a regional institution as long as it's autonomous, and doesn't combine its powers with the other institutions. But when it tried to push power upwards, they pushed it back down again. And no, it still can't decide that individual people don't have certain non-waivable rights.",
+  "v27": "‘Outside’ doesn’t always mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The basic need here is a competent layer of authority that isn’t reviewing its own conduct. That could be another community, a federation, a professional, an autonomous regional institution, a court, a regulator, an emergency service, etc. Just not whoever’s being reviewed! The Zapatistas are an important correction here: autonomous institutions can review local power without becoming the state, and when power crept up in their own system, they pushed it back down again. And no, autonomy still doesn’t let anyone erase non-waivable individual rights, or make outside jurisdiction disappear.",
+  "new": "Note that \"outside\" doesn't have to mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it's not the same people! An important correction that came from the Zapatistas: that authority can be an autonomous regional institution, without it turning into the state. But when power started creeping upward in their own system, they pushed it back down again. And no, autonomy still doesn't mean anyone gets to decide that individual people don't have certain non-waivable rights, or that outside jurisdiction just goes away.",
+  "fixes": [
+   "Joel's sentence as he wrote it, link on \"My research\" (OWNER-EDITS s13-joel-20261015-1828-32b), for Emulate's \"though at first, when doing this research, that's where it seemed to have to go\"",
+   "\"nation state\" -> \"nation-state\" (the published spelling)",
+   "\"its own actions\" -> \"its own conduct\" (keys U61)",
+   "\"it's ok for that authority to be in a regional institution as long as it's autonomous, and doesn't combine its powers with the other institutions\" -> \"that authority can be an autonomous regional institution, without it turning into the state\" (the published \"autonomous institutions can review local power without becoming the state\"; combining powers isn't in it; keys U62)",
+   "\"when it tried to push power upwards\" -> \"when power started creeping upward in their own system\" (the published \"when power drifted upward in their own system\")",
+   "\"it still can't decide that individual people don't have certain non-waivable rights\" -> \"autonomy still doesn't mean anyone gets to decide that individual people don't have certain non-waivable rights, or that outside jurisdiction just goes away\" (the published: autonomy lets no one erase those rights or make outside jurisdiction disappear)",
+   "Emulate's own sentences back where v27 had the published ones (\"‘Outside’ doesn’t always mean\", \"a competent layer of authority\", the published singular list, \"Just not whoever’s being reviewed!\", v26's Zapatista sentence): the pair read 0.99 AI in 307g"
+  ]
+ },
+ {
+  "id": "H5-P4",
+  "emulate": "Also decide on a mediator/ombud person in advance. People won't trust someone they haven't already met, who comes in as a \"neutral stranger.\" Note that this does not obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good human relations. When people can't or won't consent to being in community any more, they need to be separated.",
+  "v27": "Also decide on a mediator or ombud in advance. Why bother? People often won’t trust someone they haven’t already met, who shows up in a crisis as a ‘neutral stranger’. Mediation is there to repair things between people. It doesn’t remove the need for evidence, safeguarding or a ruling, or for a final separation when people can’t or won’t consent to living together anymore.",
+  "new": "Also decide on a mediator or ombud in advance. Why bother? People often won't trust someone they haven't already met, who comes in during a crisis as a \"neutral stranger.\" This does not obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good relations between people. When people can't or won't consent to being in community any more, it's time for a separation.",
+  "fixes": [
+   "\"mediator/ombud person\" -> \"mediator or ombud\" (the published words, keys U64)",
+   "\"Why bother?\" (v26's break, the march's only break in this paragraph)",
+   "\"People won't trust\" -> \"People often won't trust\" (the published \"often\")",
+   "\"who comes in as\" -> \"who comes in during a crisis as\" (the published \"met on the day of the explosion\")",
+   "\"Note that this does not obviate\" -> \"This does not obviate\" (the paragraph before opens \"Note that\")",
+   "\"restore good human relations\" -> \"restore good relations between people\" (keys U65)",
+   "\"they need to be separated\" -> \"it's time for a separation\" (keys U65 \"separation\")",
+   "Emulate's order of the last three sentences back: v27 had put them in the published order, and they were the section's last AI window (307g)"
+  ]
+ }
+]
