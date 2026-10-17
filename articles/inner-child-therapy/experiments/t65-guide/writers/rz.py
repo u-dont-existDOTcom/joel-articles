@@ -40,6 +40,11 @@ SECTIONS = {  # NEW = the writer's paragraphs, in order; None = alone checks onl
 }
 
 
+def mine(job, w):
+    """Writer agents wrote w1 to w3 (and sp8p1 w4); w4 to w9 are mine, some splicing a writer's Human half."""
+    return int(w[1:]) >= 4 and not (job == 'sp8p1' and w == 'w4')
+
+
 def paras(p):
     return [b.strip() for b in re.split(r'\n\s*\n', p.read_text(encoding='utf-8').strip()) if b.strip()]
 
@@ -91,9 +96,9 @@ def build(march_file, rnd, out_prefix, combos_file=None):
         k = '%s_%s%s%s' % (rnd, job, w, p)
         drafts[k] = text
         gate[k] = {'kind': 'screen', 'march': [march], 'lint': 'REVIEW', 'lint_article': str(ART),
-                   'note': '%s: %s of %s, paragraph %s. March: my own reading.' % (rnd, 'my own draft (w9)' if w == 'w9' else 'fresh writer %s (E177)' % w, job, p[1:])}
+                   'note': '%s: %s of %s, paragraph %s. March: my own reading.' % (rnd, ('my own draft (%s)' % w) if mine(job, w) else 'fresh writer %s (E177)' % w, job, p[1:])}
         rows.append('| %s | %s %s %s alone, %s (%d words) [%s], a screen | Human, low (my call) | (pending) | |'
-                    % (date, job, w, p, 'my own draft' if w == 'w9' else 'a fresh writer', len(text.split()), k))
+                    % (date, job, w, p, 'my own draft' if mine(job, w) else 'a fresh writer', len(text.split()), k))
         sets.setdefault((job, w), []).append((int(p[1:]), stem, march))
     for (job, w), items in sorted(sets.items()):
         sec = SECTIONS.get(job)
