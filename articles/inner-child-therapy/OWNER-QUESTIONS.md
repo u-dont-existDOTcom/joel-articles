@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-17 (turn 64). **One open question (31).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-17 (turn 65). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,13 +11,7 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 31. The first sentence of your P5 of The Inner Guide Comes Later
-
-> The Guide doesn't need to know everything for sure (that would be an OCD Guide, and then you'd need a Guide for the OCD Guide). It chooses the next sane step that fits your values based on the info available, ...
-
-Three of the last five cold reads paused at its first sentence, coming right after P4, which ends "I think it just wants to know they're coming back." One called it a jump ("know what?") until the second sentence; the other two settled it on their own. Turn 62's two reads didn't pause. They're your words, so I haven't touched them.
-- **A. Leave it** (the default).
-- **B. Your words**, if you'd like a bridge from P4.
+None right now.
 
 ## For you to do (no decision needed)
 
@@ -32,6 +26,12 @@ P11 of The Inner Guide Comes Later, and the faster process; the link is in my me
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-17 02:11 UTC
+
+- 31, A: your P5 stays as it is. "how can the readers ask 'know what' when it literally says 'know everything'": right, the sentence names what it's about, so the pause was the readers' mistake, and I should have caught it before asking. The read-through prompt now says a first sentence that says in full what it's about follows, and a reviewer's flag on your words only reaches you if I agree with it after reading the sentence myself (lesson E182).
+- "work continuously for 12 hours doing as much as you can. if you find that you are stumbling on a paragraph too much, just leave it for later and go to an easier one": that's the plan for this run. A paragraph that hasn't read Human alone after three rounds gets parked with what I tried, and the end of the run has the list of what needs you.
+- "there were conflicts in 186": fixed. Main had the community lane's #183, and both sides had added tests at the end of the same file; both are kept, and #186 merges cleanly.
 
 ### 🟢 2026-10-17 01:15 UTC
 

@@ -1353,6 +1353,7 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn("A paragraph's first sentence has to follow from what comes before it.", t)
         self.assertIn('know what? doesn\'t seem to follow', t)
         self.assertIn('picks up something from a paragraph or two back', t)
+        self.assertIn('So does a first sentence that says in full what it\'s about', t)
         self.assertIn('add one line that starts "Paused:"', t)
 
 

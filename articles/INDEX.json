@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "e06e9bccf4a60ba0e770894063187ae509fd752cdf5ad7e16ecaaf067b601d17"
+          "sha256": "da1990fc8dd247ca67ce67769e35fcb66cc72878d346da6f3843bf49a6e399bc"
         }
       },
       "review": {
@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "e8064206a5a1365df734d45f5094fa639375b9d35fde8ff3cbd37557b397826e",
+          "sha256": "b477d854b722df011ff0f3d70398e6cebd9fff3dc37fe3493085607b48e1f869",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "ec502a34edc9299b427e615b7886116b241c97e2e73fd5238f7ea654269617dc",
+          "sha256": "d59332f1cf1d0620c9db83833cfc3f1212fee426c5d052d21f2708de2532251b",
           "role": "owner_questions_page"
         },
         {
@@ -9646,6 +9646,21 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-17-turn64.json",
           "sha256": "b3c4cc4c408c5230221af0a477885a4e00883731f8849082455ff2143700c35b",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-answers/JOEL-20261017-0211.md",
+          "sha256": "9470242801b6b475095b6c93e4d557d53952aad1be471d0af1f0b9048ccdc34f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/PARKED.md",
+          "sha256": "82e7f86d75ce53f2da2075d9927d6a4eec5600e37b24778e048f0af625d7062f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/REVIEWS.md",
+          "sha256": "b396f6d1f0f9f985ca86e9e130dce5fb5c70d1e607d0511b9e837d368a326030",
+          "role": "humanization_working_record"
         }
       ]
     },
