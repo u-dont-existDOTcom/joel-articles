@@ -6,14 +6,16 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S15v10-H1-P4q | AI | "a lot of the time things go through" is g with three words more; g read 0.94 | |
-| S15v10q-H1 | Mixed | as alone | |
-| S15v10-H3-P2 | Human | v8's H3-P2 read 0.03; "build any independence or long-term stability" is the published phrase back | |
-| S15v10-H3 | Human | read Human with every H3-P2 since v6 | |
-| S15v10q | Human | the whole section has read Human with every H1-P4 | |
-| S15v10-H1-P4u | Human | "you'd be surprised how often" is a reaction inside the sentence | |
-| S15v10u-H1 | Human | as alone | |
-| S15v10u | Human | as q | |
-| S15v10-H1-P4v | Human | the list first as a fragment after a question mark, then "A lot of the time, all that goes through" | |
-| S15v10v-H1 | Human | as alone | |
-| S15v10v | Human | as q | |
+| S15v10-H1-P4q | AI | "a lot of the time things go through" is g with three words more; g read 0.94 | **AI** (AI Generated, low, 57 words, AI likelihood 0.82), 05:39:56, [check](https://www.pangram.com/history/2e333dfd-0bd8-4ea3-91f9-ed0d87dc3cb5) |
+| S15v10q-H1 | Mixed | as alone | **Mixed** (AI Detected; windows: Human, High, 126; AI-Generated, High, 122, 248 words, AI likelihood 0.45), 05:40:06, [check](https://www.pangram.com/history/9269cf2f-36a1-49e4-aa57-0187c1d4951d) |
+| S15v10-H3-P2 | Human | v8's H3-P2 read 0.03; "build any independence or long-term stability" is the published phrase back | **Human** (Human Written, medium, 121 words, AI likelihood 0.06), 05:40:18, [check](https://www.pangram.com/history/102b4871-9084-40c8-9d5d-c090dbc57b1d) |
+| S15v10-H3 | Human | read Human with every H3-P2 since v6 | **Human** (Human Written, high, 761 words, AI likelihood 0.19), 05:40:29, [check](https://www.pangram.com/history/e81e9316-de9b-4d81-8a20-dc6e8dae8441) |
+| S15v10q | Human | the whole section has read Human with every H1-P4 | **Human** (Human Written, high, 1425 words, AI likelihood 0.12), 05:40:41, [check](https://www.pangram.com/history/0ab97d51-25e2-42e7-b416-ec9f92d47c4c) |
+| S15v10-H1-P4u | Human | "you'd be surprised how often" is a reaction inside the sentence | **AI** (AI Generated, low, 58 words, AI likelihood 0.92), 05:40:53, [check](https://www.pangram.com/history/b503eaa1-267b-482d-84f8-1c7c3c808555) |
+| S15v10u-H1 | Human | as alone | **Mixed** (AI Detected; windows: Human, High, 126; AI-Generated, High, 72; Human, Medium, 51, 249 words, AI likelihood 0.44), 05:41:05, [check](https://www.pangram.com/history/16ce2e64-1074-43d0-a41f-3b2eaf858233) |
+| S15v10u | Human | as q | **Human** (Human Written, high, 1426 words, AI likelihood 0.12), 05:41:17, [check](https://www.pangram.com/history/32d9f690-71e3-4cb4-80cd-ef14b832df98) |
+| S15v10-H1-P4v | Human | the list first as a fragment after a question mark, then "A lot of the time, all that goes through" | **AI** (AI Generated, low, 55 words, AI likelihood 0.99), 05:41:28, [check](https://www.pangram.com/history/9b714bd1-125a-453d-9d61-3f2b51303b1c) |
+| S15v10v-H1 | Human | as alone | **Mixed** (AI Detected; windows: Human, High, 121; AI-Generated, High, 125, 246 words, AI likelihood 0.50), 05:41:41, [check](https://www.pangram.com/history/84481ba2-f688-4bec-8970-cd4beabedb67) |
+| S15v10v | Human | as q | **Human** (Human Written, high, 1423 words, AI likelihood 0.12), 05:41:53, [check](https://www.pangram.com/history/e6799955-1851-4f45-b7df-507352513035) |
+
+Results of 332g (Pangram's History, 2026-10-17 05:39:56 to 05:41:53 UTC): 7 of 11 predictions right. H1-P4 reads AI alone in all three of round e's shapes that keep the published "often" (q 0.82, u 0.92, v 0.99), and H1 reads Mixed with each (0.45, 0.44, 0.50; the AI window always takes in H1-P4). H3-P2 with "any" and "long-term" back reads Human alone (0.06) and in H3 (0.19), and the whole section reads 100% Human, high, with every shape (0.12). Seven shapes that keep "often" have now read AI alone (a, g, m, q, u, v, and v5's); the one that reads Human, round d's c ("so much is taken care of by"), is what Emulate wrote from the published sentence in rounds a, d and e alike, and trace r7 T1 called it a SHIFT. The gate's lesson for traces that disagree with the detector's pull ("put both ... on the page instead of rewording in a loop") applies: one more batch tries three last shapes (h1, h4, c2, `../make_v11.py`), and the choice goes to Joel as a question.

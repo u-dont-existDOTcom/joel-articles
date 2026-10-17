@@ -9,7 +9,7 @@
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
   "lint": "REVIEW",
-  "words": 86
+  "words": 88
  },
  "S16v5a-H1": {
   "kind": "screen",
@@ -22,8 +22,8 @@
    "S S S S B"
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
-  "lint": "FAIL",
-  "words": 176
+  "lint": "REVIEW",
+  "words": 178
  },
  "S16v5-H2-P2+P3a": {
   "kind": "screen",
@@ -35,7 +35,7 @@
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
   "lint": "REVIEW",
-  "words": 71
+  "words": 72
  },
  "S16v5-H2-P3a+P4": {
   "kind": "screen",
@@ -47,7 +47,7 @@
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
   "lint": "REVIEW",
-  "words": 73
+  "words": 74
  },
  "S16v5a-H2": {
   "kind": "screen",
@@ -66,8 +66,8 @@
    "B S"
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
-  "lint": "FAIL",
-  "words": 252
+  "lint": "REVIEW",
+  "words": 253
  },
  "S16v5-H2-P5+P6": {
   "kind": "screen",
@@ -110,8 +110,8 @@
   "march": [
    "S S B S",
    "S S B S",
-   "S S S S",
-   "S S S S"
+   "B S S B B",
+   "B S S B B"
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
   "lint": "REVIEW",
@@ -120,8 +120,8 @@
  "S16v5-H3-P6+P7": {
   "kind": "screen",
   "march": [
-   "S S S S",
-   "S S S S",
+   "B S S B B",
+   "B S S B B",
    "B S",
    "B S"
   ],
@@ -140,8 +140,8 @@
    "B S S S",
    "S S B S",
    "S S B S",
-   "S S S S",
-   "S S S S",
+   "B S S B B",
+   "B S S B B",
    "B S",
    "B S",
    "B S",
@@ -186,8 +186,8 @@
    "B S S S",
    "S S B S",
    "S S B S",
-   "S S S S",
-   "S S S S",
+   "B S S B B",
+   "B S S B B",
    "B S",
    "B S",
    "B S",
@@ -201,7 +201,7 @@
   ],
   "march_note": "every paragraph",
   "lint": "REVIEW",
-  "words": 779
+  "words": 782
  },
  "S16v5-H1-P1b+P2": {
   "kind": "screen",
@@ -213,7 +213,7 @@
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
   "lint": "REVIEW",
-  "words": 84
+  "words": 88
  },
  "S16v5b-H1": {
   "kind": "screen",
@@ -226,8 +226,8 @@
    "S S S S B"
   ],
   "march_note": "s16/review-r8; the rest as in 328g",
-  "lint": "FAIL",
-  "words": 174
+  "lint": "REVIEW",
+  "words": 178
  },
  "S16v5b": {
   "kind": "screen",
@@ -258,8 +258,8 @@
    "B S S S",
    "S S B S",
    "S S B S",
-   "S S S S",
-   "S S S S",
+   "B S S B B",
+   "B S S B B",
    "B S",
    "B S",
    "B S",
@@ -273,6 +273,6 @@
   ],
   "march_note": "every paragraph",
   "lint": "REVIEW",
-  "words": 777
+  "words": 782
  }
 }
