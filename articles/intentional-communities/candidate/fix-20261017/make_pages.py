@@ -13,8 +13,9 @@ sys.path.insert(0, str(CAND / 'fix-20261015'))
 import make_pages as M  # noqa: E402  (its build() reads the article now on disk)
 
 M.SINCE = 'c6f3a78e'
+B = ('b410', 'b411', 'b412', 'b413', 'b414')
 R = {}
-for b in ('b410', 'b411', 'b412'):
+for b in B:
     R.update(json.loads((HERE / b / ('%s-results.json' % b)).read_text(encoding='utf-8')))
 
 
@@ -22,7 +23,7 @@ def got(k, what):
     x = R[k]
     return 'Pangram: %s %s (%d words, %s UTC, batch %s): https://www.pangram.com/history%s' % (
         x[0].replace(' Written', '').replace(' Generated', ''), what, x[2], x[4],
-        next(b[1:] + 'g' for b in ('b410', 'b411', 'b412') if k in json.loads((HERE / b / ('%s-results.json' % b)).read_text())), x[5])
+        next(b[1:] + 'g' for b in B if k in json.loads((HERE / b / ('%s-results.json' % b)).read_text())), x[5])
 
 
 FIRST = ('Your published section is on the left. On the right is the version now in the article so far. Highlighted words are '
