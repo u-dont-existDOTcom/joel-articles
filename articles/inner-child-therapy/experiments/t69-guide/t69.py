@@ -160,8 +160,8 @@ def batch(rnd, spec_file):
             # the settled parts (G: read Human alone, J: his) count as installed for the linter; only my new drafts (D:) are
             # linted as mine
             la = CAND.with_name('lint-%s.md' % k)
-            la.write_text(md['candidate'] + '\n\n' + '\n\n'.join(block(b) for b in it['blocks'] if b.split(':')[0] in ('G', 'J', 'S', 'J7', 'D7')),
-                          encoding='utf-8')
+            la.write_text(md['candidate'] + '\n\n' + '\n\n'.join(block(b) for b in it['blocks'] if b.split(':')[0] in ('G', 'J', 'S', 'J7', 'D7')) + '\n\n' + '\n\n'.join(it.get('his', [])),
+                          encoding='utf-8')   # his published lines in my drafts count as his (E188, E189)
             gate[k] = {'kind': 'screen', 'march': [it['march']], 'lint': 'REVIEW', 'lint_article': str(la),
                        'note': 't69%s: %s, put together: %s.' % (rnd, it['blocks'][0], ', '.join(it['blocks'][1:]))}
         elif 'para' in it:     # one paragraph of a section as it would be installed (his, with a typo fixed)
