@@ -2016,15 +2016,26 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w8-p1, W:ba1p2-w9-p1) (193 words) [t65z8_secba1p8p9], a screen | Human, low (my call) | AI Generated (0.99, High; 200); 07:55:49 UTC, https://www.pangram.com/history/9daa8fdc-35ee-4ace-b957-63ff8f1bd3c7 | miss |
 | 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w9-p1, W:ba1p2-w8-p1) (182 words) [t65z8_secba1p9p8], a screen | Human, low (my call) | AI Generated (0.99, High; 187); 07:55:39 UTC, https://www.pangram.com/history/5aa7f48e-b58a-4d7c-a3b8-e81d04e8fcca | miss |
 | 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w9-p1, W:ba1p2-w9-p1) (175 words) [t65z8_secba1p9p9], a screen | Human, low (my call) | AI Generated (1, High; 181); 07:55:29 UTC, https://www.pangram.com/history/3494a146-5f18-4c6e-a209-99e9af591ba2 | miss |
-| 2026-10-17 (turn 65) | sp4p1 w8 p1 alone, a fresh writer (88 words) [t65z9_sp4p1w8p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | sp4p1 w9 p1 alone, my own draft (88 words) [t65z9_sp4p1w9p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | p14 w8 p1 alone, a fresh writer (71 words) [t65z9_p14w8p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | p14 w9 p1 alone, my own draft (72 words) [t65z9_p14w9p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | sh1 w5 p1 alone, a fresh writer (132 words) [t65z9_sh1w5p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w5's paragraphs (141 words) [t65z9_secsh1w5], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Journal With Each Hand, mixed (W:sp4p1-w8-p1, W:sp4-w1-p2) (181 words) [t65z9_secsp4h2w8], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Journal With Each Hand, mixed (W:sp4p1-w9-p1, W:sp4-w1-p2) (181 words) [t65z9_secsp4h2w9], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w8-p1, W:p15-installed) (141 words) [t65z9_secp14h2w8], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w9-p1, W:p15-installed) (142 words) [t65z9_secp14h2w9], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | W:p14h1-w8, mixed () (1387 words) [t65z9_secp14h1w8], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | W:p14h1-w9, mixed () (1388 words) [t65z9_secp14h1w9], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | sp4p1 w8 p1 alone, a fresh writer (88 words) [t65z9_sp4p1w8p1], a screen | Human, low (my call) | AI Generated (0.91, Low; 96); 08:01:53 UTC, https://www.pangram.com/history/396992e0-ce67-4482-91fa-394b745f7669 | miss |
+| 2026-10-17 (turn 65) | sp4p1 w9 p1 alone, my own draft (88 words) [t65z9_sp4p1w9p1], a screen | Human, low (my call) | AI Generated (0.8, Low; 93); 08:02:04 UTC, https://www.pangram.com/history/f305b88e-2494-4e5e-832f-8862b2b80de6 | miss |
+| 2026-10-17 (turn 65) | p14 w8 p1 alone, a fresh writer (71 words) [t65z9_p14w8p1], a screen | Human, low (my call) | AI Generated (0.9, Low; 74); 08:02:14 UTC, https://www.pangram.com/history/7cc1748e-b175-48dd-88cf-a057e177be37 | miss |
+| 2026-10-17 (turn 65) | p14 w9 p1 alone, my own draft (72 words) [t65z9_p14w9p1], a screen | Human, low (my call) | AI Generated (0.99, Low; 74); 08:02:25 UTC, https://www.pangram.com/history/25775e48-e12b-4f99-a43c-f1f2aaa74d5b | miss |
+| 2026-10-17 (turn 65) | sh1 w5 p1 alone, a fresh writer (132 words) [t65z9_sh1w5p1], a screen | Human, low (my call) | Human Written (0.21, Medium; 137); 08:02:35 UTC, https://www.pangram.com/history/2956d1b1-c98c-44a9-b685-f5f0ca960df9 | hit |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with w5's paragraphs (141 words) [t65z9_secsh1w5], a screen | Human, low (my call) | Human Written (0.2, Medium; 145); 08:02:45 UTC, https://www.pangram.com/history/2fe62834-7097-4577-a0e5-dbce41bdefb1 | hit |
+| 2026-10-17 (turn 65) | Journal With Each Hand, mixed (W:sp4p1-w8-p1, W:sp4-w1-p2) (181 words) [t65z9_secsp4h2w8], a screen | Human, low (my call) | AI Generated (0.9, High; 190); 08:02:53 UTC, https://www.pangram.com/history/a6a2afe8-74be-444c-bce5-8e2ec23a3f09 | miss |
+| 2026-10-17 (turn 65) | Journal With Each Hand, mixed (W:sp4p1-w9-p1, W:sp4-w1-p2) (181 words) [t65z9_secsp4h2w9], a screen | Human, low (my call) | AI Generated (0.89, High; 187); 08:02:41 UTC, https://www.pangram.com/history/6c666b61-8159-49a3-a819-98b88fb40105 | miss |
+| 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w8-p1, W:p15-installed) (141 words) [t65z9_secp14h2w8], a screen | Human, low (my call) | AI Generated (0.65, Medium; 143); 08:02:29 UTC, https://www.pangram.com/history/a5564bf5-a188-4fca-b591-9f934e6f49e9 | miss |
+| 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w9-p1, W:p15-installed) (142 words) [t65z9_secp14h2w9], a screen | Human, low (my call) | AI Generated (0.98, Medium; 143); 08:02:18 UTC, https://www.pangram.com/history/be9e181a-1281-4241-a115-e3f9cd960c2d | miss |
+| 2026-10-17 (turn 65) | W:p14h1-w8, mixed () (1387 words) [t65z9_secp14h1w8], a screen | Human, low (my call) | Mostly Human Written (0.13; 1451), 3 windows: AI-Generated 60 words (High); 08:02:07 UTC, https://www.pangram.com/history/f3773951-4e45-4aa6-b295-09f4ddfcb602 | hit |
+| 2026-10-17 (turn 65) | W:p14h1-w9, mixed () (1388 words) [t65z9_secp14h1w9], a screen | Human, low (my call) | Mostly Human Written (0.15; 1451), 2 windows: AI-Generated 123 words (High); 08:01:57 UTC, https://www.pangram.com/history/e45298a5-2230-446d-a3fe-0b23c89175bc | hit |
+| 2026-10-17 (turn 65) | sp8p1 w4 p1 alone, a fresh writer (72 words) [t65z10_sp8p1w4p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | p14 w7 p1 alone, a fresh writer (79 words) [t65z10_p14w7p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | p14 w6 p1 alone, a fresh writer (74 words) [t65z10_p14w6p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | ba1p2 w2 p1 alone, a fresh writer (97 words) [t65z10_ba1p2w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w8-p1, W:ba1p2-w2-p1) (197 words) [t65z10_secba1p8q2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w9-p1, W:ba1p2-w2-p1) (179 words) [t65z10_secba1p9q2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Use Childhood Photographs Without Interrogating Them, mixed (W:sp8p1-w4-p1, G:sp8-p2-c, G:sp8-p3-c, G:sp8-p4a, W:sp8p4b-w2-p1, G:sp8-p5-d) (437 words) [t65z10_secsp8m4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | W:p14h1-w7, mixed () (1395 words) [t65z10_secp14h1w7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | W:p14h1-w6, mixed () (1390 words) [t65z10_secp14h1w6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w7-p1, W:p15-installed) (149 words) [t65z10_secp14h2w7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w6-p1, W:p15-installed) (144 words) [t65z10_secp14h2w6], a screen | Human, low (my call) | (pending) | |

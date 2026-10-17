@@ -1,0 +1,101 @@
+{
+ "t65z10_sp8p1w4p1": {
+  "kind": "screen",
+  "march": [
+   "B S B S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: fresh writer w4 (E177) of sp8p1, paragraph 1. March: my own reading."
+ },
+ "t65z10_p14w7p1": {
+  "kind": "screen",
+  "march": [
+   "B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: fresh writer w7 (E177) of p14, paragraph 1. March: my own reading."
+ },
+ "t65z10_p14w6p1": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: fresh writer w6 (E177) of p14, paragraph 1. March: my own reading."
+ },
+ "t65z10_ba1p2w2p1": {
+  "kind": "screen",
+  "march": [
+   "S B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: fresh writer w2 (E177) of ba1p2, paragraph 1. March: my own reading."
+ },
+ "t65z10_secba1p8q2": {
+  "kind": "screen",
+  "march": [
+   "P1 w8 (read Human alone) | P2 w2 S B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: # Borrowed Adulthood in Relationship, mixed: W:ba1p1-w8-p1, W:ba1p2-w2-p1."
+ },
+ "t65z10_secba1p9q2": {
+  "kind": "screen",
+  "march": [
+   "P1 w9 (read Human alone) | P2 w2 S B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: # Borrowed Adulthood in Relationship, mixed: W:ba1p1-w9-p1, W:ba1p2-w2-p1."
+ },
+ "t65z10_secsp8m4": {
+  "kind": "screen",
+  "march": [
+   "P1 w4 B S B S | P2 c, P3 c, P4a, P4b w2, P5 d (each read Human alone)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: ## Use Childhood Photographs Without Interrogating Them, mixed: W:sp8p1-w4-p1, G:sp8-p2-c, G:sp8-p3-c, G:sp8-p4a, W:sp8p4b-w2-p1, G:sp8-p5-d."
+ },
+ "t65z10_secp14h1w7": {
+  "kind": "screen",
+  "march": [
+   "the h1 as installed (Human Written 0.108, high) with P14 w7 B S S S S under its heading"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: W:p14h1-w7, mixed: ."
+ },
+ "t65z10_secp14h1w6": {
+  "kind": "screen",
+  "march": [
+   "the h1 as installed (Human Written 0.108, high) with P14 w6 B S S S under its heading"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: W:p14h1-w6, mixed: ."
+ },
+ "t65z10_secp14h2w7": {
+  "kind": "screen",
+  "march": [
+   "P14 w7 B S S S S | P15 (installed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: ## Timing Is Individual, mixed: W:p14-w7-p1, W:p15-installed."
+ },
+ "t65z10_secp14h2w6": {
+  "kind": "screen",
+  "march": [
+   "P14 w6 B S S S | P15 (installed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t65z10: ## Timing Is Individual, mixed: W:p14-w6-p1, W:p15-installed."
+ }
+}
