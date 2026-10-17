@@ -927,4 +927,4 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 ### Next
 
 1. "And So That's the Way It Happened!" with his part-at-a-time method on the practice; then the Altered States sections with his stories as his guide has them; the other parked Simple Practices.
-2. His merge of #188 whenever he likes.
+2. His merge of #190 (turn 70; he merged #188, turns 67 to 69, at 22:05 UTC) whenever he likes.

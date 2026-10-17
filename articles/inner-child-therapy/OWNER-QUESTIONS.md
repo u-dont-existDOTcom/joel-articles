@@ -12,9 +12,9 @@ None right now. The next help request goes here, in your format, when I can't fi
 
 ## For you to do (no decision needed)
 
-### 🟠 The pull request (turns 67 to 70), whenever you like
+### 🟠 The turn-70 pull request, whenever you like
 
-You said the lessons are fine now (42, A). It merges cleanly, and it now has this turn's too (E190). Merging is yours.
+You merged #188 (turns 67 to 69) at 22:05 UTC. This turn is in [pull request #190](https://github.com/u-dont-existDOTcom/joel-articles/pull/190), with lesson E190. Merging is yours.
 
 ## Decided
 
@@ -23,7 +23,7 @@ You said the lessons are fine now (42, A). It merges cleanly, and it now has thi
 
 ### 🟢 2026-10-17 22:59 UTC
 
-- 42, A: noted; the pull request is yours to merge whenever you like.
+- 42, A: noted. You had merged #188 at 22:05 UTC; this turn is in #190.
 - 43, "my words": your Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building, and This human life is in as you published it, links and all ([alone Human Written 0.0035](https://www.pangram.com/history/02f69c44-e42b-4d52-b0fc-65fed65eb137); [If You Want to Kill Yourself with it Human Written 0.11, high](https://www.pangram.com/history/bf172964-b2e8-42c0-80ee-ce6c725704c6)). Xandria and the Altered States stories go in with their sections, as your guide has them. "If a voice or urge is directing you towards harm ..." is the guide's wording, not yours, and it stays only if it passes.
 - 9 to 12, A: your first person is back in all four. Borrow Hindsight opens with your "I sometimes ask:" ([Simple Practices Human Written 0.051, high](https://www.pangram.com/history/29977f92-04ba-45e2-bcf6-bd64bec99011)), and How Much Happiness has your horizon line ([the h2 Human Written 0.36, high](https://www.pangram.com/history/43118d39-6b96-4a3e-b973-9bb0c63679a2)). In the Shallow section and in Forgive, my sentences right after your lines read AI until I changed them: the Shallow section now goes on "So say you wake up from a dream with far more feeling and need in it ..." ([Human Written 0.23, high](https://www.pangram.com/history/668d9f25-0ddb-424e-9ae3-8370ff474012)), and in Forgive my plain list stays after your line, as a gloss of it, with your "my expectations" line back before the two quotes ([Human Written 0.085, high](https://www.pangram.com/history/26dca01c-31eb-4094-ba8e-9500337791b5)).
 - 44: your P1, P2 and P5 are in, word for word, with one typo fixed: you typed "lillies", I put "lilies". Speak Toward What You Are Building is in ([Human Written 0.13, high](https://www.pangram.com/history/f38ec8b9-4655-4c2a-b918-991dad5e6c99)). Its first check had an AI window from my P4's last sentence, "Then you trade places.", into your P5, so P4 now ends "Then you trade places, and it's your turn to keep "Here's what you should do" to yourself."
