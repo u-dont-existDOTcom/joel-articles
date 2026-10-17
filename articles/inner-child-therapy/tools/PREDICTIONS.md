@@ -1397,3 +1397,12 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15b (1300 words) [t65h_secp15b], a screen | Human, low (my call) | Mostly Human Written (0.17; 1363): an AI window of 71 (high) on the heading and P15; 03:08:15 UTC, https://www.pangram.com/history/f8e0d511-66c8-4ff3-80bc-9fee2a1a72c6 | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15c (1310 words) [t65h_secp15c], a screen | Human, low (my call) | Human Written (0.10, high; 1374), one Human window; 03:08:26 UTC, https://www.pangram.com/history/77d3465e-6602-43e2-a749-202a846e45ae | hit |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d (1303 words) [t65h_secp15d], a screen | Human, low (my call) | Human Written (0.088, high; 1364), one Human window; 03:08:38 UTC, https://www.pangram.com/history/1ca93ced-5d43-4449-bd77-1719f1149036 | hit |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15a alone (60 words) [t65i_p15a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15c alone (60 words) [t65i_p15c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15d alone (53 words) [t65i_p15d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15a (112 words) [t65i_pairp15a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15c (112 words) [t65i_pairp15c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15d (105 words) [t65i_pairp15d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15a (1306 words) [t65i_secp15a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15c (1306 words) [t65i_secp15c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d (1299 words) [t65i_secp15d], a screen | Human, low (my call) | (pending) | |
