@@ -27,4 +27,30 @@ Three rounds (e, f, g), twelve drafts: one read Human alone and left an AI windo
 ## P15, groups 15 and 16 (the integration test)
 
 - Group 15 is all in the article already; P15 carries group 16: did the opening deepen or widen love, and does it show (more honest and dependable, protective, compassionate, better at relationships).
-- Round h, under "## Timing Is Individual": p15-a Human alone and with the heading but AI in the h1; p15-c and p15-d the other way round. Round i, after P13 without the heading: p15-d Human alone (0.30), beside P13 (0.34, medium) and in the h1 (0.099, high). Its grounding and a cold read of the whole h1 (with P12's fix) are running.
+- Round h, under "## Timing Is Individual": p15-a Human alone and with the heading but AI in the h1; p15-c and p15-d the other way round. Round i, after P13 without the heading: p15-d Human alone (0.30), beside P13 (0.34, medium) and in the h1 (0.099, high).
+- Grounding of p15-d (`GROUNDING-p15d.md`): a DRIFT (the first test is whether the opening's love has reached your little one, before how you treat people) and an UNCLEAR start ("big opening came long before any of this", right after the humor paragraphs). Cold read (`COLD-READ-p15d.md`): the same stop at P15's first sentence.
+- Round j: p15-d6 under the guide's subheading "## Timing Is Individual", opening "keep their own schedule, too" and asking "Has it reached your little one yet?": alone Human (0.06, low; https://www.pangram.com/history/c7944fca-9673-4fb0-b668-05c6cbe4034d), the heading with P15 Human (0.056), the h1 Human Written (0.108, high; https://www.pangram.com/history/2ace607d-f5cd-481e-8d3b-f6397305ea39). Cold read of the h1 with it (`COLD-READ-p15d6.md`): every paragraph OK. Installed.
+
+# Simple Practices (the guide's next h1)
+
+Dedup first (`SP-DEDUP-REPORT.md`, nine practices, G1 to G9): what each practice still adds, what the article already says (left out), and three facts in the guide's own "I" that aren't in the article (left out, listed in `PARKED.md`). The h1 goes after The Inner Guide Comes Later, with each practice as an h2.
+
+## Borrow Hindsight
+
+- P1 (sp1-p1-d) and P2 (sp1-p2-e) read Human alone, in the h2 and in the h1 (rounds k to m; links in `tools/PREDICTIONS.md`).
+- Grounding (`GROUNDING-sp1.md`): MAIN POINT OK, two MUST flags: [8] the guide's fallback is missing (if you can't get into the wiser self's head, the smallest honest thing, a no or a pause, without faking the feeling), since the article says it only of other practices; [9] the other person's wiser future self needs the guide's next line (it changes nothing about what you go by now). Both are things the dedup had marked as said elsewhere; the grounding's reason (a reader with someone who keeps hurting them would wait for the better version) is why they go back in here.
+- Round o: refused by the gate before Pangram (two drafts FAILed the linter: a packed sentence, a list of three).
+- Round q (e3, e7, e8, each with both fixes in one paragraph): e7 alone Human (0.31), e3 and e8 alone AI; in the h2 all three AI (0.82 to 0.98, high). The fixes made one paragraph of five moves.
+- Round r: split as in the guide (its grounding: "fits one short addition per paragraph if [9] becomes its own paragraph"): P2 = the first three sentences and [8]; P3 = the other person's wiser future self and [9].
+
+## Remember When You Already Did It
+
+- Round m: sp2-e Human alone (0.026), in the h2 (0.049) and in the h1 (0.028, high); a, c and d AI.
+- Grounding (`GROUNDING-sp2.md`): MAIN POINT OK; [5] CHANGED: "how worn out you are today" narrows the guide's "exhaustion or present limits", so a reader who no longer has the help they had then could still treat the old win as a bar. Fix: widen it to today's limits, including missing what helped.
+- Round q: sp2-f ("when you might be more worn out or missing whatever helped you then") alone Human (0.14), in the h2 Human (0.16); sp2-h Human (0.40; 0.31). Next: the cold read (E175: a reworded clause gets a cold read, not a new grounding).
+
+## A Heart-to-Child Loop
+
+- Round n: P1 sp3-p1-c Human alone (0.001), in the h2 (0.001) and in the h1 (0.021, high).
+- Round q: P2 sp3-p2-d Human alone (0.27) and in the h2 (0.13, medium); a2 and e AI alone.
+- Grounding of P1 and P2 (`GROUNDING-sp3.md`): MAIN POINT OK; on P2's loop sentence, CHANGED ("nobody's doing all the rescuing" keeps the rescue frame and hands your little one part of the job) and MISFIRES, a MUST ("send some back up" reads as a step, against the vow's "You don't have to love me back"). Fix: the love coming back is welcome and not owed; if none comes, keep sending yours.

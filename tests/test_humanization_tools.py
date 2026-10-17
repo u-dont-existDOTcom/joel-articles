@@ -1403,6 +1403,10 @@ class PangramRoundBuildsEveryCheckAtOnce(unittest.TestCase):
             self.assertEqual(gate['r9_ya']['lint_article'], str(d / 'a2.md'))
             self.assertEqual(ran.call_count, 1)  # one gate run, one batch
             self.assertEqual((d / 'P.md').read_text(encoding='utf-8').count('(pending)'), 4)
+            groups[1]['checks'] = 'alone'
+            with mock.patch.object(pangram_round.subprocess, 'run', return_value=mock.Mock(returncode=0)):
+                pangram_round.run(groups, 'r10', str(d / 'out2'), str(d / 'P.md'), 'today')
+            self.assertEqual(set(json.loads((d / 'out2-drafts.json').read_text(encoding='utf-8'))), {'r10_xa', 'r10_secxa', 'r10_ya'})
 
 
 class PangramScoreFillsThePendingRows(unittest.TestCase):
@@ -1425,6 +1429,8 @@ class PangramScoreFillsThePendingRows(unittest.TestCase):
         self.assertTrue(out[1].endswith('| miss |'))
         self.assertEqual(out[2], lines[2])
         self.assertEqual([k for k, _, _ in done], ['t9_pa', 't9_sec2pa'])
+        short = pangram_score.expand(['Human Written', 0.0041, 72, ['Human, low, 72'], '2026-10-17T04:00:52Z', 'u1'])
+        self.assertEqual(short, dict(read['t9_pa']))
 
 
 class ClickableLinks(unittest.TestCase):

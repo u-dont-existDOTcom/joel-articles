@@ -4,8 +4,9 @@ Usage (from the repo root):
   python3 tools/humanization/pangram_score.py READ.json articles/X/tools/PREDICTIONS.md
 
 READ.json is the reader's object ({key: {headline, avg_ai_likelihood, words, windows, utc, link}}); fields it
-doesn't use may be left out. Each row whose "[key]" is in READ.json and still says "(pending)" gets the result, the
-check's UTC time and link, and hit or miss against the row's prediction. It prints one line per result.
+doesn't use may be left out. A result may also be the short list [headline, avg, words, windows, utc, uuid].
+Each row whose "[key]" is in READ.json and still says "(pending)" gets the result, the check's UTC time and
+link, and hit or miss against the row's prediction. It prints one line per result.
 
 2026-10-17 (turn 65): Joel asked for twelve hours of work done as fast as I can ("keep optimizing your approach");
 until now each batch's rows were scored by typing every result into a script by hand.
@@ -43,6 +44,16 @@ def hit(prediction, headline):
     return '?'
 
 
+def expand(v):
+    """A result as the reader gives it, or in the short form [headline, avg, words, windows, utc, uuid] that the
+    browser call can return so that less has to be copied (turn 65)."""
+    if isinstance(v, dict):
+        return v
+    h, avg, words, wins, utc, uuid = v
+    return {'headline': h, 'avg_ai_likelihood': avg, 'words': words, 'windows': wins, 'utc': utc,
+            'link': uuid if uuid.startswith('http') else 'https://www.pangram.com/history/' + uuid}
+
+
 def score(read, lines):
     """READ: the reader's object. LINES: PREDICTIONS.md's lines. Returns (new lines, [(key, cell, hit)])."""
     done = []
@@ -71,6 +82,7 @@ def main(argv=None):
     read = json.loads(raw)
     if isinstance(read, str):  # the reader returns JSON text, and the browser tool may wrap it once more
         read = json.loads(read)
+    read = {k: expand(v) for k, v in read.items()}
     p = pathlib.Path(argv[1])
     lines, done = score(read, p.read_text(encoding='utf-8').rstrip('\n').split('\n'))
     p.write_text('\n'.join(lines) + '\n', encoding='utf-8')

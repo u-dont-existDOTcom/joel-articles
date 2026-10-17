@@ -18,3 +18,11 @@ The tells I see: the paragraph is a sequence (first warmth and safety, then dire
 ## Simple Practices, A Heart-to-Child Loop: one sentence the r4 guide added
 
 "Non-judgement is a place to start." is in the r4 guide but not the original one, and nothing I can see traces where it came from (E155: a guide addition needs its map change and why the reader needs it), so the dedup and the drafts leave it out. If it's yours, it can go back in.
+
+## Simple Practices: three things from the guide's first person, left out (E159)
+
+The guide says these in its own "I", and the article doesn't have them in your words, so the drafts leave them out. If they're yours and you want them in, tell me how you'd say them.
+
+- Remember When You Already Did It: "My father often suggested remembering a time when I met a difficulty in a way I respected." The article never mentions your father, so the practice is given without him.
+- A Heart-to-Child Loop: "as I sadly learned while getting beaten up every day at kindergarten recess by a gang organized by my best friend." The article calls your childhood "actually so nice"; the drafts give the solar plexus point as "as anyone who's been hit there can tell you".
+- "And So That's the Way It Happened!": "My ex, Xandria, taught me to append..." The article's ex is unnamed; the practice is given without her.

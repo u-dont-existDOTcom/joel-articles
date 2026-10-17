@@ -23,6 +23,8 @@ article it goes into ("lint_article"), and the gate lints it against that one.
   {"round": "t65q", "out_prefix": "...-turn65-q", "predictions": ".../PREDICTIONS.md", "date": "2026-10-17 (turn 65)",
    "groups": [{"article": "A.md", "heading": "H", "section_march": "P1 S B", "outer": [["H1", "P1 S B | P2 S B"]],
                "label": "H P2", "note": "...", "cands": [["DRAFT.txt", "S B S"]]}, ...]}
+A group with "checks": "alone" gets only the paragraph-alone checks (its section isn't settled yet), and one with
+"checks": "section" only the checks in context (its paragraphs were checked alone before).
 """
 import argparse
 import json
@@ -43,9 +45,11 @@ def section_text(md, heading):
     return '\n\n'.join(b.strip() for b in re.split(r'\n\s*\n', md[start:]) if b.strip())
 
 
-def build(article, heading, rnd, cands, section_march, note, more=()):
+def build(article, heading, rnd, cands, section_march, note, more=(), alone_only=False):
     """Drafts and gate records for every candidate: alone, after the section's last block, and in the section.
-    MORE: (heading, march) pairs for the larger sections around it (an h1 around an h2), each checked too."""
+    MORE: (heading, march) pairs for the larger sections around it (an h1 around an h2), each checked too.
+    ALONE_ONLY: only the paragraph alone, for a paragraph whose section isn't settled yet (turn 65: a later
+    paragraph's section check, built on my guess for the one before it, is wasted when the guess reads AI)."""
     md = pathlib.Path(article).read_text(encoding='utf-8')
     sec = section_text(md, heading)
     before = sec.split('\n\n')[-1]
@@ -55,9 +59,12 @@ def build(article, heading, rnd, cands, section_march, note, more=()):
     for path, march in cands:
         text = pathlib.Path(path).read_text(encoding='utf-8').strip()
         tag = re.sub(r'[^a-z0-9]', '', pathlib.Path(path).stem.lower())
-        drafts[f'{rnd}_{tag}'] = text
-        gate[f'{rnd}_{tag}'] = {'kind': 'screen', 'march': [march], 'lint': 'REVIEW',
-                                'note': f'{note}; {pathlib.Path(path).stem}. March: my own reading.'}
+        if alone_only != 'section':  # 'section': the paragraph alone was checked before (Pangram won't take the same text twice)
+            drafts[f'{rnd}_{tag}'] = text
+            gate[f'{rnd}_{tag}'] = {'kind': 'screen', 'march': [march], 'lint': 'REVIEW',
+                                    'note': f'{note}; {pathlib.Path(path).stem}. March: my own reading.'}
+        if alone_only is True:
+            continue
         # Under a fresh heading, or after the section's only paragraph, the pair is the section itself (give or take
         # the heading line), checked below; turn 65 checked both and paid for each twice.
         if not before.startswith('#') and n > 1:
@@ -104,7 +111,7 @@ def run(groups, rnd, out_prefix, predictions, date):
     for g in groups:
         more = [tuple(o) for o in g.get('outer', [])]
         d, gt, pn = build(g['article'], g['heading'], rnd, [tuple(c) for c in g['cands']], g['section_march'],
-                          g.get('note') or rnd, more)
+                          g.get('note') or rnd, more, alone_only={'alone': True, 'section': 'section'}.get(g.get('checks'), False))
         clash = set(d) & set(drafts)
         if clash:
             sys.exit('two groups give the same check: %s (name the drafts apart)' % ', '.join(sorted(clash)))

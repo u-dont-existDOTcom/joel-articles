@@ -1,0 +1,470 @@
+{
+ "t65s_sp1p3f": {
+  "kind": "screen",
+  "march": [
+   "S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Borrow Hindsight's two grounding fixes ([8] the small honest part, a no or a pause, without faking the feeling; [9] what the real person keeps doing is what you go by) in a P3 of their own, after P2 = sp1-p2-e unchanged (it read Human alone, in the h2 and in the h1); sp1-p3-f. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2E.md"
+ },
+ "t65s_sp1p3h": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Borrow Hindsight's two grounding fixes ([8] the small honest part, a no or a pause, without faking the feeling; [9] what the real person keeps doing is what you go by) in a P3 of their own, after P2 = sp1-p2-e unchanged (it read Human alone, in the h2 and in the h1); sp1-p3-h. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2E.md"
+ },
+ "t65s_pairsp1p3f": {
+  "kind": "screen",
+  "march": [
+   "P2 (installed) | P3 S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: P2+P3, the paragraph before and sp1-p3-f.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2E.md"
+ },
+ "t65s_pairsp1p3h": {
+  "kind": "screen",
+  "march": [
+   "P2 (installed) | P3 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: P2+P3, the paragraph before and sp1-p3-h.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2E.md"
+ },
+ "t65s_secsp1p3f": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Borrow Hindsight with P3 = sp1-p3-f.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2E.md"
+ },
+ "t65s_secsp1p3h": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Borrow Hindsight with P3 = sp1-p3-h.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP-P2E.md"
+ },
+ "t65s_sp3p2d2": {
+  "kind": "screen",
+  "march": [
+   "S S B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: the loop's P2 with its grounding's fixes (the love coming back is your little one's to give, welcome and not owed, and with none, you keep sending yours; no rescue frame); sp3-p2-d2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP3-P1.md"
+ },
+ "t65s_sp3p2d4": {
+  "kind": "screen",
+  "march": [
+   "S B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: the loop's P2 with its grounding's fixes (the love coming back is your little one's to give, welcome and not owed, and with none, you keep sending yours; no rescue frame); sp3-p2-d4. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP3-P1.md"
+ },
+ "t65s_secsp3p2d2": {
+  "kind": "screen",
+  "march": [
+   "P1 S B S | P2 S S B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: A Heart-to-Child Loop with P2 = sp3-p2-d2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP3-P1.md"
+ },
+ "t65s_secsp3p2d4": {
+  "kind": "screen",
+  "march": [
+   "P1 S B S | P2 S B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: A Heart-to-Child Loop with P2 = sp3-p2-d4.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP3-P1.md"
+ },
+ "t65s_sp4e": {
+  "kind": "screen",
+  "march": [
+   "S B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Journal With Each Hand, new shapes after round r read AI alone four times out of four: the ransom-note handwriting, the lunchbox note, the guard taking the pen first; sp4-e. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65s_sp4f": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Journal With Each Hand, new shapes after round r read AI alone four times out of four: the ransom-note handwriting, the lunchbox note, the guard taking the pen first; sp4-f. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65s_sp4g": {
+  "kind": "screen",
+  "march": [
+   "S B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Journal With Each Hand, new shapes after round r read AI alone four times out of four: the ransom-note handwriting, the lunchbox note, the guard taking the pen first; sp4-g. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65s_secsp4e": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Journal With Each Hand with P1 = sp4-e.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65s_secsp4f": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Journal With Each Hand with P1 = sp4-f.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65s_secsp4g": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S B S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Journal With Each Hand with P1 = sp4-g.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP4.md"
+ },
+ "t65s_secsp5p2b": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B | P2 S S B S B"
+  ],
+  "lint": "CLEAR",
+  "note": "t65s: “And So That’s the Way It Happened!” with P2 = sp5-p2-b.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1F.md"
+ },
+ "t65s_sp5p2b2": {
+  "kind": "screen",
+  "march": [
+   "S S B S B"
+  ],
+  "lint": "CLEAR",
+  "note": "turn 65 round s: the story phrase P2, two more versions of sp5-p2-b (Human alone), after P1 = sp5-p1-f; sp5-p2-b2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1F.md"
+ },
+ "t65s_sp5p2b3": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: the story phrase P2, two more versions of sp5-p2-b (Human alone), after P1 = sp5-p1-f; sp5-p2-b3. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1F.md"
+ },
+ "t65s_secsp5p2b2": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B | P2 S S B S B"
+  ],
+  "lint": "CLEAR",
+  "note": "t65s: “And So That’s the Way It Happened!” with P2 = sp5-p2-b2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1F.md"
+ },
+ "t65s_secsp5p2b3": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B | P2 S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: “And So That’s the Way It Happened!” with P2 = sp5-p2-b3.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP5-P1F.md"
+ },
+ "t65s_sp7p1a2": {
+  "kind": "screen",
+  "march": [
+   "S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Just Like Me P1 (dedup G7: only when steady enough; name the feeling plainly; the \"Just like me\" wish, its \"not pass the pain forward\" as \"so the pain stops with us\"); sp7-p1-a2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7.md"
+ },
+ "t65s_sp7p1b2": {
+  "kind": "screen",
+  "march": [
+   "B S B S S S S S S"
+  ],
+  "lint": "CLEAR",
+  "note": "turn 65 round s: Just Like Me P1 (dedup G7: only when steady enough; name the feeling plainly; the \"Just like me\" wish, its \"not pass the pain forward\" as \"so the pain stops with us\"); sp7-p1-b2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7.md"
+ },
+ "t65s_secsp7p1a2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Just Like Me with P1 = sp7-p1-a2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7.md"
+ },
+ "t65s_secsp7p1b2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 B S B S S S S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Just Like Me with P1 = sp7-p1-b2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7.md"
+ },
+ "t65s_sp7p2a": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Just Like Me P2 (yourself first, then others; no forgiving, no picturing their childhood, no contact while flooded; a feeling everybody has is no proof you alone are broken), after P1 = sp7-p1-b2 (my pick before the results); sp7-p2-a. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7-P1.md"
+ },
+ "t65s_sp7p2b": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Just Like Me P2 (yourself first, then others; no forgiving, no picturing their childhood, no contact while flooded; a feeling everybody has is no proof you alone are broken), after P1 = sp7-p1-b2 (my pick before the results); sp7-p2-b. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7-P1.md"
+ },
+ "t65s_sp7p2c2": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Just Like Me P2 (yourself first, then others; no forgiving, no picturing their childhood, no contact while flooded; a feeling everybody has is no proof you alone are broken), after P1 = sp7-p1-b2 (my pick before the results); sp7-p2-c2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7-P1.md"
+ },
+ "t65s_secsp7p2a": {
+  "kind": "screen",
+  "march": [
+   "P1 B S B S S S S S S | P2 S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Just Like Me with P2 = sp7-p2-a.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7-P1.md"
+ },
+ "t65s_secsp7p2b": {
+  "kind": "screen",
+  "march": [
+   "P1 B S B S S S S S S | P2 B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Just Like Me with P2 = sp7-p2-b.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7-P1.md"
+ },
+ "t65s_secsp7p2c2": {
+  "kind": "screen",
+  "march": [
+   "P1 B S B S S S S S S | P2 S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Just Like Me with P2 = sp7-p2-c2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP7-P1.md"
+ },
+ "t65s_sp9a2": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Close the Session (dedup G9: a set end to every session; where you are, feet or chair, jaw and hands, the next everyday thing; \"returning to the life we are building\"; feelings left unsettled); sp9-a2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP9.md"
+ },
+ "t65s_sp9b2": {
+  "kind": "screen",
+  "march": [
+   "B S S B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Close the Session (dedup G9: a set end to every session; where you are, feet or chair, jaw and hands, the next everyday thing; \"returning to the life we are building\"; feelings left unsettled); sp9-b2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP9.md"
+ },
+ "t65s_sp9c2": {
+  "kind": "screen",
+  "march": [
+   "S B S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Close the Session (dedup G9: a set end to every session; where you are, feet or chair, jaw and hands, the next everyday thing; \"returning to the life we are building\"; feelings left unsettled); sp9-c2. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP9.md"
+ },
+ "t65s_secsp9a2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Close the Session and Return to Life with P1 = sp9-a2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP9.md"
+ },
+ "t65s_secsp9b2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 B S S B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Close the Session and Return to Life with P1 = sp9-b2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP9.md"
+ },
+ "t65s_secsp9c2": {
+  "kind": "screen",
+  "march": [
+   "(the heading) | P1 S B S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65s: Close the Session and Return to Life with P1 = sp9-c2.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP9.md"
+ },
+ "t65s_sp8p1a": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p1-a. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p1b": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p1-b. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p1c": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "CLEAR",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p1-c. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p2a": {
+  "kind": "screen",
+  "march": [
+   "S B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p2-a. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p2b": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p2-b. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p3a": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p3-a. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p3b": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p3-b. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p4a": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p4-a. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p4b": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p4-b. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p5a": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p5-a. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp8p5b": {
+  "kind": "screen",
+  "march": [
+   "S S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: Use Childhood Photographs, five paragraphs alone first (dedup G8); the false-memory study is Wade, Garry, Read and Lindsay 2002, linked; sp8-p5-b. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP8.md"
+ },
+ "t65s_sp6p1f": {
+  "kind": "screen",
+  "march": [
+   "S B S S S"
+  ],
+  "lint": "CLEAR",
+  "note": "turn 65 round s: the morning and night practice, after every round r draft read AI (0.77 to 1): a callback to the hook section (\"half the text already written\"), jokes, fragments; sp6-p1-f. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6.md"
+ },
+ "t65s_sp6p1h": {
+  "kind": "screen",
+  "march": [
+   "S S B S S S"
+  ],
+  "lint": "CLEAR",
+  "note": "turn 65 round s: the morning and night practice, after every round r draft read AI (0.77 to 1): a callback to the hook section (\"half the text already written\"), jokes, fragments; sp6-p1-h. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6.md"
+ },
+ "t65s_sp6p2h": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: the morning and night practice P2, alone first; sp6-p2-h. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6-P1.md"
+ },
+ "t65s_sp6p2i": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round s: the morning and night practice P2, alone first; sp6-p2-i. March: my own reading.",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/ARTICLE-SP6-P1.md"
+ }
+}
