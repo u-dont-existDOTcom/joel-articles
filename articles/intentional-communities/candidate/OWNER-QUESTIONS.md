@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-17 in the evening, after your message of 19:14 ("i agree with your excl 13 14 ideas"): section 13's exclamations are done (Decided, below), except two cuts that are yours now (question 48). Your 43 and 44 are done too, and so is the whole-article faithfulness pass you asked for in 45. **Open questions: 7** (45 to 51). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "46 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
+Last updated 2026-10-17 at night, after your message of 21:37 (your answers to 45 to 51): they're done (Decided, below), except your section 2 paragraph and the anomie paragraph, which wait on section 2's first paragraph (question 52), and the master, which waits on those. **Open questions: 3** (52 to 54). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "52 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,90 +9,65 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Seven questions. Each quotes its passage; the pages sent with this message show them in place.
+> Three questions. Each quotes its passage; the section 8 page sent with this message shows question 54's in place.
 
-**🟣 45. Accept the humanized article?** The whole-article pass is done (Decided, below), and its fixes are in. Sections 13 and 14 are accepted; the rest are candidates until you say so. When you accept, I make the humanized article the registered master, with a record of what changed; your published text stays in the record.
-- a) Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled. **My pick**, after you've read the article-so-far page.
-- b) Accept the sections you name; the rest wait.
-- c) Not yet.
+**🟣 52. Section 2: your paragraph and the anomie paragraph wait on the first paragraph.** Your fixed paragraph reads Human alone ([check](https://www.pangram.com/history/c3c2c622-fc4e-487a-a320-2540b0743294)) and with the paragraph after it ([check](https://www.pangram.com/history/867a3806-6251-43fc-81dc-d9a29c731816)), and the anomie paragraph reads Human alone ([check](https://www.pangram.com/history/bd80c491-d570-4596-9e70-03cb490bb21f)) and with the one after it ([check](https://www.pangram.com/history/b5e058e1-6c1a-4840-b7fb-a17c586721be)). But with your paragraph in, Pangram splits off the section's first paragraph, which didn't change, and reads it AI (section 2 Mostly Human, 0.31, [check](https://www.pangram.com/history/5f80fe13-8e0d-45d2-a5d8-4e09402245d8)):
 
-If you don't answer, nothing changes: your published text stays the master.
+> Suddenly the longing behind my father’s movie is everywhere again, and in 2023 the U.S. Surgeon General even put out an advisory about it. Or about the loneliness under it, at least. The advisory said roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
 
-**🟣 46. Your anomie point, and where your screenshot goes.** It isn't in the article: the published text never says it (Decided, below, has where I looked). The place I'd put it is section 2, right after "They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starvin' them.", because that's where the article asks what's starving people. A draft from your own words (your instruction file's "large societies breed anomie and capture by psychopaths", your "large societies are run by psychopaths due to anomie", and your "i'm always talking about"), with your screenshot and caption after it:
-
-> What's starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that's how large societies end up run by psychopaths. (Yes, I'm always going on about this.)
-
-"What's starving them" ties it to the sentence before; "the shared norms and close ties ... fall apart" says what anomie is, for readers who don't know the word; the bracket is your "i'm always talking about". It reads Human alone ([check](https://www.pangram.com/history/bfa7ffb4-bc61-4c26-8c7f-8b2e9c714478)) and Human with the next paragraph ([check](https://www.pangram.com/history/5a5ac2e9-9212-4690-a7df-62e0f1554dee)), and section 2 with it and the screenshot reads Mostly Human (0.30, [check](https://www.pangram.com/history/dee86295-b81f-4e21-be1f-c4f29c7ca495)): with the new paragraph in, Pangram read the section's first paragraph, which is installed text, as its own AI window, so that paragraph would need a fix before this goes in. One thing a cold reader raised: with only the caption, it couldn't see what the study found or how it connects to anomie ("I can't see why the screenshot is here or what the "no, duh" is about"). A reader who sees the screenshot gets the headline, so that may be enough; it's your call.
-- a) This paragraph there, with your screenshot and caption after it (they move from section 12), once section 2 reads 100% Human with it. **My pick.**
-- b) The same place, in your own words.
-- c) Somewhere else (say where).
-- d) Leave it out, as published; the screenshot stays in section 12, after your career-market paragraph.
-
-If you don't answer, d: nothing changes.
-
-**🟣 47. Five places where the honest fix needs your words (your 43: "give me the paragraph and i'll help").** In each, the change your rule asks for read fine to a fresh reader, and then Pangram read the paragraph or the section AI, or the paragraph had no turn left. So each is still as it was:
-- Section 16, "Find two or three other people and meet regularly. ... Get through at least one disagreement too, and keep your commitments. One disagreement is enough! You can talk about a shared future later.": the exclamation is the paragraph's only turn; without it, both march reads find a run of steps. I wrote it in an early round, as a joke on your published "handle one disagreement"; Emulate kept it as an aside, and I made it its own sentence again to give the paragraph a break: the same cheat you suspected in Emulate. My own turn instead ("(One is plenty for now.)") got a break in both reads, but the linter flags the paragraph's coaching tone with or without it, so I didn't run it in Pangram.
-- Section 16, "Go visit some real communities. Really, go! Twin Oaks is one. ...": the same, and this one I added by hand; my own turn instead ("the way I did as a kid", your section 1) had no break in either march read.
-- Section 16, "A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief.": the faithfulness pass put your published "change how people survive" in for "make a difference when people are going through", and Pangram read it AI with the paragraph before it (0.88, [check](https://www.pangram.com/history/0fd7ce7d-bd35-405c-a34d-3b704105dd49), and again 0.87 with "That's it!" there, [check](https://www.pangram.com/history/7aa07fc4-5ec1-4edd-8232-85abb8866f4b)) and brought AI windows into the section.
-- Section 15, "But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either! The warmth has hard limits here ...": the whole-article reader found the "!" softens the bluntness right before the anti-gay law; with a period the paragraph read AI with the next one (0.34, [check](https://www.pangram.com/history/ae28a8ca-e8ee-469a-8034-ac4bca1005ec)).
-- Section 2, "... but they agree that something about the current arrangement is starvin' them.": Emulate's dropped g, which your section 5 rule calls cheating; with "starving" the paragraph read AI alone (0.60, [check](https://www.pangram.com/history/0396689d-e81c-42c6-afb5-206b28666d93)), and none of my three rewordings had a turn.
-
-And one line from the faithfulness pass: "Trust me on this one." before "If three households keep showing up for each other like this for six months", which vouches from your own experience where the published didn't.
-- a) Your lines for any of these; I check each alone and in its section. **My pick.**
-- b) Keep them as they are.
-- c) Cut "Trust me on this one." (the rest as they are).
+With the anomie paragraph after yours as well, the AI window runs from the heading through the Google Trends paragraph (0.36, [check](https://www.pangram.com/history/46fec088-8a62-43ab-855b-dee757116ba0)), and with your screenshot and caption too there are three AI windows (0.36, [check](https://www.pangram.com/history/78ecd226-f98a-4385-a6d0-e7477dd10429)). So your 46 a ("once section 2 reads 100% Human with it") and your new paragraph aren't in yet: section 2 is as it was, "starvin'" and all, and the screenshot is still in section 12. That first paragraph is my rewrite of your published "The longing that shaped my father's film is suddenly everywhere again. ..."
+- a) Your words for it; I check it alone and in the section, with your paragraph, then with the anomie paragraph and the screenshot. **My pick**: your rewrites have read Human every time today.
+- b) I rework it myself, through the checks, and bring it back.
+- c) Leave section 2 as it is for now (the master then goes ahead without your new paragraph).
 
 If you don't answer, b.
 
-**🟣 48. Sections 13 and 14 (accepted): two exclamation phrases, one repeat, and length.** Your "i agree with your excl 13 14 ideas" is done (Decided, below), except two of the cuts: each phrase is its paragraph's only turn, and without it both readers found a run of steps, so by your 43 ("give me the paragraph and i'll help") these two are yours. Each is still as it was:
-- Section 13, "Resources, Land, and Exit Terms": "Who will have title to the land? Very important! Whoever has it will have enormous power over the rest of the community. If the deed is in the name of the founder, then he or she is really a landlord with a philosophy. ..."
-- The next paragraph: "... how inheritance works, what about outside debt, how improvements get handled, and what happens when someone wants to leave the community. Lots of decisions to make!"
-- One repeat: "But when power had crept up in their own system over the years, it took them a long review to push it back down." in section 13 says what your section 9 says ("it had crept up and consolidated itself at higher levels over time"). Under your dedup rule I'd cut it from 13.
-- Length: section 13 grew from 1,327 to 2,108 words, almost none of it yours, and the whole-article reader called much of that padding (the conflict paragraph says "dealt with it" four times: "REALLY dealt with it ... But really, truly dealt with it"). A tightening pass would cut repeats inside it and put back the anchor a cold reader missed at "There will be bottlenecks, sorry." ("Bottlenecks in what?"; your published "A money-free community still has scarce things and bottlenecks.", cut in v34 as a repeat of section 4), with every paragraph and the section checked again.
-- a) Your lines for the two paragraphs (I check each alone and in the section), and the repeat cut and the tightening pass. **My pick.**
-- b) The repeat cut only.
-- c) Leave both sections as they are now.
-- d) Your picks.
-
-If you don't answer, c.
-
-**🟣 49. Section 8, your own text of 7 October: four things two readers raised.** Each is in your words, so each is yours to keep:
-- The truthfulness paragraph: the published "This education must never become interrogation, punishment for uncertainty, or a reason to dismiss a report." is now "Don't let the teaching turn into interrogation or punishment when they're not sure.", after "Make sure kids understand what they say will be taken seriously if they are known to be honest." Without "or a reason to dismiss a report", a reader could take it that a child without that record may not be believed. Add "or a reason to dismiss what they report"?
-- "The Door Must Open Outward": the published "If it cannot, it can still avoid punishing departure or withholding the knowledge and records a young adult needs to function elsewhere." Yours keeps the records ("They should be able to access their own records and documents"); punishing departure is gone. Add "If it can't, it can still avoid punishing departure."?
-- "Amish young people, age 16, go through a 2-year period of freedom from parental control called *Rumspringa*." Rumspringa doesn't have a fixed length: it ends when they're baptized or leave. "from about 16, go through a period called *Rumspringa*"?
-- "Kids in or outside of intentional communities all need to learn enough about how the money world outside operates": the published said kids who grow up without money need it especially, and "the money world outside" reads oddly for kids who already live outside. "Kids who grow up without using money especially need to learn ..."?
-- a) All four. **My pick.**
-- b) The first three.
-- c) As you wrote it.
-- d) Your picks.
-
-If you don't answer, c.
-
-**🟣 50. Section 11, your rewrite: may a member keep their inner life to themselves?** The published answered the spiritual failure (one person in charge of everybody's inner life) with a hard line: "Members can decline to share without producing a therapeutic explanation for the refusal." Your version balances it: "privacy also can be resistance to the communal spirit", and "if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point". The whole-article reader's point: the article's answer to the opening charge no longer says a member may keep their inner material to themselves; your answer seems to be that nobody holds the gate alone ("No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community").
-- a) Keep yours; the gate line answers it. **My pick**: it's your position, rewritten on purpose.
-- b) Say the difference in one sentence of your own.
-- c) Bring back the published line.
+**🟣 53. Section 2, your aside: the rule isn't the Geneva Convention.** "(it's literally classified as torture by the UN's Geneva Convention)": the Geneva Conventions are the laws of war. The UN rules you mean are the Nelson Mandela Rules, its rules for prisoners: rule 43 bans prolonged solitary confinement, which rule 44 defines as 22 hours a day or more without meaningful human contact for more than 15 days in a row, among punishments that may never "amount to torture" or other cruel treatment ([rules 43 and 44](https://www.solitaryconfinement.org/un-nelson-mandela-rules)). The aside goes in with your paragraph (question 52).
+- a) "(it's literally classified as torture in the UN's rules for prisoners)", with that link on "the UN's rules for prisoners". **My pick**: your words, with only the name changed.
+- b) "(the UN's Mandela Rules literally ban it, along with torture)".
+- c) Your words.
 
 If you don't answer, a.
 
-**🟣 51. Emulate's other habits in sections 13, 15 and 16: asking and answering, and capitals.** Besides the exclamations, it asks and answers ("So which is it? Well, in a way, it's both.", "So what?", "Why bother?"; section 13 has 43 question marks against the published 6, section 15 14 against 0) and stresses with capitals ("REALLY", "VISIBILITY", "they HAVE to stay", "PLUS goats", "what the group has shown it CAN do"). Sections 1 to 12 hardly do either.
-- a) The same treatment as the exclamations: keep the real ones, cut or rework the rest, and check each paragraph and section; 15 and 16 next, 13 with 48. **My pick.**
-- b) Leave them.
+**🟣 54. Section 8, your 49: a report from a kid who lies a lot.** You kept "Make sure kids understand what they say will be taken seriously if they are known to be honest." on purpose ("dishonesty is a reason to dismiss the report"). This one is my own concern, not the reader's: when a kid reports that someone is hurting them, child-protection practice is to look into it every time, even when the kid lies a lot, because people who abuse kids often pick the ones who won't be believed. "Dismiss" can read as "don't check".
+- a) Keep it as you wrote it.
+- b) A sentence after it, in your words, something like "That doesn't mean ignoring a kid who says someone's hurting them. You still check." **My pick.**
+- c) Your words, some other way.
 
-If you don't answer, b.
+If you don't answer, a.
 
 ## For you to do
 
 > [!WARNING]
 > One thing, when you're back.
 
-- 🟠 Merge when you've looked at the pages: `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/189)). It has this evening's changes, from your 17:16 message; the overnight run and this afternoon's are in already (you merged them at 15:49 UTC).
+- 🟠 Merge when you've looked at the pages: `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/189)). It has the evening's and tonight's changes, from your 17:16, 19:14 and 21:37 messages; the overnight run and the afternoon's are in already (you merged them at 15:49 UTC).
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-17 21:37 UTC, your answers to 45 to 51:
+  - 45 a, "Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled": the master file and the record of the change are ready, and they go in once section 2 is settled (question 52). Until then your published text stays the master.
+  - 46 a: not in yet. Section 2 doesn't read 100% Human with the anomie paragraph (question 52).
+  - 47, point 1, "remove one is enough": done. Section 16's practice paragraph now says "Get through at least one disagreement too, and keep your commitments. You can talk about a shared future later." It reads Human with the paragraph before it ([check](https://www.pangram.com/history/bd34f3cb-389c-4d97-9281-c58dd29b9589)), and the section 100% Human ([check](https://www.pangram.com/history/9dd16854-38d8-4fd6-b448-32b8a73d0138)). With the paragraph after it, Pangram read that paragraph's list of groups AI ([check](https://www.pangram.com/history/1b4b9e69-a073-4376-8520-37fc05f3ee43)); that paragraph, unchanged, reads Human with its own next one, so every paragraph there passes with a neighbor.
+  - Point 2, "Really, go!": kept. Point 3, "use the version that passed": kept as it is.
+  - Point 4, your rewrite of "All is not well in paradise": in as you wrote it, with "No, not quite." given its period, "favort" spelled "favor", and the law link kept on "March 2026". Your first paragraph with your second reads Human ([check](https://www.pangram.com/history/4ec9d94a-2493-417a-8d76-0c478b5b51b1)), your second alone ([check](https://www.pangram.com/history/d6cd33b6-8219-40de-b3b2-c5ac910310e0)), and section 15 100% Human ([check](https://www.pangram.com/history/83dc7a9c-eb4c-47f2-8251-4e519e67c39c)). You're right that the "!" made it blunter, not softer: the reader had it backwards.
+  - Point 5, your section 2 paragraph: waits on questions 52 and 53. On "starvin'": the dropped g came from Emulate, the kind of thing your section 5 rule calls cheating, and your version doesn't need it. What I meant by "didn't have a turn": none of my rewordings had a break in the thought, a sentence where the writer reacts, jokes or steps aside instead of making the next point, so the check I run before Pangram stopped them.
+  - "Trust me on this one.": stays.
+  - 48 a: done in section 13, each change checked alone and in the section:
+    - the conflict paragraph has one "dealt with it" fewer and no capitals: "and really dealt with it. Not by writing out a vision statement and shaking hands ..." and "Dealing with it for real includes the relational pl/ork ...";
+    - "And how will you handle the visibility of what the community has? A money-free community still has scarce things and bottlenecks, sorry." (your published anchor back);
+    - the provisional-membership questions folded together: "Write down your answers: How long is a provisional membership, and what are a provisional member's rights and responsibilities? How is it reviewed, and how does someone leave it? ...";
+    - the repeat of your section 9 out ("But when power had crept up in their own system over the years, it took them a long review to push it back down.");
+    - and three lines the whole-article reader called padding: "Honestly?" before the book line, "Why wouldn't they be?", and "Yeah, it's tough. It's also true."
+    - "Very important!" and "Lots of decisions to make!" stay, as you said. So do "It may sound cheesy, but it's true all the same." and "Until then, what's it worth?": with those two out as well, Pangram read three windows of the section AI ([check](https://www.pangram.com/history/a76352db-eaad-4583-b614-4dc457af8004)), and with the other cuts only, 100% Human ([check](https://www.pangram.com/history/70203be8-fded-474a-bf96-77c358e72f90)).
+    - Your test of those two exclamation cuts showed the check I run before Pangram was wrong about cuts: it had held both because each was its paragraph's only break, and you found it made no difference. So a cut now goes to Pangram whatever that check says (it's in the shared rules), which is how the three padding cuts got in.
+    - Section 13 is 2,042 words now, from 2,107 before this pass (the published has 1,327).
+  - 49: points 2 and 3 done in section 8: "If it can't, it can still avoid punishing departure." is back after the transition help, and "Amish young people, from about age 16, go through a period of freedom from parental control called Rumspringa." The Rumspringa paragraph reads Human ([check](https://www.pangram.com/history/19bf0333-87e0-408d-a6a9-a807a03efa0b)), the skills paragraph alone ([check](https://www.pangram.com/history/9751f15f-e63d-441a-8b73-9db261b6bb9a)) and with the one after it ([check](https://www.pangram.com/history/337b3dfc-d026-466a-a235-dbe70cdf3094)), and section 8 100% Human ([check](https://www.pangram.com/history/027992f8-a5da-444f-8c33-a85cdc5bdbec)). Points 1 and 4 stay as you wrote them (question 54 has one thing of mine on point 1).
+  - 50 a: kept yours. The gate line was my wrong guess; your point is already in section 11: "In general, people can have their own private practices, of course. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted."
+  - 51 a: done with 48 in section 13, and in section 15: "Kind of the opposite problem." (the tag "isn't it?" out) and "Can you believe it?" out after your "they won't let me pay rent!". Section 15 reads 100% Human ([check](https://www.pangram.com/history/4b700247-0f16-4a17-b888-04cd373224b5)). "PLUS goats" stays. Section 16's "CAN" stays: with "can", Pangram read a window about 300 words further on AI ([check](https://www.pangram.com/history/d0e79a76-fb64-41e0-a70f-302de664444e)), and the section reads 100% Human with "CAN". Three rewordings stay as they are, because each took out its paragraph's only break, and that check still holds a rewording: "Why bother?" (section 13), "So what about the families?" and "So which is it? Well, in a way, it's both." (section 15). The last asks again what your new first paragraph answers, so I'm checking it cut (Coming up).
 - 🟢 2026-10-17 19:14 UTC, 48: "i agree with your excl 13 14 ideas". Done in section 13, one exclamation at a time: two fresh readers read each changed paragraph for its turn, and Pangram read each changed paragraph and the whole section. Section 14 keeps all of its own, as the list said.
   - The mark only: "This is the boring stuff.", "Bring your values with you when you go to visit a community.", "It’s a long list, I know.", "That’s a real value too.", "but the view isn’t going anywhere.", "There will be bottlenecks, sorry.", "You don't want them to lose everything they've put in.", "happens to have spare money.", "Not romantic, but protective.", "(Not everyone does.)", "pull off an act for months.", "just because they’re great with kids.", "(Sorry, hanging out doesn't count. I know, it's the fun part.)", "(yes, even interns)", "The key is that it's not the same people.".
   - The phrase out: "There's lots you can do!" ("That's okay!" stays before it).
@@ -236,5 +211,7 @@ If you don't answer, b.
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 When you accept (question 45): the humanized article becomes the registered master, with a record of the change.
+- 🔵 Section 2, once question 52 is settled: your paragraph (with question 53's aside), then the anomie paragraph and your screenshot (46 a), each checked alone and in the section.
+- 🔵 Then your 45 a: the humanized article becomes the registered master, with a record of the change.
+- 🔵 Section 15: "So which is it? Well, in a way, it's both." cut, since your new first paragraph answers it; the meaning checks first, then Pangram, alone and in the section.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.

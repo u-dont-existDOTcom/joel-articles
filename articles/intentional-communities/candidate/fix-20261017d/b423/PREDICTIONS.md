@@ -11,14 +11,14 @@ three only (v37b). Predictions written before the run.
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S13v37-p1+next | Human | the opening without "It may sound cheesy", with the conflict paragraph without "Until then"; both march reads found no break | |
-| S13v37-p2 | Human | the conflict paragraph without its last question; 422g read it with the question at 0.02 | |
-| S13v37-p2+next | Human | the same with "Until that's happened, you're all still promising strangers" | |
-| S13v37-p14+prev | Human | the book line without "Honestly?", after the leaving paragraph | |
-| S13v37-p23 | Human | the visitors paragraph without "Why wouldn't they be?" | |
-| S13v37-p24 | Human | "A safe community can't promise to keep everyone" without "Yeah, it's tough. It's also true." | |
-| S13v37 | Human | 422g read v36 100% Human (0.14); five cuts, nothing added | |
-| S13v37a | Human | the opening's two cuts only | |
-| S13v37b | Human | the other three only | |
-| S15v17-p20 | Human | the residency note without "Can you believe it?" after his "they won't let me pay rent!" | |
-| S15v17 | Human | 422g read v16 100% Human (0.11); one cut | |
+| S13v37-p1+next | Human | the opening without "It may sound cheesy", with the conflict paragraph without "Until then"; both march reads found no break | **Human** (Human Written, high, 160 words, AI likelihood 0.03), 22:25:41, [check](https://www.pangram.com/history/809185b8-85f4-4619-889f-4167045913e2) |
+| S13v37-p2 | Human | the conflict paragraph without its last question; 422g read it with the question at 0.02 | **Human** (Human Written, medium, 120 words, AI likelihood 0.03), 22:25:52, [check](https://www.pangram.com/history/c3c72506-a6a6-4995-a297-cd54e1d3e152) |
+| S13v37-p2+next | Human | the same with "Until that's happened, you're all still promising strangers" | **Human** (Human Written, high, 168 words, AI likelihood 0.27), 22:26:03, [check](https://www.pangram.com/history/d8de457d-713d-49c7-b557-5970db08536f) |
+| S13v37-p14+prev | Human | the book line without "Honestly?", after the leaving paragraph | **Human** (Human Written, high, 171 words, AI likelihood 0.00), 22:26:13, [check](https://www.pangram.com/history/8e030381-b599-473a-99ea-c4db6f5ff611) |
+| S13v37-p23 | Human | the visitors paragraph without "Why wouldn't they be?" | **Human** (Human Written, low, 95 words, AI likelihood 0.05), 22:26:26, [check](https://www.pangram.com/history/92e9ec72-e59f-47f3-b2f9-6ce3e5dbcc22) |
+| S13v37-p24 | Human | "A safe community can't promise to keep everyone" without "Yeah, it's tough. It's also true." | **Human** (Human Written, low, 89 words, AI likelihood 0.09), 22:26:38, [check](https://www.pangram.com/history/15f0134b-e04d-48fa-a709-2aa8b8089c71) |
+| S13v37 | Human | 422g read v36 100% Human (0.14); five cuts, nothing added | **Mixed** (AI Detected; windows: Human, Medium, 80; AI-Generated, High, 113; Human, High, 876; AI-Generated, High, 111; Human, High, 214; AI-Generated, High, 75; Human, High, 635, 2104 words, AI likelihood 0.17), 22:26:49, [check](https://www.pangram.com/history/a76352db-eaad-4583-b614-4dc457af8004) |
+| S13v37a | Human | the opening's two cuts only | **Mixed** (Mostly Human Written; windows: Human, High, 1098; AI-Generated, High, 83; Human, High, 214; AI-Generated, High, 90; Human, High, 633, 2118 words, AI likelihood 0.16), 22:26:59, [check](https://www.pangram.com/history/269bd306-1b4d-4615-bb53-676e813e62b9) |
+| S13v37b | Human | the other three only | **Human** (Human Written; windows: Human, High, 1662; Human, High, 374, 2121 words, AI likelihood 0.16), 22:27:10, [check](https://www.pangram.com/history/70203be8-fded-474a-bf96-77c358e72f90) |
+| S15v17-p20 | Human | the residency note without "Can you believe it?" after his "they won't let me pay rent!" | **Human** (Human Written, low, 76 words, AI likelihood 0.30), 22:27:19, [check](https://www.pangram.com/history/fa5b1331-536a-4524-bffe-019bb7425a2d) |
+| S15v17 | Human | 422g read v16 100% Human (0.11); one cut | **Human** (Human Written, high, 1438 words, AI likelihood 0.11), 22:27:33, [check](https://www.pangram.com/history/4b700247-0f16-4a17-b888-04cd373224b5) |

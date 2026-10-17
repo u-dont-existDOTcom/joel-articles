@@ -1460,6 +1460,13 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn('picks up something from a paragraph or two back', t)
         self.assertIn('add one line that starts "Paused:"', t)
 
+    def test_the_prompt_names_a_joke_that_takes_back_a_limit_and_a_dangling_either(self):
+        """Joel, 2026-10-17 21:37 UTC: "saying "one is enough" actually undermines the prior sentence "at least one"", and
+        ""not that either" doesn't make sense" (a cold reader had paused there, and the pause was kept as his published word)."""
+        t = (TOOLS / 'reviewer' / 'sense_section.txt').read_text(encoding='utf-8')
+        self.assertIn('turns a minimum into a maximum', t)
+        self.assertIn('a word like "either", "too", "also" or "again" with nothing before it to refer to', t)
+
 
 class ClickableLinks(unittest.TestCase):
     """html_links.py and pangram_links_check.py --chat (2026-10-16). Joel, 21:05 UTC: "(your links are not clickable btw)":
