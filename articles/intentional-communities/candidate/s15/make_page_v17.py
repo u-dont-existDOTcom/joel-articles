@@ -45,7 +45,7 @@ LINK = lambda k: 'https://www.pangram.com/history' + r424[k][5]
 assert r424['S15v18-p3+prev'][0].startswith('AI') and r424['S15v18-p3+prev'][1] == 0.95, r424['S15v18-p3+prev'][:2]
 assert r424['S15v18-p3+next'][0].startswith('Human') and r424['S15v18'][0].startswith('Human'), (r424['S15v18-p3+next'][0], r424['S15v18'][0])
 REWRITE = ('Your rewrite (your 47.4), as you wrote it: "No, not quite." with its period, "favort" spelled "favor", the law link kept '
-           'on "March 2026". You were right that the "!" made it blunter, not softer.')
+           'after "March 2026". You were right that the "!" made it blunter, not softer.')
 NOTE = {
  'H1-P2': ['Your 43: "I find them so soothing." with a period (a calm feeling; the published "I find them deeply soothing.").'],
  'H1-P3': ['"And the humor!" stays: a real reaction, and with a period it would read flat (your 43).'],

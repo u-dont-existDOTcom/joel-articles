@@ -27,7 +27,7 @@ SECT = [
      'them' % J),
     ('S15v15', '# What This Looks Like From Sénégal', C / 's15' / 'v15.md', '<!-- CANDIDATE: section 15 v14', 'CANDIDATE',
      'section 15 v15 (2026-10-17, after %s, 47.4): his rewrite of "All is not well in paradise" P1 and P2 as he wrote it ("No, not '
-     'quite." given its period, "favor" for "favort"), with the published law link kept on "March 2026"' % J),
+     'quite." given its period, "favor" for "favort"), with the published law link kept after "March 2026"' % J),
     ('S16v30', '# Practice Comes Before Property', C / 's16' / 'v30.md', '<!-- CANDIDATE: section 16 v29', 'CANDIDATE',
      'section 16 v30 (2026-10-17, after %s, 47.1): his cut of "One disagreement is enough!" ("it undermines ... "at least one""); '
      '"Really, go!" and the passing "make a difference" stay (47.2, 47.3)' % J),

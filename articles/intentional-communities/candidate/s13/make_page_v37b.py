@@ -57,7 +57,7 @@ NOTE = {
  'H1-P2': ('Your 48 a (the tightening): one "dealt with it" fewer and no capitals ("and really dealt with it. Not by writing out ...", '
            '"Dealing with it for real includes ..."). "Until then, what\'s it worth?" stays: with it and the cheesy line above out as '
            'well, Pangram read three windows of the section AI (423g).'),
- 'H3-P3': ('"visibility" in lower case, and your published anchor back: "A money-free community still has scarce things and '
+ 'H3-P3': ('"visibility" in lower case, and your published sentence back, with the "sorry" the line had: "A money-free community still has scarce things and '
            'bottlenecks, sorry." (a cold reader had asked "Bottlenecks in what?").'),
  'H3-P5': '"Honestly?" out before the book line (padding).',
  'H4-P5': 'The provisional-membership questions folded together (your 48 a), the last one in a fresh reader\'s wording.',
