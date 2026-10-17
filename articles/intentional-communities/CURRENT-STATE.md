@@ -27,7 +27,11 @@ Humanize Joel's published intentional-communities Substack article section by se
 
 ## Current checkpoint
 
-Sections 13 (v34) and 14 (v9) are accepted. Section 15, "What This Looks Like From Sénégal", is in progress overnight (Joel's 02:07 "continue, and don't stop"): baseline 321g (all AI but the moringa pods and the sheep), Emulate rounds a and b (`candidate/s15/emu-a/`, `emu-b/`), drafts v1 to v3 (`candidate/s15/make_vN.py`; keys PASS), batches 322g (8 of 21 Human) and 323g (v3). Section 16, "Practice Comes Before Property", is set up (`candidate/s16/`: the published text, its keys, baseline batch 324g), and one repeats check covers sections 15, 16 and the appendix before their drafting (`candidate/s16/review-r1/`). The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Sections 13 (v34) and 14 (v9) are accepted. The overnight run (Joel's 02:07 "continue, and don't stop") is on sections 15, 16 and the appendix, none installed yet (as of 05:30 UTC):
+- Section 15, "What This Looks Like From Sénégal": draft v9 reads 100% Human as a whole in every version since v3 (330g, v8: 0.11, high). Every paragraph reads Human alone but H1-P4, which reads AI in each shape that keeps the published "often" (330g); v10 tries three shapes from Emulate round e (`candidate/s15/emu-e/`), batch 332g. Meaning rounds r1 to r8 (`candidate/s15/review-rN/`, DISPOSITIONS files), round r8's cold read all OK.
+- Section 16, "Practice Comes Before Property": draft v4 (Emulate round a, the meaning back, the dedup, round r4's fixes) read Human in 11 of 22 screens (328g); v5 rebuilds the AI paragraphs from Emulate round b (`candidate/s16/emu-b/`), batch 333g. The stance check of v4 is running again with an output budget (`candidate/s16/review-r7/`).
+- The appendix: baseline 329g (the films Human, the books and the research paragraph AI, the whole Mixed); draft v4 rebuilds every entry from Emulate round a with the meaning back and a break in each screened run; batch 331g screens each entry in the shortest run Pangram can read (`tools/humanization/paragraphs_alone.py`, `minimal_runs`).
+The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
@@ -48,4 +52,4 @@ Sections 13 (v34) and 14 (v9) are accepted. Section 15, "What This Looks Like Fr
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 187, until it merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): section 15's screens of v3 (323g), the meaning reviews for the screens that read Human (`candidate/s15/make_gate.py DRAFT ROUND PIDs`), their fixes, the whole section, install; then section 16 and the appendix the same way, the repeats check's dedup first. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 187, until it merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): read batches 331g to 333g, choose the shapes that read Human, trace them (`candidate/sN/make_gate.py`), then each section's whole check, `paragraphs_alone.py` PASS and the install. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.

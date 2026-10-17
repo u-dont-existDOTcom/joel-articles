@@ -1,0 +1,52 @@
+[
+ {
+  "old": "For this article, the view of the grown children is essential.",
+  "new": "Why this one? For this article, the view of the grown children is essential.",
+  "why": "a question that claims nothing, before the published \"essential\""
+ },
+ {
+  "old": "takes you on a tour of a bunch of ecovillages in Europe, and shows how many different arrangements hide under that one label.",
+  "new": "takes you on a tour of a bunch of ecovillages in Europe. How many different arrangements can hide under that one label? A lot, it turns out!",
+  "why": "the published \"showing how many different arrangements hide under one label\" as a question and its answer"
+ },
+ {
+  "old": "The Bruderhof also has a pretty extensive [YouTube channel]",
+  "new": "Oh, and the Bruderhof has a pretty extensive [YouTube channel]",
+  "why": "an aside (\"Oh, and ... too\"); the same fact"
+ },
+ {
+  "old": "](https://www.youtube.com/channel/UCr6Df5XndlMFVB43NodfUsQ).",
+  "new": "](https://www.youtube.com/channel/UCr6Df5XndlMFVB43NodfUsQ) too.",
+  "why": "the aside's \"too\""
+ },
+ {
+  "old": "It's provocative observation, so take it with a grain of salt as anthropology.",
+  "new": "Is it settled anthropology? No, it's provocative observation, so take it with a grain of salt.",
+  "why": "the published \"Read it as provocative observation rather than settled anthropology\" as a question and its answer"
+ },
+ {
+  "old": "And for a whole-systems guide to intentional community, there's ",
+  "new": "Want a guide to intentional community that covers the whole system? There's ",
+  "why": "the published \"a whole-systems guide to intentional community\" as a question"
+ },
+ {
+  "old": "is a paper that asks whether longevity alone is a meaningful measure, when a community may keep going without its members flourishing.",
+  "new": "is a paper with this question: is longevity alone a meaningful measure, when a community may keep going without its members flourishing?",
+  "why": "the paper's question asked directly; the same question"
+ },
+ {
+  "old": "(1970) is the classic essay arguing that a hidden hierarchy can be harder to challenge than explicit authority.",
+  "new": "(1970) is the classic essay on hidden hierarchy. Can it be harder to challenge than explicit authority? She argues it can.",
+  "why": "the published \"the classic argument that hidden hierarchy can be harder to challenge than explicit authority\" as a question and her answer"
+ },
+ {
+  "old": "Then there's the Zapatistas' own archive, [Enlace Zapatista]",
+  "new": "Want it straight from the Zapatistas? Their own archive is [Enlace Zapatista]",
+  "why": "a question that claims nothing; the published \"The Zapatistas' own Enlace Zapatista archive\""
+ },
+ {
+  "old": "), especially their 2023 explanations of the new autonomy.",
+  "new": "), and look especially for their 2023 explanations of the new autonomy.",
+  "why": "the published \"especially\" as what to look for there"
+ }
+]

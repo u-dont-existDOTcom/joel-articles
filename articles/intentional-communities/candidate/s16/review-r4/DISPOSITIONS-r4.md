@@ -22,4 +22,4 @@ Round r4 (2026-10-17, `../make_gate.py v2 review-r4`): ten meaning traces (two p
 
 ## Stance check
 
-(pending when this was written; the result goes here)
+The first run (this round's prompt, on v2) stopped at the 64,000-token output limit with no report. It ran again on v4 with an output budget in the brief (`../review-r7/STANCE-PROMPT-pub.txt`, report `../review-r7/STANCE-pub.md`): no conflict in the rewrite (its closest calls, not counted: "proven" for "can ... reliably", "One disagreement is enough!", "and the rest" after a closed list, "Trust me on this one"). One contradiction in the published text: section 13's "For the full sequence—vision before membership, membership before pooling major resources, major resources before land—read Diana Leafe Christian's" against section 16's order. Already fixed in the humanized article: section 13 v34 sends the reader to the book "for the nuts and bolts of all this" (Joel, 2026-10-16 23:38: "we should not lean on Christian's book order if it contradicts my own order"), and the appendix's "start here for sequencing" goes in its v1.

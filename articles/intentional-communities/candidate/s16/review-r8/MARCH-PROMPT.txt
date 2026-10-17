@@ -1,0 +1,34 @@
+Below are 12 paragraphs from a blog article about building intentional communities, each one on its own, with its sentences numbered.
+
+Label every numbered sentence of every paragraph S (STEP) or B (BREAK):
+- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.
+- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said ("Or put it in your own words."); a pause, waiting, or a permission ("If it doesn't come, that's okay for today."); stopping to consider what something might feel like or be like ("It might be more of a mood. Sadness, maybe."); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.
+Judge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.
+
+Don't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:
+T1: S S B S S
+T2: S B S B
+
+T1: [1] In the villages and families I've spent time around, a lot of the time things go through the extended family and the local memory, alongside the formal systems. [2] Whether it's land, childcare, housing, food, obligations, etc, etc. [3] Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
+
+T2: [1] In the villages and families I've spent time around, you'd be surprised how often things go through the extended family and the local memory, alongside the formal systems. [2] Whether it's land, childcare, housing, food, obligations, etc, etc. [3] Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
+
+T3: [1] In the villages and families I've spent time around? [2] Land, childcare, housing, food, obligations, etc, etc. [3] A lot of the time, all that goes through the extended family and the local memory, alongside the formal systems. [4] Who needs a workshop called "Rebuilding Intergenerational Belonging" when some aunt has already given three people a task?
+
+T4: [1] But these days it can be soul destroying. [2] People have a lot less of the communal life that held the obligation up (the shared land, work, childcare, food and daily belonging), but they still carry it. [3] So if one of them makes it into the cash economy, it's really hard to build any independence or long-term stability, because they may be expected to carry everybody. [4] How can they get ahead, when all these people are dependent on them? [5] And the relatives stay dependent too, since the payments don't give them a real alternative. [6] It's the ancestral ethic playing out inside an individualistic cash economy. [7] It can keep people alive, but it eats away at both sides too.
+
+T5: [1] Most people building community go about it in the wrong order. [2] They get the land first, then write the vision down in a document, then let whoever had the money end up owning it. [3] And the emotional preparation? [4] They'll do that later, when everyone has more time.
+
+T6: [1] Most people building community take the steps in the wrong order. [2] Sound familiar? [3] First they get the land. [4] Then the vision goes in a document, and the ownership piles up with whoever had the money. [5] The emotional preparation? [6] That waits until everyone has more time.
+
+T7: [1] The inner pl/ork can start right where you live, though. [2] [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) only needs two people and enough privacy to talk. [3] And reparenting, somatic work, jealousy, conflict repair, etc etc? [4] None of that has to wait for a deed!
+
+T8: [1] The inner pl/ork can start right where you live. [2] [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) only needs two people and enough privacy to talk. [3] And reparenting, somatic work, jealousy, conflict repair, etc etc can happen pretty much anywhere. [4] No deed required!
+
+T9: [1] Trust me on this one. [2] If three households keep showing up for each other like this for six months, you'll learn more than you would from another year of daydreaming about the ideal village.
+
+T10: [1] Where can you find them? [2] Maybe at an unprogrammed Quaker meeting, or a restorative-practice group. [3] Open-hearted congregations, mature recovery groups and meditation groups are worth a try too. [4] And look for the people who came back from a long retreat kinder, rather than more impressed with themselves!
+
+T11: [1] Then go visit actual communities! [2] [Twin Oaks](https://twinoaks.org/), [East Wind](http://eastwind.org/) and [Acorn](https://www.ic.org/directory/acorn-community-farm/) take visitors, and so do other [intentional communities](https://www.ic.org/) and a lot of [ecovillages](https://ecovillage.org/). [3] Ever been to one? [4] Just check their current visitor requirements first.
+
+T12: [1] You'll find out things on a visit that no manifesto can tell you. [2] How much togetherness you actually enjoy, for one, and what kind of privacy you need. [3] Or which labor system drives you nuts! [4] And whether communal showers feel liberating or send you off pricing studio apartments.

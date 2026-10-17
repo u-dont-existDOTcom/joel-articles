@@ -1,0 +1,1 @@
+What do you get out of a visit? Things no manifesto can tell you. How much togetherness you actually enjoy, for one, and what kind of privacy you need. Or which labor system drives you nuts! And whether communal showers feel liberating or send you off pricing studio apartments.

@@ -1176,6 +1176,36 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
             ok, report = paragraphs_alone.check(prose, [d])
             self.assertFalse(ok, report)
 
+    def test_a_short_list_entry_counts_in_the_shortest_run_pangram_can_read(self):
+        """2026-10-17, the community article's appendix: two or three entries of 8 to 40 words under each heading, so no
+        pair under one heading reaches Pangram's 50 words. Such an entry counts inside the shortest run around it (headings
+        between included) that reaches 50 words; a longer run doesn't count for it."""
+        import paragraphs_alone
+        e = lambda n, k: ' '.join('%s%d' % (k, j) for j in range(n)) + '.'
+        a, b, c, d_ = e(20, 'a'), e(20, 'b'), e(20, 'c'), e(20, 'd')
+        md = '# Top\n\n## One\n\n' + a + '\n\n' + b + '\n\n## Two\n\n' + c + '\n\n' + d_ + '\n'
+        abc = a + '\n\n' + b + '\n\nTwo\n\n' + c   # 61 words: a and b with c (b, Two and c alone: 41)
+        bcd = b + '\n\nTwo\n\n' + c + '\n\n' + d_  # 61 words
+        runs = {(x, y) for x, y, _, _ in paragraphs_alone.minimal_runs(md, 1)}
+        self.assertEqual(runs, {(0, 2), (1, 3)})
+        abcd = abc + '\n\n' + d_                   # 81 words: d can go and it still reaches 50, so it isn't the shortest
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'drafts.json').write_text(json.dumps({'abcd': abcd}), encoding='utf-8')
+            (d / 'b1-results.json').write_text(json.dumps({'abcd': ['Human Written']}), encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertFalse(ok, report)
+            (d / 'drafts.json').write_text(json.dumps({'abc': abc, 'bcd': bcd}), encoding='utf-8')
+            (d / 'b1-results.json').write_text(json.dumps({'abc': ['Human Written'], 'bcd': ['Human Written']}),
+                                               encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertTrue(ok, report)
+            (d / 'b1-results.json').write_text(json.dumps({'abc': ['Human Written'], 'bcd': ['AI Detected']}),
+                                               encoding='utf-8')
+            ok, report = paragraphs_alone.check(md, [d])
+            self.assertFalse(ok, report)                # d is only in bcd
+            self.assertTrue(report[3].startswith('MISS d0'), report)
+
     def test_a_march_without_a_break_blocks_the_call(self):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(self.CLEAN, march=['S S S'])}, ['p'])
         self.assertEqual(r.returncode, 2)
