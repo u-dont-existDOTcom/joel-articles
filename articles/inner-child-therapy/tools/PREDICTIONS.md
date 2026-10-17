@@ -1458,12 +1458,28 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Simple Practices with sp2c at its end (226 words) [t65m_sec2sp2c], a screen | Human, low (my call) | Human Written (0.35, high; 236), the h1; 03:57:04 UTC, https://www.pangram.com/history/b27b8ecb-0caa-4db9-a091-d7a42967c6a9 | hit |
 | 2026-10-17 (turn 65) | Simple Practices with sp2d at its end (227 words) [t65m_sec2sp2d], a screen | Human, low (my call) | AI Detected (0.52; 233): AI windows of 88 (medium) and 52 (high), the h1; 03:57:16 UTC, https://www.pangram.com/history/469c8503-49de-4bda-bfc5-52b3806df66e | miss |
 | 2026-10-17 (turn 65) | Simple Practices with sp2e at its end (224 words) [t65m_sec2sp2e], a screen | Human, low (my call) | Human Written (0.028, high; 230), the h1; 03:57:27 UTC, https://www.pangram.com/history/6f221d69-3bc3-4819-b4bb-91defa945a7f | hit |
-| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P1, sp3p1a alone (71 words) [t65n_sp3p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P1, sp3p1b alone (71 words) [t65n_sp3p1b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P1, sp3p1c alone (69 words) [t65n_sp3p1c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P1 = sp3p1a (75 words) [t65n_secsp3p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P1 = sp3p1b (75 words) [t65n_secsp3p1b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P1 = sp3p1c (73 words) [t65n_secsp3p1c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices with sp3p1a at its end (299 words) [t65n_sec2sp3p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices with sp3p1b at its end (299 words) [t65n_sec2sp3p1b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices with sp3p1c at its end (297 words) [t65n_sec2sp3p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P1, sp3p1a alone (71 words) [t65n_sp3p1a], a screen | Human, low (my call) | Human Written (0.004, low; 72); 04:00:52 UTC, https://www.pangram.com/history/35bf848d-096e-4744-9771-a5a913552a1a | hit |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P1, sp3p1b alone (71 words) [t65n_sp3p1b], a screen | Human, low (my call) | Human Written (0.09, low; 73); 04:01:02 UTC, https://www.pangram.com/history/9be83b4a-bfb8-4d2c-8521-c816698b1c51 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P1, sp3p1c alone (69 words) [t65n_sp3p1c], a screen | Human, low (my call) | Human Written (0.001, low; 70); 04:01:13 UTC, https://www.pangram.com/history/46efc030-259a-4248-9a20-86bacf9fff19 | hit |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P1 = sp3p1a (75 words) [t65n_secsp3p1a], a screen | Human, low (my call) | Human Written (0.17, low; 77), the h2; 04:01:23 UTC, https://www.pangram.com/history/244b69af-6383-4097-b8bc-d1b6a8de2b3f | hit |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P1 = sp3p1b (75 words) [t65n_secsp3p1b], a screen | Human, low (my call) | AI Generated (0.53, low; 78), the h2; 04:01:34 UTC, https://www.pangram.com/history/db8c976f-5fa3-446b-b03d-c3d0360df6b2 | miss |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P1 = sp3p1c (73 words) [t65n_secsp3p1c], a screen | Human, low (my call) | Human Written (0.001, low; 75), the h2; 04:01:44 UTC, https://www.pangram.com/history/33b627b3-5f98-4a1f-876e-b89eee602e22 | hit |
+| 2026-10-17 (turn 65) | Simple Practices with sp3p1a at its end (299 words) [t65n_sec2sp3p1a], a screen | Human, low (my call) | Human Written (0.031, high; 307), the h1; 04:01:55 UTC, https://www.pangram.com/history/9ef86ccc-1cf3-4f53-8cb8-a6f44576e03a | hit |
+| 2026-10-17 (turn 65) | Simple Practices with sp3p1b at its end (299 words) [t65n_sec2sp3p1b], a screen | Human, low (my call) | Human Written (0.062, high; 308), the h1; 04:02:07 UTC, https://www.pangram.com/history/98c6e63a-0b5f-40dc-a001-49b672423ddf | hit |
+| 2026-10-17 (turn 65) | Simple Practices with sp3p1c at its end (297 words) [t65n_sec2sp3p1c], a screen | Human, low (my call) | Human Written (0.021, high; 305), the h1; 04:02:19 UTC, https://www.pangram.com/history/04b4d2b1-5443-4616-8218-212a9d1f16b9 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2e3 alone (100 words) [t65q_sp1p2e3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2e7 alone (104 words) [t65q_sp1p2e7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2e8 alone (101 words) [t65q_sp1p2e8], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2e3 (172 words) [t65q_secsp1p2e3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2e7 (176 words) [t65q_secsp1p2e7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2e8 (173 words) [t65q_secsp1p2e8], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Remember When You Already Did It, sp2f alone (87 words) [t65q_sp2f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Remember When You Already Did It, sp2h alone (85 words) [t65q_sp2h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Remember When You Already Did It with P1 = sp2f (94 words) [t65q_secsp2f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Remember When You Already Did It with P1 = sp2h (92 words) [t65q_secsp2h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P2, sp3p2a2 alone (66 words) [t65q_sp3p2a2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P2, sp3p2d alone (52 words) [t65q_sp3p2d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P2, sp3p2e alone (57 words) [t65q_sp3p2e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P2 = sp3p2a2 (139 words) [t65q_secsp3p2a2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P2 = sp3p2d (125 words) [t65q_secsp3p2d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P2 = sp3p2e (130 words) [t65q_secsp3p2e], a screen | Human, low (my call) | (pending) | |

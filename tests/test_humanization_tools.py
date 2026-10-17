@@ -1379,6 +1379,53 @@ class PangramRoundBuildsEveryCheckAtOnce(unittest.TestCase):
         self.assertTrue(all(g['kind'] == 'screen' for g in gate.values()))
         self.assertEqual(gate['r1_secp3x']['march'], ['P1 S | P2 S | P3 S B'])
 
+    def test_a_spec_puts_several_sections_in_one_batch_each_linted_against_its_own_article(self):
+        """2026-10-17 (turn 65): one batch for paragraphs of several sections, one wait in the browser."""
+        import pangram_round
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a1.md').write_text('# One\n\nFirst.\n', encoding='utf-8')
+            (d / 'a2.md').write_text('# Two\n\nSecond.\n', encoding='utf-8')
+            (d / 'x-a.txt').write_text('New for one.\n', encoding='utf-8')
+            (d / 'y-a.txt').write_text('New for two.\n', encoding='utf-8')
+            (d / 'P.md').write_text('| date | what | prediction | result | hit |\n', encoding='utf-8')
+            groups = [{'article': str(d / 'a1.md'), 'heading': 'One', 'section_march': 'P1 S B', 'cands': [[str(d / 'x-a.txt'), 'S B']]},
+                      {'article': str(d / 'a2.md'), 'heading': 'Two', 'section_march': 'P1 S B', 'cands': [[str(d / 'y-a.txt'), 'S B']]}]
+            with mock.patch.object(pangram_round.subprocess, 'run', return_value=mock.Mock(returncode=0)) as ran:
+                rc = pangram_round.run(groups, 'r9', str(d / 'out'), str(d / 'P.md'), 'today')
+            self.assertEqual(rc, 0)
+            drafts = json.loads((d / 'out-drafts.json').read_text(encoding='utf-8'))
+            gate = json.loads((d / 'out-gate.json').read_text(encoding='utf-8'))
+            # after a section's only paragraph the pair would be the section again, so it isn't built
+            self.assertEqual(set(drafts), {'r9_xa', 'r9_secxa', 'r9_ya', 'r9_secya'})
+            self.assertEqual(gate['r9_secxa']['lint_article'], str(d / 'a1.md'))
+            self.assertEqual(gate['r9_ya']['lint_article'], str(d / 'a2.md'))
+            self.assertEqual(ran.call_count, 1)  # one gate run, one batch
+            self.assertEqual((d / 'P.md').read_text(encoding='utf-8').count('(pending)'), 4)
+
+
+class PangramScoreFillsThePendingRows(unittest.TestCase):
+    """2026-10-17 (turn 65): each batch's PREDICTIONS.md rows were scored by typing every result by hand."""
+
+    def test_a_pending_row_gets_its_result_time_link_and_hit(self):
+        import pangram_score
+        lines = ['| d | P2 alone [t9_pa], a screen | Human, low (my call) | (pending) | |',
+                 '| d | the h1 with pa [t9_sec2pa], a screen | Human, low (my call) | (pending) | |',
+                 '| d | done before [t8_x], a screen | Human, low (my call) | Human Written (0.01, low; 70) | hit |']
+        read = {'t9_pa': {'headline': 'Human Written', 'avg_ai_likelihood': 0.0041, 'words': 72,
+                          'windows': ['Human, low, 72'], 'utc': '2026-10-17T04:00:52Z', 'link': 'https://www.pangram.com/history/u1'},
+                't9_sec2pa': {'headline': 'AI Detected', 'avg_ai_likelihood': 0.64, 'words': 226,
+                              'windows': ['Human, high, 54', 'AI, high, 88', 'AI, medium, 84'], 'utc': '2026-10-17T04:01:00Z',
+                              'link': 'https://www.pangram.com/history/u2'}}
+        out, done = pangram_score.score(read, lines)
+        self.assertEqual(out[0], '| d | P2 alone [t9_pa], a screen | Human, low (my call) | Human Written (0.004, low; 72); '
+                                 '04:00:52 UTC, https://www.pangram.com/history/u1 | hit |')
+        self.assertIn('AI Detected (0.64; 226), 3 windows: AI 88 words (high), AI 84 words (medium); 04:01:00 UTC', out[1])
+        self.assertTrue(out[1].endswith('| miss |'))
+        self.assertEqual(out[2], lines[2])
+        self.assertEqual([k for k, _, _ in done], ['t9_pa', 't9_sec2pa'])
+
 
 class ClickableLinks(unittest.TestCase):
     """html_links.py and pangram_links_check.py --chat (2026-10-16). Joel, 21:05 UTC: "(your links are not clickable btw)":

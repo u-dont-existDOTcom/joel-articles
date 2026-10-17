@@ -27,6 +27,9 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/pangram_gate.py DRAFTS.json GATE.json OUT.js --name NAME KEY [KEY ...]`
 - `pangram_round.py`: one screen round for a new paragraph in one command (E181, Joel 2026-10-17 01:15: "idk why that had to take 38 mins tho"): each candidate alone, beside the paragraph before it and at the end of its section, with the drafts and gate files, a pending row per check in PREDICTIONS.md, and pangram_gate.py run on them.
   `python3 tools/humanization/pangram_round.py --article A --heading H --round NAME --out-prefix PREFIX --predictions P --date D --section-march M DRAFT.txt:MARCH ...`
+  With `--spec SPEC.json`, paragraphs for several sections go in one batch, each linted against its own article (turn 65: one wait in the browser instead of three). After a section's only paragraph the pair isn't built, since it would be the section again.
+- `pangram_score.py`: fills a batch's "(pending)" PREDICTIONS.md rows from what its OUT-read.js returned (the result, time, link, and hit or miss), so no result is typed by hand (turn 65).
+  `python3 tools/humanization/pangram_score.py READ.json articles/X/tools/PREDICTIONS.md`
 - `pangram_links_check.py`: fails a message or page that reports an AI result from Pangram without the check's link (E175, Joel 2026-10-15: "give me the pangram check links when you tell me to check something on pangram").
   `python3 tools/humanization/pangram_links_check.py MESSAGE.md [MORE.md ...]`
 - `pangram_batch_gen.py`: the older action-list batch of up to three Pangram checks (no gate check; use `pangram_gate.py`), each text's SHA-256 checked before the click.

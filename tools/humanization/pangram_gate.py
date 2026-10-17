@@ -275,11 +275,19 @@ def main(argv=None):
     drafts = json.loads(pathlib.Path(a.drafts).read_text(encoding='utf-8'))
     gate = json.loads(pathlib.Path(a.gate).read_text(encoding='utf-8'))
     bad = False
+    # The linter takes about 5 seconds a text, so the texts are linted side by side (2026-10-17, turn 65: Joel asked
+    # for the work to go faster). A record's own "lint_article" is the article it goes into, when a batch holds
+    # paragraphs for different sections (pangram_round.py --spec); otherwise it's --lint-article.
+    todo = [k for k in a.keys if k in drafts and a.lint_article and (gate.get(k) or {}).get('kind') in ('screen', 'draft', 'edit')]
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        verdicts = dict(zip(todo, ex.map(lambda k: lint_verdict(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'],
+                                                                 (gate.get(k) or {}).get('lint_article') or a.lint_article), todo)))
     for k in a.keys:
         if k not in drafts:
             print('%s: not in %s' % (k, a.drafts), file=sys.stderr); bad = True
-        elif a.lint_article and (gate.get(k) or {}).get('kind') in ('screen', 'draft', 'edit'):
-            v = lint_verdict(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'], a.lint_article)
+        elif k in verdicts:
+            v = verdicts[k]
             if v != str((gate.get(k) or {}).get('lint', '')).upper():
                 print('%s: the linter says %s, GATE.json says %r; it now says %s' % (k, v, gate[k].get('lint'), v), file=sys.stderr)
             gate[k] = dict(gate[k], lint=v)
