@@ -7,3 +7,7 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 | text | mine | why | Pangram |
 |---|---|---|---|
 | S16v22dke | Mixed | the whole section: H3-P8's first half from Emulate moved nothing in 365g; a check on the window from H3-P6 to H3-P8 here | **Mixed** (AI Detected; windows: Human, High, 648; AI-Generated, High, 240, 888 words, AI likelihood 0.39), 11:20:32, [check](https://www.pangram.com/history/10030663-2b9a-4627-a1f5-a373fbb3a8c2) |
+
+## Results of 376g
+
+One of one right. H3-P8's first half from Emulate made it worse: AI from H3-P5's second sentence to the end (240 words).

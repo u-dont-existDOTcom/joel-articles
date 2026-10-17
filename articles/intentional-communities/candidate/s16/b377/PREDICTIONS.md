@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v22gkk | Mixed | the whole section: v21 ok's one window (H3-P6 to H3-P8, 130 words) with shape gkk | |
+| S16v22gkk | Mixed | the whole section: v21 ok's one window (H3-P6 to H3-P8, 130 words) with shape gkk | **Mixed** (AI Detected; windows: Human, High, 672; AI-Generated, High, 128; Human, High, 87, 887 words, AI likelihood 0.33), 11:22:56, [check](https://www.pangram.com/history/b3cfd0bd-96b9-4f70-a999-8eb86e181312) |
+
+## Results of 377g
+
+One of one right. Round i's call C for H3-P6: one window, 128 words from H3-P5's last sentence to H3-P8's end (0.33, the lowest AI share so far, https://www.pangram.com/history/b3cfd0bd-96b9-4f70-a999-8eb86e181312).
