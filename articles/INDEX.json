@@ -39639,6 +39639,26 @@
           "path": "articles/intentional-communities/candidate/joel-20261017/install_joel_20261017_0207.py",
           "sha256": "d1d1153d0b7ea04f04741c3300a1cbc847cec4234813b9d94e63f492bb1835a7",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/emu-a/inputs.json",
+          "sha256": "b41573b93d21f3863595a4d847c1eb5e1f330d6b3b2a35c8ff47be80b28ff0ba",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/emu-a/make_inputs.py",
+          "sha256": "b54e517aaa14da61a0ab7a2b572f5ec09ec58459631c78d426e065cbb6f394ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/emu-a/units.json",
+          "sha256": "d4797ac0ee32d6a81855c59507d54fa2483475768c1dc599569118d942bfe2db",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/v0.md",
+          "sha256": "06f3c9df1552c0799e9f023f8916021b7de1610222ece853a4baedb1de3cb677",
+          "role": "humanization_working_record"
         }
       ]
     }
