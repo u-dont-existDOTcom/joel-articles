@@ -45,6 +45,11 @@ def alone(md, dirs):
             same = lambda j: 0 <= j < len(paras) and paras[j][0] == head
             tries = ([(plain(paras[i - 1][1]) + '\n\n' + t, 'with the paragraph before')] if same(i - 1) else []) + \
                     ([(t + '\n\n' + plain(paras[i + 1][1]), 'with the paragraph after')] if same(i + 1) else [])
+        if len(t.split()) < 50 and not any(len(x.split()) >= 50 for x, _ in tries):
+            # a short list entry (the appendix, 2026-10-17): the shortest runs around it Pangram can read, as
+            # paragraphs_alone.check counts them
+            tries += [x for _, _, r, rl in paragraphs_alone.minimal_runs(md, i)
+                      for x in ((r, 'in the shortest run around it'), (rl, 'in the shortest run around it, with the headings'))]
         if head and (i == 0 or paras[i - 1][0] != head):
             tries += [(plain(head.lstrip('#').strip()) + '\n\n' + x, (w + ' and its heading').strip()) for x, w in tries]
         got = [r + (w,) for x, w in tries for r in seen.get(x, [])]

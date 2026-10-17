@@ -6,5 +6,5 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| APXv9-E25 | Human | r5 read Human alone (339g, 0.16); only its first clause changed | |
-| APXv9 | Human | v8 read 100% Human whole (341g, 0.18) | |
+| APXv9-E25 | Human | r5 read Human alone (339g, 0.16); only its first clause changed | **Human** (Human Written, low, 70 words, AI likelihood 0.10), 06:59:45, [check](https://www.pangram.com/history/0fdb305e-418e-4999-a295-382cb0aa3b35) |
+| APXv9 | Human | v8 read 100% Human whole (341g, 0.18) | **Human** (Human Written, high, 681 words, AI likelihood 0.17), 06:59:55, [check](https://www.pangram.com/history/a556a29f-7c29-405d-8b07-05bff9605cda) |
