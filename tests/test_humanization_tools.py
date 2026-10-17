@@ -1409,6 +1409,20 @@ class PangramRoundBuildsEveryCheckAtOnce(unittest.TestCase):
             self.assertEqual(set(json.loads((d / 'out2-drafts.json').read_text(encoding='utf-8'))), {'r10_xa', 'r10_secxa', 'r10_ya'})
 
 
+class PangramBatchRunsInTwoTabs(unittest.TestCase):
+    """2026-10-17 (turn 65): a 69-check batch took about 20 minutes in one tab. The batch can run in two tabs at
+    once, one from each end, meeting in the middle through localStorage."""
+
+    def test_the_batch_has_a_reverse_lane_that_stops_where_the_other_tab_is(self):
+        import pangram_gate
+        js = pangram_gate.batch_js('t9', [('t9_a', 'One text.'), ('t9_b', 'Two text.')])
+        self.assertIn('const rev = !!window.__reverse;', js)
+        self.assertIn('items0.slice().reverse()', js)
+        self.assertIn("localStorage.setItem(lane(rev ? 'rev' : 'fwd')", js)
+        self.assertIn('the other tab has the rest', js)
+        self.assertIn('"t9_a"', js)
+
+
 class PangramScoreFillsThePendingRows(unittest.TestCase):
     """2026-10-17 (turn 65): each batch's PREDICTIONS.md rows were scored by typing every result by hand."""
 

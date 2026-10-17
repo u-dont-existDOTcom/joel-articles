@@ -188,15 +188,26 @@ def batch_js(name, items):
         else:
             src = json.dumps(full)
         rows.append('[%s, () => %s, %s]' % (json.dumps(key), src, json.dumps(sha(full))))
-    return ("const items = [" + ', '.join(rows) + "];\n"
+    # Two tabs can share a batch (turn 65: a 69-check batch took 20 minutes in one): one runs it as it is, the
+    # other with window.__reverse = true from the end, and each stops where the other has got to; they meet in the
+    # middle through localStorage, which tabs of the same site share.
+    return ("const items0 = [" + ', '.join(rows) + "];\n"
+            "const rev = !!window.__reverse;\n"
+            "const items = rev ? items0.slice().reverse() : items0;\n"
+            "const order0 = items0.map(x => x[0]);\n"
+            "const lane = k => " + json.dumps(name) + " + '_' + k;\n"
+            "try { localStorage.removeItem(lane(rev ? 'rev' : 'fwd')); } catch (e) {}\n"
             "window.__" + name + " = [];\n"
-            "const log = m => window.__" + name + ".push(m);\n"
+            "const log = m => { window.__" + name + ".push(m); try { localStorage.setItem(lane(rev ? 'rev' : 'fwd'), JSON.stringify(window.__" + name + ")); } catch (e) {} };\n"
+            "const other = () => { try { return JSON.parse(localStorage.getItem(lane(rev ? 'fwd' : 'rev')) || '[]').filter(m => m.endsWith(': clicked')).map(m => order0.indexOf(m.split(':')[0])); } catch (e) { return []; } };\n"
             "const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;\n"
             "const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');\n"
             "const button = () => [...document.querySelectorAll('button[type=submit]')].find(b => /check for ai/i.test(b.innerText));\n"
             "const wait = ms => new Promise(r => setTimeout(r, ms));\n"
             "async function run() {\n"
             "  for (const [k, mk, want] of items) {\n"
+            "    const o = other(), i = order0.indexOf(k);\n"
+            "    if (o.length && (rev ? i <= Math.max(...o) + 1 : i >= Math.min(...o) - 1)) { log('stop at ' + k + ': the other tab has the rest'); break; }\n"
             "    const T = mk();  // built when its turn comes, so it can use texts stored earlier in this batch\n"
             "    for (let j = 0; j < 20 && !(button() && document.querySelector('textarea')); j++) await wait(500);\n"
             "    const ta = document.querySelector('textarea');\n"

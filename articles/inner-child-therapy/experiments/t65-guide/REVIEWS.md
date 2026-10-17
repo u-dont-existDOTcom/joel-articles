@@ -54,3 +54,19 @@ Dedup first (`SP-DEDUP-REPORT.md`, nine practices, G1 to G9): what each practice
 - Round n: P1 sp3-p1-c Human alone (0.001), in the h2 (0.001) and in the h1 (0.021, high).
 - Round q: P2 sp3-p2-d Human alone (0.27) and in the h2 (0.13, medium); a2 and e AI alone.
 - Grounding of P1 and P2 (`GROUNDING-sp3.md`): MAIN POINT OK; on P2's loop sentence, CHANGED ("nobody's doing all the rescuing" keeps the rescue frame and hands your little one part of the job) and MISFIRES, a MUST ("send some back up" reads as a step, against the vow's "You don't have to love me back"). Fix: the love coming back is welcome and not owed; if none comes, keep sending yours.
+
+## Rounds r and s (the rest of Simple Practices, every practice at once)
+
+Round r had 43 checks in one batch (seven groups), round s 52 (eleven groups); every result and link is in `tools/PREDICTIONS.md` (rows t65r, t65s), scored with `tools/humanization/pangram_score.py`.
+
+- Borrow Hindsight, split as in the guide (round r): P3 read Human alone in three versions (0.012 to 0.12), but every P2 with the [8] fix read AI, and the h2 read AI with each (0.64 to 0.99). Round s, the fixes as a P3 after the unchanged P2 (e): P3 AI alone and the h2 AI (0.95, 0.996). Round t has one more try (the food image turned around: "make the food yourself"); if it fails, Borrow Hindsight is parked with P1 and P2 as they read Human and the two fixes written out for Joel.
+- A Heart-to-Child Loop P2 with its grounding's fixes (round s): d2 alone Human (0.41) and the h2 Human (0.041, medium; https://www.pangram.com/history/2f59d723-4500-47f4-b003-808c3a553b35). The practice is ready: P1 = sp3-p1-c, P2 = sp3-p2-d2. Cold read of the first three practices running (`COLD-READ-sp-1.md`).
+- The story phrase: P1 e and f Human alone (0.01, 0.008) and in the h2 (0.075, 0.054); P2 b, b2 and b3 Human alone (0.017 to 0.027), but the h2 with P1 and P2 read AI every time (0.71 to 0.90).
+- Journal With Each Hand: eight versions in two rounds, all AI alone (0.56 to 0.99).
+- Just Like Me: P1 two versions AI (0.78, 0.92); P2 three versions AI (0.80 to 0.997).
+- One Intention: round r all AI (0.77 to 1.0); round s P2 h Human (0.44), the rest AI.
+- Use Childhood Photographs (round s, alone): P2 a and b Human (0.022, 0.196); P1, P3, P4 and P5 AI (P3 mixed: an AI window of 36 to 38 words).
+- Close the Session: six versions AI (0.99 to 1.0).
+
+What changed for round t (E183): one representative draft of each practice went to the grounding before its screen (`GROUNDING-sp4.md` to `GROUNDING-sp9.md`), and round t's drafts carry the fixes: Journal (the wrong hand writes whatever is really there, nothing made up; its writing already looks like a child's), the story phrase (no defendant; the trial ends, not the accountability or the repair; telling it colder won't help; the turn to what the person in the story needs now), One Intention (any one hook; seeing it only in the review counts), Just Like Me (the wish asks for no contact; contact is its own decision, never made while flooded), the photo practice (the looking turns to what your little one needs now; a photo proves nothing about the story it seems to tell; putting it away gets its own paragraph; stop at the first pull, overwhelm included), Close the Session (going back to your life is part of the healing; rest as an example; nothing has to be settled first). The drafts also try his own moves from the article (maybes, an idiom, a quoted thought, "(hehe)"-style asides, one 😅 from his list) after the instruction-shaped drafts read AI.
+- PGQ-016 (memory support isn't reflective journaling), queued for Journal With Each Hand and missed by the practice dedup (it isn't in the guide's text), gets a P2 of its own.
