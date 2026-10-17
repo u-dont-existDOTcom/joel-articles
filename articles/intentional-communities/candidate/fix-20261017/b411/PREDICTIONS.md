@@ -9,4 +9,8 @@ both readings), cold read SENSE-s12c.md (every paragraph OK), the study check SO
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S12v14-P2 | Human | his paragraph read Human; the added sentences are short and plain, with his aside as the break | |
+| S12v14-P2 | Human | his paragraph read Human; the added sentences are short and plain, with his aside as the break | **Human** (Human Written, low, 100 words, AI likelihood 0.00), 13:58:04, [check](https://www.pangram.com/history/f2f54fe4-b991-4ac7-8971-1724ab77cfca) |
+
+## Results of 411g
+
+Section 12 P2 with the study at its end reads Human alone (0.00, 100 words).

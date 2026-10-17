@@ -98,7 +98,8 @@ out = {'title': 'Practice Comes Before Property · section 16 (%s, %s) beside th
                  'How it was made: Emulate rewrote the opening and each subsection from your published text, and your meaning went '
                  'back inside its sentences; every hand-written version of "What to Do This Month" read AI. Meaning checks then '
                  'compared every paragraph with yours, and each point that had slipped got your words back before the last Pangram '
-                 'checks. Five things are cut as repeats of other sections, each noted where it was.'],
+                 'checks. Five things are cut as repeats of other sections, each noted where it was. The one stretch that still '
+                 'read AI with your meaning in is your own lines now (your 42), and "quietly" is out of the opening.'],
        'blocks': blocks}
 (S16 / 'page').mkdir(exist_ok=True)
 mp = S16 / 'page' / ('ic16-%s.json' % DRAFT[:-3])
