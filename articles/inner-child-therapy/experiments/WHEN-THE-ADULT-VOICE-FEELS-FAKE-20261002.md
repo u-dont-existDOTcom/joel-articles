@@ -819,3 +819,25 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His answer to question 29 (his fix of P5, or leave it), and his merge of this turn's pull request.
 2. Groups 7 to 9 of The Inner Guide Comes Later the E179 way: the main point first, close to the guide's sentences with a plain gloss, his P7 as the model; the main-point grounding and the cold read before Pangram picks.
+
+## Turn 61 (2026-10-16, from 22:34 UTC): his P5; P8 and P9 the E179 way
+
+- **In:** his P5, word for word (question 29, A); the section reads Human (0.056, high). P8 and P9 (groups 7 to 9: a belonging beyond any group; the Guide's other names), my drafts close to the guide, reviewed for meaning first (cold read OK; the grounding's three flags fixed), then Pangram: alone AI at low confidence, in the h1 Human (0.12, high), so question 30. Record: `t61-guide/REVIEWS.md`.
+- **From his fix:** the writer prompt and the tickets now carry his two moves (a plain word with a joke in parentheses that shows why; the condition a why needs).
+- **The gate's linter at work:** `pangram_gate.py --lint-article` refused a batch whose h1 had three paragraphs opening "The" (the hard B13), which a hand-typed lint would have let through.
+
+### Next
+
+1. His answer to question 30, and his merge of this turn's pull request.
+2. Group 10 of The Inner Guide Comes Later (`tools/targets/t56-ig10.json`: an external guru who demands surrender; the grounding's GREAT for it is in `t61-guide/GROUNDING-1.md`), the E179 way.
+
+## Turn 62 (2026-10-16, from 23:17 UTC): "why can't you fix them?"
+
+- **His message:** question 30 offered "leave them (they read Human in their section)" for P8 and P9, which failed alone, against the gate's first rule; it named the AI tells I saw and asked for his fix instead of trying them; and I needed no help.
+- **Fixed, the same points:** eight rounds (a to h) found a P8 (0.097) and a P9 (0.27) that each read Human alone; the h1 reads Human Written, 0.062, high, and both seams read Human. The lists weren't the tell (round a); plain words got half of P8 to read Human; the half that read AI read Human as the start of P9; the Guide's other names read Human as an aside and AI in parentheses. Then the review round: the cold read found no breaks; the grounding's must-fix (the belonging "doesn't ask you to give up being yourself", the guide's no self-betrayal) and a cut repeat went into P8 (round i: alone 0.091, beside P7 and P9 Human, high; the h1 Human Written, 0.087, high). Record: `t62-guide/REVIEWS.md`.
+- **Lesson E180:** a paragraph is shown as done only when it reads Human alone; a question about one that fails comes only after every tell I can name has had its own try, lists each try, and says what help I need; a section's result is never an option for it. E168's and E179's marked install says so now.
+
+### Next
+
+1. His merge of pull request #184 (turns 61 and 62).
+2. Group 10 of The Inner Guide Comes Later (`tools/targets/t56-ig10.json`: an external guru who demands surrender, and surrender from our side), the E179 way, installed only when each paragraph reads Human alone (E180).

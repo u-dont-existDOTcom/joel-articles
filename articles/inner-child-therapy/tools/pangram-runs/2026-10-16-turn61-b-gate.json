@@ -1,0 +1,50 @@
+{
+ "t61b_p8c": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round b: the grounding's fixes ([4] \"can … over time, as the Guide keeps reminding\"; [5] the Guide as a role, not a part; [6] Guru introduced as one of its names). March: my own reading."
+ },
+ "t61b_p8d": {
+  "kind": "screen",
+  "march": [
+   "B S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round b: the grounding's fixes ([4] \"can … over time, as the Guide keeps reminding\"; [5] the Guide as a role, not a part; [6] Guru introduced as one of its names). March: my own reading."
+ },
+ "t61b_p9c": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round b: the grounding's fixes ([4] \"can … over time, as the Guide keeps reminding\"; [5] the Guide as a role, not a part; [6] Guru introduced as one of its names). March: my own reading."
+ },
+ "t61b_p9d": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 61 round b: the grounding's fixes ([4] \"can … over time, as the Guide keeps reminding\"; [5] the Guide as a role, not a part; [6] Guru introduced as one of its names). March: my own reading."
+ },
+ "t61b_h1cc": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S S B | P9 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "the h1 with P8 and P9 (cc)."
+ },
+ "t61b_h1dd": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S S B | P9 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "the h1 with P8 and P9 (dd)."
+ }
+}

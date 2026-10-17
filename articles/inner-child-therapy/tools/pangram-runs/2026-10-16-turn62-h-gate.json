@@ -1,0 +1,26 @@
+{
+ "t62h_h1": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round h: the h1 with P8 = p8-q and P9 = p9-k (each read Human alone, rounds f and g)."
+ },
+ "t62h_p89": {
+  "kind": "screen",
+  "march": [
+   "P8 S S B B B S | P9 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round h: the P8+P9 pair (p8-q, p9-k), the seam between the two new paragraphs."
+ },
+ "t62h_p78": {
+  "kind": "screen",
+  "march": [
+   "P7 Joel's | P8 S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 62 round h: the P7+P8 pair (Joel's P7, p8-q)."
+ }
+}

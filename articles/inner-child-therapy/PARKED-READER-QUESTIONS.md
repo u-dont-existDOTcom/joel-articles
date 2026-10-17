@@ -6,6 +6,9 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-16 · The Inner Guide Comes Later, P8 (turn 62 grounding) · What could "whatever your tradition sees as ultimate" be? (The guide's examples: God, the divine, the universe, source, the Three Jewels, the Tao, life; as a list it was one of the AI tells I named in turn 61.) · default (parked)
+- 2026-10-16 · The Inner Guide Comes Later, P8 (turn 62 grounding) · What does belonging to existence itself mean? · default (parked)
+
 - 2026-10-07 · When Healing Turns Into Checking (Joel's update queue PGQ-002, draft K) · If I cancel a date just to make the doubt go away, is that checking too? (K's one point that Also Look Outward's new paragraph doesn't make; K said the rest again and failed Pangram alone twice, so it's out.) · parked
 
 - 2026-10-04 · When to Change the Strategy, P2 · What if I've been aiming at the wrong thing altogether? (The guide's "the target turns out to be wrong", dropped.) · COULD (parked)
