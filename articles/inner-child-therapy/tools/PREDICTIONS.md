@@ -2172,5 +2172,13 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | st1p2v w2 p1 alone, a fresh writer (89 words) [t65z18_st1p2vw2p1], a screen | Human, low (my call) | AI Generated (0.98, Low; 93); 09:37:32 UTC, https://www.pangram.com/history/286b6a85-35b0-41d3-86f3-ec39d80fd51a | miss |
 | 2026-10-17 (turn 65) | st1p2v w2 p2 alone, a fresh writer (88 words) [t65z18_st1p2vw2p2], a screen | Human, low (my call) | AI Generated (1, Low; 93); 09:37:22 UTC, https://www.pangram.com/history/59806aad-0795-4e45-8727-4596245abf2c | miss |
 | 2026-10-17 (turn 65) | st1p2v w2 p3 alone, a fresh writer (95 words) [t65z18_st1p2vw2p3], a screen | Human, low (my call) | AI Generated (1, Low; 99); 09:37:11 UTC, https://www.pangram.com/history/b8f89380-eff8-485c-8d42-945ee16aadcf | miss |
-| 2026-10-17 (turn 65) | st1p6 w5 p1 alone, my own draft (115 words) [t65z19_st1p6w5p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | st1p6 w6 p1 alone, my own draft (107 words) [t65z19_st1p6w6p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p6 w5 p1 alone, my own draft (115 words) [t65z19_st1p6w5p1], a screen | Human, low (my call) | AI Generated (0.7, Medium; 118); 09:41:07 UTC, https://www.pangram.com/history/75e8b719-88b1-4229-8828-a3d1fc5cdb0b | miss |
+| 2026-10-17 (turn 65) | st1p6 w6 p1 alone, my own draft (107 words) [t65z19_st1p6w6p1], a screen | Human, low (my call) | AI Generated (0.64, Medium; 109); 09:41:09 UTC, https://www.pangram.com/history/89003d5e-4664-4a43-bbe2-f65e708c7f77 | miss |
+| 2026-10-17 (turn 65) | fg1p1 w7 p1 alone, my own draft (104 words) [t65z20_fg1p1w7p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p1 w8 p1 alone, my own draft (90 words) [t65z20_fg1p1w8p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p1 w9 p1 alone, my own draft (99 words) [t65z20_fg1p1w9p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p3 w8 p1 alone, my own draft (152 words) [t65z20_fg1p3w8p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p3 w9 p1 alone, my own draft (144 words) [t65z20_fg1p3w9p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p6 w7 p1 alone, my own draft (106 words) [t65z20_st1p6w7p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p6 w8 p1 alone, my own draft (95 words) [t65z20_st1p6w8p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p6 w9 p1 alone, my own draft (101 words) [t65z20_st1p6w9p1], a screen | Human, low (my call) | (pending) | |
