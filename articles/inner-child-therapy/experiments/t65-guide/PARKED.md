@@ -14,3 +14,7 @@ Tries (three rounds, twelve drafts; every result and link in `tools/PREDICTIONS.
 - Round g: under the guide's own subheading, "## Timing Is Individual": the heading with P14 read AI every time (0.69 to 0.997), and the h1 kept its AI window on P14.
 
 The tells I see: the paragraph is a sequence (first warmth and safety, then direction), and every wording I tried kept that order as its spine; the guide's own nouns (Nurturer and Protector, warmth and safety, direction) carry it. What I'd want from you: your own version, the way you wrote P5 and P7, or a word on whether the point could live in a sentence of P1 instead (the heading already says the Guide comes later).
+
+## Simple Practices, A Heart-to-Child Loop: one sentence the r4 guide added
+
+"Non-judgement is a place to start." is in the r4 guide but not the original one, and nothing I can see traces where it came from (E155: a guide addition needs its map change and why the reader needs it), so the dedup and the drafts leave it out. If it's yours, it can go back in.
