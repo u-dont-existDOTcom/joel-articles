@@ -47502,7 +47502,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/fix-20261017/make_edits.py",
-          "sha256": "5e047c709a0737835ce452e64faffafec4ea7be01806ebbd665155027df15d1a",
+          "sha256": "8c0d5e6c0aad7fc6b28a88732d7dd51447a85b43c7bc78fc1cdc2dc82880f532",
           "role": "humanization_working_record"
         },
         {
@@ -47873,6 +47873,36 @@
         {
           "path": "articles/intentional-communities/candidate/s16/page/ic16-v28.json",
           "sha256": "5f14e5841ccffd89806de3aaa79561ee79204194ee786f25da2dc17fa8da4559",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b414/GATE.json",
+          "sha256": "d612242c15274238206cc05f7987482391dea90578a3f0f9c56dc17f57afbd04",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b414/PREDICTIONS.md",
+          "sha256": "39b8252d41e60029772047cd91bdde8d449463fd93161f6493282207d848ee1a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b414/b414-items.json",
+          "sha256": "7bf411dc768b73ef29b318ad8b49591f5bd5c316d001a913ecbd6560ef5005f4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b414/b414-read.js",
+          "sha256": "02c06816d9a119b461a6fd03adddebf9be9882ee07f20216eeaf5fd2f981ae29",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b414/b414.js",
+          "sha256": "40be9b9a5fe13824118e99618360bae58fabb44a2f704af28afe5f975d7f4ec6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b414/drafts.json",
+          "sha256": "97785ca5352f9f2a3444622490d52b46abe1908f92b5ae24b2ea7ddaf8f3a05a",
           "role": "humanization_working_record"
         }
       ]
