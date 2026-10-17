@@ -45,6 +45,8 @@ def alone(md, dirs):
             same = lambda j: 0 <= j < len(paras) and paras[j][0] == head
             tries = ([(plain(paras[i - 1][1]) + '\n\n' + t, 'with the paragraph before')] if same(i - 1) else []) + \
                     ([(t + '\n\n' + plain(paras[i + 1][1]), 'with the paragraph after')] if same(i + 1) else [])
+        if head and (i == 0 or paras[i - 1][0] != head):
+            tries += [(plain(head.lstrip('#').strip()) + '\n\n' + x, (w + ' and its heading').strip()) for x, w in tries]
         got = [r + (w,) for x, w in tries for r in seen.get(x, [])]
         got.sort(key=lambda r: r[0], reverse=True)
         out.append((p, got))

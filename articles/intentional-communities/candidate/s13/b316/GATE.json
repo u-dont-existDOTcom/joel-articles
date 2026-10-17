@@ -1,0 +1,188 @@
+{
+ "S13v33-H1-P3+P4": {
+  "kind": "screen",
+  "march": [
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "REVIEW",
+  "words": 157
+ },
+ "S13v33-H4-P8": {
+  "kind": "screen",
+  "march": [
+   "S B B S S S S S",
+   "S B B S S S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "REVIEW",
+  "words": 77
+ },
+ "S13v33-H1": {
+  "kind": "screen",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B",
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "REVIEW",
+  "words": 337
+ },
+ "S13v33-H4": {
+  "kind": "screen",
+  "march": [
+   "S B S S",
+   "S B S S",
+   "S S B S S S",
+   "S S B S S B",
+   "S B S",
+   "S B S",
+   "S S B S",
+   "S S B S",
+   "S S S S S B S S S",
+   "S S S S S B S S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S",
+   "S B S S",
+   "S B B S S S S S",
+   "S B B S S S S S",
+   "S S B S S S",
+   "S S B S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "REVIEW",
+  "words": 652
+ },
+ "S13v33-H2-P4": {
+  "kind": "screen",
+  "march": [
+   "S S S B S B",
+   "S S S B S B"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "CLEAR",
+  "words": 79
+ },
+ "S13v33-H2-P3b+P4": {
+  "kind": "screen",
+  "march": [
+   "B B S",
+   "B B S",
+   "S S S B S B",
+   "S S S B S B"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "CLEAR",
+  "words": 130
+ },
+ "S13v33-H2": {
+  "kind": "screen",
+  "march": [
+   "B B B B B B S B B",
+   "B B B B B B S B B",
+   "S B S",
+   "S B S",
+   "S S S B",
+   "S S S B",
+   "B B S",
+   "B B S",
+   "S S S B S B",
+   "S S S B S B"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "REVIEW",
+  "words": 349
+ },
+ "S13v33": {
+  "kind": "screen",
+  "march": [
+   "S S B",
+   "S S B",
+   "S S B S B",
+   "S S B S B",
+   "S B B S",
+   "S B B S",
+   "S B S S S S S",
+   "S B S S S S S",
+   "B B B B B B S B B",
+   "B B B B B B S B B",
+   "S B S",
+   "S B S",
+   "S S S B",
+   "S S S B",
+   "B B S",
+   "B B S",
+   "S S S B S B",
+   "S S S B S B",
+   "B B S S S",
+   "B B S S S",
+   "B S S B",
+   "B S S B",
+   "B B S S",
+   "B B S S",
+   "S S S S S S B S",
+   "S S S S S S B S",
+   "B S",
+   "B S",
+   "S B S S",
+   "S B S S",
+   "S S B S S S",
+   "S S B S S B",
+   "S B S",
+   "S B S",
+   "S S B S",
+   "S S B S",
+   "S S S S S B S S S",
+   "S S S S S B S S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S B S S",
+   "S B S S",
+   "S B B S S S S S",
+   "S B B S S S S S",
+   "S S B S S S",
+   "S S B S S S",
+   "S S B B S S S",
+   "S S B B S S S",
+   "S S S S S S S S S B",
+   "S S S S S S S S S B",
+   "S B S S S S S S",
+   "S B S S S S S S",
+   "S B S S S S",
+   "S B S S S S"
+  ],
+  "march_note": "s13/review-r21/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "REVIEW",
+  "words": 2143
+ },
+ "S14v8": {
+  "kind": "screen",
+  "march": [
+   "S B S",
+   "S B S",
+   "S S S S S S S S B",
+   "S S S S S S S S B",
+   "S B",
+   "S B",
+   "S B S S",
+   "S B S S",
+   "S B S S S",
+   "S B S S S",
+   "S S B",
+   "S S B"
+  ],
+  "march_note": "s14/review-r6/MARCH-labels-2a.txt, -2b.txt (s14 v7); s13: review-r21/MARCH-labels-2a.txt, -2b.txt, the visitor subsection from -4a.txt, -4b.txt, the land subsection from -5a.txt, -5b.txt; the values subsection from review-r23; H1-P3 and H4-P8 lost a step sentence each in v33, their breaks unchanged",
+  "lint": "REVIEW",
+  "words": 361
+ }
+}

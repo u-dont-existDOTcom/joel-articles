@@ -11,7 +11,7 @@ for the first time and found the short visit reading AI.
 
 Usage: python3 tools/humanization/paragraphs_alone.py DRAFT.md BATCH_DIR [BATCH_DIR ...]
 Each BATCH_DIR holds drafts.json (key -> the exact text Pangram read) and bNNN-results.json (key -> [headline, ai, words,
-windows, time, link tail, flagged], as the in-page reader writes it). Exit 0 when every paragraph has a Human result alone
+windows, time, link tail, flagged], as the in-page reader writes it, or key -> {"headline": ...} from the older reader). Exit 0 when every paragraph has a Human result alone
 (or with its neighbor), 1 otherwise; the report names each paragraph without one.
 """
 import json
@@ -47,7 +47,7 @@ def results(dirs):
             for k, r in json.loads(f.read_text(encoding='utf-8')).items():
                 if k in drafts:
                     text = drafts[k]['text'] if isinstance(drafts[k], dict) else drafts[k]
-                    seen.setdefault(text, []).append((k, r[0], d.name))
+                    seen.setdefault(text, []).append((k, r['headline'] if isinstance(r, dict) else r[0], d.name))
     return seen
 
 
@@ -62,6 +62,9 @@ def check(md, dirs):
             same = lambda j: 0 <= j < len(paras) and paras[j][0] == head
             tries = ([plain(paras[i - 1][1]) + '\n\n' + t] if same(i - 1) else []) + \
                     ([t + '\n\n' + plain(paras[i + 1][1])] if same(i + 1) else [])
+        if head and (i == 0 or paras[i - 1][0] != head):
+            # the first paragraph under a heading also counts when checked with its heading in front
+            tries += [plain(head.lstrip('#').strip()) + '\n\n' + x for x in tries]
         got = [r for x in tries for r in seen.get(x, [])]
         human = [r for r in got if r[1].startswith('Human')]
         if human:

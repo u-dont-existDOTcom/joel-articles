@@ -136,13 +136,11 @@
    "what": "conflict capacity before a surveyor",
    "keys": [
     [
-     "conflict"
-    ],
-    [
      "surveyor",
      "land"
     ]
-   ]
+   ],
+   "note_v33": "2026-10-17, v33: the conflict test is said once, in H1-P2 (\"until you've been through at least one real conflict together\"); H1-P3 keeps the land coming later (\"long before anyone needs a land surveyor\"), repeats r21 item 19"
   },
   {
    "id": "U11",
@@ -365,15 +363,19 @@
      "behavior",
      "behaviour",
      "actually does",
-     "actually functions"
+     "actually functions",
+     "really works"
     ],
     [
      "public language",
      "public",
-     "how they talk about"
+     "how they talk about",
+     "what it says about itself",
+     "says about itself"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"actually functions\", \"how they talk about\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"actually functions\", \"how they talk about\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v33": "2026-10-17, v33: \"go see how the group really works, not only what it says about itself\" for the published \"compare your values with the group's actual behavior, not only its public language\" (314g: the old wording's paragraph was the section's one AI window); the meaning trace confirms it"
   },
   {
    "id": "U22",
@@ -993,9 +995,6 @@
    "what": "a simulation can not reveal a soul; before anybody sells a house",
    "keys": [
     [
-     "soul"
-    ],
-    [
      "coordination",
      "coordinating"
     ],
@@ -1005,7 +1004,8 @@
      "sells their house"
     ]
    ],
-   "note_v32": "2026-10-17, v32: \"before anybody sells their house to move in\", the pause tally's fix (r17 b, r19 b)"
+   "note_v32": "2026-10-17, v32: \"before anybody sells their house to move in\", the pause tally's fix (r17 b, r19 b)",
+   "note_v33": "2026-10-17, v33: \"cannot reveal a soul\" is said by H4-P6's \"no good person detector\" and the faker (H4-P4), repeats r21 item 22; the trial run's own point (whether the coordination works) stays"
   },
   {
    "id": "U51",
