@@ -1375,13 +1375,25 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14h (1311 words) [t65f_secp14h], a screen | Human, low (my call) | AI Detected (0.20; 1378): AI windows of 96 and 86 (high) on P13 and P14; 02:57:59 UTC, https://www.pangram.com/history/4de6a5de-aee5-4e0d-87aa-52ae78645ad5 | miss |
 | 2026-10-17 (turn 65) | P14 (group 14), p14b3 alone (53 words) [t65g_p14b3], a screen | Human, low (my call) | (pending) | |
 | 2026-10-17 (turn 65) | P14 (group 14), p14i alone (57 words) [t65g_p14i], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P14 (group 14), p14j alone (60 words) [t65g_p14j], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P14 (group 14), p14k alone (60 words) [t65g_p14k], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P13+P14, with p14b3 (57 words) [t65g_pairp14b3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P13+P14, with p14i (61 words) [t65g_pairp14i], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P13+P14, with p14j (64 words) [t65g_pairp14j], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P13+P14, with p14k (64 words) [t65g_pairp14k], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14b3 (1303 words) [t65g_secp14b3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14i (1307 words) [t65g_secp14i], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14j (1310 words) [t65g_secp14j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P14 (group 14), p14j alone (60 words) [t65g_p14j], a screen | Human, low (my call) | AI Generated (0.79, low; 62); 03:02:03 UTC, https://www.pangram.com/history/0bab2be6-5161-4ef7-8787-46bd1cc25754 | miss |
+| 2026-10-17 (turn 65) | P14 (group 14), p14k alone (60 words) [t65g_p14k], a screen | Human, low (my call) | AI Generated (0.99, low; 62); 03:02:14 UTC, https://www.pangram.com/history/1696b235-468d-4bd2-a649-5168d2f76a13 | miss |
+| 2026-10-17 (turn 65) | P13+P14, with p14b3 (57 words) [t65g_pairp14b3], a screen | Human, low (my call) | AI Generated (0.69, low; 57), the heading with P14; 03:02:25 UTC, https://www.pangram.com/history/07498439-05f6-4297-bdbf-5ff1c9bdd85c | miss |
+| 2026-10-17 (turn 65) | P13+P14, with p14i (61 words) [t65g_pairp14i], a screen | Human, low (my call) | AI Generated (0.997, low; 65), the heading with P14; 03:02:35 UTC, https://www.pangram.com/history/f39811b2-1489-4e94-9d11-ff1b5d915ea2 | miss |
+| 2026-10-17 (turn 65) | P13+P14, with p14j (64 words) [t65g_pairp14j], a screen | Human, low (my call) | AI Generated (0.70, low; 65), the heading with P14; 03:02:46 UTC, https://www.pangram.com/history/f8b6b86e-d87a-4505-b9f8-1842b61616c5 | miss |
+| 2026-10-17 (turn 65) | P13+P14, with p14k (64 words) [t65g_pairp14k], a screen | Human, low (my call) | AI Generated (0.997, low; 65), the heading with P14; 03:02:56 UTC, https://www.pangram.com/history/6e0bd386-71d6-433f-b5ab-2f460efa9201 | miss |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14b3 (1303 words) [t65g_secp14b3], a screen | Human, low (my call) | Mostly Human Written (0.14; 1365): an AI window of 45 (high) on P14; 03:03:07 UTC, https://www.pangram.com/history/6317b7e0-606f-41c3-b24a-b6516dc8bdc7 | miss |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14i (1307 words) [t65g_secp14i], a screen | Human, low (my call) | Mostly Human Written (0.13; 1373): an AI window of 65 (high) on P14; 03:03:17 UTC, https://www.pangram.com/history/fe2a1912-d529-45da-8a02-7ad5eefa9121 | miss |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14j (1310 words) [t65g_secp14j], a screen | Human, low (my call) | Mostly Human Written (0.135; 1373): an AI window of 53 (high) on P14; 03:03:28 UTC, https://www.pangram.com/history/094ee7df-ec88-481a-b191-b3dd3642749d | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p14k (1310 words) [t65g_secp14k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15a alone (60 words) [t65h_p15a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15b alone (50 words) [t65h_p15b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15c alone (60 words) [t65h_p15c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15d alone (53 words) [t65h_p15d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15a (64 words) [t65h_pairp15a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15b (54 words) [t65h_pairp15b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15c (64 words) [t65h_pairp15c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15d (57 words) [t65h_pairp15d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15a (1310 words) [t65h_secp15a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15b (1300 words) [t65h_secp15b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15c (1310 words) [t65h_secp15c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d (1303 words) [t65h_secp15d], a screen | Human, low (my call) | (pending) | |

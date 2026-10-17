@@ -1,0 +1,98 @@
+{
+ "t65h_p15a": {
+  "kind": "screen",
+  "march": [
+   "S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round h: groups 15 and 16 (openings out of order are already in the article; what's left is whether the opening deepened or widened love, and the qualities test), under '## Timing Is Individual' with P14 parked; the qualities kept as the guide's list, split into questions; p15-a. March: my own reading."
+ },
+ "t65h_p15b": {
+  "kind": "screen",
+  "march": [
+   "S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round h: groups 15 and 16 (openings out of order are already in the article; what's left is whether the opening deepened or widened love, and the qualities test), under '## Timing Is Individual' with P14 parked; the qualities kept as the guide's list, split into questions; p15-b. March: my own reading."
+ },
+ "t65h_p15c": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round h: groups 15 and 16 (openings out of order are already in the article; what's left is whether the opening deepened or widened love, and the qualities test), under '## Timing Is Individual' with P14 parked; the qualities kept as the guide's list, split into questions; p15-c. March: my own reading."
+ },
+ "t65h_p15d": {
+  "kind": "screen",
+  "march": [
+   "S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round h: groups 15 and 16 (openings out of order are already in the article; what's left is whether the opening deepened or widened love, and the qualities test), under '## Timing Is Individual' with P14 parked; the qualities kept as the guide's list, split into questions; p15-d. March: my own reading."
+ },
+ "t65h_pairp15a": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: P13+P14, the paragraph before and p15-a."
+ },
+ "t65h_pairp15b": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: P13+P14, the paragraph before and p15-b."
+ },
+ "t65h_pairp15c": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: P13+P14, the paragraph before and p15-c."
+ },
+ "t65h_pairp15d": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: P13+P14, the paragraph before and p15-d."
+ },
+ "t65h_secp15a": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: The Inner Guide Comes Later with P14 = p15-a."
+ },
+ "t65h_secp15b": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S B S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: The Inner Guide Comes Later with P14 = p15-b."
+ },
+ "t65h_secp15c": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: The Inner Guide Comes Later with P14 = p15-c."
+ },
+ "t65h_secp15d": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S S B B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65h: The Inner Guide Comes Later with P14 = p15-d."
+ }
+}
