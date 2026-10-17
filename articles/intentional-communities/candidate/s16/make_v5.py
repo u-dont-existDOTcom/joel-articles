@@ -13,6 +13,9 @@ two calls on each paragraph with its fixed meaning) and the published meaning pu
   sentences), with the published claims back: the places as possible ones, the visit as a step ("Then go visit"), and what a
   visit teaches that no manifesto can. H3-P6 keeps v4's question "What do you get out of a visit?" as its break: without it,
   the first march reading of review-r8 found none.
+- The linter's B7/B13 (half of a subsection's paragraphs landing on a line of nine words or fewer) failed H1 and H2 with
+  the first endings: H1-P1's last sentence is "That gets put off until later, when everyone has more time." and H2-P3's has the
+  published sense's "either" ("None of that has to wait for a deed either!").
 - H2-P3 b ("No deed required!") had no break in the first reading of review-r8 either; a is the one screened.
 Writes v5.md and v5-variants.json. Run from this folder: python3 make_v5.py [H1-P1 choice] [H2-P3 choice]"""
 import json, pathlib, sys
@@ -45,15 +48,15 @@ OLD = {
 VAR = {
  'H1-P1': {
   'a': "Most people building community go about it in the wrong order. They get the land first, then write the vision down in a "
-       "document, then let whoever had the money end up owning it. And the emotional preparation? They'll do that later, when "
-       "everyone has more time.",
+       "document, then let whoever had the money end up owning it. And the emotional preparation? That gets put off until later, "
+       "when everyone has more time.",
   'b': "Most people building community take the steps in the wrong order. Sound familiar? First they get the land. Then the "
-       "vision goes in a document, and the ownership piles up with whoever had the money. The emotional preparation? That "
-       "waits until everyone has more time.",
+       "vision goes in a document, and the ownership piles up with whoever had the money. The emotional preparation? That gets "
+       "put off until later, when everyone has more time.",
  },
  'H2-P3': {
   'a': "The inner pl/ork can start right where you live, though. [Peer counseling](%s) only needs two people and enough privacy to "
-       "talk. And reparenting, somatic work, jealousy, conflict repair, etc etc? None of that has to wait for a deed!" % PC,
+       "talk. And reparenting, somatic work, jealousy, conflict repair, etc etc? None of that has to wait for a deed either!" % PC,
   'b': "The inner pl/ork can start right where you live. [Peer counseling](%s) only needs two people and enough privacy to "
        "talk. And reparenting, somatic work, jealousy, conflict repair, etc etc can happen pretty much anywhere. No deed "
        "required!" % PC,

@@ -6,16 +6,18 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| APXv4-E01-03 | Human | the published films read Human in 329g; "Why this one?" before the grown children | |
-| APXv4-E04-06 | Human | Emulate's "is about ...", "takes you on a tour of a bunch of", "follows a couple as they bike"; the question and "A lot, it turns out!" | |
-| APXv4-E07-09 | Human | "Oh, and the Bruderhof has a pretty extensive YouTube channel too." | |
-| APXv4-E10-11 | Human | Lammas with the Liedloff question ("Is it settled anthropology? No, ...") | |
-| APXv4-E11-12 | Mixed | Doucleff's long descriptor ("a practical, accessible book about kids taking part in family life, in a way that ...") | |
-| APXv4-E13-15 | AI | three manual-like descriptors in a row ("the place to start, for the nuts and bolts of ...", "a practical manual for doing sociocracy") | |
-| APXv4-E14-17 | Mixed | four short descriptors, one question | |
-| APXv4-E18-19 | Human | Orlov's "From a distance, cohesion and capture can look a lot alike." and the question that opens Rubin's entry | |
-| APXv4-E19-20 | Human | as above, then Kanter's "is a classic. It compares a bunch of ..." | |
-| APXv4-E20-22 | Mixed | Kanter and Zablocki are plain; Freeman's question and "She argues it can." | |
-| APXv4-E23-24 | Human | "Want it straight from the Zapatistas?" | |
-| APXv4-E25 | Human | "If you're curious", the ledger and "Can you imagine?" | |
-| APXv4 | Human | the whole list in Emulate's shapes, with a break in every run | |
+| APXv4-E01-03 | Human | the published films read Human in 329g; "Why this one?" before the grown children | **Human** (Human Written, low, 59 words, AI likelihood 0.01), 05:34:24, [check](https://www.pangram.com/history/3f89addb-6f07-4cbd-92ce-6964ebb5207b) |
+| APXv4-E04-06 | Human | Emulate's "is about ...", "takes you on a tour of a bunch of", "follows a couple as they bike"; the question and "A lot, it turns out!" | **Human** (Human Written, low, 63 words, AI likelihood 0.03), 05:34:34, [check](https://www.pangram.com/history/d74f1526-2882-45b2-983f-eaa6810bbc0d) |
+| APXv4-E07-09 | Human | "Oh, and the Bruderhof has a pretty extensive YouTube channel too." | **Human** (Human Written, low, 60 words, AI likelihood 0.00), 05:34:44, [check](https://www.pangram.com/history/19102758-226c-4977-983b-e988021dca9d) |
+| APXv4-E10-11 | Human | Lammas with the Liedloff question ("Is it settled anthropology? No, ...") | **Human** (Human Written, low, 66 words, AI likelihood 0.14), 05:34:55, [check](https://www.pangram.com/history/30a4c273-6fb6-40db-b7e2-f5af44692c1e) |
+| APXv4-E11-12 | Mixed | Doucleff's long descriptor ("a practical, accessible book about kids taking part in family life, in a way that ...") | **Human** (Human Written, low, 74 words, AI likelihood 0.06), 05:35:39, [check](https://www.pangram.com/history/c2409f0b-a189-4f39-8968-40109d4360d5) |
+| APXv4-E13-15 | AI | three manual-like descriptors in a row ("the place to start, for the nuts and bolts of ...", "a practical manual for doing sociocracy") | **Human** (Human Written, low, 60 words, AI likelihood 0.05), 05:35:08, [check](https://www.pangram.com/history/4895750e-878f-4922-80a8-9b9697a24ca4) |
+| APXv4-E14-17 | Mixed | four short descriptors, one question | **Human** (Human Written, low, 72 words, AI likelihood 0.07), 05:35:18, [check](https://www.pangram.com/history/bf8b229e-3ed9-4bfd-873f-6502a169af73) |
+| APXv4-E18-19 | Human | Orlov's "From a distance, cohesion and capture can look a lot alike." and the question that opens Rubin's entry | **AI** (AI Generated, low, 69 words, AI likelihood 0.25), 05:35:51, [check](https://www.pangram.com/history/16ad54d7-650b-4279-8e89-869e4a4f23d9) |
+| APXv4-E19-20 | Human | as above, then Kanter's "is a classic. It compares a bunch of ..." | **Human** (Human Written, low, 59 words, AI likelihood 0.00), 05:36:03, [check](https://www.pangram.com/history/01b3c5de-23b8-4ea2-b7f6-b7e65a14ceec) |
+| APXv4-E20-22 | Mixed | Kanter and Zablocki are plain; Freeman's question and "She argues it can." | **Human** (Human Written, low, 73 words, AI likelihood 0.00), 05:35:29, [check](https://www.pangram.com/history/658425c0-fb19-4ae7-83e5-4c645f9c5425) |
+| APXv4-E23-24 | Human | "Want it straight from the Zapatistas?" | **Human** (Human Written, low, 59 words, AI likelihood 0.10), 05:36:39, [check](https://www.pangram.com/history/f354047c-d222-48dd-a259-1e704049cc62) |
+| APXv4-E25 | Human | "If you're curious", the ledger and "Can you imagine?" | **AI** (AI Generated, low, 61 words, AI likelihood 0.84), 05:36:14, [check](https://www.pangram.com/history/bf23c5c3-ea99-43a7-8b05-1f60e4867e77) |
+| APXv4 | Human | the whole list in Emulate's shapes, with a break in every run | **Mixed** (AI Detected; windows: Human, High, 580; AI-Generated, High, 88, 668 words, AI likelihood 0.32), 05:36:27, [check](https://www.pangram.com/history/ceba8630-86c0-4d69-b9c3-57e81bbeb84e) |
+
+Results of 331g (Pangram's History, 2026-10-17 05:34:24 to 05:36:39 UTC): 6 of 13 predictions right. Ten of the twelve screens read Human (0.00 to 0.14), every film run among them, and the book runs I called AI or Mixed too (the misses, with the two I called Human that read AI and the whole) (Christian, Ludwig and Rau 0.05; the governance manuals 0.07; Kanter, Zablocki and Freeman 0.00; Liedloff and Doucleff 0.06). Two read AI: Orlov with Rubin (0.25; Rubin with Kanter read Human, 0.00, so Orlov's entry, with its list of four, is the one) and the research paragraph alone (0.84, the list of what the report shows). The whole appendix reads Mixed (0.32): Human for 580 words, AI for the last 88 (the Zapatista archive and the research paragraph). Next: Orlov's entry and the research paragraph in two shapes each (`../make_v5.py`, batch 334g).

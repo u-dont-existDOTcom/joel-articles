@@ -1,5 +1,5 @@
 """Batch 333g (2026-10-17): screens (E175) of section 16 draft v5 (../make_v5.py: the paragraphs that read AI in 328g rebuilt
-from Emulate round b with the published meaning put back; H1-P1 and H2-P3 in two shapes each). Each changed paragraph with
+from Emulate round b with the published meaning put back; H1-P1 and H2-P3 in two shapes each; H2-P3 b had no break in the first march reading, so only a goes). Each changed paragraph with
 its neighbor in its subsection (each is under 50 words), once for each shape; each subsection with its heading; the whole
 section with the a shapes and with the b shapes. Marches: review-r8 (two readings) for the changed paragraphs, the rest as in
 328g. Run from candidate/: python3 s16/b333/make_batch.py"""
@@ -27,7 +27,7 @@ MARCH = {}
 L = labels(S16 / 'review-r2')
 for n, p in enumerate(json.loads((S16 / 'review-r2' / 'march-ids.json').read_text()), start=1):
     MARCH[p] = [m[n] for m in L]
-for rnd in ('review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 'review-r6', 'review-r8'):
+for rnd in ('review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 'review-r6', 'review-r8', 'review-r9', 'review-r10'):
     L = labels(S16 / rnd)
     for n, p in enumerate(json.loads((S16 / rnd / 'march-ids.json').read_text()), start=1):
         if p.startswith('s15-'):
@@ -62,14 +62,15 @@ def add(key, parts, T, M):
 
 SUB = {h: [h] + [p for p in PARAS if p.startswith(h + '-')] for h in ('H1', 'H2', 'H3')}
 for v in ('a', 'b'):
-    reader, T = blocks(v, v)
-    M = dict(MARCH, **{'H1-P1': MARCH['H1-P1' + v], 'H2-P3': MARCH['H2-P3' + v]})
+    # H2-P3 b had no break in review-r8's first reading, so only a goes (with each H1-P1)
+    reader, T = blocks(v, 'a')
+    M = dict(MARCH, **{'H1-P1': MARCH['H1-P1' + v], 'H2-P3': MARCH['H2-P3a']})
     add('S16v5-H1-P1%s+P2' % v, ['H1-P1', 'H1-P2'], T, M)
     add('S16v5%s-H1' % v, SUB['H1'], T, M)
-    add('S16v5-H2-P2+P3%s' % v, ['H2-P2', 'H2-P3'], T, M)
-    add('S16v5-H2-P3%s+P4' % v, ['H2-P3', 'H2-P4'], T, M)
-    add('S16v5%s-H2' % v, SUB['H2'], T, M)
     if v == 'a':
+        add('S16v5-H2-P2+P3a', ['H2-P2', 'H2-P3'], T, M)
+        add('S16v5-H2-P3a+P4', ['H2-P3', 'H2-P4'], T, M)
+        add('S16v5a-H2', SUB['H2'], T, M)
         add('S16v5-H2-P5+P6', ['H2-P5', 'H2-P6'], T, M)
         add('S16v5-H3-P3+P4', ['H3-P3', 'H3-P4'], T, M)
         add('S16v5-H3-P4+P5', ['H3-P4', 'H3-P5'], T, M)
