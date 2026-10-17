@@ -1,48 +1,28 @@
-You are a cold reader. You haven't seen any earlier version of this text or any notes about it. Below is an article up to one of its sections, and then that section. Read the article the way an ordinary reader of a blog article would have read it, then read the section once, top to bottom, and report only where the sense breaks for a reader.
-
-For each numbered paragraph of the section ([P1], [P2], and so on; headings and image captions aren't numbered), give one line: OK, or what stops you: a sentence you can't follow, a word or "it/they/this/that" whose referent is unclear, a term used before it's explained, a jump between paragraphs you can't follow, a claim that seems to contradict an earlier one, or a "why is this here?". Quote the exact words.
-
-Before you report that you can't follow a phrase, put your best reading of it after the quote, in a few words of your own. If your best reading is clearly what the writer means, it isn't a break, so leave it out entirely, and don't report it as garbled or awkward instead: a reader who pauses and then gets it isn't lost. This is only about following the words. A jump, or a sentence whose reason for being there you can't see, still gets its line when you understand every word of it. Before you say a paragraph never says why, look for the reason in its other sentences: a reason given in other words, or as the condition a claim depends on, counts.
-
-A paragraph's first sentence has to follow from what comes before it. When it asks or answers something nothing before it sets up, so that you can't tell what it means until you read on, give it its line, even when the next sentence lets you work it out. The author, on a paragraph that opened with "How do you know?" right after a paragraph of questions to write down: "what's that? know what? doesn't seem to follow..." A first sentence that picks up something from a paragraph or two back, or that turns against what came just before (with a "though" or a "but"), follows, even when the link is in other words.
-
-A best reading doesn't settle what a word points to. For "it", "this", "that", "they" or a "the" phrase (the power, the process), if it could be either of two things, and the sentence would say something different with each, give it its line, with the readings you weighed. So does a "the" phrase for a specific thing the text never names. The author, on "pretending it's unlimited": "it referring to what? unclear"; on "Even then, the power remains dangerous": "what power?"; and "it" is ok when it's clear what "it" is Before you say the text never names it, look back through the section and the article before it: a thing named earlier in other words counts (after "she told him what upset her", a later "the complaint" is what she told him). And an "it" or "this" that sums up everything just described, the way people talk ("Could it all come from that?"), isn't two things. The exceptions below still stand: a word whose own sentence gives you what it points to, and a general reference like "their excuses".
-
-Three more things an ordinary reader isn't tripped up by, so they aren't breaks: a word that points to something its own sentence already gives you (in "letting the phone ring when you know how that call goes", "that call" is the one that's ringing); a general reference to something anyone in that situation has, which needs no earlier mention (in "Don't go by their excuses this time", "their excuses" are whatever excuses they've given before, as people do); and a term the article explained before this section. When a word throws you because of how its sentence was set up, quote the setup as well as the word: the trouble is often in the frame a sentence opens with, not in the word where you noticed it.
-
-Words followed by "[a link to ...]" are a link on the page: the reader sees them underlined and can click through to where the brackets say. A linked phrase can name something its own sentence doesn't explain, because the link does (the author, on "I looked through the research corpus", a link to his research: "the research corpus is linked in the article... should be linked right there"). So don't report a linked phrase as unexplained, or ask what it is, when its address already answers you; report it only when even the link wouldn't tell a reader what the words mean there.
-
-A sentence about a linked thing can be there for the reader who opens the link. When the author says something about his own linked report or research, such as which way it leans or what it missed, he is telling anyone who reads it what to keep in mind, and nothing else in the article has to show it (the author, on "My research initially leaned too far that way", where "My research" is a link to his research report and readers had asked "why is this here?": "you forgot to notice that "research" is a link to my research report, so it's about that"). Ask "why is this here?" of such a sentence only when it would tell a reader who clicked through nothing.
-
-Read the way people talk. "Can't" often means "isn't allowed" or "I won't accept it" ("you can't do that to me!"), so a right that "can't be voted away" and a line about what to do if a vote takes it anyway don't contradict each other. Report a contradiction only where a reasonable reader would see one, not where the words only clash taken literally.
-
-Don't suggest rewrites, don't comment on style, don't say whether it sounds like AI, and don't judge whether the claims are true.
-
-THE ARTICLE BEFORE THIS SECTION (the reader has read all of it):
-
-[an image]
+[image 1](https://substackcdn.com/image/fetch/$s_!OKIC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bc9c45d-5a42-47a4-8880-e9981386f886_1536x1024.png)
 
 # The New Age May Dawn Suddenly
 
-I just put a movie my father made in 1988 up on the Internet for the first time: *Where's Utopia?* [a link to ibogaqueen.substack.com/p/wheres-utopia-click-read-more-my] It was the result of years of work, traveling to all kinds of communes and communal experiments around the country, trying to answer a question that for him was primary: How do we live together without recreating the same loneliness, domination, and stupidity we were supposedly escaping?
+I just put a movie my father made in 1988 up on the Internet for the first time: [*Where's Utopia?*](https://ibogaqueen.substack.com/p/wheres-utopia-click-read-more-my) It was the result of years of work, traveling to all kinds of communes and communal experiments around the country, trying to answer a question that for him was primary: How do we live together without recreating the same loneliness, domination, and stupidity we were supposedly escaping?
 
-He had already spent 17 years in the Bruderhof [a link to bruderhof.com], a Christian community that doesn’t use money internally. He had no personal money there: income went into the common purse and the community provided what members needed. So when I talk later about moving beyond internal money, I’m not proposing something nobody has ever lived. My father spent most of two decades doing it. They also accepted him as a Jewish atheist, making him a remarkably long-running doctrinal exception. In meditation there, he came to his own understanding that “God is the Universe, and the Universe is Love.”
+He had already spent 17 years in the [Bruderhof](https://www.bruderhof.com/), a Christian community that doesn’t use money internally. He had no personal money there: income went into the common purse and the community provided what members needed. So when I talk later about moving beyond internal money, I’m not proposing something nobody has ever lived. My father spent most of two decades doing it. They also accepted him as a Jewish atheist, making him a remarkably long-running doctrinal exception. In meditation there, he came to his own understanding that “God is the Universe, and the Universe is Love.”
 
-[an image]
+[image 2](https://substackcdn.com/image/fetch/$s_!k_WM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Febd8f0ea-e412-4f04-9ec4-d8c000529786_1536x1024.png)
 
 [caption] This was the banner my mom painted that hung in our living room for decades. I will try to locate the actual photo.
 
-He might have stayed, but the U.S. antiwar movement during Vietnam needed somebody who knew how to set up printing presses. He eventually founded the Aquarian Research Foundation—not a commune, but a nonprofit devoted to researching how the planet could have a positive future and publishing what it found. His conclusion was simple and enormous: human beings need small tribal communities again, because Civilization Is A Hoax, [a link to government-scam.blogspot.com/2020/06/everything-you-were-taught-is-lie.html] as I blogged about at the beginning of the Covid plandemic.
+He might have stayed, but the U.S. antiwar movement during Vietnam needed somebody who knew how to set up printing presses. He eventually founded the Aquarian Research Foundation—not a commune, but a nonprofit devoted to researching how the planet could have a positive future and publishing what it found. His conclusion was simple and enormous: human beings need small tribal communities again, because [Civilization Is A Hoax,](https://government-scam.blogspot.com/2020/06/everything-you-were-taught-is-lie.html) as I blogged about at the beginning of the Covid plandemic.
 
-That’s where the ***escuelita*** in my title comes in. *Escuelita* means “little school.” I’m borrowing the word from the Zapatistas in Mexico, whose *Escuelita* [a link to schoolsforchiapas.org/advances/schools/la-escuelita] brought outsiders into their communities for a while to learn autonomy by living it. In the same way, people would live in the healing communities I’m proposing, to heal and to learn the relational and practical methods, so that some of them could eventually leave and set up another one somewhere else. Otherwise, we’ve built a lovely refuge for whoever got there first.
+That’s where the ***escuelita*** in my title comes in. *Escuelita* means “little school.” I’m borrowing the word from the Zapatistas in Mexico, whose [*Escuelita*](https://schoolsforchiapas.org/advances/schools/la-escuelita/) brought outsiders into their communities for a while to learn autonomy by living it. In the same way, people would live in the healing communities I’m proposing, to heal and to learn the relational and practical methods, so that some of them could eventually leave and set up another one somewhere else. Otherwise, we’ve built a lovely refuge for whoever got there first.
 
-[an image]
+[Share](%%share_url%%)
 
-[A link card: "Where's Utopia?" (Click READ MORE): My father's 1988 documentary on Communal Living in USA, online for first time ever!]
+[image 3]
 
-I spent much of my childhood being carried through Twin Oaks [a link to twinoaks.org], Acorn [a link to ic.org/directory/acorn-community-farm], East Wind [a link to eastwind.org], Padanaram [a link to facebook.com/p/Padanaram-100064853281734], Zendik [a link to highlandscurrent.org/2017/05/09/leaving-zendik-farm], and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.
+["Where's Utopia?" (Click READ MORE): My father's 1988 documentary on Communal Living in USA, online for first time ever!](https://ibogaqueen.substack.com/p/wheres-utopia-click-read-more-my)Copy link
 
-From 1999 to 2001, my family actually lived with the Love Israel family [a link to uwapress.uw.edu/book/9780295988856/the-love-israel-family] in Washington while escaping Y2K [a link to en.wikipedia.org/wiki/Year_2000_problem], that brief historical period when otherwise reasonable adults prepared for civilization to be defeated by a two-digit date. We lived in a yurt. There were wild berries of every kind, and I loved being in nature. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.
+I spent much of my childhood being carried through [Twin Oaks](https://twinoaks.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), [East Wind](http://eastwind.org/), [Padanaram](https://www.facebook.com/p/Padanaram-100064853281734/), [Zendik](https://highlandscurrent.org/2017/05/09/leaving-zendik-farm/), and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.
+
+From 1999 to 2001, my family actually lived with the [Love Israel family](https://uwapress.uw.edu/book/9780295988856/the-love-israel-family/) in Washington while escaping [Y2K](https://en.wikipedia.org/wiki/Year_2000_problem), that brief historical period when otherwise reasonable adults prepared for civilization to be defeated by a two-digit date. We lived in a yurt. There were wild berries of every kind, and I loved being in nature. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.
 
 I wanted to befriend the children there, but they treated me as an outsider. My mom never liked the place. The leader was also named Love Israel, and to me he seemed like the fakest person I’d ever met, complete with the expected God complex.
 
@@ -50,45 +30,47 @@ We spent a lot of time on our knees in the community garden growing food they co
 
 My father eventually gave the community his airplane. They sold it instead of using it. He felt tricked, began exposing what was happening, and then we were asked to leave.
 
-The East Wind [a link to eastwind.org] commune was almost the opposite way. There were maybe eighty people when I was there, enough to have a variety of personalities, small enough to actually make friends. I was happy there. I especially liked showering in a communal shower with both sexes present. I wonder if that still goes on at East Wind? It's the sort of thing that doesn't make it into the history books.
+The [East Wind](http://eastwind.org/) commune was almost the opposite way. There were maybe eighty people when I was there, enough to have a variety of personalities, small enough to actually make friends. I was happy there. I especially liked showering in a communal shower with both sexes present. I wonder if that still goes on at East Wind? It's the sort of thing that doesn't make it into the history books.
 
 Even at East Wind, though, there was a quieter power issue. They had a nut butter factory that brought in a lot of their income, which seemed to make the woman running it very hard to question. Otherwise I thought the community had a great social life, a nice way of distributing labor, and no obvious guru.
 
-There were like eight people at Acorn [a link to ic.org/directory/acorn-community-farm] when I was there, and no kids. I couldn't tell whether it was a commune I might join or a group of people who were already friends, and who happened to live on some really beautiful land and be good at building cool stuff. Joining would have felt less like applying to a commune than asking whether their group chat had an opening.
+There were like eight people at [Acorn](https://www.ic.org/directory/acorn-community-farm/) when I was there, and no kids. I couldn't tell whether it was a commune I might join or a group of people who were already friends, and who happened to live on some really beautiful land and be good at building cool stuff. Joining would have felt less like applying to a commune than asking whether their group chat had an opening.
 
-Twin Oaks [a link to twinoaks.org] was much bigger, like two or three hundred people at the time, and almost institutional. It was friendly and interesting, but I didn't feel like I was in a tribe there. It was more like a tiny hippie town, but with a highly structured political system that didn't seem intuitive for hippies.
+[Twin Oaks](https://twinoaks.org/) was much bigger, like two or three hundred people at the time, and almost institutional. It was friendly and interesting, but I didn't feel like I was in a tribe there. It was more like a tiny hippie town, but with a highly structured political system that didn't seem intuitive for hippies.
 
 Looking back, almost none of these communities had a communal therapy practice. People brought the usual human pain and suffering with them, and it all got translated into politics.
 
 Which meant weekly meetings, run according to Robert's Rules of Order, with enormous agendas, where most of the things you needed to talk about couldn't be talked about, and you generally felt like you'd rather be sleeping. (Some people, including me, solved this problem by just going to sleep in the meeting and openly snoring.)
 
-Zendik [a link to highlandscurrent.org/2017/05/09/leaving-zendik-farm] went in the other direction. They held a brutal community meeting that I’m still recovering from 35 years later. 🤣 Five-year-old me was put in the center and told I was bad because I hadn’t volunteered to help adults with whatever jobs they were doing. Apparently kindergarten had already failed to teach me labor consciousness.
+[Zendik](https://highlandscurrent.org/2017/05/09/leaving-zendik-farm/) went in the other direction. They held a brutal community meeting that I’m still recovering from 35 years later. 🤣 Five-year-old me was put in the center and told I was bad because I hadn’t volunteered to help adults with whatever jobs they were doing. Apparently kindergarten had already failed to teach me labor consciousness.
 
 The secular communities often buried hurt under procedure. The spiritual communities often put one person in charge of everybody’s inner life. Most of the rest of this article is my attempt to describe the missing third option.
 
-Subscribe now [a link to %%checkout_url%%]
+[Subscribe now](%%checkout_url%%)
+
+<!-- CANDIDATE: section 2 v3.2 (2026-10-14): v3.1 with Joel's F4 sentence and F6 clause from his Rule Scoring Sheet answers of 2026-10-14 03:04 UTC (joel-20261014/), as written. Pangram results for v3.2 are in fix-20261014/RESULTS.md. Before that: section 2 v3.1 (2026-10-01, Joel's edits of 18:06 in), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records are in the lane's section 2 folder. Not accepted until Joel says so. -->
 
 # Communes Are Hot Again 🔥
 
-Suddenly the longing behind my father’s movie is everywhere again, and in 2023 the U.S. Surgeon General [a link to hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf] even put out an advisory about it. Or about the loneliness under it, at least. The advisory said roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
+Suddenly the longing behind my father’s movie is everywhere again, and in 2023 [the U.S. Surgeon General](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) even put out an advisory about it. Or about the loneliness under it, at least. The advisory said roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
 
 Whether you want to call that loneliness an official “epidemic” or not, it’s obvious that a lot of people can’t tolerate modern life in isolation anymore. They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starvin’ them.
 
-Check out the Google Trends for “ecovillage [a link to trends.google.com/explore]” and “intentional community [a link to trends.google.com/explore]”. After years of decline, interest climbed sharply in the mid-2020s.
+Check out the Google Trends for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)”. After years of decline, interest climbed sharply in the mid-2020s.
 
-[an image]
+[image 4](https://substackcdn.com/image/fetch/$s_!y0li!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae1e4fd0-563f-4c2a-8228-7a549a4fc4d7_1211x373.png)
 
 I have no proof that the rise of AI caused this turn, but it’s hard to ignore the coincidence in timing. AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future. Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim.
 
-It’s poppin’ on Instagram too! 🔥 Chantress Seba—my favorite light-language love influencer—posted an application [a link to instagram.com/p/DVyl1a2lAuZ] for people interested in starting a commune. I applied, although I don’t think she’s coming to Africa, where I'm at. When I saw the post, many thousands of people appeared to be interested. Imagine opening your inbox after casually inviting a million followers to co-found a village.
+It’s poppin’ on Instagram too! 🔥 Chantress Seba—my favorite light-language love influencer—[posted an application](https://instagram.com/p/DVyl1a2lAuZ/) for people interested in starting a commune. I applied, although I don’t think she’s coming to Africa, where I'm at. When I saw the post, many thousands of people appeared to be interested. Imagine opening your inbox after casually inviting a million followers to co-found a village.
 
-Later, when another influencer with a big following floated the commune idea [a link to instagram.com/p/DaLvZV2qIk2], the comment section started to become a recruitment board. It was chaotic, but sincere, and it was revealing. There were people in the comments finding prospective members the way you’d usually find a used sofa.
+Later, when another influencer with a big following [floated the commune idea](https://instagram.com/p/DaLvZV2qIk2/), the comment section started to become a recruitment board. It was chaotic, but sincere, and it was revealing. There were people in the comments finding prospective members the way you’d usually find a used sofa.
 
 ### The Freeloader Problem
 
 Some of the commenters weren’t trying to join. The oldest objection, that maybe most people don’t want to take on the responsibility that anarchism requires and communal property becomes “owned by everyone, cared for by nobody,” showed up almost right away.
 
-[an image]
+[image 5](https://substackcdn.com/image/fetch/$s_!0l9H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F966a39ab-153b-4d8f-852d-e96421f21f26_714x1228.jpeg)
 
 The commune comments became a miniature political-philosophy seminar, as Instagram comments sometimes do.
 
@@ -100,7 +82,9 @@ People want to go back to the old way of living, but they have no idea why earli
 
 I am not currently recruiting anyone or founding a community, which makes it easier for me to write an article like this, since I’m not trying to get you onto my land. I do plan to buy land, and people may naturally end up living around me. All of the warnings in this article apply to me, too.
 
-[an image]
+[image 6](https://substackcdn.com/image/fetch/$s_!PpTf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b760a8e-4a67-45e0-bb1f-6e07406abf3a_1536x1024.png)
+
+<!-- CANDIDATE: section 3 v12 (2026-10-14): v11 with two fixes for flags two or more cold reads raised (the sweep of 2026-10-13): P4's motion and its second named, P10's "authority earned in one role" with "gifted" back. Pangram web app, 276g: both paragraphs Human alone, the section 100% Human (558 words), on the first try. Records: fix-20261014/RESULTS.md. Before: section 3 v11 (2026-10-02, Joel's edits of 00:52 and his P7 of 21:16 in, with his own characters kept), for Joel's review. Every paragraph 100% Human on Pangram alone, or with a neighbor that passes alone; the section 100% Human (563 words, the page's count). P8 and P9 together read 100% AI, though each passes alone and the section passes. Records are in the lane's section 3 folder. Not accepted until Joel says so. -->
 
 # Why Communities Keep Dying in the Same Two Ways
 
@@ -110,7 +94,7 @@ Most communes of my acquaintance went wrong from the inside, in one of two ways.
 
 The secular communes had a solution for how to distribute property or labor, but when the deep waters of jealousy or childhood hurt or humiliation or attraction or resentment or grief came up, the group was without a common method for dealing with it. The feelings just became agenda items.
 
-Meeting procedure isn’t going to solve every problem, no matter how sophisticated the system of labor and money and decision making may be in a community of the Federation of Egalitarian Communities [a link to egalitariancommunities.org] or any other income-sharing community. It can’t make it so that two people don’t hate each other. It can only decide whose turn it is to talk about the hatred, and whether a motion about it needs somebody to second it.
+Meeting procedure isn’t going to solve every problem, no matter how sophisticated the system of labor and money and decision making may be in a community of the [Federation of Egalitarian Communities](https://www.egalitariancommunities.org/) or any other income-sharing community. It can’t make it so that two people don’t hate each other. It can only decide whose turn it is to talk about the hatred, and whether a motion about it needs somebody to second it.
 
 Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. There will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that. There’s no shared way to talk about the hurt itself, but the meeting agenda is the one place the group lets you push for something and win, so the angry communard goes there, trying to get some justice.
 
@@ -118,7 +102,7 @@ Eventually, when people are together long enough, politics will become a way of 
 
 This comes about when the community realizes the importance of embracing a transformation from within, and then funnels it through a particular person, usually the founder, a teacher, a channel or some other special knower of how things really are.
 
-The Farm [a link to thefarmcommunity.com], in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is.
+[The Farm](https://thefarmcommunity.com/), in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is.
 
 The two failures mirror each other. Secular groups distribute power but leave the inner life mostly private or ignored. Spiritual groups attempt to address the inner life, but because it's the inner world being shaped by the outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path.
 
@@ -126,9 +110,11 @@ The deeper problem is that somebody who's earned authority in one role can use i
 
 I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
+<!-- CANDIDATE: section 4 v11.3 (2026-10-15 11:04): v11.2 with Joel's reparenting paragraph and the three-sentence paragraph after it, as he wrote them ("27: this passes"; joel-20261015/), the links kept on the same words. Pangram: fix-20261015b/PREDICTIONS.md. Before: section 4 v11.2 (2026-10-14 21:19): v11.1 with "If one of the four gets skipped" (Joel's 24, "p10 agree") and without "and don't freeze into doctrine" (his 26, "sect 4: yes"). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 4 v11.1 (2026-10-14): v11 with "And inner pl/ork is built on" for "And it's built on" (Joel's I1 answer, 2026-10-14: the "it" is unclear; inner pl/ork is the subsection's subject, and the stance check found "reparenting" there pulling against section 5's "Reparenting, somatic capacity, and peer counseling come first"); Pangram results in fix-20261014/RESULTS.md. v11 (2026-10-13): Joel's final section from his message of 2026-10-13 21:00 UTC ("here is the final section (human on pangram)"), as written; obvious typos fixed (otther, "heal. and", "3:", double spaces); in his P8 the published words that came along from the side-by-side page's struck text taken out (his own 2026-10-02 cut, ledger s4-p13); links, italics and the two images back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
+
 # The Four Parts That Have to Pl/ork Together
 
-[an image]
+[image 7](https://substackcdn.com/image/fetch/$s_!vVsb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8999a94-f206-40e6-9a8d-bb9afa8c38fe_800x560.svg)
 
 Communities tend to focus on the aspect of their project that was most interesting to the original founders, for example political types getting super into writing by-laws, or spiritual types just meditating all the time, or therapists processing each other, or people who like psychedelics discovering they’re all God together and never getting to the point of deciding who will put their name on the deed.
 
@@ -146,27 +132,27 @@ Speaking of dynamically weaving ourselves together, though, a community does nee
 
 When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred.
 
-To give an example of striking the balance: My contemplative practice is grounded in the early Buddhist suttas [a link to suttacentral.net], with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far.
+To give an example of striking the balance: My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far.
 
 ### 1. Inner pl/ork
 
 Probably the most obvious type of pl/ork is reparenting. Here’s an example: you teach your inner child geography, while s/he teaches you the world is a cat!
 
-[an image]
+[image 8](https://substackcdn.com/image/fetch/$s_!7tAF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66730244-8446-4321-83f0-f353d46a8e1e_770x844.jpeg)
 
-Inner-child reparenting [a link to ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided] means learning to identify as the best holistic inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and as a result, your little one gains more freedom to remain alive inside you, which brings back the joy of life that many adults have forgotten about.
+[Inner-child reparenting](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) means learning to identify as the best holistic inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and as a result, your little one gains more freedom to remain alive inside you, which brings back the joy of life that many adults have forgotten about.
 
-And this reparenting journey is built on somatic regulation [a link to ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing] first. I.e., listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.
+And this reparenting journey is built on [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) first. I.e., listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.
 
 ### 2. Relational pl/ork
 
-Hearthwork [a link to ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling] distributes counseling among peers: equal time, attention without interpretation or fixing, and then you switch.
+[Hearthwork](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) distributes counseling among peers: equal time, attention without interpretation or fixing, and then you switch.
 
 The idea is that the capacity to be there for people when they need help isn’t located in one professional or guru, or the founder of the group that everyone emotionally depends on, but in the community as a whole.
 
 But since we're merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn't translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you're ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.
 
-Another thing is knowing which problems are beyond what peers can handle and need outside or expert help. And another is to deal with jealousy and conflict while it's still between the people involved, before it gets put on the agenda (generally at the bottom of the agenda). Speaking of jealousy, check out my Romance Guide [a link to ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents], since that's a topic each person & each couple first handles by themselves.
+Another thing is knowing which problems are beyond what peers can handle and need outside or expert help. And another is to deal with jealousy and conflict while it's still between the people involved, before it gets put on the agenda (generally at the bottom of the agenda). Speaking of jealousy, check out my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), since that's a topic each person & each couple first handles by themselves.
 
 ### 3. Medicine pl/ork
 
@@ -182,7 +168,7 @@ Like my father, I’m aiming for communities with less and less money involved, 
 
 First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic.
 
-Later all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the Bruderhof [a link to bruderhof.com/intentional-community] community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at Twin Oaks [a link to twinoaks.org/about-twinoaks-community/about-income-sharing], and a number of other income-sharing communities. So a common purse isn’t just a theory.
+Later all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the [Bruderhof](https://www.bruderhof.com/intentional-community) community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing), and a number of other income-sharing communities. So a common purse isn’t just a theory.
 
 Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn't find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.
 
@@ -196,19 +182,21 @@ The first three parts are the inside of the container, and this container is wha
 
 If one of the four gets skipped, it will need to be dealt with eventually, at high stress, usually after the group has invested land, labor, or other resources and everyone has an opinion on how things should be.
 
+<!-- Section 5: Joel's own text of 2026-10-06 16:55 UTC, pasted as fully human after his check in Pangram's web app (the API agrees: 100% Human, batch 45), with the published links put back where his words keep their anchor text. His characters are kept as typed, except the obvious typo "priveleged" → "privileged" (his ruling of 20:38 UTC: "don't preserve my obvious typos"). v60, the last of mine, read 9% AI in the web app. Records: s5/joel-s5-20261006.txt, s5/PREDICTIONS-s5.md. -->
+
 # The Medicine Part - Yes, I'm Naming It
 
-Most of the writing on communities hasn't caught up with psychedelics. They've gone from taboo toward regulated use really fast (licensed service centers for psilocybin started opening in Oregon [a link to oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx] in 2023, Colorado set up a system for regulating natural medicines and began licensing in 2025, and New Mexico enacted a Medical Psilocybin Act [a link to nmlegis.gov/Legislation/Legislation] in 2025), and Australia has allowed authorized psychiatrists limited access [a link to tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub] for a list of conditions since 2023, for both psilocybin and MDMA.
+Most of the writing on communities hasn't caught up with psychedelics. They've gone from taboo toward regulated use really fast ([licensed service centers for psilocybin started opening in Oregon](https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx) in 2023, Colorado set up a system for regulating natural medicines and began licensing in 2025, and New Mexico enacted a [Medical Psilocybin Act](https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegNo=219&LegType=B&year=25) in 2025), and Australia has allowed [authorized psychiatrists limited access](https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub) for a list of conditions since 2023, for both psilocybin and MDMA.
 
-That said, it's not a smooth ride or an inevitability. The US FDA issued a Complete Response Letter [a link to download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf] to the MDMA-assisted therapy application in 2024, where they did not approve it and requested more evidence. And the thing with Portugal is that many people will lazily say "they've legalized everything there" - but that's false, they've only decriminalized possessing small quantities for personal use [a link to euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf]. It's still a crime to traffic drugs.
+That said, it's not a smooth ride or an inevitability. The US FDA issued a [Complete Response Letter](https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf) to the MDMA-assisted therapy application in 2024, where they did not approve it and requested more evidence. And the thing with Portugal is that many people will lazily say "they've legalized everything there" - but that's false, [they've only decriminalized possessing small quantities for personal use](https://www.euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf). It's still a crime to traffic drugs.
 
 All of which means the legality of psychedelics varies by country and by state. It varies by substance, too. And it depends on a group’s religious status and on what exactly it does. So if psychedelic medicine is going to be part of a community at all, that community should definitely get actual local legal advice.
 
 Most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.
 
-I'm talking about it here because not to talk about it would be to falsify my model. Many of the people who read this article are already familiar with my writing about psychedelics [a link to ibogaqueen.substack.com/s/psychedelics], including my loveyhuasca/Haoma material [a link to soma.u-dont-exist.com]. If this article is going to be honest, it has to talk about both the value and the risk.
+I'm talking about it here because not to talk about it would be to falsify my model. Many of the people who read this article are already familiar with my [writing about psychedelics](https://ibogaqueen.substack.com/s/psychedelics), including my [loveyhuasca/Haoma material](https://soma.u-dont-exist.com/). If this article is going to be honest, it has to talk about both the value and the risk.
 
-There’s a serious case against having medicine as part of a community. Physical and psychological negative effects of ayahuasca were common in the Global Ayahuasca Survey [a link to pubmed.ncbi.nlm.nih.gov/36962494], although severe effects were far less common and context mattered. And these medicines can open things up faster than a person (or their group) can deal with.
+There’s a serious case against having medicine as part of a community. Physical and psychological negative effects of ayahuasca were common in the [Global Ayahuasca Survey](https://pubmed.ncbi.nlm.nih.gov/36962494/), although severe effects were far less common and context mattered. And these medicines can open things up faster than a person (or their group) can deal with.
 
 They do also attract people who are all for revelation and hate the follow-through, people who can collect 12 ceremonies and 6 origin stories and still can't say sorry to their housemate. Any community based mainly around the peak experience is going to find out sooner or later that the insight doesn't do the practical work for it. Sometimes the dishes need doing and a scared kid needs comforting.
 
@@ -244,11 +232,11 @@ My basic issue is with placing one charismatic person above everyone else’s di
 
 Even in a culture of peer medicine, there could still be an informal "shaman", someone everyone trusts and gradually stops questioning, even though nobody gave them the title. I don't know yet how to avoid this. Things that might help would be to have rotation of roles, and public accountability. Though neither of these seem like a complete solution.
 
-Still, I want people to learn to guide themselves and care for each other, within the limits of their competence. I’ve written more about peer-held ceremonies [a link to ceremonies.u-dont-exist.com], and about the best psychopath shaman I ever met [a link to sidney.u-dont-exist.com].
+Still, I want people to learn to guide themselves and care for each other, within the limits of their competence. I’ve written more about [peer-held ceremonies](http://ceremonies.u-dont-exist.com/), and about [the best psychopath shaman I ever met](http://sidney.u-dont-exist.com/).
 
 Just because it's a peer-led ceremony doesn't mean it's ok to be casually irresponsible. In fact, since the authority is spread around, there needs to be more competence. Some things are a must: screening for contraindications (both medical and psychiatric), reviewing medications and combinations, having the right kind of sober sitter present, and deciding before anybody takes anything what kind of situations would require professional help or emergency care.
 
-Also, I am especially cautious about medicines and protocols that I see as more destabilizing and/or presenting more of a medical burden. This includes some uses of ketamine and MDMA [a link to mdmaket.u-dont-exist.com] and bufo [a link to bufo.u-dont-exist.com]. My reasons are given in those articles, respectively, since they need more space.
+Also, I am especially cautious about medicines and protocols that I see as more destabilizing and/or presenting more of a medical burden. This includes some uses of [ketamine and MDMA](http://mdmaket.u-dont-exist.com/) and [bufo](http://bufo.u-dont-exist.com/). My reasons are given in those articles, respectively, since they need more space.
 
 Using medicine is secondary to all of the other pl/ork that comes first: reparenting, developing somatic capacity, and learning to do peer counseling. The medicine can deepen an existing practice, but it can't be a pharmacological short cut to what takes several months of honest relationship with other people.
 
@@ -256,13 +244,13 @@ This prerequisite also takes care of another issue in one shot: it weeds out the
 
 Integration is a term thrown around so much that I'm not sure if it still has meaning. But basically, it's your everyday life. The ceremony is supposed to open something up in you. Look at your life in the weeks after the ceremony and see how things have changed. That includes your relationships, behaviors, sleeping habits, your decision-making, and perhaps most importantly, how well you can deal with frustration without declaring a new spiritual emergency. 😂
 
-All of the “supports” are important: preparation, nutrition, screening for drug interactions, being disciplined about the dose, and having a plan for dealing with emergencies. They matter more than ceremony aesthetics. My current safety material is at Altered States Triage [a link to badtrips.u-dont-exist.com].
+All of the “supports” are important: preparation, nutrition, screening for drug interactions, being disciplined about the dose, and having a plan for dealing with emergencies. They matter more than ceremony aesthetics. My current safety material is at [Altered States Triage](https://badtrips.u-dont-exist.com/).
 
 Finally, there are the legal issues. These vary a lot, and they are not always well-defined. As a community, you need to write down what is and isn’t allowed, which activities are private (to the individual, to a group in the community, or to the community vs the outside), and what kinds of activities have been reviewed from a legal standpoint. “I don’t think anybody around here has ever heard of that” is information, but it’s not the same thing as a legal opinion.
 
 ## After the Psychedelic Calling
 
-[an image]
+[image 9](https://substackcdn.com/image/fetch/$s_!5y74!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0844bbea-ba0a-4ff0-8b62-4e46426dae51_1672x941.png)
 
 A lot of people feel the urge to form a village after going through some serious psychedelic and/or mystical experiences. Finding their people and helping others get to whatever just opened up is part of the same urge.
 
@@ -274,15 +262,20 @@ A group that begins in collective spiritual euphoria can recruit too quickly and
 
 Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are training there so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods, which gets double dipped with the objection that psychedelics are also privileged escape pods (or, alternatively, as some say, "a vacation for the poor").
 
+<!-- CANDIDATE: section 6 v22 (2026-10-14): v21 with P8's fix (the technosphere named and explained at its first use in the text, "human independence from" it, "a way out of the technosphere"). 277g: P8 Human alone, the section 100% Human (687 words), on the first try. Records: fix-20261014/RESULTS.md. Before: section 6 v21 (2026-10-07), Joel's answers of 10-06 20:38 and his P8 and P9 of 10-07 01:43 UTC in (his typos "may not guaranteed" and "contageous" fixed under his rule). Pangram web app (the final test): the section 100% Human (637 words scanned, 01:47 UTC); P8, P9 and the pair 100% Human. Records are in the lane's section 6 folder. Not accepted until Joel says so. -->
 # Which Connections to the Technosphere Do You Keep?
 
 Loneliness is only one reason building community feels urgent. I wrote separately about the wider polycrisis:
 
-Spirit and Mind Health [a link to ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope] · Facing the Polycrisis: Is There Hope For Humanity? [a link to ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope] · u-dont-exist.com [a link to substack.com/profile/355021294-u-dont-existcom]·15 novembre 2025
+[Spirit and Mind Health](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)[
+
+## Facing the Polycrisis: Is There Hope For Humanity?
+
+](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)[u-dont-exist.com](https://substack.com/profile/355021294-u-dont-existcom)·15 novembre 2025[image 10](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)
 
 I just read this post from Jamie Wheal about the “polycrisis,” which I suppose needs no explanation, but it’s basically a word for summarizing that every kind of shit possible is hitting the fan which was already half broken:
 
-Read full story [a link to ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope]
+[Read full story](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)
 
 How accurate are the fears about the future? I don't know exactly. Maybe AI will improve the lot of humanity enormously. Maybe millions of people will lose their jobs to AI. Maybe AI will become the administrative layer between us and nearly everything. Maybe all of these things will happen before Chantress Seba finishes going through all the applications to her commune. 😂
 
@@ -290,7 +283,7 @@ Ok, so on a personal level, it makes more sense to me to focus on cultivating mo
 
 What connections to the technosphere do you keep, and which do you limit, when you're designing a community? This is also one area where many modern folk will balk. Let the community decide if I can use my social media, or ChatGPT? Are you kidding? I get it. I really do. You're not a child anymore. But on the other hand, these technologies don't just affect you, they affect how you relate to the community as well.
 
-[an image]
+[image 11](https://substackcdn.com/image/fetch/$s_!6O6T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1807a9c3-fb99-44fc-b461-9338145f41c2_400x259.jpeg)
 
 [caption] New friends are silver, but old friends are gold
 
@@ -304,11 +297,12 @@ No member should have to prove their ideological loyalty when they're scared or 
 
 At the same time, having social connections is measurably good for a person's health. The Surgeon General's advisory notes an increased risk for a range of health outcomes among people who are socially isolated. Community's not a panacea, but it can make a difference, day to day, in the conditions people get sick, heal, age, and die in.
 
+<!-- CANDIDATE: section 7 v4 (2026-10-14): v3 with ZEGG and Tamera placed at their first mention ("a community near Berlin", "another in Portugal"; sources in fix-20261014/SOURCES.md). 276g: P6 Human alone, the section 100% Human (486 words), on the first try. Records: fix-20261014/RESULTS.md. Before: section 7 v3 (2026-10-07), Joel's P3 of 01:43 UTC in (commas and "or" for Emulate's "and … and … and"); his OKs on P4 to P6. Pangram web app: the section 100% Human (479 words scanned, 01:47 UTC); P3 alone and with P2 100% Human. Records are in the lane's section 7 folder. Not accepted until Joel says so. -->
 # Jealousy Can Capture Monogamy or Free Love
 
 Any community that lasts will eventually be reorganized by attraction and pair-bonding. When two exes live in the same city, they can move to different sides of the city. When they're part of a thirty-person commune, they may still be in the same kitchen the next morning, working in the same team, attending the same meetings, sharing childcare and the same friends. A couple's jealousy or breakup becomes a problem for the entire community, because it will change the loyalties, the sleeping arrangements, the labor, the kids, the alliances, and sometimes who's leaving.
 
-The discussion generally goes straight to "should people be monogamous or free-love?" but as I discuss in my Romance Guide [a link to ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents], this is one level too late in the conversation. The community problem is that, in close quarters, jealousy gets magnified, and jealousy can capture either system.
+The discussion generally goes straight to "should people be monogamous or free-love?" but as I discuss in my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), this is one level too late in the conversation. The community problem is that, in close quarters, jealousy gets magnified, and jealousy can capture either system.
 
 Rigid monogamy can turn fear and possession into a moral law. If people are doing free love, but aren't doing the inner pl/ork, they can just end up with a larger spreadsheet to distribute their fear over. It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror of abandonment, or the desire to control another person.
 
@@ -316,21 +310,22 @@ I don't think it should be up to the community to decide for everyone what form 
 
 Whatever forms people choose, I do think that housing, security for kids, membership and access to common necessities should not be contingent on a person staying in some agreement with the people they're romantically involved with.
 
-ZEGG [a link to zegg.org], a community near Berlin, and Tamera [a link to tamera.org], another in Portugal, have spent decades experimenting with relationships inside community. Their answers are not a set of commandments that everyone must follow. But they are an example of how a community can acknowledge the erotic aspects of life. It is not necessary for 20 adults to pretend that they've become neutral colleagues just because the by-laws say so.
+[ZEGG](http://zegg.org/), a community near Berlin, and [Tamera](http://tamera.org/), another in Portugal, have spent decades experimenting with relationships inside community. Their answers are not a set of commandments that everyone must follow. But they are an example of how a community can acknowledge the erotic aspects of life. It is not necessary for 20 adults to pretend that they've become neutral colleagues just because the by-laws say so.
 
 The non-negotiable for me is that jealousy not be allowed to become the hidden governor. This doesn't mean it can't come up. It needs to be able to be talked about and felt in the body. It needs to be explored without humiliation. And it needs to be let go of gradually, and not allowed to turn into punishment, or into community rules.
 
 There are some ways the group can help, and basic boundaries the group can enforce, without deciding what type of relationships people have. Even so, there will still be disagreements about this. That's more realistic than saying it's all been resolved.
 
+<!-- CANDIDATE: section 8 v29 (2026-10-14): v28 with P18's last sentence back to mine of v22 with his "what happened" (Joel's F10 answer, 2026-10-14: "Fix it (revert to yours)"), and five fixes for flags two or more cold reads raised: "the usual promo video", the Ye'kuana and the Island Pond raid explained (sources in fix-20261014/SOURCES.md), "When adults panic like that, kids can lose all those grownups", "A surprise has an end date." 277g: every changed paragraph Human alone and the section 100% Human (1,841 words), on the first try. Records: fix-20261014/RESULTS.md. v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
 # The Grown Children Get the Final Review
 
-Couples who live together, share the same culture and even the same bed still disagree about screens, vaccinations, schooling [a link to instagram.com/p/DcDGotaFCeZ], religion, food, discipline and medical care. And that's just two people. Now think of twenty adults, all with different childhoods.
+Couples who live together, share the same culture and even the same bed still disagree about screens, vaccinations, [schooling](https://www.instagram.com/p/DcDGotaFCeZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), religion, food, discipline and medical care. And that's just two people. Now think of twenty adults, all with different childhoods.
 
 The community has to share enough principles about raising kids to offer them coherence, and leave parents enough room to remain parents.
 
 My own childhood broke many mainstream rules about what children should see and do. I won’t unpack all of it here. I’m grateful that my mother nursed me until I was five, grateful my parents didn’t vaccinate me, and grateful for nearly all of the unusual world they gave me.
 
-[an image]
+[image 12](https://substackcdn.com/image/fetch/$s_!D4y_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbbd841d-b071-40c3-84c0-08a1206f3d30_1932x2576.jpeg)
 
 [caption] Me as a child, wearing the pen holder my dad made, ready to write my Final Review 😹
 
@@ -348,15 +343,15 @@ What she said is more useful than the usual promo video showing kids smiling and
 
 ## Communal Parenting Adds On
 
-One of the biggest reasons I think community matters for kids is Jean Liedloff's *The Continuum Concept* [a link to arvindguptatoys.com/arvindgupta/conconcept.pdf]. It's one outsider's interpretation of the Ye'kuana, an Indigenous people of the Venezuelan rainforest she lived with, and she may have idealized what she saw, but it's still a powerful picture: the babies are carried along in ordinary adult life, the kids are surrounded by people of several ages and learn by taking part, and it doesn't fall on one exhausted parent to be a child's whole social world. While a nuclear household can imitate some of this, a real village can make it normal.
+One of the biggest reasons I think community matters for kids is Jean Liedloff's [*The Continuum Concept*](https://www.arvindguptatoys.com/arvindgupta/conconcept.pdf). It's one outsider's interpretation of the Ye'kuana, an Indigenous people of the Venezuelan rainforest she lived with, and she may have idealized what she saw, but it's still a powerful picture: the babies are carried along in ordinary adult life, the kids are surrounded by people of several ages and learn by taking part, and it doesn't fall on one exhausted parent to be a child's whole social world. While a nuclear household can imitate some of this, a real village can make it normal.
 
-Experiments where kids sleep and live apart from their parents deserve special caution. Research on Israeli kibbutzim found that the practice of kids sleeping communally eventually ended for a mix of reasons: developmental findings, parents' preferences and social change [a link to pubmed.ncbi.nlm.nih.gov/12395568]. Kids can benefit from high-quality group care and multiple loving adults in their lives, but replacing a secure attachment to their parents is a different matter.
+Experiments where kids sleep and live apart from their parents deserve special caution. Research on Israeli kibbutzim found that [the practice of kids sleeping communally eventually ended for a mix of reasons: developmental findings, parents' preferences and social change](https://pubmed.ncbi.nlm.nih.gov/12395568/). Kids can benefit from high-quality group care and multiple loving adults in their lives, but replacing a secure attachment to their parents is a different matter.
 
 Tamera's Children's Place has repeated some of these old Kibbutz failings, taking children away from biological parents, because their founders' ideology said that children are traumatized by the nuclear family and its unstable romantic underpinnings. On the other hand, their actual practice did allow parents (including fathers) to stay with their children in Children's Place, so they weren't as dogmatic as I originally thought. My own bias is still toward a system where kids are not solely taken care of by their parents, while still honoring the parent-child bond. If the father is unknown, the whole community can do the fathering, but the biological mom's role should always be honored, since that attachment is formed already from years of nursing.
 
 ## Children Need Freedom Inside Real Protection
 
-[an image]
+[image 13](https://substackcdn.com/image/fetch/$s_!Svpw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff76a1545-e84b-406d-8731-1abde6502718_3264x1464.jpeg)
 
 [caption] African kids enjoying their childhood!
 
@@ -378,15 +373,15 @@ Protecting children is the duty of adults, but it requires children to help also
 
 Hear the child even when the accused is someone people love. Communities fail here, because the adult may be charismatic, useful, rich, spiritually important, or everybody's friend. Decide on the response process ahead of time, before anyone's face is attached to it. Keep everyone at risk safe first, right away, then make sure the accusation is investigated competently and fairly. Nobody's status buys silence.
 
-Make sure kids have relationships and a reporting route outside the community. Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to. Make sure there's at least one trusted adult, advocate or reporting route they can reach without going through the community's leadership. In 1984, Vermont authorities raided a religious community in Island Pond [a link to vtdigger.org/2024/06/21/40-years-later-island-pond-has-little-interest-in-revisiting-its-historic-raid] and took 112 kids into custody over suspected abuse. A judge turned down the state's blanket request to hold them, because it couldn't name any specific case, and the kids went home that same day. State intervention can fail spectacularly, and enclosing kids completely in a community can fail too. Kids need more than one world.
+Make sure kids have relationships and a reporting route outside the community. Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to. Make sure there's at least one trusted adult, advocate or reporting route they can reach without going through the community's leadership. In 1984, Vermont authorities [raided a religious community in Island Pond](https://vtdigger.org/2024/06/21/40-years-later-island-pond-has-little-interest-in-revisiting-its-historic-raid/) and took 112 kids into custody over suspected abuse. A judge turned down the state's blanket request to hold them, because it couldn't name any specific case, and the kids went home that same day. State intervention can fail spectacularly, and enclosing kids completely in a community can fail too. Kids need more than one world.
 
-Sometimes we also need to protect people from the rare, but real threat posed by dangerous children. I looked through the research corpus [a link to innerself.185-233-106-15.sslip.io/blog/commune-article-research] for a well-documented case of a child in an intentional community who remained seriously dangerous to others. I was looking to find the reported conduct, the assessment, the intervention, the review, and what happened later. I couldn't find one. It's possible that records are private, or that cases were referred elsewhere. Whatever the reason, I can't claim communities already know how to handle the hardest cases on their own. In those cases, the child, the family, and the people at risk all need access to competent help and review, hopefully including non-intrusive help from outside the home community.
+Sometimes we also need to protect people from the rare, but real threat posed by dangerous children. I looked through [the research corpus](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) for a well-documented case of a child in an intentional community who remained seriously dangerous to others. I was looking to find the reported conduct, the assessment, the intervention, the review, and what happened later. I couldn't find one. It's possible that records are private, or that cases were referred elsewhere. Whatever the reason, I can't claim communities already know how to handle the hardest cases on their own. In those cases, the child, the family, and the people at risk all need access to competent help and review, hopefully including non-intrusive help from outside the home community.
 
 ## The Door Must Open Outward at Adulthood
 
 If a community's kids never leave, it has no way of knowing whether they'd come back freely. So let them study, travel and make friends, encounter other ways of living, and disagree with the founders without being treated as traitors. And kids coming back isn't necessarily the best thing for the communal movement either. If they then start their own communities, we may see more evolution than if they simply return and continue what their parents started.
 
-Amish young people, age 16, go through a 2-year period of freedom from parental control called *Rumspringa*. During this time they might travel outside, although they normally choose to stay in the community and begin acting as adults, including courtship. At the end of this period, they decide as adults whether to join the church, and roughly 85 percent or more of them end up joining [a link to groups.etown.edu/amishstudies/social-organization/population-growth]. Pop culture makes *Rumspringa* seem like a wilder, more universal teenage free-for-all than it is, but the main point is that they're baptized as adults, which means belonging is a commitment they make.
+Amish young people, age 16, go through a 2-year period of freedom from parental control called *Rumspringa*. During this time they might travel outside, although they normally choose to stay in the community and begin acting as adults, including courtship. At the end of this period, they decide as adults whether to join the church, and [roughly 85 percent or more of them end up joining](https://groups.etown.edu/amishstudies/social-organization/population-growth/). Pop culture makes *Rumspringa* seem like a wilder, more universal teenage free-for-all than it is, but the main point is that they're baptized as adults, which means belonging is a commitment they make.
 
 Every childhood narrows the future. Most ordinary parents aren't going to give their kid a bunch of money at 18 and say, "Go see the world." They'll try to get them ready for some next step that can actually work, so they can become self-sufficient, and eventually take care of their aging parents. A poor or money-free community may have even less cash to offer, and basic survival may rightly come first.
 
@@ -396,9 +391,10 @@ Kids also need transferable skills and education. It helps if they have relation
 
 Belonging and freedom should go hand in hand.
 
+<!-- CANDIDATE: section 9 v16 (2026-10-14 21:19): v15 with "The useful thing is how they learn:" for "The useful thing isn't their diagram. It's how they learn:" (Joel's 26, "sect 9: yes"). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 9 v15 (2026-10-14): v14 with the caracoles explained at their first mention (source in fix-20261014/SOURCES.md) and P18's closing disclaimer cut as a repeat of his P14 (E172; a proposal, Joel can put it back). 276g: both paragraphs Human alone, the section 100% Human (1,037 words), on the first try. Records: fix-20261014/RESULTS.md. Before: section 9 v14 (2026-10-09), Joel's P9 to P12 of 05:02 UTC and his P13 of 22:08 UTC in (four obvious typos fixed in his P12 under his rule), and "Good Government Juntas (Boards)" at the first mention (P8, his 22:08 answer). Pangram web app (the final test): the section 100% Human (1,034 words scanned, 22:11:41 UTC, batch 184g); every paragraph passes alone or beside a neighbor that passes alone. Records are in the lane's section 9 folder. Not accepted until Joel says so. -->
 # The Best Model I’ve Seen: Zapatistas
 
-[an image]
+[image 14](https://substackcdn.com/image/fetch/$s_!1QJp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F745198f3-56e4-42d3-aa6b-1a608ea4b0ef_860x513.jpeg)
 
 [caption] A Zapatista Schoolhouse. It reads: Worthy Rage (Digna Rabia)
 
@@ -416,9 +412,9 @@ What impressed me the most was how they do authority. It's *mandar obedeciendo*,
 
 The Zapatistas are also the closest thing to a whole example that I found, because their autonomy goes beyond how they vote. They've set up their own education and health care, and their own justice, and they run their own collective production and political formation. On top of that they've worked out ways of teaching outsiders, all while coordinating beyond a single village.
 
-*The Fire and the Word* [a link to amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X] describes the movement growing from family to village, village to region, and region to larger structures. It also gives one of the most useful Zapatista principles for community design: build the practice first and develop the theory afterward. The autonomous municipalities came first; an association of them became a rehearsal for the Good Government Juntas (Boards). When different municipalities encountered different problems and uneven progress, that experience generated another structure rather than being forced to fit the original plan.
+[*The Fire and the Word*](https://www.amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X) describes the movement growing from family to village, village to region, and region to larger structures. It also gives one of the most useful Zapatista principles for community design: build the practice first and develop the theory afterward. The autonomous municipalities came first; an association of them became a rehearsal for the Good Government Juntas (Boards). When different municipalities encountered different problems and uneven progress, that experience generated another structure rather than being forced to fit the original plan.
 
-After a long internal review, in 2023, the Zapatistas announced they were dissolving their previous federated governmental structure, which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas. The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons. Their new arrangement [a link to enlacezapatista.ezln.org.mx/2023/11/13/ninth-part-the-new-structure-of-zapastista-autonomy] moved authority downward toward a Local Autonomous Government in each community.
+After a long internal review, in 2023, the Zapatistas announced they were dissolving their previous federated governmental structure, which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas. The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons. Their [new arrangement](https://enlacezapatista.ezln.org.mx/2023/11/13/ninth-part-the-new-structure-of-zapastista-autonomy/) moved authority downward toward a Local Autonomous Government in each community.
 
 Institutions get more and more layers and offices as they age. We see this same pattern happen repeatedly, everywhere in history, except usually it goes one way without reversal, unless there's a revolution.
 
@@ -428,18 +424,19 @@ And that's not me saying that. Despite actually trying to train people in their 
 
 Now, the Zapatistas also don't prove my whole money-free economy goal. They still use money internally in some cases, not others, and they still use it externally for trade. They've also benefitted from outside economic help, while at the same time making efforts to remain politically independent from donors and more self-sustaining.
 
-[an image]
+[image 15](https://substackcdn.com/image/fetch/$s_!ba5Q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee14d04d-c0b9-4c24-ab61-ec02ec78ff8a_680x452.jpeg)
 
 [caption] *Escuelita Zapatista — The Zapatista school to teach outsiders their way of life*
 
-For the 10th anniversary of their autonomous governments, the Zapatistas opened up the *Escuelita* [a link to schoolsforchiapas.org/advances/schools/la-escuelita]. Outsiders lived with families there and learned autonomy by taking part in day to day life. Around 1,500 students came to the first sessions, and thousands more came to later ones.
+For the 10th anniversary of their autonomous governments, the Zapatistas opened up the [*Escuelita*](https://schoolsforchiapas.org/advances/schools/la-escuelita/). Outsiders lived with families there and learned autonomy by taking part in day to day life. Around 1,500 students came to the first sessions, and thousands more came to later ones.
 
 One way an *escuelita* could fail is if it becomes a business, where residents spend their lives performing community for paying outsiders, and success gets measured by how many people come instead of how many daughter communities there are. A week of feeling transformed isn't what it's for. It's for teaching enough of the social and material system that some people can build somewhere else.
 
-As part of my research [a link to innerself.185-233-106-15.sslip.io/blog/commune-article-research] I have also looked for evidence of what happened after the *Escuelita*. While I found information on alumni networks, people bringing practices back with them, and organizing later, I couldn't find a clear chain of somebody having been to the *Escuelita*, then a new communal institution being set up, and then evidence about how its members and their children actually did over time. Zapatista influence was already spreading abroad before the *Escuelita*, so if some institution resembles a Zapatista one later, that alone doesn't prove the *Escuelita* was responsible. I'm borrowing the Zapatistas' teaching method and their ambition to replicate.
+As part of [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) I have also looked for evidence of what happened after the *Escuelita*. While I found information on alumni networks, people bringing practices back with them, and organizing later, I couldn't find a clear chain of somebody having been to the *Escuelita*, then a new communal institution being set up, and then evidence about how its members and their children actually did over time. Zapatista influence was already spreading abroad before the *Escuelita*, so if some institution resembles a Zapatista one later, that alone doesn't prove the *Escuelita* was responsible. I'm borrowing the Zapatistas' teaching method and their ambition to replicate.
 
-Sociocracy [a link to sociocracyforall.org/sociocracy] has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there's a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
+[Sociocracy](https://www.sociocracyforall.org/sociocracy/) has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there's a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
 
+<!-- CANDIDATE: section 10 v5 (2026-10-17 02:07): v4 with "(with private details protected)" after "store the full case history" in the last paragraph (Joel's 36 a; joel-20261017/). Pangram 320g: the paragraph Human alone (0.10), the section 100% Human, high (0.06, https://www.pangram.com/history/a20d6f1a-66a7-41c6-9468-1524d6578d72). Before: section 10 v4 (2026-10-15 09:33): v3 with "Whenever a community or a federation creates or applies a rule" (Joel's 28 b; both cold reads of v3 had found the paragraph a jump from the federation paragraphs). Pangram 285g: the paragraph Human alone, the section 100% Human (fix-20261015/PREDICTIONS.md). Before: section 10 v3 (2026-10-14 21:19): v2 with Joel's last paragraph of 21:19 UTC, as written ("this version is clearer and passes"). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 10 v2 (2026-10-10), Joel's changes of 12:22 UTC in: P3+P4 without "boring" and without "I don't want one super-commune with a nicer logo.", P6 "slide into" for "quietly turn into" (trace H OK), and his heading "Federated Communities Make a Movement" (his 13:00 answer, after grounding f1 and stance f1 flagged "Improve Resilience"). Pangram web app (the final test): the section 100% Human (731 words scanned, 13:04:52 UTC, batch 200g); P3+P4 and P6 pass alone, the heading with P3+P4 and P2 across it pass. Records are in the lane's section 10 folder. Not accepted until Joel says so. -->
 # From One Community to a Movement
 
 ## Experiment Before You Divorce
@@ -452,14 +449,16 @@ Some experiments (like a different land system, or a different population size, 
 
 The problem of how these communities stay connected does eventually need to be solved somehow, if the idea is for them to spread without building another state. It should be solved in a way that allows help between communities and the movement of people and knowledge, and also keeps the differences alive, so communities can keep learning from one another. At the federation level, that outward purpose gets concrete: spreading healing practices, training people, seeding new projects, and keeping any one comfortable enclave from thinking it's the whole movement.
 
-The Federation of Egalitarian Communities [a link to egalitariancommunities.org] (FEC) says it's rebuilding, and that's a good warning. It takes work to run a federation. Delegates. Records. Compliance. Coordinating resources. Holding meetings. Succession. Whatever dispute function it actually takes on. These things all take up labor and material capacity before any local crisis has eaten into both. If the legal or economic environment requires money, the federation also needs to have a cash budget for dealing with it. But the work of federation doesn't have to be done by a single entity. Two communities might want to be closely linked as friends, and that doesn't stop both of them from also being part of a general federation. There can also be local clusters, or single-function institutions like the FEC's PEACH health pool [a link to egalitariancommunities.org/initiatives], which isn't currently governed by the FEC delegates.
+The [Federation of Egalitarian Communities](https://www.egalitariancommunities.org/) (FEC) says it's rebuilding, and that's a good warning. It takes work to run a federation. Delegates. Records. Compliance. Coordinating resources. Holding meetings. Succession. Whatever dispute function it actually takes on. These things all take up labor and material capacity before any local crisis has eaten into both. If the legal or economic environment requires money, the federation also needs to have a cash budget for dealing with it. But the work of federation doesn't have to be done by a single entity. Two communities might want to be closely linked as friends, and that doesn't stop both of them from also being part of a general federation. There can also be local clusters, or single-function institutions like the FEC's [PEACH health pool](https://www.egalitariancommunities.org/initiatives), which isn't currently governed by the FEC delegates.
 
-Cooperation also shouldn't slide into assimilation. The FEC has full members and communities working toward full membership, and Friends [a link to egalitariancommunities.org/communities] who may just want to stay friends. Also, people need a similarly practical freedom to move between communities, and that takes work: housing, status, health coverage, records, labor accounting, travel costs, taxes, and disputes over the transition all have to be set up, or the freedom to move is just decorative. Fortunately, the interface between communities can often be thin, saying who's responsible for what while somebody crosses between them, and communities don't have to have the same internal systems for it to work.
+Cooperation also shouldn't slide into assimilation. The FEC has full members and communities working toward full membership, and [Friends](https://www.egalitariancommunities.org/communities) who may just want to stay friends. Also, people need a similarly practical freedom to move between communities, and that takes work: housing, status, health coverage, records, labor accounting, travel costs, taxes, and disputes over the transition all have to be set up, or the freedom to move is just decorative. Fortunately, the interface between communities can often be thin, saying who's responsible for what while somebody crosses between them, and communities don't have to have the same internal systems for it to work.
 
 Even if nobody uses money internally, communities still need the same honesty about exchanges and obligations. A gift of food, pooled medicine, a vehicle or a tool on loan, trades of labor, emergency housing, a shared building project, a visit that's mainly for training or relationship building: they're all different events, and some of them create future obligations while others don't. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be "even". If cash is used for transactions with the outside world, grants and loans need to be kept separate the same way, and so do guarantees and shared enterprise commitments. Solidarity doesn't mean every community is liable for whatever the others owe, and it doesn't mean anyone has an unlimited claim on another community's labor and stores, or its land and tools.
 
 Whenever a community or a federation creates or applies a rule, it's best practice to store the full case history (with private details protected) so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch.
 
+<!-- 2026-10-12: section 11 v13 = v12 with P5c ("If every change they make still needs the founder's “blessing”"; the published "every" and "still" back, found by the sweep in sweep-20261012/). The section 100% Human (1,686 words, 07:46:55 UTC, batch 267g), P5c with P4 100% Human (268g); s11/PREDICTIONS-s11.md. -->
+<!-- CANDIDATE: section 11 v15 (2026-10-14 21:19): Joel's own text of the first subsection, through "Friends who come to visit", as he pasted it at 21:19 UTC ("i fixed it, pasted.passes pangram"): his P2 definition, P3 and P4, my P6 lead-in ("ok good use yours"), P8's "the people who review the founder" ("agree"); and R15 without its "living balance" sentence (his 26). Records: joel-20261014-2119/; Pangram results in fix-20261014b/RESULTS.md. Before: section 11 v14 (2026-10-14): v13 with P9's "no real way ... no matter how many meetings it holds" and P10's "the daily signs of founderism". 277g and 282g: both Human alone, the section 100% Human (1,690 words) on the fourth section try. The fixes for P2 (a definition of founderism), P4 and P6 are out: each moved an AI window onto P4's questions in the section (277g, 280g, 281g, 282g); they are questions for Joel. Records: fix-20261014/RESULTS.md. Before: section 11 v13 (2026-10-12): v12 with P5's "every" and "still" back ("If every change they make still needs the founder's “blessing”", found by the meaning sweep), 100% Human as a section, batch 267g. v12: Joel's answers of 2026-10-11 23:12 UTC fitted into his paragraphs under his 18:35 rule (an answer in chat is content, fitted in context, changes shown): J3b names the divorce half; J4 his answer on terms for visiting friends; R14c his answer on private practices, with "some practices go too far against the communal spirit" from a cold read's "no principle"; R16c and R16d his answer on members who don't fit in; R18b his grandmother case. Pangram web app: the section 100% Human (1,682 words scanned, 00:00:52 UTC, batch 233g); every changed paragraph 100% Human alone and in its run. Gate round a6. Records are in the lane's section 11 folder. Not accepted until Joel says so. -->
 # Founderism: The Four Questions
 
 In every community there was somebody who took the initiative to get it started. Somebody found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest.
@@ -496,13 +495,13 @@ Friends who come to visit don't get written terms, though. That's not how anythi
 
 ## How My Own Model Could Become a Cult
 
-[an image]
+[image 16](https://substackcdn.com/image/fetch/$s_!P0dV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa41679e5-fbf3-48a3-b95b-8236dc943f88_1197x1095.jpeg)
 
 [caption] I could totally start a cult. Trust me.
 
 Every practice in this article can be turned against the people using it.
 
-“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum [a link to theartofrelating.com.au/zegg-forum.html] practice. A group starts out inviting honesty and ends up treating privacy as resistance. But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. In general, people can have their own private practices, of course. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.
+“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html) practice. A group starts out inviting honesty and ends up treating privacy as resistance. But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. In general, people can have their own private practices, of course. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.
 
 Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that's fine. Some communities will be stricter gatekeepers, and others will be more lax.
 
@@ -518,6 +517,7 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
+<!-- CANDIDATE: section 12 v13 (2026-10-14): v12 with Joel's P2 and P3 from his W1 answer of 2026-10-14 03:04 UTC ("i prefer this version"), as written; Pangram results in fix-20261014/RESULTS.md. v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
@@ -528,17 +528,17 @@ So then a lot of people end up thinking they aren't "good enough" for community,
 
 Some people have engaged in long practices of contemplation or therapy, or have had very good luck in childhood; other people are just trying to survive some emergency in their life and need care more than responsibility. Most of us are all of these at different times in our lives.
 
-[an image]
+[image 17](https://substackcdn.com/image/fetch/$s_!3uG-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7daf9ea4-807c-49c1-99b3-6993e837a010_800x540.svg)
 
-In the model I’m imagining, some of the functions that are outsourced to therapists in modern society are distributed throughout the community. In other words, there’s a lot of peer counseling [a link to ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling] going on, people listening to each other, being there for each other and helping each other process ordinary emotional stuff.
+In the model I’m imagining, some of the functions that are outsourced to therapists in modern society are distributed throughout the community. In other words, there’s a lot of [peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) going on, people listening to each other, being there for each other and helping each other process ordinary emotional stuff.
 
 That does not make the community infinitely absorbent like a Heavy Flow Maxi Pad.
 
-I’m going to use the phrase “free resource [a link to rc.org],” which comes from Re-evaluation Counseling, to refer to the attention, steadiness, skill and practical capacity people have left over for others once they’ve dealt with enough of their own immediate stuff, and “need” to refer to the amount of help people need at a given time.
+I’m going to use the phrase “[free resource](https://www.rc.org/),” which comes from Re-evaluation Counseling, to refer to the attention, steadiness, skill and practical capacity people have left over for others once they’ve dealt with enough of their own immediate stuff, and “need” to refer to the amount of help people need at a given time.
 
 Everyone has a certain amount of both in different ratios.
 
-My own need has exceeded my free resource at many points. Good Lord. During one stretch, my first wife tried to kill me while psychotic because she believed I was her sociopathic father. Then she took my son [a link to youtu.be/0eOInpVYnsk]. Later she tried to kill my mother, while her pimp stalked my sister’s family until they moved to Canada.
+My own need has exceeded my free resource at many points. Good Lord. During one stretch, my first wife tried to kill me while psychotic because she believed I was her sociopathic father. Then [she took my son](https://youtu.be/0eOInpVYnsk?si=dbxjP76Rbk5FmjDs). Later she tried to kill my mother, while her pimp stalked my sister’s family until they moved to Canada.
 
 I could go on and on, but the math is pretty clear by now. There wasn’t much of me left over for anybody else. So when I say someone might need to stabilize and do inner pl/ork before helping found a community, I’m not saying it from a mountaintop.
 
@@ -560,6 +560,7 @@ You’re not willing to look at yourself when jealousy or conflict comes up.
 
 Any humane membership process should have ways of not flat-out rejecting people who fall into these categories, or anyone else it can’t take right now, like saying “later,” or “in another role,” or “with more support.”
 
+<!-- ACCEPTED: section 13 v34 (2026-10-17): accepted by Joel at 02:07 UTC ("accept 13 and 14."), keeping both his removal sentence and section 8's (35 b). Before acceptance: v31 with Joel's "if the community uses them" back (his 23:38 answer), the short visit's punchline replaced (the one paragraph that read AI alone, 312g), the book line pointing to the book for its nuts and bolts instead of its order (his 23:38 answer), the dedup he asked for, round r21's trace fixes and seven plainer phrases from the pause tally (s13/make_v32.py), the two repeats a reader would most notice cut (s13/make_v33.py), and the values subsection's last four paragraphs from Emulate round k with the meaning put back, after 316g read them AI inside the whole section, plus three trace fixes (s13/make_v34.py). Records: s13/review-r1 to review-r24b with their DISPOSITIONS files; key-word check PASS (s13/preservation-keys.json); lint REVIEW. Pangram web app: every paragraph Human alone (312g to 318g; tools/humanization/paragraphs_alone.py PASS) and the whole section Human (317g). -->
 # Your Little Forming Group Already Is the Community
 
 Don't worry about getting land yet. If you've got a small handful of people who want to make a community but aren't sure yet, you are already a community, even if it's still an untested one. It may sound cheesy, but it's true all the same.
@@ -592,17 +593,17 @@ And how will you handle the VISIBILITY of what the community has? There will be 
 
 Good people leave for good reasons -- dying parent, love, work, health, exhaustion, change of mind, etc. You don't want them to lose everything they've put in! That's coercive -- they HAVE to stay if they can't afford to go. Whether or not you use money, you'll need to have a way of providing people with resources when they leave (cash, if you use it, but also tools, transportation, temporary housing, stored up goods, the right to keep using something, or whatever). Otherwise their "right" to leave is only on paper -- it only works when the community happens to have spare money! Write up the exit terms while leaving is still only theoretical -- like a pre-nup when you're planning the wedding. Not romantic, but protective! Much easier than doing it once anybody's furious.
 
-Honestly? For the nuts and bolts of all this (members, resources, land, agreements, etc.), I'd go to Diana Leafe Christian's *Creating a Life Together* [a link to library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf] (on the reading list at the end).
+Honestly? For the nuts and bolts of all this (members, resources, land, agreements, etc.), I'd go to Diana Leafe Christian's [*Creating a Life Together*](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) (on the reading list at the end).
 
 ## From Visitor to Member—Slowly
 
-When The Farm [a link to thefarmcommunity.com] grew fast, a lot of the people who came were in need, and there weren’t many filters that worked. Being open to everybody felt so spiritual! The practical burden piled up anyway. A membership process is there to protect both the people who are already there and the newcomers.
+When [The Farm](https://thefarmcommunity.com/) grew fast, a lot of the people who came were in need, and there weren’t many filters that worked. Being open to everybody felt so spiritual! The practical burden piled up anyway. A membership process is there to protect both the people who are already there and the newcomers.
 
 First, correspond with them. Did they read the materials? (Not everyone does!) Do they get the basic idea of why this community is here? Are they at least starting to do the relevant practices? It’s a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right?
 
 The short visit: If they come for a week or two and just participate in normal life, well, most people can be charming for two weeks. Not exactly a high bar! 😅 So that's about all you'll find out.
 
-The long visit: If you're not around long enough to actually experience inconvenience and conflict with the person in question, then you're not going to learn very much about them. Watch how they react when tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even a professional faker [a link to sidney.u-dont-exist.com] may be able to pull off an act for months!
+The long visit: If you're not around long enough to actually experience inconvenience and conflict with the person in question, then you're not going to learn very much about them. Watch how they react when tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even [a professional faker](http://sidney.u-dont-exist.com/) may be able to pull off an act for months!
 
 Write down your answers to these questions: How long will a provisional membership be? What will a provisional member be responsible for and what are their rights? How will a provisional member's membership be reviewed? How might a person leave provisional membership? Who will make the decision about a person becoming a full member? (Hint: not the person who recruited them! 😜) What rights will a full member have in terms of the land, other shared resources, and their voice within the group? What will a member be responsible for over the long term? (A full member's rights and responsibilities should be addressed in your founding agreements.)
 
@@ -620,13 +621,14 @@ A safe community can’t promise to keep everyone. There may be times when someo
 
 This power to remove people is so easily abused, though. So work out the process before it's about anyone in particular. What counts as cause for immediate protective action? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? Who will recuse themselves? How will the person be able to reply to the concerns, and have the decision reviewed or appealed without putting others in danger? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help? (More on that next.)
 
-Note that "outside" doesn't have to mean the nation-state. My research [a link to innerself.185-233-106-15.sslip.io/blog/commune-article-research] initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it's not the same people! An important correction that came from the Zapatistas: that authority can be an autonomous regional institution, without it turning into the state. But when power had crept up in their own system over the years, it took them a long review to push it back down. And no, autonomy still doesn't mean anyone gets to decide that individual people don't have certain non-waivable rights, or that outside jurisdiction just goes away.
+Note that "outside" doesn't have to mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it's not the same people! An important correction that came from the Zapatistas: that authority can be an autonomous regional institution, without it turning into the state. But when power had crept up in their own system over the years, it took them a long review to push it back down. And no, autonomy still doesn't mean anyone gets to decide that individual people don't have certain non-waivable rights, or that outside jurisdiction just goes away.
 
 Also decide on a mediator or ombudsperson in advance. Why bother? People often won't trust someone they haven't already met, who comes in during a crisis as a "neutral stranger." A mediator doesn't obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good relations between people. When people can't or won't consent to being in community any more, they still need a final separation.
 
+<!-- ACCEPTED: section 14 v9 (2026-10-17): accepted by Joel at 02:07 UTC ("accept 13 and 14."), with his P2 of the same message (38 b: the repeated bridging question cut; s14/make_v9.py). Pangram 319g: his P2 Human alone (0.01), the section 100% Human, high (0.15, https://www.pangram.com/history/ecdae74f-2cb1-47fe-97b4-86f5aff0a620). Before: section 14 v8 (2026-10-17): v5 deduplicated at his word; every paragraph Human alone (305g-x, 315g). Records: s14/review-r1 to review-r6, batches b300 to b306, b313, b315, b319, and s13/b316. -->
 # Dissolution and Exit
 
-[an image]
+[image 18](https://substackcdn.com/image/fetch/$s_!9Q3c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd2a051-9ac5-4630-868b-5a37226707f9_1536x1024.png)
 
 Dissolution is something founders rarely want to talk about while they’re picking a name for their community and looking forward to its first harvest. Who would? But that’s exactly when it needs to be talked about.
 
@@ -640,70 +642,182 @@ Institutions and relationships don’t die at the same time, and some of what pe
 
 My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).
 
-THE SECTION:
-
 # What This Looks Like From Sénégal
 
-[an image]
+[image 19](https://substackcdn.com/image/fetch/$s_!Uv0z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7db4e048-c31e-445c-9d1d-5c4f48de86ab_340x339.jpeg)
 
 [caption] The “African Renaissance Monument” in Dakar, Sénégal, which stands at 160 feet tall and took 4 years to build.
 
-[P1] I live in Sénégal, where "intentional community" often sounds like a strange Western phrase. Don't human beings already do that?
+I live in Sénégal, where "intentional community" often sounds like a strange Western phrase. Don't human beings already do that?
 
-[P2] Sénégal is unlike anywhere else I've lived. Five times a day the prayers pour out into the streets. I find them so soothing! And Sufism doesn't stay inside designated "spiritual" places here. It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
+Sénégal is unlike anywhere else I've lived. Five times a day the prayers pour out into the streets. I find them so soothing! And Sufism doesn't stay inside designated "spiritual" places here. It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
 
-[P3] And the humor! People are outside laughing for hours at a time. It's the most joking culture I've ever been in, and I keep wondering if I'll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. But knowing why twelve people are suddenly crying with laughter? That's graduate school.
+And the humor! People are outside laughing for hours at a time. It's the most joking culture I've ever been in, and I keep wondering if I'll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. But knowing why twelve people are suddenly crying with laughter? That's graduate school.
 
-[P4] In the villages and families I've spent time around, a lot of what we're trying to "re-invent" with intentional community is just done. Land, childcare, housing, food, obligations, etc. all go through the extended family and local memory, alongside the formal systems. Nobody has to announce a workshop called "Rebuilding Intergenerational Belonging," because an aunt has already given three people a task.
+In the villages and families I've spent time around, a lot of the things we think we have to "re-invent" to form intentional communities are simply the way things are done. Nobody's holding a workshop called "Rebuilding Intergenerational Belonging," because some aunt already gave three people a task. Land, childcare, housing, food, obligations, etc. etc. all get taken care of by the extended family and local memory, in addition to whatever formal systems there might be.
 
-[P5] Even in Dakar, I see things like this spray painted on walls: "Tolerance! Openness! Union! Happiness! Love!" And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me! Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis.
+Even in Dakar, I see things like this spray painted on walls: "Tolerance! Openness! Union! Happiness! Love!" And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me! Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis.
 
-[an image]
+[image 20](https://substackcdn.com/image/fetch/$s_!1Hvp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98df3b3c-7b43-40df-80d7-112f1bc91d75_849x1037.png)
 
 [caption] Graffiti in Dakar, Sénégal: Tolerance! Openness! Union! Happiness! Love!
 
 ## All is not well in paradise
 
-[P6] Does that make Sénégal some communal paradise that survived? No! The warmth has hard limits, and for LGBTQ+ people who cross them, it can be brutal.
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No! The warmth has hard limits, and for LGBTQ+ people who cross them, it can be brutal.
 
-[P7] In March 2026, Sénégal passed Law No. 2026-08 [a link to humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965], which raised the penalty for consensual same-sex intimacy to five to ten years in prison. It also makes public "apology" for homosexuality a crime, and certain financing or support meant to promote it. And that's on top of the arrests, rejection by family, harassment, assault and mob violence that were already happening. Some people say that once homosexuals are arrested they're actually protected in jail, because the mob can't get at them. I'm not going to praise communal belonging while ignoring the people who survive it by hiding who they are, or by leaving.
+Sénégal passed a law in March 2026 ([Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/)) that increased the penalty for consensual same-sex intimacy to 5 to 10 years in prison, and it also made public "apology" for homosexuality a crime, along with certain financing or support meant to promote it. Homosexuals were already facing arrests, family rejection, harassment, assault and mob violence, but some say they're actually protected once they're arrested, because then at least the mob can't get at them. I can't just praise the virtues of community and ignore the people who have to hide who they are to survive in it, or leave.
 
-[P8] So yes, a society can be spiritually alive, generous, funny and super communal. It can also be cruel to people who break its categories. Both at once, which is hard to take in. Community isn't automatically freeing, then. It depends on who gets to belong without having to pretend.
+So which is it? Well, in a way, it's both. It's possible for a society to be incredibly spiritually alive, generous, funny and super communal, while at the same time being extremely cruel to those who break its social categories. It's interesting to see that being in community isn't necessarily liberating for everyone, it depends on whether you're allowed to belong without pretending.
 
-[P9] The forgiving social culture has its shadows too. People avoid confrontation so much it's almost funny. Who stole the sheep? Everybody knows. And nobody wants to make a stink by saying it out loud.
+One other shadow side of the forgiving social culture here is that people will go to pretty funny lengths to avoid confrontation. Who stole the sheep? We all know, but nobody wants to cause a stink by bringing it up.
 
-[P10] Where I live, neighbors steal our moringa pods every morning. Every morning! They could plant a moringa tree in their own yard. Apparently maintaining this relationship with ours is more entertaining. 😂
+Where I live, neighbors steal our moringa pods every morning. Every morning! They could plant a moringa tree in their own yard. Apparently maintaining this relationship with ours is more entertaining. 😂
 
-[P11] Everybody here raises sheep (me too), and they are extremely cute. The music, animals, joking, prayer, and constant presence of other people can make life feel like another world.
+Everybody here has sheep (even me!), and they are super cute! It can feel like you're living in another world, with the music, the animals, the joking, the praying, and just being around people all the time.
 
-[an image]
+[image 21]
 
-[P12] [A link card: Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑]
+[Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑](https://ibogaqueen.substack.com/p/professor-baby-sheep-taught-me-inner)Copy link
 
-[P13] But the old communal ways are changing too. The young people are heading for the cities, for jobs, phones, imported food, the wider world (and some of the men take the dangerous sea route to Europe). Can you blame them? Families that used to share nearly everything end up depending more on cash, and on individual opportunity.
+Of course, the old ways here are changing. Young people want to move to the city, get a job, get a phone, eat imported food, be part of the wider world, etc. (some young men even make the dangerous journey by sea to Europe). And can you blame them? Families that used to share almost everything are now more reliant on cash and individual opportunities.
 
 ## Lessons from the Black Tax
 
-[P14] One strange leftover of the old communal system is what people call the "Black Tax." If you make any money at all, you're expected to support your parents, your siblings, school fees, medical bills, funerals, whoever else the family's carrying. I understand the instinct, though. In the ancestral way of doing things, nobody made it alone. The people who fed you, raised you, housed you and protected you had a real claim on whatever you made of yourself later. So sharing was how the whole organism survived. Nobody thought of it as charity.
+Then there's the so-called "Black Tax," a legacy of the old communal system: if you've got any money at all, you're expected to share it with your parents, your siblings, to pay school fees, medical bills, funerals, etc. I understand the instinct. In the ancestral way of doing things nobody made it alone, and the people who fed and raised you had a real claim on whatever you made of yourself later. So why not share in return? It was the most natural thing to do, and that's how the whole organism survived (nobody thought of it as charity).
 
-[P15] Double click to interact with video
+Double click to interact with video
 
-[P16] Today it can be soul destroying, because the obligation is still there but most of the communal life that held it up is gone. People don't share the land, the work, the childcare, the food and the daily belonging the way they did, but whoever earns the cash can still be expected to carry everybody. They can hardly build any independence or long-term stability. How are they supposed to get ahead? And the relatives who get the money stay dependent, because the payments don't give them any real alternative. The ancestral ethic is still alive, just inside an individualistic cash economy now. It keeps people alive, and it eats away at both sides while it does.
+The problem is that it can be very soul destroying in today's world. The obligation is still there, but most people no longer live close enough to share land, work, childcare, food etc. and feel part of a larger whole, while whoever earns the cash can still be expected to carry everybody. So it's hard for them to become independent or build any long-term stability. How are they supposed to get ahead? And yet the relatives stay dependent, because the payments don't give them a real alternative. So the ancestral ethic carries on inside the individualistic cash economy, keeping people alive but gnawing at both sides.
 
-[P17] It's also the boundary problem any money-free commune runs into. Life inside can go without cash, but taxes, hospitals, visas, school fees, family obligations, imported tools, etc. all still come with a price in money. And no, that doesn't mean bringing individual wages back inside! It means somebody has to handle all that, and the group has to decide how much shared cash to keep for it. And how do you stop access to outside money from turning into a new status hierarchy?
+It's also one of the thorny boundary issues of living without money inside a money-based society. Life inside the commune can go without cash, but you'll still need money for taxes, hospital bills, visas, school fees, family obligations, buying in tools etc. That doesn't mean going back to individuals working for wages and bringing them into the commune, but it does mean someone has to handle it! Who's that going to be? And the commune has to work out how much shared cash it keeps for these things, and how to stop access to outside money from creating a new status hierarchy.
 
-[P18] Outside work complicates that boundary too, and it starts before there's a common purse. Cash is only part of what it brings in. There's another schedule, another status system and social world, other loyalties, and often new habits of consumption. That's a lot to bring home from a job! In the first stage, whoever works outside gives the commune an agreed share, but the money can't buy them out of doing their share of the communal work, or buy extra political authority. And the group has to watch for outside jobs draining the people and skills it needs to build shared livelihoods. Otherwise the commune stays a dormitory for the cash economy, and the common purse never happens.
+Another aspect of outside work is that it's not just money you're bringing into the commune. You're also bringing in a different schedule, a different status system, a different social world, different loyalties, different consumption habits etc. etc. And you can't exactly leave all that at the door, can you? In the first stage, where some people work outside and contribute an agreed share, it's really important that they can't use the money to buy their way out of communal work, or to buy a greater say in the political system. It's also important that outside jobs don't drain the energy and skills out of the people who could be building the communal livelihoods. Otherwise the commune will never develop a common purse, and it will stay a dormitory for the money economy.
 
-[P19] Zapatista communities ran into a version of this with migration. Some of them used to try to stop their young people from leaving, and now they negotiate with them instead: migrants can work elsewhere as long as they keep defined obligations to the community. The pull between leaving and belonging didn't go away. But now it's something the community can name and negotiate. I like that.
+Some Zapatista communities used to try to stop their young people from emigrating, which is a version of the same problem. Now they talk it through with them instead: it's OK to go and work elsewhere, as long as the migrants keep certain defined obligations to the community. That doesn't make the pull between leaving and belonging go away, but at least now it's something they can name and negotiate. I like that.
 
-[P20] Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem, isn't it? And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
+Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem, isn't it? And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
 
-[P21] So this is a global conversation. It's way bigger than some Western lifestyle niche. There's knowledge in the living villages that no book can give you. But they're people, not exhibits! Would you want tourists staring at your family? If you go, be respectful, and be ready to contribute and learn the language. Just don't show up expecting a spiritual service package.
+So this is a global issue, far from some Western lifestyle niche. There's knowledge in the living villages that no book can give you. And by the way, if you visit, remember they're people, not museums. Would you like people coming to your house to stare at you and your family? So be respectful, go wanting to contribute, learn some of the language, and don't expect anyone to hand you a spiritual service package!
 
-[P22] Oh, and a practical note: getting my residency here was pretty cheap and straightforward. French and Wolof matter a lot more than English. And the country's famous ideal of Teranga (hospitality) is real in my life. I'm staying in a friend's family's house, and they won't let me pay rent! I know, I'm lucky. Of course that generosity lives right alongside watchfulness, social conservatism, bureaucracy and all the usual complications of a real country.
+Oh, and a practical note: getting my residency here was pretty cheap and straightforward. French and Wolof matter a lot more than English. And the country's famous ideal of Teranga (hospitality) is real in my life. I'm staying in a friend's family's house, and they won't let me pay rent! I know, I'm lucky. Of course that generosity lives right alongside watchfulness, social conservatism, bureaucracy and all the usual complications of a real country.
 
-After the paragraph lines, add one line that starts "Paused:" and lists each phrase you paused at and then settled, as its paragraph number and the quote (P20 "How do you know?"), or "Paused: none". These aren't findings; they show the writer where readers slow down, and a phrase that several readers pause at gets looked at.
+# Practice Comes Before Property
 
-After it, the next section starts: "# Practice Comes Before Property".
+Most community projects begin in the wrong order: land first, vision in a document, ownership concentrated because somebody had the money, and emotional preparation deferred until everyone has more time.
 
-HARD LIMITS: under 450 words in total. Write your report with a single Write call to articles/intentional-communities/candidate/s15/review-r3/SENSE-a.md, then reply with only the lines that aren't OK (under 200 words). Don't use any tools except reading this file and writing that report.
+The better order is less cinematic. Practice together. Process a real conflict. Clarify values. Test membership. Decide ownership and exit. Then consider land.
+
+The economic path should be staged the same way. A cluster of cooperating households can first take basic internal life out of purchase while outside earners contribute a defined share. It should move to a common purse only after it can provision members reliably and allocate the common fairly. Reducing or eliminating outside money should emerge from demonstrated capacity, not from declaring money impure while somebody else quietly pays the tax bill.
+
+## If You Can’t Move
+
+Most readers have a job, children, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle. Fine. The most important pl/ork does not require land.
+
+[image 22](https://substackcdn.com/image/fetch/$s_!LmXZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d334efc-a191-40fe-8bbd-164bd0c639f5_4080x3060.jpeg)
+
+[caption] Too bad you can’t move…
+
+People sometimes buy forty acres and then import every kilogram of their unprocessed material to a more scenic location. The view improves. The conflict acquires goats.
+
+Inner pl/ork can begin where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) needs two people and enough privacy to speak. Reparenting, somatic practice, jealousy processing, and conflict repair do not wait for a deed.
+
+A weekly group that has practiced together for two years already contains a real piece of community. It may never own land. It can still change how people survive divorce, illness, grief, parenting, and ordinary loneliness.
+
+Remote or constrained readers can build the portion available. Hold a weekly meal with two households. Arrange a counseling exchange with one friend in person or by video. Share tools, childcare, transport, food preparation, or a sauna. Add acro-yoga, dance improvisation, a mothers’ circle, or a [cuddle puddle](http://cuddleparty.com/) if you’re hippie enough.
+
+Three households reliably showing up for one another for six months will teach you more than another year of imagining the ideal village.
+
+## What to Do This Month
+
+Here is the first month without the heroic land purchase:
+
+Start the inner pl/ork. Read the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), or begin with another serious practice you already trust. Practice before you have an audience.
+
+Find two or three people. Call it a practice group rather than a commune. Meet regularly. Learn to listen, switch roles, handle one disagreement, and keep commitments before discussing a shared future.
+
+Possible places to meet people include unprogrammed Quaker meetings, restorative-practice groups, open-hearted congregations, mature recovery communities, meditation groups, and people who came back from a long retreat kinder rather than more impressed with themselves.
+
+Visit actual communities. [Twin Oaks](https://twinoaks.org/), [East Wind](http://eastwind.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), other [intentional communities](https://www.ic.org/), and many [ecovillages](https://ecovillage.org/) receive visitors. Read their current visitor requirements first.
+
+Visits teach you what no manifesto can: how much togetherness you enjoy, which forms of privacy you need, what labor system irritates you, and whether communal showers feel liberating or make you start pricing studio apartments.
+
+Do those three things before you spend serious time or money looking for land.
+
+I have no application form for you and no retreat to sell. The manuals are free. I’m in Sénégal and expect to buy land, but I’m not announcing a commune. I’ve simply noticed that community tends to gather wherever people experience real care, play, usefulness, and room to become more honest.
+
+[image 23](https://substackcdn.com/image/fetch/$s_!BmI8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd33aef69-9a43-44f1-885f-777d53769f46_967x617.png)
+
+The Bruderhof shaped my father. He made a film, founded a research organization, and carried me through communal experiments. Decades later I’m publishing the film and writing this.
+
+Maybe somebody will build something useful from it. Maybe that community will teach somebody who builds another. The transmission does not require one institution, one founder, or one official version.
+
+If you build something real, maybe we’ll hear about each other. If you teach other people to build, hearing about it matters less.
+
+# Appendix: Watch These, Then Read These
+
+## Films
+
+[***Where’s Utopia?***](https://utopia.u-dont-exist.com/) (1988) — my father’s documentary, made with Jerry Mintz and now online.
+
+[***A Place Called Chiapas***](https://moviesfoundonline.com/video/place-called-chiapas-1998/) (1998) — the Zapatistas during their early years.
+
+[***American Commune***](https://www.youtube.com/watch?v=3ryzpd9r4oI) (2013) — The Farm through the eyes of two sisters raised there. For this article, the grown children’s perspective is essential.
+
+[***Commune***](https://www.youtube.com/watch?v=-mWsTCCcUTM) (2005) — Black Bear Ranch and the relational consequences of radical freedom.
+
+[***A New We***](https://newwe.jimdofree.com/) — a tour of European ecovillages showing how many different arrangements hide under one label.
+
+[***Within Reach***](https://fellowshipforintentionalcommunity.vhx.tv/products/within-reach-journey-to-find-sustainable-community) — a couple bicycles 6,500 miles through roughly one hundred communities.
+
+[***Seeking the Good Life in America***](https://www.youtube.com/watch?v=tMSPZu_47Oc) — Twin Oaks, Acorn, and Light Morning compared.
+
+[***Voices of Cohousing***](https://fellowshipforintentionalcommunity.vhx.tv/products/voices-of-cohousing-building-small-villages-in-the-city) — the partial-community option: high neighborliness with more private autonomy.
+
+[***Inside the Bruderhof***](https://www.bbc.co.uk/programmes/m00071xr) — high-commitment religious community, including the autonomy it requires members to surrender. My father lived there for 17 years. The Bruderhof also has an extensive [YouTube channel](https://www.youtube.com/channel/UCr6Df5XndlMFVB43NodfUsQ).
+
+[***Living in the Future: Lammas***](https://livinginthefuture.org/episodes/1-introducing-lammas.php) — community-building meets land use and planning law.
+
+## Books and Papers, in Reading Order
+
+## For Child-Rearing
+
+[Jean Liedloff, *The Continuum Concept***](https://www.arvindguptatoys.com/arvindgupta/conconcept.pdf) (1975) — a foundational natural-child-rearing book based on Liedloff’s time with the Ye’kuana. Read it as provocative observation rather than settled anthropology.
+
+[Michaeleen Doucleff, *Hunt, Gather, Parent***](https://www.amazon.com/Hunt-Gather-Parent-Ancient-Cultures/dp/1982149671) (2021) — a practical, accessible book about children participating in family life, autonomy, and distributed care.
+
+## Practical Community-Building Guides
+
+Diana Leafe Christian, [***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) — start here for sequencing, membership, money, land, and agreements.
+
+Yana Ludwig, [***Building Belonging***](https://www.ic.org/building-belonging/) — a whole-systems guide to intentional community.
+
+## Governance Manuals
+
+Rau and Koch-Gonzalez, [***Many Voices One Song***](https://www.sociocracyforall.org/product/many-voices-one-song-ebook/) — a practical sociocracy manual.
+
+Schaub and colleagues, [***Building United Judgment***](https://www.ic.org/community-bookstore/product/building-united-judgment/) — consensus decision-making.
+
+Ludwig and Gimnig, [***The Cooperative Culture Handbook***](https://www.ic.org/community-bookstore/product/the-cooperative-culture-handbook/) — exercises for cooperation, conflict, and group culture.
+
+## What Helps Communities Last—and Whether Longevity Is Enough
+
+Dmitry Orlov, [***Communities That Abide***](https://philebersole.wordpress.com/2014/06/23/dmitry-orlov-on-communities-that-abide/) — an uncomfortable argument that long-surviving communities often rely on communal property, separation, boundaries, and binding ideology. Cohesion and capture can resemble each other from a distance.
+
+Rubin, Willis, and Ludwig, [“Measuring Success in Intentional Communities”](https://www.researchgate.net/publication/334857266_Measuring_Success_in_Intentional_Communities_A_Critical_Evaluation_of_Commitment_and_Longevity_Theories) — asks whether longevity alone is a meaningful measure when a community may persist without members flourishing.
+
+Rosabeth Moss Kanter, [***Commitment and Community***](https://www.amazon.com/Commitment-Community-Communes-Sociological-Perspective/dp/0674145763) — a classic comparison of nineteenth-century communes and the practices that built commitment.
+
+Benjamin Zablocki, [***Alienation and Charisma***](https://annas-archive.pk/md5/72f23810c1c2ab152c625338eb11c4f5) — field research on communes and the role of charisma.
+
+Jo Freeman, [“The Tyranny of Structurelessness”](https://www.jofreeman.com/joreen/tyranny.htm) (1970) — the classic argument that hidden hierarchy can be harder to challenge than explicit authority.
+
+## For the Zapatistas
+
+Gloria Muñoz Ramírez and Subcomandante Marcos, [***The Fire and the Word***](https://www.amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X) — movement formation, practice-before-theory, autonomous institutions, and the original Good Government Boards.
+
+The Zapatistas’ own [Enlace Zapatista](https://enlacezapatista.ezln.org.mx/) archive, especially their 2023 explanations of the new autonomy.
+
+## Research Behind This Article
+
+I did a much larger source audit than would fit comfortably inside the article. The [public research report](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) shows the evidence base, limits, counterexamples, and what I still could not verify. It is there so you can inspect the research without turning this article into a 200-row ledger.
