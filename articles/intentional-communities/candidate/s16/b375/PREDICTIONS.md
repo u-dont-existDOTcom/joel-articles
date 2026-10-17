@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v21ok | Mixed | the whole section: v20 kmb's one window (H3-P5's list to H3-P8) with shape ok | |
+| S16v21ok | Mixed | the whole section: v20 kmb's one window (H3-P5's list to H3-P8) with shape ok | **Mixed** (AI Detected; windows: Human, High, 676; AI-Generated, High, 130; Human, High, 87, 893 words, AI likelihood 0.37), 11:17:37, [check](https://www.pangram.com/history/fdf15fe2-946f-4575-8bad-970b3bc54a57) |
+
+## Results of 375g
+
+One of one right. Round i's call A's list ("Twin Oaks is one. East Wind is another, ...") moved the one window off H3-P5: the whole section reads Human over 676 words, AI over H3-P6 to H3-P8 (130 words), Human over the last 87 (0.37, https://www.pangram.com/history/fdf15fe2-946f-4575-8bad-970b3bc54a57).

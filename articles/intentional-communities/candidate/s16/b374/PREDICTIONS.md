@@ -6,5 +6,9 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v21nk-H3 | Human | the subsection alone: v20 kmb's read Human (0.24) | |
-| S16v21nk | Mixed | the whole section: v20 kmb's one window (H3-P5's list to H3-P8) with round i's call B's list | |
+| S16v21nk-H3 | Human | the subsection alone: v20 kmb's read Human (0.24) | **Human** (Human Written, high, 393 words, AI likelihood 0.28), 11:17:15, [check](https://www.pangram.com/history/93341e85-c320-4dd2-9baf-da83203b3264) |
+| S16v21nk | Mixed | the whole section: v20 kmb's one window (H3-P5's list to H3-P8) with round i's call B's list | **Mixed** (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 158; Human, High, 108; AI-Generated, High, 285, 882 words, AI likelihood 0.45), 11:17:26, [check](https://www.pangram.com/history/a056506b-45c0-4965-960a-9acc9bba0114) |
+
+## Results of 374g
+
+Two of two right. Round i's call B's list ("Twin Oaks will welcome visitors, as will ...") read Human in the subsection alone (0.28) and worse in the whole section: the H2 window back (158 words) and AI from H3-P4's list of places to the end (285).
