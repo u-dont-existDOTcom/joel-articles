@@ -39707,7 +39707,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s15/b322/PREDICTIONS.md",
-          "sha256": "059d14f472bd3464a3297aa383a35b9b0c08e2b3ad1134488e640fd0064ca4cb",
+          "sha256": "8a5bc249abd269f5073aaa84db0eaf7e264d56c8c7952b60823280227426ddb4",
           "role": "humanization_working_record"
         },
         {
@@ -39888,6 +39888,36 @@
         {
           "path": "articles/intentional-communities/candidate/s15/v2.md",
           "sha256": "de3df8ad3c2ea7803bea8c642fcbb56f0369ee5a5cdae8d28c273ec7432b2f72",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/b322/b322-results.json",
+          "sha256": "5964527d188167c2eec12423f94db5491e7f04f4f00ebf172902034e119e317d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/emu-b/inputs.json",
+          "sha256": "3dc1b5408e2242f6176636361bed5841042400363dcfed124ead7f17a5a7b260",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/emu-b/make_inputs.py",
+          "sha256": "725dc213d0a1103f793cf5e85fa16a5764883d87824f18afec2617be99641f97",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/emu-b/units.json",
+          "sha256": "322888707c9e328135f0e38b7fdbe2969eb0386536ef07088f5b68834f3a46b3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/make_gate_r3.py",
+          "sha256": "406ba713f3bf0e1d57876475e63edc3234886e1eddf452fb6953ebd1c4d990ae",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/s15/review-r3/SENSE-PROMPT-a.txt",
+          "sha256": "044c4ed5f688ccb77e19ebbb549467105203fa8231e77425bd7a8aa7624a59f1",
           "role": "humanization_working_record"
         }
       ]
