@@ -2381,3 +2381,14 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 69) | Simple Practices, the h1 with Remember When b4 (958 words) [t69h_secsp], a screen | Human, low (my call) | Human Written (0.064, High; 1009); 20:07:29 UTC, https://www.pangram.com/history/e8179b15-7581-480f-b811-91cacd7b2ade | hit |
 | 2026-10-17 (turn 69) | If You Want to Kill Yourself, the h1 with P2 t (721 words) [t69h_secks], a screen | Human, low (my call) | Human Written (0.13, High; 759); 20:07:18 UTC, https://www.pangram.com/history/599576ef-6c33-46ad-a8b6-7c809fdba841 | hit |
 | 2026-10-17 (turn 69) | If You Want to Kill Yourself, the h1 with P2 u ("None of that is me answering"; t read AI alone) (719 words) [t69i_secks2], a screen | Human, low (my call) | Human Written (0.15, High; 756); 20:09:37 UTC, https://www.pangram.com/history/0fd5863b-a4f0-4669-b9b6-4550abf94fb4 | hit |
+| 2026-10-17 (turn 70) | Speak Toward What You Are Building, the h1: his P1 and P2, P3 st1p3-w1, Hearthwork hw-d, P4 st1p4-w8, his P5, P6a st6a-c, P6b st6b-a (742 words) [t70a_secst], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | Borrow Hindsight P1 alone, his "I sometimes ask:" back (43, 9) (72 words) [t70a_bha], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | Simple Practices, the h1 with Borrow Hindsight P1 bh-a (961 words) [t70a_secsp], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | How Much Happiness P1 alone, his horizon line back (43, 10) (62 words) [t70a_lma], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | How Much Happiness Do You Know Is Possible?, the h2 with P1 lm-a (338 words) [t70a_seclm], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | When the Practice Feels Real but Stays Shallow P1 alone, his "What showed me" back (43, 11) (146 words) [t70a_sha], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | When the Practice Feels Real but Stays Shallow, the h1 with sh-a (155 words) [t70a_secsh], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | How to Forgive Without Forgetting P2 alone, his "The understanding that helps me" back (43, 12), a (90 words) [t70a_fg2a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | How to Forgive Without Forgetting P2 alone, b ("Picture who they'd become") (88 words) [t70a_fg2b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | How to Forgive Without Forgetting P3 alone, his "my expectations" line back (43, 12) (165 words) [t70a_fg3a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 70) | How to Forgive Without Forgetting, the h1 with P2 fg2-a and P3 fg3-a (475 words) [t70a_secfg], a screen | Human, low (my call) | (pending) | |

@@ -2,9 +2,9 @@
  "t70a_secst": {
   "kind": "screen",
   "march": [
-   "settled paragraphs | his P1, P2 and P5 (question 44)"
+   "settled paragraphs | his P1: B S S B B B S B, his P2: S B S S S, his P5: S S B B S (question 44)"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
   "note": "t70a: # Speak Toward What You Are Building as it would be installed; every paragraph has read Human alone or is Joel's."
  },
@@ -13,7 +13,7 @@
   "march": [
    "S B S S S S"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70a_bha.md",
   "note": "t70a: bh-a, alone."
  },
@@ -31,7 +31,7 @@
   "march": [
    "B S B S"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70a_lma.md",
   "note": "t70a: lm-a, alone."
  },
@@ -40,7 +40,7 @@
   "march": [
    "settled paragraphs | edits: lm-a: B S B S"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
   "note": "t70a: ## How Much Happiness Do You Know Is Possible? as it would be installed; every paragraph has read Human alone or is Joel's."
  },
@@ -49,7 +49,7 @@
   "march": [
    "S S S B S S S"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70a_sha.md",
   "note": "t70a: sh-a, alone."
  },
@@ -58,7 +58,7 @@
   "march": [
    "settled paragraphs | edits: sh-a: S S S B S S S"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
   "note": "t70a: # When the Practice Feels Real but Stays Shallow as it would be installed; every paragraph has read Human alone or is Joel's."
  },
@@ -67,7 +67,7 @@
   "march": [
    "S S S B S"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70a_fg2a.md",
   "note": "t70a: fg2-a, alone."
  },
@@ -76,7 +76,7 @@
   "march": [
    "S B S B S"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70a_fg2b.md",
   "note": "t70a: fg2-b, alone."
  },
@@ -85,7 +85,7 @@
   "march": [
    "S S S B S S S S S B"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70a_fg3a.md",
   "note": "t70a: fg3-a, alone."
  },
@@ -94,7 +94,7 @@
   "march": [
    "settled paragraphs | edits: fg2-a: S S S B S, fg3-a: S S S B S S S S S B"
   ],
-  "lint": "REVIEW",
+  "lint": "CLEAR",
   "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
   "note": "t70a: # How to Forgive Without Forgetting as it would be installed; every paragraph has read Human alone or is Joel's."
  }
