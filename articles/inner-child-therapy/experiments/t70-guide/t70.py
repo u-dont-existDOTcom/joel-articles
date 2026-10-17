@@ -106,7 +106,7 @@ def installs(names=None):
         '<!-- Turn 65, my join of a writer\'s Human half (experiments/t65-guide/writers/st1p4-w8-p1): what a good peer lends you '
         '(Nurturer, Protector) and what they don\'t (your Guide, the meaning); a question at the right moment; then you trade '
         'places. Alone Human Written (0.22, medium), https://www.pangram.com/history/863d3a02-3e38-41d8-9c68-c6abe0c41f20. -->\n\n'
-        + g65('writers/st1p4-w8-p1') + '\n\n'
+        + (draft(os.environ['P4']) if os.environ.get('P4') else g65('writers/st1p4-w8-p1')) + '\n\n'
         '<!-- Turn 70: Joel\'s P5, word for word (his answer to question 44: "Just a little loosening of the march is what it needed. '
         'this is human"; ' + SAID + '). His check counts for it alone. -->\n\n' + joel('joel-st-p5') + '\n\n'
         '<!-- Turn 69, my own draft (experiments/t69-guide/drafts/st6a-c.txt): community works both ways (the people first, or the '
