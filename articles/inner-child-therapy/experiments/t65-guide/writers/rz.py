@@ -35,6 +35,8 @@ SECTIONS = {  # NEW = the writer's paragraphs, in order; None = alone checks onl
     'fg1': ['# How to Forgive Without Forgetting', 'NEW'],
     'le1': ['# When One Life Has Ended and the Next Hasn’t Begun', 'le1-p1-c', 'NEW'],
     'ba1': ['# Borrowed Adulthood in Relationship', 'NEW'],
+    'st1a': ['# Speak Toward What You Are Building', 'NEW'],
+    'wl1': ['# You Are Worthy of Love. Always.', 'NEW'],
 }
 
 
@@ -69,9 +71,18 @@ def split():
                     print('      ' + ln.strip()[:200])
 
 
-def build(march_file, rnd, out_prefix):
+def block(b):
+    """A combo block: a heading line, 'G:stem' (experiments/t65-guide/stem.txt) or 'W:stem' (writers/stem.txt)."""
+    if b.startswith('#'):
+        return b
+    d, stem = b.split(':', 1)
+    return ((G if d == 'G' else W) / (stem + '.txt')).read_text(encoding='utf-8').strip()
+
+
+def build(march_file, rnd, out_prefix, combos_file=None):
     m = json.loads(pathlib.Path(march_file).read_text())
     drafts, gate, rows = {}, {}, []
+    combos = json.loads(pathlib.Path(combos_file).read_text()) if combos_file else {}
     date = '2026-10-17 (turn 65)'
     sets = {}
     for stem, march in m.items():  # stem: job-wN-pI
@@ -105,6 +116,13 @@ def build(march_file, rnd, out_prefix):
                    'note': '%s: %s with fresh writer %s\'s paragraphs.' % (rnd, sec[0], w)}
         rows.append('| %s | %s with %s\'s paragraphs (%d words) [%s], a screen | Human, low (my call) | (pending) | |'
                     % (date, sec[0].lstrip('# '), w, len(drafts[k].split()), k))
+    for name, c in combos.items():  # sections mixed from several writers' paragraphs (and settled ones)
+        k = '%s_sec%s' % (rnd, name)
+        drafts[k] = '\n\n'.join(block(b) for b in c['blocks'])
+        gate[k] = {'kind': 'screen', 'march': [c['march']], 'lint': 'REVIEW', 'lint_article': str(ART),
+                   'note': '%s: %s, mixed: %s.' % (rnd, c['blocks'][0], ', '.join(c['blocks'][1:]))}
+        rows.append('| %s | %s, mixed (%s) (%d words) [%s], a screen | Human, low (my call) | (pending) | |'
+                    % (date, c['blocks'][0].lstrip('# '), ', '.join(c['blocks'][1:]), len(drafts[k].split()), k))
     order = [k for k in drafts if '_sec' not in k] + [k for k in drafts if '_sec' in k]
     drafts = {k: drafts[k] for k in order}
     gate = {k: gate[k] for k in order}
@@ -126,4 +144,4 @@ if __name__ == '__main__':
     if sys.argv[1] == 'split':
         split()
     else:
-        sys.exit(build(*sys.argv[2:5]))
+        sys.exit(build(*sys.argv[2:6]))

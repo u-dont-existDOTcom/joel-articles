@@ -207,6 +207,24 @@ Paragraph 3:
 - be patient with yourself, and gentle.
 - you are more than your pain and your past.
 - you aren't alone, and help exists.'''),
+ 'lm1p2': dict(n=1, length='one paragraph, 45 to 75 words',
+   before=(G / 'writers/lm1-w1-p1.txt').read_text(encoding='utf-8').strip(),
+   after=(G / 'writers/lm1-w1-p3.txt').read_text(encoding='utf-8').strip(),
+   brief="""The middle paragraph of three; the ones before and after it are done.
+- if even an imagined caring grown-up makes you feel more threatened, or lonelier, go smaller still: the least cruel response a decent adult could offer.
+- it's scaffolding, not a test of whether you were loved enough."""),
+ 'lm4p4': dict(n=1, length='one paragraph, 50 to 80 words',
+   before=(G / 'writers/lm4-w2-p1.txt').read_text(encoding='utf-8').strip(),
+   after=txt('lm4-p5-c'),
+   brief="""The paragraph between these two (both done).
+- sometimes care isn't what's missing: the whole horizon of life feels too small, and a meal, a boundary or a kind sentence can help without touching the question underneath, "Why should I want this life at all?"
+- take that question seriously: what would have to be possible for being alive to feel worth discovering, not just enduring?"""),
+ 'sp6p1': dict(n=1, length='one paragraph, 45 to 80 words',
+   before=opens(txt('sp5-p1-e2'), '## One Intention in the Morning, One Review at Night'),
+   after=(G / 'writers/sp6-w2-p2.txt').read_text(encoding='utf-8').strip(),
+   brief="""The practice's first paragraph; the second (below) is done: it counts noticing as progress and covers the repair, the good moments, and sleep.
+- in the morning, choose one modest intention: "Today I will notice one hook before I act from it" (any one hook, whichever shows up).
+- at night, look back over the day without putting yourself on trial: where did you notice the hook, and where did it run its whole sequence anyway?"""),
 }
 
 
