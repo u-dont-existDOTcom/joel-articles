@@ -5,7 +5,8 @@ and H2-P2 to H2-P4 read 0.92 alone, though every paragraph and pair read Human. 
 them) finds them for a few credits, and a draft goes to a whole-section screen when every run reads Human.
 Usage (from candidate/): python3 s16/slide.py NNN NAME SCRIPT [ARG ...] --draft vNN.md --march MAP.json [--only H2,H3]
   [--changed H2-P3,H2-P4]   (only the runs that hold a changed paragraph)  [--pairs]  (and each changed paragraph alone
-  and with each neighbor)  [--whole]  (and the whole section)
+  and with each neighbor)  [--whole]  (and the whole section)  [--starts H3-P4,...]  (only the runs that start at these
+  paragraphs, for a variant screened beside another: 2026-10-17, v16)
 MAP.json: {"H2-P3": "H2-P3e", ...}, the march key of each paragraph that differs from the plain id (rounds r2 to r22).
 Writes s16/bNNN/ (drafts.json, GATE.json, the in-page batch and bNNN-items.json)."""
 import hashlib, json, pathlib, re, subprocess, sys, tempfile
@@ -24,6 +25,7 @@ DRAFT = opt('--draft')
 MAP = json.loads(pathlib.Path(opt('--march')).read_text()) if opt('--march') else {}
 ONLY = opt('--only').split(',') if opt('--only') else None
 CHANGED = opt('--changed').split(',') if opt('--changed') else None
+STARTS = opt('--starts').split(',') if opt('--starts') else None
 ROUNDS = ['review-r2', 'review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 'review-r6', 'review-r8', 'review-r9',
           'review-r10', 'review-r11', 'review-r12', 'review-r14', 'review-r15', 'review-r16', 'review-r17', 'review-r18',
           'review-r20', 'review-r21', 'review-r22'] + sorted(
@@ -85,6 +87,8 @@ for w in range(len(pidx) - 2):
         continue
     if CHANGED and not any(p in CHANGED for p in ps):
         continue      # a run with no changed paragraph has its screen already
+    if STARTS and ps[0] not in STARTS:
+        continue
     same = ps[0].split('-')[0] == ps[-1].split('-')[0]
     key = '%s-%s-%s' % (NAME, ps[0], ps[-1].split('-')[1] if same else ps[-1])
     drafts[key] = '\n\n'.join(plain(t.lstrip('#').strip()) if k == 'h' else plain(t) for k, _, t in part)
