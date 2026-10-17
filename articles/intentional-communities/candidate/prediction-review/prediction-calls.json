@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1722,
-  "right": 1246,
+  "calls": 1755,
+  "right": 1273,
   "since_review": {
-   "calls": 1320,
-   "right": 991,
-   "passed": 784
+   "calls": 1353,
+   "right": 1018,
+   "passed": 797
   },
   "today": {
-   "calls": 770,
-   "right": 590,
-   "passed": 469
+   "calls": 803,
+   "right": 617,
+   "passed": 482
   }
  },
  "windows": [
@@ -225,10 +225,26 @@
   {
    "from": 380,
    "to": 389,
-   "calls": 20,
-   "right": 19,
-   "passed": 13,
-   "always_ai_right": 7
+   "calls": 30,
+   "right": 28,
+   "passed": 22,
+   "always_ai_right": 8
+  },
+  {
+   "from": 390,
+   "to": 399,
+   "calls": 10,
+   "right": 5,
+   "passed": 0,
+   "always_ai_right": 10
+  },
+  {
+   "from": 400,
+   "to": 409,
+   "calls": 13,
+   "right": 13,
+   "passed": 4,
+   "always_ai_right": 9
   }
  ],
  "misses": [
@@ -4681,6 +4697,90 @@
    "res_raw": "Human (Human Written, high, 904 words, AI likelihood 0.26), 11:35:00, [check](https://www.pangram.com/history/8c6e6a37-0623-4ada-9e55-ed8fba78af79)",
    "where": "s16/b387/PREDICTIONS-scored.md:5",
    "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s16",
+   "batch": 389,
+   "name": "389g-S16v25",
+   "mine": "Human",
+   "why": "the whole section with r42's fixes: v24 ams read 100% Human (387g); five small fixes, each may move a window",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 657; AI-Generated, High, 103; Human, High, 116, 876 words, AI likelihood 0.35), 11:58:05, [check](https://www.pangram.com/history/a3d42d23-4c77-4a2a-b03a-1809ad20cebe)",
+   "where": "s16/b389/PREDICTIONS-scored.md:14",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s16",
+   "batch": 390,
+   "name": "390g-S16v25onlyP3",
+   "mine": "Human",
+   "why": "the whole section with only the P3 fix of r42",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 692; AI-Generated, High, 110; Human, High, 87, 889 words, AI likelihood 0.35), 11:58:15, [check](https://www.pangram.com/history/2aadb2b7-517b-4002-8d1d-6041ab1e6021)",
+   "where": "s16/b390/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s16",
+   "batch": 391,
+   "name": "391g-S16v25onlyP5",
+   "mine": "Human",
+   "why": "the whole section with only the P5 fix of r42",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 709; AI-Generated, High, 76; Human, High, 121, 906 words, AI likelihood 0.31), 11:58:27, [check](https://www.pangram.com/history/c049c89a-48fa-4816-8b96-bc9ed20c84d1)",
+   "where": "s16/b391/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s16",
+   "batch": 392,
+   "name": "392g-S16v25onlyP6",
+   "mine": "Human",
+   "why": "the whole section with only the P6 fix of r42",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 707; AI-Generated, High, 66; Human, High, 121, 894 words, AI likelihood 0.30), 11:58:38, [check](https://www.pangram.com/history/c7b0ec63-5b3c-45e5-b41f-857ede035596)",
+   "where": "s16/b392/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s16",
+   "batch": 393,
+   "name": "393g-S16v25onlyP7",
+   "mine": "Human",
+   "why": "the whole section with only the P7 fix of r42",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 676; AI-Generated, High, 135; Human, Medium, 38; AI-Generated, High, 49, 898 words, AI likelihood 0.38), 11:58:48, [check](https://www.pangram.com/history/c44a00d1-a615-4c79-94a8-4f9d4e057fc8)",
+   "where": "s16/b393/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "s16",
+   "batch": 394,
+   "name": "394g-S16v25onlyP8",
+   "mine": "Human",
+   "why": "the whole section with only the P8 fix of r42",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 707; AI-Generated, High, 76; Human, High, 122, 905 words, AI likelihood 0.29), 11:58:59, [check](https://www.pangram.com/history/c32fbd68-48a1-4167-beda-56f7a4a23784)",
+   "where": "s16/b394/PREDICTIONS-scored.md:5",
+   "passed": false,
    "right": false,
    "text": ""
   },

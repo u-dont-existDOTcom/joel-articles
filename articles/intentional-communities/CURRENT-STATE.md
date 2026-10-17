@@ -27,15 +27,15 @@ Humanize Joel's published intentional-communities Substack article section by se
 
 ## Current checkpoint
 
-Sections 13 (v34) and 14 (v9) are accepted. The overnight run (Joel's 02:07 "continue, and don't stop") as of about 08:45 UTC:
+Sections 13 (v34) and 14 (v9) are accepted. The overnight run (Joel's 02:07 "continue, and don't stop"), as of about 12:30 UTC (his 12:15 message: back to regular section mode for the daytime):
 - Section 15, "What This Looks Like From Sénégal": in the article as v12 (`candidate/s15/install/install_s15_v12.py`): every paragraph Human alone and the whole section 100% Human, high (338g, 0.10). H1-P4 waits on question 40.
-- The appendix, "Watch These, Then Read These": in the article as v9 (`candidate/appendix/install/install_apx_v9.py`): every entry Human in its run (list entries in the shortest run Pangram can read) and the whole appendix 100% Human, high (343g, 0.17); meaning rounds r7, r12, r12x, r14 and r16; the breaks in the list wait on question 41.
-- Section 16, "Practice Comes Before Property": its opening reads Human as a whole (344g) and H2 in every run of three paragraphs and every pair (349g, 350g); the runs over H3-P2 to H3-P4 still read AI, and v15 tries three more openings for H3 (batches 351g to 353g). Every run of three is screened before the whole section (`candidate/s16/slide.py`).
+- The appendix, "Watch These, Then Read These": in the article as v9 (`candidate/appendix/install/install_apx_v9.py`): every entry Human in its run and the whole appendix 100% Human, high (343g, 0.17); the breaks in the list wait on question 41.
+- Section 16, "Practice Comes Before Property": not in the article yet (the published section is still there). The best faithful draft, v26 kni (`candidate/s16/make_v26.py kni`), has every paragraph Human alone or in its pair (`paragraphs_alone.py` PASS) and passed the meaning reviews (round r42, fixes in); the whole section reads Mostly Human, 0.32, with one 61-word window from the showers sentence into the land line (399g). Question 42 asks Joel for his words there; install with `candidate/s16/install/install_s16.py` once the whole section reads 100% Human.
 The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Section 16.
+- Section 16: question 42, then the install.
 - Joel's acceptance of the candidate sections, then promotion of the humanized article to the registered master with a promotion receipt.
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 

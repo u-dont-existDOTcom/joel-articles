@@ -11,8 +11,19 @@ sys.path.insert(0, str(C / 'tools'))
 import page_checks  # noqa: E402
 
 DRAFT, BATCH, KEY = sys.argv[1], sys.argv[2], sys.argv[3]
+ONLY = '--draft-only' in sys.argv   # the draft is not in the article yet (question 42): shown in a copy of the article
 md = (S16 / DRAFT).read_text(encoding='utf-8')
-assert md.strip() in (C / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8'), 'install the draft first (s16/install/install_s16.py)'
+ARTICLE = C / 'HUMANIZED-SO-FAR.md'
+if ONLY:
+    art = ARTICLE.read_text(encoding='utf-8')
+    a = art.index('# Practice Comes Before Property')
+    b = art.index('<!-- CANDIDATE: the appendix', a)
+    assert art[a:b].strip() == (S16 / 'v0.md').read_text(encoding='utf-8').strip(), 'the article holds a section 16 already'
+    ARTICLE = S16 / 'page' / 'article-with-draft.md'
+    ARTICLE.parent.mkdir(exist_ok=True)
+    ARTICLE.write_text(art[:a] + md.strip() + '\n\n' + art[b:], encoding='utf-8')
+else:
+    assert md.strip() in ARTICLE.read_text(encoding='utf-8'), 'install the draft first (s16/install/install_s16.py)'
 SKIP = re.compile(r'^(\[image \d+\]|\[caption\])')
 
 
@@ -45,8 +56,11 @@ NOTE = {
  'H3-P3': ('Your "Call it a practice group rather than a commune" and your four skills as the full list: a meaning check found '
            'that "not quite the same thing as forming a commune" and "skills ... like listening" had shifted them.'),
  'H3-P5': 'Your "current visitor requirements" is back: a meaning check found "their requirements" had lost it.',
- 'H3-P6': 'A meaning check found "right after the first communal shower you take" added a timing; it is your "make you start looking at studio apartments" now.',
- 'H3-P7': 'A meaning check found "the land is the exciting part" added a claim; just "I know!" now.',
+ 'H3-P6': ('A meaning check found "right after the first communal shower you take" added a timing; it is your "make you start '
+           'looking at studio apartments" now. This sentence and the land line after it are the one stretch that reads AI in the '
+           'whole section (question 42).'),
+ 'H3-P7': ('A meaning check found "I know, the land is the exciting part!" added a claim; it is "I know, I know!" now. With the '
+           'showers sentence, the stretch that reads AI in the whole section (question 42).'),
  'H3-P8': ('Your "real" care is back (a meaning check found it lost). "I\'m in Sénégal and expect to buy land, but I\'m not '
            'announcing a commune." is not repeated here: section 2 says it.'),
  'H3-P9': ('"He made a film, founded a research organization, and carried me through communal experiments." is not repeated '
@@ -64,12 +78,19 @@ for hi, ((h, _), (_, rps)) in enumerate(zip(P, R)):
             notes.append(NOTE[pid])
         rows.append({'label': '', 'article': start(text), 'source': [start(PUB[hi][j])[:60]], 'notes': notes})
     blocks.append({'headings': [h], 'rows': rows})
-out = {'title': 'Practice Comes Before Property · section 16 (%s, in the article) beside the published one' % DRAFT[:-3],
-       'meta': 'Community article · section 16 · %s, 2026-10-17 · in the article, not accepted until you say so' % DRAFT[:-3],
-       'intro': ['Your published section is on the left; %s, now in the article, is on the right. Each row shows the check that read '
-                 'that paragraph alone, or with its neighbor when it is short (your rule: every paragraph passes alone).' % DRAFT[:-3],
-                 'The whole section reads %s (%s, %s words, AI likelihood %.2f): https://www.pangram.com/history%s'
-                 % (whole[0].replace(' Written', ''), BATCH[1:] + 'g', whole[2], whole[1], whole[5]),
+WHERE = 'a draft, not in the article yet' if ONLY else 'now in the article'
+win = [w for w in whole[3].split('; ') if w.startswith('AI')]
+out = {'title': 'Practice Comes Before Property · section 16 (%s, %s) beside the published one'
+                % (DRAFT[:-3], 'a draft' if ONLY else 'in the article'),
+       'meta': 'Community article · section 16 · %s, 2026-10-17 · %s' % (DRAFT[:-3], 'a draft: your published section is still in the '
+               'article (question 42)' if ONLY else 'in the article, not accepted until you say so'),
+       'intro': ['Your published section is on the left; %s, %s, is on the right. Each row shows the check that read '
+                 'that paragraph alone, or with its neighbor when it is short (your rule: every paragraph passes alone).'
+                 % (DRAFT[:-3], WHERE),
+                 'The whole section reads %s (%s, %s words, AI likelihood %.2f%s): https://www.pangram.com/history%s'
+                 % (whole[0].replace(' Written', ''), BATCH[1:] + 'g', whole[2], whole[1],
+                    '; one AI window of %s words, from the showers sentence into the land line, question 42' % win[0].split(', ')[-1]
+                    if win else '', whole[5]),
                  'How it was made: Emulate rewrote the opening and each subsection from your published text, and your meaning went '
                  'back inside its sentences; every hand-written version of "What to Do This Month" read AI. Meaning checks then '
                  'compared every paragraph with yours, and each point that had slipped got your words back before the last Pangram '
@@ -79,6 +100,6 @@ out = {'title': 'Practice Comes Before Property · section 16 (%s, in the articl
 mp = S16 / 'page' / ('ic16-%s.json' % DRAFT[:-3])
 mp.write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 r = subprocess.run([sys.executable, str(REPO / 'tools' / 'humanization' / 'render_in_context.py'), str(mp),
-                    str(C / 'community-section16-side-by-side.html'), '--article', str(C / 'HUMANIZED-SO-FAR.md'),
+                    str(C / 'community-section16-side-by-side.html'), '--article', str(ARTICLE),
                     '--source', str(C.parent / 'original.md'), '--against-source'], capture_output=True, text=True)
 print(r.returncode, (r.stdout + r.stderr)[-800:])

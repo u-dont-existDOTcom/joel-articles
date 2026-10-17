@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-17, during the overnight run that began with your message of 02:07 UTC. Tonight section 15 and the appendix went into the article (each paragraph Human alone, each whole 100% Human); section 16 is in progress. **Open questions: 3** (39 to 41). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "39 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
+Last updated 2026-10-17 at about 12:30 UTC, after the overnight run that began with your message of 02:07 UTC and your "continue" of 10:47. Overnight, section 15 and the appendix went into the article (each paragraph Human alone, each whole 100% Human). Section 16 is ready except one stretch (question 42), so your published section 16 is still in the article. **Open questions: 4** (39 to 42). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "39 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,7 +9,7 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Three questions from tonight's work. Each quotes its passage; the side-by-side pages sent with this run's message show them in place.
+> Four questions from the overnight run. Each quotes its passage; the side-by-side pages sent with this message show them in place.
 
 **🟣 39. Section 4's "container" and section 16's order.** Section 4 calls its fourth part "the practical logistical foundation", and its container section says "this container is what gives those a stable place to manifest". Section 16 says practice comes before property, with land last. A reviewer wasn't sure a reader would see a conflict.
 - a) Leave both as they are. **My pick**: the container is what the community ends up with, and section 16 is the order you build it in.
@@ -31,6 +31,13 @@ If you don't answer, a stays.
 - c) Something else.
 
 If you don't answer, a.
+
+**🟣 42. Section 16: one stretch still reads AI with your meaning in.** One version of the section read 100% Human as a whole ([check](https://www.pangram.com/history/8c6e6a37-0623-4ada-9e55-ed8fba78af79)). The meaning checks then found six things in it: two shifts in the practice-group paragraph ("This is not quite the same thing as forming a commune", and the skills as examples, "like listening and switching roles"), your "current visitor requirements" and your "real" care lost, and two additions ("right after the first communal shower you take", "I know, the land is the exciting part!"). With all six fixed, every paragraph still reads Human alone or beside its neighbor, but the whole section reads Mostly Human (AI likelihood 0.32) with one 61-word window ([check](https://www.pangram.com/history/112d2d5b-83c3-439a-a38a-74a631b7fe13)), from the showers sentence into the land line: "And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that!" and "Do those three things before you spend serious time or money looking for land. I know, I know!" I tried 20 versions of that stretch with the six fixes in, and with each fix alone; every one left a window there or nearby. The page for section 16 shows the draft beside your published text.
+- a) Your own words for those two sentences; I check them alone and in the section, and section 16 goes in when it reads 100% Human. **My pick**: you said to give you the best faithful version and you'd show how to fix it, and this is where Emulate's sentences and mine run out.
+- b) Put the draft in the article as it is, with the window noted, and come back to it later.
+- c) Keep one or both additions (the shower timing, "the land is the exciting part") if you're happy for the article to say them; I check the section with them. The one-fix checks suggest that may not be enough on its own.
+
+If you don't answer, your published section 16 stays in the article and I keep working on the stretch.
 
 ## For you to do
 
@@ -153,5 +160,5 @@ If you don't answer, a.
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 Section 16, "Practice Comes Before Property": in progress. Every paragraph reads Human alone, and its opening (the wrong order and the better one) reads Human as a whole after reading AI in nine earlier shapes; two stretches still read AI inside the whole section (the forty acres to the group that practices for two years, and where to find people to the visit), and they are being rewritten. It goes in when the whole section reads 100% Human and the meaning checks pass.
+- 🔵 Section 16, "Practice Comes Before Property": every paragraph reads Human alone or beside its neighbor, the opening and "If You Can't Move" read Human in the whole section, and the meaning checks pass; it goes in when question 42 is settled.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.
