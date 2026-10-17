@@ -129,11 +129,34 @@ if WHICH in ('410', '412'):   # 410: the paragraphs and the probes; 412: the who
         gate['Q40-' + key[4:]] = {'kind': 'screen', 'march': [m[str(n)] for m in M], 'march_note': 'fix-20261017/march-r1',
                                   'lint': lint(probes[key]), 'probe': 'Joel\'s question 40: "so "often" is an ai tell?"',
                                   'words': len(plain(probes[key]).split())}
-elif WHICH == '411':
-    sys.exit('411 is built after the meaning reviews of the new section 12 paragraph')
+if WHICH in ('411', '412'):   # 411: section 12's P2 with the study; its whole section goes in 412 with the others
+    s12 = (HERE / 's12-v14.md').read_text(encoding='utf-8')
+    hp = paras(s12)
+    P2 = next(p for _, p in hp if p.startswith("This doesn't surprise me"))
+    M3 = [re.search(r'^\s*T1:\s*([SB ]+?)\s*$', (HERE / 'march-r3' / ('MARCH-labels-%s.txt' % x)).read_text(), re.M).group(1)
+          for x in 'ab']
+    md_p2 = next(b.strip() for b in re.split(r'\n\s*\n', s12) if b.strip().startswith("This doesn't surprise me"))
+    drafts['S12v14-P2'] = P2
+    gate['S12v14-P2'] = {
+        'kind': 'draft', 'march': M3, 'march_note': 'fix-20261017/march-r3 (the study at the end of his P2)',
+        'cold': 'OK', 'cold_note': 'fix-20261017/SENSE-s12c.md: every paragraph OK (the study as a paragraph of its own, SENSE-s12.md '
+                                   'and SENSE-s12b.md, left its place unexplained and cut his "So then" off; it is the end of his P2 now)',
+        'grounding': 'OK', 'grounding_note': 'fix-20261017/SOURCE-s12.md, the study against its write-up: VERDICT OK; the final wording '
+                                             'keeps only the half it found strongest ("partly by feeling less in sync with those who don\'t")',
+        'stance': 0, 'stance_note': 'fix-20261017/STANCE-s12.md: no conflict in the new text (its one finding is in his own rewrite, '
+                                    '"Once there are 80 members", his position)',
+        'lint': lint(md_p2), 'missing': [], 'words': len(P2.split()),
+        'joel_note': JOEL + 'his link and his "no, duh" ("i also want to add this link and screenshot somewhere in the article where it '
+                            'belongs (altho it\'s kind of a "no, duh" study)"); his P2 as he wrote it, with my two sentences at its end'}
+    if WHICH == '412':
+        art_c = (HERE / 'article-with-drafts-c.md').read_text(encoding='utf-8')
+        drafts['S12v14'] = section(art_c, '# The Math of Absorption, and Who This Isn’t For')
+        gate['S12v14'] = {'kind': 'section', 'parts': ['S12v14-P2', 'installed'], 'repeats': 0,
+                          'repeats_note': 'fix-20261017/REPEATS-b-s12.md, with the dispositions in fix-20261017/DISPOSITIONS-20261017.md'}
 for k in gate:
     gate[k].setdefault('words', len(drafts[k].split()))
-KEYS = [k for k in drafts if (gate[k]['kind'] == 'section') == (WHICH == '412')] if WHICH in ('410', '412') else list(drafts)
+KEYS = ([k for k in drafts if (gate[k]['kind'] == 'section') == (WHICH == '412') and not k.startswith('S12v14-')] if WHICH == '410'
+        else [k for k in drafts if gate[k]['kind'] == 'section'] if WHICH == '412' else ['S12v14-P2'])
 drafts = {k: drafts[k] for k in KEYS}
 out = HERE / ('b' + WHICH)
 out.mkdir(exist_ok=True)

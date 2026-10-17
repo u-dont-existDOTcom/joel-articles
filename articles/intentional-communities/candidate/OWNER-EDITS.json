@@ -1077,6 +1077,143 @@
    "must_not_contain": [
     "Who takes responsibility for bridging"
    ]
+  },
+  {
+   "id": "s04-joel-20261017-1311-39",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 4, \"4. The container\": his answer to question 39 after \"The first three parts are the inside of the container, and this container is what gives those a stable place to manifest.\", fitted to its place (\"I'd say\" dropped).",
+   "joel": "39. i'd say it's the practical logistical foundation that gets built once the architects can work well together, does that work?",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "It's the practical logistical foundation that gets built once the architects can work well together."
+   ]
+  },
+  {
+   "id": "s15-joel-20261017-1311-40a",
+   "status": "applied",
+   "words": "proposed",
+   "what": "Section 15, H1-P4: \"so much is taken care of by the extended family and the local memory\" stays (question 40 a).",
+   "joel": "40a hm that's interesting so \"often\" is an ai tell? .. i guess just part of the general hedging ai tell?",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "so much is taken care of by the extended family and the local memory"
+   ]
+  },
+  {
+   "id": "app-joel-20261017-1311-41a",
+   "status": "applied",
+   "words": "proposed",
+   "what": "The appendix: the breaks in the reading list stay, one per run of entries (question 41 a); the rule now depends on the article's style (STYLE.json).",
+   "joel": "41 a is fine for this article. In a more formal article it might not be. we need rules that are more flexible depending on the style of the article needed",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "Why this one?",
+    "Want it straight from the Zapatistas?"
+   ]
+  },
+  {
+   "id": "s16-joel-20261017-1311-42",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 16, H3-P6 and H3-P7: his lines for the stretch that read AI (question 42); \"Do those three things ... I know, I know!\" is out.",
+   "joel": "42 ... I replaced the AI lines with: \"And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that! Look before you leap. It will really save you some time & money.\" and now the whole section is 100% human.",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain_exact": [
+    "And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that!",
+    "Look before you leap. It will really save you some time & money."
+   ],
+   "must_not_contain": [
+    "Do those three things",
+    "I know, I know!"
+   ]
+  },
+  {
+   "id": "s16-joel-20261017-1311-quietly",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 16, H1-P3: \"quietly\" out of the last sentence.",
+   "joel": "practice comes before property p3: remove \"quietly\" that's an ai tell at the end",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "(That sounds kind of weird when somebody else is paying the tax bill.)"
+   ],
+   "must_not_contain": [
+    "quietly paying the tax bill"
+   ]
+  },
+  {
+   "id": "s15-joel-20261017-1311-advocacy",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 15, \"All is not well in paradise\" P2: \"advocacy\" for the law's French \"apologie\", no quotes; the financing clause cut.",
+   "joel": "section 15 p2 in all is not well in paradise, the french word apologyshould have been translated as \"advocacy\" and it doesn't need to be in quotes. and then we can remove the \", along with certain financing or support meant to promote it.\" as that sounds redundant.",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "and it also made public advocacy for homosexuality a crime."
+   ],
+   "must_not_contain": [
+    "public \"apology\"",
+    "along with certain financing or support meant to promote it"
+   ]
+  },
+  {
+   "id": "s15-joel-20261017-1311-this",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 15, \"Lessons from the Black Tax\" P4 (the video counted): \"This is also\" for \"It's also\".",
+   "joel": "for p4 in black tax section, you replaced \"this is \" with \"it's\"... \"this\" is not the same as \"it\"... you can't use those interchangeably all the time.",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "This is also the thorny boundary issue"
+   ],
+   "must_not_contain": [
+    "It's also the thorny boundary issue"
+   ]
+  },
+  {
+   "id": "s15-joel-20261017-1311-p6",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 15, \"Lessons from the Black Tax\" P6: his sentence in place of the \"I like that.\" I had added, with capital I's and a comma before \"but\".",
+   "joel": "for p6 at the end you added \"i like that.\" why? I actually don't know that i like that, it seems highly complicated to ask people to send money back and expect they will after they no longer belong to the communtiy. I'd rather say that... i understand the motivation to negotiate like that but i think it's not a full solution either.",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "I understand the motivation to negotiate like that, but I think it's not a full solution either."
+   ],
+   "must_not_contain": [
+    "name and negotiate. I like that."
+   ]
+  },
+  {
+   "id": "s12-joel-20261017-1311-psypost",
+   "status": "pending",
+   "words": "proposed",
+   "what": "Section 12, the end of P2: the PsyPost study he sent, with his link and his \"no, duh\", and his screenshot after the paragraph (question 44 asks about the placement).",
+   "joel": "i also want to add this link and screenshot somewhere in thea rticle where it belongs (altho it's kind of a \"no, duh\" study):  https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
+    "Kind of a \"no, duh\" study, but still."
+   ]
+  },
+  {
+   "id": "sweep-joel-20261017-1311-rules",
+   "status": "pending",
+   "words": "proposed",
+   "what": "His rules of 13:11 swept over the article: \"This is the most joking culture\" (section 15), \"That's the sort of thing\" (section 1), \"quietly\" out of section 8.",
+   "joel": "\"this\" is not the same as \"it\"... you can't use those interchangeably all the time.; remove \"quietly\" that's an ai tell",
+   "when": "2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt)",
+   "must_contain": [
+    "This is the most joking culture I've ever been in",
+    "That's the sort of thing that doesn't make it into the history books.",
+    "Older kids can't be allowed to boss the younger ones around there."
+   ],
+   "must_not_contain": [
+    "It's the most joking culture",
+    "It's the sort of thing that doesn't make it into the history books.",
+    "quietly boss"
+   ]
   }
  ]
 }

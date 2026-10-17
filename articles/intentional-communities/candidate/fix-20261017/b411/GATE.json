@@ -1,0 +1,20 @@
+{
+ "S12v14-P2": {
+  "kind": "draft",
+  "march": [
+   "S S S S S B",
+   "S S S S S B"
+  ],
+  "march_note": "fix-20261017/march-r3 (the study at the end of his P2)",
+  "cold": "OK",
+  "cold_note": "fix-20261017/SENSE-s12c.md: every paragraph OK (the study as a paragraph of its own, SENSE-s12.md and SENSE-s12b.md, left its place unexplained and cut his \"So then\" off; it is the end of his P2 now)",
+  "grounding": "OK",
+  "grounding_note": "fix-20261017/SOURCE-s12.md, the study against its write-up: VERDICT OK; the final wording keeps only the half it found strongest (\"partly by feeling less in sync with those who don't\")",
+  "stance": 0,
+  "stance_note": "fix-20261017/STANCE-s12.md: no conflict in the new text (its one finding is in his own rewrite, \"Once there are 80 members\", his position)",
+  "lint": "REVIEW",
+  "missing": [],
+  "words": 94,
+  "joel_note": "Joel, 2026-10-17 13:11 UTC (joel-20261017/joel-20261017-1311-message.txt): his link and his \"no, duh\" (\"i also want to add this link and screenshot somewhere in the article where it belongs (altho it's kind of a \"no, duh\" study)\"); his P2 as he wrote it, with my two sentences at its end"
+ }
+}

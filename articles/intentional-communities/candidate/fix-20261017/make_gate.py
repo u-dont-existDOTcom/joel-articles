@@ -25,7 +25,7 @@ SECTIONS = {
 }
 for key, (h, path) in SECTIONS.items():
     a = art.index(h)
-    m = re.search(r'\n(<!-- CANDIDATE|<!-- Section|# )', art[a + 3:])
+    m = re.search(r'\n(<!-- CANDIDATE|<!-- ACCEPTED|<!-- Section|# )', art[a + 3:])
     b = a + 3 + m.start()
     art = art[:a] + path.read_text(encoding='utf-8').strip() + '\n' + art[b:]
 (HERE / 'article-with-drafts.md').write_text(art, encoding='utf-8')

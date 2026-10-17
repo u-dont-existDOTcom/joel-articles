@@ -29,7 +29,7 @@ art = (C / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8')
 
 def section(h1):
     a = art.index(h1)
-    m = re.search(r'\n(<!-- CANDIDATE|<!-- Section|# )', art[a + 3:])
+    m = re.search(r'\n(<!-- CANDIDATE|<!-- ACCEPTED|<!-- Section|# )', art[a + 3:])
     return art[a:a + 3 + m.start()].strip()
 
 
@@ -58,7 +58,11 @@ NOTE = ('<!-- IMAGE %s : a screenshot of the opening of PsyPost\'s write-up of t
         'in Social Psychological and Personality Science. -->\n<!-- The screenshot is Joel\'s, sent 2026-10-17 13:11 '
         '(candidate/images/psypost-relational-mobility.png); the Substack image goes in when he uploads it. -->' % IMG)
 assert S12.count(OLD12) == 1
-(HERE / 's12-v14.md').write_text(S12.replace(OLD12, OLD12 + '\n\n' + NEWP + '\n\n' + NOTE) + '\n', encoding='utf-8')
+# Both cold reads of a paragraph of its own (SENSE-s12.md, SENSE-s12b.md) couldn't see why the study was there, and the second
+# found that it cut Joel's "So then a lot of people end up thinking they aren't "good enough" for community" off from what it
+# follows. As the end of his P2, the study follows "Instead we optimize to fit the career market", and his "So then" follows
+# it: people pull away from whoever isn't useful to them, so people get labeled not good enough.
+(HERE / 's12-v14.md').write_text(S12.replace(OLD12, OLD12 + ' ' + NEWP + '\n\n' + NOTE) + '\n', encoding='utf-8')
 A1 = art.index('# The New Age May Dawn Suddenly')
 S1 = art[:art.index('<!-- CANDIDATE: section 2')].strip()
 OLD1, NEW1 = ("It's the sort of thing that doesn't make it into the history books.",

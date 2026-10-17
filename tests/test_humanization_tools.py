@@ -242,7 +242,8 @@ class LinterOwnerScopes(unittest.TestCase):
     def test_o12_quietly_o20_o21_joel_20261010(self):
         """Joel, 2026-10-10 12:22 UTC, on community section 10: "quietly" is an AI-frequency word (O12), "I don't want ..."
         opening a stance is in the tells list (O20), and "one super-commune with a nicer logo" is "an AI-tell quip" (O21)."""
-        self.assertIn('O12', self.lint("Cooperation also shouldn't quietly turn into assimilation, and that matters.\n"))
+        # "quietly" moved from O12 (a REVIEW) to O42 (a FAIL) at Joel's third flag of it, 2026-10-17 13:11
+        self.assertIn('O42', self.lint("Cooperation also shouldn't quietly turn into assimilation, and that matters.\n"))
         self.assertIn('O20', self.lint("I don't want one big federation for every community in the region.\n"))
         self.assertIn('O20', self.lint("It has to be solved. I want communities that can help one another.\n"))
         self.assertNotIn('O20', self.lint("The members want communities that can help one another.\n"))

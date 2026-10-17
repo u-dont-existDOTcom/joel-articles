@@ -41,26 +41,30 @@ P, R = sections((S16 / 'v0.md').read_text(encoding='utf-8')), sections(md)
 assert [len(x[1]) for x in P] == [3, 6, 11] and [len(x[1]) for x in R] == [3, 6, 10], ([len(x[1]) for x in P], [len(x[1]) for x in R])
 IDS = [['H1-P%d' % i for i in range(1, 4)], ['H2-P%d' % i for i in range(1, 7)], ['H3-P%d' % i for i in range(2, 12)]]
 PUB = [P[0][1], P[1][1], P[2][1][1:]]          # the published H3-P1, the lead-in line, went in the dedup
-BATCHES = sorted(p for p in S16.glob('b3*') if (p / 'drafts.json').exists())
+BATCHES = sorted(p for p in S16.glob('b[34]*') if (p / 'drafts.json').exists()) + [C / 'fix-20261017' / 'b410', C / 'fix-20261017' / 'b412']
+BATCHES = [b for b in BATCHES if (b / 'drafts.json').exists()]
 CHECK = {p: g for p, g in page_checks.alone(md, BATCHES)}
-whole = json.loads((S16 / BATCH / ('%s-results.json' % BATCH)).read_text(encoding='utf-8'))[KEY]
+BDIR = S16 / BATCH if (S16 / BATCH).exists() else C / 'fix-20261017' / BATCH
+whole = json.loads((BDIR / ('%s-results.json' % BATCH)).read_text(encoding='utf-8'))[KEY]
 NOTE = {
+ 'H1-P3': ('Your 13:11 correction: "quietly" is out ("That sounds kind of weird when somebody else is paying the tax bill."). It '
+           'was in your published sentence, "while somebody else quietly pays the tax bill".'),
  'H1-P2': 'Your order of 2026-10-16 23:38, every step of it: practice, a real conflict, values, membership, ownership and exit, then land.',
  'H1-P3': ('The first money stage (households that stop buying the basics among themselves while outside earners put in a share) '
            'is not repeated here: section 4, "The container", says it in your words.'),
  'H2-P4': '"already contains a real piece of community" is not repeated here: section 13 opens with it.',
  'H2-P5': ('"build the part of community you actually can": a meaning check found "the part of it" had no noun for "it" since the '
            'dedup, so your noun is back.'),
- 'H3-P2': ('Your lead-in "Here is the first month without the heroic land purchase:" is cut: the section says land can wait four '
-           'other times, and the heading says "This Month".'),
+ 'H3-P2': ('Your lead-in "Here is the first month without the heroic land purchase:" is cut: the section says land can wait in '
+           'its opening and in "If You Can\'t Move", and the heading says "This Month".'),
  'H3-P3': ('Your "Call it a practice group rather than a commune" and your four skills as the full list: a meaning check found '
            'that "not quite the same thing as forming a commune" and "skills ... like listening" had shifted them.'),
  'H3-P5': 'Your "current visitor requirements" is back: a meaning check found "their requirements" had lost it.',
- 'H3-P6': ('A meaning check found "right after the first communal shower you take" added a timing; it is your "make you start '
-           'looking at studio apartments" now. This sentence and the land line after it are the one stretch that reads AI in the '
-           'whole section (question 42).'),
- 'H3-P7': ('A meaning check found "I know, the land is the exciting part!" added a claim; it is "I know, I know!" now. With the '
-           'showers sentence, the stretch that reads AI in the whole section (question 42).'),
+ 'H3-P6': ('Its last two sentences are the ones you kept in your 42 ("And whether communal showers feel liberating, or make you '
+           'start looking at studio apartments! No manifesto is going to tell you any of that!").'),
+ 'H3-P7': ('Your 42, as you wrote it: "Look before you leap. It will really save you some time & money." in place of "Do those '
+           'three things before you spend serious time or money looking for land. I know, I know!" It stays its own short '
+           'paragraph, where that one was.'),
  'H3-P8': ('Your "real" care is back (a meaning check found it lost). "I\'m in Sénégal and expect to buy land, but I\'m not '
            'announcing a commune." is not repeated here: section 2 says it.'),
  'H3-P9': ('"He made a film, founded a research organization, and carried me through communal experiments." is not repeated '
