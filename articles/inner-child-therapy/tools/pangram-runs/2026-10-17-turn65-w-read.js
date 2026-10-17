@@ -1,0 +1,24 @@
+const want = {"4f6e602b00b878e0ee5ff289a6f84c4023325b5316f4de1b031bed3b74a5ec8f": "t65w_lm1p1e", "61d01e258d6f6f564f3f1e9dbf0151ffa86652c57a92700f7e81168488ea60d0": "t65w_lm1p1f", "0ac2ac8689ed35d32780bcf954e26f882a8f773c28f5b1274b36590268656219": "t65w_lm1p1g", "6fc75d4e7827df607aa69c74fc1d542d00a61aa601b1241cbc9f5cbd3803bc6d": "t65w_lm1p2e", "5fdc6f53bdecabd5c7e4df96efaab19604d33a7172608cb78aa5c78a8ea27ec7": "t65w_lm1p3d", "43649af9d4c3ea7788d429eb745964fea09e356daabb6bead42c0e5563ae339e": "t65w_lm1p3e", "b8c39e544e8ed68abcedbecba0f3fa0168f0981a27554338c68051069d084e86": "t65w_lm2p1d", "ee2bda063be6fd45626fde2240ca788534280f803c1d5fac330b027a0f52a74e": "t65w_lm3p1d", "5757037b1ce471ed7c4002224d6b1dd0150fac295449bafe989b7e8b1ebb617f": "t65w_lm3p1e", "95f1fa28f3f0ad36666ada80f18cfe089dfbb9515a20ad2d334f803dc2245005": "t65w_lm4p3c", "a4ebe5036186129702e9fd15814d66a309b6cf49404df220a5b14481db4ae556": "t65w_lm4p3d", "b4d04ed11451fc5c3d508d3af500282bcd9592ecce3ce823173d6fff7b0e042d": "t65w_lm4p4c", "d0c29583b2cf5a64146a726107270fbe9cfbfe8d4ce77aa4f33173aa01e912da": "t65w_lm4p5c", "8bfcd0d330bfffc98da452f686625b92cdf2c6481b604e78985cc69cbafee447": "t65w_fg1p1a", "4917f82afe4cedd19bdff6c743867af75548e580467777e906a6aaf285f6e1f9": "t65w_fg1p1b", "46f1fd75ebcd4f80ed104d262a867aa798dbb9120fafb8bb6857fc6efd789d12": "t65w_fg1p2a2", "7c7d19d9f0d217bf2e20ac38e4c0e88e2f9d4a44e525ed52437209a32148c3fb": "t65w_fg1p2b", "bb102267a8192afe6632bd8c818e3a19aefe74a7d588e4b0d633ce0db19c09fa": "t65w_fg1p3a", "d6c929df2f5cf7f75644b1fcbaa3ff39f22d4dfc2983ddec72d9966893a7942c": "t65w_fg1p3b", "31a954e375c7936eda2a8db8d7953ba72b46a8a762ae23baf623f7931a362f20": "t65w_fg1p4a3", "27f1d6e2450d571623ed5ee209a8f051f55e936823a3e1d02df280c07d730864": "t65w_le1p1a3", "e07d19e567ce4a31ee8bc42f8d8449bd60f14ebf9a98ef0b1dba862c8e28daef": "t65w_le1p2a2", "d287c5fce2c10b57a65bdadeeb7b6f2f9191e07d9e60594a03dbe7c9d249141e": "t65w_le1p3b", "2f6330a64a3a2838f9e9f7d841f22029c5dbde8c81895d2bdeca1ebfd20d53ab": "t65w_le1p4c", "954f4405b2d17a0e397d2b850861bc52af722161240328da3ebc4e15dd904020": "t65w_ba1p1a", "db5240ea5d991cc1a4cdfb702205b48e64798dc8116909fb37e4a7d2839cc1cd": "t65w_ba1p2a2", "f951d92cd8704afec9a23c2d6494f826bd864b630bed883042287acfce52ec7e": "t65w_seclm1p1e", "3ee2a422d9471b2b444628a270bed81ace14c707f59cd0d093ab371287bcb256": "t65w_seclm1p1f", "3263b6dab04391bf5c7a7ed9456aa09526b6fafbc96769e7399948db7fb71bf1": "t65w_seclm1p1g", "5f23bda75b2f7b250d6854ee3c286a90dc13b01d473df32827c291465e812f3d": "t65w_seclm2p1d", "cad92ad3054df605446be84123d0de7b777fdb0e9da7e0f1e56bb3cd79412372": "t65w_seclm3p1d", "7524d1f78b1c6218ba6c50a08c43615faf82ef5992bf25ab6dfa61a164e3abdc": "t65w_seclm3p1e", "6705b5e8fece8f035d1dd1ac7f919fbedfaf00c7865efd0f125db38760ac9664": "t65w_seclm4p2a2", "2d7733ee4a885c53e7d4e6a709355b1956afe44d63042d07d47248e1c72e3c59": "t65w_secfg1p1a", "aaf319e6548ceff69cee696734cd74ee5f60a614d05a15fef5c75bc1cbea253e": "t65w_secfg1p1b", "1b8ded9c476f01f0dfc63ee064b804c993488734c7505d12f905ab994909362e": "t65w_secle1p1a3", "236f2edeb94f374c39ff5c896a114feceecdf30cd29b1a4566c181ffbe182a19": "t65w_secba1p1a", "89a99505bb076c23f94aa8f67f7a369833ec7cdb74748634d04fa3c1b2667008": "t65w_secba1p2a2"};
+const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');
+const out = {};
+let url = 'https://web.pangram.com/api/history-list/?limit=20&offset=0';
+for (let p = 0; url && p < 5 && Object.keys(out).length < Object.keys(want).length; p++) {
+  const l = await fetch(url, {credentials: 'include'}).then(r => r.json());
+  // each page's details in parallel (2026-10-17: the History is shared with other lanes and fills fast)
+  const ds = await Promise.all((l.results || []).map(it => fetch('https://web.pangram.com/api/history/' + it.uuid + '/', {credentials: 'include'}).then(r => r.json()).then(d => [it, d])));
+  for (const [it, d] of ds) {
+    const k = want[await sha(d.prompt || '')];
+    if (!k || out[k]) continue;
+    const o = d.response.overall;
+    const n = (d.prompt || '').replace(/\n{2,}/g, '\n');  // window indexes count a blank line as one newline
+    const words = w => { const s = n.slice(w.start_index, w.end_index).trim();
+      return s.startsWith((w.text || '').trim().slice(0, 30)) ? s : (w.text || '').trim() + '…'; };
+    out[k] = {history_id: Number(it.id), link: 'https://www.pangram.com/history/' + it.uuid,
+              utc: new Date(it.timestamp).toISOString().replace(/\.\d+Z$/, 'Z'), words: o.word_count,
+              avg_ai_likelihood: o.avg_ai_likelihood, headline: o.headline, version: o.version,
+              windows: (o.windows || []).map(w => w.label + ', ' + w.confidence + ', ' + w.word_count),
+              flagged: (o.windows || []).filter(w => w.label !== 'Human').map(w => w.label + ' (' + w.word_count + ' words): ' + words(w))};
+  }
+  url = l.next;
+}
+JSON.stringify(out)
