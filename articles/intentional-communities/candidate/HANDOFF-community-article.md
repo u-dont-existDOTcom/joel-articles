@@ -3,13 +3,17 @@
 The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-17 in the turn that began with Joel's message of 2026-10-16 23:38 UTC (the questions page's layout bug and its hidden questions; "yes i want "if the community uses them" back in section 13 ... it's all fairly borderline human. so we should fix it"; "we should not lean on Christian's book order"; "let's merge/dedup section 14"; "also dedeup other sections"), by the session https://claude.ai/code/session_01Mxpoi6tFT3FgKmBvtGjRtS.
 
 **Resume line (paste into any Claude account; the repository is public):**
-> Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1016b/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
+> Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1017/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
 
 If that branch is gone (merged), the same file is on main: https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/intentional-communities/candidate/HANDOFF-community-article.md
 
 From an account with Desktop Commander connected to the laptop, the laptop copy works too: "Continue my community article work: on my laptop, read ~/claude-acceptance-transfer/handoffs/community-article.md and carry on from its next step." If Joel adds "My answer to your last message: ..." or "Here is my response to last turn there: ...", it answers the open items in "Waiting on Joel" below.
 
 ## START HERE
+
+**Overnight run in progress** (Joel, 2026-10-17 02:07 UTC: "continue, and don't stop because this is overnight run. so try to do as much as possible in the next 12 hours"). Branch `claude/community-joel-1017`, pull request 187 (open, his to merge): https://github.com/u-dont-existDOTcom/joel-articles/pull/187. Pull request 183 is merged.
+- Done tonight: his 02:07 answers (35 b keep both; 36 a section 10 v5, 320g; 37 a; 38 b his section 14 paragraph, section 14 v9, 319g), sections 13 and 14 accepted (`EDITORIAL-STATUS.json`, ACCEPTED notes), his standing dedup rule (gate doc, `AGENTS.md`), the questions page's "For you to do" fix with its lint (rules pull requests 392 and 393 in universal-dev-architecture, both open, each now with its task checkpoint). Records: `joel-20261017/`.
+- In progress: section 15 ("What This Looks Like From Sénégal"), then section 16 ("Practice Comes Before Property") and the appendix. If this run stops, carry on from the first unfinished one, following "Next step" below.
 
 State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - **This turn's work is on `claude/community-joel-1016b`, pull request 183** (open, his to merge): https://github.com/u-dont-existDOTcom/joel-articles/pull/183
