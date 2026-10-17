@@ -29,4 +29,3 @@ and with a neighbor when one of the two is under 50, then the whole section as 3
 | S13v35-VisitortoMemberP9 | Human | "(yes, even interns)" | **Human** (Human Written, low, 100 words, AI likelihood 0.06), 19:37:06, [check](https://www.pangram.com/history/030ef00b-3ba7-49c0-9746-4e33e76ca746) |
 | S13v35-WhenSomebodyHastoGoP3 | Human | one period ("not the same people.") | **Human** (Human Written, medium, 140 words, AI likelihood 0.00), 19:37:18, [check](https://www.pangram.com/history/9ed6f5cb-56cf-4f47-96ca-b3b4d6506b69) |
 | S13v35 | Human | 317g read v34 100% Human (0.06); only marks and one short phrase out | **Human** (Human Written; windows: Human, High, 1697; Human, High, 404, 2189 words, AI likelihood 0.07), 19:37:28, [check](https://www.pangram.com/history/070203d7-e948-49e9-8963-38322e5a88cd) |
-
