@@ -1229,6 +1229,23 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(e, cold='[2] UNCLEAR')}, ['p'])
         self.assertEqual(r.returncode, 2)
 
+    def test_a_cut_goes_to_pangram_whatever_the_march_says(self):
+        """2026-10-17: a cut that took out the installed version's only break goes to Pangram when the record gives
+        the installed text and the text is that text with words taken out (Joel, 21:37 UTC: "it made no difference
+        taking those exclamation phrases out for pangram"); a rewording, or a "cut" that adds a word, is still held."""
+        e = dict(self.CLEAN, kind='edit', march=['S S'], march_was=['S B S'], was='batch 420g, alone 100% Human',
+                 cut_of='One. Very important! Three.')
+        r, js, _ = self.run_gate({'p': 'One. Three.'}, {'p': e}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIsNotNone(js)
+        r, js, _ = self.run_gate({'p': 'One. Four.'}, {'p': e}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('not that text with words taken out', r.stderr)
+        g = dict(e); del g['cut_of']
+        r, js, _ = self.run_gate({'p': 'One. Three.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('the fix made the march', r.stderr.lower())
+
     def test_no_stance_check_blocks_the_call(self):
         g = dict(self.CLEAN); del g['stance']
         r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': g}, ['p'])

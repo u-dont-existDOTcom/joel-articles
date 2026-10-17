@@ -37,7 +37,11 @@ very AI").
 An edit (E173, 2026-10-14) is a fix of a few words in a paragraph that is already in the article after its
 own Pangram pass ("was" says where). It needs everything a draft needs except that its march is read against
 the installed version's ("march_was"): it is blocked when the installed version had a break and the edit has
-none, since then the fix made the march. A paragraph that passed without a break keeps its structure through a
+none, since then the fix made the march. A cut is the exception (2026-10-17): an edit whose record gives the
+installed text as "cut_of", and whose text is that text with words taken out and nothing added (checked here),
+goes to Pangram whatever the march says, and the march labels stay in the record. Why: two cuts this rule held,
+each its paragraph's only break, made no difference to Pangram when Joel ran them himself (21:37 UTC: "it made
+no difference taking those exclamation phrases out for pangram"). A paragraph that passed without a break keeps its structure through a
 fix of a few words, and Pangram is the test of it. Why: on 2026-10-14 the march read labeled 15 of the 20
 paragraphs that the sweep's fixes changed with no break, and their installed versions got the same labels,
 though each of those had read Human alone and in its section; the draft rule would have had every one of them
@@ -126,8 +130,13 @@ def problems(key, gate, seen=()):
         if not was:
             out.append("an edit needs 'march_was': the march read of the installed version (E173)")
         elif march and any('B' in m.split() for m in was) and not all('B' in m.split() for m in march):
-            out.append('the march blocks the call: the installed version had a break (%r) and the edit has none (%r). '
-                       'The fix made the march; put the break back (E131, E173)' % (was, march))
+            # 2026-10-17: a cut that only takes words out goes to Pangram whatever the march says (main() checks "cut_of"
+            # against the text). Joel, 21:37 UTC, on two cuts this rule held because each took out its paragraph's only
+            # break: "it made no difference taking those exclamation phrases out for pangram".
+            if not g.get('_cut_ok'):
+                out.append('the march blocks the call: the installed version had a break (%r) and the edit has none (%r). '
+                           'The fix made the march; put the break back (E131, E173), unless the edit only takes words out '
+                           '("cut_of": the installed text)' % (was, march))
     else:
         for m in march:
             if 'B' not in m.split():
@@ -160,6 +169,16 @@ def problems(key, gate, seen=()):
         elif v != good:
             out.append('%s: %r (%s before any Pangram call)' % (field, v, need))
     return out
+
+
+def is_cut(new, old):
+    """True when NEW is OLD with words taken out and nothing added, changed or moved: its words, split on white space,
+    are OLD's words in order with some left out (a sentence, a phrase, a question)."""
+    n, o = new.split(), old.split()
+    if not n or len(n) >= len(o):
+        return False
+    it = iter(o)
+    return all(any(w == x for x in it) for w in n)
 
 
 def batch_js(name, items):
@@ -282,6 +301,11 @@ def main(argv=None):
             if v != str((gate.get(k) or {}).get('lint', '')).upper():
                 print('%s: the linter says %s, GATE.json says %r; it now says %s' % (k, v, gate[k].get('lint'), v), file=sys.stderr)
             gate[k] = dict(gate[k], lint=v)
+        if k in drafts and (gate.get(k) or {}).get('kind') == 'edit' and gate[k].get('cut_of') is not None:
+            if is_cut(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'], gate[k]['cut_of']):
+                gate[k] = dict(gate[k], _cut_ok=True)
+            else:
+                print('%s: "cut_of" is given, but the text is not that text with words taken out' % k, file=sys.stderr); bad = True
         for p in problems(k, gate):
             print('%s: %s' % (k, p), file=sys.stderr); bad = True
     if bad:
