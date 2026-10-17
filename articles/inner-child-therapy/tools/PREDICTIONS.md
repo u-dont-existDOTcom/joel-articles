@@ -1406,3 +1406,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15a (1306 words) [t65i_secp15a], a screen | Human, low (my call) | Mostly Human Written (0.15; 1369): an AI window of 61 (high) on P15; 03:16:47 UTC, https://www.pangram.com/history/c8fe8fb6-ee6f-4864-b6f7-2f644fbddf3a | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15c (1306 words) [t65i_secp15c], a screen | Human, low (my call) | Mostly Human Written (0.17; 1371): an AI window of 63 (high) on P15; 03:16:58 UTC, https://www.pangram.com/history/4dbd404f-c6b8-47c6-b879-45fab890beca | miss |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d (1299 words) [t65i_secp15d], a screen | Human, low (my call) | Human Written (0.099, high; 1361), one Human window; 03:17:10 UTC, https://www.pangram.com/history/01416924-181b-4182-b884-75708807b334 | hit |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15d3 alone (69 words) [t65j_p15d3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15d4 alone (69 words) [t65j_p15d4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15d5 alone (69 words) [t65j_p15d5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P15 (groups 15 and 16), p15d6 alone (66 words) [t65j_p15d6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15d3 (73 words) [t65j_pairp15d3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15d4 (73 words) [t65j_pairp15d4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15d5 (73 words) [t65j_pairp15d5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13+P14, with p15d6 (70 words) [t65j_pairp15d6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d3 (1319 words) [t65j_secp15d3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d4 (1319 words) [t65j_secp15d4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d5 (1319 words) [t65j_secp15d5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P14 = p15d6 (1316 words) [t65j_secp15d6], a screen | Human, low (my call) | (pending) | |
