@@ -1,0 +1,1 @@
+Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna! And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a cuddle puddle.
