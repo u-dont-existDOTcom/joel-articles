@@ -1,0 +1,282 @@
+{
+ "S13v36-c1": {
+  "kind": "edit",
+  "was": "batch 420g: section 13 v35 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 48 and 51: the capitals go (stress the sentence already carries), and the second \"dealt with it\" of four; 48: the third \"dealt with it\", saying the first again; the next sentence names what \"this\" was (the tone check, TONE-tighten.md change 2: \"This\" would point at the truce) (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S B S B",
+   "S S B S B"
+  ],
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "fix-20261017d/march-r3 (s13-c2-was and s13-c2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017d/SENSE-s13.md (section 13 v36 as first built, with the changes the march later held back): all 27 paragraphs OK, the bottlenecks sentence included; the held-back paragraphs are back to the installed text (cold-read OK in fix-20261017c/SENSE-s13.md), and the two sentences reworded after it are the tone check's own wording (TONE-DISPOSITIONS.md)",
+  "words": 121
+ },
+ "S13v36-c1+prev": {
+  "kind": "edit",
+  "was": "batch 420g: section 13 v35 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 48 and 51: the capitals go (stress the sentence already carries), and the second \"dealt with it\" of four; 48: the third \"dealt with it\", saying the first again; the next sentence names what \"this\" was (the tone check, TONE-tighten.md change 2: \"This\" would point at the truce) (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S B S B",
+   "S S B S B"
+  ],
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "fix-20261017d/march-r3 (s13-c2-was and s13-c2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017d/SENSE-s13.md (section 13 v36 as first built, with the changes the march later held back): all 27 paragraphs OK, the bottlenecks sentence included; the held-back paragraphs are back to the installed text (cold-read OK in fix-20261017c/SENSE-s13.md), and the two sentences reworded after it are the tone check's own wording (TONE-DISPOSITIONS.md)",
+  "words": 167
+ },
+ "S13v36-c1+next": {
+  "kind": "edit",
+  "was": "batch 420g: section 13 v35 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 48 and 51: the capitals go (stress the sentence already carries), and the second \"dealt with it\" of four; 48: the third \"dealt with it\", saying the first again; the next sentence names what \"this\" was (the tone check, TONE-tighten.md change 2: \"This\" would point at the truce) (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S B S B",
+   "S S B S B"
+  ],
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "fix-20261017d/march-r3 (s13-c2-was and s13-c2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017d/SENSE-s13.md (section 13 v36 as first built, with the changes the march later held back): all 27 paragraphs OK, the bottlenecks sentence included; the held-back paragraphs are back to the installed text (cold-read OK in fix-20261017c/SENSE-s13.md), and the two sentences reworded after it are the tone check's own wording (TONE-DISPOSITIONS.md)",
+  "words": 164
+ },
+ "S13v36-c2": {
+  "kind": "edit",
+  "was": "batch 420g: section 13 v35 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 51: the capitals go; 48: the published anchor back (\"A money-free community still has scarce things and bottlenecks.\"), for the cold reader's \"Bottlenecks in what?\" (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S S S",
+   "S S S S"
+  ],
+  "march": [
+   "S S S S",
+   "S S S S"
+  ],
+  "march_note": "fix-20261017d/march-r1 (s13-c3-was and s13-c3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017d/SENSE-s13.md (section 13 v36 as first built, with the changes the march later held back): all 27 paragraphs OK, the bottlenecks sentence included; the held-back paragraphs are back to the installed text (cold-read OK in fix-20261017c/SENSE-s13.md), and the two sentences reworded after it are the tone check's own wording (TONE-DISPOSITIONS.md)",
+  "words": 84
+ },
+ "S13v36-c3": {
+  "kind": "edit",
+  "was": "batch 420g: section 13 v35 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 48: the whole-article reader's padding (the published's 32 words became 105, seven questions); every point the published and v35 make is still here (the period, rights, responsibilities, review, exit, who decides, his hint, the full member's land, resources, voice and long-term obligations, the founding agreements) (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S S S S B S S S",
+   "S S S S S B S S S"
+  ],
+  "march": [
+   "S S S B S S",
+   "S S S B S S"
+  ],
+  "march_note": "fix-20261017d/march-r2 (s13-c5-was and s13-c5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017d/SENSE-s13.md (section 13 v36 as first built, with the changes the march later held back): all 27 paragraphs OK, the bottlenecks sentence included; the held-back paragraphs are back to the installed text (cold-read OK in fix-20261017c/SENSE-s13.md), and the two sentences reworded after it are the tone check's own wording (TONE-DISPOSITIONS.md)",
+  "words": 77
+ },
+ "S13v36-c4": {
+  "kind": "edit",
+  "was": "batch 420g: section 13 v35 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 48: the repeat of his section 9 (\"it had crept up and consolidated itself at higher levels over time\") (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S B S S S S S S",
+   "S B S S S S S S"
+  ],
+  "march": [
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "fix-20261017d/march-r1 (s13-c8-was and s13-c8-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017d/SENSE-s13.md (section 13 v36 as first built, with the changes the march later held back): all 27 paragraphs OK, the bottlenecks sentence included; the held-back paragraphs are back to the installed text (cold-read OK in fix-20261017c/SENSE-s13.md), and the two sentences reworded after it are the tone check's own wording (TONE-DISPOSITIONS.md)",
+  "words": 110
+ },
+ "S15v16-c5": {
+  "kind": "edit",
+  "was": "batch 421g: section 15 v15 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 51: the tag question; the whole-article reader's padding (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "fix-20261017d/march-r1 (s15-c12-was and s15-c12-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017d/SENSE-s15.md (section 15 v16 as first built: his rewrite of P1 and P2 of \"All is not well in paradise\" in, with the changes the march later held back): all 22 paragraphs OK. The held-back paragraphs are back to their v14 text, cold-read OK in fix-20261017b/SENSE-s15c.md, and the one change kept, \"Kind of the opposite problem.\" for \"Kind of the opposite problem, isn't it?\", is the text this read had",
+  "words": 59
+ },
+ "S16v31-c6": {
+  "kind": "edit",
+  "was": "batch 421g: section 16 v30 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 51: the capitals go; \"rather than by declaring\" already makes the contrast (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "fix-20261017d/march-r1 (s16-c14-was and s16-c14-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (section 16 v29, the final text then): all 19 paragraphs OK; v31 differs by his cut of \"One disagreement is enough!\" and one capital (\"can do\"), both read by the march and the tone check",
+  "words": 82
+ },
+ "S16v31-c6+prev": {
+  "kind": "edit",
+  "was": "batch 421g: section 16 v30 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: 51: the capitals go; \"rather than by declaring\" already makes the contrast (fix-20261017d/tighten-changes.json)",
+  "stance": 0,
+  "stance_note": "padding, a question-answer pair or capitals out, or a published anchor back; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 48 a and 51 a (\"make sure it reads well\")",
+  "march_was": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "fix-20261017d/march-r1 (s16-c14-was and s16-c14-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (section 16 v29, the final text then): all 19 paragraphs OK; v31 differs by his cut of \"One disagreement is enough!\" and one capital (\"can do\"), both read by the march and the tone check",
+  "words": 131
+ },
+ "S13v36": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S13v36-c1",
+   "S13v36-c1+next",
+   "S13v36-c1+prev",
+   "S13v36-c2",
+   "S13v36-c3",
+   "S13v36-c4"
+  ],
+  "repeats": 0,
+  "repeats_note": "nothing added: padding, question-answer pairs and capitals out, the published bottlenecks anchor back (fix-20261017d/tighten-changes.json)",
+  "words": 2053
+ },
+ "S15v16": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S15v16-c5"
+  ],
+  "repeats": 0,
+  "repeats_note": "nothing added: padding, question-answer pairs and capitals out, the published bottlenecks anchor back (fix-20261017d/tighten-changes.json)",
+  "words": 1387
+ },
+ "S16v31": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S16v31-c6",
+   "S16v31-c6+prev"
+  ],
+  "repeats": 0,
+  "repeats_note": "nothing added: padding, question-answer pairs and capitals out, the published bottlenecks anchor back (fix-20261017d/tighten-changes.json)",
+  "words": 836
+ },
+ "S2v34-P2": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.5 \"here's my fixed version, reads human to apngram\" (his P2, \"Genevia\" spelled \"Geneva\"), and 46 a (the anomie paragraph after it: \"This paragraph there, with your screenshot and caption after it\")",
+  "words": 61,
+  "read": "batch 421g (fix-20261017d/b421/b421-results.json)"
+ },
+ "S2v34-A46": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 50,
+  "read": "batch 421g (fix-20261017d/b421/b421-results.json)"
+ },
+ "S2v34-A46+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 70,
+  "read": "batch 421g (fix-20261017d/b421/b421-results.json)"
+ },
+ "S2v34a-P2+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.5 \"here's my fixed version, reads human to apngram\" (his P2, \"Genevia\" spelled \"Geneva\"), and 46 a (the anomie paragraph after it: \"This paragraph there, with your screenshot and caption after it\")",
+  "words": 81
+ },
+ "S2v34a": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v34-P2",
+   "S2v34a-P2+next"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS.md (REPEATS-s2.md, read on v3.4, which has all of this and the caption too)",
+  "words": 615
+ },
+ "S2v34b": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v34-A46",
+   "S2v34-A46+next",
+   "S2v34-P2"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS.md (REPEATS-s2.md, read on v3.4, which has all of this and the caption too)",
+  "words": 665
+ }
+}

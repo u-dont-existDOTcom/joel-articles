@@ -8,18 +8,18 @@ make_2137.py). Each changed paragraph alone or with a neighbor, and each changed
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S2v34-P2 | Human | his P2, the Geneva aside its break; he says it reads Human | |
-| S2v34-A46 | Human | the anomie paragraph read 0.10 alone in 415g, the same text | |
-| S2v34-A46+next | Human | with the short Google Trends paragraph after it | |
-| S8v31-rumspringa | Human | one phrase shorter than the paragraph 412g read Human | |
-| S8v31-skills | Human | the published sentence back at the end, his paragraph otherwise | |
-| S8v31-skills+next | Human | with "Belonging and freedom should go hand in hand." | |
-| S15v15-H2P1+next | Human | his two paragraphs together; he says they read Human | |
-| S15v15-H2P2 | Human | his P2 alone, the two ironies its turns | |
-| S16v30-H3P2+prev | Human | the practice-group paragraph without its exclamation, with the month question before it | |
-| S16v30-H3P2+next | Human | the same with "Go visit some real communities. Really, go!" after it | |
-| S2v34 | Mixed | 417g read the opening paragraph as its own AI window once the anomie paragraph was in; his new P2 may or may not change that | |
-| S8v31 | Human | 412g read v30 100% Human; two small owner changes | |
-| S12v16 | Human | 415g read v15 100% Human (0.03) with the caption; only the caption out | |
-| S15v15 | Human | 417g read v14 100% Human (0.15); his rewrite of two paragraphs | |
-| S16v30 | Human | 419g read v29 100% Human (0.24); one sentence out | |
+| S2v34-P2 | Human | his P2, the Geneva aside its break; he says it reads Human | **Human** (Human Written, low, 65 words, AI likelihood 0.31), 21:59:39, [check](https://www.pangram.com/history/c3c2c622-fc4e-487a-a320-2540b0743294) |
+| S2v34-A46 | Human | the anomie paragraph read 0.10 alone in 415g, the same text | **Human** (Human Written, low, 53 words, AI likelihood 0.10), 21:59:49, [check](https://www.pangram.com/history/bd80c491-d570-4596-9e70-03cb490bb21f) |
+| S2v34-A46+next | Human | with the short Google Trends paragraph after it | **Human** (Human Written, low, 74 words, AI likelihood 0.24), 21:59:59, [check](https://www.pangram.com/history/b5e058e1-6c1a-4840-b7fb-a17c586721be) |
+| S8v31-rumspringa | Human | one phrase shorter than the paragraph 412g read Human | **Human** (Human Written, medium, 103 words, AI likelihood 0.06), 22:00:10, [check](https://www.pangram.com/history/19bf0333-87e0-408d-a6a9-a807a03efa0b) |
+| S8v31-skills | Human | the published sentence back at the end, his paragraph otherwise | **Human** (Human Written, low, 61 words, AI likelihood 0.00), 22:00:20, [check](https://www.pangram.com/history/9751f15f-e63d-441a-8b73-9db261b6bb9a) |
+| S8v31-skills+next | Human | with "Belonging and freedom should go hand in hand." | **Human** (Human Written, low, 69 words, AI likelihood 0.00), 22:00:31, [check](https://www.pangram.com/history/337b3dfc-d026-466a-a235-dbe70cdf3094) |
+| S15v15-H2P1+next | Human | his two paragraphs together; he says they read Human | **Human** (Human Written, high, 158 words, AI likelihood 0.10), 22:00:42, [check](https://www.pangram.com/history/4ec9d94a-2493-417a-8d76-0c478b5b51b1) |
+| S15v15-H2P2 | Human | his P2 alone, the two ironies its turns | **Human** (Human Written, medium, 118 words, AI likelihood 0.18), 22:00:53, [check](https://www.pangram.com/history/d6cd33b6-8219-40de-b3b2-c5ac910310e0) |
+| S16v30-H3P2+prev | Human | the practice-group paragraph without its exclamation, with the month question before it | **Human** (Human Written, low, 78 words, AI likelihood 0.07), 22:01:03, [check](https://www.pangram.com/history/bd34f3cb-389c-4d97-9281-c58dd29b9589) |
+| S16v30-H3P2+next | Human | the same with "Go visit some real communities. Really, go!" after it | **Mixed** (AI Detected; windows: Human, Low, 47; AI-Generated, Low, 40, 87 words, AI likelihood 0.54), 22:01:13, [check](https://www.pangram.com/history/1b4b9e69-a073-4376-8520-37fc05f3ee43) |
+| S2v34 | Mixed | 417g read the opening paragraph as its own AI window once the anomie paragraph was in; his new P2 may or may not change that | **Mixed** (AI Detected; windows: AI-Generated, High, 168; Human, High, 27; AI-Generated, High, 33; Human, High, 90; AI-Generated, High, 63; Human, High, 320, 701 words, AI likelihood 0.36), 22:01:24, [check](https://www.pangram.com/history/78ecd226-f98a-4385-a6d0-e7477dd10429) |
+| S8v31 | Human | 412g read v30 100% Human; two small owner changes | **Human** (Human Written; windows: Human, High, 1621; Human, High, 163, 1850 words, AI likelihood 0.05), 22:01:36, [check](https://www.pangram.com/history/027992f8-a5da-444f-8c33-a85cdc5bdbec) |
+| S12v16 | Human | 415g read v15 100% Human (0.03) with the caption; only the caption out | **Human** (Human Written, high, 950 words, AI likelihood 0.04), 22:01:45, [check](https://www.pangram.com/history/2f53b9bd-18fb-4d5a-b999-16b9149670cb) |
+| S15v15 | Human | 417g read v14 100% Human (0.15); his rewrite of two paragraphs | **Human** (Human Written, high, 1445 words, AI likelihood 0.12), 22:01:55, [check](https://www.pangram.com/history/83dc7a9c-eb4c-47f2-8251-4e519e67c39c) |
+| S16v30 | Human | 419g read v29 100% Human (0.24); one sentence out | **Human** (Human Written, high, 864 words, AI likelihood 0.26), 22:02:06, [check](https://www.pangram.com/history/9dd16854-38d8-4fd6-b448-32b8a73d0138) |

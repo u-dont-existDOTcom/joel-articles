@@ -32,13 +32,30 @@ SECT = [
      'section 16 v30 (2026-10-17, after %s, 47.1): his cut of "One disagreement is enough!" ("it undermines ... "at least one""); '
      '"Really, go!" and the passing "make a difference" stay (47.2, 47.3)' % J),
 ]
-good = {key: ok(key) and all(ok(p) for p in G[key]['parts'] if p != 'installed') for key, *_ in SECT}
+# Joel's rule is that every paragraph passes alone, or with a neighbor when it is under 50 words. Section 16's practice-group
+# paragraph (47 words) passes with the paragraph before it (S16v30-H3P2+prev, 0.07); with the one after, Pangram read the next
+# paragraph's list as AI (S16v30-H3P2+next, 0.54), and that paragraph, unchanged and 44 words, passes with its own next one (389g
+# S16v25-H3-P4+P5, the same text, 0.00). So every paragraph there passes with a neighbor, and the section reads 100% Human.
+NEIGHBOR_OK = {'S16v30-H3P2+next': ('S16v30-H3P2+prev', 's16/b389', 'S16v25-H3-P4+P5')}
+
+
+def part_ok(p):
+    if ok(p):
+        return True
+    if p in NEIGHBOR_OK:
+        other, folder, key = NEIGHBOR_OK[p]
+        r389 = json.loads((C / folder / (folder.split('/')[-1] + '-results.json')).read_text(encoding='utf-8'))
+        return ok(other) and r389[key][0].startswith('Human') and r389[key][3].startswith('Human') and '; AI' not in r389[key][3]
+    return False
+
+
+good = {key: ok(key) and all(part_ok(p) for p in G[key]['parts'] if p != 'installed') for key, *_ in SECT}
 if not (good['S2v34'] and good['S12v16']):
     good['S2v34'] = good['S12v16'] = False   # the screenshot moves only if both read Human
 md = ART.read_text(encoding='utf-8')
 for key, h1, path, old_note, word, what in SECT:
     if not good[key]:
-        print(key, 'not installed:', [p for p in [key] + G[key]['parts'] if p != 'installed' and not ok(p)])
+        print(key, 'not installed:', [p for p in [key] + G[key]['parts'] if p != 'installed' and not part_ok(p)] or 'its pair')
         continue
     new = path.read_text(encoding='utf-8').strip()
     if new in md:

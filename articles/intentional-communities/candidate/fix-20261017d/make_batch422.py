@@ -123,7 +123,33 @@ for s in ('s13', 's15', 's16'):
     gate[k] = {'kind': 'section', 'parts': ['installed'] + sorted(x for x in gate if x.startswith(k + '-')), 'repeats': 0,
                'repeats_note': 'nothing added: padding, question-answer pairs and capitals out, the published bottlenecks anchor back '
                                '(fix-20261017d/tighten-changes.json)'}
-for k in gate:
+# Section 2 (Joel's 47.5 and 46 a): v3.4 read AI whole in 421g (three AI windows), though each of its new paragraphs read Human
+# alone and with its neighbor. One change at a time now: a is v3.2 with his P2 only (the screenshot stays in section 12); b is his
+# P2 and the anomie paragraph, without the screenshot and caption. Their paragraphs read Human in 421g (b421/b421-results.json), the
+# same texts (asserted), so only the sections go to Pangram, and a's P2 with the short Google Trends paragraph after it.
+G421 = json.loads((HERE / 'b421' / 'GATE.json').read_text(encoding='utf-8'))
+D421 = json.loads((HERE / 'b421' / 'drafts.json').read_text(encoding='utf-8'))
+H2 = '# Communes Are Hot Again'
+for k in ('S2v34-P2', 'S2v34-A46', 'S2v34-A46+next'):
+    gate[k] = dict(G421[k], read='batch 421g (fix-20261017d/b421/b421-results.json)')
+for key, f, parts in (('S2v34a', 's2-v34a.md', ['installed', 'S2v34-P2']),
+                      ('S2v34b', 's2-v34b.md', ['installed', 'S2v34-A46', 'S2v34-A46+next', 'S2v34-P2'])):
+    md = (HERE / f).read_text(encoding='utf-8')
+    hp = [(h, p) for h, p, _ in paras(md)]
+    ps = [p for _, p in hp]
+    i = ps.index(D421['S2v34-P2'])
+    if key == 'S2v34b':
+        j = ps.index(D421['S2v34-A46'])
+        assert ps[j] + '\n\n' + ps[j + 1] == D421['S2v34-A46+next'] and hp[j][0] == hp[j + 1][0]
+    else:
+        assert len(ps[i + 1].split()) < 50 and hp[i][0] == hp[i + 1][0]
+        drafts[key + '-P2+next'] = ps[i] + '\n\n' + ps[i + 1]
+        gate[key + '-P2+next'] = dict(G421['S2v34-P2'])
+        parts = parts + [key + '-P2+next']
+    drafts[key] = section(md, H2)
+    gate[key] = {'kind': 'section', 'parts': parts, 'repeats': 0,
+                 'repeats_note': 'fix-20261017d/DISPOSITIONS.md (REPEATS-s2.md, read on v3.4, which has all of this and the caption too)'}
+for k in drafts:
     gate[k]['words'] = len(drafts[k].split())
 seen, aliases = {}, {}
 for k in list(drafts):
