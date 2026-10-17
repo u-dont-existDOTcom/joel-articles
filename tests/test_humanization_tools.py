@@ -1306,3 +1306,26 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn('know what? doesn\'t seem to follow', t)
         self.assertIn('picks up something from a paragraph or two back', t)
         self.assertIn('add one line that starts "Paused:"', t)
+
+
+class PangramRoundBuildsEveryCheckAtOnce(unittest.TestCase):
+    """2026-10-17 (turn 64, E181): turn 63 split each candidate's checks over separate rounds (alone first, then
+    the pair and the section) and wrote each round's files by hand; Joel: "idk why that had to take 38 mins tho".
+    pangram_round.py builds the paragraph alone, the pair with the paragraph before and the section, for every
+    candidate, in one batch."""
+
+    def test_each_candidate_is_checked_alone_after_its_neighbor_and_in_its_section(self):
+        import pangram_round
+        with tempfile.TemporaryDirectory() as d:
+            art = pathlib.Path(d) / 'a.md'
+            art.write_text('# Earlier\n\nOld text.\n\n# The Section\n\n<!-- a note -->\n\nFirst one.\n\nSecond one.\n', encoding='utf-8')
+            c = pathlib.Path(d) / 'p3-x.txt'
+            c.write_text('A new one.\n', encoding='utf-8')
+            drafts, gate, n = pangram_round.build(str(art), 'The Section', 'r1', [(str(c), 'S B')], 'P1 S | P2 S', 'note')
+        self.assertEqual(n, 3)
+        self.assertEqual(drafts['r1_p3x'], 'A new one.')
+        self.assertEqual(drafts['r1_pairp3x'], 'Second one.\n\nA new one.')
+        self.assertEqual(drafts['r1_secp3x'], '# The Section\n\nFirst one.\n\nSecond one.\n\nA new one.')
+        self.assertEqual(list(drafts), ['r1_p3x', 'r1_pairp3x', 'r1_secp3x'])
+        self.assertTrue(all(g['kind'] == 'screen' for g in gate.values()))
+        self.assertEqual(gate['r1_secp3x']['march'], ['P1 S | P2 S | P3 S B'])

@@ -852,3 +852,14 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His merge of this turn's pull request.
 2. Group 11 of The Inner Guide Comes Later (`tools/targets/t56-ig11.json`: manipulators who present as gifted but wounded, flawed but honest; compassion excusing what your evidence knows; an admitted flaw is evidence it exists now; self-awareness isn't correction), the E179 way, installed only when each paragraph reads Human alone (E180).
+
+## Turn 64 (2026-10-17, from 01:15 UTC): "idk why that had to take 38 mins tho"
+
+- **His message:** turn 63 took 38 minutes for one paragraph, and the process seemed to be getting slower.
+- **Where the time went (E181):** 6 minutes of setup; 20 on five rounds (two on drafts in the shape that reads AI, a separate round for the pair and h1 checks, a 50-second push before each); 10 waiting on reviews started after the last round; 4 on records. Now: the first drafts use the moves that have read Human, one round checks each candidate alone, beside the paragraph before and in the section (`tools/humanization/pangram_round.py`), and the reviews start on each candidate the moment it reads Human alone.
+- **In, the new way:** P11 (group 11: manipulators too smart to act perfect; compassion explaining away what you've seen; an admitted flaw is still a problem now). The first round's two of four read Human alone, beside P10 and in the h1 (0.059, high); the grounding found p11-b OK. Record: `t64-guide/REVIEWS.md`.
+
+### Next
+
+1. His merge of this turn's pull request.
+2. Group 12 of The Inner Guide Comes Later (`tools/targets/t56-ig12.json`: love bombing; what the affection is doing to your judgment; don't argue with the feeling, slow down and verify), the E181 way.

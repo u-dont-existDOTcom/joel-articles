@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-17 (turn 63). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-17 (turn 64). **One open question (31).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,21 +11,31 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 31. The first sentence of your P5 of The Inner Guide Comes Later
+
+> The Guide doesn't need to know everything for sure (that would be an OCD Guide, and then you'd need a Guide for the OCD Guide). It chooses the next sane step that fits your values based on the info available, ...
+
+Three of the last five cold reads paused at its first sentence, coming right after P4, which ends "I think it just wants to know they're coming back." One called it a jump ("know what?") until the second sentence; the other two settled it on their own. Turn 62's two reads didn't pause. They're your words, so I haven't touched them.
+- **A. Leave it** (the default).
+- **B. Your words**, if you'd like a bridge from P4.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #185 (turn 63)
+### 🟠 Merge pull request #PRNUM (turn 64)
 
-P10 of The Inner Guide Comes Later; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+P11 of The Inner Guide Comes Later, and the faster process; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-17 01:15 UTC
+
+- "ok idk why that had to take 38 mins tho, at this rate we will never be done. the point of this was that you would learn to do this better and quicker but it seems like it's getting slower": lesson E181. Turn 63's time went to two rounds of drafts in a shape that reads AI, a separate round for the pair and section checks, and reviews started only after the last round. Now the first drafts use what has read Human, one round checks everything, and the reviews start the moment a draft reads Human alone. P11 went in that way, on its first round (Human alone 0.19, https://www.pangram.com/history/f19349b0-44d8-4373-b09a-3a6a8c192c19; the section Human Written 0.059, high, https://www.pangram.com/history/b4b14a00-85e5-4819-a1b6-4c3db7387316).
 
 ### 🟢 2026-10-17 00:21 UTC
 
@@ -174,9 +184,9 @@ P10 of The Inner Guide Comes Later; the link is in my message. About a minute: c
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: The Inner Guide Comes Later, group 11
+### 🔵 Next: The Inner Guide Comes Later, group 12
 
-P10 went in this turn. Next: the guide's manipulators who are too smart to look perfect (gifted but wounded, flawed but honest), so every warning about them gets absorbed; the Protector noticing when compassion starts excusing what your evidence knows; an admitted flaw as evidence it exists now; self-awareness isn't correction. If nothing changes, I draft it the E179 way, and it goes in only when each paragraph reads Human alone.
+P11 went in this turn. Next: the guide's love bombing (not just too much affection; ask what it's doing to your judgment; private attention or specialness making contrary evidence disappear; don't argue with the feeling, slow down and verify). If nothing changes, I draft it the E181 way, and it goes in only when it reads Human alone.
 
 ### 🔵 Saved for when Altered States is humanized
 
