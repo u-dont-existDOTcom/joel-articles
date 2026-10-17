@@ -36,8 +36,10 @@ def section(h1):
 S4 = section('# The Four Parts That Have to Pl/ork Together')
 OLD4 = 'The first three parts are the inside of the container, and this container is what gives those a stable place to manifest.'
 NEW4 = OLD4 + " It's the practical logistical foundation that gets built once the architects can work well together."
-assert S4.count(OLD4) == 1
-(HERE / 's4-v11.4.md').write_text(S4.replace(OLD4, NEW4) + '\n', encoding='utf-8')
+# after the install (fix-20261017/install_20261017.py) the article holds the new text, and the file written before stays
+if NEW4 not in S4:
+    assert S4.count(OLD4) == 1
+    (HERE / 's4-v11.4.md').write_text(S4.replace(OLD4, NEW4) + '\n', encoding='utf-8')
 
 S12 = section('# The Math of Absorption, and Who This Isn’t For')
 OLD12 = "Instead we optimize to fit the career market with all the little energy we've got."
@@ -57,21 +59,25 @@ NOTE = ('<!-- IMAGE %s : a screenshot of the opening of PsyPost\'s write-up of t
         'and broken, people line up their worldviews more selectively with the people who help them reach their goals; published '
         'in Social Psychological and Personality Science. -->\n<!-- The screenshot is Joel\'s, sent 2026-10-17 13:11 '
         '(candidate/images/psypost-relational-mobility.png); the Substack image goes in when he uploads it. -->' % IMG)
-assert S12.count(OLD12) == 1
+installed12 = NEWP in S12
+assert installed12 or S12.count(OLD12) == 1
 # Both cold reads of a paragraph of its own (SENSE-s12.md, SENSE-s12b.md) couldn't see why the study was there, and the second
 # found that it cut Joel's "So then a lot of people end up thinking they aren't "good enough" for community" off from what it
 # follows. As the end of his P2, the study follows "Instead we optimize to fit the career market", and his "So then" follows
 # it: people pull away from whoever isn't useful to them, so people get labeled not good enough.
-(HERE / 's12-v14.md').write_text(S12.replace(OLD12, OLD12 + ' ' + NEWP + '\n\n' + NOTE) + '\n', encoding='utf-8')
+if not installed12:
+    (HERE / 's12-v14.md').write_text(S12.replace(OLD12, OLD12 + ' ' + NEWP + '\n\n' + NOTE) + '\n', encoding='utf-8')
 A1 = art.index('# The New Age May Dawn Suddenly')
 S1 = art[:art.index('<!-- CANDIDATE: section 2')].strip()
 OLD1, NEW1 = ("It's the sort of thing that doesn't make it into the history books.",
               "That's the sort of thing that doesn't make it into the history books.")
-assert S1.count(OLD1) == 1
-(HERE / 's1-swept.md').write_text(S1.replace(OLD1, NEW1) + '\n', encoding='utf-8')
+if NEW1 not in S1:
+    assert S1.count(OLD1) == 1
+    (HERE / 's1-swept.md').write_text(S1.replace(OLD1, NEW1) + '\n', encoding='utf-8')
 S8 = section('# The Grown Children Get the Final Review')
 OLD8, NEW8 = ("Older kids can't be allowed to quietly boss the younger ones around there.",
               "Older kids can't be allowed to boss the younger ones around there.")
-assert S8.count(OLD8) == 1
-(HERE / 's8-v30.md').write_text(S8.replace(OLD8, NEW8) + '\n', encoding='utf-8')
+if NEW8 not in S8:
+    assert S8.count(OLD8) == 1
+    (HERE / 's8-v30.md').write_text(S8.replace(OLD8, NEW8) + '\n', encoding='utf-8')
 print('wrote s4-v11.4.md, s12-v14.md, s1-swept.md and s8-v30.md')
