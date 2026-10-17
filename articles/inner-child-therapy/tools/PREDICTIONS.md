@@ -1313,15 +1313,27 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12b (1182 words) [t65a_secp12b], a screen | Human, low (my call) | (pending) | |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12c (1188 words) [t65a_secp12c], a screen | Human, low (my call) | (pending) | |
 | 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12d (1179 words) [t65a_secp12d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P12 (group 12), p12e alone (73 words) [t65b_p12e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P12 (group 12), p12f alone (65 words) [t65b_p12f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P12 (group 12), p12g alone (74 words) [t65b_p12g], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P12 (group 12), p12h alone (78 words) [t65b_p12h], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P11+P12, with p12e (171 words) [t65b_pairp12e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P11+P12, with p12f (163 words) [t65b_pairp12f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P11+P12, with p12g (172 words) [t65b_pairp12g], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P11+P12, with p12h (176 words) [t65b_pairp12h], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12e (1183 words) [t65b_secp12e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12f (1175 words) [t65b_secp12f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12g (1184 words) [t65b_secp12g], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12h (1188 words) [t65b_secp12h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12 (group 12), p12e alone (73 words) [t65b_p12e], a screen | Human, low (my call) | AI Generated (0.94, low; 78); 02:26:02 UTC, https://www.pangram.com/history/f70dd5da-18b4-4e6e-800a-1b6752249294 | miss |
+| 2026-10-17 (turn 65) | P12 (group 12), p12f alone (65 words) [t65b_p12f], a screen | Human, low (my call) | Human Written (0.105, low; 70); 02:26:13 UTC, https://www.pangram.com/history/c70cc7b1-d610-4d01-9070-025a0a50650f | hit |
+| 2026-10-17 (turn 65) | P12 (group 12), p12g alone (74 words) [t65b_p12g], a screen | Human, low (my call) | AI Generated (0.78, low; 79); 02:26:23 UTC, https://www.pangram.com/history/bc54bb80-6628-4075-86e9-ccabd1b797a3 | miss |
+| 2026-10-17 (turn 65) | P12 (group 12), p12h alone (78 words) [t65b_p12h], a screen | Human, low (my call) | AI Generated (0.51, low; 82); 02:26:34 UTC, https://www.pangram.com/history/d7e772e7-12a8-440c-ac35-60bbb9f3de19 | miss |
+| 2026-10-17 (turn 65) | P11+P12, with p12e (171 words) [t65b_pairp12e], a screen | Human, low (my call) | AI Generated (0.91, high; 181); 02:26:44 UTC, https://www.pangram.com/history/8410b4a1-0d65-4adc-b852-4898a27aa821 | miss |
+| 2026-10-17 (turn 65) | P11+P12, with p12f (163 words) [t65b_pairp12f], a screen | Human, low (my call) | AI Generated (0.77, high; 173); 02:26:55 UTC, https://www.pangram.com/history/233b348b-78cc-44de-be3c-584dd6c0d512 | miss |
+| 2026-10-17 (turn 65) | P11+P12, with p12g (172 words) [t65b_pairp12g], a screen | Human, low (my call) | AI Generated (0.95, high; 182); 02:27:05 UTC, https://www.pangram.com/history/7de9211d-a5cf-4401-8b78-4fae6b68b46d | miss |
+| 2026-10-17 (turn 65) | P11+P12, with p12h (176 words) [t65b_pairp12h], a screen | Human, low (my call) | AI Generated (0.66, high; 185); 02:27:16 UTC, https://www.pangram.com/history/146688a9-36e9-4878-ae1d-c4dfcb913aac | miss |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12e (1183 words) [t65b_secp12e], a screen | Human, low (my call) | Mostly Human Written (0.11; 1242): Human for 1173, an AI window of 69 (medium) on P12; 02:27:27 UTC, https://www.pangram.com/history/e2d96b30-998b-4a39-9aa0-9e443029c66c | miss |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12f (1175 words) [t65b_secp12f], a screen | Human, low (my call) | Human Written (0.065, high; 1234), one Human window; 02:27:38 UTC, https://www.pangram.com/history/5e9938ff-c540-4696-ba1c-cfc20d229c46 | hit |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12g (1184 words) [t65b_secp12g], a screen | Human, low (my call) | Human Written (0.089, high; 1243), one Human window; 02:27:49 UTC, https://www.pangram.com/history/465551fe-6d52-4646-85cd-628f69ae949b | hit |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P12 = p12h (1188 words) [t65b_secp12h], a screen | Human, low (my call) | Human Written (0.09, high; 1246), one Human window; 02:28:01 UTC, https://www.pangram.com/history/aac83a3e-1426-43cf-baeb-b40c93cc27e4 | hit |
+| 2026-10-17 (turn 65) | P13 (group 13), p13a alone (53 words) [t65c_p13a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13 (group 13), p13b alone (53 words) [t65c_p13b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13 (group 13), p13c alone (51 words) [t65c_p13c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P13 (group 13), p13d alone (52 words) [t65c_p13d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12+P13, with p13a (118 words) [t65c_pairp13a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12+P13, with p13b (118 words) [t65c_pairp13b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12+P13, with p13c (116 words) [t65c_pairp13c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P12+P13, with p13d (117 words) [t65c_pairp13d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P13 = p13a (1228 words) [t65c_secp13a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P13 = p13b (1228 words) [t65c_secp13b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P13 = p13c (1226 words) [t65c_secp13c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | The Inner Guide Comes Later with P13 = p13d (1227 words) [t65c_secp13d], a screen | Human, low (my call) | (pending) | |
