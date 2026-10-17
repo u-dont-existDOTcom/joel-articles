@@ -84,12 +84,14 @@ def main(argv=None):
         else:
             what = f'{a.label}, {stem} alone ({words} words)'
         rows.append(f'| {a.date} | {what} [{k}], a screen | {a.prediction} | (pending) | |')
-    p = pathlib.Path(a.predictions)
-    p.write_text(p.read_text(encoding='utf-8').rstrip('\n') + '\n' + '\n'.join(rows) + '\n', encoding='utf-8')
     cmd = [sys.executable, str(ROOT / 'tools/humanization/pangram_gate.py'), str(out.with_name(out.name + '-drafts.json')),
            str(out.with_name(out.name + '-gate.json')), str(out.with_name(out.name + '.js')), '--name', a.round,
            '--lint-article', a.article] + list(drafts)
-    return subprocess.run(cmd).returncode
+    rc = subprocess.run(cmd).returncode
+    if rc == 0:  # the prediction rows go in only for a batch the gate wrote
+        p = pathlib.Path(a.predictions)
+        p.write_text(p.read_text(encoding='utf-8').rstrip('\n') + '\n' + '\n'.join(rows) + '\n', encoding='utf-8')
+    return rc
 
 
 if __name__ == '__main__':
