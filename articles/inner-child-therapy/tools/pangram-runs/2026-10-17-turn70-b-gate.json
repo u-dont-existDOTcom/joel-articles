@@ -1,0 +1,65 @@
+{
+ "t70b_secst": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | his P1: B S S B B B S B, his P2: S B S S S, his P5: S S B B S (question 44)"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
+  "note": "t70b: # Speak Toward What You Are Building as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t70b_shb": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70b_shb.md",
+  "note": "t70b: sh-b, alone."
+ },
+ "t70b_she": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70b_she.md",
+  "note": "t70b: sh-e, alone."
+ },
+ "t70b_secshb": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: sh-b: S S S B S S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
+  "note": "t70b: # When the Practice Feels Real but Stays Shallow as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t70b_fg2c": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70b_fg2c.md",
+  "note": "t70b: fg2-c, alone."
+ },
+ "t70b_fg2e": {
+  "kind": "screen",
+  "march": [
+   "S S S B S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70b_fg2e.md",
+  "note": "t70b: fg2-e, alone."
+ },
+ "t70b_secfgc": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: fg2-c: S S B S, fg3-a: S S S B S S S S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
+  "note": "t70b: # How to Forgive Without Forgetting as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "67eafa0f5a93a6083854dd15ca337f448cd4653eae194ae9d4ad650712ca205d",
+          "sha256": "52e815b416c555a22233642593c85682b2aaa21be2c0e98ca6a65a8ceea471fa",
           "role": "detector_prediction_log"
         },
         {
@@ -16614,12 +16614,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t70-guide/HIS.json",
-          "sha256": "5fb73a461a59327649c7e87abf3589213fde7e9221e16e8baf84519c59225d0b",
+          "sha256": "23aaede622155cb2dbc061f422b74e21ffee256b55e6588ea7ccdd0e35c0b92a",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t70-guide/MARCH.json",
-          "sha256": "f2ca5798dfecb6bf9c3292262622eb8a8c3fa1ce79bb7df61d19bc374eaa6f67",
+          "sha256": "b70bda2572415c249e1d38b6e74464ec16992c2ad326bf662ce68e8035e42cf1",
           "role": "humanization_working_record"
         },
         {
@@ -16689,7 +16689,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t70-guide/t70.py",
-          "sha256": "43a02766e0592be72808d21afbcbe5f326ee3ee041c1f45163b22d20f4f41c33",
+          "sha256": "45dcce63f98c1c66623d1e39d88999d9b4283d88805722fb15f3c8a4fc8c06bd",
           "role": "humanization_working_record"
         },
         {
@@ -16710,6 +16710,56 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn70-a.js",
           "sha256": "b8c77629919b1b4dbe6e6bfdf20a3058c7d8e0b0eee18fa6dcfb788b204ac4fa",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t70-guide/READ-a.json",
+          "sha256": "c16a5ae506d4b6f2497907fcf3b4d4a17e6633f9df7baed3140b2b33b540fe86",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t70-guide/SPEC-b.json",
+          "sha256": "da469936cc3f458a6edff0fce1c9bc0d09e9b6f759671cb47aa19fbbe9cea9ca",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t70-guide/drafts/fg2-c.txt",
+          "sha256": "3face52cd6ba3bd982df4a612495f32bdf33f122abc42feed41120ae56e24a07",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t70-guide/drafts/fg2-e.txt",
+          "sha256": "3a43477dbd0bbd11d4420c471eaad8db1d201f9c35bcd0b53dd68ff18e3461f2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t70-guide/drafts/sh-b.txt",
+          "sha256": "d62d5ce88f7d285b8f62a6b8fab0f39a91cf3b7847a52e9de65f44220994e373",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t70-guide/drafts/sh-e.txt",
+          "sha256": "6f97bc804a999319515f4d6f4a97f25995196879e6435fffd2dad6c7a4d42783",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn70-b-drafts.json",
+          "sha256": "0c883915935d144be4618065a6f539001bda4229b51adcbc7bc09f9af228e906",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn70-b-gate.json",
+          "sha256": "a42eae53b331a233b8cef80aef4649cf0dfe763e24f4c2ba34b8b7981397991f",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn70-b-read.js",
+          "sha256": "87a81591f03dcc64e4512ff5e167520da4b9b6e8938321aa651493134a29ae4f",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn70-b.js",
+          "sha256": "4d0d3b30a6c8af8b55ce5764914978a5689024721f0d1553baba2ea7e7471877",
           "role": "detector_check_texts"
         }
       ]

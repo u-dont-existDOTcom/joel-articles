@@ -21,7 +21,7 @@ A CLEAR only means no mechanical tells were found. The judgment checks
 R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
 E125 (2026-10-03): a list of three or more is a REVIEW, and two in one paragraph are a FAIL.
 E126 (2026-10-03 01:06): the fix is to drop the item that matters least, or split the list when every item is needed.
-O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tail on a finished claim is a REVIEW.
+O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tail on a finished claim fails since E190 (2026-10-17; a REVIEW before).
 H1 and O10 (2026-10-06): headings are text. An x-not-y heading ("The Medicine Part, Without Pretending It Isn't There")
 fails, and so does an opener that points at nothing ("Key here is that…"); a pointer word opening the first paragraph
 under a heading ("This", "It", "The other") is a REVIEW. Markdown headings only (lines starting with #).
@@ -226,9 +226,11 @@ ENOUGH_PAIR = r"\b\w+ enough to \w+[^.?!;]{0,60}?\b(?:and|but|yet|while)\b[^.?!;
 SMUGGLE_FIG = (r"\b(?:not|never|rather than|instead of|without|no)\s+(?:\w+\s+){0,2}?smuggl\w*"
                r"|\bsmuggl\w*\s+(?:\w+\s+){0,4}?(?:in|into)\b(?!\s+(?:the\s+)?(?:country|border|port|prison|jail))")
 SMUGGLE = r"\bsmuggl\w*"
-# O9: a "not Y" tail on a finished claim (Joel, same message: "And it always wants to add a 'not Y' part"). REVIEW: say
-# the claim or the reason plainly; keep a contrast only when the paragraph needs the other side said. Four words or more
-# must come before the comma or dash, so "No, not today." stays out.
+# O9: a "not Y" tail on a finished claim (Joel, same message: "And it always wants to add a 'not Y' part"). A FAIL since
+# E190 (Joel, 2026-10-17 22:59: "that pollished ai quip pattern where it's like "that's X, not Y""; his fix said both:
+# "even if it was also a learning experience"): in the single-paragraph screens of 2026-10-14 to 10-17, 1 of the 19 with
+# one read Human (5%), against 171 of the 692 without (25%). Say the claim plainly, or say both sides as his fix does.
+# Four words or more must come before the comma or dash, so "No, not today." stays out.
 NOT_TAIL = re.compile(r"^(?P<head>.*\w.*?)(?:,|\s[—–]|\s--)\s+(?:and\s+)?(?:not|rather than|instead of)\s+(?:just\s+|only\s+|merely\s+|simply\s+)?[^,;:.!?]{2,90}[.!?\"”’)]*\s*$", re.I)
 
 # O1 (Joel, 2026-09-28; scoped 2026-10-07 15:44): "that was regarding abstract subjects. "the weather doesn't get to
@@ -1071,7 +1073,7 @@ def main():
                 flag('FAIL', 'O10 an opener that points at nothing (Joel 2026-10-06: "\'Key here\' can\'t be how you open a section. that\'s referring to something. Key where? what?"): start with the claim itself, as his "Most of the writing on communities hasn\'t caught up with psychedelics."', s)
             m9 = NOT_TAIL.match(n.strip())
             if m9 and len(words(m9.group('head'))) >= 4:
-                flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said', s)
+                flag('FAIL', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"; 2026-10-17, E190: "that pollished ai quip pattern where it\'s like "that\'s X, not Y""): say the claim plainly, or say both sides, as his "it gets called harm, even if it was also a learning experience"', s)
             if NOT_BUT_STILL.search(n):
                 flag('REVIEW', 'O18 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'"): say the claim plainly; keep the contrast only when the reader needs the other side said', s)
             elif nxt is not None and NOT_SENT.search(n) and STILL_NEXT.match(nxt.strip()) and mine_s[i + 1]:
