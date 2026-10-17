@@ -4,6 +4,8 @@ and H2-P2 to H2-P4 read 0.92 alone, though every paragraph and pair read Human. 
 116 to 222 words, about three paragraphs here, so a sliding run of three paragraphs (with the headings and the caption between
 them) finds them for a few credits, and a draft goes to a whole-section screen when every run reads Human.
 Usage (from candidate/): python3 s16/slide.py NNN NAME SCRIPT [ARG ...] --draft vNN.md --march MAP.json [--only H2,H3]
+  [--changed H2-P3,H2-P4]   (only the runs that hold a changed paragraph)  [--pairs]  (and each changed paragraph alone
+  and with each neighbor)
 MAP.json: {"H2-P3": "H2-P3e", ...}, the march key of each paragraph that differs from the plain id (rounds r2 to r22).
 Writes s16/bNNN/ (drafts.json, GATE.json, the in-page batch and bNNN-items.json)."""
 import hashlib, json, pathlib, re, subprocess, sys, tempfile
@@ -21,6 +23,7 @@ ARGS = [x for x in a[3:a.index('--draft')]]
 DRAFT = opt('--draft')
 MAP = json.loads(pathlib.Path(opt('--march')).read_text()) if opt('--march') else {}
 ONLY = opt('--only').split(',') if opt('--only') else None
+CHANGED = opt('--changed').split(',') if opt('--changed') else None
 ROUNDS = ['review-r2', 'review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 'review-r6', 'review-r8', 'review-r9',
           'review-r10', 'review-r11', 'review-r12', 'review-r14', 'review-r15', 'review-r16', 'review-r17', 'review-r18',
           'review-r20', 'review-r21', 'review-r22'] + sorted(p.name for p in S16.glob('review-r2[3-9]') if (p / 'march-ids.json').exists())
@@ -78,6 +81,8 @@ for w in range(len(pidx) - 2):
     ps = [i for k, i, _ in part if k == 'p']
     if ONLY and not any(p.split('-')[0] in ONLY for p in ps):
         continue
+    if CHANGED and not any(p in CHANGED for p in ps):
+        continue      # a run with no changed paragraph has its screen already
     same = ps[0].split('-')[0] == ps[-1].split('-')[0]
     key = '%s-%s-%s' % (NAME, ps[0], ps[-1].split('-')[1] if same else ps[-1])
     drafts[key] = '\n\n'.join(plain(t.lstrip('#').strip()) if k == 'h' else plain(t) for k, _, t in part)
@@ -86,6 +91,25 @@ for w in range(len(pidx) - 2):
     gate[key] = {'kind': 'screen', 'march': [x for p in ps for x in M[p]], 'march_note': 'rounds r2 to r22, as in 346g',
                  'lint': lint('\n\n'.join(t for k, i, t in seq if k == 'p' and i.split('-')[0] in subs)),
                  'lint_note': 'the subsections the run touches: ' + ', '.join(subs), 'words': len(drafts[key].split())}
+if CHANGED and '--pairs' in a:
+    # each changed paragraph alone (50 words or more) and with each neighbor under its heading, for paragraphs_alone.py
+    T = {i: t for k, i, t in seq if k == 'p'}
+    for p in CHANGED:
+        if len(plain(T[p]).split()) >= 50:
+            key = '%s-%s' % (NAME, p)
+            drafts[key] = plain(T[p])
+            gate[key] = {'kind': 'screen', 'march': M[p], 'march_note': 'its own march', 'words': len(drafts[key].split()),
+                         'lint': lint('\n\n'.join(t for k, i, t in seq if k == 'p' and i.split('-')[0] == p.split('-')[0]))}
+        j = PARAS.index(p)
+        for q in (PARAS[j - 1] if j else None, PARAS[j + 1] if j + 1 < len(PARAS) else None):
+            if q and q.split('-')[0] == p.split('-')[0]:
+                pr = sorted([p, q], key=PARAS.index)
+                key = '%s-%s+%s' % (NAME, pr[0], pr[1].split('-')[1])
+                if key in drafts:
+                    continue
+                drafts[key] = plain(T[pr[0]]) + '\n\n' + plain(T[pr[1]])
+                gate[key] = {'kind': 'screen', 'march': M[pr[0]] + M[pr[1]], 'march_note': 'the pair', 'words': len(drafts[key].split()),
+                             'lint': lint('\n\n'.join(t for k, i, t in seq if k == 'p' and i.split('-')[0] == p.split('-')[0]))}
 out = S16 / ('b' + NNN)
 out.mkdir(exist_ok=True)
 (out / 'drafts.json').write_text(json.dumps(drafts, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
