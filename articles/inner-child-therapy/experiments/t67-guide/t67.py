@@ -150,7 +150,12 @@ def batch(rnd, spec_file):
                        'note': 't67%s: my own draft %s (E186: Joel\'s 14:01 lessons), alone.' % (rnd, it['draft'])}
         elif 'blocks' in it:   # a section put together: a heading, G:stem (t65-guide), J:stem (his, here), D:stem (drafts/)
             text = '\n\n'.join(block(b) for b in it['blocks'])
-            gate[k] = {'kind': 'screen', 'march': [it['march']], 'lint': 'REVIEW', 'lint_article': str(CAND),
+            # the settled parts (G: read Human alone, J: his) count as installed for the linter; only my new drafts (D:) are
+            # linted as mine
+            la = CAND.with_name('lint-%s.md' % k)
+            la.write_text(md['candidate'] + '\n\n' + '\n\n'.join(block(b) for b in it['blocks'] if b[:2] in ('G:', 'J:')),
+                          encoding='utf-8')
+            gate[k] = {'kind': 'screen', 'march': [it['march']], 'lint': 'REVIEW', 'lint_article': str(la),
                        'note': 't67%s: %s, put together: %s.' % (rnd, it['blocks'][0], ', '.join(it['blocks'][1:]))}
         elif 'para' in it:     # one paragraph of a section as it would be installed (his, with a typo fixed)
             text = section(md['candidate'], it['para'][0]).split('\n\n')[it['para'][1]]
