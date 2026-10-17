@@ -1526,55 +1526,124 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | Simple Practices, One Intention P2, sp6p2g alone (56 words) [t65r_sp6p2g], a screen | Human, low (my call) | AI Generated (0.77, Low; 58); 04:38:24 UTC, https://www.pangram.com/history/0a528f37-cffe-49be-b89a-3c952cfa7d34 | miss |
 | 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with P2 = sp6p2f (131 words) [t65r_secsp6p2f], a screen | Human, low (my call) | AI Generated (1, Medium; 131); 04:38:36 UTC, https://www.pangram.com/history/2beb3376-0c31-4b53-aa84-a2dc7cdc98ab | miss |
 | 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with P2 = sp6p2g (126 words) [t65r_secsp6p2g], a screen | Human, low (my call) | AI Generated (1, Medium; 128); 04:38:46 UTC, https://www.pangram.com/history/65ed6c25-fa14-4bab-87b5-1e3c591fdecd | miss |
-| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3f alone (60 words) [t65s_sp1p3f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3h alone (57 words) [t65s_sp1p3h], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P2+P3, with sp1p3f (123 words) [t65s_pairsp1p3f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | P2+P3, with sp1p3h (120 words) [t65s_pairsp1p3h], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3f (195 words) [t65s_secsp1p3f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3h (192 words) [t65s_secsp1p3h], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P2, sp3p2d2 alone (70 words) [t65s_sp3p2d2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P2, sp3p2d4 alone (68 words) [t65s_sp3p2d4], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P2 = sp3p2d2 (143 words) [t65s_secsp3p2d2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P2 = sp3p2d4 (141 words) [t65s_secsp3p2d4], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand, sp4e alone (80 words) [t65s_sp4e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand, sp4f alone (67 words) [t65s_sp4f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand, sp4g alone (65 words) [t65s_sp4g], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4e (85 words) [t65s_secsp4e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4f (72 words) [t65s_secsp4f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4g (70 words) [t65s_secsp4g], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b (138 words) [t65s_secsp5p2b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2b2 alone (54 words) [t65s_sp5p2b2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2b3 alone (59 words) [t65s_sp5p2b3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b2 (135 words) [t65s_secsp5p2b2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b3 (140 words) [t65s_secsp5p2b3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1a2 alone (80 words) [t65s_sp7p1a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1b2 alone (77 words) [t65s_sp7p1b2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1a2 (84 words) [t65s_secsp7p1a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1b2 (81 words) [t65s_secsp7p1b2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2a alone (61 words) [t65s_sp7p2a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2b alone (62 words) [t65s_sp7p2b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2c2 alone (59 words) [t65s_sp7p2c2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2a (142 words) [t65s_secsp7p2a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2b (143 words) [t65s_secsp7p2b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2c2 (140 words) [t65s_secsp7p2c2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9a2 alone (78 words) [t65s_sp9a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9b2 alone (69 words) [t65s_sp9b2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9c2 alone (64 words) [t65s_sp9c2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9a2 (86 words) [t65s_secsp9a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9b2 (77 words) [t65s_secsp9b2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9c2 (72 words) [t65s_secsp9c2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p1a alone (50 words) [t65s_sp8p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p1b alone (52 words) [t65s_sp8p1b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p1c alone (50 words) [t65s_sp8p1c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p2a alone (68 words) [t65s_sp8p2a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p2b alone (69 words) [t65s_sp8p2b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p3a alone (70 words) [t65s_sp8p3a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p3b alone (76 words) [t65s_sp8p3b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p4a alone (63 words) [t65s_sp8p4a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p4b alone (60 words) [t65s_sp8p4b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p5a alone (79 words) [t65s_sp8p5a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p5b alone (80 words) [t65s_sp8p5b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1f alone (79 words) [t65s_sp6p1f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1h alone (56 words) [t65s_sp6p1h], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, One Intention P2, sp6p2h alone (62 words) [t65s_sp6p2h], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Simple Practices, One Intention P2, sp6p2i alone (61 words) [t65s_sp6p2i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3f alone (60 words) [t65s_sp1p3f], a screen | Human, low (my call) | AI Generated (0.8, Low; 62); 04:48:13 UTC, https://www.pangram.com/history/106d6f75-358b-4d57-99de-77abbf033498 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3h alone (57 words) [t65s_sp1p3h], a screen | Human, low (my call) | AI Generated (1, Low; 58); 04:48:24 UTC, https://www.pangram.com/history/afbe9e21-0f8b-482a-8751-951831f4386f | miss |
+| 2026-10-17 (turn 65) | P2+P3, with sp1p3f (123 words) [t65s_pairsp1p3f], a screen | Human, low (my call) | AI Generated (0.97, Medium; 130); 04:48:34 UTC, https://www.pangram.com/history/6641e05b-43cd-4b36-b299-cc5e910b98f9 | miss |
+| 2026-10-17 (turn 65) | P2+P3, with sp1p3h (120 words) [t65s_pairsp1p3h], a screen | Human, low (my call) | AI Generated (0.99, Medium; 126); 04:48:46 UTC, https://www.pangram.com/history/f3db0599-3d57-4c0b-b4f6-803617007794 | miss |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3f (195 words) [t65s_secsp1p3f], a screen | Human, low (my call) | AI Generated (0.95, High; 202); 04:48:58 UTC, https://www.pangram.com/history/aa6b5bbf-f8f9-419c-915b-8a7da057ad0e | miss |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3h (192 words) [t65s_secsp1p3h], a screen | Human, low (my call) | AI Generated (1, High; 198); 04:49:10 UTC, https://www.pangram.com/history/5d064e6b-dcd5-4398-b5f7-d5169ebde1f2 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P2, sp3p2d2 alone (70 words) [t65s_sp3p2d2], a screen | Human, low (my call) | Human Written (0.41, Low; 72); 04:49:20 UTC, https://www.pangram.com/history/ee0c8587-57ce-473c-b26a-f1e7d6236055 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, A Heart-to-Child Loop P2, sp3p2d4 alone (68 words) [t65s_sp3p2d4], a screen | Human, low (my call) | AI Generated (0.91, Low; 71); 04:49:30 UTC, https://www.pangram.com/history/aba0b499-5dd0-4835-8f03-7d238ec1eefc | miss |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P2 = sp3p2d2 (143 words) [t65s_secsp3p2d2], a screen | Human, low (my call) | Human Written (0.041, Medium; 147); 04:49:42 UTC, https://www.pangram.com/history/2f59d723-4500-47f4-b003-808c3a553b35 | hit |
+| 2026-10-17 (turn 65) | A Heart-to-Child Loop with P2 = sp3p2d4 (141 words) [t65s_secsp3p2d4], a screen | Human, low (my call) | Human Written (0.27, Medium; 146); 04:49:52 UTC, https://www.pangram.com/history/70cc6169-d694-436e-af34-f9d40142b0ea | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand, sp4e alone (80 words) [t65s_sp4e], a screen | Human, low (my call) | AI Generated (0.83, Low; 84); 04:50:04 UTC, https://www.pangram.com/history/afcaa7a1-1653-4332-b397-b8489509559d | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand, sp4f alone (67 words) [t65s_sp4f], a screen | Human, low (my call) | AI Generated (0.92, Low; 70); 04:50:16 UTC, https://www.pangram.com/history/fa03d74c-189e-449d-84e3-1f7190d0ff99 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand, sp4g alone (65 words) [t65s_sp4g], a screen | Human, low (my call) | AI Generated (0.98, Low; 70); 04:50:28 UTC, https://www.pangram.com/history/2725b8b9-cea7-47a2-a9c9-2a408e517af5 | miss |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4e (85 words) [t65s_secsp4e], a screen | Human, low (my call) | AI Generated (0.87, Low; 88); 04:50:40 UTC, https://www.pangram.com/history/e7831461-7054-4e03-a7ab-5ce04728eff0 | miss |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4f (72 words) [t65s_secsp4f], a screen | Human, low (my call) | AI Generated (0.92, Low; 74); 04:50:52 UTC, https://www.pangram.com/history/90f99165-93dc-4b28-92ab-c28263d37a17 | miss |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4g (70 words) [t65s_secsp4g], a screen | Human, low (my call) | AI Generated (0.97, Low; 74); 04:51:04 UTC, https://www.pangram.com/history/a8d07fb5-7478-448d-ba2d-b643377fe9cb | miss |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b (138 words) [t65s_secsp5p2b], a screen | Human, low (my call) | AI Generated (0.88, Medium; 144); 04:51:15 UTC, https://www.pangram.com/history/6d85d88f-3aee-4193-9f1d-89d99cf90c53 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2b2 alone (54 words) [t65s_sp5p2b2], a screen | Human, low (my call) | Human Written (0.027, Low; 58); 04:51:27 UTC, https://www.pangram.com/history/e71a5263-5ce2-4da9-b6e5-040d84338090 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2b3 alone (59 words) [t65s_sp5p2b3], a screen | Human, low (my call) | Human Written (0.017, Low; 61); 04:51:40 UTC, https://www.pangram.com/history/5cac4b33-abb8-41c4-9c2c-09dc09e763bf | hit |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b2 (135 words) [t65s_secsp5p2b2], a screen | Human, low (my call) | AI Generated (0.9, Medium; 142); 04:51:52 UTC, https://www.pangram.com/history/af2ba0ce-faba-4b52-be17-f68cd25f50f0 | miss |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P2 = sp5p2b3 (140 words) [t65s_secsp5p2b3], a screen | Human, low (my call) | AI Generated (0.78, Medium; 145); 04:52:04 UTC, https://www.pangram.com/history/23910ae1-31fd-4d66-8149-b50b2d82ecdd | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1a2 alone (80 words) [t65s_sp7p1a2], a screen | Human, low (my call) | AI Generated (0.78, Low; 81); 04:52:15 UTC, https://www.pangram.com/history/085b8c00-7124-4500-b851-11c86d707c1b | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1b2 alone (77 words) [t65s_sp7p1b2], a screen | Human, low (my call) | AI Generated (0.92, Low; 80); 04:52:28 UTC, https://www.pangram.com/history/ee34cfce-14d4-4680-851e-bb40510924d6 | miss |
+| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1a2 (84 words) [t65s_secsp7p1a2], a screen | Human, low (my call) | AI Generated (0.76, Low; 84); 04:52:39 UTC, https://www.pangram.com/history/e44aee3f-3e17-4f4d-b5fa-1171c032cb20 | miss |
+| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1b2 (81 words) [t65s_secsp7p1b2], a screen | Human, low (my call) | AI Generated (0.75, Low; 83); 04:52:52 UTC, https://www.pangram.com/history/09fb3bed-27e8-41a5-8852-3d172b31734f | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2a alone (61 words) [t65s_sp7p2a], a screen | Human, low (my call) | AI Generated (0.8, Low; 65); 04:53:03 UTC, https://www.pangram.com/history/3139e7eb-4665-4138-94ce-008cb03272ef | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2b alone (62 words) [t65s_sp7p2b], a screen | Human, low (my call) | AI Generated (1, Low; 66); 04:53:14 UTC, https://www.pangram.com/history/2dfc8e8a-e346-4168-9a18-66cc95d60285 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2c2 alone (59 words) [t65s_sp7p2c2], a screen | Human, low (my call) | AI Generated (0.99, Low; 63); 04:53:25 UTC, https://www.pangram.com/history/ed1c86aa-d3f5-4d93-b71d-d745f9e2cde6 | miss |
+| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2a (142 words) [t65s_secsp7p2a], a screen | Human, low (my call) | AI Generated (0.98, Medium; 148); 04:53:35 UTC, https://www.pangram.com/history/7c009611-5fce-49d3-9026-26804958e5ee | miss |
+| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2b (143 words) [t65s_secsp7p2b], a screen | Human, low (my call) | AI Generated (1, Medium; 149); 04:53:46 UTC, https://www.pangram.com/history/e8c14b52-9c1a-4537-bd6a-0913a8093d1c | miss |
+| 2026-10-17 (turn 65) | Just Like Me with P2 = sp7p2c2 (140 words) [t65s_secsp7p2c2], a screen | Human, low (my call) | AI Generated (1, Medium; 146); 04:53:56 UTC, https://www.pangram.com/history/f1e7a0b7-72c4-4e03-b2e8-31c31eee484b | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9a2 alone (78 words) [t65s_sp9a2], a screen | Human, low (my call) | AI Generated (0.99, Low; 82); 04:54:07 UTC, https://www.pangram.com/history/f3af875d-214d-4de1-9401-4978986b78f2 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9b2 alone (69 words) [t65s_sp9b2], a screen | Human, low (my call) | AI Generated (0.99, Low; 76); 04:54:17 UTC, https://www.pangram.com/history/3ab6ce69-dfec-4887-9d3b-3a711fc0b8b4 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9c2 alone (64 words) [t65s_sp9c2], a screen | Human, low (my call) | AI Generated (1, Low; 71); 04:54:28 UTC, https://www.pangram.com/history/de7d5033-05d1-43e0-ae4a-87d0c970d09b | miss |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9a2 (86 words) [t65s_secsp9a2], a screen | Human, low (my call) | AI Generated (0.99, Low; 89); 04:54:38 UTC, https://www.pangram.com/history/0b808f08-ebb7-44cc-a221-cd9fcf6e238e | miss |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9b2 (77 words) [t65s_secsp9b2], a screen | Human, low (my call) | AI Generated (1, Low; 83); 04:54:50 UTC, https://www.pangram.com/history/a2af220f-a276-4a52-9417-b0afa6345047 | miss |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9c2 (72 words) [t65s_secsp9c2], a screen | Human, low (my call) | AI Generated (1, Low; 78); 04:55:02 UTC, https://www.pangram.com/history/559cb343-996c-4c8c-86c1-fb3397f66c7b | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p1a alone (50 words) [t65s_sp8p1a], a screen | Human, low (my call) | AI Generated (0.71, Low; 53); 04:55:12 UTC, https://www.pangram.com/history/4bd48d55-8591-42c3-bcc2-2c7e6ff0cce6 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p1b alone (52 words) [t65s_sp8p1b], a screen | Human, low (my call) | AI Generated (1, Low; 53); 04:55:23 UTC, https://www.pangram.com/history/b9d5c261-cd64-495e-bd30-1fd1e262f66d | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p1c alone (50 words) [t65s_sp8p1c], a screen | Human, low (my call) | AI Generated (0.96, Low; 53); 04:55:34 UTC, https://www.pangram.com/history/e91f6d52-953a-4d57-8d6d-db11de4ebede | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p2a alone (68 words) [t65s_sp8p2a], a screen | Human, low (my call) | Human Written (0.022, Low; 68); 04:55:45 UTC, https://www.pangram.com/history/fac3f5f9-e305-4873-a361-993d0a416c99 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p2b alone (69 words) [t65s_sp8p2b], a screen | Human, low (my call) | Human Written (0.2, Low; 72); 04:55:57 UTC, https://www.pangram.com/history/95f70594-7350-4610-b178-3915ad2a8029 | hit |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p3a alone (70 words) [t65s_sp8p3a], a screen | Human, low (my call) | AI Detected (0.27; 81), 2 windows: AI-Generated 38 words (Low); 04:56:08 UTC, https://www.pangram.com/history/504f742d-c2c1-45cc-8b92-e59f422fbed4 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p3b alone (76 words) [t65s_sp8p3b], a screen | Human, low (my call) | AI Detected (0.25; 86), 2 windows: AI-Generated 36 words (Low); 04:56:20 UTC, https://www.pangram.com/history/964b9c34-7464-43bc-8ae6-3fe653f9e5f9 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p4a alone (63 words) [t65s_sp8p4a], a screen | Human, low (my call) | AI Generated (0.84, Low; 65); 04:56:32 UTC, https://www.pangram.com/history/05305425-9e67-45d6-8dbe-766a9fd9037e | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p4b alone (60 words) [t65s_sp8p4b], a screen | Human, low (my call) | AI Generated (0.36, Low; 61); 04:56:44 UTC, https://www.pangram.com/history/a22491e7-a4e2-4b61-9bf5-3c993e9ef25e | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p5a alone (79 words) [t65s_sp8p5a], a screen | Human, low (my call) | AI Generated (0.99, Low; 83); 04:56:55 UTC, https://www.pangram.com/history/a2af4002-699d-4fff-a85a-aa09a94adf37 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p5b alone (80 words) [t65s_sp8p5b], a screen | Human, low (my call) | AI Generated (1, Low; 83); 04:57:06 UTC, https://www.pangram.com/history/83ae978a-43cd-48b3-b9e3-a5f6a5abbe07 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1f alone (79 words) [t65s_sp6p1f], a screen | Human, low (my call) | AI Generated (0.82, Low; 84); 04:57:16 UTC, https://www.pangram.com/history/8a142138-e399-4495-9cf5-681c9158fa09 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1h alone (56 words) [t65s_sp6p1h], a screen | Human, low (my call) | AI Generated (1, Low; 58); 04:57:27 UTC, https://www.pangram.com/history/da72e144-3c7d-47a2-b6de-0af67cb316a8 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P2, sp6p2h alone (62 words) [t65s_sp6p2h], a screen | Human, low (my call) | Human Written (0.44, Low; 64); 04:57:39 UTC, https://www.pangram.com/history/099b8554-8924-4e14-a085-69aa6dabb18f | hit |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P2, sp6p2i alone (61 words) [t65s_sp6p2i], a screen | Human, low (my call) | AI Generated (1, Low; 65); 04:57:50 UTC, https://www.pangram.com/history/15b80a90-74b7-4ad1-a179-cbccd9955478 | miss |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2j alone (66 words) [t65t_sp1p2j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P2, sp1p2k alone (68 words) [t65t_sp1p2k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2j (138 words) [t65t_secsp1p2j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P2 = sp1p2k (140 words) [t65t_secsp1p2k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3i alone (51 words) [t65t_sp1p3i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Borrow Hindsight P3, sp1p3j alone (50 words) [t65t_sp1p3j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P2+P3, with sp1p3i (117 words) [t65t_pairsp1p3i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | P2+P3, with sp1p3j (116 words) [t65t_pairsp1p3j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3i (189 words) [t65t_secsp1p3i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrow Hindsight with P3 = sp1p3j (188 words) [t65t_secsp1p3j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P1, sp4h alone (78 words) [t65t_sp4h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P1, sp4i alone (72 words) [t65t_sp4i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P1, sp4j alone (77 words) [t65t_sp4j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P1, sp4k alone (85 words) [t65t_sp4k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P1, sp4l alone (78 words) [t65t_sp4l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4h (83 words) [t65t_secsp4h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4i (77 words) [t65t_secsp4i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4j (82 words) [t65t_secsp4j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4k (90 words) [t65t_secsp4k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Journal With Each Hand with P1 = sp4l (83 words) [t65t_secsp4l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P2, sp4p2a alone (67 words) [t65t_sp4p2a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P2, sp4p2b alone (67 words) [t65t_sp4p2b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Journal With Each Hand P2, sp4p2c alone (61 words) [t65t_sp4p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P1, sp5p1f2 alone (69 words) [t65t_sp5p1f2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P1, sp5p1e2 alone (69 words) [t65t_sp5p1e2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P1 = sp5p1f2 (77 words) [t65t_secsp5p1f2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | “And So That’s the Way It Happened!” with P1 = sp5p1e2 (77 words) [t65t_secsp5p1e2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2d5 alone (95 words) [t65t_sp5p2d5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2d6 alone (87 words) [t65t_sp5p2d6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, And So That's the Way It Happened P2, sp5p2d7 alone (90 words) [t65t_sp5p2d7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1c alone (83 words) [t65t_sp7p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1d alone (72 words) [t65t_sp7p1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1e alone (74 words) [t65t_sp7p1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P1, sp7p1f alone (91 words) [t65t_sp7p1f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1c (87 words) [t65t_secsp7p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1d (76 words) [t65t_secsp7p1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1e (78 words) [t65t_secsp7p1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Just Like Me with P1 = sp7p1f (95 words) [t65t_secsp7p1f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2d2 alone (73 words) [t65t_sp7p2d2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2e2 alone (73 words) [t65t_sp7p2e2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Just Like Me P2, sp7p2f alone (84 words) [t65t_sp7p2f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9d alone (86 words) [t65t_sp9d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9f alone (82 words) [t65t_sp9f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9g alone (80 words) [t65t_sp9g], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9h alone (105 words) [t65t_sp9h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Close the Session, sp9i alone (83 words) [t65t_sp9i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9d (94 words) [t65t_secsp9d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9f (90 words) [t65t_secsp9f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9g (88 words) [t65t_secsp9g], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9h (113 words) [t65t_secsp9h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Close the Session and Return to Life with P1 = sp9i (91 words) [t65t_secsp9i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs P1, sp8p1e alone (65 words) [t65t_sp8p1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Use Childhood Photographs Without Interrogating Them with P1 = sp8p1e (72 words) [t65t_secsp8p1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p2c alone (83 words) [t65t_sp8p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p3c alone (84 words) [t65t_sp8p3c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p3d alone (80 words) [t65t_sp8p3d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p4c alone (104 words) [t65t_sp8p4c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p5c alone (51 words) [t65t_sp8p5c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, Childhood Photographs, sp8p5d alone (57 words) [t65t_sp8p5d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1f2 alone (81 words) [t65t_sp6p1f2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1h2 alone (60 words) [t65t_sp6p1h2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1i alone (78 words) [t65t_sp6p1i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P1, sp6p1j alone (72 words) [t65t_sp6p1j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with P1 = sp6p1f2 (91 words) [t65t_secsp6p1f2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with P1 = sp6p1h2 (70 words) [t65t_secsp6p1h2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with P1 = sp6p1i (88 words) [t65t_secsp6p1i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | One Intention in the Morning, One Review at Night with P1 = sp6p1j (82 words) [t65t_secsp6p1j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P2, sp6p2h2 alone (60 words) [t65t_sp6p2h2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Simple Practices, One Intention P2, sp6p2i2 alone (67 words) [t65t_sp6p2i2], a screen | Human, low (my call) | (pending) | |

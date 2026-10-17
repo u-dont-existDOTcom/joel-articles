@@ -121,6 +121,11 @@ def run(groups, rnd, out_prefix, predictions, date):
         gate.update(gt)
         rows += rows_for(d, g.get('label', 'the new paragraph'), g['heading'], more, pn, date,
                          g.get('prediction', 'Human, low (my call)'))
+    # Every paragraph alone first, then the pairs, the sections and the larger sections, across all groups: the
+    # alone results come back first, and they decide which drafts are still in the running (turn 65).
+    rank = lambda k: (2 if re.match(r'.*_sec\d', k) else 1 if '_sec' in k else 0.5 if '_pair' in k else 0)
+    order = sorted(drafts, key=rank)
+    drafts, gate = {k: drafts[k] for k in order}, {k: gate[k] for k in order}
     out = pathlib.Path(out_prefix)
     out.with_name(out.name + '-drafts.json').write_text(json.dumps(drafts, indent=1, ensure_ascii=False), encoding='utf-8')
     out.with_name(out.name + '-gate.json').write_text(json.dumps(gate, indent=1, ensure_ascii=False), encoding='utf-8')
