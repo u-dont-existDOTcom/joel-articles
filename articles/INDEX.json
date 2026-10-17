@@ -16006,6 +16006,11 @@
           "path": "articles/inner-child-therapy/experiments/t68-guide/REVIEWS.md",
           "sha256": "f8b89a79f0ad13261f249fead17f4f7e59471d178ffd1678d90f281d89adf973",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-17-turn68.json",
+          "sha256": "cc2d986ed3f47c8105d99fac4adf89a0654e3e62086377346d0a2759beacd241",
+          "role": "in_context_map"
         }
       ]
     },
