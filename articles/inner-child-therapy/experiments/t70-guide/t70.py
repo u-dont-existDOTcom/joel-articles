@@ -116,12 +116,24 @@ def installs(names=None):
         'connect inner-child pl/ork with Hearthwork and with building community." (question 43, 4: "my words"), then the loop. Alone '
         'Human Written (0.0098, low), https://www.pangram.com/history/613b1e94-cc35-46dd-80e8-4b0cd3dd20b6. @@STH1@@ -->\n\n'
         + d69('st6b-a')))
+    # 43, item 6: This human life is the most precious opportunity, as he published it (its first person his words, "43 my words")
+    old = find(r"<!-- Parked between this section and When the Practice Feels Real but Stays Shallow \(experiments/t65-guide/PARKED\.md, "
+               r"with what each needs from Joel\): This human life is the most precious opportunity.*?They go here, in that order\. -->")
+    out.append(('thl', old,
+        '## This human life is the most precious opportunity\n\n'
+        '<!-- Turn 70: Joel\'s paragraph as he published it (his article, with its two links; his October guide has the same words), '
+        'unchanged: its first sentence is his first person, his words (question 43, 6, 2026-10-17 22:59 UTC: "43 my words"; ' + SAID + '), '
+        'and the turtle (MN 129) and the ticket are his guide\'s own sentences. @@THL@@ -->\n\n' + joel('joel-thl') + '\n\n'
+        '<!-- Parked between this section and When the Practice Feels Real but Stays Shallow (experiments/t65-guide/PARKED.md): '
+        'Altered States Can Deepen the Therapy, Altered States Can Require Reparenting and Non-altered states can feel like this too '
+        '(his own stories, guides and images; their first-person lines his words, question 43, 7 and 8, except "If a voice or urge is '
+        'directing you towards harm ...", the guide\'s wording). They go here, in that order. -->'))
     # 43, items 9 to 12: his first person back ("9. a 10 a 11 a 12 a")
     for name, start, stem, what in (
             ('bh', 'A question to borrow from your future self', 'bh-a', 'his guide\'s "I sometimes ask:" back at the start (question 43, 9: A), with "It\'s a question borrowed from your future self." so "that person" still has something to point to'),
             ('lm', 'What do you picture when you wish someone well', 'lm-a', 'his guide\'s "The horizon of what I can wish for someone is partly shaped by the happiness, peace, and freedom I know are possible." for my last sentence (question 43, 10: A)'),
-            ('sh', 'Some people have the opposite problem', os.environ.get('SH', 'sh-a'), 'his guide\'s "What showed me that the daytime pl/ork had stayed shallow was the difference at night." for my "So say the dream that night ..." (question 43, 11: A), and the sign put as a condition after it'),
-            ('fg2', 'What can help is seeing how they got there', FG2, 'his guide\'s "The understanding that helps me is seeing how a person\'s conditioning, history, pain, and capacity shaped the harmful move they made." for my first two sentences (question 43, 12: A), with my list of what made them who they were cut, since his line has it'),
+            ('sh', 'Some people have the opposite problem', os.environ.get('SH', 'sh-a'), 'his guide\'s "What showed me that the daytime pl/ork had stayed shallow was the difference at night." for my "So say the dream that night ..." (question 43, 11: A), with my next sentence reworded to follow it'),
+            ('fg2', 'What can help is seeing how they got there', FG2, 'his guide\'s "The understanding that helps me is seeing how a person\'s conditioning, history, pain, and capacity shaped the harmful move they made." for my first sentence (question 43, 12: A); my plain list after it stays, as a gloss of his (with it changed or cut, four versions read AI from his line on)'),
             ('fg3', 'They still have to answer for what they did', 'fg3-a', 'his guide\'s "Understanding somebody\'s limitations should make my expectations more realistic, not make those limitations less consequential." back before the two quotes (question 43, 12: A)')):
         old = para(start)
         out.append((name, old, '<!-- Turn 70 (E189): ' + what + '; experiments/t70-guide/drafts/' + stem + '.txt. Joel, 2026-10-17 22:59 UTC: "43 my '
@@ -169,6 +181,8 @@ def block(b):
         return section(ART.read_text(encoding='utf-8'), stem)
     if d == 'G':
         return g65(stem)
+    if d == 'D9':   # turn 69's drafts
+        return (A / 'experiments/t69-guide/drafts' / (stem + '.txt')).read_text(encoding='utf-8').strip()
     if d == 'D7':   # turn 67's drafts
         return (A / 'experiments/t67-guide/drafts' / (stem + '.txt')).read_text(encoding='utf-8').strip()
     if d == 'J7':   # his turn-67 texts
@@ -198,7 +212,7 @@ def batch(rnd, spec_file):
             # the settled parts (G: read Human alone, J: his) count as installed for the linter; only my new drafts (D:) are
             # linted as mine
             la = CAND.with_name('lint-%s.md' % k)
-            la.write_text(md['candidate'] + '\n\n' + '\n\n'.join(block(b) for b in it['blocks'] if b.split(':')[0] in ('G', 'J', 'S', 'J7', 'D7')) + '\n\n' + '\n\n'.join(it.get('his', [])),
+            la.write_text(md['candidate'] + '\n\n' + '\n\n'.join(block(b) for b in it['blocks'] if b.split(':')[0] in ('G', 'J', 'S', 'J7', 'D7', 'D9')) + '\n\n' + '\n\n'.join(it.get('his', [])),
                           encoding='utf-8')   # his published lines in my drafts count as his (E188, E189)
             gate[k] = {'kind': 'screen', 'march': [it['march']], 'lint': 'REVIEW', 'lint_article': str(la),
                        'note': 't70%s: %s, put together: %s.' % (rnd, it['blocks'][0], ', '.join(it['blocks'][1:]))}
