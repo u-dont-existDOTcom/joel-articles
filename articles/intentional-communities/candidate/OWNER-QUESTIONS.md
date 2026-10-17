@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-17, during the overnight run that began with your message of 02:07 UTC. **Open questions: 3** (39 to 41). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "39 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
+Last updated 2026-10-17, during the overnight run that began with your message of 02:07 UTC. Tonight section 15 and the appendix went into the article (each paragraph Human alone, each whole 100% Human); section 16 is in progress. **Open questions: 3** (39 to 41). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "39 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -153,7 +153,5 @@ If you don't answer, a.
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 Section 15, "What This Looks Like From Sénégal": in progress tonight, the way sections 13 and 14 went, every paragraph checked alone in Pangram before it goes in. Any question about it goes up top before section 16 starts.
-- 🔵 Section 16, "Practice Comes Before Property", next: its draft says once what sections 13 and 14 already say (a group without land is already a community; a real conflict before property; the order of steps; what the Bruderhof shaped in your father).
-- 🔵 The appendix, "Watch These, Then Read These", after that: the reading list's "start here for sequencing" becomes "start here for membership, money, land, and agreements", by your 23:38 answer about the book's order.
+- 🔵 Section 16, "Practice Comes Before Property": in progress. Every paragraph reads Human alone, and its opening (the wrong order and the better one) reads Human as a whole after reading AI in nine earlier shapes; two stretches still read AI inside the whole section (the forty acres to the group that practices for two years, and where to find people to the visit), and they are being rewritten. It goes in when the whole section reads 100% Human and the meaning checks pass.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.

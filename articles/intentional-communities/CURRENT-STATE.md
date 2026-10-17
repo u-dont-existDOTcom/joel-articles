@@ -27,15 +27,15 @@ Humanize Joel's published intentional-communities Substack article section by se
 
 ## Current checkpoint
 
-Sections 13 (v34) and 14 (v9) are accepted. The overnight run (Joel's 02:07 "continue, and don't stop") is on sections 15, 16 and the appendix, none installed yet (as of 05:30 UTC):
-- Section 15, "What This Looks Like From Sénégal": draft v9 reads 100% Human as a whole in every version since v3 (330g, v8: 0.11, high). Every paragraph reads Human alone but H1-P4, which reads AI in each shape that keeps the published "often" (330g); v10 tries three shapes from Emulate round e (`candidate/s15/emu-e/`), batch 332g. Meaning rounds r1 to r8 (`candidate/s15/review-rN/`, DISPOSITIONS files), round r8's cold read all OK.
-- Section 16, "Practice Comes Before Property": draft v4 (Emulate round a, the meaning back, the dedup, round r4's fixes) read Human in 11 of 22 screens (328g); v5 rebuilds the AI paragraphs from Emulate round b (`candidate/s16/emu-b/`), batch 333g. The stance check of v4 is running again with an output budget (`candidate/s16/review-r7/`).
-- The appendix: baseline 329g (the films Human, the books and the research paragraph AI, the whole Mixed); draft v4 rebuilds every entry from Emulate round a with the meaning back and a break in each screened run; batch 331g screens each entry in the shortest run Pangram can read (`tools/humanization/paragraphs_alone.py`, `minimal_runs`).
+Sections 13 (v34) and 14 (v9) are accepted. The overnight run (Joel's 02:07 "continue, and don't stop") as of about 07:50 UTC:
+- Section 15, "What This Looks Like From Sénégal": in the article as v12 (`candidate/s15/install/install_s15_v12.py`): every paragraph Human alone and the whole section 100% Human, high (338g, 0.10). H1-P4 waits on question 40.
+- The appendix, "Watch These, Then Read These": in the article as v9 (`candidate/appendix/install/install_apx_v9.py`): every entry Human in its run (list entries in the shortest run Pangram can read) and the whole appendix 100% Human, high (343g, 0.17); meaning rounds r7, r12, r12x, r14 and r16; the breaks in the list wait on question 41.
+- Section 16, "Practice Comes Before Property": draft v10 db reads Human in every paragraph and in its opening as a whole (344g, the opening from Emulate round d, traces r19 OK); the whole section reads AI over two windows (H2-P3 to H2-P5, H3-P5 to H3-P8). Emulate rounds e and f rebuilt them (v11, v12); batch 346g screens v12.
 The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Sections 15 and 16 and the appendix.
+- Section 16.
 - Joel's acceptance of the candidate sections, then promotion of the humanized article to the registered master with a promotion receipt.
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
