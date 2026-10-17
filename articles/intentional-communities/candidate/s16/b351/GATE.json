@@ -1,0 +1,179 @@
+{
+ "S16v15q-H2-P5-H3-P2": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B S",
+   "S S S S S B B",
+   "B S",
+   "B S",
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2, H3",
+  "words": 143
+ },
+ "S16v15q-H2-P6-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "B S",
+   "B S",
+   "B S S",
+   "B S S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H2, H3",
+  "words": 127
+ },
+ "S16v15q-H3-P2-P4": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "S S S B",
+   "S S S B",
+   "B S S S S",
+   "B B B S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 150
+ },
+ "S16v15q-H3-P3-P5": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B",
+   "B S S S S",
+   "B B B S S",
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 149
+ },
+ "S16v15q-H3-P4-P6": {
+  "kind": "screen",
+  "march": [
+   "B S S S S",
+   "B B B S S",
+   "B S S",
+   "B S S",
+   "B S S S S",
+   "B S S S S"
+  ],
+  "march_note": "rounds r2 to r22, as in 346g",
+  "lint": "REVIEW",
+  "lint_note": "the subsections the run touches: H3",
+  "words": 145
+ },
+ "S16v15q-H3-P2+P3": {
+  "kind": "screen",
+  "march": [
+   "B S S",
+   "B S S",
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "the pair",
+  "words": 88,
+  "lint": "REVIEW"
+ },
+ "S16v15q-H3-P3": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "its own march",
+  "words": 52,
+  "lint": "REVIEW"
+ },
+ "S16v15q-H3-P3+P4": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B",
+   "B S S S S",
+   "B B B S S"
+  ],
+  "march_note": "the pair",
+  "words": 109,
+  "lint": "REVIEW"
+ },
+ "S16v15q-H3-P4": {
+  "kind": "screen",
+  "march": [
+   "B S S S S",
+   "B B B S S"
+  ],
+  "march_note": "its own march",
+  "words": 57,
+  "lint": "REVIEW"
+ },
+ "S16v15q-H3-P4+P5": {
+  "kind": "screen",
+  "march": [
+   "B S S S S",
+   "B B B S S",
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "the pair",
+  "words": 97,
+  "lint": "REVIEW"
+ },
+ "S16v15q": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S",
+   "S S S S B S",
+   "S B B",
+   "S B B",
+   "S S S S B",
+   "S S S S B",
+   "S S B S",
+   "S B B S",
+   "S B",
+   "S B",
+   "S S B B S",
+   "S S B B S",
+   "S B S S",
+   "S B S S",
+   "S S S S S B S",
+   "S S S S S B B",
+   "B S",
+   "B S",
+   "B S S",
+   "B S S",
+   "S S S B",
+   "S S S B",
+   "B S S S S",
+   "B B B S S",
+   "B S S",
+   "B S S",
+   "B S S S S",
+   "B S S S S",
+   "B S",
+   "B S",
+   "B S",
+   "B S",
+   "B",
+   "B",
+   "B B S",
+   "B B S",
+   "B S",
+   "B B"
+  ],
+  "march_note": "every paragraph",
+  "lint": "REVIEW",
+  "words": 845
+ }
+}

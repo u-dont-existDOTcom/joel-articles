@@ -26,7 +26,9 @@ ONLY = opt('--only').split(',') if opt('--only') else None
 CHANGED = opt('--changed').split(',') if opt('--changed') else None
 ROUNDS = ['review-r2', 'review-r3', 'review-r3b', 'review-r3c', 'review-r3d', 'review-r5', 'review-r6', 'review-r8', 'review-r9',
           'review-r10', 'review-r11', 'review-r12', 'review-r14', 'review-r15', 'review-r16', 'review-r17', 'review-r18',
-          'review-r20', 'review-r21', 'review-r22'] + sorted(p.name for p in S16.glob('review-r2[3-9]') if (p / 'march-ids.json').exists())
+          'review-r20', 'review-r21', 'review-r22'] + sorted(
+    (p.name for p in S16.glob('review-r*') if re.fullmatch(r'review-r\d+', p.name) and int(p.name[8:]) >= 23
+     and (p / 'march-ids.json').exists() and (p / 'MARCH-labels-b.txt').exists()), key=lambda n: int(n[8:]))
 IDS = (['H1'] + ['H1-P%d' % i for i in range(1, 4)] + ['H2'] + ['H2-P%d' % i for i in range(1, 7)] + ['H3'] +
        ['H3-P%d' % i for i in range(2, 12)])
 PARAS = [i for i in IDS if '-' in i]
