@@ -1,0 +1,42 @@
+{
+ "APXv6-E25": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "appendix/review-r*, one paragraph per item, by its exact text",
+  "lint": "REVIEW",
+  "words": 60
+ },
+ "APXv6": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S B B S S S S B S S B S S B S S B S S S S S S S S B S S B S S S S B S B S S S S B S S S S B",
+   "S S S B S S S B B S S S S B S S B S S B S S B S S S S S S S S B S S B S S S S B S B S S S S B S S S S B"
+  ],
+  "march_note": "appendix/review-r*, one paragraph per item, by its exact text",
+  "lint": "REVIEW",
+  "words": 653
+ },
+ "APXv6x-E25": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "appendix/review-r*, one paragraph per item, by its exact text",
+  "lint": "REVIEW",
+  "words": 68
+ },
+ "APXv6x": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S B B S S S S B S S B S S B S S B S S S S S S S S B S S B S S S S B S B S S S S B S S S S B",
+   "S S S B S S S B B S S S S B S S B S S B S S B S S S S S S S S B S S B S S S S B S B S S S S B S S S S B"
+  ],
+  "march_note": "appendix/review-r*, one paragraph per item, by its exact text",
+  "lint": "REVIEW",
+  "words": 661
+ }
+}

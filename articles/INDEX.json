@@ -42239,6 +42239,41 @@
           "path": "articles/intentional-communities/candidate/s16/review-r11/MARCH-labels-b.txt",
           "sha256": "823e676672a8f2fae6c66abfcf4fae0c9fcad920550fe31d8cab41b5f40e4d9e",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/appendix/b336/GATE.json",
+          "sha256": "98db3f0f1babe05812250869f265ac177a113ef23b2206209f678612cf5116db",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/appendix/b336/PREDICTIONS.md",
+          "sha256": "cbe0df6a8ef9fa79e288f2e5efbe73c353963c9cf0fa84c746bbb140f11593b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/appendix/b336/b336-items.json",
+          "sha256": "c239e1e34d46c191f5494b9015894b78595893875a17197704bed750386c1795",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/appendix/b336/b336-read.js",
+          "sha256": "cb5dfaee3c21bbb48fa8b38959ac9a38281f89e9cbf7827ff48eeeca21a69f24",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/appendix/b336/b336.js",
+          "sha256": "eeb86846f5d37caf3eb24ea78a305065f2ef8e004e4e9096b819c0245fc8e67e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/appendix/b336/drafts.json",
+          "sha256": "970246b4c12000e55b7f0366ab9a7755c1f705344641e1654e894d7bda2098da",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/appendix/review-r6/MARCH-labels-b.txt",
+          "sha256": "909a3b20720963ae79ee593557bc3afe7f26ffe5024e380c1d435122b1f37520",
+          "role": "humanization_working_record"
         }
       ]
     }
