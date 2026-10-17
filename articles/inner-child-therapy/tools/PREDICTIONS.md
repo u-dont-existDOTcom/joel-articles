@@ -1274,7 +1274,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-g (1025 words) [t63b_h1g], a screen | Human, low (my call: a new shape in plain words) | Human Written (0.087, high; 1071), one Human window; 00:36:06 UTC, https://www.pangram.com/history/0105815f-f3dd-45b7-843c-7d83d2cbc245 | hit |
 | 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-h (1007 words) [t63b_h1h], a screen | Human, low (my call: a new shape in plain words) | Human Written (0.075, high; 1056), one Human window; 00:36:17 UTC, https://www.pangram.com/history/ef90036c-80dd-4994-8ea2-b0e38fce6aca | hit |
 | 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-i (1001 words) [t63b_h1i], a screen | Human, low (my call: a new shape in plain words) | Human Written (0.089, high; 1048), one Human window; 00:36:28 UTC, https://www.pangram.com/history/9833b577-c9ef-47a0-bc98-c318221368b5 | hit |
-| 2026-10-17 (turn 63) | P10 (group 10), p10-k alone (60 words) [t63c_p10k], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 63) | P10 (group 10), p10-l alone (62 words) [t63c_p10l], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 63) | P10 (group 10), p10-o alone (55 words) [t63c_p10o], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 63) | P10 (group 10), p10-p alone (59 words) [t63c_p10p], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-k alone (60 words) [t63c_p10k], a screen | Human, low (my call) | Human Written (0.002, low; 62); 00:39:19 UTC, https://www.pangram.com/history/62bf460b-db3d-4a2b-912c-ec2c3a9b06c1 | hit |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-l alone (62 words) [t63c_p10l], a screen | Human, low (my call) | Human Written (0.032, low; 65); 00:39:29 UTC, https://www.pangram.com/history/47bae344-341d-4c9a-8ddd-8987a859e169 | hit |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-o alone (55 words) [t63c_p10o], a screen | Human, low (my call) | Human Written (0.002, low; 57); 00:39:40 UTC, https://www.pangram.com/history/82fe39c0-3551-4e03-bf3f-277008ee4c89 | hit |
+| 2026-10-17 (turn 63) | P10 (group 10), p10-p alone (59 words) [t63c_p10p], a screen | Human, low (my call) | Human Written (0.002, low; 61); 00:39:50 UTC, https://www.pangram.com/history/6033455f-4c1c-4826-80bc-01deafe6d140 | hit |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-k (152 words) [t63d_p910k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-l (154 words) [t63d_p910l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-o (147 words) [t63d_p910o], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | P9+P10, p9-k and p10-p (151 words) [t63d_p910p], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-k (1008 words) [t63d_h1k], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-l (1010 words) [t63d_h1l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-o (1003 words) [t63d_h1o], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 63) | The Inner Guide Comes Later with P10 = p10-p (1007 words) [t63d_h1p], a screen | Human, low (my call) | (pending) | |
