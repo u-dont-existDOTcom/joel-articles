@@ -1,0 +1,130 @@
+{
+ "t65l_sp1p2a": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round l: Borrow Hindsight P2 (the wiser self understands why you can't respond ideally now; ask it for care or practical help; the other person's wiser future self without assuming agreement or regret), after P1 = sp1-p1-d; sp1-p2-a. March: my own reading."
+ },
+ "t65l_sp1p2c": {
+  "kind": "screen",
+  "march": [
+   "B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round l: Borrow Hindsight P2 (the wiser self understands why you can't respond ideally now; ask it for care or practical help; the other person's wiser future self without assuming agreement or regret), after P1 = sp1-p1-d; sp1-p2-c. March: my own reading."
+ },
+ "t65l_sp1p2d": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round l: Borrow Hindsight P2 (the wiser self understands why you can't respond ideally now; ask it for care or practical help; the other person's wiser future self without assuming agreement or regret), after P1 = sp1-p1-d; sp1-p2-d. March: my own reading."
+ },
+ "t65l_sp1p2e": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round l: Borrow Hindsight P2 (the wiser self understands why you can't respond ideally now; ask it for care or practical help; the other person's wiser future self without assuming agreement or regret), after P1 = sp1-p1-d; sp1-p2-e. March: my own reading."
+ },
+ "t65l_pairsp1p2a": {
+  "kind": "screen",
+  "march": [
+   "P1 (installed) | P2 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: P1+P2, the paragraph before and sp1-p2-a."
+ },
+ "t65l_pairsp1p2c": {
+  "kind": "screen",
+  "march": [
+   "P1 (installed) | P2 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: P1+P2, the paragraph before and sp1-p2-c."
+ },
+ "t65l_pairsp1p2d": {
+  "kind": "screen",
+  "march": [
+   "P1 (installed) | P2 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: P1+P2, the paragraph before and sp1-p2-d."
+ },
+ "t65l_pairsp1p2e": {
+  "kind": "screen",
+  "march": [
+   "P1 (installed) | P2 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: P1+P2, the paragraph before and sp1-p2-e."
+ },
+ "t65l_secsp1p2a": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Borrow Hindsight with P2 = sp1-p2-a."
+ },
+ "t65l_secsp1p2c": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Borrow Hindsight with P2 = sp1-p2-c."
+ },
+ "t65l_secsp1p2d": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Borrow Hindsight with P2 = sp1-p2-d."
+ },
+ "t65l_secsp1p2e": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Borrow Hindsight with P2 = sp1-p2-e."
+ },
+ "t65l_sec2sp1p2a": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Simple Practices with sp1-p2-a at its end."
+ },
+ "t65l_sec2sp1p2c": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Simple Practices with sp1-p2-c at its end."
+ },
+ "t65l_sec2sp1p2d": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Simple Practices with sp1-p2-d at its end."
+ },
+ "t65l_sec2sp1p2e": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65l: Simple Practices with sp1-p2-e at its end."
+ }
+}
