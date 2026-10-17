@@ -1,0 +1,98 @@
+{
+ "t65g_p14b3": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round g: rounds e and f read AI in the section on P14 every time (and alone in seven of eight); the guide puts 'Timing is individual' over groups 14 to 16 as its own heading, so P14 under '## Timing Is Individual' (the pair check is the heading with P14); p14-b3. March: my own reading."
+ },
+ "t65g_p14i": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round g: rounds e and f read AI in the section on P14 every time (and alone in seven of eight); the guide puts 'Timing is individual' over groups 14 to 16 as its own heading, so P14 under '## Timing Is Individual' (the pair check is the heading with P14); p14-i. March: my own reading."
+ },
+ "t65g_p14j": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round g: rounds e and f read AI in the section on P14 every time (and alone in seven of eight); the guide puts 'Timing is individual' over groups 14 to 16 as its own heading, so P14 under '## Timing Is Individual' (the pair check is the heading with P14); p14-j. March: my own reading."
+ },
+ "t65g_p14k": {
+  "kind": "screen",
+  "march": [
+   "S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round g: rounds e and f read AI in the section on P14 every time (and alone in seven of eight); the guide puts 'Timing is individual' over groups 14 to 16 as its own heading, so P14 under '## Timing Is Individual' (the pair check is the heading with P14); p14-k. March: my own reading."
+ },
+ "t65g_pairp14b3": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: P13+P14, the paragraph before and p14-b3."
+ },
+ "t65g_pairp14i": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: P13+P14, the paragraph before and p14-i."
+ },
+ "t65g_pairp14j": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: P13+P14, the paragraph before and p14-j."
+ },
+ "t65g_pairp14k": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: P13+P14, the paragraph before and p14-k."
+ },
+ "t65g_secp14b3": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: The Inner Guide Comes Later with P14 = p14-b3."
+ },
+ "t65g_secp14i": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: The Inner Guide Comes Later with P14 = p14-i."
+ },
+ "t65g_secp14j": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S S B"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: The Inner Guide Comes Later with P14 = p14-j."
+ },
+ "t65g_secp14k": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 S B S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65g: The Inner Guide Comes Later with P14 = p14-k."
+ }
+}

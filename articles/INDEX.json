@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "eed26f0a5a85e4c7b7f00b8838acde442a89081e3cf1839f9a21412d5a3ee0df"
+          "sha256": "7dd7ec24bdfc38dd3b08405689a30e0ce4ded20f361812a662586b6f0b146f48"
         }
       },
       "review": {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "c604f9054af86927cfce114184dfd3147bc2986d3d936bce0bb7dc2eab14a4e7",
+          "sha256": "ca069e13ea3799ea12c763856cf6b13d4c73afba363b1aeb07f05a2f5c074bea",
           "role": "detector_prediction_log"
         },
         {
@@ -9946,6 +9946,71 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-f.js",
           "sha256": "3905b05551cdba8a16be4afed8214a2c9a4532cfdc5fe157e39137cc3c474ce2",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p14-b3.txt",
+          "sha256": "f36707687725083e1f39e7c757b5c87b1f93a88e921df5c80a4ab2405c214885",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p14-i.txt",
+          "sha256": "4c68b8f03a7411c5372e26166b8ee294055f20cb830f41ff9263a94d9855cd5d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p14-j.txt",
+          "sha256": "531de723997f1be19dffb543cf34244806a0d73b70be38465e21b67be2cbdcb3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p14-k.txt",
+          "sha256": "2719296e3ea49560b6f7ae7026ecb55a387f24dc171be382e182702349179def",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p15-a.txt",
+          "sha256": "84fb455c04ec0e2fe27f915d49639ed850928c74c88138e7d99d1bc6f3df2101",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p15-b.txt",
+          "sha256": "a52cdae896072784d2bd10a5ff49f7e2a345a4839c4305bad73c579f2b13f990",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p15-c.txt",
+          "sha256": "9e8f20d6a734e830aec15b0c705fddb467594028d6096a120fa1e185b9f93cae",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t65-guide/p15-d.txt",
+          "sha256": "fc4bec63180f86e0b02b659b7924c98743098f2ab139b3f524602cd42da9c238",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-g-drafts.json",
+          "sha256": "ecb8d9a086acf787bcd1c76eb824e5d0963d416bb7f75ec532ce184db659bbb4",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-g-gate.json",
+          "sha256": "7b0b876d308000771d585db9ec6ed0861a6518b0d49f3104d2a88c9f376cb98c",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-g-read.js",
+          "sha256": "8d884585ffdc148d75f00f9da1032b42d0b30e880ec4aaae32b98d49f8ac42fa",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-17-turn65-g.js",
+          "sha256": "e632e351a1691d437dc3bc9f01c08e2abd0db0b47be5bad80624bd96ca0761e1",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/t65-g16.json",
+          "sha256": "86440e41fc136730b6e7a1c28b7d648e8aba5c4b8955b513a55ad6aa3ccb3d71",
+          "role": "reviewer_target"
         }
       ]
     },
