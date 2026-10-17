@@ -1,0 +1,20 @@
+P1: OK
+P2: OK
+P3: OK
+P4: OK
+P5: OK
+P6: OK
+P7: OK
+P8: OK
+P9: OK
+P10: OK
+P11: OK
+P12: OK
+P13: OK
+P14: OK
+P15: OK
+P16: OK
+P17: OK
+P18: OK
+P19: OK
+Paused: P3 "the economic destination"; P3 "from the common"; P5 "the conflict PLUS goats"; P6 "your inner pl/ork"; P10 "practice before you have an audience"; P11 "One disagreement is enough!"; P12 "unprogrammed Quaker meeting"; P14 "And whether communal showers feel liberating, or you'll start looking"; P15 "those three things"; P16 "I'm not trying to sell you a retreat"; P18 "that community"; P19 "hearing about it matters less"
