@@ -24,7 +24,7 @@ Three of the last five cold reads paused at its first sentence, coming right aft
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #PRNUM (turn 64)
+### 🟠 Merge pull request #186 (turn 64)
 
 P11 of The Inner Guide Comes Later, and the faster process; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
