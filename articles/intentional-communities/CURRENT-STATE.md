@@ -30,20 +30,16 @@ Humanize Joel's published intentional-communities Substack article section by se
 
 ## Current checkpoint
 
-Sections 13 (v35) and 14 (v9) are accepted. After Joel's message of 2026-10-17 17:16 UTC, every section is in `candidate/HUMANIZED-SO-FAR.md` as a candidate, each 100% Human as a whole in Pangram's web app:
-- This turn: section 9 v17, section 12 v15, section 15 v14 and section 16 v29 (`candidate/fix-20261017b/install_44c.py`, `install_1716.py`; batches 415g to 419g).
-- His 19:14 answer: section 13 v35 (`candidate/fix-20261017c/install_1914.py`; batch 420g).
-- Open questions 45 to 51 on the lane's questions page: 45 accept the article, 46 the anomie point and the screenshot's place, 47 five paragraphs where the honest fix needs his words, 48 sections 13 and 14 (two exclamation phrases that are their paragraphs' only turn, one repeat, length), 49 four points in his own section 8 text, 50 section 11's inner-privacy line, 51 Emulate's question-answer pairs and capitals.
-The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Sections 13 (v37b) and 14 (v9) are accepted; the rest of `candidate/HUMANIZED-SO-FAR.md` is candidates, each section 100% Human as a whole in Pangram's web app. After Joel's message of 2026-10-17 21:37 UTC (his answers to 45 to 51; records in `candidate/fix-20261017d/`): sections 8 v31, 13 v37b, 15 v17 and 16 v30 went in (batches 421g to 424g). Section 2 waits: with his new P2, Pangram reads its first paragraph AI (question 52), and the anomie paragraph and his screenshot (46 a) wait with it. His 45 a ("Accept it all ... once 46 to 51 are settled") is ready to run when section 2 is settled: `candidate/fix-20261017d/make_master.py` (master.md, the article without its version notes) and `promote.py` (the registry, the owner locks, the editorial status), with a receipt `PROMOTION-RECEIPT-20261017.md` still to write. Open questions 52 to 54 on the lane's questions page. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Joel's answers to questions 45 to 51; with 45 a, promotion of the humanized article to the registered master with a promotion receipt.
+- Joel's answers to questions 52 to 54; then section 2 (his P2 with 53's aside, the anomie paragraph and the screenshot), each checked alone and in the section, and the promotion (45 a).
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
 ## Blockers / unresolved
 
-- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`). The rebuilt section 4 diagram is uploaded (his 21:05 message); the article's image 7 link is still the old one until the new address is known.
+- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`). The article's image 7 link is still the old one until the new address is known.
 - Pangram checks run in the desktop app's browser pane, signed in to Joel's account; the API key is out of credits.
 
 ## Evidence / artifacts
@@ -54,4 +50,4 @@ The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 189, until it merges; 187 merged 2026-10-17 15:49 UTC). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): wait for Joel's answers to questions 45 to 51, then do what each answer says there. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 189, until it merges; 187 merged 2026-10-17 15:49 UTC). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): wait for Joel's answers to questions 52 to 54, then do what each answer says there. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.

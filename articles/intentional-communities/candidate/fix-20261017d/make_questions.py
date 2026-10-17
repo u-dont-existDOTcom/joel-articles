@@ -28,7 +28,8 @@ page = subprocess.run(['git', 'show', '08ca113a:articles/intentional-communities
 art = (C / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8')
 s13_words = len(section(art, '# Your Little Forming Group Already Is the Community').split())
 s13_before = len(section((C / 's13' / 'v35.md').read_text(encoding='utf-8'), '# Your Little Forming Group Already Is the Community').split())
-S15_DONE = 'S15v18' in R and human('S15v18') and human('S15v18-p3')
+S15_DONE = (C / 's15' / 'v18.md').exists() and (C / 's15' / 'v18.md').read_text(encoding='utf-8').strip() in art
+S15_TRIED = 'S15v18' in R
 
 OLD_HEAD = re.search(r'Last updated 2026-10-17 in the evening, after your message of 19:14.*?what\'s coming up next\.\n', page, flags=re.S).group(0)
 NEW_HEAD = ('Last updated 2026-10-17 at night, after your message of 21:37 (your answers to 45 to 51): they\'re done (Decided, below), '
@@ -95,10 +96,15 @@ page = page.replace(OLD_DO, NEW_DO)
 s15 = ('"Kind of the opposite problem." (the tag "isn\'t it?" out) and "Can you believe it?" out after your "they won\'t let me '
        'pay rent!"')
 if S15_DONE:
-    s15 += ', and "So which is it? Well, in a way, it\'s both." out, since your new first paragraph already answers it (alone with '
-    s15 += 'the paragraph %s)' % L('S15v18-p3')
+    s15 += ', and "So which is it? Well, in a way, it\'s both." out, since your new first paragraph already answers it'
 held = ('Two rewordings stay as they are, because each took out its paragraph\'s only break, and that check still holds a rewording: '
         '"Why bother?" (section 13) and "So what about the families?" (section 15).' if S15_DONE else
+        ('Two rewordings stay as they are, because each took out its paragraph\'s only break, and that check still holds a rewording: '
+         '"Why bother?" (section 13) and "So what about the families?" (section 15). And "So which is it? Well, in a way, it\'s '
+         'both." stays, though your new first paragraph already answers it: cut, the paragraph read AI with your law paragraph before '
+         'it (0.95, %s), though Human with the one after (%s) and the section 100%% Human (%s). By your borderline rule (a paragraph that '
+         'passes only beside a strong neighbor has to pass without it), it stays. A line of yours in its place would do it, if you\'d '
+         'like it gone.' % (L('S15v18-p3+prev'), L('S15v18-p3+next'), L('S15v18'))) if S15_TRIED else
         'Three rewordings stay as they are, because each took out its paragraph\'s only break, and that check still holds a '
         'rewording: "Why bother?" (section 13), "So what about the families?" and "So which is it? Well, in a way, it\'s both." '
         '(section 15). The last asks again what your new first paragraph answers, so I\'m checking it cut (Coming up).')
@@ -161,7 +167,7 @@ assert page.count(OLD_UP) == 1
 NEW_UP = ('- 🔵 Section 2, once question 52 is settled: your paragraph (with question 53\'s aside), then the anomie paragraph and your '
           'screenshot (46 a), each checked alone and in the section.\n'
           '- 🔵 Then your 45 a: the humanized article becomes the registered master, with a record of the change.\n')
-if not S15_DONE:
+if not S15_DONE and not S15_TRIED:
     NEW_UP += ('- 🔵 Section 15: "So which is it? Well, in a way, it\'s both." cut, since your new first paragraph answers it; '
                'the meaning checks first, then Pangram, alone and in the section.\n')
 page = page.replace(OLD_UP, NEW_UP)

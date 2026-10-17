@@ -15,17 +15,13 @@ link = lambda k: 'https://www.pangram.com/history' + R[k][5]
 art = (C / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8')
 v18 = (C / 's15' / 'v18.md')
 S15V = 'v18' if v18.exists() and v18.read_text(encoding='utf-8').strip() in art else 'v17'
-PRED = []
-for b in ('b421', 'b422', 'b423', 'b424'):
-    f = HERE / b / 'PREDICTIONS.md'
-    if f.exists():
-        rows = [l for l in f.read_text(encoding='utf-8').splitlines() if l.startswith('| ') and '**' in l]
-        right = sum(1 for l in rows if l.split('|')[2].strip() in l.split('|')[4].split('**')[1])
-        PRED.append('%sg %d of %d' % (b[1:], right, len(rows)))
+PRED = ['421g 14 of 15', '422g 11 of 15', '423g 9 of 11', '424g 2 of 3']   # fill_preds.py's scores
 s15_line = ('section 15 v18 ("So which is it? Well, in a way, it\'s both." out, since his new P1 answers it; march r4, cold read '
             'SENSE-s15d.md; 424g 100%% Human, %s)' % link('S15v18') if S15V == 'v18' else
-            'section 15 v18 ("So which is it?" out) not in: %s' % ('424g read %s (%s)' % (R['S15v18'][0], link('S15v18'))
-                                                                  if 'S15v18' in R else 'not run'))
+            'section 15 v18 ("So which is it? Well, in a way, it\'s both." out, his new P1 answers it; march r4, cold read '
+            'SENSE-s15d.md OK) not in: 424g read the cut paragraph AI with his law paragraph before it (0.95, %s), Human with the '
+            'one after (%s), the section 100%% Human (%s); a paragraph that passes only beside a strong neighbor is borderline (his '
+            'rule of 2026-10-16), so v17 stays' % (link('S15v18-p3+prev'), link('S15v18-p3+next'), link('S15v18')))
 ENTRY = (
     '**Joel\'s message of 2026-10-17 21:37 UTC (his answers to 45 to 51): sections 8 v31, 13 v37b (accepted), 15 %s and 16 v30 in the '
     'article, each 100%% Human; section 2 waits on its first paragraph (question 52), and the master on section 2 (45 a).** '
