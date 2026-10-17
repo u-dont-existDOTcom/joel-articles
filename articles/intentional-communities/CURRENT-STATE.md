@@ -24,19 +24,19 @@ Humanize Joel's published intentional-communities Substack article section by se
 - 2026-10-17, after his 2026-10-16 23:38 message (the questions page's layout bug and hidden questions; his "if the community uses them" back; "it's all fairly borderline human. so we should fix it"; the book not leaning on Christian's order; the dedup): section 13 is in the article as v34 (every paragraph Human alone, batches 312g to 318g, `tools/humanization/paragraphs_alone.py` PASS; the whole section 100% Human, high, 0.06, batch 317g; the values stretch that read AI inside the section in 316g reads Human without the monologue too) and section 14 as v8 (every paragraph Human alone; the whole section 100% Human, 316g), each deduplicated. The questions page lists questions 35 to 38.
 - 2026-10-17, after his 02:07 message (35 b, 36 a, 37 a, 38 b his own section 14 paragraph; "accept 13 and 14"; his standing dedup rule: cut only when no important meaning is lost or there's no good way to merge): sections 13 (v34) and 14 (v9) are accepted (`EDITORIAL-STATUS.json`); section 10 is v5 (his 36 a, Human alone and as a section, batch 320g).
 - 2026-10-17, after his 13:11 message (39 his sentence in section 4; 40 a; 41 a, and rules that depend on the article's style; 42 his lines for section 16's last stretch; his corrections in sections 15 and 16; the PsyPost study): section 16 is in the article as v28 (every changed paragraph Human, the whole section 100% Human, 413g), so every section is in; section 15 v13, section 12 v14 (the study), section 8 v30 and section 1 (the sweep of his "this"/"quietly" rules) 100% Human (412g); section 4 v11.4 (414g, 100% Human). New checks for each correction (`docs/HUMANIZATION-GATE.md`); questions 43 to 45 open.
-- Owner edits: 76 pass, none waiting.
+- 2026-10-17, after his 17:16 message (43 his way with exclamations; 44c the screenshot as material, and the anomie point; 45 the whole-article faithfulness pass): section 12 v15 (his P2 as written, his screenshot with his caption; 415g 100% Human), section 9 v17 (the published limit back; 415g), section 15 v14 (five exclamations his way, two published phrases back; 417g) and section 16 v29 (five exclamation changes, the published "declaring"; 419g), each 100% Human. Five fresh readers compared the whole rewrite with the published article (`candidate/fix-20261017b/faithful/`, `TRIAGE.md`): the argument holds; fixes where Pangram agreed; questions 46 to 51 for the rest. Section 2 is unchanged (its paragraph is question 47).
+- Owner edits: 79 pass, none waiting.
 
 ## Current checkpoint
 
-Sections 13 (v34) and 14 (v9) are accepted. After Joel's message of 2026-10-17 13:11 UTC, every section is in `candidate/HUMANIZED-SO-FAR.md` as a candidate:
-- Section 16, "Practice Comes Before Property": v28 (`candidate/s16/make_v28.py`, installed by `candidate/fix-20261017/install_20261017.py`), with his lines for the stretch that read AI and "quietly" out; the whole section 100% Human (413g, 0.29).
-- Section 15 v13 (his three corrections and the sweep's "This"), section 12 v14 (the PsyPost study he sent, his screenshot as an image note), section 8 v30 and section 1 (the sweep): each 100% Human as a whole (412g). Section 4 v11.4 (his answer to 39): 100% Human (414g).
-- Open questions 43 (exclamations in sections 13 to 16), 44 (the study's place) and 45 (accept the article) are on the lane's questions page.
+Sections 13 (v34) and 14 (v9) are accepted. After Joel's message of 2026-10-17 17:16 UTC, every section is in `candidate/HUMANIZED-SO-FAR.md` as a candidate, each 100% Human as a whole in Pangram's web app:
+- This turn: section 9 v17, section 12 v15, section 15 v14 and section 16 v29 (`candidate/fix-20261017b/install_44c.py`, `install_1716.py`; batches 415g to 419g).
+- Open questions 45 to 51 on the lane's questions page: 45 accept the article, 46 the anomie point and the screenshot's place, 47 five paragraphs where the honest fix needs his words, 48 sections 13 and 14 (exclamations, one repeat, length), 49 four points in his own section 8 text, 50 section 11's inner-privacy line, 51 Emulate's question-answer pairs and capitals.
 The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Joel's answers to questions 43 to 45; with 45 a, promotion of the humanized article to the registered master with a promotion receipt.
+- Joel's answers to questions 45 to 51; with 45 a, promotion of the humanized article to the registered master with a promotion receipt.
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
 ## Blockers / unresolved
@@ -52,4 +52,4 @@ The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 187, until it merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): wait for Joel's answers to questions 43 to 45, then do what each answer says there. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 187, until it merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): wait for Joel's answers to questions 45 to 51, then do what each answer says there. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.

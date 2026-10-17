@@ -1253,50 +1253,51 @@
   },
   {
    "id": "all-joel-20261017-1716-45-pass",
-   "status": "pending",
+   "status": "applied",
    "words": "proposed",
-   "what": "The whole-article faithfulness pass (his 45): the published words back where the readers found a loss or shift in my wording or Emulate's, in candidate sections (fix-20261017b/faithful/TRIAGE.md). Applied when batch 415g reads them Human.",
+   "what": "The whole-article faithfulness pass (his 45): the published words back where the readers found a loss or shift in my wording or Emulate's, in candidate sections, where Pangram read them Human (fix-20261017b/faithful/TRIAGE.md): section 9's limit, section 15's judgment and \"prosperity came through you\", section 16's \"declaring\". Section 2's \"starving\", section 15's \"No, not that either.\" and section 16's \"change how people survive\" read AI and went to him (question 47).",
    "joel": "45 we should do a final pass to make sure it's faithful to the original i think before we are done ... i will also read it thru but if you didn't yet then you should first to save me time.",
    "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
-   "waits_for": "batch 415g and fix-20261017b/install_1716.py",
    "must_contain": [
-    "something about the current arrangement is starving them.",
     "I'm not claiming the Zapatistas already proved my whole model.",
     "Being in community isn't automatically liberating. It all depends on who is allowed to belong without pretending.",
     "had a real claim on whatever prosperity came through you later.",
-    "It can still change how people survive a divorce, an illness or grief.",
     "rather than by declaring \"money is impure!\""
    ],
    "must_not_contain": [
-    "starvin’ them",
     "It's interesting to see that being in community",
     "whatever you made of yourself later",
-    "It can still make a difference when people are going through"
+    "rather than because \"money is impure!\""
    ]
   },
   {
    "id": "all-joel-20261017-1716-43-applied",
-   "status": "pending",
+   "status": "applied",
    "words": "proposed",
-   "what": "His 43 applied in sections 15 and 16 (fix-20261017b/make_excl.py): five marks to periods in section 15 and \"No, not that either.\"; four in section 16 and \"That's it!\" out; the real reactions and his own lines kept. Applied when 415g reads them Human.",
+   "what": "His 43 applied in sections 15 and 16 (fix-20261017b/make_excl.py): five marks to periods in section 15; in section 16 four marks to periods and \"That's it!\" out; the real reactions and his own lines kept; five that Pangram or the march showed were holding their paragraph went to him (question 47).",
    "joel": "43 ... so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sernse to, or idk ask me if you need help.",
    "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
-   "waits_for": "batch 415g and fix-20261017b/install_1716.py",
    "must_contain": [
     "I find them so soothing.",
     "Spiritual graffiti still surprises me.",
     "Everybody here has sheep (even me), and they are super cute.",
+    "but it does mean someone has to handle it.",
+    "and don't expect anyone to hand you a spiritual service package.",
+    "Less cinematic, I know.",
+    "in one go.",
+    "Or a sauna.",
+    "And practice before you have an audience.",
     "And the humor!",
     "Every morning!",
     "That's fine!",
-    "Or a sauna.",
-    "And practice before you have an audience.",
-    "No, not that either."
+    "No, not that either!",
+    "One disagreement is enough!",
+    "Really, go!"
    ],
    "must_not_contain": [
     "I find them so soothing!",
-    "That's it!",
-    "Spiritual graffiti still surprises me!"
+    "Spiritual graffiti still surprises me!",
+    "talk. That's it!"
    ]
   }
  ]

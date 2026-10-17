@@ -42,7 +42,8 @@ assert [len(x[1]) for x in P] == [3, 6, 11] and [len(x[1]) for x in R] == [3, 6,
 IDS = [['H1-P%d' % i for i in range(1, 4)], ['H2-P%d' % i for i in range(1, 7)], ['H3-P%d' % i for i in range(2, 12)]]
 PUB = [P[0][1], P[1][1], P[2][1][1:]]          # the published H3-P1, the lead-in line, went in the dedup
 BATCHES = sorted(p for p in S16.glob('b[34]*') if (p / 'drafts.json').exists()) + [C / 'fix-20261017' / 'b410', C / 'fix-20261017' / 'b412',
-           C / 'fix-20261017' / 'b413', C / 'fix-20261017b' / 'b415']
+           C / 'fix-20261017' / 'b413', C / 'fix-20261017b' / 'b415', C / 'fix-20261017b' / 'b417',
+           C / 'fix-20261017b' / 'b418', C / 'fix-20261017b' / 'b419']
 BATCHES = [b for b in BATCHES if (b / 'drafts.json').exists()]
 CHECK = {p: g for p, g in page_checks.alone(md, BATCHES)}
 BDIR = next(d / BATCH for d in (S16, C / 'fix-20261017', C / 'fix-20261017b') if (d / BATCH).exists())
@@ -56,10 +57,12 @@ NOTE = {
            'antagonistic to the spirit of community"). Your 13:11 "quietly" stays out. The first money stage isn\'t repeated here '
            '(section 4 says it in your words).'),
  'H2-P1': '"That\'s fine!" stays: with a period it read curt to a fresh reader, your "That\'s it!" shape.',
- 'H2-P3': 'Your 43, your own example: "That\'s it!" is out (the phrase, not just the mark).',
- 'H2-P4': ('From the faithfulness pass: "It can still change how people survive a divorce, an illness or grief.", your published '
-           'claim, for "make a difference when people are going through". "already contains a real piece of community" stays '
-           'out: section 13 opens with it (the overnight dedup).'),
+ 'H2-P3': ('Your 43, your own example: "That\'s it!" is out (the phrase, not just the mark). Pangram read the paragraph Human '
+           'with both neighbors (415g, 418g).'),
+ 'H2-P4': ('"It can still make a difference when people are going through ..." stays: the faithfulness pass put your published '
+           '"change how people survive" in, and it read AI with the paragraph before it (415g 0.88, 417g 0.87) and brought AI '
+           'windows into the section (question 47). "already contains a real piece of community" stays out: section 13 opens '
+           'with it (the overnight dedup).'),
  'H2-P5': 'Your 43: "Or a sauna." with a period (deadpan; the sauna is the joke).',
  'H2-P6': '"Trust me on this one." vouches from your own experience where the published didn\'t (question 47 c).',
  'H3-P1': 'Your 43: "And practice before you have an audience." with a period (your published sentence had one).',
@@ -94,9 +97,9 @@ out = {'title': 'Practice Comes Before Property · section 16 (%s, %s) beside th
                     '; one AI window of %s words, from the showers sentence into the land line, question 42' % win[0].split(', ')[-1]
                     if win else '', whole[5]),
                  'What changed this evening: the exclamations your way (your 43: the mark becomes a period only where the '
-                 'sentence reads right with one; real reactions and your own lines stay; "That\'s it!" is out), and two fixes from '
-                 'the whole-article faithfulness pass (your published words back). Two exclamations that are their paragraph\'s '
-                 'only turn are question 47.'],
+                 'sentence reads right with one; real reactions and your own lines stay; "That\'s it!" is out), and one fix from '
+                 'the whole-article faithfulness pass ("rather than by declaring", your published word). Pangram checked the '
+                 'section one change at a time (418g, 419g). What it or the march showed was holding a paragraph is question 47.'],
        'blocks': blocks}
 (S16 / 'page').mkdir(exist_ok=True)
 mp = S16 / 'page' / ('ic16-%s.json' % DRAFT[:-3])

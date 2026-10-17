@@ -710,14 +710,15 @@ So this is a global issue, far from some Western lifestyle niche. There's still 
 
 Oh, and a practical note: getting my residency in Sénégal was pretty cheap and straightforward. French and Wolof matter a lot more than English. And the country's famous ideal of Teranga (hospitality) is real in my life. I'm staying in a friend's family's house, and they won't let me pay rent! Can you believe it? Of course that generosity lives right alongside watchfulness, social conservatism, bureaucracy and all the usual complications of a real country.
 
+<!-- CANDIDATE: section 16 v29 (2026-10-17, after Joel's 17:16 message): v28 with the changes 418g read Human one at a time (fix-20261017b/make_batch418.py, S16-e): five exclamations his way (his 43) and the faithfulness pass's "rather than by declaring"; the rest are question 47. Pangram web app: every changed paragraph Human alone or with its neighbor, the whole section Human (https://www.pangram.com/history/e7eb8d4b-eecc-4a7c-889c-820212e2f8e8). Records: fix-20261017b/. Before: -->
 <!-- CANDIDATE: section 16 v28 (2026-10-17, after Joel's 13:11 message): v26 kni, the best faithful version (Mostly Human, 0.32, one 61-word window, 399g), with his lines for that stretch (question 42: "And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that! Look before you leap. It will really save you some time & money.") and "quietly" out of the opening (his correction). Every changed paragraph Human alone or with its neighbor (410g) and the whole section 100% Human (412g); key words PASS; the repeated pauses answered (fix-20261017/DISPOSITIONS-PAUSES-20261017.md). Records: s16/make_v28.py, fix-20261017/. Not accepted until Joel says so. -->
 # Practice Comes Before Property
 
 Most people try and do community in the wrong order. "First let's get land!" "Then let's write down a vision document!" "And whoever's putting in the money can own the place!" And the emotional side of things? That doesn't get done until "later on, when everyone has more time".
 
-It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know! (It would make for a pretty bad movie.)
+It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know. (It would make for a pretty bad movie.)
 
-Same with money: do it in stages. Don't try and fly right to the economic destination in one go! Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than by declaring "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
 
 ## If You Can’t Move
 
@@ -729,17 +730,17 @@ I realize that for most people reading this there are a lot of reasons why they 
 
 People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It's a more beautiful view for sure, but now you have the conflict PLUS goats.
 
-So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. That's it! And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
+So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
 
 A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.
 
-Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna! And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a [cuddle puddle](http://cuddleparty.com/).
+Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a [cuddle puddle](http://cuddleparty.com/).
 
 Trust me on this one. If three households keep showing up for each other like this for six months, you'll learn more than you would from another year of daydreaming about the ideal village.
 
 ## What to Do This Month
 
-So what do you actually do this month? Start doing some inner pl/ork, with the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) or with another serious practice you already trust. And practice before you have an audience!
+So what do you actually do this month? Start doing some inner pl/ork, with the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) or with another serious practice you already trust. And practice before you have an audience.
 
 Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. One disagreement is enough! You can talk about a shared future later.
 

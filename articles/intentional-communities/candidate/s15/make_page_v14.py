@@ -30,17 +30,16 @@ P, R = sections((S15 / 'v0.md').read_text(encoding='utf-8')), sections(v12)
 assert [len(x[1]) for x in P] == [len(x[1]) for x in R] == [5, 7, 8], ([len(x[1]) for x in P], [len(x[1]) for x in R])
 IDS = [['H1-P%d' % i for i in range(1, 6)], ['H2-P%d' % i for i in range(1, 8)], ['H3-P%d' % i for i in range(1, 9)]]
 BATCHES = sorted(p for p in S15.glob('b3*') if (p / 'drafts.json').exists()) + [C / 'fix-20261017' / 'b410', C / 'fix-20261017' / 'b412',
-           C / 'fix-20261017b' / 'b415']
+           C / 'fix-20261017b' / 'b415', C / 'fix-20261017b' / 'b417']
 CHECK = {p: g for p, g in page_checks.alone(v12, BATCHES)}
-r338 = json.loads((C / 'fix-20261017b' / 'b415' / 'b415-results.json').read_text(encoding='utf-8'))['S15v14']
+r338 = json.loads((C / 'fix-20261017b' / 'b417' / 'b417-results.json').read_text(encoding='utf-8'))['S15v14b']
 NOTE = {
  'H1-P2': 'Your 43: "I find them so soothing." with a period (a calm feeling; the published "I find them deeply soothing.").',
  'H1-P3': '"And the humor!" stays: a real reaction, and with a period it would read flat (your 43).',
  'H1-P4': 'Your 40 a: "so much is taken care of by" stays.',
  'H1-P5': 'Your 43: "Spiritual graffiti still surprises me." with a period, after the graffiti\'s five exclamations.',
- 'H2-P1': ('Your 43: "No, not that either." with a period. It opens the passage on the anti-gay law, prison and mob violence, and '
-           'the whole-article reader found the "!" softened the article\'s bluntness at its gravest point (published: "I don\'t want '
-           'to turn this into Sénégal as a surviving communal paradise either.").'),
+ 'H2-P1': ('"No, not that either!" stays for now. The whole-article reader found the "!" softens the bluntness right before '
+           'the anti-gay law, and with a period the paragraph read AI with the next one (415g, 0.34): question 47.'),
  'H2-P3': ('From the faithfulness pass: your published judgment back, "Being in community isn\'t automatically liberating. It all '
            'depends on who is allowed to belong without pretending.", for Emulate\'s "It\'s interesting to see that ... whether '
            'you\'re allowed" (a detached remark, and one person\'s luck where you named who the community lets belong).'),
@@ -69,13 +68,13 @@ out = {'title': 'What This Looks Like From Sénégal · section 15 (v14, in the 
        'meta': 'Community article · section 15 · v14, 2026-10-17 evening · in the article, not accepted until you say so',
        'intro': ['Your published section is on the left; v14, now in the article, is on the right. Each row shows the check that read '
                  'that paragraph alone (your rule: every paragraph passes alone).',
-                 'The whole section reads %s (415g, %s words, AI likelihood %.2f): https://www.pangram.com/history%s'
+                 'The whole section reads %s (417g, %s words, AI likelihood %.2f): https://www.pangram.com/history%s'
                  % (r338[0].replace(' Written', ''), r338[2], r338[1], r338[5]),
                  'How it was made: Emulate rewrote the section (five rounds, the last ones on single paragraphs), and your meaning '
                  'went back inside its sentences; meaning checks then compared every paragraph with yours and caught where a '
                  'point had slipped, each fixed before the Pangram checks. Nothing was cut as a repeat: each place that says '
                  'something another section says carries its own point here.',
-                 'What changed this evening: the exclamations your way (your 43: the mark becomes a period only where the sentence '
+                 'What changed this evening: five exclamations your way (your 43: the mark becomes a period only where the sentence '
                  'reads right with one; the real reactions stay), and two fixes from the whole-article faithfulness pass (your '
                  'published words back). Each changed paragraph has its new check in its row.'],
        'blocks': blocks}

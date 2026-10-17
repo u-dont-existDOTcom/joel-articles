@@ -6,4 +6,4 @@ Section 16 as 418g read it 100% Human (S16-d), with "Less cinematic, I know." an
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16-e | Human | S16-d read 0.26 in one window; each period's paragraph read Human in 415g | |
+| S16-e | Human | S16-d read 0.26 in one window; each period's paragraph read Human in 415g | **Human** (Human Written, high, 868 words, AI likelihood 0.24), 18:39:34, [check](https://www.pangram.com/history/e7eb8d4b-eecc-4a7c-889c-820212e2f8e8) |

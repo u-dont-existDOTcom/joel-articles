@@ -75,7 +75,7 @@ Sections 10, 11 and 12: no findings (11 and 12 are almost all his text).
 | D7 | S13, 15, 16 | closers missing | The tool bug; the article is fine. |
 | D8 | S15, "All is not well" P3 | SHIFT, medium: "It's interesting to see that ... whether you're allowed" for "Community itself isn't automatically liberating. Everything depends on who is permitted" | Fixed: "Being in community isn't automatically liberating. It all depends on who is allowed to belong without pretending." |
 | D9 | S15, Black Tax P1 | SHIFT: "whatever you made of yourself later" for "whatever prosperity later came through you" | Fixed: "whatever prosperity came through you later". |
-| D10 | S16, "If You Can't Move" | LOST, medium: "already contains a real piece of community"; "make a difference" for "change how people survive" | Half fixed: "It can still change how people survive a divorce, an illness or grief." (published), with the installed paragraph before it (415g read the pair AI, 0.88, while "That's it!" was cut there; 417g reads it as installed). "already contains a real piece of community" stays out: the overnight dedup cut it under his 02:07 rule because section 13 opens with it ("Your Little Forming Group Already Is the Community"), and the page listed it. |
+| D10 | S16, "If You Can't Move" | LOST, medium: "already contains a real piece of community"; "make a difference" for "change how people survive" | Tried: "It can still change how people survive a divorce, an illness or grief." (published). It read AI with the paragraph before it (415g 0.88; 417g 0.87 with "That's it!" there) and brought two AI windows into the section, which went when it went (418g). Taken back; question 47. "already contains a real piece of community" stays out: the overnight dedup cut it under his 02:07 rule because section 13 opens with it, and the page listed it. |
 | D11 | S16 | QUESTION: "Trust me on this one." vouches from experience | Question 50. |
 | D12 | Appendix | LOST: "sequencing" gone from Creating a Life Together's entry | Dropped: his decision of 2026-10-16 23:38 (D1), which the page said the reading list would get too. I had put "sequencing" back before checking the page's decided list, and took it out again. |
 
@@ -86,7 +86,7 @@ The spine holds: "The rewrite makes the same argument in the same order: all 17 
 | # | Finding | Decision |
 |---|---|---|
 | F1 | Section 11, his own rewrite: the published hard lines ("Members can decline to share without producing a therapeutic explanation for the refusal"; a floor "the majority cannot vote away") became balances, so the answer to the spiritual failure no longer says a member may keep their inner material to themselves | Question 50 (his text; it bears on the article's main argument). |
-| F2 | Section 16: "rather than because "money is impure!"" mocks the belief, which section 4 gives as his own ("money is antagonistic to the spirit of community"); the published mocked declaring it while somebody else pays | Fixed: "rather than by declaring "money is impure!"" (published "declaring"). The section 8 half (money knowledge for every kid) is B3, now in question 49 since two readers raised it. |
+| F2 | Section 16: "rather than because "money is impure!"" mocks the belief, which section 4 gives as his own ("money is antagonistic to the spirit of community"); the published mocked declaring it while somebody else pays | Fixed: "rather than by declaring "money is impure!"" (published "declaring"), Human alone (417g) and in the section (419g). The section 8 half (money knowledge for every kid) is B3, now in question 49 since two readers raised it. |
 | F3 | Christian's order gone in section 13 and the appendix | Dropped: his decision of 2026-10-16 23:38 (D1, D12). |
 | F4 | Section 12, "free resource/capacity" before "free resource" is introduced | Dropped: his decision of 2026-10-14 ("free resource should be free resource/capacity at first not 2nd so it's defined where it first comes in"). |
 | F5 | Section 8, Tamera: "repeated some of these old Kibbutz failings" and "weren't as dogmatic as I originally thought" | Dropped: his text, and both can be true (the reader says so too). |
@@ -97,3 +97,12 @@ The spine holds: "The rewrite makes the same argument in the same order: all 17 
 | F10 | New facts: the Island Pond judge, the Amish "2-year period" | The judge: kept; it's the raid's history in the linked report (the court released the children the same day for want of specific evidence about any child). The Amish: question 49 (his text, likely wrong). |
 | F11 | Section 8, "or a reason to dismiss a report" gone | Question 49 (B2). |
 | F12 | Section 15, "No, not that either!" before the anti-gay law: bluntness softened at the gravest point | Tried: "No, not that either." The paragraph then read AI with its neighbor (415g, 0.34, the AI window exactly that paragraph): the "!" holds the question-and-answer it's built on. Taken back; his paragraph to help with (question 47). D8's fix covers the second half of the finding. |
+
+## What Pangram made of the fixes (415g to 419g)
+
+In: section 9's limit (415g, alone 0.05, section 0.12), section 15's judgment and "prosperity came through you" (415g; section
+417g 0.15), section 16's "declaring" (417g alone 0.00; section 419g 0.24). Out, to Joel (question 47): section 2's "starving"
+(0.60 alone), section 15's "No, not that either." (0.34 with its neighbor), section 16's "change how people survive" (0.88 and
+0.87 with the paragraph before). Section 16 needed four rounds: twice the section read AI in two windows, and adding one
+change at a time to the installed section (418g) showed both windows came with "change how people survive"; the marks and
+"That's it!" were fine (419g, 100% Human).

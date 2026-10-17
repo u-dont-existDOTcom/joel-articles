@@ -18,7 +18,9 @@ questions (fix-20261017b/faithful/TRIAGE.md has every finding and what happened 
   that either!" (the whole-article reader found the "!" softened the bluntness before the anti-gay law, REPORT-FOREST.md
   [12]); with the period the paragraph read AI with its neighbor (415g, 0.34, the AI window exactly that paragraph), so the
   "!" holds the question-and-answer the paragraph is built on, and by his 43 that paragraph is his to help with (question 47).
-- Section 16 (on top of v29's exclamations): "If You Can't Move", the published "change how people survive" for "make a
+- Section 16 (on top of v29's exclamations): tried and taken back, the published "change how people survive" for "make a
+  difference when people are going through" (Pangram read it AI with the paragraph before it, 415g 0.88 and 417g 0.87, and it
+  brought two AI windows into the section; question 47). Was: "If You Can't Move", the published "change how people survive" for "make a
   difference when people are going through" (published: "It can still change how people survive divorce, illness, grief,
   parenting, and ordinary loneliness."). The reader's other half, "already contains a real piece of community", stays out:
   the overnight dedup cut it under his 02:07 rule because section 13 opens with it, and he saw that listed. REPORT-D.md. And
@@ -62,14 +64,16 @@ FIXES = {
          "Being in community isn't automatically liberating. It all depends on who is allowed to belong without pretending."),
         ('had a real claim on whatever you made of yourself later.', 'had a real claim on whatever prosperity came through you later.')]),
     '# Practice Comes Before Property': (C / 's16' / 'v29.md', C / 's16' / 'v29.md', [
-        ('It can still make a difference when people are going through a divorce, an illness or grief.',
-         'It can still change how people survive a divorce, an illness or grief.'),
         ('rather than because "money is impure!"', 'rather than by declaring "money is impure!"')]),
 }
 out = art
 for h1, (dst, src, pairs) in FIXES.items():
     text = src.read_text(encoding='utf-8').strip() if src else sec(art, h1)
     for old, new in pairs:
+        # a section taken from the article is already fixed once it's installed (2026-10-17: re-running this after the install
+        # put section 9's sentence in twice, and the install script then put the doubled version in the article)
+        if new in text and old in new:
+            continue
         assert text.count(old) == 1, (h1, old)
         text = text.replace(old, new)
     dst.write_text(text + '\n', encoding='utf-8')

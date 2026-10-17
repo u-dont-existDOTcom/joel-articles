@@ -6,11 +6,9 @@ Each change below says which of his three it is. Tried and taken back: "That's f
 fix-20261017b/TONE-excl.md: on its own after the list of reasons it reads curt, the shape of his "That's it!" example), and
 cutting "One disagreement is enough!" and "Really, go!" (each was its paragraph's only break in both march reads,
 march-r1/, so the cut would make a paragraph of steps: what he means by fixing the structure, not the mark). Those two go to
-him (question 47). And cutting "That's it!" (his own example): the tone check found the cut fine, but Pangram read the
-paragraph with its neighbor 88% AI without it (415g, S16v29-H2P4+prev), so it's a real emphasis the paragraph needs: kept.
-And "Less cinematic, I know." and "in one go.": each paragraph read Human, but section 16 read AI across the two (415g, a
-94-word window from "It would be better to get together" to "a common purse"): back to "!", and to him with question 47,
-since the window is the "and ... and ... and" list Emulate built (O14), which is his order in its words. Kept, as real reactions or his own: section 15's "And the humor!", "No, not
+him (question 47). Pangram, one change at a time (fix-20261017b/make_batch418.py, 418g and 419g): the AI windows that
+section 16 showed in 415g and 417g came with the faithfulness pass's "It can still change how people survive" (which goes to
+him too), not with these marks; without that sentence the section reads 100% Human with all five changes below (419g). Kept, as real reactions or his own: section 15's "And the humor!", "No, not
 that either!", "Every morning!" (published), "they won't let me pay rent!"; section 16's quoted founders' lines ("First let's
 get land!" ...), "money is impure!" (a quoted slogan), and his "studio apartments!" and "any of that!" (his 42).
 Writes s15/v14.md and s16/v29.md from v13 and v28. Run from candidate/: python3 fix-20261017b/make_excl.py"""
@@ -35,6 +33,14 @@ CHANGES = {
          'advice; the "!" made it scold (published: "and do not arrive expecting a spiritual service package.")'),
     ],
     's16': [
+        ('H1P2', 'period', 'Less cinematic, I know! (It would make for a pretty bad movie.)',
+         'Less cinematic, I know. (It would make for a pretty bad movie.)',
+         'a wry concession reads right with a period; the joke is in the brackets'),
+        ('H1P3', 'period', "Don't try and fly right to the economic destination in one go!",
+         "Don't try and fly right to the economic destination in one go.", 'advice, not a reaction'),
+        ('H2P3', 'cut', " That's it!", '',
+         'his example ("you can\'t change "That\'s it!" to "that\'s it.""): the phrase itself goes; "two people and a private place '
+         'to sit and talk" already says how little it takes'),
         ('H2P5', 'period', 'Or a sauna!', 'Or a sauna.', 'deadpan reads right; the sauna is the joke'),
         ('H3P1', 'period', 'And practice before you have an audience!', 'And practice before you have an audience.',
          'advice (published: "Practice before you have an audience.")'),

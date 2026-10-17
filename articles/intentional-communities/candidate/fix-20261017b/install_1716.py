@@ -2,14 +2,14 @@
 v14 and section 16 v29, each in place of the section now there, with a new CANDIDATE note in front of the old one. Section 12
 v15 went in already (install_44c.py); section 2 stays as it is (question 47). Each section goes in only if its whole-section
 check and every check of its changed paragraphs (the exact final text) read Human: section 9 in 415g, section 15 in 415g and
-417g, section 16 in 418g. Idempotent. Run from candidate/: python3 fix-20261017b/install_1716.py [S16-KEY]"""
+417g, section 16 in 415g, 417g, 418g and 419g. Idempotent. Run from candidate/: python3 fix-20261017b/install_1716.py [S16-KEY]"""
 import json, pathlib, re, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 C = HERE.parent
 ART = C / 'HUMANIZED-SO-FAR.md'
 R = {}
-for b in ('b415', 'b417', 'b418'):
+for b in ('b415', 'b417', 'b418', 'b419'):
     f = HERE / b / ('%s-results.json' % b)
     if f.exists():
         R.update(json.loads(f.read_text(encoding='utf-8')))
@@ -29,11 +29,12 @@ SECT = [
      'later"); "No, not that either!" stays (question 47)'),
 ]
 if S16:
-    G418 = json.loads((HERE / 'b418' / 'GATE.json').read_text(encoding='utf-8'))
+    G418 = json.loads((HERE / ('b419' if S16 == 'S16-e' else 'b418') / 'GATE.json').read_text(encoding='utf-8'))
     SECT.append(('# Practice Comes Before Property', C / 's16' / 'v29.md', S16, [p for p in G418[S16]['parts'] if p != 'installed'],
                  '<!-- CANDIDATE: section 16 v28',
                  'section 16 v29 (2026-10-17, after Joel\'s 17:16 message): v28 with the changes 418g read Human one at a time '
-                 '(fix-20261017b/make_batch418.py, %s); the rest are question 47' % S16))
+                 '(fix-20261017b/make_batch418.py, %s): five exclamations his way (his 43) and the faithfulness pass\'s "rather than by '
+                 'declaring"; the rest are question 47' % S16))
 md = ART.read_text(encoding='utf-8')
 for h1, path, key, parts, old_note, what in SECT:
     bad = [k for k in [key] + parts if k not in R or not R[k][0].startswith('Human') or '; AI' in R[k][3]]

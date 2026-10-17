@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1780,
-  "right": 1297,
+  "calls": 1824,
+  "right": 1328,
   "since_review": {
-   "calls": 1378,
-   "right": 1042,
-   "passed": 820
+   "calls": 1422,
+   "right": 1073,
+   "passed": 854
   },
   "today": {
-   "calls": 828,
-   "right": 641,
-   "passed": 505
+   "calls": 872,
+   "right": 672,
+   "passed": 539
   }
  },
  "windows": [
@@ -249,10 +249,10 @@
   {
    "from": 410,
    "to": 419,
-   "calls": 25,
-   "right": 24,
-   "passed": 23,
-   "always_ai_right": 2
+   "calls": 69,
+   "right": 55,
+   "passed": 57,
+   "always_ai_right": 12
   }
  ],
  "misses": [
@@ -4956,6 +4956,188 @@
    "pct": 100.0,
    "res_raw": "AI (AI Generated, low, 52 words, AI likelihood 0.72), 13:49:45, [check](https://www.pangram.com/history/234cf5d4-3391-4f1f-a8fc-c64daf04dbed)",
    "where": "fix-20261017/b410/PREDICTIONS-scored.md:22",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S2v33-P2",
+   "mine": "Human",
+   "why": "one word, the published \"starving\"; the paragraph read Human before",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, low, 53 words, AI likelihood 0.60), 18:22:52, [check](https://www.pangram.com/history/0396689d-e81c-42c6-afb5-206b28666d93)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:7",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S15v14-H2P3",
+   "mine": "AI",
+   "why": "two plain published declaratives in place of Emulate's loose sentence: a landing pair (\"isn't automatically X. It all depends on Y\")",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 55 words, AI likelihood 0.03), 18:23:23, [check](https://www.pangram.com/history/8f41184a-66ac-4a6d-a9f8-d4c1c9ae8f9d)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:10",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S16v29-H2P4+prev",
+   "mine": "Human",
+   "why": "the same pair from the other side",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, low, 82 words, AI likelihood 0.88), 18:23:56, [check](https://www.pangram.com/history/0fd7ce7d-bd35-405c-a34d-3b704105dd49)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:13",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S15v14-H2P1+next",
+   "mine": "Human",
+   "why": "one mark, beside the law paragraph",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: AI-Generated, Medium, 38; Human, Medium, 95, 133 words, AI likelihood 0.34), 18:24:17, [check](https://www.pangram.com/history/ae28a8ca-e8ee-469a-8034-ac4bca1005ec)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:15",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S16v29-H2P3+prev",
+   "mine": "AI",
+   "why": "\"That's it!\" was its turn; without it the inner pl/ork paragraph is two instructions and a list question",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 83 words, AI likelihood 0.07), 18:26:14, [check](https://www.pangram.com/history/a22e83b0-0975-4950-b6bb-b2e66ac98353)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:26",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S2v33",
+   "mine": "Human",
+   "why": "one word in a section that read 100% Human",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: AI-Generated, High, 111; Human, High, 516, 627 words, AI likelihood 0.31), 18:26:57, [check](https://www.pangram.com/history/16fd6a62-410e-475b-913d-63b26d6fa345)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:30",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S16v29",
+   "mine": "Human",
+   "why": "four marks, a phrase out and two published phrases in a section that read 100% Human (0.29)",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 57; AI-Generated, High, 94; Human, High, 177; AI-Generated, High, 92; Human, High, 444, 864 words, AI likelihood 0.35), 18:27:29, [check](https://www.pangram.com/history/c1e00872-ed1c-481c-b2b2-5037e4f87718)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:33",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-A46",
+   "mine": "AI",
+   "why": "my new paragraph: three declaratives in a chain and a bracketed aside; the march found only the aside",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, low, 53 words, AI likelihood 0.10), 18:27:39, [check](https://www.pangram.com/history/bfa7ffb4-bc61-4c26-8c7f-8b2e9c714478)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:34",
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 415,
+   "name": "415g-S2-A46",
+   "mine": "Human",
+   "why": "one new paragraph and a caption in a section that read 100% Human",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: AI-Generated, High, 111; Human, High, 578, 689 words, AI likelihood 0.32), 18:28:01, [check](https://www.pangram.com/history/82b7e709-9505-4047-8dd2-f78ba8356a4f)",
+   "where": "fix-20261017b/b415/PREDICTIONS-scored.md:36",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 417,
+   "name": "417g-S16v29b-H2P4+prev",
+   "mine": "Human",
+   "why": "the installed inner pl/ork paragraph, with \"That's it!\", and \"change how people survive\"",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, low, 85 words, AI likelihood 0.87), 18:34:16, [check](https://www.pangram.com/history/7aa07fc4-5ec1-4edd-8232-85abb8866f4b)",
+   "where": "fix-20261017b/b417/PREDICTIONS-scored.md:7",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 417,
+   "name": "417g-S16v29b",
+   "mine": "Human",
+   "why": "four changes left (two marks, two published phrases); the two AI windows of 415g ran across the take-backs",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 57; AI-Generated, Medium, 94; Human, High, 180; AI-Generated, High, 98; Human, High, 438, 867 words, AI likelihood 0.39), 18:34:28, [check](https://www.pangram.com/history/e6acc601-2f80-486d-a31f-085940e614fe)",
+   "where": "fix-20261017b/b417/PREDICTIONS-scored.md:8",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 417,
+   "name": "417g-S2-A46b",
+   "mine": "Human",
+   "why": "section 2 as installed, with the anomie paragraph (0.10 alone) and the caption",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: AI-Generated, High, 58; Human, High, 631, 689 words, AI likelihood 0.30), 18:34:49, [check](https://www.pangram.com/history/dee86295-b81f-4e21-be1f-c4f29c7ca495)",
+   "where": "fix-20261017b/b417/PREDICTIONS-scored.md:10",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017b",
+   "batch": 418,
+   "name": "418g-S16-c",
+   "mine": "Human",
+   "why": "both of those",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 331; AI-Generated, Medium, 96; Human, High, 444, 871 words, AI likelihood 0.28), 18:37:35, [check](https://www.pangram.com/history/d992f4d4-30dd-46aa-b783-b4a73e8d48d7)",
+   "where": "fix-20261017b/b418/PREDICTIONS-scored.md:7",
    "passed": false,
    "right": false,
    "text": ""
