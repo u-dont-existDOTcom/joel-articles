@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-17 (turn 66). **Nine open questions (32 to 40)**: what the 12-hour run couldn't finish without you. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-17 (turn 69). **Three open questions (42 to 44).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,84 +8,110 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-> [!IMPORTANT]
-> Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
+### 🟣 42. The lessons in the pull request
 
-### 🟣 32. If You Want to Kill Yourself: the "adult in the room" step
+You were right that one of them was wrong. Lesson E188 said your published lines are your words, and two of them turned out to be paraphrases of you. Lesson E189 corrects it in the same pull request: a first-person line from your published guide is your story, but its wording counts as yours only once you've seen it whole, in its section, and said so (question 43 shows you the rest). What stands from E188: before I tell you something isn't yours or isn't in the original, I check every copy; a typo note says what you typed and what I put; and every sentence gets a march read before I ask you for help. The pull request's other lessons are E186 (the help-request format; a list of three in my sentences blocks the check unless it ends on a catch-all like your "whatever works"; "can ... without ...ing" blocks too) and E187 (a result is cited by its text, not its file name).
+- **A. Those are fine now.**
+- **B. Others are wrong too** (say which).
 
-> Then, before getting philosophical, make sure there's a grown-up in the room. When the part that wants to die feels like all of you, it can help to notice who's doing the noticing (Noticing Counts), or to borrow an adult. Any part of you that can watch, or wants to keep your body safe, or would rather wait on a decision you can't undo, is welcome. And if none of them shows up yet? Then the questions wait, and the person you called is the adult for now. If you can already watch the suicidal state without being swallowed by it, go ahead to the questions.
+### 🟣 43. Your published first-person lines, whole: your words, or a paraphrase?
 
-Eleven versions of this step read AI alone (this one 0.98, https://www.pangram.com/history/128b91f8-39f6-45e1-af83-5592621a1047), so the section isn't in: its crisis steps and four other paragraphs read Human alone, and without this step the section reads AI Detected (0.30, https://www.pangram.com/history/60c9def8-bc78-4c93-a267-5a084b6e54a2). Two more lines there are yours to call: the crisis paragraph's "This isn't me answering whether life is worth living" speaks as you, and the guide's "the accumulating scientific evidence" (that the mind's causal process goes on after the body dies) is a claim. Every try is in PARKED.md.
-- **A. Your words** for this step, and for any crisis line you want worded your way.
-- **B. Leave the section out** for now (the default).
+Two of the lines I showed you in turn 68 turned out to be paraphrases of you, and you caught them once you saw them in context. So here is every first-person line of your published guide that's in the article or headed for it, whole this time, with its section. They're quoted from your October guide; your September article has the same words. Answer by number: **A. My words**, **B. My words instead:** (and yours), or **C. Leave it out**.
 
-### 🟣 33. Borrowed Adulthood in Relationship, P2
+In the article now (you saw these shortened):
+1. A Heart-to-Child Loop: "The solar plexus is the most vulnerable part of the torso. One punch there hurts a lot, as I sadly learned while getting beaten up every day at kindergarten recess by a gang organized by my best friend. Can you believe it?" (The article goes on: "So it makes sense to look for your little one there.")
+2. If You Want to Kill Yourself: "My father used to tell suicidal people:" and, on its own line, "“Oh, you want to kill yourself? That’s wonderful. Now you can change what you’ve always been too afraid to change in your life, and then see if you still want to end it!”" (The article joins the two with a comma, then goes on: "His point wasn't that dying is wonderful.")
 
-> Say they're the one who always remembers your appointments. Over time, reparenting can help you take in some of what they've been doing for you, and start doing it yourself, the calendar part included. What you're after is care your little one can count on from more than one place, while the relationship stays precious and important. Other jobs can go to friends or community, to professionals or services, or to routines and simple tools. Which of these could become more yours? Some are healthiest shared, and some really do belong inside that relationship.
+Going in with their sections:
 
-P1 reads Human alone; this P2 read AI in thirteen versions (this one 0.96, https://www.pangram.com/history/8bf7c43a-fbba-4044-9c6b-8153749d44cb; the guide's list of where jobs can go, and its three questions, every time).
-- **A. Your words** (or a word on whether the three questions could be one).
-- **B. Leave the section out** for now (the default).
+3. Speak Toward What You Are Building: "Hearthwork, my peer-counseling framework, begins: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality." Your Hearthwork article has the same lines after "The basic premise is:", and the version that reads Human this turn joins the two: "The basic premise of Hearthwork, my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality."
+4. Speak Toward What You Are Building: "This is part of why I connect inner-child pl/ork with Hearthwork and with building community."
+5. "And So That's the Way It Happened!": "My ex, Xandria, taught me to append “And so that’s the way it happened!” to a difficult memory."
+6. This human life is the most precious opportunity: "As I mentioned in my nibbana article, I’ve had my most profound spiritual peak experiences and realizations when I had the least interest in continued existence."
+7. Altered States Can Deepen the Therapy: "When you’re ready, my self-hypnosis guide or lucid-dreaming guide can take it deeper."
+8. Altered States Can Require Reparenting, your stories, paragraph by paragraph as the guide has them:
+   - "Have you ever been attacked by a literal demon? Maybe during sleep paralysis or meditation or on a psychedelic trip? A lot of modern folk laugh at this, yet it’s really quite a common experience. I was being psychically attacked by ghosts in my home as a child. Because I was literally a child, I was an easy target. And since most people never actually grew up, they are easy targets for every kind of influence, including spirit influence."
+   - "Those ghosts knew my weakness: dares. So they would dare me to jump out the window. I wasn’t suicidal, but I hated to seem like a “wussy.” Luckily, I trusted my parents with this information, and instead of taking me to a psychiatrist and pumping me full of anti-psychotic drugs, they put bars on the windows. Many kids are not so lucky in modern societies. They may get pumped full of anti-psychotic drugs for the rest of their life once diagnosed. That said, professional assessment may be warranted in some situations. I still played around with half-hanging out the windows, but I wasn’t quite dumb enough to jump out, and it meant something that my parents took it seriously."
+   - "As a semi-adult, age 26, I discovered meditation. After I began meditating deeply for a while, it seemed like my astral portal opened. I started getting attacked by spirits during sleep paralysis. They would sit on me, prevent me from breathing, and instill tremendous fear into the core of my being."
+   - "After multiple episodes of this I decided to stop giving in to the victim mentality, and to start taking it seriously as a part of spiritual practice. My inner guide saw it as a perfect opportunity to demonstrate the power of love over fear. The next time it happened, despite how scary it was, I sent unconditional love to this demon on me. It took some minutes, but once that love was seen as enduring, the demon left, and it never returned."
+   - "I’ve also trained other people to do this during spiritual attack while on psychedelics. It works a lot better if you are already trained in loving-kindness meditation to the point where it’s natural. I’d say it works way better than exorcism techniques (like Julian Palmer’s torping, which he also admits doesn’t work as well as love)."
+   - "It definitely has worked for me sometimes when facing some thugs, but definitely not with others." (In its paragraph, after "But don’t assume it will always work like that in the physical plane.")
+   - "If I were to do that, I would still be framing it as “Please help this situation with love” rather than “Strike down the enemy!”" (After "Many people also find they can borrow support from God, Jesus, angels, devas, or whatever loving spiritual presence fits their tradition.")
+   - "If a voice or urge is directing you towards harm, and you feel at risk of acting on it, as with myself and those ghosts at home, move away from that open window and get some outside support."
 
-### 🟣 34. How Much Happiness Do You Know Is Possible?, P4
+In the article in the general voice (my rewrite turned your "I" into "you"). For these, **A** means your first person back and **C** means leave it as it is:
 
-> Sometimes care isn't what's missing. The whole horizon of life feels too small. A meal can help, and so can a boundary or a kind sentence, without touching the question underneath: "Why should I want this life at all?" Or however you'd put it. Take that question seriously: what would have to be possible for being alive to feel worth discovering, instead of just something to endure?
+9. Borrow Hindsight: your guide has "I sometimes ask: “How would I respond to this once I understood it more clearly, in balance and with compassion?”" The article: "A question to borrow from your future self: "How would I respond to this once I understood it more clearly, in balance and with compassion?""
+10. How Much Happiness Do You Know Is Possible? (your guide's Somatic Heart Opening): "The horizon of what I can wish for someone is partly shaped by the happiness, peace, and freedom I know are possible." The article: "How far the wish can reach depends partly on the kind of happiness you know is possible, though."
+11. When the Practice Feels Real but Stays Shallow: "What showed me that the daytime pl/ork had stayed shallow was the difference at night." The article: "So say the dream that night carries far more feeling and need than the session came anywhere near."
+12. How to Forgive Without Forgetting: "The understanding that helps me is seeing how a person’s conditioning, history, pain, and capacity shaped the harmful move they made." The article: "What can help is seeing how they got there." And "Understanding somebody’s limitations should make my expectations more realistic, not make those limitations less consequential.", which the article carries without the "I": "Seeing how they got there doesn't make it okay", and ""I understand how you became this way" can sit right next to "I now understand why I shouldn't rely on you for this.""
 
-P1, P2, P3 and P5 read Human alone; P4 read AI in eleven versions (this one 1.0, https://www.pangram.com/history/6f86083b-7d7a-4982-920d-5760f610373a), so the h2 waits.
-- **A. Your words.**
-- **B. Leave the h2 out** for now (the default).
+Your earlier sections' first-person lines went through your answers at the time (your bedtime memory with your mom, for example, which you confirmed on 2026-10-01).
 
-### 🟣 35. The Inner Guide Comes Later, P14 ("Timing is individual")
+### 🟣 44. Speak Toward What You Are Building: three paragraphs I need help with
 
-> Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
+I can't find any more AI tells here, and I see some human tells, like these: in P1, "Well, now you're thinking about being dependent." reacts to the sentence before it, "then go ahead and name it" is a spoken marker doing a job, and the list ends on "whatever's really needed"; in P2, "Partway through all that steering, you might think, "But it really was dangerous,"" puts the step inside the reader's thought; in P5, "(a driving instructor isn't planning to drive you around forever either)" is a simile for the point, and "Is that therapy? Not really." answers its own question. Can you help show me the tells I'm missing?
 
-Two versions read Human alone, but the h1 kept an AI window on it every time (sixteen drafts in all; with this one, https://www.pangram.com/history/b5e346c0-b391-4286-9e9b-f8eb58f05ee8). PARKED.md asks whether the point could live in one sentence of P1 instead, since the heading already says the Guide comes later.
-- **A. Your words** (or that one-sentence idea).
-- **B. Leave it out** (the default).
+The rest of the section reads Human, alone and together ([Human Written 0.080, high, 452 words](https://www.pangram.com/history/5abaf6dd-ce0e-4a28-863e-8aa1374c2b99)): P3 (what kind of company someone wants), the Hearthwork paragraph (question 43, 3), P4 (what a good peer lends you), and P6 in two halves (community works both ways; your pl/ork-and-Hearthwork line, then the loop). These three never have, in 22, 23 and 18 versions over turns 65 and 69. The closest this turn:
 
-### 🟣 36. Six Simple Practices
+- **P1**, [AI Generated 0.84](https://www.pangram.com/history/32266e46-6986-43ee-b0ff-c5166a111d05):
+  > Words point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself "I'm not dependent." Well, now you're thinking about being dependent. "Let's help you build more ways to feel cared for and supported" gives your mind somewhere to go instead (unless the painful thing is itself what needs naming, then go ahead and name it). With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed.
 
-Each has paragraphs that read Human alone and one that never did: Journal With Each Hand (P1), "And So That's the Way It Happened!" (P2), One Intention in the Morning (P1), Just Like Me (P2), Use Childhood Photographs (P1; and its h2 read AI with every opener, the closest 0.84, https://www.pangram.com/history/61e6e0d2-1715-43ac-bc7c-b2e6eb8e49fd) and Close the Session (its only paragraph). My best version of each, with every try, is in PARKED.md.
-- **A. Your words** for any of them (say which).
-- **B. Leave them out** for now (the default).
+  My march read: sentences 1, 2, 4 and 5 are each the guide's next step, and 5 is the predictable last instruction. Growing it out of an image instead ("make it something they can picture, like a warm kitchen or a door that locks") read AI too (0.93 to 0.99), and so did plain words for the guide's quoted sentence ("Let's find you more ways to feel looked after").
+- **P2**, [AI Generated 0.96](https://www.pangram.com/history/7db7bfb3-f706-466d-8f1d-bf2a482c10aa):
+  > Grief is grief, though. Partway through all that steering, you might think, "But it really was dangerous," and if it was, it should be called dangerous. If your little one says "he hurt me," that's harm, and it gets called harm, not "a learning experience." Same for anger, a no, who's responsible, what's possible in practice, all that. Then once it's been said, most of the words go to what you'd choose to protect or repair, and what can still be practiced or grown.
 
-### 🟣 37. When One Life Has Ended and the Next Hasn't Begun, P2 and P3
+  My march read: only sentence 2 isn't the next step. Sentence 4 finishes the guide's list, which is overcompletion, but each item is one of the guide's points, so I kept them all (you said never to take out something important to pass Pangram). Turn 65's first half of this read Human once; the second half never has, with or without "grief is grief".
+- **P5**, [AI Generated 0.81](https://www.pangram.com/history/083c924d-5bf5-4b59-9fe8-507905b91020):
+  > The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Not really. Therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both.
 
-P1 reads Human alone and with its heading. P2 (the questions for the gap; don't force a new identity; what the grown-up you keeps doing) read AI in seventeen versions (the one in PARKED.md 0.97, https://www.pangram.com/history/8a2dac64-6b71-4952-a56b-f4c3dea522ac), and P3 (missing someone as a cue for love, and its limits) in fifteen (the closest 0.94, https://www.pangram.com/history/ea1f2bb6-c561-497a-811b-4bbb765a5cc6). Both drafts are in PARKED.md.
-- **A. Your words** (or whether three of the guide's five questions are enough).
-- **B. Leave the section out** for now (the default).
+  My march read: sentences 1, 2 and 5 are the guide's steps, and 5 ends on its moral, "a serious healing path can include both". Endings without it read AI too (0.89 to 0.98).
 
-### 🟣 38. Speak Toward What You Are Building, and Hearthwork
-
-P3 and P4 read Human alone and together (0.067, high). P1, P2, P5 and P6 never did (thirteen, fourteen, eight and sixteen versions; P6's closest was 0.57, https://www.pangram.com/history/3ab1d6bc-8d97-4265-a600-5434597f5882). The guide also names Hearthwork as "my peer-counseling framework" there; the drafts leave the name out.
-- **A. Your words** for any of P1, P2, P5 and P6, and whether Hearthwork goes in, and how.
-- **B. Leave the section out** for now (the default).
-
-### 🟣 39. Your life, from the guide's first person
-
-The guide says these in its "I", and the article doesn't have them in your words, so they're left out: your father's suggestion to remember a time you met a difficulty well (Remember When You Already Did It); the kindergarten recess line (A Heart-to-Child Loop); Xandria and the story phrase ("And So That's the Way It Happened!"); your father's line to suicidal people, and "I get stricter about spirituality with suicidal people"; your deepest peaks coming when you least wanted to exist, and your nibbana article (This human life); and in the three Altered States sections, the childhood ghosts and the window, the sleep-paralysis attacks, training others on psychedelics, and your guides. Those sections aren't started, since most of their points are these, and their warnings go in only in your words, with no amounts or recipes.
-- **A. Your words** for the ones you want in (say which).
-- **B. Leave them out** (the default).
-
-### 🟣 40. "Non-judgement is a place to start."
-
-It's in the r4 guide but not the original, and I can't see where it came from, so A Heart-to-Child Loop leaves it out.
-- **A. It's yours: put it back.**
-- **B. Leave it out** (the default).
+What else I tried, in all three: lists cut to pairs or ended on a catch-all, asides, opening on the reader's thought or question, staying close to the guide in plain words (how P6's first half passed), no tautologies ("grief is grief", "useful for what therapy does"), and no repeats of what the article already says.
+- **A. Your versions** of any of them.
+- **B. The tells I'm missing**, and I'll try again.
+- **C. Leave it for now**: the section stays parked, with the five paragraphs that read Human.
+- **D. P2 can carry fewer of the guide's items** (say which can go): it would no longer finish the whole list.
 
 ## For you to do (no decision needed)
 
-> [!WARNING]
-> Comes back every turn. My merges are refused by the safety check, so it stays yours.
+### 🟠 The pull request (turns 67 to 69), when you're happy with the lessons
 
-### 🟠 Merge pull request #186 (turns 64 to 66)
-
-P11 of The Inner Guide Comes Later (turn 64); from the 12-hour run, P12, P13 and Timing Is Individual, three Simple Practices, When Love Still Feels Missing, the shallow-practice section, and the closing; and How to Forgive Without Forgetting (turn 66). The link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+It merges cleanly, and it now has lesson E189 in place of E188's first point. Merging is yours, whenever you're happy with the lessons (question 42).
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-17 18:56 UTC
+
+- 39, "i see i got paraphrased about my father... change that para to say": done. Remember When You Already Did It opens with your words and your sister's line, linked (your link had a space between ] and (, so I joined them), then my humanized version of the rest of the guide's passage: [alone Human Written 0.0048, high](https://www.pangram.com/history/7cdcbabb-5b0d-4e2c-b27e-e5cd8838a7a2), [Simple Practices Human Written 0.057, high](https://www.pangram.com/history/6ce51c25-9024-40b8-903a-2208e3dab44b). The guide's "The earlier situation need not have been harder" is carried by your "similar-level (or even harder)", so it isn't said twice. A cold read then found two words a reader had to guess at ("it" and "the memory"), so my rest now starts with "Your own challenge doesn't need to be as dramatic as that, as long as it really happened.", which also says a challenge like your example's counts without it being a dramatic one: [alone Human Written 0.011, high](https://www.pangram.com/history/5134d959-9f7d-4325-a6fd-da4e827368f8), [Simple Practices Human Written 0.064, high](https://www.pangram.com/history/e8179b15-7581-480f-b811-91cacd7b2ade).
+- "i was paraphrased for if you want to kill yourself as well. the first sentence should be expanded to": done, word for word, with one typo fixed: you typed "prosletyze", I put "proselytize". It's its own paragraph, the way that first sentence is in your guide, and my safety paragraph follows it: [your paragraph alone Human Written 0.00013](https://www.pangram.com/history/471032bf-827f-483a-8709-e15074dc9269). The same cold read found three small things in my safety paragraph (the guide's "about to act" was only half there, "a plan ... close by" didn't fit, and a "This" pointed to the sentence before it), now fixed: [the section Human Written 0.15, high](https://www.pangram.com/history/0fd5863b-a4f0-4669-b9b6-4550abf94fb4).
+- "so i assume no point merging the lessons then if that one was incorrect. right?": right, not with E188 as it was. Lesson E189 corrects it in the same pull request, and question 42 asks whether others are wrong. Merging stays yours.
+- "continue": Speak Toward What You Are Building and "And So That's the Way It Happened!" (question 44, and Coming up below).
+
+### 🟢 2026-10-17 16:58 UTC
+
+- 38, Hearthwork: you're right, and I was wrong to take it out. Your article and your guide both name it as your framework, so it's your words. It goes in when Speak Toward What You Are Building goes in, linked to [hearthwork.u-dont-exist.com](https://hearthwork.u-dont-exist.com) (it opens your Hearthwork article); that section isn't in the article yet.
+- 39, "show me exactly what you think is not in my words and what made you think that": they are your words. Every line I'd listed is in your published article and in your October guide, word for word, and nothing in them looked unlike you. What made me leave them out was a shared rule, "The source's 'I' is an AI draft of his ideas" (the humanization gate, from lessons E71 and E159), which I applied to text you published yourself. That was wrong (lesson E188). Four are back now, and each section reads Human again: your father's suggestion (Remember When You Already Did It), the kindergarten recess (A Heart-to-Child Loop), "I get stricter about spirituality, not looser" and your father's line to suicidal people (If You Want to Kill Yourself). The rest go in with their sections: Xandria with "And So That's the Way It Happened!", your peak experiences and your nibbana article with This human life, and the Altered States stories with those sections (their warnings in your words, no amounts or recipes). Turn 69: two of them were paraphrases of you after all, your father's suggestion and "I get stricter about spirituality"; your own words replace them (18:56 above), and lesson E189 corrects E188.
+- 40, A: it's in your October guide, so it's yours. My "not in the original" had compared your September article, which has "Non-cruelty is enough for a first session." in the same place. It's in now, at the end of A Heart-to-Child Loop: the h2 [Human Written 0.0052, high](https://www.pangram.com/history/8e8d9cf1-d8f1-4ed3-93a8-e84ae1990fa1), Simple Practices [Human Written 0.066, high](https://www.pangram.com/history/af0ec79f-afee-4b7c-9b53-935c9d33ac57).
+- 41: your version is in, word for word, with "feels too heavy" for "feels gets too heavy" (if you meant "gets", it's one word). When One Life Has Ended and the Next Hasn't Begun is in, [Human Written 0.20, high](https://www.pangram.com/history/aa326b66-3952-48f9-b535-d72e33e5d960). You were right: "Don't force it." was the predictable next instruction, and the things I called human tells weren't. The lesson (E188): every sentence gets its own march read before I ask, and a human tell I name has to be one of the kinds your fixes show.
+- "you called "glean" a typo?": no, the typo was what you typed in your 14:01 message, "you might even gleam from talking to family/friends" (I checked it again). "Glean" is the word you meant, and it's what the article has. My note "glean for gleam (your typo rule)" made it sound the other way round.
+- "i'm not merging anything, plus the pr has conflicts": understood. The conflicts came from main's community merge, which had used the same registry numbers; they're resolved (this lane's new tell is now W93), and the pull request merges cleanly again. Question 42 asks whether there are lessons I haven't found.
+
+### 🟢 2026-10-17 14:01 UTC
+
+- "why do you say it was a mistake to have 16-20 writer agents at once?": the limit that ran out was the Claude account's usage window, not Pangram's credits. Each writer used about 150,000 tokens, so a wave of 16 was about 2.4 million tokens every 15 to 20 minutes, back to back; when the window ran out, everything stopped (me included) for more than two hours. And they weren't paying off: rounds z14 to z20 were 112 checks for two passes, both my joins. This turn had no writer agents.
+- "for each thing you need help with, you always need to tell me "I can't find any more AI tells here, and I see some human tells, like these... can you help show me the tells I'm missing?"": lesson E186. Every help request opens with your sentence and names the human tells I see, and goes to you only after every linter flag and each tell you named (a list of three, marching order, overcompletion, vagueness, redundancy, an unclear referent, "X can ... without Y", formulaic expression) has had its own try. Question 41 is the first.
+- "we got that list of 3 going on again. how is that not detected?": it was detected, as a REVIEW, and a REVIEW didn't stop anything, so I sent it. Now a list of three in my sentence is a FAIL unless it ends on a catch-all like your "whatever works", and "can ... without ...ing" is a FAIL too (in the screens of 14 to 17 October, a paragraph with one list read Human 17% of the time, without one 29%). Your moves (the spoken marker that does a job, the simile, the question in place of a stated limit, the pointer to another section by name, the untidy last sentence) are in the writers' prompt.
+- 32, A: your step is in, word for word, and If You Want to Kill Yourself is in with it (the h1 [Human Written 0.24, high](https://www.pangram.com/history/71cbf2e1-e6dd-4d34-a1b7-96cd6b4a192f)). It needed one more thing first: its Buddhist-view paragraph had never read Human alone. PARKED.md had said it did, but that result was another file's, whose name differed by one hyphen (lesson E187); every other claim there checks out. Three plain versions close to the guide read Human alone, and a new first sentence for the momentum paragraph took the last AI window out of the h1. The two lines I'd asked about ("This isn't me answering...", "the accumulating scientific evidence") are the guide's own ("That isn't my answer", "accumulating scientific evidence"), so they stay as the guide says them.
+- 33, A: your P2 is in, word for word, after P1 (the h1 [Human Written 0.19, high](https://www.pangram.com/history/6add1dc0-16c2-41ee-81eb-be2b88d43947)). One of the two P1s read AI with your P2, so it's the other one. Your "inner relationship" settles which relationship stays precious. The guide had meant the bond with the person who's been helping, and your last sentence keeps that side ("the balance is dynamic between inner & outer reliance"), so I've left it as you wrote it.
+- 34, A: your P4 is in, word for word. With it, the h2 read AI over my P1 to P3, so they're new. P1 no longer echoes the heading, and P3 has the guide's fruits test against certainty back. The h2 reads [Human Written 0.38, high](https://www.pangram.com/history/c0f1db60-a061-432a-a565-689a841c09e2) and When Love Still Feels Missing [Human Written 0.25, high](https://www.pangram.com/history/955c23e0-561f-4652-90ef-69e7610f7663).
+- 35, A: your P14 is in, word for word, first under Timing Is Individual (the h2 [Human 0.27](https://www.pangram.com/history/16516cc7-5343-427c-928b-6a72439b2543), the h1 [Human Written 0.10, high](https://www.pangram.com/history/cb9aec61-0957-43eb-b28f-4c0f30633cae)).
+- 36, A: your Use Childhood Photographs Gently is in, word for word under your heading, with "glean" for "gleam" (your rule: obvious typos get fixed); P2 with it [Human 0.0004](https://www.pangram.com/history/f91ae99f-1b52-4f44-83c9-a6be8cb8bb2e), the h2 [Human Written 0.041, high](https://www.pangram.com/history/7171bb76-f8de-4462-8b4f-72df4f444971), Simple Practices [Human Written 0.061, high](https://www.pangram.com/history/95ad57f0-d31b-4df6-b8fa-a0a5fb780c58). Your study link opens (Wade and others, 2002). The other five parked practices are back on my list, with your lessons.
+- 37, "learn some lessons from what i gave you and you continue from there": When One Life Has Ended went from nothing passing to every piece but one reading Human alone, in thirty-one versions. The piece that's left is question 41.
+- "parked.md is where?": it's on GitHub, [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t65-guide/PARKED.md), and I've sent it with this turn's pages. From now on every file I mention gets a link.
 
 ### 🟢 2026-10-17 12:15 UTC
 
@@ -248,9 +274,11 @@ P11 of The Inner Guide Comes Later (turn 64); from the 12-hour run, P12, P13 and
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: When One Life Has Ended and the Next Hasn't Begun
+### 🔵 Next
 
-How to Forgive went in this turn. Next, section by section: When One Life Has Ended (P2 and P3), the way the forgiveness section finally went: my drafts in plain words, a join of any half that reads Human, at most four agents. If two rounds give nothing, it waits for your answer to 37, and I take Speak Toward next.
+- "And So That's the Way It Happened!": P1 with your Xandria line reads Human ([0.0063](https://www.pangram.com/history/29e78b5c-24af-4528-b385-6beadd266412)), but the practice still reads AI from P1's second half through P3 (0.49 and 0.63), as it did in turn 65. P2 and P3 again next.
+- This human life is the most precious opportunity and the three Altered States sections, with your first-person lines as you answer 43 (their warnings in your words, no amounts or recipes).
+- Still parked in Simple Practices: Journal With Each Hand P1, One Intention P1, Just Like Me P2, Close the Session.
 
 ### 🔵 Saved for when Altered States is humanized
 

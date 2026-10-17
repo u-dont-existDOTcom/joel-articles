@@ -1,0 +1,32 @@
+[
+{
+"key": "ks4o2",
+"draft": "ks4-o2",
+"label": "If You Want to Kill Yourself P4 alone, ks4-o with \"new-age\" back (the cold read: \"the source\" had nothing to point to)"
+},
+{
+"key": "ks4be3",
+"draft": "ks4b-e3",
+"label": "If You Want to Kill Yourself P5 alone, e1 with \"staking your life on the opposite claim, that death is just nothing\" and \"death itself\" (the cold read and the guide's \"completed death\")"
+},
+{
+"key": "ks5e3",
+"draft": "ks5-e3",
+"label": "If You Want to Kill Yourself P6 alone, e2 with the guide's \"isolation can deepen despair\" back in its aside"
+},
+{
+"key": "secksfix",
+"blocks": [
+"# If You Want to Kill Yourself",
+"G:writers/ks12-w8-p1",
+"J:joel-ks-p2",
+"G:ks1-p3-a",
+"D:ks4-o2",
+"D:ks4b-e3",
+"D:ks5-e3",
+"G:ks1-p6-d"
+],
+"label": "If You Want to Kill Yourself, the h1 with the cold read's three fixes (P4 o2, P5 e3, P6 e3)",
+"march": "settled paragraphs | Joel's P2: S B S B B | P4 o2: S S B S S | P5 e3: B S S | P6 e3: S S B B S"
+}
+]

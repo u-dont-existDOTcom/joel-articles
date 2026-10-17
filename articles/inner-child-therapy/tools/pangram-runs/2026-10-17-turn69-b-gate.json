@@ -1,0 +1,101 @@
+{
+ "t69b_st1a": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69b: st1-a, alone."
+ },
+ "t69b_st1b": {
+  "kind": "screen",
+  "march": [
+   "B B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69b: st1-b, alone."
+ },
+ "t69b_st2f": {
+  "kind": "screen",
+  "march": [
+   "S S S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69b: st2-f, alone."
+ },
+ "t69b_st2g": {
+  "kind": "screen",
+  "march": [
+   "S S S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69b: st2-g, alone."
+ },
+ "t69b_hwa": {
+  "kind": "screen",
+  "march": [
+   "S S S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69b_hwa.md",
+  "note": "t69b: hw-a, alone."
+ },
+ "t69b_hwc": {
+  "kind": "screen",
+  "march": [
+   "S S S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69b_hwc.md",
+  "note": "t69b: hw-c, alone."
+ },
+ "t69b_st5a": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69b: st5-a, alone."
+ },
+ "t69b_st5c": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69b: st5-c, alone."
+ },
+ "t69b_st6ab": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t69b: st6a-b, alone."
+ },
+ "t69b_st6ba": {
+  "kind": "screen",
+  "march": [
+   "S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69b_st6ba.md",
+  "note": "t69b: st6b-a, alone."
+ },
+ "t69b_st6bb": {
+  "kind": "screen",
+  "march": [
+   "S S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t69/lint-t69b_st6bb.md",
+  "note": "t69b: st6b-b, alone."
+ }
+}

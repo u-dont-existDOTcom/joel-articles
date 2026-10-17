@@ -1,0 +1,101 @@
+{
+ "t68a_le2bjoel": {
+  "kind": "screen",
+  "march": [
+   "S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t68a: ../joel-le2b, alone."
+ },
+ "t68a_rwa": {
+  "kind": "screen",
+  "march": [
+   "S S S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/lint-t68a_rwa.md",
+  "note": "t68a: rw-a, alone."
+ },
+ "t68a_hc1k": {
+  "kind": "screen",
+  "march": [
+   "S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/lint-t68a_hc1k.md",
+  "note": "t68a: hc1-k, alone."
+ },
+ "t68a_hc2n": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/lint-t68a_hc2n.md",
+  "note": "t68a: hc2-n, alone."
+ },
+ "t68a_ks1s": {
+  "kind": "screen",
+  "march": [
+   "S S S S S B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/lint-t68a_ks1s.md",
+  "note": "t68a: ks1-s, alone."
+ },
+ "t68a_ks7f": {
+  "kind": "screen",
+  "march": [
+   "B S S B B B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/lint-t68a_ks7f.md",
+  "note": "t68a: ks7-f, alone."
+ },
+ "t68a_secle": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | Joel's P3: S S B B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/lint-t68a_secle.md",
+  "note": "t68a: # When One Life Has Ended and the Next Hasn’t Begun, put together: G:le1-p1-c, D7:le2-f1c, J:joel-le2b, D7:le3a-n, D7:le3b-a."
+ },
+ "t68a_secrememberwh": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/CANDIDATE.md",
+  "note": "t68a: ## Remember When You Already Did It as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t68a_secahearttoch": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/CANDIDATE.md",
+  "note": "t68a: ## A Heart-to-Child Loop as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t68a_secsimpleprac": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/CANDIDATE.md",
+  "note": "t68a: # Simple Practices as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t68a_secifyouwantt": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t68/CANDIDATE.md",
+  "note": "t68a: # If You Want to Kill Yourself as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

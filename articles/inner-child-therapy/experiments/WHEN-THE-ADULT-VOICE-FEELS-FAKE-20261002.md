@@ -881,3 +881,38 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His merge of #186 (turns 64 to 66), and his answers to 32 to 40.
 2. When One Life Has Ended and the Next Hasn't Begun (P2 and P3), the way How to Forgive went in: my drafts in plain words, joins of any Human half, at most four agents (E185).
+
+## Turn 67 (2026-10-17, from 14:01 UTC): his fixes, and his lessons applied
+
+- **His message:** his own versions for questions 32 to 36, "why do you say it was a mistake to have 16-20 writer agents at once?", "parked.md is where?", and for 37 "learn some lessons from what i gave you and you continue from there" (`t67-answers/`). His rule (E186): every help request says "I can't find any more AI tells here, and I see some human tells, like these... can you help show me the tells I'm missing?"
+- **In, word for word:** his P14 (Timing Is Individual), his Use Childhood Photographs Gently ("glean" for "gleam"), his Borrowed Adulthood P2, his crisis-section P2 and his How Much Happiness P4, each with the section it finished: Borrowed Adulthood in Relationship (h1 0.19, high), If You Want to Kill Yourself (h1 0.24, high, after three plain Buddhist views read Human alone and P5's opening was fixed), How Much Happiness (h2 0.38, high; When Love Still Feels Missing 0.25, high, with new P1 to P3 of mine). Every result is in `t67-guide/REVIEWS.md` and `tools/PREDICTIONS.md` (t67a to t67f).
+- **E186:** a list of three in my sentence is a FAIL unless it ends on a catch-all; "can ... without ...ing" a FAIL; his moves in the writers' prompt. **E187:** the turn-65 record gave one file's Human result to another (a key without hyphens); every other claim checks out by text.
+- **When One Life Has Ended:** every piece but P2's second half reads Human alone; that piece is question 41, the first help request in his format.
+
+### Next
+
+1. His merge of #186 (turns 64 to 67), and his answers to 38 to 41.
+2. With his lessons, my list: the five parked Simple Practices, Speak Toward P1, P2, P5 and P6, then the section check of When One Life Has Ended once P2's second half reads Human.
+
+## Turn 68 (2026-10-17, from 16:58 UTC): his answers to 38 to 41, and what turn 67 got wrong
+
+- **His message:** "38 i didn't understand why you removed the name?" (Hearthwork); "39 what do you mean those aren't in my words? yes they are"; "40. a"; his version of 41 ("Marching order, you didn't see that?"); not merging, since some lessons were wrong and the pull request had conflicts; and "glean" (`t68-answers/`).
+- **Checked first:** his 14:01 message as sent had "gleam" (the article's "glean" stands); every first-person line of question 39, Hearthwork and "Non-judgement is a place to start." are in his published texts, so they're his words (E188).
+- **In:** When One Life Has Ended and the Next Hasn't Begun (his P3; h1 0.20, high); four of his published lines back (his father twice, the kindergarten recess, "I get stricter about spirituality, not looser") and the non-judgement lines, with Simple Practices (0.066, high) and If You Want to Kill Yourself (0.12, high) checked again. The conflicts with main's community merge are resolved.
+
+### Next
+
+1. His answer to 42 (were other turn-67 lessons wrong?) and, when he's happy, his merge of #188.
+2. Speak Toward with Hearthwork named and linked; "And So That's the Way It Happened!" with Xandria; This human life and the three Altered States sections with his published stories; the other parked Simple Practices.
+
+## Turn 69 (2026-10-17, from 18:56 UTC): two paraphrases of him, lesson E189, Speak Toward
+
+- **His message:** two of the published lines turn 68 had put back were paraphrases of him ("now that you are showing me in context exactly, i see i got paraphrased about my father"; "i was paraphrased for if you want to kill yourself as well"), with his own words for both; "so i assume no point merging the lessons then if that one was incorrect. right?"; "continue" (`t69-answers/`).
+- **In:** Remember When You Already Did It opens with his words and his sister's line, then my humanized rest of the guide's passage; If You Want to Kill Yourself opens with his two sentences as their own paragraph ("proselytize" for his "prosletyze"; alone 0.00013). A cold read's fixes to both (two referents in Remember When; "about to act", "close by" and a "This" in the safety paragraph) read Human alone and in their sections (Simple Practices 0.064 high, the crisis h1 0.15 high).
+- **Lesson E189:** a published first-person line is his story, but its wording is his only once he has seen it whole, in its section; E188 had generalized from an answer that named no line (E160). The gate, the writers' prompt, OWNER-EDITS.json, PARKED.md and the questions page are corrected; question 43 shows him every remaining first-person line whole.
+- **Speak Toward What You Are Building:** five of eight paragraphs read Human alone and together (0.080 high), Hearthwork named and linked among them; P1, P2 and P5 read AI in every version (question 44, his help-request format). **"And So That's the Way It Happened!":** P1 with his Xandria line reads Human; the practice still reads AI over P2 and P3.
+
+### Next
+
+1. His answers to 42 to 44, and his merge of #188 when he's happy with the lessons.
+2. With his answers: Speak Toward's P1, P2 and P5; "And So That's the Way It Happened!" P2 and P3; This human life and the three Altered States sections with his lines as he confirms them; the other parked Simple Practices.

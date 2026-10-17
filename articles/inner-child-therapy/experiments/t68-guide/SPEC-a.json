@@ -1,0 +1,84 @@
+[
+{
+"key": "le2bjoel",
+"draft": "../joel-le2b",
+"label": "When One Life Has Ended P2 second half alone, Joel's version (question 41) with \"feels too heavy\" for his \"feels gets too heavy\""
+},
+{
+"key": "rwa",
+"draft": "rw-a",
+"label": "Remember When You Already Did It P1 alone, with his father's suggestion back (his published words)",
+"his": [
+"My father often suggested remembering a time when I met a difficulty in a way I respected."
+]
+},
+{
+"key": "hc1k",
+"draft": "hc1-k",
+"label": "A Heart-to-Child Loop P1 alone, with his kindergarten line back (his published words)",
+"his": [
+"The solar plexus is the most vulnerable part of the torso. One punch there hurts a lot, as I sadly learned while getting beaten up every day at kindergarten recess by a gang organized by my best friend. Can you believe it?"
+]
+},
+{
+"key": "hc2n",
+"draft": "hc2-n",
+"label": "A Heart-to-Child Loop P2 alone, with his \"Non-judgement is a place to start. It can blossom into love over time.\" (question 40, A)",
+"his": [
+"Non-judgement is a place to start. It can blossom into love over time."
+]
+},
+{
+"key": "ks1s",
+"draft": "ks1-s",
+"label": "If You Want to Kill Yourself P1 alone, with his \"I get stricter about spirituality, not looser\" first",
+"his": [
+"When somebody tells me they want to kill themselves, I get stricter about spirituality, not looser."
+]
+},
+{
+"key": "ks7f",
+"draft": "ks7-f",
+"label": "If You Want to Kill Yourself P7 alone, with his father's line back (his published words)",
+"his": [
+"My father used to tell suicidal people, \"Oh, you want to kill yourself? That's wonderful. Now you can change what you've always been too afraid to change in your life, and then see if you still want to end it!\" His point wasn't that dying is wonderful."
+]
+},
+{
+"key": "secle",
+"blocks": [
+"# When One Life Has Ended and the Next Hasn\u2019t Begun",
+"G:le1-p1-c",
+"D7:le2-f1c",
+"J:joel-le2b",
+"D7:le3a-n",
+"D7:le3b-a"
+],
+"label": "When One Life Has Ended and the Next Hasn't Begun, the h1: P1 le1-p1-c, P2 le2-f1c, P3 Joel's (41), P4 le3a-n, P5 le3b-a",
+"march": "settled paragraphs | Joel's P3: S S B B B S"
+},
+{
+"key": "secrememberwh",
+"section": "## Remember When You Already Did It",
+"label": "Remember When You Already Did It, the h2 with his father back",
+"march": "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+},
+{
+"key": "secahearttoch",
+"section": "## A Heart-to-Child Loop",
+"label": "A Heart-to-Child Loop, the h2 with his kindergarten line and non-judgement back",
+"march": "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+},
+{
+"key": "secsimpleprac",
+"section": "# Simple Practices",
+"label": "Simple Practices, the h1 with those three",
+"march": "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+},
+{
+"key": "secifyouwantt",
+"section": "# If You Want to Kill Yourself",
+"label": "If You Want to Kill Yourself, the h1 with his two lines back",
+"march": "settled paragraphs | edits: rw-a: S S S S S S S B, hc1-k: S S S B S, hc2-n: S S S B S S, ks1-s: S S S S S B S S S, ks7-f: B S S B B B B S S"
+}
+]

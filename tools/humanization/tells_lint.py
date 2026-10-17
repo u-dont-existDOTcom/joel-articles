@@ -407,9 +407,17 @@ def abstract_agents(sentence):
 LEAD = set("""but so because since though although if when whenever while as once until unless which that who whom whose
 where why how then than like even just before after""".split())
 PRON = set("i you he she it we they there this that these those".split())
+# E186 (2026-10-17): with a list of three now a FAIL, an opening phrase and a speaker aside stopped counting as items
+PREP = set("in on at for from by with within without during over under about after before across among around between "
+           "beyond inside outside through throughout toward towards upon".split())
+ASIDE = re.compile(r"(?:it|he|she|they|you|i|we)\s+(?:say|says|said|think|thinks|thought|know|knows|mean|guess|suppose|hope)\b", re.I)
 NOT_OR = re.compile(r"\bor\s+(not|so|less|more|else|other|two|three|whatever)\b", re.I)
 QUOTED = re.compile(r'"[^"]*"|“[^”]*”')
 WHO_ITEM = re.compile(r"who(?:'s|\s+(?:is|are|was|were))\b", re.I)
+
+# fixed pairs that are one item: a doubled word ("over and over", "again and again") or a set phrase
+PAIR_IDIOM = re.compile(r"(?:(\w+) (?:and|or) \1|back and forth|up and down|here and there|now and then|on and off|more or less|"
+                        r"sooner or later|give or take|black and white|safe and sound|rise and shine|over and done)\b[.!?\"”)]*$", re.I)
 
 def _segments(s):
     out, pos = [], 0
@@ -447,12 +455,15 @@ def _find(s):
         if who_list:
             if len(mw) > 14: continue
         elif not (1 <= len(mw) <= 6) or mw[0].lower() in LEAD | {'not'}: continue
+        # E186 (2026-10-17): "the mind, it says, and that keeps going" is an aside, not an item
+        if ASIDE.match(mid): continue
         if k - 2 == 0:
             fw = first.split()
             if len(fw) <= 1: continue                             # "Honestly, I think so, and he agreed"
             # an opening clause ("If the room itself triggers your spidey sense, leave, or lock the door"),
-            # unless the items are short ("If you're stuck, tired, or bored")
-            if _w0(first) in LEAD and not (len(mw) <= 2 and len(last.split()) <= 3): continue
+            # unless the items are short ("If you're stuck, tired, or bored"); since 2026-10-17 (E186) an opening phrase
+            # too ("In Buddhism, death isn't an off switch, and it isn't...")
+            if _w0(first) in LEAD | PREP and not (len(mw) <= 2 and len(last.split()) <= 3): continue
         a = seg[k-2][0] + len(seg[k-2][1].rstrip()) - len(' '.join(first.split()[-5:]))
         b = seg[k][0] + len(seg[k][1]) - len(seg[k][1].lstrip()) + len(' '.join(last.split()[:5]))
         hits.append(('serial', a, b))
@@ -462,9 +473,11 @@ def _find(s):
         m = re.match(r"[^\s]+(?:\s+[^\s]+)?\s+(and|or)\s+([^\s]+)(?:\s+[^\s]+){0,3}[.!?\"”)]*$", part, re.I)
         if not m: continue
         if _w0(part) in LEAD | PRON | {'not'} or re.match(r"(and|or)\b", part, re.I) or NOT_OR.search(part): continue
+        # E186 (2026-10-17): a doubled word or a fixed pair is one item, not two ("intending, over and over, bends the mind")
+        if PAIR_IDIOM.match(part): continue
         if _w0(m.group(2)) in PRON or part.startswith('"'): continue  # "“No, that's not right for me,” and they call it": a clause
         prev = seg[k-1][1].strip()
-        if not prev or (k - 1 == 0 and (len(prev.split()) <= 1 or _w0(prev) in LEAD)): continue   # "If words are there, speak or write them"
+        if not prev or (k - 1 == 0 and (len(prev.split()) <= 1 or _w0(prev) in LEAD | PREP)): continue   # "If words are there, speak or write them"; "In that view, thought and intention shape the mind" (E186)
         # "Or something does come, a voice or a hunch, and": the pair says what came (an aside), it isn't a third item
         if re.match(r"(a|an|the|some)\s", part, re.I) and re.search(r"\b(does|do|did|is|are|was|were|can|could|will|would|might|may|has|have|had|comes?|came)\b", prev, re.I):
             continue
@@ -484,6 +497,10 @@ def triads(s):
     """[(kind, excerpt, quoted)] for each list of three or more in sentence s. Quoted words (a prayer, a line
     someone says) are read on their own, so their commas don't split the sentence, and their lists are marked."""
     s = re.sub(r'\s+', ' ', s).strip()
+    # E186 (2026-10-17): the sentence splitter can leave a quote's closing mark on the next sentence ('make it simpler: "I
+    # miss you, and I care.'), and an unclosed quote wasn't masked, so its words read as a list with the sentence's own
+    if straight(s).count('"') % 2:
+        s += '"'
     n = straight(s)   # matched with straight quotes; one character for one, so the excerpts come from s as written
     masked = QUOTED.sub(lambda m: '"' + 'Q' * (len(m.group(0)) - 2) + '"', n)
     res = [(k, s[a:b].strip(' ,'), False) for k, a, b in _find(masked)]
@@ -651,6 +668,18 @@ STOCK_CASUAL = re.compile(r"^(?:nope[.!]+$|aww+[,.!]?\s+buddy\b)", re.I)
 # O34, O35, O36: fixed phrases (JOEL-FIXES-CATALOGUE "In his words"; gate step 2; the gate's prediction review).
 WOULDNT_CALL = re.compile(r"\bI (?:wouldn't|would not) call (?:that|this|it)\b", re.I)
 WITH_OR_WITHOUT = re.compile(r"\bwith or without\b", re.I)
+# E186 (Joel, 2026-10-17 14:01 UTC, on How Much Happiness P4: "here we got that X can without Y ai tell"; my version had "A
+# meal can help, and so can a boundary or a kind sentence, without touching the question underneath"). In the single-
+# paragraph screens stored in articles/inner-child-therapy/tools/pangram-runs (2026-10-14 to 10-17), "without" and an -ing
+# word was in 67 of the 534 that read AI (13%) and 6 of the 181 that read Human (3%); "can ... without ...ing" in 20 and 2.
+# So that form is a FAIL in my sentences, the rest a REVIEW.
+CAN_WITHOUT = re.compile(r"\bcan(?:not|['’]t)?\b[^.?!;]{0,90}?\bwithout\s+(?!(?:any|some|no|every)thing\b)[\w'’]+ing\b", re.I)
+WITHOUT_ING = re.compile(r"\bwithout\s+(?!(?:any|some|no|every)thing\b)[\w'’]+ing\b", re.I)
+# E186: his fixes of a list of three end it on a casual catch-all ("or a bit of each", 2026-10-03; "whatever works",
+# 2026-10-17), which keeps it a REVIEW; any other list of three in my sentence is a FAIL.
+CATCH_ALL = re.compile(r"(?:,\s*|\b(?:or|and)\s+)(?:a bit of (?:each|both|everything|all)|whatever (?:works|helps|fits)|whatever|"
+                       r"all of the above|something like that|stuff like that|that kind of thing|that sort of thing|so on|all that|what have you|"
+                       r"you name it|and the like)\b", re.I)
 BUT_ALSO = re.compile(r"\bbut also\b", re.I)
 # O38: a prerequisite is already required (Joel, 2026-10-11 18:35: "you can't say "required as pre-reqs" that's redundant")
 PREREQ = r"pre-?req(?:uisite)?s?"
@@ -953,10 +982,17 @@ def main():
             plists += [(mine, x) for k, x, q in tri if not q]
             if not mine: continue
             for k, x, q in tri:
-                flag('REVIEW', 'E125 list of three' + (' inside a quote (someone else\'s words can keep theirs)' if q else '') +
+                # E186 (Joel, 2026-10-17 14:01 UTC: "we got that list of 3 going on again. how is that not detected?"): it was
+                # detected, as a REVIEW, and a REVIEW doesn't block, so it went to Pangram and to him. In the single-paragraph
+                # screens of 2026-10-14 to 10-17, 17% of the 221 with one list read Human, 29% of the 492 with none. Now a list
+                # in my sentence is a FAIL, unless it ends on a casual catch-all, his move; a list inside a quote stays a REVIEW.
+                level = 'REVIEW' if q or CATCH_ALL.search(n) else 'FAIL'
+                flag(level, 'E125 list of three' + (' inside a quote (someone else\'s words can keep theirs)' if q else '') +
                      ': an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it\'s really needed"). If the meaning doesn\'t need '
                      'all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just '
-                     'has something to say."). Joel, 01:06: "when there\'s no actual need for 3 items you can remove one of them"', x)
+                     'has something to say."), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 '
+                     '("Other jobs can go to friends or community, outsource to the tools or pros, whatever works."). Joel, 01:06: "when there\'s no actual need for 3 items you can remove one of them"'
+                     + ('' if level == 'REVIEW' else '. A FAIL in my sentences since 2026-10-17 (E186: "how is that not detected?")'), x)
             mine_words += len(w)
             for r in TICS:
                 if re.search(r, n, re.I): flag('FAIL', 'B11 tic', s)
@@ -1100,6 +1136,13 @@ def main():
                 flag('REVIEW', 'O34 "I wouldn\'t call that X" (Joel 2026-09-26: "Ai stuff overuses \'i wouldn\'t call that X\'"): say what it is', s)
             if WITH_OR_WITHOUT.search(n):
                 flag('REVIEW', 'O35 "with or without X" (Joel 2026-10-02: "with or without X is not quite guidance"): say what X is good for', s)
+            if CAN_WITHOUT.search(unquoted):
+                flag('FAIL', 'E186 "X can ... without Y" (Joel 2026-10-17 14:01: "here we got that X can without Y ai tell"; his fix asked it: '
+                     '"A meal can help, and so can a boundary or a kind sentence, but is that actually targeting the deeper existential question underneath?"): '
+                     'say the limit as its own thought, or ask it', s)
+            elif WITHOUT_ING.search(unquoted):
+                flag('REVIEW', 'E186 "without ...ing" (13% of the single-paragraph screens that read AI, 3% of those that read Human, 2026-10-14 to 10-17): '
+                     'say what happens instead, or cut it', s)
             if BUT_ALSO.search(n):
                 flag('REVIEW', 'O36 a "but also" pair (the gate\'s 2026-10-10 prediction review: one of the tells a fragile pass carried, with "the boring problem" and the "nicer logo" quip)', s)
             if CAPACITY.search(unquoted) and not FREE_RESOURCE.search(n):

@@ -1,0 +1,51 @@
+[
+ {
+  "key": "sp5p1x1",
+  "draft": "sp5-p1-x1",
+  "label": "\"And So That's the Way It Happened!\" P1 x1 alone: his published Xandria line first, then turn 65's sp5-p1-e2 after its first sentence",
+  "his": [
+   "My ex, Xandria, taught me to append “And so that’s the way it happened!” to a difficult memory."
+  ]
+ },
+ {
+  "key": "sp5p1x2",
+  "draft": "sp5-p1-x2",
+  "label": "\"And So That's the Way It Happened!\" P1 x2 alone: his Xandria line, the grandpa image moved",
+  "his": [
+   "My ex, Xandria, taught me to append “And so that’s the way it happened!” to a difficult memory."
+  ]
+ },
+ {
+  "key": "sp5p2x1",
+  "draft": "sp5-p2-x1",
+  "label": "\"And So That's the Way It Happened!\" P2 x1 alone (not fiction, not proof, nobody off the hook, keep it one line)"
+ },
+ {
+  "key": "secsp5x1",
+  "blocks": [
+   "## “And So That’s the Way It Happened!”",
+   "D:sp5-p1-x1",
+   "D:sp5-p2-x1",
+   "G:sp5-p3-b6"
+  ],
+  "his": [
+   "My ex, Xandria, taught me to append “And so that’s the way it happened!” to a difficult memory."
+  ],
+  "label": "\"And So That's the Way It Happened!\", the h2: P1 x1, P2 x1, P3 turn 65's sp5-p3-b6 (alone Human 0.49)",
+  "march": "settled paragraphs | edits: sp5-p1-x1: S S B S S, sp5-p2-x1: B S S S"
+ },
+ {
+  "key": "secsp5x2",
+  "blocks": [
+   "## “And So That’s the Way It Happened!”",
+   "D:sp5-p1-x2",
+   "D:sp5-p2-x1",
+   "G:sp5-p3-b6"
+  ],
+  "his": [
+   "My ex, Xandria, taught me to append “And so that’s the way it happened!” to a difficult memory."
+  ],
+  "label": "\"And So That's the Way It Happened!\", the h2: P1 x2, P2 x1, P3 sp5-p3-b6",
+  "march": "settled paragraphs | edits: sp5-p1-x2: S B S S, sp5-p2-x1: B S S S"
+ }
+]
