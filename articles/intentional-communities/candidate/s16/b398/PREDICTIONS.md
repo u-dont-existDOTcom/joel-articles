@@ -6,4 +6,8 @@ Pangram's web app (the dashboard in the desktop app's browser pane, Joel's Pro a
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| S16v26jkk | Mixed | the whole section with all of r42's fixes and the junction in shape jkk; v25's had one window there | |
+| S16v26jkk | Mixed | the whole section with all of r42's fixes and the junction in shape jkk; v25's had one window there | **Mixed** (AI Detected; windows: Human, High, 629; AI-Generated, High, 248, 877 words, AI likelihood 0.43), 12:07:38, [check](https://www.pangram.com/history/507fb5e3-f069-4b90-93e8-8717bca5c264) |
+
+## Results of 398g
+
+One of one right. AI Detected (0.43): windows Human, High, 629; AI-Generated, High, 248.
