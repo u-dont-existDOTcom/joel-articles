@@ -1420,6 +1420,7 @@ class PangramBatchRunsInTwoTabs(unittest.TestCase):
         self.assertIn('items0.slice().reverse()', js)
         self.assertIn("localStorage.setItem(lane(rev ? 'rev' : 'fwd')", js)
         self.assertIn('the other tab has the rest', js)
+        self.assertIn("log(k + ': taking')", js)
         self.assertIn('"t9_a"', js)
 
 
