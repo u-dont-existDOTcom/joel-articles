@@ -1,0 +1,439 @@
+{
+ "S16v29b-H1P3": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "fix-20261017b/march-r4 (the installed paragraph and this one)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: the published \"declaring\" for \"because\" (REPORT-FOREST.md [2]); its \"!\" as installed",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 82
+ },
+ "S16v29b-H1P3+prev": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "fix-20261017b/march-r4 (the installed paragraph and this one)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: the published \"declaring\" for \"because\" (REPORT-FOREST.md [2]); its \"!\" as installed",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 131
+ },
+ "S16v29b-H2P4+prev": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "fix-20261017b/march-r3 (s16-H2P4-was and s16-H2P4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: the published \"change how people survive\" (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 45 (\"a final pass to make sure it's faithful to the original\")",
+  "lint": "REVIEW",
+  "words": 83
+ },
+ "S16v29-H2P4+next": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "fix-20261017b/march-r3 (s16-H2P4-was and s16-H2P4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: the published \"change how people survive\" (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 45 (\"a final pass to make sure it's faithful to the original\")",
+  "lint": "REVIEW",
+  "words": 102
+ },
+ "S16v29-H2P5": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H2P5-was and s16-H2P5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: deadpan reads right; the sauna is the joke (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 68
+ },
+ "S16v29-H2P5+next": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H2P5-was and s16-H2P5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: deadpan reads right; the sauna is the joke (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 102
+ },
+ "S16v29-H3P1+next": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "B S S",
+   "B S S"
+  ],
+  "march": [
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H3P1-was and s16-H3P1-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: advice (published: \"Practice before you have an audience.\") (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 81
+ },
+ "S15v14-H1P2+next": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s15-H1P2-was and s15-H1P2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: a calm feeling about the prayers; the sentence reads right with a period (published: \"I find them deeply soothing.\") (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 103
+ },
+ "S15v14-H1P2+prev": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s15-H1P2-was and s15-H1P2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: a calm feeling about the prayers; the sentence reads right with a period (published: \"I find them deeply soothing.\") (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 73
+ },
+ "S15v14-H1P5": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "S S S S S S B B",
+   "S S S S S S B B"
+  ],
+  "march": [
+   "S S S S S S B B",
+   "S S S S S S B B"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s15-H1P5-was and s15-H1P5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: it follows five quoted exclamations, and the next sentence says why it surprises him (published: a period) (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "CLEAR",
+  "words": 50
+ },
+ "S15v14-H2P3": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "B S S S",
+   "B S S S"
+  ],
+  "march": [
+   "B S S S S",
+   "B S S S S"
+  ],
+  "march_note": "fix-20261017b/march-r2 (s15-H2P3-was and s15-H2P3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: the published judgment back (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 45 (\"a final pass to make sure it's faithful to the original\")",
+  "lint": "REVIEW",
+  "words": 52
+ },
+ "S15v14-H2P3+next": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "B S S S",
+   "B S S S"
+  ],
+  "march": [
+   "B S S S S",
+   "B S S S S"
+  ],
+  "march_note": "fix-20261017b/march-r2 (s15-H2P3-was and s15-H2P3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: the published judgment back (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 45 (\"a final pass to make sure it's faithful to the original\")",
+  "lint": "REVIEW",
+  "words": 92
+ },
+ "S15v14-H2P6+next": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "B B",
+   "B B"
+  ],
+  "march": [
+   "B B",
+   "B B"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s15-H2P6-was and s15-H2P6-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: two in one sentence, between \"Every morning!\" and the sheep video's title; a plain statement reads right (published: \"and they are extremely cute.\") (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 103
+ },
+ "S15v14-H2P6+prev": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "B B",
+   "B B"
+  ],
+  "march": [
+   "B B",
+   "B B"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s15-H2P6-was and s15-H2P6-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: two in one sentence, between \"Every morning!\" and the sheep video's title; a plain statement reads right (published: \"and they are extremely cute.\") (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 69
+ },
+ "S15v14-H3P1": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "S B S B S",
+   "S B S B S"
+  ],
+  "march": [
+   "S B S B S",
+   "S B S B S"
+  ],
+  "march_note": "fix-20261017b/march-r2 (s15-H3P1-was and s15-H3P1-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: the published \"prosperity came through you\" (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 45 (\"a final pass to make sure it's faithful to the original\")",
+  "lint": "REVIEW",
+  "words": 90
+ },
+ "S15v14-H3P4": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "S S S B S",
+   "S S S B S"
+  ],
+  "march": [
+   "S S S B S",
+   "S S S B S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s15-H3P4-was and s15-H3P4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: a point of logistics, not a reaction; the question after it (\"Who's that going to be?\") carries the turn (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 96
+ },
+ "S15v14-H3P8": {
+  "kind": "edit",
+  "was": "batch 410g: section 15 v13 100% Human",
+  "march_was": [
+   "S S S B S",
+   "S S S B S"
+  ],
+  "march": [
+   "S S S B S",
+   "S S S B S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s15-H3P8-was and s15-H3P8-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s15c.md (the final text): P1 to P14 and P16 to P22 OK; its one flag is the video embed's own label (P15, \"Double click to interact with video\"), not a sentence of the article (DISPOSITIONS-PAUSES.md). SENSE-s15b.md flagged his own \"This is also\" (P17, his 13:11 correction); answered there too",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: advice; the \"!\" made it scold (published: \"and do not arrive expecting a spiritual service package.\") (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 68
+ },
+ "S16v29b": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S16v29-H2P4+next",
+   "S16v29-H2P5",
+   "S16v29-H2P5+next",
+   "S16v29-H3P1+next",
+   "S16v29b-H1P3",
+   "S16v29b-H1P3+prev",
+   "S16v29b-H2P4+prev"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017b/DISPOSITIONS.md (the take-backs change nothing said twice)",
+  "words": 838
+ },
+ "S15v14b": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S15v14-H1P2+next",
+   "S15v14-H1P2+prev",
+   "S15v14-H1P5",
+   "S15v14-H2P3",
+   "S15v14-H2P3+next",
+   "S15v14-H2P6+next",
+   "S15v14-H2P6+prev",
+   "S15v14-H3P1",
+   "S15v14-H3P4",
+   "S15v14-H3P8"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017b/DISPOSITIONS.md (the take-back changes nothing said twice)",
+  "words": 1364
+ },
+ "S2-A46b": {
+  "kind": "screen",
+  "march": [
+   "S S S B",
+   "S S S B"
+  ],
+  "march_note": "fix-20261017b/anomie/MARCH-v2-labels-a.txt and -b.txt (T1)",
+  "lint": "CLEAR",
+  "lint_note": "the anomie paragraph alone (A46); the section as a whole fails only on installed text: his published 🔥 off the allowlist, spellings",
+  "words": 663
+ }
+}

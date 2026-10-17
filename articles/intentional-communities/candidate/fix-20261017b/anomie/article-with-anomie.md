@@ -55,7 +55,7 @@ The secular communities often buried hurt under procedure. The spiritual communi
 
 Suddenly the longing behind my father’s movie is everywhere again, and in 2023 [the U.S. Surgeon General](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) even put out an advisory about it. Or about the loneliness under it, at least. The advisory said roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
 
-Whether you want to call that loneliness an official “epidemic” or not, it’s obvious that a lot of people can’t tolerate modern life in isolation anymore. They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starving them.
+Whether you want to call that loneliness an official “epidemic” or not, it’s obvious that a lot of people can’t tolerate modern life in isolation anymore. They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starvin’ them.
 
 What's starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that's how large societies end up run by psychopaths. (Yes, I'm always going on about this.)
 
@@ -719,7 +719,7 @@ Most people try and do community in the wrong order. "First let's get land!" "Th
 
 It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know. (It would make for a pretty bad movie.)
 
-Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than by declaring "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
 
 ## If You Can’t Move
 
@@ -731,9 +731,9 @@ I realize that for most people reading this there are a lot of reasons why they 
 
 People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It's a more beautiful view for sure, but now you have the conflict PLUS goats.
 
-So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
+So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. That's it! And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
 
-A group that practices together weekly for two years already has a real piece of community. It may never own land. So what? It can still change how people survive a divorce, an illness or grief. Parenting too, and plain old loneliness.
+A group that practices together weekly for two years may never own land. So what? It can still change how people survive a divorce, an illness or grief. Parenting too, and plain old loneliness.
 
 Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a [cuddle puddle](http://cuddleparty.com/).
 
@@ -798,7 +798,7 @@ If you build something real, maybe we'll hear about each other. And if you teach
 
 ## Practical Community-Building Guides
 
-Where do you start with the nuts and bolts? [***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) by Diana Leafe Christian, for sequencing, membership, money, land and agreements.
+Where do you start with the nuts and bolts? [***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) by Diana Leafe Christian, for membership, money, land and agreements.
 
 Want a guide to intentional community that covers the whole system? There's [***Building Belonging***](https://www.ic.org/building-belonging/) by Yana Ludwig.
 
@@ -831,4 +831,3 @@ Want it straight from the Zapatistas? Their own archive is [Enlace Zapatista](ht
 ## Research Behind This Article
 
 If you're curious about the research behind this, it was a much bigger source audit than would comfortably fit in an article (a lot bigger!). It's all in the [public research report](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/): the evidence base and its limits, the counterexamples, what I still couldn't verify, etc. So you can check it yourself, and this article doesn't have to be a 200-row ledger. Can you imagine? 😂
-

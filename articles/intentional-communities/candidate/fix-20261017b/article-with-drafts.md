@@ -55,7 +55,7 @@ The secular communities often buried hurt under procedure. The spiritual communi
 
 Suddenly the longing behind my father’s movie is everywhere again, and in 2023 [the U.S. Surgeon General](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) even put out an advisory about it. Or about the loneliness under it, at least. The advisory said roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
 
-Whether you want to call that loneliness an official “epidemic” or not, it’s obvious that a lot of people can’t tolerate modern life in isolation anymore. They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starving them.
+Whether you want to call that loneliness an official “epidemic” or not, it’s obvious that a lot of people can’t tolerate modern life in isolation anymore. They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starvin’ them.
 
 Check out the Google Trends for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)”. After years of decline, interest climbed sharply in the mid-2020s.
 
@@ -670,7 +670,7 @@ Even in Dakar, I found this graffiti on a wall: "Tolerance! Openness! Union! Hap
 
 ## All is not well in paradise
 
-But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either. The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either! The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
 
 Sénégal passed a law in March 2026 ([Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/)) that increased the penalty for consensual same-sex intimacy to 5 to 10 years in prison, and it also made public advocacy for homosexuality a crime. Homosexuals were already facing arrests, family rejection, harassment, assault and mob violence, but some say they're actually protected once they're arrested, because then at least the mob can't get at them. I'm not going to praise communal belonging and ignore the people who have to hide who they are to survive it, or leave.
 
@@ -713,9 +713,9 @@ Oh, and a practical note: getting my residency in Sénégal was pretty cheap and
 
 Most people try and do community in the wrong order. "First let's get land!" "Then let's write down a vision document!" "And whoever's putting in the money can own the place!" And the emotional side of things? That doesn't get done until "later on, when everyone has more time".
 
-It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know. (It would make for a pretty bad movie.)
+It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know! (It would make for a pretty bad movie.)
 
-Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than by declaring "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go! Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than by declaring "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
 
 ## If You Can’t Move
 
@@ -727,7 +727,7 @@ I realize that for most people reading this there are a lot of reasons why they 
 
 People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It's a more beautiful view for sure, but now you have the conflict PLUS goats.
 
-So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
+So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. That's it! And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
 
 A group that practices together weekly for two years may never own land. So what? It can still change how people survive a divorce, an illness or grief. Parenting too, and plain old loneliness.
 
