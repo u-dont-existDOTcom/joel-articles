@@ -1,0 +1,24 @@
+const want = {"9118cbbb10a57d0b5e6eeaabf06d5417b6ce554ca0ced59c9d69348b8402d2b0": "t66c_fg1p4w7p1", "2c0901382a5fb4754a5c2060c04ce3af6127be52aef2d7b788b581dfe0387819": "t66c_secfgall4w7"};
+const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');
+const out = {};
+let url = 'https://web.pangram.com/api/history-list/?limit=20&offset=0';
+for (let p = 0; url && p < 5 && Object.keys(out).length < Object.keys(want).length; p++) {
+  const l = await fetch(url, {credentials: 'include'}).then(r => r.json());
+  // each page's details in parallel (2026-10-17: the History is shared with other lanes and fills fast)
+  const ds = await Promise.all((l.results || []).map(it => fetch('https://web.pangram.com/api/history/' + it.uuid + '/', {credentials: 'include'}).then(r => r.json()).then(d => [it, d])));
+  for (const [it, d] of ds) {
+    const k = want[await sha(d.prompt || '')];
+    if (!k || out[k]) continue;
+    const o = d.response.overall;
+    const n = (d.prompt || '').replace(/\n{2,}/g, '\n');  // window indexes count a blank line as one newline
+    const words = w => { const s = n.slice(w.start_index, w.end_index).trim();
+      return s.startsWith((w.text || '').trim().slice(0, 30)) ? s : (w.text || '').trim() + '…'; };
+    out[k] = {history_id: Number(it.id), link: 'https://www.pangram.com/history/' + it.uuid,
+              utc: new Date(it.timestamp).toISOString().replace(/\.\d+Z$/, 'Z'), words: o.word_count,
+              avg_ai_likelihood: o.avg_ai_likelihood, headline: o.headline, version: o.version,
+              windows: (o.windows || []).map(w => w.label + ', ' + w.confidence + ', ' + w.word_count),
+              flagged: (o.windows || []).filter(w => w.label !== 'Human').map(w => w.label + ' (' + w.word_count + ' words): ' + words(w))};
+  }
+  url = l.next;
+}
+JSON.stringify(out)
