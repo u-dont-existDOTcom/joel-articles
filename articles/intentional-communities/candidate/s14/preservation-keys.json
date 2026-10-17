@@ -75,7 +75,8 @@
     ],
     [
      "housed",
-     "housing"
+     "housing",
+     "place to live"
     ],
     [
      "fed",
@@ -115,7 +116,8 @@
     [
      "claims"
     ]
-   ]
+   ],
+   "note_v6": "2026-10-17, v6: the second housing question went in the dedup (repeats r3 item 2); \"a place to live\" in the first question is the published \"housed\""
   },
   {
    "id": "U5",
@@ -307,7 +309,8 @@
    "what": "even after the legal entity ends, some of what people learned to give one another may continue",
    "keys": [
     [
-     "legal entity"
+     "legal entity",
+     "institutions"
     ],
     [
      "learned"
@@ -322,7 +325,8 @@
      "carry on",
      "last"
     ]
-   ]
+   ],
+   "note_v6": "2026-10-17, v6: merged into P5's first sentence, Joel 2026-10-16 23:38 UTC: \"let's merge/dedup section 14 without losing important things pls\"; the legal entity is P5's \"institutions\" (repeats r3 item 3)"
   }
  ]
 }

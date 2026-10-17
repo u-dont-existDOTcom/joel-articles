@@ -199,12 +199,10 @@
      "emotionally"
     ],
     [
-     "well"
-    ],
-    [
      "exhausted"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): the well is told in section 12 (\"The water well doesn't care how beautiful the new member's heart is.\", his), repeats r19 item 3"
   },
   {
    "id": "U13",
@@ -531,19 +529,12 @@
      "visibility"
     ],
     [
-     "money-free",
-     "moneyless",
-     "moneyfree"
-    ],
-    [
-     "scarce"
-    ],
-    [
      "bottleneck",
      "bottlenecks"
     ]
    ],
-   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"visibility\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back."
+   "note_v7": "2026-10-15, v7: Emulate's same-meaning words added as alternatives (\"visibility\"); the meaning trace confirms each, and a trace that calls one a shift puts the published word back.",
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): scarcity without money is told in section 4 (\"Even in a moneyless community, someone can control what's scarce.\", his), repeats r19 item 1"
   },
   {
    "id": "U30",
@@ -619,7 +610,8 @@
     [
      "stored goods",
      "stores",
-     "stored food"
+     "stored food",
+     "stored up goods"
     ],
     [
      "use rights",
@@ -629,7 +621,8 @@
      "paper right",
      "on paper"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32: the exit resources moved into H3-P4 (repeats r19 item 6), where \"stored up goods\" (v31's words) is the published \"stored goods\""
   },
   {
    "id": "U33",
@@ -713,28 +706,16 @@
   },
   {
    "id": "U37",
-   "what": "the sequence in Creating a Life Together",
+   "what": "the book Creating a Life Together, for the practical steps (not its order: Joel, 2026-10-16 23:38 UTC)",
    "keys": [
-    [
-     "vision"
-    ],
-    [
-     "membership",
-     "members"
-    ],
-    [
-     "resources"
-    ],
-    [
-     "land"
-    ],
     [
      "Creating a Life Together"
     ],
     [
      "Diana Leafe Christian"
     ]
-   ]
+   ],
+   "note_v32": "Joel, 2026-10-16 23:38 UTC: \"no we should not lean on Christian's book order if it contradicts my own order that wouldn't make sense so fix that\"; his order is in \"Practice Comes Before Property\""
   },
   {
    "id": "U38",
@@ -770,11 +751,9 @@
     ],
     [
      "newcomers"
-    ],
-    [
-     "promised"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): \"Nobody benefits from joining a group that cannot support what it has promised\" is told in section 5 (\"recruit too quickly and promise too much\") and section 12's capacity math, repeats r19 item 4"
   },
   {
    "id": "U40",
@@ -845,21 +824,16 @@
   },
   {
    "id": "U43",
-   "what": "a professional faker: more evidence, not certainty",
+   "what": "a professional faker can keep up an act for months",
    "keys": [
     [
      "faker"
     ],
     [
      "months"
-    ],
-    [
-     "evidence"
-    ],
-    [
-     "certainty"
     ]
-   ]
+   ],
+   "note_v32": "2026-10-17, v32 (Joel, 2026-10-16 23:38 UTC: \"also dedup other sections you're asking about\"): \"more evidence, not certainty\" is said once, in H4-P6 (\"Six months will give you more data, but there's still no good person detector\"), repeats r19 item 15"
   },
   {
    "id": "U44",
