@@ -1756,41 +1756,83 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible? with P1 = lm4p1b (76 words) [t65v_seclm4p1b], a screen | Human, low (my call) | AI Generated (0.53, Low; 75); 05:48:34 UTC, https://www.pangram.com/history/dafdadee-47c5-4924-9837-cdff0c9b9e48 | miss |
 | 2026-10-17 (turn 65) | How Much Happiness P3 and P4, lm4p3b alone (60 words) [t65v_lm4p3b], a screen | Human, low (my call) | AI Generated (0.99, Low; 62); 05:52:17 UTC, https://www.pangram.com/history/275e38d6-e023-40c0-9fa9-e02ad99c0cc8 | miss |
 | 2026-10-17 (turn 65) | How Much Happiness P3 and P4, lm4p4b alone (112 words) [t65v_lm4p4b], a screen | Human, low (my call) | AI Generated (0.99, Medium; 121); 05:52:28 UTC, https://www.pangram.com/history/47f29d96-d711-4811-a8bc-cd0df2a4aa22 | miss |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1e alone (58 words) [t65w_lm1p1e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1f alone (52 words) [t65w_lm1p1f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1g alone (62 words) [t65w_lm1p1g], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1e (64 words) [t65w_seclm1p1e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1f (58 words) [t65w_seclm1p1f], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1g (68 words) [t65w_seclm1p1g], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p2e alone (65 words) [t65w_lm1p2e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p3d alone (85 words) [t65w_lm1p3d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p3e alone (87 words) [t65w_lm1p3e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Notice the Part That Came Here P1, lm2p1d alone (76 words) [t65w_lm2p1d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Notice the Part That Came Here with P1 = lm2p1d (83 words) [t65w_seclm2p1d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1d alone (100 words) [t65w_lm3p1d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1e alone (99 words) [t65w_lm3p1e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1d (104 words) [t65w_seclm3p1d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1e (103 words) [t65w_seclm3p1e], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible? with P2 = lm4p2a2 (159 words) [t65w_seclm4p2a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p3c alone (55 words) [t65w_lm4p3c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p3d alone (68 words) [t65w_lm4p3d], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p4c alone (62 words) [t65w_lm4p4c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p5c alone (55 words) [t65w_lm4p5c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P1, fg1p1a alone (79 words) [t65w_fg1p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P1, fg1p1b alone (80 words) [t65w_fg1p1b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting with P1 = fg1p1a (85 words) [t65w_secfg1p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting with P1 = fg1p1b (86 words) [t65w_secfg1p1b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p2a2 alone (77 words) [t65w_fg1p2a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p2b alone (77 words) [t65w_fg1p2b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p3a alone (57 words) [t65w_fg1p3a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p3b alone (56 words) [t65w_fg1p3b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p4a3 alone (92 words) [t65w_fg1p4a3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When One Life Has Ended P1, le1p1a3 alone (100 words) [t65w_le1p1a3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When One Life Has Ended and the Next Hasn’t Begun with P1 = le1p1a3 (111 words) [t65w_secle1p1a3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p2a2 alone (84 words) [t65w_le1p2a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p3b alone (61 words) [t65w_le1p3b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p4c alone (68 words) [t65w_le1p4c], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship P1, ba1p1a alone (79 words) [t65w_ba1p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with P1 = ba1p1a (84 words) [t65w_secba1p1a], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship P2, ba1p2a2 alone (82 words) [t65w_ba1p2a2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with P2 = ba1p2a2 (166 words) [t65w_secba1p2a2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1e alone (58 words) [t65w_lm1p1e], a screen | Human, low (my call) | AI Generated (0.99, Low; 60); 06:03:50 UTC, https://www.pangram.com/history/dbf00ae3-8cb0-4041-b5d9-1035d8a893e4 | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1f alone (52 words) [t65w_lm1p1f], a screen | Human, low (my call) | AI Generated (0.97, Low; 54); 06:04:01 UTC, https://www.pangram.com/history/71d00763-affe-4475-8dc8-e16d3328ab16 | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1g alone (62 words) [t65w_lm1p1g], a screen | Human, low (my call) | AI Generated (0.8, Low; 64); 06:04:12 UTC, https://www.pangram.com/history/67bf7912-b371-4362-b9dc-aa71c6e7cc43 | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1e (64 words) [t65w_seclm1p1e], a screen | Human, low (my call) | AI Generated (0.98, Low; 65); 06:05:50 UTC, https://www.pangram.com/history/e26bfe3f-6172-4fe7-b53b-a4262147b966 | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1f (58 words) [t65w_seclm1p1f], a screen | Human, low (my call) | AI Generated (0.99, Low; 59); 06:05:39 UTC, https://www.pangram.com/history/25fcefd8-1acd-470d-a894-9e8f0108c568 | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1g (68 words) [t65w_seclm1p1g], a screen | Human, low (my call) | AI Generated (0.68, Low; 69); 06:05:29 UTC, https://www.pangram.com/history/e88ddaa2-47d9-4fca-93e5-23b603877e19 | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p2e alone (65 words) [t65w_lm1p2e], a screen | Human, low (my call) | AI Generated (0.99, Low; 69); 06:04:23 UTC, https://www.pangram.com/history/0826ae04-f952-4544-8f1a-97736aefba47 | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p3d alone (85 words) [t65w_lm1p3d], a screen | Human, low (my call) | AI Generated (1, Low; 89); 06:04:35 UTC, https://www.pangram.com/history/67501685-b54b-4a3c-a910-48e929c6c77a | miss |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p3e alone (87 words) [t65w_lm1p3e], a screen | Human, low (my call) | AI Generated (0.65, Low; 91); 06:04:47 UTC, https://www.pangram.com/history/256c3f4b-54f6-4632-87ae-6b57f609867a | miss |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here P1, lm2p1d alone (76 words) [t65w_lm2p1d], a screen | Human, low (my call) | AI Generated (0.98, Low; 79); 06:04:59 UTC, https://www.pangram.com/history/f7f38014-a500-4dff-b822-7dd2acc6b957 | miss |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here with P1 = lm2p1d (83 words) [t65w_seclm2p1d], a screen | Human, low (my call) | AI Generated (0.99, Low; 85); 06:05:18 UTC, https://www.pangram.com/history/b125b8c7-d682-4d48-9123-9490529ae2ee | miss |
+| 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1d alone (100 words) [t65w_lm3p1d], a screen | Human, low (my call) | AI Generated (0.58, Medium; 103); 06:05:12 UTC, https://www.pangram.com/history/c31ec9c1-1fe5-4470-a724-dd9a778919c8 | miss |
+| 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1e alone (99 words) [t65w_lm3p1e], a screen | Human, low (my call) | AI Generated (0.93, Medium; 107); 06:05:24 UTC, https://www.pangram.com/history/a9c414e5-b1fe-40aa-990d-36a7b029ca29 | miss |
+| 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1d (104 words) [t65w_seclm3p1d], a screen | Human, low (my call) | AI Generated (0.66, Medium; 106); 06:05:08 UTC, https://www.pangram.com/history/2fb1503e-4e67-4ef3-b460-494ef7de5b01 | miss |
+| 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1e (103 words) [t65w_seclm3p1e], a screen | Human, low (my call) | AI Generated (0.71, Medium; 110); 06:04:57 UTC, https://www.pangram.com/history/a8abf4eb-9453-45a6-aa8d-9785c8c4a966 | miss |
+| 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible? with P2 = lm4p2a2 (159 words) [t65w_seclm4p2a2], a screen | Human, low (my call) | AI Generated (0.95, High; 165); 06:04:47 UTC, https://www.pangram.com/history/06c3b3f6-e1d3-4507-915d-213c9e4e6705 | miss |
+| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p3c alone (55 words) [t65w_lm4p3c], a screen | Human, low (my call) | AI Generated (1, Low; 57); 06:05:35 UTC, https://www.pangram.com/history/25b380f4-12dd-4467-84fe-d4e6f2680369 | miss |
+| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p3d alone (68 words) [t65w_lm4p3d], a screen | Human, low (my call) | AI Generated (0.65, Low; 71); 06:05:47 UTC, https://www.pangram.com/history/23ae9d8c-fdca-41d3-9697-06d1833ce7d4 | miss |
+| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p4c alone (62 words) [t65w_lm4p4c], a screen | Human, low (my call) | AI Generated (1, Low; 63); 06:05:59 UTC, https://www.pangram.com/history/82e2eca2-0afb-4dd8-92af-550a5dedcea0 | miss |
+| 2026-10-17 (turn 65) | How Much Happiness P3 to P5, lm4p5c alone (55 words) [t65w_lm4p5c], a screen | Human, low (my call) | Human Written (0.002, Low; 60); 06:06:11 UTC, https://www.pangram.com/history/c690f23b-fdb2-4e14-a2ed-663e50460455 | hit |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P1, fg1p1a alone (79 words) [t65w_fg1p1a], a screen | Human, low (my call) | AI Generated (1, Low; 81); 06:06:23 UTC, https://www.pangram.com/history/ccd1c269-5795-4750-a378-93c10fb1abc0 | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P1, fg1p1b alone (80 words) [t65w_fg1p1b], a screen | Human, low (my call) | AI Generated (1, Low; 83); 06:06:34 UTC, https://www.pangram.com/history/0fe9d363-ebfd-4f65-a960-48cdde37d4cd | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting with P1 = fg1p1a (85 words) [t65w_secfg1p1a], a screen | Human, low (my call) | AI Generated (1, Low; 86); 06:04:36 UTC, https://www.pangram.com/history/eb72b644-f2b7-4e09-b00c-b068ab55ca55 | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting with P1 = fg1p1b (86 words) [t65w_secfg1p1b], a screen | Human, low (my call) | AI Generated (1, Low; 88); 06:04:25 UTC, https://www.pangram.com/history/74032bd4-92a5-4b86-9d26-7bcc1764e901 | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p2a2 alone (77 words) [t65w_fg1p2a2], a screen | Human, low (my call) | AI Generated (1, Low; 79); 06:06:45 UTC, https://www.pangram.com/history/be4ec4fd-afa0-4d9e-b0e2-2e72db77817b | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p2b alone (77 words) [t65w_fg1p2b], a screen | Human, low (my call) | AI Generated (0.98, Low; 80); 06:06:55 UTC, https://www.pangram.com/history/76357e98-e4bf-45b7-a136-c594066ef9e7 | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p3a alone (57 words) [t65w_fg1p3a], a screen | Human, low (my call) | AI Generated (1, Low; 61); 06:07:05 UTC, https://www.pangram.com/history/aa2a8a24-0356-4de0-a238-eb1ad12ca017 | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p3b alone (56 words) [t65w_fg1p3b], a screen | Human, low (my call) | AI Generated (0.91, Low; 58); 06:07:16 UTC, https://www.pangram.com/history/72fd8a5a-8737-4919-9970-1e971f8036a9 | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p4a3 alone (92 words) [t65w_fg1p4a3], a screen | Human, low (my call) | AI Generated (1, Low; 95); 06:07:09 UTC, https://www.pangram.com/history/9590bc5f-1b0d-43d0-b6dc-0d254f3d5c0e | miss |
+| 2026-10-17 (turn 65) | When One Life Has Ended P1, le1p1a3 alone (100 words) [t65w_le1p1a3], a screen | Human, low (my call) | AI Generated (0.75, Medium; 102); 06:06:56 UTC, https://www.pangram.com/history/d19e4bec-8754-4c09-a569-c375b0b13213 | miss |
+| 2026-10-17 (turn 65) | When One Life Has Ended and the Next Hasn’t Begun with P1 = le1p1a3 (111 words) [t65w_secle1p1a3], a screen | Human, low (my call) | AI Generated (0.74, Medium; 113); 06:04:14 UTC, https://www.pangram.com/history/08933544-6cb6-48b2-8d3c-c325bb177a8d | miss |
+| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p2a2 alone (84 words) [t65w_le1p2a2], a screen | Human, low (my call) | AI Generated (1, Low; 87); 06:06:45 UTC, https://www.pangram.com/history/00d907fa-90f9-429a-8f9e-92335a392523 | miss |
+| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p3b alone (61 words) [t65w_le1p3b], a screen | Human, low (my call) | AI Generated (0.97, Low; 62); 06:06:33 UTC, https://www.pangram.com/history/d8c3e763-8c87-435b-9058-754afbb5970b | miss |
+| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p4c alone (68 words) [t65w_le1p4c], a screen | Human, low (my call) | AI Generated (1, Low; 71); 06:06:21 UTC, https://www.pangram.com/history/6927b3e5-33d7-4713-8ff0-8e19201f861c | miss |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship P1, ba1p1a alone (79 words) [t65w_ba1p1a], a screen | Human, low (my call) | AI Generated (1, Low; 81); 06:06:11 UTC, https://www.pangram.com/history/6c206f33-07d5-4f80-99e4-e5261d34d536 | miss |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with P1 = ba1p1a (84 words) [t65w_secba1p1a], a screen | Human, low (my call) | AI Generated (0.99, Low; 85); 06:04:03 UTC, https://www.pangram.com/history/e1102d88-8cc6-4eb2-a9b1-2c3fd87d84b6 | miss |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship P2, ba1p2a2 alone (82 words) [t65w_ba1p2a2], a screen | Human, low (my call) | AI Generated (0.95, Low; 82); 06:06:01 UTC, https://www.pangram.com/history/fb4208be-ae3a-452c-8d08-db7620d53b39 | miss |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with P2 = ba1p2a2 (166 words) [t65w_secba1p2a2], a screen | Human, low (my call) | AI Generated (1, High; 167); 06:03:53 UTC, https://www.pangram.com/history/e9e9d807-3712-4e1d-b4d1-aa8047f4d60e | miss |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P1, fg1p1c alone (81 words) [t65x_fg1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P1, fg1p1d alone (82 words) [t65x_fg1p1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting with P1 = fg1p1c (87 words) [t65x_secfg1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting with P1 = fg1p1d (88 words) [t65x_secfg1p1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p2c alone (84 words) [t65x_fg1p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p2d alone (84 words) [t65x_fg1p2d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p3ac alone (58 words) [t65x_fg1p3ac], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p3bc alone (67 words) [t65x_fg1p3bc], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How to Forgive Without Forgetting P2 to P5, fg1p4c alone (94 words) [t65x_fg1p4c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When One Life Has Ended P1, le1p1c alone (99 words) [t65x_le1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When One Life Has Ended and the Next Hasn’t Begun with P1 = le1p1c (110 words) [t65x_secle1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p2c alone (93 words) [t65x_le1p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p3c alone (62 words) [t65x_le1p3c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When One Life Has Ended P2 to P4, le1p4d alone (67 words) [t65x_le1p4d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship P1, ba1p1c alone (82 words) [t65x_ba1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship with P1 = ba1p1c (87 words) [t65x_secba1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship P2, ba1p2c alone (78 words) [t65x_ba1p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow, sh1a2 alone (114 words) [t65x_sh1a2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow, sh1c alone (111 words) [t65x_sh1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow, sh1p1b alone (81 words) [t65x_sh1p1b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with P1 = sh1a2 (123 words) [t65x_secsh1a2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with P1 = sh1c (120 words) [t65x_secsh1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow with P1 = sh1p1b (90 words) [t65x_secsh1p1b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When the Practice Feels Real but Stays Shallow P2, sh1p2b alone (53 words) [t65x_sh1p2b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P1, lm1p1h alone (56 words) [t65x_lm1p1h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing with P1 = lm1p1h (62 words) [t65x_seclm1p1h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p2f alone (76 words) [t65x_lm1p2f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | When Love Still Feels Missing P2 and P3, lm1p3f alone (92 words) [t65x_lm1p3f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here P1, lm2p1f alone (77 words) [t65x_lm2p1f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Notice the Part That Came Here with P1 = lm2p1f (84 words) [t65x_seclm2p1f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Somatic Heart Opening, lm3p1f alone (98 words) [t65x_lm3p1f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | Somatic Heart Opening with P1 = lm3p1f (102 words) [t65x_seclm3p1f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness P3 and P4, lm4p3e alone (56 words) [t65x_lm4p3e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | How Much Happiness P3 and P4, lm4p4d alone (60 words) [t65x_lm4p4d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself P1, ks1p1c alone (106 words) [t65x_ks1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself with P1 = ks1p1c (113 words) [t65x_secks1p1c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself P2 to P7, ks1p2c alone (90 words) [t65x_ks1p2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself P2 to P7, ks1p3a alone (64 words) [t65x_ks1p3a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself P2 to P7, ks1p4b alone (63 words) [t65x_ks1p4b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself P2 to P7, ks1p4c alone (63 words) [t65x_ks1p4c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself P2 to P7, ks1p5b alone (89 words) [t65x_ks1p5b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | If You Want to Kill Yourself P2 to P7, ks1p6b alone (95 words) [t65x_ks1p6b], a screen | Human, low (my call) | (pending) | |
