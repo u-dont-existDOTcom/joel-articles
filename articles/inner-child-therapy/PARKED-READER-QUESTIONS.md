@@ -6,6 +6,8 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-17 · The Inner Guide Comes Later, P11 (turn 64 grounding) · Is owning up to my own flaws manipulative? (P11's "may be a perfectly honest thing to say" mostly answers it.) · COULD (parked)
+
 - 2026-10-16 · The Inner Guide Comes Later, P8 (turn 62 grounding) · What could "whatever your tradition sees as ultimate" be? (The guide's examples: God, the divine, the universe, source, the Three Jewels, the Tao, life; as a list it was one of the AI tells I named in turn 61.) · default (parked)
 - 2026-10-16 · The Inner Guide Comes Later, P8 (turn 62 grounding) · What does belonging to existence itself mean? · default (parked)
 

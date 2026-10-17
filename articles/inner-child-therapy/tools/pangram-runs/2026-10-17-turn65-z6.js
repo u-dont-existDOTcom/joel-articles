@@ -1,0 +1,36 @@
+const items0 = [["t65z6_sh1w8p1", () => "Some people have the opposite problem: it feels like they're connecting, and the contact stays near the surface. A long meditation and then sleep, especially a second sleep after you've already slept once, can open up much more direct stuff. Then the dream that night hits harder than the whole session did, with way more feeling and need in it, and you wake up wondering where all that was during the day. That's the sign this is you (a session that was good and just didn't stick around is something else). Whatever came up, what's available to you now that wasn't before, and how do you see it? And if nightmares start wrecking your sleep, try a smaller dose, earlier in the day or shorter, before you write off the whole thing.", "4c19520389c101e41ca6604afd3ed028a700be57d25bc8991c71a890c8c52fde"], ["t65z6_ba1w9p1", () => "Reparenting usually gets talked about as something you do alone, or with a therapist. But your little one got hurt in relationships, and that kind of hurt only heals so far on your own. Sometimes one person ends up carrying a lot of the borrowed grown-up jobs for you: the food, the planning, health decisions, rides, your social life, reassurance, protection, company. Or just the feeling that somebody competent is next to you. If you've got someone like that while you're struggling, that's a huge blessing.", "e72754ed075545d3b2c19aaa33a5323a78b7a11105f12bc6e1c22f5fc1c562c6"], ["t65z6_ba1w9p2", () => "Over time, reparenting can help you take in some of what they've been showing you, and practice it yourself. Some of the jobs can go to friends or community, or to professionals and services, and some to routines and plain old tools (a calendar never gets tired of you). So which ones could become more yours? Which are better shared around? And which really belong in that relationship? The idea is for your little one to get reliable care through more than one door, while the relationship stays as precious and important as it is.", "e6b473fb91ea540100643a9c0fb416b2ad523192e600bb2aa7fdf737a4e830cd"], ["t65z6_secba1w9", () => "# Borrowed Adulthood in Relationship\n\nReparenting usually gets talked about as something you do alone, or with a therapist. But your little one got hurt in relationships, and that kind of hurt only heals so far on your own. Sometimes one person ends up carrying a lot of the borrowed grown-up jobs for you: the food, the planning, health decisions, rides, your social life, reassurance, protection, company. Or just the feeling that somebody competent is next to you. If you've got someone like that while you're struggling, that's a huge blessing.\n\nOver time, reparenting can help you take in some of what they've been showing you, and practice it yourself. Some of the jobs can go to friends or community, or to professionals and services, and some to routines and plain old tools (a calendar never gets tired of you). So which ones could become more yours? Which are better shared around? And which really belong in that relationship? The idea is for your little one to get reliable care through more than one door, while the relationship stays as precious and important as it is.", "b69127c53e336c7826249350c457177be570be93bfa02f8404a66ec953d1c90c"], ["t65z6_secsh1w8", () => "# When the Practice Feels Real but Stays Shallow\n\nSome people have the opposite problem: it feels like they're connecting, and the contact stays near the surface. A long meditation and then sleep, especially a second sleep after you've already slept once, can open up much more direct stuff. Then the dream that night hits harder than the whole session did, with way more feeling and need in it, and you wake up wondering where all that was during the day. That's the sign this is you (a session that was good and just didn't stick around is something else). Whatever came up, what's available to you now that wasn't before, and how do you see it? And if nightmares start wrecking your sleep, try a smaller dose, earlier in the day or shorter, before you write off the whole thing.", "cb2533fa9a1234b1ca70c5ba69dc170c4c1bc95ca41a5ccb1ffd286b6e35ce5d"], ["t65z6_secsomh2v8", () => "## Somatic Heart Opening\n\nRumi says you have to keep breaking your heart until it stays open. Some people find that deep grieving gives way to warmth, or to feeling connected. Some feel held, in the body. That describes what they feel, and it doesn't prove how the body produces it. Being loved can open grief from the other side, too. Someone takes care of you, and you think, \"Why does this make me sad?\" It can be sadness for the care that was missing, and that doesn't mean the love failed. While you're present and still choosing, stay with it. Once it's swamping you instead of opening you, slow down (like turning the song off for the night).", "368315e7103e62bc6f9c0e9841dc7f78248afd4e90347721cb8e263b2e1faba0"]];
+const rev = !!window.__reverse;
+const items = rev ? items0.slice().reverse() : items0;
+const order0 = items0.map(x => x[0]);
+const lane = k => "t65z6" + '_' + k;
+try { localStorage.removeItem(lane(rev ? 'rev' : 'fwd')); } catch (e) {}
+window.__t65z6 = [];
+const log = m => { window.__t65z6.push(m); try { localStorage.setItem(lane(rev ? 'rev' : 'fwd'), JSON.stringify(window.__t65z6)); } catch (e) {} };
+const other = () => { try { return JSON.parse(localStorage.getItem(lane(rev ? 'fwd' : 'rev')) || '[]').filter(m => / (clicked|taking)$/.test(m)).map(m => order0.indexOf(m.split(':')[0])); } catch (e) { return []; } };
+const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
+const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');
+const button = () => [...document.querySelectorAll('button[type=submit]')].find(b => /check for ai/i.test(b.innerText));
+const wait = ms => new Promise(r => setTimeout(r, ms));
+async function run() {
+  for (const [k, mk, want] of items) {
+    const o = other(), i = order0.indexOf(k);
+    if (o.length && (rev ? i <= Math.max(...o) : i >= Math.min(...o))) { log('stop at ' + k + ': the other tab has the rest'); break; }
+    log(k + ': taking');  // claimed before the work, so the other tab never takes it too (turn 65: with a margin
+                          // of one instead, both tabs stopped short of the last check)
+    const T = mk();  // built when its turn comes, so it can use texts stored earlier in this batch
+    for (let j = 0; j < 20 && !(button() && document.querySelector('textarea')); j++) await wait(500);
+    const ta = document.querySelector('textarea');
+    if (!ta) { log(k + ': no textarea'); break; }
+    setter.call(ta, T); ta.dispatchEvent(new Event('input', {bubbles: true}));
+    let b = null;
+    for (let j = 0; j < 30; j++) { await wait(500); b = button(); if (b && !b.disabled) break; }
+    const h = await sha(ta.value);
+    if (h !== want) { log(k + ': hash mismatch ' + h + ' (is its prefix in sessionStorage?)'); break; }
+    if (!b || b.disabled) { log(k + ': button not ready'); break; }
+    try { sessionStorage.setItem(k, T); } catch (e) {}
+    b.click(); log(k + ': clicked');
+    await wait(10000);
+  }
+  log('end');
+}
+run(); 'started'

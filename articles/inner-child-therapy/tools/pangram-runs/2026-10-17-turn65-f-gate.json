@@ -1,0 +1,98 @@
+{
+ "t65f_p14e": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round f: round e's p14-b read Human alone but its AI window came back in the section (all four did); now plain words for the guide's 'Nurturer and Protector first' and 'wearing the clothes of direction' (bossing around, a joke gloss), the heading pointed at, a quoted overruling; p14-e. March: my own reading."
+ },
+ "t65f_p14f": {
+  "kind": "screen",
+  "march": [
+   "B S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round f: round e's p14-b read Human alone but its AI window came back in the section (all four did); now plain words for the guide's 'Nurturer and Protector first' and 'wearing the clothes of direction' (bossing around, a joke gloss), the heading pointed at, a quoted overruling; p14-f. March: my own reading."
+ },
+ "t65f_p14g": {
+  "kind": "screen",
+  "march": [
+   "B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round f: round e's p14-b read Human alone but its AI window came back in the section (all four did); now plain words for the guide's 'Nurturer and Protector first' and 'wearing the clothes of direction' (bossing around, a joke gloss), the heading pointed at, a quoted overruling; p14-g. March: my own reading."
+ },
+ "t65f_p14h": {
+  "kind": "screen",
+  "march": [
+   "B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "turn 65 round f: round e's p14-b read Human alone but its AI window came back in the section (all four did); now plain words for the guide's 'Nurturer and Protector first' and 'wearing the clothes of direction' (bossing around, a joke gloss), the heading pointed at, a quoted overruling; p14-h. March: my own reading."
+ },
+ "t65f_pairp14e": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: P13+P14, the paragraph before and p14-e."
+ },
+ "t65f_pairp14f": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 B S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: P13+P14, the paragraph before and p14-f."
+ },
+ "t65f_pairp14g": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: P13+P14, the paragraph before and p14-g."
+ },
+ "t65f_pairp14h": {
+  "kind": "screen",
+  "march": [
+   "P13 (installed) | P14 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: P13+P14, the paragraph before and p14-h."
+ },
+ "t65f_secp14e": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 B S S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: The Inner Guide Comes Later with P14 = p14-e."
+ },
+ "t65f_secp14f": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 B S B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: The Inner Guide Comes Later with P14 = p14-f."
+ },
+ "t65f_secp14g": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: The Inner Guide Comes Later with P14 = p14-g."
+ },
+ "t65f_secp14h": {
+  "kind": "screen",
+  "march": [
+   "P1 S S B S S | P2 S B S S | P3 S S B S S S | P4 S S S B S S B | P5 Joel's | P6 S S B S S S S | P7 Joel's | P8 S S B B B S | P9 S B S S | P10 B S B | P11 S B S B S | P12 B S S | P13 S S B S | P14 B S S"
+  ],
+  "lint": "REVIEW",
+  "note": "t65f: The Inner Guide Comes Later with P14 = p14-h."
+ }
+}

@@ -188,15 +188,28 @@ def batch_js(name, items):
         else:
             src = json.dumps(full)
         rows.append('[%s, () => %s, %s]' % (json.dumps(key), src, json.dumps(sha(full))))
-    return ("const items = [" + ', '.join(rows) + "];\n"
+    # Two tabs can share a batch (turn 65: a 69-check batch took 20 minutes in one): one runs it as it is, the
+    # other with window.__reverse = true from the end, and each stops where the other has got to; they meet in the
+    # middle through localStorage, which tabs of the same site share.
+    return ("const items0 = [" + ', '.join(rows) + "];\n"
+            "const rev = !!window.__reverse;\n"
+            "const items = rev ? items0.slice().reverse() : items0;\n"
+            "const order0 = items0.map(x => x[0]);\n"
+            "const lane = k => " + json.dumps(name) + " + '_' + k;\n"
+            "try { localStorage.removeItem(lane(rev ? 'rev' : 'fwd')); } catch (e) {}\n"
             "window.__" + name + " = [];\n"
-            "const log = m => window.__" + name + ".push(m);\n"
+            "const log = m => { window.__" + name + ".push(m); try { localStorage.setItem(lane(rev ? 'rev' : 'fwd'), JSON.stringify(window.__" + name + ")); } catch (e) {} };\n"
+            "const other = () => { try { return JSON.parse(localStorage.getItem(lane(rev ? 'fwd' : 'rev')) || '[]').filter(m => / (clicked|taking)$/.test(m)).map(m => order0.indexOf(m.split(':')[0])); } catch (e) { return []; } };\n"
             "const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;\n"
             "const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');\n"
             "const button = () => [...document.querySelectorAll('button[type=submit]')].find(b => /check for ai/i.test(b.innerText));\n"
             "const wait = ms => new Promise(r => setTimeout(r, ms));\n"
             "async function run() {\n"
             "  for (const [k, mk, want] of items) {\n"
+            "    const o = other(), i = order0.indexOf(k);\n"
+            "    if (o.length && (rev ? i <= Math.max(...o) : i >= Math.min(...o))) { log('stop at ' + k + ': the other tab has the rest'); break; }\n"
+            "    log(k + ': taking');  // claimed before the work, so the other tab never takes it too (turn 65: with a margin\n"
+            "                          // of one instead, both tabs stopped short of the last check)\n"
             "    const T = mk();  // built when its turn comes, so it can use texts stored earlier in this batch\n"
             "    for (let j = 0; j < 20 && !(button() && document.querySelector('textarea')); j++) await wait(500);\n"
             "    const ta = document.querySelector('textarea');\n"
@@ -224,8 +237,9 @@ def reader_js(items, pages=5):
             "let url = 'https://web.pangram.com/api/history-list/?limit=20&offset=0';\n"
             "for (let p = 0; url && p < " + str(pages) + " && Object.keys(out).length < Object.keys(want).length; p++) {\n"
             "  const l = await fetch(url, {credentials: 'include'}).then(r => r.json());\n"
-            "  for (const it of l.results || []) {\n"
-            "    const d = await fetch('https://web.pangram.com/api/history/' + it.uuid + '/', {credentials: 'include'}).then(r => r.json());\n"
+            "  // each page's details in parallel (2026-10-17: the History is shared with other lanes and fills fast)\n"
+            "  const ds = await Promise.all((l.results || []).map(it => fetch('https://web.pangram.com/api/history/' + it.uuid + '/', {credentials: 'include'}).then(r => r.json()).then(d => [it, d])));\n"
+            "  for (const [it, d] of ds) {\n"
             "    const k = want[await sha(d.prompt || '')];\n"
             "    if (!k || out[k]) continue;\n"
             "    const o = d.response.overall;\n"
@@ -274,11 +288,19 @@ def main(argv=None):
     drafts = json.loads(pathlib.Path(a.drafts).read_text(encoding='utf-8'))
     gate = json.loads(pathlib.Path(a.gate).read_text(encoding='utf-8'))
     bad = False
+    # The linter takes about 5 seconds a text, so the texts are linted side by side (2026-10-17, turn 65: Joel asked
+    # for the work to go faster). A record's own "lint_article" is the article it goes into, when a batch holds
+    # paragraphs for different sections (pangram_round.py --spec); otherwise it's --lint-article.
+    todo = [k for k in a.keys if k in drafts and a.lint_article and (gate.get(k) or {}).get('kind') in ('screen', 'draft', 'edit')]
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        verdicts = dict(zip(todo, ex.map(lambda k: lint_verdict(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'],
+                                                                 (gate.get(k) or {}).get('lint_article') or a.lint_article), todo)))
     for k in a.keys:
         if k not in drafts:
             print('%s: not in %s' % (k, a.drafts), file=sys.stderr); bad = True
-        elif a.lint_article and (gate.get(k) or {}).get('kind') in ('screen', 'draft', 'edit'):
-            v = lint_verdict(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'], a.lint_article)
+        elif k in verdicts:
+            v = verdicts[k]
             if v != str((gate.get(k) or {}).get('lint', '')).upper():
                 print('%s: the linter says %s, GATE.json says %r; it now says %s' % (k, v, gate[k].get('lint'), v), file=sys.stderr)
             gate[k] = dict(gate[k], lint=v)
@@ -287,6 +309,8 @@ def main(argv=None):
     if bad:
         print('No batch written: the gate comes before Pangram (docs/HUMANIZATION-GATE.md).', file=sys.stderr)
         return 2
+    if verdicts:  # the record keeps the linter's verdict, not the one typed or guessed (turn 65)
+        pathlib.Path(a.gate).write_text(json.dumps(gate, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
     items = [(k, drafts[k]) for k in a.keys]
     out = pathlib.Path(a.out)
     out.write_text(batch_js(a.name, items), encoding='utf-8')

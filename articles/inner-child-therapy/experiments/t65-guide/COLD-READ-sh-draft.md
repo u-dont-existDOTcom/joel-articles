@@ -1,0 +1,3 @@
+# When the Practice Feels Real but Stays Shallow
+
+Some people have the opposite problem. It feels like you're connecting with your little one, but the contact is staying near the surface. Meditating for a long time and then sleeping can open up much more emotionally direct stuff, especially in a second sleep, after you've already slept once. So say the dream that night carries far more feeling and need than the session came anywhere near. That's the sign this is you (a session that was good and just didn't stick around is something else). Whatever came up, what's available to you now that wasn't before, and how do you see it? And if nightmares start wrecking your sleep, try a smaller dose, earlier in the day or shorter, before you write off the whole thing.

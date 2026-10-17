@@ -1,5 +1,6 @@
 """Regression tests for the shared humanization tools' 2026-10-02 additions: the exact-character ledger check,
 the linter's abstract-agent flag (O6) and the whole-article stance-check prompt."""
+import importlib.util
 import json
 import os
 import pathlib
@@ -1353,7 +1354,99 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn("A paragraph's first sentence has to follow from what comes before it.", t)
         self.assertIn('know what? doesn\'t seem to follow', t)
         self.assertIn('picks up something from a paragraph or two back', t)
+        self.assertIn('So does a first sentence that says in full what it\'s about', t)
         self.assertIn('add one line that starts "Paused:"', t)
+
+
+class PangramRoundBuildsEveryCheckAtOnce(unittest.TestCase):
+    """2026-10-17 (turn 64, E181): turn 63 split each candidate's checks over separate rounds (alone first, then
+    the pair and the section) and wrote each round's files by hand; Joel: "idk why that had to take 38 mins tho".
+    pangram_round.py builds the paragraph alone, the pair with the paragraph before and the section, for every
+    candidate, in one batch."""
+
+    def test_each_candidate_is_checked_alone_after_its_neighbor_and_in_its_section(self):
+        import pangram_round
+        with tempfile.TemporaryDirectory() as d:
+            art = pathlib.Path(d) / 'a.md'
+            art.write_text('# Earlier\n\nOld text.\n\n# The Section\n\n<!-- a note -->\n\nFirst one.\n\nSecond one.\n', encoding='utf-8')
+            c = pathlib.Path(d) / 'p3-x.txt'
+            c.write_text('A new one.\n', encoding='utf-8')
+            drafts, gate, n = pangram_round.build(str(art), 'The Section', 'r1', [(str(c), 'S B')], 'P1 S | P2 S', 'note')
+        self.assertEqual(n, 3)
+        self.assertEqual(drafts['r1_p3x'], 'A new one.')
+        self.assertEqual(drafts['r1_pairp3x'], 'Second one.\n\nA new one.')
+        self.assertEqual(drafts['r1_secp3x'], '# The Section\n\nFirst one.\n\nSecond one.\n\nA new one.')
+        self.assertEqual(list(drafts), ['r1_p3x', 'r1_pairp3x', 'r1_secp3x'])
+        self.assertTrue(all(g['kind'] == 'screen' for g in gate.values()))
+        self.assertEqual(gate['r1_secp3x']['march'], ['P1 S | P2 S | P3 S B'])
+
+    def test_a_spec_puts_several_sections_in_one_batch_each_linted_against_its_own_article(self):
+        """2026-10-17 (turn 65): one batch for paragraphs of several sections, one wait in the browser."""
+        import pangram_round
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a1.md').write_text('# One\n\nFirst.\n', encoding='utf-8')
+            (d / 'a2.md').write_text('# Two\n\nSecond.\n', encoding='utf-8')
+            (d / 'x-a.txt').write_text('New for one.\n', encoding='utf-8')
+            (d / 'y-a.txt').write_text('New for two.\n', encoding='utf-8')
+            (d / 'P.md').write_text('| date | what | prediction | result | hit |\n', encoding='utf-8')
+            groups = [{'article': str(d / 'a1.md'), 'heading': 'One', 'section_march': 'P1 S B', 'cands': [[str(d / 'x-a.txt'), 'S B']]},
+                      {'article': str(d / 'a2.md'), 'heading': 'Two', 'section_march': 'P1 S B', 'cands': [[str(d / 'y-a.txt'), 'S B']]}]
+            with mock.patch.object(pangram_round.subprocess, 'run', return_value=mock.Mock(returncode=0)) as ran:
+                rc = pangram_round.run(groups, 'r9', str(d / 'out'), str(d / 'P.md'), 'today')
+            self.assertEqual(rc, 0)
+            drafts = json.loads((d / 'out-drafts.json').read_text(encoding='utf-8'))
+            gate = json.loads((d / 'out-gate.json').read_text(encoding='utf-8'))
+            # after a section's only paragraph the pair would be the section again, so it isn't built
+            self.assertEqual(set(drafts), {'r9_xa', 'r9_secxa', 'r9_ya', 'r9_secya'})
+            self.assertEqual(gate['r9_secxa']['lint_article'], str(d / 'a1.md'))
+            self.assertEqual(gate['r9_ya']['lint_article'], str(d / 'a2.md'))
+            self.assertEqual(ran.call_count, 1)  # one gate run, one batch
+            self.assertEqual((d / 'P.md').read_text(encoding='utf-8').count('(pending)'), 4)
+            groups[1]['checks'] = 'alone'
+            with mock.patch.object(pangram_round.subprocess, 'run', return_value=mock.Mock(returncode=0)):
+                pangram_round.run(groups, 'r10', str(d / 'out2'), str(d / 'P.md'), 'today')
+            self.assertEqual(set(json.loads((d / 'out2-drafts.json').read_text(encoding='utf-8'))), {'r10_xa', 'r10_secxa', 'r10_ya'})
+
+
+class PangramBatchRunsInTwoTabs(unittest.TestCase):
+    """2026-10-17 (turn 65): a 69-check batch took about 20 minutes in one tab. The batch can run in two tabs at
+    once, one from each end, meeting in the middle through localStorage."""
+
+    def test_the_batch_has_a_reverse_lane_that_stops_where_the_other_tab_is(self):
+        import pangram_gate
+        js = pangram_gate.batch_js('t9', [('t9_a', 'One text.'), ('t9_b', 'Two text.')])
+        self.assertIn('const rev = !!window.__reverse;', js)
+        self.assertIn('items0.slice().reverse()', js)
+        self.assertIn("localStorage.setItem(lane(rev ? 'rev' : 'fwd')", js)
+        self.assertIn('the other tab has the rest', js)
+        self.assertIn("log(k + ': taking')", js)
+        self.assertIn('"t9_a"', js)
+
+
+class PangramScoreFillsThePendingRows(unittest.TestCase):
+    """2026-10-17 (turn 65): each batch's PREDICTIONS.md rows were scored by typing every result by hand."""
+
+    def test_a_pending_row_gets_its_result_time_link_and_hit(self):
+        import pangram_score
+        lines = ['| d | P2 alone [t9_pa], a screen | Human, low (my call) | (pending) | |',
+                 '| d | the h1 with pa [t9_sec2pa], a screen | Human, low (my call) | (pending) | |',
+                 '| d | done before [t8_x], a screen | Human, low (my call) | Human Written (0.01, low; 70) | hit |']
+        read = {'t9_pa': {'headline': 'Human Written', 'avg_ai_likelihood': 0.0041, 'words': 72,
+                          'windows': ['Human, low, 72'], 'utc': '2026-10-17T04:00:52Z', 'link': 'https://www.pangram.com/history/u1'},
+                't9_sec2pa': {'headline': 'AI Detected', 'avg_ai_likelihood': 0.64, 'words': 226,
+                              'windows': ['Human, high, 54', 'AI, high, 88', 'AI, medium, 84'], 'utc': '2026-10-17T04:01:00Z',
+                              'link': 'https://www.pangram.com/history/u2'}}
+        out, done = pangram_score.score(read, lines)
+        self.assertEqual(out[0], '| d | P2 alone [t9_pa], a screen | Human, low (my call) | Human Written (0.004, low; 72); '
+                                 '04:00:52 UTC, https://www.pangram.com/history/u1 | hit |')
+        self.assertIn('AI Detected (0.64; 226), 3 windows: AI 88 words (high), AI 84 words (medium); 04:01:00 UTC', out[1])
+        self.assertTrue(out[1].endswith('| miss |'))
+        self.assertEqual(out[2], lines[2])
+        self.assertEqual([k for k, _, _ in done], ['t9_pa', 't9_sec2pa'])
+        short = pangram_score.expand(['Human Written', 0.0041, 72, ['Human, low, 72'], '2026-10-17T04:00:52Z', 'u1'])
+        self.assertEqual(short, dict(read['t9_pa']))
 
 
 class ClickableLinks(unittest.TestCase):
@@ -1374,12 +1467,14 @@ class ClickableLinks(unittest.TestCase):
         # the resume line, written [url](url) as Joel asked (2026-10-16), is a link
         self.assertEqual(html_links.bare_urls('read [https://g.example/h.md](https://g.example/h.md) and go on'), [])
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_the_questions_renderer_links_bare_addresses(self):
         sys.path.insert(0, str(ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'tools'))
         import render_questions
         out = render_questions.render('# Q\n\nLast updated today.\n\n## Open questions\n\n- 🟢 It reads Human: https://www.pangram.com/history/abc-2\n')
         self.assertIn('<a href="https://www.pangram.com/history/abc-2">', out)
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_two_blank_lines_between_items_keep_the_text_column(self):
         """Joel's screenshot, 2026-10-16 23:38 UTC: an item after two blank lines showed one word per line, because
         python-markdown wrapped it in <p> and the grid put the <p> in the dot's .7rem column."""
@@ -1394,6 +1489,7 @@ class ClickableLinks(unittest.TestCase):
         self.assertEqual(render_questions.misplaced_items(
             '<ul class="items"><li>\n<p><span class="dot done"></span>squeezed</p>\n</li></ul>'), ['squeezed'])
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_sub_bullets_stay_inside_their_item(self):
         """2026-10-17: a decided item with sub-bullets (indented two spaces, as GitHub nests them) came out as top-level
         items without a dot, which the grid squeezes into the dot column; misplaced_items stopped the page from being
@@ -1442,6 +1538,7 @@ class ClickableLinks(unittest.TestCase):
             r = subprocess.run([sys.executable, script, str(bad)], capture_output=True, text=True)
             self.assertEqual(r.returncode, 0, 'without --chat a page source may hold bare addresses; its renderer links them')
 
+    @unittest.skipUnless(importlib.util.find_spec('markdown'), 'python-markdown is not installed (CI has no pip step)')
     def test_a_pasted_post_card_link_becomes_its_heading_with_the_link(self):
         import html_links
         md = ('I wrote separately:\n\n[Spirit and Mind Health](https://a.example/p)[\n\n## Facing the Polycrisis\n\n'
