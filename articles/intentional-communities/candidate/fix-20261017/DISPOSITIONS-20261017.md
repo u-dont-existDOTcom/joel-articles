@@ -26,3 +26,17 @@ recorded as such.
 - #9 (B343 "knowledge in the living villages that no book can give you" and section 16's "No manifesto is going to tell you any
   of that!"): a faint echo across sections, one about African villages and one about visiting communities; Joel kept the
   manifesto line in his 42. Kept.
+
+## Section 16 (REPEATS-b-s16.md: 9 repeats, 3 mild contradictions)
+
+- None is created by this turn's changes. Joel's new lines ("Look before you leap. It will really save you some time &
+  money.") are in no repeat, and "quietly" out of the opening changes none. The nine are the ones the overnight dedup weighed
+  (the questions page, decided 2026-10-17: "section 16's six others (the forty acres, training people who build elsewhere,
+  the order of steps, among them)" kept, each carrying its own point), in sections 4, 6, 13 and 16 as they stood.
+- #3 now also cites section 4's new sentence ("the practical logistical foundation that gets built once the architects can
+  work well together") for the order: that tie is the point of Joel's answer to question 39, so it's a callback he chose.
+- C3 (section 4's container "gives those a stable place to manifest" against "may never own land. So what?"): the report
+  itself says his new sentence partly resolves it; land is one part of the container (membership, money, governance,
+  children, exit are the others). C1 ("you are already a community" against "Call it a practice group, not a commune.") and
+  C2 (peer counseling under "inner pl/ork" in section 16, "relational pl/ork" in section 4) are in the published text;
+  neither is this turn's. Kept, on the record.

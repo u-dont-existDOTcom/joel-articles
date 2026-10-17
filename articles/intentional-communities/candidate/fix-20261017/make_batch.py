@@ -77,7 +77,7 @@ def alone_or_pairs(name, md, starts, joel, kind='owner'):
     return ps[i]
 
 
-if WHICH in ('410', '412', '413'):   # 410: the paragraphs and the probes; 412 and 413: the whole sections, once their repeats checks are in
+if WHICH in ('410', '412', '413', '414'):   # 410: the paragraphs and the probes; 412 to 414: the whole sections, once their repeats checks are in
     v28 = (C / 's16' / 'v28.md').read_text(encoding='utf-8')
     alone_or_pairs('S16v28-H1P3', v28, 'Same with money', JOEL + '"practice comes before property p3: remove "quietly" that\'s an ai '
                    'tell at the end"')
@@ -129,7 +129,7 @@ if WHICH in ('410', '412', '413'):   # 410: the paragraphs and the probes; 412 a
         gate['Q40-' + key[4:]] = {'kind': 'screen', 'march': [m[str(n)] for m in M], 'march_note': 'fix-20261017/march-r1',
                                   'lint': lint(probes[key]), 'probe': 'Joel\'s question 40: "so "often" is an ai tell?"',
                                   'words': len(plain(probes[key]).split())}
-if WHICH in ('411', '412', '413'):   # 411: section 12's P2 with the study; its whole section goes in 412 with the others
+if WHICH in ('411', '412', '413', '414'):   # 411: section 12's P2 with the study; its whole section goes in 412 with the others
     s12 = (HERE / 's12-v14.md').read_text(encoding='utf-8')
     hp = paras(s12)
     P2 = next(p for _, p in hp if p.startswith("This doesn't surprise me"))
@@ -148,7 +148,7 @@ if WHICH in ('411', '412', '413'):   # 411: section 12's P2 with the study; its 
         'lint': lint(md_p2), 'missing': [], 'words': len(P2.split()),
         'joel_note': JOEL + 'his link and his "no, duh" ("i also want to add this link and screenshot somewhere in the article where it '
                             'belongs (altho it\'s kind of a "no, duh" study)"); his P2 as he wrote it, with my two sentences at its end'}
-    if WHICH in ('412', '413'):
+    if WHICH in ('412', '413', '414'):
         art_c = (HERE / 'article-with-drafts-c.md').read_text(encoding='utf-8')
         drafts['S12v14'] = section(art_c, '# The Math of Absorption, and Who This Isn’t For')
         gate['S12v14'] = {'kind': 'section', 'parts': ['S12v14-P2', 'installed'], 'repeats': 0,
@@ -156,7 +156,7 @@ if WHICH in ('411', '412', '413'):   # 411: section 12's P2 with the study; its 
 for k in gate:
     gate[k].setdefault('words', len(drafts[k].split()))
 KEYS = ([k for k in drafts if (gate[k]['kind'] == 'section') == (WHICH == '412') and not k.startswith('S12v14-')] if WHICH == '410'
-        else ['S1sw', 'S8v30', 'S12v14', 'S15v13'] if WHICH == '412' else ['S4v114', 'S16v28'] if WHICH == '413'
+        else ['S1sw', 'S8v30', 'S12v14', 'S15v13'] if WHICH == '412' else ['S16v28'] if WHICH == '413' else ['S4v114'] if WHICH == '414'
         else ['S12v14-P2'])
 drafts = {k: drafts[k] for k in KEYS}
 out = HERE / ('b' + WHICH)
