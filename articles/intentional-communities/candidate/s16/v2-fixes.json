@@ -20,8 +20,8 @@
  {
   "id": "H2-P3",
   "old": "And reparenting, somatic work, jealousy, conflict repair, etc. don't have to wait for a deed!",
-  "new": "Reparenting, somatic work, jealousy, conflict repair, etc. don't have to wait for a deed either!",
-  "why": "two sentences in a row no longer open on \"And\" (march r2: no break in one reading or both)"
+  "new": "Reparenting, somatic work, jealousy, conflict repair and the rest don't have to wait for a deed either!",
+  "why": "two sentences in a row no longer open on \"And\", and \"and the rest\" for \"etc.\", which the linter reads as a sentence end (a short landing, B7/B13) (march r2: no break in one reading or both)"
  },
  {
   "id": "H2-P3",
@@ -37,9 +37,9 @@
  },
  {
   "id": "H2-P6",
-  "old": "another year of daydreaming about the ideal village.",
-  "new": "another year of daydreaming about the ideal village. Trust me on this one.",
-  "why": "the writer stepping back from the claim (march r2: no break in one reading or both)"
+  "old": "If three households can commit",
+  "new": "Trust me on this one. If three households can commit",
+  "why": "the writer stepping in before the claim (at the end it was a short landing, and the subsection failed the linter's B7/B13) (march r2: no break in one reading or both)"
  },
  {
   "id": "H3-P2",

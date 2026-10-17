@@ -1167,6 +1167,14 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
             (d / 'b1-results.json').write_text(json.dumps({'a': ['Human Written'], 'ab': ['Human Written']}), encoding='utf-8')
             ok, report = paragraphs_alone.check(md, [d])
             self.assertTrue(ok, report)
+            # the page's embed lines (section 15's post card and video) are not paragraphs; a prose line that only starts
+            # with a link still is
+            emb = md + '\n[Professor Baby Sheep Taught Me](https://x.substack.com/p/y)Copy link\n\nDouble click to interact with video\n'
+            ok, report = paragraphs_alone.check(emb, [d])
+            self.assertTrue(ok, report)
+            prose = md + '\n[A link](https://x.example/) and then a sentence of mine.\n'
+            ok, report = paragraphs_alone.check(prose, [d])
+            self.assertFalse(ok, report)
 
     def test_a_march_without_a_break_blocks_the_call(self):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(self.CLEAN, march=['S S S'])}, ['p'])

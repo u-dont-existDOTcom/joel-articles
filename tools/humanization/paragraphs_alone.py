@@ -24,12 +24,17 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / 'articles' 
 from ptext import plain  # noqa: E402
 
 
+# The page's embed lines, which no reader reads as prose (2026-10-17, section 15): a linked post card ("[Title](url)Copy
+# link") and a video's "Double click to interact with video".
+EMBED = re.compile(r'^(\[[^\]]+\]\([^)\s]+\)Copy link|Double click to interact with video)$')
+
+
 def paragraphs(md):
-    """(heading or None, paragraph text) for each paragraph; images and comments are skipped."""
+    """(heading or None, paragraph text) for each paragraph; images, captions, embed lines and comments are skipped."""
     out, head = [], None
     for b in re.split(r'\n\s*\n', md):
         b = b.strip()
-        if not b or b.startswith('<!--') or b.startswith('[image') or b.startswith('[caption'):
+        if not b or b.startswith('<!--') or b.startswith('[image') or b.startswith('[caption') or EMBED.match(b):
             continue
         if b.startswith('#'):
             head = b

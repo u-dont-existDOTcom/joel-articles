@@ -16,8 +16,9 @@ FIX = [
   'a reaction to the published "less cinematic"'),
  ('H2-P3', "[Peer counseling](", "And [peer counseling](", 'see the next fix'),
  ('H2-P3', "And reparenting, somatic work, jealousy, conflict repair, etc. don't have to wait for a deed!",
-  "Reparenting, somatic work, jealousy, conflict repair, etc. don't have to wait for a deed either!",
-  'two sentences in a row no longer open on "And"'),
+  "Reparenting, somatic work, jealousy, conflict repair and the rest don't have to wait for a deed either!",
+  'two sentences in a row no longer open on "And", and "and the rest" for "etc.", which the linter reads as a sentence end '
+  '(a short landing, B7/B13)'),
  ('H2-P3', "And [peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) only needs two "
            "people and enough privacy to talk.",
   "And [peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling)? It only needs two "
@@ -26,9 +27,8 @@ FIX = [
  ('H2-P4', "may never own land, and it can still make a difference",
   "may never own land. So what? It can still make a difference",
   'a question after "may never own land" (at the end, "That counts for a lot." was a short landing too, B7/B13)'),
- ('H2-P6', "another year of daydreaming about the ideal village.",
-  "another year of daydreaming about the ideal village. Trust me on this one.",
-  'the writer stepping back from the claim'),
+ ('H2-P6', "If three households can commit", "Trust me on this one. If three households can commit",
+  'the writer stepping in before the claim (at the end it was a short landing, and the subsection failed the linter\'s B7/B13)'),
  ('H3-P2', "Start working on the inner pl/ork, whether it's following the free [reparenting guide]",
   "Start working on the inner pl/ork. With what? Maybe the free [reparenting guide]",
   'a question and its answer (round r3\'s march found no break in "And practice before you have an audience, okay?")'),
