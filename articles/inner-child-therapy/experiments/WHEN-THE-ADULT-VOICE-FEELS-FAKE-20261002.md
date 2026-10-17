@@ -904,3 +904,15 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His answer to 42 (were other turn-67 lessons wrong?) and, when he's happy, his merge of #188.
 2. Speak Toward with Hearthwork named and linked; "And So That's the Way It Happened!" with Xandria; This human life and the three Altered States sections with his published stories; the other parked Simple Practices.
+
+## Turn 69 (2026-10-17, from 18:56 UTC): two paraphrases of him, lesson E189, Speak Toward
+
+- **His message:** two of the published lines turn 68 had put back were paraphrases of him ("now that you are showing me in context exactly, i see i got paraphrased about my father"; "i was paraphrased for if you want to kill yourself as well"), with his own words for both; "so i assume no point merging the lessons then if that one was incorrect. right?"; "continue" (`t69-answers/`).
+- **In:** Remember When You Already Did It opens with his words and his sister's line, then my humanized rest of the guide's passage (alone 0.0048 high; Simple Practices 0.057 high); If You Want to Kill Yourself opens with his two sentences as their own paragraph ("proselytize" for his "prosletyze"; alone 0.00013; h1 0.15 high).
+- **Lesson E189:** a published first-person line is his story, but its wording is his only once he has seen it whole, in its section; E188 had generalized from an answer that named no line (E160). The gate, the writers' prompt, OWNER-EDITS.json, PARKED.md and the questions page are corrected; question 43 shows him every remaining first-person line whole.
+- **Speak Toward What You Are Building:** five of eight paragraphs read Human alone and together (0.080 high), Hearthwork named and linked among them; P1, P2 and P5 read AI in every version (question 44, his help-request format). **"And So That's the Way It Happened!":** P1 with his Xandria line reads Human; the practice still reads AI over P2 and P3.
+
+### Next
+
+1. His answers to 42 to 44, and his merge of #188 when he's happy with the lessons.
+2. With his answers: Speak Toward's P1, P2 and P5; "And So That's the Way It Happened!" P2 and P3; This human life and the three Altered States sections with his lines as he confirms them; the other parked Simple Practices.
