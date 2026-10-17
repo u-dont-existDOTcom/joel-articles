@@ -2039,15 +2039,22 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-17 (turn 65) | W:p14h1-w6, mixed () (1390 words) [t65z10_secp14h1w6], a screen | Human, low (my call) | Mostly Human Written (0.12; 1454), 3 windows: AI-Generated 63 words (High); 08:06:56 UTC, https://www.pangram.com/history/0179ab88-59aa-44b3-b4ef-bca3f41056fe | hit |
 | 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w7-p1, W:p15-installed) (149 words) [t65z10_secp14h2w7], a screen | Human, low (my call) | AI Generated (0.65, High; 151); 08:06:45 UTC, https://www.pangram.com/history/798c255f-03d7-4ad3-b0f7-0ae866c331e6 | miss |
 | 2026-10-17 (turn 65) | Timing Is Individual, mixed (W:p14-w6-p1, W:p15-installed) (144 words) [t65z10_secp14h2w6], a screen | Human, low (my call) | AI Generated (0.58, Medium; 146); 08:06:34 UTC, https://www.pangram.com/history/76e5ef8d-537d-4784-a0d0-16415e1e988e | miss |
-| 2026-10-17 (turn 65) | fg1p2 w1 p1 alone, a fresh writer (95 words) [t65z11_fg1p2w1p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p4 w1 p1 alone, a fresh writer (120 words) [t65z11_fg1p4w1p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p4 w2 p1 alone, a fresh writer (119 words) [t65z11_fg1p4w2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | le1p2 w1 p1 alone, a fresh writer (97 words) [t65z11_le1p2w1p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | le1p2 w2 p1 alone, a fresh writer (99 words) [t65z11_le1p2w2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | ba1p2 w1 p1 alone, a fresh writer (97 words) [t65z11_ba1p2w1p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p2 w2 p1 alone, a fresh writer (93 words) [t65z11_fg1p2w2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | lm4p4 w2 p1 alone, a fresh writer (80 words) [t65z11_lm4p4w2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | fg1p1 w1 p1 alone, a fresh writer (93 words) [t65z11_fg1p1w1p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | le1p3 w2 p1 alone, a fresh writer (155 words) [t65z11_le1p3w2p1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible?, mixed (G:lm4-p1-a, G:lm4-p2-a2, W:lm4-w2-p1, W:lm4p4-w2-p1, G:lm4-p5-c) (355 words) [t65z11_seclm4m42], a screen | Human, low (my call) | (pending) | |
-| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w8-p1, W:ba1p2-w1-p1) (197 words) [t65z11_secba1p8r1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p2 w1 p1 alone, a fresh writer (95 words) [t65z11_fg1p2w1p1], a screen | Human, low (my call) | AI Generated (0.59, Low; 98); 08:13:48 UTC, https://www.pangram.com/history/48b3d757-c459-463d-bcf5-e3d4e7ad343c | miss |
+| 2026-10-17 (turn 65) | fg1p4 w1 p1 alone, a fresh writer (120 words) [t65z11_fg1p4w1p1], a screen | Human, low (my call) | AI Generated (0.83, Medium; 123); 08:13:58 UTC, https://www.pangram.com/history/a8a91775-8c3d-487c-a72f-142ca53ce65e | miss |
+| 2026-10-17 (turn 65) | fg1p4 w2 p1 alone, a fresh writer (119 words) [t65z11_fg1p4w2p1], a screen | Human, low (my call) | AI Generated (0.88, Medium; 122); 08:14:09 UTC, https://www.pangram.com/history/43563a6e-f639-40c2-bb62-4ded968f6b5e | miss |
+| 2026-10-17 (turn 65) | le1p2 w1 p1 alone, a fresh writer (97 words) [t65z11_le1p2w1p1], a screen | Human, low (my call) | AI Generated (1, Medium; 101); 08:14:21 UTC, https://www.pangram.com/history/952666e0-3941-4cd2-ad81-ffe34c9e7b12 | miss |
+| 2026-10-17 (turn 65) | le1p2 w2 p1 alone, a fresh writer (99 words) [t65z11_le1p2w2p1], a screen | Human, low (my call) | AI Generated (0.99, Medium; 106); 08:14:31 UTC, https://www.pangram.com/history/5644592d-f8e2-4fe1-8958-0013920232c5 | miss |
+| 2026-10-17 (turn 65) | ba1p2 w1 p1 alone, a fresh writer (97 words) [t65z11_ba1p2w1p1], a screen | Human, low (my call) | AI Generated (0.98, Low; 99); 08:14:42 UTC, https://www.pangram.com/history/abd8eab4-ea27-4780-9dfa-d9fbf4bab543 | miss |
+| 2026-10-17 (turn 65) | fg1p2 w2 p1 alone, a fresh writer (93 words) [t65z11_fg1p2w2p1], a screen | Human, low (my call) | AI Detected (0.38; 96), 2 windows: AI-Generated 56 words (Low); 08:14:50 UTC, https://www.pangram.com/history/67d201af-ac10-4490-9de9-9fe44c635830 | miss |
+| 2026-10-17 (turn 65) | lm4p4 w2 p1 alone, a fresh writer (80 words) [t65z11_lm4p4w2p1], a screen | Human, low (my call) | AI Generated (1, Low; 84); 08:14:36 UTC, https://www.pangram.com/history/efc28bfd-ffa7-4901-b540-032656d2263c | miss |
+| 2026-10-17 (turn 65) | fg1p1 w1 p1 alone, a fresh writer (93 words) [t65z11_fg1p1w1p1], a screen | Human, low (my call) | AI Generated (0.84, Low; 98); 08:14:23 UTC, https://www.pangram.com/history/2355ef7c-064c-4dca-ae67-ea85eb9e38fd | miss |
+| 2026-10-17 (turn 65) | le1p3 w2 p1 alone, a fresh writer (155 words) [t65z11_le1p3w2p1], a screen | Human, low (my call) | AI Generated (0.96, High; 163); 08:14:11 UTC, https://www.pangram.com/history/8b58e51b-5a7b-491f-8ecb-dff2f8044265 | miss |
+| 2026-10-17 (turn 65) | How Much Happiness Do You Know Is Possible?, mixed (G:lm4-p1-a, G:lm4-p2-a2, W:lm4-w2-p1, W:lm4p4-w2-p1, G:lm4-p5-c) (355 words) [t65z11_seclm4m42], a screen | Human, low (my call) | AI Generated (0.97, High; 373); 08:14:01 UTC, https://www.pangram.com/history/c292c3d7-4981-4049-86bc-d76adee672ab | miss |
+| 2026-10-17 (turn 65) | Borrowed Adulthood in Relationship, mixed (W:ba1p1-w8-p1, W:ba1p2-w1-p1) (197 words) [t65z11_secba1p8r1], a screen | Human, low (my call) | AI Generated (0.77, High; 204); 08:13:51 UTC, https://www.pangram.com/history/11a8c414-57c3-4c2c-9006-6a50323ff31c | miss |
+| 2026-10-17 (turn 65) | le1p3 w1 p1 alone, a fresh writer (146 words) [t65z12_le1p3w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p1 w2 p1 alone, a fresh writer (91 words) [t65z12_fg1p1w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p2 w8 p1 alone, a fresh writer (100 words) [t65z12_fg1p2w8p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p2 w9 p1 alone, my own draft (100 words) [t65z12_fg1p2w9p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | fg1p3 w2 p1 alone, a fresh writer (138 words) [t65z12_fg1p3w2p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p5 w1 p1 alone, a fresh writer (75 words) [t65z12_st1p5w1p1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-17 (turn 65) | st1p2 w1 p1 alone, a fresh writer (84 words) [t65z12_st1p2w1p1], a screen | Human, low (my call) | (pending) | |
