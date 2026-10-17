@@ -85,7 +85,7 @@ If you don't answer, b.
 > [!WARNING]
 > One thing, when you're back.
 
-- 🟠 Merge when you've looked at the pages: `gh pr merge 187 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/187)). It has the overnight run, this afternoon's changes and this evening's.
+- 🟠 Merge when you've looked at the pages: `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/189)). It has this evening's changes, from your 17:16 message; the overnight run and this afternoon's are in already (you merged them at 15:49 UTC).
 
 ## Decided
 

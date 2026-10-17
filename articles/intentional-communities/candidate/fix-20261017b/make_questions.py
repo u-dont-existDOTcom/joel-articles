@@ -105,7 +105,7 @@ TODO = '''## For you to do
 > [!WARNING]
 > One thing, when you're back.
 
-- 🟠 Merge when you've looked at the pages: `gh pr merge 187 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/187)). It has the overnight run, this afternoon's changes and this evening's.
+- 🟠 Merge when you've looked at the pages: `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/189)). It has this evening's changes, from your 17:16 message; the overnight run and this afternoon's are in already (you merged them at 15:49 UTC).
 '''
 NEW_DECIDED = '''- 🟢 2026-10-17 17:16 UTC, 43: "you can't just change ! to . if the actual wording was put in as an exclamation ... so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to, or ... ask me". Done that way in sections 15 and 16, one exclamation at a time: a fresh reader checked each change for how it sounds, and Pangram read each changed paragraph and each section.
   - The mark only, where the sentence reads right with a period: in section 15 "I find them so soothing.", "Spiritual graffiti still surprises me." (after the graffiti's five), "Everybody here has sheep (even me), and they are super cute.", "someone has to handle it." and "a spiritual service package."; in section 16 "Less cinematic, I know.", "in one go.", "Or a sauna." and "And practice before you have an audience."
