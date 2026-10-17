@@ -13,9 +13,9 @@ My best faithful draft (it read Human alone, 0.21, https://www.pangram.com/histo
 > Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
 
 Tries (three rounds, twelve drafts; every result and link in `tools/PREDICTIONS.md`, rows t65e, t65f, t65g):
-- Round e: four drafts close to the guide's sentences; one Human alone (above), three AI alone (0.67 to 0.99). In the h1 every one left an AI window on P14 (45 to 306 words).
+- Round e: four drafts close to the guide's sentences; one Human alone (above), three AI alone (0.67 to 0.99). In the h1 every one left an AI window on P14 (45 to 306 words; the one with the draft above: https://www.pangram.com/history/b5e346c0-b391-4286-9e9b-f8eb58f05ee8).
 - Round f: plain words for the guide's terms ("bossing around", "steamroll"), a joke gloss ("spiritual bypassing with a to-do list"), the heading pointed at ("hence the heading"), a quoted overruling ("Stop being so needy, you're supposed to be past this"): all four AI alone (0.95 to 0.99).
-- Round g: under the guide's own subheading, "## Timing Is Individual": the heading with P14 read AI every time (0.69 to 0.997), and the h1 kept its AI window on P14.
+- Round g: under the guide's own subheading, "## Timing Is Individual": the heading with P14 read AI every time (0.69 to 0.997; the closest, https://www.pangram.com/history/07498439-05f6-4297-bdbf-5ff1c9bdd85c), and the h1 kept its AI window on P14.
 
 The tells I see: the paragraph is a sequence (first warmth and safety, then direction), and every wording I tried kept that order as its spine; the guide's own nouns (Nurturer and Protector, warmth and safety, direction) carry it. What I'd want from you: your own version, the way you wrote P5 and P7, or a word on whether the point could live in a sentence of P1 instead (the heading already says the Guide comes later).
 

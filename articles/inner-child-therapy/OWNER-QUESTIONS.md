@@ -15,7 +15,7 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 > Then, before getting philosophical, make sure there's a grown-up in the room. When the part that wants to die feels like all of you, it can help to notice who's doing the noticing (Noticing Counts), or to borrow an adult. Any part of you that can watch, or wants to keep your body safe, or would rather wait on a decision you can't undo, is welcome. And if none of them shows up yet? Then the questions wait, and the person you called is the adult for now. If you can already watch the suicidal state without being swallowed by it, go ahead to the questions.
 
-Eleven versions of this step read AI alone, so the section isn't in (its crisis steps and four other paragraphs read Human alone, and without this step the section reads AI). Two more lines there are yours to call: the crisis paragraph's "This isn't me answering whether life is worth living" speaks as you, and the guide's "the accumulating scientific evidence" (that the mind's causal process goes on after the body dies) is a claim. Every try is in PARKED.md.
+Eleven versions of this step read AI alone (this one 0.98, https://www.pangram.com/history/128b91f8-39f6-45e1-af83-5592621a1047), so the section isn't in: its crisis steps and four other paragraphs read Human alone, and without this step the section reads AI Detected (0.30, https://www.pangram.com/history/60c9def8-bc78-4c93-a267-5a084b6e54a2). Two more lines there are yours to call: the crisis paragraph's "This isn't me answering whether life is worth living" speaks as you, and the guide's "the accumulating scientific evidence" (that the mind's causal process goes on after the body dies) is a claim. Every try is in PARKED.md.
 - **A. Your words** for this step, and for any crisis line you want worded your way.
 - **B. Leave the section out** for now (the default).
 
@@ -23,7 +23,7 @@ Eleven versions of this step read AI alone, so the section isn't in (its crisis 
 
 > Say they're the one who always remembers your appointments. Over time, reparenting can help you take in some of what they've been doing for you, and start doing it yourself, the calendar part included. What you're after is care your little one can count on from more than one place, while the relationship stays precious and important. Other jobs can go to friends or community, to professionals or services, or to routines and simple tools. Which of these could become more yours? Some are healthiest shared, and some really do belong inside that relationship.
 
-P1 reads Human alone; this P2 read AI in thirteen versions (the guide's list of where jobs can go, and its three questions, every time).
+P1 reads Human alone; this P2 read AI in thirteen versions (this one 0.96, https://www.pangram.com/history/8bf7c43a-fbba-4044-9c6b-8153749d44cb; the guide's list of where jobs can go, and its three questions, every time).
 - **A. Your words** (or a word on whether the three questions could be one).
 - **B. Leave the section out** for now (the default).
 
@@ -31,7 +31,7 @@ P1 reads Human alone; this P2 read AI in thirteen versions (the guide's list of 
 
 > Sometimes care isn't what's missing. The whole horizon of life feels too small. A meal can help, and so can a boundary or a kind sentence, without touching the question underneath: "Why should I want this life at all?" Or however you'd put it. Take that question seriously: what would have to be possible for being alive to feel worth discovering, instead of just something to endure?
 
-P1, P2, P3 and P5 read Human alone; P4 read AI in eleven versions, so the h2 waits.
+P1, P2, P3 and P5 read Human alone; P4 read AI in eleven versions (this one 1.0, https://www.pangram.com/history/6f86083b-7d7a-4982-920d-5760f610373a), so the h2 waits.
 - **A. Your words.**
 - **B. Leave the h2 out** for now (the default).
 
@@ -39,25 +39,25 @@ P1, P2, P3 and P5 read Human alone; P4 read AI in eleven versions, so the h2 wai
 
 > Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
 
-Two versions read Human alone, but the h1 kept an AI window on it every time (sixteen drafts in all). PARKED.md asks whether the point could live in one sentence of P1 instead, since the heading already says the Guide comes later.
+Two versions read Human alone, but the h1 kept an AI window on it every time (sixteen drafts in all; with this one, https://www.pangram.com/history/b5e346c0-b391-4286-9e9b-f8eb58f05ee8). PARKED.md asks whether the point could live in one sentence of P1 instead, since the heading already says the Guide comes later.
 - **A. Your words** (or that one-sentence idea).
 - **B. Leave it out** (the default).
 
 ### 🟣 36. Six Simple Practices
 
-Each has paragraphs that read Human alone and one that never did: Journal With Each Hand (P1), "And So That's the Way It Happened!" (P2), One Intention in the Morning (P1), Just Like Me (P2), Use Childhood Photographs (P1; and its h2 read AI with every opener) and Close the Session (its only paragraph). My best version of each, with every try, is in PARKED.md.
+Each has paragraphs that read Human alone and one that never did: Journal With Each Hand (P1), "And So That's the Way It Happened!" (P2), One Intention in the Morning (P1), Just Like Me (P2), Use Childhood Photographs (P1; and its h2 read AI with every opener, the closest 0.84, https://www.pangram.com/history/61e6e0d2-1715-43ac-bc7c-b2e6eb8e49fd) and Close the Session (its only paragraph). My best version of each, with every try, is in PARKED.md.
 - **A. Your words** for any of them (say which).
 - **B. Leave them out** for now (the default).
 
 ### 🟣 37. When One Life Has Ended and the Next Hasn't Begun, P2 and P3
 
-P1 reads Human alone and with its heading. P2 (the questions for the gap; don't force a new identity; what the grown-up you keeps doing) read AI in seventeen versions, and P3 (missing someone as a cue for love, and its limits) in fifteen. Both drafts are in PARKED.md.
+P1 reads Human alone and with its heading. P2 (the questions for the gap; don't force a new identity; what the grown-up you keeps doing) read AI in seventeen versions (the one in PARKED.md 0.97, https://www.pangram.com/history/8a2dac64-6b71-4952-a56b-f4c3dea522ac), and P3 (missing someone as a cue for love, and its limits) in fifteen (the closest 0.94, https://www.pangram.com/history/ea1f2bb6-c561-497a-811b-4bbb765a5cc6). Both drafts are in PARKED.md.
 - **A. Your words** (or whether three of the guide's five questions are enough).
 - **B. Leave the section out** for now (the default).
 
 ### 🟣 38. Speak Toward What You Are Building, and Hearthwork
 
-P3 and P4 read Human alone and together (0.067, high). P1, P2, P5 and P6 never did (thirteen, fourteen, eight and sixteen versions; P6's closest was 0.57). The guide also names Hearthwork as "my peer-counseling framework" there; the drafts leave the name out.
+P3 and P4 read Human alone and together (0.067, high). P1, P2, P5 and P6 never did (thirteen, fourteen, eight and sixteen versions; P6's closest was 0.57, https://www.pangram.com/history/3ab1d6bc-8d97-4265-a600-5434597f5882). The guide also names Hearthwork as "my peer-counseling framework" there; the drafts leave the name out.
 - **A. Your words** for any of P1, P2, P5 and P6, and whether Hearthwork goes in, and how.
 - **B. Leave the section out** for now (the default).
 

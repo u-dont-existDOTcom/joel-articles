@@ -874,7 +874,7 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 ## Turn 66 (2026-10-17, from 12:15 UTC): "Continue in regular section mode for daytime now"
 
 - **His message:** "You missed the overnight window. Continue in regular section mode for daytime now" (`t66-answers/`).
-- **In:** How to Forgive Without Forgetting. P1 and P3 had read AI in 28 and 26 versions; my plain-word drafts gave each a Human first half, and new second halves read Human alone (P1 0.061, P3 0.14, high); with turn 65's P2 and P4 the section read Human Written (0.033, high). The cold read's one flag (P4's "they" with no referent) fixed as "whoever did it"; the section as installed 0.028, high; cold read 2 OK. Then a placeholder for the three sections still waiting, and the closing (You Are Worthy of Love. Always.). Record: `t66-guide/REVIEWS.md`.
+- **In:** How to Forgive Without Forgetting. P1 had read AI in 28 versions and P3 in 22; my plain-word drafts gave each a Human first half, and new second halves read Human alone (P1 0.061, P3 0.14, high); with turn 65's P2 and P4 the section read Human Written (0.033, high). The cold read's one flag (P4's "they" with no referent) fixed as "whoever did it"; the section as installed 0.028, high; cold read 2 OK. Then a placeholder for the three sections still waiting, and the closing (You Are Worthy of Love. Always.). Record: `t66-guide/REVIEWS.md`.
 - **Questions 32 to 40** ask for what the run couldn't finish without him (OWNER-QUESTIONS.md).
 
 ### Next

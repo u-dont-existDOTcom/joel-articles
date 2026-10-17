@@ -4,7 +4,7 @@ His message (experiments/t66-answers/JOEL-20261017-1215.md): "You missed the ove
 
 ## How to Forgive Without Forgetting
 
-Where it started: P2 (fg1p2 w8, 0.029) and P4 (fg1p4 w5, 0.096) had read Human alone in turn 65; P1 and P3 had read AI in 30 and 26 versions. Turn 65's last round gave a P3 of mine in plain words (fg1p3 w9) that read AI Detected (0.42), Human for its first 81 words.
+Where it started: P2 (fg1p2 w8, 0.029) and P4 (fg1p4 w5, 0.096) had read Human alone in turn 65; P1 and P3 had read AI in more than twenty versions each. Turn 65's last round gave a P3 of mine in plain words (fg1p3 w9) that read AI Detected (0.42, https://www.pangram.com/history/4a935551-f56d-4c5d-966c-d3161b8ab97b), Human for its first 81 words.
 
 Round a (14 checks): P3 with w9's Human half and a new second half (w11) read Human alone (0.14, high, https://www.pangram.com/history/2b66c97e-ae7e-4a25-8e79-0943044e636c) and beside P2 (0.079, high, https://www.pangram.com/history/abdc2f86-5288-42f3-97c9-7a57c947e131): "So a boundary can still be right. So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they'd never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there." The other two second halves read AI (0.98, 0.98). Four P1s of mine read AI alone (0.72 to 1.0); one with its heading (w10) read AI Detected (0.39), Human for its first 64 words (the heading, healing getting around to forgiveness, "nobody gets a gold star for forgiving fastest", what doesn't need forgiveness first).
 
