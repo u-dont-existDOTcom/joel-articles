@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-16 (turn 62). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-17 (turn 63). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -18,14 +18,18 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #184 (turns 61 and 62)
+### 🟠 Merge pull request #185 (turn 63)
 
-Your P5, and P8 and P9, which each read Human alone now; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+P10 of The Inner Guide Comes Later; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-17 00:21 UTC
+
+- "continue" (after you merged #184): group 10 is in as P10 of The Inner Guide Comes Later, a guru who demands surrender standing where the source should be, and surrender from our side. It reads Human alone (0.007, https://www.pangram.com/history/d506ddfd-7907-4dd6-8cd4-13eba11ef9c3), beside P9, and in the section (Human Written, 0.062, high, https://www.pangram.com/history/9658a709-ec76-4e23-b48a-2b2414ad2cf8).
 
 ### 🟢 2026-10-16 23:17 UTC
 
@@ -170,9 +174,9 @@ Your P5, and P8 and P9, which each read Human alone now; the link is in my messa
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: The Inner Guide Comes Later, group 10
+### 🔵 Next: The Inner Guide Comes Later, group 11
 
-P8 and P9 went in this turn, each reading Human alone. Next: the guide's warning about an outside guru who demands surrender, and the surrender that can come from our side (praise, special attention, the feeling of being deeply seen). If nothing changes, I draft it the E179 way, from the passage's main point, and it goes in only when each paragraph reads Human alone.
+P10 went in this turn. Next: the guide's manipulators who are too smart to look perfect (gifted but wounded, flawed but honest), so every warning about them gets absorbed; the Protector noticing when compassion starts excusing what your evidence knows; an admitted flaw as evidence it exists now; self-awareness isn't correction. If nothing changes, I draft it the E179 way, and it goes in only when each paragraph reads Human alone.
 
 ### 🔵 Saved for when Altered States is humanized
 
