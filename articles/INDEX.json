@@ -46867,7 +46867,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/s16/make_page.py",
-          "sha256": "288a08de9dc166dc522538b1c4c4568b9aa7910db3d80d79236e141be7f63a98",
+          "sha256": "3da472d85f71d0dc76799a42f0730d06e7eb3f4e58ecdccfbfb5f93e1e958588",
           "role": "humanization_working_record"
         },
         {
@@ -47497,7 +47497,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/fix-20261017/make_batch.py",
-          "sha256": "7bce00ac884556945e22b0b5b220a5237acc876625c119a18fa5a27c845099d6",
+          "sha256": "669a69c014f128140b0cfc9dbd54672d7eee86db94596168737e2fab5c152083",
           "role": "humanization_working_record"
         },
         {
@@ -47662,7 +47662,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/fix-20261017/b411/PREDICTIONS.md",
-          "sha256": "2110fd0ef687179ed4f2d9e56035aad21ebdea24cb716a91608d62e9fa880923",
+          "sha256": "1f9b868080b9c9a5d1270e7c8709c68e3e208423158e121791a7b6de5691b09e",
           "role": "humanization_working_record"
         },
         {
@@ -47723,6 +47723,61 @@
         {
           "path": "articles/intentional-communities/candidate/s15/make_page_v13.py",
           "sha256": "4df726fe22aeefc92a6c0e24ca3f9e20d46e496533d3e63902e554321a9c69f0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/DISPOSITIONS-20261017.md",
+          "sha256": "da9cbd44eba4598d4df91968d2ef2dc4d5303905e79b7fa137c1d1397689768e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/REPEATS-b-s12.md",
+          "sha256": "73e9807191ceaea6c35c9a205c3a0b31bed584104fbd061f205281db5b8cffeb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/REPEATS-s15.md",
+          "sha256": "181dfc3942ca7d212b9b84e69b00b46c4bdcb628054b038891539b4c37891ca6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b411/b411-results.json",
+          "sha256": "09b4b58f30684859e1c7201681df2d09398d72b1a357c1350f9a6432c69c5d5d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b412/GATE.json",
+          "sha256": "d612242c15274238206cc05f7987482391dea90578a3f0f9c56dc17f57afbd04",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b412/PREDICTIONS.md",
+          "sha256": "401f7bb88255704ce7a1fd8edd8c0fec72db5e9221e3b6ee9357e983b6e3c025",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b412/b412-items.json",
+          "sha256": "26bf75f8c28d78ede2d1e72a77af9c9d2388548aebf830b90504c2fd19c6c8ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b412/b412-read.js",
+          "sha256": "6580cb39cf5214ca6a0b57750cae4ea541f5de66d5ca586b85004d742f3ab2d5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b412/b412.js",
+          "sha256": "6f693b391afeb7aaf981a3c39205eb1b7bf38b933245465ae94fb2b63b593114",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/b412/drafts.json",
+          "sha256": "28aebef77d0c898abccf9f3796b8fda923d3d4826a64f212c6887df771f57403",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261017/make_pages.py",
+          "sha256": "6b3ce3a2d7145b36deb4aafadc959f4ff72f6a001143396df6d59737b939bd53",
           "role": "humanization_working_record"
         }
       ]
