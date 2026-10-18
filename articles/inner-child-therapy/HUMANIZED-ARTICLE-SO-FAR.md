@@ -855,7 +855,15 @@ With a little warmth to work with, rest one hand at the center of your chest (th
 
 Picture the love traveling from your heart down to your little one. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. No warmth today? Then rest your hands there and notice what you find, no faking required. Non-judgement is a place to start. It can blossom into love over time.
 
-<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md, with what it needs from Joel): Journal With Each Hand. It goes here. -->
+## Journal With Each Hand
+
+<!-- Turn 71 (the overnight run): the guide's two hands (the non-dominant, clumsy one for the vulnerable feelings, the usual one answering as the grown-up), getting past the silence people hit with talking or picturing, and the protective part getting that hand first. It opens on a pointer of mine to the practice's best-known teacher, Lucia Capacchione, and her book The Power of Your Other Hand (her site, opened 2026-10-18, lists it; not in the guide, so question 50 asks whether he wants it), and the rest grows out of the title. Twenty-odd P1s without it read AI (turns 65 and 71). experiments/t71-guide/drafts/jw-s.txt. Alone Human Written (0.0062, medium), https://www.pangram.com/history/895d5d72-8908-4813-abfd-e8758ed06d98 (round t71kk); the h2 below. -->
+
+Lucia Capacchione, an art therapist, wrote a whole book on this one, [The Power of Your Other Hand](https://www.luciac.com/). As titles go, it's pretty literal. Your other hand, the clumsy one, writes like a first grader anyway, so it gets the scared or hurt feelings (nothing made up). The usual hand answers, as the grown-up. Some people who get nothing but silence from their little one are surprised by what the other hand comes up with. A protective part might grab the pen first, and then it gets that hand until it's had its say.
+
+<!-- Turn 71: PGQ-016, the memory aid for when reflective journaling makes things more confusing (keep track without interpreting; patterns later, if at all; it needn't explain your life; a dated note, what helped, a reminder or next step, a voice note). Its last four sentences are turn 65's writer's (experiments/t65-guide/writers/sp4-w1-p2.txt), with its list cut to two ("a dated note of what happened, or of what helped"); the opening question and the line after it are mine. experiments/t71-guide/drafts/jw2-g.txt. Alone Human Written (0.085), https://www.pangram.com/history/747a5d97-6357-49d7-8b76-2fc936018255; the h2 Human Written (0.018, high, 179 words), https://www.pangram.com/history/eb705c60-c368-4de9-8283-e9b7fc78ec5f (round t71nn). -->
+
+And what if all that writing leaves you more confused than when you started? Then just keep track for a while, and save the patterns for later, if they turn out to matter at all. A memory aid doesn't have to explain your life. It could be a dated note of what happened, or of what helped. A reminder or a next step works too. Or you can leave yourself a voice note.
 
 ## Just Like Me
 

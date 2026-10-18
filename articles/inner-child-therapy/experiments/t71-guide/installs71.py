@@ -164,3 +164,6 @@ register('close-session', CS_PARKED, close_session)
 # - Round t71ii: Altered States Can Deepen P4 drafts/as4-w for as4-u (the repeats check: the third "doesn't prove what
 #   you saw happened" out, and the closing test now a pointer to his Timing Is Individual); alone 0.0083, the h1 0.036
 #   high, 1430 words.
+# - Round t71nn: Journal With Each Hand in, at its parked spot after A Heart-to-Child Loop: P1 drafts/jw-s (a pointer
+#   to Lucia Capacchione's The Power of Your Other Hand, the rest grown out of its title; alone 0.0062), P2 drafts/jw2-g
+#   (a new opening on turn 65's writer's memory-aid lines; alone 0.085); the h2 0.018 high, 179 words.
