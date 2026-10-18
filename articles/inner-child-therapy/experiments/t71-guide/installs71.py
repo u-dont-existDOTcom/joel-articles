@@ -235,3 +235,16 @@ def pgq15():
 
 
 register('pgq15', ST_P3_END, pgq15)
+
+
+# 2026-10-18, round t71fff: Speak Toward P8's first sentence (the cold read: "Community can work in both directions, too."
+# didn't say which two directions).
+ST8_OLD_COMMENT_END = "Alone Human Written (0.010, low), https://www.pangram.com/history/2028fb7f-c78b-41de-aa3d-a49591f5fb67. -->"
+
+
+def st8():
+    old = (A / 'experiments/t69-guide/drafts/st6a-c.txt').read_text(encoding='utf-8').strip()
+    return ST8_OLD_COMMENT_END[:-4] + ' Turn 71: its first sentence, the guide\'s "Community can work in both directions.", now says which two (a cold read of the section couldn\'t tell until the next sentences, COLD-READ-t71-speak-toward.md): experiments/t71-guide/drafts/st6a-d.txt. Alone Human Written (0.0010), https://www.pangram.com/history/8d3eb85a-fd92-468e-b532-81413e9e8e54; Speak Toward What You Are Building with it Human Written (0.095, high, 871 words), https://www.pangram.com/history/06d2eb62-99c9-4caa-a3f9-080b7792a33d (round t71fff). -->\n\n' + draft('st6a-d')
+
+
+register('st8', lambda: ST8_OLD_COMMENT_END + '\n\n' + (A / 'experiments/t69-guide/drafts/st6a-c.txt').read_text(encoding='utf-8').strip(), st8)

@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-18 (turn 71, the overnight run). **Five open questions, 45 and 47 to 50**: lines that are yours (45, 47 to 49) and five additions of mine (50). Nothing is left that I couldn't figure out: the whole guide is in the article now. There's no 46: it asked about Journal With Each Hand and One Intention, and both went in before you saw it. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-18 (turn 71, the overnight run). **Six open questions, 45 and 47 to 51**: lines that are yours (45, 47 to 49), five additions of mine (50), and what one of your guide's sentences means (51). Nothing is left that I couldn't figure out: the whole guide is in the article now. There's no 46: it asked about Journal With Each Hand and One Intention, and both went in before you saw it. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -71,6 +71,16 @@ Five sections went in tonight because of a sentence of mine pointing to a real s
 
 For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C, 3A, 4A, 5A`.
 
+### 🟣 51. Speak Toward What You Are Building: which "adult relationship"?
+
+A first-time reader (a cold read of the section tonight) couldn't tell which relationship P9 means by "the grown-up relationship". Here is P9 whole; its first sentence is yours (43, 4), the rest mine:
+> This is part of why I connect inner-child pl/ork with Hearthwork and with building community. Having a beautiful experience on the inside isn't really the point. The love has to move, and it doesn't always go the same way round (the door you came in through matters less than the loop). From a spiritual experience to your little one, then into the grown-up relationship, then out to other people, and back again.
+
+Your guide has "Love moves from spiritual experience to the child, from the child into the adult relationship, from the adult into other people, and back again." Which did you mean?
+- **A.** The bond between your grown-up self and your little one (it would say "then into your relationship with the grown-up you").
+- **B.** A relationship with another adult, like a Hearthwork partner ("then into a grown-up relationship with someone").
+- **C.** Your words.
+
 ## For you to do (no decision needed)
 
 ### 🟠 The turn-71 pull request, whenever you like
@@ -84,7 +94,7 @@ You merged #190 (turn 70) before 01:16 UTC. Tonight's work goes in a new pull re
 
 ### 🟢 2026-10-18 01:16, 01:17, 01:30 and 01:54 UTC
 
-- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections whole, with your stories as your guide has them and your trance answer; Close the Session and Return to Life; Just Like Me; Journal With Each Hand; One Intention in the Morning, One Review at Night; and the Appendix whole, How This Relates to IFS with Related Clinical Work and Teachers and Practice Resources. One change you'd queued for your guide on 2026-10-06 was still waiting, PGQ-015 (remember how someone said they want support, instead of asking every time; old advice gets a quick mention, not served again as new), so it went in as a short paragraph after Speak Toward What You Are Building's support-mode question ([alone Human Written 0.021](https://www.pangram.com/history/2def663a-fad7-4308-a476-589e2d317f33), [the section with it 0.086, high](https://www.pangram.com/history/5d4296e0-7b34-4fec-b447-494ebd3a2138)); your P1, P2 and P5 there are untouched. Every link in the article was opened too. Nothing is left that I couldn't figure out; 45 and 47 to 49 need your word on text that's yours, and 50 on five additions of mine. Questions 45 and 46 had been help requests in your format (IFS; Journal and One Intention) until those went in, before you saw them.
+- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections whole, with your stories as your guide has them and your trance answer; Close the Session and Return to Life; Just Like Me; Journal With Each Hand; One Intention in the Morning, One Review at Night; and the Appendix whole, How This Relates to IFS with Related Clinical Work and Teachers and Practice Resources. One change you'd queued for your guide on 2026-10-06 was still waiting, PGQ-015 (remember how someone said they want support, instead of asking every time; old advice gets a quick mention, not served again as new), so it went in as a short paragraph after Speak Toward What You Are Building's support-mode question ([alone Human Written 0.021](https://www.pangram.com/history/2def663a-fad7-4308-a476-589e2d317f33), [the section with it 0.086, high](https://www.pangram.com/history/5d4296e0-7b34-4fec-b447-494ebd3a2138)); your P1, P2 and P5 there are untouched. Every link in the article was opened too. Nothing is left that I couldn't figure out; 45 and 47 to 49 need your word on text that's yours, 50 on five additions of mine, and 51 on what one of your guide's sentences means. Questions 45 and 46 had been help requests in your format (IFS; Journal and One Intention) until those went in, before you saw them.
 - "and save your work as you go in case credits run out": pushed after every round, and the handoff note on your laptop updated with it.
 - "signed into another pangram": the run moved to that account at 01:57 UTC (the first one showed 176 credits left at 01:31 UTC).
 
