@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-am/HG36-pw1.txt",
+  "input_words": 84,
+  "input_sha256": "cb762ac479fc849f7ec750cecdd890b4d16196fb37cb61fe6cfd2b2108561920",
+  "balance_before": 85990,
+  "started_utc": "2026-10-18T08:50:37Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:50:42Z",
+  "response": {
+    "id": "7706724c-a129-4da4-b7a9-7d4bbb0d8d39",
+    "tool": "humanize",
+    "text": "Intensity is not necessarily meaningfulness. Sometimes it is meaningful (the inner child is expressing; a Protector is scared; shame/grief/anger/etc is asking for something), but other times it’s just a body overload. There are too many things going on around them. They aren’t sleeping enough. They are confused. Just because something comes up with intensity (images, feelings, downloads) that doesn’t mean it’s something to believe. Especially if the lighting is nice.\n\nSo what do to first before even getting to the meaning of the state?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 84
+    },
+    "elapsed": 5
+  },
+  "balance_after": 85906
+}

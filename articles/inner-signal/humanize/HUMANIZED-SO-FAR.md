@@ -58,17 +58,17 @@ And hypnosis as a therapy is as old as time itself. While the modern technique o
 
 # Protecting Yourself from Hypnotists
 
-Hypnotism can happen in a therapist’s office. It also happens through music, marketing, religious ritual, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, belonging, fatigue, love, trauma, and beauty.
+Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.
 
-Influence doesn’t wait for the conscious mind to sign a form. Marketers and interface designers know this perfectly well. The FTC’s report on dark patterns describes designs that trick or manipulate consumers, while the OECD describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
 
-Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.
+Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?
 
-A line associated with the Silva Mind Control tradition says it plainly:
+As associated with the Silva “Mind Control” method:
 
 “If you don’t learn to control your mind, someone else will!”
 
-Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. Self-hypnosis lets you practice from inside it: befriending the deeper layers, listening closely, and making adult choice more available.
+As you're certainly aware there are many, many forces at work in the world that are already training your mind. With self-hypnosis you can do much of the same thing from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.
 
 Double click to interact with video
 
@@ -346,45 +346,67 @@ Dominant hand: “I will eat, clean the desk, and not text the person who makes 
 
 # When “your voice” is everybody else’s voice
 
-Sometimes the inner-child question lands nowhere because a private self had very little room to develop. In controlling families, rigid religions, enmeshed communities, or high-pressure achievement systems, performance can begin so early that a person doesn’t know what they feel, want, believe, or prefer until somebody else tells them first. Then “love yourself” produces a reasonable question: love whom? Reparenting and identity-building can proceed together. For some people the child-self is already easy to feel. For others, creating enough safety for preference, curiosity, and experimentation is part of how that self becomes easier to hear.
+It can be difficult to connect with your inner child if your inner child didn’t have the opportunity to develop. This happens often when you grow up in a situation where you don’t have a private self, for example when your family, religion, or community ‘takes over’ very early in your life. Or you are pushed to achieve very early in life. The result is that you don’t know what you feel, what you want, what you believe, what you like and dislike until you have heard someone else’s opinion about it. If you are in that situation, it can be difficult to follow the advice to ‘love yourself’. You don’t even know who ‘yourself’ is! So you can do reparenting and finding yourself in parallel. For others, it is very easy to work with the inner child, they can feel it easily.
 
-This may apply when:
+You are in this camp if:
 
-You do not know what you want unless someone else says what they want first.
+You don’t know what you want, until you have heard what someone else wants.
 
-Your opinions shift dramatically depending on who is in the room.
+Your opinion is very different when you are with different people
 
-You agree in the moment and later realize you did not agree.
+You agree with people at the moment but when you are by yourself you realize that you don’t agree with them
 
-You feel responsible for other people’s emotions to the point of self-erasure.
+You take responsibility for the emotions of others, at the expense of yourself
 
-Self-love feels performative.
+When you try to love yourself, it feels more like a show
 
-The question “What does my inner child feel?” produces guesses, not felt answers.
+When you try to find out how your inner child feels, you feel that you are guessing instead of feeling
 
-You can rebel, but you cannot yet choose.
+You can rebel, but you can’t choose
 
-A useful developmental explanation is that when childhood is organized around avoiding pain and preserving attachment, attention goes into reading danger, meeting expectations, and keeping the bond. That can leave less room for the ordinary experiments that answer, “What do I like? What do I want to try? Who am I when nobody is grading me?” This is a practical model, not a claim about one specific brain system.
+One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you. You were too occupied in not being in pain, reading out what was dangerous and what you had to do to stay in a good bond, etc. This is not about a specific place in your brain, but a way of looking at it.
 
-Sometimes a temporary, intentional period of distance from the people or group supplying the answers helps quieter preferences surface. Use that distance only long enough to tell your own signal from the social echo; prolonged isolation would undermine the purpose.
+Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Not for too long, however, or you’ll defeat the purpose of the exercise. You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.
 
-The difference between a *human doer* and a *human being* helps here. When worth isn’t felt internally, it gets earned through beauty, performance, intellect, status, spirituality, or becoming indispensable to everybody else. Those can all be real gifts. They become belonging bargains when failure in the arena feels like losing yourself.
+What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.
 
-Useful questions:
+So in order to find yourself, you can ask yourself:
 
-“What do I like when no one is watching?” “What do I believe before I check whether others approve?” “What do I want that is neither rebellion nor compliance?” “Where am I buying belonging with self-betrayal?” “Which arena am I using to earn the right to belong?” “What would I try if nobody needed to be impressed?” “Which relationships let me remain myself?” “What am I noticing in my body, and what meaning am I giving it?”
+What do I like when nobody is looking?
 
-Give the inner child a small experiment with no résumé value: painting, dancing, gardening, a language, a sport, volunteering, music, or anything else you’re allowed to be bad at. The inherited parent may demand immediate talent. The adult can answer, “We’re finding out whether we enjoy this, not proving our worth.” Give it enough repetitions to get past the humiliation of being a beginner.
+What do I believe when I don’t check with other people?
 
-For a child, belonging can feel like survival, so families, religions, romances, political tribes, spiritual groups, institutions, and online communities can reach astonishingly far into identity. Adulting means noticing where you buy belonging with self-betrayal, choosing your own ground, and learning that you can disappoint someone without disappearing. The subconscious contains a crowd of borrowed voices, which is why this belongs in a self-hypnosis guide.
+What do I want that is neither in rebellion nor in compliance with others?
 
-“Where do I become less true in order to remain included?”
+Where am I buying my sense of belonging at the expense of betraying myself?
 
-“What would belonging look like if I did not have to disappear?”
+In what arena am I trying to buy my sense of belonging?
 
-“Is this guidance, or is this a belonging program?” “Is this love, or is this fear of exclusion?” “Is this conscience, or is this conditioning?” “Is this devotion, or is this compliance?” “Is this rebellion, or is this freedom?”
+What can I try on that I don’t need to be good at?
 
-Then wait for the body. It isn’t infallible, but it deserves a seat at the hearing.
+With whom can I be myself?
+
+What do I feel in my body and what do I make out of it?
+
+Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
+
+When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!
+
+Where am I betraying myself in order to belong?
+
+What does it feel like to belong without betraying myself?
+
+Where do I think I am following my own guidance, but I am in fact following my belonging program?
+
+Where do I think I am doing things out of love, but I am actually doing it out of fear of not belonging?
+
+Where do I think I am listening to my conscience, but I am actually listening to my conditioning?
+
+Where do I think I am doing something out of devotion, but I am actually doing it out of compliance?
+
+Where do I think I am free, but I am actually rebelling?
+
+And then look what your body tells you. It is not always correct, but it is a good place to start.
 
 # De-hypnosis: wake up inside the influence
 
@@ -850,23 +872,23 @@ DO bring yourself completely back at the end of every “waking” session, decl
 
 # When this needs more support than a guide can provide
 
-Use self-hypnosis as a relationship with yourself. When the situation needs actual care, the guide shouldn’t become a substitute for it.
+Please keep in mind that this is a guide to self-hypnosis; it is about a relationship you have with yourself. In some cases it is appropriate to seek support for the situation you are facing, but this guide is not it.
 
-Get urgent help now for immediate danger, severe confusion, inability to keep yourself safe, or concerning physical symptoms such as chest pain or fainting. New or worsening suicidal thoughts, severe insomnia, mania-like or psychosis-like symptoms, or dissociation that disrupts functioning need prompt professional assessment, not a four-to-twelve-week practice schedule.
+You should get help now if you are in imminent danger, if you are very confused, if you cannot ensure your own safety, and/or if you are experiencing concerning physical symptoms (e.g., chest pain, fainting, etc). You should also seek professional help promptly if you are experiencing new or worsening suicidal thoughts, severe insomnia, new or worsening manic or psychotic symptoms, or if dissociative symptoms are impacting your ability to function. These are not the types of things you should expect to resolve in 4-12 weeks by following a guide.
 
-For ordinary learning, start with shorter sessions, warmth, a manageable subject, and a full return. Over a week or two, track one target—anxiety, daydreaming, relationship repair, an avoided task, sleep, emotional regulation, or intuitive accuracy. Worsening function or growing certainty about unverifiable memories calls for reassessment, not more intensity.
+You probably don't need any more support than this: If you keep the practice shorter, make it warm, pick a small and tractable subject, make sure you come back out, and then see how it affects a specific target (anxiety, daydreaming, helping a relationship, facing a task you've been avoiding, helping you sleep, being less reactive emotionally, improving your intuitive accuracy, etc) for a week or two, and if you notice that your functioning is getting worse, or that you're getting more certain about unconfirmable memories, then reassess instead of pushing harder.
 
-Seek suitable ongoing help for recurring panic, compulsive behavior, substance-related destabilization, or major relationship instability.
+You should seek suitable ongoing help if: You are experiencing recurring panic attacks, compulsions, substance destabilization, major relationship instability, etc.
 
 ## Methods to explore with a trained person present
 
-Use a trauma-informed clinician trained in the method, present with you, for deliberate trauma-focused regression, searching for unknown traumatic origins through an affect or somatic bridge, or work with substantial flashbacks or dissociative reactions. A bridge follows associations from a feeling or sensation; regression revisits recalled or imagined younger experience. Either can have different uses, including resourcing. Ask what is intended and how uncertainty and unexpected reactions will be handled. Hypnosis cannot prove a historical event, even with a clinician present.
+If you want to deliberately do trauma-focused regression (going backwards in your memory or imagination to times when you were younger), or affect and somatic bridging (following associations from an emotional or somatic experience to find the origin of that experience, particularly if it was a traumatic experience you don't know about), or if you find that you're having substantial flashbacks or dissociative reactions, then you should do this with a trauma-informed clinician present. Make sure they're trained in the specific method you want to do. Ask any potential person what they would do and how they deal with uncertainty and unexpected reactions. Note that even if you work with a person, hypnosis is not a way of knowing what did or did not happen to you. (Both regression and affect/somatic bridging can also be used to find resources and do other things, of course.)
 
-Trauma history, tears, or wanted difficult feelings don’t automatically exclude self-practice. Choose the working range with attention to the actual response and available support. Some people need a narrow range; others much broader. Confidence alone doesn’t supply missing support.
+Note that having experienced trauma, crying, and even wanting to feel difficult feelings, are not necessarily signs that you need more support than working on your own. You get to pick how wide and narrow a range you want to work in, but be aware that different people need different ranges. Pay attention to how you respond and what support you have. Feeling like you are handling it isn't a substitute for having support.
 
-Major trauma guidelines emphasize treatments such as trauma-focused CBT variants, CPT, PE, and EMDR depending on the person and guideline. Self-hypnosis and inner-child practice may support that process, but high-risk trauma work needs a larger container.
+The main clinical practice guidelines for the treatment of major trauma recommend one or more of trauma-specific variants of cognitive behavioral therapy (often referred to by specific names, such as cognitive processing therapy, prolonged exposure, etc.) or eye movement desensitization and reprocessing, depending on the person and the guideline. These approaches in turn can be further supported by techniques such as self-hypnosis and inner child work. But high-risk trauma work needs a bigger container than that.
 
-If the practice makes ordinary life more loving, honest, functional, relational, grounded, and precise, continue gently. If it makes ordinary life less stable, stop deepening and return to sleep, food, grounding, boundaries, and outside support.
+Always keep in mind that your functioning in ordinary life is the feedback. If you find yourself more loving, more honest, more functional, more relational, more grounded, more precise, etc. than when you started this process, keep on keeping on gently. If you notice that your ordinary life is becoming less stable, don't try to go deeper. Go for more sleep, more eating, more grounding, more healthy boundaries with other people, more getting support from other people, etc.
 
 # Closing
 
@@ -1246,63 +1268,47 @@ When an answer is unclear, stay fully alert. Ask for the exact script, change th
 
 [image 4](https://substackcdn.com/image/fetch/$s_!93QB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png)
 
-Anxiety is often a Protector trying to prevent danger, shame, abandonment, failure, exposure, illness, rejection, loss of control, or a feeling it believes would be unbearable. Don’t begin by cross-examining it. Help the body first.
+Remember that often the anxiety comes from a protector part of you, who is trying to help you, but who believes you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever. Therefore, instead of interrogating that part, start with yourself:
 
-Body first. Inner child second. Inquiry third. Action fourth.
+Always work with yourself in a series – first your body, then your inner child, then some inquiry, then some action:
 
 ## Inner child love
 
-Start with the hand-on-heart, hand-on-solar-plexus practice.
-
-“Little one, you are not alone. You do not have to solve this. I am here now. The adult is listening.”
-
-Don’t recite the words like an incantation you’re hoping the subconscious will grade. Say them the way you’d speak to a frightened child you actually love.
+Here is some inner child love. Put your hand over your heart and your other hand on your solar plexis, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.” Make sure you are actually talking to your inner child, who is scared to death.
 
 ## Reduced breathing / Buteyko-style breathing
 
-Use this gently. Buteyko-style reduced breathing can help some people who overbreathe or panic, but don’t force breath holds. Air hunger can briefly increase anxiety before it settles, so go slowly.
-
-Breathe through the nose. Let the inhale be small. Let the exhale be quiet. Pause only if comfortable. Let the breath become less dramatic. Stop if dizzy, strained, panicky, or medically concerned.
+Then work on your reduced breathing / Buteyko’ breathing. (NOTE: there are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term. Go slow on this.) Inhale small amounts through your nose, exhale quietly through it, and pause only if comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, STOP!
 
 ## EFT tapping
 
-EFT can be a simple bodily ritual: name the fear, tap gently, and stay in contact with what you feel. The evidence is still developing. A [2025 systematic review](https://www.mdpi.com/2227-9032/13/17/2180) found seven randomized controlled trials involving EFT for anxiety disorders; EFT beat no intervention in several of them, although the evidence should still be treated cautiously beside first-line therapies.
-
-“Even though this anxiety is here, I am willing to be kind to the part of me that is afraid.”
+EFT tapping: One of the easiest ways to do EFT is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A [2025 systematic review](https://www.mdpi.com/2227-9032/13/17/2180) found 7 randomized control trials for anxiety disorders, and noted that EFT was more effective than no intervention in a few studies. So use the evidence with caution, and know that there are first line therapies for anxiety.
 
 ## Somatic Experiencing
 
-More info, and a free intro session on my [Somatic Guide](http://somatic.u-dont-exist.com/). With SE, we track gently. Don’t turn the exercise into trauma excavation.
-
-“Where is the activation?” “Where is the neutral place?” “Can attention move slowly between them?”
+Somatic experiencing: If you would like more information about somatic experiencing, or even a free intro session, please see my [somatic guide](http://somatic.u-dont-exist.com/) . In somatic experiencing (SE), you are not thrusting into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.
 
 ## Gendlin Focusing
 
-“What is the felt sense of this whole anxiety?”
-
-Don’t answer from the head immediately. Give the body time to form one vague sense of the whole situation, then ask:
-
-“What would this felt sense like me to know?”
-
-Try a word or phrase and check how well it fits the felt sense. Then examine what it suggests about the situation; feeling right doesn’t settle that. Words and bodily attention can help correct each other.
+Gendlin Focusing: Focusing is another approach where you work with your body. You might say to yourself, “What is the felt sense of this whole anxiety?” Don’t answer with your head; let your body come up with a vague sense of the whole anxiety. Then ask, “What would this felt sense like me to know?” Try a word or a phrase and see how well it fits the felt sense. But also see if what the word or phrase says is true of the situation. The word may feel ok, but say something that doesn’t fit the situation, or vice versa. Use the words and the body to mutually correct one another.
 
 ## Body supports
 
-Sometimes the mind is too activated to meditate usefully. Then help through the body: foot, scalp, temple, neck, or shoulder massage; warmth; pressure; a weighted blanket; darkness; familiar calming music; or a massage gun used carefully. Avoid the front of the neck, injuries, numb areas, bruises, inflamed tissue, recent surgery sites, varicose veins, and anything that produces pain, dizziness, tingling, or a symptom that feels wrong.
+Work with the body. Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.) There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc.
 
-Other people settle with warmth, darkness, music, massage, weighted blankets, breathwork, familiar objects, or personal relaxation technology. Use the support that actually helps rather than assembling a tiny wellness trade show around the anxiety.
+You may find that you settle down with some of these things: warmth, darkness, favorite music, massage, a weighted blanket, some breathwork, a favorite object, technology you use to relax, etc.
 
-Personal relaxation-tech note: On my [ZHoly3O](http://zholy3o.u-dont-exist.com/) page, I discuss ozonated charcoal “holy water” as one relaxation support, and I also mention [Blushield](http://devices.u-dont-exist.com/). These remain optional supports. They don’t prove that any inner signal is true. Stabilize the body, listen gently, reality-test, and return to one grounded action.
+I have a page on my [ZHoly3O](http://zholy3o.u-dont-exist.com/) product, which is ozonated charcoal, and I talk about this “holy water” as one of the things that can help you relax. (See the mention of [Blushield](http://devices.u-dont-exist.com/) on that page, too.) But neither one of those products are necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages (neither product proves they are true), and then take one grounded action.
+
+A script you could use for anxiety is:
 
 ## Anxiety script
 
-First, body. Feet, chair, breath, room.
+Where are my body parts? What are my feet doing? How is my body positioned in the chair? How is my body breathing? How is my body situated in the room?
 
-Little one, I am here. Protector, thank you for warning me. You do not have to scream for me to listen.
+If you’re there little one, I’m here. Thank you protector for letting me know you’re here, you didn’t have to scream I got your message.
 
-If there is real action needed, show me one step. If there is no action needed, help the body stand down gently.
-
-I will not abandon the signal. I will not worship the signal. I will listen, test, and act.
+If there is something we need to do let me know what the first thing is that we need to do at this moment, if there is nothing to do help my body stand down. I’m not going to abandon you but I’m not going to worship you, I will listen to what you have to say and reality test it and then take some action.
 
 # Appendix E: Is the daydream helping or replacing your life?
 
@@ -1404,69 +1410,65 @@ Quick Triage Web-App Version HERE
 
 # Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”
 
-I’m speaking from experience in this appendix.
+I speak here from experience.
 
-During self-hypnosis, meditation, lucid dreaming, loveyhuasca, grief, prayer, plant-medicine-adjacent practice, or other altered states, people sometimes meet something that doesn’t feel like an ordinary emotion or younger part. It may appear as a demon, jinn, parasitic energy, dark intelligence, or terrifying archetype—a voice or image that feels intrusive, hateful, seductive, mocking, or simply alien.
+When you’re doing hypnosis, meditation, lucid dreaming, loveyhuasca-ing, going through a period of intense grief, praying, or whatever else may alter your consciousness, it’s possible you may run into something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter – it may be a voice or an image, and it does n’t just feel like an emotion or a younger part of you, but something that feels intrusive, hateful, seductive, mocking, etc.
 
-I don’t need this guide to settle the metaphysics. Perhaps these are literal beings. Perhaps they are symbolic mind-forms, trauma in a frightening costume, dissociated energy, or ancestral and relational burdens. The practical question is:
-
-“What response makes me safer, clearer, more loving, more grounded, and less hooked?”
+First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked.
 
 ## Start with the room, the body, and basic safety
 
-When a demonic, jinn-like, hostile, or intrusive presence appears, don’t reward it with instant metaphysical certainty. Run the triage first: medical danger, environment, body, overload, and how open the mind has become. Open the eyes, feel the feet, name the room, lower stimulation, leave hostile company, and stop adding prompts. Don’t deepen, hunt for hidden truth, or debate ontology while destabilized.
+So what do you do when you encounter a demon, or a jinn, or something else that’s bad and intrusive?
 
-“Only what can be integrated is welcome now. Anything too much can wait. The adult self remains present. The body may return to safety.”
+First of all, do the usual things – make sure you’re not in danger from a medical standpoint, check your environment, check your body, make sure you’re not overstimulating yourself, make sure you’re not opening your mind too much. If you need to, open your eyes, ground yourself in your body and your environment, remove yourself from any bad influence you’re surrounding yourself with, stop stimulating your mind. Don’t go further into whatever it is you’re doing – don’t be curious, don’t try to figure out what it is.
 
-Danger to self or others, psychosis-like fear, inability to sleep, extreme paranoia, chest pain, seizures, serious overheating, overdose concern, or loss of basic functioning means the self-hypnosis session is over. Get real-world help.
+Tell yourself, “If this can be integrated in this moment, it’s welcome. If not, it can wait until later. The adult part of me is still here, and my body can return to safety.”
+
+If you feel like you’re in any danger of doing anything harmful to yourself or others, if you feel like you’re going psychotic and you’re afraid of it, if you feel like you won’t be able to sleep when the self-hypnosis session is over, if you feel overly paranoid, if you feel physical pain in your chest, if you feel like you’re going to have a seizure, if you feel like you’re too hot in a bad way, if you feel like you’ve taken too much of something, if you feel like you won’t be able to function in the world anymore – then the self-hypnosis session is over, and you should get help in the “real world”.
 
 ## A response check, not a verdict about what it is
 
-Once you’re stable enough to stay present, notice what helps without turning the response into a metaphysical test. Put a hand on the heart if that feels welcome, take a comfortable breath, and keep the room available.
+If, however, you feel like you’re stable enough to stay present, check in with yourself and see what’s best to do. Again, it doesn’t matter if it’s a demon or not. Put your hand on your heart if that feels okay, breathe comfortably, and stay aware of the room.
 
-I don’t have to decide what this is right now. I can notice whether warmth or distance helps, and keep my boundary either way. Nothing here requires my obedience.
+Internalize the fact that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way. Keep in mind that you don’t have to do what it tells you to do.
 
-If vulnerability appears—a knot in the throat, sadness, fear, or a sense of trying to protect something—you can bring in the Nurturer. If the experience remains hostile or becomes more frightening, stop engaging with it and return to the body and room.
+If you feel vulnerable, if you feel tightness in your throat, if you feel sadness or fear or a need to protect yourself from it, call upon your Nurturer. If you don’t feel better, or if it continues being hostile towards you, stop trying to deal with it and return to your body and the room.
 
-Neither response establishes its origin. A protective part needn’t reveal its fear quickly; a comforting response doesn’t prove an interpretation either. The useful question is whether this way of responding helps you become clearer, steadier, and less hooked. Love and boundaries don’t require a verdict first.
+Internalize the fact that you don’t have to know where it comes from. Check in with yourself about whether or not this is helpful. You don’t have to find out if it’s a protector immediately, and you may not be able to comfort it quickly, but whether warmth or distance helps, that doesn’t prove what it is.
 
 ## Do not fight from fear
 
-The first impulse may be to fight, banish, hate, prove power, argue, panic, or identify completely with the threatened self. Some traditions use prayers, mantras, protections, banishing rituals, or exorcism forms, and some people find them useful. But fighting from fear can fasten attention more tightly to the thing you want gone.
+Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own lesser self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear…
 
-Fear gives it center stage. Hatred gives it a hook. Pride gives it an opponent. Panic gives it the nervous system.
+It becomes a center of attention if you fear it, and if you hate it you give it a hook in you. (If you’re proud you give it an opponent, and if you panic you give it your nervous system.)
 
-“I do not need to hate this. I do not need to merge with this. I do not need to obey this. I do not need to defeat this from fear. I return to loving awareness.”
+So the next time it comes up you can just say, “I see that there is no reason to hate and revile what I am experiencing. I see that there is no reason to merge with or become what I am experiencing. I see that there is no reason to obey what I am experiencing. I see that there is no reason to try to defeat what I am experiencing out of fear. I choose to return my attention to loving awareness.”
 
 ## A bodily boundary: compassion present, door closed
 
-When the presence feels hostile, cold, alien, parasitic, or boundary-violating, don’t offer soft sentimental love as though inviting it in for tea. Use love with a boundary.
+Second, feel free to tell the presence that while you have compassion for it, the door is closed.
 
-Sit upright. Press your feet into the floor. Let the spine rise. Gently draw the shoulder blades back so the chest is open but not exposed. Feel the skin boundary of the torso. Feel that this body has a perimeter.
+This is especially a good idea if the presence you’re experiencing seems even the slightest bit hostile, cold, alien, parasitic, etc. It needs to realize that you don’t welcome it. It’s not really helpful to approach it with the kind of soft, sentimental love that you’d use if you were inviting it to stay for tea, but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries.
 
-“I recognize that suffering may be here, and I wish all suffering to return to the space where it belongs. But the boundary of this skin belongs to my adult life. You do not have permission to enter this house.”
-
-“Compassion is present. The door is closed.”
+Sit up, make sure your feet are grounded on the floor, straighten your spine, pull your shoulder blades back a little, open your chest a little, feel the boundary of your torso’s skin, feel the perimeter of your body, and tell the presence, “While I have compassion for you and any suffering you may be experiencing, this suffering needs to go back where it came from. The boundary of my skin is the boundary of an adult now, and you’re not welcome to come inside the house anymore.”
 
 ## If it might be psychosis or destabilization
 
-A symbolic hostile-presence experience that settles with grounding and love is very different from a state that becomes persistent, paranoid, sleepless, dangerous, or impossible to reality-test.
+This is assuming that you are having a symbolic experience of “hostile presences” which responds to grounding and love. It may be that what you are experiencing is actually psychotic or a form of destabilization.
 
-If somebody believes they’re under attack for days, can’t sleep or function, hears commands, feels compelled to hurt themselves or anyone else, becomes manic, can’t communicate normally, or can’t distinguish symbolic experience from ordinary reality, stop treating the problem as hypnosis material. Get help.
+If you feel like you are under attack for multiple days at a time, if you are not able to sleep, if you are not able to function normally, if you are hearing voices telling you to do things, if you feel you need to hurt yourself or somebody else, if you feel you are going manic, if you feel you can’t communicate normally, if you feel you can’t distinguish between what you are experiencing symbolically and normal reality, get help immediately. It’s not something to deal with in hypnosis.
 
-If the practice makes you more loving, grounded, relational, honest, and functional, continue gently. If it makes you more paranoid, sleepless, grandiose, isolated, frightened, or unreal, stop deepening and get support.
+The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if what you're doing is making you more Paranoid, sleepless, Grandiose, isolated, scared, or more and more unreal, then DON'T GO DEEPER! GET HELP!
 
 ## The cosmic-download humility test
 
-Hostile presences, shadow forces, grandiose parts, and altered-state imagery don’t always attack through fear. Sometimes they seduce through importance: a cosmic secret, a special mission, a vast download, a feeling of being uniquely chosen, or a revelation that makes washing dishes seem beneath your new rank.
+Finally, presences, shadow forces, or grandiose parts may try to respond by giving you a sense that you’re special, trying to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc. I don’t need it.
 
-“Thank you for the imagery. I do not require a grand performance. If this information cannot become a simple, honest act of care tomorrow morning — washing the dishes, cleaning my room, keeping a promise, apologizing, resting, eating, or helping someone I love — it is not useful to my path.”
-
-Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.
+Unless the “guidance” you’re trying to give me can help me be more beautiful, honest, relational, humble, and useful in my everyday life, I don’t need it.”
 
 ## Don’t become an entity hobbyist
 
-Demons, jinn, hostile presences, and “Unattached Burdens” all lead to the same practical training: can love remain present without surrendering the boundary, and can the mind become harder to hook? I’m not trying to turn anyone into an entity hobbyist.
+Finally, some of you may be tempted to make this an area of hobbyism – to become interested in demons or jinns or hostile presences or Unattached Burdens or whatever. I just don’t want you to do that. They all lead to the same thing, which is how to maintain a presence of love without giving up your boundaries, while also making your mind harder to hook.
 
 # Appendix I: Sleep hypnosis
 

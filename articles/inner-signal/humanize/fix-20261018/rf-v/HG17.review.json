@@ -1,0 +1,132 @@
+[
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B19: INVENTED second object \"on a surface in front of you\" noticed at the same time (the made-up surface goes; the first thing is noticed, then something else)",
+    "replace": "While you’re noticing something on a surface in front of you",
+    "with": "Once you’ve noticed something in front of you",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B19: INVENTED second object \"on a surface in front of you\" noticed at the same time (no \"at the same time\": one thing is noticed after the other)",
+    "replace": "something else at the same time.",
+    "with": "something else.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B22: LOST staying with it long enough to become curious",
+    "replace": "catches your interest.",
+    "with": "catches your interest and stay with it until you’re curious.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B23: LOST \"remain nearby, listening, without finishing their sentence for them\"",
+    "replace": "trying to speak to you.",
+    "with": "trying to speak to you, listening and not finishing their sentences.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 27,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B27: LOST \"let attention gather around what you find\" (at 4), which is also the repeat R: noticing the anchor, in B27 and B27 (4 only says 5 again)",
+    "replace": "Notice it",
+    "with": "Let your attention settle on what you find",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B27: SHIFT \"the words\" (chosen phrase) becomes \"a few words about it\" (the anchor)",
+    "replace": "a few words about it",
+    "with": "the phrase you chose",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B28: LOST \"without rehearsing its whole story\"",
+    "replace": "your wish to contact.",
+    "with": "your wish to contact. Don’t go over the whole story.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 30,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B30: SHIFT parentheses mark it as an unspoken direction (opening bracket)",
+    "replace": "(Allow",
+    "with": "Allow",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B30: SHIFT parentheses mark it as an unspoken direction (closing bracket)",
+    "replace": "yet be clear.)",
+    "with": "yet be clear.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 31,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B31: SHIFT parentheses mark it as an unspoken direction (opening bracket)",
+    "replace": "(Allow",
+    "with": "Allow",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B31: SHIFT parentheses mark it as an unspoken direction (closing bracket)",
+    "replace": "without words.)",
+    "with": "without words.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

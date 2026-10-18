@@ -180,5 +180,45 @@
   "paragraphs": "454g",
   "fixed": "rf-i/HG02+03.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG33": {
+  "stage": "triaged",
+  "whole": "455g HG33-rfix2 (454g emu-ab samples of its two AI windows, then the triaged fixes)",
+  "meaning": "rf-k/HG33.verify.part1.out.txt, triaged in rf-k/HG33.triage.json",
+  "paragraphs": "454g, 455g",
+  "fixed": "rf-k/HG33.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG06": {
+  "stage": "sample",
+  "whole": "455g HG06-smp (the forces paragraph from the best of three samples, emu-ac)",
+  "meaning": "rf-l/HG06.verify.part1.out.txt (and rf-m, rf-n for the other samples), triaged in rf-l/HG06.triage.json",
+  "paragraphs": "451g, 453g, 455g",
+  "fixed": "rf-l/HG06.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG26": {
+  "stage": "sample",
+  "whole": "455g HG26-smp (the get-help paragraphs from the best of three samples, emu-ac)",
+  "meaning": "rf-l/HG26.verify.part1.out.txt (and rf-m, rf-n), triaged in rf-l/HG26.triage.json",
+  "paragraphs": "453g, 455g",
+  "fixed": "rf-l/HG26.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG37": {
+  "stage": "sample",
+  "whole": "455g HG37-smp (its pasted fixes reworded; B26 from emu-ai)",
+  "meaning": "rf-e (triage), rf-u/HG37.verify.part1.out.txt for B26",
+  "paragraphs": "454g, 455g",
+  "fixed": "rf-v/HG37.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG15": {
+  "stage": "sample",
+  "whole": "455g HG15-smp (p10 and p11 from emu-ai, p23-p24 from emu-ad, 3 fixes)",
+  "meaning": "rf-a (triage), rf-u and rf-m for the new paragraphs, triaged in rf-v/HG15.triage.json",
+  "paragraphs": "452g, 455g",
+  "fixed": "rf-v/HG15.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

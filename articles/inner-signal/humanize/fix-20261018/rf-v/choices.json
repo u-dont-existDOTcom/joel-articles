@@ -125,5 +125,16 @@
     ]
    }
   ]
+ },
+ "HG24": {
+  "base": "rf-o/HG24.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     47
+    ],
+    "folder": "emu-ao"
+   }
+  ]
  }
 }

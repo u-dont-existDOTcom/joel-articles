@@ -55,9 +55,9 @@
   "problems": [
    {
     "type": "SHIFT",
-    "what": "B77: SHIFT inner adult \"keeps watch\" became \"takes over\"; also B77: LOST \"you remain able to move, stop, and return\"",
+    "what": "B77: SHIFT inner adult \"keeps watch\" became \"takes over\"; also B77: LOST \"you remain able to move, stop, and return\"; 455g: with \"you can still move, stop and come back\" added the paragraph read AI alone (0.47), so only \"keep watch\" now",
     "replace": "let your inner adult take over for a while.",
-    "with": "let your inner adult keep watch for a while, and you can still move, stop and come back.",
+    "with": "let your inner adult keep watch for a while.",
     "round": 1,
     "from": "second reader of the refix (rf), triaged"
    }

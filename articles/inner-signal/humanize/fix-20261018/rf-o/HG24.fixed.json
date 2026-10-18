@@ -82,7 +82,7 @@
     5
    ],
    "paras": [
-    "Do you know what feels fake: the wording, the image, the expectation, or the role? Just because you don't have an inner voice/image doing this, it doesn't mean you are missing an adult capacity or resisting doing the work. If you feel that something is asking you to do something that you do not want to do, then correct it. If you feel that a part might be protecting you from this, then talk to it."
+    "Do you know what it is that feels fake? The words? The image? What you expected? The role? Just because you don't have an inner voice/image doing this, it doesn't mean you are missing some grown-up ability or resisting doing the work. If you feel that something is asking you to do something that you do not want to do, then correct it. If you feel that a part might be protecting you from this, then talk to it."
    ],
    "run": "HG24-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG24-fxw1.out.txt",
@@ -90,17 +90,17 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "lost the four things that can feel fake (wording, image, expectation, role); \"ask what feels fake\" became \"Do you know what is fake?\"",
+     "what": "lost the four things that can feel fake (wording, image, expectation, role); \"ask what feels fake\" became \"Do you know what is fake?\"; 455g (2026-10-18): this stretch read AI with the fix; reworded in the stretch's voice",
      "replace": "Do you know what is fake?",
-     "with": "Do you know what feels fake: the wording, the image, the expectation, or the role?",
+     "with": "Do you know what it is that feels fake? The words? The image? What you expected? The role?",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     },
     {
      "type": "SHIFT",
-     "what": "\"a missing adult capacity\" became \"being a child\"",
+     "what": "\"a missing adult capacity\" became \"being a child\"; 455g (2026-10-18): this stretch read AI with the fix; reworded in the stretch's voice",
      "replace": "being a child",
-     "with": "missing an adult capacity",
+     "with": "missing some grown-up ability",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }
@@ -137,7 +137,7 @@
     8
    ],
    "paras": [
-    "If the fake feeling means a needed adult capacity is not there yet, stop trying to believe an inner voice. If you have enough observing ego, borrow whatever you need - warmth, boundary, direction etc - from someone who you can imagine is good enough, maybe a family member, a friend or a famous person. Try out something which rings true, a sentence, an action etc and see how it goes."
+    "If the fake feeling is telling you some grown-up ability isn’t there yet, stop trying to believe an inner voice. If you have enough observing ego, borrow whatever you need - warmth, boundary, direction etc - from someone who you can imagine is good enough, maybe a family member, a friend or a famous person. Try out something which rings true, a sentence, an action etc and see how it goes."
    ],
    "run": "HG24-fxw2",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG24-fxw2.out.txt",
@@ -145,9 +145,9 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "that a fake feeling can mean a needed adult capacity isn't available yet (\"it\" has no referent)",
+     "what": "that a fake feeling can mean a needed adult capacity isn't available yet (\"it\" has no referent); 455g (2026-10-18): this stretch read AI with the fix; reworded in the stretch's voice",
      "replace": "If it is not there,",
-     "with": "If the fake feeling means a needed adult capacity is not there yet,",
+     "with": "If the fake feeling is telling you some grown-up ability isn’t there yet,",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }

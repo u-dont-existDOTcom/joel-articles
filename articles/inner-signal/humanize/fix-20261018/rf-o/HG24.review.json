@@ -19,17 +19,17 @@
   "problems": [
    {
     "type": "LOST",
-    "what": "lost the four things that can feel fake (wording, image, expectation, role); \"ask what feels fake\" became \"Do you know what is fake?\"",
+    "what": "lost the four things that can feel fake (wording, image, expectation, role); \"ask what feels fake\" became \"Do you know what is fake?\"; 455g (2026-10-18): this stretch read AI with the fix; reworded in the stretch's voice",
     "replace": "Do you know what is fake?",
-    "with": "Do you know what feels fake: the wording, the image, the expectation, or the role?",
+    "with": "Do you know what it is that feels fake? The words? The image? What you expected? The role?",
     "round": 1,
     "from": "second reader of the refix (rf), triaged"
    },
    {
     "type": "SHIFT",
-    "what": "\"a missing adult capacity\" became \"being a child\"",
+    "what": "\"a missing adult capacity\" became \"being a child\"; 455g (2026-10-18): this stretch read AI with the fix; reworded in the stretch's voice",
     "replace": "being a child",
-    "with": "missing an adult capacity",
+    "with": "missing some grown-up ability",
     "round": 1,
     "from": "second reader of the refix (rf), triaged"
    }
@@ -41,9 +41,9 @@
   "problems": [
    {
     "type": "LOST",
-    "what": "that a fake feeling can mean a needed adult capacity isn't available yet (\"it\" has no referent)",
+    "what": "that a fake feeling can mean a needed adult capacity isn't available yet (\"it\" has no referent); 455g (2026-10-18): this stretch read AI with the fix; reworded in the stretch's voice",
     "replace": "If it is not there,",
-    "with": "If the fake feeling means a needed adult capacity is not there yet,",
+    "with": "If the fake feeling is telling you some grown-up ability isn’t there yet,",
     "round": 1,
     "from": "second reader of the refix (rf), triaged"
    }

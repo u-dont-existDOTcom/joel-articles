@@ -214,7 +214,7 @@
    ],
    "paras": [
     "Be very careful here. Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t!",
-    "In general, the problem with saying ‘Because I breathe, the trauma leaves’ is that it’s too strong. It’s not very likely that just by breathing in and out that your trauma is going to go away! Saying ‘As I breathe, my adult self may become present enough to listen’ is a lot better as it’s more true."
+    "In general, the problem with saying something like ‘because I breathe, my trauma goes away’ is that it’s too strong. It’s not very likely that just by breathing in and out that your trauma is going to go away! Saying something like ‘as I breathe, my adult self can show up enough to listen’ is a lot better as it’s more true."
    ],
    "run": "HG31-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-x/HG31-fxw1.out.txt",
@@ -222,17 +222,17 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "better example gone, so \"the second example\" points at nothing (B25: LOST both example sentences; B25: UNCLEAR first/second example)",
+     "what": "better example gone, so \"the second example\" points at nothing (B25: LOST both example sentences; B25: UNCLEAR first/second example); 455g (2026-10-18): the stretch with this fix read AI (a 286-word window from Pattern 4 to Pattern 6), so reworded in the stretch's voice",
      "replace": "The second example",
-     "with": "Saying ‘As I breathe, my adult self may become present enough to listen’",
+     "with": "Saying something like ‘as I breathe, my adult self can show up enough to listen’",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     },
     {
      "type": "UNCLEAR",
-     "what": "B25: the first example is gone too, so \"the first example\" points at nothing (added by me to the triage)",
+     "what": "B25: the first example is gone too, so \"the first example\" points at nothing (added by me to the triage); 455g (2026-10-18): the stretch with this fix read AI (a 286-word window from Pattern 4 to Pattern 6), so reworded in the stretch's voice",
      "replace": "the problem with the first example is",
-     "with": "the problem with saying ‘Because I breathe, the trauma leaves’ is",
+     "with": "the problem with saying something like ‘because I breathe, my trauma goes away’ is",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }
@@ -260,7 +260,7 @@
     32
    ],
    "paras": [
-    "Embedded invitations should invite a small inner movement, never hide a demand, ie. \"And I can allow myself to experience...\"",
+    "An embedded invitation is there to invite a small move inside you, not to sneak in a demand, ie. \"And I can allow myself to experience...\"",
     "or, \"As I sit here, I may begin to allow myself to become aware...\"",
     "Or, something similar that you might use when working with \"inner child\" type of parts.",
     "You can use this, of course, but don't use ten of them one after the other! People will know that you've just come out of some weekend certification course and they won't feel so safe with you."
@@ -271,9 +271,9 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "B28: LOST definition of an embedded invitation and the rule that it invites a modest inner movement, not a hidden demand",
+     "what": "B28: LOST definition of an embedded invitation and the rule that it invites a modest inner movement, not a hidden demand; 455g (2026-10-18): the stretch with this fix read AI (a 286-word window from Pattern 4 to Pattern 6), so reworded in the stretch's voice",
      "replace": "ie.",
-     "with": "Embedded invitations should invite a small inner movement, never hide a demand, ie.",
+     "with": "An embedded invitation is there to invite a small move inside you, not to sneak in a demand, ie.",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }
@@ -298,7 +298,7 @@
     35
    ],
    "paras": [
-    "Manipulative Double Bind Questions trap every answer inside the speaker's agenda.",
+    "Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants.",
     "Ethical Double Bind Questions might be:",
     "\"Would you prefer to allow a feeling of warmth to come over you now, or would you prefer a feeling of space?\""
    ],
@@ -308,9 +308,9 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "manipulative double bind never defined, \"are like:\" then nothing (B34: LOST definitions; B34: UNCLEAR followed by nothing)",
+     "what": "manipulative double bind never defined, \"are like:\" then nothing (B34: LOST definitions; B34: UNCLEAR followed by nothing); 455g (2026-10-18): the stretch with this fix read AI (a 286-word window from Pattern 4 to Pattern 6), so reworded in the stretch's voice",
      "replace": "are like:",
-     "with": "trap every answer inside the speaker's agenda.",
+     "with": "are set up so that whatever you answer, you end up doing what the speaker wants.",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }
@@ -667,23 +667,13 @@
    ],
    "paras": [
     "Here is a rough outline of the NLP tools and techniques I use:",
-    "Perceptual Positions : 1) seeing from Self, 2) then seeing from Other, 3) then seeing from Witness, and 4) then seeing from Universal Heart (what serves truth, love, boundaries, and everyone involved). I do this to see the situation with more accuracy.",
+    "Perceptual Positions : 1) seeing from Self, 2) then seeing from Other, 3) then seeing from Witness, and 4) then seeing from Universal Heart. I do this to see the situation with more accuracy.",
     "I will not use this to rationalize bad behavior, but only to break out of a prison of perception."
    ],
    "run": "HG31-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG31-fxw1.out.txt",
    "refix": true,
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "question of the universal heart position lost (truth, love, boundaries, everyone's good)",
-     "replace": "4) then seeing from Universal Heart.",
-     "with": "4) then seeing from Universal Heart (what serves truth, love, boundaries, and everyone involved).",
-     "round": 1,
-     "from": "second reader of the refix (rf), triaged"
-    }
-   ],
-   "verdict": "fixed"
+   "verdict": "OK"
   },
   {
    "kind": "published",
