@@ -12,12 +12,18 @@ guide's own 235 paragraph checks (442g to 453g) say length isn't what matters; h
 Brier score on those checks: 0.104 with the length chances, 0.057 with these (fitted on the same checks, coarse bins).
 A word counts as Emulate's when it is in the matching blocks of the closest paragraph of any fix-*/emu-*/*.out.txt.
 
+Refitted 2026-10-18 after 461g, on all 637 paragraph checks (442g to 461g). The 402 checks made with the chances above
+(454g to 461g, out of sample) read Human at 93% in the first bin (0.97 said), 90% in the second (0.90), 79% in the third
+(0.70) and 69% in the last (0.75), so the chances are now the rates over all 637: under 5% 0.95 (393 of 412), 5% to 15%
+0.91 (107 of 117), 15% to 30% 0.75 (57 of 76), 30% or more 0.75 (24 of 32). Most first-bin misses are Emulate's own text
+in a sample whose run read AI around it (459g HG36-eb, 461g HG36-wa and HG36-wb: samples of my fixed text).
+
   python3 tools/para_chance.py TEXT_FILE     the share and the chance for one text
 """
 import difflib, pathlib, re, sys
 
 H = pathlib.Path(__file__).resolve().parent.parent
-BINS = [(0.05, 0.97), (0.15, 0.90), (0.30, 0.70), (1.01, 0.75)]
+BINS = [(0.05, 0.95), (0.15, 0.91), (0.30, 0.75), (1.01, 0.75)]  # refitted 2026-10-18 after 461g (was 0.97, 0.90, 0.70, 0.75)
 _emu = None
 
 
@@ -61,7 +67,7 @@ def chance(text):
     """(chance of a 100% Human result, why) for a paragraph check's text."""
     s = changed_share(text)
     c = next(c for hi, c in BINS if s < hi)
-    return c, '%d%% of its words not Emulate\'s (paragraph checks 442g-453g: under 5%% 99%% Human, 5-15%% 93%%, 15-30%% 70%%, over 30%% 81%%)' % round(100 * s)
+    return c, '%d%% of its words not Emulate\'s (paragraph checks 442g-461g: under 5%% 95%% Human, 5-15%% 91%%, 15-30%% 75%%, over 30%% 75%%)' % round(100 * s)
 
 
 if __name__ == '__main__':

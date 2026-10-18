@@ -63,9 +63,8 @@ every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md` (three open: is the 28 September editor HTML the latest; what to do with the de-hypnosis checklist,
-which reads AI in every version; and his own table-of-contents note, which reads AI-Low in the one version of HG02+03 that
-otherwise reads Human).
+`OWNER-QUESTIONS.md` (four open: is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in
+every version; HG31's two meaning points against a Human reading; and the two guided scripts, HG17 and HG18).
 
 ## Where it stands
 
@@ -87,12 +86,20 @@ its stage, its paragraph checks, and **installed** for the sections in `fix-2026
 - **Every paragraph is then checked alone** (`tools/install_fixed.py`: `section_md` is the Markdown that will be installed,
   `para_texts` the fewest texts `paragraphs_alone.py` looks for). In 442g, 17 of 23 paragraph texts of Human sections read
   Human; the ones that didn't get their own refix run (emu-s).
-- **Installed so far:** 29 keys (35 of 40 sections done with HG05, HG08, HG09 as published), listed in `fix-20261018/installed.json` (`tools/install_fixed.py install`, links put back from
+- **Installed so far:** 30 keys (36 of 40 sections done with HG05, HG08, HG09 as published; HG24 on 460g), listed in `fix-20261018/installed.json` (`tools/install_fixed.py install`, links put back from
   each stretch's "links"). HG36's entry has an "open" note: its B10-B12 are as published and unchecked.
 - **What 446g to 454g added:** pasted published wording reads AI even in a two-line fix (HG37, 454g), so a fix is always in
   the stretch's voice; a paragraph check is predicted by how much of it isn't Emulate's (`tools/para_chance.py`: under 5%,
   99% Human); several samples of a window go to Emulate at once and the second reader picks; a long script loses its
   steps in one window, so it goes in windows of 50 to 80 words; edits and their paragraph checks go in the same batch.
+- **What 459g to 461g added:** a stretch that keeps reading AI gets one new run over the whole stretch, not pieces between
+  installed paragraphs: HG24's opening in one window read Human in 3 of 3 samples, HG36's whole section in one run in 1
+  of 3, but HG36's B10-B11 or B9-B12 between installed paragraphs in 0 of 6 (each paragraph passed alone; the AI window
+  sat where the runs meet). Predict accordingly: about 0.6 for a one-window sample of a stuck stretch, 0.15 for pieces
+  between installed runs. Samples of my meaning-fixed text kept HG36's meaning best but read AI; the one of the published
+  text read Human. Paragraph chances were refitted on all 637 paragraph checks (`tools/para_chance.py`: 0.95, 0.91,
+  0.75, 0.75). `compose_v.compose` writes `rf-v/KEY.units.json`: a builder that renames it must put back the file that
+  was there (459g's first dry run moved HG17's and HG24's; restored from Git).
 
 ## The pipeline for a section (2026-10-18, current)
 
@@ -109,6 +116,17 @@ From `fix-20261018/` unless a command says `humanize/`:
 5. **Paragraph checks** (`make_b442.py` for fixed sections; `make_b445.py` shows the same for refix units), then **install**
    (`python3 tools/install_fixed.py install HUMANIZED-SO-FAR.md FIXED_OR_UNITS.json ...` from `humanize/`) and a line in
    `fix-20261018/installed.json`.
+
+**The fast path for a stretch that keeps reading AI (459g on; HG24 went from AI to installed in two batches this way):**
+1. One new run over the whole stretch, never pieces between installed paragraphs (the AI window sits where runs meet),
+   in two or three sample sets (`make_emu_aq.py`, `make_emu_at.py`: `make_emu_ac.window` for my fixed text, or the
+   published blocks).
+2. One batch: each sample's section screened whole with its paragraph checks (`make_b459.py`, `make_b461.py`, through
+   `compose_v.compose`; two runs of a section in one folder need the window's `skip`), and a Sonnet second reader per
+   sample at the same time (`make_verify_samples.prompts(folder, key, units, '.TAG')`).
+3. The sample that passed with the fewest findings goes to its own folder (`rf-zb/`, `rf-zd/`: `KEY.units.json`, its
+   verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
+4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
 ## Next step (2026-10-18, after batch 458g)
 

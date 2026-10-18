@@ -36,10 +36,18 @@ The master copy of this page is this file in Git, so a session in either of your
   ([check](https://www.pangram.com/history/0dfd0e10-5b95-4c30-ab76-31cd9d8a66ed)) but lost 11 to 26 of its steps
   ("give each number its own moment", "leave a little space after the words", "without preparing an answer"); in small
   pieces it keeps more of them but the run reads AI, with or without my fixes
-  ([check](https://www.pangram.com/history/ff617e1f-14ac-4a13-afc9-a749b7c820a1)). The return steps read AI in every
-  version, as published too ([check](https://www.pangram.com/history/a4847ac0-004c-4b1b-92f7-6a103c7e595a)); the best sample
-  reads AI only in its last two paragraphs ([check](https://www.pangram.com/history/4ee2c491-32af-4784-941e-ae6a595bbb92))
-  but drops "neither intention nor cue keeps the altered state running". Options:
+  ([check](https://www.pangram.com/history/ff617e1f-14ac-4a13-afc9-a749b7c820a1)); in three medium pieces (459g) every
+  paragraph reads Human but the section doesn't, and 19 to 31 points are lost
+  ([check](https://www.pangram.com/history/7dcc7629-91be-45c9-ad44-215c2a7d55e1)). The return steps read AI in every
+  version, as published too ([check](https://www.pangram.com/history/a4847ac0-004c-4b1b-92f7-6a103c7e595a)), until 459g:
+  one sample in two pieces reads 100% Human whole and in every paragraph
+  ([check](https://www.pangram.com/history/2f1ed833-8320-435b-93b1-7ecde89b7546)), but it loses four safety statements of
+  the return ("all instructions to deepen or remain in this session are finished", "I keep only the intention or
+  future-practice cue I consciously chose; neither keeps today's altered state running", "I am myself, in my body, with
+  adult judgment fully available", and for a recording, "don't wait for the missing narrator to release you") and adds a
+  promise you didn't make ("nothing will make me go inside again unless I choose to use these practices"); the second
+  reader's 18 findings are in `fix-20261018/rf-za/HG18.ma.verify.part1.out.txt`. Putting those statements back in your
+  wording is what read AI before. Options:
   - a. Keep both scripts as published (your steps exactly; the guide reads AI there). (My default until you answer.)
   - b. Use Emulate's versions with their lost steps listed for you to check.
   - c. Your own words for the steps (in the community article, when every faithful wording of a passage had failed, your
