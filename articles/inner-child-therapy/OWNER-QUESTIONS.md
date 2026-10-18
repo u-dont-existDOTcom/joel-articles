@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-18 (turn 71, the overnight run). **Six open questions, 45 to 50**: what I couldn't figure out (45 and 46, in your help-request format), lines that are yours (45, 47 to 49), and two additions of mine (50). To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-18 (turn 71, the overnight run). **Five open questions, 45 and 47 to 50**: what I couldn't figure out (45, in your help-request format), lines that are yours (45, 47 to 49), and four additions of mine (50). There's no 46: it asked about Journal With Each Hand and One Intention, and both went in before you saw it. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -26,30 +26,6 @@ It read AI as a section in all six versions, five of mine and a fresh writer's (
 - **D. Leave the section out for now**: the Appendix keeps Teachers and Practice Resources.
 
 They can go together, like `45: A, C`.
-
-### 🟣 46. Simple Practices: Journal With Each Hand, and One Intention
-
-I can't find any more AI tells here, and I see some human tells, like these: in One Intention, "There's a whole ocean of them, so don't get greedy." grows a joke out of the hook; in Journal With Each Hand, "(Lefties, that means your right one.)" is an aside that does a job; and in both, a sentence pointing to where the practice comes from ("Lucia Capacchione, an art therapist, has been teaching this one for decades", "The night half of this is a lot like the Examen") reads Human by itself. Can you help show me the tells I'm missing?
-
-Simple Practices is in with seven practices now, Just Like Me among them (50), and reads [Human Written 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d). These two have paragraphs that read Human alone, but neither has read Human as a practice: ten to twelve versions of mine for each tonight, three whole practices for each from a fresh writer (0.71 to 0.999), and the source sentences above (their Human part stops where the steps start), after turn 65's own tries and writers. The closest:
-
-- **Journal With Each Hand**, [AI Generated 0.64, high](https://www.pangram.com/history/5929a5f4-922e-4bcb-895a-a7903a416bb3); its P2 is turn 65's writer's, which read [Human 0.32 alone](https://www.pangram.com/history/510078ed-3fc5-426e-80cd-2ab5f8185808) (on the first Pangram account):
-  > Some little ones won't say a word, no matter how sweetly you ask, & picturing them just gets you a blank. So try writing instead, with your non-dominant hand. (Lefties, that means your right one.) Its letters already look like a first grader's, so let it put down whatever scared or hurt feelings are really there, nothing made up. Then your usual hand answers as the grown-up, with some love, protection, or a bit of guidance, whatever's needed. And if the protective part grabs the pen first? Let it have the clumsy hand until it's said its piece.
-  >
-  > If thinking things through on paper leaves you more confused, a simpler memory aid is fine. It keeps track of things without you having to work out what they mean at the same time. Looking for patterns can come later, if it's useful at all. A memory aid doesn't have to explain your life. It could be a short note of what happened, with the date, or a note of what helped. A reminder or a next step works too. Or you can leave yourself a voice note.
-
-  My march read: P1 is the guide's steps in order (the clumsy hand for the feelings, the good hand answering, the protective part first), and P2 states its moral, then lists the memory aids one to a sentence.
-- **One Intention in the Morning, One Review at Night**, [AI Generated 0.90, high](https://www.pangram.com/history/2e2644b5-0d82-49b2-8636-c074d3cd8d75); its P2 is turn 65's, which read [Human 0.17 alone](https://www.pangram.com/history/989a058f-8c65-4f06-be26-633b0654bf18) (on the first Pangram account), and no P1 ever has:
-  > Mornings, pick one small intention, like "Today I'll notice one hook before I act on it." One hook! There's a whole ocean of them, so don't get greedy. Then at night, look back over the day, minus the courtroom. Any "Oh! I'm hooked again!" moments? And where did it run the whole routine on you anyway, before you even noticed? Probably some of each, honestly. So what's the next small repair, or something that'd protect your little one a bit better tomorrow?
-  >
-  > And what good did you get today? Count the small stuff, like a warm moment, or some nerve you didn't know you had. Noticing the hook counts too, and it counts if you're only seeing it now, in the review. Same if you broke the pattern somewhere. Then repair what you can, and that's the day. Same intention tomorrow. Bed.
-
-  My march read: every P1 keeps the guide's shape, the morning's quoted intention, then the night's review questions in a row, each the predictable next one.
-
-What else I tried, in both: the step turned into a question with its answer (how Close the Session passed tonight), the point moved first, one paragraph instead of two, your "Oh! I'm hooked again!" from Catch the Hook as the review's question, plain words for the guide's, and no lists of three.
-- **A. Your version** of either, a practice or one paragraph.
-- **B. The tells I'm missing**, and I'll try again.
-- **C. Leave them for now**: Simple Practices stays in with the seven it has.
 
 ### 🟣 47. Teachers and Practice Resources: your two first-person lines, and the Gemini thread
 
@@ -80,13 +56,16 @@ Three checks of tonight's sections against the whole article found these in text
 3. **A real attack, or paranoia?** When the Urge to Escape Arrives says "Paranoia during a rough trip is a warning sign for psychosis.", and your answer in Altered States Can Deepen says "But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, ...". Nothing tells a reader how to tell which one they're in. **A.** Leave it (the caution signs still count, and the article says so right there). **B.** Your words on how to tell.
 4. **"purely just fear".** In your trance paragraph, "You recognize it has no real world significance and it's purely just fear" reads to both readers as if "it" is the demon, which the paragraphs around it call real. **A.** Leave it. **B.** "the fear" for "it" ("You recognize the fear has no real world significance ..."). **C.** Your words.
 
-### 🟣 50. Two pointers of mine: tonglen in Just Like Me, and Jack Kornfield in Altered States
+### 🟣 50. Four pointers of mine: tonglen, Jack Kornfield, Lucia Capacchione and Benjamin Franklin
 
-Two sections went in tonight because of one sentence of mine pointing to a real source, each linked and opened first. Neither source is in your guide:
+Four sections went in tonight because of a sentence of mine pointing to a real source, each linked and opened first, with the rest grown out of it. None of the four sources is in your guide:
 1. **Just Like Me**, at the start of its P2: "If you've tried Pema Chödrön's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine." ([P2 alone Human Written 0.088](https://www.pangram.com/history/b334d1d5-d2e6-4687-bb54-c1e43056dba6), [the practice 0.23, high](https://www.pangram.com/history/8dd8585d-f1a5-4650-a589-254e0fcbb355)). It sits after A Heart-to-Child Loop now: at the guide's place, before Use Childhood Photographs Gently, it gave your photographs heading and opening an AI window, so I moved it up ([Simple Practices 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d)).
 2. **Altered States Can Deepen the Therapy**, P4 (the beautiful state as a hook), after seventeen versions without it read AI in the h1: "Jack Kornfield has a whole book on what comes next, [After the Ecstasy, the Laundry](https://jackkornfield.com/after-the-ecstasy-the-laundry/). The title kind of says it all." The rest grows out of the title, ending "The laundry will tell you more, and it's the same test as back in Timing Is Individual." (pointing to your P14 there, which the repeats check found the paragraph had been saying again) ([P4 alone Human Written 0.0083](https://www.pangram.com/history/8cf2a25e-ae8e-401b-b185-37b99aa46242), [the h1 0.036, high](https://www.pangram.com/history/b5e47e6a-a79c-4b6c-8ec3-3b05af20faac)).
 
-For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C`.
+3. **Journal With Each Hand**, at the start of its P1: "Lucia Capacchione, an art therapist, wrote a whole book on this one, [The Power of Your Other Hand](https://www.luciac.com/). As titles go, it's pretty literal." The rest grows out of the title ("Your other hand, the clumsy one, writes like a first grader anyway, ..."); the link is her own site, which lists the book ([P1 alone Human Written 0.0062](https://www.pangram.com/history/895d5d72-8908-4813-abfd-e8758ed06d98), [the practice 0.018, high](https://www.pangram.com/history/eb705c60-c368-4de9-8283-e9b7fc78ec5f)).
+4. **One Intention in the Morning, One Review at Night**, all three paragraphs: Benjamin Franklin's daily scheme in his [Autobiography](https://www.gutenberg.org/ebooks/20203): his morning question "What good shall I do this day?" and his evening one "What good have I done to-day?", his thirteen virtues taken one at a time, a week each, his little book with a black spot for every fault (he scraped them out "until the paper was full of holes"), and the last line of his chart, "Sleep." ([the practice Human Written 0.065, high](https://www.pangram.com/history/d19c16bf-61fb-409a-a018-d955f9c08ef1), [Simple Practices with it 0.097, high](https://www.pangram.com/history/36e29120-3fff-479c-9cb9-f2bbfaa59a01)). Without Franklin, no version of it read Human (more than forty tries over turns 65 and 71).
+
+For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C, 3A, 4A`.
 
 ## For you to do (no decision needed)
 
@@ -101,7 +80,7 @@ You merged #190 (turn 70) before 01:16 UTC. Tonight's work goes in a new pull re
 
 ### 🟢 2026-10-18 01:16, 01:17, 01:30 and 01:54 UTC
 
-- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections whole, with your stories as your guide has them and your trance answer; Close the Session and Return to Life; Just Like Me; and the Appendix with Teachers and Practice Resources. Every link in the article was opened too. What I couldn't figure out is 45 and 46, in your format; 45 and 47 to 49 need your word on text that's yours, and 50 on two additions of mine.
+- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections whole, with your stories as your guide has them and your trance answer; Close the Session and Return to Life; Just Like Me; Journal With Each Hand; One Intention in the Morning, One Review at Night; and the Appendix with Teachers and Practice Resources. Every link in the article was opened too. What I couldn't figure out is 45, in your format; 45 and 47 to 49 need your word on text that's yours, and 50 on four additions of mine. Question 46 (Journal and One Intention, in your help-request format) is gone: both went in before you saw it.
 - "and save your work as you go in case credits run out": pushed after every round, and the handoff note on your laptop updated with it.
 - "signed into another pangram": the run moved to that account at 01:57 UTC (the first one showed 176 credits left at 01:31 UTC).
 

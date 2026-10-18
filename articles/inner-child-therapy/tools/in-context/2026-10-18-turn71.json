@@ -3,9 +3,42 @@
  "meta": "Inner Child Therapy · turn 71 (your messages of 2026-10-18 01:16 to 01:54 UTC) · saved on the lane, in a new pull request, not merged",
  "intro": [
   "Everything that went into the article tonight, beside your October guide. Every paragraph on this page reads Human alone in Pangram (yours as you published them), and so does its section; the links are in each row's notes, and every check is in the turn's results file: https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t71-guide/REVIEWS.md",
-  "Three new practices in Simple Practices, the three Altered States sections whole with your stories, and the Appendix's Teachers and Practice Resources. What still needs you is on the questions page (45 to 50)."
+  "Five new practices in Simple Practices, the three Altered States sections whole with your stories, and the Appendix's Teachers and Practice Resources. What still needs you is on the questions page (45 and 47 to 50)."
  ],
  "blocks": [
+  {
+   "headings": [
+    "# Simple Practices",
+    "## Journal With Each Hand"
+   ],
+   "rows": [
+    {
+     "label": "P1 (new: with my pointer to Lucia Capacchione's book, question 50)",
+     "article": "Lucia Capacchione, an art therapist",
+     "source": [
+      "Write vulnerable thoughts and feelings with your non-dominant hand",
+      "This can bypass the silence"
+     ],
+     "notes": [
+      "Turn 71 (the overnight run): the guide's two hands (the non-dominant, clumsy one for the vulnerable feelings, the usual one answering as the grown-up), getting past the silence people hit with talking or picturing, and the protective part getting that hand first. It opens on a pointer of mine to the practice's best-known teacher, Lucia Capacchione, and her book The Power of Your Other Hand (her site, opened 2026-10-18, lists it; not in the guide, so question 50 asks whether he wants it), and the rest grows out of the title. Twenty-odd P1s without it read AI (turns 65 and 71). experiments/t71-guide/drafts/jw-s.txt. Alone Human Written (0.0062, medium), https://www.pangram.com/history/895d5d72-8908-4813-abfd-e8758ed06d98 (round t71kk); the h2 below."
+     ]
+    },
+    {
+     "label": "P2 (new: a queued change to your guide, the memory aid)",
+     "article": "And what if all that writing leaves you",
+     "source": [
+      "This can bypass the silence"
+     ],
+     "notes": [
+      "Turn 71: PGQ-016, the memory aid for when reflective journaling makes things more confusing (keep track without interpreting; patterns later, if at all; it needn't explain your life; a dated note, what helped, a reminder or next step, a voice note). Its last four sentences are turn 65's writer's (experiments/t65-guide/writers/sp4-w1-p2.txt), with its list cut to two (\"a dated note of what happened, or of what helped\"); the opening question and the line after it are mine. experiments/t71-guide/drafts/jw2-g.txt. Alone Human Written (0.085), https://www.pangram.com/history/747a5d97-6357-49d7-8b76-2fc936018255; the h2 Human Written (0.018, high, 179 words), https://www.pangram.com/history/eb705c60-c368-4de9-8283-e9b7fc78ec5f (round t71nn)."
+     ],
+     "beside": {
+      "label": "The queued guide change it carries, PGQ-016 (memory support is not the same as reflective journaling)",
+      "text": "Preserve the distinction between meaning-making journals and low-interpretation external memory. When reflective journaling makes experience more confusing, a short dated fact log, what-helped note, reminder, next-step entry, or voice note can preserve continuity without requiring simultaneous interpretation. Pattern-finding can happen later if useful; a memory aid does not need to explain the person's life."
+     }
+    }
+   ]
+  },
   {
    "headings": [
     "# Simple Practices",
@@ -70,6 +103,49 @@
      ],
      "notes": [
       "Turn 71: the guide's stop signs and its last step (experiments/t71-guide/drafts/x3-c.txt): keep an ear on who's narrating; if the voice starts sneering at the younger you, stop (the courtroom creeping back in, P1's image again); stop too if you feel more ashamed, or floaty and unreal, since more distance won't help with that; when it goes well, ask the younger you in the story what they need from you now. Turn 65's P3 (sp5-p3-b6) read Human alone but AI with P2 (0.99, round t71a); x3-a and x3-b read AI alone (round t71b). Alone Human Written (0.094), https://www.pangram.com/history/da1abaaf-29eb-4f7c-887d-fdf92fa54815 (round t71b); the h2 Human Written (0.24, high, 226 words), https://www.pangram.com/history/c9f9e639-32af-46ea-a863-1bb460af2d8e (round t71c)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Simple Practices",
+    "## One Intention in the Morning, One Review at Night"
+   ],
+   "rows": [
+    {
+     "label": "P1 (new: with my pointer to Benjamin Franklin's Autobiography, question 50)",
+     "article": "Benjamin Franklin ran a version of this.",
+     "source": [
+      "In the morning, choose one modest intention:",
+      "“Today I will notice one hook before I act from it.”"
+     ],
+     "notes": [
+      "Turn 71 (the overnight run): the guide's one modest morning intention, to notice one hook (whichever shows up) before acting from it, with its example. It opens on a pointer of mine to Benjamin Franklin's daily scheme in his Autobiography (Project Gutenberg 20203, opened 2026-10-18): his morning and evening questions, and his thirteen virtues taken one at a time, a week each (not in the guide, so question 50 asks whether he wants it). No P1 without it ever read Human (oi-a to oi-p, turn 65's, and a fresh writer's three whole practices, round t71w). experiments/t71-guide/drafts/oi-dd.txt. Alone Human Written (0.0047), https://www.pangram.com/history/f87213f4-ebbd-4dc3-bd75-fbb30a43a58c (round t71qq); the h2 below."
+     ]
+    },
+    {
+     "label": "P2 (new)",
+     "article": "Then at night?",
+     "source": [
+      "At night, review the day without conducting a trial:",
+      "Where did I notice the hook?",
+      "Where did it run the sequence anyway?"
+     ],
+     "notes": [
+      "Turn 71: the guide's night review without a trial (no black spots: Franklin marked one in his little book for every fault of the day, and scraped them out to make room for new ones until the paper was full of holes, his Autobiography), its first two questions (where you caught the hook, where it ran anyway), and recognition that comes afterward counting too, with a pointer back to the half-written text in Catch the Hook Before the Story Takes Over: a catch tonight, after the whole routine ran, counts too (turn 65's grounding fix, experiments/t65-guide/GROUNDING-sp6.md [7]). experiments/t71-guide/drafts/oi2-u.txt, which is drafts/oi2-p with \"Then at night?\" for \"And at night?\" (Simple Practices would have had three paragraphs opening on \"And\", a linter FAIL, B13). oi2-p alone Human Written (0.10), https://www.pangram.com/history/fbb1d3c9-f6ae-4553-992b-06ff393709a4, and the h2 with it below (round t71tt); drafts/oi2-u alone Human Written (0.095), https://www.pangram.com/history/a9cf1f73-9182-43fb-b24d-c1947211be82 (round t71uu). Eighteen P2s before it read AI alone or in the h2 (rounds t71pp to t71tt)."
+     ]
+    },
+    {
+     "label": "P3 (new)",
+     "article": "What's the next small repair, then",
+     "source": [
+      "What small repair or protective act comes next?",
+      "What moment of warmth, pleasure, courage, or connection did I actually receive?",
+      "Count recognition as progress, even when it arrived afterward."
+     ],
+     "notes": [
+      "Turn 71: the guide's last two questions (the next small repair or protective act; the warmth, pleasure, courage or connection you actually received), a pattern interrupted, the intention renewed, and sleep, ending on the last line of Franklin's daily scheme, \"Sleep.\" The warm moment, the nerve and \"Same intention tomorrow\" are turn 65's sp6-p2-h2's (Human 0.17 alone, on the first Pangram account). experiments/t71-guide/drafts/oi3-d.txt. Alone Human Written (0.16), https://www.pangram.com/history/62b2d9e9-7fac-456d-9067-52878c695d33 (round t71qq); the h2 with oi2-p Human Written (0.069, high, 222 words), https://www.pangram.com/history/baca4f25-01a7-437e-8a05-77479b14ec5c (round t71tt); with oi2-u, as installed, the h2 Human Written (0.065, high, 222 words), https://www.pangram.com/history/d19c16bf-61fb-409a-a018-d955f9c08ef1, and Simple Practices with it, here at the guide's place, Human Written (0.097, high, 1966 words), https://www.pangram.com/history/36e29120-3fff-479c-9cb9-f2bbfaa59a01 (round t71uu; last, after Close the Session, it read 0.051)."
      ]
     }
    ]
@@ -149,7 +225,7 @@
       "The beautiful state can become a hook too."
      ],
      "notes": [
-      "Turn 71: the guide's next-to-last paragraph of this h1, the beautiful state as a hook: it can't be the bar for every morning after, or regular life starts to feel like failing; however gorgeous, it doesn't prove that what you saw really happened, or that you're done healing; what becomes more honest, protective and reliable afterwards tells you more. It opens on a pointer of mine to a book on just this, Jack Kornfield's After the Ecstasy, the Laundry (opened 2026-10-18; not in the guide, so question 50 asks whether he wants it), and the rest grows out of its title. Seventeen versions without it read AI in the h1 (rounds t71c to t71dd). experiments/t71-guide/drafts/as4-u.txt. Alone Human Written (0.074), https://www.pangram.com/history/5630a751-096d-4ce7-b37f-8bd63582c458; the h1 with it Human Written (0.049, high, 1444 words), https://www.pangram.com/history/f20729e3-3ce4-4e59-9c63-77e6c170e2ab (round t71gg)."
+      "Turn 71: the guide's next-to-last paragraph of this h1, the beautiful state as a hook: it can't be the bar for every morning after, or regular life starts to feel like failing; however gorgeous, it doesn't prove that what you saw really happened, or that you're done healing; what becomes more honest, protective and reliable afterwards tells you more. It opens on a pointer of mine to a book on just this, Jack Kornfield's After the Ecstasy, the Laundry (opened 2026-10-18; not in the guide, so question 50 asks whether he wants it), and the rest grows out of its title. Seventeen versions without it read AI in the h1 (rounds t71c to t71dd). experiments/t71-guide/drafts/as4-u.txt: alone Human Written (0.074), the h1 Human Written (0.049, high), round t71gg. Then the repeats check (experiments/t71-guide/REPEATS-5-altered-p4.md) found two of its points said before: \"it doesn't prove that what you saw really happened\" (Your Body Might Need Some Love First and When the Adult Voice Feels Fake say it), and the closing check on honesty, protectiveness and dependability (his own P14 in Timing Is Individual), so that part is out and the end points to Timing Is Individual: experiments/t71-guide/drafts/as4-w.txt. Alone Human Written (0.0083), https://www.pangram.com/history/8cf2a25e-ae8e-401b-b185-37b99aa46242; the h1 with it Human Written (0.036, high, 1430 words), https://www.pangram.com/history/b5e47e6a-a79c-4b6c-8ec3-3b05af20faac (round t71ii)."
      ]
     },
     {
