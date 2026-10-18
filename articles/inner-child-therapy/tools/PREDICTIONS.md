@@ -2544,3 +2544,11 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 71) | Close the Session a part at a time: the heading and P2 cs2-m (81 words) [t71k_cspc], a screen | Human, low (my call) | Human Written (0.19, Low; 85); 03:15:58 UTC, https://www.pangram.com/history/6dcbc294-e065-4bcf-81f5-c7f9088ddbc4 | hit |
 | 2026-10-18 (turn 71) | Just Like Me a part at a time: P1 sp7-p1-c and P2 jl2-e, no heading (160 words) [t71k_jlpb], a screen | Human, low (my call) | AI Generated (0.97, High; 163); 03:15:48 UTC, https://www.pangram.com/history/3e2718ee-10fc-46e7-af63-55d0f7694c8e | miss |
 | 2026-10-18 (turn 71) | Just Like Me a part at a time: the heading and P2 jl2-e (81 words) [t71k_jlpc], a screen | Human, low (my call) | AI Detected (0.55; 83), 2 windows: AI-Generated 37 words (Low); 03:15:37 UTC, https://www.pangram.com/history/5fed4d84-d499-4beb-b988-ab9168d7d80f | miss |
+| 2026-10-18 (turn 71) | Altered States Can Deepen P3 alone, fresh writer 2 (two coach phrases reworded for the linter) (73 words) [t71l_w2as3b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Altered States Can Deepen P4 alone, fresh writer 2 ("Maybe you catch yourself thinking you should be back there by now.") (110 words) [t71l_w2as4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Altered States Can Deepen P4 and P5, fresh writer 2 (P5 is 44 words, under the web app's 50) (155 words) [t71l_w2as45], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Altered States Can Deepen the Therapy, the whole h1 with fresh writer 2's P3 to P5 (1360 words) [t71l_secasw2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Close the Session P1 alone, d ("out loud if you can (the cat won't judge)") (79 words) [t71l_cs1d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Close the Session P1 alone, e ("It feels silly for about two seconds.") (82 words) [t71l_cs1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Close the Session, the h2: P1 cs1-d, P2 cs2-m (160 words) [t71l_secsc4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Close the Session, the h2: P1 cs1-e, P2 cs2-m (163 words) [t71l_secsc5], a screen | Human, low (my call) | (pending) | |
