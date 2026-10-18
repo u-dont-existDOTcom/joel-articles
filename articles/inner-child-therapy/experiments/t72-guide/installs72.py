@@ -300,3 +300,8 @@ register('ifsg', lambda: para('So inner child therapy draws on those higher vant
 for _x in 'hik':
     register('yb5' + _x, lambda: para('So how were the next few days?'),
              (lambda s: lambda: dnote(s, '54, 8 ("we can remove the "change several things at once" version in the other section since that sounds too vague to be useful"; coming out first is in Before You Try to Go Deep P2 now) and 11, B ("original list more informative"): the guide\'s "Try shorter duration, less depth or imagery, better timing, more symbolic or indirect representation, eyes open or stronger external anchors, less isolation, and more support." inside the paragraph\'s own "a bit easier" sentence, with the rest as it was. As a paragraph of its own, or with scenes, it read AI in all sixteen versions (rounds t72a to t72e).', 'YB5') + draft(s))('yb5-' + _x))
+
+
+# --- Round h: the checking-into-doing paragraph without its list (it had a 37-word AI window in three h1 contexts) -----
+register('chkf', lambda: para('And the checking doesn\'t always stay in your head.'),
+         lambda: dnote('chk-beh-f', '54, 4 (as chk-beh-a, round t72d), with its list of five broken up: it had a 37-word AI window in three checks of Before You Try to Go Deep this turn (rounds t72e, t72f and t72g).', 'CHKF') + draft('chk-beh-f'))
