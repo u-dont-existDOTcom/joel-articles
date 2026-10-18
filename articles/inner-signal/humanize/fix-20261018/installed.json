@@ -147,5 +147,29 @@
   "paragraphs": "452g",
   "fixed": "rf-a/HG34.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG16": {
+  "stage": "triaged",
+  "whole": "452g HG16-rfix (447g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-d/HG16.verify.part1.out.txt, triaged in rf-d/HG16.triage.json",
+  "paragraphs": "453g",
+  "fixed": "rf-d/HG16.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG38+39": {
+  "stage": "triaged",
+  "whole": "452g HG38+39-rfix (447g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-d/HG38+39.verify.part*.out.txt, triaged in rf-d/HG38+39.triage.json",
+  "paragraphs": "453g",
+  "fixed": "rf-d/HG38+39.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG35": {
+  "stage": "triaged",
+  "whole": "453g HG35-rfix (443g refix with B17 from emu-w, the triaged fixes, and the B17 fix of march-q)",
+  "meaning": "rf-a/HG35.verify.part*.out.txt and rf-j/HG35.verify.part1.out.txt, triaged in rf-a/HG35.triage.json and rf-f/HG35.review2.json",
+  "paragraphs": "451g, 453g",
+  "fixed": "rf-f/HG35.fixed2.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

@@ -1,0 +1,35 @@
+[
+ {
+  "key": "HG06",
+  "sent": [
+   6
+  ],
+  "flagged": [
+   6
+  ],
+  "headings": [],
+  "words": 64,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-f/HG06.fixed.json",
+  "run": "HG06-fxw1"
+ },
+ {
+  "key": "HG26",
+  "sent": [
+   0,
+   1,
+   2
+  ],
+  "flagged": [
+   1,
+   2
+  ],
+  "headings": [
+   0
+  ],
+  "words": 109,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-h/HG26.fixed.json",
+  "run": "HG26-fxw1"
+ }
+]

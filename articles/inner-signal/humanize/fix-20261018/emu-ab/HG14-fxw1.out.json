@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ab/HG14-fxw1.txt",
+  "input_words": 72,
+  "input_sha256": "a4905a0997fa48921b492df1fc047137d2904eb88e72097fdc110308d0b15c06",
+  "balance_before": 92392,
+  "started_utc": "2026-10-18T06:49:58Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:50:04Z",
+  "response": {
+    "id": "eeda6041-7dce-4fe6-b79d-e9285a2e12c4",
+    "tool": "humanize",
+    "text": "Let the child speak without taking the wheel\n\nYou can choose to let the parts of you that feel younger express themselves without handing over the adult part of you to the caretaker in the other person or without actually going back in age. In this way, you can access all of the positive aspects of what it can be like to feel younger such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to let someone take care of you, to feel need, and to want to offload some decision making.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 72
+    },
+    "elapsed": 6
+  },
+  "balance_after": 92320
+}

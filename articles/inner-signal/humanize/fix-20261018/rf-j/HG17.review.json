@@ -1,0 +1,112 @@
+[
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B7 'at once' lost, so 'Don't use' reads as banning each image rather than piling them all in",
+    "replace": "child inside, even if",
+    "with": "child inside all at once, even if",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B7 'no response at all' lost; 'you will get the signal' is an invented promise",
+    "replace": "you will get the signal some other way",
+    "with": "you may get the signal some other way, or no response at all",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B7 one verb AND one quality AND one refrain AND one transition phrase became alternatives ('or')",
+    "replace": "one key verb, or a particular sense quality, or a small bit of text you repeat to yourself, or something,",
+    "with": "one key verb, and a particular sense quality, and a small bit of text you repeat to yourself, and something,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B11 'Come all the way back' (a section to read while fully awake) became an order to come back 'again' while reading; 'fully awake' lost",
+    "replace": "induction. Come all the way back again while you are reading it.",
+    "with": "induction and Come all the way back while you are fully awake.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B11 'less' (reduces demand) and 'quiet' (stops the words) collapsed into 'stop the exercise'",
+    "replace": "or 'less', or 'quiet'",
+    "with": "turn the demand down by saying 'less', or stop the words by saying 'quiet'",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "B11 'add something you haven't agreed to' became 'add to what is not there' (consent limit garbled)",
+    "replace": "add to what is not there",
+    "with": "add something you have not agreed to",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 33,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B33 'I do not need to intensify it' lost from the affirmation (safety limit)",
+    "replace": "now I just need to aim it",
+    "with": "I do not need to intensify it, I just need to aim it",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B33 'the inner child does not have to carry this alone' became 'my inner child deals with this'",
+    "replace": "as my inner child deals with this",
+    "with": "so my inner child does not have to carry this alone",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 57,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B57 fractionation explanation lost, including 'name the technique before using it'",
+    "replace": "Ok, now I",
+    "with": "Say that this is fractionation before you do it. Ok, now I",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 60,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B60 'if not useful, I stay exactly as awake as I need to be' lost",
+    "replace": "Take yourself to your room",
+    "with": "If deepening isn't useful, stay exactly as awake as you need to be. Take yourself to your room",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

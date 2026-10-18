@@ -1,0 +1,222 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B1: LOST \"NLP is useful when it helps the system listen\" (the usefulness condition) is missing",
+    "replace": "then it might be useful.",
+    "with": "then it might be useful, when it helps the system listen.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "State NLP level missing, so \"the four levels\" lists three (B3: LOST State NLP; B3: UNCLEAR four levels)",
+    "replace": "Strategy level of NLP:",
+    "with": "State Level of NLP: making useful states (warmth, adult presence, courage, love etc.) easier to get to.\n\nStrategy level of NLP:",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 25,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "better example gone, so \"the second example\" points at nothing (B25: LOST both example sentences; B25: UNCLEAR first/second example)",
+    "replace": "The second example",
+    "with": "Saying ‘As I breathe, my adult self may become present enough to listen’",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "B25: the first example is gone too, so \"the first example\" points at nothing (added by me to the triage)",
+    "replace": "the problem with the first example is",
+    "with": "the problem with saying ‘Because I breathe, the trauma leaves’ is",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B28: LOST definition of an embedded invitation and the rule that it invites a modest inner movement, not a hidden demand",
+    "replace": "ie.",
+    "with": "Embedded invitations should invite a small inner movement, never hide a demand, ie.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 34,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "manipulative double bind never defined, \"are like:\" then nothing (B34: LOST definitions; B34: UNCLEAR followed by nothing)",
+    "replace": "are like:",
+    "with": "trap every answer inside the speaker's agenda.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 59,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B59: SHIFT \"wake up inside the state I am in\" becomes \"waking up from whatever state I am in\"",
+    "replace": "waking up from whatever",
+    "with": "waking up inside whatever",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B59: SHIFT \"make room for whatever is genuinely available\" becomes a state that \"now includes\" objectivity, clarity, ease etc. (presented as present)",
+    "replace": "which now includes",
+    "with": "which may include",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: looking for the truth of what is going on said twice, in B59 and B59",
+    "replace": "I look for the truth of the situation. If",
+    "with": "If",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 66,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "another person controlling the response became you controlling other people",
+    "replace": "You can't use them to control other people.",
+    "with": "Other people can't use them to control your response.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "retirement line lost 'I release this association and return coincidence to ordinary uncertainty'; reworded by me in the stretch's voice (the brief: no pasted published sentence)",
+    "replace": "as a cue for waking up.\"",
+    "with": "as a cue for waking up. I let go of this association, coincidences can go back to being just coincidences.\"",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "lost that the statement expresses a decision and does not prove the association vanished immediately; reworded by me in the stretch's voice",
+    "replace": "Remove it from your list of cues, so that you won't rehearse it anymore.",
+    "with": "Remove it from your list of cues, so that you won't rehearse it anymore. Saying this is just you deciding, it doesn't mean the association is gone straight away.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 82,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "question of the universal heart position lost (truth, love, boundaries, everyone's good)",
+    "replace": "4) then seeing from Universal Heart.",
+    "with": "4) then seeing from Universal Heart (what serves truth, love, boundaries, and everyone involved).",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 92,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "own-practice cautions (real signal, fear, panicking) recast as things done to people only",
+    "replace": "do with NLP :",
+    "with": "do with NLP, to myself or to others :",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "make another person's no feel like resistance",
+    "replace": "to make people feel like they are spiritually inferior",
+    "with": "to make people feel like their no is resistance, or like they are spiritually inferior",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'to get compliance' lost; became a blanket ban on people in trance that clashes with the induce step",
+    "replace": "use NLP on people in a suggestible state",
+    "with": "use NLP to get compliance from people in a suggestible state",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'I rarely do all of this' invented (also hints steps can be skipped)",
+    "replace": "process (though I rarely do all of this) :",
+    "with": "process :",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "pain, hunger, grief, anger named; also removes the repeat of 'legitimate signals' (R line)",
+    "replace": "remove legitimate signals or medical symptoms",
+    "with": "remove pain, hunger, grief, anger, or medical symptoms",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 106,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "stabilize first if you are already wide open (condition and order)",
+    "replace": "(get their attention or stabilize them)",
+    "with": "(get their attention, or stabilize them first if they are already wide open)",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "'gently' lost from the adjust step",
+    "replace": "Change some aspect",
+    "with": "Gently change some aspect",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

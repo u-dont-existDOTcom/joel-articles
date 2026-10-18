@@ -1,0 +1,156 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B1: LOST the practical question's criteria (safer, clearer, more loving, more grounded, less hooked); 'best way' was left undefined",
+    "replace": "what is the best way to deal with them",
+    "with": "what response makes you safer, clearer, more loving, more grounded, and less hooked",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B6: SHIFT script line 'adult self remains present' became 'adult part is always welcome', and 'body may return to safety' became 'so is my body' (safety dropped)",
+    "replace": "is always welcome, and so is my body",
+    "with": "is still here, and my body can return to safety",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B10: SHIFT 'stable enough to stay present' became 'feel like you can deal with it' (the condition for going on)",
+    "replace": "you can deal with it",
+    "with": "you’re stable enough to stay present",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B10: LOST hand on heart 'if that feels welcome' (now a plain instruction)",
+    "replace": "Put your hand on your heart, breathe",
+    "with": "Put your hand on your heart if that feels okay, breathe",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: check in with yourself about what to do, said twice in the first paragraph (published says it once); the second one replaced by the lost 'keep the room available' (B10 LOST)",
+    "replace": "check in with yourself about what to do in this situation",
+    "with": "stay aware of the room",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B10: LOST 'keep my boundary either way' (warm or at arm's length)",
+    "replace": "or to keep it at arm’s length.",
+    "with": "or to keep it at arm’s length, and keep your boundary either way.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B10: LOST 'return to the body and room' after stopping",
+    "replace": "stop trying to deal with it.",
+    "with": "stop trying to deal with it and return to your body and the room.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B10: INVENTED 'work with it as if it were a protector, at least for now' (it also cuts against the no-verdict caution); also B10: LOST 'neither response establishes its origin; a comforting response doesn't prove an interpretation'",
+    "replace": "but work with it as if it were, at least for now",
+    "with": "but whether warmth or distance helps, that doesn’t prove what it is",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "B15: WRONG 'only becomes a center of attention if you hate it' (fear gives it center stage, hatred the hook; 'only' added); also B15: UNCLEAR the sentence breaking off at 'out of fear', since the claim that fighting from fear puts it at the center of attention is now stated right after it",
+    "replace": "It only becomes a center of attention if you hate it and therefore give it a hook in you.",
+    "with": "Fear makes it a center of attention, and hatred gives it a hook in you.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B15: LOST 'pride gives it an opponent' and 'panic gives it the nervous system'; also B15: UNCLEAR the parenthetical 'To counter pride, or to feel you must panic and defeat it'",
+    "replace": "To counter pride, or to feel you must panic and defeat it.",
+    "with": "Pride gives it an opponent, and panic gives it your nervous system.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "R: the presence needs to respect your boundaries, in B19 and B19 (both sentences of its second paragraph); published says it once (Use love with a boundary), the first mention cut",
+    "replace": "welcome it and that it needs to respect your boundaries.",
+    "with": "welcome it.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "R: the dishes-and-room test and \"I don't need it\", in B28 and B28 (first and second script paragraphs); dishes-and-room said once in the published script, so the second mention is replaced by \"in my everyday life\" (keeps the ordinary-life anchor of the B28 SHIFT finding); the closing refrain stays",
+    "replace": "useful, and take care of my dishes and my room,",
+    "with": "and useful in my everyday life,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 32,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B32: LOST \"without surrendering the boundary\" (only \"maintain a presence of love\" remains); the closing summary of the practice (love with a boundary) needs it",
+    "replace": "of love while also making",
+    "with": "of love without giving up your boundaries, while also making",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: I don't want you to become hobbyists, in B32 and B32 (second and last sentences); published says it once, the middle sentence cut and the last kept (it follows the training sentence as in the published); march-r (2026-10-18): cutting the middle sentence lost the paragraph's one break, so the last sentence is cut instead and the break (\"I just don’t want you to do that.\") kept",
+    "replace": "harder to hook. Beyond that, I don’t want you to be hobbyists in this area.",
+    "with": "harder to hook.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

@@ -1,0 +1,55 @@
+{"key": "HG17",
+ "fixes": [
+  {"block": 7, "problems": [
+   {"type": "SHIFT", "what": "B7 'at once' lost, so 'Don't use' reads as banning each image rather than piling them all in", "replace": "child inside, even if", "with": "child inside all at once, even if", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "B7 'no response at all' lost; 'you will get the signal' is an invented promise", "replace": "you will get the signal some other way", "with": "you may get the signal some other way, or no response at all", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "B7 one verb AND one quality AND one refrain AND one transition phrase became alternatives ('or')", "replace": "one key verb, or a particular sense quality, or a small bit of text you repeat to yourself, or something,", "with": "one key verb, and a particular sense quality, and a small bit of text you repeat to yourself, and something,", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 11, "problems": [
+   {"type": "SHIFT", "what": "B11 'Come all the way back' (a section to read while fully awake) became an order to come back 'again' while reading; 'fully awake' lost", "replace": "induction. Come all the way back again while you are reading it.", "with": "induction and Come all the way back while you are fully awake.", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "B11 'less' (reduces demand) and 'quiet' (stops the words) collapsed into 'stop the exercise'", "replace": "or 'less', or 'quiet'", "with": "turn the demand down by saying 'less', or stop the words by saying 'quiet'", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "UNCLEAR", "what": "B11 'add something you haven't agreed to' became 'add to what is not there' (consent limit garbled)", "replace": "add to what is not there", "with": "add something you have not agreed to", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 33, "problems": [
+   {"type": "LOST", "what": "B33 'I do not need to intensify it' lost from the affirmation (safety limit)", "replace": "now I just need to aim it", "with": "I do not need to intensify it, I just need to aim it", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "B33 'the inner child does not have to carry this alone' became 'my inner child deals with this'", "replace": "as my inner child deals with this", "with": "so my inner child does not have to carry this alone", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 57, "problems": [
+   {"type": "LOST", "what": "B57 fractionation explanation lost, including 'name the technique before using it'", "replace": "Ok, now I", "with": "Say that this is fractionation before you do it. Ok, now I", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 60, "problems": [
+   {"type": "LOST", "what": "B60 'if not useful, I stay exactly as awake as I need to be' lost", "replace": "Take yourself to your room", "with": "If deepening isn't useful, stay exactly as awake as you need to be. Take yourself to your room", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]}
+ ],
+ "let_stand": [
+  {"finding": "B1: SHIFT \"quieter material easier to hear\" became \"material you might not hear when sober\"", "why": "wording; same point, attention gathered so quieter material is heard"},
+  {"finding": "B1: SHIFT \"play asleep\" became \"go to sleep\"", "why": "near-synonym; reader does the same (no sleep, no surrender)"},
+  {"finding": "B4: LOST an induction helps you find a receptive way of listening", "why": "point kept in 'gathering up your attention' and 'more receptive response'"},
+  {"finding": "B4: SHIFT \"build from the useful response\" became \"develop a more receptive response afterwards\"", "why": "same advice: if you already have it, build on it"},
+  {"finding": "B11: SHIFT \"the later Already open? practice\" became \"the bit above\"", "why": "pointer wording; the bit above does say orient and contain, and the not-for-deepening-when-unstable caution is kept"},
+  {"finding": "B11: LOST \"warm company\" option", "why": "one item of a list; warmth is still offered in the choice of style"},
+  {"finding": "B11: SHIFT \"rehearse without a difficult subject\" became \"context not needing maximum effort\"", "why": "same advice: practise coming in and out under low demand until confident"},
+  {"finding": "B11: LOST thought/sound/movement/objection may change where the practice goes; now \"may change what you get\"", "why": "examples shortened; building the next part from what you actually get is kept"},
+  {"finding": "B17: INVENTED \"for use after you've read the chapter on Listening\" (not in B17-B31)", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST the three anchors (sound, bodily contact, two-hand practice) never named; \"the opening phrases\" implies a menu", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B18) notice the difference between looking for something and letting what is there come into view", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B19) \"without needing you to arrange either one\"", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B22) stay with the detail long enough to become curious", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B23) someone who has begun to speak and hasn't found the words; not finishing their sentence", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B24) say the phrase as an invitation", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B26) give each number its own moment", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B27) the instructions for four to one (gather attention, leave space after the words, listen into the space without preparing an answer, stay here)", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: LOST (B28) \"lightly\" and \"without rehearsing its whole story\"", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "B17: INVENTED trailing \"Working when you've already opened a state ... contain it first\" (not in B17-B31)", "why": "moot: B17 stretch goes to resample (too many fixes)"},
+  {"finding": "R: contain/stabilize an already-open state before deepening, in B11 and B17", "why": "moot: the second mention is the trailing line of the B17 stretch, which goes to resample"},
+  {"finding": "B33: INVENTED \"through means other than doing a deliberate process\" and \"a different style of meditation\"", "why": "elaboration that fits; the practice still applies to an already-open state"},
+  {"finding": "B33: SHIFT \"only in the amount I can live well with\" became \"in a form that I can integrate\"", "why": "limit kept: 'only go as far as I can integrate' and 'that I can integrate'"},
+  {"finding": "B40: LOST where the echo may be felt (fingers, breath, attention)", "why": "list shortened; reader still notices whether an echo remains"},
+  {"finding": "B48: INVENTED opening question \"Where are YOUR hands?\"", "why": "casual prompt that claims nothing new"},
+  {"finding": "B60: SHIFT \"Who or what needs to speak first?\" became \"who wants to talk to you first\"", "why": "wording; same step of seeing who speaks first"},
+  {"finding": "B64: SHIFT finger response \"when the inner meeting space is ready\" became \"to let me know I am ready to meet whoever wants to see me\"", "why": "wording; the finger still signals readiness to meet"},
+  {"finding": "B64: SHIFT \"may let one finger twitch\" became \"may cause\"", "why": "wording; 'not going to make it happen' keeps the no-forcing"},
+  {"finding": "B64: LOST \"and notice\" (wait with love and notice)", "why": "implied by waiting for the finger signal"},
+  {"finding": "B75: LOST \"today's altered state ends with the return\"", "why": "kept in substance: no trigger until a later session"}
+ ],
+ "resample": [17]}

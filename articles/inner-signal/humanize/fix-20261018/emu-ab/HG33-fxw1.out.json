@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ab/HG33-fxw1.txt",
+  "input_words": 247,
+  "input_sha256": "52e15f8da062151c82f37106798887f6582374e46b38c426de89d72ece8b3532",
+  "balance_before": 91523,
+  "started_utc": "2026-10-18T06:50:47Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:51:00Z",
+  "response": {
+    "id": "a9f4d11e-2ad3-4b49-899c-79d99c658072",
+    "tool": "humanize",
+    "text": "Appendix D: Anxiety — body first\n\nRemember that often the anxiety comes from a protector part of you, who is trying to help you, but who believes you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever. Therefore, instead of the interrogation above, start with yourself:\n\nAlways work with yourself in a series – first your body, then your inner child, then some inner work, then some action:\n\nInner child love\n\nHere is some inner child love. Put your hand over your heart and your other hand on your solar plexis, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.” Make sure you are actually talking to your inner child, who is scared to death.\n\nReduced breathing / Buteyko’ breathing\n\nThen work on your reduced breathing / Buteyko’ breathing. (NOTE: there are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term. Go slow on this.) Inhale small amounts through your nose, exhale quietly, and pause if you can. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, STOP!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 247
+    },
+    "elapsed": 12
+  },
+  "balance_after": 91276
+}

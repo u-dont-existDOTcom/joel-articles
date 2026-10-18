@@ -1,0 +1,60 @@
+{"key": "HG31",
+ "fixes": [
+  {"block": 1, "problems": [
+   {"type": "LOST", "what": "B1: LOST \"NLP is useful when it helps the system listen\" (the usefulness condition) is missing",
+    "replace": "then it might be useful.", "with": "then it might be useful, when it helps the system listen.",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 3, "problems": [
+   {"type": "LOST", "what": "State NLP level missing, so \"the four levels\" lists three (B3: LOST State NLP; B3: UNCLEAR four levels)",
+    "replace": "Strategy level of NLP:", "with": "State Level of NLP: making useful states (warmth, adult presence, courage, love etc.) easier to get to.\n\nStrategy level of NLP:",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 25, "problems": [
+   {"type": "LOST", "what": "better example gone, so \"the second example\" points at nothing (B25: LOST both example sentences; B25: UNCLEAR first/second example)",
+    "replace": "The second example", "with": "Saying ‘As I breathe, my adult self may become present enough to listen’",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 28, "problems": [
+   {"type": "LOST", "what": "B28: LOST definition of an embedded invitation and the rule that it invites a modest inner movement, not a hidden demand",
+    "replace": "ie.", "with": "Embedded invitations should invite a small inner movement, never hide a demand, ie.",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 34, "problems": [
+   {"type": "LOST", "what": "manipulative double bind never defined, \"are like:\" then nothing (B34: LOST definitions; B34: UNCLEAR followed by nothing)",
+    "replace": "are like:", "with": "trap every answer inside the speaker's agenda.",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 59, "problems": [
+   {"type": "SHIFT", "what": "B59: SHIFT \"wake up inside the state I am in\" becomes \"waking up from whatever state I am in\"",
+    "replace": "waking up from whatever", "with": "waking up inside whatever",
+    "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "B59: SHIFT \"make room for whatever is genuinely available\" becomes a state that \"now includes\" objectivity, clarity, ease etc. (presented as present)",
+    "replace": "which now includes", "with": "which may include",
+    "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "REPEAT", "what": "R: looking for the truth of what is going on said twice, in B59 and B59",
+    "replace": "I look for the truth of the situation. If", "with": "If",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]}
+ ],
+ "let_stand": [
+  {"finding": "B3: LOST Strategy example \"when this cue appears, the adult does this\" (cue-triggered response)", "why": "example only; 'practising a better response' kept"},
+  {"finding": "B8: SHIFT commands \"often make a part brace\" becomes a flat \"it doesn't work\"", "why": "next paragraph names the part that argues"},
+  {"finding": "B8: INVENTED \"be better\" added as an example command", "why": "extra example command, same sense"},
+  {"finding": "B8: SHIFT \"presume only a small safe capacity\" becomes \"presume we can only do a tiny bit\" (limitation, \"safe\" lost)", "why": "'safe' kept in the Language list and the presumption limit; wording"},
+  {"finding": "B8: SHIFT example script: \"a little easier to stop holding the whole day alone\" becomes \"realise it is not alone in carrying the burden\"", "why": "example script, still gentle and hedged"},
+  {"finding": "B14: LOST definition: pacing and leading = stating what is already true before inviting anything new", "why": "Truth, Invite formula and script carry it"},
+  {"finding": "B14: LOST the anxiety example script (body activated, a protector helping, one breath at a time the adult can listen)", "why": "example only; template script kept"},
+  {"finding": "B19: LOST awareness verbs \"point attention without yelling at it\" (becomes \"open up awareness\")", "why": "wording"},
+  {"finding": "B19: LOST example's answer forms (image, word, pressure, warmth, silence, next action); replaced by \"how you find out the answer\"", "why": "different example, same job"},
+  {"finding": "B22: LOST definition of presupposition (hides an assumption inside a sentence)", "why": "definition only; limit on what to presume kept"},
+  {"finding": "B22: LOST example \"Before any part has to change, it can first become more understood\"", "why": "example only"},
+  {"finding": "B28: SHIFT first two scripts replaced by open-ended fragments; \"inside this breath, let the adult self listen\" and \"one small truth to become clear\" are gone", "why": "example scripts, same form"},
+  {"finding": "B28: LOST third script (\"The child does not have to trust me all at once; it can simply notice I am still here\")", "why": "example only; inner child parts line kept"},
+  {"finding": "B28: INVENTED \"they won't feel so safe with you\" (added consequence)", "why": "elaboration fits the overuse warning"},
+  {"finding": "B37: LOST definition: questions whose ordinary conversational form also acts as an invitation", "why": "definition only; example kept"},
+  {"finding": "B40: LOST tag questions can soften a sentence", "why": "use and the 'oily' caution kept"},
+  {"finding": "B40: SHIFT \"already knows something about resting\" becomes the stronger \"knows how to relax\"", "why": "example script wording"},
+  {"finding": "B43: LOST definition: nominalizations turn processes into nouns", "why": "word list and its use kept"},
+  {"finding": "B46: SHIFT self-questions \"How do I know?\" and \"What evidence would change my mind?\" become questions put to another person (\"you\")", "why": "wording; self use kept in the 'Meta it' line"},
+  {"finding": "B51: LOST \"what changes when\" the image moves back, the voice quietens or the edge softens (noticing the effect); only \"can you do it\" requests remain", "why": "same practice; asks to try the changes"},
+  {"finding": "B51: SHIFT guard question: \"just a little... purely so my adult self can stay present\" becomes \"a couple of feet and volume down\" (no adult self, both changes together)", "why": "guard consent kept; wording"},
+  {"finding": "B59: LOST \"the coincidence doesn't have to contain a message; it has already captured attention, which is enough\"", "why": "cue keeps 'not proof' of the interpretation"},
+  {"finding": "B59: LOST \"I do not have to manufacture any of them\" (the available states)", "why": "'whatever state is real' plus 'may include' now covers it"},
+  {"finding": "B59: INVENTED \"From that state I feel my feelings\"", "why": "elaboration fits listening to the state"}
+ ],
+ "resample": []}

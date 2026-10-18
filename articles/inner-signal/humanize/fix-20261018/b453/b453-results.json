@@ -1,0 +1,397 @@
+{
+ "HG16-f-p1": [
+  "Human Written",
+  0.02,
+  114,
+  "Human, Medium, 114",
+  "07:00:32",
+  "/2a99dbd3-753e-429d-a2c2-03e7f461b859",
+  []
+ ],
+ "HG16-f-p2": [
+  "Human Written",
+  0,
+  58,
+  "Human, Low, 58",
+  "07:00:43",
+  "/53f03229-3abe-47bc-b530-089221a63077",
+  []
+ ],
+ "HG16-f-p3+next": [
+  "Human Written",
+  0,
+  71,
+  "Human, Low, 71",
+  "07:00:53",
+  "/3975a906-3cdd-4e80-b6fe-34d3bb0f8129",
+  []
+ ],
+ "HG16-f-p5": [
+  "Human Written",
+  0.01,
+  62,
+  "Human, Low, 62",
+  "07:01:05",
+  "/2d6ef99d-5387-4ec3-84b1-e6d66daa865d",
+  []
+ ],
+ "HG16-f-p6+prev": [
+  "Human Written",
+  0,
+  75,
+  "Human, Low, 75",
+  "07:01:14",
+  "/6e782fd7-07f2-4a73-85d3-aecb5d7b36fa",
+  []
+ ],
+ "HG16-f-p7": [
+  "Human Written",
+  0,
+  71,
+  "Human, Low, 71",
+  "07:01:25",
+  "/cd503062-5c16-4463-b11d-eac3028a2733",
+  []
+ ],
+ "HG16-f-p8+prev": [
+  "Human Written",
+  0,
+  99,
+  "Human, Low, 99",
+  "07:01:35",
+  "/a587904b-8c2a-4383-bf76-f37225ffb83f",
+  []
+ ],
+ "HG16-f-p9+next": [
+  "Human Written",
+  0,
+  62,
+  "Human, Low, 62",
+  "07:01:47",
+  "/2a1657a2-d319-44bb-9115-51e3094a7ee5",
+  []
+ ],
+ "HG16-f-p11+prev": [
+  "Human Written",
+  0,
+  65,
+  "Human, Low, 65",
+  "07:01:57",
+  "/2147f73e-13fd-4d2f-a096-d6e79b34ea5e",
+  []
+ ],
+ "HG16-f-p12+next": [
+  "Human Written",
+  0,
+  57,
+  "Human, Low, 57",
+  "07:02:08",
+  "/60191332-b1fb-48e6-b3a3-fdc2356d3922",
+  []
+ ],
+ "HG16-f-p14+next": [
+  "Human Written",
+  0,
+  56,
+  "Human, Low, 56",
+  "07:02:18",
+  "/d480fed6-ae31-4c53-98a4-1ddada73329b",
+  []
+ ],
+ "HG16-f-p16+prev": [
+  "Human Written",
+  0,
+  64,
+  "Human, Low, 64",
+  "07:02:28",
+  "/35e07426-974f-4f82-9d8c-a5a387611b74",
+  []
+ ],
+ "HG16-f-p17+prev": [
+  "Human Written",
+  0,
+  70,
+  "Human, Low, 70",
+  "07:02:41",
+  "/53c2e31e-3fc5-4b29-99fd-b7440ac6533e",
+  []
+ ],
+ "HG16-f-p18+prev": [
+  "Human Written",
+  0,
+  73,
+  "Human, Low, 73",
+  "07:02:49",
+  "/1a6fd7c2-96c1-4220-8c12-114969bb7d2c",
+  []
+ ],
+ "HG16-f-p19": [
+  "Human Written",
+  0.1,
+  113,
+  "Human, Medium, 113",
+  "07:03:00",
+  "/6829f8af-a0c1-468c-b906-519a39dd4e16",
+  []
+ ],
+ "HG16-f-p20+prev": [
+  "Human Written",
+  0.01,
+  124,
+  "Human, Medium, 124",
+  "07:03:10",
+  "/3af09200-1f96-4e85-a832-62584995dbfb",
+  []
+ ],
+ "HG38+39-f-p1+next": [
+  "Human Written",
+  0,
+  138,
+  "Human, Medium, 138",
+  "07:03:21",
+  "/640fab22-34e8-43dc-8aa4-ee63e110b1f4",
+  []
+ ],
+ "HG38+39-f-p2": [
+  "Human Written",
+  0,
+  124,
+  "Human, Medium, 124",
+  "07:03:31",
+  "/bf0ce933-c9a2-49fd-b51f-a9fd789d6a95",
+  []
+ ],
+ "HG38+39-f-p3+prev": [
+  "Human Written",
+  0,
+  156,
+  "Human, High, 156",
+  "07:03:42",
+  "/1dd25e8e-dd38-4c9f-95ce-1ca3ee9947cd",
+  []
+ ],
+ "HG38+39-f-p4": [
+  "Human Written",
+  0,
+  121,
+  "Human, Medium, 121",
+  "07:03:54",
+  "/800a03f1-ddd6-4d9c-918b-91e2c29a8bea",
+  []
+ ],
+ "HG38+39-f-p5": [
+  "Human Written",
+  0,
+  106,
+  "Human, Medium, 106",
+  "07:04:06",
+  "/e973292f-8d1c-481f-b67e-85937438ad4b",
+  []
+ ],
+ "HG38+39-f-p6": [
+  "Human Written",
+  0,
+  116,
+  "Human, Medium, 116",
+  "07:04:19",
+  "/d4520589-8a74-41f6-aace-ea31681ab786",
+  []
+ ],
+ "HG38+39-f-p7": [
+  "Human Written",
+  0,
+  110,
+  "Human, Medium, 110",
+  "07:04:30",
+  "/53ac255b-ebb8-414e-941d-473690b1ca45",
+  []
+ ],
+ "HG38+39-f-p8": [
+  "Human Written",
+  0,
+  154,
+  "Human, High, 154",
+  "07:04:42",
+  "/65ac5bc9-5a6b-4b2b-b569-6061fbdb9cfd",
+  []
+ ],
+ "HG38+39-f-p9": [
+  "Human Written",
+  0.35,
+  79,
+  "Human, Low, 79",
+  "07:04:53",
+  "/49ed6b00-915a-4161-a3a2-26d6bbc91123",
+  []
+ ],
+ "HG38+39-f-p10": [
+  "Human Written",
+  0,
+  130,
+  "Human, Medium, 130",
+  "07:05:05",
+  "/37077aac-9121-473c-8014-e8cd51c6858e",
+  []
+ ],
+ "HG38+39-f-p11": [
+  "Human Written",
+  0,
+  58,
+  "Human, Low, 58",
+  "07:05:18",
+  "/4ac2edfb-2a84-4125-9f53-f3c1763bd3a0",
+  []
+ ],
+ "HG38+39-f-p12": [
+  "Human Written",
+  0,
+  115,
+  "Human, Medium, 115",
+  "07:05:30",
+  "/e9d026af-39f1-47d9-aa38-bb913372d121",
+  []
+ ],
+ "HG35-rfix": [
+  "Human Written",
+  0.07,
+  1151,
+  "Human, High, 1151",
+  "07:05:42",
+  "/0bbc85f4-a5d1-4383-b09d-447f3a7d7f30",
+  []
+ ],
+ "HG35-q-p13": [
+  "Human Written",
+  0.38,
+  81,
+  "Human, Low, 81",
+  "07:05:53",
+  "/654c5146-1c3e-4ef2-876f-ad0117c46282",
+  []
+ ],
+ "HG06-rfix": [
+  "Human Written",
+  0.22,
+  216,
+  "Human, High, 216",
+  "07:06:05",
+  "/80bf4ff5-088b-4a3f-a447-f3b0c942b713",
+  []
+ ],
+ "HG06-q-p4+next": [
+  "AI Detected",
+  0.56,
+  85,
+  "Human, Low, 44; AI-Generated, Low, 41",
+  "07:06:14",
+  "/99a8d8e1-9595-4938-bdb8-76f92a37c469",
+  [
+   "AI-Generated (41 words): Self-hypnosis lets you work on it from the inside. In this way you will learn to befriend the deeper part of your mind and listen to it, opening up a whole new area of choice for you as an adult."
+  ]
+ ],
+ "HG06-q-p5+next": [
+  "AI Generated",
+  0.87,
+  77,
+  "AI-Generated, Low, 77",
+  "07:06:25",
+  "/66a001e0-b885-4e29-9eae-581815220082",
+  [
+   "AI-Generated (77 words): “If you don’t learn to control your mind, someone else will!”\nThere are already a lot of forces out in the world training your mind: advertising, fear, craving, screens, tribe, resentment, authority, loneliness and repetition. Self-hypnosis lets you work on it from the inside. In this way you will learn to befriend the deeper part of your mind and listen to it, opening up a whole new area of choice for you as an adult."
+  ]
+ ],
+ "HG06-q-p6": [
+  "AI Generated",
+  0.8,
+  65,
+  "AI-Generated, Low, 65",
+  "07:06:36",
+  "/e28b6bf4-8675-44b8-a65d-75965f7e5c62",
+  [
+   "AI-Generated (65 words): There are already a lot of forces out in the world training your mind: advertising, fear, craving, screens, tribe, resentment, authority, loneliness and repetition. Self-hypnosis lets you work on it from the inside. In this way you will learn to befriend the deeper part of your mind and listen to it, opening up a whole new area of choice for you as an adult."
+  ]
+ ],
+ "HG26-rfix": [
+  "Human Written",
+  0.07,
+  619,
+  "Human, High, 619",
+  "07:06:46",
+  "/2dba6402-6101-4e5d-b28e-ca03db166edd",
+  []
+ ],
+ "HG26-q-p1+next": [
+  "AI Generated",
+  0.6,
+  102,
+  "AI-Generated, Medium, 102",
+  "07:06:57",
+  "/282074b8-fd45-44c2-832d-219cb42dbcc1",
+  [
+   "AI-Generated (102 words): Remember, this is self-hypnosis, a relationship with yourself. If the situation calls for support, this guide isn't the right thing.\nIf you need help now: Get help now if you feel in imminent danger, very confused, or unable to keep yourself safe. Get help now if you have concerning physical symptoms (chest pain, fainting, etc.) You should seek professional help promptly if you have new or worsening suicidal thoughts, severe insomnia, new or worsening symptoms of mania or psychosis, or if dissociative symptoms are affecting your functioning. These are not problems that this guide will resolve in 4-12 weeks."
+  ]
+ ],
+ "HG26-q-p2": [
+  "Human Written",
+  0.23,
+  80,
+  "Human, Low, 80",
+  "07:07:07",
+  "/b581d6e8-45b0-42bb-9e97-3d72f8ea7b7d",
+  []
+ ],
+ "HG26-q-p3": [
+  "Human Written",
+  0.01,
+  95,
+  "Human, Low, 95",
+  "07:07:18",
+  "/50d06ccb-aca5-4d06-aaf4-b816fff92d58",
+  []
+ ],
+ "HG26-q-p4+prev": [
+  "Human Written",
+  0.15,
+  115,
+  "Human, Medium, 115",
+  "07:07:29",
+  "/9195b3b5-d9b2-4694-8ed9-65ead25d8e3c",
+  []
+ ],
+ "HG26-q-p5": [
+  "Human Written",
+  0,
+  151,
+  "Human, High, 151",
+  "07:07:39",
+  "/6a641e33-7734-46ac-964c-728ea6f74f4c",
+  []
+ ],
+ "HG26-q-p6": [
+  "Human Written",
+  0,
+  75,
+  "Human, Low, 75",
+  "07:07:49",
+  "/9f4b840c-b5e0-45e1-8b94-30ce02e123bc",
+  []
+ ],
+ "HG26-q-p7": [
+  "Human Written",
+  0.01,
+  79,
+  "Human, Low, 79",
+  "07:08:00",
+  "/870addf8-5f72-4d20-bb18-61c18b130fa7",
+  []
+ ],
+ "HG26-q-p8": [
+  "Human Written",
+  0,
+  79,
+  "Human, Low, 79",
+  "07:08:11",
+  "/04d92d4a-139a-4913-a0d5-078ad491b84e",
+  []
+ ]
+}

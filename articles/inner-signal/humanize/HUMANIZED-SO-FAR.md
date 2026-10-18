@@ -390,47 +390,47 @@ Then wait for the body. It isn’t infallible, but it deserves a seat at the hea
 
 # De-hypnosis: wake up inside the influence
 
-Self-hypnosis also teaches influence literacy: noticing when somebody else is already shaping your attention. Screens, advertising, politics, religious fear, erotic imprinting, charismatic authority, belonging pressure, shame, urgency, and repetition all do it. Influence is everywhere—a lullaby, a prayer, a good teacher, a beautiful song, love. Ask what it does to your ability to see and choose.
+One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
 
-Manipulation often arrives with urgency, specialness, fear of missing out, threatened exclusion, sexual charge, shame, confusion, rescue fantasy, destiny, obedience, secret knowledge, or far too much certainty arriving far too quickly. You may also feel that one honest question would break the spell.
+Manipulation often comes with any of the following; urgency, you are special, FOMO (fear of missing out), not be included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, and an excessive sense of certainty about something way too quickly and you have a sense that one good question will break the spell.
 
-Pause there. Don’t obey immediately, and don’t perform automatic rebellion either. Wake up inside the influence.
+First of all, if you sense you are being hypnotically influenced, stop. Don’t obey immediately, but don’t rebel automatically, just realise that you are being influenced.
 
-Hypnotic language turns manipulative when it smuggles in your consent, makes one choice seem inevitable, or hides a disputed claim inside the sentence.
+Secondly, some of the ways that hypnotic language is used to manipulate are where you have consented to something you didn’t realise, or you being given only one choice, or something not yet agreed upon is embedded in a sentence. For example;
 
-“When you finally admit…” “As you realize I’m right…” “The only reason you resist is…” “Part of you already knows…” “Your higher self wants…” “Everyone who is truly awake understands…” “If you doubt this, that proves your ego is afraid.”
+You will soon realise that I am right …. Or you may, in time, decide to admit that …. Or the only reason you do not agree is …. Or part of you already knows …. Or your higher self wants …. Or everyone who is awake knows …. Or the reason you do not believe that is true is because your ego does not want you to …
 
-The grammar assumes the conclusion, turns resistance into proof, and makes obedience feel like awakening.
+If you are unsure, you may like to ask yourself the following questions;
 
-“What exactly is being claimed?” “What choice is being framed as inevitable?” “What is being presupposed?” “Who benefits if I accept this frame?” “What emotion is being amplified?” “What information is missing?” “Can I say no without being punished, shamed, mocked, abandoned, or spiritually downgraded?”
+What am I being asked to agree to? What choice am I being given? What is being assumed that I may not agree with? Who benefits if I comply? What is the emotionally charged part of what is being said? What is not being said? If I say no, what will the consequences be? (Will I be punished, shamed, laughed at, not be included, be told I am not ‘awake’ etc?)
 
-A useful guide leaves the adult self more present. Powerful states need stronger boundaries.
+This is a good guide to help engage your ‘adult’ in the conversation. The more powerful the ‘state’ the more you will need to make use of these.
 
 ## Soft language can still take away choice
 
-Permissive words can still conceal coercion. I watch for the following:
+Be aware that even when using ‘permissive’ language, you can still take away choice. Be aware of;
 
-[Indirect suggestion](https://nimja.com/stories/random/the_contradiction_of_subject_agency) can slip past the skeptical guard because the conscious mind may never receive one clean proposition to accept or reject. The intended direction can still be quite specific even when the wording feels open, vague, conversational, or merely suggestive.
+[Indirect suggestion](https://nimja.com/stories/random/the_contradiction_of_subject_agency)s can by-pass the subject’s ‘skeptical guard’. They do this by not directly telling the subject what to do. This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner.
 
-Induction hidden inside explanation: attention is being narrowed while the speaker pretends only to inform. Even an “anti-hypnosis” lesson can use induction mechanics.
+1) Utilizing induction techniques while seemingly explaining something (even something like "anti hypnosis" can use the same mechanics of induction).
 
-Every answer means compliance: “yes,” “no,” noticing, not noticing, resistance, and silence are all redefined as proof that the suggestion is working.
+2) In any way making it so that whatever the subject says, shows that a suggestion has worked, when this may not be the case (this includes answering yes, no, noticing something, not noticing something, trying not to do something, not answering, etc etc etc)
 
-“Whether you notice it or not” binds: uncertainty is converted into invisible success that cannot be checked.
+3) Including phrases such as whether or not you notice etc etc
 
-Identity and ownership language: safety or goodness becomes tied to obedience, a role, the guide’s approval, or belonging to someone else.
+4) Including any concepts that may make a subject think they must obey, or take on a role, or that it is good/safe to please the guide or belong to someone etc etc.
 
-Unannounced fractionation: moving in and out of absorption without telling you that repeated re-entry is part of the method.
+5) Fractionating a subject without telling them that you are going to take them in and out of absorption a few times.
 
-Hidden post-session cues: words, gestures, blinks, sounds, or repeated listening are meant to produce later behavior that was not plainly disclosed.
+6) Giving a subject cues (words, gestures, blinks, sounds, listening a certain number of times etc) that you intend to use to make them do something at a later date, without informing them exactly what it is that they will be doing.
 
-Amnesia or truth inflation: dreamlike material, missing memory, imagery, or body sensations are treated as proof of what happened.
+7) Including suggestions for amnesia, or making a subject think that something (dream, amnesia, imagery, body experiences etc) has happened when this may not necessarily be the case.
 
-An exit that does not exit: the recording ends while preserving a role, reduced judgment, impaired movement, blankness, or an indefinite altered state.
+8) Not taking a subject out at the end of a recording, or leaving them with a role to play, with their judgement down, with their physical abilities down, with their minds blank, or in any other way different for an indefinite length of time.
 
-A real choice includes at least one branch that doesn’t continue the induction: make it lighter, change the method, remain fully alert, pause, or stop. No remains no. Silence and uncertainty don’t become consent because the narrator has a soothing voice.
+In order for a subject to be making a REAL choice whilst in a hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish. This could be by making the hypnosis lighter, using a different method of hypnosis, being in full awareness whilst in a hypnosis, or being able to pause or stop the hypnosis. Just so you know, if you say no, you are quite entitled to mean NO, even if someone with a nice voice is asking you to do something! Also, just because you don't say anything, or don't know what to say, DOES NOT mean yes!
 
-Appendix C has the longer de-hypnosis checklist.
+(see appendix C for a longer version of the de hypno)
 
 # Induction: gathering attention without disappearing
 
@@ -1324,49 +1324,51 @@ You may need to send a text message or stop sending text messages. You may need 
 
 # Appendix F: Self-trust, outside guidance, and oracle-like states
 
-The synchronicity cue above turns noticing into orientation and reality-testing rather than an oracle.
+[Please see how to use synchronicity as a cue, not an oracle, above.]
 
-Suggestibility varies wildly. Some people open more with an external hypnotist, some with themselves, some only in particular states, and some barely respond to commands while responding deeply to imagery, music, metaphor, or spiritual feeling. A professional can bring pacing, containment, and another set of eyes. Self-hypnosis gives you instant follow-up, real-time correction, and a private line to your own protectors.
+One of the issues here is that people vary dramatically in how suggestible they are, both internally and externally, and different people vary in how suggestible they are in different states. Different types of suggestion (commands, imagery, music, metaphors, spiritual, etc) can be very different for different people. So there are definite advantages to both having someone work with you (pacing, containment, another set of eyes), and doing things yourself. Being able to follow up immediately, to correct something in real time, to have a line of communication with protectors, etc.
 
-Self-hypnosis may be best for daily intimacy with the subconscious. Skilled outside support may be best for trauma complexity, blind spots, dissociation, destabilization, and relational wounds that need another nervous system.
+That said, self hypnosis may be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relational wounds that need another nervous system, skilled outside support may be best.
 
 ## Finding a hypnotist who can work with you
 
-Ask what they are trained to treat, how they use hypnosis, and how they respond when a suggestion doesn’t fit. For trauma work, ask about actual trauma and dissociation training, not only a hypnosis certificate. Credentials matter without guaranteeing competent care.
+What they are trained in (what they can treat) How they use hypnosis What they will do if things don't "fit" (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)
 
-Describe what has helped, what hasn’t, your preferred directness, acceptable touch and imagery, and how you’ll stop. Ask about unexpected reactions, uncertain memories, and the full return. Firm encouragement can fit; refusal still ends it.
+What has/hasn't worked for you in the past How direct you want them to be What kind of touch (if any) you are ok with What kind of imagery (if any) you are ok with What you want them to do if you want them to stop What they will do if things go unexpected during or after the session What they do if you aren't sure if something is a memory or not How they will do the full return (coming out of hypnosis) at the end of the session You should be able to be firmly encouraged, but not forced to continue if you don't want to.
 
-Evaluate what actually happened, not the method’s name. Was its purpose explained? Did you agree? How did the practitioner respond to you? Discomfort alone doesn’t settle the question; treating every objection as proof you need more of the same deserves scrutiny. Ask the app or another informed person for explanation, without expecting a practitioner to be certified from a brief account. Self-hypnosis, combined work, or another practitioner remain your choices.
+Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, if they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was "bad," but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things they did meant. They probably won't be able to tell you if the person was "certified" in them or not, though. Then you can decide if you want to try learning to do self-hypnosis, using both, or find someone else. Those are all good options.
 
 ## When the subconscious speaks like an oracle
 
-The subconscious can notice things the conscious mind misses: anticipations, pattern reads, and sometimes something uncanny. Respect the signal without turning a vivid image or directive into an order.
+Your subconscious is amazing at picking up on things your conscious mind isn't getting. Whether it's anticipations, reading patterns, or just picking up on uncanny things, it's good to respect what your subconscious is picking up on. But just because your subconscious gives you an image or tells you to do something, that doesn't mean you need to treat it like an order.
 
-When the message has large or irreversible consequences, slow the action to the scale of those consequences, ask the adult questions, and bring the message to a council.
+Especially if it's a big thing, or something that can't be easily undone, slow it down to the scale of the thing. Look at it with your adult's eyes, and take it to council.
 
 ## The council — internal first, then outward
 
-The first council is internal: child and adult, conscious and subconscious, intuition and analysis. Reach outside when the message is bigger than those parts can hold alone. The larger and less reversible the move, the more seriously you seek other minds.
+Ask your child, your adult, your conscious mind, your subconscious mind, your intuition, your analytical mind. But if it's bigger than all of those, ask outside of yourself, too. The bigger and more un-undoable something is, the more you want to reach outside.
 
-Ask people who love you, like-minded people, or somebody who has walked the path. Going alone can be legitimate, but I’d make it the last step after counsel was genuinely sought.
+Ask people who love you, people who are like you, people who have done what you are thinking of doing. Sometimes it is right to go it alone, but I would suggest making it the last step, after you've tried to get council.
 
-The opposite danger is giving away your power. “Seek counsel” can quietly become “find an authority and obey.” Another person deserves neither automatic trust nor automatic dismissal.
+On the other hand, it is possible to give your power away. Seeking counsel can quietly turn into abdicating to an authority figure. Another person doesn’t get automatic trust, or automatic dismissal.
 
-Peer support can lend a different kind of help. In [Hearthwork](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), equal time, warmth, confidentiality, and respect for “no” let each person lend Nurturer and Protector without taking over the other’s Guide. Then you switch roles. A carefully timed question can help your own direction become audible; the peer doesn’t decide what the experience means.
+Sometimes you need the support of your peers. In [Hearthwork](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), the concept is that you give each other equal time, warmth, confidentiality, and acceptance of “no” as an answer, and you act for each other as Nurturer and Protector, but not as Guide. Then you reverse roles. Sometimes, with a question asked carefully and at the right time, your peers can help you hear your own Guide more clearly, but they don’t interpret what you experience.
 
 ## Forgiveness without bypass
 
-Forgiveness can’t be forced. It grows from understanding, and pushing it too early creates bypass. Staying angry forever can also let the injury keep governing the present. All of these can remain true together: the harm happened, the boundary still matters, the person remains accountable, and forgiveness may come later when your relationship to the event changes on its own.
+We can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.
 
-The understanding that helps me is seeing how conditioning, history, pain, and capacity shaped the harmful move. Given the total person they had become by that moment, the harmful move was the only one their accumulated nature had available. The harm remains real, and so do accountability, consequences, and the work of making a different response possible now. Understanding someone’s limitations should make expectations more realistic, not make the limitations less consequential.
+A helpful understanding to come to, is that while their actions were harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give. It doesn’t make their limitations matter any less.
 
-“You do not have to forgive before you are ready. I will not use spirituality to silence your pain. I will also not build our whole life around this wound forever.”
+“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”
 
-Questions for forgiveness without erasing anything:
+Some questions that may be helpful to ask when coming to a place of forgiveness, while still holding all of the above:
 
-“What happened?” “What was the impact?” “What boundaries are still needed?” “What shaped this person into someone capable of that harm?” “What belongs to them?” “What belongs to me?” “What does accountability require?” “What would release look like without denial?”
+What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?
 
-For self-forgiveness, name what you did without taking responsibility for what wasn’t yours. Let remorse register the harm or violation of your values without making the person who acted a permanent criminal. Then move through responsibility, remorse, rectify, release: name the action and impact; allow the remorse; repair or prevent repetition where possible; and stop holding yourself hostage after responsibility has been faced.
+For self-forgiveness, name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.
+
+Take responsibility, feel the remorse, then rectify if you can, and then let it go. Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage.
 
 # Appendix G: Altered states
 
@@ -1470,49 +1472,49 @@ Demons, jinn, hostile presences, and “Unattached Burdens” all lead to the sa
 
 # Appendix I: Sleep hypnosis
 
-For sleep hypnosis, use [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).
+* For sleep, try using [this playlist by Nimja](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT)
 
 # Appendix J: A practical induction library
 
-Preview the sequence, choose one purpose, and decide whether you want to begin. Each family can be light, eyes-open, or replaced by no-trance contact. Notice the actual response—including no change—and let it determine the next move. Move, imagine, change the sensory channel, remain still, or stop. Use the complete waking return after every induction.
+Practise! Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all! Any of these ‘families’ of induction can be done as light inductions, with eyes open, or instead of trance you can just do them as a contact. Once you start an induction, you will want to notice what’s going on (even if nothing changes) and work out what to do next, move, imagine something else, change the sensory channel you’re using, do nothing, stop the induction sequence and do something else… . Whatever you do, make sure you bring yourself fully back to waking at the end of an induction.
 
-If vivid images don’t come, translate the metaphor into words, rhythm, spatial sense, touch, movement, or simple knowing. The mind doesn’t owe anybody a movie.
+NB: if you can’t ‘see’ the images you’re trying to visualise, that’s fine, change them into words, rhythm, spatial relations, something to touch or move or just plain ‘knowing’… .
 
 ## 1. Stretch and release
 
-Feel the support beneath you and the position of one hand or foot. Press gently, stretch slightly, and release—or imagine it. Notice ease, tension, warmth, breath, or no change. Repeat with no more than three areas, letting “release” guide the sequence. Which area or inner voice wants attention? What support is needed? Restore ordinary movement and return.
+Stretch and Release: Work out what will be supporting you, focus on the feeling of support. You can also focus on where one of your hands or feet is. Either actually, or in your imagination, stretch a little bit, either stretching that part of your body slightly or pressing gently down into the support, and then let go of the effort, just relax. See if there is any difference, even if there isn’t. Do this for no more than 3 places on your body. Think of it as ‘releasing’ as you go through the sequence. Which bit of your body, or voice, needs this? What do you need to support it? Bring your body back to normal movement and return.
 
 ## 2. Supported floating
 
-Notice where your weight is carried. Let support carry 1% more effort, as if floating without losing contact, or keep ordinary weight and pressure. Notice the response. You may deliberately alternate attention toward ordinary awareness on the inhale and support on the exhale; name this fractionation beforehand. What becomes easier to hear? Keep the support, regain chosen weight and firm contact, then return.
+Supported Floating: Work out what is supporting you and where your weight is, imagine that the support is holding a tiny bit (1%) more of your effort. It’s like floating but you don’t have to lose contact, or just keep it at the same level, just enough weight/pressure. See what happens, you can fractionate this if you want, perhaps noticing your normal awareness when you breathe in and the support when you breathe out. Tell yourself you are going to do this before you do it. What can you hear more easily now? Bring yourself back to normal feeling of support and return.
 
 ## 3. Rhythmic breath or pulse
 
-Accompany a natural rhythm: breath, a comfortable hum, a finger tap, outside sound, or silent counting. No rhythm is also an option. Repeat “here, and here again,” noticing where attention lands between repetitions. Stop the deliberate rhythm and notice the first quiet beat, without trying to become blank. Is a word, feeling, need, or action clearer? Let ordinary rhythm resume and return.
+Rhythmic: Use your breathing or slightly hum in your throat to make a natural rhythm, or tap your finger or listen to sounds outside to make an artificial one. You can even do it by counting to yourself (silently) or with no rhythm at all. Tell yourself you are going to say “here, and here again” over and over, and notice what you pay attention to in between the phrases, then stop saying it. Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up. Does it make any words, feelings, needs or actions more clear? Bring back your normal rhythm and return.
 
 ## 4. Unwinding object
 
-Notice a concern with several strands. Imagine yarn unwinding, bubbles settling, or knots placed visibly beside you. Leave the object unchanged or label it in words when that fits better. Count only strands you actually set down; nothing is erased. Which needs warmth, protection, or action? Keep one useful strand, give the others a visible holding place, and return.
+Unwinding Object: Good for when you have a few different strands to one thing you want to work on. Imagine an object unwinding – maybe some yarn, some bubbles, or some knots that you place beside you. Once you’ve placed them all, give yourself a minute to look at them all, you don’t have to change anything, but you can label them if you need to (just a word or two). How many did you put down? Which one do you need to work on, what does it need – warmth, protection, action? Keep one strand in your attention and put the others somewhere you can see them and return.
 
 ## 5. Sensory journey
 
-Hear the actual room and feel the body before imagining a step toward a chosen destination. Use footsteps, textures, or landmarks to gather attention. Change scenery or skip directly to dialogue when useful. Notice a detail without assigning hidden meaning; the mystery is how the scene develops, not what will be done to you. Who or what needs to speak? Return by the same route and close the imagined space.
+Sensory Journey: Pay attention to the sounds in the room you’re in and how your body feels, then imagine yourself walking somewhere. Where do you want to go? Listen to the sounds of your footsteps and take in your surroundings as you walk, what do objects feel like if you touch them, what landmarks do you see? When you feel you have enough of your attention, imagine the scenery changing until you are in a place where you can talk to whoever you need to (or you can just cut to the chase, if you prefer). Pay attention to something without worrying about what it means. Allow yourself to be curious about what’s going to happen next, but don’t make it a “what are they going to do to you?” kind of thing. When you are ready to finish, imagine yourself walking back the way you came and close the space.
 
 ## 6. Gradual wave
 
-Start with a small neutral area and what is already there. Imagine warmth, steadiness, or attention spreading to the next comfortable area, or keep it localized. Pause at each step and notice what changes without claiming medical repair. Does the body want contact, space, words, or ordinary care? Let the image recede, feel the whole body and real contact points, and return.
+Gradual wave: start with a very small neutral area, feel into it a little and then imagine a wave spreading out to a new area that is still ok. Sense into the new area (or continue using the old). See if there is anything different at each step, without claiming it is a medical repair. Does the body want any contact, space, words, other care? Let the mental image go, sense your body, sense your contact points, come back.
 
 ## 7. Care workshop
 
-Prepare time, a place, tools, and boundaries for patient care. Let a signal, feeling, or younger state approach only as closely as welcome; choose language that doesn’t make you feel fragmented. Ask before responding, wait, reconnect only where welcome, rest, and reassess. An available inner adult or one borrowed function can help; you choose words, pace, and action. Aim for “good as you,” not erased history. Close the workspace, affirm wholeness and adult presence, and return.
+Care workshop: prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. Goal is to make it "good as you", not to erase history. Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.
 
 ## 8. Resource embodiment
 
-Choose qualities you understand: warmth, boundary, steadiness, curiosity, or dignity. Imagine posture, voice, or attention with 1% more access to one quality. Observe rather than embody it when preferred. Notice a movement, word, image, or no response. Repeat to strengthen access, not replace identity. How would that quality meet today’s situation? Keep the quality and one useful action, release the role, affirm “I am myself,” and return.
+Resource: pick a resource quality. Imagine yourself accessing 1% more of that quality (or just sense yourself). What is different? How is your body, voice, etc? Do this a few times to strengthen it. Come back, keeping the quality and one positive action that you would do with it, but leaving the "person" behind, saying "I am me".
 
 ## 9. No-trance inner contact
 
-Observable pacing: Keep the eyes open, name the room and day, feel the feet, and read or write in ordinary awareness. Invitation: Ask one clear question and wait without narrowing attention further. Genuine choice: Answer, write “unsure,” rest, change the question, seek another person’s view, or stop. Autonomous signal: Record a word, sensation, impulse, objection, or silence without interpreting it as proof. Deepener: None. Full alertness is not an inferior version of the practice. Handoff: Let the internal adult respond in writing or through one practical choice. Integration and exit: Reality-test the signal and do one small action. Because no altered state was cultivated, simply close the exercise and continue the day.
+For the no trance inner contact, I would do: Pacing: notice you can see, it's (day of the week), you have feet, you can read, you can write, etc. Suggestion: in your mind, ask one clear question and wait, but don't focus too hard. Choice: you can answer the question, write an answer, write that you don't know, take a break, rephrase the question, ask someone else, stop doing this, etc. Autonomous: write whatever you get. Deepener: none. Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing. Integration/exit: reality test the autonomous, do one small thing based on it, stop doing it.
 
 # Appendix K: Sources and further reading
 

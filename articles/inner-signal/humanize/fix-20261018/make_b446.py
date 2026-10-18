@@ -56,6 +56,9 @@ def band(w):
     return 0.70 if w < 80 else (0.77 if w < 120 else 0.79)
 
 
+PC = None  # set to tools/para_chance by a batch builder from 454g on (earlier builders keep the length bands)
+
+
 def para_items(key, md_source, base, why_of, seen, drafts, gate, preds, tag):
     md = I.section_md(md_source)
     for i, t, x in I.para_texts(md, seen):
@@ -64,8 +67,12 @@ def para_items(key, md_source, base, why_of, seen, drafts, gate, preds, tag):
         drafts[name] = x
         gate[name] = dict(base, paragraph=i + 1, check=kind)
         w = len(x.split())
-        preds[name] = ('Human', band(w), 'paragraph %d of %s (%s), %d words; %s; the community lane\'s rate for this length'
-                       % (i + 1, key, kind, w, why_of))
+        if PC:  # from 454g: the chance by how much of the text isn't Emulate's (tools/para_chance.py)
+            c, why = PC.chance(x)
+            preds[name] = ('Human', c, 'paragraph %d of %s (%s), %d words; %s; %s' % (i + 1, key, kind, w, why_of, why))
+        else:
+            preds[name] = ('Human', band(w), 'paragraph %d of %s (%s), %d words; %s; the community lane\'s rate for this length'
+                           % (i + 1, key, kind, w, why_of))
 
 
 def collect(only=None):
@@ -75,10 +82,13 @@ def collect(only=None):
     seen = set(PA.results(dirs))
     installed = json.loads((HERE / 'installed.json').read_text(encoding='utf-8'))
     drafts, gate, preds, held = {}, {}, {}, []
+    newest = {}  # a key's newest units file (rf-a, rf-b, ... in order): an older one is a superseded version (2026-10-18)
+    for uf in sorted(glob.glob(str(HERE / 'rf-*' / '*.units.json'))):
+        newest[json.loads(pathlib.Path(uf).read_text(encoding='utf-8'))['key']] = uf
     for uf in sorted(glob.glob(str(HERE / 'rf-*' / '*.units.json'))):
         d = json.loads(pathlib.Path(uf).read_text(encoding='utf-8'))
         key = d['key']
-        if (only and key not in only) or key in installed:
+        if (only and key not in only) or key in installed or newest.get(key) != uf:
             continue
         text = '\n\n'.join(p for u in d['units'] for p in u['paras'])
         s = sc.get(text)
@@ -108,6 +118,8 @@ def collect(only=None):
         fd = json.loads(fx.read_text(encoding='utf-8'))
         new_text = '\n\n'.join(p for u in fd['units'] for p in u['paras'])
         nm = key + '-rfix'
+        if nm in byname and json.loads((HERE / byname[nm][0] / 'drafts.json').read_text(encoding='utf-8')).get(nm) != new_text:
+            held.append((key, 'its newest %s (%s) is another version of the text' % (nm, byname[nm][0]))); continue
         if nm in byname:
             bb, v = byname[nm]
             if v[0].startswith('Human'):
