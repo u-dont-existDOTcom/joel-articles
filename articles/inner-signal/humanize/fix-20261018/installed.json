@@ -82,7 +82,8 @@
   "meaning": "rf-b/HG36.verify.part*.out.txt, triaged in rf-b/HG36.triage.json",
   "paragraphs": "450g",
   "fixed": "rf-b/HG36.fixed.json",
-  "installed": "2026-10-18, tools/install_fixed.py"
+  "installed": "2026-10-18, tools/install_fixed.py",
+  "open": "B10-B12 are in the article as published and were never checked: tools/refix_runs.py dropped them from the refix text (one emu-s segment per block; fixed 2026-10-18), so the whole and paragraph checks of 449g-450g ran without them. Repair: rf-p (their Emulate text, second reader, triage; and the text with them as published), both screened, then reinstalled"
  },
  "HG40": {
   "stage": "triaged",
@@ -170,6 +171,14 @@
   "meaning": "rf-a/HG35.verify.part*.out.txt and rf-j/HG35.verify.part1.out.txt, triaged in rf-a/HG35.triage.json and rf-f/HG35.review2.json",
   "paragraphs": "451g, 453g",
   "fixed": "rf-f/HG35.fixed2.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG02+03": {
+  "stage": "triaged",
+  "whole": "454g HG02+03-rfix (443g refix, then the triaged fixes of its second reading; Joel's table-of-contents note read Human this time)",
+  "meaning": "rf-i/HG02+03.verify.part1.out.txt, triaged by me in rf-i/HG02+03.triage.json (the Sonnet triage stopped at its output limit)",
+  "paragraphs": "454g",
+  "fixed": "rf-i/HG02+03.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

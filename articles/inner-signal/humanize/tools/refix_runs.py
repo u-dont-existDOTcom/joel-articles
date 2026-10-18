@@ -114,20 +114,51 @@ def assembled_fixed(fixed_path, refix_dirs):
     sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
     import assemble as A
     d = json.loads(pathlib.Path(fixed_path).read_text(encoding='utf-8'))
-    segs = A.run_segments(refix_dirs)
-    out, files, skip_to = [], set(), -1
-    for u in d['units']:
-        b0 = u['blocks'][0]
-        if b0 <= skip_to:
-            continue
-        sg = segs.get((d['key'], b0))
-        if sg:
-            out += sg[1]
-            files.add(sg[3])
-            skip_to = sg[0][-1]
-        else:
-            out += u['paras']
+    out, files = [], set()
+    for kind, u in _merge(d, A.run_segments(refix_dirs)):
+        out += u['paras'] if kind == 'base' else u[1]
+        if kind == 'seg':
+            files.add(u[3])
     return '\n\n'.join(out), sorted(files)
+
+
+def _merge(d, segs):
+    """[('base', unit) | ('seg', segment)] in order: each unit of a fixed section, or the refix segments that replace it.
+    A segment can cover one block of a stretch that was one unit (a run's output split one paragraph per block): then
+    every block of that unit must come from a segment, or the unit must have one paragraph per block so the blocks no
+    segment covers keep theirs. Anything else raises, instead of dropping the blocks after the first segment (until
+    2026-10-18 they were dropped: HG36 lost B10-B12 that way, HG24 B43, B44, B47 and B48)."""
+    key, out, skip_to = d['key'], [], -1
+    for u in d['units']:
+        bl = u['blocks']
+        if bl[-1] <= skip_to:
+            continue
+        mine, b = [], bl[0]
+        while b <= bl[-1]:
+            sg = segs.get((key, b))
+            if sg:
+                mine.append(sg); b = sg[0][-1] + 1
+            else:
+                b += 1
+        if not mine:
+            if bl[0] <= skip_to:
+                raise ValueError('%s: unit %s starts inside a segment that ends at B%d' % (key, bl, skip_to))
+            out.append(('base', u)); continue
+        cover = {x for sg in mine for x in sg[0]}
+        if set(bl) <= cover:
+            out += [('seg', sg) for sg in mine]
+        elif len(u['paras']) == len(bl):
+            for i, x in enumerate(bl):
+                sg = next((s for s in mine if s[0][0] == x), None)
+                if sg:
+                    out.append(('seg', sg))
+                elif x not in cover:
+                    out.append(('base', dict(u, blocks=[x], paras=[u['paras'][i]])))
+        else:
+            raise ValueError('%s: segments %s cover only part of unit %s, whose %d paragraphs don\'t line up with its blocks'
+                             % (key, [sg[0] for sg in mine], bl, len(u['paras'])))
+        skip_to = max(skip_to, max(cover))
+    return out
 
 
 def _nblocks(u):
@@ -167,16 +198,10 @@ def units_fixed(fixed_path, refix_dirs):
     sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
     import assemble as A
     d = json.loads(pathlib.Path(fixed_path).read_text(encoding='utf-8'))
-    segs = A.run_segments(refix_dirs)
-    out, skip_to = [], -1
-    for u in d['units']:
-        b0 = u['blocks'][0]
-        if b0 <= skip_to:
-            continue
-        sg = segs.get((d['key'], b0))
-        if sg:
-            out.append({'kind': 'emulate', 'blocks': sg[0], 'paras': sg[1], 'run': sg[2], 'file': sg[3], 'refix': True})
-            skip_to = sg[0][-1]
+    out = []
+    for kind, u in _merge(d, A.run_segments(refix_dirs)):
+        if kind == 'seg':
+            out.append({'kind': 'emulate', 'blocks': u[0], 'paras': u[1], 'run': u[2], 'file': u[3], 'refix': True})
         else:  # the fixed text is now the baseline: its review's fixes and verdicts stay in its own file
             out.append({k: v for k, v in u.items() if k not in ('fixes', 'verdict', 'redo', 'paras_was')})
     return {'key': d['key'], 'from': str(fixed_path), 'refix_dirs': [str(x) for x in refix_dirs], 'units': out}

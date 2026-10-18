@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ad/HG26-fxw1.txt",
+  "input_words": 109,
+  "input_sha256": "3e22a4586a3cef539cc3a5e1b31a9d4e5fec644d911378338b7d1732fc918a34",
+  "balance_before": 89548,
+  "started_utc": "2026-10-18T07:23:21Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:23:28Z",
+  "response": {
+    "id": "50bd2d72-2803-4408-8f06-21ea629ff5b2",
+    "tool": "humanize",
+    "text": "Things that this guide doesn’t work for\n\nRemember that this is self hypnosis, it’s between you and you. If it doesn’t feel like it’s between you and you, this is probably not the right guide.\n\nIf you feel like you need help now for any reason (you’re in imminent danger, very confused, unsure of how to keep yourself safe, having physical symptoms like chest pain or fainting, etc.), please get help now. If you have symptoms that would benefit from professional help soon (new/worsening suicidal thoughts, aren’t sleeping enough, new/worsening mania or psychosis, dissociative symptoms that are affecting your ability to function, etc.) this is probably not the right guide; it’s unlikely that those things will go away in 4-12 weeks.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 109
+    },
+    "elapsed": 7
+  },
+  "balance_after": 89439
+}

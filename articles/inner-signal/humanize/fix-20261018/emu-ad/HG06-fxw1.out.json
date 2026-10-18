@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ad/HG06-fxw1.txt",
+  "input_words": 64,
+  "input_sha256": "be62c159bfc92d95f75759a78d129ef2c28db3d61826ddaa217c36e65dc233b3",
+  "balance_before": 89612,
+  "started_utc": "2026-10-18T07:23:15Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:23:20Z",
+  "response": {
+    "id": "35f0e2d3-fc41-49fb-9754-2ddb012abbc8",
+    "tool": "humanize",
+    "text": "Why learn Self Hypnosis? There are already a lot of forces that are out to train your mind. By learning to be able to train your own mind using self hypnosis, you will be befriending an aspect of you that up until now may have been unknown to you, thereby giving you a whole new area of choice as an adult.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 64
+    },
+    "elapsed": 4
+  },
+  "balance_after": 89548
+}

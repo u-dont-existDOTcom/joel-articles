@@ -18,21 +18,19 @@ Substack kinda hides the table of contents until you move the mouse toward the l
 
 Hello Lovey Bunny!
 
-You were born with a mind that can dream, protect, analyze, imitate, love, remember, hide, reveal, and heal. Nobody taught its different layers how to speak to each other.
+Have you ever realized that you were born with an incredible brain/mind that has many layers of consciousness: dream, protect, analyze, imitate, love, remember, hide, show, heal, etc, etc?
 
-Instead, most of us learned to push through, suppress emotion, perform confidence, obey or rebel against authority, and call that adulthood. Meanwhile, the deeper mind kept running its own programs: the child wanting safety, the guard expecting danger, the body remembering what the intellect had explained away, the intuition speaking before language, and the fantasy trying to become guidance.
+Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, supress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind, body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
 
-A lot of hypnosis teaching treats the subconscious like a machine waiting for commands. That never did much for me. I get more from sitting down and listening until the scared kid, the guard, the body, the intuition, and the part trying to run Tuesday can all be heard without one of them seizing the microphone.
+While a lot of the teachings on hypnosis talk about the ‘subconscious mind’ like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.
 
-In this guide, self-hypnosis gathers attention until the conscious mind, subconscious, body, inner child, protectors, adult self, and Higher Self can participate in one honest inner meeting.
+I teach a self-hypnosis method that allows you to gather all of your attention and have your conscious mind, subconscious mind, body mind, inner child mind, protector part minds, adult mind and Higher Self be able to all hear and talk to each other.
 
-The method is simple: listen, warm, protect, clarify, reality-test, and act.
+“How do I do this?” you ask. Just listen. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic ‘trance experience’ to demonstrate the results of all parts of your mind talking to each other and trusting each other more.
 
-A dramatic trance is optional. The goal is a more trustworthy relationship with the whole mind, proven in ordinary life.
+I like to think of it like a ‘communion’ between all parts of our mind, where the conscious mind doesn’t have to shout from the roof top and the subconscious mind doesn’t have to manifest symptoms, dreams, cravings, day dreams and weird body signals in order to communicate.
 
-Communion is the closest word I have for that. The conscious mind stops shouting from the roof, and the subconscious no longer has to communicate only through symptoms, dreams, cravings, daydreams, and peculiar little body signals.
-
-I treat the subconscious as a living ecology of parts, memories, impulses, images, protections, and wisdom. I bring in [inner-child reparenting](http://innerchild.u-dont-exist.com/) because a wounded young part won’t be repaired by a clever suggestion. I begin with Higher Self or the universal heart when the system needs coherence, and separate into parts only when that helps. I borrow from prompt engineering because the shape of a question changes the kind of answer we can hear. And I include influence literacy because hypnosis is hardly the only thing hypnotizing us.
+I work with the subconscious as if it were a ecology, and often begin hypnosis working with the Higher Self (universal heart) and only separate into parts when needed. I combine this with [inner child reparenting](http://innerchild.u-dont-exist.com/) (a clever suggestion won’t heal a hurt young part), and also aspects of prompt engineering, as well as helping people to be literate in the domain of what’s hypnotizing them.
 
 # Quick start: do this first
 

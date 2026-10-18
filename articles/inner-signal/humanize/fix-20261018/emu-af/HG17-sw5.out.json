@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-af/HG17-sw5.txt",
+  "input_words": 54,
+  "input_sha256": "0c92f4874ba81b25c080bc44ae2ded033170ed1936dec4470e36fcdb5b30cede",
+  "balance_before": 88699,
+  "started_utc": "2026-10-18T07:52:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:52:13Z",
+  "response": {
+    "id": "be72129e-823c-445a-8d23-7651c3877a12",
+    "tool": "humanize",
+    "text": "Bring to mind and invite in the phrase you have chosen.\n\nYou may wish to close your eyes, or soften them, or keep them open whilst you do this. You might also wish to listen closely, or just keep some of the sound in the background whilst you proceed. All choices are up to you.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 54
+    },
+    "elapsed": 4
+  },
+  "balance_after": 88645
+}

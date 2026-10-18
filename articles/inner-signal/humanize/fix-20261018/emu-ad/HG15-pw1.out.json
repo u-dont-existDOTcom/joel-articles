@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ad/HG15-pw1.txt",
+  "input_words": 121,
+  "input_sha256": "d9acccc2c65a5fffabec944f99c401c0584d5c510247be1f5afa5da542ebf9ca",
+  "balance_before": 89398,
+  "started_utc": "2026-10-18T07:23:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:23:40Z",
+  "response": {
+    "id": "7ff5aa09-6606-44f2-83eb-4555384cfe0d",
+    "tool": "humanize",
+    "text": "You can rebel, but you can’t choose\n\nThe reason why you are like this is that you as a child did not spend enough time to discover what you like and want to try out, because you had to be focused on finding out what you should not do to avoid getting hurt and to maintain the bond. This is not literally meant, but a way of looking at it.\n\n1. Distance yourself for a certain time from the people or the group from which you are looking for the answer. Not for too long though, otherwise you are defeating the purpose of this exercise!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 121
+    },
+    "elapsed": 5
+  },
+  "balance_after": 89277
+}

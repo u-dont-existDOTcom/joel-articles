@@ -1,0 +1,44 @@
+{
+ "key": "HG15",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-a/HG15.fixed.json",
+ "units": [
+  {
+   "kind": "emulate",
+   "blocks": [
+    9,
+    10,
+    11
+   ],
+   "paras": [
+    "You can rebel, but you can’t choose",
+    "The reason why you are like this is that you as a child did not spend enough time to discover what you like and want to try out, because you had to be focused on finding out what you should not do to avoid getting hurt and to maintain the bond. This is not literally meant, but a way of looking at it.",
+    "1. Distance yourself for a certain time from the people or the group from which you are looking for the answer. Not for too long though, otherwise you are defeating the purpose of this exercise!"
+   ],
+   "refix": true,
+   "run": "HG15-pw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ad/HG15-pw1.out.txt",
+   "replaces_paras": [
+    8,
+    10
+   ]
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16,
+    17
+   ],
+   "paras": [
+    "When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground. A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!",
+    "Where am I betraying myself in order to belong?"
+   ],
+   "refix": true,
+   "run": "HG15-pw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ad/HG15-pw2.out.txt",
+   "replaces_paras": [
+    22,
+    23
+   ]
+  }
+ ]
+}

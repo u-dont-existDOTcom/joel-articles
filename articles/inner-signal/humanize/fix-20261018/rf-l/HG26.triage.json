@@ -1,0 +1,26 @@
+{
+ "key": "HG26",
+ "fixes": [
+  {
+   "block": 2,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B2: LOST \"concerning\" qualifier; any physical symptom now means get help now",
+     "replace": "if you are experiencing physical symptoms",
+     "with": "if you are experiencing concerning physical symptoms",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B2: SHIFT scope of \"new or worsening\" changed (now suicidal thoughts and manic/psychotic symptoms only)",
+   "why": "\"new or worsening\" is on suicidal thoughts and on manic or psychotic symptoms; severe insomnia and dissociation that impacts functioning are kept as published"
+  }
+ ],
+ "resample": [],
+ "note": "the best of three samples (emu-ac; emu-ad and emu-ae in rf-m, rf-n: 6 and 8 findings, several on the safety lists), triaged by me 2026-10-18"
+}

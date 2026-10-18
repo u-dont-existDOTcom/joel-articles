@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ae/HG26-fxw1.txt",
+  "input_words": 109,
+  "input_sha256": "3e22a4586a3cef539cc3a5e1b31a9d4e5fec644d911378338b7d1732fc918a34",
+  "balance_before": 89099,
+  "started_utc": "2026-10-18T07:23:53Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:24:01Z",
+  "response": {
+    "id": "b663ca53-c5b0-48d2-a6e2-0af5beec72d8",
+    "tool": "humanize",
+    "text": "If You Need More Support Than This Guide Can Provide\n\nThis is self hypnosis. It’s a relationship between you and you. Sometimes you need more support than that, and when you do, this isn’t the guide for you.\n\nHere are some cases where you should get help now: If you are in imminent danger of hurting yourself or others, if you’re very confused and not able to take care of yourself, or if you are experiencing physical symptoms such as chest pain or fainting. Here are some cases where you should get help soon: If you are experiencing new or increasing suicidal thoughts, if you aren’t sleeping at all, if you are experiencing new or increasing manic or psychotic symptoms, or if you are experiencing dissociative symptoms that impact your ability to function. These are not the kinds of things that are going to go away in 4-12 weeks.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 109
+    },
+    "elapsed": 7
+  },
+  "balance_after": 88990
+}

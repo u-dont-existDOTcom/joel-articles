@@ -28,7 +28,7 @@
    "paras": [
     "I speak here from experience.",
     "When you’re doing hypnosis, meditation, lucid dreaming, loveyhuasca-ing, going through a period of intense grief, praying, or whatever else may alter your consciousness, it’s possible you may run into something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter – it may be a voice or an image, and it does n’t just feel like an emotion or a younger part of you, but something that feels intrusive, hateful, seductive, mocking, etc.",
-    "First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what response makes you safer, clearer, more loving, more grounded, and less hooked."
+    "First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked."
    ],
    "run": "HG37-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
@@ -36,9 +36,9 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "B1: LOST the practical question's criteria (safer, clearer, more loving, more grounded, less hooked); 'best way' was left undefined",
+     "what": "B1: LOST the practical question's criteria (safer, clearer, more loving, more grounded, less hooked); 'best way' was left undefined; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
      "replace": "what is the best way to deal with them",
-     "with": "what response makes you safer, clearer, more loving, more grounded, and less hooked",
+     "with": "what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }
@@ -184,7 +184,7 @@
    ],
    "paras": [
     "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own lesser self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear…",
-    "Fear makes it a center of attention, and hatred gives it a hook in you. (Pride gives it an opponent, and panic gives it your nervous system.)",
+    "It becomes a center of attention if you fear it, and if you hate it you give it a hook in you. (If you’re proud you give it an opponent, and if you panic you give it your nervous system.)",
     "So the next time it comes up you can just say, “I see that there is no reason to hate and revile what I am experiencing. I see that there is no reason to merge with or become what I am experiencing. I see that there is no reason to obey what I am experiencing. I see that there is no reason to try to defeat what I am experiencing out of fear. I choose to return my attention to loving awareness.”"
    ],
    "run": "HG37-fxw1",
@@ -193,17 +193,17 @@
    "fixes": [
     {
      "type": "WRONG",
-     "what": "B15: WRONG 'only becomes a center of attention if you hate it' (fear gives it center stage, hatred the hook; 'only' added); also B15: UNCLEAR the sentence breaking off at 'out of fear', since the claim that fighting from fear puts it at the center of attention is now stated right after it",
+     "what": "B15: WRONG 'only becomes a center of attention if you hate it' (fear gives it center stage, hatred the hook; 'only' added); also B15: UNCLEAR the sentence breaking off at 'out of fear', since the claim that fighting from fear puts it at the center of attention is now stated right after it; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
      "replace": "It only becomes a center of attention if you hate it and therefore give it a hook in you.",
-     "with": "Fear makes it a center of attention, and hatred gives it a hook in you.",
+     "with": "It becomes a center of attention if you fear it, and if you hate it you give it a hook in you.",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     },
     {
      "type": "LOST",
-     "what": "B15: LOST 'pride gives it an opponent' and 'panic gives it the nervous system'; also B15: UNCLEAR the parenthetical 'To counter pride, or to feel you must panic and defeat it'",
+     "what": "B15: LOST 'pride gives it an opponent' and 'panic gives it the nervous system'; also B15: UNCLEAR the parenthetical 'To counter pride, or to feel you must panic and defeat it'; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
      "replace": "To counter pride, or to feel you must panic and defeat it.",
-     "with": "Pride gives it an opponent, and panic gives it your nervous system.",
+     "with": "If you’re proud you give it an opponent, and if you panic you give it your nervous system.",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }

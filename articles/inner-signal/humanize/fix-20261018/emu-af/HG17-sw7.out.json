@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-af/HG17-sw7.txt",
+  "input_words": 67,
+  "input_sha256": "0529319cf5597c86bfc1c1395c328acbe648c684da51b01d622919d7762761d8",
+  "balance_before": 88588,
+  "started_utc": "2026-10-18T07:52:18Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:52:23Z",
+  "response": {
+    "id": "ef0d3246-b365-4876-8bd6-69acda1dc597",
+    "tool": "humanize",
+    "text": "Bring to mind lightly your chosen concern. If all you can bring to mind is the wish to contact it, that's enough.\n\nWhat do you notice now?\n\nAllow yourself some time to notice whatever comes. It could be sensations, words, images, feelings, movements or nothing, for all you know right now.\n\nAllow yourself some time to notice whatever is here now, with or without words.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 67
+    },
+    "elapsed": 4
+  },
+  "balance_after": 88521
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ad/HG15-pw2.txt",
+  "input_words": 114,
+  "input_sha256": "878a19d7b4b51d74d62f2732c5d2c8d377ae78b4a827a39c6fecfb8ff6512861",
+  "balance_before": 89277,
+  "started_utc": "2026-10-18T07:23:41Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:23:47Z",
+  "response": {
+    "id": "011c2d07-7a5d-4204-bc32-a2eaf67a2f72",
+    "tool": "humanize",
+    "text": "When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground. A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!\n\nWhere am I betraying myself in order to belong?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 114
+    },
+    "elapsed": 5
+  },
+  "balance_after": 89163
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-af/HG17-sw2.txt",
+  "input_words": 77,
+  "input_sha256": "2d4b5d865e37018eec932a27d3a58496c5d144d7f040d4f777212dd2362ecd88",
+  "balance_before": 88908,
+  "started_utc": "2026-10-18T07:51:51Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:51:57Z",
+  "response": {
+    "id": "2071ef04-3791-4bca-8bb7-fbc7c4ae9be1",
+    "tool": "humanize",
+    "text": "And now perhaps allow your eyes to settle, just gaze on something in the room.\n\nAnd as you are noticing something beneath you, notice the feel of that contact, and while you are noticing the feel of the contact, perhaps a sound will grab your attention, or the feeling of your breath,",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 77
+    },
+    "elapsed": 6
+  },
+  "balance_after": 88831
+}

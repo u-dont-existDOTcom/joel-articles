@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-af/HG17-sw6.txt",
+  "input_words": 57,
+  "input_sha256": "61b45e8e61ab8174b34317e2b2af6c9ecc340ba0fe2aa2d5bdd201be18bbfd47",
+  "balance_before": 88645,
+  "started_utc": "2026-10-18T07:52:14Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:52:17Z",
+  "response": {
+    "id": "8e6c5778-b480-4cec-8005-ab974c09f93f",
+    "tool": "humanize",
+    "text": "Take a moment to count from 5 to 1.\n\nAs you count to 5, perhaps you can notice your anchor again, 4, notice it, 3 (pause), 2 listen to the space, 1",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 3
+  },
+  "balance_after": 88588
+}

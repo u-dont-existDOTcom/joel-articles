@@ -1,0 +1,119 @@
+[
+ {
+  "key": "HG17",
+  "sent": [
+   16,
+   17
+  ],
+  "flagged": [
+   17
+  ],
+  "headings": [
+   16
+  ],
+  "words": 82,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json",
+  "run": "HG17-sw1"
+ },
+ {
+  "key": "HG17",
+  "sent": [
+   18,
+   19
+  ],
+  "flagged": [
+   18,
+   19
+  ],
+  "headings": [],
+  "words": 77,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json",
+  "run": "HG17-sw2"
+ },
+ {
+  "key": "HG17",
+  "sent": [
+   20,
+   21
+  ],
+  "flagged": [
+   20,
+   21
+  ],
+  "headings": [],
+  "words": 55,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json",
+  "run": "HG17-sw3"
+ },
+ {
+  "key": "HG17",
+  "sent": [
+   22,
+   23
+  ],
+  "flagged": [
+   22,
+   23
+  ],
+  "headings": [],
+  "words": 77,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json",
+  "run": "HG17-sw4"
+ },
+ {
+  "key": "HG17",
+  "sent": [
+   24,
+   25
+  ],
+  "flagged": [
+   24,
+   25
+  ],
+  "headings": [],
+  "words": 54,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json",
+  "run": "HG17-sw5"
+ },
+ {
+  "key": "HG17",
+  "sent": [
+   26,
+   27
+  ],
+  "flagged": [
+   26,
+   27
+  ],
+  "headings": [],
+  "words": 57,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json",
+  "run": "HG17-sw6"
+ },
+ {
+  "key": "HG17",
+  "sent": [
+   28,
+   29,
+   30,
+   31
+  ],
+  "flagged": [
+   28,
+   29,
+   30,
+   31
+  ],
+  "headings": [],
+  "words": 67,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json",
+  "run": "HG17-sw7"
+ }
+]

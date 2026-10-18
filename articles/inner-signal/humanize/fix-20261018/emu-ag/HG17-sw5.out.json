@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ag/HG17-sw5.txt",
+  "input_words": 54,
+  "input_sha256": "0c92f4874ba81b25c080bc44ae2ded033170ed1936dec4470e36fcdb5b30cede",
+  "balance_before": 88230,
+  "started_utc": "2026-10-18T07:52:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:52:53Z",
+  "response": {
+    "id": "17c726fd-c0c2-4ebd-9281-853f556e0e93",
+    "tool": "humanize",
+    "text": "Take the phrase you have chosen and let it come to mind. Perhaps say it as an invitation and feel how it is received.\n\nYou may close your eyes, soften them, or continue with them open. Perhaps allow yourself to listen more deeply to what is happening for you, allowing some of what is happening in the room as background to your exploration.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 54
+    },
+    "elapsed": 4
+  },
+  "balance_after": 88176
+}

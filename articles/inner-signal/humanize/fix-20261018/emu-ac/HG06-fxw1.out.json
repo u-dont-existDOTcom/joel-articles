@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ac/HG06-fxw1.txt",
+  "input_words": 64,
+  "input_sha256": "be62c159bfc92d95f75759a78d129ef2c28db3d61826ddaa217c36e65dc233b3",
+  "balance_before": 90602,
+  "started_utc": "2026-10-18T07:22:16Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:22:20Z",
+  "response": {
+    "id": "1618958c-5fce-4f26-a2fb-e7fe554f3f09",
+    "tool": "humanize",
+    "text": "As you're certainly aware there are many, many forces at work in the world that are trying to train your mind in ways that benefit them. With self-hypnosis you can do much of the same thing from the inside, by befriending and communicating with the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 64
+    },
+    "elapsed": 4
+  },
+  "balance_after": 90538
+}

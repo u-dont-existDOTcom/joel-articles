@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-af/HG17-sw1.txt",
+  "input_words": 82,
+  "input_sha256": "0b06b8efc6e5107e561c46326e78a0f4deeb9f23b470e2e45f0456f69abf03d2",
+  "balance_before": 88990,
+  "started_utc": "2026-10-18T07:51:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:51:50Z",
+  "response": {
+    "id": "8c7a18ff-c74a-4dc7-b496-913ce4089b19",
+    "tool": "humanize",
+    "text": "Sober induction: 3–5 minutes\n\nPractise reading the following slowly into a recorder, or reading it aloud, or if you can learn it and use silent words. Choose to use one of the three anchors - sound, bodily contact or two hands - throughout and choose an opening phrase. Whenever the words below refer to ‘the anchor’ use the one you’ve chosen. Pause for a few moments at the end of each paragraph. Don’t read aloud the instructions for how to do the reading.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 82
+    },
+    "elapsed": 5
+  },
+  "balance_after": 88908
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ac/HG31-fxw1.txt",
+  "input_words": 72,
+  "input_sha256": "e4706e031e535e90691bdef6ced4db1c8ab451f6d04a9a840553fc60d2fbadb0",
+  "balance_before": 90674,
+  "started_utc": "2026-10-18T07:22:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:22:15Z",
+  "response": {
+    "id": "9ce8699a-dd58-4262-9e59-2e07b6075ec4",
+    "tool": "humanize",
+    "text": "Reframing — changing the meaning without lying\n\nWhen I'm trying to reframe something, and I find that I'm doing it dishonestly, it's usually because I'm trying to convince myself that the issue or problem is actually a good thing. Some other questions that I might ask myself are: What else might be true here? What else might this be about? How might my Nurturer reframe this? How might my Protector reframe this? How might my Leader reframe this? And so on.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 72
+    },
+    "elapsed": 5
+  },
+  "balance_after": 90602
+}

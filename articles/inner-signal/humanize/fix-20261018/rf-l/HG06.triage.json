@@ -1,0 +1,42 @@
+{
+ "key": "HG06",
+ "fixes": [
+  {
+   "block": 6,
+   "problems": [
+    {
+     "type": "INVENTED",
+     "what": "B6: INVENTED forces \"trying to train\" the mind \"in ways that benefit them\" (intent and self-interest; published says \"already training\")",
+     "replace": "that are trying to train your mind in ways that benefit them",
+     "with": "that are already training your mind",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"listening closely\" became \"communicating with\"",
+     "replace": "befriending and communicating with",
+     "with": "befriending and listening to",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B6: LOST the nine named forces (advertising, fear, craving, screens, tribe, resentment, authority, loneliness, repetition)",
+   "why": "the list is dropped, the point kept (forces already train the mind; self-hypnosis works from inside). Four samples dropped it and my fix with it read AI alone (453g): flagged for Joel in the report"
+  },
+  {
+   "finding": "B6: SHIFT \"deeper layers\" became singular \"the deeper part of your mind\"",
+   "why": "wording: \"the deeper part of your mind\" for \"the deeper layers\""
+  },
+  {
+   "finding": "B6: SHIFT \"making adult choice more available\" became \"a whole new area of choice\", now a result of befriending",
+   "why": "\"a whole new area of choice for you as an adult\" keeps adult choice"
+  }
+ ],
+ "resample": [],
+ "note": "the best of three samples (emu-ac; emu-ad and emu-ae in rf-m, rf-n), triaged by me 2026-10-18"
+}

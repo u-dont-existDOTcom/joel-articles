@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ag/HG17-sw3.txt",
+  "input_words": 55,
+  "input_sha256": "19cb59ce5eab8ce8e33cb17d50bc2eaffe36270a8ea3ddb9caa06ef35ffba8f4",
+  "balance_before": 88362,
+  "started_utc": "2026-10-18T07:52:38Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:52:42Z",
+  "response": {
+    "id": "750f5f11-473e-474d-a091-bbc8a393073e",
+    "tool": "humanize",
+    "text": "Is there time for you to do this?\n\nSee if there’s a thought there, it may be a thought about something that happened during the day, or it may be a thought about how you should be doing this. See if you can bring your attention back to the anchor, even if there is a thought there.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 55
+    },
+    "elapsed": 4
+  },
+  "balance_after": 88307
+}
