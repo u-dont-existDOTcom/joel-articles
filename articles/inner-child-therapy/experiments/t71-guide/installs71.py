@@ -370,3 +370,8 @@ def u10ef():
 
 
 register('u10-ef', WAVF_P3_END, u10ef)
+
+
+# 2026-10-18, round t71ppp: TF-U11 with the paper's own answer (predictable situations, a real chance to learn them) in
+# place of the two checks the repeats check found told again next door; tf11-j, without them, read AI alone (t71ooo).
+register('tf11-k', lambda: draft('tf11-h'), lambda: draft('tf11-k'))
