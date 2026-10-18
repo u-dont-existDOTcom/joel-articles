@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG27-r1.txt",
+  "input_words": 108,
+  "input_sha256": "a97813e22c9e9b3b59efc145306bb3cfd01b01cdf78a502cf6a2240a312f2321",
+  "balance_before": 160319,
+  "started_utc": "2026-10-18T02:48:12Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:48:19Z",
+  "response": {
+    "id": "73bf1b04-56c9-45c2-bf99-658a86c2367c",
+    "tool": "humanize",
+    "text": "Closing\n\nMost of these things will become easier once you stop being afraid of your subconscious and your body, and when you stop fighting your analytical mind or whatever protector is up at the time.\n\nAlso, I’m far more concerned about you becoming a trustworthy adult than about how deep you can go into hypnosis.\n\nThen listen to her when she wants to come closer. It’s easiest if you keep some of your promises to her, too, because then the guards can relax a bit. Work on loving yourself, so that your thought processes don’t fight it, and work on thinking about yourself, so that your love doesn’t slip off into fantasy. Work on applying this to your regular life, too, so that your adult can keep the promise.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 108
+    },
+    "elapsed": 7
+  },
+  "balance_after": 160211
+}

@@ -1,0 +1,275 @@
+[
+ {
+  "run": "HG01-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG02_03-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG04-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG06-r1",
+  "key": "HG06",
+  "status": "ok",
+  "pairs": [
+   {
+    "block": 1,
+    "old": "Hypnotism can happen in a therapist’s office. It also happens through music, marketing, religious ritual, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, belonging, fatigue, love, trauma, and beauty.",
+    "new": "Hypnotism can happen in a controlled environment with a therapist, but it can also be utilized through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc."
+   },
+   {
+    "block": 2,
+    "old": "Influence doesn’t wait for the conscious mind to sign a form. Marketers and interface designers know this perfectly well. The FTC’s report on dark patterns describes designs that trick or manipulate consumers, while the OECD describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+    "new": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers have been using these techniques for years, and the practice has even come under scrutiny by regulatory bodies. In the Federal Trade Commission’s report on “dark patterns,” they refer to “design patterns that have been designed to trick or manipulate users into doing things that they might not otherwise do.” The Organisation for Economic Co-operation and Development (OECD) refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”"
+   },
+   {
+    "block": 3,
+    "old": "Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.",
+    "new": "Consciously or unconsciously, emotionally or legally, there are a lot of ways to gain someone’s consent, or influence their mind, even if they are a fully grown adult."
+   },
+   {
+    "block": 4,
+    "old": "A line associated with the Silva Mind Control tradition says it plainly:",
+    "new": "As the practitioners of the Silva Method of Mind Control say,"
+   },
+   {
+    "block": 5,
+    "old": "“If you don’t learn to control your mind, someone else will!”",
+    "new": "“If you don’t learn to control your mind, someone else will!”"
+   },
+   {
+    "block": 6,
+    "old": "Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. Self-hypnosis lets you practice from inside it: befriending the deeper layers, listening closely, and making adult choice more available.",
+    "new": "Since there are a lot of forces out there trying to train your mind, via ads, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition, you can use self-hypnosis techniques to learn to befriend your deeper mind, and choose things for yourself as a fully conscious adult."
+   }
+  ]
+ },
+ {
+  "run": "HG07-r1",
+  "key": "HG07",
+  "status": "ok",
+  "pairs": [
+   {
+    "block": 3,
+    "old": "Do not let any strong state, charismatic person, sexual charge, spiritual claim, or authority figure replace the adult self. Legitimate influence can survive questions, sleep, boundaries, and time.",
+    "new": "Under no circumstances allow a strong emotional state, charismatic individual, sexual charge, spiritual experience, or other authority to replace the adult part of yourself. All legitimate forms of influence can stand up to scrutiny."
+   }
+  ]
+ },
+ {
+  "run": "HG10-r1",
+  "key": "HG10",
+  "status": "ok",
+  "pairs": [
+   {
+    "block": 1,
+    "old": "Hypnosis has real evidence, although it doesn’t have magical evidence. A 2024 overview of 49 meta-analyses, covering 261 distinct primary studies, found the strongest support in pain, medical procedures, and work with children and adolescents. The quality still varied by outcome and study design.",
+    "new": "Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview of 49 meta analyses containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality."
+   },
+   {
+    "block": 2,
+    "old": "Self-hypnosis has its own evidence. A systematic review of randomized controlled trials reported benefits in studies involving pain, childbirth, pediatric applications, stress, and anxiety. It appeared more useful when people learned it as a real self-directed skill and practiced it several times, rather than merely pressing play on an audio file.",
+    "new": "Is there evidence for Self-Hypnosis? Yes. There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, child birth, pediatric, stress, anxiety etc. Self-hypnosis tends to be more useful when done as a real self-skill several times, not just listening to an audio file."
+   },
+   {
+    "block": 3,
+    "old": "That distinction matters here. I want you to learn an inner skill, not become a consumer of increasingly elaborate trance recordings.",
+    "new": "Here I will be teaching you a real self-skill, not just asking you to buy more audio trance files."
+   },
+   {
+    "block": 4,
+    "old": "Clinical caution still matters. Mayo Clinic warns that hypnosis used around stressful earlier-life events can trigger strong emotional reactions, and that other treatments may fit historical trauma work better.",
+    "new": "Mayo Clinic cautions that if you use hypnosis in the context of stressful past life events and have strong reactions to this, then hypnosis may not be the best treatment to deal with historical trauma, other treatments may be more suitable."
+   },
+   {
+    "block": 5,
+    "old": "Use self-hypnosis for regulation, dialogue, reparenting, clarity, habit change, present safety, emotional integration, and ordinary-life action.",
+    "new": "Use Self-Hypnosis for: regulation, dialogue, reparenting, clarity, habit change, present life safety, emotional integration, present life action"
+   },
+   {
+    "block": 6,
+    "old": "Do not use it to force trauma memories, prove what happened, suppress medical symptoms, destabilize yourself, or replace appropriate clinical care.",
+    "new": "Don't use Self-Hypnosis for: forcing trauma memories, proof of trauma memories, suppressing medical symptoms, destabilizing yourself, instead of correct treatment"
+   }
+  ]
+ },
+ {
+  "run": "HG11-r1",
+  "key": "HG11",
+  "status": "ok",
+  "pairs": [
+   {
+    "block": 1,
+    "old": "“Syncing the hemispheres” can be a useful description of how the state feels, but I wouldn’t turn it into literal neuroscience. A large resting-state fMRI study of 1,011 people didn’t support the pop-science picture of whole people being globally “left-brained” or “right-brained,” even though particular functions and networks can be lateralized.",
+    "new": "I put the phrase syncing the hemispheres in quotation marks because I don’t want to over-interpret what is going on neuroscientifically. It’s a very useful description but a large resting state fMRI study of 1011 people did not support the common pop- neuropsychological notion that people in general can be left or right brained, although there is certainly evidence for the lateralization of some functions or networks."
+   },
+   {
+    "block": 2,
+    "old": "You’re inviting the verbal, analytical, imaginal, emotional, somatic, intuitive, relational, and spiritual modes to cooperate. Nobody needs to win a hemisphere election.",
+    "new": "The invitation is to elicit a high level of cooperation between the verbal, analytical, imaginal, emotional, somatic, intuitive, relational, spiritual and whatever other modes you want to include. It’s not an electoral process; nobody needs to win!"
+   },
+   {
+    "block": 3,
+    "old": "The loving mind stays warm while the analytical mind stays bright. The intuitive mind offers signals without becoming dogma. The rational mind tests signals without killing them. The body gives yes, no, and not-yet. The imagination opens the field. The adult self chooses the next real action. Peace and precision become compatible.",
+    "new": "The mind of love retains its warmth, the mind of analysis its brightness. The mind of intuition is neither denied nor accepted dogmatically. The mind of rationality is neither destructive nor inhibited. The body has a voice- it can say yes, no or not yet. The imagination has opened the field and the adult can choose how to act. There is peace but there is also precision."
+   },
+   {
+    "block": 4,
+    "old": "Love can drift into fantasy without analysis. Analysis can become sterile without love. Intuition can become delusion when nothing tests it; testing can become dead when nothing intuitive is allowed to speak. Let the modes correct each other.",
+    "new": "Love without analysis becomes fantasy, analysis without love becomes sterile. Intuition without testing becomes delusion; testing without intuition becomes dead. These modes can each serve to modify the others."
+   },
+   {
+    "block": 5,
+    "old": "A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+    "new": "And of course it’s got to be a powerful state that leads to greater goodness in your life!"
+   }
+  ]
+ },
+ {
+  "run": "HG12-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG12-r2",
+  "status": "no output"
+ },
+ {
+  "run": "HG13-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG14-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG15-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG16-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG17-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG18-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG19-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG20-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG21-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG22-r1",
+  "key": "HG22",
+  "status": "ok",
+  "pairs": [
+   {
+    "block": 1,
+    "old": "Once or twice a week, give the same practice more time when that is useful. More time needn’t mean greater intensity. Start from Higher Self or neutral witnessing, follow what appears, borrow an adult function when needed, and ask whether anything important is being bypassed. Leave room for the full exit and any ordinary action needed afterward.",
+    "new": "Practise this once or twice a week and spend a bit more time with it if that would be useful but don’t make the practice any stronger. Whenever it is useful just access Higher Self, or if that is not possible go to a neutral witnessing place and let it unfold, using any adult function that is necessary to recognise any bypassing that may be going on and always allowing for a full exit and any necessary normal action."
+   },
+   {
+    "block": 2,
+    "old": "Do the ordinary action immediately when possible. That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.",
+    "new": "Wherever possible take any normal action immediately afterwards to impress on the subconscious that something has changed, otherwise it may think that because the dishes have not been done, despite all the internal meetings to do the dishes, that there is no point in doing them."
+   }
+  ]
+ },
+ {
+  "run": "HG23-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG24-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG25-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG26-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG27-r1",
+  "key": "HG27",
+  "status": "ok",
+  "pairs": [
+   {
+    "block": 1,
+    "old": "The subconscious isn’t the enemy. Neither are the body, the sharp analytical mind, or the protector that has been braced for years. Most of them have been trying to help without ever being properly introduced.",
+    "new": "Most of these things will become easier once you stop being afraid of your subconscious and your body, and when you stop fighting your analytical mind or whatever protector is up at the time."
+   },
+   {
+    "block": 2,
+    "old": "I’m less interested in how deeply you can get hypnotized than whether you become an adult you can trust.",
+    "new": "Also, I’m far more concerned about you becoming a trustworthy adult than about how deep you can go into hypnosis."
+   },
+   {
+    "block": 3,
+    "old": "Listen until the kid is willing to come closer. Keep enough small promises that the guards can occasionally sit down. Love yourself enough that thought stops bracing against tenderness, and think clearly enough that love doesn’t drift into fantasy. Then take the practice back into ordinary life, where the adult keeps the promise.",
+    "new": "Then listen to her when she wants to come closer. It’s easiest if you keep some of your promises to her, too, because then the guards can relax a bit. Work on loving yourself, so that your thought processes don’t fight it, and work on thinking about yourself, so that your love doesn’t slip off into fantasy. Work on applying this to your regular life, too, so that your adult can keep the promise."
+   }
+  ]
+ },
+ {
+  "run": "HG28-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG29_30-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG31-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG32-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG33-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG34-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG35-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG36-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG37-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG38_39-r1",
+  "status": "no output"
+ },
+ {
+  "run": "HG40-r1",
+  "status": "no output"
+ }
+]

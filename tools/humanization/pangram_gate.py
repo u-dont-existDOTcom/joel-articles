@@ -47,6 +47,19 @@ paragraphs that the sweep's fixes changed with no break, and their installed ver
 though each of those had read Human alone and in its section; the draft rule would have had every one of them
 rewritten to add a break.
 
+An Emulate text (2026-10-18) is made only of Emulate's output as it came back and the published text, no word of mine:
+{"kind": "emulate", "emulate": ["path/to/run.out.txt", ...], "published": "path/to/published.md", "lint": "REVIEW"}. The gate
+checks that every block of it (the text between blank lines) is a block of one of those files, and lints it. It goes to
+Pangram without a march read: the march steers my own drafting, and Emulate's output can't be given a break without
+putting my words into it (the queue's directive: "Never edit Emulate's output with your own words"), so a march with no
+break would make an output unusable before Pangram ever saw it (Joel, 2026-10-18 01:29 UTC: "your mission is to improve
+the scorecard especially for predictions and fixes, as well as the speed of fixing"). Like a screen it is never
+installed and never part of a section check until it has its meaning reviews: "cold": "OK", "grounding": "OK" (every
+point of the published text kept, nothing invented), "stance": 0 and "missing": []. The linter runs on it and its verdict
+is kept, but a FAIL doesn't stop the call: the linter's tells were found in my sentences, the guide's own lists carry its
+meaning (the first six Emulate texts, 2026-10-18: four FAILs, each on a list Emulate kept from the published text), and
+Pangram is the test that costs a credit; whether the linter predicts Pangram on Emulate's text is what the record shows.
+
 A baseline (2026-10-18) is a published text checked as it stands, before any of it is rewritten:
 {"kind": "baseline", "source": "source/published-20260928.md, SHA-256 3b5cb6cc..."}. It needs only its source.
 
@@ -91,6 +104,15 @@ def problems(key, gate, seen=()):
     kind = g.get('kind')
     if kind == 'owner':
         return [] if g.get('joel') else ["an owner text needs 'joel': where his words come from"]
+    if kind == 'emulate':
+        out = []
+        if not g.get('emulate'):
+            out.append("an Emulate text needs 'emulate': the run output files its blocks come from")
+        if not g.get('_blocks_ok'):
+            out.append('its blocks are not all from the named Emulate outputs and the published text (main() checks this)')
+        if not g.get('lint') or str(g.get('lint')).upper() not in ('CLEAR', 'REVIEW', 'FAIL'):
+            out.append('linter: %r (run it: pass --lint-article, so its verdict is recorded)' % (g.get('lint'),))
+        return out
     if kind == 'baseline':
         # 2026-10-18: a new article's published text, checked as it stands before anything in it is rewritten (the hypnosis
         # guide, after Joel's 01:29 UTC "let's move onto the next article in the queue"). Nothing in it is mine, so there is
@@ -105,7 +127,16 @@ def problems(key, gate, seen=()):
                        "every repeat, then \"repeats\": 0 (or \"joel: ...\" for repeats he chose to keep). E172; Joel, "
                        "2026-10-13: \"duplication is very AI we already knew that but you're not checking that well enough\"")
         for p in parts:
-            if p != 'installed' and (gate.get(p) or {}).get('kind') == 'screen':
+            pg = gate.get(p) or {}
+            if p != 'installed' and pg.get('kind') == 'emulate':
+                miss = [f for f, want in (('cold', 'OK'), ('grounding', 'OK'), ('stance', 0), ('missing', [])) if pg.get(f) != want]
+                if miss:
+                    out.append('part %s is an Emulate text without its meaning reviews (%s): it can be part of a section '
+                               'check once they are done' % (p, ', '.join(miss)))
+                if p not in seen:
+                    out += ['part %s: %s' % (p, q) for q in problems(p, gate, seen + (key,))]
+                continue
+            if p != 'installed' and pg.get('kind') == 'screen':
                 out.append('part %s is a screen: it needs its meaning reviews (a draft record) before it can be part '
                            'of a section check (E175)' % p)
             elif p != 'installed' and p not in seen:
@@ -126,7 +157,7 @@ def problems(key, gate, seen=()):
             out.append('linter: %r (run it; a FAIL means rewrite)' % (g.get('lint'),))
         return out
     if kind not in ('draft', 'edit'):
-        return ['kind must be draft, edit, screen, owner, baseline or section, not %r' % (kind,)]
+        return ['kind must be draft, edit, screen, emulate, owner, baseline or section, not %r' % (kind,)]
     out = []
     march = g.get('march') or []
     if not march:
@@ -177,6 +208,44 @@ def problems(key, gate, seen=()):
         elif v != good:
             out.append('%s: %r (%s before any Pangram call)' % (field, v, need))
     return out
+
+
+def emulate_blocks_ok(text, g, base):
+    """Every blank-line block of TEXT is a block of one of g['emulate']'s files or of g['published'] (headings may
+    have lost their #, and list marks may have been taken off). Paths are from the repository root or from BASE."""
+    import re
+    def blocks_of(path):
+        f = pathlib.Path(path)
+        if not f.is_file():
+            f = base / path
+        if not f.is_file():
+            root = pathlib.Path(__file__).resolve().parents[2]
+            f = root / path
+        if not f.is_file():
+            return None
+        t = f.read_text(encoding='utf-8')
+        out = set()
+        for b in re.split(r'\n\s*\n', t):
+            b = b.strip()
+            if not b:
+                continue
+            out.add(b)
+            p = re.sub(r'^#{1,6}\s+', '', b)
+            p = re.sub(r'\[([^\]]+)\]\((?:[^()\s]|\([^()\s]*\))*\)', r'\1', p).replace('*', '')
+            p = re.sub(r'(?m)^>\s?', '', p)
+            p = re.sub(r'(?m)^\s*(?:[-*+]|\d+[.)])\s+', '', p)
+            out.add(re.sub(r'[ \t]+', ' ', p).strip())
+        return out
+    allowed = set()
+    for path in list(g.get('emulate') or []) + ([g['published']] if g.get('published') else []):
+        bs = blocks_of(path)
+        if bs is None:
+            return False, 'no such file: %s' % path
+        allowed |= bs
+    stray = [b for b in (x.strip() for x in re.split(r'\n\s*\n', text)) if b and b not in allowed]
+    if stray:
+        return False, '%d block(s) are in neither the Emulate outputs nor the published text, first: %r' % (len(stray), stray[0][:80])
+    return True, ''
 
 
 def is_cut(new, old):
@@ -318,7 +387,7 @@ def main(argv=None):
     # The linter takes about 5 seconds a text, so the texts are linted side by side (2026-10-17, turn 65: Joel asked
     # for the work to go faster). A record's own "lint_article" is the article it goes into, when a batch holds
     # paragraphs for different sections (pangram_round.py --spec); otherwise it's --lint-article.
-    todo = [k for k in a.keys if k in drafts and a.lint_article and (gate.get(k) or {}).get('kind') in ('screen', 'draft', 'edit')]
+    todo = [k for k in a.keys if k in drafts and a.lint_article and (gate.get(k) or {}).get('kind') in ('screen', 'draft', 'edit', 'emulate')]
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(max_workers=4) as ex:
         verdicts = dict(zip(todo, ex.map(lambda k: lint_verdict(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'],
@@ -331,6 +400,13 @@ def main(argv=None):
             if v != str((gate.get(k) or {}).get('lint', '')).upper():
                 print('%s: the linter says %s, GATE.json says %r; it now says %s' % (k, v, gate[k].get('lint'), v), file=sys.stderr)
             gate[k] = dict(gate[k], lint=v)
+        if k in drafts and (gate.get(k) or {}).get('kind') == 'emulate':
+            text = drafts[k] if isinstance(drafts[k], str) else drafts[k]['text']
+            ok, why = emulate_blocks_ok(text, gate[k], pathlib.Path(a.gate).parent)
+            if ok:
+                gate[k] = dict(gate[k], _blocks_ok=True)
+            else:
+                print('%s: %s' % (k, why), file=sys.stderr); bad = True
         if k in drafts and (gate.get(k) or {}).get('kind') == 'edit' and gate[k].get('cut_of') is not None:
             if is_cut(drafts[k] if isinstance(drafts[k], str) else drafts[k]['text'], gate[k]['cut_of']):
                 gate[k] = dict(gate[k], _cut_ok=True)

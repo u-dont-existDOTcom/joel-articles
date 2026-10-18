@@ -1,0 +1,103 @@
+{
+ "HG06-emuA": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "baseline": "429g HG06",
+  "words": 239,
+  "_blocks_ok": true
+ },
+ "HG07-emuA": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG07-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   3
+  ],
+  "baseline": "429g HG07",
+  "words": 133,
+  "_blocks_ok": true
+ },
+ "HG10-emuA": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG10-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "baseline": "429g HG10",
+  "words": 200,
+  "_blocks_ok": true
+ },
+ "HG11-emuA": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG11-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "baseline": "429g HG11",
+  "words": 222,
+  "_blocks_ok": true
+ },
+ "HG22-emuA": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG22-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "REVIEW",
+  "blocks_changed": [
+   1,
+   2
+  ],
+  "baseline": "429g HG22",
+  "words": 129,
+  "_blocks_ok": true
+ },
+ "HG27-emuA": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "REVIEW",
+  "blocks_changed": [
+   1,
+   2,
+   3
+  ],
+  "baseline": "429g HG27",
+  "words": 129,
+  "_blocks_ok": true
+ }
+}
