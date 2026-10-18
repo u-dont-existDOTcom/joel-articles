@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG12-r1.txt",
+  "input_words": 159,
+  "input_sha256": "b5da4e20b6f40ff8ec95b093ef410414fa08eacfc1b7d212155698c205dae37d",
+  "balance_before": 159426,
+  "started_utc": "2026-10-18T02:49:57Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:50:07Z",
+  "response": {
+    "id": "2388e9d5-c1f9-45ae-bb1d-3efd53082679",
+    "tool": "humanize",
+    "text": "Why doing it myself worked better for me\n\nHave I mentioned I'm a big fan of self-hypnosis? Doing it on my own seems far more useful than the very little I managed to do with a \"professional\". I'm sober right now, and I don't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me.\n\nWhen I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something else.\n\nA hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since he isn't IN my mind. (Of course, there are advantages to having someone else guiding the process, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 159
+    },
+    "elapsed": 10
+  },
+  "balance_after": 159267
+}

@@ -1,0 +1,49 @@
+{
+ "key": "HG07",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The Most Extreme Example"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "I can tell you one shocking personal story that will make you never trust hypnotists again who maintain that you can’t be manipulated through hypnotism:"
+   ],
+   "heading": false
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ability to get anyone to strip naked and have sex with him within 3 seconds, even via phone call. How is this possible? The only way it could be possible, that I know of, is if people are already hypnotized by mass media/devices with a trigger word that is known by the elites."
+   ],
+   "heading": false
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Under no circumstances allow a strong emotional state, charismatic individual, sexual charge, spiritual experience, or other authority to replace the adult part of yourself. All legitimate forms of influence can stand up to scrutiny."
+   ],
+   "run": "HG07-r1",
+   "file": "fix-20261018/emu-a/HG07-r1.out.txt"
+  }
+ ]
+}

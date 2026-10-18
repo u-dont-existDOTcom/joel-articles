@@ -1,0 +1,84 @@
+{
+ "key": "HG06",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Protecting Yourself from Hypnotists"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Hypnotism can happen in a controlled environment with a therapist, but it can also be utilized through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers have been using these techniques for years, and the practice has even come under scrutiny by regulatory bodies. In the Federal Trade Commission’s report on “dark patterns,” they refer to “design patterns that have been designed to trick or manipulate users into doing things that they might not otherwise do.” The Organisation for Economic Co-operation and Development (OECD) refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Consciously or unconsciously, emotionally or legally, there are a lot of ways to gain someone’s consent, or influence their mind, even if they are a fully grown adult."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "As the practitioners of the Silva Method of Mind Control say,"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "“If you don’t learn to control your mind, someone else will!”"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Since there are a lot of forces out there trying to train your mind, via ads, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition, you can use self-hypnosis techniques to learn to befriend your deeper mind, and choose things for yourself as a fully conscious adult."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  }
+ ]
+}

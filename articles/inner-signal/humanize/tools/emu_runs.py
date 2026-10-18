@@ -91,6 +91,68 @@ def make(flags_path, outdir, keys, md_path, editor):
     print(len(manifest), 'runs,', sum(m['words'] for m in manifest), 'words')
 
 
+WORD = re.compile(r"[a-z0-9']+")
+STOP = set('a an and the of to in on for or is are be it its this that with as by at from your you i'.split())
+
+
+def content(t):
+    return {w for w in WORD.findall(t.lower()) if w not in STOP}
+
+
+def heading_like(p):
+    return len(p.split()) <= 15 and not p.rstrip().endswith(('.', ',', ';', ':')) and '\n' not in p.strip()
+
+
+def match_headings(heads, paras):
+    """For each published heading of the run, in order, the index of Emulate's paragraph that stands for it: the same
+    words, or a short line that shares a third of its content words, or a paragraph that starts with it (the heading
+    run into the paragraph: the start is cut off there). None when one can't be found."""
+    pos, start, cut = [], 0, {}
+    for title in heads:
+        tw = content(title)
+        got = None
+        for i in range(start, len(paras)):
+            p = paras[i].strip()
+            if p.lower().rstrip('.!?:') == title.lower().rstrip('.!?:'):
+                got = i; break
+            if heading_like(p) and tw and len(tw & content(p)) * 3 >= len(tw):
+                got = i; break
+            first = re.split(r'(?<=[.!?:])\s+', p, maxsplit=1)
+            if len(first) == 2 and heading_like(first[0].rstrip('.:')) and tw and len(tw & content(first[0])) * 2 >= len(tw):
+                got = i; cut[i] = first[1]; break
+        if got is None:
+            return None, None
+        pos.append(got); start = got + 1
+    return pos, cut
+
+
+def segments(m, blocks, paras):
+    """[(published block indexes, Emulate's paragraphs)] for one run, or None when its headings can't be placed.
+    With as many paragraphs as blocks, each flagged block is its own segment; otherwise each stretch between two
+    headings is one segment, its published blocks for Emulate's paragraphs there."""
+    sent = m['sent']
+    if len(paras) == len(sent):
+        return [([j], [p]) for j, p in zip(sent, paras) if j in m['flagged']]
+    heads = [j for j in sent if blocks[j][2]]
+    pos, cut = match_headings([blocks[j][1] for j in heads], paras)
+    if pos is None:
+        return None
+    bounds_b = [-1] + [sent.index(h) for h in heads] + [len(sent)]
+    bounds_p = [-1] + pos + [len(paras)]
+    out = []
+    for k in range(len(bounds_b) - 1):
+        bs = [sent[i] for i in range(bounds_b[k] + 1, bounds_b[k + 1])]
+        ps = [paras[i] for i in range(bounds_p[k] + 1, bounds_p[k + 1])]
+        if k >= 1 and bounds_p[k] in cut:   # the heading ran into its paragraph: the rest of it is this stretch's prose
+            ps = [cut[bounds_p[k]]] + ps
+        if not bs and not ps:
+            continue
+        if not bs or not ps or not set(bs) <= set(m['flagged']) | set(m.get('context', [])):
+            return None
+        out.append((bs, ps))
+    return out
+
+
 def back(outdir, md_path, editor):
     out = pathlib.Path(outdir)
     manifest = json.load(open(out / 'runs.json', encoding='utf-8'))
@@ -102,16 +164,12 @@ def back(outdir, md_path, editor):
             res.append({'run': m['run'], 'status': 'no output'}); continue
         paras = [p.strip() for p in re.split(r'\n\s*\n', f.read_text(encoding='utf-8')) if p.strip()]
         blocks = kb[m['key']]
-        if len(paras) != len(m['sent']):
-            res.append({'run': m['run'], 'key': m['key'], 'status': 'paragraph count %d, sent %d' % (len(paras), len(m['sent'])),
-                        'out': paras}); continue
-        pairs = []
-        for j, p in zip(m['sent'], paras):
-            if j in m['flagged']:
-                pairs.append({'block': j, 'old': blocks[j][1], 'new': p})
-            elif blocks[j][2] and p.strip().lstrip('#').strip() != blocks[j][1]:
-                pairs.append({'block': j, 'heading_changed_to': p})
-        res.append({'run': m['run'], 'key': m['key'], 'status': 'ok', 'pairs': pairs})
+        segs = segments(m, blocks, paras)
+        if segs is None:
+            res.append({'run': m['run'], 'key': m['key'], 'status': 'unplaced: %d paragraphs for %d blocks, headings not found'
+                        % (len(paras), len(m['sent'])), 'out': paras}); continue
+        res.append({'run': m['run'], 'key': m['key'], 'status': 'ok' if len(paras) == len(m['sent']) else 'ok, regrouped',
+                    'segments': [{'blocks': bs, 'old': [blocks[j][1] for j in bs], 'new': ps} for bs, ps in segs]})
     (out / 'back.json').write_text(json.dumps(res, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     for r in res:
         print(r['run'], r['status'])

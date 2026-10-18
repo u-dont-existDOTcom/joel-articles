@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG01-r1.txt",
+  "input_words": 82,
+  "input_sha256": "30fcda86b0c3dde4b19cf4a8e3ef9d516ddf36b36e49d23e9a67b34471733f53",
+  "balance_before": 160211,
+  "started_utc": "2026-10-18T02:49:03Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:49:12Z",
+  "response": {
+    "id": "36ea5c5e-2018-464c-9eda-194edd9e8f58",
+    "tool": "humanize",
+    "text": "Sorry! An app will be available soon! Im working on it hard!\n\nHow to use this guide. This is a very big guide. To make it easier, you can use the Quick start section if you want to quickly learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, to learn what to do when your response is not guided by a recording. You can also look at the daily and weekly sections for something to try out every day, or every week. If you have questions, or want to learn more, there are lots of appendices, covering lots of topics, including questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, ways to influence others, and more inductions. All sources used are in Appendix K.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 82
+    },
+    "elapsed": 8
+  },
+  "balance_after": 160129
+}

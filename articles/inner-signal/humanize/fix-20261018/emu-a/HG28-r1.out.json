@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG28-r1.txt",
+  "input_words": 238,
+  "input_sha256": "485ebb543deb4a2279aadff693267dad301c6109825bfc4bcc619c1166cdcdfd",
+  "balance_before": 157035,
+  "started_utc": "2026-10-18T02:52:45Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:53:04Z",
+  "response": {
+    "id": "e54ee5a0-5d52-4ae4-839f-423ff9195967",
+    "tool": "humanize",
+    "text": "Try it in the Inner Signal app\n\nWelcome to Inner Signal, the app designed to help you take your first steps into the world of hypnosis. Here you’ll find several voice-recorded sessions to guide you, information about the method you’re using, and tips on how to develop your own language for hypnotic self-talk. After each session, you’ll have the chance to report what went through your mind and body, and consider what you might have missed, so you can learn to catch more of your inner experience next time. You can also ask the app questions about how a hypnotherapist might approach particular issues. You don’t need an app to do self-hypnosis, and you don’t have to graduate from this app before looking for a practitioner to work with, but it may help to have a starting point.\n\nIf you’re using the ChatGPT version of this app, you might want to upload a picture, drawing, poem or song to talk about instead of writing out your explanation in prose. But please make sure the file you upload can be seen or heard by the chat you’re currently using! It will probably tell you that it can’t see or hear the file if you’ve made this mistake. Please remember that what you say about what’s in the file, what it means to you, and what the app thinks it means, are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium.\n\nBear in mind that even with its voice recordings, the app is asking you what’s going on for you – it can’t feel it in its own body, like a trained practitioner might be able to do. The app is not pretending to be a skilled therapist, just helping you to learn for yourself, so that you can make informed choices about what to try next.\n\nAlways enter this app via this page, not by bookmarking the app itself, to make sure you get the current version.\n\nPlease fill in this survey with what you’ve learned from using the app, so that you have something to analyse later, and others can benefit from what you’ve experienced.\n\nIf you have any real questions about what the app has said, or if there’s something you want to ask that it doesn’t answer, please contact me here to discuss arranging a consultation.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 238
+    },
+    "elapsed": 18
+  },
+  "balance_after": 156797
+}

@@ -242,7 +242,23 @@ def emulate_blocks_ok(text, g, base):
         if bs is None:
             return False, 'no such file: %s' % path
         allowed |= bs
-    stray = [b for b in (x.strip() for x in re.split(r'\n\s*\n', text)) if b and b not in allowed]
+    emu = set()
+    for path in g.get('emulate') or []:
+        emu |= blocks_of(path) or set()
+
+    def spliced(b):
+        # a mechanical cut (the queue's directive: "cutting and joining whole sentences or paragraphs taken from the two
+        # versions"): whole sentences from one Emulate block, starting and ending at sentence ends
+        for e in emu:
+            i = e.find(b)
+            if i < 0:
+                continue
+            starts = i == 0 or re.search(r'[.!?:]["”’)]?\s+$', e[:i])
+            ends = i + len(b) == len(e) or re.match(r'\s+\S', e[i + len(b):]) and re.search(r'[.!?]["”’)]?$', b)
+            if starts and ends:
+                return True
+        return False
+    stray = [b for b in (x.strip() for x in re.split(r'\n\s*\n', text)) if b and b not in allowed and not spliced(b)]
     if stray:
         return False, '%d block(s) are in neither the Emulate outputs nor the published text, first: %r' % (len(stray), stray[0][:80])
     return True, ''

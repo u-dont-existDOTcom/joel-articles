@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG19-r1.txt",
+  "input_words": 217,
+  "input_sha256": "cc62657ee46a1d7ee8b61dd2e1066c7e3c23f4abd5cff69f42a162cd9831c657",
+  "balance_before": 158417,
+  "started_utc": "2026-10-18T02:51:04Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:51:19Z",
+  "response": {
+    "id": "89bd939f-766b-4e9d-bbb1-bbd8b82bab22",
+    "tool": "humanize",
+    "text": "The actual inner meeting\n\nMake sure you are not lying down when you do this exercise, unless you are ready to go to sleep or receive deep rest or are trying to incubate dreams. Sit in a place where you will not find yourself daydreaming, dissociating or going to sleep. Keep your spine straight, but not rigid, like a soldier. Relax your jaw and maintain some connection with the room you are in.\n\nYou can say to yourself, “I’m not going to leave life, I’m just going to listen more deeply to life.”\n\nInvoking: “With the help of my Higher Self, my universal heart-mind connection, my wise subconscious mind, the intelligence in my body, my inner child, my inner adults, my protective parts and everyone and everything else that can help me to know what I need to know, only what I need to know in a useful, kind, stabilizing, real way…\n\nAsk your conscious mind to listen.\n\nThis doesn’t mean you have to silence your thoughts to listen. Notice your thoughts, sensations, images, doubts, emotions, etc., without fighting them, without going with them, but simply noticing them while you hold the intention of this exercise in the background of your mind. Notice what becomes salient to you.\n\nYou can say, “Tell me what I need to know or tell me what I need to know to ask, and I will sit in silence for five minutes and listen.”\n\nYou might hear a phrase, feel a sensation, notice a memory, see a color, be contacted by a child or protector, feel pain, warmth, silence or know that your need to do something or be grateful for something or that this is enough listening for today.\n\nListen to it all and believe none of it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 217
+    },
+    "elapsed": 14
+  },
+  "balance_after": 158200
+}
