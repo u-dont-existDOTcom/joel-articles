@@ -1,0 +1,65 @@
+{
+ "t71xx_ifs3w": {
+  "kind": "screen",
+  "march": [
+   "S S B B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71xx_ifs3w.md",
+  "note": "t71xx: ifs3-w, alone."
+ },
+ "t71xx_ap56c": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71xx_ap56c.md",
+  "note": "t71xx: ap56-c, alone."
+ },
+ "t71xx_ifs5w": {
+  "kind": "screen",
+  "march": [
+   "B S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71xx_ifs5w.md",
+  "note": "t71xx: ifs5-w, alone."
+ },
+ "t71xx_secifsv": {
+  "kind": "screen",
+  "march": [
+   "ifs1-u: B S, ifs2-u: S B S B, ifs3-w: S S B B B B, ap56-c: S S S S B S, ifs5-w: B S B S S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71xx_secifsv.md",
+  "note": "t71xx: ## How This Relates to IFS, put together: D:ifs1-u, D:ifs2-u, D:ifs3-w, D:ap56-c, D:ifs5-w, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71xx_ifs34v": {
+  "kind": "screen",
+  "march": [
+   "ifs3-w: S S B B B B, ap56-c: S S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71xx_ifs34v.md",
+  "note": "t71xx: D:ifs3-w, put together: D:ap56-c."
+ },
+ "t71xx_ifs45v": {
+  "kind": "screen",
+  "march": [
+   "ap56-c: S S S S B S, ifs5-w: B S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71xx_ifs45v.md",
+  "note": "t71xx: D:ap56-c, put together: D:ifs5-w."
+ },
+ "t71xx_ifs56v": {
+  "kind": "screen",
+  "march": [
+   "ifs5-w: B S B S S S, wifs-5: S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71xx_ifs56v.md",
+  "note": "t71xx: D:ifs5-w, put together: D:wifs-5."
+ }
+}
