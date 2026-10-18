@@ -29,3 +29,12 @@ The reader's 24 findings are in JUNK-SWEEP.md. Before acting on any of them I tr
 - **d**: Before You Try in its old order with the dating paragraph, the full break first, checking into doing and 12 C: 0.086 high, installed.
 - **e** (his One Intention voice, E194): coming out first folded into P2 right after "I'd go shallower.", where the guide has it, read Human alone in two of three versions (0.079 and 0.065), after fourteen standalone paragraphs had read AI. P5 with its questions answered in scenes read AI harder than before (0.98 to 0.996), and so did the packed list (0.56 to 0.93). The moved order kept its AI windows in Your Body P3 to P5 whatever P5 said: those paragraphs passed only while they followed his Inner Monologue section.
 - **f**: only the Dangerous section moved, P2 with coming out first, and the Tyler move.
+- **f**: with only the Dangerous section moved, P2 a (the flight attendants' exits) and the Tyler move, Before You Try read Human Written 0.090, high, all three windows Human: https://www.pangram.com/history/83e7e712-260e-4c40-8a11-de49411e63bb. Installed, with IFS P5's "doesn't do enough with the Guide" (the Appendix 0.098, high). In the old order, P2 a had the 37-word window on checking-into-doing, and P2 c didn't.
+- **g**: the guide's list inside P5's own "a bit easier" sentence, with the vague last line out (h), read Human alone (0.38, medium), but the section with it had the 37-word window on checking-into-doing again. As a closing fragment (i) it read AI alone; as a sentence after (k), the section read Human (0.078) but the paragraph alone had a 47-word AI window on that sentence.
+- **h** and **i**: checking-into-doing without its list read AI alone (0.80); folded into P2 word for word it read Human alone (0.23) and in the installed section (0.091), but with P5 h the window came back on the same 37 words. So the window follows the position of those sentences, not the paragraph break. P5 h waits, and so does the list; nothing from h or i is installed.
+
+## What I take from it
+
+- Folding a point into a paragraph that already reads Human, where the guide has it, worked where fourteen paragraphs of its own didn't (coming out first). Try that first for a short guide point.
+- His voice isn't scenes added to my sentences. My "scene" versions of P5 read AI harder than the plain one (0.98 to 0.996); his One Intention reads Human because the words are his.
+- A section move changes which of my paragraphs Pangram sees on their own. His Inner Monologue section had been carrying Your Body P3 to P5.
