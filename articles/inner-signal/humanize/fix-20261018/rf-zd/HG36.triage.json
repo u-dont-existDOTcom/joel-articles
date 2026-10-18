@@ -1,0 +1,196 @@
+{
+ "key": "HG36",
+ "fixes": [
+  {
+   "block": 1,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"first encounter ... while altered\" became \"used substances in order to do\" (purpose, substances only, \"first\" lost)",
+     "replace": "in order to do self-hypnosis, contact their inner child, or talk to their Higher Self",
+     "with": "when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ]
+  },
+  {
+   "block": 3,
+   "problems": [
+    {
+     "type": "INVENTED",
+     "what": "B3: INVENTED substances \"helped\" people OPEN up (published: any past opening); and the repeat R: many people have used substances to open up, in B1 and B3",
+     "replace": "For a lot of people, substances helped them to OPEN themselves up",
+     "with": "A lot of people have OPENED themselves up",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ]
+  },
+  {
+   "block": 5,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B5: SHIFT \"remember love\" became \"remember what it is like to be in love\"",
+     "replace": "Help me to remember what it is like to be in love.",
+     "with": "Help me to remember love.",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ]
+  },
+  {
+   "block": 6,
+   "problems": [
+    {
+     "type": "INVENTED",
+     "what": "B6: INVENTED \"while you are in an altered state\" limits the ban to that state",
+     "replace": "DO NOT use self-hypnosis while you are in an altered state of consciousness to try to keep",
+     "with": "DO NOT use self-hypnosis to try to keep",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"recover memories\" became \"remember things\" (specific caution blurred)",
+     "replace": "to try to remember things",
+     "with": "to try to recover memories",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ]
+  },
+  {
+   "block": 7,
+   "problems": [
+    {
+     "type": "UNCLEAR",
+     "what": "B7: UNCLEAR \"helps you need SLEEP\" for \"less able to sleep\"",
+     "replace": "helps you need SLEEP",
+     "with": "helping you SLEEP",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B7: LOST \"less able to meet ordinary responsibilities\"",
+     "replace": "become MORE communicative, etc,",
+     "with": "become MORE communicative, MORE able to do your everyday responsibilities, etc,",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ]
+  },
+  {
+   "block": 10,
+   "problems": [
+    {
+     "type": "UNCLEAR",
+     "what": "B10: UNCLEAR \"may not be meaningful\" followed by meaningful sources (inner child, Protector)",
+     "replace": "may not actually be meaningful",
+     "with": "may or may not actually be meaningful",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST \"a frightening image isn't automatically truth\"",
+     "replace": "Regardless of the lighting",
+     "with": "Regardless of how scary an image is, regardless of the lighting",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ]
+  },
+  {
+   "block": 11,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B11: LOST \"ask a simpler question\" (sentence left without its verb)",
+     "replace": "your altered state of consciousness is,",
+     "with": "your altered state of consciousness is, ask yourself something simpler:",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B2: UNCLEAR \"do it\" stands for \"use altered states\"; reads as substance use",
+   "why": "the sentence before is about using substances; the appendix is about altered states"
+  },
+  {
+   "finding": "B2: SHIFT \"force revelation\" became \"force yourself to a certain revelation about yourself\" (narrower)",
+   "why": "wording; still no forcing a revelation"
+  },
+  {
+   "finding": "B2: LOST deepen listening; \"ordinary life\" became \"your life\"",
+   "why": "a list shortened; \"better your life\" keeps ordinary life"
+  },
+  {
+   "finding": "B3: LOST past opening as a resource that need not be reproduced",
+   "why": "carried by \"let that experience inform\" and the three-way difference that follows"
+  },
+  {
+   "finding": "B3: LOST love as what was experienced (\"something\")",
+   "why": "what opened is \"something\"; the difference between once, in a state and any time is kept"
+  },
+  {
+   "finding": "B3: SHIFT three distinct things became two; \"reliably in daily life\" became \"any point in your life\"",
+   "why": "the rewrite still names three things: once, only in a certain state, at any point"
+  },
+  {
+   "finding": "B3: LOST build usable access; \"widen what seems possible\" became \"inform what you OPEN yourself up to\"",
+   "why": "\"being able to get to it at any point in your life\" carries it"
+  },
+  {
+   "finding": "B3: SHIFT \"child cannot receive\" became \"you can't give it to the child\"",
+   "why": "the same difficulty, met instead of ramping up"
+  },
+  {
+   "finding": "B4: LOST \"more useful than demanding a revelation\"",
+   "why": "B2 keeps \"don't force a revelation\"; the prompts are still offered"
+  },
+  {
+   "finding": "B5: SHIFT \"translate this into one ordinary-life change\" became \"change one thing in my life to make it better\" (link to the experience lost)",
+   "why": "still one change in ordinary life"
+  },
+  {
+   "finding": "B6: SHIFT \"less able to communicate\" became \"less communicative\"",
+   "why": "the same"
+  },
+  {
+   "finding": "B7: SHIFT \"the state makes you less X\" became \"self-hypnosis NOT helping you become more X\" (decline vs no gain; any vs all unclear)",
+   "why": "stricter, not looser: a reader stops at least as soon as the published text says"
+  },
+  {
+   "finding": "B7: SHIFT \"less honest\" became \"more honest with yourself\" (narrower)",
+   "why": "wording"
+  },
+  {
+   "finding": "B7: SHIFT \"less able to communicate\" became \"more communicative\"",
+   "why": "the same"
+  },
+  {
+   "finding": "B10: LOST \"intensity mistaken for meaning\"",
+   "why": "the mistaken-meaning point is kept (\"may or may not actually be meaningful\")"
+  },
+  {
+   "finding": "B10: LOST Protector \"showing fear\"; longing",
+   "why": "the Protector is kept; \"etc\" covers longing"
+  },
+  {
+   "finding": "B10: SHIFT buried material \"asking for care\" became \"coming out to be dealt with\"",
+   "why": "the same idea"
+  },
+  {
+   "finding": "B10: LOST \"plain confusion\"",
+   "why": "\"etc, etc, etc\" closes the list"
+  }
+ ],
+ "resample": [],
+ "note": "2026-10-18, after 461g: HG36-wc (emu-av, the whole section in one run from the published text) read 100% Human whole and in every paragraph; its siblings wa and wb (from my fixed text) read AI. Fixes: the substance claims (B1 purpose, B3 \"substances helped\"), the safety limits (B6 scope and \"recover memories\", B7 \"SLEEP\" and responsibilities), the script line \"remember love\" (B5), the meaning of B10 (\"may or may not\", the frightening image) and B11's missing question."
+}

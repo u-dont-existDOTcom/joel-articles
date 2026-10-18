@@ -1,0 +1,297 @@
+{
+ "key": "HG36",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-p/HG36.fixed.json",
+ "choices": {
+  "base": "rf-p/HG36.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "folder": "emu-av",
+    "skip": [
+     "emu-av/HG36-sw1"
+    ]
+   },
+   {
+    "blocks": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "folder": "emu-av",
+    "skip": [
+     "emu-av/HG36-sw1"
+    ]
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix G: Altered states"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "This is NOT to say that you SHOULD do it, but many people have used substances when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self."
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"first encounter ... while altered\" became \"used substances in order to do\" (purpose, substances only, \"first\" lost)",
+     "replace": "in order to do self-hypnosis, contact their inner child, or talk to their Higher Self",
+     "with": "when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Do not do it to try to FORCE yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and helping you better your life."
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "A lot of people have OPENED themselves up to something at one point in their life. If you've had a similar experience, know that there is a difference between you having experienced it at one point, and only being able to access it in a certain state, compared to being able to get to it at any point in your life. Let that experience inform what you OPEN yourself up to. (If you can't give it to the child, try to deal with why you can't, instead of trying to ramp up the experience)."
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "B3: INVENTED substances \"helped\" people OPEN up (published: any past opening); and the repeat R: many people have used substances to open up, in B1 and B3",
+     "replace": "For a lot of people, substances helped them to OPEN themselves up",
+     "with": "A lot of people have OPENED themselves up",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Use your altered state of consciousness, either while you're in it or after, to help yourself by asking things like:"
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Help me to become more grounded. Help me to only take what I can integrate. Help me to remember love. Help me to come back when it's time. Help me to figure out how to change one thing in my life to make it better."
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B5: SHIFT \"remember love\" became \"remember what it is like to be in love\"",
+     "replace": "Help me to remember what it is like to be in love.",
+     "with": "Help me to remember love.",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "DO NOT use self-hypnosis to try to keep the altered state of consciousness going indefinitely, to try to recover memories, to make yourself MORE afraid, to help you not need to sleep, to help you not need to take care of medical problems, to help you become LESS communicative, etc."
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "B6: INVENTED \"while you are in an altered state\" limits the ban to that state",
+     "replace": "DO NOT use self-hypnosis while you are in an altered state of consciousness to try to keep",
+     "with": "DO NOT use self-hypnosis to try to keep",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"recover memories\" became \"remember things\" (specific caution blurred)",
+     "replace": "to try to remember things",
+     "with": "to try to recover memories",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "In other words, if using self-hypnosis while you're in an altered state of consciousness is NOT helping you become MORE loving, MORE grounded, MORE honest with yourself, helping you SLEEP, become MORE communicative, MORE able to do your everyday responsibilities, etc, then stop trying to go DEEPER into your altered state of consciousness, and start working on integrating what you've already gotten from it."
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "B7: UNCLEAR \"helps you need SLEEP\" for \"less able to sleep\"",
+     "replace": "helps you need SLEEP",
+     "with": "helping you SLEEP",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B7: LOST \"less able to meet ordinary responsibilities\"",
+     "replace": "become MORE communicative, etc,",
+     "with": "become MORE communicative, MORE able to do your everyday responsibilities, etc,",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Stabilize before you interpret"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (i.e. when you're loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, etc, etc, etc around plant medicine). Sometimes you may OPEN yourself up to things FASTER than you are able to put it into context with your adult self."
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "So what you think may be an altered state of consciousness that's meaningful, may or may not actually be meaningful - it could be your inner child, it could be a Protector, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the \"download\", regardless of how \"bad\" you feel, it doesn't necessarily mean what you think it does!"
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "B10: UNCLEAR \"may not be meaningful\" followed by meaningful sources (inner child, Protector)",
+     "replace": "may not actually be meaningful",
+     "with": "may or may not actually be meaningful",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST \"a frightening image isn't automatically truth\"",
+     "replace": "Regardless of the lighting",
+     "with": "Regardless of how scary an image is, regardless of the lighting",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Before you even THINK about interpreting what your altered state of consciousness is, ask yourself something simpler:"
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B11: LOST \"ask a simpler question\" (sentence left without its verb)",
+     "replace": "your altered state of consciousness is,",
+     "with": "your altered state of consciousness is, ask yourself something simpler:",
+     "round": 1,
+     "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "“What kind of problem is happening?”"
+   ],
+   "run": "HG36-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-av/HG36-aw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  }
+ ]
+}

@@ -29565,6 +29565,56 @@
           "path": "articles/inner-signal/humanize/fix-20261018/rf-zd/HG36.verify.part1.txt",
           "sha256": "513d6b9209b0ac20a87d73ebe65686d3af3f390455cab6413abb20de8eeee4d5",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b462/GATE.json",
+          "sha256": "3c2147a834ea1e63495206ed0dae6ecc8dabd1b0b7bafd05369eca5d4d2b0709",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b462/PREDICTIONS.md",
+          "sha256": "73a9b97947b5b5aa4bf40913107ef274b29c6edb6db623ce078500c2b9dcf4b1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b462/b462-items.json",
+          "sha256": "9e79e553151386a650ad8adc84b45bada71c83ab65656788b415742f64e6f9cf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b462/b462-read.js",
+          "sha256": "6a0f7df27c2154d0bfe97c8a1b9f623134ff9648a2bbf462193be596ee8662b7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b462/b462.js",
+          "sha256": "65e82264fea458a74083c5b3ce45cfc9f0a7ce8c30303801d6d8acf1622bb85b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b462/drafts.json",
+          "sha256": "65b727b699f21c134b0b307ac99cfbbfc19f1c80f65a52872f38b9fb2a19f39e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-zd/HG36.fixed.json",
+          "sha256": "e2a6a51cfcf3cebf7c6e85b892acf79251756133f4384ca17898975eaa3eed6a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-zd/HG36.review.json",
+          "sha256": "088760221a2ae203e01c5b5f337a6668a4b880c25e291299e105d02d397120ce",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-zd/HG36.triage.json",
+          "sha256": "ddf554f605e443032005e5cd603f3b9ad5a36cc99d375f7c763588389675d35c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-zd/HG36.verify.part1.out.txt.first",
+          "sha256": "180b211c177c08064b5a54fae87e4d3825826114264f0e6d736390bf8879893d",
+          "role": "humanization_working_record"
         }
       ]
     },
