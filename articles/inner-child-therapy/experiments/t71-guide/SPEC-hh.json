@@ -1,0 +1,32 @@
+[
+ {
+  "key": "jwp",
+  "draft": "jw-p",
+  "label": "Journal With Each Hand P1 alone, p (the Capacchione sentence, then a reaction to it, as as4-u's \"The title kind of says it all.\": \"Sounds almost too simple, I know.\")"
+ },
+ {
+  "key": "oiu",
+  "draft": "oi-u",
+  "label": "One Intention P1 alone, u (the Examen sentence, then a reaction: \"Not bad company, honestly.\")"
+ },
+ {
+  "key": "secjwp",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-p",
+   "G:writers/sp4-w1-p2"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-p, P2 turn 65's writers/sp4-w1-p2",
+  "march": "jw-p: B B S B S B S, sp4-w1-p2: ?"
+ },
+ {
+  "key": "secoiu",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-u",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-u, P2 turn 65's sp6-p2-h2",
+  "march": "oi-u: B B S S S S, sp6-p2-h2: ?"
+ }
+]
