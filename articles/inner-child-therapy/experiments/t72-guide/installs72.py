@@ -223,3 +223,24 @@ register('cs5', lambda: para('Sometimes the session itself goes really well.'),
 
 register('tf11', lambda: para('Daniel Kahneman and Gary Klein came at intuition'),
          lambda: dnote('tf11-l', 'the filler sweep (JUNK-SWEEP.md, 11): "Yours too, probably." is out (a quip telling the reader what nobody doubts).', 'TF11') + draft('tf11-l'))
+
+
+# --- Round c -----------------------------------------------------------------------------------------------------------
+for _s in ('bg-out-d', 'bg-out-e', 'bg-out-f'):
+    register('bg-out-' + _s[-1] + '3', lambda: para('And if the grown-up you is there, and it'),
+             (lambda s: lambda: para('And if the grown-up you is there, and it') + '\n\n' + dnote(s, '54, 8, B ("humanize that in before you try to go deep") and 10 ("that\'s what we are putting back into 8"): the guide\'s "If you cannot reliably stop, return, stay oriented, or inward attention itself is making things worse, stop the inner exercise and come outward first." with "One breath may be enough." and the eyes-open hello as the gentler way back in. Rounds t72a and t72b\'s versions read AI alone (1.00, 0.999).', 'BGOUT') + draft(s))(_s))
+
+for _a, _b in (('yb5-d', 'yb6-d'), ('yb5-d', 'yb6-e')):
+    register('yb5-3' + _b[-1], lambda: para('So how were the next few days?'),
+             (lambda a, b: lambda: dnote(a, '54, 8: "If you\'re getting worse, though, change several things at once, and get some support." is out ("that sounds too vague to be useful"), and the paragraph asks what you\'d change; without any last line it read AI alone (round t72b, 0.83).', 'YB5') + draft(a)
+              + '\n\n' + dnote(b, '54, 11, B ("original list more informative"): the guide\'s "Try shorter duration, less depth or imagery, better timing, more symbolic or indirect representation, eyes open or stronger external anchors, less isolation, and more support." as the answer.', 'YB6') + draft(b))(_a, _b))
+
+register('st-3', '\n## How This Relates to IFS\n',
+         lambda: '\n## How This Relates to Schema Therapy\n\n'
+         + dnote('st-c', 'his message ("you were sent info on schema therapy and how it overlaps with my guide in many places, so we can mention that before the IFS section"): the research suggestion of 2026-10-18 (UDA branch chat/guide-schema-therapist-fit-20261018, suggested-fixes/joel-articles/2026-10-18-schema-therapist-fit-and-reparenting-guide.md, from innerSignalGraph\'s research Pass 15), checked against ISST\'s Limited Reparenting page (George Lockwood, opened 2026-10-18: "the heart of the treatment in schema therapy"; warmth, nurturance, firmness, playfulness and limit-setting; the patient internalizes it as a healthy adult mode; the Vulnerable Child; fighting punitive parent modes). His Teachers line says the rest ("Filter for Schema Therapy, since that\'s the one with the most similarity to my guide").', 'ST') + draft('st-c')
+         + '\n\n' + dnote('st-h', 'the research\'s differences that depend on the therapist (one adult with three jobs and borrowing one; practical safety now; images and feelings no evidence about childhood), in his first person. The guide\'s no to the inner-child frame isn\'t among them: he cut it on 2026-10-08.', 'STB') + draft('st-h')
+         + '\n\n## How This Relates to IFS\n')
+register('st-4', '\n## How This Relates to IFS\n',
+         lambda: '\n## How This Relates to Schema Therapy\n\n' + dnote('st-c', 'as st-3, with its first paragraph only.', 'ST') + draft('st-c') + '\n\n## How This Relates to IFS\n')
+register('ifs6-2', lambda: para('Before choosing a therapist, get to know the strengths'),
+         lambda: dnote('ifs6-b', 'the filler sweep (JUNK-SWEEP.md, 24): "Could an IFS therapist help? They may, if they\'re skilled and grounded." is true of any therapist; the paragraph now asks which kind, and says what makes each the better fit.', 'IFS6') + draft('ifs6-b'))
