@@ -464,3 +464,11 @@ register('frm-g', BG_P1_END, lambda: frm('frm-g'))
 
 BG_P3_END = "So once that reason has changed and you want to come back, the note tells you where it was still okay. I'd start there, or somewhere a bit gentler."
 register('frm-e-end', BG_P3_END, lambda: frm('frm-e').replace(BG_P1_END, BG_P3_END, 1))
+
+
+# 2026-10-18, round t71www, a test for the next turn (not to install without his OK): Before You Try to Go Deep's P1, an
+# accepted paragraph from before the turn records, without its list of three and "the frightened kid", alone and in the
+# h1, and with the frame point after it.
+BG_P1 = "How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child."
+register('bgp1-test', BG_P1, lambda: draft('bgp1-a'))
+register('bgp1-frm-test', BG_P1, lambda: draft('bgp1-a') + '\n\n<!-- test -->\n\n' + draft('frm-e'))
