@@ -1,5 +1,31 @@
 {
- "HG01": {"stage": "fixed", "whole": "434g HG01-fix", "paragraphs": "442g", "fixed": "rev-b/HG01.fixed.json", "installed": "2026-10-18, tools/install_fixed.py"},
- "HG07": {"stage": "fixed", "whole": "434g HG07-fix", "paragraphs": "442g", "fixed": "rev-a/HG07.fixed.json", "installed": "2026-10-18, tools/install_fixed.py"},
- "HG12": {"stage": "fixed", "whole": "434g HG12-fix", "paragraphs": "442g", "fixed": "rev-b/HG12.fixed.json", "installed": "2026-10-18, tools/install_fixed.py"}
+ "HG01": {
+  "stage": "fixed",
+  "whole": "434g HG01-fix",
+  "paragraphs": "442g",
+  "fixed": "rev-b/HG01.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG07": {
+  "stage": "fixed",
+  "whole": "434g HG07-fix",
+  "paragraphs": "442g",
+  "fixed": "rev-a/HG07.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG12": {
+  "stage": "fixed",
+  "whole": "434g HG12-fix",
+  "paragraphs": "442g",
+  "fixed": "rev-b/HG12.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG10": {
+  "stage": "refix",
+  "whole": "443g HG10-refix",
+  "meaning": "rf-a/HG10.verify.part1.out.txt (second reader: every stretch OK)",
+  "paragraphs": "447g",
+  "fixed": "rf-a/HG10.units.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ }
 }

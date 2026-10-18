@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-u/HG18-fxw2.txt",
+  "input_words": 147,
+  "input_sha256": "5b554e9c7bec08d2d9910d447ac2c197b0e698090b7ecd4b3a249b68db6792d9",
+  "balance_before": 97428,
+  "started_utc": "2026-10-18T05:55:55Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:56:02Z",
+  "response": {
+    "id": "57ba92ca-1687-44e0-b7e0-1209060ba77b",
+    "tool": "humanize",
+    "text": "What if you are using a recording and it stops before it lets you out? Don’t sit there waiting for the voice to come back and release you. Say to yourself, “the recording has stopped and the session is over.” Then use the above method to get out. Start by opening your eyes, saying where you are, saying what day it is, pushing down with your feet or your hands, moving about, looking around, etc. Then go through the 5 step method.\n\nNote: It is all right to use a recording to help you go to sleep. However, a recording for use when you are awake should not leave you in a role, with lowered judgement, impaired movement capabilities, blank, with an undefined reset word, invited to stay altered indefinitely, etc.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 147
+    },
+    "elapsed": 7
+  },
+  "balance_after": 97281
+}

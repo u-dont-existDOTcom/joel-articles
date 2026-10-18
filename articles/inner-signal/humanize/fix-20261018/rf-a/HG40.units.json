@@ -48,7 +48,13 @@
    ],
    "run": "HG40-fxw1",
    "file": "fix-20261018/emu-r/HG40-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "ISH article on self-hypnosis",
+     "new": "his article about self hypnosis"
+    }
+   ]
   },
   {
    "kind": "published",
@@ -70,7 +76,17 @@
    ],
    "run": "HG40-fxw1",
    "file": "fix-20261018/emu-r/HG40-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "hypnotic-language tutorial",
+     "new": "nimja's tutorial on hypnotic language patterns"
+    },
+    {
+     "published": "trigger tutorial",
+     "new": "his tutorial on triggers"
+    }
+   ]
   },
   {
    "kind": "published",
@@ -116,7 +132,17 @@
    ],
    "run": "HG40-fxw1",
    "file": "fix-20261018/emu-r/HG40-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "Inner Child Self-Love Reparenting Guide",
+     "new": "Inner Child Self-Love Reparenting Guide"
+    },
+    {
+     "published": "My three-adult arrangement and borrowed-adulthood sequence",
+     "new": "the arrangement of 3 functions of adulthood"
+    }
+   ]
   },
   {
    "kind": "published",
@@ -138,7 +164,13 @@
    ],
    "run": "HG40-fxw1",
    "file": "fix-20261018/emu-r/HG40-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "Not Everybody Has an Inner Voice",
+     "new": "Not everybody has an inner voice"
+    }
+   ]
   },
   {
    "kind": "published",
@@ -160,7 +192,17 @@
    ],
    "run": "HG40-fxw1",
    "file": "fix-20261018/emu-r/HG40-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "VA’s hypnosis overview",
+     "new": "This US Veterans Administration website"
+    },
+    {
+     "published": "explanation of certification",
+     "new": "This ASCH website"
+    }
+   ]
   }
  ]
 }

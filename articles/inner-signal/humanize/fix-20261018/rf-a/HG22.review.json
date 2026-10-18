@@ -1,0 +1,38 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "more time per session became more frequent practice (\"once or twice a week, more is fine\"); \"when useful\" lost",
+    "replace": "do this once or twice a week, though more is fine",
+    "with": "give this more time once or twice a week, when that’s useful",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "follow what appears lost",
+    "replace": "a neutral witnessing place",
+    "with": "a neutral witnessing place and follow what appears",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "\"adult heard and acted\" became \"adult's actions have been heard\"",
+    "replace": "the adult’s actions have been heard",
+    "with": "the adult heard and acted",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

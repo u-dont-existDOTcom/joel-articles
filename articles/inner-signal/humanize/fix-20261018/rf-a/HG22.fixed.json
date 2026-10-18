@@ -1,0 +1,74 @@
+{
+ "key": "HG22",
+ "from": "fix-20261018/rev-a/HG22.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The weekly deeper practice"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing."
+   ],
+   "run": "HG22-fxw1",
+   "file": "fix-20261018/emu-r/HG22-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "more time per session became more frequent practice (\"once or twice a week, more is fine\"); \"when useful\" lost",
+     "replace": "do this once or twice a week, though more is fine",
+     "with": "give this more time once or twice a week, when that’s useful",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "follow what appears lost",
+     "replace": "a neutral witnessing place",
+     "with": "a neutral witnessing place and follow what appears",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise, the dishes won’t get done."
+   ],
+   "run": "HG22-fxw1",
+   "file": "fix-20261018/emu-r/HG22-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "\"adult heard and acted\" became \"adult's actions have been heard\"",
+     "replace": "the adult’s actions have been heard",
+     "with": "the adult heard and acted",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

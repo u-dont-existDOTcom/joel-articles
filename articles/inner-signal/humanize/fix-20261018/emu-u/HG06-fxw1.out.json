@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-u/HG06-fxw1.txt",
+  "input_words": 41,
+  "input_sha256": "151f9536fb0e1d426c5649c1110e48927a2bb70462fe5f7dd439d48014b8f23e",
+  "balance_before": 97124,
+  "started_utc": "2026-10-18T05:56:16Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:56:19Z",
+  "response": {
+    "id": "3f4867f5-b6a1-4ba3-8346-1253894046c8",
+    "tool": "humanize",
+    "text": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?\n\nAs taught by the Silva “Mind Control” method:",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 41
+    },
+    "elapsed": 3
+  },
+  "balance_after": 97083
+}

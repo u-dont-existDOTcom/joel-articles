@@ -25,7 +25,13 @@
    ],
    "run": "HG28-fxw1",
    "file": "fix-20261018/emu-r/HG28-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "the Inner Signal app",
+     "new": "Inner Signal App"
+    }
+   ]
   },
   {
    "kind": "emulate",

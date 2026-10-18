@@ -97,7 +97,13 @@
    ],
    "run": "HG33-fxw1",
    "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "2025 systematic review",
+     "new": "2025 systematic review"
+    }
+   ]
   },
   {
    "kind": "published",
@@ -120,7 +126,13 @@
    ],
    "run": "HG33-fxw1",
    "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "Somatic Guide",
+     "new": "somatic guide"
+    }
+   ]
   },
   {
    "kind": "published",
@@ -172,7 +184,17 @@
    ],
    "run": "HG33-fxw1",
    "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
-   "refix": true
+   "refix": true,
+   "links": [
+    {
+     "published": "ZHoly3O",
+     "new": "ZHoly3O"
+    },
+    {
+     "published": "Blushield",
+     "new": "Blushield"
+    }
+   ]
   },
   {
    "kind": "published",

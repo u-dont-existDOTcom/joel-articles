@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-u/HG18-fxw1.txt",
+  "input_words": 99,
+  "input_sha256": "702a263ff35abdf9349b8fe8e35f2c896155db33144b4cd5ba851fecabd09262",
+  "balance_before": 97527,
+  "started_utc": "2026-10-18T05:55:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:55:54Z",
+  "response": {
+    "id": "d9dab708-fbe4-4375-a250-e241b5584e26",
+    "tool": "humanize",
+    "text": "Bring back to yourself only what will be of use to yourself in the present moment and leave the rest for another time. Slowly return to being in body and in this place, back into normal day to day living. The session is over. There are no more instructions to follow, nothing to do except to go back to the life that led up to this point. If there is an intention to bring something into ordinary life or to do something in the future, these are simply cues, and do not continue the altered state.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 99
+    },
+    "elapsed": 5
+  },
+  "balance_after": 97428
+}

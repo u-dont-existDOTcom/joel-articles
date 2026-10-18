@@ -1,0 +1,104 @@
+[
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "SHIFT \"time before deciding what it means\" became \"time to decide whether that's accurate\" (the script now asks for a different thing)",
+    "replace": "to decide whether that's accurate or not",
+    "with": "before deciding what it means",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "INVENTED",
+    "what": "LOST \"firmer when that is the help you chose\" and its example; INVENTED example \"That's not helping, I'm not going to do that anymore\"",
+    "replace": "when you say you're not going to do something that isn't helping - \"That's not helping, I'm not going to do that anymore.\"",
+    "with": "when that's the help you chose - \"Let the explanation wait a moment. What do I feel as I say that?\"",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "SHIFT \"remain present, can change direction\" became \"you're ok, willing to change\" (the condition for staying with a hard feeling is weakened)",
+    "replace": "you're ok, and willing to change",
+    "with": "you're still present, and able to change",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "SHIFT \"skepticism is not automatically a protector\" became \"neither is a protector\" (\"automatically\" dropped, claim stronger)",
+    "replace": "Neither is a protector",
+    "with": "Neither is automatically a protector",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "LOST \"you don't have to make someone understand before you can act\"",
+    "replace": "Do you need to end the interaction prematurely?",
+    "with": "Do you need to end the interaction prematurely? You don’t have to make them understand before you can act.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "LOST B24 script \"Would company help, or would you prefer some space?\" (the space option) and LOST \"Don't come closer\" is information to act on, stay at the chosen distance",
+    "replace": "offer them the opportunity to spend time with you.",
+    "with": "offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 31,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "SHIFT your own freedom to question, disagree and stop became the analytical part voicing objections that you put off (the freedom to stop is lost)",
+    "replace": "make any commitments etc when you are back.",
+    "with": "make any commitments etc when you are back. You can stop whenever you want to.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "SHIFT \"an image can be meaningful without being a historical memory\" became \"images are unlikely to be actual memories\" (claim stronger)",
+    "replace": "are unlikely to be actual memories",
+    "with": "can be meaningful without being actual memories",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "UNCLEAR last sentence cut off at \"just what you actually\"",
+    "replace": "just what you actually",
+    "with": "just what you actually noticed.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

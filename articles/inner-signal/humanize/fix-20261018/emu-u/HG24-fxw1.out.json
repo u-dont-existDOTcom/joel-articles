@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-u/HG24-fxw1.txt",
+  "input_words": 89,
+  "input_sha256": "371eaf78c766a78ff8d15608caa43baf2fdbc2ba5879467ffc2845be118d2ac4",
+  "balance_before": 97281,
+  "started_utc": "2026-10-18T05:56:03Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:56:09Z",
+  "response": {
+    "id": "2c3c1910-e9cb-4d3c-854d-b0a97b69de1f",
+    "tool": "humanize",
+    "text": "Troubleshooting\n\nNothing happens\n\nTry starting a bit smaller?\n\nCan you show me a single sensation in the body? Can you show me a single word? Can you show me how you know whether to listen or rest today?\n\nWhat about it seems fake?\n\nDo you know what is fake? Just because you don't have an inner voice/image doing this, it doesn't mean you are being a child or resisting doing the work. If you feel that something is asking you to do something that you do not want to do, then correct it. If you feel that a part might be protecting you from this, then talk to it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 89
+    },
+    "elapsed": 6
+  },
+  "balance_after": 97192
+}

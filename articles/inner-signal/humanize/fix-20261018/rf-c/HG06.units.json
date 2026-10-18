@@ -1,0 +1,89 @@
+{
+ "key": "HG06",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s",
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Protecting Yourself from Hypnotists"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?"
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "As taught by the Silva “Mind Control” method:"
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "“If you don’t learn to control your mind, someone else will!”"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "You are surrounded by many forces who are already using these techniques to train your mind. Wouldn’t it be great if you could turn the tables around and use them yourself? When you learn to use these techniques on yourself, you are using self-hypnosis techniques to befriend your deeper mind, listen to it, and empower yourself to make more of your own choices as an adult."
+   ],
+   "run": "HG06-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw2.out.txt",
+   "refix": true
+  }
+ ]
+}

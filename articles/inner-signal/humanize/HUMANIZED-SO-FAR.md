@@ -100,17 +100,17 @@ The Buddha also taught that the important thing is always to come back to mindfu
 
 # Hypnosis Evidence
 
-Hypnosis has real evidence, although it doesn’t have magical evidence. A [2024 overview of 49 meta-analyses](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full), covering 261 distinct primary studies, found the strongest support in pain, medical procedures, and work with children and adolescents. The quality still varied by outcome and study design.
+Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an [overview of 49 meta analyses](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full) containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality.
 
-Self-hypnosis has its own evidence. [A systematic review of randomized controlled trials](https://eprints.bournemouth.ac.uk/31277/4/Eason%20and%20Parris%20in%20press.pdf) reported benefits in studies involving pain, childbirth, pediatric applications, stress, and anxiety. It appeared more useful when people learned it as a real self-directed skill and practiced it several times, rather than merely pressing play on an audio file.
+Is there evidence for Self-Hypnosis? Yes. There has been [a systematic review of Randomized Controlled Trials](https://eprints.bournemouth.ac.uk/31277/4/Eason%20and%20Parris%20in%20press.pdf) of self-hypnosis, finding benefit in studies of pain, child birth, pediatric, stress, anxiety etc. Self-hypnosis seemed more useful when done as a real self-skill several times, not just listening to an audio file.
 
-That distinction matters here. I want you to learn an inner skill, not become a consumer of increasingly elaborate trance recordings.
+Here I will be teaching you a real self-skill, so you don’t end up a consumer of more and more elaborate trance recordings.
 
-Clinical caution still matters. Mayo Clinic warns that hypnosis used around stressful earlier-life events can trigger strong emotional reactions, and that other treatments may fit historical trauma work better.
+The Mayo Clinic warns that using hypnosis to deal with earlier life stressful events may invoke strong emotions and that there are other types of treatments that may be more helpful with historical trauma.
 
-Use self-hypnosis for regulation, dialogue, reparenting, clarity, habit change, present safety, emotional integration, and ordinary-life action.
+DO use Self Hypnosis to help you: regulate your self, talk to your self, re-parent your self, gain clarity, change habits, make your life safer in the now, integrate emotions, and take action in ordinary life.
 
-Do not use it to force trauma memories, prove what happened, suppress medical symptoms, destabilize yourself, or replace appropriate clinical care.
+DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force yourself to “prove” trauma through memories, suppress medical symptoms, de-stabilize your self, or NOT seek correct treatment.
 
 # Forget the left-brain/right-brain cartoon
 
