@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "f0657a2c636141afded3da2e9e29741f0445549e1958373d475bc5b0eede778d",
+          "sha256": "0a7750fff3534df7f12a75ee9c5db256bca8c45c135d5f325ff9de0546e180d0",
           "role": "owner_questions_page"
         },
         {
@@ -17564,7 +17564,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/REVIEWS.md",
-          "sha256": "cf3c817c57b9c003166f02d4278021d7b628dd35162038ee5788662ce08cfd8e",
+          "sha256": "75079a9f4b906cdedf13950b36b8b770158d3c43036c6e536726bc194375f996",
           "role": "humanization_working_record"
         },
         {
@@ -20070,6 +20070,11 @@
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/READ-eee.json",
           "sha256": "5fe041964c632f0dbc211d33f53d067633cf2a2b0058fee720975c2720071daf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/REPEATS-8-ifs.md",
+          "sha256": "9a5382ed04883d3fc53dff193b6a6876701a3863cabcaf76fba14329cb990980",
           "role": "humanization_working_record"
         }
       ]
