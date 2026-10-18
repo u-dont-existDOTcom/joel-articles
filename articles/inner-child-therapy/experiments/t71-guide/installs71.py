@@ -375,3 +375,28 @@ register('u10-ef', WAVF_P3_END, u10ef)
 # 2026-10-18, round t71ppp: TF-U11 with the paper's own answer (predictable situations, a real chance to learn them) in
 # place of the two checks the repeats check found told again next door; tf11-j, without them, read AI alone (t71ooo).
 register('tf11-k', lambda: draft('tf11-h'), lambda: draft('tf11-k'))
+
+
+# 2026-10-18, round t71ppp: installed tf89-d, tf11-k and u10-e/u10-f; the comments say why.
+TF89_C_OLD = "experiments/t71-guide/drafts/tf89-c.txt. Alone Human Written (0.0089, medium), https://www.pangram.com/history/e820f232-7085-4076-82c8-e90454ef9e3b (round t71iii; the other version, drafts/tf89-b, 0.00075); When the Adult Voice Feels Fake with it Human Written (0.062, high, 4050 words), https://www.pangram.com/history/5164f4bc-d996-478f-8c90-7694bb78eafc, and with the TF-U11 paragraph too, 0.079, high, 4184 words, https://www.pangram.com/history/d0c2d3cc-2f27-4d30-89ab-60e326ae8a21 (round t71jjj)."
+TF89_C_NEW = ("experiments/t71-guide/drafts/tf89-d.txt: round t71iii's tf89-c (alone Human Written, 0.0089, https://www.pangram.com/history/e820f232-7085-4076-82c8-e90454ef9e3b) without its first sentence, \"Being the grown-up doesn't mean your little one has to leave the room.\" (the guide's \"The adult position keeps the child inside the relationship.\"), which The Chicken-and-Egg Problem says already (\"The child isn't pushed away\"; REPEATS-10-start-with.md, 1), and whose \"Being the grown-up doesn't mean\" opens a paragraph of When the Spiritual Relationship Hurts too. "
+              "Alone Human Written (0.0013), https://www.pangram.com/history/bb112af9-7abf-4154-800c-4b811c1d0764 (round t71ooo); When the Adult Voice Feels Fake as installed with it Human Written (0.080, high, 4364 words), https://www.pangram.com/history/64bfc332-e698-45f3-8ef5-f0c8a0ee02f3 (round t71ppp).")
+register('tf89-d-note', TF89_C_OLD, TF89_C_NEW)
+
+
+def _tf11h_note():
+    t = ART.read_text(encoding='utf-8')
+    i = t.find("experiments/t71-guide/drafts/tf11-h.txt: round t71jjj's tf11-g")
+    if i < 0:
+        return None
+    j = t.index('(round t71mmm).', i) + len('(round t71mmm).')
+    return t[i:j]
+
+
+TF11_CHECKS_OLD = "Of the guide's three checks, contradiction is left to his \"It should make sense, too.\" in the paragraph before."
+TF11_CHECKS_NEW = ("The guide's three checks are next door: whether it makes sense and what you actually know in his paragraph before (\"It should make sense, too.\", \"checked it against what you actually know\"), track record in the anxiety paragraph after (\"It's probably been wrong before too\"). "
+                   "The repeats check found them told again here (REPEATS-10-start-with.md, 9 and 10), so this paragraph gives the paper's own answer instead, from its abstract: whether the situation is predictable, and whether you've had a real chance to learn it.")
+register('tf11-k-checks', TF11_CHECKS_OLD, TF11_CHECKS_NEW)
+register('tf11-k-note', _tf11h_note,
+         "experiments/t71-guide/drafts/tf11-k.txt. Before it: tf11-g (alone 0.052, round t71jjj), then tf11-h with \"so hear it out, and then let your head have a look\" (a cold read of Start With Whatever Showed Up paused at the next paragraph's \"the same kind of listening\", COLD-READ-t71-start-with.md; alone 0.057, the h1 0.074, round t71mmm), whose long sentence then read as a 40-word AI window in the h1 once anything changed before it (rounds t71nnn, t71ppp); tf11-j, without the two checks, read AI alone (0.42, round t71ooo). "
+         "Alone Human Written (0.044, high), https://www.pangram.com/history/5bda833d-7c4e-4b1b-8129-46d375f7656a; When the Adult Voice Feels Fake as installed with it Human Written (0.080, high, 4364 words), https://www.pangram.com/history/64bfc332-e698-45f3-8ef5-f0c8a0ee02f3 (round t71ppp).")
