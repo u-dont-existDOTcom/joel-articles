@@ -105,3 +105,20 @@ def appendix(ap10='ap10-c', ap11='ap11-c', ap14='ap14-a'):
 
 
 register('appendix', WORTHY_LAST, appendix)
+
+
+def y1_old():
+    return (A / 'experiments/t70-guide/drafts/sp5-p2-y1.txt').read_text(encoding='utf-8').strip()
+
+
+Y1_COMMENT_OLD = "<!-- Turn 70 (E190, his moves: a spoken answer to the question, both sides said): saying it doesn't make the memory fiction, it's still what happened as far as you remember it, though details may be fuzzy; nobody's off the hook, you included, and any repair that's owed is still owed; if the line helps, keep it to one line (experiments/t70-guide/drafts/sp5-p2-y1.txt). Alone Human Written (0.14), https://www.pangram.com/history/d44e6e34-fcad-471f-896c-1320522ae688; with P1 Human Written (0.056, medium) (round t71a); the h2 Human Written (0.24, high), https://www.pangram.com/history/c9f9e639-32af-46ea-a863-1bb460af2d8e. -->"
+
+
+def y1b():
+    return '\n\n'.join([
+        "<!-- Turn 70 (E190, his moves: a spoken answer to the question, both sides said): saying it doesn't make the memory fiction, it's still what happened as far as you remember it, though details may be fuzzy; nobody's off the hook, you included, and any repair that's owed is still owed (experiments/t70-guide/drafts/sp5-p2-y1.txt). Turn 71, the cold read's two fixes (experiments/t71-guide/COLD-READ-t71-altered.md): \"the one who did the harm\" for \"the one who did it\" (nothing had named the harm), and \"If the phrase does the trick, leave it at that, no need to narrate the whole thing.\" for \"If the line helps, keep it to the one line.\" (two lines had been offered); experiments/t71-guide/drafts/y1-b.txt. Alone Human Written (0.26), https://www.pangram.com/history/66884613-4940-4820-bacd-d2fa9c26038d; the h2 Human Written (0.18, high, 234 words), https://www.pangram.com/history/9ecdbffb-3440-422f-ae3b-32fdfb71a288 (round t71i). -->",
+        draft('y1-b'),
+    ])
+
+
+register('xandria-p2', lambda: (Y1_COMMENT_OLD + '\n\n' + y1_old()) if (Y1_COMMENT_OLD + '\n\n' + y1_old()) in ART.read_text(encoding='utf-8') else None, y1b)
