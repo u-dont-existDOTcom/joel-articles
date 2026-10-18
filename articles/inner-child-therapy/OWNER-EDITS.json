@@ -1433,7 +1433,7 @@
    "joel": "2026-10-09 02:06 UTC: \"all those T1-9 points look good, if they aren't already in the guide. C2 looks fine yes teaching points makes sense\"",
    "where": "Before You Try to Go Deep; Your Body Might Need Some Love First; Also Look Outward",
    "must_contain_exact": [
-    "And if the grown-up you is there, and it's just how deep you're going that's too much, I'd go shallower. Some people try one technique after another instead, to prove to themselves they can take it. Your little one may have had to just take it back then, though. Now there's a grown-up around who can say, \"Okay, that's enough for today,\" and try something gentler instead of giving up on them. Even just saying hi to them with your eyes open, before any imagery, counts.",
+    "And if the grown-up you is there, and it's just how deep you're going that's too much, I'd go shallower. Like the flight attendants say, it's good to know where the exits are. 😅 So can you stop in the middle and come back to the room? If you can't, or going in at all keeps making it worse, I'd come all the way back out first. Some people try one technique after another instead, to prove to themselves they can take it. Your little one may have had to just take it back then, though. Now there's a grown-up around who can say, \"Okay, that's enough for today,\" and try something gentler instead of giving up on them. Even just saying hi to them with your eyes open, before any imagery, counts.",
     "A full break from your little one is a last resort. Sometimes it isn't up to you, though, like when something's actually unsafe. If you do need one, I'd jot down why, and how far you'd gotten before it got to be too much. A couple of lines on your phone is plenty. After a while away, it gets hard to remember. So once that reason has changed and you want to come back, the note tells you where it was still okay. I'd start there, or somewhere a bit gentler.",
     "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much. This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met. Even staying present the whole time doesn't tell you enough by itself. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
     "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much? A lot of the time you just know.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier, one change at a time, so you learn what made the difference. If you're getting worse, though, change several things at once, and get some support.",
@@ -1455,7 +1455,7 @@
     "I can't tell you where to look for people who fit you, but I",
     "### Write It."
    ],
-   "note": "2026-10-18 (turn 72): his answers to 54 (19:06 UTC, and 19:26 \"yes you read me correctly\"): 4 and 6 (his dating sentence out, the reassurance machine merged in), 9 (the full break as a last resort, first), 12 C (\"your only support\"); the checks quote the paragraphs as they stand now."
+   "note": "2026-10-18 (turn 72): his answers to 54 (19:06 UTC, and 19:26 \"yes you read me correctly\"): 4 and 6 (his dating sentence out, the reassurance machine merged in), 9 (the full break as a last resort, first), 12 C (\"your only support\"); the checks quote the paragraphs as they stand now. 2026-10-18 (turn 72, round t72f): P2 now has coming out first after \"I'd go shallower.\", his 54, 8, B and 10, A."
   },
   {
    "id": "san-pedro-correction-20261010",
@@ -2610,6 +2610,28 @@
     "That \"Present Time\" ending is worth stealing for every session",
     "\"That's enough for today. We're going back to the life we're building.\"",
     "Going back to your life is part of the healing, too."
+   ]
+  },
+  {
+   "id": "move-dangerous-20261018",
+   "status": "applied",
+   "what": "His section move, half done: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking, its text unchanged (Before You Try to Go Deep with it Human Written 0.090, high, https://www.pangram.com/history/83e7e712-260e-4c40-8a11-de49411e63bb, round t72f). You Don't Need an Inner Monologue stays where it was for now: moved too, every version had AI windows in Your Body Might Need Some Love First P3 to P5 (round t72e), and that entry is move-monologue-pending-20261018.",
+   "joel": "2026-10-18 19:06 UTC: \"i think we should move \"you don't need an inner monologue section\" to right after \"when healing turns into checking\" and we should move \"when the present-day adult is dangerous\" after that, since both of those to me are less likely to be important for most people compared to the other sections,and the didn't really fit where they were.\"",
+   "order": [
+    "### When Healing Turns Into Checking",
+    "## When the Present-Day Adult Is Dangerous to the Child",
+    "# Borrow the Adult Before You Can Be the Adult"
+   ]
+  },
+  {
+   "id": "move-monologue-pending-20261018",
+   "status": "pending",
+   "what": "The other half of his move: You Don't Need an Inner Monologue right after When Healing Turns Into Checking, before When the Present-Day Adult Is Dangerous to the Child. Waits for Your Body Might Need Some Love First P3 to P5 to read Human without his Inner Monologue section before them (rounds t72b, t72c and t72e).",
+   "joel": "2026-10-18 19:06 UTC (as move-dangerous-20261018)",
+   "order": [
+    "### When Healing Turns Into Checking",
+    "## You Don’t Need an Inner Monologue",
+    "## When the Present-Day Adult Is Dangerous to the Child"
    ]
   }
  ]

@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "05cd198d3bd0fe0e33a9dac3cfee6b3db68a0832814a33290c949b67e495bd97",
+          "sha256": "f7161544695763e7b8f6e44ef71440cd443a65051adafda82e8f0fa092e6315d",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "68bf03a42ec4bec68fe20fc18be11968f52f9c334ac6e226daa72d62b3c85696",
+          "sha256": "bdc70f32456095335f59d4a6753ed93a14fa6ed32563bc5e232dfcc7cda0227b",
           "role": "owner_edits_ledger"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "ee390707d59a47dec2b091e6f919d1a7c92adc921a5a85fdd1b8975526cb1351",
+          "sha256": "00369a1804ce5f026809e09e12c8e4fda64a2f3091e893b7435136a77e57e2b3",
           "role": "detector_prediction_log"
         },
         {
@@ -21189,7 +21189,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t72-guide/REVIEWS.md",
-          "sha256": "ca5d39346a585381697aafa3581eca6746740406194eb27fcb4ba328665f3b84",
+          "sha256": "1adf05a4b457e79c8cff3804601b1dc5beddcedae38b288f39ae0767bd8f2785",
           "role": "humanization_working_record"
         },
         {
@@ -21546,6 +21546,16 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn72-f.js",
           "sha256": "e06e085525b51ba86ca3b73fb6b8826d812c5e90542b0845d92e8ba11105e781",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t72-guide/READ-f.json",
+          "sha256": "ece8dc7ba9c517a9da9508c5578e176dbaa6b165097bad936d7a92778baae4d0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t72-guide/RESULTS-f.json",
+          "sha256": "f20c45de26266674ba13aee40900093e5217e0121d92f0c942cfef1c139c3282",
+          "role": "detector_experiment_result"
         }
       ]
     },
