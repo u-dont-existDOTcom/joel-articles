@@ -944,7 +944,7 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 ### Next
 
-1. His answers to 45 and 47 to 54, and his merge of the turn-71 pull request.
+1. His answers to 45 and 47 to 54, and his merge of the turn-71 pull request, #192 (he was back at 11:12 UTC: "hi, i'm back, you can show me your progress now", `t71-answers/JOEL-20261018-1112.md`).
 2. With his answers: whatever they change (his lines in IFS and Teachers, the loveyhuasca link, his repeats, my six pointers, the test line, and any of 54's points he wants back, each checked again).
 3. Records only: OWNER-LOCKS.json and the dangerous-adult compression amendment still name "the child is not a diagnostic test", which his own P1 left implicit (`TRACE-r4-A.md`, notes on 8 and 10).
 
