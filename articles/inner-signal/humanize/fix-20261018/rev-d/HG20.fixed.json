@@ -139,7 +139,7 @@
     7
    ],
    "paras": [
-    "Somedays, when that’s the help you chose, it may be best to be quite firm with yourself: \"Let the explanation wait a moment. What do I feel as I say that?\" Being direct can focus your attention without deciding the answer. Somedays it may be best simply to focus yourself on a feeling, rather than waiting until it has become pleasant. If you’re still present, can change direction, and want to continue, sadness or tension on its own doesn’t mean you have to stop."
+    "Somedays, when that’s the help you chose, it may be best to be quite firm with yourself: \"Let the explanation wait a moment. What do I feel as I say that?\" Being direct can focus your attention without deciding the answer. Somedays it may be best simply to focus yourself on a feeling, rather than waiting until it has become pleasant. If you’re still present, can change direction, and want to continue, sadness or tension on its own doesn’t mean you have to stop. It can be ok to stay."
    ],
    "run": "HG20-r1-s2",
    "file": "fix-20261018/emu-c/HG20-r1-s2.out.txt",
@@ -154,7 +154,8 @@
      "type": "WRONG",
      "what": "when you remain present, can change direction and want to continue, sadness or tension alone doesn't require an exit",
      "replace": "If you can remain with a feeling long enough to change its direction, and if you then want to continue, it's not always necessary to have the feeling be pleasant in order for you to stay with it. Sadness and tension can sometimes be ok, if you know that you can leave, if you want to.",
-     "with": "If you’re still present, can change direction, and want to continue, sadness or tension on its own doesn’t mean you have to stop."
+     "with": "If you’re still present, can change direction, and want to continue, sadness or tension on its own doesn’t mean you have to stop. It can be ok to stay.",
+     "march_note": "march-ab: the fix had taken out the break; put back"
     }
    ],
    "verdict": "fixed"
@@ -394,7 +395,7 @@
     20
    ],
    "paras": [
-    "Go back to the difficult part only when you choose to. If you find that you are losing track of the present, things are becoming more and more unreal for you, or you are finding it difficult to switch or stop what you are doing, then stop exploring within and use the full return. If you find that you are having trouble orienting for a prolonged period, then please get human help, not a stronger induction."
+    "You can always come back to this when you choose to. If you find that you are losing track of the present, things are becoming more and more unreal for you, or you are finding it difficult to switch or stop what you are doing, then stop exploring within and use the full return. If you find that you are having trouble orienting for a prolonged period, then please get human help, not a stronger induction."
    ],
    "run": "HG20-r1-s6",
    "file": "fix-20261018/emu-c/HG20-r1-s6.out.txt",
@@ -403,7 +404,8 @@
      "type": "SHIFT",
      "what": "return only when you choose",
      "replace": "You can always come back to this at a later time.",
-     "with": "Go back to the difficult part only when you choose to."
+     "with": "You can always come back to this when you choose to.",
+     "march_note": "march-ab: the fix had taken out the break; put back"
     },
     {
      "type": "LOST",

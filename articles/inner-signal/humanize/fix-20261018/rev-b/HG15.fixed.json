@@ -50,8 +50,8 @@
     "Trying to find out how your inner child feels, results in guesses instead of feeling",
     "You find that you can rebel, but you can’t choose",
     "A useful way to explain this is that you didn’t have the room to explore “what do I like?”, “what do I want to try out?” or “who am I when nobody is grading me?”, because as a child your attention went into avoiding pain, reading danger, meeting expectations and keeping the bond. (That’s a practical model, not a claim about one specific brain system.)",
-    "Sometimes it is necessary to distance yourself for a certain period from the people or group that you are getting your answers from so that you can distinguish between what you want and what you are told to want. However, don’t do this for long (staying isolated would defeat the purpose) – just long enough to differentiate what is yours from what is social.",
-    "This means moving from a “human doer” to a “human being”. If you don’t feel like you are good enough just because you exist, you will try to create a sense of worth by being beautiful, by doing something well, by being smart, by gaining status, by being spiritual, or by being needed. These can all be real gifts. They turn into a bargain with yourself when failing at them feels like losing yourself – that as long as you are good at something (or good at being good for other people), you will be good enough to belong. And if you fall short in that arena, you feel that you are not good enough.",
+    "Sometimes it helps to distance yourself for a certain period from the people or group that you are getting your answers from, so quieter preferences can surface. However, don’t do this for long (staying isolated would defeat the purpose) – just long enough to differentiate what is yours from what is social.",
+    "This means moving from a “human doer” to a “human being”. If you don’t feel like you are good enough just because you exist, you will try to create a sense of worth by being beautiful, by doing something well, by being smart, by gaining status, by being spiritual, or by being needed. These can all be real gifts. They turn into a bargain with yourself when failing at them feels like losing yourself – that as long as you are good at something (or good at being good for other people), you will be good enough to belong.",
     "To help you find yourself, ask yourself these questions:",
     "What do I like when no one is watching?",
     "What do I believe before I check what other people think?",
@@ -164,6 +164,30 @@
      "what": "the body isn't infallible, but it deserves a seat at the hearing",
      "replace": "Then see what your body tells you.",
      "with": "Then see what your body tells you. It isn’t always right, but it deserves a seat at the hearing."
+    },
+    {
+     "type": "SHIFT",
+     "what": "distance helps (not necessary)",
+     "replace": "Sometimes it is necessary to distance yourself",
+     "with": "Sometimes it helps to distance yourself",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "REPEAT",
+     "what": "said twice in the paragraph; and quieter preferences surface",
+     "replace": "that you are getting your answers from so that you can distinguish between what you want and what you are told to want.",
+     "with": "that you are getting your answers from, so quieter preferences can surface.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "REPEAT",
+     "what": "falling short said twice after my fix",
+     "replace": " And if you fall short in that arena, you feel that you are not good enough.",
+     "with": "",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

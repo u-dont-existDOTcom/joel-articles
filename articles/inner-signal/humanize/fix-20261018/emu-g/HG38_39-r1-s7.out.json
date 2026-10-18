@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG38_39-r1-s7.txt",
+  "input_words": 70,
+  "input_sha256": "8dc43dd3804faac529ec89a3b7410556cb048d7ade4d192d52a1b1e0495c6dc3",
+  "balance_before": 126349,
+  "started_utc": "2026-10-18T03:35:14Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:35:21Z",
+  "response": {
+    "id": "338bb95a-dce8-4505-8bd7-ef9c8a1d508a",
+    "tool": "humanize",
+    "text": "Ground yourself in your current physical space by noticing the acoustics of the room and sensing your body. Visualize stepping purposefully toward your chosen location. As you \"walk,\" focus your attention by gathering information about the surroundings through auditory and tactile senses, such as listening to your footsteps, feeling textures, or observing landmarks. You may skip this step and jump straight into a dialogue if preferred, or change the scenery. Remember, there's no hidden meaning to look for, just allow the scene to unfold naturally and let curiosity guide you to discover who or what you need to speak to. Once you've completed your interaction, retrace your steps back to your starting point and close the space.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 70
+    },
+    "elapsed": 6
+  },
+  "balance_after": 126279
+}

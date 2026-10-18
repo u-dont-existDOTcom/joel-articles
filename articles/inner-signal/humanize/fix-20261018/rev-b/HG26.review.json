@@ -116,7 +116,8 @@
     "type": "LOST",
     "what": "choose the range by the actual response and the support you have; confidence alone doesn't supply missing support",
     "replace": "It is up to you to find how wide or narrow a range to work in, and that will be different for different people.",
-    "with": "It is up to you how wide or narrow a range to work in, and that will be different for different people: watch how you actually respond and what support you have. Feeling confident doesn’t make up for support you don’t have."
+    "with": "It is up to you to find how wide or narrow a range to work in, and that will be different for different people. Watch how you actually respond and what support you have. Feeling confident doesn’t make up for support you don’t have.",
+    "march_note": "march-ab: the fix had taken out the break; put back"
    },
    {
     "type": "SHIFT",

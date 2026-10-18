@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s1.txt",
+  "input_words": 83,
+  "input_sha256": "21b78e932120dd374047ef0338893292e59d0cf46639099b1ba32824f95182c9",
+  "balance_before": 128723,
+  "started_utc": "2026-10-18T03:31:50Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:31:58Z",
+  "response": {
+    "id": "165c3bd6-1c4b-4959-9fb7-768d3f97aec6",
+    "tool": "humanize",
+    "text": "Note: Using an induction will help your focus, making it easier to tap into the more esoteric parts of this work. That said, you don’t need to go into a trance state, play asleep, or give up your power to anyone. If you’re sober and distracted, or too analytical or guarded to easily reach the parts of you that need this work, it may be helpful to use an actual induction. However, if you’ve already gone into a trancey state through meditation or loveyhuasca or lucid dreaming, or you are freshly grieving or have been deeply moved by music or prayer or you are simply sleep deprived, you may want to skip ahead to the orientation and containment sections.\n\nA note on how deep of a trance you need to go into for this work:",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 83
+    },
+    "elapsed": 7
+  },
+  "balance_after": 128640
+}

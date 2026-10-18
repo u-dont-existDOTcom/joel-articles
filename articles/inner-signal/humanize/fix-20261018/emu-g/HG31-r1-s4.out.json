@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG31-r1-s4.txt",
+  "input_words": 94,
+  "input_sha256": "0393a91fb416cfb9555b330062edef2ea5893b13e01429516d25ca02b0d3781a",
+  "balance_before": 127748,
+  "started_utc": "2026-10-18T03:33:11Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:33:17Z",
+  "response": {
+    "id": "32d7cfb1-25a1-40af-a531-26696e0cce44",
+    "tool": "humanize",
+    "text": "What is Pacing and Leading?\n\n“Even though the anxiety is here, and the activation in the body is here, and even though that protector is doing its’ best, one breath at a time the adult in me is here to listen.”\n\nPacing and Leading is as simple as:\n\n“It is completely true that (insert current sensation or emotion), and it is completely true that (insert current behavior or thought as a protective response), and at the same time the adult in me is here, breathing in this room, and ready to listen.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 94
+    },
+    "elapsed": 5
+  },
+  "balance_after": 127654
+}

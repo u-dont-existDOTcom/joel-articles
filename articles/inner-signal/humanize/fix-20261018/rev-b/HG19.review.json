@@ -1,9 +1,76 @@
-[{"block": 1, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "sit rather than lie down when you tend to daydream, dissociate or fall asleep; lying down is for sleep, deep rest or dream incubation (not 'sit in a place where you won't daydream')",
-   "replace": "Make sure you are not lying down when you do this exercise, unless you are ready to go to sleep or receive deep rest or are trying to incubate dreams. Sit in a place where you will not find yourself daydreaming, dissociating or going to sleep.", "with": "If you tend to daydream, dissociate or fall asleep, sit up rather than lying down for this exercise. Save lying down for when you’re ready to go to sleep or receive deep rest or are trying to incubate dreams."},
-  {"type": "SHIFT", "what": "the invocation calls on all that serves truth and love (not anything that can help), asks for help to understand, in the form and timing that is useful, kind, stabilizing and real",
-   "replace": "everyone and everything else that can help me to know what I need to know, only what I need to know in a useful, kind, stabilizing, real way…", "with": "all that serves truth and love: please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing and real.”"},
-  {"type": "LOST", "what": "without forcing an answer", "replace": "Ask your conscious mind to listen.", "with": "You’re asking your conscious mind to listen without forcing an answer."},
-  {"type": "SHIFT", "what": "the script asks the subconscious to ask what it needs to know", "replace": "or tell me what I need to know to ask,", "with": "or ask me what you need to know,"},
-  {"type": "LOST", "what": "an urge to stop", "replace": "or that this is enough listening for today.", "with": "or feel an urge to stop, or realize that this is enough listening for today."},
-  {"type": "SHIFT", "what": "believe none of it automatically", "replace": "Listen to it all and believe none of it.", "with": "Listen to it all and believe none of it automatically."}]}]
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "sit rather than lie down when you tend to daydream, dissociate or fall asleep; lying down is for sleep, deep rest or dream incubation (not 'sit in a place where you won't daydream')",
+    "replace": "Make sure you are not lying down when you do this exercise, unless you are ready to go to sleep or receive deep rest or are trying to incubate dreams. Sit in a place where you will not find yourself daydreaming, dissociating or going to sleep.",
+    "with": "If you tend to daydream, dissociate or fall asleep, sit up rather than lying down for this exercise. Save lying down for when you’re ready to go to sleep or receive deep rest or are trying to incubate dreams."
+   },
+   {
+    "type": "SHIFT",
+    "what": "the invocation calls on all that serves truth and love (not anything that can help), asks for help to understand, in the form and timing that is useful, kind, stabilizing and real",
+    "replace": "everyone and everything else that can help me to know what I need to know, only what I need to know in a useful, kind, stabilizing, real way…",
+    "with": "all that serves truth and love: please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing and real.”"
+   },
+   {
+    "type": "LOST",
+    "what": "without forcing an answer",
+    "replace": "Ask your conscious mind to listen.",
+    "with": "You’re asking your conscious mind to listen without forcing an answer."
+   },
+   {
+    "type": "SHIFT",
+    "what": "the script asks the subconscious to ask what it needs to know",
+    "replace": "or tell me what I need to know to ask,",
+    "with": "or ask me what you need to know,"
+   },
+   {
+    "type": "LOST",
+    "what": "an urge to stop",
+    "replace": "or that this is enough listening for today.",
+    "with": "or feel an urge to stop, or realize that this is enough listening for today."
+   },
+   {
+    "type": "SHIFT",
+    "what": "believe none of it automatically",
+    "replace": "Listen to it all and believe none of it.",
+    "with": "Listen to it all and believe none of it automatically."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "the invocation addresses them",
+    "replace": "Invoking: “With the help of my Higher Self, my universal heart-mind connection, my wise subconscious mind, the intelligence in my body, my inner child, my inner adults, my protective parts and",
+    "with": "Invoking: “Higher Self, universal heart-mind, wise subconscious mind, the intelligence in my body, my inner child, my inner adults, my protective parts, and",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "lightly",
+    "replace": "while you hold the intention of this exercise in the background of your mind",
+    "with": "while you hold the intention of this exercise lightly in the background of your mind",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "on its own",
+    "replace": "Notice what becomes salient to you.",
+    "with": "Notice what stands out on its own.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "garbled",
+    "replace": "or know that your need to do something",
+    "with": "or know that you need to do something",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ }
+]

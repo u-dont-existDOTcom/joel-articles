@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG37-r1-s4.txt",
+  "input_words": 109,
+  "input_sha256": "fee59cad9c526662cb31714789e3b06d1e88188799da47d14618261a34a1abaf",
+  "balance_before": 126892,
+  "started_utc": "2026-10-18T03:34:22Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:34:28Z",
+  "response": {
+    "id": "2f5391a1-0784-44a4-b8bf-9858c5772674",
+    "tool": "humanize",
+    "text": "My first thought is to fight it, banish it, hate it, show it I’m more powerful, argue with it, panic, be it, etc. I have seen different prayers, mantras, protections, banishing and exorcism forms that some people find useful. The problem is, if you fight from fear…\n\n…it becomes the center of your attention and when you hate it, give it a hook in you, or fight it from pride or panic….\n\n“I do not need to hate you. I do not need to become you. I do not need to listen to you. I do not need to fight you from fear. I simply return my attention to loving awareness.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 109
+    },
+    "elapsed": 6
+  },
+  "balance_after": 126783
+}

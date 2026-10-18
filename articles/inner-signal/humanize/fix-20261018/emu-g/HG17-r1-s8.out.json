@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s8.txt",
+  "input_words": 69,
+  "input_sha256": "24e04a7862fcb4cbf9be0a29825ed629c9fe5a173fadc92cdcc709e9b6d114c1",
+  "balance_before": 128414,
+  "started_utc": "2026-10-18T03:32:19Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:32:23Z",
+  "response": {
+    "id": "d246bbc4-240d-48fd-be33-79566a1c2026",
+    "tool": "humanize",
+    "text": "Bring to mind, lightly, what it is that you want to contact. Or simply, stay with the wish to contact.\n\nWhat do you notice now?\n\nAllow yourself some time to notice what is coming. It might be sensations, words, images, feelings, the urge to move in some way or nothing at all.\n\nAllow yourself some time to notice this, with or without words.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 69
+    },
+    "elapsed": 4
+  },
+  "balance_after": 128345
+}

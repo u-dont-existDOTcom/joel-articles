@@ -1,37 +1,222 @@
-[{"block": 1, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "the cue turns noticing into orientation and reality-testing rather than an oracle", "replace": "(See how to use synchronicity as a cue above).", "with": "(See how to use synchronicity as a cue above: it turns noticing into orientation and reality-testing, not an oracle.)"}]},
- {"block": 2, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "what a professional brings and what self-hypnosis gives", "replace": "There are definitely advantages to both working with someone and doing it yourself, and it depends on what you’re trying to do.", "with": "There are definitely advantages to both: a professional can bring pacing, containment and another set of eyes, and doing it yourself gives you instant follow-up, real-time correction and a private line to your own protectors."}]},
- {"block": 3, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "relational wounds that need another nervous system; skilled outside support may be best", "replace": "or relationship issues, you may benefit from getting the right help from the right person.", "with": "or relational wounds that need another nervous system, skilled outside support may be best."}]},
- {"block": 5, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "credentials matter without guaranteeing competent care", "replace": "(Remember, credentials are not indicators of quality care!)", "with": "(Remember, credentials matter, but they don’t guarantee competent care!)"}]},
- {"block": 6, "verdict": "FIX", "problems": [
-  {"type": "UNCLEAR", "what": "the list is what to tell them (describe), not questions", "replace": "What has and hasn’t worked for you in the past.", "with": "Tell them what has and hasn’t worked for you in the past."},
-  {"type": "WRONG", "what": "the full return, not 'coming back to the session'", "replace": "What to do if you need to come back “all the way” to the session.", "with": "How they do the full return at the end."}]},
- {"block": 7, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "evaluate what actually happened, not the method's name (not how you felt it went)", "replace": "How you felt the method went. What the method was.", "with": "Afterwards, look at what actually happened, not the method’s name."},
-  {"type": "INVENTED", "what": "'someone else on your team'; the published: self-hypnosis, combined work or another practitioner remain your choices", "replace": "working with someone else on your team, or finding someone else to help you.", "with": "combining the two, or finding another practitioner. Those stay your choices."}]},
- {"block": 9, "verdict": "FIX", "problems": [
-  {"type": "UNCLEAR", "what": "anticipations, pattern reads, sometimes something uncanny", "replace": "Things that are coming, reads, or just things that seem a bit weird", "with": "Anticipations, pattern reads, or just things that seem a bit uncanny"},
-  {"type": "SHIFT", "what": "respect the signal without turning it into an order (not: never act on it)", "replace": "should be respected, but never enacted on, because", "with": "should be respected, but not just obeyed, because"},
-  {"type": "SHIFT", "what": "it tells you, not someone", "replace": "or tell someone to do something", "with": "or tell you to do something"}]},
- {"block": 10, "verdict": "FIX", "problems": [
-  {"type": "WRONG", "what": "slow the action to the scale of its consequences, ask the adult questions, bring it to a council", "replace": "slowed down to the rate of the affect and examined by the adult and a council need to be sought.", "with": "slowed down to the scale of its consequences, looked at with the adult’s questions, and brought to a council."}]},
- {"block": 12, "verdict": "OK"}, {"block": 13, "verdict": "OK"},
- {"block": 14, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "neither automatic trust nor automatic dismissal", "replace": "It doesn’t mean either trusting or not trusting someone.", "with": "Another person doesn’t get automatic trust, or automatic dismissal."}]},
- {"block": 15, "verdict": "OK", "links": [{"published": "Hearthwork", "new": "Hearthwork"}]},
- {"block": 17, "verdict": "FIX", "problems": [
-  {"type": "INVENTED", "what": "a heading-like prefix", "replace": "Some Thoughts on Forgiveness: We can’t", "with": "We can’t"},
-  {"type": "LOST", "what": "staying angry forever lets the injury keep governing the present; what can all be true together",
-   "replace": "And yet, sometimes it’s also not so great to stay in anger forever. How do we hold all of this? It can all be true.", "with": "And yet staying angry forever can let the injury keep running the present. How do we hold all of this? It can all be true together: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later, when your relationship to what happened changes on its own."}]},
- {"block": 18, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "the harm is real, not 'may have been'", "replace": "while their actions may have been harmful,", "with": "while their actions were harmful,"},
-  {"type": "LOST", "what": "understanding limitations shouldn't make them less consequential", "replace": "that they can’t give.", "with": "that they can’t give. It doesn’t make their limitations matter any less."}]},
- {"block": 19, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "the adult's promises to the child became requests", "replace": "“You don’t have to forgive, but also, please don’t let this wound run your life forever, and don’t use spirituality to silence your pain.”", "with": "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”"}]},
- {"block": 20, "verdict": "OK"}, {"block": 21, "verdict": "OK"},
- {"block": 22, "verdict": "FIX", "problems": [
-  {"type": "UNCLEAR", "what": "name what you did without taking responsibility for what wasn't yours; let remorse register the harm or the broken value without making yourself a permanent criminal",
-   "replace": "It's important to realize that just because you didn't take responsibility for something that wasn't yours to take, doesn't mean you're a criminal if you feel remorse over the effect your action may have had, or just that it wasn't in keeping with your value system.", "with": "Name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal."}]}]
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the cue turns noticing into orientation and reality-testing rather than an oracle",
+    "replace": "(See how to use synchronicity as a cue above).",
+    "with": "(See how to use synchronicity as a cue above.) It turns noticing into orientation and reality-testing, not an oracle.",
+    "march_note": "march-ab: the fix had taken out the break; put back"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "what a professional brings and what self-hypnosis gives",
+    "replace": "There are definitely advantages to both working with someone and doing it yourself, and it depends on what you’re trying to do.",
+    "with": "There are definitely advantages to both, and it depends on what you’re trying to do. A professional can bring pacing, containment and another set of eyes, and doing it yourself gives you instant follow-up, real-time correction and a private line to your own protectors.",
+    "march_note": "march-ab: the fix had taken out the break; put back"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "relational wounds that need another nervous system; skilled outside support may be best",
+    "replace": "or relationship issues, you may benefit from getting the right help from the right person.",
+    "with": "or relational wounds that need another nervous system, skilled outside support may be best."
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "credentials matter without guaranteeing competent care",
+    "replace": "(Remember, credentials are not indicators of quality care!)",
+    "with": "(Remember, credentials matter, but they don’t guarantee competent care!)"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "the list is what to tell them (describe), not questions",
+    "replace": "What has and hasn’t worked for you in the past.",
+    "with": "Tell them what has and hasn’t worked for you in the past."
+   },
+   {
+    "type": "WRONG",
+    "what": "the full return, not 'coming back to the session'",
+    "replace": "What to do if you need to come back “all the way” to the session.",
+    "with": "How they do the full return at the end."
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "evaluate what actually happened, not the method's name (not how you felt it went)",
+    "replace": "How you felt the method went. What the method was.",
+    "with": "Afterwards, look at what actually happened, not the method’s name."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'someone else on your team'; the published: self-hypnosis, combined work or another practitioner remain your choices",
+    "replace": "working with someone else on your team, or finding someone else to help you.",
+    "with": "combining the two, or finding another practitioner. Those stay your choices."
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "anticipations, pattern reads, sometimes something uncanny",
+    "replace": "Things that are coming, reads, or just things that seem a bit weird",
+    "with": "Anticipations, pattern reads, or just things that seem a bit uncanny"
+   },
+   {
+    "type": "SHIFT",
+    "what": "respect the signal without turning it into an order (not: never act on it)",
+    "replace": "should be respected, but never enacted on, because",
+    "with": "should be respected, but not just obeyed, because"
+   },
+   {
+    "type": "SHIFT",
+    "what": "it tells you, not someone",
+    "replace": "or tell someone to do something",
+    "with": "or tell you to do something"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "slow the action to the scale of its consequences, ask the adult questions, bring it to a council",
+    "replace": "slowed down to the rate of the affect and examined by the adult and a council need to be sought.",
+    "with": "slowed down to the scale of its consequences, looked at with the adult’s questions, and brought to a council."
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "verdict": "OK"
+ },
+ {
+  "block": 13,
+  "verdict": "OK"
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "neither automatic trust nor automatic dismissal",
+    "replace": "It doesn’t mean either trusting or not trusting someone.",
+    "with": "Another person doesn’t get automatic trust, or automatic dismissal."
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "OK",
+  "links": [
+   {
+    "published": "Hearthwork",
+    "new": "Hearthwork"
+   }
+  ]
+ },
+ {
+  "block": 17,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "a heading-like prefix",
+    "replace": "Some Thoughts on Forgiveness: We can’t",
+    "with": "We can’t"
+   },
+   {
+    "type": "LOST",
+    "what": "staying angry forever lets the injury keep governing the present; what can all be true together",
+    "replace": "And yet, sometimes it’s also not so great to stay in anger forever. How do we hold all of this? It can all be true.",
+    "with": "And yet staying angry forever can let the injury keep running the present. How do we hold all of this? It can all be true together: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later, when your relationship to what happened changes on its own."
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the harm is real, not 'may have been'",
+    "replace": "while their actions may have been harmful,",
+    "with": "while their actions were harmful,"
+   },
+   {
+    "type": "LOST",
+    "what": "understanding limitations shouldn't make them less consequential",
+    "replace": "that they can’t give.",
+    "with": "that they can’t give. It doesn’t make their limitations matter any less."
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the adult's promises to the child became requests",
+    "replace": "“You don’t have to forgive, but also, please don’t let this wound run your life forever, and don’t use spirituality to silence your pain.”",
+    "with": "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”"
+   }
+  ]
+ },
+ {
+  "block": 20,
+  "verdict": "OK"
+ },
+ {
+  "block": 21,
+  "verdict": "OK"
+ },
+ {
+  "block": 22,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "name what you did without taking responsibility for what wasn't yours; let remorse register the harm or the broken value without making yourself a permanent criminal",
+    "replace": "It's important to realize that just because you didn't take responsibility for something that wasn't yours to take, doesn't mean you're a criminal if you feel remorse over the effect your action may have had, or just that it wasn't in keeping with your value system.",
+    "with": "Name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal."
+   }
+  ]
+ }
+]

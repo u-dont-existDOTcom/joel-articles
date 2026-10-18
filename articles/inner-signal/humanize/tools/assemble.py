@@ -30,22 +30,23 @@ def kb():
     return _KB
 
 
-def run_segments(emu_dirs):
-    """{(key, first block): (blocks, paragraphs, run, out file)} from the folders' back.json, later folders winning."""
+def run_segments(emu_dirs, skip=()):
+    """{(key, first block): (blocks, paragraphs, run, out file)} from the folders' back.json, later folders winning.
+    skip: runs left out, as "folder/run" (a second sample has its first sample's run name, so the folder says which)."""
     out = {}
     for d in emu_dirs:
         d = pathlib.Path(d)
         for r in json.loads((d / 'back.json').read_text(encoding='utf-8')):
-            if not str(r.get('status', '')).startswith('ok'):
+            if not str(r.get('status', '')).startswith('ok') or '%s/%s' % (d.name, r['run']) in skip:
                 continue
             for sg in r['segments']:
                 out[(r['key'], sg['blocks'][0])] = (sg['blocks'], sg['new'], r['run'], str(d / (r['run'] + '.out.txt')))
     return out
 
 
-def units(key, emu_dirs, keep=None, only=None):
+def units(key, emu_dirs, keep=None, only=None, skip=()):
     keep = KEEP.get(key, set()) if keep is None else keep
-    segs = run_segments(emu_dirs)
+    segs = run_segments(emu_dirs, skip)
     blocks = kb()[key]
     out, j = [], 0
     while j < len(blocks):
@@ -59,8 +60,8 @@ def units(key, emu_dirs, keep=None, only=None):
     return out
 
 
-def assembled(key, emu_dirs, keep=None, only=None):
-    us = units(key, emu_dirs, keep, only)
+def assembled(key, emu_dirs, keep=None, only=None, skip=()):
+    us = units(key, emu_dirs, keep, only, skip)
     text = '\n\n'.join(p for u in us for p in u['paras'])
     changed = {u['blocks'][0]: u['run'] for u in us if u['kind'] == 'emulate'}
     files = sorted({u['file'] for u in us if u['kind'] == 'emulate'})

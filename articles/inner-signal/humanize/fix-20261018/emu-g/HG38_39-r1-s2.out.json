@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG38_39-r1-s2.txt",
+  "input_words": 79,
+  "input_sha256": "6abe536391bf2998d1e0824574c5b946e35e54f068fd823ab39f1e2aaf20ed5d",
+  "balance_before": 126669,
+  "started_utc": "2026-10-18T03:34:36Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:34:44Z",
+  "response": {
+    "id": "1155bec7-a8b5-456c-b772-2e7a9d59f458",
+    "tool": "humanize",
+    "text": "To use any of these sequences you first read over them, decide if you want to use them and if you do you start working with them. You adapt them to suit the family by using lighter versions, keeping the eyes open or using no trance contact instead of induction if appropriate. Then you see what happens including nothing happening and from that you decide what to do next. Maybe move on to the next part of the sequence, or imagine what you are describing, or use a different sensory channel, or just sit there in silence or maybe stop completely. At the end of each induction you bring the family back up to full waking consciousness.\n\nIf the family are having difficulty imagining anything vividly you can translate the metaphors into a different sensory channel or just talk about them, give the rhythm, describe the space, touch the family, move them or just know what you mean.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 7
+  },
+  "balance_after": 126590
+}

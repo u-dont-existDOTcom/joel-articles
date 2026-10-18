@@ -30,11 +30,11 @@
    ],
    "paras": [
     "Sometimes, daydreaming is intuitive. Your subconscious is simulating an idea or event to help you digest grief or teach you something. The act of daydreaming may also be a creative exercise or a way your subconscious is showing you a possible future. Sometimes your subconscious will show you things you’re afraid of. Sometimes it shows you what you want.",
-    "Other times, it’s a detriment. An escape from reality. An addiction to fantasy rather than reality. Dissociation from the pain of real life. Obsession with romantic partners. An escape hatch from adult life.",
+    "Other times, it’s a detriment. An escape from reality. An addiction to fantasy rather than reality. Dissociation. Obsession with romantic partners. An escape hatch from adult life.",
     "How do you know which one it is? Ask yourself, “Is my daydreaming bringing me back into life with more clarity, love and action, or pulling me away from it into repetition, craving and avoidance?”",
     "If it’s helping you, ask: “What is the guidance inside this?”",
-    "If it’s taking you away from life, change your body before you start arguing with the story: sit up straight, open your eyes a little, feel your feet. Then ask your subconscious for help. “Hey subconscious, thanks for all these interesting images. If they’re helpful, please show me what I need to know. If they’re just a way for me to avoid dealing with life, please bring me gently into the present and show me how to deal with life in a gentle but structured way.”",
-    "Then ask yourself, “What do I need to do in the real world that I’m avoiding by daydreaming?”",
+    "If it’s taking you away from life, change your body before you start arguing with the story: sit up straight, open your eyes a little, feel your feet. Then ask your subconscious for help. “Hey subconscious, thanks for all these interesting images. If they’re helpful, please show me the guidance inside them. If they’re just a way for me to avoid dealing with life, please bring me gently into the present and show me how to deal with life in a gentle but structured way.”",
+    "Then get embarrassingly practical and ask yourself, “What real-life action is this daydream replacing?”",
     "It could be anything from “send a text message” or “stop sending text messages” to “clean my room” or “eat” or “sleep” or “deal with my grief” or “create something” or “apologize” or “leave” or “tell the truth” or “make a plan” or “get help” or “return to the task at hand” or “stop fantasizing about people who can’t love me.”"
    ],
    "run": "HG34-r1",
@@ -93,6 +93,30 @@
      "what": "'leave someone': the published says only 'leave'",
      "replace": "“leave someone”",
      "with": "“leave”"
+    },
+    {
+     "type": "LOST",
+     "what": "the guidance inside it",
+     "replace": "please show me what I need to know",
+     "with": "please show me the guidance inside them",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "get embarrassingly practical; what real-life action is this daydream replacing",
+     "replace": "Then ask yourself, “What do I need to do in the real world that I’m avoiding by daydreaming?”",
+     "with": "Then get embarrassingly practical and ask yourself, “What real-life action is this daydream replacing?”",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'from the pain of real life'",
+     "replace": "Dissociation from the pain of real life.",
+     "with": "Dissociation.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

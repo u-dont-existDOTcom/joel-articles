@@ -37,6 +37,21 @@ def window_span(n, w):
     if not m:
         return None
     words, body = int(m.group(2)), m.group(3)
+    # the reader's short forms for long texts (2026-10-18, 433g and 435g): "(from the start, N words)", "(from the start,
+    # 'Heading...', N words)", "(from 'first words', N words)", "(from 'first words' to the end)", "(from 'first words'
+    # through Heading)": the window starts there and runs the header's word count
+    sm = re.match(r"^\(from (the start|'(.*?)')", body.strip(), flags=re.S)
+    if sm:
+        i = 0 if sm.group(1) == 'the start' else n.find(sm.group(2))
+        if i < 0:
+            return None
+        j, k = i, 0
+        for mm in re.finditer(r'\S+', n[i:]):
+            k += 1
+            j = i + mm.end()
+            if k >= words:
+                break
+        return i, j
     if body.endswith('…'):
         head = body[:-1].strip()[:30]
         i = n.find(head)

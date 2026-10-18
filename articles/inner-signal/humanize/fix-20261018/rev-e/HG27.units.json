@@ -1,0 +1,52 @@
+{
+ "key": "HG27",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-f"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Closing"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Hi, I’m Sarah. I believe that your subconscious mind, your body, your analytical mind, and the part of you that feels like it needs to protect you are all on your side."
+   ],
+   "run": "HG27-f-s1",
+   "file": "fix-20261018/emu-f/HG27-f-s1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Whether or not you can “get hypnotized” isn’t as important to me as whether or not you can become a trustworthy adult."
+   ],
+   "run": "HG27-f-s1",
+   "file": "fix-20261018/emu-f/HG27-f-s1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Then listen to her when she wants to come closer. It’s easiest if you keep some of your promises to her, too, because then the guards can relax a bit. Work on loving yourself, so that your thought processes don’t fight it, and work on thinking about yourself, so that your love doesn’t slip off into fantasy. Work on applying this to your regular life, too, so that your adult can keep the promise."
+   ],
+   "run": "HG27-r1",
+   "file": "fix-20261018/emu-a/HG27-r1.out.txt"
+  }
+ ]
+}

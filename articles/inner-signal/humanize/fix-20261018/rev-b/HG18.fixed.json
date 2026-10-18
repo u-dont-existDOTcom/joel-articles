@@ -33,7 +33,7 @@
     2
    ],
    "paras": [
-    "You may wish to say, “I am bringing back only that which I choose to bring back at this time. All that is not needed at this time will remain safely stored away until such time as I am ready. I am now coming back to this place and to my body and to normal day to day living, and to one honest action. All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
+    "You may wish to say, “I am bringing back only what is useful now. All that is not needed at this time will remain safely stored away until such time as I am ready. I am now coming back to this place and to my body and to normal day to day living, and to one honest action. All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
    ],
    "run": "HG18-r1",
    "file": "fix-20261018/emu-a/HG18-r1.out.txt",
@@ -49,6 +49,14 @@
      "what": "the instructions that end are those to deepen or remain; the cue doesn't keep today's state running; I am myself, in my body, with adult judgment fully available",
      "replace": "All instructions given to me in this session are now over except for the conscious intention (or cue) to implement in the future.”",
      "with": "All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
+    },
+    {
+     "type": "LOST",
+     "what": "what is useful now",
+     "replace": "I am bringing back only that which I choose to bring back at this time.",
+     "with": "I am bringing back only what is useful now.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -59,11 +67,21 @@
     3
    ],
    "paras": [
-    "Count yourself out: 1. Coming back into your body and your chosen weight. 2. Coming back to your normal breathing pattern. 3. Coming back to awareness of your surroundings and of your location. 4. Moving your fingers and your toes and your shoulders and your eyes. 5. Opening your eyes, feeling present, normal and clear. Your session is now over."
+    "Count yourself out: 1. Coming back into your body and your chosen weight. 2. Coming back to your normal breathing pattern. 3. Hearing the room, and naming where you are. 4. Moving your fingers and your toes and your shoulders and your eyes. 5. Opening your eyes, feeling present, normal and clear. Your session is now over."
    ],
    "run": "HG18-r1",
    "file": "fix-20261018/emu-a/HG18-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "hear the room and name where you are",
+     "replace": "3. Coming back to awareness of your surroundings and of your location.",
+     "with": "3. Hearing the room, and naming where you are.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -71,7 +89,7 @@
     4
    ],
    "paras": [
-    "It is a good idea to say to yourself what day it is or what the date is, look to your left and to your right, look at something near and something far away, move about a bit before you stand up, stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back). Take note of anything that came up during your session and what you may or may not need to do as a result, and then just go about doing something normal."
+    "It is a good idea to say to yourself what day it is or what the date is, look to your left and to your right, look at something near and something far away, move about a bit before you stand up, stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back). Take note of only what actually came up during your session and what you may or may not need to do as a result, and then just go about doing something normal."
    ],
    "run": "HG18-r1",
    "file": "fix-20261018/emu-a/HG18-r1.out.txt",
@@ -81,6 +99,14 @@
      "what": "stand only when steady; repeating the count is not proof of a complete return",
      "replace": "stand up and make sure that you are oriented and alert.",
      "with": "stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back)."
+    },
+    {
+     "type": "LOST",
+     "what": "only what actually appeared",
+     "replace": "Take note of anything that came up during your session",
+     "with": "Take note of only what actually came up during your session",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

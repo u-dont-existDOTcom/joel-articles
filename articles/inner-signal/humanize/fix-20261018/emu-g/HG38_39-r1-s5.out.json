@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG38_39-r1-s5.txt",
+  "input_words": 62,
+  "input_sha256": "8cdf2601acea6fc7168293b516741327a2233a14384f103ee85b48a86f011c1b",
+  "balance_before": 126470,
+  "started_utc": "2026-10-18T03:35:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:35:07Z",
+  "response": {
+    "id": "8009cb59-80d3-473f-b922-4866ddbf04d5",
+    "tool": "humanize",
+    "text": "Try it with a natural rhythm; perhaps the rhythm of breathing or a slight hum in the throat. Try it with a more artificial rhythm, such as tapping a finger or listening to sounds outside. Even try it counting (silently) to yourself, or even with no rhythm at all. Say the words 'here, and here again' over and over, until suddenly, stop the rhythm. This will bring about its own rhythm, the first one that appears - do not try and make it blank. This might bring a bit more clarity to what word, feeling, need or action is coming up. Then go back to using a normal rhythm.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 62
+    },
+    "elapsed": 6
+  },
+  "balance_after": 126408
+}

@@ -1,0 +1,112 @@
+[
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'exquisitely designed and arranged' (a designed brain)",
+    "replace": "an exquisitely designed and arranged brain and mind",
+    "with": "a brain and mind"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "and call that adulthood",
+    "replace": "and so on and so forth.",
+    "with": "and so on and so forth, and to call that adulthood."
+   },
+   {
+    "type": "SHIFT",
+    "what": "'it is no wonder' makes the programs a result of the training; the published: meanwhile the deeper mind kept running its own programs, each with what it wants",
+    "replace": "It is no wonder that you have many different \"programs\" running in your mind, including child mind, guard, body mind, intuitive mind, fantasy mind, etc.",
+    "with": "Meanwhile, your deeper mind kept running its own \"programs\": the child mind wanting safety, the guard expecting danger, the body mind remembering what you explained away, the intuitive mind speaking before words, the fantasy mind trying to become guidance, etc."
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'I learned hypnosis from a lot of people'; the published: a lot of hypnosis teaching treats the subconscious like a machine, and that never did much for him",
+    "replace": "I learned hypnosis from a lot of people who tried to act as if the subconscious mind worked like a machine, and all they had to do was feed in a command and the machine would do what they put in.",
+    "with": "A lot of hypnosis teaching acts as if the subconscious mind worked like a machine, and all you had to do was feed in a command and the machine would do what you put in. That never did much for me."
+   },
+   {
+    "type": "SHIFT",
+    "what": "listening (not talking) until the scared kid, the guard, the body, the intuition and the part trying to run Tuesday can all be heard without one seizing the microphone",
+    "replace": "For me, a much more useful model was to learn to talk to different parts of myself until they all could listen together.",
+    "with": "For me, a much more useful model was to sit down and listen to the different parts of myself (the scared kid, the guard, the body, the intuition, the part trying to run Tuesday) until they all could be heard without one of them seizing the microphone."
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'the audience of'; self-hypnosis gathers attention",
+    "replace": "to bring the audience of the conscious mind",
+    "with": "that gathers your attention and brings the conscious mind"
+   },
+   {
+    "type": "LOST",
+    "what": "one honest inner meeting",
+    "replace": "to be able to listen and talk together.",
+    "with": "to be able to listen and talk together honestly."
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "OK"
+ },
+ {
+  "block": 9,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "proven in ordinary life",
+    "replace": "between all parts of the mind.",
+    "with": "between all parts of the mind, proven in ordinary life."
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "OK"
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'heal inner child trauma'; 'we must be skilled enough' is new; the order (begin with Higher Self when the system needs coherence, parts only when that helps); why reparenting",
+    "replace": "I work with the premise that the subconscious is an ecology, and we must be skilled enough to communicate with its many parts, to separate ourselves into those parts if necessary to better understand them, to heal inner child trauma by reparenting those parts, to coalesce that ecology into a Higher Self or universal heart when need be, and more.",
+    "with": "I work with the premise that the subconscious is a living ecology of parts, memories, impulses, images, protections and wisdom. When the system needs coherence, I begin by coalescing that ecology into a Higher Self or universal heart, and I separate into those parts only when that helps. I bring in inner-child reparenting because a wounded young part won’t be repaired by a clever suggestion."
+   },
+   {
+    "type": "LOST",
+    "what": "why prompt engineering",
+    "replace": "I also pull in elements from prompt engineering, and teach",
+    "with": "I also pull in elements from prompt engineering, because the shape of a question changes the kind of answer we can hear, and teach"
+   }
+  ],
+  "links": [
+   {
+    "published": "inner-child reparenting",
+    "new": "inner-child reparenting"
+   }
+  ]
+ }
+]

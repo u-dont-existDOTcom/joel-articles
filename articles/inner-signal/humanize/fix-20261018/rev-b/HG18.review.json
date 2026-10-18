@@ -1,14 +1,96 @@
-[{"block": 1, "verdict": "OK"},
- {"block": 2, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "one honest action", "replace": "to normal day to day living.", "with": "to normal day to day living, and to one honest action."},
-  {"type": "LOST", "what": "the instructions that end are those to deepen or remain; the cue doesn't keep today's state running; I am myself, in my body, with adult judgment fully available",
-   "replace": "All instructions given to me in this session are now over except for the conscious intention (or cue) to implement in the future.”", "with": "All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"}]},
- {"block": 3, "verdict": "OK"},
- {"block": 4, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "stand only when steady; repeating the count is not proof of a complete return",
-   "replace": "stand up and make sure that you are oriented and alert.", "with": "stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back)."}]},
- {"block": 5, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "don't wait for the missing narrator to release you", "replace": "and then using the 5 step method.", "with": "and then using the 5 step method. Don’t sit there waiting for the voice to come back and release you."}]},
- {"block": 6, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "a waking recording (one for waking practice), not 'if you are waking when it ends'", "replace": "if you are waking when the recording ends", "with": "if it’s a recording for waking practice"},
-  {"type": "LOST", "what": "an invitation to remain altered indefinitely", "replace": "blank or with an undefined reset word, etc.", "with": "blank, with an undefined reset word, or invited to stay altered indefinitely."}]}]
+[
+ {
+  "block": 1,
+  "verdict": "OK"
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "one honest action",
+    "replace": "to normal day to day living.",
+    "with": "to normal day to day living, and to one honest action."
+   },
+   {
+    "type": "LOST",
+    "what": "the instructions that end are those to deepen or remain; the cue doesn't keep today's state running; I am myself, in my body, with adult judgment fully available",
+    "replace": "All instructions given to me in this session are now over except for the conscious intention (or cue) to implement in the future.”",
+    "with": "All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
+   },
+   {
+    "type": "LOST",
+    "what": "what is useful now",
+    "replace": "I am bringing back only that which I choose to bring back at this time.",
+    "with": "I am bringing back only what is useful now.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "hear the room and name where you are",
+    "replace": "3. Coming back to awareness of your surroundings and of your location.",
+    "with": "3. Hearing the room, and naming where you are.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "stand only when steady; repeating the count is not proof of a complete return",
+    "replace": "stand up and make sure that you are oriented and alert.",
+    "with": "stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back)."
+   },
+   {
+    "type": "LOST",
+    "what": "only what actually appeared",
+    "replace": "Take note of anything that came up during your session",
+    "with": "Take note of only what actually came up during your session",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "don't wait for the missing narrator to release you",
+    "replace": "and then using the 5 step method.",
+    "with": "and then using the 5 step method. Don’t sit there waiting for the voice to come back and release you."
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "a waking recording (one for waking practice), not 'if you are waking when it ends'",
+    "replace": "if you are waking when the recording ends",
+    "with": "if it’s a recording for waking practice"
+   },
+   {
+    "type": "LOST",
+    "what": "an invitation to remain altered indefinitely",
+    "replace": "blank or with an undefined reset word, etc.",
+    "with": "blank, with an undefined reset word, or invited to stay altered indefinitely."
+   }
+  ]
+ }
+]

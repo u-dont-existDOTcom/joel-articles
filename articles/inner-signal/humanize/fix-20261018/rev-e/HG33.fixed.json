@@ -1,0 +1,549 @@
+{
+ "key": "HG33",
+ "emu_dirs": [
+  "fix-20261018/emu-b",
+  "fix-20261018/emu-f"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix D: Anxiety — body first"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Remember that the anxiety is often coming from a part of yourself that is a Protector who believes they are trying to save yourself from something bad happening. Maybe they are trying to protect yourself from danger, shame, abandonment, failure, exposure, illness, rejection, losing control, or something that the protector believes will be unbearable for yourself. Rather than getting into a dialogue where it feels as though yourself is interrogating the protector, start with yourself by taking care of the body."
+   ],
+   "run": "HG33-r1-s1",
+   "file": "fix-20261018/emu-b/HG33-r1-s1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "anxiety is often a Protector (not always)",
+     "replace": "Remember that the anxiety is coming from",
+     "with": "Remember that the anxiety is often coming from"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Always work with yourself by taking care of the body first, then the inner child, then doing some inner inquiry work, and then taking some kind of action."
+   ],
+   "run": "HG33-r1-s1",
+   "file": "fix-20261018/emu-b/HG33-r1-s1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Inner child love"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4,
+    5,
+    6
+   ],
+   "paras": [
+    "One of the things that can help is putting your hand over your heart and your other hand on your solar plexis and say lovingly, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.”",
+    "Don’t say the words, just hoping that they will work on your subconscious mind. Say them to yourself like you are talking to a frightened little child that you love."
+   ],
+   "run": "HG33-r1-s2",
+   "file": "fix-20261018/emu-b/HG33-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the script: 'Little one, you are not alone ... The adult is listening' (not 'You are a little one', 'Let the adult take this')",
+     "replace": "“You are a little one. You are not alone. You don’t have to fix this. I’m here now. Let the adult take this.”",
+     "with": "“Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.”"
+    },
+    {
+     "type": "LOST",
+     "what": "a frightened child",
+     "replace": "like you are talking to a little child that you love.",
+     "with": "like you are talking to a frightened little child that you love."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Reduced breathing / Buteyko-style breathing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "NOTE: There are some good things to be said for slowing down the breathing, especially for overbreathers and those subject to panic. Some of this is based on the Buteyko approach. However, don’t force breath holds, and creating air hunger can increase anxiety for a short period. Take things slowly."
+   ],
+   "run": "HG33-r1-s3",
+   "file": "fix-20261018/emu-b/HG33-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "don't force breath holds",
+     "replace": "However, it should not be forced,",
+     "with": "However, don’t force breath holds,"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Try breathing through the nose. Try small inhales. Try quiet exhales. Try pausing if it is comfortable. See if it is possible to quiet the breathing. STOP if this creates dizziness, strain, a sense of panic or any other medical concerns."
+   ],
+   "run": "HG33-r1-s3",
+   "file": "fix-20261018/emu-b/HG33-r1-s3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "EFT tapping"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "One of the simplest aspects of EFT is that it’s something you can do in your body. If you’re worried about something, you can name it, tap gently on your body, and get in touch with the feeling. There isn’t a ton of evidence, but a 2025 systematic review of EFT and anxiety disorders found seven randomized control trials and noted that EFT was more effective than no intervention in several studies. Still, the evidence should be handled with a bit of caution next to first-line therapies."
+   ],
+   "run": "HG33-r1-s4",
+   "file": "fix-20261018/emu-b/HG33-r1-s4.out.txt",
+   "links": [
+    {
+     "published": "2025 systematic review",
+     "new": "2025 systematic review"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "tap gently",
+     "replace": "tap on your body",
+     "with": "tap gently on your body"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'if you're not responding to first-line therapies'; the evidence should be treated cautiously beside first-line therapies",
+     "replace": "While it should be handled with a bit of caution, it’s something to keep in mind if you’re not responding to first-line therapies.",
+     "with": "Still, the evidence should be handled with a bit of caution next to first-line therapies."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "“Even though I have this anxiety, I am willing to be kind to the part of me that is afraid.”"
+   ],
+   "run": "HG33-r1-s4",
+   "file": "fix-20261018/emu-b/HG33-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "a script line (its quotation marks); kind to the part of me that is afraid",
+     "replace": "Even though I have this anxiety, I am willing to be kind to myself.",
+     "with": "“Even though I have this anxiety, I am willing to be kind to the part of me that is afraid.”"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Somatic Experiencing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14,
+    15
+   ],
+   "paras": [
+    "Would it be helpful for you to know more or even experience a free intro session on how I work as a Somatic Guide?",
+    "It's not about thrusting into the trauma, in SE we learn to track gently.",
+    "The work might begin by tracking and discovering \"Where is that activation\", and \"Where is a neutral place\", and then \"Can attention move, at a snail's pace, from one to the other?\""
+   ],
+   "run": "HG33-r1-h1",
+   "file": "fix-20261018/emu-f/HG33-r1-h1.out.txt",
+   "links": [
+    {
+     "published": "Somatic Guide",
+     "new": "Somatic Guide"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "'for to know', 'session to how'",
+     "replace": "Would it be helpful for to know more or even experience a free intro session to how I work as a Somatic Guide?",
+     "with": "Would it be helpful for you to know more or even experience a free intro session on how I work as a Somatic Guide?"
+    },
+    {
+     "type": "LOST",
+     "what": "we track gently",
+     "replace": "in SE we learn to track.",
+     "with": "in SE we learn to track gently."
+    },
+    {
+     "type": "SHIFT",
+     "what": "can attention move slowly between them",
+     "replace": "\"Where can we move, at a snail's pace, from one to the other?\"",
+     "with": "\"Can attention move, at a snail's pace, from one to the other?\""
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Gendlin Focusing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "“What is the felt sense of this whole anxiety?”"
+   ],
+   "run": "HG33-r1-s6",
+   "file": "fix-20261018/emu-b/HG33-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "the published line is the question itself",
+     "replace": "Do all of these with the felt sense of the whole:",
+     "with": "“What is the felt sense of this whole anxiety?”"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "Don’t answer from your head right away. Give your body time to get one vague sense of the whole thing. Then, ask:"
+   ],
+   "run": "HG33-r1-s6",
+   "file": "fix-20261018/emu-b/HG33-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "don't answer from the head immediately; give the body time",
+     "replace": "Give it time to get one vague sense of the whole. Then, ask:",
+     "with": "Don’t answer from your head right away. Give your body time to get one vague sense of the whole thing. Then, ask:"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "“What would this felt sense like me to know?”"
+   ],
+   "run": "HG33-r1-s6",
+   "file": "fix-20261018/emu-b/HG33-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the felt sense; 'etc.' is new",
+     "replace": "“What would this like me to know?” etc.",
+     "with": "“What would this felt sense like me to know?”"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Try out a word or phrase to see if it fits, but also look at what it says about the situation. A word that feels ok might say something that doesn’t fit. It’s good to use both, the words and the body, to correct each other."
+   ],
+   "run": "HG33-r1-s6",
+   "file": "fix-20261018/emu-b/HG33-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "'both' has nothing to point to: words and bodily attention",
+     "replace": "It’s good to use both to correct each other.",
+     "with": "It’s good to use both, the words and the body, to correct each other."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "Body supports"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "Sometimes the mind is too activated to let meditation to take care of it. It may be useful to start from the body instead. Consider massage, either self or given by someone else. Maybe massage a foot, or the scalp, or a temple, or the back of the neck, or the top of a shoulder, or whatever feels good to touch. (Avoid the front of the neck. Avoid injured, numb, bruised, inflamed, recently surgically-operated-on areas, and varicose veins. Stop if it makes the anxiety symptoms or anything else feel bad, whether immediately or later, such as painful, dizzy, tingly, etc.) Other body approaches that may help include heat, pressure, weighted blanket, darkness, favorite calming music, massage gun used carefully, etc."
+   ],
+   "run": "HG33-r1-s7",
+   "file": "fix-20261018/emu-b/HG33-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'as the first resort'",
+     "replace": "Consider massage, either self or given by someone else, as the first resort.",
+     "with": "Consider massage, either self or given by someone else."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'one foot with the other'",
+     "replace": "Maybe massage the top of one foot with the other, or the scalp,",
+     "with": "Maybe massage a foot, or the scalp,"
+    },
+    {
+     "type": "LOST",
+     "what": "a massage gun used carefully",
+     "replace": "massage gun, etc.",
+     "with": "massage gun used carefully, etc."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "Others settle with warmth, darkness, favorite music, massage, weighted blanket, breathwork, favorite object, or personal relaxation technology. Use the support that actually helps, rather than building a tiny wellness trade show around the anxiety."
+   ],
+   "run": "HG33-r1-s7",
+   "file": "fix-20261018/emu-b/HG33-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'others mentioned'; and LOST: use what actually helps, not a tiny wellness trade show",
+     "replace": "Others mentioned warmth, darkness, favorite music, massage, weighted blanket, breathwork, favorite object, and favorite personal technology.",
+     "with": "Others settle with warmth, darkness, favorite music, massage, weighted blanket, breathwork, favorite object, or personal relaxation technology. Use the support that actually helps, rather than building a tiny wellness trade show around the anxiety."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "See my ZHoly3O page for more on the use of ozonated charcoal, “holy water” as one relaxation support. Use of Blushield is also detailed there, and both are optional, not at all essential. Neither one proves that any inner signal is true. The important thing is to get the body to a state of stabilization, listen gently, and begin to discern between valid and non-valid messages from the “inner realm”. Once reality tested, come back to one grounded action."
+   ],
+   "run": "HG33-f-s1",
+   "file": "fix-20261018/emu-f/HG33-f-s1.out.txt",
+   "links": [
+    {
+     "published": "ZHoly3O",
+     "new": "ZHoly3O"
+    },
+    {
+     "published": "Blushield",
+     "new": "Blushield"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "one relaxation support (not an important tool)",
+     "replace": "as an important tool in the protocol of relaxing.",
+     "with": "as one relaxation support."
+    },
+    {
+     "type": "LOST",
+     "what": "both are optional, and they don't prove that any inner signal is true",
+     "replace": "and may be of some benefit, although not at all essential.",
+     "with": "and both are optional, not at all essential. Neither one proves that any inner signal is true."
+    },
+    {
+     "type": "LOST",
+     "what": "listen gently",
+     "replace": "to a state of stabilization where one can begin",
+     "with": "to a state of stabilization, listen gently, and begin"
+    },
+    {
+     "type": "SHIFT",
+     "what": "one grounded action",
+     "replace": "Once reality tested, take appropriate actions to restore oneself to a grounded state.",
+     "with": "Once reality tested, come back to one grounded action."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    25
+   ],
+   "paras": [
+    "Anxiety script"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    26
+   ],
+   "paras": [
+    "First, where is my body? What are my feet doing? How am I sitting in the chair? How am I breathing? What is my body doing in this room?"
+   ],
+   "run": "HG33-f-s2",
+   "file": "fix-20261018/emu-f/HG33-f-s2.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'What is my butt doing?'; and LOST 'first'",
+     "replace": "What are my feet doing? What is my butt doing?",
+     "with": "What are my feet doing?"
+    },
+    {
+     "type": "LOST",
+     "what": "first, body",
+     "replace": "Where is my body?",
+     "with": "First, where is my body?"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "And if you can hear me, little one, know that I am here. Thank you, protector, for alerting me. You do not need to scream. I got the message."
+   ],
+   "run": "HG33-f-s2",
+   "file": "fix-20261018/emu-f/HG33-f-s2.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'here to protect you'",
+     "replace": "know that I am here and that I am here to protect you.",
+     "with": "know that I am here."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28
+   ],
+   "paras": [
+    "Now if there is something my body needs to do, show me what the first step is for my body to do right now. And if no action is needed, help my body stand down gently."
+   ],
+   "run": "HG33-f-s2",
+   "file": "fix-20261018/emu-f/HG33-f-s2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "if no action is needed (not 'nothing my body can do'); gently",
+     "replace": "And if there is nothing my body can do right now, help my body stand down.",
+     "with": "And if no action is needed, help my body stand down gently."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    29
+   ],
+   "paras": [
+    "I won’t abandon the signal, but I won’t worship it either. I’ll listen, test, and act."
+   ],
+   "run": "HG33-f-s2",
+   "file": "fix-20261018/emu-f/HG33-f-s2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the signal (not you); I will listen, test and act",
+     "replace": "I won’t abandon you, but I won’t worship you either.",
+     "with": "I won’t abandon the signal, but I won’t worship it either. I’ll listen, test, and act."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

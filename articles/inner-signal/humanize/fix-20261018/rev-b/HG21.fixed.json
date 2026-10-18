@@ -21,7 +21,7 @@
     1
    ],
    "paras": [
-    "You don't need to learn a second script for this: it's the same practice (gather attention, listen, respond, wait, return). Fifteen minutes or so is just a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings have to follow. It's enough time to induce yourself (a few minutes), let the middle unfold at its own pace (five minutes of sitting in silence and listening is there when it's useful), and then bring yourself back out again (several minutes). You can break out of the process at any time, if you feel you need to do something else."
+    "You don't need to learn a second script for this: it's the same practice (gather attention, listen, respond, wait, return). Fifteen minutes or so is just a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings have to follow. It's enough time to induce yourself (a few minutes), let the middle unfold at its own pace (five minutes of sitting in silence and listening is there when it's useful), and then bring yourself back out again (several minutes). You can interrupt the listening at any time to change direction."
    ],
    "run": "HG21-r1",
    "file": "fix-20261018/emu-a/HG21-r1.out.txt",
@@ -49,6 +49,14 @@
      "what": "leave several minutes to return",
      "replace": "and then bring yourself back out again (a few minutes)",
      "with": "and then bring yourself back out again (several minutes)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "interrupt the listening to change direction",
+     "replace": "You can break out of the process at any time, if you feel you need to do something else.",
+     "with": "You can interrupt the listening at any time to change direction.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -85,7 +93,7 @@
     3
    ],
    "paras": [
-    "After practicing a few times with a recording, feel free to cut it down to the cues you still need. The idea is that eventually, you will not even need to play it back. But keep using recordings if you enjoy them: being independent means you can guide yourself, not that you have to refuse help. (Note: the optional re-entry cue can shorten an induction you already know well.)"
+    "After practicing a few times with a recording, feel free to cut it down to the cues you still need. Then try practicing without playing it back. But keep using recordings if you enjoy them: being independent means you can guide yourself, not that you have to refuse help. (Note: the optional re-entry cue can shorten an induction you already know well.)"
    ],
    "run": "HG21-r1",
    "file": "fix-20261018/emu-a/HG21-r1.out.txt",
@@ -113,6 +121,14 @@
      "what": "the note makes the return optional, which the guide never does; the optional thing is the re-entry cue, which can shorten a familiar induction",
      "replace": "(Note: in script A, the part about coming back out again is optional; if you are familiar with the induction process, it will probably be enough to simply count).",
      "with": "(Note: the optional re-entry cue can shorten an induction you already know well.)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "then try practicing without playback",
+     "replace": "The idea is that eventually, you will not even need to play it back.",
+     "with": "Then try practicing without playing it back.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
