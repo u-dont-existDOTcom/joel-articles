@@ -1,1 +1,16 @@
-{"title": "Pangram calls, scored", "description": "Every Pangram check in the community article lane that had a prediction written before it: the batch, the text, my call and why, and Pangram's result. Built from the lane's PREDICTIONS files by prediction-review/scorecard.py.", "source": {"kind": "file", "url": "/_blob/e98f439e7cc346bd1e2b07939b257772", "name": "prediction-calls.json", "format": "json"}, "updated": {"at": "2026-10-17T14:20:22Z", "by": "Claude (community article lane), through batch 414g"}, "schedule": "Rebuilt by the lane at the end of each turn with Pangram checks", "staleAfterHours": 72}
+{
+ "title": "Pangram calls, scored",
+ "description": "Every Pangram check in the community article lane that had a prediction written before it, one row per check: the batch, the check, my call and why, Pangram's result, and whether my call was right. Built from the lane's PREDICTIONS files by prediction-review/scorecard.py.",
+ "source": {
+  "kind": "file",
+  "url": "/_blob/ba7a9e72f9ca960d26441e9649d9c671",
+  "name": "prediction-calls-rows.json",
+  "format": "json"
+ },
+ "updated": {
+  "at": "2026-10-17T23:58:33Z",
+  "by": "Claude (community article lane), through batch 427g"
+ },
+ "schedule": "Rebuilt by the lane at the end of each turn with Pangram checks",
+ "staleAfterHours": 72
+}

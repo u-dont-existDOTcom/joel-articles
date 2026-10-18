@@ -1,0 +1,113 @@
+{
+ "S2v34-P2": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.5 \"here's my fixed version, reads human to apngram\" (his P2, \"Genevia\" spelled \"Geneva\"), and 46 a (the anomie paragraph after it: \"This paragraph there, with your screenshot and caption after it\")",
+  "words": 61
+ },
+ "S2v34-A46": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 50
+ },
+ "S2v34-A46+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 70
+ },
+ "S8v31-rumspringa": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 49 \"yes fix rumspringa age\"",
+  "words": 100
+ },
+ "S8v31-skills": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 49 \"yes put punishing departure back\"",
+  "words": 60
+ },
+ "S8v31-skills+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 49 \"yes put punishing departure back\"",
+  "words": 68
+ },
+ "S15v15-H2P1+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.4 \"i reworded the whole thing and it's better and human now\" (his P1)",
+  "words": 151
+ },
+ "S15v15-H2P2": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.4 (his P2; the published law link kept on \"March 2026\")",
+  "words": 112
+ },
+ "S15v15-H2P2+prev": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.4 (his P2; the published law link kept on \"March 2026\")",
+  "words": 151
+ },
+ "S16v30-H3P2+prev": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.1 \"remove one is enough\"",
+  "words": 77
+ },
+ "S16v30-H3P2+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 47.1 \"remove one is enough\"",
+  "words": 85
+ },
+ "S2v34": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v34-A46",
+   "S2v34-A46+next",
+   "S2v34-P2"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS.md (REPEATS-s2.md)",
+  "words": 673
+ },
+ "S8v31": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S8v31-rumspringa",
+   "S8v31-skills",
+   "S8v31-skills+next"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS.md (REPEATS-s8.md)",
+  "words": 1785
+ },
+ "S12v16": {
+  "kind": "section",
+  "parts": [
+   "installed"
+  ],
+  "repeats": 0,
+  "repeats_note": "nothing added: the screenshot and its caption moved out",
+  "words": 915
+ },
+ "S15v15": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S15v15-H2P1+next",
+   "S15v15-H2P2",
+   "S15v15-H2P2+prev"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS.md (REPEATS-s15.md)",
+  "words": 1389
+ },
+ "S16v30": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S16v30-H3P2+next",
+   "S16v30-H3P2+prev"
+  ],
+  "repeats": 0,
+  "repeats_note": "nothing added: his cut of \"One disagreement is enough!\"",
+  "words": 836
+ }
+}

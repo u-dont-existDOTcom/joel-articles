@@ -107,22 +107,36 @@ def _strings(o):
             yield from _strings(v)
 
 
-SENT = re.compile(r'(?<=[.!?…])["”’)]*\s+(?=["“‘(]?[A-Z0-9])')
+# A sentence ends at . ! ? or …, with any closing quotes or brackets after it kept on the sentence, and the space after it
+# kept as it was. 2026-10-17: the splitter used to swallow the closers as part of the gap and join the sentences with one
+# space, so every marked text read "keep clean. Again and again." for the article's "keep clean.” Again and again." and
+# lost the line breaks inside a block. The whole-article faithfulness pass (community lane, fix-20261017b/faithful/)
+# reported nine such "missing" quotes that the article has; earlier sweeps and pause tallies read the same damaged text.
+SENT = re.compile(r'(?<=[.!?…])(["”’)]*)(\s+)(?=["“‘(]?[A-Z0-9])')
+
+
+def sentences(block):
+    """[(sentence, the whitespace after it)], so that ''.join(s + w) gives the block back unchanged."""
+    out, pos = [], 0
+    for m in SENT.finditer(block):
+        out.append((block[pos:m.end(1)], m.group(2)))
+        pos = m.end()
+    out.append((block[pos:], ''))
+    return out
 
 
 def mark_author(section_text, owners):
     """Wrap each sentence that is the author's in the marks: the sentence appears in one of his texts, or contains a phrase
-    the ledger locks as his (25 characters or more)."""
+    the ledger locks as his (25 characters or more). Unmarked text comes back exactly as it went in."""
     out_blocks = []
     for block in section_text.split('\n\n'):
-        sents = SENT.split(block)
         marked = []
-        for s in sents:
+        for s, gap in sentences(block):
             ns = norm(s)
             his = len(ns) >= 12 and any(ns in o or (len(o) >= 25 and o in ns) for o in owners)
-            marked.append(MARK_OPEN + s + MARK_CLOSE if his else s)
-        text = ' '.join(marked)
-        text = text.replace(MARK_CLOSE + ' ' + MARK_OPEN, ' ')
+            marked.append((MARK_OPEN + s + MARK_CLOSE if his else s) + gap)
+        text = ''.join(marked)
+        text = re.sub(re.escape(MARK_CLOSE) + r'(\s+)' + re.escape(MARK_OPEN), r'\1', text)
         out_blocks.append(text)
     return '\n\n'.join(out_blocks)
 

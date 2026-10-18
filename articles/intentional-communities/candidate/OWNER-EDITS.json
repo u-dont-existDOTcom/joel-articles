@@ -1188,7 +1188,7 @@
   },
   {
    "id": "s12-joel-20261017-1311-psypost",
-   "status": "applied",
+   "status": "superseded",
    "words": "proposed",
    "what": "Section 12, the end of P2: the PsyPost study he sent, with his link and his \"no, duh\", and his screenshot after the paragraph (question 44 asks about the placement).",
    "joel": "i also want to add this link and screenshot somewhere in thea rticle where it belongs (altho it's kind of a \"no, duh\" study):  https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
@@ -1197,7 +1197,8 @@
     "A new study found that where relationships are easy to make and break, people even feel less on the same page with whoever doesn't help them reach their goals.",
     "Kind of a \"no, duh\" study, but still."
    ],
-   "link_note": "the link on \"new study\" is his: https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/"
+   "link_note": "the link on \"new study\" is his: https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/",
+   "superseded_by": "s12-joel-20261017-1716-44c"
   },
   {
    "id": "sweep-joel-20261017-1311-rules",
@@ -1215,6 +1216,293 @@
     "It's the most joking culture",
     "It's the sort of thing that doesn't make it into the history books.",
     "quietly boss"
+   ]
+  },
+  {
+   "id": "s12-joel-20261017-1716-44c",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 12: his P2 as written (my two sentences about the PsyPost study out); his screenshot after it, with his aside to me as the caption and the link on \"study\". Where it finally goes is question 46.",
+   "joel": "44c i was not saying to put the prose in, i wanted the actual screenshot with the link and my caption as that quote aside to you.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "must_contain": [
+    "Instead we optimize to fit the career market with all the little energy we've got.",
+    "It's kind of a \"no, duh\" study."
+   ],
+   "must_not_contain": [
+    "people even feel less on the same page with whoever",
+    "Kind of a \"no, duh\" study, but still."
+   ],
+   "must_link": [
+    {
+     "text": "study",
+     "url": "https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/"
+    }
+   ]
+  },
+  {
+   "id": "all-joel-20261017-1716-43",
+   "status": "claim",
+   "words": "his",
+   "what": "The exclamation rule (his 43): an exclamation is content; \"!\" becomes \".\" only where the sentence still reads right with a period. Otherwise cut the exclamation phrase itself, fix the AI structure under it, find a real turn of thought, or give him the paragraph. Applied in sections 15 and 16 (fix-20261017b/), in the gate doc.",
+   "joel": "43 the problem is you can't just change ! to . if the actual wording was put in as an exclamation. you can't change \"That's it!\" to \"that's it.\" ... so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sernse to, or idk ask me if you need help.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "must_not_contain": [
+    "That's it."
+   ]
+  },
+  {
+   "id": "all-joel-20261017-1716-45-pass",
+   "status": "applied",
+   "words": "proposed",
+   "what": "The whole-article faithfulness pass (his 45): the published words back where the readers found a loss or shift in my wording or Emulate's, in candidate sections, where Pangram read them Human (fix-20261017b/faithful/TRIAGE.md): section 9's limit, section 15's judgment and \"prosperity came through you\", section 16's \"declaring\". Section 2's \"starving\", section 15's \"No, not that either.\" and section 16's \"change how people survive\" read AI and went to him (question 47).",
+   "joel": "45 we should do a final pass to make sure it's faithful to the original i think before we are done ... i will also read it thru but if you didn't yet then you should first to save me time.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "must_contain": [
+    "I'm not claiming the Zapatistas already proved my whole model.",
+    "Being in community isn't automatically liberating. It all depends on who is allowed to belong without pretending.",
+    "had a real claim on whatever prosperity came through you later.",
+    "rather than by declaring \"money is impure!\""
+   ],
+   "must_not_contain": [
+    "It's interesting to see that being in community",
+    "whatever you made of yourself later",
+    "rather than because \"money is impure!\""
+   ]
+  },
+  {
+   "id": "all-joel-20261017-1716-43-applied",
+   "status": "applied",
+   "words": "proposed",
+   "what": "His 43 applied in sections 15 and 16 (fix-20261017b/make_excl.py): five marks to periods in section 15; in section 16 four marks to periods and \"That's it!\" out; the real reactions and his own lines kept; five that Pangram or the march showed were holding their paragraph went to him (question 47). Superseded in part on 2026-10-17 21:37 UTC: \"One disagreement is enough!\" cut at his 47.1, and \"No, not that either!\" replaced by his own rewrite (47.4); see the entries of that time.",
+   "joel": "43 ... so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sernse to, or idk ask me if you need help.",
+   "when": "2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt)",
+   "must_contain": [
+    "I find them so soothing.",
+    "Spiritual graffiti still surprises me.",
+    "Everybody here has sheep (even me), and they are super cute.",
+    "but it does mean someone has to handle it.",
+    "and don't expect anyone to hand you a spiritual service package.",
+    "Less cinematic, I know.",
+    "in one go.",
+    "Or a sauna.",
+    "And practice before you have an audience.",
+    "And the humor!",
+    "Every morning!",
+    "That's fine!",
+    "Really, go!"
+   ],
+   "must_not_contain": [
+    "I find them so soothing!",
+    "Spiritual graffiti still surprises me!",
+    "talk. That's it!"
+   ]
+  },
+  {
+   "id": "s13-joel-20261017-1914-48-excl",
+   "status": "applied",
+   "words": "proposed",
+   "what": "His 48 on section 13's exclamations (the list sent with question 48, fix-20261017b/excl-13-14.md), applied one at a time (fix-20261017c/make_s13_v35.py): 15 marks to periods (one, inside a bracket, simply dropped), \"There's lots you can do!\" out, the four the list keeps kept, the quoted visitor's own kept; one the list missed (\"Not exactly a high bar! 😅\") the same way. Held back, each its paragraph's only break in both march reads: the cuts of \"Very important!\" and \"Lots of decisions to make!\" (question 48), and the hint's mark. Section 14 unchanged. Pangram 420g: every changed paragraph Human, the section 100% Human. On 2026-10-17 21:37 UTC (48 a) \"There will be bottlenecks, sorry.\" became \"A money-free community still has scarce things and bottlenecks, sorry.\" (the published anchor back), and \"Very important!\" and \"Lots of decisions to make!\" stay at his word (\"leave those in actually, they are ok\").",
+   "joel": "i agree with your excl 13 14 ideas",
+   "when": "2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt)",
+   "must_contain": [
+    "That’s okay! You can all meet",
+    "This is the boring stuff.",
+    "Bring your values with you when you go to visit a community.",
+    "It’s a long list, I know.",
+    "That’s a real value too.",
+    "but the view isn’t going anywhere.",
+    "bottlenecks, sorry.",
+    "Not romantic, but protective.",
+    "(Not everyone does.)",
+    "Not exactly a high bar. 😅",
+    "(yes, even interns)",
+    "The key is that it's not the same people.",
+    "(And who owns the land!)",
+    "Being open to everybody felt so spiritual!",
+    "(Hopefully not all at once!)",
+    "Very important!",
+    "Lots of decisions to make!",
+    "(Hint: not the person who recruited them! 😜)"
+   ],
+   "must_not_contain": [
+    "There’s lots you can do!",
+    "This is the boring stuff!",
+    "It’s a long list, I know!",
+    "Not romantic, but protective!",
+    "(yes, even interns!)",
+    "The key is that it's not the same people!"
+   ]
+  },
+  {
+   "id": "s16-joel-20261017-2137-47-1",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 16 v30: his cut of \"One disagreement is enough!\" (fix-20261017d/make_2137.py). Pangram 421g: the paragraph Human with the one before it, the section 100% Human.",
+   "joel": "47 point 1: saying \"one is enough\" actually undermines the prior sentence \"at least one\" which indicates one is the minimum to start with... remove one is enough...",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "Get through at least one disagreement too, and keep your commitments. You can talk about a shared future later."
+   ],
+   "must_not_contain": [
+    "One disagreement is enough!"
+   ]
+  },
+  {
+   "id": "s16-joel-20261017-2137-47-2-3",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 16: \"Really, go!\" stays (47.2) and so does the version of the practice-group paragraph that passed (47.3).",
+   "joel": "point 2: fine. point 3: use the version that passed.",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "Really, go!",
+    "So what? It can still make a difference when people are going through a divorce, an illness or grief."
+   ]
+  },
+  {
+   "id": "s15-joel-20261017-2137-47-4",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 15 v15: his rewrite of P1 and P2 of \"All is not well in paradise\", as he wrote it (\"No, not quite.\" with its period, \"favort\" spelled \"favor\"), with the published law link kept after \"March 2026\". Pangram 421g: his P1 with his P2 Human, his P2 alone Human, the section 100% Human.",
+   "joel": "point 4. i disagree, the ! there does not soften the bluntness, the opposite actually, but \"not that either\" doesn't make sense. anyway i reworded the whole thing and it's better and human now",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "No, not quite. The warmth has hard limits here. One noteworthy example is the plight of LGBTQ+ people here, who cross them automatically.",
+    "consensual same-sex intimacy",
+    "so ironically, some say they're actually safer once they're arrested",
+    "using this prejudice in their favor to get refugee status",
+    "Anyway, I'm not going to praise communal belonging"
+   ],
+   "must_not_contain": [
+    "No, not that either"
+   ]
+  },
+  {
+   "id": "s2-joel-20261017-2137-47-5",
+   "status": "superseded",
+   "words": "his",
+   "what": "Section 2: his fixed P2 (\"Genevia\" spelled \"Geneva\"), in place of the installed P2 with \"starvin'\". Not in yet: with it, Pangram reads the section's first paragraph AI (422g, S2v34a, 0.31); question 52, and question 53 on the aside's attribution. Superseded at 23:10 UTC by his own opening (52 a, s2-joel-20261017-2310-52a), which waits on question 56.",
+   "joel": "point 5: starvin' is fine altho sounds like it was cheating if that's what saved it ... anyway here's my fixed version, reads human to apngram",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "it’s obvious that a lot of people can’t tolerate modern life in isolation anymore (it's literally classified as torture",
+    "but they agree that something about the current arrangement is starving them."
+   ]
+  },
+  {
+   "id": "s2-joel-20261017-2137-46a",
+   "status": "pending",
+   "words": "proposed",
+   "what": "Section 2: the anomie paragraph after his P2, with his screenshot and caption moved there from section 12, once section 2 reads 100% Human with it. Not yet: 421g (S2v34) and 422g (S2v34b) read AI windows (question 52). At 23:10 UTC it waits on his opening (52 a), which waits on question 56.",
+   "joel": "46a",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "What's starving them is anomie."
+   ],
+   "waits_for": "question 56"
+  },
+  {
+   "id": "s8-joel-20261017-2137-49",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 8 v31: \"If it can't, it can still avoid punishing departure.\" back, and Rumspringa without a fixed length; his points 1 and 4 as he wrote them. Pangram 421g: each changed paragraph Human, the section 100% Human.",
+   "joel": "49 yes dishonesty is a reason to dismiss the report that's why i changed that. yes put punishing departure back. yes fix rumspringa age. i explained the kids and money thing before -- parents handle money for kids, in or outside of community.",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "If it can't, it can still avoid punishing departure.",
+    "Amish young people, from about age 16, go through a period of freedom from parental control called",
+    "Make sure kids understand what they say will be taken seriously if they are known to be honest.",
+    "Kids in or outside of intentional communities all need to learn enough about how the money world outside operates"
+   ]
+  },
+  {
+   "id": "s13-joel-20261017-2137-48a",
+   "status": "applied",
+   "words": "proposed",
+   "what": "Section 13 v36 and v37b (fix-20261017d/make_tighten.py, make_batch423.py): the tightening pass (two of the three \"dealt with it\" out, the capitals out except his \"they HAVE to stay\", the published bottlenecks anchor back, the provisional-membership questions folded, the repeat of section 9 out, and three lines of padding out); his two exclamation phrases stay. Pangram 422g and 423g: every changed paragraph Human, the section 100% Human. \"It may sound cheesy\" and \"Until then, what's it worth?\" stay (the section read AI windows with them out).",
+   "joel": "48a and it made no difference taking those exclamation phrases out for pangram, but leave those in actually, they are ok.",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "Very important!",
+    "Lots of decisions to make!",
+    "Dealing with it for real includes the relational pl/ork",
+    "A money-free community still has scarce things and bottlenecks, sorry."
+   ],
+   "must_not_contain": [
+    "But when power had crept up in their own system over the years",
+    "REALLY dealt with it",
+    "VISIBILITY",
+    "Honestly? For the nuts",
+    "Why wouldn't they be?",
+    "Yeah, it’s tough. It’s also true."
+   ]
+  },
+  {
+   "id": "s11-joel-20261017-2137-50a",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 11: his rewrite kept; his point on private practices is in it already.",
+   "joel": "50. a. gate line is not relavent tho. i think at some point i explained like people should guide their own spirituality but it can't fall too far out of line, satanists for example get teh boot.",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "If someone starts worshipping Satan, say, they get booted."
+   ]
+  },
+  {
+   "id": "all-joel-20261017-2137-51a",
+   "status": "applied",
+   "words": "proposed",
+   "what": "Sections 13, 15 and 16, question-answer pairs and capitals (with 48 a): section 15 v16 and v17 (\"Kind of the opposite problem.\" without its tag; \"Can you believe it?\" out); \"PLUS goats\" and section 16's \"CAN\" stay (with \"can\", 422g read a window AI). Pangram: every changed paragraph Human, each installed section 100% Human.",
+   "joel": "51. a yeah make sure it reads well. i liked \"PLUS goats\" lol",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [
+    "Kind of the opposite problem.",
+    "PLUS goats",
+    "what the group has shown it CAN do"
+   ],
+   "must_not_contain": [
+    "Kind of the opposite problem, isn't it?",
+    "Can you believe it?"
+   ]
+  },
+  {
+   "id": "all-joel-20261017-2137-45a",
+   "status": "pending",
+   "words": "his",
+   "what": "Accept the humanized article: master.md (fix-20261017d/make_master.py) becomes the registered master (fix-20261017d/promote.py, PROMOTION-RECEIPT-20261017.md) once 46 to 51 are settled; waits on section 2 (question 52). At 23:10 UTC it waits on section 2 (52 a and 46 a), which waits on question 56.",
+   "joel": "45a",
+   "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
+   "must_contain": [],
+   "waits_for": "question 56"
+  },
+  {
+   "id": "s2-joel-20261017-2310-52a",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 2: his opening as he wrote it (P1 and P2, with his 53 aside), the published link on \"the U.S. Surgeon General\" kept. Not in yet: his P1 with his P2 reads Human (425g, 0.05) and his P2 alone (0.13), but every version of the section reads one AI window, the heading and his first paragraph (50 words): 425g S2v35 0.22, S2v35b 0.30, S2v35c 0.27; 426g, his two paragraphs joined, 0.23 and 0.27. Question 56 asks for his rewording of the first sentence; question 55 is on the aside's fact.",
+   "waits_for": "question 56",
+   "joel": "52 this is human: ... 53 fixed (fact checked with gemini)",
+   "when": "2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt)",
+   "must_contain": [
+    "Suddenly the longing to escape loneliness which inspired my father’s movie is everywhere again",
+    "even put out an advisory, saying roughly half of American adults experience loneliness",
+    "(it's literally listed in the UN Convention Against Torture). Folks may disagree about politics"
+   ],
+   "must_not_contain": [
+    "Or about the loneliness under it, at least.",
+    "is starvin’ them"
+   ]
+  },
+  {
+   "id": "s8-joel-20261017-2310-54",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 8: his sentence after the truthfulness line. Pangram 427g: the paragraph Human, the section 100% Human.",
+   "joel": "54 actually i would change it to: \"Make sure kids understand ... And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed.\"",
+   "when": "2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt)",
+   "must_contain": [
+    "if they are known to be honest. And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed."
    ]
   }
  ]

@@ -24,24 +24,23 @@ Humanize Joel's published intentional-communities Substack article section by se
 - 2026-10-17, after his 2026-10-16 23:38 message (the questions page's layout bug and hidden questions; his "if the community uses them" back; "it's all fairly borderline human. so we should fix it"; the book not leaning on Christian's order; the dedup): section 13 is in the article as v34 (every paragraph Human alone, batches 312g to 318g, `tools/humanization/paragraphs_alone.py` PASS; the whole section 100% Human, high, 0.06, batch 317g; the values stretch that read AI inside the section in 316g reads Human without the monologue too) and section 14 as v8 (every paragraph Human alone; the whole section 100% Human, 316g), each deduplicated. The questions page lists questions 35 to 38.
 - 2026-10-17, after his 02:07 message (35 b, 36 a, 37 a, 38 b his own section 14 paragraph; "accept 13 and 14"; his standing dedup rule: cut only when no important meaning is lost or there's no good way to merge): sections 13 (v34) and 14 (v9) are accepted (`EDITORIAL-STATUS.json`); section 10 is v5 (his 36 a, Human alone and as a section, batch 320g).
 - 2026-10-17, after his 13:11 message (39 his sentence in section 4; 40 a; 41 a, and rules that depend on the article's style; 42 his lines for section 16's last stretch; his corrections in sections 15 and 16; the PsyPost study): section 16 is in the article as v28 (every changed paragraph Human, the whole section 100% Human, 413g), so every section is in; section 15 v13, section 12 v14 (the study), section 8 v30 and section 1 (the sweep of his "this"/"quietly" rules) 100% Human (412g); section 4 v11.4 (414g, 100% Human). New checks for each correction (`docs/HUMANIZATION-GATE.md`); questions 43 to 45 open.
-- Owner edits: 76 pass, none waiting.
+- 2026-10-17, after his 17:16 message (43 his way with exclamations; 44c the screenshot as material, and the anomie point; 45 the whole-article faithfulness pass): section 12 v15 (his P2 as written, his screenshot with his caption; 415g 100% Human), section 9 v17 (the published limit back; 415g), section 15 v14 (five exclamations his way, two published phrases back; 417g) and section 16 v29 (five exclamation changes, the published "declaring"; 419g), each 100% Human. Five fresh readers compared the whole rewrite with the published article (`candidate/fix-20261017b/faithful/`, `TRIAGE.md`): the argument holds; fixes where Pangram agreed; questions 46 to 51 for the rest. Section 2 is unchanged (its paragraph is question 47).
+- 2026-10-17, after his 19:14 answer ("i agree with your excl 13 14 ideas"): section 13 v35, still accepted (`candidate/fix-20261017c/`): 15 marks to periods, "There's lots you can do!" out, one mark the list missed the same way; two cuts held back after the march reads (each its paragraph's only break) and back to him in question 48. Every changed paragraph Human, the section 100% Human (420g).
+- 2026-10-17, after his 21:37 and 23:10 answers: sections 8 v31 then v32 (his 54 sentence), 13 v37b, 15 v17 and 16 v30 (`candidate/fix-20261017d/`); section 2 waits on question 56.
+- Owner edits: 88 pass, 3 waiting (section 2's opening, the anomie paragraph, the promotion).
 
 ## Current checkpoint
 
-Sections 13 (v34) and 14 (v9) are accepted. After Joel's message of 2026-10-17 13:11 UTC, every section is in `candidate/HUMANIZED-SO-FAR.md` as a candidate:
-- Section 16, "Practice Comes Before Property": v28 (`candidate/s16/make_v28.py`, installed by `candidate/fix-20261017/install_20261017.py`), with his lines for the stretch that read AI and "quietly" out; the whole section 100% Human (413g, 0.29).
-- Section 15 v13 (his three corrections and the sweep's "This"), section 12 v14 (the PsyPost study he sent, his screenshot as an image note), section 8 v30 and section 1 (the sweep): each 100% Human as a whole (412g). Section 4 v11.4 (his answer to 39): 100% Human (414g).
-- Open questions 43 (exclamations in sections 13 to 16), 44 (the study's place) and 45 (accept the article) are on the lane's questions page.
-The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Sections 13 (v37b) and 14 (v9) are accepted; the rest of `candidate/HUMANIZED-SO-FAR.md` is candidates, each section 100% Human as a whole in Pangram's web app. After Joel's messages of 2026-10-17 21:37 UTC (his answers to 45 to 51) and 23:10 UTC (52 to 54, and the scorecard; records in `candidate/fix-20261017d/`): sections 8 v32, 13 v37b, 15 v17 and 16 v30 went in (batches 421g to 427g). Section 2 waits: his opening (52 a) reads Human as he checked it, but in the section Pangram reads one AI window, the heading and his first sentence (425g, 426g), so question 56 asks for his rewording; the anomie paragraph and his screenshot (46 a) wait with it, and question 55 is on his aside's fact (the Convention Against Torture doesn't list solitary confinement). His 45 a ("Accept it all ... once 46 to 51 are settled") is ready to run when section 2 is settled: `candidate/fix-20261017d/make_master.py` (master.md, the article without its version notes) and `promote.py` (the registry, the owner locks, the editorial status), with a receipt `PROMOTION-RECEIPT-20261017.md` still to write. Open questions 55 and 56 on the lane's questions page. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Joel's answers to questions 43 to 45; with 45 a, promotion of the humanized article to the registered master with a promotion receipt.
+- Joel's answers to questions 55 and 56; then section 2 (his opening, the anomie paragraph and the screenshot), each checked alone and in the section, and the promotion (45 a).
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
 ## Blockers / unresolved
 
-- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`). The rebuilt section 4 diagram is uploaded (his 21:05 message); the article's image 7 link is still the old one until the new address is known.
+- Open items for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`). The article's image 7 link is still the old one until the new address is known.
 - Pangram checks run in the desktop app's browser pane, signed in to Joel's account; the API key is out of credits.
 
 ## Evidence / artifacts
@@ -52,4 +51,4 @@ The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`
 
 ## Next safe action
 
-Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 187, until it merges). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): wait for Joel's answers to questions 43 to 45, then do what each answer says there. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.
+Work on a branch from `main` in this folder (`claude/community-joel-1017`, pull request 189, until it merges; 187 merged 2026-10-17 15:49 UTC). Continue with the handoff's next step (`candidate/HANDOFF-community-article.md`): wait for Joel's answers to questions 52 to 54, then do what each answer says there. Before every push, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.

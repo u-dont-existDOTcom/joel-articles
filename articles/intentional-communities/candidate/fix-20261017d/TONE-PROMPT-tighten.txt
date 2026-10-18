@@ -1,0 +1,53 @@
+You are helping a writer, Joel, tighten three sections of his long, conversational blog essay about building intentional communities. These sections were rewritten by an AI tool that pads (says a point twice, adds a filler line) and asks and answers its own questions ("So which is it? Well, in a way, it's both.", "Why bother?") or stresses words in capitals. Joel's instruction: "make sure it reads well ... lmk if you see anything that really looks weird". His voice: conversational, warm, blunt, funny, a little hippie; he writes like he talks.
+
+Below are 6 changed paragraphs, each BEFORE and AFTER. For each, read the AFTER paragraph as a reader would and answer on one line: "Change N: FINE", or "Change N: WEIRD" with the sentence that now sounds off and why (flat where it should be lively, a gap where something was cut, a lost point, a sentence that doesn't follow) and a better fix that keeps the change's aim. Don't comment on anything else in the paragraphs.
+
+Write your answer to /home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017d/TONE-tighten.md with a single Write call (at most 400 words), then reply with only the lines that aren't FINE.
+
+### Change 1 (section "Your Little Forming Group Already Is the Community")
+
+BEFORE:
+Also, don't even think about combining ownership (or any other big resource, for that matter) until you've been through at least one real conflict together and REALLY dealt with it. Not dealt with it by writing out a vision statement and shaking hands, or any other fake way of "resolving" things, like a truce nobody believes ("let's just leave each other alone"). But really, truly dealt with it. This includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means anything. Until then, what's it worth?
+
+AFTER:
+Also, don't even think about combining ownership (or any other big resource, for that matter) until you've been through at least one real conflict together and really dealt with it. Not by writing out a vision statement and shaking hands, or any other fake way of "resolving" things, like a truce nobody believes ("let's just leave each other alone"). Dealing with it for real includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means anything. Until then, what's it worth?
+
+### Change 2 (section "Your Little Forming Group Already Is the Community")
+
+BEFORE:
+And how will you handle the VISIBILITY of what the community has? There will be bottlenecks, sorry. It will be important for people to know what's owned or held in common, what you've set aside, what obligations you have to outsiders, who has authority to hand out the major resources, where conflicts of interest are, etc. It won't do to have the transfer of major resources (land, equipment, stores, outside cash, etc.) dependent on one person's memory or permission.
+
+AFTER:
+And how will you handle the visibility of what the community has? A money-free community still has scarce things and bottlenecks, sorry. It will be important for people to know what's owned or held in common, what you've set aside, what obligations you have to outsiders, who has authority to hand out the major resources, where conflicts of interest are, etc. It won't do to have the transfer of major resources (land, equipment, stores, outside cash, etc.) dependent on one person's memory or permission.
+
+### Change 3 (section "Your Little Forming Group Already Is the Community")
+
+BEFORE:
+Write down your answers to these questions: How long will a provisional membership be? What will a provisional member be responsible for and what are their rights? How will a provisional member's membership be reviewed? How might a person leave provisional membership? Who will make the decision about a person becoming a full member? (Hint: not the person who recruited them! 😜) What rights will a full member have in terms of the land, other shared resources, and their voice within the group? What will a member be responsible for over the long term? (A full member's rights and responsibilities should be addressed in your founding agreements.)
+
+AFTER:
+Write down your answers: How long is a provisional membership, and what are a provisional member's rights and responsibilities? How is it reviewed, and how does someone leave it? Who decides on full membership? (Hint: not the person who recruited them! 😜) And what rights does a full member have to the land, the shared resources and a voice in the group, and what do they owe over the long term? (Those go in your founding agreements.)
+
+### Change 4 (section "Your Little Forming Group Already Is the Community")
+
+BEFORE:
+Note that "outside" doesn't have to mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it's not the same people. An important correction that came from the Zapatistas: that authority can be an autonomous regional institution, without it turning into the state. But when power had crept up in their own system over the years, it took them a long review to push it back down. And no, autonomy still doesn't mean anyone gets to decide that individual people don't have certain non-waivable rights, or that outside jurisdiction just goes away.
+
+AFTER:
+Note that "outside" doesn't have to mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it's not the same people. An important correction that came from the Zapatistas: that authority can be an autonomous regional institution, without it turning into the state. And no, autonomy still doesn't mean anyone gets to decide that individual people don't have certain non-waivable rights, or that outside jurisdiction just goes away.
+
+### Change 5 (section "What This Looks Like From Sénégal")
+
+BEFORE:
+Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem, isn't it? And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
+
+AFTER:
+Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem. And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left.
+
+### Change 6 (section "Practice Comes Before Property")
+
+BEFORE:
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than by declaring "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
+
+AFTER:
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it can do, rather than by declaring "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)

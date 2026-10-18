@@ -1,0 +1,214 @@
+# Changes Joel made or approved
+
+From the owner-edits ledger: each entry is a change he made himself ("his" words) or a wording of mine he approved ("proposed" words). "Cuts" are published words he took out or approved taking out. A difference these explain is his choice, not a fault of the rewrite.
+
+- **s1-rulings** (, ? words): Section 1 v3: Joel's rulings of 2026-09-30 (from v3/owner-edits-v3.json)
+  - Joel: ""
+  - Cuts: "grew up on shoulders"; "boring as hell"; "very happy"; "struck me as odd"; "labor credit"
+- **s2-c10** (, ? words): Section 2: Joel's own rewrite of the paragraph on what communal ownership needs (2026-10-01 14:49), with one spelling fix, "leaching" to "leeching" [in the section 2 v3 candidate] (2026-10-14: his F4 sentence replaces its last sentence; entry s2-joel-20261014-f4 checks it.)
+  - Joel: "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leaching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or try to act helpless."
+- **s2-africa** (, ? words): Section 2: Joel's Instagram paragraph, "coming to Africa, where I'm at." (2026-10-01 14:49; the cold reader didn't know where he lives) [in the section 2 v3 candidate]
+  - Joel: ""
+- **s2-c8** (, ? words): Section 2: keep Joel's line "as Instagram comments sometimes do" (2026-10-01 14:49: "keep mine of course") [in the section 2 v3 candidate]
+  - Joel: ""
+- **s2-c4-list** (, ? words): Section 2, the AI paragraph: keep jobs, relationships and future outlook; feeds can go (2026-10-01 14:49) [in the section 2 v3 candidate]
+  - Joel: ""
+  - Cuts: "feeds"
+- **s2-my-land** (, ? words): Section 2: "my land" stays; it's a general idea, not a claim that he has land (2026-10-01 14:49) [in the section 2 v3 candidate]
+  - Joel: ""
+- **s2-c4-joel** (, ? words): Section 2, P4: Joel's last sentence, keeping the original meaning (2026-10-01 18:06; he says P3+P4 passes Pangram) [in the v3.1 candidate]
+  - Joel: "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim."
+- **s2-c9-idsay** (, ? words): Section 2, P9: "I'd say" instead of "IMO" (2026-10-01 18:06: "i'm surprised how many ppl i talk to don't know what IMO means") [in the v3.1 candidate]
+  - Joel: ""
+  - Cuts: "IMO"
+- **s3-p4** (, ? words): Section 3, P4: the proposal accepted, with Joel's minimal fix "so the angry communard goes there" for "so the anger goes there" (2026-10-02 00:52: "the usage of abstract concepts or feelings as agents is one AI tell") [in the section 3 v10 candidate]
+  - Joel: ""
+  - Cuts: "so the anger goes there"
+- **s3-p6** (, ? words): Section 3, P6: Joel's human pass (2026-10-02 00:52): "followed the founder, Stephen Gaskin", and a last sentence that says the truth was Y, not X [in the section 3 v10 candidate]
+  - Joel: "[The Farm](https://thefarmcommunity.com/), in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is."
+  - Cuts: "heavily influenced"; "It’s one thing to talk about a universal consciousness"
+- **s3-p9** (, ? words): Section 3, P9: Joel's fix (2026-10-02 00:52): he does want people to come in largely healed, without pretending they're finished; "where people don't come in pre-healed" said nearly the opposite [in the section 3 v10 candidate, with his straight apostrophes]
+  - Joel: "I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop."
+  - Cuts: "pre-healed"
+- **s3-p7b** (, ? words): Section 3, P7: Joel's rewrite of 2026-10-02 21:16 ("for section 3 p7 this passes"): "mostly private or ignored" and "it's the inner world being shaped by the outer" [in the section 3 v11 candidate, with his straight apostrophe]
+  - Joel: "The two failures mirror each other. Secular groups distribute power but leave the inner life mostly private or ignored. Spiritual groups attempt to address the inner life, but because it's the inner world being shaped by the outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path."
+  - Cuts: "inner being shaped by outer"
+- **s4-p5** (, ? words): Section 4, P5: Joel's rewrite (2026-10-02 21:16): each category leaks into a specific other one; Emulate's "intertwined with everything" was vague ("this vagueness has to be rejected") (23:49: "These four parts", the parts in the diagram under the heading; "plant medicine" declined) [in v9]
+  - Joel: "These categories leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And ..."
+  - Cuts: "is going to be intertwined with"; "plant medicine tend to"
+- **s4-p7** (, ? words): Section 4, P7: Joel's rewrite (21:16): "just as sacred" kept; "longer meetings and fewer robes" went (every wording he tried was flagged) [in the section 4 v8 candidate]
+  - Joel: "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred."
+- **s4-p11** (, ? words): Section 4, P11: Joel's rewrite (21:16): the best inner adult, three roles, "Guide" [in the section 4 v8 candidate] (2026-10-15 11:04: his new version, "the best holistic inner adult" and "your little one ... the joy of life"; entry s4-joel-20261015-1104.)
+  - Joel: "Inner-child reparenting means learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and in this process actually gains more freedom to remain alive inside you."
+  - Cuts: "not the other way around"
+- **s4-p12** (, ? words): Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate] (2026-10-14: Joel's I1 answer says the "it" of "And it's built on" is unclear, so it names inner pl/ork now; entry s4-joel-20261014-i1 checks it.) (2026-10-15 11:04: his new version, "And this reparenting journey is built on" and "I.e., listening"; entry s4-joel-20261015-1104.)
+  - Joel: "And it's built on somatic regulation first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well."
+- **s4-p13** (, ? words): Section 4, P13: Joel's rewrite (21:16): the Abhidhamma line cut, the last sentence his (23:49: "it should say staying, not still", with the missing "what") [in v9]
+  - Joel: "My contemplative practice is grounded in the early Buddhist suttas, with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far."
+  - Cuts: "Abhidhamma"; "secure enough to disagree"; "while still devoted"
+- **s4-p26** (, ? words): Section 4, P26: Joel's fix (21:16): "impractical in some locations" for "impossible" [in the section 4 v8 candidate]
+  - Joel: "Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn't find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outs ..."
+  - Cuts: "it may be impossible"
+- **s4-p28** (, ? words): Section 4, P28: Joel's correction (21:16): people do come back from visions with practical ideas, which still need sober thinking (23:49: "yes drop often") [in v9]
+  - Joel: "These are less exciting topics to discuss spiritually. It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it's often still something that needs a sober thinking-through."
+  - Cuts: "Nobody comes back from an ecstatic vision"; "it's often still"
+- **s4-p29** (, ? words): Section 4, P29: Joel's fix (21:16): "owns the land or has the final say" [in the section 4 v8 candidate]
+  - Joel: "But no amount of gorgeous land will make up for the mess that is created when one person owns the land or has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement."
+- **s4-p21** (, ? words): Section 4, P21: Joel keeps Emulate's last sentence (23:49): it lost the published irony, but "the new meaning is actually better for this. and it does read as a concession which is warranted" [in the section 4 v9 candidate]
+  - Joel: ""
+- **s5-p10-age** (, ? words): Section 5, P10: Joel (2026-10-03 04:03): "they are mine. altho i found out it was age 25 not age 26." His first ayahuasca ego deaths were at 25; the published text says 26. [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+  - Cuts: "ego deaths at 26"
+- **s5-first-person** (, ? words): Section 5's first-person lines that only the published text makes are Joel's (2026-10-03 04:03: "they are mine"): P8 "In my experience", P10 (ego deaths, the monasteries, the God or Savior complex), P18 (the respect and the learning, in his 01:18 words), P30 ("I know that call", rendered as felt). [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+- **s5-p3** (, ? words): Section 5, P3: Joel (04:03): "wider version is good but i'd say 'psychedelic medicine' since medicine is too general". [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+- **s5-p33** (, ? words): Section 5, P33: Joel (2026-10-03 04:03), on how the training ground answers the escape-pod objection: "if people are training to spread the communal system then it's not an escape from society it's building a genuine alternative"; and (2026-10-04 01:18) "p33, sure cut it": the tail ", not just escaping society" is out. [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+  - Cuts: "not just escaping society"
+- **s5-p10-sentence** (, ? words): Section 5, P10: Joel (2026-10-03 20:51): "add that sentence to the end of it so it will lead correctly into P11". [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+- **s5-p19-or** (, ? words): Section 5, P19: Joel (2026-10-03 20:51): "P19 is a hard fail ... OR is not ALSO": the facilitator may be wise, or may be one of the others. [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+  - Cuts: "They may also be someone who"
+- **s5-p23** (, ? words): Section 5, P23: Joel (2026-10-03 20:51): "I'd replace that with 'My reasons are given in those articles, respectively, since they need more space.'" (no smuggling, no "not Y" tail). [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+  - Cuts: "smuggl"
+- **s5-p28** (, ? words): Section 5, P28: Joel (2026-10-03 20:51): "which activities are private (to the individual, to a group in the community, or to the community vs the outside)" and the insured part out. [applied: section 5 v60 installed as a candidate, 2026-10-04]
+  - Joel: ""
+  - Cuts: "insured"
+- **s5-joel-20261006** (, ? words): Section 5 is Joel's own text of 2026-10-06 16:55 UTC (fully human in Pangram's web app): his heading, the opener without "Key here", P18 in two paragraphs with his lessons (lead ceremonies; "they will continue to develop their understandings as well"), P19's end, P22's advice, P25's joke, P26, P33's end. His characters kept, except the obvious typo "priveleged" → "privileged" (his ruling of 20:38: "don't preserve my obvious typos"). [applied 2026-10-06] Also, by his ruling of 2026-10-07 01:43 UTC ("section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them"): "contra-indications" → "contraindications", "pre-requisite" → "prerequisite", "re-incarnation" → "reincarnation".
+  - Joel: ""
+  - Cuts: "Key here"; "Without Pretending"; "they could still learn a lot from me"; "This is not to say that peer led ceremonies"
+- **s6-owner-lines** (, ? words): Section 6's owner lines kept exactly in the humanized section (candidate v19, 2026-10-06): the card's excerpt from Joel's own post of 2025-11-15 and the image caption. [applied 2026-10-06]
+  - Joel: ""
+- **s6-joel-20261006-2038** (, ? words): Section 6, Joel's answers of 2026-10-06 20:38 UTC: P4 "my feed" → "my social media feed" (which feed was unclear); P5 ends with his own addition ("social meda" corrected under his typo ruling); P8 "couplings" → "dependencies" (not the vaguer "connections"), "think through" (not "decide on in advance": "Not every new treatment etc can be decided on in advance"); P9 "prove … ideological loyalty", not "jump through ideological hoops". [applied: section 6 v20 installed as a candidate, 2026-10-06]
+  - Joel: ""
+  - Cuts: "jump through ideological hoops"; "decide on in advance"; "toughest connections"
+- **pl-ork-coinage** (, ? words): "Pl/ork" is Joel's coined word (play + work, defined in section 4's "The Four Parts That Have to Pl/ork Together"); it is not a typo and stays wherever the published article uses it, section 7's "inner pl/ork" included (checked 2026-10-06 after I first took it for a typo). [applied 2026-10-06]
+  - Joel: ""
+  - Cuts: "without inner work"; "doing the inner work"
+- **s6-joel-20261007-0143** (, ? words): Section 6 P8 and P9 are Joel's text of 2026-10-07 01:43 UTC ("i fixed p8p9, it was way overcompleting itself"): P8 without its closing "These are all questions…" sentence; P9 his, with "may not be guaranteed" and "contagious" (his typos fixed under his rule). [applied: section 6 v21, 2026-10-07]
+  - Joel: ""
+  - Cuts: "These are all questions that a community should consider in advance."
+- **s7-joel-20261007-0143** (, ? words): Section 7 P3's last sentence is Joel's of 2026-10-07 01:43 UTC: commas and "or" for Emulate's "and … and … and" ("that looks like emulate trying to cheat, and it wasn't needed"). [applied: section 7 v3, 2026-10-07]
+  - Joel: ""
+  - Cuts: "the childhood panic and the comparison and"
+- **s8-joel-20261007-1505** (, ? words): Section 8: Joel's texts and rulings of 2026-10-07 15:05 UTC (s8/joel-1505/joel-20261007-1505.json): his P3, P18 and P21, P7 cut with the subheading "Communal Parenting Adds On", P13's "boss", P27 and P28 moved to the top. [applied: section 8 v27, 2026-10-07]
+  - Joel: ""
+  - Cuts: "The Mother Is Primary. The Village Is Real."; "My view is that moms raise their own kids"; "that the home community does not control"; "Discuss Child-Rearing Values Before Children Are Caught Between Them"
+- **s8-joel-20261007-2021** (, ? words): Section 8: Joel's texts and OKs of 2026-10-07 20:21 UTC (s8/joel-2021/joel-20261007-2021.json): his new P10, his first paragraph of the last subsection with the published P26's point, P18 "children", P22 "a commitment they make as adults", P25's last line shortened, and P28's first sentence cut ("p28 looks better now yes"). [applied: section 8 v27, 2026-10-07] P22's "as adults" went at 23:22 (entry s8-joel-20261007-2322).
+  - Joel: ""
+  - Cuts: "goodwill doesn't answer those questions"; "Goodwill doesn't answer those questions"; "No upbringing can provide perfect freedom"; "a commitment they choose on their own"; "it requires them to help also"
+- **s8-joel-20261007-2322** (, ? words): Section 8 P22: Joel, 2026-10-07 23:22 UTC: "take out second adults that's obvious" ("a commitment they make as adults" -> "a commitment they make"). [applied: section 8 v28, 2026-10-07]
+  - Joel: ""
+  - Cuts: "a commitment they make as adults"; "a commitment they choose on their own"
+- **s9-joel-20261009-0502** (, ? words): Section 9: Joel's P9 to P12 of 2026-10-09 05:02 UTC (s9/joel-0502/joel-20261009-0502.json), with four obvious typos fixed in P12 under his rule (s9/joel-0502/joel-0502-fixed.json). [applied: section 9 v13, 2026-10-09]
+  - Joel: ""
+  - Cuts: "rein in my enthusiasm"; "leadership book"
+- **s9-joel-20261009-2208** (, ? words): Section 9: Joel's P13 and his answers of 2026-10-09 22:08 UTC (s9/joel-2208/joel-20261009-2208.json): his P13 in place of mine; "Good Government Juntas (Boards)" at the first mention; P7's "the closest thing to a whole example" kept ("doesn't seem like a hedge to me, sounds just more conversational"). [applied: section 9 v14, 2026-10-09]
+  - Joel: ""
+  - Cuts: "So what do they show?"; "a rehearsal for the Good Government Boards"
+- **s10-joel-20261010-1222** (, ? words): Section 10: Joel's message of 2026-10-10 12:22 UTC. P3+P4: "boring" out and the sentence "I don't want one super-commune with a nicer logo." cut. P6: "quietly" out (now "Cooperation also shouldn't slide into assimilation.", trace H OK). The subheading for "Federation Without Building Another State": his "Federated Communities Make a Movement, Improve Resilience", which he shortened to "Federated Communities Make a Movement" at about 13:00 UTC after grounding f1 and stance f1 both flagged "Improve Resilience" as a claim the section doesn't make. [applied: section 10 v2, 2026-10-10]
+  - Joel: "don't use the word "boring" especially "the boring problem" just change to "the problem" or "the issue" ... And don't say "I don't want one super commune "i want/don't want" which is in the tells list. ... And "super commune with a nicer logo" is an AI-tell quip. Plus "super commune" is too vague. Could mean large or could mean really good. Change to "mega-commune". Just remove that stupid sentence. . in P6, you have "quietly turn into" .... using quietly all the time like that is a huge AI tell ..."
+  - Cuts: "boring problem"; "super-commune"; "nicer logo"; "quietly turn into assimilation"; "Federation Without Building Another State"; "Improve Resilience"
+- **s11-joel-20261011-0257** (, ? words): Section 11: Joel's answers of 2026-10-11 02:57 UTC to the seven questions on OWNER-QUESTIONS.md. 1 to 3 A (P8 "even just general reputation", P15 "a lot of power" and "things … it … the gatekeepers" kept). 5 A: P18 says the prerequisites are a ceremony rule the community holds, separate from the personal principles above (P18z). 6 A: P19 says why diagnosing dissent is different from the daily signs (P19t). 7: his paragraph on land and admission goes in after P10 as P10j, with obvious typos fixed only (capitals, "formals", "it also doesn't", the ellipsis) and his straight apostrophes and quotes kept. 4 A waits for his words for "willing to be seen". [applied: section 11 v10, 2026-10-11; his P10j replaced by his own article version at 18:35 UTC, and P18 and P19 by his rewrite, entry s11-joel-20261011-1835]
+  - Joel: "1: a 2a 3a 4a 5a 6a 7 so this is not just a problem for me, it's a problem in every community, but especially in communities which form naturally over time as i'm describing may happen in my case. in such cases, there's no formal community and no formals rules until people decide to come together to make them. it doesn't make sense to do that at first, if i'm the only one there and i don't know who else will be there that i could trust. if there's one other person who comes to visit, also doesn' ..."
+- **s11-joel-20261011-1835** (, ? words): Section 11: Joel's message of 2026-10-11 18:35 UTC. "willing to be seen" cut (his 4: "this is redundant, i cut it"). His article version of the land paragraph (J1 to J3: founderism in communities that form naturally, the probation reversal, the marriage analogy) replaces P10j; P10 and J1 to J3 move to the end of the first subsection "so it flows correctly". His rewrite of the whole second subsection: R14 to R19 replace P14 to P20 (P13 unchanged). Typos fixed only: "ends by up treating" to "ends up treating" (R14), a leading space; his characters kept as typed, double spaces included. [applied: section 11 v11, 2026-10-11] 2026-10-12: J3 is checked in two parts around the sentence added from his 23:12 answer ("you can mention it's the divorce half"). (2026-10-14 21:19: J3 with single spaces, as in his paste of section 11; R15 without "There are pros and cons to each extreme, and again, a living balance must be struck." (his 26); entry s11-joel-20261014-2119 checks both.)
+  - Joel: "4 this is redundant, i cut it | 8. before critical mass, my rules apply, because it's my land ... you can't just take what i say to you and publish it. it has to make sense in context. I'd put it in as: [J1 to J3] ... and we need to put that after P10, but we need to move P10 + that to the end of the section so it flows correctly. | p15, you can' tsay "required as pre-reqs" that's redundant ... i rewrote this whole section: [P13, R14 to R19]"
+  - Cuts: "willing to be seen"; "So this is not just a problem for me"; "required as pre-reqs"; "The boundary is simple"; "ends by up treating"
+- **s11-joel-20261011-2312** (, ? words): Section 11 v12: Joel's answers of 2026-10-11 23:12 UTC to questions 11 to 16, fitted into his paragraphs as content (his 18:35 rule): J3b names the divorce half (his 16: "you can mention it's the divorce half sure"); J4 his answer on terms for visiting friends (14); R14c his answer on private practices (15), with "some practices go too far against the communal spirit" added from a cold read; R16c and R16d his answer on members who don't fit in (13: "we should specify that they will not be demonized"); R18b his grandmother case (12). Also his 13: "decide the process before the name" doesn't make sense and sounds AI, so section 13's line is fixed. My wording, his content: the checks hold his points, not exact characters.
+  - Joel: "12. ... let's say a grandmother is demonizing the commune. cutting contact with her could make things way worse ... 13. first off, "decide the process before the name" doesn't make any sense and it sounds AI. fix that. ... 14. nobody gives clear written terms to visiting friends ... 15. ... in general people can have their own private practices of course, but if they start worshipping Satan, they get booted, etc. 16. ... j3. right you can mention it's the divorce half sure."
+  - Cuts: "Decide the process before the name"
+- **s12-joel-20261012-0533** (, ? words): Section 12, Joel's message of 2026-10-12 05:33 UTC: answers 17b and 18b; P3, P7 and P16 back to the guide's text, because my versions broke their meaning (P3 lost "for community", P7 became "But it's not infinite.", P16 lost "this language of capacity", "capacity" and "remains"); his own last sentence for P16, which names the power; P22 out of parentheses ("that's 2 parentheticals in a row"). Page numbering: the chart is P5. (2026-10-12 17:23: his own P16 replaces the guide's first sentence; see s12-joel-20261012-1723.) (2026-10-13 21:00: his own rewrite of section 12 changed three of these strings, the Maxi Pad line, "dangerously tilted towards elitism" and the cut eight-versus-eighty paragraph; entry s12-joel-20261013-2100 checks the new text, and the rest of this entry still holds.) (2026-10-14: his W1 P3 keeps "for community" in his own characters: "aren't "good enough" for community".)
+  - Joel: "17b 18b ... p3 got b roken because you changed ""good enough" for community to "good enough" and i'm not understand anymore what they are good enough for. then you broke p7 by reducing it to "but it's not infinite" ? what? p16 also broke the meaning on the first sentence. it's not about "i don't have the capacity to" it's literalyl exactly what the guide said... and then broke again when it changed "pretending capacity is unlimited" to "pretending 'it' is unlimited" ... it referring to what? unc ..."
+  - Cuts: "But it’s not infinite."; "How to use the framing of"; "pretending it’s unlimited"; "allowing for outside review"; "(Any humane membership process"
+- **s4-joel-20261013-2100** (, ? words): Section 4: Joel's final section from his message of 2026-10-13 21:00 UTC ("here is the final section (human on pangram)"), as written. It moves the pl/ork definition and the leaking paragraph up under the four-parts heading, rewrites the old P3 ("And let's face it: ... That's more like a situationship."), renames "One principle runs through all of them" to "Founded on Freedom" (P1 less individualistic: "our practices weave the community into the quilt"), opens inner pl/ork with reparenting, rewrites the listener paragraph, merges the jealousy lines with the Romance Guide, makes medicine pl/ork and the container open with full sentences, gives his reason for less money, and puts back that the container gives the first three a stable place. Obvious typos fixed; the struck published words in his P8 taken out (his own cut, s4-p13). (2026-10-14 21:19: without "and don't freeze into doctrine", his 26; entry s4-joel-20261014-2119 checks it.)
+  - Joel: "p4-p3 is terrible ... the heading also doesn't make sense with the first para ... here is the final section (human on pangram), try to learn lessons and see what you could have figured out yourself"
+  - Cuts: "One principle runs through all of them"; "In a nutshell"; "Also, a note on agreements"; "and this part is the container itself"; "Doing serious plant medicines carefully"; "Membership, land, resources, governance"; "Personally, I’m aiming"; "It covers the dyads that will form"
+- **s12-joel-20261013-2100** (, ? words): Section 12: Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written: "like a Heavy Flow Maxi Pad", "in different ratios", the eight-versus-eighty paragraph cut and its point folded into "Once there are 80 members ...", "a difficult catch-22 for fledgling groups", "dangerously tilted towards elitism", "submit it to yourself", and the crisis item folded into the first item with "free resource calculator". Trailing spaces taken out; links and the italics on "right now" back. (2026-10-14: his P3 of his W1 answer replaces this P3; entry s12-joel-20261014-w1 checks it.)
+  - Joel: "then section 12 i rewrote a bit, still passes pangram fully"
+  - Cuts: "There is a difficult paradox to consider."; "The problem is that, in a group of eight people"; "and the ratio varies"; "(A founding group shouldn’t pretend it can give you those.)"
+- **s2-joel-20261014-f4** (2026-10-14 03:04, ? words): Section 2, The Freeloader Problem: F4 "Fix it", his sentence as written.
+  - Joel: "F4: Fix it (replace with "No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.")"
+  - Cuts: "or stop trying to act helpless"; "steal less"
+- **s2-joel-20261014-f6** (2026-10-14 03:04, ? words): Section 2, the next paragraph: F6 "Fix it", his clause as written ("jealousy rears its head" for "someone thinks they own something").
+  - Joel: "F6: Fix it (original didn't make sense, why would children make the land beauty less relevant? / but my fix also was redundant with owning. change to: / they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or jealousy rears its head.)"
+  - Cuts: "someone thinks they own something"
+- **s4-joel-20261014-i1** (2026-10-14 03:04, ? words): Section 4, Inner pl/ork: I1 "Unclear" for his "And it's built on somatic regulation first." The sentence names the subsection's subject, inner pl/ork, now (reparenting, the other candidate, pulled against section 5 in the stance check of 2026-10-14). 2026-10-15 11:04: his own fix names reparenting ("And this reparenting journey is built on"); that replaces my "inner pl/ork" choice.
+  - Joel: "I1: Unclear"
+  - Cuts: "And it's built on"; "And inner pl/ork is built on"
+- **s8-joel-20261014-f10** (2026-10-14 03:04, ? words): Section 8, Children Need Freedom Inside Real Protection, P18's last sentence: F10 "Fix it (revert to yours)": my v22 sentence back, with his "what happened" for its "it".
+  - Joel: "F10: Fix it (revert to yours)"
+  - Cuts: "and that's to be expected"
+- **s12-joel-20261014-w1** (2026-10-14 03:04, ? words): Section 12, P2 and P3: his W1 versions ("i prefer this version"), as written.
+  - Joel: "the last part of the 1st para is that cute, wry and tidy ai quip ... so now looking at that, yeah, 2nd para doesn't follow the first, so pangram is right to flag it ... i prefer this version:"
+  - Cuts: "appointing a subcommittee"; "We have been encouraged by our institutions"; "Rather, whether the fit is right."
+- **s11-joel-20261014-2119** (2026-10-14 21:19, ? words): Section 11, "Founderism: The Four Questions" through "Friends who come to visit": his own text of 21:19 UTC, as pasted (P2's definition, his P3 and P4, my P6 lead-in, P8's "the people who review the founder"); and R15 without its "living balance" sentence (his 26).
+  - Joel: "22 no, founderism isn't my term, it's in the commune literature ... 23 section 11  i fixed it, pasted.passes pangram. lmk if i overlooked anything, there was too much stuff in that p4 tho | P6: ok good use yours | P8 agree | 26 ... sect 11: agree agree"
+  - Cuts: "I call it founderism"; "I know this personally."; "Here are the four questions about the founder:"; "who picks the reviewers?"; "There are pros and cons to each extreme"
+- **s4-joel-20261014-2119** (2026-10-14 21:19, ? words): Section 4: "If one of the four gets skipped" (his 24, "p10 agree") and P1 of "Founded on Freedom" without "and don't freeze into doctrine" (his 26).
+  - Joel: "24 ... p10 agree | 26 sect 4: yes"
+  - Cuts: "and don't freeze into doctrine"; "If one of them gets skipped"
+- **s8-joel-20261014-2119** (2026-10-14 21:19, ? words): Section 8: "the research corpus" stays, linked to the research (his 24: "the research corpus is linked in the article... should be linked right there").
+  - Joel: "24 the research corpus is linked in the article... should be linked right there. reviewer doesn't know about links or something?"
+  - Cuts: "all the research I'd gathered"
+- **s9-joel-20261014-2119** (2026-10-14 21:19, proposed words): Section 9: "The useful thing is how they learn:" for "The useful thing isn't their diagram. It's how they learn:" (my proposal, his 26: "sect 9: yes").
+  - Joel: "26 ... sect 9: yes"
+  - Cuts: "The useful thing isn't their diagram."
+- **s10-joel-20261014-2119** (2026-10-14 21:19, ? words): Section 10, the last paragraph: his version of 21:19 UTC, as written. (2026-10-15: its opening is "Whenever a community or a federation creates or applies a rule", his 28 b; entry s10-joel-20261015-28b checks it.) (2026-10-17 02:07: "(with private details protected)" after "store the full case history", his 36 a; entry s10-joel-20261017-0207-36a.)
+  - Joel: "25 Section 10's last paragraph:  this version is clearer and passes: ..."
+  - Cuts: "to deal with a collision of two principles"
+- **s10-joel-20261015-28b** (2026-10-15 09:33, proposed words): Section 10, the last paragraph: "Whenever a community or a federation creates or applies a rule" for "Whenever you create or apply a rule" (my option b, his pick).
+  - Joel: "28 b"
+  - Cuts: "Whenever you create or apply a rule, it's best practice"
+- **s4-joel-20261015-1104** (2026-10-15 11:04, ? words): Section 4, Inner pl/ork: his reparenting paragraph and the three-sentence paragraph after it, as written (links on "Inner-child reparenting" and "somatic regulation" kept).
+  - Joel: "Inner-child reparenting means learning to identify as the best holistic inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and as a result, your little one gains more freedom to remain alive inside you, which brings back the joy of life that many adults have forgotten about.
+And this reparenting journey i ..."
+- **s13-joel-20261015-1828-32b** (2026-10-15 18:28, his words): Section 13, "When Somebody Has to Go", the outside-review paragraph: his published sentence "My research initially leaned too far that way." stays as written, with its link on "My research" (question 32 b). My draft's "(It's true that at first my research kinda leaned too far toward the nation-state.)" is out.
+  - Joel: "32b this is the same problem we had before where you forgot to notice that "research" is a link to my research report, so it's about that."
+  - Cuts: "kinda leaned too far toward the nation-state"
+- **s13-joel-20261016-1822-33a** (2026-10-16 18:22, proposed words): Section 13, "From Visitor to Member—Slowly", the provisional-membership questions: the hint keeps its emoji, "(Hint: not the person who recruited them! 😜)" (question 33 a, my pick).
+  - Joel: "33a on owner questions page  (keep the emoji, that's fine)"
+- **s13-joel-20261016-1822-cut** (2026-10-16 18:22, his words): Section 13, "From Visitor to Member—Slowly", P6: the opening question "How do you know?" is cut; the paragraph starts "At each stage, always judge people based on their conduct."
+  - Joel: "but i would cut the first sentence "How do you know?" in p6 of From Visitor to Member, slowly. why did the reviewer not cut that, what's that? know what? doesn't seem to follow..."
+  - Cuts: "How do you know?"
+- **s13-joel-20261017-0207-35b** (2026-10-17 02:07, his words): Section 13, "When Somebody Has to Go": his sentence about deciding the removal process early stays, and so does section 8's about a child's report (question 35 b). Nothing cut.
+  - Joel: "35b because i don't see how we could cut one of those without losing the intended meaning (that should be a standing dedup pass rule, you can only cut if it isn't losing important meaning or there's no good way to merge)"
+- **s10-joel-20261017-0207-36a** (2026-10-17 02:07, proposed words): Section 10, the last paragraph: "(with private details protected)" after "store the full case history" (question 36 a, my wording, his pick).
+  - Joel: "36a"
+- **s14-joel-20261017-0207-37a** (2026-10-17 02:07, proposed words): Section 14: the four short breaks stay, "Who would?", "That's a lot of loose ends!", "Who wants that?" and "(as you may have noticed!)" (question 37 a).
+  - Joel: "37a"
+- **s14-joel-20261017-0207-38b** (2026-10-17 02:07, his words): Section 14, P2: his paragraph as written (question 38 b): the repeated question about bridging people's food, housing and care, and any outside cash or benefits, is cut.
+  - Joel: "38b simple i just deleted the 2nd one and it's still human on pangram: ..."
+  - Cuts: "Who takes responsibility for bridging"
+- **s04-joel-20261017-1311-39** (2026-10-17 13:11, his words): Section 4, "4. The container": his answer to question 39 after "The first three parts are the inside of the container, and this container is what gives those a stable place to manifest.", fitted to its place ("I'd say" dropped).
+  - Joel: "39. i'd say it's the practical logistical foundation that gets built once the architects can work well together, does that work?"
+- **s15-joel-20261017-1311-40a** (2026-10-17 13:11, proposed words): Section 15, H1-P4: "so much is taken care of by the extended family and the local memory" stays (question 40 a).
+  - Joel: "40a hm that's interesting so "often" is an ai tell? .. i guess just part of the general hedging ai tell?"
+- **app-joel-20261017-1311-41a** (2026-10-17 13:11, proposed words): The appendix: the breaks in the reading list stay, one per run of entries (question 41 a); the rule now depends on the article's style (STYLE.json).
+  - Joel: "41 a is fine for this article. In a more formal article it might not be. we need rules that are more flexible depending on the style of the article needed"
+- **s16-joel-20261017-1311-42** (2026-10-17 13:11, his words): Section 16, H3-P6 and H3-P7: his lines for the stretch that read AI (question 42); "Do those three things ... I know, I know!" is out.
+  - Joel: "42 ... I replaced the AI lines with: "And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that! Look before you leap. It will really save you some time & money." and now the whole section is 100% human."
+  - Cuts: "Do those three things"; "I know, I know!"
+- **s16-joel-20261017-1311-quietly** (2026-10-17 13:11, his words): Section 16, H1-P3: "quietly" out of the last sentence.
+  - Joel: "practice comes before property p3: remove "quietly" that's an ai tell at the end"
+  - Cuts: "quietly paying the tax bill"
+- **s15-joel-20261017-1311-advocacy** (2026-10-17 13:11, his words): Section 15, "All is not well in paradise" P2: "advocacy" for the law's French "apologie", no quotes; the financing clause cut.
+  - Joel: "section 15 p2 in all is not well in paradise, the french word apologyshould have been translated as "advocacy" and it doesn't need to be in quotes. and then we can remove the ", along with certain financing or support meant to promote it." as that sounds redundant."
+  - Cuts: "public "apology""; "along with certain financing or support meant to promote it"
+- **s15-joel-20261017-1311-this** (2026-10-17 13:11, his words): Section 15, "Lessons from the Black Tax" P4 (the video counted): "This is also" for "It's also".
+  - Joel: "for p4 in black tax section, you replaced "this is " with "it's"... "this" is not the same as "it"... you can't use those interchangeably all the time."
+  - Cuts: "It's also the thorny boundary issue"
+- **s15-joel-20261017-1311-p6** (2026-10-17 13:11, his words): Section 15, "Lessons from the Black Tax" P6: his sentence in place of the "I like that." I had added, with capital I's and a comma before "but".
+  - Joel: "for p6 at the end you added "i like that." why? I actually don't know that i like that, it seems highly complicated to ask people to send money back and expect they will after they no longer belong to the communtiy. I'd rather say that... i understand the motivation to negotiate like that but i think it's not a full solution either."
+  - Cuts: "name and negotiate. I like that."
+- **sweep-joel-20261017-1311-rules** (2026-10-17 13:11, proposed words): His rules of 13:11 swept over the article: "This is the most joking culture" (section 15), "That's the sort of thing" (section 1), "quietly" out of section 8.
+  - Joel: ""this" is not the same as "it"... you can't use those interchangeably all the time.; remove "quietly" that's an ai tell"
+  - Cuts: "It's the most joking culture"; "It's the sort of thing that doesn't make it into the history books."; "quietly boss"
+- **s12-joel-20261017-1716-44c** (2026-10-17 17:16, his words): Section 12: his P2 as written (my two sentences about the PsyPost study out); his screenshot after it, with his aside to me as the caption and the link on "study". Where it finally goes is question 46.
+  - Joel: "44c i was not saying to put the prose in, i wanted the actual screenshot with the link and my caption as that quote aside to you."
+  - Cuts: "people even feel less on the same page with whoever"; "Kind of a "no, duh" study, but still."
+- **all-joel-20261017-1716-43** (2026-10-17 17:16, his words): The exclamation rule (his 43): an exclamation is content; "!" becomes "." only where the sentence still reads right with a period. Otherwise cut the exclamation phrase itself, fix the AI structure under it, find a real turn of thought, or give him the paragraph. Applied in sections 15 and 16 (fix-20261017b/), in the gate doc.
+  - Joel: "43 the problem is you can't just change ! to . if the actual wording was put in as an exclamation. you can't change "That's it!" to "that's it." ... so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sernse to, or idk ask me if you need help."
+  - Cuts: "That's it."

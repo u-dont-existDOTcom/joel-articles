@@ -1,0 +1,23 @@
+You are helping a writer, Joel, with exclamation marks in two sections of his long blog essay about building intentional communities. His own sections end 2 of their 697 sentences with "!"; these two sections had been rewritten by an AI tool and ended about one sentence in eight with "!". Joel's rule for fixing that: "you can't just change ! to . if the actual wording was put in as an exclamation. you can't change "That's it!" to "that's it." ... it would sound weird. so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to ... if you feel that the exclamation isn't really fitting but it's needed ..., see if there's a better way."
+
+Below are 2 changes, each a paragraph BEFORE and AFTER. In the first, an exclamation in a paragraph that opens a passage about a harsh anti-gay law was ended with a period instead; in the second, a mocking quote was reworded around "by declaring" (the exclamation inside the quote stays). Joel's voice: conversational, warm, blunt, funny, a little hippie; he writes like he talks.
+
+For each change, read the AFTER paragraph as a reader would and answer on one line: "Change N: FINE", or "Change N: WEIRD" with the sentence that now sounds off and why (flat where it should be lively, a phrase that only works as an exclamation, a cut that leaves a gap), and a better fix that isn't just putting the "!" back: cut a different phrase, reword the sentence so it carries the feeling without the mark, or keep the "!" when it's a real reaction that the paragraph needs (say so). Don't comment on anything else in the paragraphs.
+
+Write your answer to /home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/TONE-excl-b.md with a single Write call (at most 400 words), then reply with only the lines that aren't FINE.
+
+### Change 1
+
+BEFORE:
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either! The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
+
+AFTER:
+But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not that either. The warmth has hard limits here, and LGBTQ+ people can pay a brutal price for crossing them.
+
+### Change 2
+
+BEFORE:
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go! Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
+
+AFTER:
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than by declaring "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)

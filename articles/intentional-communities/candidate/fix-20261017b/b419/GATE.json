@@ -1,0 +1,203 @@
+{
+ "S16-e": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S16v29-H2P5",
+   "S16v29-H2P5+next",
+   "S16v29-H3P1+next",
+   "S16v29-H2P3+prev",
+   "S16-d-H2P3+next",
+   "S16v29-H1P2+prev",
+   "S16v29-H1P2+next",
+   "S16v29-H1P3"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017b/DISPOSITIONS.md",
+  "words": 840
+ },
+ "S16v29-H2P5": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H2P5-was and s16-H2P5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: deadpan reads right; the sauna is the joke (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 68
+ },
+ "S16v29-H2P5+next": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march": [
+   "S S S S S S S",
+   "S S S S S S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H2P5-was and s16-H2P5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: deadpan reads right; the sauna is the joke (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 102
+ },
+ "S16v29-H3P1+next": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "B S S",
+   "B S S"
+  ],
+  "march": [
+   "B S S",
+   "B S S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H3P1-was and s16-H3P1-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: advice (published: \"Practice before you have an audience.\") (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 81
+ },
+ "S16v29-H2P3+prev": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S B B S",
+   "S S B B S"
+  ],
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H2P3-was and s16-H2P3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the phrase out: his example (\"you can't change \"That's it!\" to \"that's it.\"\"): the phrase itself goes; \"two people and a private place to sit and talk\" already says how little it takes (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 81
+ },
+ "S16-d-H2P3+next": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S B B S",
+   "S S B B S"
+  ],
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H2P3-was and s16-H2P3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the phrase out: his example (\"you can't change \"That's it!\" to \"that's it.\"\"): the phrase itself goes; \"two people and a private place to sit and talk\" already says how little it takes (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 85
+ },
+ "S16v29-H1P2+prev": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S B B",
+   "S B B"
+  ],
+  "march": [
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H1P2-was and s16-H1P2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: a wry concession reads right with a period; the joke is in the brackets (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 98
+ },
+ "S16v29-H1P2+next": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S B B",
+   "S B B"
+  ],
+  "march": [
+   "S B B",
+   "S B B"
+  ],
+  "march_note": "fix-20261017b/march-r1 (s16-H1P2-was and s16-H1P2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: a wry concession reads right with a period; the joke is in the brackets (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 131
+ },
+ "S16v29-H1P3": {
+  "kind": "edit",
+  "was": "batch 413g: section 16 v28 100% Human",
+  "march_was": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "march_note": "fix-20261017b/march-r3 (s16-H1P3-was and s16-H1P3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017b/SENSE-s16c.md (the final text): all 19 paragraphs OK",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 43, the mark only: advice, not a reaction; and \"by declaring\" for \"because\" (the published \"declaring\", REPORT-FOREST.md [2]) (fix-20261017b/faithful/TRIAGE.md, excl-changes.json)",
+  "stance": 0,
+  "stance_note": "the published words or a mark; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 17:16 UTC (joel-20261017/joel-20261017-1716-message.txt): his 43 (\"either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to\")",
+  "lint": "REVIEW",
+  "words": 82
+ }
+}

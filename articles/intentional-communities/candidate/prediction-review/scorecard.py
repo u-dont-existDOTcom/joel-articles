@@ -81,6 +81,30 @@ summary = {'calls': len(rows), 'right': sum(r['right'] for r in rows),
            'today': {'calls': len([r for r in rows if r['batch'] >= 261]), 'right': sum(r['right'] for r in rows if r['batch'] >= 261),
                      'passed': sum(r['passed'] for r in rows if r['batch'] >= 261)}}
 json.dump({'summary': summary, 'windows': win, 'misses': misses}, open(out_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+# The dashboard's rows (2026-10-17, Joel at 23:10 UTC: "your scorecard is always empty"). The page's calcs read one row per call
+# (batch, right and passed as 1 or 0, the call's id as its "text" key, section, mine, pangram, why, excerpt), and the summary
+# file above isn't rows, so the page had nothing to count. Excerpts come from the batch folders' drafts.json and the section
+# drafts' texts.
+for d in glob.glob(C + '/**/b[0-9]*/drafts.json', recursive=True):
+    m = re.search(r'/b(\d+)/drafts\.json$', d)
+    try:
+        dd = json.load(open(d, encoding='utf-8'))
+    except Exception:
+        continue
+    for k, t in dd.items():
+        texts.setdefault('%sg-%s' % (m.group(1), k), t['text'] if isinstance(t, dict) else t)
+seen = defaultdict(int)
+out_rows = []
+for r in sorted(rows, key=lambda r: (r['batch'], r['name'])):
+    seen[r['name']] += 1
+    key = r['name'] if seen[r['name']] == 1 else '%s (%d)' % (r['name'], seen[r['name']])
+    ex = (texts.get(r['name']) or '').replace('\n\n', ' / ')
+    out_rows.append({'batch': r['batch'], 'text': key, 'section': r['sec'], 'mine': r['mine'], 'pangram': r['res_raw'],
+                     'why': r['why'], 'excerpt': ex[:300] + ('…' if len(ex) > 300 else ''), 'right': int(r['right']),
+                     'passed': int(r['passed'])})
+rows_path = os.path.join(os.path.dirname(os.path.abspath(out_path)), 'prediction-calls-rows.json')
+json.dump({'rows': out_rows}, open(rows_path, 'w', encoding='utf-8'), ensure_ascii=False)
+print(rows_path, len(out_rows), 'rows,', sum(1 for r in out_rows if r['excerpt']), 'with an excerpt')
 print(json.dumps(summary))
 for w in win:
     print(w)

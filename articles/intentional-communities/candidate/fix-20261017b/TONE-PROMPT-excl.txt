@@ -1,0 +1,111 @@
+You are helping a writer, Joel, with exclamation marks in two sections of his long blog essay about building intentional communities. His own sections end 2 of their 697 sentences with "!"; these two sections had been rewritten by an AI tool and ended about one sentence in eight with "!". Joel's rule for fixing that: "you can't just change ! to . if the actual wording was put in as an exclamation. you can't change "That's it!" to "that's it." ... it would sound weird. so either take out the exclamation phrases themselves, replace the exclamation marks alone only if it makes sense to ... if you feel that the exclamation isn't really fitting but it's needed ..., see if there's a better way."
+
+Below are 13 changes, each a paragraph BEFORE and AFTER. In each, one exclamation was either ended with a period instead, or the exclamation phrase was cut. Joel's voice: conversational, warm, blunt, funny, a little hippie; he writes like he talks.
+
+For each change, read the AFTER paragraph as a reader would and answer on one line: "Change N: FINE", or "Change N: WEIRD" with the sentence that now sounds off and why (flat where it should be lively, a phrase that only works as an exclamation, a cut that leaves a gap), and a better fix that isn't just putting the "!" back: cut a different phrase, reword the sentence so it carries the feeling without the mark, or keep the "!" when it's a real reaction that the paragraph needs (say so). Don't comment on anything else in the paragraphs.
+
+Write your answer to /home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/TONE-excl.md with a single Write call (at most 400 words), then reply with only the lines that aren't FINE.
+
+### Change 1 (section "What This Looks Like From Sénégal")
+
+BEFORE:
+Sénégal is unlike anywhere else I've lived. Five times a day the prayers pour out into the streets. I find them so soothing! And Sufism doesn't stay inside designated "spiritual" places here. It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
+
+AFTER:
+Sénégal is unlike anywhere else I've lived. Five times a day the prayers pour out into the streets. I find them so soothing. And Sufism doesn't stay inside designated "spiritual" places here. It's in the music, in the pictures everywhere, in the murals, in the names, in the conversations.
+
+### Change 2 (section "What This Looks Like From Sénégal")
+
+BEFORE:
+Even in Dakar, I found this graffiti on a wall: "Tolerance! Openness! Union! Happiness! Love!" And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me! Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis.
+
+AFTER:
+Even in Dakar, I found this graffiti on a wall: "Tolerance! Openness! Union! Happiness! Love!" And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me. Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis.
+
+### Change 3 (section "What This Looks Like From Sénégal")
+
+BEFORE:
+Everybody here has sheep (even me!), and they are super cute! It can feel like you're living in another world, with the music, the animals, the joking, the praying, and just being around people all the time.
+
+AFTER:
+Everybody here has sheep (even me), and they are super cute. It can feel like you're living in another world, with the music, the animals, the joking, the praying, and just being around people all the time.
+
+### Change 4 (section "What This Looks Like From Sénégal")
+
+BEFORE:
+This is also the thorny boundary issue of living without money inside a money-based society. Life inside the commune can go without cash, but you'll still need money for taxes, hospital bills, visas, school fees, family obligations, buying in tools etc. That doesn't mean going back to individual wages inside the commune, but it does mean someone has to handle it! Who's that going to be? And the commune has to work out how much shared cash it keeps for these things, and how to stop access to outside money from creating a new status hierarchy.
+
+AFTER:
+This is also the thorny boundary issue of living without money inside a money-based society. Life inside the commune can go without cash, but you'll still need money for taxes, hospital bills, visas, school fees, family obligations, buying in tools etc. That doesn't mean going back to individual wages inside the commune, but it does mean someone has to handle it. Who's that going to be? And the commune has to work out how much shared cash it keeps for these things, and how to stop access to outside money from creating a new status hierarchy.
+
+### Change 5 (section "What This Looks Like From Sénégal")
+
+BEFORE:
+So this is a global issue, far from some Western lifestyle niche. There's still knowledge in the living villages that no book can give you. But if you visit, remember they're people, not museums. Would you like people coming to your house to stare at you and your family? So be respectful, contribute something, learn the language, and don't expect anyone to hand you a spiritual service package!
+
+AFTER:
+So this is a global issue, far from some Western lifestyle niche. There's still knowledge in the living villages that no book can give you. But if you visit, remember they're people, not museums. Would you like people coming to your house to stare at you and your family? So be respectful, contribute something, learn the language, and don't expect anyone to hand you a spiritual service package.
+
+### Change 6 (section "Practice Comes Before Property")
+
+BEFORE:
+It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know! (It would make for a pretty bad movie.)
+
+AFTER:
+It would be better to get together to practice first, and process a real conflict, and get clear on your values, and test membership, and decide ownership and exit, and then, after all that, think about land. Less cinematic, I know. (It would make for a pretty bad movie.)
+
+### Change 7 (section "Practice Comes Before Property")
+
+BEFORE:
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go! Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
+
+AFTER:
+Same with money: do it in stages. Don't try and fly right to the economic destination in one go. Wait until the group can reliably provide for everyone, and fairly decide who gets what from the common, before it goes to a common purse. And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than because "money is impure!" (That sounds kind of weird when somebody else is paying the tax bill.)
+
+### Change 8 (section "Practice Comes Before Property")
+
+BEFORE:
+I realize that for most people reading this there are a lot of reasons why they can't just head off and go build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That's fine! The most important pl/ork doesn't need land anyway.
+
+AFTER:
+I realize that for most people reading this there are a lot of reasons why they can't just head off and go build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That's fine. The most important pl/ork doesn't need land anyway.
+
+### Change 9 (section "Practice Comes Before Property")
+
+BEFORE:
+So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. That's it! And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
+
+AFTER:
+So your inner pl/ork can start now, right where you live. [Peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) takes two people and a private place to sit and talk. And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.
+
+### Change 10 (section "Practice Comes Before Property")
+
+BEFORE:
+Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna! And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a [cuddle puddle](http://cuddleparty.com/).
+
+AFTER:
+Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a [cuddle puddle](http://cuddleparty.com/).
+
+### Change 11 (section "Practice Comes Before Property")
+
+BEFORE:
+So what do you actually do this month? Start doing some inner pl/ork, with the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) or with another serious practice you already trust. And practice before you have an audience!
+
+AFTER:
+So what do you actually do this month? Start doing some inner pl/ork, with the free [reparenting guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) and [Hearthwork manual](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) or with another serious practice you already trust. And practice before you have an audience.
+
+### Change 12 (section "Practice Comes Before Property")
+
+BEFORE:
+Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. One disagreement is enough! You can talk about a shared future later.
+
+AFTER:
+Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. You can talk about a shared future later.
+
+### Change 13 (section "Practice Comes Before Property")
+
+BEFORE:
+Go visit some real communities. Really, go! [Twin Oaks](https://twinoaks.org/) is one. [East Wind](http://eastwind.org/) is another, and so is [Acorn](https://www.ic.org/directory/acorn-community-farm/), and there are plenty of other [intentional communities](https://www.ic.org/). Lots of [ecovillages](https://ecovillage.org/) are open to visitors too. Check their current visitor requirements first.
+
+AFTER:
+Go visit some real communities. [Twin Oaks](https://twinoaks.org/) is one. [East Wind](http://eastwind.org/) is another, and so is [Acorn](https://www.ic.org/directory/acorn-community-farm/), and there are plenty of other [intentional communities](https://www.ic.org/). Lots of [ecovillages](https://ecovillage.org/) are open to visitors too. Check their current visitor requirements first.
