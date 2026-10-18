@@ -65,11 +65,21 @@
     3
    ],
    "paras": [
-    "Here I will be teaching you a real self-skill, not just asking you to buy more audio trance files."
+    "Here I will be teaching you a real self-skill, so you don’t end up a consumer of more and more elaborate trance recordings."
    ],
    "run": "HG10-r1",
    "file": "fix-20261018/emu-a/HG10-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the reader becoming a consumer of increasingly elaborate recordings",
+     "replace": "not just asking you to buy more audio trance files.",
+     "with": "so you don’t end up a consumer of more and more elaborate trance recordings.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -77,7 +87,7 @@
     4
    ],
    "paras": [
-    "Mayo Clinic cautions that using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that hypnosis may not be the best treatment to deal with historical trauma, other treatments may be more suitable."
+    "Mayo Clinic cautions that using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that other treatments may be better for historical trauma."
    ],
    "run": "HG10-r1",
    "file": "fix-20261018/emu-a/HG10-r1.out.txt",
@@ -87,6 +97,14 @@
      "what": "'earlier-life events' became 'past life events'; and the warning (it can trigger strong emotional reactions) became a condition",
      "replace": "if you use hypnosis in the context of stressful past life events and have strong reactions to this, then hypnosis may not be the best treatment",
      "with": "using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that hypnosis may not be the best treatment"
+    },
+    {
+     "type": "REPEAT",
+     "what": "said twice in the paragraph",
+     "replace": "and that hypnosis may not be the best treatment to deal with historical trauma, other treatments may be more suitable.",
+     "with": "and that other treatments may be better for historical trauma.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG31-r1-h2.txt",
+  "input_words": 63,
+  "input_sha256": "78342b9fbd71a34de86e44ad59e9db533e0dd04ebe4913dc690d187a4cdb7f14",
+  "balance_before": 129771,
+  "started_utc": "2026-10-18T03:23:38Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:23:43Z",
+  "response": {
+    "id": "9bc94f81-0756-47ff-ba1a-14757e683fda",
+    "tool": "humanize",
+    "text": "Pattern 6: Ethical double binds\n\nManipulative double bind questions:\n\nEthical double bind questions:\n\n“What would be the best approach to this part, to warm it up or give it space?”\n\nPattern 7: Postulates in the form of questions\n\nExample of a postulate in the form of a question:\n\n“Isn’t it possible that the system can find a way to show me what it wants to show without showing me everything?”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 63
+    },
+    "elapsed": 4
+  },
+  "balance_after": 129708
+}

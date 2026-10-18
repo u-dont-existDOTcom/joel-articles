@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG02_03-f-s3.txt",
+  "input_words": 67,
+  "input_sha256": "e209307c355acf14d00d38acc7a242a2c2a5d97f07b5831eb11942a362394ea4",
+  "balance_before": 129424,
+  "started_utc": "2026-10-18T03:24:13Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:19Z",
+  "response": {
+    "id": "f010c5c8-7be9-4f59-aaa1-8230279e35ce",
+    "tool": "humanize",
+    "text": "Where do I start? Easy. Just listen, warm up to, protect, clarify, reality test and act on it!\n\nIt doesn’t have to be a dramatic trance experience but it does have to lead to a more trustworthy relationship between all parts of the mind.\n\nLet’s call it communion. The conscious mind doesn’t have to shout it’s message from the roof top and the subconscious doesn’t have to rely on symptoms, dreams, cravings, day dreams, and other weird body signals to communicate.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 67
+    },
+    "elapsed": 5
+  },
+  "balance_after": 129357
+}

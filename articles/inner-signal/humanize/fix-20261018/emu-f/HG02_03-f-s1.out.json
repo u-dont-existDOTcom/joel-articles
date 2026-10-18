@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG02_03-f-s1.txt",
+  "input_words": 88,
+  "input_sha256": "d5dfd22f413596f80068d06b9c121c6a245ba5c8823496689ac28c3da48fdb37",
+  "balance_before": 129595,
+  "started_utc": "2026-10-18T03:23:58Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:04Z",
+  "response": {
+    "id": "78036e37-e82f-4c31-95fa-2d90c540ee6d",
+    "tool": "humanize",
+    "text": "Have you ever considered the fact that you were born with an exquisitely designed and arranged brain and mind that is capable of many different layers of consciousness: dreaming, protecting, analyzing, imitating, loving, remembering, hiding, revealing and healing, etc. etc.?\n\nInstead of learning how to integrate all of these different layers, you were taught (and/or you learned on your own) how to push, repress or supress your emotions, to pretend to be confident, to follow or defy authority, and so on and so forth. It is no wonder that you have many different \"programs\" running in your mind, including child mind, guard, body mind, intuitive mind, fantasy mind, etc.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 88
+    },
+    "elapsed": 6
+  },
+  "balance_after": 129507
+}

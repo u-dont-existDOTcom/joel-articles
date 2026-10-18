@@ -1,0 +1,258 @@
+{
+ "key": "HG35",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-c"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix F: Self-trust, outside guidance, and oracle-like states"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "(See how to use synchronicity as a cue above)."
+   ],
+   "run": "HG35-r1-s1",
+   "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "People’s suggestibility varies hugely, both between individuals and according to state, whether you’re talking about external or internal suggestion, and the type of suggestion (commands, imagery, music, metaphors, spiritual etc). There are definitely advantages to both working with someone and doing it yourself, and it depends on what you’re trying to do."
+   ],
+   "run": "HG35-r1-s1",
+   "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "That said, self hypnosis is likely to be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relationship issues, you may benefit from getting the right help from the right person."
+   ],
+   "run": "HG35-r1-s1",
+   "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Finding a hypnotist who can work with you"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Things to ask: What do they train in? How do they use hypnosis in their practice? What will they do if something doesn’t “fit”? If you are working with trauma: Did they actually get training in trauma and dissociation in addition to whatever hypnosis certification they might have? (Remember, credentials are not indicators of quality care!)"
+   ],
+   "run": "HG35-r1-s2",
+   "file": "fix-20261018/emu-c/HG35-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "What has and hasn’t worked for you in the past. How direct you want them to be. What kind of touch (if any) you are ok with. What kind of imagery (if any) you are ok with. What to do if you want to stop a session. What to do if you have unexpected reactions in or after a session. What to do if you aren’t sure if something is a memory or not. What to do if you need to come back “all the way” to the session. Keep in mind that a good person should be able to firmly encourage you without making it continue if you say you don’t want to."
+   ],
+   "run": "HG35-r1-s2",
+   "file": "fix-20261018/emu-c/HG35-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "How you felt the method went. What the method was. Why they used it (if they said). Whether or not you agreed to it. How the person responded to you (again, keep in mind that discomfort doesn’t mean it was “bad,” but seeing your objections as meaning you needed more of the same might be worth looking into). You can ask the app or others knowledgeable about dissociation and trauma to help explain what happened, but it is unlikely someone can tell you if the person was “certified” or not just based on what you tell them. Depending on what you find out, you might want to try self-hypnosis, working with someone else on your team, or finding someone else to help you."
+   ],
+   "run": "HG35-r1-s2",
+   "file": "fix-20261018/emu-c/HG35-r1-s2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "When the subconscious speaks like an oracle"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Things that are coming, reads, or just things that seem a bit weird that come from the subconscious should be respected, but never enacted on, because the subconscious may send out the image of something or tell someone to do something, but that does n't mean it is an order."
+   ],
+   "run": "HG35-r1-s3",
+   "file": "fix-20261018/emu-c/HG35-r1-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "If it is something big, or can not be undone easily, it needs to be slowed down to the rate of the affect and examined by the adult and a council need to be sought."
+   ],
+   "run": "HG35-r1-s3",
+   "file": "fix-20261018/emu-c/HG35-r1-s3.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "The council — internal first, then outward"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "First go within; ask the child in you, the adult in you, the conscious and subconscious minds, your intuition and analysis. But if the thing is larger than any of those, go outside for more help. The bigger and more irreversible the move, the more you need to look outside."
+   ],
+   "run": "HG35-r1-s4",
+   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Go to people who love you, people who are like you, or people who have traveled that path. Of course sometimes going alone is the right thing, but I would do that as a last step, after first seeking counsel."
+   ],
+   "run": "HG35-r1-s4",
+   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "On the other hand, it is possible to give your power away. Seeking counsel doesn’t mean abdicating to an authority figure. It doesn’t mean either trusting or not trusting someone."
+   ],
+   "run": "HG35-r1-s4",
+   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Sometimes you need the support of your peers. In Hearthwork, the concept is that you give each other equal time, warmth, confidentiality, and acceptance of “no” as an answer, and you act for each other as Nurturer and Protector, but not as Guide. Then you reverse roles. Sometimes, if asked carefully and at the right time, your peers can help you hear your own Guide more clearly, but they don’t interpret what you experience."
+   ],
+   "run": "HG35-r1-s4",
+   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Forgiveness without bypass"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "Some Thoughts on Forgiveness: We can’t “force” forgiveness, it has to come from a place of understanding, otherwise it becomes a bypass. And yet, sometimes it’s also not so great to stay in anger forever. How do we hold all of this? It can all be true."
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "A helpful understanding to come to, is that while their actions may have been harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give."
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "“You don’t have to forgive, but also, please don’t let this wound run your life forever, and don’t use spirituality to silence your pain.”"
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Some questions that may be helpful to ask when coming to a place of forgiveness, while still holding all of the above:"
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "What actually happened? What was the impact? What boundaries need to be set? What was going on with the other person(s) that put them in a place to cause harm? What is theirs? What is mine? How do I need to hold them accountable? How can I let this go, without denying any of the above?"
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "One of the hardest things to do is to forgive ourselves. It's important to realize that just because you didn't take responsibility for something that wasn't yours to take, doesn't mean you're a criminal if you feel remorse over the effect your action may have had, or just that it wasn't in keeping with your value system.",
+    "Take responsibility, feel the remorse, then rectify if you can, and then let it go. Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage."
+   ],
+   "run": "HG35-r1-s6",
+   "file": "fix-20261018/emu-c/HG35-r1-s6.out.txt"
+  }
+ ]
+}

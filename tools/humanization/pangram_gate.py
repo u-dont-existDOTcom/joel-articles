@@ -168,7 +168,10 @@ def problems(key, gate, seen=()):
         was = g.get('march_was') or []
         if not was:
             out.append("an edit needs 'march_was': the march read of the installed version (E173)")
-        elif march and any('B' in m.split() for m in was) and not all('B' in m.split() for m in march):
+        elif march and sum('B' in m.split() for m in march) < sum('B' in m.split() for m in was):
+            # 2026-10-18: an edit of several paragraphs (an Emulate stretch with my meaning fixes) is held when it has fewer
+            # paragraphs with a break than the version that passed; for one paragraph this is the rule as it was (the
+            # version that passed had a break and the edit has none). Paragraphs that had no break before don't hold it.
             # 2026-10-17: a cut that only takes words out goes to Pangram whatever the march says (main() checks "cut_of"
             # against the text). Joel, 21:37 UTC, on two cuts this rule held because each took out its paragraph's only
             # break: "it made no difference taking those exclamation phrases out for pangram".

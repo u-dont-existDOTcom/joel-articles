@@ -21,7 +21,7 @@
     1
    ],
    "paras": [
-    "“Syncing the hemispheres” is a very useful description of how the state feels, but I don’t want to over-interpret what is going on neuroscientifically. A large resting state fMRI study of 1011 people did not support the common pop- neuropsychological notion that people in general can be left or right brained, although there is certainly evidence for the lateralization of some functions or networks."
+    "“Syncing the hemispheres” can be a very useful description of how the state feels, but I don’t want to over-interpret what is going on neuroscientifically. A large resting state fMRI study of 1011 people did not support the common pop- neuropsychological notion that people in general can be left or right brained, although there is certainly evidence for the lateralization of some functions or networks."
    ],
    "run": "HG11-r1",
    "file": "fix-20261018/emu-a/HG11-r1.out.txt",
@@ -37,6 +37,14 @@
      "what": "says the phrase is in quotation marks when it isn't, and loses that it describes how the state feels",
      "replace": "I put the phrase syncing the hemispheres in quotation marks because I don’t want to over-interpret what is going on neuroscientifically. It’s a very useful description but a large",
      "with": "“Syncing the hemispheres” is a very useful description of how the state feels, but I don’t want to over-interpret what is going on neuroscientifically. A large"
+    },
+    {
+     "type": "SHIFT",
+     "what": "can be useful",
+     "replace": "“Syncing the hemispheres” is a very useful description",
+     "with": "“Syncing the hemispheres” can be a very useful description",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -67,7 +75,7 @@
     3
    ],
    "paras": [
-    "The mind of love retains its warmth, the mind of analysis its brightness. The mind of intuition is neither denied nor accepted dogmatically. The mind of rationality tests the signals without killing them. The body has a voice- it can say yes, no or not yet. The imagination has opened the field and the adult can choose how to act. There is peace but there is also precision."
+    "The mind of love retains its warmth, the mind of analysis its brightness. The mind of intuition offers its signals without becoming dogma. The mind of rationality tests the signals without killing them. The body has a voice- it can say yes, no or not yet. The imagination has opened the field and the adult chooses the next real action. There is peace but there is also precision."
    ],
    "run": "HG11-r1",
    "file": "fix-20261018/emu-a/HG11-r1.out.txt",
@@ -77,6 +85,22 @@
      "what": "the rational mind tests signals without killing them",
      "replace": "The mind of rationality is neither destructive nor inhibited.",
      "with": "The mind of rationality tests the signals without killing them."
+    },
+    {
+     "type": "SHIFT",
+     "what": "the intuitive mind offers signals without becoming dogma",
+     "replace": "The mind of intuition is neither denied nor accepted dogmatically.",
+     "with": "The mind of intuition offers its signals without becoming dogma.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "the next real action",
+     "replace": "and the adult can choose how to act.",
+     "with": "and the adult chooses the next real action.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -107,7 +131,7 @@
     5
    ],
    "paras": [
-    "And of course a powerful state only matters if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life!"
+    "And of course it’s got to lead somewhere! A powerful state only matters if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life."
    ],
    "run": "HG11-r1",
    "file": "fix-20261018/emu-a/HG11-r1.out.txt",
@@ -116,7 +140,7 @@
      "type": "SHIFT",
      "what": "the published says a powerful state matters only if something survives it, and names what: kinder behavior, more humility, better judgment, real service, a more workable ordinary life",
      "replace": "it’s got to be a powerful state that leads to greater goodness in your life!",
-     "with": "a powerful state only matters if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life!"
+     "with": "it’s got to lead somewhere! A powerful state only matters if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life."
     }
    ],
    "verdict": "fixed"

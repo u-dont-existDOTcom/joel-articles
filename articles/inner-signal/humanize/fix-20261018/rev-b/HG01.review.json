@@ -1,5 +1,56 @@
-[{"block": 2, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "the published says begin with Quick start, then learn one induction and the complete return", "replace": "you can use the Quick start section if you want to quickly learn one of the inductions and the whole return sequence", "with": "you can begin with the Quick start section, then learn one of the inductions and the whole return sequence"},
-  {"type": "LOST", "what": "the daily and weekly sections help you make the practice your own", "replace": "for something to try out every day, or every week", "with": "to make the practice your own, every day or every week"},
-  {"type": "SHIFT", "what": "'questions' is the appendix on asking the subconscious questions, not the reader's questions", "replace": "If you have questions, or want to learn more, there are lots of appendices, covering lots of topics, including questions,", "with": "There are lots of appendices with extra tools, covering lots of topics, including asking the subconscious questions,"},
-  {"type": "WRONG", "what": "the guide's influence appendix is about noticing and resisting influence, not ways to influence others", "replace": "ways to influence others", "with": "influence"}]}]
+[
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the published says begin with Quick start, then learn one induction and the complete return",
+    "replace": "you can use the Quick start section if you want to quickly learn one of the inductions and the whole return sequence",
+    "with": "you can begin with the Quick start section, then learn one of the inductions and the whole return sequence"
+   },
+   {
+    "type": "LOST",
+    "what": "the daily and weekly sections help you make the practice your own",
+    "replace": "for something to try out every day, or every week",
+    "with": "to make the practice your own, every day or every week"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'questions' is the appendix on asking the subconscious questions, not the reader's questions",
+    "replace": "If you have questions, or want to learn more, there are lots of appendices, covering lots of topics, including questions,",
+    "with": "There are lots of appendices with extra tools, covering lots of topics, including asking the subconscious questions,"
+   },
+   {
+    "type": "WRONG",
+    "what": "the guide's influence appendix is about noticing and resisting influence, not ways to influence others",
+    "replace": "ways to influence others",
+    "with": "influence"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the part no recording can decide in advance",
+    "replace": "to learn what to do when your response is not guided by a recording.",
+    "with": "for the part of the practice no recording can decide in advance.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "REPEAT",
+    "what": "the heading already says the guide is very large",
+    "replace": "This is a very big guide. To make it easier, you",
+    "with": "To make it easier, you",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "REPEAT",
+    "what": "daily and weekly said twice",
+    "replace": "to make the practice your own, every day or every week.",
+    "with": "to make the practice your own.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ }
+]

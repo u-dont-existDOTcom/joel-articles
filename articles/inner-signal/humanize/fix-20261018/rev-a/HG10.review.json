@@ -1,10 +1,80 @@
-[{"block": 1, "verdict": "OK", "links": [{"published": "2024 overview of 49 meta-analyses", "new": "overview of 49 meta analyses"}]},
- {"block": 2, "verdict": "FIX", "links": [{"published": "A systematic review of randomized controlled trials", "new": "a systematic review of Randomized Controlled Trials"}], "problems": [
-  {"type": "SHIFT", "what": "the review found it 'appeared more useful'; 'tends to be' makes it a general rule", "replace": "Self-hypnosis tends to be more useful", "with": "Self-hypnosis seemed more useful"}]},
- {"block": 3, "verdict": "OK"},
- {"block": 4, "verdict": "FIX", "problems": [
-  {"type": "WRONG", "what": "'earlier-life events' became 'past life events'; and the warning (it can trigger strong emotional reactions) became a condition",
-   "replace": "if you use hypnosis in the context of stressful past life events and have strong reactions to this, then hypnosis may not be the best treatment", "with": "using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that hypnosis may not be the best treatment"}]},
- {"block": 5, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "'ordinary-life action' became 'present life action'", "replace": "present life action", "with": "ordinary-life action"}]},
- {"block": 6, "verdict": "OK"}]
+[
+ {
+  "block": 1,
+  "verdict": "OK",
+  "links": [
+   {
+    "published": "2024 overview of 49 meta-analyses",
+    "new": "overview of 49 meta analyses"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "links": [
+   {
+    "published": "A systematic review of randomized controlled trials",
+    "new": "a systematic review of Randomized Controlled Trials"
+   }
+  ],
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the review found it 'appeared more useful'; 'tends to be' makes it a general rule",
+    "replace": "Self-hypnosis tends to be more useful",
+    "with": "Self-hypnosis seemed more useful"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the reader becoming a consumer of increasingly elaborate recordings",
+    "replace": "not just asking you to buy more audio trance files.",
+    "with": "so you don’t end up a consumer of more and more elaborate trance recordings.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "'earlier-life events' became 'past life events'; and the warning (it can trigger strong emotional reactions) became a condition",
+    "replace": "if you use hypnosis in the context of stressful past life events and have strong reactions to this, then hypnosis may not be the best treatment",
+    "with": "using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that hypnosis may not be the best treatment"
+   },
+   {
+    "type": "REPEAT",
+    "what": "said twice in the paragraph",
+    "replace": "and that hypnosis may not be the best treatment to deal with historical trauma, other treatments may be more suitable.",
+    "with": "and that other treatments may be better for historical trauma.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'ordinary-life action' became 'present life action'",
+    "replace": "present life action",
+    "with": "ordinary-life action"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "OK"
+ }
+]

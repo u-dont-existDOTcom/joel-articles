@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG32-f-s3.txt",
+  "input_words": 52,
+  "input_sha256": "6fe1c4b045042b7658c6b4c4112b17997d3f33405745e8ec169051a425a89188",
+  "balance_before": 128959,
+  "started_utc": "2026-10-18T03:25:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:25:06Z",
+  "response": {
+    "id": "9dc2e0c5-270e-4ce5-aef0-5f6f04a6ff4e",
+    "tool": "humanize",
+    "text": "Are some people being put forward as spiritually superior?\n\nIs there a demand that something be given up – money, sex, loyalty, silence, obedience?\n\nIs there a narrowing of choices for yourself?\n\nIs any questioning considered a betrayal?\n\nIs there a way of making resistance seem pathological?\n\nIs there a down-grading of ordinary life?\n\nIs there a seduction, or scaring or rescuing of the child in?\n\nCan the adult in still say “no” ?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 52
+    },
+    "elapsed": 5
+  },
+  "balance_after": 128907
+}

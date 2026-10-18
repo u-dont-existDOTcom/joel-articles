@@ -232,9 +232,62 @@ def split(src_dir, runs, outdir, md_path, editor, max_words=180):
     (out / 'runs.json').write_text(json.dumps(manifest, indent=1) + '\n', encoding='utf-8')
 
 
+def short_with_heading(src_dir, runs, outdir, md_path, editor):
+    """Runs for the stretches split() left as published (under Emulate's 40 words): each with the heading over it as a
+    line, and the next heading and stretch too while it is still short, so Emulate sees a little structure and the
+    output maps back by its headings (segments())."""
+    src = json.load(open(pathlib.Path(src_dir) / 'runs.json', encoding='utf-8'))
+    kb = key_blocks(md_path, editor)
+    out = pathlib.Path(outdir)
+    out.mkdir(parents=True, exist_ok=True)
+    try:
+        manifest = json.load(open(out / 'runs.json', encoding='utf-8'))
+    except FileNotFoundError:
+        manifest = []
+    have = {m['run'] for m in manifest}
+    for m in src:
+        if m['run'] not in runs:
+            continue
+        blocks = kb[m['key']]
+        # the stretches between headings, with the heading before each
+        groups, cur, head = [], [], None
+        for j in m['sent']:
+            if blocks[j][2]:
+                if cur:
+                    groups.append((head, cur))
+                head, cur = j, []
+            elif j in m['flagged']:
+                cur.append(j)
+        if cur:
+            groups.append((head, cur))
+        words = lambda bs: sum(len(blocks[j][1].split()) for j in bs)
+        short = [g for g in groups if words(g[1]) < MIN_WORDS]
+        n, i = 0, 0
+        while i < len(short):
+            pieces = [short[i]]
+            while sum(words(g[1]) for g in pieces) < MIN_WORDS and i + 1 < len(short) and short[i + 1][1][0] == pieces[-1][1][-1] + 2:
+                i += 1
+                pieces.append(short[i])
+            i += 1
+            sent = [b for h, bs in pieces for b in ([h] if h is not None else []) + bs]
+            flagged = [b for h, bs in pieces for b in bs]
+            text = '\n\n'.join(blocks[j][1] for j in sent)
+            if len(text.split()) < MIN_WORDS:
+                print('%s: %d words with its heading, still under the minimum; left as published' % (m['run'], len(text.split())))
+                continue
+            n += 1
+            name = '%s-h%d' % (m['run'], n)
+            (out / (name + '.txt')).write_text(text, encoding='utf-8')
+            if name not in have:
+                manifest.append({'run': name, 'key': m['key'], 'sent': sent, 'flagged': flagged,
+                                 'headings': [h for h, _ in pieces if h is not None], 'words': len(text.split()), 'short_from': m['run']})
+            print('%-18s %4d words, blocks %s (headings %s)' % (name, len(text.split()), sent, [h for h, _ in pieces]))
+    (out / 'runs.json').write_text(json.dumps(manifest, indent=1) + '\n', encoding='utf-8')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=('make', 'back', 'split'))
+    ap.add_argument('cmd', choices=('make', 'back', 'split', 'short'))
     ap.add_argument('--runs', nargs='*')
     ap.add_argument('--max', type=int, default=180)
     ap.add_argument('args', nargs='+')
@@ -246,6 +299,8 @@ def main():
         make(a.args[0], a.args[1], a.keys, a.md, a.editor)
     elif a.cmd == 'split':
         split(a.args[0], a.runs, a.args[1], a.md, a.editor, a.max)
+    elif a.cmd == 'short':
+        short_with_heading(a.args[0], a.runs, a.args[1], a.md, a.editor)
     else:
         back(a.args[0], a.md, a.editor)
 

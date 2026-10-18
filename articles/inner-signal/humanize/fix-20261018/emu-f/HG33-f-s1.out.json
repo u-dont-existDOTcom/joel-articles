@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG33-f-s1.txt",
+  "input_words": 47,
+  "input_sha256": "f407ac8a0648d90dc8b1439cac09f5ddcb5e2b451add47be2deaa856079603b3",
+  "balance_before": 129215,
+  "started_utc": "2026-10-18T03:24:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:40Z",
+  "response": {
+    "id": "50a2340e-b832-4bef-b7b5-9323b65981d8",
+    "tool": "humanize",
+    "text": "See my ZHoly3O page for more on the use of ozonated charcoal, “holy water” as an important tool in the protocol of relaxing. Use of Blushield is also detailed there, and may be of some benefit, although not at all essential. The important thing is to get the body to a state of stabilization where one can begin to discern between valid and non-valid messages from the “inner realm”. Once reality tested, take appropriate actions to restore oneself to a grounded state.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 47
+    },
+    "elapsed": 6
+  },
+  "balance_after": 129168
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG02_03-f-s2.txt",
+  "input_words": 83,
+  "input_sha256": "43f36d2dde82dc839491e7d8608b18a16bfac5423789158ee0d1896bfe5958d4",
+  "balance_before": 129507,
+  "started_utc": "2026-10-18T03:24:05Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:12Z",
+  "response": {
+    "id": "46a0de3e-2531-4818-bc4b-0463b96f9e49",
+    "tool": "humanize",
+    "text": "I learned hypnosis from a lot of people who tried to act as if the subconscious mind worked like a machine, and all they had to do was feed in a command and the machine would do what they put in. For me, a much more useful model was to learn to talk to different parts of myself until they all could listen together.\n\nThis guide teaches a method of self-hypnosis to bring the audience of the conscious mind, subconscious mind, body, inner child, protector parts, the adult self, and the Higher Self all into the same room to be able to listen and talk together.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 83
+    },
+    "elapsed": 7
+  },
+  "balance_after": 129424
+}

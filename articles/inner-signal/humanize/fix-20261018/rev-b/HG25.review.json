@@ -1,30 +1,200 @@
-[{"block": 1, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "don't treat them as commands or proof (not: don't see them as real); listen, then reality-test", "replace": "See the voices, images, movements or body signals as real, but always reality test them.", "with": "Treat inner voices, images, movements or body signals as commands or proof. Listen, then always reality test them."}]},
- {"block": 2, "verdict": "OK"},
- {"block": 3, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "operating equipment and supervising children", "replace": "swimming, or otherwise", "with": "swimming, operating equipment, supervising children, or otherwise"},
-  {"type": "SHIFT", "what": "active attention", "replace": "requires active participation.", "with": "requires active attention."}]},
- {"block": 4, "verdict": "OK"},
- {"block": 5, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "before understanding the signal", "replace": "like grief, anger, fear, etc.", "with": "like grief, anger, fear, etc., before you understand what the signal is saying."}]},
- {"block": 6, "verdict": "OK"},
- {"block": 7, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "the proportions: the child doesn't lead adult life, the Protector can't exclude all love, the Nurturer can't erase consequences, the Leader can't bypass the child, analysis and tenderness both stay available",
-   "replace": "They each need the others.", "with": "They each need the others: the child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available."}]},
- {"block": 8, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "manufacturing certainty is lost, 'doesn't make logical sense' is new, and the body saying no isn't the same as 'cannot be healed'",
-   "replace": "or to do anything else that does not make logical sense, like to manipulate people or to “heal” something that the body is saying cannot be healed.", "with": "or to manufacture certainty, manipulate people, or “heal” something when the body is saying no."}]},
- {"block": 9, "verdict": "OK"},
- {"block": 10, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "clear limits, the ability to stop, a tested exit", "replace": "Always make certain that the circumstances are as safe as possible and that there is a safe way out.", "with": "Always make certain you have clear limits, a safe setting, the ability to stop, and a way out you’ve tested."}]},
- {"block": 11, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "sensations don't prove these things (and 'subconscious truth' is one of them, not a condition)", "replace": "are indicators of trauma", "with": "prove hidden trauma"},
-  {"type": "SHIFT", "what": "the condition 'just because the subconscious says they are' is new", "replace": "or anything else, just because the “subconscious” says they are.", "with": "or some hidden “subconscious” truth."}]},
- {"block": 12, "verdict": "OK"},
- {"block": 13, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "the published bans hidden instructions; a consciously chosen reusable cue needs a clear purpose, stays reviewable and is retired when unwanted",
-   "replace": "Don’t ever allow anyone to put “commands” in without giving them to yourself consciously and knowing why and wanting them, so that they can be used repeatedly and reviewed and removed if they are no longer wanted.", "with": "Don’t ever allow anyone to put hidden “commands” in. A cue you choose consciously to reuse should have a clear purpose, stay reviewable, and be removed if you no longer want it."},
-  {"type": "INVENTED", "what": "'there is no way to put something in that cannot be removed' is a new reassurance; the published says only that 'cancel' doesn't guarantee instant erasure",
-   "replace": "There is no way to “put something in” that cannot be removed, but saying “I remove them” may not be enough.", "with": "Just saying “cancel” doesn’t guarantee it’s instantly erased."}]},
- {"block": 14, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "movement, orientation, judgment, and a direct statement that the session has ended", "replace": "DO bring yourself back to normal consciousness as yourself at the end of each session while awake.", "with": "DO bring yourself all the way back at the end of every waking session: yourself again, moving, oriented, with your judgment back, and say straight out that the session has ended."}]}]
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "don't treat them as commands or proof (not: don't see them as real); listen, then reality-test",
+    "replace": "See the voices, images, movements or body signals as real, but always reality test them.",
+    "with": "Treat inner voices, images, movements or body signals as commands or proof. Listen, then always reality test them."
+   },
+   {
+    "type": "LOST",
+    "what": "autonomous movements",
+    "replace": "Treat inner voices, images, movements",
+    "with": "Treat inner voices, images, autonomous movements",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "stabilize first",
+    "replace": "Stabilize yourself.",
+    "with": "Stabilize yourself first.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "operating equipment and supervising children",
+    "replace": "swimming, or otherwise",
+    "with": "swimming, operating equipment, supervising children, or otherwise"
+   },
+   {
+    "type": "SHIFT",
+    "what": "active attention",
+    "replace": "requires active participation.",
+    "with": "requires active attention."
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "force memory recovery, use trance to prove what happened",
+    "replace": "DO NOT try to “force” memories to “prove” something to yourself or ignore",
+    "with": "DO NOT try to “force” memories, use trance to “prove” what happened, or ignore",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "before understanding the signal",
+    "replace": "like grief, anger, fear, etc.",
+    "with": "like grief, anger, fear, etc., before you understand what the signal is saying."
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "OK"
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the proportions: the child doesn't lead adult life, the Protector can't exclude all love, the Nurturer can't erase consequences, the Leader can't bypass the child, analysis and tenderness both stay available",
+    "replace": "They each need the others.",
+    "with": "They each need the others: the child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available."
+   },
+   {
+    "type": "SHIFT",
+    "what": "the inner roles",
+    "replace": "any inner state, like",
+    "with": "any inner role, like",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "manufacturing certainty is lost, 'doesn't make logical sense' is new, and the body saying no isn't the same as 'cannot be healed'",
+    "replace": "or to do anything else that does not make logical sense, like to manipulate people or to “heal” something that the body is saying cannot be healed.",
+    "with": "or to manufacture certainty, manipulate people, or “heal” something when the body is saying no."
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "verdict": "OK"
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "clear limits, the ability to stop, a tested exit",
+    "replace": "Always make certain that the circumstances are as safe as possible and that there is a safe way out.",
+    "with": "Always make certain you have clear limits, a safe setting, the ability to stop, and a way out you’ve tested."
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "sensations don't prove these things (and 'subconscious truth' is one of them, not a condition)",
+    "replace": "are indicators of trauma",
+    "with": "prove hidden trauma"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the condition 'just because the subconscious says they are' is new",
+    "replace": "or anything else, just because the “subconscious” says they are.",
+    "with": "or some hidden “subconscious” truth."
+   },
+   {
+    "type": "SHIFT",
+    "what": "possession, not only demonic",
+    "replace": "demonic possession",
+    "with": "possession",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "verdict": "OK"
+ },
+ {
+  "block": 13,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the published bans hidden instructions; a consciously chosen reusable cue needs a clear purpose, stays reviewable and is retired when unwanted",
+    "replace": "Don’t ever allow anyone to put “commands” in without giving them to yourself consciously and knowing why and wanting them, so that they can be used repeatedly and reviewed and removed if they are no longer wanted.",
+    "with": "Don’t ever allow anyone to put hidden “commands” in. A cue you choose consciously to reuse should have a clear purpose, stay reviewable, and be removed if you no longer want it."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'there is no way to put something in that cannot be removed' is a new reassurance; the published says only that 'cancel' doesn't guarantee instant erasure",
+    "replace": "There is no way to “put something in” that cannot be removed, but saying “I remove them” may not be enough.",
+    "with": "Just saying “cancel” doesn’t guarantee it’s instantly erased."
+   },
+   {
+    "type": "SHIFT",
+    "what": "do not install (yourself either)",
+    "replace": "Don’t ever allow anyone to put hidden “commands” in.",
+    "with": "Don’t put in, or let anyone put in, hidden “commands”.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "movement, orientation, judgment, and a direct statement that the session has ended",
+    "replace": "DO bring yourself back to normal consciousness as yourself at the end of each session while awake.",
+    "with": "DO bring yourself all the way back at the end of every waking session: yourself again, moving, oriented, with your judgment back, and say straight out that the session has ended."
+   }
+  ]
+ }
+]

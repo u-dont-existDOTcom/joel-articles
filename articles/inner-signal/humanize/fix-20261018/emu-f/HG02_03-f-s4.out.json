@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG02_03-f-s4.txt",
+  "input_words": 88,
+  "input_sha256": "f53f72fdcf3dbb433fc0289397f23212304543d3db7a2526621cc873b49e62f7",
+  "balance_before": 129357,
+  "started_utc": "2026-10-18T03:24:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:27Z",
+  "response": {
+    "id": "5b5b385e-882f-4c01-aa89-ac85c8cd7a3d",
+    "tool": "humanize",
+    "text": "I work with the premise that the subconscious is an ecology, and we must be skilled enough to communicate with its many parts, to separate ourselves into those parts if necessary to better understand them, to heal inner child trauma by reparenting those parts, to coalesce that ecology into a Higher Self or universal heart when need be, and more. I also pull in elements from prompt engineering, and teach literacy in the domain of influence, since hypnosis is far from the only thing that’s hypnotizing us.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 88
+    },
+    "elapsed": 7
+  },
+  "balance_after": 129269
+}

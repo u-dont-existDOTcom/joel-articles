@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG32-f-s5.txt",
+  "input_words": 58,
+  "input_sha256": "0dd2e8c75ea23b1e11f975f80665e45cc934795300069d8ec66d4e3b3077229d",
+  "balance_before": 128842,
+  "started_utc": "2026-10-18T03:25:14Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:25:20Z",
+  "response": {
+    "id": "3f503bb9-9751-4b65-a4bc-6cf532ed629b",
+    "tool": "humanize",
+    "text": "Did somebody not tell, plainly, that induction mechanics would be used?\n\nIs at least one answer likely to get someone pausing, modding, full on, or stoping?\n\nDoes it imply that not noticing it was a secret proof that it worked?\n\nDid it use roles, ownership, obedience, age, identity, or belong-ness, to get an adult to not use their judgement?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 58
+    },
+    "elapsed": 5
+  },
+  "balance_after": 128784
+}

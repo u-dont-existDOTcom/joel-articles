@@ -67,22 +67,32 @@
     3
    ],
    "paras": [
-    "For ordinary learning, start small—do shorter practices, make them warm, choose a small and tractable subject to work with, make sure you’re coming all the way back out of hypnosis, and track the effect on one target area (anxiety, chronic daydreaming, repairing a relationship, getting something done, sleep, emotional regulation, intuitive accuracy, etc.) for a week or two. If you find that your functioning worsens or you’re gaining certainty about memories that can’t be verified, then it’s time to reassess, not to push harder."
+    "On the other hand, you may need very little more support. Start small—do shorter practices, make them warm, choose a small and tractable subject to work with, make sure you’re coming all the way back out of hypnosis, and track the effect on one target area (anxiety, daydreaming, repairing a relationship, an avoided task, sleep, emotional regulation, intuitive accuracy, etc.) for a week or two. If you find that your functioning worsens or you’re gaining certainty about memories that can’t be verified, then it’s time to reassess, not to push harder."
    ],
    "run": "HG26-r1",
    "file": "fix-20261018/emu-a/HG26-r1.out.txt",
    "fixes": [
     {
-     "type": "INVENTED",
-     "what": "'you may need very little more support' is new; the published opens 'for ordinary learning'",
-     "replace": "On the other hand, you may need very little more support. Start small",
-     "with": "For ordinary learning, start small"
-    },
-    {
      "type": "SHIFT",
      "what": "growing certainty about unverifiable memories calls for reassessment, not more intensity",
      "replace": "you’re gaining certainty about something that can’t be verified, then it may be time to reassess.",
      "with": "you’re gaining certainty about memories that can’t be verified, then it’s time to reassess, not to push harder."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'chronic'",
+     "replace": "chronic daydreaming",
+     "with": "daydreaming",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "an avoided task",
+     "replace": "getting something done",
+     "with": "an avoided task",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -93,11 +103,21 @@
     4
    ],
    "paras": [
-    "Get some other appropriate help if you’re dealing with recurring panic attacks, compulsive behaviors, substance-related destabilization, or major relationship instability."
+    "Get the right kind of ongoing help if you’re dealing with recurring panic attacks, compulsive behaviors, substance-related destabilization, or major relationship instability."
    ],
    "run": "HG26-r1",
    "file": "fix-20261018/emu-a/HG26-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "ongoing help",
+     "replace": "Get some other appropriate help",
+     "with": "Get the right kind of ongoing help",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "published",
@@ -116,7 +136,7 @@
     6
    ],
    "paras": [
-    "If you want to deliberately use regression to explore the origins of a traumatic experience that you don’t know, to follow an affect or somatic bridge to unknown traumatic origins, or if you expect substantial flashback or dissociative reactions, work with a trauma-informed trained clinician who is trained in the method you’re using and who is present while you do it. (Affect and somatic bridges mean following associations from an emotional or bodily feeling; regression means remembering or imagining what it would have been like when you were younger. Both can also be used for more stable purposes, like finding resources.) Ask what they intend to do and how they’ll handle uncertainty and unexpected reactions. Even if you work with a clinician, please note that hypnosis can’t prove what did or didn’t happen in your life."
+    "If you want to do deliberate trauma-focused regression, to follow an affect or somatic bridge to unknown traumatic origins, or to work with substantial flashbacks or dissociative reactions, work with a trauma-informed trained clinician who is trained in the method you’re using and who is present while you do it. (Affect and somatic bridges mean following associations from an emotional or bodily feeling; regression means remembering or imagining what it would have been like when you were younger. Both can have other uses too, like finding resources.) Ask what they intend to do and how they’ll handle uncertainty and unexpected reactions. Even if you work with a clinician, please note that hypnosis can’t prove what did or didn’t happen in your life."
    ],
    "run": "HG26-r1",
    "file": "fix-20261018/emu-a/HG26-r1.out.txt",
@@ -126,6 +146,30 @@
      "what": "ask what is intended and how uncertainty and unexpected reactions will be handled",
      "replace": "Even if you work with a clinician, please note",
      "with": "Ask what they intend to do and how they’ll handle uncertainty and unexpected reactions. Even if you work with a clinician, please note"
+    },
+    {
+     "type": "SHIFT",
+     "what": "deliberate trauma-focused regression (and the repeat)",
+     "replace": "If you want to deliberately use regression to explore the origins of a traumatic experience that you don’t know,",
+     "with": "If you want to do deliberate trauma-focused regression,",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "to work with substantial flashbacks or dissociative reactions",
+     "replace": "or if you expect substantial flashback or dissociative reactions,",
+     "with": "or to work with substantial flashbacks or dissociative reactions,",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "INVENTED",
+     "what": "different uses, including resourcing",
+     "replace": "Both can also be used for more stable purposes, like finding resources.",
+     "with": "Both can have other uses too, like finding resources.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -136,7 +180,7 @@
     7
    ],
    "paras": [
-    "Having a history of trauma, crying when you access inner children, or even wanting to feel difficult feelings, doesn’t necessarily mean you need more support than working on your own. Choose how wide or narrow a range to work in by watching how you actually respond and what support you have; that will be different for different people. Feeling confident doesn’t make up for support you don’t have."
+    "Having a history of trauma, crying, or even wanting to feel difficult feelings, doesn’t necessarily mean you need more support than working on your own. It is up to you how wide or narrow a range to work in, and that will be different for different people: watch how you actually respond and what support you have. Feeling confident doesn’t make up for support you don’t have."
    ],
    "run": "HG26-r1",
    "file": "fix-20261018/emu-a/HG26-r1.out.txt",
@@ -145,7 +189,15 @@
      "type": "LOST",
      "what": "choose the range by the actual response and the support you have; confidence alone doesn't supply missing support",
      "replace": "It is up to you to find how wide or narrow a range to work in, and that will be different for different people.",
-     "with": "Choose how wide or narrow a range to work in by watching how you actually respond and what support you have; that will be different for different people. Feeling confident doesn’t make up for support you don’t have."
+     "with": "It is up to you how wide or narrow a range to work in, and that will be different for different people: watch how you actually respond and what support you have. Feeling confident doesn’t make up for support you don’t have."
+    },
+    {
+     "type": "SHIFT",
+     "what": "tears, not only crying with inner children",
+     "replace": "crying when you access inner children",
+     "with": "crying",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -156,7 +208,7 @@
     8
    ],
    "paras": [
-    "Most guidelines for treating major trauma emphasize treatments like trauma-focused cognitive behavioral therapy variants, cognitive processing therapy, prolonged exposure, or eye movement desensitization and reprocessing, depending on the person and the guideline. Self-hypnosis and inner child work can be part of that process. If you’re working with high-risk trauma, you need a bigger container for that work."
+    "Major trauma guidelines emphasize treatments like trauma-focused cognitive behavioral therapy variants, cognitive processing therapy, prolonged exposure, or eye movement desensitization and reprocessing, depending on the person and the guideline. Self-hypnosis and inner child work can be part of that process. If you’re working with high-risk trauma, you need a bigger container for that work."
    ],
    "run": "HG26-r1",
    "file": "fix-20261018/emu-a/HG26-r1.out.txt",
@@ -172,6 +224,14 @@
      "what": "high-risk trauma work needs a larger container",
      "replace": "you may want a bigger container",
      "with": "you need a bigger container"
+    },
+    {
+     "type": "SHIFT",
+     "what": "major trauma guidelines",
+     "replace": "Most guidelines for treating major trauma",
+     "with": "Major trauma guidelines",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -182,7 +242,7 @@
     9
    ],
    "paras": [
-    "The ultimate feedback on whether your process is working well is how you’re functioning in ordinary life. If you’re being more loving, honest, functional, relational, grounded, and precise than you were before you started, then keep going, gently. If you’re functioning less well than before, then stop trying to go deeper and focus instead on getting enough sleep, eating, grounding yourself, maintaining healthy boundaries with others, and getting support from others."
+    "The ultimate feedback on whether your process is working well is how you’re functioning in ordinary life. If you’re being more loving, honest, functional, relational, grounded, and precise than you were before you started, then keep going, gently. If ordinary life is getting less stable, then stop trying to go deeper and focus instead on getting enough sleep, eating, grounding yourself, maintaining healthy boundaries with others, and getting support from others."
    ],
    "run": "HG26-r1",
    "file": "fix-20261018/emu-a/HG26-r1.out.txt",
@@ -192,6 +252,14 @@
      "what": "continue gently",
      "replace": "then keep doing what you’re doing.",
      "with": "then keep going, gently."
+    },
+    {
+     "type": "SHIFT",
+     "what": "less stable",
+     "replace": "If you’re functioning less well than before",
+     "with": "If ordinary life is getting less stable",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

@@ -67,7 +67,7 @@
     3
    ],
    "paras": [
-    "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having someone else guiding the process, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.) But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system."
+    "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.) But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system."
    ],
    "run": "HG12-r1",
    "file": "fix-20261018/emu-a/HG12-r1.out.txt",
@@ -83,6 +83,14 @@
      "what": "self-hypnosis has one advantage nobody outside can duplicate: immediate dialogue with the system itself",
      "replace": "can help me keep the process regulated and safe.)",
      "with": "can help me keep the process regulated and safe.) But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system."
+    },
+    {
+     "type": "LOST",
+     "what": "a skilled guide",
+     "replace": "there are advantages to having someone else guiding the process, since they may be able",
+     "with": "there are advantages to having a skilled guide, since they may be able",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

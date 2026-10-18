@@ -1,22 +1,100 @@
-[{"block": 1, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "'in a therapist's office' became a 'controlled environment'; 'happens through' became 'utilized through' (someone using it on purpose)",
-   "replace": "in a controlled environment with a therapist, but it can also be utilized through", "with": "in a therapist’s office, but it can also happen through"}]},
- {"block": 2, "verdict": "FIX", "problems": [
-  {"type": "INVENTED", "what": "'for years' is new; the published says marketers and designers know this perfectly well",
-   "replace": "have been using these techniques for years, and the practice", "with": "know this perfectly well, and the practice"},
-  {"type": "INVENTED", "what": "a made-up quotation attributed to the FTC report; the published paraphrases it",
-   "replace": "they refer to “design patterns that have been designed to trick or manipulate users into doing things that they might not otherwise do.”", "with": "they describe designs that trick or manipulate consumers."},
-  {"type": "INVENTED", "what": "a made-up quotation attributed to the OECD; the published paraphrases it",
-   "replace": "refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”", "with": "describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."}]},
- {"block": 3, "verdict": "FIX", "problems": [
-  {"type": "LOST", "what": "the four different things (conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent) and that a mind can be influenced without the adult self clearly choosing it; the rewrite says they are all ways to gain consent",
-   "replace": "Consciously or unconsciously, emotionally or legally, there are a lot of ways to gain someone’s consent, or influence their mind, even if they are a fully grown adult.", "with": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent: those are all different things. Someone’s mind can be influenced, even if they are a fully grown adult, without their adult self having clearly chosen the influence."}]},
- {"block": 4, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "the published only says the line is associated with the Silva tradition",
-   "replace": "As the practitioners of the Silva Method of Mind Control say,", "with": "As a line from the Silva Mind Control tradition puts it,"}]},
- {"block": 5, "verdict": "OK"},
- {"block": 6, "verdict": "FIX", "problems": [
-  {"type": "SHIFT", "what": "the published says these forces are already training the mind, not trying to",
-   "replace": "trying to train your mind", "with": "already training your mind"},
-  {"type": "LOST", "what": "practising from inside it, listening closely, and making adult choice more available (the rewrite has 'fully conscious adult')",
-   "replace": "to learn to befriend your deeper mind, and choose things for yourself as a fully conscious adult.", "with": "to work from the inside: befriend your deeper mind, listen closely, and make it easier to choose things for yourself as an adult."}]}]
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'in a therapist's office' became a 'controlled environment'; 'happens through' became 'utilized through' (someone using it on purpose)",
+    "replace": "in a controlled environment with a therapist, but it can also be utilized through",
+    "with": "in a therapist’s office, but it can also happen through"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'for years' is new; the published says marketers and designers know this perfectly well",
+    "replace": "have been using these techniques for years, and the practice",
+    "with": "know this perfectly well, and the practice"
+   },
+   {
+    "type": "INVENTED",
+    "what": "a made-up quotation attributed to the FTC report; the published paraphrases it",
+    "replace": "they refer to “design patterns that have been designed to trick or manipulate users into doing things that they might not otherwise do.”",
+    "with": "they describe designs that trick or manipulate consumers."
+   },
+   {
+    "type": "INVENTED",
+    "what": "a made-up quotation attributed to the OECD; the published paraphrases it",
+    "replace": "refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”",
+    "with": "describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+   },
+   {
+    "type": "INVENTED",
+    "what": "regulatory scrutiny",
+    "replace": ", and the practice has even come under scrutiny by regulatory bodies.",
+    "with": ".",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the four different things (conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent) and that a mind can be influenced without the adult self clearly choosing it; the rewrite says they are all ways to gain consent",
+    "replace": "Consciously or unconsciously, emotionally or legally, there are a lot of ways to gain someone’s consent, or influence their mind, even if they are a fully grown adult.",
+    "with": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent: those are all different things. Someone’s mind can be influenced, even if they are a fully grown adult, without their adult self having clearly chosen the influence."
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the published only says the line is associated with the Silva tradition",
+    "replace": "As the practitioners of the Silva Method of Mind Control say,",
+    "with": "As a line from the Silva Mind Control tradition puts it,"
+   },
+   {
+    "type": "SHIFT",
+    "what": "associated with, not from",
+    "replace": "As a line from the Silva Mind Control tradition puts it,",
+    "with": "As a line associated with the Silva Mind Control tradition puts it,",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "OK"
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the published says these forces are already training the mind, not trying to",
+    "replace": "trying to train your mind",
+    "with": "already training your mind"
+   },
+   {
+    "type": "LOST",
+    "what": "practising from inside it, listening closely, and making adult choice more available (the rewrite has 'fully conscious adult')",
+    "replace": "to learn to befriend your deeper mind, and choose things for yourself as a fully conscious adult.",
+    "with": "to work from the inside: befriend your deeper mind, listen closely, and make it easier to choose things for yourself as an adult."
+   }
+  ]
+ }
+]

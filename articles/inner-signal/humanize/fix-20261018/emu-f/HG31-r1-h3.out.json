@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG31-r1-h3.txt",
+  "input_words": 73,
+  "input_sha256": "08c4a68e99d5235f4fbc93e543e60f7c4282f879c4a53a8657901f373baa9d4a",
+  "balance_before": 129708,
+  "started_utc": "2026-10-18T03:23:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:23:51Z",
+  "response": {
+    "id": "5f64ae1e-16be-48dc-92f3-ec58ddafcf67",
+    "tool": "humanize",
+    "text": "Pattern 8: Tag questions\n\nTag questions are sentences like \"isn't it\", \"can't it\", \"doesn't it\" at the end of a sentence. They can be a great way to soften up a sentence. They also get oily very fast, so use lightly.\n\nDoesn't it already know how to do this?\n\nPattern #9 – Nominalizations\n\nNominalizations are words like \"healing\", \"safety\", \"trust\", \"integration\", \"communion\", \"clarity\", \"rest\" etc. The beauty of these words is that, while they are vague to the conscious mind, they can be very specific to the subconscious. Try them out.\n\nCan it allow itself more safety, in its own way?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 73
+    },
+    "elapsed": 7
+  },
+  "balance_after": 129635
+}

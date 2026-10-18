@@ -41,7 +41,7 @@
     2
    ],
    "paras": [
-    "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well, and the practice has even come under scrutiny by regulatory bodies. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+    "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
    ],
    "run": "HG06-r1",
    "file": "fix-20261018/emu-a/HG06-r1.out.txt",
@@ -63,6 +63,14 @@
      "what": "a made-up quotation attributed to the OECD; the published paraphrases it",
      "replace": "refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”",
      "with": "describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+    },
+    {
+     "type": "INVENTED",
+     "what": "regulatory scrutiny",
+     "replace": ", and the practice has even come under scrutiny by regulatory bodies.",
+     "with": ".",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -93,7 +101,7 @@
     4
    ],
    "paras": [
-    "As a line from the Silva Mind Control tradition puts it,"
+    "As a line associated with the Silva Mind Control tradition puts it,"
    ],
    "run": "HG06-r1",
    "file": "fix-20261018/emu-a/HG06-r1.out.txt",
@@ -103,6 +111,14 @@
      "what": "the published only says the line is associated with the Silva tradition",
      "replace": "As the practitioners of the Silva Method of Mind Control say,",
      "with": "As a line from the Silva Mind Control tradition puts it,"
+    },
+    {
+     "type": "SHIFT",
+     "what": "associated with, not from",
+     "replace": "As a line from the Silva Mind Control tradition puts it,",
+     "with": "As a line associated with the Silva Mind Control tradition puts it,",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

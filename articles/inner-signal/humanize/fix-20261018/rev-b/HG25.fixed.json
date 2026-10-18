@@ -21,7 +21,7 @@
     1
    ],
    "paras": [
-    "DO NOT: Treat inner voices, images, movements or body signals as commands or proof. Listen, then always reality test them."
+    "DO NOT: Treat inner voices, images, autonomous movements or body signals as commands or proof. Listen, then always reality test them."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
@@ -31,6 +31,14 @@
      "what": "don't treat them as commands or proof (not: don't see them as real); listen, then reality-test",
      "replace": "See the voices, images, movements or body signals as real, but always reality test them.",
      "with": "Treat inner voices, images, movements or body signals as commands or proof. Listen, then always reality test them."
+    },
+    {
+     "type": "LOST",
+     "what": "autonomous movements",
+     "replace": "Treat inner voices, images, movements",
+     "with": "Treat inner voices, images, autonomous movements",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -41,11 +49,21 @@
     2
    ],
    "paras": [
-    "DO NOT obsess about “downloading” grandiose information or become obsessed with demons, jinn, “Unattached Burdens”, etc. Stabilize yourself. Get help if necessary, especially if not reality testing well or if not functioning well in life."
+    "DO NOT obsess about “downloading” grandiose information or become obsessed with demons, jinn, “Unattached Burdens”, etc. Stabilize yourself first. Get help if necessary, especially if not reality testing well or if not functioning well in life."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "stabilize first",
+     "replace": "Stabilize yourself.",
+     "with": "Stabilize yourself first.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -79,11 +97,21 @@
     4
    ],
    "paras": [
-    "DO NOT try to “force” memories to “prove” something to yourself or ignore medical symptoms by “forcing” them down through hypnosis."
+    "DO NOT try to “force” memories, use trance to “prove” what happened, or ignore medical symptoms by “forcing” them down through hypnosis."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "force memory recovery, use trance to prove what happened",
+     "replace": "DO NOT try to “force” memories to “prove” something to yourself or ignore",
+     "with": "DO NOT try to “force” memories, use trance to “prove” what happened, or ignore",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -123,7 +151,7 @@
     7
    ],
    "paras": [
-    "DO NOT allow any inner state, like the “Inner Child” or “Protector” or “Nurturer” or “Leader” to take over completely. They each need the others: the child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available."
+    "DO NOT allow any inner role, like the “Inner Child” or “Protector” or “Nurturer” or “Leader” to take over completely. They each need the others: the child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
@@ -133,6 +161,14 @@
      "what": "the proportions: the child doesn't lead adult life, the Protector can't exclude all love, the Nurturer can't erase consequences, the Leader can't bypass the child, analysis and tenderness both stay available",
      "replace": "They each need the others.",
      "with": "They each need the others: the child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available."
+    },
+    {
+     "type": "SHIFT",
+     "what": "the inner roles",
+     "replace": "any inner state, like",
+     "with": "any inner role, like",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -195,7 +231,7 @@
     11
    ],
    "paras": [
-    "Don’t believe that normal physical sensations prove hidden trauma, illness, body toxins, demonic possession, “attachments”, “transformations” or some hidden “subconscious” truth."
+    "Don’t believe that normal physical sensations prove hidden trauma, illness, body toxins, possession, “attachments”, “transformations” or some hidden “subconscious” truth."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
@@ -211,6 +247,14 @@
      "what": "the condition 'just because the subconscious says they are' is new",
      "replace": "or anything else, just because the “subconscious” says they are.",
      "with": "or some hidden “subconscious” truth."
+    },
+    {
+     "type": "SHIFT",
+     "what": "possession, not only demonic",
+     "replace": "demonic possession",
+     "with": "possession",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -233,7 +277,7 @@
     13
    ],
    "paras": [
-    "Don’t ever allow anyone to put hidden “commands” in. A cue you choose consciously to reuse should have a clear purpose, stay reviewable, and be removed if you no longer want it. Just saying “cancel” doesn’t guarantee it’s instantly erased. Don’t allow anyone to give commands to someone else to give to “YOU” or to make YOU do anything or change to a different person or have amnesia, etc."
+    "Don’t put in, or let anyone put in, hidden “commands”. A cue you choose consciously to reuse should have a clear purpose, stay reviewable, and be removed if you no longer want it. Just saying “cancel” doesn’t guarantee it’s instantly erased. Don’t allow anyone to give commands to someone else to give to “YOU” or to make YOU do anything or change to a different person or have amnesia, etc."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
@@ -249,6 +293,14 @@
      "what": "'there is no way to put something in that cannot be removed' is a new reassurance; the published says only that 'cancel' doesn't guarantee instant erasure",
      "replace": "There is no way to “put something in” that cannot be removed, but saying “I remove them” may not be enough.",
      "with": "Just saying “cancel” doesn’t guarantee it’s instantly erased."
+    },
+    {
+     "type": "SHIFT",
+     "what": "do not install (yourself either)",
+     "replace": "Don’t ever allow anyone to put hidden “commands” in.",
+     "with": "Don’t put in, or let anyone put in, hidden “commands”.",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"

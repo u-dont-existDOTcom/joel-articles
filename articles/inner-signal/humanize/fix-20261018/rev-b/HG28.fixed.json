@@ -21,7 +21,7 @@
     1
    ],
    "paras": [
-    "In the Inner Signal app you’ll find voice hypnosis sessions to guide you, information about the method you’re using, and tips on how to develop your own language for hypnotic self-talk. After each session, you’ll have the chance to report what went through your mind and body, and reflect on what you reported. You can also ask the app questions about how a hypnotherapist might approach particular issues. You don’t need an app to do self-hypnosis, and finding a practitioner is an option, not something you have to do to graduate."
+    "In the Inner Signal app you’ll find voice hypnosis sessions to guide you, information about the method you’re using, and ways to develop your own language. After each session, you’ll have the chance to report what went through your mind and body, and reflect on what you reported. You can also ask the app questions about a hypnotist’s approach. You don’t need an app to do self-hypnosis, and finding a practitioner is an option, not something you have to do to graduate."
    ],
    "run": "HG28-r1",
    "file": "fix-20261018/emu-a/HG28-r1.out.txt",
@@ -49,6 +49,22 @@
      "what": "finding a practitioner is an option, not a graduation requirement",
      "replace": "and you don’t have to graduate from this app before looking for a practitioner to work with, but it may help to have a starting point.",
      "with": "and finding a practitioner is an option, not something you have to do to graduate."
+    },
+    {
+     "type": "SHIFT",
+     "what": "questions about a hypnotist's approach",
+     "replace": "You can also ask the app questions about how a hypnotherapist might approach particular issues.",
+     "with": "You can also ask the app questions about a hypnotist’s approach.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "develop your own language",
+     "replace": "and tips on how to develop your own language for hypnotic self-talk",
+     "with": "and ways to develop your own language",
+     "round": 2,
+     "from": "verify-a (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -117,7 +133,7 @@
     5
    ],
    "paras": [
-    "Please fill in this survey with what you’ve learned from using the app, so that you have something to analyse later, and others can benefit from what you’ve experienced."
+    "Please fill in this survey with what you’ve learned from using the app, so that you have something to analyse later, and others can learn how the guide is landing in real practice."
    ],
    "run": "HG28-r1",
    "file": "fix-20261018/emu-a/HG28-r1.out.txt",
@@ -127,7 +143,17 @@
      "new": "Please fill in this survey"
     }
    ],
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "how the guide is landing in real practice",
+     "replace": "and others can benefit from what you’ve experienced.",
+     "with": "and others can learn how the guide is landing in real practice.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
