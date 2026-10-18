@@ -948,3 +948,21 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 2. With his answers: whatever they change (his lines in IFS and Teachers, the loveyhuasca link, his repeats, my six pointers, the test line, and any of 54's points he wants back, each checked again).
 3. Records only: OWNER-LOCKS.json and the dangerous-adult compression amendment still name "the child is not a diagnostic test", which his own P1 left implicit (`TRACE-r4-A.md`, notes on 8 and 10).
 
+
+## Turn 72 (2026-10-18, from 19:06 UTC): his answers to 45 and 47 to 54
+
+- **His messages:** his answers to 45 and 47 to 54, the two section moves, and "check your lane, you were sent info on schema therapy" (19:06, `t72-answers/JOEL-20261018-1906.md`); at 19:26, "yes you read me correctly altho i also said you should use your jdugement to see if what i'm saying sounds right".
+- **In, his own edits:** One Intention in his words (Franklin out); his Altered States P2 fixes and the demon sentence's cut; his trance meaning; his CIA examples; his Teachers P3 sentence; his 54, 12 C; 51, A and 53, B; the two Teachers sentences out (49, 6) and the Higher Self "no use" line out (45).
+- **In, my drafts from his notes and the guide:** How This Relates to IFS P4 and P5 (his Higher Self notes); How This Relates to Schema Therapy, P1 (the research the lane was sent, UDA's suggested fix at cd9bf74e, checked against the ISST page); checking that turns into doing (54, 4); the dating paragraph with the reassurance machine (54, 4 and 6); the checks on a person (54, 7); the full break as a last resort (54, 9); coming out first inside Before You Try to Go Deep P2 (54, 8 and 10), after fourteen standalone paragraphs read AI.
+- **His moves:** When the Present-Day Adult Is Dangerous to the Child moved after When Healing Turns Into Checking. You Don't Need an Inner Monologue hasn't moved: without it in front, Your Body Might Need Some Love First P3 to P5 get AI windows in every version (rounds t72b, c and e).
+- **"Those don't even agree ...":** debugged (t72-guide/REVIEWS.md) and cut, with "and so on"; the cold-read prompt asks about sentences nobody would doubt; lesson E192. The sweep he asked for found 24 (JUNK-SWEEP.md), each traced before anything changed: four of mine went in (the Tyler sentence in his words, Just Like Me's move, Somatic Heart Opening's cut, When to Change the Strategy P5's cut), and his and his guide's are question 55.
+- **Linter and lessons:** rule O43 for the hedges he named (E193); E194 (his One Intention), E195 (my pick on every question), E196 (fold a short point into a paragraph that reads Human, where the guide has it), E197 (check a move by itself first).
+- **Not yet:** 54, 11 (the list, with the rest of 8): inside P5 it reads Human alone (0.38) and the section then has a 37-word window on checking-into-doing (rounds g to i); schema P2 (the differences) read AI three times and is out; IFS P6's sweep fix read AI.
+- **Records:** `t72-guide/REVIEWS.md`, `t72.py` and `installs72.py`, SPEC, READ and RESULTS files for rounds a to i, `tools/PREDICTIONS.md` rows t72a on, OWNER-EDITS entries move-dangerous-20261018 and move-monologue-pending-20261018.
+
+### Next
+
+1. His answers to 55 to 58.
+2. Your Body Might Need Some Love First P3 to P5 reworked until they read Human without his Inner Monologue section before them; then that move.
+3. 54, 11 and the rest of 8 (P5 with the guide's list, the vague line out), once the section's check holds.
+4. With 58, A: innerSignalGraph's PGQ-018 to PGQ-039 (queue r12) against the article.
