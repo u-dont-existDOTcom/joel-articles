@@ -93,7 +93,7 @@
  "oi-k": "S B B B S",
  "jw-g": "B S S S S",
  "cs1-d": "B S S",
- "cs1-e": "B B S B S",
+ "cs1-e": "B B B S S",
  "w2as-3": "S S B B S",
  "w2as-4": "S S S B S S S",
  "w2as-5": "B S S",
@@ -129,5 +129,8 @@
  "as4-l": "S B B B B B S S",
  "as5-l": "B S B S B",
  "jl-one": "S S B S S B S S B B S B",
- "oi-one": "S S S B S S S B B"
+ "oi-one": "S S S B S S S B B",
+ "cs1-f": "B B S S",
+ "as4-m": "S B B B S B S",
+ "as5-m": "B S S B B"
 }

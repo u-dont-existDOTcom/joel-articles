@@ -1,0 +1,83 @@
+{
+ "t71t_cs1e": {
+  "kind": "screen",
+  "march": [
+   "B B B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71t: cs1-e, alone."
+ },
+ "t71t_cs1f": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71t: cs1-f, alone."
+ },
+ "t71t_as4m": {
+  "kind": "screen",
+  "march": [
+   "S B B B S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71t: as4-m, alone."
+ },
+ "t71t_as5m": {
+  "kind": "screen",
+  "march": [
+   "B S S B B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71t: as5-m, alone."
+ },
+ "t71t_seccse": {
+  "kind": "screen",
+  "march": [
+   "cs1-e: B B B S S, cs2-p: B B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71t_seccse.md",
+  "note": "t71t: ## Close the Session and Return to Life, put together: D:cs1-e, D:cs2-p."
+ },
+ "t71t_seccsf": {
+  "kind": "screen",
+  "march": [
+   "cs1-f: B B S S, cs2-p: B B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71t_seccsf.md",
+  "note": "t71t: ## Close the Session and Return to Life, put together: D:cs1-f, D:cs2-p."
+ },
+ "t71t_secasm": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as4-m: S B B B S B S, as5-m: B S S B B, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71t_secasm.md",
+  "note": "t71t: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as4-m, D:as5-m, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71t_secas4m": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as4-m: S B B B S B S, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71t_secas4m.md",
+  "note": "t71t: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as4-m, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71t_secas5m": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as5-m: B S S B B, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71t_secas5m.md",
+  "note": "t71t: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as5-m, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ }
+}
