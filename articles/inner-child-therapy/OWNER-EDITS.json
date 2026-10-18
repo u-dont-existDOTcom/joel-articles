@@ -251,12 +251,24 @@
   },
   {
    "id": "dissolve-three-functions",
-   "status": "pending",
+   "status": "applied",
    "what": "Dissolve the h1 The Three Adult Functions into shorter, earlier pieces, keeping every therapy principle.",
    "joel": "16:29",
    "waits_for": "the sections after the Apprentice (see experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md)",
    "must_not_contain": [
     "The Three Adult Functions"
+   ],
+   "note": "2026-10-18 (turn 71): the last units placed, so every unit of the old h1 is in the article: TF-U8 and TF-U9 (the child's gifts, his post) and TF-U10's \"communion rather than command\" after the pl/ork paragraph, TF-U11 (intuition and analysis) after his \"Or if you do get an answer ...\" paragraph, both in Start With Whatever Showed Up; TF-U12's test line in Don't Give the Inner Adult Away, as published, waiting on his word (tf12-test-line-pending-20261018). TF-U10's reaching out is his Borrowed Adulthood and Speak Toward paragraphs. Earlier: pieces 1 to 3 (2026-09-27), Make the Protector Visible (turn 5)."
+  },
+  {
+   "id": "tf12-test-line-pending-20261018",
+   "status": "pending",
+   "what": "TF-U12's test line from his published guide is his first person; its wording counts as his only once he has seen it whole, in its section, and said so (E189). In with Don't Give the Inner Adult Away (turn 71, round t71kkk), as published, at the end of P1: \"The test is whether the relationship makes me more grounded, truthful, and free.\" (question 52).",
+   "joel": "(waiting: question 52, turn 71)",
+   "where": "Don’t Give the Inner Adult Away",
+   "waits_for": "his word on question 52",
+   "must_contain": [
+    "But they can know things you don't and still be wrong about you. The test is whether the relationship makes me more grounded, truthful, and free."
    ]
   },
   {

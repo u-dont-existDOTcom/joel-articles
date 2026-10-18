@@ -286,3 +286,32 @@ def tf12(line=TF12_LINE, note='as published'):
 
 register('tf12', DG_P1_END, tf12)
 register('tf12-you', DG_P1_END, lambda: tf12(TF12_LINE.replace('makes me', 'makes you')))
+
+DG_C_END = "46 words, so no alone check; My Journey 100% Human (763). Pangram 4.0 through the dashboard. -->"
+
+
+def tf12_install():
+    """The comment before Don't Give's P1 gets turn 71's note; P1 gets the line."""
+    return (DG_C_END[:-4] + ' Turn 71 (the overnight run): the guide\'s TF-U12 test line, as his published guide has it, "The test is whether the relationship makes me more grounded, truthful, and free." (his first person: it waits on his word, E189, question 52; OWNER-EDITS tf12-test-line-pending-20261018), at the end of this paragraph, the restructure plan\'s place for it (THREE-FUNCTIONS-RESTRUCTURE-20260927.md: "One sentence, for Joel to OK"; "the relationship" is the one with somebody who seems grown-up). The rest of TF-U12 (test the conclusion; a real teaching doesn\'t make somebody an authority everywhere) is this section\'s and the TF-U11 paragraph\'s already. experiments/t71-guide/drafts/tf12-a.txt. Alone Human Written (0.0078), https://www.pangram.com/history/84fbc4fe-2d8f-4f1a-a9ae-db09432258bc; My Journey with it Human Written (0.045, high, 989 words), https://www.pangram.com/history/ccb56473-3af4-417d-95d0-7e53beef8803 (round t71kkk). A version with "you" for "me" fails the linter as a list of three of mine. -->')
+
+
+register('tf12-in', lambda: DG_C_END + '\n\nIf you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and letting them do some of the grown-up jobs for you can actually help for a while. ' + DG_P1_END,
+         lambda: tf12_install() + '\n\nIf you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and letting them do some of the grown-up jobs for you can actually help for a while. ' + tf12())
+
+
+# 2026-10-18, round t71lll: the owner edit worth-universal-vs-personal (Joel, 2026-09-27 00:09: "love as a universal
+# force (whether from God, or the universe itself or whatever) precedes anything you could earn. But love from another
+# person ... obviously is more conditional than that. so the ending might need a bit more clarity"), waiting for this
+# section (OPEN-OWNER-FLAGS.md); turn 65's closing left the guide's "Love precedes anything you could earn" out.
+WL_HEAD = "# You Are Worthy of Love. Always.\n\n<!-- Turn 65 (E177), round z, fresh writer 1 (job wl1)"
+
+
+def wl(p='wl-u2'):
+    return ('# You Are Worthy of Love. Always.\n\n<!-- Turn 71 (the overnight run): his owner edit worth-universal-vs-personal (2026-09-27 00:09, BORROW-LOVE-DRAFTS-20260926.md: '
+            '"love as a universal force (whether from God, or the universe itself or whatever) precedes anything you could earn. But love from another person ... obviously is more conditional than that. so the ending might need a bit more clarity"), '
+            'waiting for this section since then; turn 65\'s closing below left out the guide\'s "Love precedes anything you could earn. Trust is different." as said already (Love Doesn\'t Have to Wait for Trust), so the title stood alone. '
+            'It agrees with Goodwill\'s "then they actually would be lovable", which is love from a person. experiments/t71-guide/drafts/' + p + '.txt. @@WL@@ -->\n\n' + draft(p) + '\n\n<!-- Turn 65 (E177), round z, fresh writer 1 (job wl1)')
+
+
+register('wl', WL_HEAD, wl)
+register('wl-u1', WL_HEAD, lambda: wl('wl-u1'))
