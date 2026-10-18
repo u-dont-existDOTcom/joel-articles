@@ -1716,3 +1716,30 @@ class ClickableLinks(unittest.TestCase):
         page = ('<style>a{color:red} /* https://x.example/css */</style><p>Human (<a href="https://www.pangram.com/history/a1">'
                 'https://www.pangram.com/history/a1</a>), and https://www.pangram.com/history/a2.</p>')
         self.assertEqual(html_links.bare_urls_in_html(page), ['https://www.pangram.com/history/a2'])
+
+
+class PredictionScorecard(unittest.TestCase):
+    """2026-10-18, Joel at 01:29 UTC: "your mission is to improve the scorecard especially for predictions and fixes, as well as
+    the speed of fixing." The predictor's features, and the chance column the scored predictions now keep."""
+
+    def test_predictor_counts_what_it_says(self):
+        import pangram_predictor as P
+        f = P.features("I don't think it's crucial. We tried, and it worked!", kind='owner')
+        self.assertGreater(f['contraction'], 0)
+        self.assertGreater(f['ai_words'], 0)
+        self.assertGreater(f['exclaim'], 0)
+        self.assertEqual(f['kind_owner'], 1.0)
+        self.assertEqual(f['kind_section'], 0.0)
+
+    def test_fix_preds_keeps_a_chance_column_wherever_it_sits(self):
+        spec = importlib.util.spec_from_file_location(
+            'fix_preds', ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'prediction-review' / 'fix_preds.py')
+        fp = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(fp)
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'PREDICTIONS.md'
+            src.write_text('## Batch 999g\n\n| text | mine | chance | why | Pangram |\n|---|---|---|---|---|\n'
+                           '| K1 | AI | 0.35 | a list of three | **Human** (Human Written), 01:00:00 |\n', encoding='utf-8')
+            out, n = fp.convert(str(src))
+            self.assertEqual(n, 1)
+            self.assertIn('| 999g-K1 | AI | 0.35 | a list of three | Human (Human Written), 01:00:00 |', pathlib.Path(out).read_text(encoding='utf-8'))

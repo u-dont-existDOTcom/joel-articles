@@ -3,13 +3,13 @@
  "description": "Every Pangram check in the community article lane that had a prediction written before it, one row per check: the batch, the check, my call and why, Pangram's result, and whether my call was right. Built from the lane's PREDICTIONS files by prediction-review/scorecard.py.",
  "source": {
   "kind": "file",
-  "url": "/_blob/ba7a9e72f9ca960d26441e9649d9c671",
+  "url": "/_blob/44b7cc69fd5868d86493664675de4327",
   "name": "prediction-calls-rows.json",
   "format": "json"
  },
  "updated": {
-  "at": "2026-10-17T23:58:33Z",
-  "by": "Claude (community article lane), through batch 427g"
+  "at": "2026-10-18T01:56:25Z",
+  "by": "Claude (community article lane), through batch 428g; each row now carries its kind of check and whether I called Human"
  },
  "schedule": "Rebuilt by the lane at the end of each turn with Pangram checks",
  "staleAfterHours": 72

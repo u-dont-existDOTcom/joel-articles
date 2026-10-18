@@ -31,30 +31,39 @@
 <div class="ps">
   <header class="ps-head" id="summary">
     <h1>Prediction scorecard</h1>
-    <p class="ps-take">Since the review of 10 October, my calls were right <span class="dash-skeleton" data-source="since_review" data-field="right_share" data-row="0">—</span> of the time; always saying AI would have been right <span class="dash-skeleton" data-source="since_review" data-field="always_ai_share" data-row="0">—</span>.</p>
+    <p class="ps-take">Since the review of 10 October, my calls were right <span class="dash-skeleton" data-source="since_review" data-field="right_share" data-row="0">—</span> of the time; always saying AI would have been right <span class="dash-skeleton" data-source="since_review" data-field="always_ai_share" data-row="0">—</span>, and always saying Human <span class="dash-skeleton" data-source="since_review" data-field="always_human_share" data-row="0">—</span>. In the latest ten batches I said Human <span class="dash-skeleton" data-source="latest" data-field="said_human_share" data-row="0">—</span> of the time and <span class="dash-skeleton" data-source="latest" data-field="passed_share" data-row="0">—</span> passed, so beating always-Human is the bar now.</p>
   </header>
 
   <section class="ps-cards" id="cards">
     <div class="ps-card"><span class="lab">Right since the review (batch 199 on)</span><span class="big dash-skeleton" data-source="since_review" data-field="right_share" data-row="0">—</span><span class="sub"><span data-source="since_review" data-field="right" data-row="0">—</span> of <span data-source="since_review" data-field="calls" data-row="0">—</span> calls</span></div>
-    <div class="ps-card"><span class="lab">Always saying AI, same calls</span><span class="big dash-skeleton" data-source="since_review" data-field="always_ai_share" data-row="0">—</span><span class="sub">the bar my calls have to beat</span></div>
-    <div class="ps-card"><span class="lab">Right in the latest ten batches</span><span class="big dash-skeleton" data-source="latest" data-field="right_share" data-row="0">—</span><span class="sub"><span data-source="latest" data-field="right" data-row="0">—</span> of <span data-source="latest" data-field="calls" data-row="0">—</span>; always AI <span data-source="latest" data-field="always_ai_share" data-row="0">—</span></span></div>
+    <div class="ps-card"><span class="lab">Always saying AI, same calls</span><span class="big dash-skeleton" data-source="since_review" data-field="always_ai_share" data-row="0">—</span><span class="sub">one bar my calls have to beat</span></div>
+    <div class="ps-card"><span class="lab">Always saying Human, same calls</span><span class="big dash-skeleton" data-source="since_review" data-field="always_human_share" data-row="0">—</span><span class="sub">the other bar, higher since most checks pass</span></div>
+    <div class="ps-card"><span class="lab">Right in the latest ten batches</span><span class="big dash-skeleton" data-source="latest" data-field="right_share" data-row="0">—</span><span class="sub"><span data-source="latest" data-field="right" data-row="0">—</span> of <span data-source="latest" data-field="calls" data-row="0">—</span>; always AI <span data-source="latest" data-field="always_ai_share" data-row="0">—</span>, always Human <span data-source="latest" data-field="always_human_share" data-row="0">—</span></span></div>
+    <div class="ps-card"><span class="lab">My rewrites that passed on their first check, latest ten batches</span><span class="big dash-skeleton" data-source="latest_fixes" data-field="pass_share" data-row="0">—</span><span class="sub"><span data-source="latest_fixes" data-field="passed" data-row="0">—</span> of <span data-source="latest_fixes" data-field="checks" data-row="0">—</span>; all batches with a kind <span data-source="all_fixes" data-field="pass_share" data-row="0">—</span></span></div>
     <div class="ps-card"><span class="lab">Right before the review</span><span class="big dash-skeleton" data-source="before_review" data-field="right_share" data-row="0">—</span><span class="sub">always AI <span data-source="before_review" data-field="always_ai_share" data-row="0">—</span></span></div>
   </section>
 
   <section class="ps-panel" id="trend">
     <h2>Right calls per ten batches</h2>
-    <p class="ps-note">A call is right when I said Human and it read 100% Human, or I said AI or Mixed and it didn't. The muted line is what always saying AI would have scored on the same texts.</p>
-    <div class="ps-legend"><span><i id="sw-mine"></i>My calls</span><span><i id="sw-ai"></i>Always AI</span></div>
+    <p class="ps-note">A call is right when I said Human and it read 100% Human, or I said AI or Mixed and it didn't. The muted lines are what always saying AI, and always saying Human, would have scored on the same texts.</p>
+    <div class="ps-legend"><span><i id="sw-mine"></i>My calls</span><span><i id="sw-ai"></i>Always AI</span><span><i id="sw-hu"></i>Always Human</span></div>
     <div class="ps-chart" id="chart" data-source="by_window"></div>
+  </section>
+
+  <section class="ps-panel" id="fixes">
+    <h2>My rewrites, per ten batches</h2>
+    <p class="ps-note">How often a rewrite of mine (a screened candidate, a draft or an edit) read 100% Human on its first check, how often a whole section did, and how often I called Human. Batches before 283 have no record of the kind of check, so they aren't here.</p>
+    <div class="ps-legend"><span><i id="sw-fx"></i>My rewrites passed</span><span><i id="sw-sec"></i>Sections passed</span><span><i id="sw-said"></i>I said Human</span></div>
+    <div class="ps-chart" id="chart2" data-source="fixes_by_window"></div>
   </section>
 
   <section class="ps-panel" id="changing">
     <h2>What today's misses taught</h2>
     <ul class="ps-list">
-      <li>Two paragraphs that each pass alone can read AI together: Joel's P3 with my P2, and my P15 with his P16. The whole section is the test, and I now call a new pair weakly.</li>
-      <li>My own lists of three still slip past me while I'm fixing someone else's. P15's three needs read AI beside his P16; split his way, they passed.</li>
-      <li>I still call wording close to the published text AI by habit. Section 4's sentence passed both ways.</li>
-      <li>Where I can't tell why something read AI or Human, it goes on the Rule Scoring Sheet for Joel to say why.</li>
+      <li>I call Human too often. In the latest batches I said Human almost every time while about a sixth read AI, so my calls barely beat always saying Human. From 18 October each call carries a chance, and I say AI when the chance is under half.</li>
+      <li>A whole section passed 83% of the time when none of its new paragraphs had been checked before it, about half the time with two or more new ones, and about half when one of them had read Human at low confidence or with an AI likelihood of 0.10 or more. I now call those sections AI unless I check the risky paragraph first.</li>
+      <li>Joel's own paragraphs, checked as he wrote them, passed 55% of the time and my calls on them were right 91%; my edits of installed text passed 92%; screened candidates (mostly Emulate's) 70%, where nearly all my misses are.</li>
+      <li>A model trained on the lane's 829 checked texts beat my calls on texts like the ones it had seen, but on paragraphs it had never seen anything like, it did no better than always saying Human. It's a second opinion within an article, not a substitute for reading the text.</li>
     </ul>
   </section>
 
@@ -73,13 +82,20 @@
 
 <script>
 dash.calc('since_review', { inputs: ['calls'], title: 'Since the review', description: 'Calls from batch 199 on (after the review of 10 October): how many were right, and what always saying AI would have scored.',
-  fn: (calls) => { const rows = calls.filter((c) => Number(c.batch) >= 199); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null }]; } });
+  fn: (calls) => { const rows = calls.filter((c) => Number(c.batch) >= 199); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; const said = rows.filter((c) => Number(c.said_human) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null, always_human_share: n ? passed / n : null, said_human_share: n ? said / n : null, passed_share: n ? passed / n : null }]; } });
 dash.calc('before_review', { inputs: ['calls'], title: 'Before the review', description: 'Calls before batch 199, scored the same way.',
-  fn: (calls) => { const rows = calls.filter((c) => Number(c.batch) < 199); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null }]; } });
+  fn: (calls) => { const rows = calls.filter((c) => Number(c.batch) < 199); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; const said = rows.filter((c) => Number(c.said_human) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null, always_human_share: n ? passed / n : null, said_human_share: n ? said / n : null, passed_share: n ? passed / n : null }]; } });
 dash.calc('latest', { inputs: ['calls'], title: 'Latest ten batches', description: 'Calls in the ten most recent batch numbers.',
-  fn: (calls) => { const top = Math.max(...calls.map((c) => Number(c.batch))); const rows = calls.filter((c) => Number(c.batch) > top - 10); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null }]; } });
+  fn: (calls) => { const top = Math.max(...calls.map((c) => Number(c.batch))); const rows = calls.filter((c) => Number(c.batch) > top - 10); const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; const said = rows.filter((c) => Number(c.said_human) === 1).length; return [{ calls: n, right, right_share: n ? right / n : null, always_ai_share: n ? (n - passed) / n : null, always_human_share: n ? passed / n : null, said_human_share: n ? said / n : null, passed_share: n ? passed / n : null }]; } });
 dash.calc('by_window', { inputs: ['calls'], title: 'Right calls per ten batches', description: 'Calls grouped by batch number in tens (190 to 199, 200 to 209, and so on), each scored as above.',
-  fn: (calls) => { const g = {}; for (const c of calls) { const from = Math.floor(Number(c.batch) / 10) * 10; (g[from] = g[from] || []).push(c); } return Object.keys(g).map(Number).sort((a, b) => a - b).map((from) => { const rows = g[from]; const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return { from, window: from + '–' + (from + 9), calls: n, right, right_share: right / n, always_ai_share: (n - passed) / n }; }); } });
+  fn: (calls) => { const g = {}; for (const c of calls) { const from = Math.floor(Number(c.batch) / 10) * 10; (g[from] = g[from] || []).push(c); } return Object.keys(g).map(Number).sort((a, b) => a - b).map((from) => { const rows = g[from]; const n = rows.length; const right = rows.filter((c) => Number(c.right) === 1).length; const passed = rows.filter((c) => Number(c.passed) === 1).length; return { from, window: from + '–' + (from + 9), calls: n, right, right_share: right / n, always_ai_share: (n - passed) / n, always_human_share: passed / n }; }); } });
+const MINE = ['screen', 'draft', 'edit'];
+dash.calc('fixes_by_window', { inputs: ['calls'], title: 'My rewrites per ten batches', description: 'Checks with a recorded kind, grouped by batch number in tens: how many of my rewrites (screens, drafts, edits) read 100% Human on their first check, how many whole sections did, and how often I called Human.',
+  fn: (calls) => { const g = {}; for (const c of calls) { if (!c.kind) continue; const from = Math.floor(Number(c.batch) / 10) * 10; (g[from] = g[from] || []).push(c); } return Object.keys(g).map(Number).sort((a, b) => a - b).map((from) => { const rows = g[from]; const mine = rows.filter((c) => MINE.includes(c.kind)); const secs = rows.filter((c) => c.kind === 'section'); const said = rows.filter((c) => Number(c.said_human) === 1).length; return { from, window: from + '–' + (from + 9), checks: rows.length, fix_checks: mine.length, fix_pass_share: mine.length ? mine.filter((c) => Number(c.passed) === 1).length / mine.length : null, section_checks: secs.length, section_pass_share: secs.length ? secs.filter((c) => Number(c.passed) === 1).length / secs.length : null, said_human_share: rows.length ? said / rows.length : null }; }); } });
+dash.calc('latest_fixes', { inputs: ['calls'], title: 'My rewrites, latest ten batches', description: 'Rewrites of mine (screens, drafts, edits) in the ten most recent batch numbers, and how many read 100% Human on their first check.',
+  fn: (calls) => { const top = Math.max(...calls.map((c) => Number(c.batch))); const rows = calls.filter((c) => Number(c.batch) > top - 10 && MINE.includes(c.kind)); const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ checks: rows.length, passed, pass_share: rows.length ? passed / rows.length : null }]; } });
+dash.calc('all_fixes', { inputs: ['calls'], title: 'My rewrites, all batches with a kind', description: 'Every rewrite of mine with a recorded kind, and how many read 100% Human on their first check.',
+  fn: (calls) => { const rows = calls.filter((c) => MINE.includes(c.kind)); const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ checks: rows.length, passed, pass_share: rows.length ? passed / rows.length : null }]; } });
 dash.calc('misses', { inputs: ['calls'], title: 'Misses since the review', description: 'Calls from batch 199 on that were wrong, newest batch first.',
   fn: (calls) => calls.filter((c) => Number(c.batch) >= 199 && Number(c.right) === 0).sort((a, b) => Number(b.batch) - Number(a.batch) || String(a.text).localeCompare(String(b.text))) });
 
@@ -87,11 +103,15 @@ const pct = d3.format('.0%');
 const fmtField = (field, v) => (v == null || v === '' ? '—' : field.endsWith('_share') ? pct(v) : d3.format(',')(v));
 document.getElementById('sw-mine').style.background = dash.colors[0];
 document.getElementById('sw-ai').style.background = 'var(--cds-chart-muted)';
+document.getElementById('sw-hu').style.background = 'var(--cds-chart-muted)'; document.getElementById('sw-hu').style.opacity = '0.55';
+document.getElementById('sw-fx').style.background = dash.colors[0];
+document.getElementById('sw-sec').style.background = dash.colors[1] || dash.colors[0];
+document.getElementById('sw-said').style.background = 'var(--cds-chart-muted)';
 const q = document.getElementById('q');
 q.addEventListener('input', () => drawTable());
 
 function fillMarks() {
-  for (const id of ['since_review', 'before_review', 'latest']) {
+  for (const id of ['since_review', 'before_review', 'latest', 'latest_fixes', 'all_fixes']) {
     const d = dash.data(id);
     document.querySelectorAll(`[data-source="${id}"][data-field]`).forEach((el) => {
       if (d.status === 'ok' && d.data && d.data[0]) { el.textContent = fmtField(el.dataset.field, d.data[0][el.dataset.field]); el.classList.remove('dash-skeleton'); }
@@ -136,6 +156,7 @@ function drawChart() {
   xa.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)');
   const line = (f) => d3.line().defined((r) => r[f] != null).x((r) => x(r.window)).y((r) => y(r[f]));
   svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', 'var(--cds-chart-muted)').attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line('always_ai_share'));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', 'var(--cds-chart-muted)').attr('stroke-opacity', 0.55).attr('stroke-dasharray', '4 3').attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line('always_human_share'));
   svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', dash.colors[0]).attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line('right_share'));
   const tip = d3.select(box).append('div').attr('class', 'ps-tip').style('display', 'none');
   const dot = svg.append('circle').attr('r', 4).attr('fill', dash.colors[0]).style('display', 'none');
@@ -148,11 +169,50 @@ function drawChart() {
       tip.append('div').attr('class', 't').text('Batches ' + r.window + ' · ' + r.calls + ' calls');
       tip.append('div').text('My calls ' + pct(r.right_share));
       tip.append('div').text('Always AI ' + pct(r.always_ai_share));
+      tip.append('div').text('Always Human ' + pct(r.always_human_share));
       const left = Math.min(Math.max(0, (x(r.window) / W) * box.clientWidth - 70), box.clientWidth - 160);
       tip.style('left', left + 'px').style('top', '0px');
     })
     .on('mouseleave', () => { tip.style('display', 'none'); dot.style('display', 'none'); });
 }
 
-dash.onData(() => { fillMarks(); drawChart(); drawTable(); });
+function drawFixes() {
+  const box = document.getElementById('chart2');
+  box.replaceChildren();
+  const d = dash.data('fixes_by_window');
+  if (d.status !== 'ok' || !d.data.length) return;
+  const rows = d.data;
+  const W = Math.max(280, box.clientWidth), H = 260, m = { top: 12, right: 18, bottom: 30, left: 44 };
+  const x = d3.scalePoint(rows.map((r) => r.window), [m.left, W - m.right]).padding(0.3);
+  const y = d3.scaleLinear([0, 1], [H - m.bottom, m.top]);
+  const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'My rewrites passed, sections passed and how often I said Human, per ten batches');
+  svg.append('g').selectAll('line').data(y.ticks(4)).join('line').attr('x1', m.left).attr('x2', W - m.right).attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--cds-chart-grid)');
+  const ya = svg.append('g').attr('transform', `translate(${m.left},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(pct).tickSize(0));
+  ya.attr('font-size', null).attr('font-family', null).select('.domain').remove();
+  ya.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)');
+  const every = Math.ceil(rows.length / Math.max(2, Math.floor((W - m.left - m.right) / 64)));
+  const xa = svg.append('g').attr('transform', `translate(0,${H - m.bottom})`).call(d3.axisBottom(x).tickValues(rows.map((r) => r.window).filter((_, i) => i % every === 0)).tickSize(0).tickPadding(8));
+  xa.attr('font-size', null).attr('font-family', null).select('.domain').attr('stroke', 'var(--cds-chart-axis)');
+  xa.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)');
+  const line = (f) => d3.line().defined((r) => r[f] != null).x((r) => x(r.window)).y((r) => y(r[f]));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', 'var(--cds-chart-muted)').attr('stroke-width', 2).attr('stroke-dasharray', '4 3').attr('d', line('said_human_share'));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', dash.colors[1] || dash.colors[0]).attr('stroke-width', 2).attr('d', line('section_pass_share'));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', dash.colors[0]).attr('stroke-width', 2).attr('d', line('fix_pass_share'));
+  const tip = d3.select(box).append('div').attr('class', 'ps-tip').style('display', 'none');
+  svg.append('rect').attr('x', m.left).attr('y', m.top).attr('width', W - m.left - m.right).attr('height', H - m.top - m.bottom).attr('fill', 'transparent')
+    .on('mousemove', (event) => {
+      const [px] = d3.pointer(event);
+      const r = rows.reduce((a, b) => (Math.abs(x(b.window) - px) < Math.abs(x(a.window) - px) ? b : a));
+      tip.style('display', null).html('');
+      tip.append('div').attr('class', 't').text('Batches ' + r.window + ' · ' + r.checks + ' checks');
+      tip.append('div').text('My rewrites passed ' + (r.fix_pass_share == null ? '—' : pct(r.fix_pass_share)) + ' of ' + r.fix_checks);
+      tip.append('div').text('Sections passed ' + (r.section_pass_share == null ? '—' : pct(r.section_pass_share)) + ' of ' + r.section_checks);
+      tip.append('div').text('I said Human ' + pct(r.said_human_share));
+      const left = Math.min(Math.max(0, (x(r.window) / W) * box.clientWidth - 70), box.clientWidth - 180);
+      tip.style('left', left + 'px').style('top', '0px');
+    })
+    .on('mouseleave', () => { tip.style('display', 'none'); });
+}
+
+dash.onData(() => { fillMarks(); drawChart(); drawFixes(); drawTable(); });
 </script>
