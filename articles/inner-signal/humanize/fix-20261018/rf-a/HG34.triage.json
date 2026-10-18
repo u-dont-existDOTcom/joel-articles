@@ -1,0 +1,20 @@
+{"key": "HG34",
+ "fixes": [
+  {"block": 1, "problems": [
+   {"type": "SHIFT", "what": "\"sit upright\" became vague \"change your body position\"", "replace": "your body position", "with": "your body position by sitting upright", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "\"feel the feet\" lost", "replace": "open your eyes and ask", "with": "open your eyes, feel your feet and ask", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "\"thank you for showing me images\" lost from the script", "replace": "Dear subconscious if", "with": "Dear subconscious thank you for showing me images. If", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "WRONG", "what": "repeat: \"taking you away from life\" said twice in one sentence (R line)", "replace": "way that takes you away from living your life", "with": "way", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]}
+ ],
+ "let_stand": [
+  {"finding": "B1: LOST \"intuition\" (not mentioned among what daydreaming can be)", "why": "one item of a list; the sense of the list is kept"},
+  {"finding": "B1: SHIFT \"creative rehearsal\" became \"access your creativity\"", "why": "list item reworded; still a creative use of daydreaming"},
+  {"finding": "B1: LOST \"symbolic\" in \"symbolic teaching\" (now just \"teach you something\")", "why": "an adjective; teaching is kept"},
+  {"finding": "B1: INVENTED \"and how you can use it\" (the guidance)", "why": "natural extension of asking for the guidance; claims nothing new"},
+  {"finding": "B1: LOST \"change the body before debating the story\"", "why": "body change still comes first in the sequence; the rationale line isn't needed to do it"},
+  {"finding": "B1: SHIFT script asks to \"show me the helpfulness\" instead of \"reveal the guidance\"", "why": "paraphrase of the same request"},
+  {"finding": "B1: SHIFT \"bring me gently into the present / help me deal with what I need to deal with\" became \"show me how to deal with life as it is right now\"", "why": "same ask in other words: gentle, structured, deal with life now"},
+  {"finding": "B1: LOST \"embarrassingly practical\" tone before the real-life question", "why": "tone; the real-life question is kept"}
+ ],
+ "resample": []}

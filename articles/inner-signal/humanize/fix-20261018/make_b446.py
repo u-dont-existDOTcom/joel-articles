@@ -8,8 +8,8 @@ its second reader and the triage of its findings (KEY.triage.json, applied by to
   - An edit that read Human in an earlier batch: its paragraph checks, from the fixed text.
 A paragraph whose check text was sent before isn't sent again.
 
-Predictions: an edit's chance is 0.75 when it changes under 18% of the words (3 of 3 such fixed sections stayed Human in
-434g, 441g, 444g), 0.1 above (2 of 30); a paragraph check 0.70 to 0.79 by length (the community lane's rate; 442g: 17 of 23).
+Predictions: an edit's chance is 0.85 when it changes under 18% of the words (11 of 12 such edits stayed Human: 3 of 3
+fixed sections in 434g to 444g, 8 of 9 triaged refixes in 449g), 0.1 above (2 of 30); a paragraph check 0.70 to 0.79 by length (the community lane's rate; 442g: 17 of 23).
 
   python3 make_b446.py --batch N [--only KEY,KEY] [--write]
 """
@@ -137,9 +137,9 @@ def collect(only=None):
                     'march_was': mw, 'march': mn, 'march_reads': reads, 'cold': 'OK', 'grounding': 'OK', 'stance': 0, 'missing': [],
                     'repeats': 0, 'lint': 'REVIEW', 'reviews': rel(fx), 'verify': [rel(v) for v in ver], 'adjudication': rel(tri),
                     'emulate': sg.get('emulate'), 'published': sg.get('published'), 'fixes': sum(len(u.get('fixes') or []) for u in fd['units'])}
-        c = 0.75 if ch < 0.18 else 0.1
-        preds[nm] = ('Human' if c >= 0.5 else 'AI', c, '%d triaged fixes, %d%% of the refix\'s words changed; under 18%%: 3 of 3 '
-                     'fixed sections stayed Human, above: 2 of 30' % (gate[nm]['fixes'], round(100 * ch)))
+        c = 0.85 if ch < 0.18 else 0.1
+        preds[nm] = ('Human' if c >= 0.5 else 'AI', c, '%d triaged fixes, %d%% of the refix\'s words changed; under 18%%: 11 of 12 '
+                     'stayed Human (449g: 8 of 9 triaged refixes; before: 3 of 3 fixed sections), above: 2 of 30' % (gate[nm]['fixes'], round(100 * ch)))
     return drafts, gate, preds, held
 
 

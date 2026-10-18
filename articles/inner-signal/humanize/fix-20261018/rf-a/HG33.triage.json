@@ -1,0 +1,32 @@
+{"key": "HG33",
+ "fixes": [
+  {"block": 8, "problems": [
+   {"type": "LOST", "what": "stop signs \"strained\" and \"panicky\" lost; \"medically concerned\" became \"any other medical issues\"", "replace": "dizzy or experience any other medical issues", "with": "dizzy, strained, or panicky, or experience any other medical concerns", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "\"pause only if comfortable\" became \"pauses if you can\"", "replace": "pauses if you can", "with": "pauses only if comfortable", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "air hunger \"can briefly increase anxiety before it settles\" became \"is going to make you more anxious\"", "replace": "is going to make you more anxious for a period", "with": "can make you more anxious for a short period", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 11, "problems": [
+   {"type": "LOST", "what": "\"stay in contact with what you feel\" (and \"tap gently\") lost from the EFT ritual", "replace": "tap on your body", "with": "tap gently on your body and stay with what you feel", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 17, "problems": [
+   {"type": "SHIFT", "what": "\"check how well it fits the felt sense\" became \"see if it feels good\"", "replace": "see if it feels good", "with": "see how well it fits the felt sense", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 22, "problems": [
+   {"type": "LOST", "what": "\"these don't prove any inner signal is true\" lost", "replace": "those messages, and then", "with": "those messages (neither product proves they are true), and then", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "INVENTED", "what": "he uses the holy water and it helps him relax (published: he discusses it as a support)", "replace": "I use a bit of this “holy water” as one of the things that helps me relax", "with": "I talk about this “holy water” as one of the things that can help you relax", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "\"one grounded action\" became \"some action\"", "replace": "take some action", "with": "take one grounded action", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 26, "problems": [
+   {"type": "LOST", "what": "addressee \"Little one\" lost from the script", "replace": "If you can hear me", "with": "Little one, if you can hear me", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "addressee \"Protector\" lost from the script", "replace": "Thank you for alerting me", "with": "Protector, thank you for alerting me", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]}
+ ],
+ "let_stand": [
+  {"finding": "B4: LOST warning not to recite it like an incantation the subconscious will grade (only \"don't just say the words\")", "why": "image shortened; 'don't just say the words, talk to the frightened child' keeps the instruction"},
+  {"finding": "B4: LOST \"start with\" (this practice comes first)", "why": "it is still the first practice listed; no step lost"},
+  {"finding": "B17: LOST \"not immediately\" and \"give the body time\" (head answer now banned outright)", "why": "'let your body come up with' keeps the waiting; later steps still use the head"},
+  {"finding": "B22: LOST \"use the support that actually helps, not a wellness trade show\" (don't pile up supports)", "why": "quip; 'you may settle with some of these' and 'all you really need' keep the spirit"},
+  {"finding": "B22: INVENTED stop if the massage \"makes the anxiety symptoms worse\"", "why": "extra caution that fits 'a symptom that feels wrong'"},
+  {"finding": "B22: SHIFT \"familiar\" music and objects became \"favorite\"", "why": "wording; 'calming' kept"}
+ ],
+ "resample": []}
