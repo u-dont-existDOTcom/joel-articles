@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "e45859a802148f711483b9edb388655c295df17e641cc469b58df5c83b11818f",
+          "sha256": "b5ef62260233e4a01b6db24ab7a234e4fccc080f3f6ef822e9be71cf7633b88a",
           "role": "detector_prediction_log"
         },
         {
@@ -16889,7 +16889,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/MARCH.json",
-          "sha256": "b13fb2b82150b031349a29668f72113e2370255de84c14aaa6e5046f81199669",
+          "sha256": "7cbc221d19dd8514206dcb2b7ed247dc474d2bacf575c5491dfc6653ef991913",
           "role": "humanization_working_record"
         },
         {
@@ -20160,6 +20160,41 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-ggg.js",
           "sha256": "b9176268e38811b162d5460ef8b72936c5e7342ec14b99e728dd41ddb54530e6",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/READ-ggg.json",
+          "sha256": "2d49bb5976efc7b3c61595dc5e8837dfaf9e8782e92211f9157acbd13e63d546",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/SPEC-hhh.json",
+          "sha256": "3990b15c1285082a671e14eacc359b347f093c7fee9abd49e35f21cab5d77a77",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/drafts/hw-e.txt",
+          "sha256": "c977e18e19c39805298f1dac233e2132262d1a5b80662663cc0892e9f8958a5a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-hhh-drafts.json",
+          "sha256": "ea356b7a918724202a14e0c045bf6d61a5c87ecda65cffa37458b60aa3a74d43",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-hhh-gate.json",
+          "sha256": "3f1f015332754cd29db0e239cf91088376d34f4fdcfed66d3c365405793b1e75",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-hhh-read.js",
+          "sha256": "8816119ec4d28c2443f1edd146f1d82516be67b03e8b283782fa26d093f370f2",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-hhh.js",
+          "sha256": "af07a82ab8fe960ebd8c127230833e091e3f4378fbc230cc3da463e6214276bf",
           "role": "detector_check_texts"
         }
       ]
