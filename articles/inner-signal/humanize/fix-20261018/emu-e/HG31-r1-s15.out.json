@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s15.txt",
+  "input_words": 85,
+  "input_sha256": "40d2f8b490b09723b7fb71e9d6ab4416ac5aec970a106aacec130dd530b5419d",
+  "balance_before": 130890,
+  "started_utc": "2026-10-18T03:13:04Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:13:12Z",
+  "response": {
+    "id": "f8219f23-5885-4618-ad84-6b8919d93e48",
+    "tool": "humanize",
+    "text": "An anchor is a cue that triggers a state. It can be anything - putting your hand on your heart, touching two fingers together, taking a breath, saying a word, a particular posture, scent, song, and so on. Choose something, then find a real state to anchor it to. When you're clearly in the state, apply the anchor and say, 'This is available' . (If you're using the anchor to get back into hypnosis, find a nice useful state - you don't need to be at the peak of emotion, just in a nice receptive state. For more about that, see 'A shortcut back into hypnosis' in the main induction section. ) Make sure you also have a way to bring yourself back to a nice, calming, alert state when you want to be fully awake (see 'synchronicity' above for a way of doing that).",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 85
+    },
+    "elapsed": 8
+  },
+  "balance_after": 130805
+}

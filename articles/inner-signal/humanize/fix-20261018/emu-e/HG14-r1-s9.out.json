@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s9.txt",
+  "input_words": 146,
+  "input_sha256": "54b68576b439afc5ba78db3bddf6efdf8de8a9a672258402217a813a58212222",
+  "balance_before": 134894,
+  "started_utc": "2026-10-18T03:08:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:08:11Z",
+  "response": {
+    "id": "bdc4f367-d240-4c03-8c78-f7c79fb24444",
+    "tool": "humanize",
+    "text": "Identify your protector and try to bring a bit of their warmth.\n\nThen set boundaries together - it can be anything from, 'I will leave that conversation', 'I will stop texting that person', 'I will eat today', 'I will get some sleep tonight', 'I will do x', or, 'I won't put you in the position of having to deal with x '.\n\nIt's important to note that lots of people do ICW but it's often fluffy brouhaha - they talk to their IC, but they don't actually do the things they need to in their adult life. So in order to build trust with your IC, you need to do the thing . And deal with the fallout if you don't.\n\nIf you can't bring any warmth to the Protector, that's okay, just work with them on doing protective things for your child. Make sure they are attainable. If you don't do them, work out why - was it fear, exhaustion, lack of skills, lack of X, poor planning, etc.? Also, make sure that doing them is actually helpful - don't just be ticking things off a list.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 146
+    },
+    "elapsed": 10
+  },
+  "balance_after": 134569
+}

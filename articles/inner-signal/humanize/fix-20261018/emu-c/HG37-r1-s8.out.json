@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG37-r1-s8.txt",
+  "input_words": 40,
+  "input_sha256": "c1b61614014594fe74d83cb43261626f0289a3d3daccaecfa84ba6f60d6c3394",
+  "balance_before": 136378,
+  "started_utc": "2026-10-18T03:07:02Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:06Z",
+  "response": {
+    "id": "1b2440bb-a44d-40dc-a6a0-035bb549a812",
+    "tool": "humanize",
+    "text": "Now the training to deal with demons, jinn or whatever term the client uses to describe that which the client is trying to deal with is pretty much the same as it would be to deal with any negative presence or what I call Unattached Burdens, so I do not want to turn this into a hobby of entities.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 40
+    },
+    "elapsed": 4
+  },
+  "balance_after": 136338
+}

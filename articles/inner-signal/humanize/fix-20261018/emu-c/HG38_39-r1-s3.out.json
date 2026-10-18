@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s3.txt",
+  "input_words": 57,
+  "input_sha256": "2821d2ff796e6c27f5a2144cdb8a5292dd1a21dba886a5139c00aa7662caf259",
+  "balance_before": 135984,
+  "started_utc": "2026-10-18T03:07:15Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:22Z",
+  "response": {
+    "id": "9a3e87da-5323-4b66-a69e-30030123cc07",
+    "tool": "humanize",
+    "text": "Rest in a place where you can feel a support underneath you and the position of one hand or foot. Bring your attention to this part of your body and feel into it. Perhaps there is something you can do gently to support it: a little pressure, a slight stretch, or just a letting go. If nothing occurs to you, just imagine what you might do. Notice whether there is a change in sensation there, or whether there is any difference in your breathing. Repeat for no more than three areas of your body. Allow the idea of ‘release’ to determine the order in which you work. See if you can tell whether it is your body, or your inner voice that is calling for your attention. When you feel you need to, make whatever movement is necessary to bring you back.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 7
+  },
+  "balance_after": 135638
+}

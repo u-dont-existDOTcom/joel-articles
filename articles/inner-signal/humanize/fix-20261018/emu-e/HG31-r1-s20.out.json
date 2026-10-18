@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s20.txt",
+  "input_words": 68,
+  "input_sha256": "db41989e573800506160a5c387dc1b4287f9cceabbf518533df57b1c789d4c74",
+  "balance_before": 130288,
+  "started_utc": "2026-10-18T03:13:55Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:14:01Z",
+  "response": {
+    "id": "2a9b9ffc-5c39-42ab-b681-8883f005df9b",
+    "tool": "humanize",
+    "text": "1. How do I feel about this from inside myself? 2. If I were inside of this other person (or tree, or dog or whatever is not-you), how might I feel? 3. If I were across the room watching this, what would I see? 4. From the universal heart, what might be true, loving, clear about boundaries, and good for everyone involved?\n\nYes, it’s possible to use these positions to let yourself off the hook. It’s also possible to use them to get off the hook! Use them to see the truth from more than one angle. They’re a great way to get out of a prison of perception.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 68
+    },
+    "elapsed": 6
+  },
+  "balance_after": 130220
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s13.txt",
+  "input_words": 56,
+  "input_sha256": "2ceebb9255a2485b4cd08e4b7d159c0bba234f5d20d11c77265fb67e888327c6",
+  "balance_before": 131087,
+  "started_utc": "2026-10-18T03:12:50Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:54Z",
+  "response": {
+    "id": "5a6a5ce2-af9c-4232-9c04-a5782865f3db",
+    "tool": "humanize",
+    "text": "The Milton Model opens things up. The Meta Model asks for clarification. To be ethical, one needs to use both.\n\nHow specifically? According to whom? Compared to what? Always? Never? What exactly would happen? How do I know? What evidence would change my mind?\n\nUse the Milton Model to soften into the body. Use the Meta Model to get back to the truth.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 4
+  },
+  "balance_after": 131031
+}

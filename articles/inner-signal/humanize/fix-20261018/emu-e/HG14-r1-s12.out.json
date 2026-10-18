@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s12.txt",
+  "input_words": 124,
+  "input_sha256": "7cdf20e5494dc5a1aa13316c8dda6cd07eec57ab226b2aa5c446a2a0a1a6e9a8",
+  "balance_before": 134226,
+  "started_utc": "2026-10-18T03:08:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:08:41Z",
+  "response": {
+    "id": "a2c40a9f-8d4c-4262-b96e-9712c9c647bc",
+    "tool": "humanize",
+    "text": "It’s okay, I see what you’re doing. Can I ask you what you’re afraid would happen if you let this go?\n\nNow be patient, and listen. It may be that they’re afraid that you’ll fall for your bullshit again, or that you’ll spiritualize this issue, or feel your pain, or forgive someone too early, or believe your fantasies again, or leave them hanging once the therapy session is over.\n\nNow, thank the protective part, and ask them what they need from you to feel 1% safer.\n\n99% of the time, the answer will be some non-spiritual thing like maintaining a boundary, doing a certain task, eating properly, holding back from sending a text, or sleeping, or reaching out to a therapist, or acknowledging that you do, in fact, owe someone money.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 124
+    },
+    "elapsed": 7
+  },
+  "balance_after": 134102
+}

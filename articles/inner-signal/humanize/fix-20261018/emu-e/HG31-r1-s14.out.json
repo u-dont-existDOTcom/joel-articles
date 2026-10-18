@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s14.txt",
+  "input_words": 141,
+  "input_sha256": "f07ed3f0f02d99fb3a6c78460e529bfbbd56688b6dd462dd11ae5087a7f52add",
+  "balance_before": 131031,
+  "started_utc": "2026-10-18T03:12:55Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:13:03Z",
+  "response": {
+    "id": "b5f6b5b9-0c8c-400e-aec3-f878c1d05e10",
+    "tool": "humanize",
+    "text": "Are there sensory qualities to the fear, craving, fantasy, belief, or memory? Is it close or far? Bright or dim? Loud or quiet? Moving or static? Heavy or light? Somewhere in your body or outside? If you notice any of these sensory qualities, you can work with them. If not, skip this tool.\n\nWhat if you changed the sensory qualities?\n\n“It would not be cenzorship to change the sensory qualities. It would only be a way for me to stay in contact with you.”\n\nAsk your guard if it’s ok to change the sensory qualities. For example, you might say:\n\n“Would it be ok if I moved the image back a couple of inches? Or turned down the volume a notch? This would enable me to hear you better with my adult mind.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 141
+    },
+    "elapsed": 7
+  },
+  "balance_after": 130890
+}

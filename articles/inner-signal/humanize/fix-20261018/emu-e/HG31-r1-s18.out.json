@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s18.txt",
+  "input_words": 133,
+  "input_sha256": "de059db80d5a2ea3a62fcac142006ce306ef05bac74e0a52411caa06f64d2a27",
+  "balance_before": 130467,
+  "started_utc": "2026-10-18T03:13:37Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:13:47Z",
+  "response": {
+    "id": "d05e0bf7-3475-4b2e-9e8d-b7c676d2c72c",
+    "tool": "humanize",
+    "text": "Synchronicity cues, like any cue, run the risk of creating false positives because you are creating an association in your mind by rehearsing it (this is the same mechanism by which synchronicity cues work), and when you are absorbed and/or destabilized, your mind may look for that pattern and interpret it as present when it may not actually be. Research has shown that people that score highly on apophenia (the tendency to perceive meaningful patterns where none exists) also score highly on false positives for patterns that are not present, and also score highly on traits on the psychosis spectrum (Blain et al., Grant et al.).\n\nIf you feel that synchronicity cues are creating false positives (you find yourself compelled to scan your environment for them, you are unable to sleep, you are anxious, you feel that random events are occurring to communicate something to you specifically, you find yourself unable to tell if they are real or not, etc.), you should deactivate them.\n\nYou can do this by simply ceasing to rehearse them, and saying, while fully awake, “Synchronicity is no longer to be used as a cue, and I let it go.” Also remove it from your list of cues so that you stop rehearsing it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 133
+    },
+    "elapsed": 10
+  },
+  "balance_after": 130334
+}

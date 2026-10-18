@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s11.txt",
+  "input_words": 171,
+  "input_sha256": "3606dfd6b992c7a7bf420a3c46677869faa9b9bdf91953dd1910331861241e80",
+  "balance_before": 134397,
+  "started_utc": "2026-10-18T03:08:23Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:08:33Z",
+  "response": {
+    "id": "2e621577-8c20-43d3-a15d-884dcbd94772",
+    "tool": "humanize",
+    "text": "If this language is familiar to you, feel free to use it.\n\nMost people assume when approaching their inner child that the first thing they’ll encounter is…their inner child.\n\nBut more often than not, what you actually experience is numbness, cynicism, anger, hunger, the sudden urge to check your phone, a sexual urge, mental planning, sleepiness, dissociation, or the simple thought that “this is stupid”. These are all common manifestations of protectors.\n\nOne of the most important protectors to become aware of when approaching your inner child is your inherited parent. This is the voice of your parent(s) that you internalized as a child, based on how they treated you. This is not the same as your inner adult (Nurturer, Protector, Leader/Guru) that you will eventually build up. Often this inherited parent acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, this voice may jump in to say that what you’re doing is “fake”.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 171
+    },
+    "elapsed": 10
+  },
+  "balance_after": 134226
+}

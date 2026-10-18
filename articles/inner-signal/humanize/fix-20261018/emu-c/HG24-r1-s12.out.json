@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG24-r1-s12.txt",
+  "input_words": 117,
+  "input_sha256": "325c21dbcd0ba29e439391fb645d02f70ebf42d47964088b173522af857d8d0a",
+  "balance_before": 138678,
+  "started_utc": "2026-10-18T03:04:33Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:43Z",
+  "response": {
+    "id": "30ff522c-98c8-47a9-8b91-0fd903057543",
+    "tool": "humanize",
+    "text": "“What part of this situation have you not yet allowed the descent of divine love to pour into this wound?”\n\nSometimes when you are opening in a certain way and you are expecting love or freedom to come, it’s revealing to yourself the next level of depth that you are capable of opening to. But you can’t command it to come for the child. Sometimes when you try prayer, it reveals what abandonment or condemnation it evokes for you. Sometimes it’s good to see how a certain kind of teacher has betrayed you and how you were damaged, and that’s something you need to question. It’s not going to be helped by more of the same.\n\nSometimes you need practical help and you don’t see enough of a life horizon to help you. Sometimes you can be curious about how there could be more happiness, but you don’t see how it’s possible to believe it. Sometimes you realize that there are people who seem to have enough love and meaning in their lives to do what they want to do with their lives, and you don’t need to make it a spiritual thing.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 117
+    },
+    "elapsed": 9
+  },
+  "balance_after": 138561
+}

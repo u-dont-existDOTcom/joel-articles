@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s17.txt",
+  "input_words": 89,
+  "input_sha256": "e04b2db7ecb4404cf9085e7959133445ccde10cf9976da16037ad54591ea00d8",
+  "balance_before": 133616,
+  "started_utc": "2026-10-18T03:09:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:09:27Z",
+  "response": {
+    "id": "d33849c2-6a67-49e5-9705-621ee3e7899c",
+    "tool": "humanize",
+    "text": "If speaking or visualization doesn’t work, try writing. Have your non-dominant hand write as your child/protector (even if your handwriting looks a little awkward), and have your dominant hand answer as you. For example, your non-dominant hand might write, “I don’t trust you.” Answer with your dominant hand, “I hear that you don’t trust me, but I love you, and I want to know where I’ve let you down. I won’t ask you to trust me, but I want to hear you out and make one promise to you that I will keep today.” Your non-dominant hand might respond, “What promise?” Your dominant hand might write, “To eat, or to clean my desk, or to not text someone who makes me feel unsafe.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 89
+    },
+    "elapsed": 7
+  },
+  "balance_after": 133527
+}

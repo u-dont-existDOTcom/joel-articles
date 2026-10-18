@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s1.txt",
+  "input_words": 52,
+  "input_sha256": "92f09c65b549afa2baad00889b1a0a29b10383d864301ab80c785e81243b105d",
+  "balance_before": 131613,
+  "started_utc": "2026-10-18T03:11:55Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:00Z",
+  "response": {
+    "id": "0cb4137d-7701-46fe-972c-0a53b4ab1c01",
+    "tool": "humanize",
+    "text": "You don’t have to know the terms to use the system. If you want to brush up on the art of imagery, how imagery is linked to bodily states, how to effectively rehearse new behaviors, how to choose more effective sentences to say to yourself, etc., then you might want to read this appendix. If you don’t know a little bit about NLP, it’s easy to turn NLP into a bag of tricks and forget that love, truth, contact, and consent are essential.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 52
+    },
+    "elapsed": 5
+  },
+  "balance_after": 131561
+}

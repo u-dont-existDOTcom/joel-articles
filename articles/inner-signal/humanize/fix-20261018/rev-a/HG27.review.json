@@ -1,0 +1,8 @@
+[{"block": 1, "verdict": "FIX", "redo": true, "problems": [
+  {"type": "LOST", "what": "'The subconscious isn't the enemy', neither are the body, the analytical mind or the protector braced for years; most of them have been trying to help without being properly introduced; 'will become easier' is new", "replace": "", "with": ""}]},
+ {"block": 2, "verdict": "FIX", "problems": [
+  {"type": "SHIFT", "what": "an adult you can trust (yourself), not a trustworthy adult", "replace": "you becoming a trustworthy adult", "with": "you becoming an adult you can trust"}]},
+ {"block": 3, "verdict": "FIX", "problems": [
+  {"type": "INVENTED", "what": "the kid became 'her'; and 'listen until the kid is willing to come closer'", "replace": "Then listen to her when she wants to come closer.", "with": "Then listen until the kid is willing to come closer."},
+  {"type": "INVENTED", "what": "'her' again; 'enough small promises'", "replace": "keep some of your promises to her, too,", "with": "keep enough small promises to the kid,"},
+  {"type": "SHIFT", "what": "'think clearly enough', not 'thinking about yourself'", "replace": "work on thinking about yourself", "with": "work on thinking clearly"}]}]

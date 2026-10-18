@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG35-r1-s1.txt",
+  "input_words": 106,
+  "input_sha256": "7de8b6787b01cfa11df53dc97e00af36e7d3e0e84ce0171aae0a922043636b57",
+  "balance_before": 138465,
+  "started_utc": "2026-10-18T03:04:50Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:57Z",
+  "response": {
+    "id": "ce03f6d3-bb1e-4140-acda-3a0be72627ce",
+    "tool": "humanize",
+    "text": "(See how to use synchronicity as a cue above).\n\nPeople’s suggestibility varies hugely, both between individuals and according to state, whether you’re talking about external or internal suggestion, and the type of suggestion (commands, imagery, music, metaphors, spiritual etc). There are definitely advantages to both working with someone and doing it yourself, and it depends on what you’re trying to do.\n\nThat said, self hypnosis is likely to be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relationship issues, you may benefit from getting the right help from the right person.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 106
+    },
+    "elapsed": 6
+  },
+  "balance_after": 138359
+}

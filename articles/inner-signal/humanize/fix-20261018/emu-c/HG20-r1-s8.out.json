@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG20-r1-s8.txt",
+  "input_words": 148,
+  "input_sha256": "45d2b9133e7cf414a932ad6517a3c30523262f37c4a0fcc38e54d64f071838ee",
+  "balance_before": 139938,
+  "started_utc": "2026-10-18T03:03:27Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:39Z",
+  "response": {
+    "id": "f5059ae1-33f8-42f1-9987-c10925bc0bb7",
+    "tool": "humanize",
+    "text": "The ‘not getting enough of something’ can cause grief. But, just because you ‘didn’t get’ enough of a certain kind of love, doesn’t mean that the love you did have was ‘bad’. Allow yourself to respond as long as you want and as long as you can ‘stay there’. If producing more tears doesn’t help then stop. If the voice, closeness, touch, image, etc. seems intrusive then change it. Don’t think that you can’t ‘take’ the love.\n\nAllow a metaphor to develop and then work with the metaphor. You could say, “If there was something that showed up what this problem is, or tells a story about what is going on, then what would it be?” and, “what would need to happen in the metaphor?” Try out ‘doing something’ that you feel would give you the resource that you feel you are missing, or set a boundary, move away, do something else, etc. Keep in mind that this information is symbolic and might be a good hypothesis for what you need but it’s not a proven fact about your history.\n\nDevelop a kind of love, playing, etc. that you want to have. Rehearse doing something that you decide you are going to do. Use hypnosis to develop something that you want like courage or curiosity.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 148
+    },
+    "elapsed": 11
+  },
+  "balance_after": 139666
+}

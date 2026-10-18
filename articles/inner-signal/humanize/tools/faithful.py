@@ -120,6 +120,8 @@ def apply(units_path, review, out):
             bad.append((r['block'], 'no such stretch', '', 0)); continue
         if r.get('redo'):
             redo.append(r['block']); u['redo'] = True
+        if r.get('links'):
+            u['links'] = r['links']
         for p in r.get('problems') or []:
             body = '\n\n'.join(u['paras'])
             n = body.count(p['replace'])
@@ -129,6 +131,11 @@ def apply(units_path, review, out):
             u['paras'] = [x.strip() for x in re.split(r'\n\s*\n', body) if x.strip()]
             u.setdefault('fixes', []).append(p)
             done += 1
+    for u in d['units']:   # every link the stretch carries must have its words in the fixed text
+        for l in u.get('links') or []:
+            if l['new'] not in '\n\n'.join(u['paras']):
+                bad.append((u['blocks'][0], 'link anchor', l['new'][:60], 0))
+        u['verdict'] = 'redo' if u.get('redo') else ('fixed' if u.get('fixes') else ('OK' if u['kind'] == 'emulate' else None))
     pathlib.Path(out).write_text(json.dumps(d, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print('%s: %d fixes in, %d did not fit, redo: %s -> %s' % (d['key'], done, len(bad), redo or 'none', out))
     for x in bad:

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-d/HG16-d-s1.txt",
+  "input_words": 59,
+  "input_sha256": "422e5f9ac1c065c9e89f621627295df02adcccef543b21b726589371df976043",
+  "balance_before": 136855,
+  "started_utc": "2026-10-18T03:06:52Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:06:57Z",
+  "response": {
+    "id": "8201d231-05ee-48e9-9b9e-146b82d0e4e7",
+    "tool": "humanize",
+    "text": "WHAT are they trying to sell me? WHAT are they trying to make seem inevitable? WHAT are they assuming? WHO benefits from the frame? WHAT emotions are being pumped up? WHAT information is being kept from me? COULD I say ‘NO’ without being punished/shamed/mocked/abandoned/spiritually demoted?\n\nThe more powerful the state, the more guideposts that it might be useful for the adult part of yourself to have at hand.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 59
+    },
+    "elapsed": 5
+  },
+  "balance_after": 136513
+}

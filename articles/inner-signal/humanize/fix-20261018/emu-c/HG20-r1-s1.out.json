@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG20-r1-s1.txt",
+  "input_words": 88,
+  "input_sha256": "31597f1e8debe1dcaa72b945a0bc980e68e037b20372955432607e8a7dc3eb8a",
+  "balance_before": 143594,
+  "started_utc": "2026-10-18T03:02:17Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:23Z",
+  "response": {
+    "id": "0acc34ab-1337-42a5-a547-810a732bafda",
+    "tool": "humanize",
+    "text": "Having read the induction and participated in the inner meeting, you are ready to learn to respond rather than read a speech. Read the following examples before you practice without a screen.\n\nRespond by giving an accurate noticing and an invitation (or an act, or asking for more time). Your invitation can be to respond to your noticing in any way that is comfortable for the part: with a sensation, an image, an action, a feeling, or words. You are inviting it to do just one thing. Then acknowledge what happens and wait.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 88
+    },
+    "elapsed": 6
+  },
+  "balance_after": 143387
+}

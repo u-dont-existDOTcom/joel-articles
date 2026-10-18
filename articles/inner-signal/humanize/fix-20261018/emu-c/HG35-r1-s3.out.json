@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG35-r1-s3.txt",
+  "input_words": 57,
+  "input_sha256": "70e3abba2479c160c748216bb85cb32ac75513f4426d925c255726c7b7ad3963",
+  "balance_before": 138213,
+  "started_utc": "2026-10-18T03:05:14Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:05:19Z",
+  "response": {
+    "id": "82025445-e44d-482a-886d-f0e3d063c4eb",
+    "tool": "humanize",
+    "text": "Things that are coming, reads, or just things that seem a bit weird that come from the subconscious should be respected, but never enacted on, because the subconscious may send out the image of something or tell someone to do something, but that does n't mean it is an order.\n\nIf it is something big, or can not be undone easily, it needs to be slowed down to the rate of the affect and examined by the adult and a council need to be sought.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 5
+  },
+  "balance_after": 138156
+}

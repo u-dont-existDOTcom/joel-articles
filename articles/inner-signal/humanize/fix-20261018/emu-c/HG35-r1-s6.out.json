@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG35-r1-s6.txt",
+  "input_words": 63,
+  "input_sha256": "ff6380505f6d4db8e631610881f6a5fc32be4dd81617f3ff2ea10a55e7a5f47f",
+  "balance_before": 137793,
+  "started_utc": "2026-10-18T03:05:46Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:05:53Z",
+  "response": {
+    "id": "f3b5656e-ef61-4ce3-bc38-e3a4da4fea7c",
+    "tool": "humanize",
+    "text": "One of the hardest things to do is to forgive ourselves. It's important to realize that just because you didn't take responsibility for something that wasn't yours to take, doesn't mean you're a criminal if you feel remorse over the effect your action may have had, or just that it wasn't in keeping with your value system.\n\nTake responsibility, feel the remorse, then rectify if you can, and then let it go. Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 63
+    },
+    "elapsed": 6
+  },
+  "balance_after": 137730
+}

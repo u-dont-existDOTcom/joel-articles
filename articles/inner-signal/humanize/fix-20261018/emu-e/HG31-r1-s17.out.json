@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s17.txt",
+  "input_words": 128,
+  "input_sha256": "ab846b18ba65702f2829789ff82c360d861bfce1db4ef36557d56fe4922be6b6",
+  "balance_before": 130595,
+  "started_utc": "2026-10-18T03:13:27Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:13:36Z",
+  "response": {
+    "id": "d9caec8b-0456-421f-bbe2-9e87a16d213c",
+    "tool": "humanize",
+    "text": "Mentally rehearse: when next synchronicity noticed (even harmless ones count),\n\nfeel 'whoa' as attention stimulated,\n\nfeel feet/body/breath/room to stimulate re-embodiment,\n\nreiterate to yourself \"when I notice synchronicity, it is a bell to wake me up, not a message to heed\",\n\noptionally ask Nurturer/Protector/Leader their thoughts,\n\nrehearse further steps to get a more grounded and wide view,\n\nrehearse what additional action to take, and finally rehearse waking completely,\n\nMind the caveats : it must be self-authored, obviously under control, reversible, and restricted to just helping orientation. It must not be used for decision-making, intuition, inhibition, or otherwise be under someone else's control.\n\nThis is a kind of implementation intention , for which there is evidence of efficacy (a good starting point is this paper by Gollwitzer ). Note that this specific application of implementation intentions probably hasn't been studied.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 128
+    },
+    "elapsed": 9
+  },
+  "balance_after": 130467
+}

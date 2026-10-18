@@ -1,0 +1,52 @@
+{
+ "HG01+TOC-probe": [
+  "Human Written",
+  0.07,
+  197,
+  "Human, High, 197",
+  "03:08:19",
+  "/9e73b7bd-6a1b-4196-8ea4-cd6f6645b4c3",
+  []
+ ],
+ "HG40-emuB": [
+  "Human Written",
+  0,
+  817,
+  "Human, High, 817",
+  "03:08:08",
+  "/9c0b1518-c6fb-4ba2-89fd-4d8037aa1bcb",
+  []
+ ],
+ "HG33-emuB": [
+  "AI Detected",
+  0.28,
+  817,
+  "Human, High, 422; AI-Generated, Medium, 52; Human, High, 201; AI-Generated, High, 142",
+  "03:07:56",
+  "/39051089-8b39-4071-a115-e70680548abb",
+  [
+   "AI-Generated (52 words): (see the page: the SE and Focusing lines)",
+   "AI-Generated (142 words): (see the page: the ZHoly3O line and the anxiety script)"
+  ]
+ ],
+ "HG32-emuB": [
+  "AI Generated",
+  0.99,
+  519,
+  "AI-Generated, High, 519",
+  "03:07:46",
+  "/e1464ef0-b9d0-4432-a9f3-0ea6d0055a03",
+  [
+   "(every window AI: AI-Generated, High, 519)"
+  ]
+ ],
+ "HG13-emuB": [
+  "Human Written",
+  0.04,
+  649,
+  "Human, High, 649",
+  "03:07:35",
+  "/d274cdbe-9dc2-4bf5-8709-1812a07d9df7",
+  []
+ ]
+}

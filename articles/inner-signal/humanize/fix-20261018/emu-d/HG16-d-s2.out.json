@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-d/HG16-d-s2.txt",
+  "input_words": 135,
+  "input_sha256": "f29166d8042042671fa9925742f6ce8def868d2e3d84a43ddd4d997c8792b1d0",
+  "balance_before": 136513,
+  "started_utc": "2026-10-18T03:06:58Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:08Z",
+  "response": {
+    "id": "2f738967-5e4d-44bb-baff-0ca7e6eac54e",
+    "tool": "humanize",
+    "text": "In spite of the use of permissive words, coercion may appear in the form of:\n\nsuggestions which, though indirect, and therefore able to circumvent the critical factor, may be very specific in where they are trying to lead the subject. This is done by using vague, conversational, or suggestive words\n\ninductive procedures embedded in what appears to be explanatory material. Remember that the act of explaining something, even about how not to be hypnotized, narrows the attention of the subject and is therefore making use of the mechanics of induction\n\ncausing the subject to give answers, whether they are “yes” or “no” or whether they notice something or not, that mean that they are being compliant. Resistance or even lack of response may also be redefined as being compliant\n\nutilizing the “whether or not you notice it” bind\n\nstatements that equate a sense of self, or a sense that something is safe or good with the subject obeying, taking on a certain role, looking to the guide for approval, or being part of someone else.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 135
+    },
+    "elapsed": 9
+  },
+  "balance_after": 136114
+}

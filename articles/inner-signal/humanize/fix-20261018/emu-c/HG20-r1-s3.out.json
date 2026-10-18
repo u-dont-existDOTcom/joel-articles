@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG20-r1-s3.txt",
+  "input_words": 122,
+  "input_sha256": "0a95cb27d3b2e82b2c38d6fcc1976e648179d8873ef9d23b0814c8e3cd5424bf",
+  "balance_before": 141117,
+  "started_utc": "2026-10-18T03:02:35Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:44Z",
+  "response": {
+    "id": "d1280020-6643-495e-adc0-9b61f6031b1f",
+    "tool": "humanize",
+    "text": "When you're communicating your understanding of a situation, it can be useful to separate \"What I notice\", \"What it seems to mean to me\", and \"What I think about what it seems to mean.\" This is not required or always useful, and the boundaries between the three are fuzzy. Some useful questions to ask when you're not sure if something is a notice or a meaning:\n\nIs it a notice or a meaning? Sometimes it can be useful to separate these, sometimes not. \"It made my stomach tight\" is a notice. \"That person is evil\" is a meaning. You can use notices to analyze meanings (\"It made my stomach tight, and I think that means they're evil\"), but it's ok to use phrases you come up with later to analyze the meaning, not only phrases that appeared in your head at the time. Nonverbal or early thoughts are not necessarily more true or valuable. Feelings are something to explore and analyze, not necessarily to accept.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 122
+    },
+    "elapsed": 9
+  },
+  "balance_after": 140942
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s8.txt",
+  "input_words": 62,
+  "input_sha256": "ed60899154f5eba2c2add87da30d109d6cbd5c54ede98dbb7f9da0a84649c8dd",
+  "balance_before": 135103,
+  "started_utc": "2026-10-18T03:07:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:53Z",
+  "response": {
+    "id": "cefd0e7c-173b-4312-b1e1-73a9fa76e6c7",
+    "tool": "humanize",
+    "text": "Start by focussing on a small area that is neutral. Visualise the feeling of this area. Now spread this feeling to the next area, which is still comfortable. Either keep the feeling in the same place or move to the next area. Keep doing this. Pause and see if there are any changes. What does the body need? When the imagery recedes, feel the whole body and the contact points. Then start again.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 62
+    },
+    "elapsed": 4
+  },
+  "balance_after": 134970
+}

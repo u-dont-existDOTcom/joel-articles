@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG24-r1-s4.txt",
+  "input_words": 66,
+  "input_sha256": "4e235d33db09b3c2711daf2d279ba44563ee798ebf91c3935b40767ef37d3d76",
+  "balance_before": 139005,
+  "started_utc": "2026-10-18T03:04:10Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:16Z",
+  "response": {
+    "id": "49d852ba-ae95-4a94-bcf5-5095a89f2b13",
+    "tool": "humanize",
+    "text": "If you can discern who the guard is, talk to it. If you can’t, then simply talk in terms of your feelings or preferences.\n\n“Even if you don’t let me in, there are things I can do to help you feel safer.”\n\nEven if there isn’t a clear child state to talk to, you can still build identity and do reparenting by working with whatever you are aware of–preferences, curiosity, or even a statement that you’re new to this and would like to try something and see how it goes.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 66
+    },
+    "elapsed": 5
+  },
+  "balance_after": 138939
+}

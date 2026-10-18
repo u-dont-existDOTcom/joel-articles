@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s5.txt",
+  "input_words": 41,
+  "input_sha256": "37aa4e5306ddaa8a6775f5f87371076809add77324df8db25fed30d6c221e85f",
+  "balance_before": 131271,
+  "started_utc": "2026-10-18T03:12:27Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:37Z",
+  "response": {
+    "id": "06278e7e-4ed9-4054-a3bc-6c9bfab56e0d",
+    "tool": "humanize",
+    "text": "Awareness Verbs: Notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider, etc.\n\n• Notice how that answer comes for/ to/ within/ for/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ beyond/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within/ for/ to/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ among/ under/ over/ above/ below/ between/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 41
+    },
+    "elapsed": 9
+  },
+  "balance_after": 131230
+}

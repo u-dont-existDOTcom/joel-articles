@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s9.txt",
+  "input_words": 151,
+  "input_sha256": "15170f6f17d5657d2c5256bbe382d5da7e219d6d9d1f87acada239605874a55a",
+  "balance_before": 132500,
+  "started_utc": "2026-10-18T03:10:39Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:10:48Z",
+  "response": {
+    "id": "9119555b-9539-46dd-8eeb-c3f39ce1d540",
+    "tool": "humanize",
+    "text": "Useful after opening a state with loveyhuasca, meditation, lucid dreaming, grief, music, prayer, erotic energy, exhaustion, or intense beauty, to first stabilize the state you’re in, before amplifying it.\n\n“I don’t need this to get more intense. I need to focus and stabilize it.”\n\nLook around the room, and figure out where you are. What date is it? If you’re not sure of the date, at least what day is it? Feel yourself physically. Press your thumbs hard against your index fingers, and focus on the physical sensation of that friction.\n\n“I will only allow things through that I can integrate. My body will be kept safe. I will keep my adult self present so my inner child does not have to experience this alone.”\n\nThen you can move on to phrases like:\n\n“Show me what I need to know next, in symbols, feelings, questions, actions, etc, but only show me what I can integrate.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 151
+    },
+    "elapsed": 8
+  },
+  "balance_after": 132349
+}

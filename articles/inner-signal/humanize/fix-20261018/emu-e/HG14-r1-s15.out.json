@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s15.txt",
+  "input_words": 152,
+  "input_sha256": "1eab8b6b57bdfc32b451c6a2fcff18a60a7ceb9a8db19d3dd99c5c4516acd6b0",
+  "balance_before": 133838,
+  "started_utc": "2026-10-18T03:09:04Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:09:13Z",
+  "response": {
+    "id": "5e0df498-1f86-4583-b9e0-b6ae24600bca",
+    "tool": "humanize",
+    "text": "Find a younger you /protector/feeling/signal in your body that needs tending to and then:\n\nPrepare yourself to do the tending (Get yourself into a place where you have time, privacy, support etc. Be as adult as you can)\n\nAsk for permission to move closer or what is needed (warmth, space, words, silence, no contact etc)\n\nDo something to meet one of the needs you find when you move closer. Don’t try to fix it all.\n\nWait a while for the effect of what you have done to sink in.\n\nReconnect with that part of you ( don’t expect it to become one with you, go away, or be happy, just connect if it wants to)\n\nRest a while and then reassess to see how things are now.\n\nYour aim is not to make it all good as new but good as you. Feel free to change the language if the part talk is not useful, think signal, feeling, younger you or anything that helps you connect with the issue",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 152
+    },
+    "elapsed": 9
+  },
+  "balance_after": 133686
+}

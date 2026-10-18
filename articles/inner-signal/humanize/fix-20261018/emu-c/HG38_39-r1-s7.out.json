@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s7.txt",
+  "input_words": 70,
+  "input_sha256": "8dc43dd3804faac529ec89a3b7410556cb048d7ade4d192d52a1b1e0495c6dc3",
+  "balance_before": 135244,
+  "started_utc": "2026-10-18T03:07:42Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:47Z",
+  "response": {
+    "id": "089e9865-578f-482b-9be1-417399a497f5",
+    "tool": "humanize",
+    "text": "You should hear the room you are actually in, then the body, then step into your destination. Once there, imagine stepping, feel, hear, see something to draw your attention to it. If you want to change scancery or talk to someone skip to them and talk to them. See something of interest but there is no hidden meaning just find out what happens. Then ask yourself is there anyone else or anything else that needs to talk. Next step back the same way you came and close up the space.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 70
+    },
+    "elapsed": 5
+  },
+  "balance_after": 135103
+}

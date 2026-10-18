@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG20-r1-s2.txt",
+  "input_words": 166,
+  "input_sha256": "fd886f9e8ed8b5a0a6920fa6ca9ee51e42e0e3d5ad50063ac33d1cc145d7dd22",
+  "balance_before": 143387,
+  "started_utc": "2026-10-18T03:02:24Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:35Z",
+  "response": {
+    "id": "876ae060-922c-406b-af04-3273a1047117",
+    "tool": "humanize",
+    "text": "Somedays it may be best to begin with, for instance, \"I notice that....\"\n\nrather than, for instance, \"This must be an abandoned child / a protective mechanism.\"\n\nSomedays it may be best to say \"Then I listen.\" And to use no more language. Somedays it may even be best to not use any language at all while some feeling is developing. Somedays not, of course.\n\nSomedays it may be best to be quite firm with yourself, and say, for instance, \"I am not going to let myself explain this away by saying that...\" Somedays it may be best simply to focus yourself on a feeling, rather than waiting until it has become pleasant. If you can remain with a feeling long enough to change its direction, and if you then want to continue, it's not always necessary to have the feeling be pleasant in order for you to stay with it. Sadness and tension can sometimes be ok, if you know that you can leave, if you want to.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 166
+    },
+    "elapsed": 10
+  },
+  "balance_after": 141117
+}

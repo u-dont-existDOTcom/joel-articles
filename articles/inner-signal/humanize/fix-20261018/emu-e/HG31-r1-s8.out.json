@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s8.txt",
+  "input_words": 84,
+  "input_sha256": "132d1e6e4abc25c68186a0f94989fff7352e719561d76581288c3df05a478399",
+  "balance_before": 131171,
+  "started_utc": "2026-10-18T03:12:45Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:49Z",
+  "response": {
+    "id": "cd31a8b0-eac9-4d2f-8f4d-47ce96a5b21a",
+    "tool": "humanize",
+    "text": "What are embedded invitations, and how to use them\n\nHere is an example of an embedded invitation:\n\nHere’s another example of an embedded invitation:\n\nAnd yet another embedded invitation for working with inner child parts:\n\nOf course, don’t use ten embedded invitations one after the other, or people will know that’ve just completed a weekend certification course!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 84
+    },
+    "elapsed": 4
+  },
+  "balance_after": 131087
+}

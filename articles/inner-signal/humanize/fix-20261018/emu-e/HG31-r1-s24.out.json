@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s24.txt",
+  "input_words": 104,
+  "input_sha256": "a89fe765bbc46937018cb466d2b8899d4fc6e740afed6834cfd39a5e2ed7275a",
+  "balance_before": 130171,
+  "started_utc": "2026-10-18T03:14:08Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:14:16Z",
+  "response": {
+    "id": "53d6e85b-6ea2-4d4f-9eb5-264516c8f013",
+    "tool": "humanize",
+    "text": "To “explain away” a true signal that is coming through\n\nTo override any fear signals that are present\n\nTo bring up memories, or to manipulate others\n\nTo believe something to be “true” within yourself\n\nTo remove discomfort such as: pain, hunger, sadness, anger, or medical symptoms\n\nWhile in a state of panic, destabilization, mania, psychosis-like symptoms, chemical overload, or other dissociative states that are removing connection to reality for the purpose of\n\nMaking someone feel that saying “No” is bad\n\nMaking someone feel inferior in a spiritual way\n\nMaking someone feel a command, using “soft language”\n\nTo create a false urgency within someone, when they need time\n\nTo bypass actual consent by suggesting that the person is “subconsciously” consenting\n\nTo manipulate someone by using their trance, tiredness, attraction, shame, grief, or other altered state to gain compliance",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 104
+    },
+    "elapsed": 8
+  },
+  "balance_after": 130067
+}

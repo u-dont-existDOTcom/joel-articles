@@ -1,0 +1,68 @@
+{
+ "key": "HG01",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "This guide has an app coming soon! Working hard!"
+   ],
+   "heading": false,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "How to use this very large guide"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "This is a very big guide. To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, to learn what to do when your response is not guided by a recording. You can also look at the daily and weekly sections to make the practice your own, every day or every week. There are lots of appendices with extra tools, covering lots of topics, including asking the subconscious questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K."
+   ],
+   "run": "HG01-r1",
+   "file": "fix-20261018/emu-a/HG01-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the published says begin with Quick start, then learn one induction and the complete return",
+     "replace": "you can use the Quick start section if you want to quickly learn one of the inductions and the whole return sequence",
+     "with": "you can begin with the Quick start section, then learn one of the inductions and the whole return sequence"
+    },
+    {
+     "type": "LOST",
+     "what": "the daily and weekly sections help you make the practice your own",
+     "replace": "for something to try out every day, or every week",
+     "with": "to make the practice your own, every day or every week"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'questions' is the appendix on asking the subconscious questions, not the reader's questions",
+     "replace": "If you have questions, or want to learn more, there are lots of appendices, covering lots of topics, including questions,",
+     "with": "There are lots of appendices with extra tools, covering lots of topics, including asking the subconscious questions,"
+    },
+    {
+     "type": "WRONG",
+     "what": "the guide's influence appendix is about noticing and resisting influence, not ways to influence others",
+     "replace": "ways to influence others",
+     "with": "influence"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

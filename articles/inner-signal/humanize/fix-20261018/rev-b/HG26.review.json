@@ -1,0 +1,20 @@
+[{"block": 1, "verdict": "FIX", "problems": [
+  {"type": "LOST", "what": "when the situation needs actual care, the guide shouldn't substitute for it", "replace": "and sometimes the situation calls for more than that.", "with": "and when the situation needs actual care, this guide shouldn’t stand in for it."}]},
+ {"block": 2, "verdict": "FIX", "problems": [
+  {"type": "LOST", "what": "immediate danger, severe confusion, inability to keep yourself safe", "replace": "if you’re confused, in danger,", "with": "if you’re in immediate danger, severely confused, unable to keep yourself safe,"},
+  {"type": "SHIFT", "what": "prompt professional assessment", "replace": "please get help for those promptly,", "with": "please get them assessed by a professional promptly,"}]},
+ {"block": 3, "verdict": "FIX", "problems": [
+  {"type": "INVENTED", "what": "'you may need very little more support' is new; the published opens 'for ordinary learning'", "replace": "On the other hand, you may need very little more support. Start small", "with": "For ordinary learning, start small"},
+  {"type": "SHIFT", "what": "growing certainty about unverifiable memories calls for reassessment, not more intensity", "replace": "you’re gaining certainty about something that can’t be verified, then it may be time to reassess.", "with": "you’re gaining certainty about memories that can’t be verified, then it’s time to reassess, not to push harder."}]},
+ {"block": 4, "verdict": "OK"},
+ {"block": 6, "verdict": "FIX", "problems": [
+  {"type": "LOST", "what": "ask what is intended and how uncertainty and unexpected reactions will be handled", "replace": "Even if you work with a clinician, please note", "with": "Ask what they intend to do and how they’ll handle uncertainty and unexpected reactions. Even if you work with a clinician, please note"}]},
+ {"block": 7, "verdict": "FIX", "problems": [
+  {"type": "LOST", "what": "choose the range by the actual response and the support you have; confidence alone doesn't supply missing support",
+   "replace": "It is up to you to find how wide or narrow a range to work in, and that will be different for different people.", "with": "Choose how wide or narrow a range to work in by watching how you actually respond and what support you have; that will be different for different people. Feeling confident doesn’t make up for support you don’t have."}]},
+ {"block": 8, "verdict": "FIX", "problems": [
+  {"type": "WRONG", "what": "PE and EMDR aren't variants of trauma-focused CBT; the published lists them side by side, depending on the person and guideline",
+   "replace": "recommend some variant of trauma-focused cognitive behavioral therapy, such as cognitive processing therapy, prolonged exposure, or eye movement desensitization and reprocessing.", "with": "emphasize treatments like trauma-focused cognitive behavioral therapy variants, cognitive processing therapy, prolonged exposure, or eye movement desensitization and reprocessing, depending on the person and the guideline."},
+  {"type": "SHIFT", "what": "high-risk trauma work needs a larger container", "replace": "you may want a bigger container", "with": "you need a bigger container"}]},
+ {"block": 9, "verdict": "FIX", "problems": [
+  {"type": "SHIFT", "what": "continue gently", "replace": "then keep doing what you’re doing.", "with": "then keep going, gently."}]}]

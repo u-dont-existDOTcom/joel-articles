@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG37-r1-s4.txt",
+  "input_words": 109,
+  "input_sha256": "fee59cad9c526662cb31714789e3b06d1e88188799da47d14618261a34a1abaf",
+  "balance_before": 137349,
+  "started_utc": "2026-10-18T03:06:28Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:06:35Z",
+  "response": {
+    "id": "d1206781-1dcb-4644-96e4-b47d6e846787",
+    "tool": "humanize",
+    "text": "The first reaction to a “dark entity” is to fight it, banish it, to hate it, to show it who’s boss, argue with it, panic, or to basically agree with everything it says and become it. Sometimes you may need to use certain prayers, mantras, protections, banishing or exorcism forms, but fighting from a place of fear will only feed it.\n\nFear feeds it. Hate feeds it. Pride feeds it. Panic feeds it.\n\nAffirmation: “I do not need to hate you. I do not need to become you. I do not need to obey you. I do not need to fight you from fear. I simply will no longer feed you, but will return to loving awareness.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 109
+    },
+    "elapsed": 7
+  },
+  "balance_after": 137240
+}

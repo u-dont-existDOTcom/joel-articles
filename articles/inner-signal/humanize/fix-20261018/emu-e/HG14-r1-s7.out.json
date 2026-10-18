@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s7.txt",
+  "input_words": 71,
+  "input_sha256": "ee6cb27a46d6b5041ba49982853ae5f1a288a9d665ff91f9a16e3412406d72a8",
+  "balance_before": 135174,
+  "started_utc": "2026-10-18T03:07:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:51Z",
+  "response": {
+    "id": "b120dbf7-124f-447d-aa5f-c00de7c48525",
+    "tool": "humanize",
+    "text": "So here is a simple easy little bit of body work that will help you get in touch with your inner child. All you have to do is place one hand in the center of your chest. Remember your heart is there and it's full of love. Now place your other hand just below that, at your solar plexis, that is where you can relate to your child.\n\nNow begin sending love down to your child from your heart and just notice what comes up for you. It doesn't matter if something comes up or not, if there is resistance come it with love, if you feel or see something come it with love. Just communicate with your child from your heart.\n\nNow remember when you do this, Love is on top and your child is on the bottom and you as the adult are right there with them.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 71
+    },
+    "elapsed": 7
+  },
+  "balance_after": 135041
+}

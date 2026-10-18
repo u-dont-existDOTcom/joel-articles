@@ -1,0 +1,165 @@
+{
+ "key": "HG36",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix G: Altered states"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "paras": [
+    "I am NOT telling anyone to use substances. However, many people do attempt their first self-hypnosis, contact with their inner child or contact with their Higher Self while in a mind altered state.",
+    "Either way, please be aware that you should not use this state to force a revelation, but rather use it to deepen your listening, strengthen your love and improve your ordinary life.",
+    "Many people have opened to certain things in their life in altered states, and that opening can be a resource without becoming a state you have to keep reproducing. The key is that though it is great that this opened, it is different to have had the experience of love, to be able to access it in a particular state and to be able to access it reliably on a day to day basis. Let the experience widen what seems possible while you build access you can actually use. If the child can't take it in, meet that difficulty rather than turning up the intensity.",
+    "So during or after an altered state, rather than asking for a revelation, you may want to use these phrases: Help me to ground. Help me to only take that which I can integrate. Help me to remember the love I am feeling. Help me to come back again when the time is right. Help me to turn this into one change in my regular life.",
+    "You should not use self-hypnosis to keep you in an altered state forever, to help you remember things, to make you more afraid, to help you not sleep, to not see a doctor, or to not communicate with other people.",
+    "If you find that being in an altered state is helping you to love less, to be more ungrounded, to be less honest, to not sleep, to not communicate or to not do regular life things, then you should stop attempting to go deeper and instead work on integrating what you have."
+   ],
+   "run": "HG36-r1",
+   "file": "fix-20261018/emu-a/HG36-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "a heading-like prefix the published doesn't have; and 'these' points at nothing (the published: substances)",
+     "replace": "Mind Altered States & Inner Child Work Note: I am NOT encouraging anyone to use these.",
+     "with": "I am NOT telling anyone to use substances."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'if you choose to do so' invites the choice; the published simply says don't use altered states to force revelation",
+     "replace": "If you choose to do so, please be aware",
+     "with": "Either way, please be aware"
+    },
+    {
+     "type": "SHIFT",
+     "what": "force revelation",
+     "replace": "to force open anything,",
+     "with": "to force a revelation,"
+    },
+    {
+     "type": "LOST",
+     "what": "deepen listening, strengthen love, improve ordinary life",
+     "replace": "use it to enhance your ability to love and improve your life.",
+     "with": "use it to deepen your listening, strengthen your love and improve your ordinary life."
+    },
+    {
+     "type": "LOST",
+     "what": "a past opening can be a resource without becoming a state you must reproduce",
+     "replace": "Many people have opened to certain things in their life in altered states.",
+     "with": "Many people have opened to certain things in their life in altered states, and that opening can be a resource without becoming a state you have to keep reproducing."
+    },
+    {
+     "type": "LOST",
+     "what": "reliably; let the experience widen what seems possible while you build usable access",
+     "replace": "to be able to access it on a day to day basis.",
+     "with": "to be able to access it reliably on a day to day basis. Let the experience widen what seems possible while you build access you can actually use."
+    },
+    {
+     "type": "SHIFT",
+     "what": "turned round: if the child can't receive it, meet the difficulty rather than escalating the intensity",
+     "replace": "Sometimes if the child can't take it, you may need to open the experience up a bit more.",
+     "with": "If the child can't take it in, meet that difficulty rather than turning up the intensity."
+    },
+    {
+     "type": "LOST",
+     "what": "during or after an altered state",
+     "replace": "So if you are in an altered state,",
+     "with": "So during or after an altered state,"
+    },
+    {
+     "type": "LOST",
+     "what": "one ordinary-life change",
+     "replace": "Help me to take something from this and change my regular life.",
+     "with": "Help me to turn this into one change in my regular life."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Stabilize before you interpret"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "paras": [
+    "Self-hypnosis can be extremely powerful when used in altered states of consciousness such as when one is on loveyhuasca, meditating, in a lucid dream, grieving, utilizing sexual energy, praying, not sleeping, or in other states similar to plant medicines. Sometimes the mind opens up faster than the adult self can organize what’s coming in.",
+    "The problem is that people think that because they are in an altered state, that it must mean something. Sometimes it is your inner child talking, sometimes it is a Protector scaring you, and sometimes it is shame/grief/anger or other buried material asking for care, but it can also just be your body being overloaded by the experience, the chaos of the environment, lack of sleep, or some other reason that it just doesn't make sense. Just because you had a picture that scared you doesn't mean it's true, just because you had a bad feeling doesn't mean it's a lesson and just because you had a download in a nice lighting doesn't mean you should believe it.",
+    "Before trying to interpret what is happening in an altered state, ask a simpler question:",
+    "“What kind of problem is happening?”"
+   ],
+   "run": "HG36-r1",
+   "file": "fix-20261018/emu-a/HG36-r1.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "'when one is loveyhuasca' is missing a word",
+     "replace": "when one is loveyhuasca",
+     "with": "when one is on loveyhuasca"
+    },
+    {
+     "type": "LOST",
+     "what": "the mind can open faster than the adult self can organize what is arriving",
+     "replace": "or in other states similar to plant medicines.",
+     "with": "or in other states similar to plant medicines. Sometimes the mind opens up faster than the adult self can organize what’s coming in."
+    },
+    {
+     "type": "SHIFT",
+     "what": "buried material asking for care",
+     "replace": "or other parts coming out,",
+     "with": "or other buried material asking for care,"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'can also be', not 'often'",
+     "replace": "but often it is simply",
+     "with": "but it can also just be"
+    },
+    {
+     "type": "SHIFT",
+     "what": "a bad feeling isn't automatically a lesson",
+     "replace": "doesn't mean it's helpful",
+     "with": "doesn't mean it's a lesson"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "the sentence breaks off",
+     "replace": "in an altered state, you should",
+     "with": "in an altered state, ask a simpler question:"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

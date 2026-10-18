@@ -1,0 +1,84 @@
+{
+ "key": "HG27",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Closing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Most of these things will become easier once you stop being afraid of your subconscious and your body, and when you stop fighting your analytical mind or whatever protector is up at the time."
+   ],
+   "run": "HG27-r1",
+   "file": "fix-20261018/emu-a/HG27-r1.out.txt",
+   "redo": true,
+   "verdict": "redo"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Also, I’m far more concerned about you becoming an adult you can trust than about how deep you can go into hypnosis."
+   ],
+   "run": "HG27-r1",
+   "file": "fix-20261018/emu-a/HG27-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "an adult you can trust (yourself), not a trustworthy adult",
+     "replace": "you becoming a trustworthy adult",
+     "with": "you becoming an adult you can trust"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Then listen until the kid is willing to come closer. It’s easiest if you keep enough small promises to the kid, because then the guards can relax a bit. Work on loving yourself, so that your thought processes don’t fight it, and work on thinking clearly, so that your love doesn’t slip off into fantasy. Work on applying this to your regular life, too, so that your adult can keep the promise."
+   ],
+   "run": "HG27-r1",
+   "file": "fix-20261018/emu-a/HG27-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "the kid became 'her'; and 'listen until the kid is willing to come closer'",
+     "replace": "Then listen to her when she wants to come closer.",
+     "with": "Then listen until the kid is willing to come closer."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'her' again; 'enough small promises'",
+     "replace": "keep some of your promises to her, too,",
+     "with": "keep enough small promises to the kid,"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'think clearly enough', not 'thinking about yourself'",
+     "replace": "work on thinking about yourself",
+     "with": "work on thinking clearly"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

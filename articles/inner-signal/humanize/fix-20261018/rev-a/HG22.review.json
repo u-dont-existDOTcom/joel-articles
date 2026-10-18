@@ -1,0 +1,8 @@
+[{"block": 1, "verdict": "FIX", "problems": [
+  {"type": "SHIFT", "what": "'more time needn't mean greater intensity' (permission) became a ban", "replace": "but don’t make the practice any stronger", "with": "but more time doesn’t have to mean more intensity"},
+  {"type": "SHIFT", "what": "borrowing an adult function and asking whether something important is being bypassed are two steps; the rewrite merged them and lost 'borrow'",
+   "replace": "using any adult function that is necessary to recognise any bypassing that may be going on", "with": "borrowing an adult function when needed, asking whether anything important is being bypassed"}]},
+ {"block": 2, "verdict": "FIX", "problems": [
+  {"type": "SHIFT", "what": "the action teaches the subconscious that the adult heard and acted", "replace": "that something has changed", "with": "that the adult heard and acted"},
+  {"type": "SHIFT", "what": "the published contrast is another beautiful internal meeting with the dishes left where they were, not that there is no point",
+   "replace": "otherwise it may think that because the dishes have not been done, despite all the internal meetings to do the dishes, that there is no point in doing them.", "with": "otherwise it’s just one more beautiful internal meeting, and the dishes stay exactly where they were."}]}]

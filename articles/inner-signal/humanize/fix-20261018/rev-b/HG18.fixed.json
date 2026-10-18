@@ -1,0 +1,135 @@
+{
+ "key": "HG18",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Come all the way back"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Come out of the session by reversing the entry method; if you floated, come back down by the same method; land with your chosen weight. If you shrunk, come back to your normal size. If you meet your younger self or parts, make sure that you acknowledge that you are now whole, this is your body, and you are using your adult judgement. If you traveled, then come back the same way you left. Make sure that you are only bringing back what you had intended to bring back."
+   ],
+   "run": "HG18-r1",
+   "file": "fix-20261018/emu-a/HG18-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "You may wish to say, “I am bringing back only that which I choose to bring back at this time. All that is not needed at this time will remain safely stored away until such time as I am ready. I am now coming back to this place and to my body and to normal day to day living, and to one honest action. All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
+   ],
+   "run": "HG18-r1",
+   "file": "fix-20261018/emu-a/HG18-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "one honest action",
+     "replace": "to normal day to day living.",
+     "with": "to normal day to day living, and to one honest action."
+    },
+    {
+     "type": "LOST",
+     "what": "the instructions that end are those to deepen or remain; the cue doesn't keep today's state running; I am myself, in my body, with adult judgment fully available",
+     "replace": "All instructions given to me in this session are now over except for the conscious intention (or cue) to implement in the future.”",
+     "with": "All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Count yourself out: 1. Coming back into your body and your chosen weight. 2. Coming back to your normal breathing pattern. 3. Coming back to awareness of your surroundings and of your location. 4. Moving your fingers and your toes and your shoulders and your eyes. 5. Opening your eyes, feeling present, normal and clear. Your session is now over."
+   ],
+   "run": "HG18-r1",
+   "file": "fix-20261018/emu-a/HG18-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "It is a good idea to say to yourself what day it is or what the date is, look to your left and to your right, look at something near and something far away, move about a bit before you stand up, stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back). Take note of anything that came up during your session and what you may or may not need to do as a result, and then just go about doing something normal."
+   ],
+   "run": "HG18-r1",
+   "file": "fix-20261018/emu-a/HG18-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "stand only when steady; repeating the count is not proof of a complete return",
+     "replace": "stand up and make sure that you are oriented and alert.",
+     "with": "stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back)."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "In the event that a recording that you are listening to stops unexpectedly, simply say to yourself “the recording has stopped and the session is over” and then use the above method to come out by opening your eyes, saying where you are, saying what day it is, pushing down with your feet or your hands, moving about, looking around and then using the 5 step method. Don’t sit there waiting for the voice to come back and release you."
+   ],
+   "run": "HG18-r1",
+   "file": "fix-20261018/emu-a/HG18-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "don't wait for the missing narrator to release you",
+     "replace": "and then using the 5 step method.",
+     "with": "and then using the 5 step method. Don’t sit there waiting for the voice to come back and release you."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Note: If you are using a recording to go to sleep, then it is all right to let the recording put you to sleep or have you in a quiet resting state. However, if it’s a recording for waking practice, then it should not leave you in any state that is not conducive to normal functioning, such as leaving you in a role, with lowered judgement, impaired movement capabilities, blank, with an undefined reset word, or invited to stay altered indefinitely."
+   ],
+   "run": "HG18-r1",
+   "file": "fix-20261018/emu-a/HG18-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "a waking recording (one for waking practice), not 'if you are waking when it ends'",
+     "replace": "if you are waking when the recording ends",
+     "with": "if it’s a recording for waking practice"
+    },
+    {
+     "type": "LOST",
+     "what": "an invitation to remain altered indefinitely",
+     "replace": "blank or with an undefined reset word, etc.",
+     "with": "blank, with an undefined reset word, or invited to stay altered indefinitely."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

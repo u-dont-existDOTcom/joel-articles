@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s4.txt",
+  "input_words": 94,
+  "input_sha256": "0393a91fb416cfb9555b330062edef2ea5893b13e01429516d25ca02b0d3781a",
+  "balance_before": 131365,
+  "started_utc": "2026-10-18T03:12:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:26Z",
+  "response": {
+    "id": "c84cc3bc-1b60-44da-b737-9a6c7a11299b",
+    "tool": "humanize",
+    "text": "What is it looks like to pace and lead?\n\nHere is an example of pacing and leading for anxiety:\n\nIt can be as simple as: Truth, Invite, Truth, Invite etc.\n\n“It is completely true that the sensation of _______ (or emotion of _____) is coming up for me right now. It makes complete sense that a part of me is trying to protect me by doing/thinking ________. While that is completely true, another completely true thing is that there is a part of me that is adult, and that is breathing in this room right now, and is willing to listen.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 94
+    },
+    "elapsed": 5
+  },
+  "balance_after": 131271
+}

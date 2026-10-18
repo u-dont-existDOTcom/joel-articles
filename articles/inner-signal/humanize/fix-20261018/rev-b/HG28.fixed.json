@@ -1,0 +1,159 @@
+{
+ "key": "HG28",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Try it in the Inner Signal app"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "In the Inner Signal app you’ll find voice hypnosis sessions to guide you, information about the method you’re using, and tips on how to develop your own language for hypnotic self-talk. After each session, you’ll have the chance to report what went through your mind and body, and reflect on what you reported. You can also ask the app questions about how a hypnotherapist might approach particular issues. You don’t need an app to do self-hypnosis, and finding a practitioner is an option, not something you have to do to graduate."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "links": [
+    {
+     "published": "the Inner Signal app",
+     "new": "the Inner Signal app"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "the 'first steps' welcome and 'voice-recorded' sessions; the published: use the app to get voice hypnosis sessions",
+     "replace": "Welcome to Inner Signal, the app designed to help you take your first steps into the world of hypnosis. Here you’ll find several voice-recorded sessions to guide you,",
+     "with": "In the Inner Signal app you’ll find voice hypnosis sessions to guide you,"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'consider what you might have missed' is new; the published: reflect on what you report",
+     "replace": "and consider what you might have missed, so you can learn to catch more of your inner experience next time.",
+     "with": "and reflect on what you reported."
+    },
+    {
+     "type": "SHIFT",
+     "what": "finding a practitioner is an option, not a graduation requirement",
+     "replace": "and you don’t have to graduate from this app before looking for a practitioner to work with, but it may help to have a starting point.",
+     "with": "and finding a practitioner is an option, not something you have to do to graduate."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "If you’re using the ChatGPT version of this app, you might want to upload a picture, drawing, poem or song to talk about instead of writing out your explanation in prose. But please make sure the file you upload can be seen or heard by the chat you’re currently using! It will probably tell you that it can’t see or hear the file if you’ve made this mistake. Please remember that what’s in the file, what it means to you, and what the app thinks it means, are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "what the material contains",
+     "replace": "what you say about what’s in the file",
+     "with": "what’s in the file"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Bear in mind that even with voice, the app is asking you what’s going on for you – it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report. The app is not pretending to be a skilled therapist, just helping you to learn for yourself, so that you can make informed choices about what to try next."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "voice, not voice recordings",
+     "replace": "even with its voice recordings",
+     "with": "even with voice"
+    },
+    {
+     "type": "LOST",
+     "what": "it can't feel your body, share a practitioner's embodied intuition, or know an unreported response",
+     "replace": "it can’t feel it in its own body, like a trained practitioner might be able to do.",
+     "with": "it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Always enter this app via this page, not by bookmarking the app itself, to make sure you get the current version."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Please fill in this survey with what you’ve learned from using the app, so that you have something to analyse later, and others can benefit from what you’ve experienced."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "links": [
+    {
+     "published": "Please fill out the survey",
+     "new": "Please fill in this survey"
+    }
+   ],
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "If the guide or the app leaves a real question unanswered, please contact me here to discuss arranging a consultation."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "links": [
+    {
+     "published": "contact me directly",
+     "new": "contact me here"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "when the guide or the app leaves a real question unanswered",
+     "replace": "If you have any real questions about what the app has said, or if there’s something you want to ask that it doesn’t answer,",
+     "with": "If the guide or the app leaves a real question unanswered,"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

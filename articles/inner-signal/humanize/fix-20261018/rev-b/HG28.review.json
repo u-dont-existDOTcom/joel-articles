@@ -1,0 +1,13 @@
+[{"block": 1, "verdict": "FIX", "links": [{"published": "the Inner Signal app", "new": "the Inner Signal app"}], "problems": [
+  {"type": "INVENTED", "what": "the 'first steps' welcome and 'voice-recorded' sessions; the published: use the app to get voice hypnosis sessions", "replace": "Welcome to Inner Signal, the app designed to help you take your first steps into the world of hypnosis. Here you’ll find several voice-recorded sessions to guide you,", "with": "In the Inner Signal app you’ll find voice hypnosis sessions to guide you,"},
+  {"type": "INVENTED", "what": "'consider what you might have missed' is new; the published: reflect on what you report", "replace": "and consider what you might have missed, so you can learn to catch more of your inner experience next time.", "with": "and reflect on what you reported."},
+  {"type": "SHIFT", "what": "finding a practitioner is an option, not a graduation requirement", "replace": "and you don’t have to graduate from this app before looking for a practitioner to work with, but it may help to have a starting point.", "with": "and finding a practitioner is an option, not something you have to do to graduate."}]},
+ {"block": 2, "verdict": "FIX", "problems": [
+  {"type": "SHIFT", "what": "what the material contains", "replace": "what you say about what’s in the file", "with": "what’s in the file"}]},
+ {"block": 3, "verdict": "FIX", "problems": [
+  {"type": "WRONG", "what": "voice, not voice recordings", "replace": "even with its voice recordings", "with": "even with voice"},
+  {"type": "LOST", "what": "it can't feel your body, share a practitioner's embodied intuition, or know an unreported response", "replace": "it can’t feel it in its own body, like a trained practitioner might be able to do.", "with": "it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report."}]},
+ {"block": 4, "verdict": "OK"},
+ {"block": 5, "verdict": "OK", "links": [{"published": "Please fill out the survey", "new": "Please fill in this survey"}]},
+ {"block": 6, "verdict": "FIX", "links": [{"published": "contact me directly", "new": "contact me here"}], "problems": [
+  {"type": "SHIFT", "what": "when the guide or the app leaves a real question unanswered", "replace": "If you have any real questions about what the app has said, or if there’s something you want to ask that it doesn’t answer,", "with": "If the guide or the app leaves a real question unanswered,"}]}]

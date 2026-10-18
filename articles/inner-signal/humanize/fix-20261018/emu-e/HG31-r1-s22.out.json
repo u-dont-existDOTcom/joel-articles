@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s22.txt",
+  "input_words": 49,
+  "input_sha256": "031b9f45ff812c5ede3f825f361cc5679b5f428cf754250645b6094da1bf989c",
+  "balance_before": 130220,
+  "started_utc": "2026-10-18T03:14:02Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:14:07Z",
+  "response": {
+    "id": "23713305-dfd3-4323-9b46-1ca31bd693f8",
+    "tool": "humanize",
+    "text": "In classic NLP, one of the uses of the Swish was to replace an old image of yourself with a new, better one. Some people find that method jarring. So here is a gentler way to do it, leaving the old pattern in place, but letting it sit side by side with a new pattern, so that the client can feel, in their body, which one they want to pursue, and see what it would take to get there.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 49
+    },
+    "elapsed": 4
+  },
+  "balance_after": 130171
+}

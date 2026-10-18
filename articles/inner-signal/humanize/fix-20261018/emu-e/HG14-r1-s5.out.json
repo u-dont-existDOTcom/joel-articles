@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s5.txt",
+  "input_words": 167,
+  "input_sha256": "c3eab9e5011057bc78ca23c814c796fb0fb75dc8daaff490c6bb712a02e67640",
+  "balance_before": 135575,
+  "started_utc": "2026-10-18T03:07:25Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:36Z",
+  "response": {
+    "id": "0fdb5d74-7a13-4d0e-a3c8-865ee1c946c8",
+    "tool": "humanize",
+    "text": "If the younger position doesn’t believe you love him/her yet, you can still love him/her. You can love him/her even if the trust position doesn’t trust your promises yet, even if he/she remembers that you haven’t been able to protect him/her yet.\n\nYou can start with something like, “Okay. I believe that you don’t believe me. I still love you though. It’s okay if you don’t love me yet. Tell me what doesn’t feel safe to you.”\n\nRespond to complaints by hearing the truth in them and by responding to them, as well as by providing the other evidence of love: preparing and serving meals, setting limits to protect him/her, taking him/her to appointments, keeping promises, admitting when you haven’t been able to live up to your promises, etc. If the younger position attacks you in his/her mind, admit that you haven’t been able to protect him/her yet, work on it, and let him/her know when you’ve made a change. Show your love by not retaliating, but don’t substitute not retaliating for loving the younger position.\n\nKeep in mind that the position that made the vow and the position that blames the child for not accepting the vow may be two separate positions, or they may be the same position, or they may be a blend. Don’t go by chronological age.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 167
+    },
+    "elapsed": 11
+  },
+  "balance_after": 135287
+}

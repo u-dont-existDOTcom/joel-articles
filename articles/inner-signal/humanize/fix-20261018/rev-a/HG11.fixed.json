@@ -1,0 +1,125 @@
+{
+ "key": "HG11",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Forget the left-brain/right-brain cartoon"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "“Syncing the hemispheres” is a very useful description of how the state feels, but I don’t want to over-interpret what is going on neuroscientifically. A large resting state fMRI study of 1011 people did not support the common pop- neuropsychological notion that people in general can be left or right brained, although there is certainly evidence for the lateralization of some functions or networks."
+   ],
+   "run": "HG11-r1",
+   "file": "fix-20261018/emu-a/HG11-r1.out.txt",
+   "links": [
+    {
+     "published": "large resting-state fMRI study",
+     "new": "large resting state fMRI study"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "says the phrase is in quotation marks when it isn't, and loses that it describes how the state feels",
+     "replace": "I put the phrase syncing the hemispheres in quotation marks because I don’t want to over-interpret what is going on neuroscientifically. It’s a very useful description but a large",
+     "with": "“Syncing the hemispheres” is a very useful description of how the state feels, but I don’t want to over-interpret what is going on neuroscientifically. A large"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "The invitation is to elicit a high level of cooperation between the verbal, analytical, imaginal, emotional, somatic, intuitive, relational, and spiritual modes. It’s not an electoral process; nobody needs to win!"
+   ],
+   "run": "HG11-r1",
+   "file": "fix-20261018/emu-a/HG11-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'whatever other modes you want to include' isn't in the published list",
+     "replace": "spiritual and whatever other modes you want to include",
+     "with": "and spiritual modes"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "The mind of love retains its warmth, the mind of analysis its brightness. The mind of intuition is neither denied nor accepted dogmatically. The mind of rationality tests the signals without killing them. The body has a voice- it can say yes, no or not yet. The imagination has opened the field and the adult can choose how to act. There is peace but there is also precision."
+   ],
+   "run": "HG11-r1",
+   "file": "fix-20261018/emu-a/HG11-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the rational mind tests signals without killing them",
+     "replace": "The mind of rationality is neither destructive nor inhibited.",
+     "with": "The mind of rationality tests the signals without killing them."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Love without analysis can become fantasy, analysis without love can become sterile. Intuition without testing can become delusion; testing without intuition can become dead. These modes can each serve to modify the others."
+   ],
+   "run": "HG11-r1",
+   "file": "fix-20261018/emu-a/HG11-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'can drift', 'can become' became 'becomes': always, not can",
+     "replace": "Love without analysis becomes fantasy, analysis without love becomes sterile. Intuition without testing becomes delusion; testing without intuition becomes dead.",
+     "with": "Love without analysis can become fantasy, analysis without love can become sterile. Intuition without testing can become delusion; testing without intuition can become dead."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "And of course a powerful state only matters if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life!"
+   ],
+   "run": "HG11-r1",
+   "file": "fix-20261018/emu-a/HG11-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the published says a powerful state matters only if something survives it, and names what: kinder behavior, more humility, better judgment, real service, a more workable ordinary life",
+     "replace": "it’s got to be a powerful state that leads to greater goodness in your life!",
+     "with": "a powerful state only matters if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life!"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

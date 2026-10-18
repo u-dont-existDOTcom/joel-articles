@@ -1,0 +1,153 @@
+{
+ "key": "HG21",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The 15-minute daily practice"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "You don't need to learn a second script for this: it's the same practice (gather attention, listen, respond, wait, return). Fifteen minutes or so is just a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings have to follow. It's enough time to induce yourself (a few minutes), let the middle unfold at its own pace (five minutes of sitting in silence and listening is there when it's useful), and then bring yourself back out again (several minutes). You can break out of the process at any time, if you feel you need to do something else."
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the published says use the same practice rather than learning a second script; the recordings are invented",
+     "replace": "You may choose to do all of this practice, or learn the second script. Either way, you'll be using a similar process and can use these recordings as a base for your own practice.",
+     "with": "You don't need to learn a second script for this: it's the same practice (gather attention, listen, respond, wait, return)."
+    },
+    {
+     "type": "LOST",
+     "what": "fifteen minutes is a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings must follow",
+     "replace": "These exercises only need to be done for fifteen minutes or so. This is not a therapeutic time, but merely enough time to",
+     "with": "Fifteen minutes or so is just a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings have to follow. It's enough time to"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the middle unfolds at its own pace; five minutes of silent listening is available when useful, not prescribed",
+     "replace": "do what you are going to do (in this case 5 minutes of sitting in silence and listening)",
+     "with": "let the middle unfold at its own pace (five minutes of sitting in silence and listening is there when it's useful)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "leave several minutes to return",
+     "replace": "and then bring yourself back out again (a few minutes)",
+     "with": "and then bring yourself back out again (several minutes)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Another simple way in: notice three things you can see, then three things you can hear and three sensations you can feel in your body. Now do two of each, then one of each. Count from 5 to 1 and start listening. Pick the entry that suits you, don't stack inductions."
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'B)' labels a script that doesn't exist; the published calls it another simple entry",
+     "replace": "B) Notice three things",
+     "with": "Another simple way in: notice three things"
+    },
+    {
+     "type": "LOST",
+     "what": "use the entry that suits you rather than stacking inductions",
+     "replace": "Count from 5 to 1 and start listening.",
+     "with": "Count from 5 to 1 and start listening. Pick the entry that suits you, don't stack inductions."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "After practicing a few times with a recording, feel free to cut it down to the cues you still need. The idea is that eventually, you will not even need to play it back. But keep using recordings if you enjoy them: being independent means you can guide yourself, not that you have to refuse help. (Note: the optional re-entry cue can shorten an induction you already know well.)"
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the published is about shortening a recording to the cues you still need",
+     "replace": "After practicing a few times with these scripts, feel free to edit them down and remove any parts that you feel are no longer necessary to help you induce yourself.",
+     "with": "After practicing a few times with a recording, feel free to cut it down to the cues you still need."
+    },
+    {
+     "type": "SHIFT",
+     "what": "'them' now has nothing to point to",
+     "replace": "you will not even need to play them back.",
+     "with": "you will not even need to play it back."
+    },
+    {
+     "type": "LOST",
+     "what": "independence means being able to guide yourself, not having to refuse help",
+     "replace": "But there is no harm in using them if you enjoy it.",
+     "with": "But keep using recordings if you enjoy them: being independent means you can guide yourself, not that you have to refuse help."
+    },
+    {
+     "type": "INVENTED",
+     "what": "the note makes the return optional, which the guide never does; the optional thing is the re-entry cue, which can shorten a familiar induction",
+     "replace": "(Note: in script A, the part about coming back out again is optional; if you are familiar with the induction process, it will probably be enough to simply count).",
+     "with": "(Note: the optional re-entry cue can shorten an induction you already know well.)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "When you come out of the process, consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life. Perhaps there is something you would like to explore or build up. And what can you carry yourself now? If there is something you need to do, then make a plan with yourself to do that thing. Be concrete and say something like, \"If _________ , then I will do ________ (one small action).\" Then see how things are later on: how you are sleeping, relating and functioning, not only how impressive the session felt."
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the published asks what you can carry yourself now",
+     "replace": "You may want to take this process with you as you move about your day.",
+     "with": "And what can you carry yourself now?"
+    },
+    {
+     "type": "LOST",
+     "what": "a small action",
+     "replace": "then I will do________ .\"",
+     "with": "then I will do ________ (one small action).\""
+    },
+    {
+     "type": "LOST",
+     "what": "not only how impressive the session felt",
+     "replace": "how you are sleeping, relating and functioning.",
+     "with": "how you are sleeping, relating and functioning, not only how impressive the session felt."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

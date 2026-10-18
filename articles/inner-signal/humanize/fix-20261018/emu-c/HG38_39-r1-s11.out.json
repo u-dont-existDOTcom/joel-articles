@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s11.txt",
+  "input_words": 112,
+  "input_sha256": "f7efc346e1ba246343c5f0e69771f15afc8778ff9a4d2a67ef116fd301c30621",
+  "balance_before": 134681,
+  "started_utc": "2026-10-18T03:08:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:08:18Z",
+  "response": {
+    "id": "ebe9e644-fe1e-4997-821a-b6c8de23922c",
+    "tool": "humanize",
+    "text": "Things to do in between: keep the eyes open, notice where the practice is taking place and on what day, notice the feet, read something, write something, notice that one is still relatively normally aware.\n\nInvitation: choose a question and keep it in mind, do not specifically focus or narrow the awareness further.\n\nChoice: do whatever comes to mind, answer the question or write it down, write that one does not know, rest, change the question, ask someone else, stop the practice, etc.\n\nAutonomous signal: write anything that comes to mind, no interpretation.\n\nDeepener: none, it is not necessary to reach a state that is less alert.\n\nOther autonomous: have the adult part of yourself answer the question in any way, preferably in writing or by taking an action.\n\nIntegration/exit: reality test the autonomous signal and take an action based on that, end the practice (no special exit is needed since no state was achieved that one needs to exit from).",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 112
+    },
+    "elapsed": 8
+  },
+  "balance_after": 134397
+}

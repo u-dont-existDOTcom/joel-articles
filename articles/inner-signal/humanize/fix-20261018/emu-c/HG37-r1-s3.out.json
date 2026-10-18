@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG37-r1-s3.txt",
+  "input_words": 154,
+  "input_sha256": "543abb243089b3299bf31ee65859906b15623a0e63b17cc98a30e9e230a996e6",
+  "balance_before": 137503,
+  "started_utc": "2026-10-18T03:06:17Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:06:27Z",
+  "response": {
+    "id": "dfba7b11-df75-446d-b8e9-1e3216c5dca7",
+    "tool": "humanize",
+    "text": "If you feel stable enough to explore, see if there’s a more metaphysical response to the situation, without losing your groundedness. Put your hand on your heart. Breathe.\n\nMaybe you just need to say, “I’m not going to go into this right now. I don’t know what it is, but I’m going to stay warm with it / keep it at a distance.” Whatever the situation is, remind yourself that you don’t have to obey it.\n\nIf you feel vulnerable in any way (knot in throat, sadness, fear, etc), bring in your Nurturer and see if that helps. If it continues to feel hostile or fearful, disengage and reconnect to your body and the room around you.\n\nThese responses are appropriate whether or not you know where they’re coming from. It may take a while before a protective part will tell you what it’s afraid of, but you can still respond with love and boundaries. Similarly, even if you have a comforting response, it doesn’t necessarily mean you know what’s going on. In either case, these are good ways of responding that will hopefully help you get to the truth more quickly.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 154
+    },
+    "elapsed": 10
+  },
+  "balance_after": 137349
+}

@@ -1,0 +1,374 @@
+{
+ "key": "HG40",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-b"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix K: Sources and further reading"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "The personal accounts and the way I arrange this practice are mine. The re-vised teaching brings them together with the body orientated and hypnotic approaches described below. This is merely how I have found it useful to adapt the practice. I do not claim that the process in its entirety has been validated. These notes are for readers who want to follow an idea further; you don’t need them open while practicing."
+   ],
+   "run": "HG40-r1-s1",
+   "file": "fix-20261018/emu-b/HG40-r1-s1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "the disclaimer is new; the published: the personal accounts and the arrangement are mine",
+     "replace": "The views and opinions expressed here are solely those of the author.",
+     "with": "The personal accounts and the way I arrange this practice are mine."
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "the revised teaching brings them together with the body-oriented and hypnotic approaches below",
+     "replace": "Be aware that this is a re-vised form of teaching the above mentioned practice. The following is a body orientated combined with the hypnotic approach as described below.",
+     "with": "The re-vised teaching brings them together with the body orientated and hypnotic approaches described below."
+    },
+    {
+     "type": "LOST",
+     "what": "the notes are for readers who want to follow an idea further",
+     "replace": "These notes are not required to be used during the practice.",
+     "with": "These notes are for readers who want to follow an idea further; you don’t need them open while practicing."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Learning, entering, and returning"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Maggie Phillips and Claire Frederick in Healing the Divided Self (1995), pp 24-27, 45-50, 83-90, deal with some aspects of interactive hypnosis such as helping the subject learn how to use other senses in the learning process, developing self-hypnosis and a definite return at the end. It is more of a clinical book for professional hypnotists rather than a self-help one, so be careful about trying to introduce the case procedures described to yourself. Also be careful about taking the historical information at face value. Adam Eason, with Benjamin Parris, has an ISH article on self-hypnosis, dealing with self-directed learning and the question of another hypnotist and recordings."
+   ],
+   "run": "HG40-r1-s2",
+   "file": "fix-20261018/emu-b/HG40-r1-s2.out.txt",
+   "links": [
+    {
+     "published": "ISH article on self-hypnosis",
+     "new": "ISH article on self-hypnosis"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "a definite return, not a way of getting back into hypnosis",
+     "replace": "and also a definite way of getting back into hypnosis when required.",
+     "with": "and a definite return at the end."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'excellent' and 'in this issue of' are new",
+     "replace": "has an excellent article on self-hypnosis in this issue of ISH,",
+     "with": "has an ISH article on self-hypnosis,"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Indirect language and re-entry cues"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Phillips and Frederick's book, pages 53 - 57 and 96 - 100, explains pacing, utilization, metaphor and associational cues. The information on hypnotic language patterns and triggers is sourced from Nimja's tutorial on hypnotic language patterns , and the tutorial on triggers . They're sources for technique, not evidence that every NLP claim is established or that every example suits trauma work. Please note that while the information in this guide is based on that in these sources, it is not identical to it, and has been adapted for a slightly different purpose. Nimja did not write or endorse this guide. The original wording here, and the re-entry sequence I chose on purpose, are my adaptations."
+   ],
+   "run": "HG40-r1-s3",
+   "file": "fix-20261018/emu-b/HG40-r1-s3.out.txt",
+   "links": [
+    {
+     "published": "hypnotic-language tutorial",
+     "new": "tutorial on hypnotic language patterns"
+    },
+    {
+     "published": "trigger tutorial",
+     "new": "tutorial on triggers"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "the published gives both page ranges for all four topics, not one range each",
+     "replace": "The section on pacing and utilization is based on pages 53 - 57 of Phillips and Frederick's book, and metaphor and associational cues is based on pages 96 - 100.",
+     "with": "Phillips and Frederick's book, pages 53 - 57 and 96 - 100, explains pacing, utilization, metaphor and associational cues."
+    },
+    {
+     "type": "INVENTED",
+     "what": "Nimja's gender",
+     "replace": ", and his tutorial on triggers .",
+     "with": ", and the tutorial on triggers . They're sources for technique, not evidence that every NLP claim is established or that every example suits trauma work."
+    },
+    {
+     "type": "INVENTED",
+     "what": "Nimja's gender again",
+     "replace": "This is not something that Nimja has written himself, and should not be considered to be his endorsement of this guide.",
+     "with": "Nimja did not write or endorse this guide."
+    },
+    {
+     "type": "INVENTED",
+     "what": "the opposite of the published: the wording and the chosen re-entry sequence here are adaptations",
+     "replace": "It is important that the words used here be kept identical, and that the order in which they are presented ( the re-entry sequence ) be followed exactly.",
+     "with": "The original wording here, and the re-entry sequence I chose on purpose, are my adaptations."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Body awareness and changing the amount of contact"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Note: Parts of this post draw on In an Unspoken Voice by Peter Levine, 2010, chapters 5 and 7, but also from chapters 3 and 4 of Freedom from Pain by Levine and Maggie Phillips, 2012, and chapter 4 of Healing Trauma by Levine. They discuss key ideas of tracking, resources, titration, pendulation and the range of foci of attention, from sensation, imagery, behavior, emotion to meaning, in depth. Also, although movements and images are offered for trying out here, they are not offered with the presumption that this is what is “fixing” anything physiologically."
+   ],
+   "run": "HG40-r1-s4",
+   "file": "fix-20261018/emu-b/HG40-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "chapters 5 and 7, not 'several chapters, particularly'",
+     "replace": "draw heavily from several chapters in In an Unspoken Voice by Peter Levine, 2010, particularly chapters 5 and 7,",
+     "with": "draw on In an Unspoken Voice by Peter Levine, 2010, chapters 5 and 7,"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Inner-child care and adult capacities"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "There is a lot more information on borrowed adulthood, love without having to trust, working on this both in practical and relationship terms, spiritual struggle, working on differentiation, working on this together with another peer, etc. in the companion piece: Inner Child Self-Love Reparenting Guide. The matching practices here follow it, but keep this guide’s self-hypnosis entry, responsive language and complete return."
+   ],
+   "run": "HG40-r1-s5",
+   "file": "fix-20261018/emu-b/HG40-r1-s5.out.txt",
+   "links": [
+    {
+     "published": "Inner Child Self-Love Reparenting Guide",
+     "new": "Inner Child Self-Love Reparenting Guide"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "love without compulsory trust",
+     "replace": "how to love without trust",
+     "with": "love without having to trust"
+    },
+    {
+     "type": "SHIFT",
+     "what": "spiritual struggle",
+     "replace": "working on the spiritual aspects",
+     "with": "spiritual struggle"
+    },
+    {
+     "type": "LOST",
+     "what": "the practices here follow that account while keeping the self-hypnosis entry, responsive language and complete return",
+     "replace": "in the companion piece: Inner Child Self-Love Reparenting Guide",
+     "with": "in the companion piece: Inner Child Self-Love Reparenting Guide. The matching practices here follow it, but keep this guide’s self-hypnosis entry, responsive language and complete return."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "The information here is based on Healing the Divided Self pages 148-153 and 171-174 for renurturing work, somatic work, developing nurturing capacities etc. For information on attunement and how each child is different and needs to be responded to differently, see Trauma Through a Child’s Eyes by Levine and Maggie Kline, particularly chapters 4, 5, 10 which talk about actual kids. This method is adapted from that book to an adult’s younger feeling states. My arrangement of three adult functions and the borrowed-adulthood sequence are not those authors’ tested protocol."
+   ],
+   "run": "HG40-r1-s5",
+   "file": "fix-20261018/emu-b/HG40-r1-s5.out.txt",
+   "links": [
+    {
+     "published": "My three-adult arrangement and borrowed-adulthood sequence",
+     "new": "My arrangement of three adult functions and the borrowed-adulthood sequence"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "developing nurturing capacities",
+     "replace": "how to get nurturing etc.",
+     "with": "developing nurturing capacities etc."
+    },
+    {
+     "type": "WRONG",
+     "what": "an adult's younger feeling-states",
+     "replace": "to working with adult feeling states.",
+     "with": "to an adult’s younger feeling states."
+    },
+    {
+     "type": "SHIFT",
+     "what": "not presented as those authors' tested protocol (not: they haven't tried it); three adult functions, not three adults",
+     "replace": "The idea of doing it with three adults and going into borrowed adulthood in a certain sequence is not something that they have tried.",
+     "with": "My arrangement of three adult functions and the borrowed-adulthood sequence are not those authors’ tested protocol."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Inner speech and putting experience into words"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "It’s worth noting at this point that Nedergaard and Lupyan’s study, Not Everybody Has an Inner Voice (2024), was not investigating different adaptations of self hypnosis, but rather it was investigating people who reported having different amounts of inner speech. Thus, the questions in Quick start are not intended to be any sort of validated screening or test for ability to do self hypnosis, but merely a practical self-check."
+   ],
+   "run": "HG40-r1-s6",
+   "file": "fix-20261018/emu-b/HG40-r1-s6.out.txt",
+   "links": [
+    {
+     "published": "Not Everybody Has an Inner Voice",
+     "new": "Not Everybody Has an Inner Voice"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "it is Nedergaard and Lupyan's own study",
+     "replace": "the study that Nedergaard and Lupyan reference in their Not Everybody Has an Inner Voice (2024) was not investigating",
+     "with": "Nedergaard and Lupyan’s study, Not Everybody Has an Inner Voice (2024), was not investigating"
+    },
+    {
+     "type": "SHIFT",
+     "what": "a practical self-check",
+     "replace": "but merely a practical way to see if the ideas in this book are something worth trying out for yourself.",
+     "with": "but merely a practical self-check."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Memory, support, and choosing a practitioner"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Chapter 7 of Peter Levine's \"Trauma and Memory\" (2015) is useful on the difference between a compelling experience and historical verification. The US Veterans Administration website has a good overview of hypnosis that includes some cautions about strong reactions and the potential of false memory creation. Here is a website from the American Society of Clinical Hypnosis (ASCH) that explains what hypnosis certification means. It separates professional preparation from a guarantee that someone is competent. The links already in the evidence and specialist sections point to their particular claims; they don’t validate every use of hypnosis."
+   ],
+   "run": "HG40-r1-s7",
+   "file": "fix-20261018/emu-b/HG40-r1-s7.out.txt",
+   "links": [
+    {
+     "published": "VA’s hypnosis overview",
+     "new": "overview of hypnosis"
+    },
+    {
+     "published": "explanation of certification",
+     "new": "explains what hypnosis certification means"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "Peter Levine, and what the chapter is useful on",
+     "replace": "Here are some links that may be useful. Chapter 7 of Barbara Oleah Levine's \"Trauma and Memory\" (2015) has a helpful discussion of this topic.",
+     "with": "Chapter 7 of Peter Levine's \"Trauma and Memory\" (2015) is useful on the difference between a compelling experience and historical verification."
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "a stray colon",
+     "replace": "false memory creation:",
+     "with": "false memory creation."
+    },
+    {
+     "type": "SHIFT",
+     "what": "the explanation separates professional preparation from a guarantee of competence",
+     "replace": "It is important to note that this is not a certification of competence:",
+     "with": "It separates professional preparation from a guarantee that someone is competent."
+    },
+    {
+     "type": "SHIFT",
+     "what": "the links point to their particular claims and don't validate every use of hypnosis; the section names are new",
+     "replace": "The links that already exist in the \"Evidence and Hypnosis Specialists\" sections also have some good information.",
+     "with": "The links already in the evidence and specialist sections point to their particular claims; they don’t validate every use of hypnosis."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

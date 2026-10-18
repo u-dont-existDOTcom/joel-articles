@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG20-r1-s9.txt",
+  "input_words": 162,
+  "input_sha256": "dc6d34acff59fcb0c9fbcd2516bef9796c15c7598db64a038233f0050b59b43a",
+  "balance_before": 139666,
+  "started_utc": "2026-10-18T03:03:39Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:51Z",
+  "response": {
+    "id": "0bd15459-325d-4cb2-b18d-36f2e89a91c7",
+    "tool": "humanize",
+    "text": "Once you feel you've had enough, you can stop asking yourself new questions. However, it is a good idea to explore whether there's anything you can do to help you to leave things where they are for the time being. This might include thanking off the parts or capacities you've been working with. It may also involve doing something important in your outer life. Or, it may be that there's nothing you need to do.\n\nThroughout this exercise, your analytical mind is welcome to comment on what's going on, to not go along with something, or to stop the process. However, it's best to postpone its consideration of the factual accuracy of what's coming up, as well as its taking on of any commitments, until after you've returned. Just because you've seen an image or experienced a shift or release in your body doesn't mean that your interpretation of what's going on is correct.\n\nEven if you ended the process early, use the Come all the way back procedure to return. It's also a good idea to jot down a few notes about what happened. Include any memorable phrase that came up, any signals from your body, any needs expressed by a child part, any concerns expressed by a protector part, any boundaries you set, any repairs you made, or anything you learned that it would be a mistake to try to force.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 162
+    },
+    "elapsed": 11
+  },
+  "balance_after": 139443
+}

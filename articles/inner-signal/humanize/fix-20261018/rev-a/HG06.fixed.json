@@ -1,0 +1,149 @@
+{
+ "key": "HG06",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Protecting Yourself from Hypnotists"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'in a therapist's office' became a 'controlled environment'; 'happens through' became 'utilized through' (someone using it on purpose)",
+     "replace": "in a controlled environment with a therapist, but it can also be utilized through",
+     "with": "in a therapist’s office, but it can also happen through"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well, and the practice has even come under scrutiny by regulatory bodies. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'for years' is new; the published says marketers and designers know this perfectly well",
+     "replace": "have been using these techniques for years, and the practice",
+     "with": "know this perfectly well, and the practice"
+    },
+    {
+     "type": "INVENTED",
+     "what": "a made-up quotation attributed to the FTC report; the published paraphrases it",
+     "replace": "they refer to “design patterns that have been designed to trick or manipulate users into doing things that they might not otherwise do.”",
+     "with": "they describe designs that trick or manipulate consumers."
+    },
+    {
+     "type": "INVENTED",
+     "what": "a made-up quotation attributed to the OECD; the published paraphrases it",
+     "replace": "refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”",
+     "with": "describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent: those are all different things. Someone’s mind can be influenced, even if they are a fully grown adult, without their adult self having clearly chosen the influence."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the four different things (conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent) and that a mind can be influenced without the adult self clearly choosing it; the rewrite says they are all ways to gain consent",
+     "replace": "Consciously or unconsciously, emotionally or legally, there are a lot of ways to gain someone’s consent, or influence their mind, even if they are a fully grown adult.",
+     "with": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent: those are all different things. Someone’s mind can be influenced, even if they are a fully grown adult, without their adult self having clearly chosen the influence."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "As a line from the Silva Mind Control tradition puts it,"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the published only says the line is associated with the Silva tradition",
+     "replace": "As the practitioners of the Silva Method of Mind Control say,",
+     "with": "As a line from the Silva Mind Control tradition puts it,"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "“If you don’t learn to control your mind, someone else will!”"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Since there are a lot of forces out there already training your mind, via ads, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition, you can use self-hypnosis techniques to work from the inside: befriend your deeper mind, listen closely, and make it easier to choose things for yourself as an adult."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the published says these forces are already training the mind, not trying to",
+     "replace": "trying to train your mind",
+     "with": "already training your mind"
+    },
+    {
+     "type": "LOST",
+     "what": "practising from inside it, listening closely, and making adult choice more available (the rewrite has 'fully conscious adult')",
+     "replace": "to learn to befriend your deeper mind, and choose things for yourself as a fully conscious adult.",
+     "with": "to work from the inside: befriend your deeper mind, listen closely, and make it easier to choose things for yourself as an adult."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

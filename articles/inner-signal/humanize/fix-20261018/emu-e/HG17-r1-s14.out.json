@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s14.txt",
+  "input_words": 64,
+  "input_sha256": "ad612e8e7f425a060afe82cec0bfcbce461e2d813ecac8e928a7d7f702ff3d16",
+  "balance_before": 132049,
+  "started_utc": "2026-10-18T03:11:16Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:11:21Z",
+  "response": {
+    "id": "48431c38-51e5-43b9-ba98-718e83272a65",
+    "tool": "humanize",
+    "text": "Seeing as the information in this thread might be usefull to some people, I figured it might be good to let some attention gather on it. If it's not usefull to ya, know that it leaves me as awake as I need to be and move along. :wink:\n\nDo they have a place they can go to, a scene to paint where they feel safe? (room in the heart, garden, temple, fire with protector, lake, chair with adult etc). Just one is enough.\n\n“Who or what needs to speak first?”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 64
+    },
+    "elapsed": 5
+  },
+  "balance_after": 131985
+}

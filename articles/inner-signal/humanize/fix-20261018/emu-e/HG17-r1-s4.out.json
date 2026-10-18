@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s4.txt",
+  "input_words": 172,
+  "input_sha256": "8497bf49f4f6c7a7b039eb8a97425d2427cdec9c34ade6673cb043f2ddadadaa",
+  "balance_before": 133218,
+  "started_utc": "2026-10-18T03:09:53Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:10:06Z",
+  "response": {
+    "id": "2b49f01b-0bf9-41b5-8b31-81324102aec0",
+    "tool": "humanize",
+    "text": "Read through the induction and Come all the way back to orient yourself to what will happen. Then decide what you want to explore, what you want to leave alone, and how much time you have. You may want to do the exercise for positive purposes such as stimulating love, play, confidence, creativity, or communion. Plan to allow a few minutes at the end for returning and reflecting on the experience.\n\nMake sure you are in a safe place. Don't do this exercise if you are driving, near water, working with machinery, or taking care of others. Don't do this exercise if you are under the influence of alcohol or drugs, acutely confused, or otherwise not able to take care of yourself. (The only exception is the exercise later in this section entitled \"Already open?\" which is designed to help orient you.)\n\nDecide how direct you want to be encouraged to go into a hypnotic state. Read through the script to find out what is going to happen, including the fact that your eyes will be asked to close and that you may be asked to come out of the hypnotic state and then go back in again. If you are using an audio recording, it's best to read the script ahead of time. Remind yourself that you can end the exercise at any time by saying \"stop\" (or \"less\" if you want less demand to go into the hypnotic state or \"quiet\" if you want the talking to stop), or by opening your eyes and ending the exercise. No part of you has to give permission for you to end the exercise.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 172
+    },
+    "elapsed": 13
+  },
+  "balance_after": 133046
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s3.txt",
+  "input_words": 115,
+  "input_sha256": "97e7465a1d8d03a0a115001525097a30a34fe50f6ee25b0f5bb9e1bd24c4071c",
+  "balance_before": 131480,
+  "started_utc": "2026-10-18T03:12:10Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:19Z",
+  "response": {
+    "id": "a4c708a2-1435-42c5-bc47-77edbca6b03b",
+    "tool": "humanize",
+    "text": "It's called the Milton Model and has to do with the architecture of the sentence. When I say \"Relax now\", or \"Stop being anxious\", or even \"Trust me\" a part of me braces against it.\n\nThe idea is to use indirect language to get past the part that wants to argue with me, and get to the place I want to go to.\n\nTo do that, I start with something I know to be true, and I take the pressure off by presuming the least possible capacity in the person and invite just one movement:\n\n\"As the body notices the bed beneath it, it may become a little easier to stop holding the whole day alone.\"\n\nThat way I pace reality, I open up awareness, I validate the function of what I'm doing, I presuppose the capacity to do what I want, I use a bridge to make the link easier, I invite only one small movement, and I have a way of testing with the body if it's happening.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 115
+    },
+    "elapsed": 9
+  },
+  "balance_after": 131365
+}

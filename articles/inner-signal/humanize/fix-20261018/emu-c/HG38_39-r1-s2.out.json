@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s2.txt",
+  "input_words": 79,
+  "input_sha256": "6abe536391bf2998d1e0824574c5b946e35e54f068fd823ab39f1e2aaf20ed5d",
+  "balance_before": 136193,
+  "started_utc": "2026-10-18T03:07:07Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:14Z",
+  "response": {
+    "id": "abc6108e-a23c-432c-903d-746916b8b7f1",
+    "tool": "humanize",
+    "text": "Give yourself a preview of what you will do. Choose a purpose for this sequence. If it still seems like what you want, start it. If it is too heavy for you, make all parts light, with your eyes open or substitute no trance contact for inductions. Pay attention to what happens, even if it seems that nothing does. Then do what seems next – move on, imagine more deeply, change sensory channel, remain still, or stop the sequence. After each induction, come all the way back up to full wakefulness.\n\nIf you cannot think of a vivid image for a metaphor, use words, rhythm, spatial sensation, touch sensation, movement, or simply the sense of knowing.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 7
+  },
+  "balance_after": 135984
+}
