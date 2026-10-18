@@ -970,7 +970,7 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 ## Turn 73 (2026-10-18, from 21:58 UTC): his answers to 55 to 58, his move done
 
 - **His message:** answers to 55 to 58 and his question 59 (`t73-answers/JOEL-20261018-2158.md`).
-- **In:** 55, 4, 9 (his meaning), 12, 13, 14 and 17; his own ending for How This Relates to IFS P4 (57, 1); How This Relates to Schema Therapy P2 (the differences, spirituality first) and P3 (choosing a schema or IFS therapist, from the research's consult questions), with IFS P5's last sentence said again (57, 3); his Inner Monologue move, with Your Body P4's middle sentence and Also Look Outward's honesty scene changed for it (round t73e, Before You Try to Go Deep 0.096, high).
+- **In:** 55, 4, 9 (his meaning), 12, 13, 14 and 17; his own ending for How This Relates to IFS P4 (57, 1); How This Relates to Schema Therapy P2 (the differences, spirituality first) and P3 (choosing a schema or IFS therapist, from the research's consult questions), with IFS P7's last sentence (the parts maze) said again (57, 3); his Inner Monologue move, with Your Body P4's middle sentence and Also Look Outward's honesty scene changed for it (round t73e, Before You Try to Go Deep 0.096, high).
 - **Not yet:** 55, 2 and 54, 11 with the rest of 8: either one brings back the 37-word window on checking-into-doing's opening (question 62).
 - **Lesson:** E198 (change the sentence the window starts on, and only that).
 - **Records:** `t73-guide/REVIEWS.md`, `t73.py` and `installs73.py`, rounds a to f, `tools/PREDICTIONS.md` rows t73a on; OWNER-EDITS move-monologue-pending-20261018 now applied.

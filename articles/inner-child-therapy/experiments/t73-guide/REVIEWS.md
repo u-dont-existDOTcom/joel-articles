@@ -14,9 +14,9 @@ His message is in experiments/t73-answers/JOEL-20261018-2158.md.
 
 ## Rounds a to f, in short
 
-- **a**: everything alone read Human apart from two of three therapist paragraphs (st3-a 0.94, st3-b 0.43). Installed: 55, 9 a, 12, 13, 14 and 17, and his IFS P4 ending, each Human in its section. With 55, 2 and 4, Before You Try to Go Deep had the 37-word window on checking-into-doing; the schema pairs put a 43-word one on IFS P5's end.
+- **a**: everything alone read Human apart from two of three therapist paragraphs (st3-a 0.94, st3-b 0.43). Installed: 55, 9 a, 12, 13, 14 and 17, and his IFS P4 ending, each Human in its section. With 55, 2 and 4, Before You Try to Go Deep had the 37-word window on checking-into-doing; the schema pairs put a 43-word one on the end of IFS P7, the parts maze.
 - **b**: 55, 4 alone kept Before You Try Human (0.092), so it went in; 55, 2 alone brought the window back, in both wordings. The Inner Monologue move alone put a 66-word window on Your Body P4. Schema P2 without P3 made the Appendix AI Detected.
-- **c**: IFS P5's last sentence said again (the guide's institution point, without "by itself") let the schema section in: P2 b, P3 c, IFS P5 b, the Appendix 0.057, high. Two P4 rewrites read AI alone, though the moved section read Human with one of them.
+- **c**: IFS P7's last sentence (the parts maze) said again (the guide's institution point, without "by itself") let the schema section in: P2 b, P3 c, IFS P7 b, the Appendix 0.057, high. Two P4 rewrites read AI alone, though the moved section read Human with one of them.
 - **d**: P4 with only its middle sentence said again (l) read Human alone (0.026); the moved order's next window was the honesty paragraph.
 - **e**: with the honesty paragraph's scene from turn 72 (alone 0.41), the moved order read Human Written 0.096, high, all windows Human. His Inner Monologue move is in.
 - **f**: 55, 2 (both wordings) and P5 h (54, 11), alone or together, each brought back the 37-word window on checking-into-doing, so they wait (question 62). Three new versions of that paragraph's opening failed the linter on their lists before Pangram.
