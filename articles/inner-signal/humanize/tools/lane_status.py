@@ -8,7 +8,8 @@ Reads every fix-*/b*/b*-results.json (batch order) and names each text by its se
   fixed       my meaning fixes in a screen that read Human ("-fix")
   refix       Emulate's rewrite of the fixed text in the windows that read AI ("-refix", "-refix2", ...)
   triaged     a refix with the triaged meaning fixes of its second reading ("-rfix", "-rfix2", ...)
-  sample      a section with the chosen Emulate samples of its AI windows and their triaged fixes ("-smp", "-swa", "-swb")
+  sample      a section with the chosen Emulate samples of its AI windows and their triaged fixes ("-smp", "-smp2", "-swa", "-sma", ...)
+  diagnostic  a version made only to find which fix reads AI ("-dg1", ...): never installed
   paragraph   a paragraph check of a fixed or refix text ("-p<n>", alone or with a neighbour)
 A section's state is "installed" when fix-20261018/installed.json lists it (the section is in HUMANIZED-SO-FAR.md, every
 paragraph checked), else its newest whole-section check (Human means a 100% Human headline), with its paragraph checks.
@@ -17,7 +18,7 @@ import argparse, glob, json, pathlib, re
 
 H = pathlib.Path(__file__).resolve().parent.parent
 STAGE = [(r'-p\d+(\+\w+)?$', 'paragraph'), (r'-rfix\d*$', 'triaged'), (r'-refix\d*$', 'refix'), (r'-fix$', 'fixed'), (r'-emu', 'screen'),
-         (r'-(smp|swa|swb)$', 'sample'), (r'-pub$', 'published'), (r'-probe', 'published')]
+         (r'-(smp\d*|swa|swb|sm[a-d])$', 'sample'), (r'-dg\d+$', 'diagnostic'), (r'-pub$', 'published'), (r'-probe', 'published')]
 
 
 def stage_of(name):

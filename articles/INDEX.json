@@ -17223,7 +17223,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "2c3febdd96f26eebf1ca730742af7444371c3d1522d9cbeba58e65e69e41a257",
+          "sha256": "c48160c489ef46b3789e95d10a3caf35fbba8ad3b78fc0daeab4244f827c2c24",
           "role": "humanization_working_record"
         },
         {
@@ -21488,7 +21488,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "1817356db02e811358849eb8a1e94c072c3345be4000a228ed7b3fb734cb69fb",
+          "sha256": "fa212277b4ca3e6934b993260f7acd624e63d5baca0255b1ce2a96d53767dd51",
           "role": "humanization_working_record"
         },
         {
@@ -21593,7 +21593,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/tools/lane_status.py",
-          "sha256": "fa187f209b711cd3367e57975941213027c4fdbab9b0dbe6668d5cb5258e893b",
+          "sha256": "77f47ae8afaa31bcb7f85a5a64e3864b730171e9d0b04bae1d12317626899145",
           "role": "humanization_working_record"
         },
         {
@@ -22748,7 +22748,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "3ccae028d592df9f84676aefb5abb4c9d8f5ab1df63d9f3f4c685dcbdfda88d6",
+          "sha256": "3705ae88db685748333faa2653d7e3ecd319e3a04b4256fd7b4405150b4021a5",
           "role": "humanization_working_record"
         },
         {
@@ -25588,7 +25588,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/REPORT-20261018.md",
-          "sha256": "2c88124649da02dfa340f6819d51fb2bf4bef7fd0398e68235bf60cb6e977def",
+          "sha256": "99a5b70ead51f7d2411f4f86e58937bce00450b3808fea72310708ce44aa4fdd",
           "role": "humanization_working_record"
         },
         {
@@ -28648,7 +28648,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261018/b458/PREDICTIONS.md",
-          "sha256": "994f52d726b84a10fde7ada71f6c97f6d5d27868c708b1026003b1f0cdd4f538",
+          "sha256": "436643f0e2a950a125e44b1ce7873c23986f735aa7f55e14b30d10d1e606dcb4",
           "role": "humanization_working_record"
         },
         {
@@ -28679,6 +28679,11 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-z/HG31.v3.json",
           "sha256": "493460baf5c857a1dcfdebdbb86f61e5d8a33f53de8470eb2e8979e4d9cfea56",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b458/b458-results.json",
+          "sha256": "6262a78ac1080ab0265554fddd3e84999bba4e340d029cd5a29b76d6b49e3dca",
           "role": "humanization_working_record"
         }
       ]
@@ -29317,12 +29322,12 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/dashboard/README.md",
-          "sha256": "51bee58f8cd0933fd6848f0dd17ab961e6da07614475efa0bdea11b94e1c3537",
+          "sha256": "716f3b100be43924b252b4bec513c9219ca8fefd596f71d82f0ba5e1cab91d0f",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/dashboard/ds-calls.json",
-          "sha256": "cb012c4c5c8f8f75e3b7fc80b44d6ccb03da56ffb3760de482db2d4eaa19d2fb",
+          "sha256": "bb15f839dfd235db77b94d0d5426a5da8701c9b529a6b22ff6202d843074c8f9",
           "role": "humanization_working_record"
         },
         {
@@ -51027,7 +51032,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls.json",
-          "sha256": "d25e71e7c99c0ad16e5d2a8265d22c47299978535701332100012b94b8609a2a",
+          "sha256": "d8609bd193d37ce7dd49b9d8814a6512fb1a0f1e37bf74e02d50b6325915480b",
           "role": "humanization_working_record"
         },
         {
@@ -68332,7 +68337,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls-rows.json",
-          "sha256": "efd915bd6eb8b7b90cc8025a8c3e6a0b586dfbe53bc8a0d92ca34faf8e6fcfaf",
+          "sha256": "32dd50819581948778d4cb538313268a8a9e81ac2065c6ed72e442890f9e1a96",
           "role": "humanization_working_record"
         },
         {
