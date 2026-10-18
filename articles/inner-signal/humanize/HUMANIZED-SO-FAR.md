@@ -1362,25 +1362,27 @@ Take responsibility, feel the remorse, then rectify if you can, and then let it 
 
 # Appendix G: Altered states
 
-NB: I am NOT saying use substances. However, many people attempt to do things for the first time such as self hypnosis, contact with their inner child, contact with their Higher Self etc when they are in a mind altered state.
+This is NOT to say that you SHOULD do it, but many people have used substances when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self.
 
-If you do use them, be aware you don't want to force a revelation out of the state but instead use it to help you do things in your regular life.
+Do not do it to try to FORCE yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and helping you better your life.
 
-If you have had an opening in the past, the key is to recognize that it is different to have an experience, access it in a particular state and access it in your day to day life. It is great that it has opened but if the child can't take it in, then meet the difficulty rather than escalating the intensity.
+A lot of people have OPENED themselves up to something at one point in their life. If you've had a similar experience, know that there is a difference between you having experienced it at one point, and only being able to access it in a certain state, compared to being able to get to it at any point in your life. Let that experience inform what you OPEN yourself up to. (If you can't give it to the child, try to deal with why you can't, instead of trying to ramp up the experience).
 
-Use phrases such as; Help me to ground. Help me to only take that which I can take in. Help me to remember love. Help me to come back when the time is right. Help me to take one change into my regular life.
+Use your altered state of consciousness, either while you're in it or after, to help yourself by asking things like:
 
-You should NOT use self hypnosis to; Keep you in that state forever Get memories to come up Make yourself afraid to do things Not sleep Override things that your body needs Not talk to people
+Help me to become more grounded. Help me to only take what I can integrate. Help me to remember love. Help me to come back when it's time. Help me to figure out how to change one thing in my life to make it better.
 
-If you are doing this in an altered state of consciousness and it is helping you not to love, not to ground, not to be honest, not to sleep, not to communicate, not to do regular life things, you need to STOP trying to go deeper and work on integrating what you have.
+DO NOT use self-hypnosis to try to keep the altered state of consciousness going indefinitely, to try to recover memories, to make yourself MORE afraid, to help you not need to sleep, to help you not need to take care of medical problems, to help you become LESS communicative, etc.
+
+In other words, if using self-hypnosis while you're in an altered state of consciousness is NOT helping you become MORE loving, MORE grounded, MORE honest with yourself, helping you SLEEP, become MORE communicative, MORE able to do your everyday responsibilities, etc, then stop trying to go DEEPER into your altered state of consciousness, and start working on integrating what you've already gotten from it.
 
 ## Stabilize before you interpret
 
-Self hypnosis is powerful. Especially when you are in an altered state of consciousness, either through loveyhuasca, meditation, lucid dreaming, grief, sexual energy, prayer, not sleeping, or any other number of ways similar to plant medicines, often your mind opens faster then your adult can figure out what is going on.
+Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (i.e. when you're loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, etc, etc, etc around plant medicine). Sometimes you may OPEN yourself up to things FASTER than you are able to put it into context with your adult self.
 
-Intensity then gets mistaken for meaning. Sometimes the inner child is finally speaking. Sometimes a Protector is showing fear, or shame, grief, anger, longing, and other buried material are asking for care. But an intense state can also be bodily overload, environmental chaos, sleep deprivation, or plain confusion. A frightening image isn’t automatically truth, a bad feeling isn’t automatically a lesson, and a “download” doesn’t deserve belief merely because it came with excellent lighting.
+So what you think may be an altered state of consciousness that's meaningful, may or may not actually be meaningful - it could be your inner child, it could be a Protector, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the "download", regardless of how "bad" you feel, it doesn't necessarily mean what you think it does!
 
-Before trying to interpret the state, ask a simpler question:
+Before you even THINK about interpreting what your altered state of consciousness is, ask yourself something simpler:
 
 “What kind of problem is happening?”
 

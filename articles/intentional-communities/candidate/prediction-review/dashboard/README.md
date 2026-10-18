@@ -42,3 +42,6 @@ upload that had since been deleted (its `data/users/me/runs` document said "Coul
 - 2026-10-18 (after 458g): `datasets/calls` version 15 points at asset `/_blob/0a8f6088f9bf9d17760ed8386061c004` (2,682 rows, 777
   of them the hypnosis guide's); `/_blob/263b97231897d81090b1ce642e9505c7` and the older ones are no longer referenced (left for a
   session with Joel there, since deleting asks him to confirm).
+- 2026-10-18 (after 462g): `datasets/calls` version 16 points at asset `/_blob/ede7ac8de484407a62c4dbdca0ff1b03` (2,808 rows, 903
+  of them the hypnosis guide's); `/_blob/0a8f6088f9bf9d17760ed8386061c004` and the older ones are no longer referenced (left for a
+  session with Joel there, since deleting asks him to confirm).

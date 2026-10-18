@@ -189,8 +189,20 @@
   {
    "finding": "B10: LOST \"plain confusion\"",
    "why": "\"etc, etc, etc\" closes the list"
+  },
+  {
+   "finding": "second reading (rf-zd/HG36.verify.part1.out.txt): B6: INVENTED \"etc.\" opens the closed list of limits",
+   "why": "an open list of things not to do is no looser a limit"
+  },
+  {
+   "finding": "second reading: B10: LOST inner child \"finally speaking\" and Protector \"showing fear\"",
+   "why": "both are kept as what it could be; the fear is wording"
+  },
+  {
+   "finding": "second reading: B10: SHIFT \"bad feeling isn't a lesson\" and \"download doesn't deserve belief\" became \"doesn't mean what you think\"",
+   "why": "the same caution: don't take it at face value"
   }
  ],
  "resample": [],
- "note": "2026-10-18, after 461g: HG36-wc (emu-av, the whole section in one run from the published text) read 100% Human whole and in every paragraph; its siblings wa and wb (from my fixed text) read AI. Fixes: the substance claims (B1 purpose, B3 \"substances helped\"), the safety limits (B6 scope and \"recover memories\", B7 \"SLEEP\" and responsibilities), the script line \"remember love\" (B5), the meaning of B10 (\"may or may not\", the frightening image) and B11's missing question."
+ "note": "2026-10-18, after 461g: HG36-wc (emu-av, the whole section in one run from the published text) read 100% Human whole and in every paragraph; its siblings wa and wb (from my fixed text) read AI. Fixes: the substance claims (B1 purpose, B3 \"substances helped\"), the safety limits (B6 scope and \"recover memories\", B7 \"SLEEP\" and responsibilities), the script line \"remember love\" (B5), the meaning of B10 (\"may or may not\", the frightening image) and B11's missing question. A second, independent reading of the same sample (rf-zd/HG36.verify.part1.out.txt, after 462g) found the same points plus the three let stand last."
 }

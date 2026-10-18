@@ -77,13 +77,21 @@
   "installed": "2026-10-18, tools/install_fixed.py"
  },
  "HG36": {
-  "stage": "triaged",
-  "whole": "449g HG36-rfix (445g refix, then the triaged fixes of its second reading)",
-  "meaning": "rf-b/HG36.verify.part*.out.txt, triaged in rf-b/HG36.triage.json",
-  "paragraphs": "450g",
-  "fixed": "rf-b/HG36.fixed.json",
-  "installed": "2026-10-18, tools/install_fixed.py",
-  "open": "B10-B12 are in the article as published and were never checked: tools/refix_runs.py dropped them from the refix text (one emu-s segment per block; fixed 2026-10-18), so the whole and paragraph checks of 449g-450g ran without them. Repair: rf-p (their Emulate text, second reader, triage; and the text with them as published), both screened, then reinstalled"
+  "stage": "sample",
+  "whole": "462g HG36-fix (461g HG36-wc: the whole section in one Emulate run from the published text, emu-av, 100% Human whole and in every paragraph; 10 triaged fixes, 6.3% of the words)",
+  "meaning": "rf-zc/HG36.wc.verify.part1.out.txt, triaged in rf-zd/HG36.triage.json",
+  "paragraphs": "461g, 462g",
+  "fixed": "rf-zd/HG36.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py: the article rebuilt from source/published-20260928.md with every installed section (the 449g text it replaces had B10-B12 as published, which read AI alone)",
+  "was": {
+   "stage": "triaged",
+   "whole": "449g HG36-rfix (445g refix, then the triaged fixes of its second reading)",
+   "meaning": "rf-b/HG36.verify.part*.out.txt, triaged in rf-b/HG36.triage.json",
+   "paragraphs": "450g",
+   "fixed": "rf-b/HG36.fixed.json",
+   "installed": "2026-10-18, tools/install_fixed.py",
+   "open": "B10-B12 are in the article as published and were never checked: tools/refix_runs.py dropped them from the refix text (one emu-s segment per block; fixed 2026-10-18), so the whole and paragraph checks of 449g-450g ran without them. Repair: rf-p (their Emulate text, second reader, triage; and the text with them as published), both screened, then reinstalled"
+  }
  },
  "HG40": {
   "stage": "triaged",

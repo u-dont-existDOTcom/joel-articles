@@ -5,11 +5,11 @@
   "format": "json",
   "kind": "file",
   "name": "prediction-calls-rows.json",
-  "url": "/_blob/0a8f6088f9bf9d17760ed8386061c004"
+  "url": "/_blob/ede7ac8de484407a62c4dbdca0ff1b03"
  },
  "updated": {
-  "at": "2026-10-18T09:31:19Z",
-  "by": "Claude (hypnosis guide lane), through batch 458g"
+  "at": "2026-10-18T10:44:00Z",
+  "by": "Claude (hypnosis guide lane), through batch 462g"
  },
  "schedule": "Rebuilt by the lane at the end of each turn with Pangram checks",
  "staleAfterHours": 72

@@ -86,8 +86,8 @@ its stage, its paragraph checks, and **installed** for the sections in `fix-2026
 - **Every paragraph is then checked alone** (`tools/install_fixed.py`: `section_md` is the Markdown that will be installed,
   `para_texts` the fewest texts `paragraphs_alone.py` looks for). In 442g, 17 of 23 paragraph texts of Human sections read
   Human; the ones that didn't get their own refix run (emu-s).
-- **Installed so far:** 30 keys (36 of 40 sections done with HG05, HG08, HG09 as published; HG24 on 460g), listed in `fix-20261018/installed.json` (`tools/install_fixed.py install`, links put back from
-  each stretch's "links"). HG36's entry has an "open" note: its B10-B12 are as published and unchecked.
+- **Installed so far:** 30 keys (36 of 40 sections done with HG05, HG08, HG09 as published; HG24 on 460g, HG36 whole on 462g), listed in `fix-20261018/installed.json` (`tools/install_fixed.py install`, links put back from
+  each stretch's "links"). HG36's old entry (B10-B12 as published, unchecked) is kept under "was" in its new one.
 - **What 446g to 454g added:** pasted published wording reads AI even in a two-line fix (HG37, 454g), so a fix is always in
   the stretch's voice; a paragraph check is predicted by how much of it isn't Emulate's (`tools/para_chance.py`: under 5%,
   99% Human); several samples of a window go to Emulate at once and the second reader picks; a long script loses its
@@ -128,19 +128,23 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-18, after batch 458g)
+## Next step (2026-10-18, after batch 462g)
 
-From `fix-20261018/`; `STATUS.md` has the results and `OWNER-QUESTIONS.md` the decisions that are Joel's.
+From `fix-20261018/`; `STATUS.md` has the results and `OWNER-QUESTIONS.md` the decisions that are Joel's. Every section
+that isn't a question for him is done: 36 of 40 (33 installed with every paragraph checked alone, three Human as
+published). Nothing is left to run until he answers.
 1. **HG31** reads Human whole and in every paragraph as `rf-z/HG31.v3.json` (458g), without two of its triage fixes (B25's
    examples, B28's "never hide a demand"). Install it only when Joel answers question 3 with (a); with (b), the fixes stay
-   and its Pattern 4-6 window needs another way (457g: B28's fix reads AI in any wording tried so far).
-2. **HG17 and HG18** (question 4): wait for Joel. Facts: HG17's script read Human only as one Emulate window (451g,
-   emu-x) with 11 to 26 of its steps lost; seven small windows (emu-af, emu-ag) keep more steps but read AI as a run (457g:
-   with or without the fixes). HG18 reads AI in every version; emu-ak's sample reads AI only in its last two paragraphs
-   but loses safety statements of the return.
-3. **HG24**: its opening (B1-B8, "Nothing happens" and "It feels fake") reads AI with or without its fixes (457g). Next: two
-   or three samples of B2-B3 and B5-B8 from `rf-v/HG24.fixed.json` (make_emu_ac.window), second reader, screen.
-4. **HG36**: B10 from emu-al with B11 from emu-am (`rf-z/HG36.d.json`) passes every paragraph (457g) but the whole keeps a
-   56-word AI window at its end. Next: samples of B10's last two sentences with B11, or ask Joel (his three paragraphs
-   are in the article as published now).
-5. Keep `STATUS.md`, this note, the laptop copy and the scorecard page current after every batch.
+   and its Pattern 4-6 window needs another way (457g: B28's fix reads AI in any wording tried so far; try the fast path's
+   one new run over B25-B34 from the published text).
+2. **HG17 and HG18** (question 4): wait for Joel. Facts: HG18's 459g sample `rf-za/HG18.ma.json` reads 100% Human whole and
+   in every paragraph but loses four safety statements (`rf-za/HG18.ma.verify.part1.out.txt`); with (b) those would be put
+   back as triage fixes in its voice and checked; with (c) his own words go in as written. HG17's script loses 11 to 31
+   steps in every Emulate version that reads Human, and its two-hand and sleep inductions read AI in the 459g screens too.
+3. **HG32** (question 2): wait for Joel.
+4. **The merge** (question 1): when Joel says the 28 September editor HTML is the latest (or pastes a newer one), merge
+   `HUMANIZED-SO-FAR.md` into it with the clipboard helper, as for the community article.
+5. **To reinstall a section**: `tools/install_fixed.py install` replaces published blocks, so a section that is already in
+   the article is reinstalled by rebuilding the article from `source/published-20260928.md` with every `fixed` file in
+   `fix-20261018/installed.json` (462g: HG36; the rebuild with the old list reproduced the article exactly).
+6. Keep `STATUS.md`, this note, the laptop copy and the scorecard page current after every batch.

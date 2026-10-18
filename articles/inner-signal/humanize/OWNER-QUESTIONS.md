@@ -1,6 +1,6 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-18, after batch 458g (its checks ran from 08:32 to 09:31 UTC). **Open questions: 4.** They're at the
+Last updated 2026-10-18, after batch 462g (its checks ran from 09:53 to 10:44 UTC). **Open questions: 4.** They're at the
 top, numbered, with their options and my default; the list below them is what I decided myself that you may want to
 undo. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -63,9 +63,12 @@ The master copy of this page is this file in Git, so a session in either of your
   ([check](https://www.pangram.com/history/98448ce1-bbdc-4b1d-a0d4-f22df8e93ec2)). Say if the list has to come back.
 - 🟢 **"You want the hidden truth immediately"** and the divine-love question in the troubleshooting list are as you
   wrote them; Emulate's versions bent them.
-- 🔵 **"Altered states": its last three paragraphs** ("Intensity then gets mistaken for meaning", "Before trying to interpret
-  the state", "What kind of problem is happening?") are in the article as you wrote them; they read AI alone (455g), and
-  the Emulate versions I've tried pass alone but leave a short AI window at the end of the section. Still in progress.
+- 🟢 **"Altered states" (Appendix G)** is now one new Emulate run of the whole section, from your published text, with
+  10 meaning fixes (the substance lines, the "don't use self-hypnosis to" list and "recover memories", sleep and everyday
+  responsibilities, "remember love", the frightening image, the simpler question): 100% Human whole and in every
+  paragraph ([check](https://www.pangram.com/history/6e9604e0-5f3d-4b48-b781-078f0be25fb5)). Its "let stand" list (18
+  points, among them "deepen listening" left out of the purposes) is in `fix-20261018/rf-zd/HG36.triage.json`. Your three
+  closing paragraphs, which read AI alone, are no longer in the article as published.
 - 🔵 **The triage's "let stand" lists.** In each section Emulate rewrote, I fixed only what changes what a reader would do or
   believe (cautions, script steps, invented facts, claims made stronger or weaker, lost points, repeats) and let the rest
   stand: wording, tone, an aside in your voice, a shortened list. Each section's list is in its `KEY.triage.json`
@@ -77,7 +80,6 @@ The master copy of this page is this file in Git, so a session in either of your
 
 ## Where it stands
 
-🟢 35 of the guide's 40 sections are done: 32 installed with every paragraph checked alone (in "Altered states" the last
-three paragraphs are still as published) and three read Human as published. 🔵 Open: NLP patterns (question 3), the two
-scripts (question 4), the troubleshooting list's opening, and the checklist (question 2). `STATUS.md` has every check's
-link.
+🟢 36 of the guide's 40 sections are done: 33 installed with every paragraph checked alone (the troubleshooting list and
+"Altered states" since the last update) and three read Human as published. 🟣 Open, each waiting on you: NLP patterns
+(question 3), the two scripts (question 4) and the checklist (question 2). `STATUS.md` has every check's link.
