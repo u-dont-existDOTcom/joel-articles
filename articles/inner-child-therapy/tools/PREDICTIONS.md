@@ -3050,3 +3050,9 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 73) | the Appendix with schema P2 a, P3 c and IFS P5 b (1404 words) [t73c_h1c6], a screen | Human, low (my call) | Human Written (0.073, High; 1567); 22:28:06 UTC, https://www.pangram.com/history/a833f7f1-4c34-4f6b-a4e9-67e8b76f4ff9 | hit |
 | 2026-10-18 (turn 73) | the Appendix with schema P2 a, P3 c and IFS P5 c (1404 words) [t73c_h1c7], a screen | Human, low (my call) | Human Written (0.08, High; 1568); 22:27:55 UTC, https://www.pangram.com/history/963f2e87-5376-4b8d-9feb-f9e5547b949c | hit |
 | 2026-10-18 (turn 73) | the Appendix with schema P2 b, P3 c and IFS P5 b (1414 words) [t73c_h1c8], a screen | Human, low (my call) | Human Written (0.057, High; 1579); 22:27:44 UTC, https://www.pangram.com/history/a6e5cf8c-ba43-4fea-ba96-de0d5324c241 | hit |
+| 2026-10-18 (turn 73) | Your Body P4 with its middle sentence said again, version j (82 words) [t73d_yb4j], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Your Body P4, version l (86 words) [t73d_yb4l], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move, P4 j and the checking fold with 55, 2 (3748 words) [t73d_h1d1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the same, with P4 l (3752 words) [t73d_h1d2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | with his Inner Monologue move and P4 j (3750 words) [t73d_h1d3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | with his Inner Monologue move and P4 l (3754 words) [t73d_h1d4], a screen | Human, low (my call) | (pending) | |
