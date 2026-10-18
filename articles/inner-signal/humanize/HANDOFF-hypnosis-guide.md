@@ -58,38 +58,43 @@ through the gate.
 
 ## Waiting on Joel
 
-1. Is the Substack editor HTML of 2026-09-28 still the latest, or did he edit the post after that? (The merge uses it.)
-2. The de-hypnosis checklist (HG32) reads AI in every version tried: published (429g), Emulate whole (432g), Emulate in
-   six pieces (435g). It is a list of short questions. Options for him: keep it as published (the guide would then not
-   be 100% Human there), let it become prose, or cut it down. Nothing is changed until he answers.
+`OWNER-QUESTIONS.md` (two open: is the 28 September editor HTML the latest; what to do with the de-hypnosis checklist,
+which reads AI in every version).
 
 ## Where it stands
 
 `STATUS.md` (newest on top, with each section's newest check link; `python3 tools/lane_status.py` rebuilds the table).
 
-## Next step (2026-10-18 04:00 UTC)
+## The pipeline for a section (2026-10-18)
 
-1. **Round-2 meaning fixes.** When the second reader's files are in (`fix-20261018/verify-b/*.verify.txt`, for HG14,
-   HG20, HG35, HG02+03, HG27, HG33), put each real problem into the reviews (`rev-d/make_HG14_review.py`,
-   `rev-d/HG20.review.json`, `rev-d/HG35.review.json`, `rev-e/make_reviews.py`; mark them `"round": 2, "from":
-   "verify-b"`), then re-apply: `python3 ../tools/faithful.py apply rev-X/KEY.units.json rev-X/KEY.review.json
-   rev-X/KEY.fixed.json` (from `fix-20261018/`).
-2. **Put back six breaks** that my fixes took out (march-c): HG14 B6 (Emulate's "Please note," and "(to the best of my
-   knowledge)"), B38 (its closing "Etc."), B42 ("Feel free to use this parts language when..."), B51 (a question, or
-   Emulate's "practice the following sequence to “embody” it"), B60 (Emulate's own sentence "I think it can be a
-   perfect fit." on its own); HG35 B2 (Emulate's whole sentence "There are definitely advantages to both working with
-   someone and doing it yourself...", then the published points). Mark them `"march_note": "march-c"`.
-3. **One march read (march-d)** of every stretch changed since its last read: verify-a's round-2 fixes (HG13, HG15,
-   HG18, HG19, HG21, HG23, HG34, HG40), rev-e (HG02+03, HG27, HG33), verify-b's round 2 and the six breaks:
-   `python3 ../tools/march_pairs.py draft rev-*/KEY.fixed.json ... --out march-d`, a Sonnet march reader on
-   `march-d/march-prompt.txt` (short output: `T<n>: S B S`), then `python3 ../tools/march_pairs.py read march-d
-   march-d/march-labels.txt`. An edit is held when it has fewer paragraphs with a break than Emulate's version had.
-4. **Batch 434g, the test of the meaning fixes.** One `edit` record per meaning-fixed section (its "was" is the screen
-   that read Human, with the link; march_was and march from the march reads; cold, grounding, stance and missing from
-   the reviews and verify), predictions first, push, run. Sections that stay Human: paragraph checks, section records,
-   install into `HUMANIZED-SO-FAR.md`, links put back from the reviews' "links" anchors.
-5. **Third samples (emu-h).** On the laptop, `~/ai-work/claude-dangerous-lane/inbox/emu-hg-h/run-all.log` lists 12 runs
-   when done. Pack the outputs into a tgz in the inbox, stage it, copy `*.out.txt` and `*.out.json` into
-   `fix-20261018/emu-h/`, run `python3 tools/emu_runs.py back fix-20261018/emu-h` (from `humanize/`), and screen them
-   (437g) with the newer folder last in each key's list of folders.
-6. Keep `STATUS.md`, this note and the laptop copy current after every batch.
+From `fix-20261018/`:
+1. **Screen.** Emulate's version must read 100% Human first (`make_bNNN.py` with the section's Emulate folders, newest
+   last; a folder's segments replace every earlier one they overlap). For an AI window that won't go: send the window's
+   published blocks whole, with headings, as one Emulate run (`make_emu_X.py`; `python3 tools/emu_runs.py back --align
+   fix-20261018/emu-X` from `humanize/`).
+2. **Units.** `python3 ../tools/assemble.py KEY DIRS... --out rev-X/KEY.units.json` (from `humanize/`, paths with
+   `fix-20261018/`); check its text equals the screen's draft.
+3. **My review.** `rev-X/make_reviews.py` (smallest fixes, published words in Emulate's sentence, quotes in the
+   stretch's own style) then `python3 ../tools/faithful.py apply rev-X/KEY.units.json rev-X/KEY.review.json
+   rev-X/KEY.fixed.json`. A long section: `faithful.py chunks UNITS OUT_PREFIX 15` and a Sonnet reviewer per part,
+   whose JSON I check before it goes in.
+4. **Second reader.** `faithful.py verify rev-X/KEY.fixed.json verify-Y/KEY.verify-prompt.txt`, a Sonnet reader.
+5. **Answer every finding.** Fix it (`rev-X/KEY.round2.json`, then `faithful.py merge` and `apply`) or answer it in
+   `dispositions.json`; then mark the section in `meaning-status.json`.
+6. **March.** `python3 ../tools/march_pairs.py draft rev-*/KEY.fixed.json ... --out march-Z --only-needed`, the prompt in
+   march-c's form, a Sonnet reader, `march_pairs.py read march-Z march-Z/march-labels.txt`. Where a fix took out a
+   break, put one back from Emulate's own words (march-c's six are in `rev-d/make_HG14_review.py` and
+   `rev-d/HG35.review.json`).
+7. **Pangram.** `python3 make_b434.py --dry` lists what's ready; `--write` builds the batch (one edit record per
+   section). Then paragraph checks, section records, install into `HUMANIZED-SO-FAR.md`, links back from the reviews'
+   "links".
+
+## Next step (2026-10-18 05:10 UTC)
+
+1. Read march-d and march-e when they're in (`python3 ../tools/march_pairs.py read march-d march-d/march-labels.txt`,
+   the same for march-e); for every stretch whose edit has fewer paragraphs with a break than Emulate's version, put a
+   break back and read it again.
+2. `python3 make_b434.py --write`, predictions first, push, run 434g in the seed tab.
+3. The second readers of rev-f (verify-c) and rev-g (verify-d), and the part reviews of HG17 and HG31
+   (`rev-g/HG17.review.partN.json`, `rev-g/HG31.review.partN.json`): check them, answer, march, then their own batch.
+4. Keep `STATUS.md`, this note and the laptop copy current after every batch.

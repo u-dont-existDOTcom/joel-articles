@@ -1,0 +1,51 @@
+[
+{"block": 20, "verdict": "FIX", "redo": true},
+{"block": 22, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'only' became 'best used'; limit on what to presume softened", "replace": "is best used in the positive key of assuming", "with": "should be used only to presume"},
+{"type": "SHIFT", "what": "'adult leadership' became 'being adult', and 'etc.' opens the closed list", "replace": "being adult, etc.", "with": "and adult leadership."},
+{"type": "INVENTED", "what": "'the other person' is not in the published; it says don't smuggle in obedience", "replace": "imply that the other person must obey", "with": "smuggle in obedience"}
+]},
+{"block": 23, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "script changed: 'any part', 'has to change' and 'can first' lost; 'always' added", "replace": "It is always the case that one can better understand something prior to changing it.", "with": "Before any part has to change, it can first become more understood."}
+]},
+{"block": 25, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the caution 'A gentle voice doesn’t make a false causal claim true.'", "replace": "that can be used to link events.", "with": "that can be used to link events. A gentle voice doesn’t make a false causal claim true."}
+]},
+{"block": 26, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the first example script: 'Because I breathe, the trauma leaves.'", "replace": "the problem with the first example is that", "with": "the problem with the first example (“Because I breathe, the trauma leaves.”) is that"},
+{"type": "LOST", "what": "the second example script, which is also turned into a bigger claim about helping the wound", "replace": "accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself.", "with": "accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”"}
+]},
+{"block": 28, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the definition and the caution: a small direction inside a larger sentence; invite, not hide a demand", "replace": "how to use them", "with": "how to use them? An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand."}
+]},
+{"block": 29, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the script line 'And somewhere inside this breath, I can let the adult self listen.'", "replace": "an embedded invitation:", "with": "an embedded invitation: “And somewhere inside this breath, I can let the adult self listen.”"}
+]},
+{"block": 30, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the script line 'As I sit here, I may allow one small truth to become clear.'", "replace": "an embedded invitation:", "with": "an embedded invitation: “As I sit here, I may allow one small truth to become clear.”"}
+]},
+{"block": 31, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the script line about the child not having to trust me all at once", "replace": "inner child parts:", "with": "inner child parts: “The child does not have to trust me all at once; it can simply notice I am still here.”"}
+]},
+{"block": 32, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the instruction 'Use one when it helps.'", "replace": "Of course,", "with": "Use one when it helps. Of course,"}
+]},
+{"block": 34, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "what a manipulative double bind is: it traps every answer inside the speaker’s agenda", "replace": "Manipulative double bind questions:", "with": "Manipulative double bind questions trap every answer inside the speaker’s agenda."},
+{"type": "LOST", "what": "what an ethical one is: it offers two genuinely safe routes", "replace": "Ethical double bind questions:", "with": "Ethical double bind questions offer two genuinely safe routes:"},
+{"type": "SHIFT", "what": "script asks what the part would prefer, warmth first or space first, not what approach is best", "replace": "What would be the best approach to this part, to warm it up or give it space?", "with": "Would this part prefer warmth first, or space first?"}
+]},
+{"block": 37, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "that these questions' ordinary conversational form also acts as an invitation", "replace": "postulate in the form of a question:", "with": "postulate, a question whose ordinary conversational form also acts as an invitation:"},
+{"type": "SHIFT", "what": "script changed: 'the next step' and 'the whole wound' became 'what it wants to show' and 'everything'", "replace": "Isn’t it possible that the system can find a way to show me what it wants to show without showing me everything?", "with": "Can the system show me the next step without showing me the whole wound?"}
+]},
+{"block": 40, "verdict": "OK"},
+{"block": 41, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "tag question about 'something about resting' became 'how to do this' with no referent; quotes lost", "replace": "Doesn’t the body already know how to do this?", "with": "“The body already knows something about resting, doesn’t it?”"}
+]},
+{"block": 43, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the definition: nominalizations turn processes into nouns", "replace": "Nominalizations are words like", "with": "Nominalizations turn processes into nouns, words like"},
+{"type": "SHIFT", "what": "'their vagueness' (the nominalizations') became vague language in general", "replace": "Sometimes it’s good to use vague language", "with": "Their vagueness can sometimes help"},
+{"type": "INVENTED", "what": "'most appropriate' is new; the subconscious supplies its own concrete meaning", "replace": "whatever is most appropriate and specific for that person", "with": "its own concrete meaning"}
+]}
+]
