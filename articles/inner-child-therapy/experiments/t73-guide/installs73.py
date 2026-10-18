@@ -71,3 +71,16 @@ register('s2b', lambda: para('Going back can still matter, since realizations'),
 for _a in 'abc':
     register('st2only' + _a, lambda: para('Of the clinical approaches I know'),
              (lambda a: lambda: para('Of the clinical approaches I know') + '\n\n' + dnote(a, ST_SRC + ' The differences, with spirituality first, as he asked.', 'ST2') + draft(a))('st2-' + _a))
+
+
+# --- Round c ------------------------------------------------------------------------------------------------------------
+register('s4i', lambda: para("In one of the Buddha's own accounts"),
+         lambda: dnote('c55-4', '55, 4, A: "Of course not." is out, so the question is left for the reader to check.', 'S4') + draft('c55-4'))
+for _x in 'abc':
+    register('yb4' + _x, lambda: para('Whatever you try from that map'),
+             (lambda s: lambda: dnote(s, 'his Inner Monologue move (2026-10-18 19:06 UTC) put a 66-word AI window on this paragraph, my T-point paragraph of turn 34 (rounds t72e and t73b, https://www.pangram.com/history/cbcd178f-8fa5-47a2-8f0a-40cfde2db384), so its last three sentences are said again: the guide\'s "Learning often includes grief, fear, frustration, difficult dreams, or material you would rather not meet." and "But "I stayed oriented" is not enough by itself either.", with the gym as it was.', 'YB4') + draft(s))('yb4-' + _x))
+for _x in 'bc':
+    register('ifs5' + _x, lambda: para('And the parts just keep coming'),
+             (lambda s: lambda: dnote(s, 'his 57, 3 (the longer schema section) put a 34- to 43-word AI window on this paragraph\'s last two sentences, mine of turn 71, in four of five checks (rounds t73a and t73b); its last sentence is the guide\'s "Institutionalization doesn\'t automatically make a framework clearer, safer, or more true." said again, without "by itself" (O43).', 'IFS5') + draft(s))('ifs5-' + _x))
+register('chkm2', lambda: (lambda a, b: ART.read_text(encoding='utf-8')[ART.read_text(encoding='utf-8').index(a):ART.read_text(encoding='utf-8').index(b) + len(b)] if a and b else None)(para('Going back can still matter, since realizations'), para("And the checking doesn't always stay in your head.")),
+         lambda: dnote('chkm2', '55, 2, A (in fewer words), with the checking-into-doing paragraph (54, 4, round t72d) folded into P2 word for word: with 55, 2 alone, that paragraph had a 37-word AI window in Before You Try to Go Deep (rounds t73a and t73b).', 'CHKM2') + draft('chkm2'))
