@@ -1,0 +1,35 @@
+{
+ "HG35-B17": {
+  "was": [
+   "S S B S"
+  ],
+  "new": [
+   "S S B S"
+  ]
+ },
+ "HG06-B3": {
+  "was": [
+   "S B"
+  ],
+  "new": [
+   "S B"
+  ],
+  "note": "the B3 fix was taken back, so B3 is as it was"
+ },
+ "HG06-B6": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG26-B8": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ }
+}

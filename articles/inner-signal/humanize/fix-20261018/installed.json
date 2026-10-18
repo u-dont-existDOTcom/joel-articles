@@ -131,5 +131,21 @@
   "paragraphs": "451g (and 442g for HG04's unchanged ones)",
   "fixed": "rf-b/HG04.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG20": {
+  "stage": "triaged",
+  "whole": "452g HG20-rfix2 (443g refix, triaged fixes, and P8 from a new sample with one fix)",
+  "meaning": "rf-a/HG20.verify.part*.out.txt, rf-a/HG20.triage.json; P8: rf-h/HG20.review.json",
+  "paragraphs": "450g and 452g (P8)",
+  "fixed": "rf-h/HG20.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG34": {
+  "stage": "triaged",
+  "whole": "451g HG34-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG34.verify.part1.out.txt, rf-a/HG34.triage.json",
+  "paragraphs": "452g",
+  "fixed": "rf-a/HG34.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

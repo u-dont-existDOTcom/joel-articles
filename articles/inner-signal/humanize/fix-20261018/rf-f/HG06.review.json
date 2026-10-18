@@ -1,0 +1,30 @@
+[
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the nine forces already training the mind; INVENTED \"very effectively\" and taking ideas from them",
+    "replace": "There are already a lot of forces out in the world that are training your mind very effectively. It would be wise to take a few ideas from them and use those self-hypnosis techniques for yourself.",
+    "with": "There are already a lot of forces out in the world training your mind: advertising, fear, craving, screens, tribe, resentment, authority, loneliness and repetition. Self-hypnosis lets you work on it from the inside.",
+    "round": 1,
+    "from": "my triage (Opus) of the second reader rf-j, rf-a/TRIAGE-BRIEF.md"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "attribution made firmer: \"associated with the tradition\" became \"taught by the method\"",
+    "replace": "taught by",
+    "with": "associated with",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

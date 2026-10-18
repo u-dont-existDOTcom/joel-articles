@@ -618,71 +618,67 @@ Listen to everything and believe nothing automatically.
 
 # Let the next response guide you
 
-The induction and inner meeting bring you to a place where you can listen. From here, learn to answer what happens instead of reciting a speech that has already decided what every part will say. Read these examples before practicing, then put the screen aside.
+Once you've read the induction and done the inner meeting, this will make more sense. Read through these, and then try doing it without looking at the screen.
 
-Notice one thing accurately. Offer a small, believable invitation, an act of care, or more time. Acknowledge only what actually happens, then wait. A sensation can lead to an image, a gesture, a feeling, or words; you don’t need to fill every category.
+Respond to each thing that comes up with an accurate notice and a small reasonable invitation (or act or taking more time etc). The 'thing' might be a sensation, image, gesture, feeling, words, or anything. The notice and invitation don't need to take all those forms, just notice and invite what happens.
 
 ## Finding your own words
 
-Suppose you notice, “My chest tightened when I imagined asking for help.” Start with that, rather than deciding you’ve found an abandoned child or a protective mechanism.
+An example notice might be, "I notice my chest tightening when I imagine asking for help". Don't add interpretation like "this must be the abandoned child part of me, or a protective mechanism" - just notice what you notice. An example invitation might be, "And as I notice that, I can take some time before deciding what it means, and notice if I want to say anything, or change it, or just stay like that".
 
-And as I notice that tightening, I can give myself a little time before deciding what it means … and notice whether there’s something I’d like to say, change, or simply stay with.
+Then just listen. You don't need fancy language - often it will be better to just ask what happens next, or whatever. If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it) but somedays you need to talk to understand, so just do that.
 
-Then listen. That is enough language for one invitation. A plain “What happens next?” may be better than an elegant sentence. When a feeling is developing, pause the words if that gives it room; keep using them when they help you understand.
+You can be pretty straightforward when that's the help you chose - "Let the explanation wait a moment. What do I feel as I say that?" can be a perfectly valid thing to say to yourself, and help you focus. It's ok to just be with an unpleasant feeling, you don't have to wait till it's a nice one before you know you're ok. As long as you're still present, and able to change if you want to, and happy to carry on, a sad feeling or tension or whatever doesn't mean it's not ok.
 
-You can be firmer when that is the help you chose: “Let the explanation wait a moment. What do I feel as I say that?” Directness can focus attention without deciding the answer. A difficult feeling needn’t become pleasant before you can stay with it. When you remain present, can change direction, and want to continue, sadness or tension alone doesn’t require an exit.
+It's worth trying to separate the notice, the meaning, and your thoughts on the meaning, but in practice it will often be pretty fuzzy. When you can, it can be helpful to separate it out like that though - "I noticed... this seemed to mean... here's why that might be true / false" or something like that.
 
-Keep apart what you noticed, what it seemed to mean, and what you think about that meaning now. These can overlap; you don’t need to prove which came first. When useful, ask: “What did I notice? What did it seem to mean? What supports or challenges that interpretation?”
-
-“My stomach tightened” reports a sensation. “That person is evil” is a conclusion—even if it arrived as a wordless certainty. Ask what they actually did, what cues you noticed, and what else could explain the alarm. A sentence you find now can help examine the meaning without being a sentence you thought then. Nonverbal doesn’t mean deeper or truer; earlier doesn’t mean more reliable. Feelings deserve attention, and their meanings remain open to analysis.
+Is this a notice or meaning? "My stomach went tight" is a notice, "He's a complete bastard" is a meaning, even if you didn't think it in words. You can then go on to find out what he did, notice what it was that gave you the idea, and consider if there might be other explanations. It's also ok to use phrases that you didn't think in your head - if something comes up that you're analysing, it's still good to analyse, even if it's not in your head already. Nonverbal thoughts and early thoughts aren't necessarily any better or worse than other thoughts. Feelings are good to pay attention to, but it's still good to consider what they mean.
 
 ## Let the response change the invitation
 
-“My shoulders tightened” and “that wording feels wrong” are different observations. Tightening alone doesn’t explain itself. Ask what happened and whether the invitation fits. An explicit no needs no further justification; change the words, the pace, or the approach. Don’t repeat an unwelcome suggestion more persuasively.
+Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it. Just change it. You don't need any other reason.
 
-I notice the tightness. I can leave it as it is for a moment. Does this invitation fit, or would I prefer something different?
+"I notice the tightness, and I can just leave it like that. I wonder if that fits, or if I'd rather do something different?"
 
-Sometimes the sentence was simply wrong. Sometimes an unfamiliar possibility brings a feeling worth meeting. You don’t have to decide which before making space to find out. Skepticism is not automatically a protector, and silence is not proof that a hidden process is working.
+Sometimes it just isn't right - sometimes it's something you hadn't thought of. Neither is automatically a protector, and just being silent doesn't mean there's a process.
 
 ## Look at the situation too
 
-When another person is involved, notice what they actually do before making the whole problem an inner-child reaction. Can they hear disagreement, take responsibility, and make room for your experience? Keep the judgment specific and revisable; disagreement or a boundary alone doesn’t establish emotional immaturity. You don’t need repeated exposure to danger before protecting yourself.
+If there is another person involved in the situation, it may be a good idea to look at what they are doing as well. Are they able to communicate in a mature fashion? Try and be specific in your description, and be willing to alter it if you find out that it was incorrect. Just because someone is disagreeing with you or trying to set boundaries around you does not mean they are in their emotionally immature parts. You don’t need to subject yourself to something that may be dangerous to determine if this is the case.
 
-Notice your side too. Guilt doesn’t prove wrongdoing or manipulation. Did you cause harm that needs repair, abandon your position to make their disappointment go away, or both? Choose a realistic purpose for the next interaction. Sometimes it is mutual understanding; sometimes it is conveying information, saying no, or ending the exchange. You don’t have to make someone understand before you can act.
+On the other hand, you may find that you have acted inappropriately and you feel guilty. Having feelings of guilt does not mean that you have done something wrong or that you have been manipulated. Have you done something that was wrong or that caused harm? If so, what can you do to fix it? On the other hand, did you give in to someone else just to keep them from being disappointed in you? What do you want to do or achieve the next time you interact with this person? Do you need them to understand what you are feeling/thinking? Do you just need to communicate information to them? Do you need to set boundaries with them? Do you need to end the interaction prematurely? You don’t have to make them understand before you can act.
 
 ## Change the amount of contact
 
-When you need less, widen attention to the room, the chair, a sound, or somewhere in the body that is easier to meet. Let that support become noticeable alongside the difficulty. Moving between difficult and more manageable experience is often called *pendulation*; approaching in smaller amounts is *titration*. Use the actual response to set the pace, rather than counting compulsory cycles.
+When you start to contact it, if it feels too much, immediately start to widen your awareness to something else in the room, in your body, etc. Keep moving back and forth between the difficult thing and the easier thing. This is called pendulation and titration. Do as much or as little as you feel you can. You set the pace, you don’t have to do a certain number.
 
-I can let this much be here and notice the support beside it.
+Ok, I think that is enough for now.
 
-Return to the difficult material only when you choose. If you’re losing track of the present, becoming increasingly unreal, or unable to shift or stop, end inward exploration and use the full return. Persistent disorientation needs human help rather than a stronger induction.
+Feel free to go back and explore more if you wish to do so. If, at any point, you start to lose contact with the here and now, feel that things are becoming more and more unreal, or you feel that you are not able to switch to something else or stop, stop trying to explore inside of yourself and just do the entire “coming back” part. If you have trouble orienting yourself and it lasts for a prolonged period of time, please get some human help rather than trying a stronger “induction” back to the here and now.
 
-An impulse to turn, reach, push away, or change posture can also be explored through a small, voluntary, physically comfortable movement—or imagined without moving. Notice what follows. You’re not obliged to enact an impulse, shake, or produce a release. Stop movement that causes pain or concerning symptoms.
+If you feel an urge to move, turn, reach, push, or change your body’s position, feel free to either actually do something that will not cause your body pain or discomfort, or just imagine doing what you feel you need to do, and see what happens next. You do not need to “act out” the urge, feel that you need to move, shake, release, etc. If you do move and you feel that you are causing yourself pain or other symptoms that you are concerned about, stop moving.
 
 ## Offer the care that is actually wanted
 
-When a younger feeling appears, offer company without making it become literally younger or explain its history. When a protector is recognizable, listen to its concern without demanding that it step aside. No part is exiled from the meeting, and none has to disappear or trust you immediately.
+If any “younger” parts come up, offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose. You don’t have to consider them literally “younger”, nor do you have to ask them why they are there or what happened to them. If you can identify any “protector” parts, talk to them and find out what they are concerned about. All of them are welcome to the “meeting”. You don’t have to get rid of any of them.
 
-I’m here. Would company help, or would you prefer some space?
+If you feel that it would be useful to bring in a “nurturer”, “protector”, “leader”, etc to help you either change the “tone” of the interaction, set boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have to talk to them, just use them to get whatever function you need that you aren’t able to do on your own. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.
 
-“Don’t come closer” is information you can act on. Stay at the chosen distance and notice what receiving that response is like. The Nurturer can change the tone; the Protector can carry out a boundary; the Leader can point toward the life you want. They don’t each need a speech. When a capacity isn’t available, borrow that one function. Use the Witness only if you need it to begin; don’t restart a step you can already do.
+Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualising someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.
 
-You can also deliberately try support: a welcome hand placement, an imagined presence, words you’d like to hear, a different posture, or more distance. Introduce one change and discover its effect. A comforting-sounding resource earns its place by helping this person now.
+It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can ‘stay there’ (ie remain in the process). If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t ‘take’ the love.
 
-Care can bring grief for what was missing. That needn’t mean the love failed. Stay with the response when you want to and can remain present; more tears don’t prove more healing. If this particular voice, closeness, touch, or image feels intrusive, change it before concluding that you can’t receive love.
+Allow yourself to see where the metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to ‘do something’ to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try ‘doing that’ for as far as it takes to be of use to you. Remember that whatever you find out, is likely to be metaphorical. It may be a good hypothesis for what you need to do but it is not a proven fact.
 
-A metaphor can develop before you decide what it means. “If this problem had its own image or story, what would appear—and what wants to happen next?” Try only the missing resource, boundary, distance, or action that seems useful. The result is symbolic information or a hypothesis, never proof of history.
-
-Or spend the session developing love, play, courage, or curiosity. Let a pleasant experience have time to grow. Rehearse a chosen action and notice what it would take to carry it out. Hypnosis can invite something new as well as listen to what is already present.
+Alternatively, you may want to use the session to develop a capacity that you want to develop (ie love, play, courage, curiosity etc). You can also use it to rehearse something that you have decided to do.
 
 ## Finish without forcing a revelation
 
-When you’ve received enough, stop opening new questions. Ask what would help you leave this here for now. Thank the parts or capacities you worked with, in whatever words you can mean. A meal, a boundary, rest, a repaired relationship, or a promise kept may matter more than another insight. There needn’t be an action when none is called for.
+Ending the session . Don’t feel that you have to end the session with a ‘great revelation’! When you have done as much as you want to do, it is a good idea to find out if there is anything that you need to do to make sure that you can leave things where they are for the time being. This might include thanking parts for their help, or making sure that you do something ‘in real life’ (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc) or it may be that there is nothing to do!
 
-Keep the analytical mind available throughout: you can question, disagree, and stop. Save extended factual checking and consequential commitments for after the return. An image can be meaningful without being a historical memory; a bodily shift or relief doesn’t make an interpretation true.
+Note : throughout the exercise, allow your ‘analytical’ part to make comments and/or tell you that it doesn’t like what you are doing and/or tell you to stop doing the exercise. Just tell it that you will check things out when you come back and make any commitments etc when you are back. You can stop whenever you want to. Remember that the images that you see can be meaningful without being actual memories of things that happened and just because you see an image, or feel a body release, that doesn’t mean that you are right about what is going on!
 
-Use Come all the way back, even when you ended early. Afterwards, write a few lines: what was there before; what I tried; what happened; what remains uncertain. Include a phrase, bodily signal, child’s need, protector’s concern, boundary, repair, or what not to force only when it actually appeared. You don’t owe the notebook a complete cast of characters.
+When you have finished, even if you stopped part way through, use the ‘ Come all the way back ‘ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what you are unsure about, any phrases that were said, any body signals, any information that the ‘inner child’ said that it needed, anything that a ‘protector’ wanted you to know, any boundaries that you put in place, any ‘repairs’ that you did, anything that you learnt about what it is a mistake to try and force etc). You don’t need to write down the whole cast of characters, just what you actually noticed.
 
 # The 15-minute daily practice
 
@@ -1312,23 +1308,19 @@ I will not abandon the signal. I will not worship the signal. I will listen, tes
 
 # Appendix E: Is the daydream helping or replacing your life?
 
-Daydreaming can be intuition, simulation, grief digestion, creative rehearsal, symbolic teaching, or the subconscious showing a possible future, fear, or desire. It can also become avoidance, fantasy addiction, dissociation, romantic obsession, or an escape hatch from adult life.
+Sometimes daydreaming is something that your subconscious mind is doing to help you. It is simulating an idea or event to help you digest grief or teach you something. The very act of daydreaming may be helping you to access your creativity or allowing your subconscious to show you a potential future. Sometimes your subconcious will show you things that you may be afraid of. Sometimes it will show you what you want.
 
-Does the daydream return me to life with more clarity, love, and action? Or does it pull me away from life into repetition, craving, and avoidance?
+Other times daydreaming may be taking you away from your life in a detrimental way. It may be that you are escaping reality and are addicted to fantasies rather than the real life. You may be dissociating or obsessing about romantic partners or escaping from being an adult.
 
-When it seems useful, ask:
+How do you know which it is? Simply ask yourself if the daydreaming is taking you closer to life, with more clarity, love and ability to take action or if it is taking you away from life, in a repetitive and craving way.
 
-“What is the guidance inside this?”
+If it is helping you then simply ask yourself what the guidance is and how you can use it.
 
-When it seems to be pulling you away, change the body before debating the story. Sit upright. Open the eyes a little. Feel the feet.
+If it is taking you away from life then change your body position by sitting upright, open your eyes, feel your feet and ask your subconscious to help you. Simply say to yourself, “Dear subconscious thank you for showing me images. If what you are showing me is helpful then please also show me the helpfulness in it. If what you are showing me is a way of avoiding dealing with life then please show me in a gentle but structured way how to deal with life as it is right now.”
 
-“Subconscious, thank you for showing me images. If this daydream is useful, please reveal the guidance inside it. If it is avoidance, please bring me gently into the present and help me deal with what I need to deal with in a gentle but structured way.”
+Then ask yourself what it is that you need to do in “real” life that you are avoiding by daydreaming.
 
-Then get embarrassingly practical:
-
-“What real-life action is this daydream replacing?”
-
-The answer may be: send the message, stop sending the message, clean the room, eat, sleep, grieve, create, apologize, leave, tell the truth, make the plan, ask for help, return to the task, or stop chasing unavailable love.
+You may need to send a text message or stop sending text messages. You may need to clean up your room, eat, sleep, deal with grief, create, apologize, leave, tell the truth, make a plan, get help, get back to a task that you were supposed to be doing, stop chasing love that is not available to you etc.
 
 # Appendix F: Self-trust, outside guidance, and oracle-like states
 
