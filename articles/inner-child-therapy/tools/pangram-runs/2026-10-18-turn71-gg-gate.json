@@ -1,0 +1,74 @@
+{
+ "t71gg_as4u": {
+  "kind": "screen",
+  "march": [
+   "B B S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71gg: as4-u, alone."
+ },
+ "t71gg_as4v": {
+  "kind": "screen",
+  "march": [
+   "B B S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71gg: as4-v, alone."
+ },
+ "t71gg_jwo": {
+  "kind": "screen",
+  "march": [
+   "B B S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71gg: jw-o, alone."
+ },
+ "t71gg_oit": {
+  "kind": "screen",
+  "march": [
+   "B B S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71gg: oi-t, alone."
+ },
+ "t71gg_secas4u": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as4-u: B B S S B S, as5-n: B S S B S, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71gg_secas4u.md",
+  "note": "t71gg: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as4-u, D:as5-n, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71gg_secas4v": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as4-v: B B S B S S, as5-n: B S S B S, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71gg_secas4v.md",
+  "note": "t71gg: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as4-v, D:as5-n, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71gg_secjwo": {
+  "kind": "screen",
+  "march": [
+   "jw-o: B B S B S, sp4-w1-p2: ?"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71gg_secjwo.md",
+  "note": "t71gg: ## Journal With Each Hand, put together: D:jw-o, G:writers/sp4-w1-p2."
+ },
+ "t71gg_secoit": {
+  "kind": "screen",
+  "march": [
+   "oi-t: B B S S B, sp6-p2-h2: ?"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71gg_secoit.md",
+  "note": "t71gg: ## One Intention in the Morning, One Review at Night, put together: D:oi-t, G:sp6-p2-h2."
+ }
+}
