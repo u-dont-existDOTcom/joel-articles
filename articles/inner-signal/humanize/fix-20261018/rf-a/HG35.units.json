@@ -13,8 +13,7 @@
    "paras": [
     "Appendix F: Self-trust, outside guidance, and oracle-like states"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -49,24 +48,7 @@
     "That said, self hypnosis may be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relational wounds that need another nervous system, skilled outside support may be best."
    ],
    "run": "HG35-r1-s1",
-   "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "relational wounds that need another nervous system; skilled outside support may be best",
-     "replace": "or relationship issues, you may benefit from getting the right help from the right person.",
-     "with": "or relational wounds that need another nervous system, skilled outside support may be best."
-    },
-    {
-     "type": "SHIFT",
-     "what": "may be best (not 'likely')",
-     "replace": "is likely to be the best way",
-     "with": "may be the best way",
-     "round": 2,
-     "from": "verify-b (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt"
   },
   {
    "kind": "published",
@@ -76,8 +58,7 @@
    "paras": [
     "Finding a hypnotist who can work with you"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -103,8 +84,7 @@
    "paras": [
     "When the subconscious speaks like an oracle"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -128,8 +108,7 @@
    "paras": [
     "The council — internal first, then outward"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -154,24 +133,7 @@
     "On the other hand, it is possible to give your power away. Seeking counsel can quietly turn into abdicating to an authority figure. Another person doesn’t get automatic trust, or automatic dismissal."
    ],
    "run": "HG35-r1-s4",
-   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "neither automatic trust nor automatic dismissal",
-     "replace": "It doesn’t mean either trusting or not trusting someone.",
-     "with": "Another person doesn’t get automatic trust, or automatic dismissal."
-    },
-    {
-     "type": "SHIFT",
-     "what": "seeking counsel can quietly turn into obeying an authority (a warning, not a definition)",
-     "replace": "Seeking counsel doesn’t mean abdicating to an authority figure.",
-     "with": "Seeking counsel can quietly turn into abdicating to an authority figure.",
-     "round": 2,
-     "from": "verify-b (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt"
   },
   {
    "kind": "emulate",
@@ -188,18 +150,7 @@
      "published": "Hearthwork",
      "new": "Hearthwork"
     }
-   ],
-   "fixes": [
-    {
-     "type": "UNCLEAR",
-     "what": "a carefully timed question from a peer",
-     "replace": "if asked carefully and at the right time, your peers can help",
-     "with": "with a question asked carefully and at the right time, your peers can help",
-     "round": 2,
-     "from": "verify-b (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   ]
   },
   {
    "kind": "published",
@@ -209,8 +160,7 @@
    "paras": [
     "Forgiveness without bypass"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -233,22 +183,7 @@
     "A helpful understanding to come to, is that while their actions were harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give. It doesn’t make their limitations matter any less."
    ],
    "run": "HG35-r1-s5",
-   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "the harm is real, not 'may have been'",
-     "replace": "while their actions may have been harmful,",
-     "with": "while their actions were harmful,"
-    },
-    {
-     "type": "LOST",
-     "what": "understanding limitations shouldn't make them less consequential",
-     "replace": "that they can’t give.",
-     "with": "that they can’t give. It doesn’t make their limitations matter any less."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
   },
   {
    "kind": "emulate",
@@ -259,16 +194,7 @@
     "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”"
    ],
    "run": "HG35-r1-s5",
-   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "the adult's promises to the child became requests",
-     "replace": "“You don’t have to forgive, but also, please don’t let this wound run your life forever, and don’t use spirituality to silence your pain.”",
-     "with": "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
   },
   {
    "kind": "emulate",
@@ -279,8 +205,7 @@
     "Some questions that may be helpful to ask when coming to a place of forgiveness, while still holding all of the above:"
    ],
    "run": "HG35-r1-s5",
-   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
-   "verdict": "OK"
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
   },
   {
    "kind": "emulate",
@@ -291,26 +216,7 @@
     "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?"
    ],
    "run": "HG35-r1-s5",
-   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "what shaped this person into someone capable of that harm",
-     "replace": "What was going on with the other person(s) that put them in a place to cause harm?",
-     "with": "What shaped the other person(s) into someone capable of that harm?",
-     "round": 2,
-     "from": "verify-b (second reader)"
-    },
-    {
-     "type": "SHIFT",
-     "what": "what does accountability require",
-     "replace": "How do I need to hold them accountable?",
-     "with": "What does accountability require?",
-     "round": 2,
-     "from": "verify-b (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt"
   },
   {
    "kind": "emulate",
@@ -322,24 +228,7 @@
     "Take responsibility, feel the remorse, then rectify if you can, and then let it go. Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage."
    ],
    "run": "HG35-r1-s6",
-   "file": "fix-20261018/emu-c/HG35-r1-s6.out.txt",
-   "fixes": [
-    {
-     "type": "UNCLEAR",
-     "what": "name what you did without taking responsibility for what wasn't yours; let remorse register the harm or the broken value without making yourself a permanent criminal",
-     "replace": "It's important to realize that just because you didn't take responsibility for something that wasn't yours to take, doesn't mean you're a criminal if you feel remorse over the effect your action may have had, or just that it wasn't in keeping with your value system.",
-     "with": "Name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal."
-    },
-    {
-     "type": "INVENTED",
-     "what": "'one of the hardest things to do'",
-     "replace": "One of the hardest things to do is to forgive ourselves. Name what you did,",
-     "with": "For self-forgiveness, name what you did,",
-     "round": 2,
-     "from": "verify-b (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-c/HG35-r1-s6.out.txt"
   }
  ]
 }

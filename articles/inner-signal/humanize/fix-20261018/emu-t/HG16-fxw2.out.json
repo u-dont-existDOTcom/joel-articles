@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-t/HG16-fxw2.txt",
+  "input_words": 255,
+  "input_sha256": "03af65093c58c7d30230140533f74a3cca25588384d3761b57b0952170cd6f67",
+  "balance_before": 104960,
+  "started_utc": "2026-10-18T05:48:49Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:49:06Z",
+  "response": {
+    "id": "0787cc6d-c8b2-4657-b303-dc10d08bf63f",
+    "tool": "humanize",
+    "text": "2) In any way making it so that whatever the subject says, shows that a suggestion has worked, when this may not be the case (this includes answering yes, no, noticing something, not noticing something, trying not to do something, not answering, etc etc etc)\n\n3) Including phrases such as whether or not you notice etc etc\n\n4) Including any concepts that may make a subject think they must obey, or take on a role, or that it is good/safe to please the guide or belong to someone etc etc.\n\n5) Fractionating a subject without telling them that you are going to take them in and out of absorption a few times.\n\n6) Giving a subject cues (words, gestures, blinks, sounds, listening a certain number of times etc) that you intend to use to make them do something at a later date, without informing them exactly what it is that they will be doing.\n\n7) Including suggestions for amnesia, or making a subject think that something (dream, amnesia, imagery, body experiences etc) has happened when this may not necessarily be the case.\n\n8) Not taking a subject out at the end of a recording, or leaving them with a role to play, with their judgement down, with their physical abilities down, with their minds blank, or in any other way different for an indefinite length of time.\n\nIn order for a subject to be making a REAL choice whilst in a hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish. This could be by making the hypnosis lighter, using a different method of hypnosis, being in full awareness whilst in a hypnosis, or being able to pause or stop the hypnosis. Just so you know, if you say no, you are quite entitled to mean NO, even if someone with a nice voice is asking you to do something! Also, just because you don't say anything, or don't know what to say, DOES NOT mean yes!\n\n(see appendix C for a longer version of the de hypno)",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 255
+    },
+    "elapsed": 16
+  },
+  "balance_after": 104705
+}

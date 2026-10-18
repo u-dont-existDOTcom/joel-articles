@@ -31,3 +31,7 @@ upload that had since been deleted (its `data/users/me/runs` document said "Coul
   (`files/index.html` version 3, `datasets/calls` version 12, asset `/_blob/350ec5e0c68e2f108918e2eb5cee830a`). The
   asset it replaced, `/_blob/44b7cc69fd5868d86493664675de4327`, is no longer referenced and can be deleted (deleting
   asks the person to confirm, so it was left for a session with Joel there).
+
+- 2026-10-18 (after 445g): `datasets/calls` version 13 points at asset `/_blob/bbc181a3ac210712a8ed29ec0a891941`; the one before it,
+  `/_blob/350ec5e0c68e2f108918e2eb5cee830a`, and the older `/_blob/44b7cc69fd5868d86493664675de4327` are no longer referenced (deleting
+  asks the person to confirm, so they were left).

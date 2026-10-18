@@ -13,8 +13,7 @@
    "paras": [
     "Protecting Yourself from Hypnotists"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -25,16 +24,7 @@
     "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc."
    ],
    "run": "HG06-r1",
-   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "'in a therapist's office' became a 'controlled environment'; 'happens through' became 'utilized through' (someone using it on purpose)",
-     "replace": "in a controlled environment with a therapist, but it can also be utilized through",
-     "with": "in a therapist’s office, but it can also happen through"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
   },
   {
    "kind": "emulate",
@@ -45,36 +35,7 @@
     "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
    ],
    "run": "HG06-r1",
-   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
-   "fixes": [
-    {
-     "type": "INVENTED",
-     "what": "'for years' is new; the published says marketers and designers know this perfectly well",
-     "replace": "have been using these techniques for years, and the practice",
-     "with": "know this perfectly well, and the practice"
-    },
-    {
-     "type": "INVENTED",
-     "what": "a made-up quotation attributed to the FTC report; the published paraphrases it",
-     "replace": "they refer to “design patterns that have been designed to trick or manipulate users into doing things that they might not otherwise do.”",
-     "with": "they describe designs that trick or manipulate consumers."
-    },
-    {
-     "type": "INVENTED",
-     "what": "a made-up quotation attributed to the OECD; the published paraphrases it",
-     "replace": "refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”",
-     "with": "describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
-    },
-    {
-     "type": "INVENTED",
-     "what": "regulatory scrutiny",
-     "replace": ", and the practice has even come under scrutiny by regulatory bodies.",
-     "with": ".",
-     "round": 2,
-     "from": "verify-a (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
   },
   {
    "kind": "emulate",
@@ -109,8 +70,7 @@
     "“If you don’t learn to control your mind, someone else will!”"
    ],
    "run": "HG06-r1",
-   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
-   "verdict": "OK"
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt"
   },
   {
    "kind": "emulate",

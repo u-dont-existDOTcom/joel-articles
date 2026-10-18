@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-t/HG17-fxw2.txt",
+  "input_words": 79,
+  "input_sha256": "f8c58753e3d81ac8542e36f2ba904f45c670563fdc9b41e0d9f417224ed829ec",
+  "balance_before": 102570,
+  "started_utc": "2026-10-18T05:49:40Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:49:45Z",
+  "response": {
+    "id": "99c24529-19d2-4600-bf32-de5c971636d6",
+    "tool": "humanize",
+    "text": "And if you don't want to any more, just stop doing it, remove it from any recordings you are using, any active apps, use an induction you are familiar with and state that you are finished using it whilst awake. If this doesn't stop the association straight away, and you are still getting unwanted affects or feeling disorientated, seek qualified help to sort it out. Until the next time you want to do it, you should not use the trigger.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 5
+  },
+  "balance_after": 102491
+}

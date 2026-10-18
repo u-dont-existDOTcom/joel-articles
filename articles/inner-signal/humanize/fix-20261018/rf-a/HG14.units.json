@@ -13,8 +13,7 @@
    "paras": [
     "The inner child, the guards, and the three inner adults"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -25,16 +24,7 @@
     "Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable."
    ],
    "run": "HG14-r1-s1",
-   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "trust grows when the present-day adult becomes reliable",
-     "replace": "is you, as a person that you are right now.",
-     "with": "is you, the person you are right now, becoming reliable."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt"
   },
   {
    "kind": "emulate",
@@ -45,16 +35,7 @@
     "Here I’m going to talk about what you need to develop in yourself in order to be able to reparent your inner child. I’m going to talk about it in terms of three aspects: your Nurturer, your Protector and your Leader/Guru, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities."
    ],
    "run": "HG14-r1-s1",
-   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt",
-   "fixes": [
-    {
-     "type": "INVENTED",
-     "what": "'in this post'",
-     "replace": "In this post I am going to talk about",
-     "with": "Here I’m going to talk about"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt"
   },
   {
    "kind": "emulate",
@@ -65,16 +46,7 @@
     "Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds."
    ],
    "run": "HG14-r1-s1",
-   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "those qualities belong inside the adult relationship, not just the wounds",
-     "replace": "wondering at the world.",
-     "with": "wondering at the world. Those belong in your relationship with it too, not just the wounds."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt"
   },
   {
    "kind": "published",
@@ -84,8 +56,7 @@
    "paras": [
     "When the adult role is not available yet"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -96,16 +67,7 @@
     "The problem is, that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult. Telling them to just access their adult is like telling them to just be able to fly."
    ],
    "run": "HG14-r1-s2",
-   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
-   "fixes": [
-    {
-     "type": "INVENTED",
-     "what": "'even more commonly'",
-     "replace": "or even more commonly – access a child part",
-     "with": "or feel like a child part"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt"
   },
   {
    "kind": "emulate",
@@ -116,16 +78,7 @@
     "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. Please note, it puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), and I’m not claiming that the entirety of the steps has been validated as one treatment."
    ],
    "run": "HG14-r1-s2",
-   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "the name 'borrowed adulthood', 'provisional', the familiar practices it combines; 'many of the steps have been shown to be effective' is new",
-     "replace": "To help these people access their adult functions, I recommend the following steps. Please note, the following is a bridge that I developed – while many of the steps have been shown to be effective, the entirety of the steps have not (to the best of my knowledge).",
-     "with": "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. Please note, it puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), and I’m not claiming that the entirety of the steps has been validated as one treatment."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt"
   },
   {
    "kind": "emulate",
@@ -136,16 +89,7 @@
     "- Access a witnessing position, if necessary: notice what’s there without demanding warmth, wisdom or certainty. If you already know how to distinguish your internal positions, skip to the next step and access the adult position you need."
    ],
    "run": "HG14-r1-s2",
-   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "notice what is present without demanding warmth, wisdom or certainty",
-     "replace": "Access a witnessing position, if necessary.",
-     "with": "Access a witnessing position, if necessary: notice what’s there without demanding warmth, wisdom or certainty."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt"
   },
   {
    "kind": "emulate",
@@ -156,16 +100,7 @@
     "- Borrow an adult function. You may “borrow” this from a safe adult in your life, a mentor, an older sibling, a future version of yourself, a spiritual figure, a value, or even a written plan. Borrow only what you need right now – warmth, a boundary or direction."
    ],
    "run": "HG14-r1-s2",
-   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "borrow only the warmth, boundary or direction needed now",
-     "replace": "Borrow whatever you need – warmth, direction, etc.",
-     "with": "Borrow only what you need right now – warmth, a boundary or direction."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt"
   },
   {
    "kind": "emulate",
@@ -176,8 +111,7 @@
     "- Put on the adult hat as an apprentice. Now, in this position, figure out what you would want to say or do – and then do at least a part of that."
    ],
    "run": "HG14-r1-s2",
-   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
-   "verdict": "OK"
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt"
   },
   {
    "kind": "emulate",
@@ -188,8 +122,7 @@
     "- Return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%)."
    ],
    "run": "HG14-r1-s2",
-   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
-   "verdict": "OK"
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt"
   },
   {
    "kind": "emulate",
@@ -206,8 +139,7 @@
      "published": "Inner Child Self-Love Reparenting Guide",
      "new": "Inner Child Self-Love Reparenting Guide"
     }
-   ],
-   "verdict": "OK"
+   ]
   },
   {
    "kind": "emulate",
@@ -218,24 +150,7 @@
     "You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine good, start with the least cruel response you can believe. Once you’ve found something good, try it, don’t keep doing the exercise."
    ],
    "run": "HG14-r1-s3",
-   "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "use a remembered person when that helps, or an imagined adult whose intention is to take good care of you",
-     "replace": "Just imagine a good adult.",
-     "with": "Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you."
-    },
-    {
-     "type": "SHIFT",
-     "what": "the least cruel response you can believe",
-     "replace": "imagine the least cruel thing you can.",
-     "with": "start with the least cruel response you can believe.",
-     "round": 2,
-     "from": "verify-b (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt"
   },
   {
    "kind": "emulate",
@@ -246,22 +161,7 @@
     "It can be helpful to use borrowing when you’re in the adult position and not knowing what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response. You may still feel young when you do it, it’s okay, feeling like an adult can come after you act like one."
    ],
    "run": "HG14-r1-s3",
-   "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "how would a decent adult hear distrust without retaliating, defending their goodness, collapsing or leaving",
-     "replace": "especially when it seems like any response will be retaliatory, defensive, collapsing, leaving, etc. Borrow a decent adult’s response.",
-     "with": "especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response."
-    },
-    {
-     "type": "SHIFT",
-     "what": "adult identity can develop after the behavior",
-     "replace": "you’ll become an adult after you act like one.",
-     "with": "feeling like an adult can come after you act like one."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt"
   },
   {
    "kind": "published",
@@ -271,8 +171,7 @@
    "paras": [
     "Let the child speak without handing over the steering wheel"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -295,16 +194,7 @@
     "\"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I am not going to replace my adult judgement with any child state, guide, recording or person.\""
    ],
    "run": "HG14-r1-s4",
-   "file": "fix-20261018/emu-e/HG14-r1-s4.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "the adult listens too",
-     "replace": "evaluating, protecting me and stopping me if needed",
-     "with": "listening, evaluating, protecting me and stopping me if needed"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s4.out.txt"
   },
   {
    "kind": "emulate",
@@ -315,8 +205,7 @@
     "This way you get the benefits of being young; curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgement etc."
    ],
    "run": "HG14-r1-s4",
-   "file": "fix-20261018/emu-e/HG14-r1-s4.out.txt",
-   "verdict": "OK"
+   "file": "fix-20261018/emu-e/HG14-r1-s4.out.txt"
   },
   {
    "kind": "published",
@@ -326,8 +215,7 @@
    "paras": [
     "Love doesn’t have to wait for trust"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -358,8 +246,7 @@
    "paras": [
     "The two-hand practice"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -385,8 +272,7 @@
    "paras": [
     "The Nurturer"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -415,8 +301,7 @@
    "paras": [
     "The Protector"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -445,8 +330,7 @@
    "paras": [
     "The Leader, Guide, or Guru"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -475,8 +359,7 @@
    "paras": [
     "Working with protectors"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -500,8 +383,7 @@
     "Most people assume when approaching their inner child that the first thing they’ll encounter is…their inner child."
    ],
    "run": "HG14-r1-s11",
-   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt",
-   "verdict": "OK"
+   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt"
   },
   {
    "kind": "emulate",
@@ -512,16 +394,7 @@
     "But more often than not, what you actually experience is numbness, cynicism, anger, hunger, the sudden urge to check your phone, a sexual urge, mental planning, sleepiness, dissociation, or the simple thought that “this is stupid”. I wouldn’t call those failures. They’re often the protector, the guard at the door, showing up in its usual charming way."
    ],
    "run": "HG14-r1-s11",
-   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt",
-   "fixes": [
-    {
-     "type": "LOST",
-     "what": "not failures; the guard at the door, in its usual charming way",
-     "replace": "These are all common manifestations of protectors.",
-     "with": "I wouldn’t call those failures. They’re often the protector, the guard at the door, showing up in its usual charming way."
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt"
   },
   {
    "kind": "emulate",
@@ -532,16 +405,7 @@
     "One important voice to become aware of when approaching your inner child is your inherited parent. This is the voice of your parent(s) that you internalized as a child, based on how they treated you. This is not the same as your inner adult (Nurturer, Protector, Leader/Guru) that you will eventually build up. Often this inherited parent acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, this voice may jump in to say that what you’re doing is “fake”."
    ],
    "run": "HG14-r1-s11",
-   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt",
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "a voice, not necessarily a protector",
-     "replace": "One of the most important protectors to become aware of",
-     "with": "One important voice to become aware of"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt"
   },
   {
    "kind": "emulate",
@@ -569,8 +433,7 @@
    "paras": [
     "Protection that knows when to stop scanning"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -606,8 +469,7 @@
    "paras": [
     "Inner child reparenting"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -632,8 +494,7 @@
    "paras": [
     "Don’t rush the repair"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -676,8 +537,7 @@
    "paras": [
     "Play and rest still need an adult present"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -701,8 +561,7 @@
    "paras": [
     "Non-dominant hand dialogue"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",

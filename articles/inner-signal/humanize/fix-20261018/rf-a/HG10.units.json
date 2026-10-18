@@ -13,8 +13,7 @@
    "paras": [
     "Hypnosis Evidence"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -31,8 +30,7 @@
      "published": "2024 overview of 49 meta-analyses",
      "new": "overview of 49 meta analyses"
     }
-   ],
-   "verdict": "OK"
+   ]
   },
   {
    "kind": "emulate",
@@ -49,16 +47,7 @@
      "published": "A systematic review of randomized controlled trials",
      "new": "a systematic review of Randomized Controlled Trials"
     }
-   ],
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "the review found it 'appeared more useful'; 'tends to be' makes it a general rule",
-     "replace": "Self-hypnosis tends to be more useful",
-     "with": "Self-hypnosis seemed more useful"
-    }
-   ],
-   "verdict": "fixed"
+   ]
   },
   {
    "kind": "emulate",
@@ -69,18 +58,7 @@
     "Here I will be teaching you a real self-skill, so you don’t end up a consumer of more and more elaborate trance recordings."
    ],
    "run": "HG10-r1",
-   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
-   "fixes": [
-    {
-     "type": "SHIFT",
-     "what": "the reader becoming a consumer of increasingly elaborate recordings",
-     "replace": "not just asking you to buy more audio trance files.",
-     "with": "so you don’t end up a consumer of more and more elaborate trance recordings.",
-     "round": 2,
-     "from": "verify-a (second reader)"
-    }
-   ],
-   "verdict": "fixed"
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt"
   },
   {
    "kind": "emulate",

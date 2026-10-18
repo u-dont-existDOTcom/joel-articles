@@ -177,8 +177,8 @@ def units_fixed(fixed_path, refix_dirs):
         if sg:
             out.append({'kind': 'emulate', 'blocks': sg[0], 'paras': sg[1], 'run': sg[2], 'file': sg[3], 'refix': True})
             skip_to = sg[0][-1]
-        else:
-            out.append(dict(u))
+        else:  # the fixed text is now the baseline: its review's fixes and verdicts stay in its own file
+            out.append({k: v for k, v in u.items() if k not in ('fixes', 'verdict', 'redo', 'paras_was')})
     return {'key': d['key'], 'from': str(fixed_path), 'refix_dirs': [str(x) for x in refix_dirs], 'units': out}
 
 

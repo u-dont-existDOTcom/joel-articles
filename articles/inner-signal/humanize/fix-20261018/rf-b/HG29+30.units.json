@@ -13,8 +13,7 @@
    "paras": [
     "Appendices"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -25,8 +24,7 @@
     "Note: You can skip this section and just use the main path and be fine. This is additional info to help you be more precise and safe, and some additional scripts for other situations."
    ],
    "run": "HG29_30-r1",
-   "file": "fix-20261018/emu-i/HG29_30-r1.out.txt",
-   "verdict": "OK"
+   "file": "fix-20261018/emu-i/HG29_30-r1.out.txt"
   },
   {
    "kind": "published",
@@ -36,8 +34,7 @@
    "paras": [
     "Appendix A: How to ask the subconscious a useful question"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
@@ -82,8 +79,7 @@
    "paras": [
     "Core prompts"
    ],
-   "heading": true,
-   "verdict": null
+   "heading": true
   },
   {
    "kind": "emulate",
