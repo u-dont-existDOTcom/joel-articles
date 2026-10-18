@@ -152,3 +152,5 @@ register('close-session', CS_PARKED, close_session)
 # - Round t71t: Close the Session P1 drafts/cs1-h for cs1-c (a pointer to When Healing Turns Into Checking in place of
 #   its point said a fourth time; the repeats check). Round t71u: Altered States Can Deepen P5 drafts/as5-n after a
 #   parked comment for P4 (alone Human Written 0.51; the h1 with it 0.057, high, 1350 words).
+# - Round t71bb: Just Like Me in, after the parked One Intention comment: P1 turn 65's sp7-p1-c, P2 drafts/jl2-l (a
+#   pointer to Pema Chödrön's tonglen, then the guide's limits and point); alone 0.088, the h2 0.23 high, 173 words.

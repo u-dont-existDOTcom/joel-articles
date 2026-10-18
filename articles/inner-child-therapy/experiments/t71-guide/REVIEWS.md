@@ -55,3 +55,16 @@ The first check (one agent, the whole job) stopped at its output limit; three sm
 ## Draft names
 
 Rounds t71s and t71t wrote new drafts under two stems round t71l had used, drafts/cs1-d and cs1-e, so for a while those files held the wrong text for round l's rows. They are round l's again (from commit 7c1f1681), tonight's are drafts/cs1-g and cs1-h, and their PREDICTIONS rows say so. A new draft takes a new stem.
+
+## Simple Practices: Journal With Each Hand, One Intention, Just Like Me, still parked (question 47)
+
+Each has paragraphs that read Human alone, and none has read Human as a practice. Tonight:
+- Journal With Each Hand: P1 in ten versions of mine (jw-a to jw-k, rounds t71a to t71r; 0.73 to 1.0 alone), two P2s (jw2-a, jw2-b, 0.99); with turn 65's P2 (writers/sp4-w1-p2, Human 0.32 alone) the h2 read AI every time (0.64 to 0.97; the closest, jw-j, https://www.pangram.com/history/5929a5f4-922e-4bcb-895a-a7903a416bb3). Turn 65's sp4-j read Human alone (0.35) but AI with its heading.
+- One Intention: P1 in twelve versions of mine (oi-a to oi-p, and oi-one as one paragraph; 0.95 to 1.0 alone, and no P1 has ever read Human); with turn 65's P2 (sp6-p2-h2, Human 0.17 alone) the h2 read AI (0.90 to 1.0; the closest, oi-o, https://www.pangram.com/history/2e2644b5-0d82-49b2-8636-c074d3cd8d75).
+- Just Like Me: turn 65's P1 (sp7-p1-c, Human 0.072 alone) with ten P2s of mine (jl2-a to jl2-k; jl2-b, -e and -g Human alone, 0.24 to 0.52) and jl-one as one paragraph: the h2 read AI every time (0.80 to 0.997). A part at a time (round t71k): P1 with P2 read AI (0.97, high), and the heading with P2 read AI over P2's last two sentences, the point.
+- Fresh writers (rounds t71w and t71y): one per practice, each writing three whole practices from a brief that showed the old shape and asked for new ones (writers/w-sp04, w-sp06, w-sp07: prompt and output). I cut their lists for the linter (one or two words each; the drafts say where). All nine read AI as h2s (0.71 to 0.999).
+- Round t71bb: a real source for each, linked and opened first (Lucia Capacchione's Recovery of Your Inner Child for the two hands; the Jesuits' Examen for the night review; Pema Chödrön's tonglen on Lion's Roar for Just Like Me). Results below, when they're in.
+
+## How This Relates to IFS, still parked (question 46)
+
+Five versions of the section read AI as an h2: mine in rounds t71d, t71e, t71f and t71q, and a fresh writer's in t71j (0.71 to 1.0). Three paragraphs read Human alone: exiles and unburdening (ap56-a, 0.24), Related Clinical Work (ap9-d, 0.19), and the writer's last, on choosing a therapist (wifs-5, 0.28). Its first-person lines are his story and wait on his word for their wording (E189), so question 46 shows them whole with a link to the section in his guide, and asks for his words, the tells I'm missing, or leaving it out for now.
