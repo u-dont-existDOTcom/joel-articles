@@ -248,3 +248,6 @@ def st8():
 
 
 register('st8', lambda: ST8_OLD_COMMENT_END + '\n\n' + (A / 'experiments/t69-guide/drafts/st6a-c.txt').read_text(encoding='utf-8').strip(), st8)
+# - Round t71hhh, by hand: Speak Toward P4 drafts/pgq15-g for pgq15-c (the repeats check's 6: its first sentence said
+#   again P3's "your little one included"), and P5 drafts/hw-e for turn 69's hw-d ("professional therapy", his own
+#   word in P8, for "therapy"; the check's contradiction); the h1 0.064, high, 858 words.
