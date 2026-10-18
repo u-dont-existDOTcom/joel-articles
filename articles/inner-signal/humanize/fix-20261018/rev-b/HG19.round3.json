@@ -1,0 +1,23 @@
+[
+ {
+  "block": 1,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT mantra \"I am not leaving... I am listening\" became future \"I'm just going to listen\"",
+    "replace": "I’m not going to leave life, I’m just going to listen more deeply to life.",
+    "with": "I am not leaving life. I am listening more deeply to life.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "just",
+    "what": "R: just notice thoughts without fighting or following, in B1 and B1",
+    "replace": ", but simply noticing them while you hold",
+    "with": ", while you hold",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]

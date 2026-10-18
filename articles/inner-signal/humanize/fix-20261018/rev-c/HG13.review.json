@@ -60,6 +60,30 @@
     "with": "Then move back into unity: “Let all of this belong to one life. Let the adult self lead with love.”",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"deeper processes shaping\" X became \"everything beneath the surface\" = X",
+    "replace": "everything going on beneath the surface of your conscious mind – perceptions",
+    "with": "the deeper processes shaping perceptions",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"avoidance\" became \"aversions\"",
+    "replace": "desires, aversions, imagery",
+    "with": "desires, avoidance, imagery",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT scripted lines became \"invoke ... e.g.\" examples; \"please guide me\" became \"can you help me…\"",
+    "replace": "please can you help me…..’",
+    "with": "please guide me.’",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -114,6 +138,14 @@
     "what": "Higher Self language helps you gather around a meaningful source of care (not 'bring people together'); it doesn't establish a perfectly capable inner parent; the adult functions grow through practice",
     "replace": "is useful in order to bring people together, it doesn’t mean that all the adult functions are already there. You’ll need to work on growing them.",
     "with": "can help you gather around a meaningful source of care, it doesn’t mean that a perfectly capable inner parent is already there. The adult functions still grow through practice."
+   },
+   {
+    "type": "SHIFT",
+    "what": "B16: SHIFT \"don't need to keep rehearsing\" became \"no point in working more\"",
+    "replace": "there’s no point in working more on your Witness",
+    "with": "you don’t need to keep rehearsing the Witness",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -128,6 +160,14 @@
     "with": "but only as needed, when something specific comes up.",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B17: INVENTED \"It is important to differentiate\"",
+    "replace": "It is important to differentiate but only as needed, when something specific comes up.",
+    "with": "Differentiate only when something specific comes up.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  }

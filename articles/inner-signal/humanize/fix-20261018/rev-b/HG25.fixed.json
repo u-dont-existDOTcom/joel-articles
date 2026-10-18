@@ -49,7 +49,7 @@
     2
    ],
    "paras": [
-    "DO NOT obsess about “downloading” grandiose information or become obsessed with demons, jinn, “Unattached Burdens”, etc. Stabilize yourself first. Get help if necessary, especially if not reality testing well or if not functioning well in life."
+    "DO NOT chase grand “downloads” or make a hobby of demons, jinn, “Unattached Burdens”, etc. Stabilize yourself first. Get help if necessary, especially if not reality testing well or if not functioning well in life."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
@@ -61,6 +61,14 @@
      "with": "Stabilize yourself first.",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B2: SHIFT \"chase\"/\"hobby\" became \"obsess\"/\"obsessed\"",
+     "replace": "obsess about “downloading” grandiose information or become obsessed with",
+     "with": "chase grand “downloads” or make a hobby of",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -151,7 +159,7 @@
     7
    ],
    "paras": [
-    "DO NOT allow any inner role, like the “Inner Child” or “Protector” or “Nurturer” or “Leader” to take over completely. They each need the others: the child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available."
+    "DO NOT allow any inner role, like the “Inner Child” or “Protector” or “Nurturer” or “Leader” to get out of proportion. The child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
@@ -169,6 +177,22 @@
      "with": "any inner role, like",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B7: INVENTED \"They each need the others\"",
+     "replace": "They each need the others: the child",
+     "with": "The child",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B7: SHIFT \"in proportion\" became only \"no total takeover\"; \"any inner state\" widens the four roles",
+     "replace": "to take over completely",
+     "with": "to get out of proportion",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -277,7 +301,7 @@
     13
    ],
    "paras": [
-    "Don’t put in, or let anyone put in, hidden “commands”. A cue you choose consciously to reuse should have a clear purpose, stay reviewable, and be removed if you no longer want it. Just saying “cancel” doesn’t guarantee it’s instantly erased. Don’t allow anyone to give commands to someone else to give to “YOU” or to make YOU do anything or change to a different person or have amnesia, etc."
+    "Don’t put in, or let anyone put in, hidden “commands”. A cue you choose consciously to reuse should have a clear purpose, stay reviewable, and be removed if you no longer want it. Just saying “cancel” doesn’t guarantee it’s instantly erased. Don’t allow anyone to put in undisclosed third-party activation, or to make YOU do anything or change to a different person or have amnesia, etc."
    ],
    "run": "HG25-r1",
    "file": "fix-20261018/emu-a/HG25-r1.out.txt",
@@ -301,6 +325,14 @@
      "with": "Don’t put in, or let anyone put in, hidden “commands”.",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B13: SHIFT \"undisclosed third-party activation\" became commands relayed via someone else",
+     "replace": "give commands to someone else to give to “YOU” or to make YOU do anything",
+     "with": "put in undisclosed third-party activation, or to make YOU do anything",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"

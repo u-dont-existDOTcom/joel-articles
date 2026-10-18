@@ -1,0 +1,261 @@
+{
+ "key": "HG38+39",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-c",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h",
+  "fix-20261018/emu-i",
+  "fix-20261018/emu-j"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix I: Sleep hypnosis"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "If you are using this page to help you go to sleep, use Nimja's sleep playlist ."
+   ],
+   "run": "HG38_39-r1",
+   "file": "fix-20261018/emu-i/HG38_39-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Appendix J: A practical induction library"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Practise: Preview, choose a purpose, decide to start. All ‘families’ can be light, eyes open or with no trance contact replacement. Monitor what happens (even if nothing seems to change) and decide on next action: move on, imagine, change sensory channel, remain still, stop the sequence etc. Always do a complete waking return from induction."
+   ],
+   "run": "HG38_39-r1",
+   "file": "fix-20261018/emu-j/HG38_39-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "NB If you cannot ‘see’ any images vividly, translate the metaphor into words, rhythm, spatial relations, touch, movement, knowing etc."
+   ],
+   "run": "HG38_39-r1",
+   "file": "fix-20261018/emu-j/HG38_39-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Stretch and release"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Focus on a feeling of support (and perhaps the position of one hand or foot). Either actually or in imagination stretch slightly and/or press into the support and then release. Notice any difference in feeling (even if nothing seems to change). Repeat this with no more than 3 areas of the body. Use the notion of ‘release’ to guide you through the sequence. Ask yourself where in your body (and/or voice) you need to stretch or release and what you need by way of support to do this. Then bring back normal movement and return."
+   ],
+   "run": "HG38_39-r1",
+   "file": "fix-20261018/emu-j/HG38_39-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Supported floating"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Use only 1% more effort than it takes to simply rest your weight on the support, or use the same weight and pressure. Notice what happens. It may help to fractionate, spending more time on in-breaths in normal awareness, and on out-breaths focusing on the support. Tell yourself you're going to do this before you start. What can you hear now? Return to normal weight and firm contact as you choose."
+   ],
+   "run": "HG38_39-r1",
+   "file": "fix-20261018/emu-i/HG38_39-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Rhythmic breath or pulse"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Try it with a natural rhythm; perhaps the rhythm of breathing or a slight hum in the throat. Try it with a more artificial rhythm, such as tapping a finger or listening to sounds outside. Even try it counting (silently) to yourself, or even with no rhythm at all. Say the words 'here, and here again' over and over, until suddenly, stop the rhythm. This will bring about its own rhythm, the first one that appears - do not try and make it blank. This might bring a bit more clarity to what word, feeling, need or action is coming up. Then go back to using a normal rhythm."
+   ],
+   "run": "HG38_39-r1-s5",
+   "file": "fix-20261018/emu-g/HG38_39-r1-s5.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Unwinding object"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "A quick exercise for when you have several concerns going on. Visualise each one as a strand of yarn, or even better, have some by you to help. When you've placed them all, take a minute to look at them all (without changing them, though you could label them if needed, by saying a word or two). How many did you end up with? Now pick one that is important to do something about, put the others somewhere you can see them, and come back to this page."
+   ],
+   "run": "HG38_39-r1-s6",
+   "file": "fix-20261018/emu-g/HG38_39-r1-s6.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Sensory journey"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Listen to the sounds of the room you are currently in and feel your body. Now imagine yourself walking somewhere, where do you want to go? As you walk, listen to the sounds of your footsteps and take in your surroundings. What texture are the objects you pass? What landmarks do you see? Now that you've collected enough attention, imagine the scenery changing until you are in a place where you can directly speak to whoever/whatever it is you want to speak to. Or you can just cut straight to the chase if you want. Observe what you want to observe, just don't make it into a \"what are they going to do to you?\" kind of thing. When you're ready to finish, imagine walking back the way you came and close the space."
+   ],
+   "run": "HG38_39-r2",
+   "file": "fix-20261018/emu-h/HG38_39-r2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Gradual wave"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Begin with the smallest area possible that is neutral. Sense the current condition and sense it radiating outward to the next area, which should still feel comfortable. Continue this, pausing and sensing in each new area, or continue with the original area, only. Sense what the body needs to feel better, without thinking of medical terms. Allow the image to fade, sense the whole body, the contact points, and repeat the process."
+   ],
+   "run": "HG38_39-r1-s8",
+   "file": "fix-20261018/emu-g/HG38_39-r1-s8.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "Care workshop"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "First get ready as if you were going to work with a patient. Time, place, tools and boundaries. When you invite them in, the signal, the feeling or the younger state to come as close as you want them to be. Be careful to not use language which makes you fragmented. Ask them what they need, wait and see if you want to reconnect with them. If not, rest and see again. If you have an adult part which can do this or borrow a function from someone else, speak to them. You decide the words, the pace and what you want to do. The goal is to be as good as you can and not erase your history. Finally, close as you would with a patient. Say that you are whole, an adult and come back."
+   ],
+   "run": "HG38_39-r1-s9",
+   "file": "fix-20261018/emu-c/HG38_39-r1-s9.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "Resource embodiment"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Choose someone or something who has a characteristic you want to adopt. Close your eyes and imagine them. Now imagine yourself becoming them, standing, walking and talking like them, just 1% more, or if you are uncomfortable with this, simply observe them, but in either case be aware of how you now have more access to that quality. Notice what happens. Repeat a few times. Now think of a situation you want to use that characteristic in. Finally let go of the person/thing, but keep the characteristic, and say to yourself \"I am me\", and notice how you have increased access to the characteristic you wanted."
+   ],
+   "run": "HG38_39-r1-s10",
+   "file": "fix-20261018/emu-c/HG38_39-r1-s10.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "No-trance inner contact"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "Things to do in between: keep the eyes open, notice where the practice is taking place and on what day, notice the feet, read something, write something, notice that one is still relatively normally aware.",
+    "Invitation: choose a question and keep it in mind, do not specifically focus or narrow the awareness further.",
+    "Choice: do whatever comes to mind, answer the question or write it down, write that one does not know, rest, change the question, ask someone else, stop the practice, etc.",
+    "Autonomous signal: write anything that comes to mind, no interpretation.",
+    "Deepener: none, it is not necessary to reach a state that is less alert.",
+    "Other autonomous: have the adult part of yourself answer the question in any way, preferably in writing or by taking an action.",
+    "Integration/exit: reality test the autonomous signal and take an action based on that, end the practice (no special exit is needed since no state was achieved that one needs to exit from)."
+   ],
+   "run": "HG38_39-r1-s11",
+   "file": "fix-20261018/emu-c/HG38_39-r1-s11.out.txt"
+  }
+ ]
+}

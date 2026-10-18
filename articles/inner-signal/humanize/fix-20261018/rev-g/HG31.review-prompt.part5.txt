@@ -1,0 +1,120 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B93] To override fear before asking what the fear protects.
+
+[B94] To recover memories.
+
+[B95] To manipulate anyone else.
+
+[B96] To convince myself an intuition is true.
+
+[B97] To erase pain, hunger, grief, anger, or a medical symptom.
+
+[B98] While panicking, destabilized, manic, psychosis-like, chemically overwhelmed, or too dissociated to reality-test.
+
+[B99] To make another person’s no feel like resistance.
+
+[B100] To make someone feel spiritually inferior for disagreeing.
+
+[B101] To hide a command inside soft language.
+
+[B102] To create urgency where time is needed.
+
+[B103] To bypass consent by calling something “subconscious agreement.”
+
+[B104] To use trance, fatigue, attraction, shame, grief, or altered states to get compliance.
+
+[B105] Running the whole NLP sequence
+
+[B106] Induce or contain. Gather attention, or stabilize first if you are already wide open.
+
+[B107] Ask permission. Is it useful to work with this image, feeling, or pattern today?
+
+[B108] Represent the pattern. How does this show up — image, voice, sensation, posture, distance, size, color, movement?
+
+[B109] Ask what it protects. What is this trying to do for me?
+
+REWRITE:
+[CHANGED, replaces B93]
+Remove fear (only re-prioritize it to a more useful level)
+
+[CHANGED, replaces B94]
+Recover “memories”
+
+[CHANGED, replaces B95]
+Manipulate people (this includes myself)
+
+[CHANGED, replaces B96]
+Convince myself intuitions are true (that’s more carefully attending to the non-rational data stream)
+
+[CHANGED, replaces B97]
+Remove legitimate signals (pain, hunger, etc) or medical symptoms
+
+[CHANGED, replaces B98]
+Do while in states of panic, extreme destabilization, mania, “psychosis-like” states, extreme chemical conditions, etc
+
+[CHANGED, replaces B99]
+Manipulate other people (this includes:
+
+[CHANGED, replaces B100]
+Making people feel spiritually inferior
+
+[CHANGED, replaces B101]
+Giving covert commands
+
+[CHANGED, replaces B102]
+Creating false urgency
+
+[CHANGED, replaces B103]
+Non-consciously gaining permission
+
+[CHANGED, replaces B104]
+Manipulating people in trance states, weakened states, attraction states, etc
+
+[B105, as published] Running the whole NLP sequence
+
+[CHANGED, replaces B106-B107]
+2. Induce or contain a person.
+
+3. Ask permission.
+
+[CHANGED, replaces B108]
+Help client accurately represent this pattern. What does it look like? Where? How big? How close? What color? How does it move?
+
+[CHANGED, replaces B109]
+Ask what it is trying to do for the client.
+
+
+This is PART 5 of 6 of the section: only the stretches below are yours; the published blocks shown are the ones they replace, with the headings around them. Go through the points in your head; don't write them out. Return only the JSON array, nothing before or after it.

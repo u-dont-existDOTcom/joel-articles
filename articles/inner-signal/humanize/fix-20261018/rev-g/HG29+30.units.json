@@ -62,7 +62,11 @@
     "Intention (what do you want to change?)",
     "Constraint (what is safe?)",
     "Output (how do you want the answer: as an image, phrase, body signal, memory, action, question, symbol, silence, rest…?)",
-    "Evaluation (how do you evaluate the answer: is it true? kind? timely? stabilizing? specific? testable?)"
+    "Evaluation (how do you evaluate the answer: is it true? kind? timely? stabilizing? specific? testable?)",
+    "Iteration (revise the prompt based on real life feedback)",
+    "Always include a “safe” fallback. If you don’t do that, the analytical part of your mind might fabricate answers to fit your prompt. Here is one fallback:",
+    "If the system needs more time to process this, or if silence is the best and safest answer, then let the body go into a deeper state of comfortable rest. The prompt is considered successfully answered with peaceful silence.",
+    "Sometimes there is no answer because nothing is happening. Sometimes the answer is that it is not time yet, or that you need to rest, build capacity, or do whatever it is you are supposed to be doing."
    ],
    "run": "HG29_30-r1",
    "file": "fix-20261018/emu-i/HG29_30-r1.out.txt"
@@ -105,9 +109,6 @@
     38
    ],
    "paras": [
-    "Always include a “safe” fallback. If you don’t do that, the analytical part of your mind might fabricate answers to fit your prompt. Here is one fallback:",
-    "If the system needs more time to process this, or if silence is the best and safest answer, then let the body go into a deeper state of comfortable rest. The prompt is considered successfully answered with peaceful silence.",
-    "Sometimes there is no answer because nothing is happening. Sometimes the answer is that it is not time yet, or that you need to rest, build capacity, or do whatever it is you are supposed to be doing.",
     "Here are the core prompts that can be mixed and matched:",
     "Clarity: Wise subconscious mind, show me what is true, kind and timely. If there is something I need to know that is too intense to integrate, please transfer it to my conscious mind in a safe way that I can integrate. Show me my capacity to be peaceful first, and then the content of whatever is wounding me.",
     "Resistance: What are you protecting me from? How can you trust me 1% more?",

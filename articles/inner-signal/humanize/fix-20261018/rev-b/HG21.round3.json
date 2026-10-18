@@ -1,0 +1,31 @@
+[
+ {
+  "block": 4,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B4: SHIFT \"what needed warmth/protection, what direction serves\" became \"what you would like to nurture/protect/direct\"",
+    "replace": "consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life.",
+    "with": "ask what needed warmth, what needed protection, and what direction serves truth and love and life.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "B4: LOST \"capacity to build\"",
+    "replace": "Perhaps there is something you would like to explore or build up.",
+    "with": "Perhaps there is something to explore, or capacity to build.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "B4: LOST \"[cue] happens\" (first blank no longer a cue)",
+    "replace": "If _________ , then I will do",
+    "with": "If _________ (cue) happens, then I will do",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]

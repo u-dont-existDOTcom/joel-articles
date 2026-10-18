@@ -1,1 +1,202 @@
-{}
+{
+ "HG14": {
+  "done": true,
+  "review": "rev-d/HG14.review.json",
+  "verify": "verify-b/HG14.verify.txt",
+  "adjudication": "dispositions.json (round 2 in rev-d/HG14.round2.json)",
+  "repeats": 0,
+  "notes": "every second-reader finding fixed in round 2 or answered in dispositions.json"
+ },
+ "HG20": {
+  "done": true,
+  "review": "rev-d/HG20.review.json",
+  "verify": "verify-b/HG20.verify.txt",
+  "adjudication": "dispositions.json (round 2 in rev-d/HG20.round2.json)",
+  "repeats": 0,
+  "notes": "every second-reader finding fixed in round 2 or answered in dispositions.json"
+ },
+ "HG35": {
+  "done": true,
+  "review": "rev-d/HG35.review.json",
+  "verify": "verify-b/HG35.verify.txt",
+  "adjudication": "dispositions.json (round 2 in rev-d/HG35.round2.json)",
+  "repeats": 0,
+  "notes": "every second-reader finding fixed in round 2 or answered in dispositions.json"
+ },
+ "HG02+03": {
+  "done": true,
+  "review": "rev-e/HG02+03.review.json",
+  "verify": "verify-b/HG02+03.verify.txt",
+  "adjudication": "dispositions.json (round 2 in rev-e/HG02+03.round2.json)",
+  "repeats": 0,
+  "notes": "every second-reader finding fixed in round 2 or answered in dispositions.json"
+ },
+ "HG27": {
+  "done": true,
+  "review": "rev-e/HG27.review.json",
+  "verify": "verify-b/HG27.verify.txt",
+  "adjudication": "verify-b: all OK, no repeats",
+  "repeats": 0,
+  "notes": "every second-reader finding fixed in round 2 or answered in dispositions.json"
+ },
+ "HG33": {
+  "done": true,
+  "review": "rev-e/HG33.review.json",
+  "verify": "verify-b/HG33.verify.txt",
+  "adjudication": "dispositions.json (round 2 in rev-e/HG33.round2.json)",
+  "repeats": 0,
+  "notes": "every second-reader finding fixed in round 2 or answered in dispositions.json"
+ },
+ "HG01": {
+  "done": true,
+  "review": "rev-b/HG01.review.json",
+  "verify": "verify-a/HG01.verify.txt",
+  "adjudication": "adjudicate-a/HG01.answer.json (round 3 in rev-b/HG01.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG06": {
+  "done": true,
+  "review": "rev-a/HG06.review.json",
+  "verify": "verify-a/HG06.verify.txt",
+  "adjudication": "adjudicate-a/HG06.answer.json (round 3 in rev-a/HG06.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG10": {
+  "done": true,
+  "review": "rev-a/HG10.review.json",
+  "verify": "verify-a/HG10.verify.txt",
+  "adjudication": "adjudicate-a/HG10.answer.json (round 3 in rev-a/HG10.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG11": {
+  "done": true,
+  "review": "rev-a/HG11.review.json",
+  "verify": "verify-a/HG11.verify.txt",
+  "adjudication": "adjudicate-a/HG11.answer.json (round 3 in rev-a/HG11.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG12": {
+  "done": true,
+  "review": "rev-b/HG12.review.json",
+  "verify": "verify-a/HG12.verify.txt",
+  "adjudication": "adjudicate-a/HG12.answer.json (round 3 in rev-b/HG12.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG13": {
+  "done": true,
+  "review": "rev-c/HG13.review.json",
+  "verify": "verify-a/HG13.verify.txt",
+  "adjudication": "adjudicate-a/HG13.answer.json (round 3 in rev-c/HG13.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG15": {
+  "done": true,
+  "review": "rev-b/HG15.review.json",
+  "verify": "verify-a/HG15.verify.txt",
+  "adjudication": "adjudicate-a/HG15.answer.json (round 3 in rev-b/HG15.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG18": {
+  "done": true,
+  "review": "rev-b/HG18.review.json",
+  "verify": "verify-a/HG18.verify.txt",
+  "adjudication": "adjudicate-a/HG18.answer.json (round 3 in rev-b/HG18.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG19": {
+  "done": true,
+  "review": "rev-b/HG19.review.json",
+  "verify": "verify-a/HG19.verify.txt",
+  "adjudication": "adjudicate-a/HG19.answer.json (round 3 in rev-b/HG19.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG21": {
+  "done": true,
+  "review": "rev-b/HG21.review.json",
+  "verify": "verify-a/HG21.verify.txt",
+  "adjudication": "adjudicate-a/HG21.answer.json (round 3 in rev-b/HG21.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG22": {
+  "done": true,
+  "review": "rev-a/HG22.review.json",
+  "verify": "verify-a/HG22.verify.txt",
+  "adjudication": "adjudicate-a/HG22.answer.json (round 3 in rev-a/HG22.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG23": {
+  "done": true,
+  "review": "rev-b/HG23.review.json",
+  "verify": "verify-a/HG23.verify.txt",
+  "adjudication": "adjudicate-a/HG23.answer.json (round 3 in rev-b/HG23.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG25": {
+  "done": true,
+  "review": "rev-b/HG25.review.json",
+  "verify": "verify-a/HG25.verify.txt",
+  "adjudication": "adjudicate-a/HG25.answer.json (round 3 in rev-b/HG25.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG26": {
+  "done": true,
+  "review": "rev-b/HG26.review.json",
+  "verify": "verify-a/HG26.verify.txt",
+  "adjudication": "adjudicate-a/HG26.answer.json (round 3 in rev-b/HG26.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG28": {
+  "done": true,
+  "review": "rev-b/HG28.review.json",
+  "verify": "verify-a/HG28.verify.txt",
+  "adjudication": "adjudicate-a/HG28.answer.json (round 3 in rev-b/HG28.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG34": {
+  "done": true,
+  "review": "rev-b/HG34.review.json",
+  "verify": "verify-a/HG34.verify.txt",
+  "adjudication": "adjudicate-a/HG34.answer.json (round 3 in rev-b/HG34.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG36": {
+  "done": true,
+  "review": "rev-b/HG36.review.json",
+  "verify": "verify-a/HG36.verify.txt",
+  "adjudication": "adjudicate-a/HG36.answer.json (round 3 in rev-b/HG36.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG40": {
+  "done": true,
+  "review": "rev-c/HG40.review.json",
+  "verify": "verify-a/HG40.verify.txt",
+  "adjudication": "adjudicate-a/HG40.answer.json (round 3 in rev-c/HG40.round3.json)",
+  "repeats": 0,
+  "notes": "verify-a findings: fixed in round 2 or 3, or answered (dispositions.json)"
+ },
+ "HG07": {
+  "done": true,
+  "review": "rev-a/HG07.review.json",
+  "verify": "verify-a/HG07.verify.txt",
+  "adjudication": "verify-a: all OK, no repeats",
+  "repeats": 0,
+  "notes": ""
+ }
+}

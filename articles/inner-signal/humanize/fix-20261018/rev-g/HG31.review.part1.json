@@ -1,0 +1,44 @@
+[
+{"block": 1, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "bag of tricks now caused by not knowing NLP; 'useful when it helps the system listen' lost", "replace": "If you don’t know a little bit about NLP, it’s easy to turn NLP into a bag of tricks and forget that", "with": "NLP is useful when it helps the system listen, but it’s easy to turn it into a bag of tricks and forget that"},
+{"type": "SHIFT", "what": "'core method' became 'the system', clashing with 'helps the system listen'", "replace": "to use the system", "with": "to practice the core method"}
+]},
+{"block": 3, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'a remembered person' and 'an unpleasant sensation' are examples the published list (posture, pressure) doesn't give", "replace": "the posture of a remembered person, the pressure of an unpleasant sensation", "with": "posture, pressure"}
+]},
+{"block": 4, "verdict": "OK"},
+{"block": 5, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the example 'when this cue appears, the adult does this'; 'a better response' became 'a new strategy'", "replace": "practice a new strategy", "with": "practice a better response: when this cue appears, the adult does this"}
+]},
+{"block": 6, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'what is already true' became 'what is there'", "replace": "pacing what is there", "with": "pacing what is already true"},
+{"type": "SHIFT", "what": "'link cause and effect carefully' became 'in new ways'", "replace": "linking cause and effect in new ways", "with": "linking cause and effect carefully"},
+{"type": "SHIFT", "what": "'embed invitations' became 'embedding suggestions'", "replace": "embedding suggestions", "with": "embedding invitations"}
+]},
+{"block": 8, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'often make a part brace' became a flat statement that a part braces", "replace": "a part of me braces against it", "with": "a part of me often braces against it"}
+]},
+{"block": 9, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'without having to overpower it'", "replace": "argue with me, and", "with": "argue with me without having to overpower it, and"}
+]},
+{"block": 10, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'only a small safe capacity' became 'the least possible capacity'; 'safe' lost", "replace": "the least possible capacity", "with": "only a small safe capacity"}
+]},
+{"block": 11, "verdict": "OK"},
+{"block": 12, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'Presuppose capacity' became presupposing 'the capacity to do what I want'", "replace": "the capacity to do what I want", "with": "capacity"}
+]},
+{"block": 14, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the definition: pacing and leading means stating what is already true before inviting anything new", "replace": "to pace and lead?", "with": "to pace and lead? It means stating what is already true before inviting anything new."}
+]},
+{"block": 15, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the example script itself: anxiety, body activated, protector helping, adult can start to listen", "replace": "for anxiety:", "with": "for anxiety: “Anxiety is here. The body is activated. A protector is trying to help. And one breath at a time, the adult can start to listen.”"}
+]},
+{"block": 16, "verdict": "OK"},
+{"block": 17, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'to whatever comes up next' (and the closing quotation mark)", "replace": "and is willing to listen.", "with": "and is willing to listen to whatever comes up next.”"}
+]},
+{"block": 19, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'point attention without yelling at it', the verbs' defining quality", "replace": "verbs:", "with": "verbs, which point attention without yelling at it:"}
+]}
+]

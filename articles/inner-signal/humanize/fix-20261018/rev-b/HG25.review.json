@@ -30,6 +30,14 @@
     "with": "Stabilize yourself first.",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT \"chase\"/\"hobby\" became \"obsess\"/\"obsessed\"",
+    "replace": "obsess about “downloading” grandiose information or become obsessed with",
+    "with": "chase grand “downloads” or make a hobby of",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -98,6 +106,22 @@
     "with": "any inner role, like",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B7: INVENTED \"They each need the others\"",
+    "replace": "They each need the others: the child",
+    "with": "The child",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B7: SHIFT \"in proportion\" became only \"no total takeover\"; \"any inner state\" widens the four roles",
+    "replace": "to take over completely",
+    "with": "to get out of proportion",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -182,6 +206,14 @@
     "with": "Don’t put in, or let anyone put in, hidden “commands”.",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B13: SHIFT \"undisclosed third-party activation\" became commands relayed via someone else",
+    "replace": "give commands to someone else to give to “YOU” or to make YOU do anything",
+    "with": "put in undisclosed third-party activation, or to make YOU do anything",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },

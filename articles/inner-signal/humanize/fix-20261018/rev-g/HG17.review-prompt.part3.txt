@@ -1,0 +1,128 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B42] Look at one object. Feel the spine.
+
+[B43] “Is this daydream guidance, emotional digestion, or avoidance?”
+
+[B44] “If it is guidance, show me the action inside it. If it is avoidance, bring me gently into the present and show me what I am avoiding.”
+
+[B45] If stillness makes you sleepy, diffuse, or escape-prone, hypnosis can become more alert rather than more relaxed. Keep the eyes open and pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains without trying to disappear inward.
+
+[B46] “Eyes open. Press thumb and forefinger together gently. Release. Again — clearer, not sleepier. One more time. Now stop the deliberate movement. Notice the first second after the rhythm ends. Is there an echo in the fingers, the breath, the attention, or nowhere at all? Stay upright and work from exactly that level of alertness.”
+
+[B47] The two-hand induction
+
+[B48] Place one hand on the heart. Place the other hand on the solar plexus.
+
+[B49] Let the heart hand represent the Nurturer. Let the solar plexus hand represent the vulnerable child.
+
+[B50] Breathe gently.
+
+[B51] “Love above. Child below. Adult present.”
+
+[B52] “I send love to the child. I receive the child’s signal. I send love again. I listen again.”
+
+[B53] Sleep induction
+
+[B54] Sleep induction has a different job. In inner work, the adult returns, writes, and acts. At bedtime, analysis can remain off duty. Revelation can wait; the task is rest.
+
+[B55] For sleep hypnosis, see Nimja’s sleep playlist.
+
+[B56] Optional fractionation: practice coming back
+
+[B57] Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. Name the technique before using it; every answer cannot secretly mean “deeper.”
+
+[B58] “Open the eyes and return toward ordinary awareness. Feel the room and decide whether to stop here. If you choose to continue, close or soften the eyes and notice what changes as attention gathers again. You may stop at either point.”
+
+[B59] Deepening, if useful
+
+[B60] “If it is useful, attention may become more gathered. If it is not useful, I remain exactly as awake as I need to be.”
+
+REWRITE:
+[CHANGED, replaces B42]
+Then choose an object to look at, or feel your spine, etc.
+
+[CHANGED, replaces B43]
+Ask yourself if your daydreaming is helping you to receive guidance or digest emotional experiences, or if you are escaping from something.
+
+[CHANGED, replaces B44]
+Then you can ask for help to take action based on the guidance or to come into the present moment and see what you are escaping from.
+
+[CHANGED, replaces B45]
+If you find that being still leads you to escape into sleepiness and diffuse states, you can work with increasing alertness rather than relaxation, keep your eyes open and work with doing a movement with your hands, which you repeat for a while and then stop deliberately in order to notice if there is any residual activity.
+
+[CHANGED, replaces B46]
+You can say something like: ‘While you keep your eyes open, press your thumb and forefinger together and then let go; do this a few times, becoming more and more clear and alert each time. Now deliberately stop doing that movement and notice if there is any residual activity or if it has completely stopped.’ Work with a level of alertness that is useful to you.
+
+[B47, as published] The two-hand induction
+
+[CHANGED, replaces B48]
+Where are YOUR hands? Put one on YOUR heart and the other on YOUR solar plexis.
+
+[CHANGED, replaces B49]
+The hand on YOUR heart is the Nurturer, the one on the solar plexis is the little vulnerable part in YOU.
+
+[CHANGED, replaces B50]
+Then breath and affirm
+
+[CHANGED, replaces B51]
+“ The love is above and the child is below. And in the middle, the adult – that’s ME!
+
+[CHANGED, replaces B52]
+I send love down and I receive the signal from the child. Then I send love again and receive the signal again.
+
+[B53, as published] Sleep induction
+
+[CHANGED, replaces B54]
+This is not like other inductions on this website. The goal of other inductions is to get all the way back to your Adult so you can write and do things. The goal of this induction is to go to sleep, so it's okay to not do any analyzing or allow yourself any revelations.
+
+[CHANGED, replaces B55]
+For a hypnosis to help you sleep, try out Nimja's sleep playlist here .
+
+[B56, as published] Optional fractionation: practice coming back
+
+[CHANGED, replaces B57]
+Fractionation is when you bring the person back up and send them back down into absorption. As long as you're doing it openly (telling them you're doing it), it's okay, because it teaches the person that they can always get out of trance. Not all questions should have the answer "deeper."
+
+[CHANGED, replaces B58]
+At some point you can say, "When you're ready, open your eyes and bring yourself all the way back up. You can decide if you want to end the hypnosis here, or you can close/soften your eyes and send yourself back down into absorption again."
+
+[B59, as published] Deepening, if useful
+
+[CHANGED, replaces B60]
+"When it's useful for me to deepen my absorption, I can. When it's not useful, I'm just as awake as I need to be."
+
+
+This is PART 3 of 4 of the section: only the stretches below are yours; the published blocks shown are the ones they replace, with the headings around them. Go through the points in your head; don't write them out. Return only the JSON array, nothing before or after it.

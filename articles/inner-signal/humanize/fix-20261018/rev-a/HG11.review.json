@@ -74,6 +74,14 @@
     "what": "'can drift', 'can become' became 'becomes': always, not can",
     "replace": "Love without analysis becomes fantasy, analysis without love becomes sterile. Intuition without testing becomes delusion; testing without intuition becomes dead.",
     "with": "Love without analysis can become fantasy, analysis without love can become sterile. Intuition without testing can become delusion; testing without intuition can become dead."
+   },
+   {
+    "type": "SHIFT",
+    "what": "B4: SHIFT \"Let the modes correct each other\" became \"can modify the others\"",
+    "replace": "serve to modify the others",
+    "with": "serve to correct the others",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },

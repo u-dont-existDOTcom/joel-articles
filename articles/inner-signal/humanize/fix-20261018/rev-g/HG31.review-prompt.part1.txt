@@ -1,0 +1,128 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B1] You can practice the core method without learning one term of Neuro-Linguistic Programming. Read this appendix when you want more precision about imagery, bodily states, rehearsal, and sentence design. NLP is useful when it helps the system listen; it becomes a bag of tricks when technique replaces love, truth, contact, or consent.
+
+[B2] The four NLP layers
+
+[B3] Sensory NLP changes the form of an inner experience: image, sound, distance, size, brightness, volume, posture, pressure.
+
+[B4] State NLP makes useful states easier to access: warmth, adult presence, courage, steadiness, love, clarity.
+
+[B5] Strategy NLP rehearses a better response: when this cue appears, the adult does this.
+
+[B6] Language NLP shapes the sentence: pace what is already true, open awareness, presume only safe capacity, link cause and effect carefully, embed invitations, and use de-hypnotic questions when language becomes vague, absolute, manipulative, or grandiose.
+
+[B7] The Milton Model, minus the covert sales seminar
+
+[B8] The Milton Model concerns the architecture of the sentence. Commands such as “Relax now,” “Stop being anxious,” or “Trust me” often make a part brace.
+
+[B9] Part of the point of indirect language is to get past that reflexive skeptical argument without having to overpower it. The destination can still be deliberate even when the route is subtle.
+
+[B10] Begin with what is already true, lower the pressure, presume only a small safe capacity, and invite one movement:
+
+[B11] “As the body notices the bed beneath it, it may become a little easier to stop holding the whole day alone.”
+
+[B12] Pace reality. Open awareness. Validate function. Presuppose capacity. Bridge gently. Invite one small movement. Test with the body.
+
+[B13] Pattern 1: Pacing and leading — truth before suggestion
+
+[B14] Pacing and leading means stating what is already true before inviting anything new.
+
+[B15] “Anxiety is here. The body is activated. A protector is trying to help. And one breath at a time, the adult can start to listen.”
+
+[B16] The simplest form is a Truth + Invite loop:
+
+[B17] “It is completely true that [current sensation or emotion] is here. It makes sense that my system is reacting by [current protective behavior or thought]. And right alongside that truth, my adult self is here, breathing in this room, ready to listen to whatever comes up next.”
+
+[B18] Pattern 2: Awareness verbs
+
+[B19] Awareness verbs point attention without yelling at it: notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider.
+
+REWRITE:
+[CHANGED, replaces B1]
+You don’t have to know the terms to use the system. If you want to brush up on the art of imagery, how imagery is linked to bodily states, how to effectively rehearse new behaviors, how to choose more effective sentences to say to yourself, etc., then you might want to read this appendix. If you don’t know a little bit about NLP, it’s easy to turn NLP into a bag of tricks and forget that love, truth, contact, and consent are essential.
+
+[B2, as published] The four NLP layers
+
+[CHANGED, replaces B3]
+When it works, it works on a Sensory Level of NLP: changing where people see or hear an image, the distance or size or brightness, the volume of a sound, the posture of a remembered person, the pressure of an unpleasant sensation.
+
+[CHANGED, replaces B4]
+Second, it works on a State Level of NLP: helping them to access warmth, or a feeling of adult-ness, or courage, or steadiness, or love, or clarity.
+
+[CHANGED, replaces B5]
+Third, it works on a Strategy level of NLP: helping people to practice a new strategy.
+
+[CHANGED, replaces B6]
+Fourth, it works on a Language Level of NLP: pacing what is there, opening up people’s awareness, presuming their ability to do something safe, linking cause and effect in new ways, embedding suggestions, or asking de-hypnotic questions to break the effects of vague, absolutes, manipulative, or grandiose language.
+
+[B7, as published] The Milton Model, minus the covert sales seminar
+
+[CHANGED, replaces B8]
+It's called the Milton Model and has to do with the architecture of the sentence. When I say "Relax now", or "Stop being anxious", or even "Trust me" a part of me braces against it.
+
+[CHANGED, replaces B9]
+The idea is to use indirect language to get past the part that wants to argue with me, and get to the place I want to go to.
+
+[CHANGED, replaces B10]
+To do that, I start with something I know to be true, and I take the pressure off by presuming the least possible capacity in the person and invite just one movement:
+
+[CHANGED, replaces B11]
+"As the body notices the bed beneath it, it may become a little easier to stop holding the whole day alone."
+
+[CHANGED, replaces B12]
+That way I pace reality, I open up awareness, I validate the function of what I'm doing, I presuppose the capacity to do what I want, I use a bridge to make the link easier, I invite only one small movement, and I have a way of testing with the body if it's happening.
+
+[B13, as published] Pattern 1: Pacing and leading — truth before suggestion
+
+[CHANGED, replaces B14]
+What is it looks like to pace and lead?
+
+[CHANGED, replaces B15]
+Here is an example of pacing and leading for anxiety:
+
+[CHANGED, replaces B16]
+It can be as simple as: Truth, Invite, Truth, Invite etc.
+
+[CHANGED, replaces B17]
+“It is completely true that the sensation of _______ (or emotion of _____) is coming up for me right now. It makes complete sense that a part of me is trying to protect me by doing/thinking ________. While that is completely true, another completely true thing is that there is a part of me that is adult, and that is breathing in this room right now, and is willing to listen.
+
+[B18, as published] Pattern 2: Awareness verbs
+
+[CHANGED, replaces B19]
+Try some of the other ‘awareness’ verbs: notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider
+
+
+This is PART 1 of 6 of the section: only the stretches below are yours; the published blocks shown are the ones they replace, with the headings around them. Go through the points in your head; don't write them out. Return only the JSON array, nothing before or after it.

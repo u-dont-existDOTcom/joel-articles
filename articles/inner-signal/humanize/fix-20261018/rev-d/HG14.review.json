@@ -55,7 +55,7 @@
     "type": "LOST",
     "what": "the name 'borrowed adulthood', 'provisional', the familiar practices it combines; 'many of the steps have been shown to be effective' is new",
     "replace": "To help these people access their adult functions, I recommend the following steps. Please note, the following is a bridge that I developed – while many of the steps have been shown to be effective, the entirety of the steps have not (to the best of my knowledge).",
-    "with": "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. It puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), but nobody has validated the whole sequence as one treatment, and I’m not claiming they have."
+    "with": "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. Please note, it puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), and I’m not claiming that the entirety of the steps has been validated as one treatment."
    }
   ]
  },
@@ -110,6 +110,14 @@
     "what": "use a remembered person when that helps, or an imagined adult whose intention is to take good care of you",
     "replace": "Just imagine a good adult.",
     "with": "Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you."
+   },
+   {
+    "type": "SHIFT",
+    "what": "the least cruel response you can believe",
+    "replace": "imagine the least cruel thing you can.",
+    "with": "start with the least cruel response you can believe.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -228,6 +236,30 @@
     "what": "punishment cannot retroactively create the capacity that was missing",
     "replace": "would simply punishing you make any difference to the person you were when you committed the offence?",
     "with": "remember that punishing yourself now can’t go back and give the person you were then the capacity they were missing."
+   },
+   {
+    "type": "SHIFT",
+    "what": "when a younger you becomes the defendant (a picture, not an exercise in court); what they understood then; options they could see and tolerate",
+    "replace": "Imagine that you are in court and the defendant is a younger you. Would it be of any value",
+    "with": "When a younger you becomes the defendant in your own head, would it be of any value",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "what they understood then",
+    "replace": "try and understand why you did whatever it was you did?",
+    "with": "try and understand what you understood back then?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "options they could see and tolerate",
+    "replace": "what options you felt you had?",
+    "with": "what options you could see and tolerate?",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -240,6 +272,14 @@
     "what": "'that will help you get in touch'",
     "replace": "that will help you get in touch with your inner child",
     "with": "for connecting with your inner child"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a physical connection to love (not 'your heart is full of love')",
+    "replace": "Remember your heart is there and it’s full of love.",
+    "with": "That hand is a physical connection to love.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -274,6 +314,14 @@
     "what": "the inner child, not children",
     "replace": "to enjoy your children.",
     "with": "to enjoy your inner child."
+   },
+   {
+    "type": "LOST",
+    "what": "the Nurturer brings warmth (B32's 'that warmth' needs it)",
+    "replace": "One of the most important things you can do as a Nurturer is to enjoy your inner child.",
+    "with": "As a Nurturer, you bring warmth, and one of the most important things you can do is to enjoy your inner child.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -304,6 +352,14 @@
     "what": "keep a small promise",
     "replace": "'I will do x'",
     "with": "'I will keep a small promise'"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "Emulate's placeholder 'x': adult consequences",
+    "replace": "I won’t put you in the position of having to deal with x ",
+    "with": "I won’t leave you alone with adult consequences",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -334,6 +390,22 @@
     "what": "completion without immediate relief isn't failure; a tick doesn't prove it helped",
     "replace": "Also, make sure that doing them is actually helpful - don't just be ticking things off a list.",
     "with": "Doing it without feeling better right away isn't automatically failure, and ticking it off a list doesn't prove it helped."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "Emulate's placeholder 'X': a practical barrier",
+    "replace": "lack of X,",
+    "with": "a practical barrier,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "small enough to carry out; review what actually happened",
+    "replace": "Make sure they are attainable.",
+    "with": "Make sure they are small enough to carry out, and look at what actually happened.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -363,7 +435,7 @@
     "type": "LOST",
     "what": "without erasing either person",
     "replace": "without punishing the other person for needing space. Etc.",
-    "with": "without punishing the other person for needing space, and without erasing either of you."
+    "with": "without punishing the other person for needing space, and without erasing either of you. Etc."
    }
   ]
  },
@@ -391,7 +463,7 @@
     "type": "LOST",
     "what": "use parts language when you recognize a protective pattern; a sensation, distraction or objection doesn't establish its cause; notice it first",
     "replace": "If this language is familiar to you, feel free to use it.",
-    "with": "Use this parts language when you actually recognize a protective pattern, or when it’s useful to explore. A sensation, a distraction or an objection doesn’t tell you its own cause. Notice it first: hunger may just need food, skepticism may be reasonable, and a sentence may simply not fit."
+    "with": "Feel free to use this parts language when you actually recognize a protective pattern, or when it’s useful to explore. A sensation, a distraction or an objection doesn’t tell you its own cause. Notice it first: hunger may just need food, skepticism may be reasonable, and a sentence may simply not fit."
    }
   ]
  },
@@ -474,6 +546,14 @@
     "what": "write down the truth",
     "replace": "owe someone money.",
     "with": "owe someone money, or writing down the truth."
+   },
+   {
+    "type": "LOST",
+    "what": "keep the promise",
+    "replace": "holding back from sending a text, or sleeping,",
+    "with": "holding back from sending a text, keeping the promise, or sleeping,",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -485,7 +565,7 @@
     "type": "INVENTED",
     "what": "a forum question; the published: the Protector is more than a voice saying no, practiced as a bodily sequence",
     "replace": "Does anyone here practice the following sequence to “embody” Protector?",
-    "with": "The Protector is more than an inner voice saying no. You can practice it as a sequence in your body:"
+    "with": "The Protector is more than an inner voice saying no. Want to “embody” it? Practice the following sequence:"
    }
   ]
  },
@@ -531,7 +611,17 @@
  },
  {
   "block": 58,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "discernment that acts when needed and quits scanning after the danger has passed",
+    "replace": "and to quit scanning the room after taking appropriate action.",
+    "with": "that acts when needed, and to quit scanning the room after the danger has passed.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
  },
  {
   "block": 60,
@@ -541,13 +631,21 @@
     "type": "INVENTED",
     "what": "'Client', the therapy 'you are doing'",
     "replace": "Client, I want to talk about the connection between the reparenting therapy you are doing, and the self hypnosis. I think it can be a perfect fit.",
-    "with": "I connect my reparenting therapy to self hypnosis because I think they’re a perfect fit."
+    "with": "I connect my reparenting therapy to self hypnosis. I think they’re a perfect fit."
    },
    {
     "type": "SHIFT",
     "what": "stay with a recognizable protector, or the sensation, feeling or preference actually present",
     "replace": "just work with whatever protector you do have, either in the form of a sensation, feeling, or preference)",
     "with": "stay with a protector you recognize, or with whatever sensation, feeling or preference is actually there)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the child may arrive (not 'summon')",
+    "replace": "you might summon the child",
+    "with": "the child may arrive",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ],
   "links": [
@@ -588,6 +686,14 @@
     "what": "a safer relationship",
     "replace": "a relationship?",
     "with": "a safer relationship?"
+   },
+   {
+    "type": "SHIFT",
+    "what": "warmth (not 'warm yourself by a fire')",
+    "replace": "Need to warm yourself by a fire?",
+    "with": "Need warmth?",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -612,6 +718,22 @@
     "what": "rest: stop before care becomes another performance; reassess later what actually helped",
     "replace": "Rest a while and then reassess to see how things are now.",
     "with": "Rest, and stop before the care turns into another performance. Then come back later and ask what actually helped."
+   },
+   {
+    "type": "LOST",
+    "what": "no part has to forgive",
+    "replace": "go away, or be happy,",
+    "with": "go away, forgive, or be happy,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "good as you: more supported and connected, still recognizably yourself; not as if history should disappear",
+    "replace": "Your aim is not to make it all good as new but good as you.",
+    "with": "Your aim is not to make it all good as new, as if your history should disappear, but good as you: more supported and connected, and still recognizably yourself.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },

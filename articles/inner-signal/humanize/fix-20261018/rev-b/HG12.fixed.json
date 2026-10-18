@@ -21,7 +21,7 @@
     1
    ],
    "paras": [
-    "Have I mentioned I'm a big fan of self-hypnosis? Doing it on my own seems far more useful than the very little I managed to do with a professional hypnotist. I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision."
+    "Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist. I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision."
    ],
    "run": "HG12-r1",
    "file": "fix-20261018/emu-a/HG12-r1.out.txt",
@@ -37,6 +37,14 @@
      "what": "he was sober at the hypnotist session, not now; and the larger issue was trust and precision",
      "replace": "I'm sober right now, and I don't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me.",
      "with": "I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision."
+    },
+    {
+     "type": "INVENTED",
+     "what": "B1: INVENTED \"big fan of self-hypnosis\" / \"have I mentioned\" added",
+     "replace": "Have I mentioned I'm a big fan of self-hypnosis? Doing it on my own",
+     "with": "Doing self-hypnosis on my own",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"

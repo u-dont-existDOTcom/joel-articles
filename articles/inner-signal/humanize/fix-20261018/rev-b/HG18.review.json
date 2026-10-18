@@ -26,6 +26,22 @@
     "with": "I am bringing back only what is useful now.",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT script made optional (\"You may wish to say\")",
+    "replace": "You may wish to say,",
+    "with": "Say,",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT \"ordinary-life intention or future-practice cue\" merged into \"intention (or cue) for the future\"",
+    "replace": "the conscious intention (or cue) I chose for the future",
+    "with": "the ordinary-life intention or future-practice cue I consciously chose",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -60,6 +76,14 @@
     "with": "Take note of only what actually came up during your session",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B4: SHIFT commands became \"it is a good idea to\"",
+    "replace": "It is a good idea to say to yourself what day it is or what the date is",
+    "with": "Say to yourself what day it is or what the date is",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -90,6 +114,14 @@
     "what": "an invitation to remain altered indefinitely",
     "replace": "blank or with an undefined reset word, etc.",
     "with": "blank, with an undefined reset word, or invited to stay altered indefinitely."
+   },
+   {
+    "type": "INVENTED",
+    "what": "B6: INVENTED general rule \"any state not conducive to normal functioning\"",
+    "replace": "any state that is not conducive to normal functioning, such as leaving you in a role,",
+    "with": "a role,",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  }

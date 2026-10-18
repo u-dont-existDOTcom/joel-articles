@@ -40,7 +40,7 @@
     20
    ],
    "paras": [
-    "Working with your inner child can be harder when your private self had very little room to develop. This happens a lot when people come from a background where their family, religion or community took over their life very early on, or they were pressured to achieve in a certain way at a young age. This means that you don’t know who you are, what you feel, what you want, what you believe, what you like, or what you don’t like until you hear what someone else says first. This makes it hard to follow the advice to “love yourself” when you don’t know who “yourself” is. So in these cases, reparenting can go hand in hand with finding yourself. For some, it’s easy to work with their child-self because they can feel their child-self really easily. For others, it requires creating safety and playing around more to feel their child-self.",
+    "Working with your inner child can be harder when your private self had very little room to develop. This can happen when people come from a background where their family, religion or community took over their life very early on, or they were pressured to achieve in a certain way at a young age. This means that you don’t know what you feel, what you want, what you believe, what you like, or what you don’t like until you hear what someone else says first. This makes it hard to follow the advice to “love yourself” when you don’t know who “yourself” is. So in these cases, reparenting can go hand in hand with finding yourself. For some, it’s easy to work with their child-self because they can feel their child-self really easily. For others, creating enough safety for preference, curiosity, and experimentation is part of how their child-self becomes easier to hear.",
     "You might be in this camp if:",
     "You don’t know what you want until you hear what someone else wants",
     "You find that your opinions change dramatically depending on who is around",
@@ -49,9 +49,9 @@
     "Trying to love yourself feels like a performance",
     "Trying to find out how your inner child feels, results in guesses instead of feeling",
     "You find that you can rebel, but you can’t choose",
-    "A useful way to explain this is that you didn’t have the room to explore “what do I like?”, “what do I want to try out?” or “who am I when nobody is grading me?”, because as a child your attention went into avoiding pain, reading danger, meeting expectations and keeping the bond. (That’s a practical model, not a claim about one specific brain system.)",
+    "A useful way to explain this is that you may have had less room to explore “what do I like?”, “what do I want to try out?” or “who am I when nobody is grading me?”, because as a child your attention went into avoiding pain, reading danger, meeting expectations and keeping the bond. (That’s a practical model, not a claim about one specific brain system.)",
     "Sometimes it helps to distance yourself for a certain period from the people or group that you are getting your answers from, so quieter preferences can surface. However, don’t do this for long (staying isolated would defeat the purpose) – just long enough to differentiate what is yours from what is social.",
-    "This means moving from a “human doer” to a “human being”. If you don’t feel like you are good enough just because you exist, you will try to create a sense of worth by being beautiful, by doing something well, by being smart, by gaining status, by being spiritual, or by being needed. These can all be real gifts. They turn into a bargain with yourself when failing at them feels like losing yourself – that as long as you are good at something (or good at being good for other people), you will be good enough to belong.",
+    "The difference between a “human doer” and a “human being” helps here. If you don’t feel like you are good enough just because you exist, you will try to create a sense of worth by being beautiful, by doing something well, by being smart, by gaining status, by being spiritual, or by being needed. These can all be real gifts. They turn into a bargain with yourself when failing at them feels like losing yourself – that as long as you are good at something (or good at being good for other people), you will be good enough to belong.",
     "To help you find yourself, ask yourself these questions:",
     "What do I like when no one is watching?",
     "What do I believe before I check what other people think?",
@@ -61,7 +61,7 @@
     "What can I try on for size that I don’t need to impress anyone with?",
     "What relationships allow me to be myself?",
     "What do I notice in my body and what meaning am I attaching to it?",
-    "Remember that your inner child needs to play! Try out some things that have no value towards your resume – painting, dancing, gardening, learning a language, a sport, volunteering, playing music, or anything else you’re allowed to be bad at. The parent voice you inherited may be telling you that you are supposed to be good at something as soon as you start doing it. Your job as your own parent is to remind yourself that you are not doing these things to prove your worth – you are doing them to see if you like them or not. And give it enough tries to get past the humiliation of being a beginner.",
+    "Give your inner child a small experiment with no value towards your resume – painting, dancing, gardening, learning a language, a sport, volunteering, playing music, or anything else you’re allowed to be bad at. The parent voice you inherited may be telling you that you are supposed to be good at something as soon as you start doing it. The adult can answer, “We’re finding out whether we enjoy this, not proving our worth.” And give it enough tries to get past the humiliation of being a beginner.",
     "For a child, belonging can feel like survival. So families, religions, romantic relationships, political tribes, spiritual groups, institutions, and even online communities can reach astonishingly far into who you are. Part of “adulting” is finding out where you are trading your sense of self in exchange for belonging, and then consciously choosing where you want to belong – on your terms, and learning that you can disappoint someone without disappearing. A large part of your subconscious mind is made up of the voices of other people, which is why this belongs in a self-hypnosis guide.",
     "Where am I betraying myself in exchange for belonging?",
     "What would it feel like to belong without having to betray myself?",
@@ -188,6 +188,62 @@
      "with": "",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"can begin\" became \"happens a lot... This means you don't know\"",
+     "replace": "This happens a lot when people come from a background where",
+     "with": "This can happen when people come from a background where",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"part of how\" became \"requires\"; preference and curiosity lost",
+     "replace": "For others, it requires creating safety and playing around more to feel their child-self.",
+     "with": "For others, creating enough safety for preference, curiosity, and experimentation is part of how their child-self becomes easier to hear.",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"can leave less room\" became \"you didn't have the room\"",
+     "replace": "you didn’t have the room to explore",
+     "with": "you may have had less room to explore",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"doer/being difference helps\" became \"This means moving from doer to being\" (unclear \"This\")",
+     "replace": "This means moving from a “human doer” to a “human being”.",
+     "with": "The difference between a “human doer” and a “human being” helps here.",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "B1: LOST quoted adult answer to the inherited parent; now \"remind yourself\"",
+     "replace": "Your job as your own parent is to remind yourself that you are not doing these things to prove your worth – you are doing them to see if you like them or not.",
+     "with": "The adult can answer, “We’re finding out whether we enjoy this, not proving our worth.”",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B1: INVENTED \"your inner child needs to play\"",
+     "replace": "Remember that your inner child needs to play! Try out some things that have no value towards your resume",
+     "with": "Give your inner child a small experiment with no value towards your resume",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "not",
+     "what": "R: not knowing who you are, in B1 and B1",
+     "replace": "know who you are, what you feel",
+     "with": "know what you feel",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"

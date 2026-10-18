@@ -113,7 +113,7 @@
     6
    ],
    "paras": [
-    "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. It puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), but nobody has validated the whole sequence as one treatment, and I’m not claiming they have."
+    "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. Please note, it puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), and I’m not claiming that the entirety of the steps has been validated as one treatment."
    ],
    "run": "HG14-r1-s2",
    "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
@@ -122,7 +122,7 @@
      "type": "LOST",
      "what": "the name 'borrowed adulthood', 'provisional', the familiar practices it combines; 'many of the steps have been shown to be effective' is new",
      "replace": "To help these people access their adult functions, I recommend the following steps. Please note, the following is a bridge that I developed – while many of the steps have been shown to be effective, the entirety of the steps have not (to the best of my knowledge).",
-     "with": "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. It puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), but nobody has validated the whole sequence as one treatment, and I’m not claiming they have."
+     "with": "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. Please note, it puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), and I’m not claiming that the entirety of the steps has been validated as one treatment."
     }
    ],
    "verdict": "fixed"
@@ -215,7 +215,7 @@
     12
    ],
    "paras": [
-    "You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine good, imagine the least cruel thing you can. Once you’ve found something good, try it, don’t keep doing the exercise."
+    "You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine good, start with the least cruel response you can believe. Once you’ve found something good, try it, don’t keep doing the exercise."
    ],
    "run": "HG14-r1-s3",
    "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt",
@@ -225,6 +225,14 @@
      "what": "use a remembered person when that helps, or an imagined adult whose intention is to take good care of you",
      "replace": "Just imagine a good adult.",
      "with": "Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you."
+    },
+    {
+     "type": "SHIFT",
+     "what": "the least cruel response you can believe",
+     "replace": "imagine the least cruel thing you can.",
+     "with": "start with the least cruel response you can believe.",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -421,7 +429,7 @@
     23
    ],
    "paras": [
-    "Imagine that you are in court and the defendant is a younger you. Would it be of any value to try and understand why you did whatever it was you did? Would it help to try and appreciate what options you felt you had? Would any useful insight be gained by considering the consequences of your actions? Whilst acknowledging the harm you may have caused, and working to address and repair that harm, remember that punishing yourself now can’t go back and give the person you were then the capacity they were missing."
+    "When a younger you becomes the defendant in your own head, would it be of any value to try and understand what you understood back then? Would it help to try and appreciate what options you could see and tolerate? Would any useful insight be gained by considering the consequences of your actions? Whilst acknowledging the harm you may have caused, and working to address and repair that harm, remember that punishing yourself now can’t go back and give the person you were then the capacity they were missing."
    ],
    "run": "HG14-r1-s6",
    "file": "fix-20261018/emu-e/HG14-r1-s6.out.txt",
@@ -437,6 +445,30 @@
      "what": "punishment cannot retroactively create the capacity that was missing",
      "replace": "would simply punishing you make any difference to the person you were when you committed the offence?",
      "with": "remember that punishing yourself now can’t go back and give the person you were then the capacity they were missing."
+    },
+    {
+     "type": "SHIFT",
+     "what": "when a younger you becomes the defendant (a picture, not an exercise in court); what they understood then; options they could see and tolerate",
+     "replace": "Imagine that you are in court and the defendant is a younger you. Would it be of any value",
+     "with": "When a younger you becomes the defendant in your own head, would it be of any value",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "what they understood then",
+     "replace": "try and understand why you did whatever it was you did?",
+     "with": "try and understand what you understood back then?",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "options they could see and tolerate",
+     "replace": "what options you felt you had?",
+     "with": "what options you could see and tolerate?",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -458,7 +490,7 @@
     25
    ],
    "paras": [
-    "So here is a simple easy little bit of body work for connecting with your inner child. All you have to do is place one hand in the center of your chest. Remember your heart is there and it's full of love. Now place your other hand just below that, at your solar plexis, that is where you can relate to your child."
+    "So here is a simple easy little bit of body work for connecting with your inner child. All you have to do is place one hand in the center of your chest. That hand is a physical connection to love. Now place your other hand just below that, at your solar plexis, that is where you can relate to your child."
    ],
    "run": "HG14-r1-s7",
    "file": "fix-20261018/emu-e/HG14-r1-s7.out.txt",
@@ -468,6 +500,14 @@
      "what": "'that will help you get in touch'",
      "replace": "that will help you get in touch with your inner child",
      "with": "for connecting with your inner child"
+    },
+    {
+     "type": "SHIFT",
+     "what": "a physical connection to love (not 'your heart is full of love')",
+     "replace": "Remember your heart is there and it's full of love.",
+     "with": "That hand is a physical connection to love.",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -528,7 +568,7 @@
     30
    ],
    "paras": [
-    "One of the most important things you can do as a Nurturer is to enjoy your inner child. To sit back and not feel like you have to move their feelings, but actually say to them, “I’m really glad you are here in this moment.” Children need to be enjoyed, not just consoled when they are hurt.",
+    "As a Nurturer, you bring warmth, and one of the most important things you can do is to enjoy your inner child. To sit back and not feel like you have to move their feelings, but actually say to them, “I’m really glad you are here in this moment.” Children need to be enjoyed, not just consoled when they are hurt.",
     "“I know it’s okay for you to feel the way you are feeling.”",
     "“I want you to know that I’m here for you.”",
     "“Right now, you don’t have to do anything.”",
@@ -546,6 +586,14 @@
      "what": "the inner child, not children",
      "replace": "to enjoy your children.",
      "with": "to enjoy your inner child."
+    },
+    {
+     "type": "LOST",
+     "what": "the Nurturer brings warmth (B32's 'that warmth' needs it)",
+     "replace": "One of the most important things you can do as a Nurturer is to enjoy your inner child.",
+     "with": "As a Nurturer, you bring warmth, and one of the most important things you can do is to enjoy your inner child.",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -587,7 +635,7 @@
     33
    ],
    "paras": [
-    "Then set boundaries together - it can be anything from, 'I will leave the unsafe conversation', 'I will stop texting the person who destabilizes us', 'I will eat today', 'I will get some sleep tonight', 'I will keep a small promise', or, 'I won't put you in the position of having to deal with x '."
+    "Then set boundaries together - it can be anything from, 'I will leave the unsafe conversation', 'I will stop texting the person who destabilizes us', 'I will eat today', 'I will get some sleep tonight', 'I will keep a small promise', or, 'I won't leave you alone with adult consequences'."
    ],
    "run": "HG14-r1-s9",
    "file": "fix-20261018/emu-e/HG14-r1-s9.out.txt",
@@ -603,6 +651,14 @@
      "what": "keep a small promise",
      "replace": "'I will do x'",
      "with": "'I will keep a small promise'"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "Emulate's placeholder 'x': adult consequences",
+     "replace": "I won't put you in the position of having to deal with x ",
+     "with": "I won't leave you alone with adult consequences",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -633,7 +689,7 @@
     35
    ],
    "paras": [
-    "If warmth isn't available, that's okay, a protective act can start the relationship. Make sure they are attainable. If you don't do them, work out why - was it fear, exhaustion, lack of skills, lack of X, poor planning, etc.? Doing it without feeling better right away isn't automatically failure, and ticking it off a list doesn't prove it helped."
+    "If warmth isn't available, that's okay, a protective act can start the relationship. Make sure they are small enough to carry out, and look at what actually happened. If you don't do them, work out why - was it fear, exhaustion, lack of skills, a practical barrier, poor planning, etc.? Doing it without feeling better right away isn't automatically failure, and ticking it off a list doesn't prove it helped."
    ],
    "run": "HG14-r1-s9",
    "file": "fix-20261018/emu-e/HG14-r1-s9.out.txt",
@@ -649,6 +705,22 @@
      "what": "completion without immediate relief isn't failure; a tick doesn't prove it helped",
      "replace": "Also, make sure that doing them is actually helpful - don't just be ticking things off a list.",
      "with": "Doing it without feeling better right away isn't automatically failure, and ticking it off a list doesn't prove it helped."
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "Emulate's placeholder 'X': a practical barrier",
+     "replace": "lack of X,",
+     "with": "a practical barrier,",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "small enough to carry out; review what actually happened",
+     "replace": "Make sure they are attainable.",
+     "with": "Make sure they are small enough to carry out, and look at what actually happened.",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -690,7 +762,7 @@
     38
    ],
    "paras": [
-    "Invite it to give direction, even ask for something difficult, not in a way that expects you to be perfectly disciplined and not have any needs. Ask it to help you find a way to do the adult thing and ask for help, express a preference, allow a safe person to see your imperfections, etc. Find ways to get your need for closeness met without punishing the other person for needing space, and without erasing either of you."
+    "Invite it to give direction, even ask for something difficult, not in a way that expects you to be perfectly disciplined and not have any needs. Ask it to help you find a way to do the adult thing and ask for help, express a preference, allow a safe person to see your imperfections, etc. Find ways to get your need for closeness met without punishing the other person for needing space, and without erasing either of you. Etc."
    ],
    "run": "HG14-r1-s10",
    "file": "fix-20261018/emu-e/HG14-r1-s10.out.txt",
@@ -705,7 +777,7 @@
      "type": "LOST",
      "what": "without erasing either person",
      "replace": "without punishing the other person for needing space. Etc.",
-     "with": "without punishing the other person for needing space, and without erasing either of you."
+     "with": "without punishing the other person for needing space, and without erasing either of you. Etc."
     }
    ],
    "verdict": "fixed"
@@ -759,7 +831,7 @@
     42
    ],
    "paras": [
-    "Use this parts language when you actually recognize a protective pattern, or when it’s useful to explore. A sensation, a distraction or an objection doesn’t tell you its own cause. Notice it first: hunger may just need food, skepticism may be reasonable, and a sentence may simply not fit."
+    "Feel free to use this parts language when you actually recognize a protective pattern, or when it’s useful to explore. A sensation, a distraction or an objection doesn’t tell you its own cause. Notice it first: hunger may just need food, skepticism may be reasonable, and a sentence may simply not fit."
    ],
    "run": "HG14-r1-s11",
    "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt",
@@ -768,7 +840,7 @@
      "type": "LOST",
      "what": "use parts language when you recognize a protective pattern; a sensation, distraction or objection doesn't establish its cause; notice it first",
      "replace": "If this language is familiar to you, feel free to use it.",
-     "with": "Use this parts language when you actually recognize a protective pattern, or when it’s useful to explore. A sensation, a distraction or an objection doesn’t tell you its own cause. Notice it first: hunger may just need food, skepticism may be reasonable, and a sentence may simply not fit."
+     "with": "Feel free to use this parts language when you actually recognize a protective pattern, or when it’s useful to explore. A sensation, a distraction or an objection doesn’t tell you its own cause. Notice it first: hunger may just need food, skepticism may be reasonable, and a sentence may simply not fit."
     }
    ],
    "verdict": "fixed"
@@ -891,7 +963,7 @@
     49
    ],
    "paras": [
-    "Usually the protector needs evidence more than another spiritual insight: things like maintaining a boundary, doing a certain task, eating properly, holding back from sending a text, or sleeping, or reaching out to a therapist, or acknowledging that you do, in fact, owe someone money, or writing down the truth."
+    "Usually the protector needs evidence more than another spiritual insight: things like maintaining a boundary, doing a certain task, eating properly, holding back from sending a text, keeping the promise, or sleeping, or reaching out to a therapist, or acknowledging that you do, in fact, owe someone money, or writing down the truth."
    ],
    "run": "HG14-r1-s12",
    "file": "fix-20261018/emu-e/HG14-r1-s12.out.txt",
@@ -907,6 +979,14 @@
      "what": "write down the truth",
      "replace": "owe someone money.",
      "with": "owe someone money, or writing down the truth."
+    },
+    {
+     "type": "LOST",
+     "what": "keep the promise",
+     "replace": "holding back from sending a text, or sleeping,",
+     "with": "holding back from sending a text, keeping the promise, or sleeping,",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -928,7 +1008,7 @@
     51
    ],
    "paras": [
-    "The Protector is more than an inner voice saying no. You can practice it as a sequence in your body:"
+    "The Protector is more than an inner voice saying no. Want to “embody” it? Practice the following sequence:"
    ],
    "run": "HG14-r1-s13",
    "file": "fix-20261018/emu-e/HG14-r1-s13.out.txt",
@@ -937,7 +1017,7 @@
      "type": "INVENTED",
      "what": "a forum question; the published: the Protector is more than a voice saying no, practiced as a bodily sequence",
      "replace": "Does anyone here practice the following sequence to “embody” Protector?",
-     "with": "The Protector is more than an inner voice saying no. You can practice it as a sequence in your body:"
+     "with": "The Protector is more than an inner voice saying no. Want to “embody” it? Practice the following sequence:"
     }
    ],
    "verdict": "fixed"
@@ -1036,11 +1116,21 @@
     58
    ],
    "paras": [
-    "Seems to me that this would be a “mature” Protector. For example, it wouldn’t be afraid to say, “I don’t know”, or to ask another human being, or to delay interpreting what’s going on, or to use a no-trance practice. I want to be able to “do” this. I am learning discernment and to quit scanning the room after taking appropriate action."
+    "Seems to me that this would be a “mature” Protector. For example, it wouldn’t be afraid to say, “I don’t know”, or to ask another human being, or to delay interpreting what’s going on, or to use a no-trance practice. I want to be able to “do” this. I am learning discernment that acts when needed, and to quit scanning the room after the danger has passed."
    ],
    "run": "HG14-r1-s13",
    "file": "fix-20261018/emu-e/HG14-r1-s13.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "discernment that acts when needed and quits scanning after the danger has passed",
+     "replace": "and to quit scanning the room after taking appropriate action.",
+     "with": "that acts when needed, and to quit scanning the room after the danger has passed.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "published",
@@ -1059,7 +1149,7 @@
     60
    ],
    "paras": [
-    "I connect my reparenting therapy to self hypnosis because I think they’re a perfect fit. So, while you are in hypnosis, you might summon the child (this can be any age, image, posture, voice, memory, emotion, vulnerable self, or no child at all. If there is no child, stay with a protector you recognize, or with whatever sensation, feeling or preference is actually there)."
+    "I connect my reparenting therapy to self hypnosis. I think they’re a perfect fit. So, while you are in hypnosis, the child may arrive (this can be any age, image, posture, voice, memory, emotion, vulnerable self, or no child at all. If there is no child, stay with a protector you recognize, or with whatever sensation, feeling or preference is actually there)."
    ],
    "run": "HG14-r1-s14",
    "file": "fix-20261018/emu-e/HG14-r1-s14.out.txt",
@@ -1074,13 +1164,21 @@
      "type": "INVENTED",
      "what": "'Client', the therapy 'you are doing'",
      "replace": "Client, I want to talk about the connection between the reparenting therapy you are doing, and the self hypnosis. I think it can be a perfect fit.",
-     "with": "I connect my reparenting therapy to self hypnosis because I think they’re a perfect fit."
+     "with": "I connect my reparenting therapy to self hypnosis. I think they’re a perfect fit."
     },
     {
      "type": "SHIFT",
      "what": "stay with a recognizable protector, or the sensation, feeling or preference actually present",
      "replace": "just work with whatever protector you do have, either in the form of a sensation, feeling, or preference)",
      "with": "stay with a protector you recognize, or with whatever sensation, feeling or preference is actually there)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the child may arrive (not 'summon')",
+     "replace": "you might summon the child",
+     "with": "the child may arrive",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -1129,7 +1227,7 @@
     63
    ],
    "paras": [
-    "It can be anything. Need to warm yourself by a fire? need to play? need protection? need to grieve? need to be angry? need food? rest? a boundary? a safer relationship? need to stop fantasizing? need to stop working so hard? need me to keep a promise to you for one day?"
+    "It can be anything. Need warmth? need to play? need protection? need to grieve? need to be angry? need food? rest? a boundary? a safer relationship? need to stop fantasizing? need to stop working so hard? need me to keep a promise to you for one day?"
    ],
    "run": "HG14-r1-s14",
    "file": "fix-20261018/emu-e/HG14-r1-s14.out.txt",
@@ -1139,6 +1237,14 @@
      "what": "a safer relationship",
      "replace": "a relationship?",
      "with": "a safer relationship?"
+    },
+    {
+     "type": "SHIFT",
+     "what": "warmth (not 'warm yourself by a fire')",
+     "replace": "Need to warm yourself by a fire?",
+     "with": "Need warmth?",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -1175,9 +1281,9 @@
     "Ask for permission to move closer or what is needed (warmth, space, words, silence, no contact etc)",
     "Do something to meet one of the needs you find when you move closer. Don’t try to fix it all.",
     "Wait a while for the effect of what you have done to sink in. Some changes need quiet, sleep or just ordinary time.",
-    "Reconnect with that part of you ( don’t expect it to become one with you, go away, or be happy, just connect if it wants to)",
+    "Reconnect with that part of you ( don’t expect it to become one with you, go away, forgive, or be happy, just connect if it wants to)",
     "Rest, and stop before the care turns into another performance. Then come back later and ask what actually helped.",
-    "Your aim is not to make it all good as new but good as you. Feel free to change the language if the part talk is not useful, think signal, feeling, younger you or anything that helps you connect with the issue"
+    "Your aim is not to make it all good as new, as if your history should disappear, but good as you: more supported and connected, and still recognizably yourself. Feel free to change the language if the part talk is not useful, think signal, feeling, younger you or anything that helps you connect with the issue"
    ],
    "run": "HG14-r1-s15",
    "file": "fix-20261018/emu-e/HG14-r1-s15.out.txt",
@@ -1199,6 +1305,22 @@
      "what": "rest: stop before care becomes another performance; reassess later what actually helped",
      "replace": "Rest a while and then reassess to see how things are now.",
      "with": "Rest, and stop before the care turns into another performance. Then come back later and ask what actually helped."
+    },
+    {
+     "type": "LOST",
+     "what": "no part has to forgive",
+     "replace": "go away, or be happy,",
+     "with": "go away, forgive, or be happy,",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "good as you: more supported and connected, still recognizably yourself; not as if history should disappear",
+     "replace": "Your aim is not to make it all good as new but good as you.",
+     "with": "Your aim is not to make it all good as new, as if your history should disappear, but good as you: more supported and connected, and still recognizably yourself.",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"

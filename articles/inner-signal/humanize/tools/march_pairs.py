@@ -19,7 +19,8 @@ sys.path.insert(0, str(REPO / 'tools' / 'humanization' / 'reviewer'))
 import reviewer as R  # noqa: E402
 
 
-def draft(files, out):
+def draft(files, out, only_needed=False):
+    """only_needed: leave out the stretches whose two versions a march read has already seen (lookup())."""
     out = pathlib.Path(out)
     out.mkdir(parents=True, exist_ok=True)
     paras, mp = [], []
@@ -33,6 +34,8 @@ def draft(files, out):
             if old is None:  # the units file before apply() has the Emulate text
                 src = json.loads(pathlib.Path(f.replace('.fixed.json', '.units.json')).read_text(encoding='utf-8'))
                 old = next(x['paras'] for x in src['units'] if x['blocks'] == u['blocks'])
+            if only_needed and lookup(str(out.parent), key, old, u['paras']):
+                continue
             for ver, ps in (('was', old), ('new', u['paras'])):
                 for p in ps:
                     n = len(R.march_paragraphs(p))
@@ -108,9 +111,10 @@ def main():
     ap.add_argument('cmd', choices=('draft', 'read'))
     ap.add_argument('args', nargs='+')
     ap.add_argument('--out')
+    ap.add_argument('--only-needed', action='store_true', help='draft: only the stretches no march read has seen as they are now')
     a = ap.parse_args()
     if a.cmd == 'draft':
-        draft(a.args, a.out)
+        draft(a.args, a.out, a.only_needed)
     else:
         read(a.args[0], a.args[1])
 

@@ -29,7 +29,7 @@
    "paras": [
     "I am NOT telling anyone to use substances. However, many people do attempt their first self-hypnosis, contact with their inner child or contact with their Higher Self while in a mind altered state.",
     "Either way, please be aware that you should not use this state to force a revelation, but rather use it to deepen your listening, strengthen your love and improve your ordinary life.",
-    "Many people have opened to certain things in their life in altered states, and that opening can be a resource without becoming a state you have to keep reproducing. The key is that though it is great that this opened, it is different to have had the experience of love, to be able to access it only in a particular state and to be able to access it reliably on a day to day basis. Let the experience widen what seems possible while you build access you can actually use. If the child can't take it in, meet that difficulty rather than turning up the intensity.",
+    "A past opening can be a resource without becoming a state you have to keep reproducing. The key is that though it is great that this opened, it is different to have had the experience of love, to be able to access it only in a particular state and to be able to access it reliably on a day to day basis. Let the experience widen what seems possible while you build access you can actually use. If the child can't take it in, meet that difficulty rather than turning up the intensity.",
     "So during or after an altered state, rather than asking for a revelation, you may want to use these phrases: Help me to ground. Help me to only take that which I can integrate. Help me to remember love. Help me to come back again when the time is right. Help me to turn this into one change in my regular life.",
     "You should not use self-hypnosis to keep you in an altered state forever, to recover memories, to make you more afraid, to help you not sleep, to override medical needs, or to not communicate with other people.",
     "If you find that being in an altered state is helping you to love less, to be more ungrounded, to be less honest, to not sleep, to not communicate or to not do regular life things, then you should stop attempting to go deeper and instead work on integrating what you have."
@@ -122,6 +122,14 @@
      "with": "Help me to remember love.",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B1: INVENTED claim \"many people have opened to certain things in altered states\"",
+     "replace": "Many people have opened to certain things in their life in altered states, and that opening can be a resource",
+     "with": "A past opening can be a resource",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"

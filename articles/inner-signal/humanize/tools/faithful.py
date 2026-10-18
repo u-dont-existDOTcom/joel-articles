@@ -36,9 +36,9 @@ published blocks say, the same way round, and nothing they don't. Don't polish t
 formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
 British spelling, a list run into a sentence and a different order of the same points are all fine.
 
-For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
-condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
-that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
 reader of the published blocks:
 - LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
 - SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
@@ -108,6 +108,66 @@ def prompt(units_path, out, tmpl=REVIEW):
     print('%s: %d stretches changed -> %s' % (d['key'], sum(u['kind'] == 'emulate' for u in d['units']), out))
 
 
+CHUNK_NOTE = ("\n\nThis is PART {n} of {m} of the section: only the stretches below are yours; the published blocks shown are the "
+              "ones they replace, with the headings around them. Go through the points in your head; don't write them out. "
+              "Return only the JSON array, nothing before or after it.\n")
+
+
+def chunks(units_path, out_prefix, size=12, tmpl=REVIEW):
+    """The review prompt cut into parts of SIZE changed stretches (2026-10-18: a whole long section in one prompt made the
+    review agents run out of output); each part shows the published blocks its stretches replace and the headings
+    between them. Writes OUT_PREFIX.partN.txt."""
+    d = json.loads(pathlib.Path(units_path).read_text(encoding='utf-8'))
+    pub = pub_blocks(d['key'])
+    emu = [i for i, u in enumerate(d['units']) if u['kind'] == 'emulate']
+    groups = [emu[i:i + size] for i in range(0, len(emu), size)]
+    for n, g in enumerate(groups, 1):
+        lo, hi = g[0], g[-1]
+        us = d['units'][lo:hi + 1]
+        blocks = sorted({b for u in us for b in u['blocks']})
+        published = '\n\n'.join('[B%d] %s' % (b, pub[b]) for b in blocks)
+        parts = []
+        for u in us:
+            if u['kind'] == 'emulate':
+                rng = 'B%d' % u['blocks'][0] + ('-B%d' % u['blocks'][-1] if len(u['blocks']) > 1 else '')
+                parts.append('[CHANGED, replaces %s]\n%s' % (rng, '\n\n'.join(u['paras'])))
+            else:
+                parts.append('[B%d, as published] %s' % (u['blocks'][0], u['paras'][0]))
+        text = tmpl.format(about=ABOUT, published=published, rewrite='\n\n'.join(parts)) + CHUNK_NOTE.format(n=n, m=len(groups))
+        f = '%s.part%d.txt' % (out_prefix, n)
+        pathlib.Path(f).write_text(text, encoding='utf-8')
+        print('%s part %d/%d: %d stretches, B%d-B%d -> %s' % (d['key'], n, len(groups), len(g), blocks[0], blocks[-1], f))
+    return len(groups)
+
+
+def straight(t):
+    return t.replace('’', "'").replace('‘', "'").replace('“', '"').replace('”', '"')
+
+
+def merge(review, patch, out=None):
+    """Add a later round's fixes (PATCH: [{"block": n, "problems": [...]}, ...], each problem with "round" and "from") to a
+    review, after the earlier rounds' fixes of the same stretch, so they apply to the text those left; a problem already
+    there is not added twice. (2026-10-18: the second reader's and the adjudication's fixes.)"""
+    rv = json.loads(pathlib.Path(review).read_text(encoding='utf-8'))
+    by = {r['block']: r for r in rv}
+    added = 0
+    for pr in json.loads(pathlib.Path(patch).read_text(encoding='utf-8')):
+        r = by.get(pr['block'])
+        if r is None:
+            r = {'block': pr['block'], 'verdict': 'FIX', 'problems': []}
+            rv.append(r); by[pr['block']] = r
+        r.setdefault('problems', [])
+        for p in pr.get('problems', []):
+            if any(q.get('replace') == p['replace'] and q.get('with') == p['with'] for q in r['problems']):
+                continue
+            r['problems'].append(p); r['verdict'] = 'FIX'; added += 1
+        for k in ('note', 'links'):
+            if pr.get(k):
+                r[k] = pr[k]
+    pathlib.Path(out or review).write_text(json.dumps(rv, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    print('%s: %d fixes added from %s' % (review, added, patch))
+
+
 def apply(units_path, review, out):
     d = json.loads(pathlib.Path(units_path).read_text(encoding='utf-8'))
     txt = pathlib.Path(review).read_text(encoding='utf-8')
@@ -125,6 +185,10 @@ def apply(units_path, review, out):
         for p in r.get('problems') or []:
             body = '\n\n'.join(u['paras'])
             n = body.count(p['replace'])
+            if n != 1 and body.count(straight(p['replace'])) == 1:
+                # Emulate keeps straight quotes in some runs: a fix written with curly ones takes the stretch's style
+                p = dict(p, replace=straight(p['replace']), **{'with': straight(p['with'])})
+                n = 1
             if n != 1:
                 bad.append((r['block'], p['type'], p['replace'][:60], n)); continue
             body = body.replace(p['replace'], p['with'])
@@ -145,13 +209,17 @@ def apply(units_path, review, out):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=('prompt', 'apply', 'verify'))
+    ap.add_argument('cmd', choices=('prompt', 'apply', 'verify', 'chunks', 'merge'))
     ap.add_argument('args', nargs='+')
     a = ap.parse_args()
     if a.cmd == 'prompt':
         prompt(a.args[0], a.args[1])
     elif a.cmd == 'verify':
         prompt(a.args[0], a.args[1], tmpl=VERIFY)
+    elif a.cmd == 'merge':
+        merge(a.args[0], a.args[1])
+    elif a.cmd == 'chunks':
+        chunks(a.args[0], a.args[1], int(a.args[2]) if len(a.args) > 2 else 12)
     else:
         apply(a.args[0], a.args[1], a.args[2])
 

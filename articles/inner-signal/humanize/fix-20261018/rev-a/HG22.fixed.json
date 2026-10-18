@@ -21,7 +21,7 @@
     1
    ],
    "paras": [
-    "Practise this once or twice a week and spend a bit more time with it if that would be useful but more time doesn’t have to mean more intensity. Whenever it is useful just access Higher Self, or if that is not possible go to a neutral witnessing place and let it unfold, borrowing an adult function when needed, asking whether anything important is being bypassed and always allowing for a full exit and any necessary normal action."
+    "Practise this once or twice a week and spend more time with it if that would be useful but more time doesn’t have to mean more intensity. Start from Higher Self or neutral witnessing and let it unfold, borrowing an adult function when needed, asking whether anything important is being bypassed and always allowing for a full exit and any necessary normal action."
    ],
    "run": "HG22-r1",
    "file": "fix-20261018/emu-a/HG22-r1.out.txt",
@@ -37,6 +37,22 @@
      "what": "borrowing an adult function and asking whether something important is being bypassed are two steps; the rewrite merged them and lost 'borrow'",
      "replace": "using any adult function that is necessary to recognise any bypassing that may be going on",
      "with": "borrowing an adult function when needed, asking whether anything important is being bypassed"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"more time\" became \"a bit more time\"",
+     "replace": "spend a bit more time with it",
+     "with": "spend more time with it",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"start from Higher Self or witnessing\" became \"when useful, Higher Self; if not possible, witnessing\"",
+     "replace": "Whenever it is useful just access Higher Self, or if that is not possible go to a neutral witnessing place and let it unfold",
+     "with": "Start from Higher Self or neutral witnessing and let it unfold",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"

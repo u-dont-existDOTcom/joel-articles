@@ -139,7 +139,7 @@
     4
    ],
    "paras": [
-    "When you come out of the process, consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life. Perhaps there is something you would like to explore or build up. And what can you carry yourself now? If there is something you need to do, then make a plan with yourself to do that thing. Be concrete and say something like, \"If _________ , then I will do ________ (one small action).\" Then see how things are later on: how you are sleeping, relating and functioning, not only how impressive the session felt."
+    "When you come out of the process, ask what needed warmth, what needed protection, and what direction serves truth and love and life. Perhaps there is something to explore, or capacity to build. And what can you carry yourself now? If there is something you need to do, then make a plan with yourself to do that thing. Be concrete and say something like, \"If _________ (cue) happens, then I will do ________ (one small action).\" Then see how things are later on: how you are sleeping, relating and functioning, not only how impressive the session felt."
    ],
    "run": "HG21-r1",
    "file": "fix-20261018/emu-a/HG21-r1.out.txt",
@@ -161,6 +161,30 @@
      "what": "not only how impressive the session felt",
      "replace": "how you are sleeping, relating and functioning.",
      "with": "how you are sleeping, relating and functioning, not only how impressive the session felt."
+    },
+    {
+     "type": "SHIFT",
+     "what": "B4: SHIFT \"what needed warmth/protection, what direction serves\" became \"what you would like to nurture/protect/direct\"",
+     "replace": "consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life.",
+     "with": "ask what needed warmth, what needed protection, and what direction serves truth and love and life.",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "B4: LOST \"capacity to build\"",
+     "replace": "Perhaps there is something you would like to explore or build up.",
+     "with": "Perhaps there is something to explore, or capacity to build.",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "B4: LOST \"[cue] happens\" (first blank no longer a cue)",
+     "replace": "If _________ , then I will do",
+     "with": "If _________ (cue) happens, then I will do",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"

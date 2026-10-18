@@ -43,7 +43,7 @@
     2
    ],
    "paras": [
-    "People’s suggestibility varies hugely, both between individuals and according to state, whether you’re talking about external or internal suggestion, and the type of suggestion (commands, imagery, music, metaphors, spiritual etc). There are definitely advantages to both, and it depends on what you’re trying to do. A professional can bring pacing, containment and another set of eyes, and doing it yourself gives you instant follow-up, real-time correction and a private line to your own protectors."
+    "People’s suggestibility varies hugely, both between individuals and according to state, whether you’re talking about external or internal suggestion, and the type of suggestion (commands, imagery, music, metaphors, spiritual etc). There are definitely advantages to both working with someone and doing it yourself, and it depends on what you’re trying to do. A professional can bring pacing, containment and another set of eyes, and doing it yourself gives you instant follow-up, real-time correction and a private line to your own protectors."
    ],
    "run": "HG35-r1-s1",
    "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt",
@@ -52,8 +52,8 @@
      "type": "LOST",
      "what": "what a professional brings and what self-hypnosis gives",
      "replace": "There are definitely advantages to both working with someone and doing it yourself, and it depends on what you’re trying to do.",
-     "with": "There are definitely advantages to both, and it depends on what you’re trying to do. A professional can bring pacing, containment and another set of eyes, and doing it yourself gives you instant follow-up, real-time correction and a private line to your own protectors.",
-     "march_note": "march-ab: the fix had taken out the break; put back"
+     "with": "There are definitely advantages to both working with someone and doing it yourself, and it depends on what you’re trying to do. A professional can bring pacing, containment and another set of eyes, and doing it yourself gives you instant follow-up, real-time correction and a private line to your own protectors.",
+     "march_note": "march-ab, then march-c: Emulate's whole sentence was the break; kept, the published points after it"
     }
    ],
    "verdict": "fixed"
@@ -64,7 +64,7 @@
     3
    ],
    "paras": [
-    "That said, self hypnosis is likely to be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relational wounds that need another nervous system, skilled outside support may be best."
+    "That said, self hypnosis may be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relational wounds that need another nervous system, skilled outside support may be best."
    ],
    "run": "HG35-r1-s1",
    "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt",
@@ -74,6 +74,14 @@
      "what": "relational wounds that need another nervous system; skilled outside support may be best",
      "replace": "or relationship issues, you may benefit from getting the right help from the right person.",
      "with": "or relational wounds that need another nervous system, skilled outside support may be best."
+    },
+    {
+     "type": "SHIFT",
+     "what": "may be best (not 'likely')",
+     "replace": "is likely to be the best way",
+     "with": "may be the best way",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -95,7 +103,7 @@
     5
    ],
    "paras": [
-    "Things to ask: What do they train in? How do they use hypnosis in their practice? What will they do if something doesn’t “fit”? If you are working with trauma: Did they actually get training in trauma and dissociation in addition to whatever hypnosis certification they might have? (Remember, credentials matter, but they don’t guarantee competent care!)"
+    "Things to ask: What are they trained to treat? How do they use hypnosis in their practice? What will they do if something doesn’t “fit”? If you are working with trauma: Did they actually get training in trauma and dissociation in addition to whatever hypnosis certification they might have? (Remember, credentials matter, but they don’t guarantee competent care!)"
    ],
    "run": "HG35-r1-s2",
    "file": "fix-20261018/emu-c/HG35-r1-s2.out.txt",
@@ -105,6 +113,14 @@
      "what": "credentials matter without guaranteeing competent care",
      "replace": "(Remember, credentials are not indicators of quality care!)",
      "with": "(Remember, credentials matter, but they don’t guarantee competent care!)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "what they are trained to treat",
+     "replace": "What do they train in?",
+     "with": "What are they trained to treat?",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -115,7 +131,7 @@
     6
    ],
    "paras": [
-    "Tell them what has and hasn’t worked for you in the past. How direct you want them to be. What kind of touch (if any) you are ok with. What kind of imagery (if any) you are ok with. What to do if you want to stop a session. What to do if you have unexpected reactions in or after a session. What to do if you aren’t sure if something is a memory or not. How they do the full return at the end. Keep in mind that a good person should be able to firmly encourage you without making it continue if you say you don’t want to."
+    "Tell them what has and hasn’t worked for you in the past. How direct you want them to be. What kind of touch (if any) you are ok with. What kind of imagery (if any) you are ok with. What to do if you want to stop a session. And ask them what they do about unexpected reactions in or after a session, about things you aren’t sure are memories, and how they do the full return at the end. Keep in mind that a good person should be able to firmly encourage you without making it continue if you say you don’t want to."
    ],
    "run": "HG35-r1-s2",
    "file": "fix-20261018/emu-c/HG35-r1-s2.out.txt",
@@ -131,6 +147,14 @@
      "what": "the full return, not 'coming back to the session'",
      "replace": "What to do if you need to come back “all the way” to the session.",
      "with": "How they do the full return at the end."
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "you tell them what helped, your directness, touch, imagery and how you'll stop; you ask about unexpected reactions, uncertain memories and the full return",
+     "replace": "What to do if you have unexpected reactions in or after a session. What to do if you aren’t sure if something is a memory or not. How they do the full return at the end.",
+     "with": "And ask them what they do about unexpected reactions in or after a session, about things you aren’t sure are memories, and how they do the full return at the end.",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -178,7 +202,7 @@
     9
    ],
    "paras": [
-    "Anticipations, pattern reads, or just things that seem a bit uncanny that come from the subconscious should be respected, but not just obeyed, because the subconscious may send out the image of something or tell you to do something, but that does n't mean it is an order."
+    "The subconscious can notice things the conscious mind misses. Anticipations, pattern reads, or just things that seem a bit uncanny that come from it should be respected. The subconscious may send out the image of something or tell you to do something, but that does n't mean it is an order."
    ],
    "run": "HG35-r1-s3",
    "file": "fix-20261018/emu-c/HG35-r1-s3.out.txt",
@@ -200,6 +224,14 @@
      "what": "it tells you, not someone",
      "replace": "or tell someone to do something",
      "with": "or tell you to do something"
+    },
+    {
+     "type": "LOST",
+     "what": "the subconscious notices what the conscious mind misses; and 'not just obeyed' said the order point twice",
+     "replace": "Anticipations, pattern reads, or just things that seem a bit uncanny that come from the subconscious should be respected, but not just obeyed, because the subconscious may send out",
+     "with": "The subconscious can notice things the conscious mind misses. Anticipations, pattern reads, or just things that seem a bit uncanny that come from it should be respected. The subconscious may send out",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -265,7 +297,7 @@
     14
    ],
    "paras": [
-    "On the other hand, it is possible to give your power away. Seeking counsel doesn’t mean abdicating to an authority figure. Another person doesn’t get automatic trust, or automatic dismissal."
+    "On the other hand, it is possible to give your power away. Seeking counsel can quietly turn into abdicating to an authority figure. Another person doesn’t get automatic trust, or automatic dismissal."
    ],
    "run": "HG35-r1-s4",
    "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt",
@@ -275,6 +307,14 @@
      "what": "neither automatic trust nor automatic dismissal",
      "replace": "It doesn’t mean either trusting or not trusting someone.",
      "with": "Another person doesn’t get automatic trust, or automatic dismissal."
+    },
+    {
+     "type": "SHIFT",
+     "what": "seeking counsel can quietly turn into obeying an authority (a warning, not a definition)",
+     "replace": "Seeking counsel doesn’t mean abdicating to an authority figure.",
+     "with": "Seeking counsel can quietly turn into abdicating to an authority figure.",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -285,7 +325,7 @@
     15
    ],
    "paras": [
-    "Sometimes you need the support of your peers. In Hearthwork, the concept is that you give each other equal time, warmth, confidentiality, and acceptance of “no” as an answer, and you act for each other as Nurturer and Protector, but not as Guide. Then you reverse roles. Sometimes, if asked carefully and at the right time, your peers can help you hear your own Guide more clearly, but they don’t interpret what you experience."
+    "Sometimes you need the support of your peers. In Hearthwork, the concept is that you give each other equal time, warmth, confidentiality, and acceptance of “no” as an answer, and you act for each other as Nurturer and Protector, but not as Guide. Then you reverse roles. Sometimes, with a question asked carefully and at the right time, your peers can help you hear your own Guide more clearly, but they don’t interpret what you experience."
    ],
    "run": "HG35-r1-s4",
    "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt",
@@ -295,7 +335,17 @@
      "new": "Hearthwork"
     }
    ],
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "a carefully timed question from a peer",
+     "replace": "if asked carefully and at the right time, your peers can help",
+     "with": "with a question asked carefully and at the right time, your peers can help",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "published",
@@ -398,11 +448,29 @@
     21
    ],
    "paras": [
-    "What actually happened? What was the impact? What boundaries need to be set? What was going on with the other person(s) that put them in a place to cause harm? What is theirs? What is mine? How do I need to hold them accountable? How can I let this go, without denying any of the above?"
+    "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?"
    ],
    "run": "HG35-r1-s5",
    "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "what shaped this person into someone capable of that harm",
+     "replace": "What was going on with the other person(s) that put them in a place to cause harm?",
+     "with": "What shaped the other person(s) into someone capable of that harm?",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "what does accountability require",
+     "replace": "How do I need to hold them accountable?",
+     "with": "What does accountability require?",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -410,7 +478,7 @@
     22
    ],
    "paras": [
-    "One of the hardest things to do is to forgive ourselves. Name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.",
+    "For self-forgiveness, name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.",
     "Take responsibility, feel the remorse, then rectify if you can, and then let it go. Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage."
    ],
    "run": "HG35-r1-s6",
@@ -421,6 +489,14 @@
      "what": "name what you did without taking responsibility for what wasn't yours; let remorse register the harm or the broken value without making yourself a permanent criminal",
      "replace": "It's important to realize that just because you didn't take responsibility for something that wasn't yours to take, doesn't mean you're a criminal if you feel remorse over the effect your action may have had, or just that it wasn't in keeping with your value system.",
      "with": "Name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'one of the hardest things to do'",
+     "replace": "One of the hardest things to do is to forgive ourselves. Name what you did,",
+     "with": "For self-forgiveness, name what you did,",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"

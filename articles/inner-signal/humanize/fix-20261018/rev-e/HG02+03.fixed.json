@@ -75,7 +75,7 @@
     5
    ],
    "paras": [
-    "Instead of learning how to integrate all of these different layers, you were taught (and/or you learned on your own) how to push, repress or supress your emotions, to pretend to be confident, to follow or defy authority, and so on and so forth, and to call that adulthood. Meanwhile, your deeper mind kept running its own \"programs\": the child mind wanting safety, the guard expecting danger, the body mind remembering what you explained away, the intuitive mind speaking before words, the fantasy mind trying to become guidance, etc."
+    "Instead of learning how to integrate all of these different layers, you were taught (and/or you learned on your own) how to push through, repress or supress your emotions, to pretend to be confident, to follow or defy authority, and so on and so forth, and to call that adulthood. Meanwhile, your deeper mind kept running its own \"programs\": the child mind wanting safety, the guard expecting danger, the body mind remembering what you explained away, the intuitive mind speaking before words, the fantasy mind trying to become guidance, etc."
    ],
    "run": "HG02_03-f-s1",
    "file": "fix-20261018/emu-f/HG02_03-f-s1.out.txt",
@@ -91,6 +91,14 @@
      "what": "'it is no wonder' makes the programs a result of the training; the published: meanwhile the deeper mind kept running its own programs, each with what it wants",
      "replace": "It is no wonder that you have many different \"programs\" running in your mind, including child mind, guard, body mind, intuitive mind, fantasy mind, etc.",
      "with": "Meanwhile, your deeper mind kept running its own \"programs\": the child mind wanting safety, the guard expecting danger, the body mind remembering what you explained away, the intuitive mind speaking before words, the fantasy mind trying to become guidance, etc."
+    },
+    {
+     "type": "SHIFT",
+     "what": "push through (not 'push your emotions')",
+     "replace": "how to push, repress or supress your emotions",
+     "with": "how to push through, repress or supress your emotions",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -197,7 +205,7 @@
     11
    ],
    "paras": [
-    "I work with the premise that the subconscious is a living ecology of parts, memories, impulses, images, protections and wisdom. When the system needs coherence, I begin by coalescing that ecology into a Higher Self or universal heart, and I separate into those parts only when that helps. I bring in inner-child reparenting because a wounded young part won’t be repaired by a clever suggestion. I also pull in elements from prompt engineering, because the shape of a question changes the kind of answer we can hear, and teach literacy in the domain of influence, since hypnosis is far from the only thing that’s hypnotizing us."
+    "I work with the premise that the subconscious is a living ecology of parts, memories, impulses, images, protections and wisdom. When the system needs coherence, I begin with Higher Self or the universal heart, and I separate into those parts only when that helps. I bring in inner-child reparenting because a wounded young part won’t be repaired by a clever suggestion. I also pull in elements from prompt engineering, because the shape of a question changes the kind of answer we can hear, and teach literacy in the domain of influence, since hypnosis is far from the only thing that’s hypnotizing us."
    ],
    "run": "HG02_03-f-s4",
    "file": "fix-20261018/emu-f/HG02_03-f-s4.out.txt",
@@ -219,6 +227,14 @@
      "what": "why prompt engineering",
      "replace": "I also pull in elements from prompt engineering, and teach",
      "with": "I also pull in elements from prompt engineering, because the shape of a question changes the kind of answer we can hear, and teach"
+    },
+    {
+     "type": "SHIFT",
+     "what": "begin with Higher Self or the universal heart (not 'coalescing the ecology into' it)",
+     "replace": "I begin by coalescing that ecology into a Higher Self or universal heart",
+     "with": "I begin with Higher Self or the universal heart",
+     "round": 2,
+     "from": "verify-b (second reader)"
     }
    ],
    "verdict": "fixed"

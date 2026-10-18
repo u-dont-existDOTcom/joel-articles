@@ -26,6 +26,14 @@
     "what": "'just one thing' is new; you don't need to fill every category; acknowledge only what actually happens",
     "replace": "You are inviting it to do just one thing. Then acknowledge what happens and wait.",
     "with": "It doesn’t have to fill every one of those. Then acknowledge only what actually happens, and wait."
+   },
+   {
+    "type": "SHIFT",
+    "what": "a sensation can lead to an image, a gesture, a feeling or words (not 'respond in any way comfortable for the part')",
+    "replace": "Your invitation can be to respond to your noticing in any way that is comfortable for the part: with a sensation, an image, an action, a feeling, or words.",
+    "with": "A sensation can lead to an image, a gesture, a feeling, or words.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -62,6 +70,14 @@
     "what": "that's enough language for one invitation; a plain 'What happens next?'; keep the words when they help",
     "replace": "Somedays it may be best to say \"Then I listen.\" And to use no more language. Somedays it may even be best to not use any language at all while some feeling is developing. Somedays not, of course.",
     "with": "Then listen. That’s enough language for one invitation. A plain \"What happens next?\" may be better than an elegant sentence. Somedays it may even be best to not use any language at all while some feeling is developing, and somedays the words help you understand, so keep them."
+   },
+   {
+    "type": "SHIFT",
+    "what": "pause the words if that gives a developing feeling room (not 'no language at all')",
+    "replace": "Somedays it may even be best to not use any language at all while some feeling is developing,",
+    "with": "While a feeling is developing, it may be best to pause the words if that gives it room,",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -81,6 +97,22 @@
     "replace": "If you can remain with a feeling long enough to change its direction, and if you then want to continue, it's not always necessary to have the feeling be pleasant in order for you to stay with it. Sadness and tension can sometimes be ok, if you know that you can leave, if you want to.",
     "with": "If you’re still present, can change direction, and want to continue, sadness or tension on its own doesn’t mean you have to stop. It can be ok to stay.",
     "march_note": "march-ab: the fix had taken out the break; put back"
+   },
+   {
+    "type": "SHIFT",
+    "what": "you can be firmer (a permission)",
+    "replace": "Somedays, when that’s the help you chose, it may be best to be quite firm with yourself:",
+    "with": "When that’s the help you chose, you can be quite firm with yourself:",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a difficult feeling needn't become pleasant before you stay with it",
+    "replace": "Somedays it may be best simply to focus yourself on a feeling, rather than waiting until it has become pleasant.",
+    "with": "You can simply stay with a difficult feeling, rather than waiting until it has become pleasant.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -99,6 +131,22 @@
     "what": "the three questions",
     "replace": "Some useful questions to ask when you're not sure if something is a notice or a meaning:",
     "with": "When it helps, ask: \"What did I notice? What did it seem to mean? What supports or challenges that meaning?\""
+   },
+   {
+    "type": "SHIFT",
+    "what": "keep apart (an instruction); you don't need to prove which came first",
+    "replace": "It can be useful to separate",
+    "with": "Keep apart",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "you don't need to prove which came first",
+    "replace": "This is not required or always useful, and the boundaries between the three are fuzzy.",
+    "with": "The boundaries between the three are fuzzy, and you don’t need to prove which came first.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -117,6 +165,14 @@
     "what": "feelings deserve attention; their meanings stay open to analysis",
     "replace": "Feelings are something to explore and analyze, not necessarily to accept.",
     "with": "Feelings deserve attention, and what they mean is still open to analysis."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'sometimes it can be useful to separate these, sometimes not' (and a repeat of B8)",
+    "replace": "Is it a notice or a meaning? Sometimes it can be useful to separate these, sometimes not. ",
+    "with": "Is it a notice or a meaning? ",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -189,6 +245,14 @@
     "what": "you don't have to make someone understand before you can act",
     "replace": "or cut the interaction short.",
     "with": "or cut the interaction short. You don’t have to make someone understand before you can act."
+   },
+   {
+    "type": "SHIFT",
+    "what": "a realistic purpose for the next interaction",
+    "replace": "What are your aims in the interaction?",
+    "with": "What’s a realistic aim for the next interaction?",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -201,12 +265,30 @@
     "what": "when you need less, widen attention to something easier to meet",
     "replace": "Also, you can always feel free to reduce the amount of what you need by switching to something that is easier for you to attend to. Pay attention to something in the room or sitting on a chair or a sound or your body.",
     "with": "When you need less, widen your attention to something easier: the room, the chair, a sound, or somewhere in your body that’s easier to meet."
+   },
+   {
+    "type": "SHIFT",
+    "what": "let support become noticeable alongside the difficulty (not 'use it to help with')",
+    "replace": "This allows you to use what supports you to help with what is difficult for you.",
+    "with": "Let that support become noticeable alongside what is difficult for you.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
  {
   "block": 19,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "let this much be here, the support beside it",
+    "replace": "Ok, I will feel a little bit and notice my support.",
+    "with": "Ok, I can let this much be here, and notice my support beside it.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
  },
  {
   "block": 20,
@@ -224,12 +306,38 @@
     "what": "rather than a stronger induction",
     "replace": "then please get human help.",
     "with": "then please get human help, not a stronger induction."
+   },
+   {
+    "type": "SHIFT",
+    "what": "return only when you choose (not 'you can always come back')",
+    "replace": "You can always come back to this when you choose to.",
+    "with": "Only come back to the difficult stuff when you choose to.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "unable to shift or stop",
+    "replace": "you are finding it difficult to switch or stop what you are doing",
+    "with": "you are unable to switch or stop what you are doing",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
  {
   "block": 21,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "notice what follows",
+    "replace": "or imagine that you are doing it.",
+    "with": "or imagine that you are doing it, and notice what follows.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
  },
  {
   "block": 23,
@@ -255,7 +363,17 @@
  },
  {
   "block": 25,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "they don't each need a speech",
+    "replace": "I don’t need them to tell me all about themselves,",
+    "with": "they don’t each need a speech,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
  },
  {
   "block": 26,
@@ -308,6 +426,22 @@
     "what": "before you decide what it means",
     "replace": "Allow a metaphor to develop and then work with the metaphor.",
     "with": "Let a metaphor develop before you decide what it means."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "the script: if this problem had its own image or story, what would appear, and what wants to happen next",
+    "replace": "“If there was something that showed up what this problem is, or tells a story about what is going on, then what would it be?” and, “what would need to happen in the metaphor?”",
+    "with": "“If this problem had its own image or story, what would show up?” and, “what wants to happen next?”",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "try only what seems useful",
+    "replace": "or set a boundary, move away, do something else, etc.",
+    "with": "or set a boundary, move away, or take an action, only as far as it seems useful.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -343,7 +477,25 @@
  },
  {
   "block": 32,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "postpone extended checking and consequential commitments (not all checking, any commitment)",
+    "replace": "However, it’s best to postpone its consideration of the factual accuracy of what’s coming up, as well as its taking on of any commitments, until after you’ve returned.",
+    "with": "However, it’s best to postpone any long checking of the facts, and any commitments that matter, until after you’ve returned.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "an image can be meaningful without being a historical memory",
+    "replace": "Just because you’ve seen an image",
+    "with": "An image can be meaningful without being a historical memory, and just because you’ve seen an image",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
  },
  {
   "block": 33,

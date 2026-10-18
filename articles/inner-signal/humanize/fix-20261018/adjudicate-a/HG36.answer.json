@@ -1,0 +1,14 @@
+[
+  {"finding": "B1: LOST \"only\" in \"access it only in a particular state\"", "verdict": "FIXED", "why": "Rewrite now says 'to be able to access it only in a particular state'."},
+  {"finding": "B1: SHIFT \"recover memories\" became \"help you remember things\" (overbroad)", "verdict": "FIXED", "why": "Rewrite now says 'to recover memories'."},
+  {"finding": "B1: SHIFT \"override medical needs\" narrowed to \"not see a doctor\"", "verdict": "FIXED", "why": "Rewrite now says 'to override medical needs'."},
+  {"finding": "B1: INVENTED claim \"many people have opened to certain things in altered states\"", "verdict": "OPEN", "why": "Published says only 'A past opening can be a resource'; 'Many people have opened to certain things' adds a prevalence claim.", "replace": "Many people have opened to certain things in their life in altered states, and that opening can be a resource", "with": "A past opening can be a resource"},
+  {"finding": "B1: INVENTED \"it is great that this opened\"", "verdict": "OK", "why": "'It is great that this opened' is only a positive aside, in line with the published calling an opening 'a resource'."},
+  {"finding": "B1: SHIFT \"Help me remember love\" became \"remember the love I am feeling\"", "verdict": "FIXED", "why": "Rewrite now says 'Help me to remember love.'"},
+  {"finding": "B1: SHIFT \"usually more useful than demanding a revelation\" became \"you may want ... rather than asking\"", "verdict": "OK", "why": "'Rather than asking for a revelation, you may want to use these phrases' still offers the prompts as the better route."},
+  {"finding": "B1: SHIFT \"first encounter\" became \"attempt their first\"", "verdict": "OK", "why": "Still says many people have these first experiences while in a mind altered state; 'attempt' versus 'encounter' is wording."},
+  {"finding": "B9: SHIFT \"intensity mistaken for meaning\" became \"altered state must mean something\"", "verdict": "OK", "why": "'People think that because they are in an altered state, that it must mean something' carries mistaking the experience for meaning."},
+  {"finding": "B9: SHIFT \"Protector is showing fear\" became \"Protector scaring you\"", "verdict": "FIXED", "why": "Rewrite now says 'a Protector showing fear'."},
+  {"finding": "B9: LOST \"longing\" in buried-material list", "verdict": "FIXED", "why": "Rewrite now says 'shame/grief/anger/longing'."},
+  {"finding": "B9: SHIFT \"plain confusion\" became \"some other reason that it just doesn't make sense\"", "verdict": "OK", "why": "'Some other reason that it just doesn't make sense' covers plain confusion; the catch-all wording is style."}
+]

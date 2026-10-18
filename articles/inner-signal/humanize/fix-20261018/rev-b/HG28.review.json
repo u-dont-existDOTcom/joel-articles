@@ -42,6 +42,14 @@
     "with": "and ways to develop your own language",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED reporting \"after each session\" of \"mind and body\"",
+    "replace": "After each session, you’ll have the chance to report what went through your mind and body, and reflect on what you reported. You can also ask",
+    "with": "You can also reflect on what you report, and ask",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -72,6 +80,14 @@
     "what": "it can't feel your body, share a practitioner's embodied intuition, or know an unreported response",
     "replace": "it can’t feel it in its own body, like a trained practitioner might be able to do.",
     "with": "it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report."
+   },
+   {
+    "type": "INVENTED",
+    "what": "B3: INVENTED choices \"about what to try next\"",
+    "replace": "so that you can make informed choices about what to try next",
+    "with": "so that you can make better-informed choices",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },
@@ -96,6 +112,14 @@
     "with": "and others can learn how the guide is landing in real practice.",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B5: SHIFT \"what you learned\" narrowed to \"learned from using the app\"",
+    "replace": "what you’ve learned from using the app",
+    "with": "what you’ve learned",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  },

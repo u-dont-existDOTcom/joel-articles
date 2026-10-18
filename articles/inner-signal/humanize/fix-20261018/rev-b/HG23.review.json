@@ -78,6 +78,22 @@
     "with": "It is not ready for you to know directly if it requires you to destabilize to know it!",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"what would make the conscious mind 5% more able to receive this\" became \"what do you need so I can understand you 5% better\"",
+    "replace": "What do you need for my conscious mind to be able to know what you’re saying 5% better?",
+    "with": "What would make the conscious mind 5% more able to receive this?",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"A safer script\" became optional \"You may even want to say\"",
+    "replace": "You may even want to say,",
+    "with": "A safer script:",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  }

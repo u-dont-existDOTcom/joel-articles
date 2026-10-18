@@ -1,0 +1,212 @@
+{
+ "key": "HG29+30",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h",
+  "fix-20261018/emu-i"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendices"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Note: You can skip this section and just use the main path and be fine. This is additional info to help you be more precise and safe, and some additional scripts for other situations."
+   ],
+   "run": "HG29_30-r1",
+   "file": "fix-20261018/emu-i/HG29_30-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Appendix A: How to ask the subconscious a useful question"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "paras": [
+    "The subconscious is not an AI language model, but there is a certain overlap in how you can structure your questions to it to get the most useful answers. Prompt engineering can be very useful if used to become more present, more honest, more loving and better able to hear the next signal. But useless or dangerous if used to be more controlling.",
+    "For maximum precision, include these 7 elements in your prompt:",
+    "Role (who/what are you talking to?)",
+    "Context (what is the situation?)",
+    "Intention (what do you want to change?)",
+    "Constraint (what keeps it safe, true and kind: no forcing, no false certainty, capacity before content)",
+    "Output (how do you want the answer: as an image, phrase, body signal, memory, action, question, symbol, silence, rest…?)",
+    "Evaluation (how do you evaluate the answer: is it true? kind? timely? stabilizing? specific? testable?)",
+    "Iteration (revise the prompt based on real life feedback)",
+    "Always include a “safe” fallback. If you don’t do that, the analytical part of your mind might treat silence as failure and fabricate an answer to fit your prompt. Here is one fallback:",
+    "“If the system needs more time to process this, or if silence is the best and safest answer today, then let my body go into a deeper state of comfortable rest. Peaceful silence is a successful answer.”",
+    "Sometimes there is no answer because nothing is happening. Sometimes the answer is that it is not time yet, or that you need to rest, build capacity, or do whatever it is you are supposed to be doing."
+   ],
+   "run": "HG29_30-r1",
+   "file": "fix-20261018/emu-i/HG29_30-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "to hear the next signal (not 'to get more information')",
+     "replace": "more loving and to get more information.",
+     "with": "more loving and better able to hear the next signal."
+    },
+    {
+     "type": "LOST",
+     "what": "the constraint: safety, truth, kindness, no forcing, no false certainty, capacity before content",
+     "replace": "Constraint (what is safe?)",
+     "with": "Constraint (what keeps it safe, true and kind: no forcing, no false certainty, capacity before content)"
+    },
+    {
+     "type": "LOST",
+     "what": "so the analytical mind doesn’t treat silence as failure",
+     "replace": "might fabricate answers to fit your prompt.",
+     "with": "might treat silence as failure and fabricate an answer to fit your prompt."
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "the fallback is a script the reader says (quotation marks, 'my body', today)",
+     "replace": "If the system needs more time to process this, or if silence is the best and safest answer, then let the body go into a deeper state of comfortable rest. The prompt is considered successfully answered with peaceful silence.",
+     "with": "“If the system needs more time to process this, or if silence is the best and safest answer today, then let my body go into a deeper state of comfortable rest. Peaceful silence is a successful answer.”"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Core prompts"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "paras": [
+    "Here are the core prompts that can be mixed and matched:",
+    "Clarity: Wise subconscious mind, show me what is true, kind and timely. If there is something I need to know that is too intense to integrate, please transfer it to my conscious mind only as a gentle symbol, a body signal, or a single next step. Show me my capacity to be peaceful first, and then the content of whatever is wounding me.",
+    "Resistance: What are you protecting me from? How can you trust me 1% more?",
+    "Inner child: Little one, what do you need me to know? What can I do today so you’re not alone with it?",
+    "Protector: What do you need me to do in the real world to make this system safer?",
+    "Leader/Guru: What is the direction that will be in alignment with truth, love, life and all beings?",
+    "Intuition: Let the intuition give me a signal. Let the analytical mind decipher it. Let the body give me feedback on my deciphering. Let reality inform me whether my interpretation is correct or not.",
+    "How to distinguish intuition from inherited programming: Wise subconscious mind, help me look at this impulse clearly. If part of it comes from family programming, religious fear, marketing, erotic imprints, political tribe, trauma responses, or a childhood need for belonging, show me that part so I can see it as programming. Let it soften or step back only as much as is safe, so that I can receive the true guidance from the universal heart that will make my life better in simple, ordinary ways. Let my body feel the difference.",
+    "Daydreaming: If this daydream is useful, show me the guidance in it. If it is a way of not dealing with my life, bring me gently into the present and help me deal with what I need to deal with.",
+    "Anxiety: What are you protecting me from? How can you trust my adult self more?",
+    "Truth that is hidden from you: If the full truth would overwhelm me, please don’t show me all of it. Show me my capacity to be peaceful first, and then the content of whatever is wounding me.",
+    "Integration: What can I do in ordinary life that would prove I heard correctly?",
+    "The prompt will tell your subconscious what you are looking for. The NLP will help you approach it in a way that will be safer. Use both, without pretending the answer is automatically true."
+   ],
+   "run": "HG29_30-r1",
+   "file": "fix-20261018/emu-i/HG29_30-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "only as a gentle symbol, a body signal, or a single next step",
+     "replace": "in a safe way that I can integrate.",
+     "with": "only as a gentle symbol, a body signal, or a single next step."
+    },
+    {
+     "type": "LOST",
+     "what": "the inner child's prompt: little one, what can I do today so you are not alone with it",
+     "replace": "Inner child: What do you need me to know? What can I do for you?",
+     "with": "Inner child: Little one, what do you need me to know? What can I do today so you’re not alone with it?"
+    },
+    {
+     "type": "SHIFT",
+     "what": "what action would make this system safer (not 'for you to feel safe')",
+     "replace": "for you to feel safe?",
+     "with": "to make this system safer?"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the conditioning prompt: look at the impulse clearly; if part of it comes from conditioning, let that part be seen, and soften or step back only as much as is safe (not 'dissolve all the programming'); let my body feel the difference",
+     "replace": "Wise subconscious mind, dissolve all the programming from my previous family, religion, marketing, erotic imprints, political tribe, trauma responses, and need for belonging as a child. Show me how these show up so I can see that they are just programming. Let them dissolve, or at least let them step back, so that I can receive the true guidance from the universal heart that will make my life better in simple, ordinary ways.",
+     "with": "Wise subconscious mind, help me look at this impulse clearly. If part of it comes from family programming, religious fear, marketing, erotic imprints, political tribe, trauma responses, or a childhood need for belonging, show me that part so I can see it as programming. Let it soften or step back only as much as is safe, so that I can receive the true guidance from the universal heart that will make my life better in simple, ordinary ways. Let my body feel the difference."
+    },
+    {
+     "type": "SHIFT",
+     "what": "the daydream prompt: if useful, reveal the guidance in it; if avoidance, bring me gently into the present",
+     "replace": "Show me if this daydream is useful and guiding me, or if it is a way of not dealing with my life. If it is the latter, let me deal with my life.",
+     "with": "If this daydream is useful, show me the guidance in it. If it is a way of not dealing with my life, bring me gently into the present and help me deal with what I need to deal with."
+    },
+    {
+     "type": "SHIFT",
+     "what": "if the full truth would overwhelm me, don't reveal it all (not 'don't show it to me')",
+     "replace": "Please don’t show it to me.",
+     "with": "If the full truth would overwhelm me, please don’t show me all of it."
+    },
+    {
+     "type": "SHIFT",
+     "what": "an action that would prove I heard correctly (not 'integrate this')",
+     "replace": "What can I do in ordinary life to integrate this?",
+     "with": "What can I do in ordinary life that would prove I heard correctly?"
+    },
+    {
+     "type": "LOST",
+     "what": "without pretending the answer is automatically true",
+     "replace": "Use both.",
+     "with": "Use both, without pretending the answer is automatically true."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

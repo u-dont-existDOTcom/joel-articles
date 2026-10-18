@@ -1,0 +1,1012 @@
+{
+ "HG02+03": [
+  {
+   "finding": "B4: LOST nobody taught the layers to speak to each other (only echoed in B5)",
+   "verdict": "OK",
+   "why": "B5 carries it: 'Instead of learning how to integrate all of these different layers'",
+   "from": "verify-b"
+  }
+ ],
+ "HG35": [
+  {
+   "finding": "R: each approach has advantages and the best depends on your goal, in B2 and B3",
+   "verdict": "OK",
+   "why": "B2 says it depends, B3 says what each is best for; the published B2 and B3 make those two points",
+   "from": "verify-b"
+  }
+ ],
+ "HG20": [
+  {
+   "finding": "R: it is fine to stay with sadness or tension, in B7 and B7",
+   "verdict": "KEPT",
+   "why": "'It can be ok to stay.' gives the permission the published B7 gives; it is the paragraph's march break (march-ab)",
+   "from": "verify-b"
+  }
+ ],
+ "HG14": [
+  {
+   "finding": "B6: INVENTED claim \"nobody has validated the whole sequence\"",
+   "verdict": "FIXED",
+   "why": "round 1 again: 'I'm not claiming that the entirety of the steps has been validated as one treatment'",
+   "from": "verify-b"
+  }
+ ],
+ "HG01": [
+  {
+   "finding": "B2: SHIFT \"part no recording can decide in advance\" became \"when your response is not guided by a recording\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'for the part of the practice no recording can decide in advance'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: INVENTED \"the subconscious\" in \"asking the subconscious questions\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published only says tools for 'questions'; naming the subconscious as who is asked is an added referent.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: INVENTED \"lots of appendices/topics\"; \"including\" makes the list non-exhaustive",
+   "verdict": "OK",
+   "why": "'Lots of' is casual (Appendix K shows many appendices) and 'including ... and more' works like etc.; all nine published topics are listed.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: the guide is very big, in B1 and B2",
+   "verdict": "FIXED",
+   "why": "The rewrite now opens 'To make it easier, you can begin with'; size is said only in the B1 heading.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: daily and weekly cadence, in B2 and B2",
+   "verdict": "FIXED",
+   "why": "Rewrite says 'the daily and weekly sections to make the practice your own' once, with no repeated cadence.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG06": [
+  {
+   "finding": "B2: INVENTED regulatory scrutiny claim added",
+   "verdict": "FIXED",
+   "why": "The scrutiny clause is gone; the sentence now ends 'know this perfectly well.' and goes straight to the FTC and OECD.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: INVENTED \"even if a fully grown adult\" added",
+   "verdict": "FIXED (round 3)",
+   "why": "Published has no age concession, only 'without the adult self having clearly chosen'; the added clause is a new claim and blurs 'adult self'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: SHIFT \"associated with\" became \"from\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'As a line associated with the Silva Mind Control tradition puts it'.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG10": [
+  {
+   "finding": "B2: INVENTED \"etc.\" implies further unlisted benefits",
+   "verdict": "OK",
+   "why": "'etc.' is style here; the five published areas are all named and no extra benefit is stated.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: SHIFT reader becoming a consumer became author not just selling audio files",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'so you don’t end up a consumer of more and more elaborate trance recordings'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: LOST \"increasingly elaborate\" recordings",
+   "verdict": "FIXED",
+   "why": "'more and more elaborate trance recordings' carries 'increasingly elaborate'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: hypnosis may not be best for historical trauma / other treatments may suit better, in B4 and B4",
+   "verdict": "FIXED",
+   "why": "Said once now: 'other treatments may be better for historical trauma'.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG11": [
+  {
+   "finding": "B1: SHIFT \"can be useful\" became \"is very useful\"",
+   "verdict": "FIXED",
+   "why": "Rewrite restores the hedge: 'can be a very useful description'; 'very' is only emphasis.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: SHIFT intuition \"offers signals\" became \"neither denied nor accepted dogmatically\"",
+   "verdict": "FIXED",
+   "why": "Rewrite says 'The mind of intuition offers its signals without becoming dogma.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: UNCLEAR \"the signals\" has no antecedent",
+   "verdict": "FIXED",
+   "why": "'offers its signals' now comes right before 'tests the signals without killing them', giving the antecedent.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: LOST \"next real action\" became \"how to act\"",
+   "verdict": "FIXED",
+   "why": "Rewrite says 'the adult chooses the next real action'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: SHIFT \"Let the modes correct each other\" became \"can modify the others\"",
+   "verdict": "FIXED (round 3)",
+   "why": "'Modify' just means change; the published point is that each mode corrects the others' failure modes just described.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG12": [
+  {
+   "finding": "B1: INVENTED \"big fan of self-hypnosis\" / \"have I mentioned\" added",
+   "verdict": "FIXED (round 3)",
+   "why": "Published never says he is a big fan or has said so before; the opener is added and frames him as an advocate.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: LOST \"skilled\" guide qualifier",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'there are advantages to having a skilled guide'.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG13": [
+  {
+   "finding": "B1: SHIFT \"this guide\" became \"my guides\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'In this guide, when I refer to'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"deeper processes shaping\" X became \"everything beneath the surface\" = X",
+   "verdict": "FIXED (round 3)",
+   "why": "Published defines the subconscious as the deeper processes that shape perception etc.; the rewrite makes it the list itself.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED \"etc.\" / \"etc etc\" open the subconscious and parts lists",
+   "verdict": "OK",
+   "why": "'etc.' is style; both lists are illustrative anyway and every published item is present.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"avoidance\" became \"aversions\"",
+   "verdict": "FIXED (round 3)",
+   "why": "'Aversions' means dislikes; the published term is avoidance, a different process, and it matches 'Which part is avoiding?'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"gives more precision\" became \"can be more effective\"",
+   "verdict": "OK",
+   "why": "Next line says 'Working with parts is about precision', so the precision point is carried.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED \"Neither way is right or wrong\"",
+   "verdict": "OK",
+   "why": "It only glosses 'both are maps'; 'neither one needs its own priesthood' is kept. No new claim.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"notice the tendencies\" became \"there may be ... parts\"",
+   "verdict": "OK",
+   "why": "'Recognise the ‘ecology’' still tells the reader to look; 'there may be' is a casual hedge on the same list.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT scripted lines became \"invoke ... e.g.\" examples; \"please guide me\" became \"can you help me…\"",
+   "verdict": "FIXED (round 3)",
+   "why": "The Higher Self script's 'please guide me' became 'please can you help me…'; restoring 'guide me' fixes the changed script line.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST scripted lines \"Let all of this belong to one life. Let the adult self lead with love.\" (became description with \"ideally\")",
+   "verdict": "FIXED",
+   "why": "Rewrite now quotes “Let all of this belong to one life. Let the adult self lead with love.”",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B16: SHIFT \"don't need to keep rehearsing\" became \"no point in working more\"",
+   "verdict": "FIXED (round 3)",
+   "why": "'No point' is stronger than 'don’t need to', and 'working more on' drops 'rehearsing'; it may read as the Witness being finished.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B16: INVENTED \"etc.\" opens the warmth/protection/direction list",
+   "verdict": "OK",
+   "why": "'etc.' is style; 'whatever is actually missing' already leaves it open, and all three published items are named.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B17: INVENTED \"It is important to differentiate\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published only restrains differentiating ('only when something specific appears'); 'It is important to' adds a push it never makes.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B17: LOST \"specific\" in \"something specific appears\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'when something specific comes up'.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG15": [
+  {
+   "finding": "B1: SHIFT \"question lands nowhere\" softened to \"can be harder\"",
+   "verdict": "OK",
+   "why": "'Can be harder when your private self had very little room' keeps the point; 'guesses instead of feeling' shows it.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"can begin\" became \"happens a lot... This means you don't know\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published says it 'can' happen; 'happens a lot' adds a frequency claim the author never makes.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"performance begins early\"; controlling/rigid/enmeshed qualifiers",
+   "verdict": "OK",
+   "why": "'Took over their life very early on' and 'pressured to achieve' carry the controlling, enmeshed and high-pressure settings.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"part of how\" became \"requires\"; preference and curiosity lost",
+   "verdict": "FIXED (round 3)",
+   "why": "'Requires' makes it necessary where the published says 'part of how'; 'preference, curiosity' is also lost.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"can leave less room\" became \"you didn't have the room\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published 'can leave less room' is a hedged model; 'you didn’t have the room' states it as fact about the reader.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT distance \"helps\" became \"necessary\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Sometimes it helps to distance yourself'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"quieter preferences surface\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'so quieter preferences can surface'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"doer/being difference helps\" became \"This means moving from doer to being\" (unclear \"This\")",
+   "verdict": "FIXED (round 3)",
+   "why": "Published says the doer/being difference 'helps here'; 'This means moving from' makes it a move or goal, with an unclear 'This'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT question \"whether others approve\" became \"what other people think\"",
+   "verdict": "OK",
+   "why": "'What other people think' is the same check as 'whether others approve'; casual paraphrase of a question, point intact.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT question \"earn the right to belong\" became \"buy my sense of belonging\"",
+   "verdict": "OK",
+   "why": "'Try to buy my sense of belonging' with the 'arena' keeps the question: using an arena to get belonging.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST quoted adult answer to the inherited parent; now \"remind yourself\"",
+   "verdict": "FIXED (round 3)",
+   "why": "The adult's quoted answer to the inherited parent is gone; 'remind yourself' replaces the script line.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED \"your inner child needs to play\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published never says the inner child needs to play; it just says 'Give the inner child a small experiment'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"choosing your own ground\" became \"choosing where you want to belong\"",
+   "verdict": "OK",
+   "why": "'Choosing where you want to belong – on your terms' carries choosing your own ground in this belonging context; paraphrase.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"crowd of borrowed voices\" became \"large part of subconscious is others' voices\"",
+   "verdict": "OK",
+   "why": "'The voices of other people' in your subconscious carries 'borrowed voices'; 'large part' is loose for 'crowd'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT question \"if I did not have to disappear\" became \"without having to betray myself\"",
+   "verdict": "OK",
+   "why": "'Belong without having to betray myself' keeps the question; losing yourself for belonging is the same point as 'disappear'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: distinguishing what is yours from what you are told, in B1 and B1",
+   "verdict": "FIXED",
+   "why": "Said once now: 'differentiate what is yours from what is social'; the earlier 'what you are told to want' clause is gone.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: not knowing who you are, in B1 and B1",
+   "verdict": "FIXED (round 3)",
+   "why": "Published makes it once ('love whom?'); 'who you are' in the first list echoes it again in the next sentence.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: falling short in the arena feels like not being enough or losing yourself, in B1 and B1",
+   "verdict": "FIXED",
+   "why": "The extra 'fall short … not good enough' sentence is gone; 'failing at them feels like losing yourself' appears once.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG18": [
+  {
+   "finding": "B2: SHIFT script made optional (\"You may wish to say\")",
+   "verdict": "FIXED (round 3)",
+   "why": "Published gives the return script as part of the return, not optional; 'You may wish to say' turns it into a suggestion.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: LOST \"useful now\" criterion (now \"what I choose to bring back\")",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'I am bringing back only what is useful now.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: SHIFT \"ordinary-life intention or future-practice cue\" merged into \"intention (or cue) for the future\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published keeps two things, an ordinary-life intention or a future-practice cue; 'intention (or cue) for the future' blurs them.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: LOST \"feel contact\", \"hear the room\", \"name where you are\" (now general awareness)",
+   "verdict": "FIXED",
+   "why": "Step 3 now says 'Hearing the room, and naming where you are'; step 1 'Coming back into your body' covers contact.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: SHIFT commands became \"it is a good idea to\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published gives orientation checks as commands (e.g. 'stand only when steady'); 'it is a good idea to' makes them mere advice.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: LOST \"only what actually appeared\" (now \"anything that came up\")",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Take note of only what actually came up during your session'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B6: INVENTED general rule \"any state not conducive to normal functioning\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published lists specific endings to avoid; 'any state that is not conducive to normal functioning' is a broader rule it never states.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: bring back only what you chose to bring back, in B1 and B2",
+   "verdict": "FIXED",
+   "why": "B2 script now says 'only what is useful now'; 'what you had intended to bring back' appears once, in the opening paragraph.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG19": [
+  {
+   "finding": "B1: SHIFT scripts made optional (\"You can say\")",
+   "verdict": "OK",
+   "why": "'You can say' is only a lead-in; the mantra and invitation scripts are both still given for the reader to say.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT mantra \"I am not leaving... I am listening\" became future \"I'm just going to listen\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published mantra is present tense ('I am not leaving life. I am listening'); the rewrite makes it a future intention.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT invocation addressed to the entities became \"with the help of my...\" (addressee unclear)",
+   "verdict": "FIXED",
+   "why": "Rewrite now addresses them directly: 'Higher Self, universal heart-mind, wise subconscious mind, ... please help me understand'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"lightly\" (intention held in background)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'hold the intention of this exercise lightly in the background of your mind'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"on its own\" (salience arises by itself)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Notice what stands out on its own.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: UNCLEAR \"know that your need to do something or be grateful...\" garbled",
+   "verdict": "FIXED",
+   "why": "Rewrite now reads 'know that you need to do something or be grateful for something', covering both task and gratitude.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: just notice thoughts without fighting or following, in B1 and B1",
+   "verdict": "FIXED (round 3)",
+   "why": "'Notice your thoughts...' and then 'but simply noticing them' give the same instruction twice; published says it once.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG21": [
+  {
+   "finding": "B1: SHIFT \"interrupt the silent listening to change direction\" became \"break out of the process to do something else\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'You can interrupt the listening at any time to change direction.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: SHIFT instruction \"try practicing without playback\" became prediction \"eventually you will not need to play it back\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Then try practicing without playing it back.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: SHIFT \"what needed warmth/protection, what direction serves\" became \"what you would like to nurture/protect/direct\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published asks what needed warmth, what needed protection, what direction serves; 'would like to nurture, protect, direct' turns needs into wishes.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: LOST \"capacity to build\"",
+   "verdict": "FIXED (round 3)",
+   "why": "'Capacity to build' is gone; 'something you would like to explore or build up' leaves out what is built.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: LOST \"[cue] happens\" (first blank no longer a cue)",
+   "verdict": "FIXED (round 3)",
+   "why": "Published template is 'If [cue] happens, then I will [small action]'; the rewrite's first blank no longer names a cue or 'happens'.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG22": [
+  {
+   "finding": "B1: SHIFT \"give the same practice more time\" became \"practise this once or twice a week\"",
+   "verdict": "OK",
+   "why": "Rewrite keeps once or twice a week plus 'more time with it if that would be useful'; the same practice, reordered.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"more time\" became \"a bit more time\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published says 'more time'; 'a bit more time' adds a size limit the author never sets.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"start from Higher Self or witnessing\" became \"when useful, Higher Self; if not possible, witnessing\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published gives Higher Self or neutral witnessing as equal starting points; the rewrite adds 'whenever it is useful' and a fallback.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG23": [
+  {
+   "finding": "B1: LOST \"directly\" (truth not ready to be known directly)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'It is not ready for you to know directly'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"comparing options\" (capacity list now says choose twice)",
+   "verdict": "FIXED",
+   "why": "Rewrite now lists 'pause, compare options, reality test, plan and make choices for yourself'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED \"when your adult has enough capacities, you can talk with your subconscious\"",
+   "verdict": "FIXED",
+   "why": "That sentence is gone; the paragraph now ends 'Ask for the next piece you can tolerate:'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"Ask for the next tolerable piece\" framing",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Ask for the next piece you can tolerate:'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"what would make the conscious mind 5% more able to receive this\" became \"what do you need so I can understand you 5% better\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published asks what would make the conscious mind 5% more able to receive this; 'know what you’re saying' shifts capacity to understanding.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"not a full revelation\" in the symbol question",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'through a symbol, not the whole revelation'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"next protective action without revealing the whole story\" became \"what to do to be safe without telling me what it is\"",
+   "verdict": "OK",
+   "why": "It still asks for a safety step without the content: 'to be safe without telling me what it is'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"who, if anyone, should help me hold this\" became \"do you need me to get support to know what it is? Who?\"",
+   "verdict": "OK",
+   "why": "It still asks whether support is needed and who: 'Do you need me to get support ... Who?'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"A safer script\" became optional \"You may even want to say\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published labels it 'A safer script'; 'You may even want to say' drops the safer framing and makes it optional.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"do not break it open violently\" became \"in a way that isn't good for me\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'please don’t break it open violently'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"especially around trauma and memory\" moved from the advice to the claim",
+   "verdict": "OK",
+   "why": "'Especially around trauma and memory' still marks those areas; 'Treat an image as an image' and outside support are kept.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: adult needs enough regulation, support, humility and capacity, in B1 and B1",
+   "verdict": "FIXED",
+   "why": "The repeat sentence is gone; 'doesn’t have enough regulation, support, humility or practical capacity' now appears once.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: choosing, in B1 and B1",
+   "verdict": "FIXED",
+   "why": "'Choose' is gone; the list now reads 'compare options ... make choices for yourself', choosing once.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG25": [
+  {
+   "finding": "B1: LOST \"autonomous\" dropped from movements",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Treat inner voices, images, autonomous movements or body signals'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: SHIFT \"chase\"/\"hobby\" became \"obsess\"/\"obsessed\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published warns against chasing grand downloads and making these a hobby; 'obsess' and 'obsessed' raise the bar to obsession.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: LOST \"first\" in \"stabilize first\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Stabilize yourself first.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: INVENTED \"etc.\" extends the list of entities",
+   "verdict": "OK",
+   "why": "'etc.' is only list style; demons, jinn and 'Unattached Burdens' are all still named.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: SHIFT \"force memory recovery\" merged with proving; \"what happened\" became \"something\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'try to “force” memories, use trance to “prove” what happened'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B5: SHIFT closed list of six became open categories (\"basic ... like ... etc.\")",
+   "verdict": "OK",
+   "why": "All six signals are still named (hunger, tiredness, pain, grief, anger, fear); 'like ... etc.' is list style.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B7: INVENTED \"They each need the others\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published never says the roles need each other; it only lists limits. The sentence is an added claim.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B7: SHIFT \"in proportion\" became only \"no total takeover\"; \"any inner state\" widens the four roles",
+   "verdict": "FIXED (round 3)",
+   "why": "Published says keep the roles 'in proportion'; 'take over completely' only forbids total domination, a narrower rule. 'Inner role' is fixed.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B11: SHIFT \"possession\" narrowed to \"demonic possession\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'possession', not 'demonic possession'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B13: SHIFT \"do not install\" became \"don't allow anyone to put in\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Don’t put in, or let anyone put in, hidden “commands”.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B13: SHIFT \"undisclosed third-party activation\" became commands relayed via someone else",
+   "verdict": "FIXED (round 3)",
+   "why": "Published bans 'undisclosed third-party activation'; 'give commands to someone else to give to YOU' describes relayed commands instead.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B13: INVENTED \"etc.\" opens the list",
+   "verdict": "OK",
+   "why": "'etc.' is only list style; commands, compulsion, identity change and amnesia are all still named.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG26": [
+  {
+   "finding": "B1: SHIFT instruction \"use as a relationship\" became statement \"is a relationship\"",
+   "verdict": "OK",
+   "why": "Rewrite says 'Self-hypnosis is a relationship you have with yourself', the same stance as 'use it as a relationship'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: INVENTED \"chronic\" before daydreaming",
+   "verdict": "FIXED",
+   "why": "Rewrite now says plain 'daydreaming'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: LOST \"avoided\" in \"an avoided task\" (became \"getting something done\")",
+   "verdict": "FIXED",
+   "why": "Rewrite now lists 'an avoided task'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: INVENTED \"etc.\" opens the target list",
+   "verdict": "OK",
+   "why": "'etc.' is only list style; every published target is still named.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B4: LOST \"ongoing\" help",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Get the right kind of ongoing help'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B6: SHIFT \"trauma-focused regression\" narrowed to regression for unknown trauma origins",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'deliberate trauma-focused regression'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B6: SHIFT \"work with flashbacks/dissociative reactions\" became \"expect\" them",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'to work with substantial flashbacks or dissociative reactions'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B6: INVENTED \"more stable\" purposes (published says \"different uses\")",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Both can have other uses too, like finding resources'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B6: INVENTED \"or didn't happen\"; \"historical event\" became \"in your life\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published says hypnosis cannot prove a historical event; 'or didn’t happen' adds a claim that it cannot show something did not occur.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B7: SHIFT \"tears\" narrowed to \"crying when you access inner children\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'a history of trauma, crying, or even wanting to feel difficult feelings'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B8: SHIFT \"Major trauma guidelines\" became \"Most guidelines for treating major trauma\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now opens 'Major trauma guidelines emphasize'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: INVENTED opening claim \"ultimate feedback is functioning in ordinary life\"",
+   "verdict": "OK",
+   "why": "Both published conditionals judge the practice by ordinary-life effects, so the opener only states that logic.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: SHIFT \"less stable\" became \"functioning less well\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'If ordinary life is getting less stable'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: clinician needed to explore unknown traumatic origins, in B6 and B6",
+   "verdict": "FIXED",
+   "why": "'Unknown traumatic origins' now appears once, in 'follow an affect or somatic bridge to unknown traumatic origins'.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG28": [
+  {
+   "finding": "B1: INVENTED reporting \"after each session\" of \"mind and body\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published only says 'reflect on what you report'; 'after each session' and 'mind and body' are added details about the app.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"a hypnotist's approach\" became \"how a hypnotherapist might approach particular issues\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'questions about a hypnotist’s approach'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"develop your own language\" became \"tips ... for hypnotic self-talk\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'ways to develop your own language'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B2: SHIFT \"it should say\" became \"it will probably tell you\"",
+   "verdict": "OK",
+   "why": "'It will probably tell you that it can’t see or hear the file' still tells the reader to expect a notice.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: INVENTED choices \"about what to try next\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published says 'better-informed choices' in general; 'about what to try next' narrows what the app helps you choose.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B5: LOST \"how the guide is landing in real practice\" (became \"others can benefit\")",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'others can learn how the guide is landing in real practice'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B5: SHIFT \"what you learned\" narrowed to \"learned from using the app\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published asks for 'what you learned'; 'from using the app' limits the survey to app use, though it is about the guide.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B6: SHIFT \"contact me directly for a consultation\" became \"contact me here to discuss arranging a consultation\"",
+   "verdict": "OK",
+   "why": "Both offer a consultation if you contact the author about an unanswered question; 'here' and 'to discuss arranging' are small wording.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG34": [
+  {
+   "finding": "B1: SHIFT \"romantic obsession\" became \"obsession with romantic partners\"",
+   "verdict": "OK",
+   "why": "'Obsession with romantic partners' still names romantic obsession as a daydream trap; only the wording of the object differs.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED dissociation \"from the pain of real life\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now lists plain 'Dissociation.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"guidance inside it\" in the script (now \"what I need to know\")",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'please show me the guidance inside them'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"help me deal with what I need to deal with\" became \"show me how to deal with life\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Script asks for help with 'what I need to deal with', not 'show me how to deal with life' in general.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: LOST \"get embarrassingly practical\" framing",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Then get embarrassingly practical'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"what real-life action is this daydream replacing\" became \"what do I need to do that I'm avoiding\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now asks 'What real-life action is this daydream replacing?'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"stop chasing unavailable love\" became \"stop fantasizing about people who can't love me\"",
+   "verdict": "FIXED (round 3)",
+   "why": "'Stop chasing' is a real-life action the daydream replaces; 'stop fantasizing about people who can’t love me' is the daydream itself and narrower.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG36": [
+  {
+   "finding": "B1: LOST \"only\" in \"access it only in a particular state\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'to be able to access it only in a particular state'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"recover memories\" became \"help you remember things\" (overbroad)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'to recover memories'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"override medical needs\" narrowed to \"not see a doctor\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'to override medical needs'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED claim \"many people have opened to certain things in altered states\"",
+   "verdict": "FIXED (round 3)",
+   "why": "Published says only 'A past opening can be a resource'; 'Many people have opened to certain things' adds a prevalence claim.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED \"it is great that this opened\"",
+   "verdict": "OK",
+   "why": "'It is great that this opened' is only a positive aside, in line with the published calling an opening 'a resource'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"Help me remember love\" became \"remember the love I am feeling\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Help me to remember love.'",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"usually more useful than demanding a revelation\" became \"you may want ... rather than asking\"",
+   "verdict": "OK",
+   "why": "'Rather than asking for a revelation, you may want to use these phrases' still offers the prompts as the better route.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: SHIFT \"first encounter\" became \"attempt their first\"",
+   "verdict": "OK",
+   "why": "Still says many people have these first experiences while in a mind altered state; 'attempt' versus 'encounter' is wording.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: SHIFT \"intensity mistaken for meaning\" became \"altered state must mean something\"",
+   "verdict": "OK",
+   "why": "'People think that because they are in an altered state, that it must mean something' carries mistaking the experience for meaning.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: SHIFT \"Protector is showing fear\" became \"Protector scaring you\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'a Protector showing fear'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: LOST \"longing\" in buried-material list",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'shame/grief/anger/longing'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: SHIFT \"plain confusion\" became \"some other reason that it just doesn't make sense\"",
+   "verdict": "OK",
+   "why": "'Some other reason that it just doesn't make sense' covers plain confusion; the catch-all wording is style.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ],
+ "HG40": [
+  {
+   "finding": "B1: SHIFT \"not a treatment validated as a whole\" became \"I do not claim ... validated\" (\"treatment\" dropped)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'validated as a whole treatment', restoring 'treatment' and 'as a whole'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B1: INVENTED \"how I have found it useful\" (personal-usefulness claim)",
+   "verdict": "FIXED",
+   "why": "The 'found it useful' claim is gone; the rewrite says only 'That combination is an adaptation' plus the non-validation line.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: LOST \"especially\" before the page numbers",
+   "verdict": "OK",
+   "why": "The same pages are still pointed to for the same topics; 'especially' only stresses them.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: SHIFT four topics became \"some aspects of interactive hypnosis such as...\"; \"sensory learning\" became \"use other senses in learning\"",
+   "verdict": "OK",
+   "why": "All four topics are named: interactive hypnosis, 'other senses in the learning process', self-hypnosis, 'a definite return'. 'Such as' is only looser wording.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: INVENTED \"for professional hypnotists\"; \"is\" softened to \"more of\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'It is a professional clinical book, not a self-help one'; 'for professional hypnotists' and 'more of' are gone.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B3: LOST \"wholesale\"; \"historical claims imported into practice\" became \"historical information taken at face value\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'its historical claims: don't bring them wholesale into solo practice', restoring both 'wholesale' and 'claims'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B5: SHIFT \"tutorials describe techniques\" became \"guide's information is sourced from\" them",
+   "verdict": "FIXED",
+   "why": "Rewrite now says the tutorials 'describe language and cueing techniques', as published, not that the guide is sourced from them.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B5: INVENTED \"based on these sources ... adapted for a slightly different purpose\"",
+   "verdict": "FIXED",
+   "why": "The 'based on these sources ... adapted for a slightly different purpose' sentence is removed; only 'are my adaptations' remains.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B7: LOST \"bodily\" in \"bodily tracking\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'key ideas of bodily tracking'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B7: INVENTED \"key ideas ... in depth\" (books' coverage)",
+   "verdict": "FIXED",
+   "why": "'In depth' is removed; 'Parts of this post draw on' carries the published 'inform', so the books' role is as published.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: LOST \"repair\" (\"working on this\" has no clear referent)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'practical and relational repair'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: SHIFT \"mutual peer support\" became \"working on this together with another peer\"",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'mutual peer support'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B9: INVENTED \"etc.\" opens the topic list",
+   "verdict": "OK",
+   "why": "'etc.' is only list style; all six published topics are still named.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B10: SHIFT \"pages discuss X\" became \"the guide's information is based on\" those pages",
+   "verdict": "OK",
+   "why": "Same pages and topics are pointed to; 'based on' is how a sources note frames them, and 'is an adaptation' follows.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B10: INVENTED \"etc.\" opens the list",
+   "verdict": "OK",
+   "why": "'etc.' is only list style; renurturing work, somatic work and nurturing capacities are all still named.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B10: SHIFT \"those ideas\" (both books) became \"this method is adapted from that book\" (one book)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'Applying those ideas to an adult’s younger feeling states is an adaptation', covering both books.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "B14: INVENTED \"good\" overview (value judgment)",
+   "verdict": "FIXED",
+   "why": "Rewrite now says 'has an overview of hypnosis', without 'good'.",
+   "from": "verify-a, adjudicate-a"
+  },
+  {
+   "finding": "R: the guide adapts its sources rather than copying them, in B5 and B5",
+   "verdict": "FIXED",
+   "why": "The adaptation point is now made once, in 'are my adaptations'; the second 'based on ... adapted' sentence is gone.",
+   "from": "verify-a, adjudicate-a"
+  }
+ ]
+}

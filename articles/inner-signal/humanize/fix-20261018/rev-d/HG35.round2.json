@@ -1,0 +1,114 @@
+[
+ {
+  "block": 3,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "may be best (not 'likely')",
+    "replace": "is likely to be the best way",
+    "with": "may be the best way",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "what they are trained to treat",
+    "replace": "What do they train in?",
+    "with": "What are they trained to treat?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "you tell them what helped, your directness, touch, imagery and how you'll stop; you ask about unexpected reactions, uncertain memories and the full return",
+    "replace": "What to do if you have unexpected reactions in or after a session. What to do if you aren’t sure if something is a memory or not. How they do the full return at the end.",
+    "with": "And ask them what they do about unexpected reactions in or after a session, about things you aren’t sure are memories, and how they do the full return at the end.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the subconscious notices what the conscious mind misses; and 'not just obeyed' said the order point twice",
+    "replace": "Anticipations, pattern reads, or just things that seem a bit uncanny that come from the subconscious should be respected, but not just obeyed, because the subconscious may send out",
+    "with": "The subconscious can notice things the conscious mind misses. Anticipations, pattern reads, or just things that seem a bit uncanny that come from it should be respected. The subconscious may send out",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "seeking counsel can quietly turn into obeying an authority (a warning, not a definition)",
+    "replace": "Seeking counsel doesn’t mean abdicating to an authority figure.",
+    "with": "Seeking counsel can quietly turn into abdicating to an authority figure.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "a carefully timed question from a peer",
+    "replace": "if asked carefully and at the right time, your peers can help",
+    "with": "with a question asked carefully and at the right time, your peers can help",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 21,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "what shaped this person into someone capable of that harm",
+    "replace": "What was going on with the other person(s) that put them in a place to cause harm?",
+    "with": "What shaped the other person(s) into someone capable of that harm?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "what does accountability require",
+    "replace": "How do I need to hold them accountable?",
+    "with": "What does accountability require?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'one of the hardest things to do'",
+    "replace": "One of the hardest things to do is to forgive ourselves. Name what you did,",
+    "with": "For self-forgiveness, name what you did,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ }
+]

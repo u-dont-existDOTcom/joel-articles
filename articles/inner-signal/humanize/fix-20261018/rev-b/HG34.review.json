@@ -80,6 +80,22 @@
     "with": "Dissociation.",
     "round": 2,
     "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"help me deal with what I need to deal with\" became \"show me how to deal with life\"",
+    "replace": "show me how to deal with life in a gentle but structured way",
+    "with": "help me deal with what I need to deal with in a gentle but structured way",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"stop chasing unavailable love\" became \"stop fantasizing about people who can't love me\"",
+    "replace": "stop fantasizing about people who can’t love me.",
+    "with": "stop chasing unavailable love.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
    }
   ]
  }

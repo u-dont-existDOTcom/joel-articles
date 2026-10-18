@@ -34,6 +34,14 @@
     "what": "relational wounds that need another nervous system; skilled outside support may be best",
     "replace": "or relationship issues, you may benefit from getting the right help from the right person.",
     "with": "or relational wounds that need another nervous system, skilled outside support may be best."
+   },
+   {
+    "type": "SHIFT",
+    "what": "may be best (not 'likely')",
+    "replace": "is likely to be the best way",
+    "with": "may be the best way",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -46,6 +54,14 @@
     "what": "credentials matter without guaranteeing competent care",
     "replace": "(Remember, credentials are not indicators of quality care!)",
     "with": "(Remember, credentials matter, but they don’t guarantee competent care!)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "what they are trained to treat",
+    "replace": "What do they train in?",
+    "with": "What are they trained to treat?",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -64,6 +80,14 @@
     "what": "the full return, not 'coming back to the session'",
     "replace": "What to do if you need to come back “all the way” to the session.",
     "with": "How they do the full return at the end."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "you tell them what helped, your directness, touch, imagery and how you'll stop; you ask about unexpected reactions, uncertain memories and the full return",
+    "replace": "What to do if you have unexpected reactions in or after a session. What to do if you aren’t sure if something is a memory or not. How they do the full return at the end.",
+    "with": "And ask them what they do about unexpected reactions in or after a session, about things you aren’t sure are memories, and how they do the full return at the end.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -106,6 +130,14 @@
     "what": "it tells you, not someone",
     "replace": "or tell someone to do something",
     "with": "or tell you to do something"
+   },
+   {
+    "type": "LOST",
+    "what": "the subconscious notices what the conscious mind misses; and 'not just obeyed' said the order point twice",
+    "replace": "Anticipations, pattern reads, or just things that seem a bit uncanny that come from the subconscious should be respected, but not just obeyed, because the subconscious may send out",
+    "with": "The subconscious can notice things the conscious mind misses. Anticipations, pattern reads, or just things that seem a bit uncanny that come from it should be respected. The subconscious may send out",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -138,16 +170,34 @@
     "what": "neither automatic trust nor automatic dismissal",
     "replace": "It doesn’t mean either trusting or not trusting someone.",
     "with": "Another person doesn’t get automatic trust, or automatic dismissal."
+   },
+   {
+    "type": "SHIFT",
+    "what": "seeking counsel can quietly turn into obeying an authority (a warning, not a definition)",
+    "replace": "Seeking counsel doesn’t mean abdicating to an authority figure.",
+    "with": "Seeking counsel can quietly turn into abdicating to an authority figure.",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
  {
   "block": 15,
-  "verdict": "OK",
+  "verdict": "FIX",
   "links": [
    {
     "published": "Hearthwork",
     "new": "Hearthwork"
+   }
+  ],
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "a carefully timed question from a peer",
+    "replace": "if asked carefully and at the right time, your peers can help",
+    "with": "with a question asked carefully and at the right time, your peers can help",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  },
@@ -205,7 +255,25 @@
  },
  {
   "block": 21,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "what shaped this person into someone capable of that harm",
+    "replace": "What was going on with the other person(s) that put them in a place to cause harm?",
+    "with": "What shaped the other person(s) into someone capable of that harm?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "what does accountability require",
+    "replace": "How do I need to hold them accountable?",
+    "with": "What does accountability require?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
  },
  {
   "block": 22,
@@ -216,6 +284,14 @@
     "what": "name what you did without taking responsibility for what wasn't yours; let remorse register the harm or the broken value without making yourself a permanent criminal",
     "replace": "It's important to realize that just because you didn't take responsibility for something that wasn't yours to take, doesn't mean you're a criminal if you feel remorse over the effect your action may have had, or just that it wasn't in keeping with your value system.",
     "with": "Name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'one of the hardest things to do'",
+    "replace": "One of the hardest things to do is to forgive ourselves. Name what you did,",
+    "with": "For self-forgiveness, name what you did,",
+    "round": 2,
+    "from": "verify-b (second reader)"
    }
   ]
  }

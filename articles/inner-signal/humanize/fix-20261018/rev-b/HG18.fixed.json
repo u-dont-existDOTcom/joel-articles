@@ -33,7 +33,7 @@
     2
    ],
    "paras": [
-    "You may wish to say, “I am bringing back only what is useful now. All that is not needed at this time will remain safely stored away until such time as I am ready. I am now coming back to this place and to my body and to normal day to day living, and to one honest action. All instructions to go deeper or stay in this session are now over. I keep only the conscious intention (or cue) I chose for the future, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
+    "Say, “I am bringing back only what is useful now. All that is not needed at this time will remain safely stored away until such time as I am ready. I am now coming back to this place and to my body and to normal day to day living, and to one honest action. All instructions to go deeper or stay in this session are now over. I keep only the ordinary-life intention or future-practice cue I consciously chose, and neither one keeps today’s altered state running. I am myself, in my body, with my adult judgment fully available.”"
    ],
    "run": "HG18-r1",
    "file": "fix-20261018/emu-a/HG18-r1.out.txt",
@@ -57,6 +57,22 @@
      "with": "I am bringing back only what is useful now.",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B2: SHIFT script made optional (\"You may wish to say\")",
+     "replace": "You may wish to say,",
+     "with": "Say,",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B2: SHIFT \"ordinary-life intention or future-practice cue\" merged into \"intention (or cue) for the future\"",
+     "replace": "the conscious intention (or cue) I chose for the future",
+     "with": "the ordinary-life intention or future-practice cue I consciously chose",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -89,7 +105,7 @@
     4
    ],
    "paras": [
-    "It is a good idea to say to yourself what day it is or what the date is, look to your left and to your right, look at something near and something far away, move about a bit before you stand up, stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back). Take note of only what actually came up during your session and what you may or may not need to do as a result, and then just go about doing something normal."
+    "Say to yourself what day it is or what the date is, look to your left and to your right, look at something near and something far away, move about a bit before you stand up, stand up only when you’re steady, and make sure that you are actually oriented and alert (repeating the count isn’t proof that you’re all the way back). Take note of only what actually came up during your session and what you may or may not need to do as a result, and then just go about doing something normal."
    ],
    "run": "HG18-r1",
    "file": "fix-20261018/emu-a/HG18-r1.out.txt",
@@ -107,6 +123,14 @@
      "with": "Take note of only what actually came up during your session",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B4: SHIFT commands became \"it is a good idea to\"",
+     "replace": "It is a good idea to say to yourself what day it is or what the date is",
+     "with": "Say to yourself what day it is or what the date is",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -137,7 +161,7 @@
     6
    ],
    "paras": [
-    "Note: If you are using a recording to go to sleep, then it is all right to let the recording put you to sleep or have you in a quiet resting state. However, if it’s a recording for waking practice, then it should not leave you in any state that is not conducive to normal functioning, such as leaving you in a role, with lowered judgement, impaired movement capabilities, blank, with an undefined reset word, or invited to stay altered indefinitely."
+    "Note: If you are using a recording to go to sleep, then it is all right to let the recording put you to sleep or have you in a quiet resting state. However, if it’s a recording for waking practice, then it should not leave you in a role, with lowered judgement, impaired movement capabilities, blank, with an undefined reset word, or invited to stay altered indefinitely."
    ],
    "run": "HG18-r1",
    "file": "fix-20261018/emu-a/HG18-r1.out.txt",
@@ -153,6 +177,14 @@
      "what": "an invitation to remain altered indefinitely",
      "replace": "blank or with an undefined reset word, etc.",
      "with": "blank, with an undefined reset word, or invited to stay altered indefinitely."
+    },
+    {
+     "type": "INVENTED",
+     "what": "B6: INVENTED general rule \"any state not conducive to normal functioning\"",
+     "replace": "any state that is not conducive to normal functioning, such as leaving you in a role,",
+     "with": "a role,",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"

@@ -1,0 +1,248 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "from experience (not 'a bit more')",
+    "replace": "I’m going to come from a bit more experience here.",
+    "with": "I’m going to come from experience here."
+   },
+   {
+    "type": "LOST",
+    "what": "plant-medicine-adjacent practice; grief (not extreme grief)",
+    "replace": "extreme grief, prayer, or a variety",
+    "with": "grief, prayer, plant-medicine-adjacent practice, or a variety"
+   },
+   {
+    "type": "SHIFT",
+    "what": "it doesn't feel like an emotion or younger part (not 'it is not'); it feels intrusive, hateful, seductive, mocking or simply alien",
+    "replace": "But it is not a simple emotion, and not merely a younger part.",
+    "with": "It doesn’t feel like a simple emotion or a younger part, and it feels intrusive, hateful, seductive, mocking, or simply alien."
+   },
+   {
+    "type": "LOST",
+    "what": "the possibilities: literal beings, symbolic mind-forms, trauma in a frightening costume, dissociated energy, ancestral and relational burdens",
+    "replace": "whether they are literally demons or not.",
+    "with": "whether they are literally demons or not. Maybe they are literal beings; maybe they are symbolic mind-forms, trauma in a frightening costume, dissociated energy, or ancestral and relational burdens."
+   },
+   {
+    "type": "LOST",
+    "what": "the practical question as a script, with 'less hooked'",
+    "replace": "All that matters is what the best way of dealing with them is, in terms of what leaves you feeling the safest, clearest, most loving, most grounded, etc.",
+    "with": "All that matters is the practical question: “What response makes me safer, clearer, more loving, more grounded, and less hooked?”"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "no instant certainty; the triage (medical danger, environment, body, overload, how open the mind is); the steps; don't deepen, hunt for hidden truth or debate what it is",
+    "replace": "you check in with the room, your body, and safety in general.",
+    "with": "you check in with the room, your body, and safety in general, without rewarding it with instant certainty about what it is. Run the triage first: medical danger, environment, body, overload, and how open your mind has become. Open your eyes, feel your feet, name the room, lower the stimulation, leave hostile company, and stop adding prompts. Don’t go deeper, hunt for hidden truth, or debate what it is while you’re destabilized."
+   },
+   {
+    "type": "WRONG",
+    "what": "the script invited the presence forward and had the body bring it to safety; the published: only what can be integrated is welcome, too much can wait, the adult remains, the body may return to safety",
+    "replace": "“If there is anything that can be integrated right now, you may come forward. But know that you can wait, and that you will not be able to come forward until you are something that can be integrated. Know also that I will always be here as an adult, and that my body will bring you to a place of safety.”",
+    "with": "“Only what can be integrated is welcome right now. Anything that’s too much can wait. The adult in me is still here, and my body can go back to safety.”"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "Emulate's paragraph breaks off ('if that feels'); the published: once stable enough, notice what helps without making it a test of what it is; hand on heart if welcome, a comfortable breath, keep the room",
+    "replace": "If not, then check in with yourself as to what will be the best response. Again, it doesn’t matter whether or not it’s literally a demon. Put your hand on your heart, if that feels",
+    "with": "If not, and you’re stable enough to stay present, check in with yourself as to what helps. Again, it doesn’t matter whether or not it’s literally a demon; this isn’t a test of what it is. Put your hand on your heart, if that feels welcome, take a comfortable breath, and keep the room available."
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "warmth or distance, and keep the boundary either way (not either/or)",
+    "replace": "Ask yourself if it would be appropriate to send it some warmth or if you need to place a boundary with it.",
+    "with": "Notice whether warmth or distance helps, and keep your boundary either way."
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "return to the body and room",
+    "replace": "then do not continue to engage with it.",
+    "with": "then stop engaging with it and come back to your body and the room."
+   }
+  ]
+ },
+ {
+  "block": 13,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "whether the response helps you become clearer, steadier, less hooked (not whether it clears 'it'); a protector needn't show its fear quickly, comfort doesn't prove an interpretation",
+    "replace": "Ask yourself if this way of responding to it seems to be clearing it.",
+    "with": "Ask yourself if this way of responding helps you become clearer, steadier, and less hooked. A protective part doesn’t have to show its fear quickly, and a comforting response doesn’t prove what it is either."
+   },
+   {
+    "type": "LOST",
+    "what": "love and boundaries don't need a verdict first",
+    "replace": "It is ok to use a combination of love and boundaries to interact with it.",
+    "with": "You can use love and boundaries without deciding what it is first."
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the first impulse may be (not 'my first thought'); identify completely with the threatened self (not 'be it')",
+    "replace": "My first thought is to fight it",
+    "with": "The first impulse may be to fight it"
+   },
+   {
+    "type": "WRONG",
+    "what": "identify completely with the threatened self (not 'be it')",
+    "replace": "panic, be it, etc.",
+    "with": "panic, become nothing but the threatened self, etc."
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "pride gives it an opponent, panic gives it the nervous system (the sentence was garbled)",
+    "replace": "…it becomes the center of your attention and when you hate it, give it a hook in you, or fight it from pride or panic….",
+    "with": "…it becomes the center of your attention. When you hate it, you give it a hook in you. Pride gives it an opponent, and panic gives it your nervous system."
+   }
+  ]
+ },
+ {
+  "block": 17,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'the enemy' (the appendix's point is not to fight it)",
+    "replace": "So the next time the enemy enters the room, simply say to it,",
+    "with": "So the next time it shows up, simply say,"
+   },
+   {
+    "type": "LOST",
+    "what": "not defeat it from fear",
+    "replace": "I see that there is no need to defeat what I am experiencing.",
+    "with": "I see that there is no need to defeat what I am experiencing from fear."
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "don't offer soft love as though inviting it in for tea (Emulate made it an instruction)",
+    "replace": "In this case, don’t approach it with soft sentimental love. Invite it in for tea.",
+    "with": "In this case, don’t approach it with soft sentimental love, as though you were inviting it in for tea."
+   },
+   {
+    "type": "LOST",
+    "what": "the chest open but not exposed; the body has a perimeter",
+    "replace": "pull your shoulder blades back slightly, feel the boundary of the skin around your torso",
+    "with": "pull your shoulder blades back slightly so your chest is open but not exposed, feel the boundary of the skin around your torso and that this body has a perimeter,"
+   }
+  ]
+ },
+ {
+  "block": 24,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the signs: persistent, paranoid, sleepless, dangerous, impossible to reality-test",
+    "replace": "It is not meant for people who may be going psychotic or experiencing other forms of destabilization.",
+    "with": "That is very different from a state that becomes persistent, paranoid, sleepless, dangerous, or impossible to reality-test, which may be psychosis or another kind of destabilization."
+   },
+   {
+    "type": "SHIFT",
+    "what": "hears commands (not 'hearing voices': the guide works with inner voices)",
+    "replace": "are hearing voices,",
+    "with": "are hearing commands,"
+   },
+   {
+    "type": "LOST",
+    "what": "continue gently",
+    "replace": "keep doing it.",
+    "with": "keep going, gently."
+   },
+   {
+    "type": "SHIFT",
+    "what": "isolated, frightened or unreal; stop deepening and get support (not 'don't do it')",
+    "replace": "non-relational, scared, and non-functional, don’t do it.",
+    "with": "isolated, scared, or unreal, stop going deeper and get support."
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'Finally' twice in the appendix",
+    "replace": "Finally, some of these presences",
+    "with": "Also, some of these presences"
+   },
+   {
+    "type": "LOST",
+    "what": "a special mission, a revelation that makes washing dishes seem beneath you",
+    "replace": "or trying to “download cosmic info” into you, etc.",
+    "with": "or trying to “download cosmic info” into you, or giving you a special mission that makes the dishes seem beneath you, etc."
+   },
+   {
+    "type": "LOST",
+    "what": "the script: thank you for the imagery; no grand performance; a simple, honest act of care tomorrow morning, and its list",
+    "replace": "“Unless the info you have to download is going to help me do the dishes or clean my room, I don’t need it.”",
+    "with": "“Thank you for the imagery. I don’t need a grand performance. Unless the info you have to download can become a simple, honest act of care tomorrow morning, like doing the dishes, cleaning my room, keeping a promise, apologizing, resting, eating or helping someone I love, I don’t need it.”"
+   },
+   {
+    "type": "SHIFT",
+    "what": "guidance worth keeping makes ordinary life more beautiful, honest, relational, humble, reliable and useful to other people",
+    "replace": "the guidance has to help you do the dishes or clean your room in a more beautiful, honest, relational, humble, useful way.",
+    "with": "guidance worth keeping should make ordinary life, the dishes and the room included, more beautiful, honest, relational, humble, reliable, and useful to other people."
+   }
+  ]
+ },
+ {
+  "block": 32,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'they all basically respond the same way'; the published: they all lead to the same practical training: can love stay present without giving up the boundary, can the mind become harder to hook",
+    "replace": "The truth is, they all basically respond the same way. It’s good to learn how to relate to them with love, and it’s good to make your mind harder to hook, but beyond that, I don’t really want you becoming hobbyists in this area.",
+    "with": "The truth is, they all lead to the same practical training: can love stay present without giving up the boundary, and can your mind become harder to hook? Beyond that, I don’t really want you becoming hobbyists in this area."
+   }
+  ]
+ }
+]

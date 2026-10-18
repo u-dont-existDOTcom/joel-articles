@@ -1,0 +1,138 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B20] You can give this a little time.
+
+[B21] A thought about the day may still be here. A thought about whether you’re doing this properly may be here too. There is room to notice a thought and return to the anchor you chose, without finishing the thought first.
+
+[B22] And as you return, you may find one detail that holds your interest … something about the sound, or the contact, or that particular way of listening … and let attention stay with it long enough to become curious.
+
+[B23] Perhaps you can give yourself the time you would give someone you care about who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them.
+
+[B24] Let your chosen phrase come to mind now. Say it as an invitation, and notice how it is received.
+
+[B25] As you continue, your eyes can close, soften, or stay open. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background.
+
+[B26] Count slowly from five to one. Give each number its own moment.
+
+[B27] Five. Notice your chosen anchor again. Four. Let attention gather around what you find. Three. Leave a little space after the words. Two. Listen into that space, without preparing an answer. One. Stay here for a moment.
+
+[B28] Bring your chosen concern lightly to mind, or remain with your wish for contact. Let it be present without rehearsing its whole story.
+
+[B29] What am I noticing now?
+
+[B30] Give the response time to take its own form. It might be a sensation, a few words, an image, a feeling, or an impulse to move. There may be nothing clear yet.
+
+[B31] Leave room to notice, with words or without them.
+
+[B32] Already open? Contain before you deepen
+
+[B33] Use this when loveyhuasca, meditation, lucid dreaming, grief, music, prayer, erotic energy, exhaustion, or intense beauty has already opened the state. Stabilize before making it stronger.
+
+[B34] “The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.”
+
+[B35] Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine. Press your thumbs gently but firmly against your index fingers. Focus on the physical friction of skin meeting skin.
+
+[B36] “Only what can be integrated is welcome now. Anything too much can wait. The body may stay safe. The adult self remains present. The inner child does not have to carry this alone.”
+
+[B37] Once you’re oriented, choose one intention:
+
+[B38] “Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”
+
+[B39] Stay awake when your mind likes to escape
+
+[B40] Sit upright. Open the eyes. Feel the feet. Let the breath be natural.
+
+[B41] Say: “I am not going away. I am coming more fully here.”
+
+REWRITE:
+[CHANGED, replaces B20]
+There’s time to do this.
+
+[CHANGED, replaces B21]
+It might be that a thought about something that’s happened during the day is still with you, or perhaps there’s a thought about doing this properly. Whatever is there, can you find it in yourself to turn your attention back to the anchor, even if there is a thought there?
+
+[CHANGED, replaces B22]
+and when you do come back, perhaps there was something of interest to you in all of this
+
+[CHANGED, replaces B23]
+Perhaps you can give yourself the time that you might give to someone dear to you
+
+[CHANGED, replaces B24]
+Try a phrase that you choose for yourself to see how it is for you
+
+[CHANGED, replaces B25]
+You can close your eyes, soften them or keep them open as you proceed
+
+[CHANGED, replaces B26]
+If you like, count to yourself, from 5 to 1
+
+[CHANGED, replaces B27]
+5, perhaps notice again what you have chosen to be your anchor for today, 4, and notice what you notice, 3, leave some space, 2, and listen, even to the silence, 1
+
+[CHANGED, replaces B28]
+Bring to mind, lightly, what it is that you want to contact. Or simply, stay with the wish to contact.
+
+[CHANGED, replaces B29]
+What do you notice now?
+
+[CHANGED, replaces B30]
+Allow yourself some time to notice what is coming. It might be sensations, words, images, feelings, the urge to move in some way or nothing at all.
+
+[CHANGED, replaces B31]
+Allow yourself some time to notice this, with or without words.
+
+[B32, as published] Already open? Contain before you deepen
+
+[CHANGED, replaces B33-B38]
+This is most useful after you have already opened yourself to a state, through loveyhuasca, meditation, lucid dreaming, dealing with grief, listening to music, prayer, engagement with erotic energy, exhaustion, or being overwhelmed by beauty. This is to stabilize your state, not to make it stronger.
+
+I already have an open state, now I want to aim that open state and make it stronger.
+
+Look around you, orient yourself to where you are, what date it is. Focus on the physical sensation of squeezing your thumbs against your index fingers, feel the friction.
+
+Now, I will only allow myself to go as far as I can integrate. My body will be safe, my adult self is here, my inner child doesn't have to do this alone.
+
+Now, tell me the next thing I need to know, in symbols, feelings, questions, actions, in doses that I can integrate.
+
+[B39, as published] Stay awake when your mind likes to escape
+
+[CHANGED, replaces B40]
+You can do this practice sitting up, with your eyes open, etc.
+
+[CHANGED, replaces B41]
+Begin by saying to yourself that you are not going to go away in this practice, you are coming more.
+
+
+This is PART 2 of 4 of the section: only the stretches below are yours; the published blocks shown are the ones they replace, with the headings around them. Go through the points in your head; don't write them out. Return only the JSON array, nothing before or after it.

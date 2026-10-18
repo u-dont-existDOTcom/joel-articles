@@ -136,7 +136,7 @@
     6
    ],
    "paras": [
-    "If you want to do deliberate trauma-focused regression, to follow an affect or somatic bridge to unknown traumatic origins, or to work with substantial flashbacks or dissociative reactions, work with a trauma-informed trained clinician who is trained in the method you’re using and who is present while you do it. (Affect and somatic bridges mean following associations from an emotional or bodily feeling; regression means remembering or imagining what it would have been like when you were younger. Both can have other uses too, like finding resources.) Ask what they intend to do and how they’ll handle uncertainty and unexpected reactions. Even if you work with a clinician, please note that hypnosis can’t prove what did or didn’t happen in your life."
+    "If you want to do deliberate trauma-focused regression, to follow an affect or somatic bridge to unknown traumatic origins, or to work with substantial flashbacks or dissociative reactions, work with a trauma-informed trained clinician who is trained in the method you’re using and who is present while you do it. (Affect and somatic bridges mean following associations from an emotional or bodily feeling; regression means remembering or imagining what it would have been like when you were younger. Both can have other uses too, like finding resources.) Ask what they intend to do and how they’ll handle uncertainty and unexpected reactions. Even if you work with a clinician, please note that hypnosis can’t prove what happened in your life."
    ],
    "run": "HG26-r1",
    "file": "fix-20261018/emu-a/HG26-r1.out.txt",
@@ -170,6 +170,14 @@
      "with": "Both can have other uses too, like finding resources.",
      "round": 2,
      "from": "verify-a (second reader)"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B6: INVENTED \"or didn't happen\"; \"historical event\" became \"in your life\"",
+     "replace": "what did or didn’t happen in your life",
+     "with": "what happened in your life",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
     }
    ],
    "verdict": "fixed"
