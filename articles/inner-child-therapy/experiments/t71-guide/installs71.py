@@ -501,3 +501,16 @@ register('lmt-e-swap', _lmt_now, lambda: lmt('lmt-e').replace('@@LMT@@', 'Alone 
 
 CS_C_END = "the h1 100% Human (2,430). Pangram 4.0 through the dashboard. -->"
 register('cs5-b-note', CS_C_END, CS_C_END[:-4] + ' Turn 71 (the overnight run): P5\'s first sentence is "Sometimes the session itself goes really well." for "Sometimes it\'s the exercise that works.", which a cold read couldn\'t place (works at what?; COLD-READ-t71-start-with.md, P21): experiments/t71-guide/drafts/cs5-b.txt. Alone Human Written (0.31, high), https://www.pangram.com/history/8ef13853-ce98-40a3-b1b6-5539a0417656; When the Adult Voice Feels Fake with it Human Written (0.079, high, 4364 words), https://www.pangram.com/history/1748b1f2-a784-4ef3-a343-a40cffd87764 (round t71xxx). -->')
+
+
+# 2026-10-18, round t71yyy: the guide's no to the frame (r4 line 71) at the end of When the Adult Voice Feels Fake's
+# opening instead, after his altered-state paragraph (Before You Try to Go Deep's opening took an AI window with it
+# every time, rounds t71ttt to t71www).
+WAVF_P7_END = "You've felt that your little one is real now, so talking to them afterward isn't just pretending."
+
+
+def frm_wavf(p='frm-e'):
+    return WAVF_P7_END + '\n\n<!-- Turn 71 (the overnight run): the guide\'s "A no to the frame is not a pacing problem to solve. If you do not want inner-child work, stop using that language and do not keep trying to sneak it back in through “gentler” exercises or by renaming ordinary tasks as reparenting. Care, protection, guidance, and human support can continue in whatever language actually fits you." (r4 line 71, from Before You Try to Go Deep), missing from the article (COVERAGE-r4-A.md, 5). Here, where feeling fake is the subject: in Before You Try to Go Deep every version turned the opening into its own AI window (rounds t71ttt to t71www, REVIEWS.md). Under 50 words, so no alone check. experiments/t71-guide/drafts/' + p + '.txt. @@FRM@@ -->\n\n' + draft(p)
+
+
+register('frm-wavf', WAVF_P7_END, frm_wavf)
