@@ -100,19 +100,22 @@
   },
   {
    "headings": [
-    "# Simple Practices",
-    "## A Heart-to-Child Loop"
+    "# When the Adult Voice Feels Fake",
+    "## Start With Whatever Showed Up",
+    "### When to Change the Strategy"
    ],
    "rows": [
     {
-     "label": "P2 (changed: your guide's fallback back, before your two Non-judgement sentences; a dedup of mine had taken it out)",
-     "article": "Picture the love traveling from your heart",
-     "source": [
-      "If warmth is absent, don’t fake it."
-     ],
+     "label": "P5 (changed: its first sentence, after a cold read)",
+     "article": "Sometimes the session itself goes really well.",
+     "source": [],
      "notes": [
-      "Turn 68 (E188; his answer to question 40, A): his \"Non-judgement is a place to start. It can blossom into love over time.\" from his October guide, at the end. Alone Human Written (0.11), https://www.pangram.com/history/36aa2411-2b25-435f-95d8-f0dd8145820a. Turn 71 (the overnight run): the guide's \"A sincere goodwill wish may be available even without warmth. If not, borrow one simple sentence from a safe adult: “I won’t attack you while we sit here.”\", which he pasted whole in his answer to question 40, back before his two sentences (COVERAGE-r4-B.md, 5; TRACE-r4-B.md, 5: turn 65's dedup, SP-DEDUP-REPORT.md G3.8, had it as said by Make a Simple Vow's \"you won't be cruel to them on purpose\", without his OK): experiments/t71-guide/drafts/hcl-b.txt. Alone Human Written (0.34, medium), https://www.pangram.com/history/6c4228a4-650d-4e8b-a6d1-baf7cfc04b4f; Simple Practices with it Human Written (0.067, high, 1998 words), https://www.pangram.com/history/eb948645-847b-42e5-b307-52280fb84e18 (round t71sss; the other version, drafts/hcl-a, read AI alone, 0.86)."
-     ]
+      ""
+     ],
+     "beside": {
+      "label": "The queued guide change it carries, PGQ-013 (the exercise goes well and ordinary life stays the same)",
+      "text": "Suggested reader-facing material to merge with that section without duplicating its existing strategy-review language:\n\n> There is another kind of mismatch to watch for: the inner-child exercise may actually go very well while ordinary life stays almost unchanged. You may find the child, feel real care, say exactly what needed to be said, and still return afterward to the same self-abandonment, hiding, chaos, or choices.\n>\n> That does not necessarily mean the meditation failed, and it does not necessarily mean you need a deeper or more powerful meditation. It may mean the missing step is transfer.\n>\n> Ask what the adult actually did in the exercise. Did they nurture, protect, guide, stay present, tell the truth, allow imperfection, or slow something down? Then choose one very small way—five percent is enough—to let that same function appear in ordinary life.\n>\n> The Nurturer might ask for support or let a safe person see something imperfect. The Protector might rest, set a boundary, leave an overwhelming situation, or stop using another person as a test. The Guide might choose one realistic next step instead of demanding certainty first.\n>\n> The child does not have to believe the new adult immediately. Words become more credible when ordinary life begins to match them. One small act of follow-through can sometimes teach more than repeating an already-successful meditation ten more times.\n>\n> Then review what happened without turning the review into another judgment of your worth. The question is simply whether this action made the caring, protective, or guiding function a little more real outside the exercise, and what should be kept or adjusted next time.\n\nPreserve these limits: do not require homework after every meditation; do not treat one outward act as generalized adult capacity; do not call weak carryover proof that the meditation was fake or that reparenting failed.\n\n## Pending bundle D — blocked action, conversational continuity, and memory support\n\nUpstream authority: `AMEND.CROSS.BLOCKED_ACTION_WAIT`, `AMEND.CROSS.SUPPORT_MODE_CONTINUITY`, `AMEND.CROSS.MEMORY_VS_REFLECTIVE_JOURNALING`, `AMEND.CROSS.PRACTICAL_FOCUS_SEQUENCING`, and the corresponding runtime/graph rules."
+     }
     }
    ]
   },
@@ -300,14 +303,14 @@
    ],
    "rows": [
     {
-     "label": "P1 (changed: your guide's crying caution back; a dedup of mine had taken it out)",
+     "label": "P1 (changed: your guide's crying caution, its two conditions; a dedup of mine had taken it out)",
      "article": "Rumi says you have to keep breaking your heart",
      "source": [
       "Some people find that deep grieving gives way",
       "Deep primal crying can also overwhelm"
      ],
      "notes": [
-      "Turn 65: fresh writer 2's paragraph (round z) with a new ending of mine (round z5), since its first ending was the h1's only AI window (45 words). Rumi's line as the guide gives it; grieving that gives way to warmth, connection or feeling held, which describes an experience and doesn't prove a mechanism; care opening grief for what was missing, without the love failing; and the grounding's MUST (GROUNDING-lm3.md): stay with it while present and choosing, slow down when it swamps you, pointing back to turn the song off for tonight in the article's opening. Alone Human Written (0.077, medium), https://www.pangram.com/history/31456910-eff9-48d5-b00e-d3d744335453; the h2 Human Written (0.21, medium), https://www.pangram.com/history/632b468d-cd78-4164-9b45-c500d1c9bb6c. Turn 71 (the overnight run): the guide's \"Deep primal crying can also overwhelm or retraumatize, especially without support or when a person becomes completely identified with the sadness.\" is back (COVERAGE-r4-B.md, 6; TRACE-r4-B.md, 6: turn 65's dedup, LM-DEDUP-REPORT.md G3.8, took it out without his OK, and its two conditions matched no crying text elsewhere): experiments/t71-guide/drafts/lmt-f.txt. With \"More tears don't mean more healing, though.\" too, the guide's line before it, which the grounding of turn 65 had left to the intro and the Emmy line. Alone Human Written (0.073, medium), https://www.pangram.com/history/2d2808e7-cb32-47a0-a9d1-ad7577b44dcf; When Love Still Feels Missing with it Human Written (0.20, high, 901 words), https://www.pangram.com/history/0c362d31-6498-446e-9882-4de31096245e (round t71rrr; the version without the tears sentence, drafts/lmt-e, 0.012 alone and 0.18 in the h1)."
+      "Turn 65: fresh writer 2's paragraph (round z) with a new ending of mine (round z5), since its first ending was the h1's only AI window (45 words). Rumi's line as the guide gives it; grieving that gives way to warmth, connection or feeling held, which describes an experience and doesn't prove a mechanism; care opening grief for what was missing, without the love failing; and the grounding's MUST (GROUNDING-lm3.md): stay with it while present and choosing, slow down when it swamps you, pointing back to turn the song off for tonight in the article's opening. Alone Human Written (0.077, medium), https://www.pangram.com/history/31456910-eff9-48d5-b00e-d3d744335453; the h2 Human Written (0.21, medium), https://www.pangram.com/history/632b468d-cd78-4164-9b45-c500d1c9bb6c. Turn 71 (the overnight run): the guide's \"Deep primal crying can also overwhelm or retraumatize, especially without support or when a person becomes completely identified with the sadness.\" is back (COVERAGE-r4-B.md, 6; TRACE-r4-B.md, 6: turn 65's dedup, LM-DEDUP-REPORT.md G3.8, took it out without his OK, and its two conditions matched no crying text elsewhere): experiments/t71-guide/drafts/lmt-e.txt. Alone Human Written (0.012, medium), https://www.pangram.com/history/7768b643-4da2-410f-9cf9-324981c654f3; When Love Still Feels Missing with it Human Written (0.18, high, 895 words), https://www.pangram.com/history/af0323c7-c973-4736-9471-d65a13abe190 (round t71rrr). Its other version, drafts/lmt-f, also had \"More tears don't mean more healing, though.\", which a repeats check found told again by his opening (REPEATS-11-tonight.md, 1)."
      ]
     }
    ]

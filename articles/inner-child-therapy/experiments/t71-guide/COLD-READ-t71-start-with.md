@@ -38,3 +38,21 @@ A Sonnet reader who saw only the article (prompt: reviewer.py sense-section --se
 Paused: P1 "the deeper therapy"; P9 "the same kind of listening"; P16 "call it off"; P20 "How many tries is enough?"; P28 "male iboga"; P33 "For the Benefit of All Beings:"
 
 What I did: P2 and P8 read OK. The pause at P9's "the same kind of listening" is new: the listening it points back to (P7) is two paragraphs up now, with P8 between, so P8 now hears the hunch out before the head looks (drafts/tf11-h, round t71mmm). P21's "Sometimes it's the exercise that works." is older text (turn 31), noted in REVIEWS.md. The other pauses are terms the article defines or names elsewhere ("the deeper therapy" is pl/ork, defined in P1; "male iboga" and "For the Benefit of All Beings:" are his).
+
+## A second read (round t71ppp's versions, drafts/tf89-d and tf11-k; the section's own paragraphs, without its h3s)
+
+The whole h2 ran a reader past its output limit twice, so this one read only P1 to P10 (reviewer.py sense-section --draft). Its report, word for word:
+
+P1: OK
+P2: OK
+P3: OK
+P4: OK
+P5: OK
+P6: OK
+P7: OK
+P8: OK
+P9: OK
+P10: OK
+Paused: P1 "wants to play, too"; P4 "can go the same way"; P6 "the reaction"; P8 "Daniel Kahneman and Gary Klein came at intuition"; P9 "the same kind of listening"; P9 "Same with something a doctor should look at"; P10 "Some of it"
+
+What I did: nothing; every paragraph reads OK. "Daniel Kahneman and Gary Klein came at intuition" opens on the source, as planned (question 50, 6); "the same kind of listening" now follows "so hear it out, and then let your head have a look".

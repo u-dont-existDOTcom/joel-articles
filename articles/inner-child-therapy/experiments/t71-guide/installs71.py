@@ -479,3 +479,25 @@ register('bgp1-frm-test', BG_P1, lambda: draft('bgp1-a') + '\n\n<!-- test -->\n\
 CS5_OLD = (T / '..' / '..' / 'HUMANIZED-ARTICLE-SO-FAR.md')
 CS5_FIRST_OLD = "Sometimes it's the exercise that works. You feel real care for your little one and say exactly what they needed to hear."
 register('cs5-b', CS5_FIRST_OLD, "Sometimes the session itself goes really well. You feel real care for your little one and say exactly what they needed to hear.")
+
+
+# 2026-10-18, after REPEATS-11 (REPEATS-11-tonight.md): its 7 found the loop's restored fallback told again by Make a
+# Simple Vow (a goodwill wish, then a promise not to be cruel, in the same order), so turn 65's dedup stood after all:
+# back out. Its 1 found "More tears don't mean more healing" told again by his opening ("It didn't help me develop
+# insight, though. I could have kept crying forever."), so Somatic Heart Opening keeps only the caution's two conditions
+# (drafts/lmt-e, checked in round t71rrr).
+def _hcl_now():
+    return hcl('hcl-b').replace('@@HCL@@', json.loads((T / 'RESULTS-hcl.json').read_text(encoding='utf-8'))['HCL'])
+
+
+register('hcl-undo', _hcl_now, lambda: HCL_C_END + '\n\n' + HCL_P)
+
+
+def _lmt_now():
+    return lmt('lmt-f').replace('@@LMT@@', json.loads((T / 'RESULTS-lmt.json').read_text(encoding='utf-8'))['LMT'])
+
+
+register('lmt-e-swap', _lmt_now, lambda: lmt('lmt-e').replace('@@LMT@@', 'Alone Human Written (0.012, medium), https://www.pangram.com/history/7768b643-4da2-410f-9cf9-324981c654f3; When Love Still Feels Missing with it Human Written (0.18, high, 895 words), https://www.pangram.com/history/af0323c7-c973-4736-9471-d65a13abe190 (round t71rrr). Its other version, drafts/lmt-f, also had "More tears don\'t mean more healing, though.", which a repeats check found told again by his opening (REPEATS-11-tonight.md, 1).'))
+
+CS_C_END = "the h1 100% Human (2,430). Pangram 4.0 through the dashboard. -->"
+register('cs5-b-note', CS_C_END, CS_C_END[:-4] + ' Turn 71 (the overnight run): P5\'s first sentence is "Sometimes the session itself goes really well." for "Sometimes it\'s the exercise that works.", which a cold read couldn\'t place (works at what?; COLD-READ-t71-start-with.md, P21): experiments/t71-guide/drafts/cs5-b.txt. Alone Human Written (0.31, high), https://www.pangram.com/history/8ef13853-ce98-40a3-b1b6-5539a0417656; When the Adult Voice Feels Fake with it Human Written (0.079, high, 4364 words), https://www.pangram.com/history/1748b1f2-a784-4ef3-a343-a40cffd87764 (round t71xxx). -->')
