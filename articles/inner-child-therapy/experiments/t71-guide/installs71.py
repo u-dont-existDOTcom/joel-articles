@@ -414,3 +414,18 @@ def aa6(p='aa6-c'):
 
 register('aa6', CE_P4_END, aa6)
 register('aa6-d', CE_P4_END, lambda: aa6('aa6-d'))
+
+
+# 2026-10-18, round t71rrr: the coverage check (COVERAGE-r4-B.md, 6; TRACE-r4-B.md, 6): turn 65's dedup took the
+# guide's crying caution out of Somatic Heart Opening without his OK ("SAID" elsewhere, but its two conditions matched
+# no crying text). Back in, in the paragraph it came from.
+SHO_P = "Rumi says you have to keep breaking your heart until it stays open. Some people find that deep grieving gives way to warmth, or to feeling connected. Some feel held, in the body. That describes what they feel, and it doesn't prove how the body produces it. Being loved can open grief from the other side, too. Someone takes care of you, and you think, \"Why does this make me sad?\" It can be sadness for the care that was missing, and that doesn't mean the love failed. While you're present and still choosing, stay with it. Once it's swamping you instead of opening you, slow down (like turning the song off for the night)."
+SHO_C_END = "the h2 Human Written (0.21, medium), https://www.pangram.com/history/632b468d-cd78-4164-9b45-c500d1c9bb6c. -->"
+
+
+def lmt(p='lmt-e'):
+    return (SHO_C_END[:-4] + ' Turn 71 (the overnight run): the guide\'s "Deep primal crying can also overwhelm or retraumatize, especially without support or when a person becomes completely identified with the sadness." is back (COVERAGE-r4-B.md, 6; TRACE-r4-B.md, 6: turn 65\'s dedup, LM-DEDUP-REPORT.md G3.8, took it out without his OK, and its two conditions matched no crying text elsewhere): experiments/t71-guide/drafts/' + p + '.txt. @@LMT@@ -->\n\n' + draft(p))
+
+
+register('lmt', lambda: SHO_C_END + '\n\n' + SHO_P, lmt)
+register('lmt-f', lambda: SHO_C_END + '\n\n' + SHO_P, lambda: lmt('lmt-f'))
