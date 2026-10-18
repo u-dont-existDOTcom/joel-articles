@@ -77,3 +77,20 @@ if __name__ == '__main__':
     pathlib.Path(a.out).write_text(json.dumps({'key': a.key, 'emu_dirs': a.emu_dirs, 'units': us}, ensure_ascii=False, indent=1) + '\n',
                                    encoding='utf-8')
     print(a.key, len(us), 'units,', sum(u['kind'] == 'emulate' for u in us), 'from Emulate ->', a.out)
+
+
+def published_flags(key, emu_dirs, draft_blocks, skip=()):
+    """The published blocks behind a screen's flagged draft blocks (flagged.py counts the checked text's blank-line blocks;
+    an Emulate stretch can have more or fewer paragraphs than the published blocks it replaces), and the runs they came
+    from: (sorted published blocks, sorted runs). (2026-10-18, for the third samples after 436g.)"""
+    import re
+    fl, i, pubs, runs = set(draft_blocks), 0, set(), set()
+    for u in units(key, emu_dirs, skip=skip):
+        for p in u['paras']:
+            for _ in [x for x in re.split(r'\n\s*\n', p) if x.strip()]:
+                if i in fl:
+                    pubs.update(u['blocks'])
+                    if u['kind'] == 'emulate':
+                        runs.add(u['run'])
+                i += 1
+    return sorted(pubs), sorted(runs)
