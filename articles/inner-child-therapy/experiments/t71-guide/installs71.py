@@ -461,3 +461,6 @@ register('frm', BG_P1_END, frm)
 register('frm-d', BG_P1_END, lambda: frm('frm-d'))
 register('frm-e', BG_P1_END, lambda: frm('frm-e'))
 register('frm-g', BG_P1_END, lambda: frm('frm-g'))
+
+BG_P3_END = "So once that reason has changed and you want to come back, the note tells you where it was still okay. I'd start there, or somewhere a bit gentler."
+register('frm-e-end', BG_P3_END, lambda: frm('frm-e').replace(BG_P1_END, BG_P3_END, 1))

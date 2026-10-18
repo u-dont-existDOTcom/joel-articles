@@ -2894,3 +2894,5 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-d as P2 (3674 words) [t71ttt_h1frmd], a screen | Human, low (my call) | (pending) | |
 | 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-e as P2 (45 words: "And if the whole inner-child thing just isn't you, that's an answer too. ...", the dishes) (3659 words) [t71uuu_h1frme], a screen | Human, low (my call) | (pending) | |
 | 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-g as P2 (38 words: "Maybe the inner-child idea itself is what you don't want. ...") (3652 words) [t71uuu_h1frmg], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Before You Try to Go Deep as installed (a baseline: its opening took an AI window with every new paragraph after P1, rounds t71ttt and t71uuu) (3614 words) [t71vvv_h1bg0], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-e after the opening's last paragraph (the full break note) instead (3659 words) [t71vvv_h1frmeend], a screen | Human, low (my call) | (pending) | |
