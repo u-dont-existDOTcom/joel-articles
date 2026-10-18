@@ -220,5 +220,13 @@
   "paragraphs": "452g, 455g",
   "fixed": "rf-v/HG15.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG14": {
+  "stage": "sample",
+  "whole": "456g HG14-smp2 (emu-ab windows 454g; its four AI paragraphs from emu-ah, 5 fixes; B77 with only \"keep watch\")",
+  "meaning": "rf-k/HG14.verify.part1.out.txt and rf-t/HG14.verify.part1.out.txt, triaged in rf-k/HG14.triage.json and rf-v/HG14.triage.json",
+  "paragraphs": "454g, 455g, 456g",
+  "fixed": "rf-v/HG14.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

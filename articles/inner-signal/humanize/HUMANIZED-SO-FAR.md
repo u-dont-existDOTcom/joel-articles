@@ -178,171 +178,177 @@ Always start from the heart, differentiate when you need to, then come back to t
 
 # The inner child, the guards, and the three inner adults
 
-The inner child won’t trust you because you said three kind sentences during one meditation. Trust grows when the present-day adult becomes reliable.
+Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.
 
-I organize that adult capacity into three functions: Nurturer, Protector, and Leader/Guru. They aren’t three literal beings. They’re three ways the present-day person reparents the inner child.
+Here I’m going to talk about what you need to develop in yourself in order to be able to reparent your inner child. I’m going to talk about it in terms of three aspects: your Nurturer, your Protector and your Leader/Guru, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities.
 
-The child’s worth doesn’t depend on developing those capacities. Worth was never the missing skill. The child also brings play, tenderness, irreverence, creativity, and wonder. Those qualities belong inside the adult relationship, not just the wounds.
+Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds.
 
 ## When the adult role is not available yet
 
-Some people can summon one of those adult functions. Others go blank, hear only the inherited critic, or feel like a child pretending to be grown. Telling them to “be the adult” assumes the capacity they are trying to build.
+The problem is, that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult. Telling them to just access their adult is like telling them to just be able to fly.
 
-For that starting point, I use a provisional, author-developed bridge I call borrowed adulthood. It combines familiar practices—witnessing, modeling, supported action, and gradual transfer of responsibility—without claiming that the complete sequence has been validated as one treatment.
+For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It is important to note here that I’m not suggesting that all of the steps in this process have been formally tested and proven.
 
-Witness, when needed. Notice what is present without demanding warmth, wisdom, or certainty. If you already distinguish the internal positions, move to the adult function you need.
+Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain. If you already know how to access different internal positions, move immediately to accessing the adult position you want to borrow.
 
-Borrow one function. Choose a safe adult, mentor, older sibling, future self, spiritual figure, value, or written plan. Borrow only the warmth, boundary, or direction needed now.
+If you have a safe adult in your life you can borrow from them, if not borrow from a mentor, older brother/sister, imagine your future self, your god/goddess or higher power, a value you have, a plan you have written, etc. It’s ok to just borrow what you need right now, warmth or a boundary or direction, just like you would borrow a cup of sugar from a neighbor.
 
-Become the adult apprentice. Choose the exact words or action yourself and carry at least one small part.
+Next, put on your adult hat as if you are an apprentice adult and do or say what you think you should do or say. You should do at least part of what you think you should do or say.
 
-Hand it back. Name what the borrowed figure modeled and what five percent you can now do without them.
+- Return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%).
 
-The borrowed figure stays beside your judgment rather than replacing it. The fuller sequence is in my [Inner Child Self-Love Reparenting Guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided).
+This is a borrowed figure, so you’re still making the choice. The longer version of this exercise can be found in my [Inner Child Self-Love Reparenting Guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) .
 
-You don’t need a history full of trustworthy people to borrow care. Use a remembered person when that helps, or an imagined adult whose intention is to take good care of you. Ask, “What would that person say or do with my actual history, limitations, and options?” Begin with the least cruel response you can believe if warmth is unavailable. Once you find one usable sentence or action, try it rather than repeating the exercise in different words.
+You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine good, start with the least cruel response you can believe. Once you’ve found something good, try it, don’t keep doing the exercise.
 
-Borrowing can also help the position trying to be the adult: how would a decent adult hear distrust without retaliating, defending their goodness, collapsing, or leaving? Borrow that one response. You may still feel young while doing it; adult identity can develop after the behavior.
+It can be helpful to use borrowing when you’re in the adult position and not knowing what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response. You may still feel young when you do it, it’s okay, feeling like an adult can come after you act like one.
 
 ## Let the child speak without handing over the steering wheel
 
-Letting a younger feeling-state speak doesn’t mean handing adult judgment to an outside caretaker or trying to become literally younger. Wonder, play, vivid sensation, vulnerability, honest need, or the wish to carry fewer decisions can all come forward while the internal adult remains present.
+You can choose to let the parts of you that feel younger express themselves without handing over the adult part of you to the caretaker in the other person or without actually going back in age. In this way, you can access all of the positive aspects of what it can be like to feel younger such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to let someone take care of you, to feel need, and to want to offload some decision making.
 
-“A younger part of me may speak. The adult in me remains here to listen, evaluate, protect, and stop. No child-state, guide, recording, or outside person replaces adult judgment.”
+"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I am not going to replace my adult judgement with any child state, guide, recording or person."
 
-That distinction lets you recover curiosity, spontaneity, play, sensory freshness, honest need, and quick emotional movement without pairing those gifts with obedience, helplessness, scolding, or weakened judgment.
+This way you get the benefits of being young; curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgement etc.
 
 ## Love doesn’t have to wait for trust
 
-When love is available, the younger state doesn’t have to believe in it before you can offer it. Trust can question your promises, remember failures of protection, and take its time. Love can remain present while that happens.
+What if the "child" doesn't believe you love him/her? It is possible to love him/her even if he/she doesn't believe you love him/her. It is possible for trust to question your promises, remember when you failed to protect him/her, and take it's time.
 
-“Okay. I believe that you don’t believe me. I still love you. You don’t have to love me back. Tell me what feels unsafe.”
+You could say something like, "Okay. I believe that you don't believe me. But I still love you. And you don't have to love me. Please tell me what is not okay."
 
-That isn’t a way to end the complaint. Listen for what is true in it and answer seriously. Hearing anger without retaliation, admitting a real failure, and repairing after an internal attack are evidence alongside meals, boundaries, appointments, and kept promises. Non-retaliation expresses love; it shouldn’t replace love with a colder performance of good behavior.
+Then respond to the complaints that are sure to come. Because even if he/she is coming from a place that is not completely "right," there will likely be something true in what he/she is saying. Do what you can to show your love for him/her. This might include some or all of the following: Learning to listen to him/her when he/she is angry without hitting back. Owning what was not okay. Working on changing yourself so that you are less likely to turn on him/her. Finding other ways to make up to him/her for what you did. Finding other ways to show your love for him/her (this might include taking care of him/her, such as by buying and cooking food for him/her, setting limits for him/her, taking him/her to the doctor when he/she needs it, and doing what you said you would do). Just not hitting back is not enough. You need to love your "inner child."
 
-Notice what each position teaches the others. A vow followed by blame when it is doubted teaches that love depends on receiving it correctly. The blaming voice and the voice making the vow may be different positions, the same position, or a blend. Don’t decide from the person’s chronological age.
+Be aware of what you are teaching your other positions. For example, are you teaching your "inner child" that you are going to love him/her no matter what? Or are you teaching him/her that it is his/her responsibility to believe your love for him/her, and that if he/she doesn't, it is his/her fault? Is it two separate positions, one making the vow to love the "inner child" no matter what, and the other blaming the "inner child" for not taking in your love? Or is it one position doing both of these things? Or are you blending them? It might not be chronological age.
 
-When a younger version of you becomes the defendant, ask what they understood then, what options they could see and tolerate, and what happened because of the choice. Harm can require responsibility and repair. Punishment cannot retroactively create the capacity that was missing.
+When you're placing your younger self on trial, how valuable is it to consider how valuable it might have been for them to do what they did at the time, given what they knew at the time? How valuable is it to consider what options they had at the time and how tolerable they were? How valuable is it to consider what the consequences of their actions were at the time? How valuable is it to consider that, even though their actions at the time might have been harmful to you and others, punishing yourself now is not going to give them the capacity they needed at the time and that it's more useful to work on what you can do now to deal with the harm that was caused?
+
+WORKING WITH YOUR INNER CHILD:
 
 ## The two-hand practice
 
-Place one hand at the center of the chest as a physical connection to love. Put the other at the solar plexus, just beneath the chest, where you can relate to the vulnerable child.
+There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that which is your solar plexis and where your child can be.
 
-Send warmth from the heart toward the child. Notice whatever comes back—a sensation, image, feeling, resistance, or nothing—and answer with warmth again. Let it become a conversation rather than a performance.
+Begin to send love from your heart down to your child and just notice what comes up for you. It doesn't matter if something comes up or not. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. This is a conversation with your child from your heart.
 
-Love above. Child below. Adult present.
+Remember, Love is on top, your child is on the bottom and you are there with them.
 
 ## The Nurturer
 
-The Nurturer brings warmth without trying to rush the feeling away, and takes pleasure in the child’s company: “I’m glad you’re here.” The child needs to be enjoyed, not only comforted when hurt.
+The Nurturer: Some of the work you can do as the Nurturer is to enjoy your inner child. You don't have to move their feelings, just sit back and enjoy them. Be happy that they are there. Children need to be enjoyed! Say things to your inner child like:
 
-“It’s okay to feel this.” “I’m here.” “You don’t have to do anything right now.” “You are not too much.” “You can be small here.” “You can be angry here.” “You can be sad here.” “I will stay.”
+It's okay to feel the way you're feeling.
+
+I want you to know that I'm here for you.
+
+You don't need to do anything right now.
+
+It's okay. You're not too much. You can be small here.
+
+You can be angry here.
+
+You can be sad here.
 
 ## The Protector
 
-The Protector turns warmth into something the child can believe.
+As the Protector, work with setting boundaries together. They can be simple like, "I'm going to leave this conversation because it's not safe" or "I'm going to stop texting the person who destabilizes me." It can be self-care boundaries like, "I'm going to eat" or "I'm going to get some sleep." It can be trust-related boundaries like, "I'm going to keep the promise to myself" or "I'm not going to leave you to do adult things by yourself."
 
-“I will set the boundary.” “I will leave the unsafe conversation.” “I will stop texting the person who destabilizes us.” “I will eat.” “I will sleep.” “I will keep a small promise.” “I will not leave the child alone with adult consequences.”
+A lot of times, inner child work doesn't work because people are doing all the fluffy stuff but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing. You build trust by being able to do adult things.
 
-This is where inner-child practice often turns decorative. The voice says loving things while the adult sends the destabilizing message, skips the meal, avoids the task, and breaks the promise. Trust begins when you handle the consequence.
-
-If warmth is unavailable, a protective act can begin the relationship. Make it small enough to carry out and review what actually happened. A missed action might reflect fear, exhaustion, missing skills, a practical barrier, or a poor plan. Completion without immediate relief isn’t automatically failure, and a tick on a list doesn’t prove the action helped.
+If it's hard to bring up the warm stuff, you can always do something to protect your inner child. Make sure they're small enough that you can actually do them. If you're not able to, figure out what's getting in the way of you doing them. Are you scared? Tired? Do you not know how to? Is there a practical thing that's getting in your way? Have you set yourself up to do it in a way that's likely to be successful? Don't make it so that doing it successfully is having to feel good about it, or being able to check it off a list.
 
 ## The Leader, Guide, or Guru
 
-The Leader gives direction. You can call this function Leader, Guide, Guru, Wise One, Sage, Inner Teacher, Director, or Higher Adult. The label matters much less than the ability to orient the whole system toward a life.
+The Leader/Guide/Guru:
 
-Direction can ask for something difficult without turning life into perfect discipline and hidden needs. Sometimes the next adult move is asking for help, expressing a preference, or letting a safe person see an imperfection. Wanting closeness is legitimate; punishing someone for needing space is a different strategy. Find a way to meet the need without erasing either person.
+You can also work with your Leader. Call them whatever you want, Guide, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.
 
-“We are not only here to feel better.” “We are here to become whole.” “We are here to belong to life itself, not only to people who approve of us.” “We are here to serve truth, beauty, love, God, source, nature, universe, dharma, Tao, and the benefit of all beings.”
+Ask them for help with directing your life. Be careful not to ask for the kind of “tough it out, you don’t have needs, you just need discipline!” kind of direction, though. Ask them for help in directing you to do adult things in a way that takes your needs into account: asking for the help you need, expressing your preferences, letting a safe person see you in an imperfect way, finding ways to get your need for closeness met without punishing someone for their need for space, etc. etc.
 
-Begin with the adult function you can actually reach. Protection may come before warmth. Direction should help the child grow without erasing care, play, or support.
+Affirmations might be helpful here, too: “We’re not just here to feel good. We’re here to become whole. We’re here to belong to life, not only to people who approve of us. We’re here to serve truth/beauty/love/God/source/nature/the universe/dharma/the Tao/the benefit of all beings,” etc. etc.
+
+Start with whatever adult function you can connect to. Even if you start with protection and can’t do the warmth stuff yet, make sure the direction you’re being led in is appropriate for your inner child’s growth (i.e. not depriving them of things they need, like play or support, etc.)
 
 ## Working with protectors
 
-Use this parts language when you actually recognize a protective pattern or find it useful to explore. A sensation, distraction, or objection doesn’t establish its cause. Notice it first; hunger may need food, skepticism may be reasonable, and a sentence may simply not fit.
+Working with protectors:
 
-People assume inner-child work begins with the child. Very often, you meet the guard at the door first.
+Feel free to use parts language here, too, if it’s helpful. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. It’s good to notice it, though, and then to see what might be going on.
 
-You sit down to connect and get numbness, cynicism, anger, sudden hunger, a phone urge, a sexual urge, planning, sleepiness, dissociation, or the thought, “This is stupid.” I wouldn’t call those failures. They’re often the protector making an appearance in its usual charming way.
+If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.
 
-One important voice is the *inherited parent*: the internalized caregiver voice formed from how the child was treated. This is different from the *inner adult*—the Nurturer, Protector, and Leader/Guru you deliberately build. The inherited parent may sound like a critic or warden—don’t cry, don’t be needy, don’t embarrass us, don’t become too independent—and can make a new loving voice feel fake before you’ve even begun.
+Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures, they are you experiencing what is often a very charming protector or guard.
 
-“I notice you. You are trying to protect something. I want to understand. What are you afraid would happen if you stopped?”
+One important voice to become aware of when approaching your inner child is your inherited parent. This is the voice of your parent(s) that you internalized as a child, based on how they treated you. This is not the same as your inner adult (Nurturer, Protector, Leader/Guru) that you will eventually build up. Often this inherited parent acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, this voice may jump in to say that what you’re doing is “fake”.
 
-Then wait. The answer may be: “You’ll lie to yourself again.” “This will become another performance.” “If you feel the pain, you’ll be destroyed.” “You’ll use spirituality to avoid reality.” “You’ll forgive too early.” “You’ll call fantasy guidance.” “You’ll abandon us as soon as the session ends.”
+(“I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?)
 
-“That makes sense. You do not have to move yet. What would help you trust me 1% more?”
+If necessary take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will get spiritual bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…..)
 
-Usually the protector needs evidence more than another spiritual insight. Hold the boundary. Handle the task. Eat the meal. Don’t send the message. Keep the promise. Sleep. Contact the therapist. Acknowledge the debt. Write down the truth.
+(Now talk to the protector. Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you, but that you want to know what could make them trust you 1% more that you can do that.)
+
+Most of the time the protector wants you to do certain things, set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc.
 
 ## Protection that knows when to stop scanning
 
-The Protector is more than an inner voice saying no. You can practice it as a bodily sequence:
+Do you want to “embody” your Protector? Then you could practice this:
 
-Orient: look around and feel the support beneath you.
+1. orient self (look around, feel the support around you, etc.)
 
-Assess: ask what is known, what is uncertain, and what needs checking.
+2. assess the situation (know what you know, what you don’t know and check out what you need to)
 
-Distinguish: separate present danger from uncertainty, old alarm, or imagined danger.
+3. differentiate between actual/real danger, unknown, past or imagined dangers
 
-Set one proportionate boundary: move, stop, delay, ask, leave, or get support.
+4. set boundaries (start with one and make it relative to the danger; move, stop, delay, ask, leave, get support, etc.)
 
-Verify enough safety: not perfect certainty, just enough reality-based evidence for the next step.
+5. verify if it is safe enough
 
-Stand down and rest: protection includes ending the scan when continued vigilance is no longer helping.
+6. stand down and rest
 
-A mature Protector can say, “I don’t know.” It can ask another human, delay interpretation, or choose a no-trance practice. I’m aiming for discernment that acts when needed and then quits scanning the room after the danger has passed.
+This seems to me like a “mature” Protector. One that is not afraid to say that he doesn’t know, or one that can ask another human being, or one that can delay interpreting a situation or one that can use a no-trance method. I am learning to “do” discernment when I need to and stop scanning the room when it isn’t needed anymore.
 
 ## Inner child reparenting
 
-I connect my [reparenting therapy](http://innerchild.u-dont-exist.com/) to self-hypnosis because I find they are a perfect match. The child may arrive as an age, image, posture, voice, memory, emotion, or plain vulnerability. Sometimes no child appears. Stay with a recognizable protector, or with the sensation, feeling, or preference that is actually present.
-
-When the child does appear, resist the urge to begin a healing project immediately. Be with them first.
-
-“Little one, I am here. You do not have to explain everything. You do not have to be healed today. You do not have to become impressive. I only want to know what would help you feel less alone.”
-
-The need may be warmth, play, protection, grief, anger, food, rest, a boundary, a safer relationship, less fantasy, less overwork, or one adult promise kept today.
+I see a lot of connection between [reparenting therapy](http://innerchild.u-dont-exist.com/) and self hypnosis. They fit well together. When you go into hypnosis the child might come to you. You might see that child in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a “child”, if there is no child there, just work with a protector or whatever you find.
 
 ## Don’t rush the repair
 
-When a younger state, protector, feeling, or bodily signal needs care, move patiently:
+Just be with the child.
 
-Prepare: create enough time, privacy, support, and adult capacity.
+If you can, tell the child that you are there for them and that they don’t have to explain themselves, or be “healed” or impress you. Just tell you what they need to not be alone anymore.
 
-Inspect: notice what is present before deciding what it means.
+It can be anything. What does the child need? warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them for one day, etc. etc.
 
-Ask permission: “May I come closer, or would you prefer warmth, space, words, silence, or no contact?”
+Don't rush it.
 
-Respond to one need: do the smallest useful thing rather than attempting a total repair.
+Find a younger you/protector/feeling/signal that comes up in your body, and
 
-Wait: let the response settle. Some changes need quiet, sleep, or ordinary time.
+A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be).
 
-Reconnect: invite contact only where it is welcome. No part has to merge, disappear, forgive, or become cheerful.
+B. Look at what's there before judging or deciding what it is.
 
-Rest: stop before care becomes another performance.
+C. Ask them what you can do or if you can move closer to them. If you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.
 
-Reassess: return later and ask what actually helped.
+D. Give them what you can- don't feel like you have to fix it all.
 
-The goal isn’t “good as new,” as though history should disappear. Aim for good as you: more supported and connected while still recognizably yourself. If parts language makes you feel more divided, use *signals*, *feelings*, *younger states*, or another metaphor that helps.
+E. Give yourself some time to let what you did sink in- it may take some time, it may take you to go to sleep, etc.
+
+F. Reconnect with them- don't expect them to merge, go away, forgive you, become happy, etc. Just reconnect with them if they're willing.
+
+G. Rest, and reconnect with them later to see what was helpful.
+
+Remember the goal isn't to make yourself good as new but to make yourself good as you- more supported and connected to yourself. Feel free to modify this as needed, and if you don't like the idea of part work or it makes you feel more divided, you can substitute whatever part you're working with for a signal or a feeling, or an imaginary younger you that you feel embodies the issue you're having.
 
 ## Play and rest still need an adult present
 
-Reparenting doesn’t have to become solemn. A younger state may respond to texture, drawing, movement, a plushie with a voice, or whatever feels interesting. Keep reality-testing intact. You’re recovering play, not becoming somebody’s child, pet, doll, or owned object.
+When you're reparenting, it's okay to play with things that interest your younger states. Whether that means touching things of different textures, drawing, exercising, roleplaying with a plushie in a different voice, etc. As long as you're reality testing is good and you remember that you aren't a child or pet or doll or whatever and that nobody owns you, it's okay to work on getting your play ability back.
 
-Rest also doesn’t require helplessness. Reduce decisions for a defined period, put unfinished tasks somewhere visible, and let the internal adult keep watch. You remain able to move, stop, and return.
+Now, before you get to resting, it’s okay to limit the amount of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list and it’s okay to let your inner adult keep watch for a while.
 
 ## Non-dominant hand dialogue
 
-When speech or visualization feels fake, write. Let the non-dominant hand speak for the child or protector, awkward handwriting and all. Answer with the dominant hand as the adult.
-
-Non-dominant hand: “I don’t trust you.”
-
-Dominant hand: “I hear that you don’t trust me. I still love you. Tell me where I’ve let you down. I won’t demand trust; I’ll listen and keep one small promise today.”
-
-Non-dominant hand: “Which promise?”
-
-Dominant hand: “I will eat, clean the desk, and not text the person who makes us feel unsafe.”
+If talking out loud or visualizing conversations feels fake, try writing it out. Tell your child/ protector part to write with your nondominant hand, and talk to them with your dominant. It might be a little hard to write with your nondominant hand but you can kind of do it. So for example, they might say "I don't trust you" with your nondominant hand, and you can say with your dominant hand "I know you don't trust me right now but I love you and I want to know how I've fucked up. I don't expect you to trust me but I want to hear you out and give you a promise I can keep today" and they can say "what promise?" and you can say "I'm going to make sure I eat today/ clear off my desk/ not text so-and-so"
 
 # When “your voice” is everybody else’s voice
 
