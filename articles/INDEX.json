@@ -26645,6 +26645,51 @@
           "path": "articles/inner-signal/humanize/tools/para_chance.py",
           "sha256": "35bf29b231119180bf8b7212a44ee07793d65569b15c2c116b6be8277594fe03",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b454/GATE.json",
+          "sha256": "def219010a753e04fe779a927328e454ab2c1716e0e72cb4cdb661e331741dff",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b454/PREDICTIONS.md",
+          "sha256": "0854b35816c3495f7297de304b3731330ca04e022b728cb65ddb51f5791377b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b454/b454-items.json",
+          "sha256": "0b660fdcbf0f936b43338efd647eb508e6107215c6c010547621880a7dd608c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b454/b454-read.js",
+          "sha256": "643fa7e697a9b95d9c7f4582bf484911b481a9e8935fe2097dbce13224296c39",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b454/b454.js",
+          "sha256": "e84b47acbb51ed20f8161f464ee7b2917536f8a2f5685864a627f4f6263306bf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b454/drafts.json",
+          "sha256": "6b266a28e95848edb6c49228266ba68c58e4dc5b3362a99b804d6151ac7f232b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/march-s/march-labels.txt",
+          "sha256": "aea97b912b54bc2f637204155f6b87a9c7bd245397d22eb014a53a638895164b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/march-s/march.json",
+          "sha256": "7339dd3448ae13b54975dc6b7911113132e4fe3124ad4d146776c378ed0844e9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/march-s/part1-labels.txt",
+          "sha256": "7b2b36cd3d73a9f90533b11dc27f4a928e8d521bdc177e1c46c6023a69b37edf",
+          "role": "humanization_working_record"
         }
       ]
     },
