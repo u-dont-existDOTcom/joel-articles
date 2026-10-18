@@ -80,8 +80,16 @@ if __name__ == '__main__':
     # Which sections go: every fixed stretch has a current march read and the section's meaning work is done
     # (meaning-status.json: {key: {"done": true, "verify": ..., "adjudication": ..., "notes": ...}}).
     status = json.loads((HERE / 'meaning-status.json').read_text(encoding='utf-8'))
-    go = [s for s in secs if not s['need'] and status.get(s['key'], {}).get('done') and s['screen']]
-    held = [(s['key'], 'march' if s['need'] else ('meaning' if not status.get(s['key'], {}).get('done') else 'screen')) for s in secs if s not in go]
+    only = sys.argv[sys.argv.index('--only') + 1].split(',') if '--only' in sys.argv else None
+    num = int(sys.argv[sys.argv.index('--batch') + 1]) if '--batch' in sys.argv else 434
+    done_before = set()
+    for f in HERE.glob('b4*/GATE.json'):  # a section already checked (a batch with results) with its fixes in doesn't go again
+        if not (f.parent / ('%s-results.json' % f.parent.name)).exists():
+            continue
+        done_before |= {k[:-4] for k, v in json.loads(f.read_text(encoding='utf-8')).items() if v.get('kind') == 'edit' and k.endswith('-fix')}
+    go = [s for s in secs if not s['need'] and status.get(s['key'], {}).get('done') and s['screen'] and (only is None or s['key'] in only)
+          and (num == 434 or s['key'] not in done_before)]
+    held = [(s['key'], 'march' if s['need'] else ('meaning' if not status.get(s['key'], {}).get('done') else ('checked before' if s['key'] in done_before else 'screen'))) for s in secs if s not in go]
     drafts, gate, preds = {}, {}, {}
     for s in go:
         b, name, head, link = s['screen']
@@ -98,13 +106,18 @@ if __name__ == '__main__':
                     'adjudication': st.get('adjudication'), 'notes': st.get('notes', ''), 'emulate': sg.get('emulate'),
                     'published': sg.get('published'), 'fixes': s['n_fixes']}
         ch = changed_share(s)
-        c = max(0.2, min(0.8, 0.8 - 1.2 * ch))
-        preds[nm] = ('Human' if c >= 0.5 else 'Mixed', c, '%d meaning fixes, %d%% of the words changed from the screen that read Human; '
-                     'chance = 0.8 - 1.2 x the share changed' % (s['n_fixes'], round(100 * ch)))
+        if num == 434:
+            c = max(0.2, min(0.8, 0.8 - 1.2 * ch))
+            why = 'chance = 0.8 - 1.2 x the share changed'
+        else:  # 434g: 4 of 25 stayed Human (HG07 4% changed, HG12 16%, HG01 33%, HG06 44%)
+            c = max(0.05, min(0.4, 0.35 - 0.8 * ch))
+            why = 'after 434g (4 of 25 stayed Human): chance = 0.35 - 0.8 x the share changed'
+        preds[nm] = ('Human' if c >= 0.5 else 'Mixed', c, '%d meaning fixes, %d%% of the words changed from the screen that read Human; %s'
+                     % (s['n_fixes'], round(100 * ch), why))
     print('going:', ' '.join(s['key'] for s in go))
     print('held:', ' '.join('%s(%s)' % x for x in held))
     if '--write' in sys.argv and drafts:
         intro = ('Pangram\'s web app. The test of the meaning fixes: each section whose Emulate screen read 100% Human, with '
                  'my fixes of what Emulate bent or dropped (reviewed against the published text, then a second reader). '
                  'Predictions written before the run.')
-        write_batch(HERE, 434, drafts, gate, preds, intro, lint_article=H / 'HUMANIZED-SO-FAR.md')
+        write_batch(HERE, num, drafts, gate, preds, intro, lint_article=H / 'HUMANIZED-SO-FAR.md')
