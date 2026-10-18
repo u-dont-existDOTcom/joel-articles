@@ -1,0 +1,119 @@
+{
+ "t71s_cs1d": {
+  "kind": "screen",
+  "march": [
+   "B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71s: cs1-d, alone."
+ },
+ "t71s_ap14b": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71s: ap14-b, alone."
+ },
+ "t71s_as4l": {
+  "kind": "screen",
+  "march": [
+   "S B B B B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71s: as4-l, alone."
+ },
+ "t71s_as5l": {
+  "kind": "screen",
+  "march": [
+   "B S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71s: as5-l, alone."
+ },
+ "t71s_jlone": {
+  "kind": "screen",
+  "march": [
+   "S S B S S B S S B B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71s: jl-one, alone."
+ },
+ "t71s_oione": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71s: oi-one, alone."
+ },
+ "t71s_seccsd": {
+  "kind": "screen",
+  "march": [
+   "cs1-d: B S S, cs2-p: B B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71s_seccsd.md",
+  "note": "t71s: ## Close the Session and Return to Life, put together: D:cs1-d, D:cs2-p."
+ },
+ "t71s_secteab": {
+  "kind": "screen",
+  "march": [
+   "ap10-c: S B S S S, ap11-c: S S B B, ap14-b: S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71s_secteab.md",
+  "note": "t71s: ## Teachers and Practice Resources, put together: D:ap10-c, D:ap11-c, D:ap14-b."
+ },
+ "t71s_astril": {
+  "kind": "screen",
+  "march": [
+   "as3-k: B S B S S, as4-l: S B B B B B S S, as5-l: B S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71s_astril.md",
+  "note": "t71s: D:as3-k, put together: D:as4-l, D:as5-l."
+ },
+ "t71s_secas3k": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71s_secas3k.md",
+  "note": "t71s: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71s_secasl": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as4-l: S B B B B B S S, as5-l: B S B S B, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71s_secasl.md",
+  "note": "t71s: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as4-l, D:as5-l, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71s_secjlone": {
+  "kind": "screen",
+  "march": [
+   "jl-one: S S B S S B S S B B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71s_secjlone.md",
+  "note": "t71s: ## Just Like Me, put together: D:jl-one."
+ },
+ "t71s_secoione": {
+  "kind": "screen",
+  "march": [
+   "oi-one: S S S B S S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71s_secoione.md",
+  "note": "t71s: ## One Intention in the Morning, One Review at Night, put together: D:oi-one."
+ }
+}
