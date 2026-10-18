@@ -1,0 +1,57 @@
+[
+ {
+  "key": "secsc",
+  "blocks": [
+   "## Close the Session and Return to Life",
+   "D:cs1-b",
+   "G:sp9-k2"
+  ],
+  "label": "Close the Session and Return to Life, the h2: P1 cs1-b (\"end it for real\"), P2 turn 65's sp9-k2",
+  "march": "settled paragraphs | cs1-b: S B S S, sp9-k2: S S B"
+ },
+ {
+  "key": "secjl",
+  "blocks": [
+   "## Just Like Me",
+   "G:sp7-p1-c",
+   "D:jl2-b"
+  ],
+  "label": "Just Like Me, the h2: P1 turn 65's sp7-p1-c, P2 jl2-b (\"Also not required\")",
+  "march": "settled paragraphs | sp7-p1-c: S S B S B B S, jl2-b: S B B S"
+ },
+ {
+  "key": "x3a",
+  "draft": "x3-a",
+  "label": "\"And So That's the Way It Happened!\" P3 alone, x3-a (the grandpa's tone, the prosecutor sneaking back in)"
+ },
+ {
+  "key": "x3b",
+  "draft": "x3-b",
+  "label": "\"And So That's the Way It Happened!\" P3 alone, x3-b (\"who's telling it, a kind grandpa or someone smirking?\")"
+ },
+ {
+  "key": "x3c",
+  "draft": "x3-c",
+  "label": "\"And So That's the Way It Happened!\" P3 alone, x3-c (\"the courtroom creeping back in\")"
+ },
+ {
+  "key": "jwc",
+  "draft": "jw-c",
+  "label": "Journal With Each Hand P1 alone, c (\"switching hands\"; the guard talks first)"
+ },
+ {
+  "key": "jwe",
+  "draft": "jw-e",
+  "label": "Journal With Each Hand P1 alone, e (\"like a bouncer\")"
+ },
+ {
+  "key": "oic",
+  "draft": "oi-c",
+  "label": "One Intention P1 alone, c (\"about as low-tech as it gets\"; no cross-examination)"
+ },
+ {
+  "key": "oih",
+  "draft": "oi-h",
+  "label": "One Intention P1 alone, h (\"see what the day does with it\"; maybe at lunch)"
+ }
+]
