@@ -400,3 +400,17 @@ register('tf11-k-checks', TF11_CHECKS_OLD, TF11_CHECKS_NEW)
 register('tf11-k-note', _tf11h_note,
          "experiments/t71-guide/drafts/tf11-k.txt. Before it: tf11-g (alone 0.052, round t71jjj), then tf11-h with \"so hear it out, and then let your head have a look\" (a cold read of Start With Whatever Showed Up paused at the next paragraph's \"the same kind of listening\", COLD-READ-t71-start-with.md; alone 0.057, the h1 0.074, round t71mmm), whose long sentence then read as a 40-word AI window in the h1 once anything changed before it (rounds t71nnn, t71ppp); tf11-j, without the two checks, read AI alone (0.42, round t71ooo). "
          "Alone Human Written (0.044, high), https://www.pangram.com/history/5bda833d-7c4e-4b1b-8129-46d375f7656a; When the Adult Voice Feels Fake as installed with it Human Written (0.080, high, 4364 words), https://www.pangram.com/history/64bfc332-e698-45f3-8ef5-f0c8a0ee02f3 (round t71ppp).")
+
+
+# 2026-10-18, round t71qqq: the Apprentice section's label note (AA-U6), which Joel agreed to move to the opening of The
+# Three Adult Functions (2026-09-27 00:55, "agreed on moving it"; ADULT-APPRENTICE-DRAFTS-20260927.md), and which the
+# dissolve never placed: The Chicken-and-Egg Problem, where the good inner parent and its three jobs are first named.
+CE_P4_END = "But then some people over-rely on their mission to avoid caring for themselves."
+
+
+def aa6(p='aa6-c'):
+    return CE_P4_END + '\n\n<!-- Turn 71 (the overnight run): the guide\'s label note (r4 line 305: "If the word parent summons the wrong archetype, use safe adult, guardian, advocate, older sibling, wise aunt, good host, captain, or future self."; the label matters less than the jobs), the Apprentice section\'s AA-U6, which he agreed to move to the opening of The Three Adult Functions (2026-09-27 00:55, "agreed on moving it"), and which the dissolve of that section never placed; a coverage check of his October guide against the article found it missing (COVERAGE-r4-A.md, 34). Here, where the good inner parent and its three jobs are first named. The label list is compressed to two, as planned then (ADULT-APPRENTICE-DRAFTS-20260927.md). Under 50 words, so no alone check. experiments/t71-guide/drafts/' + p + '.txt. @@AA6@@ -->\n\n' + draft(p)
+
+
+register('aa6', CE_P4_END, aa6)
+register('aa6-d', CE_P4_END, lambda: aa6('aa6-d'))
