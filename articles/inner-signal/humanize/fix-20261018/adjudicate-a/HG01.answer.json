@@ -1,0 +1,7 @@
+[
+  {"finding": "B2: SHIFT \"part no recording can decide in advance\" became \"when your response is not guided by a recording\"", "verdict": "FIXED", "why": "Rewrite now says 'for the part of the practice no recording can decide in advance'."},
+  {"finding": "B2: INVENTED \"the subconscious\" in \"asking the subconscious questions\"", "verdict": "OPEN", "why": "Published only says tools for 'questions'; naming the subconscious as who is asked is an added referent.", "replace": "asking the subconscious questions", "with": "asking questions"},
+  {"finding": "B2: INVENTED \"lots of appendices/topics\"; \"including\" makes the list non-exhaustive", "verdict": "OK", "why": "'Lots of' is casual (Appendix K shows many appendices) and 'including ... and more' works like etc.; all nine published topics are listed."},
+  {"finding": "R: the guide is very big, in B1 and B2", "verdict": "FIXED", "why": "The rewrite now opens 'To make it easier, you can begin with'; size is said only in the B1 heading."},
+  {"finding": "R: daily and weekly cadence, in B2 and B2", "verdict": "FIXED", "why": "Rewrite says 'the daily and weekly sections to make the practice your own' once, with no repeated cadence."}
+]

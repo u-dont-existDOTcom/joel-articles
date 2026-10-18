@@ -1,0 +1,61 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: SHIFT "interrupt the silent listening to change direction" became "break out of the process to do something else"
+B3: SHIFT instruction "try practicing without playback" became prediction "eventually you will not need to play it back"
+B4: SHIFT "what needed warmth/protection, what direction serves" became "what you would like to nurture/protect/direct"
+B4: LOST "capacity to build"
+B4: LOST "[cue] happens" (first blank no longer a cue)
+
+ROUND-2 FIXES already made:
+B1 SHIFT interrupt the listening to change direction: "You can break out of the process at any time, if you feel you need to do something else." -> "You can interrupt the listening at any time to change direction."
+B3 SHIFT then try practicing without playback: "The idea is that eventually, you will not even need to play it back." -> "Then try practicing without playing it back."
+
+PUBLISHED section:
+[B0] The 15-minute daily practice
+
+[B1] Use the same practice rather than learning a second script: gather attention, listen, respond, wait, return. Fifteen minutes is a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings must follow. Use a few minutes to enter, leave several minutes to return, and let the middle unfold at its own pace. Five minutes of silent listening is available when useful; you can interrupt it to change direction.
+
+[B2] Another simple entry is to notice three things you see, three you hear, and three bodily sensations; then two of each, then one. Count from five to one and begin listening. Use the entry that suits you, rather than stacking inductions.
+
+[B3] After familiar runs, shorten a recording to the cues you still need, then try practicing without playback. Keep recordings when you enjoy them; independence means being able to guide yourself, not having to refuse help. The optional re-entry cue can shorten an already familiar induction.
+
+[B4] Afterward, ask what needed warmth, what needed protection, and what direction serves truth, love, and life. Was there something to explore, or capacity to build? What can you carry yourself now? When action is needed, make it concrete: “If [cue] happens, then I will [small action].” Check how you sleep, relate, and function later, not only how impressive the session felt.
+
+REWRITE (current):
+[B0, as published] The 15-minute daily practice
+
+[CHANGED, replaces B1]
+You don't need to learn a second script for this: it's the same practice (gather attention, listen, respond, wait, return). Fifteen minutes or so is just a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings have to follow. It's enough time to induce yourself (a few minutes), let the middle unfold at its own pace (five minutes of sitting in silence and listening is there when it's useful), and then bring yourself back out again (several minutes). You can interrupt the listening at any time to change direction.
+
+[CHANGED, replaces B2]
+Another simple way in: notice three things you can see, then three things you can hear and three sensations you can feel in your body. Now do two of each, then one of each. Count from 5 to 1 and start listening. Pick the entry that suits you, don't stack inductions.
+
+[CHANGED, replaces B3]
+After practicing a few times with a recording, feel free to cut it down to the cues you still need. Then try practicing without playing it back. But keep using recordings if you enjoy them: being independent means you can guide yourself, not that you have to refuse help. (Note: the optional re-entry cue can shorten an induction you already know well.)
+
+[CHANGED, replaces B4]
+When you come out of the process, consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life. Perhaps there is something you would like to explore or build up. And what can you carry yourself now? If there is something you need to do, then make a plan with yourself to do that thing. Be concrete and say something like, "If _________ , then I will do ________ (one small action)." Then see how things are later on: how you are sleeping, relating and functioning, not only how impressive the session felt.

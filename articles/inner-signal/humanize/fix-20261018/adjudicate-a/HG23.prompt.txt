@@ -1,0 +1,97 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: LOST "directly" (truth not ready to be known directly)
+B1: LOST "comparing options" (capacity list now says choose twice)
+B1: INVENTED "when your adult has enough capacities, you can talk with your subconscious"
+B1: LOST "Ask for the next tolerable piece" framing
+B1: SHIFT "what would make the conscious mind 5% more able to receive this" became "what do you need so I can understand you 5% better"
+B1: LOST "not a full revelation" in the symbol question
+B1: SHIFT "next protective action without revealing the whole story" became "what to do to be safe without telling me what it is"
+B1: SHIFT "who, if anyone, should help me hold this" became "do you need me to get support to know what it is? Who?"
+B1: SHIFT "A safer script" became optional "You may even want to say"
+B1: SHIFT "do not break it open violently" became "in a way that isn't good for me"
+B1: SHIFT "especially around trauma and memory" moved from the advice to the claim
+R: adult needs enough regulation, support, humility and capacity, in B1 and B1
+R: choosing, in B1 and B1
+
+ROUND-2 FIXES already made:
+B1 INVENTED a repeat of the capacities, and the lost framing: ask for the next tolerable piece: "But when your adult does have enough regulation, support, humility, and other capacities, you can talk with your subconscious." -> "Ask for the next piece you can tolerate:"
+B1 LOST not a full revelation: "“Can you tell me through a symbol?”" -> "“Can you tell me through a symbol, not the whole revelation?”"
+B1 SHIFT do not break it open violently: "please don’t just break it open in a way that isn’t good for me." -> "please don’t break it open violently."
+B1 LOST comparing options (and 'choose' twice): "to pause, choose, reality test, plan and make choices for yourself" -> "to pause, compare options, reality test, plan and make choices for yourself"
+B1 LOST directly: "It is not ready for you to know it if it requires you to destabilize to know it!" -> "It is not ready for you to know directly if it requires you to destabilize to know it!"
+
+PUBLISHED section:
+[B0] Capacity before content
+
+[B1] Altered-state rule: do not ask for hidden truth while medically unsafe, panicking, sleep-deprived, nauseated, destabilized, manic, psychosis-like, or chemically overwhelmed. First stabilize. Truth that requires destabilization is not ready to be known directly. Ask for capacity, not content.
+
+[B2] Sometimes it feels as though the subconscious knows something the conscious mind can’t yet tolerate. The subject may be sexuality, grief, trauma, family truth, betrayal, shame, vocation, relationship reality, illness fears, spiritual calling, addiction, identity, or moral conflict.
+
+[B3] Interrogation is the dangerous response:
+
+[B4] “Tell me now.” “Reveal everything.” “Stop hiding.” “I demand the truth.”
+
+[B5] That pressure can produce flooding, panic, false certainty, confabulation, dissociation, or a generally worse Tuesday. Flooding can make the adult capacities needed for pausing, comparing options, reality-testing, planning, and choosing much harder to reach. In that state, regulation and support come before deeper dialogue. Silence may be protection when the adult lacks enough regulation, support, humility, or practical capacity to receive the material.
+
+[B6] Ask for the next tolerable piece:
+
+[B7] “Do I need to know the content now, or do I need to build capacity first?”
+
+[B8] “What would make the conscious mind 5% more able to receive this?”
+
+[B9] “Can you show me the truth as a symbol, not a full revelation?”
+
+[B10] “Can you give me the next protective action without revealing the whole story?”
+
+[B11] “Who, if anyone, should help me hold this?”
+
+[B12] A safer script:
+
+[B13] “Wise subconscious, if there is something I cannot yet handle, please do not break it open violently. Help me become someone who can know it safely. Give me preparation before revelation. Give me grounding before memory. Give me support before intensity. Give me one next action.”
+
+[B14] Hypnotic imagery can be meaningful without being literal. The mind symbolizes, compresses, distorts, dramatizes, and borrows from culture and fear. Around trauma and memory especially, treat an image as an image and involve outside support when needed.
+
+REWRITE (current):
+[B0, as published] Capacity before content
+
+[CHANGED, replaces B1-B14]
+NOTE: If it is medically unsafe for you to do this, or you are panicking, sleep deprived, nauseated, deeply destabilized, manic, in a psychosis-like state, or overwhelmed by chemicals, please stabilize first before seeking out what your subconscious needs you to know. It is not ready for you to know directly if it requires you to destabilize to know it! Ask for capacity, not content.
+
+There are times when your subconscious seems to know something that your conscious mind can’t handle yet. It may be about your sexuality, a grief, trauma, your family, betrayal, shame, vocation, a relationship, fears about illness, spirituality, an addiction, your identity, or a moral issue.
+
+What you don’t want to do is bully your subconscious with statements like,
+
+“Why don’t you just tell me?” “What are you hiding?” “Tell me right now!” or “I demand that you reveal the truth!”
+
+This can lead to flooding, panic, false certainty, confabulation, dissociation, and just generally making your day suck more. When you’re flooded, it can be hard to access your adult capacities to pause, compare options, reality test, plan and make choices for yourself. In that state, regulation and support come before going deeper. The silence may be protecting you while your adult doesn’t have enough regulation, support, humility or practical capacity to take it in. Ask for the next piece you can tolerate:
+
+“Do I need to know the content now, or do I need to build capacity first?” “What do you need for my conscious mind to be able to know what you’re saying 5% better?” “Can you tell me through a symbol, not the whole revelation?” “Can you tell me what you need me to do to be safe without telling me what it is?” “Do you need me to get support to be able to know what it is? Who?”
+
+You may even want to say, “Dear wise subconscious mind, if there is something you know that my conscious mind can’t handle, please don’t break it open violently. Help me become someone who can know it safely. Prepare me before you reveal it, ground me before the memory, support me before the intensity. Give me one next thing to do.”
+
+REMEMBER: Hypnotic imagery can mean something without being literal, especially around trauma and memory. The mind turns things into symbols, squashes them together, distorts and dramatizes them, and borrows from culture and fear. Treat an image as an image, and get outside support when you need it.

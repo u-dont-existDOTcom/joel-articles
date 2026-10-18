@@ -1,0 +1,51 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B2: SHIFT "part no recording can decide in advance" became "when your response is not guided by a recording"
+B2: INVENTED "the subconscious" in "asking the subconscious questions"
+B2: INVENTED "lots of appendices/topics"; "including" makes the list non-exhaustive
+R: the guide is very big, in B1 and B2
+R: daily and weekly cadence, in B2 and B2
+
+ROUND-2 FIXES already made:
+B2 SHIFT the part no recording can decide in advance: "to learn what to do when your response is not guided by a recording." -> "for the part of the practice no recording can decide in advance."
+B2 REPEAT the heading already says the guide is very large: "This is a very big guide. To make it easier, you" -> "To make it easier, you"
+B2 REPEAT daily and weekly said twice: "to make the practice your own, every day or every week." -> "to make the practice your own."
+
+PUBLISHED section:
+[B0] This guide has an app coming soon! Working hard!
+
+[B1] How to use this very large guide
+
+[B2] Begin with Quick start, learn one induction and the complete return, then use Let the next response guide you for the part no recording can decide in advance. The daily and weekly sections help you make the practice your own. The appendices hold extra tools for questions, NLP language, anxiety, daydreaming, altered states, hostile-presence experiences, sleep, influence, and additional inductions. Sources are together in Appendix K.
+
+REWRITE (current):
+[B0, as published] This guide has an app coming soon! Working hard!
+
+[B1, as published] How to use this very large guide
+
+[CHANGED, replaces B2]
+To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. You can also look at the daily and weekly sections to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking the subconscious questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.

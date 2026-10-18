@@ -1,0 +1,48 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: SHIFT "give the same practice more time" became "practise this once or twice a week"
+B1: SHIFT "more time" became "a bit more time"
+B1: SHIFT "start from Higher Self or witnessing" became "when useful, Higher Self; if not possible, witnessing"
+
+ROUND-2 FIXES already made:
+(none)
+
+PUBLISHED section:
+[B0] The weekly deeper practice
+
+[B1] Once or twice a week, give the same practice more time when that is useful. More time needn’t mean greater intensity. Start from Higher Self or neutral witnessing, follow what appears, borrow an adult function when needed, and ask whether anything important is being bypassed. Leave room for the full exit and any ordinary action needed afterward.
+
+[B2] Do the ordinary action immediately when possible. That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.
+
+REWRITE (current):
+[B0, as published] The weekly deeper practice
+
+[CHANGED, replaces B1]
+Practise this once or twice a week and spend a bit more time with it if that would be useful but more time doesn’t have to mean more intensity. Whenever it is useful just access Higher Self, or if that is not possible go to a neutral witnessing place and let it unfold, borrowing an adult function when needed, asking whether anything important is being bypassed and always allowing for a full exit and any necessary normal action.
+
+[CHANGED, replaces B2]
+Wherever possible take any normal action immediately afterwards to impress on the subconscious that the adult heard and acted, otherwise it’s just one more beautiful internal meeting, and the dishes stay exactly where they were.

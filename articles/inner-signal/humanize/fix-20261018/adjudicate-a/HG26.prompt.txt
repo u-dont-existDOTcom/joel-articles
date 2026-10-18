@@ -1,0 +1,102 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: SHIFT instruction "use as a relationship" became statement "is a relationship"
+B3: INVENTED "chronic" before daydreaming
+B3: LOST "avoided" in "an avoided task" (became "getting something done")
+B3: INVENTED "etc." opens the target list
+B4: LOST "ongoing" help
+B6: SHIFT "trauma-focused regression" narrowed to regression for unknown trauma origins
+B6: SHIFT "work with flashbacks/dissociative reactions" became "expect" them
+B6: INVENTED "more stable" purposes (published says "different uses")
+B6: INVENTED "or didn't happen"; "historical event" became "in your life"
+B7: SHIFT "tears" narrowed to "crying when you access inner children"
+B8: SHIFT "Major trauma guidelines" became "Most guidelines for treating major trauma"
+B9: INVENTED opening claim "ultimate feedback is functioning in ordinary life"
+B9: SHIFT "less stable" became "functioning less well"
+R: clinician needed to explore unknown traumatic origins, in B6 and B6
+
+ROUND-2 FIXES already made:
+B3 INVENTED 'chronic': "chronic daydreaming" -> "daydreaming"
+B3 LOST an avoided task: "getting something done" -> "an avoided task"
+B3 note: Emulate's 'On the other hand, you may need very little more support' stays: in a section about when more support is needed, it is what 'for ordinary learning' says (my first review called it invented; march-a showed my fix had taken out its only break)
+B4 LOST ongoing help: "Get some other appropriate help" -> "Get the right kind of ongoing help"
+B6 SHIFT deliberate trauma-focused regression (and the repeat): "If you want to deliberately use regression to explore the origins of a traumatic experience that you don’t know," -> "If you want to do deliberate trauma-focused regression,"
+B6 SHIFT to work with substantial flashbacks or dissociative reactions: "or if you expect substantial flashback or dissociative reactions," -> "or to work with substantial flashbacks or dissociative reactions,"
+B6 INVENTED different uses, including resourcing: "Both can also be used for more stable purposes, like finding resources." -> "Both can have other uses too, like finding resources."
+B7 SHIFT tears, not only crying with inner children: "crying when you access inner children" -> "crying"
+B8 SHIFT major trauma guidelines: "Most guidelines for treating major trauma" -> "Major trauma guidelines"
+B9 SHIFT less stable: "If you’re functioning less well than before" -> "If ordinary life is getting less stable"
+
+PUBLISHED section:
+[B0] When this needs more support than a guide can provide
+
+[B1] Use self-hypnosis as a relationship with yourself. When the situation needs actual care, the guide shouldn’t become a substitute for it.
+
+[B2] Get urgent help now for immediate danger, severe confusion, inability to keep yourself safe, or concerning physical symptoms such as chest pain or fainting. New or worsening suicidal thoughts, severe insomnia, mania-like or psychosis-like symptoms, or dissociation that disrupts functioning need prompt professional assessment, not a four-to-twelve-week practice schedule.
+
+[B3] For ordinary learning, start with shorter sessions, warmth, a manageable subject, and a full return. Over a week or two, track one target—anxiety, daydreaming, relationship repair, an avoided task, sleep, emotional regulation, or intuitive accuracy. Worsening function or growing certainty about unverifiable memories calls for reassessment, not more intensity.
+
+[B4] Seek suitable ongoing help for recurring panic, compulsive behavior, substance-related destabilization, or major relationship instability.
+
+[B5] Methods to explore with a trained person present
+
+[B6] Use a trauma-informed clinician trained in the method, present with you, for deliberate trauma-focused regression, searching for unknown traumatic origins through an affect or somatic bridge, or work with substantial flashbacks or dissociative reactions. A bridge follows associations from a feeling or sensation; regression revisits recalled or imagined younger experience. Either can have different uses, including resourcing. Ask what is intended and how uncertainty and unexpected reactions will be handled. Hypnosis cannot prove a historical event, even with a clinician present.
+
+[B7] Trauma history, tears, or wanted difficult feelings don’t automatically exclude self-practice. Choose the working range with attention to the actual response and available support. Some people need a narrow range; others much broader. Confidence alone doesn’t supply missing support.
+
+[B8] Major trauma guidelines emphasize treatments such as trauma-focused CBT variants, CPT, PE, and EMDR depending on the person and guideline. Self-hypnosis and inner-child practice may support that process, but high-risk trauma work needs a larger container.
+
+[B9] If the practice makes ordinary life more loving, honest, functional, relational, grounded, and precise, continue gently. If it makes ordinary life less stable, stop deepening and return to sleep, food, grounding, boundaries, and outside support.
+
+REWRITE (current):
+[B0, as published] When this needs more support than a guide can provide
+
+[CHANGED, replaces B1]
+Self-hypnosis is a relationship you have with yourself, and when the situation needs actual care, this guide shouldn’t stand in for it.
+
+[CHANGED, replaces B2]
+Get urgent help now if you’re in immediate danger, severely confused, unable to keep yourself safe, or experiencing physical symptoms like chest pain or fainting. If you’re experiencing new or worsening suicidal thoughts, severe insomnia, or symptoms of mania or psychosis, or if your dissociative symptoms are impacting your functioning, please get them assessed by a professional promptly, rather than trying to fix them with this 4- to 12-week practice.
+
+[CHANGED, replaces B3]
+On the other hand, you may need very little more support. Start small—do shorter practices, make them warm, choose a small and tractable subject to work with, make sure you’re coming all the way back out of hypnosis, and track the effect on one target area (anxiety, daydreaming, repairing a relationship, an avoided task, sleep, emotional regulation, intuitive accuracy, etc.) for a week or two. If you find that your functioning worsens or you’re gaining certainty about memories that can’t be verified, then it’s time to reassess, not to push harder.
+
+[CHANGED, replaces B4]
+Get the right kind of ongoing help if you’re dealing with recurring panic attacks, compulsive behaviors, substance-related destabilization, or major relationship instability.
+
+[B5, as published] Methods to explore with a trained person present
+
+[CHANGED, replaces B6]
+If you want to do deliberate trauma-focused regression, to follow an affect or somatic bridge to unknown traumatic origins, or to work with substantial flashbacks or dissociative reactions, work with a trauma-informed trained clinician who is trained in the method you’re using and who is present while you do it. (Affect and somatic bridges mean following associations from an emotional or bodily feeling; regression means remembering or imagining what it would have been like when you were younger. Both can have other uses too, like finding resources.) Ask what they intend to do and how they’ll handle uncertainty and unexpected reactions. Even if you work with a clinician, please note that hypnosis can’t prove what did or didn’t happen in your life.
+
+[CHANGED, replaces B7]
+Having a history of trauma, crying, or even wanting to feel difficult feelings, doesn’t necessarily mean you need more support than working on your own. It is up to you to find how wide or narrow a range to work in, and that will be different for different people. Watch how you actually respond and what support you have. Feeling confident doesn’t make up for support you don’t have.
+
+[CHANGED, replaces B8]
+Major trauma guidelines emphasize treatments like trauma-focused cognitive behavioral therapy variants, cognitive processing therapy, prolonged exposure, or eye movement desensitization and reprocessing, depending on the person and the guideline. Self-hypnosis and inner child work can be part of that process. If you’re working with high-risk trauma, you need a bigger container for that work.
+
+[CHANGED, replaces B9]
+The ultimate feedback on whether your process is working well is how you’re functioning in ordinary life. If you’re being more loving, honest, functional, relational, grounded, and precise than you were before you started, then keep going, gently. If ordinary life is getting less stable, then stop trying to go deeper and focus instead on getting enough sleep, eating, grounding yourself, maintaining healthy boundaries with others, and getting support from others.

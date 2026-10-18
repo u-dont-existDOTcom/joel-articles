@@ -1,0 +1,7 @@
+[
+  {"finding": "B1: SHIFT \"can be useful\" became \"is very useful\"", "verdict": "FIXED", "why": "Rewrite restores the hedge: 'can be a very useful description'; 'very' is only emphasis."},
+  {"finding": "B3: SHIFT intuition \"offers signals\" became \"neither denied nor accepted dogmatically\"", "verdict": "FIXED", "why": "Rewrite says 'The mind of intuition offers its signals without becoming dogma.'"},
+  {"finding": "B3: UNCLEAR \"the signals\" has no antecedent", "verdict": "FIXED", "why": "'offers its signals' now comes right before 'tests the signals without killing them', giving the antecedent."},
+  {"finding": "B3: LOST \"next real action\" became \"how to act\"", "verdict": "FIXED", "why": "Rewrite says 'the adult chooses the next real action'."},
+  {"finding": "B4: SHIFT \"Let the modes correct each other\" became \"can modify the others\"", "verdict": "OPEN", "why": "'Modify' just means change; the published point is that each mode corrects the others' failure modes just described.", "replace": "serve to modify the others", "with": "serve to correct the others"}
+]

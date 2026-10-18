@@ -1,0 +1,100 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: LOST "only" in "access it only in a particular state"
+B1: SHIFT "recover memories" became "help you remember things" (overbroad)
+B1: SHIFT "override medical needs" narrowed to "not see a doctor"
+B1: INVENTED claim "many people have opened to certain things in altered states"
+B1: INVENTED "it is great that this opened"
+B1: SHIFT "Help me remember love" became "remember the love I am feeling"
+B1: SHIFT "usually more useful than demanding a revelation" became "you may want ... rather than asking"
+B1: SHIFT "first encounter" became "attempt their first"
+B9: SHIFT "intensity mistaken for meaning" became "altered state must mean something"
+B9: SHIFT "Protector is showing fear" became "Protector scaring you"
+B9: LOST "longing" in buried-material list
+B9: SHIFT "plain confusion" became "some other reason that it just doesn't make sense"
+
+ROUND-2 FIXES already made:
+B1 LOST only in a particular state: "to be able to access it in a particular state" -> "to be able to access it only in a particular state"
+B1 SHIFT recover memories: "to help you remember things," -> "to recover memories,"
+B1 SHIFT override medical needs: "to not see a doctor," -> "to override medical needs,"
+B1 SHIFT help me remember love: "Help me to remember the love I am feeling." -> "Help me to remember love."
+B9 SHIFT a Protector showing fear: "sometimes it is a Protector scaring you" -> "sometimes it is a Protector showing fear"
+B9 LOST longing: "shame/grief/anger" -> "shame/grief/anger/longing"
+
+PUBLISHED section:
+[B0] Appendix G: Altered states
+
+[B1] This guide doesn’t tell anyone to use substances. It does acknowledge that many people first encounter self-hypnosis, inner-child contact, or Higher Self dialogue while altered.
+
+[B2] Do not use altered states to force revelation. Use them to deepen listening, strengthen love, and improve ordinary life.
+
+[B3] A past opening can be a resource without becoming a state you must reproduce. Having experienced love once, being able to access it only in a particular state, and contacting it reliably in daily life are different things. Let the experience widen what seems possible while you build usable access. If the child cannot receive it, meet the difficulty rather than escalating the intensity.
+
+[B4] During or after an altered state, these prompts are usually more useful than demanding a revelation:
+
+[B5] “Help me stay grounded.” “Help me receive only what I can integrate.” “Help me remember love.” “Help me return when it is time.” “Help me translate this into one ordinary-life change.”
+
+[B6] Don’t use self-hypnosis to prolong an altered state indefinitely, recover memories, intensify fear, bypass sleep, override medical needs, or make yourself less able to communicate.
+
+[B7] If the state makes you less loving, less grounded, less honest, less able to sleep, less able to communicate, or less able to meet ordinary responsibilities, stop deepening and start integrating.
+
+[B8] Stabilize before you interpret
+
+[B9] Self-hypnosis can become very powerful during loveyhuasca, meditation, lucid dreaming, grief, sexual energy, prayer, sleep loss, or other plant-medicine-adjacent states. Sometimes the mind opens faster than the adult self can organize what is arriving.
+
+[B10] Intensity then gets mistaken for meaning. Sometimes the inner child is finally speaking. Sometimes a Protector is showing fear, or shame, grief, anger, longing, and other buried material are asking for care. But an intense state can also be bodily overload, environmental chaos, sleep deprivation, or plain confusion. A frightening image isn’t automatically truth, a bad feeling isn’t automatically a lesson, and a “download” doesn’t deserve belief merely because it came with excellent lighting.
+
+[B11] Before trying to interpret the state, ask a simpler question:
+
+[B12] “What kind of problem is happening?”
+
+REWRITE (current):
+[B0, as published] Appendix G: Altered states
+
+[CHANGED, replaces B1-B7]
+I am NOT telling anyone to use substances. However, many people do attempt their first self-hypnosis, contact with their inner child or contact with their Higher Self while in a mind altered state.
+
+Either way, please be aware that you should not use this state to force a revelation, but rather use it to deepen your listening, strengthen your love and improve your ordinary life.
+
+Many people have opened to certain things in their life in altered states, and that opening can be a resource without becoming a state you have to keep reproducing. The key is that though it is great that this opened, it is different to have had the experience of love, to be able to access it only in a particular state and to be able to access it reliably on a day to day basis. Let the experience widen what seems possible while you build access you can actually use. If the child can't take it in, meet that difficulty rather than turning up the intensity.
+
+So during or after an altered state, rather than asking for a revelation, you may want to use these phrases: Help me to ground. Help me to only take that which I can integrate. Help me to remember love. Help me to come back again when the time is right. Help me to turn this into one change in my regular life.
+
+You should not use self-hypnosis to keep you in an altered state forever, to recover memories, to make you more afraid, to help you not sleep, to override medical needs, or to not communicate with other people.
+
+If you find that being in an altered state is helping you to love less, to be more ungrounded, to be less honest, to not sleep, to not communicate or to not do regular life things, then you should stop attempting to go deeper and instead work on integrating what you have.
+
+[B8, as published] Stabilize before you interpret
+
+[CHANGED, replaces B9-B12]
+Self-hypnosis can be extremely powerful when used in altered states of consciousness such as when one is on loveyhuasca, meditating, in a lucid dream, grieving, utilizing sexual energy, praying, not sleeping, or in other states similar to plant medicines. Sometimes the mind opens up faster than the adult self can organize what’s coming in.
+
+The problem is that people think that because they are in an altered state, that it must mean something. Sometimes it is your inner child talking, sometimes it is a Protector showing fear, and sometimes it is shame/grief/anger/longing or other buried material asking for care, but it can also just be your body being overloaded by the experience, the chaos of the environment, lack of sleep, or some other reason that it just doesn't make sense. Just because you had a picture that scared you doesn't mean it's true, just because you had a bad feeling doesn't mean it's a lesson and just because you had a download in a nice lighting doesn't mean you should believe it.
+
+Before trying to interpret what is happening in an altered state, ask a simpler question:
+
+“What kind of problem is happening?”

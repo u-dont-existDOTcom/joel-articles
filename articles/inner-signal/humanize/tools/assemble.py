@@ -40,8 +40,12 @@ def run_segments(emu_dirs, skip=()):
             if not str(r.get('status', '')).startswith('ok') or '%s/%s' % (d.name, r['run']) in skip:
                 continue
             for sg in r['segments']:
-                out[(r['key'], sg['blocks'][0])] = (sg['blocks'], sg['new'], r['run'], str(d / (r['run'] + '.out.txt')))
-    return out
+                # a later folder's segment wins over every earlier one it overlaps (2026-10-18, emu-h: its one-run
+                # windows start inside emu-g's pieces), not only over one with the same first block
+                for k in [k for k, v in out.items() if k[0] == r['key'] and set(v[0]) & set(sg['blocks']) and v[4] != d.name]:
+                    del out[k]
+                out[(r['key'], sg['blocks'][0])] = (sg['blocks'], sg['new'], r['run'], str(d / (r['run'] + '.out.txt')), d.name)
+    return {k: v[:4] for k, v in out.items()}
 
 
 def units(key, emu_dirs, keep=None, only=None, skip=()):

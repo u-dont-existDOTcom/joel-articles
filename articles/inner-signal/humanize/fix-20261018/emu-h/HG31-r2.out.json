@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-h/HG31-r2.txt",
+  "input_words": 89,
+  "input_sha256": "84eb1a612cee9468b2c4a8fd04cea816ce9381e0473360a405a785d8ceb8af3a",
+  "balance_before": 123162,
+  "started_utc": "2026-10-18T04:01:01Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:01:08Z",
+  "response": {
+    "id": "11f3b9da-c729-48df-bc57-06b7b53df371",
+    "tool": "humanize",
+    "text": "1. Do some future pacing (check out this video ) to make sure that the new insight holds, by imagining some future situations where the old behavior would have triggered.\n\nIf they appear, practice a new small behavior by setting up an implementation intention (\"If...then...\"):\n\n2. Use a variation of the Swish Pattern from NLP, where instead of pushing out the old pattern, allowing it to stay there, just make sure that the old and the new pattern are both visible, feel the bodily sensations that arise, and see if there is anything the new pattern requires from in the future, that the old one didn't.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 89
+    },
+    "elapsed": 6
+  },
+  "balance_after": 123073
+}

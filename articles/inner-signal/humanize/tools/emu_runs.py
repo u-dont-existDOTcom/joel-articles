@@ -101,7 +101,14 @@ def content(t):
 
 
 def heading_like(p):
-    return len(p.split()) <= 15 and not p.rstrip().endswith(('.', ',', ';', ':')) and '\n' not in p.strip()
+    p = p.strip()
+    return len(p.split()) <= 15 and not p.endswith(('.', ',', ';', ':')) and '\n' not in p and not p.startswith(('“', '"'))
+
+
+def stems(t):
+    """content words cut to five letters, so "spiritually" meets "spiritual" and "processing" meets "process"
+    (Emulate rewrites headings: "You get stuck in spiritual bypass" came back as "You're spiritually bypassing")."""
+    return {w[:5] for w in content(t)}
 
 
 def match_headings(heads, paras):
@@ -118,6 +125,8 @@ def match_headings(heads, paras):
                 got = i; break
             if heading_like(p) and tw and len(tw & content(p)) * 3 >= len(tw):
                 got = i; break
+            if heading_like(p) and len(p.split()) <= 10 and stems(title) & stems(p):
+                got = i; break
             first = re.split(r'(?<=[.!?:])\s+', p, maxsplit=1)
             if len(first) == 2 and heading_like(first[0].rstrip('.:')) and tw and len(tw & content(first[0])) * 2 >= len(tw):
                 got = i; cut[i] = first[1]; break
@@ -125,6 +134,9 @@ def match_headings(heads, paras):
             return None, None
         pos.append(got); start = got + 1
     return pos, cut
+
+
+ALIGN = False  # back --align: the cut by overlap when the headings can't be found (off for the folders mapped before it)
 
 
 def segments(m, blocks, paras):
@@ -137,7 +149,7 @@ def segments(m, blocks, paras):
     heads = [j for j in sent if blocks[j][2]]
     pos, cut = match_headings([blocks[j][1] for j in heads], paras)
     if pos is None:
-        return None
+        return aligned(m, blocks, paras, heads) if ALIGN else None
     bounds_b = [-1] + [sent.index(h) for h in heads] + [len(sent)]
     bounds_p = [-1] + pos + [len(paras)]
     out = []
@@ -152,6 +164,44 @@ def segments(m, blocks, paras):
             return None
         out.append((bs, ps))
     return out
+
+
+def aligned(m, blocks, paras, heads):
+    """When Emulate dropped or merged the run's headings (emu-h, 2026-10-18: HG37's two runs, HG24's): Emulate's lines that
+    look like a rewritten heading (a short line sharing a word with one of the run's headings) are dropped, the
+    published headings stay, and Emulate's paragraphs are cut into the stretches between the headings where each
+    stretch's words best match its published blocks (the cut that maximizes the summed overlap, in order). The meaning
+    review checks each stretch against its published blocks, so a bad cut shows there. None when it can't be cut."""
+    sent = m['sent']
+    hs = [blocks[j][1] for j in heads]
+    ps = [p for p in paras if not (heading_like(p) and len(p.split()) <= 12 and any(stems(h) & stems(p) for h in hs))]
+    bounds = [-1] + [sent.index(h) for h in heads] + [len(sent)]
+    groups = [[sent[i] for i in range(bounds[k] + 1, bounds[k + 1])] for k in range(len(bounds) - 1)]
+    groups = [g for g in groups if g]
+    if not groups or len(ps) < len(groups) or not all(set(g) <= set(m['flagged']) | set(m.get('context', [])) for g in groups):
+        return None
+    gs = [stems(' '.join(blocks[j][1] for j in g)) for g in groups]
+    pst = [stems(p) for p in ps]
+    def score(k, a, b):  # group k gets paragraphs a..b-1
+        w = set().union(*pst[a:b])
+        return len(gs[k] & w) / (len(gs[k] | w) or 1)
+    K, N = len(groups), len(ps)
+    best = {(0, 0): (0.0, [])}
+    for k in range(K):
+        nxt = {}
+        for (kk, a), (v, cuts) in best.items():
+            if kk != k:
+                continue
+            for b in range(a + 1, N - (K - k - 1) + 1):
+                if k == K - 1 and b != N:
+                    continue
+                cand = (v + score(k, a, b), cuts + [(a, b)])
+                if (k + 1, b) not in nxt or cand[0] > nxt[(k + 1, b)][0]:
+                    nxt[(k + 1, b)] = cand
+        best = nxt
+    if (K, N) not in best:
+        return None
+    return [(g, ps[a:b]) for g, (a, b) in zip(groups, best[(K, N)][1])]
 
 
 def back(outdir, md_path, editor):
@@ -169,7 +219,8 @@ def back(outdir, md_path, editor):
         if segs is None:
             res.append({'run': m['run'], 'key': m['key'], 'status': 'unplaced: %d paragraphs for %d blocks, headings not found'
                         % (len(paras), len(m['sent'])), 'out': paras}); continue
-        res.append({'run': m['run'], 'key': m['key'], 'status': 'ok' if len(paras) == len(m['sent']) else 'ok, regrouped',
+        how = 'ok' if len(paras) == len(m['sent']) else ('ok, regrouped' if match_headings([blocks[j][1] for j in m['sent'] if blocks[j][2]], paras)[0] is not None else 'ok, aligned (headings not in the output; --align)')
+        res.append({'run': m['run'], 'key': m['key'], 'status': how,
                     'segments': [{'blocks': bs, 'old': [blocks[j][1] for j in bs], 'new': ps} for bs, ps in segs]})
     (out / 'back.json').write_text(json.dumps(res, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     for r in res:
@@ -294,7 +345,12 @@ def main():
     ap.add_argument('--keys', nargs='*')
     ap.add_argument('--md', default=str(H / 'HUMANIZED-SO-FAR.md'))
     ap.add_argument('--editor', default=str(H / 'source' / 'substack-editor-20260928.html'))
+    ap.add_argument('--align', action='store_true', help='back: when a run\'s headings are not in its output, cut its paragraphs '
+                    'into the stretches between the published headings by word overlap (emu-h on; the folders mapped before '
+                    'keep their mapping)')
     a = ap.parse_args()
+    global ALIGN
+    ALIGN = a.align
     if a.cmd == 'make':
         make(a.args[0], a.args[1], a.keys, a.md, a.editor)
     elif a.cmd == 'split':

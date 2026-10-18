@@ -1,0 +1,5 @@
+[
+  {"finding": "B2: INVENTED regulatory scrutiny claim added", "verdict": "FIXED", "why": "The scrutiny clause is gone; the sentence now ends 'know this perfectly well.' and goes straight to the FTC and OECD."},
+  {"finding": "B3: INVENTED \"even if a fully grown adult\" added", "verdict": "OPEN", "why": "Published has no age concession, only 'without the adult self having clearly chosen'; the added clause is a new claim and blurs 'adult self'.", "replace": ", even if they are a fully grown adult,", "with": ""},
+  {"finding": "B4: SHIFT \"associated with\" became \"from\"", "verdict": "FIXED", "why": "Rewrite now says 'As a line associated with the Silva Mind Control tradition puts it'."}
+]

@@ -1,0 +1,75 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: INVENTED reporting "after each session" of "mind and body"
+B1: SHIFT "a hypnotist's approach" became "how a hypnotherapist might approach particular issues"
+B1: SHIFT "develop your own language" became "tips ... for hypnotic self-talk"
+B2: SHIFT "it should say" became "it will probably tell you"
+B3: INVENTED choices "about what to try next"
+B5: LOST "how the guide is landing in real practice" (became "others can benefit")
+B5: SHIFT "what you learned" narrowed to "learned from using the app"
+B6: SHIFT "contact me directly for a consultation" became "contact me here to discuss arranging a consultation"
+
+ROUND-2 FIXES already made:
+B1 SHIFT questions about a hypnotist's approach: "You can also ask the app questions about how a hypnotherapist might approach particular issues." -> "You can also ask the app questions about a hypnotist’s approach."
+B1 SHIFT develop your own language: "and tips on how to develop your own language for hypnotic self-talk" -> "and ways to develop your own language"
+B5 LOST how the guide is landing in real practice: "and others can benefit from what you’ve experienced." -> "and others can learn how the guide is landing in real practice."
+
+PUBLISHED section:
+[B0] Try it in the Inner Signal app
+
+[B1] Use the Inner Signal app to get voice hypnosis sessions, learn the method, develop your own language, reflect on what you report, and ask questions about a hypnotist’s approach. Self-hypnosis doesn’t require an app, and finding a practitioner is an option rather than a graduation requirement.
+
+[B2] In the ChatGPT version, an uploaded picture or drawing, a poem, or a song can be the starting point rather than a prose explanation. Use material the current chat can actually inspect; it should say when it cannot open an image or hear audio. What the material contains, what it means to you, and the app’s interpretation are different things. You can correct the interpretation without having to justify your choice of expression.
+
+[B3] Keep in mind that even with voice, an app has to ask what is happening. It cannot feel your body, share a practitioner’s embodied intuition, or know an unreported response. Its role is to help you learn and make better-informed choices, not pretend to be a skilled therapist.
+
+[B4] Enter through this page rather than bookmarking the app itself, so you reach the current version.
+
+[B5] Please fill out the survey with what you learned. It gives you a record for later analysis and helps other people learn how the guide is landing in real practice.
+
+[B6] When the guide or app leaves a real question unanswered, you can contact me directly for a consultation.
+
+REWRITE (current):
+[B0, as published] Try it in the Inner Signal app
+
+[CHANGED, replaces B1]
+In the Inner Signal app you’ll find voice hypnosis sessions to guide you, information about the method you’re using, and ways to develop your own language. After each session, you’ll have the chance to report what went through your mind and body, and reflect on what you reported. You can also ask the app questions about a hypnotist’s approach. You don’t need an app to do self-hypnosis, and finding a practitioner is an option, not something you have to do to graduate.
+
+[CHANGED, replaces B2]
+If you’re using the ChatGPT version of this app, you might want to upload a picture, drawing, poem or song to talk about instead of writing out your explanation in prose. But please make sure the file you upload can be seen or heard by the chat you’re currently using! It will probably tell you that it can’t see or hear the file if you’ve made this mistake. Please remember that what’s in the file, what it means to you, and what the app thinks it means, are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium.
+
+[CHANGED, replaces B3]
+Bear in mind that even with voice, the app is asking you what’s going on for you – it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report. The app is not pretending to be a skilled therapist, just helping you to learn for yourself, so that you can make informed choices about what to try next.
+
+[CHANGED, replaces B4]
+Always enter this app via this page, not by bookmarking the app itself, to make sure you get the current version.
+
+[CHANGED, replaces B5]
+Please fill in this survey with what you’ve learned from using the app, so that you have something to analyse later, and others can learn how the guide is landing in real practice.
+
+[CHANGED, replaces B6]
+If the guide or the app leaves a real question unanswered, please contact me here to discuss arranging a consultation.

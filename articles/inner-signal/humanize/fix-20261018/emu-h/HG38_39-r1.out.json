@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-h/HG38_39-r1.txt",
+  "input_words": 96,
+  "input_sha256": "1700b7a379312259055b4f86bad63b09fde9541a6f54fbe69a6a93d8249d0017",
+  "balance_before": 123514,
+  "started_utc": "2026-10-18T04:00:29Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:00:38Z",
+  "response": {
+    "id": "58dfef92-beb3-4285-98fe-4a572d355eed",
+    "tool": "humanize",
+    "text": "Appendix I: Sleep hypnosis\n\nIf you’re using this for help getting to sleep, try it with one of Nimja’s sleep playlists.\n\nAPPENDIX J: Inductions to build a library of\n\nWhat are you going to do next in the sequence? Do you want to do it at all? If you’re using a family of inductions, have you tried the lighter ones, or doing it with your eyes open, or even just doing no-trance contact in place of the trance induction? What happened when you tried to do it (even if it seemed that nothing happened)? What’s the next thing to try – something new, moving your body, using imagery, using a different sensory channel, just sitting still for a while, giving up on it…? Do you need to bring yourself fully awake out of the induction?\n\nNOTE: If you’re not able to generate imagery with any vividness, you can translate the metaphors into words, rhythms, spatial, touch, movement, or even just knowing concepts.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 96
+    },
+    "elapsed": 9
+  },
+  "balance_after": 123418
+}

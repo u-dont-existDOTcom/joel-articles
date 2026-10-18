@@ -1,0 +1,70 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B2: INVENTED "etc." implies further unlisted benefits
+B3: SHIFT reader becoming a consumer became author not just selling audio files
+B3: LOST "increasingly elaborate" recordings
+R: hypnosis may not be best for historical trauma / other treatments may suit better, in B4 and B4
+
+ROUND-2 FIXES already made:
+B3 SHIFT the reader becoming a consumer of increasingly elaborate recordings: "not just asking you to buy more audio trance files." -> "so you don’t end up a consumer of more and more elaborate trance recordings."
+B4 REPEAT said twice in the paragraph: "and that hypnosis may not be the best treatment to deal with historical trauma, other treatments may be more suitable." -> "and that other treatments may be better for historical trauma."
+
+PUBLISHED section:
+[B0] Hypnosis Evidence
+
+[B1] Hypnosis has real evidence, although it doesn’t have magical evidence. A 2024 overview of 49 meta-analyses, covering 261 distinct primary studies, found the strongest support in pain, medical procedures, and work with children and adolescents. The quality still varied by outcome and study design.
+
+[B2] Self-hypnosis has its own evidence. A systematic review of randomized controlled trials reported benefits in studies involving pain, childbirth, pediatric applications, stress, and anxiety. It appeared more useful when people learned it as a real self-directed skill and practiced it several times, rather than merely pressing play on an audio file.
+
+[B3] That distinction matters here. I want you to learn an inner skill, not become a consumer of increasingly elaborate trance recordings.
+
+[B4] Clinical caution still matters. Mayo Clinic warns that hypnosis used around stressful earlier-life events can trigger strong emotional reactions, and that other treatments may fit historical trauma work better.
+
+[B5] Use self-hypnosis for regulation, dialogue, reparenting, clarity, habit change, present safety, emotional integration, and ordinary-life action.
+
+[B6] Do not use it to force trauma memories, prove what happened, suppress medical symptoms, destabilize yourself, or replace appropriate clinical care.
+
+REWRITE (current):
+[B0, as published] Hypnosis Evidence
+
+[CHANGED, replaces B1]
+Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview of 49 meta analyses containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality.
+
+[CHANGED, replaces B2]
+Is there evidence for Self-Hypnosis? Yes. There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, child birth, pediatric, stress, anxiety etc. Self-hypnosis seemed more useful when done as a real self-skill several times, not just listening to an audio file.
+
+[CHANGED, replaces B3]
+Here I will be teaching you a real self-skill, so you don’t end up a consumer of more and more elaborate trance recordings.
+
+[CHANGED, replaces B4]
+Mayo Clinic cautions that using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that other treatments may be better for historical trauma.
+
+[CHANGED, replaces B5]
+Use Self-Hypnosis for: regulation, dialogue, reparenting, clarity, habit change, present life safety, emotional integration, ordinary-life action
+
+[CHANGED, replaces B6]
+Don't use Self-Hypnosis for: forcing trauma memories, proof of trauma memories, suppressing medical symptoms, destabilizing yourself, instead of correct treatment

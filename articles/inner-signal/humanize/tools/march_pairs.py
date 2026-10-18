@@ -67,6 +67,42 @@ def read(d, labels):
     return out, bad
 
 
+def reads(fix_dir):
+    """Every march read in FIX_DIR (march-*/ with its labels), oldest first: [(folder, {(key, ver): (paragraphs, labels)})],
+    paragraphs being the stretch's paragraphs the reader saw (only those with sentences to label) and labels one string
+    per march paragraph."""
+    out = []
+    for d in sorted(pathlib.Path(fix_dir).glob('march-*/')):
+        lf, mf, df = d / 'march-labels.txt', d / 'march-map.json', d / 'march-draft.txt'
+        if not (lf.exists() and mf.exists() and df.exists()):
+            continue
+        mp = json.loads(mf.read_text(encoding='utf-8'))
+        got = dict(re.findall(r'^\s*T(\d+):\s*([SB ]+?)\s*$', lf.read_text(encoding='utf-8'), re.M))
+        paras = df.read_text(encoding='utf-8').split('\n\n')
+        assert len(paras) == len(mp), (d, len(paras), len(mp))
+        got_by = {}
+        for p, m in zip(paras, mp):
+            ps, ls = got_by.setdefault((m['key'], m['ver']), ([], []))
+            ps.append(p)
+            ls += [' '.join(got.get(str(i + 1), '').split()) for i in range(m['start'], m['start'] + m['n'])]
+        out.append((d.name, got_by))
+    return out
+
+
+def lookup(fix_dir, key, was_paras, new_paras, _cache={}):
+    """The newest march read whose reader saw exactly this stretch's two versions: (folder, march_was, march), or None when
+    the stretch has changed since its last read (it needs a new one)."""
+    if fix_dir not in _cache:
+        _cache[fix_dir] = reads(fix_dir)
+    keep = lambda ps: [p for p in ps if R.march_paragraphs(p)]
+    w, n = keep(was_paras), keep(new_paras)
+    for folder, got_by in reversed(_cache[fix_dir]):
+        a, b = got_by.get((key, 'was')), got_by.get((key, 'new'))
+        if a and b and a[0] == w and b[0] == n and all(a[1]) and all(b[1]):
+            return folder, a[1], b[1]
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('cmd', choices=('draft', 'read'))
