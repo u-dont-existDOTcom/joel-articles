@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-r/HG27-fxw1.txt",
+  "input_words": 133,
+  "input_sha256": "f0208511bb92bad12244cb910e0037e1ac64ce7db8d0bcb07a45c9758c5cd502",
+  "balance_before": 118804,
+  "started_utc": "2026-10-18T05:07:05Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:07:14Z",
+  "response": {
+    "id": "9de1b54a-2881-4fde-87c4-e8245329658e",
+    "tool": "humanize",
+    "text": "Closing\n\nStart from the basis that the sub, the body, the sharp mind, and the guy who's tensed up and ready for the other shoe to drop for a long time are all not your enemies. Most of them are actually trying to help you.\n\nWhether or not you can \"get hypnotized\" very deeply is somewhat irrelevant to whether or not you can become a trustworthy adult.\n\nListen to it for as long as it takes until it's comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to the kid, so the various guards feel they can relax. Work on loving yourself in a way that your thinking doesn't object to; work on thinking in a way that your love for yourself doesn't become fantasy; work on doing this in the course of regular life so that your adult self can keep the promise.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 133
+    },
+    "elapsed": 8
+  },
+  "balance_after": 118671
+}

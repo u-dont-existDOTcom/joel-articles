@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-r/HG35-fxw3.txt",
+  "input_words": 74,
+  "input_sha256": "37ac93693acef03dbafc1ac2689f630b80d0731967590a93d181cabd8b593d75",
+  "balance_before": 117638,
+  "started_utc": "2026-10-18T05:08:06Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:08:11Z",
+  "response": {
+    "id": "833f4c83-69c7-4d64-94db-09ed44b84fbb",
+    "tool": "humanize",
+    "text": "Forgiveness without bypass\n\nYou say that we cannot ‘force’ ourselves to forgive someone and that it has to come out of a place of understanding for it to not be a bypass etc. But how can we let go of the anger if we cannot or do not want to always be angry? How do we hold all of this, together? The fact that all of this can be true at the same time is so important.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 74
+    },
+    "elapsed": 4
+  },
+  "balance_after": 117564
+}

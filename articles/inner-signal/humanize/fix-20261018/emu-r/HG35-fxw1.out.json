@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-r/HG35-fxw1.txt",
+  "input_words": 108,
+  "input_sha256": "f2b009716f503fe489641872647207d5c1aa92c25d8eb9dd2caa172fb130bf0b",
+  "balance_before": 118226,
+  "started_utc": "2026-10-18T05:07:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:07:40Z",
+  "response": {
+    "id": "11175656-c077-40cf-b5fb-c3ab92538f0e",
+    "tool": "humanize",
+    "text": "Appendix F: Self-trust, outside guidance, and oracle-like states\n\n[Please see how to use synchronicity as a cue, above.]\n\nOne of the issues here is that people vary dramatically in how suggestible they are, both internally and externally, to various types of suggestion, and different people vary in how suggestible they are in different states. Different types of suggestion (commands, imagery, music, metaphors, spiritual, etc) can be very different for different people. So there are definite advantages to both having someone work with you, and doing things yourself. Being able to follow up immediately, to correct something in real time, to have a line of communication with protectors, etc.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 108
+    },
+    "elapsed": 6
+  },
+  "balance_after": 118118
+}
