@@ -24,9 +24,12 @@ _KB = None
 
 
 def kb():
+    """The published blocks of each key. From the published copy, not HUMANIZED-SO-FAR.md (2026-10-18): the two were the
+    same file until the first install, and every run, review and screen maps its blocks to the published text, so an
+    installed section must not move them."""
     global _KB
     if _KB is None:
-        _KB = E.key_blocks(H / 'HUMANIZED-SO-FAR.md', H / 'source' / 'substack-editor-20260928.html')
+        _KB = E.key_blocks(H / 'source' / 'published-20260928.md', H / 'source' / 'substack-editor-20260928.html')
     return _KB
 
 

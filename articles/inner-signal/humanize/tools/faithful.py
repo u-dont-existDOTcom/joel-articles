@@ -11,6 +11,7 @@ fixed stretches.
   python3 tools/faithful.py prompt UNITS.json OUT.txt        the reviewer's prompt (UNITS.json: assemble.units() for a key)
   python3 tools/faithful.py apply UNITS.json REVIEW.json OUT.json   the fixes put in; reports any that don't fit
   python3 tools/faithful.py verify UNITS.json OUT.txt        the second reader's prompt, for the fixed units
+  python3 tools/faithful.py verify-chunks UNITS.json PREFIX [SIZE]   the same in parts of SIZE stretches (16), PREFIX.partN.txt
 
 A stretch is named by its first published block: "block": 5 for the stretch that replaces B5 (to B9).
 """
@@ -111,9 +112,13 @@ def prompt(units_path, out, tmpl=REVIEW):
 CHUNK_NOTE = ("\n\nThis is PART {n} of {m} of the section: only the stretches below are yours; the published blocks shown are the "
               "ones they replace, with the headings around them. Go through the points in your head; don't write them out. "
               "Return only the JSON array, nothing before or after it.\n")
+# The second reader in parts (2026-10-18: HG31's 81 stretches in one prompt ran its reader out of output twice)
+VERIFY_NOTE = ("\n\nThis is PART {n} of {m} of the section: only the stretches below are yours; the published blocks shown are the "
+               "ones they replace, with the headings around them. Go through the points in your head; don't write them out. "
+               "Answer only with the lines asked for above (the REPEATS line counts repeats inside this part).\n")
 
 
-def chunks(units_path, out_prefix, size=12, tmpl=REVIEW):
+def chunks(units_path, out_prefix, size=12, tmpl=REVIEW, note=None):
     """The review prompt cut into parts of SIZE changed stretches (2026-10-18: a whole long section in one prompt made the
     review agents run out of output); each part shows the published blocks its stretches replace and the headings
     between them. Writes OUT_PREFIX.partN.txt."""
@@ -133,7 +138,7 @@ def chunks(units_path, out_prefix, size=12, tmpl=REVIEW):
                 parts.append('[CHANGED, replaces %s]\n%s' % (rng, '\n\n'.join(u['paras'])))
             else:
                 parts.append('[B%d, as published] %s' % (u['blocks'][0], u['paras'][0]))
-        text = tmpl.format(about=ABOUT, published=published, rewrite='\n\n'.join(parts)) + CHUNK_NOTE.format(n=n, m=len(groups))
+        text = tmpl.format(about=ABOUT, published=published, rewrite='\n\n'.join(parts)) + (note or CHUNK_NOTE).format(n=n, m=len(groups))
         f = '%s.part%d.txt' % (out_prefix, n)
         pathlib.Path(f).write_text(text, encoding='utf-8')
         print('%s part %d/%d: %d stretches, B%d-B%d -> %s' % (d['key'], n, len(groups), len(g), blocks[0], blocks[-1], f))
@@ -209,7 +214,7 @@ def apply(units_path, review, out):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=('prompt', 'apply', 'verify', 'chunks', 'merge'))
+    ap.add_argument('cmd', choices=('prompt', 'apply', 'verify', 'chunks', 'verify-chunks', 'merge'))
     ap.add_argument('args', nargs='+')
     a = ap.parse_args()
     if a.cmd == 'prompt':
@@ -220,6 +225,8 @@ def main():
         merge(a.args[0], a.args[1])
     elif a.cmd == 'chunks':
         chunks(a.args[0], a.args[1], int(a.args[2]) if len(a.args) > 2 else 12)
+    elif a.cmd == 'verify-chunks':
+        chunks(a.args[0], a.args[1], int(a.args[2]) if len(a.args) > 2 else 16, tmpl=VERIFY, note=VERIFY_NOTE)
     else:
         apply(a.args[0], a.args[1], a.args[2])
 

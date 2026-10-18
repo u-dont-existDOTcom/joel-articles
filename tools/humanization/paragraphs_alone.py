@@ -96,23 +96,31 @@ def results(dirs):
     return seen
 
 
+def tries_for(md, paras, i):
+    """(paragraph i's text, the texts any of which gives it its check). paras is paragraphs(md). A batch builder picks one
+    of these to send (2026-10-18, the hypnosis guide's paragraph checks), so it sends what check() will look for."""
+    head, p = paras[i]
+    t = plain(p)
+    tries = [t]
+    if len(t.split()) < 50:
+        same = lambda j: 0 <= j < len(paras) and paras[j][0] == head
+        tries = ([plain(paras[i - 1][1]) + '\n\n' + t] if same(i - 1) else []) + \
+                ([t + '\n\n' + plain(paras[i + 1][1])] if same(i + 1) else [])
+    if len(t.split()) < 50 and not any(len(x.split()) >= 50 for x in tries):
+        # a short list entry: the shortest runs around it that Pangram can read
+        tries += [x for _, _, r, rl in minimal_runs(md, i) for x in (r, rl)]
+    if head and (i == 0 or paras[i - 1][0] != head):
+        # the first paragraph under a heading also counts when checked with its heading in front
+        tries += [plain(head.lstrip('#').strip()) + '\n\n' + x for x in tries]
+    return t, tries
+
+
 def check(md, dirs):
     paras = paragraphs(md)
     seen = results(dirs)
     report, ok = [], True
-    for i, (head, p) in enumerate(paras):
-        t = plain(p)
-        tries = [t]
-        if len(t.split()) < 50:
-            same = lambda j: 0 <= j < len(paras) and paras[j][0] == head
-            tries = ([plain(paras[i - 1][1]) + '\n\n' + t] if same(i - 1) else []) + \
-                    ([t + '\n\n' + plain(paras[i + 1][1])] if same(i + 1) else [])
-        if len(t.split()) < 50 and not any(len(x.split()) >= 50 for x in tries):
-            # a short list entry: the shortest runs around it that Pangram can read
-            tries += [x for _, _, r, rl in minimal_runs(md, i) for x in (r, rl)]
-        if head and (i == 0 or paras[i - 1][0] != head):
-            # the first paragraph under a heading also counts when checked with its heading in front
-            tries += [plain(head.lstrip('#').strip()) + '\n\n' + x for x in tries]
+    for i in range(len(paras)):
+        t, tries = tries_for(md, paras, i)
         got = [r for x in tries for r in seen.get(x, [])]
         human = [r for r in got if r[1].startswith('Human')]
         if human:

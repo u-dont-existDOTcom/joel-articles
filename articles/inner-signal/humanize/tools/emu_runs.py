@@ -358,7 +358,7 @@ def main():
     ap.add_argument('--max', type=int, default=180)
     ap.add_argument('args', nargs='+')
     ap.add_argument('--keys', nargs='*')
-    ap.add_argument('--md', default=str(H / 'HUMANIZED-SO-FAR.md'))
+    ap.add_argument('--md', default=str(H / 'source' / 'published-20260928.md'))  # the published blocks (assemble.kb())
     ap.add_argument('--editor', default=str(H / 'source' / 'substack-editor-20260928.html'))
     ap.add_argument('--align', action='store_true', help='back: when a run\'s headings are not in its output, cut its paragraphs '
                     'into the stretches between the published headings by word overlap (emu-h on; the folders mapped before '
