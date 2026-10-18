@@ -1,0 +1,83 @@
+{
+ "t71h_y1b": {
+  "kind": "screen",
+  "march": [
+   "B B S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71h: y1-b, alone."
+ },
+ "t71h_x3c2": {
+  "kind": "screen",
+  "march": [
+   "S B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71h: x3-c2, alone."
+ },
+ "t71h_as1c": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71h: as1-c, alone."
+ },
+ "t71h_artrb": {
+  "kind": "screen",
+  "march": [
+   "B B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71h_artrb.md",
+  "note": "t71h: ar-tr-b, alone."
+ },
+ "t71h_ar7b": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71h_ar7b.md",
+  "note": "t71h: ar7-b, alone."
+ },
+ "t71h_ar8b": {
+  "kind": "screen",
+  "march": [
+   "B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71h: ar8-b, alone."
+ },
+ "t71h_secsp5b": {
+  "kind": "screen",
+  "march": [
+   "sp5-p1-x1: S S B S S, y1-b: B B S B, x3-c2: S B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71h_secsp5b.md",
+  "note": "t71h: ## “And So That’s the Way It Happened!”, put together: D9:sp5-p1-x1, D:y1-b, D:x3-c2."
+ },
+ "t71h_secar2": {
+  "kind": "screen",
+  "march": [
+   "his paragraphs and mine | ar-tr-b: B B S B, ar7-b: S S B S S, ar8-b: B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71h_secar2.md",
+  "note": "t71h: ## Altered States Can Require Reparenting, put together: D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71h_secascore2": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71h_secascore2.md",
+  "note": "t71h: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ }
+}
