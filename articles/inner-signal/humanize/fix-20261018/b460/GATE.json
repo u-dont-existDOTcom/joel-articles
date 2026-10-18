@@ -1,0 +1,94 @@
+{
+ "HG24-fix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-ao/HG24-pw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zb/HG24.fixed.json"
+  ],
+  "lint": "FAIL",
+  "words": 1325,
+  "_blocks_ok": true
+ },
+ "HG24-x-p1+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-ao/HG24-pw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zb/HG24.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "460g HG24-fix (this batch)",
+  "paragraph": 1,
+  "check": "next",
+  "words": 109,
+  "_blocks_ok": true
+ },
+ "HG24-x-p2+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-ao/HG24-pw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zb/HG24.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "460g HG24-fix (this batch)",
+  "paragraph": 2,
+  "check": "next",
+  "words": 102,
+  "_blocks_ok": true
+ },
+ "HG24-x-p3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-ao/HG24-pw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zb/HG24.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "460g HG24-fix (this batch)",
+  "paragraph": 3,
+  "check": "alone",
+  "words": 81,
+  "_blocks_ok": true
+ },
+ "HG24-x-p6": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-ao/HG24-pw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zb/HG24.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "460g HG24-fix (this batch)",
+  "paragraph": 6,
+  "check": "alone",
+  "words": 102,
+  "_blocks_ok": true
+ }
+}
