@@ -223,3 +223,15 @@ def ifs(p3='ifs3-z', p5='ifs5-ff', rcw='ap9-f'):
 register('ifs', IFS_PARKED, ifs)
 register('ifs-bbb', IFS_PARKED, lambda: ifs('ifs3-y', 'ifs5-ee'))
 register('ifs-e', IFS_PARKED, lambda: ifs(rcw='ap9-e'))
+
+
+# 2026-10-18, round t71eee: the queued guide change PGQ-015 (GUIDE-UPDATE-QUEUE-20261006.md: "with PGQ-011"), after the
+# support-mode paragraph of Speak Toward What You Are Building.
+ST_P3_END = "Or from just listening while they're asking for help thinking."
+
+
+def pgq15():
+    return ST_P3_END + '\n\n' + '<!-- Turn 71 (the overnight run): the queued guide change PGQ-015 (source/PENDING-PUBLIC-GUIDE-CHANGES-2026-10-06-r2.md: remember a stated support mode until it changes instead of asking again; don\'t infer it from gender or another stereotype; advice already given, with nothing new changing it, gets a brief mention and you move on instead of serving it as new), queued "with PGQ-011", the paragraph before; waiting since turn 30 (GUIDE-UPDATE-QUEUE-20261006.md). experiments/t71-guide/drafts/pgq15-c.txt. Alone Human Written (0.021), https://www.pangram.com/history/2def663a-fad7-4308-a476-589e2d317f33; Speak Toward What You Are Building with it Human Written (0.086, high, 867 words), https://www.pangram.com/history/5d4296e0-7b34-4fec-b447-494ebd3a2138 (round t71eee). -->' + '\n\n' + draft('pgq15-c')
+
+
+register('pgq15', ST_P3_END, pgq15)
