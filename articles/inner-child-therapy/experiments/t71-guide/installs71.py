@@ -516,3 +516,22 @@ def frm_wavf(p='frm-e'):
 register('frm-wavf', WAVF_P7_END, frm_wavf)
 register('frm-wavf-j', WAVF_P7_END, lambda: frm_wavf('frm-j'))
 register('frm-wavf-k', WAVF_P7_END, lambda: frm_wavf('frm-k'))
+
+
+# 2026-10-18, after the first-half trace (TRACE-r4-A.md, 5): the frame point comes out again. Joel had cut it on
+# 2026-10-08 02:23 (depth draft 1: "who is gonna be "sneaking reparenting in " thru some gentler version?"), and the
+# turn-37 page he ticked on 2026-10-09 left the no to inner-child work to the AI guide, with When to Change the
+# Strategy's "Not wanting to do it anymore is a reason too" for the reader's side (R4-ADDITIONS-PROVENANCE-20261008.md;
+# tools/in-context/2026-10-08-turn37.json). The coverage check didn't know that; the trace did.
+FRM_K_END = 'and so does letting people help.'
+
+
+def _frm_now():
+    t = ART.read_text(encoding='utf-8')
+    if WAVF_P7_END + '\n\n<!-- Turn 71' not in t or FRM_K_END not in t:
+        return None
+    i = t.index(WAVF_P7_END + '\n\n<!-- Turn 71')
+    return t[i:t.index(FRM_K_END, i) + len(FRM_K_END)]
+
+
+register('frm-wavf-k-undo', _frm_now, WAVF_P7_END)
