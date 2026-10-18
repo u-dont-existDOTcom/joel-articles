@@ -7,3 +7,14 @@ Open on what the sentence says (42): mindset.u-dont-exist.com and nibbana.u-dont
 Not checked: scholar.google.com showed Google's "unusual traffic" check on this network, which is his to pass, not mine; it is Google Scholar's front page.
 
 For him: soma.u-dont-exist.com, the "loveyhuasca" link in My Journey, opens his Ultimate Psychedelic Protocol page, the recipe link E162 keeps out elsewhere (question 49). The guide's Gemini thread (g.co/gemini/share/fe062bfb8847) opened on "Link doesn't exist" and is not in the article (question 48).
+
+## Added later tonight (each opened in the browser pane before it went in)
+
+- https://ibogaqueen.substack.com/p/treasuring-the-inner-childs-gift: his post "Treasuring the Inner Child's Gift" (Start With Whatever Showed Up P2; the guide's link for "The child still brings the spark of life").
+- https://doi.org/10.1037/a0016755: the APA PsycNet page for Kahneman and Klein, "Conditions for intuitive expertise: A failure to disagree" (2009), with its abstract (Start With Whatever Showed Up P8; my pointer, question 50, 6).
+- https://pubmed.ncbi.nlm.nih.gov/31301164/: Baldwin, Bandarian-Balooch and Adams, "Attachment and compassion-threat: Influence of a secure attachment-prime" (2020), and https://pubmed.ncbi.nlm.nih.gov/25347984/: Duarte et al., "Do therapeutic imagery practices affect physiological and emotional indicators of threat in high self-critics?" (2015) (When the Adult Voice Feels Fake, the first research paragraph; the guide's studies).
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/: Parra et al., "Ideal Parent Figure method in the treatment of complex posttraumatic stress disorder related to childhood trauma: a pilot study" (2017) (the second research paragraph; the guide's pilot).
+
+- https://www.gutenberg.org/ebooks/20203: Project Gutenberg's Autobiography of Benjamin Franklin (One Intention P1; my pointer, question 50, 4), and https://ifs-institute.com/store/419 (No Bad Parts) with https://ifs-institute.com/resources/articles/internal-family-systems-model-outline (How This Relates to IFS P1 and P2; question 50, 5), opened earlier tonight (REVIEWS.md).
+
+The article now has 55 distinct link targets (54 in Markdown, one bare Substack note URL); every one added since the 04:45 check was opened before it went in.
