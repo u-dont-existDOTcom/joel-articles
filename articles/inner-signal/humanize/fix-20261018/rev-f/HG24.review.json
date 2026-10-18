@@ -17,7 +17,17 @@
  },
  {
   "block": 7,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "ordinary evidence that would make the adult voice more believable",
+    "replace": "work on finding evidence to strengthen your new adult voice.",
+    "with": "work on finding ordinary evidence that would make your new adult voice more believable.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
  },
  {
   "block": 8,
@@ -84,6 +94,14 @@
     "what": "a beginner experiment, instead of forcing an image",
     "replace": "by working with whatever you are aware of–preferences, curiosity, or even a statement that you’re new to this and would like to try something and see how it goes.",
     "with": "by working with whatever you are aware of (a preference, curiosity, or a beginner’s experiment to try and see how it goes) instead of forcing an image."
+   },
+   {
+    "type": "SHIFT",
+    "what": "identity-building and reparenting can happen in the same practice (not 'reparenting by noticing preferences')",
+    "replace": "you can still build identity and do reparenting by working with whatever you are aware of (a preference, curiosity, or a beginner’s experiment to try and see how it goes) instead of forcing an image.",
+    "with": "use the session to work with whatever you are aware of (a preference, curiosity, or a beginner’s experiment to try and see how it goes) instead of forcing an image. Building identity and reparenting can happen in the same practice.",
+    "round": 2,
+    "from": "verify-c (second reader)"
    }
   ]
  },
@@ -202,6 +220,14 @@
     "what": "one honest action",
     "replace": "to do something.",
     "with": "to do one honest thing."
+   },
+   {
+    "type": "SHIFT",
+    "what": "here to be in relationship (not 'supposed to be entering')",
+    "replace": "I’m supposed to be entering into relationship",
+    "with": "I’m here to be in relationship",
+    "round": 2,
+    "from": "verify-c (second reader)"
    }
   ]
  },
@@ -258,6 +284,14 @@
     "what": "some people already have enough love and meaning for the life they want ('seem to', and 'you don't have to do anything about it' is new)",
     "replace": "Other people seem to have enough love and meaning. You don’t have to do anything about it.",
     "with": "Some people already have enough love and meaning for the life they want."
+   },
+   {
+    "type": "SHIFT",
+    "what": "practical care helps (not 'the best thing is')",
+    "replace": "Sometimes the best thing is to do something practical in your life while the horizon still feels too small,",
+    "with": "Sometimes practical care helps while the horizon of your life still feels too small,",
+    "round": 2,
+    "from": "verify-c (second reader)"
    }
   ]
  },
@@ -282,6 +316,22 @@
     "what": "or chasing it away",
     "replace": "but don’t argue with it.",
     "with": "but don’t argue with it or chase it away."
+   },
+   {
+    "type": "SHIFT",
+    "what": "complete a ritual (not 'some magical thing')",
+    "replace": "You don’t have to do some magical thing before you can start your life.",
+    "with": "You don’t have to complete some ritual before you can start your life.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "the Leader's question: what direction, now",
+    "replace": "“What would the Leader do?”",
+    "with": "“What direction would the Leader choose now?”",
+    "round": 2,
+    "from": "verify-c (second reader)"
    }
   ]
  },

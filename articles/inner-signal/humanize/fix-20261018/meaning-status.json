@@ -206,5 +206,29 @@
   "adjudication": "every finding fixed in rev-g/HG29+30.round2.json",
   "repeats": 0,
   "notes": ""
+ },
+ "HG16": {
+  "done": true,
+  "review": "rev-f/HG16.review.json",
+  "verify": "verify-c/HG16.verify.txt",
+  "adjudication": "every finding fixed in rev-f/HG16.round2.json",
+  "repeats": 0,
+  "notes": ""
+ },
+ "HG24": {
+  "done": true,
+  "review": "rev-f/HG24.review.json",
+  "verify": "verify-c/HG24.verify.txt",
+  "adjudication": "every finding fixed in rev-f/HG24.round2.json",
+  "repeats": 0,
+  "notes": ""
+ },
+ "HG04": {
+  "done": true,
+  "review": "rev-f/HG04.review.json",
+  "verify": "verify-c/HG04.verify.txt",
+  "adjudication": "every finding fixed in rev-f/HG04.round2.json",
+  "repeats": 0,
+  "notes": ""
  }
 }

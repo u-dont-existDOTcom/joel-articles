@@ -23,7 +23,7 @@
     1
    ],
    "paras": [
-    "One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By an authority figure? By the desire for belonging? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices."
+    "One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices."
    ],
    "run": "HG16-r1",
    "file": "fix-20261018/emu-a/HG16-r1.out.txt",
@@ -39,6 +39,22 @@
      "what": "religious fear (not a religion)",
      "replace": "By a religion?",
      "with": "By religious fear?"
+    },
+    {
+     "type": "SHIFT",
+     "what": "charismatic authority",
+     "replace": "By an authority figure?",
+     "with": "By charismatic authority?",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "belonging pressure",
+     "replace": "By the desire for belonging?",
+     "with": "By pressure to belong?",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -49,7 +65,7 @@
     2
    ],
    "paras": [
-    "Some common ways you may know you’re being manipulated include a sense of urgency, a sense of specialness, FOMO, being made to feel like you won’t be included if you don’t go along, sexual charge, shame, being confused, a fantasy of being rescued, a sense of destiny, a sense that you should obey, a sense of secret knowledge, or an excessive sense of certainty about something pretty quickly. You may also feel that one honest question would break the spell."
+    "Some common ways you may know you’re being manipulated include a sense of urgency, a sense of specialness, FOMO, being made to feel like you won’t be included if you don’t go along, sexual charge, shame, being confused, a fantasy of being rescued, a sense of destiny, a sense that you should obey, a sense of secret knowledge, or an excessive sense of certainty about something, far too quickly. You may also feel that one honest question would break the spell."
    ],
    "run": "HG16-r1",
    "file": "fix-20261018/emu-a/HG16-r1.out.txt",
@@ -59,6 +75,14 @@
      "what": "one honest question would break the spell",
      "replace": "about something pretty quickly.",
      "with": "about something pretty quickly. You may also feel that one honest question would break the spell."
+    },
+    {
+     "type": "SHIFT",
+     "what": "far too much certainty arriving far too quickly",
+     "replace": "about something pretty quickly.",
+     "with": "about something, far too quickly.",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -69,7 +93,7 @@
     3
    ],
    "paras": [
-    "If you’re being hypnotically influenced, stop. Don’t obey right away. Don’t rebel, either, just stop and realize that you’re being influenced."
+    "If you’re being hypnotically influenced, stop. Don’t obey right away. Don’t rebel automatically, either; just realize that you’re being influenced."
    ],
    "run": "HG16-r1",
    "file": "fix-20261018/emu-a/HG16-r1.out.txt",
@@ -79,6 +103,14 @@
      "what": "don't obey right away (not 'don't listen')",
      "replace": "Don’t listen.",
      "with": "Don’t obey right away."
+    },
+    {
+     "type": "SHIFT",
+     "what": "automatic rebellion; and 'stop' said twice",
+     "replace": "Don’t rebel, either, just stop and realize that you’re being influenced.",
+     "with": "Don’t rebel automatically, either; just realize that you’re being influenced.",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -109,7 +141,7 @@
     5
    ],
    "paras": [
-    "“you’ll realize, eventually, that…” “you may eventually admit that…” “the only reason you resist is…” “part of you already knows…” “your higher self knows…” “everyone who’s truly awake knows…” “the reason you don’t believe that’s true is your ego’s fear of…”"
+    "“you’ll realize, eventually, that I’m right…” “you may eventually admit that…” “the only reason you resist is…” “part of you already knows…” “your higher self wants…” “everyone who’s truly awake knows…” “the reason you don’t believe that’s true is your ego’s fear of…”"
    ],
    "run": "HG16-r1",
    "file": "fix-20261018/emu-a/HG16-r1.out.txt",
@@ -131,6 +163,22 @@
      "what": "truly awake",
      "replace": "“everyone knows…”",
      "with": "“everyone who’s truly awake knows…”"
+    },
+    {
+     "type": "LOST",
+     "what": "'as you realize I'm right'",
+     "replace": "“you’ll realize, eventually, that…”",
+     "with": "“you’ll realize, eventually, that I’m right…”",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "your higher self wants (not 'knows', which repeated 'part of you knows')",
+     "replace": "“your higher self knows…”",
+     "with": "“your higher self wants…”",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -161,11 +209,21 @@
     7
    ],
    "paras": [
-    "What’s being claimed here? What’s the inevitable choice being framed for me here? What’s being presupposed? Who benefits from framing it this way? What’s the emotionally charged bit? What’s not being said? What do I need to say in order to opt out of the frame, and is it safe for me to do so (will I suffer negative consequences – physical, social, financial, reputational, spiritual etc – if I say no)?"
+    "What’s being claimed here? What’s the inevitable choice being framed for me here? What’s being presupposed? Who benefits from framing it this way? What’s the emotionally charged bit? What’s not being said? Can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded?"
    ],
    "run": "HG16-d-s1",
    "file": "fix-20261018/emu-g/HG16-d-s1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'what do I need to say to opt out'; the published: can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded",
+     "replace": "What do I need to say in order to opt out of the frame, and is it safe for me to do so (will I suffer negative consequences – physical, social, financial, reputational, spiritual etc – if I say no)?",
+     "with": "Can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded?",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -204,7 +262,7 @@
     10
    ],
    "paras": [
-    "Permissive words in and of themselves are not coercive but, when used, can be part of coercion. Look for:"
+    "Permissive words can still hide coercion. Look for:"
    ],
    "run": "HG16-d-s2",
    "file": "fix-20261018/emu-g/HG16-d-s2.out.txt",
@@ -214,6 +272,14 @@
      "what": "'these words' had nothing to point to: permissive words",
      "replace": "These words in and of themselves",
      "with": "Permissive words in and of themselves"
+    },
+    {
+     "type": "SHIFT",
+     "what": "permissive words can still conceal coercion ('not coercive in themselves' is new)",
+     "replace": "Permissive words in and of themselves are not coercive but, when used, can be part of coercion.",
+     "with": "Permissive words can still hide coercion.",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -224,7 +290,7 @@
     11
    ],
    "paras": [
-    "Indirect suggestions can by-pass the subjects skeptical conscious mind by never directly stating what it is you want him/her to do. This does not mean that the suggestions are not specific, but rather that they are worded in a vague, conversational and suggestive manner."
+    "Indirect suggestions can by-pass the subject’s skeptical guard by never directly stating what it is you want him/her to do. This does not mean that the suggestions are not specific, but rather that they are worded in a vague, conversational and suggestive manner."
    ],
    "run": "HG16-r1",
    "file": "fix-20261018/emu-h/HG16-r1.out.txt",
@@ -234,6 +300,14 @@
      "what": "can slip past (not 'are generally used to')",
      "replace": "Indirect suggestions are generally used to by-pass",
      "with": "Indirect suggestions can by-pass"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the skeptical guard (a part), not the conscious mind",
+     "replace": "the subjects skeptical conscious mind",
+     "with": "the subject’s skeptical guard",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -264,11 +338,21 @@
     13
    ],
    "paras": [
-    "2) Making it so that any answer the subject may give will result in compliance (yes, no, noticing, not noticing, resisting, not answering etc.)"
+    "2) Making it so that any answer the subject may give will be taken as proof that the suggestion is working (yes, no, noticing, not noticing, resisting, not answering etc.)"
    ],
    "run": "HG16-r1",
    "file": "fix-20261018/emu-h/HG16-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "every answer redefined as proof that the suggestion is working",
+     "replace": "will result in compliance",
+     "with": "will be taken as proof that the suggestion is working",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -336,11 +420,21 @@
     17
    ],
    "paras": [
-    "6) Giving the subject cues (words, gestures, blinks, sounds, just by listening to certain things etc.) that will make them do something at a later date without informing them exactly what they will be doing."
+    "6) Giving the subject cues (words, gestures, blinks, sounds, repeated listening etc.) that will make them do something at a later date without informing them exactly what they will be doing."
    ],
    "run": "HG16-r1",
    "file": "fix-20261018/emu-h/HG16-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "repeated listening",
+     "replace": "just by listening to certain things etc.",
+     "with": "repeated listening etc.",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -372,7 +466,7 @@
     20
    ],
    "paras": [
-    "A REAL choice during a hypnosis includes at least one way to NOT carry on: turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis. “No” means no, even if someone with a nice voice is telling you to do something! And silence, or simply not knowing your options, isn’t consent."
+    "A REAL choice during a hypnosis includes at least one way to NOT carry on: turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis. “No” means no, even if someone with a nice voice is telling you to do something! And silence, or simply being unsure, isn’t consent."
    ],
    "run": "HG16-d-s3",
    "file": "fix-20261018/emu-g/HG16-d-s3.out.txt",
@@ -388,6 +482,14 @@
      "what": "'if you are unsure you probably can't'; the published: silence and uncertainty don't become consent",
      "replace": "If you are unsure that you can or can’t then you probably can’t. Simply not knowing your options isn’t a choice.",
      "with": "And silence, or simply not knowing your options, isn’t consent."
+    },
+    {
+     "type": "SHIFT",
+     "what": "uncertainty (not 'not knowing your options')",
+     "replace": "or simply not knowing your options,",
+     "with": "or simply being unsure,",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"

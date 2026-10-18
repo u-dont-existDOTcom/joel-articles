@@ -99,9 +99,11 @@ def lookup(fix_dir, key, was_paras, new_paras, _cache={}):
         _cache[fix_dir] = reads(fix_dir)
     keep = lambda ps: [p for p in ps if R.march_paragraphs(p)]
     w, n = keep(was_paras), keep(new_paras)
+    if not w and not n:  # nothing the march reader labels (a heading-like line, a one-line question): nothing to read
+        return '-', [], []
     for folder, got_by in reversed(_cache[fix_dir]):
-        a, b = got_by.get((key, 'was')), got_by.get((key, 'new'))
-        if a and b and a[0] == w and b[0] == n and all(a[1]) and all(b[1]):
+        a, b = got_by.get((key, 'was'), ([], [])), got_by.get((key, 'new'), ([], []))
+        if (a[0] or b[0]) and a[0] == w and b[0] == n and all(a[1]) and all(b[1]):
             return folder, a[1], b[1]
     return None
 

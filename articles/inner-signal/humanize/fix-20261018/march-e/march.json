@@ -1,0 +1,474 @@
+{
+ "HG11-B1": {
+  "was": [
+   "B S"
+  ],
+  "new": [
+   "B S"
+  ]
+ },
+ "HG11-B3": {
+  "was": [
+   "S S S S S S"
+  ],
+  "new": [
+   "S S S S S S"
+  ]
+ },
+ "HG11-B4": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG11-B5": {
+  "was": [
+   "B"
+  ],
+  "new": [
+   "B S"
+  ]
+ },
+ "HG01-B2": {
+  "was": [
+   "S S S S S S"
+  ],
+  "new": [
+   "S S S S S"
+  ]
+ },
+ "HG15-B1": {
+  "was": [
+   "S S S S S S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S S",
+   "S S S S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S S S S S",
+   "S S S S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S"
+  ],
+  "new": [
+   "S S S S S S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S B",
+   "S S",
+   "S S B S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S S S S",
+   "S S S S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S B"
+  ]
+ },
+ "HG19-B1": {
+  "was": [
+   "S S S S",
+   "S",
+   "S",
+   "S",
+   "S S B",
+   "S",
+   "B",
+   "S"
+  ],
+  "new": [
+   "S S S S",
+   "S S",
+   "S",
+   "S",
+   "S S B",
+   "S",
+   "B",
+   "S"
+  ]
+ },
+ "HG23-B1": {
+  "was": [
+   "S S",
+   "S S",
+   "S",
+   "S S S",
+   "S S S S S",
+   "S S S S S",
+   "S S S S S",
+   "S"
+  ],
+  "new": [
+   "S S S",
+   "S S",
+   "S",
+   "S S S",
+   "S S S S S",
+   "S S S S S S",
+   "S S S S",
+   "S S S"
+  ]
+ },
+ "HG26-B6": {
+  "was": [
+   "S S B S"
+  ],
+  "new": [
+   "S S B S S"
+  ]
+ },
+ "HG26-B8": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG26-B9": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG34-B1": {
+  "was": [
+   "S S S S S",
+   "S S S S S S",
+   "B S",
+   "S",
+   "S S S S S",
+   "S",
+   "S"
+  ],
+  "new": [
+   "S S S S S",
+   "S S S S S S",
+   "B S",
+   "S",
+   "S S S S S",
+   "S",
+   "S"
+  ]
+ },
+ "HG13-B1": {
+  "was": [
+   "S S B",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S S S S S",
+   "S"
+  ],
+  "new": [
+   "S S B",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S S S S S",
+   "S S"
+  ]
+ },
+ "HG13-B16": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG13-B17": {
+  "was": [
+   "S S S S S S S S",
+   "S"
+  ],
+  "new": [
+   "S S S S S S S S",
+   "S"
+  ]
+ },
+ "HG14-B6": {
+  "was": [
+   "S B"
+  ],
+  "new": [
+   "S B"
+  ]
+ },
+ "HG14-B12": {
+  "was": [
+   "S S S S S"
+  ],
+  "new": [
+   "S S S S S"
+  ]
+ },
+ "HG14-B23": {
+  "was": [
+   "S B B B B"
+  ],
+  "new": [
+   "B B B S"
+  ]
+ },
+ "HG14-B25": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG14-B29": {
+  "was": [
+   "S B S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B B",
+   "B B",
+   "B B",
+   "B"
+  ],
+  "new": [
+   "S B S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B B",
+   "B B",
+   "B B",
+   "B"
+  ]
+ },
+ "HG14-B33": {
+  "was": [
+   "S"
+  ],
+  "new": [
+   "S"
+  ]
+ },
+ "HG14-B35": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG14-B38": {
+  "was": [
+   "S S S B"
+  ],
+  "new": [
+   "S S S B"
+  ]
+ },
+ "HG14-B42": {
+  "was": [
+   "B"
+  ],
+  "new": [
+   "B S S"
+  ]
+ },
+ "HG14-B49": {
+  "was": [
+   "S"
+  ],
+  "new": [
+   "S"
+  ]
+ },
+ "HG14-B51": {
+  "was": [
+   "B"
+  ],
+  "new": [
+   "S B S"
+  ]
+ },
+ "HG14-B56": {
+  "was": [],
+  "new": [
+   "S"
+  ]
+ },
+ "HG14-B58": {
+  "was": [
+   "B S B B"
+  ],
+  "new": [
+   "B S B B"
+  ]
+ },
+ "HG14-B60": {
+  "was": [
+   "S B S S"
+  ],
+  "new": [
+   "S B S S"
+  ]
+ },
+ "HG14-B63": {
+  "was": [
+   "B S"
+  ],
+  "new": [
+   "B S"
+  ]
+ },
+ "HG14-B65": {
+  "was": [
+   "S",
+   "S S",
+   "S",
+   "S S",
+   "B",
+   "S",
+   "S",
+   "S B"
+  ],
+  "new": [
+   "S",
+   "S S",
+   "S",
+   "S S",
+   "B S",
+   "S",
+   "B S",
+   "S B"
+  ]
+ },
+ "HG35-B2": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG35-B3": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG35-B5": {
+  "was": [
+   "S S S S B"
+  ],
+  "new": [
+   "S S S S B"
+  ]
+ },
+ "HG35-B6": {
+  "was": [
+   "S S S S S S S S S"
+  ],
+  "new": [
+   "S S S S S S S"
+  ]
+ },
+ "HG35-B9": {
+  "was": [
+   "S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG35-B14": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG35-B15": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG35-B21": {
+  "was": [
+   "S S S S S S S S"
+  ],
+  "new": [
+   "S S S S S S S S"
+  ]
+ },
+ "HG35-B22": {
+  "was": [
+   "S S",
+   "S S"
+  ],
+  "new": [
+   "S S",
+   "S S"
+  ]
+ },
+ "HG27-B1": {
+  "was": [
+   "B B"
+  ],
+  "new": [
+   "B B"
+  ]
+ },
+ "HG27-B2": {
+  "was": [
+   "B"
+  ],
+  "new": [
+   "B"
+  ]
+ }
+}

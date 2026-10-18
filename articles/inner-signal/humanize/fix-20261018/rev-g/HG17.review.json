@@ -1,0 +1,882 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'play asleep' and 'obey anyone' changed to 'go asleep' and 'anything you don't want'",
+    "replace": "a way to make you go asleep, surrender, or do anything you don’t want to do",
+    "with": "something where you have to surrender, play asleep, or obey anyone",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'instead of adding depth' for the already-trancey case",
+    "replace": "and making sure you are contained",
+    "with": "and making sure you are contained instead of adding depth",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the target qualities incl. 'still able to stop', and 'depth is optional'",
+    "replace": "choose as deep a trance as you need:",
+    "with": "choose as deep a trance as you need: focused, warm, receptive, embodied, and still able to stop. Depth is optional.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'only when that helps' for deepening",
+    "replace": "It may also be deepening.",
+    "with": "It may also be deepening, but only when that helps.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the alternatives to counting (conversation, story, movement, repeated sound, curiosity); 'easy' replaces 'one way in'",
+    "replace": "Counting is easy but you can do all sorts of things to gather up attention.",
+    "with": "Counting is one way in, but conversation, story, movement, repeated sound, and curiosity can also gather up attention.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'say so' became 'it's OK to tell'; covert-induction point turned into pretending it's elegant",
+    "replace": "It's OK to tell people when you're doing this rather than pretending it's all very elegant and flowing.",
+    "with": "Say so when you use them; being elegant doesn't excuse a covert induction.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'if the useful response is already happening, build from it'",
+    "replace": "to see if it works.",
+    "with": "to see if it works. If the useful response is already happening, build from it.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the condition: switch when the metaphor stops helping",
+    "replace": "If you do change metaphors do it consciously.",
+    "with": "Switch consciously when the metaphor stops helping.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "qualities borrowed 'from other inductions'; warmth and steadiness examples lost",
+    "replace": "steal qualities from other inductions",
+    "with": "borrow qualities such as warmth or steadiness",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'if that's appropriate to the context' puts a condition on no-response as a signal",
+    "replace": ", if that's appropriate to the context",
+    "with": "",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "verdict": "OK"
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'you don't have to find a problem' lost; worthwhile purposes became 'try to use it for something good'",
+    "replace": "Try to use it for something good (e.g. more love, play, confidence, creativity, communion with life, whatever).",
+    "with": "More love, play, confidence, creativity, communion, whatever, are all worthwhile purposes, and you don't have to find a problem.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the instruction to deal with immediate support instead of exploratory hypnosis",
+    "replace": "unable to look after yourself.",
+    "with": "unable to look after yourself - get immediate support instead of exploratory hypnosis.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 13,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the kinds of encouragement: spacious listening, warm company, firmer invitation to stay with a feeling",
+    "replace": "encouraging, warm, firm, or whatever",
+    "with": "spacious listening, warm company, or a firmer invitation to stay with a feeling",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'know how to change direction, no need to supervise every moment' became 'skill easier, relax effortlessly'",
+    "replace": "Once the skill is easier to apply, you can relax into using it effortlessly.",
+    "with": "Once you know how to change direction, you don’t need to supervise every moment.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'lack of effort produces the maximum benefit' is not in the published text",
+    "replace": "It is the lack of effort that produces the maximum benefit.",
+    "with": "Let a useful response become easier and less effortful.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'a no remains no; silence doesn't authorize adding things' turned into 'you don't have to say anything'",
+    "replace": "Saying no is enough. You don’t have to say anything.",
+    "with": "A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "'your subject' invented; published is the response you got versus what the script expected",
+    "replace": "from what your subject is responding to, not what you intended",
+    "with": "from the response you got, not the response the script expected",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "examples: a thought, sound, movement or objection may change where the practice goes",
+    "replace": "whatever happens can be developed.",
+    "with": "whatever actually happens can be worked with: a thought, sound, movement, or objection may change where the practice goes.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'keep safety and exit instructions plain' became what the subject needs to know",
+    "replace": "The subject needs to know they are safe and how to leave the experience.",
+    "with": "Keep safety and exit instructions plain.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "WRONG",
+    "what": "Appendix B holds the richer language tools, not safety wording; 'after the induction' lost",
+    "replace": "The language skills that facilitate these are described in Appendix B and used in Let the next response guide you",
+    "with": "Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 17,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the opening phrase is chosen by the reader, not 'the opening phrase for that practice'",
+    "replace": "include the opening phrase for that practice",
+    "with": "choose an opening phrase",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'settle ... somewhere they can rest for a little while'",
+    "replace": "As your eyes look somewhere in the room,",
+    "with": "Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'letting what is already there come into view' became plain 'seeing what is there'",
+    "replace": "seeing what is there",
+    "with": "letting what is already there come into view",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "sentence breaks off at a comma; 'may reach you ... without needing you to arrange either one' lost",
+    "replace": "And as you notice the anchor, perhaps a sound or the feel of the breath,",
+    "with": "And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'whatever you can actually feel'",
+    "replace": "the pressure, the feel of it.",
+    "with": "the pressure, whatever you can actually feel.",
+    "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 20,
+  "verdict": "OK"
+ },
+ {
+  "block": 21,
+  "verdict": "OK"
+ },
+ {
+  "block": 22,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the instruction to let attention stay with one detail long enough to become curious; examples lost",
+    "replace": "perhaps there was something of interest to you in all of this",
+    "with": "you may find one detail that holds your interest, something about the sound, or the contact, or that particular way of listening, and let attention stay with it long enough to become curious",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the person who has begun to speak and hasn't found the words; remaining nearby without finishing their sentence",
+    "replace": "someone dear to you",
+    "with": "someone dear to you who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 24,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'say it as an invitation' lost; 'how it is received' became 'how it is for you'",
+    "replace": "Try a phrase that you choose for yourself to see how it is for you",
+    "with": "Let the phrase you chose come to mind, say it as an invitation, and notice how it is received",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 25,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'let that be a choice you make' and the background room sound staying available while listening deepens",
+    "replace": "as you proceed",
+    "with": "as you proceed. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 26,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'slowly' and 'each number its own moment' lost; instruction softened to 'if you like'",
+    "replace": "If you like, count to yourself, from 5 to 1",
+    "with": "Count slowly from 5 to 1, giving each number its own moment",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 27,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'let attention gather around what you find' became 'notice what you notice'",
+    "replace": "and notice what you notice",
+    "with": "let attention gather around what you find",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'after the words' (where the space is left)",
+    "replace": "leave some space",
+    "with": "leave a little space after the words",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'without preparing an answer' and the final 'Stay here for a moment'",
+    "replace": "and listen, even to the silence, 1",
+    "with": "listen into that space, without preparing an answer, 1, stay here for a moment",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'your chosen concern' became 'what you want to contact'",
+    "replace": "what it is that you want to contact",
+    "with": "your chosen concern",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'let it be present without rehearsing its whole story'",
+    "replace": "stay with the wish to contact.",
+    "with": "stay with the wish to contact. Let it be present without rehearsing its whole story.",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 29,
+  "verdict": "OK"
+ },
+ {
+  "block": 30,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'nothing clear yet' became the stronger 'nothing at all'",
+    "replace": "or nothing at all",
+    "with": "or nothing clear yet",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 31,
+  "verdict": "OK"
+ },
+ {
+  "block": 33,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'stabilize before making it stronger' became 'not to make it stronger'",
+    "replace": "This is to stabilize your state, not to make it stronger.",
+    "with": "This is to stabilize your state before making it stronger.",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'do not need to intensify' turned into 'make it stronger'; 'stabilize it, keep it kind' lost",
+    "replace": "I already have an open state, now I want to aim that open state and make it stronger.",
+    "with": "“The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.”",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "naming where you are and the date (or day), and feeling feet, hands and spine",
+    "replace": "Look around you, orient yourself to where you are, what date it is.",
+    "with": "Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine.",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'gently but firmly' pressing became 'squeezing'",
+    "replace": "squeezing your thumbs against your index fingers",
+    "with": "pressing your thumbs gently but firmly against your index fingers",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "script lost its opening quotation mark, so it reads as narration",
+    "replace": "Now, I will only allow",
+    "with": "“I will only allow",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'Anything too much can wait'",
+    "replace": "go as far as I can integrate.",
+    "with": "go as far as I can integrate. Anything too much can wait.",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'The body may stay safe' became the firmer 'My body will be safe'",
+    "replace": "My body will be safe",
+    "with": "My body may stay safe",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "script lost its closing quotation mark, so it reads as narration",
+    "replace": "doesn't have to do this alone.",
+    "with": "doesn't have to do this alone.”",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'Once you're oriented, choose one intention'; 'Please show me the next useful truth... amount I can live well with'",
+    "replace": "Now, tell me the next thing I need to know, in symbols, feelings, questions, actions, in doses that I can integrate.",
+    "with": "Once you’re oriented, choose one intention: “Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 40,
+  "verdict": "OK"
+ },
+ {
+  "block": 41,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "script line turned into narration; 'I am coming more fully here' became 'you are coming more'",
+    "replace": "Begin by saying to yourself that you are not going to go away in this practice, you are coming more.",
+    "with": "Begin by saying: “I am not going away. I am coming more fully here.”",
+    "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 42,
+  "verdict": "OK"
+ },
+ {
+  "block": 43,
+  "verdict": "OK"
+ },
+ {
+  "block": 44,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the 'if it is guidance... if it is avoidance...' conditions and 'gently'",
+    "replace": "help to take action based on the guidance or to come into the present moment and see what you are escaping from",
+    "with": "help: if it is guidance, to show you the action inside it; if it is avoidance, to bring you gently into the present and show you what you are avoiding",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 45,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'without trying to disappear inward' and 'what remains'",
+    "replace": "in order to notice if there is any residual activity",
+    "with": "in order to notice what remains without trying to disappear inward",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 46,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'gently' in pressing thumb and forefinger together",
+    "replace": "press your thumb and forefinger together and then let go",
+    "with": "press your thumb and forefinger together gently and then let go",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'the first second after the rhythm ends' and where to look: fingers, breath, attention, nowhere",
+    "replace": "notice if there is any residual activity or if it has completely stopped",
+    "with": "notice the first second after the rhythm ends, and whether there is an echo in the fingers, the breath, the attention, or nowhere at all",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'stay upright' lost; 'exactly that level of alertness' became 'a level that is useful to you'",
+    "replace": "Work with a level of alertness that is useful to you.",
+    "with": "Stay upright and work from exactly that level of alertness.",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 48,
+  "verdict": "OK"
+ },
+ {
+  "block": 49,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'vulnerable child' became 'little vulnerable part'; later lines refer to 'the child'",
+    "replace": "little vulnerable part in YOU",
+    "with": "vulnerable child in YOU",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 50,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'gently' in 'Breathe gently'",
+    "replace": "Then breath and affirm",
+    "with": "Then breathe gently and affirm",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 51,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'in the middle' and 'that's ME!' invented for 'Adult present'; the quotation never closes",
+    "replace": "And in the middle, the adult – that’s ME!",
+    "with": "And the adult is present.”",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 52,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'to the child' became 'down'; 'I listen again' lost; script has no quotation marks",
+    "replace": "I send love down and I receive the signal from the child. Then I send love again and receive the signal again.",
+    "with": "“I send love to the child and I receive the child’s signal. Then I send love again and I listen again.”",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 54,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "'on this website' is not in the published text",
+    "replace": " on this website",
+    "with": "",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'revelation can wait' became 'not allow yourself any revelations'",
+    "replace": "it's okay to not do any analyzing or allow yourself any revelations",
+    "with": "analysis can stay off duty and revelation can wait",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 55,
+  "verdict": "OK"
+ },
+ {
+  "block": 57,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'the person' invented; published has you return to ordinary awareness and decide whether to re-enter",
+    "replace": "is when you bring the person back up and send them back down into absorption",
+    "with": "means returning toward ordinary awareness and then deciding whether to enter absorption again",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'name the technique before using it' became telling 'them'",
+    "replace": "(telling them you're doing it)",
+    "with": "(naming the technique before you use it)",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'trance has a door in both directions' became 'they can always get out of trance'",
+    "replace": "it teaches the person that they can always get out of trance",
+    "with": "it teaches that trance has a door in both directions",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'every answer cannot secretly mean deeper' became a point about which questions get that answer",
+    "replace": "Not all questions should have the answer \"deeper.\"",
+    "with": "Every answer cannot secretly mean \"deeper.\"",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 58,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'return toward ordinary awareness' became 'all the way back up'; 'Feel the room' lost; 'when you're ready' added",
+    "replace": "When you're ready, open your eyes and bring yourself all the way back up.",
+    "with": "Open your eyes and return toward ordinary awareness. Feel the room.",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'notice what changes as attention gathers' became 'send yourself back down'; 'stop at either point' lost",
+    "replace": ", or you can close/soften your eyes and send yourself back down into absorption again.",
+    "with": ". If you choose to continue, close or soften your eyes and notice what changes as attention gathers again. You may stop at either point.",
+    "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 60,
+  "verdict": "OK"
+ },
+ {
+  "block": 61,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'a chair where the adult waits'",
+    "replace": "sitting in a chair",
+    "with": "a chair where the adult waits",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'One scene is plenty' hardened into a prohibition",
+    "replace": "Don't do more than one of these.",
+    "with": "One of these is plenty.",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 62,
+  "verdict": "OK"
+ },
+ {
+  "block": 64,
+  "verdict": "OK"
+ },
+ {
+  "block": 65,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'If it is useful... may let' became 'when it knows... can make'",
+    "replace": "When my wise subconscious knows that I am at the meeting space inside myself that it wants to talk to me at, it can make one of my fingers",
+    "with": "If it is useful, my wise subconscious may let one of my fingers",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'when the inner meeting space is ready' became 'if it wants to'",
+    "replace": ", if it wants to",
+    "with": " when the inner meeting space is ready",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 66,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'wait with love and notice' became waiting for it to happen, which presumes it will",
+    "replace": "wait with love for it to happen",
+    "with": "wait with love and notice",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 67,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'none proves truth; at most, something may be listening' became 'does mean that something is listening to you'",
+    "replace": "it doesn't necessarily mean that it's real, but it does mean that something is listening to you",
+    "with": "none of it proves truth; at most, something may be listening",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 69,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "'full return below' became 'all the way back down induction'; 'on this website' not in published text",
+    "replace": "some of the inductions on this website and also the bringing yourself all the way back down induction",
+    "with": "a useful induction and also the full return below",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'That's his experience, not a recommendation to enter trance at the wheel'",
+    "replace": "so don't use",
+    "with": "but that's his experience, not a recommendation to enter trance at the wheel. So don't use",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 70,
+  "verdict": "OK"
+ },
+ {
+  "block": 71,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'I can return to this familiar way of listening' became the firmer 'you will find yourself in that state'",
+    "replace": "then you will find yourself in that familiar and welcome state",
+    "with": "then you can return to this familiar way of listening",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 72,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "the instruction 'Return fully' is run into the next sentence like a heading",
+    "replace": "Return Fully When",
+    "with": "Return fully. When",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'Give it time'",
+    "replace": "use your short cut.",
+    "with": "use your short cut. Give it time.",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 73,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'changing direction and returning workable' became 'change your mind about it and get back'",
+    "replace": "change your mind about it and get back when you want to",
+    "with": "change direction and return when you want to",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'obedience to a narrator, notification, or overheard word'; the rewrite's 'hear it overheard' is garbled",
+    "replace": "It shouldn't mean you'll do anything you're told, anytime someone tells you, or even if you hear it overheard.",
+    "with": "It shouldn't become obedience to a narrator, notification, or overheard word.",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'faster entry doesn't determine what material you can handle' became 'shouldn't limit what you can work with'",
+    "replace": "Being able to go in faster should not limit what you can work with.",
+    "with": "Going in faster doesn't determine what material you can handle.",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 74,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'Never train, test, or use' softened to 'not a good idea to do it'",
+    "replace": "It's not a good idea to do it while driving",
+    "with": "Never train, test, or use hypnotic re-entry while driving",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 75,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'state your decision while awake'; a cancellation sentence does not prove the association vanished instantly",
+    "replace": "say you're done using it.",
+    "with": "say you're done using it while awake - a cancellation sentence doesn't prove the association vanished instantly.",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "'keep you out of line today' is unclear; published says today's altered state ends with the return",
+    "replace": ", it shouldn't keep you out of line today",
+    "with": "; today’s altered state ends with the return",
+    "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+   }
+  ]
+ }
+]

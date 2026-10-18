@@ -1,0 +1,2170 @@
+{
+ "key": "HG31",
+ "emu_dirs": [
+  "fix-20261018/emu-e",
+  "fix-20261018/emu-f",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h",
+  "fix-20261018/emu-i",
+  "fix-20261018/emu-j",
+  "fix-20261018/emu-k"
+ ],
+ "skip": [
+  "emu-g/HG31-r1-s4",
+  "emu-g/HG31-r1-s5",
+  "emu-g/HG31-r1-s7",
+  "emu-g/HG31-r1-s8"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix B: NLP without turning yourself into a sales seminar"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "You don’t have to know the terms to practice the core method. If you want to brush up on the art of imagery, how imagery is linked to bodily states, how to effectively rehearse new behaviors, how to choose more effective sentences to say to yourself, etc., then you might want to read this appendix. NLP is useful when it helps the system listen, but it’s easy to turn it into a bag of tricks and forget that love, truth, contact, and consent are essential."
+   ],
+   "run": "HG31-r1-s1",
+   "file": "fix-20261018/emu-e/HG31-r1-s1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "bag of tricks now caused by not knowing NLP; 'useful when it helps the system listen' lost",
+     "replace": "If you don’t know a little bit about NLP, it’s easy to turn NLP into a bag of tricks and forget that",
+     "with": "NLP is useful when it helps the system listen, but it’s easy to turn it into a bag of tricks and forget that",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'core method' became 'the system', clashing with 'helps the system listen'",
+     "replace": "to use the system",
+     "with": "to practice the core method",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "The four NLP layers"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "When it works, it works on a Sensory Level of NLP: changing where people see or hear an image, the distance or size or brightness, the volume of a sound, posture, pressure."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'a remembered person' and 'an unpleasant sensation' are examples the published list (posture, pressure) doesn't give",
+     "replace": "the posture of a remembered person, the pressure of an unpleasant sensation",
+     "with": "posture, pressure",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Second, it works on a State Level of NLP: helping them to access warmth, or a feeling of adult-ness, or courage, or steadiness, or love, or clarity."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Third, it works on a Strategy level of NLP: helping people to practice a better response: when this cue appears, the adult does this."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the example 'when this cue appears, the adult does this'; 'a better response' became 'a new strategy'",
+     "replace": "practice a new strategy",
+     "with": "practice a better response: when this cue appears, the adult does this",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Fourth, it works on a Language Level of NLP: pacing what is already true, opening up people’s awareness, presuming their ability to do something safe, linking cause and effect carefully, embedding invitations, or asking de-hypnotic questions to break the effects of vague, absolutes, manipulative, or grandiose language."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'what is already true' became 'what is there'",
+     "replace": "pacing what is there",
+     "with": "pacing what is already true",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'link cause and effect carefully' became 'in new ways'",
+     "replace": "linking cause and effect in new ways",
+     "with": "linking cause and effect carefully",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'embed invitations' became 'embedding suggestions'",
+     "replace": "embedding suggestions",
+     "with": "embedding invitations",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "The Milton Model, minus the covert sales seminar"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "It's called the Milton Model and has to do with the architecture of the sentence. When I say \"Relax now\", or \"Stop being anxious\", or even \"Trust me\" a part of me often braces against it."
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'often make a part brace' became a flat statement that a part braces",
+     "replace": "a part of me braces against it",
+     "with": "a part of me often braces against it",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "The idea is to use indirect language to get past the part that wants to argue with me without having to overpower it, and get to the place I want to go to."
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'without having to overpower it'",
+     "replace": "argue with me, and",
+     "with": "argue with me without having to overpower it, and",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "To do that, I start with something I know to be true, and I take the pressure off by presuming only a small safe capacity in the person and invite just one movement:"
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'only a small safe capacity' became 'the least possible capacity'; 'safe' lost",
+     "replace": "the least possible capacity",
+     "with": "only a small safe capacity",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "\"As the body notices the bed beneath it, it may become a little easier to stop holding the whole day alone.\""
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "That way I pace reality, I open up awareness, I validate the function of what I'm doing, I presuppose capacity, I use a bridge to make the link easier, I invite only one small movement, and I have a way of testing with the body if it's happening."
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'Presuppose capacity' became presupposing 'the capacity to do what I want'",
+     "replace": "the capacity to do what I want",
+     "with": "capacity",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Pattern 1: Pacing and leading — truth before suggestion"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "What is it looks like to pace and lead? It means stating what is already true before inviting anything new."
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the definition: pacing and leading means stating what is already true before inviting anything new",
+     "replace": "to pace and lead?",
+     "with": "to pace and lead? It means stating what is already true before inviting anything new.",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Here is an example of pacing and leading for anxiety: “Anxiety is here. The body is activated. A protector is trying to help. And one breath at a time, the adult can start to listen.”"
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the example script itself: anxiety, body activated, protector helping, adult can start to listen",
+     "replace": "for anxiety:",
+     "with": "for anxiety: “Anxiety is here. The body is activated. A protector is trying to help. And one breath at a time, the adult can start to listen.”",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "It can be as simple as: Truth, Invite, Truth, Invite etc."
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "“It is completely true that the sensation of _______ (or emotion of _____) is coming up for me right now. It makes complete sense that a part of me is trying to protect me by doing/thinking ________. While that is completely true, another completely true thing is that there is a part of me that is adult, and that is breathing in this room right now, and is willing to listen to whatever comes up next.”"
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'to whatever comes up next' (and the closing quotation mark)",
+     "replace": "and is willing to listen.",
+     "with": "and is willing to listen to whatever comes up next.”",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "Pattern 2: Awareness verbs"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "Try some of the other ‘awareness’ verbs, which point attention without yelling at it: notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider"
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-j/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'point attention without yelling at it', the verbs' defining quality",
+     "replace": "verbs:",
+     "with": "verbs, which point attention without yelling at it:",
+     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "“Notice whether the answer comes as an image, a word, a pressure, a warmth, a silence, or a next action.”"
+   ],
+   "run": "HG31-r1-s5",
+   "file": "fix-20261018/emu-e/HG31-r1-s5.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "Emulate's output loops on prepositions and never says what to notice; the published script line instead (Joel's words)",
+     "replace": "• Notice how that answer comes for/ to/ within/ for/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ beyond/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within/ for/ to/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ among/ under/ over/ above/ below/ between/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/",
+     "with": "“Notice whether the answer comes as an image, a word, a pressure, a warmth, a silence, or a next action.”",
+     "from": "me (the part reviewer marked it redo)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "Pattern 3: Presuppositions"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "Caution: The powerful technique of presupposition (embedding a statement as if it were true) should be used only to presume choice, when it will occur, ability, not doing something unsafe, love, and adult leadership. Never use presupposition to smuggle in obedience."
+   ],
+   "run": "HG31-r1-h1",
+   "file": "fix-20261018/emu-f/HG31-r1-h1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'only' became 'best used'; limit on what to presume softened",
+     "replace": "is best used in the positive key of assuming",
+     "with": "should be used only to presume",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'adult leadership' became 'being adult', and 'etc.' opens the closed list",
+     "replace": "being adult, etc.",
+     "with": "and adult leadership.",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'the other person' is not in the published; it says don't smuggle in obedience",
+     "replace": "imply that the other person must obey",
+     "with": "smuggle in obedience",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "“Before any part has to change, it can first become more understood.”"
+   ],
+   "run": "HG31-r1-h1",
+   "file": "fix-20261018/emu-f/HG31-r1-h1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "script changed: 'any part', 'has to change' and 'can first' lost; 'always' added",
+     "replace": "It is always the case that one can better understand something prior to changing it.",
+     "with": "Before any part has to change, it can first become more understood.",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "Pattern 4: Gentle cause-effect bridges"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    25
+   ],
+   "paras": [
+    "Be careful with how language link events. Words like “as, while, because, when, after, before, which means” etc are all words that can be used to link events. A gentle voice doesn’t make a false causal claim true."
+   ],
+   "run": "HG31-r1-s7",
+   "file": "fix-20261018/emu-e/HG31-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the caution 'A gentle voice doesn’t make a false causal claim true.'",
+     "replace": "that can be used to link events.",
+     "with": "that can be used to link events. A gentle voice doesn’t make a false causal claim true.",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    26
+   ],
+   "paras": [
+    "In general, the problem with the first example (“Because I breathe, the trauma leaves.”) is that it’s likely to be inaccurate. It’s unlikely that simply breathing will get rid of the trauma. So while the intention is good, the phrasing is a bit strong. The second example is better because it’s more accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”"
+   ],
+   "run": "HG31-r1-s7",
+   "file": "fix-20261018/emu-e/HG31-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the first example script: 'Because I breathe, the trauma leaves.'",
+     "replace": "the problem with the first example is that",
+     "with": "the problem with the first example (“Because I breathe, the trauma leaves.”) is that",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the second example script, which is also turned into a bigger claim about helping the wound",
+     "replace": "accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself.",
+     "with": "accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "Pattern 5: Embedded invitations"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28
+   ],
+   "paras": [
+    "What are embedded invitations, and how to use them? An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand."
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the definition and the caution: a small direction inside a larger sentence; invite, not hide a demand",
+     "replace": "how to use them",
+     "with": "how to use them? An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    29
+   ],
+   "paras": [
+    "Here is an example of an embedded invitation: “And somewhere inside this breath, I can let the adult self listen.”"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the script line 'And somewhere inside this breath, I can let the adult self listen.'",
+     "replace": "an embedded invitation:",
+     "with": "an embedded invitation: “And somewhere inside this breath, I can let the adult self listen.”",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    30
+   ],
+   "paras": [
+    "Here’s another example of an embedded invitation: “As I sit here, I may allow one small truth to become clear.”"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the script line 'As I sit here, I may allow one small truth to become clear.'",
+     "replace": "an embedded invitation:",
+     "with": "an embedded invitation: “As I sit here, I may allow one small truth to become clear.”",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "And yet another embedded invitation for working with inner child parts: “The child does not have to trust me all at once; it can simply notice I am still here.”"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the script line about the child not having to trust me all at once",
+     "replace": "inner child parts:",
+     "with": "inner child parts: “The child does not have to trust me all at once; it can simply notice I am still here.”",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Use one when it helps. Of course, don’t use ten embedded invitations one after the other, or people will know that’ve just completed a weekend certification course!"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the instruction 'Use one when it helps.'",
+     "replace": "Of course,",
+     "with": "Use one when it helps. Of course,",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    33
+   ],
+   "paras": [
+    "Pattern 6: Ethical double binds"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    34,
+    35
+   ],
+   "paras": [
+    "Manipulative double bind questions trap every answer inside the speaker’s agenda.",
+    "Ethical double bind questions offer two genuinely safe routes:",
+    "“Would this part prefer warmth first, or space first?”"
+   ],
+   "run": "HG31-r1-h2",
+   "file": "fix-20261018/emu-f/HG31-r1-h2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "what a manipulative double bind is: it traps every answer inside the speaker’s agenda",
+     "replace": "Manipulative double bind questions:",
+     "with": "Manipulative double bind questions trap every answer inside the speaker’s agenda.",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "what an ethical one is: it offers two genuinely safe routes",
+     "replace": "Ethical double bind questions:",
+     "with": "Ethical double bind questions offer two genuinely safe routes:",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "script asks what the part would prefer, warmth first or space first, not what approach is best",
+     "replace": "What would be the best approach to this part, to warm it up or give it space?",
+     "with": "Would this part prefer warmth first, or space first?",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    36
+   ],
+   "paras": [
+    "Pattern 7: Conversational postulates"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    37,
+    38
+   ],
+   "paras": [
+    "Example of a postulate, a question whose ordinary conversational form also acts as an invitation:",
+    "“Can the system show me the next step without showing me the whole wound?”"
+   ],
+   "run": "HG31-r1-h2",
+   "file": "fix-20261018/emu-f/HG31-r1-h2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "that these questions' ordinary conversational form also acts as an invitation",
+     "replace": "postulate in the form of a question:",
+     "with": "postulate, a question whose ordinary conversational form also acts as an invitation:",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "script changed: 'the next step' and 'the whole wound' became 'what it wants to show' and 'everything'",
+     "replace": "Isn’t it possible that the system can find a way to show me what it wants to show without showing me everything?",
+     "with": "Can the system show me the next step without showing me the whole wound?",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    39
+   ],
+   "paras": [
+    "Pattern 8: Tag questions"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    40
+   ],
+   "paras": [
+    "In the same way, tag questions (“isn’t it”, “can’t it”, “doesn’t it”, etc) can be very useful to soften a sentence. But they get oily really fast, so use them sparingly."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-k/HG31-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    41
+   ],
+   "paras": [
+    "“The body already knows something about resting, doesn’t it?”"
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-k/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "tag question about 'something about resting' became 'how to do this' with no referent; quotes lost",
+     "replace": "Doesn’t the body already know how to do this?",
+     "with": "“The body already knows something about resting, doesn’t it?”",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    42
+   ],
+   "paras": [
+    "Pattern 9: Nominalizations"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    43
+   ],
+   "paras": [
+    "Nominalizations turn processes into nouns, words like healing, safety, trust, integration, communion, clarity, rest, and so on. Their vagueness can sometimes help, because then the subconscious fills in the blank with its own concrete meaning."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-k/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the definition: nominalizations turn processes into nouns",
+     "replace": "Nominalizations are words like",
+     "with": "Nominalizations turn processes into nouns, words like",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'their vagueness' (the nominalizations') became vague language in general",
+     "replace": "Sometimes it’s good to use vague language",
+     "with": "Their vagueness can sometimes help",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'most appropriate' is new; the subconscious supplies its own concrete meaning",
+     "replace": "whatever is most appropriate and specific for that person",
+     "with": "its own concrete meaning",
+     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    44
+   ],
+   "paras": [
+    "“A little more safety can arrive in whatever way the body understands.”"
+   ],
+   "run": "HG31-r2",
+   "file": "fix-20261018/emu-j/HG31-r2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "gentle 'can arrive' became a pushy 'Why don't YOU... now' question; 'the body understands' lost; quotes lost",
+     "replace": "Why don't YOU let yourself become a bit safer now, in whatever way is most appropriate for YOUR body?",
+     "with": "“A little more safety can arrive in whatever way the body understands.”",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    45
+   ],
+   "paras": [
+    "Pattern 10: Meta Model questions — the de-hypnosis tool"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    46
+   ],
+   "paras": [
+    "To ‘Milton Model’ is to open things up. To ‘Meta Model’ is to ask “What do yo mean by that?” In order to be truly effective (and ethical) with people, it is necessary to do both."
+   ],
+   "run": "HG31-r1-s13",
+   "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    47
+   ],
+   "paras": [
+    "“How specifically? According to who? ‘Good’ compared to what? ‘Always’? ‘Never’? What specifically would happen? How do I know? What evidence would change my mind?”"
+   ],
+   "run": "HG31-r1-s13",
+   "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'How specifically?' became 'What do yo mean Specifically?'",
+     "replace": "What do yo mean ‘Specifically’?",
+     "with": "How specifically?",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "self-questions 'How do I know?' and 'What evidence would change my mind?' turned into questions to someone else",
+     "replace": "How do yo know? What would constitute proof for ya?",
+     "with": "How do I know? What evidence would change my mind?",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    48
+   ],
+   "paras": [
+    "If it feels like the body is stiffening up, ‘Milton’ it. If it feels like truth is eluding ya, ‘Meta’ it."
+   ],
+   "run": "HG31-r1-s13",
+   "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'in session' is not in the published",
+     "replace": "If, in session, it feels like",
+     "with": "If it feels like",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    49
+   ],
+   "paras": [
+    "Sensory, state, and strategy tools"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    50
+   ],
+   "paras": [
+    "Submodalities — editing the form, not denying the truth"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    51
+   ],
+   "paras": [
+    "If your fear, craving, fantasy, belief or memory has any sensory properties (it looks or sounds near or far, bright or dim, loud or quiet, or it moves, is heavy, is inside or outside your body etc) then you can work with the properties you actually notice. If none are apparent then don't try to force it, just skip this tool rather than inventing an image or voice."
+   ],
+   "run": "HG31-r1-s14",
+   "file": "fix-20261018/emu-g/HG31-r1-s14.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "the tool is Submodalities (named in the heading); 'Pattern Disruption tool' is invented",
+     "replace": "Pattern Disruption tool: Properties If your",
+     "with": "If your",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'qualities you actually notice'",
+     "replace": "then you can work with its properties",
+     "with": "then you can work with the properties you actually notice",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'If none are apparent' became 'doesn't have any properties'",
+     "replace": "If it doesn't have any properties",
+     "with": "If none are apparent",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'rather than inventing an image or voice'",
+     "replace": "just skip this tool.",
+     "with": "just skip this tool rather than inventing an image or voice.",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    52
+   ],
+   "paras": [
+    "Ask yourself how the experience is represented. What changes when the image moves two feet back, the voice gets quieter, or the edge becomes less sharp?"
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'Ask how the experience is represented' became 'things to ask when representing something'",
+     "replace": "Things to ask yourself when representing something.",
+     "with": "Ask yourself how the experience is represented.",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the examples: image two feet back, voice quieter, edge less sharp; 'what changes' became 'did something else'",
+     "replace": "What would happen if you did something else.",
+     "with": "What changes when the image moves two feet back, the voice gets quieter, or the edge becomes less sharp?",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    53
+   ],
+   "paras": [
+    "\"I am not deleting the signal, just adjusting the volume so I can listen without being overwhelmed.\""
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'so I can listen without being overwhelmed'; 'the signal' became 'it'",
+     "replace": "deleting it just adjusting the volume.",
+     "with": "deleting the signal, just adjusting the volume so I can listen without being overwhelmed.",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    54
+   ],
+   "paras": [
+    "Before you move one imaginary pixel, ask your guard if it is ok to do this."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "asking the guard comes before moving one imaginary pixel; the order is blurred",
+     "replace": "Before you do anything imagine moving a pixel and ask your guard",
+     "with": "Before you move one imaginary pixel, ask your guard",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    55
+   ],
+   "paras": [
+    "\"Would it be okay if we moved this image back just a little, or lowered the volume slightly, purely so my adult self can stay present enough to hear what you need to tell me?\""
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "tentative joint request ('we', just a little, slightly, purely so) became a bigger unilateral one",
+     "replace": "Is it ok that I move the image back two feet, quiet the voice down, make the edges less sharp so that I can do this, the adult me, to hear what you have got to say?",
+     "with": "Would it be okay if we moved this image back just a little, or lowered the volume slightly, purely so my adult self can stay present enough to hear what you need to tell me?",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    56
+   ],
+   "paras": [
+    "Anchoring — giving the body a doorway back"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    57
+   ],
+   "paras": [
+    "An anchor is a cue connected to a state. There are lots of ways to anchor something. Put your hand on your heart, touch two fingers together, use a breath, a word, body posture, smell, song, anything. Feel something that you have got to in reality that you want to get back to easily. As you feel it do the anchor thing and say to yourself, “This is available.” Make sure you do it when you have clearly got it. To get back into a hypnotic state easily don't go for a peak emotional state but find a good receptive state that you can use. See the main induction section on a shortcut back into hypnosis. Make sure that this is separate from the alert calming and the synchronicity wake up cue."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the definition: an anchor is a cue connected to a state",
+     "replace": "There are lots of ways to anchor something.",
+     "with": "An anchor is a cue connected to a state. There are lots of ways to anchor something.",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the phrase to say: 'This is available.'",
+     "replace": "say to yourself that this is what you are anchoring and it is available to you.",
+     "with": "say to yourself, “This is available.”",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'alert calming' and 'the synchronicity wake-up cue' are two named cues, not a list of three",
+     "replace": "the alert, calming, synchronicity wake up thing.",
+     "with": "the alert calming and the synchronicity wake up cue.",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    58
+   ],
+   "paras": [
+    "Using synchronicity as your own wake-up bell"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64
+   ],
+   "paras": [
+    "Sometimes when people notice a synchronicity they ask straight away what it means. Sometimes it does give them a very good insight, sometimes it gives them a reason to start obsessing and look for patterns in everything. I am using noticing a synchronicity in a different way. I am using it as a signal to WAKE UP. The coincidence doesn’t have to contain a message; it has already caught my attention, and that’s enough.",
+    "It is my cue to:",
+    "Whenever I notice a synchronicity, I use it to wake up in whatever state I am in at that moment, feel my body and the room I am in, remember that the coincidence is not proof of an interpretation, let my attention widen beyond the story my current mood is telling, ask what is fact, what is interpretation, what needs warmth, what needs protection and what needs action, and go to the highest state I can where I can objectively and clearly see the situation I am in from the highest possible perspective, feeling my body and being still within the human reality. From this place I feel whatever feelings, search for the truth of the situation, and if I am in a negative state, I check if there is a message of my Inner Child, Protector, if I need to go through some grieving, if there is a message of my physical body about some problem that needs solving, or if there is a need for me to take some action in this situation. From this place of clarity and peace I am free to choose what to do next and usually I can do at least one thing that comes from a loving place. I make room for whatever is genuinely there, like clarity, peace, freedom, joy and gratitude, without having to manufacture any of it.",
+    "In short it is my cue to: Stop-orient-go wider-reality check-listen-do at least one thing from a loving place.",
+    "It enables me to not get into identification, but still hear the message of the state if it is a negative one."
+   ],
+   "run": "HG31-r1-s16",
+   "file": "fix-20261018/emu-e/HG31-r1-s16.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'my clients'; people notice a synchronicity and ask straight away",
+     "replace": "Sometimes when my clients notice a synchronicity they are asking straight way what it means.",
+     "with": "Sometimes when people notice a synchronicity they ask straight away what it means.",
+     "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+    },
+    {
+     "type": "LOST",
+     "what": "the coincidence doesn't have to contain a message; it has already caught attention, which is enough",
+     "replace": "I am using it as a signal to WAKE UP.",
+     "with": "I am using it as a signal to WAKE UP. The coincidence doesn’t have to contain a message; it has already caught my attention, and that’s enough.",
+     "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+    },
+    {
+     "type": "LOST",
+     "what": "the cue's steps: the coincidence is not proof of an interpretation; widen beyond the mood's story; fact, interpretation, warmth, protection, action",
+     "replace": "feel my body, the room I am in and go to the highest state I can",
+     "with": "feel my body and the room I am in, remember that the coincidence is not proof of an interpretation, let my attention widen beyond the story my current mood is telling, ask what is fact, what is interpretation, what needs warmth, what needs protection and what needs action, and go to the highest state I can",
+     "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "make room for what is genuinely available, without manufacturing it (not 'I am free and joyful and grateful')",
+     "replace": "In this state I am also free and joyful and I feel grateful.",
+     "with": "I make room for whatever is genuinely there, like clarity, peace, freedom, joy and gratitude, without having to manufacture any of it.",
+     "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    65
+   ],
+   "paras": [
+    "Installing the synchronicity cue"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    66
+   ],
+   "paras": [
+    "Mentally rehearse: imagine noticing an ordinary, harmless synchronicity,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "published has you imagine an ordinary, harmless synchronicity; here it is the next one, harmless or not",
+     "replace": "when next synchronicity noticed (even harmless ones count),",
+     "with": "imagine noticing an ordinary, harmless synchronicity,",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    67
+   ],
+   "paras": [
+    "feel 'whoa' as attention stimulated,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    68
+   ],
+   "paras": [
+    "feel feet/body/breath/room to stimulate re-embodiment,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    69
+   ],
+   "paras": [
+    "reiterate to yourself \"when I notice synchronicity, it is a bell to wake me up, not proof of a message\","
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'not proof of a message' became 'not a message to heed'",
+     "replace": "not a message to heed",
+     "with": "not proof of a message",
+     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    70
+   ],
+   "paras": [
+    "ask Nurturer/Protector/Leader their thoughts,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'optionally' turns the instruction to ask into a choice",
+     "replace": "optionally ask",
+     "with": "ask",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    71
+   ],
+   "paras": [
+    "rehearse further steps to get a more grounded and wide view,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    72
+   ],
+   "paras": [
+    "rehearse one small action to take, and finally rehearse waking completely,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'one small action' became 'what additional action'",
+     "replace": "what additional action to take",
+     "with": "one small action to take",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    73
+   ],
+   "paras": [
+    "Mind the caveats : it must be self-authored, visible, reversible, and restricted to just helping orientation. It must not authorize a decision, prove an intuition, suppress a warning, or let another person control the response."
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'visible' became 'obviously under control'",
+     "replace": "obviously under control",
+     "with": "visible",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "cue can't authorize a decision, prove an intuition or suppress a warning; here vaguer, and 'warning' lost",
+     "replace": "be used for decision-making, intuition, inhibition, or otherwise be under someone else's control.",
+     "with": "authorize a decision, prove an intuition, suppress a warning, or let another person control the response.",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    74
+   ],
+   "paras": [
+    "This is a kind of implementation intention , an advance “if X, then Y” plan that links a recognizable cue with a chosen response, for which the general mechanism is supported (a good starting point is this paper by Gollwitzer ). Note that this specific application of implementation intentions hasn't been studied directly."
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the definition: an advance 'if X, then Y' plan linking a cue to a chosen response",
+     "replace": "implementation intention , for which",
+     "with": "implementation intention , an advance “if X, then Y” plan that links a recognizable cue with a chosen response, for which",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the paper supports the general mechanism; 'evidence of efficacy' claims more",
+     "replace": "there is evidence of efficacy",
+     "with": "the general mechanism is supported",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'hasn't been studied directly' became 'probably hasn't been studied'",
+     "replace": "probably hasn't been studied",
+     "with": "hasn't been studied directly",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    75
+   ],
+   "paras": [
+    "Synchronicity cues run the risk of creating false positives because you are creating an association in your mind by rehearsing it (this is the same mechanism by which synchronicity cues work), and when you are absorbed and/or destabilized, your mind may look for that pattern and interpret it as present when it may not actually be. Research has shown that people that score highly on apophenia (the tendency to perceive meaningful patterns where none exists) also score highly on false positives for patterns that are not present, and also score highly on traits on the psychosis spectrum, although ordinary pattern noticing is not itself pathological (Blain et al., Grant et al.)."
+   ],
+   "run": "HG31-r1-s18",
+   "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'like any cue' is new; the risk is about rehearsing synchronicity as a cue",
+     "replace": "Synchronicity cues, like any cue, run the risk",
+     "with": "Synchronicity cues run the risk",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the caveat that ordinary pattern noticing is not itself pathological",
+     "replace": "traits on the psychosis spectrum (Blain et al., Grant et al.).",
+     "with": "traits on the psychosis spectrum, although ordinary pattern noticing is not itself pathological (Blain et al., Grant et al.).",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    76
+   ],
+   "paras": [
+    "If you feel that synchronicity cues are creating false positives or making any of these worse (you find yourself compelled to scan your environment for them, you are unable to sleep, you are anxious, you feel that random events are occurring to communicate something to you specifically, you have difficulty distinguishing observation from interpretation, etc.), you should deactivate them."
+   ],
+   "run": "HG31-r1-s18",
+   "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "sleeplessness, anxiety etc. are triggers if the cue increases them, not only signs of false positives",
+     "replace": "are creating false positives (",
+     "with": "are creating false positives or making any of these worse (",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'difficulty distinguishing observation from interpretation' became 'unable to tell if they are real'",
+     "replace": "you find yourself unable to tell if they are real or not",
+     "with": "you have difficulty distinguishing observation from interpretation",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    77
+   ],
+   "paras": [
+    "You can do this by simply ceasing to rehearse them, and saying, while fully awake, “Synchronicity is no longer to be used as a cue. I release this association and return coincidence to ordinary uncertainty.” Also remove it from your list of cues so that you stop rehearsing it. The statement expresses your decision; it does not prove the association has vanished immediately."
+   ],
+   "run": "HG31-r1-s18",
+   "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "script lost 'release this association' and 'return coincidence to ordinary uncertainty'",
+     "replace": ", and I let it go.",
+     "with": ". I release this association and return coincidence to ordinary uncertainty.",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the caveat: the statement expresses your decision but does not prove the association has vanished",
+     "replace": "so that you stop rehearsing it.",
+     "with": "so that you stop rehearsing it. The statement expresses your decision; it does not prove the association has vanished immediately.",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    78
+   ],
+   "paras": [
+    "Reframing — changing the meaning without lying"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    79,
+    80
+   ],
+   "paras": [
+    "Dishonest reframing declares that the problem was secretly good all along, so I have to be honest when I reframe. To reframe in a helpful way is to ask myself a series of questions like: “What else could be true here?” or “What is this part trying to do for me?” or “How would my Nurturer reframe this?” or “How would my Protector reframe this?” or “How would my Leader reframe this?” and so on."
+   ],
+   "run": "HG31-r1-s19",
+   "file": "fix-20261018/emu-e/HG31-r1-s19.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "dishonest reframing declares the problem was secretly good all along; 'no better off' is new",
+     "replace": "When I reframe something that is dishonest with myself in the process, I’m no better off than before,",
+     "with": "Dishonest reframing declares that the problem was secretly good all along,",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    81
+   ],
+   "paras": [
+    "Perceptual positions — self, other, witness, universal heart"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    82
+   ],
+   "paras": [
+    "1. How do I feel about this from inside myself? 2. If I were inside of this other person, what might they be feeling or protecting? 3. If I were across the room watching this, what would I see? 4. From the universal heart, what serves truth, love, boundaries, and the good of everyone involved?"
+   ],
+   "run": "HG31-r1-s20",
+   "file": "fix-20261018/emu-e/HG31-r1-s20.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'or tree, or dog' extends 'the other person' to things the published doesn't mention",
+     "replace": " (or tree, or dog or whatever is not-you)",
+     "with": "",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'what might they be feeling or protecting?' became 'how might I feel?'",
+     "replace": "how might I feel?",
+     "with": "what might they be feeling or protecting?",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'what serves truth, love, boundaries...' became 'what might be true, loving...'",
+     "replace": "what might be true, loving, clear about boundaries, and good for everyone involved?",
+     "with": "what serves truth, love, boundaries, and the good of everyone involved?",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    83
+   ],
+   "paras": [
+    "Don’t use these positions to excuse harm. Use them to see the truth from more than one angle. They’re a great way to get out of a prison of perception."
+   ],
+   "run": "HG31-r1-s20",
+   "file": "fix-20261018/emu-e/HG31-r1-s20.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'Don't use perceptual positions to excuse harm' turned into 'it's possible'; second sentence repeats the first",
+     "replace": "Yes, it’s possible to use these positions to let yourself off the hook. It’s also possible to use them to get off the hook!",
+     "with": "Don’t use these positions to excuse harm.",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    84
+   ],
+   "paras": [
+    "Future pacing — let the future test the insight"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    85,
+    86
+   ],
+   "paras": [
+    "1. Do some future pacing to make sure that the new insight holds, by imagining some future situations where the old behavior would have triggered.",
+    "If they appear, practice a new small behavior by setting up an implementation intention (\"If...then...\"):"
+   ],
+   "run": "HG31-r2",
+   "file": "fix-20261018/emu-h/HG31-r2.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'check out this video' is not in the published",
+     "replace": " (check out this video )",
+     "with": "",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    87
+   ],
+   "paras": [
+    "The Swish, softened"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    88
+   ],
+   "paras": [
+    "2. Use a variation of the Swish Pattern from NLP, where instead of pushing out the old pattern (done mechanically, it can feel like an inner eviction), allowing it to stay there, just make sure that the old and the new pattern are both visible, feel the bodily sensations that arise, and compare what each future would actually require."
+   ],
+   "run": "HG31-r2",
+   "file": "fix-20261018/emu-h/HG31-r2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the caution that done mechanically the classic Swish can feel like an inner eviction",
+     "replace": "instead of pushing out the old pattern,",
+     "with": "instead of pushing out the old pattern (done mechanically, it can feel like an inner eviction),",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "comparing what each future would require became what only the new pattern requires",
+     "replace": "and see if there is anything the new pattern requires from in the future, that the old one didn't.",
+     "with": "and compare what each future would actually require.",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    89
+   ],
+   "paras": [
+    "Parts integration, without pretending the conflict is solved"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    90
+   ],
+   "paras": [
+    "(What does one side want? What is the other side afraid of? What need sits under both? What is a 3rd option that meets each sides needs while not letting one side completely dominate?)"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'The Sacred Decision' is a name the published doesn't give",
+     "replace": "The Sacred Decision (",
+     "with": "(",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'What need sits under both?' became 'the need of each side'",
+     "replace": "What is the need of each side?",
+     "with": "What need sits under both?",
+     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    91
+   ],
+   "paras": [
+    "What I will not use NLP for"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    92
+   ],
+   "paras": [
+    "Deny legitimate signals"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    93
+   ],
+   "paras": [
+    "Override fear before asking what the fear protects"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'override fear before asking what it protects' became 'remove fear', with an invented alternative",
+     "replace": "Remove fear (only re-prioritize it to a more useful level)",
+     "with": "Override fear before asking what the fear protects",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    94
+   ],
+   "paras": [
+    "Recover memories"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "scare quotes around 'memories' imply they aren't real memories",
+     "replace": "“memories”",
+     "with": "memories",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    95
+   ],
+   "paras": [
+    "Manipulate anyone else"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'anyone else' became 'people (this includes myself)'",
+     "replace": "Manipulate people (this includes myself)",
+     "with": "Manipulate anyone else",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    96
+   ],
+   "paras": [
+    "Convince myself an intuition is true"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'an intuition' became 'intuitions'; the parenthetical about the non-rational data stream is new",
+     "replace": "intuitions are true (that’s more carefully attending to the non-rational data stream)",
+     "with": "an intuition is true",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    97
+   ],
+   "paras": [
+    "Remove legitimate signals (pain, hunger, grief, anger) or medical symptoms"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "grief and anger dropped from the list",
+     "replace": "(pain, hunger, etc)",
+     "with": "(pain, hunger, grief, anger)",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    98
+   ],
+   "paras": [
+    "Do while in states of panic, destabilization, mania, “psychosis-like” states, being chemically overwhelmed, or too dissociated to reality-test"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'destabilized' became 'extreme destabilization'; limit softened",
+     "replace": "extreme destabilization",
+     "with": "destabilization",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'too dissociated to reality-test' lost; 'chemically overwhelmed' became 'extreme chemical conditions'",
+     "replace": "extreme chemical conditions, etc",
+     "with": "being chemically overwhelmed, or too dissociated to reality-test",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    99
+   ],
+   "paras": [
+    "Make another person’s no feel like resistance"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the item 'make another person's no feel like resistance' is lost; unclosed bracket",
+     "replace": "Manipulate other people (this includes:",
+     "with": "Make another person’s no feel like resistance",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    100
+   ],
+   "paras": [
+    "Making people feel spiritually inferior for disagreeing"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'for disagreeing' lost",
+     "replace": "Making people feel spiritually inferior",
+     "with": "Making people feel spiritually inferior for disagreeing",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    101
+   ],
+   "paras": [
+    "Giving covert commands"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    102
+   ],
+   "paras": [
+    "Creating urgency where time is needed"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'where time is needed' became 'false'",
+     "replace": "Creating false urgency",
+     "with": "Creating urgency where time is needed",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    103
+   ],
+   "paras": [
+    "Bypassing consent by calling something “subconscious agreement.”"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'bypass consent by calling something subconscious agreement' became 'non-consciously gaining permission'",
+     "replace": "Non-consciously gaining permission",
+     "with": "Bypassing consent by calling something “subconscious agreement.”",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    104
+   ],
+   "paras": [
+    "Manipulating people in trance, fatigue, attraction, shame, grief, or altered states to get compliance"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'shame, grief, altered states' and 'to get compliance' lost",
+     "replace": "trance states, weakened states, attraction states, etc",
+     "with": "trance, fatigue, attraction, shame, grief, or altered states to get compliance",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    105
+   ],
+   "paras": [
+    "Running the whole NLP sequence"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    106,
+    107
+   ],
+   "paras": [
+    "Induce or contain. Gather attention, or stabilize first if you are already wide open.",
+    "Ask permission. Is it useful to work with this image, feeling, or pattern today?"
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-i/HG31-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'Gather attention, or stabilize first if you are already wide open' lost; 'a person' is new",
+     "replace": "2. Induce or contain a person.",
+     "with": "Induce or contain. Gather attention, or stabilize first if you are already wide open.",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the question 'Is it useful to work with this image, feeling, or pattern today?' lost",
+     "replace": "3. Ask permission.",
+     "with": "Ask permission. Is it useful to work with this image, feeling, or pattern today?",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    108
+   ],
+   "paras": [
+    "Represent the pattern. How does it show up: image, voice, sensation, posture? Where? How big? How close? What color? How does it move?"
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'client' and 'accurately' are new; the published is self-directed",
+     "replace": "Help client accurately represent this pattern.",
+     "with": "Represent the pattern.",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "voice, sensation and posture are lost",
+     "replace": "What does it look like?",
+     "with": "How does it show up: image, voice, sensation, posture?",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    109
+   ],
+   "paras": [
+    "Ask what it protects. What is this trying to do for me?"
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'client' replaces 'me'; 'what it protects' lost",
+     "replace": "Ask what it is trying to do for the client.",
+     "with": "Ask what it protects. What is this trying to do for me?",
+     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    110
+   ],
+   "paras": [
+    "Adjust the form of the pattern, gently (move it further away, turn down the volume, change body posture, slow it down, etc.)."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'Adjust the form, gently' became 'adaptive changes in the pattern'; 'client' is a person that isn't there",
+     "replace": "Have client make adaptive changes in the pattern",
+     "with": "Adjust the form of the pattern, gently",
+     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    111
+   ],
+   "paras": [
+    "Introduce the three adults (Nurturer, Protector and Leader): the Nurturer warms, the Protector makes it safe, the Leader points a direction."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "the three adults are not 'new'",
+     "replace": "three new adults",
+     "with": "three adults",
+     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the roles: Nurturer warms, Protector makes it safe, Leader points a direction",
+     "replace": " and have them interact with the pattern in new ways.",
+     "with": ": the Nurturer warms, the Protector makes it safe, the Leader points a direction.",
+     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    112
+   ],
+   "paras": [
+    "Anchor the useful state (heart, fingers, breath, body posture, etc.)."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'the useful state' became 'the new state'; 'client' is a person that isn't there",
+     "replace": "Have client anchor the new state",
+     "with": "Anchor the useful state",
+     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    113
+   ],
+   "paras": [
+    "Future pace into a situation where this pattern used to be triggered: if the old cue shows up, what is the smallest new action?"
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the question 'what is the smallest new action?'; 'he/she' and 'client' are not in the published",
+     "replace": "Have client future pace into a situation where this pattern used to be triggered, but now he/she will perform a new behavior.",
+     "with": "Future pace into a situation where this pattern used to be triggered: if the old cue shows up, what is the smallest new action?",
+     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    114
+   ],
+   "paras": [
+    "Check the fit and the evidence: what changes in the body, is the response kind and doable, and what supports your interpretation of the situation beyond how it feels?"
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "what changes in the body; 'kind and doable'; evidence 'beyond how it feels'",
+     "replace": "Test and retest to ensure that new pattern is useful and that you have supporting evidence for your interpretation of the situation.",
+     "with": "Check the fit and the evidence: what changes in the body, is the response kind and doable, and what supports your interpretation of the situation beyond how it feels?",
+     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    115
+   ],
+   "paras": [
+    "Exit altered state, come back to the room, and do one ordinary thing."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'Come back to the room' and 'one ordinary thing'; 'client' is a person that isn't there",
+     "replace": "Help client exit altered state and perform a normal behavior.",
+     "with": "Exit altered state, come back to the room, and do one ordinary thing.",
+     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

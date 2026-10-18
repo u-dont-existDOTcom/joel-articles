@@ -1,0 +1,48 @@
+[
+{"block": 93, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'override fear before asking what it protects' became 'remove fear', with an invented alternative", "replace": "Remove fear (only re-prioritize it to a more useful level)", "with": "Override fear before asking what the fear protects"}
+]},
+{"block": 94, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "scare quotes around 'memories' imply they aren't real memories", "replace": "“memories”", "with": "memories"}
+]},
+{"block": 95, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'anyone else' became 'people (this includes myself)'", "replace": "Manipulate people (this includes myself)", "with": "Manipulate anyone else"}
+]},
+{"block": 96, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'an intuition' became 'intuitions'; the parenthetical about the non-rational data stream is new", "replace": "intuitions are true (that’s more carefully attending to the non-rational data stream)", "with": "an intuition is true"}
+]},
+{"block": 97, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "grief and anger dropped from the list", "replace": "(pain, hunger, etc)", "with": "(pain, hunger, grief, anger)"}
+]},
+{"block": 98, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'destabilized' became 'extreme destabilization'; limit softened", "replace": "extreme destabilization", "with": "destabilization"},
+{"type": "LOST", "what": "'too dissociated to reality-test' lost; 'chemically overwhelmed' became 'extreme chemical conditions'", "replace": "extreme chemical conditions, etc", "with": "being chemically overwhelmed, or too dissociated to reality-test"}
+]},
+{"block": 99, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the item 'make another person's no feel like resistance' is lost; unclosed bracket", "replace": "Manipulate other people (this includes:", "with": "Make another person’s no feel like resistance"}
+]},
+{"block": 100, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'for disagreeing' lost", "replace": "Making people feel spiritually inferior", "with": "Making people feel spiritually inferior for disagreeing"}
+]},
+{"block": 101, "verdict": "OK"},
+{"block": 102, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'where time is needed' became 'false'", "replace": "Creating false urgency", "with": "Creating urgency where time is needed"}
+]},
+{"block": 103, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'bypass consent by calling something subconscious agreement' became 'non-consciously gaining permission'", "replace": "Non-consciously gaining permission", "with": "Bypassing consent by calling something “subconscious agreement.”"}
+]},
+{"block": 104, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'shame, grief, altered states' and 'to get compliance' lost", "replace": "trance states, weakened states, attraction states, etc", "with": "trance, fatigue, attraction, shame, grief, or altered states to get compliance"}
+]},
+{"block": 106, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'Gather attention, or stabilize first if you are already wide open' lost; 'a person' is new", "replace": "2. Induce or contain a person.", "with": "Induce or contain. Gather attention, or stabilize first if you are already wide open."},
+{"type": "LOST", "what": "the question 'Is it useful to work with this image, feeling, or pattern today?' lost", "replace": "3. Ask permission.", "with": "Ask permission. Is it useful to work with this image, feeling, or pattern today?"}
+]},
+{"block": 108, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'client' and 'accurately' are new; the published is self-directed", "replace": "Help client accurately represent this pattern.", "with": "Represent the pattern."},
+{"type": "LOST", "what": "voice, sensation and posture are lost", "replace": "What does it look like?", "with": "How does it show up: image, voice, sensation, posture?"}
+]},
+{"block": 109, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'client' replaces 'me'; 'what it protects' lost", "replace": "Ask what it is trying to do for the client.", "with": "Ask what it protects. What is this trying to do for me?"}
+]}
+]

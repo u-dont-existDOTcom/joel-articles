@@ -1,0 +1,1210 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "bag of tricks now caused by not knowing NLP; 'useful when it helps the system listen' lost",
+    "replace": "If you don’t know a little bit about NLP, it’s easy to turn NLP into a bag of tricks and forget that",
+    "with": "NLP is useful when it helps the system listen, but it’s easy to turn it into a bag of tricks and forget that",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'core method' became 'the system', clashing with 'helps the system listen'",
+    "replace": "to use the system",
+    "with": "to practice the core method",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'a remembered person' and 'an unpleasant sensation' are examples the published list (posture, pressure) doesn't give",
+    "replace": "the posture of a remembered person, the pressure of an unpleasant sensation",
+    "with": "posture, pressure",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "OK"
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the example 'when this cue appears, the adult does this'; 'a better response' became 'a new strategy'",
+    "replace": "practice a new strategy",
+    "with": "practice a better response: when this cue appears, the adult does this",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'what is already true' became 'what is there'",
+    "replace": "pacing what is there",
+    "with": "pacing what is already true",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'link cause and effect carefully' became 'in new ways'",
+    "replace": "linking cause and effect in new ways",
+    "with": "linking cause and effect carefully",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'embed invitations' became 'embedding suggestions'",
+    "replace": "embedding suggestions",
+    "with": "embedding invitations",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'often make a part brace' became a flat statement that a part braces",
+    "replace": "a part of me braces against it",
+    "with": "a part of me often braces against it",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'without having to overpower it'",
+    "replace": "argue with me, and",
+    "with": "argue with me without having to overpower it, and",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'only a small safe capacity' became 'the least possible capacity'; 'safe' lost",
+    "replace": "the least possible capacity",
+    "with": "only a small safe capacity",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "OK"
+ },
+ {
+  "block": 12,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'Presuppose capacity' became presupposing 'the capacity to do what I want'",
+    "replace": "the capacity to do what I want",
+    "with": "capacity",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the definition: pacing and leading means stating what is already true before inviting anything new",
+    "replace": "to pace and lead?",
+    "with": "to pace and lead? It means stating what is already true before inviting anything new.",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the example script itself: anxiety, body activated, protector helping, adult can start to listen",
+    "replace": "for anxiety:",
+    "with": "for anxiety: “Anxiety is here. The body is activated. A protector is trying to help. And one breath at a time, the adult can start to listen.”",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "OK"
+ },
+ {
+  "block": 17,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'to whatever comes up next' (and the closing quotation mark)",
+    "replace": "and is willing to listen.",
+    "with": "and is willing to listen to whatever comes up next.”",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'point attention without yelling at it', the verbs' defining quality",
+    "replace": "verbs:",
+    "with": "verbs, which point attention without yelling at it:",
+    "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 20,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "Emulate's output loops on prepositions and never says what to notice; the published script line instead (Joel's words)",
+    "replace": "• Notice how that answer comes for/ to/ within/ for/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ beyond/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within/ for/ to/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ among/ under/ over/ above/ below/ between/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/",
+    "with": "“Notice whether the answer comes as an image, a word, a pressure, a warmth, a silence, or a next action.”",
+    "from": "me (the part reviewer marked it redo)"
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'only' became 'best used'; limit on what to presume softened",
+    "replace": "is best used in the positive key of assuming",
+    "with": "should be used only to presume",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'adult leadership' became 'being adult', and 'etc.' opens the closed list",
+    "replace": "being adult, etc.",
+    "with": "and adult leadership.",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'the other person' is not in the published; it says don't smuggle in obedience",
+    "replace": "imply that the other person must obey",
+    "with": "smuggle in obedience",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "script changed: 'any part', 'has to change' and 'can first' lost; 'always' added",
+    "replace": "It is always the case that one can better understand something prior to changing it.",
+    "with": "Before any part has to change, it can first become more understood.",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 25,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the caution 'A gentle voice doesn’t make a false causal claim true.'",
+    "replace": "that can be used to link events.",
+    "with": "that can be used to link events. A gentle voice doesn’t make a false causal claim true.",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 26,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the first example script: 'Because I breathe, the trauma leaves.'",
+    "replace": "the problem with the first example is that",
+    "with": "the problem with the first example (“Because I breathe, the trauma leaves.”) is that",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the second example script, which is also turned into a bigger claim about helping the wound",
+    "replace": "accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself.",
+    "with": "accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the definition and the caution: a small direction inside a larger sentence; invite, not hide a demand",
+    "replace": "how to use them",
+    "with": "how to use them? An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 29,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the script line 'And somewhere inside this breath, I can let the adult self listen.'",
+    "replace": "an embedded invitation:",
+    "with": "an embedded invitation: “And somewhere inside this breath, I can let the adult self listen.”",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 30,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the script line 'As I sit here, I may allow one small truth to become clear.'",
+    "replace": "an embedded invitation:",
+    "with": "an embedded invitation: “As I sit here, I may allow one small truth to become clear.”",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 31,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the script line about the child not having to trust me all at once",
+    "replace": "inner child parts:",
+    "with": "inner child parts: “The child does not have to trust me all at once; it can simply notice I am still here.”",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 32,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the instruction 'Use one when it helps.'",
+    "replace": "Of course,",
+    "with": "Use one when it helps. Of course,",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 34,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "what a manipulative double bind is: it traps every answer inside the speaker’s agenda",
+    "replace": "Manipulative double bind questions:",
+    "with": "Manipulative double bind questions trap every answer inside the speaker’s agenda.",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "what an ethical one is: it offers two genuinely safe routes",
+    "replace": "Ethical double bind questions:",
+    "with": "Ethical double bind questions offer two genuinely safe routes:",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "script asks what the part would prefer, warmth first or space first, not what approach is best",
+    "replace": "What would be the best approach to this part, to warm it up or give it space?",
+    "with": "Would this part prefer warmth first, or space first?",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 37,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "that these questions' ordinary conversational form also acts as an invitation",
+    "replace": "postulate in the form of a question:",
+    "with": "postulate, a question whose ordinary conversational form also acts as an invitation:",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "script changed: 'the next step' and 'the whole wound' became 'what it wants to show' and 'everything'",
+    "replace": "Isn’t it possible that the system can find a way to show me what it wants to show without showing me everything?",
+    "with": "Can the system show me the next step without showing me the whole wound?",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 40,
+  "verdict": "OK"
+ },
+ {
+  "block": 41,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "tag question about 'something about resting' became 'how to do this' with no referent; quotes lost",
+    "replace": "Doesn’t the body already know how to do this?",
+    "with": "“The body already knows something about resting, doesn’t it?”",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 43,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the definition: nominalizations turn processes into nouns",
+    "replace": "Nominalizations are words like",
+    "with": "Nominalizations turn processes into nouns, words like",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'their vagueness' (the nominalizations') became vague language in general",
+    "replace": "Sometimes it’s good to use vague language",
+    "with": "Their vagueness can sometimes help",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'most appropriate' is new; the subconscious supplies its own concrete meaning",
+    "replace": "whatever is most appropriate and specific for that person",
+    "with": "its own concrete meaning",
+    "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 44,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "gentle 'can arrive' became a pushy 'Why don't YOU... now' question; 'the body understands' lost; quotes lost",
+    "replace": "Why don't YOU let yourself become a bit safer now, in whatever way is most appropriate for YOUR body?",
+    "with": "“A little more safety can arrive in whatever way the body understands.”",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 46,
+  "verdict": "OK"
+ },
+ {
+  "block": 47,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'How specifically?' became 'What do yo mean Specifically?'",
+    "replace": "What do yo mean ‘Specifically’?",
+    "with": "How specifically?",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "self-questions 'How do I know?' and 'What evidence would change my mind?' turned into questions to someone else",
+    "replace": "How do yo know? What would constitute proof for ya?",
+    "with": "How do I know? What evidence would change my mind?",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 48,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'in session' is not in the published",
+    "replace": "If, in session, it feels like",
+    "with": "If it feels like",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 51,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "the tool is Submodalities (named in the heading); 'Pattern Disruption tool' is invented",
+    "replace": "Pattern Disruption tool: Properties If your",
+    "with": "If your",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'qualities you actually notice'",
+    "replace": "then you can work with its properties",
+    "with": "then you can work with the properties you actually notice",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'If none are apparent' became 'doesn't have any properties'",
+    "replace": "If it doesn't have any properties",
+    "with": "If none are apparent",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'rather than inventing an image or voice'",
+    "replace": "just skip this tool.",
+    "with": "just skip this tool rather than inventing an image or voice.",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 52,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'Ask how the experience is represented' became 'things to ask when representing something'",
+    "replace": "Things to ask yourself when representing something.",
+    "with": "Ask yourself how the experience is represented.",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the examples: image two feet back, voice quieter, edge less sharp; 'what changes' became 'did something else'",
+    "replace": "What would happen if you did something else.",
+    "with": "What changes when the image moves two feet back, the voice gets quieter, or the edge becomes less sharp?",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 53,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'so I can listen without being overwhelmed'; 'the signal' became 'it'",
+    "replace": "deleting it just adjusting the volume.",
+    "with": "deleting the signal, just adjusting the volume so I can listen without being overwhelmed.",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 54,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "asking the guard comes before moving one imaginary pixel; the order is blurred",
+    "replace": "Before you do anything imagine moving a pixel and ask your guard",
+    "with": "Before you move one imaginary pixel, ask your guard",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 55,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "tentative joint request ('we', just a little, slightly, purely so) became a bigger unilateral one",
+    "replace": "Is it ok that I move the image back two feet, quiet the voice down, make the edges less sharp so that I can do this, the adult me, to hear what you have got to say?",
+    "with": "Would it be okay if we moved this image back just a little, or lowered the volume slightly, purely so my adult self can stay present enough to hear what you need to tell me?",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 57,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the definition: an anchor is a cue connected to a state",
+    "replace": "There are lots of ways to anchor something.",
+    "with": "An anchor is a cue connected to a state. There are lots of ways to anchor something.",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the phrase to say: 'This is available.'",
+    "replace": "say to yourself that this is what you are anchoring and it is available to you.",
+    "with": "say to yourself, “This is available.”",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'alert calming' and 'the synchronicity wake-up cue' are two named cues, not a list of three",
+    "replace": "the alert, calming, synchronicity wake up thing.",
+    "with": "the alert calming and the synchronicity wake up cue.",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 59,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'my clients'; people notice a synchronicity and ask straight away",
+    "replace": "Sometimes when my clients notice a synchronicity they are asking straight way what it means.",
+    "with": "Sometimes when people notice a synchronicity they ask straight away what it means.",
+    "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+   },
+   {
+    "type": "LOST",
+    "what": "the coincidence doesn't have to contain a message; it has already caught attention, which is enough",
+    "replace": "I am using it as a signal to WAKE UP.",
+    "with": "I am using it as a signal to WAKE UP. The coincidence doesn’t have to contain a message; it has already caught my attention, and that’s enough.",
+    "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+   },
+   {
+    "type": "LOST",
+    "what": "the cue's steps: the coincidence is not proof of an interpretation; widen beyond the mood's story; fact, interpretation, warmth, protection, action",
+    "replace": "feel my body, the room I am in and go to the highest state I can",
+    "with": "feel my body and the room I am in, remember that the coincidence is not proof of an interpretation, let my attention widen beyond the story my current mood is telling, ask what is fact, what is interpretation, what needs warmth, what needs protection and what needs action, and go to the highest state I can",
+    "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "make room for what is genuinely available, without manufacturing it (not 'I am free and joyful and grateful')",
+    "replace": "In this state I am also free and joyful and I feel grateful.",
+    "with": "I make room for whatever is genuinely there, like clarity, peace, freedom, joy and gratitude, without having to manufacture any of it.",
+    "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+   }
+  ]
+ },
+ {
+  "block": 66,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "published has you imagine an ordinary, harmless synchronicity; here it is the next one, harmless or not",
+    "replace": "when next synchronicity noticed (even harmless ones count),",
+    "with": "imagine noticing an ordinary, harmless synchronicity,",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 67,
+  "verdict": "OK"
+ },
+ {
+  "block": 68,
+  "verdict": "OK"
+ },
+ {
+  "block": 69,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'not proof of a message' became 'not a message to heed'",
+    "replace": "not a message to heed",
+    "with": "not proof of a message",
+    "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 70,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'optionally' turns the instruction to ask into a choice",
+    "replace": "optionally ask",
+    "with": "ask",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 71,
+  "verdict": "OK"
+ },
+ {
+  "block": 72,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'one small action' became 'what additional action'",
+    "replace": "what additional action to take",
+    "with": "one small action to take",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 73,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'visible' became 'obviously under control'",
+    "replace": "obviously under control",
+    "with": "visible",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "cue can't authorize a decision, prove an intuition or suppress a warning; here vaguer, and 'warning' lost",
+    "replace": "be used for decision-making, intuition, inhibition, or otherwise be under someone else's control.",
+    "with": "authorize a decision, prove an intuition, suppress a warning, or let another person control the response.",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 74,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the definition: an advance 'if X, then Y' plan linking a cue to a chosen response",
+    "replace": "implementation intention , for which",
+    "with": "implementation intention , an advance “if X, then Y” plan that links a recognizable cue with a chosen response, for which",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the paper supports the general mechanism; 'evidence of efficacy' claims more",
+    "replace": "there is evidence of efficacy",
+    "with": "the general mechanism is supported",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'hasn't been studied directly' became 'probably hasn't been studied'",
+    "replace": "probably hasn't been studied",
+    "with": "hasn't been studied directly",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 75,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'like any cue' is new; the risk is about rehearsing synchronicity as a cue",
+    "replace": "Synchronicity cues, like any cue, run the risk",
+    "with": "Synchronicity cues run the risk",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the caveat that ordinary pattern noticing is not itself pathological",
+    "replace": "traits on the psychosis spectrum (Blain et al., Grant et al.).",
+    "with": "traits on the psychosis spectrum, although ordinary pattern noticing is not itself pathological (Blain et al., Grant et al.).",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 76,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "sleeplessness, anxiety etc. are triggers if the cue increases them, not only signs of false positives",
+    "replace": "are creating false positives (",
+    "with": "are creating false positives or making any of these worse (",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'difficulty distinguishing observation from interpretation' became 'unable to tell if they are real'",
+    "replace": "you find yourself unable to tell if they are real or not",
+    "with": "you have difficulty distinguishing observation from interpretation",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 77,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "script lost 'release this association' and 'return coincidence to ordinary uncertainty'",
+    "replace": ", and I let it go.",
+    "with": ". I release this association and return coincidence to ordinary uncertainty.",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the caveat: the statement expresses your decision but does not prove the association has vanished",
+    "replace": "so that you stop rehearsing it.",
+    "with": "so that you stop rehearsing it. The statement expresses your decision; it does not prove the association has vanished immediately.",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 79,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "dishonest reframing declares the problem was secretly good all along; 'no better off' is new",
+    "replace": "When I reframe something that is dishonest with myself in the process, I’m no better off than before,",
+    "with": "Dishonest reframing declares that the problem was secretly good all along,",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 82,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'or tree, or dog' extends 'the other person' to things the published doesn't mention",
+    "replace": " (or tree, or dog or whatever is not-you)",
+    "with": "",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'what might they be feeling or protecting?' became 'how might I feel?'",
+    "replace": "how might I feel?",
+    "with": "what might they be feeling or protecting?",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'what serves truth, love, boundaries...' became 'what might be true, loving...'",
+    "replace": "what might be true, loving, clear about boundaries, and good for everyone involved?",
+    "with": "what serves truth, love, boundaries, and the good of everyone involved?",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 83,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'Don't use perceptual positions to excuse harm' turned into 'it's possible'; second sentence repeats the first",
+    "replace": "Yes, it’s possible to use these positions to let yourself off the hook. It’s also possible to use them to get off the hook!",
+    "with": "Don’t use these positions to excuse harm.",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 85,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'check out this video' is not in the published",
+    "replace": " (check out this video )",
+    "with": "",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 88,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the caution that done mechanically the classic Swish can feel like an inner eviction",
+    "replace": "instead of pushing out the old pattern,",
+    "with": "instead of pushing out the old pattern (done mechanically, it can feel like an inner eviction),",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "comparing what each future would require became what only the new pattern requires",
+    "replace": "and see if there is anything the new pattern requires from in the future, that the old one didn't.",
+    "with": "and compare what each future would actually require.",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 90,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'The Sacred Decision' is a name the published doesn't give",
+    "replace": "The Sacred Decision (",
+    "with": "(",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'What need sits under both?' became 'the need of each side'",
+    "replace": "What is the need of each side?",
+    "with": "What need sits under both?",
+    "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 92,
+  "verdict": "OK"
+ },
+ {
+  "block": 93,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'override fear before asking what it protects' became 'remove fear', with an invented alternative",
+    "replace": "Remove fear (only re-prioritize it to a more useful level)",
+    "with": "Override fear before asking what the fear protects",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 94,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "scare quotes around 'memories' imply they aren't real memories",
+    "replace": "“memories”",
+    "with": "memories",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 95,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'anyone else' became 'people (this includes myself)'",
+    "replace": "Manipulate people (this includes myself)",
+    "with": "Manipulate anyone else",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 96,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'an intuition' became 'intuitions'; the parenthetical about the non-rational data stream is new",
+    "replace": "intuitions are true (that’s more carefully attending to the non-rational data stream)",
+    "with": "an intuition is true",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 97,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "grief and anger dropped from the list",
+    "replace": "(pain, hunger, etc)",
+    "with": "(pain, hunger, grief, anger)",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 98,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'destabilized' became 'extreme destabilization'; limit softened",
+    "replace": "extreme destabilization",
+    "with": "destabilization",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "'too dissociated to reality-test' lost; 'chemically overwhelmed' became 'extreme chemical conditions'",
+    "replace": "extreme chemical conditions, etc",
+    "with": "being chemically overwhelmed, or too dissociated to reality-test",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 99,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the item 'make another person's no feel like resistance' is lost; unclosed bracket",
+    "replace": "Manipulate other people (this includes:",
+    "with": "Make another person’s no feel like resistance",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 100,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'for disagreeing' lost",
+    "replace": "Making people feel spiritually inferior",
+    "with": "Making people feel spiritually inferior for disagreeing",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 101,
+  "verdict": "OK"
+ },
+ {
+  "block": 102,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'where time is needed' became 'false'",
+    "replace": "Creating false urgency",
+    "with": "Creating urgency where time is needed",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 103,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'bypass consent by calling something subconscious agreement' became 'non-consciously gaining permission'",
+    "replace": "Non-consciously gaining permission",
+    "with": "Bypassing consent by calling something “subconscious agreement.”",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 104,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'shame, grief, altered states' and 'to get compliance' lost",
+    "replace": "trance states, weakened states, attraction states, etc",
+    "with": "trance, fatigue, attraction, shame, grief, or altered states to get compliance",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 106,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'Gather attention, or stabilize first if you are already wide open' lost; 'a person' is new",
+    "replace": "2. Induce or contain a person.",
+    "with": "Induce or contain. Gather attention, or stabilize first if you are already wide open.",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the question 'Is it useful to work with this image, feeling, or pattern today?' lost",
+    "replace": "3. Ask permission.",
+    "with": "Ask permission. Is it useful to work with this image, feeling, or pattern today?",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 108,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'client' and 'accurately' are new; the published is self-directed",
+    "replace": "Help client accurately represent this pattern.",
+    "with": "Represent the pattern.",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "voice, sensation and posture are lost",
+    "replace": "What does it look like?",
+    "with": "How does it show up: image, voice, sensation, posture?",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 109,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'client' replaces 'me'; 'what it protects' lost",
+    "replace": "Ask what it is trying to do for the client.",
+    "with": "Ask what it protects. What is this trying to do for me?",
+    "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 110,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'Adjust the form, gently' became 'adaptive changes in the pattern'; 'client' is a person that isn't there",
+    "replace": "Have client make adaptive changes in the pattern",
+    "with": "Adjust the form of the pattern, gently",
+    "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 111,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "the three adults are not 'new'",
+    "replace": "three new adults",
+    "with": "three adults",
+    "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the roles: Nurturer warms, Protector makes it safe, Leader points a direction",
+    "replace": " and have them interact with the pattern in new ways.",
+    "with": ": the Nurturer warms, the Protector makes it safe, the Leader points a direction.",
+    "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 112,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'the useful state' became 'the new state'; 'client' is a person that isn't there",
+    "replace": "Have client anchor the new state",
+    "with": "Anchor the useful state",
+    "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 113,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the question 'what is the smallest new action?'; 'he/she' and 'client' are not in the published",
+    "replace": "Have client future pace into a situation where this pattern used to be triggered, but now he/she will perform a new behavior.",
+    "with": "Future pace into a situation where this pattern used to be triggered: if the old cue shows up, what is the smallest new action?",
+    "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 114,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "what changes in the body; 'kind and doable'; evidence 'beyond how it feels'",
+    "replace": "Test and retest to ensure that new pattern is useful and that you have supporting evidence for your interpretation of the situation.",
+    "with": "Check the fit and the evidence: what changes in the body, is the response kind and doable, and what supports your interpretation of the situation beyond how it feels?",
+    "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 115,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'Come back to the room' and 'one ordinary thing'; 'client' is a person that isn't there",
+    "replace": "Help client exit altered state and perform a normal behavior.",
+    "with": "Exit altered state, come back to the room, and do one ordinary thing.",
+    "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   }
+  ]
+ }
+]

@@ -1,0 +1,148 @@
+[
+ {
+  "block": 1,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "charismatic authority",
+    "replace": "By an authority figure?",
+    "with": "By charismatic authority?",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "belonging pressure",
+    "replace": "By the desire for belonging?",
+    "with": "By pressure to belong?",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "far too much certainty arriving far too quickly",
+    "replace": "about something pretty quickly.",
+    "with": "about something, far too quickly.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "automatic rebellion; and 'stop' said twice",
+    "replace": "Don’t rebel, either, just stop and realize that you’re being influenced.",
+    "with": "Don’t rebel automatically, either; just realize that you’re being influenced.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'as you realize I'm right'",
+    "replace": "“you’ll realize, eventually, that…”",
+    "with": "“you’ll realize, eventually, that I’m right…”",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "your higher self wants (not 'knows', which repeated 'part of you knows')",
+    "replace": "“your higher self knows…”",
+    "with": "“your higher self wants…”",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'what do I need to say to opt out'; the published: can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded",
+    "replace": "What do I need to say in order to opt out of the frame, and is it safe for me to do so (will I suffer negative consequences – physical, social, financial, reputational, spiritual etc – if I say no)?",
+    "with": "Can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded?",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "permissive words can still conceal coercion ('not coercive in themselves' is new)",
+    "replace": "Permissive words in and of themselves are not coercive but, when used, can be part of coercion.",
+    "with": "Permissive words can still hide coercion.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the skeptical guard (a part), not the conscious mind",
+    "replace": "the subjects skeptical conscious mind",
+    "with": "the subject’s skeptical guard",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 13,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "every answer redefined as proof that the suggestion is working",
+    "replace": "will result in compliance",
+    "with": "will be taken as proof that the suggestion is working",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 17,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "repeated listening",
+    "replace": "just by listening to certain things etc.",
+    "with": "repeated listening etc.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 20,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "uncertainty (not 'not knowing your options')",
+    "replace": "or simply not knowing your options,",
+    "with": "or simply being unsure,",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ }
+]

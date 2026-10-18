@@ -1,0 +1,21 @@
+[
+{"block": 110, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'Adjust the form, gently' became 'adaptive changes in the pattern'; 'client' is a person that isn't there", "replace": "Have client make adaptive changes in the pattern", "with": "Adjust the form of the pattern, gently"}
+]},
+{"block": 111, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "the three adults are not 'new'", "replace": "three new adults", "with": "three adults"},
+{"type": "LOST", "what": "the roles: Nurturer warms, Protector makes it safe, Leader points a direction", "replace": " and have them interact with the pattern in new ways.", "with": ": the Nurturer warms, the Protector makes it safe, the Leader points a direction."}
+]},
+{"block": 112, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'the useful state' became 'the new state'; 'client' is a person that isn't there", "replace": "Have client anchor the new state", "with": "Anchor the useful state"}
+]},
+{"block": 113, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the question 'what is the smallest new action?'; 'he/she' and 'client' are not in the published", "replace": "Have client future pace into a situation where this pattern used to be triggered, but now he/she will perform a new behavior.", "with": "Future pace into a situation where this pattern used to be triggered: if the old cue shows up, what is the smallest new action?"}
+]},
+{"block": 114, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "what changes in the body; 'kind and doable'; evidence 'beyond how it feels'", "replace": "Test and retest to ensure that new pattern is useful and that you have supporting evidence for your interpretation of the situation.", "with": "Check the fit and the evidence: what changes in the body, is the response kind and doable, and what supports your interpretation of the situation beyond how it feels?"}
+]},
+{"block": 115, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'Come back to the room' and 'one ordinary thing'; 'client' is a person that isn't there", "replace": "Help client exit altered state and perform a normal behavior.", "with": "Exit altered state, come back to the room, and do one ordinary thing."}
+]}
+]
