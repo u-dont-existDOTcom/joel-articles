@@ -1,9 +1,10 @@
 """The second reader for the refix screens that read Human in 443g (2026-10-18): each refix stretch (Emulate's rewrite of
 my meaning-fixed text, emu-r) against the published blocks it replaces, in parts of at most MAX words of new text, with
 faithful.py's VERIFY template. The section's other stretches were checked before (rev-*, verify-*). Writes
-rf-a/<key>.verify.partN.txt and rf-a/jobs.json (parts grouped for one reader each). Run from fix-20261018/."""
+rf-a/<key>.verify.partN.txt and rf-a/jobs.json (parts grouped for one reader each). Run from fix-20261018/:
+python3 rf-a/make_verify.py [FOLDER] (default rf-a; rf-b holds 445g's)."""
 import json, pathlib, sys
-HERE = pathlib.Path(__file__).resolve().parent
+HERE = pathlib.Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parents[1] / 'tools'))
 import faithful as F  # noqa: E402
 MAX = 900

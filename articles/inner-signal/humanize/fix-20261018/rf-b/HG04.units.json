@@ -1,0 +1,183 @@
+{
+ "key": "HG04",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG04.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Quick start: do this first"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply gather attention and do these steps, in order: 1) Attention; 2) Notice; 3) Respond; 4) Wait; 5) Come all the way back . Not much needs to happen in each session!"
+   ],
+   "run": "HG04-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG04-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "It may be helpful, prior to your first session, to read through the induction and the full return in waking life, so you’re more familiar with it. Give yourself a chunk of time when you can be physically secure for the time it takes. Prior to each session, consider what one thing you’re going to be working on or cultivating during this session, and what you’re going to leave alone. Put this screen on the shelf and conduct the practice."
+   ],
+   "run": "HG04-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG04-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return. After, note what happened & any real-world actions."
+   ],
+   "run": "HG04-r1",
+   "file": "fix-20261018/emu-h/HG04-r1.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "the paragraph began mid-sentence",
+     "replace": "you'll follow whatever you notice",
+     "with": "You'll follow whatever you notice"
+    },
+    {
+     "type": "LOST",
+     "what": "direction or more time",
+     "replace": "to create a boundary, to proceed, etc.",
+     "with": "to create a boundary, to give direction or more time, etc."
+    },
+    {
+     "type": "SHIFT",
+     "what": "objection (not 'rebellion')",
+     "replace": "rebellion",
+     "with": "objection",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "If at any point you feel panicky, disoriented, more unreal, or less functional, this is not about bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support."
+   ],
+   "run": "HG04-r1",
+   "file": "fix-20261018/emu-h/HG04-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "stop deepening",
+     "replace": "Return to the room & be appropriately supported.",
+     "with": "Stop deepening, return to the room & get appropriate support."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Do you usually think in words?"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary when you plan, remember, reflect, or feel upset? If it doesn't come naturally, can you make yourself think in words, silently? (Thinking in words doesn't mean you hear them.)"
+   ],
+   "run": "HG04-r1",
+   "file": "fix-20261018/emu-h/HG04-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'when you're by yourself'; LOST: before choosing a script",
+     "replace": "When you're by yourself, do you talk",
+     "with": "Before choosing a script, notice: do you talk"
+    },
+    {
+     "type": "LOST",
+     "what": "when you plan, remember, reflect or feel upset",
+     "replace": "depending on what you're doing or thinking about?",
+     "with": "when you plan, remember, reflect, or feel upset?",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "This doesn't mean that in any given moment you may not notice feelings before words. You don’t have to decide that feelings always come first. This isn't a diagnosis, just a way of finding what's useful. \"Not sure\" is an answer."
+   ],
+   "run": "HG04-r1",
+   "file": "fix-20261018/emu-h/HG04-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "neither question asks you to decide that feelings always come first; not a diagnosis",
+     "replace": "You may not know.",
+     "with": "You don’t have to decide that feelings always come first, and you may not know."
+    },
+    {
+     "type": "SHIFT",
+     "what": "a way to choose workable instructions, not a diagnosis",
+     "replace": "This isn't about being right, just finding what's useful.",
+     "with": "This isn't a diagnosis, just a way of finding what's useful."
+    },
+    {
+     "type": "REPEAT",
+     "what": "not knowing said twice ('you may not know' and 'Not sure is an answer')",
+     "replace": ", and you may not know.",
+     "with": ".",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "If you don't normally think in words, you may want to say things aloud, in writing, on a recording, etc., when this guide says \"say.\" Or, just do what it invites, without preparing what you're going to say. When it says \"ask\" the child or protector, or \"listen\" for a response, it doesn't mean they'll be saying full sentences to you. It also doesn't mean you'll get pictures in your head instead. Just do whatever you can, and try different ways as needed."
+   ],
+   "run": "HG04-r1",
+   "file": "fix-20261018/emu-h/HG04-r1.out.txt",
+   "verdict": "OK"
+  }
+ ]
+}

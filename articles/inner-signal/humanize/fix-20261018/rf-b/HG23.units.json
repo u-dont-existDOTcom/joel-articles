@@ -1,0 +1,54 @@
+{
+ "key": "HG23",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r",
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Capacity before content"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "paras": [
+    "NOTE: If it is medically unsafe or you are in a place of panic, sleep deprivation, nausea, deep destabilization, mania, psychosis like symptoms, feeling overwhelmed by chemicals etc. then first focus on stabilizing and then look for what your subconscious needs you to know! If it takes you destabilizing to know what your subconscious knows, it is not meant for you to know directly at this time! Focus on asking for capacity over content!",
+    "Sometimes, your subconscious knows something that your conscious self is not prepared to know. It may be something related to your sexuality, grief, trauma, family issues, betrayal, shame, vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues etc.",
+    "What you DON’T want to do is bully your subconscious into telling you what it knows by saying things to yourself like:",
+    "“What is it you won’t tell me? What are you hiding? Tell me NOW! I am telling you to tell me!”",
+    "This often leads to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, you cannot access your adult capacities so focus on being able to regulate and getting support! Sometimes, it is better not to know what is not being said until your adult has the capacities to regulate, get support, be humble, etc. Just ask for what you need to know in a way that you CAN tolerate:",
+    "“What do I need to know that will help me get the capacity to know the thing you know that I need to know?” “What can you tell me, that will make my conscious self 5% better at knowing the thing you want to tell me?” “Can you tell me in symbolic form so I am not completely overwhelmed by the revelation?” “Can you tell me what I need to do to be safe, without actually telling me what it is”? “Do I need to know WHAT it is, or do I need to know that I need to get some support to have the capacity to know what it is, and who would be a good person to help me?” etc.",
+    "Instead, say to yourself something like this:",
+    "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense!” etc.",
+    "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image and get some help outside of yourself!"
+   ],
+   "run": "HG23-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt",
+   "refix": true
+  }
+ ]
+}

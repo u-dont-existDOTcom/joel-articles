@@ -1,6 +1,6 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-18, after batch 440g (its checks ran at 04:26 UTC). **Open questions: 2.** They're at the top, numbered, with their options; nothing
+Last updated 2026-10-18, after batch 445g (its checks ran at 05:44 UTC). **Open questions: 3.** They're at the top, numbered, with their options; nothing
 further down needs an answer. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress;
 🟢 done or decided.
 
@@ -20,6 +20,14 @@ The master copy of this page is this file in Git, so a session in either of your
   - b. Let the questions run into a few paragraphs of prose (Emulate's, with the meaning checked); every question stays.
   - c. Shorten it: keep the hypnosis-specific audit (seven questions) as a list, and turn the general list into prose.
   - d. Your own words for it.
+- 🟣 **3. Your table-of-contents note reads "AI, low" on its own.** In the one version of the "How to use" and "table of
+  contents" sections that otherwise reads Human (443g), Pangram marks 40 words AI with low confidence: the heading "The
+  table of contents is hiding on the left" and your line under it, as you wrote it
+  ([check](https://www.pangram.com/history/67524dc3-d41b-4330-89fc-7e579024cede); the rest, 379 words, Human, high).
+  Options:
+  - a. Keep your line as it is and count the section as done (my default until you answer).
+  - b. Let Emulate rewrite that line too.
+  - c. Your own new words for it.
 
 ## For you to do
 
@@ -27,8 +35,9 @@ The master copy of this page is this file in Git, so a session in either of your
 
 ## Where it stands
 
-🔵 All 37 sections except the checklist now have a version that reads 100% Human: 3 as published, 33 as Emulate rewrote
-them (`STATUS.md` has every check's link). Emulate bends meaning badly (it invented a "Sarah", quotations and study
+🟢 Three sections are installed with every paragraph checked (the opening, "The Most Extreme Example", "Why doing it
+myself worked better for me"). 🔵 Twenty-two more read 100% Human whole and are in meaning or paragraph checks; the rest
+are in Emulate refix runs (`STATUS.md` has every check's link). Emulate bends meaning badly (it invented a "Sarah", quotations and study
 findings, turned the inner child into "her", and reversed cautions), so none of it is in your article yet: each section
 goes through my meaning review against your text, a second reader, my answers to its findings, and a march read, then a
 Pangram check of the corrected version (batch 434g is the first of those), then paragraph checks, then it's installed.

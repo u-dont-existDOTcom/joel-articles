@@ -51,50 +51,66 @@ never tick a CAPTCHA: if it's signed out, stop and tell him.
 
 ## Emulate
 
-On the laptop, from `~/ai-work/claude-dangerous-lane/joel-articles`: `python3 tools/humanization/emulate_humanize.py humanize
-IN.txt OUTBASE` (the script reads the key itself; never print, copy or log it). 40 to 3,000 words a call; about 176,750 words
-left on 2026-10-18. Never edit Emulate's output with my own words except to put the meaning back, and every such edit goes
-through the gate.
+On the laptop, in `~/ai-work/claude-dangerous-lane/inbox/emu-hg-X/`: copy `run_emulate.py` from `emu-hg-g/`, put the run
+folder's `BUNDLE.json` there (stage it in `/mnt/user-data/outputs/` and write it with device_commit_files; check its
+SHA-256), then `nohup python3 run_emulate.py BUNDLE.json /abs/path/emu-hg-X RUN RUN ... > run-all.log 2>&1 &` (the script
+reads the key itself; never print, copy or log it). Pack `*.out.txt *.out.json run-all.log` into a .tgz, stage it, unpack it
+into the scratchpad, copy into `fix-20261018/emu-X/` and run `python3 tools/emu_runs.py back --align fix-20261018/emu-X`
+from `humanize/`. 40 to 3,000 words a run; about 97,500 words left after emu-t (2026-10-18). Never chain a run behind
+another with `pgrep -f` on the other's command line: the waiting shell's own command line matches, so it waits forever
+(emu-t lost eight minutes to that). Never edit Emulate's output with my own words except to put the meaning back, and
+every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md` (two open: is the 28 September editor HTML the latest; what to do with the de-hypnosis checklist,
-which reads AI in every version).
+`OWNER-QUESTIONS.md` (three open: is the 28 September editor HTML the latest; what to do with the de-hypnosis checklist,
+which reads AI in every version; and his own table-of-contents note, which reads AI-Low in the one version of HG02+03 that
+otherwise reads Human).
 
 ## Where it stands
 
-`STATUS.md` (newest on top, with each section's newest check link; `python3 tools/lane_status.py` rebuilds the table).
+`STATUS.md` (newest on top) and the section table: `python3 tools/lane_status.py` (each section's newest whole check with
+its stage, its paragraph checks, and **installed** for the sections in `fix-20261018/installed.json`).
 
-## The pipeline for a section (2026-10-18)
+## What 434g to 445g taught (2026-10-18)
 
-From `fix-20261018/`:
-1. **Screen.** Emulate's version must read 100% Human first (`make_bNNN.py` with the section's Emulate folders, newest
-   last; a folder's segments replace every earlier one they overlap). For an AI window that won't go: send the window's
-   published blocks whole, with headings, as one Emulate run (`make_emu_X.py`; `python3 tools/emu_runs.py back --align
-   fix-20261018/emu-X` from `humanize/`).
-2. **Units.** `python3 ../tools/assemble.py KEY DIRS... --out rev-X/KEY.units.json` (from `humanize/`, paths with
-   `fix-20261018/`); check its text equals the screen's draft.
-3. **My review.** `rev-X/make_reviews.py` (smallest fixes, published words in Emulate's sentence, quotes in the
-   stretch's own style) then `python3 ../tools/faithful.py apply rev-X/KEY.units.json rev-X/KEY.review.json
-   rev-X/KEY.fixed.json`. A long section: `faithful.py chunks UNITS OUT_PREFIX 15` and a Sonnet reviewer per part,
-   whose JSON I check before it goes in.
-4. **Second reader.** `faithful.py verify rev-X/KEY.fixed.json verify-Y/KEY.verify-prompt.txt`, a Sonnet reader.
-5. **Answer every finding.** Fix it (`rev-X/KEY.round2.json`, then `faithful.py merge` and `apply`) or answer it in
-   `dispositions.json`; then mark the section in `meaning-status.json`.
-6. **March.** `python3 ../tools/march_pairs.py draft rev-*/KEY.fixed.json ... --out march-Z --only-needed`, the prompt in
-   march-c's form, a Sonnet reader, `march_pairs.py read march-Z march-Z/march-labels.txt`. Where a fix took out a
-   break, put one back from Emulate's own words (march-c's six are in `rev-d/make_HG14_review.py` and
-   `rev-d/HG35.review.json`).
-7. **Pangram.** `python3 make_b434.py --dry` lists what's ready; `--write` builds the batch (one edit record per
-   section). Then paragraph checks, section records, install into `HUMANIZED-SO-FAR.md`, links back from the reviews'
-   "links".
+- **My meaning fixes make a section read AI when they change much of it.** Of 33 fixed sections, the 3 whose fixes changed
+  under 18% of the words stayed Human; of the 30 that changed more, 2 did (434g, 441g, 444g). The fixes put the published
+  phrasing back, and the published phrasing is what read AI in 429g.
+- **Plan B works for Pangram: send the fixed text back to Emulate** in the windows that read AI (`tools/refix_runs.py
+  window_runs`). 443g: 17 of 21 such refix screens read 100% Human; 445g: 4 of 5 more.
+- **But Emulate bends the meaning again** (the second reader found 0 to 71 problems per refix section; HG26, the "when to
+  get help" section, softened "get urgent help now"). So each refix goes through a second reader, then a **triage**
+  (`fix-20261018/rf-a/TRIAGE-BRIEF.md`): only what changes what a reader would do or believe is fixed, in as few words as
+  possible and in the stretch's own voice; nuance and tone are let stand and listed. The aim is under about 10% of the words
+  changed, so the section stays Human.
+- **Every paragraph is then checked alone** (`tools/install_fixed.py`: `section_md` is the Markdown that will be installed,
+  `para_texts` the fewest texts `paragraphs_alone.py` looks for). In 442g, 17 of 23 paragraph texts of Human sections read
+  Human; the ones that didn't get their own refix run (emu-s).
+- **Installed so far:** HG01, HG07 and HG12 (`tools/install_fixed.py install`, links put back from each stretch's "links").
 
-## Next step (2026-10-18, after batch 440g)
+## The pipeline for a section (2026-10-18, current)
 
-1. Read march-d and march-e when they're in (`python3 ../tools/march_pairs.py read march-d march-d/march-labels.txt`,
-   the same for march-e); for every stretch whose edit has fewer paragraphs with a break than Emulate's version, put a
-   break back and read it again.
-2. `python3 make_b434.py --write`, predictions first, push, run 434g in the seed tab.
-3. The second readers of rev-f (verify-c) and rev-g (verify-d), and the part reviews of HG17 and HG31
-   (`rev-g/HG17.review.partN.json`, `rev-g/HG31.review.partN.json`): check them, answer, march, then their own batch.
-4. Keep `STATUS.md`, this note and the laptop copy current after every batch.
+From `fix-20261018/` unless a command says `humanize/`:
+1. **Screen**: Emulate's rewrite of the published text reads 100% Human (`make_bNNN.py`; whole AI windows as one run).
+2. **Meaning**: my review (`rev-X/`), a second reader (`faithful.py verify` or `verify-chunks` for long sections), my
+   answers (round 2, `dispositions.json`, `meaning-status.json`), a march read (`march_pairs.py`; split a big draft into
+   parts of about 100 paragraphs and join the labels), then the edit check (`make_b434.py --batch N --write`).
+3. **Refix** the edit's AI windows (`make_emu_X.py` with `refix_runs.window_runs`; a quotation of someone else is kept out),
+   then screen (`refix_runs.assembled_fixed(fixed, [emu folders])`).
+4. **Second reader of the refix** (`refix_runs.units_fixed` -> `rf-X/KEY.units.json`; `rf-a/make_verify.py rf-X`), then the
+   **triage** (a Sonnet reader per few sections with `TRIAGE-BRIEF.md`, its `KEY.triage.json` checked by me), fixes applied
+   (`faithful.py apply rf-X/KEY.units.json REVIEW OUT`), a march read of the fixed stretches, an edit check.
+5. **Paragraph checks** (`make_b442.py` for fixed sections; `make_b445.py` shows the same for refix units), then **install**
+   (`python3 tools/install_fixed.py install HUMANIZED-SO-FAR.md FIXED_OR_UNITS.json ...` from `humanize/`) and a line in
+   `fix-20261018/installed.json`.
+
+## Next step (2026-10-18, after batch 445g)
+
+1. The triage files (`rf-a/KEY.triage.json`, Sonnet readers running at 05:50 UTC): check each fix against the published
+   text, apply, march, edit check. HG10's refix had no findings: its paragraph checks are next.
+2. The second readers of 445g's Human refixes (`rf-b/`: HG04, HG06, HG23, HG29+30, HG36), then their triage.
+3. emu-t (refix runs of 444g's five sections, HG16, HG17, HG31, HG37, HG38+39) is running on the laptop in
+   `inbox/emu-hg-t/`: bring it back, screen it.
+4. HG18 (AI 0.35 in two windows after two refix samples), HG24 (two small windows) and HG06 P3: another refix sample.
+5. Keep `STATUS.md`, this note, the laptop copy and the scorecard page current after every batch.

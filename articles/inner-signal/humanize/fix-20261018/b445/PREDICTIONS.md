@@ -6,16 +6,16 @@ Pangram's web app. Screens with the emu-s refix runs: second samples of 443g's A
 
 | text | mine | chance | why | Pangram |
 |---|---|---|---|---|
-| HG18-refix2 | Human | 55% | a second refix sample of the one window (158 words) that read AI in 443g |  |
-| HG23-refix2 | Human | 55% | a second refix sample of the stretch whose 78-word window read AI in 443g |  |
-| HG36-refix2 | Human | 55% | a second refix sample of the window (217 words) that read AI in 443g |  |
-| HG24-refix | Human | 75% | its 441g AI windows (1,047 words) rewritten from the fixed text; first refix samples: 17 of 21 Human |  |
-| HG29+30-refix | Human | 75% | its 441g AI window (513 words) rewritten from the fixed text; first refix samples: 17 of 21 Human |  |
-| HG04-refix | Human | 70% | Human whole in 441g; P1 and P2, which read AI alone in 442g, rewritten from the fixed text |  |
-| HG04-s-p1+next | Human | 79% | paragraph 1 of HG04 with the emu-s stretch (next), 125 words; the community lane's rate for this length |  |
-| HG04-s-p2 | Human | 77% | paragraph 2 of HG04 with the emu-s stretch (alone), 80 words; the community lane's rate for this length |  |
-| HG06-refix | Human | 70% | Human whole in 434g; P3, P4 and P6, which read AI alone in 442g, rewritten from the fixed text (P5, a quotation, kept) |  |
-| HG06-s-p3+prev | Human | 77% | paragraph 3 of HG06 with the emu-s stretch (prev), 98 words; the community lane's rate for this length |  |
-| HG06-s-p4+run | Human | 70% | paragraph 4 of HG06 with the emu-s stretch (run), 50 words; the community lane's rate for this length |  |
-| HG06-s-p5+next | Human | 70% | paragraph 5 of HG06 with the emu-s stretch (next), 77 words; the community lane's rate for this length |  |
-| HG06-s-p6 | Human | 70% | paragraph 6 of HG06 with the emu-s stretch (alone), 66 words; the community lane's rate for this length |  |
+| HG18-refix2 | Human | 55% | a second refix sample of the one window (158 words) that read AI in 443g | **Mixed** (AI Detected; windows: Human, High, 170; AI-Generated, High, 47; Human, High, 229; AI-Generated, High, 114, 560 words, AI likelihood 0.35), 05:42:49, [check](https://www.pangram.com/history/83f75339-363d-429a-b377-c6339d236f5d) |
+| HG23-refix2 | Human | 55% | a second refix sample of the stretch whose 78-word window read AI in 443g | **Human** (Human Written, high, 478 words, AI likelihood 0.01), 05:43:00, [check](https://www.pangram.com/history/98f81bd1-01ea-484f-ad25-750093862233) |
+| HG36-refix2 | Human | 55% | a second refix sample of the window (217 words) that read AI in 443g | **Human** (Human Written, high, 319 words, AI likelihood 0.03), 05:43:10, [check](https://www.pangram.com/history/2d675dff-0550-4b3c-8b68-89c42ebb66f5) |
+| HG24-refix | Human | 75% | its 441g AI windows (1,047 words) rewritten from the fixed text; first refix samples: 17 of 21 Human | **Mixed** (AI Detected; windows: AI-Generated, High, 87; Human, Medium, 81; AI-Generated, High, 54; Human, High, 1059, 1281 words, AI likelihood 0.11), 05:43:23, [check](https://www.pangram.com/history/9ce7c56c-5dbc-4e10-9897-788b4f9b4ad8) |
+| HG29+30-refix | Human | 75% | its 441g AI window (513 words) rewritten from the fixed text; first refix samples: 17 of 21 Human | **Human** (Human Written, high, 898 words, AI likelihood 0.00), 05:43:34, [check](https://www.pangram.com/history/19b268b0-7b72-441d-a943-2d18c193a976) |
+| HG04-refix | Human | 70% | Human whole in 441g; P1 and P2, which read AI alone in 442g, rewritten from the fixed text | **Human** (Human Written, high, 414 words, AI likelihood 0.11), 05:43:44, [check](https://www.pangram.com/history/0d852f81-ed67-4424-8e4d-491ea72d0e99) |
+| HG04-s-p1+next | Human | 79% | paragraph 1 of HG04 with the emu-s stretch (next), 125 words; the community lane's rate for this length | **Human** (Human Written, medium, 127 words, AI likelihood 0.00), 05:43:55, [check](https://www.pangram.com/history/4cbb1702-b364-4b4e-9e14-fbbf0402ad8b) |
+| HG04-s-p2 | Human | 77% | paragraph 2 of HG04 with the emu-s stretch (alone), 80 words; the community lane's rate for this length | **Human** (Human Written, low, 83 words, AI likelihood 0.04), 05:44:05, [check](https://www.pangram.com/history/94b15975-d8f5-4d96-99cd-94a3fb4b9acf) |
+| HG06-refix | Human | 70% | Human whole in 434g; P3, P4 and P6, which read AI alone in 442g, rewritten from the fixed text (P5, a quotation, kept) | **Human** (Human Written, high, 227 words, AI likelihood 0.00), 05:44:16, [check](https://www.pangram.com/history/9e338eee-a171-49d8-82ff-bae6f547ec49) |
+| HG06-s-p3+prev | Human | 77% | paragraph 3 of HG06 with the emu-s stretch (prev), 98 words; the community lane's rate for this length | **AI** (AI Generated, low, 100 words, AI likelihood 0.78), 05:44:26, [check](https://www.pangram.com/history/83c9a2e3-e48c-429d-b97b-ec2f30310657) |
+| HG06-s-p4+run | Human | 70% | paragraph 4 of HG06 with the emu-s stretch (run), 50 words; the community lane's rate for this length | **Human** (Human Written, low, 51 words, AI likelihood 0.00), 05:44:37, [check](https://www.pangram.com/history/5fc84c70-a892-409a-858e-381bc73ad0f0) |
+| HG06-s-p5+next | Human | 70% | paragraph 5 of HG06 with the emu-s stretch (next), 77 words; the community lane's rate for this length | **Human** (Human Written, low, 80 words, AI likelihood 0.00), 05:44:47, [check](https://www.pangram.com/history/ea9d2b48-9dfb-43ff-a214-624e47777311) |
+| HG06-s-p6 | Human | 70% | paragraph 6 of HG06 with the emu-s stretch (alone), 66 words; the community lane's rate for this length | **Human** (Human Written, low, 68 words, AI likelihood 0.00), 05:44:58, [check](https://www.pangram.com/history/4722d176-e807-48e5-92c3-984e76035fee) |

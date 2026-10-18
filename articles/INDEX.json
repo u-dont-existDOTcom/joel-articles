@@ -17223,7 +17223,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "806382708b5d3bdfcc99c1a39f4f2ad709f0de28af347e990e02606c1db49b09",
+          "sha256": "3f43f90761957b7350ad78f9dc17a3ceb7ce0f245ab62197289221893bd75261",
           "role": "humanization_working_record"
         },
         {
@@ -21488,7 +21488,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "a2045d6667308bfbf3a67977278fe8ad4f18c8db2f245aebba3e82aa129e3f3d",
+          "sha256": "7ff6460c03615e2994b61600969c64eac1a4fb51a4ca839a9e7c54b8ae823f69",
           "role": "humanization_working_record"
         },
         {
@@ -22748,7 +22748,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "282c0354e9b39467f72eee337fc673813a8d16b5938f1b4727bb38a56b8da705",
+          "sha256": "17e75b351bbb9f03e83785822c1f59f6a038d3541b48ab053504cb5f375ea5f3",
           "role": "humanization_working_record"
         },
         {
@@ -23998,7 +23998,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-a/make_verify.py",
-          "sha256": "b94e4bcd4e89d8ad5ce6aefb6880cf641f7a93d24f88d1972ea8827b875a5a06",
+          "sha256": "2d0503160376b71bcb91755c79a69a5c90c318b4e6fd4d8b13b90190bc33e032",
           "role": "humanization_working_record"
         },
         {
@@ -24018,7 +24018,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261018/b445/PREDICTIONS.md",
-          "sha256": "8b19d3ed37e90091417cb356d620c30ec2dfe0f6c9d42a6178e0ad82da5c6fa8",
+          "sha256": "b39c469ce9a5ee293c33c66911dca8bc29e52c1e3ecaa6f6f132f9eefe6ccd04",
           "role": "humanization_working_record"
         },
         {
@@ -24229,6 +24229,146 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG20.verify.part2.out.txt",
           "sha256": "c581ac545f5f9d7cf00c8a004f1f99c2a721a4bfbd47508c8c5c089e5b9acbfe",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b445/b445-results.json",
+          "sha256": "1223fe770dce5120692d40fdfba6e1319791245421ea0baa6eb9a31604bcda74",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/b445/flags.json",
+          "sha256": "4f215611d96573a3722bec8773a81b1b524603734780319d60d86f8019f176ca",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG11.verify.part1.out.txt",
+          "sha256": "2c534d380e069043c854f9b31817b195668489e61d8e50b85d4e696bee0400dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG13.verify.part1.out.txt",
+          "sha256": "936fe9aa7a935c39c5014dba58bf97cfb177fb6097cd5b2d2f1213a464b85a8c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG14.verify.part2.out.txt",
+          "sha256": "4fce06c0fc0835e249b010a2988885fe975ec6ca8df743c32aec9344ff2b9819",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG15.verify.part1.out.txt",
+          "sha256": "ef24714e61205001a11cac5d1e4128352c71dd8c6e840f884b0a745b90b58eca",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG20.verify.part1.out.txt",
+          "sha256": "5a60198c83d2576d6733fa02bcb57b87befaa82e3017e141a0696cbc821fc013",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG20.verify.part3.out.txt",
+          "sha256": "500bbc157d81e179afc24fc06321ace2ae56dc3015cc950ada99c7c1648fbd2a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG21.verify.part1.out.txt",
+          "sha256": "269d5b4527afe8c02ee5ac879fdd96e474bba6114561c6681004e67cfda07a25",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG22.verify.part1.out.txt",
+          "sha256": "e7253d0db9c71646942c7b6882096c7c5adc2fa467fbb4b8894835fc178663b9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG25.verify.part1.out.txt",
+          "sha256": "67f31ae9fe318af571b1ffdf997c08e54e1da776c129a506142c99ae7c330cee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG26.verify.part1.out.txt",
+          "sha256": "7168b2a4f40b39eac792d297e41731bed2d361fd2e5366a34b8993596a32cef6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG27.verify.part1.out.txt",
+          "sha256": "985fd12cc64b00b9f1149863eeecb37c248d48f9663181040eaf097bdc6eaea0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG28.verify.part1.out.txt",
+          "sha256": "7ed4b83462fbea1f5ce5c26ba3175903b46c6335dd902acaa086f45a8facce44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG33.verify.part1.out.txt",
+          "sha256": "c3a85f97f86179514f5af46383552502f2b506b2fba42edfe2f21bc49f3f7130",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/HG34.verify.part1.out.txt",
+          "sha256": "aaf7fd124af6aeefe72c2fd6eab6f32ef70803551c2eba4f134f1748de8592a0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-a/TRIAGE-BRIEF.md",
+          "sha256": "4d0d6d48dc5b0124000e964f5801075d7286c1246a07ce1c8f7f0f7d8e2cdb2e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG04.units.json",
+          "sha256": "747fde90141115e01ad9b7ae125ee5fe223ac9ff31ced8177ede6903bdd9fc1e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG04.verify.part1.txt",
+          "sha256": "cf0834538633a6d49265e1fccafb07028755d0c266e5c7c2087ab6c93aee8e24",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG06.units.json",
+          "sha256": "6b5fb7ae49bf8634632da28bde0d9cbe737803b07b723aad042e77de66c08d21",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG06.verify.part1.txt",
+          "sha256": "42db7da54564ba1af8fa033119f5059905a51258b549a55142eeef259e96d2b4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.units.json",
+          "sha256": "f749f51ea73a1376e331103e103d6064c89b9dea961d5ea0806b1d5678dfa899",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.verify.part1.txt",
+          "sha256": "209b04fb7a35c90bb3a883e5353ada74e4d56ba46e9481b2d487a41a5c11a3e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG29+30.units.json",
+          "sha256": "b1e7cdf3e7b0b55a466ca6f90d4b4f30662db72acae97ce54ad4398c6f70d6fd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG29+30.verify.part1.txt",
+          "sha256": "bbd05e3d14d350861505b22269d203012118e5b16c86c3089c62de4209032e76",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG36.units.json",
+          "sha256": "13c80f678ac58aff2f28eb2dbeeaceb12c0effd8a316deeb52c329fa54b4bb03",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/HG36.verify.part1.txt",
+          "sha256": "65f189916c10ed2ba09dbe7fd6fe7ec7ad980b6d4b3a3b6fdb9c975e58b0fd2a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-b/jobs.json",
+          "sha256": "a008ad8b239db68e59a5e3f241c7dd26310bffd4d9988cd9cc62f9fd9e49e44f",
           "role": "humanization_working_record"
         }
       ]
