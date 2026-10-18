@@ -29,7 +29,7 @@ rel = lambda p: str(pathlib.Path(p).resolve().relative_to(REPO))
 
 
 def screens():
-    """{text: (batch, name, headline, ai, link, gate record)} of every refix screen with a result."""
+    """{text: (batch, name, headline, ai, link, gate record)} of every refix screen and Emulate screen with a result."""
     out = {}
     for f in sorted(HERE.glob('b4*/drafts.json')):
         b = f.parent.name
@@ -39,7 +39,7 @@ def screens():
         r = json.loads(res.read_text(encoding='utf-8'))
         g = json.loads((f.parent / 'GATE.json').read_text(encoding='utf-8'))
         for name, text in json.loads(f.read_text(encoding='utf-8')).items():
-            if name in r and '-refix' in name:
+            if name in r and ('-refix' in name or '-emu' in name):  # plan C (rf-g): a first Emulate screen with only its major fixes
                 out[text] = (b, name, r[name][0], r[name][1], 'https://www.pangram.com/history' + r[name][5], g.get(name, {}))
     return out
 

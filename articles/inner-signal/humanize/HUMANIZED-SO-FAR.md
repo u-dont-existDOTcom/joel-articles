@@ -148,43 +148,35 @@ Without drugs, self hypnosis or meditation might also work way better inside a l
 
 # A useful map of the mind
 
-In this guide, *subconscious* means the deeper processes shaping perception, emotion, desire, avoidance, imagery, memory, bodily signals, habits, intuition, and automatic behavior. Sometimes it helps to address all of that as one mind; sometimes an ecology of parts gives more precision. Both are maps. Neither needs its own priesthood.
+Note: whenever I refer to the ‘subconscious’ I’m referring to all of the processes under the surface of your conscious awareness: perceptions, emotions, desires, avoidance tendencies, imagery, memories, body signals, habits, intuitions, automatic behaviours and so forth. You can work with all of these together as if it’s all one ‘mind’, or you can work with it as a set of parts, an ‘ecology’ if you like. There isn’t a ‘right’ or ‘wrong’ way to approach it. They’re all maps. Don’t form a priesthood around either one!
 
-Parts give precision. Higher Self gives coherence. Communion is the movement between them.
+Working with parts: Precision. Working with Higher Self: Coherence. Doing both: Communion.
 
-When you need coherence, speak to the deeper mind as a whole:
+If you need to work with the ‘whole’, the subconscious as one:
 
-“Wise subconscious, please help me understand.”
+a) ‘Invoke’ the subconscious in some way. Something simple like ‘Hello, wise subconscious, please help me understand…’ or whatever works for you.
 
-When you need precision, notice the different tendencies inside it: the child wanting love, the protector wanting safety, the critic wanting standards, the fantasy-maker wanting possibility, the body memory wanting recognition, the social self wanting belonging, the spiritual self wanting God or source or the benefit of all beings, and the wiser part wanting what is true.
+If you need to work with the ‘ecology’ in the subconscious (child parts, protectors, ‘critic’, fantasy making parts, body memories, social part, spiritual part (God/source/best benefit of all beings part) ‘wiser’ part etc etc then:
 
-Begin with unity when the system feels scattered:
+a) It’s usually a good idea to start with unity. So ‘invoke’ your Higher Self: Hello my Higher Self/universal heart-mind/wise subconscious, please guide me…
 
-“Higher Self, universal heart-mind, wise subconscious, please guide me.”
+b) Move into differentiation. “Which part is afraid? Which part wants to protect you? Which part wants to avoid it? Which part knows what to do? Which part is too young for this?” Etc.
 
-Differentiate only when the question needs it:
-
-“Which part of me is afraid?” “Which part is protecting?” “Which part is avoiding?” “Which part knows the next step?” “Which part is too young to carry this?”
-
-Then bring the parts back into one life:
-
-“Let all of this belong to one life. Let the adult self lead with love.”
+c) Move back into unity again. “And all of these parts are part of the one life, and as the adult in charge of this life you can lead with love…” Etc.
 
 ## Sometimes start with the whole
 
-Some people feel more fragmented when they begin by naming twelve parts and assigning everybody office space. Start with the sacred whole when that happens.
+Some people make themselves too fragmented by starting to work with parts. ‘Here’s a part! Here’s another one! I’ll get twelve of them in a room and give them all an office to hang around in!’ So it’s better to start from the Sacred.
 
-“I begin from the universal heart. I begin from Higher Self. I begin from the part of me that belongs to life before it belongs to any wound, role, family, group, identity, ideology, or story. Please help me understand what is true, kind, timely, stabilizing, and useful.”
+Start like this: ‘I’m approaching this from the universal heart. I’m approaching this from my Higher Self. I’m approaching this from the part of me that knows it belongs to life, not any wound, or role, or family, or group, or identity, or ideology, or story. So can you please tell me what’s going to be true and kind and timely and stabilising and useful here?’ Etc.
 
-If Higher Self, the universal heart, or any sacred language feels unavailable or borrowed from somebody else, begin with plain witnessing instead. Notice the room, the body, and the younger state. The fact that something can notice is enough adult presence for the first step.
+It can be that you can’t even access your Higher Self, or the universal heart, or whatever works for you. (Btw, if it doesn’t work for you don’t use it! It’s no good adopting somebody else’s map.) In that case, start by just witnessing whatever is coming up. Notice the room, your body, the fact that you’re in a younger state etc. Being able to notice is enough adult presence for the first step.
 
-If you can already notice and distinguish what is happening inside, you don’t need to keep rehearsing the Witness. Work with the warmth, protection, or direction that is actually missing. Higher Self language can help you gather around a meaningful source of care; it doesn’t establish that a perfectly capable inner parent is already available. Those adult functions still grow through practice.
+Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often warming up and protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. You usually need to work on developing them.
 
-Differentiate only when something specific appears:
+Differentiate only as you need to. “Is this my inner child? Or is this a protector? Is this my body? Is this fear? Is this intuition? Is this my social part? Is this divine guidance, or is this my interpretation of divine guidance?”
 
-“Is this the inner child?” “Is this a protector?” “Is this the body?” “Is this fear?” “Is this intuition?” “Is this social conditioning?” “Is this divine guidance, or my interpretation of guidance?”
-
-Start from the heart. Differentiate only as needed. Return to the heart.
+Always start from the heart, differentiate when you need to, then come back to the heart again.
 
 # The inner child, the guards, and the three inner adults
 
@@ -608,23 +600,21 @@ Sleep is separate. A sleep recording may end in sleep or quiet rest. A waking re
 
 # The actual inner meeting
 
-Sit rather than lie down when you tend to daydream, dissociate, or fall asleep. Let the spine rise without becoming military, soften the jaw, and keep some awareness of the room. Save lying down for sleep, deep rest, or dream incubation.
+Note: If you have a tendency to day dream, dissociate or fall asleep, it is better to do this exercise sitting up and save lying down for when you want to go to sleep, get a very deep rest or incubate dreams. If you are sitting, keep your spine straight but not rigid like a soldier. Relax your jaw and stay somewhat connected to the room you are in.
 
-“I am not leaving life. I am listening more deeply to life.”
+“I am not leaving life; I am listening more deeply to life.
 
-Begin by invoking the larger field:
+I invoke my Higher Self, universal heart-mind, wise subconscious mind, intelligence in my body, inner child(ren), inner adult(s), protector(s) and all that is of truth and love to help me know what I need to know in a form and at a level that will be useful, kind, stabilizing and real for me.”
 
-“Higher Self, universal heart-mind, wise subconscious, body intelligence, inner child, inner adults, protective parts, and all that serves truth and love: please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing, and real.”
+Ask your conscious mind to listen.
 
-You’re asking the conscious mind to listen without forcing an answer.
+This does not mean you have to stop thinking to listen. Just notice your thoughts, body sensations, pictures, doubts, emotions, etc. Don’t fight what comes up, but don’t go with it either. Just notice what stands out on its own as you hold the idea of what you are doing in the back of your mind.
 
-Thoughts do not have to stop before deeper listening begins. Let thoughts, sensations, images, doubts, and emotions pass through awareness without fighting or following them; keep the intention lightly in the background and notice what becomes salient on its own.
+Internally say, “Tell me what I need to know or ask me what you need to know and I’ll sit in silence for 5 minutes and listen.”
 
-“Please tell me what I need to know, or ask what you need to know. I will wait silently for five minutes.”
+You may hear a phrase, feel a body sensation, notice a memory, see a color, be contacted by a child or protector, feel pain, warmth, complete silence, know that you need to do something, be grateful for something, feel you need to stop the listening or any number of things.
 
-The response may be a phrase, sensation, memory, color, child, protector, pain, warmth, silence, task, gratitude, an urge to stop, or the realization that today’s practice is over.
-
-Listen to all of it. Believe none of it automatically.
+Listen to everything and believe nothing automatically.
 
 # Let the next response guide you
 

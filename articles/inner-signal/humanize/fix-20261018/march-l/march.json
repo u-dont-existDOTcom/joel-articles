@@ -1,0 +1,128 @@
+{
+ "HG15-B1": {
+  "was": [
+   "S S S S S B S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S B",
+   "S S S",
+   "B S S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S S S S S",
+   "S S S S B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S B"
+  ],
+  "new": [
+   "S S S S S B S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S B",
+   "S S S",
+   "B S B S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S S S S S S",
+   "S S S S B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S B"
+  ]
+ },
+ "HG33-B8": {
+  "was": [
+   "S S S S S B S"
+  ],
+  "new": [
+   "S S S S S B S"
+  ]
+ },
+ "HG33-B11": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG33-B17": {
+  "was": [
+   "S S S S S S S S"
+  ],
+  "new": [
+   "S S S S S S S S"
+  ]
+ },
+ "HG33-B22": {
+  "was": [
+   "S S S S S S S",
+   "S",
+   "B B B S"
+  ],
+  "new": [
+   "S S S S S S S",
+   "S",
+   "B B B S"
+  ]
+ },
+ "HG33-B26": {
+  "was": [
+   "B B B B B",
+   "B B B B",
+   "S S S"
+  ],
+  "new": [
+   "B B B B B",
+   "B B B B",
+   "S S S"
+  ]
+ },
+ "HG34-B1": {
+  "was": [
+   "S S S S S",
+   "S S S",
+   "B S",
+   "S",
+   "S S S",
+   "S",
+   "S S"
+  ],
+  "new": [
+   "S S S S S",
+   "S S S",
+   "B S",
+   "S",
+   "S S S S",
+   "S",
+   "S S"
+  ]
+ }
+}

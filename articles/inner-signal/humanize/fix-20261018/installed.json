@@ -35,5 +35,21 @@
   "paragraphs": "448g",
   "fixed": "rf-a/HG11.units.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG13": {
+  "stage": "triaged",
+  "whole": "449g HG13-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG13.verify.part1.out.txt, triaged in rf-a/HG13.triage.json",
+  "paragraphs": "450g",
+  "fixed": "rf-a/HG13.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG19": {
+  "stage": "triaged",
+  "whole": "449g HG19-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG19.verify.part1.out.txt, triaged in rf-a/HG19.triage.json",
+  "paragraphs": "450g",
+  "fixed": "rf-a/HG19.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

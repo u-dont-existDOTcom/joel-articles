@@ -1,0 +1,293 @@
+{
+ "key": "HG35",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r",
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-w"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix F: Self-trust, outside guidance, and oracle-like states"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "[Please see how to use synchronicity as a cue, not an oracle, above.]"
+   ],
+   "run": "HG35-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B1: LOST claim that the synchronicity cue turns noticing into orientation and reality-testing, not an oracle (only 'not an oracle' restored)",
+     "replace": "as a cue, above.",
+     "with": "as a cue, not an oracle, above.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "One of the issues here is that people vary dramatically in how suggestible they are, both internally and externally, and different people vary in how suggestible they are in different states. Different types of suggestion (commands, imagery, music, metaphors, spiritual, etc) can be very different for different people. So there are definite advantages to both having someone work with you (pacing, containment, another set of eyes), and doing things yourself. Being able to follow up immediately, to correct something in real time, to have a line of communication with protectors, etc."
+   ],
+   "run": "HG35-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B2: LOST what a professional brings (pacing, containment, another set of eyes)",
+     "replace": "work with you, and",
+     "with": "work with you (pacing, containment, another set of eyes), and",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "REPEAT",
+     "what": "R: suggestibility differs by type of suggestion, in B2 and B2",
+     "replace": "externally, to various types of suggestion, and",
+     "with": "externally, and",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "That said, self hypnosis may be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relational wounds that need another nervous system, skilled outside support may be best."
+   ],
+   "run": "HG35-r1-s1",
+   "file": "fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Finding a hypnotist who can work with you"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5,
+    6,
+    7
+   ],
+   "paras": [
+    "What they are trained in (what they can treat) How they use hypnosis What they will do if things don't \"fit\" (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+    "What has/hasn't worked for you in the past How direct you want them to be What kind of touch (if any) you are ok with What kind of imagery (if any) you are ok with What you want them to do if you want them to stop What they will do if things go unexpected during or after the session What they do if you aren't sure if something is a memory or not How they will do the full return (coming out of hypnosis) at the end of the session You should be able to be firmly encouraged, but not forced to continue if you don't want to.",
+    "Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, if they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was \"bad,\" but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things they did meant. They probably won't be able to tell you if the person was \"certified\" in them or not, though. Then you can decide if you want to try learning to do self-hypnosis, using both, or find someone else. Those are all good options."
+   ],
+   "run": "HG35-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B5: LOST that credentials matter (only the no-guarantee half kept)",
+     "replace": "Having hypnosis certifications doesn't mean",
+     "with": "Having hypnosis certifications matters, but doesn't mean",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "When the subconscious speaks like an oracle"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9,
+    10
+   ],
+   "paras": [
+    "Your subconscious is amazing at picking up on things your conscious mind isn't getting. Whether it's anticipations, reading patterns, or just picking up on uncanny things, it's good to respect what your subconscious is picking up on. But just because your subconscious gives you an image or tells you to do something, that doesn't mean you need to treat it like an order.",
+    "Especially if it's a big thing, or something that can't be easily undone, slow it down to the scale of the thing. Look at it with your adult's eyes, and take it to council."
+   ],
+   "run": "HG35-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "The council — internal first, then outward"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12,
+    13
+   ],
+   "paras": [
+    "Ask your child, your adult, your conscious mind, your subconscious mind, your intuition, your analytical mind. But if it's bigger than all of those, ask outside of yourself, too. The bigger and more un-undoable something is, the more you want to reach outside.",
+    "Ask people who love you, people who are like you, people who have done what you are thinking of doing. Sometimes it is right to go it alone, but I would suggest making it the last step, after you've tried to get council."
+   ],
+   "run": "HG35-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "On the other hand, it is possible to give your power away. Seeking counsel can quietly turn into abdicating to an authority figure. Another person doesn’t get automatic trust, or automatic dismissal."
+   ],
+   "run": "HG35-r1-s4",
+   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Sometimes you need the support of your peers. In Hearthwork, the concept is that you give each other equal time, warmth, confidentiality, and acceptance of “no” as an answer, and you act for each other as Nurturer and Protector, but not as Guide. Then you reverse roles. Sometimes, with a question asked carefully and at the right time, your peers can help you hear your own Guide more clearly, but they don’t interpret what you experience."
+   ],
+   "run": "HG35-r1-s4",
+   "file": "fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "links": [
+    {
+     "published": "Hearthwork",
+     "new": "Hearthwork"
+    }
+   ],
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Forgiveness without bypass"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "There are a lot of times when we can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We simply remember that it can all be true.",
+    "It can all be true that:"
+   ],
+   "run": "HG35-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "A helpful understanding to come to, is that while their actions were harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give. It doesn’t make their limitations matter any less."
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”"
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Some questions that may be helpful to ask when coming to a place of forgiveness, while still holding all of the above:"
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?"
+   ],
+   "run": "HG35-r1-s5",
+   "file": "fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "For self-forgiveness, name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.",
+    "Take responsibility, feel the remorse, then rectify if you can, and then let it go. Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage."
+   ],
+   "run": "HG35-r1-s6",
+   "file": "fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "verdict": "OK"
+  }
+ ]
+}

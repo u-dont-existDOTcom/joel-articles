@@ -1,0 +1,120 @@
+{
+ "HG14-B15": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG14-B19": {
+  "was": [
+   "S",
+   "S S B S",
+   "S S S S",
+   "S S S B",
+   "S S S S S"
+  ],
+  "new": [
+   "S B",
+   "S S B S",
+   "S S S S",
+   "S S S B",
+   "S S S S"
+  ]
+ },
+ "HG14-B29": {
+  "was": [
+   "S S",
+   "B",
+   "B",
+   "B",
+   "B B B",
+   "B B",
+   "B B"
+  ],
+  "new": [
+   "S S",
+   "B",
+   "B",
+   "B",
+   "B B",
+   "B",
+   "B"
+  ]
+ },
+ "HG14-B37": {
+  "was": [
+   "S B",
+   "S S S",
+   "S S S S",
+   "S S"
+  ],
+  "new": [
+   "S B",
+   "S S S",
+   "S S S S",
+   "S S"
+  ]
+ },
+ "HG14-B51": {
+  "was": [
+   "S",
+   "S",
+   "B S B B"
+  ],
+  "new": [
+   "S",
+   "S",
+   "B S B"
+  ]
+ },
+ "HG14-B60": {
+  "was": [
+   "S B S S S S S B"
+  ],
+  "new": [
+   "S B S S S S S B"
+  ]
+ },
+ "HG14-B65": {
+  "was": [
+   "B",
+   "S S",
+   "S S",
+   "B",
+   "S S",
+   "S S",
+   "S S S",
+   "S S",
+   "S B",
+   "S S B",
+   "S S",
+   "S B"
+  ],
+  "new": [
+   "B",
+   "S S",
+   "S S",
+   "B",
+   "S S",
+   "S S",
+   "S S S",
+   "S S",
+   "S B",
+   "S S B",
+   "S S",
+   "S B"
+  ]
+ },
+ "HG14-B76": {
+  "was": [
+   "S S S",
+   "S S"
+  ],
+  "new": [
+   "S S S",
+   "S S B"
+  ]
+ }
+}
