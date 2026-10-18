@@ -1,0 +1,71 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
+condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
+that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B0] Appendix E: Is the daydream helping or replacing your life?
+
+[B1] Daydreaming can be intuition, simulation, grief digestion, creative rehearsal, symbolic teaching, or the subconscious showing a possible future, fear, or desire. It can also become avoidance, fantasy addiction, dissociation, romantic obsession, or an escape hatch from adult life.
+
+[B2] Does the daydream return me to life with more clarity, love, and action? Or does it pull me away from life into repetition, craving, and avoidance?
+
+[B3] When it seems useful, ask:
+
+[B4] “What is the guidance inside this?”
+
+[B5] When it seems to be pulling you away, change the body before debating the story. Sit upright. Open the eyes a little. Feel the feet.
+
+[B6] “Subconscious, thank you for showing me images. If this daydream is useful, please reveal the guidance inside it. If it is avoidance, please bring me gently into the present and help me deal with what I need to deal with in a gentle but structured way.”
+
+[B7] Then get embarrassingly practical:
+
+[B8] “What real-life action is this daydream replacing?”
+
+[B9] The answer may be: send the message, stop sending the message, clean the room, eat, sleep, grieve, create, apologize, leave, tell the truth, make the plan, ask for help, return to the task, or stop chasing unavailable love.
+
+REWRITE:
+[B0, as published] Appendix E: Is the daydream helping or replacing your life?
+
+[CHANGED, replaces B1-B9]
+Sometimes, daydreaming is intuitive. Your subconscious is simulating an idea or event to help you digest trauma or teach you something. The act of daydreaming may also be a creative exercise or a way your subconscious is telling you about the future. Sometimes your subconscious will show you things you’re afraid of, so you can learn to deal with them. Sometimes it shows you what you want.
+
+Other times, it’s a detriment. An escape from reality. An addiction to fantasy rather than reality. Dissociation from the pain of real life. Obsession with romantic partners. Refusal to accept the responsibilities of adult life.
+
+How do you know which one it is? Ask yourself, “Is my daydreaming bringing me back into life or taking me away from it?”
+
+If it’s helping you, ask for more specific guidance.
+
+If it’s taking you away from life, immediately sit up straight and open your eyes. Then ask your subconscious for help. “Hey subconscious, thanks for all these interesting images. If they’re helpful, please show me what I need to know. If they’re just a way for me to avoid dealing with life, please bring me into the present and show me how to deal with life in a gentle but structured way.”
+
+Then ask yourself, “What do I need to do in the real world that I’m avoiding by daydreaming?”
+
+It could be anything from “send a text message” or “stop sending text messages” to “clean my room” or “eat” or “sleep” or “deal with my grief” or “create something” or “apologize” or “leave someone” or “tell the truth” or “make a plan” or “get help” or “return to the task at hand” or “stop fantasizing about people who can’t love me.”

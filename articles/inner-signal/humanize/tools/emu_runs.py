@@ -7,7 +7,8 @@ rewrite is put back; a run's output is used only if it has as many paragraphs as
 original headings.
 
   python3 tools/emu_runs.py make FLAGS.json OUTDIR [--keys K ...]     -> OUTDIR/<run>.txt and OUTDIR/runs.json
-  python3 tools/emu_runs.py back OUTDIR                               -> OUTDIR/back.json: each run's blocks, old and new
+  python3 tools/emu_runs.py back OUTDIR                               -> OUTDIR/back.json: each run's segments, old and new
+  python3 tools/emu_runs.py split SRCDIR OUTDIR --runs R ...          -> smaller runs (no headings) for runs that didn't map
 
 FLAGS.json is flagged.py's report (each key's flagged blocks); the keys' texts are rebuilt from the working copy the same
 way make_b429.py built them (sections.py), so every block knows whether it is a heading.
@@ -175,9 +176,67 @@ def back(outdir, md_path, editor):
         print(r['run'], r['status'])
 
 
+def split(src_dir, runs, outdir, md_path, editor, max_words=180):
+    """Smaller runs for runs whose output couldn't be placed: each a stretch of consecutive prose blocks of the run, no
+    headings (a stretch with no heading maps back as one segment whatever Emulate does with its paragraphs), at most
+    MAX_WORDS where the blocks allow, at least MIN_WORDS, a lead-in (a block ending with a colon) kept with the block after
+    it."""
+    src = json.load(open(pathlib.Path(src_dir) / 'runs.json', encoding='utf-8'))
+    kb = key_blocks(md_path, editor)
+    out = pathlib.Path(outdir)
+    out.mkdir(parents=True, exist_ok=True)
+    try:
+        manifest = json.load(open(out / 'runs.json', encoding='utf-8'))
+    except FileNotFoundError:
+        manifest = []
+    have = {m['run'] for m in manifest}
+    for m in src:
+        if m['run'] not in runs:
+            continue
+        blocks = kb[m['key']]
+        prose = [j for j in m['sent'] if not blocks[j][2] and j in m['flagged']]
+        # stretches of consecutive prose (a heading or a kept block ends one)
+        stretches, cur = [], []
+        for j in prose:
+            if cur and j != cur[-1] + 1:
+                stretches.append(cur); cur = []
+            cur.append(j)
+        if cur:
+            stretches.append(cur)
+        n = 0
+        for st in stretches:
+            pieces, cur, words = [], [], 0
+            for idx, j in enumerate(st):
+                w = len(blocks[j][1].split())
+                lead_in = blocks[j][1].rstrip().endswith(':')
+                if cur and words + w > max_words and words >= MIN_WORDS and not blocks[cur[-1]][1].rstrip().endswith(':'):
+                    pieces.append(cur); cur, words = [], 0
+                cur.append(j); words += w
+            if cur:
+                if pieces and words < MIN_WORDS:
+                    pieces[-1] += cur
+                else:
+                    pieces.append(cur)
+            for pc in pieces:
+                n += 1
+                name = '%s-s%d' % (m['run'], n)
+                text = '\n\n'.join(blocks[j][1] for j in pc)
+                if len(text.split()) < MIN_WORDS:
+                    print('%s: %d words, under Emulate\'s minimum; left as published' % (name, len(text.split())))
+                    continue
+                (out / (name + '.txt')).write_text(text, encoding='utf-8')
+                if name not in have:
+                    manifest.append({'run': name, 'key': m['key'], 'sent': pc, 'flagged': pc, 'headings': [], 'words': len(text.split()),
+                                     'split_from': m['run']})
+                print('%-18s %4d words, blocks %s' % (name, len(text.split()), pc))
+    (out / 'runs.json').write_text(json.dumps(manifest, indent=1) + '\n', encoding='utf-8')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=('make', 'back'))
+    ap.add_argument('cmd', choices=('make', 'back', 'split'))
+    ap.add_argument('--runs', nargs='*')
+    ap.add_argument('--max', type=int, default=180)
     ap.add_argument('args', nargs='+')
     ap.add_argument('--keys', nargs='*')
     ap.add_argument('--md', default=str(H / 'HUMANIZED-SO-FAR.md'))
@@ -185,6 +244,8 @@ def main():
     a = ap.parse_args()
     if a.cmd == 'make':
         make(a.args[0], a.args[1], a.keys, a.md, a.editor)
+    elif a.cmd == 'split':
+        split(a.args[0], a.runs, a.args[1], a.md, a.editor, a.max)
     else:
         back(a.args[0], a.md, a.editor)
 

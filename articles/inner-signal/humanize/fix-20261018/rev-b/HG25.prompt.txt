@@ -1,0 +1,108 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
+condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
+that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B0] What not to do
+
+[B1] Do not treat inner voices, images, autonomous movements, or body signals as commands or proof. Listen, then reality-test.
+
+[B2] Do not chase grand downloads or turn demons, jinn, and “Unattached Burdens” into a hobby. Stabilize first, and seek help when reality-testing or function weakens.
+
+[B3] Do not use self-hypnosis while driving, bathing, swimming, operating equipment, supervising children, or doing anything that requires active attention.
+
+[B4] Do not force memory recovery, use trance to prove what happened, or suppress medical symptoms.
+
+[B5] Do not override hunger, fatigue, pain, grief, anger, or fear before understanding the signal.
+
+[B6] Do not prolong altered states indefinitely or treat intuition as fact without testing it.
+
+[B7] Keep the inner roles in proportion: the child does not lead adult life; the Protector cannot exclude all love; the Nurturer cannot erase consequences; the Leader cannot bypass the child; analysis and tenderness both remain available.
+
+[B8] Do not use NLP to override protectors, manufacture certainty, manipulate anyone, or perform healing when the body says no.
+
+[B9] Doubt, distraction, resistance, silence, and “no” do not prove that an induction is working.
+
+[B10] “The unconscious will keep me safe” does not replace clear limits, a safe setting, the ability to stop, and a tested exit.
+
+[B11] Ordinary sensations do not prove hidden trauma, illness, toxicity, possession, attachment, transformation, or subconscious truth.
+
+[B12] Imagined repair does not establish physical recovery, neurological repair, cellular change, or a cure.
+
+[B13] Do not install hidden instructions, undisclosed third-party activation, compulsory behavior, identity switching, or amnesia. A consciously chosen reusable cue should have a clear purpose, remain reviewable, and be retired if it becomes unwanted; saying “cancel” does not guarantee instant erasure.
+
+[B14] End every waking session with ordinary identity, movement, orientation, judgment, and a direct statement that the session has ended.
+
+REWRITE:
+[B0, as published] What not to do
+
+[CHANGED, replaces B1]
+DO NOT: See the voices, images, movements or body signals as real, but always reality test them.
+
+[CHANGED, replaces B2]
+DO NOT obsess about “downloading” grandiose information or become obsessed with demons, jinn, “Unattached Burdens”, etc. Stabilize yourself. Get help if necessary, especially if not reality testing well or if not functioning well in life.
+
+[CHANGED, replaces B3]
+DO NOT do self-hypnosis while driving a car, bathing, swimming, or otherwise doing something that requires active participation.
+
+[CHANGED, replaces B4]
+DO NOT try to “force” memories to “prove” something to yourself or ignore medical symptoms by “forcing” them down through hypnosis.
+
+[CHANGED, replaces B5]
+DO NOT “force” yourself to ignore basic body signals, like hunger, tiredness, pain, etc., or basic emotions, like grief, anger, fear, etc.
+
+[CHANGED, replaces B6]
+DO NOT “extend” altered states indefinitely or take intuitive hits as “real” without reality testing them.
+
+[CHANGED, replaces B7]
+DO NOT allow any inner state, like the “Inner Child” or “Protector” or “Nurturer” or “Leader” to take over completely. They each need the others.
+
+[CHANGED, replaces B8]
+DO NOT use NLP techniques to “force” down “protectors” or to do anything else that does not make logical sense, like to manipulate people or to “heal” something that the body is saying cannot be healed.
+
+[CHANGED, replaces B9]
+Don’t convince yourself that negative indicators like doubt, distraction, resistance, or lack of response, or saying “No” are good indicators that the induction is working.
+
+[CHANGED, replaces B10]
+Don’t rely solely upon the “safety” of “the unconscious mind”. Always make certain that the circumstances are as safe as possible and that there is a safe way out.
+
+[CHANGED, replaces B11]
+Don’t believe that normal physical sensations are indicators of trauma, illness, body toxins, demonic possession, “attachments”, “transformations” or anything else, just because the “subconscious” says they are.
+
+[CHANGED, replaces B12]
+Don’t believe that anything is “healed” physically or neurologically/cellularly, simply because it is “healed” in the imagination.
+
+[CHANGED, replaces B13]
+Don’t ever allow anyone to put “commands” in without giving them to yourself consciously and knowing why and wanting them, so that they can be used repeatedly and reviewed and removed if they are no longer wanted. There is no way to “put something in” that cannot be removed, but saying “I remove them” may not be enough. Don’t allow anyone to give commands to someone else to give to “YOU” or to make YOU do anything or change to a different person or have amnesia, etc.
+
+[CHANGED, replaces B14]
+DO bring yourself back to normal consciousness as yourself at the end of each session while awake.

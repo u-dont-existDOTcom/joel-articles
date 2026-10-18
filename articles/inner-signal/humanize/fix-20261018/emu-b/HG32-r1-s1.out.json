@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG32-r1-s1.txt",
+  "input_words": 176,
+  "input_sha256": "496e10f2557a9ca4ba021a468d6e402a108620f2f294f6027a47134442f20a37",
+  "balance_before": 143853,
+  "started_utc": "2026-10-18T03:02:02Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:14Z",
+  "response": {
+    "id": "8e67e8cf-e010-44c8-9b2f-91470c27fe78",
+    "tool": "humanize",
+    "text": "Things to Consider When Influence is Occurring\n\nTake a Time Out and say to yourself:\n\nI see that influence is occurring. I don’t have to act on it. I don’t have to attack it. I can take a time out. I can consider what is being presupposed here. I can consider who benefits here. I can pay attention to what my body is telling me, without believing it tells the whole story. I can ask some questions, such as how does this square with love? How does this square with truth? How does this square with humility? How does this fit with ordinary life?\n\nThen say to yourself: If it’s true, it will survive the passage of time. If it’s love, it will survive the passage of time. If it’s what I’m supposed to do, it will survive the passage of time. If it’s really for me, it will survive my being an adult.\n\nThen ask yourself: Is there any …\n\nsense of urgency? sense of secrecy? sense of shame? threatening to not include me if I don’t do what I’m being influenced to do? promise of specialness? sexual charge? sense of spiritual superiority? direct request for money, sex, loyalty, silence, or obedience? way in which my choices are being narrowed? way in which questioning is being equated with betrayal? way in which my resistance is being pathologized? way in which ordinary life is being downgraded?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 176
+    },
+    "elapsed": 12
+  },
+  "balance_after": 143677
+}

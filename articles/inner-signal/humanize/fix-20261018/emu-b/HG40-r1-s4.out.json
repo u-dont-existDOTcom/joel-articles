@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG40-r1-s4.txt",
+  "input_words": 61,
+  "input_sha256": "39f99b40a57d64fb9d1556c71ab0681ed2ca2746fd08d97e1d5ac85514402b0b",
+  "balance_before": 139443,
+  "started_utc": "2026-10-18T03:03:51Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:58Z",
+  "response": {
+    "id": "5bd0e5d4-733d-4ded-973e-e8c9e6a61163",
+    "tool": "humanize",
+    "text": "Note: Parts of this post draw heavily from several chapters in In an Unspoken Voice by Peter Levine, 2010, particularly chapters 5 and 7, but also from chapters 3 and 4 of Freedom from Pain by Levine and Maggie Phillips, 2012, and chapter 4 of Healing Trauma by Levine. They discuss key ideas of tracking, resources, titration, pendulation and the range of foci of attention, from sensation, imagery, behavior, emotion to meaning, in depth. Also, although movements and images are offered for trying out here, they are not offered with the presumption that this is what is “fixing” anything physiologically.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 61
+    },
+    "elapsed": 6
+  },
+  "balance_after": 139221
+}

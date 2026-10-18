@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG40-r1-s2.txt",
+  "input_words": 68,
+  "input_sha256": "35c5d774cc33df3af625aa17435d6064198b084bb38650d204f3ebee4ea89492",
+  "balance_before": 139734,
+  "started_utc": "2026-10-18T03:03:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:42Z",
+  "response": {
+    "id": "5893d3fd-36a2-4e38-b151-e047eacc8f73",
+    "tool": "humanize",
+    "text": "Maggie Phillips and Claire Frederick in Healing the Divided Self (1995), pp 24-27, 45-50, 83-90, deal with some aspects of interactive hypnosis such as helping the subject learn how to use other senses in the learning process, developing self-hypnosis and also a definite way of getting back into hypnosis when required. It is more of a clinical book for professional hypnotists rather than a self-help one, so be careful about trying to introduce the case procedures described to yourself. Also be careful about taking the historical information at face value. Adam Eason, with Benjamin Parris, has an excellent article on self-hypnosis in this issue of ISH, dealing with self-directed learning and the question of another hypnotist and recordings.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 68
+    },
+    "elapsed": 7
+  },
+  "balance_after": 139504
+}

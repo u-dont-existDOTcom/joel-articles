@@ -1,0 +1,78 @@
+{
+ "key": "HG15",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "When “your voice” is everybody else’s voice"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "paras": [
+    "Working with your inner child can be harder when you did not have a private self to begin with. This happens a lot when people come from a background where their family, religion or community took over their life very early on, or they were pressured to achieve in a certain way at a young age. This means that you don’t know who you are, what you feel, what you want, what you believe, what you like, or what you don’t like until you hear what someone else says first. This makes it hard to follow the advice to “love yourself” when you don’t know who “yourself” is. So in these cases, reparenting needs to go hand in hand with finding yourself. For some, it’s easy to work with their child-self because they can feel their child-self really easily. For others, it requires creating safety and playing around more to feel their child-self.",
+    "You might be in this camp if:",
+    "You don’t know what you want until you hear what someone else wants",
+    "You find that your opinions change dramatically depending on who is around",
+    "You catch yourself agreeing with someone when you didn’t agree in the moment",
+    "You tend to take responsibility for other people’s emotions to the detriment of yourself",
+    "Trying to love yourself feels like a performance",
+    "Trying to find out how your inner child feels, results in guesses instead of feeling",
+    "You find that you can rebel, but you can’t choose",
+    "The reason for this is that a part of your brain didn’t have the opportunity to explore “what do I like?” and “what do I want to try out?” because as a child you were focused on finding ways not to hurt yourself or lose attachment.",
+    "Sometimes it is necessary to distance yourself for a certain period from the people or group that you are getting your answers from so that you can distinguish between what you want and what you are told to want. However, you don’t need to do this for long – just long enough to differentiate what is yours from what is social.",
+    "This means moving from a “human doer” to a “human being”. If you don’t feel like you are good enough just because you exist, you will try to create a sense of worth by being beautiful, by doing something well, by being smart, by gaining status, by being more spiritual than everyone else, or by being needed. In all of these cases, you are essentially making a bargain with yourself – that as long as you are good at something (or good at being good for other people), you will be good enough to belong. And if you fall short in that arena, you feel that you are not good enough.",
+    "To help you find yourself, ask yourself these questions:",
+    "What do I like when no one is watching?",
+    "What do I believe before I check what other people think?",
+    "What do I want that is not in rebellion to others, and is not in compliance with others?",
+    "Where am I buying my sense of belonging by betraying myself?",
+    "What “arena” am I using to try to buy my sense of belonging?",
+    "What can I try on for size that I don’t need to impress anyone with?",
+    "What relationships allow me to be myself?",
+    "What do I notice in my body and what meaning am I attaching to it?",
+    "Remember that your inner child needs to play! Try out some things that have no value towards your resume – painting, dancing, gardening, learning a language, a sport, volunteering, playing music, etc. Your parent may be telling you that you are supposed to be good at something as soon as you start doing it. Your job as your own parent is to remind yourself that you are not doing these things to prove your worth – you are doing them to see if you like them or not. And it will take some time before the humiliation of being a beginner goes away.",
+    "As a child, belonging was essential to your survival. As an adult, it can manifest in families, religions, romantic relationships, political tribes, spiritual groups, institutions, or even online. Part of “adulting” is finding out where you are trading your sense of self in exchange for belonging, and then consciously choosing where you want to belong – on your terms. A large part of your subconscious mind is made up of the voices of other people, so this is also a good opportunity to use some of the tools in this self-hypnosis guide to help you let go of them.",
+    "Where am I betraying myself in exchange for belonging?",
+    "What would it feel like to belong without having to betray myself?",
+    "Is this my own guidance or a belonging program I adopted?",
+    "Is this love, or is it a fear of being excluded?",
+    "Is this my conscience or is it conditioning?",
+    "Is this devotion, or is it compliance?",
+    "Is this rebellion, or is it freedom?",
+    "Then see what your body tells you."
+   ],
+   "run": "HG15-r1",
+   "file": "fix-20261018/emu-a/HG15-r1.out.txt"
+  }
+ ]
+}

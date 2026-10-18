@@ -1,0 +1,39 @@
+{
+ "key": "HG01",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "This guide has an app coming soon! Working hard!"
+   ],
+   "heading": false
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "How to use this very large guide"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "This is a very big guide. To make it easier, you can use the Quick start section if you want to quickly learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, to learn what to do when your response is not guided by a recording. You can also look at the daily and weekly sections for something to try out every day, or every week. If you have questions, or want to learn more, there are lots of appendices, covering lots of topics, including questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, ways to influence others, and more inductions. All sources used are in Appendix K."
+   ],
+   "run": "HG01-r1",
+   "file": "fix-20261018/emu-a/HG01-r1.out.txt"
+  }
+ ]
+}

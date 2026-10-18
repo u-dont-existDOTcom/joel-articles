@@ -72,7 +72,9 @@ VERIFY = """Below is one section of {about}
 For each CHANGED stretch, compare it with the PUBLISHED blocks it replaces. Answer with one line per stretch: "B<n>: OK"
 (n = its first block) when a reader of it would understand everything those published blocks say and nothing more, or
 "B<n>: <LOST|SHIFT|INVENTED|WRONG|UNCLEAR> <what, in a few words>" for each remaining problem (one line each). Style
-doesn't matter, only meaning. Nothing else.
+doesn't matter, only meaning. Then one last line: "REPEATS: 0" if no point is made twice in the REWRITE where the
+PUBLISHED section makes it once, or "REPEATS: <n>" followed by one line per repeat ("R: <the point>, in B<a> and B<b>").
+Nothing else.
 
 PUBLISHED section:
 {published}

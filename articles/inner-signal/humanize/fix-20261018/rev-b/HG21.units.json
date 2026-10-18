@@ -1,0 +1,62 @@
+{
+ "key": "HG21",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The 15-minute daily practice"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "You may choose to do all of this practice, or learn the second script. Either way, you'll be using a similar process and can use these recordings as a base for your own practice. These exercises only need to be done for fifteen minutes or so. This is not a therapeutic time, but merely enough time to induce yourself (a few minutes), do what you are going to do (in this case 5 minutes of sitting in silence and listening), and then bring yourself back out again (a few minutes). You can break out of the process at any time, if you feel you need to do something else."
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "B) Notice three things you can see, then three things you can hear and three sensations you can feel in your body. Now do two of each, then one of each. Count from 5 to 1 and start listening."
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "After practicing a few times with these scripts, feel free to edit them down and remove any parts that you feel are no longer necessary to help you induce yourself. The idea is that eventually, you will not even need to play them back. But there is no harm in using them if you enjoy it. (Note: in script A, the part about coming back out again is optional; if you are familiar with the induction process, it will probably be enough to simply count)."
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "When you come out of the process, consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life. Perhaps there is something you would like to explore or build up. You may want to take this process with you as you move about your day. If there is something you need to do, then make a plan with yourself to do that thing. Be concrete and say something like, \"If _________ , then I will do________ .\" Then see how things are later on: how you are sleeping, relating and functioning."
+   ],
+   "run": "HG21-r1",
+   "file": "fix-20261018/emu-a/HG21-r1.out.txt"
+  }
+ ]
+}

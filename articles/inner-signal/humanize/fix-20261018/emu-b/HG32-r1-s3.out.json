@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG32-r1-s3.txt",
+  "input_words": 119,
+  "input_sha256": "b683d8526ea88e474ce4b91b7897121027a61eb48ab1f2bd2428f9eafa07c2fd",
+  "balance_before": 143506,
+  "started_utc": "2026-10-18T03:02:23Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:32Z",
+  "response": {
+    "id": "8a25a00f-5b3c-4140-87fa-e389f9bd3457",
+    "tool": "humanize",
+    "text": "Before listening to a recording or before going into a live situation, make sure that the answer to each of the following questions is yes. If not, become fully alert, modify, or stop:\n\nWere induction mechanics plainly explained to me?\n\nCan my answers allow me to become fully alert, modify, or stop the process?\n\nIs it hidden in a secret that not noticing is a proof of process?\n\nIs a role or ownership, obedience, age, identity, or belonging being used to make me less responsible and to remove my adult judgment from the process?\n\nWere fractionation, cues, later behavior, and memory effects plainly explained to me before the process?\n\nWere somatic argumentation mechanics plainly explained to me?\n\nWill the exit process restore me to my normal identity, movement, orientation, and critical judgment, and state plainly that the process is over?\n\nIf in doubt, become fully alert, ask to see the script, modify, or leave the process.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 119
+    },
+    "elapsed": 9
+  },
+  "balance_after": 141161
+}

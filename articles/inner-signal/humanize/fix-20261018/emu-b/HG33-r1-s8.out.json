@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG33-r1-s8.txt",
+  "input_words": 67,
+  "input_sha256": "b4c83edf4b1bf4a711b7b18a72b0a3fa7584fcad91fe66f74162765f220832c2",
+  "balance_before": 140005,
+  "started_utc": "2026-10-18T03:03:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:27Z",
+  "response": {
+    "id": "38c65cab-db75-4218-8071-f187e9964c29",
+    "tool": "humanize",
+    "text": "I will re-inhabit my body: first my feet, and my chair, and my breath, and the room around me.\n\nWhen this is done, if there is a little person, I will reassure him: \"It's okay, you're safe now, I'm here. Thank you, protector, for alerting me; you don't have to scream, I can hear you.\"\n\nThen I will see if there is anything I need to do. If there is, I'll just pick the first little thing to do, and do that. If there's nothing I need to do, I'll see if I can help my body stand down.\n\nEither way, I don't abandon the signal, or worship it -- I'll do something.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 67
+    },
+    "elapsed": 7
+  },
+  "balance_after": 139938
+}

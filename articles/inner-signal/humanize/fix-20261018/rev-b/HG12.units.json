@@ -1,0 +1,103 @@
+{
+ "key": "HG12",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Why doing it myself worked better for me"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Have I mentioned I'm a big fan of self-hypnosis? Doing it on my own seems far more useful than the very little I managed to do with a \"professional\". I'm sober right now, and I don't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me."
+   ],
+   "run": "HG12-r1",
+   "file": "fix-20261018/emu-a/HG12-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something else."
+   ],
+   "run": "HG12-r1",
+   "file": "fix-20261018/emu-a/HG12-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since he isn't IN my mind. (Of course, there are advantages to having someone else guiding the process, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)"
+   ],
+   "run": "HG12-r1",
+   "file": "fix-20261018/emu-a/HG12-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "I found that especially amplified with loveyhuasca. My experiences included a much deeper understanding of my motivations, peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis."
+   ],
+   "heading": false
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "I also got stronger results when I practiced immediately after sky hypnosis:"
+   ],
+   "heading": false
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Some benefits arrived the next morning or a few days later. After one loveyhuasca self-hypnosis session, I woke in what felt like an answer to prayer. I’d been dealing with a lot of lust energy and worrying it could pull me into a relationship that wasn’t right. I asked the subconscious to connect the heart chakra with the sacral chakra—to bring the love energy and sex energy into the same current. The next morning I woke in a kind of “perfected” love state. I didn’t feel that I needed to find a woman; the divine feminine felt somehow at zero distance from my heart. Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere."
+   ],
+   "heading": false
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "In the same vein, I was able to extend a short chrunga trip for what felt like a long time, and it feels like if I needed to I could have continued for an arbitrary amount of time. Only because of life did I have to talk to people, etc. Phenomenologically, this is very important. Although I don't recommend extending a trip, because it's better to integrate, etc."
+   ],
+   "run": "HG12-r2",
+   "file": "fix-20261018/emu-a/HG12-r2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "This probably works for non-drug induced self hypnosis too - or meditation, but for that I find it works way better in a lucid dream - explained in the lucid dreaming guide ."
+   ],
+   "run": "HG12-r2",
+   "file": "fix-20261018/emu-a/HG12-r2.out.txt"
+  }
+ ]
+}

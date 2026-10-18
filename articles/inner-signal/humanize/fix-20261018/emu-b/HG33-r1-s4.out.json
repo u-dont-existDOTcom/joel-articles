@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG33-r1-s4.txt",
+  "input_words": 78,
+  "input_sha256": "db69f718a69e8cb4eacb37c62ec58efd4ae0e91ce2cb26fa469194d62d35754b",
+  "balance_before": 140647,
+  "started_utc": "2026-10-18T03:02:54Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:01Z",
+  "response": {
+    "id": "ae2457d4-43a2-4ede-932d-b2834792c668",
+    "tool": "humanize",
+    "text": "One of the simplest aspects of EFT is that it’s something you can do in your body. If you’re worried about something, you can name it, tap on your body, and get in touch with the feeling. There isn’t a ton of evidence, but a 2025 systematic review of EFT and anxiety disorders found seven randomized control trials and noted that EFT was more effective than no intervention in several studies. While it should be handled with a bit of caution, it’s something to keep in mind if you’re not responding to first-line therapies.\n\nEven though I have this anxiety, I am willing to be kind to myself.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 78
+    },
+    "elapsed": 6
+  },
+  "balance_after": 140569
+}

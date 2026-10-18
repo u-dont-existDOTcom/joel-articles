@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG40-r1-s5.txt",
+  "input_words": 110,
+  "input_sha256": "3c0907b8177cadcb1c7e76891d71fd152f1d6c309d4f8dce78a91f99723a39e3",
+  "balance_before": 139221,
+  "started_utc": "2026-10-18T03:03:59Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:08Z",
+  "response": {
+    "id": "2e9152e0-40b5-47f7-868a-8f76c6bf2f6b",
+    "tool": "humanize",
+    "text": "There is a lot more information on borrowed adulthood, how to love without trust, working on this both in practical and relationship terms, working on the spiritual aspects, working on differentiation, working on this together with another peer, etc. in the companion piece: Inner Child Self-Love Reparenting Guide\n\nThe information here is based on Healing the Divided Self pages 148-153 and 171-174 for renurturing work, somatic work, how to get nurturing etc. For information on attunement and how each child is different and needs to be responded to differently, see Trauma Through a Child’s Eyes by Levine and Maggie Kline, particularly chapters 4, 5, 10 which talk about actual kids. This method is adapted from that book to working with adult feeling states. The idea of doing it with three adults and going into borrowed adulthood in a certain sequence is not something that they have tried.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 110
+    },
+    "elapsed": 8
+  },
+  "balance_after": 139046
+}
