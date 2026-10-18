@@ -1,0 +1,56 @@
+{
+ "t71zz_ifs3y": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71zz_ifs3y.md",
+  "note": "t71zz: ifs3-y, alone."
+ },
+ "t71zz_ap56d": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71zz_ap56d.md",
+  "note": "t71zz: ap56-d, alone."
+ },
+ "t71zz_ifs5z": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71zz_ifs5z.md",
+  "note": "t71zz: ifs5-z, alone."
+ },
+ "t71zz_secifsz": {
+  "kind": "screen",
+  "march": [
+   "ifs1-v: B S, ifs2-u: S B S B, ifs3-y: B B S S, ap56-d: S S S S B S, ifs5-z: B B S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71zz_secifsz.md",
+  "note": "t71zz: ## How This Relates to IFS, put together: D:ifs1-v, D:ifs2-u, D:ifs3-y, D:ap56-d, D:ifs5-z, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71zz_secifsz2": {
+  "kind": "screen",
+  "march": [
+   "ifs1-v: B S, ifs2-u: S B S B, ifs3-y: B B S S, ap56-b: S B B S S, ifs5-z: B B S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71zz_secifsz2.md",
+  "note": "t71zz: ## How This Relates to IFS, put together: D:ifs1-v, D:ifs2-u, D:ifs3-y, D:ap56-b, D:ifs5-z, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71zz_ifs45z": {
+  "kind": "screen",
+  "march": [
+   "ap56-d: S S S S B S, ifs5-z: B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71zz_ifs45z.md",
+  "note": "t71zz: D:ap56-d, put together: D:ifs5-z."
+ }
+}
