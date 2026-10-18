@@ -58,9 +58,9 @@ The checks of tonight's sections against the whole article found these in text t
 6. **Two disclaimers, two paragraphs apart.** Related Clinical Work's "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package." and, in the next paragraph, Teachers and Practice Resources' "I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so." **A.** Keep both. **B.** Your edit.
 7. **Which kind of therapist?** How This Relates to IFS says a good reparenting therapist may fit better for your little one's pain, and Teachers and Practice Resources says to filter Open Path for IFS, "since IFS-trained therapists often have the most relevant background for inner-child pl/ork" (your guide's line, a little reworded). **A.** Leave it (the IFS section's conditions for a therapist still apply). **B.** Your words for one of them.
 
-### 🟣 50. Five pointers of mine: tonglen, Jack Kornfield, Lucia Capacchione, Benjamin Franklin and Richard Schwartz
+### 🟣 50. Six pointers of mine: tonglen, Jack Kornfield, Lucia Capacchione, Benjamin Franklin, Richard Schwartz, and Daniel Kahneman with Gary Klein
 
-Five sections went in tonight because of a sentence of mine pointing to a real source, each linked and opened first, with the rest grown out of it. None of the five sources is in your guide:
+Six sections or paragraphs went in tonight because of a sentence of mine pointing to a real source, each linked and opened first, with the rest grown out of it. None of the six sources is in your guide:
 1. **Just Like Me**, at the start of its P2: "If you've tried Pema Chödrön's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine." ([P2 alone Human Written 0.088](https://www.pangram.com/history/b334d1d5-d2e6-4687-bb54-c1e43056dba6), [the practice 0.23, high](https://www.pangram.com/history/8dd8585d-f1a5-4650-a589-254e0fcbb355)). It sits after A Heart-to-Child Loop now: at the guide's place, before Use Childhood Photographs Gently, it gave your photographs heading and opening an AI window, so I moved it up ([Simple Practices 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d)).
 2. **Altered States Can Deepen the Therapy**, P4 (the beautiful state as a hook), after seventeen versions without it read AI in the h1: "Jack Kornfield has a whole book on what comes next, [After the Ecstasy, the Laundry](https://jackkornfield.com/after-the-ecstasy-the-laundry/). The title kind of says it all." The rest grows out of the title, ending "The laundry will tell you more, and it's the same test as back in Timing Is Individual." (pointing to your P14 there, which the repeats check found the paragraph had been saying again) ([P4 alone Human Written 0.0083](https://www.pangram.com/history/8cf2a25e-ae8e-401b-b185-37b99aa46242), [the h1 0.036, high](https://www.pangram.com/history/b5e47e6a-a79c-4b6c-8ec3-3b05af20faac)).
 
@@ -69,7 +69,9 @@ Five sections went in tonight because of a sentence of mine pointing to a real s
 
 5. **How This Relates to IFS**: P1 opens on Richard Schwartz's [No Bad Parts](https://ifs-institute.com/store/419), on the IFS Institute's page for it, with his "honor, understand, and love every part" from that page ("That's a lot of the overlap with this method, right there in the title."), and P2 quotes the IFS Institute's [outline of the model](https://ifs-institute.com/resources/articles/internal-family-systems-model-outline) between your two lines ("everyone has a Self", the Self "can and should lead"). The maze in P5 "with a little one somewhere in the middle of it" is mine too ([the section Human Written 0.26, high](https://www.pangram.com/history/9c1c4b8e-4c9c-4dd1-a5d7-a1c284300822)).
 
-For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C, 3A, 4A, 5A`.
+6. **Start With Whatever Showed Up**, P8, your guide's intuition and analysis (one of the old Three Adult Functions pieces, placed tonight): it opens "Daniel Kahneman and Gary Klein came at intuition from two camps of research that were supposed to be at odds, and the paper they wrote together is called [Conditions for Intuitive Expertise: A Failure to Disagree](https://doi.org/10.1037/a0016755).", then quotes its summary's "sometimes marvelous and sometimes flawed" (the link is the paper's page at the American Psychological Association). Two versions without it read AI alone ([P8 alone Human Written 0.057](https://www.pangram.com/history/8a2a6745-bd5c-4525-965a-c2207a799db6), [When the Adult Voice Feels Fake with it 0.074, high](https://www.pangram.com/history/8d0ba666-872d-415a-a4c8-69737410c9c4)).
+
+For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C, 3A, 4A, 5A, 6A`.
 
 ### 🟣 51. Speak Toward What You Are Building: which "adult relationship"?
 
@@ -80,6 +82,17 @@ Your guide has "Love moves from spiritual experience to the child, from the chil
 - **A.** The bond between your grown-up self and your little one (it would say "then into your relationship with the grown-up you").
 - **B.** A relationship with another adult, like a Hearthwork partner ("then into a grown-up relationship with someone").
 - **C.** Your words.
+
+### 🟣 52. Don't Give the Inner Adult Away: your guide's test line
+
+The last piece of the old Three Adult Functions section was your guide's "The test is whether the relationship makes me more grounded, truthful, and free." It's in now, as your guide has it, at the end of Don't Give's P1, where the plan for that section put it ([P1 alone Human Written 0.0078](https://www.pangram.com/history/84fbc4fe-2d8f-4f1a-a9ae-db09432258bc); [My Journey with it 0.045, high](https://www.pangram.com/history/ccb56473-3af4-417d-95d0-7e53beef8803)). It's your first person, so whether the wording is yours is your call (E189). Here is P1 whole:
+> If you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and letting them do some of the grown-up jobs for you can actually help for a while. But they can know things you don't and still be wrong about you. The test is whether the relationship makes me more grounded, truthful, and free.
+
+The rest of that paragraph in your guide (test the conclusion against track record, boundaries, evidence and what happens when you say no; a true teaching doesn't make somebody an authority everywhere) was in the article already, in this section and in the new intuition paragraph.
+- **A. My words**: keep it.
+- **B.** "makes you" for "makes me" (it gets checked again).
+- **C.** Leave it out.
+- **D.** Your words.
 
 ## For you to do (no decision needed)
 

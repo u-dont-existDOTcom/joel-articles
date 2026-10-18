@@ -354,3 +354,19 @@ def u10(p='u10-a'):
 
 register('u10', WAVF_P3_END, u10)
 register('u10-b', WAVF_P3_END, lambda: u10('u10-b'))
+
+
+# 2026-10-18, round t71ooo: the repeats check of Start With Whatever Showed Up (REPEATS-10-start-with.md): its 1, the
+# TF-U8 paragraph's first sentence told again from The Chicken-and-Egg Problem ("The child isn't pushed away"), and its
+# 9 and 10, the TF-U11 paragraph's two checks told again by his paragraph before and the anxiety paragraph after. With
+# the research paragraphs in, the h1 gave tf11-h's long sentence a 40-word AI window (round t71nnn).
+register('tf89-d', lambda: draft('tf89-c'), lambda: draft('tf89-d'))
+register('tf11-j', lambda: draft('tf11-h'), lambda: draft('tf11-j'))
+
+
+def u10ef():
+    return (WAVF_P3_END + '\n\n<!-- Turn 71 (the overnight run): the guide\'s research paragraph from Borrow One (r4 line 223), its second half here: compassion imagery and threat; "So \\"this feels fake\\" may mean the person needs a bridge rather than a more forceful performance of love."; waiting since 2026-09-25 to move here (BORROW-ONE-JOB-DRAFTS-20260925.md, U10b to U10d; OPEN-OWNER-FLAGS.md). Opened 2026-10-18: Baldwin et al. 2020, https://pubmed.ncbi.nlm.nih.gov/31301164/ (its title, "Attachment and compassion-threat"; anxious and avoidant attachment, not self-criticism; a 10-minute attachment prime before the second imagery), and Duarte et al. 2015, https://pubmed.ncbi.nlm.nih.gov/25347984/ (its practitioner point: an initial instance of imagery "can be frightening for people who have a tendency to be self-critical"). experiments/t71-guide/drafts/u10-e.txt. @@U10E@@ -->\n\n' + draft('u10-e')
+            + '\n\n<!-- Turn 71: the same paragraph\'s first half, the Ideal Parent Figure pilot (U10a), and its "Related research gives this idea some support without proving the whole method." Opened 2026-10-18: Parra et al. 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/ (17 adults with complex PTSD and childhood trauma, a five-week programme, stable at the eight-month follow-up, no control group). experiments/t71-guide/drafts/u10-f.txt. @@U10F@@ -->\n\n' + draft('u10-f'))
+
+
+register('u10-ef', WAVF_P3_END, u10ef)
