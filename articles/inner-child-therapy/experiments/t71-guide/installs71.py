@@ -149,3 +149,6 @@ register('close-session', CS_PARKED, close_session)
 #   for P4 and P5 after it.
 # - Teachers and Practice Resources: P3 drafts/ap14-b for ap14-a (the repeats check: the Somatic Therapies Guide is
 #   the same map as in Your Body Might Need Some Love First); alone Human Written 0.21, the h2 0.14 high (round t71s).
+# - Round t71t: Close the Session P1 drafts/cs1-h for cs1-c (a pointer to When Healing Turns Into Checking in place of
+#   its point said a fourth time; the repeats check). Round t71u: Altered States Can Deepen P5 drafts/as5-n after a
+#   parked comment for P4 (alone Human Written 0.51; the h1 with it 0.057, high, 1350 words).

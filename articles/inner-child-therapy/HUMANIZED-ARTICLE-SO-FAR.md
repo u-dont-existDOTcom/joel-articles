@@ -1011,7 +1011,11 @@ Remember those guards from the urge to escape? Same deal here, so get enough Nur
 
 Now, the beautiful stuff. Say one night (on a psychedelic, in a dream, ten days into a meditation retreat, whatever) you felt more love than you knew was possible. Wonderful, and it matters! Keep it as a reference point, no need to keep chasing it. Feeling it once is a long way from feeling it only when you're tripping, and that's still a long way from feeling it on a regular morning while the coffee brews.
 
-<!-- Parked (experiments/t71-guide/REVIEWS.md; question 45): the guide's last two paragraphs of this h1: the beautiful state as a hook, and what changes after it; if your little one can't receive the love, meet what's in the way rather than going bigger. Every version read AI alone or in the h1 (rounds t71c to t71s, and fresh writers). They go here. -->
+<!-- Parked (experiments/t71-guide/REVIEWS.md; question 45): the guide's next-to-last paragraph of this h1, the beautiful state as a hook (it becomes the bar, and ordinary life feels like failing; intensity and beauty don't prove what you saw happened, or that the healing is done; look at what becomes more honest, protective and reliable afterwards). Every version read AI alone or in the h1 (rounds t71c to t71u, and fresh writers). It goes here. -->
+
+<!-- Turn 71: the guide's last paragraph of this h1: if your little one can't receive the love, don't go bigger (escalating, forcing another breakthrough); meet what's in the way, often a protective part, pointing back to Hear the Protective Part First. Its first two sentences are as5-m's, which read Human in the h1 (round t71t). experiments/t71-guide/drafts/as5-n.txt. Alone Human Written (0.51), https://www.pangram.com/history/e8fff4a1-c898-41cf-963f-c70cabbdf079; the h1 with it Human Written (0.057, high, 1350 words), https://www.pangram.com/history/da4a12b2-a233-4613-a14f-907d6750e8b1 (round t71u). -->
+
+And if your little one still can't take the love in? Hold off on going bigger, however tempting it is. Something's in the way, and getting to know it is your next job. Often it's a protective part that's seen love come with strings before. Hear it out first, the way you did in Hear the Protective Part First.
 
 ## Altered States Can Require Reparenting
 
