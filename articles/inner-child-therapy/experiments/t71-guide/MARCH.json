@@ -92,8 +92,8 @@
  "wifs-5": "S B S S S S",
  "oi-k": "S B B B S",
  "jw-g": "B S S S S",
- "cs1-d": "B S S",
- "cs1-e": "B B B S S",
+ "cs1-d": "B B B S",
+ "cs1-e": "B B S B S",
  "w2as-3": "S S B B S",
  "w2as-4": "S S S B S S S",
  "w2as-5": "B S S",
@@ -132,5 +132,11 @@
  "oi-one": "S S S B S S S B B",
  "cs1-f": "B B S S",
  "as4-m": "S B B B S B S",
- "as5-m": "B S S B B"
+ "as5-m": "B S S B B",
+ "cs1-g": "B S S",
+ "cs1-h": "B B B S S",
+ "as4-n": "B S B B B S S S",
+ "as4-o": "S B B S S S S",
+ "as5-n": "B S S B S",
+ "as5-o": "B S S B B"
 }

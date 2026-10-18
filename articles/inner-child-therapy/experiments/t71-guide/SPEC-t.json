@@ -1,7 +1,7 @@
 [
  {
   "key": "cs1e",
-  "draft": "cs1-e",
+  "draft": "cs1-h",
   "label": "Close the Session P1 alone, e (the repeated point as a pointer: \"Remember the checking from When Healing Turns Into Checking?\")"
  },
  {
@@ -23,11 +23,11 @@
   "key": "seccse",
   "blocks": [
    "## Close the Session and Return to Life",
-   "D:cs1-e",
+   "D:cs1-h",
    "D:cs2-p"
   ],
-  "label": "Close the Session, the h2: P1 cs1-e, P2 cs2-p",
-  "march": "cs1-e: B B B S S, cs2-p: B B S S S"
+  "label": "Close the Session, the h2: P1 cs1-h, P2 cs2-p",
+  "march": "cs1-h: B B B S S, cs2-p: B B S S S"
  },
  {
   "key": "seccsf",
