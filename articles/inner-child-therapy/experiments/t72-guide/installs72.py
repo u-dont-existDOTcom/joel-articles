@@ -266,3 +266,27 @@ for _x in 'ac':
 TY_NOTE = ('the filler sweep (JUNK-SWEEP.md, 2): the Tyler sentence moves from P6, which is on tone of voice, to the end of P5, after the line we came up with, and "it meant a lot to me that he liked" becomes his own words of 2026-09-27 16:29 ("the fact that he really appreciated how I was interpreting Jesus\' message is pretty important to me"), since "it meant something that" is the phrasing he named on 2026-10-18 (E193).')
 register('tyler', lambda: para('But Jesus also said to take the log out'), lambda: dnote('wi5-a', TY_NOTE, 'TY') + draft('wi5-a'))
 register('tyler', lambda: para("It's also how your voice sounds, though."), lambda: draft('wi6-a'))
+
+
+# --- Round f -----------------------------------------------------------------------------------------------------------
+# Only When the Present-Day Adult Is Dangerous to the Child moves (after When Healing Turns Into Checking): round t72e's
+# moved-order checks all had AI windows in Your Body Might Need Some Love First P3 to P5 once it no longer followed
+# You Don't Need an Inner Monologue.
+def _dmove_old():
+    b = _blocks()
+    return None if b is None else b[0]
+
+
+def _dmove_ins_new():
+    danger = _blocks()[0]
+    moved = note('his section move: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking ("both of those to me are less likely to be important for most people compared to the other sections"). Its text is unchanged. You Don\'t Need an Inner Monologue stays where it was for now: with it moved too, every version had an AI window in Your Body Might Need Some Love First P3 to P5 (round t72e).')
+    return '\n' + moved + danger + BORROW_H
+
+
+register('dmove-out', _dmove_old, '')
+register('dmove-in', _move_ins_old, _dmove_ins_new)
+
+# 45, my wording of his "most inner child therapy does not sufficiently address the Guide": "doesn't do much with the
+# Guide at all" said more than he did
+register('ifsg', lambda: para('So inner child therapy draws on those higher vantage points'),
+         lambda: dnote('ifs-guide-c', '45: his "most inner child therapy does not sufficiently address the Guide ... so it can go in the oppoosite extreme from IFS" was "doesn\'t do much with the Guide at all, which is the opposite problem" in my first wording (installed in round t72c), more than he said; now "doesn\'t do enough with the Guide, which is the opposite extreme".', 'IFSG') + draft('ifs-guide-c'))
