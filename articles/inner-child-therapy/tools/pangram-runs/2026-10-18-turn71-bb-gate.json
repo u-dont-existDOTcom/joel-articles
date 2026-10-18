@@ -1,0 +1,56 @@
+{
+ "t71bb_jwl": {
+  "kind": "screen",
+  "march": [
+   "B S S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71bb: jw-l, alone."
+ },
+ "t71bb_oiq": {
+  "kind": "screen",
+  "march": [
+   "B S S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71bb: oi-q, alone."
+ },
+ "t71bb_jl2l": {
+  "kind": "screen",
+  "march": [
+   "B B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71bb: jl2-l, alone."
+ },
+ "t71bb_secjwl": {
+  "kind": "screen",
+  "march": [
+   "jw-l: B S S S S B S, sp4-w1-p2: ?"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bb_secjwl.md",
+  "note": "t71bb: ## Journal With Each Hand, put together: D:jw-l, G:writers/sp4-w1-p2."
+ },
+ "t71bb_secoiq": {
+  "kind": "screen",
+  "march": [
+   "oi-q: B S S S S, sp6-p2-h2: ?"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bb_secoiq.md",
+  "note": "t71bb: ## One Intention in the Morning, One Review at Night, put together: D:oi-q, G:sp6-p2-h2."
+ },
+ "t71bb_secjll": {
+  "kind": "screen",
+  "march": [
+   "sp7-p1-c: ?, jl2-l: B B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bb_secjll.md",
+  "note": "t71bb: ## Just Like Me, put together: G:sp7-p1-c, D:jl2-l."
+ }
+}

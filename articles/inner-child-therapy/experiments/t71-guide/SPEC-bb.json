@@ -1,0 +1,47 @@
+[
+ {
+  "key": "jwl",
+  "draft": "jw-l",
+  "label": "Journal With Each Hand P1 alone, l (a real source for the practice: Lucia Capacchione's Recovery of Your Inner Child, linked)"
+ },
+ {
+  "key": "oiq",
+  "draft": "oi-q",
+  "label": "One Intention P1 alone, q (a real source: the night half is a lot like the Jesuits' Examen, linked)"
+ },
+ {
+  "key": "jl2l",
+  "draft": "jl2-l",
+  "label": "Just Like Me P2 alone, l (a real source: \"If you've tried Pema Ch\u00f6dr\u00f6n's tonglen, this is a gentler cousin\", linked)"
+ },
+ {
+  "key": "secjwl",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-l",
+   "G:writers/sp4-w1-p2"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-l, P2 turn 65's writers/sp4-w1-p2",
+  "march": "jw-l: B S S S S B S, sp4-w1-p2: ?"
+ },
+ {
+  "key": "secoiq",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-q",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-q, P2 turn 65's sp6-p2-h2",
+  "march": "oi-q: B S S S S, sp6-p2-h2: ?"
+ },
+ {
+  "key": "secjll",
+  "blocks": [
+   "## Just Like Me",
+   "G:sp7-p1-c",
+   "D:jl2-l"
+  ],
+  "label": "Just Like Me, the h2: P1 turn 65's sp7-p1-c, P2 jl2-l",
+  "march": "sp7-p1-c: ?, jl2-l: B B S S B"
+ }
+]
