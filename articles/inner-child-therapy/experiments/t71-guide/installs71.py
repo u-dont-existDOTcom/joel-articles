@@ -265,10 +265,24 @@ def tf89(p='tf89-c'):
 
 
 def tf11(p='tf11-g'):
-    return P5_END + '\n\n' + '<!-- Turn 71: the guide\'s TF-U11, never placed (THREE-FUNCTIONS-RESTRUCTURE-20260927.md: Start With Whatever Showed Up): intuition can register a pattern before the analytical mind can explain it; analysis checks contradiction, track record and whether the conclusion follows; the analytical mind can get tired of uncertainty and be relieved to hand that job away; neither gets unilateral control; a strong intuitive click is information, not proof. With a pointer of mine, Kahneman and Klein\'s paper on the APA\'s own page, https://doi.org/10.1037/a0016755 (opened 2026-10-18), and its abstract\'s "sometimes marvelous and sometimes flawed" or "Subjective experience is not a reliable indicator of judgment accuracy." (not in the guide, so question 50 asks whether he wants it). Two versions without a source read AI alone (round t71iii). experiments/t71-guide/drafts/' + p + '.txt. @@TF11@@ -->' + '\n\n' + draft(p)
+    return P5_END + '\n\n' + '<!-- Turn 71: the guide\'s TF-U11, never placed (THREE-FUNCTIONS-RESTRUCTURE-20260927.md: Start With Whatever Showed Up): intuition can register a pattern before the analytical mind can explain it; analysis checks contradiction, track record and whether the conclusion follows; the analytical mind can get tired of uncertainty and be relieved to hand that job away; neither gets unilateral control; a strong intuitive click is information, not proof. With a pointer of mine, Kahneman and Klein\'s paper on the APA\'s own page, https://doi.org/10.1037/a0016755 (opened 2026-10-18), with the abstract\'s "sometimes marvelous and sometimes flawed" (it opens on professional intuition; "Yours too, probably." is mine), and its "Subjective experience is not a reliable indicator of judgment accuracy." as "how sure it feels won\'t tell you which kind you\'ve got" (not in the guide, so question 50 asks whether he wants it). Of the guide\'s three checks, contradiction is left to his "It should make sense, too." in the paragraph before. Two versions without a source read AI alone (round t71iii). experiments/t71-guide/drafts/' + p + '.txt. @@TF11@@ -->' + '\n\n' + draft(p)
 
 
 register('tf89', PLORK_END, tf89)
 register('tf89-b', PLORK_END, lambda: tf89('tf89-b'))
 register('tf11', P5_END, tf11)
 register('tf11-f', P5_END, lambda: tf11('tf11-f'))
+
+
+# 2026-10-18, round t71kkk: TF-U12, the guide's test line, in Don't Give the Inner Adult Away (the restructure plan:
+# "One sentence, for Joel to OK when we get there"). His published first person, so it waits on his word (E189).
+DG_P1_END = "But they can know things you don't and still be wrong about you."
+TF12_LINE = "The test is whether the relationship makes me more grounded, truthful, and free."
+
+
+def tf12(line=TF12_LINE, note='as published'):
+    return DG_P1_END + ' ' + line
+
+
+register('tf12', DG_P1_END, tf12)
+register('tf12-you', DG_P1_END, lambda: tf12(TF12_LINE.replace('makes me', 'makes you')))
