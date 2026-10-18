@@ -1,0 +1,11 @@
+# Turn 71 (2026-10-18, the overnight run from Joel's 01:16, 01:17, 01:30 and 01:54 UTC messages)
+
+His messages (experiments/t71-answers/JOEL-20261018-0116.md): "continue"; "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out" (his 2026-10-17 02:11 instruction: twelve hours, park a paragraph that keeps stumbling, and at the end list what needs his help); "and save your work as you go in case credits run out"; and, after Pangram logged out, "signed into another pangram". The batches came from experiments/t71-guide/t71.py (SPEC-a.json on, results in READ-a.json on); every result and link is in tools/PREDICTIONS.md, rows t71a on. Work was pushed after every round, and the handoff note on his laptop was updated with it.
+
+## Pangram, and the two accounts
+
+At 01:31 UTC the shared account's header showed "176 left". At about 01:35 both Pangram tabs logged out ("Log in", and a "Verify you are human" box): logging in and that box are his to do, so round b waited. A look at his API key's file was stopped by this session's permission check, so the API wasn't used. At 01:54 he signed in to his other account (14,999 credits); from then on the tabs are tab-11 (forward) and tab-6 (reverse). Results from before 01:54 (round a, and earlier turns) are on the first account, so their links open only from it.
+
+## "And So That's the Way It Happened!": in
+
+P1 is turn 69's sp5-p1-x1 (his Xandria line, question 43, 5) and P2 turn 70's sp5-p2-y1. Round a checked the practice a part at a time (E190): P1 and P2 together read Human (0.056, medium, https://www.pangram.com/history/ba400925-6f0a-41c8-b029-8aea387ee5ca), and P2 with turn 65's P3 (sp5-p3-b6) read AI (0.99), so P3 was the part to change. Of three new P3s (round b), x3-c read Human alone (0.094, https://www.pangram.com/history/da1abaaf-29eb-4f7c-887d-fdf92fa54815): "Do keep an ear on who's narrating, though. If the voice starts sneering, like it's making fun of the younger you, stop right there (that's the courtroom creeping back in). ..." The h2 read Human Written (0.24, high, 226 words, https://www.pangram.com/history/c9f9e639-32af-46ea-a863-1bb460af2d8e). Installed (installs71.py "xandria").
