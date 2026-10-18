@@ -131,7 +131,7 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-18, after batch 462g)
+## Next step (2026-10-18, after batch 466g)
 
 From `fix-20261018/`; `STATUS.md` has the results and `OWNER-QUESTIONS.md` the decisions that are Joel's. Every section
 that isn't a question for him is done: 36 of 40 (33 installed with every paragraph checked alone, three Human as
@@ -140,10 +140,13 @@ published). Nothing is left to run until he answers.
    examples, B28's "never hide a demand"). Install it only when Joel answers question 3 with (a); with (b), the fixes stay
    and its Pattern 4-6 window needs another way (457g: B28's fix reads AI in any wording tried so far; try the fast path's
    one new run over B25-B34 from the published text).
-2. **HG17 and HG18** (question 4): wait for Joel. Facts: HG18's 459g sample `rf-za/HG18.ma.json` reads 100% Human whole and
-   in every paragraph but loses four safety statements (`rf-za/HG18.ma.verify.part1.out.txt`); with (b) those would be put
-   back as triage fixes in its voice and checked; with (c) his own words go in as written. HG17's script loses 11 to 31
-   steps in every Emulate version that reads Human, and its two-hand and sleep inductions read AI in the 459g screens too.
+2. **HG17 and HG18** (question 4): wait for Joel. HG18: `rf-zf/HG18.smp1.json` (463g's HG18-wb, one run of the whole
+   section from the published text, with two triaged safety fixes, C and F of `make_b465.py`) reads 100% Human whole and in
+   every paragraph (466g); with (d) install it (`tools/install_fixed.py install HUMANIZED-SO-FAR.md
+   fix-20261018/rf-zf/HG18.smp1.json`, then its line in `installed.json`). The other fixes (A, B, G) each brought an AI
+   window back at the end (465g, 466g). HG17's script loses 11 to 31 steps in every Emulate version that reads Human, and
+   its two-hand and sleep inductions read AI in the 459g screens too: the fast path (one run over the whole section, three
+   samples) is the next thing to try if Joel wants (b).
 3. **HG32** (question 2): wait for Joel.
 4. **The merge** (question 1): when Joel says the 28 September editor HTML is the latest (or pastes a newer one), merge
    `HUMANIZED-SO-FAR.md` into it with the clipboard helper, as for the community article.

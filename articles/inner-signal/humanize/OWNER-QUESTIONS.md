@@ -1,6 +1,6 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-18, after batch 462g (its checks ran from 09:53 to 10:44 UTC). **Open questions: 4.** They're at the
+Last updated 2026-10-18, after batch 466g (its checks ran from 09:53 to 11:08 UTC). **Open questions: 4.** They're at the
 top, numbered, with their options and my default; the list below them is what I decided myself that you may want to
 undo. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -47,11 +47,25 @@ The master copy of this page is this file in Git, so a session in either of your
   adult judgment fully available", and for a recording, "don't wait for the missing narrator to release you") and adds a
   promise you didn't make ("nothing will make me go inside again unless I choose to use these practices"); the second
   reader's 18 findings are in `fix-20261018/rf-za/HG18.ma.verify.part1.out.txt`. Putting those statements back in your
-  wording is what read AI before. Options:
+  wording is what read AI before.
+  **New for the return steps (463g-466g):** one Emulate run of the whole section from your published text kept most of it
+  (13 findings), and with two safety statements put back in its own voice ("neither of them keeps me in this state" and
+  "get up only when you feel steady") it reads 100% Human whole and in every paragraph
+  ([check](https://www.pangram.com/history/f456f1ca-b66b-4830-8f96-45d8d8e64bac); the text is
+  `fix-20261018/rf-zf/HG18.smp1.json`). It keeps "all instructions ... to carry me deeper in this session or to keep me
+  in this state are now finished", "I will be me, in my body, with my adult judgment", "don't just assume it because
+  you've done the count" and the stopped-recording step. Still not as you wrote it, because each of these brought an AI
+  window back when I put it in ([465g](https://www.pangram.com/history/42bf808b-7d4a-4c74-b082-2052cae20a28),
+  [466g](https://www.pangram.com/history/8d35a06f-e799-4759-9d16-c65c3455093a)): "one honest action" among what you
+  return to; "all instructions" says "you have given me"; "fully available" is "my adult judgment"; "note only what
+  actually appeared" is "anything that has come up"; "say" is "you can say"; and pressing your feet or hands into a
+  surface when a recording stops is left to "do the above". Options:
   - a. Keep both scripts as published (your steps exactly; the guide reads AI there). (My default until you answer.)
   - b. Use Emulate's versions with their lost steps listed for you to check.
   - c. Your own words for the steps (in the community article, when every faithful wording of a passage had failed, your
     own rewrite of it was the one that worked).
+  - d. For the return steps only: that Human version, with the points above as they are in it (my recommendation for
+    "Come all the way back"; the listening script stays a, b or c).
 
 ## Decided by me, for you to undo if you want
 

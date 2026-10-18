@@ -1,0 +1,100 @@
+{
+ "HG18-smp1": [
+  "Human Written",
+  0.08,
+  534,
+  "Human, High, 534",
+  "11:06:54",
+  "/f456f1ca-b66b-4830-8f96-45d8d8e64bac",
+  []
+ ],
+ "HG18-q1-p2": [
+  "Human Written",
+  0.19,
+  171,
+  "Human, High, 171",
+  "11:07:06",
+  "/94160961-c459-4e08-ada4-238a4a86c3ef",
+  []
+ ],
+ "HG18-q1-p4": [
+  "Human Written",
+  0,
+  86,
+  "Human, Low, 86",
+  "11:07:15",
+  "/184efe5f-5bf2-439d-b80e-b137004e77b7",
+  []
+ ],
+ "HG18-smp2": [
+  "Mostly Human Written",
+  0.16,
+  530,
+  "Human, High, 494; AI-Generated, High, 36",
+  "11:07:27",
+  "/8d35a06f-e799-4759-9d16-c65c3455093a",
+  [
+   "AI-Generated (36 words): But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely."
+  ]
+ ],
+ "HG18-q2-p2": [
+  "Human Written",
+  0.2,
+  167,
+  "Human, High, 167",
+  "11:07:36",
+  "/c97a561c-604e-4755-ae2a-087e4e8240ad",
+  []
+ ],
+ "HG18-q2-p4": [
+  "Human Written",
+  0,
+  86,
+  "Human, Low, 86",
+  "11:07:15",
+  "/184efe5f-5bf2-439d-b80e-b137004e77b7",
+  []
+ ],
+ "HG18-smp3": [
+  "AI Detected",
+  0.21,
+  530,
+  "Human, High, 436; AI-Generated, High, 94",
+  "11:07:57",
+  "/0e2bae9b-5c35-418f-b225-2149080c1759",
+  [
+   "AI-Generated (94 words): If your recording cuts out for some reason, [...]"
+  ]
+ ],
+ "HG18-q3-p2": [
+  "Human Written",
+  0.2,
+  167,
+  "Human, High, 167",
+  "11:07:36",
+  "/c97a561c-604e-4755-ae2a-087e4e8240ad",
+  []
+ ],
+ "HG18-smp4": [
+  "AI Detected",
+  0.34,
+  535,
+  "Human, High, 434; AI-Generated, High, 101",
+  "11:08:19",
+  "/9aa89c54-2e90-4b1a-b128-2e2c033357fd",
+  [
+   "AI-Generated (101 words): Then go on and do something normal. [...]"
+  ]
+ ],
+ "HG18-q4-p2": [
+  "AI Detected",
+  0.68,
+  172,
+  "Human, Medium, 54; AI-Generated, High, 118",
+  "11:08:29",
+  "/b0569fa5-3f99-4e67-825b-fce97dcd9274",
+  [
+   "AI-Generated (118 words): When I come out of this session, I will be coming back to the room I am in now, [...]"
+  ]
+ ]
+}

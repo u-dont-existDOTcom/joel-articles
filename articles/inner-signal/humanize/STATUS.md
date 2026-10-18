@@ -1,13 +1,14 @@
 # Status: hypnosis guide humanization (newest on top)
 
-## 2026-10-18, after batch 462g (its checks ran from 09:53 to 10:44 UTC)
+## 2026-10-18, after batch 466g (its checks ran from 09:53 to 11:08 UTC)
 
 **Where it stands.** 30 keys are installed (33 of the guide's 40 h1 sections, every paragraph checked alone) and three
 read Human as published (HG05, HG08, HG09): **36 of 40 done.** New: **HG24**, the troubleshooting list (460g), and
 **HG36**, "Altered states", now whole (462g: its last three paragraphs are no longer as published). Open, each a question
-for Joel: HG31 (question 3), HG17 and HG18 (their guided scripts, question 4), HG32 (the checklist, question 2).
+for Joel: HG31 (question 3), HG17 and HG18 (their guided scripts, question 4: HG18 now has a version that reads Human
+with its key safety statements, option d), HG32 (the checklist, question 2).
 
-**What the batches showed (459g to 462g).**
+**What the batches showed (459g to 466g).**
 - **HG24's opening: whole-stretch samples worked where small fixes didn't.** It read AI with or without its fixes in every
   version to 457g. Three new samples of B2-B8 in one window (emu-aq, emu-ar, emu-as, from my meaning-fixed text) all read
   100% Human whole and in every paragraph (459g,
@@ -34,13 +35,22 @@ for Joel: HG31 (question 3), HG17 and HG18 (their guided scripts, question 4), H
   statements of the return (18 findings, `fix-20261018/rf-za/HG18.ma.verify.part1.out.txt`). HG17's listening script in
   three medium windows: every paragraph Human, the section AI elsewhere too (the two-hand and sleep inductions), 19 to 31
   points lost ([HG17-mb](https://www.pangram.com/history/7dcc7629-91be-45c9-ad44-215c2a7d55e1)). Both stay with question 4.
+- **HG18 by the fast path (463g-466g).** One run of the whole section: from the published text two of three samples read
+  100% Human whole and in every paragraph ([HG18-wb](https://www.pangram.com/history/848cb97f-c829-449c-b807-1379910eabc3),
+  13 findings; HG18-wc, 19). wb with its eight triaged fixes read AI from B2 on
+  ([464g HG18-fix](https://www.pangram.com/history/9cc8e268-caf5-4aef-966c-69d3b9fb1eb0)); diagnostics (465g) and four
+  sets of the fixes (466g) found that "neither of them keeps me in this state" and "get up only when you feel steady"
+  together read Human whole and in every paragraph
+  ([466g HG18-smp1](https://www.pangram.com/history/f456f1ca-b66b-4830-8f96-45d8d8e64bac); `fix-20261018/rf-zf/HG18.smp1.json`),
+  and each of the other fixes brought an AI window back at the end. Not installed: question 4 (option d).
 
-**Predictions.** 459g 56 of 66, 460g 5 of 5, 461g 37 of 46, 462g 9 of 9. Brier score: 0.163 over the 198 checks
-before 446g, 0.105 over the 705 since; paragraph checks (Emulate-share chances, 454g on) 0.084 over 410, and the chances
-are refitted on all of them (`tools/para_chance.py`). Whole-section screens since 454g: 18 of 43 Human; 454g-458g Brier
-0.278 (my mean chance 0.64, 44% Human), 459g on 0.222 (my mean chance 0.48, 39% Human).
+**Predictions** (a call is right when I said Human and it read 100% Human, or said AI and it didn't). 459g 56 of 66,
+460g 5 of 5, 461g 37 of 46, 462g 9 of 9, 463g 19 of 21, 464g 2 of 5, 465g 3 of 5 (diagnostics), 466g 9 of 10. Brier score:
+0.163 over the 198 checks before 446g, 0.108 over the 746 since; paragraph checks (Emulate-share chances, 454g on) 0.087
+over 438, and the chances are refitted (`tools/para_chance.py`). Whole-section screens since 454g, diagnostics left out:
+21 of 51 Human; 454g-458g Brier 0.278 (my mean chance 0.64, 44% Human), 459g on 0.231 (my mean chance 0.49, 38% Human).
 
-**Records.** `b461-results.json` shortens the texts of its AI windows ("[...]"); each row's check link has the full text.
+**Records.** `b461-results.json` to `b466-results.json` shorten the texts of their AI windows ("[...]"); each row's check link has the full text.
 
 ### Sections
 
@@ -62,7 +72,7 @@ are refitted on all of them (`tools/para_chance.py`). Whole-section screens sinc
 | HG15 | **installed** (sample) | [455g HG15-smp](https://www.pangram.com/history/1ced6e80-dfa7-4825-ba6e-e7e00c8a0b5e) | 5 of 5 Human | 429g published AI 1.00; 431g screen H 0.02; 434g fixed AI 0.79; 443g refix H 0.00; 451g triaged H 0.11 |
 | HG16 | **installed** (triaged) | [452g HG16-rfix](https://www.pangram.com/history/94cb4b13-f089-4a11-bf19-28672a8fbba4) | 16 of 16 Human | 429g published AI 1.00; 431g screen AI 0.55; 433g screen AI 0.97; 436g screen AI 0.30; 437g screen H 0.01; 444g fixed AI 0.69; 447g refix H 0.01 |
 | HG17 | Mixed, AI 0.12 (sample) | [459g HG17-mb](https://www.pangram.com/history/7dcc7629-91be-45c9-ad44-215c2a7d55e1) | 17 of 17 Human | 429g published AI 1.00; 433g screen AI 0.48; 436g screen AI 0.36; 437g screen AI 0.23; 438g screen AI 0.05; 439g screen AI 0.11; 440g screen H 0.01; 444g fixed AI 0.78; 447g refix AI 0.27; 449g refix AI 0.18; 451g refix H 0.04; 456g sample AI 0.19; 457g diagnostic AI 0.21; 457g diagnostic AI 0.14; 459g sample AI 0.16 |
-| HG18 | Mixed, AI 0.43 (sample) | [459g HG18-mb](https://www.pangram.com/history/fef7dae2-05f7-4955-af46-daa398f960f0) | 11 of 12 Human | 429g published AI 1.00; 431g screen H 0.07; 434g fixed AI 1.00; 443g refix AI 0.25; 445g refix AI 0.35; 448g refix AI 0.94; 451g triaged AI 1.00; 455g sample AI 0.89; 455g sample AI 0.38; 459g sample H 0.07 |
+| HG18 | Mixed, AI 0.34 (sample) | [466g HG18-smp4](https://www.pangram.com/history/9aa89c54-2e90-4b1a-b128-2e2c033357fd) | 5 of 6 Human | 429g published AI 1.00; 431g screen H 0.07; 434g fixed AI 1.00; 443g refix AI 0.25; 445g refix AI 0.35; 448g refix AI 0.94; 451g triaged AI 1.00; 455g sample AI 0.89; 455g sample AI 0.38; 459g sample H 0.07; 459g sample AI 0.43; 463g published AI 0.93; 463g published H 0.03; 463g published H 0.06; 464g fixed AI 0.50; 465g diagnostic AI 0.37; 465g diagnostic AI 0.15; 465g diagnostic AI 0.33; 465g diagnostic AI 0.57; 465g diagnostic H 0.05; 466g sample H 0.08; 466g sample AI 0.16; 466g sample AI 0.21 |
 | HG19 | **installed** (triaged) | [449g HG19-rfix](https://www.pangram.com/history/9bf6d74c-d3f0-428c-bf23-babac94186b1) | 8 of 8 Human | 429g published AI 1.00; 431g screen H 0.00; 434g fixed AI 0.99; 443g refix H 0.00 |
 | HG20 | **installed** (triaged) | [452g HG20-rfix2](https://www.pangram.com/history/3531dc12-7906-464c-bb23-15b0ed812ebb) | 1 of 1 Human | 429g published AI 1.00; 433g screen H 0.00; 434g fixed AI 0.88; 443g refix H 0.00; 449g triaged H 0.00 |
 | HG21 | **installed** (triaged) | [450g HG21-rfix](https://www.pangram.com/history/dfe80d81-9e35-479b-bb70-d0474b847d2b) | 4 of 4 Human | 429g published AI 1.00; 431g screen H 0.00; 434g fixed AI 0.98; 443g refix H 0.00 |

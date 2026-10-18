@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 2808,
-  "right": 2167,
+  "calls": 2849,
+  "right": 2200,
   "since_review": {
-   "calls": 2406,
-   "right": 1912,
-   "passed": 1626
+   "calls": 2447,
+   "right": 1945,
+   "passed": 1654
   },
   "today": {
-   "calls": 1856,
-   "right": 1511,
-   "passed": 1311
+   "calls": 1897,
+   "right": 1544,
+   "passed": 1339
   }
  },
  "windows": [
@@ -289,10 +289,10 @@
   {
    "from": 460,
    "to": 469,
-   "calls": 60,
-   "right": 51,
-   "passed": 48,
-   "always_ai_right": 12
+   "calls": 101,
+   "right": 84,
+   "passed": 76,
+   "always_ai_right": 25
   }
  ],
  "misses": [
@@ -7702,6 +7702,126 @@
    "res_raw": "AI (AI Generated, high, 180 words, AI likelihood 0.98), 10:25:19, [check](https://www.pangram.com/history/9fb42eec-77d7-47e3-85c8-56cee32d4a3b)",
    "where": "../../inner-signal/humanize/fix-20261018/b461/PREDICTIONS.md:43",
    "p": 0.97,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 463,
+   "name": "463g-HG18-wa",
+   "mine": "Human",
+   "why": "the whole section in one new run (emu-aw); HG18 read AI in every version but one (459g HG18-ma, which lost four safety statements); one run over a stuck section: 4 of 6 Human in 459g-461g",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, high, 494 words, AI likelihood 0.93), 10:55:22, [check](https://www.pangram.com/history/84c806b7-e622-4a95-88b6-d648b6c9a46b)",
+   "where": "../../inner-signal/humanize/fix-20261018/b463/PREDICTIONS.md:9",
+   "p": 0.5,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 463,
+   "name": "463g-HG18-wa-p3",
+   "mine": "Human",
+   "why": "paragraph 3 of HG18 (alone), 50 words; checked with its screen (HG18-wa); 0% of its words not Emulate's (paragraph checks 442g-461g: under 5% 95% Human, 5-15% 91%, 15-30% 75%, over 30% 75%)",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, low, 50 words, AI likelihood 0.73), 10:55:55, [check](https://www.pangram.com/history/8550203b-0286-4a8b-bb35-655abc30eda8)",
+   "where": "../../inner-signal/humanize/fix-20261018/b463/PREDICTIONS.md:12",
+   "p": 0.95,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 464,
+   "name": "464g-HG18-fix",
+   "mine": "Human",
+   "why": "463g HG18-wb (100% Human whole and in every paragraph) with its 8 triaged fixes, 5.2% of the words; triaged edits under 18% changed: 25 of 30 Human whole; HG36-fix (6.3%) read Human in 462g",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 206; AI-Generated, High, 327, 533 words, AI likelihood 0.50), 11:01:47, [check](https://www.pangram.com/history/9cc8e268-caf5-4aef-966c-69d3b9fb1eb0)",
+   "where": "../../inner-signal/humanize/fix-20261018/b464/PREDICTIONS.md:9",
+   "p": 0.75,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 464,
+   "name": "464g-HG18-z-p2",
+   "mine": "Human",
+   "why": "paragraph 2 of HG18 (alone), 173 words; checked with its screen (HG18-fix, this batch); 11% of its words not Emulate's (paragraph checks 442g-461g: under 5% 95% Human, 5-15% 91%, 15-30% 75%, over 30% 75%)",
+   "res": "AI",
+   "pct": 100.0,
+   "res_raw": "AI (AI Generated, high, 174 words, AI likelihood 0.82), 11:02:00, [check](https://www.pangram.com/history/62dbdc3c-6cfb-47e5-92a7-bdbc7972bebe)",
+   "where": "../../inner-signal/humanize/fix-20261018/b464/PREDICTIONS.md:10",
+   "p": 0.91,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 464,
+   "name": "464g-HG18-z-p5+next",
+   "mine": "Human",
+   "why": "paragraph 5 of HG18 (next), 88 words; checked with its screen (HG18-fix, this batch); 0% of its words not Emulate's (paragraph checks 442g-461g: under 5% 95% Human, 5-15% 91%, 15-30% 75%, over 30% 75%)",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, Low, 56; AI-Generated, Low, 36, 92 words, AI likelihood 0.38), 11:02:29, [check](https://www.pangram.com/history/d28c785a-c048-49e2-aa91-8a7d358a4f15)",
+   "where": "../../inner-signal/humanize/fix-20261018/b464/PREDICTIONS.md:13",
+   "p": 0.95,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 465,
+   "name": "465g-HG18-dg2",
+   "mine": "Human",
+   "why": "diagnostic: no fix in B2; 464g: all eight read AI from B2 on",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 485; AI-Generated, High, 36, 521 words, AI likelihood 0.15), 11:04:25, [check](https://www.pangram.com/history/c6b8abcc-b884-4ddd-9534-09ba86455f7a)",
+   "where": "../../inner-signal/humanize/fix-20261018/b465/PREDICTIONS.md:10",
+   "p": 0.6,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 465,
+   "name": "465g-HG18-dg5",
+   "mine": "AI",
+   "why": "diagnostic: only C; 464g: all eight read AI from B2 on",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 533 words, AI likelihood 0.05), 11:04:56, [check](https://www.pangram.com/history/ec2781bc-d554-478c-9d58-aa9ea6918e3a)",
+   "where": "../../inner-signal/humanize/fix-20261018/b465/PREDICTIONS.md:13",
+   "p": 0.4,
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 466,
+   "name": "466g-HG18-q4-p2",
+   "mine": "Human",
+   "why": "paragraph 2 of HG18 (alone), 171 words; checked with its screen (HG18-smp4); 9% of its words not Emulate's (paragraph checks 442g-461g: under 5% 95% Human, 5-15% 91%, 15-30% 75%, over 30% 75%)",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, Medium, 54; AI-Generated, High, 118, 172 words, AI likelihood 0.68), 11:08:29, [check](https://www.pangram.com/history/b0569fa5-3f99-4e67-825b-fce97dcd9274)",
+   "where": "../../inner-signal/humanize/fix-20261018/b466/PREDICTIONS.md:18",
+   "p": 0.91,
    "passed": false,
    "right": false,
    "text": ""
