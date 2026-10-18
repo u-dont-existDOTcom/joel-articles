@@ -315,3 +315,24 @@ def wl(p='wl-u2'):
 
 register('wl', WL_HEAD, wl)
 register('wl-u1', WL_HEAD, lambda: wl('wl-u1'))
+
+
+# 2026-10-18, round t71mmm: the cold read of Start With Whatever Showed Up (COLD-READ-t71-start-with.md) paused at the
+# next paragraph's "the same kind of listening", two paragraphs from the listening once TF-U11 sat between; tf11-h
+# hears the hunch out before the head looks.
+def tf11_swap(p='tf11-h'):
+    return draft(p)
+
+
+register('tf11-h', lambda: draft('tf11-g'), tf11_swap)
+
+YAW_END = "There's help, and lots of other people are out there learning to look after their own little ones."
+
+
+def wl_after(p):
+    return YAW_END + '\n\n<!-- Turn 71 (the overnight run): his owner edit worth-universal-vs-personal (2026-09-27 00:09, BORROW-LOVE-DRAFTS-20260926.md: "love as a universal force (whether from God, or the universe itself or whatever) precedes anything you could earn. But love from another person ... obviously is more conditional than that. so the ending might need a bit more clarity"), waiting for this section since then; turn 65\'s closing above left out the guide\'s "Love precedes anything you could earn. Trust is different." as said already, so the title stood alone. experiments/t71-guide/drafts/' + p + '.txt. @@WL@@ -->\n\n' + draft(p)
+
+
+register('wl-u3', WL_HEAD, lambda: wl('wl-u3'))
+register('wl-u4-after', YAW_END, lambda: wl_after('wl-u4'))
+register('wl-u1-after', YAW_END, lambda: wl_after('wl-u1'))
