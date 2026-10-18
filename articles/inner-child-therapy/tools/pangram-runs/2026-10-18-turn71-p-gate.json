@@ -1,0 +1,83 @@
+{
+ "t71p_cs2p": {
+  "kind": "screen",
+  "march": [
+   "B B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71p: cs2-p, alone."
+ },
+ "t71p_secsc8": {
+  "kind": "screen",
+  "march": [
+   "cs1-c: B B S S, cs2-p: B B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71p_secsc8.md",
+  "note": "t71p: ## Close the Session and Return to Life, put together: D:cs1-c, D:cs2-p."
+ },
+ "t71p_jl2g": {
+  "kind": "screen",
+  "march": [
+   "B B B S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71p: jl2-g, alone."
+ },
+ "t71p_secjl5": {
+  "kind": "screen",
+  "march": [
+   "sp7-p1-c: S S B S B B S, jl2-g: B B B S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71p_secjl5.md",
+  "note": "t71p: ## Just Like Me, put together: G:sp7-p1-c, D:jl2-g."
+ },
+ "t71p_oin": {
+  "kind": "screen",
+  "march": [
+   "B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71p: oi-n, alone."
+ },
+ "t71p_secoi3": {
+  "kind": "screen",
+  "march": [
+   "oi-n: B S S S S S, sp6-p2-h2: B S B S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71p_secoi3.md",
+  "note": "t71p: ## One Intention in the Morning, One Review at Night, put together: D:oi-n, G:sp6-p2-h2."
+ },
+ "t71p_jwi": {
+  "kind": "screen",
+  "march": [
+   "B S S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71p: jw-i, alone."
+ },
+ "t71p_secjw3": {
+  "kind": "screen",
+  "march": [
+   "jw-i: B S S S S, sp4-w1-p2: S S S B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71p_secjw3.md",
+  "note": "t71p: ## Journal With Each Hand, put together: D:jw-i, G:writers/sp4-w1-p2."
+ },
+ "t71p_secsp2": {
+  "kind": "screen",
+  "march": [
+   "settled | cs1-c: B B S S, cs2-o: B B S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71p: # Simple Practices as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

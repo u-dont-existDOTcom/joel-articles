@@ -1,0 +1,69 @@
+[
+ {
+  "key": "cs2p",
+  "draft": "cs2-p",
+  "label": "Close the Session P2 alone, p (cs2-o without \"Yes, yes, it can feel a bit weird ...\", which echoes his photographs P1 a few paragraphs up)"
+ },
+ {
+  "key": "secsc8",
+  "blocks": [
+   "## Close the Session and Return to Life",
+   "D:cs1-c",
+   "D:cs2-p"
+  ],
+  "label": "Close the Session, the h2: P1 cs1-c, P2 cs2-p",
+  "march": "cs1-c: B B S S, cs2-p: B B S S S"
+ },
+ {
+  "key": "jl2g",
+  "draft": "jl2-g",
+  "label": "Just Like Me P2 alone, g (the first step as a question: \"Is there some special way to breathe for this? Well, not really, ...\")"
+ },
+ {
+  "key": "secjl5",
+  "blocks": [
+   "## Just Like Me",
+   "G:sp7-p1-c",
+   "D:jl2-g"
+  ],
+  "label": "Just Like Me, the h2: P1 turn 65's sp7-p1-c, P2 jl2-g",
+  "march": "sp7-p1-c: S S B S B B S, jl2-g: B B B S B S"
+ },
+ {
+  "key": "oin",
+  "draft": "oi-n",
+  "label": "One Intention P1 alone, n (\"So what's a good intention for the morning? Something small, ...\")"
+ },
+ {
+  "key": "secoi3",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-n",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-n, P2 turn 65's sp6-p2-h2",
+  "march": "oi-n: B S S S S S, sp6-p2-h2: B S B S S B B"
+ },
+ {
+  "key": "jwi",
+  "draft": "jw-i",
+  "label": "Journal With Each Hand P1 alone, i (\"What if your little one just won't talk ...? Then try a pen in your other hand\")"
+ },
+ {
+  "key": "secjw3",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-i",
+   "G:writers/sp4-w1-p2"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-i, P2 turn 65's writers/sp4-w1-p2",
+  "march": "jw-i: B S S S S, sp4-w1-p2: S S S B S S S"
+ },
+ {
+  "key": "secsp2",
+  "section": "# Simple Practices",
+  "article": "article",
+  "label": "Simple Practices, the h1 as installed, with Close the Session in",
+  "march": "settled | cs1-c: B B S S, cs2-o: B B S B S B"
+ }
+]
