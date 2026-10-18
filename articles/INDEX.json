@@ -16954,7 +16954,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/installs71.py",
-          "sha256": "d3a7103e8f5b0abcb8d2deef5c2711324d8c3c26f132cc58e25aef1f2365b1d8",
+          "sha256": "1cf2f310147213abd25dc2c84e5b0931e88dfd4811eacf3e81c176e2c954db83",
           "role": "humanization_working_record"
         },
         {
@@ -17541,6 +17541,16 @@
           "path": "articles/inner-child-therapy/experiments/t71-guide/READ-f.json",
           "sha256": "64b66e89f59957c009312cc1df62cd87d2690fa48de6da6ea859e2dbcfc765cb",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/w-as345.prompt.txt",
+          "sha256": "450ea8845b726fc25f3efc93f8f4c370b572939f800eccca2d6f8b3f9ca2427d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/t71-as345.json",
+          "sha256": "4cdbe4343246d6d57f11a332dae419a92f7e4b3ec03d6258a99108863b91d882",
+          "role": "reviewer_target"
         }
       ]
     },
