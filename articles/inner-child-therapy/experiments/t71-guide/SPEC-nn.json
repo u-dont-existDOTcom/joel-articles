@@ -1,0 +1,62 @@
+[
+ {
+  "key": "jw2g",
+  "draft": "jw2-g",
+  "label": "Journal With Each Hand P2 alone, g (jw2-d's question, then jw2-c's \"save the patterns for later\")"
+ },
+ {
+  "key": "jw2h",
+  "draft": "jw2-h",
+  "label": "Journal With Each Hand P2 alone, h (\"Some days, though, ... both hands included.\" then \"skip the meaning-making\")"
+ },
+ {
+  "key": "jw2i",
+  "draft": "jw2-i",
+  "label": "Journal With Each Hand P2 alone, i (the question, then \"That's a sign to keep it simpler for a while.\")"
+ },
+ {
+  "key": "oix",
+  "draft": "oi-x",
+  "label": "One Intention P1 alone, x (a real source: Benjamin Franklin's morning and evening questions from his autobiography, linked, checked in its text)"
+ },
+ {
+  "key": "secjwsg",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "D:jw2-g"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 jw2-g",
+  "march": "jw-s: B B S S B S, jw2-g: B S S S S S"
+ },
+ {
+  "key": "secjwsh",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "D:jw2-h"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 jw2-h",
+  "march": "jw-s: B B S S B S, jw2-h: B S S S S S"
+ },
+ {
+  "key": "secjwsi",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "D:jw2-i"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 jw2-i",
+  "march": "jw-s: B B S S B S, jw2-i: B B S S S S S"
+ },
+ {
+  "key": "secoix",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-x",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-x, P2 turn 65's sp6-p2-h2",
+  "march": "oi-x: B B S S S, sp6-p2-h2: ?"
+ }
+]
