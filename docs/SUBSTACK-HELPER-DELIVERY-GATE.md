@@ -42,6 +42,10 @@ A worker delivering a helper must be able to state:
 
 If any of those are unavailable, the helper is **not verified for delivery**.
 
+## Incident: the editor root drifted (2026-10-18)
+
+Joel's raw paste of 2026-10-18 opened with `<div contenteditable="true" role="textbox" data-testid="editor" ... class="tiptap ProseMirror mousetrap">`. `extract_editor_body` knew only `data-testid="document-editor"` and `tiptap-editor-content`, so it fell through to `fragment` mode and the first helper's payload carried the nested contenteditable root, which this gate forbids, while init, build, verify and the interaction test all passed. `project-sources/html_islands.py.txt` now treats `data-testid="editor"` with the classes `tiptap` and `ProseMirror` as the editor root (test in `tests/test_html_islands_current_substack_shapes.py`). Before delivery, the manifest's `editor_body_boundary.mode` must not be `fragment` for a raw editor paste, and the payload must hold no `contenteditable="true"`; the community article's receipt script asserts both (`articles/intentional-communities/candidate/fix-20261018/write_helper_receipt.py`).
+
 ## Incident that promoted this gate
 
 On 2026-08-24, during Romance r23r2 publication preparation, the assistant bypassed the existing confirmed generator and wrote replacement helper logic by hand. The generated file attempted to reconstruct native objects and consequently failed to preserve working embeds. The correct response was to recover and use the established `substack_transfer_helper.py.txt` path and the previously confirmed helper behavior. This incident is the counterexample: metadata recovery is not permission to reimplement the transport layer.

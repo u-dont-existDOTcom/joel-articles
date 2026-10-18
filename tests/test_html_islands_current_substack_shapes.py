@@ -44,6 +44,17 @@ class CurrentSubstackNativeShapeTests(unittest.TestCase):
         )
         self.assertEqual(html_islands.classify_object(raw), ("share", "rich_html"))
 
+    def test_current_editor_root_is_the_editor_body(self) -> None:
+        # 2026-10-18: the root Joel's Substack editor pastes now; the payload must not carry it
+        raw = (
+            '<div contenteditable="true" role="textbox" data-testid="editor" dir="auto" aria-label="Start writing..." '
+            'aria-multiline="true" translate="no" class="tiptap ProseMirror mousetrap" tabindex="0">'
+            '<h1>Title</h1><p>Text.</p></div>'
+        )
+        body, boundary = html_islands.extract_editor_body(raw)
+        self.assertEqual(boundary["mode"], "substack-editor-root")
+        self.assertEqual(body, "<h1>Title</h1><p>Text.</p>")
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

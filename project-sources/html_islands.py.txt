@@ -187,10 +187,16 @@ def extract_editor_body(text: str) -> tuple[str, dict]:
                         "outer_end": outer_end,
                     }
             low_tag = token.raw.lower()
+            low_classes = {c.lower() for c in classes}
             is_substack_editor = (
                 'data-testid="document-editor"' in low_tag
                 or "data-testid='document-editor'" in low_tag
-                or ("tiptap-editor-content" in classes and "prosemirror" in {c.lower() for c in classes})
+                or ("tiptap-editor-content" in classes and "prosemirror" in low_classes)
+                # 2026-10-18: the editor root Substack pastes now, <div contenteditable="true" role="textbox"
+                # data-testid="editor" ... class="tiptap ProseMirror mousetrap">, fell through to "fragment", so the
+                # helper's payload carried the nested contenteditable root the delivery gate forbids.
+                or (("data-testid=\"editor\"" in low_tag or "data-testid='editor'" in low_tag)
+                    and {"tiptap", "prosemirror"}.issubset(low_classes))
             )
             if is_substack_editor:
                 span = element_inner_span(text, token)

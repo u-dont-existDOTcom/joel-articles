@@ -57109,6 +57109,46 @@
           "path": "articles/intentional-communities/candidate/fix-20261018/install_428.py",
           "sha256": "3c2628e475646d7f6d7fe8106ce501594164ffc7151b6a1e1d538d49d99b9489",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/exports/ARCHIVAL-SUBSTACK-20261018.html",
+          "sha256": "d69f33809118c2e7ad00872577e0549c3563d97f7943bc32b765de6ff033a7b8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/exports/COPY-TO-SUBSTACK.html",
+          "sha256": "07d0638a4bab3cc22e8a0bf9b750670f62563aa24e5d4db1d2723e2b3356039e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/exports/HELPER-INTERACTION-20261018.json",
+          "sha256": "58962afe28e6dbe44b37b9872130722cf043866b4d24051d2eec05888d51b61f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/exports/HELPER-RECEIPT-20261018.json",
+          "sha256": "768ed8c2162bab10f180f16675a963bd3749a6616d8d1f1e8d3abd82e60dc07b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/exports/MERGE-REPORT-20261018.json",
+          "sha256": "d85139e4587afb426ab07ae62a336b74bc52182df57641ff9323eff68f4300c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/exports/TRANSFER-PLAN-20261018.json",
+          "sha256": "511bbd1daa41dc28c7e60c0c4b66060ba3502b510d0292349de8256b81831053",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/exports/TRANSFER-REPORT-20261018.json",
+          "sha256": "00f27ff94e42b44808f38f9c916e6b8bb80908bc0c08a3590c2394b8220bc6d4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261018/write_helper_receipt.py",
+          "sha256": "5154b44dfc3a8957bf5129e3e71797ad44d8e79a1098d93367075dbe1a050e37",
+          "role": "humanization_working_record"
         }
       ]
     }

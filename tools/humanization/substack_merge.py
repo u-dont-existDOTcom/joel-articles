@@ -193,10 +193,13 @@ def editor_units(el):
     """A text element's units for alignment with the published blocks, each with how the editor formats it."""
     tag = re.match(r'<([a-zA-Z0-9]+)', el).group(1).lower()
     if tag in ('ul', 'ol'):
-        out = []
-        for k, it in enumerate(re.findall(r'<li>(.*?)</li>', el, re.S)):
+        out, items = [], re.findall(r'<li>(.*?)</li>', el, re.S)
+        # a list whose every item opens with its first sentence in bold keeps that style in the merge
+        firsts = [re.findall(r'<p>.*?</p>', it, re.S)[0] for it in items]
+        style = all(lead_bold(f) and lead_bold(f) == first_sentence(plain_html(f)) for f in firsts)
+        for k, it in enumerate(items):
             for para in re.findall(r'<p>.*?</p>', it, re.S):   # an item can hold several paragraphs
-                out.append({'text': plain_html(para), 'list': tag, 'item': k, 'li': para})
+                out.append({'text': plain_html(para), 'list': tag, 'item': k, 'li': para, 'bold_firsts': style})
         return out
     if tag == 'p':
         if not plain_html(el):
@@ -205,6 +208,31 @@ def editor_units(el):
     if re.match(r'h[1-6]$', tag):
         return [{'text': plain_html(el), 'heading': el}]
     return [{'text': plain_html(el), 'other': el}]
+
+
+def first_sentence(t):
+    m = re.match(r'^(.+?[.!?])(?=\s|$)', t)
+    return m.group(1) if m else t
+
+
+def bold_first_sentence(md):
+    """The paragraph with a short lead in bold, the way the list's published items open: a label that ends in a colon within
+    the first eight words ("The short visit:"), else a first sentence of twelve words or fewer. Never cut inside a link or an
+    emphasis. None when the paragraph has no lead that short (a long bold sentence reads heavier than the published lead)."""
+    pt = plain_md(md)
+    m = re.match(r'^((?:\S+\s+){0,7}?\S+:)(?=\s)', pt)
+    lead = m.group(1) if m else None
+    if not lead:
+        f = first_sentence(pt)
+        lead = f if len(f.split()) <= 12 else None
+    if not lead:
+        return None
+    for k in range(1, len(md) + 1):
+        head = md[:k]
+        if plain_md(head) == lead and head.count('[') == head.count(']') and head.count('(') == head.count(')') \
+                and head.count('*') % 2 == 0:
+            return '<p><strong>%s</strong>%s</p>' % (inline(head), inline(md[k:]))
+    return None
 
 
 def lead_bold(inner_html):
@@ -378,6 +406,9 @@ def main():
                     if nxt['item'] == open_list['item']:   # between two paragraphs of one item: it's that item's too
                         open_list['items'][-1].append(frag)
                     else:                                  # in place of an item the master rewrote: an item of its own
+                        if open_list['bold'] and not b['md'].startswith('**') and bold_first_sentence(b['md']):
+                            frag = bold_first_sentence(b['md'])
+                            carried.append({'segment': s, 'how': 'bold first sentence (the list\'s style)', 'master': b['md'][:80]})
                         open_list['items'].append([frag]); open_list['item'] = ('new', j)
                     carried.append({'segment': s, 'how': 'new paragraph kept in the list', 'master': b['md'][:80]})
                     continue
@@ -385,9 +416,12 @@ def main():
                 if open_list and open_list['key'] != key:
                     html_blocks.append(close_list(open_list)); open_list = None
                 if not open_list:
-                    open_list = {'key': key, 'items': [], 'item': None}
+                    open_list = {'key': key, 'items': [], 'item': None, 'bold': u.get('bold_firsts')}
                 if open_list['item'] != u['item']:
                     open_list['items'].append([]); open_list['item'] = u['item']
+                    if open_list['bold'] and not how and not b['md'].startswith('**') and bold_first_sentence(b['md']):
+                        frag = bold_first_sentence(b['md'])
+                        carried.append({'segment': s, 'how': 'bold first sentence (the list\'s style)', 'master': b['md'][:80]})
                 open_list['items'][-1].append(frag)
                 carried.append({'segment': s, 'how': 'list item (%s)' % u['list'], 'master': b['md'][:80]})
             else:
