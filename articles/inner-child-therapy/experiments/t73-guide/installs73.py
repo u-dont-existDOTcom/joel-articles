@@ -76,7 +76,7 @@ for _a in 'abc':
 # --- Round c ------------------------------------------------------------------------------------------------------------
 register('s4i', lambda: para("In one of the Buddha's own accounts"),
          lambda: dnote('c55-4', '55, 4, A: "Of course not." is out, so the question is left for the reader to check.', 'S4') + draft('c55-4'))
-for _x in 'abc':
+for _x in 'ac':
     register('yb4' + _x, lambda: para('Whatever you try from that map'),
              (lambda s: lambda: dnote(s, 'his Inner Monologue move (2026-10-18 19:06 UTC) put a 66-word AI window on this paragraph, my T-point paragraph of turn 34 (rounds t72e and t73b, https://www.pangram.com/history/cbcd178f-8fa5-47a2-8f0a-40cfde2db384), so its last three sentences are said again: the guide\'s "Learning often includes grief, fear, frustration, difficult dreams, or material you would rather not meet." and "But "I stayed oriented" is not enough by itself either.", with the gym as it was.', 'YB4') + draft(s))('yb4-' + _x))
 for _x in 'bc':

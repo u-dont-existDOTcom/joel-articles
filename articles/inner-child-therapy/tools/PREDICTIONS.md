@@ -3015,14 +3015,38 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 73) | the Appendix with his IFS P4 ending and schema P2 b and P3 b (1398 words) [t73a_h1apb], a screen | Human, low (my call) | Mostly Human Written (0.081; 1562), 3 windows: AI-Generated 43 words (High); 22:10:46 UTC, https://www.pangram.com/history/c309ebb5-a8f1-41e5-99d6-16c96cf584ea | hit |
 | 2026-10-18 (turn 73) | the Appendix with his IFS P4 ending and schema P2 c and P3 c (1414 words) [t73a_h1apc], a screen | Human, low (my call) | Mostly Human Written (0.088; 1576), 3 windows: AI-Generated 43 words (High); 22:10:37 UTC, https://www.pangram.com/history/cef804b3-e94d-4eae-8c84-568cc40c05f1 | hit |
 | 2026-10-18 (turn 73) | the Appendix with only his IFS P4 ending (1204 words) [t73a_h1apd], a screen | Human, low (my call) | Human Written (0.067, High; 1355); 22:10:26 UTC, https://www.pangram.com/history/3d37e91b-e81b-415c-bf23-739f8bddd51b | hit |
-| 2026-10-18 (turn 73) | When Healing Turns Into Checking P2 with 55, 2, A, in fewer words (50 words) [t73b_c552b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 4 only (3753 words) [t73b_h1b1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 2 only (3757 words) [t73b_h1b2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 2 (shorter) and 4 (3751 words) [t73b_h1b3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move only (3756 words) [t73b_h1b4], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move, 55, 2 (shorter) and 4 (3751 words) [t73b_h1b5], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move and 55, 4 (3753 words) [t73b_h1b6], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | the Appendix with schema P2 a and P3 c (1404 words) [t73b_h1b7], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | the Appendix with schema P2 b and P3 c (1414 words) [t73b_h1b8], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | the Appendix with schema P2 a only (1275 words) [t73b_h1b9], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 73) | the Appendix with schema P2 b only (1285 words) [t73b_h1b10], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | When Healing Turns Into Checking P2 with 55, 2, A, in fewer words (50 words) [t73b_c552b], a screen | Human, low (my call) | Human Written (0.4, Low; 51); 22:17:33 UTC, https://www.pangram.com/history/10c59b3f-ee35-414c-b4d2-b280b8f1ed58 | hit |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 4 only (3753 words) [t73b_h1b1], a screen | Human, low (my call) | Human Written (0.092; 3990), 3 windows; 22:17:46 UTC, https://www.pangram.com/history/8fba4e7c-ed7b-4266-b8c5-958ad0803e7b | hit |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 2 only (3757 words) [t73b_h1b2], a screen | Human, low (my call) | Mostly Human Written (0.094; 3994), 4 windows: AI-Generated 37 words (High); 22:17:56 UTC, https://www.pangram.com/history/b9341895-d5c0-4fcb-a2b6-ad2ab0825c83 | hit |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 2 (shorter) and 4 (3751 words) [t73b_h1b3], a screen | Human, low (my call) | Mostly Human Written (0.094; 3988), 4 windows: AI-Generated 37 words (High); 22:18:08 UTC, https://www.pangram.com/history/d23b7c67-d0a8-4acf-9f0b-1c695d90eb2b | hit |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move only (3756 words) [t73b_h1b4], a screen | Human, low (my call) | Mostly Human Written (0.093; 3993), 4 windows: AI-Generated 66 words (High); 22:18:17 UTC, https://www.pangram.com/history/cbcd178f-8fa5-47a2-8f0a-40cfde2db384 | hit |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move, 55, 2 (shorter) and 4 (3751 words) [t73b_h1b5], a screen | Human, low (my call) | Mostly Human Written (0.099; 3988), 6 windows: AI-Generated 66 words (High), AI-Generated 37 words (High); 22:18:28 UTC, https://www.pangram.com/history/6ee2da73-e4a7-4108-98ca-f7a1d68a8b7f | hit |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move and 55, 4 (3753 words) [t73b_h1b6], a screen | Human, low (my call) | Mostly Human Written (0.095; 3990), 4 windows: AI-Generated 66 words (High); 22:18:22 UTC, https://www.pangram.com/history/bdf75612-a5f1-47c3-94a5-6fe439ef8538 | hit |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 a and P3 c (1404 words) [t73b_h1b7], a screen | Human, low (my call) | Mostly Human Written (0.089; 1567), 3 windows: AI-Generated 34 words (High); 22:18:09 UTC, https://www.pangram.com/history/9a8dbdf6-c303-4d84-afcc-614420450e26 | hit |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 b and P3 c (1414 words) [t73b_h1b8], a screen | Human, low (my call) | Mostly Human Written (0.08; 1579), 3 windows: AI-Generated 43 words (High); 22:17:57 UTC, https://www.pangram.com/history/9707383c-0725-461c-8fee-35954a1cf674 | hit |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 a only (1275 words) [t73b_h1b9], a screen | Human, low (my call) | AI Detected (0.13; 1434), 7 windows: AI-Generated 33 words (High), AI-Generated 92 words (Medium), AI-Generated 72 words (High); 22:17:46 UTC, https://www.pangram.com/history/60db864a-3576-40f5-9fd8-15f54d083038 | miss |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 b only (1285 words) [t73b_h1b10], a screen | Human, low (my call) | AI Detected (0.14; 1446), 5 windows: AI-Generated 38 words (High), AI-Generated 199 words (High); 22:17:37 UTC, https://www.pangram.com/history/f0907fb3-6822-4670-b46e-398b3621d462 | miss |
+| 2026-10-18 (turn 73) | Your Body P4, version a (86 words) [t73c_yb4a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Your Body P4, version c (79 words) [t73c_yb4c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | How This Relates to IFS P5, version b (75 words) [t73c_ifs5b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | How This Relates to IFS P5, version c (75 words) [t73c_ifs5c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | When Healing Turns Into Checking P2 with 55, 2 and checking-into-doing folded in (112 words) [t73c_chkm2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move, 55, 4 and Your Body P4 a (3754 words) [t73c_h1c1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the same, with P4 c (3747 words) [t73c_h1c3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the same, with P4 a and the checking fold with 55, 2 (3752 words) [t73c_h1c4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 4 and the checking fold with 55, 2 (3751 words) [t73c_h1c5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 a, P3 c and IFS P5 b (1404 words) [t73c_h1c6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 a, P3 c and IFS P5 c (1404 words) [t73c_h1c7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 b, P3 c and IFS P5 b (1414 words) [t73c_h1c8], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Your Body P4, version a (86 words) [t73c_yb4a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Your Body P4, version c (79 words) [t73c_yb4c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | How This Relates to IFS P5, version b (75 words) [t73c_ifs5b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | How This Relates to IFS P5, version c (75 words) [t73c_ifs5c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | When Healing Turns Into Checking P2 with 55, 2 and checking-into-doing folded in (112 words) [t73c_chkm2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep with his Inner Monologue move, 55, 4 and Your Body P4 a (3754 words) [t73c_h1c1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the same, with P4 c (3747 words) [t73c_h1c3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the same, with P4 a and the checking fold with 55, 2 (3752 words) [t73c_h1c4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep as installed, with 55, 4 and the checking fold with 55, 2 (3751 words) [t73c_h1c5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 a, P3 c and IFS P5 b (1404 words) [t73c_h1c6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 a, P3 c and IFS P5 c (1404 words) [t73c_h1c7], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with schema P2 b, P3 c and IFS P5 b (1414 words) [t73c_h1c8], a screen | Human, low (my call) | (pending) | |
