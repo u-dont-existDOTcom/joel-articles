@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ah/HG15-pw4.txt",
+  "input_words": 53,
+  "input_sha256": "65dacca79b6562b60d3ae1d3dd38a29f2c83d8492d4d0e17b82dfcc55c873fec",
+  "balance_before": 87641,
+  "started_utc": "2026-10-18T07:58:24Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:28Z",
+  "response": {
+    "id": "44aa808d-4337-4369-b54d-9ca8244fd32c",
+    "tool": "humanize",
+    "text": "Step 2 - For a time, separate yourself from the usual source for answers: Sometimes you'll need to separate yourself for a time from a certain group or people from whom you normally would go to for answers. Don't do this for too long though, otherwise you defeat the purpose of this step.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 53
+    },
+    "elapsed": 3
+  },
+  "balance_after": 87588
+}

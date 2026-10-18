@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ah/HG14-pw4.txt",
+  "input_words": 56,
+  "input_sha256": "058078294d56e8ad3b22006ba9cf1b3a42cf8805b4f00e122c2aa3aaefb82719",
+  "balance_before": 87809,
+  "started_utc": "2026-10-18T07:58:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:13Z",
+  "response": {
+    "id": "cd74666a-13d6-4fc3-b7f1-a65270851763",
+    "tool": "humanize",
+    "text": "Now, before you get to resting, it’s okay to limit the amount of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list and it’s okay to let your inner adult take over for a while.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 3
+  },
+  "balance_after": 87753
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ai/HG14-pw2.txt",
+  "input_words": 82,
+  "input_sha256": "11cccc2d142e1af79134cd548e3ccad7171cc338e27cc322dea92fc1b2926be1",
+  "balance_before": 87501,
+  "started_utc": "2026-10-18T07:58:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:40Z",
+  "response": {
+    "id": "eb07a414-16d5-414f-b725-be91461dadf2",
+    "tool": "humanize",
+    "text": "Do you have an adult you can borrow from? If you can’t find one, you can always reach up and grab a little bit from a safe adult in your life, or from a mentor, or an older brother or sister, or from your future self, or from a spiritual figure, or from a value, or from a plan you’ve written out. Just borrow what you need.\n\nThen, operating from this position of being an apprentice in the adult hat, do at least part of what you would want to do.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 82
+    },
+    "elapsed": 5
+  },
+  "balance_after": 87419
+}

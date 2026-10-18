@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ai/HG14-pw1.txt",
+  "input_words": 87,
+  "input_sha256": "442a310245139befa0a082a5028386f4f979ef7a14797e729d88cd02cb1c6852",
+  "balance_before": 87588,
+  "started_utc": "2026-10-18T07:58:29Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:33Z",
+  "response": {
+    "id": "976c9e80-07a0-4adc-9838-a1197d6d5f58",
+    "tool": "humanize",
+    "text": "In my writing I will use my own, not yet validated word for this kind of bridge to start with: borrowed adulthood .\n\n- if need be, enable the child to get into a witnessing position (if you are experienced in distinguishing between your own positions, just skip this step and find out what kind of adult you need in the situation and access it)",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 87
+    },
+    "elapsed": 4
+  },
+  "balance_after": 87501
+}

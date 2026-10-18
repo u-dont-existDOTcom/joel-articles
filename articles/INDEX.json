@@ -17223,7 +17223,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "3f43f90761957b7350ad78f9dc17a3ceb7ce0f245ab62197289221893bd75261",
+          "sha256": "2c3febdd96f26eebf1ca730742af7444371c3d1522d9cbeba58e65e69e41a257",
           "role": "humanization_working_record"
         },
         {
@@ -21488,7 +21488,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "7ff6460c03615e2994b61600969c64eac1a4fb51a4ca839a9e7c54b8ae823f69",
+          "sha256": "1817356db02e811358849eb8a1e94c072c3345be4000a228ed7b3fb734cb69fb",
           "role": "humanization_working_record"
         },
         {
@@ -22748,7 +22748,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "17e75b351bbb9f03e83785822c1f59f6a038d3541b48ab053504cb5f375ea5f3",
+          "sha256": "3ccae028d592df9f84676aefb5abb4c9d8f5ab1df63d9f3f4c685dcbdfda88d6",
           "role": "humanization_working_record"
         },
         {
@@ -27518,17 +27518,17 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-m/HG31.fixed.json",
-          "sha256": "12e48f564bb313b3e1f312daaaed15cf89b9aca0794111e19a1805746b3d5a3a",
+          "sha256": "deab320f965f0866700f0ffe6514078ee66afab28158bb7dafb9f7199b2a1bae",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-m/HG31.review.json",
-          "sha256": "327e3b25de10bd72f1d9eb239b71cefc538dd6fb7bd88c7ba86b0db931a7f25f",
+          "sha256": "04c83bf7cae7d8f4d9aa0a4eae9012f541c646950d93a57b45717009963f17a0",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-m/HG31.triage.json",
-          "sha256": "5ada071c069d4998bbaf6e91e83ea405aea49119234b09f24f17f14414b2ad52",
+          "sha256": "f524bcf4c8f65d6f189f624527e012c18450c0d0560841518bd8c53e5c998977",
           "role": "humanization_working_record"
         },
         {
@@ -27643,7 +27643,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-q/HG37.split.json",
-          "sha256": "39229b703dbb795413d07bb33dcdbd51850370f2beeb904218288fe22036012c",
+          "sha256": "8f47692cd4ee4fa413c5ad5f59de881cd41c1ef518830587380b380d56c1afc9",
           "role": "humanization_working_record"
         },
         {
@@ -27664,6 +27664,311 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-s/HG17.verify.part1.txt",
           "sha256": "2b846f627aafe0a818a7f49d8fdb222e9969480c11a9d4e5c1a0ae26ed899b85",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/compose_v.py",
+          "sha256": "5e88b56d51445ab925dd335a40cbf4a8ea997d2843ff6ae6b7e8c125b61b63ab",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw1.out.json",
+          "sha256": "b45d4c09d86a4d2aa09dd503dba0e0d71e057b45b5d9886a46a2e6226880468f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw1.out.txt",
+          "sha256": "9bbcf2b626be39b7b1f54fa990ba2346ba859fefb8af79d9d45acf9ab0720fa8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw2.out.json",
+          "sha256": "dc54fddc0856cee5999d7fdee169a4a226b81fb31545b973aff570363430ae3d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw2.out.txt",
+          "sha256": "de0d758bbfa6f0e02424976521a1db3963af889c9b2849480e01c272f8db0555",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw3.out.json",
+          "sha256": "3b5e9719282f771e3ad2fd6bd0ccf6b74f9a0a1688160d0fdd4b387ebd8d0adb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw3.out.txt",
+          "sha256": "36599025b2e6c79cb8ca79036b77532d27691db194474ba1f8b38940a01b5704",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw4.out.json",
+          "sha256": "b6fe69835d4e6c4f0344705c757dc0bdae2e02e353e78a5198408004c8d156e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG14-pw4.out.txt",
+          "sha256": "cda4bb8cf8b279524610d1d60320ceba077821d635773d0ab4d0d21e39e0ef6f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG15-pw3.out.json",
+          "sha256": "6b260b349f4342074944f5aaf0b3ce46a3a82e6266c650161078b1d103d5df46",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG15-pw3.out.txt",
+          "sha256": "e5bdd4aa24b51f34b2a861645baacc79fc70ed394aa34010f06330ac7a0a7d4c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG15-pw4.out.json",
+          "sha256": "17160fd4b0d00c6a21660a26bca92fe45eecd6701a28d87f853bc54649d1e466",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG15-pw4.out.txt",
+          "sha256": "d5eb2037cf4e25d07b48e515602aaa5fe7fd39aac5c8b7d51dfbaa07e6748787",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG37-pw1.out.json",
+          "sha256": "35c5a3a30fbc16debd6765780fbbea478ed213ba4d641f754dd4a3aa14ece9e4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/HG37-pw1.out.txt",
+          "sha256": "cdebee4875786590f3b6c9df8dd35e10833b28c6d0296112464c7180abc021c7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/back.json",
+          "sha256": "e0b52c023f713b70e6726a14478e04b6384948ed64ad1aafdc77b20ef7ec951f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ah/run-all.log",
+          "sha256": "4d319a3ad0ee5fd37d763e59a746cfdee65b723d727eb0a7f94b3afef90b13b1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw1.out.json",
+          "sha256": "3a226b24adcc11bea81948868e4d23ebbd1231df874a6d8710e6b2f8e98541ef",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw1.out.txt",
+          "sha256": "d5ea12e71ba07bc0d3654bb285f77adaa6c16fcd722814f9da7ff5b4e4862214",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw2.out.json",
+          "sha256": "d4f951910600501f9a7754323a14f95669f423b01d9f52acd5fa80351652d51a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw2.out.txt",
+          "sha256": "7f10b1e6139e97a5669f5dc2809a3c14677291b0bd22fc40fb0f386f642080d3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw3.out.json",
+          "sha256": "9e9f7e8249b2e9e6e7b9ecf72b6bdcee19d51b97dc233789e18a3481f0552aee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw3.out.txt",
+          "sha256": "95a33bdd65e11ed73938693211548bd785bea7a79a72d512b0dcaf0b5a933910",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw4.out.json",
+          "sha256": "2c5b4b16903c566c46835d53c4fa8258cf09cd94e83fa1bf88c997f6cac09718",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG14-pw4.out.txt",
+          "sha256": "e379a0bf9394bbf4dd3c9964d7399dc31ed77894778f3ea0df5925d1bac417aa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG15-pw3.out.json",
+          "sha256": "7ec90c93bc052231924d66f961a095a13cc5d6bd8686d99737d29c7edbf8ae78",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG15-pw3.out.txt",
+          "sha256": "44bf40c364300634524d4865eff30f82b0d864260b49da88bc14b54baf2f5812",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG15-pw4.out.json",
+          "sha256": "348983df5f6f5785ac58c47b1f34247d639c23a7e519e6f2309c83f1415d9634",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG15-pw4.out.txt",
+          "sha256": "c4d0b875be3a204d5ecf547cadf2581e044e72fb8988a265db7e24ec1d201b36",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG37-pw1.out.json",
+          "sha256": "1ab95a23a2d23e857a8320331753c9122e8ee3ccdbfa9fce5c589fd972cfeb02",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/HG37-pw1.out.txt",
+          "sha256": "5e445a6d46bf0d3ce8d3eff70cce8b752d35bf402ca53fccabf455b20813555c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/back.json",
+          "sha256": "e83c0b03cd327720445b8764e6462ce34a9dc9a5b952d4ad7f2238ccf32f66b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ai/run-all.log",
+          "sha256": "0d412ed64643db44ea80a596ce7937a4917f24deded9a737cfd04e2c3e283e05",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-aj/BUNDLE.json",
+          "sha256": "e39f2088c5b384568239983d56269e4d88b1cc5ed03ba5c899d1f1f86f0343a8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw1.txt",
+          "sha256": "44b6afca1315dec18860f602f097358e1526e1ba124e6abfbc902365b9cbc84c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw2.txt",
+          "sha256": "702a263ff35abdf9349b8fe8e35f2c896155db33144b4cd5ba851fecabd09262",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw3.txt",
+          "sha256": "dfed342ea5dbefe0babf9ba61111f7f899a23cf310e0738750bf3b0fbc687fe2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw4.txt",
+          "sha256": "2b9c0de06b258176e29ff63edae025e8eca8b6a658d32eb2ddc350df08f162c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw5.txt",
+          "sha256": "5b554e9c7bec08d2d9910d447ac2c197b0e698090b7ecd4b3a249b68db6792d9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-aj/runs.json",
+          "sha256": "ed8b1227b5e49201e2f4f40e09f1a3964dfdf6b52b83f1d70cee584282491f33",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ak/BUNDLE.json",
+          "sha256": "e39f2088c5b384568239983d56269e4d88b1cc5ed03ba5c899d1f1f86f0343a8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ak/HG18-sw1.txt",
+          "sha256": "44b6afca1315dec18860f602f097358e1526e1ba124e6abfbc902365b9cbc84c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ak/HG18-sw2.txt",
+          "sha256": "702a263ff35abdf9349b8fe8e35f2c896155db33144b4cd5ba851fecabd09262",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ak/HG18-sw3.txt",
+          "sha256": "dfed342ea5dbefe0babf9ba61111f7f899a23cf310e0738750bf3b0fbc687fe2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ak/HG18-sw4.txt",
+          "sha256": "2b9c0de06b258176e29ff63edae025e8eca8b6a658d32eb2ddc350df08f162c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ak/HG18-sw5.txt",
+          "sha256": "5b554e9c7bec08d2d9910d447ac2c197b0e698090b7ecd4b3a249b68db6792d9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/emu-ak/runs.json",
+          "sha256": "ed8b1227b5e49201e2f4f40e09f1a3964dfdf6b52b83f1d70cee584282491f33",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/make_b455.py",
+          "sha256": "f0ede888a234588acfa1dca0c9c1b6ca5f470e29d84b8dc3a42d4ac4455e3e44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-t/HG14.units.json",
+          "sha256": "ce65046162d3814226c38841ac90530bdda4f7ac41950b1f1009775f30a6b95f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-t/HG14.verify.part1.txt",
+          "sha256": "40d509a6648793f1e3c39a5674c02e8110f24e1ae53ac324df3d4fd201c751b0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-t/HG15.p.json",
+          "sha256": "096449834582c1d8e899c3ce1d5d8e7e75dc10db2062430a2389d4c713577db4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-t/HG15.verify.part1.txt",
+          "sha256": "0cd6a477b0a8f4f42023945662af0943f49c8c6b302944d5e26500cb5192fa85",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-t/HG37.units.json",
+          "sha256": "c70ddd7441c042f0dbe975d1f5e88020641501a375c58f5b48bb1ac76d9806ab",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-t/HG37.verify.part1.txt",
+          "sha256": "f4092bd753df94dc00501f2f64477ea4165680d5bc9e2eff0fcb163b2f6863d9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-u/HG14.units.json",
+          "sha256": "caf54f3a4b540c90dc4f2595c488e8a7e39a659508ec57159e6d06cb96c153ac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-u/HG14.verify.part1.out.txt",
+          "sha256": "91db02d9b65053583e5afd9f4d21e529e84089e6772ac06dd004f13af5d74586",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-u/HG14.verify.part1.txt",
+          "sha256": "7a345bcd09c47e9ef24b34dee41deb42f128605bed71dc8b02a99f35e9c9b003",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-u/HG15.p.json",
+          "sha256": "de4f758a72bc6749bc776f37303e6cfaf838ce0751d7709485ddffa01a18a1be",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-u/HG15.verify.part1.txt",
+          "sha256": "12a5ef29af709abd0fcbe8fd6dd30a01bd7456f91e0333bad3788b0dabf350fe",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-u/HG37.units.json",
+          "sha256": "975a67e8dfd137267e9e51ae7388d244914767a11d895bce02cb91d4c075f1a2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261018/rf-u/HG37.verify.part1.txt",
+          "sha256": "72a568bc5df6d22279e683f6f60b72a83b40a6c9a9267ca2bbd9e05e1713dd45",
           "role": "humanization_working_record"
         }
       ]
@@ -28302,12 +28607,12 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/dashboard/README.md",
-          "sha256": "15773f1f92045c129ed662d75bc473506e07bde26c5c96f3326acd7a626ce79d",
+          "sha256": "51bee58f8cd0933fd6848f0dd17ab961e6da07614475efa0bdea11b94e1c3537",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/dashboard/ds-calls.json",
-          "sha256": "d3826036d4b5ed554bf96047a79f6a7b0a14fd7d4aac98f828162b8b5546ff84",
+          "sha256": "cb012c4c5c8f8f75e3b7fc80b44d6ccb03da56ffb3760de482db2d4eaa19d2fb",
           "role": "humanization_working_record"
         },
         {
@@ -50012,7 +50317,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls.json",
-          "sha256": "555d133faff611aac53ebdea2e3848595c4e4c83472bb16d2a49cd64ee5e6401",
+          "sha256": "d25e71e7c99c0ad16e5d2a8265d22c47299978535701332100012b94b8609a2a",
           "role": "humanization_working_record"
         },
         {
@@ -67317,7 +67622,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls-rows.json",
-          "sha256": "a25ffe9ceb83c4ccf0605168d0b650f9f7cf85bdf8ab6fa73094cc5757ee8a5a",
+          "sha256": "efd915bd6eb8b7b90cc8025a8c3e6a0b586dfbe53bc8a0d92ca34faf8e6fcfaf",
           "role": "humanization_working_record"
         },
         {

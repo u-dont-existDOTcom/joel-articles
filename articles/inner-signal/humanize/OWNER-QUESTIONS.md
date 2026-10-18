@@ -1,8 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-18, after batch 445g (its checks ran at 05:44 UTC). **Open questions: 3.** They're at the top, numbered, with their options; nothing
-further down needs an answer. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress;
-🟢 done or decided.
+Last updated 2026-10-18, after batch 454g (its checks ran from 07:33 to 07:52 UTC). **Open questions: 2.** They're at the
+top, numbered, with their options; the list below them is what I decided myself that you may want to undo. Colours: 🟣 a
+question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is this file in Git, so a session in either of your accounts can read and update it.
 
@@ -20,14 +20,22 @@ The master copy of this page is this file in Git, so a session in either of your
   - b. Let the questions run into a few paragraphs of prose (Emulate's, with the meaning checked); every question stays.
   - c. Shorten it: keep the hypnosis-specific audit (seven questions) as a list, and turn the general list into prose.
   - d. Your own words for it.
-- 🟣 **3. Your table-of-contents note reads "AI, low" on its own.** In the one version of the "How to use" and "table of
-  contents" sections that otherwise reads Human (443g), Pangram marks 40 words AI with low confidence: the heading "The
-  table of contents is hiding on the left" and your line under it, as you wrote it
-  ([check](https://www.pangram.com/history/67524dc3-d41b-4330-89fc-7e579024cede); the rest, 379 words, Human, high).
-  Options:
-  - a. Keep your line as it is and count the section as done (my default until you answer).
-  - b. Let Emulate rewrite that line too.
-  - c. Your own new words for it.
+
+## Decided by me, for you to undo if you want
+
+- 🟢 **Your table-of-contents note** (was question 3) read Human in 454g with the rest of "How to use" and the table of
+  contents ([check](https://www.pangram.com/history/94dc9298-fb41-497c-a71a-8666a6c0df7f)), as you wrote it: that section
+  is installed.
+- 🔵 **"Why learn self-hypnosis", the nine forces.** Four Emulate versions of the paragraph dropped your list (advertising,
+  fear, craving, screens, tribe, resentment, authority, loneliness, repetition) and kept the point that these forces already
+  train the mind; my version with the list put back read AI alone (453g). I'm testing the version without the list. Say
+  if the list has to stay, and I'll look for another way.
+- 🟢 **"You want the hidden truth immediately"** (the troubleshooting list): "Don't pry." and "Show me the capacity before the
+  content." are as you wrote them; two Emulate versions read "Refrain" (my meaning fix) as a song's refrain.
+- 🔵 **The triage's "let stand" lists.** In each section Emulate rewrote, I fixed only what changes what a reader would do or
+  believe (cautions, script steps, invented facts, claims made stronger or weaker, lost points, repeats) and let the rest
+  stand: wording, tone, an aside in your voice, a shortened list. Each section's list is in its `KEY.triage.json`
+  ("let_stand", with the reason for each); the report lists where they are.
 
 ## For you to do
 
@@ -35,9 +43,7 @@ The master copy of this page is this file in Git, so a session in either of your
 
 ## Where it stands
 
-🟢 Three sections are installed with every paragraph checked (the opening, "The Most Extreme Example", "Why doing it
-myself worked better for me"). 🔵 Twenty-two more read 100% Human whole and are in meaning or paragraph checks; the rest
-are in Emulate refix runs (`STATUS.md` has every check's link). Emulate bends meaning badly (it invented a "Sarah", quotations and study
-findings, turned the inner child into "her", and reversed cautions), so none of it is in your article yet: each section
-goes through my meaning review against your text, a second reader, my answers to its findings, and a march read, then a
-Pangram check of the corrected version (batch 434g is the first of those), then paragraph checks, then it's installed.
+🟢 29 of the guide's 40 sections are done: 26 installed with every paragraph checked alone (one caveat: in "Altered states"
+the last three paragraphs are still as published and unchecked; their check is in the next batch), and three read Human as
+published. 🔵 The other eleven are in meaning or paragraph checks; "Come all the way back" and the de-hypnosis checklist
+have read AI in every version so far. `STATUS.md` has every check's link.

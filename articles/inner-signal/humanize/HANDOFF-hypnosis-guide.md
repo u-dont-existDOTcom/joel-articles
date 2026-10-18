@@ -56,7 +56,7 @@ folder's `BUNDLE.json` there (stage it in `/mnt/user-data/outputs/` and write it
 SHA-256), then `nohup python3 run_emulate.py BUNDLE.json /abs/path/emu-hg-X RUN RUN ... > run-all.log 2>&1 &` (the script
 reads the key itself; never print, copy or log it). Pack `*.out.txt *.out.json run-all.log` into a .tgz, stage it, unpack it
 into the scratchpad, copy into `fix-20261018/emu-X/` and run `python3 tools/emu_runs.py back --align fix-20261018/emu-X`
-from `humanize/`. 40 to 3,000 words a run; about 97,500 words left after emu-t (2026-10-18). Never chain a run behind
+from `humanize/`. 40 to 3,000 words a run (a window under 40 is refused); about 88,000 words left after emu-ag (2026-10-18). Never chain a run behind
 another with `pgrep -f` on the other's command line: the waiting shell's own command line matches, so it waits forever
 (emu-t lost eight minutes to that). Never edit Emulate's output with my own words except to put the meaning back, and
 every such edit goes through the gate.
@@ -87,7 +87,12 @@ its stage, its paragraph checks, and **installed** for the sections in `fix-2026
 - **Every paragraph is then checked alone** (`tools/install_fixed.py`: `section_md` is the Markdown that will be installed,
   `para_texts` the fewest texts `paragraphs_alone.py` looks for). In 442g, 17 of 23 paragraph texts of Human sections read
   Human; the ones that didn't get their own refix run (emu-s).
-- **Installed so far:** HG01, HG07 and HG12 (`tools/install_fixed.py install`, links put back from each stretch's "links").
+- **Installed so far:** 23 keys, listed in `fix-20261018/installed.json` (`tools/install_fixed.py install`, links put back from
+  each stretch's "links"). HG36's entry has an "open" note: its B10-B12 are as published and unchecked.
+- **What 446g to 454g added:** pasted published wording reads AI even in a two-line fix (HG37, 454g), so a fix is always in
+  the stretch's voice; a paragraph check is predicted by how much of it isn't Emulate's (`tools/para_chance.py`: under 5%,
+  99% Human); several samples of a window go to Emulate at once and the second reader picks; a long script loses its
+  steps in one window, so it goes in windows of 50 to 80 words; edits and their paragraph checks go in the same batch.
 
 ## The pipeline for a section (2026-10-18, current)
 
@@ -105,12 +110,23 @@ From `fix-20261018/` unless a command says `humanize/`:
    (`python3 tools/install_fixed.py install HUMANIZED-SO-FAR.md FIXED_OR_UNITS.json ...` from `humanize/`) and a line in
    `fix-20261018/installed.json`.
 
-## Next step (2026-10-18, after batch 445g)
+## Next step (2026-10-18, after batch 454g)
 
-1. The triage files (`rf-a/KEY.triage.json`, Sonnet readers running at 05:50 UTC): check each fix against the published
-   text, apply, march, edit check. HG10's refix had no findings: its paragraph checks are next.
-2. The second readers of 445g's Human refixes (`rf-b/`: HG04, HG06, HG23, HG29+30, HG36), then their triage.
-3. emu-t (refix runs of 444g's five sections, HG16, HG17, HG31, HG37, HG38+39) is running on the laptop in
-   `inbox/emu-hg-t/`: bring it back, screen it.
-4. HG18 (AI 0.35 in two windows after two refix samples), HG24 (two small windows) and HG06 P3: another refix sample.
-5. Keep `STATUS.md`, this note, the laptop copy and the scorecard page current after every batch.
+From `fix-20261018/` (each item's files are named; `STATUS.md` has the results):
+1. **Batch 455g** (`make_b455.py`, to write): edits and paragraph checks of HG33 (`rf-k/HG33.fixed.json`), HG06
+   (`rf-l/HG06.fixed.json`, the emu-ac sample of its forces paragraph), HG26 (`rf-l/HG26.fixed.json`, the emu-ac sample of the
+   get-help paragraphs), HG31 (`rf-m/HG31.fixed.json`, the emu-ad sample of the reframing questions), HG36 (`rf-p/HG36.fixed.json`,
+   B10-B12 put back) and HG37 (`rf-e/HG37.fixed.json`, its three pasted fixes reworded), once the march read `march-t` is in
+   (`march_pairs.py read march-t march-t/march-labels.txt`; no break may be lost).
+2. **Emulate on the laptop:** emu-ah and emu-ai (HG14's four AI paragraphs, HG37 B26, HG15 p10 and p11, two samples each) were
+   running at 07:57 UTC in `inbox/emu-hg-ah`, `inbox/emu-hg-ai`: bring back, `emu_runs.py back --align`, second reader
+   (`make_verify_samples.py` shows how), pick, triage, screen. HG15's p23-p24 sample is emu-ad's (`emu-ad/HG15-pw2.out.txt`):
+   one fix, "learning that you can disappoint someone without disappearing" put back in its voice.
+3. **HG17's script:** the second reader of `rf-r/` and `rf-s/` (the two samples of seven small windows, emu-af and emu-ag): pick
+   the better sample per window, triage, then screen HG17 with the rf-j triage fixes.
+4. **HG24:** `rf-o/HG24.units.json` (B36-B37 as published; B42-B48 from emu-aa) with the carried triage `rf-o/HG24.triage.json`
+   and the new one `rf-o/HG24.triage.new.json` (Sonnet, running): merge, apply, march, screen.
+5. **HG14:** its one triage fix is applied (`rf-k/HG14.fixed.json`); after emu-ah/ai, put the chosen paragraph samples in and
+   screen with its paragraph checks.
+6. HG18 and HG32: report to Joel (AI in every version; `OWNER-QUESTIONS.md`).
+7. Keep `STATUS.md`, this note, the laptop copy and the scorecard page current after every batch.

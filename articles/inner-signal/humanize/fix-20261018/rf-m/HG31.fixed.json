@@ -83,7 +83,7 @@
    ],
    "paras": [
     "To do this we are going to use a model that’s called the Milton model. It’s all to do with sentence architecture. When we tell ourselves to ‘be better’, ‘relax now’, ‘stop feeling anxious’ or ‘trust me’ it doesn’t work, does it?",
-    "What we need to do is find a way of going around the part that wants to argue with us, so that we can actually get to where we want to get to.",
+    "What we need to do is use indirect language to go around the part that wants to argue with us, so that we can actually get to where we want to get to.",
     "So let’s start with something we know to be true, let’s take the pressure off, presume that we can only do a tiny bit and let’s invite one thing:",
     "‘As my body begins to notice the sensation of the bed underneath it, it may be possible for it to begin to realise that it is not alone in carrying the burden of the day.’",
     "We paced it; we opened up awareness; we validated the reason for the reaction; we presumed we could do it; we used a bridge word to make it easier and we invited one thing. We can then test this out with the body to see if it was possible."
@@ -91,7 +91,23 @@
    "run": "HG31-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-x/HG31-fxw1.out.txt",
    "refix_was": true,
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B9: LOST the term \"indirect language\" and with it the published link (found by tools/refix_links.py, 2026-10-18)",
+     "replace": "What we need to do is find a way of going around the part",
+     "with": "What we need to do is use indirect language to go around the part",
+     "round": 1,
+     "from": "my check of the published links (refix_links.py), triaged"
+    }
+   ],
+   "verdict": "fixed",
+   "links": [
+    {
+     "published": "indirect language",
+     "new": "indirect language"
+    }
+   ]
   },
   {
    "kind": "published",
@@ -501,15 +517,47 @@
     "Rehearse going back to a more grounded state and to a more wide view of the situation.",
     "Rehearse yourself taking at least one action. Rehearse yourself waking up completely.",
     "Mind the caveats! You must be the one authoring these. You must see them. You can always undo them. You must use them only to help you orient. They do not authorize you to make a decision. They are not proof for what your intuition is telling you. They do not stop you from hearing the message of your intuition if it is warning you about something. Other people can't use them to control your response.",
-    "This is very similar to implementation intention . I'm not aware of research into implementation intention for this specific thing, but the general mechanisms appear to work; a paper explaining how and why they work can be found here .",
-    "A downside of synchronicity cues is that they can lead to false positives. We do this on purpose when we rehearse what to do when we notice a synchronicity (we create an association in our head); however, when you are absorbed in something and/or when you are destabilized, you might think that you saw a synchronicity when in fact there wasn't any. Research has shown that people that score high on apophenia tests also score high for detecting patterns that were not really there, as well as scoring high on psychosis spectrum traits [1, 2] (this is not saying that noticing patterns is bad; in fact, it's not a pathology).",
+    "This is very similar to implementation intention . I'm not aware of research into implementation intention for this specific thing, but the general mechanisms appear to work; Gollwitzer’s paper explains how and why they work.",
+    "A downside of synchronicity cues is that they can lead to false positives. We do this on purpose when we rehearse what to do when we notice a synchronicity (we create an association in our head); however, when you are absorbed in something and/or when you are destabilized, you might think that you saw a synchronicity when in fact there wasn't any. Research has shown that people that score high on apophenia tests also score high for detecting patterns that were not really there, as well as scoring high on psychosis spectrum traits (see Blain and colleagues, and Grant and colleagues) (this is not saying that noticing patterns is bad; in fact, it's not a pathology).",
     "If you feel that synchronicity cues are making these things worse (e.g. you feel like you have to look for them all the time, you can't sleep, you feel anxious, you are sure that random things happen in your life in order to tell you something, you can't tell the difference between noticing something and interpreting what it might mean, etc.), you should deactivate synchronicity cues.",
     "You can do that by not rehearsing them anymore and by saying to yourself (when you are fully awake) that you don't want to use synchronicity as a cue anymore (e.g. \"From now on, I am no longer going to use noticing synchronicity as a cue for waking up. I let go of this association, coincidences can go back to being just coincidences.\"). Remove it from your list of cues, so that you won't rehearse it anymore. Saying this is just you deciding, it doesn't mean the association is gone straight away."
    ],
    "run": "HG31-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG31-fxw1.out.txt",
    "refix_was": true,
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B74: LOST the two cited studies (Blain and colleagues, Grant and colleagues) and their links, now \"[1, 2]\" with no list (found by tools/refix_links.py, 2026-10-18)",
+     "replace": "[1, 2]",
+     "with": "(see Blain and colleagues, and Grant and colleagues)",
+     "round": 1,
+     "from": "my check of the published links (refix_links.py), triaged"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "B74: \"a paper ... can be found here\" points at no link; the published names Gollwitzer's foundational paper",
+     "replace": "a paper explaining how and why they work can be found here .",
+     "with": "Gollwitzer’s paper explains how and why they work.",
+     "round": 1,
+     "from": "my check of the published links (refix_links.py), triaged"
+    }
+   ],
+   "verdict": "fixed",
+   "links": [
+    {
+     "published": "implementation intention",
+     "new": "implementation intention"
+    },
+    {
+     "published": "Blain and colleagues",
+     "new": "Blain and colleagues"
+    },
+    {
+     "published": "Grant and colleagues",
+     "new": "Grant and colleagues"
+    }
+   ]
   },
   {
    "kind": "published",

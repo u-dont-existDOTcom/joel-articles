@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ai/HG15-pw3.txt",
+  "input_words": 61,
+  "input_sha256": "be8325f947b9370c5166852fbc18af8a3ef0c0e6b84d6c10e0f2fad0fdfff17d",
+  "balance_before": 87238,
+  "started_utc": "2026-10-18T07:58:58Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:59:03Z",
+  "response": {
+    "id": "d64143f5-6568-4053-a171-6981e6643eec",
+    "tool": "humanize",
+    "text": "You are like this because in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are. You were too occupied in not being in pain, reading out what was dangerous and what you had to do to stay in a good bond, etc. This is not about a specific place in your brain, but a way of looking at it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 61
+    },
+    "elapsed": 4
+  },
+  "balance_after": 87177
+}

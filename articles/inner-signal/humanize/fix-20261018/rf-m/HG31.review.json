@@ -20,5 +20,41 @@
     "from": "second reader of the refix (rf), triaged"
    }
   ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B9: LOST the term \"indirect language\" and with it the published link (found by tools/refix_links.py, 2026-10-18)",
+    "replace": "What we need to do is find a way of going around the part",
+    "with": "What we need to do is use indirect language to go around the part",
+    "round": 1,
+    "from": "my check of the published links (refix_links.py), triaged"
+   }
+  ]
+ },
+ {
+  "block": 66,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B74: LOST the two cited studies (Blain and colleagues, Grant and colleagues) and their links, now \"[1, 2]\" with no list (found by tools/refix_links.py, 2026-10-18)",
+    "replace": "[1, 2]",
+    "with": "(see Blain and colleagues, and Grant and colleagues)",
+    "round": 1,
+    "from": "my check of the published links (refix_links.py), triaged"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "B74: \"a paper ... can be found here\" points at no link; the published names Gollwitzer's foundational paper",
+    "replace": "a paper explaining how and why they work can be found here .",
+    "with": "Gollwitzer’s paper explains how and why they work.",
+    "round": 1,
+    "from": "my check of the published links (refix_links.py), triaged"
+   }
+  ]
  }
 ]

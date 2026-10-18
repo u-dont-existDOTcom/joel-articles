@@ -28,7 +28,7 @@
    "paras": [
     "I speak here from experience.",
     "When you’re doing hypnosis, meditation, lucid dreaming, loveyhuasca-ing, going through a period of intense grief, praying, or whatever else may alter your consciousness, it’s possible you may run into something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter – it may be a voice or an image, and it does n’t just feel like an emotion or a younger part of you, but something that feels intrusive, hateful, seductive, mocking, etc.",
-    "First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what response makes you safer, clearer, more loving, more grounded, and less hooked."
+    "First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked."
    ],
    "run": "HG37-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
@@ -36,9 +36,9 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "B1: LOST the practical question's criteria (safer, clearer, more loving, more grounded, less hooked); 'best way' was left undefined",
+     "what": "B1: LOST the practical question's criteria (safer, clearer, more loving, more grounded, less hooked); 'best way' was left undefined; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
      "replace": "what is the best way to deal with them",
-     "with": "what response makes you safer, clearer, more loving, more grounded, and less hooked",
+     "with": "what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }
@@ -181,7 +181,7 @@
     16
    ],
    "paras": [
-    "Fear makes it a center of attention, and hatred gives it a hook in you. (Pride gives it an opponent, and panic gives it your nervous system.)"
+    "It becomes a center of attention if you fear it, and if you hate it you give it a hook in you. (If you’re proud you give it an opponent, and if you panic you give it your nervous system.)"
    ]
   },
   {

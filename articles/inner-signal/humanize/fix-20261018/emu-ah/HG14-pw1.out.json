@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ah/HG14-pw1.txt",
+  "input_words": 87,
+  "input_sha256": "442a310245139befa0a082a5028386f4f979ef7a14797e729d88cd02cb1c6852",
+  "balance_before": 88052,
+  "started_utc": "2026-10-18T07:57:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:57:55Z",
+  "response": {
+    "id": "5438df2e-1bb9-4a61-ad81-f79e640d7133",
+    "tool": "humanize",
+    "text": "To jumpstart a development of a new part, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It is important to note here that I’m not suggesting that all of the steps in this process have been formally tested and proven.\n\nAccess your witnessing position if necessary. If you already know how to access different internal positions, move immediately to accessing the adult position you want to borrow and go to step 3.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 87
+    },
+    "elapsed": 7
+  },
+  "balance_after": 87965
+}

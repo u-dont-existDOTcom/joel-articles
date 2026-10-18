@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ah/HG14-pw2.txt",
+  "input_words": 82,
+  "input_sha256": "11cccc2d142e1af79134cd548e3ccad7171cc338e27cc322dea92fc1b2926be1",
+  "balance_before": 87965,
+  "started_utc": "2026-10-18T07:57:56Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:02Z",
+  "response": {
+    "id": "78d1a00c-87c9-4143-a3cd-49c795e61426",
+    "tool": "humanize",
+    "text": "If you have a safe adult in your life you can borrow from them, if not borrow from a mentor, older brother/sister, imagine your future self, your god/goddess or higher power, a value you have, a plan you have written, etc. It’s ok to just borrow what you need, just like you would borrow a cup of sugar from a neighbor.\n\nNext, put on your adult hat as if you are an apprentice adult and do or say what you think you should do or say. You should do at least part of what you think you should do or say.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 82
+    },
+    "elapsed": 6
+  },
+  "balance_after": 87883
+}

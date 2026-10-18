@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ah/HG15-pw3.txt",
+  "input_words": 61,
+  "input_sha256": "be8325f947b9370c5166852fbc18af8a3ef0c0e6b84d6c10e0f2fad0fdfff17d",
+  "balance_before": 87702,
+  "started_utc": "2026-10-18T07:58:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:24Z",
+  "response": {
+    "id": "a0397bf8-8d64-46c2-9124-688059eb8606",
+    "tool": "humanize",
+    "text": "Why? Well, one reason is that as a child you didn't explore, enough, what you liked and what you were interested in trying out and thus what you were like. And the reason you didn't explore those things was that you needed to focus your attention on other things, to avoid experiencing pain.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 61
+    },
+    "elapsed": 3
+  },
+  "balance_after": 87641
+}

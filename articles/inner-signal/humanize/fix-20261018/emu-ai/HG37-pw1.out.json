@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ai/HG37-pw1.txt",
+  "input_words": 51,
+  "input_sha256": "7e383e7a638d56e4db9b9b4ce01527225151034551e6d08f948a05c3f4e42fd7",
+  "balance_before": 87289,
+  "started_utc": "2026-10-18T07:58:53Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:57Z",
+  "response": {
+    "id": "4a6d28a1-fd44-4e49-ba4f-eb32d04fdcd9",
+    "tool": "humanize",
+    "text": "The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if what you're doing is making you more Paranoid, sleepless, Grandiose, isolated, scared, or more and more unreal, then DON'T GO DEEPER! GET HELP!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 51
+    },
+    "elapsed": 4
+  },
+  "balance_after": 87238
+}
