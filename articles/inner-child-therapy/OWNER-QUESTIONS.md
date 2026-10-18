@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-18 (turn 71, the overnight run). **Five open questions, 45 and 47 to 50**: what I couldn't figure out (45, in your help-request format), lines that are yours (45, 47 to 49), and four additions of mine (50). There's no 46: it asked about Journal With Each Hand and One Intention, and both went in before you saw it. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-18 (turn 71, the overnight run). **Five open questions, 45 and 47 to 50**: lines that are yours (45, 47 to 49) and five additions of mine (50). Nothing is left that I couldn't figure out: the whole guide is in the article now. There's no 46: it asked about Journal With Each Hand and One Intention, and both went in before you saw it. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,24 +8,22 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 45. How This Relates to IFS: your first-person lines, and a section I need help with
+### 🟣 45. How This Relates to IFS: your first-person lines (the section is in now)
 
-Your guide's IFS section, at the start of its Appendix ([the whole section in your October guide, lines 985 to 1005](https://github.com/u-dont-existDOTcom/joel-articles/blob/cb6ac8b527bf2ac2e3129b910cfcfdf1134c2f37/articles/inner-child-therapy/source/inner-child-guide-2026-10-04-r4.txt#L985-L1005)), has these first-person lines. Each is your story, and whether its wording is yours is your call (E189), so here they are whole:
+The section went in tonight, at the start of the Appendix ([Human Written 0.26, high](https://www.pangram.com/history/9c1c4b8e-4c9c-4dd1-a5d7-a1c284300822); [the Appendix with it 0.18, high](https://www.pangram.com/history/ca0adca2-3131-4e21-bea0-26b77a1a8d65)), with your guide's first-person lines exactly as your guide has them ([the whole section in your October guide, lines 985 to 1005](https://github.com/u-dont-existDOTcom/joel-articles/blob/cb6ac8b527bf2ac2e3129b910cfcfdf1134c2f37/articles/inner-child-therapy/source/inner-child-guide-2026-10-04-r4.txt#L985-L1005)). Each is your story, and whether its wording is yours is your call (E189), so here they are whole; the review page shows each one in its paragraph, beside your guide:
 - "My reparenting method diverges from IFS at an important point."
 - "I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru."
 - "I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything."
 - "IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition."
 - Related Clinical Work: "This framework developed through the teachers and collaborators credited below and my own practice." and "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package."
 
-And the section as a whole: I can't find any more AI tells here, and I see some human tells, like these: "Honestly, in a lot of ways it isn't." answers the question before it, the way your "No problem, the questions can wait." does; "how many parts is that now?" reacts to the list before it; and "Those don't even agree with each other on everything!" reacts to the list of approaches. Can you help show me the tells I'm missing?
+- **A. "My words"** for all of them, or name the ones.
+- **B. Your words instead** for any of them (they get checked again with your words).
+- **C. Leave a line out.**
 
-It read AI as a section in all six versions, five of mine and a fresh writer's (rounds t71d to t71ff, the last one opening on where IFS comes from, Richard Schwartz in the 1980s; the closest [AI Detected 0.66](https://www.pangram.com/history/755f63b9-0f5e-4c32-9591-dc41f1af1392)). Three of its paragraphs read Human alone: exiles and unburdening (0.24), Related Clinical Work (0.19), and the writer's last one, on choosing a therapist (0.28). My march read: the first two paragraphs follow the guide's outline step by step (where IFS overlaps, where it differs, what borrowing changes), and the map and choosing-a-therapist paragraphs end on its predictable advice.
-- **A. "My words"** for any of the lines above (they go in as published, and I try the rest around them again).
-- **B. Your version** of the section, or of any paragraph.
-- **C. The tells I'm missing.**
-- **D. Leave the section out for now**: the Appendix keeps Teachers and Practice Resources.
+One more: your guide's next sentence after the Higher Self line, "A trustworthy adult function is built through care, boundaries, action, and direction.", is out for now, because the paragraph before already says the inner adult is one "you build and practice occupying", with its three jobs (every AI window in three rounds started on that sentence). **D.** Leave it out. **E.** Put it back (it gets checked again).
 
-They can go together, like `45: A, C`.
+They can go together, like `45: A, D`.
 
 ### 🟣 47. Teachers and Practice Resources: your two first-person lines, and the Gemini thread
 
@@ -56,16 +54,18 @@ Three checks of tonight's sections against the whole article found these in text
 3. **A real attack, or paranoia?** When the Urge to Escape Arrives says "Paranoia during a rough trip is a warning sign for psychosis.", and your answer in Altered States Can Deepen says "But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, ...". Nothing tells a reader how to tell which one they're in. **A.** Leave it (the caution signs still count, and the article says so right there). **B.** Your words on how to tell.
 4. **"purely just fear".** In your trance paragraph, "You recognize it has no real world significance and it's purely just fear" reads to both readers as if "it" is the demon, which the paragraphs around it call real. **A.** Leave it. **B.** "the fear" for "it" ("You recognize the fear has no real world significance ..."). **C.** Your words.
 
-### 🟣 50. Four pointers of mine: tonglen, Jack Kornfield, Lucia Capacchione and Benjamin Franklin
+### 🟣 50. Five pointers of mine: tonglen, Jack Kornfield, Lucia Capacchione, Benjamin Franklin and Richard Schwartz
 
-Four sections went in tonight because of a sentence of mine pointing to a real source, each linked and opened first, with the rest grown out of it. None of the four sources is in your guide:
+Five sections went in tonight because of a sentence of mine pointing to a real source, each linked and opened first, with the rest grown out of it. None of the five sources is in your guide:
 1. **Just Like Me**, at the start of its P2: "If you've tried Pema Chödrön's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine." ([P2 alone Human Written 0.088](https://www.pangram.com/history/b334d1d5-d2e6-4687-bb54-c1e43056dba6), [the practice 0.23, high](https://www.pangram.com/history/8dd8585d-f1a5-4650-a589-254e0fcbb355)). It sits after A Heart-to-Child Loop now: at the guide's place, before Use Childhood Photographs Gently, it gave your photographs heading and opening an AI window, so I moved it up ([Simple Practices 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d)).
 2. **Altered States Can Deepen the Therapy**, P4 (the beautiful state as a hook), after seventeen versions without it read AI in the h1: "Jack Kornfield has a whole book on what comes next, [After the Ecstasy, the Laundry](https://jackkornfield.com/after-the-ecstasy-the-laundry/). The title kind of says it all." The rest grows out of the title, ending "The laundry will tell you more, and it's the same test as back in Timing Is Individual." (pointing to your P14 there, which the repeats check found the paragraph had been saying again) ([P4 alone Human Written 0.0083](https://www.pangram.com/history/8cf2a25e-ae8e-401b-b185-37b99aa46242), [the h1 0.036, high](https://www.pangram.com/history/b5e47e6a-a79c-4b6c-8ec3-3b05af20faac)).
 
 3. **Journal With Each Hand**, at the start of its P1: "Lucia Capacchione, an art therapist, wrote a whole book on this one, [The Power of Your Other Hand](https://www.luciac.com/). As titles go, it's pretty literal." The rest grows out of the title ("Your other hand, the clumsy one, writes like a first grader anyway, ..."); the link is her own site, which lists the book ([P1 alone Human Written 0.0062](https://www.pangram.com/history/895d5d72-8908-4813-abfd-e8758ed06d98), [the practice 0.018, high](https://www.pangram.com/history/eb705c60-c368-4de9-8283-e9b7fc78ec5f)).
 4. **One Intention in the Morning, One Review at Night**, all three paragraphs: Benjamin Franklin's daily scheme in his [Autobiography](https://www.gutenberg.org/ebooks/20203): his morning question "What good shall I do this day?" and his evening one "What good have I done to-day?", his thirteen virtues taken one at a time, a week each, his little book with a black spot for every fault (he scraped them out "until the paper was full of holes"), and the last line of his chart, "Sleep." ([the practice Human Written 0.065, high](https://www.pangram.com/history/d19c16bf-61fb-409a-a018-d955f9c08ef1), [Simple Practices with it 0.097, high](https://www.pangram.com/history/36e29120-3fff-479c-9cb9-f2bbfaa59a01)). Without Franklin, no version of it read Human (more than forty tries over turns 65 and 71).
 
-For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C, 3A, 4A`.
+5. **How This Relates to IFS**: P1 opens on Richard Schwartz's [No Bad Parts](https://ifs-institute.com/store/419), on the IFS Institute's page for it, with his "honor, understand, and love every part" from that page ("That's a lot of the overlap with this method, right there in the title."), and P2 quotes the IFS Institute's [outline of the model](https://ifs-institute.com/resources/articles/internal-family-systems-model-outline) between your two lines ("everyone has a Self", the Self "can and should lead"). The maze in P5 "with a little one somewhere in the middle of it" is mine too ([the section Human Written 0.26, high](https://www.pangram.com/history/9c1c4b8e-4c9c-4dd1-a5d7-a1c284300822)).
+
+For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C, 3A, 4A, 5A`.
 
 ## For you to do (no decision needed)
 
@@ -80,7 +80,7 @@ You merged #190 (turn 70) before 01:16 UTC. Tonight's work goes in a new pull re
 
 ### 🟢 2026-10-18 01:16, 01:17, 01:30 and 01:54 UTC
 
-- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections whole, with your stories as your guide has them and your trance answer; Close the Session and Return to Life; Just Like Me; Journal With Each Hand; One Intention in the Morning, One Review at Night; and the Appendix with Teachers and Practice Resources. Every link in the article was opened too. What I couldn't figure out is 45, in your format; 45 and 47 to 49 need your word on text that's yours, and 50 on four additions of mine. Question 46 (Journal and One Intention, in your help-request format) is gone: both went in before you saw it.
+- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections whole, with your stories as your guide has them and your trance answer; Close the Session and Return to Life; Just Like Me; Journal With Each Hand; One Intention in the Morning, One Review at Night; and the Appendix whole, How This Relates to IFS with Related Clinical Work and Teachers and Practice Resources. Every link in the article was opened too. Nothing is left that I couldn't figure out; 45 and 47 to 49 need your word on text that's yours, and 50 on five additions of mine. Questions 45 and 46 had been help requests in your format (IFS; Journal and One Intention) until those went in, before you saw them.
 - "and save your work as you go in case credits run out": pushed after every round, and the handoff note on your laptop updated with it.
 - "signed into another pangram": the run moved to that account at 01:57 UTC (the first one showed 176 credits left at 01:31 UTC).
 
