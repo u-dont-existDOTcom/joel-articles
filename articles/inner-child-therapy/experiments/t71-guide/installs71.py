@@ -445,3 +445,17 @@ def hcl(p='hcl-a'):
 
 register('hcl', lambda: HCL_C_END + '\n\n' + HCL_P, hcl)
 register('hcl-b', lambda: HCL_C_END + '\n\n' + HCL_P, lambda: hcl('hcl-b'))
+
+
+# 2026-10-18, round t71ttt: the guide's "A no to the frame is not a pacing problem to solve." (r4 line 71), which the
+# coverage check found missing (COVERAGE-r4-A.md, 5), after Before You Try to Go Deep's P1. Installed only if the
+# trace finds no decision of his on it.
+BG_P1_END = "You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child."
+
+
+def frm(p='frm-c'):
+    return BG_P1_END + '\n\n<!-- Turn 71 (the overnight run): the guide\'s "That means turning the depth down, not throwing the relationship away—unless you simply do not want to use the inner-child frame. A no to the frame is not a pacing problem to solve. If you do not want inner-child work, stop using that language and do not keep trying to sneak it back in through “gentler” exercises or by renaming ordinary tasks as reparenting. Care, protection, guidance, and human support can continue in whatever language actually fits you." (r4 line 71), missing from the article (COVERAGE-r4-A.md, 5; @@FRMTRACE@@). experiments/t71-guide/drafts/' + p + '.txt. @@FRM@@ -->\n\n' + draft(p)
+
+
+register('frm', BG_P1_END, frm)
+register('frm-d', BG_P1_END, lambda: frm('frm-d'))
