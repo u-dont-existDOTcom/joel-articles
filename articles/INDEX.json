@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "4202874610271c4a8c795d066e1b130c6f2803fb03f82ac585aaf57e6564e79a"
+          "sha256": "da26efe53d36b9e6188995a4e9ebfda21162bf9ce28bb74672a0039a73627340"
         }
       },
       "review": {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "c8829ef383c1a29760d10743808b0169cf4752b6687030b800869170e12459ea",
+          "sha256": "fd9a4c968baf661fd8db146b9af5c9eb702400693abd67d4825f1bd27bfa0491",
           "role": "owner_questions_page"
         },
         {
@@ -20626,6 +20626,16 @@
           "path": "articles/inner-child-therapy/experiments/t71-guide/RESULTS-aa6.json",
           "sha256": "b7333338297685533359474837e7decf5578626dc23ed02200e576d1d1044917",
           "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/COLD-READ-t71-chicken-egg.md",
+          "sha256": "c3f44f40b75d99b23f953263ed3aed90dd157d9538338216d9090d3dc5b94d7e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/COLD-READ-t71-worthy.md",
+          "sha256": "db4bc4b84f53438f29ef3b5f2147a724526534592f9ab64761698e7bed86345f",
+          "role": "humanization_working_record"
         }
       ]
     },
