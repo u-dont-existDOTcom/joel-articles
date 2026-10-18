@@ -1,0 +1,9 @@
+[
+  {"finding": "B1: SHIFT scripts made optional (\"You can say\")", "verdict": "OK", "why": "'You can say' is only a lead-in; the mantra and invitation scripts are both still given for the reader to say."},
+  {"finding": "B1: SHIFT mantra \"I am not leaving... I am listening\" became future \"I'm just going to listen\"", "verdict": "OPEN", "why": "Published mantra is present tense ('I am not leaving life. I am listening'); the rewrite makes it a future intention.", "replace": "I’m not going to leave life, I’m just going to listen more deeply to life.", "with": "I am not leaving life. I am listening more deeply to life."},
+  {"finding": "B1: SHIFT invocation addressed to the entities became \"with the help of my...\" (addressee unclear)", "verdict": "FIXED", "why": "Rewrite now addresses them directly: 'Higher Self, universal heart-mind, wise subconscious mind, ... please help me understand'."},
+  {"finding": "B1: LOST \"lightly\" (intention held in background)", "verdict": "FIXED", "why": "Rewrite now says 'hold the intention of this exercise lightly in the background of your mind'."},
+  {"finding": "B1: LOST \"on its own\" (salience arises by itself)", "verdict": "FIXED", "why": "Rewrite now says 'Notice what stands out on its own.'"},
+  {"finding": "B1: UNCLEAR \"know that your need to do something or be grateful...\" garbled", "verdict": "FIXED", "why": "Rewrite now reads 'know that you need to do something or be grateful for something', covering both task and gratitude."},
+  {"finding": "R: just notice thoughts without fighting or following, in B1 and B1", "verdict": "OPEN", "why": "'Notice your thoughts...' and then 'but simply noticing them' give the same instruction twice; published says it once.", "replace": ", but simply noticing them while you hold", "with": ", while you hold"}
+]

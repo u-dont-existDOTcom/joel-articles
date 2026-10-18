@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-j/HG31-r3.txt",
+  "input_words": 147,
+  "input_sha256": "4c94e8020c806d7e8e23fcd39e84f4d5bbe88d93adc7589c2336505b62680a8d",
+  "balance_before": 120336,
+  "started_utc": "2026-10-18T04:21:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:21:09Z",
+  "response": {
+    "id": "f49b33d8-37a8-4cf2-860d-5e16b852ebf0",
+    "tool": "humanize",
+    "text": "Parts integration, without pretending the conflict is solved\n\nThe Sacred Decision (What does one side want? What is the other side afraid of? What is the need of each side? What is a 3rd option that meets each sides needs while not letting one side completely dominate?)\n\nThings I don’t use NLP to:\n\nDeny legitimate signals\n\nRemove fear (only re-prioritize it to a more useful level)\n\nRecover “memories”\n\nManipulate people (this includes myself)\n\nConvince myself intuitions are true (that’s more carefully attending to the non-rational data stream)\n\nRemove legitimate signals (pain, hunger, etc) or medical symptoms\n\nDo while in states of panic, extreme destabilization, mania, “psychosis-like” states, extreme chemical conditions, etc\n\nManipulate other people (this includes:\n\nMaking people feel spiritually inferior\n\nGiving covert commands\n\nCreating false urgency\n\nNon-consciously gaining permission\n\nManipulating people in trance states, weakened states, attraction states, etc",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 147
+    },
+    "elapsed": 8
+  },
+  "balance_after": 120189
+}

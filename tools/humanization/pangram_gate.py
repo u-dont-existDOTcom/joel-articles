@@ -59,6 +59,9 @@ point of the published text kept, nothing invented), "stance": 0 and "missing": 
 is kept, but a FAIL doesn't stop the call: the linter's tells were found in my sentences, the guide's own lists carry its
 meaning (the first six Emulate texts, 2026-10-18: four FAILs, each on a list Emulate kept from the published text), and
 Pangram is the test that costs a credit; whether the linter predicts Pangram on Emulate's text is what the record shows.
+It doesn't: 57 of the 59 screens of 430g to 437g FAILed, and 28 of the 30 that read 100% Human. So an edit of an
+Emulate text (my meaning fixes, "was_kind": "emulate", "lint_was": the screen's verdict) isn't held by a FAIL that its
+screen had too; one the screen didn't have still holds it.
 
 A baseline (2026-10-18) is a published text checked as it stands, before any of it is rewritten:
 {"kind": "baseline", "source": "source/published-20260928.md, SHA-256 3b5cb6cc..."}. It needs only its source.
@@ -199,7 +202,14 @@ def problems(key, gate, seen=()):
                    "'owner_ok' (Joel, 2026-10-12: \"never take out something important in order to pass pangram\")")
     if g.get('cold') != 'OK':
         out.append('cold read: %r (every sentence OK first)' % (g.get('cold'),))
-    if not g.get('lint') or str(g.get('lint')).upper() == 'FAIL':
+    # 2026-10-18: an edit of an Emulate text (my meaning fixes in a section whose Emulate screen read 100% Human, "was_kind":
+    # "emulate") is held by a linter FAIL only when the screen it edits wasn't FAIL too ("lint_was", the screen's own
+    # recorded verdict). The linter FAILed 57 of the 59 Emulate screens of 430g to 437g, and 28 of the 30 that read 100%
+    # Human (articles/inner-signal/humanize/fix-20261018/b43*/GATE.json), so on Emulate's text its FAIL says nothing about
+    # Pangram; a FAIL the screen didn't have is one my fixes made, and that still holds the call.
+    emu_fail_ok = (kind == 'edit' and g.get('was_kind') == 'emulate' and str(g.get('lint_was', '')).upper() == 'FAIL'
+                   and str(g.get('lint', '')).upper() == 'FAIL')
+    if (not g.get('lint') or str(g.get('lint')).upper() == 'FAIL') and not emu_fail_ok:
         out.append('linter: %r (run it; a FAIL means rewrite)' % (g.get('lint'),))
     for field, good, need in (('grounding', 'OK', 'a clean grounding'), ('stance', 0, 'a stance check with 0 conflicts')):
         v = g.get(field)

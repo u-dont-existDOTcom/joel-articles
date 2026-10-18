@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-j/HG31-r1.txt",
+  "input_words": 45,
+  "input_sha256": "37bf0802c145e6feafd86e0dfd27a521b6dc4bd4cc80541b69b4c10c1d0e2e72",
+  "balance_before": 120430,
+  "started_utc": "2026-10-18T04:20:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:20:52Z",
+  "response": {
+    "id": "7dccc911-e09a-47df-a692-e150b1fe0bd5",
+    "tool": "humanize",
+    "text": "Pattern 2: Awareness verbs\n\nTry some of the other ‘awareness’ verbs: notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider\n\n- Notice: ‘Notice if……..’",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 45
+    },
+    "elapsed": 3
+  },
+  "balance_after": 120385
+}

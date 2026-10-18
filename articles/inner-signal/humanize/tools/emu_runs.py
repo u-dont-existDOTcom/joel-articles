@@ -105,10 +105,25 @@ def heading_like(p):
     return len(p.split()) <= 15 and not p.endswith(('.', ',', ';', ':')) and '\n' not in p and not p.startswith(('“', '"'))
 
 
+def rewritten_heading(title, p):
+    """A short line that shares a word stem with the heading and isn't much longer than it, and isn't a list item with a
+    gloss in brackets (emu-i, 2026-10-18: "Iteration (revise the prompt based on real life feedback)" was taken for the
+    heading "Core prompts" and the paragraphs after it were put under the wrong heading)."""
+    return (heading_like(p) and '(' not in p and len(p.split()) <= max(4, 2 * len(title.split()))
+            and bool(stems(title) & stems(p)))
+
+
+STEM_STOP = set(('how what when where why who which can do does did not no me my we us our if so all any more one get have '
+                 'has will would should could may might there here then than just also about into out up down over under again '
+                 'too very re').split())
+
+
 def stems(t):
     """content words cut to five letters, so "spiritually" meets "spiritual" and "processing" meets "process"
-    (Emulate rewrites headings: "You get stuck in spiritual bypass" came back as "You're spiritually bypassing")."""
-    return {w[:5] for w in content(t)}
+    (Emulate rewrites headings: "You get stuck in spiritual bypass" came back as "You're spiritually bypassing"); common
+    words don't count (emu-i: "How" made "Resistance: What are you protecting me from? How can you trust me 1% more?"
+    look like the heading "Appendix A: How to ask the subconscious a useful question")."""
+    return {w[:5] for w in content(t) if w not in STEM_STOP}
 
 
 def match_headings(heads, paras):
@@ -125,7 +140,7 @@ def match_headings(heads, paras):
                 got = i; break
             if heading_like(p) and tw and len(tw & content(p)) * 3 >= len(tw):
                 got = i; break
-            if heading_like(p) and len(p.split()) <= 10 and stems(title) & stems(p):
+            if rewritten_heading(title, p):
                 got = i; break
             first = re.split(r'(?<=[.!?:])\s+', p, maxsplit=1)
             if len(first) == 2 and heading_like(first[0].rstrip('.:')) and tw and len(tw & content(first[0])) * 2 >= len(tw):
@@ -174,7 +189,7 @@ def aligned(m, blocks, paras, heads):
     review checks each stretch against its published blocks, so a bad cut shows there. None when it can't be cut."""
     sent = m['sent']
     hs = [blocks[j][1] for j in heads]
-    ps = [p for p in paras if not (heading_like(p) and len(p.split()) <= 12 and any(stems(h) & stems(p) for h in hs))]
+    ps = [p for p in paras if not any(rewritten_heading(h, p) for h in hs)]
     bounds = [-1] + [sent.index(h) for h in heads] + [len(sent)]
     groups = [[sent[i] for i in range(bounds[k] + 1, bounds[k + 1])] for k in range(len(bounds) - 1)]
     groups = [g for g in groups if g]

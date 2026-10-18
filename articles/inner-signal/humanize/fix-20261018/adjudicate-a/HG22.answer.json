@@ -1,0 +1,5 @@
+[
+  {"finding": "B1: SHIFT \"give the same practice more time\" became \"practise this once or twice a week\"", "verdict": "OK", "why": "Rewrite keeps once or twice a week plus 'more time with it if that would be useful'; the same practice, reordered."},
+  {"finding": "B1: SHIFT \"more time\" became \"a bit more time\"", "verdict": "OPEN", "why": "Published says 'more time'; 'a bit more time' adds a size limit the author never sets.", "replace": "spend a bit more time with it", "with": "spend more time with it"},
+  {"finding": "B1: SHIFT \"start from Higher Self or witnessing\" became \"when useful, Higher Self; if not possible, witnessing\"", "verdict": "OPEN", "why": "Published gives Higher Self or neutral witnessing as equal starting points; the rewrite adds 'whenever it is useful' and a fallback.", "replace": "Whenever it is useful just access Higher Self, or if that is not possible go to a neutral witnessing place and let it unfold", "with": "Start from Higher Self or neutral witnessing and let it unfold"}
+]

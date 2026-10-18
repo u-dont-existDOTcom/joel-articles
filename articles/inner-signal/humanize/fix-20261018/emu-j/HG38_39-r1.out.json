@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-j/HG38_39-r1.txt",
+  "input_words": 145,
+  "input_sha256": "73d80232af61e6c2cc73c384d0af77a6e2c8216c42d434f7455f1da4e98352fa",
+  "balance_before": 120575,
+  "started_utc": "2026-10-18T04:20:36Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:20:47Z",
+  "response": {
+    "id": "cd28b409-9e26-4259-9feb-5090637ab0e6",
+    "tool": "humanize",
+    "text": "Appendix J: A practical induction library\n\nPractise: Preview, choose a purpose, decide to start. All ‘families’ can be light, eyes open or with no trance contact replacement. Monitor what happens (even if nothing seems to change) and decide on next action: move on, imagine, change sensory channel, remain still, stop the sequence etc. Always do a complete waking return from induction.\n\nNB If you cannot ‘see’ any images vividly, translate the metaphor into words, rhythm, spatial relations, touch, movement, knowing etc.\n\nStretch and release (to use)\n\nFocus on a feeling of support (and perhaps the position of one hand or foot). Either actually or in imagination stretch slightly and/or press into the support and then release. Notice any difference in feeling (even if nothing seems to change). Repeat this with no more than 3 areas of the body. Use the notion of ‘release’ to guide you through the sequence. Ask yourself where in your body (and/or voice) you need to stretch or release and what you need by way of support to do this. Then bring back normal movement and return.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 145
+    },
+    "elapsed": 10
+  },
+  "balance_after": 120430
+}

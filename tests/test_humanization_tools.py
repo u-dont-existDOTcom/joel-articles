@@ -1171,6 +1171,19 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertIn('start_index', read)
         self.assertIn("flagged:", read)
 
+    def test_an_emulate_edit_is_held_only_by_a_lint_fail_its_screen_lacked(self):
+        """2026-10-18: the linter FAILed 57 of the 59 Emulate screens of 430g to 437g, 28 of the 30 that read 100% Human, so
+        a FAIL on my meaning fixes of an Emulate text holds the call only when its screen wasn't FAIL too."""
+        edit = {'kind': 'edit', 'was': '431g HG06-emuA, 100% Human', 'march_was': ['S B S'], 'march': ['S B S'], 'cold': 'OK',
+                'grounding': 'OK', 'stance': 0, 'missing': [], 'lint': 'FAIL', 'was_kind': 'emulate', 'lint_was': 'FAIL'}
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': edit}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': dict(edit, lint_was='REVIEW')}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('linter', r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': dict(edit, was_kind='draft')}, ['p'])
+        self.assertEqual(r.returncode, 2)
+
     def test_a_note_cannot_waive_a_dropped_point(self):
         """2026-10-16: section 13 v31 passed with "missing": [] and the dropped "if the community uses them" written in a
         note. Joel, 23:38 UTC: "yes i want "if the community uses them" back"."""

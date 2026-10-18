@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-j/HG31-r2.txt",
+  "input_words": 49,
+  "input_sha256": "37a3c2140637ad175cba3a047d50b76975a2b89734011a075d2422356b985174",
+  "balance_before": 120385,
+  "started_utc": "2026-10-18T04:20:53Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:20:59Z",
+  "response": {
+    "id": "b5947bef-0b1d-4dff-ad1d-f7024ada8b57",
+    "tool": "humanize",
+    "text": "The body knows how to rest, doesn't it?\n\nPattern 9: Use nominalizations in the phrases.\n\nHealing, safety, trust, integration, communion, clarity, rest, and other words like that are quite vague. And sometimes that vagueness is helpful because it lets the subconscious mind fill in the specifics in the most helpful way.\n\nWhy don't YOU let yourself become a bit safer now, in whatever way is most appropriate for YOUR body?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 49
+    },
+    "elapsed": 5
+  },
+  "balance_after": 120336
+}

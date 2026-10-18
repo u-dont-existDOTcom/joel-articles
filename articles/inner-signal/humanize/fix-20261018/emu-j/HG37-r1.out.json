@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-j/HG37-r1.txt",
+  "input_words": 57,
+  "input_sha256": "e0ce2f8463ea807775f29a1b79944350571bf8398588295155708c660d2d97b2",
+  "balance_before": 120632,
+  "started_utc": "2026-10-18T04:20:25Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:20:34Z",
+  "response": {
+    "id": "22bb69ab-cc02-44d7-b852-7c137d584de8",
+    "tool": "humanize",
+    "text": "the enemy flourishes when fear, hatred, pride and panic feed it attention.\n\nSo the next time the enemy enters the room, simply say to it, “I see that there is no reason to hate or revile what I am experiencing. I see that there is no need to merge with or become what I am experiencing. I see that there is no need to obey the voice in my head or in another. I see that there is no need to defeat what I am experiencing. I choose instead to return my attention to my loving awareness.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 7
+  },
+  "balance_after": 120575
+}
