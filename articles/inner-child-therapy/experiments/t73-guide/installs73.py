@@ -90,3 +90,10 @@ register('chkm2', lambda: (lambda a, b: ART.read_text(encoding='utf-8')[ART.read
 for _x in 'jl':
     register('yb4' + _x, lambda: para('Whatever you try from that map'),
              (lambda s: lambda: dnote(s, 'his Inner Monologue move (2026-10-18 19:06 UTC) put a 66-word AI window on this paragraph, my T-point paragraph of turn 34 (rounds t72e and t73b, https://www.pangram.com/history/cbcd178f-8fa5-47a2-8f0a-40cfde2db384), so its middle sentence, the guide\'s "But "I stayed oriented" is not enough by itself either.", is said without "by itself" (O43); the rest is as it was.', 'YB4') + draft(s))('yb4-' + _x))
+
+
+# --- Round e: Also Look Outward's honesty paragraph, which the moved order exposes once P4 holds (round t73d) ----------
+HON = "And reaching out doesn't mean telling strangers everything."
+for _x in 'cd':
+    register('hon' + _x, lambda: para(HON),
+             (lambda s: lambda: dnote(s, 'his Inner Monologue move put a 38-word AI window on this paragraph, my C2 of turn 38 that he said yes to (rounds t72b, t72c and t73d, https://www.pangram.com/history/48c365a1-adca-4f29-a4c9-ad21ee98aaeb), so "how they handle the smaller things you tell them" gets a scene; the rest is as it was.', 'HON') + draft(s))('alo-hon-' + _x))
