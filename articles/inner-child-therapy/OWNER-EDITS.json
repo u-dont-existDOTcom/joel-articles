@@ -495,13 +495,14 @@
    "what": "P5 of Not Every Hero Wears A Cape is Joel's final (\"Protector\" capitalized, as elsewhere in the article).",
    "joel": "2026-09-30 03:29 UTC: \"for P5 the first \\\"it\\\" is unclear referent. I assume you mean the protector action, not the difficult conversation. You explained in the next sentence. here's hum med conf final p5: After the day, look at what actually happened. If you did the protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic. [...] Hey, we've all been there. 🤗\"",
    "must_contain": [
-    "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic.",
+    "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn't mean failure. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first.",
     "Fear is the first guess, but maybe you didn't know how or why. Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. Hey, we've all been there. 🤗"
    ],
    "order": [
     "as long as what you needed to say is still in there.",
     "After the day, look at what actually happened."
-   ]
+   ],
+   "note": "2026-10-18 (turn 73): his 55, 9 of 21:58 UTC (\"What i meant to say there was \"healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first.\"\") in place of \"because the process is dynamic\"."
   },
   {
    "id": "mpv-p1-sweet-things",
@@ -2440,13 +2441,14 @@
    "joel": "2026-10-17 22:59 UTC: P1 \"now human high conf on pangram\"; P2 \"it's better this way and human med conf\"; P5 \"this is human\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "Speak Toward What You Are Building",
    "must_contain_exact": [
-    "It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself \"I'm not dependent.\" Well, now you're thinking about being dependent. Being totally independent also isn't realistic nor ideal, and can even seem like just a reaction to the original question. We can often strike a nice nuanced poetic balance, like: \"I'm provided for by the universe, like the birds & lilies Jesus reminded us of.\" With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!",
+    "It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself \"I'm not dependent.\" Well, now you're thinking about being dependent. Being totally independent also isn't realistic nor ideal, and can even seem like just a reaction to the original problem. We can often strike a nice nuanced poetic balance, like: \"I'm provided for by the universe, like the birds & lilies Jesus reminded us of.\" With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!",
     "But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says \"he hurt me,\" that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide parts can lead the way up to more safety and maturity.",
     "The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both."
    ],
    "must_not_contain": [
     "lillies"
-   ]
+   ],
+   "note": "2026-10-18 (turn 73): his 55, 17, A of 21:58 UTC, \"the original problem\" for \"the original question\"."
   },
   {
    "id": "first-person-back-20261017-2259",

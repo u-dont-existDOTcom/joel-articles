@@ -41,3 +41,25 @@ for _a in 'abc':
         register('st%s%s' % (_a, _b), lambda: para('Of the clinical approaches I know'),
                  (lambda a, b: lambda: para('Of the clinical approaches I know') + '\n\n' + dnote(a, ST_SRC + ' The differences, with spirituality first, as he asked.', 'ST2') + draft(a)
                   + '\n\n' + dnote(b, 'choosing a therapist, from the same research and his words "not just any schema or IFS therapist will be good". The guide\'s no to the inner-child frame, in the research\'s question 2, isn\'t asked: he cut it on 2026-10-08.', 'ST3') + draft(b))('st2-' + _a, 'st3-' + _b))
+
+
+# --- His Inner Monologue move (turn 72's move-monologue-pending-20261018): the section goes right after When Healing
+# Turns Into Checking, before When the Present-Day Adult Is Dangerous to the Child, which moved in round t72f ----------
+MONO_H = '## You Don’t Need an Inner Monologue\n'
+BODY_C = '<!-- Regulation section (source H2 `Regulation May Come Before Dialogue`)'
+DMOVE_KEY = 'his section move: When the Present-Day Adult Is Dangerous to the Child goes after'
+
+
+def _mono():
+    t = ART.read_text(encoding='utf-8')
+    j, k = t.find(MONO_H), t.find(BODY_C)
+    return t[j:k] if 0 <= j < k else None
+
+
+def _dmove_line():
+    return next((l for l in ART.read_text(encoding='utf-8').split('\n') if DMOVE_KEY in l), None)
+
+
+register('mono-out', _mono, '')
+register('mono-in', lambda: _dmove_line() if _mono() else None,
+         lambda: (note('his section move, the other half (2026-10-18 19:06 UTC: "i think we should move "you don\'t need an inner monologue section" to right after "when healing turns into checking" and we should move "when the present-day adult is dangerous" after that"): You Don\'t Need an Inner Monologue is here now, its text unchanged. @@MONO@@') + _mono() + _dmove_line()) if _mono() else None)
