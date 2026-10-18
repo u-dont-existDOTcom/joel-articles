@@ -3,7 +3,7 @@
  "meta": "Inner Child Therapy · turn 71 (your messages of 2026-10-18 01:16 to 01:54 UTC) · saved on the lane, in a new pull request, not merged",
  "intro": [
   "Everything that went into the article tonight, beside your October guide. Every paragraph on this page reads Human alone in Pangram (yours as you published them), and so does its section; the links are in each row's notes, and every check is in the turn's results file: https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t71-guide/REVIEWS.md",
-  "Five new practices in Simple Practices, the three Altered States sections whole with your stories, and the Appendix whole: How This Relates to IFS with Related Clinical Work, and Teachers and Practice Resources. With these, the whole guide is in the article. What still needs you is on the questions page (45 and 47 to 50)."
+  "Five new practices in Simple Practices, the three Altered States sections whole with your stories, and the Appendix whole: How This Relates to IFS with Related Clinical Work, and Teachers and Practice Resources. With these and a queued change to your guide in Speak Toward What You Are Building, the whole guide and its queue are in the article. What still needs you is on the questions page (45 and 47 to 50)."
  ],
  "blocks": [
   {
@@ -388,6 +388,27 @@
      "notes": [
       ""
      ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Speak Toward What You Are Building"
+   ],
+   "rows": [
+    {
+     "label": "P4 (new: a queued change to your guide, the support mode remembered)",
+     "article": "Your little one deserves that courtesy too.",
+     "source": [
+      "Before giving advice, it can help to establish what kind of company"
+     ],
+     "notes": [
+      "Turn 71 (the overnight run): the queued guide change PGQ-015 (source/PENDING-PUBLIC-GUIDE-CHANGES-2026-10-06-r2.md: remember a stated support mode until it changes instead of asking again; don't infer it from gender or another stereotype; advice already given, with nothing new changing it, gets a brief mention and you move on instead of serving it as new), queued \"with PGQ-011\", the paragraph before; waiting since turn 30 (GUIDE-UPDATE-QUEUE-20261006.md). experiments/t71-guide/drafts/pgq15-c.txt. Alone Human Written (0.021), https://www.pangram.com/history/2def663a-fad7-4308-a476-589e2d317f33; Speak Toward What You Are Building with it Human Written (0.086, high, 867 words), https://www.pangram.com/history/5d4296e0-7b34-4fec-b447-494ebd3a2138 (round t71eee)."
+     ],
+     "beside": {
+      "label": "The queued guide change it carries, PGQ-015 (remember a stated support mode and avoid stale advice), queued with the paragraph before it",
+      "text": "Preserve the conversational principle that an explicit preference for listening, collaborative untangling, advice/ideas, or a mix should be remembered until changed rather than repeatedly re-asked. Do not infer this preference from gender or another stereotype. When substantially the same guidance was already given and new information does not alter its rationale or feasibility, reference it briefly and move forward instead of presenting the old advice as a new intervention."
+     }
     }
    ]
   },

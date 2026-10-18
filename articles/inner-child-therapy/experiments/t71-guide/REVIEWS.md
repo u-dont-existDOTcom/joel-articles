@@ -85,6 +85,10 @@ No P1 had ever read Human (turn 65's, my twelve, a fresh writer's three) until a
 
 Simple Practices as installed with it, at the guide's place after "And So That's the Way It Happened!": Human Written (0.097, high, 1966 words), https://www.pangram.com/history/36e29120-3fff-479c-9cb9-f2bbfaa59a01; last, after Close the Session, it read 0.051 (round t71uu). The guide's place kept the guide's order (installs71.py "one-intention"). Its cold read is OK (COLD-READ-t71-one-intention.md) and its repeats check found no repeats, one callback (the late catch back to Catch the Hook) and five close calls, none counted (REPEATS-7-one-intention.md).
 
+## Speak Toward What You Are Building: the queued guide change PGQ-015, in
+
+The guide update queue (GUIDE-UPDATE-QUEUE-20261006.md) still had nine items marked "waits" from turn 37. Eight were in the article already (their sections had gone in since, from the r4 guide, which carries them; the queue now says where), and PGQ-016 went in tonight with Journal. One wasn't: PGQ-015, "remember a stated support mode and avoid stale advice", queued "with PGQ-011", the support-mode question in Speak Toward What You Are Building, which isn't in the r4 guide. Three drafts of a paragraph after that question (round t71eee): drafts/pgq15-c ("Your little one deserves that courtesy too. Once anyone tells you what they want from you, remember it, so they don't get quizzed every time (and don't guess it from their gender or another stereotype). ...") alone Human Written (0.021), https://www.pangram.com/history/2def663a-fad7-4308-a476-589e2d317f33, and the h1 with it Human Written (0.086, high, 867 words), https://www.pangram.com/history/5d4296e0-7b34-4fec-b447-494ebd3a2138; pgq15-d read AI alone (0.63) though its h1 read Human (0.066); pgq15-a, with no break in its march, and pgq15-b, with a "not Y" tail, never went (the gate). In (installs71.py "pgq15"); his P1, P2 and P5 there are untouched, and the h1 is the text checked.
+
 ## What worked tonight, for the record
 
 - The question move (E190) on a step: Close the Session's P2.
