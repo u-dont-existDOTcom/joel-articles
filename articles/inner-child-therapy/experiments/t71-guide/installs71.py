@@ -25,8 +25,8 @@ register('xandria', SP_PARKED, xandria)
 
 AS_PARKED = "<!-- Parked between this section and When the Practice Feels Real but Stays Shallow (experiments/t65-guide/PARKED.md): Altered States Can Deepen the Therapy, Altered States Can Require Reparenting and Non-altered states can feel like this too (his own stories, guides and images; their first-person lines his words, question 43, 7 and 8, except \"If a voice or urge is directing you towards harm ...\", the guide's wording). They go here, in that order. -->"
 IMG = "<!-- IMAGE https://substackcdn.com/image/fetch/$s_!wo9Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg : A dark black-and-white drawing of a gaunt, long-limbed creature with long stringy hair, crouched over a person asleep in bed with its face right over theirs, by a curtained window. The guide's alt text for it is \"Jinn Al Kaboos – that attacks you while sleeping\". -->"
-AS_H1 = "https://www.pangram.com/history/9a4e8f39-14ef-407b-a471-5f6065f595fa"   # round t71f, the h1 as installed: Human Written (0.0054, high, 1200 words)
-AS_H2 = "https://www.pangram.com/history/b9f23f83-6e0d-4e33-9e93-26bd5ce3d2f0"   # round t71c, the h2 with its h4: Human Written (0.0048, high, 1002 words)
+AS_H1 = "https://www.pangram.com/history/ff62d372-f0bd-409a-8c28-d771cfb0975d"   # round t71h, the h1 as installed: Human Written (0.0059, high, 1209 words)
+AS_H2 = "https://www.pangram.com/history/433adc21-9efd-4f86-aed6-30f3fbb81357"   # round t71h, the h2 with its h4: Human Written (0.0046, high, 1009 words)
 
 
 def altered(p345=None):
@@ -34,12 +34,12 @@ def altered(p345=None):
     None to park them (they read AI in every version tonight)."""
     def c(s):
         return '<!-- ' + s + ' -->'
-    sec = 'the h1 as installed Human Written (0.0054, high, 1200 words), ' + AS_H1 + ' (round t71f)'
-    h2 = 'the h2 with its h4 Human Written (0.0048, high, 1002 words), ' + AS_H2 + ' (round t71c), and ' + sec
+    sec = 'the h1 as installed Human Written (0.0059, high, 1209 words), ' + AS_H1 + ' (round t71h)'
+    h2 = 'the h2 with its h4 Human Written (0.0046, high, 1009 words), ' + AS_H2 + ' (round t71h), and ' + sec
     parts = [
         '# Altered States Can Deepen the Therapy',
-        c("Turn 71 (the overnight run): the guide's first paragraph, with his answer that gentle meditation or self-hypnosis can help (2026-10-12 03:13 UTC, \"should mention both\"; OWNER-EDITS altered-states-gentle-20261012b), pointing back to When the Urge to Escape Arrives, which says it already. His published line \"When you’re ready, my self-hypnosis guide or lucid-dreaming guide can take it deeper.\" is his words (question 43, 7), with the guide's two links. The entheogens are named with no amounts. Loveyhuasca has no link: loveyhuasca.info opens his Ultimate Psychedelic Protocol page, the recipe link E162 keeps out (OWNER-EDITS q8c-acacia-why-20261011c). experiments/t71-guide/drafts/as1-b.txt. Alone Human Written (0.097), https://www.pangram.com/history/fde32a30-1b65-4a2d-be0c-95999ccaa71a; " + sec + ". Record: experiments/t71-guide/REVIEWS.md."),
-        draft('as1-b'),
+        c("Turn 71 (the overnight run): the guide's first paragraph, with his answer that gentle meditation or self-hypnosis can help (2026-10-12 03:13 UTC, \"should mention both\"; OWNER-EDITS altered-states-gentle-20261012b), pointing back to When the Urge to Escape Arrives, which says it already. His published line \"When you’re ready, my self-hypnosis guide or lucid-dreaming guide can take it deeper.\" is his words (question 43, 7), with the guide's two links. The entheogens are named with no amounts. Loveyhuasca has no link: loveyhuasca.info opens his Ultimate Psychedelic Protocol page, the recipe link E162 keeps out (OWNER-EDITS q8c-acacia-why-20261011c). \"synergize with it\" is the cold read's fix (COLD-READ-t71-altered.md). experiments/t71-guide/drafts/as1-c.txt. Alone Human Written (0.085), https://www.pangram.com/history/ad902e54-5ce0-4f3b-b0d5-613ce6e01c2e; " + sec + ". Record: experiments/t71-guide/REVIEWS.md."),
+        draft('as1-c'),
         c("Turn 71: the guide's gate, said once by pointing back to the guards and the caution signs in When the Urge to Escape Arrives (the guide's \"A personal history of voices, ...\" sentence is replaced by his caution signs there, OWNER-EDITS q2-altered-states-voices-20261011), with the guide's borrowing from steady support that won't take over; then his 2026-10-11 03:47 UTC answer 2a, fitted with no words changed but \"as stated\" dropped: \"But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, and it's also not bad unless you're unprepared. It can be supremely empowering when you can send love and see how it fixes the situation.\" experiments/t71-guide/drafts/as2-c.txt (as2-a and as2-b read Human alone but their gate sentence read AI in the h1). Alone Human Written (0.033), https://www.pangram.com/history/532b8c30-b74b-4561-815f-126062f1775f; " + sec + "."),
         draft('as2-c'),
     ]
@@ -57,18 +57,18 @@ def altered(p345=None):
         draft('ar3-j'),
         IMG,
         draft('ar-cap'),
-        c("Turn 71: his 2026-10-12 03:13 UTC answer, next to his sleep-paralysis story as he asked (\"that's worth mentioning\"; OWNER-EDITS altered-states-trance-20261012b), fitted: \"A trance like that\" for his \"trance\", sentences and commas added, and two typos fixed (he typed \"commmitted\" and \"its'\"; I put \"committed\" and \"it's\"). experiments/t71-guide/drafts/ar-tr-a.txt. Alone Human Written (0.0004, medium), https://www.pangram.com/history/23556695-5b6b-4fed-93e1-e709b75c69b7; " + h2 + "."),
-        draft('ar-tr-a'),
+        c("Turn 71: his 2026-10-12 03:13 UTC answer, next to his sleep-paralysis story as he asked (\"that's worth mentioning\"; OWNER-EDITS altered-states-trance-20261012b), fitted: my \"Sleep paralysis is a trance-like state, and\" before his \"trance can be ...\" (the cold read's fix: nothing had called it a trance), sentences and commas added, and two typos fixed (he typed \"commmitted\" and \"its'\"; I put \"committed\" and \"it's\"). experiments/t71-guide/drafts/ar-tr-b.txt. Alone Human Written (0.0004, medium), https://www.pangram.com/history/0ddeb99e-f4e0-4d0b-a4f7-5a710c4bf97d; " + h2 + "."),
+        draft('ar-tr-b'),
         c("Turn 71: his sending-love paragraph as his October guide has it, \"once that love was seen as enduring\" included (43, 8). Alone Human Written (0.00004), https://www.pangram.com/history/3a5c68d7-c881-4429-9edc-31746381ad4b; " + h2 + "."),
         draft('ar4-j'),
         c("Turn 71: his training-others paragraph (43, 8), with the guide's two links. Alone Human Written (0.011), https://www.pangram.com/history/eba950d4-9a16-474f-bc8a-aaab84a85c99; " + h2 + "."),
         draft('ar5-j'),
         c("Turn 71: the guide's astral-plane paragraph as published, with his thugs line (43, 8) and its link. Alone Human Written (0.0016), https://www.pangram.com/history/cae85d43-d7e2-4643-8013-513d1f8543c4; " + h2 + "."),
         draft('ar6-g'),
-        c("Turn 71: the guide's first two sentences (\"your frightened little one\" for its \"inner child\"), then his \"If I were to do that\" line (43, 8) moved up so its \"that\" points at borrowing support, then the guide's warning in my words: a presence that enjoys your fear, or dares you to hurt or take advantage of anybody, isn't one of your grown-ups, whatever it says it is (the dare is his ghosts' move). experiments/t71-guide/drafts/ar7-a.txt. Alone Human Written (0.0035, medium), https://www.pangram.com/history/0fba717e-7566-48fe-be5d-312b8a6ce932; " + h2 + "."),
-        draft('ar7-a'),
-        c("Turn 71: borrowed adulthood again, from the guide, with its last sentence as published. experiments/t71-guide/drafts/ar8-a.txt. Alone Human Written (0.0017), https://www.pangram.com/history/b2d5dd6d-d211-4ce9-a283-25a95aaec3af; " + h2 + "."),
-        draft('ar8-a'),
+        c("Turn 71: the guide's first two sentences (\"your frightened little one\" for its \"inner child\"), then his \"If I were to do that\" line (43, 8) moved up so its \"that\" points at borrowing support, then the guide's warning in my words: a presence that enjoys your fear, or demands you hurt or use anybody, yourself included, isn't one of your grown-ups, whatever it says it is (\"demands\" is the cold read's fix: the guide's \"demands harmful obedience\" had become a dare). experiments/t71-guide/drafts/ar7-b.txt. Alone Human Written (0.0096, medium), https://www.pangram.com/history/08027ad7-c8fc-4eac-aa14-8611909857e5; " + h2 + "."),
+        draft('ar7-b'),
+        c("Turn 71: borrowed adulthood again, from the guide, with its last sentence as published; the cold read's fixes, \"Borrowing support like that\" for an unclear \"It\", and \"starts to become your own\" for the guide's \"can begin internalizing\". experiments/t71-guide/drafts/ar8-b.txt. Alone Human Written (0.0022), https://www.pangram.com/history/44ad3b9c-a11a-482a-a5b5-aa72fe87ba2f; " + h2 + "."),
+        draft('ar8-b'),
         c("Turn 71: the guide's \"If a voice or urge ...\" sentence, which he says is the guide's wording, not his, and \"ok if it passes\" (2026-10-17 22:59 UTC); its last sentence without \"capacity\" (O40). experiments/t71-guide/drafts/ar9-a.txt. Alone Human Written (0.0096), https://www.pangram.com/history/4ce4eb4a-ccb7-409a-8cae-786b7f7ead4c; " + h2 + "."),
         draft('ar9-a'),
         '#### Non-altered states can feel like this too',

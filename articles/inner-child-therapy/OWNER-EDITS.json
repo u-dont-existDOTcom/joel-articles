@@ -1578,11 +1578,13 @@
   },
   {
    "id": "q2-altered-states-voices-20261011",
-   "status": "pending",
-   "what": "For Altered States Can Deepen the Therapy, when it's humanized: his new list decides who goes through the gate (going manic, psychotic, super paranoid, worse afterward), not the guide's history of voices. Feeling attacked by a demon on a psychedelic isn't necessarily paranoia: it can be real, it isn't bad unless you're unprepared, and it can be supremely empowering when you can send love and see it fix the situation.",
+   "status": "applied",
+   "what": "For Altered States Can Deepen the Therapy, when it's humanized: his new list decides who goes through the gate (going manic, psychotic, super paranoid, worse afterward), not the guide's history of voices. Feeling attacked by a demon on a psychedelic isn't necessarily paranoia: it can be real, it isn't bad unless you're unprepared, and it can be supremely empowering when you can send love and see it fix the situation. In since turn 71 (2026-10-18), after the gate and Pangram: P2 points back to the guards and caution signs of When the Urge to Escape Arrives (his list), then his answer 2a, fitted with only \"as stated\" dropped.",
    "joel": "2026-10-11 03:47 UTC: \"2. a. feeling attacked by a demon on a psychedelic is not necessarily paranoia, it can be real, and it's also not bad unless you're unprepared as stated. it can be supremely empowering when you can send love and see how it fixes the situation.\"",
-   "where": "Altered States Can Deepen the Therapy (not humanized yet)",
-   "waits_for": "Altered States Can Deepen the Therapy to be humanized"
+   "where": "Altered States Can Deepen the Therapy",
+   "must_contain": [
+    "But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, and it's also not bad unless you're unprepared. It can be supremely empowering when you can send love and see how it fixes the situation."
+   ]
   },
   {
    "id": "q3-therapist-story-20261011",
@@ -1932,20 +1934,19 @@
   },
   {
    "id": "altered-states-trance-20261012b",
-   "status": "pending",
-   "waits_for": "Altered States Can Deepen the Therapy / Can Require Reparenting, when humanized",
-   "what": "For Altered States, next to his sleep-paralysis fear: a trance can feel scarier because you're trapped in it, but it's less dangerous. You can't ruin your life in a trance (unless a bad hypnotic suggestion gets deeply implanted, perhaps), while freaking out without one can end with being committed, losing your housing, jail, or worse. In a trance you can work with the fear: you recognize it has no real-world significance, that it's purely fear, so it's very useful that way. He wants it mentioned.",
+   "status": "applied",
+   "what": "For Altered States, next to his sleep-paralysis fear: a trance can feel scarier because you're trapped in it, but it's less dangerous. You can't ruin your life in a trance (unless a bad hypnotic suggestion gets deeply implanted, perhaps), while freaking out without one can end with being committed, losing your housing, jail, or worse. In a trance you can work with the fear: you recognize it has no real-world significance, that it's purely fear, so it's very useful that way. He wants it mentioned. In since turn 71 (2026-10-18), after the gate and Pangram: its own paragraph right after his sleep-paralysis story and the image, his words fitted (\"Sleep paralysis is a trance-like state, and\" mine; two typos fixed).",
    "joel": "2026-10-12 03:13 UTC: \"re altered states notes: yes like i said, trance can be \"more scary\" because you're trapped in it, but it's also less actually dangerous, you can't ruin your life at all in trance (unless a bad hypnotic suggestion gets deeply implanted perhaps), while without trance you can \"freak out\" in a way that might end up getting you commmitted to a mental hospital thrown out of your housing, going to jail, possibly even killing yourself. in trance you can basically work with the fear, you recognize it has no real world significance and it's purely just fear. so its' super useful that way. that's worth mentioning.\"",
-   "where": "Altered States Can Deepen the Therapy",
+   "where": "Altered States Can Require Reparenting",
    "must_contain": [
-    "trapped"
+    "trapped",
+    "You can't ruin your life at all in trance"
    ]
   },
   {
    "id": "altered-states-gentle-20261012b",
-   "status": "pending",
-   "waits_for": "Altered States Can Deepen the Therapy, when humanized",
-   "what": "Altered States says gentle meditation or self-hypnosis can help (both), as When the Urge to Escape Arrives does, rather than offering his self-hypnosis guide only \"When you're ready\".",
+   "status": "applied",
+   "what": "Altered States says gentle meditation or self-hypnosis can help (both), as When the Urge to Escape Arrives does, rather than offering his self-hypnosis guide only \"When you're ready\". In since turn 71 (2026-10-18): \"Gentle meditation or self-hypnosis can help with that from the start, like I said about the urge to escape.\"",
    "joel": "2026-10-12 03:13 UTC: \"yeah gentle meditation or self-hypnosis can help that's true should mention both\"",
    "where": "Altered States Can Deepen the Therapy",
    "must_contain": [
@@ -2396,12 +2397,16 @@
   },
   {
    "id": "published-first-person-pending-20261017",
-   "status": "pending",
-   "what": "The rest of his published first-person lines go in with their sections. He has seen each whole and in context and said they're his words (question 43, 2026-10-17 22:59 UTC: \"43 my words\"): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his guides, the childhood ghosts and the window, the sleep-paralysis attacks, sending love, training others, the thugs, and \"If I were to do that\" (the Altered States sections), with their warnings in his words and no amounts or recipes. One line there isn't his: \"If a voice or urge is directing you towards harm ... as with myself and those ghosts at home, move away from that open window and get some outside support.\" is the guide's wording (\"that's therapy speak from AI based on my story, but it's ok if it passes\"). His Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building (turn 70). This human life is in too (turn 70).",
+   "status": "applied",
+   "what": "The rest of his published first-person lines go in with their sections. He has seen each whole and in context and said they're his words (question 43, 2026-10-17 22:59 UTC: \"43 my words\"): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his guides, the childhood ghosts and the window, the sleep-paralysis attacks, sending love, training others, the thugs, and \"If I were to do that\" (the Altered States sections), with their warnings in his words and no amounts or recipes. One line there isn't his: \"If a voice or urge is directing you towards harm ... as with myself and those ghosts at home, move away from that open window and get some outside support.\" is the guide's wording (\"that's therapy speak from AI based on my story, but it's ok if it passes\"). His Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building (turn 70). This human life is in too (turn 70). Turn 71 (2026-10-18): all in, Xandria with \"And So That's the Way It Happened!\" and the rest with the Altered States sections, after the gate and Pangram.",
    "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"now that you are showing me in context exactly, i see i got paraphrased\" (experiments/t69-answers/JOEL-20261017-1856.md). 2026-10-17 22:59 UTC: \"43 my words. except the last one about voice or urge directing you towards harm, that's therapy speak from AI based on my story, but it's ok if it passes.\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "those sections, when humanized",
    "must_contain": [
-    "Xandria"
+    "Xandria",
+    "When you’re ready, my [self-hypnosis guide](http://hypnosis.u-dont-exist.com/) or [lucid-dreaming guide](http://lucid.u-dont-exist.com/) can take it deeper.",
+    "Those ghosts knew my weakness: dares.",
+    "It definitely has worked for me sometimes when facing some thugs",
+    "If I were to do that, I would still be framing it as"
    ]
   },
   {
@@ -2546,6 +2551,16 @@
    "waits_for": "his word on question 46",
    "must_contain": [
     "I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so."
+   ]
+  },
+  {
+   "id": "loveyhuasca-link-out-20261018",
+   "status": "applied",
+   "what": "Altered States Can Deepen the Therapy names Loveyhuasca with no link: the guide's loveyhuasca.info opens his \"Ultimate Psychedelic Protocol\" page (checked 2026-10-18), the recipe link his rule keeps out (E162, q8c-acacia-why-20261011c). Turn 71.",
+   "joel": "2026-10-11 (E162): amounts and recipes stay out; his \"ultimate psychedelic recipe\" line and its link stay out.",
+   "where": "Altered States Can Deepen the Therapy",
+   "must_not_contain": [
+    "loveyhuasca.info"
    ]
   }
  ]
