@@ -157,3 +157,5 @@ register('close-session', CS_PARKED, close_session)
 # - Round t71cc: Simple Practices as installed with Just Like Me read Mostly Human, with an 85-word AI window over the
 #   heading and opening of Use Childhood Photographs Gently (his words), which had read Human without it (round t71z),
 #   so Just Like Me came back out, the parked comment as before; placements tested in round t71ee.
+# - Round t71ee: Just Like Me back in, after A Heart-to-Child Loop and Journal's parked comment instead of at the guide's
+#   place (where it gave his photographs opener an AI window): Simple Practices Human Written 0.068, high, 1565 words.

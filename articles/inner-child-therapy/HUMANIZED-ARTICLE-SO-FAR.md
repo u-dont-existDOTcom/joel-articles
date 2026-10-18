@@ -857,6 +857,16 @@ Picture the love traveling from your heart down to your little one. If some come
 
 <!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md, with what it needs from Joel): Journal With Each Hand. It goes here. -->
 
+## Just Like Me
+
+<!-- Turn 71 (the overnight run): moved up from the guide's place, after One Intention and before Use Childhood Photographs Gently, where it gave the photographs heading and his opening an AI window in the h1 (round t71cc; again in t71ee with another P2). Here, after A Heart-to-Child Loop (its love practice) and Journal's parked spot, Simple Practices reads Human Written (0.068, high, 1565 words), https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d (round t71ee). Turn 65 (E181), my own draft, practice 7: only on a steadier day, when thinking about other people won't pull you out of your own shoes; name the feeling plainly; think of everyone feeling it and wanting relief, some making it worse trying to escape it, just like you; wish all of you, you first, enough support to stay with it, so the pain stops with you (experiments/t65-guide/sp7-p1-c.txt). Alone Human Written (0.072), https://www.pangram.com/history/2385355d-ab3c-4820-91fd-3bbc0f7c1ee2 (round t65t, on the first Pangram account). -->
+
+This one works best on a steadier day, when thinking about other people won't pull you out of your own shoes. Name the feeling plainly. Lonely, say. Then think of how many people are feeling that exact thing right now, and wanting it to stop, just like you. Some of them make it worse trying to get away from it. Just like you, sometimes. 😅 Wish all of you, you first, enough support to stay with it, so the pain stops with you.
+
+<!-- Turn 71: the guide's breathe normally, whoever comes to mind, no forgiving an abuser or imagining their childhood, contact as its own decision for a calmer day (the grounding's fix, GROUNDING-sp7.md [12]), and its point, after a pointer of mine to a practice it resembles, Pema Chödrön's tonglen on Lion's Roar (opened 2026-10-18; not in the guide, so question 47 asks whether he wants it). Ten P2s without it read AI in the h2 (rounds t71a to t71s), and so did a fresh writer's three whole practices (round t71w). experiments/t71-guide/drafts/jl2-l.txt. Alone Human Written (0.088), https://www.pangram.com/history/b334d1d5-d2e6-4687-bb54-c1e43056dba6; the h2 Human Written (0.23, high, 173 words), https://www.pangram.com/history/8dd8585d-f1a5-4650-a589-254e0fcbb355 (round t71bb). -->
+
+If you've tried Pema Chödrön's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too. Forgiving them isn't part of it, and neither is picturing their childhood. Getting in touch is a separate decision, for a much calmer day, if it ever comes. With that many people feeling the same thing, the theory that you're the defective one gets kind of hard to keep up.
+
 ## “And So That’s the Way It Happened!”
 
 <!-- Turn 71 (E189, E190): his published line about Xandria first (question 43, 5: "my words", Joel 2026-10-17 22:59 UTC, experiments/t70-answers/JOEL-20261017-2259.md), then my humanized version of the rest of the guide's paragraph (experiments/t69-guide/drafts/sp5-p1-x1.txt): say it the way a grandpa would finish a story on the porch, "Once upon a time…" if the start is where you get stuck, out of the courtroom and into your life story, a memory you can handle for the first few tries. Alone Human Written (0.0063), https://www.pangram.com/history/29e78b5c-24af-4528-b385-6beadd266412 (turn 69); P1 and P2 together Human Written (0.056, medium, 146 words), https://www.pangram.com/history/ba400925-6f0a-41c8-b029-8aea387ee5ca (round t71a); the h2 Human Written (0.24, high, 226 words), https://www.pangram.com/history/c9f9e639-32af-46ea-a863-1bb460af2d8e (round t71c). Record: experiments/t71-guide/REVIEWS.md. -->
@@ -871,7 +881,7 @@ Does saying it make the memory fiction? Well, no, it's still what happened, as f
 
 Do keep an ear on who's narrating, though. If the voice starts sneering, like it's making fun of the younger you, stop right there (that's the courtroom creeping back in). Same if you feel more ashamed, or kind of floaty and unreal, since more distance won't help with that. And when it goes well, it's a good time to check in with the younger you in that story. What do they need from you now?
 
-<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md, with what each needs from Joel): One Intention in the Morning, One Review at Night; Just Like Me. They go here, in that order. -->
+<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md; question 47): One Intention in the Morning, One Review at Night. It goes here. -->
 
 ## Use Childhood Photographs Gently
 
