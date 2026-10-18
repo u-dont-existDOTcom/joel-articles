@@ -38,7 +38,7 @@ Two of your answers aren't in yet: 55, 2 (the truism in When Healing Turns Into 
 
 ### 🟠 The pull request, whenever you like
 
-Turns 71 to 73 are in [#192](https://github.com/u-dont-existDOTcom/joel-articles/pull/192). Merging doesn't publish anything, and the editing carries on after it in a new pull request (59, in Decided). My pick is to merge it now.
+You merged [#192](https://github.com/u-dont-existDOTcom/joel-articles/pull/192) at 22:14 UTC, with this turn's first round in it. The rest of this turn is in [#193](https://github.com/u-dont-existDOTcom/joel-articles/pull/193). Merging it is yours, whenever you like (59, in Decided).
 
 ## Coming up
 
@@ -69,7 +69,7 @@ Your message, word for word: [experiments/t73-answers/JOEL-20261018-2158.md](htt
 - **57, 3**: the schema section has two more paragraphs now, one on the differences (spirituality first) and one on choosing a therapist ([the Appendix with them Human Written 0.057, high](https://www.pangram.com/history/a6e5cf8c-ba43-4fea-ba96-de0d5324c241)). They're in 60 for you to check.
 - **58, B**: the innerSignalGraph queue waits.
 - **Your Inner Monologue move**: in. Your order holds now, with Your Body Might Need Some Love First, then When Healing Turns Into Checking, then You Don't Need an Inner Monologue and When the Present-Day Adult Is Dangerous to the Child ([Before You Try to Go Deep Human Written 0.096, high](https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2)). Two sentences of mine changed for it; they're in 61.
-- **59** ("was not sure it's time for pull request since we are still editing? nevr quite clear on tht"): a pull request doesn't mean the article is finished. It's the box this lane's edits wait in until you merge them into main, the repo's official copy, and merging doesn't publish anything anywhere. Editing goes on either way: after a merge, the next edits go into a new pull request. So it's fine to merge in the middle. My pick: merge #192 now, at this stopping point. Everything in it passes its checks, and main gets other lanes' work too (the community article's #189), so a branch that stays open a long time drifts from main and can clash with it on shared files like the gate doc. Leaving it open is fine as well, though; each push keeps landing in it.
+- **59** ("was not sure it's time for pull request since we are still editing? nevr quite clear on tht"): a pull request doesn't mean the article is finished. It's the box this lane's edits wait in until you merge them into main, the repo's official copy, and merging doesn't publish anything anywhere. Editing goes on either way: after a merge, the next edits go into a new pull request. So it's fine to merge in the middle. My pick is to merge at stopping points like the end of a turn: main gets other lanes' work too (the community article's #189), so a branch that stays open a long time drifts from main and can clash with it on shared files like the gate doc. You merged #192 at 22:14 UTC, mid-turn, which is fine too; the rest of this turn is in [#193](https://github.com/u-dont-existDOTcom/joel-articles/pull/193).
 
 ### 🟢 2026-10-18 19:06 and 19:26 UTC
 
