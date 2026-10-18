@@ -2904,3 +2904,23 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 71) | When the Adult Voice Feels Fake with the frame point (frm-e, 45 words) at the end of its opening, after his altered-state paragraph (4150 words) [t71yyy_h1frmwavf], a screen | Human, low (my call) | Mostly Human Written (0.088; 4150), 5 windows: AI-Generated 49 words (High); 10:29:45 UTC, https://www.pangram.com/history/f7189f43-6a1d-4f50-b82c-01114f924122 | hit |
 | 2026-10-18 (turn 71) | When the Adult Voice Feels Fake with frm-j (46 words: "Some people get this far and realize the inner-child idea just isn't theirs, and that's a real answer. ...") at the end of its opening (4151 words) [t71zzz_h1frmj], a screen | Human, low (my call) | Mostly Human Written (0.09; 4151), 5 windows: AI-Generated 108 words (High); 10:33:20 UTC, https://www.pangram.com/history/007bec67-764e-49cb-8694-9bfbf8108d49 | hit |
 | 2026-10-18 (turn 71) | the same with frm-k (47 words, the question move: "What if the inner-child idea just isn't yours? ...") (4152 words) [t71zzz_h1frmk], a screen | Human, low (my call) | Human Written (0.08; 4152), 3 windows; 10:33:23 UTC, https://www.pangram.com/history/92120ec3-7bf7-4dbb-9cb1-f13611da776f | hit |
+| 2026-10-18 (turn 72) | When the Urge to Escape Arrives P5 with his paranoia point (49, 3) (239 words) [t72a_par], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Altered States Can Require Reparenting, his trance paragraph with his fear-itself point (49, 4) (140 words) [t72a_tr], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Your Body Might Need Some Love First P5 with the guide's list (54, 11) (164 words) [t72a_yb5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Before You Try to Go Deep, new P3: coming outward first (54, 8) (88 words) [t72a_bgout], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Before You Try to Go Deep, the full-break paragraph with the last-resort line (54, 9) (91 words) [t72a_bg3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Don't Give the Inner Adult Away, new P2: the checks on a person (54, 7) (54 words) [t72a_dgchk], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | When Healing Turns Into Checking, new P3: checking that turns into doing (54, 4) (62 words) [t72a_chkbeh], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Also Look Outward, the dating paragraph with the reassurance machine (54, 4 and 6) (114 words) [t72a_alodate], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | How This Relates to IFS, new P4: the Higher Self, from his notes (45) (183 words) [t72a_ifshs], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | How This Relates to IFS, new P5: the Guide as its analog (45) (113 words) [t72a_ifsguide], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | How This Relates to Schema Therapy P1 (his pointer to the research) (96 words) [t72a_st], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | How This Relates to Schema Therapy P2 (79 words) [t72a_stb], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Before You Try to Go Deep with his two section moves, 12 C, and my 54 drafts (8, 9, 11, 4, 6) (3856 words) [t72a_h1bg], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | When the Adult Voice Feels Fake with the paranoia paragraph (4215 words) [t72a_h1wavf], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Altered States Can Deepen the Therapy with his 49, 2 fixes and cut, and the trance paragraph (1341 words) [t72a_h1as], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | the Appendix with the schema therapy section, the IFS Higher Self paragraphs, his Teachers edits and the Related Clinical Work cut (1267 words) [t72a_h1app], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Simple Practices with his One Intention in the Morning, One Review at Night (1972 words) [t72a_h1sp], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | My Journey with the checks on a person in Don't Give (944 words) [t72a_h1mj], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | The Chicken-and-Egg Problem with 53, B (817 words) [t72a_h1ce], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 72) | Speak Toward What You Are Building with 51, A (816 words) [t72a_h1st], a screen | Human, low (my call) | (pending) | |
