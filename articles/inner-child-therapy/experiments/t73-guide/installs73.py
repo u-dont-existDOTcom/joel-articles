@@ -97,3 +97,8 @@ HON = "And reaching out doesn't mean telling strangers everything."
 for _x in 'cd':
     register('hon' + _x, lambda: para(HON),
              (lambda s: lambda: dnote(s, 'his Inner Monologue move put a 38-word AI window on this paragraph, my C2 of turn 38 that he said yes to (rounds t72b, t72c and t73d, https://www.pangram.com/history/48c365a1-adca-4f29-a4c9-ad21ee98aaeb), so "how they handle the smaller things you tell them" gets a scene; the rest is as it was.', 'HON') + draft(s))('alo-hon-' + _x))
+
+
+# --- Round f: 55, 2 and turn 72's P5 h (54, 11 and the rest of 8) in the new order ------------------------------------
+register('yb5h', lambda: para('So how were the next few days?'),
+         lambda: dnote('yb5-h', '54, 8 ("we can remove the "change several things at once" version in the other section since that sounds too vague to be useful"; coming out first is in Before You Try to Go Deep P2) and 11, B ("original list more informative"): the guide\'s "Try shorter duration, less depth or imagery, better timing, more symbolic or indirect representation, eyes open or stronger external anchors, less isolation, and more support." inside the paragraph\'s own "a bit easier" sentence (turn 72\'s draft, alone Human Written 0.38, https://www.pangram.com/history/2b7c63fe-e265-4de7-81a3-45ac0c97b555).', 'YB5') + draft('yb5-h'))
