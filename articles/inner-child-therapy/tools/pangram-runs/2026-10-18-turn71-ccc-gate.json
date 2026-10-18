@@ -1,0 +1,47 @@
+{
+ "t71ccc_ifs3z": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ccc_ifs3z.md",
+  "note": "t71ccc: ifs3-z, alone."
+ },
+ "t71ccc_ifs5ff": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ccc_ifs5ff.md",
+  "note": "t71ccc: ifs5-ff, alone."
+ },
+ "t71ccc_secifsff": {
+  "kind": "screen",
+  "march": [
+   "ifs1-x: B S B, ifs2-u: S B S B, ifs3-z: B B S S, ap56-d: S S S S B S, ifs5-ff: B B S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ccc_secifsff.md",
+  "note": "t71ccc: ## How This Relates to IFS, put together: D:ifs1-x, D:ifs2-u, D:ifs3-z, D:ap56-d, D:ifs5-ff, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71ccc_secappff": {
+  "kind": "screen",
+  "march": [
+   "B (as installed; every paragraph has read Human alone or is his)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CANDIDATE.md",
+  "note": "t71ccc: # Appendix as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t71ccc_secappee": {
+  "kind": "screen",
+  "march": [
+   "B (as installed; every paragraph has read Human alone or is his)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CANDIDATE-ifs-bbb.md",
+  "note": "t71ccc: # Appendix as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

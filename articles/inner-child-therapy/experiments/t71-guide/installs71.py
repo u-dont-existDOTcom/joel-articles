@@ -191,3 +191,34 @@ register('one-intention', OI_PARKED, one_intention)
 CS_LAST = "Going back to your life is part of the healing, too.\n\n# When Love Still Feels Missing"
 register('oi-unpark', OI_PARKED + '\n\n', '')
 register('oi-last', CS_LAST, lambda: CS_LAST.split('\n\n')[0] + '\n\n' + one_intention() + '\n\n# When Love Still Feels Missing')
+
+
+# 2026-10-18, round t71bbb: How This Relates to IFS, with his first-person lines as published (pending his word, E189).
+IFS_PARKED = "<!-- Parked (experiments/t71-guide/REVIEWS.md; question 45): How This Relates to IFS, with its h3 Related Clinical Work. Every version of the IFS paragraphs read AI as an h2 (rounds t71d to t71f); Related Clinical Work read Human alone (drafts/ap9-d, 0.19) but goes in with its h2. The guide's first-person lines there are waiting on Joel's word (E189). It goes here. -->"
+
+
+def ifs(p3='ifs3-z', p5='ifs5-ff'):
+    def c(s):
+        return '<!-- ' + s + ' -->'
+    return '\n\n'.join([
+        '## How This Relates to IFS',
+        c("Turn 71 (the overnight run): the guide's overlap (IFS recognizes protective parts and teaches people to approach them without shame or combat, so \"meet the protector first\" fits), opening on a pointer of mine to Richard Schwartz's No Bad Parts on the IFS Institute's own page, https://ifs-institute.com/store/419 (opened 2026-10-18), with his \"honor, understand, and love every part\" from that page, unquoted (not in the guide, so question 50 asks whether he wants it). Thirteen versions of the section read AI before tonight's sources (rounds t71d to t71aaa). experiments/t71-guide/drafts/ifs1-x.txt. Alone Human Written (0.010), https://www.pangram.com/history/e57d9c28-ddd6-4754-bcb7-cc4dcf0552f2 (round t71aaa); the h2 below."),
+        draft('ifs1-x'),
+        c("Turn 71: his two first-person lines as his published guide has them, \"My reparenting method diverges from IFS at an important point.\" and \"I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.\" (his story; their wording waits on his word, E189, question 45; OWNER-EDITS appendix-first-person-pending-20261018), with the guide's standard IFS between them in the IFS Institute's own words from its outline of the model (opened 2026-10-18: \"everyone has a Self\", the Self \"can and should lead\", parts that \"blend\" with it), and a pointer back to The Chicken-and-Egg Problem's \"one grown-up doing three jobs\". experiments/t71-guide/drafts/ifs2-u.txt. Alone Human Written (0.011), https://www.pangram.com/history/98682bd9-2204-4e81-9a26-4142af90fb53 (round t71ww)."),
+        draft('ifs2-u'),
+        c("Turn 71: the guide's borrowed adulthood (when the calm, compassionate source can't be reached, borrow one adult job from a relationship or an action, until it's yours), with The Parent You Inherited's phone left ringing, then his first-person line as published, \"I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything.\" (E189, question 45), its link the article's own for spiritual bypassing. The guide's next sentence, \"A trustworthy adult function is built through care, boundaries, action, and direction.\", is left out as a repeat of P2's \"the inner adult you build and practice occupying\" and its three jobs; every AI window in rounds t71ww to t71yy started on it (a dedup proposal for him, REVIEWS.md). experiments/t71-guide/drafts/\" + p3 + \".txt. @@P3@@"),
+        draft(p3),
+        c("Turn 71: his first-person lines as published, \"IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.\" (E189, question 45), then the guide's unburdening: often after witnessing a part's origin story; powerful; and dramatic, memory-focused, suggestive and destabilizing, especially for people prone to dissociation, DID-like fragmentation or spiritual bypass. experiments/t71-guide/drafts/ap56-d.txt. Alone Human Written (0.35), https://www.pangram.com/history/0ef05fb9-8746-4572-ab44-19b1634a25ff (round t71zz)."),
+        draft('ap56-d'),
+        c("Turn 71: the guide's expanding map as a maze (\"with a little one somewhere in the middle of it\" is mine), some practitioners using the model gently and others seeming to deepen the fragmentation, and institutionalization not by itself making a framework truer or safer. Eight maps before it read AI alone or in the h2 (rounds t71vv to t71bbb). experiments/t71-guide/drafts/\" + p5 + \".txt. @@P5@@"),
+        draft(p5),
+        c("Turn 71: the guide's choosing a therapist (a skilled, grounded, trauma-informed IFS therapist who isn't suggestive may help, especially one who understands dissociation; for your little one's pain, shame, attachment wounds, abandoning yourself or no reliable inner adult, a good reparenting therapist may fit better; know the strengths and pitfalls of both first). A fresh writer's (round t71j), experiments/t71-guide/drafts/wifs-5.txt. Alone Human Written (0.28), https://www.pangram.com/history/c2e480f3-e172-47ac-ba6d-f2f2e59e0800 (round t71j)."),
+        draft('wifs-5'),
+        '### Related Clinical Work',
+        c("Turn 71: his two first-person lines as published, \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (E189, question 45), with the guide's ten approaches and \"These approaches do not all make the same claims.\" between them (\"Those don't even agree with each other on everything!\"). experiments/t71-guide/drafts/ap9-e.txt, which is round t71f's ap9-d (Human 0.19 alone) with his lines as published. Alone Human Written (0.076), https://www.pangram.com/history/d02c8807-6268-44dc-89f0-a48a7ecd8219 (round t71vv); @@H2@@."),
+        draft('ap9-e'),
+    ])
+
+
+register('ifs', IFS_PARKED, ifs)
+register('ifs-bbb', IFS_PARKED, lambda: ifs('ifs3-y', 'ifs5-ee'))
