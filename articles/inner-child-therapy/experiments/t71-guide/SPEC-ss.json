@@ -1,0 +1,66 @@
+[
+ {
+  "key": "oi2i",
+  "draft": "oi2-i",
+  "label": "One Intention P2 alone, i (his black spots first, then \"No spots in this one, though.\" and the steps out of it)"
+ },
+ {
+  "key": "oi2k",
+  "draft": "oi2-k",
+  "label": "One Intention P2 alone, k (rr's oi2-e with its first part as two questions and \"Probably some of each.\")"
+ },
+ {
+  "key": "oi2m",
+  "draft": "oi2-m",
+  "label": "One Intention P2 alone, m (a quoted thought, \"I didn't catch a single hook all day.\", then \"Look again, gently.\"; oi2-e's ending)"
+ },
+ {
+  "key": "oi2o",
+  "draft": "oi2-o",
+  "label": "One Intention P2 alone, o (a quoted thought, \"Really? Look again.\", the two hooks as a guess, then \"And skip Franklin's scorekeeping.\" and his black spots)"
+ },
+ {
+  "key": "secoiddi",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-i",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-i, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-i: B S S B S, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddk",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-k",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-k, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-k: S S S B S S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddm",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-m",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-m, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-m: B S S S S S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddo",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-o",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-o, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-o: B B S S S S B, oi3-d: S S B S S B"
+ }
+]

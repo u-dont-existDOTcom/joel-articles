@@ -1,0 +1,74 @@
+{
+ "t71ss_oi2i": {
+  "kind": "screen",
+  "march": [
+   "B S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ss: oi2-i, alone."
+ },
+ "t71ss_oi2k": {
+  "kind": "screen",
+  "march": [
+   "S S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ss: oi2-k, alone."
+ },
+ "t71ss_oi2m": {
+  "kind": "screen",
+  "march": [
+   "B S S S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ss: oi2-m, alone."
+ },
+ "t71ss_oi2o": {
+  "kind": "screen",
+  "march": [
+   "B B S S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ss: oi2-o, alone."
+ },
+ "t71ss_secoiddi": {
+  "kind": "screen",
+  "march": [
+   "oi-dd: B B B B S S, oi2-i: B S S B S, oi3-d: S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ss_secoiddi.md",
+  "note": "t71ss: ## One Intention in the Morning, One Review at Night, put together: D:oi-dd, D:oi2-i, D:oi3-d."
+ },
+ "t71ss_secoiddk": {
+  "kind": "screen",
+  "march": [
+   "oi-dd: B B B B S S, oi2-k: S S S B S S B, oi3-d: S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ss_secoiddk.md",
+  "note": "t71ss: ## One Intention in the Morning, One Review at Night, put together: D:oi-dd, D:oi2-k, D:oi3-d."
+ },
+ "t71ss_secoiddm": {
+  "kind": "screen",
+  "march": [
+   "oi-dd: B B B B S S, oi2-m: B S S S S S B, oi3-d: S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ss_secoiddm.md",
+  "note": "t71ss: ## One Intention in the Morning, One Review at Night, put together: D:oi-dd, D:oi2-m, D:oi3-d."
+ },
+ "t71ss_secoiddo": {
+  "kind": "screen",
+  "march": [
+   "oi-dd: B B B B S S, oi2-o: B B S S S S B, oi3-d: S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ss_secoiddo.md",
+  "note": "t71ss: ## One Intention in the Morning, One Review at Night, put together: D:oi-dd, D:oi2-o, D:oi3-d."
+ }
+}
