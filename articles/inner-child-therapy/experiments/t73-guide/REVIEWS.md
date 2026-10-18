@@ -25,3 +25,4 @@ His message is in experiments/t73-answers/JOEL-20261018-2158.md.
 
 - When a move exposes a paragraph, change the one sentence the window starts on and keep the rest. P4 l changed only the middle sentence and read Human alone; my rewrites of its last three sentences didn't.
 - A window can sit on a paragraph's opening for good: checking-into-doing's first two sentences took the same 37-word window in sixteen checks, from changes anywhere above them, and folding the paragraph into the one before didn't move it. The paragraph itself has to change.
+- **g**: the article lint after the installs found one new rule hit, O37: his "IMO" in schema P2, in an article that uses no chat acronyms (his rule of 2026-10-01). "in my opinion" read Human alone (0.072) and in the Appendix (0.057, high), and it's in.

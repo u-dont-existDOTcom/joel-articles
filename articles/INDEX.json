@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "daef5d642a54eac08145a87372296f33d2d3452fcaa20ba22d63f198420bf0eb",
+          "sha256": "1aec2f8031f0be5cb488c9885e6298d5cd34f38ae6a6a67cef6aa259e5c75aec",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "58cfbe9c8b1abc551e821759ae0aac062c4fed560c2e7846864ae3ae1ded165d",
+          "sha256": "9636d8f7c33b1b24f0d2690a9045a6244b3ecbc8fdf8bdec272cc6358cb26ecb",
           "role": "detector_prediction_log"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "a5e5688bd65904c2eca2b86d7a1b93acc446aaa53e0bbb86d560840157a925c5",
+          "sha256": "a9f659b1b68850631fd98ad5cd67649ec6351f0a5cd74f4c82d2c9eb1222afaa",
           "role": "owner_questions_page"
         },
         {
@@ -21909,7 +21909,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t73-guide/REVIEWS.md",
-          "sha256": "9a20f17b0ad3a5af9bca6e393efec3cf9631925b0731b442d5d669135506ee52",
+          "sha256": "bec708e3a44a6afe9364648736ce7714801340dfa2f9a475925c9c82786a95cd",
           "role": "humanization_working_record"
         },
         {
@@ -22086,6 +22086,16 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn73-g.js",
           "sha256": "6162edcd94358479eb6c3d943f653aaac8f10af0cc2924ec1150a187ca01a039",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t73-guide/READ-g.json",
+          "sha256": "05ae7042cf12397d95c4407dcfca0402e20e551ef54235234831478df64a00da",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t73-guide/RESULTS-g.json",
+          "sha256": "e61020e95b466770edc51b59bf60d4be11dc61bbc25135d97756687e753ae83a",
+          "role": "detector_experiment_result"
         }
       ]
     },
