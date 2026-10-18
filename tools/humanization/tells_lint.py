@@ -941,6 +941,7 @@ def main():
     mine_words = 0; coach_hits = 0; you_hits = 0
     para_final_short = 0; imper_heavy = 0
     openers = []
+    para_mine = []   # B13 (2026-10-18): whether each paragraph has a sentence of mine
     sent_lens = []
     casual = []   # O25: (sentence, count) of "even" and "actually" in my sentences, flagged once the draft's count is known
     prev_paren = None   # O39: (sentence, mine) when the paragraph before ended on a sentence wholly in parentheses
@@ -961,6 +962,7 @@ def main():
                 flag('FAIL', O39, groups[j - 1][0] + ' / ' + groups[j][0])
         prev_paren = groups[-1] if spans and spans[-1][1] == len(pp) else None
         openers.append(' '.join(words(nss[0])[:1]).lower() if ss else '')
+        para_mine.append(any(mine_s))
         imps = 0
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         checked = any(m and RESEARCH_NOTE.search(without_quotes(x)) for x, m in zip(nss, mine_s))   # O23: the paragraph narrates a check
@@ -1276,7 +1278,12 @@ def main():
     if coach_density > 2.0: hard.append(f'E41 coach register: {coach_density:.1f} coach phrases per 100 of my words (limit 2.0)')
     if landing_rate >= 0.5 and len(ps) >= 3: hard.append(f'B7/B13 landings: {para_final_short}/{len(ps)} paragraphs end on a short line')
     if imper_heavy >= 2: hard.append(f'E23 listicle: {imper_heavy} paragraphs are strings of instructions')
-    if rep_openers: hard.append(f'B13 repeated paragraph openers: {rep_openers}')
+    # B13 counts the published openers too (docs/HUMANIZATION-GATE.md), but it fails only when one of my paragraphs
+    # shares a repeated opener. 2026-10-18 (turn 71): When the Adult Voice Feels Fake as installed opens three
+    # paragraphs with "I" (two of them Joel's), so every check of that h1 failed before Pangram whatever was added.
+    mine_rep = {k: v for k, v in rep_openers.items() if any(o == k and pm for o, pm in zip(openers, para_mine))}
+    if mine_rep: hard.append(f'B13 repeated paragraph openers: {mine_rep}')
+    elif rep_openers: flag('REVIEW', 'B13 repeated paragraph openers, all in installed or Joel\'s paragraphs (none of mine shares one): ' + ', '.join('%s (%d)' % kv for kv in rep_openers.items()), '')
     # Review note only since 2026-09-26: second-person density doesn't separate Pangram
     # results. The Guide paragraph passed at 13.4 per 100, and two failing P5 attempts
     # sat at 4.7 and 6.1. Check what the "you" sentences are doing instead (coach register).
