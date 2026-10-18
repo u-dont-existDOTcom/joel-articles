@@ -2506,6 +2506,47 @@
      "url": "https://hearthwork.u-dont-exist.com"
     }
    ]
+  },
+  {
+   "id": "appendix-teachers-20261018",
+   "status": "applied",
+   "what": "The Appendix opens after You Are Worthy of Love. Always., with Teachers and Practice Resources: the guide's credits (Daja with her book, training and Instagram; Lisa Romano; Key, linked, with her Nairobi meditation; Open Path Collective; his Somatic Therapies Guide). The Gemini-thread sentence is out because its link opened on \"Link doesn't exist\" on 2026-10-18; it waits on Joel (question 46). How This Relates to IFS and Related Clinical Work are parked (question 46). Turn 71, after the gate and Pangram (the h2 Human Written 0.13, high).",
+   "joel": "2026-10-18 01:17 UTC: \"work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out\" (experiments/t71-answers/JOEL-20261018-0116.md).",
+   "where": "Appendix",
+   "must_contain": [
+    "# Appendix",
+    "## Teachers and Practice Resources",
+    "Daja works with inner-child pl/ork intuitively",
+    "Lisa Romano brings more neuroscience and CBT"
+   ],
+   "must_not_contain": [
+    "g.co/gemini/share/fe062bfb8847"
+   ],
+   "must_link": [
+    {
+     "text": "book",
+     "url": "https://a.co/d/7Sa4kP2"
+    },
+    {
+     "text": "Open Path Collective",
+     "url": "https://openpathcollective.org/pricing-and-eligibility-for-affordable-therapy/"
+    },
+    {
+     "text": "Somatic Therapies Guide",
+     "url": "http://somatic.u-dont-exist.com/"
+    }
+   ]
+  },
+  {
+   "id": "appendix-first-person-pending-20261018",
+   "status": "pending",
+   "what": "The Appendix's first-person lines from his published guide are his story; their wording counts as his only once he has seen them whole, in their section, and said so (E189). In with Teachers and Practice Resources: \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\" Waiting with the parked IFS section: \"My reparenting method diverges from IFS at an important point.\", \"I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.\", \"I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything.\", \"IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.\", and Related Clinical Work's \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (question 46).",
+   "joel": "(waiting: question 46, turn 71)",
+   "where": "Appendix",
+   "waits_for": "his word on question 46",
+   "must_contain": [
+    "I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so."
+   ]
   }
  ]
 }

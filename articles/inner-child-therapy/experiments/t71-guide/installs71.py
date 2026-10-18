@@ -83,21 +83,21 @@ register('altered', AS_PARKED, lambda: altered(globals().get('P345')))
 
 
 WORTHY_LAST = "Be patient with yourself, and gentle, including with the part of you that thinks you should be over it by now. You are more than your pain and your past. That's easy to lose sight of when you've spent so long looking at them. And you aren't alone. There's help, and lots of other people are out there learning to look after their own little ones."
-TEA_H2 = "https://www.pangram.com/history/bd41e78c-c9c9-4a65-b5c2-96a212c62a3d"   # round t71f: Human Written (0.16, high, 249 words)
+TEA_H2 = "https://www.pangram.com/history/e8c37784-487f-4de7-96d8-6d72844c30a9"   # round t71g: Human Written (0.13, high, 270 words)
 
 
-def appendix(ap10='ap10-b', ap11='ap11-b', ap14='ap14-a'):
+def appendix(ap10='ap10-c', ap11='ap11-c', ap14='ap14-a'):
     def c(s):
         return '<!-- ' + s + ' -->'
-    h2 = 'the h2 Human Written (0.16, high, 249 words), ' + TEA_H2 + ' (round t71f)'
+    h2 = 'the h2 Human Written (0.13, high, 270 words), ' + TEA_H2 + ' (round t71g)'
     return '\n\n'.join([
         WORTHY_LAST,
         '# Appendix',
         c("Parked (experiments/t71-guide/REVIEWS.md; question 46): How This Relates to IFS, with its h3 Related Clinical Work. Every version of the IFS paragraphs read AI as an h2 (rounds t71d to t71f); Related Clinical Work read Human alone (drafts/ap9-d, 0.19) but goes in with its h2. The guide's first-person lines there are waiting on Joel's word (E189). It goes here."),
         '## Teachers and Practice Resources',
-        c("Turn 71 (the overnight run): the guide's credits, with its two first-person sentences as published (they wait on Joel's word, E189; OWNER-EDITS appendix-first-person-pending-20261018) and Daja's links. The guide's Gemini-thread sentence is out: https://g.co/gemini/share/fe062bfb8847 opened on \"Link doesn't exist\" (2026-10-18), so it waits on him (question 46). \"the three grown-up jobs\" for the guide's \"Three Adults framing\" (the article's own phrase). experiments/t71-guide/drafts/%s.txt. Alone Human Written (0.090), https://www.pangram.com/history/a7c453e0-cb50-46f1-b303-389b9e9e9d6f; %s." % (ap10, h2)),
+        c("Turn 71 (the overnight run): the guide's credits, with its two first-person sentences as published (they wait on Joel's word, E189; OWNER-EDITS appendix-first-person-pending-20261018) and Daja's links. The guide's Gemini-thread sentence is out: https://g.co/gemini/share/fe062bfb8847 opened on \"Link doesn't exist\" (2026-10-18), so it waits on him (question 46). \"the three grown-up jobs\" for the guide's \"Three Adults framing\" (the article's own phrase); the cold read's fix, \"Her work is less ...\" for an unclear \"It's less ...\" (COLD-READ-t71-appendix.md). experiments/t71-guide/drafts/%s.txt. Alone Human Written (0.091), https://www.pangram.com/history/00815251-070a-4e59-89b2-638c74a446c3; %s." % (ap10, h2)),
         draft(ap10),
-        c("Turn 71: Lisa Romano, and Key's Nairobi meditation; Key's Guide and identity work are credited earlier in the article (The Chicken-and-Egg Problem; Four Pairs That Commonly Hook the Child), so this points back. experiments/t71-guide/drafts/%s.txt. Alone Human Written (0.11), https://www.pangram.com/history/06574776-c973-471a-90e9-263eb2166623 (round t71e); %s." % (ap11, h2)),
+        c("Turn 71: Lisa Romano; Key, with the guide's link, credited for the Guide's direction and the Bowen-based identity and differentiation work, pointing back to Four Pairs That Commonly Hook the Child (the cold read's fix: my first version only had her pointing out the Guide), and her Nairobi meditation. experiments/t71-guide/drafts/%s.txt. Alone Human Written (0.24, medium), https://www.pangram.com/history/48efac73-5baa-433a-bf91-37a59d2fc3ea; %s." % (ap11, h2)),
         draft(ap11),
         c("Turn 71: Open Path Collective and his Somatic Therapies Guide. 40 words, under the web app's 50, so the h2 stands for it: %s." % h2),
         draft(ap14),
