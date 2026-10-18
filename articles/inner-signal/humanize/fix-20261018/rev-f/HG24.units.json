@@ -1,0 +1,455 @@
+{
+ "key": "HG24",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-c",
+  "fix-20261018/emu-h"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Troubleshooting"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Nothing happens"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Start smaller:"
+   ],
+   "heading": false
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "“Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”"
+   ],
+   "heading": false
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "It feels fake"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "What is it that feels fake? The words, an image, an expectation, a role? Be clear that not experiencing the inner voice/image is not a resistance or lack of adult capacity. If something is inviting you to do something you explicitly don’t want to do, correct it. It may also be a part that is protecting you, if so talk to it:"
+   ],
+   "run": "HG24-r1-s2",
+   "file": "fix-20261018/emu-c/HG24-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "“What are you protecting me from?” or “Are you afraid I will lie to myself again?” or “Are you afraid this will just be a performance?”"
+   ],
+   "run": "HG24-r1-s2",
+   "file": "fix-20261018/emu-c/HG24-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "It could be an inner voice of a parent you are picking up that is enforcing a rule about how you should be to belong, if so don’t argue with it, find out what rule it is enforcing and then work on finding evidence to strengthen your new adult voice."
+   ],
+   "run": "HG24-r1-s2",
+   "file": "fix-20261018/emu-c/HG24-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "It may be that an adult capacity you need is not yet available to you, in that case stop trying to make yourself have an inner voice that you believe and if you have enough observing ego, borrow the capacity you need from someone (real or imagined) who has it. Try out a sentence or action etc and see how it goes."
+   ],
+   "run": "HG24-r1-s2",
+   "file": "fix-20261018/emu-c/HG24-r1-s2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "The subconscious will not answer"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "There may not be an answer. There may not be a helpful answer. It may be that this isn’t a helpful question to ask at all, and you need to try a different one, or rest, or finish. But if you do sense that there’s something you need to consider about trust, what if you asked:"
+   ],
+   "run": "HG24-r1-s3",
+   "file": "fix-20261018/emu-c/HG24-r1-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "“What would you need to know in order to trust me?”"
+   ],
+   "run": "HG24-r1-s3",
+   "file": "fix-20261018/emu-c/HG24-r1-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "You might be surprised by how profoundly un-mystical the answer is. “I need to know you’ll set a boundary.” “I need to know you’ll follow through.” “I need to know you’ll stop leaving.” “I need to know you’ll stop telling me that what I’m asking for isn’t actually what I need.”"
+   ],
+   "run": "HG24-r1-s3",
+   "file": "fix-20261018/emu-c/HG24-r1-s3.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "The inner child will not appear"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "If you can discern who the guard is, talk to it. If you can’t, then simply talk in terms of your feelings or preferences."
+   ],
+   "run": "HG24-r1-s4",
+   "file": "fix-20261018/emu-c/HG24-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "“Even if you don’t let me in, there are things I can do to help you feel safer.”"
+   ],
+   "run": "HG24-r1-s4",
+   "file": "fix-20261018/emu-c/HG24-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Even if there isn’t a clear child state to talk to, you can still build identity and do reparenting by working with whatever you are aware of–preferences, curiosity, or even a statement that you’re new to this and would like to try something and see how it goes."
+   ],
+   "run": "HG24-r1-s4",
+   "file": "fix-20261018/emu-c/HG24-r1-s4.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "You get anxious"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "Figure out whether your anxiety is manageable and you want to allow it to continue or whether you need to do something to reduce it. If it’s escalating or overwhelming, stop whatever you’re doing to help your body first."
+   ],
+   "run": "HG24-r1-s5",
+   "file": "fix-20261018/emu-c/HG24-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "Where are your feet? Your chair? Focus on your breath. Be with your body in the room."
+   ],
+   "run": "HG24-r1-s5",
+   "file": "fix-20261018/emu-c/HG24-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Talk to your Little and Protector parts: “Little one, I’m here for you. Protector, I know you’re trying to protect me. Thank you for letting me know. Do you need me to do something? If so, what? If not, can you let my body know it can stand down?”"
+   ],
+   "run": "HG24-r1-s5",
+   "file": "fix-20261018/emu-c/HG24-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "If your anxiety is causing you to have chest pain, faint, have suicidal thoughts, become psychotic or manic, severely dissociate, not sleep, or makes you want to hurt yourself or someone else, get help from a professional. For a longer list of ways to work with anxiety, see the toolbox in Appendix D."
+   ],
+   "run": "HG24-r1-s5",
+   "file": "fix-20261018/emu-c/HG24-r1-s5.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "You dissociate or feel unreal"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "Open your eyes, move your body, feel something textured, and name five objects out loud. Then finish up for the day."
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "You become grandiose"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    25,
+    26
+   ],
+   "paras": [
+    "Go eat some food, go to sleep, do chores, accept some humility, get some feedback.",
+    "Silently say, “I need to know that these insights can survive sleep, food, time, humility, and feedback.”"
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "You become too analytical"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28,
+    29,
+    30,
+    31
+   ],
+   "paras": [
+    "Stop trying to do the practice better. Put one hand on your heart and one on your solar plexis and say,",
+    "“I’m not supposed to be doing this well. I’m supposed to be entering into relationship with what’s deeper than my surface mind.",
+    "“What would help me turn this into a communion rather than a performance?”",
+    "Sometimes the answer is to be silent, to rest, to do something. Do the thing that comes to you."
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "You become too blissful or diffuse"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    33,
+    34
+   ],
+   "paras": [
+    "Bring it down to a specific level.",
+    "“What would love do right now?”"
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    35
+   ],
+   "paras": [
+    "You want the hidden truth immediately"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    36,
+    37
+   ],
+   "paras": [
+    "Refrain. Say, “First show me the capacity, and you can show me the content later.”"
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    38
+   ],
+   "paras": [
+    "You keep daydreaming"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    39,
+    40
+   ],
+   "paras": [
+    "Sit up and open your eyes. Then ask, “What real action am I avoiding with this fantasy?”"
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    41
+   ],
+   "paras": [
+    "You get stuck in spiritual bypass"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    42,
+    43,
+    44
+   ],
+   "paras": [
+    "Ask, “Where is divine love not yet descending to meet my pain?”",
+    "You may have had a genuinely profound opening that revealed to you how much more love and freedom are possible. It’s also possible that, as a child, you prayed and then felt abandoned or condemned; that you went to a teacher and were betrayed. It’s worth asking some questions about what happened. But doing more of the same may not be the answer.",
+    "Sometimes the best thing is to do something practical in your life, while pretending that there isn’t a larger horizon, but pretending that you’re curious about what it would be like to step into it. Other people seem to have enough love and meaning. You don’t have to do anything about it. Spirituality doesn’t have to be another thing you’re supposed to do."
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    45
+   ],
+   "paras": [
+    "You get stuck in endless processing"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    46,
+    47,
+    48
+   ],
+   "paras": [
+    "You may have a real wound to deal with, but you may also have a checking loop. Ask yourself, “Am I looking for something new here, or am I checking again to see if it’s gone yet?” Sometimes, both in grieving and in practice, you’re supposed to cover the same ground over and over again.",
+    "If you discover that you are in a checking loop, then let the thought be there but don’t argue with it. Return to some chosen activity or relationship. You don’t have to hold a meeting with every thought that arises. You don’t have to do some magical thing before you can start your life.",
+    "Ask yourself, “What would the Leader do?”"
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    49
+   ],
+   "paras": [
+    "You keep using hypnosis but not changing life"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    50,
+    51
+   ],
+   "paras": [
+    "Ask, “What would show my child that I’m for real?”",
+    "Then do it."
+   ],
+   "run": "HG24-r1",
+   "file": "fix-20261018/emu-h/HG24-r1.out.txt"
+  }
+ ]
+}

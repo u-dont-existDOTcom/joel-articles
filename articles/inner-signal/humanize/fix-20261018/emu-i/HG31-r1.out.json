@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-i/HG31-r1.txt",
+  "input_words": 180,
+  "input_sha256": "1988a8d17a89ffce0efb01675da1682712619b8364a0973ceb0c245f42b1ee37",
+  "balance_before": 121700,
+  "started_utc": "2026-10-18T04:11:21Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:11:33Z",
+  "response": {
+    "id": "3435fc05-8d51-4004-84d9-4c24ef0cda90",
+    "tool": "humanize",
+    "text": "Parts integration, without pretending the conflict is solved\n\n1. What does one side of you want? 2. What is the other side afraid of? 3. What is the need of both sides? 4. How can a third option provide for both of their needs in a manner which is non controlling?\n\nI do not use NLP to:\n\nConfuse myself when I’m trying to get clear.\n\nCover up what’s underneath something, including fear.\n\nRecover my memories.\n\nManipulate others for my ends.\n\nConvince myself I am right when I am sensing something.\n\nMake myself not feel negative emotions (pain, hunger, sadness, anger, medical symptoms, etc.).\n\nDo any of this when I am panicking, emotionally unstable, manic, psychosis-like, under the influence of chemicals, or dissociated from reality.\n\nMake someone feel like they are resisting something.\n\nMake someone feel spiritually inferior.\n\nUse embedded commands.\n\nCreate a false sense of urgency.\n\nBypass someone’s conscious mind, even under the guise that “your subconscious mind knows….”\n\nTake advantage of people when they are in a trance-like state, emotionally vulnerable, tired, attracted to me, feeling shame, grief or any other altered state of consciousness.\n\n2. Induce or contain a person.\n\n3. Ask permission.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 180
+    },
+    "elapsed": 11
+  },
+  "balance_after": 121520
+}

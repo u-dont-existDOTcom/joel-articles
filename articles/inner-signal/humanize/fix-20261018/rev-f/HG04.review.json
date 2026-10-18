@@ -1,0 +1,90 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "'conjure' for gathering attention; come all the way back",
+    "replace": "Conjure, notice, respond, wait, return.",
+    "with": "Gather attention, notice, respond, wait, come all the way back."
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the practice is something you learn to conduct, not a checklist to keep reading (and the sentence broke off into the next paragraph)",
+    "replace": "After putting this on the shelf,",
+    "with": "Then put the screen on the shelf: the practice is something you learn to conduct, not a checklist to keep reading."
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "the paragraph began mid-sentence",
+    "replace": "you'll follow whatever you notice",
+    "with": "You'll follow whatever you notice"
+   },
+   {
+    "type": "LOST",
+    "what": "direction or more time",
+    "replace": "to create a boundary, to proceed, etc.",
+    "with": "to create a boundary, to give direction or more time, etc."
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "stop deepening",
+    "replace": "Return to the room & be appropriately supported.",
+    "with": "Stop deepening, return to the room & get appropriate support."
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'when you're by yourself'; LOST: before choosing a script",
+    "replace": "When you're by yourself, do you talk",
+    "with": "Before choosing a script, notice: do you talk"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "neither question asks you to decide that feelings always come first; not a diagnosis",
+    "replace": "You may not know.",
+    "with": "You don’t have to decide that feelings always come first, and you may not know."
+   },
+   {
+    "type": "SHIFT",
+    "what": "a way to choose workable instructions, not a diagnosis",
+    "replace": "This isn't about being right, just finding what's useful.",
+    "with": "This isn't a diagnosis, just a way of finding what's useful."
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "OK"
+ }
+]

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-i/HG38_39-r1.txt",
+  "input_words": 221,
+  "input_sha256": "146c22e5fbee43b4e87ce4eb309f6023b79d3ba1a73795641dee526cf753a37b",
+  "balance_before": 120941,
+  "started_utc": "2026-10-18T04:12:06Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:12:20Z",
+  "response": {
+    "id": "3447759b-530c-41cd-93d6-b431f759dcf5",
+    "tool": "humanize",
+    "text": "Appendix I: Sleep hypnosis\n\nIf you are using this page to help you go to sleep, use Nimja's sleep playlist .\n\nAPPENDIX J: INDUCTION LIBRARY\n\nPreview a few, choose a purpose, and go ahead if you want. Any family may be done lightly, with your eyes open, or substituted for no-trance contact methods. Observe what happens, including the possibility of nothing happening, then choose what to do next (which may be to stop). It's OK to move, imagine things, use different sensory channels, not move, etc. Return to full wakefulness after each induction.\n\nNOTE: If you don't \"see\" vivid imagery, imagine the metaphors in words, rhythm, spatial relationships, touch, movement, or as a \"knowing\".\n\nStretch and release. Notice the support under you and the position of a hand or foot. Stretch it out a bit, press down a bit, or imagine this. Let it go and notice if anything changes, feels good, tense, warm, related to your breathing, etc. Do this with no more than 3 body areas. Let the idea of \"letting go\" direct the sequence to the place that needs it, or to an inner voice that tells you what you need. Return to normal.\n\nImagine yourself floating, while still being supported. Use only 1% more effort than it takes to simply rest your weight on the support, or use the same weight and pressure. Notice what happens. It may help to fractionate, spending more time on in-breaths in normal awareness, and on out-breaths focusing on the support. Tell yourself you're going to do this before you start. What can you hear now? Return to normal weight and firm contact as you choose.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 221
+    },
+    "elapsed": 14
+  },
+  "balance_after": 120720
+}

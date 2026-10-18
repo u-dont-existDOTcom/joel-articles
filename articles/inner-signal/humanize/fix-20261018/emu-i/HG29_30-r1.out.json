@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-i/HG29_30-r1.txt",
+  "input_words": 579,
+  "input_sha256": "5f602615c896455fbbce7fb60d9f6c0cbc9f7bfee2499c87afef9cb8906b631a",
+  "balance_before": 121520,
+  "started_utc": "2026-10-18T04:11:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:12:05Z",
+  "response": {
+    "id": "abc59e4c-d700-484b-abad-a36e6fdfb7f4",
+    "tool": "humanize",
+    "text": "Appendices\n\nNote: You can skip this section and just use the main path and be fine. This is additional info to help you be more precise and safe, and some additional scripts for other situations.\n\nAppendix A: How to prompt your subconscious\n\nThe subconscious is not an AI language model, but there is a certain overlap in how you can structure your questions to it to get the most useful answers. Prompt engineering can be very useful if used to become more present, more honest, more loving and to get more information. But useless or dangerous if used to be more controlling.\n\nFor maximum precision, include these 7 elements in your prompt:\n\nRole (who/what are you talking to?)\n\nContext (what is the situation?)\n\nIntention (what do you want to change?)\n\nConstraint (what is safe?)\n\nOutput (how do you want the answer: as an image, phrase, body signal, memory, action, question, symbol, silence, rest…?)\n\nEvaluation (how do you evaluate the answer: is it true? kind? timely? stabilizing? specific? testable?)\n\nIteration (revise the prompt based on real life feedback)\n\nAlways include a “safe” fallback. If you don’t do that, the analytical part of your mind might fabricate answers to fit your prompt. Here is one fallback:\n\nIf the system needs more time to process this, or if silence is the best and safest answer, then let the body go into a deeper state of comfortable rest. The prompt is considered successfully answered with peaceful silence.\n\nSometimes there is no answer because nothing is happening. Sometimes the answer is that it is not time yet, or that you need to rest, build capacity, or do whatever it is you are supposed to be doing.\n\nHere are the core prompts that can be mixed and matched:\n\nClarity: Wise subconscious mind, show me what is true, kind and timely. If there is something I need to know that is too intense to integrate, please transfer it to my conscious mind in a safe way that I can integrate. Show me my capacity to be peaceful first, and then the content of whatever is wounding me.\n\nResistance: What are you protecting me from? How can you trust me 1% more?\n\nInner child: What do you need me to know? What can I do for you?\n\nProtector: What do you need me to do in the real world for you to feel safe?\n\nLeader/Guru: What is the direction that will be in alignment with truth, love, life and all beings?\n\nIntuition: Let the intuition give me a signal. Let the analytical mind decipher it. Let the body give me feedback on my deciphering. Let reality inform me whether my interpretation is correct or not.\n\nHow to distinguish intuition from inherited programming: Wise subconscious mind, dissolve all the programming from my previous family, religion, marketing, erotic imprints, political tribe, trauma responses, and need for belonging as a child. Show me how these show up so I can see that they are just programming. Let them dissolve, or at least let them step back, so that I can receive the true guidance from the universal heart that will make my life better in simple, ordinary ways.\n\nDaydreaming: Show me if this daydream is useful and guiding me, or if it is a way of not dealing with my life. If it is the latter, let me deal with my life.\n\nAnxiety: What are you protecting me from? How can you trust my adult self more?\n\nTruth that is hidden from you: Please don’t show it to me. Show me my capacity to be peaceful first, and then the content of whatever is wounding me.\n\nIntegration: What can I do in ordinary life to integrate this?\n\nThe prompt will tell your subconscious what you are looking for. The NLP will help you approach it in a way that will be safer. Use both.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 579
+    },
+    "elapsed": 30
+  },
+  "balance_after": 120941
+}

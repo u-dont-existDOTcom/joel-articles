@@ -1,0 +1,250 @@
+{
+ "key": "HG16",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "De-hypnosis: wake up inside the influence"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "One of the best side-effects of learning self-hypnosis is an increased awareness of all the ways you’re being manipulated in your day-to-day life. By a screen? By a specific ad? By a politician? By a religion? By erotic imprinting? By an authority figure? By the desire for belonging? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Some common ways you may know you’re being manipulated include a sense of urgency, a sense of specialness, FOMO, being made to feel like you won’t be included if you don’t go along, sexual charge, shame, being confused, a fantasy of being rescued, a sense of destiny, a sense that you should obey, a sense of secret knowledge, or an excessive sense of certainty about something pretty quickly."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "If you’re being hypnotically influenced, stop. Don’t listen. Don’t rebel, either, just stop and realize that you’re being influenced."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Some common ways hypnotic language becomes manipulative includes:"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "“you’ll realize, eventually, that…” “you may eventually admit that…” “the reason you’re not feeling it yet is…” “even if part of you doesn’t feel that’s true…” “your higher self knows…” “everyone knows…” “the reason you don’t believe that’s true is your ego’s fear of…”"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Other language patterns to watch out for include:"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "What’s being claimed here? What’s the inevitable choice being framed for me here? What’s being presupposed? Who benefits from framing it this way? What’s the emotionally charged bit? What’s not being said? What do I need to say in order to opt out of the frame, and is it safe for me to do so (will I suffer negative consequences – physical, social, financial, reputational, spiritual etc – if I say no)?"
+   ],
+   "run": "HG16-d-s1",
+   "file": "fix-20261018/emu-g/HG16-d-s1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "The above is a rough guide to help bring more of the ‘adult’ into the conversation. Use more of the above when the state is more powerful."
+   ],
+   "run": "HG16-d-s1",
+   "file": "fix-20261018/emu-g/HG16-d-s1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Soft language can still take away choice"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "These words in and of themselves are not coercive but, when used, can be part of coercion. Look for:"
+   ],
+   "run": "HG16-d-s2",
+   "file": "fix-20261018/emu-g/HG16-d-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Indirect suggestions are generally used to by-pass the subjects skeptical conscious mind by never directly stating what it is you want him/her to do. This does not mean that the suggestions are not specific, but rather that they are worded in a vague, conversational and suggestive manner."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "1) Utilizing induction techniques while seemingly explaining something (even something like \"anti hypnosis\" using the same mechanics of induction."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "2) Making it so that any answer the subject may give will result in compliance (yes, no, noticing, not noticing, resisting, not answering etc.)"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "3) Using phrases like \"whether or not you notice\", etc."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "4) Binding a concept of safety or goodness to obeying, or taking on a role, or pleasing the guide or being part of something, etc."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "5) Using fractionation without informing the subject of the benefits of going in and out of absorption several times."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "6) Giving the subject cues (words, gestures, blinks, sounds, just by listening to certain things etc.) that will make them do something at a later date without informing them exactly what they will be doing."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "7) Suggesting amnesia, or making dream, amnesia, imagery and body experiences seem like \"proof\" of something that is not necessarily true."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "8) Ending the recording without bringing the subject out of the altered state, or leaving them with a role to play, lessened judgment, impaired physical abilities, blankness, or otherwise altered for an indefinite period of time."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "If at any point during a hypnosis you have a REAL choice to NOT carry on, turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis then it can not be a covert hypnosis. “No” means no, even if someone with a nice voice is telling you to do something! If you are unsure that you can or can’t then you probably can’t. Simply not knowing your options isn’t a choice."
+   ],
+   "run": "HG16-d-s3",
+   "file": "fix-20261018/emu-g/HG16-d-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "See appendix C for the longer version of how to check for de-hypnosis."
+   ],
+   "run": "HG16-d-s3",
+   "file": "fix-20261018/emu-g/HG16-d-s3.out.txt"
+  }
+ ]
+}

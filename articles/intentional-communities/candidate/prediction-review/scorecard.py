@@ -32,8 +32,14 @@ def chance(cell):
 files = sorted(glob.glob(C + '/s*/PREDICTIONS-*.md')) + sorted(glob.glob(C + '/s*/*/PREDICTIONS-*.md'))
 files += sorted(glob.glob(C + '/fix-*/PREDICTIONS-scored.md'))  # 2026-10-14 on: fix_preds.py's rows
 files += sorted(glob.glob(C + '/fix-*/b[0-9]*/PREDICTIONS-scored.md'))  # 2026-10-17: a turn's batches in its fix folder
-for f in files:
-    sec = os.path.relpath(f, C).split('/')[0]
+# 2026-10-18: the hypnosis guide's batches (429g on, articles/inner-signal/humanize/fix-*/bNNN/PREDICTIONS.md), whose rows
+# name the text without the batch ("HG04-emuG"): the batch comes from the folder, and the section is "hypnosis".
+HYP = os.path.join(os.path.dirname(os.path.dirname(C)), 'inner-signal', 'humanize')
+hyp_files = sorted(glob.glob(HYP + '/fix-*/b[0-9]*/PREDICTIONS.md'))
+for f in files + hyp_files:
+    hyp = f in hyp_files
+    sec = 'hypnosis' if hyp else os.path.relpath(f, C).split('/')[0]
+    hyp_batch = re.search(r'/b(\d+)/PREDICTIONS\.md$', f).group(1) if hyp else None
     lines = open(f, encoding='utf-8').read().split('\n')
     hdr = None
     for i, ln in enumerate(lines):
@@ -55,6 +61,8 @@ for f in files:
         if not hdr or len(cells) <= hdr['res']:
             continue
         name = re.sub(r'[*`]', '', cells[0]).strip()
+        if hyp and not re.match(r'\d+g-', name):
+            name = '%sg-%s' % (hyp_batch, name)
         m = re.match(r'(\d+)g-', name)
         if not m:
             continue
@@ -99,7 +107,7 @@ json.dump({'summary': summary, 'windows': win, 'misses': misses}, open(out_path,
 # (batch, right and passed as 1 or 0, the call's id as its "text" key, section, mine, pangram, why, excerpt), and the summary
 # file above isn't rows, so the page had nothing to count. Excerpts come from the batch folders' drafts.json and the section
 # drafts' texts.
-for d in glob.glob(C + '/**/b[0-9]*/drafts.json', recursive=True):
+for d in glob.glob(C + '/**/b[0-9]*/drafts.json', recursive=True) + glob.glob(HYP + '/fix-*/b[0-9]*/drafts.json'):
     m = re.search(r'/b(\d+)/drafts\.json$', d)
     try:
         dd = json.load(open(d, encoding='utf-8'))
@@ -111,7 +119,7 @@ for d in glob.glob(C + '/**/b[0-9]*/drafts.json', recursive=True):
 # each check's kind from its batch's gate record (screen, draft, edit: my rewrites; owner: his words; section: a whole section),
 # so the page can show how often my rewrites pass on their first check, and an always-Human baseline beside always-AI.
 kinds = {}
-for g in glob.glob(C + '/**/b[0-9]*/GATE.json', recursive=True):
+for g in glob.glob(C + '/**/b[0-9]*/GATE.json', recursive=True) + glob.glob(HYP + '/fix-*/b[0-9]*/GATE.json'):
     m = re.search(r'/b(\d+)/GATE\.json$', g)
     try:
         gg = json.load(open(g, encoding='utf-8'))
@@ -134,7 +142,7 @@ for r in sorted(rows, key=lambda r: (r['batch'], r['name'])):
     out_rows.append({'batch': r['batch'], 'text': key, 'section': r['sec'], 'mine': r['mine'], 'pangram': r['res_raw'],
                      'why': r['why'], 'excerpt': ex[:300] + ('…' if len(ex) > 300 else ''), 'right': int(r['right']),
                      'passed': int(r['passed']), 'said_human': int(r['mine'] == 'Human'), 'kind': kinds.get(r['name'], ''),
-                     'chance': r.get('p')})
+                     'chance': r.get('p'), 'lane': 'hypnosis guide' if r['sec'] == 'hypnosis' else 'community article'})
 rows_path = os.path.join(os.path.dirname(os.path.abspath(out_path)), 'prediction-calls-rows.json')
 json.dump({'rows': out_rows}, open(rows_path, 'w', encoding='utf-8'), ensure_ascii=False)
 print(rows_path, len(out_rows), 'rows,', sum(1 for r in out_rows if r['excerpt']), 'with an excerpt')

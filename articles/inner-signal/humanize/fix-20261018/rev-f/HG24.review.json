@@ -1,0 +1,300 @@
+[
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "isn't, by itself, resistance",
+    "replace": "is not a resistance",
+    "with": "is not, by itself, resistance"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "OK"
+ },
+ {
+  "block": 7,
+  "verdict": "OK"
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the particular warmth, boundary or direction you lack; a caring figure; one believable sentence",
+    "replace": "borrow the capacity you need from someone (real or imagined) who has it. Try out a sentence or action etc and see how it goes.",
+    "with": "borrow the warmth, boundary or direction you need from a caring someone (real or imagined) who has it. Try out one believable sentence or action etc and see how it goes."
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "OK"
+ },
+ {
+  "block": 11,
+  "verdict": "OK"
+ },
+ {
+  "block": 12,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "the fourth question: will you stop substituting insight for action",
+    "replace": "“I need to know you’ll stop telling me that what I’m asking for isn’t actually what I need.”",
+    "with": "“I need to know you’ll stop putting insight in place of action.”"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "stay with the feeling or preference that is actually present (not 'talk in terms of')",
+    "replace": "then simply talk in terms of your feelings or preferences.",
+    "with": "then simply stay with the feeling or preference that’s actually there."
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the script: 'You do not have to let me in. Just tell me what would make the doorway safer.'",
+    "replace": "“Even if you don’t let me in, there are things I can do to help you feel safer.”",
+    "with": "“You don’t have to let me in. Just tell me what would make the doorway safer.”"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "a beginner experiment, instead of forcing an image",
+    "replace": "by working with whatever you are aware of–preferences, curiosity, or even a statement that you’re new to this and would like to try something and see how it goes.",
+    "with": "by working with whatever you are aware of (a preference, curiosity, or a beginner’s experiment to try and see how it goes) instead of forcing an image."
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "less contact (not 'do something to reduce it')",
+    "replace": "or whether you need to do something to reduce it.",
+    "with": "or whether you need less contact with it."
+   },
+   {
+    "type": "SHIFT",
+    "what": "stop searching for content",
+    "replace": "stop whatever you’re doing to help your body first.",
+    "with": "stop searching for content and help your body first."
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "OK"
+ },
+ {
+  "block": 20,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'You do not have to scream for me to listen'; show me one step; stand down gently",
+    "replace": "Thank you for letting me know.",
+    "with": "Thank you for letting me know. You don’t have to scream for me to listen."
+   },
+   {
+    "type": "LOST",
+    "what": "show me one step",
+    "replace": "If so, what?",
+    "with": "If so, show me one step."
+   },
+   {
+    "type": "LOST",
+    "what": "gently",
+    "replace": "can you let my body know it can stand down?",
+    "with": "can you help my body stand down gently?"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "'Little'",
+    "replace": "Talk to your Little and Protector parts:",
+    "with": "Talk to your Little one and Protector parts:"
+   }
+  ]
+ },
+ {
+  "block": 21,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "when anxiety includes these (not 'is causing'); psychosis-like or mania-like symptoms",
+    "replace": "If your anxiety is causing you to have chest pain, faint, have suicidal thoughts, become psychotic or manic, severely dissociate, not sleep, or makes you want to hurt yourself or someone else, get help from a professional.",
+    "with": "If your anxiety comes with chest pain, fainting, suicidal thoughts, psychosis-like or mania-like symptoms, severe dissociation or not being able to sleep, or makes you want to hurt yourself or someone else, get help from a professional."
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'out loud'",
+    "replace": "name five objects out loud.",
+    "with": "name five objects."
+   }
+  ]
+ },
+ {
+  "block": 25,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "somebody who will disagree with you (not 'feedback')",
+    "replace": "get some feedback.",
+    "with": "find somebody who will disagree with you."
+   },
+   {
+    "type": "SHIFT",
+    "what": "the script: if this insight is real, it will survive...; 'silently' is new",
+    "replace": "Silently say, “I need to know that these insights can survive sleep, food, time, humility, and feedback.”",
+    "with": "Say, “If this insight is real, it will survive sleep, food, time, humility, and feedback.”"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the script: not here to do this perfectly (not 'not supposed to be doing this well')",
+    "replace": "“I’m not supposed to be doing this well.",
+    "with": "“I’m not here to do this perfectly."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "the script lost its closing quotation mark",
+    "replace": "deeper than my surface mind.",
+    "with": "deeper than my surface mind.”"
+   },
+   {
+    "type": "LOST",
+    "what": "one honest action",
+    "replace": "to do something.",
+    "with": "to do one honest thing."
+   }
+  ]
+ },
+ {
+  "block": 33,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the script's list: what task, boundary, meal, rest, repair or conversation",
+    "replace": "“What would love do right now?”",
+    "with": "“What task, boundary, meal, rest, repair, or conversation does love need from me right now?”"
+   }
+  ]
+ },
+ {
+  "block": 36,
+  "verdict": "OK"
+ },
+ {
+  "block": 39,
+  "verdict": "OK"
+ },
+ {
+  "block": 42,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "let that matter without demanding the child receive it on command",
+    "replace": "how much more love and freedom are possible.",
+    "with": "how much more love and freedom are possible. Let that matter, without demanding that the child receive it on command."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'as a child, you prayed'; the published: prayer can evoke abandonment or condemnation, or a teacher's betrayal can damage something sacred",
+    "replace": "It’s also possible that, as a child, you prayed and then felt abandoned or condemned; that you went to a teacher and were betrayed.",
+    "with": "It’s also possible that prayer left you feeling abandoned or condemned, or that a teacher’s betrayal damaged something sacred."
+   },
+   {
+    "type": "LOST",
+    "what": "what was lost and what needs questioning",
+    "replace": "It’s worth asking some questions about what happened.",
+    "with": "It’s worth asking what was lost and what needs questioning."
+   },
+   {
+    "type": "WRONG",
+    "what": "'while pretending there isn't a larger horizon, but pretending you're curious'; the published: practical care while the horizon still feels too small, and curiosity about deeper happiness without pretending to believe an explanation",
+    "replace": "Sometimes the best thing is to do something practical in your life, while pretending that there isn’t a larger horizon, but pretending that you’re curious about what it would be like to step into it.",
+    "with": "Sometimes the best thing is to do something practical in your life while the horizon still feels too small, and to follow your curiosity about deeper happiness without pretending to believe an explanation."
+   },
+   {
+    "type": "SHIFT",
+    "what": "some people already have enough love and meaning for the life they want ('seem to', and 'you don't have to do anything about it' is new)",
+    "replace": "Other people seem to have enough love and meaning. You don’t have to do anything about it.",
+    "with": "Some people already have enough love and meaning for the life they want."
+   }
+  ]
+ },
+ {
+  "block": 46,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "does this round help you feel, understand, decide or respond differently, or are you checking for reassurance",
+    "replace": "“Am I looking for something new here, or am I checking again to see if it’s gone yet?”",
+    "with": "“Does this round help me feel, understand, decide or respond differently, or am I checking again for reassurance?”"
+   },
+   {
+    "type": "SHIFT",
+    "what": "can revisit familiar ground; novelty isn't required (not 'supposed to')",
+    "replace": "you’re supposed to cover the same ground over and over again.",
+    "with": "it’s fine to cover the same ground again; it doesn’t have to be new every time."
+   },
+   {
+    "type": "LOST",
+    "what": "or chasing it away",
+    "replace": "but don’t argue with it.",
+    "with": "but don’t argue with it or chase it away."
+   }
+  ]
+ },
+ {
+  "block": 50,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'my child' could be a real child: the inner child",
+    "replace": "“What would show my child that I’m for real?”",
+    "with": "“What would show my inner child that I’m for real?”"
+   }
+  ]
+ }
+]
