@@ -122,3 +122,22 @@ def y1b():
 
 
 register('xandria-p2', lambda: (Y1_COMMENT_OLD + '\n\n' + y1_old()) if (Y1_COMMENT_OLD + '\n\n' + y1_old()) in ART.read_text(encoding='utf-8') else None, y1b)
+
+
+CS_PARKED = "<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md): Close the Session and Return to Life. It goes here. -->"
+
+
+def close_session(p2='cs2-o'):
+    def c(s):
+        return '<!-- ' + s + ' -->'
+    h2 = 'the h2 Human Written (0.085, high, 161 words), https://www.pangram.com/history/5188d938-2c32-4048-9c4b-610fb4f82db0 (round t71o)'
+    return '\n\n'.join([
+        '## Close the Session and Return to Life',
+        c("Turn 71 (the overnight run): the guide's definite ending, starting from his \"Present Time\" reminder that ends the photographs section just before (\"worth stealing for every session, photos or no photos\"): endless processing as one more way to avoid living; look around and say where you are; feet on the floor or the chair; unclench your jaw and hands. experiments/t71-guide/drafts/cs1-c.txt. Alone Human Written (0.041), https://www.pangram.com/history/6ab0a4b8-8ec2-45df-a85a-92904562a10a (round t71e); " + h2 + ". Turn 65 tried fourteen versions and four writers; tonight the h2 read AI with every P2 until the next step became a question (rounds t71b to t71n). Record: experiments/t71-guide/REVIEWS.md."),
+        draft('cs1-c'),
+        c("Turn 71: the guide's next ordinary action and its sentence for your little one, turned into a question and its answer (E190's loosening: \"And what's next for you two? Maybe it's making food, or just going to bed.\"); nothing has to be resolved first, whatever you're still feeling can come along; going back to your life is part of the healing (the guide's \"integration\"), as turn 65's sp9-k2 had it. experiments/t71-guide/drafts/%s.txt. Alone Human Written (0.073), https://www.pangram.com/history/3b8fecb3-2ef2-434b-932b-2058af516c58; %s." % (p2, h2)),
+        draft(p2),
+    ])
+
+
+register('close-session', CS_PARKED, close_session)
