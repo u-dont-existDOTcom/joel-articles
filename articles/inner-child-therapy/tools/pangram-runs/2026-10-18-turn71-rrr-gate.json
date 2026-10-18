@@ -1,0 +1,38 @@
+{
+ "t71rrr_lmte": {
+  "kind": "screen",
+  "march": [
+   "S B S B S B S B B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71rrr: lmt-e, alone."
+ },
+ "t71rrr_lmtf": {
+  "kind": "screen",
+  "march": [
+   "S B S B S B S B S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71rrr: lmt-f, alone."
+ },
+ "t71rrr_h1lmte": {
+  "kind": "screen",
+  "march": [
+   "B (as installed, one paragraph changed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CAND-lmte.md",
+  "note": "t71rrr: # When Love Still Feels Missing as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t71rrr_h1lmtf": {
+  "kind": "screen",
+  "march": [
+   "B (as installed, one paragraph changed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CAND-lmtf.md",
+  "note": "t71rrr: # When Love Still Feels Missing as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

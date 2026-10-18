@@ -1,0 +1,32 @@
+[
+ {
+  "key": "jw2c",
+  "draft": "jw2-c",
+  "label": "Journal With Each Hand P2 alone, c (a new first half, \"both hands included\"; turn 65's writer's second half, which read Human in the h2 with jw-s)"
+ },
+ {
+  "key": "jw2d",
+  "draft": "jw2-d",
+  "label": "Journal With Each Hand P2 alone, d (a new first half as a question, \"It happens.\"; the writer's second half)"
+ },
+ {
+  "key": "secjwsc",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "D:jw2-c"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 jw2-c",
+  "march": "jw-s: B B S S B S, jw2-c: B S S S S S S"
+ },
+ {
+  "key": "secjwsd",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "D:jw2-d"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 jw2-d",
+  "march": "jw-s: B B S S B S, jw2-d: B S S S S S"
+ }
+]

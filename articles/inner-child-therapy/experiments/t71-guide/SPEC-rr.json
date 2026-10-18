@@ -1,0 +1,66 @@
+[
+ {
+  "key": "oi2d",
+  "draft": "oi2-d",
+  "label": "One Intention P2 alone, d (b with his \"so much fuller of faults\")"
+ },
+ {
+  "key": "oi2e",
+  "draft": "oi2-e",
+  "label": "One Intention P2 alone, e (the two hook questions and the late catch first, then \"go easy on the verdicts\" and his black spots)"
+ },
+ {
+  "key": "oi2f",
+  "draft": "oi2-f",
+  "label": "One Intention P2 alone, f (\"And the night part?\", his black spots, \"Yours can be a lot gentler.\")"
+ },
+ {
+  "key": "oi2g",
+  "draft": "oi2-g",
+  "label": "One Intention P2 alone, g (\"His evenings were tougher.\", his \"so much fuller of faults\", \"So maybe skip the spots.\")"
+ },
+ {
+  "key": "secoiddd",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-d",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-d, oi3-d (round qq's closest, secoidd, with a new P2)",
+  "march": "oi-dd: B B B B S S, oi2-d: B B S S B S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoidde",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-e",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-e, oi3-d (round qq's closest, secoidd, with a new P2)",
+  "march": "oi-dd: B B B B S S, oi2-e: S B S S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddf",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-f",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-f, oi3-d (round qq's closest, secoidd, with a new P2)",
+  "march": "oi-dd: B B B B S S, oi2-f: B B S S S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddg",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-g",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-g, oi3-d (round qq's closest, secoidd, with a new P2)",
+  "march": "oi-dd: B B B B S S, oi2-g: B B S S B S, oi3-d: S S B S S B"
+ }
+]

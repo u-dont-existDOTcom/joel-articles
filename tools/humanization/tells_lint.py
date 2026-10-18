@@ -941,6 +941,7 @@ def main():
     mine_words = 0; coach_hits = 0; you_hits = 0
     para_final_short = 0; imper_heavy = 0
     openers = []
+    para_mine = []   # B13 (2026-10-18): whether each paragraph has a sentence of mine
     sent_lens = []
     casual = []   # O25: (sentence, count) of "even" and "actually" in my sentences, flagged once the draft's count is known
     prev_paren = None   # O39: (sentence, mine) when the paragraph before ended on a sentence wholly in parentheses
@@ -961,6 +962,7 @@ def main():
                 flag('FAIL', O39, groups[j - 1][0] + ' / ' + groups[j][0])
         prev_paren = groups[-1] if spans and spans[-1][1] == len(pp) else None
         openers.append(' '.join(words(nss[0])[:1]).lower() if ss else '')
+        para_mine.append(any(mine_s))
         imps = 0
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         checked = any(m and RESEARCH_NOTE.search(without_quotes(x)) for x, m in zip(nss, mine_s))   # O23: the paragraph narrates a check
@@ -1025,6 +1027,25 @@ def main():
             if re.search(r"\b(ordinary|regular|boring|everyday|mundane)\b", n, re.I):
                 flag('REVIEW', 'O12 "ordinary/regular/boring": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
                      'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"); keep one that says something, judge published wording like new wording', s)
+            # O43 (Joel, 2026-10-18 19:06, on Altered States Can Require Reparenting P2 and the guide's Borrow Hindsight line): hedges he
+            # names as high-frequency AI tells. "professional assessment may be warranted in some situations" ("may in some situations is a
+            # double hedge, and the language is more formal which doesn't quite match the informality of the article"); "it meant something
+            # that ..." ("a subtle hedging (ai doesn't know what it meant, but it meant... something)"); "This is a fallible perspective to
+            # borrow, not proof that ..." ("This is limited X, not over-scoped Y.... and especially "not proof that" is another high freq ai tell").
+            if (re.search(r"\b(?:may|might|could)\b[^.!?]{0,60}\bin (?:some|certain|many) (?:situations|cases|circumstances)\b", n, re.I)
+                    or re.search(r"\b(?:is|are|be|seems?)\s+warranted\b", n, re.I)):
+                flag('REVIEW', 'O43 a double or formal hedge ("professional assessment may be warranted in some situations"; Joel 2026-10-18: '
+                     '"may in some situations is a double hedge, and the language is more formal"): one hedge, in plain words, as his "it\'d make '
+                     'sense to get a professional to weigh in for some situations"', s)
+            if re.search(r"\bit meant something\b", n, re.I):
+                flag('FAIL', 'O43 "it meant something" (Joel 2026-10-18: "high freq AI phrasing which is like a subtle hedging (ai doesn\'t know '
+                     'what it meant, but it meant... something)"): say what it meant, as his "I really appreciate that my parents took it seriously '
+                     'without catastrophizing."', s)
+            if re.search(r"\bnot proof (?:that|of)\b", n, re.I):
+                flag('FAIL', 'O43 "not proof that" (Joel 2026-10-18: "This is limited X, not over-scoped Y.... and especially "not proof that" is '
+                     'another high freq ai tell"): say what the thing is', s)
+            elif re.search(r"\b(?:isn't|aren't|is not|are not)\s+proof\b", n, re.I):
+                flag('REVIEW', 'O43 "isn\'t proof" (Joel 2026-10-18 named "not proof that" a high-frequency AI tell): say what it is instead', s)
             # O42 (Joel, 2026-10-17 13:11, community section 16's opening, on the published "while somebody else quietly pays the tax
             # bill": "remove "quietly" that's an ai tell at the end"). O12 had flagged it as a REVIEW, and a REVIEW on published wording
             # was never answered, so it stayed; the third time he named the word (2026-10-10: "using quietly all the time like that is
@@ -1276,7 +1297,12 @@ def main():
     if coach_density > 2.0: hard.append(f'E41 coach register: {coach_density:.1f} coach phrases per 100 of my words (limit 2.0)')
     if landing_rate >= 0.5 and len(ps) >= 3: hard.append(f'B7/B13 landings: {para_final_short}/{len(ps)} paragraphs end on a short line')
     if imper_heavy >= 2: hard.append(f'E23 listicle: {imper_heavy} paragraphs are strings of instructions')
-    if rep_openers: hard.append(f'B13 repeated paragraph openers: {rep_openers}')
+    # B13 counts the published openers too (docs/HUMANIZATION-GATE.md), but it fails only when one of my paragraphs
+    # shares a repeated opener. 2026-10-18 (turn 71): When the Adult Voice Feels Fake as installed opens three
+    # paragraphs with "I" (two of them Joel's), so every check of that h1 failed before Pangram whatever was added.
+    mine_rep = {k: v for k, v in rep_openers.items() if any(o == k and pm for o, pm in zip(openers, para_mine))}
+    if mine_rep: hard.append(f'B13 repeated paragraph openers: {mine_rep}')
+    elif rep_openers: flag('REVIEW', 'B13 repeated paragraph openers, all in installed or Joel\'s paragraphs (none of mine shares one): ' + ', '.join('%s (%d)' % kv for kv in rep_openers.items()), '')
     # Review note only since 2026-09-26: second-person density doesn't separate Pangram
     # results. The Guide paragraph passed at 13.4 per 100, and two failing P5 attempts
     # sat at 4.7 and 6.1. Check what the "you" sentences are doing instead (coach register).

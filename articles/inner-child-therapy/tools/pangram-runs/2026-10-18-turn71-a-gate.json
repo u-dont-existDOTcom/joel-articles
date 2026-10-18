@@ -1,0 +1,128 @@
+{
+ "t71a_sp5p2z1": {
+  "kind": "screen",
+  "march": [
+   "B B S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: sp5-p2-z1, alone."
+ },
+ "t71a_jwa": {
+  "kind": "screen",
+  "march": [
+   "S S S B B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: jw-a, alone."
+ },
+ "t71a_jwb": {
+  "kind": "screen",
+  "march": [
+   "B S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: jw-b, alone."
+ },
+ "t71a_jw2a": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: jw2-a, alone."
+ },
+ "t71a_jw2b": {
+  "kind": "screen",
+  "march": [
+   "S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: jw2-b, alone."
+ },
+ "t71a_oia": {
+  "kind": "screen",
+  "march": [
+   "S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: oi-a, alone."
+ },
+ "t71a_oib": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: oi-b, alone."
+ },
+ "t71a_jl2a": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: jl2-a, alone."
+ },
+ "t71a_jl2b": {
+  "kind": "screen",
+  "march": [
+   "S B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: jl2-b, alone."
+ },
+ "t71a_cs1a": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: cs1-a, alone."
+ },
+ "t71a_cs1b": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71a: cs1-b, alone."
+ },
+ "t71a_secsp5p12": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs, a part at a time (E190) | sp5-p1-x1: S S B S S, sp5-p2-y1: B B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71a_secsp5p12.md",
+  "note": "t71a: ## “And So That’s the Way It Happened!”, put together: D9:sp5-p1-x1, D0:sp5-p2-y1."
+ },
+ "t71a_secsp5p23": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs, a part at a time (E190) | sp5-p2-y1: B B S S, sp5-p3-b6: B S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71a_secsp5p23.md",
+  "note": "t71a: D0:sp5-p2-y1, put together: G:sp5-p3-b6."
+ },
+ "t71a_secsp5z": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: sp5-p2-z1: B B S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71a_secsp5z.md",
+  "note": "t71a: ## “And So That’s the Way It Happened!”, put together: D9:sp5-p1-x1, D:sp5-p2-z1."
+ }
+}

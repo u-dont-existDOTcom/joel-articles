@@ -1,0 +1,83 @@
+{
+ "t71yy_ifs1v": {
+  "kind": "screen",
+  "march": [
+   "B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_ifs1v.md",
+  "note": "t71yy: ifs1-v, alone."
+ },
+ "t71yy_ifs3x": {
+  "kind": "screen",
+  "march": [
+   "B B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_ifs3x.md",
+  "note": "t71yy: ifs3-x, alone."
+ },
+ "t71yy_ifs5x": {
+  "kind": "screen",
+  "march": [
+   "B B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_ifs5x.md",
+  "note": "t71yy: ifs5-x, alone."
+ },
+ "t71yy_ifs5y": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_ifs5y.md",
+  "note": "t71yy: ifs5-y, alone."
+ },
+ "t71yy_secifsx": {
+  "kind": "screen",
+  "march": [
+   "ifs1-v: B S, ifs2-u: S B S B, ifs3-x: B B S S S, ap56-b: S B B S S, ifs5-x: B B S S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_secifsx.md",
+  "note": "t71yy: ## How This Relates to IFS, put together: D:ifs1-v, D:ifs2-u, D:ifs3-x, D:ap56-b, D:ifs5-x, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71yy_secifsy": {
+  "kind": "screen",
+  "march": [
+   "ifs1-v: B S, ifs2-u: S B S B, ifs3-x: B B S S S, ap56-b: S B B S S, ifs5-y: B B S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_secifsy.md",
+  "note": "t71yy: ## How This Relates to IFS, put together: D:ifs1-v, D:ifs2-u, D:ifs3-x, D:ap56-b, D:ifs5-y, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71yy_ifs34x": {
+  "kind": "screen",
+  "march": [
+   "ifs3-x: B B S S S, ap56-b: S B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_ifs34x.md",
+  "note": "t71yy: D:ifs3-x, put together: D:ap56-b."
+ },
+ "t71yy_ifs45y": {
+  "kind": "screen",
+  "march": [
+   "ap56-b: S B B S S, ifs5-y: B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_ifs45y.md",
+  "note": "t71yy: D:ap56-b, put together: D:ifs5-y."
+ },
+ "t71yy_ifs56y": {
+  "kind": "screen",
+  "march": [
+   "ifs5-y: B B S S, wifs-5: S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71yy_ifs56y.md",
+  "note": "t71yy: D:ifs5-y, put together: D:wifs-5."
+ }
+}

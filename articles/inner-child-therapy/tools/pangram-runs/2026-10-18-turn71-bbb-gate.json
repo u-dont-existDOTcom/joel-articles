@@ -1,0 +1,47 @@
+{
+ "t71bbb_ifs5dd": {
+  "kind": "screen",
+  "march": [
+   "B B B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bbb_ifs5dd.md",
+  "note": "t71bbb: ifs5-dd, alone."
+ },
+ "t71bbb_ifs5ee": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bbb_ifs5ee.md",
+  "note": "t71bbb: ifs5-ee, alone."
+ },
+ "t71bbb_secifsdd": {
+  "kind": "screen",
+  "march": [
+   "ifs1-x: B S B, ifs2-u: S B S B, ifs3-y: B B S S, ap56-b: S B B S S, ifs5-dd: B B B B S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bbb_secifsdd.md",
+  "note": "t71bbb: ## How This Relates to IFS, put together: D:ifs1-x, D:ifs2-u, D:ifs3-y, D:ap56-b, D:ifs5-dd, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71bbb_secifsee": {
+  "kind": "screen",
+  "march": [
+   "ifs1-x: B S B, ifs2-u: S B S B, ifs3-y: B B S S, ap56-d: S S S S B S, ifs5-ee: B B S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bbb_secifsee.md",
+  "note": "t71bbb: ## How This Relates to IFS, put together: D:ifs1-x, D:ifs2-u, D:ifs3-y, D:ap56-d, D:ifs5-ee, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71bbb_ifs13x": {
+  "kind": "screen",
+  "march": [
+   "ifs1-x: B S B, ifs2-u: S B S B, ifs3-y: B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71bbb_ifs13x.md",
+  "note": "t71bbb: ## How This Relates to IFS, put together: D:ifs1-x, D:ifs2-u, D:ifs3-y."
+ }
+}

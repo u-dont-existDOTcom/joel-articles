@@ -1,0 +1,76 @@
+[
+ {
+  "key": "oicc",
+  "draft": "oi-cc",
+  "label": "One Intention P1 alone, cc (Franklin's questions, his thirteen virtues a week each, so one hook a day)"
+ },
+ {
+  "key": "oidd",
+  "draft": "oi-dd",
+  "label": "One Intention P1 alone, dd (as cc, with \"Not exactly small questions.\")"
+ },
+ {
+  "key": "oi2b",
+  "draft": "oi2-b",
+  "label": "One Intention P2 alone, b (Franklin's black spots and the holes; leave the spots out; the two hook questions; a late catch counts)"
+ },
+ {
+  "key": "oi2c",
+  "draft": "oi2-c",
+  "label": "One Intention P2 alone, c (as b, opening \"His evenings were a lot harder on himself, though.\")"
+ },
+ {
+  "key": "oi3c",
+  "draft": "oi3-c",
+  "label": "One Intention P3 alone, c (repair or protect; the good; the pattern broken; same intention; his chart's \"Sleep.\")"
+ },
+ {
+  "key": "oi3d",
+  "draft": "oi3-d",
+  "label": "One Intention P3 alone, d (as c, with \"(it happens!)\")"
+ },
+ {
+  "key": "secoicc",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-cc",
+   "D:oi2-b",
+   "D:oi3-c"
+  ],
+  "label": "One Intention, the h2: oi-cc, oi2-b, oi3-c",
+  "march": "oi-cc: B B B S S, oi2-b: B S S B S B, oi3-c: S S B S S"
+ },
+ {
+  "key": "secoicc2",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-cc",
+   "D:oi2-c",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-cc, oi2-c, oi3-d",
+  "march": "oi-cc: B B B S S, oi2-c: B B S S S, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoidd",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-b",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-b, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-b: B S S B S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoidd2",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-c",
+   "D:oi3-c"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-c, oi3-c",
+  "march": "oi-dd: B B B B S S, oi2-c: B B S S S, oi3-c: S S B S S"
+ }
+]

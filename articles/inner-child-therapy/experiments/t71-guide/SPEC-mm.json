@@ -1,0 +1,32 @@
+[
+ {
+  "key": "jw2e",
+  "draft": "jw2-e",
+  "label": "Journal With Each Hand P2 alone, e (jw2-d, which read Human in the h2, with its last two sentences joined: \"or you can skip the pen and leave yourself a voice note\")"
+ },
+ {
+  "key": "jw2f",
+  "draft": "jw2-f",
+  "label": "Journal With Each Hand P2 alone, f (jw2-d with \"both hands included\" and \"Or skip the pen and leave yourself a voice note.\")"
+ },
+ {
+  "key": "secjwse",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "D:jw2-e"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 jw2-e",
+  "march": "jw-s: B B S S B S, jw2-e: B S S S S"
+ },
+ {
+  "key": "secjwsf",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "D:jw2-f"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 jw2-f",
+  "march": "jw-s: B B S S B S, jw2-f: B S S S S S S"
+ }
+]

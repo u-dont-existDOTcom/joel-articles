@@ -284,6 +284,21 @@ class LinterListsOfThree(unittest.TestCase):
             self.assertIn('verdict:', r.stdout, r.stderr[-600:])
             return r.returncode, r.stdout
 
+    def test_repeated_openers_fail_only_when_one_is_mine(self):
+        # B13 (2026-10-18, turn 71): three installed paragraphs opening "I" don't block a check of their section; a
+        # paragraph of mine that makes it a repeat does.
+        his = ["I went down to the river every morning that spring, mostly to think, and sometimes just to watch the herons.",
+               "I kept a notebook of what I saw there, the birds, the weather and whatever was on my mind that day.",
+               "I still have it somewhere in a box in the attic, along with the letters my grandmother sent me back then."]
+        installed = "# Notes\n\n" + "\n\n".join(his) + "\n"
+        mine_ok = "Somebody new to the river might notice different things, of course, like the old mill or the boats going by."
+        rc, out = self.lint("\n\n".join(his + [mine_ok]) + "\n", installed)
+        self.assertNotIn('HARD: B13', out)
+        self.assertIn('B13 repeated paragraph openers, all in installed', out)
+        mine_bad = "I would go back there tomorrow if I could, just to sit by the water for an hour and listen to it go by."
+        rc, out = self.lint("\n\n".join(his[:2] + [mine_bad]) + "\n", "# Notes\n\n" + "\n\n".join(his[:2]) + "\n")
+        self.assertIn('HARD: B13', out)
+
     def test_two_lists_in_one_paragraph_fail(self):
         rc, out = self.lint(self.FAILED_P1)
         self.assertIn('E125 two lists', out)

@@ -1,0 +1,47 @@
+{
+ "t71sss_hcla": {
+  "kind": "screen",
+  "march": [
+   "S B B S B S B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71sss_hcla.md",
+  "note": "t71sss: hcl-a, alone."
+ },
+ "t71sss_hclb": {
+  "kind": "screen",
+  "march": [
+   "S B B S B S B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71sss_hclb.md",
+  "note": "t71sss: hcl-b, alone."
+ },
+ "t71sss_h2hcla": {
+  "kind": "screen",
+  "march": [
+   "B (as installed, one paragraph changed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CAND-hcla.md",
+  "note": "t71sss: ## A Heart-to-Child Loop as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t71sss_h1hcla": {
+  "kind": "screen",
+  "march": [
+   "B (as installed, one paragraph changed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CAND-hcla.md",
+  "note": "t71sss: # Simple Practices as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t71sss_h1hclb": {
+  "kind": "screen",
+  "march": [
+   "B (as installed, one paragraph changed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CAND-hclb.md",
+  "note": "t71sss: # Simple Practices as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

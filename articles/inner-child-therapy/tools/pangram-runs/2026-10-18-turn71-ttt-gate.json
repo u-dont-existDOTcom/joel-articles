@@ -1,0 +1,38 @@
+{
+ "t71ttt_frmc": {
+  "kind": "screen",
+  "march": [
+   "B S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ttt: frm-c, alone."
+ },
+ "t71ttt_frmd": {
+  "kind": "screen",
+  "march": [
+   "S B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ttt: frm-d, alone."
+ },
+ "t71ttt_h1frmc": {
+  "kind": "screen",
+  "march": [
+   "B (as installed, with the new paragraph)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CAND-frmc.md",
+  "note": "t71ttt: # Before You Try to Go Deep as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t71ttt_h1frmd": {
+  "kind": "screen",
+  "march": [
+   "B (as installed, with the new paragraph)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CAND-frmd.md",
+  "note": "t71ttt: # Before You Try to Go Deep as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

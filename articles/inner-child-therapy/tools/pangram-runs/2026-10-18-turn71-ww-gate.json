@@ -1,0 +1,74 @@
+{
+ "t71ww_ifs1u": {
+  "kind": "screen",
+  "march": [
+   "B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_ifs1u.md",
+  "note": "t71ww: ifs1-u, alone."
+ },
+ "t71ww_ifs2u": {
+  "kind": "screen",
+  "march": [
+   "S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_ifs2u.md",
+  "note": "t71ww: ifs2-u, alone."
+ },
+ "t71ww_ifs3u": {
+  "kind": "screen",
+  "march": [
+   "S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_ifs3u.md",
+  "note": "t71ww: ifs3-u, alone."
+ },
+ "t71ww_ifs5t": {
+  "kind": "screen",
+  "march": [
+   "B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_ifs5t.md",
+  "note": "t71ww: ifs5-t, alone."
+ },
+ "t71ww_secifsu": {
+  "kind": "screen",
+  "march": [
+   "ifs1-u: B S, ifs2-u: S B S B, ifs3-u: S B S S, ap56-b: S B B S S, ifs5-t: B S S S, wifs-5: S B S S S S, ap9-e: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_secifsu.md",
+  "note": "t71ww: ## How This Relates to IFS, put together: D:ifs1-u, D:ifs2-u, D:ifs3-u, D:ap56-b, D:ifs5-t, D:wifs-5, ### Related Clinical Work, D:ap9-e."
+ },
+ "t71ww_ifs12u": {
+  "kind": "screen",
+  "march": [
+   "ifs1-u: B S, ifs2-u: S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_ifs12u.md",
+  "note": "t71ww: ## How This Relates to IFS, put together: D:ifs1-u, D:ifs2-u."
+ },
+ "t71ww_ifs34u": {
+  "kind": "screen",
+  "march": [
+   "ifs3-u: S B S S, ap56-b: S B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_ifs34u.md",
+  "note": "t71ww: D:ifs3-u, put together: D:ap56-b."
+ },
+ "t71ww_ifs56u": {
+  "kind": "screen",
+  "march": [
+   "ifs5-t: B S S S, wifs-5: S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ww_ifs56u.md",
+  "note": "t71ww: D:ifs5-t, put together: D:wifs-5."
+ }
+}

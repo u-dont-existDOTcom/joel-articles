@@ -1,0 +1,92 @@
+[
+ {
+  "key": "sp5p2z1",
+  "draft": "sp5-p2-z1",
+  "label": "\"And So That's the Way It Happened!\" P2 z1 alone (P2 and P3 in one: a spoken answer, both sides, the stop signs, the younger you)"
+ },
+ {
+  "key": "jwa",
+  "draft": "jw-a",
+  "label": "Journal With Each Hand P1 alone, a (\"try paper\"; the grown-up doing whichever of its three jobs is needed)"
+ },
+ {
+  "key": "jwb",
+  "draft": "jw-b",
+  "label": "Journal With Each Hand P1 alone, b (opens on the silence and wondering if you're doing it wrong)"
+ },
+ {
+  "key": "jw2a",
+  "draft": "jw2-a",
+  "label": "Journal With Each Hand P2 alone, a (memory notes, PGQ-016; \"as dull as a grocery list\")"
+ },
+ {
+  "key": "jw2b",
+  "draft": "jw2-b",
+  "label": "Journal With Each Hand P2 alone, b (\"ties you in knots\")"
+ },
+ {
+  "key": "oia",
+  "draft": "oi-a",
+  "label": "One Intention in the Morning, One Review at Night P1 alone, a (the night review as three questions)"
+ },
+ {
+  "key": "oib",
+  "draft": "oi-b",
+  "label": "One Intention P1 alone, b (\"without putting yourself on trial\"; the review as one sentence)"
+ },
+ {
+  "key": "jl2a",
+  "draft": "jl2-a",
+  "label": "Just Like Me P2 alone, a (\"Regular breathing is fine for this, nothing fancy.\")"
+ },
+ {
+  "key": "jl2b",
+  "draft": "jl2-b",
+  "label": "Just Like Me P2 alone, b (\"Also not required\")"
+ },
+ {
+  "key": "cs1a",
+  "draft": "cs1-a",
+  "label": "Close the Session and Return to Life P1 alone, a (\"my living room, the cat's here\")"
+ },
+ {
+  "key": "cs1b",
+  "draft": "cs1-b",
+  "label": "Close the Session P1 alone, b (\"yes, out loud, even if it feels silly\")"
+ },
+ {
+  "key": "secsp5p12",
+  "blocks": [
+   "## “And So That’s the Way It Happened!”",
+   "D9:sp5-p1-x1",
+   "D0:sp5-p2-y1"
+  ],
+  "his": [
+   "My ex, Xandria, taught me to append “And so that’s the way it happened!” to a difficult memory."
+  ],
+  "label": "\"And So That's the Way It Happened!\" part check: the heading, P1 x1 and P2 y1 (E190, the practice read AI whole in turn 70)",
+  "march": "settled paragraphs, a part at a time (E190) | sp5-p1-x1: S S B S S, sp5-p2-y1: B B S S"
+ },
+ {
+  "key": "secsp5p23",
+  "blocks": [
+   "D0:sp5-p2-y1",
+   "G:sp5-p3-b6"
+  ],
+  "label": "\"And So That's the Way It Happened!\" part check: P2 y1 and P3 sp5-p3-b6, no heading",
+  "march": "settled paragraphs, a part at a time (E190) | sp5-p2-y1: B B S S, sp5-p3-b6: B S S S"
+ },
+ {
+  "key": "secsp5z",
+  "blocks": [
+   "## “And So That’s the Way It Happened!”",
+   "D9:sp5-p1-x1",
+   "D:sp5-p2-z1"
+  ],
+  "his": [
+   "My ex, Xandria, taught me to append “And so that’s the way it happened!” to a difficult memory."
+  ],
+  "label": "\"And So That's the Way It Happened!\" in two paragraphs: P1 x1 and P2 z1",
+  "march": "settled paragraphs | edits: sp5-p2-z1: B B S S S B S"
+ }
+]

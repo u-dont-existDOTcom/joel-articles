@@ -1,0 +1,69 @@
+[
+ {
+  "key": "jwm",
+  "draft": "jw-m",
+  "label": "Journal With Each Hand P1 alone, m (jw-l's first sentence, Capacchione, which read Human; then \"In her version, ...\")"
+ },
+ {
+  "key": "jwn",
+  "draft": "jw-n",
+  "label": "Journal With Each Hand P1 alone, n (jw-l's first sentence, then \"Her idea is simple.\" and \"the clumsy hand turns out to be quite chatty\")"
+ },
+ {
+  "key": "oir",
+  "draft": "oi-r",
+  "label": "One Intention P1 alone, r (oi-q's first sentence, the Examen, which read Human; then the morning half and bedtime)"
+ },
+ {
+  "key": "ois",
+  "draft": "oi-s",
+  "label": "One Intention P1 alone, s (oi-q's first sentence, then the review as the reader's own thought: \"Oh, there's one I caught.\")"
+ },
+ {
+  "key": "secjwm",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-m",
+   "G:writers/sp4-w1-p2"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-m, P2 turn 65's writers/sp4-w1-p2",
+  "march": "jw-m: B S B B S, sp4-w1-p2: ?"
+ },
+ {
+  "key": "secjwn",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-n",
+   "G:writers/sp4-w1-p2"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-n, P2 turn 65's writers/sp4-w1-p2",
+  "march": "jw-n: B B S B S, sp4-w1-p2: ?"
+ },
+ {
+  "key": "secoir",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-r",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-r, P2 turn 65's sp6-p2-h2",
+  "march": "oi-r: B S B S, sp6-p2-h2: ?"
+ },
+ {
+  "key": "secois",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-s",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-s, P2 turn 65's sp6-p2-h2",
+  "march": "oi-s: B S S B B, sp6-p2-h2: ?"
+ },
+ {
+  "key": "secspjl",
+  "section": "# Simple Practices",
+  "article": "article",
+  "label": "Simple Practices, the h1 as installed, with Just Like Me in",
+  "march": "B (as installed)"
+ }
+]
