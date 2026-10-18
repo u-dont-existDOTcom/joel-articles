@@ -916,3 +916,15 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His answers to 42 to 44, and his merge of #188 when he's happy with the lessons.
 2. With his answers: Speak Toward's P1, P2 and P5; "And So That's the Way It Happened!" P2 and P3; This human life and the three Altered States sections with his lines as he confirms them; the other parked Simple Practices.
+
+## Turn 70 (2026-10-17, from 22:59 UTC): Speak Toward in, his first person back, lesson E190
+
+- **His message:** 42 A; 43 "my words" (except the guide's "If a voice or urge ..." line, AI wording based on his story, "ok if it passes"); 9 to 12 A, his first person back; 44, his own P1, P2 and P5 for Speak Toward, with how he found the AI parts ("I made changes to the end, then the beginning, and then the middle") (`t70-answers/`).
+- **In:** Speak Toward What You Are Building (his three paragraphs, "lilies" for "lillies"; my P4's last sentence changed after an AI window into his P5; h1 0.13 high); his first person back in Borrow Hindsight, How Much Happiness, the Shallow section and Forgive (each alone and in its section Human; in the last two, my sentence after his line had to change first); This human life is the most precious opportunity as he published it (alone 0.0035; its h1 0.11 high).
+- **Lesson E190:** check a stuck paragraph a part at a time; the "not Y" tail is a linter FAIL (O9; 5% Human with one, 25% without); loosen the instruction-manual march a little; a question to the reader gets his answer or the guide's.
+- **Still parked:** "And So That's the Way It Happened!" (each paragraph Human alone, the practice AI as a whole); the three Altered States sections; four Simple Practices.
+
+### Next
+
+1. "And So That's the Way It Happened!" with his part-at-a-time method on the practice; then the Altered States sections with his stories as his guide has them; the other parked Simple Practices.
+2. His merge of #190 (turn 70; he merged #188, turns 67 to 69, at 22:05 UTC) whenever he likes.

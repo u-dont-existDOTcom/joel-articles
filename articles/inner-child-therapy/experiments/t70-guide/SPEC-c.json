@@ -1,0 +1,38 @@
+[
+ {
+  "key": "p4a",
+  "draft": "p4-a",
+  "label": "Speak Toward P4 alone, a (turn 65's st1p4-w8 with its last sentence: \"Then you trade places, and it's your turn to keep \"Here's what you should do\" to yourself.\")"
+ },
+ {
+  "key": "p4c",
+  "draft": "p4-c",
+  "label": "Speak Toward P4 alone, c (\"Then it's their turn to talk, and yours to just listen.\")"
+ },
+ {
+  "key": "secst2",
+  "section": "# Speak Toward What You Are Building",
+  "label": "Speak Toward What You Are Building, the h1 with P4 a (round b: an AI window from P4's last sentence into his P5)",
+  "march": "settled paragraphs | his P1: B S S B B B S B, his P2: S B S S S, his P5: S S B B S | edits: p4-a: S S S B S B B S B"
+ },
+ {
+  "key": "secshe",
+  "section": "# When the Practice Feels Real but Stays Shallow",
+  "label": "When the Practice Feels Real but Stays Shallow, the h1 with sh-e",
+  "march": "settled paragraphs | edits: sh-e: S S S B S S S S"
+ },
+ {
+  "key": "fg2f",
+  "draft": "fg2-f",
+  "label": "How to Forgive Without Forgetting P2 alone, f (his line, then turn 66's plain list as it was)",
+  "his": [
+   "The understanding that helps me is seeing how a person's conditioning, history, pain, and capacity shaped the harmful move they made."
+  ]
+ },
+ {
+  "key": "secfgf",
+  "section": "# How to Forgive Without Forgetting",
+  "label": "How to Forgive Without Forgetting, the h1 with P2 fg2-f and P3 fg3-a",
+  "march": "settled paragraphs | edits: fg2-f: S S S S B S, fg3-a: S S S B S S S S S B"
+ }
+]

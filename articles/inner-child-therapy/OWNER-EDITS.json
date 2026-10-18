@@ -2397,11 +2397,64 @@
   {
    "id": "published-first-person-pending-20261017",
    "status": "pending",
-   "what": "The rest of his published first-person lines go in with their sections, each once he has seen it in full and in context and said it's his wording, or with his own words in its place (E189; question 43): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his deepest peaks coming when he least wanted to exist, his nibbana article, the turtle and the ticket (This human life is the most precious opportunity); the childhood ghosts and the window, the sleep-paralysis attacks, training others, and his guides (the three Altered States sections), with their warnings in his words and no amounts or recipes; Hearthwork, \"my peer-counseling framework\" (Speak Toward What You Are Building).",
-   "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"now that you are showing me in context exactly, i see i got paraphrased\" (experiments/t69-answers/JOEL-20261017-1856.md).",
+   "what": "The rest of his published first-person lines go in with their sections. He has seen each whole and in context and said they're his words (question 43, 2026-10-17 22:59 UTC: \"43 my words\"): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his guides, the childhood ghosts and the window, the sleep-paralysis attacks, sending love, training others, the thugs, and \"If I were to do that\" (the Altered States sections), with their warnings in his words and no amounts or recipes. One line there isn't his: \"If a voice or urge is directing you towards harm ... as with myself and those ghosts at home, move away from that open window and get some outside support.\" is the guide's wording (\"that's therapy speak from AI based on my story, but it's ok if it passes\"). His Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building (turn 70). This human life is in too (turn 70).",
+   "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"now that you are showing me in context exactly, i see i got paraphrased\" (experiments/t69-answers/JOEL-20261017-1856.md). 2026-10-17 22:59 UTC: \"43 my words. except the last one about voice or urge directing you towards harm, that's therapy speak from AI based on my story, but it's ok if it passes.\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "those sections, when humanized",
    "must_contain": [
     "Xandria"
+   ]
+  },
+  {
+   "id": "speak-toward-joel-20261017-2259",
+   "status": "applied",
+   "what": "Speak Toward What You Are Building P1, P2 and P5 are Joel's, word for word (question 44), with one obvious typo fixed: \"lilies\" for his \"lillies\".",
+   "joel": "2026-10-17 22:59 UTC: P1 \"now human high conf on pangram\"; P2 \"it's better this way and human med conf\"; P5 \"this is human\" (experiments/t70-answers/JOEL-20261017-2259.md).",
+   "where": "Speak Toward What You Are Building",
+   "must_contain_exact": [
+    "It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself \"I'm not dependent.\" Well, now you're thinking about being dependent. Being totally independent also isn't realistic nor ideal, and can even seem like just a reaction to the original question. We can often strike a nice nuanced poetic balance, like: \"I'm provided for by the universe, like the birds & lilies Jesus reminded us of.\" With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!",
+    "But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says \"he hurt me,\" that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide parts can lead the way up to more safety and maturity.",
+    "The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both."
+   ],
+   "must_not_contain": [
+    "lillies"
+   ]
+  },
+  {
+   "id": "first-person-back-20261017-2259",
+   "status": "applied",
+   "what": "His published first-person lines are back where my rewrite had put them in the general voice (question 43, items 9 to 12: A): Borrow Hindsight, How Much Happiness Do You Know Is Possible?, When the Practice Feels Real but Stays Shallow, and How to Forgive Without Forgetting (two lines).",
+   "joel": "2026-10-17 22:59 UTC: \"9. a 10 a 11 a 12 a\" (experiments/t70-answers/JOEL-20261017-2259.md).",
+   "where": "Simple Practices; When Love Still Feels Missing; When the Practice Feels Real but Stays Shallow; How to Forgive Without Forgetting",
+   "must_contain_exact": [
+    "I sometimes ask: \"How would I respond to this once I understood it more clearly, in balance and with compassion?\"",
+    "The horizon of what I can wish for someone is partly shaped by the happiness, peace, and freedom I know are possible.",
+    "What showed me that the daytime pl/ork had stayed shallow was the difference at night.",
+    "The understanding that helps me is seeing how a person's conditioning, history, pain, and capacity shaped the harmful move they made.",
+    "Understanding somebody's limitations should make my expectations more realistic, not make those limitations less consequential."
+   ],
+   "must_not_contain": [
+    "A question to borrow from your future self",
+    "What can help is seeing how they got there."
+   ]
+  },
+  {
+   "id": "this-human-life-20261017-2259",
+   "status": "applied",
+   "what": "This human life is the most precious opportunity is in as he published it, with its two links: its first sentence is his first person (question 43, 6), and the turtle and the ticket are his guide's own sentences.",
+   "joel": "2026-10-17 22:59 UTC: \"43 my words\" (experiments/t70-answers/JOEL-20261017-2259.md).",
+   "where": "If You Want to Kill Yourself",
+   "must_contain_exact": [
+    "As I mentioned in my [nibbana article](http://nibbana.u-dont-exist.com/), I’ve had my most profound spiritual peak experiences and realizations when I had the least interest in continued existence. And the Buddha taught in [MN 129](https://suttacentral.net/mn129/en/sujato), attaining a human birth is as rare and precious as it would be for a one-eyed turtle to pop his head up through a hoop on the surface of the vast ocean. You won the cosmic jackpot, so don’t throw away the ticket before you open the envelope to find it!"
+   ],
+   "must_link": [
+    {
+     "text": "nibbana article",
+     "url": "http://nibbana.u-dont-exist.com/"
+    },
+    {
+     "text": "MN 129",
+     "url": "https://suttacentral.net/mn129/en/sujato"
+    }
    ]
   },
   {
@@ -2440,8 +2493,8 @@
   },
   {
    "id": "hearthwork-joel-20261017",
-   "status": "pending",
-   "what": "Speak Toward What You Are Building names Hearthwork as his peer-counseling framework, linked to hearthwork.u-dont-exist.com, when that section goes in.",
+   "status": "applied",
+   "what": "Speak Toward What You Are Building names Hearthwork as his peer-counseling framework, linked to hearthwork.u-dont-exist.com, when that section goes in. Turn 70: in, in the Hearthwork paragraph (his framework's basic premise in his words; question 43, 3: \"my words\").",
    "joel": "2026-10-17 16:58 UTC: \"it is, yes, hearthwork.u-dont-exist.com that's my framework, so why did you remove it?\" (experiments/t68-answers/JOEL-20261017-1658.md).",
    "where": "Speak Toward What You Are Building, when humanized",
    "must_contain": [

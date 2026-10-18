@@ -83,6 +83,10 @@ class LinterAbstractAgents(unittest.TestCase):
         """O9 (Joel, same message): "it always wants to add a 'not Y' part"."""
         out = self.lint('If people are training there so they can help others build communities of their own, they are building a genuine alternative, not just escaping society.\n')
         self.assertIn('O9', out)
+        self.assertIn('verdict: FAIL', out)   # E190 (Joel, 2026-10-17 22:59: "that's X, not Y")
+        out = self.lint('If your little one says "he hurt me," that\'s harm, and it gets called harm, not "a learning experience." The rest can wait.\n')
+        self.assertIn('O9', out)
+        self.assertNotIn('O9', self.lint('If your little one says "he hurt me," that\'s harm, and it gets called harm, even if it was also a learning experience. The rest can wait.\n'))
         self.assertNotIn('O9', self.lint('No, not today. We will talk about the money when everyone is back from the market.\n'))
         self.assertNotIn('O9', self.lint('She did not want to leave, and she said so at the meeting on Sunday.\n'))
 

@@ -1,0 +1,56 @@
+{
+ "t70c_p4a": {
+  "kind": "screen",
+  "march": [
+   "S S S B S B B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t70c: p4-a, alone."
+ },
+ "t70c_p4c": {
+  "kind": "screen",
+  "march": [
+   "S S S B S B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t70c: p4-c, alone."
+ },
+ "t70c_secst2": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | his P1: B S S B B B S B, his P2: S B S S S, his P5: S S B B S | edits: p4-a: S S S B S B B S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
+  "note": "t70c: # Speak Toward What You Are Building as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t70c_secshe": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: sh-e: S S S B S S S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
+  "note": "t70c: # When the Practice Feels Real but Stays Shallow as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t70c_fg2f": {
+  "kind": "screen",
+  "march": [
+   "S S S S B S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/lint-t70c_fg2f.md",
+  "note": "t70c: fg2-f, alone."
+ },
+ "t70c_secfgf": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | edits: fg2-f: S S S S B S, fg3-a: S S S B S S S S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t70/CANDIDATE.md",
+  "note": "t70c: # How to Forgive Without Forgetting as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}
