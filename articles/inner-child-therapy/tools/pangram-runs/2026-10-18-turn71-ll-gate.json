@@ -1,0 +1,38 @@
+{
+ "t71ll_jw2c": {
+  "kind": "screen",
+  "march": [
+   "B S S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ll: jw2-c, alone."
+ },
+ "t71ll_jw2d": {
+  "kind": "screen",
+  "march": [
+   "B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71ll: jw2-d, alone."
+ },
+ "t71ll_secjwsc": {
+  "kind": "screen",
+  "march": [
+   "jw-s: B B S S B S, jw2-c: B S S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ll_secjwsc.md",
+  "note": "t71ll: ## Journal With Each Hand, put together: D:jw-s, D:jw2-c."
+ },
+ "t71ll_secjwsd": {
+  "kind": "screen",
+  "march": [
+   "jw-s: B B S S B S, jw2-d: B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ll_secjwsd.md",
+  "note": "t71ll: ## Journal With Each Hand, put together: D:jw-s, D:jw2-d."
+ }
+}
