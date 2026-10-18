@@ -2989,3 +2989,29 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 72) | When Healing Turns Into Checking P2 with checking-into-doing folded in, word for word (114 words) [t72i_chkmerge], a screen | Human, low (my call) | Human Written (0.23, Medium; 120); 20:52:57 UTC, https://www.pangram.com/history/8602138c-6cc1-4e3d-b219-48f1238efe0d | hit |
 | 2026-10-18 (turn 72) | Before You Try to Go Deep as installed, with the checking paragraphs folded together (3756 words) [t72i_h1bgi1], a screen | Human, low (my call) | Human Written (0.091; 3993), 3 windows; 20:53:10 UTC, https://www.pangram.com/history/96de11dd-9bec-4e2f-a71f-a3550139e9e9 | hit |
 | 2026-10-18 (turn 72) | Before You Try to Go Deep as installed, with the checking paragraphs folded together and Your Body P5 h (3771 words) [t72i_h1bgi2], a screen | Human, low (my call) | Mostly Human Written (0.095; 4007), 4 windows: AI-Generated 37 words (High); 20:53:01 UTC, https://www.pangram.com/history/ddbbff67-0a24-4d69-989f-f4ec64e9880c | hit |
+| 2026-10-18 (turn 73) | When Healing Turns Into Checking P2 with 55, 2, A (53 words) [t73a_c552], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | When the Present-Day Adult Is Dangerous P5 without "Of course not." (55, 4, A) (94 words) [t73a_c554], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Not Every Hero Wears A Cape P5 with his meaning (55, 9), version a (108 words) [t73a_c559a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Not Every Hero Wears A Cape P5 with his meaning, version b (109 words) [t73a_c559b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Four Pairs P4 with 55, 12, A (100 words) [t73a_c5512], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Remember When You Already Did It P1 with 55, 13, A (141 words) [t73a_c5513], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | How to Forgive Without Forgetting P3 without the clause (55, 14, A) (156 words) [t73a_c5514], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Speak Toward What You Are Building P1 with 55, 17, A (130 words) [t73a_c5517], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | How This Relates to IFS P4 with his ending (57, 1) (205 words) [t73a_c571], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | schema P2, the differences with spirituality first, version a (71 words) [t73a_st2a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | schema P2, version b (81 words) [t73a_st2b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | schema P2, version c (81 words) [t73a_st2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | schema P3, choosing a therapist, version a (119 words) [t73a_st3a], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | schema P3, version b (113 words) [t73a_st3b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | schema P3, version c (129 words) [t73a_st3c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Before You Try to Go Deep with 55, 2 and 4 (3754 words) [t73a_h1bga], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Building Trust With Your Little One with 55, 9 a (2303 words) [t73a_h1bta], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Building Trust With Your Little One with 55, 9 b (2304 words) [t73a_h1btb], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Sometimes There Isn't a Clear Child Yet with 55, 12 (1580 words) [t73a_h1sna], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Simple Practices with 55, 13 (1974 words) [t73a_h1spa], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | How to Forgive Without Forgetting with 55, 14 (488 words) [t73a_h1fga], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | Speak Toward What You Are Building with 55, 17 (816 words) [t73a_h1sta], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with his IFS P4 ending and schema P2 a and P3 a (1394 words) [t73a_h1apa], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with his IFS P4 ending and schema P2 b and P3 b (1398 words) [t73a_h1apb], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with his IFS P4 ending and schema P2 c and P3 c (1414 words) [t73a_h1apc], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with only his IFS P4 ending (1204 words) [t73a_h1apd], a screen | Human, low (my call) | (pending) | |
