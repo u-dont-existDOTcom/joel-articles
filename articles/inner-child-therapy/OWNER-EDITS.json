@@ -1475,7 +1475,7 @@
    "joel": "2026-10-10 05:21 UTC, sent again 15:20 UTC (his answer 1 to turn 39's questions): \"paranoia during a rough trip is a warning sign for psychosis, i would reconsider the drug and dsoage if trying again, as well as mindset and setting etc. some drugs are known for causing paranoia like THC, avoid those. idk why you said i was cracked wide open by pedro so wide there was no gorwn up in the room you just confabulated that? don't confabulate things about my life...  pedro did make me super emotional the first time i took a medium low dose (7g) and i was crying a lot, it was very therapeutic actually.  ayahuasca was often much more challenging, ebcause i was taking huge doses at first for ego death. this is the part about san pedro which is in the current published guide: \\\"It still didn’t reach all of my inner-child material, especially my attachment to women. The [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm) I tried later felt imaginary at first. San Pedro cactus, CBD tea, and sublingual mapacho cracked it open; structured sessions with an inner-child therapist deepened it.\\\"\" | 2026-10-10 05:21 UTC, sent again 15:20 UTC (his answer 2): \"all kinds of psychoactive drugs can mess with your sense of what's real, and that's often the point of them, but in general try to select the healthiest ones and use slow and gentle protocols. i'd say one of the most abused psychedelics (aside from ketamine if you call that a psychedelic) is 5-meo-dmt. I have a guide on that. people very often believe you need a huge dose of that for a \\\"FULL RELEASE\\\", they have all kinds of screaming shaking and nearly killing themselves and absoluely zero inner child work being done, all spiritual bypassing.\"",
    "where": "When the Urge to Escape Arrives (the drug-history paragraph and his 5-MeO paragraph)",
    "must_contain": [
-    "Paranoia during a rough trip is a warning sign for psychosis",
+    "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there, since it can be valid.",
     "All kinds of psychoactive drugs can mess with your sense of what's real",
     "5-MeO-DMT"
    ],
@@ -1484,7 +1484,8 @@
      "text": "guide on that",
      "url": "http://bufo.u-dont-exist.com/"
     }
-   ]
+   ],
+   "note": "2026-10-18 (turn 72): his answer 49, 3 (19:06 UTC): \"paranoia isn't automatically leading to psychosis, since it can be valid, but it does tend to lead to psychosis when it isn't balanced by practicality\", so the check quotes the new sentence."
   },
   {
    "id": "san-pedro-account-as-text-20261010",
@@ -1508,8 +1509,9 @@
    ],
    "must_contain": [
     "those are signs to reconsider trying the same thing again",
-    "Paranoia during a rough trip is a warning sign for psychosis"
-   ]
+    "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there, since it can be valid."
+   ],
+   "note": "2026-10-18 (turn 72): his answer 49, 3 (19:06 UTC): \"paranoia isn't automatically leading to psychosis, since it can be valid, but it does tend to lead to psychosis when it isn't balanced by practicality\", so the check quotes the new sentence."
   },
   {
    "id": "grown-up-me-line-not-his-20261010",

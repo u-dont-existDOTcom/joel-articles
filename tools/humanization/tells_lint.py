@@ -1027,6 +1027,25 @@ def main():
             if re.search(r"\b(ordinary|regular|boring|everyday|mundane)\b", n, re.I):
                 flag('REVIEW', 'O12 "ordinary/regular/boring": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
                      'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"); keep one that says something, judge published wording like new wording', s)
+            # O43 (Joel, 2026-10-18 19:06, on Altered States Can Require Reparenting P2 and the guide's Borrow Hindsight line): hedges he
+            # names as high-frequency AI tells. "professional assessment may be warranted in some situations" ("may in some situations is a
+            # double hedge, and the language is more formal which doesn't quite match the informality of the article"); "it meant something
+            # that ..." ("a subtle hedging (ai doesn't know what it meant, but it meant... something)"); "This is a fallible perspective to
+            # borrow, not proof that ..." ("This is limited X, not over-scoped Y.... and especially "not proof that" is another high freq ai tell").
+            if (re.search(r"\b(?:may|might|could)\b[^.!?]{0,60}\bin (?:some|certain|many) (?:situations|cases|circumstances)\b", n, re.I)
+                    or re.search(r"\b(?:is|are|be|seems?)\s+warranted\b", n, re.I)):
+                flag('REVIEW', 'O43 a double or formal hedge ("professional assessment may be warranted in some situations"; Joel 2026-10-18: '
+                     '"may in some situations is a double hedge, and the language is more formal"): one hedge, in plain words, as his "it\'d make '
+                     'sense to get a professional to weigh in for some situations"', s)
+            if re.search(r"\bit meant something\b", n, re.I):
+                flag('FAIL', 'O43 "it meant something" (Joel 2026-10-18: "high freq AI phrasing which is like a subtle hedging (ai doesn\'t know '
+                     'what it meant, but it meant... something)"): say what it meant, as his "I really appreciate that my parents took it seriously '
+                     'without catastrophizing."', s)
+            if re.search(r"\bnot proof (?:that|of)\b", n, re.I):
+                flag('FAIL', 'O43 "not proof that" (Joel 2026-10-18: "This is limited X, not over-scoped Y.... and especially "not proof that" is '
+                     'another high freq ai tell"): say what the thing is', s)
+            elif re.search(r"\b(?:isn't|aren't|is not|are not)\s+proof\b", n, re.I):
+                flag('REVIEW', 'O43 "isn\'t proof" (Joel 2026-10-18 named "not proof that" a high-frequency AI tell): say what it is instead', s)
             # O42 (Joel, 2026-10-17 13:11, community section 16's opening, on the published "while somebody else quietly pays the tax
             # bill": "remove "quietly" that's an ai tell at the end"). O12 had flagged it as a REVIEW, and a REVIEW on published wording
             # was never answered, so it stayed; the third time he named the word (2026-10-10: "using quietly all the time like that is

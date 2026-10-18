@@ -1,0 +1,14 @@
+# Turn 72 reviews (Joel's answers of 2026-10-18 19:06 UTC)
+
+His message is in experiments/t72-answers/JOEL-20261018-1906.md; at 19:26 UTC he confirmed my readings of 54, 4 and 9 ("yes you read me correctly altho i also said you should use your jdugement to see if what i'm saying sounds right").
+
+## How "Those don't even agree with each other on everything!" got in (49, 6)
+
+He asked: "remove this nonsense, how did this get in? ... debug how that got in there pls."
+
+- **Where it came from.** The guide's Related Clinical Work has "These approaches do not all make the same claims." between its list of ten approaches and "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus ..." (r4 line 1005; the sentence came with innerSignalGraph's later guide revisions, not his Substack guide). Turn 71 carried it as one of the paragraph's units, so my drafts had to say it somehow (experiments/t71-guide/drafts/ap9-c.txt to ap9-f.txt).
+- **What I did to it.** I made a flat hedge into an exclamation, "Those don't even agree with each other on everything!", to sound casual. The grounding check flagged it (experiments/t71-guide/COLD-READ-t71-appendix.md, passage E: '"Don't even agree" is stronger than "do not all make the same claims" (conflict vs. difference)'), and I kept it anyway.
+- **What made it nonsense.** In round t71ccc I moved it to the end of the paragraph to break a 56-word AI window over his last line and the Teachers heading. There it follows "rather than presenting the whole synthesis as their consensus", and it reads as a punchline about something nobody would doubt, as he said.
+- **Why nothing caught it.** The meaning check only asked whether the guide's point was carried, and the guide's point was itself filler: nobody needs telling that ten different therapies don't agree on everything. The cold read asked a first-time reader what they couldn't follow, and every word of it is easy to follow. Nobody asked whether the sentence was worth saying, or re-read the paragraph after the move.
+- **The fixes.** The sentence is out. The same grounding check had also flagged "like ... and so on", which opens the guide's closed list of ten, and that's fixed too: "and so on" is out. The cold-read prompt now asks the reader to flag a sentence that tells them something nobody would doubt, or that lands like a punchline where nothing is funny, with his words as the example (tools/humanization/reviewer/sense_section.txt). And lesson E192 (docs/HUMANIZATION-GATE.md): a guide sentence that tells the reader nothing they'd doubt isn't important meaning, so it goes rather than getting humanized, and a sentence moved for Pangram gets its paragraph read again for sense where it lands.
+- **The sweep he asked for** ("i wonder if there is other dumb junk we didn't catch"): a reader went through the whole article for sentences like it (experiments/t72-guide/JUNK-SWEEP.md, below).

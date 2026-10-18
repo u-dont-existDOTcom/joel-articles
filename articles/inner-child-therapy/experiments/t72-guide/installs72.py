@@ -185,3 +185,41 @@ register('st', '\n## How This Relates to IFS\n',
          + dnote('st-a', 'his message ("you were sent info on schema therapy and how it overlaps with my guide in many places, so we can mention that before the IFS section"): the research suggestion of 2026-10-18 (UDA branch chat/guide-schema-therapist-fit-20261018, suggested-fixes/joel-articles/2026-10-18-schema-therapist-fit-and-reparenting-guide.md, from innerSignalGraph\'s research Pass 15), checked against ISST\'s Limited Reparenting page (George Lockwood, opened 2026-10-18: "the heart of the treatment in schema therapy"; warmth, nurturance, firmness, playfulness and limit-setting; the patient internalizes it as a healthy adult mode; the Vulnerable Child; fighting punitive parent modes). His Teachers line says the rest ("Filter for Schema Therapy, since that\'s the one with the most similarity to my guide").', 'ST') + draft('st-a')
          + '\n\n' + dnote('st-b2', 'the research\'s differences, as the ones that depend on the therapist (one adult with three jobs and borrowing one; practical safety now; no images as proof), and its screening questions compressed to the two the article\'s readers need. The guide\'s no to the inner-child frame isn\'t among them: he cut it on 2026-10-08.', 'STB') + draft('st-b2')
          + '\n\n## How This Relates to IFS\n')
+
+
+# The grounding check of turn 71 had flagged "like ... and so on" for opening the guide's closed list of ten (COLD-READ-t71-appendix.md, passage E)
+register('rcw-list',
+         "Later revisions also compare notes with other approaches, like schema therapy, compassion-focused therapy, attachment repair, motivational interviewing, mentalizing, metacognitive therapy, behavioral activation, radically open DBT, emotion-focused therapy, spiritually integrated psychotherapy and so on.",
+         "Later revisions also compare notes with schema therapy, compassion-focused therapy, attachment repair, motivational interviewing, mentalizing, metacognitive therapy, behavioral activation, radically open DBT, emotion-focused therapy and spiritually integrated psychotherapy.")
+
+
+# --- Round b: the four drafts that read AI in round a, again, and my own sentences from the filler sweep -------------
+
+register('bg-out-2', lambda: para('And if the grown-up you is there, and it'),
+         lambda: para('And if the grown-up you is there, and it') + '\n\n' + dnote('bg-out-c', '54, 8, B ("humanize that in before you try to go deep") and 10 ("that\'s what we are putting back into 8"): the guide\'s "If you cannot reliably stop, return, stay oriented, or inward attention itself is making things worse, stop the inner exercise and come outward first." with "One breath may be enough." and the eyes-open hello as the gentler way back in. Round t72a\'s bg-out-b read AI alone (1.00), https://www.pangram.com/history/1fa68500-e6a9-46e0-b4ed-9f915b19cb94.', 'BGOUT') + draft('bg-out-c'))
+
+register('yb5-2', lambda: para('So how were the next few days?'),
+         lambda: dnote('yb5-c', '54, 8: "If you\'re getting worse, though, change several things at once, and get some support." is out ("that sounds too vague to be useful"); the paragraph is otherwise as it was.', 'YB5') + draft('yb5-c')
+         + '\n\n' + dnote('yb6-c', '54, 11, B ("original list more informative"): the guide\'s "Try shorter duration, less depth or imagery, better timing, more symbolic or indirect representation, eyes open or stronger external anchors, less isolation, and more support." as a paragraph of its own. Round t72a\'s yb5-b, the list inside the paragraph, read AI alone (0.94), https://www.pangram.com/history/43936887-847b-446e-8094-8d5e4afde4b2.', 'YB6') + draft('yb6-c'))
+
+register('st-2', '\n## How This Relates to IFS\n',
+         lambda: '\n## How This Relates to Schema Therapy\n\n'
+         + dnote('st-c', 'his message ("you were sent info on schema therapy and how it overlaps with my guide in many places, so we can mention that before the IFS section"): the research suggestion of 2026-10-18 (UDA branch chat/guide-schema-therapist-fit-20261018, suggested-fixes/joel-articles/2026-10-18-schema-therapist-fit-and-reparenting-guide.md, from innerSignalGraph\'s research Pass 15), checked against ISST\'s Limited Reparenting page (George Lockwood, opened 2026-10-18: "the heart of the treatment in schema therapy"; warmth, nurturance, firmness, playfulness and limit-setting; the patient internalizes it as a healthy adult mode; the Vulnerable Child; fighting punitive parent modes). His Teachers line says the rest ("Filter for Schema Therapy, since that\'s the one with the most similarity to my guide"). Round t72a\'s st-a read AI Detected alone (0.43), https://www.pangram.com/history/756f554c-31af-4866-8795-46c5b40cf144.', 'ST') + draft('st-c')
+         + '\n\n' + dnote('st-e', 'the research\'s differences that depend on the therapist (one adult with three jobs and borrowing one; practical safety now; images and feelings no evidence about childhood), in his first person; its screening questions are left to his Teachers paragraph. The guide\'s no to the inner-child frame isn\'t among them: he cut it on 2026-10-08. Round t72a\'s st-b2 read AI alone (0.97), https://www.pangram.com/history/b733c68e-eaeb-4254-82f1-14cd899db6b9.', 'STB') + draft('st-e')
+         + '\n\n## How This Relates to IFS\n')
+
+register('ifs6', lambda: para('Before choosing a therapist, get to know the strengths'),
+         lambda: dnote('ifs6-a', 'the filler sweep (JUNK-SWEEP.md, 24): "Could an IFS therapist help? They may, if they\'re skilled and grounded." is true of any therapist, so the paragraph goes straight to what makes one helpful.', 'IFS6') + draft('ifs6-a'))
+
+register('jl', lambda: para('This one works best on a steadier day'),
+         lambda: dnote('jl1-a', 'the filler sweep (JUNK-SWEEP.md, 15): "With that many people feeling the same thing, the theory that you\'re the defective one gets kind of hard to keep up." moves up from P2 to the step it belongs to, after "and wanting it to stop, just like you."', 'JL') + draft('jl1-a'))
+register('jl2', lambda: para("If you've tried Pema Chödrön's"), lambda: draft('jl2-a'))
+
+register('som', lambda: para('Rumi says you have to keep breaking your heart'),
+         lambda: dnote('som-a', 'the filler sweep (JUNK-SWEEP.md, 17): "That describes what they feel, and it doesn\'t prove how the body produces it." is out: the paragraph never says how the body produces anything, and "doesn\'t prove" is the hedge he named on 2026-10-18 (O43).', 'SOM') + draft('som-a'))
+
+register('cs5', lambda: para('Sometimes the session itself goes really well.'),
+         lambda: dnote('cs5-c', 'the filler sweep (JUNK-SWEEP.md, 12): "and once isn\'t proof you\'ve got it all down" is out, a second hedge on a point nobody makes (O43).', 'CS5') + draft('cs5-c'))
+
+register('tf11', lambda: para('Daniel Kahneman and Gary Klein came at intuition'),
+         lambda: dnote('tf11-l', 'the filler sweep (JUNK-SWEEP.md, 11): "Yours too, probably." is out (a quip telling the reader what nobody doubts).', 'TF11') + draft('tf11-l'))
