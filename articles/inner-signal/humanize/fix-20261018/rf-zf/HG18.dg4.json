@@ -1,0 +1,104 @@
+{
+ "key": "HG18",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+ "choices": {
+  "base": "rev-b/HG18.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "folder": "emu-ax"
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Come all the way back"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Make sure to reverse anything you've done to alter your state when you come out of it. If you've floated, make sure you regain your weight (of your choice, of course). If you've shrunk, grow to your normal size again. If you've regressed or met parts, make sure you come back to feeling complete in the here and now and acknowledge that your body belongs to you and is under control of the adult mind. If you've gone somewhere, make sure you go back the same way. Etcetera. Make sure that the only things you bring out with you are the ones you want to."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Here is a generic bring-back that you can use: \"When I come out of this session, I will only bring with me that which is useful to me in my everyday life right now. Anything else I will bring with me at a later date, when I am better able to integrate it. When I come out of this session, I will be coming back to the room I am in now, and to the day in which I am participating in this session now, and to one honest action. All instructions to carry me deeper in this session or to keep me in this state are now finished. The only instruction I will take with me into my everyday life, or the only cue I will use to take me into this state in the future, is the one I consciously choose to, and neither of them keeps me in this state. When I come out of this session, I will be me, in my body, with my adult judgment fully back.\""
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Then count up, using these five steps: 1...feel your body again, feel your weight (of your choice). 2...feel your breathing return to normal. 3...become aware of your surroundings, know where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.\""
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit before getting up. Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because you've done the count. Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Note: If you're going to sleep to a recording, it's fine to go to sleep or just to remain resting quietly at the end of it. But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+   "refix": true
+  }
+ ]
+}

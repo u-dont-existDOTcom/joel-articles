@@ -1,0 +1,53 @@
+{
+ "HG18-fix": [
+  "AI Detected",
+  0.5,
+  533,
+  "Human, High, 206; AI-Generated, High, 327",
+  "11:01:47",
+  "/9cc8e268-caf5-4aef-966c-69d3b9fb1eb0",
+  [
+   "AI-Generated (327 words): All instructions to carry me deeper in this session or to keep me in this state are now finished. [...]"
+  ]
+ ],
+ "HG18-z-p2": [
+  "AI Generated",
+  0.82,
+  174,
+  "AI-Generated, High, 174",
+  "11:02:00",
+  "/62dbdc3c-6cfb-47e5-92a7-bdbc7972bebe",
+  [
+   "AI-Generated (174 words): Here is a generic bring-back that you can use: [...]"
+  ]
+ ],
+ "HG18-z-p3": [
+  "Human Written",
+  0.05,
+  66,
+  "Human, Low, 66",
+  "11:02:07",
+  "/b4abd731-08fd-49b2-b736-221ad96afecb",
+  []
+ ],
+ "HG18-z-p4": [
+  "Human Written",
+  0.01,
+  86,
+  "Human, Low, 86",
+  "11:02:21",
+  "/2facfd74-7336-4c12-9903-6aab95a4f917",
+  []
+ ],
+ "HG18-z-p5+next": [
+  "AI Detected",
+  0.38,
+  92,
+  "Human, Low, 56; AI-Generated, Low, 36",
+  "11:02:29",
+  "/d28c785a-c048-49e2-aa91-8a7d358a4f15",
+  [
+   "AI-Generated (36 words): But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely."
+  ]
+ ]
+}
