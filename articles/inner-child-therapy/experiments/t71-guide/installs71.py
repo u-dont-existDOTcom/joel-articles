@@ -459,3 +459,5 @@ def frm(p='frm-c'):
 
 register('frm', BG_P1_END, frm)
 register('frm-d', BG_P1_END, lambda: frm('frm-d'))
+register('frm-e', BG_P1_END, lambda: frm('frm-e'))
+register('frm-g', BG_P1_END, lambda: frm('frm-g'))

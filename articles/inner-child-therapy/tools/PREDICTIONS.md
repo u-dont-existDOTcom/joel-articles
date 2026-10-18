@@ -2892,3 +2892,5 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 71) | the same place, alone, d (the question move: "What if you'd rather not have an inner child in this at all? Then you've answered the question, and going gentler won't change it. ...") (60 words) [t71ttt_frmd], a screen | Human, low (my call) | (pending) | |
 | 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-c as P2 (3682 words) [t71ttt_h1frmc], a screen | Human, low (my call) | (pending) | |
 | 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-d as P2 (3674 words) [t71ttt_h1frmd], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-e as P2 (45 words: "And if the whole inner-child thing just isn't you, that's an answer too. ...", the dishes) (3659 words) [t71uuu_h1frme], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Before You Try to Go Deep with frm-g as P2 (38 words: "Maybe the inner-child idea itself is what you don't want. ...") (3652 words) [t71uuu_h1frmg], a screen | Human, low (my call) | (pending) | |
