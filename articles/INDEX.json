@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "4cf5432d8e1127d8f79f1fec7ec12c2104b5904ac152f362569518d07f04c67d",
+          "sha256": "cf08ff0fe871f56528e8ea76c98744eb20cea807d7007c80a291b1568b08486a",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "186b85766e423d8fd10ff2ed9be259f7392eecf71c5b43618bd4aded460311ab",
+          "sha256": "67ef3cdceda79e5c61b8dc273d6ae96d284dfeb0ee0fd31b91c0d27c2e1a1759",
           "role": "owner_edits_ledger"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "753986776ef3d130b62c272ac178bd79f99f350724fdd13fd1d9e743ada88a18",
+          "sha256": "1ebcaab181e6d7ea5e94480a6d608fbf36ef4addf321fc555a7c9e7c227016bd",
           "role": "detector_prediction_log"
         },
         {
@@ -16889,7 +16889,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/MARCH.json",
-          "sha256": "7136b7a91e9319af27b2a9922c6b95b0a556341373fa17987a8d70b978f69833",
+          "sha256": "45293f3e26d873658dab10975ec3747b6e27453ba93c9c5243820f67092f3812",
           "role": "humanization_working_record"
         },
         {
@@ -16954,7 +16954,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/installs71.py",
-          "sha256": "d38c60396b33e2be7df351ee50f0fbf5ff92c814afce9212e84c5bd9e45d20a4",
+          "sha256": "6b26276e1ea44966ab0b734bd5f74ef8e89e8b322ecf11c6e18556741ed0cd31",
           "role": "humanization_working_record"
         },
         {
@@ -20285,6 +20285,46 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-jjj.js",
           "sha256": "3ec489520e5d214b495c8bb55431bc80729f4e4ef423d3de24577cd94d4a3e45",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/READ-jjj.json",
+          "sha256": "dc80b26f23d2b35ef52d41dd370431dba223f3c891b5a8b401e35010cc214652",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/RESULTS-tf.json",
+          "sha256": "c11874d9ec9920dd4ce2030b51cbe130b27ce22a14f79c030423fc6dbb5131ab",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/SPEC-kkk.json",
+          "sha256": "c0ae3f76f4b47043d8a7ab668e218037c5f95d8f60eab7a00548adf71d2ee336",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/drafts/tf12-a.txt",
+          "sha256": "f8aea5c10bf9cf5e42b323db3372959679066101f6246bc72f6be01bc4d8f09b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-kkk-drafts.json",
+          "sha256": "bf38eb336c9a91b276d8561623f676594f67353119a138e0e5eef3ac83d7ef3b",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-kkk-gate.json",
+          "sha256": "3a6cfea8cb3e33a2273ac17d1063b8ec25d108d80c1ab2ed585a577bf3a82a7d",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-kkk-read.js",
+          "sha256": "a7eafaacf7312ef662d8544466e7b98440df8953d88481b3fa0781914431fc18",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-kkk.js",
+          "sha256": "0b2315e771d44c67b9e08feba7d7bf18819b7b5120462c5d4d6c8bc713645062",
           "role": "detector_check_texts"
         }
       ]
