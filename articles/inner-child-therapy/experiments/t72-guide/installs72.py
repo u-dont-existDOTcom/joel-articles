@@ -244,3 +244,25 @@ register('st-4', '\n## How This Relates to IFS\n',
          lambda: '\n## How This Relates to Schema Therapy\n\n' + dnote('st-c', 'as st-3, with its first paragraph only.', 'ST') + draft('st-c') + '\n\n## How This Relates to IFS\n')
 register('ifs6-2', lambda: para('Before choosing a therapist, get to know the strengths'),
          lambda: dnote('ifs6-b', 'the filler sweep (JUNK-SWEEP.md, 24): "Could an IFS therapist help? They may, if they\'re skilled and grounded." is true of any therapist; the paragraph now asks which kind, and says what makes each the better fit.', 'IFS6') + draft('ifs6-b'))
+
+
+# --- Round e: in his One Intention voice (E194: "rewrite it in that voice, with the content kept and the steps turned into
+# scenes, asides and jokes, before trying another arrangement of the same instructions") ------------------------------
+BG2 = 'And if the grown-up you is there, and it'
+for _x in 'abc':
+    register('bg2' + _x, lambda: para(BG2),
+             (lambda s: lambda: dnote(s, '54, 8, B ("humanize that in before you try to go deep") and 10 ("that\'s what we are putting back into 8"): the guide\'s "If you cannot reliably stop, return, stay oriented, or inward attention itself is making things worse, stop the inner exercise and come outward first.", with "could you stop and return" as its question, in P2 right after "I\'d go shallower.", where the guide has it (just before "Do not test another inward technique just to prove you can tolerate something."). As a paragraph of its own it read AI fourteen times (turns 34, 38 and 72).', 'BG2') + draft(s))('bg2-' + _x))
+
+for _a, _b in (('yb5-e', 'yb6-g'), ('yb5-f', 'yb6-h'), ('yb5-g', 'yb6-i')):
+    register('yb56' + _a[-1], lambda: para('So how were the next few days?'),
+             (lambda a, b: lambda: dnote(a, '54, 8: "If you\'re getting worse, though, change several things at once, and get some support." is out ("that sounds too vague to be useful"; coming out first is in Before You Try to Go Deep P2 now), and the questions get scenes the way his One Intention answers its own (E194).', 'YB5') + draft(a)
+              + '\n\n' + dnote(b, '54, 11, B ("original list more informative"): the guide\'s "Try shorter duration, less depth or imagery, better timing, more symbolic or indirect representation, eyes open or stronger external anchors, less isolation, and more support.", packed the way his One Intention packs its list (with a catch-all), and one item played out.', 'YB6') + draft(b))(_a, _b))
+
+HON = "And reaching out doesn't mean telling strangers everything."
+for _x in 'ac':
+    register('hon' + _x, lambda: para(HON),
+             (lambda s: lambda: dnote(s, 'his section moves put a 67-word AI window on this paragraph, my C2 of turn 38 (round t72c, https://www.pangram.com/history/63c1d7da-6554-470e-859a-58b5571b9020), so "how they handle the smaller things you tell them" gets a scene; the rest is as it was.', 'HON') + draft(s))('alo-hon-' + _x))
+
+TY_NOTE = ('the filler sweep (JUNK-SWEEP.md, 2): the Tyler sentence moves from P6, which is on tone of voice, to the end of P5, after the line we came up with, and "it meant a lot to me that he liked" becomes his own words of 2026-09-27 16:29 ("the fact that he really appreciated how I was interpreting Jesus\' message is pretty important to me"), since "it meant something that" is the phrasing he named on 2026-10-18 (E193).')
+register('tyler', lambda: para('But Jesus also said to take the log out'), lambda: dnote('wi5-a', TY_NOTE, 'TY') + draft('wi5-a'))
+register('tyler', lambda: para("It's also how your voice sounds, though."), lambda: draft('wi6-a'))
