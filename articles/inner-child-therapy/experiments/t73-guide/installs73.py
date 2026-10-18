@@ -63,3 +63,11 @@ def _dmove_line():
 register('mono-out', _mono, '')
 register('mono-in', lambda: _dmove_line() if _mono() else None,
          lambda: (note('his section move, the other half (2026-10-18 19:06 UTC: "i think we should move "you don\'t need an inner monologue section" to right after "when healing turns into checking" and we should move "when the present-day adult is dangerous" after that"): You Don\'t Need an Inner Monologue is here now, its text unchanged. @@MONO@@') + _mono() + _dmove_line()) if _mono() else None)
+
+
+# --- Round b ------------------------------------------------------------------------------------------------------------
+register('s2b', lambda: para('Going back can still matter, since realizations'),
+         lambda: dnote('c55-2b', '55, 2, A, in fewer words: "since realizations are a real part of life" was a truism; the guide\'s own reason is "Meaningful grief and practice can revisit familiar ground; novelty is not required every time."', 'S2') + draft('c55-2b'))
+for _a in 'abc':
+    register('st2only' + _a, lambda: para('Of the clinical approaches I know'),
+             (lambda a: lambda: para('Of the clinical approaches I know') + '\n\n' + dnote(a, ST_SRC + ' The differences, with spirituality first, as he asked.', 'ST2') + draft(a))('st2-' + _a))
