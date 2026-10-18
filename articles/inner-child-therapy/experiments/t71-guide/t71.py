@@ -175,9 +175,12 @@ def batch(rnd, spec_file):
             gate[k] = {'kind': 'screen', 'march': [it['march']], 'lint': 'REVIEW', 'lint_article': str(CAND),
                        'note': 't71%s: paragraph %d under %s as it would be installed.' % (rnd, it['para'][1], it['para'][0])}
         else:
-            text = section(md[it.get('article', 'candidate')], it['section'])
+            src = it.get('article', 'candidate')
+            if src not in md:   # a path: another candidate article (two placements in one batch, round t71uu)
+                md[src] = pathlib.Path(src).read_text(encoding='utf-8')
+            text = section(md[src], it['section'])
             gate[k] = {'kind': 'screen', 'march': [it['march']], 'lint': 'REVIEW',
-                       'lint_article': str(CAND if it.get('article', 'candidate') == 'candidate' else ART),
+                       'lint_article': str(CAND if src == 'candidate' else ART if src == 'article' else src),
                        'note': 't71%s: %s as it would be installed; every paragraph has read Human alone or is Joel\'s.'
                                % (rnd, it['section'])}
         drafts[k] = text

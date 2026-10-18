@@ -167,3 +167,27 @@ register('close-session', CS_PARKED, close_session)
 # - Round t71nn: Journal With Each Hand in, at its parked spot after A Heart-to-Child Loop: P1 drafts/jw-s (a pointer
 #   to Lucia Capacchione's The Power of Your Other Hand, the rest grown out of its title; alone 0.0062), P2 drafts/jw2-g
 #   (a new opening on turn 65's writer's memory-aid lines; alone 0.085); the h2 0.018 high, 179 words.
+
+
+# 2026-10-18, round t71tt: One Intention in the Morning, One Review at Night, grown out of Franklin's daily scheme.
+OI_PARKED = "<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md; question 46): One Intention in the Morning, One Review at Night. It goes here. -->"
+
+
+def one_intention(p2='oi2-u'):
+    def c(s):
+        return '<!-- ' + s + ' -->'
+    return '\n\n'.join([
+        '## One Intention in the Morning, One Review at Night',
+        c("Turn 71 (the overnight run): the guide's one modest morning intention, to notice one hook (whichever shows up) before acting from it, with its example. It opens on a pointer of mine to Benjamin Franklin's daily scheme in his Autobiography (Project Gutenberg 20203, opened 2026-10-18): his morning and evening questions, and his thirteen virtues taken one at a time, a week each (not in the guide, so question 50 asks whether he wants it). No P1 without it ever read Human (oi-a to oi-p, turn 65's, and a fresh writer's three whole practices, round t71w). experiments/t71-guide/drafts/oi-dd.txt. Alone Human Written (0.0047), https://www.pangram.com/history/f87213f4-ebbd-4dc3-bd75-fbb30a43a58c (round t71qq); the h2 below."),
+        draft('oi-dd'),
+        c("Turn 71: the guide's night review without a trial (no black spots: Franklin marked one in his little book for every fault of the day, and scraped them out to make room for new ones until the paper was full of holes, his Autobiography), its first two questions (where you caught the hook, where it ran anyway), and recognition that comes afterward counting too, with a pointer back to the half-written text in Catch the Hook Before the Story Takes Over: a catch tonight, after the whole routine ran, counts too (turn 65's grounding fix, experiments/t65-guide/GROUNDING-sp6.md [7]). experiments/t71-guide/drafts/" + p2 + ".txt, which is drafts/oi2-p with " + {'oi2-u': '"Then at night?"', 'oi2-v': '"At night?"', 'oi2-p': 'its own opening'}[p2] + " for \"And at night?\" (Simple Practices would have had three paragraphs opening on \"And\", a linter FAIL, B13). oi2-p alone Human Written (0.10), https://www.pangram.com/history/fbb1d3c9-f6ae-4553-992b-06ff393709a4, and the h2 with it below (round t71tt); @@P2@@. Eighteen P2s before it read AI alone or in the h2 (rounds t71pp to t71tt)."),
+        draft(p2),
+        c("Turn 71: the guide's last two questions (the next small repair or protective act; the warmth, pleasure, courage or connection you actually received), a pattern interrupted, the intention renewed, and sleep, ending on the last line of Franklin's daily scheme, \"Sleep.\" The warm moment, the nerve and \"Same intention tomorrow\" are turn 65's sp6-p2-h2's (Human 0.17 alone, on the first Pangram account). experiments/t71-guide/drafts/oi3-d.txt. Alone Human Written (0.16), https://www.pangram.com/history/62b2d9e9-7fac-456d-9067-52878c695d33 (round t71qq); the h2 Human Written (0.069, high, 222 words), https://www.pangram.com/history/baca4f25-01a7-437e-8a05-77479b14ec5c (round t71tt); @@SP@@."),
+        draft('oi3-d'),
+    ])
+
+
+register('one-intention', OI_PARKED, one_intention)
+CS_LAST = "Going back to your life is part of the healing, too.\n\n# When Love Still Feels Missing"
+register('oi-unpark', OI_PARKED + '\n\n', '')
+register('oi-last', CS_LAST, lambda: CS_LAST.split('\n\n')[0] + '\n\n' + one_intention() + '\n\n# When Love Still Feels Missing')
