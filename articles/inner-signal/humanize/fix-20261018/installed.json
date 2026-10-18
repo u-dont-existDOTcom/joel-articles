@@ -51,5 +51,45 @@
   "paragraphs": "450g",
   "fixed": "rf-a/HG19.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG22": {
+  "stage": "triaged",
+  "whole": "449g HG22-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG22.verify.part*.out.txt, triaged in rf-a/HG22.triage.json",
+  "paragraphs": "450g",
+  "fixed": "rf-a/HG22.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG25": {
+  "stage": "triaged",
+  "whole": "449g HG25-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG25.verify.part*.out.txt, triaged in rf-a/HG25.triage.json",
+  "paragraphs": "450g",
+  "fixed": "rf-a/HG25.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG29+30": {
+  "stage": "triaged",
+  "whole": "449g HG29+30-rfix (445g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-b/HG29+30.verify.part*.out.txt, triaged in rf-b/HG29+30.triage.json",
+  "paragraphs": "450g",
+  "fixed": "rf-b/HG29+30.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG36": {
+  "stage": "triaged",
+  "whole": "449g HG36-rfix (445g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-b/HG36.verify.part*.out.txt, triaged in rf-b/HG36.triage.json",
+  "paragraphs": "450g",
+  "fixed": "rf-b/HG36.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG40": {
+  "stage": "triaged",
+  "whole": "449g HG40-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG40.verify.part*.out.txt, triaged in rf-a/HG40.triage.json",
+  "paragraphs": "450g",
+  "fixed": "rf-a/HG40.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

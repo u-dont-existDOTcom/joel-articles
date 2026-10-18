@@ -696,9 +696,9 @@ Afterward, ask what needed warmth, what needed protection, and what direction se
 
 # The weekly deeper practice
 
-Once or twice a week, give the same practice more time when that is useful. More time needn’t mean greater intensity. Start from Higher Self or neutral witnessing, follow what appears, borrow an adult function when needed, and ask whether anything important is being bypassed. Leave room for the full exit and any ordinary action needed afterward.
+It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing.
 
-Do the ordinary action immediately when possible. That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.
+If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise, the dishes won’t get done.
 
 # Capacity before content
 
@@ -836,33 +836,33 @@ Then do the thing.
 
 # What not to do
 
-Do not treat inner voices, images, autonomous movements, or body signals as commands or proof. Listen, then reality-test.
+DO NOT: View your inner experiences as anything but internal happenings that need to be reality tested at all times.
 
-Do not chase grand downloads or turn demons, jinn, and “Unattached Burdens” into a hobby. Stabilize first, and seek help when reality-testing or function weakens.
+DO NOT: Engage in seeking “downloads” of information or make a hobby of demons/jinn/Unattached Burdens or the like, until you have stabilized your life. Get help to do so, if you are not reality testing well, or not functioning well in your life.
 
-Do not use self-hypnosis while driving, bathing, swimming, operating equipment, supervising children, or doing anything that requires active attention.
+DO NOT: Participate in self-hypnosis while operating a car, bathing, swimming, operating any equipment, supervising children, or engaged in any activity which requires active attention.
 
-Do not force memory recovery, use trance to prove what happened, or suppress medical symptoms.
+DO NOT: Attempt to “force” memories, to use trance to “prove” something happened to you, or to not get medical attention for symptoms, because you can “force” them down using hypnosis.
 
-Do not override hunger, fatigue, pain, grief, anger, or fear before understanding the signal.
+DO NOT: “Force” yourself to ignore your body’s needs, such as eating when hungry, resting when tired, responding to pain, etc., or your emotions, such as letting yourself grieve when someone dies, feeling anger when it is appropriate, acknowledging your fears, etc., until you know more about what the signals are telling you.
 
-Do not prolong altered states indefinitely or treat intuition as fact without testing it.
+DO NOT: “Extend” the duration of altered states indefinitely or accept “hits” of intuition as “real” without reality testing them.
 
-Keep the inner roles in proportion: the child does not lead adult life; the Protector cannot exclude all love; the Nurturer cannot erase consequences; the Leader cannot bypass the child; analysis and tenderness both remain available.
+DO NOT: Allow various internal roles to get out of proportion (e.g., allow the “Inner Child” to run your adult life, the “Protector” to preclude all loving relationships, the “Nurturer” to disregard consequences to others, the “Leader” to ignore the needs of the “Child”). You are capable of analysis, as well as tenderness.
 
-Do not use NLP to override protectors, manufacture certainty, manipulate anyone, or perform healing when the body says no.
+DO NOT: Utilize NLP techniques to “force” down “protectors,” to give yourself certainty you do not have, to manipulate others, or to “heal” yourself when your body is telling you not to.
 
-Doubt, distraction, resistance, silence, and “no” do not prove that an induction is working.
+Don’t consider negative indicators (doubt, distraction, resistance, lack of response, saying “No”) as good signs that the induction is working.
 
-“The unconscious will keep me safe” does not replace clear limits, a safe setting, the ability to stop, and a tested exit.
+Don’t rely upon the “safety” of “your unconscious mind” as the only safety factor in any session. Be sure you have set up clear limits, are in a safe place, and have a way to terminate the session and “get out” which has been tested and proven to work.
 
-Ordinary sensations do not prove hidden trauma, illness, toxicity, possession, attachment, transformation, or subconscious truth.
+Don’t believe that normal physical sensations are indications of hidden trauma, illness, toxins in your body, possession, “attachments,” “transformations,” or information from your “subconscious mind.”
 
-Imagined repair does not establish physical recovery, neurological repair, cellular change, or a cure.
+Don’t believe that anything is “healed” in your body (neurologically, cellularly, etc.) simply because it is “healed” in your imagination.
 
-Do not install hidden instructions, undisclosed third-party activation, compulsory behavior, identity switching, or amnesia. A consciously chosen reusable cue should have a clear purpose, remain reviewable, and be retired if it becomes unwanted; saying “cancel” does not guarantee instant erasure.
+Don’t put “hidden ‘commands’” in yourself, nor allow anyone to do so. Even if you are consciously placing something in yourself which you wish to utilize later, be sure that you know exactly what you are doing and why you are doing it, and be sure that you can review it and CAN “take it out” if you decide that you no longer wish to use it. It may not be as easy as simply saying, “Take out.” Nor should you allow anyone to activate these “commands” in you without your knowledge, or use them to make you do something you don’t want to do, to make you into someone you don’t want to be, to give you amnesia, etc.
 
-End every waking session with ordinary identity, movement, orientation, judgment, and a direct statement that the session has ended.
+DO bring yourself completely back at the end of every “waking” session, declaring that the session is over.
 
 # When this needs more support than a guide can provide
 
@@ -908,81 +908,61 @@ When the guide or app leaves a real question unanswered, you can [contact me dir
 
 # Appendices
 
-The main path is enough for daily practice. Everything below is optional: extra precision, extra safety, and specialized scripts for particular situations.
+Note: You can skip this section and just use the main path and be fine. This is additional info to help you be more precise and safe, and some additional scripts for other situations.
 
 # Appendix A: How to ask the subconscious a useful question
 
-The subconscious isn’t an AI model, but prompt engineering offers one useful lesson: the shape of a question changes what kind of answer can appear. A prompt should make you more present, honest, loving, and able to hear the next signal—never more controlling.
+Your subconscious mind is NOT a large language model of AI. However, there is a bit of overlap in the way you can ask questions to both. So, if you know how to do prompt engineering for AI, this can be very useful to use it to help you be more present, honest, loving etc. On the other hand, you should NEVER use it to be more controlling.
 
-I use seven elements when I want a prompt to be precise:
+To get as much precision as possible, you need to include the following in your prompt:
 
-Role: who or what you are addressing.
+Role: Who or what are you talking to?
 
-Context: what situation you are bringing.
+Context: Give some context so it knows what you’re talking about.
 
-Intention: what kind of change is desired.
+Intention: What do you want to change or accomplish?
 
-Constraint: safety, truth, kindness, no forcing, no false certainty, and capacity before content.
+Constraint: What do you need to do to make sure your asking is safe, true, kind etc.
 
-Output: image, phrase, body signal, memory, next action, question, symbol, silence, or rest.
+Output: How do you want to receive the answer? As an image, phrase, sensation in your body, memory, action, question, symbol, silence, rest etc.
 
-Evaluation: true, kind, timely, stabilizing, specific, testable.
+Evaluation: How are you going to evaluate the answer? How will you know if it’s true, kind, timely, stabilizing, specific, testable etc?
 
-Iteration: revise after life gives feedback.
+Iteration: Iterate by changing your prompt depending on what you get from reality as feedback.
 
-Always include a safe fallback so the analytical mind doesn’t treat silence as failure and manufacture an answer.
+Most importantly, you always need to make your prompt “safe” otherwise, the analytical part of your mind will “make up” an answer just so it fits with your prompt. I usually add the following to my prompt:
 
-“And if the system needs more time to process this, or if silence is the safest answer today, let my body settle into deeper comfortable rest instead. A peaceful silence is a fully successful answer.”
+“If you need more time or the best and safest answer is silence, then I ask you to make my body go into a deeper state of comfortable rest. A peaceful silence would be a successful answer to my question.”
 
-Sometimes nothing answers because nothing is happening. Sometimes the answer is *not yet*, *rest first*, *build capacity*, or *do the ordinary thing you already know to do*.
+There is a very good chance there is no answer for your question because there is nothing happening. It might be that it’s not time yet, or that you need to go rest or do whatever you need to do.
+
+Once you do that, here are the core prompts you can use:
 
 ## Core prompts
 
-For clarity:
+For getting clarity: “I ask you, my wise subconscious mind, to show me what is true, kind and timely. If what you want to show me is too intense for me to integrate, please transfer it to my conscious mind in a way I can integrate it, for instance as a symbol, a signal in my body, a next step I can take. Most importantly, show me first my capacity to be peaceful, and then, the content of my wounding.”
 
-“Wise subconscious, please show me what is true, kind, and timely. If the full truth of this situation is too intense for my body to integrate today, pass it to my conscious mind only as a gentle symbol, a body signal, or a single next step. Show me my capacity to hold peace before you show me the content of the wound.”
+When you experience resistance: “What are you protecting me from? How can you trust me 1% more?”
 
-For resistance:
+When you want to ask your inner child something: “What do you want me to know? What do you need me to do today so that you are not alone in dealing with it?”
 
-“What are you protecting me from, and what would help you trust me 1% more?”
+When you want to ask your adult Protector something: “What do you need me to do in the external world so that you can feel that you and the system are safe?”
 
-For the inner child:
+When you want to ask your leader or guru self: “What direction is the most in alignment with truth, love, life and all beings?”
 
-“Little one, what do you need me to understand, and what can I do today so you are not alone with it?”
+When you want to listen to your intuition: “I ask my intuition to give me a signal, my analytical mind to decipher it, my body to give me feedback as to whether my deciphering is correct and reality to give me feedback as to whether my deciphering is correct.”
 
-For the Protector:
+When you want to know if a particular intuition you have is coming from your universal heart or from your programming (this one is longer and more complicated): “I ask my wise subconscious mind to help me see if the intuition or impulse I have about …is coming from my universal heart or from my family, my religion, marketing, erotic programming, my political tribe, my trauma response or an old deal I did as a child to belong. If it’s coming from my programming, I ask the parts responsible for it to step back and soften only as much as is safe, so that I can have true guidance from my universal heart that will help me make my life better in the most simple ways possible. Let my body give me feedback as to the difference.”
 
-“What real-world action would make this system safer?”
+When you are daydreaming: “If this daydream has useful guidance for me, I ask my wise subconscious mind to show it to me. If this is my way of not dealing with my life, I ask my wise subconscious mind to help me come back to the present and deal with my life.”
 
-For the Leader/Guru:
+When you are anxious: “What are you protecting me from? How can you trust more my adult self?”
 
-“What direction serves truth, love, life, and the benefit of all beings?”
+When you suspect there is something true that you don’t know: “If knowing the truth is too much for me, please don’t show me everything. Show me first my capacity to be peaceful, and then, the content of my wounding.”
 
-For intuition:
+Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?”
 
-“Let intuition offer a signal, let analysis examine its meaning, let the body give feedback, and let reality test the interpretation.”
-
-For separating intuition from conditioning:
-
-“Wise subconscious, please help me look at this impulse clearly. If part of this signal belongs to family programming, religious fear, marketing, erotic imprinting, political tribe, trauma response, or a childhood bargain for belonging, let that part become visible as conditioning. Let it soften or step back only as much as is safe. Leave behind whatever belongs to true guidance, the universal heart, and a better ordinary life. Let my body feel the difference.”
-
-For daydreaming:
-
-“If this daydream is useful, reveal the guidance inside it. If it is avoidance, bring me gently into the present and help me deal with what I need to deal with.”
-
-For anxiety:
-
-“What is anxiety trying to protect, and what would help it trust the adult self?”
-
-For hidden truth:
-
-“If the full truth would overwhelm me, please do not reveal it all. Show me the capacity before the content.”
-
-For integration:
-
-“What ordinary-life action would prove that I heard correctly?”
-
-The prompt defines the search. NLP language affects how gently the question enters. Used together, they can create a safer field for an answer without pretending the answer is automatically true.
+The prompt will tell your subconscious what you want. The NLP can help you get it in a safer way, but that doesn’t make the answer automatically true.
 
 # Appendix B: NLP without turning yourself into a sales seminar
 
@@ -1408,23 +1388,21 @@ For self-forgiveness, name what you did without taking responsibility for what w
 
 # Appendix G: Altered states
 
-This guide doesn’t tell anyone to use substances. It does acknowledge that many people first encounter self-hypnosis, inner-child contact, or Higher Self dialogue while altered.
+NB: I am NOT saying use substances. However, many people attempt to do things for the first time such as self hypnosis, contact with their inner child, contact with their Higher Self etc when they are in a mind altered state.
 
-Do not use altered states to force revelation. Use them to deepen listening, strengthen love, and improve ordinary life.
+If you do use them, be aware you don't want to force a revelation out of the state but instead use it to help you do things in your regular life.
 
-A past opening can be a resource without becoming a state you must reproduce. Having experienced love once, being able to access it only in a particular state, and contacting it reliably in daily life are different things. Let the experience widen what seems possible while you build usable access. If the child cannot receive it, meet the difficulty rather than escalating the intensity.
+If you have had an opening in the past, the key is to recognize that it is different to have an experience, access it in a particular state and access it in your day to day life. It is great that it has opened but if the child can't take it in, then meet the difficulty rather than escalating the intensity.
 
-During or after an altered state, these prompts are usually more useful than demanding a revelation:
+Use phrases such as; Help me to ground. Help me to only take that which I can take in. Help me to remember love. Help me to come back when the time is right. Help me to take one change into my regular life.
 
-“Help me stay grounded.” “Help me receive only what I can integrate.” “Help me remember love.” “Help me return when it is time.” “Help me translate this into one ordinary-life change.”
+You should NOT use self hypnosis to; Keep you in that state forever Get memories to come up Make yourself afraid to do things Not sleep Override things that your body needs Not talk to people
 
-Don’t use self-hypnosis to prolong an altered state indefinitely, recover memories, intensify fear, bypass sleep, override medical needs, or make yourself less able to communicate.
-
-If the state makes you less loving, less grounded, less honest, less able to sleep, less able to communicate, or less able to meet ordinary responsibilities, stop deepening and start integrating.
+If you are doing this in an altered state of consciousness and it is helping you not to love, not to ground, not to be honest, not to sleep, not to communicate, not to do regular life things, you need to STOP trying to go deeper and work on integrating what you have.
 
 ## Stabilize before you interpret
 
-Self-hypnosis can become very powerful during loveyhuasca, meditation, lucid dreaming, grief, sexual energy, prayer, sleep loss, or other plant-medicine-adjacent states. Sometimes the mind opens faster than the adult self can organize what is arriving.
+Self hypnosis is powerful. Especially when you are in an altered state of consciousness, either through loveyhuasca, meditation, lucid dreaming, grief, sexual energy, prayer, not sleeping, or any other number of ways similar to plant medicines, often your mind opens faster then your adult can figure out what is going on.
 
 Intensity then gets mistaken for meaning. Sometimes the inner child is finally speaking. Sometimes a Protector is showing fear, or shame, grief, anger, longing, and other buried material are asking for care. But an intense state can also be bodily overload, environmental chaos, sleep deprivation, or plain confusion. A frightening image isn’t automatically truth, a bad feeling isn’t automatically a lesson, and a “download” doesn’t deserve belief merely because it came with excellent lighting.
 
@@ -1556,30 +1534,32 @@ Observable pacing: Keep the eyes open, name the room and day, feel the feet, and
 
 # Appendix K: Sources and further reading
 
-The personal accounts and the way I arrange this practice are mine. The revised teaching brings them together with body-oriented and hypnotic approaches described below. That combination is an adaptation, not a treatment validated as a whole. These notes are for readers who want to follow an idea further; you don’t need them open while practicing.
+The personal accounts and the way I arrange this practice are my own, especially if it involves adaptations like the one I'm doing here where I am combining body orientated work and hypnotic work. This is not a validated form of treatment at this time. These instructions are not necessarily needed during the practice, they're here for your perusal.
 
 ## Learning, entering, and returning
 
-Maggie Phillips and Claire Frederick, *Healing the Divided Self* (1995), especially pp.24–27, 45–50, and 83–90, discusses interactive hypnosis, sensory learning, self-hypnosis, and a definite return. It is a professional clinical book, not a self-help manual; its case procedures and historical claims shouldn’t be imported wholesale into solo practice. Adam Eason and Benjamin Parris’s [ISH article on self-hypnosis](https://www.ishhypnosis.org/encyclopedia/self-hypnosis/) discusses self-directed learning and its relationship to another hypnotist and recordings.
+Learning to learn, how to get in and out
+
+Healing the Divided Self , Maggie Phillips and Claire Frederick, (1995) pp 24-27, 45-50, 83-90, covers a lot of aspects of this post, such as interactive hypnosis, helping the subject learn how to learn by using other senses, learning self hypnosis, making sure the subject comes back at the end, etc. However, this is a professional clinical book, not a self help book, so be careful about trying to use the procedures used with the cases, etc in this book for solo work (the same applies to historical information it contains). Also, Adam Eason's work with Benjamin Parris in the International Society of Hypnosis, specifically [his article about self hypnosis](https://www.ishhypnosis.org/encyclopedia/self-hypnosis/) , should be a useful thing to read (especially the parts that talk about how to learn to learn when you're directing it yourself, and about whether you need another person to help you, and using recordings to help you, etc.)
 
 ## Indirect language and re-entry cues
 
-Phillips and Frederick, pp.53–57 and 96–100, explain pacing, utilization, metaphor, and associational cues. Nimja’s [hypnotic-language tutorial](https://learn.nimja.com/techniques/hypnotic_language) and [trigger tutorial](https://learn.nimja.com/techniques/triggers) describe language and cueing techniques. They are technique sources, not evidence that every NLP claim is established or every example suits trauma work. The original wording and deliberately chosen re-entry sequence here are adaptations; Nimja did not write or endorse this guide.
+For information about using indirect hypnotic language patterns, such as pacing, utilizing, metaphor, and associational cues, etc, see Healing the Divided Self , Phillips and Frederick, 1995, pp 53 - 57, 96 - 100, as well as [nimja's tutorial on hypnotic language patterns](https://learn.nimja.com/techniques/hypnotic_language) , and [his tutorial on triggers](https://learn.nimja.com/techniques/triggers) . The information on these techniques comes from these sources, not because they are necessarily validating the validity of some aspects of NLP, or because every example suits trauma work (nimja did not write or endorse this guide), but because I was adapting the language used for my own purposes, and I deliberately used a sequence that would be easy to use for re-entry.
 
 ## Body awareness and changing the amount of contact
 
-Peter Levine, *In an Unspoken Voice* (2010), chapters 5 and 7; Levine and Maggie Phillips, *Freedom from Pain* (2012), chapters 3–4; and Levine, *Healing Trauma*, chapter 4, inform bodily tracking, resources, titration, pendulation, and attention across sensation, imagery, behavior, emotion, and meaning. The invitation to try a movement or image is not a claim that a particular physiological repair has occurred.
+NOTE: Some of the information in this post comes from In an Unspoken Voice , Peter Levine, 2010, especially ch 5 and 7, as well as ch 3 and 4 of Freedom from Pain , Levine and Maggie Phillips 2012, and ch 4 of Healing Trauma , by Levine. These sources talk about the key concepts of tracking what is happening in the body, resources, titration, pendulation, and the range of foci available when working, from sensation and imagery to behavior, emotions, and meaning, etc. This is not done from a position of "here is what you need to do to physiologically fix it", but here are some things you can try, etc.
 
 ## Inner-child care and adult capacities
 
-The companion [Inner Child Self-Love Reparenting Guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) gives the fuller treatment of borrowed adulthood, love without compulsory trust, practical and relational repair, spiritual struggle, differentiation, and mutual peer support. The corresponding practices here follow that account while retaining the self-hypnosis entry, responsive language, and complete return.
+For information about all of these things, see [Inner Child Self-Love Reparenting Guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) . The practices in this post are designed to match with those in the guide, but include some elements of learning to get into self hypnosis, as well as other helpful language, and making sure you come back at the end, etc.
 
-*Healing the Divided Self*, pp.148–153 and 171–174, discusses renurturing, somatic work, and developing nurturing capacities. Levine and Maggie Kline’s *Trauma Through a Child’s Eyes*, especially chapters 4–5 and 10, discusses attunement and individual responses in actual children and caregiving. Applying those ideas to an adult’s younger feeling-states is an adaptation. [My three-adult arrangement and borrowed-adulthood sequence](http://innerchild.u-dont-exist.com/) are not presented as those authors’ tested protocol.
+Some of the information in this post is taken from Healing the Divided Self , Phillips and Frederick, 1995, pp 148-153, 171-174, about renurturing work, and how it can be combined with somatic work, and how to develop capacities for nurturing, etc. For information about attunement, and how every child is different and needs to be responded to differently, see Trauma Through a Child's Eyes , Levine and Maggie Kline, especially ch 4, 5, 10, etc, as it talks about actual kids (and this guide is applying this to how to respond to younger feeling states within an adult). The sequence for doing this with borrowed adulthood and [the arrangement of 3 functions of adulthood](http://innerchild.u-dont-exist.com/), etc, is not from these authors, however.
 
 ## Inner speech and putting experience into words
 
-Nedergaard and Lupyan’s [Not Everybody Has an Inner Voice](https://journals.sagepub.com/doi/10.1177/09567976241243004) (2024) studied people reporting different amounts of inner speech, not self-hypnosis adaptations. The questions in Quick start are a practical self-check, not a validated screening instrument or a test of hypnotic ability.
+[Not everybody has an inner voice](https://journals.sagepub.com/doi/10.1177/09567976241243004) , Nedergaard and Lupyan 2024, is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are not a validated way of seeing if you can do self hypnosis, but are simply there as a practical way of seeing for yourself how you are.
 
 ## Memory, support, and choosing a practitioner
 
-Levine’s *Trauma and Memory* (2015), chapter 7, is useful on the difference between compelling experience and historical verification. The [VA’s hypnosis overview](https://www.va.gov/WHOLEHEALTHLIBRARY/tools/hypnosis.asp) includes cautions about strong reactions and false memories. ASCH’s [explanation of certification](https://asch.net/what-is-certification/) distinguishes professional preparation from a guarantee of someone’s competence. The existing links in the evidence and specialist sections point to their particular claims rather than validating every use of hypnosis.
+Chapter 7 of Trauma and Memory , by Peter Levine, 2015, contains useful information on this. [This US Veterans Administration website](https://www.va.gov/WHOLEHEALTHLIBRARY/tools/hypnosis.asp) , contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefuly used, and that it may result in false memories. [This ASCH website](https://asch.net/what-is-certification/) , contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims, not every use of hypnosis.

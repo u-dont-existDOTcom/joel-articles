@@ -1,4 +1,4 @@
-"""Batch 451g (2026-10-18): the triaged sections with a resampled stretch, screened whole (HG35: its triaged fixes with
+"""Batch 451g (2026-10-18): third refix samples for HG17 and HG31 (emu-x); the triaged sections with a resampled stretch, screened whole (HG35: its triaged fixes with
 B17 from emu-w; HG06: P3 and P4 from emu-u, P6 from emu-w, P5 the quotation as published), with the paragraph checks of
 their new stretches, and every refix section that is ready (make_b446.collect()). Predictions: a triaged section with one
 new short stretch 0.75; a paragraph check by its length. Run from humanize/: python3 fix-20261018/make_b451.py [--batch N] [--write]"""
@@ -52,6 +52,24 @@ for key, folders, review, name in (('HG35', ['emu-r', 'emu-w'], HERE / 'rf-a' / 
         gate[pn] = dict(base, paragraph=i + 1, check=kind, section='%s (this batch)' % name)
         w = len(x.split())
         preds[pn] = ('Human', 0.70 if w < 80 else (0.77 if w < 120 else 0.79), 'paragraph %d of %s (%s), %d words' % (i + 1, key, kind, w))
+# HG17, HG31: a third refix sample of the windows 449g left (emu-x over emu-t and emu-v)
+g444 = json.loads((HERE / 'b444' / 'GATE.json').read_text(encoding='utf-8'))
+for key in ('HG17', 'HG31'):
+    rec = g444[key + '-fix']
+    fixed = HERE / rec['reviews']
+    text, files = R.assembled_fixed(fixed, [HERE / 'emu-t', HERE / 'emu-v', HERE / 'emu-x'])
+    name = key + '-refix3'
+    drafts[name] = text
+    gate[name] = {'kind': 'emulate', 'emulate': (rec.get('emulate') or []) + [rel(f) for f in files], 'published': rec.get('published'),
+                  'fixed': [rel(fixed)], 'lint': 'REVIEW', 'runs': sorted(pathlib.Path(f).parent.name + '/' + pathlib.Path(f).name for f in files)}
+    preds[name] = ('Human', 0.5, 'a third refix sample of its 449g AI window(s); third samples so far: HG18 read AI (448g)')
+# HG26: 449g's one AI window (the guidelines paragraph, B8) from a new sample (emu-y) over its triaged text, split by paragraph
+g434b = json.loads((HERE / 'b434' / 'GATE.json').read_text(encoding='utf-8'))['HG26-fix']
+text, files = R.assembled_fixed(HERE / 'rf-h' / 'HG26.split.json', [HERE / 'emu-y'])
+drafts['HG26-refix2'] = text
+gate['HG26-refix2'] = {'kind': 'emulate', 'emulate': (g434b.get('emulate') or []) + [rel(f) for f in files], 'published': g434b.get('published'),
+                       'fixed': [rel(HERE / 'rf-h' / 'HG26.split.json')], 'lint': 'REVIEW', 'runs': ['emu-y/HG26-fxw1']}
+preds['HG26-refix2'] = ('Human', 0.7, 'its triaged text (Human but for one 92-word window in 449g) with that paragraph from a new sample')
 d2, g2, p2, held = B.collect()
 drafts.update(d2); gate.update(g2); preds.update(p2)
 print(len(drafts), 'texts:', ' '.join(drafts))
