@@ -1380,9 +1380,9 @@
   },
   {
    "id": "s2-joel-20261017-2137-47-5",
-   "status": "pending",
+   "status": "superseded",
    "words": "his",
-   "what": "Section 2: his fixed P2 (\"Genevia\" spelled \"Geneva\"), in place of the installed P2 with \"starvin'\". Not in yet: with it, Pangram reads the section's first paragraph AI (422g, S2v34a, 0.31); question 52, and question 53 on the aside's attribution.",
+   "what": "Section 2: his fixed P2 (\"Genevia\" spelled \"Geneva\"), in place of the installed P2 with \"starvin'\". Not in yet: with it, Pangram reads the section's first paragraph AI (422g, S2v34a, 0.31); question 52, and question 53 on the aside's attribution. Superseded at 23:10 UTC by his own opening (52 a, s2-joel-20261017-2310-52a), which waits on question 56.",
    "joel": "point 5: starvin' is fine altho sounds like it was cheating if that's what saved it ... anyway here's my fixed version, reads human to apngram",
    "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
    "must_contain": [
@@ -1394,12 +1394,13 @@
    "id": "s2-joel-20261017-2137-46a",
    "status": "pending",
    "words": "proposed",
-   "what": "Section 2: the anomie paragraph after his P2, with his screenshot and caption moved there from section 12, once section 2 reads 100% Human with it. Not yet: 421g (S2v34) and 422g (S2v34b) read AI windows (question 52).",
+   "what": "Section 2: the anomie paragraph after his P2, with his screenshot and caption moved there from section 12, once section 2 reads 100% Human with it. Not yet: 421g (S2v34) and 422g (S2v34b) read AI windows (question 52). At 23:10 UTC it waits on his opening (52 a), which waits on question 56.",
    "joel": "46a",
    "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
    "must_contain": [
     "What's starving them is anomie."
-   ]
+   ],
+   "waits_for": "question 56"
   },
   {
    "id": "s8-joel-20261017-2137-49",
@@ -1469,10 +1470,40 @@
    "id": "all-joel-20261017-2137-45a",
    "status": "pending",
    "words": "his",
-   "what": "Accept the humanized article: master.md (fix-20261017d/make_master.py) becomes the registered master (fix-20261017d/promote.py, PROMOTION-RECEIPT-20261017.md) once 46 to 51 are settled; waits on section 2 (question 52).",
+   "what": "Accept the humanized article: master.md (fix-20261017d/make_master.py) becomes the registered master (fix-20261017d/promote.py, PROMOTION-RECEIPT-20261017.md) once 46 to 51 are settled; waits on section 2 (question 52). At 23:10 UTC it waits on section 2 (52 a and 46 a), which waits on question 56.",
    "joel": "45a",
    "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
-   "must_contain": []
+   "must_contain": [],
+   "waits_for": "question 56"
+  },
+  {
+   "id": "s2-joel-20261017-2310-52a",
+   "status": "pending",
+   "words": "his",
+   "what": "Section 2: his opening as he wrote it (P1 and P2, with his 53 aside), the published link on \"the U.S. Surgeon General\" kept. Not in yet: his P1 with his P2 reads Human (425g, 0.05) and his P2 alone (0.13), but every version of the section reads one AI window, the heading and his first paragraph (50 words): 425g S2v35 0.22, S2v35b 0.30, S2v35c 0.27; 426g, his two paragraphs joined, 0.23 and 0.27. Question 56 asks for his rewording of the first sentence; question 55 is on the aside's fact.",
+   "waits_for": "question 56",
+   "joel": "52 this is human: ... 53 fixed (fact checked with gemini)",
+   "when": "2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt)",
+   "must_contain": [
+    "Suddenly the longing to escape loneliness which inspired my father’s movie is everywhere again",
+    "even put out an advisory, saying roughly half of American adults experience loneliness",
+    "(it's literally listed in the UN Convention Against Torture). Folks may disagree about politics"
+   ],
+   "must_not_contain": [
+    "Or about the loneliness under it, at least.",
+    "is starvin’ them"
+   ]
+  },
+  {
+   "id": "s8-joel-20261017-2310-54",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 8: his sentence after the truthfulness line. Pangram 427g: the paragraph Human, the section 100% Human.",
+   "joel": "54 actually i would change it to: \"Make sure kids understand ... And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed.\"",
+   "when": "2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt)",
+   "must_contain": [
+    "if they are known to be honest. And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed."
+   ]
   }
  ]
 }

@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1887,
-  "right": 1384,
+  "calls": 1898,
+  "right": 1391,
   "since_review": {
-   "calls": 1485,
-   "right": 1129,
-   "passed": 909
+   "calls": 1496,
+   "right": 1136,
+   "passed": 915
   },
   "today": {
-   "calls": 935,
-   "right": 728,
-   "passed": 594
+   "calls": 946,
+   "right": 735,
+   "passed": 600
   }
  },
  "windows": [
@@ -257,10 +257,10 @@
   {
    "from": 420,
    "to": 429,
-   "calls": 63,
-   "right": 56,
-   "passed": 55,
-   "always_ai_right": 8
+   "calls": 74,
+   "right": 63,
+   "passed": 61,
+   "always_ai_right": 13
   }
  ],
  "misses": [
@@ -5244,6 +5244,62 @@
    "pct": 100.0,
    "res_raw": "AI (AI Generated, high, 162 words, AI likelihood 0.95), 22:43:02, [check](https://www.pangram.com/history/b97fc05b-4fbb-478f-9833-ddb29d016b8f)",
    "where": "fix-20261017d/b424/PREDICTIONS-scored.md:5",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017d",
+   "batch": 425,
+   "name": "425g-S2v35",
+   "mine": "Human",
+   "why": "his opening as he pasted it; the rest is installed text that read 100% Human",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: AI-Generated, Low, 50; Human, High, 579, 629 words, AI likelihood 0.22), 23:38:45, [check](https://www.pangram.com/history/a3776437-105c-4b41-bdb1-a15c33ce7684)",
+   "where": "fix-20261017d/b425/PREDICTIONS-scored.md:8",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017d",
+   "batch": 425,
+   "name": "425g-S2v35b",
+   "mine": "Human",
+   "why": "the anomie paragraph after his P2; with the old first paragraph the first window read AI, his reads plainer",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: AI-Generated, Medium, 50; Human, High, 632, 682 words, AI likelihood 0.30), 23:38:57, [check](https://www.pangram.com/history/9ecaf623-4306-4141-b87a-5ffd4d586323)",
+   "where": "fix-20261017d/b425/PREDICTIONS-scored.md:9",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017d",
+   "batch": 426,
+   "name": "426g-S2v35m",
+   "mine": "Human",
+   "why": "the first window can't stop after a 43-word paragraph now",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: AI-Generated, Low, 50; Human, High, 579, 629 words, AI likelihood 0.23), 23:41:44, [check](https://www.pangram.com/history/c6bed8cb-7abc-406c-8b4d-642c257e4965)",
+   "where": "fix-20261017d/b426/PREDICTIONS-scored.md:6",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261017d",
+   "batch": 426,
+   "name": "426g-S2v35cm",
+   "mine": "Human",
+   "why": "the same with the anomie paragraph and the screenshot",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: AI-Generated, Medium, 50; Human, High, 641, 691 words, AI likelihood 0.27), 23:41:54, [check](https://www.pangram.com/history/390b008b-16a9-4480-bf50-e5758f011a62)",
+   "where": "fix-20261017d/b426/PREDICTIONS-scored.md:7",
    "passed": false,
    "right": false,
    "text": ""

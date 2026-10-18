@@ -35,20 +35,19 @@ assert page.count(OLD_HEAD) == 1
 page = page.replace(OLD_HEAD, NEW_HEAD)
 a, b = page.index('## Open questions'), page.index('## For you to do')
 OPEN = ('## Open questions\n\n'
-        '> [!IMPORTANT]\n'
+        '> [!IMPORTANT]\n' +
         ('> One question. It quotes its passage.\n\n' if S2 else '> Two questions, both on section 2\'s opening. Each quotes its passage.\n\n') +
-        
         '**🟣 55. Section 2, your aside: the Convention Against Torture doesn\'t list it.** "(it\'s literally listed in the UN '
-        'Convention Against Torture)": the Convention\'s text (1984) defines torture in general terms and lists no practices; '
-        'solitary confinement isn\'t in it. What does name it: the UN\'s special rapporteur on torture said in 2011 that solitary '
-        'confinement beyond 15 days is torture or cruel, inhuman or degrading treatment, and the UN\'s rules for prisoners (the '
-        'Mandela Rules) ban it past 15 days ([a summary of the international law, with both](https://www.prisonlegalnews.org/news/'
+        'Convention Against Torture)": the Convention\'s text (1984) defines torture in general terms and lists no practices, '
+        'so solitary confinement isn\'t in it. What does name it: in 2011 the UN\'s special rapporteur on torture said solitary '
+        'confinement beyond 15 days can amount to torture or cruel, inhuman or degrading treatment, and the UN\'s rules for '
+        'prisoners (the Mandela Rules, 2015) ban it past 15 days ([a summary of the international law, with both](https://www.prisonlegalnews.org/news/'
         'publications/international-human-rights-law-solitary-confinement-hrf-2015); [the rules themselves](https://www.'
-        'solitaryconfinement.org/un-nelson-mandela-rules)). A check of the Convention is easy to get wrong this way: the UN '
-        'committee that oversees it has criticized solitary confinement, but the treaty itself never names it.\n'
-        '- a) "(the UN\'s torture expert literally calls more than 15 days of it torture)". **My pick**: close to your "literally", '
-        'and true.\n'
-        '- b) "(it\'s literally banned as torture in the UN\'s rules for prisoners)".\n'
+        'solitaryconfinement.org/un-nelson-mandela-rules)). It\'s an easy one to get wrong: the UN committee that oversees the '
+        'Convention has criticized solitary confinement, but the treaty itself never names it.\n'
+        '- a) "(the UN\'s own torture expert literally says more than 15 days of it can be torture)". **My pick**: it keeps your '
+        '"literally", and it\'s what he said.\n'
+        '- b) "(the UN\'s rules for prisoners literally ban more than 15 days of it)".\n'
         '- c) Keep yours.\n'
         '- d) Your words.\n\n'
         'I check whichever you pick alone and in the section. If you don\'t answer, c: it stays as you wrote it.\n\n')
@@ -84,16 +83,17 @@ if S2:
                    'screenshot too (%s). Section 2 is as you pasted it, and the screenshot stays in section 12.'
                    % (L('S2v35b'), L('S2v35c')))
 else:
-    r52.append('not in yet: with your opening, the section reads one AI window, the heading and your first sentence, so '
-               'question 56. Your 46 a waits with it; section 2 is as it was, and the screenshot is still in section 12.')
+    r52.append('not in yet: with your opening, the section reads one AI window, the heading and your first sentence (%s), so '
+               'question 56. Your 46 a waits with it; section 2 is as it was, and the screenshot is still in section 12.' % L('S2v35'))
 r54 = ('in: "Make sure kids understand what they say will be taken seriously if they are known to be honest. And those who are known '
        'to lie a lot are especially targeted by abusers who know their accusations won\'t be believed." The paragraph reads Human '
        '(%s), section 8 100%% Human (%s).' % (L('S8v32-truth'), L('S8v32'))) if IN['S8v32'] else (
        'not in yet: with it, section 8 read AI (%s).' % L('S8v32'))
 DEC = ('- 🟢 2026-10-17 23:10 UTC, 52 to 54 and the scorecard:\n'
        '  - 52 a, your words for section 2\'s opening ("this is human"): ' + ' '.join(r52) + '\n'
-       '  - 53 "fixed (fact checked with gemini)": your aside is in as you wrote it, "(it\'s literally listed in the UN Convention '
-       'Against Torture)". The Convention\'s text doesn\'t name solitary confinement, though: question 55.\n'
+       '  - 53 "fixed (fact checked with gemini)": your aside ' + ('is in as you wrote it' if S2 else 'goes in with your opening, as you wrote it') + ', '
+       '"(it\'s literally listed in the UN Convention Against Torture)". The Convention\'s text doesn\'t name solitary confinement, '
+       'though: question 55.\n'
        '  - 54: ' + r54 + '\n'
        '  - "your scorecard is always empty": it was, and it was my fault twice over. The page counts one row per check, and the '
        'file I kept giving it was a summary, so it had nothing to count. And each time I updated it I uploaded a new file without '
@@ -102,7 +102,7 @@ DEC = ('- 🟢 2026-10-17 23:10 UTC, 52 to 54 and the scorecard:\n'
        'through tonight), and the update steps are written down where the next session will follow them. What it\'s for: your '
        '"i want to see you improving on that" (12 October). It shows how often my guess of each Pangram result was right, against '
        'always guessing AI, batch by batch, and lists every miss since the review of 10 October with its text, so you can see '
-       'whether I\'m getting better at telling what reads AI.\n' % '{:,}'.format(ROWS))
+       'whether I\'m getting better at guessing what Pangram will say.\n' % '{:,}'.format(ROWS))
 d = page.index('> Answered, with what I did.')
 d = page.index('\n', d) + 1
 page = page[:d] + '\n' + DEC + page[d:].lstrip('\n')
@@ -115,5 +115,8 @@ UP_NEW = ('' if S2 else '- 🔵 Section 2, once question 56 is settled: your ope
           '(46 a), each checked alone and in the section.\n') + ('' if PROMOTED else '- 🔵 Then your 45 a: the humanized article '
           'becomes the registered master, with a record of the change.\n')
 page = page.replace(UP_OLD, UP_NEW)
+MO = 'It has the evening\'s and tonight\'s changes, from your 17:16, 19:14 and 21:37 messages;'
+assert page.count(MO) == 1
+page = page.replace(MO, 'It has the evening\'s and tonight\'s changes, from your 17:16, 19:14, 21:37 and 23:10 messages;')
 (C / 'OWNER-QUESTIONS.md').write_text(page, encoding='utf-8')
 print('wrote OWNER-QUESTIONS.md; section 2:', S2, '; section 8 in:', IN['S8v32'], '; promoted:', PROMOTED)

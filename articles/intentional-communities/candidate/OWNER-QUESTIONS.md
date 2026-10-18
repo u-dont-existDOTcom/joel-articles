@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-17 at night, after your message of 21:37 (your answers to 45 to 51): they're done (Decided, below), except your section 2 paragraph and the anomie paragraph, which wait on section 2's first paragraph (question 52), and the master, which waits on those. **Open questions: 3** (52 to 54). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "52 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
+Last updated 2026-10-17 at night, after your message of 23:10 (52 to 54, and the scorecard): done (Decided, below). **Open questions: 2** (55 and 56). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "55 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,45 +9,43 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Three questions. Each quotes its passage; the section 8 page sent with this message shows question 54's in place.
+> Two questions, both on section 2's opening. Each quotes its passage.
 
-**🟣 52. Section 2: your paragraph and the anomie paragraph wait on the first paragraph.** Your fixed paragraph reads Human alone ([check](https://www.pangram.com/history/c3c2c622-fc4e-487a-a320-2540b0743294)) and with the paragraph after it ([check](https://www.pangram.com/history/867a3806-6251-43fc-81dc-d9a29c731816)), and the anomie paragraph reads Human alone ([check](https://www.pangram.com/history/bd80c491-d570-4596-9e70-03cb490bb21f)) and with the one after it ([check](https://www.pangram.com/history/b5e058e1-6c1a-4840-b7fb-a17c586721be)). But with your paragraph in, Pangram splits off the section's first paragraph, which didn't change, and reads it AI (section 2 Mostly Human, 0.31, [check](https://www.pangram.com/history/5f80fe13-8e0d-45d2-a5d8-4e09402245d8)):
+**🟣 55. Section 2, your aside: the Convention Against Torture doesn't list it.** "(it's literally listed in the UN Convention Against Torture)": the Convention's text (1984) defines torture in general terms and lists no practices, so solitary confinement isn't in it. What does name it: in 2011 the UN's special rapporteur on torture said solitary confinement beyond 15 days can amount to torture or cruel, inhuman or degrading treatment, and the UN's rules for prisoners (the Mandela Rules, 2015) ban it past 15 days ([a summary of the international law, with both](https://www.prisonlegalnews.org/news/publications/international-human-rights-law-solitary-confinement-hrf-2015); [the rules themselves](https://www.solitaryconfinement.org/un-nelson-mandela-rules)). It's an easy one to get wrong: the UN committee that oversees the Convention has criticized solitary confinement, but the treaty itself never names it.
+- a) "(the UN's own torture expert literally says more than 15 days of it can be torture)". **My pick**: it keeps your "literally", and it's what he said.
+- b) "(the UN's rules for prisoners literally ban more than 15 days of it)".
+- c) Keep yours.
+- d) Your words.
 
-> Suddenly the longing behind my father’s movie is everywhere again, and in 2023 the U.S. Surgeon General even put out an advisory about it. Or about the loneliness under it, at least. The advisory said roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
+I check whichever you pick alone and in the section. If you don't answer, c: it stays as you wrote it.
 
-With the anomie paragraph after yours as well, the AI window runs from the heading into the paragraph after the Google Trends one (0.36, [check](https://www.pangram.com/history/46fec088-8a62-43ab-855b-dee757116ba0)), and with your screenshot and caption too there are three AI windows (0.36, [check](https://www.pangram.com/history/78ecd226-f98a-4385-a6d0-e7477dd10429)). So your 46 a ("once section 2 reads 100% Human with it") and your new paragraph aren't in yet: section 2 is as it was, "starvin'" and all, and the screenshot is still in section 12. That first paragraph is my rewrite of your published "The longing that shaped my father's film is suddenly everywhere again. ..."
-- a) Your words for it; I check it alone and in the section, with your paragraph, then with the anomie paragraph and the screenshot. **My pick**: your rewrites have read Human every time today.
-- b) I rework it myself, through the checks, and bring it back.
-- c) Leave section 2 as it is for now (the master then goes ahead without your new paragraph).
+**🟣 56. Section 2: your first sentence, read on its own.** Your opening reads Human as you checked it, and in the section too except for one window: Pangram cuts off the heading and your first sentence (50 words) and reads that AI, low confidence as you pasted it ([check](https://www.pangram.com/history/a3776437-105c-4b41-bdb1-a15c33ce7684)) and medium with the anomie paragraph after it ([check](https://www.pangram.com/history/4bd07d80-93e0-4afe-8993-0556c4713cf8)). Your two paragraphs read Human together ([check](https://www.pangram.com/history/ade987a4-db6f-4845-bcd9-9cdc45337e44)) and your second alone ([check](https://www.pangram.com/history/ec27cebb-5d53-4385-91ed-7453613716da)), and joining them into one paragraph didn't change it ([check](https://www.pangram.com/history/c6bed8cb-7abc-406c-8b4d-642c257e4965)). The sentence:
+
+> Suddenly the longing to escape loneliness which inspired my father’s movie is everywhere again, and in 2023 the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
+
+- a) Your rewording of that sentence; I check it alone, with your second paragraph, and in the section with the anomie paragraph and your screenshot. **My pick**: your rewrites have read Human every time today.
+- b) I try rewordings of it myself, keeping your words where I can, and bring back the ones that pass.
+- c) Keep section 2's old opening for now; the master then goes ahead without your opening and the anomie paragraph.
 
 If you don't answer, b.
-
-**🟣 53. Section 2, your aside: the rule isn't the Geneva Convention.** "(it's literally classified as torture by the UN's Geneva Convention)": the Geneva Conventions are the laws of war. The UN rules you mean are the Nelson Mandela Rules, its rules for prisoners: rule 43 bans prolonged solitary confinement, which rule 44 defines as 22 hours a day or more without meaningful human contact for more than 15 days in a row, among punishments that may never "amount to torture" or other cruel treatment ([rules 43 and 44](https://www.solitaryconfinement.org/un-nelson-mandela-rules)). The aside goes in with your paragraph (question 52).
-- a) "(it's literally classified as torture in the UN's rules for prisoners)", with that link on "the UN's rules for prisoners". **My pick**: your words, with only the name changed.
-- b) "(the UN's Mandela Rules literally ban it, along with torture)".
-- c) Your words.
-
-If you don't answer, a.
-
-**🟣 54. Section 8, your 49: a report from a kid who lies a lot.** You kept "Make sure kids understand what they say will be taken seriously if they are known to be honest." on purpose ("dishonesty is a reason to dismiss the report"). This one is my own concern, not the reader's: when a kid reports that someone is hurting them, child-protection practice is to look into it every time, even when the kid lies a lot, because people who abuse kids often pick the ones who won't be believed. "Dismiss" can read as "don't check".
-- a) Keep it as you wrote it.
-- b) A sentence after it, in your words, something like "That doesn't mean ignoring a kid who says someone's hurting them. You still check." **My pick.**
-- c) Your words, some other way.
-
-If you don't answer, a.
 
 ## For you to do
 
 > [!WARNING]
 > One thing, when you're back.
 
-- 🟠 Merge when you've looked at the pages: `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/189)). It has the evening's and tonight's changes, from your 17:16, 19:14 and 21:37 messages; the overnight run and the afternoon's are in already (you merged them at 15:49 UTC).
+- 🟠 Merge when you've looked at the pages: `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/189)). It has the evening's and tonight's changes, from your 17:16, 19:14, 21:37 and 23:10 messages; the overnight run and the afternoon's are in already (you merged them at 15:49 UTC).
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-17 23:10 UTC, 52 to 54 and the scorecard:
+  - 52 a, your words for section 2's opening ("this is human"): not in yet: with your opening, the section reads one AI window, the heading and your first sentence ([check](https://www.pangram.com/history/a3776437-105c-4b41-bdb1-a15c33ce7684)), so question 56. Your 46 a waits with it; section 2 is as it was, and the screenshot is still in section 12.
+  - 53 "fixed (fact checked with gemini)": your aside goes in with your opening, as you wrote it, "(it's literally listed in the UN Convention Against Torture)". The Convention's text doesn't name solitary confinement, though: question 55.
+  - 54: in: "Make sure kids understand what they say will be taken seriously if they are known to be honest. And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed." The paragraph reads Human ([check](https://www.pangram.com/history/dc04105c-76df-4d1f-9496-59a244da350b)), section 8 100% Human ([check](https://www.pangram.com/history/19b26735-b425-4d10-a17d-263155608184)).
+  - "your scorecard is always empty": it was, and it was my fault twice over. The page counts one row per check, and the file I kept giving it was a summary, so it had nothing to count. And each time I updated it I uploaded a new file without pointing the page at it, then deleted the old one, so the page was reading a file that no longer existed. Its own error log said so ("Couldn't load the file (404)"), and I never read it. Fixed: the page now reads one row per check (1,898 of them, through tonight), and the update steps are written down where the next session will follow them. What it's for: your "i want to see you improving on that" (12 October). It shows how often my guess of each Pangram result was right, against always guessing AI, batch by batch, and lists every miss since the review of 10 October with its text, so you can see whether I'm getting better at guessing what Pangram will say.
 - 🟢 2026-10-17 21:37 UTC, your answers to 45 to 51:
   - 45 a, "Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled": the master file and the record of the change are ready, and they go in once section 2 is settled (question 52). Until then your published text stays the master.
   - 46 a: not in yet. Section 2 doesn't read 100% Human with the anomie paragraph (question 52).
@@ -211,6 +209,6 @@ If you don't answer, a.
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 Section 2, once question 52 is settled: your paragraph (with question 53's aside), then the anomie paragraph and your screenshot (46 a), each checked alone and in the section.
+- 🔵 Section 2, once question 56 is settled: your opening, then the anomie paragraph and your screenshot (46 a), each checked alone and in the section.
 - 🔵 Then your 45 a: the humanized article becomes the registered master, with a record of the change.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.

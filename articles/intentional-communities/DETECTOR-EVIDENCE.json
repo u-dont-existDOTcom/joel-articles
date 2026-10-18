@@ -235,6 +235,13 @@
    "passage": "section 15 v17 without \"So which is it? Well, in a way, it's both.\", candidate/s15/v18.md",
    "service": "Pangram web app (dashboard)",
    "record": "Not installed: the cut paragraph read AI with the paragraph before it (162 words, AI likelihood 0.95, 22:43:02 UTC, https://www.pangram.com/history/b97fc05b-4fbb-478f-9833-ddb29d016b8f), Human with the one after (https://www.pangram.com/history/630d3fc9-c106-4dd2-b54e-55be3799a7b6); the whole section 100% Human (1427 words, 0.13, https://www.pangram.com/history/39d52dfb-49c5-4fad-aa3f-a8efb3284633). A paragraph that passes only beside a strong neighbor is borderline (Joel, 2026-10-16), so v17 stays."
+  },
+  {
+   "section": 8,
+   "version": "v32 (2026-10-17 night)",
+   "passage": "section 8 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+   "service": "Pangram web app (dashboard)",
+   "record": "CANDIDATE: section 8 with Joel's 54 sentence; the paragraph Human, the whole section 100% Human (1872 words, AI likelihood 0.04, 23:58:33 UTC, https://www.pangram.com/history/19b26735-b425-4d10-a17d-263155608184)."
   }
  ]
 }
