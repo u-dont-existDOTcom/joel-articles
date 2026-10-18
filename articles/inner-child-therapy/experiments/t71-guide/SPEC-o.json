@@ -1,0 +1,17 @@
+[
+ {
+  "key": "cs2o",
+  "draft": "cs2-o",
+  "label": "Close the Session P2 alone, o (\"And what's next for you two?\": the step turned into a question)"
+ },
+ {
+  "key": "secsc7",
+  "blocks": [
+   "## Close the Session and Return to Life",
+   "D:cs1-c",
+   "D:cs2-o"
+  ],
+  "label": "Close the Session, the h2: P1 cs1-c, P2 cs2-o",
+  "march": "cs1-c: B B S S, cs2-o: B B S B S B"
+ }
+]
