@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-18 (turn 71, the overnight run). **Seven open questions, 45 to 51**: what I couldn't figure out (45 to 47, in your help-request format), lines that are yours (46, 48 to 50), and one addition of mine (51). To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-18 (turn 71, the overnight run). **Six open questions, 45 to 50**: what I couldn't figure out (45 and 46, in your help-request format), lines that are yours (45, 47 to 49), and two additions of mine (50). To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,23 +8,7 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 45. Altered States Can Deepen the Therapy: P4, the beautiful state as a hook
-
-I can't find any more AI tells here, and I see some human tells, like these: "Funny thing, though:" turns to a new side of the topic, the way your "And as for the internal psychology of it," does; "It's a bit like a honeymoon. Gorgeous, sure, but nobody's marriage is done on day three." is a simile for the point with a joke grown out of its image, like your borrowed coat; and "like you're failing at being alive or something" leaves a clause untidy. Can you help show me the tells I'm missing?
-
-The rest of the h1 is in and reads Human: P1 with your guides line, P2 with your answer about the demon, P3 (a past opening as a reference point, told as one night and the coffee), P5 (if your little one can't take the love in, don't go bigger), then your stories ([the h1 Human Written 0.057, high](https://www.pangram.com/history/da4a12b2-a233-4613-a14f-907d6750e8b1)). P4 is your guide's "The beautiful state can become a hook too. ... Look for what becomes more honest, protective, and reliable after the state ends." It had seventeen versions tonight, two of them fresh writers'. The closest:
-
-- **P4**, alone [Human Written 0.43](https://www.pangram.com/history/89aa5eaa-2f15-4329-a1e9-c646d9867063), but in the h1 [an AI window of 135 words](https://www.pangram.com/history/8640e633-bc3d-450c-9bee-d104206f56fd), from P3's last sentence through P4:
-  > Funny thing, though: a night like that can make every morning since feel like a letdown, like you're failing at being alive or something. It's a bit like a honeymoon. Gorgeous, sure, but nobody's marriage is done on day three. Whatever you saw that night isn't proof it really happened, either, however vivid it was. The weeks after tell you more. Are you a bit more honest? More protective of your little one, easier to count on?
-
-  My march read: sentence 1 is the guide's next step, sentences 4 and 5 are its next point and its instruction, and the two questions at the end are the predictable closing check (the guide's "more honest, protective, and reliable").
-
-What else I tried: the guide's list of states cut to "a night like that"; its three qualities split into questions, or ended on "all that"; the reader's own thought ("If I could just get back there, everything would be fixed"); questions in place of its claims ("Was it real, though? Did it heal you?"), with an answer; openers that react; no "not Y" tails; P4 after P5; and a pointer to a book on just this, Jack Kornfield's [After the Ecstasy, the Laundry](https://jackkornfield.com/after-the-ecstasy-the-laundry/), which read Human by itself while the rest of P4 didn't.
-- **A. Your version.**
-- **B. The tells I'm missing**, and I'll try again.
-- **C. Leave it for now**: the h1 stays in without it.
-
-### 🟣 46. How This Relates to IFS: your first-person lines, and a section I need help with
+### 🟣 45. How This Relates to IFS: your first-person lines, and a section I need help with
 
 Your guide's IFS section, at the start of its Appendix ([the whole section in your October guide, lines 985 to 1005](https://github.com/u-dont-existDOTcom/joel-articles/blob/cb6ac8b527bf2ac2e3129b910cfcfdf1134c2f37/articles/inner-child-therapy/source/inner-child-guide-2026-10-04-r4.txt#L985-L1005)), has these first-person lines. Each is your story, and whether its wording is yours is your call (E189), so here they are whole:
 - "My reparenting method diverges from IFS at an important point."
@@ -41,13 +25,13 @@ It read AI as a section in all six versions, five of mine and a fresh writer's (
 - **C. The tells I'm missing.**
 - **D. Leave the section out for now**: the Appendix keeps Teachers and Practice Resources.
 
-They can go together, like `46: A, C`.
+They can go together, like `45: A, C`.
 
-### 🟣 47. Simple Practices: Journal With Each Hand, and One Intention
+### 🟣 46. Simple Practices: Journal With Each Hand, and One Intention
 
 I can't find any more AI tells here, and I see some human tells, like these: in One Intention, "There's a whole ocean of them, so don't get greedy." grows a joke out of the hook; in Journal With Each Hand, "(Lefties, that means your right one.)" is an aside that does a job; and in both, a sentence pointing to where the practice comes from ("Lucia Capacchione, an art therapist, has been teaching this one for decades", "The night half of this is a lot like the Examen") reads Human by itself. Can you help show me the tells I'm missing?
 
-Simple Practices is in with seven practices now, Just Like Me among them (51), and reads [Human Written 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d). These two have paragraphs that read Human alone, but neither has read Human as a practice: ten to twelve versions of mine for each tonight, three whole practices for each from a fresh writer (0.71 to 0.999), and the source sentences above (their Human part stops where the steps start), after turn 65's own tries and writers. The closest:
+Simple Practices is in with seven practices now, Just Like Me among them (50), and reads [Human Written 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d). These two have paragraphs that read Human alone, but neither has read Human as a practice: ten to twelve versions of mine for each tonight, three whole practices for each from a fresh writer (0.71 to 0.999), and the source sentences above (their Human part stops where the steps start), after turn 65's own tries and writers. The closest:
 
 - **Journal With Each Hand**, [AI Generated 0.64, high](https://www.pangram.com/history/5929a5f4-922e-4bcb-895a-a7903a416bb3); its P2 is turn 65's writer's, which read [Human 0.32 alone](https://www.pangram.com/history/510078ed-3fc5-426e-80cd-2ab5f8185808) (on the first Pangram account):
   > Some little ones won't say a word, no matter how sweetly you ask, & picturing them just gets you a blank. So try writing instead, with your non-dominant hand. (Lefties, that means your right one.) Its letters already look like a first grader's, so let it put down whatever scared or hurt feelings are really there, nothing made up. Then your usual hand answers as the grown-up, with some love, protection, or a bit of guidance, whatever's needed. And if the protective part grabs the pen first? Let it have the clumsy hand until it's said its piece.
@@ -67,7 +51,7 @@ What else I tried, in both: the step turned into a question with its answer (how
 - **B. The tells I'm missing**, and I'll try again.
 - **C. Leave them for now**: Simple Practices stays in with the seven it has.
 
-### 🟣 48. Teachers and Practice Resources: your two first-person lines, and the Gemini thread
+### 🟣 47. Teachers and Practice Resources: your two first-person lines, and the Gemini thread
 
 The section is in ([Human Written 0.14, high](https://www.pangram.com/history/6fb94075-f59a-427b-9a98-3f9e0dcd6c4c)), and its first paragraph opens with your guide's two first-person sentences as published. Here is that paragraph whole:
 > Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so. Daja works with inner-child pl/ork intuitively, through the divine Nurturer and Protector archetypes. Her work is less neuroscience and CBT and more direct archetypal practice, and the three grown-up jobs draw a lot from it. She has a book and a free one-hour YouTube training, and she's on Instagram.
@@ -81,14 +65,14 @@ Your guide also says, in the same place, "I made a Gemini thread that turns her 
 - **D. A new link**, and it goes back in.
 - **E. Leave it out.**
 
-### 🟣 49. My Journey: the Loveyhuasca link
+### 🟣 48. My Journey: the Loveyhuasca link
 
 In My Journey, the paragraph that opens "I wasn't lacking love." goes on "I found more in Buddhist teachings—which, it turns out, also include inner-child self-love! and later in loveyhuasca." (both linked). Its "loveyhuasca" link opens your Ultimate Psychedelic Protocol page, and that's the recipe link your rule keeps out of the article everywhere else (E162: no amounts or recipes; it's out of When the Urge to Escape Arrives and Altered States for that reason).
 - **A. Keep the word, take the link out.**
 - **B. Keep the link** (it's your story).
 - **C. Another link** for it.
 
-### 🟣 50. Points your own texts make twice (the repeats check)
+### 🟣 49. Points your own texts make twice (the repeats check)
 
 Three checks of tonight's sections against the whole article found these in text that is yours, so they're your call:
 1. **Trance.** When the Urge to Escape Arrives has your "When you're in a trance, you can't freak out: no matter how scary something is, it's just like, "Oh, this is scary, OK, oh well."" (your answer of 2026-10-12 02:18 UTC), and your trance paragraph in Altered States Can Require Reparenting says it again ("In trance you can basically work with the fear.", your answer of 03:13 UTC). **A.** Keep both. **B.** Take the first one out. **C.** Your words.
@@ -96,12 +80,13 @@ Three checks of tonight's sections against the whole article found these in text
 3. **A real attack, or paranoia?** When the Urge to Escape Arrives says "Paranoia during a rough trip is a warning sign for psychosis.", and your answer in Altered States Can Deepen says "But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, ...". Nothing tells a reader how to tell which one they're in. **A.** Leave it (the caution signs still count, and the article says so right there). **B.** Your words on how to tell.
 4. **"purely just fear".** In your trance paragraph, "You recognize it has no real world significance and it's purely just fear" reads to both readers as if "it" is the demon, which the paragraphs around it call real. **A.** Leave it. **B.** "the fear" for "it" ("You recognize the fear has no real world significance ..."). **C.** Your words.
 
-### 🟣 51. Just Like Me: the tonglen pointer
+### 🟣 50. Two pointers of mine: tonglen in Just Like Me, and Jack Kornfield in Altered States
 
-Just Like Me is in, after A Heart-to-Child Loop (at the guide's place, before Use Childhood Photographs Gently, it gave your photographs heading and opening an AI window in the h1, so I moved it up). What got it in was one sentence of mine at the start of its P2, pointing to a practice it resembles: "If you've tried Pema Chödrön's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine." ([P2 alone Human Written 0.088](https://www.pangram.com/history/b334d1d5-d2e6-4687-bb54-c1e43056dba6), [the practice 0.23, high](https://www.pangram.com/history/8dd8585d-f1a5-4650-a589-254e0fcbb355), [Simple Practices 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d)). Tonglen isn't in your guide, and the link goes to Pema Chödrön's how-to on Lion's Roar.
-- **A. Keep it.**
-- **B. Take it out** (Just Like Me goes back to waiting).
-- **C. Your words** for it.
+Two sections went in tonight because of one sentence of mine pointing to a real source, each linked and opened first. Neither source is in your guide:
+1. **Just Like Me**, at the start of its P2: "If you've tried Pema Chödrön's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine." ([P2 alone Human Written 0.088](https://www.pangram.com/history/b334d1d5-d2e6-4687-bb54-c1e43056dba6), [the practice 0.23, high](https://www.pangram.com/history/8dd8585d-f1a5-4650-a589-254e0fcbb355)). It sits after A Heart-to-Child Loop now: at the guide's place, before Use Childhood Photographs Gently, it gave your photographs heading and opening an AI window, so I moved it up ([Simple Practices 0.068, high](https://www.pangram.com/history/c3c2733a-77d9-4591-9326-62efdda1d52d)).
+2. **Altered States Can Deepen the Therapy**, P4 (the beautiful state as a hook), after seventeen versions without it read AI in the h1: "Jack Kornfield has a whole book on what comes next, [After the Ecstasy, the Laundry](https://jackkornfield.com/after-the-ecstasy-the-laundry/). The title kind of says it all." The rest grows out of the title ("The laundry will tell you more.") ([P4 alone Human Written 0.074](https://www.pangram.com/history/5630a751-096d-4ce7-b37f-8bd63582c458), [the h1 0.049, high](https://www.pangram.com/history/f20729e3-3ce4-4e59-9c63-77e6c170e2ab)).
+
+For each: **A.** Keep it. **B.** Take it out (that part goes back to waiting). **C.** Your words. Like `50: 1A, 2C`.
 
 ## For you to do (no decision needed)
 
@@ -116,7 +101,7 @@ You merged #190 (turn 70) before 01:16 UTC. Tonight's work goes in a new pull re
 
 ### 🟢 2026-10-18 01:16, 01:17, 01:30 and 01:54 UTC
 
-- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections with your stories as your guide has them and your trance answer, all but one of the guide's paragraphs there (45); Close the Session and Return to Life; Just Like Me (51); and the Appendix with Teachers and Practice Resources. Every link in the article was opened too. What I couldn't figure out is 45 to 47, in your format; 46 and 48 to 50 need your word on text that's yours, and 51 on an addition of mine.
+- "continue" and "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out": the overnight run, from 01:16 UTC. In tonight: "And So That's the Way It Happened!" with your Xandria line; the three Altered States sections whole, with your stories as your guide has them and your trance answer; Close the Session and Return to Life; Just Like Me; and the Appendix with Teachers and Practice Resources. Every link in the article was opened too. What I couldn't figure out is 45 and 46, in your format; 45 and 47 to 49 need your word on text that's yours, and 50 on two additions of mine.
 - "and save your work as you go in case credits run out": pushed after every round, and the handoff note on your laptop updated with it.
 - "signed into another pangram": the run moved to that account at 01:57 UTC (the first one showed 176 credits left at 01:31 UTC).
 

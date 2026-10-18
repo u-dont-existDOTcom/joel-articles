@@ -159,3 +159,5 @@ register('close-session', CS_PARKED, close_session)
 #   so Just Like Me came back out, the parked comment as before; placements tested in round t71ee.
 # - Round t71ee: Just Like Me back in, after A Heart-to-Child Loop and Journal's parked comment instead of at the guide's
 #   place (where it gave his photographs opener an AI window): Simple Practices Human Written 0.068, high, 1565 words.
+# - Round t71gg: Altered States Can Deepen P4 drafts/as4-u in place of its parked comment (a pointer to Jack Kornfield's
+#   After the Ecstasy, the Laundry, the rest grown out of its title); alone 0.074, the h1 0.049 high, 1444 words.
