@@ -514,3 +514,5 @@ def frm_wavf(p='frm-e'):
 
 
 register('frm-wavf', WAVF_P7_END, frm_wavf)
+register('frm-wavf-j', WAVF_P7_END, lambda: frm_wavf('frm-j'))
+register('frm-wavf-k', WAVF_P7_END, lambda: frm_wavf('frm-k'))
