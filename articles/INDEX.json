@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "1aabcfe1d9b4b3581c89c3217f9c37e1a2e23bd091542610d8d8550517d17c73",
+          "sha256": "da25a4dab51efa09484aa27a93013877c8e43eea805e327613f6f437f8fb40bc",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2629,7 +2629,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OPEN-OWNER-FLAGS.md",
-          "sha256": "0fd1fe3018ea459544f2cef4559fac5ce4b34767c4324d55148c6b778bf7229e",
+          "sha256": "cf29d02e253cd5fce24d0506156442c57365fa25b209f9cbb700ce342893430b",
           "role": "open_owner_flags"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "49efcf31f8044e03a1fc044540e969bd9629dae150350f1b859d6cf80806391b",
+          "sha256": "8652c6bafc8ada7a1e3d8fc1cd2a6cd0f6bbad678857fec2db62b98104ca8a0d",
           "role": "detector_prediction_log"
         },
         {
@@ -16954,7 +16954,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/installs71.py",
-          "sha256": "f5377c7a4fd3106d00099cd138584bab10a638cb46f2cfceb822713b0b055454",
+          "sha256": "6cd9e07942d7beea79d90f1759e8b2de3ba9de349881f350831432b6fab5c9d2",
           "role": "humanization_working_record"
         },
         {
@@ -20561,6 +20561,16 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-ppp.js",
           "sha256": "65d828e13d6b8e90af0798fbbffdae1496f96836ada2cfb248067d1f20a518b9",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/READ-ppp.json",
+          "sha256": "431623b3566ed538f5f753cb054b45fa02e0d2bc11be5aa366f66205505bd519",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/RESULTS-u10.json",
+          "sha256": "6e8ed888458e331f4b9b3d1d943d7181198a7a6f0ec105bac9bb5aa3eddab9da",
+          "role": "detector_experiment_result"
         }
       ]
     },
