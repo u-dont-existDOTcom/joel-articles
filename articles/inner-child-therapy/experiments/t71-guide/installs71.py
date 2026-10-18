@@ -336,3 +336,7 @@ def wl_after(p):
 register('wl-u3', WL_HEAD, lambda: wl('wl-u3'))
 register('wl-u4-after', YAW_END, lambda: wl_after('wl-u4'))
 register('wl-u1-after', YAW_END, lambda: wl_after('wl-u1'))
+
+
+TF11_C_OLD = "experiments/t71-guide/drafts/tf11-g.txt. Alone Human Written (0.052, medium), https://www.pangram.com/history/38d0bc66-4b8d-4004-857f-fb0e73c312cf; When the Adult Voice Feels Fake with it and the TF-U8 paragraph Human Written (0.079, high, 4184 words), https://www.pangram.com/history/d0c2d3cc-2f27-4d30-89ab-60e326ae8a21 (round t71jjj)."
+register('tf11-h-note', TF11_C_OLD, "experiments/t71-guide/drafts/tf11-h.txt: round t71jjj's tf11-g (alone Human Written, 0.052, https://www.pangram.com/history/38d0bc66-4b8d-4004-857f-fb0e73c312cf; the h1 with it and the TF-U8 paragraph 0.079, high, https://www.pangram.com/history/d0c2d3cc-2f27-4d30-89ab-60e326ae8a21) with \"so hear it out, and then let your head have a look\" for \"so let your head have a look\": a cold read of Start With Whatever Showed Up paused at the next paragraph's \"the same kind of listening\", two paragraphs from the listening with this one between (COLD-READ-t71-start-with.md). Alone Human Written (0.057, medium), https://www.pangram.com/history/8a2a6745-bd5c-4525-965a-c2207a799db6; When the Adult Voice Feels Fake with it Human Written (0.074, high, 4189 words), https://www.pangram.com/history/8d0ba666-872d-415a-a4c8-69737410c9c4 (round t71mmm).")
