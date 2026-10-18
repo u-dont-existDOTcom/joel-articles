@@ -2883,3 +2883,8 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 71) | the same, f: with "More tears don't mean more healing, though." too (141 words) [t71rrr_lmtf], a screen | Human, low (my call) | (pending) | |
 | 2026-10-18 (turn 71) | When Love Still Feels Missing with lmt-e in Somatic Heart Opening (865 words) [t71rrr_h1lmte], a screen | Human, low (my call) | (pending) | |
 | 2026-10-18 (turn 71) | When Love Still Feels Missing with lmt-f there (870 words) [t71rrr_h1lmtf], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | A Heart-to-Child Loop, its loop paragraph alone, a: the guide's fallback back before his two Non-judgement sentences ("A goodwill wish might still be there without the warmth. If it isn't, borrow one plain sentence from someone safe: \"I won't attack you while we sit here.\"") (111 words) [t71sss_hcla], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | the same, b ("Maybe a wish for their good is still there, like back in A Smaller Doorway. If not, borrow one sentence from somebody safe: ...") (114 words) [t71sss_hclb], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | A Heart-to-Child Loop with hcl-a (206 words) [t71sss_h2hcla], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Simple Practices with hcl-a (1894 words) [t71sss_h1hcla], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Simple Practices with hcl-b (1897 words) [t71sss_h1hclb], a screen | Human, low (my call) | (pending) | |

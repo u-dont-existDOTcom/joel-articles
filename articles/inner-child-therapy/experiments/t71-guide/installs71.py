@@ -429,3 +429,19 @@ def lmt(p='lmt-e'):
 
 register('lmt', lambda: SHO_C_END + '\n\n' + SHO_P, lmt)
 register('lmt-f', lambda: SHO_C_END + '\n\n' + SHO_P, lambda: lmt('lmt-f'))
+
+
+# 2026-10-18, round t71sss: the coverage check (COVERAGE-r4-B.md, 5; TRACE-r4-B.md, 5): turn 65's dedup took the guide's
+# loop fallback (a goodwill wish without warmth; else one sentence borrowed from a safe adult, "I won't attack you while
+# we sit here.") out of A Heart-to-Child Loop without his OK; his answer to question 40 brought back only the two
+# Non-judgement sentences after it, though he pasted the whole passage.
+HCL_P = "Picture the love traveling from your heart down to your little one. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. No warmth today? Then rest your hands there and notice what you find, no faking required. Non-judgement is a place to start. It can blossom into love over time."
+HCL_C_END = "Alone Human Written (0.11), https://www.pangram.com/history/36aa2411-2b25-435f-95d8-f0dd8145820a. -->"
+
+
+def hcl(p='hcl-a'):
+    return (HCL_C_END[:-4] + ' Turn 71 (the overnight run): the guide\'s "A sincere goodwill wish may be available even without warmth. If not, borrow one simple sentence from a safe adult: “I won’t attack you while we sit here.”", which he pasted whole in his answer to question 40, back before his two sentences (COVERAGE-r4-B.md, 5; TRACE-r4-B.md, 5: turn 65\'s dedup, SP-DEDUP-REPORT.md G3.8, had it as said by Make a Simple Vow\'s "you won\'t be cruel to them on purpose", without his OK): experiments/t71-guide/drafts/' + p + '.txt. @@HCL@@ -->\n\n' + draft(p))
+
+
+register('hcl', lambda: HCL_C_END + '\n\n' + HCL_P, hcl)
+register('hcl-b', lambda: HCL_C_END + '\n\n' + HCL_P, lambda: hcl('hcl-b'))
