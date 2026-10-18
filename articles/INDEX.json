@@ -21676,6 +21676,11 @@
           "path": "articles/inner-child-therapy/experiments/t72-guide/READ-i.json",
           "sha256": "21dde141b5337c78ba494bab92994383a6c729190e007f4efd153ea02991e537",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-18-turn72.json",
+          "sha256": "dc3f037b898731e04efa12b97dd421bbed0079e51252cae5abf8a39d53097cf0",
+          "role": "in_context_map"
         }
       ]
     },
