@@ -1,17 +1,17 @@
 # TRACE-A: why coverage items 1 to 39 (guide lines 1 to 520) are missing or partial
 
-Read-only trace of the project's own records. Nothing in the project was changed; this file is the only thing written. Dates are UTC. Checked on 2026-10-18, about 09:30 to 11:00. Items 25 and 34 are skipped, as asked (they went in tonight). 37 items traced; none is left untraced.
+Read-only trace of the project's own records. Nothing in the project was changed; this file is the only thing written. Dates are UTC. Checked on 2026-10-18, from about 09:30. A first copy was written at about 11:00. This is the corrected copy, after a second pass that re-checked every quotation, line number, time and file against the files themselves; the last Notes bullet says what changed. Items 25 and 34 are skipped, as asked (they went in tonight). 37 items traced; none is left untraced.
 
 Short names used below (full paths are given in each item's file list):
 - "ICT" = /home/claude/joel-articles/articles/inner-child-therapy. A path below that doesn't start with / is under it.
-- "article" = ICT/HUMANIZED-ARTICLE-SO-FAR.md. Its line numbers are today's, at the time of the check. The article was last changed at 10:34:57 UTC (turn 71 installs) and is still being edited, so anchor phrases are quoted and a line can be found again if it moves. ICT/OWNER-EDITS.json is cited by entry id only, because its line numbers moved during the check.
+- "article" = ICT/HUMANIZED-ARTICLE-SO-FAR.md. Its line numbers are those of the file as it stood at 11:01:11 UTC, which was its last change when I re-checked every one. The overnight run is still editing it, and the install taken out at 11:01 moved every line after l.525 up by four, so quoted anchor phrases are given where the exact line matters and a line can be found again if it moves. ICT/OWNER-EDITS.json is cited by entry id only, because its line numbers moved during the check.
 - "guide" = ICT/source/inner-child-guide-2026-10-04-r4.txt. Every guide line number in the list was checked against the quoted words.
-- One file exists only in the read-only mirror: /home/claude/joel-articles-ro/docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md (cited as "MAP (ro)"; section 7, the T1 to T9 table, is lines 71-79; "What I'd leave to the AI guide" is lines 81-84; the turn-38 status is line 88). Everything else is cited at its /home/claude/joel-articles/ path.
+- "MAP (ro)" = /home/claude/joel-articles-ro/docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md (the same file is at /home/claude/joel-articles/docs/proposals/, since /home/claude/joel-articles is a link to the read-only mirror; section 7, the T1 to T9 table, is lines 71-79; "What I'd leave to the AI guide" is lines 81-84; the turn-38 status is line 88). Everything else is cited at its /home/claude/joel-articles/ path.
 
 How to read "authority":
 - "Author's OK" means a record where Joel approved that specific cut or text. Three weaker kinds are named as such. "Teaching-point-level OK": his 2026-10-09 02:06 tick of T1 to T9 as worded (OWNER-EDITS id t1-t9-teaching-points: "all those T1-9 points look good, if they aren't already in the guide. C2 looks fine yes teaching points makes sense"). It approves each point as worded, not any detail left out of it. "Section-level OK": he accepted a section or candidate as drafted ("approved continue", "done", "good continue", "perfect"), without naming the dropped point. "General OK": he agreed to a proposal in general terms.
 - "Whitelist" means the drafter's own "Change whitelist" block in the September drafts files (BORROW-LOVE-DRAFTS-20260926.md l.70-80, ADULT-APPRENTICE-DRAFTS-20260927.md l.80-87, THREE-FUNCTIONS-DRAFTS-20260927.md l.57-63). It is the drafter's list, never Joel's, and it appears only in those September records.
-- Joel's standing dedup rules, for dating the cuts: 2026-09-26 17:10, "what is this whole paragraph doing why are we repeating so much advice" (BORROW-LOVE-DRAFTS-20260926.md l.232); 2026-10-07 01:09, "just make sure it's not duplicating stuff" (DEDUP-PASS-20261008.md l.5); and 2026-10-17 02:07, "you can only cut if it isn't losing important meaning or there's no good way to merge" (/home/claude/joel-articles/AGENTS.md l.88). The last one postdates every cut below.
+- Joel's standing dedup rules, for dating the cuts: 2026-09-26 17:10, "what is this whole paragraph doing why are we repeating so much advice" (BORROW-LOVE-DRAFTS-20260926.md l.232); 2026-10-07 01:09, "just make sure it's not duplicating stuff" (DEDUP-PASS-20261008.md l.5); and 2026-10-17 02:07, "you can only cut if it isn't losing important meaning or there's no good way to merge" (the words and the date are in /home/claude/joel-articles/AGENTS.md l.88; the time is in experiments/t71-guide/TRACE-r4-B.md l.109). The last one postdates every cut below.
 
 Labels, as asked: RECORDED CUT OR COMPRESSION (a record says the point was compressed, cut, deduplicated or moved), AUTHOR'S OWN TEXT (Joel's own rewrite replaced the passage), NO RECORD FOUND. Two rules I applied: a gap notice ("Not carried", "No draft has these yet", "are left", a dedup's "Missing") is not a cut decision, so it does not make an item a recorded cut; and where both of the first two labels fit, the entry takes the label for the bulk of the missing text and the nuance is in its note.
 
@@ -25,7 +25,7 @@ What the record shows:
 - HUMANIZATION-WRITER-STATE-20260916.md l.29: Joel's final version "omits earlier source packaging including the explicit research/provisional-synthesis disclaimer and exact closing quotation". L.31: "Because Joel explicitly said this is the final version to keep, those differences are authorized owner changes. Do not restore the superseded source units merely to satisfy an earlier preservation ledger."
 - EPISODE-006-OWNER-FINAL-LISTICLE-RESULT-20260916.json l.10-12: "final_owner_instruction": "keep this exact final version"; "alignment_class": "OWNER_REAUTHORING".
 - The article's list is that final version: l.47 "For now, I think of it in five fairly predictable stages." and the Wow of Now, Mr. Rogers and playing-house items the record names (l.49-51).
-- The turn-31 sweep listed "the five stages' 'fairly predictable' (the guide: 'a provisional synthesis')" under "In Joel's own text (his call; listed for him)" (experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md l.321). I found no answer from him on that line. (OWNER-QUESTIONS.md question 53 is about the word "it" in the same sentence, not the caveat.)
+- The turn-31 sweep listed the five stages' "fairly predictable" (the guide: "a provisional synthesis") under "In Joel's own text (his call; listed for him)" (experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md l.321). I found no answer from him on that line. (OWNER-QUESTIONS.md question 53 is about the word "it" in the same sentence, not the caveat.)
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916.md (l.29, 31)
@@ -51,7 +51,7 @@ Files:
 
 ---
 
-## 3. Guide lines 37, 39 (the baby; "true embodied healing rather than an escape hatch")
+## 3. Guide lines 37, 39 (the starving baby, "That damages the baby way more than if both of you are starving"; "a true embodied healing than an escape hatch")
 
 DISPOSITION: RECORDED CUT OR COMPRESSION (weak: the ledger says "represented", not cut). Author's OK for this cut: none that names it; Joel accepted the whole candidate ("perfect, 100% human high conf."), a section-level OK. Whitelist: none (the ledger's own "authorized_delta" lets "explanatory packaging" change).
 
@@ -78,14 +78,14 @@ What the record shows:
 - L53 (the six domains, "memories, relationships, body, medicine, conscience, or future"): a frozen unit in EPISODE-007-MY-JOURNEY-SOURCE-20260916.json l.24 ("a helper may identify blind spots or model adult functioning but does not receive final authority over Joel/the reader's life"), mapped to the "wrong about you" sentence (EPISODE-007-MY-JOURNEY-CANDIDATE-20260916.json l.28) and counted "represented" (as in item 3). No decision about the list itself.
 - L301 ("keep the borrowing narrow"): ADULT-APPRENTICE-DRAFTS-20260927.md l.74, AA-U4: "duplicate-function-consolidation: Don't Give ("they can know things you don't and still be wrong about you"), and Borrow One Competency's "one function at a time"". L.78: "The consolidations follow the 17:10 rule ... They go to Joel with the section." The drafter's whitelist, l.84: "The consolidations named above." Joel's reply (2026-09-27 00:55, l.283-289): "agreed matched pair ending on punchline gives it away. cut the punchline, done." That is a section-level OK.
 - L335 (the checks on a conclusion: track record, respect for boundaries, independent evidence, what happens when you disagree or say no): THREE-FUNCTIONS-DRAFTS-20260927.md l.31, TF-U12: "The authority part is Don't Give (consolidated), and it's also the Apprentice's AA-U4 (consolidated). Keep the test line". Whitelist, l.61: "the authority half of TF-U12". An OK of his for that consolidation: none found. The test line itself is in the article (l.99) but waits on his word (OWNER-EDITS id tf12-test-line-pending-20261018; OWNER-QUESTIONS.md question 52).
-- A check on the stated home: question 52 (OWNER-QUESTIONS.md l.91) and the article comment at l.97 say the rest of TF-U12 "was in the article already, in this section and in the new intuition paragraph". Reading Don't Give (l.99-105), I found only "You still have to be able to say so" (l.103) for the say-no half, and nothing on a person's track record, respect for boundaries or independent evidence. The intuition paragraph (l.579) is about hunches, and its comment (l.577) puts "track record" in the anxiety paragraph, which is about anxiety, not a person.
+- A check on the stated home (acted on after the first copy of this file; question 52 and the l.97 comment have since been corrected): they had said the rest of that paragraph "was in the article already" (the wording is quoted in experiments/t71-guide/REVIEWS.md l.165). Reading Don't Give (l.99-105), I found only "You still have to be able to say so" (l.103) for the say-no half, and nothing on a person's track record, respect for boundaries or independent evidence. The new intuition paragraph (l.575, comment l.573) is about hunches. Its comment says the guide's three checks are "next door": "It should make sense, too." and "checked it against what you actually know" in Joel's paragraph before it (l.571), and track record in the anxiety paragraph after it ("It's probably been wrong before too", l.579). Those are checks on a hunch or an anxiety, not on a person. Question 52 (OWNER-QUESTIONS.md l.91: "aren't in the article") and the l.97 comment ("are in no paragraph") now say the same.
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-SOURCE-20260916.json (l.24)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-20260916.json (l.28)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/ADULT-APPRENTICE-DRAFTS-20260927.md (l.74, 78, 80-87, 283-289)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/THREE-FUNCTIONS-DRAFTS-20260927.md (l.31, 57-63)
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.97-105, 577-579)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.97-105, 571-579)
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-QUESTIONS.md (question 52, l.86-95)
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (id tf12-test-line-pending-20261018)
 
@@ -95,33 +95,27 @@ Files:
 
 DISPOSITION: RECORDED CUT OR COMPRESSION. Author's OK for the L71 cut: yes, Joel cut "Depth 1" on 2026-10-08 02:23. For leaving the rest of the no-to-the-frame point to the AI guide: teaching-point-level OK only. Whitelist: none.
 
-STATUS CHANGE DURING THIS TRACE: the L71 point is now in the article, at l.525-527: "What if the inner-child idea just isn't yours? Some people find that out right here, and it's a real answer. I'd let the language go then, and stop trying to sneak it back in. Looking after yourself works in any words, and so does letting people help." It was installed at 10:34:57 UTC today (experiments/t71-guide/REVIEWS.md l.146-158, "In (installs71.py "frm-wavf-k")"). The end of L75 (a change of dose does not override that choice) and L163 (no need to call reaching toward people "reparenting") are still out. See the Notes section about the conflict with the record below.
+STATUS (it changed twice while this trace ran): the L71 point went into the article at 10:34:57 UTC today (the time stamp of that run's result files, RESULTS-frm.json, READ-yyy.json and READ-zzz.json in experiments/t71-guide/), at the end of When the Adult Voice Feels Fake's opening, as "What if the inner-child idea just isn't yours? Some people find that out right here, and it's a real answer. I'd let the language go then, and stop trying to sneak it back in. Looking after yourself works in any words, and so does letting people help." (experiments/t71-guide/drafts/frm-k.txt; experiments/t71-guide/REVIEWS.md l.146-158; installs71.py entry "frm-wavf-k"). The overnight run took it out again at about 11:01 (the article's last change, 11:01:11), after reading the first copy of this trace (installs71.py entry "frm-wavf-k-undo", whose comment cites Joel's 2026-10-08 02:23 cut and the turn-37 page; REVIEWS.md l.160-164). It is not in the article now. The end of L75 (the pause approach "does not override your choice about whether to use inner-child framing at all") and L163 ("If it does not, there is no need to label it that way.") were never put in.
 
 What the record shows:
 - R4-ADDITIONS-PROVENANCE-20261008.md l.9: Joel (2026-10-08 02:23), on depth draft 1: "who is gonna be "sneaking reparenting in " thru some gentler version? we have no idea where this came from?". L.56: "Depth 1 ("That means turning the depth down…") | #126, CONTINUITY_TITRATION | cut (Joel, 02:23)". L.30-33 sets the guide's "do not keep trying to sneak it back in through “gentler” exercises" against the app's planner boundary and concludes: "The one who would sneak it back in is the app. That's why the sentence makes no sense to a reader." L.7: the no to inner-child work and the pause bookkeeping "stay in the AI guide".
 - tools/in-context/2026-10-08-turn37.json l.14: "Left to the AI guide: the no to inner-child work (you cut depth draft 1, and "Not wanting to do it anymore is a reason too" in When to Change the Strategy covers the reader's side), and the pause bookkeeping". MAP (ro) l.81-84 says the same. Joel ticked T1 to T9 on that page (2026-10-09 02:06; OWNER-EDITS id t1-t9-teaching-points).
 - experiments/t38-teaching-points/REVIEWS.md l.17: "Not carried: ... the choice not to use inner-child language | Out by the teaching points Joel approved (the pause bookkeeping and the no to inner-child work stay in the AI guide)."
 - L163: DEDUP-PASS-20261008.md l.73 and l.103 listed "reparenting" as optional ("with "reparenting" optional"). The teaching point T8 as ticked drops the word (MAP (ro) l.78; installed at article l.225, "reaching toward people is part of taking care of your little one too").
-- The comment on the new paragraph (article l.525) cites none of the above.
+- The comment that went in with the paragraph (installs71.py l.512-513, function frm_wavf) cited the coverage check (COVERAGE-r4-A.md, 5) and the Pangram rounds, not Joel's cut or the turn-37 page. The undo's comment (installs71.py l.521-525) cites both.
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/R4-ADDITIONS-PROVENANCE-20261008.md (l.7, 9, 30-33, 56)
 - /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-08-turn37.json (l.14)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/t38-teaching-points/REVIEWS.md (l.17)
 - /home/claude/joel-articles/articles/inner-child-therapy/DEDUP-PASS-20261008.md (l.73, 83, 103)
-- /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/REVIEWS.md (l.146-158)
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.225, 525-527)
+- /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/REVIEWS.md (l.146-158, 160-164)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.225)
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (id t1-t9-teaching-points)
-- /home/claude/joel-articles/articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md (turn 36 and 37 entries)
 - /home/claude/joel-articles/articles/inner-child-therapy/source/inner-child-guide-2026-10-04-r4.txt (l.71, 75, 163)
-- /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/installs71.py ("frm-wavf-k")
+- /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/installs71.py (entries "frm-wavf-k" and "frm-wavf-k-undo", l.512-537)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/drafts/frm-k.txt
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/COVERAGE-r4-A.md (item 5)
-- /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/TRACE-r4-B.md (format reference)
-- /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-08-turn36.json
-- /home/claude/joel-articles/articles/inner-child-therapy/docs (not present; the proposal is in the mirror below)
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916W.md (not used for this item)
-- /home/claude/joel-articles/articles/inner-child-therapy/OPEN-OWNER-FLAGS.md (read; closed flags only)
 - /home/claude/joel-articles-ro/docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md (l.78, 81-84, 88)
 
 ---
@@ -277,7 +271,7 @@ Files:
 DISPOSITION: AUTHOR'S OWN TEXT. Joel's owner-final Catch-the-Hook replaced the two-tier split. Author's OK: yes (owner removal recorded, "Do not restore"). Whitelist: none.
 
 What the record shows:
-- HUMANIZATION-WRITER-STATE-20260916W.md l.52-53: "Ten-minute delay: Owner removed it as arbitrary/redundant ... Mark the earlier explicit ten-minute unit owner-superseded for this subsection. Do not restore." L.49-50: "Guide / not yet: Do not restore automatically." L.55-56: the later-interpretation move is "already carried" by "You felt your stomach tighten up, and that somehow meant "They're evil."" L.33-39: the standing rule, "Do not add back anything Joel removed merely because it existed in an earlier assistant/source realization." (repeated in HUMANIZATION-WRITER-STATE-20260917A.md l.76-77).
+- HUMANIZATION-WRITER-STATE-20260916W.md l.52-53, under the heading "Ten-minute delay": "Owner removed it as arbitrary/redundant ... Mark the earlier explicit ten-minute unit owner-superseded for this subsection. Do not restore." L.49-50, under the heading "Guide / not yet": "Do not restore automatically." L.55-56: the later-interpretation move is "already carried" by "You felt your stomach tighten up, and that somehow meant "They're evil."" L.33-39: the standing rule, "Do not add back anything Joel removed merely because it existed in an earlier assistant/source realization." (repeated in HUMANIZATION-WRITER-STATE-20260917A.md l.76-77).
 - Joel's text is "Maybe forget the parts detective work for a minute. You can figure that out later." (EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md, status "OWNER-FINAL LOCAL REALIZATION = HUMAN/HIGH"; article l.177).
 - Later, his boundary paragraph and B1-B2 (2026-10-07 16:46; OWNER-EDITS ids boundary-paragraph-joel and pgq-001-joel-rewrite) carry the split for touch, danger and medical signs: "if you don't want to be touched, say no now and work out what it means later. Same if something might be dangerous right now, or might be a medical warning sign: step away or get checked first." (article l.187). The guide's list of what not to say, send, consume, promise or decide yet is not named anywhere.
 
@@ -285,7 +279,6 @@ Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916W.md (l.33-39, 49-56)
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917A.md (l.76-77)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md (l.3)
-- /home/claude/joel-articles/articles/inner-child-therapy/experiments/OWNER-PUNCHLIST-20260927.md (item 6)
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.177-187)
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (ids boundary-paragraph-joel, pgq-001-joel-rewrite)
 
@@ -317,12 +310,14 @@ DISPOSITION: AUTHOR'S OWN TEXT. Author's OK: yes (his own B2). Whitelist: none.
 What the record shows:
 - Same entries as item 15. Article l.185, Joel's B2: "Feelings about yourself work the same way. "I feel attracted" or "I feel ashamed" is real as a feeling, but it doesn't settle who you are, or who you love."
 - GUIDE-UPDATE-QUEUE-20261006.md l.11: PGQ-001 ("an experience isn't its own interpretation; orientation and gender not steered either way") is marked **in**: "Joel's own rewrite of B1 and B2 (2026-10-07 16:46, "It's hum, high conf") ... Earlier: my B2 failed five times as a run of rulings (E149)".
-- No record mentions the guide's "just intrusive" wording or the family, community and religious-expectation clauses; they fall inside the text he replaced.
+- The guide's caution (L141) was in my own fifth-try B2 draft, which was 100% AI alone ("Every version so far has been 100% AI") and which Joel replaced. It said not to write off genuine feelings about who you're attracted to, or your gender, as just intrusive thoughts only because they're confusing or unwanted, or as not really you because the people around you would disapprove (tools/in-context/2026-10-07-turn32.json l.15 and its note at l.26; turn33.json l.28 and l.40). His B2 (above) has no clause about "just intrusive", "not the real you", or family, community or religious expectations, and I found no statement of his about those clauses.
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.185)
 - /home/claude/joel-articles/articles/inner-child-therapy/GUIDE-UPDATE-QUEUE-20261006.md (l.11)
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (id pgq-001-joel-rewrite)
+- /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-07-turn32.json (l.15, 26)
+- /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-07-turn33.json (l.28, 40)
 
 ---
 
@@ -331,9 +326,9 @@ Files:
 DISPOSITION: AUTHOR'S OWN TEXT. Joel's own apology paragraph replaced a Claude-drafted, owner-accepted compression. Author's OK: yes for the final text; the September compression was accepted on its Pangram result "without a sense read". Whitelist: none.
 
 What the record shows:
-- OWNER-EDITS id also-look-outward-run-joel, Joel (2026-10-07 23:18): "Here i fixed the red sections for you, this is human high conf learn some lessons". Article l.217: "Maybe your first explanation sucked. Try again. And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it."
+- OWNER-EDITS id also-look-outward-run-joel, Joel (2026-10-07 23:18): "Here i fixed the red sections for you, this is human high conf learn some lessons". Article l.217: "Maybe your first explanation sucked. Try again." and then, after an emoji, "And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it."
 - The earlier chain: EPISODE-008-R14-FRESH-RETRIEVAL-CANDIDATE-20260917.md l.21 had "Maybe you conveyed the thing. Maybe you said no. Maybe you stopped explaining yourself for the ninth time. That can be enough." EPISODE-008-R15-BROAD-REPAIR-PLAN-20260917.md l.30 ordered it rewritten: "REWRITE THE THREE-ITEM `Maybe` LIST INTO ONE SOCIAL PROGRESSION ... do not enumerate all three as equal examples." Candidate H (EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-H-20260918.md l.17: "But if you've said what you mean and said no, you can't guarantee they'll understand it.") was accepted with "oh wow ok perfect" (EPISODE-008-ALSO-LOOK-OUTWARD-OWNER-ACCEPTANCE-20260918.md l.25), "on its Pangram result ... without a sense read" (OWNER-PUNCHLIST-20260927.md l.44).
-- DEDUP-PASS-20261008.md l.28-29 offered him the guide's line ("You do not have to make somebody understand you before you can act.") as "Your call". I found no reply. For "choose a realistic outcome before the next interaction" there is no cut record; the nearest text is his 2026-09-28 expectations paragraph (article l.201).
+- DEDUP-PASS-20261008.md l.28-29 offered him the guide's line ("You do not have to make somebody understand you before you can act.") as "Your call". I found no reply. For "Before the next interaction, choose a realistic outcome." there is no cut record; the nearest text is his 2026-09-28 expectations paragraph (article l.201).
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (id also-look-outward-run-joel)
@@ -356,16 +351,21 @@ Where I looked and what turned up (all gap notices, not decisions):
 - DEDUP-PASS-20261008.md l.111: "Other people aren't a reassurance machine, and support goes both ways. No draft has these yet."
 - GUIDE-UPDATE-QUEUE-20261006.md l.35: "two points no draft carries (not a reassurance machine; support both ways) are left".
 - experiments/dedup-20261008/out_B1.md l.437-441: G3.7 "PARTLY. The diagnostic half is [B64]'s point: "then they've become part of the test" ... Missing: not using other people as a reassurance machine."; G3.8 "Missing: saying that leaning on each other, both ways, is a healthy part of relationships." Also out_B2.md l.373-377 ("No Group 3 draft carries this point.").
-- The teaching points T8 and T9 do not carry it (MAP (ro) l.78-79). Joel's "C2 looks fine" (2026-10-09 02:06) was about the honesty paragraph (article l.229), which has the first half of this guide paragraph.
-- I searched every .md, .json, .txt and .py file under ICT for "reassurance machine", "co-regulation", "diagnostic instrument" and "both ways" and found nothing else that bears on it.
+- The teaching points T8 and T9 do not carry it (MAP (ro) l.78-79). The turn-36 "Not carried" note above sits in the notes of C2's own row ("Honesty draft, C2 (waiting)", turn36.json l.340-349). C2 is the honesty paragraph (article l.229), which has the guide paragraph's honesty, privacy, false-persona, danger and relief sentences but not these two. Joel later wrote "C2 looks fine" (2026-10-09 02:06; OWNER-EDITS id t1-t9-teaching-points), and the turn-38 row for C2 says only "Unchanged from turn 34." (turn38.json l.293, 299). He said nothing about the two sentences, and I found no sign that he read the note. So this is the drafter's disclosure beside a paragraph-level OK, not a decision to cut.
+- I searched every .md, .json, .txt and .py file under ICT for "reassurance machine", "co-regulation", "diagnostic instrument" and "both ways". Besides the guide, the coverage check and the notices above, the hits are a second gap notice (tools/in-context/2026-10-08-turn35.json l.333: "other people aren't a reassurance machine, and support goes both ways (no draft has these yet)") and, written after the first copy of this trace, the overnight run's question 54 (OWNER-QUESTIONS.md l.112: "never decided either way") and REVIEWS.md l.166. No decision of Joel's turned up.
 
 Files:
-- /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-08-turn36.json (l.349)
+- /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-08-turn35.json (l.333)
+- /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-08-turn36.json (l.340-349)
+- /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-09-turn38.json (l.293, 299)
 - /home/claude/joel-articles/articles/inner-child-therapy/DEDUP-PASS-20261008.md (l.111)
 - /home/claude/joel-articles/articles/inner-child-therapy/GUIDE-UPDATE-QUEUE-20261006.md (l.35)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/dedup-20261008/out_B1.md (l.437-441, 602)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/dedup-20261008/out_B2.md (l.373-377, 457-458)
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.221, 225, 229)
+- /home/claude/joel-articles/articles/inner-child-therapy/OWNER-QUESTIONS.md (question 54, item 6, l.112)
+- /home/claude/joel-articles/articles/inner-child-therapy/experiments/t71-guide/REVIEWS.md (l.166)
+- /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (id t1-t9-teaching-points)
 
 ---
 
@@ -377,7 +377,7 @@ What the record shows:
 - T9 (MAP (ro) l.79): "More than one place to belong. Keep the good people, add others, and not every door has to open. Let the Protector watch for a group that wants to be your only one." The turn-36 draft had the guide's sentence (tools/in-context/2026-10-08-turn36.json l.417, "Use the Protector here too. A community is not automatically good because it offers belonging."); the turn-37 page reduced it to the T9 wording (turn37.json l.134).
 - DEDUP-PASS-20261008.md l.113 had it as a to-add: "The Protector on groups: belonging doesn't make a group good."
 - A grounding widened the installed line: t38 REVIEWS.md l.41, "MUST: only a group could want to be your only one; a partner or one friend can too" -> "if any group, or any one person, starts acting like they should be your only one". Installed at article l.233.
-- His tick of T9 as worded is not an OK for dropping "high-control groups, exploitative authorities, and unsafe or abusive relationships should not be reinforced as support". The guide's "this app" wording in the neighboring sentence is one of the lines left to the AI guide (R4-ADDITIONS-PROVENANCE-20261008.md l.40-42; MAP (ro) l.84).
+- His tick of T9 as worded is not an OK for dropping the guide's "High-control groups, exploitative authorities, and unsafe or abusive relationships should not be reinforced" as support. The guide's "this app" wording in the neighboring sentence is one of the lines left to the AI guide (R4-ADDITIONS-PROVENANCE-20261008.md l.40-42; MAP (ro) l.84).
 
 Files:
 - /home/claude/joel-articles-ro/docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md (l.79, 84)
@@ -393,20 +393,20 @@ Files:
 
 ## 20. Guide line 169 ("The Witness notices what is happening inside me. The Protector notices what is happening between us. The Guide asks ...")
 
-DISPOSITION: RECORDED CUT OR COMPRESSION (September drafter's rulings). Author's OK for this sentence: none; section-level OK for the neighboring Noticing Counts section. Whitelist: none.
+DISPOSITION: RECORDED CUT OR COMPRESSION (September drafter's rulings). Author's OK for this cut: none that names it; the only OK nearby is section-level, for Noticing Counts, where the Witness is introduced instead. Whitelist: none.
 
 What the record shows:
-- EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md l.159-164, "Span 9 - hidden Witness/Protector/Guide triad", Operation: "DELETE AS A PARALLEL THREE-JOB SENTENCE; RE-REALIZE ONLY THROUGH THE CONTINUING INTERACTION".
+- EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md l.159-164, "Span 9 - hidden Witness/Protector/Guide triad", in the draft subsection "Don't Assume It's All You" (Episode 008's outward-looking subsection, the one the article now has as Also Look Outward): the draft sentence "You can notice you're upset, see what's happening between you, and decide what to do next without winning the whole case." gets the Operation "DELETE AS A PARALLEL THREE-JOB SENTENCE; RE-REALIZE ONLY THROUGH THE CONTINUING INTERACTION".
 - HUMANIZATION-WRITER-STATE-20260917A.md l.152-156 ("Witness correction"): preserve the three practical functions "in ordinary prose (inside / between-us / next move) without prematurely naming Witness and without recreating them as a parallel three-part taxonomy". HUMANIZATION-WRITER-STATE-20260917G.md l.50: "no capitalized Witness here".
-- BORROW-THE-ADULT-DRAFTS-20260925.md l.53: heading "A Witness Is Enough to Begin" to "Noticing Counts" ("plain; no jargon "witness""). Joel (21:27 UTC, 2026-09-25) accepted that section (article l.266 comment).
-- The Guide's "next sane" step is in The Inner Guide Comes Later (OPEN-OWNER-FLAGS.md l.15).
+- BORROW-THE-ADULT-DRAFTS-20260925.md l.53: heading "A Witness Is Enough to Begin" to "Noticing Counts" ("plain; no jargon "witness""). Joel (21:27 UTC, 2026-09-25) accepted that section (article l.266 comment); it is where the Witness is named, and it is not about the triad sentence.
+- Also Look Outward (article l.189-234) has no Witness and no "next sane" sentence. The Guide's "next sane" step is in The Inner Guide Comes Later (article l.794; OPEN-OWNER-FLAGS.md l.15).
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md (l.159-164)
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917A.md (l.152-156)
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917G.md (l.50)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/BORROW-THE-ADULT-DRAFTS-20260925.md (l.53)
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.195-197, 266-268)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.189-234, 266-268, 794)
 - /home/claude/joel-articles/articles/inner-child-therapy/OPEN-OWNER-FLAGS.md (l.15)
 
 ---
@@ -420,7 +420,7 @@ What the record shows:
 - P1: OWNER-FINAL-WRITE-IT-P1-20260920.md l.18 (his replacement), l.35 (OWNER_REAUTHORING), l.51-54 ("Dropped / made implicit": not cleaning the draft, the recipient not reading it, "get to the end, close it"). P2 is his Human/medium anchor (EPISODE-008-WRITE-DONT-SEND-OWNER-HUMAN-ANCHOR-20260918.md l.15: "sometimes the best thing is to simply say, "I need some time to think about my response." And if the conflict really requires a response right now, then obviously just do your best rather than wait for the perfect timing.").
 - The caring-editor and return-to-the-writer units were frozen in EPISODE-008-WRITE-DONT-SEND-SOURCE-20260918.md l.19-38. A 09-19 model candidate carried them as PU-01 to PU-09 (EPISODE-008-PRO-PASS-A-PRESERVATION-PREFLIGHT-20260919.md l.30-38, including "Better is not automatically softer/nicer" and "send / say less / pause / no response"); his P1 to P3 replaced that candidate.
 - WRITE-IT-P3-CLAUDE-20260925.md l.41: "Dropped: "Some inward care may need to come first" and "Sending a good response is not the same as completing that return to care". The hand-holding image carries the care. Offered back to Joel." L.40: P3's "A lot of the time it's just "that hurt."" is "the source's "may contain a mature protest" in its plainest form". His next message was "good continue" (l.3).
-- OWNERIZATION-SUGGESTION-BANK-20260916.md l.48 had listed "Keep the Draft / caring editor" as a place for a real example from Joel ("Never invent either message"). I found no separate decision about "check the edited version", "keep the valid protest" or "better does not necessarily mean softer" beyond the replaced model candidate.
+- OWNERIZATION-SUGGESTION-BANK-20260916.md l.48 had listed "Keep the Draft / caring editor" as a place for a real example from Joel ("Never invent either message"). I found no separate decision about "Check the edited version", "Preserve the valid protest" or "Better does not necessarily mean softer" (guide L175) beyond the replaced model candidate.
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.237-241, 251)
@@ -459,7 +459,7 @@ What the record shows:
 - Draft K ("PGQ-002 in When Healing Turns Into Checking") was the planned home of this guide paragraph; tools/in-context/2026-10-06-turn30.json l.147-157 gives guide L187 and L189 as its sources.
 - Turn log l.343: "K (PGQ-002 in When Healing Turns Into Checking): 100% AI alone twice ... It says most of what C1 now says about dates, so it's dropped as a repeat (Joel: "just make sure it's not duplicating stuff"); its one new point is parked." GUIDE-UPDATE-QUEUE-20261006.md l.12 says the same. PARKED-READER-QUESTIONS.md l.14 parks only "If I cancel a date just to make the doubt go away, is that checking too?"
 - Joel's own C1 (OWNER-EDITS id also-look-outward-run-joel; article l.221) carries the dating case: "If the real reason you're asking someone out is to prove you're lovable ... then they've become part of the test."
-- K's text (queue l.62) also had avoidance as "the same checking from the other side", "touch or sex you want to stop", "exploring isn't checking" and "Ordinary life will show you more over time"; none of that is in C1. The dedup's account of the check: "I checked the queue items by hand against what I remember" (DEDUP-PASS-20261008.md l.5).
+- K's text (queue l.60-62) also had "Bailing just to make the doubt go away can be the same checking from the other side", "touch or sex you want to stop", "Trying things out to find who you're attracted to isn't checking" and "Ordinary life will show you more over time"; none of that is in C1. The dedup's account of the check: "I checked the queue items by hand against what I remember" (DEDUP-PASS-20261008.md l.5).
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md (l.343)
@@ -479,14 +479,14 @@ DISPOSITION: RECORDED CUT OR COMPRESSION (weak, same record as item 23). Author'
 What the record shows:
 - Draft K's sources were guide L187 and L189 (turn30.json l.147-157, the second quote begins "Do the action when it serves a life you actually choose ... If you are doing exposure, including clinician-guided ERP, keep the useful exposure and drop the checking"), but K's text has no exposure or ERP wording. K was then dropped as a repeat of C1, which is about dates only (item 23). Only the cancel-a-date point was parked; the exposure sentence and its three limits (touch or sex you want to stop, staying in danger, skipping a medical red-flag check) are in no dropped-as-repeat list.
 - The queue carries an "Open for Joel" that quotes this sentence ("Exposure never requires continuing touch or sex you want to stop… or skipping a check of a possible medical red flag"), about someone who hesitates over a doctor's touch (GUIDE-UPDATE-QUEUE-20261006.md l.68). I found no answer.
-- The same limits appear elsewhere in other words: Joel's B-paragraph (article l.187, "say no now and work out what it means later. Same if something might be dangerous right now, or might be a medical warning sign") and the anxiety paragraph (article l.583-585, "If a part hesitates about being touched or about sex, that's enough to stop.").
+- The same limits appear elsewhere in other words: Joel's B-paragraph (article l.187, "say no now and work out what it means later. Same if something might be dangerous right now, or might be a medical warning sign") and the anxiety section's second paragraph (article l.581, "If a part hesitates about being touched or about sex, that's enough to stop.").
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-06-turn30.json (l.147-160)
 - /home/claude/joel-articles/articles/inner-child-therapy/GUIDE-UPDATE-QUEUE-20261006.md (l.12, 60-62, 68)
 - /home/claude/joel-articles/articles/inner-child-therapy/PARKED-READER-QUESTIONS.md (l.14)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md (l.343)
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.187, 583-585)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.187, 581)
 
 ---
 
@@ -567,7 +567,7 @@ Files:
 DISPOSITION: AUTHOR'S OWN TEXT. Joel's final Goodwill replaced the drafts that carried it. Author's OK: yes (23:15, "he wants to keep" it). Whitelist: yes for the earlier, replaced draft (examples).
 
 What the record shows:
-- BORROW-LOVE-DRAFTS-20260926.md l.1473-1481: Joel (23:15) gave his final Goodwill text; l.1494-1496: "Goodwill: Joel's final, owner text. BL-U16 (goodwill isn't access) is owner-deleted with the coffee line." Article l.314: ""May you be loving, peaceful, and free," since if they were all of those, they wouldn't have done what they did, and then they actually would be lovable."
+- BORROW-LOVE-DRAFTS-20260926.md l.1473-1481: Joel (23:15) gave his final Goodwill text; l.1494-1496: "Goodwill: Joel's final, owner text." and, under it, "BL-U16 (goodwill isn't access) is owner-deleted with the coffee line." Article l.314: ""May you be loving, peaceful, and free," since if they were all of those, they wouldn't have done what they did, and then they actually would be lovable."
 - The replaced draft had carried BL-U16: "they get to come over for coffee" and "I'm not even betting they'll ever get to be any of those things" (l.1079, l.1102-1105, "the rest of the list is compressed (whitelist, examples)").
 - The turn-31 sweep listed Buddha's wish "and then they actually would be lovable" under "In Joel's own text (his call; listed for him)" (turn log l.321). No reply found.
 
@@ -578,12 +578,12 @@ Files:
 
 ---
 
-## 32. Guide line 283 (prayer may evoke abandonment or condemnation; don't reflexively label it bypass; "what has been lost, what needs questioning, what is worth preserving")
+## 32. Guide line 283 (prayer may evoke abandonment or condemnation; don't reflexively label it bypass; "what has been lost, what needs questioning, and what is still worth preserving")
 
 DISPOSITION: AUTHOR'S OWN TEXT. Author's OK: yes (his version at 23:15). Whitelist: none for the final; "whitelist" was cited for the replaced draft's compressions.
 
 What the record shows:
-- BORROW-LOVE-DRAFTS-20260926.md l.1487-1489, Joel (23:15): "it did read ai. Ai stuff overuses "i wouldn't call that X" and the 3 part conditional syntax. Then you have the instruction manual features and the ending is bringing it all together in the most defensible way possible. here's mine which is human, and i like it better:" followed by his paragraph. L.1498-1499: "Spiritual hurt P1: Joel's version, owner text. BL-U22's prayer case, the don't-label clause, and the ask, grieve and change points are owner-deleted."
+- BORROW-LOVE-DRAFTS-20260926.md l.1487-1489, Joel (23:15): "it did read ai. Ai stuff overuses "i wouldn't call that X" and the 3 part conditional syntax. Then you have the instruction manual features and the ending is bringing it all together in the most defensible way possible. here's mine which is human, and i like it better:" followed by his paragraph. L.1498-1499: "Spiritual hurt P1: Joel's version, owner text." and, under it, "BL-U22's prayer case, the don't-label clause, and the ask, grieve and change points are owner-deleted."
 - Article l.352: "If a spiritual teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now."
 - The earlier draft had already cut the prayer case to one example ("Flagged for Joel: the prayer and condemnation case is the one aimed at readers who pray", l.1307; compressions "(whitelist)" at l.1244-1245).
 - The turn-31 sweep listed "But if you let an abuser control your appreciation of life..." without the guide's grieve, question, maybe change, as his text, his call (turn log l.321).
@@ -634,12 +634,12 @@ Files:
 DISPOSITION: AUTHOR'S OWN TEXT. Author's OK: yes (2026-10-03 04:31). Whitelist: none.
 
 What the record shows:
-- Article l.569 comment: "P4 is Joel's, word for word (04:31 UTC), in place of my P4 and P5a (the guide's G4-G6 and the first half of G7: the line to say, wait, don't answer for that part, and what to notice when nothing comes)." L.573: P5 is Joel's too.
+- Article l.565 comment: "P4 is Joel's, word for word (04:31 UTC), in place of my P4 and P5a (the guide's G4-G6 and the first half of G7: the line to say, wait, don't answer for that part, and what to notice when nothing comes)." L.569: P5's comment says it is Joel's too.
 - OWNER-EDITS id sws-p3-p5-joel, Joel (2026-10-03 04:31): "i'd remove the last line in p3, doesn't it seem redundant? and plus like you said then it's taking over p4. I fixed p3-p5 for you, it reads much better now and human high conf as a whole."
-- Article l.571 holds the nearest text: "you can understand what the reaction is propelling you toward, and away from".
+- Article l.567 holds the nearest text: "you can understand what the reaction is propelling you toward, and away from".
 
 Files:
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.569-573)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.565-571)
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (id sws-p3-p5-joel)
 
 ---
@@ -649,12 +649,12 @@ Files:
 DISPOSITION: RECORDED CUT OR COMPRESSION. Author's OK: general only (Joel, 2026-10-04 01:33, "yes i agree with your shortening sugggestions"). Whitelist: none.
 
 What the record shows:
-- Article l.605 comment: "The guide's last two paragraphs are one here, shortened where they repeat this article (Joel, 01:33 UTC: "yes i agree with your shortening sugggestions")." L.617: "P4 carries the guide's "The protector does not have to disappear…" and "Then follow what changes…" with one of its three examples (a critic softening into a fear); "You don't need an age, a recovered memory, or a complete cast of parts" is cut".
+- Article l.601 comment: "The guide's last two paragraphs are one here, shortened where they repeat this article (Joel, 01:33 UTC: "yes i agree with your shortening sugggestions")." L.613 (the P4 comment): "P4 carries the guide's "The protector does not have to disappear…" and "Then follow what changes…" with one of its three examples (a critic softening into a fear); "You don't need an age, a recovered memory, or a complete cast of parts" is cut".
 - Turn log l.224 (the proposal): P3's acts and P4's small step repeat other sections; "P1, his P2 and one paragraph for what's new would be about 300 words against the guide's 338. Waiting on his OK." L.231 has his reply. L.234 names the cut: "the guide's other two examples (a vague hurt becoming a need, anger pointing to a boundary; the article already says what to do with grief or anger)". The proposal he agreed to did not list the two examples.
 - PARKED-READER-QUESTIONS.md l.21-23 parks them as COULD ("cut for length; a clause"; "the article already says to listen to grief or anger").
 
 Files:
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.605, 617, 621)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.601, 613, 617)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md (l.224, 231, 234)
 - /home/claude/joel-articles/articles/inner-child-therapy/PARKED-READER-QUESTIONS.md (l.21-23)
 
@@ -665,16 +665,16 @@ Files:
 DISPOSITION: RECORDED CUT OR COMPRESSION. Author's OK: yes for the trap paragraph (Joel, 2026-10-06 19:04, "P3 honestly looks like it could be cut."); none for the "decide beforehand" sentence. Whitelist: none.
 
 What the record shows:
-- OWNER-EDITS id wcs-p3-cut: "Turn 29's P3 (the trap of explaining away every miss) is cut." Joel: "P3 honestly looks like it could be cut." That paragraph held the guide's trap point: turn 28's P3 was "The trap I'd watch for is explaining away every miss ... At some point nothing could prove the method wrong." (turn log l.272; tools/in-context/2026-10-04-turn28.json l.80-83 sets it against the guide's "One more trap: don't define "I did it correctly" as "it worked." ..."). tools/in-context/2026-10-06-turn30.json l.77-78: "(the trap paragraph, cut; your sentences carry its point)". Article l.625 comment: "Turn 29's P3 is cut."
-- "Decide beforehand what small change would tell you it helped" was cut by the drafter as a repeat of Not Every Hero Wears A Cape and When Healing Turns Into Checking (turn log l.265; turn28.json l.87). No OK of his named.
-- The closest article text is Joel's own P4 ending (OWNER-EDITS id wcs-p4-joel-ending, same 19:04 message; article l.635-637): "if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet."
+- OWNER-EDITS id wcs-p3-cut: "Turn 29's P3 (the trap of explaining away every miss) is cut." Joel: "P3 honestly looks like it could be cut." That paragraph held the guide's trap point: turn 28's P3 was "The trap I'd watch for is explaining away every miss ... At some point nothing could prove the method wrong." (turn log l.272; tools/in-context/2026-10-04-turn28.json l.80-83 sets it against the guide's "One more trap: don't define "I did it correctly" as "it worked." ..."). tools/in-context/2026-10-06-turn30.json l.77-78: "(the trap paragraph, cut; your sentences carry its point)". Article l.621 comment: "Turn 29's P3 is cut."
+- The guide's "decide beforehand what small change would tell you it helped" was cut by the drafter as a repeat of Not Every Hero Wears A Cape and When Healing Turns Into Checking (turn log l.265; turn28.json l.87). No OK of his named.
+- The closest article text is Joel's own P4 ending (OWNER-EDITS id wcs-p4-joel-ending, same 19:04 message; article l.631 comment, l.633 text): "if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet."
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (ids wcs-p3-cut, wcs-p4-joel-ending)
 - /home/claude/joel-articles/articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md (l.265, 272)
 - /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-04-turn28.json (l.80-87)
 - /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-06-turn30.json (l.77-78)
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.625, 635-637)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.621, 631-633)
 
 ---
 
@@ -684,29 +684,30 @@ DISPOSITION: AUTHOR'S OWN TEXT. Joel's two sentences replaced the guide's rule. 
 
 What the record shows:
 - OWNER-EDITS id voices-and-warning-signs-20261010, Joel (2026-10-10 19:37, answer 2): "no, that's normal to hear voices and lose sense of reality on psychedelics (not as normal for weed tho)... but if you go manic, psychotic (by which i mean losing sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afteward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened."
-- tools/in-context/2026-10-10-turn42.json l.60: "Your two sentences are in as you wrote them. They replace the guide's one-episode, no-retest-without-assessment rule." Article l.646 comment says the same; the text is at l.665.
+- tools/in-context/2026-10-10-turn42.json l.60: "Your two sentences are in as you wrote them. They replace the guide's one-episode, no-retest-without-assessment rule." Article l.642 comment says the same; the text is at l.661. The voices sentence later came out (Joel, 2026-10-11 03:47, OWNER-EDITS entry 5meo-before-history-20261011), because his own paragraph before it now says it; the warning signs stayed.
 
 Files:
 - /home/claude/joel-articles/articles/inner-child-therapy/OWNER-EDITS.json (id voices-and-warning-signs-20261010)
 - /home/claude/joel-articles/articles/inner-child-therapy/tools/in-context/2026-10-10-turn42.json (l.60)
-- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.646, 665)
+- /home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md (l.642, 661)
 
 ---
 
 ## Notes for the decision (observations, not dispositions)
 
-- Item 5 conflicts with the record. The L71 sentence went into the article at 10:34 today (l.525-527), and the new comment at l.525 cites none of what follows. Joel cut "Depth 1", which held this sentence, on 2026-10-08 02:23 ("who is gonna be "sneaking reparenting in " thru some gentler version?"). The trace of where it came from (R4-ADDITIONS-PROVENANCE-20261008.md l.33) concluded "The one who would sneak it back in is the app. That's why the sentence makes no sense to a reader," and put the no to inner-child work with the lines that "stay in the AI guide". The turn-37 page said so to him and he ticked T1 to T9 on that page (turn37.json l.14; MAP (ro) l.81-84). The new text's "stop trying to sneak it back in" speaks to the reader, not the app, so it may answer his objection, but it is the phrase he questioned. I found no word from him on the new paragraph. The same file REVIEWS.md l.146-148 earlier read "parked (for the next turn)"; it now reads "in".
+- Item 5: the L71 sentence was in the article for about half an hour today (10:34:57 to about 11:01) and is out again, so what is left is the record. Joel cut "Depth 1", which held this sentence, on 2026-10-08 02:23 ("who is gonna be "sneaking reparenting in " thru some gentler version?"). The provenance trace (R4-ADDITIONS-PROVENANCE-20261008.md l.30-33) concluded "The one who would sneak it back in is the app. That's why the sentence makes no sense to a reader," and put the no to inner-child work with the lines that "stay in the AI guide". The turn-37 page said so to him and he ticked T1 to T9 on that page (turn37.json l.14; MAP (ro) l.81-84). The version that went in kept "stop trying to sneak it back in", the phrase he questioned, now aimed at the reader instead of the app; I found no word from him on it. If he wants the point back, the draft is experiments/t71-guide/drafts/frm-k.txt.
 - Items 6, 7, 12, 13, 19 (and the rest of 5) all rest on his one 2026-10-09 02:06 tick of T1 to T9 as worded. The details left out (T2's come-out line; the pause as last resort, safety forcing it, no peeks; "could you stop and return"; the list of what to change; high-control groups and exploitative authorities) were not named to him as cuts, except T2's come-out line, which the turn-38 page offered back ("If you want the come-out line itself back, this is the version I'd start from", turn38.json l.63; turn log l.496). I found no reply.
-- Items 23 and 24: draft K was dropped as a repeat of Joel's C1, which covers dates only. K's text also had avoidance as the same checking from the other side, "touch or sex you want to stop", "exploring isn't checking" and "Ordinary life will show you more over time"; the guide's list of behaviors (L187) and its exposure and ERP sentence with three limits (L189) are in no draft at all. Only "cancel a date" was parked. The check was by hand ("I checked the queue items by hand against what I remember", DEDUP-PASS-20261008.md l.5), and the queue's "Open for Joel" on the doctor-touch clause (GUIDE-UPDATE-QUEUE-20261006.md l.68) has no recorded answer.
+- Items 23 and 24: draft K was dropped as a repeat of Joel's C1, which covers dates only. K's text also had "Bailing just to make the doubt go away can be the same checking from the other side", "touch or sex you want to stop", "Trying things out to find who you're attracted to isn't checking" and "Ordinary life will show you more over time"; apart from the date example, the guide's list of behaviors (a body scan, a confession, a search, an "exposure"; L187) and its exposure and ERP sentence with three limits (L189) are in no draft at all. Only "cancel a date" was parked. The check was by hand ("I checked the queue items by hand against what I remember", DEDUP-PASS-20261008.md l.5), and the queue's "Open for Joel" on the doctor-touch clause (GUIDE-UPDATE-QUEUE-20261006.md l.68) has no recorded answer.
 - Item 6 shows a circular hand-off: Catch the Hook gave the stop and external-support tail to the Regulation material (WRITER-STATE-20260916W.md l.68); Regulation's D6 gave it to the Checking section (REGULATION-SECTION-DRAFTS-20260925.md l.107); Checking carries only the ritual stop (article l.262). Joel's acceptance of round 3 did not name the deletions.
-- Item 4 (L335): the consolidation record, question 52 (OWNER-QUESTIONS.md l.91) and the l.97 comment name Don't Give and the intuition paragraph as the home of the rest of TF-U12, but I found the track-record, boundaries and independent-evidence tests of a person in neither (Don't Give l.103 has only "You still have to be able to say so").
+- Item 4 (L335): the checks on a person (track record, respect for boundaries, independent evidence and contradictions) are in no paragraph of the article. Question 52 and the article's l.97 comment had said the rest of that paragraph was in the article already; both were corrected after the first copy of this trace, and the checks are now item 7 of question 54 (OWNER-QUESTIONS.md).
 - Items 8 and 10: the lock text (OWNER-LOCKS.json l.24) and compression amendment claim 3 (DANGEROUS-ADULT-PRESERVATION-COMPRESSION-AMENDMENT-20260924.md l.24) still name "the child is not a diagnostic test", while the records show Joel's own P1 and his "good continue" left it implicit. The 20:24 record said the lock "should be amended".
-- Item 18 is the only point with no decision either way. It was told to Joel as "Not carried" (turn 36) and "No draft has these yet" (dedup); his "C2 looks fine" was about the next paragraph.
+- Item 18 is the only point with no decision either way. It was disclosed once, as "Not carried" in C2's own row on the turn-36 page; he later wrote "C2 looks fine" and said nothing about the two sentences. The dedup listed it under "What's left to add" ("No draft has these yet"), which is a to-do, not a cut. The overnight run has since put it to him as question 54, item 6 ("never decided either way").
 - Item 3: the ledger counts the units "represented", so this is a compression, not a cut; the text is Claude's R8F, accepted after a Pangram result.
 - Item 22: the test question is in no preservation unit list; the loss was never weighed.
 - Items 1, 9, 31, 35 were also put to Joel as "his call" in the turn-31 sweep (turn log l.321); I found no reply.
-- Dates: every recorded cut here predates Joel's 2026-10-17 02:07 rule (AGENTS.md l.88). The latest are the turn-38 teaching-point cuts (2026-10-09), draft K (2026-10-07) and the turn-27 shortening (2026-10-04); the rest are from September.
-- The article is changing while this trace runs. If more coverage items are installed, items 5 and any others listed above will need their status line updated.
+- Dates: every recorded cut here predates Joel's 2026-10-17 02:07 rule (AGENTS.md l.88). The latest are the turn-38 teaching-point cuts (2026-10-09), Joel's cut of Depth 1 (2026-10-08), draft K (2026-10-07), Joel's cut of P3 in When to Change the Strategy (2026-10-06) and the turn-27 shortening (2026-10-04); the rest are from September. The one removal after the rule is the 11:01 undo of the frame paragraph (item 5), which applies Joel's own 2026-10-08 cut.
+- The article is changing while this trace runs (items 4 and 5 changed under it tonight). Its line numbers here are those of the 11:01:11 file; if more is installed or taken out, find a line again by its quoted anchor phrase.
+- What changed from the first copy of this file (the copy now at experiments/t71-guide/TRACE-r4-A.md): the article line numbers after l.525 in items 4, 24, 36, 37, 38 and 39 (they were four too high once the frame paragraph came out); item 4's account of the intuition and anxiety paragraphs and of question 52, which has since been corrected; item 5's status (in at 10:34, out again at 11:01, with the file time stamps those times come from) and its file list; item 16, where the first copy said no record mentioned the guide's "just intrusive" caution (my own B2 draft carried it, and Joel replaced the draft); item 18, whose search turned up one more gap notice and the overnight run's own new notes, and which now says the "Not carried" note sat in C2's own row before Joel's "C2 looks fine"; the quotations in items 1, 3, 14, 17, 19, 21, 23, 31, 32 and 38, which had been spliced, recased or run past an emoji; and the preface's note on the mirror and the time of the 02:07 rule. No disposition and no count changed.
 
 ---
 
