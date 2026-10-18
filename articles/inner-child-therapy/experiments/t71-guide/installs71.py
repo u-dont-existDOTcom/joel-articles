@@ -251,3 +251,24 @@ register('st8', lambda: ST8_OLD_COMMENT_END + '\n\n' + (A / 'experiments/t69-gui
 # - Round t71hhh, by hand: Speak Toward P4 drafts/pgq15-g for pgq15-c (the repeats check's 6: its first sentence said
 #   again P3's "your little one included"), and P5 drafts/hw-e for turn 69's hw-d ("professional therapy", his own
 #   word in P8, for "therapy"; the check's contradiction); the h1 0.064, high, 858 words.
+
+
+# 2026-10-18, rounds t71iii and t71jjj: the guide's old Three Adult Functions units that were never placed
+# (experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md): TF-U8 to TF-U10 after the pl/ork paragraph, TF-U11 after his
+# "Or if you do get an answer ..." paragraph, both in Start With Whatever Showed Up.
+PLORK_END = "Play not only paves the way for therapy, but is a part of how successful therapy should be measured."
+P5_END = "checked it against what you actually know (if you're in danger, get safe first)."
+
+
+def tf89(p='tf89-c'):
+    return PLORK_END + '\n\n' + '<!-- Turn 71 (the overnight run): the guide\'s old Three Adult Functions units TF-U8 and TF-U9, never placed (experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md: "with the parked pl/ork paragraph"): the adult position keeps the child inside the relationship; the qualities adults often lose (from the guide\'s list, silliness, irreverence, rawness, creativity, and "an unexplained connection to the Great Mystery before a chosen path gives it a name"); "The child still brings the spark of life", with his post Treasuring the Inner Child\'s Gift as the example (https://ibogaqueen.substack.com/p/treasuring-the-inner-childs-gift, opened 2026-10-18); and TF-U10\'s drawing from the child and giving back, "communion rather than command" (the rest of TF-U10, the internal council and reaching out, is his Borrowed Adulthood and Speak Toward paragraphs). experiments/t71-guide/drafts/' + p + '.txt. @@TF89@@ -->' + '\n\n' + draft(p)
+
+
+def tf11(p='tf11-g'):
+    return P5_END + '\n\n' + '<!-- Turn 71: the guide\'s TF-U11, never placed (THREE-FUNCTIONS-RESTRUCTURE-20260927.md: Start With Whatever Showed Up): intuition can register a pattern before the analytical mind can explain it; analysis checks contradiction, track record and whether the conclusion follows; the analytical mind can get tired of uncertainty and be relieved to hand that job away; neither gets unilateral control; a strong intuitive click is information, not proof. With a pointer of mine, Kahneman and Klein\'s paper on the APA\'s own page, https://doi.org/10.1037/a0016755 (opened 2026-10-18), and its abstract\'s "sometimes marvelous and sometimes flawed" or "Subjective experience is not a reliable indicator of judgment accuracy." (not in the guide, so question 50 asks whether he wants it). Two versions without a source read AI alone (round t71iii). experiments/t71-guide/drafts/' + p + '.txt. @@TF11@@ -->' + '\n\n' + draft(p)
+
+
+register('tf89', PLORK_END, tf89)
+register('tf89-b', PLORK_END, lambda: tf89('tf89-b'))
+register('tf11', P5_END, tf11)
+register('tf11-f', P5_END, lambda: tf11('tf11-f'))
