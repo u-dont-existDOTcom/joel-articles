@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1898,
-  "right": 1391,
+  "calls": 1905,
+  "right": 1397,
   "since_review": {
-   "calls": 1496,
-   "right": 1136,
-   "passed": 915
+   "calls": 1503,
+   "right": 1142,
+   "passed": 921
   },
   "today": {
-   "calls": 946,
-   "right": 735,
-   "passed": 600
+   "calls": 953,
+   "right": 741,
+   "passed": 606
   }
  },
  "windows": [
@@ -257,10 +257,10 @@
   {
    "from": 420,
    "to": 429,
-   "calls": 74,
-   "right": 63,
-   "passed": 61,
-   "always_ai_right": 13
+   "calls": 81,
+   "right": 69,
+   "passed": 67,
+   "always_ai_right": 14
   }
  ],
  "misses": [
@@ -5300,6 +5300,20 @@
    "pct": null,
    "res_raw": "Mixed (Mostly Human Written; windows: AI-Generated, Medium, 50; Human, High, 641, 691 words, AI likelihood 0.27), 23:41:54, [check](https://www.pangram.com/history/390b008b-16a9-4480-bf50-e5758f011a62)",
    "where": "fix-20261017d/b426/PREDICTIONS-scored.md:7",
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "fix-20261018",
+   "batch": 428,
+   "name": "428g-S2v36c",
+   "mine": "Human",
+   "why": "the same, plus the caption, which read Human beside the anomie paragraph in 425g except in the first window",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 320; AI-Generated, High, 63; Human, High, 320, 703 words, AI likelihood 0.26), 01:56:25, [check](https://www.pangram.com/history/f91e4398-4e22-4bf2-881b-a95244ae3079)",
+   "where": "fix-20261018/b428/PREDICTIONS-scored.md:11",
    "passed": false,
    "right": false,
    "text": ""
