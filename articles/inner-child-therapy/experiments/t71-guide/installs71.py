@@ -161,3 +161,6 @@ register('close-session', CS_PARKED, close_session)
 #   place (where it gave his photographs opener an AI window): Simple Practices Human Written 0.068, high, 1565 words.
 # - Round t71gg: Altered States Can Deepen P4 drafts/as4-u in place of its parked comment (a pointer to Jack Kornfield's
 #   After the Ecstasy, the Laundry, the rest grown out of its title); alone 0.074, the h1 0.049 high, 1444 words.
+# - Round t71ii: Altered States Can Deepen P4 drafts/as4-w for as4-u (the repeats check: the third "doesn't prove what
+#   you saw happened" out, and the closing test now a pointer to his Timing Is Individual); alone 0.0083, the h1 0.036
+#   high, 1430 words.
