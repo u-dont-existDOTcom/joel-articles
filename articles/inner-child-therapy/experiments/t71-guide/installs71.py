@@ -154,3 +154,6 @@ register('close-session', CS_PARKED, close_session)
 #   parked comment for P4 (alone Human Written 0.51; the h1 with it 0.057, high, 1350 words).
 # - Round t71bb: Just Like Me in, after the parked One Intention comment: P1 turn 65's sp7-p1-c, P2 drafts/jl2-l (a
 #   pointer to Pema Chödrön's tonglen, then the guide's limits and point); alone 0.088, the h2 0.23 high, 173 words.
+# - Round t71cc: Simple Practices as installed with Just Like Me read Mostly Human, with an 85-word AI window over the
+#   heading and opening of Use Childhood Photographs Gently (his words), which had read Human without it (round t71z),
+#   so Just Like Me came back out, the parked comment as before; placements tested in round t71ee.

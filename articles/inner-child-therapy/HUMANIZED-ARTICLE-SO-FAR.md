@@ -871,17 +871,7 @@ Does saying it make the memory fiction? Well, no, it's still what happened, as f
 
 Do keep an ear on who's narrating, though. If the voice starts sneering, like it's making fun of the younger you, stop right there (that's the courtroom creeping back in). Same if you feel more ashamed, or kind of floaty and unreal, since more distance won't help with that. And when it goes well, it's a good time to check in with the younger you in that story. What do they need from you now?
 
-<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md; question 47): One Intention in the Morning, One Review at Night. It goes here. -->
-
-## Just Like Me
-
-<!-- Turn 65 (E181), my own draft, practice 7: only on a steadier day, when thinking about other people won't pull you out of your own shoes; name the feeling plainly; think of everyone feeling it and wanting relief, some making it worse trying to escape it, just like you; wish all of you, you first, enough support to stay with it, so the pain stops with you (experiments/t65-guide/sp7-p1-c.txt). Alone Human Written (0.072), https://www.pangram.com/history/2385355d-ab3c-4820-91fd-3bbc0f7c1ee2 (round t65t, on the first Pangram account); the h2 below. -->
-
-This one works best on a steadier day, when thinking about other people won't pull you out of your own shoes. Name the feeling plainly. Lonely, say. Then think of how many people are feeling that exact thing right now, and wanting it to stop, just like you. Some of them make it worse trying to get away from it. Just like you, sometimes. 😅 Wish all of you, you first, enough support to stay with it, so the pain stops with you.
-
-<!-- Turn 71 (the overnight run): the guide's breathe normally, whoever comes to mind, no forgiving an abuser or imagining their childhood, contact as its own decision for a calmer day (the grounding's fix, GROUNDING-sp7.md [12]), and its point, after a pointer of mine to a practice it resembles, Pema Chödrön's tonglen on Lion's Roar (opened 2026-10-18; not in the guide: question 47 asks whether he wants it). Ten P2s without it read AI in the h2 (rounds t71a to t71s), and so did a fresh writer's three whole practices (round t71w). experiments/t71-guide/drafts/jl2-l.txt. Alone Human Written (0.088), https://www.pangram.com/history/b334d1d5-d2e6-4687-bb54-c1e43056dba6; the h2 Human Written (0.23, high, 173 words), https://www.pangram.com/history/8dd8585d-f1a5-4650-a589-254e0fcbb355 (round t71bb). -->
-
-If you've tried Pema Chödrön's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too. Forgiving them isn't part of it, and neither is picturing their childhood. Getting in touch is a separate decision, for a much calmer day, if it ever comes. With that many people feeling the same thing, the theory that you're the defective one gets kind of hard to keep up.
+<!-- Parked from Simple Practices (experiments/t65-guide/PARKED.md, with what each needs from Joel): One Intention in the Morning, One Review at Night; Just Like Me. They go here, in that order. -->
 
 ## Use Childhood Photographs Gently
 

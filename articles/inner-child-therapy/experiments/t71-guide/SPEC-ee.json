@@ -1,0 +1,68 @@
+[
+ {
+  "key": "jl2m",
+  "draft": "jl2-m",
+  "label": "Just Like Me P2 alone, m (jl2-l with the tonglen pointer moved to the end, in parentheses)"
+ },
+ {
+  "key": "secjlm",
+  "blocks": [
+   "## Just Like Me",
+   "G:sp7-p1-c",
+   "D:jl2-m"
+  ],
+  "label": "Just Like Me, the h2: P1 sp7-p1-c, P2 jl2-m",
+  "march": "sp7-p1-c: ?, jl2-m: B S S B B B"
+ },
+ {
+  "key": "secspjl1",
+  "blocks": [
+   "# Simple Practices",
+   "S:## Borrow Hindsight",
+   "S:## Remember When You Already Did It",
+   "S:## A Heart-to-Child Loop",
+   "## Just Like Me",
+   "G:sp7-p1-c",
+   "D:jl2-l",
+   "S:## \u201cAnd So That\u2019s the Way It Happened!\u201d",
+   "S:## Use Childhood Photographs Gently",
+   "S:## Close the Session and Return to Life"
+  ],
+  "label": "Simple Practices, the h1 with Just Like Me (sp7-p1-c, jl2-l) moved up, after A Heart-to-Child Loop: at the guide's place, before Use Childhood Photographs Gently, it gave the photographs opener an AI window (round t71cc)",
+  "march": "sp7-p1-c: ?, jl2-l: B B S S B"
+ },
+ {
+  "key": "secspjl2",
+  "blocks": [
+   "# Simple Practices",
+   "S:## Borrow Hindsight",
+   "S:## Remember When You Already Did It",
+   "S:## A Heart-to-Child Loop",
+   "S:## \u201cAnd So That\u2019s the Way It Happened!\u201d",
+   "S:## Use Childhood Photographs Gently",
+   "S:## Close the Session and Return to Life",
+   "## Just Like Me",
+   "G:sp7-p1-c",
+   "D:jl2-l"
+  ],
+  "label": "Simple Practices, the h1 with Just Like Me (sp7-p1-c, jl2-l) last, after Close the Session",
+  "march": "sp7-p1-c: ?, jl2-l: B B S S B"
+ },
+ {
+  "key": "secspjl3",
+  "blocks": [
+   "# Simple Practices",
+   "S:## Borrow Hindsight",
+   "S:## Remember When You Already Did It",
+   "S:## A Heart-to-Child Loop",
+   "S:## \u201cAnd So That\u2019s the Way It Happened!\u201d",
+   "## Just Like Me",
+   "G:sp7-p1-c",
+   "D:jl2-m",
+   "S:## Use Childhood Photographs Gently",
+   "S:## Close the Session and Return to Life"
+  ],
+  "label": "Simple Practices, the h1 with Just Like Me at the guide's place, P2 jl2-m",
+  "march": "sp7-p1-c: ?, jl2-m: B S S B B B"
+ }
+]
