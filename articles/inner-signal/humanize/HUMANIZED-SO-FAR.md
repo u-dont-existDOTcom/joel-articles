@@ -36,21 +36,21 @@ I treat the subconscious as a living ecology of parts, memories, impulses, image
 
 # Quick start: do this first
 
-Gather attention, notice what is here, offer one fitting response, wait, then come all the way back. You can meet a difficulty or develop love, curiosity, play, or confidence. Nothing dramatic has to happen.
+To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply do these steps, in order: 1) Attention; 2) Notice; 3) Offer one fitting response; 4) Wait; 5) Come all the way back . Not much needs to happen in each session!
 
-Before the first session, read the induction and full return below while awake. Set aside time somewhere physically secure. Choose one purpose and what you are leaving alone today. Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.
+Prior to your first session, read through the induction and the full return in waking life, so you’re more familiar with it. Give yourself a chunk of time when you can be physically secure for the time it takes. Prior to each session, consider what one thing you’re going to be working on or cultivating during this session, and what you’re going to leave alone. Put this screen on the shelf and conduct the practice.
 
-As you listen, a sensation, image, phrase, feeling, objection, or silence may become noticeable. Let the next invitation follow that response. Use warmth, a boundary, direction, or more time as needed. Finish with the complete return, then note what happened and any real-world action it calls for.
+You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return. After, note what happened & any real-world actions.
 
-When you become panicky, disoriented, increasingly unreal, or less able to function, stop deepening and return to the room and appropriate support. A difficult feeling you freely choose to stay with while present is a different situation.
+If at any point you feel panicky, disoriented, more unreal, or less functional, this is not about bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support.
 
 ## Do you usually think in words?
 
-Before choosing a script, notice how words actually work in your mind. Do silent words or phrases arise often, occasionally, rarely, or hardly at all? They needn’t sound like an audible voice. Does this vary when you plan, remember, reflect, or feel upset? Can you deliberately form a silent sentence, even if words seldom arrive on their own?
+Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary when you plan, remember, reflect, or feel upset? If it doesn't come naturally, can you make yourself think in words, silently? (Thinking in words doesn't mean you hear them.)
 
-That is different from feeling something before words come in a particular moment. Neither question requires deciding that feelings always come first. “Not sure” is a useful answer; this is a way to choose workable instructions, not a diagnosis.
+This doesn't mean that in any given moment you may not notice feelings before words. You don’t have to decide that feelings always come first. This isn't a diagnosis, just a way of finding what's useful. "Not sure" is an answer.
 
-Read “say,” “ask,” and “listen” in this guide as invitations, not a requirement for an inner narrator. Speak aloud, write, use a recording, or follow the invitation without rehearsing a sentence. The child and protector needn’t speak in sentences either. Don’t assume an image must appear instead. Try whatever is accessible, and change the route when it stops helping.
+If you don't normally think in words, you may want to say things aloud, in writing, on a recording, etc., when this guide says "say." Or, just do what it invites, without preparing what you're going to say. When it says "ask" the child or protector, or "listen" for a response, it doesn't mean they'll be saying full sentences to you. It also doesn't mean you'll get pictures in your head instead. Just do whatever you can, and try different ways as needed.
 
 # What I mean by hypnosis
 
@@ -686,13 +686,13 @@ Use Come all the way back, even when you ended early. Afterwards, write a few li
 
 # The 15-minute daily practice
 
-Use the same practice rather than learning a second script: gather attention, listen, respond, wait, return. Fifteen minutes is a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings must follow. Use a few minutes to enter, leave several minutes to return, and let the middle unfold at its own pace. Five minutes of silent listening is available when useful; you can interrupt it to change direction.
+Notice there is no need to learn a second script! The process is the same. You are simply practicing for fifteen minutes or so (a convenient time, not a dose or a timetable). That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace (five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better) and come out again (that takes a few minutes too).
 
-Another simple entry is to notice three things you see, three you hear, and three bodily sensations; then two of each, then one. Count from five to one and begin listening. Use the entry that suits you, rather than stacking inductions.
+You can also try other ways of inducing yourself such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each, counting from 5 to 1 and beginning to listen. Choose one way to induce yourself, you don't need to try all of them! (In fact, it might be counter-productive!)
 
-After familiar runs, shorten a recording to the cues you still need, then try practicing without playback. Keep recordings when you enjoy them; independence means being able to guide yourself, not having to refuse help. The optional re-entry cue can shorten an already familiar induction.
+Once you have practiced listening a few times with the recordings, you may want to shorten them to speed up your induction, or even practice without playing them back at all. On the other hand, if you like using the recordings, there is no reason to stop! Being able to guide yourself does not mean you have to! (NB. You may wish to use the re-entry cue to help you re-enter your process, this will also shorten your induction if you already know what to do.)
 
-Afterward, ask what needed warmth, what needed protection, and what direction serves truth, love, and life. Was there something to explore, or capacity to build? What can you carry yourself now? When action is needed, make it concrete: “If [cue] happens, then I will [small action].” Check how you sleep, relate, and function later, not only how impressive the session felt.
+As you come out of the process ask yourself what you learned needed warmth, what needed to be protected, what you need to do differently to be more in accord with truth and love and life. Is there something you want to explore more fully or a capacity you want to build? And most importantly, what can you carry with you as you move forward from this? If you identified something you needed to do differently, make a plan with yourself to do that thing. The more specific you can be, the more likely you are to change: “If _________ (fill in the cue for the old pattern), then I will do ________ (fill in one small action that will begin to change the pattern).” Then check back later and see how you are doing – sleeping, relating, functioning, etc., not only how impressive the session felt
 
 # The weekly deeper practice
 
@@ -702,33 +702,23 @@ If possible, it’s good to do the normal thing immediately after the exercise, 
 
 # Capacity before content
 
-Altered-state rule: do not ask for hidden truth while medically unsafe, panicking, sleep-deprived, nauseated, destabilized, manic, psychosis-like, or chemically overwhelmed. First stabilize. Truth that requires destabilization is not ready to be known directly. Ask for capacity, not content.
+NOTE: If it is medically unsafe or you are in a place of panic, sleep deprivation, nausea, deep destabilization, mania, psychosis like symptoms, feeling overwhelmed by chemicals etc. then first focus on stabilizing and then look for what your subconscious needs you to know! If it takes you destabilizing to know what your subconscious knows, it is not meant for you to know directly at this time! Focus on asking for capacity over content!
 
-Sometimes it feels as though the subconscious knows something the conscious mind can’t yet tolerate. The subject may be sexuality, grief, trauma, family truth, betrayal, shame, vocation, relationship reality, illness fears, spiritual calling, addiction, identity, or moral conflict.
+Sometimes, it feels like your subconscious knows something that your conscious self is not prepared to know. It may be something related to your sexuality, grief, trauma, family issues, betrayal, shame, vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues etc.
 
-Interrogation is the dangerous response:
+What you DON’T want to do is bully your subconscious into telling you what it knows by saying things to yourself like:
 
-“Tell me now.” “Reveal everything.” “Stop hiding.” “I demand the truth.”
+“What is it you won’t tell me? What are you hiding? Tell me NOW! I am telling you to tell me!”
 
-That pressure can produce flooding, panic, false certainty, confabulation, dissociation, or a generally worse Tuesday. Flooding can make the adult capacities needed for pausing, comparing options, reality-testing, planning, and choosing much harder to reach. In that state, regulation and support come before deeper dialogue. Silence may be protection when the adult lacks enough regulation, support, humility, or practical capacity to receive the material.
+This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities so focus on being able to regulate and getting support! Sometimes, it is better not to know what is not being said until your adult has the capacities to regulate, get support, be humble, etc. Just ask for what you need to know in a way that you CAN tolerate:
 
-Ask for the next tolerable piece:
+“What can you tell me, that will make my conscious self 5% better at knowing the thing you want to tell me?” “Can you tell me in symbolic form so I am not completely overwhelmed by the revelation?” “Can you tell me what I need to do to be safe, without actually telling me what it is”? “Do I need to know WHAT it is, or do I need to know that I need to get some support to have the capacity to know what it is, and who would be a good person to help me?” etc.
 
-“Do I need to know the content now, or do I need to build capacity first?”
+Instead, say to yourself something like this:
 
-“What would make the conscious mind 5% more able to receive this?”
+“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! Give me one next action!” etc.
 
-“Can you show me the truth as a symbol, not a full revelation?”
-
-“Can you give me the next protective action without revealing the whole story?”
-
-“Who, if anyone, should help me hold this?”
-
-A safer script:
-
-“Wise subconscious, if there is something I cannot yet handle, please do not break it open violently. Help me become someone who can know it safely. Give me preparation before revelation. Give me grounding before memory. Give me support before intensity. Give me one next action.”
-
-Hypnotic imagery can be meaningful without being literal. The mind symbolizes, compresses, distorts, dramatizes, and borrows from culture and fear. Around trauma and memory especially, treat an image as an image and involve outside support when needed.
+REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image and get some help outside of yourself!
 
 # Troubleshooting
 
@@ -886,25 +876,25 @@ If the practice makes ordinary life more loving, honest, functional, relational,
 
 # Closing
 
-The subconscious isn’t the enemy. Neither are the body, the sharp analytical mind, or the protector that has been braced for years. Most of them have been trying to help without ever being properly introduced.
+Start from the basis that the sub, the body, the sharp mind, and the guy who's tensed up and ready for the other shoe to drop for a long time are all not your enemies. Most of them are actually trying to help you.
 
-I’m less interested in how deeply you can get hypnotized than whether you become an adult you can trust.
+Whether or not you can "get hypnotized" very deeply is less interesting to me than whether or not you can become a trustworthy adult.
 
-Listen until the kid is willing to come closer. Keep enough small promises that the guards can occasionally sit down. Love yourself enough that thought stops bracing against tenderness, and think clearly enough that love doesn’t drift into fantasy. Then take the practice back into ordinary life, where the adult keeps the promise.
+Listen to it for as long as it takes until it's comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to the kid, so the various guards feel they can occasionally relax. Work on loving yourself in a way that your thinking doesn't object to; work on thinking in a way that your love for yourself doesn't become fantasy; work on doing this in the course of regular life so that your adult self can keep the promise.
 
 # Try it in the Inner Signal app
 
-Use [the Inner Signal app](http://innersignal.u-dont-exist.com/) to get voice hypnosis sessions, learn the method, develop your own language, reflect on what you report, and ask questions about a hypnotist’s approach. Self-hypnosis doesn’t require an app, and finding a practitioner is an option rather than a graduation requirement.
+You can download [Inner Signal App](http://innersignal.u-dont-exist.com/) for voice hypnosis, information, to learn the language, and for feedback on what you report. Have fun. Feel free to ask any questions you might have about what the hypnotist is doing. Self hypnosis is a great tool, but you don't need an app to do it. You may want to find someone, but it is not required to graduate.
 
-In the ChatGPT version, an uploaded picture or drawing, a poem, or a song can be the starting point rather than a prose explanation. Use material the current chat can actually inspect; it should say when it cannot open an image or hear audio. What the material contains, what it means to you, and the app’s interpretation are different things. You can correct the interpretation without having to justify your choice of expression.
+If you’re using the ChatGPT version of this app, you might want to upload a picture, drawing, poem or song to talk about instead of writing out your explanation in prose. But please make sure the file you upload can be seen or heard by the chat you’re currently using! It will probably tell you that it can’t see or hear the file if you’ve made this mistake. Please remember that what’s in the file, what it means to you, and what the app thinks it means, are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium.
 
-Keep in mind that even with voice, an app has to ask what is happening. It cannot feel your body, share a practitioner’s embodied intuition, or know an unreported response. Its role is to help you learn and make better-informed choices, not pretend to be a skilled therapist.
+Bear in mind that even with voice, the app is asking you what’s going on for you – it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report. The app is not pretending to be a skilled therapist, just helping you to learn for yourself, so that you can make better-informed choices.
 
-Enter through this page rather than bookmarking the app itself, so you reach the current version.
+Always enter this app via this page, not by bookmarking the app itself, to make sure you get the current version.
 
-[Please fill out the survey](https://script.google.com/macros/s/AKfycbwypn4sa1kqDggJq2pad0LwOiOoOtOTORT0XUR0alxinuh8eZxCfilYTpz00a4_QpF3XA/exec) with what you learned. It gives you a record for later analysis and helps other people learn how the guide is landing in real practice.
+[Please fill in this survey](https://script.google.com/macros/s/AKfycbwypn4sa1kqDggJq2pad0LwOiOoOtOTORT0XUR0alxinuh8eZxCfilYTpz00a4_QpF3XA/exec) with what you’ve learned, so that you have something to analyse later, and others can learn how the guide is landing in real practice.
 
-When the guide or app leaves a real question unanswered, you can [contact me directly](https://signal.me/#eu/iNKdjZ1dbaH2VwYQkef44IUuooR4bWGaNrVI6l6jCdAFuLxIbv1CoaihQYmXIQtV) for a consultation.
+If the guide or the app leaves a real question unanswered, please [contact me here](https://signal.me/#eu/iNKdjZ1dbaH2VwYQkef44IUuooR4bWGaNrVI6l6jCdAFuLxIbv1CoaihQYmXIQtV) to discuss arranging a consultation.
 
 # Appendices
 

@@ -1,0 +1,347 @@
+{
+ "key": "HG38+39",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG38+39.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix I: Sleep hypnosis"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "* For sleep, try using this playlist by Nimja"
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "Nimja’s sleep playlist",
+     "new": "this playlist by Nimja"
+    }
+   ],
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Appendix J: A practical induction library"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3,
+    4
+   ],
+   "paras": [
+    "Practise! Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all! Any of these ‘families’ of induction can be done as light inductions, with eyes open, or instead of trance you can just do them as a contact. Once you start an induction, you will want to notice what’s going on (even if nothing changes) and work out what to do next, move, imagine something else, change the sensory channel you’re using, do nothing, stop the induction sequence and do something else… . Whatever you do, make sure you bring yourself fully back to waking at the end of an induction.",
+    "NB: if you can’t ‘see’ the images you’re trying to visualise, that’s fine, change them into words, rhythm, spatial relations, something to touch or move or just plain ‘knowing’… ."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B3: LOST \"complete\" in the complete waking return (\"fully\" restored)",
+     "replace": "bring yourself back to waking",
+     "with": "bring yourself fully back to waking",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Stretch and release"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Stretch and Release: Work out what will be supporting you, focus on the feeling of support. You can also focus on where one of your hands or feet is. Either actually, or in your imagination, stretch a little bit, either stretching that part of your body slightly or pressing gently down into the support, and then let go of the effort, just relax. See if there is any difference, even if there isn’t. Do this for no more than 3 places on your body. Think of it as ‘releasing’ as you go through the sequence. Which bit of your body, or voice, needs this? What do you need to support it? Bring your body back to normal movement and return."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"press gently, stretch slightly, and release\" became \"either stretch or press down\" (\"gently\" dropped; restored on the press)",
+     "replace": "pressing down into the support",
+     "with": "pressing gently down into the support",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Supported floating"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Supported Floating: Work out what is supporting you and where your weight is, imagine that the support is holding a tiny bit (1%) more of your effort. It’s like floating but you don’t have to lose contact, or just keep it at the same level, just enough weight/pressure. See what happens, you can fractionate this if you want, perhaps noticing your normal awareness when you breathe in and the support when you breathe out. Tell yourself you are going to do this before you do it. What can you hear more easily now? Bring yourself back to normal feeling of support and return."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Rhythmic breath or pulse"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Rhythmic: Use your breathing or slightly hum in your throat to make a natural rhythm, or tap your finger or listen to sounds outside to make an artificial one. You can even do it by counting to yourself (silently) or with no rhythm at all. Tell yourself you are going to say “here, and here again” over and over, and notice what you pay attention to in between the phrases, then stop saying it. Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up. Does it make any words, feelings, needs or actions more clear? Bring back your normal rhythm and return."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Unwinding object"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "Unwinding Object: Good for when you have a few different strands to one thing you want to work on. Imagine an object unwinding – maybe some yarn, some bubbles, or some knots that you place beside you. Once you’ve placed them all, give yourself a minute to look at them all, you don’t have to change anything, but you can label them if you need to (just a word or two). How many did you put down? Which one do you need to work on, what does it need – warmth, protection, action? Keep one strand in your attention and put the others somewhere you can see them and return."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Sensory journey"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Sensory Journey: Pay attention to the sounds in the room you’re in and how your body feels, then imagine yourself walking somewhere. Where do you want to go? Listen to the sounds of your footsteps and take in your surroundings as you walk, what do objects feel like if you touch them, what landmarks do you see? When you feel you have enough of your attention, imagine the scenery changing until you are in a place where you can talk to whoever you need to (or you can just cut to the chase, if you prefer). Pay attention to something without worrying about what it means. Allow yourself to be curious about what’s going to happen next, but don’t make it a “what are they going to do to you?” kind of thing. When you are ready to finish, imagine yourself walking back the way you came and close the space."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Gradual wave"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Gradual wave: start with a very small neutral area, feel into it a little and then imagine a wave spreading out to a new area that is still ok. Sense into the new area (or continue using the old). See if there is anything different at each step, without claiming it is a medical repair. Does the body want any contact, space, words, other care? Let the mental image go, sense your body, sense your contact points, come back."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "B16: WRONG \"without claiming medical repair\" became \"look for anything needing medical attention, imagine it fixed\" (the caution is back and the invented medical looking is gone)",
+     "replace": "that could use medical attention, and if you imagine it being fixed, what is different afterwards?",
+     "with": "different at each step, without claiming it is a medical repair.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "Care workshop"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "Care workshop: prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. Goal is to make it \"good as you\", not to erase history. Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B18: SHIFT part comes \"as close as they want\", not only as closely as welcome (the limit on how close it comes is restored)",
+     "replace": "to come as close as they want",
+     "with": "to come only as close as is welcome",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B18: LOST \"not erased history\"",
+     "replace": "\"good as you\".",
+     "with": "\"good as you\", not to erase history.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "Resource embodiment"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Resource: pick a resource quality. Imagine yourself accessing 1% more of that quality (or just sense yourself). What is different? How is your body, voice, etc? Do this a few times to strengthen it. Come back, keeping the quality and one positive action that you would do with it, but leaving the \"person\" behind, saying \"I am me\"."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "No-trance inner contact"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "For the no trance inner contact, I would do: Pacing: notice you can see, it's (day of the week), you have feet, you can read, you can write, etc. Suggestion: in your mind, ask one clear question and wait, but don't focus too hard. Choice: you can answer the question, write an answer, write that you don't know, take a break, rephrase the question, ask someone else, stop doing this, etc. Autonomous: write whatever you get. Deepener: none. Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing. Integration/exit: reality test the autonomous, do one small thing based on it, stop doing it."
+   ],
+   "run": "HG38_39-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG38_39-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B22: LOST \"wait\" after the question and \"one clear\" question",
+     "replace": "ask a question,",
+     "with": "ask one clear question and wait,",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B22: SHIFT \"one small action\" became \"something based on it\" (the size limit on acting on the signal is restored)",
+     "replace": "do something based on it",
+     "with": "do one small thing based on it",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

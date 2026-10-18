@@ -1,0 +1,19 @@
+[
+ {
+  "run": "HG20-fxw1",
+  "key": "HG20",
+  "sent": [
+   10,
+   11
+  ],
+  "flagged": [
+   11
+  ],
+  "headings": [
+   10
+  ],
+  "words": 73,
+  "input": "meaning-fixed text",
+  "from": "rf-h/HG20.split.json"
+ }
+]

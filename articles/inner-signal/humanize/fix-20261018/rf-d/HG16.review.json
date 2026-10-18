@@ -1,0 +1,44 @@
+[
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT \"often arrives with\" became \"you are likely being manipulated if you feel any\" (a sign that often comes with manipulation became a diagnosis)",
+    "replace": "You are likely being manipulated if you feel any of the following",
+    "with": "Manipulation often comes with any of the following",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B3: SHIFT \"immediately\" and \"automatic\" dropped, now flat \"don't obey, don't rebel\" (qualifiers restored; the section itself says no remains no)",
+    "replace": "Don’t obey, but don’t rebel",
+    "with": "Don’t obey immediately, but don’t rebel automatically",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B11: SHIFT \"can slip past\" became \"a very effective way to by-pass\" (a possibility made a strong claim)",
+    "replace": "are a very effective way to by-pass",
+    "with": "can by-pass",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

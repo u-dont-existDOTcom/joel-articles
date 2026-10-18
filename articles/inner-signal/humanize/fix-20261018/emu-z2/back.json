@@ -1,0 +1,38 @@
+[
+ {
+  "run": "HG20-fxw1b",
+  "key": "HG20",
+  "status": "ok",
+  "segments": [
+   {
+    "blocks": [
+     11
+    ],
+    "old": [
+     "“My shoulders tightened” and “that wording feels wrong” are different observations. Tightening alone doesn’t explain itself. Ask what happened and whether the invitation fits. An explicit no needs no further justification; change the words, the pace, or the approach. Don’t repeat an unwelcome suggestion more persuasively."
+    ],
+    "new": [
+     "Do you notice a difference between communicating “when you clench your shoulders that doesn’t feel quite right to do that” and “when you clench your shoulders that doesn’t feel right”? Do you find yourself needing to consider if it fits, or do you simply change it when you know it’s a no go? If it doesn’t fit, change it!"
+    ]
+   }
+  ]
+ },
+ {
+  "run": "HG20-fxw1c",
+  "key": "HG20",
+  "status": "ok",
+  "segments": [
+   {
+    "blocks": [
+     11
+    ],
+    "old": [
+     "“My shoulders tightened” and “that wording feels wrong” are different observations. Tightening alone doesn’t explain itself. Ask what happened and whether the invitation fits. An explicit no needs no further justification; change the words, the pace, or the approach. Don’t repeat an unwelcome suggestion more persuasively."
+    ],
+    "new": [
+     "Because 'hmm, that feels kind of wrong' is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it. Just change it. You don't need any other reason."
+    ]
+   }
+  ]
+ }
+]

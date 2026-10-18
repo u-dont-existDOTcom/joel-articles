@@ -1,0 +1,315 @@
+{
+ "key": "HG20",
+ "from": "fix-20261018/rev-d/HG20.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Let the next response guide you"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Once you've read the induction and done the inner meeting, this will make more sense. Read through these, and then try doing it without looking at the screen."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Respond to each thing that comes up with an accurate notice and a small reasonable invitation (or act or taking more time etc). The 'thing' might be a sensation, image, gesture, feeling, words, or anything. The notice and invitation don't need to take all those forms, just notice and invite what happens."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Finding your own words"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "paras": [
+    "An example notice might be, \"I notice my chest tightening when I imagine asking for help\". Don't add interpretation like \"this must be the abandoned child part of me, or a protective mechanism\" - just notice what you notice. An example invitation might be, \"And as I notice that, I can take some time before deciding what it means, and notice if I want to say anything, or change it, or just stay like that\".",
+    "Then just listen. You don't need fancy language - often it will be better to just ask what happens next, or whatever. If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it) but somedays you need to talk to understand, so just do that.",
+    "You can be pretty straightforward when that's the help you chose - \"Let the explanation wait a moment. What do I feel as I say that?\" can be a perfectly valid thing to say to yourself, and help you focus. It's ok to just be with an unpleasant feeling, you don't have to wait till it's a nice one before you know you're ok. As long as you're still present, and able to change if you want to, and happy to carry on, a sad feeling or tension or whatever doesn't mean it's not ok.",
+    "It's worth trying to separate the notice, the meaning, and your thoughts on the meaning, but in practice it will often be pretty fuzzy. When you can, it can be helpful to separate it out like that though - \"I noticed... this seemed to mean... here's why that might be true / false\" or something like that.",
+    "Is this a notice or meaning? \"My stomach went tight\" is a notice, \"He's a complete bastard\" is a meaning, even if you didn't think it in words. You can then go on to find out what he did, notice what it was that gave you the idea, and consider if there might be other explanations. It's also ok to use phrases that you didn't think in your head - if something comes up that you're analysing, it's still good to analyse, even if it's not in your head already. Nonverbal thoughts and early thoughts aren't necessarily any better or worse than other thoughts. Feelings are good to pay attention to, but it's still good to consider what they mean."
+   ],
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Let the response change the invitation"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "If you notice something like your shoulders tightening in response to an invitation, that's different from saying \"that's not quite right\". The first one doesn't tell you why - it's worth considering whether it fits, but if you get a clear 'no' then you don't need any more reason to change what you're doing. If something doesn't fit, change it - don't keep trying the same thing."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "\"I notice the tightness, and I can just leave it like that. I wonder if that fits, or if I'd rather do something different?\""
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Sometimes it just isn't right - sometimes it's something you hadn't thought of. Neither is automatically a protector, and just being silent doesn't mean there's a process."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Look at the situation too"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "If there is another person involved in the situation, it may be a good idea to look at what they are doing as well. Are they able to communicate in a mature fashion? Try and be specific in your description, and be willing to alter it if you find out that it was incorrect. Just because someone is disagreeing with you or trying to set boundaries around you does not mean they are in their emotionally immature parts. You don’t need to subject yourself to something that may be dangerous to determine if this is the case."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "On the other hand, you may find that you have acted inappropriately and you feel guilty. Having feelings of guilt does not mean that you have done something wrong or that you have been manipulated. Have you done something that was wrong or that caused harm? If so, what can you do to fix it? On the other hand, did you give in to someone else just to keep them from being disappointed in you? What do you want to do or achieve the next time you interact with this person? Do you need them to understand what you are feeling/thinking? Do you just need to communicate information to them? Do you need to set boundaries with them? Do you need to end the interaction prematurely? You don’t have to make them understand before you can act."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "Change the amount of contact"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "When you start to contact it, if it feels too much, immediately start to widen your awareness to something else in the room, in your body, etc. Keep moving back and forth between the difficult thing and the easier thing. This is called pendulation and titration. Do as much or as little as you feel you can. You set the pace, you don’t have to do a certain number."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "Ok, I think that is enough for now."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Feel free to go back and explore more if you wish to do so. If, at any point, you start to lose contact with the here and now, feel that things are becoming more and more unreal, or you feel that you are not able to switch to something else or stop, stop trying to explore inside of yourself and just do the entire “coming back” part. If you have trouble orienting yourself and it lasts for a prolonged period of time, please get some human help rather than trying a stronger “induction” back to the here and now."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "If you feel an urge to move, turn, reach, push, or change your body’s position, feel free to either actually do something that will not cause your body pain or discomfort, or just imagine doing what you feel you need to do, and see what happens next. You do not need to “act out” the urge, feel that you need to move, shake, release, etc. If you do move and you feel that you are causing yourself pain or other symptoms that you are concerned about, stop moving."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "Offer the care that is actually wanted"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "paras": [
+    "If any “younger” parts come up, offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose. You don’t have to consider them literally “younger”, nor do you have to ask them why they are there or what happened to them. If you can identify any “protector” parts, talk to them and find out what they are concerned about. All of them are welcome to the “meeting”. You don’t have to get rid of any of them.",
+    "If you feel that it would be useful to bring in a “nurturer”, “protector”, “leader”, etc to help you either change the “tone” of the interaction, set boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have to talk to them, just use them to get whatever function you need that you aren’t able to do on your own. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.",
+    "Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualising someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.",
+    "It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can ‘stay there’ (ie remain in the process). If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t ‘take’ the love.",
+    "Allow yourself to see where the metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to ‘do something’ to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try ‘doing that’ for as far as it takes to be of use to you. Remember that whatever you find out, is likely to be metaphorical. It may be a good hypothesis for what you need to do but it is not a proven fact.",
+    "Alternatively, you may want to use the session to develop a capacity that you want to develop (ie love, play, courage, curiosity etc). You can also use it to rehearse something that you have decided to do."
+   ],
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    30
+   ],
+   "paras": [
+    "Finish without forcing a revelation"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "Ending the session . Don’t feel that you have to end the session with a ‘great revelation’! When you have done as much as you want to do, it is a good idea to find out if there is anything that you need to do to make sure that you can leave things where they are for the time being. This might include thanking parts for their help, or making sure that you do something ‘in real life’ (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc) or it may be that there is nothing to do!"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Note : throughout the exercise, allow your ‘analytical’ part to make comments and/or tell you that it doesn’t like what you are doing and/or tell you to stop doing the exercise. Just tell it that you will check things out when you come back and make any commitments etc when you are back. You can stop whenever you want to. Remember that the images that you see can be meaningful without being actual memories of things that happened and just because you see an image, or feel a body release, that doesn’t mean that you are right about what is going on!"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG20-fxw1",
+   "file": "fix-20261018/emu-r/HG20-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    33
+   ],
+   "paras": [
+    "When you have finished, even if you stopped part way through, use the ‘ Come all the way back ‘ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what you are unsure about, any phrases that were said, any body signals, any information that the ‘inner child’ said that it needed, anything that a ‘protector’ wanted you to know, any boundaries that you put in place, any ‘repairs’ that you did, anything that you learnt about what it is a mistake to try and force etc). You don’t need to write down the whole cast of characters, just what you actually noticed."
+   ]
+  }
+ ],
+ "split_from": "rf-a/HG20.fixed.json"
+}

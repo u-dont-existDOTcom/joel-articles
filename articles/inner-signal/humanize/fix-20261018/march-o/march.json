@@ -1,0 +1,68 @@
+{
+ "HG16-B2": {
+  "was": [
+   "S"
+  ],
+  "new": [
+   "S"
+  ]
+ },
+ "HG16-B3": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG16-B11": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG38+39-B3": {
+  "was": [
+   "S S S S S",
+   "B"
+  ],
+  "new": [
+   "S S S S S",
+   "B"
+  ]
+ },
+ "HG38+39-B6": {
+  "was": [
+   "S S S S S S B B S"
+  ],
+  "new": [
+   "S S S S S S B B S"
+  ]
+ },
+ "HG38+39-B16": {
+  "was": [
+   "S S S B S"
+  ],
+  "new": [
+   "S S S B S"
+  ]
+ },
+ "HG38+39-B18": {
+  "was": [
+   "S S S S S S S S S"
+  ],
+  "new": [
+   "S S S S S S S S S"
+  ]
+ },
+ "HG38+39-B22": {
+  "was": [
+   "S S S S S S S"
+  ],
+  "new": [
+   "S S S S S S S"
+  ]
+ }
+}

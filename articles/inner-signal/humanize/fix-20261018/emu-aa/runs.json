@@ -1,0 +1,50 @@
+[
+ {
+  "run": "HG24-fxw1",
+  "key": "HG24",
+  "sent": [
+   35,
+   36,
+   37
+  ],
+  "flagged": [
+   36,
+   37
+  ],
+  "headings": [
+   35
+  ],
+  "words": 21,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG24.fixed.json"
+ },
+ {
+  "run": "HG24-fxw2",
+  "key": "HG24",
+  "sent": [
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48
+  ],
+  "flagged": [
+   42,
+   43,
+   44,
+   46,
+   47,
+   48
+  ],
+  "headings": [
+   41,
+   45
+  ],
+  "words": 274,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG24.fixed.json"
+ }
+]

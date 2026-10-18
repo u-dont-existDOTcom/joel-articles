@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-z/HG20-fxw1.txt",
+  "input_words": 73,
+  "input_sha256": "5f5bea23b2fd431bce214f1ef7ba1c73fea14c913fe882aa4467f89c6ec37ce5",
+  "balance_before": 92885,
+  "started_utc": "2026-10-18T06:40:42Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:40:49Z",
+  "response": {
+    "id": "6d3d9041-15ac-42c8-a21e-07b818a02c53",
+    "tool": "humanize",
+    "text": "Let the response change the invitation\n\nThere is a big difference between communicating “When you invite people to your house, the back of\n\nshoulders gets really tight” and “That doesn’t feel quite right”. With the latter, if you don’t change something because it doesn’t feel right and it turns out to be a ‘no’, then you need to change something. If something doesn’t work, change something!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 73
+    },
+    "elapsed": 5
+  },
+  "balance_after": 92812
+}

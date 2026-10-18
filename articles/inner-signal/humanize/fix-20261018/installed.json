@@ -91,5 +91,45 @@
   "paragraphs": "450g",
   "fixed": "rf-a/HG40.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG21": {
+  "stage": "triaged",
+  "whole": "450g HG21-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG21.verify.part*.out.txt, triaged in rf-a/HG21.triage.json",
+  "paragraphs": "451g",
+  "fixed": "rf-a/HG21.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG27": {
+  "stage": "triaged",
+  "whole": "450g HG27-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG27.verify.part*.out.txt, triaged in rf-a/HG27.triage.json",
+  "paragraphs": "451g",
+  "fixed": "rf-a/HG27.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG28": {
+  "stage": "triaged",
+  "whole": "450g HG28-rfix (443g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-a/HG28.verify.part*.out.txt, triaged in rf-a/HG28.triage.json",
+  "paragraphs": "451g",
+  "fixed": "rf-a/HG28.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG23": {
+  "stage": "triaged",
+  "whole": "450g HG23-rfix (445g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-b/HG23.verify.part*.out.txt, triaged in rf-b/HG23.triage.json",
+  "paragraphs": "451g",
+  "fixed": "rf-b/HG23.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG04": {
+  "stage": "triaged",
+  "whole": "450g HG04-rfix (445g refix, then the triaged fixes of its second reading)",
+  "meaning": "rf-b/HG04.verify.part*.out.txt, triaged in rf-b/HG04.triage.json",
+  "paragraphs": "451g (and 442g for HG04's unchanged ones)",
+  "fixed": "rf-b/HG04.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

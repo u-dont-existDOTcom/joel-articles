@@ -1,0 +1,16 @@
+[
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the body signal (shoulders tightening) as the one that needs looking into, beside the clear no that needs no reason; the fragment \"Because\"",
+    "replace": "Because 'hmm, that feels kind of wrong' is a signal",
+    "with": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal",
+    "round": 1,
+    "from": "my triage (Opus) of emu-z2 sample c, the best of three samples of P8 (450g: it read AI alone)"
+   }
+  ]
+ }
+]
