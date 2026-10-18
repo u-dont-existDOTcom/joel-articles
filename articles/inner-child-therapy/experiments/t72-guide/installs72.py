@@ -290,3 +290,9 @@ register('dmove-in', _move_ins_old, _dmove_ins_new)
 # Guide at all" said more than he did
 register('ifsg', lambda: para('So inner child therapy draws on those higher vantage points'),
          lambda: dnote('ifs-guide-c', '45: his "most inner child therapy does not sufficiently address the Guide ... so it can go in the oppoosite extreme from IFS" was "doesn\'t do much with the Guide at all, which is the opposite problem" in my first wording (installed in round t72c), more than he said; now "doesn\'t do enough with the Guide, which is the opposite extreme".', 'IFSG') + draft('ifs-guide-c'))
+
+
+# --- Round g: the guide's list inside P5's own sentence, and the vague last sentence out (54, 8 and 11) ---------------
+for _x in 'hik':
+    register('yb5' + _x, lambda: para('So how were the next few days?'),
+             (lambda s: lambda: dnote(s, '54, 8 ("we can remove the "change several things at once" version in the other section since that sounds too vague to be useful"; coming out first is in Before You Try to Go Deep P2 now) and 11, B ("original list more informative"): the guide\'s "Try shorter duration, less depth or imagery, better timing, more symbolic or indirect representation, eyes open or stronger external anchors, less isolation, and more support." inside the paragraph\'s own "a bit easier" sentence, with the rest as it was. As a paragraph of its own, or with scenes, it read AI in all sixteen versions (rounds t72a to t72e).', 'YB5') + draft(s))('yb5-' + _x))
