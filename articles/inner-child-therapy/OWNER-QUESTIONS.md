@@ -17,6 +17,7 @@ The section went in tonight, at the start of the Appendix ([Human Written 0.26, 
 - "IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition."
 - Related Clinical Work: "This framework developed through the teachers and collaborators credited below and my own practice." and "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package."
 
+A first-time reader (a cold read of the section) paused at a few of them: "Leader, Guide, or Guru", "neo-Advaita", "these wounded young parts" (nothing just before it in the article names them), "This framework" and "the whole synthesis".
 - **A. "My words"** for all of them, or name the ones.
 - **B. Your words instead** for any of them (they get checked again with your words).
 - **C. Leave a line out.**
