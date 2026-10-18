@@ -231,7 +231,7 @@
     8
    ],
    "paras": [
-    "A useful guide leaves more of the ‘adult’ in the conversation. When the state is more powerful, you need stronger boundaries."
+    "A useful guide helps bring more of the ‘adult’ into the conversation. When the state is more powerful, you need stronger boundaries."
    ],
    "run": "HG16-d-s1",
    "file": "fix-20261018/emu-g/HG16-d-s1.out.txt",
@@ -241,6 +241,14 @@
      "what": "a useful guide leaves the adult more present; powerful states need stronger boundaries (not 'the above is a rough guide')",
      "replace": "The above is a rough guide to help bring more of the ‘adult’ into the conversation. Use more of the above when the state is more powerful.",
      "with": "A useful guide leaves more of the ‘adult’ in the conversation. When the state is more powerful, you need stronger boundaries."
+    },
+    {
+     "type": "MARCH",
+     "what": "my round-2 fix took out the stretch's only break (march-f: was \"B S\", new \"S S\"); Emulate's \"help bring more of the adult into the conversation\" back, with the published \"A useful guide\" (a person who guides, not the list above)",
+     "replace": "A useful guide leaves more of the ‘adult’ in the conversation.",
+     "with": "A useful guide helps bring more of the ‘adult’ into the conversation.",
+     "round": 3,
+     "from": "march-f, checked by me"
     }
    ],
    "verdict": "fixed"

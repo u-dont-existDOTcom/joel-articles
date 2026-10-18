@@ -1008,5 +1008,49 @@
    "why": "The adaptation point is now made once, in 'are my adaptations'; the second 'based on ... adapted' sentence is gone.",
    "from": "verify-a, adjudicate-a"
   }
+ ],
+ "HG31": [
+  {
+   "finding": "B1: \"etc.\" opens the topic list beyond the four named",
+   "verdict": "OK",
+   "why": "the four topics are all there; \"etc.\" adds none",
+   "from": "verify-f"
+  },
+  {
+   "finding": "B9: LOST \"destination can still be deliberate even when the route is subtle\"; \"reflexive skeptical argument\" became \"part that wants to argue\"",
+   "verdict": "OK",
+   "why": "\"get to the place I want to go to\" is the deliberate destination, \"indirect language\" the subtle route; the arguing part is the skeptical reflex in the guide's parts language",
+   "from": "verify-f"
+  },
+  {
+   "finding": "B26: \"more accurate\" reasoning added for the better example",
+   "verdict": "OK",
+   "why": "it is the published \"too strong\" turned round: the better example claims less",
+   "from": "verify-f"
+  },
+  {
+   "finding": "B113: INVENTED gloss \"into a situation where this pattern used to be triggered\"",
+   "verdict": "OK",
+   "why": "that is what future pacing is; the sentence after it says the same (the old cue showing up)",
+   "from": "verify-f"
+  },
+  {
+   "finding": "B114: \"the interpretation\" became \"your interpretation of the situation\"",
+   "verdict": "OK",
+   "why": "the same interpretation; no meaning changes",
+   "from": "verify-f"
+  },
+  {
+   "finding": "B115: INVENTED \"altered state\" (published says only \"Exit\")",
+   "verdict": "OK",
+   "why": "the exit is from the trance the pattern is done in (the appendix's own steps); nothing new is claimed",
+   "from": "verify-f"
+  },
+  {
+   "finding": "every other finding of verify-f (29 fixes in 25 stretches)",
+   "verdict": "FIXED",
+   "why": "rev-g/HG31.round2.json (rev-g/make_HG31_round2.py)",
+   "from": "verify-f"
+  }
  ]
 }

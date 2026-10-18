@@ -33,7 +33,7 @@
     1
    ],
    "paras": [
-    "You don’t have to know the terms to practice the core method. If you want to brush up on the art of imagery, how imagery is linked to bodily states, how to effectively rehearse new behaviors, how to choose more effective sentences to say to yourself, etc., then you might want to read this appendix. NLP is useful when it helps the system listen, but it’s easy to turn it into a bag of tricks and forget that love, truth, contact, and consent are essential."
+    "You don’t have to know the terms to practice the core method. If you want to brush up on the art of imagery, bodily states, how to effectively rehearse new behaviors, how to choose more effective sentences to say to yourself, etc., then you might want to read this appendix. NLP is useful when it helps the system listen, but it’s easy to turn it into a bag of tricks and forget that love, truth, contact, and consent are essential."
    ],
    "run": "HG31-r1-s1",
    "file": "fix-20261018/emu-e/HG31-r1-s1.out.txt",
@@ -51,6 +51,14 @@
      "replace": "to use the system",
      "with": "to practice the core method",
      "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"bodily states\" had become how imagery is linked to them",
+     "replace": "how imagery is linked to bodily states",
+     "with": "bodily states",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -72,7 +80,7 @@
     3
    ],
    "paras": [
-    "When it works, it works on a Sensory Level of NLP: changing where people see or hear an image, the distance or size or brightness, the volume of a sound, posture, pressure."
+    "First, it works on a Sensory Level of NLP: changing the form of an inner experience, where people see or hear an image, the distance or size or brightness, the volume of a sound, posture, pressure."
    ],
    "run": "HG31-r1-s2",
    "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt",
@@ -83,6 +91,14 @@
      "replace": "the posture of a remembered person, the pressure of an unpleasant sensation",
      "with": "posture, pressure",
      "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "\"When it works\" (a success condition) for the first of the four levels; LOST \"changes the form of an inner experience\"",
+     "replace": "When it works, it works on a Sensory Level of NLP: changing where",
+     "with": "First, it works on a Sensory Level of NLP: changing the form of an inner experience, where",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -126,7 +142,7 @@
     6
    ],
    "paras": [
-    "Fourth, it works on a Language Level of NLP: pacing what is already true, opening up people’s awareness, presuming their ability to do something safe, linking cause and effect carefully, embedding invitations, or asking de-hypnotic questions to break the effects of vague, absolutes, manipulative, or grandiose language."
+    "Fourth, it works on a Language Level of NLP: pacing what is already true, opening up people’s awareness, presuming only their ability to do something safe, linking cause and effect carefully, embedding invitations, or asking de-hypnotic questions to break the effects of vague, absolutes, manipulative, or grandiose language."
    ],
    "run": "HG31-r1-s2",
    "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt",
@@ -151,6 +167,14 @@
      "replace": "embedding suggestions",
      "with": "embedding invitations",
      "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "\"only\" in \"presume only safe capacity\"",
+     "replace": "presuming their ability to do something safe",
+     "with": "presuming only their ability to do something safe",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -197,6 +221,12 @@
    ],
    "run": "HG31-r1-s3",
    "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
+   "links": [
+    {
+     "published": "indirect language",
+     "new": "indirect language"
+    }
+   ],
    "fixes": [
     {
      "type": "LOST",
@@ -214,7 +244,7 @@
     10
    ],
    "paras": [
-    "To do that, I start with something I know to be true, and I take the pressure off by presuming only a small safe capacity in the person and invite just one movement:"
+    "To do that, I start with something I know to be true, I take the pressure off, presume only a small safe capacity and invite just one movement:"
    ],
    "run": "HG31-r1-s3",
    "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
@@ -225,6 +255,14 @@
      "replace": "the least possible capacity",
      "with": "only a small safe capacity",
      "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"lower the pressure\" is its own step; INVENTED \"in the person\" (it is the self)",
+     "replace": "and I take the pressure off by presuming only a small safe capacity in the person and invite just one movement:",
+     "with": "I take the pressure off, presume only a small safe capacity and invite just one movement:",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -247,7 +285,7 @@
     12
    ],
    "paras": [
-    "That way I pace reality, I open up awareness, I validate the function of what I'm doing, I presuppose capacity, I use a bridge to make the link easier, I invite only one small movement, and I have a way of testing with the body if it's happening."
+    "That way I pace reality, I open up awareness, I validate the function of the reaction, I presuppose capacity, I use a bridge to make the link easier, I invite only one small movement, and I have a way of testing with the body if it's happening."
    ],
    "run": "HG31-r1-s3",
    "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt",
@@ -258,6 +296,14 @@
      "replace": "the capacity to do what I want",
      "with": "capacity",
      "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"validate function\": the function of the reaction, not of what I am doing",
+     "replace": "I validate the function of what I'm doing",
+     "with": "I validate the function of the reaction",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -333,7 +379,7 @@
     17
    ],
    "paras": [
-    "“It is completely true that the sensation of _______ (or emotion of _____) is coming up for me right now. It makes complete sense that a part of me is trying to protect me by doing/thinking ________. While that is completely true, another completely true thing is that there is a part of me that is adult, and that is breathing in this room right now, and is willing to listen to whatever comes up next.”"
+    "“It is completely true that the sensation of _______ (or emotion of _____) is coming up for me right now. It makes complete sense that my system is reacting by doing/thinking ________. While that is completely true, another completely true thing is that my adult self is here, breathing in this room right now, and willing to listen to whatever comes up next.”"
    ],
    "run": "HG31-r1-s4",
    "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt",
@@ -344,6 +390,22 @@
      "replace": "and is willing to listen.",
      "with": "and is willing to listen to whatever comes up next.”",
      "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"my system is reacting\", not a part with an intent",
+     "replace": "a part of me is trying to protect me by doing/thinking",
+     "with": "my system is reacting by doing/thinking",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"my adult self is here\", not a part of me that is adult",
+     "replace": "there is a part of me that is adult, and that is breathing in this room right now, and is willing",
+     "with": "my adult self is here, breathing in this room right now, and willing",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -365,7 +427,7 @@
     19
    ],
    "paras": [
-    "Try some of the other ‘awareness’ verbs, which point attention without yelling at it: notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider"
+    "‘Awareness’ verbs point attention without yelling at it: notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider"
    ],
    "run": "HG31-r1",
    "file": "fix-20261018/emu-j/HG31-r1.out.txt",
@@ -376,6 +438,14 @@
      "replace": "verbs:",
      "with": "verbs, which point attention without yelling at it:",
      "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "\"Try some of the other\" (an instruction, and \"other\" verbs)",
+     "replace": "Try some of the other ‘awareness’ verbs, which point attention",
+     "with": "‘Awareness’ verbs point attention",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -418,7 +488,7 @@
     22
    ],
    "paras": [
-    "Caution: The powerful technique of presupposition (embedding a statement as if it were true) should be used only to presume choice, when it will occur, ability, not doing something unsafe, love, and adult leadership. Never use presupposition to smuggle in obedience."
+    "Caution: The powerful technique of presupposition (embedding a statement as if it were true) should be used only to presume choice, when it will occur, ability, safety, love, and adult leadership. Never use presupposition to smuggle in obedience."
    ],
    "run": "HG31-r1-h1",
    "file": "fix-20261018/emu-f/HG31-r1-h1.out.txt",
@@ -443,6 +513,14 @@
      "replace": "imply that the other person must obey",
      "with": "smuggle in obedience",
      "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"safety\", not \"not doing something unsafe\"",
+     "replace": "not doing something unsafe",
+     "with": "safety",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -506,7 +584,7 @@
     26
    ],
    "paras": [
-    "In general, the problem with the first example (“Because I breathe, the trauma leaves.”) is that it’s likely to be inaccurate. It’s unlikely that simply breathing will get rid of the trauma. So while the intention is good, the phrasing is a bit strong. The second example is better because it’s more accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”"
+    "In general, the problem with the first example (“Because I breathe, the trauma leaves.”) is that it’s too strong. It’s unlikely that simply breathing will get rid of the trauma. The second example is better because it’s more accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”"
    ],
    "run": "HG31-r1-s7",
    "file": "fix-20261018/emu-e/HG31-r1-s7.out.txt",
@@ -524,6 +602,14 @@
      "replace": "accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself.",
      "with": "accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”",
      "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"too strong\" (published), softened to inaccurate and \"a bit strong\"; INVENTED \"the intention is good\"; the repeat it made",
+     "replace": "is that it’s likely to be inaccurate. It’s unlikely that simply breathing will get rid of the trauma. So while the intention is good, the phrasing is a bit strong.",
+     "with": "is that it’s too strong. It’s unlikely that simply breathing will get rid of the trauma.",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -751,11 +837,29 @@
     40
    ],
    "paras": [
-    "In the same way, tag questions (“isn’t it”, “can’t it”, “doesn’t it”, etc) can be very useful to soften a sentence. But they get oily really fast, so use them sparingly."
+    "In the same way, tag questions (“isn’t it”, “can’t it”, “doesn’t it”, etc) can soften a sentence. But they get oily really fast, don’t they? So use them sparingly."
    ],
    "run": "HG31-r1",
    "file": "fix-20261018/emu-k/HG31-r1.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "\"can soften\", inflated to \"very useful\"",
+     "replace": "can be very useful to soften a sentence",
+     "with": "can soften a sentence",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the tag question that shows itself (\"don’t they?\")",
+     "replace": "But they get oily really fast, so use them sparingly.",
+     "with": "But they get oily really fast, don’t they? So use them sparingly.",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -862,11 +966,21 @@
     46
    ],
    "paras": [
-    "To ‘Milton Model’ is to open things up. To ‘Meta Model’ is to ask “What do yo mean by that?” In order to be truly effective (and ethical) with people, it is necessary to do both."
+    "To ‘Milton Model’ is to open things up. To ‘Meta Model’ is to ask “What do yo mean by that?” In order to be ethical with people, it is necessary to do both."
    ],
    "run": "HG31-r1-s13",
    "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "\"truly effective\": the published says ethical practice needs both",
+     "replace": "In order to be truly effective (and ethical) with people, it is necessary to do both.",
+     "with": "In order to be ethical with people, it is necessary to do both.",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -874,7 +988,7 @@
     47
    ],
    "paras": [
-    "“How specifically? According to who? ‘Good’ compared to what? ‘Always’? ‘Never’? What specifically would happen? How do I know? What evidence would change my mind?”"
+    "“How specifically? According to who? Compared to what? ‘Always’? ‘Never’? What specifically would happen? How do I know? What evidence would change my mind?”"
    ],
    "run": "HG31-r1-s13",
    "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt",
@@ -892,6 +1006,14 @@
      "replace": "How do yo know? What would constitute proof for ya?",
      "with": "How do I know? What evidence would change my mind?",
      "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "\"Good\" added to \"Compared to what?\"",
+     "replace": "‘Good’ compared to what?",
+     "with": "Compared to what?",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -1142,7 +1264,7 @@
    "paras": [
     "Sometimes when people notice a synchronicity they ask straight away what it means. Sometimes it does give them a very good insight, sometimes it gives them a reason to start obsessing and look for patterns in everything. I am using noticing a synchronicity in a different way. I am using it as a signal to WAKE UP. The coincidence doesn’t have to contain a message; it has already caught my attention, and that’s enough.",
     "It is my cue to:",
-    "Whenever I notice a synchronicity, I use it to wake up in whatever state I am in at that moment, feel my body and the room I am in, remember that the coincidence is not proof of an interpretation, let my attention widen beyond the story my current mood is telling, ask what is fact, what is interpretation, what needs warmth, what needs protection and what needs action, and go to the highest state I can where I can objectively and clearly see the situation I am in from the highest possible perspective, feeling my body and being still within the human reality. From this place I feel whatever feelings, search for the truth of the situation, and if I am in a negative state, I check if there is a message of my Inner Child, Protector, if I need to go through some grieving, if there is a message of my physical body about some problem that needs solving, or if there is a need for me to take some action in this situation. From this place of clarity and peace I am free to choose what to do next and usually I can do at least one thing that comes from a loving place. I make room for whatever is genuinely there, like clarity, peace, freedom, joy and gratitude, without having to manufacture any of it.",
+    "Whenever I notice a synchronicity, I use it to wake up in whatever state I am in at that moment, feel my body and the room I am in, remember that the coincidence is not proof of an interpretation, let my attention widen beyond the story my current mood is telling, ask what is fact, what is interpretation, what needs warmth, what needs protection and what needs action, and go to the highest state I can where I can objectively and clearly see the situation I am in from the highest possible perspective, without leaving my body, the facts or ordinary human reality. From this place I feel whatever feelings, search for the truth of the situation, and if I am in a negative state, I check if there is a message of my Inner Child, Protector, if I need to go through some grieving, if there is a message of my physical body about some problem that needs solving, or if there is a need for me to take some action in this situation. From this place of clarity and peace I am free to choose what to do next and I choose at least one thing to do that comes from a loving place. I make room for whatever is genuinely there, like objectivity, clarity, ease, peace, freedom, joy and gratitude, without having to manufacture any of it.",
     "In short it is my cue to: Stop-orient-go wider-reality check-listen-do at least one thing from a loving place.",
     "It enables me to not get into identification, but still hear the message of the state if it is a negative one."
    ],
@@ -1176,6 +1298,30 @@
      "replace": "In this state I am also free and joyful and I feel grateful.",
      "with": "I make room for whatever is genuinely there, like clarity, peace, freedom, joy and gratitude, without having to manufacture any of it.",
      "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+    },
+    {
+     "type": "LOST",
+     "what": "\"without leaving the body, the facts, or ordinary human reality\"",
+     "replace": "feeling my body and being still within the human reality",
+     "with": "without leaving my body, the facts or ordinary human reality",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"choose one loving action\", hedged to \"usually I can do at least one\"",
+     "replace": "and usually I can do at least one thing that comes from a loving place",
+     "with": "and I choose at least one thing to do that comes from a loving place",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "\"objectivity\" and \"ease\" in what I make room for",
+     "replace": "like clarity, peace, freedom, joy and gratitude",
+     "with": "like objectivity, clarity, ease, peace, freedom, joy and gratitude",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -1230,11 +1376,21 @@
     68
    ],
    "paras": [
-    "feel feet/body/breath/room to stimulate re-embodiment,"
+    "use that opening to feel feet/body/breath/room,"
    ],
    "run": "HG31-r1-s17",
    "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "\"use that opening\"; INVENTED \"to stimulate re-embodiment\"",
+     "replace": "feel feet/body/breath/room to stimulate re-embodiment,",
+     "with": "use that opening to feel feet/body/breath/room,",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -1284,11 +1440,21 @@
     71
    ],
    "paras": [
-    "rehearse further steps to get a more grounded and wide view,"
+    "rehearse returning to a more grounded and wide view,"
    ],
    "run": "HG31-r1-s17",
    "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "\"rehearse returning to\" a grounded, wider perspective",
+     "replace": "rehearse further steps to get a more grounded and wide view,",
+     "with": "rehearse returning to a more grounded and wide view,",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -1345,10 +1511,16 @@
     74
    ],
    "paras": [
-    "This is a kind of implementation intention , an advance “if X, then Y” plan that links a recognizable cue with a chosen response, for which the general mechanism is supported (a good starting point is this paper by Gollwitzer ). Note that this specific application of implementation intentions hasn't been studied directly."
+    "This is like an implementation intention, an advance “if X, then Y” plan that links a recognizable cue with a chosen response, for which the general mechanism is supported (a good starting point is this paper by Gollwitzer). Note that this specific application of implementation intentions hasn't been studied directly."
    ],
    "run": "HG31-r1-s17",
    "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "links": [
+    {
+     "published": "implementation intention",
+     "new": "this paper by Gollwitzer"
+    }
+   ],
    "fixes": [
     {
      "type": "LOST",
@@ -1370,6 +1542,22 @@
      "replace": "probably hasn't been studied",
      "with": "hasn't been studied directly",
      "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"resembles\" an implementation intention, not \"is a kind of\"",
+     "replace": "This is a kind of implementation intention ,",
+     "with": "This is like an implementation intention,",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    },
+    {
+     "type": "TYPO",
+     "what": "a stray space before the parenthesis",
+     "replace": "by Gollwitzer ).",
+     "with": "by Gollwitzer).",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -1384,6 +1572,16 @@
    ],
    "run": "HG31-r1-s18",
    "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt",
+   "links": [
+    {
+     "published": "Blain and colleagues",
+     "new": "Blain et al."
+    },
+    {
+     "published": "Grant and colleagues",
+     "new": "Grant et al."
+    }
+   ],
    "fixes": [
     {
      "type": "INVENTED",
@@ -1408,7 +1606,7 @@
     76
    ],
    "paras": [
-    "If you feel that synchronicity cues are creating false positives or making any of these worse (you find yourself compelled to scan your environment for them, you are unable to sleep, you are anxious, you feel that random events are occurring to communicate something to you specifically, you have difficulty distinguishing observation from interpretation, etc.), you should deactivate them."
+    "If you feel that synchronicity cues are making any of these worse (you find yourself compelled to scan your environment for them, you are unable to sleep, you are anxious, you become certain that random events are occurring to communicate something to you specifically, you have difficulty distinguishing observation from interpretation, etc.), you should deactivate them."
    ],
    "run": "HG31-r1-s18",
    "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt",
@@ -1426,6 +1624,22 @@
      "replace": "you find yourself unable to tell if they are real or not",
      "with": "you have difficulty distinguishing observation from interpretation",
      "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "\"creating false positives\" as a further reason to deactivate",
+     "replace": "are creating false positives or making any of these worse",
+     "with": "are making any of these worse",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"certainty\" that random events are personally directed messages",
+     "replace": "you feel that random events are occurring",
+     "with": "you become certain that random events are occurring",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -1476,7 +1690,7 @@
     80
    ],
    "paras": [
-    "Dishonest reframing declares that the problem was secretly good all along, so I have to be honest when I reframe. To reframe in a helpful way is to ask myself a series of questions like: “What else could be true here?” or “What is this part trying to do for me?” or “How would my Nurturer reframe this?” or “How would my Protector reframe this?” or “How would my Leader reframe this?” and so on."
+    "Dishonest reframing declares that the problem was secretly good all along, so I prefer to ask myself questions that widen the meaning without lying, like: “What else could be true here?” or “What is this part trying to do for me?” or “How would my Nurturer reframe this?” or “How would my Protector reframe this?” or “How would my Leader reframe this?” and so on."
    ],
    "run": "HG31-r1-s19",
    "file": "fix-20261018/emu-e/HG31-r1-s19.out.txt",
@@ -1487,6 +1701,14 @@
      "replace": "When I reframe something that is dishonest with myself in the process, I’m no better off than before,",
      "with": "Dishonest reframing declares that the problem was secretly good all along,",
      "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"I prefer questions that widen meaning without lying\" (LOST \"widen meaning\")",
+     "replace": "so I have to be honest when I reframe. To reframe in a helpful way is to ask myself a series of questions like:",
+     "with": "so I prefer to ask myself questions that widen the meaning without lying, like:",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -1543,7 +1765,7 @@
     83
    ],
    "paras": [
-    "Don’t use these positions to excuse harm. Use them to see the truth from more than one angle. They’re a great way to get out of a prison of perception."
+    "Don’t use these positions to excuse harm. Use them to get out of a prison of perception, to see from more than one angle."
    ],
    "run": "HG31-r1-s20",
    "file": "fix-20261018/emu-e/HG31-r1-s20.out.txt",
@@ -1554,6 +1776,14 @@
      "replace": "Yes, it’s possible to use these positions to let yourself off the hook. It’s also possible to use them to get off the hook!",
      "with": "Don’t use these positions to excuse harm.",
      "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "\"see the truth\" and \"a great way\"; the repeat they made",
+     "replace": "Use them to see the truth from more than one angle. They’re a great way to get out of a prison of perception.",
+     "with": "Use them to get out of a prison of perception, to see from more than one angle.",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -1874,11 +2104,21 @@
     101
    ],
    "paras": [
-    "Giving covert commands"
+    "Giving covert commands inside soft language"
    ],
    "run": "HG31-r3",
    "file": "fix-20261018/emu-j/HG31-r3.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "\"inside soft language\"",
+     "replace": "Giving covert commands",
+     "with": "Giving covert commands inside soft language",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -1928,7 +2168,7 @@
     104
    ],
    "paras": [
-    "Manipulating people in trance, fatigue, attraction, shame, grief, or altered states to get compliance"
+    "Using people’s trance, fatigue, attraction, shame, grief, or altered states to get compliance"
    ],
    "run": "HG31-r3",
    "file": "fix-20261018/emu-j/HG31-r3.out.txt",
@@ -1939,6 +2179,14 @@
      "replace": "trance states, weakened states, attraction states, etc",
      "with": "trance, fatigue, attraction, shame, grief, or altered states to get compliance",
      "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the states are the levers, not the people in them",
+     "replace": "Manipulating people in trance,",
+     "with": "Using people’s trance,",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -1990,7 +2238,7 @@
     108
    ],
    "paras": [
-    "Represent the pattern. How does it show up: image, voice, sensation, posture? Where? How big? How close? What color? How does it move?"
+    "Represent the pattern. How does it show up: image, voice, sensation, posture? How big? How close? What color? How does it move?"
    ],
    "run": "HG31-r1-s25",
    "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
@@ -2008,6 +2256,14 @@
      "replace": "What does it look like?",
      "with": "How does it show up: image, voice, sensation, posture?",
      "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "\"Where?\" is not one of the published dimensions",
+     "replace": "posture? Where? How big?",
+     "with": "posture? How big?",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"
@@ -2039,7 +2295,7 @@
     110
    ],
    "paras": [
-    "Adjust the form of the pattern, gently (move it further away, turn down the volume, change body posture, slow it down, etc.)."
+    "Adjust the form of the pattern, gently (move it further away, turn down the volume, add space, change body posture, slow it down, etc.)."
    ],
    "run": "HG31-r1-s25",
    "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt",
@@ -2050,6 +2306,14 @@
      "replace": "Have client make adaptive changes in the pattern",
      "with": "Adjust the form of the pattern, gently",
      "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "\"add space\"",
+     "replace": "turn down the volume, change body posture",
+     "with": "turn down the volume, add space, change body posture",
+     "round": 2,
+     "from": "verify-f (the second reader, in six parts), checked by me"
     }
    ],
    "verdict": "fixed"

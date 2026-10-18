@@ -6,7 +6,7 @@ This guide has an [app coming soon](http://innerself.love/)! Working hard!
 
 # How to use this very large guide
 
-Begin with Quick start, learn one induction and the complete return, then use Let the next response guide you for the part no recording can decide in advance. The daily and weekly sections help you make the practice your own. The appendices hold extra tools for questions, NLP language, anxiety, daydreaming, altered states, hostile-presence experiences, sleep, influence, and additional inductions. Sources are together in Appendix K.
+To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. You can also look at the daily and weekly sections to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.
 
 [Share](%%share_url%%)
 
@@ -82,7 +82,7 @@ My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ab
 
 > [image 2](https://substackcdn.com/image/fetch/$s_!t8_i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png)
 
-Do not let any strong state, charismatic person, sexual charge, spiritual claim, or authority figure replace the adult self. Legitimate influence can survive questions, sleep, boundaries, and time.
+Under no circumstances allow a strong state, charismatic individual, sexual charge, spiritual claim, or other authority to replace the adult part of yourself. All legitimate forms of influence can stand up to questions, sleep, boundaries and time.
 
 # Affirmations Done Right
 
@@ -126,11 +126,11 @@ A powerful state matters only if something survives it: kinder behavior, more hu
 
 # Why doing it myself worked better for me
 
-Self-hypnosis became much more useful for me than working with a professional hypnotist. The session with the hypnotist did very little. Maybe part of that was state-dependent: I was sober and didn’t feel especially suggestible. The larger issue was trust and precision.
+Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist. I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision.
 
-When I’m giving the suggestion, I can feel the exact moment a phrase is slightly wrong. I can stop, ask what the subconscious meant, and notice whether an image feels like guidance, fear, avoidance, wishful thinking, or something I don’t yet understand. I can catch the body’s no before the conscious mind writes a persuasive little essay called yes.
+When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something I don't understand yet. And I can notice my body saying no before my conscious mind talks me into a yes.
 
-An outside hypnotist can’t easily conduct that rapid back-and-forth because they aren’t inside the mind receiving the suggestion. A skilled guide can still notice blind spots, help regulate the process, and hold a safer container. Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself.
+A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.) But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.
 
 I found that especially amplified with [loveyhuasca](http://loveyhuasca.info/). My experiences included a much deeper understanding of [my motivations](http://motivations.u-dont-exist.com/), peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.
 
@@ -142,9 +142,9 @@ I also got stronger results when I practiced immediately after sky hypnosis:
 
 Some benefits arrived the next morning or a few days later. After one loveyhuasca self-hypnosis session, I woke in what felt like an answer to prayer. I’d been dealing with a lot of lust energy and worrying it could pull me into a relationship that wasn’t right. I asked the subconscious to connect the heart chakra with the sacral chakra—to bring the love energy and sex energy into the same current. The next morning I woke in a kind of “perfected” love state. I didn’t feel that I needed to find a woman; the divine feminine felt somehow at zero distance from my heart. Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere.
 
-I’ve also had self-hypnosis seem to extend a short [chrunga](http://chrunga.u-dont-exist.com/) trip far beyond its normal duration. Subjectively, it felt as though the state might have continued indefinitely if ordinary life hadn’t required communication and interruption. I find that phenomenologically important. I’m not recommending that anyone prolong an altered state forever; integration is healthier than trying to live inside the extension.
+In the same vein, self-hypnosis seemed to extend a short [chrunga](http://chrunga.u-dont-exist.com/) trip for what felt like a long time, and it feels like if I needed to I could have continued for an arbitrary amount of time. Only because of life did I have to talk to people, etc. Phenomenologically, this is very important. Although I'm not recommending that anyone prolong an altered state forever, because it's better to integrate, etc.
 
-Without drugs, self-hypnosis or meditation may also become much more effective inside a lucid dream. I explain that possibility in my [lucid-dreaming guide](https://ibogaqueen.substack.com/p/ego-death-without-drugs-lucid-dream).
+Without drugs, self hypnosis or meditation might also work way better inside a lucid dream - I explain that possibility in my [lucid dreaming guide](https://ibogaqueen.substack.com/p/ego-death-without-drugs-lucid-dream).
 
 # A useful map of the mind
 

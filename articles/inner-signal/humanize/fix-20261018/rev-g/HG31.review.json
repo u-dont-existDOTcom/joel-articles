@@ -16,6 +16,14 @@
     "replace": "to use the system",
     "with": "to practice the core method",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"bodily states\" had become how imagery is linked to them",
+    "replace": "how imagery is linked to bodily states",
+    "with": "bodily states",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -29,6 +37,14 @@
     "replace": "the posture of a remembered person, the pressure of an unpleasant sensation",
     "with": "posture, pressure",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "\"When it works\" (a success condition) for the first of the four levels; LOST \"changes the form of an inner experience\"",
+    "replace": "When it works, it works on a Sensory Level of NLP: changing where",
+    "with": "First, it works on a Sensory Level of NLP: changing the form of an inner experience, where",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -73,6 +89,14 @@
     "replace": "embedding suggestions",
     "with": "embedding invitations",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "\"only\" in \"presume only safe capacity\"",
+    "replace": "presuming their ability to do something safe",
+    "with": "presuming only their ability to do something safe",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -100,6 +124,12 @@
     "with": "argue with me without having to overpower it, and",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
    }
+  ],
+  "links": [
+   {
+    "published": "indirect language",
+    "new": "indirect language"
+   }
   ]
  },
  {
@@ -112,6 +142,14 @@
     "replace": "the least possible capacity",
     "with": "only a small safe capacity",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"lower the pressure\" is its own step; INVENTED \"in the person\" (it is the self)",
+    "replace": "and I take the pressure off by presuming only a small safe capacity in the person and invite just one movement:",
+    "with": "I take the pressure off, presume only a small safe capacity and invite just one movement:",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -129,6 +167,14 @@
     "replace": "the capacity to do what I want",
     "with": "capacity",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"validate function\": the function of the reaction, not of what I am doing",
+    "replace": "I validate the function of what I'm doing",
+    "with": "I validate the function of the reaction",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -172,6 +218,22 @@
     "replace": "and is willing to listen.",
     "with": "and is willing to listen to whatever comes up next.”",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"my system is reacting\", not a part with an intent",
+    "replace": "a part of me is trying to protect me by doing/thinking",
+    "with": "my system is reacting by doing/thinking",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"my adult self is here\", not a part of me that is adult",
+    "replace": "there is a part of me that is adult, and that is breathing in this room right now, and is willing",
+    "with": "my adult self is here, breathing in this room right now, and willing",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -185,6 +247,14 @@
     "replace": "verbs:",
     "with": "verbs, which point attention without yelling at it:",
     "from": "a Sonnet reviewer (HG31.review.part1.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "\"Try some of the other\" (an instruction, and \"other\" verbs)",
+    "replace": "Try some of the other ‘awareness’ verbs, which point attention",
+    "with": "‘Awareness’ verbs point attention",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -225,6 +295,14 @@
     "replace": "imply that the other person must obey",
     "with": "smuggle in obedience",
     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"safety\", not \"not doing something unsafe\"",
+    "replace": "not doing something unsafe",
+    "with": "safety",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -271,6 +349,14 @@
     "replace": "accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself.",
     "with": "accurate: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”",
     "from": "a Sonnet reviewer (HG31.review.part2.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"too strong\" (published), softened to inaccurate and \"a bit strong\"; INVENTED \"the intention is good\"; the repeat it made",
+    "replace": "is that it’s likely to be inaccurate. It’s unlikely that simply breathing will get rid of the trauma. So while the intention is good, the phrasing is a bit strong.",
+    "with": "is that it’s too strong. It’s unlikely that simply breathing will get rid of the trauma.",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -388,7 +474,25 @@
  },
  {
   "block": 40,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"can soften\", inflated to \"very useful\"",
+    "replace": "can be very useful to soften a sentence",
+    "with": "can soften a sentence",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "the tag question that shows itself (\"don’t they?\")",
+    "replace": "But they get oily really fast, so use them sparingly.",
+    "with": "But they get oily really fast, don’t they? So use them sparingly.",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   }
+  ]
  },
  {
   "block": 41,
@@ -445,7 +549,17 @@
  },
  {
   "block": 46,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "\"truly effective\": the published says ethical practice needs both",
+    "replace": "In order to be truly effective (and ethical) with people, it is necessary to do both.",
+    "with": "In order to be ethical with people, it is necessary to do both.",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   }
+  ]
  },
  {
   "block": 47,
@@ -464,6 +578,14 @@
     "replace": "How do yo know? What would constitute proof for ya?",
     "with": "How do I know? What evidence would change my mind?",
     "from": "a Sonnet reviewer (HG31.review.part3.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "\"Good\" added to \"Compared to what?\"",
+    "replace": "‘Good’ compared to what?",
+    "with": "Compared to what?",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -631,6 +753,30 @@
     "replace": "In this state I am also free and joyful and I feel grateful.",
     "with": "I make room for whatever is genuinely there, like clarity, peace, freedom, joy and gratitude, without having to manufacture any of it.",
     "from": "me (the part reviewer marked it redo; fixed instead, keeping Emulate's voice)"
+   },
+   {
+    "type": "LOST",
+    "what": "\"without leaving the body, the facts, or ordinary human reality\"",
+    "replace": "feeling my body and being still within the human reality",
+    "with": "without leaving my body, the facts or ordinary human reality",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"choose one loving action\", hedged to \"usually I can do at least one\"",
+    "replace": "and usually I can do at least one thing that comes from a loving place",
+    "with": "and I choose at least one thing to do that comes from a loving place",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "\"objectivity\" and \"ease\" in what I make room for",
+    "replace": "like clarity, peace, freedom, joy and gratitude",
+    "with": "like objectivity, clarity, ease, peace, freedom, joy and gratitude",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -653,7 +799,17 @@
  },
  {
   "block": 68,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "\"use that opening\"; INVENTED \"to stimulate re-embodiment\"",
+    "replace": "feel feet/body/breath/room to stimulate re-embodiment,",
+    "with": "use that opening to feel feet/body/breath/room,",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   }
+  ]
  },
  {
   "block": 69,
@@ -683,7 +839,17 @@
  },
  {
   "block": 71,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"rehearse returning to\" a grounded, wider perspective",
+    "replace": "rehearse further steps to get a more grounded and wide view,",
+    "with": "rehearse returning to a more grounded and wide view,",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   }
+  ]
  },
  {
   "block": 72,
@@ -742,6 +908,28 @@
     "replace": "probably hasn't been studied",
     "with": "hasn't been studied directly",
     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"resembles\" an implementation intention, not \"is a kind of\"",
+    "replace": "This is a kind of implementation intention ,",
+    "with": "This is like an implementation intention,",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   },
+   {
+    "type": "TYPO",
+    "what": "a stray space before the parenthesis",
+    "replace": "by Gollwitzer ).",
+    "with": "by Gollwitzer).",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   }
+  ],
+  "links": [
+   {
+    "published": "implementation intention",
+    "new": "this paper by Gollwitzer"
    }
   ]
  },
@@ -763,6 +951,16 @@
     "with": "traits on the psychosis spectrum, although ordinary pattern noticing is not itself pathological (Blain et al., Grant et al.).",
     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
    }
+  ],
+  "links": [
+   {
+    "published": "Blain and colleagues",
+    "new": "Blain et al."
+   },
+   {
+    "published": "Grant and colleagues",
+    "new": "Grant et al."
+   }
   ]
  },
  {
@@ -782,6 +980,22 @@
     "replace": "you find yourself unable to tell if they are real or not",
     "with": "you have difficulty distinguishing observation from interpretation",
     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "\"creating false positives\" as a further reason to deactivate",
+    "replace": "are creating false positives or making any of these worse",
+    "with": "are making any of these worse",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"certainty\" that random events are personally directed messages",
+    "replace": "you feel that random events are occurring",
+    "with": "you become certain that random events are occurring",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -815,6 +1029,14 @@
     "replace": "When I reframe something that is dishonest with myself in the process, I’m no better off than before,",
     "with": "Dishonest reframing declares that the problem was secretly good all along,",
     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"I prefer questions that widen meaning without lying\" (LOST \"widen meaning\")",
+    "replace": "so I have to be honest when I reframe. To reframe in a helpful way is to ask myself a series of questions like:",
+    "with": "so I prefer to ask myself questions that widen the meaning without lying, like:",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -855,6 +1077,14 @@
     "replace": "Yes, it’s possible to use these positions to let yourself off the hook. It’s also possible to use them to get off the hook!",
     "with": "Don’t use these positions to excuse harm.",
     "from": "a Sonnet reviewer (HG31.review.part4.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "\"see the truth\" and \"a great way\"; the repeat they made",
+    "replace": "Use them to see the truth from more than one angle. They’re a great way to get out of a prison of perception.",
+    "with": "Use them to get out of a prison of perception, to see from more than one angle.",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -1028,7 +1258,17 @@
  },
  {
   "block": 101,
-  "verdict": "OK"
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "\"inside soft language\"",
+    "replace": "Giving covert commands",
+    "with": "Giving covert commands inside soft language",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
+   }
+  ]
  },
  {
   "block": 102,
@@ -1066,6 +1306,14 @@
     "replace": "trance states, weakened states, attraction states, etc",
     "with": "trance, fatigue, attraction, shame, grief, or altered states to get compliance",
     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the states are the levers, not the people in them",
+    "replace": "Manipulating people in trance,",
+    "with": "Using people’s trance,",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -1106,6 +1354,14 @@
     "replace": "What does it look like?",
     "with": "How does it show up: image, voice, sensation, posture?",
     "from": "a Sonnet reviewer (HG31.review.part5.json), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "\"Where?\" is not one of the published dimensions",
+    "replace": "posture? Where? How big?",
+    "with": "posture? How big?",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },
@@ -1132,6 +1388,14 @@
     "replace": "Have client make adaptive changes in the pattern",
     "with": "Adjust the form of the pattern, gently",
     "from": "a Sonnet reviewer (HG31.review.part6.json), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "\"add space\"",
+    "replace": "turn down the volume, change body posture",
+    "with": "turn down the volume, add space, change body posture",
+    "round": 2,
+    "from": "verify-f (the second reader, in six parts), checked by me"
    }
   ]
  },

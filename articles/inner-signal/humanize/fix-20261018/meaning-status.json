@@ -254,5 +254,13 @@
   "adjudication": "every finding fixed in rev-g/HG17.round2.json",
   "repeats": 0,
   "notes": ""
+ },
+ "HG31": {
+  "done": true,
+  "review": "rev-g/HG31.review.json",
+  "verify": "verify-f/HG31.verify.txt (six parts, faithful.py verify-chunks)",
+  "adjudication": "rev-g/HG31.round2.json: 29 fixes; 6 findings let stand (dispositions.json)",
+  "repeats": 0,
+  "notes": "the two repeats the reader found (B26, B83) were made by Emulate's additions, taken out in round 2"
  }
 }
