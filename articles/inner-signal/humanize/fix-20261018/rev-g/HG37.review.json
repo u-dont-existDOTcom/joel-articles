@@ -50,6 +50,14 @@
     "what": "the script invited the presence forward and had the body bring it to safety; the published: only what can be integrated is welcome, too much can wait, the adult remains, the body may return to safety",
     "replace": "“If there is anything that can be integrated right now, you may come forward. But know that you can wait, and that you will not be able to come forward until you are something that can be integrated. Know also that I will always be here as an adult, and that my body will bring you to a place of safety.”",
     "with": "“Only what can be integrated is welcome right now. Anything that’s too much can wait. The adult in me is still here, and my body can go back to safety.”"
+   },
+   {
+    "type": "REPEAT",
+    "what": "the room, body and safety check said, then the triage said again",
+    "replace": "The same thing you do first for anything else— you check in with the room, your body, and safety in general, without rewarding it with instant certainty about what it is.",
+    "with": "Don’t reward it with instant certainty about what it is.",
+    "round": 2,
+    "from": "verify-d (second reader)"
    }
   ]
  },
@@ -86,6 +94,22 @@
     "what": "return to the body and room",
     "replace": "then do not continue to engage with it.",
     "with": "then stop engaging with it and come back to your body and the room."
+   },
+   {
+    "type": "SHIFT",
+    "what": "a sense of trying to protect something",
+    "replace": "or you sense you need to protect yourself in some manner",
+    "with": "or a sense of trying to protect something",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "stays hostile or becomes more frightening (not any fear)",
+    "replace": "If it continues to be hostile or you feel afraid,",
+    "with": "If it stays hostile or gets more frightening,",
+    "round": 2,
+    "from": "verify-d (second reader)"
    }
   ]
  },
@@ -122,6 +146,14 @@
     "what": "identify completely with the threatened self (not 'be it')",
     "replace": "panic, be it, etc.",
     "with": "panic, become nothing but the threatened self, etc."
+   },
+   {
+    "type": "SHIFT",
+    "what": "some traditions use them (not 'I have seen')",
+    "replace": "I have seen different prayers, mantras, protections, banishing and exorcism forms that some people find useful.",
+    "with": "Some traditions use prayers, mantras, protections, banishing and exorcism forms, and some people find them useful.",
+    "round": 2,
+    "from": "verify-d (second reader)"
    }
   ]
  },
@@ -152,6 +184,14 @@
     "what": "not defeat it from fear",
     "replace": "I see that there is no need to defeat what I am experiencing.",
     "with": "I see that there is no need to defeat what I am experiencing from fear."
+   },
+   {
+    "type": "SHIFT",
+    "what": "obey this (not 'the voice in my head or in another')",
+    "replace": "I see that there is no need to obey the voice in my head or in another.",
+    "with": "I see that there is no need to obey what I am experiencing.",
+    "round": 2,
+    "from": "verify-d (second reader)"
    }
   ]
  },

@@ -267,7 +267,7 @@
     13
    ],
    "paras": [
-    "Consider whether you want it to be spacious listening, warm company, or a firmer invitation to stay with a feeling. You may want to warn yourself that your eyes will be asked to close and that you may come out and go in again a few times, as well as coming out at the end. If you're listening to a recording it may be a good idea to read the script first (if possible). Decide on a word to use to come out (e.g. 'stop'). You may also want words to make it less demanding (e.g. 'less'), and to stop the words (e.g. 'quiet'). You can always just open your eyes and finish - you don't have to get consensus from inner parts to do this."
+    "Consider whether you want it to be spacious listening, warm company, or a firmer invitation to stay with a feeling. You may want to warn yourself that your eyes will be asked to close and that you may come out and go in again a few times, as well as coming out at the end. If you're listening to a recording it may be a good idea to read the script first (if possible). 'Stop' ends the exercise, 'less' makes it less demanding, and 'quiet' stops the words. You can always just open your eyes and finish - you don't have to get consensus from inner parts to do this."
    ],
    "run": "HG17-r1",
    "file": "fix-20261018/emu-i/HG17-r1.out.txt",
@@ -278,6 +278,14 @@
      "replace": "encouraging, warm, firm, or whatever",
      "with": "spacious listening, warm company, or a firmer invitation to stay with a feeling",
      "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the words are fixed: 'stop' ends it, 'less' reduces the demand, 'quiet' stops the words",
+     "replace": "Decide on a word to use to come out (e.g. 'stop'). You may also want words to make it less demanding (e.g. 'less'), and to stop the words (e.g. 'quiet').",
+     "with": "'Stop' ends the exercise, 'less' makes it less demanding, and 'quiet' stops the words.",
+     "round": 2,
+     "from": "verify-e (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -798,11 +806,21 @@
     40
    ],
    "paras": [
-    "You can do this practice sitting up, with your eyes open, etc."
+    "You can do this practice sitting up, with your eyes open, feeling your feet and letting your breath be natural."
    ],
    "run": "HG17-r1-s10",
    "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "feel the feet; let the breath be natural",
+     "replace": "You can do this practice sitting up, with your eyes open, etc.",
+     "with": "You can do this practice sitting up, with your eyes open, feeling your feet and letting your breath be natural.",
+     "round": 2,
+     "from": "verify-e (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -831,11 +849,21 @@
     42
    ],
    "paras": [
-    "Then choose an object to look at, or feel your spine, etc."
+    "Then choose an object to look at, and feel your spine."
    ],
    "run": "HG17-r1-s10",
    "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
-   "verdict": "OK"
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "look at one object and feel the spine (both steps)",
+     "replace": "Then choose an object to look at, or feel your spine, etc.",
+     "with": "Then choose an object to look at, and feel your spine.",
+     "round": 2,
+     "from": "verify-e (second reader)"
+    }
+   ],
+   "verdict": "fixed"
   },
   {
    "kind": "emulate",
@@ -1338,7 +1366,7 @@
     69
    ],
    "paras": [
-    "Once you've learned a useful induction and also the full return below, you can make up your own shortcut for getting back under hypnosis. My dad used to do a mudra (hand sign) by bringing two fingers together in an \"okay\" sign, and it would help him relax. He even did it while driving, but that's his experience, not a recommendation to enter trance at the wheel. So don't use the same thing for calming yourself while driving as you do for going into inward hypnosis!"
+    "Once you've learned a useful induction and also the full return below, you can make up your own shortcut for getting back under hypnosis. My dad used to do a mudra (hand sign) by bringing two fingers together in an \"okay\" sign, and it would help him relax. He even did it while driving, but that's his experience, not a recommendation to enter trance at the wheel. So keep the cue you use for calming yourself while alert separate from the one for going into inward hypnosis!"
    ],
    "run": "HG17-r2",
    "file": "fix-20261018/emu-h/HG17-r2.out.txt",
@@ -1356,6 +1384,14 @@
      "replace": "so don't use",
      "with": "but that's his experience, not a recommendation to enter trance at the wheel. So don't use",
      "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "keep alert calming and inward hypnosis on different cues (not only while driving)",
+     "replace": "So don't use the same thing for calming yourself while driving as you do for going into inward hypnosis!",
+     "with": "So keep the cue you use for calming yourself while alert separate from the one for going into inward hypnosis!",
+     "round": 2,
+     "from": "verify-e (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -1483,7 +1519,7 @@
     75
    ],
    "paras": [
-    "When you don't want it any more, stop practicing, take it out of any recordings or active apps you're using, go back to a familiar induction and say you're done using it while awake - a cancellation sentence doesn't prove the association vanished instantly. If you have problems not being able to stop using it or not being able to come back from it easily, get qualified help. The trigger should only be for the next time you decide you want to do a session; today’s altered state ends with the return."
+    "When you don't want it any more, stop practicing, take it out of any recordings or active apps you're using, go back to a familiar induction and say you're done using it while awake - a cancellation sentence doesn't prove the association vanished instantly. If unwanted responses or disorientation keep coming back, get qualified help. The trigger should only be for the next time you decide you want to do a session; today’s altered state ends with the return."
    ],
    "run": "HG17-r1-s17",
    "file": "fix-20261018/emu-e/HG17-r1-s17.out.txt",
@@ -1501,6 +1537,14 @@
      "replace": ", it shouldn't keep you out of line today",
      "with": "; today’s altered state ends with the return",
      "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "persistent unwanted responses or disorientation need qualified help",
+     "replace": "If you have problems not being able to stop using it or not being able to come back from it easily, get qualified help.",
+     "with": "If unwanted responses or disorientation keep coming back, get qualified help.",
+     "round": 2,
+     "from": "verify-e (second reader)"
     }
    ],
    "verdict": "fixed"

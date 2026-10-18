@@ -255,6 +255,19 @@ def emulate_blocks_ok(text, g, base):
         if bs is None:
             return False, 'no such file: %s' % path
         allowed |= bs
+    # 2026-10-18 (434g: my meaning fixes made 21 of 25 Human sections read AI): a screen may also hold paragraphs of a
+    # meaning-fixed section ("fixed": [its fixed.json]), the stretches that read Human with the fixes in, beside Emulate's
+    # new run of the ones that didn't. Those paragraphs went through the meaning reviews already.
+    for path in g.get('fixed') or []:
+        f = pathlib.Path(path)
+        if not f.is_file():
+            f = base / path
+        if not f.is_file():
+            f = pathlib.Path(__file__).resolve().parents[2] / path
+        if not f.is_file():
+            return False, 'no such file: %s' % path
+        for u in json.loads(f.read_text(encoding='utf-8')).get('units', []):
+            allowed |= {x.strip() for p in u.get('paras', []) for x in re.split(r'\n\s*\n', p) if x.strip()}
     emu = set()
     for path in g.get('emulate') or []:
         emu |= blocks_of(path) or set()

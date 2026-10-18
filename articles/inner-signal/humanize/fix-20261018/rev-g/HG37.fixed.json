@@ -88,7 +88,7 @@
     8
    ],
    "paras": [
-    "So what do you do when a demon, or jinn, or other bad or intrusive entity shows up? The same thing you do first for anything else— you check in with the room, your body, and safety in general, without rewarding it with instant certainty about what it is. Run the triage first: medical danger, environment, body, overload, and how open your mind has become. Open your eyes, feel your feet, name the room, lower the stimulation, leave hostile company, and stop adding prompts. Don’t go deeper, hunt for hidden truth, or debate what it is while you’re destabilized.",
+    "So what do you do when a demon, or jinn, or other bad or intrusive entity shows up? Don’t reward it with instant certainty about what it is. Run the triage first: medical danger, environment, body, overload, and how open your mind has become. Open your eyes, feel your feet, name the room, lower the stimulation, leave hostile company, and stop adding prompts. Don’t go deeper, hunt for hidden truth, or debate what it is while you’re destabilized.",
     "“Only what can be integrated is welcome right now. Anything that’s too much can wait. The adult in me is still here, and my body can go back to safety.”",
     "If you feel like you’re in danger of hurting yourself or others, if you feel like you’re going psychotic and afraid, if you feel like you won’t be able to sleep afterwards, if you feel extremely paranoid, if you have chest pain, if you feel like you’re going to have a seizure, if you feel like you’re too hot in a serious way, if you feel like you’ve taken too much of something, or if you feel like you just can’t function in the world anymore, then the self-hypnosis session is over. Go get some real-world help."
    ],
@@ -106,6 +106,14 @@
      "what": "the script invited the presence forward and had the body bring it to safety; the published: only what can be integrated is welcome, too much can wait, the adult remains, the body may return to safety",
      "replace": "“If there is anything that can be integrated right now, you may come forward. But know that you can wait, and that you will not be able to come forward until you are something that can be integrated. Know also that I will always be here as an adult, and that my body will bring you to a place of safety.”",
      "with": "“Only what can be integrated is welcome right now. Anything that’s too much can wait. The adult in me is still here, and my body can go back to safety.”"
+    },
+    {
+     "type": "REPEAT",
+     "what": "the room, body and safety check said, then the triage said again",
+     "replace": "The same thing you do first for anything else— you check in with the room, your body, and safety in general, without rewarding it with instant certainty about what it is.",
+     "with": "Don’t reward it with instant certainty about what it is.",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -167,7 +175,7 @@
     12
    ],
    "paras": [
-    "3. If you feel vulnerable, tightness in your throat, sadness, fear or you sense you need to protect yourself in some manner, bring in your Nurturer. If it continues to be hostile or you feel afraid, then stop engaging with it and come back to your body and the room."
+    "3. If you feel vulnerable, tightness in your throat, sadness, fear or a sense of trying to protect something, bring in your Nurturer. If it stays hostile or gets more frightening, then stop engaging with it and come back to your body and the room."
    ],
    "run": "HG37-r1-s3",
    "file": "fix-20261018/emu-g/HG37-r1-s3.out.txt",
@@ -177,6 +185,22 @@
      "what": "return to the body and room",
      "replace": "then do not continue to engage with it.",
      "with": "then stop engaging with it and come back to your body and the room."
+    },
+    {
+     "type": "SHIFT",
+     "what": "a sense of trying to protect something",
+     "replace": "or you sense you need to protect yourself in some manner",
+     "with": "or a sense of trying to protect something",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "stays hostile or becomes more frightening (not any fear)",
+     "replace": "If it continues to be hostile or you feel afraid,",
+     "with": "If it stays hostile or gets more frightening,",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -224,7 +248,7 @@
     15
    ],
    "paras": [
-    "The first impulse may be to fight it, banish it, hate it, show it I’m more powerful, argue with it, panic, become nothing but the threatened self, etc. I have seen different prayers, mantras, protections, banishing and exorcism forms that some people find useful. The problem is, if you fight from fear…"
+    "The first impulse may be to fight it, banish it, hate it, show it I’m more powerful, argue with it, panic, become nothing but the threatened self, etc. Some traditions use prayers, mantras, protections, banishing and exorcism forms, and some people find them useful. The problem is, if you fight from fear…"
    ],
    "run": "HG37-r1-s4",
    "file": "fix-20261018/emu-g/HG37-r1-s4.out.txt",
@@ -240,6 +264,14 @@
      "what": "identify completely with the threatened self (not 'be it')",
      "replace": "panic, be it, etc.",
      "with": "panic, become nothing but the threatened self, etc."
+    },
+    {
+     "type": "SHIFT",
+     "what": "some traditions use them (not 'I have seen')",
+     "replace": "I have seen different prayers, mantras, protections, banishing and exorcism forms that some people find useful.",
+     "with": "Some traditions use prayers, mantras, protections, banishing and exorcism forms, and some people find them useful.",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -270,7 +302,7 @@
     17
    ],
    "paras": [
-    "So the next time it shows up, simply say, “I see that there is no reason to hate or revile what I am experiencing. I see that there is no need to merge with or become what I am experiencing. I see that there is no need to obey the voice in my head or in another. I see that there is no need to defeat what I am experiencing from fear. I choose instead to return my attention to my loving awareness.”"
+    "So the next time it shows up, simply say, “I see that there is no reason to hate or revile what I am experiencing. I see that there is no need to merge with or become what I am experiencing. I see that there is no need to obey what I am experiencing. I see that there is no need to defeat what I am experiencing from fear. I choose instead to return my attention to my loving awareness.”"
    ],
    "run": "HG37-r1",
    "file": "fix-20261018/emu-j/HG37-r1.out.txt",
@@ -286,6 +318,14 @@
      "what": "not defeat it from fear",
      "replace": "I see that there is no need to defeat what I am experiencing.",
      "with": "I see that there is no need to defeat what I am experiencing from fear."
+    },
+    {
+     "type": "SHIFT",
+     "what": "obey this (not 'the voice in my head or in another')",
+     "replace": "I see that there is no need to obey the voice in my head or in another.",
+     "with": "I see that there is no need to obey what I am experiencing.",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"

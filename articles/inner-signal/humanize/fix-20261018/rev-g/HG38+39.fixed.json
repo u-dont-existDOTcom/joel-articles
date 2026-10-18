@@ -157,7 +157,7 @@
     8
    ],
    "paras": [
-    "Notice where your weight is carried, and let the support carry 1% more of your effort, as if floating without losing contact, or keep the same weight and pressure. Notice what happens. It may help to fractionate, turning your attention toward normal awareness on the in-breath and toward the support on the out-breath. Tell yourself you're going to do this before you start. What can you hear now? Keep the support, come back to the weight and firm contact you choose, and return."
+    "Notice where your weight is carried, and let the support carry 1% more of your effort, as if floating without losing contact, or keep the same weight and pressure. Notice what happens. It may help to fractionate, turning your attention toward normal awareness on the in-breath and toward the support on the out-breath. Tell yourself you're going to do this before you start. What becomes easier to hear? Keep the support, come back to the weight and firm contact you choose, and return."
    ],
    "run": "HG38_39-r1",
    "file": "fix-20261018/emu-i/HG38_39-r1.out.txt",
@@ -179,6 +179,14 @@
      "what": "keep the support, then return",
      "replace": "Return to normal weight and firm contact as you choose.",
      "with": "Keep the support, come back to the weight and firm contact you choose, and return."
+    },
+    {
+     "type": "SHIFT",
+     "what": "what becomes easier to hear (a close call the second reader named)",
+     "replace": "What can you hear now?",
+     "with": "What becomes easier to hear?",
+     "round": 2,
+     "from": "verify-d (second reader, close call)"
     }
    ],
    "verdict": "fixed"
@@ -200,7 +208,7 @@
     10
    ],
    "paras": [
-    "Try it with a natural rhythm; perhaps the rhythm of breathing or a slight hum in the throat. Try it with a more artificial rhythm, such as tapping a finger or listening to sounds outside. Even try it counting (silently) to yourself, or even with no rhythm at all. Say the words 'here, and here again' over and over, noticing where your attention lands in between, until suddenly, stop the rhythm. Notice the first quiet beat - do not try and make your mind blank. This might bring a bit more clarity to what word, feeling, need or action is coming up. Then let your normal rhythm come back, and return."
+    "Try it with a natural rhythm; perhaps the rhythm of breathing or a slight hum in the throat. Try it with a more artificial rhythm, such as tapping a finger or listening to sounds outside. Even try it counting (silently) to yourself, or even with no rhythm at all. Say the words 'here, and here again' over and over, noticing where your attention lands in between, then stop the rhythm. Notice the first quiet beat - do not try and make your mind blank. This might bring a bit more clarity to what word, feeling, need or action is coming up. Then let your normal rhythm come back, and return."
    ],
    "run": "HG38_39-r1-s5",
    "file": "fix-20261018/emu-g/HG38_39-r1-s5.out.txt",
@@ -222,6 +230,14 @@
      "what": "let ordinary rhythm resume and return",
      "replace": "Then go back to using a normal rhythm.",
      "with": "Then let your normal rhythm come back, and return."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'suddenly'",
+     "replace": "until suddenly, stop the rhythm.",
+     "with": "then stop the rhythm.",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -286,7 +302,7 @@
     14
    ],
    "paras": [
-    "Listen to the sounds of the room you are currently in and feel your body. Now imagine yourself walking somewhere, where do you want to go? As you walk, listen to the sounds of your footsteps and take in your surroundings. What texture are the objects you pass? What landmarks do you see? Now that you've collected enough attention, imagine the scenery changing until you are in a place where whoever or whatever needs to speak can speak. Or you can just cut straight to the chase if you want. Notice a detail without giving it a hidden meaning, just don't make it into a \"what are they going to do to you?\" kind of thing. When you're ready to finish, imagine walking back the way you came and close the space."
+    "Listen to the sounds of the room you are currently in and feel your body. Now imagine yourself walking somewhere, where do you want to go? As you walk, listen to the sounds of your footsteps and take in your surroundings. What texture are the objects you pass? What landmarks do you see? Now that you've collected enough attention, imagine the scenery changing until you are in a place where whoever or whatever needs to speak can speak. Or you can just cut straight to the chase if you want. Notice a detail without giving it a hidden meaning, the mystery is how the scene develops, so don't make it into a \"what are they going to do to you?\" kind of thing. When you're ready to finish, imagine walking back the way you came and close the space."
    ],
    "run": "HG38_39-r2",
    "file": "fix-20261018/emu-h/HG38_39-r2.out.txt",
@@ -302,6 +318,14 @@
      "what": "notice a detail without assigning hidden meaning",
      "replace": "Observe what you want to observe,",
      "with": "Notice a detail without giving it a hidden meaning,"
+    },
+    {
+     "type": "LOST",
+     "what": "the mystery is how the scene develops",
+     "replace": "just don't make it into a \"what are they going to do to you?\" kind of thing.",
+     "with": "the mystery is how the scene develops, so don't make it into a \"what are they going to do to you?\" kind of thing.",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -427,7 +451,7 @@
     20
    ],
    "paras": [
-    "Choose a quality you understand, like warmth, a boundary, steadiness, curiosity or dignity. Close your eyes and imagine your posture, voice or attention with just 1% more access to it, or if you are uncomfortable with this, simply observe it. Notice what happens. Repeat a few times, to strengthen your access to it, not to become someone else. How would that quality meet the situation you’re in today? Finally keep the quality and one useful action, let go of the role, say to yourself \"I am myself\", and return."
+    "Choose a quality you understand, like warmth, a boundary, steadiness, curiosity or dignity. Imagine your posture, voice or attention with just 1% more access to it, or, if you’d rather, simply observe it. Notice what happens. Repeat a few times, to strengthen your access to it, not to become someone else. How would that quality meet the situation you’re in today? Finally keep the quality and one useful action, let go of the role, say to yourself \"I am myself\", and return."
    ],
    "run": "HG38_39-r1-s10",
    "file": "fix-20261018/emu-c/HG38_39-r1-s10.out.txt",
@@ -455,6 +479,22 @@
      "what": "keep the quality and one useful action, release the role, 'I am myself', return",
      "replace": "Finally let go of the person/thing, but keep the characteristic, and say to yourself \"I am me\", and notice how you have increased access to the characteristic you wanted.",
      "with": "Finally keep the quality and one useful action, let go of the role, say to yourself \"I am myself\", and return."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'close your eyes'",
+     "replace": "Close your eyes and imagine",
+     "with": "Imagine",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "observe it when you prefer (not only 'if uncomfortable')",
+     "replace": "or if you are uncomfortable with this, simply observe it.",
+     "with": "or, if you’d rather, simply observe it.",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -480,9 +520,9 @@
     "Invitation: choose a question and keep it in mind, do not specifically focus or narrow the awareness further.",
     "Genuine choice: answer the question or write it down, write that one does not know, rest, change the question, ask someone else, stop the practice, etc.",
     "Autonomous signal: write down any word, sensation, impulse, objection, or silence that comes, without taking it as proof.",
-    "Deepener: none, it is not necessary to reach a state that is less alert.",
+    "Deepener: none, full alertness isn’t a lesser version of the practice.",
     "Handoff: have the adult part of yourself answer the question in any way, preferably in writing or by taking an action.",
-    "Integration/exit: reality test the autonomous signal and take an action based on that, end the practice (no special exit is needed since no state was achieved that one needs to exit from)."
+    "Integration/exit: reality test the autonomous signal and do one small action based on that, end the practice (no special exit is needed since no state was achieved that one needs to exit from)."
    ],
    "run": "HG38_39-r1-s11",
    "file": "fix-20261018/emu-c/HG38_39-r1-s11.out.txt",
@@ -510,6 +550,22 @@
      "what": "the element's name: handoff",
      "replace": "Other autonomous:",
      "with": "Handoff:"
+    },
+    {
+     "type": "LOST",
+     "what": "one small action",
+     "replace": "take an action based on that",
+     "with": "do one small action based on that",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "full alertness isn't an inferior version of the practice",
+     "replace": "Deepener: none, it is not necessary to reach a state that is less alert.",
+     "with": "Deepener: none, full alertness isn’t a lesser version of the practice.",
+     "round": 2,
+     "from": "verify-d (second reader)"
     }
    ],
    "verdict": "fixed"
