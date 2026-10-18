@@ -472,3 +472,10 @@ register('frm-e-end', BG_P3_END, lambda: frm('frm-e').replace(BG_P1_END, BG_P3_E
 BG_P1 = "How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child."
 register('bgp1-test', BG_P1, lambda: draft('bgp1-a'))
 register('bgp1-frm-test', BG_P1, lambda: draft('bgp1-a') + '\n\n<!-- test -->\n\n' + draft('frm-e'))
+
+
+# 2026-10-18, round t71xxx: the second cold read of Start With Whatever Showed Up (COLD-READ-t71-start-with.md, P21):
+# "Sometimes it's the exercise that works." couldn't say works at what; my turn-31 sentence.
+CS5_OLD = (T / '..' / '..' / 'HUMANIZED-ARTICLE-SO-FAR.md')
+CS5_FIRST_OLD = "Sometimes it's the exercise that works. You feel real care for your little one and say exactly what they needed to hear."
+register('cs5-b', CS5_FIRST_OLD, "Sometimes the session itself goes really well. You feel real care for your little one and say exactly what they needed to hear.")
