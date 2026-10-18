@@ -117,7 +117,7 @@ def _move_old():
 
 def _move_new():
     b = _blocks()
-    return b[2]
+    return None if b is None else b[2]   # None once a move is in (round t72f)
 
 
 def _move_ins_old():
@@ -125,6 +125,8 @@ def _move_ins_old():
 
 
 def _move_ins_new():
+    if _blocks() is None:
+        return None
     danger, mono, _ = _blocks()
     moved = note('his section move: You Don\'t Need an Inner Monologue goes right after When Healing Turns Into Checking, and When the Present-Day Adult Is Dangerous to the Child after it ("both of those to me are less likely to be important for most people compared to the other sections"). Their text is unchanged.')
     return '\n' + moved + mono + danger + BORROW_H
@@ -278,6 +280,8 @@ def _dmove_old():
 
 
 def _dmove_ins_new():
+    if _blocks() is None:
+        return None
     danger = _blocks()[0]
     moved = note('his section move: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking ("both of those to me are less likely to be important for most people compared to the other sections"). Its text is unchanged. You Don\'t Need an Inner Monologue stays where it was for now: with it moved too, every version had an AI window in Your Body Might Need Some Love First P3 to P5 (round t72e).')
     return '\n' + moved + danger + BORROW_H
