@@ -197,7 +197,7 @@ register('oi-last', CS_LAST, lambda: CS_LAST.split('\n\n')[0] + '\n\n' + one_int
 IFS_PARKED = "<!-- Parked (experiments/t71-guide/REVIEWS.md; question 45): How This Relates to IFS, with its h3 Related Clinical Work. Every version of the IFS paragraphs read AI as an h2 (rounds t71d to t71f); Related Clinical Work read Human alone (drafts/ap9-d, 0.19) but goes in with its h2. The guide's first-person lines there are waiting on Joel's word (E189). It goes here. -->"
 
 
-def ifs(p3='ifs3-z', p5='ifs5-ff'):
+def ifs(p3='ifs3-z', p5='ifs5-ff', rcw='ap9-f'):
     def c(s):
         return '<!-- ' + s + ' -->'
     return '\n\n'.join([
@@ -215,10 +215,11 @@ def ifs(p3='ifs3-z', p5='ifs5-ff'):
         c("Turn 71: the guide's choosing a therapist (a skilled, grounded, trauma-informed IFS therapist who isn't suggestive may help, especially one who understands dissociation; for your little one's pain, shame, attachment wounds, abandoning yourself or no reliable inner adult, a good reparenting therapist may fit better; know the strengths and pitfalls of both first). A fresh writer's (round t71j), experiments/t71-guide/drafts/wifs-5.txt. Alone Human Written (0.28), https://www.pangram.com/history/c2e480f3-e172-47ac-ba6d-f2f2e59e0800 (round t71j)."),
         draft('wifs-5'),
         '### Related Clinical Work',
-        c("Turn 71: his two first-person lines as published, \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (E189, question 45), with the guide's ten approaches and \"These approaches do not all make the same claims.\" between them (\"Those don't even agree with each other on everything!\"). experiments/t71-guide/drafts/ap9-e.txt, which is round t71f's ap9-d (Human 0.19 alone) with his lines as published. Alone Human Written (0.076), https://www.pangram.com/history/d02c8807-6268-44dc-89f0-a48a7ecd8219 (round t71vv); @@H2@@."),
-        draft('ap9-e'),
+        c("Turn 71: his two first-person lines as published, \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (E189, question 45), with the guide's ten approaches and \"These approaches do not all make the same claims.\" between them (\"Those don't even agree with each other on everything!\"). experiments/t71-guide/drafts/" + rcw + ".txt" + {'ap9-e': ", which is round t71f's ap9-d (Human 0.19 alone) with his lines as published. Alone Human Written (0.076), https://www.pangram.com/history/d02c8807-6268-44dc-89f0-a48a7ecd8219 (round t71vv)", 'ap9-f': ": round t71vv's ap9-e (alone Human Written, 0.076, https://www.pangram.com/history/d02c8807-6268-44dc-89f0-a48a7ecd8219), which is round t71f's ap9-d with his lines as published, with \"Those don't even agree with each other on everything!\" moved after his last line: with his line last, the Appendix as installed read Mostly Human, a 56-word AI window over that line, the Teachers heading and his two first-person lines there (round t71ccc)"}[rcw] + "; @@H2@@."),
+        draft(rcw),
     ])
 
 
 register('ifs', IFS_PARKED, ifs)
 register('ifs-bbb', IFS_PARKED, lambda: ifs('ifs3-y', 'ifs5-ee'))
+register('ifs-e', IFS_PARKED, lambda: ifs(rcw='ap9-e'))
