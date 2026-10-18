@@ -35,8 +35,9 @@ num = int(sys.argv[sys.argv.index('--batch') + 1]) if '--batch' in sys.argv else
 dirs = [d for d in sorted(HERE.glob('b4*')) if list(d.glob('*-results.json'))]
 seen = set(PA.results(dirs))
 drafts, gate, preds, held = B.collect()
-for nm in [k for k in list(drafts) if k.endswith('-rfix')]:
-    key = nm[:-5]
+import re  # noqa: E402
+for nm in [k for k in list(drafts) if re.search(r'-rfix\d*$', k)]:
+    key = re.sub(r'-rfix\d*$', '', nm)
     base = {'kind': 'emulate', 'emulate': gate[nm].get('emulate'), 'published': gate[nm].get('published'), 'fixed': [gate[nm]['reviews']], 'lint': 'REVIEW'}
     B.para_items(key, REPO / gate[nm]['reviews'], dict(base, section='%dg %s (this batch)' % (num, nm)), 'checked with its edit (%s, this batch)' % nm,
                  seen, drafts, gate, preds, 'e')
@@ -53,7 +54,11 @@ PLAN = [('HG06', HERE / 'rf-l' / 'HG06.fixed.json', 'HG06-smp', 'its forces para
         ('HG14', HERE / 'rf-v' / 'HG14.fixed.json', 'HG14-smp', 'its four AI paragraphs from the better samples'),
         ('HG15', HERE / 'rf-v' / 'HG15.fixed.json', 'HG15-smp', 'p10, p11 and p23-p24 from the better samples'),
         ('HG24', HERE / 'rf-o' / 'HG24.fixed.json', 'HG24-smp', 'B36-B37 as published, B42-B48 from a new sample, both triages'),
-        ('HG17', HERE / 'rf-v' / 'HG17.fixed.json', 'HG17-smp', 'its script in seven small windows, the better sample per window')]
+        ('HG17', HERE / 'rf-v' / 'HG17.fixed.json', 'HG17-smp', 'its script in seven small windows, the better sample per window'),
+        ('HG18', HERE / 'rf-w' / 'HG18.units.json', 'HG18-swa', 'the return steps in five small windows (emu-aj); every earlier version read AI'),
+        ('HG18', HERE / 'rf-x' / 'HG18.units.json', 'HG18-swb', 'the return steps in five small windows (emu-ak); every earlier version read AI')]
+TAGS = {'HG36-pub': 'u', 'HG18-swa': 'a', 'HG18-swb': 'b'}
+CHANCE = {'HG36-pub': 0.5, 'HG18-swa': 0.4, 'HG18-swb': 0.4}
 for key, fx, name, why in PLAN:
     if not fx.exists():
         held.append((key, '%s not built yet' % rel(fx))); continue
@@ -65,11 +70,11 @@ for key, fx, name, why in PLAN:
             'published': rec.get('published'), 'fixed': [rel(fx)], 'lint': 'REVIEW'}
     drafts[name] = text
     gate[name] = dict(base)
-    c = 0.5 if name.endswith('-pub') else 0.72
-    preds[name] = ('Human', c, why + ('; Joel\'s published paragraphs read AI in 429g as part of the section' if name.endswith('-pub') else
-                                      '; refix samples so far: 32 of 44 Human whole'))
+    c = CHANCE.get(name, 0.72)
+    preds[name] = ('Human' if c >= 0.5 else 'AI', c, why + ('; Joel\'s published paragraphs read AI in 429g as part of the section' if name.endswith('-pub') else
+                                                          '; refix samples so far: 32 of 44 Human whole'))
     B.para_items(key, fx, dict(base, section='%dg %s (this batch)' % (num, name)), 'checked with its screen (%s, this batch)' % name,
-                 seen, drafts, gate, preds, name.split('-')[1][0])
+                 seen, drafts, gate, preds, TAGS.get(name, 's'))
 print(len(drafts), 'texts:', ' '.join(drafts))
 print('held:', ' '.join('%s (%s)' % x for x in held) or '-')
 if '--write' in sys.argv:

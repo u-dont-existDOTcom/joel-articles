@@ -28,7 +28,10 @@ is when the next sentence says.
 - "replace": copied exactly, character for character (curly or straight quotes as they are), from that CHANGED stretch,
   occurring exactly once in it. Keep it short: the phrase or clause that is wrong, not a whole paragraph.
 - "with": the same phrase with as few words changed as possible, in the stretch's own voice (its contractions, plain
-  words and sentence shape). Don't paste the published sentence unless the fix is a few words. Don't fix anything else,
+  words and sentence shape). Don't paste the published sentence unless the fix is a few words: in 454g the only two AI
+  windows of a triaged section (HG37) were exactly the two fixes that pasted published sentences ("Pride gives it an
+  opponent, and panic gives it your nervous system."). Say the published point the way the stretch talks ("if you're
+  proud you give it an opponent"). Don't fix anything else,
   don't polish, don't correct the author's casual grammar or typos.
 - If one stretch would need more than about a quarter of its words changed, don't fix it: list its first block under
   "resample" (a new sample is better than many fixes).

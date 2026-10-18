@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aj/HG18-sw1.txt",
+  "input_words": 94,
+  "input_sha256": "44b6afca1315dec18860f602f097358e1526e1ba124e6abfbc902365b9cbc84c",
+  "balance_before": 87124,
+  "started_utc": "2026-10-18T08:06:56Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:07:02Z",
+  "response": {
+    "id": "3156b375-dc00-474c-a6db-031cf28354b8",
+    "tool": "humanize",
+    "text": "Come all the way back\n\nCome out the way you came in – so if you floated up – float back down – and land in a weight you are comfortable with. If you made yourself smaller – make yourself bigger again – if you called up a younger version of yourself or parts of yourself – let them know you are now whole and in your body and using your adult judgement etc. If you traveled somewhere – travel back – make sure you don’t bring anything back that you didn’t mean to.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 94
+    },
+    "elapsed": 5
+  },
+  "balance_after": 87030
+}

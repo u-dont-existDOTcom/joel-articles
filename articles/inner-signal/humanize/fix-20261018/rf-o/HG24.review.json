@@ -1,0 +1,190 @@
+[
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"show me whether today is for listening or resting\" became \"show me how you know whether to listen or rest\"",
+    "replace": "how you know whether",
+    "with": "whether",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "lost the four things that can feel fake (wording, image, expectation, role); \"ask what feels fake\" became \"Do you know what is fake?\"",
+    "replace": "Do you know what is fake?",
+    "with": "Do you know what feels fake: the wording, the image, the expectation, or the role?",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"a missing adult capacity\" became \"being a child\"",
+    "replace": "being a child",
+    "with": "missing an adult capacity",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "that a fake feeling can mean a needed adult capacity isn't available yet (\"it\" has no referent)",
+    "replace": "If it is not there,",
+    "with": "If the fake feeling means a needed adult capacity is not there yet,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "that the question is for when a trust concern is actually present",
+    "replace": "If you think it will be helpful,",
+    "with": "If trust is actually a concern,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "\"stop searching for content\" and \"first\"",
+    "replace": "help your body, like",
+    "with": "stop searching for content and help your body first, like",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "\"Room\" in the grounding cue",
+    "replace": "Focus on your body and your breathing.",
+    "with": "Focus on your body, your breathing, and the room around you.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "\"professional\" (get professional help became get help)",
+    "replace": "to get help",
+    "with": "to get professional help",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"touch something textured\" became vague \"feel something\"",
+    "replace": "feel something,",
+    "with": "feel something textured,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"stop improving it\" became new script \"What if you didn't try?\"",
+    "replace": "didn’t try?",
+    "with": "didn’t try to improve it?",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"not here to do this perfectly\" became \"don't have to do this\"",
+    "replace": "have to do this.",
+    "with": "have to do this perfectly.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "\"do something\" then \"usually silence or resting\" contradicts itself; \"may be the answer\" became \"usually it's\"; do something / just do it said twice",
+    "replace": "Then do something. Usually it’s",
+    "with": "Maybe it’s",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 43,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "lost \"let that matter without demanding the child receive it on command\"",
+    "replace": "is possible.",
+    "with": "is possible. Let that matter, but don’t demand that the child receive it on command.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 44,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "lost \"while the horizon of life still feels too small\"",
+    "replace": "practical help,",
+    "with": "practical help while life still feels too small,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "\"doesn’t need to become another assignment\" became \"not in their cards\"",
+    "replace": "is not in their cards",
+    "with": "doesn’t have to be another assignment",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 46,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"practice\" narrowed to \"spiritual practice\"",
+    "replace": "spiritual practice",
+    "with": "your practice",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

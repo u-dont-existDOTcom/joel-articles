@@ -1,0 +1,46 @@
+{
+ "key": "HG15",
+ "fixes": [
+  {
+   "block": 1,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B10: SHIFT hedged \"useful/practical model ... can leave less room\" became flat \"You are like this because...\"; also B10: SHIFT general condition (\"when childhood is organized around avoiding pain and preserving attachment\") became a claim about the reader's own childhood",
+     "replace": "You are like this because in your childhood",
+     "with": "One way of explaining this is that in your childhood",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST \"who am I when nobody is grading me\" (only \"who you are\")",
+     "replace": "and who you are.",
+     "with": "and who you are when nobody is grading you.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B16: LOST \"learning that you can disappoint someone without disappearing\"",
+     "replace": "and choosing your own ground.",
+     "with": "and choosing your own ground, and finding out you can disappoint someone and not disappear.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B11: LOST duration limit \"only long enough to tell your own signal from the social echo\" (now just \"not for too long\")",
+   "why": "\"not for too long ... or you'll defeat the purpose\" and \"so you can be sure you're not just echoing your social group\" keep the limit and its measure"
+  },
+  {
+   "finding": "B16: SHIFT groups that \"reach astonishingly far into identity\" became people who \"do things for their family, religion, ... that they wouldn't otherwise do\"",
+   "why": "\"do things ... that they wouldn't otherwise do\" shows how far the groups reach"
+  }
+ ],
+ "resample": [],
+ "note": "p10 and p11 from emu-ai (rf-u), p23-p24 from emu-ad (rf-m); triaged by me 2026-10-18"
+}

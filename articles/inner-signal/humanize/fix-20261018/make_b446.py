@@ -118,8 +118,12 @@ def collect(only=None):
         fd = json.loads(fx.read_text(encoding='utf-8'))
         new_text = '\n\n'.join(p for u in fd['units'] for p in u['paras'])
         nm = key + '-rfix'
-        if nm in byname and json.loads((HERE / byname[nm][0] / 'drafts.json').read_text(encoding='utf-8')).get(nm) != new_text:
-            held.append((key, 'its newest %s (%s) is another version of the text' % (nm, byname[nm][0]))); continue
+        # a name another version of the text already used gets a number (2026-10-18: HG33's 451g edit was another text)
+        drafted = lambda n: json.loads((HERE / byname[n][0] / 'drafts.json').read_text(encoding='utf-8')).get(n)
+        k = 1
+        while nm in byname and drafted(nm) != new_text:
+            k += 1
+            nm = '%s-rfix%d' % (key, k)
         if nm in byname:
             bb, v = byname[nm]
             if v[0].startswith('Human'):

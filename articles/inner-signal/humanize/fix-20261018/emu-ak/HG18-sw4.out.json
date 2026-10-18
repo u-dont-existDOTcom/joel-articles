@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ak/HG18-sw4.txt",
+  "input_words": 95,
+  "input_sha256": "2b9c0de06b258176e29ff63edae025e8eca8b6a658d32eb2ddc350df08f162c9",
+  "balance_before": 86382,
+  "started_utc": "2026-10-18T08:07:52Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:07:59Z",
+  "response": {
+    "id": "9295dafb-1102-46a5-9462-74a1fcaff6fa",
+    "tool": "humanize",
+    "text": "Reminders It may be helpful for you to say something to yourself like, 'It's (day of the week)' or 'Today's date is...' Once your vision is clear, look to your left, then to your right. Look at something close and something far away. Move around a bit before standing up. Don't stand up until you feel that you can do so safely. Make sure you are oriented and alert. Just because you were able to count doesn't mean you are totally alert. Mentally note what, if anything, came up for you in this session and if there is anything you need to do, if not, go about whatever it is you normally do at this time.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 95
+    },
+    "elapsed": 6
+  },
+  "balance_after": 86287
+}

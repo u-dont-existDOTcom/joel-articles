@@ -40,9 +40,9 @@
    "problems": [
     {
      "type": "LOST",
-     "what": "B11: LOST \"before trying to interpret the state\" and \"simpler question\"",
+     "what": "B11: LOST \"before trying to interpret the state\" and \"simpler question\"; march-t: the statement lost the stretch's one break (its question), so the fix stays a question",
      "replace": "What should you ask yourself first?",
-     "with": "Before you try to interpret it, ask yourself a simpler question first:",
+     "with": "Before you try to interpret it, what simpler question should you ask yourself first?",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }

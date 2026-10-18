@@ -112,7 +112,7 @@
     11
    ],
    "paras": [
-    "Before you try to interpret it, ask yourself a simpler question first:"
+    "Before you try to interpret it, what simpler question should you ask yourself first?"
    ],
    "run": "HG36-fxw1",
    "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG36-fxw1.out.txt",
@@ -120,9 +120,9 @@
    "fixes": [
     {
      "type": "LOST",
-     "what": "B11: LOST \"before trying to interpret the state\" and \"simpler question\"",
+     "what": "B11: LOST \"before trying to interpret the state\" and \"simpler question\"; march-t: the statement lost the stretch's one break (its question), so the fix stays a question",
      "replace": "What should you ask yourself first?",
-     "with": "Before you try to interpret it, ask yourself a simpler question first:",
+     "with": "Before you try to interpret it, what simpler question should you ask yourself first?",
      "round": 1,
      "from": "second reader of the refix (rf), triaged"
     }

@@ -343,16 +343,15 @@
    "heading": true
   },
   {
-   "kind": "emulate",
+   "kind": "published",
    "blocks": [
     42
    ],
    "paras": [
-    "Are you asking “Where is that divine love that is not descending upon me to heal my pain?”"
+    "“Where has divine love not yet descended into the wound?”"
    ],
-   "run": "HG24-fxw2",
-   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
-   "refix_was": true
+   "heading": false,
+   "note": "as published (2026-10-18): the emu-aa sample turned the question into a complaint"
   },
   {
    "kind": "emulate",

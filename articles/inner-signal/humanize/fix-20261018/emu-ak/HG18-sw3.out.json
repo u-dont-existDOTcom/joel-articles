@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ak/HG18-sw3.txt",
+  "input_words": 57,
+  "input_sha256": "dfed342ea5dbefe0babf9ba61111f7f899a23cf310e0738750bf3b0fbc687fe2",
+  "balance_before": 86439,
+  "started_utc": "2026-10-18T08:07:46Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:07:52Z",
+  "response": {
+    "id": "cd9532d8-7887-4251-8fe4-36d16a8808e1",
+    "tool": "humanize",
+    "text": "When you are ready, you can count yourself awake, 1, as you come back into your body and you take on the weight that you choose to have, 2, as you come back to your normal breathing pattern, 3, as you become aware of the sounds in the room around you and you know where you are, 4, as you start to move your fingers and toes, your shoulders and eyes and 5, as you open your eyes, feeling totally present in your body, totally normal and clear headed. The session is over.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 5
+  },
+  "balance_after": 86382
+}

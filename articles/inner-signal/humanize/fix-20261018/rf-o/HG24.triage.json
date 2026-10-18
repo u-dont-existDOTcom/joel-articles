@@ -131,6 +131,53 @@
      "from": "second reader of the refix (rf), triaged"
     }
    ]
+  },
+  {
+   "block": 43,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "lost \"let that matter without demanding the child receive it on command\"",
+     "replace": "is possible.",
+     "with": "is possible. Let that matter, but don’t demand that the child receive it on command.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 44,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "lost \"while the horizon of life still feels too small\"",
+     "replace": "practical help,",
+     "with": "practical help while life still feels too small,",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "\"doesn’t need to become another assignment\" became \"not in their cards\"",
+     "replace": "is not in their cards",
+     "with": "doesn’t have to be another assignment",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 46,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "\"practice\" narrowed to \"spiritual practice\"",
+     "replace": "spiritual practice",
+     "with": "your practice",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
   }
  ],
  "let_stand": [
@@ -317,8 +364,76 @@
   {
    "finding": "B50: INVENTED \"You're doing hypnosis over and over again without making changes\" diagnosis",
    "why": "restates the heading \"You keep using hypnosis but not changing life\""
+  },
+  {
+   "finding": "B42: SHIFT \"where has divine love not yet descended into the wound\" became \"where is the love that is not descending upon me to heal my pain\" (hopeful inquiry became complaint)",
+   "why": "B42 is resampled"
+  },
+  {
+   "finding": "B42: SHIFT line to ask yourself became \"Are you asking...?\" (a question about what the reader already asks)",
+   "why": "B42 is resampled"
+  },
+  {
+   "finding": "B46: INVENTED the wound \"needs to be dealt with\"",
+   "why": "elaborates \"real wound\"; adds no instruction"
+  },
+  {
+   "finding": "B43: SHIFT \"genuine opening\" became \"profound opening\"",
+   "why": "synonym; the opening is still real"
+  },
+  {
+   "finding": "B43: LOST betrayal damaging \"something sacred\"",
+   "why": "betrayal kept; only the harm is shortened"
+  },
+  {
+   "finding": "B43: LOST \"ask what was lost and what needs questioning\"",
+   "why": "shortened to \"worth exploring these\"; same direction"
+  },
+  {
+   "finding": "B43: UNCLEAR \"more of the same\" no longer names the practice",
+   "why": "the practice just described is the plain referent"
+  },
+  {
+   "finding": "B44: SHIFT \"practical care helps\" became \"it's best to get practical help\"",
+   "why": "wording; still a \"sometimes\""
+  },
+  {
+   "finding": "B44: SHIFT \"deeper happiness is worth following\" became \"let yourself be curious about more happiness\"",
+   "why": "wording; curiosity is still allowed"
+  },
+  {
+   "finding": "B44: INVENTED \"explanation of how it's going to work\" (published: just \"an explanation\")",
+   "why": "elaboration; still not asked to believe it"
+  },
+  {
+   "finding": "B44: SHIFT \"for the life they want\" became \"to just live their lives\"",
+   "why": "wording; enough love and meaning is kept"
+  },
+  {
+   "finding": "B47: SHIFT \"when it is a checking loop\" became \"if you think you're in\" one",
+   "why": "wording; same condition"
+  },
+  {
+   "finding": "B47: LOST \"or relationship\" (only \"whatever you've chosen to do\")",
+   "why": "\"whatever you've chosen to do\" covers it"
+  },
+  {
+   "finding": "B47: LOST \"inner\" in \"inner meeting\"",
+   "why": "wording; \"every thought\" makes the meeting inner"
+  },
+  {
+   "finding": "B47: SHIFT \"before you're allowed to live\" became \"before your life can begin\"",
+   "why": "wording; same release from the ritual"
+  },
+  {
+   "finding": "B48: SHIFT \"direction\" became \"to do\"",
+   "why": "wording; same question to the Leader"
+  },
+  {
+   "finding": "B48: SHIFT quotes dropped, no longer a script line",
+   "why": "format; still reads as the question to ask"
   }
  ],
  "resample": [],
- "note": "rf-c/HG24.triage.json with its resample list done: B42 and B46 from emu-aa (their second reading rf-k), B36-B37 as published"
+ "note": "rf-c/HG24.triage.json carried (rf-o/HG24.triage.json before 2026-10-18 08:20) and the new stretches' triage (rf-o/HG24.triage.new.json); B36, B37 and B42 as published"
 }

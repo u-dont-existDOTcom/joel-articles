@@ -1,0 +1,129 @@
+{
+ "HG14": {
+  "base": "rf-k/HG14.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     6,
+     7
+    ],
+    "folder": "emu-ah"
+   },
+   {
+    "blocks": [
+     8,
+     9
+    ],
+    "folder": "emu-ah"
+   },
+   {
+    "blocks": [
+     43,
+     44
+    ],
+    "folder": "emu-ah"
+   },
+   {
+    "blocks": [
+     77
+    ],
+    "folder": "emu-ah"
+   }
+  ]
+ },
+ "HG37": {
+  "base": "rf-q/HG37.split.json",
+  "windows": [
+   {
+    "blocks": [
+     26
+    ],
+    "folder": "emu-ai"
+   }
+  ]
+ },
+ "HG17": {
+  "base": "rf-j/HG17.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     17
+    ],
+    "folder": "emu-af"
+   },
+   {
+    "blocks": [
+     18,
+     19
+    ],
+    "folder": "emu-ag"
+   },
+   {
+    "blocks": [
+     20,
+     21
+    ],
+    "folder": "emu-ag"
+   },
+   {
+    "blocks": [
+     22,
+     23
+    ],
+    "folder": "emu-af"
+   },
+   {
+    "blocks": [
+     24,
+     25
+    ],
+    "folder": "emu-ag"
+   },
+   {
+    "blocks": [
+     26,
+     27
+    ],
+    "folder": "emu-ag"
+   },
+   {
+    "blocks": [
+     28,
+     29,
+     30,
+     31
+    ],
+    "folder": "emu-ag"
+   }
+  ]
+ },
+ "HG15": {
+  "base": "rf-a/HG15.fixed.json",
+  "pruns": [
+   {
+    "run": "HG15-pw3",
+    "folder": "emu-ai",
+    "paras": [
+     9,
+     9
+    ]
+   },
+   {
+    "run": "HG15-pw4",
+    "folder": "emu-ai",
+    "paras": [
+     10,
+     10
+    ]
+   },
+   {
+    "run": "HG15-pw2",
+    "folder": "emu-ad",
+    "paras": [
+     22,
+     23
+    ]
+   }
+  ]
+ }
+}

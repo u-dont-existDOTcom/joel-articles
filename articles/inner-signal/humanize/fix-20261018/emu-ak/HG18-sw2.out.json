@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ak/HG18-sw2.txt",
+  "input_words": 99,
+  "input_sha256": "702a263ff35abdf9349b8fe8e35f2c896155db33144b4cd5ba851fecabd09262",
+  "balance_before": 86538,
+  "started_utc": "2026-10-18T08:07:39Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:07:44Z",
+  "response": {
+    "id": "3d4e4f9f-d560-4a76-be36-fb97985f05cc",
+    "tool": "humanize",
+    "text": "It is my intent to bring back with me only those things that I want at the present time. All other things will be put back in their proper place until I am ready to use them. I am now returning to my normal day to day existence with the intention of taking one honest action. All instructions to go deeper and all instructions to continue this session are now over. My only instructions are the ones needed for my ordinary life and/or my next practice.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 99
+    },
+    "elapsed": 5
+  },
+  "balance_after": 86439
+}

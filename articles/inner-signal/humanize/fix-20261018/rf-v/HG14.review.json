@@ -1,0 +1,66 @@
+[
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B6: INVENTED purpose \"jumpstart a new part\"; \"that starting point\" gone",
+    "replace": "To jumpstart a development of a new part, I have developed",
+    "with": "For that starting point, I have developed",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B7: LOST what witnessing means (notice what is present, no demand for warmth, wisdom, certainty)",
+    "replace": "Access your witnessing position if necessary.",
+    "with": "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "B7: UNCLEAR \"go to step 3\"; published has no step numbers, may skip the borrow step",
+    "replace": "borrow and go to step 3.",
+    "with": "borrow.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B8: LOST \"borrow one function\": warmth, boundary or direction, needed now",
+    "replace": "It’s ok to just borrow what you need,",
+    "with": "It’s ok to just borrow what you need right now, warmth or a boundary or direction,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 77,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B77: SHIFT inner adult \"keeps watch\" became \"takes over\"; also B77: LOST \"you remain able to move, stop, and return\"",
+    "replace": "let your inner adult take over for a while.",
+    "with": "let your inner adult keep watch for a while, and you can still move, stop and come back.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]
