@@ -2,14 +2,14 @@
   "schema_version": 1,
   "article_id": "intentional-communities",
   "owner_review": {
-    "status": "pending",
-    "evidence": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md, question 20, and Joel's answer of 2026-10-13 21:00 UTC kept in articles/intentional-communities/candidate/joel-20261013/joel-20261013-attachment.txt: \"yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork...\""
+    "status": "confirmed",
+    "evidence": "2026-10-17 21:37 UTC: Joel accepted the humanized article (\"45a\": \"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\"), articles/intentional-communities/candidate/joel-20261017/joel-20261017-2137-message.txt; earlier, question 20 and his answer of 2026-10-13 21:00 UTC registered the article without forking the rules."
   },
   "locked_passages": [],
   "protected_functions": [
     {
       "id": "working-master-source-identity",
-      "description": "Preserve the published Substack text (original.md, 97920 UTF-8 bytes, SHA-256 5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6) as the registered working source master, the way Inner Child Therapy registers its raw Substack source. This master is not the humanized candidate; candidate/HUMANIZED-SO-FAR.md is, until Joel accepts it."
+      "description": "The registered master is master.md, the humanized article Joel accepted on 2026-10-17 21:37 UTC (\"45a\"; PROMOTION-RECEIPT-20261017.md), built from candidate/HUMANIZED-SO-FAR.md by candidate/fix-20261017d/make_master.py (the same text without its version notes). The published Substack text stays as original.md (97920 UTF-8 bytes, SHA-256 5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6), the published source every section was humanized from; it is never edited."
     },
     {
       "id": "owner-edits-checked",

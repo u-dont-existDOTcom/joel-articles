@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "article_id": "intentional-communities",
-  "status": "pending",
-  "note": "Editorial status of the humanized candidate. Sections are candidates until Joel accepts them; the gate in docs/HUMANIZATION-GATE.md (meaning traces, cold reads, the whole-article stance check, the linter, the owner-edits ledger) runs on every candidate section, and its records are in candidate/sN/. Accepted sections are listed under \"accepted\", with Joel's words; their notes in candidate/HUMANIZED-SO-FAR.md start \"ACCEPTED:\" instead of \"CANDIDATE:\".",
+  "status": "passed",
+  "note": "Editorial status of the humanized article. Joel accepted all of it on 2026-10-17 21:37 UTC (\"45a\"), so master.md, the article without its version notes, is the registered master (PROMOTION-RECEIPT-20261017.md). The gate in docs/HUMANIZATION-GATE.md ran on every section; its records are in candidate/. Sections 13 and 14 were accepted first, on 2026-10-17 02:07 UTC.",
   "checks": [],
   "accepted": [
     {
@@ -20,6 +20,111 @@
       "when": "2026-10-17 02:07 UTC",
       "words": "accept 13 and 14.",
       "record": "joel-20261017/joel-20261017-0207-message.txt"
+    },
+    {
+      "section": 1,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 2,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 3,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 4,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 5,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 6,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 7,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 8,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 9,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 10,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 11,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 12,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 15,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": 16,
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": "appendix",
+      "by": "Joel",
+      "when": "2026-10-17 21:37 UTC",
+      "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
+      "record": "joel-20261017/joel-20261017-2137-message.txt"
     }
   ]
 }

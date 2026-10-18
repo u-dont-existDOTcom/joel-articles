@@ -17231,12 +17231,12 @@
       "status": "working",
       "authority": {
         "master": {
-          "path": "articles/intentional-communities/original.md",
-          "sha256": "5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6"
+          "path": "articles/intentional-communities/master.md",
+          "sha256": "2dcfdb297923ceb1352f81adeed1218278d28a168e78846aebcf63d92205fbe2"
         },
         "owner_locks": {
           "path": "articles/intentional-communities/OWNER-LOCKS.json",
-          "sha256": "3b26251d301bc04d2bb96fd2b24f99d700e9129bcecc5407bbc800fc604f0173"
+          "sha256": "5297b9878012710f0c0459c4af0ff9334e960eddd2e248ad919eb00e09c09423"
         },
         "source_evidence": {
           "path": "articles/intentional-communities/SOURCE-EVIDENCE.json",
@@ -17248,7 +17248,7 @@
         },
         "current_state": {
           "path": "articles/intentional-communities/CURRENT-STATE.md",
-          "sha256": "44928a4297aacced16a56f89b3e475d3f141d8efc9e4bf3fda06d9ef3412b1d2"
+          "sha256": "ce430d7d2e4912a176b93e16c633b4be94bee7ddc7bdd1904e616c9bae991750"
         }
       },
       "review": {
@@ -17259,13 +17259,13 @@
         },
         "detector": {
           "path": "articles/intentional-communities/DETECTOR-EVIDENCE.json",
-          "sha256": "52895ca77759bf647b94bda5669a022076e5ae925f10f1856254ed340793ab66",
+          "sha256": "a5867739494d661ef8738fbb98b94b5511fd3bb31d90b2a80eb1b952b4305a8b",
           "status": "recorded"
         },
         "editorial": {
           "path": "articles/intentional-communities/EDITORIAL-STATUS.json",
-          "sha256": "bc48597e02dd0295bd3b390207b5812bd7fa90a826ac809f7cc11fb6328678b3",
-          "status": "pending"
+          "sha256": "e3a9a72412c599cc65d299c5e6372b068a62303d8e5eb1d958141da7ba9532aa",
+          "status": "passed"
         }
       },
       "publication_exports": [],
@@ -17273,7 +17273,7 @@
         {
           "path": "articles/intentional-communities/ARCHITECTURE.md",
           "role": "architecture_map",
-          "sha256": "0c8bf7823c0808c203c91552ab64095663cfc091ae7cc2cab63e0e31f538d1c4"
+          "sha256": "7d0fb7794bf4c01570d9cd459737cca0e17fafebac1a377bb3776f947897e413"
         },
         {
           "path": "articles/intentional-communities/IMPORT-RECEIPT-20261013.md",
@@ -17283,12 +17283,12 @@
         {
           "path": "articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
           "role": "active_humanized_article",
-          "sha256": "8daee1a4af46c26dd0cc63524c11f63601958b2e67b40ceb6b041f547e683c3f"
+          "sha256": "f1add2759a4ced7e53159b1b71cc2cae99f244c7d864ba380d84bd96e49ee884"
         },
         {
           "path": "articles/intentional-communities/candidate/OWNER-EDITS.json",
           "role": "owner_edits_ledger",
-          "sha256": "277bc12175180e5844f5e1e8091079835f09cb56ee5a07eadab5ed46121ea975"
+          "sha256": "3fbf708894b8a6af878f33d65f728c9d73da26f1514ab1946b3d2a8f61d7697f"
         },
         {
           "path": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md",
@@ -56302,7 +56302,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/fix-20261017d/make_master.py",
-          "sha256": "64ed7db2ede1299c0c11633c6baa5ce2fd3142a3b2b36de1db006e6302028395",
+          "sha256": "1b14b811339c0a678d1ec63d5ed2cef9733a2393ef9ea87b945e88b292f5602c",
           "role": "humanization_working_record"
         },
         {
@@ -57078,6 +57078,26 @@
         {
           "path": "articles/intentional-communities/candidate/joel-20261018/substack-editor-20261018-0129.html",
           "sha256": "0da05ea6b21b84736dec0c27a35c9516f19ee638704480f2da76a4954e5bbb06",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/original.md",
+          "sha256": "5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6",
+          "role": "published_source"
+        },
+        {
+          "path": "articles/intentional-communities/PROMOTION-RECEIPT-20261017.md",
+          "sha256": "e36512bc044d2e4feb1a523c712248fc57fe16c1c87f108d0c968f64ba093d22",
+          "role": "promotion_receipt"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261018/install_0129.py",
+          "sha256": "fed2ac166640a895d15a2eff6ae0a1d93026dbb6b85e5ea4ec80600930a4091f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261018/write_receipt_0129.py",
+          "sha256": "30731c1f6f260e2ac8213bb162f36e78cef98f0a83f8211e36a72fb65583314a",
           "role": "humanization_working_record"
         }
       ]

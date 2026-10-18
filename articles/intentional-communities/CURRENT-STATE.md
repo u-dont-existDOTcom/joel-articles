@@ -31,11 +31,12 @@ Humanize Joel's published intentional-communities Substack article section by se
 
 ## Current checkpoint
 
-Sections 13 (v37b) and 14 (v9) are accepted; the rest of `candidate/HUMANIZED-SO-FAR.md` is candidates, each section 100% Human as a whole in Pangram's web app. After Joel's messages of 2026-10-17 21:37 UTC (his answers to 45 to 51) and 23:10 UTC (52 to 54, and the scorecard; records in `candidate/fix-20261017d/`): sections 8 v32, 13 v37b, 15 v17 and 16 v30 went in (batches 421g to 427g). Section 2 waits: his opening (52 a) reads Human as he checked it, but in the section Pangram reads one AI window, the heading and his first sentence (425g, 426g), so question 56 asks for his rewording; the anomie paragraph and his screenshot (46 a) wait with it, and question 55 is on his aside's fact (the Convention Against Torture doesn't list solitary confinement). His 45 a ("Accept it all ... once 46 to 51 are settled") is ready to run when section 2 is settled: `candidate/fix-20261017d/make_master.py` (master.md, the article without its version notes) and `promote.py` (the registry, the owner locks, the editorial status), with a receipt `PROMOTION-RECEIPT-20261017.md` still to write. Open questions 55 and 56 on the lane's questions page. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Joel accepted the humanized article (45 a), so `master.md` is the registered master (`PROMOTION-RECEIPT-20261017.md`): `candidate/HUMANIZED-SO-FAR.md`, the working copy, without its version notes (`candidate/fix-20261017d/make_master.py`); `original.md`, the published text, stays as the published source. Section 2 v3.6, his 01:29 UTC first paragraph (56 a) and aside (55 b), is in on his own Pangram check ("i checked the section, it passes as human when first part is this"); my checks of it and of the anomie paragraph with his screenshot (46 a), batch 428g in `candidate/fix-20261018/b428/`, wait on Pangram: after his message the web app in the desktop app's browser was signed out and the API key had no credits. Next: the master merged into his Substack editor HTML (`candidate/joel-20261018/substack-editor-20261018-0129.html`) and the copy helper from the canonical generator (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`). The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- Joel's answers to questions 55 and 56; then section 2 (his opening, the anomie paragraph and the screenshot), each checked alone and in the section, and the promotion (45 a).
+- When Pangram is signed in again: batch 428g (section 2 v3.6, its paragraphs, and the section with the anomie paragraph and the screenshot, 46 a); if the anomie version reads 100% Human, it goes in, then `make_master.py`, a line in the receipt, and the Substack merge and helper again.
+- The Substack merge and copy helper.
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
 ## Blockers / unresolved
