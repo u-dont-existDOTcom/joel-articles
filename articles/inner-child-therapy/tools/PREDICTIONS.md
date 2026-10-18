@@ -2729,3 +2729,13 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 71) | One Intention, the h2: P1 oi-bb, P2 sp6-p2-h2 (156 words) [t71pp_secoibb], a screen | Human, low (my call) | AI Detected (0.63; 168), 2 windows: AI-Generated 122 words (High); 06:05:01 UTC, https://www.pangram.com/history/29665cd1-1d97-4f3a-916b-a8709dcd084f | miss |
 | 2026-10-18 (turn 71) | One Intention, the h2: P1 oi-aa, P2 oi2-a (155 words) [t71pp_secoiaa2], a screen | Human, low (my call) | AI Detected (0.61; 170), 2 windows: AI-Generated 126 words (High); 06:04:51 UTC, https://www.pangram.com/history/268f464c-cd4e-4bd9-8e2b-4e2b156c81ee | miss |
 | 2026-10-18 (turn 71) | One Intention, the h2: P1 oi-bb, P2 oi2-a (162 words) [t71pp_secoibb2], a screen | Human, low (my call) | AI Detected (0.69; 175), 2 windows: AI-Generated 131 words (High); 06:04:41 UTC, https://www.pangram.com/history/cf4646aa-8ffd-4b97-9125-51c72189d947 | miss |
+| 2026-10-18 (turn 71) | One Intention P1 alone, cc (Franklin's questions, his thirteen virtues a week each, so one hook a day) (69 words) [t71qq_oicc], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention P1 alone, dd (as cc, with "Not exactly small questions.") (69 words) [t71qq_oidd], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention P2 alone, b (Franklin's black spots and the holes; leave the spots out; the two hook questions; a late catch counts) (77 words) [t71qq_oi2b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention P2 alone, c (as b, opening "His evenings were a lot harder on himself, though.") (79 words) [t71qq_oi2c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention P3 alone, c (repair or protect; the good; the pattern broken; same intention; the last thing on his chart, "Sleep.") (58 words) [t71qq_oi3c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention P3 alone, d (as c, with "(it happens!)") (56 words) [t71qq_oi3d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention, the h2: oi-cc, oi2-b, oi3-c (214 words) [t71qq_secoicc], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention, the h2: oi-cc, oi2-c, oi3-d (214 words) [t71qq_secoicc2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention, the h2: oi-dd, oi2-b, oi3-d (212 words) [t71qq_secoidd], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention, the h2: oi-dd, oi2-c, oi3-c (216 words) [t71qq_secoidd2], a screen | Human, low (my call) | (pending) | |

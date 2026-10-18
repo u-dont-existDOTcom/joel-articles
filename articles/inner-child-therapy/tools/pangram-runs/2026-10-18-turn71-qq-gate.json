@@ -1,0 +1,92 @@
+{
+ "t71qq_oicc": {
+  "kind": "screen",
+  "march": [
+   "B B B S S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71qq: oi-cc, alone."
+ },
+ "t71qq_oidd": {
+  "kind": "screen",
+  "march": [
+   "B B B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71qq: oi-dd, alone."
+ },
+ "t71qq_oi2b": {
+  "kind": "screen",
+  "march": [
+   "B S S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71qq: oi2-b, alone."
+ },
+ "t71qq_oi2c": {
+  "kind": "screen",
+  "march": [
+   "B B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71qq: oi2-c, alone."
+ },
+ "t71qq_oi3c": {
+  "kind": "screen",
+  "march": [
+   "S S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71qq: oi3-c, alone."
+ },
+ "t71qq_oi3d": {
+  "kind": "screen",
+  "march": [
+   "S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71qq: oi3-d, alone."
+ },
+ "t71qq_secoicc": {
+  "kind": "screen",
+  "march": [
+   "oi-cc: B B B S S, oi2-b: B S S B S B, oi3-c: S S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71qq_secoicc.md",
+  "note": "t71qq: ## One Intention in the Morning, One Review at Night, put together: D:oi-cc, D:oi2-b, D:oi3-c."
+ },
+ "t71qq_secoicc2": {
+  "kind": "screen",
+  "march": [
+   "oi-cc: B B B S S, oi2-c: B B S S S, oi3-d: S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71qq_secoicc2.md",
+  "note": "t71qq: ## One Intention in the Morning, One Review at Night, put together: D:oi-cc, D:oi2-c, D:oi3-d."
+ },
+ "t71qq_secoidd": {
+  "kind": "screen",
+  "march": [
+   "oi-dd: B B B B S S, oi2-b: B S S B S B, oi3-d: S S B S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71qq_secoidd.md",
+  "note": "t71qq: ## One Intention in the Morning, One Review at Night, put together: D:oi-dd, D:oi2-b, D:oi3-d."
+ },
+ "t71qq_secoidd2": {
+  "kind": "screen",
+  "march": [
+   "oi-dd: B B B B S S, oi2-c: B B S S S, oi3-c: S S B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71qq_secoidd2.md",
+  "note": "t71qq: ## One Intention in the Morning, One Review at Night, put together: D:oi-dd, D:oi2-c, D:oi3-c."
+ }
+}
