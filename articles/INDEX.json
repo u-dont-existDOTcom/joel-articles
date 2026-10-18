@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "36f1a386d854798c2139e99d82e6a72e677a6c4227b6848c9e3e154586823fdb",
+          "sha256": "1aabcfe1d9b4b3581c89c3217f9c37e1a2e23bd091542610d8d8550517d17c73",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "4c2a3780900ba71e8f86657b74eb18b19e8ef55f00577d4a9144fa8016a22653",
+          "sha256": "56c4ecdc0592819eb4df50f85585cba5a702a72b03dc6680f6ba20fd6165d1dd",
           "role": "owner_edits_ledger"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "3e88ec94ed32fdff3c4aa000bdf592e10ffaa3a7f52ba6372022f640c2417651",
+          "sha256": "d8dbc48990cc0f77f2d71dc91a64214095b5e3b7062c10a6d82af26702e4211c",
           "role": "detector_prediction_log"
         },
         {
@@ -16954,7 +16954,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t71-guide/installs71.py",
-          "sha256": "ce69340fc7c04d6faeb63d96126814b4e6fa21ac97512351407f994cd717f11c",
+          "sha256": "6740c72b50dd9328481978f15d86db322851d977040660fbaf3e63b1d7594777",
           "role": "humanization_working_record"
         },
         {
@@ -20421,6 +20421,16 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-18-turn71-mmm.js",
           "sha256": "a3ae97c737a7f0aff6d2e73940b6cbc9cbba9d510a278810e764c98987b9b110",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/READ-mmm.json",
+          "sha256": "578558c95d76828188c679ac8bd26119a100c117fda703407f68c2e7dd4743f9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t71-guide/RESULTS-wl.json",
+          "sha256": "916db20f9e9b84d769d11ac4efb7529c713d8553a95a020c0852f68cba6bf825",
+          "role": "detector_experiment_result"
         }
       ]
     },
