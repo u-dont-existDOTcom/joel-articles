@@ -1,6 +1,6 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-18 05:10 UTC. **Open questions: 2.** They're at the top, numbered, with their options; nothing
+Last updated 2026-10-18, after batch 440g (its checks ran at 04:26 UTC). **Open questions: 2.** They're at the top, numbered, with their options; nothing
 further down needs an answer. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress;
 🟢 done or decided.
 

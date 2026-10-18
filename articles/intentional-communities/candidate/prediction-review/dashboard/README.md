@@ -25,3 +25,9 @@ upload that had since been deleted (its `data/users/me/runs` document said "Coul
   Human, and a panel of my rewrites' first-check pass rate and sections' pass rate per ten batches. To change it, edit `index.html`
   here, test its calculations with the rows in Node (`node test_calcs.js` here mocks `dash` and runs every `dash.calc` on the rows), then an
   ArtifactData `update` of `files/index.html` (`{text}`), pinned to its version.
+
+- 2026-10-18 (hypnosis guide lane, after 440g): the rows now hold both lanes (`lane`), the page has a panel of my chances
+  (the Brier score by lane, a calibration table by bins of my chance) and of the hypnosis guide's Emulate screens per batch
+  (`files/index.html` version 3, `datasets/calls` version 12, asset `/_blob/350ec5e0c68e2f108918e2eb5cee830a`). The
+  asset it replaced, `/_blob/44b7cc69fd5868d86493664675de4327`, is no longer referenced and can be deleted (deleting
+  asks the person to confirm, so it was left for a session with Joel there).

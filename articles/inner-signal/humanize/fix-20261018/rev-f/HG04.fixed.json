@@ -62,7 +62,7 @@
     3
    ],
    "paras": [
-    "You'll follow whatever you notice - sensation, image, phrase, feeling, rebellion, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return. After, note what happened & any real-world actions."
+    "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return. After, note what happened & any real-world actions."
    ],
    "run": "HG04-r1",
    "file": "fix-20261018/emu-h/HG04-r1.out.txt",
@@ -78,6 +78,14 @@
      "what": "direction or more time",
      "replace": "to create a boundary, to proceed, etc.",
      "with": "to create a boundary, to give direction or more time, etc."
+    },
+    {
+     "type": "SHIFT",
+     "what": "objection (not 'rebellion')",
+     "replace": "rebellion",
+     "with": "objection",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -119,7 +127,7 @@
     6
    ],
    "paras": [
-    "Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary depending on what you're doing or thinking about? If it doesn't come naturally, can you make yourself think in words, silently? (Thinking in words doesn't mean you hear them.)"
+    "Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary when you plan, remember, reflect, or feel upset? If it doesn't come naturally, can you make yourself think in words, silently? (Thinking in words doesn't mean you hear them.)"
    ],
    "run": "HG04-r1",
    "file": "fix-20261018/emu-h/HG04-r1.out.txt",
@@ -129,6 +137,14 @@
      "what": "'when you're by yourself'; LOST: before choosing a script",
      "replace": "When you're by yourself, do you talk",
      "with": "Before choosing a script, notice: do you talk"
+    },
+    {
+     "type": "LOST",
+     "what": "when you plan, remember, reflect or feel upset",
+     "replace": "depending on what you're doing or thinking about?",
+     "with": "when you plan, remember, reflect, or feel upset?",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"
@@ -139,7 +155,7 @@
     7
    ],
    "paras": [
-    "This doesn't mean that in any given moment you may not notice feelings before words. You don’t have to decide that feelings always come first, and you may not know. This isn't a diagnosis, just a way of finding what's useful. \"Not sure\" is an answer."
+    "This doesn't mean that in any given moment you may not notice feelings before words. You don’t have to decide that feelings always come first. This isn't a diagnosis, just a way of finding what's useful. \"Not sure\" is an answer."
    ],
    "run": "HG04-r1",
    "file": "fix-20261018/emu-h/HG04-r1.out.txt",
@@ -155,6 +171,14 @@
      "what": "a way to choose workable instructions, not a diagnosis",
      "replace": "This isn't about being right, just finding what's useful.",
      "with": "This isn't a diagnosis, just a way of finding what's useful."
+    },
+    {
+     "type": "REPEAT",
+     "what": "not knowing said twice ('you may not know' and 'Not sure is an answer')",
+     "replace": ", and you may not know.",
+     "with": ".",
+     "round": 2,
+     "from": "verify-c (second reader)"
     }
    ],
    "verdict": "fixed"

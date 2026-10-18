@@ -198,5 +198,13 @@
   "adjudication": "verify-a: all OK, no repeats",
   "repeats": 0,
   "notes": ""
+ },
+ "HG29+30": {
+  "done": true,
+  "review": "rev-g/HG29+30.review.json",
+  "verify": "verify-d/HG29+30.verify.txt",
+  "adjudication": "every finding fixed in rev-g/HG29+30.round2.json",
+  "repeats": 0,
+  "notes": ""
  }
 }

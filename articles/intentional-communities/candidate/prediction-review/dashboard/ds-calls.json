@@ -1,15 +1,15 @@
 {
  "title": "Pangram calls, scored",
- "description": "Every Pangram check in the community article lane that had a prediction written before it, one row per check: the batch, the check, my call and why, Pangram's result, and whether my call was right. Built from the lane's PREDICTIONS files by prediction-review/scorecard.py.",
+ "description": "Every Pangram check that had a prediction written before it, one row per check, in two lanes (the community article, and from batch 429 the hypnosis guide): the batch, the check, my call, my chance and why, Pangram's result, and whether my call was right. Built from the lanes' PREDICTIONS files by prediction-review/scorecard.py.",
  "source": {
+  "format": "json",
   "kind": "file",
-  "url": "/_blob/44b7cc69fd5868d86493664675de4327",
   "name": "prediction-calls-rows.json",
-  "format": "json"
+  "url": "/_blob/350ec5e0c68e2f108918e2eb5cee830a"
  },
  "updated": {
-  "at": "2026-10-18T01:56:25Z",
-  "by": "Claude (community article lane), through batch 428g; each row now carries its kind of check and whether I called Human"
+  "at": "2026-10-18T04:26:11Z",
+  "by": "Claude (hypnosis guide lane), through batch 440g; rows now carry their lane"
  },
  "schedule": "Rebuilt by the lane at the end of each turn with Pangram checks",
  "staleAfterHours": 72

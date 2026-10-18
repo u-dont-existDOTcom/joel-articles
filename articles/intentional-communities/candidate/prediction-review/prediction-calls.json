@@ -1,16 +1,16 @@
 {
  "summary": {
-  "calls": 1993,
-  "right": 1471,
+  "calls": 2013,
+  "right": 1481,
   "since_review": {
-   "calls": 1591,
-   "right": 1216,
-   "passed": 951
+   "calls": 1611,
+   "right": 1226,
+   "passed": 960
   },
   "today": {
-   "calls": 1041,
-   "right": 815,
-   "passed": 636
+   "calls": 1061,
+   "right": 825,
+   "passed": 645
   }
  },
  "windows": [
@@ -265,10 +265,18 @@
   {
    "from": 430,
    "to": 439,
-   "calls": 51,
-   "right": 38,
-   "passed": 27,
-   "always_ai_right": 24
+   "calls": 69,
+   "right": 47,
+   "passed": 34,
+   "always_ai_right": 35
+  },
+  {
+   "from": 440,
+   "to": 449,
+   "calls": 2,
+   "right": 1,
+   "passed": 2,
+   "always_ai_right": 0
   }
  ],
  "misses": [
@@ -5894,6 +5902,156 @@
    "where": "../../inner-signal/humanize/fix-20261018/b435/PREDICTIONS.md:13",
    "p": 0.55,
    "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 437,
+   "name": "437g-HG04-emuH",
+   "mine": "Mixed",
+   "why": "a new sample of the whole section in one run (436g's window covered all of it); emu-a's whole run read Human around one 108-word window in 431g",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 356 words, AI likelihood 0.00), 04:06:52, [check](https://www.pangram.com/history/7c55545c-f99e-468f-950b-5afd045339ff)",
+   "where": "../../inner-signal/humanize/fix-20261018/b437/PREDICTIONS.md:9",
+   "p": 0.4,
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 437,
+   "name": "437g-HG16-emuH",
+   "mine": "Mixed",
+   "why": "436g's 210-word window (B11-B19) from one run of its published blocks",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 744 words, AI likelihood 0.01), 04:07:03, [check](https://www.pangram.com/history/eadab2ae-1ca7-4401-bf43-c9d905943ede)",
+   "where": "../../inner-signal/humanize/fix-20261018/b437/PREDICTIONS.md:10",
+   "p": 0.4,
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 437,
+   "name": "437g-HG38+39-emuH",
+   "mine": "Human",
+   "why": "436g's two windows (176 and 101 words) from two short runs; the rest as 436g",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 39; AI-Generated, High, 98; Human, High, 1089, 1226 words, AI likelihood 0.15), 04:07:46, [check](https://www.pangram.com/history/acb93fb4-0d75-4bd2-aaea-7668f1151ed9)",
+   "where": "../../inner-signal/humanize/fix-20261018/b437/PREDICTIONS.md:14",
+   "p": 0.45,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 437,
+   "name": "437g-HG24-emuH",
+   "mine": "Mixed",
+   "why": "troubleshooting from \"You dissociate\" to the end in one run (Emulate loosened it: \"Go eat some food\"); the start as 433g",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 1130 words, AI likelihood 0.02), 04:08:08, [check](https://www.pangram.com/history/e270cbd7-3272-446d-8042-771294c32b77)",
+   "where": "../../inner-signal/humanize/fix-20261018/b437/PREDICTIONS.md:16",
+   "p": 0.45,
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 438,
+   "name": "438g-HG31-emuI",
+   "mine": "Human",
+   "why": "437g's one 202-word window (parts integration and the NLP refusals) from one run; the rest as 437g (Human there)",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (Mostly Human Written; windows: Human, High, 527; AI-Generated, High, 20; Human, High, 498; AI-Generated, High, 68; Human, High, 1358; AI-Generated, High, 112; Human, High, 241, 2824 words, AI likelihood 0.18), 04:16:09, [check](https://www.pangram.com/history/24d8b678-6b05-4889-8ac7-fb6d2ff3fd2e)",
+   "where": "../../inner-signal/humanize/fix-20261018/b438/PREDICTIONS.md:11",
+   "p": 0.45,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 438,
+   "name": "438g-HG29+30-emuI",
+   "mine": "Mixed",
+   "why": "Appendix A whole from one run: its prompt scripts read AI in every piece-run so far",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 643 words, AI likelihood 0.12), 04:16:20, [check](https://www.pangram.com/history/8995f539-df5c-409a-b766-e1ee4e89d771)",
+   "where": "../../inner-signal/humanize/fix-20261018/b438/PREDICTIONS.md:12",
+   "p": 0.4,
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 438,
+   "name": "438g-HG38+39-emuI",
+   "mine": "Human",
+   "why": "Appendix I to the second family (B0-B8) from one run: B3 read AI in every sample so far",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: Human, High, 39; AI-Generated, High, 160; Human, High, 910, 1109 words, AI likelihood 0.16), 04:16:32, [check](https://www.pangram.com/history/912f593c-75d8-4c04-8532-6ffc2858c00a)",
+   "where": "../../inner-signal/humanize/fix-20261018/b438/PREDICTIONS.md:13",
+   "p": 0.45,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 439,
+   "name": "439g-HG17-emuJ",
+   "mine": "Human",
+   "why": "438g read Mostly Human with one 117-word Medium window (the opening, B0-B2), now from a fifth sample",
+   "res": "Mixed",
+   "pct": null,
+   "res_raw": "Mixed (AI Detected; windows: AI-Generated, High, 213; Human, High, 59; AI-Generated, High, 91; Human, High, 1824; Human, High, 320, 2561 words, AI likelihood 0.11), 04:22:58, [check](https://www.pangram.com/history/89300ddb-d7a3-4bf4-a53f-9c4cdf2737f7)",
+   "where": "../../inner-signal/humanize/fix-20261018/b439/PREDICTIONS.md:9",
+   "p": 0.5,
+   "passed": false,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 439,
+   "name": "439g-HG38+39-emuJ",
+   "mine": "Mixed",
+   "why": "the Appendix J opening (B3-B6), AI in every sample so far, from a fifth",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written, high, 1109 words, AI likelihood 0.03), 04:23:20, [check](https://www.pangram.com/history/33b4df99-cdfd-4b05-b795-e1c6162ea422)",
+   "where": "../../inner-signal/humanize/fix-20261018/b439/PREDICTIONS.md:11",
+   "p": 0.4,
+   "passed": true,
+   "right": false,
+   "text": ""
+  },
+  {
+   "sec": "hypnosis",
+   "batch": 440,
+   "name": "440g-HG17-emuK",
+   "mine": "Mixed",
+   "why": "the opening from a sixth sample (AI in all five before), the rest as 438g (Mostly Human, AI 0.05)",
+   "res": "Human",
+   "pct": 0.0,
+   "res_raw": "Human (Human Written; windows: Human, High, 1802; Human, High, 679, 2548 words, AI likelihood 0.01), 04:26:00, [check](https://www.pangram.com/history/fdb72264-85fb-4259-986e-ab29176e6f19)",
+   "where": "../../inner-signal/humanize/fix-20261018/b440/PREDICTIONS.md:9",
+   "p": 0.4,
+   "passed": true,
    "right": false,
    "text": ""
   }

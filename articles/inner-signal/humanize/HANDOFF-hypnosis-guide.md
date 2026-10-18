@@ -89,7 +89,7 @@ From `fix-20261018/`:
    section). Then paragraph checks, section records, install into `HUMANIZED-SO-FAR.md`, links back from the reviews'
    "links".
 
-## Next step (2026-10-18 05:10 UTC)
+## Next step (2026-10-18, after batch 440g)
 
 1. Read march-d and march-e when they're in (`python3 ../tools/march_pairs.py read march-d march-d/march-labels.txt`,
    the same for march-e); for every stretch whose edit has fewer paragraphs with a break than Emulate's version, put a

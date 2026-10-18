@@ -1,6 +1,6 @@
 # Status: hypnosis guide humanization (newest on top)
 
-## 2026-10-18 05:10 UTC
+## 2026-10-18, after batch 440g (its checks ran at 04:26 UTC)
 
 **Where it stands.** Every section but the de-hypnosis checklist (HG32) now has a version that reads 100% Human: 3 as
 published, 33 as Emulate rewrote them. None is installed yet. Meaning work: 25 sections are done (my review, a second

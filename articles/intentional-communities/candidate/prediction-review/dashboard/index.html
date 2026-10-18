@@ -67,6 +67,29 @@
     </ul>
   </section>
 
+  <section class="ps-panel" id="chances">
+    <h2>My chances, and Emulate's screens</h2>
+    <p class="ps-note">Since 18 October each call carries a chance (my chance that the text reads 100% Human). The Brier score is the average of (chance − result)², with the result 1 for 100% Human and 0 otherwise: 0 is perfect, 0.25 is what always saying 50% scores, and lower is better. Below it, how often the hypnosis guide's Emulate screens read 100% Human, batch by batch.</p>
+    <div class="ps-tablebox">
+      <table class="ps-table" data-source="chance_cal">
+        <thead><tr><th>Lane</th><th>Calls with a chance</th><th>Brier</th><th>Always 50%</th><th>Mean chance</th><th>Read 100% Human</th></tr></thead>
+        <tbody id="cal-rows"></tbody>
+      </table>
+    </div>
+    <div class="ps-tablebox">
+      <table class="ps-table" data-source="chance_bins">
+        <thead><tr><th>My chance</th><th>Calls</th><th>Mean chance</th><th>Read 100% Human</th></tr></thead>
+        <tbody id="bin-rows"></tbody>
+      </table>
+    </div>
+    <div class="ps-tablebox">
+      <table class="ps-table" data-source="emulate_screens">
+        <thead><tr><th>Batch</th><th>Emulate screens</th><th>Read 100% Human</th><th>Mean chance</th><th>Brier</th></tr></thead>
+        <tbody id="emu-rows"></tbody>
+      </table>
+    </div>
+  </section>
+
   <section class="ps-panel" id="misses">
     <h2>Misses since the review, newest first</h2>
     <p class="ps-note">Each row is a call I got wrong: the batch and text, what I said and why, what Pangram said, and the start of the text.</p>
@@ -96,6 +119,12 @@ dash.calc('latest_fixes', { inputs: ['calls'], title: 'My rewrites, latest ten b
   fn: (calls) => { const top = Math.max(...calls.map((c) => Number(c.batch))); const rows = calls.filter((c) => Number(c.batch) > top - 10 && MINE.includes(c.kind)); const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ checks: rows.length, passed, pass_share: rows.length ? passed / rows.length : null }]; } });
 dash.calc('all_fixes', { inputs: ['calls'], title: 'My rewrites, all batches with a kind', description: 'Every rewrite of mine with a recorded kind, and how many read 100% Human on their first check.',
   fn: (calls) => { const rows = calls.filter((c) => MINE.includes(c.kind)); const passed = rows.filter((c) => Number(c.passed) === 1).length; return [{ checks: rows.length, passed, pass_share: rows.length ? passed / rows.length : null }]; } });
+dash.calc('chance_cal', { inputs: ['calls'], title: 'Brier score of my chances, by lane', description: 'Calls with a written chance of a 100% Human result, by lane: the Brier score (mean squared difference between the chance and the result), what always saying 50% would score, the mean chance and the share that read 100% Human.',
+  fn: (calls) => { const rows = calls.filter((c) => c.chance != null && c.chance !== ''); const lanes = {}; for (const c of rows) { const l = c.lane || 'community article'; (lanes[l] = lanes[l] || []).push(c); } lanes['both lanes'] = rows; return Object.entries(lanes).map(([lane, rs]) => { const n = rs.length; const b = n ? rs.reduce((a, c) => a + (Number(c.chance) - Number(c.passed)) ** 2, 0) / n : null; const p = n ? rs.filter((c) => Number(c.passed) === 1).length / n : null; return { lane, calls: n, brier: b, always_half: n ? 0.25 : null, mean_chance_share: n ? rs.reduce((a, c) => a + Number(c.chance), 0) / n : null, passed_share: p }; }); } });
+dash.calc('chance_bins', { inputs: ['calls'], title: 'Calibration of my chances', description: 'Calls with a chance, in bins of my chance: how many, my mean chance, and the share that read 100% Human. When my chances are calibrated, the last two match.',
+  fn: (calls) => { const rows = calls.filter((c) => c.chance != null && c.chance !== ''); const bins = [[0, 0.2], [0.2, 0.4], [0.4, 0.6], [0.6, 0.8], [0.8, 1.01]]; return bins.map(([lo, hi]) => { const rs = rows.filter((c) => Number(c.chance) >= lo && Number(c.chance) < hi); const n = rs.length; return { bin: Math.round(lo * 100) + '–' + Math.min(100, Math.round(hi * 100)) + '%', calls: n, mean_chance_share: n ? rs.reduce((a, c) => a + Number(c.chance), 0) / n : null, passed_share: n ? rs.filter((c) => Number(c.passed) === 1).length / n : null }; }); } });
+dash.calc('emulate_screens', { inputs: ['calls'], title: "Emulate's screens per batch", description: "The hypnosis guide's Emulate screens (kind emulate) per batch: how many, how many read 100% Human, my mean chance and the Brier score of my chances on them.",
+  fn: (calls) => { const g = {}; for (const c of calls) { if (c.kind !== 'emulate') continue; (g[c.batch] = g[c.batch] || []).push(c); } return Object.keys(g).map(Number).sort((a, b) => a - b).map((b) => { const rs = g[b]; const n = rs.length; const ch = rs.filter((c) => c.chance != null && c.chance !== ''); return { batch: b, screens: n, passed: rs.filter((c) => Number(c.passed) === 1).length, mean_chance_share: ch.length ? ch.reduce((a, c) => a + Number(c.chance), 0) / ch.length : null, brier: ch.length ? ch.reduce((a, c) => a + (Number(c.chance) - Number(c.passed)) ** 2, 0) / ch.length : null }; }); } });
 dash.calc('misses', { inputs: ['calls'], title: 'Misses since the review', description: 'Calls from batch 199 on that were wrong, newest batch first.',
   fn: (calls) => calls.filter((c) => Number(c.batch) >= 199 && Number(c.right) === 0).sort((a, b) => Number(b.batch) - Number(a.batch) || String(a.text).localeCompare(String(b.text))) });
 
@@ -214,5 +243,23 @@ function drawFixes() {
     .on('mouseleave', () => { tip.style('display', 'none'); });
 }
 
-dash.onData(() => { fillMarks(); drawChart(); drawFixes(); drawTable(); });
+function drawChances() {
+  const f3 = d3.format('.3f');
+  const put = (id, src, cols) => {
+    const d = dash.data(src);
+    const body = document.getElementById(id);
+    body.replaceChildren();
+    if (d.status !== 'ok') return;
+    for (const r of d.data) {
+      const tr = document.createElement('tr');
+      for (const [k, kind] of cols) { const td = document.createElement('td'); if (kind !== 'text') td.className = 'num'; const v = r[k]; td.textContent = v == null ? '—' : kind === 'pct' ? pct(v) : kind === 'brier' ? f3(v) : String(v); tr.append(td); }
+      body.append(tr);
+    }
+  };
+  put('cal-rows', 'chance_cal', [['lane', 'text'], ['calls', 'n'], ['brier', 'brier'], ['always_half', 'brier'], ['mean_chance_share', 'pct'], ['passed_share', 'pct']]);
+  put('bin-rows', 'chance_bins', [['bin', 'text'], ['calls', 'n'], ['mean_chance_share', 'pct'], ['passed_share', 'pct']]);
+  put('emu-rows', 'emulate_screens', [['batch', 'n'], ['screens', 'n'], ['passed', 'n'], ['mean_chance_share', 'pct'], ['brier', 'brier']]);
+}
+
+dash.onData(() => { fillMarks(); drawChart(); drawFixes(); drawTable(); drawChances(); });
 </script>

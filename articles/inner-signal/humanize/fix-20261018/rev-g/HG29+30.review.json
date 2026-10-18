@@ -30,6 +30,14 @@
     "what": "the fallback is a script the reader says (quotation marks, 'my body', today)",
     "replace": "If the system needs more time to process this, or if silence is the best and safest answer, then let the body go into a deeper state of comfortable rest. The prompt is considered successfully answered with peaceful silence.",
     "with": "“If the system needs more time to process this, or if silence is the best and safest answer today, then let my body go into a deeper state of comfortable rest. Peaceful silence is a successful answer.”"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'useless or dangerous'; the published: never more controlling",
+    "replace": "But useless or dangerous if used to be more controlling.",
+    "with": "But never use it to be more controlling.",
+    "round": 2,
+    "from": "verify-d (second reader)"
    }
   ]
  },
@@ -84,6 +92,22 @@
     "what": "without pretending the answer is automatically true",
     "replace": "Use both.",
     "with": "Use both, without pretending the answer is automatically true."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'can be mixed and matched'",
+    "replace": "Here are the core prompts that can be mixed and matched:",
+    "with": "Here are the core prompts:",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a childhood bargain for belonging",
+    "replace": "or a childhood need for belonging",
+    "with": "or a childhood bargain for belonging",
+    "round": 2,
+    "from": "verify-d (second reader)"
    }
   ]
  }
