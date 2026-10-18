@@ -1,0 +1,22 @@
+You are reading a humanized rewrite of a long essay against the published essay, as wholes, for the author, Joel. Other readers are checking it paragraph by paragraph; your job is the whole article: the forest, not the trees. He asked for this pass because the work went section by section "which could potentially lose the forest for the trees".
+
+Read only these files:
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/PUBLISHED-FULL.md`: the published essay.
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/REWRITE-FULL.md`: the rewrite. Text between ⟦author⟧ and ⟦/author⟧ is Joel's own wording, written or approved by him (matched by computer; it may miss some of his sentences).
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/JOEL-CHANGES.md`: the changes he made or approved.
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/LENGTHS.md`: word counts per section, published and rewrite, with how many rewrite words are inside author marks.
+
+The rewrite was made section by section so it reads as human-written to an AI detector; it is looser, more conversational and longer by design. Judge meaning and how the whole article works, not sentence style.
+
+Answer these, quoting exact words for every finding:
+1. The spine. In two or three sentences, state the published article's main argument and the job of each section in it. Does the rewrite still make that argument, with the same force and in the same order? Name any section whose job changed or blurred.
+2. Setups and payoffs. Find the published article's callbacks and cross-references: a later passage that relies on an earlier one (a named concept, a running joke, a person, the four parts, a promise of "later" or "below"). For each, does the rewrite keep both ends, in the right order, with the concept introduced before it's used? Report only the broken or weakened ones.
+3. Contradictions. Places where two rewritten passages now disagree, or a rewritten passage disagrees with the published article's position, where the published text didn't. Report only ones where both statements can't be true under any reasonable reading.
+4. Repeats. Points the rewrite now makes two or more times where the published article made them once.
+5. Voice across the article. Do some sections sound like a different writer from the others? Look at exclamation marks, slang, jokes, hedging, sentence shape. Quote examples, and say which sections differ and how.
+6. Length. The rewrite is about 42% longer. From LENGTHS.md and your reading: where did it grow most, how much of that is Joel's own text, and does the growth outside his text add meaning or pad? Name the passages that pad most, with quotes.
+7. Anything else a careful reader of both would say the rewrite lost or changed as a whole: its attitude to its reader, its humility or bluntness, its warnings, its humor.
+
+Before keeping a finding, give the strongest reading under which it isn't a problem, and drop it if that reading is plausible. If it depends on what Joel meant, mark it as a question for him. Joel's own text is his choice: don't report it as a fault, though you may note where it now sits awkwardly with the text around it. There is no minimum number of findings.
+
+Write your report to `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/REPORT-FOREST.md` with a single Write call, at most 2200 words, under seven headings matching the questions. Don't edit or create any other file. Reply with only "done" and the number of findings.

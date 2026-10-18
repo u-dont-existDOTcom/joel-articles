@@ -2,6 +2,20 @@
 
 The page: https://claude.ai/artifact/Sjpy4EiZGUa21iiMstDLPv, a Dashboard-type artifact. Only the Claude account that published it can republish it.
 
-- `index.html` is the page; `ds-calls.json` is its dataset `calls`, whose source is an uploaded JSON asset (`prediction-calls.json`); `meta.json` is the title.
-- To rebuild after a turn with Pangram checks: `python3 prediction-review/scorecard.py OUT.json` (from the candidate folder), upload OUT.json to the artifact as an asset, point `ds-calls.json`'s `source.url` at the new asset's url, set `updated.at`, and republish the dataset.
+Its content lives in the artifact's own store (the ArtifactData tool), not in published files: `dash/meta` (`{title}`),
+`datasets/calls` (`{title, description, source: {kind: "file", url, name, format}, updated: {at, by}}`) and `files/index.html`
+(`{text}`, the page; `index.html` here is a copy). Publishing files to the artifact changes nothing on the page. Until
+2026-10-17 the lane did that, so the page never showed anything (Joel, 23:10 UTC: "your scorecard is always empty"): the
+uploaded file was a summary, not the one row per check that the page counts, and the store's `datasets/calls` kept pointing at an
+upload that had since been deleted (its `data/users/me/runs` document said "Couldn't load the file (404).").
+
+- To rebuild after a turn with Pangram checks: `python3 prediction-review/scorecard.py prediction-review/prediction-calls.json`
+  (from the candidate folder). It also writes `prediction-calls-rows.json`, one row per check (batch, the check's id as `text`,
+  section, my call, Pangram's result, why, an excerpt, `right` and `passed` as 1 or 0), the shape the page counts.
+- Upload that file to the artifact as an asset (the Artifact tool's publish with `asset: true`), then an ArtifactData `update` of
+  `datasets/calls`, pinned to its version: `source.url` the new asset's url as it came, `source.name`, and `updated` (`at`: the
+  last check's Pangram time, `by`: who, through which batch). `ds-calls.json` here mirrors that document.
+- Only then delete the old asset. The page reads whatever `datasets/calls` points at, so deleting an asset it still points at
+  empties the page.
+- After Joel opens it, `data/users/me/runs` (ArtifactData `get`) says whether the dataset loaded.
 - Joel, 2026-10-12 17:23 UTC: "regarding the prediction misses file i also don't know where that is, keep that updated i want to see you improving on that or if you need help lmk i can tell you why stuff sounds human or AI."

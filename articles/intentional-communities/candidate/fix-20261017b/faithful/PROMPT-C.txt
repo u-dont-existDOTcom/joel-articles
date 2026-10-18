@@ -1,0 +1,25 @@
+You are checking a humanized rewrite of a long essay against the published essay it came from, for faithfulness. The author, Joel, will read your report: he wants to know where the rewrite no longer says what he published, before he reads it all himself.
+
+Read only these files:
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/PAIRS-C.md`: sections 9 to 12, each as PUBLISHED and then REWRITE.
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/REWRITE-FULL.md`: the whole rewrite. Use it (search it with Grep, don't read it all) to check whether a point that seems missing was moved to another section.
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/JOEL-CHANGES.md`: the changes Joel made or approved himself: his own sentences, his cuts, his rewrites. A difference listed there is his choice, not a fault.
+- `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/UNINCORPORATED-IDEAS.md`: published ideas already known to be out of the rewrite, each with Joel's decision.
+
+Text between ⟦author⟧ and ⟦/author⟧ is Joel's own wording: he wrote it or approved it, often to change the published meaning on purpose. Don't report differences inside those marks. (The marks are matched by computer and may miss some of his sentences; if a whole paragraph reads like a deliberate rewrite of the point, check JOEL-CHANGES.md before reporting it.)
+
+Background: the rewrite was made paragraph by paragraph so it reads as human-written to an AI detector, so it is looser, more conversational, and often longer. That's intended. Plainer wording, reordering inside a section, looser rhythm and short reactions are fine as long as the meaning holds. Your job is meaning, not style.
+
+For each published paragraph:
+1. Before judging, state to yourself its full claim: who does what to whom, how sure, how broad, with what exceptions, and what the paragraph is for in its section.
+2. Find where the rewrite carries it (it may be split, merged or moved). If a point isn't in the paired rewrite, search REWRITE-FULL.md for its key words, and check JOEL-CHANGES.md and UNINCORPORATED-IDEAS.md, before calling it lost.
+3. Report only these kinds:
+   - LOST: a published point that matters (a claim, step, warning, qualification, example, named person, place or thing, a joke that carries a point, the idea a link sits on) that is nowhere in the rewrite and isn't covered by JOEL-CHANGES.md or UNINCORPORATED-IDEAS.md.
+   - SHIFT: the rewrite says something an ordinary reader would take differently: stronger or weaker, broader or narrower, a different actor or object, a changed certainty, a reversed or blurred cause, a changed attitude toward someone, or a lost statement of what one thing does for another.
+   - ADDED: something outside the author marks that the published text doesn't say and that changes what a reader takes away: a new claim, fact, number, or an opinion or attitude put in Joel's mouth, or an example that changes the point. A conversational reaction or a restatement isn't an addition unless it states an opinion he didn't give.
+   - VOICE: a place where the rewrite doesn't sound like the published writer in a way he would object to: a sneer, flippancy or sentimentality he didn't have, an exclamation or slang that doesn't fit the sentence, a phrase that sounds machine-written.
+4. Before keeping a finding, give the strongest reading under which it isn't a problem. If that reading is plausible, drop it. If the finding depends on what Joel meant, label it QUESTION instead. There is no minimum number of findings.
+
+Write your report to `/home/claude/ja-community/articles/intentional-communities/candidate/fix-20261017b/faithful/REPORT-C.md` with a single Write call, at most 1800 words: "# Faithfulness: sections 9 to 12", then each finding on its own bullet: the section heading's first words; the kind (LOST, SHIFT, ADDED, VOICE or QUESTION); severity (high: a point or stance a reader would miss or get wrong; medium: a nuance; low: minor); the published words in quotes; the rewrite's words in quotes (or "nothing"); what a reader would now believe or miss; and the smallest fix, using the published words where possible. Order the findings by severity within each section. A section with no findings gets one line saying so. End with a line "Moved, fine:" listing up to ten points you found moved elsewhere, with where. Don't edit or create any other file. Reply with only the number of findings of each kind.
+
+Keep your working short: go through each published paragraph once, and don't redraft the report.

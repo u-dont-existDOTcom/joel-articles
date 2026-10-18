@@ -1,0 +1,14 @@
+{
+ "s13": [
+  "OK",
+  "fix-20261017d/SENSE-s13.md (section 13 v36 as first built, with the changes the march later held back): all 27 paragraphs OK, the bottlenecks sentence included; the held-back paragraphs are back to the installed text (cold-read OK in fix-20261017c/SENSE-s13.md), and the two sentences reworded after it are the tone check's own wording (TONE-DISPOSITIONS.md)"
+ ],
+ "s16": [
+  "OK",
+  "fix-20261017b/SENSE-s16c.md (section 16 v29, the final text then): all 19 paragraphs OK; v31 differs by his cut of \"One disagreement is enough!\" and one capital (\"can do\"), both read by the march and the tone check"
+ ],
+ "s15": [
+  "OK",
+  "fix-20261017d/SENSE-s15.md (section 15 v16 as first built: his rewrite of P1 and P2 of \"All is not well in paradise\" in, with the changes the march later held back): all 22 paragraphs OK. The held-back paragraphs are back to their v14 text, cold-read OK in fix-20261017b/SENSE-s15c.md, and the one change kept, \"Kind of the opposite problem.\" for \"Kind of the opposite problem, isn't it?\", is the text this read had"
+ ]
+}

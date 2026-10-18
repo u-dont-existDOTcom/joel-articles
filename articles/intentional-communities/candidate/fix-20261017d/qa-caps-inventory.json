@@ -1,0 +1,466 @@
+{
+ "s13": [
+  {
+   "where": "Opening P2",
+   "q": false,
+   "caps": [
+    "REALLY"
+   ],
+   "his": false,
+   "text": "Also, don't even think about combining ownership (or any other big resource, for that matter) until you've been through at least one real conflict together and REALLY dealt with it."
+  },
+  {
+   "where": "Opening P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Until then, what's it worth?"
+  },
+  {
+   "where": "Opening P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Do you have outside debts to pay?"
+  },
+  {
+   "where": "Opening P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "How long will your cash reserves last, if the community uses them?"
+  },
+  {
+   "where": "Opening P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "What critical skills will you need?"
+  },
+  {
+   "where": "Please Choose the Values Befor P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Have you noticed people often choose their community in the same way they would choose a vacation rental?"
+  },
+  {
+   "where": "Please Choose the Values Befor P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who needs a beach?!"
+  },
+  {
+   "where": "Please Choose the Values Befor P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "“Wait, there’s a vaccination policy??"
+  },
+  {
+   "where": "Please Choose the Values Befor P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "And you need paperwork for it?!?!”"
+  },
+  {
+   "where": "Please Choose the Values Befor P3",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Would LGBTQ+ people be able to live openly in your community, date, be in relationships, and stay fully protected by the community?"
+  },
+  {
+   "where": "Please Choose the Values Befor P3",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Should children be taught to question their sexual identities from a young age, and what happens if one of the community’s children comes out as gay or transgender?"
+  },
+  {
+   "where": "Please Choose the Values Befor P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Are you willing to experiment?"
+  },
+  {
+   "where": "Please Choose the Values Befor P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "A recent conflict is a good place to start: how did they handle it?"
+  },
+  {
+   "where": "Please Choose the Values Befor P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "(And who owns the land!) Does that match your values?"
+  },
+  {
+   "where": "Resources, Land, and Exit Term P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who will have title to the land?"
+  },
+  {
+   "where": "Resources, Land, and Exit Term P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land?"
+  },
+  {
+   "where": "Resources, Land, and Exit Term P3",
+   "q": true,
+   "caps": [
+    "VISIBILITY"
+   ],
+   "his": false,
+   "text": "And how will you handle the VISIBILITY of what the community has?"
+  },
+  {
+   "where": "Resources, Land, and Exit Term P4",
+   "q": false,
+   "caps": [
+    "HAVE"
+   ],
+   "his": false,
+   "text": "That's coercive -- they HAVE to stay if they can't afford to go."
+  },
+  {
+   "where": "Resources, Land, and Exit Term P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Honestly?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Did they read the materials?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "(Not everyone does.) Do they get the basic idea of why this community is here?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Are they at least starting to do the relevant practices?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "It’s a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Write down your answers to these questions: How long will a provisional membership be?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "What will a provisional member be responsible for and what are their rights?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "How will a provisional member's membership be reviewed?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "How might a person leave provisional membership?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who will make the decision about a person becoming a full member?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "(Hint: not the person who recruited them! 😜) What rights will a full member have in terms of the land, other shared resources, and their voice within the group?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "What will a member be responsible for over the long term?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P6",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "What do they actually do?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P8",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "I know, it's the fun part.) Can you actually make a decision as a group?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P8",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Can you actually work together to get something done (an ordinary work or shared-resource task will do)?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P8",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Can you even process a small conflict afterwards?"
+  },
+  {
+   "where": "From Visitor to Member—Slowly P9",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Why wouldn't they be?"
+  },
+  {
+   "where": "When Somebody Has to Go P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "What counts as cause for immediate protective action?"
+  },
+  {
+   "where": "When Somebody Has to Go P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who decides to put temporary restrictions on someone?"
+  },
+  {
+   "where": "When Somebody Has to Go P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who will make sure all the evidence is preserved?"
+  },
+  {
+   "where": "When Somebody Has to Go P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who will recuse themselves?"
+  },
+  {
+   "where": "When Somebody Has to Go P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "How will the person be able to reply to the concerns, and have the decision reviewed or appealed without putting others in danger?"
+  },
+  {
+   "where": "When Somebody Has to Go P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation?"
+  },
+  {
+   "where": "When Somebody Has to Go P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "When is it time to bring in outside help?"
+  },
+  {
+   "where": "When Somebody Has to Go P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Why bother?"
+  }
+ ],
+ "s15": [
+  {
+   "where": "Opening P2",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "People here are like, \"Don't human beings already do that?\""
+  },
+  {
+   "where": "Opening P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "But knowing why twelve people are suddenly crying with laughter?"
+  },
+  {
+   "where": "Opening P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who needs a workshop called \"Rebuilding Intergenerational Belonging\" when some aunt has already given three people a task?"
+  },
+  {
+   "where": "All is not well in paradise P1",
+   "q": true,
+   "caps": [],
+   "his": true,
+   "text": "But does this mean I think Sénégal is some magical place that's kept its communal paradise?"
+  },
+  {
+   "where": "All is not well in paradise P3",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "So which is it?"
+  },
+  {
+   "where": "All is not well in paradise P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who stole the sheep?"
+  },
+  {
+   "where": "All is not well in paradise P7",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "So what about the families?"
+  },
+  {
+   "where": "Lessons from the Black Tax P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "So why not share in return?"
+  },
+  {
+   "where": "Lessons from the Black Tax P3",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "How can they get ahead, when all these people are dependent on them?"
+  },
+  {
+   "where": "Lessons from the Black Tax P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Who's that going to be?"
+  },
+  {
+   "where": "Lessons from the Black Tax P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "And you can't exactly leave all that at the door, can you?"
+  },
+  {
+   "where": "Lessons from the Black Tax P7",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Kind of the opposite problem, isn't it?"
+  },
+  {
+   "where": "Lessons from the Black Tax P8",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Would you like people coming to your house to stare at you and your family?"
+  },
+  {
+   "where": "Lessons from the Black Tax P9",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Can you believe it?"
+  }
+ ],
+ "s16": [
+  {
+   "where": "Opening P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "\"First let's get land!\" \"Then let's write down a vision document!\" \"And whoever's putting in the money can own the place!\" And the emotional side of things?"
+  },
+  {
+   "where": "Opening P3",
+   "q": false,
+   "caps": [
+    "CAN"
+   ],
+   "his": false,
+   "text": "And work on reducing (or eliminating) outside money based on what the group has shown it CAN do, rather than by declaring \"money is impure!\" (That sounds kind of weird when somebody else is paying the tax bill.)"
+  },
+  {
+   "where": "If You Can’t Move P3",
+   "q": false,
+   "caps": [
+    "PLUS"
+   ],
+   "his": false,
+   "text": "It's a more beautiful view for sure, but now you have the conflict PLUS goats."
+  },
+  {
+   "where": "If You Can’t Move P4",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "And reparenting, somatic work, jealousy work, conflict repair, etc etc?"
+  },
+  {
+   "where": "If You Can’t Move P5",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "So what?"
+  },
+  {
+   "where": "What to Do This Month P1",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "So what do you actually do this month?"
+  },
+  {
+   "where": "What to Do This Month P3",
+   "q": true,
+   "caps": [],
+   "his": false,
+   "text": "Where do you find these people?"
+  }
+ ]
+}

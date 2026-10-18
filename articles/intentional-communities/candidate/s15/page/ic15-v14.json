@@ -1,0 +1,246 @@
+{
+ "title": "What This Looks Like From Sénégal · section 15 (v14, in the article) beside the published one",
+ "meta": "Community article · section 15 · v14, 2026-10-17 evening · in the article, not accepted until you say so",
+ "intro": [
+  "Your published section is on the left; v14, now in the article, is on the right. Each row shows the check that read that paragraph alone (your rule: every paragraph passes alone).",
+  "The whole section reads Human (417g, 1420 words, AI likelihood 0.15): https://www.pangram.com/history/5e03920e-3769-4e9e-bb8c-cf156edf877e",
+  "How it was made: Emulate rewrote the section (five rounds, the last ones on single paragraphs), and your meaning went back inside its sentences; meaning checks then compared every paragraph with yours and caught where a point had slipped, each fixed before the Pangram checks. Nothing was cut as a repeat: each place that says something another section says carries its own point here.",
+  "What changed this evening: five exclamations your way (your 43: the mark becomes a period only where the sentence reads right with one; the real reactions stay), and two fixes from the whole-article faithfulness pass (your published words back). Each changed paragraph has its new check in its row."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# What This Looks Like From Sénégal"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "I live in Sénégal, where \"intentional",
+     "source": [
+      "I live in Sénégal, where “intentional"
+     ],
+     "notes": [
+      "415g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.01, S15v14-H1P2+prev) https://www.pangram.com/history/04b535f2-825b-43e6-a6a8-6611c51520c1"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Sénégal is unlike anywhere else I've",
+     "source": [
+      "This country feels unlike anywhere else"
+     ],
+     "notes": [
+      "415g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.01, S15v14-H1P2+prev) https://www.pangram.com/history/04b535f2-825b-43e6-a6a8-6611c51520c1",
+      "Your 43: \"I find them so soothing.\" with a period (a calm feeling; the published \"I find them deeply soothing.\")."
+     ]
+    },
+    {
+     "label": "",
+     "article": "And the humor! People are outside",
+     "source": [
+      "I also hear people laughing outside"
+     ],
+     "notes": [
+      "410g, alone: Human (AI likelihood 0.31, S15v13-H1P3) https://www.pangram.com/history/d07ab087-7033-4bdb-8e4d-63f4961969bb",
+      "\"And the humor!\" stays: a real reaction, and with a period it would read flat (your 43)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "In the villages and families I've",
+     "source": [
+      "In the villages and families I’ve"
+     ],
+     "notes": [
+      "327g, alone: Human (AI likelihood 0.54, S15v6-H1-P4c) https://www.pangram.com/history/2a616fc2-d2b6-4d43-afc7-22816e9e01b6",
+      "Your 40 a: \"so much is taken care of by\" stays."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Even in Dakar, I found this",
+     "source": [
+      "Even in Dakar I found graffiti"
+     ],
+     "notes": [
+      "415g, alone: Human (AI likelihood 0.00, S15v14-H1P5) https://www.pangram.com/history/8a0b7a6f-6e47-4ab5-9e4a-d07e09ce8265",
+      "Your 43: \"Spiritual graffiti still surprises me.\" with a period, after the graffiti's five exclamations."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## All is not well in paradise"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "But does this mean I think",
+     "source": [
+      "I don’t want to turn this"
+     ],
+     "notes": [
+      "410g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.18, S15v13-H2P2+prev) https://www.pangram.com/history/68a12c46-b5b4-406d-aa99-733e00f79f78",
+      "\"No, not that either!\" stays for now. The whole-article reader found the \"!\" softens the bluntness right before the anti-gay law, and with a period the paragraph read AI with the next one (415g, 0.34): question 47."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Sénégal passed a law in March",
+     "source": [
+      "In March 2026, Sénégal enacted Law"
+     ],
+     "notes": [
+      "410g, alone: Human (AI likelihood 0.29, S15v13-H2P2) https://www.pangram.com/history/9e80d2f8-0de4-4142-be87-266c886720e2"
+     ]
+    },
+    {
+     "label": "",
+     "article": "So which is it? Well, in",
+     "source": [
+      "A society can be spiritually alive,"
+     ],
+     "notes": [
+      "415g, alone: Human (AI likelihood 0.03, S15v14-H2P3) https://www.pangram.com/history/8f41184a-66ac-4a6d-a9f8-d4c1c9ae8f9d",
+      "From the faithfulness pass: your published judgment back, \"Being in community isn't automatically liberating. It all depends on who is allowed to belong without pretending.\", for Emulate's \"It's interesting to see that ... whether you're allowed\" (a detached remark, and one person's luck where you named who the community lets belong)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "One other shadow side of the",
+     "source": [
+      "The otherwise forgiving social culture has"
+     ],
+     "notes": [
+      "415g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S15v14-H2P3+next) https://www.pangram.com/history/7eaace56-bcb8-4e5b-8478-d38eed0bdfb0"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Where I live, neighbors steal our",
+     "source": [
+      "Where I live, neighbors steal our"
+     ],
+     "notes": [
+      "415g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S15v14-H2P6+prev) https://www.pangram.com/history/b0a4853c-f873-4a28-a6a4-5c7f5bad86e3",
+      "\"Every morning!\" is yours (published)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Everybody here has sheep (even me),",
+     "source": [
+      "Everybody raises sheep here, including me,"
+     ],
+     "notes": [
+      "415g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S15v14-H2P6+prev) https://www.pangram.com/history/b0a4853c-f873-4a28-a6a4-5c7f5bad86e3",
+      "Your 43: \"Everybody here has sheep (even me), and they are super cute.\" Both marks out: two in one sentence, between \"Every morning!\" and the sheep video's title."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Of course, the old communal ways",
+     "source": [
+      "The older communal patterns are also"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.00, S15v5-H2-P7) https://www.pangram.com/history/cf202e52-6d74-4a59-939b-4331c3519b23"
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Lessons from the Black Tax"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "Then there's the so-called \"Black Tax,\"",
+     "source": [
+      "One strange survival of the old"
+     ],
+     "notes": [
+      "415g, alone: Human (AI likelihood 0.23, S15v14-H3P1) https://www.pangram.com/history/0803d8b2-8a4e-4b96-856b-7ef850b620c2",
+      "From the faithfulness pass: \"whatever prosperity came through you later\", your published phrase, for \"whatever you made of yourself later\", which is the self-made view the paragraph argues against (\"nobody made it alone\")."
+     ]
+    },
+    {
+     "label": "",
+     "article": "But these days it can be",
+     "source": [
+      "The modern version can become soul-destroying"
+     ],
+     "notes": [
+      "332g, alone: Human (AI likelihood 0.06, S15v10-H3-P2) https://www.pangram.com/history/102b4871-9084-40c8-9d5d-c090dbc57b1d"
+     ]
+    },
+    {
+     "label": "",
+     "article": "This is also the thorny boundary",
+     "source": [
+      "This is also the boundary problem"
+     ],
+     "notes": [
+      "415g, alone: Human (AI likelihood 0.35, S15v14-H3P4) https://www.pangram.com/history/dc0c7bce-269a-4919-a0aa-078bbf539bce",
+      "Your 13:11 correction stays: \"This is also\". Your 43: \"someone has to handle it.\" with a period (logistics, not a reaction)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Another aspect of outside work, even",
+     "source": [
+      "Outside work complicates that boundary even"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.23, S15v5-H3-P4) https://www.pangram.com/history/b54038f5-c51b-4731-93a0-93847e62c2ca"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Some Zapatista communities used to try",
+     "source": [
+      "Zapatista communities faced a version of"
+     ],
+     "notes": [
+      "410g, alone: Human (AI likelihood 0.18, S15v13-H3P5) https://www.pangram.com/history/a501bc8e-0f7f-4baf-b800-cd271b15b9b5",
+      "Your 13:11 sentence stays: \"I understand the motivation to negotiate like that, but I think it's not a full solution either.\""
+     ]
+    },
+    {
+     "label": "",
+     "article": "Westerners often start out isolated and",
+     "source": [
+      "Westerners often begin with isolation and"
+     ],
+     "notes": [
+      "322g, alone: Human (AI likelihood 0.02, S15v2-H3-P6) https://www.pangram.com/history/a33242d1-8f25-4c35-bef5-b5fb99b568a4"
+     ]
+    },
+    {
+     "label": "",
+     "article": "So this is a global issue,",
+     "source": [
+      "That makes this a global conversation"
+     ],
+     "notes": [
+      "415g, alone: Human (AI likelihood 0.06, S15v14-H3P8) https://www.pangram.com/history/bc9b585f-9da7-477b-a445-5b1a2115bf05",
+      "Your 43: \"a spiritual service package.\" with a period (advice; the \"!\" made it scold)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Oh, and a practical note: getting",
+     "source": [
+      "A practical note: my own residency"
+     ],
+     "notes": [
+      "326g, alone: Human (AI likelihood 0.27, S15v5-H3-P8) https://www.pangram.com/history/2bc1ef02-fdfa-4193-b8a4-ea3d1feb0383",
+      "\"they won't let me pay rent!\" stays: a real reaction to the hospitality."
+     ]
+    }
+   ]
+  }
+ ]
+}

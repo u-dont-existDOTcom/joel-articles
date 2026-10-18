@@ -1,0 +1,234 @@
+{
+ "title": "Practice Comes Before Property · section 16 (v29, in the article) beside the published one",
+ "meta": "Community article · section 16 · v29, 2026-10-17 · in the article, not accepted until you say so",
+ "intro": [
+  "Your published section is on the left; v29, now in the article, is on the right. Each row shows the check that read that paragraph alone, or with its neighbor when it is short (your rule: every paragraph passes alone).",
+  "The whole section reads Human (419g, 868 words, AI likelihood 0.24): https://www.pangram.com/history/e7eb8d4b-eecc-4a7c-889c-820212e2f8e8",
+  "What changed this evening: the exclamations your way (your 43: the mark becomes a period only where the sentence reads right with one; real reactions and your own lines stay; \"That's it!\" is out), and one fix from the whole-article faithfulness pass (\"rather than by declaring\", your published word). Pangram checked the section one change at a time (418g, 419g). What it or the march showed was holding a paragraph is question 47."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Practice Comes Before Property"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "Most people try and do community",
+     "source": [
+      "Most community projects begin in the"
+     ],
+     "notes": [
+      "415g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.02, S16v29-H1P2+prev) https://www.pangram.com/history/795c5ada-a28b-448c-924c-0e181f1c62c9",
+      "Your quoted founders (\"First let's get land!\" ...) keep their exclamations: they're voices being imitated."
+     ]
+    },
+    {
+     "label": "",
+     "article": "It would be better to get",
+     "source": [
+      "The better order is less cinematic."
+     ],
+     "notes": [
+      "415g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.02, S16v29-H1P2+prev) https://www.pangram.com/history/795c5ada-a28b-448c-924c-0e181f1c62c9",
+      "Your order of 2026-10-16 23:38, every step of it: practice, a real conflict, values, membership, ownership and exit, then land. Your 43: \"Less cinematic, I know.\" with a period (a wry concession; the joke is in the brackets)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Same with money: do it in",
+     "source": [
+      "The economic path should be staged"
+     ],
+     "notes": [
+      "415g, alone: Human (AI likelihood 0.00, S16v29-H1P3) https://www.pangram.com/history/79d6b403-6800-41f5-addf-9b3a8033a6cb",
+      "Your 43: \"in one go.\" with a period (advice). From the faithfulness pass: \"rather than by declaring \"money is impure!\"\", the published \"declaring\": the rewrite had mocked the belief itself, which section 4 gives as yours (\"money is antagonistic to the spirit of community\"). Your 13:11 \"quietly\" stays out. The first money stage isn't repeated here (section 4 says it in your words)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## If You Can’t Move"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "I realize that for most people",
+     "source": [
+      "Most readers have a job, children,"
+     ],
+     "notes": [
+      "328g, alone: Human (AI likelihood 0.00, S16v4-H2-P1) https://www.pangram.com/history/b62741c6-965b-4843-a1c5-ddfd1e4f5501",
+      "\"That's fine!\" stays: with a period it read curt to a fresh reader, your \"That's it!\" shape."
+     ]
+    },
+    {
+     "label": "",
+     "article": "People sometimes buy forty acres and",
+     "source": [
+      "People sometimes buy forty acres and"
+     ],
+     "notes": [
+      "415g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.07, S16v29-H2P3+prev) https://www.pangram.com/history/a22e83b0-0975-4950-b6bb-b2e66ac98353"
+     ]
+    },
+    {
+     "label": "",
+     "article": "So your inner pl/ork can start",
+     "source": [
+      "Inner pl/ork can begin where you"
+     ],
+     "notes": [
+      "418g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.16, S16-d-H2P3+next) https://www.pangram.com/history/29cb8a14-93ab-4f3b-9371-36c303e50840",
+      "Your 43, your own example: \"That's it!\" is out (the phrase, not just the mark). Pangram read the paragraph Human with both neighbors (415g, 418g)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "A group that practices together weekly",
+     "source": [
+      "A weekly group that has practiced"
+     ],
+     "notes": [
+      "418g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.16, S16-d-H2P3+next) https://www.pangram.com/history/29cb8a14-93ab-4f3b-9371-36c303e50840",
+      "\"It can still make a difference when people are going through ...\" stays: the faithfulness pass put your published \"change how people survive\" in, and it read AI with the paragraph before it (415g 0.88, 417g 0.87) and brought AI windows into the section (question 47). \"already contains a real piece of community\" stays out: section 13 opens with it (the overnight dedup)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Here's an idea if you're remote,",
+     "source": [
+      "Remote or constrained readers can build"
+     ],
+     "notes": [
+      "415g, alone: Human (AI likelihood 0.02, S16v29-H2P5) https://www.pangram.com/history/4c960df8-ef0e-4b2c-83ae-69c2e8cd3218",
+      "Your 43: \"Or a sauna.\" with a period (deadpan; the sauna is the joke)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Trust me on this one. If",
+     "source": [
+      "Three households reliably showing up for"
+     ],
+     "notes": [
+      "415g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.23, S16v29-H2P5+next) https://www.pangram.com/history/086ea2d4-c821-4080-9745-43459865aaec",
+      "\"Trust me on this one.\" vouches from your own experience where the published didn't (question 47 c)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## What to Do This Month"
+   ],
+   "rows": [
+    {
+     "label": "",
+     "article": "So what do you actually do",
+     "source": [
+      "Start the inner pl/ork. Read the"
+     ],
+     "notes": [
+      "415g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.01, S16v29-H3P1+next) https://www.pangram.com/history/ca5e48f1-03b6-4705-bae1-6084e3030632",
+      "\"One disagreement is enough!\" stays for now: it's the paragraph's only turn (question 47)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Find two or three other people",
+     "source": [
+      "Find two or three people. Call"
+     ],
+     "notes": [
+      "415g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.01, S16v29-H3P1+next) https://www.pangram.com/history/ca5e48f1-03b6-4705-bae1-6084e3030632"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Where do you find these people?",
+     "source": [
+      "Possible places to meet people include"
+     ],
+     "notes": [
+      "389g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.20, S16v25-H3-P3+P4) https://www.pangram.com/history/ed7e692e-c397-4f32-b30e-999d686ce7ff",
+      "\"Really, go!\" stays for now: it's the paragraph's only turn (question 47)."
+     ]
+    },
+    {
+     "label": "",
+     "article": "Go visit some real communities. Really,",
+     "source": [
+      "Visit actual communities. Twin Oaks, East"
+     ],
+     "notes": [
+      "409g, with the paragraph after (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.15, S16v26kni-H3-P5+P6) https://www.pangram.com/history/530237b0-731d-4e0d-b057-5c69b56f801d",
+      "Your 42 lines, with your two exclamations."
+     ]
+    },
+    {
+     "label": "",
+     "article": "By visiting some communities, you'll get",
+     "source": [
+      "Visits teach you what no manifesto"
+     ],
+     "notes": [
+      "409g, alone: Human (AI likelihood 0.02, S16v26kni-H3-P6) https://www.pangram.com/history/25e80c83-6bc2-4a29-998c-7261a238fea1",
+      "Your 42, as you wrote it: \"Look before you leap. It will really save you some time & money.\""
+     ]
+    },
+    {
+     "label": "",
+     "article": "Look before you leap. It will",
+     "source": [
+      "Do those three things before you"
+     ],
+     "notes": [
+      "410g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S16v28-H3P7+prev) https://www.pangram.com/history/db4f9409-04e7-48c2-b8a2-8d995b713173"
+     ]
+    },
+    {
+     "label": "",
+     "article": "I'm not trying to sell you",
+     "source": [
+      "I have no application form for"
+     ],
+     "notes": [
+      "389g, alone: Human (AI likelihood 0.02, S16v25-H3-P8) https://www.pangram.com/history/c2efc0a1-48da-4842-9746-eb209ed1856e"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Decades after the Bruderhof shaped my",
+     "source": [
+      "The Bruderhof shaped my father. He"
+     ],
+     "notes": [
+      "389g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.00, S16v25-H3-P8+P9) https://www.pangram.com/history/020a83f5-1f9f-432f-a614-411ed5ac4a3b"
+     ]
+    },
+    {
+     "label": "",
+     "article": "Maybe some of you will build",
+     "source": [
+      "Maybe somebody will build something useful"
+     ],
+     "notes": [
+      "388g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.01, S16v24-H3-P9+P10) https://www.pangram.com/history/0789ba65-60fd-4d28-ac00-2bbf0380fba3"
+     ]
+    },
+    {
+     "label": "",
+     "article": "If you build something real, maybe",
+     "source": [
+      "If you build something real, maybe"
+     ],
+     "notes": [
+      "388g, with the paragraph before (this one is under 50 words, Pangram's minimum): Human (AI likelihood 0.25, S16v24-H3-P10+P11) https://www.pangram.com/history/d4c7ce8e-232a-4f6f-bdd5-634abbcfe5df"
+     ]
+    }
+   ]
+  }
+ ]
+}

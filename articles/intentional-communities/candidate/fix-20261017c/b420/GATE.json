@@ -1,0 +1,539 @@
+{
+ "S13v35-OpeningP3+prev": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the phrase out: list row 1: keep \"That's okay!\" (reassurance; with a period it reads curt); the phrase \"There's lots you can do!\" goes, since the next sentence says what (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B B S",
+   "S B B S"
+  ],
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-OpeningP3-was and s13-OpeningP3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 169
+ },
+ "S13v35-OpeningP3+next": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the phrase out: list row 1: keep \"That's okay!\" (reassurance; with a period it reads curt); the phrase \"There's lots you can do!\" goes, since the next sentence says what (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B B S",
+   "S B B S"
+  ],
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-OpeningP3-was and s13-OpeningP3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 152
+ },
+ "S13v35-OpeningP4": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 2: wry, reads right either way (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march": [
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-OpeningP4-was and s13-OpeningP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 109
+ },
+ "S13v35-OpeningP4+prev": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 2: wry, reads right either way (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march": [
+   "S B S S S S S",
+   "S B S S S S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-OpeningP4-was and s13-OpeningP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 152
+ },
+ "S13v35-ValuesP2": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 3: advice; the mark only: list row 4: it answers the list just given (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S B B",
+   "S S B B"
+  ],
+  "march": [
+   "S S B B",
+   "S S B B"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ValuesP2-was and s13-ValuesP2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 59
+ },
+ "S13v35-ValuesP4+prev": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 5 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S",
+   "S B S"
+  ],
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ValuesP4-was and s13-ValuesP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 115
+ },
+ "S13v35-ValuesP4+next": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 5 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S",
+   "S B S"
+  ],
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ValuesP4-was and s13-ValuesP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 108
+ },
+ "S13v35-ValuesP5": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 7: deadpan works (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S S S B S B",
+   "S S S S S S B"
+  ],
+  "march": [
+   "S S S S B S B",
+   "S S S S S S B"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ValuesP5-was and s13-ValuesP5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 69
+ },
+ "S13v35-ValuesP5+prev": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 7: deadpan works (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S S S B S B",
+   "S S S S S S B"
+  ],
+  "march": [
+   "S S S S B S B",
+   "S S S S S S B"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ValuesP5-was and s13-ValuesP5-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 108
+ },
+ "S13v35-ResourcesP3": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 10 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ResourcesP3-was and s13-ResourcesP3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 79
+ },
+ "S13v35-ResourcesP4": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 11; the mark only: list row 12; the mark only: list row 13 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S S S S S B S",
+   "S S S S S S B S"
+  ],
+  "march": [
+   "S S S S S S B S",
+   "S S S S S S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ResourcesP4-was and s13-ResourcesP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 135
+ },
+ "S13v35-ResourcesP4+next": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 11; the mark only: list row 12; the mark only: list row 13 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S S S S S B S",
+   "S S S S S S B S"
+  ],
+  "march": [
+   "S S S S S S B S",
+   "S S S S S S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-ResourcesP4-was and s13-ResourcesP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 166
+ },
+ "S13v35-VisitortoMemberP2": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 15 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S B S S B",
+   "S S B S S S"
+  ],
+  "march": [
+   "S S B S S B",
+   "S S B S S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP2-was and s13-VisitortoMemberP2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 52
+ },
+ "S13v35-VisitortoMemberP2+next": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 15 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S B S S B",
+   "S S B S S S"
+  ],
+  "march": [
+   "S S B S S B",
+   "S S B S S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP2-was and s13-VisitortoMemberP2-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 91
+ },
+ "S13v35-VisitortoMemberP3+prev": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: missed by the list (the emoji after the mark): deadpan, the 😅 carries the feeling, as in row 7 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S",
+   "S B S"
+  ],
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP3-was and s13-VisitortoMemberP3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 91
+ },
+ "S13v35-VisitortoMemberP3+next": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: missed by the list (the emoji after the mark): deadpan, the 😅 carries the feeling, as in row 7 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S",
+   "S B S"
+  ],
+  "march": [
+   "S B S",
+   "S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP3-was and s13-VisitortoMemberP3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 99
+ },
+ "S13v35-VisitortoMemberP4": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 17 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP4-was and s13-VisitortoMemberP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 60
+ },
+ "S13v35-VisitortoMemberP4+prev": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 17 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march": [
+   "S S B S",
+   "S S B S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP4-was and s13-VisitortoMemberP4-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 99
+ },
+ "S13v35-VisitortoMemberP7": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 18 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP7-was and s13-VisitortoMemberP7-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 91
+ },
+ "S13v35-VisitortoMemberP8": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 19 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B B S S S S S",
+   "S S B S S S S S"
+  ],
+  "march": [
+   "S B B S S S S S",
+   "S S B S S S S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP8-was and s13-VisitortoMemberP8-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 78
+ },
+ "S13v35-VisitortoMemberP9": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 20: the mark only (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S S B S S S",
+   "S S B S S S"
+  ],
+  "march": [
+   "S S B S S S",
+   "S S B S S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-VisitortoMemberP9-was and s13-VisitortoMemberP9-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "REVIEW",
+  "words": 98
+ },
+ "S13v35-WhenSomebodyHastoGoP3": {
+  "kind": "edit",
+  "was": "batch 317g: section 13 v34 100% Human",
+  "grounding": "OK",
+  "grounding_note": "no claim of mine: his 48, the exclamations list (fix-20261017b/excl-13-14.md): the mark only: list row 21 (fix-20261017c/excl-changes-13.json)",
+  "stance": 0,
+  "stance_note": "a mark or a filler phrase out; no position added",
+  "missing": [],
+  "joel_note": "Joel, 2026-10-17 19:14 UTC (joel-20261017/joel-20261017-1914-message.txt): \"i agree with your excl 13 14 ideas\"",
+  "march_was": [
+   "S B S S S S S S",
+   "S B S S S S S S"
+  ],
+  "march": [
+   "S B S S S S S S",
+   "S B S S S S S S"
+  ],
+  "march_note": "fix-20261017c/march-r1 (s13-WhenSomebodyHastoGoP3-was and s13-WhenSomebodyHastoGoP3-new)",
+  "cold": "OK",
+  "cold_note": "fix-20261017c/SENSE-s13.md (section 13 v35 as first built): 26 of 27 paragraphs OK; its one flag, P12 \"There will be bottlenecks, sorry.\" (\"Bottlenecks in what?\"), is on the accepted wording, which lost its anchor in v34, not on the mark; it goes to Joel with question 48 (fix-20261017c/DISPOSITIONS-COLD.md)",
+  "lint": "CLEAR",
+  "words": 134
+ },
+ "S13v35": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S13v35-OpeningP3+next",
+   "S13v35-OpeningP3+prev",
+   "S13v35-OpeningP4",
+   "S13v35-OpeningP4+prev",
+   "S13v35-ResourcesP3",
+   "S13v35-ResourcesP4",
+   "S13v35-ResourcesP4+next",
+   "S13v35-ValuesP2",
+   "S13v35-ValuesP4+next",
+   "S13v35-ValuesP4+prev",
+   "S13v35-ValuesP5",
+   "S13v35-ValuesP5+prev",
+   "S13v35-VisitortoMemberP2",
+   "S13v35-VisitortoMemberP2+next",
+   "S13v35-VisitortoMemberP3+next",
+   "S13v35-VisitortoMemberP3+prev",
+   "S13v35-VisitortoMemberP4",
+   "S13v35-VisitortoMemberP4+prev",
+   "S13v35-VisitortoMemberP7",
+   "S13v35-VisitortoMemberP8",
+   "S13v35-VisitortoMemberP9",
+   "S13v35-WhenSomebodyHastoGoP3"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017c/DISPOSITIONS.md: exclamation marks and three filler phrases out; nothing added",
+  "words": 2107
+ }
+}

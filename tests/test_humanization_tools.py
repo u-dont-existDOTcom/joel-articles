@@ -1274,6 +1274,23 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(e, cold='[2] UNCLEAR')}, ['p'])
         self.assertEqual(r.returncode, 2)
 
+    def test_a_cut_goes_to_pangram_whatever_the_march_says(self):
+        """2026-10-17: a cut that took out the installed version's only break goes to Pangram when the record gives
+        the installed text and the text is that text with words taken out (Joel, 21:37 UTC: "it made no difference
+        taking those exclamation phrases out for pangram"); a rewording, or a "cut" that adds a word, is still held."""
+        e = dict(self.CLEAN, kind='edit', march=['S S'], march_was=['S B S'], was='batch 420g, alone 100% Human',
+                 cut_of='One. Very important! Three.')
+        r, js, _ = self.run_gate({'p': 'One. Three.'}, {'p': e}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIsNotNone(js)
+        r, js, _ = self.run_gate({'p': 'One. Four.'}, {'p': e}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('not that text with words taken out', r.stderr)
+        g = dict(e); del g['cut_of']
+        r, js, _ = self.run_gate({'p': 'One. Three.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('the fix made the march', r.stderr.lower())
+
     def test_no_stance_check_blocks_the_call(self):
         g = dict(self.CLEAN); del g['stance']
         r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': g}, ['p'])
@@ -1455,6 +1472,16 @@ class AuthorMarksReadExactLocksAndLinks(unittest.TestCase):
     """meaning_sweep.owner_strings (2026-10-16): his published "[My research](...) initially leaned too far that way.", kept by
     his 32 b as a must_contain_exact lock with its link, was in no owner string, so the pause tally listed "that way" as mine."""
 
+    def test_closing_quotes_and_line_breaks_survive_the_marks(self):
+        """2026-10-17: the splitter swallowed a closing quote after a sentence end ("keep clean.” Again" came out "keep
+        clean. Again"), so the faithfulness readers reported nine quotes missing that the article has."""
+        text = ('We sang: “Pick up your toys, keep clean.” Again and again. He said “little school.” I went.\n'
+                'A list line? (Not everyone does!) Then "First let\'s get land!" "Then a vision!" Done.')
+        self.assertEqual(meaning_sweep.mark_author(text, []), text)
+        out = meaning_sweep.mark_author(text, [meaning_sweep.norm('He said “little school.”')])
+        self.assertIn(meaning_sweep.MARK_OPEN + 'He said “little school.”' + meaning_sweep.MARK_CLOSE + ' I went.\nA list', out)
+        self.assertEqual(out.replace(meaning_sweep.MARK_OPEN, '').replace(meaning_sweep.MARK_CLOSE, ''), text)
+
     def test_an_exact_lock_with_a_link_marks_the_visible_sentence(self):
         with tempfile.TemporaryDirectory() as d:
             led = pathlib.Path(d) / 'OWNER-EDITS.json'
@@ -1478,6 +1505,20 @@ class ColdReadOpenerRule(unittest.TestCase):
         self.assertIn('picks up something from a paragraph or two back', t)
         self.assertIn('So does a first sentence that says in full what it\'s about', t)
         self.assertIn('add one line that starts "Paused:"', t)
+
+    def test_the_prompt_names_a_joke_that_takes_back_a_limit_and_a_dangling_either(self):
+        """Joel, 2026-10-17 21:37 UTC: "saying "one is enough" actually undermines the prior sentence "at least one"", and
+        ""not that either" doesn't make sense" (a cold reader had paused there, and the pause was kept as his published word)."""
+        t = (TOOLS / 'reviewer' / 'sense_section.txt').read_text(encoding='utf-8')
+        self.assertIn('turns a minimum into a maximum', t)
+        self.assertIn('a word like "either", "too", "also" or "again" with nothing before it to refer to', t)
+
+    def test_the_prompt_names_a_sentence_that_only_takes_back_the_one_before_it(self):
+        """Joel, 2026-10-17 23:10 UTC, rewrote section 2's opening: my "an advisory about it. Or about the loneliness under it,
+        at least." only patched my own first clause, and his names the loneliness there ("the longing to escape loneliness
+        which inspired my father's movie"), so nothing needs taking back."""
+        t = (TOOLS / 'reviewer' / 'sense_section.txt').read_text(encoding='utf-8')
+        self.assertIn('a sentence that only takes back the one before it', t)
 
 
 class PangramRoundBuildsEveryCheckAtOnce(unittest.TestCase):

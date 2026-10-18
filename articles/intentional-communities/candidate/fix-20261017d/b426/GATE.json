@@ -1,0 +1,42 @@
+{
+ "S2v35m-P12": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt): 52 \"this is human\", his two paragraphs as one (his words unchanged), a probe",
+  "probe": true,
+  "words": 103
+ },
+ "S2v34-A46": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 50
+ },
+ "S2v34-A46+next": {
+  "kind": "owner",
+  "joel": "Joel, 2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt): 46 a (the anomie paragraph of question 46, his pick)",
+  "words": 70
+ },
+ "S2v35m": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v35m-P12"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS-2310.md (REPEATS-s2b.md)",
+  "probe": true,
+  "words": 606
+ },
+ "S2v35cm": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "S2v35m-P12",
+   "S2v34-A46",
+   "S2v34-A46+next"
+  ],
+  "repeats": 0,
+  "repeats_note": "fix-20261017d/DISPOSITIONS-2310.md (REPEATS-s2b.md)",
+  "probe": true,
+  "words": 664
+ }
+}
