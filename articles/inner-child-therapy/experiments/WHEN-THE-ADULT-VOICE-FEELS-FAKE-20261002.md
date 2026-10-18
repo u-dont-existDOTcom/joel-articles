@@ -928,3 +928,18 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. "And So That's the Way It Happened!" with his part-at-a-time method on the practice; then the Altered States sections with his stories as his guide has them; the other parked Simple Practices.
 2. His merge of #190 (turn 70; he merged #188, turns 67 to 69, at 22:05 UTC) whenever he likes.
+
+## Turn 71 (2026-10-18, from 01:16 UTC): the overnight run
+
+- **His messages:** "continue"; "this is overnight mode so do that thing i told you last night, work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out"; "and save your work as you go in case credits run out"; "signed into another pangram" (`t71-answers/`). Pangram logged out at 01:35 (a "Verify you are human" box, his to pass); from 01:57 the run used his other account.
+- **In:** "And So That's the Way It Happened!" (his Xandria line; the practice checked a part at a time); Close the Session and Return to Life (P2's step as a question; P1 now points to When Healing Turns Into Checking instead of repeating it); Just Like Me, moved up after A Heart-to-Child Loop (at the guide's place it gave his photographs opener an AI window); the three Altered States sections whole, his stories as his guide has them and his trance answer among them; the Appendix with Teachers and Practice Resources. Simple Practices 0.068 high, the Altered States h1 0.036 high, the Appendix's h2 0.14 high.
+- **A new move:** a sentence pointing to a real, named source the practice resembles, linked and opened first, read Human by itself every time; it carried Just Like Me (Pema Chödrön's tonglen) and Altered States P4 (Jack Kornfield's After the Ecstasy, the Laundry). Both pointers are mine, not the guide's (question 50).
+- **Checked:** repeats checks of every section that went in (`t71-guide/REPEATS-*`; the fixes are in REVIEWS.md, and the repeats inside his own texts are question 49); cold reads (`t71-guide/COLD-READ-t71-*`); every link in the article opened (`t71-guide/LINKS-t71.md`).
+- **Still parked:** How This Relates to IFS with Related Clinical Work (question 45, with its first-person lines, E189), Journal With Each Hand and One Intention in the Morning, One Review at Night (question 46), each in his help-request format; his Teachers lines and the dead Gemini link (47); the loveyhuasca link in My Journey, which opens his protocol page (48).
+- **Records:** `t71-guide/REVIEWS.md`, `t71.py`, SPEC and READ files for rounds a to jj, `tools/PREDICTIONS.md` rows t71a on, the review page's map `tools/in-context/2026-10-18-turn71.json`.
+
+### Next
+
+1. His answers to 45 to 50, and his merge of the turn-71 pull request.
+2. With his answers: How This Relates to IFS, Journal With Each Hand and One Intention.
+

@@ -1,0 +1,32 @@
+[
+ {
+  "key": "jwr",
+  "draft": "jw-r",
+  "label": "Journal With Each Hand P1 alone, r (jw-q's first three sentences, which read Human; then \"see what the other hand does with a pen\")"
+ },
+ {
+  "key": "jws",
+  "draft": "jw-s",
+  "label": "Journal With Each Hand P1 alone, s (jw-q's first three sentences; then \"surprised by what the other hand comes up with\")"
+ },
+ {
+  "key": "secjwr",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-r",
+   "G:writers/sp4-w1-p2"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-r, P2 turn 65's writers/sp4-w1-p2",
+  "march": "jw-r: B B S S B B B, sp4-w1-p2: ?"
+ },
+ {
+  "key": "secjws",
+  "blocks": [
+   "## Journal With Each Hand",
+   "D:jw-s",
+   "G:writers/sp4-w1-p2"
+  ],
+  "label": "Journal With Each Hand, the h2: P1 jw-s, P2 turn 65's writers/sp4-w1-p2",
+  "march": "jw-s: B B S S B S, sp4-w1-p2: ?"
+ }
+]
