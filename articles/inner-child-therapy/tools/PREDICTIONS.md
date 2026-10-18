@@ -2552,5 +2552,16 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 71) | Close the Session P1 alone, e ("It feels silly for about two seconds.") (82 words) [t71l_cs1e], a screen | Human, low (my call) | AI Generated (0.71, Low; 85); 03:22:26 UTC, https://www.pangram.com/history/e0c2de83-a0ed-4510-90b7-b45c2ed351a7 | miss |
 | 2026-10-18 (turn 71) | Close the Session, the h2: P1 cs1-d, P2 cs2-m (160 words) [t71l_secsc4], a screen | Human, low (my call) | AI Generated (0.83, High; 168); 03:22:16 UTC, https://www.pangram.com/history/1c0ac09d-43f3-41f2-a2ab-c827b068eac5 | miss |
 | 2026-10-18 (turn 71) | Close the Session, the h2: P1 cs1-e, P2 cs2-m (163 words) [t71l_secsc5], a screen | Human, low (my call) | AI Generated (0.92, High; 170); 03:22:05 UTC, https://www.pangram.com/history/1e797ae8-a062-4d69-bae7-0fbd2971471b | miss |
-| 2026-10-18 (turn 71) | Simple Practices, the h1 as installed, with "And So That's the Way It Happened!" in (1187 words) [t71m_secsp], a screen | Human, low (my call) | (pending) | |
-| 2026-10-18 (turn 71) | The Appendix as installed (Teachers and Practice Resources; IFS parked) (199 words) [t71m_secapp2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Simple Practices, the h1 as installed, with "And So That's the Way It Happened!" in (1187 words) [t71m_secsp], a screen | Human, low (my call) | Human Written (0.041, High; 1247); 03:25:21 UTC, https://www.pangram.com/history/04d0250a-9200-4882-9dfa-f965f900cf19 | hit |
+| 2026-10-18 (turn 71) | The Appendix as installed (Teachers and Practice Resources; IFS parked) (199 words) [t71m_secapp2], a screen | Human, low (my call) | Human Written (0.13, High; 271); 03:25:25 UTC, https://www.pangram.com/history/bdc09e20-5fa6-4da4-b36f-eeb9d2cf28c1 | hit |
+| 2026-10-18 (turn 71) | Altered States Can Deepen P3 and P4 in one, h (his moves: "let's", a question with his kind of answer, a joke to end) (137 words) [t71n_as34h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Altered States Can Deepen P5, h ("as tempting as both are"; the protective part's hearing) (59 words) [t71n_as5h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Altered States Can Deepen the Therapy, the whole h1 with as34-h and as5-h (1328 words) [t71n_secash], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Close the Session P2 alone, n (cs2-m with "(Your little one probably wants a snack anyway.)") (81 words) [t71n_cs2n], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Close the Session, the h2: P1 cs1-c, P2 cs2-n (159 words) [t71n_secsc6], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Just Like Me P2 alone, f ("Does it mean you have to forgive whoever hurt you ...? Well, no.") (67 words) [t71n_jl2f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Just Like Me, the h2: P1 turn 65's sp7-p1-c, P2 jl2-f (154 words) [t71n_secjl4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention P1 alone, m ("Is that too small? Well, hooks are sneaky, so no.") (74 words) [t71n_oim], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | One Intention, the h2: P1 oi-m, P2 turn 65's sp6-p2-h2 (144 words) [t71n_secoi2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Journal With Each Hand P1 alone, h ("Is that a dead end? Well, not if you have a pen.") (79 words) [t71n_jwh], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 71) | Journal With Each Hand, the h2: P1 jw-h, P2 turn 65's writers/sp4-w1-p2 (172 words) [t71n_secjw2], a screen | Human, low (my call) | (pending) | |
