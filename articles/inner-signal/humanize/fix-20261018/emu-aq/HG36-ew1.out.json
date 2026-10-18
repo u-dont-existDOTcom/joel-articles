@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aq/HG36-ew1.txt",
+  "input_words": 84,
+  "input_sha256": "cb762ac479fc849f7ec750cecdd890b4d16196fb37cb61fe6cfd2b2108561920",
+  "balance_before": 85436,
+  "started_utc": "2026-10-18T09:38:57Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:39:03Z",
+  "response": {
+    "id": "242e5f49-a88c-4aec-a713-192fdc90b8cf",
+    "tool": "humanize",
+    "text": "It can be useful to notice that a certain state of intensity may have meaning: perhaps it is a way of connecting with inner child parts, or a Protector who is afraid, or other parts who feel shame/grief/anger/longing etc. It can also be that the body is overloaded, the environment is chaotic, there’s a sleep deficit or there’s confusion about something. But just because something appears in a vivid image, or feels bad, or happens to be in the right light for a ‘download’, doesn’t mean it’s true.\n\nBefore looking for the meaning of a state, it’s important to ask:",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 84
+    },
+    "elapsed": 6
+  },
+  "balance_after": 85352
+}

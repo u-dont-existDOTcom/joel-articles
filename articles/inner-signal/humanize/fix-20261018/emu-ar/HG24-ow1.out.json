@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ar/HG24-ow1.txt",
+  "input_words": 268,
+  "input_sha256": "302e246e20c0b2249caea319473193f0a45e44889405aa5973ccba7d3f02d698",
+  "balance_before": 84391,
+  "started_utc": "2026-10-18T09:39:57Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:40:10Z",
+  "response": {
+    "id": "81ab991c-5be6-4e41-a803-0343c7b37e26",
+    "tool": "humanize",
+    "text": "Troubleshooting\n\nNothing happens\n\nCan you try a bit smaller?\n\nEven just to one sensation in your body? Or just one word? Or even if you're going to be listening or resting today?\n\nIt feels fake.\n\nDo you know what exactly feels fake? The words, an image, what you are expecting, the role? Just to let you know that it not having an inner voice/image doing this isn't a lack of some grown up-ness or a resistance. If it feels like you're being asked to do something that you don't want to do then correct this. If it feels like a part may be protecting you from doing this then talk to this.\n\n'What are you protecting me from?' or 'Are you afraid that I'll lie to myself again?' or 'Are you afraid that it will be performative?'\n\nIt may also be that this is coming from an inner voice of a parent that is forcing a rule onto you to make you feel like you belong. If this is the case then don't argue, find out what the rule is and then work on building evidence for your new adult voice.\n\nIf it's the feeling of fakeness that is telling you that you don't have some grown up ability then don't try and believe an inner voice for this. As long as you have some observing ego then borrow what you need from someone that you can imagine that has enough (this can be a family member, friend, famous person etc). Try something that rings a bit more true (this can be a sentence, action etc) and see how it goes.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 268
+    },
+    "elapsed": 13
+  },
+  "balance_after": 84123
+}

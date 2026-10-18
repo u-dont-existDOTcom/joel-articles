@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aq/HG17-mw2.txt",
+  "input_words": 143,
+  "input_sha256": "34de0a71d5082756e3756b3d0b94a85ab9eceb9fd82fc48d868d1dfb722ab382",
+  "balance_before": 85138,
+  "started_utc": "2026-10-18T09:39:15Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:39:21Z",
+  "response": {
+    "id": "e59c74d8-c07e-4892-bcea-6f8868c418ec",
+    "tool": "humanize",
+    "text": "Things to consider when you return: Is there something that captured your attention? Sound, touch, listening?\n\nWill you give as much time to someone you care about, who’s speaking to you?\n\nHow was it to use the phrase you selected?\n\nConsider closing your eyes, softening your eyes, or keep them open as you go through this. Notice the difference it may make as you listen to what’s in the room around you, allowing it to be in the background.\n\nBegin by slowly counting down from 5 to 1.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 143
+    },
+    "elapsed": 5
+  },
+  "balance_after": 84995
+}

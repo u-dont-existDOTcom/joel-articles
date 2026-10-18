@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ar/HG36-ew2.txt",
+  "input_words": 150,
+  "input_sha256": "b1eaffc14aad6254e3074e11205bfc3f7c5e17983389025079a44880e61fb496",
+  "balance_before": 84123,
+  "started_utc": "2026-10-18T09:40:11Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:40:19Z",
+  "response": {
+    "id": "679ec227-bc0f-4294-9992-f92e79a0a39a",
+    "tool": "humanize",
+    "text": "One of the problems is that you THINK that because you are in an altered state, that it MEANS something. Sometimes it is your inner child talking, but sometimes it is a Protector showing you their fear, sometimes it is your shame, or grief, or anger, or longing, or whatever that wants to be taken care of, or sometimes it is just your body reacting to being overloaded, or chaos, or a lack of sleep, or just confused. Just because you had a picture that scared you, doesn’t mean it is true. Just because you had a bad feeling, doesn’t mean it is a lesson you need to learn. Just because you had a download, and the lighting was really nice, doesn’t mean you should believe it.\n\nWhat is a simpler question to ask yourself, before you even try to interpret it?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 150
+    },
+    "elapsed": 7
+  },
+  "balance_after": 83973
+}

@@ -1,0 +1,108 @@
+{
+ "key": "HG36",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-p/HG36.fixed.json",
+ "choices": {
+  "base": "rf-p/HG36.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     10,
+     11
+    ],
+    "folder": "emu-aq"
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix G: Altered states"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "paras": [
+    "NB: I am NOT saying use substances. However, many people attempt to do things for the first time such as self hypnosis, contact with their inner child, contact with their Higher Self etc when they are in a mind altered state.",
+    "If you do use them, be aware you don't want to force a revelation out of the state but instead use it to help you do things in your regular life.",
+    "If you have had an opening in the past, the key is to recognize that it is different to have an experience, access it in a particular state and access it in your day to day life. It is great that it has opened but if the child can't take it in, then meet the difficulty rather than escalating the intensity.",
+    "Use phrases such as; Help me to ground. Help me to only take that which I can take in. Help me to remember love. Help me to come back when the time is right. Help me to take one change into my regular life.",
+    "You should NOT use self hypnosis to; Keep you in that state forever Get memories to come up Make yourself afraid to do things Not sleep Override things that your body needs Not talk to people",
+    "If you are doing this in an altered state of consciousness and it is helping you not to love, not to ground, not to be honest, not to sleep, not to communicate, not to do regular life things, you need to STOP trying to go deeper and work on integrating what you have."
+   ],
+   "run": "HG36-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r/HG36-fxw1.out.txt",
+   "refix_was": true
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Stabilize before you interpret"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Self hypnosis is powerful. Especially when you are in an altered state of consciousness, either through loveyhuasca, meditation, lucid dreaming, grief, sexual energy, prayer, not sleeping, or any other number of ways similar to plant medicines, often your mind opens faster then your adult can figure out what is going on."
+   ],
+   "run": "HG36-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG36-fxw1.out.txt",
+   "refix_was": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "It can be useful to notice that a certain state of intensity may have meaning: perhaps it is a way of connecting with inner child parts, or a Protector who is afraid, or other parts who feel shame/grief/anger/longing etc. It can also be that the body is overloaded, the environment is chaotic, there’s a sleep deficit or there’s confusion about something. But just because something appears in a vivid image, or feels bad, or happens to be in the right light for a ‘download’, doesn’t mean it’s true."
+   ],
+   "run": "HG36-ew1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aq/HG36-ew1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Before looking for the meaning of a state, it’s important to ask:"
+   ],
+   "run": "HG36-ew1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aq/HG36-ew1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "“What kind of problem is happening?”"
+   ],
+   "run": "HG36-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG36-fxw1.out.txt"
+  }
+ ]
+}
