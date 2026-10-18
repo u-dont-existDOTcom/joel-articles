@@ -17232,7 +17232,7 @@
       "authority": {
         "master": {
           "path": "articles/intentional-communities/master.md",
-          "sha256": "2dcfdb297923ceb1352f81adeed1218278d28a168e78846aebcf63d92205fbe2"
+          "sha256": "ef98c1cd90f2284a3487a9346dfec7698438e4223e82d68a95b3b81434945438"
         },
         "owner_locks": {
           "path": "articles/intentional-communities/OWNER-LOCKS.json",
@@ -17244,11 +17244,11 @@
         },
         "unincorporated_ideas": {
           "path": "articles/intentional-communities/UNINCORPORATED-IDEAS.md",
-          "sha256": "e822949b09d5984d27a4faf4d6d21c69de4766fc2fd2d057c4ea543e400bb6c3"
+          "sha256": "d2069c92f160c20f2fb1919b8637a564b9119d7fe64ad74e7a300c2a6fbad90d"
         },
         "current_state": {
           "path": "articles/intentional-communities/CURRENT-STATE.md",
-          "sha256": "ce430d7d2e4912a176b93e16c633b4be94bee7ddc7bdd1904e616c9bae991750"
+          "sha256": "609b2c24055c3978189d9d83795bc751d5f29d23dde89eb2a558c6e68b095ca4"
         }
       },
       "review": {
@@ -17259,7 +17259,7 @@
         },
         "detector": {
           "path": "articles/intentional-communities/DETECTOR-EVIDENCE.json",
-          "sha256": "a5867739494d661ef8738fbb98b94b5511fd3bb31d90b2a80eb1b952b4305a8b",
+          "sha256": "8bcf2ffc352d6c9d1c99b3f4e1714af28a705713a877d56317364a35fa3b649e",
           "status": "recorded"
         },
         "editorial": {
@@ -17283,12 +17283,12 @@
         {
           "path": "articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
           "role": "active_humanized_article",
-          "sha256": "f1add2759a4ced7e53159b1b71cc2cae99f244c7d864ba380d84bd96e49ee884"
+          "sha256": "cbcd4deddc3e4c64a0312945aec17918b0f8280b320b7a626c91fdcc84b4f571"
         },
         {
           "path": "articles/intentional-communities/candidate/OWNER-EDITS.json",
           "role": "owner_edits_ledger",
-          "sha256": "3fbf708894b8a6af878f33d65f728c9d73da26f1514ab1946b3d2a8f61d7697f"
+          "sha256": "91fe37d291fd07c5fdce79f15671133102d1e8a1cf39b93cb85687e5e860857d"
         },
         {
           "path": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md",
@@ -57012,7 +57012,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/fix-20261018/b428/PREDICTIONS.md",
-          "sha256": "c10f26dfb5b1bc23b3f17a470fe01865a877aabd124dbd87c23667943d0d7772",
+          "sha256": "d9261e01db9d182adf6a400dba55e24dd3c3d35daf72dd22b71071e4c576295a",
           "role": "humanization_working_record"
         },
         {
@@ -57087,7 +57087,7 @@
         },
         {
           "path": "articles/intentional-communities/PROMOTION-RECEIPT-20261017.md",
-          "sha256": "e36512bc044d2e4feb1a523c712248fc57fe16c1c87f108d0c968f64ba093d22",
+          "sha256": "4833eca744fdd4ac5c4b80b36b4f09be0a768194d54c19e1ab81cb7c7396c30f",
           "role": "promotion_receipt"
         },
         {
@@ -57097,7 +57097,17 @@
         },
         {
           "path": "articles/intentional-communities/candidate/fix-20261018/write_receipt_0129.py",
-          "sha256": "30731c1f6f260e2ac8213bb162f36e78cef98f0a83f8211e36a72fb65583314a",
+          "sha256": "d397d1abda8cc8b7167f29480ec2d7edd010224163f58721a1467a5c5b16f9a0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261018/b428/b428-results.json",
+          "sha256": "d90f185897ac7f9cd924bc8bc9dcf9ae5e1e8066b546294c86f5429e72838169",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/fix-20261018/install_428.py",
+          "sha256": "3c2628e475646d7f6d7fe8106ce501594164ffc7151b6a1e1d538d49d99b9489",
           "role": "humanization_working_record"
         }
       ]

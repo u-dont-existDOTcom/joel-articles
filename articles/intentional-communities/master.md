@@ -54,6 +54,8 @@ Suddenly, the longing to escape loneliness which inspired my father’s movie, i
 
 Whether you want to call that loneliness an official “epidemic” or not, it’s obvious that a lot of people can’t tolerate modern life in isolation anymore (the UN's rules for prisoners literally ban more than 15 days of it). Folks may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starving them.
 
+What's starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that's how large societies end up run by psychopaths. (Yes, I'm always going on about this.)
+
 Check out the Google Trends for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)”. After years of decline, interest climbed sharply in the mid-2020s.
 
 [image 4](https://substackcdn.com/image/fetch/$s_!y0li!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae1e4fd0-563f-4c2a-8228-7a549a4fc4d7_1211x373.png)

@@ -31,12 +31,11 @@ Humanize Joel's published intentional-communities Substack article section by se
 
 ## Current checkpoint
 
-Joel accepted the humanized article (45 a), so `master.md` is the registered master (`PROMOTION-RECEIPT-20261017.md`): `candidate/HUMANIZED-SO-FAR.md`, the working copy, without its version notes (`candidate/fix-20261017d/make_master.py`); `original.md`, the published text, stays as the published source. Section 2 v3.6, his 01:29 UTC first paragraph (56 a) and aside (55 b), is in on his own Pangram check ("i checked the section, it passes as human when first part is this"); my checks of it and of the anomie paragraph with his screenshot (46 a), batch 428g in `candidate/fix-20261018/b428/`, wait on Pangram: after his message the web app in the desktop app's browser was signed out and the API key had no credits. Next: the master merged into his Substack editor HTML (`candidate/joel-20261018/substack-editor-20261018-0129.html`) and the copy helper from the canonical generator (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`). The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+Joel accepted the humanized article (45 a), so `master.md` is the registered master (`PROMOTION-RECEIPT-20261017.md`): `candidate/HUMANIZED-SO-FAR.md`, the working copy, without its version notes (`candidate/fix-20261017d/make_master.py`); `original.md`, the published text, stays as the published source. Section 2 v3.6b is the last change: his 2026-10-18 01:29 UTC first paragraph (56 a) and aside (55 b), and the anomie paragraph after his second paragraph (46 a); batch 428g read every changed paragraph Human and the section 100% Human (`candidate/fix-20261018/b428/`); his screenshot stays in section 12 (with it, one AI window). Next: the master merged into his Substack editor HTML (`candidate/joel-20261018/substack-editor-20261018-0129.html`) with `tools/humanization/substack_merge.py`, and the copy helper from the canonical generator (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`). The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
 
 ## Remaining
 
-- When Pangram is signed in again: batch 428g (section 2 v3.6, its paragraphs, and the section with the anomie paragraph and the screenshot, 46 a); if the anomie version reads 100% Human, it goes in, then `make_master.py`, a line in the receipt, and the Substack merge and helper again.
-- The Substack merge and copy helper.
+- The Substack merge and copy helper (Joel uploads the PsyPost screenshot in section 12 himself).
 - Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
 
 ## Blockers / unresolved

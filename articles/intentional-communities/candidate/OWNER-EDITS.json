@@ -1392,15 +1392,14 @@
   },
   {
    "id": "s2-joel-20261017-2137-46a",
-   "status": "pending",
+   "status": "applied",
    "words": "proposed",
-   "what": "Section 2: the anomie paragraph after his P2, with his screenshot and caption moved there from section 12, once section 2 reads 100% Human with it. Not yet: 421g (S2v34) and 422g (S2v34b) read AI windows (question 52). At 23:10 UTC it waits on his opening (52 a), which waits on question 56. Since 01:29 UTC on the 18th it waits on a Pangram check of section 2 with it (batch 428g), which waits on Pangram: the web app was signed out after his 01:29 message and the API key had no credits.",
+   "what": "Section 2: the anomie paragraph after his P2, with his screenshot and caption moved there from section 12, once section 2 reads 100% Human with it. Not yet: 421g (S2v34) and 422g (S2v34b) read AI windows (question 52). At 23:10 UTC it waits on his opening (52 a), which waits on question 56. Since 01:29 UTC on the 18th it waits on a Pangram check of section 2 with it (batch 428g), which waits on Pangram: the web app was signed out after his 01:29 message and the API key had no credits. In at 01:56 UTC on the 18th with his 01:29 first paragraph (428g, S2v36b): the anomie paragraph; the screenshot stays in section 12 (with it, 428g read one AI window, S2v36c).",
    "joel": "46a",
    "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
    "must_contain": [
     "What's starving them is anomie."
-   ],
-   "waits_for": "Pangram (batch 428g)"
+   ]
   },
   {
    "id": "s8-joel-20261017-2137-49",
@@ -1468,13 +1467,12 @@
   },
   {
    "id": "all-joel-20261017-2137-45a",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
-   "what": "Accept the humanized article: master.md (fix-20261017d/make_master.py) becomes the registered master (fix-20261017d/promote.py, PROMOTION-RECEIPT-20261017.md) once 46 to 51 are settled; waits on section 2 (question 52). At 23:10 UTC it waits on section 2 (52 a and 46 a), which waits on question 56.",
+   "what": "Accept the humanized article: master.md (fix-20261017d/make_master.py) becomes the registered master (fix-20261017d/promote.py, PROMOTION-RECEIPT-20261017.md) once 46 to 51 are settled; waits on section 2 (question 52). At 23:10 UTC it waits on section 2 (52 a and 46 a), which waits on question 56. Done on 2026-10-18 after his 01:29 answers and batch 428g settled section 2: master.md is the registered master (PROMOTION-RECEIPT-20261017.md).",
    "joel": "45a",
    "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
-   "must_contain": [],
-   "waits_for": "question 56"
+   "must_contain": []
   },
   {
    "id": "s2-joel-20261017-2310-52a",
