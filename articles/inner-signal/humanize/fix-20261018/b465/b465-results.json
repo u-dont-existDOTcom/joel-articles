@@ -1,0 +1,55 @@
+{
+ "HG18-dg1": [
+  "AI Detected",
+  0.37,
+  524,
+  "Human, High, 379; AI-Generated, High, 145",
+  "11:04:14",
+  "/6fce296c-4783-45ba-b5ab-77b559f0822b",
+  [
+   "AI-Generated (145 words): Get up only when you feel steady. [...]"
+  ]
+ ],
+ "HG18-dg2": [
+  "Mostly Human Written",
+  0.15,
+  521,
+  "Human, High, 485; AI-Generated, High, 36",
+  "11:04:25",
+  "/c6b8abcc-b884-4ddd-9534-09ba86455f7a",
+  [
+   "AI-Generated (36 words): But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely."
+  ]
+ ],
+ "HG18-dg3": [
+  "AI Detected",
+  0.33,
+  536,
+  "Human, High, 435; AI-Generated, High, 101",
+  "11:04:35",
+  "/42bf808b-7d4a-4c74-b082-2052cae20a28",
+  [
+   "AI-Generated (101 words): Then go on and do something normal. [...]"
+  ]
+ ],
+ "HG18-dg4": [
+  "AI Detected",
+  0.57,
+  535,
+  "Human, High, 206; AI-Generated, High, 329",
+  "11:04:46",
+  "/d7649e7b-4668-4269-b8e1-f7030933e209",
+  [
+   "AI-Generated (329 words): All instructions to carry me deeper in this session or to keep me in this state are now finished. [...]"
+  ]
+ ],
+ "HG18-dg5": [
+  "Human Written",
+  0.05,
+  533,
+  "Human, High, 533",
+  "11:04:56",
+  "/ec2781bc-d554-478c-9d58-aa9ea6918e3a",
+  []
+ ]
+}
