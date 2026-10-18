@@ -340,3 +340,17 @@ register('wl-u1-after', YAW_END, lambda: wl_after('wl-u1'))
 
 TF11_C_OLD = "experiments/t71-guide/drafts/tf11-g.txt. Alone Human Written (0.052, medium), https://www.pangram.com/history/38d0bc66-4b8d-4004-857f-fb0e73c312cf; When the Adult Voice Feels Fake with it and the TF-U8 paragraph Human Written (0.079, high, 4184 words), https://www.pangram.com/history/d0c2d3cc-2f27-4d30-89ab-60e326ae8a21 (round t71jjj)."
 register('tf11-h-note', TF11_C_OLD, "experiments/t71-guide/drafts/tf11-h.txt: round t71jjj's tf11-g (alone Human Written, 0.052, https://www.pangram.com/history/38d0bc66-4b8d-4004-857f-fb0e73c312cf; the h1 with it and the TF-U8 paragraph 0.079, high, https://www.pangram.com/history/d0c2d3cc-2f27-4d30-89ab-60e326ae8a21) with \"so hear it out, and then let your head have a look\" for \"so let your head have a look\": a cold read of Start With Whatever Showed Up paused at the next paragraph's \"the same kind of listening\", two paragraphs from the listening with this one between (COLD-READ-t71-start-with.md). Alone Human Written (0.057, medium), https://www.pangram.com/history/8a2a6745-bd5c-4525-965a-c2207a799db6; When the Adult Voice Feels Fake with it Human Written (0.074, high, 4189 words), https://www.pangram.com/history/8d0ba666-872d-415a-a4c8-69737410c9c4 (round t71mmm).")
+
+
+# 2026-10-18, round t71nnn: the guide's research paragraph from Borrow One (r4 line 223), waiting since 2026-09-25 to
+# move here (BORROW-ONE-JOB-DRAFTS-20260925.md: U10a to U10d "move to When the Adult Voice Feels Fake (pending)";
+# OPEN-OWNER-FLAGS.md: "The Borrow One pilot and studies move to When the Adult Voice Feels Fake").
+WAVF_P3_END = "So, it's worth meditating first on why it feels fake."
+
+
+def u10(p='u10-a'):
+    return WAVF_P3_END + '\n\n<!-- Turn 71 (the overnight run): the guide\'s research paragraph from Borrow One (r4 line 223: the Ideal Parent Figure pilot; compassion imagery and threat in self-critics; the secure-attachment prime; "So \\"this feels fake\\" may mean the person needs a bridge rather than a more forceful performance of love."), waiting since 2026-09-25 to move here (BORROW-ONE-JOB-DRAFTS-20260925.md, U10a to U10d; OPEN-OWNER-FLAGS.md). The three studies opened 2026-10-18: Duarte et al. 2015, https://pubmed.ncbi.nlm.nih.gov/25347984/ (its practitioner point, an initial instance of imagery "can be frightening for people who have a tendency to be self-critical"; both kinds of imagery raised the stress marker, the research check\'s correction); Baldwin et al. 2020, https://pubmed.ncbi.nlm.nih.gov/31301164/ (anxious and avoidant attachment, not self-criticism; a 10-minute attachment prime before the second imagery); Parra et al. 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/ (17 adults, five weeks, stable at eight months, no control group). experiments/t71-guide/drafts/' + p + '.txt. @@U10@@ -->\n\n' + draft(p)
+
+
+register('u10', WAVF_P3_END, u10)
+register('u10-b', WAVF_P3_END, lambda: u10('u10-b'))
