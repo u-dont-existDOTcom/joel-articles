@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-s/HG06-fxw2.txt",
+  "input_words": 52,
+  "input_sha256": "182ea7090844eab5850d4e9ba61db9d02554b3348a8906cfd3024d5d9d10b9ec",
+  "balance_before": 105327,
+  "started_utc": "2026-10-18T05:40:11Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:40:15Z",
+  "response": {
+    "id": "5ef1086c-a1f1-4c04-b0b3-be4e7dcac601",
+    "tool": "humanize",
+    "text": "You are surrounded by many forces who are already using these techniques to train your mind. Wouldn’t it be great if you could turn the tables around and use them yourself? When you learn to use these techniques on yourself, you are using self-hypnosis techniques to befriend your deeper mind, listen to it, and empower yourself to make more of your own choices as an adult.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 52
+    },
+    "elapsed": 4
+  },
+  "balance_after": 105275
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-s/HG18-fxw1.txt",
+  "input_words": 147,
+  "input_sha256": "5b554e9c7bec08d2d9910d447ac2c197b0e698090b7ecd4b3a249b68db6792d9",
+  "balance_before": 107944,
+  "started_utc": "2026-10-18T05:37:58Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:38:06Z",
+  "response": {
+    "id": "8fd4ec31-a9e3-414e-ba00-658f6948291a",
+    "tool": "humanize",
+    "text": "What if it’s a recording and it stops and you’re stuck? Say to yourself, “the recording has stopped, and the session is over” and then use the above method to force yourself out. Just opening your eyes and saying where you are, what day it is, pushing down with your feet or hands and moving about, looking around and then use the 5 step method. Don’t just sit there waiting for the voice to come back and release you.\n\nNOTE: If you’re using a recording to go to sleep with, then it’s all right to have the recording put you to sleep or have you in a quiet resting state. However, if it’s for waking practice, it shouldn’t leave you in a role, with lowered judgement, with impaired movement capabilities, blank, with an undefined reset word, invited to stay altered indefinitely, etc.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 147
+    },
+    "elapsed": 8
+  },
+  "balance_after": 107797
+}

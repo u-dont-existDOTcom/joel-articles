@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-s/HG04-fxw1.txt",
+  "input_words": 106,
+  "input_sha256": "f4771ec7fa0311955e76f549d1e2338d8e6e3b61551e269672d0b0850dcbf9cb",
+  "balance_before": 105474,
+  "started_utc": "2026-10-18T05:39:56Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:40:05Z",
+  "response": {
+    "id": "8bc8f6aa-0413-4a5a-86ff-ea696fe652fd",
+    "tool": "humanize",
+    "text": "Quick start: do this first\n\nTo work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply gather attention and do these steps, in order: 1) Attention; 2) Notice; 3) Respond; 4) Wait; 5) Come all the way back . Not much needs to happen in each session!\n\nIt may be helpful, prior to your first session, to read through the induction and the full return in waking life, so you’re more familiar with it. Give yourself a chunk of time when you can be physically secure for the time it takes. Prior to each session, consider what one thing you’re going to be working on or cultivating during this session, and what you’re going to leave alone. Put this screen on the shelf and conduct the practice.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 106
+    },
+    "elapsed": 8
+  },
+  "balance_after": 105368
+}

@@ -1,0 +1,268 @@
+{
+ "HG18-refix2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG18-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG18-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG18-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG18-fxw1.out.txt",
+   "emu-s/HG18-fxw1.out.txt"
+  ],
+  "refix_of": "434g HG18-fix",
+  "words": 552,
+  "_blocks_ok": true
+ },
+ "HG23-refix2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG23-fxw1.out.txt"
+  ],
+  "refix_of": "434g HG23-fix",
+  "words": 475,
+  "_blocks_ok": true
+ },
+ "HG36-refix2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG36-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG36-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG36-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG36.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG36-fxw1.out.txt",
+   "emu-s/HG36-fxw1.out.txt"
+  ],
+  "refix_of": "434g HG36-fix",
+  "words": 317,
+  "_blocks_ok": true
+ },
+ "HG24-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG24-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG24-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG24-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG24-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG24-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-f/HG24.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG24-fxw1.out.txt",
+   "emu-s/HG24-fxw2.out.txt"
+  ],
+  "refix_of": "441g HG24-fix",
+  "words": 1224,
+  "_blocks_ok": true
+ },
+ "HG29+30-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-i/HG29_30-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG29_30-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-g/HG29+30.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG29_30-fxw1.out.txt"
+  ],
+  "refix_of": "441g HG29+30-fix",
+  "words": 892,
+  "_blocks_ok": true
+ },
+ "HG04-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG04-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG04-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-f/HG04.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG04-fxw1.out.txt"
+  ],
+  "refix_of": "441g HG04-fix",
+  "words": 405,
+  "_blocks_ok": true
+ },
+ "HG04-s-p1+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG04-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG04-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-f/HG04.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-s/HG04-fxw1.out.txt"
+  ],
+  "paragraph": 1,
+  "check": "next",
+  "section": "445g HG04-refix (this batch)",
+  "words": 125,
+  "_blocks_ok": true
+ },
+ "HG04-s-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG04-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG04-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-f/HG04.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG04-fxw1.out.txt"
+  ],
+  "paragraph": 2,
+  "check": "alone",
+  "section": "445g HG04-refix (this batch)",
+  "words": 80,
+  "_blocks_ok": true
+ },
+ "HG06-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG06-fxw1.out.txt",
+   "emu-s/HG06-fxw2.out.txt"
+  ],
+  "refix_of": "434g HG06-fix",
+  "words": 221,
+  "_blocks_ok": true
+ },
+ "HG06-s-p3+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG06-fxw1.out.txt",
+   "emu-s/HG06-fxw2.out.txt"
+  ],
+  "paragraph": 3,
+  "check": "prev",
+  "section": "445g HG06-refix (this batch)",
+  "words": 98,
+  "_blocks_ok": true
+ },
+ "HG06-s-p4+run": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG06-fxw1.out.txt",
+   "emu-s/HG06-fxw2.out.txt"
+  ],
+  "paragraph": 4,
+  "check": "run",
+  "section": "445g HG06-refix (this batch)",
+  "words": 50,
+  "_blocks_ok": true
+ },
+ "HG06-s-p5+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG06-fxw1.out.txt",
+   "emu-s/HG06-fxw2.out.txt"
+  ],
+  "paragraph": 5,
+  "check": "next",
+  "section": "445g HG06-refix (this batch)",
+  "words": 77,
+  "_blocks_ok": true
+ },
+ "HG06-s-p6": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG06-fxw2.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-s/HG06-fxw1.out.txt",
+   "emu-s/HG06-fxw2.out.txt"
+  ],
+  "paragraph": 6,
+  "check": "alone",
+  "section": "445g HG06-refix (this batch)",
+  "words": 66,
+  "_blocks_ok": true
+ }
+}
