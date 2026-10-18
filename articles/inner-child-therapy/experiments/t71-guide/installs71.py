@@ -141,3 +141,11 @@ def close_session(p2='cs2-o'):
 
 
 register('close-session', CS_PARKED, close_session)
+
+
+# 2026-10-18, round t71s, hand edits to the article (recorded here; nothing above re-applies them):
+# - Altered States Can Deepen the Therapy: P3 drafts/as3-k in place of the parked comment for P3 to P5 (alone Human
+#   Written 0.020, round t71r; the h1 with it Human Written 0.015, high, 1287 words, round t71s), and a parked comment
+#   for P4 and P5 after it.
+# - Teachers and Practice Resources: P3 drafts/ap14-b for ap14-a (the repeats check: the Somatic Therapies Guide is
+#   the same map as in Your Body Might Need Some Love First); alone Human Written 0.21, the h2 0.14 high (round t71s).
