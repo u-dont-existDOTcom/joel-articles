@@ -1,0 +1,43 @@
+{"key": "HG35",
+ "fixes": [
+  {"block": 1,
+   "problems": [
+    {"type": "LOST",
+     "what": "B1: LOST claim that the synchronicity cue turns noticing into orientation and reality-testing, not an oracle (only 'not an oracle' restored)",
+     "replace": "as a cue, above.",
+     "with": "as a cue, not an oracle, above.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 2,
+   "problems": [
+    {"type": "LOST",
+     "what": "B2: LOST what a professional brings (pacing, containment, another set of eyes)",
+     "replace": "work with you, and",
+     "with": "work with you (pacing, containment, another set of eyes), and",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"},
+    {"type": "REPEAT",
+     "what": "R: suggestibility differs by type of suggestion, in B2 and B2",
+     "replace": "externally, to various types of suggestion, and",
+     "with": "externally, and",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 5,
+   "problems": [
+    {"type": "LOST",
+     "what": "B5: LOST that credentials matter (only the no-guarantee half kept)",
+     "replace": "Having hypnosis certifications doesn't mean",
+     "with": "Having hypnosis certifications matters, but doesn't mean",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]}
+ ],
+ "let_stand": [
+  {"finding": "B5: SHIFT \"how you'll stop\" became what you want them to do if you want them to stop",
+   "why": "same job: pre-arranging how to stop; the 'not forced to continue' line is kept"},
+  {"finding": "B5: SHIFT \"was its purpose explained?\" became \"ask why they did it, if they told you in advance\"",
+   "why": "wording; asking why and 'did you agree' still check the purpose"}
+ ],
+ "resample": [17]}

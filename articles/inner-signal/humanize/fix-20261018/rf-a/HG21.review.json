@@ -1,0 +1,52 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "fifteen minutes is only a convenient appointment, not a therapeutic dose or a timetable feelings must follow",
+    "replace": "fifteen minutes or so",
+    "with": "fifteen minutes or so (a convenient time, not a dose or a timetable)",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "the middle unfolds at its own pace (rewrite makes it \"a short time\")",
+    "replace": "for a short time",
+    "with": "and let it unfold at its own pace",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "\"the following\" has no referent here (published names the optional re-entry cue)",
+    "replace": "the following",
+    "with": "the re-entry cue",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "\"not only how impressive the session felt\" lost",
+    "replace": "functioning, etc.",
+    "with": "functioning, etc., not only how impressive the session felt",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

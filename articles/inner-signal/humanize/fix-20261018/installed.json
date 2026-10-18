@@ -27,5 +27,13 @@
   "paragraphs": "447g",
   "fixed": "rf-a/HG10.units.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG11": {
+  "stage": "refix",
+  "whole": "443g HG11-refix",
+  "meaning": "rf-a/HG11.verify.part1.out.txt (2 findings, both let stand: rf-a/HG11.triage.json)",
+  "paragraphs": "448g",
+  "fixed": "rf-a/HG11.units.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

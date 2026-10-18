@@ -114,15 +114,15 @@ DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force y
 
 # Forget the left-brain/right-brain cartoon
 
-“Syncing the hemispheres” can be a useful description of how the state feels, but I wouldn’t turn it into literal neuroscience. A [large resting-state fMRI study](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0071275) of 1,011 people didn’t support the pop-science picture of whole people being globally “left-brained” or “right-brained,” even though particular functions and networks can be lateralized.
+I use the expression ‘syncing the hemispheres’ but don’t want to over interpret what is going on neuroscientifcally. A [huge study of resting state fmri scans](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0071275) of 1011 people does not support the common pop neuropsych notion that people in general are left or right brained. But there is evidence for lateralisation of some functions or networks.
 
-You’re inviting the verbal, analytical, imaginal, emotional, somatic, intuitive, relational, and spiritual modes to cooperate. Nobody needs to win a hemisphere election.
+Let’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … It’s not an electoral process. Nobody needs to win!
 
-The loving mind stays warm while the analytical mind stays bright. The intuitive mind offers signals without becoming dogma. The rational mind tests signals without killing them. The body gives yes, no, and not-yet. The imagination opens the field. The adult self chooses the next real action. Peace and precision become compatible.
+The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The mind of intuition and the mind of rationality can BOTH be there - intuitive signals and testing of those signals without dogma or killing them. The body can have a voice - saying yes or no or not yet. The imagination can have opened up the field and then the adult can choose what to do next in the real world…. It can be peaceful but also precise.
 
-Love can drift into fantasy without analysis. Analysis can become sterile without love. Intuition can become delusion when nothing tests it; testing can become dead when nothing intuitive is allowed to speak. Let the modes correct each other.
+Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these ‘modes’ can correct each other.
 
-A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.
+And it’s got to lead somewhere!
 
 # Why doing it myself worked better for me
 

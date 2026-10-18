@@ -1,0 +1,200 @@
+{
+ "HG29+30-B3": {
+  "was": [
+   "S S S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S S",
+   "S S",
+   "S",
+   "S S",
+   "S S",
+   "S B"
+  ],
+  "new": [
+   "S S S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S S",
+   "S S",
+   "S",
+   "S S",
+   "S S",
+   "S B"
+  ]
+ },
+ "HG29+30-B16": {
+  "was": [
+   "S S S",
+   "S S",
+   "S S",
+   "S",
+   "S",
+   "S",
+   "S S S",
+   "S S",
+   "S S",
+   "S S",
+   "S",
+   "S S"
+  ],
+  "new": [
+   "S S S",
+   "S S",
+   "S S",
+   "S",
+   "S",
+   "S",
+   "S S S",
+   "S S",
+   "S S",
+   "S S",
+   "S",
+   "S S"
+  ]
+ },
+ "HG36-B1": {
+  "was": [
+   "S S",
+   "S",
+   "S S",
+   "S S S S S",
+   "S",
+   "S"
+  ],
+  "new": [
+   "S S",
+   "S",
+   "S S",
+   "S S S S S",
+   "S",
+   "S"
+  ]
+ },
+ "HG35-B1": {
+  "was": [],
+  "new": [
+   "B"
+  ]
+ },
+ "HG35-B2": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG35-B5": {
+  "was": [
+   "S S",
+   "S",
+   "S S S S S S S S B"
+  ],
+  "new": [
+   "S S",
+   "S",
+   "S S S S S S S S B"
+  ]
+ },
+ "HG40-B1": {
+  "was": [
+   "S S B"
+  ],
+  "new": [
+   "S S B"
+  ]
+ },
+ "HG40-B3": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG40-B5": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG40-B9": {
+  "was": [
+   "S S",
+   "S S S"
+  ],
+  "new": [
+   "S S",
+   "S S S"
+  ]
+ },
+ "HG40-B14": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG25-B1": {
+  "was": [
+   "S"
+  ],
+  "new": [
+   "S"
+  ]
+ },
+ "HG25-B2": {
+  "was": [
+   "S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG25-B13": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG26-B1": {
+  "was": [
+   "S S",
+   "S S S S",
+   "S",
+   "S"
+  ],
+  "new": [
+   "S S",
+   "S S S S",
+   "S",
+   "S"
+  ]
+ },
+ "HG26-B6": {
+  "was": [
+   "S S S S B",
+   "S S S S",
+   "S S S S",
+   "S S S S"
+  ],
+  "new": [
+   "S S S S B",
+   "S S S S",
+   "S S S S",
+   "S S S S"
+  ]
+ }
+}

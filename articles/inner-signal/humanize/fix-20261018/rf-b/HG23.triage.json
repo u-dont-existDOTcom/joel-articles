@@ -1,0 +1,73 @@
+{
+ "key": "HG23",
+ "fixes": [
+  {
+   "block": 1,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"feels as though\" hedge dropped, subconscious knowing stated as fact",
+     "replace": "Sometimes, your subconscious knows",
+     "with": "Sometimes, it feels like your subconscious knows",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"can produce\" became \"often leads to\" (a possibility made a frequency claim)",
+     "replace": "often leads to",
+     "with": "can lead to",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"much harder to reach\" became \"cannot access\" (a degree made absolute)",
+     "replace": "you cannot access",
+     "with": "it is much harder to access",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B1: LOST \"give me one next action\" in the script (a line the reader says); the \"next\" in the protective-action question is wording and left",
+     "replace": "Support me BEFORE you make it intense!",
+     "with": "Support me BEFORE you make it intense! Give me one next action!",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "REPEAT",
+     "what": "R: ask what would build capacity to receive it (two near-identical questions), in B1 and B1; published asks it once (B8), the first of the two cut, every published question is still covered",
+     "replace": "“What do I need to know that will help me get the capacity to know the thing you know that I need to know?” “What can you tell me,",
+     "with": "“What can you tell me,",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B1: LOST the named adult capacities (pausing, comparing options, reality-testing, planning, choosing)",
+   "why": "example list shortened; the point (when flooded, regulate and get support first) is kept"
+  },
+  {
+   "finding": "B1: SHIFT \"silence may be protection\" became \"better not to know\"; \"practical capacity\" dropped",
+   "why": "same advice and same condition (until the adult can regulate, get support, be humble); \"etc.\" covers the rest"
+  },
+  {
+   "finding": "B1: SHIFT \"next tolerable piece\" became \"what you need to know\" in a tolerable way",
+   "why": "tolerable is kept and stressed (CAN); the questions that follow carry the small-step asks (5%, symbol, safe action)"
+  },
+  {
+   "finding": "B1: LOST imagery \"can be meaningful\" though not literal",
+   "why": "the caution and \"treat it like an image\" are kept; \"the mind makes it symbolic\" still carries the meaning"
+  },
+  {
+   "finding": "B1: SHIFT \"outside support when needed\" became unconditional \"get some help\"",
+   "why": "advice made firmer, not weaker, and still tied to trauma and memory imagery"
+  }
+ ],
+ "resample": []
+}

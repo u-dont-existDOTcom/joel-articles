@@ -1,0 +1,110 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"Get urgent help now\" softened to \"may need help now if you feel\" (B2 part)",
+    "replace": "You may need help now if you feel",
+    "with": "Get help now if you feel",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"unable to keep yourself safe\" became \"unable to take care of yourself\" (B2 part)",
+    "replace": "take care of yourself",
+    "with": "keep yourself safe",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"concerning physical symptoms\" became any \"physical symptoms\" (B2 part) / B1: SHIFT \"Get urgent help now\" softened to \"may need help now\" (B2 part, second sentence)",
+    "replace": "You may need help now if you have physical",
+    "with": "Get help now if you have concerning physical",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B1: LOST \"reassessment, not more intensity\" when function worsens or certainty about unverifiable memories grows (B3 part) / B1: INVENTED \"you probably don't need more support\" and \"you're probably doing fine\" reassurance (B3 part); part 1: the worsening signs become the trigger",
+    "replace": "and don't notice",
+    "with": "and if you notice",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED \"you probably don't need more support\" and \"you're probably doing fine\" reassurance (B3 part) / B1: LOST \"reassessment, not more intensity\" (B3 part); part 2: reassurance replaced by the reassess instruction",
+    "replace": "then you're probably doing fine.",
+    "with": "then reassess instead of pushing harder.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"seek suitable ongoing help\" became \"probably need more support\"; \"ongoing\" lost (B4 part)",
+    "replace": "probably need more support",
+    "with": "should seek suitable ongoing help",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B6: SHIFT \"clinician trained in the method\" became \"trained person\"; method training only \"best\" (part 1: clinician)",
+    "replace": "trained person present",
+    "with": "clinician present",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B6: SHIFT \"clinician trained in the method\" became \"trained person\"; method training only \"best\" (part 2: training in the method is required)",
+    "replace": "It's best if",
+    "with": "Make sure",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B6: LOST \"unexpected reactions\" in what to ask about",
+    "replace": "deal with uncertainty",
+    "with": "deal with uncertainty and unexpected reactions",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "WRONG",
+    "what": "B6: WRONG CPT, PE, EMDR presented as other names for CBT variants (B8 part)",
+    "replace": "exposure, eye movement desensitization and reprocessing, etc)",
+    "with": "exposure, etc), or eye movement desensitization and reprocessing",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B6: SHIFT self-hypnosis \"may support\" the treatments became treatments \"can include\" self-hypnosis and inner child work (B8 part)",
+    "replace": "These can include",
+    "with": "These can be supported by",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B6: LOST \"gently\" (continue gently became keep on keeping on) (B9 part)",
+    "replace": "keep on keeping on",
+    "with": "keep on keeping on gently",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

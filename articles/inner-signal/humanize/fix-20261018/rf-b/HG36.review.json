@@ -1,0 +1,24 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'these' has no referent, 'substances' never named",
+    "replace": "use these",
+    "with": "use substances",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "'meet the difficulty rather than escalating the intensity' lost; sentence ends at 'then'",
+    "replace": "take it in, then",
+    "with": "take it in, then meet the difficulty rather than escalating the intensity.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

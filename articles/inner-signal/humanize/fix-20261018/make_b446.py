@@ -94,6 +94,12 @@ def collect(only=None):
         b, sname, head, ai, link, sg = s
         base = {'kind': 'emulate', 'emulate': sg.get('emulate'), 'published': sg.get('published'), 'fixed': sg.get('fixed'), 'lint': 'REVIEW'}
         fx = pathlib.Path(uf).with_name('%s.fixed.json' % key)
+        if not clean and tri.exists():
+            tj = json.loads(tri.read_text(encoding='utf-8'))
+            if tj.get('resample'):
+                held.append((key, 'stretch(es) %s to resample' % tj['resample'])); continue
+            if any(f.get('problems') for f in tj.get('fixes', [])) and (not fx.exists() or fx.stat().st_mtime < tri.stat().st_mtime):
+                held.append((key, 'triage fixes not applied yet (tools/triage_apply.py)')); continue
         if clean or not fx.exists() or '\n\n'.join(p for u in json.loads(fx.read_text(encoding='utf-8'))['units'] for p in u['paras']) == text:
             # no fixes: the refix text goes to its paragraph checks as it is
             para_items(key, uf, dict(base, section='%s %s, %s %.2f: %s' % (b, sname, head, ai, link)),

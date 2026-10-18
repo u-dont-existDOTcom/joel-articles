@@ -1,0 +1,49 @@
+{"key": "HG21",
+ "fixes": [
+  {"block": 1,
+   "problems": [
+    {"type": "LOST", "what": "fifteen minutes is only a convenient appointment, not a therapeutic dose or a timetable feelings must follow",
+     "replace": "fifteen minutes or so",
+     "with": "fifteen minutes or so (a convenient time, not a dose or a timetable)",
+     "round": 1, "from": "second reader of the refix (rf), triaged"},
+    {"type": "LOST", "what": "the middle unfolds at its own pace (rewrite makes it \"a short time\")",
+     "replace": "for a short time",
+     "with": "and let it unfold at its own pace",
+     "round": 1, "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 3,
+   "problems": [
+    {"type": "UNCLEAR", "what": "\"the following\" has no referent here (published names the optional re-entry cue)",
+     "replace": "the following",
+     "with": "the re-entry cue",
+     "round": 1, "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 4,
+   "problems": [
+    {"type": "LOST", "what": "\"not only how impressive the session felt\" lost",
+     "replace": "functioning, etc.",
+     "with": "functioning, etc., not only how impressive the session felt",
+     "round": 1, "from": "second reader of the refix (rf), triaged"}
+   ]}
+ ],
+ "let_stand": [
+  {"finding": "B1: LOST the practice steps (gather attention, listen, respond, wait, return)",
+   "why": "reminder list of steps taught elsewhere; \"the process is the same\" keeps the point"},
+  {"finding": "B1: SHIFT five minutes of silent listening \"available when useful\" became \"five minutes is plenty\"",
+   "why": "emphasis only; once the pace is restored it is a gloss on silent listening, not a cap on the middle"},
+  {"finding": "B2: INVENTED trying all the inductions \"might be counter-productive\"",
+   "why": "hedged aside that fits \"rather than stacking inductions\""},
+  {"finding": "B3: LOST shorten the recording to the cues you still need (became \"to speed up your induction\")",
+   "why": "same act and aim; no safety stake"},
+  {"finding": "B4: SHIFT \"what direction serves truth, love, and life\" became \"what you need to do differently to be more in accord\"",
+   "why": "same values, plainer wording"},
+  {"finding": "B4: INVENTED \"most importantly\" ranking of the carry question",
+   "why": "emphasis only"},
+  {"finding": "B4: SHIFT \"what can you carry yourself now\" became \"carry with you as you move forward\"",
+   "why": "same question in plainer words"},
+  {"finding": "B4: SHIFT \"when action is needed\" became \"if you identified something you needed to do differently\" (old pattern)",
+   "why": "elaboration that fits the plan-making sense"},
+  {"finding": "B4: INVENTED \"the more specific you can be, the more likely you are to change\"",
+   "why": "rationale that fits \"make it concrete\"; no new fact or number"}
+ ],
+ "resample": []}

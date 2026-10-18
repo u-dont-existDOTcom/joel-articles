@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-v/HG37-fxw1.txt",
+  "input_words": 159,
+  "input_sha256": "f2a0574ae31b5166e52b73324784c3f16751bf79cae211589877bf4d2b971532",
+  "balance_before": 95200,
+  "started_utc": "2026-10-18T06:00:13Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:00:23Z",
+  "response": {
+    "id": "c11a1e82-a008-44eb-9517-35d5b3ebb76b",
+    "tool": "humanize",
+    "text": "A bodily boundary: compassion present, door closed\n\nSecond, feel free to tell the presence that while you have compassion for it, the door is closed.\n\nThis is especially a good idea if the presence you’re experiencing seems even the slightest bit hostile, cold, alien, parasitic, etc. It needs to realize that you don’t welcome it and that it needs to respect your boundaries. It’s not really helpful to approach it with the kind of soft, sentimental love that you’d use if you were inviting it to stay for tea, but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries.\n\nSit up, make sure your feet are grounded on the floor, straighten your spine, pull your shoulder blades back a little, open your chest a little, feel the boundary of your torso’s skin, feel the perimeter of your body, and tell the presence, “While I have compassion for you and any suffering you may be experiencing, this suffering needs to go back where it came from. The boundary of my skin is the boundary of an adult now, and you’re not welcome to come inside the house anymore.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 159
+    },
+    "elapsed": 9
+  },
+  "balance_after": 95041
+}

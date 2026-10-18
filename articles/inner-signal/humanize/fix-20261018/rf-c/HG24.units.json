@@ -2,7 +2,8 @@
  "key": "HG24",
  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG24.fixed.json",
  "refix_dirs": [
-  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s"
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s",
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u"
  ],
  "units": [
   {
@@ -31,10 +32,10 @@
     2
    ],
    "paras": [
-    "Could you try this a bit smaller?"
+    "Try starting a bit smaller?"
    ],
    "run": "HG24-fxw1",
-   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw1.out.txt",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG24-fxw1.out.txt",
    "refix": true
   },
   {
@@ -43,10 +44,10 @@
     3
    ],
    "paras": [
-    "Show me one body sensation, one word, whether to listen or rest today."
+    "Can you show me a single sensation in the body? Can you show me a single word? Can you show me how you know whether to listen or rest today?"
    ],
    "run": "HG24-fxw1",
-   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw1.out.txt",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG24-fxw1.out.txt",
    "refix": true
   },
   {
@@ -65,10 +66,10 @@
     5
    ],
    "paras": [
-    "What in particular feels fake? If it's that you aren't getting an inner voice/image, it isn't necessarily a resistance or not being an adult. If it's telling you to do something you don't want to do, it's okay to correct it. If it turns out to be a protection, you can talk to it."
+    "Do you know what is fake? Just because you don't have an inner voice/image doing this, it doesn't mean you are being a child or resisting doing the work. If you feel that something is asking you to do something that you do not want to do, then correct it. If you feel that a part might be protecting you from this, then talk to it."
    ],
    "run": "HG24-fxw1",
-   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw1.out.txt",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG24-fxw1.out.txt",
    "refix": true
   },
   {
@@ -99,10 +100,10 @@
     8
    ],
    "paras": [
-    "It may be that you’re trying to access an adult part that isn’t there yet. If that’s the case, then stop trying to talk to an inner voice that you aren’t able to believe yet. If you have enough observing ego, borrow some from a real or imagined caring person. Try out some statements or actions etc. that you can believe, even if it’s just one sentence, and see how it goes."
+    "If it is not there, stop trying to believe an inner voice. If you have enough observing ego, borrow whatever you need - warmth, boundary, direction etc - from someone who you can imagine is good enough, maybe a family member, a friend or a famous person. Try out something which rings true, a sentence, an action etc and see how it goes."
    ],
    "run": "HG24-fxw2",
-   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG24-fxw2.out.txt",
    "refix": true
   },
   {
