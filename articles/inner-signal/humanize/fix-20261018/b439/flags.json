@@ -1,0 +1,70 @@
+{
+ "HG17-emuJ": {
+  "headline": "AI Detected",
+  "ai": 0.11,
+  "words": 2561,
+  "windows": "AI-Generated, High, 213; Human, High, 59; AI-Generated, High, 91; Human, High, 1824; Human, High, 320",
+  "link": "https://www.pangram.com/history/89300ddb-d7a3-4bf4-a53f-9c4cdf2737f7",
+  "n_blocks": 75,
+  "flagged_blocks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   7,
+   8
+  ],
+  "unmatched": [],
+  "flagged_words": 353
+ },
+ "HG37-emuJ": {
+  "headline": "Human Written",
+  "ai": 0.08,
+  "words": 1163,
+  "windows": "Human, High, 1163",
+  "link": "https://www.pangram.com/history/c79fca14-43f7-4f65-9328-30172dbf33f7",
+  "n_blocks": 30,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG38+39-emuJ": {
+  "headline": "Human Written",
+  "ai": 0.03,
+  "words": 1109,
+  "windows": "Human, High, 1109",
+  "link": "https://www.pangram.com/history/33b4df99-cdfd-4b05-b795-e1c6162ea422",
+  "n_blocks": 29,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG31-emuJ": {
+  "headline": "Mostly Human Written",
+  "ai": 0.12,
+  "words": 2784,
+  "windows": "Human, High, 1020; AI-Generated, High, 68; Human, High, 1696",
+  "link": "https://www.pangram.com/history/43a27aa4-24d8-447c-8298-66e875aac958",
+  "n_blocks": 115,
+  "flagged_blocks": [
+   41,
+   42,
+   43,
+   44
+  ],
+  "unmatched": [],
+  "flagged_words": 84
+ },
+ "HG29+30-emuI2": {
+  "headline": "Human Written",
+  "ai": 0.03,
+  "words": 652,
+  "windows": "Human, High, 652",
+  "link": "https://www.pangram.com/history/c26e0b02-5d1b-46c9-b266-01cf35a95498",
+  "n_blocks": 29,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ }
+}

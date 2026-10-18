@@ -1,0 +1,16 @@
+[
+  {"finding": "B1: SHIFT instruction \"use as a relationship\" became statement \"is a relationship\"", "verdict": "OK", "why": "Rewrite says 'Self-hypnosis is a relationship you have with yourself', the same stance as 'use it as a relationship'."},
+  {"finding": "B3: INVENTED \"chronic\" before daydreaming", "verdict": "FIXED", "why": "Rewrite now says plain 'daydreaming'."},
+  {"finding": "B3: LOST \"avoided\" in \"an avoided task\" (became \"getting something done\")", "verdict": "FIXED", "why": "Rewrite now lists 'an avoided task'."},
+  {"finding": "B3: INVENTED \"etc.\" opens the target list", "verdict": "OK", "why": "'etc.' is only list style; every published target is still named."},
+  {"finding": "B4: LOST \"ongoing\" help", "verdict": "FIXED", "why": "Rewrite now says 'Get the right kind of ongoing help'."},
+  {"finding": "B6: SHIFT \"trauma-focused regression\" narrowed to regression for unknown trauma origins", "verdict": "FIXED", "why": "Rewrite now says 'deliberate trauma-focused regression'."},
+  {"finding": "B6: SHIFT \"work with flashbacks/dissociative reactions\" became \"expect\" them", "verdict": "FIXED", "why": "Rewrite now says 'to work with substantial flashbacks or dissociative reactions'."},
+  {"finding": "B6: INVENTED \"more stable\" purposes (published says \"different uses\")", "verdict": "FIXED", "why": "Rewrite now says 'Both can have other uses too, like finding resources'."},
+  {"finding": "B6: INVENTED \"or didn't happen\"; \"historical event\" became \"in your life\"", "verdict": "OPEN", "why": "Published says hypnosis cannot prove a historical event; 'or didn’t happen' adds a claim that it cannot show something did not occur.", "replace": "what did or didn’t happen in your life", "with": "what happened in your life"},
+  {"finding": "B7: SHIFT \"tears\" narrowed to \"crying when you access inner children\"", "verdict": "FIXED", "why": "Rewrite now says 'a history of trauma, crying, or even wanting to feel difficult feelings'."},
+  {"finding": "B8: SHIFT \"Major trauma guidelines\" became \"Most guidelines for treating major trauma\"", "verdict": "FIXED", "why": "Rewrite now opens 'Major trauma guidelines emphasize'."},
+  {"finding": "B9: INVENTED opening claim \"ultimate feedback is functioning in ordinary life\"", "verdict": "OK", "why": "Both published conditionals judge the practice by ordinary-life effects, so the opener only states that logic."},
+  {"finding": "B9: SHIFT \"less stable\" became \"functioning less well\"", "verdict": "FIXED", "why": "Rewrite now says 'If ordinary life is getting less stable'."},
+  {"finding": "R: clinician needed to explore unknown traumatic origins, in B6 and B6", "verdict": "FIXED", "why": "'Unknown traumatic origins' now appears once, in 'follow an affect or somatic bridge to unknown traumatic origins'."}
+]

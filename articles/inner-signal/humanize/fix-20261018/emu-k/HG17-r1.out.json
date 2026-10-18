@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-k/HG17-r1.txt",
+  "input_words": 88,
+  "input_sha256": "e7cfe2ca1944d6b40945bf1930e6ad8466b7bd7ae180fe9f2a73b0559c597d3b",
+  "balance_before": 120189,
+  "started_utc": "2026-10-18T04:25:03Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:25:11Z",
+  "response": {
+    "id": "4e954c12-91ce-4493-951b-1adafd2d24f9",
+    "tool": "humanize",
+    "text": "Induction: gathering attention without disappearing\n\nThe induction is a way to help you to pull your attention together so that you can hear material that might not reach you when you are soober. It is NOT a way to make you go asleep, surrender, or do anything you don’t want to do. If you are sober and having trouble focussing, too distracted, analytical, or are putting up a lot of resistance to working, an actual induction may help. However, if you are already pretty trancey from meditating beforehand, from loveyhuasca, lucid dreaming, working through grief, hearing music, praying, being tired, or for any other reason, you may want to skip to orienting and making sure you are contained.\n\nIf you do want to induce trance, choose as deep a trance as you need:",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 88
+    },
+    "elapsed": 7
+  },
+  "balance_after": 120101
+}

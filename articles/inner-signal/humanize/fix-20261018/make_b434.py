@@ -6,7 +6,7 @@ march read and the reviews are done; the rest are listed. Never installed from h
 to its paragraph checks.
 
   python3 make_b434.py --dry      list each section's screen, its fixes and the stretches still needing a march read
-  python3 make_b434.py            write the batch (predictions first)
+  python3 make_b434.py --write    write the batch (predictions first) for the sections that are ready
 """
 import glob, json, pathlib, re, sys
 
@@ -77,4 +77,34 @@ if __name__ == '__main__':
                 s['key'], ('%s %s %s' % (sc[0], sc[1], sc[2])) if sc else 'NO SCREEN MATCH', s['n_fixes'], 100 * changed_share(s),
                 len(s['stretches']), len(s['need']), ' '.join(x.split('-B')[1] for x in s['need'])))
         sys.exit(0)
-    raise SystemExit('the record writer comes after march-d (see the handoff)')
+    # Which sections go: every fixed stretch has a current march read and the section's meaning work is done
+    # (meaning-status.json: {key: {"done": true, "verify": ..., "adjudication": ..., "notes": ...}}).
+    status = json.loads((HERE / 'meaning-status.json').read_text(encoding='utf-8'))
+    go = [s for s in secs if not s['need'] and status.get(s['key'], {}).get('done') and s['screen']]
+    held = [(s['key'], 'march' if s['need'] else ('meaning' if not status.get(s['key'], {}).get('done') else 'screen')) for s in secs if s not in go]
+    drafts, gate, preds = {}, {}, {}
+    for s in go:
+        b, name, head, link = s['screen']
+        st = status[s['key']]
+        mw, mn, reads = [], [], {}
+        for k, (folder, w, n) in s['stretches']:
+            mw += w; mn += n; reads[k] = folder
+        sg = json.loads((HERE / b / 'GATE.json').read_text(encoding='utf-8'))[name]
+        nm = s['key'] + '-fix'
+        drafts[nm] = s['text']
+        gate[nm] = {'kind': 'edit', 'was': '%s %s, 100%% Human: %s' % (b, name, link), 'was_kind': 'emulate', 'lint_was': sg.get('lint'),
+                    'march_was': mw, 'march': mn, 'march_reads': reads, 'cold': 'OK', 'grounding': 'OK', 'stance': 0, 'missing': [],
+                    'repeats': st.get('repeats', 0), 'lint': 'REVIEW', 'reviews': s['fixed'], 'verify': st.get('verify'),
+                    'adjudication': st.get('adjudication'), 'notes': st.get('notes', ''), 'emulate': sg.get('emulate'),
+                    'published': sg.get('published'), 'fixes': s['n_fixes']}
+        ch = changed_share(s)
+        c = max(0.2, min(0.8, 0.8 - 1.2 * ch))
+        preds[nm] = ('Human' if c >= 0.5 else 'Mixed', c, '%d meaning fixes, %d%% of the words changed from the screen that read Human; '
+                     'chance = 0.8 - 1.2 x the share changed' % (s['n_fixes'], round(100 * ch)))
+    print('going:', ' '.join(s['key'] for s in go))
+    print('held:', ' '.join('%s(%s)' % x for x in held))
+    if '--write' in sys.argv and drafts:
+        intro = ('Pangram\'s web app. The test of the meaning fixes: each section whose Emulate screen read 100% Human, with '
+                 'my fixes of what Emulate bent or dropped (reviewed against the published text, then a second reader). '
+                 'Predictions written before the run.')
+        write_batch(HERE, 434, drafts, gate, preds, intro, lint_article=H / 'HUMANIZED-SO-FAR.md')

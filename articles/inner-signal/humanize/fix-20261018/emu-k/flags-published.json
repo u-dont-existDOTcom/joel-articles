@@ -1,0 +1,18 @@
+{
+ "HG17": {
+  "flagged_blocks": [
+   1,
+   2
+  ],
+  "from_screen": "438g and 439g: the opening (B1-B2) read AI in every sample; the rest as 438g (emu-i)"
+ },
+ "HG31": {
+  "flagged_blocks": [
+   40,
+   41,
+   42,
+   43
+  ],
+  "from_screen": "439g HG31-emuJ, its one 68-word window"
+ }
+}
