@@ -3065,3 +3065,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 73) | as installed, with 55, 2 (3774 words) [t73f_h1f2], a screen | Human, low (my call) | Mostly Human Written (0.1; 4011), 4 windows: AI-Generated 37 words (High); 22:42:51 UTC, https://www.pangram.com/history/d4b7e16c-39f6-4f8f-b7fb-59a11f0a55af | hit |
 | 2026-10-18 (turn 73) | as installed, with P5 h (54, 11 and the rest of 8) (3788 words) [t73f_h1f3], a screen | Human, low (my call) | Mostly Human Written (0.093; 4024), 4 windows: AI-Generated 37 words (High); 22:42:53 UTC, https://www.pangram.com/history/0881ef4d-cd70-4a2a-a799-48c8965e04c3 | hit |
 | 2026-10-18 (turn 73) | as installed, with 55, 2 in fewer words and P5 h (3786 words) [t73f_h1f4], a screen | Human, low (my call) | Mostly Human Written (0.097; 4022), 4 windows: AI-Generated 37 words (High); 22:42:44 UTC, https://www.pangram.com/history/80ed71af-ccdf-47bb-bdcb-2dc154c24195 | hit |
+| 2026-10-18 (turn 73) | schema P2 with "I think" for "IMO" (82 words) [t73g_st2b2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | schema P2 with "in my opinion" for "IMO" (83 words) [t73g_st2b3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with "I think" (1415 words) [t73g_h1g1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-18 (turn 73) | the Appendix with "in my opinion" (1416 words) [t73g_h1g2], a screen | Human, low (my call) | (pending) | |

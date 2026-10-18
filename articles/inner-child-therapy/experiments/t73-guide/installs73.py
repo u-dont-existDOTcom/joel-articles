@@ -102,3 +102,9 @@ for _x in 'cd':
 # --- Round f: 55, 2 and turn 72's P5 h (54, 11 and the rest of 8) in the new order ------------------------------------
 register('yb5h', lambda: para('So how were the next few days?'),
          lambda: dnote('yb5-h', '54, 8 ("we can remove the "change several things at once" version in the other section since that sounds too vague to be useful"; coming out first is in Before You Try to Go Deep P2) and 11, B ("original list more informative"): the guide\'s "Try shorter duration, less depth or imagery, better timing, more symbolic or indirect representation, eyes open or stronger external anchors, less isolation, and more support." inside the paragraph\'s own "a bit easier" sentence (turn 72\'s draft, alone Human Written 0.38, https://www.pangram.com/history/2b7c63fe-e265-4de7-81a3-45ac0c97b555).', 'YB5') + draft('yb5-h'))
+
+
+# --- Round g: "IMO" in words (O37: Joel 2026-10-01, "for other articles where they aren't used, you wouldn't put them in") --
+for _x in ('2', '3'):
+    register('st2b' + _x, lambda: para('Where it really differs is spirituality'),
+             (lambda s: lambda: dnote(s, 'his "IMO" (57, 3) in words, since this article doesn\'t use chat acronyms (O37; Joel 2026-10-01: "for articles where the acronyms are used, you\'d use those, but for other articles where they aren\'t used, you wouldn\'t put them in").', 'ST2B') + draft(s))('st2-b' + _x))
