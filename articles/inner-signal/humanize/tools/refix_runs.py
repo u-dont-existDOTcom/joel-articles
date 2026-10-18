@@ -130,12 +130,69 @@ def assembled_fixed(fixed_path, refix_dirs):
     return '\n\n'.join(out), sorted(files)
 
 
+def _nblocks(u):
+    import re
+    return sum(len([x for x in re.split(r'\n\s*\n', p) if x.strip()]) for p in u['paras'])
+
+
+def hit_published(units_path, draft_blocks):
+    """The published blocks of the units of a checked text (UNITS_PATH: a fixed.json or a refix units file) whose
+    blank-line blocks a check flagged (flagged.py's draft blocks)."""
+    d = json.loads(pathlib.Path(units_path).read_text(encoding='utf-8'))
+    fl, i, out = set(draft_blocks), 0, set()
+    for u in d['units']:
+        n = _nblocks(u)
+        if fl & set(range(i, i + n)):
+            out |= set(u['blocks'])
+        i += n
+    return out
+
+
+def fixed_draft_blocks(fixed_path, pub_blocks):
+    """The fixed text's own blank-line blocks under those published blocks: what window_runs() takes, so a second refix
+    sample of a window that read AI starts again from my meaning-fixed text."""
+    d = json.loads(pathlib.Path(fixed_path).read_text(encoding='utf-8'))
+    i, out = 0, []
+    for u in d['units']:
+        n = _nblocks(u)
+        if set(u['blocks']) & set(pub_blocks):
+            out += list(range(i, i + n))
+        i += n
+    return out
+
+
+def units_fixed(fixed_path, refix_dirs):
+    """The units of assembled_fixed(): {"key", "units"} with each refix segment as an "emulate" unit ("refix": the run),
+    every other unit as the fixed section has it. faithful.py verify and apply read it like assemble.units()."""
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import assemble as A
+    d = json.loads(pathlib.Path(fixed_path).read_text(encoding='utf-8'))
+    segs = A.run_segments(refix_dirs)
+    out, skip_to = [], -1
+    for u in d['units']:
+        b0 = u['blocks'][0]
+        if b0 <= skip_to:
+            continue
+        sg = segs.get((d['key'], b0))
+        if sg:
+            out.append({'kind': 'emulate', 'blocks': sg[0], 'paras': sg[1], 'run': sg[2], 'file': sg[3], 'refix': True})
+            skip_to = sg[0][-1]
+        else:
+            out.append(dict(u))
+    return {'key': d['key'], 'from': str(fixed_path), 'refix_dirs': [str(x) for x in refix_dirs], 'units': out}
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=('make',))
+    ap.add_argument('cmd', choices=('make', 'units'))
     ap.add_argument('outdir')
     ap.add_argument('specs', nargs='+')
     a = ap.parse_args()
+    if a.cmd == 'units':  # units OUT.json FIXED.json REFIX_DIR [REFIX_DIR ...]
+        u = units_fixed(a.specs[0], a.specs[1:])
+        pathlib.Path(a.outdir).write_text(json.dumps(u, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+        print('%s: %d units, %d from refix runs -> %s' % (u['key'], len(u['units']), sum(bool(x.get('refix')) for x in u['units']), a.outdir))
+        return
     make(a.outdir, a.specs)
 
 

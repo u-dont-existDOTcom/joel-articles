@@ -1,0 +1,122 @@
+{
+ "key": "HG10",
+ "from": "fix-20261018/rev-a/HG10.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Hypnosis Evidence"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview of 49 meta analyses containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality."
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "links": [
+    {
+     "published": "2024 overview of 49 meta-analyses",
+     "new": "overview of 49 meta analyses"
+    }
+   ],
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Is there evidence for Self-Hypnosis? Yes. There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, child birth, pediatric, stress, anxiety etc. Self-hypnosis seemed more useful when done as a real self-skill several times, not just listening to an audio file."
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "links": [
+    {
+     "published": "A systematic review of randomized controlled trials",
+     "new": "a systematic review of Randomized Controlled Trials"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the review found it 'appeared more useful'; 'tends to be' makes it a general rule",
+     "replace": "Self-hypnosis tends to be more useful",
+     "with": "Self-hypnosis seemed more useful"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Here I will be teaching you a real self-skill, so you don’t end up a consumer of more and more elaborate trance recordings."
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the reader becoming a consumer of increasingly elaborate recordings",
+     "replace": "not just asking you to buy more audio trance files.",
+     "with": "so you don’t end up a consumer of more and more elaborate trance recordings.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "The Mayo Clinic warns that using hypnosis to deal with earlier life stressful events may invoke strong emotions and that there are other types of treatments that may be more helpful with historical trauma."
+   ],
+   "run": "HG10-fxw1",
+   "file": "fix-20261018/emu-r/HG10-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "DO use Self Hypnosis to help you: regulate your self, talk to your self, re-parent your self, gain clarity, change habits, make your life safer in the now, integrate emotions, and take action in ordinary life."
+   ],
+   "run": "HG10-fxw1",
+   "file": "fix-20261018/emu-r/HG10-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force yourself to “prove” trauma through memories, suppress medical symptoms, de-stabilize your self, or NOT seek correct treatment."
+   ],
+   "run": "HG10-fxw1",
+   "file": "fix-20261018/emu-r/HG10-fxw1.out.txt",
+   "refix": true
+  }
+ ]
+}
