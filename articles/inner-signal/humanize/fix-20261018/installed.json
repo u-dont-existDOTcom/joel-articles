@@ -228,5 +228,13 @@
   "paragraphs": "454g, 455g, 456g",
   "fixed": "rf-v/HG14.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG24": {
+  "stage": "sample",
+  "whole": "460g HG24-fix (459g HG24-oc: B2-B8 from emu-as over rf-v/HG24.fixed.json, 100% Human whole and in every paragraph; 3 triaged fixes, 0.6% of the words)",
+  "meaning": "rf-za/HG24.oc.verify.part1.out.txt, triaged in rf-zb/HG24.triage.json; the rest of the section: rf-o/HG24.triage.json and rf-v/HG24.triage.json",
+  "paragraphs": "455g, 456g, 459g, 460g",
+  "fixed": "rf-zb/HG24.fixed.json",
+  "installed": "2026-10-18, tools/install_fixed.py"
  }
 }

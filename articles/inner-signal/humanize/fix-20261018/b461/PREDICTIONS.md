@@ -1,0 +1,54 @@
+# Predictions and Pangram results: batch 461g
+
+Pangram's web app. New samples of HG36, each screened whole with its paragraph checks. Predictions written before the run.
+
+## Batch 461g
+
+| text | mine | chance | why | Pangram |
+|---|---|---|---|---|
+| HG36-sa | AI | 45% | B9-B12 in one new run (emu-at); HG36's end read AI in every version since 455g (459g: three new B10-B11 samples, AI at the end of the whole); new-sample section screens since 454g: 15 of 35 Human |  |
+| HG36-sa-p7 | Human | 97% | paragraph 7 of HG36 (alone), 76 words; checked with its screen (HG36-sa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sa-p8 | Human | 97% | paragraph 8 of HG36 (alone), 127 words; checked with its screen (HG36-sa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sa-p9+prev | Human | 97% | paragraph 9 of HG36 (prev), 137 words; checked with its screen (HG36-sa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sa-p10+prev | Human | 97% | paragraph 10 of HG36 (prev), 143 words; checked with its screen (HG36-sa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sb | AI | 45% | B9-B12 in one new run (emu-au); HG36's end read AI in every version since 455g (459g: three new B10-B11 samples, AI at the end of the whole); new-sample section screens since 454g: 15 of 35 Human |  |
+| HG36-sb-p7 | Human | 97% | paragraph 7 of HG36 (alone), 66 words; checked with its screen (HG36-sb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sb-p8 | Human | 97% | paragraph 8 of HG36 (alone), 131 words; checked with its screen (HG36-sb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sb-p9+prev | Human | 97% | paragraph 9 of HG36 (prev), 141 words; checked with its screen (HG36-sb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sb-p10+prev | Human | 97% | paragraph 10 of HG36 (prev), 147 words; checked with its screen (HG36-sb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sc | AI | 45% | B9-B12 in one new run (emu-av); HG36's end read AI in every version since 455g (459g: three new B10-B11 samples, AI at the end of the whole); new-sample section screens since 454g: 15 of 35 Human |  |
+| HG36-sc-p7 | Human | 97% | paragraph 7 of HG36 (alone), 50 words; checked with its screen (HG36-sc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sc-p8 | Human | 97% | paragraph 8 of HG36 (alone), 122 words; checked with its screen (HG36-sc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sc-p9+prev | Human | 97% | paragraph 9 of HG36 (prev), 132 words; checked with its screen (HG36-sc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-sc-p10+prev | Human | 97% | paragraph 10 of HG36 (prev), 138 words; checked with its screen (HG36-sc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa | Human | 50% | the whole section in one new run (emu-at); 431g's first whole-section run read Human; HG36's end read AI in every version since 455g (459g: three new B10-B11 samples, AI at the end of the whole); new-sample section screens since 454g: 15 of 35 Human |  |
+| HG36-wa-p1+next | Human | 97% | paragraph 1 of HG36 (next), 59 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p3 | Human | 97% | paragraph 3 of HG36 (alone), 65 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p4 | Human | 97% | paragraph 4 of HG36 (alone), 54 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p5+prev | Human | 97% | paragraph 5 of HG36 (prev), 62 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p6 | Human | 97% | paragraph 6 of HG36 (alone), 61 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p7+prev | Human | 97% | paragraph 7 of HG36 (prev), 66 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p8 | Human | 97% | paragraph 8 of HG36 (alone), 59 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p9 | Human | 97% | paragraph 9 of HG36 (alone), 137 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p10+prev | Human | 97% | paragraph 10 of HG36 (prev), 153 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wa-p11+prev | Human | 97% | paragraph 11 of HG36 (prev), 159 words; checked with its screen (HG36-wa); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb | Human | 50% | the whole section in one new run (emu-au); 431g's first whole-section run read Human; HG36's end read AI in every version since 455g (459g: three new B10-B11 samples, AI at the end of the whole); new-sample section screens since 454g: 15 of 35 Human |  |
+| HG36-wb-p1+run | Human | 97% | paragraph 1 of HG36 (run), 51 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb-p2+next | Human | 97% | paragraph 2 of HG36 (next), 124 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb-p3 | Human | 97% | paragraph 3 of HG36 (alone), 100 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb-p4+next | Human | 97% | paragraph 4 of HG36 (next), 89 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb-p6+next | Human | 97% | paragraph 6 of HG36 (next), 201 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb-p7 | Human | 97% | paragraph 7 of HG36 (alone), 157 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb-p8+prev | Human | 97% | paragraph 8 of HG36 (prev), 170 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wb-p9+prev | Human | 97% | paragraph 9 of HG36 (prev), 176 words; checked with its screen (HG36-wb); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc | Human | 50% | the whole section in one new run (emu-av); 431g's first whole-section run read Human; HG36's end read AI in every version since 455g (459g: three new B10-B11 samples, AI at the end of the whole); new-sample section screens since 454g: 15 of 35 Human |  |
+| HG36-wc-p1+next | Human | 97% | paragraph 1 of HG36 (next), 65 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p3 | Human | 97% | paragraph 3 of HG36 (alone), 98 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p4+next | Human | 97% | paragraph 4 of HG36 (next), 72 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p5 | Human | 97% | paragraph 5 of HG36 (alone), 52 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p6 | Human | 97% | paragraph 6 of HG36 (alone), 59 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p7 | Human | 97% | paragraph 7 of HG36 (alone), 58 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p8 | Human | 97% | paragraph 8 of HG36 (alone), 63 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p9 | Human | 97% | paragraph 9 of HG36 (alone), 98 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p10+prev | Human | 97% | paragraph 10 of HG36 (prev), 111 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |
+| HG36-wc-p11+prev | Human | 97% | paragraph 11 of HG36 (prev), 117 words; checked with its screen (HG36-wc); 0% of its words not Emulate's (paragraph checks 442g-453g: under 5% 99% Human, 5-15% 93%, 15-30% 70%, over 30% 81%) |  |

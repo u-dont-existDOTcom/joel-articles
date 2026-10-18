@@ -3,7 +3,8 @@
   rf-v/choices.json: {KEY: {"base": FIXED_OR_SPLIT.json, "windows": [{"blocks": [b, ...], "folder": "emu-X"}, ...],
                             "pruns": [{"run": "HG15-pw3", "folder": "emu-X", "paras": [a, b]}, ...]}}
   windows: Emulate segments of those published blocks from that folder replace the base's units (tools/refix_runs._merge,
-  which takes every segment of a stretch); pruns: a run of paragraphs of one long stretch (paras a..b of the unit that has
+  which takes every segment of a stretch); a window's "skip" (["folder/run", ...]) leaves out another run of the same key
+  in that folder (emu-at: HG36's B8-B12 run and its whole-section run); pruns: a run of paragraphs of one long stretch (paras a..b of the unit that has
   them, as pruns.json recorded) is replaced by the run's output paragraphs, by position, checked against the base text.
   Writes rf-v/KEY.units.json (the chosen stretches marked "refix", for the second reader's records and the triage).
 Run from fix-20261018/: python3 compose_v.py KEY [KEY ...]
@@ -21,7 +22,7 @@ def compose(key, spec):
     d = json.loads(base.read_text(encoding='utf-8'))
     segs = {}
     for w in spec.get('windows', []):
-        got = A.run_segments([HERE / w['folder']])
+        got = A.run_segments([HERE / w['folder']], skip=w.get('skip', ()))  # skip: "folder/run", when two runs of a key share a folder
         for (k, b0), v in got.items():
             if k == key and set(v[0]) <= set(w['blocks']):
                 segs[(k, b0)] = v

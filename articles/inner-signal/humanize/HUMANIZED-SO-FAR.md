@@ -746,71 +746,55 @@ REMEMBER: Not everything in hypnotic imagery is literal, especially if it relate
 
 ## Nothing happens
 
-Start smaller:
+Could you try starting a bit smaller?
 
-“Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”
+Showing yourself just one sensation in your body / one word / whether to listen today or rest?
 
 ## It feels fake
 
-First ask what feels fake: the wording, the image, the expectation, or the role you’re trying to perform. Not experiencing an inner voice or image isn’t, by itself, resistance or a missing adult capacity. Correct an explicitly unwanted invitation. If you recognize a protective part, you can talk to it:
+Do you know what exactly feels fake - the words, an image, what you are expecting, the role etc? It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.
 
-“What are you protecting me from?” “Are you afraid I will lie to myself again?” “Are you afraid this is performance?”
+You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?'
 
-The voice may be the inherited parent enforcing an old belonging rule. Don’t argue with it. Ask which rule it is enforcing and what ordinary evidence would make the new adult voice more believable.
+It could also be an inner voice of a parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice.
 
-The fake feeling can also mean that a needed adult capacity isn’t available yet. Stop demanding a convincing voice. If you can already observe what is happening, borrow the particular warmth, boundary, or direction you lack. A real or imagined caring figure can help. Try one believable sentence or action and see how it is received.
+If the fake feeling is telling you that you don't have the 'grown up' ability to do this yet, then don't try and convince yourself by using an inner voice. As long as you have enough observing ego to do this, try and borrow what you need from someone who you can imagine is 'good enough' to lend it to you. This could be a family member, friend, famous person etc. What you need might be warmth, boundary, direction etc. Try out something which rings true to you, whether it is a sentence, an action etc, and see how you get on.
 
 ## The subconscious will not answer
 
-There may be no answer, or the question may not help. You can change it, rest, or finish. If a concern about trust is actually present, ask:
-
-“What do you need to know before you trust me?”
-
-The reply may be extremely un-mystical: “Will you set the boundary?” “Will you keep the promise?” “Will you stop abandoning us?” “Will you stop substituting insight for action?”
+There may not be an answer. There may not be an answer that will help you. You may need to try asking a different question or you may just need to rest or finish your inner work for the day. If trust is actually a concern, you can try asking your subconscious “What would you need to know in order to trust me?” Some examples of answers might be “I need to know you will set boundaries” “I need to know you will do what you said you will do” “I need to know you won’t keep leaving” “I need to know you won’t think that knowing something means that you don’t need to do anything about it” etc.
 
 ## The inner child will not appear
 
-If a guard is recognizable, speak to it; otherwise stay with the feeling or preference that is actually present.
-
-“You do not have to let me in. Just tell me what would make the doorway safer.”
-
-If no clear child-state appears, use the session to notice one preference, curiosity, or beginner experiment instead of forcing an image. Identity-building and reparenting can happen in the same practice.
+If you can figure out who the guard is, talk to it. If you can’t, just work with what you are aware of. You can say to the guard “You don’t have to let me in, just tell me what I need to do to make it safe”. Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of. You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes. Work on developing a sense of who you are and reparent yourself as best you can.
 
 ## You get anxious
 
-Notice whether the anxiety is manageable and you want to stay with it, or whether you need less contact. When it is escalating or overwhelming, stop searching for content and help the body first.
+Find out if the anxiety is bad enough that you want to decrease contact with it or if you can manage it and let it continue. If the anxiety is getting too bad, then you need to stop searching for content and help your body first, like the following:
 
-Feet. Chair. Breath. Room.
+-Where are your feet? Where are you sitting? Focus on your body, your breathing, and the room around you.
 
-“Little one, I am here. Protector, thank you for warning me. You do not have to scream for me to listen. If there is real action needed, show me one step. If there is no action needed, help the body stand down gently.”
+-Tell your Little parts and Protector parts that you’re there for your Little parts and that you recognize that your Protector parts are trying to protect you and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.
 
-Get professional help when anxiety includes chest pain, fainting, suicidal thoughts, psychosis-like or mania-like symptoms, severe dissociation, inability to sleep, or urges to harm yourself or someone else. Appendix D has the longer anxiety toolbox.
+If you’re having chest pain, fainting, suicidal thoughts, psychosis-like symptoms, mania-like symptoms, severe dissociative symptoms, not being able to sleep, wanting to hurt yourself or somebody else, etc. then you need to get professional help. For more on handling anxiety, see the toolbox in Appendix D.
 
 ## You dissociate or feel unreal
 
-Open your eyes. Move. Touch something textured. Name five objects. End the deeper practice for the day.
+Open your eyes, move around, feel something textured, name 5 things that you can see, and end your work for the day.
 
 ## You become grandiose
 
-Return to food, sleep, chores, humility, and somebody who will disagree with you.
+Go eat, go to sleep, do some chores, accept some humility, find somebody to disagree with you, etc.
 
-“If this insight is real, it will survive sleep, food, time, humility, and feedback.”
+What do you say to yourself in that moment? “If it’s really there, it’ll still be here after a good night’s sleep, some food, some time, etc, and some subsequent humility, feedback, etc, etc.”
 
 ## You become too analytical
 
-When the practice turns into a technical performance, stop improving it. Put one hand on the heart and one on the solar plexus.
-
-“I am not here to do this perfectly. I am here to be in relationship with what is deeper than my surface mind.”
-
-“What would make this feel more like communion and less like performance?”
-
-Silence may be the answer. Rest may be the answer. One honest action may be the answer. Take the answer that actually arrived.
+You’re being too analytical. “What if you didn’t try to improve it?” Put your hand on your heart, your other on your solar plexis, and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it.
 
 ## You become too blissful or diffuse
 
-Ask the bliss to become specific.
-
-“What task, boundary, meal, rest, repair, or conversation does love require next?”
+You’re being too blissful, diffuse, etc. Bring it down to a more specific level. “What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?”
 
 ## You want the hidden truth immediately
 
@@ -820,31 +804,27 @@ Don’t pry.
 
 ## You keep daydreaming
 
-Sit up and open your eyes.
-
-“What real action is this fantasy replacing?”
+You’re daydreaming. Sit up and open your eyes, and ask yourself, “What are you avoiding doing in the real world by doing this?”
 
 ## You get stuck in spiritual bypass
 
 “Where has divine love not yet descended into the wound?”
 
-A genuine opening can show you a depth of love or freedom you hadn’t known was possible. Let that matter without demanding the child receive it on command. Prayer can also evoke abandonment or condemnation, or a teacher’s betrayal can damage something sacred. Ask what was lost and what needs questioning; more of the same practice isn’t automatically the answer.
+Maybe you had a profound opening that showed you how much more love and freedom is possible. Let that matter, but don’t demand that the child receive it on command. Maybe when you prayed it seemed like you were being abandoned and condemned. Maybe you felt betrayed by a spiritual teacher. It may be worth exploring these, but you might not want to do more of the same.
 
-Sometimes practical care helps while the available horizon of life still feels too small. Curiosity about deeper happiness is worth following without pretending to believe an explanation. Other people already have enough love and meaning for the life they want. Spirituality doesn’t need to become another assignment.
+Sometimes it’s best to get some practical help while life still feels too small, and let yourself be curious about finding more happiness, without necessarily believing the explanation of how it’s going to work. Sometimes people have enough love and meaning to just live their lives, and trying to be spiritual doesn’t have to be another assignment.
 
 ## You get stuck in endless processing
 
-A real wound and a checking loop can coexist. Ask whether this round helps you feel, understand, decide, or respond differently—or whether you’re checking the same question for reassurance. Grief and practice can revisit familiar ground; novelty isn’t required every time.
+You may have a real wound that needs to be dealt with, but it’s possible you’re caught in a checking loop. Consider asking yourself “Will processing this again actually help me feel, understand, decide, or do something differently? Or is this a form of checking to see if I can get the reassurance that something is finally okay?” Sometimes, whether you’re grieving or doing your practice, it’s okay to cover the same ground again and again.
 
-When it is a checking loop, let the thought remain without arguing with it or chasing it away, and return to a chosen activity or relationship. You don’t have to hold an inner meeting every time a thought appears or complete a ritual before you’re allowed to live.
+The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do. You don’t have to have a meeting with every thought that pops into your head before you start your life. You don’t have to do any certain thing before you start your life.
 
-“What direction would the Leader choose now?”
+What would the Leader choose to do now?
 
 ## You keep using hypnosis but not changing life
 
-“What would prove to the inner child that the adult is real?”
-
-Then do the thing.
+You’re doing hypnosis over and over again without making changes in your life. Ask yourself, “What can I do to show my kid I’m for real?” Then go do it.
 
 # What not to do
 
