@@ -4,7 +4,7 @@
 Joel, 2026-10-18 01:29 UTC: "your mission is to improve the scorecard especially for predictions and fixes, as well as the speed
 of fixing." My written predictions run about 80% right lately; this asks the checks themselves. Every batch folder of the
 community lane (and any other folder given) that keeps drafts.json, GATE.json and a results file is one row per checked text:
-the exact text, the gate's kind of record (screen, draft, edit, owner, section), Pangram's headline, and my written prediction
+the exact text, the gate's kind of record (screen, draft, edit, owner, baseline, section), Pangram's headline, and my written prediction
 where the batch's PREDICTIONS table has one.
 
   python3 tools/humanization/pangram_predictor.py collect ROOT [ROOT ...] --out DATA.json
@@ -26,7 +26,7 @@ import argparse, glob, hashlib, json, math, os, re, sys
 from collections import Counter, defaultdict
 
 PASS = 'Human Written'
-KINDS = ('owner', 'draft', 'edit', 'screen', 'section')
+KINDS = ('owner', 'draft', 'edit', 'screen', 'section', 'baseline')
 AI_WORDS = ('crucial', 'delve', 'foster', 'nuanced', 'tapestry', 'landscape', 'robust', 'navigate', 'navigating', 'ensure', 'ensuring',
             'meaningful', 'genuine', 'genuinely', 'deeply', 'profound', 'intricate', 'realm', 'underscore', 'pivotal', 'holistic',
             'framework', 'dynamic', 'dynamics', 'journey', 'essential', 'vital', 'leverage', 'cultivate', 'cultivating', 'resonate',
@@ -180,6 +180,11 @@ def prob(model, x):
     return 1 / (1 + math.exp(-max(-30, min(30, s))))
 
 
+def is_section(kind, text):
+    """A whole section: a section check, or a baseline (a published section checked as it stands) of 250 words or more."""
+    return kind == 'section' or (kind == 'baseline' and len(text.split()) >= 250)
+
+
 def matrix(rows, names):
     return [[features(r['text'], r['kind'])[k] for k in names] for r in rows]
 
@@ -187,7 +192,7 @@ def matrix(rows, names):
 def evaluate(rows, folds=5):
     names = sorted(features('x').keys())
     out = {}
-    for part, sel in (('paragraphs', lambda r: r['kind'] != 'section'), ('sections', lambda r: r['kind'] == 'section')):
+    for part, sel in (('paragraphs', lambda r: not is_section(r['kind'], r['text'])), ('sections', lambda r: is_section(r['kind'], r['text']))):
         data = [r for r in rows if sel(r)]
         batches = sorted({r['batch'] for r in data})
         fold_of = {b: i % folds for i, b in enumerate(batches)}
@@ -245,7 +250,7 @@ def main():
         rows = json.load(open(a.data, encoding='utf-8'))
         names = sorted(features('x').keys())
         model = {'format': 'pangram-predictor-v1', 'features': names, 'parts': {}}
-        for part, sel in (('paragraphs', lambda r: r['kind'] != 'section'), ('sections', lambda r: r['kind'] == 'section')):
+        for part, sel in (('paragraphs', lambda r: not is_section(r['kind'], r['text'])), ('sections', lambda r: is_section(r['kind'], r['text']))):
             data = [r for r in rows if sel(r)]
             model['parts'][part] = fit(matrix(data, names), [1.0 if r['pass'] else 0.0 for r in data])
             model['parts'][part]['texts'] = len(data)
@@ -258,7 +263,7 @@ def main():
         names = model['features']
         for k, text in drafts.items():
             kind = (gate.get(k) or {}).get('kind')
-            part = model['parts']['sections' if kind == 'section' else 'paragraphs']
+            part = model['parts']['sections' if is_section(kind, text) else 'paragraphs']
             f = features(text, kind)
             x = [f[n] for n in names]
             pr = prob(part, x)

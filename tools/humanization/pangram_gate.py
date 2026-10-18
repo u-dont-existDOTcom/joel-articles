@@ -47,6 +47,9 @@ paragraphs that the sweep's fixes changed with no break, and their installed ver
 though each of those had read Human alone and in its section; the draft rule would have had every one of them
 rewritten to add a break.
 
+A baseline (2026-10-18) is a published text checked as it stands, before any of it is rewritten:
+{"kind": "baseline", "source": "source/published-20260928.md, SHA-256 3b5cb6cc..."}. It needs only its source.
+
 A screen (E175, 2026-10-15) is a candidate that has passed only the cheap checks, a linter verdict that isn't FAIL
 and a march read with a break in every reading: {"kind": "screen", "march": [...], "lint": "REVIEW"}. It goes to
 Pangram before the long meaning reviews (cold read, grounding, stance check, repeats), and only the screens that
@@ -88,6 +91,11 @@ def problems(key, gate, seen=()):
     kind = g.get('kind')
     if kind == 'owner':
         return [] if g.get('joel') else ["an owner text needs 'joel': where his words come from"]
+    if kind == 'baseline':
+        # 2026-10-18: a new article's published text, checked as it stands before anything in it is rewritten (the hypnosis
+        # guide, after Joel's 01:29 UTC "let's move onto the next article in the queue"). Nothing in it is mine, so there is
+        # nothing for the meaning reviews to check; it says where the text comes from, and it is never installed.
+        return [] if g.get('source') else ["a baseline needs 'source': the published file (and its SHA-256) the text is from"]
     if kind == 'section':
         parts = g.get('parts') or []
         out = [] if parts else ["a section needs 'parts': its new paragraphs' keys, or \"installed\""]
@@ -118,7 +126,7 @@ def problems(key, gate, seen=()):
             out.append('linter: %r (run it; a FAIL means rewrite)' % (g.get('lint'),))
         return out
     if kind not in ('draft', 'edit'):
-        return ['kind must be draft, edit, screen, owner or section, not %r' % (kind,)]
+        return ['kind must be draft, edit, screen, owner, baseline or section, not %r' % (kind,)]
     out = []
     march = g.get('march') or []
     if not march:

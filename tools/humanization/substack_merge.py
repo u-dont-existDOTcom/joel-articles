@@ -112,8 +112,8 @@ def md_blocks(md):
             kind = 'comment'
         elif re.match(r'^#{1,6} ', b):
             kind = 'heading'
-        elif re.match(r'^\[image \d+\](\(.*\))?$', b):
-            kind = 'image'
+        elif re.match(r'^(>\s*)?\[image \d+\](\(.*\))?$', b):
+            kind = 'image'  # a blockquoted image (the editor's <blockquote> around an image) keeps its "> "
         elif b.startswith('[caption]'):
             kind = 'caption'
         elif b == '[Share](%%share_url%%)':
