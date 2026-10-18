@@ -22,7 +22,7 @@ A first-time reader (a cold read of the section) paused at a few of them: "Leade
 - **B. Your words instead** for any of them (they get checked again with your words).
 - **C. Leave a line out.**
 
-One more: your guide's next sentence after the Higher Self line, "A trustworthy adult function is built through care, boundaries, action, and direction.", is out for now, because the paragraph before already says the inner adult is one "you build and practice occupying", with its three jobs (every AI window in three rounds started on that sentence). **D.** Leave it out. **E.** Put it back (it gets checked again).
+One more: your guide's next sentence after the Higher Self line, "A trustworthy adult function is built through care, boundaries, action, and direction.", is out for now, because the paragraph before already says the inner adult is one "you build and practice occupying", with its three jobs (in two rounds the section's AI windows started on my wording of it, "A grown-up you can trust gets built through care and boundaries, ...": [one](https://www.pangram.com/history/721fff73-86b5-460c-affe-215078ff001a), [two](https://www.pangram.com/history/5f708ed9-d5a3-4564-8c4d-4f1a6817d165)). **D.** Leave it out. **E.** Put it back (it gets checked again).
 
 They can go together, like `45: A, D`.
 
