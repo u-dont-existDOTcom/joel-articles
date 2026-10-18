@@ -305,3 +305,18 @@ for _x in 'hik':
 # --- Round h: the checking-into-doing paragraph without its list (it had a 37-word AI window in three h1 contexts) -----
 register('chkf', lambda: para('And the checking doesn\'t always stay in your head.'),
          lambda: dnote('chk-beh-f', '54, 4 (as chk-beh-a, round t72d), with its list of five broken up: it had a 37-word AI window in three checks of Before You Try to Go Deep this turn (rounds t72e, t72f and t72g).', 'CHKF') + draft('chk-beh-f'))
+
+
+# --- Round i: checking-into-doing folded into P2 (folding is what got coming out first in, round t72e) ----------------
+def _chk_pair():
+    t = ART.read_text(encoding='utf-8')
+    a = para('Going back can still matter, since realizations')
+    b = para('And the checking doesn\'t always stay in your head.')
+    if a is None or b is None:
+        return None
+    i, j = t.index(a), t.index(b)
+    return t[i:j + len(b)]
+
+
+register('chkm', _chk_pair,
+         lambda: dnote('chk-merge-a', '54, 4: the checking-into-doing paragraph (chk-beh-a, round t72d) folded into P2 after "is clearly not what we\'re after here.", word for word: on its own it had a 37-word AI window in three checks of Before You Try to Go Deep (rounds t72e to t72g).', 'CHKM') + draft('chk-merge-a'))
