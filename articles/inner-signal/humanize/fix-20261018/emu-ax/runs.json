@@ -1,0 +1,29 @@
+[
+ {
+  "key": "HG18",
+  "sent": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "flagged": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "headings": [
+   0
+  ],
+  "words": 315,
+  "input": "published text",
+  "from": "source/published-20260928.md B0-B6",
+  "run": "HG18-aw1"
+ }
+]

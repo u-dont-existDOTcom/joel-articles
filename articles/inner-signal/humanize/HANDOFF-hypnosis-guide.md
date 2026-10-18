@@ -56,7 +56,10 @@ folder's `BUNDLE.json` there (stage it in `/mnt/user-data/outputs/` and write it
 SHA-256), then `nohup python3 run_emulate.py BUNDLE.json /abs/path/emu-hg-X RUN RUN ... > run-all.log 2>&1 &` (the script
 reads the key itself; never print, copy or log it). Pack `*.out.txt *.out.json run-all.log` into a .tgz, stage it, unpack it
 into the scratchpad, copy into `fix-20261018/emu-X/` and run `python3 tools/emu_runs.py back --align fix-20261018/emu-X`
-from `humanize/`. 40 to 3,000 words a run (a window under 40 is refused); about 85,700 words left after emu-ap (2026-10-18). Never chain a run behind
+from `humanize/`. 40 to 3,000 words a run (a window under 40 is refused); about 80,000 words left after emu-ay (2026-10-18).
+Stage every file for the laptop under a name of its own (its SHA in the name): device_commit_files can write an older file
+that was staged under the same name (2026-10-18: the handoff copy came back as an older version), so check the SHA there
+before using it. Several sample sets run in one `sh -c "...; ..."` chain, one after the other. Never chain a run behind
 another with `pgrep -f` on the other's command line: the waiting shell's own command line matches, so it waits forever
 (emu-t lost eight minutes to that). Never edit Emulate's output with my own words except to put the meaning back, and
 every such edit goes through the gate.

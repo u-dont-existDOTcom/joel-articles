@@ -1,0 +1,29 @@
+[
+ {
+  "key": "HG18",
+  "sent": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "flagged": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "headings": [
+   0
+  ],
+  "words": 492,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+  "run": "HG18-aw1"
+ }
+]

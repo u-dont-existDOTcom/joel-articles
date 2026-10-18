@@ -1,0 +1,104 @@
+{
+ "key": "HG18",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+ "choices": {
+  "base": "rev-b/HG18.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "folder": "emu-aw"
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Come all the way back"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "In order to exit from the session you will need to reverse how you entered, for example if you floated then feel yourself gain weight again, if you shrank then go back to your normal size. If you went back to a younger state or came out as different parts of yourself then make sure you are in the here and now, whole, in your body, and recognise yourself to be an adult in control of your own body. If you travelled somewhere to enter trance then come back the same way. Make sure that you only keep what you want to keep."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aw/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Script: Come back bringing with you only what you want to bring back into your conscious life. Nothing else needs to come back at this time. You are now back in the room, back in your body, back in your day. My instructions to you now are complete. You may choose to adopt this intention in your normal life or this cue at a later date. Both of these things will not continue this session. You are back to your normal self, in your body, with your adult judgement."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aw/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "1, feeling the weight of your body again 2, returning to your normal breathing pattern 3, aware of your surroundings and where you are 4, moving your fingers, toes, shoulders and eyes 5, opening your eyes back to normal life, completely present and totally normal. The session is now over."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aw/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "When you open your eyes think to yourself what day or date it is, look to your left and to your right, look at something far away and something close. Move your body about a bit before getting up. Make sure you are back to normal. Don’t just assume that because you counted back it worked. It’s all good and well thinking you are out when you really want to be out but check you actually are out before you get up. Note down what happened, if anything, and what you are going to do about it. Then go and do something normal to fully re-integrate back into normal life."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aw/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "If your recording cuts out before the exit script plays say to yourself that the recording has cut out and the session is over. Then open your eyes, say where you are, what day it is, push down with your feet or hands, move about, look around and count yourself back using the above 5 step process."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aw/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Note: If you are using a recording to help you sleep then it doesn’t matter if it leaves you asleep or in a quiet state. This advice is for waking recordings only. Waking recordings should never leave you in a state, with a role, with lowered judgement, with lowered ability to move, blank, with a non-specific reset word or in any other way that will keep you in an altered state for an indefinite period."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aw/HG18-aw1.out.txt",
+   "refix": true
+  }
+ ]
+}

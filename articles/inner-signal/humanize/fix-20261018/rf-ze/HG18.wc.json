@@ -1,0 +1,104 @@
+{
+ "key": "HG18",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+ "choices": {
+  "base": "rev-b/HG18.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "folder": "emu-ay"
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Come all the way back"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "In order to come out of a session, you should do the opposite of what you did to enter. If you floated or went to a place, come back down using the same method. If you decided to have a certain weight as you came down, use that weight when you land. If you made yourself smaller, go back to your normal size. If you went to a place where you met a younger self or parts of yourself, make sure to tell them that you are whole now, this is your body, and you will be using adult judgement, etc. If you traveled in some way, then come back the same way you went. Be sure that you are bringing back only what you intended to bring back from the session."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ay/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "You may want to say, “I am bringing back with me only what I need at this time. All other things will be safely stored until I need them. I am coming back now to this place, to my body, and to normal living, one honest action at a time. Except for (whatever you may be keeping for ordinary life or cues for practicing in the future, if you are keeping any), nothing I have heard will cause me to go deeper or stay in the session.”"
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ay/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Begin to count yourself out: “1. Coming back now into your body, with whatever weight you choose to have. 2. Coming back to your normal breathing pattern. 3. Coming back to hearing all of the sounds around you right now in (wherever you are). Start moving your fingers and toes, your shoulders, your eyes. 4. Still coming back. 5. Open your eyes feeling normal, and knowing that the session is over.”"
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ay/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Say what day it is or the date, if you need to, and look to the left and the right. Look at something close and something far away. Feel free to move around a bit before getting up. Get up when you feel like it. Make sure that you are alert and oriented to the here and now. Just because you counted doesn’t mean that you are out. Take note of things that you may or may not need to do, if anything came up in the session that you need to act on. Then go about your normal activities."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ay/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "If you are listening to a recording and it stops before it is supposed to, then just say to yourself that it has stopped and the session is over. Use the above method to bring yourself out by opening your eyes, saying where you are, saying what day it is, pushing down with your feet or hands, moving around, looking around, and/or using the 5 step method above. Don’t just sit there waiting for the recording to start up again to “let you out.”"
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ay/HG18-aw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "NOTE: If you are going to sleep to a recording, it is fine to let the recording put you to sleep or leave you in a quiet place. However, a recording for use while awake should not leave you in a role, with lowered judgement, impaired movement capabilities, blank, with an undefined reset word, etc."
+   ],
+   "run": "HG18-aw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ay/HG18-aw1.out.txt",
+   "refix": true
+  }
+ ]
+}
