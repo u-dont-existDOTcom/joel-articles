@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-18 (turn 73). **Three open questions, 60 to 62**: the schema section's two new paragraphs (60), two sentences of mine your Inner Monologue move needed changed (61), and the checking paragraph that's holding up 55, 2 and 54, 11 (62). Your answers of 21:58 UTC are in Decided, with your question 59 answered there. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-19 (turn 74). **One open question, 63**: what the three therapist paragraphs said that your new Finding a Therapist to Borrow Adulthood doesn't. Your answers of 00:08 UTC are in Decided. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,48 +8,43 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 60. The schema section's two new paragraphs (your 57, 3)
+### 🟣 63. What the three therapist paragraphs said that your new section doesn't
 
-Here they are, after the overlap paragraph you'd seen. They're my wording, from your notes and the research the lane was sent ([UDA's suggested fix](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/cd9bf74ee450772988aaf43c8059508bd57b0923/suggested-fixes/joel-articles/2026-10-18-schema-therapist-fit-and-reparenting-guide.md)). The questions in P3 are the research's 1, 2, 3 and 6. Its question 2 also asks about refusing "the inner-child frame itself", and that part is left out, since you cut the guide's no to the frame on 2026-10-08. Your "IMO" is in words, since this article doesn't use chat acronyms (your rule of 2026-10-01). Jeffrey Young's postdoctoral work with Aaron Beck is from [his Wikipedia page](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), and "Building on cognitive therapy" is how [Guilford's page for the schema therapy book](https://www.guilford.com/books/Schema-Therapy/Young-Klosko-Weishaar/9781593853723/reviews) puts it.
-> Where it really differs is spirituality. Schema therapy leaves it out. That's not so surprising, since it grew out of cognitive therapy (Jeffrey Young, who developed it, did his postdoctoral work with Aaron Beck). So a loan of love from God, like back in Ask God for a Loan, isn't something a schema therapist would usually offer you. IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing.
-
-> So how do you find a good one? Not just any schema or IFS therapist will do. On the first call, I'd ask whether they really do the reparenting, and then help you learn to do it yourself, or if it's mostly questionnaires. Then try saying no to the imagery, or to talking to an empty chair, and see if they take it or call it "avoidance." If your rent is due or your roommate scares you, a good one helps you deal with that first. Your childhood will still be there next week. And how do they handle spiritual experiences? You want someone who won't tell you what yours really mean, or treat them as a symptom. A certificate on the wall can't tell you any of that.
-
-With them, the end of How This Relates to IFS P7, the parts maze (mine, from turn 71) had a small AI window in four of five checks, so its last sentence is your guide's institution point said again: "With others, people seem to come out more fragmented than they went in. Having a big institute with certifications behind it doesn't make a model any truer, either. Or safer, for that matter." ([the Appendix with all three, Human Written 0.057, high](https://www.pangram.com/history/a6e5cf8c-ba43-4fea-ba96-de0d5324c241))
-- **A. Fine.** I'd pick this.
-- **B. Your words** for any of them.
-
-### 🟣 61. Two changes your Inner Monologue move needed
-
-Your move is in, and Before You Try to Go Deep reads [Human Written 0.096, high](https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2) with it. Without your section in front of them, two paragraphs of mine had AI windows, so each has one sentence said again:
-1. **Your Body Might Need Some Love First, P4**: "Even staying present the whole time doesn't tell you enough by itself." is now "And being present through all of it doesn't mean it wasn't too much." (your guide's "But "I stayed oriented" is not enough by itself either.").
-2. **Also Look Outward, the honesty paragraph** (your yes of turn 38): "People can earn more of you by how they handle the smaller things you tell them" is now "People can earn more of you by how they handle the smaller stuff, like whether that thing you told them about your weird fear of birds turns into a joke at the next party 🙈".
-- **A. Fine.** I'd pick this.
-- **B. Your words.**
-
-### 🟣 62. The checking paragraph that's holding up 55, 2 and 54, 11
-
-Two of your answers aren't in yet: 55, 2 (the truism in When Healing Turns Into Checking P2), and 54, 11 with the rest of 8 (the guide's list of what to change, inside Your Body P5, with "change several things at once" out). Each one reads Human alone, but with either of them, Before You Try to Go Deep gets the same 37-word AI window. It lands on the first two sentences of When Healing Turns Into Checking P3, checking that turns into doing (sixteen checks of its section over two turns; [this turn's last](https://www.pangram.com/history/80ed71af-ccdf-47bb-bdcb-2dc154c24195)). Folding that paragraph into P2 didn't move it. The tell I can see is its list of five: "A body scan can turn into one, or a confession, a date, a hookup, one more late-night search, if what you're really after is proof."
-- **A. I keep trying versions of those two sentences next turn.** I'd pick this first, since B loses three of your guide's examples.
-- **B. Shorten the list** to the date and the late-night search (the date is what replaced your dating line in Also Look Outward), then check again.
-- **C. Your words** for those two sentences.
+Your Finding a Therapist to Borrow Adulthood is in, word for word, and the three Appendix paragraphs it replaces are out. Three points in them aren't anywhere else in the article now:
+1. **From your guide's IFS paragraph** (How This Relates to IFS P8): look for an IFS therapist who's trauma-informed, doesn't put ideas in your head, and understands dissociation. For your little one's pain, or for shame, attachment wounds, abandoning yourself, or having no inner adult you can count on, a good reparenting therapist may fit better.
+2. **From my schema P3** (the research's questions): ask whether they really do the reparenting and then hand it over to you; whether they take a no to imagery or the empty chair, or call it "avoidance"; and whether they help with what's wrong in your life right now first.
+3. **From your Teachers P3**: "3x more on that page for NYC than via Open Path search when I checked", and the Somatic Therapies Guide as "the same map as in Your Body Might Need Some Love First".
+- **A. Add one sentence to your P4** for the safety part of 1: "I'd also want one who doesn't put ideas in your head, and who understands dissociation." I'd pick this. The article warns about planted memories with photos and dreams, and your guide names suggestion and dissociation in this exact spot.
+- **B. Leave it as it is.**
+- **C. Your words**, or any of the others back.
 
 ## For you to do (no decision needed)
 
 ### 🟠 The pull request, whenever you like
 
-You merged [#192](https://github.com/u-dont-existDOTcom/joel-articles/pull/192) at 22:14 UTC, with this turn's first round in it. The rest of this turn is in [#193](https://github.com/u-dont-existDOTcom/joel-articles/pull/193). Merging it is yours, whenever you like (59, in Decided).
+You merged #192 and #193. This turn is in [#194](https://github.com/u-dont-existDOTcom/joel-articles/pull/194). Merging it is yours.
 
 ## Coming up
 
 ### 🔵 Next turn
 
-- **Your answers to 60 to 62**, and with 62, A, more versions of the checking paragraph's opening, so 55, 2 and 54, 11 can go in.
+- **Your answer to 63.** Everything else you've asked for is in.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-19 00:08 UTC
+
+Your message, word for word: [experiments/t74-answers/JOEL-20261019-0008.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/103be431b9cdea9f512eab06cadf5dbabadab708/articles/inner-child-therapy/experiments/t74-answers/JOEL-20261019-0008.md), with your pasted section beside it.
+- **60**: the differences paragraph stays, and the choosing-a-therapist paragraph is out. I read your "2nd para" as that one, since your new section covers choosing a therapist.
+- **61, A.**
+- **62, C**: your Before You Try to Go Deep is in as you pasted it. That's your checking paragraph, and with it 55, 2 in fewer words and 54, 11 (the guide's list inside Your Body P5, with "change several things at once" out). It reads [Human Written 0.093, high](https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9), and your checking paragraph alone reads [0.073](https://www.pangram.com/history/d2aeb146-d0e1-446e-8226-2f07aaaa161f). I kept your comma in "Even, going on a date".
+- **Finding a Therapist to Borrow Adulthood**: in before the Appendix, word for word ([Human Written 0.00035, high](https://www.pangram.com/history/ea67f223-3c99-4e95-8488-5deb0edda3ef)). The three Appendix paragraphs on finding a therapist are out (schema P3, IFS P8 and Teachers P3). Fitted: your Somatic Therapies Guide link has its http://, as everywhere else in the article, and the two links from your 2026-10-18 text stay on the same words (Open Path Collective, and "even more Schema therapists at the official site"). What those three paragraphs said that your section doesn't is 63.
+- **The unburdening sentences** are out of How This Relates to IFS P6. I agree: they never said what's different about it.
+- **Related Clinical Work** is an h2 now ([the Appendix Human Written 0.12, high](https://www.pangram.com/history/a7141598-29af-45ee-87e4-1c20a5a3197d)).
+- You merged [#193](https://github.com/u-dont-existDOTcom/joel-articles/pull/193) at 00:08 UTC. This turn is in [#194](https://github.com/u-dont-existDOTcom/joel-articles/pull/194).
 
 ### 🟢 2026-10-18 21:58 UTC
 

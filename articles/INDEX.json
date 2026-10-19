@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "0fc7832b7778e20ab55ee13823d2e5796fd6bb9fc10225be08399e9daa7f2d80"
+          "sha256": "52785b3d8e4b576f4e27b76ab9ec8aacc687e59975f59c5646d8d5ec60824910"
         }
       },
       "review": {
@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "1aec2f8031f0be5cb488c9885e6298d5cd34f38ae6a6a67cef6aa259e5c75aec",
+          "sha256": "6c8b8cdabaf720c475ed4c97371eaf868ba984f8be49c49f080f20ef777d1069",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "1ff2d6719279c7988fe93353d36984fa662282759ddcb07f0313d26cd841eb1e",
+          "sha256": "97cc6158ff023b97347eff47a6fb55158c4fdf210689fc8650b2d61a1c14743c",
           "role": "owner_edits_ledger"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "9636d8f7c33b1b24f0d2690a9045a6244b3ecbc8fdf8bdec272cc6358cb26ecb",
+          "sha256": "127058a941623db2f87a69743e34e1e73fffc5f6dd59a213f6c06c4f2ebe84c4",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "cc1fa4a4007212fc8f7bc6e547a60bc787e20418fd1b545cf2d8b06dd45a823a",
+          "sha256": "b3b5078b7c52873a821d458e6f844447755353d1daff72d9f7cd55ceabbf222f",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "a9f659b1b68850631fd98ad5cd67649ec6351f0a5cd74f4c82d2c9eb1222afaa",
+          "sha256": "29b022de252193328519809c04a1445fff2be0e2d743d62103852c4e45d8d307",
           "role": "owner_questions_page"
         },
         {
@@ -22096,6 +22096,101 @@
           "path": "articles/inner-child-therapy/experiments/t73-guide/RESULTS-g.json",
           "sha256": "e61020e95b466770edc51b59bf60d4be11dc61bbc25135d97756687e753ae83a",
           "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-answers/JOEL-20261019-0008.md",
+          "sha256": "f492ba6e6b77e6a272ffc265bc9393a606042cc730d2495a0cfd4c2c6a66f3d1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/MARCH.json",
+          "sha256": "9e454f5c3065ee9fa067050390621ec96c6e709e2d6511bb6839e236c1c94a33",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/SPEC-a.json",
+          "sha256": "1c68553898aa5781ca436f6944c185a71cab3201ef16e031c4cd56137c0c815b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/drafts/fat2.txt",
+          "sha256": "e3bf4790e3fc433fd1901fd6bfedf13fecc9adcc7c9ace57eb1508dcb038816f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/drafts/fat3.txt",
+          "sha256": "bf7bbb8d510e6cac8f873adadf5518db5b7fc72004704c6f8b019dcd76d1f705",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/drafts/fat4.txt",
+          "sha256": "1d95cf87d7b44452965f0fbaeb839fa8d3e9e131192a044f8d5058cfacc8b619",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/drafts/fat5.txt",
+          "sha256": "d7f179b721b7b0a286b4c42a49227e760e77800768aa3baaa7914fb66ad0a09a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/drafts/jchk3.txt",
+          "sha256": "ebd77037c0914ad0bc7ee35bd6927476f1ae9d38cbee117f55743675d48b6834",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/installs74.py",
+          "sha256": "4c905025c794ab05b5ff71c3cb92c12854f5a14ff8e1807fdee0dd46fe7dbd07",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/joel-before-you-try-20261019-0008.txt",
+          "sha256": "a4121e8848c720808bf3a5d30854089773f4220ac9151e20ab5cfa282438eed3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/t74.py",
+          "sha256": "166c4bbc7286a534f05d2ec59db1edce5118ce3665062dc7662f6852f150644c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn74-a-drafts.json",
+          "sha256": "ebd7f3a18a84fd3585d8b85d208ac3ba9ca7e825461eb9a8cecaad977cdbad1a",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn74-a-gate.json",
+          "sha256": "dd0694d4bce527e74f25975aa5bb1b532a906ddfdeb13a03b6a6f8e0911c2678",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn74-a-read.js",
+          "sha256": "69086aefcb49dcd09680f4b97f1da622cda2439f5f36db970d2394c914f2f88f",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn74-a.js",
+          "sha256": "8e42ca6c4b550efeee72808bf6de606230af84cab375017ea255654da0d012b8",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/READ-a.json",
+          "sha256": "96f6f2a4210030f832c24663d79d525fa22862720eb575e2a73f5a70cc0b22db",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/RESULTS-a.json",
+          "sha256": "1e688e86db1a05f58561914d98c61470a89dd348569abbaf8a09e2d368cfc047",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t74-guide/REVIEWS.md",
+          "sha256": "5ec61a4fe67264cfd4781ce1ec3fbb61b469423f1798adf0eeb736bb6586a7e2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-19-turn74.json",
+          "sha256": "0dbf5ef7b472b832edabef6d5b6642c69586b17e047298cd451947d85a1822c9",
+          "role": "in_context_map"
         }
       ]
     },
