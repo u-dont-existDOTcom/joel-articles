@@ -201,7 +201,7 @@ def batch(rnd, spec_file):
     return rc
 
 
-exec(open(pathlib.Path(__file__).with_name('installs75.py')).read()) if pathlib.Path(__file__).with_name('installs75.py').exists() else None
+exec(open(pathlib.Path(__file__).with_name('installs76.py')).read()) if pathlib.Path(__file__).with_name('installs76.py').exists() else None
 
 
 if __name__ == '__main__':
