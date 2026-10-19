@@ -83,11 +83,11 @@
     },
     {
       "path": "CANONICAL-PACKAGE-BUILD.json",
-      "sha256": "8c55eec52eaeafc7b6deb6c71355b6a5231a5328b30c536c3c4dfc6b6a4ee076"
+      "sha256": "b355b7e045e1517c31d1849980bdbbf5c1266277343d4e54a53c25ac86639368"
     },
     {
       "path": "CANONICAL-PACKAGE-VERIFY.json",
-      "sha256": "96b22e8d8523f5f2355eb6d8966d4bf43ff30cf4e82beff356f7d80807068223"
+      "sha256": "45b00625ebdfd8820772b887b4eda63f8cd76e203b276d65c7d1cbdc7ac338fe"
     },
     {
       "path": "CANONICAL-REVIEW-SELFTEST.json",
@@ -119,7 +119,7 @@
     },
     {
       "path": "Canonical-Review-Package.zip",
-      "sha256": "7eadee95bbc36b31f3dcab33cc4a2eb56b54ccd3032940b23e02965e729dbc1d"
+      "sha256": "935d5dfd8bc00b03253fb0e067823b692f669a9220baf616289f4be956b25322"
     },
     {
       "path": "Community-Article-r03-candidate.html",
@@ -163,19 +163,23 @@
     },
     {
       "path": "GATE-REGRESSION-TESTS.txt",
-      "sha256": "80f8e4ee4165bba0669b218ecbf6309874b2b6abcfc4aecd4b34ef6f27930157"
+      "sha256": "d30389e6be978ed0ff6619a3aeebb870fd289d7e3f169e85fbcbd5745979fa05"
     },
     {
       "path": "MAP-BROWSER-CHECK.json",
-      "sha256": "125945506cef946e37f92ca904976fb7b44a3d2b214ffa889d04c4376c28b00e"
+      "sha256": "2f8212dc1fbe740a3c12f1ff8265de006c001649a516dbde9d3d2d3e9d430299"
     },
     {
       "path": "MOVE-REVIEW-BROWSER-CHECK.json",
-      "sha256": "00e101c719e3d77710998af219006690ac941e4a4f3bb00ff8b9589001b72e87"
+      "sha256": "b18076fb2d3cbec701f7c345b8c2ea8532596d894b348047d60a22869c1ab6cc"
     },
     {
       "path": "NATIVE-INVENTORY.json",
       "sha256": "d01095c55ce13cb776cad589481c98d237d2a34fccaa922d31156423db1dceef"
+    },
+    {
+      "path": "NAVIGATION-REPAIR.md",
+      "sha256": "961aaca1dcac1c2bdb1cff082a98118d0a131d88068fcd82864ce2ef52b2693c"
     },
     {
       "path": "OWNER-ANSWERS.json",
@@ -211,7 +215,7 @@
     },
     {
       "path": "Structure-and-Decisions-r03.html",
-      "sha256": "c50bb7b79a491edbf5773a1b5bdfe4bb824014ca14884156ebef4bc7e5bf0989"
+      "sha256": "fc020ef512140f19f4439321e4f96e50da86357f90d0595fd07adadcd41ce8f0"
     },
     {
       "path": "TEST-ORACLE-REPAIR.md",
@@ -251,7 +255,13 @@
     },
     {
       "path": "DELIVERY-GATE-RESULT.json",
-      "sha256": "ef67783b64d3674cf3e3550f812f832bde8f3f196c71c68a421962588fd5dad0"
+      "sha256": "012c6608caf7e468412b1079bc5ff32894afc6a773f50aeb68c92b4788f3d218"
     }
+  ],
+  "navigation_artifacts": [
+    "Structure-and-Decisions-r03.html",
+    "Editing-Protocol-r03.html",
+    "Owner-Reading-r03.html",
+    "Candidate-Reading-r03.html"
   ]
 }

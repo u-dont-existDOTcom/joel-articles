@@ -121,6 +121,30 @@ def assess(root: Path, phase: str='editorial', expected_contract: str|None=None)
         if phase=='delivery':
             require('artifact inventory exists','artifacts' in c and len(c['artifacts'])>0)
             for x in c.get('artifacts',[]):require('delivered artifact '+x['path'],digest(safe_file(root,x['path']).read_bytes())==x['sha256'])
+            # Check only the registered review navigation surfaces, not archival native-host paths.
+            navigation = c.get('navigation_artifacts', [])
+            parsed = {}
+            for name in navigation:
+                page = BeautifulSoup(safe_file(root,name).read_text(encoding='utf-8'),'html.parser')
+                parsed[name] = page
+                for anchor in page.find_all('a',href=True):
+                    href = anchor['href']
+                    if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:',href) or href.startswith(('//','%%')):
+                        continue
+                    path, _, fragment = href.partition('#')
+                    target_name = path or name
+                    try:
+                        target_path = safe_file(root,target_name)
+                        ok = True
+                        if fragment and target_path.suffix.lower()=='.html':
+                            target_page = parsed.get(target_name)
+                            if target_page is None:
+                                target_page=BeautifulSoup(target_path.read_text(encoding='utf-8'),'html.parser')
+                                parsed[target_name]=target_page
+                            ok = target_page.find(id=fragment) is not None
+                    except (GateError,OSError,ValueError):
+                        ok = False
+                    require('review navigation '+name+' -> '+href,ok)
             T=load(root,c['transfer_receipt_file'])
             require('canonical transfer verified for exact candidate',T.get('candidate_sha256')==digest(cand) and T.get('canonical_verify')=='PASS' and T.get('destination_result') in ['UNTESTED','PASS','FAIL'])
         require('stage does not silently promote publication',c.get('publication_authority')=='NOT_GRANTED')

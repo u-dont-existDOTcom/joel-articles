@@ -735,6 +735,11 @@
       "detail": ""
     },
     {
+      "check": "delivered artifact NAVIGATION-REPAIR.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "delivered artifact OWNER-ANSWERS.json",
       "passed": true,
       "detail": ""
@@ -821,6 +826,206 @@
     },
     {
       "check": "delivered artifact full-reader-receipt.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Copy-to-Substack-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Side-by-Side-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Full-Article-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Editing-Protocol-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> #questions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T267",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T267",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T118",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T113",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T253",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T253",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T255",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T255",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T014",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T014",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T272",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T272",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T282",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T282",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T290",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T290",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-N001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-N002",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-N003",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Owner-Reading-r03.html#source-T127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Structure-and-Decisions-r03.html -> Candidate-Reading-r03.html#candidate-T127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Editing-Protocol-r03.html -> Structure-and-Decisions-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Editing-Protocol-r03.html -> #enforcement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Owner-Reading-r03.html -> Structure-and-Decisions-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Owner-Reading-r03.html -> Side-by-Side-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Candidate-Reading-r03.html -> Structure-and-Decisions-r03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review navigation Candidate-Reading-r03.html -> Side-by-Side-r03.html",
       "passed": true,
       "detail": ""
     },

@@ -11,6 +11,7 @@ class EditorialGateTests(unittest.TestCase):
   # A fixture-only transfer receipt permits testing package control flow, not real clipboard conversion.
   c=self.read('GATE-CONTRACT.json');self.write('TRANSFER-RECEIPT.json',{'candidate_sha256':c['candidate_sha256'],'canonical_verify':'PASS','destination_result':'UNTESTED','scope':'SYNTHETIC UNIT FIXTURE ONLY'})
   (self.root/'fixture.txt').write_text('Unit-test artifact, not byline text.')
+  c['navigation_artifacts']=[]
   c['artifacts']=[{'path':'fixture.txt','sha256':digest((self.root/'fixture.txt').read_bytes())}];self.write('GATE-CONTRACT.json',c)
  def tearDown(self):self.tmp.cleanup()
  def read(self,n):return json.loads((self.root/n).read_text())
@@ -62,6 +63,14 @@ class EditorialGateTests(unittest.TestCase):
   srv=RegisteredService({'task':self.root},self.out);c=self.read('GATE-CONTRACT.json');c['review_status']='ALTERED';self.write('GATE-CONTRACT.json',c);self.assertEqual(srv.request({'task_id':'task','candidate_sha256':c['candidate_sha256']})[1]['status'],'STALE_ENROLLMENT')
  def test_server_checks_disk_bytes_again(self):
   srv=RegisteredService({'task':self.root},self.out);(self.root/'fixture.txt').write_text('Changed after enrollment');c=self.read('GATE-CONTRACT.json');self.assertEqual(srv.request({'task_id':'task','candidate_sha256':c['candidate_sha256']})[0],409)
+ def test_unresolved_review_anchor_is_blocked(self):
+  (self.root/'navigation.html').write_text('<a href="destination.html#missing">Source</a>')
+  (self.root/'destination.html').write_text('<p id="real">Original</p>')
+  c=self.read('GATE-CONTRACT.json');c['navigation_artifacts']=['navigation.html'];self.write('GATE-CONTRACT.json',c);self.bad('review navigation')
+ def test_legitimate_review_anchor_is_accepted(self):
+  (self.root/'navigation.html').write_text('<a href="destination.html#real">Source</a>')
+  (self.root/'destination.html').write_text('<p id="real">Original</p>')
+  c=self.read('GATE-CONTRACT.json');c['navigation_artifacts']=['navigation.html'];self.write('GATE-CONTRACT.json',c);self.assertEqual(assess(self.root,'delivery')['status'],'REVIEW_ELIGIBLE')
  def test_traversal_output_artifact(self):
   c=self.read('GATE-CONTRACT.json');c['artifacts'][0]['path']='../outside.txt';self.write('GATE-CONTRACT.json',c);self.bad('Traversal')
  def test_legitimate_empty_spacer_omission_is_not_blocked(self):
