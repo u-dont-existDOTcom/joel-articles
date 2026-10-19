@@ -18,7 +18,7 @@ def after(start, name, text, stem):
 BA3 = os.environ.get('BA3', 'ba3-e')
 AS4B = os.environ.get('AS4B', 'as4b-f')
 AG5B = os.environ.get('AG5B', 'ag5b-c')
-LOMED = os.environ.get('LOMED', 'lo-med-h')
+LOMED = os.environ.get('LOMED', 'lo-med-j')
 LOSH1 = os.environ.get('LOSH1', 'lo-share1-j')
 LOSH2 = os.environ.get('LOSH2', 'lo-share2-i')
 
@@ -33,7 +33,7 @@ UE29 = os.environ.get('UE29', 'ue29-b')
 EMBED = '<!-- Native YouTube embed from source, unchanged: Garchen Rinpoche chanting Om Mane Pemme Hum'
 register('ue2', lambda: para(EMBED),
          lambda: (para(EMBED) + '\n\n'
-                  + note("PGQ-027 (urgent medical care during unbearable pain instead of a relief known to make it worse), from %s, checked against the guide's own paragraph (innerSignalGraph guides/inner-child-guide-2026-10-11-r6.txt, \"If the urge to escape comes during severe physical pain\"): a paragraph of mine at the end of this h3 rather than right after P1 as the queue has it, since P2's \"So why not just blast right past that part\" points back at P1's hurt; it opens on the urge to escape by name, and its last sentence sends only a fear of acting, or not knowing whether you're safe, to If You Want to Kill Yourself (the grounding's MUST, experiments/t76-guide/GROUNDING-t76.md). experiments/t76-guide/drafts/%s.txt. @@UE27@@" % (Q76, UE27)) + draft(UE27) + '\n\n'
+                  + note("PGQ-027 (urgent medical care during unbearable pain instead of a relief known to make it worse), from %s, checked against the guide's own paragraph (innerSignalGraph guides/inner-child-guide-2026-10-11-r6.txt, \"If the urge to escape comes during severe physical pain\"): a paragraph of mine at the end of this h3 rather than right after P1 as the queue has it, since P2's \"So why not just blast right past that part\" points back at P1's hurt; it opens on the urge to escape by name, the pain-thought sentence is PGQ-030's, and the last sentence sends only a fear of acting on it to If You Want to Kill Yourself (the grounding's MUST, experiments/t76-guide/GROUNDING-t76.md). experiments/t76-guide/drafts/%s.txt. @@UE27@@" % (Q76, UE27)) + draft(UE27) + '\n\n'
                   + note("PGQ-029 (frequent severe pain: a specialist and a written flare plan, with the new or severe signs that still mean going in), from %s and the guide's next paragraph (\"If severe pain attacks happen almost every day\"); the France example compressed, as the queue asks. experiments/t76-guide/drafts/%s.txt. @@UE29@@" % (Q76, UE29)) + draft(UE29))
          if para(EMBED) else None)
 register('lo', lambda: para("And reaching out doesn't mean telling strangers everything."),

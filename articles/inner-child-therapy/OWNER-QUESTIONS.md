@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-19 (turn 75). **No open questions.** Your answer of 00:26 UTC is in Decided, and everything you've asked for is in the article. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-19 (turn 76). **Six open questions, 64 to 69.** Your message of 00:55 UTC is in Decided, with what went into the article from the innerSignalGraph queue. To answer, reply in chat with the number and a letter, like `64: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,24 +8,86 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-None right now.
+### 🟣 64. The drug-peak paragraph: name anyone?
+
+Altered States Can Deepen the Therapy P5 is new (the queue's PGQ-032, from your example of 2026-10-14), and it names nobody. The queue says your example named a public figure, and that naming one is your choice.
+- **A (my pick):** leave it unnamed. The point is the reader's own all-in-one-package wanting, and a name pulls the attention onto that person.
+- **B:** name them. Tell me who, and how you'd put it.
+
+### 🟣 65. "If only I had X": a source?
+
+Your Loan is PRE-APPROVED! P6 is new (PGQ-033) and cites nothing. The survey you remembered, where almost nobody wished for happiness directly, hasn't turned up, so it isn't in.
+- **A (my pick):** no source. The question works on its own, next to your Biggie Smalls paragraph.
+- **B:** a pointer to Gilbert and Wilson's research on "miswanting" (2000), on how people mispredict what will make them happy. I'd find and open the paper before linking it.
+
+### 🟣 66. Your three: gratitude without pushing, gratitude in a calm altered state, hypnosis with grief (PGQ-034, 035 and 036)
+
+The queue says you'd write these yourself (Oct 15). What each covers, and where it would go:
+- 034, bringing gratitude in sideways instead of pushing it ("we can come back to this later, now may not be the time"), with your example questions (for "my life is hell", someone who wants a partner, toxic positivity, "I love everyone, I just hate my dad"): Ask God for a Loan, after its gratitude part.
+- 035, gratitude in a calm altered state (settling comes first while it's overwhelming, and safety first with impaired capacity or a medical concern): Altered States Can Deepen the Therapy, near P3 ("Now, the beautiful stuff.").
+- 036, hypnosis isn't ruled out by grief or an altered state (it depends on the kind, the grief and the purpose, reaching feelings you can't get to or escaping what you need to face; deep inner-child work still waits until the grief is less raw): When the Urge to Escape Arrives, after P12 ("Gentle meditation or self-hypnosis is a different story.").
+- **A (my pick):** you write them, as you planned. Send them in chat and I'll fit them in and run the checks.
+- **B:** I draft a sentence or two for each from your Oct 15 answers, for you to fix.
+
+### 🟣 67. Gratitude as an ongoing practice (PGQ-031): your section has it already
+
+Your Ask God for a Loan already carries the queue's whole progression: the small reliefs, gratitude even for suffering, the heart opening, inviting your little one in while you listen to their BS, and "I think it's essential if we want to live in that love instead of occasionally visiting it." Two smaller points the queue lists aren't said outright: nobody has to thank someone who hurt them or excuse the harm, and gratitude is practiced without forcing a feeling. It also asks not to say the child is knowingly testing the adult, which sits next to your "they might just need to see if you're actually humble enough".
+- **A (my pick):** leave your section as it is. How to Forgive Without Forgetting already says understanding someone isn't excusing them ("Seeing how they got there doesn't make it okay"), your "is not about imposing some kind of 'spiritual discipline'" covers the forcing, and "might just need to see" reads as a guess about your little one, not a claim that they're testing you.
+- **B:** a clause of yours for the abuser point.
+
+### 🟣 68. The care paragraph (PGQ-030) and your checking paragraph
+
+For PGQ-030 (asking for help after a hospital held you, or a treatment hurt you), this short paragraph would go after Also Look Outward P10. It reads Human alone with its last sentence, the guide's point that past harm from care doesn't make a danger now go away ([Human Written 0.22](https://www.pangram.com/history/1af9e25e-6866-467a-975b-37a3717e7e03)):
+
+> The same goes for doctors. If a hospital held you against your will, or a treatment hurt you, no wonder asking for help feels scary. Bring someone you trust to speak up for you (it doesn't have to be the relative who never respected your wishes), and ask what a treatment's for. And if you're in real danger right now, get help anyway, whatever happened last time.
+
+With that last sentence in, Before You Try to Go Deep reads Mostly Human, with a 95-word window on your When Healing Turns Into Checking P1, "You can get hooked on healing too. The wound can be completely real..." ([0.094](https://www.pangram.com/history/cc1f5dd6-9bf0-4797-a956-3ddc0c49c8da)); three wordings of the sentence gave the same window. Without it, the section reads Human ([0.084, high](https://www.pangram.com/history/28bf7e10-a9bd-4f21-8d9c-75eecf93cabb)). It's the opening that kept a window last turn too, until your 62, C. So the paragraph isn't in yet.
+- **A (my pick):** your fix of the checking paragraph's opening, the way you did 62, C, so the care paragraph goes in whole.
+- **B:** the care paragraph without its last sentence. That says less than the guide: the pain paragraphs now say it for pain, and If You Want to Kill Yourself for any danger right now, but not after harm from care.
+- **C:** leave it out for now.
+
+### 🟣 69. Help with the sensitive-sharing paragraphs (PGQ-039)
+
+PGQ-039 (before sharing something legally or personally sensitive) needs two paragraphs after the care paragraph. The first now reads Human alone ([Human Written 0.19, high](https://www.pangram.com/history/54a7bc83-1438-46fd-a213-45c7fa5cd496)):
+
+> Then there's the stuff that's hardest to tell anyone, though it's often exactly what you need help with. Maybe it's an urge that scares you, or something you did that could get you in legal trouble. (An urge you've never acted on isn't the same as something you did, by the way.) You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever's on a company's server can get handed over if a court asks. A fake name doesn't guarantee you're anonymous, either. And some of the people you'd tell, like therapists and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it's nowhere near every crime you might mention. The cops are another story. Definitely not your therapist.
+
+The second, what to do instead, read AI in all six versions: plain advice ([0.66](https://www.pangram.com/history/c572789a-6c59-490f-8448-81b41149a528)); your voice with the lists cut down ([0.90](https://www.pangram.com/history/95e6f01a-3051-4cc9-aac3-b62158c1817e)); "I'd" for every step ([0.77](https://www.pangram.com/history/3bad9b87-c83e-4c7f-bc43-101e8c9e9b1f)); the question to ask as a quote ([0.997](https://www.pangram.com/history/1ca778b2-cf4a-4412-99de-d946ea7ba050)); "ask first" with a scene and an exclamation ([0.994](https://www.pangram.com/history/94f7dc0a-1db7-4a8d-8568-e47205a4ede6)); shorter ([1.00](https://www.pangram.com/history/b4d574ff-f7f9-4a12-9a2c-defc30d51cbf)). I took out the lists of three, the "not Y" endings, the coach phrases, my "even" and "actually", and the runs of commands. The latest:
+
+> So I'd ask first, before any names or details: "What would you have to report, and who reads your notes?" A good therapist or helpline won't mind. An AI can hear what kind of help you're after without the names. A lawyer's the person for legal trouble, because what you tell them is protected differently. Just don't hold back a danger that's happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.
+
+I can't find any more AI tells here, and I see some human tells, like these: the quoted question, "A good therapist or helpline won't mind", and "whatever it costs you legally". Can you help show me the tells I'm missing? The first paragraph waits for the second, since alone it would be the scary half without the way to get help. And the queue asks for a legal review before publishing; this wording names no law or country, so I'd say none is needed, but that's yours to decide.
 
 ## For you to do (no decision needed)
 
 ### 🟠 The pull request, whenever you like
 
-You merged #194. This turn is in [#195](https://github.com/u-dont-existDOTcom/joel-articles/pull/195). Merging it is yours.
+You merged #195 at 00:54 UTC. This turn is in [#196](https://github.com/u-dont-existDOTcom/joel-articles/pull/196). Merging it is yours.
 
 ## Coming up
 
 ### 🔵 Next turn
 
-- Whatever you'd like next. From your earlier answers, only the innerSignalGraph queue (58, B: not yet) is waiting.
+- Your answers to 64 to 69. With 68 and 69 settled, the care and sensitive-sharing paragraphs go in after their checks. After that, the only queue items left are your three (66).
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-19 00:55 UTC
+
+Your message, word for word: [experiments/t76-answers/JOEL-20261019-0055.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/19ac89e8cfc4cdb4e9623a335575647da0f031c5/articles/inner-child-therapy/experiments/t76-answers/JOEL-20261019-0055.md).
+- **The 14 minutes:** the sentence of 63, A was checked and in four and a half minutes after your message; the other ten went to my wrap-up, one step at a time. The wrap-up is scripts now, run together: one push command that also opens the pull request, the review page from a list of rows, your handoff note in one fixed command, and a Pangram batch in two calls. The screenshot and the second rules pull are gone, and the credits come with the link check (lesson E199).
+- **What the innerSignalGraph queue is:** when your InnerSignal app's rules or map change in a way a guide reader should see, that project adds the change to a list for the article. The list has 22 items now. The first nine are the T1 to T9 points you OK'd on Oct 9, all in already. Of the other thirteen, these are in now, each reading Human alone and in its section:
+  - 028, support isn't a shortcut to romance: Borrowed Adulthood in Relationship P3, after your P2, since your "Say they're the one" points back at P1 ([alone 0.13](https://www.pangram.com/history/b85c4a05-3774-4f88-b519-041870118fd9); [the section 0.082, high](https://www.pangram.com/history/e7e617db-8dea-496a-adee-e3f3edeae549)).
+  - 032, a drug peak that changes nothing: Altered States Can Deepen the Therapy P5 ([alone 0.031](https://www.pangram.com/history/f4093935-c708-4a05-b9c7-20cb9ba041a0); [the section 0.073, high](https://www.pangram.com/history/83d69825-fc68-4c58-986e-c0f9ca3c56f7)).
+  - 033, "if only I had X": Your Loan is PRE-APPROVED! P6, a short paragraph after your Biggie Smalls one ([Borrow the Adult with it 0.052, high](https://www.pangram.com/history/8c2a2d67-a543-4ae9-b265-19e3e3d27480)).
+  - 027 and 029, urgent care during unbearable pain, and a specialist with a written plan when the attacks come almost every day: When the Urge to Escape Arrives P13 and P14, at the end of the h3, since P2's "that part" points back at P1 ([P13 alone 0.22](https://www.pangram.com/history/3361db91-08b1-4fad-a4de-018bf91bfb4b); [P14 alone 0.22](https://www.pangram.com/history/f82c2224-b62b-477a-85bd-66920af677c4); [When the Adult Voice Feels Fake 0.072, high](https://www.pangram.com/history/424c6ddf-344e-4d81-8451-065ea0c4e0ff)). P13 also has the guide's point that wishing the pain would stop isn't a suicide plan, and sends a real fear of acting on it to If You Want to Kill Yourself.
+  - 037, reparenting isn't an exercise: The Chicken-and-Egg Problem P10, a short paragraph after my stages one ([the section 0.031, high](https://www.pangram.com/history/0296c5e3-5a39-4d1c-8541-4b2ef12881cc)).
+  - 038, keeping yourself safe is part of the work: Not Every Hero Wears A Cape P6 ([the h2 0.094, high](https://www.pangram.com/history/b48c7893-905a-41a2-b09d-a0b594245c0e); [Building Trust With Your Little One 0.032, high](https://www.pangram.com/history/b48feb12-3db6-4e54-a83c-621fa8e36c94)). 037 and 038 are one or two sentences each, as the queue asks, so they're under 50 words and their checks are their sections'.
+  - 031 is in your section already (67), 034 to 036 are yours (66), and 030 and 039 are 68 and 69.
+- You merged [#195](https://github.com/u-dont-existDOTcom/joel-articles/pull/195) at 00:54 UTC. This turn is in [#196](https://github.com/u-dont-existDOTcom/joel-articles/pull/196).
 
 ### 🟢 2026-10-19 00:26 UTC
 

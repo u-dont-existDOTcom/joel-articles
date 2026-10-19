@@ -25,17 +25,17 @@ innerSignalGraph's `authoring/PENDING-PUBLIC-GUIDE-CHANGES.md`, version 2026-10-
 
 | Entry | What | Where it went | Status |
 |---|---|---|---|
-| 027 | urgent medical care during unbearable pain | When the Urge to Escape Arrives, end of the h3 | see the rounds |
+| 027 | urgent medical care during unbearable pain | When the Urge to Escape Arrives P13, end of the h3 (P2's "that part" points back at P1) | in (ue27-f), with PGQ-030's pain-thought point |
 | 028 | support isn't a shortcut to romance | Borrowed Adulthood in Relationship, after his P2 | in (ba3-e) |
-| 029 | frequent severe pain: a specialist and a written flare plan | after 027's paragraph | reads Human alone; waits for 027 |
-| 030 | care after coercive or harmful care | Also Look Outward, after the graded-disclosure paragraph | see the rounds |
-| 031 | gratitude as ongoing cultivation | his Ask God for a Loan already carries it | question 68 |
+| 029 | frequent severe pain: a specialist and a written flare plan | When the Urge to Escape Arrives P14 | in (ue29-b) |
+| 030 | care after coercive or harmful care | Also Look Outward, after P10 | not yet: with its real-danger sentence the h1 reads Mostly Human, a window on his When Healing Turns Into Checking P1 (question 68) |
+| 031 | gratitude as ongoing cultivation | his Ask God for a Loan already carries it | question 67 |
 | 032 | a drug peak that changes nothing | Altered States Can Deepen the Therapy, after the Kornfield paragraph | in (as4b-f), no one named (question 64) |
 | 033 | "if only I had X" | Ask God for a Loan, after his P5 | in (ag5b-c), no source (question 65) |
 | 034, 035, 036 | gratitude without pushing; gratitude in a calm altered state; hypnosis with grief or an altered state | his to write (the queue: "The owner will write this himself") | question 66 |
 | 037 | reparenting isn't an exercise | The Chicken-and-Egg Problem, a short paragraph after my PGQ-012 one | in (cs57x-a) |
 | 038 | keeping yourself safe is part of the work | Not Every Hero Wears A Cape, a short last paragraph | in (hero6-e) |
-| 039 | before sharing something legally or personally sensitive | Also Look Outward, after 030 | see the rounds; legal review is question 67 |
+| 039 | before sharing something legally or personally sensitive | Also Look Outward, after 030 | not yet: P1 reads Human alone, P2 AI in six versions (question 69, with the legal review) |
 
 ## Grounding (`GROUNDING-t76.md`, a Sonnet reader, on round a's versions)
 
@@ -47,7 +47,13 @@ MUST fixes, all made: the pain paragraph's last line sent any thought of dying t
 - **t76b** (01:34:26 to 01:39:29, 18 checks; second versions in his voice: scenes, "I'd", asides). Human: 028 v3, the dating app in the night (alone 0.105; its h1 0.059, high). Still AI alone: 027 and 029 (0.785), 030 (0.96, 0.99), 039 (0.77, 0.90), 037 (0.95), 038 (0.98, 0.98), though both 038 versions read Human in their h1.
 - **t76c** (01:45:18 to 01:46:38, 16 checks; the grounding's fixes, the pain item split in two as in the guide). In: 028 (ba3-e, alone 0.134, h1 0.082 high), 032 (as4b-f, alone 0.031, h1 0.073 high), 033 (ag5b-c, h1 0.052 high). 029 alone 0.22 (Human). Still AI alone: 027 (0.65), 030 (0.95), 037 (0.92), 038 (0.99); 039 P1 read Human for its first 58 words and AI for the last 88 (0.55), P2 0.77.
 - **t76d** (01:51:51 to 01:52:37, 10 checks). 030 short (lo-med-g, 54 words) alone Human (0.124). 037 and 038 as the queue asks, one or two sentences each, under the gate's 50 words, so their checks are their sections': The Chicken-and-Egg Problem 0.031, high; Not Every Hero Wears A Cape 0.094, high; Building Trust With Your Little One 0.032, high. Still AI: 027 (0.86); 039 P1 Human for 91 words, AI for its last 55 (0.41); P2 0.997. Also Look Outward with 030 and 039 read AI from "The same goes for doctors" on (416 words).
-- **t76e**: see below.
+- **t76e** (01:58:30 to 01:59:04, 7 checks). Before You Try to Go Deep with 030 alone (lo-med-g) Human (0.084, high); its h3, Also Look Outward, read AI Detected (0.19), windows on P10's second half with 030 and on T9's last lines (P11 of the old order). 027 v5 AI (0.71); 039 P1 v5 AI (0.62, worse than v4), P2 v5 0.994.
+- **t76f** (02:02:20 to 02:02:41, 5 checks). 027 v6 (ue27-f, without my "even" and "actually") Human alone (0.221) and When the Adult Voice Feels Fake with it and 029 Human (0.072, high): in. 039 P1 v6 (round d's Human part kept, a plainer last part) Human alone (0.193, high); P2 v6 AI (1.00); the h1 with both had windows on them and on his When Healing Turns Into Checking P1.
+- **t76g** and **t76h** (02:04:59 to 02:07:46, 6 checks). 030 with the guide's real-danger sentence, three wordings (lo-med-h, -i, -j), Human alone (0.32, 0.13, 0.22), and each time Before You Try to Go Deep read Mostly Human (0.10, 0.097, 0.094) with the same 95-word window on his When Healing Turns Into Checking P1, "You can get hooked on healing too. The wound can be completely real ..."; without the sentence the h1 read Human (round e). That opening is the one that kept a window in turns 72 and 73 until his 62, C, so E198 says it's that paragraph's, and it's his text: question 68. 030 stays out rather than going in without the sentence (E168).
+
+## Installed (turn 76)
+
+PGQ-028 (ba3-e), 032 (as4b-f), 033 (ag5b-c), 027 (ue27-f) and 029 (ue29-b), 037 (cs57x-a), 038 (hero6-e): installs76.py, `t76.py install ba3,as4b,ag5b,ue2,cs57,hero6 RESULTS-final.json`; owner edits 188 pass. The cold read of the seven in place is `COLD-READ-t76.md`.
 
 ## Delegations (UDA `patterns/delegate-easy-work-to-cheaper-models.md`)
 

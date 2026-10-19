@@ -996,3 +996,15 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 - **His message:** "63a" (`t75-answers/JOEL-20261019-0026.md`).
 - **In:** the sentence for the guide's suggestion and dissociation points in Finding a Therapist to Borrow Adulthood P4 (round t75a: the section 0.00037, high).
 - **Open:** nothing; the innerSignalGraph queue waits (his 58, B).
+
+## Turn 76 (2026-10-19, from 00:55 UTC): the slow wrap-up, and the innerSignalGraph queue
+
+- **His message:** the one-line change took 14 minutes, "def need to fix that right?"; "start workin on the innerSignalGraph queue" (`t76-answers/JOEL-20261019-0055.md`).
+- **The fix:** turn 75's sentence was in after four and a half minutes; the other ten went to the wrap-up. Lesson E199 and five scripts in `tools/humanization/` (lane_push, lane_state, review_rows, pangram_js, handoff_note), with tests.
+- **In (queue r12):** PGQ-028, 032, 033, 027 with 029, 037 and 038, each Human alone (037 and 038 under 50 words, so their sections) and in its h1 (rounds t76a to t76f; `t76-guide/REVIEWS.md`).
+- **Open:** 64 (a public figure in the drug-peak paragraph), 65 (a source for "if only I had X"), 66 (his 034 to 036), 67 (031 already in his section), 68 (PGQ-030's last sentence brings back a window on his checking paragraph's opening), 69 (help with PGQ-039's second paragraph, six versions AI).
+- **Records:** `t76-guide/REVIEWS.md`, `TRACE-PGQ-r12.md`, `GROUNDING-t76.md`, `COLD-READ-t76.md`, `t76.py` and `installs76.py`, rounds a to h, `tools/PREDICTIONS.md` rows t76a on.
+
+### Next
+
+1. His answers to 64 to 69; then PGQ-030 and PGQ-039 through the checks.
