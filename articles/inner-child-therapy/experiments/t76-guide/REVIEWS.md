@@ -51,11 +51,15 @@ MUST fixes, all made: the pain paragraph's last line sent any thought of dying t
 - **t76f** (02:02:20 to 02:02:41, 5 checks). 027 v6 (ue27-f, without my "even" and "actually") Human alone (0.221) and When the Adult Voice Feels Fake with it and 029 Human (0.072, high): in. 039 P1 v6 (round d's Human part kept, a plainer last part) Human alone (0.193, high); P2 v6 AI (1.00); the h1 with both had windows on them and on his When Healing Turns Into Checking P1.
 - **t76g** and **t76h** (02:04:59 to 02:07:46, 6 checks). 030 with the guide's real-danger sentence, three wordings (lo-med-h, -i, -j), Human alone (0.32, 0.13, 0.22), and each time Before You Try to Go Deep read Mostly Human (0.10, 0.097, 0.094) with the same 95-word window on his When Healing Turns Into Checking P1, "You can get hooked on healing too. The wound can be completely real ..."; without the sentence the h1 read Human (round e). That opening is the one that kept a window in turns 72 and 73 until his 62, C, so E198 says it's that paragraph's, and it's his text: question 68. 030 stays out rather than going in without the sentence (E168).
 
+- **The cold read** (`COLD-READ-t76.md`, a Sonnet reader, on the seven in place): no MUST, five SHOULDs, all taken: P13's "the attack" had nothing before it, its two "it"s crossed, "don't dress it up" scolded, and its safety pointer was narrower than the article's own rule ("If you can't tell whether you're safe, I'd treat that as risky."); P14 had an emoji right under that pointer and a trailing last sentence; the drug-peak paragraph's "wasn't X. It was more of Y."; Borrowed Adulthood P3's "Romance and sex work" read as "sex work", and its "either" set the two halves against each other; Not Every Hero P6's clipped "is your step".
+- **t76i** (02:36:48 to 02:37:33, 9 checks), the cold read's fixes: P13 alone 0.016, P14 0.18, When the Adult Voice Feels Fake 0.071, high; the drug-peak paragraph 0.029, its h1 0.068, high; Borrowed Adulthood P3 0.215, its h1 0.062, high; Not Every Hero Wears A Cape 0.078 and Building Trust With Your Little One 0.035, high. Installed (fixue27, fixue29, fixas4b, fixba3, fixhero6).
+
 ## Installed (turn 76)
 
-PGQ-028 (ba3-e), 032 (as4b-f), 033 (ag5b-c), 027 (ue27-f) and 029 (ue29-b), 037 (cs57x-a), 038 (hero6-e): installs76.py, `t76.py install ba3,as4b,ag5b,ue2,cs57,hero6 RESULTS-final.json`; owner edits 188 pass. The cold read of the seven in place is `COLD-READ-t76.md`.
+PGQ-028 (ba3-e, then ba3-f), 032 (as4b-f, then as4b-g), 033 (ag5b-c), 027 (ue27-f, then ue27-h) and 029 (ue29-b, then ue29-c), 037 (cs57x-a), 038 (hero6-e, then hero6-f): installs76.py, `t76.py install ba3,as4b,ag5b,ue2,cs57,hero6 RESULTS-final.json`; owner edits 188 pass. The cold read of the seven in place is `COLD-READ-t76.md`.
 
 ## Delegations (UDA `patterns/delegate-easy-work-to-cheaper-models.md`)
 
 - Sonnet subagent, the trace of PGQ-027 to 039 against the article and his decisions (`TRACE-PGQ-r12.md` when it reports).
+- Sonnet subagent, the cold read of the seven in place (`COLD-READ-t76.md`): every finding read against the article; all five SHOULDs taken (round t76i).
 - Sonnet subagent, the grounding of round a's drafts against the queue (`GROUNDING-t76.md`): checked by reading each finding against the entry and the guide; every MUST and SHOULD taken.
