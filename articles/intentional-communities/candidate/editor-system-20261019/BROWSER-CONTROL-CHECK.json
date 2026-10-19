@@ -1,0 +1,59 @@
+{
+  "format": "joel-editing-system-review-ui-check-v1",
+  "result": "PASS",
+  "review_sha256": "aca11e6c07323002ac7f5e07279b9eaa6c57c7e463c254bbc13a64a3a9a7d662",
+  "browser": "Headless Brave/Chromium via Playwright",
+  "mode": "exact local HTML; external requests blocked",
+  "checks": [
+    {
+      "check": "local-file navigation",
+      "passed": true
+    },
+    {
+      "check": "all 22 exact cases rendered",
+      "passed": true
+    },
+    {
+      "check": "no horizontal viewport overflow",
+      "passed": true
+    },
+    {
+      "check": "case search filters",
+      "passed": true
+    },
+    {
+      "check": "two comparison columns visible",
+      "passed": true
+    },
+    {
+      "check": "portable JSON exports exact entered notes",
+      "passed": true
+    },
+    {
+      "check": "source identity in export",
+      "passed": true
+    },
+    {
+      "check": "browser-local persistence",
+      "passed": true
+    },
+    {
+      "check": "test answers removed",
+      "passed": true
+    },
+    {
+      "check": "mobile viewport has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "no JavaScript exceptions",
+      "passed": true
+    }
+  ],
+  "source_only_replay": "NOT_RUN",
+  "owner_approval": "NOT_ASSERTED",
+  "limitations": [
+    "Controls and integrity only; does not certify editorial judgment or independent source review.",
+    "No Substack/Pangram test; this file is an editorial-system review, not a publication helper."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "format": "joel-editorial-study-integrity-v1",
+  "result": "PASS",
+  "source_hashes": {
+    "A": "17bfd53a7e149c208058771caed02c0a220b8e7123080e0907a96fc45eb39cbf",
+    "B": "2ca1c0df8683e31c4203a6f0c9001fcbb3e6fb4b33a069e983c0a1fdb216b5eb",
+    "C": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7"
+  },
+  "case_count": 22,
+  "exact_excerpt_comparisons": 263,
+  "case_excerpt_method": "Exact equality to the named normalized text block; markup authority remains raw editor HTML.",
+  "recovered_guideline_sha256": "3515846af957ae8810ab8d7fc8185c4d898ace964c421a9ae0ed67d6bc350ffc",
+  "replay_status": "NOT_RUN",
+  "does_not_prove": [
+    "semantic equivalence",
+    "editorial sufficiency",
+    "Pangram result",
+    "work saved",
+    "held-out generalization"
+  ]
+}
