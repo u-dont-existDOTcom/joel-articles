@@ -3069,3 +3069,11 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-18 (turn 73) | schema P2 with "in my opinion" for "IMO" (83 words) [t73g_st2b3], a screen | Human, low (my call) | Human Written (0.072, Low; 93); 22:57:41 UTC, https://www.pangram.com/history/e8c356a2-19d3-41b3-adcf-c0e91642ee74 | hit |
 | 2026-10-18 (turn 73) | the Appendix with "I think" (1415 words) [t73g_h1g1], a screen | Human, low (my call) | Human Written (0.057, High; 1580); 22:57:44 UTC, https://www.pangram.com/history/c7594bdc-ebdc-4392-a135-19ff61153060 | hit |
 | 2026-10-18 (turn 73) | the Appendix with "in my opinion" (1416 words) [t73g_h1g2], a screen | Human, low (my call) | Human Written (0.057, High; 1581); 22:57:34 UTC, https://www.pangram.com/history/c799f01c-b016-438b-9444-8e78bb23569a | hit |
+| 2026-10-19 (turn 74) | his When Healing Turns Into Checking P3, as he pasted it (65 words) [t74a_jchk3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 74) | his Finding a Therapist P2 (76 words) [t74a_fat2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 74) | his Finding a Therapist P3 (his two links of 2026-10-18 kept) (69 words) [t74a_fat3], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 74) | his Finding a Therapist P4 (119 words) [t74a_fat4], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 74) | his Finding a Therapist P5 (65 words) [t74a_fat5], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 74) | Before You Try to Go Deep as he pasted it (3789 words) [t74a_h1bg], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 74) | his new h1, Finding a Therapist to Borrow Adulthood (367 words) [t74a_h1fat], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 74) | the Appendix without the three therapist paragraphs, with his unburdening cut and Related Clinical Work as an h2 (994 words) [t74a_h1app], a screen | Human, low (my call) | (pending) | |
