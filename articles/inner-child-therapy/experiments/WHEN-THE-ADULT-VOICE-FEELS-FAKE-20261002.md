@@ -990,3 +990,9 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 ### Next
 
 1. His answer to 63.
+
+## Turn 75 (2026-10-19, from 00:26 UTC): 63, A
+
+- **His message:** "63a" (`t75-answers/JOEL-20261019-0026.md`).
+- **In:** the sentence for the guide's suggestion and dissociation points in Finding a Therapist to Borrow Adulthood P4 (round t75a: the section 0.00037, high).
+- **Open:** nothing; the innerSignalGraph queue waits (his 58, B).

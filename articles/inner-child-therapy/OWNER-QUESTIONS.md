@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-19 (turn 74). **One open question, 63**: what the three therapist paragraphs said that your new Finding a Therapist to Borrow Adulthood doesn't. Your answers of 00:08 UTC are in Decided. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-19 (turn 75). **No open questions.** Your answer of 00:26 UTC is in Decided, and everything you've asked for is in the article. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,32 +8,30 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 63. What the three therapist paragraphs said that your new section doesn't
-
-Your Finding a Therapist to Borrow Adulthood is in, word for word, and the three Appendix paragraphs it replaces are out. Three points in them aren't anywhere else in the article now:
-1. **From your guide's IFS paragraph** (How This Relates to IFS P8): look for an IFS therapist who's trauma-informed, doesn't put ideas in your head, and understands dissociation. For your little one's pain, or for shame, attachment wounds, abandoning yourself, or having no inner adult you can count on, a good reparenting therapist may fit better.
-2. **From my schema P3** (the research's questions): ask whether they really do the reparenting and then hand it over to you; whether they take a no to imagery or the empty chair, or call it "avoidance"; and whether they help with what's wrong in your life right now first.
-3. **From your Teachers P3**: "3x more on that page for NYC than via Open Path search when I checked", and the Somatic Therapies Guide as "the same map as in Your Body Might Need Some Love First".
-- **A. Add one sentence to your P4** for the safety part of 1: "I'd also want one who doesn't put ideas in your head, and who understands dissociation." I'd pick this. The article warns about planted memories with photos and dreams, and your guide names suggestion and dissociation in this exact spot.
-- **B. Leave it as it is.**
-- **C. Your words**, or any of the others back.
+None right now.
 
 ## For you to do (no decision needed)
 
 ### 🟠 The pull request, whenever you like
 
-You merged #192 and #193. This turn is in [#194](https://github.com/u-dont-existDOTcom/joel-articles/pull/194). Merging it is yours.
+You merged #194. This turn is in [#195](https://github.com/u-dont-existDOTcom/joel-articles/pull/195). Merging it is yours.
 
 ## Coming up
 
 ### 🔵 Next turn
 
-- **Your answer to 63.** Everything else you've asked for is in.
+- Whatever you'd like next. From your earlier answers, only the innerSignalGraph queue (58, B: not yet) is waiting.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-19 00:26 UTC
+
+Your message, word for word: [experiments/t75-answers/JOEL-20261019-0026.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/501d00d71f906bcc4a789bae350959aa5ea58fd8/articles/inner-child-therapy/experiments/t75-answers/JOEL-20261019-0026.md).
+- **63, A**: Finding a Therapist to Borrow Adulthood P4 has the sentence now, right after your spiritual-experiences sentence: "I'd also want one who doesn't put ideas in your head, and who understands dissociation." The rest of P4 is yours, word for word ([P4 alone Human Written 0.022](https://www.pangram.com/history/f41601f7-d9bc-4575-a731-1baaf677279f); [the section 0.00037, high](https://www.pangram.com/history/4aa96771-0baf-4f97-8d71-838af7500b2f)).
+- You merged [#194](https://github.com/u-dont-existDOTcom/joel-articles/pull/194). This turn is in [#195](https://github.com/u-dont-existDOTcom/joel-articles/pull/195).
 
 ### 🟢 2026-10-19 00:08 UTC
 
