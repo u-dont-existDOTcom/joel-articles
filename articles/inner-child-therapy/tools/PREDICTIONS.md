@@ -3156,3 +3156,12 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-19 (turn 76) | PGQ-030 with the real-danger point and whatever happened last time, alone (67 words) [t76h_lomedj], a screen | Human, low (my call) | Human Written (0.22, Low; 70); 02:07:42 UTC, https://www.pangram.com/history/1af9e25e-6866-467a-975b-37a3717e7e03 | hit |
 | 2026-10-19 (turn 76) | Before You Try to Go Deep with lo-med-i (3854 words) [t76h_h1byi], a screen | Human, low (my call) | Mostly Human Written (0.097; 4090), 4 windows: AI-Generated 95 words (Medium); 02:07:46 UTC, https://www.pangram.com/history/949e963e-14b9-48e5-81d6-8f09333cbeee | hit |
 | 2026-10-19 (turn 76) | Before You Try to Go Deep with lo-med-j (3856 words) [t76h_h1byj], a screen | Human, low (my call) | Mostly Human Written (0.094; 4093), 4 windows: AI-Generated 95 words (Medium); 02:07:36 UTC, https://www.pangram.com/history/cc1f5dd6-9bf0-4797-a956-3ddc0c49c8da | hit |
+| 2026-10-19 (turn 76) | PGQ-027 with the cold read's fixes, alone (121 words) [t76i_ue27h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-029 with the cold read's fixes, alone (102 words) [t76i_ue29c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-032 with the cold read's fix, alone (80 words) [t76i_as4bg], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-028 with the cold read's fixes, alone (90 words) [t76i_ba3f], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | When the Adult Voice Feels Fake with the cold read's fixes (4429 words) [t76i_h1wa], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Altered States Can Deepen the Therapy with the cold read's fixes (1421 words) [t76i_h1as], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Borrowed Adulthood in Relationship with the cold read's fixes (286 words) [t76i_h1ba], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Building Trust With Your Little One with the cold read's fixes (2351 words) [t76i_h1bt], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Not Every Hero Wears A Cape with the cold read's fixes (582 words) [t76i_h2he], a screen | Human, low (my call) | (pending) | |
