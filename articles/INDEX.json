@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "3d3f9649d245e5d6010c4cb5bfb8ae04714629c13d4c0e8a1c34be1ac32cd957",
+          "sha256": "1ae8aec47c60966bcf772317a4c566dc73d3098b927a1464d3490f39fbd55ada",
           "role": "detector_prediction_log"
         },
         {
@@ -22274,7 +22274,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t76-guide/MARCH.json",
-          "sha256": "27a0849a55eb021cc18941ee19d8e7818637023d3a2231e9cf3ad414918ecdce",
+          "sha256": "d69f6d78db04fd56787da0e7a83f075d7584ad8fcc2910080aea56c6c4a5a586",
           "role": "humanization_working_record"
         },
         {
@@ -22384,7 +22384,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t76-guide/installs76.py",
-          "sha256": "d7659d08730bf412dd3816353db7bc58828fa6c15f1d7e6a2120748ea8f79836",
+          "sha256": "46f00104f848db21b1f2338115d51d02a4a2b07bbdffc250844a34f8a1f46ca7",
           "role": "humanization_working_record"
         },
         {
@@ -22700,6 +22700,61 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-e.js",
           "sha256": "9c91111b0b9b5a8fbf02aef961463e9fe1793ba0ea064e64a1324183cbe3db19",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/REVIEWS.md",
+          "sha256": "4b1e14ae4e1b128d7afd439df671e8c5481e0ef8e391729c01d256e13f272ae6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/SPEC-f.json",
+          "sha256": "9ab15eeb1f8cfd83be90506c4a9a428055512eba147cefcbc02d27f006ffecf3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/TRACE-PGQ-r12.md",
+          "sha256": "5aed626208f0500451f5cd0079f4dc3d4133cdc99d9cbdb57d76d9ff41344c7e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/drafts/lo-share1-j.txt",
+          "sha256": "49469b9adf46dc889ebaee712ebf1ab1d53ea05f91737f8a7a51f02e030200f0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/drafts/lo-share2-i.txt",
+          "sha256": "c783687104d5e2e65e3b0e298b07e8fa9b8d3b76d57866f7fd12461395acef33",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/drafts/ue27-e.txt",
+          "sha256": "ec24c3c186c246b04203dbeb8696ec73ee73257baf1e4101a97a4ab3573072d4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/drafts/ue27-f.txt",
+          "sha256": "aff611a60522fd1850ceab3a7609e4c520514846dd64d318674434934564ccbd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-f-drafts.json",
+          "sha256": "bb03eb09df13224d78918587b39f234421316cbc47f69d82ea3464507385a18b",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-f-gate.json",
+          "sha256": "f1d18e4a2b2057532f1df15cbbd506c682c01bd9382ef9fddcdaaa3e805e9c70",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-f-read.js",
+          "sha256": "b1929165a4f36a503e2429124a76019b279f4de47d4466862b7f21bad8cfb909",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-f.js",
+          "sha256": "b871eb68163187eff9225ebd09ac28de821b2ebb9f962bbe8555ffd9b8a449b8",
           "role": "detector_check_texts"
         }
       ]

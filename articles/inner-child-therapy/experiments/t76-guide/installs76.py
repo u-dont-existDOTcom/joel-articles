@@ -19,8 +19,8 @@ BA3 = os.environ.get('BA3', 'ba3-e')
 AS4B = os.environ.get('AS4B', 'as4b-f')
 AG5B = os.environ.get('AG5B', 'ag5b-c')
 LOMED = os.environ.get('LOMED', 'lo-med-g')
-LOSH1 = os.environ.get('LOSH1', 'lo-share1-i')
-LOSH2 = os.environ.get('LOSH2', 'lo-share2-h')
+LOSH1 = os.environ.get('LOSH1', 'lo-share1-j')
+LOSH2 = os.environ.get('LOSH2', 'lo-share2-i')
 
 after("Say they're the one who always remembers your appointments.", 'ba3',
       "PGQ-028 (support isn't a shortcut to romance), from %s: a paragraph of mine after his P2, so at the end of the h1 rather than right after P1 as the queue has it, since his P2's \"Say they're the one\" points back at P1's one person. experiments/t76-guide/drafts/%s.txt. @@BA3@@" % (Q76, BA3), BA3)
@@ -28,7 +28,7 @@ after('Jack Kornfield has a whole book on what comes next', 'as4b',
       "PGQ-032 (a drug peak that changes nothing; his example of 2026-10-14 23:26 UTC), from %s: a paragraph of mine right after the beautiful-state paragraph, where the queue has it, with no public figure named (question 64). experiments/t76-guide/drafts/%s.txt. @@AS4B@@" % (Q76, AS4B), AS4B)
 after('Of course, that’s not to say you should not try to suffer less.', 'ag5b',
       "PGQ-033 (\"if only I had X\"), from %s: a short paragraph of mine after his P5, next to his gratitude part as the queue has it; the survey he remembered isn't cited, since no source has turned up (question 65). experiments/t76-guide/drafts/%s.txt. @@AG5B@@" % (Q76, AG5B), AG5B)
-UE27 = os.environ.get('UE27', 'ue27-d')
+UE27 = os.environ.get('UE27', 'ue27-f')
 UE29 = os.environ.get('UE29', 'ue29-b')
 EMBED = '<!-- Native YouTube embed from source, unchanged: Garchen Rinpoche chanting Om Mane Pemme Hum'
 register('ue2', lambda: para(EMBED),
