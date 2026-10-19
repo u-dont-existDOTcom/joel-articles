@@ -18,9 +18,9 @@ def after(start, name, text, stem):
 BA3 = os.environ.get('BA3', 'ba3-e')
 AS4B = os.environ.get('AS4B', 'as4b-f')
 AG5B = os.environ.get('AG5B', 'ag5b-c')
-LOMED = os.environ.get('LOMED', 'lo-med-f')
-LOSH1 = os.environ.get('LOSH1', 'lo-share1-f')
-LOSH2 = os.environ.get('LOSH2', 'lo-share2-f')
+LOMED = os.environ.get('LOMED', 'lo-med-g')
+LOSH1 = os.environ.get('LOSH1', 'lo-share1-h')
+LOSH2 = os.environ.get('LOSH2', 'lo-share2-g')
 
 after("Say they're the one who always remembers your appointments.", 'ba3',
       "PGQ-028 (support isn't a shortcut to romance), from %s: a paragraph of mine after his P2, so at the end of the h1 rather than right after P1 as the queue has it, since his P2's \"Say they're the one\" points back at P1's one person. experiments/t76-guide/drafts/%s.txt. @@BA3@@" % (Q76, BA3), BA3)
@@ -28,7 +28,7 @@ after('Jack Kornfield has a whole book on what comes next', 'as4b',
       "PGQ-032 (a drug peak that changes nothing; his example of 2026-10-14 23:26 UTC), from %s: a paragraph of mine right after the beautiful-state paragraph, where the queue has it, with no public figure named (question 64). experiments/t76-guide/drafts/%s.txt. @@AS4B@@" % (Q76, AS4B), AS4B)
 after('Of course, that’s not to say you should not try to suffer less.', 'ag5b',
       "PGQ-033 (\"if only I had X\"), from %s: a short paragraph of mine after his P5, next to his gratitude part as the queue has it; the survey he remembered isn't cited, since no source has turned up (question 65). experiments/t76-guide/drafts/%s.txt. @@AG5B@@" % (Q76, AG5B), AG5B)
-UE27 = os.environ.get('UE27', 'ue27-b')
+UE27 = os.environ.get('UE27', 'ue27-c')
 UE29 = os.environ.get('UE29', 'ue29-b')
 EMBED = '<!-- Native YouTube embed from source, unchanged: Garchen Rinpoche chanting Om Mane Pemme Hum'
 register('ue2', lambda: para(EMBED),
@@ -42,10 +42,9 @@ register('lo', lambda: para("And reaching out doesn't mean telling strangers eve
                   + note("PGQ-039 (before sharing something legally or personally sensitive), from %s and the passage drafted in innerSignalGraph issue #180: two paragraphs of mine after PGQ-030's, merged with it and with PGQ-003 rather than repeating them, as the queue asks. No law or country is named; legal review before publishing is question 67. experiments/t76-guide/drafts/%s.txt and %s.txt. @@LOSH@@" % (Q76, LOSH1, LOSH2)) + draft(LOSH1) + '\n\n' + draft(LOSH2))
          if para("And reaching out doesn't mean telling strangers everything.") else None)
 
-CS57 = os.environ.get('CS57', 'cs57-e')
-HERO6 = os.environ.get('HERO6', 'hero6-d')
-register('cs57', lambda: para("Whichever stage you're at, saying the right thing"),
-         lambda: note("PGQ-037 (reparenting isn't an exercise), from %s: two sentences of mine at the end of my PGQ-012 paragraph, since the queue's place (after the guide's \"Reparenting begins when the present-day person occupies an adult position\") isn't in the article; this paragraph already says the session isn't enough, as the queue asks when PGQ-012 is in. experiments/t76-guide/drafts/%s.txt. @@CS57@@" % (Q76, CS57)) + draft(CS57)
-         if para("Whichever stage you're at, saying the right thing") else None)
+HERO6 = os.environ.get('HERO6', 'hero6-e')
+CS57X = os.environ.get('CS57X', 'cs57x-a')
+after("Whichever stage you're at, saying the right thing", 'cs57',
+      "PGQ-037 (reparenting isn't an exercise), from %s: a short paragraph of mine after my PGQ-012 paragraph, since the queue's place (after the guide's \"Reparenting begins when the present-day person occupies an adult position\") isn't in the article, and three versions of these sentences inside the PGQ-012 paragraph made it read AI alone (rounds t76a to t76c). The queue asks for one or two sentences; at 42 words it's under the gate's 50, so its check is the h1's. experiments/t76-guide/drafts/%s.txt. @@CS57@@" % (Q76, CS57X), CS57X)
 after('After the day, look at what actually happened.', 'hero6',
-      "PGQ-038 (keeping yourself safe is part of the work), from %s: a paragraph of mine at the end of this h2, since the queue's place, right after \"Warmth can come later.\", is inside P3 here, and P4 picks up P3's last word; it keeps the guide's \"if that way of putting it fits you\" (Also Look Outward). experiments/t76-guide/drafts/%s.txt. @@HERO6@@" % (Q76, HERO6), HERO6)
+      "PGQ-038 (keeping yourself safe is part of the work), from %s: a short paragraph of mine at the end of this h2, since the queue's place, right after \"Warmth can come later.\", is inside P3 here, and P4 picks up P3's last word; it keeps the guide's permission not to call it reparenting (\"if you like seeing it that way\"). The queue asks for one or two sentences; at 49 words it's under the gate's 50, so its check is the h2's and the h1's; four longer versions read AI alone (rounds t76a to t76c). experiments/t76-guide/drafts/%s.txt. @@HERO6@@" % (Q76, HERO6), HERO6)
