@@ -3150,3 +3150,5 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-19 (turn 76) | PGQ-039 P2 v6 (shorter, ask first), alone (96 words) [t76f_losh2i], a screen | Human, low (my call) | (pending) | |
 | 2026-10-19 (turn 76) | When the Adult Voice Feels Fake with PGQ-027 v6 and PGQ-029 (4422 words) [t76f_h1wa], a screen | Human, low (my call) | (pending) | |
 | 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 and PGQ-039 v6 (4078 words) [t76f_h1by], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-030 short with the guide's real-danger point (the grounding's MUST), alone (63 words) [t76g_lomedh], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 (lo-med-h) only (3852 words) [t76g_h1by30], a screen | Human, low (my call) | (pending) | |

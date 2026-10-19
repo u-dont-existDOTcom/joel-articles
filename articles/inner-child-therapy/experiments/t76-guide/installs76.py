@@ -18,7 +18,7 @@ def after(start, name, text, stem):
 BA3 = os.environ.get('BA3', 'ba3-e')
 AS4B = os.environ.get('AS4B', 'as4b-f')
 AG5B = os.environ.get('AG5B', 'ag5b-c')
-LOMED = os.environ.get('LOMED', 'lo-med-g')
+LOMED = os.environ.get('LOMED', 'lo-med-h')
 LOSH1 = os.environ.get('LOSH1', 'lo-share1-j')
 LOSH2 = os.environ.get('LOSH2', 'lo-share2-i')
 
