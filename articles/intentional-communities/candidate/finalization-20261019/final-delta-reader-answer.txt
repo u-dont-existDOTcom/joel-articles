@@ -1,0 +1,14 @@
+{
+  "confirmed_defects": [],
+  "scope": {
+    "review": "Targeted final delta read of the supplied chapter.",
+    "sequence": "Values → finding people/visits → practice → capacity → staged membership is coherent.",
+    "references": "No genuinely broken textual references confirmed. Conversational wording has understandable referents.",
+    "forward_pointer": "Matches the supplied order: Technosphere; Jealousy; Grown Children; Money, Land, and Shared Resources; Founderism. The later exit section is separately and correctly named."
+  },
+  "limits": [
+    "No complete-article or cross-family review performed.",
+    "Native objects, link destinations, later chapter contents, and owner claims were not verified.",
+    "No tools used; the canonical repository bootstrap was not performed."
+  ]
+}

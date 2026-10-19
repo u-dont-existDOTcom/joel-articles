@@ -44,7 +44,7 @@ Before substantial drafting or editing, record the primary reader's role, expect
 
 ## Developmental edit or major rewrite — P3/P4
 
-For article-wide deduplication, consolidation, streamlining or sequencing, see the **proposed execution workflow** in `../docs/EDITORIAL-DEDUP-EXECUTION.md`. It composes the existing gates and is submitted for owner review and behavioural evaluation; it is not a validated replacement or permission to broaden edit scope.
+For article-wide deduplication, consolidation, streamlining or sequencing, see the **owner-reviewed execution workflow (v0.2 refinements awaiting final approval)** in `../docs/EDITORIAL-DEDUP-EXECUTION.md`. It composes the existing gates and is submitted for owner review and behavioural evaluation; it is not a validated replacement or permission to broaden edit scope.
 
 - Request current raw editor HTML when links, media, captions, native objects, paywalls, heading hierarchy, and formatting must survive. Extract the editor body only; exclude publication chrome.
 - Track source wording/object, meaning and rhetorical function, required context, attribution, and destination separately.

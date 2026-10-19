@@ -1,0 +1,82 @@
+{
+  "source_sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7",
+  "candidate_sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+  "owner_answers_sha256": "a9139d734659a4fe2ef9f4a62538cae13c83f29a20aa9a42b18245fe91cb926c",
+  "format": "joel-two-site-boundary-audit-v1",
+  "moves": {
+    "M01": {
+      "old_location": "After the children’s chapter",
+      "new_location": "Immediately after the Zapatista example",
+      "disposition": "Medicine opens with the author’s actual reason for including it, followed by preparation. The legal survey is retained under Legality and Public Practice. The informal-shaman paragraph points forward to the Founderism questions.",
+      "consecutive_read": "PASS, direct literal article review; a judgment, not proof from headings"
+    },
+    "M02": {
+      "old_location": "Activities and conflict first, then finding people, then values",
+      "new_location": "Values → people and visits → shared practice → readiness → staged membership",
+      "disposition": "Added Practice Before Committing as a small orientation heading. Kept the conflict test and its next-paragraph referents adjacent.",
+      "consecutive_read": "PASS, direct literal article review; a judgment, not proof from headings"
+    },
+    "M03": {
+      "old_location": "A separate late absorption chapter followed by its membership subsection",
+      "new_location": "Two linked subsections within Practicing Community",
+      "disposition": "Added a short pointer at the end of the practice chapter to the later commitments and exit terms. Preserved optional medicine, care exceptions and the warning about capacity becoming elitism.",
+      "consecutive_read": "PASS, direct literal article review; a judgment, not proof from headings"
+    },
+    "M04": {
+      "old_location": "Leaving and dissolution preceded technology, relationships, children and medicine",
+      "new_location": "Technology → relationships → children → property/money → governance → leaving",
+      "disposition": "Property points directly to the Founderism test and named exit section. The practice chapter also names the later exit agreement.",
+      "consecutive_read": "PASS, direct literal article review; a judgment, not proof from headings"
+    },
+    "M05": {
+      "old_location": "Founderism followed by Movement",
+      "new_location": "Same adjacency, after material commitments",
+      "disposition": "No extra chapter is inserted between Founderism and Movement. The owner’s earlier-approved informal-founder wording is left intact.",
+      "consecutive_read": "PASS, direct literal article review; a judgment, not proof from headings"
+    },
+    "M06": {
+      "old_location": "Skipped overview levels, money inside practice, book categories at the wrong level",
+      "new_location": "Model components under their overview; money its own chapter; book categories beneath Books and Papers",
+      "disposition": "Removed only the stray 3: from the full medicine chapter, not the numbered model overview.",
+      "consecutive_read": "PASS, direct literal article review; a judgment, not proof from headings"
+    }
+  },
+  "pointers": [
+    {
+      "id": "P01",
+      "from": "T073",
+      "to": "T267",
+      "required_text": "“The Medicine Part” section below",
+      "direction": "forward"
+    },
+    {
+      "id": "P02",
+      "from": "T290",
+      "to": "T135",
+      "required_text": "The four questions in “Founderism” below apply to these roles too.",
+      "direction": "forward"
+    },
+    {
+      "id": "P03",
+      "from": "N003",
+      "to": "T193",
+      "required_text": "The exit terms in “Leaving, Removal, and Dissolution”",
+      "direction": "forward"
+    },
+    {
+      "id": "P04",
+      "from": "T127",
+      "to": "T135",
+      "required_text": "Read the founderism questions next",
+      "direction": "forward"
+    },
+    {
+      "id": "P05",
+      "from": "T127",
+      "to": "T193",
+      "required_text": "“Leaving, Removal, and Dissolution” before anyone commits.",
+      "direction": "forward"
+    }
+  ],
+  "preserved_rejected_flag": "The original informal-founder phrase “as I’m describing may happen in my case” remains unchanged; earlier owner rejection is not reopened."
+}

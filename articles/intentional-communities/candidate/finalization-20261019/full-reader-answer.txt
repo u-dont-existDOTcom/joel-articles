@@ -1,0 +1,157 @@
+{
+  "input_timestamp": "2026-10-19T19:57:23.339Z",
+  "timestamp_basis": "Owner-answer export time; current clock time was not checked.",
+  "verdict": {
+    "status": "Substantive preservation supported; owner route choices remain.",
+    "preservation": "No material loss of the source’s claims, experiences, examples or qualifications identified. The legal discussion was relocated, not discarded. Removing the sentence announcing an honest discussion of benefits and risks does not remove that discussion.",
+    "owner_answer_alignment": [
+      "The isolated “3:” was removed from the medicine heading.",
+      "Membership commitments precede leaving and dissolution.",
+      "Absorption now follows the practice-and-values material.",
+      "The founderism/cult discussion remains followed by movement-building, reasonably preserving the owner’s requested problem-and-antidote relationship.",
+      "An early reference to the later founderism questions was added."
+    ],
+    "authorization": "Diagnostic only. No edits are authorized by this review."
+  },
+  "confirmed_defects": [
+    {
+      "id": "D1",
+      "type": "Inherited broken title reference",
+      "source_quotes": [
+        "The New Age May Dawn Suddenly",
+        "That’s where the\nescuelita\nin my title comes in."
+      ],
+      "candidate_quotes": [
+        "The New Age May Dawn Suddenly",
+        "That’s where the\nescuelita\nin my title comes in."
+      ],
+      "diagnosis": "The supplied title does not contain “escuelita.” This is an actual missing referent in both supplied texts, not damage introduced by resequencing.",
+      "smallest_repair": "Delete “in my title,” unless an additional title or subtitle containing the word exists outside the supplied text."
+    }
+  ],
+  "remaining_overcompletion_choices": [
+    {
+      "id": "O1",
+      "location": "From One Community to a Movement",
+      "source_and_candidate_quote": "Whenever a community or a federation creates or applies a rule, it’s best practice to store the full case history (with private details protected) so it can be re-evaluated in future",
+      "additional_source_and_candidate_quote": "When the rule changes because of a new case, run the old case through again to see how it would turn out.",
+      "owner_choice": "Should this cover every rule application, or consequential and disputed cases?",
+      "reason": "“Whenever” commits the model to potentially extensive recording and retrospective review even for routine decisions. The preservation of institutional memory has a clear purpose; its universal scope remains a real design choice.",
+      "options": [
+        "Keep the universal requirement and its workload.",
+        "Authorize a narrower scope while retaining precedent, dissent and retrospective review."
+      ]
+    },
+    {
+      "id": "O2",
+      "location": "Legality and Public Practice",
+      "source_and_candidate_quotes": [
+        "Most of the writing on communities hasn’t caught up with psychedelics.",
+        "All of which means the legality of psychedelics varies by country and by state. It varies by substance, too."
+      ],
+      "owner_choice": "Does the article need the complete jurisdiction-by-jurisdiction survey, or should some examples live in the research report?",
+      "reason": "The examples distinguish regulated access, withheld approval and decriminalization. That distinction serves the argument. Whether every example needs to interrupt the community-design discussion remains an editorial choice.",
+      "options": [
+        "Keep the complete survey for specificity.",
+        "Authorize selective compression while preserving the legal distinctions and local-advice conclusion."
+      ]
+    }
+  ],
+  "remaining_reading_route_choices": [
+    {
+      "id": "R1",
+      "candidate_quotes": [
+        "Before making long-term commitments, work through the choices below about technology, relationships, children, money, and founder power.",
+        "“From Visitor to Member—Slowly” then sets out the steps into membership."
+      ],
+      "assessment": "This accurately signposts the candidate’s order. However, absorption and staged membership are separated by the policy sections, founderism, movement-building and experimentation.",
+      "owner_choice": "Keep the complete design-before-membership route, or place staged membership beside absorption as the next practical step?",
+      "tradeoff": "The current order establishes commitments before formal membership. Adjacency would better connect personal fit to correspondence, visits and gradually assumed responsibility. The owner’s tentative wording and invitation to alternatives do not establish a confirmed violation."
+    },
+    {
+      "id": "R2",
+      "candidate_quotes": [
+        "Go visit some real\nintentional communities",
+        "Bring your values with you when you go to visit a community."
+      ],
+      "assessment": "The values screen still arrives after the invitation to visit, with practice instructions between them.",
+      "owner_choice": "For a route organized around successive life decisions, should values preparation precede the visiting advice?",
+      "tradeoff": "Earlier values preparation supplies a useful filter before attraction to a place. The current order starts with discovery and then reflection. This is a sequencing choice, not a broken reference or instruction that readers must act before finishing the article."
+    }
+  ],
+  "strongest_alternative_route": {
+    "audience_assumption": "Readers attracted by the distinctive healing model who also need a practical path toward community.",
+    "sequence": [
+      {
+        "stage": "Existing opening through the Zapatistas",
+        "purpose": "Establish experience, the problem, the proposed model and a substantial example."
+      },
+      {
+        "stage": "The Medicine Part",
+        "purpose": "Retain the candidate’s early presentation of the feature the owner identifies as a major draw, including its limits."
+      },
+      {
+        "stage": "Practicing Community: finding people → values preparation → visits and shared practice",
+        "purpose": "Connect available people and compatible values to experience before shared obligations."
+      },
+      {
+        "stage": "Absorption → From Visitor to Member—Slowly",
+        "purpose": "Connect capacity and fit directly to staged participation. Introducing the process does not require completing membership before reading the later agreements."
+      },
+      {
+        "stage": "Technology → relationships → children",
+        "purpose": "Work through compatibility in daily life."
+      },
+      {
+        "stage": "Money and land → Founderism → How My Own Model Could Become a Cult",
+        "purpose": "Examine material commitments and the power attached to them."
+      },
+      {
+        "stage": "From One Community to a Movement → Experiment Before You Split Off",
+        "purpose": "Keep the antidote beside the founderism discussion and explain supported differentiation."
+      },
+      {
+        "stage": "Leaving, Removal, and Dissolution",
+        "purpose": "Complete the terms that must be understood before lasting commitments."
+      },
+      {
+        "stage": "Sénégal → A Hope For Humanity → appendix",
+        "purpose": "Broaden the perspective, return to the personal invitation and provide further reading."
+      }
+    ],
+    "why_prefer_it": "It retains the distinctive early medicine discussion while tightening two practical dependencies: values before visits, and capacity beside staged membership.",
+    "cost": "Membership procedures would precede the detailed financial and governance agreements they depend on. A forward reference must make those later agreements prerequisites to full commitment.",
+    "reference_adjustments": [
+      "Move the candidate’s precommitment warning to the end of the membership discussion and remove its now-inaccurate promise that membership comes after the policy sections.",
+      "Retain the early founderism reference and the money section’s reference to exit terms.",
+      "The medicine overview’s “below” reference and the medicine section’s founderism “below” reference would remain correct."
+    ],
+    "status": "Alternative for owner consideration, not an authorized reorganization."
+  },
+  "reference_checks": [
+    {
+      "quote": "I’ll go more in detail on this in “The Medicine Part” section below.",
+      "result": "Valid in the candidate."
+    },
+    {
+      "quote": "The four questions in “Founderism” below apply to these roles too.",
+      "result": "Valid and useful after the medicine section’s relocation."
+    },
+    {
+      "quote": "Read the founderism questions next",
+      "result": "Ordinary conversational direction toward an upcoming discussion. The intervening “Moving Beyond Money” subsection does not establish a material broken reference."
+    },
+    {
+      "quote": "Practice group of whom?",
+      "result": "An intelligible rhetorical question despite preceding the explicit naming of a practice group. No repair is required merely for that order."
+    }
+  ],
+  "review_limitations": [
+    "Reviewed the complete supplied source, candidate and owner answers without tools or file access.",
+    "The earlier repository bootstrap was not performed because this request expressly prohibits tools and external input.",
+    "Hashes were not independently verified. The underlying E01–E22 findings and guideline text were not supplied, so their “Keep” decisions cannot establish permission for specific unidentified edits.",
+    "Image contents, embedded objects, actual hyperlinks and rendered heading hierarchy cannot be verified from placeholders and plain text.",
+    "No companion interactive diagram, clipboard helper or producer explanation was supplied; their delivery and quality cannot be assessed.",
+    "No factual, ideological, detector or authorship assessment was performed."
+  ]
+}

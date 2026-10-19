@@ -1,0 +1,38 @@
+from pathlib import Path
+import json,hashlib
+B=Path(__file__).resolve().parent;L=json.loads((B/'ASSEMBLY-LEDGER.json').read_text());M=json.loads((B/'STRUCTURE-MAP.json').read_text())
+ids={k:L[k] for k in ['source_sha256','candidate_sha256','owner_answers_sha256']}
+review={**ids,'format':'joel-editorial-reviewed-assembly-v1','status':'PASS_WITH_OWNER_CHOICES','scope':'Source preservation and whole-article route reviewed on the first r03 assembly; the final practice-route changes received a separate fresh targeted read. Producer performed a complete assembled read and raw-object/link checks.','evidence':[{'role':'fresh source/candidate editorial reader','requested_model':'gpt-6.1-sol','effort':'xhigh','reviewed_candidate_sha256':'ad28d48caa7e052b9f5612bf529243a96a6278aa0f829e3f1c89df5aa8268e97','result':'No material source loss identified; two reader-route opportunities and one title-field query.','input_scope':'Complete source and candidate normalized prose with native-object placeholders, exact owner answers; no producer rationale.'},{'role':'fresh targeted final-delta reader','requested_model':'gpt-6.1-sol','effort':'high','reviewed_candidate_sha256':L['candidate_sha256'],'input_sha256':'a02fea3519d9bce656f8f7ddc776a37370dfc1237f7b8c17a8cd29a7604b3642','result':'No confirmed defects; practice sequence coherent; final forward pointer matches later headings.','input_scope':'Final practice chapter and later heading order only; no producer rationale.'}],'reconciliation':{'title_field':'The reader treated the first editor-body heading as the publication title. The raw editor export does not include a separate title field; its absence cannot establish the owner’s title reference is wrong. No edit or renewed flag.','values_before_visits':'Implemented in final assembly.','capacity_next_to_membership':'Implemented in final assembly, with later commitments named as prerequisites.','later_scope_choices':'Legal and dissolution details remain intact pending optional owner decisions.'},'unresolved_blocking_findings':[],'owner_choices':['Q1','Q2'],'limitations':['Fresh contexts are not cross-family corroboration; the Claude route returned a weekly-allowance limit and did not produce a review.','The second reader checked only the final practice delta, not the whole article again.','Readers used prose with media placeholders; raw native identity and link counts are checked separately.','Model receipts do not prove semantic truth or reviewer identity.','No unsolicited article fact-check, Pangram retest, source-only replay or publication occurred.']}
+(B/'READ-REVIEW.json').write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n')
+audit={**ids,'format':'joel-two-site-boundary-audit-v1','moves':{},'pointers':[
+ {'id':'P01','from':'T073','to':'T267','required_text':'“The Medicine Part” section below','direction':'forward'},
+ {'id':'P02','from':'T290','to':'T135','required_text':'The four questions in “Founderism” below apply to these roles too.','direction':'forward'},
+ {'id':'P03','from':'N003','to':'T193','required_text':'The exit terms in “Leaving, Removal, and Dissolution”','direction':'forward'},
+ {'id':'P04','from':'T127','to':'T135','required_text':'Read the founderism questions next','direction':'forward'},
+ {'id':'P05','from':'T127','to':'T193','required_text':'“Leaving, Removal, and Dissolution” before anyone commits.','direction':'forward'}], 'preserved_rejected_flag':'The original informal-founder phrase “as I’m describing may happen in my case” remains unchanged; earlier owner rejection is not reopened.'}
+for m in M['moves']:audit['moves'][m['id']]={'old_location':m['from'],'new_location':m['to'],'disposition':' '.join(m['repairs']),'consecutive_read':'PASS, direct literal article review; a judgment, not proof from headings'}
+(B/'BOUNDARY-AUDIT.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
+(B/'CLUSTER-INVENTORY.json').write_text(json.dumps({'format':'joel-editorial-cluster-inventory-v1','source_sha256':ids['source_sha256'],'clusters':{c['id']:c['occurrences'] for c in M['clusters']},'scope':'All named material clusters in this finalization; completeness of discovery remains an editorial judgment.'},ensure_ascii=False,indent=2)+'\n')
+c={**ids,'format':'joel-editorial-gate-contract-v1','task_id':'community-r03','source_file':'Owner-Source-1454.html','candidate_file':'Community-Article-r03-candidate.html','answers_file':'OWNER-ANSWERS.json','owner_source_hash_field':'source_C_sha256','ledger_file':'ASSEMBLY-LEDGER.json','map_file':'STRUCTURE-MAP.json','review_file':'READ-REVIEW.json','boundary_audit_file':'BOUNDARY-AUDIT.json','cluster_inventory_file':'CLUSTER-INVENTORY.json','constraints':M['constraints'],'cluster_inventory_sha256':hashlib.sha256((B/'CLUSTER-INVENTORY.json').read_bytes()).hexdigest(),'publication_authority':'NOT_GRANTED','review_status':'CANDIDATE_FOR_APPROVAL','transfer_receipt_file':'TRANSFER-RECEIPT.json','artifacts':[]}
+(B/'GATE-CONTRACT.json').write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
+lines=['# Changes and remaining choices — r03 candidate','','The owner’s 14:54 article is the comparison baseline. The new JSON answers control implementation. All changes remain reversible; there is no new publication or Pangram certification.','','## Structural changes']
+for m in M['moves']:
+ lines+=['',f"### {m['id']}. {m['title']}",f"**Before:** {m['from']}",f"**After:** {m['to']}",m['why'],f"**Tradeoff:** {m['cost']}",f"**Reference repairs:** {' '.join(m['repairs'])}"]
+lines+=['','## Wording changes','', 'The edits below are exact local deltas. All other source block wording is retained; native source objects are not reconstructed.']
+for e in L['edits']:
+ if e['kind']=='heading_level':continue
+ lines+=['',f"**{e['id']} · {e['block']} · {e['kind']}** — {e['reason']}"]
+ if 'old' in e:lines+=['Before: '+e['old'],'After: '+(e['new'] or '[sentence removed]')]
+ else:lines+=['Added: '+e['after_html']]
+lines+=['','## Two retained scope choices','',*[q['id']+': '+q['question']+' Current disposition: retained intact.' for q in M['questions']], '', 'A shorter article is not automatically a better article. This pass chiefly repairs organization after the owner’s substantial manual cuts; it does not use a word-reduction target.']
+(B/'CHANGELOG-r03.md').write_text('\n'.join(lines)+'\n')
+(B/'COMMENT-RESOLUTION-LEDGER.md').write_text('''# Owner-answer disposition
+
+- Guidelines, findings, crosswalk, research and the 22 teaching cases: accepted in the uploaded answers; retained as the basis of this revision, not offered again for scoring.
+- E11: the shared workflow now requires a concrete owner scope question when alleged overcompletion carries independent meaning. Q1 and Q2 demonstrate it; their passages remain intact.
+- E19: removed the isolated 3: from the full medicine heading; retained the four numbered overview components. Medicine moves early as a distinctive draw, not as an instruction to perform it early.
+- Sequence revision: values before visits, readiness and membership under Practice, shared-life commitments before Leaving, Founderism immediately followed by Movement. Added bounded forward pointers and a synchronized interactive map.
+- Claude brief revision: replaced the generic execution-failure explanation with source-bound exposure/scope/completion diagnoses and an implemented artifact gate plus tested local service adapter. Hosted/global enforcement is not claimed.
+- Inner Child: unchanged. Source-only replay: not run. Final article/protocol approval: pending the owner’s review of this candidate.
+''')
+print('Evidence bundle written; source and candidate identities frozen')

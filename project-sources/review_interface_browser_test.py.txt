@@ -303,7 +303,7 @@ def run_browser_test(review: Path, article: Path | None, timeout_ms: int) -> dic
         # Selected-text comment and exact offsets.
         selection_result = select_text_and_open_comment(page, cell_one)
         selected_quote = selection_result["quote"]
-        quote_shown = page.locator("#commentQuote").inner_text()
+        quote_shown = page.locator("#commentQuote").text_content() or ""
         selected_comment = "selected-text comment — verbatim"
         page.locator("#commentText").fill(selected_comment)
         page.locator("#saveComment").click()

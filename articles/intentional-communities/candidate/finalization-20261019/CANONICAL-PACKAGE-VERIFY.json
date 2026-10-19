@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "article_members": [
+    "article/Community-Article-r03-candidate.html"
+  ],
+  "review_members": [
+    "review/Full-Article-r03.html",
+    "review/Side-by-Side-r03.html"
+  ],
+  "review_count": 2,
+  "view_modes": [
+    "full-draft",
+    "comparison"
+  ],
+  "package": "/home/joel/.cache/article-finalization-20261019/delivery/Canonical-Review-Package.zip",
+  "package_sha256": "7eadee95bbc36b31f3dcab33cc4a2eb56b54ccd3032940b23e02965e729dbc1d"
+}

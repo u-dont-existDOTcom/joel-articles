@@ -1,6 +1,6 @@
-# Structural deduplication and sequencing — execution draft v0.1
+# Structural deduplication and sequencing — execution v0.2 candidate
 
-Status: proposed shared workflow for owner review and a source-only replay; not evidence of improved editing performance. Owner request: 2026-10-19, Intentional Communities comparison. This file adds execution steps to the existing rules; it does not replace preservation, source authority, voice, scope, media, or publication controls.
+Status: the v0.1 principles were accepted in Joel’s 2026-10-19 owner-review answers. This v0.2 candidate incorporates his scope, sequencing, visual-review and enforcement corrections and awaits final approval. Neither approval of the rules nor a passing package check establishes improved editing performance. Owner request: 2026-10-19, Intentional Communities comparison. This file adds execution steps to the existing rules; it does not replace preservation, source authority, voice, scope, media, or publication controls.
 
 ## Trigger and objective
 
@@ -23,6 +23,8 @@ Gather all passages that answer the same reader question or perform substantiall
 - the exact passages to move, merge, shorten, retain or remove;
 - the surviving destination of each independent contribution.
 
+When overcompletion may contain an independent claim or procedure—especially in a draft built from AI research—ask the owner about the intended scope, using the exact passage and a specific retain/condense/relocate choice. AI origin is not deletion authority. Keep that content while the question is unresolved; do not turn every obvious duplicate into a new approval request.
+
 A paragraph containing one useful sentence need not survive whole. Move that sentence or qualification into the strongest surviving treatment. Prefer a genuinely integrated passage over concatenating all the old paragraphs below a new heading. A list of ten examples is not automatically ten independent points; preserve the distinctions and those examples that earn their space. An example with unique argumentative or personal value remains protected.
 
 ## 3. Test a whole-article route
@@ -30,6 +32,18 @@ A paragraph containing one useful sentence need not survive whole. Move that sen
 Read the reverse outline independently of the current order. Ask what the reader needs to understand, see, believe or be able to do before the next section. Distinguish a real prerequisite from an editorial preference. Consider where the strongest concrete example belongs, where practical action first becomes possible, and where the article changes between a person, one group and a wider movement.
 
 When the order is materially uncertain, or local trimming has failed to solve the same global problem, compare the retained order with at least one genuinely different source-supported route before more line editing. Choose the better route within the owner's authority; expose only material taste/meaning tradeoffs. Do not make every essay obey a fixed sequence such as problem→example→instructions. Do not postpone all useful action until a ceremonial conclusion by default.
+
+### Reader decisions, argument and conceptual order are different
+
+Map what a reader needs to decide, and what each section enables. Distinguish (a) a prerequisite to understanding the next passage, (b) a prerequisite to taking an action, (c) an argument–counterargument or problem–antidote pair, and (d) an optional cross-reference. A conceptual list is not automatically a chapter sequence, and reading about an activity early does not authorize doing it before its stated prerequisites. Keep a distinctive, owner-identified reason to read visible rather than burying it beneath generic process detail.
+
+When plausible routes compete, compare them on the actual audience, promise, decision progression, important adjacencies, reference burden and cognitive load. Use no invented numerical quality score. Resolve ordinary choices yourself; ask only when changing the audience, promise, position or scope would appropriate an authorial decision.
+
+### Keep the visual outline synchronized with the literal text
+
+For substantial resequencing advice or delivery, provide an interactive before/after diagram. It must show section and subsection purposes, meaningful dependencies, exact old/new locations, and the pros and cons of the selected route. Default to a readable overview; reveal connections when a section is selected instead of drawing every edge at once. Link a node to its actual text, not merely a remembered title.
+
+Generate the heading tree from the current candidate and maintain editorial purposes alongside stable source IDs. After each assembly, check the diagram against the literal headings, parents and passage locations. The map describes the prose; it must not become an obsolete outline or a compulsory sentence-writing template. An operation comment belongs to the move/consolidation relation shared by both sites.
 
 ## 4. Implement the smallest wording change that completes the chosen edit
 
@@ -55,7 +69,7 @@ A fidelity/media PASS does not mean the developmental task is complete. For ever
 
 Use the existing detector and transfer rules. Unchanged exact tested boundaries retain their evidence; altered wording, order, paragraphing or relevant neighboring context needs its own detector status. Never use detector anxiety to preserve a known editorial defect, and never say a reordered passage still passes without evidence.
 
-Deliver the current candidate, traceable old→new locations, important omissions/tradeoffs and any residual decisions. Use the canonical review/helper generators when those artifacts are due. Verify the delivered files themselves and give usable files, not repository navigation.
+Deliver the current candidate, traceable old→new locations, important omissions/tradeoffs and any residual decisions. Use the canonical review/helper generators when those artifacts are due. Verify the delivered files themselves and give usable files, not repository navigation. For this workflow, use the artifact-binding and delivery checks in `EDITORIAL-EXECUTION-ENFORCEMENT.md`. A successful fidelity or clipboard check cannot substitute for the explicit article-wide repetition and sequencing judgment.
 
 ## 8. Learn without leaking the answer into the test
 
@@ -69,4 +83,4 @@ Keep one compact receipt in the existing task state: source/authority; requested
 
 ## Basis and limits
 
-Composes `docs/MULTISCALE-EDITORIAL-LEDGER.md`, `project-sources/TASK-MODES.md`, `EDIT-CONTRACT-AND-LEDGERS.md` and `SKILL.md`. External professional guidance supports structural-before-stylistic editing, reverse outlining, reader-oriented organization and preservation of voice. Worked evidence: the article-local 2026-10-19 editorial-system case study. The proposed workflow is unvalidated until the replay and owner scoring are complete; do not add phrase bans or compulsory paragraph templates from this one example.
+Composes `docs/MULTISCALE-EDITORIAL-LEDGER.md`, `project-sources/TASK-MODES.md`, `EDIT-CONTRACT-AND-LEDGERS.md` and `SKILL.md`. External professional guidance supports structural-before-stylistic editing, reverse outlining, reader-oriented organization and preservation of voice. Worked evidence: the article-local 2026-10-19 editorial-system case study. The generalization of this workflow remains unvalidated until an appropriately isolated evaluation on other material; do not add phrase bans or compulsory paragraph templates from this one example.

@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "rows": 4,
+  "cells": 7,
+  "controls": [
+    "Keep",
+    "Remove",
+    "Brainstorm",
+    "Humor",
+    "Technical detail",
+    "Length",
+    "Bluntness",
+    "Copy JSON",
+    "Copy Markdown",
+    "Export JSON",
+    "Export Markdown"
+  ],
+  "changed_passages_only_rows": 2,
+  "contextual_rows": 4,
+  "full_draft_rows": 4,
+  "selection_snapshot": "exact quote and offsets captured before control focus clears selection",
+  "export_schema": "joel-commentable-diff-review-v4",
+  "generator_version": "4.3-context"
+}
