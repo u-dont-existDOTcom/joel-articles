@@ -3138,3 +3138,10 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-19 (turn 76) | Not Every Hero Wears A Cape with round d's versions (583 words) [t76d_h2he], a screen | Human, low (my call) | Human Written (0.094, High; 613); 01:52:14 UTC, https://www.pangram.com/history/b48c7893-905a-41a2-b09d-a0b594245c0e | hit |
 | 2026-10-19 (turn 76) | Before You Try to Go Deep with round d's versions (4101 words) [t76d_h1by], a screen | Human, low (my call) | Mostly Human Written (0.16; 4356), 6 windows: AI-Generated 239 words (High), AI-Generated 39 words (High); 01:52:06 UTC, https://www.pangram.com/history/9da6a9fa-6344-492f-b6b6-748bc738a221 | hit |
 | 2026-10-19 (turn 76) | Also Look Outward with round d's versions (1163 words) [t76d_h3lo], a screen | Human, low (my call) | AI Detected (0.3; 1251), 2 windows: AI-Generated 416 words (High); 01:51:53 UTC, https://www.pangram.com/history/3ead9761-4f62-4acc-9f84-d78233e3f621 | miss |
+| 2026-10-19 (turn 76) | PGQ-039 P1 v5 (round d's Human first part kept, its last 55 words rewritten), alone (147 words) [t76e_losh1i], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-039 P2 v5 (ask first), alone (134 words) [t76e_losh2h], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-027 v5 (shorter), alone (103 words) [t76e_ue27d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 and PGQ-039 v5 (4122 words) [t76e_h1by], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 only (3841 words) [t76e_h1by30], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Also Look Outward with PGQ-030 only (903 words) [t76e_h3lo30], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | When the Adult Voice Feels Fake with PGQ-027 v5 and PGQ-029 (4415 words) [t76e_h1wa], a screen | Human, low (my call) | (pending) | |
