@@ -62364,6 +62364,126 @@
           "path": "articles/intentional-communities/candidate/in-context/ic08-v6.json",
           "sha256": "f8f152b746747cdf49c520e4ad2be3a0d8e16d1e573b1d7413b0af0a3df9e432",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/A-READING-COPY.txt",
+          "sha256": "ec021320b24ece531d9e739bc865256b0baaf9780489d85a3d82e8fc51a654d8",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/B-READING-COPY.txt",
+          "sha256": "4ecb560efff2449f03a85b2432478b50964f93b5fa1a614ac0475316dff40a75",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/BROWSER-CONTROL-CHECK.json",
+          "sha256": "4f1e41adb73cd678997e70b501e3c1945a2b84a0db00f6ee4363a2c2fc153a6b",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/C-READING-COPY.txt",
+          "sha256": "08b8ad987365ba8129f5a39f6c36869680a67b49000876a4de70a4107c5ba53a",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/CLAUDE-CHANGE-BRIEF.md",
+          "sha256": "8c5e4fb498872b6c3ee6776131ba078a4aab91080d8d4724c4c18a6c531c8194",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/COMPARISON-AND-FAILURE-AUDIT.md",
+          "sha256": "f91c9a75446af2d6b3f6269d27129c27b9ac469f10dd2393ef0c90a719cf7717",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/EDITORIAL-DEDUP-EXECUTION-DRAFT.md",
+          "sha256": "3515846af957ae8810ab8d7fc8185c4d898ace964c421a9ae0ed67d6bc350ffc",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/EDITORIAL-RESEARCH.md",
+          "sha256": "2fbefa83ca1fb4a001b5f71878e60f45894e5cc63a39b0562ef28c4fcc375047",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/EXACT-COMPARISON-CASES.md",
+          "sha256": "d77f17daa20c328b2ac53a9728a90d67ec9c95a87c448837a826b981a8907ccd",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/Editing-Dedup-Guidelines.html",
+          "sha256": "1096ba944be99b9df033f33279e09fe0f80bb16423bea90d12fdc946af4eba87",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/Editing-System-Review.html",
+          "sha256": "aca11e6c07323002ac7f5e07279b9eaa6c57c7e463c254bbc13a64a3a9a7d662",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/INDEPENDENT-REPORT-CLAIM-AUDIT.json",
+          "sha256": "6bfd38c4b8895bb01e9b611d5217cdd204c76304600fad20987fc5592de6e4b6",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/MEASUREMENTS.json",
+          "sha256": "a65bd7a5c0ac06c79a827cdfb00ada5204974a58cb16b7cae87e9b95fcf12d65",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/OWNER-CHANGE-CATALOG.json",
+          "sha256": "81d4903aa9564ea6f21569f933c1e63aafb28cc063ea50ab26c246e5a97e312c",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/README.md",
+          "sha256": "ed66dbc4caeb7b40e9762693fb5d07c44be063260c3bcb5c4c4a730ca8ef4d8d",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/RECOVERY-AND-VALIDATION.md",
+          "sha256": "5654d2f98d21dfeb2b3e09be79965276e6770bc0527a4415798efa90ac444b94",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/REPLAY-PROTOCOL.md",
+          "sha256": "d3660ddb434f47f3b7457a3512000f774f7818bfe9c06e7ea6465671e702f18b",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/RULE-CROSSWALK.md",
+          "sha256": "0b2be7076a060a2acf89692b1abdbbd1712f4a18ee13e242916d86de069014ff",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SEQUENCING-REVIEW.md",
+          "sha256": "22142deb5ede7ca211962d54ba631df7d75397d7179b1d2fd0bb954ab468068d",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-A-FIRST-SUPPLIED.html",
+          "sha256": "17bfd53a7e149c208058771caed02c0a220b8e7123080e0907a96fc45eb39cbf",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-B-ASSISTANT-r02.html",
+          "sha256": "2ca1c0df8683e31c4203a6f0c9001fcbb3e6fb4b33a069e983c0a1fdb216b5eb",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-C-OWNER-1454.html",
+          "sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-CASE-INTEGRITY.json",
+          "sha256": "6b50c4f4485b675953bf49a47a024d780078d35dcb8fd1a9949689cf1e6258fe",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/TASK-STATE.md",
+          "sha256": "be8c4e52ac6745215cb836da98992a86b2f0a959bba17c0f7b590621919e2e7d",
+          "role": "editorial_system_review_candidate"
         }
       ]
     }

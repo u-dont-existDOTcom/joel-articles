@@ -10,6 +10,8 @@ This gate composes existing repository controls rather than replacing them: the 
 
 ## 1. Global/article ledger
 
+The proposed workflow in `EDITORIAL-DEDUP-EXECUTION.md` supplies a concrete order for applying this ledger to article-wide deduplication. Its status remains owner-review draft; this ledger retains its existing authority.
+
 Before substantial restructuring, record the article's governing movement and the job of every consequential section. For each recurring idea, identify its **primary home** and classify every other appearance as one of:
 
 - `setup` — introduces a need/question that the primary section later develops;

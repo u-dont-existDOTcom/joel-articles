@@ -16,6 +16,8 @@ Historical branches and packets may remain useful provenance/evidence, but they 
 
 ## General article protocols
 
+- `EDITORIAL-DEDUP-EXECUTION.md` — **proposed for owner review**, a shared execution sequence for structural deduplication and sequencing. Resolves whole overlap clusters and tests the reader route before minimal wording edits; judges remaining repetition separately from preservation. This is not a performance certificate and does not replace existing gates.
+
 - `HUMANIZATION-GATE.md` — **the working humanization gate for every article, in every chat (Joel, 2026-09-30).** It was promoted from the Inner Child lane. It covers:
   - sense before humanization;
   - the owner-edits ledger;
