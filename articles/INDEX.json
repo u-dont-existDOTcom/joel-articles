@@ -22851,6 +22851,11 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-19-turn76.json",
           "sha256": "ee090aa990d7bf42e528264908741fbf385e21e6650d626468d785176964e7dc",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
+          "sha256": "2a1a3f98189253c2b5d16fae9981b90f5aa7ca74a98228bcc530cba39de8de5a",
+          "role": "humanization_working_record"
         }
       ]
     },
