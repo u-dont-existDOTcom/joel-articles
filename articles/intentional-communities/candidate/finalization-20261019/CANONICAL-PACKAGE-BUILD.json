@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "package": "/home/joel/.cache/article-finalization-20261019/delivery/Canonical-Review-Package.zip",
+  "package_sha256": "935d5dfd8bc00b03253fb0e067823b692f669a9220baf616289f4be956b25322",
+  "article": "article/Community-Article-r03-candidate.html",
+  "reviews": [
+    "review/Side-by-Side-r03.html",
+    "review/Full-Article-r03.html"
+  ]
+}

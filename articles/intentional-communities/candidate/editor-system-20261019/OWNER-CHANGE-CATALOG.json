@@ -1,0 +1,890 @@
+{
+  "schema": "joel-editorial-learning-cases-v1",
+  "status": "draft_interpretations_for_owner_review",
+  "source_hashes": {
+    "A": "17bfd53a7e149c208058771caed02c0a220b8e7123080e0907a96fc45eb39cbf",
+    "B": "2ca1c0df8683e31c4203a6f0c9001fcbb3e6fb4b33a069e983c0a1fdb216b5eb",
+    "C": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7"
+  },
+  "method": "Exact source anchors; editorial semantic classification. Similarity only retrieved candidate matches. Curated decision clusters, not an exhaustive clause-by-clause edit count or independent scores. Recovered from the interrupted pass and re-anchored to the same verified source bytes.",
+  "cases": [
+    {
+      "id": "E01",
+      "title": "Put the remedy immediately after the two failure models",
+      "source_blocks": [
+        "A046",
+        "A051",
+        "A052",
+        "A053",
+        "A054",
+        "A055",
+        "A056"
+      ],
+      "owner_blocks": [
+        "C041",
+        "C042",
+        "C043",
+        "C044",
+        "C045",
+        "C046",
+        "C047"
+      ],
+      "classification": "source-recoverable movement with a small owner addition",
+      "r02_disposition": "missed",
+      "interpretation": "The positive synthesis and living-agreement discussion were scattered between the failure diagnosis and the four-part overview. Joel brings them together before introducing the four components.",
+      "scope_limit": "The added word compatible narrows the description of individual practice; do not claim that exact owner refinement was mechanically implied.",
+      "source_excerpt": [
+        "I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who’ve done the healing first can join without pretending they’re fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.",
+        "And let’s face it: food, housing, and logistics are not enough reason to bind whole lives together. That’s more like a situationship. A community needs a shared sacred inner practice that gives the difficulty of our life together a deeper meaning. We help each other heal and choose love over fear. And we turn outward with a purpose, using the escuelita model to bring our healing to the world.",
+        "Founded on Freedom",
+        "“Nothing suppressed, everything processed.” Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic.",
+        "Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements that they’re not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.",
+        "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities, on the other hand, often call it “the process,” which can become just as sacred.",
+        "To give an example of striking the balance: My contemplative practice is grounded in the early Buddhist suttas, with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they’ve decided on so far."
+      ],
+      "owner_excerpt": [
+        "We Want Freedom Inside & Out!",
+        "Let’s face it: food, housing, and logistics are not enough reason to bind whole lives together. That’s more like a situationship. A community needs a shared sacred inner practice that gives the difficulty of our life together a deeper meaning. We help each other heal and choose love over fear. And we turn outward with a purpose, using the escuelita model to bring our healing to the world.",
+        "I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who’ve done the healing first can join without pretending they’re fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.",
+        "The motto would be: “Nothing suppressed, everything processed.” Each of us guides our own compatible practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic.",
+        "Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements that they’re not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.",
+        "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities, on the other hand, often call it “the process,” which can become just as sacred.",
+        "To give an example of striking the balance: My contemplative practice is grounded in the early Buddhist suttas, with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they’ve decided on so far."
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "Reframe the failure headings by the freedom being pursued",
+      "source_blocks": [
+        "A036",
+        "A037",
+        "A038",
+        "A041",
+        "A042",
+        "A044"
+      ],
+      "owner_blocks": [
+        "C034",
+        "C035",
+        "C036",
+        "C038",
+        "C039"
+      ],
+      "classification": "mixed: source-supported reframing plus new owner assertions",
+      "r02_disposition": "missed",
+      "interpretation": "The owner makes the opposition and intended synthesis visible in the headings and opening, rather than making readers infer them from separate critiques. An editor could propose this dimension from the original.",
+      "scope_limit": "The statement about all manuals Joel has seen is new personal source knowledge. Exact inner/outer freedom wording is owner formulation, not an inevitable edit.",
+      "source_excerpt": [
+        "Most communes of my acquaintance went wrong from the inside, in one of two ways.",
+        "The secular failure",
+        "The secular communes had a solution for how to distribute property or labor, but when the deep waters of jealousy or childhood hurt or humiliation or attraction or resentment or grief came up, the group was without a common method for dealing with it. The feelings just became agenda items.",
+        "The spiritual failure",
+        "This comes about when the community realizes the importance of embracing a transformation from within, and then funnels it through a particular person, usually the founder, a teacher, a channel or some other special knower of how things really are.",
+        "The two failures mirror each other. Secular groups distribute power but leave the inner life mostly private or ignored. Spiritual groups attempt to address the inner life, but because it’s the inner world being shaped by the outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path."
+      ],
+      "owner_excerpt": [
+        "Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political). The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually.",
+        "Outer-freedom-only models",
+        "The secular communes (and all the manuals I’ve seen on building them) had a solution for how to distribute property or labor in a way folks could agree on, but when the deep waters of jealousy or childhood hurt or humiliation or attraction or resentment or grief came up, the group was without a common method for dealing with it.",
+        "Spiritual dogma models attempting inner freedom",
+        "Many people already realized that are more interested in spiritual (or emotional) liberation than political liberation, so they tend to congregate in communities built for that. But because these communes focus so much on the inner work that the founder believes in, it can often look like some kind of prison-monestary cult, where you feel free inside as long as you don’t question anything."
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "Remove repeated explanations of procedure versus emotional repair",
+      "source_blocks": [
+        "A038",
+        "A039",
+        "A040",
+        "A044",
+        "A045"
+      ],
+      "owner_blocks": [
+        "C036",
+        "C037",
+        "C040",
+        "C127"
+      ],
+      "classification": "mixed: repetition removal with compression tradeoffs",
+      "r02_disposition": "missed",
+      "interpretation": "The detailed politics-as-emotional-proxy mechanism survives. Another meeting-procedure explanation and an early power preview no longer repeat it before founderism.",
+      "scope_limit": "The transfer of authority between roles is more explicit in A045 than in the surviving founder checklist. A source-only edit should retain a short cross-role statement or flag the loss; it should not merely copy the owner deletion.",
+      "source_excerpt": [
+        "The secular communes had a solution for how to distribute property or labor, but when the deep waters of jealousy or childhood hurt or humiliation or attraction or resentment or grief came up, the group was without a common method for dealing with it. The feelings just became agenda items.",
+        "Meeting procedure isn’t going to solve every problem, no matter how sophisticated the system of labor and money and decision making may be in a community of the Federation of Egalitarian Communities or any other income-sharing community. It can’t make it so that two people don’t hate each other. It can only decide whose turn it is to talk about the hatred, and whether a motion about it needs somebody to second it.",
+        "Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. There will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that. There’s no shared way to talk about the hurt itself, but the meeting agenda is the one place the group lets you push for something and win, so the angry communard goes there, trying to get some justice.",
+        "The two failures mirror each other. Secular groups distribute power but leave the inner life mostly private or ignored. Spiritual groups attempt to address the inner life, but because it’s the inner world being shaped by the outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path.",
+        "The deeper problem is that somebody who’s earned authority in one role can use it in all their other roles. The founder who is a gifted teacher, the therapist who really helps people, the farmer or business manager that actually carries a lot of the economy. The danger starts when one person has the ability to define the problem, control the information related to the problem, define what the solution is, and make it hard for people to leave or express disagreement."
+      ],
+      "owner_excerpt": [
+        "The secular communes (and all the manuals I’ve seen on building them) had a solution for how to distribute property or labor in a way folks could agree on, but when the deep waters of jealousy or childhood hurt or humiliation or attraction or resentment or grief came up, the group was without a common method for dealing with it.",
+        "Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. There will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that. There’s no shared way to talk about the hurt itself, but the meeting agenda is the one place the group lets you push for something and win, so the angry communard goes there, trying to get some justice.",
+        "The Farm, in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is.",
+        "Then follow the practical power. Whose name is on the deed? Who’s in charge of the resources? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique."
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "Move the strongest whole-model example earlier",
+      "source_blocks": [
+        "A176",
+        "A183",
+        "A184",
+        "A185",
+        "A186",
+        "A187",
+        "A188"
+      ],
+      "owner_blocks": [
+        "C066",
+        "C074",
+        "C075",
+        "C076",
+        "C077",
+        "C078",
+        "C079",
+        "C080",
+        "C081"
+      ],
+      "classification": "source-recoverable sequencing choice",
+      "r02_disposition": "missed",
+      "interpretation": "Zapatistas moves from the ninth major section to the fifth, directly after the four-part model. The reader sees a concrete political-economic example before the long run of applications.",
+      "scope_limit": "This is a defensible sequencing preference, not the one correct order for every essay. The source already contains the visit; nothing needs to be invented.",
+      "source_excerpt": [
+        "The Best Model I’ve Seen: Zapatistas",
+        "What impressed me the most was how they do authority. It’s mandar obedeciendo, to lead by obeying: the representatives carry the decisions people made in the assemblies, and they have to answer to the people who gave them the mandate.",
+        "The Zapatistas are also the closest thing to a whole political-economic example that I found, because their autonomy goes beyond how they vote. They’ve set up their own education and health care, and their own justice, and they run their own collective production. On top of that they’ve worked out ways of teaching outsiders, all while coordinating beyond a single village.",
+        "The Fire and the Word describes the movement growing from family to village, village to region, and region to larger structures. It also gives one of the most useful Zapatista principles for community design: build the practice first and develop the theory afterward. The autonomous municipalities came first; an association of them became a rehearsal for the Good Government Juntas (Boards). When different municipalities encountered different problems and uneven progress, that experience generated another structure rather than being forced to fit the original plan.",
+        "After a long internal review, in 2023, the Zapatistas announced they were dissolving their previous federated governmental structure, which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas. The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons. Their new arrangement moved authority downward toward a Local Autonomous Government in each community.",
+        "Institutions get more and more layers and offices as they age. We see this same pattern happen repeatedly, everywhere in history, except usually it goes one way without reversal, unless there’s a revolution.",
+        "But there is a special reason the Zapatistas were successfully able to reverse this degeneration. Zapatista autonomy grew out of Indigenous communities with long histories. They share language and family ties. They’ve fought land struggles together, and defended themselves together for decades."
+      ],
+      "owner_excerpt": [
+        "The Best Model I’ve Seen: Zapatistas",
+        "Democratic anarcho-communalism actualized",
+        "What impressed me the most was how they do authority. It’s mandar obedeciendo, to lead by obeying: the representatives carry the decisions people made in the assemblies, and they have to answer to the people who gave them the mandate.",
+        "The Zapatistas are also the closest thing to a whole political-economic example that I found, because their autonomy goes beyond how they vote. They’ve set up their own education and health care, and their own justice, and they run their own collective production. On top of that they’ve worked out ways of teaching outsiders, all while coordinating beyond a single village.",
+        "The Fire and the Word describes the movement growing from family to village, village to region, and region to larger structures. It also gives one of the most useful Zapatista principles for community design: build the practice first and develop the theory afterward. The autonomous municipalities came first; an association of them became a rehearsal for the Good Government Juntas (Boards). When different municipalities encountered different problems and uneven progress, that experience generated another structure rather than being forced to fit the original plan.",
+        "Real democracy is a continual struggle",
+        "After a long internal review, in 2023, the Zapatistas announced they were dissolving their previous federated governmental structure, which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas. The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons. Their new arrangement moved authority downward toward a Local Autonomous Government in each community.",
+        "Institutions get more and more layers and offices as they age. We see this same pattern happen repeatedly, everywhere in history, except usually it goes one way without reversal, unless there’s a revolution.",
+        "But there is a special reason the Zapatistas were successfully able to reverse this degeneration. Zapatista autonomy grew out of Indigenous communities with long histories. They share language and family ties. They’ve fought land struggles together, and defended themselves together for decades."
+      ]
+    },
+    {
+      "id": "E05",
+      "title": "Give a long example useful internal headings",
+      "source_blocks": [
+        "A182",
+        "A183",
+        "A186",
+        "A189",
+        "A192",
+        "A195",
+        "A196"
+      ],
+      "owner_blocks": [
+        "C072",
+        "C074",
+        "C078",
+        "C082",
+        "C086",
+        "C089"
+      ],
+      "classification": "source-recoverable signposting",
+      "r02_disposition": "missed",
+      "interpretation": "New headings divide spiritual interpretation, authority, institutional revision, export, economics and evidence limits. Their job is navigation, not another summary paragraph.",
+      "scope_limit": "Do not transplant the exact headings to other articles or require one subsection per source.",
+      "source_excerpt": [
+        "I felt a deep spirituality from the Zapatistas. I also suspect there may be a private relationship with ayahuasca, since Mimosa hostilis mainly comes from that region, and the Mexican government vaguely accuses them of narcotrafficking. That’s another reason to look at them as an example of much of my model, since if they are using ayahuasca, it could explain some things about their political struggles and spiritual successes, including the fact that they have the most beautiful poetic rhetoric I’ve ever seen published.",
+        "What impressed me the most was how they do authority. It’s mandar obedeciendo, to lead by obeying: the representatives carry the decisions people made in the assemblies, and they have to answer to the people who gave them the mandate.",
+        "After a long internal review, in 2023, the Zapatistas announced they were dissolving their previous federated governmental structure, which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas. The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons. Their new arrangement moved authority downward toward a Local Autonomous Government in each community.",
+        "Exporting Zapatismo via the Escuelita",
+        "Now, the Zapatistas also don’t prove my whole money-free economy goal. They still use money internally in some cases, not others, and they still use it externally for trade. They’ve also benefitted from outside economic help, while at the same time making efforts to remain politically independent from donors and more self-sustaining.",
+        "As part of my research I have also looked for evidence of what happened after the Escuelita. While I found information on alumni networks, people bringing practices back with them, and organizing later, I couldn’t find a clear chain of somebody having been to the Escuelita, then a new communal institution being set up, and then evidence about how its members and their children actually did over time. Zapatista influence was already spreading abroad before the Escuelita, so if some institution resembles a Zapatista one later, that alone doesn’t prove the Escuelita was responsible.",
+        "Sociocracy has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there’s a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute."
+      ],
+      "owner_excerpt": [
+        "Zap spirituality enigma",
+        "Democratic anarcho-communalism actualized",
+        "Real democracy is a continual struggle",
+        "Exporting Zapatismo via the Escuelita",
+        "Money is still a problem",
+        "Are Zapatistas just unicorns?"
+      ]
+    },
+    {
+      "id": "E06",
+      "title": "Exclude new first-person linguistic material from replay scoring",
+      "source_blocks": [
+        "A182"
+      ],
+      "owner_blocks": [
+        "C073"
+      ],
+      "classification": "new owner material within an old paragraph",
+      "r02_disposition": "not available in A",
+      "interpretation": "The account of what the hosts explained about language and the glass is new relative to the original supplied file.",
+      "scope_limit": "The original already included Joel’s spiritual impression and ayahuasca speculation. Exclude only the new material, not the entire paragraph. This study does not fact-check the linguistic claim.",
+      "source_excerpt": [
+        "I felt a deep spirituality from the Zapatistas. I also suspect there may be a private relationship with ayahuasca, since Mimosa hostilis mainly comes from that region, and the Mexican government vaguely accuses them of narcotrafficking. That’s another reason to look at them as an example of much of my model, since if they are using ayahuasca, it could explain some things about their political struggles and spiritual successes, including the fact that they have the most beautiful poetic rhetoric I’ve ever seen published."
+      ],
+      "owner_excerpt": [
+        "I felt a deep spirituality from the Zapatistas. The Mayan language, as they explained, doesn’t even have subject/object structure. Instead of “I put the glass there” it’s something like “With me, the glass moved there.” I also suspect there may be a private relationship they have with ayahuasca, since Mimosa hostilis (a potent DMT ayahuasca plant) mainly comes from that region, and the Mexican government vaguely accuses them of narcotrafficking. That’s another reason to look at them as an example of much of my model, since if they are using ayahuasca, it could explain some things about their political struggles and spiritual successes, including the fact that they have the most beautiful poetic rhetoric I’ve ever seen published."
+      ]
+    },
+    {
+      "id": "E07",
+      "title": "Merge all three starts into one practical progression",
+      "source_blocks": [
+        "A208",
+        "A209",
+        "A210",
+        "A211",
+        "A313",
+        "A314",
+        "A316",
+        "A317",
+        "A318",
+        "A319",
+        "A320",
+        "A321",
+        "A322",
+        "A323",
+        "A324",
+        "A325",
+        "A326",
+        "A327",
+        "A328"
+      ],
+      "owner_blocks": [
+        "C092",
+        "C093",
+        "C094",
+        "C096",
+        "C097",
+        "C098",
+        "C099",
+        "C100",
+        "C101",
+        "C102",
+        "C103"
+      ],
+      "classification": "source-recoverable cluster consolidation with mixed new details",
+      "r02_disposition": "partial: B merged the two closing sections but left the forming-group section separate",
+      "interpretation": "The crucial missed cluster spans the forming group, the cannot-move section and the monthly action section. In C they become one earlier practical section, with values and land following.",
+      "scope_limit": "The exact fun-first motivation, renegotiation wording, and strict phase language contain new author development. The merge itself, conflict test, low-cost meetings, shared activities and places to find people were already available.",
+      "source_excerpt": [
+        "Your Little Forming Group Already Is the Community",
+        "Don’t worry about getting land yet. If you’ve got a small handful of people who want to make a community but aren’t sure yet, you are already a community, even if it’s still an untested one. It may sound cheesy, but it’s true all the same.",
+        "Also, don’t even think about combining ownership (or any other big resource, for that matter) until you’ve been through at least one real conflict together and really dealt with it. Not by writing out a vision statement and shaking hands, or any other fake way of “resolving” things, like a truce nobody believes (”let’s just leave each other alone”). Dealing with it for real includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means anything. Until then, what’s it worth?",
+        "Until that’s happened, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. That’s okay! You can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor.",
+        "If You Can’t Move",
+        "I realize that for most people reading this there are a lot of reasons why they can’t just head off and go build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That’s fine! The most important pl/ork doesn’t need land anyway.",
+        "People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats.",
+        "So your inner pl/ork can start now, right where you live. Peer counseling takes two people and a private place to sit and talk. And reparenting, somatic work, jealousy work, conflict repair, etc etc? None of it has to wait until somebody has a deed in hand.",
+        "A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.",
+        "Here’s an idea if you’re remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle.",
+        "Trust me on this one. If three households keep showing up for each other like this for six months, you’ll learn more than you would from another year of daydreaming about the ideal village.",
+        "What to Do This Month",
+        "So what do you actually do this month? Start doing some inner pl/ork, with the free reparenting guide and Hearthwork manual or with another serious practice you already trust. And practice before you have an audience.",
+        "Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. You can talk about a shared future later.",
+        "Where do you find these people? Try an unprogrammed Quaker meeting, a restorative-practice group, an open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.",
+        "Go visit some real communities. Really, go! Twin Oaks is one. East Wind is another, and so is Acorn, and there are plenty of other intentional communities. Lots of ecovillages are open to visitors too. Check their current visitor requirements first.",
+        "By visiting some communities, you’ll get a better idea of how much togetherness you enjoy and what kind of privacy you need, and what kind of labor system irritates you. And whether communal showers feel liberating, or make you start looking at studio apartments! No manifesto is going to tell you any of that!",
+        "Look before you leap. It will really save you some time & money.",
+        "I’m not trying to sell you a retreat or get you to fill out an application or anything. The manuals I mentioned are free. I’ve just noticed that wherever people are taking real care of each other and playing, feeling useful and having room to become more honest, community tends to gather."
+      ],
+      "owner_excerpt": [
+        "Practicing Community Can Start Now",
+        "I realize that for most people reading this there are a lot of reasons why they can’t just head off and go join or build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That’s fine! The most important pl/ork doesn’t need land anyway.",
+        "People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats. A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.",
+        "So, build the part of community you actually can. Call it a practice group, for now, not a commune. Fun and nice things first give incentive. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle.",
+        "And then the hard stuff comes as a test before any talk of a shared future together. Keep your commitments, or renegotiate when they feel wrong, rather than just avoiding. Get through at least one big disagreement. Dealing with it for real includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means something.",
+        "Until all of those phases are passed thru, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. And once you’re passed those phases, if you still want to live together, you can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor.",
+        "Practice group of whom?",
+        "Uh, but wait, where do you find these people? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.",
+        "And if you can get away from “civilization” for a bit, that can be really valuable to get some perspective on how others have already figured things out. Go visit some real intentional communities. Lots of ecovillages are open to visitors too. Check their current visitor requirements first.",
+        "Through visits, you’ll also get a better idea of how much togetherness you enjoy and what kind of privacy you need, and what kind of labor system irritates you. And whether communal showers feel liberating, or make you start looking at studio apartments! 😛 No manifesto is going to tell you any of that.",
+        "If you’re lucky, you mind find a pre-existing commune that you’d be happy to live in, without starting your own thing."
+      ]
+    },
+    {
+      "id": "E08",
+      "title": "Integrate useful sentences rather than retaining whole old paragraphs",
+      "source_blocks": [
+        "A210",
+        "A211",
+        "A319",
+        "A323"
+      ],
+      "owner_blocks": [
+        "C096",
+        "C097",
+        "C098"
+      ],
+      "classification": "mixed: source-derived integration and new process emphasis",
+      "r02_disposition": "missed",
+      "interpretation": "The detailed conflict-repair explanation is retained inside the practical progression. The separate commune label and repetitive no-mortgage warnings no longer need their own treatment elsewhere.",
+      "scope_limit": "Do not import the new instruction to renegotiate or the exact sequencing of co-residence without distinguishing it from A’s broader practice-before-property rule.",
+      "source_excerpt": [
+        "Also, don’t even think about combining ownership (or any other big resource, for that matter) until you’ve been through at least one real conflict together and really dealt with it. Not by writing out a vision statement and shaking hands, or any other fake way of “resolving” things, like a truce nobody believes (”let’s just leave each other alone”). Dealing with it for real includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means anything. Until then, what’s it worth?",
+        "Until that’s happened, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. That’s okay! You can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor.",
+        "Here’s an idea if you’re remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle.",
+        "Find two or three other people and meet regularly. Call it a practice group, not a commune. Practice listening and switching roles. Get through at least one disagreement too, and keep your commitments. You can talk about a shared future later."
+      ],
+      "owner_excerpt": [
+        "So, build the part of community you actually can. Call it a practice group, for now, not a commune. Fun and nice things first give incentive. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle.",
+        "And then the hard stuff comes as a test before any talk of a shared future together. Keep your commitments, or renegotiate when they feel wrong, rather than just avoiding. Get through at least one big disagreement. Dealing with it for real includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means something.",
+        "Until all of those phases are passed thru, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. And once you’re passed those phases, if you still want to live together, you can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor."
+      ]
+    },
+    {
+      "id": "E09",
+      "title": "Preserve playful examples when merging",
+      "source_blocks": [
+        "A316",
+        "A318",
+        "A319"
+      ],
+      "owner_blocks": [
+        "C094",
+        "C096"
+      ],
+      "classification": "source-recoverable wording-preserving merge",
+      "r02_disposition": "partial",
+      "interpretation": "The conflict-PLUS-goats line, long-running no-land group, meals, childcare, sauna and cuddle-puddle options remain. Streamlining did not require sanding away personality.",
+      "scope_limit": "These examples are locally functional; the guideline must not make goats, jokes or casual language compulsory.",
+      "source_excerpt": [
+        "People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats.",
+        "A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.",
+        "Here’s an idea if you’re remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle."
+      ],
+      "owner_excerpt": [
+        "People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats. A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.",
+        "So, build the part of community you actually can. Call it a practice group, for now, not a commune. Fun and nice things first give incentive. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle."
+      ]
+    },
+    {
+      "id": "E10",
+      "title": "Concentrate moneylessness in the material-design section",
+      "source_blocks": [
+        "A069",
+        "A070",
+        "A071",
+        "A072",
+        "A073",
+        "A074",
+        "A075",
+        "A218",
+        "A220"
+      ],
+      "owner_blocks": [
+        "C062",
+        "C063",
+        "C064",
+        "C065",
+        "C109",
+        "C110",
+        "C111",
+        "C112",
+        "C113",
+        "C114",
+        "C115",
+        "C116"
+      ],
+      "classification": "source-recoverable movement",
+      "r02_disposition": "substantially done in B",
+      "interpretation": "The three stages of moneylessness move out of the overview into the practical material-design discussion. C puts the land-holding question before the stages.",
+      "scope_limit": "Changing legal entity/bought to legal or illegal entity/bought or occupied adds an option not authorized by the original dedup request.",
+      "source_excerpt": [
+        "4. The container",
+        "This is the part about membership, land, resources, governance, children, leaving, etc.",
+        "Like my father, I’m aiming for communities with less and less money involved, since money is antagonistic to the spirit of community. If I have money, I can get whatever I want, regardless of whether anyone cares about my wellbeing. That’s the hegemonic philosophy of life we are trying to overturn. I think the path there has three stages.",
+        "First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic.",
+        "Later all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the Bruderhof community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at Twin Oaks, and a number of other income-sharing communities. So a common purse isn’t just a theory.",
+        "Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn’t find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.",
+        "None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what’s scarce. Who decides how these things are distributed? What do members owe one another? What happens when someone wants to leave?",
+        "Resources, Land, and Exit Terms",
+        "What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land? This needs to be decided before it’s bought. Then you’ll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people’s contributions (if at all), how inheritance works, outside debts… oh my!"
+      ],
+      "owner_excerpt": [
+        "4. The container",
+        "This is the part about membership, land, resources, governance, children, leaving, etc.",
+        "These are less exciting topics to discuss spiritually. It’s rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it’s still something that needs a sober thinking-through.",
+        "The first three parts are the inside of the container, and this container is what gives those a stable place to manifest. It’s the practical logistical foundation that gets built once the architects can work well together.",
+        "Money, Land, and Shared Resources",
+        "What kind of legal or illegal entity (cooperative, trust, association, company, or tribal squatting?) will hold the land? This needs to be decided before it’s bought or occupied. Then you’ll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people’s contributions (if at all), how inheritance works, outside debts… oh my!",
+        "Moving Beyond Money",
+        "Like my father, I’m aiming for communities with less and less money involved, since money is antagonistic to the spirit of community. If I have money, I can get whatever I want, regardless of whether anyone cares about my wellbeing. That’s the hegemonic philosophy of life we are trying to overturn. I think the path there has three stages.",
+        "First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic.",
+        "Later all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the Bruderhof community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at Twin Oaks, and a number of other income-sharing communities. So a common purse isn’t just a theory.",
+        "Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn’t find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.",
+        "None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what’s scarce. Who decides how these things are budgeted and distributed? What do members owe one another? What happens when someone wants to leave?"
+      ]
+    },
+    {
+      "id": "E11",
+      "title": "Treat resource-list deletion as an editorial tradeoff",
+      "source_blocks": [
+        "A075",
+        "A212",
+        "A221"
+      ],
+      "owner_blocks": [
+        "C110",
+        "C116",
+        "C127"
+      ],
+      "classification": "preference-dependent compression; not fully equivalent",
+      "r02_disposition": "B retained the lists; C removes more",
+      "interpretation": "The author removes repeated resource inventories and inserts budgeted into the shorter scarcity paragraph.",
+      "scope_limit": "Budgeted alone does not explicitly preserve reserves, outside debts, critical-skill cover, resource visibility and conflicts-of-interest procedures. A source-only editor can compress or propose omission, but cannot score all this as lossless duplication.",
+      "source_excerpt": [
+        "None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what’s scarce. Who decides how these things are distributed? What do members owe one another? What happens when someone wants to leave?",
+        "You will also want a budget of what you have in the way of resources. This is the boring stuff. But you will need to know what the group can offer in the way of water, housing, food stores, health care, tools, seasonal labor, transportation, access to markets, schooling, etc. Do you have outside debts to pay? How long will your cash reserves last, if the community uses them? What critical skills will you need? Being great at the emotional stuff won’t stop you from being dead in the water if the one person who knows where everything is and how it works gets too exhausted to keep going.",
+        "And how will you handle the visibility of what the community has? A money-free community still has scarce things and bottlenecks, sorry. It will be important for people to know what’s owned or held in common, what you’ve set aside, what obligations you have to outsiders, who has authority to hand out the major resources, where conflicts of interest are, etc. It won’t do to have the transfer of major resources (land, equipment, stores, outside cash, etc.) dependent on one person’s memory or permission."
+      ],
+      "owner_excerpt": [
+        "What kind of legal or illegal entity (cooperative, trust, association, company, or tribal squatting?) will hold the land? This needs to be decided before it’s bought or occupied. Then you’ll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people’s contributions (if at all), how inheritance works, outside debts… oh my!",
+        "None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what’s scarce. Who decides how these things are budgeted and distributed? What do members owe one another? What happens when someone wants to leave?",
+        "Then follow the practical power. Whose name is on the deed? Who’s in charge of the resources? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique."
+      ]
+    },
+    {
+      "id": "E12",
+      "title": "Concentrate the deed/power warning at founderism",
+      "source_blocks": [
+        "A219",
+        "A235"
+      ],
+      "owner_blocks": [
+        "C110",
+        "C127"
+      ],
+      "classification": "source-supported compression with lost memorable wording",
+      "r02_disposition": "missed",
+      "interpretation": "The practical-power checklist already asks whose name is on the deed and who controls resources. C removes the earlier full warning.",
+      "scope_limit": "Landlord with a philosophy and the two-classes example carry vividness and a more explicit inequality claim. Their deletion is an owner choice; a replay may keep a compact version without failing.",
+      "source_excerpt": [
+        "Who will have title to the land? Very important! Whoever has it will have enormous power over the rest of the community. If the deed is in the name of the founder, then he or she is really a landlord with a philosophy. If three out of twelve members own everything, then whether or not your literature says everyone is equal, there are two classes of members.",
+        "Then follow the practical power. Whose name is on the deed? Who’s in charge of the resources? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique."
+      ],
+      "owner_excerpt": [
+        "What kind of legal or illegal entity (cooperative, trust, association, company, or tribal squatting?) will hold the land? This needs to be decided before it’s bought or occupied. Then you’ll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people’s contributions (if at all), how inheritance works, outside debts… oh my!",
+        "Then follow the practical power. Whose name is on the deed? Who’s in charge of the resources? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique."
+      ]
+    },
+    {
+      "id": "E13",
+      "title": "Give federation its parent idea before the split-off subsection",
+      "source_blocks": [
+        "A197",
+        "A198",
+        "A199",
+        "A200",
+        "A201",
+        "A202",
+        "A203",
+        "A204"
+      ],
+      "owner_blocks": [
+        "C140",
+        "C141",
+        "C142",
+        "C143",
+        "C146",
+        "C147",
+        "C148"
+      ],
+      "classification": "source-recoverable internal sequencing",
+      "r02_disposition": "missed",
+      "interpretation": "C opens the movement section with federation itself; Experiment Before You Split Off follows as an application, rather than preceding the explanation of the network.",
+      "scope_limit": "The best global position of this whole section remains open.",
+      "source_excerpt": [
+        "From One Community to a Movement",
+        "Experiment Before You Split Off",
+        "Experimenting with a different rule doesn’t have to mean everybody goes out and buys new land right away. Try it inside the parent group first, then as a semi-autonomous project, and then, if it needs more independence, as a seed group nearby that still shares some tools, childcare, business or friendships. Splitting off completely should be just one step along that gradient, and nobody should have to do it just to be allowed to experiment.",
+        "Some experiments (like a different land system, or a different population size, or any number of rules that work together) can’t be tried in a way that’s cheap. They may look bad when they’re starved of the assets they actually need. “We tried it in one room for three months” isn’t always a fair test.",
+        "Federated Communities Make a Movement",
+        "The problem of how these communities stay connected does eventually need to be solved somehow, if the idea is for them to spread without building another state. It should be solved in a way that allows help between communities and the movement of people and knowledge, and also keeps the differences alive, so communities can keep learning from one another. At the federation level, that outward purpose gets concrete: spreading healing practices, training people, seeding new projects, and keeping any one comfortable enclave from thinking it’s the whole movement.",
+        "The Federation of Egalitarian Communities (FEC) says it’s rebuilding, and that’s a good warning. It takes work to run a federation. Delegates. Records. Compliance. Coordinating resources. Holding meetings. Succession. Whatever dispute function it actually takes on. These things all take up labor and material capacity before any local crisis has eaten into both. If the legal or economic environment requires money, the federation also needs to have a cash budget for dealing with it. But the work of federation doesn’t have to be done by a single entity. Two communities might want to be closely linked as friends, and that doesn’t stop both of them from also being part of a general federation. There can also be local clusters, or single-function institutions like the FEC’s PEACH health pool, which isn’t currently governed by the FEC delegates.",
+        "Cooperation also shouldn’t slide into assimilation. The FEC has full members and communities working toward full membership, and Friends who may just want to stay friends. Fortunately, the interface between communities can often be thin, saying who’s responsible for what while somebody crosses between them, and communities don’t have to have the same internal systems for it to work."
+      ],
+      "owner_excerpt": [
+        "From One Community to a Movement",
+        "The problem of how these communities stay connected does eventually need to be solved somehow, if the idea is for them to spread without building another state. It should be solved in a way that allows help between communities and the movement of people and knowledge, and also keeps the differences alive, so communities can keep learning from one another. At the federation level, that outward purpose gets concrete: spreading healing practices, training people, seeding new projects, and keeping any one comfortable enclave from thinking it’s the whole movement.",
+        "The Federation of Egalitarian Communities (FEC) says it’s rebuilding, and that’s a good warning. It takes work to run a federation. Delegates. Records. Compliance. Coordinating resources. Holding meetings. Succession. Whatever dispute function it actually takes on. These things all take up labor and material capacity before any local crisis has eaten into both. If the legal or economic environment requires money, the federation also needs to have a cash budget for dealing with it. But the work of federation doesn’t have to be done by a single entity. Two communities might want to be closely linked as friends, and that doesn’t stop both of them from also being part of a general federation. There can also be local clusters, or single-function institutions like the FEC’s PEACH health pool, which isn’t currently governed by the FEC delegates.",
+        "Cooperation also shouldn’t slide into assimilation. The FEC has full members and communities working toward full membership, and Friends who may just want to stay friends. Fortunately, the interface between communities can often be thin, saying who’s responsible for what while somebody crosses between them, and communities don’t have to have the same internal systems for it to work.",
+        "Experiment Before You Split Off",
+        "Experimenting with a different rule doesn’t have to mean everybody goes out and buys new land right away. Try it inside the parent group first, then as a semi-autonomous project, and then, if it needs more independence, as a seed group nearby that still shares some tools, childcare, business or friendships. Splitting off completely should be just one step along that gradient, and nobody should have to do it just to be allowed to experiment.",
+        "Some experiments (like a different land system, or a different population size, or any number of rules that work together) can’t be tried in a way that’s cheap. They may look bad when they’re starved of the assets they actually need. “We tried it in one room for three months” isn’t always a fair test."
+      ]
+    },
+    {
+      "id": "E14",
+      "title": "Replace two inventories with one decision distinction",
+      "source_blocks": [
+        "A205",
+        "A206"
+      ],
+      "owner_blocks": [
+        "C144"
+      ],
+      "classification": "source-supported synthesis with compression tradeoff",
+      "r02_disposition": "missed",
+      "interpretation": "C leads with bounded solidarity, then asks whether help is goodwill or tracked mutual aid, retaining the rule that exchanges need not be even.",
+      "scope_limit": "The original explicitly separates grants, loans, guarantees and joint commitments. A conservative replay should preserve a compact liability distinction or mark its omission; C’s exact compression is not the only acceptable answer.",
+      "source_excerpt": [
+        "Even if nobody uses money internally, communities still need the same honesty about exchanges and obligations. A gift of food, pooled medicine, a vehicle or a tool on loan, trades of labor, emergency housing, a shared building project, a visit that’s mainly for training or relationship building: they’re all different events, and some of them create future obligations while others don’t. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be “even”.",
+        "If cash is used for transactions with the outside world, grants and loans need to be kept separate the same way, and so do guarantees and shared enterprise commitments. Solidarity doesn’t mean every community is liable for whatever the others owe, and it doesn’t mean anyone has an unlimited claim on another community’s labor and stores, or its land and tools."
+      ],
+      "owner_excerpt": [
+        "Solidarity doesn’t mean every community is liable for whatever the others owe, and it doesn’t mean anyone has an unlimited claim on another community’s labor and stores, or its land and tools. Even if nobody uses money internally, communities still need the same honesty about exchanges and obligations. Decide in advance which offers of help are purely goodwill and which go on a ledger of mutual aid. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be “even”."
+      ]
+    },
+    {
+      "id": "E15",
+      "title": "Fold informal founder emergence into the founder section",
+      "source_blocks": [
+        "A238",
+        "A239",
+        "A240",
+        "A241"
+      ],
+      "owner_blocks": [
+        "C128",
+        "C129",
+        "C130"
+      ],
+      "classification": "source-recoverable consolidation with analogy deletion choice",
+      "r02_disposition": "substantially done in B",
+      "interpretation": "The naturally forming group and the option of joining an existing commune remain; the standalone heading and longer marriage/divorce analogy disappear.",
+      "scope_limit": "The analogy’s tone is an editorial preference. Its deletion alone is not a universal rule against analogy.",
+      "source_excerpt": [
+        "Founderism Creeps Up",
+        "While founderism is a problem in every community, it’s especially so in communities which form naturally over time as I’m describing may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”",
+        "If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. And if we are all starting together from scratch, then we would all be at an equal probationary level with each other.",
+        "It’s a bit like the process of getting married. At first, you visit your boo when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a totally unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that’s also contentious depending on how long the marriage was for, whether one person feels tricked, etc, and divorce unfortunately often ends up in court. Leaving a commune is the divorce half of it, where the shared resources have to get split up. When joining or forming a commune, we can hopefully be more conscious about the process and less romantic."
+      ],
+      "owner_excerpt": [
+        "Presence of one of these alone isn’t proof of abuse, but if several are present, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me.",
+        "While founderism is a problem in every community, it’s especially so in communities which form naturally over time as I’m describing may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”",
+        "If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. And if we are all starting together from scratch, then we would all be at an equal probationary level with each other."
+      ]
+    },
+    {
+      "id": "E16",
+      "title": "Separate surveillance risk from admissions policy",
+      "source_blocks": [
+        "A246",
+        "A247",
+        "A248",
+        "A269",
+        "A270",
+        "A271",
+        "A272",
+        "A273",
+        "A274",
+        "A275",
+        "A276",
+        "A277",
+        "A278"
+      ],
+      "owner_blocks": [
+        "C135",
+        "C136",
+        "C168",
+        "C169",
+        "C170",
+        "C171",
+        "C172",
+        "C173",
+        "C174",
+        "C175",
+        "C176",
+        "C177"
+      ],
+      "classification": "source-recoverable split and movement",
+      "r02_disposition": "done in B",
+      "interpretation": "The short peer-surveillance warning remains under cult risk. Therapy prerequisites, medicine optionality, fit and compassion follow actual admission rights.",
+      "scope_limit": "Privacy criticism is not a retraction of all gatekeeping. Preserve the owner’s distinction rather than rewriting it into a different political position.",
+      "source_excerpt": [
+        "Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that’s fine. Some communities will be stricter gatekeepers, and others will be more lax.",
+        "It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point. If it gets to the point of being impossible to live with, they will be kicked out. But nearly always, people who don’t fit in leave way before that.",
+        "They should not be demonized for not trying to fit in. They should be offered compassion, but ultimately it’s up to them if they want to fit in and follow the communal processes. And in some cases, the community may make exceptions. If someone is actually sick and needs care, kicking them out could be like a death sentence. So it’s up to the people involved.",
+        "You want the feeling of village life but don’t want to take on governance, maintenance, conflict, care, etc.",
+        "You’re not willing to look at yourself when jealousy or conflict comes up.",
+        "From Visitor to Member—Slowly",
+        "When The Farm grew fast, a lot of the people who came were in need, and there weren’t many filters that worked. Being open to everybody felt so spiritual! The practical burden piled up anyway. A membership process is there to protect both the people who are already there and the newcomers.",
+        "First, correspond with the visitor. Did they read the materials? (Not everyone does.) Do they get the basic idea of why this community is here? Are they at least starting to do the relevant practices? It’s a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right?",
+        "The short visit: If they come for a week or two and just participate in normal life, well, most people can be charming for two weeks. Not exactly a high bar. 😅 So that’s about all you’ll find out.",
+        "The long visit: If you’re not around long enough to actually experience inconvenience and conflict with the person in question, then you’re not going to learn very much about them. Watch how they react when working and making decisions in the group. When tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even a professional faker may be able to pull off an act for months.",
+        "Taking on responsibilities: If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to know how they handle that specific thing. I wouldn’t hand someone the van keys just because they’re great with kids. You can find out by checking whether you’ve seen them do this thing before, and asking for references if appropriate. Give people access to these things in stages and ensure there’s always some way to appeal decisions about these roles to a separate authority if needed.",
+        "Write down your answers: How long is a provisional membership, and what are a provisional member’s rights and responsibilities? How is it reviewed, and how does someone leave it? Who decides on full membership? (Hint: not the person who recruited them! 😜) And what rights does a full member have to the land, the shared resources and a voice in the group, and what do they owe over the long term? (Those go in your founding agreements.)",
+        "Then there are the people who aren’t fully “in” the commune politically. Visitors, volunteers, workers, renters and interns at the commune (yes, even interns) are entitled to some rights when decisions really affect their pay or access to common resources. All of them should have clear terms, and the chance to be heard and to have such decisions reviewed. The same is true for decisions really affecting their schedule, safety, housing, records or discipline. Equality that stops at the membership line can end up recreating a servant class that moves from commune to commune."
+      ],
+      "owner_excerpt": [
+        "“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum practice. A group starts out inviting honesty and ends up treating privacy as resistance. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. In general, people can have their own private practices, of course. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.",
+        "Peer counseling can become peer surveillance, even if the tone is warm.",
+        "When The Farm grew fast, a lot of the people who came were in need, and there weren’t many filters that worked. Being open to everybody felt so spiritual! The practical burden piled up anyway. A membership process is there to protect both the people who are already there and the newcomers.",
+        "First, correspond with the visitor. Did they read the materials? (Not everyone does.) Do they get the basic idea of why this community is here? Are they at least starting to do the relevant practices? It’s a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right?",
+        "The short visit: If they come for a week or two and just participate in normal life, well, most people can be charming for two weeks. Not exactly a high bar. 😅 So that’s about all you’ll find out.",
+        "The long visit: If you’re not around long enough to actually experience inconvenience and conflict with the person in question, then you’re not going to learn very much about them. Watch how they react when working and making decisions in the group. When tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even a professional faker may be able to pull off an act for months.",
+        "Taking on responsibilities: If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to know how they handle that specific thing. I wouldn’t hand someone the van keys just because they’re great with kids. You can find out by checking whether you’ve seen them do this thing before, and asking for references if appropriate. Give people access to these things in stages and ensure there’s always some way to appeal decisions about these roles to a separate authority if needed.",
+        "Write down your answers: How long is a provisional membership, and what are a provisional member’s rights and responsibilities? How is it reviewed, and how does someone leave it? Who decides on full membership? (Hint: not the person who recruited them! 😜) And what rights does a full member have to the land, the shared resources and a voice in the group, and what do they owe over the long term? (Those go in your founding agreements.)",
+        "Then there are the people who aren’t fully “in” the commune politically. Visitors, volunteers, workers, renters and interns at the commune (yes, even interns) are entitled to some rights when decisions really affect their pay or access to common resources. All of them should have clear terms, and the chance to be heard and to have such decisions reviewed. The same is true for decisions really affecting their schedule, safety, housing, records or discipline. Equality that stops at the membership line can end up recreating a servant class that moves from commune to commune.",
+        "And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that’s fine. Some communities will be stricter gatekeepers, and others will be more lax.",
+        "It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point. If it gets to the point of being impossible to live with, they will be kicked out. But nearly always, people who don’t fit in leave way before that.",
+        "They should not be demonized for not trying to fit in. They should be offered compassion, but ultimately it’s up to them if they want to fit in and follow the communal processes. And in some cases, the community may make exceptions. If someone is actually sick and needs care, kicking them out could be like a death sentence. So it’s up to the people involved."
+      ]
+    },
+    {
+      "id": "E17",
+      "title": "Unify leaving without erasing three different cases",
+      "source_blocks": [
+        "A222",
+        "A279",
+        "A280",
+        "A281",
+        "A282",
+        "A283",
+        "A284",
+        "A285",
+        "A286",
+        "A287",
+        "A288",
+        "A289"
+      ],
+      "owner_blocks": [
+        "C178",
+        "C179",
+        "C180",
+        "C181",
+        "C182",
+        "C183",
+        "C184",
+        "C185",
+        "C186",
+        "C187",
+        "C188",
+        "C189",
+        "C190",
+        "C191"
+      ],
+      "classification": "source-recoverable parent-section consolidation",
+      "r02_disposition": "done in B",
+      "interpretation": "Voluntary departure, expulsion and dissolution share one parent but retain distinct subheadings and safeguards.",
+      "scope_limit": "Three similar resource lists do not prove the same decision: individual exit terms, temporary rights during removal and continuing services after institutional failure differ.",
+      "source_excerpt": [
+        "Good people leave for good reasons -- dying parent, love, work, health, exhaustion, change of mind, etc. You don’t want them to lose everything they’ve put in. That’s coercive -- they HAVE to stay if they can’t afford to go, and a community of prisoners isn’t ideal. Whether or not you use money, you’ll need to have a way of providing people with resources when they leave (cash, if you use it, but also tools, transportation, temporary housing, stored up goods, the right to keep using something, or whatever). Otherwise their “right” to leave is only on paper -- it only works when the community happens to have spare money. Write up the exit terms while leaving is still only theoretical -- like a pre-nup when you’re planning the wedding. Not romantic, but protective. Much easier than doing it once anybody’s furious.",
+        "When Somebody Has to Go",
+        "A safe community can’t promise to keep everyone. There may be times when someone has to go. If someone is a serious or generalized danger to others, or keeps violating essential boundaries, or for whatever reason just makes everyday life together impossible for everyone else, it can be the right call to eject them. If restorative work can help in a reasonable amount of time, all the better. But it’s not the community’s job to be a treatment program for someone who’s endangering everyone else.",
+        "This power to remove people is so easily abused, though. So work out the process before it’s about anyone in particular. What counts as cause for immediate protective action? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? How will the person be able to reply to the concerns? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help?",
+        "Note that “outside” doesn’t have to mean the nation-state. My research initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it’s not the same people.",
+        "Also decide on a mediator or ombudsperson in advance. Why bother? People often won’t trust someone they haven’t already met, who comes in during a crisis as a “neutral stranger.” A mediator doesn’t obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good relations between people. When people can’t or won’t consent to being in community any more, they still need a final separation.",
+        "Dissolution and Exit",
+        "Dissolution is something founders rarely want to talk about while they’re picking a name for their community and looking forward to its first harvest. Who would? But that’s exactly when it needs to be talked about.",
+        "If the community dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens to each member’s agreed rights? More immediately, who is responsible for ensuring that everyone has a place to live and food to eat? Who takes responsibility for making sure people get their medications and the other care they need? Who keeps childcare going, and makes sure the kids’ schooling carries on? Who takes responsibility for transportation, for the records, for family contact, for the animals, for making sure land obligations are met, and for any unresolved claims? That’s a lot of loose ends!",
+        "Think of it like a living will, and assign a bridge or successor for each critical function in advance, so basic life doesn’t depend on reviving the commune. The institution may not be salvageable, but who’s making breakfast tomorrow?",
+        "Dissolution terms are also a way for a group to end without turning every friendship into evidence. Who wants that? People may leave hurt, but they keep the transition support they agreed on, and their dignity. And they can tell a coherent story of what happened.",
+        "Institutions and relationships don’t die at the same time, and some of what people learned to give one another may go on too. What a relief! The film American Commune follows two sisters who grew up on The Farm. When one of them later became ill, former members who hadn’t seen her in years reached out with support. The Farm’s communal economy had changed dramatically, but the bonds hadn’t vanished."
+      ],
+      "owner_excerpt": [
+        "Leaving, Removal, and Dissolution",
+        "Leaving Voluntarily",
+        "Good people leave for good reasons -- dying parent, love, work, health, exhaustion, change of mind, etc. You don’t want them to lose everything they’ve put in. That’s coercive -- they HAVE to stay if they can’t afford to go, and a community of prisoners isn’t ideal. Whether or not you use money, you’ll need to have a way of providing people with resources when they leave (cash, if you use it, but also tools, transportation, temporary housing, stored up goods, the right to keep using something, or whatever). Otherwise their “right” to leave is only on paper -- it only works when the community happens to have spare money. Write up the exit terms while leaving is still only theoretical -- like a pre-nup when you’re planning the wedding. Not romantic, but protective. Much easier than doing it once anybody’s furious.",
+        "When Somebody Has to Go",
+        "A safe community can’t promise to keep everyone. There may be times when someone has to go. If someone is a serious or generalized danger to others, or keeps violating essential boundaries, or for whatever reason just makes everyday life together impossible for everyone else, it can be the right call to eject them. If restorative work can help in a reasonable amount of time, all the better. But it’s not the community’s job to be a treatment program for someone who’s endangering everyone else.",
+        "This power to remove people is so easily abused, though. So work out the process before it’s about anyone in particular. What counts as cause for immediate protective action? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? How will the person be able to reply to the concerns? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help?",
+        "Note that “outside” doesn’t have to mean the nation-state. My research initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it’s not the same people.",
+        "Also decide on a mediator or ombudsperson in advance. Why bother? People often won’t trust someone they haven’t already met, who comes in during a crisis as a “neutral stranger.” A mediator doesn’t obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good relations between people. When people can’t or won’t consent to being in community any more, they still need a final separation.",
+        "When the Community Dissolves",
+        "Dissolution is something founders rarely want to talk about while they’re picking a name for their community and looking forward to its first harvest. Who would? But that’s exactly when it needs to be talked about.",
+        "If the community dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens to each member’s agreed rights? More immediately, who is responsible for ensuring that everyone has a place to live and food to eat? Who takes responsibility for making sure people get their medications and the other care they need? Who keeps childcare going, and makes sure the kids’ schooling carries on? Who takes responsibility for transportation, for the records, for family contact, for the animals, for making sure land obligations are met, and for any unresolved claims? That’s a lot of loose ends!",
+        "Think of it like a living will, and assign a bridge or successor for each critical function in advance, so basic life doesn’t depend on reviving the commune. The institution may not be salvageable, but who’s making breakfast tomorrow?",
+        "Dissolution terms are also a way for a group to end without turning every friendship into evidence. Who wants that? People may leave hurt, but they keep the transition support they agreed on, and their dignity. And they can tell a coherent story of what happened.",
+        "Institutions and relationships don’t die at the same time, and some of what people learned to give one another may go on too. What a relief! The film American Commune follows two sisters who grew up on The Farm. When one of them later became ill, former members who hadn’t seen her in years reached out with support. The Farm’s communal economy had changed dramatically, but the bonds hadn’t vanished."
+      ]
+    },
+    {
+      "id": "E18",
+      "title": "Move the integration prerequisite before the benefits",
+      "source_blocks": [
+        "A087",
+        "A088",
+        "A111",
+        "A112",
+        "A113",
+        "A114",
+        "A115"
+      ],
+      "owner_blocks": [
+        "C254",
+        "C255",
+        "C256",
+        "C257",
+        "C258",
+        "C259",
+        "C260"
+      ],
+      "classification": "source-recoverable internal sequencing",
+      "r02_disposition": "missed",
+      "interpretation": "The fuller Integration Starts Well Before material now precedes the list of communal psychedelic benefits. The reader gets the prerequisite before the promise.",
+      "scope_limit": "Both prerequisite and benefits remain; do not delete operational warnings merely because integration is mentioned more than once.",
+      "source_excerpt": [
+        "Community Is What Makes Psychedelics Pl/ork Best!",
+        "Part of it is integration: an insight needs somewhere to land. What happens when you come back from an amazing experience which gave you insight and clarity about your life, into the same old environment where nobody knows what you’ve been through and you’re faced with the same old cues? It can be super helpful to have gone through the experience in a community, where the people who held you through it can also notice what happens to you over the following months.",
+        "Integration Starts Well Before",
+        "Using medicine is secondary to all of the other pl/ork that comes first: reparenting, developing somatic capacity, and learning to do peer counseling. The medicine can deepen an existing practice, but it can’t be a pharmacological shortcut to what takes several months of honest relationship with other people.",
+        "This prerequisite also takes care of another issue in one shot: it weeds out the experience collectors. If someone is unwilling to put in 6 months learning to listen without imposing their solution, it is unlikely they will come out of a ceremony more relationally mature, regardless of how many self-transforming fractalized machine elves told them they are the reincarnation of King David & Elvis.😂",
+        "Integration is a term thrown around so much that I’m not sure if it still has meaning. But basically, post-ceremony integration is your everyday life. The ceremony is supposed to open something up in you. Look at your life in the weeks after the ceremony and see how things have changed. That includes your relationships, behaviors, sleeping habits, your decision-making, and perhaps most importantly, how well you can deal with frustration without declaring a new spiritual emergency. 😂",
+        "As a community, you need to write down what is and isn’t allowed, and which activities are private (to the individual, to a group in the community, or to the community vs the outside)."
+      ],
+      "owner_excerpt": [
+        "Integration Starts Well Before Ceremony",
+        "Using medicine is secondary to all of the other pl/ork that comes first: reparenting, developing somatic capacity, and learning to do peer counseling. The medicine can deepen an existing practice, but it can’t be a pharmacological shortcut to what takes several months of honest relationship with other people.",
+        "This prerequisite also takes care of another issue in one shot: it weeds out the experience collectors. If someone is unwilling to put in 6 months learning to listen without imposing their solution, it is unlikely they will come out of a ceremony more relationally mature, regardless of how many self-transforming fractalized machine elves told them they are the reincarnation of King David & Elvis.😂",
+        "Integration is a term thrown around so much that I’m not sure if it still has meaning. But basically, post-ceremony integration is your everyday life. The ceremony is supposed to open something up in you. Look at your life in the weeks after the ceremony and see how things have changed. That includes your relationships, behaviors, sleeping habits, your decision-making, and perhaps most importantly, how well you can deal with frustration without declaring a new spiritual emergency. 😂",
+        "As a community, you need to write down what is and isn’t allowed, and which activities are private (to the individual, to a group in the community, or to the community vs the outside).",
+        "Community Is What Makes Psychedelics Pl/ork Best!",
+        "Part of it is integration: an insight needs somewhere to land. What happens when you come back from an amazing experience which gave you insight and clarity about your life, into the same old environment where nobody knows what you’ve been through and you’re faced with the same old cues? It can be super helpful to have gone through the experience in a community, where the people who held you through it can also notice what happens to you over the following months."
+      ]
+    },
+    {
+      "id": "E19",
+      "title": "Keep detailed medicine separate from the initial model",
+      "source_blocks": [
+        "A067",
+        "A068",
+        "A080",
+        "A116",
+        "A117",
+        "A118",
+        "A119",
+        "A120"
+      ],
+      "owner_blocks": [
+        "C061",
+        "C247",
+        "C281",
+        "C282",
+        "C283",
+        "C284",
+        "C285",
+        "C286",
+        "C287"
+      ],
+      "classification": "source-recoverable depth routing; global position preference-dependent",
+      "r02_disposition": "partial: B consolidated safety but left the full chapter early",
+      "interpretation": "The overview uses a short pointer while the full medicine chapter moves later. A concrete altered-participants warning survives inside ceremony principles.",
+      "scope_limit": "Placing the chapter late is an owner sequencing choice. The 3: prefix may refer to the model’s third component; it should not be diagnosed as a wrong chapter number without checking that reading.",
+      "source_excerpt": [
+        "Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than exalting any one person as a special shaman.",
+        "This doesn’t mean that a peer-led ceremony should be done without structure. Things like screening participants, making sure the sitters are sober, having a plan for dealing with emergencies, planning for integration, and other rules and boundaries need to be dealt with beforehand. While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot, it’s not something I recommend.",
+        "The Medicine Part - Yes, I’m Naming It",
+        "After the Psychedelic Calling",
+        "A lot of people feel the urge to form a village after going through some serious psychedelic and/or mystical experiences. Finding their people and helping others get to whatever just opened up is part of the same urge. That call may be real, but forming a community based on omnipotence is a terrible idea.",
+        "I’ve felt that urge myself. The problem is that it can come with grandiosity, and I’ve felt that too. You come back believing love can heal anyone, and then you meet people who don’t want to change, people who have some part of them that sincerely wants to change yet they keep choosing the opposite, and people in such a crisis that their need for help is more than your enthusiasm can hold.",
+        "A group that begins in collective spiritual euphoria can recruit too quickly and promise too much, and only do the math on how much need it can absorb once several people already depend on it. The sections on capacity and on membership, later on in this article, are partly there to protect the original generosity from that first rush.",
+        "Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are training there so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods, which gets double dipped with the objection that psychedelics are also privileged escape pods (or, alternatively, as some say, “a vacation for the poor”)."
+      ],
+      "owner_excerpt": [
+        "Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than exalting any one person as a special shaman. I’ll go more in detail on this in “The Medicine Part” section below.",
+        "3: The Medicine Part - Yes, I’m Naming It",
+        "All of the “supports” are important: preparation, nutrition, screening for drug interactions, being disciplined about the dose, having the right kind of sober sitter present, and having a plan for dealing with emergencies. Those matter more than ceremony aesthetics. My current safety material is at Altered States Triage.",
+        "While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot, it’s not something I recommend.",
+        "Also, I am especially cautious about medicines and protocols that I see as more destabilizing and/or presenting more of a medical burden. This includes some uses of ketamine and MDMA and bufo. My reasons are given in those articles, respectively, since they need more space.",
+        "After the Psychedelic Calling",
+        "A lot of people feel the urge to form a village after going through some serious psychedelic and/or mystical experiences. Finding their people and helping others get to whatever just opened up is part of the same urge. That call may be real, but forming a community based on omnipotence is a terrible idea.",
+        "I’ve felt that urge myself. The problem is that it can come with grandiosity, and I’ve felt that too. You come back believing love can heal anyone, and then you meet people who don’t want to change, people who have some part of them that sincerely wants to change yet they keep choosing the opposite, and people in such a crisis that their need for help is more than your enthusiasm can hold.",
+        "Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are training there so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods, which gets double dipped with the objection that psychedelics are also privileged escape pods (or, alternatively, as some say, “a vacation for the poor”)."
+      ]
+    },
+    {
+      "id": "E20",
+      "title": "Use a callout for a bounded qualification",
+      "source_blocks": [
+        "A282"
+      ],
+      "owner_blocks": [
+        "C184"
+      ],
+      "classification": "source-recoverable formatting choice",
+      "r02_disposition": "missed",
+      "interpretation": "The outside-does-not-have-to-mean-state distinction becomes a callout next to removal safeguards, preserving the linked correction of the research report.",
+      "scope_limit": "Do not cut My research initially leaned too far that way as generic research diary: the hyperlink makes it a correction of a report readers may open.",
+      "source_excerpt": [
+        "Note that “outside” doesn’t have to mean the nation-state. My research initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it’s not the same people."
+      ],
+      "owner_excerpt": [
+        "Note that “outside” doesn’t have to mean the nation-state. My research initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it’s not the same people."
+      ]
+    },
+    {
+      "id": "E21",
+      "title": "Collect the final invitation and self-implication",
+      "source_blocks": [
+        "A034",
+        "A290",
+        "A328",
+        "A329",
+        "A330",
+        "A331"
+      ],
+      "owner_blocks": [
+        "C310",
+        "C311",
+        "C312",
+        "C313"
+      ],
+      "classification": "mixed: source-supported ending consolidation and a changed personal plan",
+      "r02_disposition": "partial",
+      "interpretation": "C ends with a dedicated Hope section: father/film continuity, replication beyond one founder, then the author’s own not-recruiting qualification and Crazy Farm joke.",
+      "scope_limit": "Buy land became find some land, a genuine change to the author’s plan. That change is not available to a source-only editor. Moving disclosure to the end is also a credibility-timing tradeoff.",
+      "source_excerpt": [
+        "I am not currently recruiting anyone or founding a community, which makes it easier for me to write an article like this, since I’m not trying to get you onto my land. I do plan to buy land, and people may naturally end up living around me. All of the warnings in this article apply to me, too. Based on the folks who’ve so far expressed interest, I’m planning to call my commune, “Uncle Joe’s Crazy Farm.” 🤪 Hopefully not gonna be another Trungpa Rinpoche cult.",
+        "My father carried the Bruderhof with him long after he left it. It shaped the foundation he started and the film he made. It shaped the places he took me, too, and the questions I’m still asking (as you may have noticed!).",
+        "I’m not trying to sell you a retreat or get you to fill out an application or anything. The manuals I mentioned are free. I’ve just noticed that wherever people are taking real care of each other and playing, feeling useful and having room to become more honest, community tends to gather.",
+        "Decades after the Bruderhof shaped my father, I’m publishing the film he made, and writing this.",
+        "Maybe some of you will build something useful from this. Maybe that community will teach someone else, who’ll build another. Passing it on doesn’t need one institution or one founder. And there doesn’t have to be one official version of it, either.",
+        "If you build something real, maybe we’ll hear about each other. And if you teach other people to build, hearing about it matters less."
+      ],
+      "owner_excerpt": [
+        "A Hope For Humanity",
+        "Decades after the Bruderhof shaped my father, I’m publishing the film he made, and writing this.",
+        "Maybe some of you will build something useful from this. Maybe that community will teach someone else, who’ll build another. Passing it on doesn’t need one institution or one founder. And there doesn’t have to be one official version of it, either.",
+        "I am not currently recruiting anyone or founding a community, which makes it easier for me to write an article like this, since I’m not trying to get you onto my land. I do plan to find some land, and people may naturally end up living around me. All of the warnings in this article apply to me, too. Based on the folks who’ve so far expressed interest, I’m planning to call my commune, “Uncle Joe’s Crazy Farm.” 🤪 Hopefully not gonna be another Trungpa Rinpoche cult."
+      ]
+    },
+    {
+      "id": "E22",
+      "title": "Do not count new comparisons as recovered editing",
+      "source_blocks": [
+        "A225",
+        "A226",
+        "A242"
+      ],
+      "owner_blocks": [
+        "C118",
+        "C119",
+        "C133"
+      ],
+      "classification": "new owner analogies and framing",
+      "r02_disposition": "not in A",
+      "interpretation": "Founding Fathers, subtle dictatorship and the Pharaoh/pyramid expansion add rhetoric rather than eliminate duplication.",
+      "scope_limit": "They may be reasonable author developments, but the replay is not penalized for failing to invent the same analogies.",
+      "source_excerpt": [
+        "In every community there was somebody (or some founding group) who took the initiative to get it started. They found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest.",
+        "The founder(s) ends up with real influence, and pretending they don’t just makes that influence harder to look at. When that power fails to get distributed as the conditions ripen for that, it’s called founderism.",
+        "How My Own Model Could Become a Cult"
+      ],
+      "owner_excerpt": [
+        "In every community there was somebody (or some founding group) who took the initiative to get it started. They found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest. Like the U.S. Founding Fathers.",
+        "The founder(s) end(s) up with real influence, and pretending they don’t just makes that influence harder to look at. When that power fails to get distributed as the conditions ripen for that, it’s called founderism, which is a fledgling form of what can become a subtle dictatorship.",
+        "As if a founderism-type subtle dictatorship isn’t bad enough, we often find groups that are even proudly and overtly controlled by some Pharaoh at the top of the pyramid, especially when the organization of the group is as advanced as what it took to build the Great Pyramids."
+      ]
+    }
+  ]
+}

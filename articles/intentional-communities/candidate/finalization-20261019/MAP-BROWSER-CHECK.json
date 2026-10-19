@@ -1,0 +1,57 @@
+{
+  "format": "joel-structure-map-browser-check-v1",
+  "status": "PASS",
+  "file_sha256": "fc020ef512140f19f4439321e4f96e50da86357f90d0595fd07adadcd41ce8f0",
+  "checks": [
+    {
+      "check": "original and revised overview",
+      "passed": true
+    },
+    {
+      "check": "same medicine node selected in both views",
+      "passed": true
+    },
+    {
+      "check": "selected move has visible connector",
+      "passed": true
+    },
+    {
+      "check": "node explains purpose and move",
+      "passed": true
+    },
+    {
+      "check": "all current mapped headings shown",
+      "passed": true
+    },
+    {
+      "check": "membership shown under practice",
+      "passed": true
+    },
+    {
+      "check": "concept search uses purpose",
+      "passed": true
+    },
+    {
+      "check": "export carries candidate and relation note",
+      "passed": true
+    },
+    {
+      "check": "browser persistence",
+      "passed": true
+    },
+    {
+      "check": "test review cleared",
+      "passed": true
+    },
+    {
+      "check": "mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "no JavaScript exceptions",
+      "passed": true
+    }
+  ],
+  "navigation_mode": "file",
+  "scope": "UI/interaction only; set_content mode does not prove file navigation or real persistence. No Substack destination or editorial judgment."
+}

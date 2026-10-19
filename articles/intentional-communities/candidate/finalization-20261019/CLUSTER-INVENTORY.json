@@ -1,0 +1,36 @@
+{
+  "format": "joel-editorial-cluster-inventory-v1",
+  "source_sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7",
+  "clusters": {
+    "C-practice": [
+      "T107",
+      "T114",
+      "T120",
+      "T166",
+      "T184"
+    ],
+    "C-medicine": [
+      "T072",
+      "T274",
+      "T279",
+      "T281",
+      "T298"
+    ],
+    "C-exit": [
+      "T127",
+      "T187",
+      "T190",
+      "T194",
+      "T196",
+      "T201",
+      "T258"
+    ],
+    "C-overcompletion": [
+      "T268",
+      "T269",
+      "T204",
+      "T205"
+    ]
+  },
+  "scope": "All named material clusters in this finalization; completeness of discovery remains an editorial judgment."
+}

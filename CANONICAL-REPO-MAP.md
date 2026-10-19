@@ -25,6 +25,8 @@ routing aids; they do not establish article authority.
 
 ### Any substantial article work
 
+For an authorized structural-edit/dedup task, also see `docs/EDITORIAL-DEDUP-EXECUTION.md` — owner-reviewed base workflow with v0.2 implementation refinements awaiting final approval; see docs/EDITORIAL-EXECUTION-ENFORCEMENT.md for the tested package gate. Keep article-specific learning examples out of a source-only replay writer’s inputs.
+
 - `project-sources/MASTER-INSTRUCTIONS.md`
 - `project-sources/TASK-MODES.md`
 

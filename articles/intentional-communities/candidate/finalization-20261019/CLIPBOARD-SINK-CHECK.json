@@ -1,0 +1,18 @@
+{
+  "format": "joel-clipboard-sink-check-v1",
+  "status": "PASS",
+  "helper_sha256": "cc6eaeb427c1c07903f69b29bacdd6c0a9520c58668af64a1e2404eb99166af2",
+  "candidate_sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+  "payload_sha256": "c7dc40143b564d138b277dbb7e8f095b3761d7fe886cf050dd74b52456a5d935",
+  "checks": [
+    {
+      "check": "modern exact payload and synchronous gesture path",
+      "passed": true
+    },
+    {
+      "check": "fallback exact payload and synchronous gesture path",
+      "passed": true
+    }
+  ],
+  "scope": "Exact local HTML in headless Brave. Deterministic injected ClipboardItem/execCommand sinks, not actual OS clipboard permission or Opera-to-Substack reconstruction."
+}

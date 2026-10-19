@@ -16,6 +16,10 @@ Historical branches and packets may remain useful provenance/evidence, but they 
 
 ## General article protocols
 
+- `EDITORIAL-EXECUTION-ENFORCEMENT.md` — actual scope and limits of the source-bound editorial package gate and tested local service adapter; not a deployed global client or publication guard.
+
+- `EDITORIAL-DEDUP-EXECUTION.md` — **owner-reviewed principles; v0.2 refinements awaiting final approval**, a shared execution sequence for structural deduplication and sequencing. Resolves whole overlap clusters and tests the reader route before minimal wording edits; judges remaining repetition separately from preservation. This is not a performance certificate and does not replace existing gates.
+
 - `HUMANIZATION-GATE.md` — **the working humanization gate for every article, in every chat (Joel, 2026-09-30).** It was promoted from the Inner Child lane. It covers:
   - sense before humanization;
   - the owner-edits ledger;

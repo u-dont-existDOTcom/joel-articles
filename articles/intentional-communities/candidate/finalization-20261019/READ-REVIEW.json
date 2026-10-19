@@ -1,0 +1,45 @@
+{
+  "source_sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7",
+  "candidate_sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+  "owner_answers_sha256": "a9139d734659a4fe2ef9f4a62538cae13c83f29a20aa9a42b18245fe91cb926c",
+  "format": "joel-editorial-reviewed-assembly-v1",
+  "status": "PASS_WITH_OWNER_CHOICES",
+  "scope": "Source preservation and whole-article route reviewed on the first r03 assembly; the final practice-route changes received a separate fresh targeted read. Producer performed a complete assembled read and raw-object/link checks.",
+  "evidence": [
+    {
+      "role": "fresh source/candidate editorial reader",
+      "requested_model": "gpt-6.1-sol",
+      "effort": "xhigh",
+      "reviewed_candidate_sha256": "ad28d48caa7e052b9f5612bf529243a96a6278aa0f829e3f1c89df5aa8268e97",
+      "result": "No material source loss identified; two reader-route opportunities and one title-field query.",
+      "input_scope": "Complete source and candidate normalized prose with native-object placeholders, exact owner answers; no producer rationale."
+    },
+    {
+      "role": "fresh targeted final-delta reader",
+      "requested_model": "gpt-6.1-sol",
+      "effort": "high",
+      "reviewed_candidate_sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+      "input_sha256": "a02fea3519d9bce656f8f7ddc776a37370dfc1237f7b8c17a8cd29a7604b3642",
+      "result": "No confirmed defects; practice sequence coherent; final forward pointer matches later headings.",
+      "input_scope": "Final practice chapter and later heading order only; no producer rationale."
+    }
+  ],
+  "reconciliation": {
+    "title_field": "The reader treated the first editor-body heading as the publication title. The raw editor export does not include a separate title field; its absence cannot establish the owner’s title reference is wrong. No edit or renewed flag.",
+    "values_before_visits": "Implemented in final assembly.",
+    "capacity_next_to_membership": "Implemented in final assembly, with later commitments named as prerequisites.",
+    "later_scope_choices": "Legal and dissolution details remain intact pending optional owner decisions."
+  },
+  "unresolved_blocking_findings": [],
+  "owner_choices": [
+    "Q1",
+    "Q2"
+  ],
+  "limitations": [
+    "Fresh contexts are not cross-family corroboration; the Claude route returned a weekly-allowance limit and did not produce a review.",
+    "The second reader checked only the final practice delta, not the whole article again.",
+    "Readers used prose with media placeholders; raw native identity and link counts are checked separately.",
+    "Model receipts do not prove semantic truth or reviewer identity.",
+    "No unsolicited article fact-check, Pangram retest, source-only replay or publication occurred."
+  ]
+}

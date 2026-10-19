@@ -1,0 +1,601 @@
+{
+  "format": "joel-editorial-admission-result-v1",
+  "phase": "editorial",
+  "status": "REVIEW_ELIGIBLE",
+  "issues": [],
+  "checks": [
+    {
+      "check": "contract version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact owner answer file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source matches owner-selected revision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "assembly ledger binds candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "assembly ledger binds source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "assembly ledger binds owner answers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "structure map binds candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "structure map binds source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "structure map binds owner answers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review record binds candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review record binds source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review record binds owner answers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary audit binds candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary audit binds source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary audit binds owner answers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no duplicate block IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source block coverage or exact allowed disposition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "order covers all ledger blocks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "literal reconstruction equals candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W08",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W08",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W09",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W09",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "addition has no hidden source W25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "addition has no hidden source W26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "addition has no hidden source W27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "edit has explanation W28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact edit chain W28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all changed text has an edit record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "native islands preserved byte-for-byte",
+      "passed": true,
+      "detail": "28 source objects; global order may intentionally change"
+    },
+    {
+      "check": "link destinations and occurrence counts preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "outline matches literal headings and parents",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "every mapped heading has purpose and reader question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all dependency endpoints exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "owner/route constraint 1 (adjacent_h1)",
+      "passed": true,
+      "detail": "owner sequence.note"
+    },
+    {
+      "check": "owner/route constraint 2 (same_parent)",
+      "passed": true,
+      "detail": "implementation of owner tentative practice/readiness proposal"
+    },
+    {
+      "check": "owner/route constraint 3 (before)",
+      "passed": true,
+      "detail": "owner commitments before leaving"
+    },
+    {
+      "check": "owner/route constraint 4 (before)",
+      "passed": true,
+      "detail": "owner commitments before leaving"
+    },
+    {
+      "check": "owner/route constraint 5 (before)",
+      "passed": true,
+      "detail": "chosen reader-values-before-visits route"
+    },
+    {
+      "check": "owner/route constraint 6 (before)",
+      "passed": true,
+      "detail": "preserved preparation-first source architecture"
+    },
+    {
+      "check": "owner/route constraint 7 (heading)",
+      "passed": true,
+      "detail": "owner E19"
+    },
+    {
+      "check": "cluster inventory identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cluster inventory source binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "every discovered cluster dispositioned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full-cluster coverage C-practice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cluster has meaningful disposition C-practice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full-cluster coverage C-medicine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cluster has meaningful disposition C-medicine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full-cluster coverage C-exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cluster has meaningful disposition C-exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full-cluster coverage C-overcompletion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cluster has meaningful disposition C-overcompletion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "every move has both-site audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary review M01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary review M02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary review M03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary review M04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary review M05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "boundary review M06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resolved article pointer P01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resolved article pointer P02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resolved article pointer P03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resolved article pointer P04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resolved article pointer P05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "recorded editorial verdict is eligible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no unresolved confirmed blocking finding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "review names actual scope and limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pending independent content retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "stage does not silently promote publication",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "semantic_truth_proved": false,
+  "owner_approval_proved": false,
+  "publication_authorized": false
+}

@@ -1,0 +1,33 @@
+test_candidate_drift (test_editorial_gate.EditorialGateTests.test_candidate_drift) ... ok
+test_changed_output_refuses_package (test_editorial_gate.EditorialGateTests.test_changed_output_refuses_package) ... ok
+test_confirmed_blocking_finding (test_editorial_gate.EditorialGateTests.test_confirmed_blocking_finding) ... ok
+test_dangling_pointer (test_editorial_gate.EditorialGateTests.test_dangling_pointer) ... ok
+test_legitimate_empty_spacer_omission_is_not_blocked (test_editorial_gate.EditorialGateTests.test_legitimate_empty_spacer_omission_is_not_blocked) ... ok
+test_legitimate_review_anchor_is_accepted (test_editorial_gate.EditorialGateTests.test_legitimate_review_anchor_is_accepted) ... ok
+test_loopback_http_positive_and_hostile_requests (test_editorial_gate.EditorialGateTests.test_loopback_http_positive_and_hostile_requests) ... ok
+test_lost_native_island (test_editorial_gate.EditorialGateTests.test_lost_native_island) ... ok
+test_missing_known_overlap_occurrence (test_editorial_gate.EditorialGateTests.test_missing_known_overlap_occurrence) ... ok
+test_missing_map_heading (test_editorial_gate.EditorialGateTests.test_missing_map_heading) ... ok
+test_missing_two_site_audit (test_editorial_gate.EditorialGateTests.test_missing_two_site_audit) ... ok
+test_missing_whole_cluster (test_editorial_gate.EditorialGateTests.test_missing_whole_cluster) ... ok
+test_no_claimed_publication_authority (test_editorial_gate.EditorialGateTests.test_no_claimed_publication_authority) ... ok
+test_owner_answer_drift (test_editorial_gate.EditorialGateTests.test_owner_answer_drift) ... ok
+test_server_checks_disk_bytes_again (test_editorial_gate.EditorialGateTests.test_server_checks_disk_bytes_again) ... ok
+test_server_enrollment_contract_changed (test_editorial_gate.EditorialGateTests.test_server_enrollment_contract_changed) ... ok
+test_server_rejects_client_pass (test_editorial_gate.EditorialGateTests.test_server_rejects_client_pass) ... ok
+test_server_stale_expected_candidate (test_editorial_gate.EditorialGateTests.test_server_stale_expected_candidate) ... ok
+test_service_rejects_wrong_value_types (test_editorial_gate.EditorialGateTests.test_service_rejects_wrong_value_types) ... ok
+test_shrinking_inventory_not_a_workaround (test_editorial_gate.EditorialGateTests.test_shrinking_inventory_not_a_workaround) ... ok
+test_source_revision_drift (test_editorial_gate.EditorialGateTests.test_source_revision_drift) ... ok
+test_stale_reader (test_editorial_gate.EditorialGateTests.test_stale_reader) ... ok
+test_traversal_output_artifact (test_editorial_gate.EditorialGateTests.test_traversal_output_artifact) ... ok
+test_unknown_task_and_no_path_argument (test_editorial_gate.EditorialGateTests.test_unknown_task_and_no_path_argument) ... ok
+test_unresolved_review_anchor_is_blocked (test_editorial_gate.EditorialGateTests.test_unresolved_review_anchor_is_blocked) ... ok
+test_valid_actual_editorial_fixture (test_editorial_gate.EditorialGateTests.test_valid_actual_editorial_fixture) ... ok
+test_valid_package_route (test_editorial_gate.EditorialGateTests.test_valid_package_route) ... ok
+test_wrong_founder_movement_adjacency (test_editorial_gate.EditorialGateTests.test_wrong_founder_movement_adjacency) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 16.060s
+
+OK

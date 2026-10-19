@@ -1,0 +1,267 @@
+{
+  "source_sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7",
+  "candidate_sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+  "owner_answers_sha256": "a9139d734659a4fe2ef9f4a62538cae13c83f29a20aa9a42b18245fe91cb926c",
+  "format": "joel-editorial-gate-contract-v1",
+  "task_id": "community-r03",
+  "source_file": "Owner-Source-1454.html",
+  "candidate_file": "Community-Article-r03-candidate.html",
+  "answers_file": "OWNER-ANSWERS.json",
+  "owner_source_hash_field": "source_C_sha256",
+  "ledger_file": "ASSEMBLY-LEDGER.json",
+  "map_file": "STRUCTURE-MAP.json",
+  "review_file": "READ-REVIEW.json",
+  "boundary_audit_file": "BOUNDARY-AUDIT.json",
+  "cluster_inventory_file": "CLUSTER-INVENTORY.json",
+  "constraints": [
+    {
+      "type": "adjacent_h1",
+      "before": "T135",
+      "after": "T156",
+      "authority": "owner sequence.note"
+    },
+    {
+      "type": "same_parent",
+      "nodes": [
+        "T166",
+        "T184"
+      ],
+      "parent": "T107",
+      "authority": "implementation of owner tentative practice/readiness proposal"
+    },
+    {
+      "type": "before",
+      "before": "T233",
+      "after": "T193",
+      "authority": "owner commitments before leaving"
+    },
+    {
+      "type": "before",
+      "before": "T126",
+      "after": "T193",
+      "authority": "owner commitments before leaving"
+    },
+    {
+      "type": "before",
+      "before": "T120",
+      "after": "T114",
+      "authority": "chosen reader-values-before-visits route"
+    },
+    {
+      "type": "before",
+      "before": "T274",
+      "after": "T279",
+      "authority": "preserved preparation-first source architecture"
+    },
+    {
+      "type": "heading",
+      "node": "T267",
+      "title": "The Medicine Part - Yes, I’m Naming It",
+      "authority": "owner E19"
+    }
+  ],
+  "cluster_inventory_sha256": "9698069e7cc69d1ea3e2b07d74f4102c5b51d41c00c0da461005818a61953930",
+  "publication_authority": "NOT_GRANTED",
+  "review_status": "CANDIDATE_FOR_APPROVAL",
+  "transfer_receipt_file": "TRANSFER-RECEIPT.json",
+  "artifacts": [
+    {
+      "path": "ARTIFACT-FAMILY.md",
+      "sha256": "43547394b9302414fd4777342ee8e370fddd1a74d41024dee23a040e8c029353"
+    },
+    {
+      "path": "ASSEMBLY-LEDGER.json",
+      "sha256": "a695a1c33352bf26b8142a1b7987a6fd65586cb92523f5b46d07bc8a8fba2264"
+    },
+    {
+      "path": "BOUNDARY-AUDIT.json",
+      "sha256": "bd67fc446a4ae9d385a9bd8c16ba8d4d7b297e43ad1a5bf87e7ae0e0cdbd1af3"
+    },
+    {
+      "path": "CANONICAL-HELPER-VERIFY.txt",
+      "sha256": "fde99942a21d2ab3f124bf80c26bb071f94890ea893e663ec106c6ee10773dd9"
+    },
+    {
+      "path": "CANONICAL-PACKAGE-BUILD.json",
+      "sha256": "b355b7e045e1517c31d1849980bdbbf5c1266277343d4e54a53c25ac86639368"
+    },
+    {
+      "path": "CANONICAL-PACKAGE-VERIFY.json",
+      "sha256": "45b00625ebdfd8820772b887b4eda63f8cd76e203b276d65c7d1cbdc7ac338fe"
+    },
+    {
+      "path": "CANONICAL-REVIEW-SELFTEST.json",
+      "sha256": "5b99814614701ccf6fd15f90deffa41dc72e0844ebe62d77fc237607eb615a32"
+    },
+    {
+      "path": "CHANGELOG-r03.md",
+      "sha256": "6a122c2d6eada76814c37706eba86fe8a8a820f2ad9851636f4790823aabf395"
+    },
+    {
+      "path": "CLAUDE-FINALIZATION-BRIEF.md",
+      "sha256": "9515547180e8e3e1d0ba511c9f9d1172bfef67a2d1bb7e76dd3f0d6a27ce4b88"
+    },
+    {
+      "path": "CLIPBOARD-SINK-CHECK.json",
+      "sha256": "46386793141e474f800c4a7cade159642a95bd0ddc95c8abfa7232ed89f1670c"
+    },
+    {
+      "path": "CLUSTER-INVENTORY.json",
+      "sha256": "9698069e7cc69d1ea3e2b07d74f4102c5b51d41c00c0da461005818a61953930"
+    },
+    {
+      "path": "COMMENT-RESOLUTION-LEDGER.md",
+      "sha256": "26df0a7a33c528791fa5b78716c7e0b04fc4251e8d8b777e25b091328a1c764b"
+    },
+    {
+      "path": "Candidate-Reading-r03.html",
+      "sha256": "6fb699095baffa1b8fe7b067adcc38776918658c757f83758cb4cd24ea449270"
+    },
+    {
+      "path": "Canonical-Review-Package.zip",
+      "sha256": "935d5dfd8bc00b03253fb0e067823b692f669a9220baf616289f4be956b25322"
+    },
+    {
+      "path": "Community-Article-r03-candidate.html",
+      "sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0"
+    },
+    {
+      "path": "Copy-to-Substack-r03.html",
+      "sha256": "cc6eaeb427c1c07903f69b29bacdd6c0a9520c58668af64a1e2404eb99166af2"
+    },
+    {
+      "path": "DIFF-BROWSER-CHECK.json",
+      "sha256": "8433bcbef8a2ba760965fbf9df176b9d59945f3503634fcfd2b64f998b5c6305"
+    },
+    {
+      "path": "DIFF-BROWSER-CHECK.md",
+      "sha256": "c7f0b7f8e39eaf02fd9d4f4e6c00b01a632bb867cb15e6d54666bd5d480fe8ea"
+    },
+    {
+      "path": "EDITORIAL-DEDUP-EXECUTION.md",
+      "sha256": "b1ba85f3d4975c9688ed6406bf62e906c7a9b6fc11d6381f03023da832445020"
+    },
+    {
+      "path": "EDITORIAL-EXECUTION-ENFORCEMENT.md",
+      "sha256": "cc45cfc5f6dc3f8570923c76c706b1025274fa6cf6ae8a207324db605f2e1dba"
+    },
+    {
+      "path": "Editing-Protocol-r03.html",
+      "sha256": "0d1841723eee8bae47a1090ea6ff477eab22b85012cafbdcdd955b31ed2345ae"
+    },
+    {
+      "path": "FULL-BROWSER-CHECK.json",
+      "sha256": "4d570b04eeaa6f46298a0804cac87185ef418b787b7d5a526ba4d50aa93f4648"
+    },
+    {
+      "path": "FULL-BROWSER-CHECK.md",
+      "sha256": "a232a99f8a9bcd0d38caadfd6b261eff1f788930fd856927bca20471abacd496"
+    },
+    {
+      "path": "Full-Article-r03.html",
+      "sha256": "5fa57709e8c81edb42e6156bc427fc462c2afd2b38526ad53c05fc348acf839c"
+    },
+    {
+      "path": "GATE-REGRESSION-TESTS.txt",
+      "sha256": "d30389e6be978ed0ff6619a3aeebb870fd289d7e3f169e85fbcbd5745979fa05"
+    },
+    {
+      "path": "MAP-BROWSER-CHECK.json",
+      "sha256": "2f8212dc1fbe740a3c12f1ff8265de006c001649a516dbde9d3d2d3e9d430299"
+    },
+    {
+      "path": "MOVE-REVIEW-BROWSER-CHECK.json",
+      "sha256": "b18076fb2d3cbec701f7c345b8c2ea8532596d894b348047d60a22869c1ab6cc"
+    },
+    {
+      "path": "NATIVE-INVENTORY.json",
+      "sha256": "d01095c55ce13cb776cad589481c98d237d2a34fccaa922d31156423db1dceef"
+    },
+    {
+      "path": "NAVIGATION-REPAIR.md",
+      "sha256": "961aaca1dcac1c2bdb1cff082a98118d0a131d88068fcd82864ce2ef52b2693c"
+    },
+    {
+      "path": "OWNER-ANSWERS.json",
+      "sha256": "a9139d734659a4fe2ef9f4a62538cae13c83f29a20aa9a42b18245fe91cb926c"
+    },
+    {
+      "path": "Owner-Reading-r03.html",
+      "sha256": "5880dc98a9905c943dcdd9a30e99d0e307d0acb0abd53794096ab4a93c4c606c"
+    },
+    {
+      "path": "Owner-Source-1454.html",
+      "sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7"
+    },
+    {
+      "path": "PROJECT_STATE.md",
+      "sha256": "627e76c6825c801aae6237f474a024c437dcdc1556df7f4831c968e6524a66ce"
+    },
+    {
+      "path": "READ-REVIEW.json",
+      "sha256": "c3ec04bb17fd56449ec93decf105379281513129739dbc92efdfb4b103e369b5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c15b5750bbbbbe9a26f76fa72841fc097018dfae527f30f6f8669d624aefa479"
+    },
+    {
+      "path": "STRUCTURE-MAP.json",
+      "sha256": "ace48fa0ac45fca25d84fa76a59ff26bc5e52b5737cb9cc6e84c2dca59f8500b"
+    },
+    {
+      "path": "Side-by-Side-r03.html",
+      "sha256": "705763af0e606753afff881f982e752f031317e6b508ea5026e2249c28bb1f39"
+    },
+    {
+      "path": "Structure-and-Decisions-r03.html",
+      "sha256": "fc020ef512140f19f4439321e4f96e50da86357f90d0595fd07adadcd41ce8f0"
+    },
+    {
+      "path": "TEST-ORACLE-REPAIR.md",
+      "sha256": "fffd27cffb1bd9152fe5542b4a8a0eb4f46e9497eeaa94a1cde7a547453a70a4"
+    },
+    {
+      "path": "TRANSFER-COMPATIBILITY.md",
+      "sha256": "f53465bee370008746224a4fa315b1b08740225bf55f713f18523a1e10bc3501"
+    },
+    {
+      "path": "TRANSFER-PLAN.json",
+      "sha256": "cf315800e8f223d4160bea8ad3ec5d8b72aae1ddb4b73d1279374eb15f79595a"
+    },
+    {
+      "path": "TRANSFER-RECEIPT.json",
+      "sha256": "9c77e33d901bdfb21e75eaf8bcfcdf48b2852b7dd8d529a2ce521ada22c4e510"
+    },
+    {
+      "path": "TRANSFER-REPORT.md",
+      "sha256": "8d6e931e31aa4c283dae5763995870090ad3fb74027c718c8a47ec719a36afb9"
+    },
+    {
+      "path": "final-delta-reader-answer.txt",
+      "sha256": "41f30811b29c22e48905a7dd06519064e9540789fb14c46f528ebcbc0b2b5f00"
+    },
+    {
+      "path": "final-delta-reader-receipt.json",
+      "sha256": "e6947a167a28c65c4a6c8db8e1f5333712f50ffb3b00447564bc0ae90c53dee2"
+    },
+    {
+      "path": "full-reader-answer.txt",
+      "sha256": "ded4bed364a486537f4244eb945dbf5b41b592c44a9739085de885fbe05fc37a"
+    },
+    {
+      "path": "full-reader-receipt.json",
+      "sha256": "3d4cd687d23491766e2f3d1fc810531d46d228d50795f1016a5117ce82771b77"
+    },
+    {
+      "path": "DELIVERY-GATE-RESULT.json",
+      "sha256": "012c6608caf7e468412b1079bc5ff32894afc6a773f50aeb68c92b4788f3d218"
+    }
+  ],
+  "navigation_artifacts": [
+    "Structure-and-Decisions-r03.html",
+    "Editing-Protocol-r03.html",
+    "Owner-Reading-r03.html",
+    "Candidate-Reading-r03.html"
+  ]
+}

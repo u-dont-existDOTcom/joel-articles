@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "file_sha256": "fc020ef512140f19f4439321e4f96e50da86357f90d0595fd07adadcd41ce8f0",
+  "scope": "Exact local files, move-site/lexical/decision-history/reading-view controls. Not a new prose judgment.",
+  "checks": [
+    {
+      "check": "paired lexical diffs",
+      "passed": true
+    },
+    {
+      "check": "two-site contexts",
+      "passed": true
+    },
+    {
+      "check": "source/destination links",
+      "passed": true
+    },
+    {
+      "check": "shared relation comment persists",
+      "passed": true
+    },
+    {
+      "check": "export relation endpoints and history",
+      "passed": true
+    },
+    {
+      "check": "Markdown export",
+      "passed": true
+    },
+    {
+      "check": "test answers cleared",
+      "passed": true
+    },
+    {
+      "check": "Owner-Reading-r03.html full-length paragraph view",
+      "passed": true
+    },
+    {
+      "check": "Owner-Reading-r03.html mobile fit",
+      "passed": true
+    },
+    {
+      "check": "Candidate-Reading-r03.html full-length paragraph view",
+      "passed": true
+    },
+    {
+      "check": "Candidate-Reading-r03.html mobile fit",
+      "passed": true
+    },
+    {
+      "check": "no JavaScript exceptions",
+      "passed": true
+    }
+  ]
+}

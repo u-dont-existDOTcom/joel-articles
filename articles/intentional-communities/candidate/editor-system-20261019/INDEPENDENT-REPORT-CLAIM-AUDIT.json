@@ -1,0 +1,133 @@
+{
+  "overall": {
+    "verdict": "SUBSTANTIALLY_SUPPORTED_WITH_REPAIRS",
+    "summary": "The report's structural and quantitative claims hold against the supplied normalized texts. These include block counts, exact-match counts, heading counts, section positions, which three-way practice cluster B left unmerged, which B changes survive into C, and which C changes are new owner material. It also correctly declines to claim a replay, a Pangram result, or labour savings. The defects are of five kinds: (1) two rule anchors quote files that were not supplied, and one of them differs from the supplied near-equivalent; (2) one paraphrase of new owner material shifts its scope; (3) one quoted request is unverifiable and is used as the claimed cause of a failure; (4) one verification claim names neither the method nor the comparison; (5) some wording is under-credited to B or reads intent into owner deletions. None of these overturns the report's main lessons."
+  },
+  "scope": {
+    "checked": [
+      "Block totals A=365, B=356, C=347 against the supplied stable IDs (A001–A365, B001–B356, C001–C347).",
+      "Exact-match counts. I enumerated by hand, against the supplied normalized text, every C block without an identical A block (19 headings + 30 paragraphs = 49 → 298 matches) and without an identical B block (14 headings + 25 paragraphs = 39 → 308 matches). Both agree with the report and MEASUREMENTS.json.",
+      "Heading counts A=56, B=58, C=62, by enumerating every h1–h3 ID.",
+      "Word-count arithmetic only: 17193−16442=751; 17193−15950=1243; 16442−15950=492. The word totals themselves were not recounted because raw HTML was not supplied.",
+      "Zapatista position: 9th h1 in A (A176) and 5th h1 in C (C066).",
+      "The practice cluster: A208–A212, A313–A320, A321–A331; B198–B201 vs B308–B322; C092–C098.",
+      "The freedom synthesis (C041–C047 vs A046, A051–A056); federation/resource compression (A205–A206, A212, A219, A221 vs C144, C110); internal moves (C140–C148, C254 vs C259).",
+      "B-credited changes: B207–B213, B239/B269–B271, B272–B285, B233–B234. Each persists as C109–C116, C136/C175–C177, C178–C191, C129–C130.",
+      "Owner additions: C073, C036, C313, C110, C118, C133, C096–C098.",
+      "Rule-crosswalk quotations against the supplied SKILL.md, TASK-MODES.md and MULTISCALE-EDITORIAL-LEDGER.md."
+    ],
+    "not_checkable_from_supplied_material": [
+      "Timestamps (01:04, 14:54), Joel's descriptions of A and C, and his statement that section order is unsettled.",
+      "Commit e6483ba…, the absence of CLAUDE.md, AGENTS.md content, and EDIT-CONTRACT-AND-LEDGERS.md content.",
+      "The earlier tool trace and prefix-only fetches, the prior deliverables' completion language, and the prior 750-word figure.",
+      "Raw-file SHA-256 values, the recovered 9,192-byte guideline hash, the 22 case files E01–E22, and the proposed docs/EDITORIAL-DEDUP-EXECUTION.md."
+    ],
+    "method_note": "This is a manual comparison of the report against the supplied texts. It is not an independent source-only replay, not a recomputation from raw HTML, and not a fact-check of the article's content."
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "report_claim": "RULE-CROSSWALK row: `project-sources/EDIT-CONTRACT-AND-LEDGERS.md`, Consolidation disclosure | \"Every section or passage consolidation requires an external explanation to Joel.\"",
+      "evidence": "EDIT-CONTRACT-AND-LEDGERS.md was not supplied, so this quotation cannot be confirmed. The supplied TASK-MODES.md (Developmental edit) contains a related but differently worded rule: \"Whenever a section is consolidated, tell Joel what was combined, where each unique function went, and whether removed text was moved, duplicated, or superfluous.\" That supplied rule supports the proposed 'exact old→new placement' repair more directly than the unverifiable quote does.",
+      "severity": "medium",
+      "type": "unverifiable_quotation_anchor",
+      "smallest_repair": "Either cite the supplied TASK-MODES.md sentence as the anchor, or keep the EDIT-CONTRACT quote and mark it 'not reverified in this audit packet'."
+    },
+    {
+      "id": "F2",
+      "report_claim": "RULE-CROSSWALK row: `AGENTS.md`, Method fit and switching | \"switch to a causally different approach, not the same one renamed\" — with problem 'The same conservative trim was insufficient after the first owner correction'. Also: 'The article's AGENTS.md expressly requires shared rules rather than a per-chat fork.'",
+      "evidence": "No AGENTS.md text was supplied. SKILL.md refers only to a repository-level AGENTS.md and does not mention an article-level one. Nothing supplied documents a 'first owner correction' or what followed it.",
+      "severity": "medium",
+      "type": "unverifiable_quotation_and_event",
+      "smallest_repair": "Label the AGENTS.md quotations and the 'first owner correction' sequence as taken from an unsupplied file or record and unverified here, or attach the exact passage. Replace 'the article's AGENTS.md' with the actual path."
+    },
+    {
+      "id": "F3",
+      "report_claim": "\"It could not truthfully reconstruct ... the newly explicit claim about every manual Joel read\"",
+      "evidence": "C036 reads \"The secular communes (and all the manuals I've seen on building them)\". The report's paraphrase changes 'seen' to 'read' and widens 'manuals ... on building them' (secular communes) to 'every manual'. Elsewhere the report quotes the phrase correctly as \"all the manuals I've seen\" (lesson 2), so the two passages are inconsistent.",
+      "severity": "medium",
+      "type": "paraphrase_scope_drift_of_owner_material",
+      "smallest_repair": "Replace with: 'the new parenthetical claim about \"all the manuals I've seen\" on building secular communes (C036)'."
+    },
+    {
+      "id": "F4",
+      "report_claim": "\"The outputs show two execution failures. First, the original preservation request was treated too conservatively: “do not rewrite much” constrained the search for structural improvements, rather than constraining the wording used to implement those improvements.\"",
+      "evidence": "The original request is not supplied, so the quoted words \"do not rewrite much\" cannot be confirmed as Joel's exact words. The outputs can show that B's structural changes were limited: most A blocks survive into B, and B kept three parallel practice treatments in two sections. But the outputs cannot show that this request was the cause. The report concedes the same limit two sentences later ('regardless of the model's unobservable internal rationale').",
+      "severity": "medium",
+      "type": "unverifiable_quotation_plus_causal_overclaim",
+      "smallest_repair": "Cite or link the exact request wording. Recast the first failure as: 'B's structural changes stayed narrow (observable); we read this as the preservation request having been applied to structure rather than wording (interpretation).'"
+    },
+    {
+      "id": "F5",
+      "report_claim": "\"All three raw article sources and all quoted case excerpts are reverified.\" (also: guideline draft \"recovered byte-for-byte\")",
+      "evidence": "This sentence does not name what was compared against what: hash, normalized text, or raw HTML. SKILL.md ('Say exactly what was checked') requires a verification claim to name what was compared against which source. MEASUREMENTS.json gives source hashes but no case-excerpt check, and the E01–E22 excerpts were not supplied. The block-level counts I could check are consistent, but that does not verify the case excerpts.",
+      "severity": "low",
+      "type": "unspecified_verification_claim",
+      "smallest_repair": "State the method, e.g. 'Raw sources match the SHA-256 values in MEASUREMENTS.json; each case excerpt was string-matched against the normalized block text of its named version.' Attach the check output or its location."
+    },
+    {
+      "id": "F6",
+      "report_claim": "\"C gathers freedom, sacred-practice and living-agreement material after the failure diagnosis ... Most of that text already existed in A's following model section.\"",
+      "evidence": "Most of it did: C042 comes from A051 ('And' dropped); C044 is a modified A053; C045–C047 equal A054–A056, all in A's Four Parts / Founded on Freedom section. But C043 is identical to A046, which sits inside A's 'The spiritual failure' subsection, i.e. the diagnosis itself, not the model section. 'Most' holds, but the stated origin is incomplete.",
+      "severity": "low",
+      "type": "imprecise_source_location",
+      "smallest_repair": "Append: '(C043 was already in A's spiritual-failure subsection, A046; C042 and C044–C047 come from A051–A056).'"
+    },
+    {
+      "id": "F7",
+      "report_claim": "\"B made useful changes that survive into C: relocating the moneylessness stages; separating privacy risk from admission/gatekeeping; bringing voluntary departure, removal and dissolution under one parent; and folding the informal founder discussion into its parent.\" Together with lesson 6: \"C's approach ... combines useful passages and removes explanatory wrappers.\"",
+      "evidence": "All four credited moves are confirmed: B207–B213→C109–C116; B239/B269–B271→C136/C175–C177; B272–B285→C178–C191; B233–B234→C129–C130. However, several B deletions also persist into C and go uncredited: A077, A079, A119, A223, A241, A290, A320, the tail of A065, and the opening of A068. Some of these are exactly the wrapper or aftercare removals that lesson 6 attributes to 'C's approach'. Of the 1,243 A→C words removed, 751 were removed by B. The list is not claimed to be exhaustive, so this is under-crediting rather than a false statement.",
+      "severity": "low",
+      "type": "incomplete_credit_risk_of_miscredit",
+      "smallest_repair": "Add one sentence: 'B's cuts also persist in C (e.g., A077, A079, A119, A223, A241, A290); wrapper removal in C is partly inherited from B.' In lesson 6, change 'C's approach' to 'the A→C result'."
+    },
+    {
+      "id": "F8",
+      "report_claim": "\"Their disappearance is an owner editorial choice\"; \"The author's choices show willingness to trust the reader\"; \"That is direct evidence of an incomplete global dedup\"; \"B's main unfinished work was the full three-way practice cluster, the earlier positive synthesis and whole-model example, resource/federation compression, and internal prerequisite sequencing.\"",
+      "evidence": "The overlap behind 'direct evidence' is demonstrable: B200 vs B315 both require getting through a disagreement, and B199/B201 vs B309 both say land is not needed yet. But MULTISCALE-EDITORIAL-LEDGER.md allows a recurrence to count as setup or application, so calling it a 'true duplicate' is an editorial classification. C's merger confirms Joel's judgment; it is not a mechanical proof. 'Willingness to trust the reader' attributes motive. The 'unfinished work' list mixes the one demonstrated overlap with three items that are later owner sequencing preferences; the report itself calls the Zapatista move 'a sequencing judgment'.",
+      "severity": "low",
+      "type": "judgment_stated_as_demonstration_or_intent",
+      "smallest_repair": "Use: 'the remaining overlap is demonstrable; classifying it as a true duplicate is an editorial judgment that C's merger confirms'. Replace 'show willingness to trust the reader' with 'reduce repeated enumeration'. Split 'unfinished work' into 'demonstrated residual duplication (practice cluster)' and 'opportunities C exercised (synthesis placement, Zapatista sequencing, compression, prerequisite order)'."
+    }
+  ],
+  "verified_without_finding": [
+    "Block totals 365/356/347 and match counts 298/308; the non-matching residue of 49/39 does include headings, merged paragraphs, small rewrites and new material.",
+    "Heading counts 56/58/62.",
+    "Zapatistas move from h1 section 9 to section 5.",
+    "A spreads the practice cluster over three places; B merged only If You Can't Move and What to Do This Month (B308); C consolidates earlier (C092–C098), drawing on A210's conflict detail.",
+    "Federation: A205–A206 become C144; C drops A206's grants/loans/guarantees, A212's cash reserves and critical skills, and A221's visibility and conflicts-of-interest material. All of these were still present in B (B196, B215, B218), so the drops are attributable to C.",
+    "C places federation before Experiment Before You Split Off (C140–C148) and Integration before the benefits subsection (C254 vs C259); neither move was in B.",
+    "These owner additions are correctly identified: Mayan grammar (C073); 'compatible' (C044); buy→find land (A034→C313; C says 'find some land'); legal/illegal entity and squatting (C110); Founding Fathers (C118); Pharaoh (C133); renegotiation, phases and motivation (C096–C098).",
+    "Rule quotations confirmed verbatim in the supplied files: TASK-MODES 'Diagnose selection, order, ... before sentences.'; MULTISCALE 'primary home' and 'complete assembled natural boundary from top to bottom'; SKILL 'Do not atomize prose ...' and 'Independence must be real ...'.",
+    "The report's claim that the repository already required selection and order, a primary home, consolidation disposition, a literal assembled read, and separation of fidelity from quality is supported by TASK-MODES, MULTISCALE and SKILL. The consolidation-disposition support is TASK-MODES' consolidation disclosure, which is closer to tracking than 'integration'.",
+    "Replay status NOT_RUN and the absence of any claimed Pangram result or minutes-saved estimate are consistent across the report and MEASUREMENTS.json."
+  ],
+  "uncertainty": [
+    "I did not recount words. The totals 17,193/16,442/15,950 depend on raw HTML extraction that was not supplied; only their arithmetic was checked.",
+    "My match enumeration assumes the supplied normalized text is the same normalization the report used. A difference in normalization, such as quote style or whitespace, could shift individual matches, although my totals agree exactly with the report's.",
+    "SKILL.md lists five registered articles and Intentional Communities is not among them, so it is unclear what the report's 'registered baseline' refers to. The list may be stale; this cannot be resolved from the supplied material.",
+    "Claims about the prior tool trace, prefix-only fetches, the prior deliverables' wording, recovery hashes and case files E01–E22 can be neither confirmed nor refuted here. I treat them as unverified, not as defects.",
+    "Whether the B-era duplication counts as a true duplicate or legitimate application is an editorial judgment. C settles it as Joel's preference, not as a rule violation by B."
+  ],
+  "execution": {
+    "purpose": "independent claim check of report; NOT source-only writer replay",
+    "actual_model_ids": [
+      "claude-opus-5-5"
+    ],
+    "input_sha256": "c9028f599223d6a81a98c5c58f90a905192e87b94268e433459a60d603d78b9d",
+    "input_chars": 461496,
+    "session": "fresh print request; no resume or session persistence; empty tool list and settings sources; strict MCP configuration",
+    "scope_limit": "Reviewer received A/B/C normalized reading copies and named report/rule files. It did not receive every raw source, every rule file, or the prior full tool trace."
+  },
+  "dispositions": {
+    "F1": "Exact EDIT-CONTRACT-AND-LEDGERS.md quote directly rechecked against pinned repository file; missing from reviewer input, not missing evidence. Retained.",
+    "F2": "Root AGENTS.md exact method-switch quote directly rechecked. Corrected article’s AGENTS to repository’s root AGENTS. Earlier user correction is in conversation record, outside reviewer packet.",
+    "F3": "Replaced every manual read with exact all the manuals I’ve seen on building secular communes.",
+    "F4": "Inserted exact original user wording and separated observable narrow changes from retrospective causal interpretation.",
+    "F5": "Named raw-byte hash comparison and exact normalized-block string-match method. Integrity output attached.",
+    "F6": "Added exact distinction between the pre-existing spiritual-failure paragraph and moved model-section paragraphs.",
+    "F7": "Credited persistent B cuts and described combined A→C result rather than attributing all wrapper removal to C.",
+    "F8": "Separated observed overlap, editorial duplication judgment, and alternative sequencing/compression opportunities; removed attribution of author motive."
+  },
+  "post_repair_status": "Named corrections directly rechecked; no second independent whole-report pass claimed."
+}

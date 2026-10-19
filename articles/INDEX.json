@@ -63029,6 +63029,436 @@
           "path": "articles/intentional-communities/candidate/in-context/ic08-v6.json",
           "sha256": "f8f152b746747cdf49c520e4ad2be3a0d8e16d1e573b1d7413b0af0a3df9e432",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/A-READING-COPY.txt",
+          "sha256": "ec021320b24ece531d9e739bc865256b0baaf9780489d85a3d82e8fc51a654d8",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/B-READING-COPY.txt",
+          "sha256": "4ecb560efff2449f03a85b2432478b50964f93b5fa1a614ac0475316dff40a75",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/BROWSER-CONTROL-CHECK.json",
+          "sha256": "4f1e41adb73cd678997e70b501e3c1945a2b84a0db00f6ee4363a2c2fc153a6b",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/C-READING-COPY.txt",
+          "sha256": "08b8ad987365ba8129f5a39f6c36869680a67b49000876a4de70a4107c5ba53a",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/CLAUDE-CHANGE-BRIEF.md",
+          "sha256": "8c5e4fb498872b6c3ee6776131ba078a4aab91080d8d4724c4c18a6c531c8194",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/COMPARISON-AND-FAILURE-AUDIT.md",
+          "sha256": "f91c9a75446af2d6b3f6269d27129c27b9ac469f10dd2393ef0c90a719cf7717",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/EDITORIAL-DEDUP-EXECUTION-DRAFT.md",
+          "sha256": "3515846af957ae8810ab8d7fc8185c4d898ace964c421a9ae0ed67d6bc350ffc",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/EDITORIAL-RESEARCH.md",
+          "sha256": "2fbefa83ca1fb4a001b5f71878e60f45894e5cc63a39b0562ef28c4fcc375047",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/EXACT-COMPARISON-CASES.md",
+          "sha256": "d77f17daa20c328b2ac53a9728a90d67ec9c95a87c448837a826b981a8907ccd",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/Editing-Dedup-Guidelines.html",
+          "sha256": "1096ba944be99b9df033f33279e09fe0f80bb16423bea90d12fdc946af4eba87",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/Editing-System-Review.html",
+          "sha256": "aca11e6c07323002ac7f5e07279b9eaa6c57c7e463c254bbc13a64a3a9a7d662",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/INDEPENDENT-REPORT-CLAIM-AUDIT.json",
+          "sha256": "6bfd38c4b8895bb01e9b611d5217cdd204c76304600fad20987fc5592de6e4b6",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/MEASUREMENTS.json",
+          "sha256": "a65bd7a5c0ac06c79a827cdfb00ada5204974a58cb16b7cae87e9b95fcf12d65",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/OWNER-CHANGE-CATALOG.json",
+          "sha256": "81d4903aa9564ea6f21569f933c1e63aafb28cc063ea50ab26c246e5a97e312c",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/README.md",
+          "sha256": "ed66dbc4caeb7b40e9762693fb5d07c44be063260c3bcb5c4c4a730ca8ef4d8d",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/RECOVERY-AND-VALIDATION.md",
+          "sha256": "5654d2f98d21dfeb2b3e09be79965276e6770bc0527a4415798efa90ac444b94",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/REPLAY-PROTOCOL.md",
+          "sha256": "d3660ddb434f47f3b7457a3512000f774f7818bfe9c06e7ea6465671e702f18b",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/RULE-CROSSWALK.md",
+          "sha256": "0b2be7076a060a2acf89692b1abdbbd1712f4a18ee13e242916d86de069014ff",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SEQUENCING-REVIEW.md",
+          "sha256": "22142deb5ede7ca211962d54ba631df7d75397d7179b1d2fd0bb954ab468068d",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-A-FIRST-SUPPLIED.html",
+          "sha256": "17bfd53a7e149c208058771caed02c0a220b8e7123080e0907a96fc45eb39cbf",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-B-ASSISTANT-r02.html",
+          "sha256": "2ca1c0df8683e31c4203a6f0c9001fcbb3e6fb4b33a069e983c0a1fdb216b5eb",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-C-OWNER-1454.html",
+          "sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/SOURCE-CASE-INTEGRITY.json",
+          "sha256": "6b50c4f4485b675953bf49a47a024d780078d35dcb8fd1a9949689cf1e6258fe",
+          "role": "editorial_system_study_reference"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/editor-system-20261019/TASK-STATE.md",
+          "sha256": "be8c4e52ac6745215cb836da98992a86b2f0a959bba17c0f7b590621919e2e7d",
+          "role": "editorial_system_review_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/ARTIFACT-FAMILY.md",
+          "sha256": "43547394b9302414fd4777342ee8e370fddd1a74d41024dee23a040e8c029353",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/ASSEMBLY-LEDGER.json",
+          "sha256": "a695a1c33352bf26b8142a1b7987a6fd65586cb92523f5b46d07bc8a8fba2264",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/BOUNDARY-AUDIT.json",
+          "sha256": "bd67fc446a4ae9d385a9bd8c16ba8d4d7b297e43ad1a5bf87e7ae0e0cdbd1af3",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CANONICAL-HELPER-VERIFY.txt",
+          "sha256": "fde99942a21d2ab3f124bf80c26bb071f94890ea893e663ec106c6ee10773dd9",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CANONICAL-PACKAGE-BUILD.json",
+          "sha256": "b355b7e045e1517c31d1849980bdbbf5c1266277343d4e54a53c25ac86639368",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CANONICAL-PACKAGE-VERIFY.json",
+          "sha256": "45b00625ebdfd8820772b887b4eda63f8cd76e203b276d65c7d1cbdc7ac338fe",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CANONICAL-REVIEW-SELFTEST.json",
+          "sha256": "5b99814614701ccf6fd15f90deffa41dc72e0844ebe62d77fc237607eb615a32",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CHANGELOG-r03.md",
+          "sha256": "6a122c2d6eada76814c37706eba86fe8a8a820f2ad9851636f4790823aabf395",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CLAUDE-FINALIZATION-BRIEF.md",
+          "sha256": "9515547180e8e3e1d0ba511c9f9d1172bfef67a2d1bb7e76dd3f0d6a27ce4b88",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CLIPBOARD-SINK-CHECK.json",
+          "sha256": "46386793141e474f800c4a7cade159642a95bd0ddc95c8abfa7232ed89f1670c",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CLUSTER-INVENTORY.json",
+          "sha256": "9698069e7cc69d1ea3e2b07d74f4102c5b51d41c00c0da461005818a61953930",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/COMMENT-RESOLUTION-LEDGER.md",
+          "sha256": "26df0a7a33c528791fa5b78716c7e0b04fc4251e8d8b777e25b091328a1c764b",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/CURRENT-WORK.md",
+          "sha256": "f854b96c79c59521c7998721c5f4404953c937f2e5ff60497726867d7b7ab282",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Candidate-Reading-r03.html",
+          "sha256": "6fb699095baffa1b8fe7b067adcc38776918658c757f83758cb4cd24ea449270",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Canonical-Review-Package.zip",
+          "sha256": "935d5dfd8bc00b03253fb0e067823b692f669a9220baf616289f4be956b25322",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Community-Article-r03-candidate.html",
+          "sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Copy-to-Substack-r03.html",
+          "sha256": "cc6eaeb427c1c07903f69b29bacdd6c0a9520c58668af64a1e2404eb99166af2",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/DELIVERY-GATE-RESULT.json",
+          "sha256": "012c6608caf7e468412b1079bc5ff32894afc6a773f50aeb68c92b4788f3d218",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/DIFF-BROWSER-CHECK.json",
+          "sha256": "8433bcbef8a2ba760965fbf9df176b9d59945f3503634fcfd2b64f998b5c6305",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/DIFF-BROWSER-CHECK.md",
+          "sha256": "c7f0b7f8e39eaf02fd9d4f4e6c00b01a632bb867cb15e6d54666bd5d480fe8ea",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/EDITORIAL-DEDUP-EXECUTION.md",
+          "sha256": "b1ba85f3d4975c9688ed6406bf62e906c7a9b6fc11d6381f03023da832445020",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/EDITORIAL-EXECUTION-ENFORCEMENT.md",
+          "sha256": "cc45cfc5f6dc3f8570923c76c706b1025274fa6cf6ae8a207324db605f2e1dba",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/EDITORIAL-GATE-RESULT.json",
+          "sha256": "8a8415168d90dabf4e99616ee774a992e6103e80394e33032901601f285262b7",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Editing-Protocol-r03.html",
+          "sha256": "0d1841723eee8bae47a1090ea6ff477eab22b85012cafbdcdd955b31ed2345ae",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/FULL-BROWSER-CHECK.json",
+          "sha256": "4d570b04eeaa6f46298a0804cac87185ef418b787b7d5a526ba4d50aa93f4648",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/FULL-BROWSER-CHECK.md",
+          "sha256": "a232a99f8a9bcd0d38caadfd6b261eff1f788930fd856927bca20471abacd496",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Full-Article-r03.html",
+          "sha256": "5fa57709e8c81edb42e6156bc427fc462c2afd2b38526ad53c05fc348acf839c",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/GATE-CONTRACT.json",
+          "sha256": "2c7e55a7d0fc156394606f10dfe81b3768115d18beb37514110678397c8bbcbb",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/GATE-REGRESSION-TESTS.txt",
+          "sha256": "d30389e6be978ed0ff6619a3aeebb870fd289d7e3f169e85fbcbd5745979fa05",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/MAP-BROWSER-CHECK.json",
+          "sha256": "2f8212dc1fbe740a3c12f1ff8265de006c001649a516dbde9d3d2d3e9d430299",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/MOVE-REVIEW-BROWSER-CHECK.json",
+          "sha256": "b18076fb2d3cbec701f7c345b8c2ea8532596d894b348047d60a22869c1ab6cc",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/NATIVE-INVENTORY.json",
+          "sha256": "d01095c55ce13cb776cad589481c98d237d2a34fccaa922d31156423db1dceef",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/OWNER-ANSWERS.json",
+          "sha256": "a9139d734659a4fe2ef9f4a62538cae13c83f29a20aa9a42b18245fe91cb926c",
+          "role": "owner_review_source"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Owner-Reading-r03.html",
+          "sha256": "5880dc98a9905c943dcdd9a30e99d0e307d0acb0abd53794096ab4a93c4c606c",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Owner-Source-1454.html",
+          "sha256": "53a85c05fffa5a34165b2cbb9cbd5e224a2d47d2569d54ce3aa4fafbd7936ac7",
+          "role": "owner_review_source"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/PROJECT_STATE.md",
+          "sha256": "627e76c6825c801aae6237f474a024c437dcdc1556df7f4831c968e6524a66ce",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/READ-REVIEW.json",
+          "sha256": "c3ec04bb17fd56449ec93decf105379281513129739dbc92efdfb4b103e369b5",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/README.md",
+          "sha256": "c15b5750bbbbbe9a26f76fa72841fc097018dfae527f30f6f8669d624aefa479",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/STRUCTURE-MAP.json",
+          "sha256": "ace48fa0ac45fca25d84fa76a59ff26bc5e52b5737cb9cc6e84c2dca59f8500b",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Side-by-Side-r03.html",
+          "sha256": "705763af0e606753afff881f982e752f031317e6b508ea5026e2249c28bb1f39",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/Structure-and-Decisions-r03.html",
+          "sha256": "fc020ef512140f19f4439321e4f96e50da86357f90d0595fd07adadcd41ce8f0",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/TEST-ORACLE-REPAIR.md",
+          "sha256": "fffd27cffb1bd9152fe5542b4a8a0eb4f46e9497eeaa94a1cde7a547453a70a4",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/TRANSFER-COMPATIBILITY.md",
+          "sha256": "f53465bee370008746224a4fa315b1b08740225bf55f713f18523a1e10bc3501",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/TRANSFER-PLAN.json",
+          "sha256": "cf315800e8f223d4160bea8ad3ec5d8b72aae1ddb4b73d1279374eb15f79595a",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/TRANSFER-RECEIPT.json",
+          "sha256": "9c77e33d901bdfb21e75eaf8bcfcdf48b2852b7dd8d529a2ce521ada22c4e510",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/TRANSFER-REPORT.md",
+          "sha256": "8d6e931e31aa4c283dae5763995870090ad3fb74027c718c8a47ec719a36afb9",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/article_edit.py",
+          "sha256": "53311a24dae02247160ae4b41a3f83d02fe09013211c6368d2ea44cbb6523b69",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/build_candidate.py",
+          "sha256": "2a375edb755ffea4ae51043557d26848f93dee9a0b45253905a7ffed86f96ccc",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/build_evidence.py",
+          "sha256": "dd8f457460369246a738382c453dee465ac365856e92a90659f3b77cc1b849a2",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/build_map_data.py",
+          "sha256": "4b47c039ec9d285ad36afc03aee439f4186590ccd41f1219c43468cd05d302b0",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/build_protocol.py",
+          "sha256": "b3485cbdff8de41c7044f41260bca61d4f06d82ab8022bc9e5c61264e985f479",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/extend_move_review.py",
+          "sha256": "b6197b777637410fc8d9eaebf1360ac3d605d488e0414b527be9b80a8af70d23",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/final-delta-reader-answer.txt",
+          "sha256": "41f30811b29c22e48905a7dd06519064e9540789fb14c46f528ebcbc0b2b5f00",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/final-delta-reader-receipt.json",
+          "sha256": "e6947a167a28c65c4a6c8db8e1f5333712f50ffb3b00447564bc0ae90c53dee2",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/full-reader-answer.txt",
+          "sha256": "ded4bed364a486537f4244eb945dbf5b41b592c44a9739085de885fbe05fc37a",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/full-reader-receipt.json",
+          "sha256": "3d4cd687d23491766e2f3d1fc810531d46d228d50795f1016a5117ce82771b77",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/map_template.html",
+          "sha256": "f03d92ccc046359e848bd98153be318975af89aabe4888ea106729eb341388c5",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/source-blocks.json",
+          "sha256": "939674530770300c356665c96d462e95d75e1ff2fad67675bfcc04eb30c9a72f",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/test_helper_clipboard.py",
+          "sha256": "30d1b9388d07fafef6a043fb4bbdcd29f1ea13d297537e2ffacdcf1009774a40",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/test_map_browser.py",
+          "sha256": "7aebce94ae4e88ffd9c25b45535892b2d252913a40192aaea2e459808cd86680",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/test_move_review.py",
+          "sha256": "fa8046c4da137ce54b3072243506d6a1adb0e496eb1a3c3efdd6fe1c90e1a698",
+          "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/finalization-20261019/NAVIGATION-REPAIR.md",
+          "sha256": "961aaca1dcac1c2bdb1cff082a98118d0a131d88068fcd82864ce2ef52b2693c",
+          "role": "editorial_finalization_candidate"
         }
       ]
     }

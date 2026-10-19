@@ -1,0 +1,11 @@
+{
+  "scope": "fresh GPT source/candidate editorial read, not cross-family review or replay",
+  "input_sha256": "9c09ad34829e7b825aa8e8f3370a2588f2c6b29bc46ad29366a83aacaac33982",
+  "candidate_sha256": "ad28d48caa7e052b9f5612bf529243a96a6278aa0f829e3f1c89df5aa8268e97",
+  "requested_model": "gpt-6.1-sol",
+  "effort": "xhigh",
+  "status": "COMPLETED",
+  "claude_route": "weekly allowance exhausted; not substituted as cross-family evidence",
+  "returncode": 0,
+  "tool_events": []
+}
