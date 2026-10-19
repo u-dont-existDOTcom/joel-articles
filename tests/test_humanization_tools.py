@@ -1766,3 +1766,62 @@ def test_owner_edit_lines_keep_heading_marks_and_links_keep_parentheses():
     assert coe.check_entry(ok, text, raw, coe.visible(md, quotes=False)) == []
     bad = {'id': 'y', 'status': 'applied', 'must_have_line': ['### Related Clinical Work']}
     assert coe.check_entry(bad, text, raw, coe.visible(md, quotes=False))
+
+
+def test_handoff_note_applies_a_turn_and_refuses_a_miss():
+    """2026-10-19 (turn 76): the handoff note's update is one step, and a step that doesn't match writes nothing."""
+    import handoff_note
+    note = ('# Handoff\n\nWritten (turns 59 to 75 by X); this version is from the end of turn 75 (old; #195).\n\n'
+            '## START HERE\n\n- TURN 75 (old entry)\n\n## Waiting on Joel\n1. old\n\n## Next step\n1. old next\n')
+    upd = {'turn': 76,
+           'replace': [[r'turns 59 to \d+ by', 'turns 59 to 76 by'],
+                       [r'this version is from the end of turn \d+ \([^)]*\)\.', 'this version is from the end of turn 76 (new).']],
+           'insert_before': [['- TURN ', '- TURN 76 (new entry)\n  - detail']],
+           'sections': {'## Waiting on Joel': '1. new'}}
+    out, done = handoff_note.apply(note, upd)
+    assert 'turns 59 to 76 by' in out and 'end of turn 76 (new).' in out
+    assert out.index('- TURN 76') < out.index('- TURN 75')
+    assert '## Waiting on Joel\n1. new\n\n## Next step\n1. old next' in out
+    again, done2 = handoff_note.apply(out, {'insert_before': upd['insert_before']})
+    assert again == out and done2[0].startswith('already there')
+    try:
+        handoff_note.apply(note, {'replace': [['no such text', 'x']]})
+    except SystemExit as e:
+        assert '0 matches' in str(e)
+    else:
+        raise AssertionError('a miss must stop the update')
+
+
+def test_lane_state_sets_the_turn_date_and_fields():
+    """2026-10-19 (turn 76): the checkpoint's date comes from the turn (the scratch helper kept writing 2026-10-18)."""
+    import lane_state
+    t = ('Updated: 2026-10-18 (turn 75). x\n\n## Current checkpoint (2026-10-18, turn 75)\n\n- **In progress:** a\n'
+         '- **Next step (updated on every push, so another account can pick up here):** b\n- **Waiting on Joel:** c\n')
+    out = lane_state.set_state(t, '76', '2026-10-19', ('A', 'B', 'C'))
+    assert 'Updated: 2026-10-19 (turn 76).' in out and '## Current checkpoint (2026-10-19, turn 76)' in out
+    assert '- **In progress:** A\n' in out and 'pick up here):** B\n' in out and '- **Waiting on Joel:** C\n' in out
+
+
+def test_review_rows_takes_the_install_note_and_his_paragraph():
+    """2026-10-19 (turn 76): one rows file makes the review map; a row's note is the comment above its paragraph."""
+    import review_rows
+    with tempfile.TemporaryDirectory() as d:
+        adir = pathlib.Path(d)
+        (adir / 'HUMANIZED-ARTICLE-SO-FAR.md').write_text(
+            '# H\n\n<!-- Turn 76: one sentence added. -->\n\nBefore choosing a therapist, ask.\n', encoding='utf-8')
+        (adir / 'his.md').write_text('# Joel\n\n> Before choosing a therapist, get to know them.\n>\n> Other.\n', encoding='utf-8')
+        m = review_rows.build({'title': 'T', 'blocks': [{'headings': ['# H'], 'rows': [
+            {'label': 'P1', 'start': 'Before choosing a therapist',
+             'beside': {'label': 'Yours', 'file': 'his.md', 'start': 'Before choosing'}}]}]}, adir)
+        row = m['blocks'][0]['rows'][0]
+        assert row['notes'] == ['Turn 76: one sentence added.']
+        assert row['beside']['text'] == 'Before choosing a therapist, get to know them.'
+
+
+def test_pangram_js_reverse_tab_waits_for_every_result():
+    """2026-10-19 (turn 76): tab-6 runs the batch in reverse and returns the results when all N are in."""
+    import pangram_js
+    fwd, rev = pangram_js.calls('2026-10-19-turn76-a', 3, 'abc123')
+    base = 'https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/abc123/articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-a'
+    assert "window.__reverse = false" in fwd and base + ".js'" in fwd
+    assert "window.__reverse = true" in rev and base + "-read.js'" in rev and '.length >= 3) break' in rev

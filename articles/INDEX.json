@@ -22261,6 +22261,16 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-19-turn75.json",
           "sha256": "fe32611972855a6e5131788ef2911a5a3b17bcc6aad1484db410a9503a075345",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-answers/JOEL-20261019-0055.md",
+          "sha256": "5a5855b1a2b7418676874dca1d58456e006a05766dc1cee6fd3c6d7f2bb701df",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t76-guide/t76.py",
+          "sha256": "7b3d1f4f49e3a2c5ba78791079c605b3afbf6b24fb685807a5efdd67e4932e18",
+          "role": "humanization_working_record"
         }
       ]
     },
