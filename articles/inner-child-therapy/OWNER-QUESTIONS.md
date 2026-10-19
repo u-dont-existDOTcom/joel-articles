@@ -14,7 +14,7 @@ None right now.
 
 ### 🟠 The pull request, whenever you like
 
-You merged #194. This turn is in @@PR@@. Merging it is yours.
+You merged #194. This turn is in [#195](https://github.com/u-dont-existDOTcom/joel-articles/pull/195). Merging it is yours.
 
 ## Coming up
 
@@ -31,7 +31,7 @@ You merged #194. This turn is in @@PR@@. Merging it is yours.
 
 Your message, word for word: [experiments/t75-answers/JOEL-20261019-0026.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/501d00d71f906bcc4a789bae350959aa5ea58fd8/articles/inner-child-therapy/experiments/t75-answers/JOEL-20261019-0026.md).
 - **63, A**: Finding a Therapist to Borrow Adulthood P4 has the sentence now, right after your spiritual-experiences sentence: "I'd also want one who doesn't put ideas in your head, and who understands dissociation." The rest of P4 is yours, word for word ([P4 alone Human Written 0.022](https://www.pangram.com/history/f41601f7-d9bc-4575-a731-1baaf677279f); [the section 0.00037, high](https://www.pangram.com/history/4aa96771-0baf-4f97-8d71-838af7500b2f)).
-- You merged [#194](https://github.com/u-dont-existDOTcom/joel-articles/pull/194). This turn is in @@PR@@.
+- You merged [#194](https://github.com/u-dont-existDOTcom/joel-articles/pull/194). This turn is in [#195](https://github.com/u-dont-existDOTcom/joel-articles/pull/195).
 
 ### 🟢 2026-10-19 00:08 UTC
 
