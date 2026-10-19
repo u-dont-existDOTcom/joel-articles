@@ -3079,18 +3079,36 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-19 (turn 74) | the Appendix without the three therapist paragraphs, with his unburdening cut and Related Clinical Work as an h2 (994 words) [t74a_h1app], a screen | Human, low (my call) | Human Written (0.12, High; 1119); 00:14:23 UTC, https://www.pangram.com/history/a7141598-29af-45ee-87e4-1c20a5a3197d | hit |
 | 2026-10-19 (turn 75) | his Finding a Therapist P4 with the sentence of 63, A (134 words) [t75a_fat4b], a screen | Human, low (my call) | Human Written (0.022, Medium; 140); 00:29:04 UTC, https://www.pangram.com/history/f41601f7-d9bc-4575-a731-1baaf677279f | hit |
 | 2026-10-19 (turn 75) | Finding a Therapist to Borrow Adulthood with the sentence of 63, A (382 words) [t75a_h1fat], a screen | Human, low (my call) | Human Written (0.000, High; 418); 00:29:07 UTC, https://www.pangram.com/history/4aa96771-0baf-4f97-8d71-838af7500b2f | hit |
-| 2026-10-19 (turn 76) | PGQ-028 paragraph (support isn't a shortcut to romance), alone (76 words) [t76a_ba3], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | Borrowed Adulthood in Relationship with the PGQ-028 paragraph (272 words) [t76a_h1ba], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | PGQ-032 paragraph (a drug peak that changes nothing), alone (80 words) [t76a_as4b], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | Altered States Can Deepen the Therapy with the PGQ-032 paragraph (1421 words) [t76a_h1as], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | Borrow the Adult Before You Can Be the Adult with the PGQ-033 paragraph (34 words, so no alone check) (2264 words) [t76a_h1bo], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | PGQ-027 and PGQ-029 paragraph (pain), alone (164 words) [t76a_ue2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | When the Adult Voice Feels Fake with the pain paragraph (4370 words) [t76a_h1wa], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | PGQ-030 paragraph (care after harmful care), alone (108 words) [t76a_lomed], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | PGQ-039 first paragraph (before sharing something sensitive), alone (130 words) [t76a_losh1], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | PGQ-039 second paragraph, alone (116 words) [t76a_losh2], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | Before You Try to Go Deep with the PGQ-030 and PGQ-039 paragraphs (4143 words) [t76a_h1by], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | PGQ-037 sentences in my PGQ-012 paragraph, alone (109 words) [t76a_cs57], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | The Chicken-and-Egg Problem with the PGQ-037 sentences (867 words) [t76a_h1ce], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | PGQ-038 paragraph (keeping yourself safe), alone (87 words) [t76a_hero6], a screen | Human, low (my call) | (pending) | |
-| 2026-10-19 (turn 76) | Building Trust With Your Little One with the PGQ-038 paragraph (2390 words) [t76a_h1bt], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-028 paragraph (support isn't a shortcut to romance), alone (76 words) [t76a_ba3], a screen | Human, low (my call) | AI Generated (0.67, Low; 80); 01:25:44 UTC, https://www.pangram.com/history/e9ac094d-8109-47e1-af5b-eda2b1aced40 | miss |
+| 2026-10-19 (turn 76) | Borrowed Adulthood in Relationship with the PGQ-028 paragraph (272 words) [t76a_h1ba], a screen | Human, low (my call) | AI Generated (0.83, High; 285); 01:25:54 UTC, https://www.pangram.com/history/ac0c5d54-278f-468a-a7ac-52e847f9b2e2 | miss |
+| 2026-10-19 (turn 76) | PGQ-032 paragraph (a drug peak that changes nothing), alone (80 words) [t76a_as4b], a screen | Human, low (my call) | Human Written (0.008, Low; 84); 01:26:05 UTC, https://www.pangram.com/history/5fe830b8-05cf-488c-b20d-167829740a0d | hit |
+| 2026-10-19 (turn 76) | Altered States Can Deepen the Therapy with the PGQ-032 paragraph (1421 words) [t76a_h1as], a screen | Human, low (my call) | Human Written (0.07, High; 1520); 01:26:17 UTC, https://www.pangram.com/history/79bfc8d2-b058-4733-8e2e-e1aee3bfef94 | hit |
+| 2026-10-19 (turn 76) | Borrow the Adult Before You Can Be the Adult with the PGQ-033 paragraph (34 words, so no alone check) (2264 words) [t76a_h1bo], a screen | Human, low (my call) | Human Written (0.052; 2387), 2 windows; 01:26:29 UTC, https://www.pangram.com/history/29e74071-c719-43df-90a1-b7b75a5b1776 | hit |
+| 2026-10-19 (turn 76) | PGQ-027 and PGQ-029 paragraph (pain), alone (164 words) [t76a_ue2], a screen | Human, low (my call) | AI Generated (0.8, High; 168); 01:26:41 UTC, https://www.pangram.com/history/89128f45-b51b-4012-be80-d1295a4dd0b5 | miss |
+| 2026-10-19 (turn 76) | When the Adult Voice Feels Fake with the pain paragraph (4370 words) [t76a_h1wa], a screen | Human, low (my call) | Human Written (0.075; 4636), 3 windows; 01:26:54 UTC, https://www.pangram.com/history/ef3fa7e2-3b4a-4cd7-9568-6210f204cfa3 | hit |
+| 2026-10-19 (turn 76) | PGQ-030 paragraph (care after harmful care), alone (108 words) [t76a_lomed], a screen | Human, low (my call) | AI Generated (0.99, Medium; 110); 01:27:00 UTC, https://www.pangram.com/history/20bbc2b1-7cde-4e18-8a7f-9d238f1c2b17 | miss |
+| 2026-10-19 (turn 76) | PGQ-039 first paragraph (before sharing something sensitive), alone (130 words) [t76a_losh1], a screen | Human, low (my call) | AI Generated (0.89, Medium; 134); 01:26:49 UTC, https://www.pangram.com/history/ac51530f-8a1b-41be-9fb9-e9e9a046c716 | miss |
+| 2026-10-19 (turn 76) | PGQ-039 second paragraph, alone (116 words) [t76a_losh2], a screen | Human, low (my call) | AI Generated (0.66, Medium; 122); 01:26:39 UTC, https://www.pangram.com/history/c572789a-6c59-490f-8448-81b41149a528 | miss |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with the PGQ-030 and PGQ-039 paragraphs (4143 words) [t76a_h1by], a screen | Human, low (my call) | AI Detected (0.2; 4389), 4 windows: AI-Generated 591 words (High); 01:26:30 UTC, https://www.pangram.com/history/3919a270-e3bc-495b-b214-af684af8d16c | miss |
+| 2026-10-19 (turn 76) | PGQ-037 sentences in my PGQ-012 paragraph, alone (109 words) [t76a_cs57], a screen | Human, low (my call) | AI Generated (0.73, Medium; 115); 01:26:18 UTC, https://www.pangram.com/history/58395809-9d5d-49c2-8c21-ce28a5ce8788 | miss |
+| 2026-10-19 (turn 76) | The Chicken-and-Egg Problem with the PGQ-037 sentences (867 words) [t76a_h1ce], a screen | Human, low (my call) | Human Written (0.025, High; 905); 01:26:08 UTC, https://www.pangram.com/history/7d81fd90-d6ba-438d-93fd-93c5669e7f9d | hit |
+| 2026-10-19 (turn 76) | PGQ-038 paragraph (keeping yourself safe), alone (87 words) [t76a_hero6], a screen | Human, low (my call) | AI Generated (0.99, Low; 93); 01:25:57 UTC, https://www.pangram.com/history/e316520f-3b40-4b7a-9716-e964bfbee319 | miss |
+| 2026-10-19 (turn 76) | Building Trust With Your Little One with the PGQ-038 paragraph (2390 words) [t76a_h1bt], a screen | Human, low (my call) | Mostly Human Written (0.068; 2492), 3 windows: AI-Generated 93 words (High); 01:25:48 UTC, https://www.pangram.com/history/0f570d27-f472-4707-adc1-e86bf2e9fc4d | hit |
+| 2026-10-19 (turn 76) | PGQ-028 v2 (no, not a lover), alone (95 words) [t76b_ba3c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-028 v3 (the dating app in the night), alone (90 words) [t76b_ba3d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-027/029 v2 (pain, his voice), alone (158 words) [t76b_ue2b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-030 v2, alone (108 words) [t76b_lomedc], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-030 v3, alone (95 words) [t76b_lomedd], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-039 P1 v2, alone (115 words) [t76b_losh1e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-039 P2 v2, alone (127 words) [t76b_losh2e], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-037 v2 (homework), alone (104 words) [t76b_cs57d], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-038 v2, alone (95 words) [t76b_hero6b], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-038 v3, alone (92 words) [t76b_hero6c], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Borrowed Adulthood in Relationship with PGQ-028 v2 (291 words) [t76b_h1ba1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Borrowed Adulthood in Relationship with PGQ-028 v3 (286 words) [t76b_h1ba2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | When the Adult Voice Feels Fake with the pain paragraph v2 (4364 words) [t76b_h1wa1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 v2 and PGQ-039 v2 (4139 words) [t76b_h1by1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 v3 and PGQ-039 v2 (4126 words) [t76b_h1by2], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | The Chicken-and-Egg Problem with PGQ-037 v2 (862 words) [t76b_h1ce1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Building Trust With Your Little One with PGQ-038 v2 (2398 words) [t76b_h1bt1], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Building Trust With Your Little One with PGQ-038 v3 (2395 words) [t76b_h1bt2], a screen | Human, low (my call) | (pending) | |

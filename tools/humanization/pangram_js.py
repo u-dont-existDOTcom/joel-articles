@@ -5,9 +5,10 @@
 
 RUN is the batch's file stem in the article's tools/pangram-runs/ (for example 2026-10-19-turn76-a) and N is how many
 checks it has. Tab-11 runs the batch forward. Tab-6 runs it in reverse, then reads the results every 5 seconds until
-all N are in (or about two minutes have passed) and returns them as JSON, so a batch is one round of two calls, sent
-together, instead of three or four. The files are fetched from raw.githubusercontent.com at SHA (default HEAD, which
-must be pushed). If the tab-6 call ends before the results are in, run RUN-read.js the usual way.
+all N are in or 35 seconds have passed, and returns what it has as JSON. The browser tool stops a call after 45
+seconds (turn 76), so a long batch then needs the third call, "read", which only polls for another 35 seconds; send
+it again until all N are in. The files are fetched from raw.githubusercontent.com at SHA (default HEAD, which must be
+pushed).
 """
 import argparse
 import pathlib
@@ -21,12 +22,12 @@ def calls(run, n, sha, article='inner-child-therapy'):
     base = 'https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/%s/articles/%s/tools/pangram-runs/%s' % (
         sha, article, run)
     fwd = "window.__reverse = false; const src = await fetch('%s.js').then(r => r.text()); (0, eval)(src);" % base
-    rev = ("window.__reverse = true; const src = await fetch('%s.js').then(r => r.text()); (0, eval)(src); "
-           "const rd = (await fetch('%s-read.js').then(r => r.text())).replace('JSON.stringify(out)', 'return JSON.stringify(out)'); "
-           "const read = new (Object.getPrototypeOf(async function () {}).constructor)(rd); let res = '{}'; "
-           "for (let i = 0; i < 24; i++) { await new Promise(r => setTimeout(r, 5000)); res = await read(); "
-           "if (Object.keys(JSON.parse(res)).length >= %d) break; } res") % (base, base, n)
-    return fwd, rev
+    poll = ("const rd = (await fetch('%s-read.js').then(r => r.text())).replace('JSON.stringify(out)', 'return JSON.stringify(out)'); "
+            "const read = new (Object.getPrototypeOf(async function () {}).constructor)(rd); let res = '{}'; "
+            "for (let i = 0; i < 7; i++) { await new Promise(r => setTimeout(r, 5000)); res = await read(); "
+            "if (Object.keys(JSON.parse(res)).length >= %d) break; } res") % (base, n)
+    rev = "window.__reverse = true; const src = await fetch('%s.js').then(r => r.text()); (0, eval)(src); " % base + poll
+    return fwd, rev, poll
 
 
 def main(argv=None):
@@ -37,9 +38,10 @@ def main(argv=None):
     ap.add_argument('--article', default='inner-child-therapy')
     a = ap.parse_args(argv)
     sha = a.sha or subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=REPO, capture_output=True, text=True, check=True).stdout.strip()
-    fwd, rev = calls(a.run, a.n, sha, a.article)
+    fwd, rev, poll = calls(a.run, a.n, sha, a.article)
     print('tab-11:', fwd)
     print('tab-6:', rev)
+    print('read:', poll)
     return 0
 
 
