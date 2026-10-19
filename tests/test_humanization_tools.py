@@ -1748,3 +1748,21 @@ def test_render_in_context_link_keeps_balanced_parentheses():
     text = 'therapy ([Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who developed it'
     assert ns['LINK'].findall(text) == [('Jeffrey Young', 'https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)')]
     assert ns['LINK'].sub(r'\1', text) == 'therapy (Jeffrey Young, who developed it'
+
+
+def test_owner_edit_lines_keep_heading_marks_and_links_keep_parentheses():
+    """2026-10-19 (turn 74): a heading's level is checked as a whole line, and a Wikipedia URL with
+    parentheses doesn't leave a stray ")" in the visible text."""
+    import pathlib
+    import sys
+    root = pathlib.Path(__file__).resolve().parents[1]
+    sys.path.insert(0, str(root / 'tools/humanization'))
+    import check_owner_edits as coe
+    md = '# A\n\n## Related Clinical Work\n\nSee [Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who did it.\n'
+    raw = md
+    text = coe.visible(md)
+    assert 'See Jeffrey Young, who did it.' in text
+    ok = {'id': 'x', 'status': 'applied', 'must_have_line': ['## Related Clinical Work'], 'must_not_have_line': ['### Related Clinical Work']}
+    assert coe.check_entry(ok, text, raw, coe.visible(md, quotes=False)) == []
+    bad = {'id': 'y', 'status': 'applied', 'must_have_line': ['### Related Clinical Work']}
+    assert coe.check_entry(bad, text, raw, coe.visible(md, quotes=False))

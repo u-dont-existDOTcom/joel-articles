@@ -29,6 +29,8 @@ targets kept. A span (from, to) checks one passage only, for strings it must or 
 (2026-10-11: one paragraph mustn't say "get checked" while another section rightly does, about a
 medical warning sign). And it can list strings the article must contain character for character
 (must_contain_exact): the same text, but with its quotes and apostrophes left as they are.
+An entry can also name whole lines the article must or mustn't have (must_have_line, must_not_have_line),
+with heading marks kept, so a heading's level can be checked (2026-10-19).
 Joel, 2026-10-02: his own P9 read 100% Human with his straight apostrophes and 100% AI with
 curly ones, so his paragraphs keep the characters he typed, and only this field can check it. This script checks them against the article given with --article, reading it
 without comments, link targets or emphasis marks, and with curly quotes made straight.
@@ -51,7 +53,9 @@ QUOTES = str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'})
 def norm(s, quotes=True):
     if quotes:
         s = s.translate(QUOTES)
-    s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)   # [text](url) -> text
+    # [text](url) -> text; a URL may hold one level of balanced parentheses, like Wikipedia's
+    # .../Jeffrey_Young_(psychologist) (2026-10-19, turn 74: the old pattern left a stray ")" in the visible text)
+    s = re.sub(r'\[([^\]]*)\]\(((?:[^()\s]|\([^()\s]*\))*)\)', r'\1', s)
     s = s.replace('*', '')
     s = re.sub(r'^#+\s*', '', s, flags=re.M)          # heading marks
     return re.sub(r'\s+', ' ', s).strip()
@@ -70,6 +74,12 @@ def check_entry(e, text, raw='', exact=''):
     for s in e.get('must_contain', []):
         if norm(s) not in text:
             fails.append('missing: "%s"' % s)
+    for s in e.get('must_have_line', []):   # a whole line of the article, heading marks kept (2026-10-19: a heading's level)
+        if s.translate(QUOTES) not in [l.strip() for l in raw.split('\n')]:
+            fails.append('no line: "%s"' % s)
+    for s in e.get('must_not_have_line', []):
+        if s.translate(QUOTES) in [l.strip() for l in raw.split('\n')]:
+            fails.append('line still there: "%s"' % s)
     for s in e.get('must_contain_exact', []):
         if norm(s, quotes=False) not in exact:
             fails.append('missing with these exact characters: "%s"' % s)
