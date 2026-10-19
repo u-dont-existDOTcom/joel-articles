@@ -1731,3 +1731,20 @@ class ClickableLinks(unittest.TestCase):
         page = ('<style>a{color:red} /* https://x.example/css */</style><p>Human (<a href="https://www.pangram.com/history/a1">'
                 'https://www.pangram.com/history/a1</a>), and https://www.pangram.com/history/a2.</p>')
         self.assertEqual(html_links.bare_urls_in_html(page), ['https://www.pangram.com/history/a2'])
+
+
+def test_render_in_context_link_keeps_balanced_parentheses():
+    """2026-10-18 (turn 73): a Wikipedia URL like .../Jeffrey_Young_(psychologist) used to end at its first ")",
+    which left a stray ")" after the link text on the review page."""
+    import importlib.util
+    import pathlib
+    import sys
+    root = pathlib.Path(__file__).resolve().parents[1]
+    sys.path.insert(0, str(root / 'tools/humanization'))
+    src = (root / 'tools/humanization/render_in_context.py').read_text(encoding='utf-8')
+    line = next(l for l in src.split('\n') if l.startswith('LINK = re.compile('))
+    ns = {}
+    exec('import re\n' + line, ns)
+    text = 'therapy ([Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who developed it'
+    assert ns['LINK'].findall(text) == [('Jeffrey Young', 'https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)')]
+    assert ns['LINK'].sub(r'\1', text) == 'therapy (Jeffrey Young, who developed it'

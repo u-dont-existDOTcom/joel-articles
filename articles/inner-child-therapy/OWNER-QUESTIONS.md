@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-18 (turn 72). **Four open questions, 55 to 58**: sentences of yours, or that you accepted, that the filler sweep flagged (55), the one other suggestion in the schema research (56), my wording of your notes (57), and your innerSignalGraph queue's newer guide changes (58). Your answers of 19:06 and 19:26 UTC are in Decided, with what went in and what's still being worked on (Coming up). To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-18 (turn 73). **Three open questions, 60 to 62**: the schema section's two new paragraphs (60), two sentences of mine your Inner Monologue move needed changed (61), and the checking paragraph that's holding up 55, 2 and 54, 11 (62). Your answers of 21:58 UTC are in Decided, with your question 59 answered there. To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,84 +8,68 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 55. The filler sweep: sentences that are yours, or that you accepted
+### 🟣 60. The schema section's two new paragraphs (your 57, 3)
 
-You asked "i wonder if there is other dumb junk we didn't catch". A reader went through the whole article for sentences like that one and found 24 ([the sweep](https://github.com/u-dont-existDOTcom/joel-articles/blob/28165f1ea18c1980f33a6a55c5872226aa5cb1c1/articles/inner-child-therapy/experiments/t72-guide/JUNK-SWEEP.md)). I traced each one before touching it. The ones in my own wording are done or decided (Decided, below). These are your words, your guide's, or text you accepted, so they're yours to call. Each has the reader's point and my pick:
-1. **The Chicken-and-Egg Problem, P6**: "This is much easier when you can already reach one of those adult roles." (your Substack guide's "The method works most easily for people who already have some access to them."). The reader: it repeats the problem instead of answering it. I'd pick **B**: it's your guide's point, and it sets up "But when you can't".
-2. **When Healing Turns Into Checking, P2**: "Going back can still matter, since realizations are a real part of life." (you accepted it on 2026-09-21). The reader: a truism that doesn't say why going back matters. I'd pick **A** with your guide's reason, "Meaningful grief and practice can revisit familiar ground; novelty is not required every time.": "Going back over familiar ground can still matter, even when nothing new turns up." (The reader's own fix, "because sometimes you do see something new", would say the opposite of your guide.)
-3. **When Healing Turns Into Checking, P4**: "Inner parenting can be like that too." (yours, 2026-10-14). The reader: it repeats the analogy just made. I'd pick **B**: it's the turn from real parenting to inner parenting.
-4. **When the Present-Day Adult Is Dangerous to the Child, P5**: "Of course not." (our owner-final paragraph of 2026-09-24). The reader: a punchline that answers the reader's own check for them, and it pulls against "it's not obvious" just before. I'd pick **A**, cut, so the question is left for the reader to check, the way the Buddha had to.
-5. **Borrow One Competency at a Time, P4**: "\"Fake it til you make it\" isn't exactly it, but yeah." (yours). The reader: it brings up the idiom only to half take it back. I'd pick **B**: it's your voice, and the next line says what it is ("I did that for us. That was the Protector.").
-6. **Borrow Love, P3**: "The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move." (your fix of 2026-09-26). The reader: a platitude between the trick and "the gap it gets around". I'd pick **B**: it's the sideways line that broke the march there (lesson E68).
-7. **Not Every Hero Wears A Cape, P3**: "But yeah, bonding starts somewhere." (yours). The reader: a truism. I'd pick **B**: it answers "feels backwards" in your voice.
-8. **Not Every Hero Wears A Cape, P3**: "And this is not to say you've never done anything to care for yourself. If not, you'd be dead right now." (yours). The reader: it argues with a claim nobody made, and ends dark in a paragraph that isn't joking. I'd pick **B**: it heads off a reader who feels accused, and the next sentence's "additional acts of care" leans on it.
-9. **Not Every Hero Wears A Cape, P5**: "It doesn't mean failure, because the process is dynamic." (yours). The reader: "because the process is dynamic" sounds like a reason and gives none. I'd pick **A**: "It doesn't mean it failed, since the feeling often comes after the acts." (P3's point).
-10. **Use Childhood Photographs Gently, P3**: "I'm sure you can relate." (yours, 2026-10-17). The reader: a quip after a serious warning. I'd pick **B**: it's your aside, and it lands on memory being easy to shape, which most readers know from their own family photos.
-11. **Altered States Can Require Reparenting, P2**: "That said, it'd make sense to get a professional to weigh in for some situations." (your fix of 19:06, with my "That said,"). The reader: it names no situation. I'd pick **B**: right after "pumped full of anti-psychotic drugs", it says you aren't against professionals, and that's its job there.
-12. **Four Pairs That Commonly Hook the Child, P4**: "You'd be belonging selectively, which still leaves room to belong." (your guide's "Selective belonging still leaves room to belong."). The reader: it's circular. I'd pick **A**: "You'd still belong, just selectively."
-13. **Remember When You Already Did It, P1**: "Your own challenge doesn't need to be as dramatic as that, as long as it really happened." (mine, after the turn-69 cold read, inside your paragraph). The reader: your sister's line now sits between "that" and the car crash. I'd pick **A**: "as dramatic as a car crash", keeping "as long as it really happened" (your guide's "A small real example is enough").
-14. **How to Forgive Without Forgetting, P3**: "and in theory they could have done something else" (your guide's "or that no different option existed in the abstract"). The reader: it contradicts P2's "it was the only move they had". I'd pick **B**: understanding isn't excusing, and that's your guide's point.
-15. **Borrowed Adulthood in Relationship, P2**: "You'll find the balance is dynamic between inner & outer reliance, and going too far in either extreme isn't generally the healthiest." (yours, 2026-10-17). I'd pick **B**.
-16. **Speak Toward What You Are Building, P1**: "It's not so hard to understand that words have power." (yours, 2026-10-17). The reader: a truism as an opener. I'd pick **B**.
-17. **Speak Toward What You Are Building, P1**: "...and can even seem like just a reaction to the original question." (yours). The reader: there's no question before it; the line before is "I'm not dependent." I'd pick **A**: "the original problem" for "the original question".
-18. **Speak Toward What You Are Building, P7**: "Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both." (yours). I'd pick **B**.
-19. **Write It. Don't Send It Yet., P2**: "As Lao Tsu might have said (if I could ever have read that whole boring Art of War book)". The Art of War is Sun Tzu's. If the mix-up is the joke, a reader may still take it for a mistake. I'd pick **A**, "Sun Tzu", unless the mix-up is meant.
-20. **Borrow One Competency at a Time, P1**: "but it's not just a foolish waste of time" ("not just" says it partly is one). I'd pick **A**: "but it's not a foolish waste of time".
+Here they are, after the overlap paragraph you'd seen. They're my wording, from your notes and the research the lane was sent ([UDA's suggested fix](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/cd9bf74ee450772988aaf43c8059508bd57b0923/suggested-fixes/joel-articles/2026-10-18-schema-therapist-fit-and-reparenting-guide.md)). The questions in P3 are the research's 1, 2, 3 and 6. Its question 2 also asks about refusing "the inner-child frame itself", and that part is left out, since you cut the guide's no to the frame on 2026-10-08. Your "IMO" is in words, since this article doesn't use chat acronyms (your rule of 2026-10-01). Jeffrey Young's postdoctoral work with Aaron Beck is from [his Wikipedia page](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), and "Building on cognitive therapy" is how [Guilford's page for the schema therapy book](https://www.guilford.com/books/Schema-Therapy/Young-Klosko-Weishaar/9781593853723/reviews) puts it.
+> Where it really differs is spirituality. Schema therapy leaves it out. That's not so surprising, since it grew out of cognitive therapy (Jeffrey Young, who developed it, did his postdoctoral work with Aaron Beck). So a loan of love from God, like back in Ask God for a Loan, isn't something a schema therapist would usually offer you. IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing.
 
-**A.** The fix. **B.** Leave it. **C.** Your words. Like `55: 1B, 2A, 4A`, or "your picks".
+> So how do you find a good one? Not just any schema or IFS therapist will do. On the first call, I'd ask whether they really do the reparenting, and then help you learn to do it yourself, or if it's mostly questionnaires. Then try saying no to the imagery, or to talking to an empty chair, and see if they take it or call it "avoidance." If your rent is due or your roommate scares you, a good one helps you deal with that first. Your childhood will still be there next week. And how do they handle spiritual experiences? You want someone who won't tell you what yours really mean, or treat them as a symptom. A certificate on the wall can't tell you any of that.
 
-### 🟣 56. The one other suggestion in the schema research
+With them, the end of How This Relates to IFS P7, the parts maze (mine, from turn 71) had a small AI window in four of five checks, so its last sentence is your guide's institution point said again: "With others, people seem to come out more fragmented than they went in. Having a big institute with certifications behind it doesn't make a model any truer, either. Or safer, for that matter." ([the Appendix with all three, Human Written 0.057, high](https://www.pangram.com/history/a6e5cf8c-ba43-4fea-ba96-de0d5324c241))
+- **A. Fine.** I'd pick this.
+- **B. Your words** for any of them.
 
-Besides the clinician fit, which became How This Relates to Schema Therapy and your Teachers line, the research the lane was sent ([UDA's suggested fix of 2026-10-18](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/cd9bf74ee450772988aaf43c8059508bd57b0923/suggested-fixes/joel-articles/2026-10-18-schema-therapist-fit-and-reparenting-guide.md), its "Priority B") offers one small example for the protection part: the same fear can end up as giving in, as avoiding, or as overdoing the opposite (schema therapy's three coping styles, from van Genderen's 2026 book). It calls this "a formatting option, not an essential missing concept", and says not to add new named modes, since Two Common Protective Patterns already has the proactive and the reactive protector.
-- **A. Leave it out.** I'd pick this: the article already shows a protector acting in different ways, and a three-way example is the kind of list of three your rule keeps out.
-- **B. Put it in Two Common Protective Patterns** (it gets checked).
-- **C. Your words.**
+### 🟣 61. Two changes your Inner Monologue move needed
 
-### 🟣 57. My wording of your notes
+Your move is in, and Before You Try to Go Deep reads [Human Written 0.096, high](https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2) with it. Without your section in front of them, two paragraphs of mine had AI windows, so each has one sentence said again:
+1. **Your Body Might Need Some Love First, P4**: "Even staying present the whole time doesn't tell you enough by itself." is now "And being present through all of it doesn't mean it wasn't too much." (your guide's "But "I stayed oriented" is not enough by itself either.").
+2. **Also Look Outward, the honesty paragraph** (your yes of turn 38): "People can earn more of you by how they handle the smaller things you tell them" is now "People can earn more of you by how they handle the smaller stuff, like whether that thing you told them about your weird fear of birds turns into a joke at the next party 🙈".
+- **A. Fine.** I'd pick this.
+- **B. Your words.**
 
-These are your points in my words, fitted to where they sit, so whether they say what you meant is your call. Each reads Human alone and in its section; the review page shows each in its paragraph.
-1. **How This Relates to IFS, P4** (45, your Higher Self notes):
-   > Is a perfect Higher Self already waiting in there to be your guide or parent? I'd call that claim spiritual bypassing. I've had the Higher Self perspective myself, though. It's a somewhat less subjective way of seeing things as working perfectly in reality, despite the ego's illusions, which matches what people say about it. Where I part ways with IFS is the wisdom part. I don't think the Higher Self has any specific wisdom. It's a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can leave you with less of both. You can see both in the guru types who supposedly embody their Higher Self, often in the same person. Anthony de Mello is an excellent example. He was a Jesuit priest who mixed stories from all kinds of traditions into his teaching on seeing through the ego's traps and coming back to the present, and he was a psychotherapist too. He seemed to drift between the two in a way that contradicted itself.
+### 🟣 62. The checking paragraph that's holding up 55, 2 and 54, 11
 
-   One flag: "drift between the two" reads as between priest and psychotherapist, which is how I took your "drift between different modes". If you meant the two ways the vantage point can go, it would say "drift between those two ways of seeing".
-2. **How This Relates to IFS, P5** (45, the Guide):
-   > So inner child therapy draws on those higher vantage points more concretely. The inner Guide is the closest thing here to a Higher Self, and it has to work with the Nurturer and Protector and come after them. It can't act like some transcendent authority that waves everything away. Most reparenting doesn't do enough with the Guide, which is the opposite extreme from IFS, so I'm trying to bring together the best of both. IFS isn't exactly one system, so I may be simplifying it here. It has its own branches and disputes, and that's one more problem I'm trying to remedy by laying all this out systematically in this guide.
-3. **How This Relates to Schema Therapy, P1** (from the research, checked against the ISST's [Limited Reparenting](https://schematherapysociety.org/Limited-Reparenting) page):
-   > Of the clinical approaches I know, schema therapy is the closest to this guide. Its therapists do what they call limited reparenting: within professional limits, they give you some of what a good parent would, with warmth and firmness and some playfulness too. Over time you take that in, and it becomes your own "Healthy Adult," who looks after your "Vulnerable Child" and stands up to the punishing parent in your head. Sound familiar? That's a Nurturer and a Protector by other names, and since the therapist's version becomes yours bit by bit, it's borrowed adulthood too.
-4. **When the Urge to Escape Arrives, P5** (49, 3), around your three examples: "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there, since it can be valid. It tends to go that way when it isn't balanced by practicality.", then each example with "is paranoia", "is paranoia too, but it's practically useful, and less likely to lead to psychosis" and "is leaning psychotic".
-5. **Also Look Outward, the dating paragraph** (54, 4 and 6):
-   > Then there are people you're just getting to know. Meeting them can turn into a kind of test--"First impressions are everything," as they say, but it could be even worse than that, if you need them to prove you're lovable. Nobody's a reassurance machine. Leaning on each other is still a big part of relationships, and it goes both ways. In a real crisis, getting a safe person involved can be exactly the right move. I'm giving you permission now to quit school and flunk the tests. ...
-6. **Before You Try to Go Deep, P2** (54, 8 and 10), after "I'd go shallower.": "Like the flight attendants say, it's good to know where the exits are. 😅 So can you stop in the middle and come back to the room? If you can't, or going in at all keeps making it worse, I'd come all the way back out first."
-7. **Before You Try to Go Deep, P3's start** (54, 9): "A full break from your little one is a last resort. Sometimes it isn't up to you, though, like when something's actually unsafe."
-8. **Don't Give the Inner Adult Away, P2** (54, 7): "How do you check that? I'd keep whatever you feel around them, and look at their track record. Do they respect a no, or keep pushing on it, and what happens when you disagree? If something outside of them backs up what they're telling you, and it all adds up, that's a good sign."
-9. **When Healing Turns Into Checking, P3** (54, 4): "And the checking doesn't always stay in your head. A body scan can turn into one, or a confession, a date, a hookup, one more late-night search, if what you're really after is proof. That you're lovable, say, or that you're not a bad person. It might calm things down for a while, and then the next little wobble matters even more."
-
-For each: **A.** Fine. **B.** Your words. I'd pick A for all of them.
-
-### 🟣 58. Your innerSignalGraph queue's newer guide changes
-
-Your innerSignalGraph [pending guide changes](https://github.com/u-dont-existDOTcom/innersignalgraph/blob/55b2b0dd7da35c99bb2dd16c5a4f2d7b68433497/authoring/PENDING-PUBLIC-GUIDE-CHANGES.md) (version 2026-10-18-r12; the newest, PGQ-039 on sharing something legally or personally sensitive, was queued today at 13:54 UTC) has 22 entries this article hasn't been checked against yet, PGQ-018 to PGQ-039. The first nine, 018 to 026, are the T1 to T9 points you OK'd on 2026-10-09, and they're all in now apart from 023's list of what to change (your 54, 11, still being worked on; Decided, below). The other thirteen are new to the article: short relief that keeps severe pain going, support as a shortcut to romance, a chronic pain pathway, medical agency after coercive care, gratitude (four entries, 031 and 033 to 035), a drug peak that changes nothing, hypnosis with grief or an altered state, reparenting not being an exercise, keeping yourself safe as part of the work, and the sensitive-sharing warning.
-- **A. Next turn**: check all 22 against the article and draft the ones it doesn't say yet. I'd pick this, since they're your queued changes.
-- **B. Not yet.**
+Two of your answers aren't in yet: 55, 2 (the truism in When Healing Turns Into Checking P2), and 54, 11 with the rest of 8 (the guide's list of what to change, inside Your Body P5, with "change several things at once" out). Each one reads Human alone, but with either of them, Before You Try to Go Deep gets the same 37-word AI window. It lands on the first two sentences of When Healing Turns Into Checking P3, checking that turns into doing (sixteen checks of its section over two turns; [this turn's last](https://www.pangram.com/history/80ed71af-ccdf-47bb-bdcb-2dc154c24195)). Folding that paragraph into P2 didn't move it. The tell I can see is its list of five: "A body scan can turn into one, or a confession, a date, a hookup, one more late-night search, if what you're really after is proof."
+- **A. I keep trying versions of those two sentences next turn.** I'd pick this first, since B loses three of your guide's examples.
+- **B. Shorten the list** to the date and the late-night search (the date is what replaced your dating line in Also Look Outward), then check again.
+- **C. Your words** for those two sentences.
 
 ## For you to do (no decision needed)
 
 ### 🟠 The pull request, whenever you like
 
-Tonight's turn-72 work is in [#192](https://github.com/u-dont-existDOTcom/joel-articles/pull/192) too, on top of the overnight run. Merging is yours.
+You merged [#192](https://github.com/u-dont-existDOTcom/joel-articles/pull/192) at 22:14 UTC, with this turn's first round in it. The rest of this turn is in [#193](https://github.com/u-dont-existDOTcom/joel-articles/pull/193). Merging it is yours, whenever you like (59, in Decided).
 
 ## Coming up
 
 ### 🔵 Next turn
 
-- **Your Inner Monologue move**: Your Body Might Need Some Love First P3 to P5 get reworked until they read Human without your section in front of them, and then the section moves.
-- **54, 11 and the rest of 8**: the guide's list of what to change inside Your Body P5, with "change several things at once" out, once the section's check holds with it.
-- **Your answers to 55 to 58**, and the queue in 58 if you say A.
+- **Your answers to 60 to 62**, and with 62, A, more versions of the checking paragraph's opening, so 55, 2 and 54, 11 can go in.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-18 21:58 UTC
+
+Your message, word for word: [experiments/t73-answers/JOEL-20261018-2158.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/823b5b173431fbcb5955b4a89ce5f4f361eacd6b/articles/inner-child-therapy/experiments/t73-answers/JOEL-20261018-2158.md).
+- **55**: in, each reading Human alone and in its section:
+  - **9**: your meaning, "It doesn't mean failure. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first." ([alone 0.34](https://www.pangram.com/history/1bba27b6-68ed-4bfd-bccf-a3d5d83287a3); [Building Trust With Your Little One 0.025, high](https://www.pangram.com/history/2dc97f87-67f6-4bcb-a68e-467cfbb73f37)). You're right that my fix didn't fit: P5 starts after the day, when the acts are done.
+  - **4, A**: "Of course not." is out ([Before You Try to Go Deep 0.092, high](https://www.pangram.com/history/8fba4e7c-ed7b-4266-b8c5-958ad0803e7b)).
+  - **12, A**: "You'd still belong, just selectively." ([Sometimes There Isn't a Clear Child Yet 0.13, high](https://www.pangram.com/history/e6b5c376-9787-4665-81d6-dff0fe313af7)).
+  - **13, A**: "as dramatic as a car crash" ([Simple Practices 0.074, high](https://www.pangram.com/history/59de7299-51e9-46c4-86f9-6ca1d8ef0b9b)).
+  - **14, A**: the clause is out ([How to Forgive Without Forgetting 0.082, high](https://www.pangram.com/history/3ac748b7-a43f-4904-8861-ff5ecf566c98)). I'd picked B because the clause is your guide's "or that no different option existed in the abstract", but the paragraph still says they have to answer for what they did, so nothing important goes with it.
+  - **17, A**: "the original problem" ([Speak Toward What You Are Building 0.075, high](https://www.pangram.com/history/4cb690de-71db-4e23-bfc5-f91225f9047f)).
+  - **1, 3, 5, 6, 7, 8, 10, 11, 15, 16, 18, 19 and 20, B**: left as they are. On 20, you're right: "not just" also means "it's more than that".
+  - **2, A**: not in yet; that's 62.
+- **56, A**: left out.
+- **57, 1**: your ending is in How This Relates to IFS P4, word for word, with the de Mello link kept on his name ([alone Human Written 0.0017](https://www.pangram.com/history/3608ba11-e8a9-4830-8af0-a30121dc1603); [the Appendix 0.067, high](https://www.pangram.com/history/3d37e91b-e81b-415c-bf23-739f8bddd51b)). I checked one fact: Wikipedia calls him an "Indian Jesuit priest and psychotherapist", and he founded a pastoral counselling institute in Poona. "trauma-informed" is a later term than his work, but it's your description of what he understood, so it stays.
+- **57, 2 and 4 to 9, A.**
+- **57, 3**: the schema section has two more paragraphs now, one on the differences (spirituality first) and one on choosing a therapist ([the Appendix with them Human Written 0.057, high](https://www.pangram.com/history/a6e5cf8c-ba43-4fea-ba96-de0d5324c241)). They're in 60 for you to check.
+- **58, B**: the innerSignalGraph queue waits.
+- **Your Inner Monologue move**: in. Your order holds now, with Your Body Might Need Some Love First, then When Healing Turns Into Checking, then You Don't Need an Inner Monologue and When the Present-Day Adult Is Dangerous to the Child ([Before You Try to Go Deep Human Written 0.096, high](https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2)). Two sentences of mine changed for it; they're in 61.
+- **59** ("was not sure it's time for pull request since we are still editing? nevr quite clear on tht"): a pull request doesn't mean the article is finished. It's the box this lane's edits wait in until you merge them into main, the repo's official copy, and merging doesn't publish anything anywhere. Editing goes on either way: after a merge, the next edits go into a new pull request. So it's fine to merge in the middle. My pick is to merge at stopping points like the end of a turn: main gets other lanes' work too (the community article's #189), so a branch that stays open a long time drifts from main and can clash with it on shared files like the gate doc. You merged #192 at 22:14 UTC, mid-turn, which is fine too; the rest of this turn is in [#193](https://github.com/u-dont-existDOTcom/joel-articles/pull/193).
 
 ### 🟢 2026-10-18 19:06 and 19:26 UTC
 

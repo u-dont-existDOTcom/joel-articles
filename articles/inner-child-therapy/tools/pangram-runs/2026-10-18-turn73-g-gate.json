@@ -1,0 +1,38 @@
+{
+ "t73g_st2b2": {
+  "kind": "screen",
+  "march": [
+   "S S B S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t73g: st2-b2, alone."
+ },
+ "t73g_st2b3": {
+  "kind": "screen",
+  "march": [
+   "S S B S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t73g: st2-b3, alone."
+ },
+ "t73g_h1g1": {
+  "kind": "screen",
+  "march": [
+   "one word changed, with a break | B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t73/CAND-g1.md",
+  "note": "t73g: # Appendix as it would be installed; every paragraph has read Human alone or is Joel's."
+ },
+ "t73g_h1g2": {
+  "kind": "screen",
+  "march": [
+   "one word changed, with a break | B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t73/CAND-g2.md",
+  "note": "t73g: # Appendix as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}
