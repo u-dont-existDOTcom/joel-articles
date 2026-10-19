@@ -3152,3 +3152,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 and PGQ-039 v6 (4078 words) [t76f_h1by], a screen | Human, low (my call) | (pending) | |
 | 2026-10-19 (turn 76) | PGQ-030 short with the guide's real-danger point (the grounding's MUST), alone (63 words) [t76g_lomedh], a screen | Human, low (my call) | (pending) | |
 | 2026-10-19 (turn 76) | Before You Try to Go Deep with PGQ-030 (lo-med-h) only (3852 words) [t76g_h1by30], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-030 with the real-danger point as a different story, alone (65 words) [t76h_lomedi], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | PGQ-030 with the real-danger point and whatever happened last time, alone (67 words) [t76h_lomedj], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with lo-med-i (3854 words) [t76h_h1byi], a screen | Human, low (my call) | (pending) | |
+| 2026-10-19 (turn 76) | Before You Try to Go Deep with lo-med-j (3856 words) [t76h_h1byj], a screen | Human, low (my call) | (pending) | |
