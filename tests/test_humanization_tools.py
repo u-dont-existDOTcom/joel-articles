@@ -1821,7 +1821,8 @@ def test_review_rows_takes_the_install_note_and_his_paragraph():
 def test_pangram_js_reverse_tab_waits_for_every_result():
     """2026-10-19 (turn 76): tab-6 runs the batch in reverse and returns the results when all N are in."""
     import pangram_js
-    fwd, rev = pangram_js.calls('2026-10-19-turn76-a', 3, 'abc123')
+    fwd, rev, poll = pangram_js.calls('2026-10-19-turn76-a', 3, 'abc123')
     base = 'https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/abc123/articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-a'
     assert "window.__reverse = false" in fwd and base + ".js'" in fwd
-    assert "window.__reverse = true" in rev and base + "-read.js'" in rev and '.length >= 3) break' in rev
+    assert "window.__reverse = true" in rev and base + ".js'" in rev
+    assert base + "-read.js'" in poll and 'window.__res' in poll and "' of 3: '" in poll and 'setTimeout' not in poll   # one read, no polling: the tool stops a call at 45 s

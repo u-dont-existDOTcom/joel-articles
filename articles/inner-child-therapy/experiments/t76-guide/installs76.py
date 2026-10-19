@@ -15,13 +15,12 @@ def after(start, name, text, stem):
     register(name, lambda: para(start), lambda: para(start) + '\n\n' + note(text) + draft(stem) if para(start) else None)
 
 
-BA3 = os.environ.get('BA3', 'ba3-b')
-AS4B = os.environ.get('AS4B', 'as4b-d')
-AG5B = os.environ.get('AG5B', 'ag5b-b')
-UE2 = os.environ.get('UE2', 'ue2-a')
-LOMED = os.environ.get('LOMED', 'lo-med-b')
-LOSH1 = os.environ.get('LOSH1', 'lo-share1-c')
-LOSH2 = os.environ.get('LOSH2', 'lo-share2-c')
+BA3 = os.environ.get('BA3', 'ba3-e')
+AS4B = os.environ.get('AS4B', 'as4b-f')
+AG5B = os.environ.get('AG5B', 'ag5b-c')
+LOMED = os.environ.get('LOMED', 'lo-med-f')
+LOSH1 = os.environ.get('LOSH1', 'lo-share1-f')
+LOSH2 = os.environ.get('LOSH2', 'lo-share2-f')
 
 after("Say they're the one who always remembers your appointments.", 'ba3',
       "PGQ-028 (support isn't a shortcut to romance), from %s: a paragraph of mine after his P2, so at the end of the h1 rather than right after P1 as the queue has it, since his P2's \"Say they're the one\" points back at P1's one person. experiments/t76-guide/drafts/%s.txt. @@BA3@@" % (Q76, BA3), BA3)
@@ -29,16 +28,22 @@ after('Jack Kornfield has a whole book on what comes next', 'as4b',
       "PGQ-032 (a drug peak that changes nothing; his example of 2026-10-14 23:26 UTC), from %s: a paragraph of mine right after the beautiful-state paragraph, where the queue has it, with no public figure named (question 64). experiments/t76-guide/drafts/%s.txt. @@AS4B@@" % (Q76, AS4B), AS4B)
 after('Of course, that’s not to say you should not try to suffer less.', 'ag5b',
       "PGQ-033 (\"if only I had X\"), from %s: a short paragraph of mine after his P5, next to his gratitude part as the queue has it; the survey he remembered isn't cited, since no source has turned up (question 65). experiments/t76-guide/drafts/%s.txt. @@AG5B@@" % (Q76, AG5B), AG5B)
-after('<!-- Native YouTube embed from source, unchanged: Garchen Rinpoche chanting Om Mane Pemme Hum', 'ue2',
-      "PGQ-027 and PGQ-029 (urgent medical care for unbearable pain instead of a relief known to make it worse; a specialist pathway and a written plan for frequent severe pain, with urgent care as the backup), from %s: one paragraph of mine at the end of this h3 rather than right after P1 as the queue has it, since P2's \"that part\" points back at P1; the France example is compressed, as the queue asks, and the last sentence points to If You Want to Kill Yourself for immediate danger. experiments/t76-guide/drafts/%s.txt. @@UE2@@" % (Q76, UE2), UE2)
+UE27 = os.environ.get('UE27', 'ue27-b')
+UE29 = os.environ.get('UE29', 'ue29-b')
+EMBED = '<!-- Native YouTube embed from source, unchanged: Garchen Rinpoche chanting Om Mane Pemme Hum'
+register('ue2', lambda: para(EMBED),
+         lambda: (para(EMBED) + '\n\n'
+                  + note("PGQ-027 (urgent medical care during unbearable pain instead of a relief known to make it worse), from %s, checked against the guide's own paragraph (innerSignalGraph guides/inner-child-guide-2026-10-11-r6.txt, \"If the urge to escape comes during severe physical pain\"): a paragraph of mine at the end of this h3 rather than right after P1 as the queue has it, since P2's \"So why not just blast right past that part\" points back at P1's hurt; it opens on the urge to escape by name, and its last sentence sends only a fear of acting, or not knowing whether you're safe, to If You Want to Kill Yourself (the grounding's MUST, experiments/t76-guide/GROUNDING-t76.md). experiments/t76-guide/drafts/%s.txt. @@UE27@@" % (Q76, UE27)) + draft(UE27) + '\n\n'
+                  + note("PGQ-029 (frequent severe pain: a specialist and a written flare plan, with the new or severe signs that still mean going in), from %s and the guide's next paragraph (\"If severe pain attacks happen almost every day\"); the France example compressed, as the queue asks. experiments/t76-guide/drafts/%s.txt. @@UE29@@" % (Q76, UE29)) + draft(UE29))
+         if para(EMBED) else None)
 register('lo', lambda: para("And reaching out doesn't mean telling strangers everything."),
          lambda: (para("And reaching out doesn't mean telling strangers everything.") + '\n\n'
                   + note("PGQ-030 (medical agency after coercive or harmful care), from %s: a paragraph of mine right after the graded-disclosure paragraph, where the queue has it. experiments/t76-guide/drafts/%s.txt. @@LOMED@@" % (Q76, LOMED)) + draft(LOMED) + '\n\n'
                   + note("PGQ-039 (before sharing something legally or personally sensitive), from %s and the passage drafted in innerSignalGraph issue #180: two paragraphs of mine after PGQ-030's, merged with it and with PGQ-003 rather than repeating them, as the queue asks. No law or country is named; legal review before publishing is question 67. experiments/t76-guide/drafts/%s.txt and %s.txt. @@LOSH@@" % (Q76, LOSH1, LOSH2)) + draft(LOSH1) + '\n\n' + draft(LOSH2))
          if para("And reaching out doesn't mean telling strangers everything.") else None)
 
-CS57 = os.environ.get('CS57', 'cs57-c')
-HERO6 = os.environ.get('HERO6', 'hero6-a')
+CS57 = os.environ.get('CS57', 'cs57-e')
+HERO6 = os.environ.get('HERO6', 'hero6-d')
 register('cs57', lambda: para("Whichever stage you're at, saying the right thing"),
          lambda: note("PGQ-037 (reparenting isn't an exercise), from %s: two sentences of mine at the end of my PGQ-012 paragraph, since the queue's place (after the guide's \"Reparenting begins when the present-day person occupies an adult position\") isn't in the article; this paragraph already says the session isn't enough, as the queue asks when PGQ-012 is in. experiments/t76-guide/drafts/%s.txt. @@CS57@@" % (Q76, CS57)) + draft(CS57)
          if para("Whichever stage you're at, saying the right thing") else None)
