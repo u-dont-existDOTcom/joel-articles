@@ -979,3 +979,14 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 
 1. His answers to 60 to 62.
 2. With 62, A: versions of checking-into-doing's opening that hold, then 55, 2 and P5 h (54, 11).
+
+## Turn 74 (2026-10-19, from 00:08 UTC): his section, his new h1
+
+- **His message:** 60 (the choosing-a-therapist paragraph out), 61, A, 62, C (his pasted Before You Try to Go Deep), his new h1 Finding a Therapist to Borrow Adulthood, his unburdening cut, Related Clinical Work as an h2 (`t74-answers/JOEL-20261019-0008.md`).
+- **In:** all of it (round t74a): Before You Try to Go Deep 0.093, his new h1 0.00035, the Appendix 0.12, all high. With his section, 55, 2 and 54, 11 are in too.
+- **Open:** question 63 (what the three removed paragraphs said that his section doesn't).
+- **Tools:** check_owner_edits.py's whole-line checks, and its link pattern takes parentheses.
+
+### Next
+
+1. His answer to 63.
