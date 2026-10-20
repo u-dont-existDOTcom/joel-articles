@@ -1,6 +1,6 @@
 # Pangram 4.1 candidate — Community psychedelic integration/support — 2026-10-20
 
-Status: **UNTESTED EDITORIAL CANDIDATE; NOT INSTALLED, NOT APPROVED, NOT HUMAN-CERTIFIED.** Source authority is the registered Intentional Communities article. Do not replace its master/current candidate or count this as a successful Pangram outcome.
+Status: **UNVERIFIED EDITORIAL CANDIDATE; NOT INSTALLED, NOT APPROVED, NOT HUMAN-CERTIFIED.** Source authority is the registered Intentional Communities article. Do not replace its master/current candidate or count this as a successful Pangram outcome.
 
 ## Target and provenance
 
@@ -9,7 +9,7 @@ Status: **UNTESTED EDITORIAL CANDIDATE; NOT INSTALLED, NOT APPROVED, NOT HUMAN-C
 - Exact target: four consecutive paragraphs beginning `Part of it is integration: an insight needs somewhere to land.` and ending with `For those you need to be properly screened beforehand and monitored continuously.`
 - Next paragraph beginning `Your peers can also reality check any downloads` stays intact.
 - Screenshot also contains the legal/privacy sentence beginning `As a community, you need to write down`. **That sentence lives later in the article, after the ceremony safety discussion; it is NOT part of the four-paragraph target.** It is left unchanged in this work batch and must not be appended to a Pangram context input for this section.
-- Screenshot, exact current GUI legend and result are owner-provided observations. No color/probability measurements for the new candidate have been verified at this stage.
+- Screenshot, exact current GUI legend and result are owner-provided observations. No Pangram result, sentence shade, or probability for the new candidate has been verified.
 
 ## Candidate text
 
@@ -37,8 +37,16 @@ In a community, your sober sitter might be someone who's known you for years. Th
 - Paragraph 3: **Human** with uncertainty on the concessive `Some ... but` introduction; feather/four hours/sitter's cosmology provide surprising specificity, not invented detail.
 - Paragraph 4: **Human** but may stay light-green due to generic explanatory phrasing. The tangible long-term acquaintance and retained high-stakes medical monitoring are editorial reasons for the sentence.
 
-These are predictions made before **any new test of this exact candidate**, not scorecard wins.
+These predictions were written **before** the first attempted GUI submission for this candidate. No Pangram outcome is available, so none is a scored success or miss.
 
 ## Acceptance and placement
 
 The user requested a suggestion and authorized bounded verification, not installation, promotion or publication. Preserve this draft independently; do not promote into the accepted article without provenance, preservation proof, model 4.1 GUI result when available and owner review.
+
+## Detector attempt / recovery status (2026-10-20)
+
+- **One** targeted Pangram GUI check was attempted for revised paragraph 3 only (54 words; `p3.txt` SHA-256 `8caa352b1fdb9361ca377ebde4bc21530a0611c486f9dfb26d00e9ea982e8d7f`). The old GUI automation recorded a durable pre-click reservation and reported a submission, then failed to recognize a report within 90 seconds; no Human/AI or sentence-shading result was obtained.
+- The separate existing local checkout had first failed its Git divergence guard **without submitting**. A clean isolated worktree preserved and pushed the one ambiguous attempt's reservation and failure evidence.
+- A read-only browser/History check showed Pangram's authenticated GUI account **"Credits 0 left"** and no matching completed result visible. This is a UI observation, not independently verified billing history.
+- **No other paragraph or full-section testing was attempted; no automatic retry is authorized.** A next worker must recover provider History/billing first, then reconcile the existing paid-attempt accounting. Treat paragraph 3 as potentially charged and unresolved.
+- The Pangram lab's source-bound incident report is `state/PANGRAM-41-GUI-READOUT-INCIDENT-20261020.md` on its review branch. Neither the paragraph's pre-test Human prediction nor the overall candidate is a passing detector measurement.
