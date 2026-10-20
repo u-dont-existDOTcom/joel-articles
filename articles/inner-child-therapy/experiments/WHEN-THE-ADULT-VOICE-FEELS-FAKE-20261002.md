@@ -1008,3 +1008,11 @@ Joel on turn 59: P5 and P6 rambled about rent, a cat and a work report instead o
 ### Next
 
 1. His answers to 64 to 69; then PGQ-030 and PGQ-039 through the checks.
+
+## Turn 77 (2026-10-20, from 23:37 UTC): his own changes from the upload he gave GPT; GPT's structure proposal
+
+Joel, 23:37 UTC: continue; GPT's structure suggestions (`~/Inner-Child-r03-Editorial-Review/Structure-and-Decisions-r03.html`), "lmk if you agree with those"; "i made some changes to the article myself prior to gpt's advice". Saved first (`t77-answers/JOEL-20261020-2337.md`).
+
+- **His changes:** his 2026-10-19 upload to GPT, compared paragraph by paragraph with the lane, is the lane plus his edits: the Chicken-and-Egg lines, the relationship headings, his answers to questions 64 to 69, his Urge to Escape, Altered States, psychedelic, pain and lover paragraphs, and his order (Altered States, Physical Pain and If You Want to Kill Yourself right after When the Urge to Escape Arrives). The article now matches it word for word, with our notes kept and four obvious typos fixed (owner edits 173 pass; entry joel-upload-20261019).
+- **GPT's proposal:** eight moves and two scope questions; my view in `t77-answers/GPT-STRUCTURE-REVIEW.md` and question 70.
+- **Pangram:** his 28 changed or new paragraphs of 50 words or more, alone (batch 2026-10-21-turn77-a); the first entries in the new ledger, `tools/pangram-ledger.jsonl`. Sections wait for question 70.
