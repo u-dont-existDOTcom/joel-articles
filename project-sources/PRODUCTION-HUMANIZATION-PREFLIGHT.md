@@ -130,13 +130,13 @@ If detector research is useful after a production candidate already works, run i
 
 ## 7. Paid-call discipline
 
-For production humanization:
+For production humanization, first apply `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`: no more than two new Pangram submissions per paragraph, never more than one natural section or about five paragraphs in an active editing batch, whole-section checks only after individual Human results (one initial, one justified retest), and one final whole-article check plus at most one localized final retest. Two incorrect predictions of the same paragraph or exhaustion of its two submissions requires an owner tell-diagnosis handoff. These **newer owner ceilings** are stricter than the historical six-section safety cap and override it in production.
 
 - baseline measurement is useful when current status is unknown;
 - after baseline, prefer one holistic, fully considered repair to several knowingly incomplete probes;
 - every paid call must test a preflight-passing candidate or answer a narrow decision-changing diagnostic question;
 - never pay for exact duplicate text unless a repeat is explicitly preregistered as detector research;
-- keep the stable six-paid-call section cap;
+- treat the historical six-paid-call section cap as an *upper safety backstop*, never as permission to exceed the stricter 2026-10-20 paragraph/section/article ceilings;
 - cache/resume exact prior work rather than resubmitting;
 - preserve model/version/input SHA/result identity and lesson closeout;
 - short snippets remain lower-confidence evidence and should not be endlessly optimized for confidence alone.
@@ -157,6 +157,10 @@ Before a paid production Pangram call, record privately or durably as appropriat
 
 ```text
 Mode: production humanization
+Oct 20 budget identity: <article / natural section / paragraph lineage; count across all workers/transports>
+Pre-call prediction: <Human / AI + literal evidence, recorded before result>
+New billable submissions on this paragraph/section/article: <used / active ceiling; include ambiguous possible submits>
+Next decision this detector result can change: <specific decision; otherwise do not call>
 Natural boundary: <section / transition>
 Preservation proof: PASS / FAIL
 Architecture/coherence: PASS / FAIL
