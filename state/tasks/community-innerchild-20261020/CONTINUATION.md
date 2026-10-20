@@ -31,3 +31,6 @@ Before repeating a substantive operation, inspect its existing output and input 
 
 ## UDA handoff completed this turn
 Owner-requested report filed as UDA draft PR404 with uda-lane label and remaining-work comment. Receipt: UDA-REPORT-RECEIPT.json. Maintainer investigation is not a completed global fix. Next: apply the already-specified community corrections.
+
+## Community prose milestone completed
+The owner-specified revisions are applied in articles/intentional-communities/candidate/owner-approved-20261020/Community-Article-r04-approved.html, SHA-256 250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be. Exact reversible patch and comment disposition receipt are alongside it. Kept moves and Q2 remain unchanged. This supersedes the earlier Not yet done prose statement. Helper/registry/affected-output checks remain next; do not reapply the prose patch to r04. Inner Child work has not begun yet.

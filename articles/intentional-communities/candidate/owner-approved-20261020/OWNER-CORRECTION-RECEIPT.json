@@ -1,0 +1,67 @@
+{
+  "revision": "r04-approved",
+  "authority": "Owner approved r03 with the exact supplied revisions; no publication performed.",
+  "source_sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+  "owner_answers_sha256": "c2961f93604b37659310cf005dbd7912a168b0d3ac71616c9e4da3886517659e",
+  "result_sha256": "250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be",
+  "changes": [
+    {
+      "owner_ids": [
+        "Q1",
+        "W26"
+      ],
+      "reason": "Remove the old four-paragraph legal survey and its added heading; place the owner replacement at the chapter opening.",
+      "before_html": "<h2>Legality and Public Practice</h2><p>Most of the writing on communities hasn’t caught up with psychedelics. They’ve gone from taboo toward regulated use really fast (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx\">licensed service centers for psilocybin started opening in Oregon</a> in 2023, Colorado set up a system for regulating natural medicines and began licensing in 2025, and New Mexico enacted a <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&amp;LegNo=219&amp;LegType=B&amp;year=25\">Medical Psilocybin Act</a> in 2025), and Australia has allowed <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub\">authorized psychiatrists limited access</a> for a list of conditions since 2023, for both psilocybin and MDMA.</p><p>That said, it’s not a smooth ride or an inevitability. The US FDA issued a <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf\">Complete Response Letter</a> to the MDMA-assisted therapy application in 2024, where they did not approve it and requested more evidence. And the thing with Portugal is that many people will lazily say “they’ve legalized everything there” - but that’s false, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf\">they’ve only decriminalized possessing small quantities for personal use</a>. It’s still a crime to traffic drugs.</p><p>All of which means the legality of psychedelics varies by country and by state. It varies by substance, too. And it depends on a group’s religious status and on what exactly it does. So if psychedelic medicine is going to be part of a community at all, that community should definitely get actual local legal advice.</p><p>Most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.</p>",
+      "after_html": "",
+      "before_sha256": "ad008b8f687e5006ded9365c1d2a809aa910ed55bb95c157233d959083b49e71",
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "owner_ids": [
+        "Q1",
+        "W26"
+      ],
+      "reason": "Owner public-context opener first; retain the existing personal introduction directly after it. The slash drafting notation is made grammatical without choosing one tense.",
+      "before_html": "<h1>The Medicine Part - Yes, I’m Naming It</h1>",
+      "after_html": "<h1>The Medicine Part - Yes, I’m Naming It</h1><p>Most of the writing on communities hasn’t caught up with psychedelics. They’ve gone, or are going, from taboo toward regulated use for physical and mental health indications really fast as their benefits become more studied. And most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.</p>",
+      "before_sha256": "5ebc6faed3b24ea2934033e65faea70b185ed93921f86de087d73893b105d1d7",
+      "after_sha256": "e97cd732c19e9033912250fb791b7f8aea977d700d4ce80cb18d8b096a04199e"
+    },
+    {
+      "owner_ids": [
+        "W10"
+      ],
+      "reason": "Restore the reader-facing introduction under The Case Against Psychedelics using the exact owner replacement.",
+      "before_html": "<p>Physical and psychological negative effects of ayahuasca",
+      "after_html": "<p>For a balanced take, we need to talk about both the value and the risk. Physical and psychological negative effects of ayahuasca",
+      "before_sha256": "7325657183483b32d48e5e93e979718512a69276b3d1d30a9575b58b802f7473",
+      "after_sha256": "0167fa8e91911e728bb627e42223999cf4b09f4d92d9c7d624046a4c5af9e58e"
+    },
+    {
+      "owner_ids": [
+        "W27"
+      ],
+      "reason": "Install the owner’s pointer; fix only the missing go and singular section agreement.",
+      "before_html": "<p>Before making long-term commitments, work through the choices below about technology, relationships, children, money, and founder power. The exit terms in “Leaving, Removal, and Dissolution” belong in those agreements too.</p>",
+      "after_html": "<p>Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements.</p>",
+      "before_sha256": "c3989b0a6d0e873477db7ed58d17c2eff28a48fb88d429054416611e40af45db",
+      "after_sha256": "c2d545ad4afbe3a61ff690aca196d7ca6333657c40e1725767fe528bdc746be0"
+    }
+  ],
+  "minor_realization_fixes": [
+    "gone/are going → gone, or are going,",
+    "to through → to go through",
+    "named exit sections → named exit section"
+  ],
+  "kept": "Every accepted move and basic correction; detailed dissolution inventory (Q2) unchanged.",
+  "removed_link_occurrences": {
+    "https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx": 1,
+    "https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegNo=219&LegType=B&year=25": 1,
+    "https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub": 1,
+    "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf": 1,
+    "https://www.euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf": 1
+  },
+  "source_byte_undo": "PASS",
+  "detector": "No new Pangram result; the prior assistant pointer was owner-reported to fail and has been replaced.",
+  "destination": "Not pasted or published."
+}
