@@ -1,0 +1,29 @@
+{
+  "scope": "Fresh full-candidate editorial read; not source-only replay or detector judgment",
+  "candidate_sha256": "2ad13ba6c4aea28fd4cb23f46443ca16fbfa52c79f7a26c30ce5805b3a3dd45a",
+  "input_sha256": "ec244ad7fe2afdce928e17bc1ecd87a2bba4e6915436d428c5940929c3756339",
+  "input_chars": 155847,
+  "requested_model": "opus",
+  "requested_effort": "high",
+  "command": [
+    "claude",
+    "--print",
+    "--model",
+    "opus",
+    "--effort",
+    "high",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--setting-sources",
+    "",
+    "--no-session-persistence",
+    "--output-format",
+    "json",
+    "--system-prompt",
+    "You are a source-grounded independent editorial reader. Read only the supplied article. Do not use tools or previous sessions. Distinguish actual textual defects from taste and remain within the requested editorial scope."
+  ],
+  "status": "FAILED",
+  "returncode": 1,
+  "actual_models": []
+}

@@ -2,5 +2,13 @@
   "schema_version": 1,
   "article_id": "intentional-communities",
   "note": "The published article links its sources inline; their URLs are kept in the master and in the humanized candidate (candidate/HUMANIZED-SO-FAR.md, links put back after every rewrite; links.json and D6-LINKS.md list them). No claim-level source review has been done.",
-  "claims": []
+  "claims": [],
+  "current_owner_assembly": {
+    "path": "articles/intentional-communities/master.html",
+    "sha256": "250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be",
+    "provenance": "Owner revised source -> r03 accepted with specified corrections -> deterministic r04",
+    "owner_decisions": "state/tasks/community-innerchild-20261020/inputs/Community-r03-review-answers.json",
+    "operations": "articles/intentional-communities/candidate/owner-approved-20261020/OWNER-CORRECTION-RECEIPT.json",
+    "factual_verification": "Not newly commissioned; existing citation status remains pending."
+  }
 }

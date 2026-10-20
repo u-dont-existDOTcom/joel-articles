@@ -2,14 +2,14 @@
   "schema_version": 1,
   "article_id": "intentional-communities",
   "owner_review": {
-    "status": "pending",
-    "evidence": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md, question 20, and Joel's answer of 2026-10-13 21:00 UTC kept in articles/intentional-communities/candidate/joel-20261013/joel-20261013-attachment.txt: \"yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork...\""
+    "status": "confirmed",
+    "evidence": "Owner terminal r03 review answers (candidate/owner-approved-20261020/source-comments.json), including overall approval with specified revisions; current request says finalize the community article. OWNER-CORRECTION-RECEIPT.json records the exact applied delta."
   },
   "locked_passages": [],
   "protected_functions": [
     {
       "id": "working-master-source-identity",
-      "description": "Preserve the published Substack text (original.md, 97920 UTF-8 bytes, SHA-256 5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6) as the registered working source master, the way Inner Child Therapy registers its raw Substack source. This master is not the humanized candidate; candidate/HUMANIZED-SO-FAR.md is, until Joel accepts it."
+      "description": "Retain original.md as the historical published raw-source baseline (SHA-256 5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6). The current owner-approved publication wording is master.html, r04, from the direct owner approval and supplied corrections of 2026-10-19. The older humanization assembly is superseded for current editing; do not project its source order back onto r04."
     },
     {
       "id": "owner-edits-checked",
@@ -27,5 +27,12 @@
       "id": "four-parts-model",
       "description": "Keep the four parts (inner, relational and medicine pl/ork inside the practical container) as the model the article is organized around; the later sections build the container."
     }
-  ]
+  ],
+  "approved_artifact": {
+    "path": "articles/intentional-communities/master.html",
+    "sha256": "250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be",
+    "revision": "r04-approved",
+    "publication": "not posted by this action",
+    "detector": "no new exact-r04 measurement"
+  }
 }

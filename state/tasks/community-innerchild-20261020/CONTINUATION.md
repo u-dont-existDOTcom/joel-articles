@@ -40,3 +40,6 @@ articles/inner-child-therapy/candidate/editorial-20261020/Inner-Child-restored-r
 
 ## Inner Child structural candidate frozen
 r02 candidate SHA-256 2ad13ba6c4aea28fd4cb23f46443ca16fbfa52c79f7a26c30ce5805b3a3dd45a. Source-supported route and whole overlap clusters are in STRUCTURAL-PLAN.md; ASSEMBLY.json maps every source block once. No independent source passage removed. Four copy/reference repairs, heading hierarchy repairs and one new navigational heading are logged. Next: fresh candidate-only reader, then reconcile findings and build the exact review/helper family. Long optional chapter-scope questions remain for the owner; do not call the draft approved or newly Pangram-tested.
+
+## Community current authority synchronized
+r04 is installed as the task-branch registered master with confirmed owner approval and editorial pass. Raw published original and older candidates are preserved as history. Citation lifecycle remains pending, and no exact-r04 Pangram or actual destination result is claimed. Shared v0.3 protocol now captures reader-facing introduction, routine-copy and qualified-approval lessons. New browser reports are associated with exact r04 derivatives. Next: finalize delivery archive after common affected checks; continue Inner Child reader reconciliation.

@@ -1,0 +1,15 @@
+Read: the complete supplied article, H001 through H423 in supplied order, including all D/N entries and the appendix. IDs below are editorial anchors. The older version was not supplied, so its formatting/media cannot be reconstructed here. Native-object placeholders do not establish rendered contents or playback.
+
+## MUST fix
+
+- **Restore the five-stage structure — H014–H015.** H014 promises “five fairly predictable stages,” but H015 merges them into one paragraph, including “continue: Begin to borrow adulthood.” This obscures where the first stage ends and the second begins. Format H015’s five existing stages as separate bullets or blocks, preserving their wording and sequence. Removing paragraph numbers should preserve this meaningful internal structure.
+
+## Optional organization and consolidation
+
+- **Give the no-warmth fallback one main home — H106–H107; H355–H358.** H106’s “you can at least stop judging your little one” and H357’s “least cruel response a decent adult could offer” teach substantially the same starting move. Consolidate H356–H357 immediately after H106, retaining the distinct points about goodwill without warmth and imagery making someone feel “more threatened, or lonelier.” H358’s protective-part explanation can join H198–H201; preserve its distinction between admitting warmth and trusting people. H355 could remain a brief navigational pointer if separate troubleshooting entry points matter.
+
+- **Reconnect the altered-state lead-in — H208–H214.** H210 introduces getting “past the guards,” and H214 asks, “Remember those guards from The Urge to Escape, above?” Between them, the article traverses identity, spirituality, relationships, forgiveness, and life transitions. The reference remains recoverable, but its explanation and continuation are unnecessarily separated. Move H208–H211 together to immediately before H212. Retain H214’s safety reminder; it serves a useful purpose at the point of application.
+
+- **Put the Guide’s timing qualification first — H298; H313–H315.** “The Inner Guide Comes Later” sounds categorical until H314 supplies “Timing is different for everyone.” The earlier borrowed Guide in H109 is reasonably compatible with this fuller account, but readers must carry the apparent tension through many paragraphs. Move H314–H315 directly after H298, retiring the emptied H313 heading. The qualification would then frame H299–H312’s examples.
+
+- **Gather the external-authority discussion — H032–H037; H309–H312.** H033 warns that someone can “know things you don’t and still be wrong about you”; H309 returns to surrender and “They know me better than I know myself.” The later paragraphs add distinct mechanisms: disarming admissions, praise overriding evidence, and consequential requests disguised as jokes. Move H309–H312 after H036, keeping H037—“Borrow adulthood. Do not surrender it.”—as the closer. Preserve those applications; consolidation here means giving the discussion one location, with only overlapping surrender explanations eligible for trimming.

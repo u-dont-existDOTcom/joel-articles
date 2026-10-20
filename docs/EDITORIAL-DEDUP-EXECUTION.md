@@ -1,6 +1,6 @@
-# Structural deduplication and sequencing — execution v0.2 candidate
+# Structural deduplication and sequencing — execution v0.3
 
-Status: the v0.1 principles were accepted in Joel’s 2026-10-19 owner-review answers. This v0.2 candidate incorporates his scope, sequencing, visual-review and enforcement corrections and awaits final approval. Neither approval of the rules nor a passing package check establishes improved editing performance. Owner request: 2026-10-19, Intentional Communities comparison. This file adds execution steps to the existing rules; it does not replace preservation, source authority, voice, scope, media, or publication controls.
+Status: the v0.1 principles were accepted in Joel’s 2026-10-19 owner-review answers. The v0.2 scope, sequencing, visual-review and enforcement corrections are retained. This v0.3 applies the owner’s terminal 2026-10-19 review: execute basic copy repairs, keep valid reader-facing introductions, and interpret approval together with specified revisions. These corrections are owner-directed; performance/generalization is not thereby established. Neither approval of the rules nor a passing package check establishes improved editing performance. Owner request: 2026-10-19, Intentional Communities comparison. This file adds execution steps to the existing rules; it does not replace preservation, source authority, voice, scope, media, or publication controls.
 
 ## Trigger and objective
 
@@ -49,6 +49,14 @@ Generate the heading tree from the current candidate and maintain editorial purp
 
 Prefer intact movement, removal of duplicated wording, local joining, then fresh connective wording where needed. A small bridge is justified when it expresses a relation already supported by the source. It is not permission to add a new claim, decision rule, personal history or a more defensible position.
 
+### Preserve real introductions; repair small errors without making them owner decisions
+
+A reader-facing orientation is not private editorial chatter just because the author says what the section will discuss. Before deleting an opener, identify the question or expectation it establishes and what would open the section without it. Keep an introduction that announces a genuinely needed value/risk discussion. Do not mechanically cut all meta-language under an anti-aftercare rule.
+
+When the article explains why a neglected topic belongs, preserve its public relevance before the author's personal-model rationale when that is the intended argument. Moving the real-world problem behind “my model needs it” can make the rationale appear circular. Repair the order rather than rewriting the author's convictions.
+
+Execute obvious missing-word, agreement, duplicate-token and similarly unambiguous copy repairs within the current edit permission; disclose them briefly, but do not ask for repeated approval of each basic fix. Preserve unusual deliberate diction and genuine semantic choices. A newly written bridge is still new prose: apply the current voice/humanization rules to it, and never inherit a green detector score from surrounding untouched text. When the owner supplies the replacement, use that wording with only authorized basic repairs.
+
 After each consolidation inspect both the vacated position and the destination. Repair referents, sequence words, headings, numbering, promises, source links and media anchors. Move an image or caption with its semantic purpose, not mechanically with the nearest paragraph. Keep required notices available where the reader must act on them.
 
 In a source-only replay, preserve every distinct link destination unless its removal has separate authority. A shorter link-bearing passage may carry its link in the surviving discussion; moving the link to an unrelated word is not preservation. In a live owner revision, the owner's deletions control and are not resurrected just to match the old link count.
@@ -78,6 +86,8 @@ Classify an owner's revision as source-recoverable editing, source-supported but
 A fresh writer replay receives only the original source, frozen general rules and original permissions, not the target revision, its ordering, the case study, or a target-derived edit list. Freeze its output before comparison. Because rules learned from this article are tested on this article, that result is a development-set replay, not held-out generalization—even with perfect context isolation. Measure accepted editorial decisions recovered and remaining owner work; never infer minutes saved from deleted words. Use a different untouched article for generalization.
 
 ## Application receipt
+
+Read terminal owner answers together with their final written qualifications. An “Approve” selection accompanied by “with revisions as specified” authorizes the specified revised result, not the unchanged candidate; keystroke history is evidence, not a list of independent edit requests. Preserve the raw export, apply its terminal decisions, and record each disposition.
 
 Keep one compact receipt in the existing task state: source/authority; requested edit scope; major overlap clusters and their dispositions; order chosen and its reason; independent content lost/added and authority; remaining repetition; full-read result; detector/transfer status where due; reader independence; actual files delivered. This is evidence for review, not a replacement for making the edit.
 

@@ -1,0 +1,12 @@
+{
+  "scope": "Fresh complete-candidate GPT editorial read; source-limited, no prior producer rationale, not cross-family corroboration or detector work",
+  "candidate_sha256": "2ad13ba6c4aea28fd4cb23f46443ca16fbfa52c79f7a26c30ce5805b3a3dd45a",
+  "input_sha256": "1d5ad96085a732dd6b78af6be59de1bbabb359e99fe80ef81556eaf610a7addd",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "xhigh",
+  "status": "COMPLETED",
+  "route_reason": "Claude fresh request returned weekly allowance limit. Existing fresh GPT diagnostic-reader route used instead; no Claude result claimed.",
+  "returncode": 0,
+  "tool_event_count": 0,
+  "output_sha256": "1d0fdb32a658304e9a6c542673391d7ea6c07b08598e69674b5efdabe4a00b36"
+}

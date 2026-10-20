@@ -1,6 +1,12 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-10-13
+Updated: 2026-10-20
+
+## 2026-10-20 community owner approval on the active editorial task branch
+
+Intentional Communities now uses `articles/intentional-communities/master.html`, r04-approved, SHA-256 `250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be`, after the owner's approval with specified corrections. The old `original.md` stays unchanged as historical published source. Owner/editorial acceptance is recorded; lifecycle stays working because citation disposition and actual publication/destination checks are not newly certified. Follow the updated article state, not the older October 13 raw-master paragraph below.
+
+The separately uploaded Inner Child humanized wording and AI formatting donor are preserved in the active task state. A restoration baseline and developmental candidate are saved; neither is approved or promoted over Inner Child's registered raw master. The parallel integration-branch lock remains respected. Task recovery: `state/tasks/community-innerchild-20261020/CONTINUATION.md`.
 
 ## 2026-10-13 controlling Intentional Communities registration
 

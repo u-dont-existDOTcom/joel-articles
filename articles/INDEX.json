@@ -22261,6 +22261,76 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-19-turn75.json",
           "sha256": "fe32611972855a6e5131788ef2911a5a3b17bcc6aad1484db410a9503a075345",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/ASSEMBLY-RECEIPT.json",
+          "sha256": "ef0d727a360a679eea21fd4e051233ffc52609cc82e72a3da556b8723d5b4c71",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/ASSEMBLY.json",
+          "sha256": "4084221d7961d96338e7770c4812fe6bba3ee4355aeaea548d6169b4c24ca218",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/FRESH-GPT-READER-RECEIPT.json",
+          "sha256": "7e5624a2fb660045d87bca9c45745648aa8ef89d72adacbabd7402eb536f7ae5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/FRESH-GPT-READER.md",
+          "sha256": "75a937c2cd68b3849dcf72d1e54d2e75cfff320f8a8e61a02ce1308baeb580a5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/FRESH-READER-RECEIPT.json",
+          "sha256": "e63fff4184f2af1865ea85a6f7f4cb72d385dc0ae05585202d9010c87b6eb22d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/FRESH-READER.md",
+          "sha256": "d1ea677a99df1ab28fb650e605041d4e5b9edf248dc21d7d36d059a96ea18611",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/HEADINGS.json",
+          "sha256": "ea5d358a0c14eb498fd6f75ca4514ccd972656beed4972c1de6a3daaa4a8ce6e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/Inner-Child-labels-removed.html",
+          "sha256": "53b72920aa20846782b33883595e975cf9c3b06e839d1f3c9d31a48a26501b59",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/Inner-Child-r02-candidate.html",
+          "sha256": "2ad13ba6c4aea28fd4cb23f46443ca16fbfa52c79f7a26c30ce5805b3a3dd45a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/Inner-Child-restored-r01.html",
+          "sha256": "95a968ab65379887c34a86c946fedc4ba35757cce49260f6049717050ffc08f9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/LOCAL-CHANGES.json",
+          "sha256": "567507f89b816bb01b6acd77f7a85f20d5b9608aa7aed2c51ca652dd2e438631",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/READING-COPY.txt",
+          "sha256": "a7f67f97f31ed6f21768bbfaebcb77e70b03fff56a84b262ac2e42ea1985e1e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/RESTORATION-RECEIPT.json",
+          "sha256": "f5995d46ab3a65e235c4e2d774419860c62dd0b4356ea7550040cc899b4d7c3d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/STRUCTURAL-PLAN.md",
+          "sha256": "51b527333fe6339e8a0748a4c3ad9431e8f8291a5f61f2fb22955a888c091142",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -22611,16 +22681,16 @@
       "status": "working",
       "authority": {
         "master": {
-          "path": "articles/intentional-communities/original.md",
-          "sha256": "5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6"
+          "path": "articles/intentional-communities/master.html",
+          "sha256": "250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be"
         },
         "owner_locks": {
           "path": "articles/intentional-communities/OWNER-LOCKS.json",
-          "sha256": "3b26251d301bc04d2bb96fd2b24f99d700e9129bcecc5407bbc800fc604f0173"
+          "sha256": "582822984e568752148156770615eb7d638b81623b00934be03ada5c0cb4a5fd"
         },
         "source_evidence": {
           "path": "articles/intentional-communities/SOURCE-EVIDENCE.json",
-          "sha256": "6f3888e680260029236a835a4893bc6f5ebb43c779682fe0f339d4522a36f8f9"
+          "sha256": "d0d3d2869a14025794b5a65ffe0a2fc85a364e6edc5873e36d34d90fa1867bd7"
         },
         "unincorporated_ideas": {
           "path": "articles/intentional-communities/UNINCORPORATED-IDEAS.md",
@@ -22628,7 +22698,7 @@
         },
         "current_state": {
           "path": "articles/intentional-communities/CURRENT-STATE.md",
-          "sha256": "44928a4297aacced16a56f89b3e475d3f141d8efc9e4bf3fda06d9ef3412b1d2"
+          "sha256": "d5f7c9720d1beef9c308e2cc5f135fe7b67c70571932837c00a7483921a80733"
         }
       },
       "review": {
@@ -22639,13 +22709,13 @@
         },
         "detector": {
           "path": "articles/intentional-communities/DETECTOR-EVIDENCE.json",
-          "sha256": "52895ca77759bf647b94bda5669a022076e5ae925f10f1856254ed340793ab66",
+          "sha256": "3331ffd5b41ac08c09a27e4e6155e5448957898c442f75439af2b0a49ef84cb9",
           "status": "recorded"
         },
         "editorial": {
           "path": "articles/intentional-communities/EDITORIAL-STATUS.json",
-          "sha256": "bc48597e02dd0295bd3b390207b5812bd7fa90a826ac809f7cc11fb6328678b3",
-          "status": "pending"
+          "sha256": "5c2bbac6c7957b3761efedbefb465c6aa8cf8ddaad0fd04b43b1af207b3fdf03",
+          "status": "passed"
         }
       },
       "publication_exports": [],
@@ -22653,7 +22723,7 @@
         {
           "path": "articles/intentional-communities/ARCHITECTURE.md",
           "role": "architecture_map",
-          "sha256": "0c8bf7823c0808c203c91552ab64095663cfc091ae7cc2cab63e0e31f538d1c4"
+          "sha256": "399f3add37861b8383c7614328f27389dfe09bdd1c96525d255988ee7a3dd0b4"
         },
         {
           "path": "articles/intentional-communities/IMPORT-RECEIPT-20261013.md",
@@ -22662,7 +22732,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
-          "role": "active_humanized_article",
+          "role": "superseded_humanization_assembly",
           "sha256": "8daee1a4af46c26dd0cc63524c11f63601958b2e67b40ceb6b041f547e683c3f"
         },
         {
@@ -62794,6 +62864,106 @@
           "path": "articles/intentional-communities/candidate/finalization-20261019/NAVIGATION-REPAIR.md",
           "sha256": "961aaca1dcac1c2bdb1cff082a98118d0a131d88068fcd82864ce2ef52b2693c",
           "role": "editorial_finalization_candidate"
+        },
+        {
+          "path": "articles/intentional-communities/original.md",
+          "sha256": "5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6",
+          "role": "historical_published_raw_source"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/COMMENT-RESOLUTION.md",
+          "sha256": "1e80cf9ed95a7df61e4c7ff989743cdc4755e7e841b72ff4dc92ab86e59b6144",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Changes-r03-to-r04-browser.json",
+          "sha256": "870d90e5ef830799cfdcfe212621b3a9aaae030fe8dd6c5e42079f08a3352222",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Changes-r03-to-r04-browser.md",
+          "sha256": "ead36e8228c99dc1dfb09985c46c4b35c4bac2866b9e4e2153b89dc44b4db0cc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Changes-r03-to-r04.html",
+          "sha256": "24958262d3062ac099cbde3eeaa5106dcc1a93df88edeab914b722c839b646e7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Community-Article-r04-approved.html",
+          "sha256": "250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Copy-to-Substack-r04.html",
+          "sha256": "72260b4f56cc967bfb5f7defca544d622904276f26697e8dc5ba58db4eec557c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Full-Article-r04-browser.json",
+          "sha256": "3f303c67887b58d2ef5efda819860f57607b7bf790aad0083462de455e173a2b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Full-Article-r04-browser.md",
+          "sha256": "44be7c1944c37ef8a69edd9d19ca34d46d05c38c593c2a4d3d98c597f7cc1ae1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Full-Article-r04.html",
+          "sha256": "654e389d9bd1d590f3fd3d09a6c5d8ee6730f1dba0bf474d410176b4d0f3627c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/NATIVE-FIDELITY.json",
+          "sha256": "2ca6da3995d0128e9fbc43e6fa37ff503fc0eeeea40baca214dc1d096f99786d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/NATIVE-INVENTORY.json",
+          "sha256": "b81759c43007b64f1dcfbd95fd12022a9398d85b6dd161dbdf5219ec584bd649",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/OWNER-CORRECTION-RECEIPT.json",
+          "sha256": "174950cbe5e99d5238b5d862154b2f61e4a3bff2c33d65cbd57c35b313810095",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Original-to-r04-browser.json",
+          "sha256": "f557e7eab74dbb36b7101757a47b96cd534baff73bde30376dd2485040cc8627",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Original-to-r04-browser.md",
+          "sha256": "fc29a8232f6f54f391b97d7bd73dd4dbcdef12e640126f65512474bc61f84f1f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Original-to-r04.html",
+          "sha256": "6857971290e17710bf83a1f4e7dc2cbfd07a000d77d375a337c264162166f004",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/TRANSFER-COMPATIBILITY.md",
+          "sha256": "2a41e3ac2e21f8b4911de8c85d1af0ffd3cd6b5d88ab046c94b3a57b50c11296",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/TRANSFER-PLAN.json",
+          "sha256": "24d24e730cadddc583c74ea8bb60660e7d2e6a6d3ea86214da89e904f55b50c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/TRANSFER-REPORT.md",
+          "sha256": "6ed8a95588354fe85e8e4cef9753561f9b076ff075724ae3e0f933ab020ef8f3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/source-comments.json",
+          "sha256": "c2961f93604b37659310cf005dbd7912a168b0d3ac71616c9e4da3886517659e",
+          "role": "humanization_working_record"
         }
       ]
     }

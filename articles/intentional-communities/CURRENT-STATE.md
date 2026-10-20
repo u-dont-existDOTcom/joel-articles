@@ -1,5 +1,20 @@
 # Intentional Communities: current state
 
+## Controlling checkpoint — owner approval applied 2026-10-20
+
+Current owner-approved wording: `master.html`, r04-approved, SHA-256 `250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be`. The owner accepted r03 with the exact corrections in `candidate/owner-approved-20261020/source-comments.json`; the later direct request authorizes finalizing it. See the correction receipt and comment-resolution ledger there. This checkpoint supersedes older waiting-for-questions and older candidate-order instructions below.
+
+Applied: shortened owner-written medicine context first; original personal introduction next; restored reader-facing balanced-value/risk opener; owner replacement for the membership forward pointer, with two obvious copy repairs. Detailed dissolution inventory and all approved moves remain. All 28 native source objects are unchanged and ordered. Five removed link occurrences belong to the explicitly superseded country survey. No other prose edits were made.
+
+`original.md` remains the unchanged historical published raw source; `candidate/HUMANIZED-SO-FAR.md` and prior r03/study packets are lineage, not competing current masters. Shared editing rules are used; no article-specific rule fork.
+
+Publication and evidence: this action did not post to Substack. The exact r04 helper has been built and statically verified; the destination paste remains untested. No new r04 Pangram score or full citation review is claimed. Registry lifecycle remains `working` because the repository reserves `owner_final` for completed citation disposition as well as owner/editorial approval. That lifecycle label does not withdraw the owner's approval of this text.
+
+Next: deliver the exact r04 article/helper and compact correction review, then continue the separately recorded Inner Child editorial task. Do not restart the community dedup, reapply the final patch, or ask the owner to approve already-kept basic copy repairs. Further community prose changes require new owner direction or a concrete new defect.
+
+## Historical checkpoint (superseded for current article authority)
+
+
 Registered 2026-10-13 from the community humanization lane (branch `claude/emulate-lessons-20260930`, commit `6775ed15`), at Joel's answer to question 20: "yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork..."
 
 ## Goal
