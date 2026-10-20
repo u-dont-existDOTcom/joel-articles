@@ -22926,6 +22926,11 @@
           "path": "articles/inner-child-therapy/experiments/t76-guide/RESULTS-i.json",
           "sha256": "98bfd372be0b188e40d4fb4d381bf1ac42d1e4a2e2477c57fa7ee511f4c1b2e1",
           "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t77-answers/JOEL-20261020-2337.md",
+          "sha256": "693bf937a20e3b0820668e015847e97f99dff398d2b69c4bc2b69477ef7f4b0a",
+          "role": "humanization_working_record"
         }
       ]
     },
