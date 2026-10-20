@@ -1,0 +1,16 @@
+{
+  "status": "DEVELOPMENTAL_CANDIDATE_NOT_OWNER_APPROVED",
+  "source_sha256": "95a968ab65379887c34a86c946fedc4ba35757cce49260f6049717050ffc08f9",
+  "candidate_sha256": "2ad13ba6c4aea28fd4cb23f46443ca16fbfa52c79f7a26c30ce5805b3a3dd45a",
+  "source_content_blocks": 431,
+  "candidate_content_blocks": 432,
+  "source_blocks_omitted": 0,
+  "source_blocks_duplicated": 0,
+  "new_headings": 1,
+  "local_changes": 17,
+  "link_occurrences": "exact equality to restored r01",
+  "prose_policy": "Whole source passages moved; four bounded copy/reference fixes. No independent source claim deleted or added. The parent hierarchy is changed as logged.",
+  "word_reduction_is_not_completion_metric": true,
+  "remaining": "Fresh full-reader review and exact delivery checks; owner judgment about scope of long special-topic chapters.",
+  "detector": "No new score; original upload owner-reported 100% Human."
+}
