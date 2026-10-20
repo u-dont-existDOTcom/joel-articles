@@ -2373,6 +2373,22 @@
     }
    ],
    "reason": "A stock phrase is formulaic by how common it is in this kind of writing and whether it says the thing, which a reader judges; a fixed list would ban phrases he uses on purpose (\"Yes, yes,\", \"No problem\")."
+  },
+  {
+   "id": "J58",
+   "tell": "a generic \"you\" or \"imagine\" scenario where a particular person and moment would be (\"Imagine opening your inbox after casually inviting a million followers to co-found a village\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261020/joel-20261020-2201-message.txt",
+     "quote": "all the edits you see between the final full html i'm attaching and the substack paste are because those sections became AI from 4.0 to 4.1"
+    },
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261020/PANGRAM41-HISTORY.md",
+     "quote": "Imagine opening your inbox after casually inviting a million followers to co-found a village"
+    }
+   ],
+   "reason": "Whether a scenario is generic or is the author's own moment is a reading of who and when the text is about; his fix kept \"imagine\" and named the person and the morning (\"imagine Chantress Seba the next morning opening her inbox\"), which read dark green, so no word can decide it."
   }
  ]
 }

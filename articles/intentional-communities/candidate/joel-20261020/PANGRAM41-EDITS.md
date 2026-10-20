@@ -1,0 +1,103 @@
+# The community article's Pangram 4.1 edits (2026-10-20)
+
+Built by `make_edits_summary.py` from `community-r04-approved.html` (the approved r04, read in Pangram 4.0) and `community-final-substack-20261020.html` (Joel's final Substack paste after his and GPT's edits for Pangram 4.1). 25 changed runs; 2564 of the r04's 15741 words are in changed blocks (16%). Struck words are [-like this-], added words {+like this+}.
+
+## 1. The New Age May Dawn Suddenly (97 to 74 words)
+
+He had already spent 17 years in the Bruderhof, a Christian community that doesn’t use money internally. [-He had no personal money there: income went into the common purse and the community provided what members needed.-] So when I talk later {+on+} about [-moving beyond-] {+evolving past the use of+} internal money, I’m not proposing something nobody has ever lived. [-My father spent most of two decades doing it.-] They also accepted [-him-] {+my dad+} as a Jewish atheist, making him a remarkably long-running doctrinal … that “God is the Universe, and the Universe is Love.”
+
+## 2. The New Age May Dawn Suddenly (70 to 89 words)
+
+From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping {+Y2K. In case you aren’t familiar with+} Y2K, [-that brief historical period when otherwise reasonable adults prepared for-] {+it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of+} civilization [-to be defeated by a two-digit date.-] We lived in a yurt. [-There were-] {+At Love Israel, I had my dream of picking all kinds of+} wild berries [-of every kind, and I loved being-] in [-nature.-] {+nature come true.+} I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.
+
+## 3. The New Age May Dawn Suddenly (57 to 60 words)
+
+Even at East Wind, though, there was [-a quieter-] {+some political+} power [-issue.-] {+usurpation under the surface.+} They had a nut butter factory that brought in a … a nice way of distributing labor, and no obvious guru.
+
+## 4. The New Age May Dawn Suddenly (37 to 72 words)
+
+[-The-] {+But what I gathered from a bird’s eye view is that the+} secular communities often [-buried hurt under procedure.-] {+thought they could make everyone feel loved and respected by adopting optimal democratic procedures.+} The spiritual communities {+went deeper in search of real purpose, belonging, and divine connection, but+} often put one person in charge of everybody’s inner life. Most of the [-rest of this-] {+my big little+} article {+here+} is [-my attempt-] {+me attempting+} to describe the missing [-third option.-] {+bridge between those.+}
+
+## 5. Communes Are Hot Again 🔥 (110 to 132 words)
+
+It’s poppin’ on Instagram too! 🔥 Chantress Seba—my favorite light-language … the post, many thousands of people appeared to be interested. [-Imagine-] {+That was encouraging, but imagine Chantress Seba the next morning+} opening [-your-] {+her+} inbox [-after casually inviting-] {+to+} a [-million followers-] {+zillion excited applications+} to co-found [-a-] {+her dream+} village. {+😅+} ¶ Later, when another influencer with a big following floated the commune idea, the comment section started to become a recruitment [-board.-] {+board, where people were apparently forming joint operations together right in there. ¶+} It was chaotic, but sincere, and it [-was revealing. There were-] {+revealed to me how+} people [-in the comments finding prospective members the way you’d usually find a used sofa.-] {+are so ready for this that they’ll literally jump into it from one video.+}
+
+## 6. The Freeloader Problem (138 to 111 words)
+
+Some of the commenters [-weren’t trying to join.-] {+were skeptics tho.+} The oldest [-objection, that maybe most people don’t want to take-] {+objection showed up immediately, restating the collective action problem: anarcho-communalism sounds great+} on [-the responsibility that anarchism requires and communal-] {+paper, but when+} property becomes “owned by everyone, cared for by nobody,” [-showed up almost right away. ¶ The commune comments became a miniature political-philosophy seminar, as Instagram comments sometimes do.-] {+the practicality comes into question.+} ¶ I’d say the comment above is more true of … some people really would rather let somebody else take responsibility. [-When everybody owns everything, it can get to where nobody knows who’s supposed to do what, and-] {+Sometimes you see+} the same three people {+whoi+} end up doing all the [-maintenance-] {+maintenance,+} while everybody else talks about [-freedom.-] {+freedom while lounging around in their hammocks.+} And then unofficial leaders start gaining [-power. Partly that’s because everyone keeps handing it to them.-] {+power just based on their indispensibility.+}
+
+## 7. The Best Model I’ve Seen: Zapatistas (70 to 70 words)
+
+In 2005, a few college buddies (Emile & Dolores) and … centers that tie their villages together in Chiapas. We almost [-died several-] {+died, literally, a few+} times [-getting-] {+on the way+} there. The muddy mountain road [-ran along cliffs-] {+was super windy and going up & down cliffs, usually+} without guardrails, and our rental car was {+huffin and puffin+} on its last [-legs, which is a great combination when you’re on your way to visit a revolution.-] {+legs.+}
+
+## 8. Integration Starts Well Before Ceremony (48 to 55 words)
+
+Using medicine is secondary to all of the other pl/ork … and learning to do peer counseling. The medicine can deepen [-an existing practice,-] {+the well you already learned how to dig, or it can show you a window into the future you want to see,+} but [-it can’t be-] {+it’s not+} a [-pharmacological shortcut to what takes several months of honest relationship with other people.-] {+simple shortcut.+}
+
+## 9. Community Is What Makes Psychedelics Pl/ork Best! (262 to 302 words)
+
+The deeper you go, the more alienated you can feel. … exactly the right people to show me my limits. 😂 [-In-] {+I often feel like I’d gone thru that in+} a community {+with others, it would have been much more+} of [-people who’ve sat through-] {+a healthy and durable transformation, although without+} the [-same nights, you aren’t the only one who’s been there, and someone can catch the God complex early.-] {+challenges I guess we don’t learn as much also…+} ¶ Do you trust the people you’re relying on for … you don’t know to look after you for a night. [-Sometimes they’re great,-] {+I’m not saying paid help can’t be good sometimes,+} but [-sometimes the person with the feather has only known you for 4 hours and already has-] {+to me it seems way too much of+} a [-cosmology to explain everything you say.-] {+gamble if I have a better alternative.+} In a community, your sober sitter [-may-] {+could ideally+} be someone who’s known you for [-years, and-] {+years. Someone who not only watches+} you [-feel-] {+based on a safety protocol, but someone you know cares about you. They not only want+} the [-difference between being watched and being held.-] {+best for you altruistically, but because they have to live with the version of you that emerges 😊.+} This is especially important when doing iboga or other long … history may notice the difference between new understanding and… mom.
+
+## 10. The Math of Absorption, and Who This Isn’t For (49 to 49 words)
+
+I could go on and on, but the math is pretty clear by now. [-There wasn’t much of me left over-] {+My free resource+} for [-anybody else.-] {+others was approaching zero.+} So when I say someone might need to stabilize and do inner pl/ork before [-helping found a community,-] {+doing community (or whatever relationship),+} I’m not saying it {+just+} from a [-mountaintop.-] {+theory.+}
+
+## 11. From Visitor to Member—Slowly (52 to 60 words)
+
+When The Farm grew fast, a lot of the people who came were in need, and there weren’t many filters [-that worked.-] {+being applied.+} Being open to everybody [-felt so spiritual! The-] {+was part of the spiritual “we are all one” new age philosophy. But+} practical burden piled [-up anyway.-] {+up.+} A membership process is there to protect both the people who are already there and the newcomers.
+
+## 12. From Visitor to Member—Slowly (94 to 99 words)
+
+Taking on responsibilities: If someone will have a role in … records, you want to know how they handle that specific [-thing. I wouldn’t hand someone-] {+area of competence. Great skill with kids doesn’t mean they can drive+} the van [-keys just because they’re great with kids.-] {+down the windy roads safely.+} You can find out by checking whether you’ve seen them … decisions about these roles to a separate authority if needed.
+
+## 13. Which Connections to the Technosphere Do You Keep? (16 to 16 words)
+
+Loneliness [-is-] {+ain’t the+} only [-one-] reason building community feels urgent. I wrote [-separately-] {+previously+} about the wider [-polycrisis:-] {+“polycrisis:”+}
+
+## 14. Facing the Polycrisis: Is There Hope For Humanity? (46 to 67 words)
+
+Medical care, banking, phones, vehicles, schools, supply chains, government ID, internet and energy are each a separate [-decision.-] {+interlink with the wider world that folks must consider.+} If you opt out of them completely, it can [-cause needless suffering.-] {+feel like the ideology of independence is more important than life itself sometimes.+} If you depend on them [-completely,-] {+too much, though,+} the outside system can [-reach directly into every-] {+remain too+} essential [-function.-] {+to truly evolve past.+}
+
+## 15. The Grown Children Get the Final Review (233 to 307 words)
+
+Couples who live together, share the same culture and even … beans (vs meat), schooling, religion, discipline and medical care. And {+I mean,+} that’s just two [-people.-] {+people...+} Now think of twenty adults, all with different [-childhoods.-] {+childhoods and value systems.+} ¶ The community has to share enough principles about raising kids to offer them coherence, and yet still leave parents enough room to [-remain parents.-] {+contribute their individual humanity, insights, gifts, and so on.+} ¶ My own childhood broke many mainstream rules about what children should see and do. [-I won’t unpack-] {+There’s no space to get into+} all of it [-here.-] {+here, but+} I’m grateful that my mother nursed me until I was [-five,-] {+five and let me sleep in their bed until 11. I’m+} grateful my parents didn’t vaccinate me, and grateful for nearly all of the unusual world they gave [-me.-] {+me, which has given me endless stories to tell.+} ¶ I mention vaccination specifically because it’s [-one of the values I would absolutely need to share with-] {+a super divisive issue for+} people in {+the more medicalized countries. I’ve personally seen+} a [-community,-] {+lot of folks injured by vaccines, even injured by spike protein shedding from others who took the Covid vaccines, and I don’t trust Big Pharma or the government. I’m not sure actually+} if [-I was going to raise children there.-] {+there even are many communities that believe in vaccination, but if there are, I’d stay away. I’m fine being friends at a distance with the pro-vaxxers, but+} I’m not trying to design a village for [-everyone, only saying that communities-] {+everyone. Echo chambers aren’t ideal either, but we+} need [-some common ground among-] {+enough agreement to make life together work. ¶ And regardless of what+} the [-parents on children’s health, enough that they can actually trust one another. ¶ All-] {+adults think, all+} of the community’s design and [-implementation-] {+practical unfoldment+} will ultimately be reviewed by the kids, once they’re [-grown,-] {+grown+} and [-their-] {+even while still young. That’s the+} review [-weighs-] {+I’d say counts, like the results of a longitudinal study count+} more [-heavily-] than [-founders usually want it to. Adults can go on about their intentions forever, but those grown kids who lived through-] the [-system as it actually manifested might have another perspective.-] {+initial hypothesis.+}
+
+## 16. Communal Parenting Adds On (102 to 114 words)
+
+One of the biggest reasons I think community matters for kids is Jean Liedloff’s The Continuum Concept. [-It’s one outsider’s interpretation of-] {+Liedloff was writing about what she learned while living with+} the [-Ye’kuana, an Indigenous people of-] {+Ye’kuana tribe in+} the Venezuelan [-rainforest-] {+rainforest. Some say+} she [-lived with, and she may have-] idealized what she saw, but [-it’s-] {+I+} still [-a powerful picture:-] {+find it powerful:+} the babies are carried [-along-] {+by the adults (and not just by one exhausted parent) all the time, so they participate+} in [-ordinary adult life,-] {+everything adults do from+} the {+start. Instead of age-matched cohorts like we have in our schools,+} kids are [-surrounded by people-] {+with others+} of [-several ages and learn by taking part, and it doesn’t fall on one exhausted parent-] {+all ages. Some modern parents try+} to [-be a child’s whole social world. While a nuclear household can imitate-] {+adopt+} some of [-this, a real village can make it normal.-] {+the Ye’kuana child-rearing practices, but the full stack requires the actual communal support they had.+}
+
+## 17. Children Need Freedom Inside Real Protection (149 to 178 words)
+
+I [-also reject-] {+feel very much saddened by+} the [-suburban panic-] {+way+} that [-treats every warm relationship between a child and an unrelated adult-] {+adults are seen+} as [-suspicious.-] {+(and actually often are) so dangerous for children in the West, especially when they are fond of each other.+} It’s good for kids to have a whole bunch of … public with no qualms or concerns. That’s real freedom! ¶ [-There are several parts to-] {+So here’s how I see+} this [-protection:-] {+protection being ideally structured:+} ¶ Give children real agency. When kids say [-no, it counts. No grownup has-] {+no to an adult who wants their to be alone with them or touch them, that’s+} a [-right to their affection, physical contact,-] {+hard line that can’t be crossed. Apart from that,+} obedience {+should not be demanded from kids+} outside of legitimate safety [-needs, or private access to them.-] {+needs.+}
+
+## 18. Founderism: The Four Questions (87 to 106 words)
+
+[-A few-] {+There are some+} things [-help-] {+we can do to+} keep [-that-] {+founders+} in check. [-One is to-] {+For one, we can+} judge the [-method-] {+lofty methodology+} by results people can actually see. Will [-they-] {+insiders and outsiders+} see the members safely flourishing without being trapped? Able to leave without [-stigma?-] {+it being stigmatized?+} Can {+folks resolve+} conflicts [-get resolved?-] {+in healthy ways?+} Are the kids doing well once they grow up? And if the community is meant to spread, do [-new-] {+we we see daughter+} projects actually start up and last? Those questions seem more [-important-] {+revealing+} to me than how big or old the commune gets, or how many decisions are made by {+some form of+} consensus.
+
+## 19. How My Own Model Could Become a Cult (113 to 100 words)
+
+“Nothing suppressed, everything processed” can become a situation where someone … that risk in groups that use the ZEGG Forum practice. [-A group starts out inviting honesty and ends up treating privacy as resistance.-] But privacy also can be resistance to the communal spirit, … spirit. If someone starts worshipping Satan, say, they get booted.
+
+## 20. From One Community to a Movement (89 to 85 words)
+
+The problem of how these communities stay connected does eventually … differences alive, so communities can keep learning from one another. [-At the federation level, that outward purpose gets concrete: spreading healing practices,-] {+And communities already do have federations which provide some degrees of assistance in+} training people, seeding new projects, {+logging experiences+} and [-keeping any one comfortable enclave from thinking it’s the whole movement.-] {+lessons, and so forth.+}
+
+## 21. What Community Looks Like From Sénégal (201 to 259 words)
+
+Westerners often start out isolated and try to rebuild a … alienated from both the city and the tradition they left. {+So the issue is global now, not just a “first world problem.”+} ¶ [-So this is a global issue, far from some Western lifestyle niche.-] There’s still knowledge in the living villages [-that no book-] {+which+} can [-give you.-] {+help us in learning to live together once more.+} But [-if you visit, remember they’re people, not museums.-] {+visiting to learn from them should be done respectfully.+} Would you like people coming to your house to stare at you and your family? So [-be respectful, contribute something, learn-] {+come and share as part of+} the [-language,-] {+human family. ¶ In the villages+} and [-don’t expect anyone to hand you-] {+families I’ve spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems. Whether it’s land, childcare, housing, food, obligations, etc, etc. I’d probably not sell any tickets if I held+} a [-spiritual service package.-] {+workshop called, “Rebuilding Intergenerational Belonging.” 😅+} ¶ Oh, and a practical note: getting my residency in … and they won’t let me pay rent! Of course that [-generosity lives right alongside-] {+Teranga is part and parcel of the whole culture of+} watchfulness, witchcraft, social conservatism, bureaucracy and all the usual complications of a real {+society and+} country.
+
+## 22. What Community Looks Like From Sénégal (109 to 36 words)
+
+And the humor! People are outside laughing for hours at … if I’ll ever understand the really complicated jokes in Wolof. [-Basic conversation is one thing. But knowing why twelve people are suddenly crying with laughter? That’s graduate school. ¶ In the villages and families I’ve spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems. Whether it’s land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called “Rebuilding Intergenerational Belonging” when some aunt has already given three people a task?-]
+
+## 23. Lessons from the Black Tax (208 to 208 words)
+
+Then there’s the so-called “Black Tax,” a strange legacy of … In the ancestral way of doing things nobody made it {+thru life+} alone, and the people who fed and raised you [-had a real claim on-] {+just naturally expected you to take care of the whole community with+} whatever [-prosperity came through-] you [-later. So why not share in return?-] {+got from life as you matured.+} That’s how the whole organism survived (it wasn’t charity). ¶ But these [-days it-] {+days, the pressure to give back+} can be soul destroying. People have a lot less of … long-term stability, because they may be expected to carry everybody. [-How can they get ahead, when all these people are dependent on them?-] And the relatives stay dependent too, since the payments [-don’t give them a real alternative. It’s-] {+aren’t in something that builds on itself, like compost for soil. Injecting cash into non-cash economies might feel good, but like candy, it can also undermine+} the [-ancestral ethic playing out inside an individualistic cash economy. It can keep people alive, but it eats away at both sides too.-] {+health of the local relationships and sustainability.+}
+
+## 24. What Helps Communities Last—and Whether Longevity Is Enough (76 to 82 words)
+
+Communities That Abide by Dmitry Orlov makes an uncomfortable argument: the communities that last a long time often rely on [-1) communal property, 2) separation, 3) boundaries and 4)-] a [-binding ideology. From a distance, cohesion and-] {+religious ideology which makes members feel alienated from the wider society. Basically, the more cultish, the more durable, since cults are designed to+} capture [-can look a lot alike. ¶ Is-] {+people. It makes one wonder, is+} longevity alone a meaningful measure, when a community may keep … in Intentional Communities”, a paper by Rubin, Willis and Ludwig.
+
+## 25. Research Behind This Article (66 to 80 words)
+
+If you’re curious about the research behind this, it was a much bigger source audit than would comfortably fit in an [-article (a lot bigger!).-] {+article.+} It’s all in the public research report: the evidence base … have to be a 200-row ledger. Can you imagine? 😂 {+I’ve made an effort to keep the actual article here readable, although it’s probably still too redundant.+}

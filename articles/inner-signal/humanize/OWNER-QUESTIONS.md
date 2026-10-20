@@ -1,7 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-20, after your message of 17:38 UTC about Pangram 4.1 (no checks since batch 466g of 2026-10-18).
-**Open questions: 5.** They're at the top, numbered, with their options and my default; the list below them is what I
+Last updated 2026-10-20, after your message of 22:01 UTC (you signed in to Pangram; whole-article checks go through a
+temporary Substack post, free). **Open questions: 4.** **One thing for you to do**: the temporary Substack post for the
+whole-guide 4.1 check (below, under "For you to do"). They're at the top, numbered, with their options and my default; the list below them is what I
 decided myself that you may want to undo. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is this file in Git, so a session in either of your accounts can read and update it.
@@ -67,25 +68,15 @@ The master copy of this page is this file in Git, so a session in either of your
   - d. For the return steps only: that Human version, with the points above as they are in it (my recommendation for
     "Come all the way back"; the listening script stays a, b or c).
 
-- 🟣 **5. Pangram 4.1: when and how to check the guide again.** Every result above is Pangram 4.0, and you said 4.1 is
-  much more precise, so some sections that read Human may not anymore. Your budget rule of 20 October allows one
-  whole-article certification check (and one recheck after its fixes) once the sections are done, a section check once
-  its paragraphs pass, and up to six tries per paragraph, each with a reason. The guide is about 27,000 words, about 270
-  credits for one whole check. Options:
-  - a. After questions 1 to 4 are settled: one whole-guide 4.1 check (in a few big natural pieces if the site won't take
-    it in one), then fix only what it flags, paragraph by paragraph within the six tries, then the one recheck. **My
-    pick**: it's the check your rule already plans for the end, it reads every sentence in its real context (4.1's
-    shading shows which ones), and it costs the fewest scans.
-  - b. The same whole-guide check now, before your answers, so you see the 4.1 picture first; the four open sections are
-    in it as published.
-  - c. Section by section (40 checks): about the same credits as one whole check, but 40 scans.
-  - d. Only the sections that were closest to the line in 4.0 (the ones with the most failed versions before they
-    passed: the troubleshooting list, the induction scripts, NLP patterns, "Altered states"), about 8 checks.
-  Before any of these, Pangram in the desktop app's browser needs you to sign in again (it was signed out on
-  20 October); I don't sign in myself. If you've already run parts of the guide through 4.1, those results are in your
-  History and I can read them for nothing.
-
 ## Decided by me, for you to undo if you want
+
+- 🟢 **Question 5, how to check the guide in Pangram 4.1**, settled by your message of 22:01 UTC: you signed in, and "for
+  very large pangram checks (not just one section, but like whole article especially) you can just ask me to make a
+  temporary article on substack to check it free". So it's option b, now free: the whole guide in one check through a
+  temporary Substack post, with the four open sections as published (their defaults); then only what it flags,
+  paragraph by paragraph on pangram.com within the six tries, each with a reason; then the recheck through Substack.
+  Before the check, a reader went through the guide for the six patterns 4.1 marked red in the community article, and
+  my prediction is in the ledger.
 
 - 🟢 **Your table-of-contents note** (was question 3) read Human in 454g with the rest of "How to use" and the table of
   contents ([check](https://www.pangram.com/history/94dc9298-fb41-497c-a71a-8666a6c0df7f)), as you wrote it: installed.
@@ -108,8 +99,11 @@ The master copy of this page is this file in Git, so a session in either of your
 
 ## For you to do
 
-- 🟠 Sign in to Pangram in the desktop app's built-in browser (signed out on 20 October), with the account whose credits
-  this guide should use, when you want any of question 5's checks run.
+- 🟠 **The whole-guide 4.1 check through Substack.** Open the copy page I sent you in the chat on 20 October
+  (COPY-TO-SUBSTACK-HYPNOSIS-CHECK.html, titled "Substack transfer helper"), press its Copy Article button, paste into a new Substack post, and run Substack's
+  Pangram check on it. Don't publish it; keep the draft for the recheck after the fixes. Then tell me it's done: if the
+  check shows up in your Pangram History, I read every sentence's shading there; if it doesn't, a screenshot of the result
+  or its link is enough.
 
 ## Where it stands
 

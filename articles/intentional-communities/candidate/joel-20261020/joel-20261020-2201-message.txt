@@ -1,0 +1,11 @@
+Joel, 2026-10-20 22:01 UTC (Africa/Nouakchott, UTC+00:00), with three files: the approved r04 HTML (community-r04-approved.html here), his final Substack editor paste (community-final-substack-20261020.html here) and the scorecard artifact's iframe HTML (not kept: it holds only the frame).
+
+ok so i'm pasting the substack html from the finalized community article. this is AFTER the final version that *started* with your final version -- i then edited it a lot more, as did GPT... then pangram changed from 4.0 to 4.1 so all the edits you see between the final full html i'm attaching and the substack paste are because those sections became AI from 4.0 to 4.1 (and i agree they most did look ai to me as well upon inspection).
+
+so you should learn from that what pangram 4.1 is now calling AI, altho many of those AI windows were not detected in smaller segments, only in the full article, even though they did seem to have some AI tells to me alone.
+
+i agree the scorecards should be on github, that should have been obvious, send that bugreport to uda, we can't keep having misses like this where i'm lost when i move from one acct to the other. i pasted the artifact iframe html from the scorecard the other account gave, lmk if that is enough, otherwise i can export it to various platforms like mixpanel, datadog, amplitude, ro give you the claude artifact share link: @https://claude.ai/artifact/Sjpy4EiZGUa21iiMstDLPv
+
+btw i'm finding, it seems like when i do a whole article check on substack (vs directly in pangram.com) even tho it uses my pangram account, it doesn't use my pangram credits. which makes sense i guess because nobody has enough credits to read a bunch of articles that are auto-checked by pangram. anyway so the point is that for very large pangram checks  (not just one section, but like whole article especially) you can just ask me to make a temporary article on substack to check it free.
+
+i signed into pangram for you so you can continue with the hypnosis article based on the latest repo rules and what you learn from the improvements to community article

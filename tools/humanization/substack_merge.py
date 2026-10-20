@@ -14,6 +14,16 @@ replacement of the text blocks, never a parse and reserialization of the documen
   conversion lost some of the editor's formatting (lists, bold lead-ins, line breaks, rules), so each master paragraph takes
   the formatting of the published paragraph it aligns with: list membership, a bold lead-in when the master starts with the
   same words, and a bold block of line-broken questions when it has the same number of questions.
+- A master paragraph that is the published paragraph unchanged (the same Markdown) takes the editor's own markup for it,
+  byte for byte: its line breaks, bold and links (2026-10-20, for the hypnosis guide, whose scripts and prayers are
+  line-broken paragraphs the Markdown had joined).
+- A blockquote's paragraphs are units of their own (the Markdown lost the quote marks and split them), and the master
+  paragraphs that align with them go back inside one blockquote; a new master paragraph between two of them stays inside
+  it (2026-10-20: the hypnosis guide has 125 blockquotes, some of several paragraphs).
+- A master paragraph that opens with a Markdown list marker ("- ", "* ", "1. ") is a list item: in the editor's list when
+  it continues one that is open (an item aligned with it, or a new item right after its items), else in a list of the
+  master's own, consecutive items together (2026-10-20: the hypnosis guide's
+  master has a numbered list and two bullets that the published text didn't have).
 - Anchors (the native objects and the headings all three share) cut the article into segments; inside a segment the
   master's blocks replace the editor's, in the master's order. Rules and empty paragraphs stay where the editor had them,
   next to the anchor they touch.
@@ -33,7 +43,9 @@ REPO = Path(__file__).resolve().parents[2]
 LINK_ATTRS = 'target="_blank" rel="noopener noreferrer nofollow"'
 VOID = {'br', 'img', 'hr', 'source', 'input', 'meta', 'link', 'wbr'}
 TAG = re.compile(r'<(/?)([a-zA-Z0-9]+)([^>]*?)(/?)>|<!--.*?-->', re.S)
-ISLAND = re.compile(r'^<!--HVA_ISLAND_(\d+)-->$')
+# A native object as a top-level block of the editor body: its frozen marker, alone or as the only content of a blockquote
+# (the hypnosis guide's editor HTML of 2026-09-28 has an image inside a <blockquote>; md_blocks already reads its "> [image N]").
+ISLAND = re.compile(r'^(?:<blockquote>)?<!--HVA_ISLAND_(\d+)-->(?:</blockquote>)?$')
 
 
 def sha(b):
@@ -83,6 +95,17 @@ def plain_html(frag):
     t = re.sub(r'<br[^>]*>|</(p|li|h[1-6])>', ' ', frag)   # a block boundary is a space between words
     t = re.sub(r'<[^>]+>', '', t)
     return norm(html.unescape(t))
+
+
+LIST_MARK = re.compile(r'^(?:([-*])|(\d+)\.)\s+')
+
+
+def body_md(b):
+    """A Markdown block's text without a list item's marker."""
+    if b['kind'] != 'para':
+        return b['md'].lstrip('#') if b['kind'] == 'heading' else b['md']
+    m = LIST_MARK.match(b['md'])
+    return b['md'][m.end():] if m else b['md']
 
 
 MD_LINK = re.compile(r'\[((?:[^\[\]]|\[[^\]]*\])*)\]\(((?:[^()\s]|\([^()\s]*\))*)\)')
@@ -205,6 +228,10 @@ def editor_units(el):
         if not plain_html(el):
             return []
         return [{'text': plain_html(el), 'p': el}]
+    if tag == 'blockquote':
+        paras = re.findall(r'<p>.*?</p>', el, re.S)
+        if paras and ''.join(paras) == el[len('<blockquote>'):-len('</blockquote>')]:
+            return [{'text': plain_html(q), 'p': q, 'bq': True} for q in paras if plain_html(q)]
     if re.match(r'h[1-6]$', tag):
         return [{'text': plain_html(el), 'heading': el}]
     return [{'text': plain_html(el), 'other': el}]
@@ -386,18 +413,72 @@ def main():
                 rep['notes'].append('segment %d: a comment in the master, not in the merge: %r' % (s, b['md'][:120]))
             elif b['kind'] not in ('para', 'heading'):
                 fail('segment %d: a %s marker in the master outside any object: %r' % (s, b['kind'], b['md'][:80]))
-        pairs = align([u['text'] for u in units], [plain_md(b['md']) for b in mtext])
-        html_blocks, open_list = [], None
+        pairs = align([u['text'] for u in units], [plain_md(body_md(b)) for b in mtext])
+        html_blocks, open_list, open_bq, open_ml = [], None, None, None
         for j, b in enumerate(mtext):
             u = units[pairs[j][0]] if j in pairs else None
             if b['kind'] == 'heading':
                 if open_list:
                     html_blocks.append(close_list(open_list)); open_list = None
+                if open_bq:
+                    html_blocks.append(close_bq(open_bq)); open_bq = None
+                if open_ml:
+                    html_blocks.append(close_ml(open_ml)); open_ml = None
                 html_blocks.append(heading_html(b['md']))
                 continue
-            frag, how = render_para(b['md'], u)
+            mark = LIST_MARK.match(b['md'])
+            if u and ptext[pairs[j][0]]['md'] == b['md'] and (u.get('li') or u.get('p')):
+                frag, how = (u.get('li') or u.get('p')), 'unchanged: the editor\'s markup'
+            else:
+                frag, how = render_para(body_md(b), u)
+                src = u and (u.get('li') or u.get('p')) or ''
+                if '<br' in src and how != 'bold lines':
+                    rep['notes'].append('segment %d: line breaks not carried into a rewritten paragraph: %r' % (s, b['md'][:80]))
             if how:
                 carried.append({'segment': s, 'how': how, 'master': b['md'][:80]})
+            # the master's own list items: a marker, and no editor list going on that it continues (consecutive marked
+            # paragraphs stay one list even when some of them align with an editor list's items)
+            if mark and u is None and open_list and not open_ml:
+                # a new marked item right after an editor list's items: another item of that list
+                if open_list['bold'] and not body_md(b).startswith('**') and bold_first_sentence(body_md(b)):
+                    frag = bold_first_sentence(body_md(b))
+                open_list['items'].append([frag]); open_list['item'] = ('new', j)
+                carried.append({'segment': s, 'how': 'new item kept in the list', 'master': b['md'][:80]})
+                continue
+            continues_editor_list = bool(u and u.get('list') and open_list and open_list['key'] == (u['list'], u['lid']))
+            if mark and (open_ml or not continues_editor_list):
+                tag = 'ol' if mark.group(2) else 'ul'
+                if open_list:
+                    html_blocks.append(close_list(open_list)); open_list = None
+                if open_bq:
+                    html_blocks.append(close_bq(open_bq)); open_bq = None
+                if open_ml and open_ml['tag'] != tag:
+                    html_blocks.append(close_ml(open_ml)); open_ml = None
+                if not open_ml:
+                    open_ml = {'tag': tag, 'items': [], 'start': int(mark.group(2)) if mark.group(2) else 1}
+                open_ml['items'].append(frag)
+                carried.append({'segment': s, 'how': "the master's own list (%s)" % tag, 'master': b['md'][:80]})
+                continue
+            if open_ml:
+                html_blocks.append(close_ml(open_ml)); open_ml = None
+            # blockquotes: the master paragraphs aligned with one blockquote's paragraphs go back inside it
+            if u and u.get('bq'):
+                if open_list:
+                    html_blocks.append(close_list(open_list)); open_list = None
+                if open_bq and open_bq['lid'] != u['lid']:
+                    html_blocks.append(close_bq(open_bq)); open_bq = None
+                if not open_bq:
+                    open_bq = {'lid': u['lid'], 'paras': []}
+                open_bq['paras'].append(frag)
+                carried.append({'segment': s, 'how': 'blockquote', 'master': b['md'][:80]})
+                continue
+            if open_bq:
+                nxt = next((units[pairs[k][0]] for k in range(j + 1, len(mtext)) if k in pairs), None)
+                if u is None and nxt and nxt.get('bq') and nxt['lid'] == open_bq['lid']:
+                    open_bq['paras'].append(frag)   # a new paragraph between two of the blockquote's stays in it
+                    carried.append({'segment': s, 'how': 'new paragraph kept in the blockquote', 'master': b['md'][:80]})
+                    continue
+                html_blocks.append(close_bq(open_bq)); open_bq = None
             key = (u['list'], u['lid']) if u and u.get('list') else None
             if key is None and open_list:
                 # a new paragraph inside a list: it stays in the current item when the list goes on after it
@@ -430,13 +511,17 @@ def main():
                 html_blocks.append(frag)
         if open_list:
             html_blocks.append(close_list(open_list))
+        if open_bq:
+            html_blocks.append(close_bq(open_bq))
+        if open_ml:
+            html_blocks.append(close_ml(open_ml))
         unaligned = [mtext[j]['md'][:80] for j in range(len(mtext)) if j not in pairs]
         cut = [units[i]['text'][:80] for i in range(len(units)) if i not in {v[0] for v in pairs.values()}]
         if unaligned or cut:
             rep['notes'].append('segment %d: master paragraphs with no published counterpart %r; published ones with none in the master %r'
                                 % (s, unaligned, cut))
         out += lead + html_blocks + trail
-        merged_words_master += [w for b in mtext for w in words(plain_md(b['md'].lstrip('#') if b['kind'] == 'heading' else b['md']))]
+        merged_words_master += [w for b in mtext for w in words(plain_md(body_md(b)))]
         if s < len(anchors):
             x = anchors[s]
             if x[0] == 'island':
@@ -474,6 +559,15 @@ def main():
     rep['carried_formatting'] = carried
     rep['objects'] = {'count': len(objs), 'types': types}
     return finish(a, rep, merged)
+
+
+def close_ml(open_ml):
+    start = '' if open_ml['tag'] == 'ul' or open_ml['start'] == 1 else ' start="%d"' % open_ml['start']
+    return '<%s%s>%s</%s>' % (open_ml['tag'], start, ''.join('<li>%s</li>' % f for f in open_ml['items']), open_ml['tag'])
+
+
+def close_bq(open_bq):
+    return '<blockquote>%s</blockquote>' % ''.join(open_bq['paras'])
 
 
 def close_list(open_list):

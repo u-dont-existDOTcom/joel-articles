@@ -1,0 +1,50 @@
+# Pangram 4.1 risk read: the hypnosis guide ("The Inner Signal" self-hypnosis guide), part 9 of 18
+
+Read `/home/claude/w1015/articles/inner-signal/humanize/fix-20261020/risk41/part09.md`. It is part of a published article by one author, Joel, written with AI help and partly rewritten since. Pangram
+4.1, the AI detector, reads every sentence and marks it red (AI), light green (probably human) or dark green (human). Your job
+is to say which sentences you expect it to mark red or light green when the whole article is read, and why, so the author's
+editor knows where to look. You are not rewriting anything and you are not judging whether the writing is good. Read the
+text once and flag as you go: most sentences need no comment, so don't reason through them one by one, and keep your
+reasoning short.
+
+What Pangram 4.1 marked red in this author's articles (each was later fixed):
+1. **Wry quips and joke similes**, often a punchline at a sentence's or paragraph's end: "There were people in the comments
+   finding prospective members the way you'd usually find a used sofa"; "The commune comments became a miniature
+   political-philosophy seminar, as Instagram comments sometimes do"; "that brief historical period when otherwise reasonable
+   adults prepared for civilization to be defeated by a two-digit date"; "which is a great combination when you're on your way
+   to visit a revolution"; "That's graduate school."
+2. **Aphorisms and balanced contrasts that close a thought**: "you feel the difference between being watched and being held";
+   "someone can catch the God complex early"; "The secular communities often buried hurt under procedure"; "From a distance,
+   cohesion and capture can look a lot alike"; "It can keep people alive, but it eats away at both sides too".
+3. **Tidy follow-up sentences that restate, sum up or reassure**: "My father spent most of two decades doing it."; "Partly
+   that's because everyone keeps handing it to them."; "A good therapist or helpline won't mind."; "So this is a global issue,
+   far from some Western lifestyle niche."
+4. **General explanations in parallel or signposting form**: "If you opt out of them completely, it can cause needless
+   suffering. If you depend on them completely, the outside system can reach directly into every essential function."; "When
+   everybody owns everything, it can get to where nobody knows who's supposed to do what, and ..."; an inline numbered list
+   ("1) communal property, 2) separation, 3) boundaries and 4) a binding ideology"); "work through the choices below about
+   technology, relationships, children, money, and founder power".
+5. **A generic "you" or "imagine" scenario** where a particular person and moment would be: "Imagine opening your inbox after
+   casually inviting a million followers to co-found a village." (The fix named the person and the morning, and stayed.)
+6. **Stock AI words and frames**: "quieter", "unpack", "the missing third option", "journey", "landscape", "navigate",
+   "profound", "it's not X, it's Y".
+
+What read dark green in their place: the author's own particulars, the ones only he knows (where he was, what he did, what
+happened to him); his opinion with its reason and its doubt ("to me it seems way too much of a gamble if I have a better
+alternative"); a plain explanation where a joke had been; his own odd comparisons ("the well you already learned how to dig",
+"like compost for soil"); casual words that are his ("tho", "thru", "folks", "super windy"); an emoji where a feeling is.
+
+Two things to know about how it reads. A sentence can read dark green in a short check and red in the whole article, so judge
+each sentence as part of the article, not alone. And the risk is highest where several of the patterns above sit close
+together, as in a run of short tidy sentences.
+
+For each section of the input (its heading starts with "#"), list only the sentences you expect red or light green:
+- `RED: "exact sentence" (pattern number: one short reason)` for a likely red one,
+- `LIGHT: "exact sentence" (pattern number: one short reason)` for a likely light green one,
+then one line `RISK: low | medium | high` for the section. Quote each sentence exactly as it is in the file, so it can be
+found. A section with nothing to flag gets only its `RISK: low` line. Don't flag a sentence because its topic is serious or its
+claim is strong; flag the shape. Don't suggest rewrites.
+
+HARD LIMITS: at most 400 words in all. Write the report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261020/risk41/RISK-09.md` as "# 4.1 risk" and one
+"## heading" part per section, then reply with only the counts (sections, RED, LIGHT). Don't read any other file, don't run
+commands, and don't use the web.

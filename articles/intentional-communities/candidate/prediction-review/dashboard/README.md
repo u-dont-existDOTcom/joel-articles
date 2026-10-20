@@ -1,5 +1,7 @@
 # Prediction Scorecard
 
+**Frozen since 2026-10-20.** The scorecards are Markdown in Git now: this lane's `candidate/SCORECARD.md` and, for every lane, `state/PANGRAM-SCORECARD.md`, built by `tools/humanization/pangram_ledger.py` from the lanes' ledgers and these rows. This page computed its numbers in its own script and kept its data in a store only its publishing account can open, so Joel couldn't see it from his other account (2026-10-20 22:01 UTC: "i agree the scorecards should be on github, that should have been obvious ... we can't keep having misses like this where i'm lost when i move from one acct to the other"). Don't update the page; what follows is its history.
+
 The page: https://claude.ai/artifact/Sjpy4EiZGUa21iiMstDLPv, a Dashboard-type artifact. Only the Claude account that published it can republish it.
 
 Its content lives in the artifact's own store (the ArtifactData tool), not in published files: `dash/meta` (`{title}`),
