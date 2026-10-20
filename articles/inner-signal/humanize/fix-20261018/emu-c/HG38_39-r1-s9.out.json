@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s9.txt",
+  "input_words": 76,
+  "input_sha256": "d435f8d32f5038ef2cc017cf3a61656f275c2984eff2e4a1af2c17fc2bf4ed96",
+  "balance_before": 134970,
+  "started_utc": "2026-10-18T03:07:54Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:08:01Z",
+  "response": {
+    "id": "1a5e33c8-5707-4f37-98ca-eb0df26c285d",
+    "tool": "humanize",
+    "text": "First get ready as if you were going to work with a patient. Time, place, tools and boundaries. When you invite them in, the signal, the feeling or the younger state to come as close as you want them to be. Be careful to not use language which makes you fragmented. Ask them what they need, wait and see if you want to reconnect with them. If not, rest and see again. If you have an adult part which can do this or borrow a function from someone else, speak to them. You decide the words, the pace and what you want to do. The goal is to be as good as you can and not erase your history. Finally, close as you would with a patient. Say that you are whole, an adult and come back.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 76
+    },
+    "elapsed": 7
+  },
+  "balance_after": 134748
+}

@@ -1186,6 +1186,19 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertIn('start_index', read)
         self.assertIn("flagged:", read)
 
+    def test_an_emulate_edit_is_held_only_by_a_lint_fail_its_screen_lacked(self):
+        """2026-10-18: the linter FAILed 57 of the 59 Emulate screens of 430g to 437g, 28 of the 30 that read 100% Human, so
+        a FAIL on my meaning fixes of an Emulate text holds the call only when its screen wasn't FAIL too."""
+        edit = {'kind': 'edit', 'was': '431g HG06-emuA, 100% Human', 'march_was': ['S B S'], 'march': ['S B S'], 'cold': 'OK',
+                'grounding': 'OK', 'stance': 0, 'missing': [], 'lint': 'FAIL', 'was_kind': 'emulate', 'lint_was': 'FAIL'}
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': edit}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': dict(edit, lint_was='REVIEW')}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('linter', r.stderr)
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': dict(edit, was_kind='draft')}, ['p'])
+        self.assertEqual(r.returncode, 2)
+
     def test_a_note_cannot_waive_a_dropped_point(self):
         """2026-10-16: section 13 v31 passed with "missing": [] and the dropped "if the community uses them" written in a
         note. Joel, 23:38 UTC: "yes i want "if the community uses them" back"."""
@@ -1731,6 +1744,33 @@ class ClickableLinks(unittest.TestCase):
         page = ('<style>a{color:red} /* https://x.example/css */</style><p>Human (<a href="https://www.pangram.com/history/a1">'
                 'https://www.pangram.com/history/a1</a>), and https://www.pangram.com/history/a2.</p>')
         self.assertEqual(html_links.bare_urls_in_html(page), ['https://www.pangram.com/history/a2'])
+
+
+class PredictionScorecard(unittest.TestCase):
+    """2026-10-18, Joel at 01:29 UTC: "your mission is to improve the scorecard especially for predictions and fixes, as well as
+    the speed of fixing." The predictor's features, and the chance column the scored predictions now keep."""
+
+    def test_predictor_counts_what_it_says(self):
+        import pangram_predictor as P
+        f = P.features("I don't think it's crucial. We tried, and it worked!", kind='owner')
+        self.assertGreater(f['contraction'], 0)
+        self.assertGreater(f['ai_words'], 0)
+        self.assertGreater(f['exclaim'], 0)
+        self.assertEqual(f['kind_owner'], 1.0)
+        self.assertEqual(f['kind_section'], 0.0)
+
+    def test_fix_preds_keeps_a_chance_column_wherever_it_sits(self):
+        spec = importlib.util.spec_from_file_location(
+            'fix_preds', ROOT / 'articles' / 'intentional-communities' / 'candidate' / 'prediction-review' / 'fix_preds.py')
+        fp = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(fp)
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'PREDICTIONS.md'
+            src.write_text('## Batch 999g\n\n| text | mine | chance | why | Pangram |\n|---|---|---|---|---|\n'
+                           '| K1 | AI | 0.35 | a list of three | **Human** (Human Written), 01:00:00 |\n', encoding='utf-8')
+            out, n = fp.convert(str(src))
+            self.assertEqual(n, 1)
+            self.assertIn('| 999g-K1 | AI | 0.35 | a list of three | Human (Human Written), 01:00:00 |', pathlib.Path(out).read_text(encoding='utf-8'))
 
 
 def test_render_in_context_link_keeps_balanced_parentheses():

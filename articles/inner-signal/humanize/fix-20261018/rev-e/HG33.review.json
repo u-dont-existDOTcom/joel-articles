@@ -1,0 +1,376 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "anxiety is often a Protector (not always)",
+    "replace": "Remember that the anxiety is coming from",
+    "with": "Remember that the anxiety is often coming from"
+   },
+   {
+    "type": "REPEAT",
+    "what": "the Protector saving you from something bad, said twice",
+    "replace": "a Protector who believes they are trying to save yourself from something bad happening. Maybe they are trying to protect yourself from",
+    "with": "a Protector who believes they are trying to protect yourself from",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "OK"
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the script: 'Little one, you are not alone ... The adult is listening' (not 'You are a little one', 'Let the adult take this')",
+    "replace": "“You are a little one. You are not alone. You don’t have to fix this. I’m here now. Let the adult take this.”",
+    "with": "“Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.”"
+   },
+   {
+    "type": "LOST",
+    "what": "a frightened child",
+    "replace": "like you are talking to a little child that you love.",
+    "with": "like you are talking to a frightened little child that you love."
+   },
+   {
+    "type": "SHIFT",
+    "what": "start with the practice (not 'one of the things that can help')",
+    "replace": "One of the things that can help is putting",
+    "with": "Start by putting",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "don't force breath holds",
+    "replace": "However, it should not be forced,",
+    "with": "However, don’t force breath holds,"
+   },
+   {
+    "type": "SHIFT",
+    "what": "can help some people who overbreathe or panic (not good in general)",
+    "replace": "especially for overbreathers and those subject to panic.",
+    "with": "for some people who overbreathe or are subject to panic.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "verdict": "OK"
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "tap gently",
+    "replace": "tap on your body",
+    "with": "tap gently on your body"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'if you're not responding to first-line therapies'; the evidence should be treated cautiously beside first-line therapies",
+    "replace": "While it should be handled with a bit of caution, it’s something to keep in mind if you’re not responding to first-line therapies.",
+    "with": "Still, the evidence should be handled with a bit of caution next to first-line therapies."
+   }
+  ],
+  "links": [
+   {
+    "published": "2025 systematic review",
+    "new": "2025 systematic review"
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "a script line (its quotation marks); kind to the part of me that is afraid",
+    "replace": "Even though I have this anxiety, I am willing to be kind to myself.",
+    "with": "“Even though I have this anxiety, I am willing to be kind to the part of me that is afraid.”"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'for to know', 'session to how'",
+    "replace": "Would it be helpful for to know more or even experience a free intro session to how I work as a Somatic Guide?",
+    "with": "Would it be helpful for you to know more or even experience a free intro session on how I work as a Somatic Guide?"
+   },
+   {
+    "type": "LOST",
+    "what": "we track gently",
+    "replace": "in SE we learn to track.",
+    "with": "in SE we learn to track gently."
+   },
+   {
+    "type": "SHIFT",
+    "what": "can attention move slowly between them",
+    "replace": "\"Where can we move, at a snail's pace, from one to the other?\"",
+    "with": "\"Can attention move, at a snail's pace, from one to the other?\""
+   },
+   {
+    "type": "SHIFT",
+    "what": "a pointer to his Somatic Guide page (not 'how I work as a Somatic Guide')",
+    "replace": "Would it be helpful for you to know more or even experience a free intro session on how I work as a Somatic Guide?",
+    "with": "Would it be helpful for you to know more, or even experience a free intro session? See my Somatic Guide.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ],
+  "links": [
+   {
+    "published": "Somatic Guide",
+    "new": "Somatic Guide"
+   }
+  ]
+ },
+ {
+  "block": 17,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "the published line is the question itself",
+    "replace": "Do all of these with the felt sense of the whole:",
+    "with": "“What is the felt sense of this whole anxiety?”"
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "don't answer from the head immediately; give the body time",
+    "replace": "Give it time to get one vague sense of the whole. Then, ask:",
+    "with": "Don’t answer from your head right away. Give your body time to get one vague sense of the whole thing. Then, ask:"
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the felt sense; 'etc.' is new",
+    "replace": "“What would this like me to know?” etc.",
+    "with": "“What would this felt sense like me to know?”"
+   }
+  ]
+ },
+ {
+  "block": 20,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'both' has nothing to point to: words and bodily attention",
+    "replace": "It’s good to use both to correct each other.",
+    "with": "It’s good to use both, the words and the body, to correct each other."
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'as the first resort'",
+    "replace": "Consider massage, either self or given by someone else, as the first resort.",
+    "with": "Consider massage, either self or given by someone else."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'one foot with the other'",
+    "replace": "Maybe massage the top of one foot with the other, or the scalp,",
+    "with": "Maybe massage a foot, or the scalp,"
+   },
+   {
+    "type": "LOST",
+    "what": "a massage gun used carefully",
+    "replace": "massage gun, etc.",
+    "with": "massage gun used carefully, etc."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'given by someone else'",
+    "replace": ", either self or given by someone else.",
+    "with": ".",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'whatever feels good to touch'",
+    "replace": ", or whatever feels good to touch.",
+    "with": ".",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'whether immediately or later'",
+    "replace": ", whether immediately or later,",
+    "with": ",",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'others mentioned'; and LOST: use what actually helps, not a tiny wellness trade show",
+    "replace": "Others mentioned warmth, darkness, favorite music, massage, weighted blanket, breathwork, favorite object, and favorite personal technology.",
+    "with": "Others settle with warmth, darkness, favorite music, massage, weighted blanket, breathwork, favorite object, or personal relaxation technology. Use the support that actually helps, rather than building a tiny wellness trade show around the anxiety."
+   }
+  ]
+ },
+ {
+  "block": 24,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "one relaxation support (not an important tool)",
+    "replace": "as an important tool in the protocol of relaxing.",
+    "with": "as one relaxation support."
+   },
+   {
+    "type": "LOST",
+    "what": "both are optional, and they don't prove that any inner signal is true",
+    "replace": "and may be of some benefit, although not at all essential.",
+    "with": "and both are optional, not at all essential. Neither one proves that any inner signal is true."
+   },
+   {
+    "type": "LOST",
+    "what": "listen gently",
+    "replace": "to a state of stabilization where one can begin",
+    "with": "to a state of stabilization, listen gently, and begin"
+   },
+   {
+    "type": "SHIFT",
+    "what": "one grounded action",
+    "replace": "Once reality tested, take appropriate actions to restore oneself to a grounded state.",
+    "with": "Once reality tested, come back to one grounded action."
+   },
+   {
+    "type": "SHIFT",
+    "what": "he also mentions Blushield (not 'detailed')",
+    "replace": "Use of Blushield is also detailed there,",
+    "with": "I also mention Blushield there,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "REPEAT",
+    "what": "reality-testing said twice",
+    "replace": "and begin to discern between valid and non-valid messages from the “inner realm”. Once reality tested, come back to one grounded action.",
+    "with": "reality-test the messages from the “inner realm”, and come back to one grounded action.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ],
+  "links": [
+   {
+    "published": "ZHoly3O",
+    "new": "ZHoly3O"
+   },
+   {
+    "published": "Blushield",
+    "new": "Blushield"
+   }
+  ]
+ },
+ {
+  "block": 26,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'What is my butt doing?'; and LOST 'first'",
+    "replace": "What are my feet doing? What is my butt doing?",
+    "with": "What are my feet doing?"
+   },
+   {
+    "type": "LOST",
+    "what": "first, body",
+    "replace": "Where is my body?",
+    "with": "First, where is my body?"
+   }
+  ]
+ },
+ {
+  "block": 27,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'here to protect you'",
+    "replace": "know that I am here and that I am here to protect you.",
+    "with": "know that I am here."
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "if no action is needed (not 'nothing my body can do'); gently",
+    "replace": "And if there is nothing my body can do right now, help my body stand down.",
+    "with": "And if no action is needed, help my body stand down gently."
+   },
+   {
+    "type": "SHIFT",
+    "what": "real action needed (not 'something my body needs to do')",
+    "replace": "Now if there is something my body needs to do, show me what the first step is for my body to do right now.",
+    "with": "Now if there is real action needed, show me the first step to take right now.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 29,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the signal (not you); I will listen, test and act",
+    "replace": "I won’t abandon you, but I won’t worship you either.",
+    "with": "I won’t abandon the signal, but I won’t worship it either. I’ll listen, test, and act."
+   }
+  ]
+ }
+]

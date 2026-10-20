@@ -1,0 +1,16 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"Use the app\" became \"You will need to download\" it, a requirement that clashes with \"you don't need an app\"",
+    "replace": "will need to download",
+    "with": "can download",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

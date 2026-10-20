@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s11.txt",
+  "input_words": 56,
+  "input_sha256": "25917db8dc42018e6be9a1c4ab24bba8713d94e7b70d2472304e385125c18a95",
+  "balance_before": 132184,
+  "started_utc": "2026-10-18T03:11:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:11:07Z",
+  "response": {
+    "id": "128d24ab-e4f4-4e33-abf0-44ddafd127da",
+    "tool": "humanize",
+    "text": "The next step is to put one hand on over heart and one over solar plexes.\n\nThe heart, or Nurturer hand, is on top. The lower, or vulnerable child hand is over the solar plexes.\n\nTake a moment to just breathe, and notice the feeling.\n\nThe words that go along with the motions are \"Love above. Child below. Adult here to balance it all.\"\n\nAs an adult the loop is, I send, I receive, I send again. The words that go along with this are, \"I send love to my child. My child is sending me a signal. I send love to my child, as I listen to her signal.\"",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 6
+  },
+  "balance_after": 132128
+}

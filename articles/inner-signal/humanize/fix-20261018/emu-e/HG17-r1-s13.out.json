@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s13.txt",
+  "input_words": 79,
+  "input_sha256": "c0973aa4d0803cbbf18c2f2f086409f3326fc0f35074f510ab0f6f3e0ab7c556",
+  "balance_before": 132128,
+  "started_utc": "2026-10-18T03:11:08Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:11:15Z",
+  "response": {
+    "id": "e1606e78-fe8f-401d-bd34-fad1c2236bb4",
+    "tool": "humanize",
+    "text": "This is the process of going back and forth between ordinary awareness and a state of absorption, the nice thing about it is that it can be done openly. Since you are telling them ahead of time what your doing, you need to mention it by name when it’s about to be used. It’s also good to make sure not to stack too many ‘no outs’ as downward, otherwise your subject may think that every answer must lead deeper.\n\nExample of open fractionation: “When i snap your eyes will open and you will come back to ordinary awareness. Once there you will decide if you want to stop or continue. If you decide to continue your eyes will close or soften and you will notice a change, otherwise you will stop right where you are.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 7
+  },
+  "balance_after": 132049
+}

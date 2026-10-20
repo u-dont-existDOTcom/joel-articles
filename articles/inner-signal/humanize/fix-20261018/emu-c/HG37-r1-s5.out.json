@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG37-r1-s5.txt",
+  "input_words": 114,
+  "input_sha256": "d732251fc21147628f688d4b73cee5c6123990794bf3d542bb406b6c0fc0110d",
+  "balance_before": 137240,
+  "started_utc": "2026-10-18T03:06:36Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:06:42Z",
+  "response": {
+    "id": "a889f736-16b2-46ad-baf1-335e7615b932",
+    "tool": "humanize",
+    "text": "When you are confronted with an entity or energy that is hostile, cold, alien, parasitic, violating, etc., it may not be appropriate to use soft, sentimental love. Instead, try this:\n\nSit up, feel your feet, extend your spine, draw your shoulder blades back gently and feel the boundary of your skin around your torso.\n\nState: “While I hold in my awareness the possibility that there is suffering here, I am holding in my awareness that all suffering will return to the space from which it came, the space in which it belongs. The boundary around my skin represents the boundary of my adult life. You are not invited into this house.”\n\n“Compassion is present. The door is closed.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 114
+    },
+    "elapsed": 6
+  },
+  "balance_after": 137126
+}

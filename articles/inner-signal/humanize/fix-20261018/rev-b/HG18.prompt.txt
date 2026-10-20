@@ -1,0 +1,68 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
+condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
+that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B0] Come all the way back
+
+[B1] Reverse whatever you used to enter. If you floated, regain chosen weight. If you became small, return to ordinary scale. If you met a younger state or several parts, confirm present wholeness, body ownership, and adult judgment. If you traveled, come back by the same route. Keep only the qualities you deliberately chose.
+
+[B2] “I bring back only what is useful now. The rest can remain safely held until there is more capacity. I return to the room, the body, the day, and one honest action. All instructions to deepen or remain in this session are finished. I keep only the ordinary-life intention or future-practice cue I consciously chose; neither keeps today’s altered state running. I am myself, in my body, with adult judgment fully available.”
+
+[B3] One — feel the body’s contact and chosen weight. Two — let the breath return to its ordinary rhythm. Three — hear the room and name where you are. Four — move fingers, toes, shoulders, and eyes. Five — eyes open, present, ordinary, clear. The session has ended.
+
+[B4] Name the day or date. Look left, right, near, and far. Move before standing, and stand only when steady. Check that you are actually oriented and alert; repeating the count is not proof of a complete return. Note only what actually appeared, and any action it calls for. Then do something normal.
+
+[B5] If a recording stops unexpectedly: say, “The recording stopped and the session is over.” Open your eyes, name the location and day, press your feet or hands into a surface, move, look around, and use the five-step count. Don’t wait for the missing narrator to release you.
+
+[B6] Sleep is separate. A sleep recording may end in sleep or quiet rest. A waking recording shouldn’t end by preserving a role, reduced judgment, impaired movement, blankness, an undefined reset word, or an invitation to remain altered indefinitely.
+
+REWRITE:
+[B0, as published] Come all the way back
+
+[CHANGED, replaces B1]
+Come out of the session by reversing the entry method; if you floated, come back down by the same method; land with your chosen weight. If you shrunk, come back to your normal size. If you meet your younger self or parts, make sure that you acknowledge that you are now whole, this is your body, and you are using your adult judgement. If you traveled, then come back the same way you left. Make sure that you are only bringing back what you had intended to bring back.
+
+[CHANGED, replaces B2]
+You may wish to say, “I am bringing back only that which I choose to bring back at this time. All that is not needed at this time will remain safely stored away until such time as I am ready. I am now coming back to this place and to my body and to normal day to day living. All instructions given to me in this session are now over except for the conscious intention (or cue) to implement in the future.”
+
+[CHANGED, replaces B3]
+Count yourself out: 1. Coming back into your body and your chosen weight. 2. Coming back to your normal breathing pattern. 3. Coming back to awareness of your surroundings and of your location. 4. Moving your fingers and your toes and your shoulders and your eyes. 5. Opening your eyes, feeling present, normal and clear. Your session is now over.
+
+[CHANGED, replaces B4]
+It is a good idea to say to yourself what day it is or what the date is, look to your left and to your right, look at something near and something far away, move about a bit before you stand up, stand up and make sure that you are oriented and alert. Take note of anything that came up during your session and what you may or may not need to do as a result, and then just go about doing something normal.
+
+[CHANGED, replaces B5]
+In the event that a recording that you are listening to stops unexpectedly, simply say to yourself “the recording has stopped and the session is over” and then use the above method to come out by opening your eyes, saying where you are, saying what day it is, pushing down with your feet or your hands, moving about, looking around and then using the 5 step method.
+
+[CHANGED, replaces B6]
+Note: If you are using a recording to go to sleep, then it is all right to let the recording put you to sleep or have you in a quiet resting state. However, if you are waking when the recording ends, then it should not leave you in any state that is not conducive to normal functioning, such as leaving you in a role, with lowered judgement, impaired movement capabilities, blank or with an undefined reset word, etc.

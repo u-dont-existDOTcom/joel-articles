@@ -1,0 +1,108 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "scare quotes around professional (a sneer the published doesn't have)",
+    "replace": "with a \"professional\".",
+    "with": "with a professional hypnotist."
+   },
+   {
+    "type": "WRONG",
+    "what": "he was sober at the hypnotist session, not now; and the larger issue was trust and precision",
+    "replace": "I'm sober right now, and I don't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me.",
+    "with": "I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision."
+   },
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED \"big fan of self-hypnosis\" / \"have I mentioned\" added",
+    "replace": "Have I mentioned I'm a big fan of self-hypnosis? Doing it on my own",
+    "with": "Doing self-hypnosis on my own",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "catching the body's no before the conscious mind argues itself into a yes",
+    "replace": "or what I want to be true, or something else.",
+    "with": "or what I want to be true, or something I don't understand yet. And I can notice my body saying no before my conscious mind talks me into a yes."
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "the hypnotist became 'he'",
+    "replace": "since he isn't IN my mind.",
+    "with": "since they aren't IN my mind."
+   },
+   {
+    "type": "LOST",
+    "what": "self-hypnosis has one advantage nobody outside can duplicate: immediate dialogue with the system itself",
+    "replace": "can help me keep the process regulated and safe.)",
+    "with": "can help me keep the process regulated and safe.) But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system."
+   },
+   {
+    "type": "LOST",
+    "what": "a skilled guide",
+    "replace": "there are advantages to having someone else guiding the process, since they may be able",
+    "with": "there are advantages to having a skilled guide, since they may be able",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "links": [
+   {
+    "published": "chrunga",
+    "new": "chrunga"
+   }
+  ],
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "it was self-hypnosis that seemed to extend the trip",
+    "replace": "I was able to extend a short chrunga trip",
+    "with": "self-hypnosis seemed to extend a short chrunga trip"
+   },
+   {
+    "type": "SHIFT",
+    "what": "he isn't recommending prolonging an altered state forever (not: never extend one)",
+    "replace": "Although I don't recommend extending a trip, because it's better to integrate, etc.",
+    "with": "Although I'm not recommending that anyone prolong an altered state forever, because it's better to integrate, etc."
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "links": [
+   {
+    "published": "lucid-dreaming guide",
+    "new": "lucid dreaming guide"
+   }
+  ],
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the published: without drugs, self-hypnosis or meditation may become more effective inside a lucid dream (no 'I find')",
+    "replace": "This probably works for non-drug induced self hypnosis too - or meditation, but for that I find it works way better in a lucid dream - explained in the lucid dreaming guide .",
+    "with": "Without drugs, self hypnosis or meditation might also work way better inside a lucid dream - I explain that possibility in my lucid dreaming guide."
+   }
+  ]
+ }
+]

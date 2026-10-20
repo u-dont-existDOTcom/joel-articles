@@ -1,0 +1,58 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
+condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
+that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B0] The 15-minute daily practice
+
+[B1] Use the same practice rather than learning a second script: gather attention, listen, respond, wait, return. Fifteen minutes is a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings must follow. Use a few minutes to enter, leave several minutes to return, and let the middle unfold at its own pace. Five minutes of silent listening is available when useful; you can interrupt it to change direction.
+
+[B2] Another simple entry is to notice three things you see, three you hear, and three bodily sensations; then two of each, then one. Count from five to one and begin listening. Use the entry that suits you, rather than stacking inductions.
+
+[B3] After familiar runs, shorten a recording to the cues you still need, then try practicing without playback. Keep recordings when you enjoy them; independence means being able to guide yourself, not having to refuse help. The optional re-entry cue can shorten an already familiar induction.
+
+[B4] Afterward, ask what needed warmth, what needed protection, and what direction serves truth, love, and life. Was there something to explore, or capacity to build? What can you carry yourself now? When action is needed, make it concrete: “If [cue] happens, then I will [small action].” Check how you sleep, relate, and function later, not only how impressive the session felt.
+
+REWRITE:
+[B0, as published] The 15-minute daily practice
+
+[CHANGED, replaces B1]
+You may choose to do all of this practice, or learn the second script. Either way, you'll be using a similar process and can use these recordings as a base for your own practice. These exercises only need to be done for fifteen minutes or so. This is not a therapeutic time, but merely enough time to induce yourself (a few minutes), do what you are going to do (in this case 5 minutes of sitting in silence and listening), and then bring yourself back out again (a few minutes). You can break out of the process at any time, if you feel you need to do something else.
+
+[CHANGED, replaces B2]
+B) Notice three things you can see, then three things you can hear and three sensations you can feel in your body. Now do two of each, then one of each. Count from 5 to 1 and start listening.
+
+[CHANGED, replaces B3]
+After practicing a few times with these scripts, feel free to edit them down and remove any parts that you feel are no longer necessary to help you induce yourself. The idea is that eventually, you will not even need to play them back. But there is no harm in using them if you enjoy it. (Note: in script A, the part about coming back out again is optional; if you are familiar with the induction process, it will probably be enough to simply count).
+
+[CHANGED, replaces B4]
+When you come out of the process, consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life. Perhaps there is something you would like to explore or build up. You may want to take this process with you as you move about your day. If there is something you need to do, then make a plan with yourself to do that thing. Be concrete and say something like, "If _________ , then I will do________ ." Then see how things are later on: how you are sleeping, relating and functioning.

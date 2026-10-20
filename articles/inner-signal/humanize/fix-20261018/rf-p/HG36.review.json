@@ -1,0 +1,52 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'these' has no referent, 'substances' never named",
+    "replace": "use these",
+    "with": "use substances",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "'meet the difficulty rather than escalating the intensity' lost; sentence ends at 'then'",
+    "replace": "take it in, then",
+    "with": "take it in, then meet the difficulty rather than escalating the intensity.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B10: SHIFT \"plain confusion\" became \"reasons ... shouldn't make sense\"; also B10: INVENTED open-ended \"any number of other reasons\"",
+    "replace": "or any number of other reasons for why what you are experiencing shouldn’t make sense",
+    "with": "or just plain confusion",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B11: LOST \"before trying to interpret the state\" and \"simpler question\"; march-t: the statement lost the stretch's one break (its question), so the fix stays a question",
+    "replace": "What should you ask yourself first?",
+    "with": "Before you try to interpret it, what simpler question should you ask yourself first?",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

@@ -45,7 +45,7 @@ flowchart LR
 
 ## Authority / placement notes
 
-- Current topology: the published section order. The registered master is the published text (`original.md`); the humanized candidate (`candidate/HUMANIZED-SO-FAR.md`) keeps the same section order. Joel's section 4 of 2026-10-13 moved paragraphs inside that section only (the pl/ork definition and the leaking paragraph up under the four-parts heading; "Founded on Freedom" in place of "One principle runs through all of them").
+- Current topology: the published section order. The registered master is `master.md`, the humanized article Joel accepted (45 a, `PROMOTION-RECEIPT-20261017.md`), built from the working copy `candidate/HUMANIZED-SO-FAR.md` without its version notes; the published text stays as `original.md`, the published source. Both keep the published section order. Joel's section 4 of 2026-10-13 moved paragraphs inside that section only (the pl/ork definition and the leaking paragraph up under the four-parts heading; "Founded on Freedom" in place of "One principle runs through all of them").
 - Live placement question: the stance check asks how his section 9 P9 and P11 (Zapatista power drifting up and being pushed back down) fit "When Somebody Has to Go" in section 13, which cites the Zapatistas as a layer that reviews local power. It's on the lane's questions page.
 - Protected functions: each one in `OWNER-LOCKS.json` sits in section 4 (the four parts), section 12 and the opening (healing first), or applies to the whole article.
 

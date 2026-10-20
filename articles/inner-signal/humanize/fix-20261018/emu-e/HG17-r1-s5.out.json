@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s5.txt",
+  "input_words": 123,
+  "input_sha256": "73be6ed6ac55706e94af186a084004aa629fe693cd32d3d332e137fe2b7929d5",
+  "balance_before": 133046,
+  "started_utc": "2026-10-18T03:10:07Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:10:14Z",
+  "response": {
+    "id": "10625191-cddf-4888-8aaa-ef025301593a",
+    "tool": "humanize",
+    "text": "Until you are confident about how to get in and out, it is wise to rehearse the skill in a context where you do not require the maximum effort that difficult subjects demand. Once the skill is easier to apply, you can relax into using it effortlessly. It is the lack of effort that produces the maximum benefit. Saying no is enough. You don’t have to say anything.\n\nDevelop the next part of your induction from what your subject is responding to, not what you intended. This principle of utilization means that whatever happens can be developed. If nothing happens, then nothing has happened. You don’t have to pretend that something has. The subject needs to know they are safe and how to leave the experience. The language skills that facilitate these are described in Appendix B and used in Let the next response guide you .",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 123
+    },
+    "elapsed": 7
+  },
+  "balance_after": 132923
+}

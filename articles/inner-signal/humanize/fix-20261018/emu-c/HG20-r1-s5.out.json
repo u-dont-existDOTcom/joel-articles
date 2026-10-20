@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG20-r1-s5.txt",
+  "input_words": 118,
+  "input_sha256": "f1cbc7aff9d1ec64b9e451a7a6f4b2ba22ebed421f8b044ca7ca6575f1a319ad",
+  "balance_before": 140765,
+  "started_utc": "2026-10-18T03:02:53Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:01Z",
+  "response": {
+    "id": "21e888d5-155c-462f-9135-6c8d98c1f775",
+    "tool": "humanize",
+    "text": "1. Do you perceive that the other person has a “ young inner child”, i.e. emotional immature? The key word here is “ perceive”. It does not take many exposures to a dangerous situation to learn to avoid it. Be as specific as you can. Just “ disagreeing” with you or setting boundaries does not necessarily indicate emotional immaturity.\n\n2. Do you perceive that you did something “ wrong” (feel guilty), i.e. were you manipulated? Guilt does not necessarily mean that you have done something wrong or were manipulated. Do you think that it is necessary to “ make amends” or is it “ dropping your position” to avoid the other’s disappointment? What are your aims in the interaction? Sometimes it is mutual understanding but sometimes you need to just convey information, set boundaries, or cut the interaction short.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 118
+    },
+    "elapsed": 8
+  },
+  "balance_after": 140569
+}

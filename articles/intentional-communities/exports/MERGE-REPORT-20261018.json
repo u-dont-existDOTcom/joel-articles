@@ -1,0 +1,389 @@
+{
+ "format": "substack-merge-v1",
+ "editor": {
+  "path": "articles/intentional-communities/candidate/joel-20261018/substack-editor-20261018-0129.html",
+  "sha256": "0da05ea6b21b84736dec0c27a35c9516f19ee638704480f2da76a4954e5bbb06"
+ },
+ "master": {
+  "path": "articles/intentional-communities/master.md",
+  "sha256": "ef98c1cd90f2284a3487a9346dfec7698438e4223e82d68a95b3b81434945438"
+ },
+ "published": {
+  "path": "articles/intentional-communities/original.md",
+  "sha256": "5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6"
+ },
+ "failures": [],
+ "notes": [
+  "heading renamed: '## One principle runs through all of them' -> '## Founded on Freedom'",
+  "heading renamed: '# The Medicine Part, Without Pretending It Isn’t There' -> \"# The Medicine Part - Yes, I'm Naming It\"",
+  "heading renamed: '## The Mother Is Primary. The Village Is Real. Neither Replaces the Other.' -> '## Communal Parenting Adds On'",
+  "headings not shared (delete): published ['### Discuss Child-Rearing Values Before Children Are Caught Between Them'], master []",
+  "heading renamed: '## Federation Without Building Another State' -> '## Federated Communities Make a Movement'",
+  "segment 7: master paragraphs with no published counterpart [\"What's starving them is anomie. We evolved to live in small groups where everybo\"]; published ones with none in the master []",
+  "segment 10: master paragraphs with no published counterpart ['Communal ownership entails folks taking on visible and named stewardship duties.', 'People want to go back to the old way of living, but they have no idea why earli']; published ones with none in the master ['Communal ownership therefore needs named stewardship, visible duties, consequenc', 'The desire to return to a natural way of living together has outrun the knowledg']",
+  "segment 13: master paragraphs with no published counterpart ['The secular communes had a solution for how to distribute property or labor, but', 'Eventually, when people are together long enough, politics will become a way of ']; published ones with none in the master ['This failure is caused when the community distributes ownership and labor but ha', 'Eventually politics begins carrying emotional material that nobody knows how to ']",
+  "segment 16: master paragraphs with no published counterpart ['I’ve broken the model I propose down into the 4 parts shown in the above diagram', 'These four parts leak into one another almost immediately. Governance can end up']; published ones with none in the master ['I divide the model into four parts. Yes, four sounds suspiciously tidy for somet']",
+  "segment 17: master paragraphs with no published counterpart ['To give an example of striking the balance: My contemplative practice is grounde']; published ones with none in the master ['These categories leak into one another almost immediately. Jealousy can become g']",
+  "segment 18: master paragraphs with no published counterpart []; published ones with none in the master ['Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, ', 'Forgive the neologism. I hope pl/ork isn’t too corny. 🌽']",
+  "segment 19: master paragraphs with no published counterpart ['And this reparenting journey is built on [somatic regulation](https://ibogaqueen']; published ones with none in the master ['Then there’s somatic regulation, because the mind can make a magnificent decisio', 'My contemplative practice is grounded in the early Buddhist suttas, taken critic']",
+  "segment 20: master paragraphs with no published counterpart ['The idea is that the capacity to be there for people when they need help isn’t l', \"But since we're merging peer therapy with community, we also need to make sure t\", 'Another thing is knowing which problems are beyond what peers can handle and nee']; published ones with none in the master ['The community’s capacity to help people therefore lives throughout the group ins', 'But care is not jurisdiction. The person listening to me should not automaticall', 'Some things also remain outside peer competence. Knowing when to refer to outsid', 'Jealousy and conflict should be addressed while they still belong to the people ', 'My Romance Guide covers the dyads that will form whether the founding document a']",
+  "segment 21: master paragraphs with no published counterpart ['Community can reach new heights by carefully incorporating serious plant medicin', 'This doesn’t mean that a peer-led ceremony should be done without structure. Thi']; published ones with none in the master ['Careful, peer-guided use of serious plant medicines, with no special shaman plac', 'Peer-led doesn’t mean casual. Screening, sober sitters, emergency plans, integra']",
+  "segment 22: master paragraphs with no published counterpart ['First there will be no money exchanged between members for basic community funct']; published ones with none in the master ['First, basic life inside the community—food, housing, care, tools, education, an']",
+  "segment 23: master paragraphs with no published counterpart ['All of which means the legality of psychedelics varies by country and by state. ']; published ones with none in the master ['Communities therefore face real legal differences by country, state, substance, ']",
+  "segment 24: master paragraphs with no published counterpart ['One of the benefits of community is rhythm, and many traditional medicinal pract']; published ones with none in the master ['Community creates rhythm. Many traditional medicine systems place ceremonies ins']",
+  "segment 25: master paragraphs with no published counterpart [\"And while I do think it's valuable to have someone highly experienced in navigat\", \"Just because it's a peer-led ceremony doesn't mean it's ok to be casually irresp\"]; published ones with none in the master ['Peer-led never means casual. Screen for medical and psychiatric contraindication']",
+  "segment 27: master paragraphs with no published counterpart ['A lot of people feel the urge to form a village after going through some serious']; published ones with none in the master ['Many people come out of deep psychedelic or mystical experience with the same ur']",
+  "segment 29: master paragraphs with no published counterpart ['What connections to the technosphere do you keep, and which do you limit, when y']; published ones with none in the master ['The useful design question is: which connections to the technosphere do you keep']",
+  "segment 32: master paragraphs with no published counterpart ['Couples who live together, share the same culture and even the same bed still di', 'The community has to share enough principles about raising kids to offer them co']; published ones with none in the master []",
+  "segment 35: master paragraphs with no published counterpart [\"Tamera's Children's Place has repeated some of these old Kibbutz failings, takin\"]; published ones with none in the master ['My position is that mothers raise their own children inside a community where ca', 'Tamera’s Children’s Place deserves direct study rather than caricature. My own b']",
+  "segment 37: master paragraphs with no published counterpart ['There are several parts to this protection:', 'Protecting children is the duty of adults, but it requires children to help also']; published ones with none in the master ['The protection has several parts:', 'Teach truthfulness before a crisis. Children should understand that their words ']",
+  "segment 38: master paragraphs with no published counterpart ['Amish young people, from about age 16, go through a period of freedom from paren', \"Unlimited freedom isn't realistic, but it doesn't need to be artificially imposs\", 'Kids also need transferable skills and education. It helps if they have relation', 'Belonging and freedom should go hand in hand.']; published ones with none in the master ['Amish youth make an adult choice about whether to join the church, and roughly 8', 'The realistic standard is not unlimited freedom. It is that leaving should not b', 'Some may leave permanently; others may start communities with different values r', 'Discuss Child-Rearing Values Before Children Are Caught Between Them', 'Couples who share a home, culture, and bed still split over screens, vaccines, s', 'Goodwill doesn’t answer those questions after a child is already living inside t']",
+  "segment 40: master paragraphs with no published counterpart ['Institutions get more and more layers and offices as they age. We see this same ', \"Now, the Zapatistas also don't prove my whole money-free economy goal. They stil\"]; published ones with none in the master ['Most institutions accumulate layers and offices as they age. The Zapatistas revi', 'They are also not proof of my complete economic path from unpriced internal nece']",
+  "segment 44: master paragraphs with no published counterpart []; published ones with none in the master ['If these communities are supposed to spread, eventually somebody has to solve th']",
+  "segment 45: master paragraphs with no published counterpart [\"That person ends up with real influence, and pretending they don't just makes th\", \"I've seen founderism in many communes that I've visited, and I can see it playin\", 'The questions so far have been about the method. These four are about the founde', 'Ask these questions about any community, teacher or method. And ask them about m', \"While founderism is a problem in every community, it's especially so in communit\", 'If I could find a suitable commune to join, that would basically reverse this pr', \"It's a bit like the process of getting married. At first, you visit your girlfri\", \"Friends who come to visit don't get written terms, though. That's not how anythi\"]; published ones with none in the master ['That contribution creates real influence. Pretending it doesn’t exist only makes', 'I know the tension personally because many methods in this article are mine. I w', 'Here are the four questions:', 'Ask these about any community, teacher, or method. Ask them about me if people e']",
+  "segment 47: master paragraphs with no published counterpart ['Peer counseling can become peer surveillance, even if the tone is warm. And when', 'It should go without saying that nobody has to take medicine to have equal respe', 'They should not be demonized for not trying to fit in. They should be offered co', 'No single person or permanent group of people should handle grievances and have ', 'There are some basic human rights that can’t be voted away from you by the major', \"It can be tricky to spell everything out, though. Let's say a grandmother is dem\", 'If your human rights are unfairly stripped from you, even by a majority vote, th']; published ones with none in the master ['Peer counseling can become surveillance delivered in a warm tone. Medicine prere', 'The boundary is simple: the principles are commitments I choose for my own pract', '“Nothing suppressed” describes my relationship with my material. It does not aut', 'Medicine is optional. Abstaining cannot reduce membership rights. No individual ', '“Your resistance is your wound talking” is one of the most efficient sentences e', 'There is also a floor the majority cannot vote away: bodily safety, enough food ']",
+  "segment 48: a comment in the master, not in the merge: '<!-- IMAGE https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/d8252275008b83064aa2ed7d89b183898097c262/a'",
+  "segment 48: master paragraphs with no published counterpart ['Many perfectly intelligent grownups would rather sit around for six hours talkin', \"This doesn't surprise me, since we're taught to put on a show of competence in m\"]; published ones with none in the master ['This article asks people to discuss jealousy, God, death, childhood, money, sex,', 'I understand why. Modern life trains us to perform competence while hiding whate']",
+  "segment 49: master paragraphs with no published counterpart ['Everyone has a certain amount of both in different ratios.']; published ones with none in the master ['Everyone carries both, and the ratio changes.', 'A group can absorb only as much need as its members have free resource to meet. ', 'Your current need greatly exceeds your available resource. That says nothing fin']",
+  "segment 50: master paragraphs with no published counterpart [\"Don't worry about getting land yet. If you've got a small handful of people who \", \"Also, don't even think about combining ownership (or any other big resource, for\", 'Until that’s happened, you’re all still promising strangers, and you don’t want ']; published ones with none in the master ['Land can wait. The first community is the small group considering whether to bui', 'Before ownership and major resources mix, process one real conflict all the way ', 'Don’t smooth it over with a vision statement or settle for a truce nobody believ', 'A group that has never done this is still a circle of promising strangers. I wou', 'Rent a meeting space, borrow a room, or use somebody’s home. Discover the group’']",
+  "segment 51: master paragraphs with no published counterpart ['Have you noticed people often choose their community in the same way they would ']; published ones with none in the master ['People often choose communities the way they choose vacation rentals: the land i', 'The pond gets the first date. The vaccination policy arrives two years later car']",
+  "segment 52: master paragraphs with no published counterpart ['Good people leave for good reasons -- dying parent, love, work, health, exhausti']; published ones with none in the master ['Whoever owns the land holds enormous power over the community.', 'Good people leave for good reasons: a dying parent, love, work, health, exhausti', 'Write the exit terms while departure is still hypothetical. This is the communit']",
+  "segment 53: master paragraphs with no published counterpart ['When [The Farm](https://thefarmcommunity.com/) grew fast, a lot of the people wh', 'Write down your answers: How long is a provisional membership, and what are a pr', 'At each stage, always judge people based on their conduct. No matter how good it', 'If someone will have a role in your group that has serious consequences, involvi', 'Do stuff together prior to making them provisional members. (Sorry, hanging out ']; published ones with none in the master ['The Farm grew rapidly, with many people arriving in need and few effective filte', 'A membership process protects existing members and newcomers. Nobody benefits fr', 'Provisional membership. Define the period, rights, responsibilities, review proc', 'Full membership. Land and shared-resource rights, voice, and long-term obligatio', 'At each stage, assess concrete conduct rather than spiritual vocabulary or thera', 'Before provisional membership, do more than hang out. Make one real group decisi']",
+  "segment 54: master paragraphs with no published counterpart ['This power to remove people is so easily abused, though. So work out the process', 'Also decide on a mediator or ombudsperson in advance. Why bother? People often w']; published ones with none in the master ['The power to remove somebody is also one of the easiest powers to abuse. Decide ', 'Also choose a mediator or ombud before the crisis. People who have never met the']",
+  "segment 56: master paragraphs with no published counterpart []; published ones with none in the master ['Even after the legal entity ends, some of what people learned to give one anothe']",
+  "segment 63: master paragraphs with no published counterpart ['Some Zapatista communities used to try to stop their young people from leaving, ']; published ones with none in the master ['Zapatista communities faced a version of this with migration. Some moved from tr']",
+  "segment 64: master paragraphs with no published counterpart ['It would be better to get together to practice first, and process a real conflic', \"Same with money: do it in stages. Don't try and fly right to the economic destin\"]; published ones with none in the master ['The better order is less cinematic. Practice together. Process a real conflict. ', 'The economic path should be staged the same way. A cluster of cooperating househ']",
+  "segment 67: master paragraphs with no published counterpart ['Look before you leap. It will really save you some time & money.']; published ones with none in the master ['Here is the first month without the heroic land purchase:', 'Do those three things before you spend serious time or money looking for land.']",
+  "segment 75: master paragraphs with no published counterpart ['Is longevity alone a meaningful measure, when a community may keep going without']; published ones with none in the master ['Rubin, Willis, and Ludwig, “Measuring Success in Intentional Communities” — asks']"
+ ],
+ "islands_verify": "PASS: 27 islands byte-for-byte and in order",
+ "prose_check": "PASS: 18355 words, the same as the master's text blocks, in order",
+ "links": {
+  "master_links": 109,
+  "missing": []
+ },
+ "carried_formatting": [
+  {
+   "segment": 10,
+   "how": "bold lead-in",
+   "master": "The commune comments became a miniature political-philosophy seminar, as Instagr"
+  },
+  {
+   "segment": 24,
+   "how": "bold first sentence (the list's style)",
+   "master": "Part of it is integration: an insight needs somewhere to land. What happens when"
+  },
+  {
+   "segment": 24,
+   "how": "list item (ul)",
+   "master": "Part of it is integration: an insight needs somewhere to land. What happens when"
+  },
+  {
+   "segment": 24,
+   "how": "bold first sentence (the list's style)",
+   "master": "The deeper you go, the more alienated you can feel. After my original ayahuasca "
+  },
+  {
+   "segment": 24,
+   "how": "list item (ul)",
+   "master": "The deeper you go, the more alienated you can feel. After my original ayahuasca "
+  },
+  {
+   "segment": 24,
+   "how": "bold first sentence (the list's style)",
+   "master": "Do you trust the people you're relying on for support? Support from people you t"
+  },
+  {
+   "segment": 24,
+   "how": "list item (ul)",
+   "master": "Do you trust the people you're relying on for support? Support from people you t"
+  },
+  {
+   "segment": 24,
+   "how": "list item (ul)",
+   "master": "In a community, your sober sitter may be someone who's known you for years, and "
+  },
+  {
+   "segment": 24,
+   "how": "list item (ul)",
+   "master": "Your peers can also reality check any downloads you may have had. Psychedelics c"
+  },
+  {
+   "segment": 24,
+   "how": "new paragraph kept in the list",
+   "master": "One of the benefits of community is rhythm, and many traditional medicinal pract"
+  },
+  {
+   "segment": 24,
+   "how": "bold first sentence (the list's style)",
+   "master": "There are the practical benefits: logistics are easier when it comes to things l"
+  },
+  {
+   "segment": 24,
+   "how": "list item (ul)",
+   "master": "There are the practical benefits: logistics are easier when it comes to things l"
+  },
+  {
+   "segment": 24,
+   "how": "bold first sentence (the list's style)",
+   "master": "And then there will be people to play with! Raves often let strangers fast-track"
+  },
+  {
+   "segment": 24,
+   "how": "list item (ul)",
+   "master": "And then there will be people to play with! Raves often let strangers fast-track"
+  },
+  {
+   "segment": 37,
+   "how": "bold lead-in",
+   "master": "Give children real agency. When kids say no, it counts. No grownup has a right t"
+  },
+  {
+   "segment": 37,
+   "how": "list item (ol)",
+   "master": "Give children real agency. When kids say no, it counts. No grownup has a right t"
+  },
+  {
+   "segment": 37,
+   "how": "bold lead-in",
+   "master": "Create a no-secrets rule. No grownup has a right to ask a kid to keep a secret f"
+  },
+  {
+   "segment": 37,
+   "how": "list item (ol)",
+   "master": "Create a no-secrets rule. No grownup has a right to ask a kid to keep a secret f"
+  },
+  {
+   "segment": 37,
+   "how": "new paragraph kept in the list",
+   "master": "Protecting children is the duty of adults, but it requires children to help also"
+  },
+  {
+   "segment": 37,
+   "how": "bold first sentence (the list's style)",
+   "master": "Hear the child even when the accused is someone people love. Communities fail he"
+  },
+  {
+   "segment": 37,
+   "how": "list item (ol)",
+   "master": "Hear the child even when the accused is someone people love. Communities fail he"
+  },
+  {
+   "segment": 37,
+   "how": "bold first sentence (the list's style)",
+   "master": "Make sure kids have relationships and a reporting route outside the community. G"
+  },
+  {
+   "segment": 37,
+   "how": "list item (ol)",
+   "master": "Make sure kids have relationships and a reporting route outside the community. G"
+  },
+  {
+   "segment": 45,
+   "how": "bold lines",
+   "master": "Can the community respectfully override the founder? Can the community replace t"
+  },
+  {
+   "segment": 49,
+   "how": "list item (ul)",
+   "master": "You have a need that far outstrips your free resource right now. This doesn’t me"
+  },
+  {
+   "segment": 49,
+   "how": "list item (ul)",
+   "master": "You want the feeling of village life but don’t want to take on governance, maint"
+  },
+  {
+   "segment": 49,
+   "how": "list item (ul)",
+   "master": "You’re not willing to look at yourself when jealousy or conflict comes up."
+  },
+  {
+   "segment": 53,
+   "how": "bold first sentence (the list's style)",
+   "master": "First, correspond with them. Did they read the materials? (Not everyone does.) D"
+  },
+  {
+   "segment": 53,
+   "how": "list item (ol)",
+   "master": "First, correspond with them. Did they read the materials? (Not everyone does.) D"
+  },
+  {
+   "segment": 53,
+   "how": "bold first sentence (the list's style)",
+   "master": "The short visit: If they come for a week or two and just participate in normal l"
+  },
+  {
+   "segment": 53,
+   "how": "list item (ol)",
+   "master": "The short visit: If they come for a week or two and just participate in normal l"
+  },
+  {
+   "segment": 53,
+   "how": "bold first sentence (the list's style)",
+   "master": "The long visit: If you're not around long enough to actually experience inconven"
+  },
+  {
+   "segment": 53,
+   "how": "list item (ol)",
+   "master": "The long visit: If you're not around long enough to actually experience inconven"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***Where’s Utopia?***](https://utopia.u-dont-exist.com/) (1988) is a documentar"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***A Place Called Chiapas***](https://moviesfoundonline.com/video/place-called-"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***American Commune***](https://www.youtube.com/watch?v=3ryzpd9r4oI) (2013) is "
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***Commune***](https://www.youtube.com/watch?v=-mWsTCCcUTM) (2005) is about Bla"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***A New We***](https://newwe.jimdofree.com/) takes you on a tour of a bunch of"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***Within Reach***](https://fellowshipforintentionalcommunity.vhx.tv/products/w"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***Seeking the Good Life in America***](https://www.youtube.com/watch?v=tMSPZu_"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***Voices of Cohousing***](https://fellowshipforintentionalcommunity.vhx.tv/pro"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***Inside the Bruderhof***](https://www.bbc.co.uk/programmes/m00071xr) is about"
+  },
+  {
+   "segment": 70,
+   "how": "list item (ul)",
+   "master": "[***Living in the Future: Lammas***](https://livinginthefuture.org/episodes/1-in"
+  },
+  {
+   "segment": 72,
+   "how": "list item (ul)",
+   "master": "[***The Continuum Concept***](https://www.arvindguptatoys.com/arvindgupta/concon"
+  },
+  {
+   "segment": 72,
+   "how": "list item (ul)",
+   "master": "[***Hunt, Gather, Parent***](https://www.amazon.com/Hunt-Gather-Parent-Ancient-C"
+  },
+  {
+   "segment": 73,
+   "how": "list item (ul)",
+   "master": "Where do you start with the nuts and bolts? [***Creating a Life Together***](htt"
+  },
+  {
+   "segment": 73,
+   "how": "list item (ul)",
+   "master": "Want a guide to intentional community that covers the whole system? There's [***"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "[***Many Voices One Song***](https://www.sociocracyforall.org/product/many-voice"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "[***Building United Judgment***](https://www.ic.org/community-bookstore/product/"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Ludwig and Gimnig's [***The Cooperative Culture Handbook***](https://www.ic.org/"
+  },
+  {
+   "segment": 75,
+   "how": "list item (ul)",
+   "master": "[***Communities That Abide***](https://philebersole.wordpress.com/2014/06/23/dmi"
+  },
+  {
+   "segment": 75,
+   "how": "new paragraph kept in the list",
+   "master": "Is longevity alone a meaningful measure, when a community may keep going without"
+  },
+  {
+   "segment": 75,
+   "how": "list item (ul)",
+   "master": "[***Commitment and Community***](https://www.amazon.com/Commitment-Community-Com"
+  },
+  {
+   "segment": 75,
+   "how": "list item (ul)",
+   "master": "[***Alienation and Charisma***](https://annas-archive.pk/md5/72f23810c1c2ab152c6"
+  },
+  {
+   "segment": 75,
+   "how": "list item (ul)",
+   "master": "Jo Freeman's [“The Tyranny of Structurelessness”](https://www.jofreeman.com/jore"
+  },
+  {
+   "segment": 76,
+   "how": "list item (ul)",
+   "master": "[***The Fire and the Word***](https://www.amazon.com/Fire-Word-History-Zapatista"
+  },
+  {
+   "segment": 76,
+   "how": "list item (ul)",
+   "master": "Want it straight from the Zapatistas? Their own archive is [Enlace Zapatista](ht"
+  }
+ ],
+ "objects": {
+  "count": 27,
+  "types": [
+   "image",
+   "image",
+   "share",
+   "substack_video_post_embed",
+   "subscribe",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "substack_video_post_embed",
+   "image",
+   "image",
+   "youtube",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "substack_video_post_embed",
+   "youtube",
+   "image",
+   "image"
+  ]
+ },
+ "out": {
+  "path": "articles/intentional-communities/exports/ARCHIVAL-SUBSTACK-20261018.html",
+  "sha256": "d69f33809118c2e7ad00872577e0549c3563d97f7943bc32b765de6ff033a7b8"
+ },
+ "verdict": "PASS"
+}

@@ -1,0 +1,1487 @@
+{
+ "HG35-refix3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "words": 1110,
+  "_blocks_ok": true
+ },
+ "HG35-w-p1+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 1,
+  "check": "next",
+  "section": "HG35-refix3 (this batch)",
+  "words": 104,
+  "_blocks_ok": true
+ },
+ "HG35-w-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 2,
+  "check": "alone",
+  "section": "HG35-refix3 (this batch)",
+  "words": 91,
+  "_blocks_ok": true
+ },
+ "HG35-w-p3+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 3,
+  "check": "prev",
+  "section": "HG35-refix3 (this batch)",
+  "words": 136,
+  "_blocks_ok": true
+ },
+ "HG35-w-p4+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 4,
+  "check": "next",
+  "section": "HG35-refix3 (this batch)",
+  "words": 157,
+  "_blocks_ok": true
+ },
+ "HG35-w-p5": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 5,
+  "check": "alone",
+  "section": "HG35-refix3 (this batch)",
+  "words": 109,
+  "_blocks_ok": true
+ },
+ "HG35-w-p6": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 6,
+  "check": "alone",
+  "section": "HG35-refix3 (this batch)",
+  "words": 148,
+  "_blocks_ok": true
+ },
+ "HG35-w-p7": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 7,
+  "check": "alone",
+  "section": "HG35-refix3 (this batch)",
+  "words": 63,
+  "_blocks_ok": true
+ },
+ "HG35-w-p8+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 8,
+  "check": "prev",
+  "section": "HG35-refix3 (this batch)",
+  "words": 97,
+  "_blocks_ok": true
+ },
+ "HG35-w-p9+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 9,
+  "check": "next",
+  "section": "HG35-refix3 (this batch)",
+  "words": 86,
+  "_blocks_ok": true
+ },
+ "HG35-w-p11+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 11,
+  "check": "prev",
+  "section": "HG35-refix3 (this batch)",
+  "words": 75,
+  "_blocks_ok": true
+ },
+ "HG35-w-p12": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 12,
+  "check": "alone",
+  "section": "HG35-refix3 (this batch)",
+  "words": 76,
+  "_blocks_ok": true
+ },
+ "HG35-w-p13": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 13,
+  "check": "alone",
+  "section": "HG35-refix3 (this batch)",
+  "words": 68,
+  "_blocks_ok": true
+ },
+ "HG35-w-p14+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 14,
+  "check": "prev",
+  "section": "HG35-refix3 (this batch)",
+  "words": 74,
+  "_blocks_ok": true
+ },
+ "HG35-w-p15": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 15,
+  "check": "alone",
+  "section": "HG35-refix3 (this batch)",
+  "words": 83,
+  "_blocks_ok": true
+ },
+ "HG35-w-p16+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 16,
+  "check": "prev",
+  "section": "HG35-refix3 (this batch)",
+  "words": 110,
+  "_blocks_ok": true
+ },
+ "HG35-w-p17+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 17,
+  "check": "next",
+  "section": "HG35-refix3 (this batch)",
+  "words": 68,
+  "_blocks_ok": true
+ },
+ "HG35-w-p19+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 19,
+  "check": "prev",
+  "section": "HG35-refix3 (this batch)",
+  "words": 78,
+  "_blocks_ok": true
+ },
+ "HG35-w-p20+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-r/HG35-fxw1.out.txt",
+   "emu-r/HG35-fxw2.out.txt",
+   "emu-w/HG35-fxw1.out.txt"
+  ],
+  "paragraph": 20,
+  "check": "prev",
+  "section": "HG35-refix3 (this batch)",
+  "words": 80,
+  "_blocks_ok": true
+ },
+ "HG06-refix3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG06-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-u/HG06-fxw1.out.txt",
+   "emu-w/HG06-fxw1.out.txt"
+  ],
+  "words": 214,
+  "_blocks_ok": true
+ },
+ "HG06-w-p4+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG06-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "runs": [
+   "emu-u/HG06-fxw1.out.txt",
+   "emu-w/HG06-fxw1.out.txt"
+  ],
+  "paragraph": 4,
+  "check": "next",
+  "section": "HG06-refix3 (this batch)",
+  "words": 86,
+  "_blocks_ok": true
+ },
+ "HG06-w-p5+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG06-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "CLEAR",
+  "runs": [
+   "emu-u/HG06-fxw1.out.txt",
+   "emu-w/HG06-fxw1.out.txt"
+  ],
+  "paragraph": 5,
+  "check": "next",
+  "section": "HG06-refix3 (this batch)",
+  "words": 78,
+  "_blocks_ok": true
+ },
+ "HG06-w-p6": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-w/HG06-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+  ],
+  "lint": "CLEAR",
+  "runs": [
+   "emu-u/HG06-fxw1.out.txt",
+   "emu-w/HG06-fxw1.out.txt"
+  ],
+  "paragraph": 6,
+  "check": "alone",
+  "section": "HG06-refix3 (this batch)",
+  "words": 67,
+  "_blocks_ok": true
+ },
+ "HG17-refix3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG17-r1-s16.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG17-r1-s17.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG17-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG17-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG17-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-g/HG17-r1-s11.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-g/HG17-r1-s8.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-g/HG17-r1-s9.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG17-r2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-i/HG17-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-k/HG17-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-t/HG17-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-t/HG17-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-v/HG17-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-x/HG17-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-g/HG17.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-t/HG17-fxw1.out.txt",
+   "emu-t/HG17-fxw2.out.txt",
+   "emu-v/HG17-fxw1.out.txt",
+   "emu-x/HG17-fxw1.out.txt"
+  ],
+  "words": 2684,
+  "_blocks_ok": true
+ },
+ "HG31-refix3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s16.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s17.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s18.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s19.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s20.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s25.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG31-r1-s8.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG31-r1-h1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG31-r1-h2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-g/HG31-r1-s13.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-g/HG31-r1-s14.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG31-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG31-r2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-i/HG31-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-j/HG31-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-j/HG31-r2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-j/HG31-r3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-k/HG31-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-t/HG31-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-v/HG31-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-x/HG31-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-g/HG31.fixed.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-t/HG31-fxw1.out.txt",
+   "emu-v/HG31-fxw1.out.txt",
+   "emu-x/HG31-fxw1.out.txt"
+  ],
+  "words": 2855,
+  "_blocks_ok": true
+ },
+ "HG26-refix2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG26-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-y/HG26-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-h/HG26.split.json"
+  ],
+  "lint": "FAIL",
+  "runs": [
+   "emu-y/HG26-fxw1"
+  ],
+  "words": 610,
+  "_blocks_ok": true
+ },
+ "HG14-rfix": {
+  "kind": "edit",
+  "was": "b443 HG14-refix, 100% Human: https://www.pangram.com/history/60e741f3-8543-4c65-9c28-357e6bb6b204",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S",
+   "S",
+   "S S B S",
+   "S S S S",
+   "S S S B",
+   "S S S S S",
+   "S S",
+   "B",
+   "B",
+   "B",
+   "B B B",
+   "B B",
+   "B B",
+   "S B",
+   "S S S",
+   "S S S S",
+   "S S",
+   "S",
+   "S",
+   "B S B B",
+   "S B S S S S S B",
+   "B",
+   "S S",
+   "S S",
+   "B",
+   "S S",
+   "S S",
+   "S S S",
+   "S S",
+   "S B",
+   "S S B",
+   "S S",
+   "S B",
+   "S S S",
+   "S S"
+  ],
+  "march": [
+   "S S",
+   "S B",
+   "S S B S",
+   "S S S S",
+   "S S S B",
+   "S S S S",
+   "S S",
+   "B",
+   "B",
+   "B",
+   "B B",
+   "B",
+   "B",
+   "S B",
+   "S S S",
+   "S S S S",
+   "S S",
+   "S",
+   "S",
+   "B S B",
+   "S B S S S S S B",
+   "B",
+   "S S",
+   "S S",
+   "B",
+   "S S",
+   "S S",
+   "S S S",
+   "S S",
+   "S B",
+   "S S B",
+   "S S",
+   "S B",
+   "S S S",
+   "S S B"
+  ],
+  "march_reads": {
+   "HG14-B15": "march-m",
+   "HG14-B19": "march-m",
+   "HG14-B29": "march-m",
+   "HG14-B37": "march-m",
+   "HG14-B51": "march-m",
+   "HG14-B60": "march-m",
+   "HG14-B65": "march-m",
+   "HG14-B76": "march-m"
+  },
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "repeats": 0,
+  "lint": "FAIL",
+  "reviews": "articles/inner-signal/humanize/fix-20261018/rf-a/HG14.fixed.json",
+  "verify": [
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG14.verify.part1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG14.verify.part2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG14.verify.part3.out.txt"
+  ],
+  "adjudication": "articles/inner-signal/humanize/fix-20261018/rf-a/HG14.triage.json",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s10.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s11.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s12.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s13.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s14.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s15.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s16.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s17.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s8.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s9.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG14-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG14-fxw3.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixes": 15,
+  "words": 3225
+ },
+ "HG15-rfix": {
+  "kind": "edit",
+  "was": "b443 HG15-refix, 100% Human: https://www.pangram.com/history/df417394-281f-4c3b-a1c8-018bb4cc115b",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S S B S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S B",
+   "S S S",
+   "B S S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S S S S S",
+   "S S S S B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S B"
+  ],
+  "march": [
+   "S S S S S B S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S B",
+   "S S S",
+   "B S B S",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S S S S S S",
+   "S S S S B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "S B"
+  ],
+  "march_reads": {
+   "HG15-B1": "march-l"
+  },
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "repeats": 0,
+  "lint": "FAIL",
+  "reviews": "articles/inner-signal/humanize/fix-20261018/rf-a/HG15.fixed.json",
+  "verify": [
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG15.verify.part1.out.txt"
+  ],
+  "adjudication": "articles/inner-signal/humanize/fix-20261018/rf-a/HG15.triage.json",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG15-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG15-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixes": 8,
+  "words": 896
+ },
+ "HG21-f-p1": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG21-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG21-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG21.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG21.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG21-rfix, Human Written 0.00",
+  "paragraph": 1,
+  "check": "alone",
+  "words": 95,
+  "_blocks_ok": true
+ },
+ "HG21-f-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG21-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG21-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG21.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG21.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG21-rfix, Human Written 0.00",
+  "paragraph": 2,
+  "check": "alone",
+  "words": 68,
+  "_blocks_ok": true
+ },
+ "HG21-f-p3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG21-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG21-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG21.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG21.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG21-rfix, Human Written 0.00",
+  "paragraph": 3,
+  "check": "alone",
+  "words": 86,
+  "_blocks_ok": true
+ },
+ "HG21-f-p4": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG21-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG21-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG21.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG21.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG21-rfix, Human Written 0.00",
+  "paragraph": 4,
+  "check": "alone",
+  "words": 147,
+  "_blocks_ok": true
+ },
+ "HG27-f-p1+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG27-f-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG27-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-e/HG27.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG27.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG27-rfix, Human Written 0.00",
+  "paragraph": 1,
+  "check": "next",
+  "words": 68,
+  "_blocks_ok": true
+ },
+ "HG27-f-p3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG27-f-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG27-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-e/HG27.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG27.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG27-rfix, Human Written 0.00",
+  "paragraph": 3,
+  "check": "alone",
+  "words": 90,
+  "_blocks_ok": true
+ },
+ "HG28-f-p1": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG28-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG28-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG28.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG28.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG28-rfix, Human Written 0.04",
+  "paragraph": 1,
+  "check": "alone",
+  "words": 66,
+  "_blocks_ok": true
+ },
+ "HG28-f-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG28-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG28-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG28.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG28.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG28-rfix, Human Written 0.04",
+  "paragraph": 2,
+  "check": "alone",
+  "words": 116,
+  "_blocks_ok": true
+ },
+ "HG28-f-p3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG28-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG28-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG28.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG28.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG28-rfix, Human Written 0.04",
+  "paragraph": 3,
+  "check": "alone",
+  "words": 59,
+  "_blocks_ok": true
+ },
+ "HG28-f-p4+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG28-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG28-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG28.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG28.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG28-rfix, Human Written 0.04",
+  "paragraph": 4,
+  "check": "next",
+  "words": 50,
+  "_blocks_ok": true
+ },
+ "HG28-f-p6+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG28-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG28-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG28.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG28.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG28-rfix, Human Written 0.04",
+  "paragraph": 6,
+  "check": "prev",
+  "words": 70,
+  "_blocks_ok": true
+ },
+ "HG33-rfix": {
+  "kind": "edit",
+  "was": "b443 HG33-refix, 100% Human: https://www.pangram.com/history/6a7651a6-31f8-4396-b96c-da16b8febbb9",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S S B S",
+   "S S S S",
+   "S S S S S S S S",
+   "S S S S S S S",
+   "S",
+   "B B B S",
+   "B B B B B",
+   "B B B B",
+   "S S S"
+  ],
+  "march": [
+   "S S S S S B S",
+   "S S S S",
+   "S S S S S S S S",
+   "S S S S S S S",
+   "S",
+   "B B B S",
+   "B B B B B",
+   "B B B B",
+   "S S S"
+  ],
+  "march_reads": {
+   "HG33-B8": "march-l",
+   "HG33-B11": "march-l",
+   "HG33-B17": "march-l",
+   "HG33-B22": "march-l",
+   "HG33-B26": "march-l"
+  },
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "repeats": 0,
+  "lint": "FAIL",
+  "reviews": "articles/inner-signal/humanize/fix-20261018/rf-a/HG33.fixed.json",
+  "verify": [
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG33.verify.part1.out.txt"
+  ],
+  "adjudication": "articles/inner-signal/humanize/fix-20261018/rf-a/HG33.triage.json",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG33-f-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG33-f-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG33-r1-h1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG33-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixes": 10,
+  "words": 928
+ },
+ "HG34-rfix": {
+  "kind": "edit",
+  "was": "b443 HG34-refix, 100% Human: https://www.pangram.com/history/71ba9c12-8313-48dd-a719-defee4f45d41",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S S",
+   "S S S",
+   "B S",
+   "S",
+   "S S S",
+   "S",
+   "S S"
+  ],
+  "march": [
+   "S S S S S",
+   "S S S",
+   "B S",
+   "S",
+   "S S S S",
+   "S",
+   "S S"
+  ],
+  "march_reads": {
+   "HG34-B1": "march-l"
+  },
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "repeats": 0,
+  "lint": "FAIL",
+  "reviews": "articles/inner-signal/humanize/fix-20261018/rf-a/HG34.fixed.json",
+  "verify": [
+   "articles/inner-signal/humanize/fix-20261018/rf-a/HG34.verify.part1.out.txt"
+  ],
+  "adjudication": "articles/inner-signal/humanize/fix-20261018/rf-a/HG34.triage.json",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG34-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG34-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixes": 4,
+  "words": 364
+ },
+ "HG04-f-p1+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG04-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG04-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-f/HG04.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG04.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG04-rfix, Human Written 0.11",
+  "paragraph": 1,
+  "check": "next",
+  "words": 120,
+  "_blocks_ok": true
+ },
+ "HG04-f-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-h/HG04-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG04-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-f/HG04.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG04.fixed.json"
+  ],
+  "lint": "FAIL",
+  "section": "b450 HG04-rfix, Human Written 0.11",
+  "paragraph": 2,
+  "check": "alone",
+  "words": 75,
+  "_blocks_ok": true
+ },
+ "HG23-f-p1": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 1,
+  "check": "alone",
+  "words": 74,
+  "_blocks_ok": true
+ },
+ "HG23-f-p2+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 2,
+  "check": "next",
+  "words": 64,
+  "_blocks_ok": true
+ },
+ "HG23-f-p4+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 4,
+  "check": "next",
+  "words": 101,
+  "_blocks_ok": true
+ },
+ "HG23-f-p5": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 5,
+  "check": "alone",
+  "words": 80,
+  "_blocks_ok": true
+ },
+ "HG23-f-p6": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 6,
+  "check": "alone",
+  "words": 98,
+  "_blocks_ok": true
+ },
+ "HG23-f-p7+next": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 7,
+  "check": "next",
+  "words": 77,
+  "_blocks_ok": true
+ },
+ "HG23-f-p8": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 8,
+  "check": "alone",
+  "words": 70,
+  "_blocks_ok": true
+ },
+ "HG23-f-p9+prev": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-s/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json",
+   "articles/inner-signal/humanize/fix-20261018/rf-b/HG23.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "section": "b450 HG23-rfix, Human Written 0.19",
+  "paragraph": 9,
+  "check": "prev",
+  "words": 115,
+  "_blocks_ok": true
+ },
+ "HG18-rfix": {
+  "kind": "edit",
+  "was": "b431 HG18-emuA, 100% Human: https://www.pangram.com/history/f7bfaff5-7844-44b8-b4ae-5cad302c5141",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S",
+   "S S",
+   "S",
+   "B S"
+  ],
+  "march": [
+   "S S S S S",
+   "S S",
+   "S S",
+   "B S"
+  ],
+  "march_reads": {
+   "HG18-B2": "march-n",
+   "HG18-B4": "march-a",
+   "HG18-B5": "march-a",
+   "HG18-B6": "march-a"
+  },
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "repeats": 0,
+  "lint": "FAIL",
+  "reviews": "articles/inner-signal/humanize/fix-20261018/rf-g/HG18.fixed.json",
+  "verify": [
+   "articles/inner-signal/humanize/fix-20261018/rf-g/HG18.verify.part1.out.txt"
+  ],
+  "adjudication": "articles/inner-signal/humanize/fix-20261018/rf-g/HG18.triage.json",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG18-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixes": 5,
+  "words": 516
+ }
+}

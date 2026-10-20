@@ -1,0 +1,16 @@
+[
+ {
+  "block": 47,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B47: SHIFT \"when it is a checking loop\" became \"if you are worried that you are going to start a checking loop\" (my read of the emu-ao sample)",
+    "replace": "if you are worried that you are going to start a checking loop",
+    "with": "if you notice you’re in a checking loop",
+    "round": 1,
+    "from": "my read of the sample, triaged"
+   }
+  ]
+ }
+]

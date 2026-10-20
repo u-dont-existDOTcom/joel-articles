@@ -1,0 +1,818 @@
+{
+ "key": "HG20",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-c"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Let the next response guide you"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Having read the induction and participated in the inner meeting, you are ready to learn to respond rather than read a speech that has already decided what every part will say. Read the following examples before you practice without a screen."
+   ],
+   "run": "HG20-r1-s1",
+   "file": "fix-20261018/emu-c/HG20-r1-s1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "a speech that has already decided what every part will say",
+     "replace": "rather than read a speech.",
+     "with": "rather than read a speech that has already decided what every part will say."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Respond by giving an accurate noticing of one thing and a small, believable invitation (or an act of care, or more time). A sensation can lead to an image, a gesture, a feeling, or words. It doesn’t have to fill every one of those. Then acknowledge only what actually happens, and wait."
+   ],
+   "run": "HG20-r1-s1",
+   "file": "fix-20261018/emu-c/HG20-r1-s1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "notice one thing; a small, believable invitation; an act of care",
+     "replace": "an accurate noticing and an invitation (or an act, or asking for more time).",
+     "with": "an accurate noticing of one thing and a small, believable invitation (or an act of care, or more time)."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'just one thing' is new; you don't need to fill every category; acknowledge only what actually happens",
+     "replace": "You are inviting it to do just one thing. Then acknowledge what happens and wait.",
+     "with": "It doesn’t have to fill every one of those. Then acknowledge only what actually happens, and wait."
+    },
+    {
+     "type": "SHIFT",
+     "what": "a sensation can lead to an image, a gesture, a feeling or words (not 'respond in any way comfortable for the part')",
+     "replace": "Your invitation can be to respond to your noticing in any way that is comfortable for the part: with a sensation, an image, an action, a feeling, or words.",
+     "with": "A sensation can lead to an image, a gesture, a feeling, or words.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Finding your own words"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Say you notice, \"My chest tightened when I imagined asking for help.\" Start with that,"
+   ],
+   "run": "HG20-r1-s2",
+   "file": "fix-20261018/emu-c/HG20-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the example: my chest tightened when I imagined asking for help",
+     "replace": "Somedays it may be best to begin with, for instance, \"I notice that....\"",
+     "with": "Say you notice, \"My chest tightened when I imagined asking for help.\" Start with that,"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "rather than deciding, \"This must be an abandoned child / a protective mechanism.\" Then you might say: \"And as I notice that tightening, I can give myself a little time before deciding what it means … and notice whether there’s something I’d like to say, change, or simply stay with.\""
+   ],
+   "run": "HG20-r1-s2",
+   "file": "fix-20261018/emu-c/HG20-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the script for the tightening",
+     "replace": "rather than, for instance, \"This must be an abandoned child / a protective mechanism.\"",
+     "with": "rather than deciding, \"This must be an abandoned child / a protective mechanism.\" Then you might say: \"And as I notice that tightening, I can give myself a little time before deciding what it means … and notice whether there’s something I’d like to say, change, or simply stay with.\""
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Then listen. That’s enough language for one invitation. A plain \"What happens next?\" may be better than an elegant sentence. While a feeling is developing, it may be best to pause the words if that gives it room, and somedays the words help you understand, so keep them."
+   ],
+   "run": "HG20-r1-s2",
+   "file": "fix-20261018/emu-c/HG20-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "that's enough language for one invitation; a plain 'What happens next?'; keep the words when they help",
+     "replace": "Somedays it may be best to say \"Then I listen.\" And to use no more language. Somedays it may even be best to not use any language at all while some feeling is developing. Somedays not, of course.",
+     "with": "Then listen. That’s enough language for one invitation. A plain \"What happens next?\" may be better than an elegant sentence. Somedays it may even be best to not use any language at all while some feeling is developing, and somedays the words help you understand, so keep them."
+    },
+    {
+     "type": "SHIFT",
+     "what": "pause the words if that gives a developing feeling room (not 'no language at all')",
+     "replace": "Somedays it may even be best to not use any language at all while some feeling is developing,",
+     "with": "While a feeling is developing, it may be best to pause the words if that gives it room,",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "When that’s the help you chose, you can be quite firm with yourself: \"Let the explanation wait a moment. What do I feel as I say that?\" Being direct can focus your attention without deciding the answer. You can simply stay with a difficult feeling, rather than waiting until it has become pleasant. If you’re still present, can change direction, and want to continue, sadness or tension on its own doesn’t mean you have to stop. It can be ok to stay."
+   ],
+   "run": "HG20-r1-s2",
+   "file": "fix-20261018/emu-c/HG20-r1-s2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "firmness when that's the help you chose, with the published script; directness focuses attention without deciding the answer",
+     "replace": "Somedays it may be best to be quite firm with yourself, and say, for instance, \"I am not going to let myself explain this away by saying that...\"",
+     "with": "Somedays, when that’s the help you chose, it may be best to be quite firm with yourself: \"Let the explanation wait a moment. What do I feel as I say that?\" Being direct can focus your attention without deciding the answer."
+    },
+    {
+     "type": "WRONG",
+     "what": "when you remain present, can change direction and want to continue, sadness or tension alone doesn't require an exit",
+     "replace": "If you can remain with a feeling long enough to change its direction, and if you then want to continue, it's not always necessary to have the feeling be pleasant in order for you to stay with it. Sadness and tension can sometimes be ok, if you know that you can leave, if you want to.",
+     "with": "If you’re still present, can change direction, and want to continue, sadness or tension on its own doesn’t mean you have to stop. It can be ok to stay.",
+     "march_note": "march-ab: the fix had taken out the break; put back"
+    },
+    {
+     "type": "SHIFT",
+     "what": "you can be firmer (a permission)",
+     "replace": "Somedays, when that’s the help you chose, it may be best to be quite firm with yourself:",
+     "with": "When that’s the help you chose, you can be quite firm with yourself:",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "a difficult feeling needn't become pleasant before you stay with it",
+     "replace": "Somedays it may be best simply to focus yourself on a feeling, rather than waiting until it has become pleasant.",
+     "with": "You can simply stay with a difficult feeling, rather than waiting until it has become pleasant.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Keep apart \"What I notice\", \"What it seems to mean to me\", and \"What I think about what it seems to mean.\" The boundaries between the three are fuzzy, and you don’t need to prove which came first. When it helps, ask: \"What did I notice? What did it seem to mean? What supports or challenges that meaning?\""
+   ],
+   "run": "HG20-r1-s3",
+   "file": "fix-20261018/emu-c/HG20-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'when you're communicating' is new",
+     "replace": "When you're communicating your understanding of a situation, it can be useful",
+     "with": "It can be useful"
+    },
+    {
+     "type": "LOST",
+     "what": "the three questions",
+     "replace": "Some useful questions to ask when you're not sure if something is a notice or a meaning:",
+     "with": "When it helps, ask: \"What did I notice? What did it seem to mean? What supports or challenges that meaning?\""
+    },
+    {
+     "type": "SHIFT",
+     "what": "keep apart (an instruction); you don't need to prove which came first",
+     "replace": "It can be useful to separate",
+     "with": "Keep apart",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "you don't need to prove which came first",
+     "replace": "This is not required or always useful, and the boundaries between the three are fuzzy.",
+     "with": "The boundaries between the three are fuzzy, and you don’t need to prove which came first.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Is it a notice or a meaning? \"It made my stomach tight\" is a notice. \"That person is evil\" is a meaning. (even if it came as a wordless certainty). Ask what they actually did, what cues you noticed, and what else could explain the alarm. It's ok to use phrases you come up with later to analyze the meaning, not only phrases that appeared in your head at the time. Nonverbal or early thoughts are not necessarily more true or valuable. Feelings deserve attention, and what they mean is still open to analysis."
+   ],
+   "run": "HG20-r1-s3",
+   "file": "fix-20261018/emu-c/HG20-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "an example that models the wrong move; lost: even as a wordless certainty, ask what they did, what cues, what else explains the alarm",
+     "replace": "You can use notices to analyze meanings (\"It made my stomach tight, and I think that means they're evil\"), but it's ok",
+     "with": "(even if it came as a wordless certainty). Ask what they actually did, what cues you noticed, and what else could explain the alarm. It's ok"
+    },
+    {
+     "type": "SHIFT",
+     "what": "feelings deserve attention; their meanings stay open to analysis",
+     "replace": "Feelings are something to explore and analyze, not necessarily to accept.",
+     "with": "Feelings deserve attention, and what they mean is still open to analysis."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'sometimes it can be useful to separate these, sometimes not' (and a repeat of B8)",
+     "replace": "Is it a notice or a meaning? Sometimes it can be useful to separate these, sometimes not. ",
+     "with": "Is it a notice or a meaning? ",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Let the response change the invitation"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "There is a difference between \"my shoulders tightened\" and \"that wording feels wrong\". Tightening on its own doesn't explain itself: ask what happened, and whether the invitation fits. A clear no doesn't need any more reasons; change the words, the pace, or the approach, and don't repeat the unwelcome suggestion more persuasively."
+   ],
+   "run": "HG20-r1-s4",
+   "file": "fix-20261018/emu-c/HG20-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "garbled; the published: two different observations, tightening doesn't explain itself, an explicit no needs no justification, change the approach, don't repeat more persuasively",
+     "replace": "There is a difference between \"my shoulders tightened\" and \"what you just said is not right\". If the first: what is happening? Is this a good fit for me? If the second: you don't have to say anything else, this is not a good fit for me, say it differently or don't try again.",
+     "with": "There is a difference between \"my shoulders tightened\" and \"that wording feels wrong\". Tightening on its own doesn't explain itself: ask what happened, and whether the invitation fits. A clear no doesn't need any more reasons; change the words, the pace, or the approach, and don't repeat the unwelcome suggestion more persuasively."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "I notice the tightness. I can leave it as it is for a moment. Does this invitation fit, or would I prefer something different?"
+   ],
+   "run": "HG20-r1-s4",
+   "file": "fix-20261018/emu-c/HG20-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the script",
+     "replace": "First: what is happening? Is this a good fit for me? Or should I leave it be or say it differently?",
+     "with": "I notice the tightness. I can leave it as it is for a moment. Does this invitation fit, or would I prefer something different?"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Sometimes the sentence was simply wrong. Sometimes it's something I hadn't considered, and the feeling is worth meeting. I don't have to decide which before I make space to find out. Skepticism isn't automatically a protector, and silence isn't proof that some hidden process is working."
+   ],
+   "run": "HG20-r1-s4",
+   "file": "fix-20261018/emu-c/HG20-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "garbled; the published: the sentence was wrong, or an unfamiliar possibility brings a feeling worth meeting; no need to decide first; skepticism isn't automatically a protector; silence isn't proof",
+     "replace": "Well sometimes it is the second. Or, it's something that I hadn't considered, and need to explore more, and my skepticism is not helping. But sometimes it is not helping. Sometimes there's nothing happening that I'm not aware of.",
+     "with": "Sometimes the sentence was simply wrong. Sometimes it's something I hadn't considered, and the feeling is worth meeting. I don't have to decide which before I make space to find out. Skepticism isn't automatically a protector, and silence isn't proof that some hidden process is working."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Look at the situation too"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "When another person is involved, notice what they actually do before you make the whole problem an inner-child reaction. Can they hear disagreement, take responsibility, and make room for your experience? Be as specific as you can, and be ready to change your mind. Just “disagreeing” with you or setting boundaries doesn’t by itself show emotional immaturity. And you don’t need repeated exposure to a dangerous situation before you’re allowed to protect yourself."
+   ],
+   "run": "HG20-r1-s5",
+   "file": "fix-20261018/emu-c/HG20-r1-s5.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "garbled; the published: notice what the other person actually does before making it all an inner-child reaction; can they hear disagreement, take responsibility, make room for your experience; specific, revisable; you don't need repeated exposure to danger",
+     "replace": "1. Do you perceive that the other person has a “ young inner child”, i.e. emotional immature? The key word here is “ perceive”. It does not take many exposures to a dangerous situation to learn to avoid it. Be as specific as you can. Just “ disagreeing” with you or setting boundaries does not necessarily indicate emotional immaturity.",
+     "with": "When another person is involved, notice what they actually do before you make the whole problem an inner-child reaction. Can they hear disagreement, take responsibility, and make room for your experience? Be as specific as you can, and be ready to change your mind. Just “disagreeing” with you or setting boundaries doesn’t by itself show emotional immaturity. And you don’t need repeated exposure to a dangerous situation before you’re allowed to protect yourself."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Notice your side too. Guilt does not necessarily mean that you have done something wrong or were manipulated. Did you cause harm that needs repair, or did you drop your position to make their disappointment go away, or both? What’s a realistic aim for the next interaction? Sometimes it is mutual understanding but sometimes you need to just convey information, set boundaries, or cut the interaction short. You don’t have to make someone understand before you can act."
+   ],
+   "run": "HG20-r1-s5",
+   "file": "fix-20261018/emu-c/HG20-r1-s5.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "notice your side too",
+     "replace": "2. Do you perceive that you did something “ wrong” (feel guilty), i.e. were you manipulated? Guilt",
+     "with": "Notice your side too. Guilt"
+    },
+    {
+     "type": "LOST",
+     "what": "did you cause harm that needs repair, abandon your position, or both?",
+     "replace": "Do you think that it is necessary to “ make amends” or is it “ dropping your position” to avoid the other’s disappointment?",
+     "with": "Did you cause harm that needs repair, or did you drop your position to make their disappointment go away, or both?"
+    },
+    {
+     "type": "LOST",
+     "what": "you don't have to make someone understand before you can act",
+     "replace": "or cut the interaction short.",
+     "with": "or cut the interaction short. You don’t have to make someone understand before you can act."
+    },
+    {
+     "type": "SHIFT",
+     "what": "a realistic purpose for the next interaction",
+     "replace": "What are your aims in the interaction?",
+     "with": "What’s a realistic aim for the next interaction?",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "Change the amount of contact"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "When you need less, widen your attention to something easier: the room, the chair, a sound, or somewhere in your body that’s easier to meet. Let that support become noticeable alongside what is difficult for you. Going back and forth between what is difficult and what is easier is called pendulation. Doing a little bit at a time is called titration. You get to set the pace based on how you are doing. You don’t have to do a certain number."
+   ],
+   "run": "HG20-r1-s6",
+   "file": "fix-20261018/emu-c/HG20-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "when you need less, widen attention to something easier to meet",
+     "replace": "Also, you can always feel free to reduce the amount of what you need by switching to something that is easier for you to attend to. Pay attention to something in the room or sitting on a chair or a sound or your body.",
+     "with": "When you need less, widen your attention to something easier: the room, the chair, a sound, or somewhere in your body that’s easier to meet."
+    },
+    {
+     "type": "SHIFT",
+     "what": "let support become noticeable alongside the difficulty (not 'use it to help with')",
+     "replace": "This allows you to use what supports you to help with what is difficult for you.",
+     "with": "Let that support become noticeable alongside what is difficult for you.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "Ok, I can let this much be here, and notice my support beside it."
+   ],
+   "run": "HG20-r1-s6",
+   "file": "fix-20261018/emu-c/HG20-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "let this much be here, the support beside it",
+     "replace": "Ok, I will feel a little bit and notice my support.",
+     "with": "Ok, I can let this much be here, and notice my support beside it.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "Only come back to the difficult stuff when you choose to. If you find that you are losing track of the present, things are becoming more and more unreal for you, or you are unable to switch or stop what you are doing, then stop exploring within and use the full return. If you find that you are having trouble orienting for a prolonged period, then please get human help, not a stronger induction."
+   ],
+   "run": "HG20-r1-s6",
+   "file": "fix-20261018/emu-c/HG20-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "return only when you choose",
+     "replace": "You can always come back to this at a later time.",
+     "with": "You can always come back to this when you choose to.",
+     "march_note": "march-ab: the fix had taken out the break; put back"
+    },
+    {
+     "type": "LOST",
+     "what": "rather than a stronger induction",
+     "replace": "then please get human help.",
+     "with": "then please get human help, not a stronger induction."
+    },
+    {
+     "type": "SHIFT",
+     "what": "return only when you choose (not 'you can always come back')",
+     "replace": "You can always come back to this when you choose to.",
+     "with": "Only come back to the difficult stuff when you choose to.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "unable to shift or stop",
+     "replace": "you are finding it difficult to switch or stop what you are doing",
+     "with": "you are unable to switch or stop what you are doing",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "If you feel the urge to move, turn, reach, push, or change your body position, then feel free to either do something small that is not painful or uncomfortable to your body or imagine that you are doing it, and notice what follows. You do not need to act out the urge or feel that you must move, shake, or release. If you find that moving causes pain or symptoms that you are concerned about, then stop moving."
+   ],
+   "run": "HG20-r1-s6",
+   "file": "fix-20261018/emu-c/HG20-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "notice what follows",
+     "replace": "or imagine that you are doing it.",
+     "with": "or imagine that you are doing it, and notice what follows.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "Offer the care that is actually wanted"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "When a younger feeling shows up, I offer it company without making it literally younger or asking it to explain its history. If I can recognize who the protector is, I listen to its concern, without demanding that it step aside. All are welcome in the meeting, and I don’t need them to go away, or even trust me right now."
+   ],
+   "run": "HG20-r1-s7",
+   "file": "fix-20261018/emu-c/HG20-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "turned round: offer company without making it literally younger or making it explain its history",
+     "replace": "I often find myself making it literally younger, or asking it to let me know when it is ready to tell me about its history.",
+     "with": "When a younger feeling shows up, I offer it company without making it literally younger or asking it to explain its history."
+    },
+    {
+     "type": "LOST",
+     "what": "without demanding that it step aside",
+     "replace": "I just let them know I hear that they are trying to take care of me.",
+     "with": "I listen to its concern, without demanding that it step aside."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "I’m here for you if you want me to be. If you need some space, I can provide that also."
+   ],
+   "run": "HG20-r1-s7",
+   "file": "fix-20261018/emu-c/HG20-r1-s7.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    25
+   ],
+   "paras": [
+    "If they don’t want me to come closer, I just do what they ask, and see how that feels. If I notice that a Nurturer could be useful in changing the tone, or a Protector could help me set a boundary, or a Leader could help me see how to live my life better, they don’t each need a speech, I just borrow the function that I don’t have at that moment. (I only use the Witness if I need help getting started, otherwise I don’t re-do a step I already can do.)"
+   ],
+   "run": "HG20-r1-s7",
+   "file": "fix-20261018/emu-c/HG20-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "they don't each need a speech",
+     "replace": "I don’t need them to tell me all about themselves,",
+     "with": "they don’t each need a speech,",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    26
+   ],
+   "paras": [
+    "I try different ways of supporting them – a welcome hand placement, an imagined presence, words they’d like to hear, changing my body position, moving further away etc., one change at a time, to see what it does. A resource that sounds comforting only earns its place if it actually helps right now."
+   ],
+   "run": "HG20-r1-s7",
+   "file": "fix-20261018/emu-c/HG20-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "a welcome hand placement, an imagined presence, words you'd like to hear",
+     "replace": "physically placing my self, imagining myself there, speaking to them,",
+     "with": "a welcome hand placement, an imagined presence, words they’d like to hear,"
+    },
+    {
+     "type": "LOST",
+     "what": "one change at a time",
+     "replace": "etc. to see what helps.",
+     "with": "etc., one change at a time, to see what it does."
+    },
+    {
+     "type": "WRONG",
+     "what": "turned round: a comforting-sounding resource earns its place by helping now",
+     "replace": "If I have a resource that I know sounds comforting to that person, I bring it in.",
+     "with": "A resource that sounds comforting only earns its place if it actually helps right now."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "Getting care now can bring up grief for what was missing back then. That doesn’t mean the love is failing. Allow yourself to respond as long as you want and as long as you can ‘stay there’. More tears don’t prove more healing. If the voice, closeness, touch, image, etc. seems intrusive then change it. Don’t think that you can’t ‘take’ the love."
+   ],
+   "run": "HG20-r1-s8",
+   "file": "fix-20261018/emu-c/HG20-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "care can bring grief for what was missing; that needn't mean the love failed",
+     "replace": "The ‘not getting enough of something’ can cause grief. But, just because you ‘didn’t get’ enough of a certain kind of love, doesn’t mean that the love you did have was ‘bad’.",
+     "with": "Getting care now can bring up grief for what was missing back then. That doesn’t mean the love is failing."
+    },
+    {
+     "type": "SHIFT",
+     "what": "more tears don't prove more healing",
+     "replace": "If producing more tears doesn’t help then stop.",
+     "with": "More tears don’t prove more healing."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28
+   ],
+   "paras": [
+    "Let a metaphor develop before you decide what it means. You could say, “If this problem had its own image or story, what would show up?” and, “what wants to happen next?” Try out ‘doing something’ that you feel would give you the resource that you feel you are missing, or set a boundary, move away, or take an action, only as far as it seems useful. Keep in mind that this information is symbolic and might be a good hypothesis for what you need but it’s not a proven fact about your history."
+   ],
+   "run": "HG20-r1-s8",
+   "file": "fix-20261018/emu-c/HG20-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "before you decide what it means",
+     "replace": "Allow a metaphor to develop and then work with the metaphor.",
+     "with": "Let a metaphor develop before you decide what it means."
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "the script: if this problem had its own image or story, what would appear, and what wants to happen next",
+     "replace": "“If there was something that showed up what this problem is, or tells a story about what is going on, then what would it be?” and, “what would need to happen in the metaphor?”",
+     "with": "“If this problem had its own image or story, what would show up?” and, “what wants to happen next?”",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "try only what seems useful",
+     "replace": "or set a boundary, move away, do something else, etc.",
+     "with": "or set a boundary, move away, or take an action, only as far as it seems useful.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    29
+   ],
+   "paras": [
+    "Or spend the session developing something you want: love, play, courage or curiosity. Let a pleasant experience have time to grow. Rehearse something you’ve decided to do, and notice what it would take to actually do it. Hypnosis can invite something new, not only listen to what’s already there."
+   ],
+   "run": "HG20-r1-s8",
+   "file": "fix-20261018/emu-c/HG20-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "or spend the session this way; let a pleasant experience grow; what it would take; hypnosis can invite something new",
+     "replace": "Develop a kind of love, playing, etc. that you want to have. Rehearse doing something that you decide you are going to do. Use hypnosis to develop something that you want like courage or curiosity.",
+     "with": "Or spend the session developing something you want: love, play, courage or curiosity. Let a pleasant experience have time to grow. Rehearse something you’ve decided to do, and notice what it would take to actually do it. Hypnosis can invite something new, not only listen to what’s already there."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    30
+   ],
+   "paras": [
+    "Finish without forcing a revelation"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "Once you feel you've had enough, you can stop asking yourself new questions. However, it is a good idea to explore whether there's anything you can do to help you to leave things where they are for the time being. This might include thanking the parts or capacities you've been working with, in words you can actually mean. A meal, a boundary, rest, a repaired relationship or a promise kept may matter more than another insight. Or, it may be that there's nothing you need to do."
+   ],
+   "run": "HG20-r1-s9",
+   "file": "fix-20261018/emu-c/HG20-r1-s9.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "'thanking off'; in words you can mean",
+     "replace": "This might include thanking off the parts or capacities you've been working with.",
+     "with": "This might include thanking the parts or capacities you've been working with, in words you can actually mean."
+    },
+    {
+     "type": "LOST",
+     "what": "a meal, a boundary, rest, a repaired relationship or a promise kept may matter more than another insight",
+     "replace": "It may also involve doing something important in your outer life.",
+     "with": "A meal, a boundary, rest, a repaired relationship or a promise kept may matter more than another insight."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Throughout this exercise, your analytical mind is welcome to comment on what's going on, to not go along with something, or to stop the process. However, it's best to postpone any long checking of the facts, and any commitments that matter, until after you've returned. An image can be meaningful without being a historical memory, and just because you've seen an image or experienced a shift or release in your body doesn't mean that your interpretation of what's going on is correct."
+   ],
+   "run": "HG20-r1-s9",
+   "file": "fix-20261018/emu-c/HG20-r1-s9.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "postpone extended checking and consequential commitments (not all checking, any commitment)",
+     "replace": "However, it's best to postpone its consideration of the factual accuracy of what's coming up, as well as its taking on of any commitments, until after you've returned.",
+     "with": "However, it's best to postpone any long checking of the facts, and any commitments that matter, until after you've returned.",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    },
+    {
+     "type": "LOST",
+     "what": "an image can be meaningful without being a historical memory",
+     "replace": "Just because you've seen an image",
+     "with": "An image can be meaningful without being a historical memory, and just because you've seen an image",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    33
+   ],
+   "paras": [
+    "Even if you ended the process early, use the Come all the way back procedure to return. Afterwards, write a few lines: what was there before, what you tried, what happened, and what's still uncertain. Include any memorable phrase that came up, any signals from your body, any needs expressed by a child part, any concerns expressed by a protector part, any boundaries you set, any repairs you made, or anything you learned that it would be a mistake to try to force, but only what actually appeared. You don't owe the notebook a complete cast of characters."
+   ],
+   "run": "HG20-r1-s9",
+   "file": "fix-20261018/emu-c/HG20-r1-s9.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "what to write: before, tried, happened, uncertain",
+     "replace": "It's also a good idea to jot down a few notes about what happened.",
+     "with": "Afterwards, write a few lines: what was there before, what you tried, what happened, and what's still uncertain."
+    },
+    {
+     "type": "LOST",
+     "what": "only when it actually appeared; no complete cast of characters",
+     "replace": "or anything you learned that it would be a mistake to try to force.",
+     "with": "or anything you learned that it would be a mistake to try to force, but only what actually appeared. You don't owe the notebook a complete cast of characters."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

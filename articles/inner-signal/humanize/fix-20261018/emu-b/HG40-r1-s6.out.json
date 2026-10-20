@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG40-r1-s6.txt",
+  "input_words": 41,
+  "input_sha256": "ba0e5530dce4ff58b034b6d085ca2bd5abe95b96a7830312b267580d55271b9c",
+  "balance_before": 139046,
+  "started_utc": "2026-10-18T03:04:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:15Z",
+  "response": {
+    "id": "7bed2fa9-df18-4884-8e0b-96356a3f2926",
+    "tool": "humanize",
+    "text": "It’s worth noting at this point that the study that Nedergaard and Lupyan reference in their Not Everybody Has an Inner Voice (2024) was not investigating different adaptations of self hypnosis, but rather it was investigating people who reported having different amounts of inner speech. Thus, the questions in Quick start are not intended to be any sort of validated screening or test for ability to do self hypnosis, but merely a practical way to see if the ideas in this book are something worth trying out for yourself.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 41
+    },
+    "elapsed": 6
+  },
+  "balance_after": 138939
+}

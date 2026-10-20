@@ -1,0 +1,44 @@
+{
+ "key": "HG19",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The actual inner meeting"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "paras": [
+    "Make sure you are not lying down when you do this exercise, unless you are ready to go to sleep or receive deep rest or are trying to incubate dreams. Sit in a place where you will not find yourself daydreaming, dissociating or going to sleep. Keep your spine straight, but not rigid, like a soldier. Relax your jaw and maintain some connection with the room you are in.",
+    "You can say to yourself, “I’m not going to leave life, I’m just going to listen more deeply to life.”",
+    "Invoking: “With the help of my Higher Self, my universal heart-mind connection, my wise subconscious mind, the intelligence in my body, my inner child, my inner adults, my protective parts and everyone and everything else that can help me to know what I need to know, only what I need to know in a useful, kind, stabilizing, real way…",
+    "Ask your conscious mind to listen.",
+    "This doesn’t mean you have to silence your thoughts to listen. Notice your thoughts, sensations, images, doubts, emotions, etc., without fighting them, without going with them, but simply noticing them while you hold the intention of this exercise in the background of your mind. Notice what becomes salient to you.",
+    "You can say, “Tell me what I need to know or tell me what I need to know to ask, and I will sit in silence for five minutes and listen.”",
+    "You might hear a phrase, feel a sensation, notice a memory, see a color, be contacted by a child or protector, feel pain, warmth, silence or know that your need to do something or be grateful for something or that this is enough listening for today.",
+    "Listen to it all and believe none of it."
+   ],
+   "run": "HG19-r1",
+   "file": "fix-20261018/emu-a/HG19-r1.out.txt"
+  }
+ ]
+}

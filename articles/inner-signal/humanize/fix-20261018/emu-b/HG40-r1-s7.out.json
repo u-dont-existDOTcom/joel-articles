@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG40-r1-s7.txt",
+  "input_words": 64,
+  "input_sha256": "4d79eddbdf83a8d0e67fa31cee2d8dcc671d210eb9a183706452cac686e65e2f",
+  "balance_before": 138939,
+  "started_utc": "2026-10-18T03:04:16Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:22Z",
+  "response": {
+    "id": "7fc9050f-2dad-4fe5-b5eb-75215dd6d841",
+    "tool": "humanize",
+    "text": "Here are some links that may be useful. Chapter 7 of Barbara Oleah Levine's \"Trauma and Memory\" (2015) has a helpful discussion of this topic. The US Veterans Administration website has a good overview of hypnosis that includes some cautions about strong reactions and the potential of false memory creation: Here is a website from the American Society of Clinical Hypnosis (ASCH) that explains what hypnosis certification means. It is important to note that this is not a certification of competence: The links that already exist in the \"Evidence and Hypnosis Specialists\" sections also have some good information.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 64
+    },
+    "elapsed": 6
+  },
+  "balance_after": 138759
+}

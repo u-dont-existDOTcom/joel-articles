@@ -1,0 +1,252 @@
+{
+ "key": "HG15",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "When “your voice” is everybody else’s voice"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "paras": [
+    "Working with your inner child can be harder when your private self had very little room to develop. This can happen when people come from a background where their family, religion or community took over their life very early on, or they were pressured to achieve in a certain way at a young age. This means that you don’t know what you feel, what you want, what you believe, what you like, or what you don’t like until you hear what someone else says first. This makes it hard to follow the advice to “love yourself” when you don’t know who “yourself” is. So in these cases, reparenting can go hand in hand with finding yourself. For some, it’s easy to work with their child-self because they can feel their child-self really easily. For others, creating enough safety for preference, curiosity, and experimentation is part of how their child-self becomes easier to hear.",
+    "You might be in this camp if:",
+    "You don’t know what you want until you hear what someone else wants",
+    "You find that your opinions change dramatically depending on who is around",
+    "You agree with someone in the moment and later realize you didn’t agree",
+    "You tend to take responsibility for other people’s emotions to the point of erasing yourself",
+    "Trying to love yourself feels like a performance",
+    "Trying to find out how your inner child feels, results in guesses instead of feeling",
+    "You find that you can rebel, but you can’t choose",
+    "A useful way to explain this is that you may have had less room to explore “what do I like?”, “what do I want to try out?” or “who am I when nobody is grading me?”, because as a child your attention went into avoiding pain, reading danger, meeting expectations and keeping the bond. (That’s a practical model, not a claim about one specific brain system.)",
+    "Sometimes it helps to distance yourself for a certain period from the people or group that you are getting your answers from, so quieter preferences can surface. However, don’t do this for long (staying isolated would defeat the purpose) – just long enough to differentiate what is yours from what is social.",
+    "The difference between a “human doer” and a “human being” helps here. If you don’t feel like you are good enough just because you exist, you will try to create a sense of worth by being beautiful, by doing something well, by being smart, by gaining status, by being spiritual, or by being needed. These can all be real gifts. They turn into a bargain with yourself when failing at them feels like losing yourself – that as long as you are good at something (or good at being good for other people), you will be good enough to belong.",
+    "To help you find yourself, ask yourself these questions:",
+    "What do I like when no one is watching?",
+    "What do I believe before I check what other people think?",
+    "What do I want that is not in rebellion to others, and is not in compliance with others?",
+    "Where am I buying my sense of belonging by betraying myself?",
+    "What “arena” am I using to try to buy my sense of belonging?",
+    "What can I try on for size that I don’t need to impress anyone with?",
+    "What relationships allow me to be myself?",
+    "What do I notice in my body and what meaning am I attaching to it?",
+    "Give your inner child a small experiment with no value towards your resume – painting, dancing, gardening, learning a language, a sport, volunteering, playing music, or anything else you’re allowed to be bad at. The parent voice you inherited may be telling you that you are supposed to be good at something as soon as you start doing it. The adult can answer, “We’re finding out whether we enjoy this, not proving our worth.” And give it enough tries to get past the humiliation of being a beginner.",
+    "For a child, belonging can feel like survival. So families, religions, romantic relationships, political tribes, spiritual groups, institutions, and even online communities can reach astonishingly far into who you are. Part of “adulting” is finding out where you are trading your sense of self in exchange for belonging, and then consciously choosing where you want to belong – on your terms, and learning that you can disappoint someone without disappearing. A large part of your subconscious mind is made up of the voices of other people, which is why this belongs in a self-hypnosis guide.",
+    "Where am I betraying myself in exchange for belonging?",
+    "What would it feel like to belong without having to betray myself?",
+    "Is this my own guidance or a belonging program I adopted?",
+    "Is this love, or is it a fear of being excluded?",
+    "Is this my conscience or is it conditioning?",
+    "Is this devotion, or is it compliance?",
+    "Is this rebellion, or is it freedom?",
+    "Then see what your body tells you. It isn’t always right, but it deserves a seat at the hearing."
+   ],
+   "run": "HG15-r1",
+   "file": "fix-20261018/emu-a/HG15-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "a private self had very little room to develop (not: none to begin with)",
+     "replace": "when you did not have a private self to begin with",
+     "with": "when your private self had very little room to develop"
+    },
+    {
+     "type": "SHIFT",
+     "what": "reparenting and identity-building can proceed together",
+     "replace": "reparenting needs to go hand in hand with finding yourself",
+     "with": "reparenting can go hand in hand with finding yourself"
+    },
+    {
+     "type": "SHIFT",
+     "what": "you agree in the moment and later realize you didn't",
+     "replace": "You catch yourself agreeing with someone when you didn’t agree in the moment",
+     "with": "You agree with someone in the moment and later realize you didn’t agree"
+    },
+    {
+     "type": "SHIFT",
+     "what": "to the point of self-erasure",
+     "replace": "to the detriment of yourself",
+     "with": "to the point of erasing yourself"
+    },
+    {
+     "type": "WRONG",
+     "what": "the published offers a practical model and says it is not a claim about one specific brain system; it also names what the attention went into, and 'who am I when nobody is grading me?'",
+     "replace": "The reason for this is that a part of your brain didn’t have the opportunity to explore “what do I like?” and “what do I want to try out?” because as a child you were focused on finding ways not to hurt yourself or lose attachment.",
+     "with": "A useful way to explain this is that you didn’t have the room to explore “what do I like?”, “what do I want to try out?” or “who am I when nobody is grading me?”, because as a child your attention went into avoiding pain, reading danger, meeting expectations and keeping the bond. (That’s a practical model, not a claim about one specific brain system.)"
+    },
+    {
+     "type": "LOST",
+     "what": "prolonged isolation would undermine the purpose",
+     "replace": "However, you don’t need to do this for long",
+     "with": "However, don’t do this for long (staying isolated would defeat the purpose)"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'more spiritual than everyone else'",
+     "replace": "by being more spiritual than everyone else",
+     "with": "by being spiritual"
+    },
+    {
+     "type": "SHIFT",
+     "what": "those can all be real gifts; they become belonging bargains when failure in the arena feels like losing yourself",
+     "replace": "In all of these cases, you are essentially making a bargain with yourself",
+     "with": "These can all be real gifts. They turn into a bargain with yourself when failing at them feels like losing yourself"
+    },
+    {
+     "type": "LOST",
+     "what": "anything else you're allowed to be bad at",
+     "replace": "playing music, etc.",
+     "with": "playing music, or anything else you’re allowed to be bad at."
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "the inherited parent (the inner voice), not your actual parent",
+     "replace": "Your parent may be telling you",
+     "with": "The parent voice you inherited may be telling you"
+    },
+    {
+     "type": "LOST",
+     "what": "give it enough repetitions to get past the humiliation",
+     "replace": "And it will take some time before the humiliation of being a beginner goes away.",
+     "with": "And give it enough tries to get past the humiliation of being a beginner."
+    },
+    {
+     "type": "SHIFT",
+     "what": "for a child belonging can feel like survival, so these groups can reach astonishingly far into identity",
+     "replace": "As a child, belonging was essential to your survival. As an adult, it can manifest in families, religions, romantic relationships, political tribes, spiritual groups, institutions, or even online.",
+     "with": "For a child, belonging can feel like survival. So families, religions, romantic relationships, political tribes, spiritual groups, institutions, and even online communities can reach astonishingly far into who you are."
+    },
+    {
+     "type": "LOST",
+     "what": "learning that you can disappoint someone without disappearing",
+     "replace": "– on your terms.",
+     "with": "– on your terms, and learning that you can disappoint someone without disappearing."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'help you let go of them' is new; the published says this is why it belongs in a self-hypnosis guide",
+     "replace": "so this is also a good opportunity to use some of the tools in this self-hypnosis guide to help you let go of them.",
+     "with": "which is why this belongs in a self-hypnosis guide."
+    },
+    {
+     "type": "LOST",
+     "what": "the body isn't infallible, but it deserves a seat at the hearing",
+     "replace": "Then see what your body tells you.",
+     "with": "Then see what your body tells you. It isn’t always right, but it deserves a seat at the hearing."
+    },
+    {
+     "type": "SHIFT",
+     "what": "distance helps (not necessary)",
+     "replace": "Sometimes it is necessary to distance yourself",
+     "with": "Sometimes it helps to distance yourself",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "REPEAT",
+     "what": "said twice in the paragraph; and quieter preferences surface",
+     "replace": "that you are getting your answers from so that you can distinguish between what you want and what you are told to want.",
+     "with": "that you are getting your answers from, so quieter preferences can surface.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "REPEAT",
+     "what": "falling short said twice after my fix",
+     "replace": " And if you fall short in that arena, you feel that you are not good enough.",
+     "with": "",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"can begin\" became \"happens a lot... This means you don't know\"",
+     "replace": "This happens a lot when people come from a background where",
+     "with": "This can happen when people come from a background where",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"part of how\" became \"requires\"; preference and curiosity lost",
+     "replace": "For others, it requires creating safety and playing around more to feel their child-self.",
+     "with": "For others, creating enough safety for preference, curiosity, and experimentation is part of how their child-self becomes easier to hear.",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"can leave less room\" became \"you didn't have the room\"",
+     "replace": "you didn’t have the room to explore",
+     "with": "you may have had less room to explore",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"doer/being difference helps\" became \"This means moving from doer to being\" (unclear \"This\")",
+     "replace": "This means moving from a “human doer” to a “human being”.",
+     "with": "The difference between a “human doer” and a “human being” helps here.",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "B1: LOST quoted adult answer to the inherited parent; now \"remind yourself\"",
+     "replace": "Your job as your own parent is to remind yourself that you are not doing these things to prove your worth – you are doing them to see if you like them or not.",
+     "with": "The adult can answer, “We’re finding out whether we enjoy this, not proving our worth.”",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B1: INVENTED \"your inner child needs to play\"",
+     "replace": "Remember that your inner child needs to play! Try out some things that have no value towards your resume",
+     "with": "Give your inner child a small experiment with no value towards your resume",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    },
+    {
+     "type": "not",
+     "what": "R: not knowing who you are, in B1 and B1",
+     "replace": "know who you are, what you feel",
+     "with": "know what you feel",
+     "round": 3,
+     "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

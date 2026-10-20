@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG32-f-s4.txt",
+  "input_words": 65,
+  "input_sha256": "2d47c76350c1789e7a0fe0ef33795e803cf1e372d619ec43d939cf39c8f482cd",
+  "balance_before": 128907,
+  "started_utc": "2026-10-18T03:25:07Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:25:13Z",
+  "response": {
+    "id": "e6088200-7f38-4dae-8700-059b6281dac3",
+    "tool": "humanize",
+    "text": "If you found yourself saying yes to any of these, several in fact, then maybe it’s time to stop going deeper, and to make irreversible decisions until you can get back into the room, in your body, connected to food, sleep, time, and good counsel.\n\nAnd by the way, a good guide increases your adult self; a bad one replaces it. A good guide can tolerate your “no”; a bad one will reframe it as resistance or ego or fear or low vibration or past trauma or sin, or just more evidence of the need for more guidance.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 65
+    },
+    "elapsed": 6
+  },
+  "balance_after": 128842
+}

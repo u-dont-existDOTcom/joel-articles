@@ -1,0 +1,114 @@
+[
+ {
+  "block": 1,
+  "verdict": "OK"
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "to hear the next signal (not 'to get more information')",
+    "replace": "more loving and to get more information.",
+    "with": "more loving and better able to hear the next signal."
+   },
+   {
+    "type": "LOST",
+    "what": "the constraint: safety, truth, kindness, no forcing, no false certainty, capacity before content",
+    "replace": "Constraint (what is safe?)",
+    "with": "Constraint (what keeps it safe, true and kind: no forcing, no false certainty, capacity before content)"
+   },
+   {
+    "type": "LOST",
+    "what": "so the analytical mind doesn’t treat silence as failure",
+    "replace": "might fabricate answers to fit your prompt.",
+    "with": "might treat silence as failure and fabricate an answer to fit your prompt."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "the fallback is a script the reader says (quotation marks, 'my body', today)",
+    "replace": "If the system needs more time to process this, or if silence is the best and safest answer, then let the body go into a deeper state of comfortable rest. The prompt is considered successfully answered with peaceful silence.",
+    "with": "“If the system needs more time to process this, or if silence is the best and safest answer today, then let my body go into a deeper state of comfortable rest. Peaceful silence is a successful answer.”"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'useless or dangerous'; the published: never more controlling",
+    "replace": "But useless or dangerous if used to be more controlling.",
+    "with": "But never use it to be more controlling.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "only as a gentle symbol, a body signal, or a single next step",
+    "replace": "in a safe way that I can integrate.",
+    "with": "only as a gentle symbol, a body signal, or a single next step."
+   },
+   {
+    "type": "LOST",
+    "what": "the inner child's prompt: little one, what can I do today so you are not alone with it",
+    "replace": "Inner child: What do you need me to know? What can I do for you?",
+    "with": "Inner child: Little one, what do you need me to know? What can I do today so you’re not alone with it?"
+   },
+   {
+    "type": "SHIFT",
+    "what": "what action would make this system safer (not 'for you to feel safe')",
+    "replace": "for you to feel safe?",
+    "with": "to make this system safer?"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the conditioning prompt: look at the impulse clearly; if part of it comes from conditioning, let that part be seen, and soften or step back only as much as is safe (not 'dissolve all the programming'); let my body feel the difference",
+    "replace": "Wise subconscious mind, dissolve all the programming from my previous family, religion, marketing, erotic imprints, political tribe, trauma responses, and need for belonging as a child. Show me how these show up so I can see that they are just programming. Let them dissolve, or at least let them step back, so that I can receive the true guidance from the universal heart that will make my life better in simple, ordinary ways.",
+    "with": "Wise subconscious mind, help me look at this impulse clearly. If part of it comes from family programming, religious fear, marketing, erotic imprints, political tribe, trauma responses, or a childhood need for belonging, show me that part so I can see it as programming. Let it soften or step back only as much as is safe, so that I can receive the true guidance from the universal heart that will make my life better in simple, ordinary ways. Let my body feel the difference."
+   },
+   {
+    "type": "SHIFT",
+    "what": "the daydream prompt: if useful, reveal the guidance in it; if avoidance, bring me gently into the present",
+    "replace": "Show me if this daydream is useful and guiding me, or if it is a way of not dealing with my life. If it is the latter, let me deal with my life.",
+    "with": "If this daydream is useful, show me the guidance in it. If it is a way of not dealing with my life, bring me gently into the present and help me deal with what I need to deal with."
+   },
+   {
+    "type": "SHIFT",
+    "what": "if the full truth would overwhelm me, don't reveal it all (not 'don't show it to me')",
+    "replace": "Please don’t show it to me.",
+    "with": "If the full truth would overwhelm me, please don’t show me all of it."
+   },
+   {
+    "type": "SHIFT",
+    "what": "an action that would prove I heard correctly (not 'integrate this')",
+    "replace": "What can I do in ordinary life to integrate this?",
+    "with": "What can I do in ordinary life that would prove I heard correctly?"
+   },
+   {
+    "type": "LOST",
+    "what": "without pretending the answer is automatically true",
+    "replace": "Use both.",
+    "with": "Use both, without pretending the answer is automatically true."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'can be mixed and matched'",
+    "replace": "Here are the core prompts that can be mixed and matched:",
+    "with": "Here are the core prompts:",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a childhood bargain for belonging",
+    "replace": "or a childhood need for belonging",
+    "with": "or a childhood bargain for belonging",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ }
+]

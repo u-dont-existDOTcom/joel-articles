@@ -1,0 +1,127 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: SHIFT "not a treatment validated as a whole" became "I do not claim ... validated" ("treatment" dropped)
+B1: INVENTED "how I have found it useful" (personal-usefulness claim)
+B3: LOST "especially" before the page numbers
+B3: SHIFT four topics became "some aspects of interactive hypnosis such as..."; "sensory learning" became "use other senses in learning"
+B3: INVENTED "for professional hypnotists"; "is" softened to "more of"
+B3: LOST "wholesale"; "historical claims imported into practice" became "historical information taken at face value"
+B5: SHIFT "tutorials describe techniques" became "guide's information is sourced from" them
+B5: INVENTED "based on these sources ... adapted for a slightly different purpose"
+B7: LOST "bodily" in "bodily tracking"
+B7: INVENTED "key ideas ... in depth" (books' coverage)
+B9: LOST "repair" ("working on this" has no clear referent)
+B9: SHIFT "mutual peer support" became "working on this together with another peer"
+B9: INVENTED "etc." opens the topic list
+B10: SHIFT "pages discuss X" became "the guide's information is based on" those pages
+B10: INVENTED "etc." opens the list
+B10: SHIFT "those ideas" (both books) became "this method is adapted from that book" (one book)
+B14: INVENTED "good" overview (value judgment)
+R: the guide adapts its sources rather than copying them, in B5 and B5
+
+ROUND-2 FIXES already made:
+B1 INVENTED 'how I have found it useful'; not a treatment validated as a whole: "This is merely how I have found it useful to adapt the practice. I do not claim that the process in its entirety has been validated." -> "That combination is an adaptation; I do not claim that it has been validated as a whole treatment."
+B3 INVENTED a professional clinical book: "It is more of a clinical book for professional hypnotists rather than a self-help one" -> "It is a professional clinical book, not a self-help one"
+B3 SHIFT historical claims shouldn't be imported wholesale: "Also be careful about taking the historical information at face value." -> "The same goes for its historical claims: don't bring them wholesale into solo practice."
+B5 SHIFT the tutorials describe techniques: "The information on hypnotic language patterns and triggers is sourced from Nimja's tutorial on hypnotic language patterns , and the tutorial on triggers ." -> "Nimja's tutorial on hypnotic language patterns and the tutorial on triggers describe language and cueing techniques."
+B5 REPEAT the adaptation said twice: "Please note that while the information in this guide is based on that in these sources, it is not identical to it, and has been adapted for a slightly different purpose. " -> ""
+B7 LOST bodily tracking: "key ideas of tracking" -> "key ideas of bodily tracking"
+B7 INVENTED 'in depth': ", in depth." -> "."
+B9 LOST practical and relational repair: "working on this both in practical and relationship terms" -> "practical and relational repair"
+B9 SHIFT mutual peer support: "working on this together with another peer" -> "mutual peer support"
+B10 SHIFT those ideas, from both books: "This method is adapted from that book to an adult’s younger feeling states." -> "Applying those ideas to an adult’s younger feeling states is an adaptation."
+B14 INVENTED 'good': "has a good overview of hypnosis" -> "has an overview of hypnosis"
+
+PUBLISHED section:
+[B0] Appendix K: Sources and further reading
+
+[B1] The personal accounts and the way I arrange this practice are mine. The revised teaching brings them together with body-oriented and hypnotic approaches described below. That combination is an adaptation, not a treatment validated as a whole. These notes are for readers who want to follow an idea further; you don’t need them open while practicing.
+
+[B2] Learning, entering, and returning
+
+[B3] Maggie Phillips and Claire Frederick, Healing the Divided Self (1995), especially pp.24–27, 45–50, and 83–90, discusses interactive hypnosis, sensory learning, self-hypnosis, and a definite return. It is a professional clinical book, not a self-help manual; its case procedures and historical claims shouldn’t be imported wholesale into solo practice. Adam Eason and Benjamin Parris’s ISH article on self-hypnosis discusses self-directed learning and its relationship to another hypnotist and recordings.
+
+[B4] Indirect language and re-entry cues
+
+[B5] Phillips and Frederick, pp.53–57 and 96–100, explain pacing, utilization, metaphor, and associational cues. Nimja’s hypnotic-language tutorial and trigger tutorial describe language and cueing techniques. They are technique sources, not evidence that every NLP claim is established or every example suits trauma work. The original wording and deliberately chosen re-entry sequence here are adaptations; Nimja did not write or endorse this guide.
+
+[B6] Body awareness and changing the amount of contact
+
+[B7] Peter Levine, In an Unspoken Voice (2010), chapters 5 and 7; Levine and Maggie Phillips, Freedom from Pain (2012), chapters 3–4; and Levine, Healing Trauma, chapter 4, inform bodily tracking, resources, titration, pendulation, and attention across sensation, imagery, behavior, emotion, and meaning. The invitation to try a movement or image is not a claim that a particular physiological repair has occurred.
+
+[B8] Inner-child care and adult capacities
+
+[B9] The companion Inner Child Self-Love Reparenting Guide gives the fuller treatment of borrowed adulthood, love without compulsory trust, practical and relational repair, spiritual struggle, differentiation, and mutual peer support. The corresponding practices here follow that account while retaining the self-hypnosis entry, responsive language, and complete return.
+
+[B10] Healing the Divided Self, pp.148–153 and 171–174, discusses renurturing, somatic work, and developing nurturing capacities. Levine and Maggie Kline’s Trauma Through a Child’s Eyes, especially chapters 4–5 and 10, discusses attunement and individual responses in actual children and caregiving. Applying those ideas to an adult’s younger feeling-states is an adaptation. My three-adult arrangement and borrowed-adulthood sequence are not presented as those authors’ tested protocol.
+
+[B11] Inner speech and putting experience into words
+
+[B12] Nedergaard and Lupyan’s Not Everybody Has an Inner Voice (2024) studied people reporting different amounts of inner speech, not self-hypnosis adaptations. The questions in Quick start are a practical self-check, not a validated screening instrument or a test of hypnotic ability.
+
+[B13] Memory, support, and choosing a practitioner
+
+[B14] Levine’s Trauma and Memory (2015), chapter 7, is useful on the difference between compelling experience and historical verification. The VA’s hypnosis overview includes cautions about strong reactions and false memories. ASCH’s explanation of certification distinguishes professional preparation from a guarantee of someone’s competence. The existing links in the evidence and specialist sections point to their particular claims rather than validating every use of hypnosis.
+
+REWRITE (current):
+[B0, as published] Appendix K: Sources and further reading
+
+[CHANGED, replaces B1]
+The personal accounts and the way I arrange this practice are mine. The re-vised teaching brings them together with the body orientated and hypnotic approaches described below. That combination is an adaptation; I do not claim that it has been validated as a whole treatment. These notes are for readers who want to follow an idea further; you don’t need them open while practicing.
+
+[B2, as published] Learning, entering, and returning
+
+[CHANGED, replaces B3]
+Maggie Phillips and Claire Frederick in Healing the Divided Self (1995), pp 24-27, 45-50, 83-90, deal with some aspects of interactive hypnosis such as helping the subject learn how to use other senses in the learning process, developing self-hypnosis and a definite return at the end. It is a professional clinical book, not a self-help one, so be careful about trying to introduce the case procedures described to yourself. The same goes for its historical claims: don't bring them wholesale into solo practice. Adam Eason, with Benjamin Parris, has an ISH article on self-hypnosis, dealing with self-directed learning and the question of another hypnotist and recordings.
+
+[B4, as published] Indirect language and re-entry cues
+
+[CHANGED, replaces B5]
+Phillips and Frederick's book, pages 53 - 57 and 96 - 100, explains pacing, utilization, metaphor and associational cues. Nimja's tutorial on hypnotic language patterns and the tutorial on triggers describe language and cueing techniques. They're sources for technique, not evidence that every NLP claim is established or that every example suits trauma work. Nimja did not write or endorse this guide. The original wording here, and the re-entry sequence I chose on purpose, are my adaptations.
+
+[B6, as published] Body awareness and changing the amount of contact
+
+[CHANGED, replaces B7]
+Note: Parts of this post draw on In an Unspoken Voice by Peter Levine, 2010, chapters 5 and 7, but also from chapters 3 and 4 of Freedom from Pain by Levine and Maggie Phillips, 2012, and chapter 4 of Healing Trauma by Levine. They discuss key ideas of bodily tracking, resources, titration, pendulation and the range of foci of attention, from sensation, imagery, behavior, emotion to meaning. Also, although movements and images are offered for trying out here, they are not offered with the presumption that this is what is “fixing” anything physiologically.
+
+[B8, as published] Inner-child care and adult capacities
+
+[CHANGED, replaces B9]
+There is a lot more information on borrowed adulthood, love without having to trust, practical and relational repair, spiritual struggle, working on differentiation, mutual peer support, etc. in the companion piece: Inner Child Self-Love Reparenting Guide. The matching practices here follow it, but keep this guide’s self-hypnosis entry, responsive language and complete return.
+
+[CHANGED, replaces B10]
+The information here is based on Healing the Divided Self pages 148-153 and 171-174 for renurturing work, somatic work, developing nurturing capacities etc. For information on attunement and how each child is different and needs to be responded to differently, see Trauma Through a Child’s Eyes by Levine and Maggie Kline, particularly chapters 4, 5, 10 which talk about actual kids. Applying those ideas to an adult’s younger feeling states is an adaptation. My arrangement of three adult functions and the borrowed-adulthood sequence are not those authors’ tested protocol.
+
+[B11, as published] Inner speech and putting experience into words
+
+[CHANGED, replaces B12]
+It’s worth noting at this point that Nedergaard and Lupyan’s study, Not Everybody Has an Inner Voice (2024), was not investigating different adaptations of self hypnosis, but rather it was investigating people who reported having different amounts of inner speech. Thus, the questions in Quick start are not intended to be any sort of validated screening or test for ability to do self hypnosis, but merely a practical self-check.
+
+[B13, as published] Memory, support, and choosing a practitioner
+
+[CHANGED, replaces B14]
+Chapter 7 of Peter Levine's "Trauma and Memory" (2015) is useful on the difference between a compelling experience and historical verification. The US Veterans Administration website has an overview of hypnosis that includes some cautions about strong reactions and the potential of false memory creation. Here is a website from the American Society of Clinical Hypnosis (ASCH) that explains what hypnosis certification means. It separates professional preparation from a guarantee that someone is competent. The links already in the evidence and specialist sections point to their particular claims; they don’t validate every use of hypnosis.

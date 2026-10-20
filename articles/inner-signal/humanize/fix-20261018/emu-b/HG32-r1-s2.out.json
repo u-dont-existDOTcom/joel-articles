@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG32-r1-s2.txt",
+  "input_words": 83,
+  "input_sha256": "e54c27a3d3e8b141d192bd0e3e11e2c386f5b0e3dd380179daf73c488c01bb2a",
+  "balance_before": 143677,
+  "started_utc": "2026-10-18T03:02:15Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:22Z",
+  "response": {
+    "id": "9e838e31-4aa7-4ac8-a79a-f866dbea3317",
+    "tool": "humanize",
+    "text": "Who are you allowing to seduce, scare, or rescue your child?\n\nAre you allowing them to remove your ability to say NO?\n\nIf yes to any of these, but especially if yes to more than one, you need to stop going deeper into trance or making decisions you can’t reverse, and come back into your room, your body, your food, your sleep, your time, and your counsel.\n\nGood guides increase your adult self; bad guides replace it. Good guides are fine with you saying NO; bad guides frame your NO as resistance, your ego, fear, low vibration, trauma, sin, and evidence that you need more of their guidance.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 83
+    },
+    "elapsed": 6
+  },
+  "balance_after": 143506
+}

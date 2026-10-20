@@ -1,0 +1,73 @@
+{"key": "HG40",
+ "fixes": [
+  {"block": 1,
+   "problems": [
+    {"type": "WRONG",
+     "what": "B1: WRONG 'Everything in this post is my own' (published: only the personal accounts and his arrangement of the practice)",
+     "replace": "Everything in this post is my own",
+     "with": "The personal accounts and the way I arrange this practice are my own",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 3,
+   "problems": [
+    {"type": "SHIFT",
+     "what": "B3: SHIFT one Eason and Parris ISH article became Eason's 'work with Parris' plus a separate article of his",
+     "replace": "Hypnosis, as well as his article",
+     "with": "Hypnosis, specifically his article",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 5,
+   "problems": [
+    {"type": "LOST",
+     "what": "B5: LOST not every example suits trauma work; also R: Nimja did not write or endorse the guide, in B5 and B5 (the redundant 'he wrote or endorses' clause is swapped for the lost point, the explicit parenthetical stays)",
+     "replace": "he wrote or endorses this guide",
+     "with": "every example suits trauma work",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 9,
+   "problems": [
+    {"type": "REPEAT",
+     "what": "R: coming out of self-hypnosis / coming back at the end, in B9 and B9",
+     "replace": "get in and out of self hypnosis",
+     "with": "get into self hypnosis",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 14,
+   "problems": [
+    {"type": "SHIFT",
+     "what": "B14: SHIFT ASCH: certification shows preparation, not guaranteed competence, became 'usefulness of getting certified'",
+     "replace": "certified in hypnosis, etc.",
+     "with": "certified in hypnosis, and why it doesn't guarantee competence.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"},
+    {"type": "LOST",
+     "what": "B14: LOST caveat that the existing links support only their particular claims, not every use of hypnosis",
+     "replace": "in the evidence and specialist sections.",
+     "with": "in the evidence and specialist sections, but they point to their particular claims, not every use of hypnosis.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]}
+ ],
+ "let_stand": [
+  {"finding": "B1: SHIFT \"adaptation, not validated as a whole\" became \"not validated ... at this time\"",
+   "why": "still says not validated; adaptation is named in the first sentence"},
+  {"finding": "B1: SHIFT \"These notes ... to follow an idea further\" became \"These instructions ... for your perusal\"",
+   "why": "wording; in the appendix it is clear these are the notes, not needed while practicing"},
+  {"finding": "B3: INVENTED added heading, \"covers a lot of aspects of this post\", \"useful thing to read\"",
+   "why": "added heading and recommending aside claim nothing new"},
+  {"finding": "B5: INVENTED \"indirect\" language patterns; sequence chosen because \"easy to use\"",
+   "why": "author's own elaboration; fits 'deliberately chosen re-entry sequence'"},
+  {"finding": "B7: SHIFT \"not a claim that physiological repair has occurred\" became \"not what you need to do to fix it\"",
+   "why": "same limit kept: not offered as a physiological fix"},
+  {"finding": "B9: LOST topics the companion guide covers (borrowed adulthood, love without compulsory trust, repair, spiritual struggle, differentiation, peer support)",
+   "why": "cross-reference kept; topic list shortened, heading above names the subject"},
+  {"finding": "B9: SHIFT \"not presented as those authors' tested protocol\" became \"not from these authors\"",
+   "why": "still separates the arrangement from those authors; B1 keeps 'not validated'"},
+  {"finding": "B14: LOST topic of Levine chapter 7 (compelling experience vs historical verification), now \"on this\"",
+   "why": "pointer kept; false-memory caution stays in the next sentence"}
+ ],
+ "resample": []}

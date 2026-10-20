@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG07-r1.txt",
+  "input_words": 98,
+  "input_sha256": "a77bd34b8d48ca4cdefa875a97432915bafc5f73860fb717127ec2b9d8364572",
+  "balance_before": 160885,
+  "started_utc": "2026-10-18T02:47:31Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:47:38Z",
+  "response": {
+    "id": "675442c1-285a-4d88-98e6-397dde9e4068",
+    "tool": "humanize",
+    "text": "So, here's a story my friend, P, told me about her friend, V, who is apparently a 33rd degree Free Mason. And this guy V can make anyone strip naked and have sex with him in 3 seconds, even over the phone. HOW is this possible? The only way it's possible is if people are being hypnotized by some mass media or device using a trigger word that is known by the elites.\n\nUnder no circumstances allow a strong emotional state, charismatic individual, sexual charge, spiritual experience, or other authority to replace the adult part of yourself. All legitimate forms of influence can stand up to scrutiny.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 98
+    },
+    "elapsed": 6
+  },
+  "balance_after": 160787
+}

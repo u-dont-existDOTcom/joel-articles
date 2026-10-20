@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG10-r1.txt",
+  "input_words": 184,
+  "input_sha256": "1b7462ca5d735500e4af7d1821238df68a7266c8aadd28e0e41059b55ef86e63",
+  "balance_before": 160787,
+  "started_utc": "2026-10-18T02:47:39Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:47:50Z",
+  "response": {
+    "id": "4ac20b2e-c6a8-485d-86fe-7e938563b9c5",
+    "tool": "humanize",
+    "text": "Hypnosis Evidence\n\nIs there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview of 49 meta analyses containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality.\n\nIs there evidence for Self-Hypnosis? Yes. There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, child birth, pediatric, stress, anxiety etc. Self-hypnosis tends to be more useful when done as a real self-skill several times, not just listening to an audio file.\n\nHere I will be teaching you a real self-skill, not just asking you to buy more audio trance files.\n\nMayo Clinic cautions that if you use hypnosis in the context of stressful past life events and have strong reactions to this, then hypnosis may not be the best treatment to deal with historical trauma, other treatments may be more suitable.\n\nUse Self-Hypnosis for: regulation, dialogue, reparenting, clarity, habit change, present life safety, emotional integration, present life action\n\nDon't use Self-Hypnosis for: forcing trauma memories, proof of trauma memories, suppressing medical symptoms, destabilizing yourself, instead of correct treatment",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 184
+    },
+    "elapsed": 11
+  },
+  "balance_after": 160603
+}

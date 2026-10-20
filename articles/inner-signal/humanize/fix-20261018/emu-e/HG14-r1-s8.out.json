@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s8.txt",
+  "input_words": 71,
+  "input_sha256": "68d07f33b8ed37b7a2a33105b0164d1ba7debb582903626034b440e5ddd8019b",
+  "balance_before": 135041,
+  "started_utc": "2026-10-18T03:07:51Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:59Z",
+  "response": {
+    "id": "20e03698-73dc-4f05-89f7-77f126b3bdd6",
+    "tool": "humanize",
+    "text": "One of the most important things you can do as a Nurturer is to enjoy your children. To sit back and not feel like you have to move their feelings, but actually say to them, “I’m really glad you are here in this moment.” Children need to be enjoyed, not just consoled when they are hurt.\n\n“I know it’s okay for you to feel the way you are feeling.”\n\n“I want you to know that I’m here for you.”\n\n“Right now, you don’t have to do anything.”\n\n“You are not too much.”\n\n“It’s okay to be small. You can be small here with me.”\n\n“It’s okay to be angry. You can be angry here.”\n\n“It’s okay to be sad. You can be sad here.”\n\n“I’m going to be here for you.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 71
+    },
+    "elapsed": 7
+  },
+  "balance_after": 134894
+}

@@ -1,0 +1,69 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B2: INVENTED regulatory scrutiny claim added
+B3: INVENTED "even if a fully grown adult" added
+B4: SHIFT "associated with" became "from"
+
+ROUND-2 FIXES already made:
+B2 INVENTED regulatory scrutiny: ", and the practice has even come under scrutiny by regulatory bodies." -> "."
+B4 SHIFT associated with, not from: "As a line from the Silva Mind Control tradition puts it," -> "As a line associated with the Silva Mind Control tradition puts it,"
+
+PUBLISHED section:
+[B0] Protecting Yourself from Hypnotists
+
+[B1] Hypnotism can happen in a therapist’s office. It also happens through music, marketing, religious ritual, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, belonging, fatigue, love, trauma, and beauty.
+
+[B2] Influence doesn’t wait for the conscious mind to sign a form. Marketers and interface designers know this perfectly well. The FTC’s report on dark patterns describes designs that trick or manipulate consumers, while the OECD describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+
+[B3] Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.
+
+[B4] A line associated with the Silva Mind Control tradition says it plainly:
+
+[B5] “If you don’t learn to control your mind, someone else will!”
+
+[B6] Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. Self-hypnosis lets you practice from inside it: befriending the deeper layers, listening closely, and making adult choice more available.
+
+REWRITE (current):
+[B0, as published] Protecting Yourself from Hypnotists
+
+[CHANGED, replaces B1]
+Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.
+
+[CHANGED, replaces B2]
+Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+
+[CHANGED, replaces B3]
+Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent: those are all different things. Someone’s mind can be influenced, even if they are a fully grown adult, without their adult self having clearly chosen the influence.
+
+[CHANGED, replaces B4]
+As a line associated with the Silva Mind Control tradition puts it,
+
+[CHANGED, replaces B5]
+“If you don’t learn to control your mind, someone else will!”
+
+[CHANGED, replaces B6]
+Since there are a lot of forces out there already training your mind, via ads, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition, you can use self-hypnosis techniques to work from the inside: befriend your deeper mind, listen closely, and make it easier to choose things for yourself as an adult.

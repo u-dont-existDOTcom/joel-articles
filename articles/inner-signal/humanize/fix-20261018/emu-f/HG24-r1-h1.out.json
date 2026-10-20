@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG24-r1-h1.txt",
+  "input_words": 52,
+  "input_sha256": "81e8a85857d6d9451396e91613444498bc49f047b7369d8537cff6b192436144",
+  "balance_before": 129919,
+  "started_utc": "2026-10-18T03:23:21Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:23:26Z",
+  "response": {
+    "id": "b8fd1b88-513d-48f5-a471-b54d7b7cf260",
+    "tool": "humanize",
+    "text": "You dissociate or feel unreal\n\nThis is the time for you to open your eyes, to start moving again, to start touching the textured world again. Name the five things you can see. Your practice for today is over.\n\nYou are now grandiose again\n\nEat, sleep, work your chores, be humble again\n\nMantra: “Will this insight survive sleeping and eating and time, humility and feedback?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 52
+    },
+    "elapsed": 4
+  },
+  "balance_after": 129867
+}

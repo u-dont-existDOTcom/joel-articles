@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-h/HG29_30-r1.txt",
+  "input_words": 189,
+  "input_sha256": "ab03ed5b4d42b20e8648bbc4d9ed6704ee1eb23cb407960e5dc5e8e0bdb55c24",
+  "balance_before": 125081,
+  "started_utc": "2026-10-18T03:58:47Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:58:59Z",
+  "response": {
+    "id": "01ace9fb-6891-4dc5-a457-1878fa5f46de",
+    "tool": "humanize",
+    "text": "Here's an affirmation that can be used to help sort out whether or not a feeling or impulse is coming from conditioning or from the universal heart -- my experience is that it is safe to at least partially deprogramme the non-useful aspects, and the result, if successful, is a better life. \"Please dear subconscious -- if this is family programming, religious programming, marketing, erotic imprinting, political conditioning, trauma, or any other form of conditioning -- please deprogram that part of this signal. But if it's true guidance from the universal heart that is intended to help me have a better life, please leave that part.\"\n\nBonus affirmations for specific circumstances:\n\nDaydreaming: \"If this daydream is useful, please show me how it's useful. But if it's just a way of avoiding dealing with something in the real world, please bring me back to the present moment, and show me how to deal with it.\"\n\nAnxiety: \"Please show me how to deal with this anxiety.\"\n\nReceiving a truth that one isn't ready to face: \"If there are aspects of this truth that I'm not ready to face, please don't show them to me. But please help me get ready to face them, by showing me how to develop that capacity.\"\n\nIntegration: \"Please show me how to integrate this into my everyday life.\"\n\nThe content of the prompt is the most important thing, but the NLP-y language is also helpful.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 189
+    },
+    "elapsed": 12
+  },
+  "balance_after": 124892
+}

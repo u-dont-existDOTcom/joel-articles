@@ -1,0 +1,255 @@
+{
+ "key": "HG33",
+ "from": "fix-20261018/rev-e/HG33.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix D: Anxiety — body first"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Remember that often the anxiety comes from a protector part, a part of yourself who is trying to help you, but who believes you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or become sick, or rejected, or lose control, or suffer something else unbearable. Therefore, instead of an interrogation, start with yourself:"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Always work with yourself by first taking care of your body, then your inner child, then some inner inquiry, and then some action:"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Inner child love"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4,
+    5,
+    6
+   ],
+   "paras": [
+    "Inner child love: Put a hand over your heart, and a hand on your solar plexis, and say lovingly, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.” Don’t just say the words, but say them in a way that you are talking to the inner child, who is frightened."
+   ],
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Reduced breathing / Buteyko-style breathing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8,
+    9
+   ],
+   "paras": [
+    "Reduce your breathing. (NOTE: there are some good things to be said for slowing down the breathing, for some who overbreathe or are panicked, and this part is based on the Buteyko approach. But please don’t force yourself to hold your breath and suffer air hunger, which can make you more anxious for a short period. Proceed slowly.) Take small inhales through the nose, and quiet exhales, with pauses only if comfortable. Can you quiet your breathing? STOP if you feel dizzy, strained, or panicky, or experience any other medical concerns."
+   ],
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "EFT tapping"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11,
+    12
+   ],
+   "paras": [
+    "EFT tapping: One of the easiest ways to do EFT is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized control trials for anxiety disorders, and noted that EFT was more effective than no intervention in a few studies. So use the evidence with caution, and know that there are first line therapies for anxiety."
+   ],
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "2025 systematic review",
+     "new": "2025 systematic review"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Somatic Experiencing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14,
+    15
+   ],
+   "paras": [
+    "Somatic experiencing: If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide . In somatic experiencing (SE), you are not thrusting into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail."
+   ],
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "Somatic Guide",
+     "new": "somatic guide"
+    }
+   ],
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Gendlin Focusing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "paras": [
+    "Gendlin Focusing: Focusing is another approach where you work with your body. You might say to yourself, “What is the felt sense of this whole anxiety?” Don’t answer with your head; let your body come up with a vague sense of the whole anxiety. Then ask, “What would this felt sense like me to know?” Try a word or a phrase and see how well it fits the felt sense. But also see if what the word or phrase says is true of the situation. The word may feel ok, but say something that doesn’t fit the situation, or vice versa. Use the words and the body to mutually correct one another."
+   ],
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "Body supports"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22,
+    23,
+    24
+   ],
+   "paras": [
+    "Work with the body. Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.) There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc.",
+    "You may find that you settle down with some of these things: warmth, darkness, favorite music, massage, a weighted blanket, some breathwork, a favorite object, technology you use to relax, etc.",
+    "I have a page on my ZHoly3O product, which is ozonated charcoal, and I talk about this “holy water” as one of the things that can help you relax. (See the mention of Blushield on that page, too.) But neither one of those products are necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages (neither product proves they are true), and then take one grounded action.",
+    "A script you could use for anxiety is:"
+   ],
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "ZHoly3O",
+     "new": "ZHoly3O"
+    },
+    {
+     "published": "Blushield",
+     "new": "Blushield"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    25
+   ],
+   "paras": [
+    "Anxiety script"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    26,
+    27,
+    28,
+    29
+   ],
+   "paras": [
+    "Where am my body? What are my feet doing? How am I sitting in the chair? How am I breathing? How is my body in the room?",
+    "Little one, if you can hear me, I want you to know that I am here. Protector, thank you for alerting me. You don’t have to scream. I got your message.",
+    "Now if there is something we need to do, show me what the first thing is that we should do, right now. And if there is nothing we need to do, help my body stand down, and know that I am not going to abandon you, but I am also not going to worship you. I am going to listen to you, reality test what you are saying, and then take some action."
+   ],
+   "run": "HG33-fxw1",
+   "file": "fix-20261018/emu-r/HG33-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  }
+ ],
+ "split_from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-a/HG33.fixed.json"
+}

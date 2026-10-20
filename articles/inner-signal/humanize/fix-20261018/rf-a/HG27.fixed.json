@@ -1,0 +1,79 @@
+{
+ "key": "HG27",
+ "from": "fix-20261018/rev-e/HG27.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Closing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Start from the basis that the sub, the body, the sharp mind, and the guy who's tensed up and ready for the other shoe to drop for a long time are all not your enemies. Most of them are actually trying to help you."
+   ],
+   "run": "HG27-fxw1",
+   "file": "fix-20261018/emu-r/HG27-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Whether or not you can \"get hypnotized\" very deeply is less interesting to me than whether or not you can become a trustworthy adult."
+   ],
+   "run": "HG27-fxw1",
+   "file": "fix-20261018/emu-r/HG27-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "author's \"less interested\" stance became a claim that depth is irrelevant",
+     "replace": "somewhat irrelevant to",
+     "with": "less interesting to me than",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Listen to it for as long as it takes until it's comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to the kid, so the various guards feel they can occasionally relax. Work on loving yourself in a way that your thinking doesn't object to; work on thinking in a way that your love for yourself doesn't become fantasy; work on doing this in the course of regular life so that your adult self can keep the promise."
+   ],
+   "run": "HG27-fxw1",
+   "file": "fix-20261018/emu-r/HG27-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "\"occasionally\" (guards can occasionally sit down)",
+     "replace": "feel they can relax",
+     "with": "feel they can occasionally relax",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

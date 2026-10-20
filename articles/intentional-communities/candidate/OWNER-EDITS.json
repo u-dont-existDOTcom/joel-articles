@@ -1392,15 +1392,14 @@
   },
   {
    "id": "s2-joel-20261017-2137-46a",
-   "status": "pending",
+   "status": "applied",
    "words": "proposed",
-   "what": "Section 2: the anomie paragraph after his P2, with his screenshot and caption moved there from section 12, once section 2 reads 100% Human with it. Not yet: 421g (S2v34) and 422g (S2v34b) read AI windows (question 52). At 23:10 UTC it waits on his opening (52 a), which waits on question 56.",
+   "what": "Section 2: the anomie paragraph after his P2, with his screenshot and caption moved there from section 12, once section 2 reads 100% Human with it. Not yet: 421g (S2v34) and 422g (S2v34b) read AI windows (question 52). At 23:10 UTC it waits on his opening (52 a), which waits on question 56. Since 01:29 UTC on the 18th it waits on a Pangram check of section 2 with it (batch 428g), which waits on Pangram: the web app was signed out after his 01:29 message and the API key had no credits. In at 01:56 UTC on the 18th with his 01:29 first paragraph (428g, S2v36b): the anomie paragraph; the screenshot stays in section 12 (with it, 428g read one AI window, S2v36c).",
    "joel": "46a",
    "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
    "must_contain": [
     "What's starving them is anomie."
-   ],
-   "waits_for": "question 56"
+   ]
   },
   {
    "id": "s8-joel-20261017-2137-49",
@@ -1468,20 +1467,18 @@
   },
   {
    "id": "all-joel-20261017-2137-45a",
-   "status": "pending",
+   "status": "applied",
    "words": "his",
-   "what": "Accept the humanized article: master.md (fix-20261017d/make_master.py) becomes the registered master (fix-20261017d/promote.py, PROMOTION-RECEIPT-20261017.md) once 46 to 51 are settled; waits on section 2 (question 52). At 23:10 UTC it waits on section 2 (52 a and 46 a), which waits on question 56.",
+   "what": "Accept the humanized article: master.md (fix-20261017d/make_master.py) becomes the registered master (fix-20261017d/promote.py, PROMOTION-RECEIPT-20261017.md) once 46 to 51 are settled; waits on section 2 (question 52). At 23:10 UTC it waits on section 2 (52 a and 46 a), which waits on question 56. Done on 2026-10-18 after his 01:29 answers and batch 428g settled section 2: master.md is the registered master (PROMOTION-RECEIPT-20261017.md).",
    "joel": "45a",
    "when": "2026-10-17 21:37 UTC (joel-20261017/joel-20261017-2137-message.txt)",
-   "must_contain": [],
-   "waits_for": "question 56"
+   "must_contain": []
   },
   {
    "id": "s2-joel-20261017-2310-52a",
-   "status": "pending",
+   "status": "superseded",
    "words": "his",
-   "what": "Section 2: his opening as he wrote it (P1 and P2, with his 53 aside), the published link on \"the U.S. Surgeon General\" kept. Not in yet: his P1 with his P2 reads Human (425g, 0.05) and his P2 alone (0.13), but every version of the section reads one AI window, the heading and his first paragraph (50 words): 425g S2v35 0.22, S2v35b 0.30, S2v35c 0.27; 426g, his two paragraphs joined, 0.23 and 0.27. Question 56 asks for his rewording of the first sentence; question 55 is on the aside's fact.",
-   "waits_for": "question 56",
+   "what": "Section 2: his opening as he wrote it (P1 and P2, with his 53 aside), the published link on \"the U.S. Surgeon General\" kept. Not in yet: his P1 with his P2 reads Human (425g, 0.05) and his P2 alone (0.13), but every version of the section reads one AI window, the heading and his first paragraph (50 words): 425g S2v35 0.22, S2v35b 0.30, S2v35c 0.27; 426g, his two paragraphs joined, 0.23 and 0.27. Question 56 asks for his rewording of the first sentence; question 55 is on the aside's fact. At 01:29 UTC on the 18th his 56 a replaced the first paragraph and his 55 b the aside; the rest of his P2 is in (s2-joel-20261018-0129-56a-55b).",
    "joel": "52 this is human: ... 53 fixed (fact checked with gemini)",
    "when": "2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt)",
    "must_contain": [
@@ -1503,6 +1500,26 @@
    "when": "2026-10-17 23:10 UTC (joel-20261017/joel-20261017-2310-message.txt)",
    "must_contain": [
     "if they are known to be honest. And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed."
+   ]
+  },
+  {
+   "id": "s2-joel-20261018-0129-56a-55b",
+   "status": "applied",
+   "words": "his",
+   "what": "Section 2 v3.6: his first paragraph as he wrote it (56 a, with the published link on \"the U.S. Surgeon General\" and his bold on \"public-health\"), and his P2 from 23:10 with the aside of his 55 b. Installed on his own Pangram check of the section (\"it passes as human when first part is this\"); my checks (batch 428g) wait on Pangram.",
+   "joel": "55b / 56a: i checked the section, it passes as human when first part is this: \"Communes Are Hot Again 🔥 / Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again. Back in 2023, ironically, ...\"",
+   "when": "2026-10-18 01:29 UTC (joel-20261018/joel-20261018-0129-message.txt)",
+   "must_contain": [
+    "Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again.",
+    "Back in 2023, ironically, just the year after Covid lockdowns ended,",
+    "and it treated social connection as a public-health issue.",
+    "(the UN's rules for prisoners literally ban more than 15 days of it). Folks may disagree about politics",
+    "something about the current arrangement is starving them."
+   ],
+   "must_not_contain": [
+    "Or about the loneliness under it, at least.",
+    "is starvin’ them",
+    "(it's literally listed in the UN Convention Against Torture)"
    ]
   }
  ]

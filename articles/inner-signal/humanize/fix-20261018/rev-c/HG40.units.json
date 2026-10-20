@@ -1,0 +1,167 @@
+{
+ "key": "HG40",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-b"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix K: Sources and further reading"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "The views and opinions expressed here are solely those of the author. Be aware that this is a re-vised form of teaching the above mentioned practice. The following is a body orientated combined with the hypnotic approach as described below. This is merely how I have found it useful to adapt the practice. I do not claim that the process in its entirety has been validated. These notes are not required to be used during the practice."
+   ],
+   "run": "HG40-r1-s1",
+   "file": "fix-20261018/emu-b/HG40-r1-s1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Learning, entering, and returning"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Maggie Phillips and Claire Frederick in Healing the Divided Self (1995), pp 24-27, 45-50, 83-90, deal with some aspects of interactive hypnosis such as helping the subject learn how to use other senses in the learning process, developing self-hypnosis and also a definite way of getting back into hypnosis when required. It is more of a clinical book for professional hypnotists rather than a self-help one, so be careful about trying to introduce the case procedures described to yourself. Also be careful about taking the historical information at face value. Adam Eason, with Benjamin Parris, has an excellent article on self-hypnosis in this issue of ISH, dealing with self-directed learning and the question of another hypnotist and recordings."
+   ],
+   "run": "HG40-r1-s2",
+   "file": "fix-20261018/emu-b/HG40-r1-s2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Indirect language and re-entry cues"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "The section on pacing and utilization is based on pages 53 - 57 of Phillips and Frederick's book, and metaphor and associational cues is based on pages 96 - 100. The information on hypnotic language patterns and triggers is sourced from Nimja's tutorial on hypnotic language patterns , and his tutorial on triggers . Please note that while the information in this guide is based on that in these sources, it is not identical to it, and has been adapted for a slightly different purpose. This is not something that Nimja has written himself, and should not be considered to be his endorsement of this guide. It is important that the words used here be kept identical, and that the order in which they are presented ( the re-entry sequence ) be followed exactly."
+   ],
+   "run": "HG40-r1-s3",
+   "file": "fix-20261018/emu-b/HG40-r1-s3.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Body awareness and changing the amount of contact"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Note: Parts of this post draw heavily from several chapters in In an Unspoken Voice by Peter Levine, 2010, particularly chapters 5 and 7, but also from chapters 3 and 4 of Freedom from Pain by Levine and Maggie Phillips, 2012, and chapter 4 of Healing Trauma by Levine. They discuss key ideas of tracking, resources, titration, pendulation and the range of foci of attention, from sensation, imagery, behavior, emotion to meaning, in depth. Also, although movements and images are offered for trying out here, they are not offered with the presumption that this is what is “fixing” anything physiologically."
+   ],
+   "run": "HG40-r1-s4",
+   "file": "fix-20261018/emu-b/HG40-r1-s4.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Inner-child care and adult capacities"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "There is a lot more information on borrowed adulthood, how to love without trust, working on this both in practical and relationship terms, working on the spiritual aspects, working on differentiation, working on this together with another peer, etc. in the companion piece: Inner Child Self-Love Reparenting Guide"
+   ],
+   "run": "HG40-r1-s5",
+   "file": "fix-20261018/emu-b/HG40-r1-s5.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "The information here is based on Healing the Divided Self pages 148-153 and 171-174 for renurturing work, somatic work, how to get nurturing etc. For information on attunement and how each child is different and needs to be responded to differently, see Trauma Through a Child’s Eyes by Levine and Maggie Kline, particularly chapters 4, 5, 10 which talk about actual kids. This method is adapted from that book to working with adult feeling states. The idea of doing it with three adults and going into borrowed adulthood in a certain sequence is not something that they have tried."
+   ],
+   "run": "HG40-r1-s5",
+   "file": "fix-20261018/emu-b/HG40-r1-s5.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Inner speech and putting experience into words"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "It’s worth noting at this point that the study that Nedergaard and Lupyan reference in their Not Everybody Has an Inner Voice (2024) was not investigating different adaptations of self hypnosis, but rather it was investigating people who reported having different amounts of inner speech. Thus, the questions in Quick start are not intended to be any sort of validated screening or test for ability to do self hypnosis, but merely a practical way to see if the ideas in this book are something worth trying out for yourself."
+   ],
+   "run": "HG40-r1-s6",
+   "file": "fix-20261018/emu-b/HG40-r1-s6.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Memory, support, and choosing a practitioner"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Here are some links that may be useful. Chapter 7 of Barbara Oleah Levine's \"Trauma and Memory\" (2015) has a helpful discussion of this topic. The US Veterans Administration website has a good overview of hypnosis that includes some cautions about strong reactions and the potential of false memory creation: Here is a website from the American Society of Clinical Hypnosis (ASCH) that explains what hypnosis certification means. It is important to note that this is not a certification of competence: The links that already exist in the \"Evidence and Hypnosis Specialists\" sections also have some good information."
+   ],
+   "run": "HG40-r1-s7",
+   "file": "fix-20261018/emu-b/HG40-r1-s7.out.txt"
+  }
+ ]
+}

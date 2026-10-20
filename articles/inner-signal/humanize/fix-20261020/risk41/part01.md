@@ -1,0 +1,88 @@
+This guide has an app coming soon! Working hard!
+
+Subscribe now
+
+# How to use this very large guide
+
+To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. You can also look at the daily and weekly sections to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.
+
+Share
+
+# The table of contents is hiding on the left
+
+Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend.
+
+# Introduction
+
+Hello Lovey Bunny!
+
+Have you ever realized that you were born with an incredible brain/mind that has many layers of consciousness: dream, protect, analyze, imitate, love, remember, hide, show, heal, etc, etc?
+
+Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, supress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind, body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
+
+While a lot of the teachings on hypnosis talk about the ‘subconscious mind’ like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.
+
+I teach a self-hypnosis method that allows you to gather all of your attention and have your conscious mind, subconscious mind, body mind, inner child mind, protector part minds, adult mind and Higher Self be able to all hear and talk to each other.
+
+“How do I do this?” you ask. Just listen. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic ‘trance experience’ to demonstrate the results of all parts of your mind talking to each other and trusting each other more.
+
+I like to think of it like a ‘communion’ between all parts of our mind, where the conscious mind doesn’t have to shout from the roof top and the subconscious mind doesn’t have to manifest symptoms, dreams, cravings, day dreams and weird body signals in order to communicate.
+
+I work with the subconscious as if it were a ecology, and often begin hypnosis working with the Higher Self (universal heart) and only separate into parts when needed. I combine this with inner child reparenting (a clever suggestion won’t heal a hurt young part), and also aspects of prompt engineering, as well as helping people to be literate in the domain of what’s hypnotizing them.
+
+# Quick start: do this first
+
+To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply do these steps, in order: 1) Attention; 2) Notice; 3) Offer one fitting response; 4) Wait; 5) Come all the way back . Not much needs to happen in each session!
+
+Prior to your first session, read through the induction and the full return in waking life, so you’re more familiar with it. Give yourself a chunk of time when you can be physically secure for the time it takes. Prior to each session, consider what one thing you’re going to be working on or cultivating during this session, and what you’re going to leave alone. Put this screen on the shelf and conduct the practice.
+
+You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return. After, note what happened & any real-world actions.
+
+If at any point you feel panicky, disoriented, more unreal, or less functional, this is not about bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support.
+
+## Do you usually think in words?
+
+Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary when you plan, remember, reflect, or feel upset? If it doesn't come naturally, can you make yourself think in words, silently? (Thinking in words doesn't mean you hear them.)
+
+This doesn't mean that in any given moment you may not notice feelings before words. You don’t have to decide that feelings always come first. This isn't a diagnosis, just a way of finding what's useful. "Not sure" is an answer.
+
+If you don't normally think in words, you may want to say things aloud, in writing, on a recording, etc., when this guide says "say." Or, just do what it invites, without preparing what you're going to say. When it says "ask" the child or protector, or "listen" for a response, it doesn't mean they'll be saying full sentences to you. It also doesn't mean you'll get pictures in your head instead. Just do whatever you can, and try different ways as needed.
+
+# What I mean by hypnosis
+
+APA Division 30 commonly defines hypnosis as focused attention, reduced peripheral awareness, and increased responsiveness to suggestion. That’s basically true, but there’s a lot more than meets the eye. In fact, hypnosis is such a broad and common type of altered state that it’s hard to confine it to one use. But I’m using hypnosis here as a therapy.
+
+And hypnosis as a therapy is as old as time itself. While the modern technique of it was discovered by Franz Anton Mesmer in the 1770s, shamans have been using dancing, music, and drugs to induce hypnosis for therapeutic purposes forever. We enter into trance states every night which resemble hypnosis as we go to sleep and as we wake up as well. Those states can also be used for deep therapy.
+
+# Protecting Yourself from Hypnotists
+
+Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.
+
+Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+
+Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?
+
+As associated with the Silva “Mind Control” method:
+
+“If you don’t learn to control your mind, someone else will!”
+
+As you're certainly aware there are many, many forces at work in the world that are already training your mind. With self-hypnosis you can do much of the same thing from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.
+
+Double click to interact with video
+
+# The Most Extreme Example
+
+I can tell you one shocking personal story that will make you never trust hypnotists again who maintain that you can’t be manipulated through hypnotism:
+
+My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ability to get anyone to strip naked and have sex with him within 3 seconds, even via phone call. How is this possible? The only way it could be possible, that I know of, is if people are already hypnotized by mass media/devices with a trigger word that is known by the elites.
+
+
+Under no circumstances allow a strong state, charismatic individual, sexual charge, spiritual claim, or other authority to replace the adult part of yourself. All legitimate forms of influence can stand up to questions, sleep, boundaries and time.
+
+# Affirmations Done Right
+
+My dad always said: “Always, and in everything, expect the very best. But be prepared to take what you get. The best might come afterwards.” That’s a better affirmation than what most people think of as affirmation, because it’s not telling you something which you know to be false in the present. If you say “I am beautiful” but you know that’s not true, then you’re challenging your beliefs, and if you’re challenging your beliefs you should have some argument or reason why they are wrong, otherwise it’s bullying.
+
+Another quote I use all the time from my dad… when someone asks me “How’s it going?” I say “Better & better!” This really confuses a lot of people. Some think it’s amazing that I’m always doing better. Some ask if I was sick or something. But it’s doing multiple jobs. On the one hand, it’s deflecting from the fake question because most people don’t actually want to hear how you are doing in detail anyway. On the other hand, more importantly, it’s reprogramming your mind to remove you from tunnel vision. You might be sad now, but if you say, “I am sad” then you’re subtly identifying with the sadness and it keeps you stuck. It’s best to say, “I’m feeling sad now, but I’m doing better and better, every day, in every way!” That’s more like a *mission statement* than a historical analysis. Although you can also re-evaluate your history as lessons to make that true.
+
+Try it out right now and see how it feels!

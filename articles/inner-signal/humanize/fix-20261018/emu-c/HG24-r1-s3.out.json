@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG24-r1-s3.txt",
+  "input_words": 65,
+  "input_sha256": "34815f652a864b5702c9fc37943b1a80c202273448bf8fb555a525d925b8dfbd",
+  "balance_before": 139111,
+  "started_utc": "2026-10-18T03:04:02Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:09Z",
+  "response": {
+    "id": "13a2fa4d-2dc6-4080-9b92-a09c9004326c",
+    "tool": "humanize",
+    "text": "There may not be an answer. There may not be a helpful answer. It may be that this isn’t a helpful question to ask at all, and you need to try a different one, or rest, or finish. But if you do sense that there’s something you need to consider about trust, what if you asked:\n\n“What would you need to know in order to trust me?”\n\nYou might be surprised by how profoundly un-mystical the answer is. “I need to know you’ll set a boundary.” “I need to know you’ll follow through.” “I need to know you’ll stop leaving.” “I need to know you’ll stop telling me that what I’m asking for isn’t actually what I need.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 65
+    },
+    "elapsed": 6
+  },
+  "balance_after": 139005
+}

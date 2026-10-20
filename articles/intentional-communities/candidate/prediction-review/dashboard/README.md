@@ -1,5 +1,7 @@
 # Prediction Scorecard
 
+**Frozen since 2026-10-20.** The scorecards are Markdown in Git now: this lane's `candidate/SCORECARD.md` and, for every lane, `state/PANGRAM-SCORECARD.md`, built by `tools/humanization/pangram_ledger.py` from the lanes' ledgers and these rows. This page computed its numbers in its own script and kept its data in a store only its publishing account can open, so Joel couldn't see it from his other account (2026-10-20 22:01 UTC: "i agree the scorecards should be on github, that should have been obvious ... we can't keep having misses like this where i'm lost when i move from one acct to the other"). Don't update the page; what follows is its history.
+
 The page: https://claude.ai/artifact/Sjpy4EiZGUa21iiMstDLPv, a Dashboard-type artifact. Only the Claude account that published it can republish it.
 
 Its content lives in the artifact's own store (the ArtifactData tool), not in published files: `dash/meta` (`{title}`),
@@ -11,7 +13,8 @@ upload that had since been deleted (its `data/users/me/runs` document said "Coul
 
 - To rebuild after a turn with Pangram checks: `python3 prediction-review/scorecard.py prediction-review/prediction-calls.json`
   (from the candidate folder). It also writes `prediction-calls-rows.json`, one row per check (batch, the check's id as `text`,
-  section, my call, Pangram's result, why, an excerpt, `right` and `passed` as 1 or 0), the shape the page counts.
+  section, my call, Pangram's result, why, an excerpt, `right` and `passed` as 1 or 0; since 2026-10-18 also `said_human`, the check's
+  `kind` from its batch's GATE.json, and `chance` when the PREDICTIONS table has a chance column), the shape the page counts.
 - Upload that file to the artifact as an asset (the Artifact tool's publish with `asset: true`), then an ArtifactData `update` of
   `datasets/calls`, pinned to its version: `source.url` the new asset's url as it came, `source.name`, and `updated` (`at`: the
   last check's Pangram time, `by`: who, through which batch). `ds-calls.json` here mirrors that document.
@@ -19,3 +22,31 @@ upload that had since been deleted (its `data/users/me/runs` document said "Coul
   empties the page.
 - After Joel opens it, `data/users/me/runs` (ArtifactData `get`) says whether the dataset loaded.
 - Joel, 2026-10-12 17:23 UTC: "regarding the prediction misses file i also don't know where that is, keep that updated i want to see you improving on that or if you need help lmk i can tell you why stuff sounds human or AI."
+
+- The page (`files/index.html` in the store; `index.html` here): since 2026-10-18 it also shows the always-Human bar, how often I said
+  Human, and a panel of my rewrites' first-check pass rate and sections' pass rate per ten batches. To change it, edit `index.html`
+  here, test its calculations with the rows in Node (`node test_calcs.js` here mocks `dash` and runs every `dash.calc` on the rows), then an
+  ArtifactData `update` of `files/index.html` (`{text}`), pinned to its version.
+
+- 2026-10-18 (hypnosis guide lane, after 440g): the rows now hold both lanes (`lane`), the page has a panel of my chances
+  (the Brier score by lane, a calibration table by bins of my chance) and of the hypnosis guide's Emulate screens per batch
+  (`files/index.html` version 3, `datasets/calls` version 12, asset `/_blob/350ec5e0c68e2f108918e2eb5cee830a`). The
+  asset it replaced, `/_blob/44b7cc69fd5868d86493664675de4327`, is no longer referenced and can be deleted (deleting
+  asks the person to confirm, so it was left for a session with Joel there).
+
+- 2026-10-18 (after 445g): `datasets/calls` version 13 points at asset `/_blob/bbc181a3ac210712a8ed29ec0a891941`; the one before it,
+  `/_blob/350ec5e0c68e2f108918e2eb5cee830a`, and the older `/_blob/44b7cc69fd5868d86493664675de4327` are no longer referenced (deleting
+  asks the person to confirm, so they were left).
+
+- 2026-10-18 (after 454g): `datasets/calls` version 14 points at asset `/_blob/263b97231897d81090b1ce642e9505c7` (2,457 rows, 552 of
+  them the hypnosis guide's); `/_blob/bbc181a3ac210712a8ed29ec0a891941` and the two older ones are no longer referenced (deleting
+  asks the person to confirm, so they were left).
+- 2026-10-18 (after 458g): `datasets/calls` version 15 points at asset `/_blob/0a8f6088f9bf9d17760ed8386061c004` (2,682 rows, 777
+  of them the hypnosis guide's); `/_blob/263b97231897d81090b1ce642e9505c7` and the older ones are no longer referenced (left for a
+  session with Joel there, since deleting asks him to confirm).
+- 2026-10-18 (after 462g): `datasets/calls` version 16 points at asset `/_blob/ede7ac8de484407a62c4dbdca0ff1b03` (2,808 rows, 903
+  of them the hypnosis guide's); `/_blob/0a8f6088f9bf9d17760ed8386061c004` and the older ones are no longer referenced (left for a
+  session with Joel there, since deleting asks him to confirm).
+- 2026-10-18 (after 466g): `datasets/calls` version 17 points at asset `/_blob/de337221cd4c2df578a6a6880b8a47c1` (2,849 rows, 944
+  of them the hypnosis guide's); `/_blob/ede7ac8de484407a62c4dbdca0ff1b03` (version 16) and the older ones are no longer referenced
+  (left for a session with Joel there, since deleting asks him to confirm).

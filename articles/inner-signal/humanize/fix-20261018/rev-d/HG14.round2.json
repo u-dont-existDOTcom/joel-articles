@@ -1,0 +1,177 @@
+[
+ {
+  "block": 12,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the least cruel response you can believe",
+    "replace": "imagine the least cruel thing you can.",
+    "with": "start with the least cruel response you can believe.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 23,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "when a younger you becomes the defendant (a picture, not an exercise in court); what they understood then; options they could see and tolerate",
+    "replace": "Imagine that you are in court and the defendant is a younger you. Would it be of any value",
+    "with": "When a younger you becomes the defendant in your own head, would it be of any value",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "what they understood then",
+    "replace": "try and understand why you did whatever it was you did?",
+    "with": "try and understand what you understood back then?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "options they could see and tolerate",
+    "replace": "what options you felt you had?",
+    "with": "what options you could see and tolerate?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 25,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "a physical connection to love (not 'your heart is full of love')",
+    "replace": "Remember your heart is there and it’s full of love.",
+    "with": "That hand is a physical connection to love.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 29,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the Nurturer brings warmth (B32's 'that warmth' needs it)",
+    "replace": "One of the most important things you can do as a Nurturer is to enjoy your inner child.",
+    "with": "As a Nurturer, you bring warmth, and one of the most important things you can do is to enjoy your inner child.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 33,
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "Emulate's placeholder 'x': adult consequences",
+    "replace": "I won’t put you in the position of having to deal with x ",
+    "with": "I won’t leave you alone with adult consequences",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 35,
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "Emulate's placeholder 'X': a practical barrier",
+    "replace": "lack of X,",
+    "with": "a practical barrier,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "small enough to carry out; review what actually happened",
+    "replace": "Make sure they are attainable.",
+    "with": "Make sure they are small enough to carry out, and look at what actually happened.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 49,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "keep the promise",
+    "replace": "holding back from sending a text, or sleeping,",
+    "with": "holding back from sending a text, keeping the promise, or sleeping,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 58,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "discernment that acts when needed and quits scanning after the danger has passed",
+    "replace": "and to quit scanning the room after taking appropriate action.",
+    "with": "that acts when needed, and to quit scanning the room after the danger has passed.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 60,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the child may arrive (not 'summon')",
+    "replace": "you might summon the child",
+    "with": "the child may arrive",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 63,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "warmth (not 'warm yourself by a fire')",
+    "replace": "Need to warm yourself by a fire?",
+    "with": "Need warmth?",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 65,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "no part has to forgive",
+    "replace": "go away, or be happy,",
+    "with": "go away, forgive, or be happy,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "good as you: more supported and connected, still recognizably yourself; not as if history should disappear",
+    "replace": "Your aim is not to make it all good as new but good as you.",
+    "with": "Your aim is not to make it all good as new, as if your history should disappear, but good as you: more supported and connected, and still recognizably yourself.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ }
+]

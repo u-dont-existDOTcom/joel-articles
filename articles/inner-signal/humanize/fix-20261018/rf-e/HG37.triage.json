@@ -1,0 +1,216 @@
+{
+ "key": "HG37",
+ "fixes": [
+  {
+   "block": 1,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B1: LOST the practical question's criteria (safer, clearer, more loving, more grounded, less hooked); 'best way' was left undefined; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
+     "replace": "what is the best way to deal with them",
+     "with": "what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 6,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT script line 'adult self remains present' became 'adult part is always welcome', and 'body may return to safety' became 'so is my body' (safety dropped)",
+     "replace": "is always welcome, and so is my body",
+     "with": "is still here, and my body can return to safety",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 10,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B10: SHIFT 'stable enough to stay present' became 'feel like you can deal with it' (the condition for going on)",
+     "replace": "you can deal with it",
+     "with": "you’re stable enough to stay present",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST hand on heart 'if that feels welcome' (now a plain instruction)",
+     "replace": "Put your hand on your heart, breathe",
+     "with": "Put your hand on your heart if that feels okay, breathe",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "REPEAT",
+     "what": "R: check in with yourself about what to do, said twice in the first paragraph (published says it once); the second one replaced by the lost 'keep the room available' (B10 LOST)",
+     "replace": "check in with yourself about what to do in this situation",
+     "with": "stay aware of the room",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST 'keep my boundary either way' (warm or at arm's length)",
+     "replace": "or to keep it at arm’s length.",
+     "with": "or to keep it at arm’s length, and keep your boundary either way.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST 'return to the body and room' after stopping",
+     "replace": "stop trying to deal with it.",
+     "with": "stop trying to deal with it and return to your body and the room.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B10: INVENTED 'work with it as if it were a protector, at least for now' (it also cuts against the no-verdict caution); also B10: LOST 'neither response establishes its origin; a comforting response doesn't prove an interpretation'",
+     "replace": "but work with it as if it were, at least for now",
+     "with": "but whether warmth or distance helps, that doesn’t prove what it is",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 15,
+   "problems": [
+    {
+     "type": "WRONG",
+     "what": "B15: WRONG 'only becomes a center of attention if you hate it' (fear gives it center stage, hatred the hook; 'only' added); also B15: UNCLEAR the sentence breaking off at 'out of fear', since the claim that fighting from fear puts it at the center of attention is now stated right after it; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
+     "replace": "It only becomes a center of attention if you hate it and therefore give it a hook in you.",
+     "with": "It becomes a center of attention if you fear it, and if you hate it you give it a hook in you.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B15: LOST 'pride gives it an opponent' and 'panic gives it the nervous system'; also B15: UNCLEAR the parenthetical 'To counter pride, or to feel you must panic and defeat it'; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
+     "replace": "To counter pride, or to feel you must panic and defeat it.",
+     "with": "If you’re proud you give it an opponent, and if you panic you give it your nervous system.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 19,
+   "problems": [
+    {
+     "type": "REPEAT",
+     "what": "R: the presence needs to respect your boundaries, in B19 and B19 (both sentences of its second paragraph); published says it once (Use love with a boundary), the first mention cut",
+     "replace": "welcome it and that it needs to respect your boundaries.",
+     "with": "welcome it.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 28,
+   "problems": [
+    {
+     "type": "REPEAT",
+     "what": "R: the dishes-and-room test and \"I don't need it\", in B28 and B28 (first and second script paragraphs); dishes-and-room said once in the published script, so the second mention is replaced by \"in my everyday life\" (keeps the ordinary-life anchor of the B28 SHIFT finding); the closing refrain stays",
+     "replace": "useful, and take care of my dishes and my room,",
+     "with": "and useful in my everyday life,",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 32,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B32: LOST \"without surrendering the boundary\" (only \"maintain a presence of love\" remains); the closing summary of the practice (love with a boundary) needs it",
+     "replace": "of love while also making",
+     "with": "of love without giving up your boundaries, while also making",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "REPEAT",
+     "what": "R: I don't want you to become hobbyists, in B32 and B32 (second and last sentences); published says it once, the middle sentence cut and the last kept (it follows the training sentence as in the published); march-r (2026-10-18): cutting the middle sentence lost the paragraph's one break, so the last sentence is cut instead and the break (\"I just don’t want you to do that.\") kept",
+     "replace": "harder to hook. Beyond that, I don’t want you to be hobbyists in this area.",
+     "with": "harder to hook.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B1: LOST trauma, dissociated energy and ancestral burdens as possible explanations (\"relational\" narrowed to \"previous relationships\")",
+   "why": "list shortened; 'manifestations of your mind' and 'burdens' still give the non-literal options next to 'literal demons'"
+  },
+  {
+   "finding": "B6: SHIFT \"psychosis-like fear\" became \"feel you're going psychotic and are afraid of it\"",
+   "why": "same trigger reworded: still ends the session and says get real-world help; paranoia and loss of function are separate triggers"
+  },
+  {
+   "finding": "B10: SHIFT \"sense of trying to protect something\" became \"need to protect yourself from it\"",
+   "why": "cue wording only; the instruction (call the Nurturer when vulnerable) is intact"
+  },
+  {
+   "finding": "B10: SHIFT \"becomes more frightening\" became \"if you don't feel better\"",
+   "why": "wider trigger that includes things getting more frightening; stop instruction kept (return to body and room restored in the fix)"
+  },
+  {
+   "finding": "B10: SHIFT \"protective part needn't reveal its fear quickly\" became \"you may not be able to comfort it quickly\"",
+   "why": "same 'don't expect it quickly' point, reworded; no safety content"
+  },
+  {
+   "finding": "B10: LOST criteria \"clearer, steadier, less hooked\" (now just \"helpful\")",
+   "why": "criteria restored in the B1 fix; 'helpful' here is shorthand for that same question"
+  },
+  {
+   "finding": "B10: LOST \"love and boundaries don't require a verdict first\"",
+   "why": "'you don't have to know what it is / where it comes from' kept twice; boundary restored in the B10 boundary fix"
+  },
+  {
+   "finding": "B19: LOST chest \"open but not exposed\" (now just \"open your chest a little\")",
+   "why": "posture detail; \"a little\" keeps the opening moderate"
+  },
+  {
+   "finding": "B19: SHIFT wish for all suffering to return to the space where it belongs became a demand that \"this suffering\" go back where it came from, aimed at the presence",
+   "why": "tone of the script; compassion and the closed door are both kept"
+  },
+  {
+   "finding": "B28: LOST contrast that these presences don't always attack through fear but seduce through importance (and \"altered-state imagery\")",
+   "why": "framing; seducing through importance (special, cosmic info, mission, dishes beneath you) and the reply to the imagery are kept"
+  },
+  {
+   "finding": "B28: UNCLEAR \"may try to respond by\" (respond to what?)",
+   "why": "reads as a response to the boundary just set; the reader does the same thing"
+  },
+  {
+   "finding": "B28: LOST \"tomorrow morning\" and \"simple, honest act of care\" in the test",
+   "why": "the test is kept (info must help with dishes, room, honesty, promises, rest); the list of acts carries 'act of care'"
+  },
+  {
+   "finding": "B28: SHIFT \"make ordinary life more beautiful…\" became \"help me be more beautiful…\"",
+   "why": "wording; the repeat fix adds \"in my everyday life\" to the same sentence"
+  },
+  {
+   "finding": "B28: LOST \"reliable\" and \"useful to other people\" (now just \"useful\")",
+   "why": "\"keep my promises\", \"be more helpful\" and \"relational\" carry them"
+  },
+  {
+   "finding": "B32: INVENTED \"some of you may be tempted to make this an area of hobbyism\"",
+   "why": "author's aside that fits \"not trying to turn anyone into an entity hobbyist\"; claims nothing new"
+  }
+ ],
+ "resample": [],
+ "from": "rf-e/HG37.triage.part1.json + part2"
+}

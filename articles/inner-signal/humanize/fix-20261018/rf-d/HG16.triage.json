@@ -1,0 +1,79 @@
+{
+ "key": "HG16",
+ "fixes": [
+  {
+   "block": 2,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B2: SHIFT \"often arrives with\" became \"you are likely being manipulated if you feel any\" (a sign that often comes with manipulation became a diagnosis)",
+     "replace": "You are likely being manipulated if you feel any of the following",
+     "with": "Manipulation often comes with any of the following",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 3,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B3: SHIFT \"immediately\" and \"automatic\" dropped, now flat \"don't obey, don't rebel\" (qualifiers restored; the section itself says no remains no)",
+     "replace": "Don’t obey, but don’t rebel",
+     "with": "Don’t obey immediately, but don’t rebel automatically",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 11,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B11: SHIFT \"can slip past\" became \"a very effective way to by-pass\" (a possibility made a strong claim)",
+     "replace": "are a very effective way to by-pass",
+     "with": "can by-pass",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B5: SHIFT last example, \"doubt proves your ego is afraid\", became \"ego does not want you to believe\"",
+   "why": "example in a list of sample lines; still blames the reader's doubt on the ego, the same trick"
+  },
+  {
+   "finding": "B6: LOST grammar assumes conclusion, turns resistance into proof, obedience feels like awakening",
+   "why": "gloss on the example lines; B4's three patterns, the examples themselves and the questions that follow carry it, and a restore would change over a quarter of this short stretch"
+  },
+  {
+   "finding": "B6: INVENTED \"if you are unsure\" lead-in to the questions",
+   "why": "transition into the questions; claims nothing new, and the next stretch says to use them more as the state gets stronger"
+  },
+  {
+   "finding": "B7: SHIFT \"choice framed as inevitable\" and \"accept this frame\" became \"choice I am given\" and \"comply\"",
+   "why": "question wording, same use; the B4 stretch keeps the \"only one choice\" framing"
+  },
+  {
+   "finding": "B8: SHIFT \"a useful guide leaves the adult self more present\" became \"these questions engage your adult\"",
+   "why": "same idea in plainer words: a good guide engages your adult"
+  },
+  {
+   "finding": "B8: LOST \"stronger boundaries\", now \"make use of these\" (the questions)",
+   "why": "caution kept in the same proportion: the more powerful the state, the more you need these (the questions are the boundary check)"
+  },
+  {
+   "finding": "B14: LOST why it binds: uncertainty becomes invisible success that cannot be checked",
+   "why": "the warning sign is still named, and the item before it gives the same bind (whatever the subject says counts as success); the why is a gloss"
+  },
+  {
+   "finding": "B20: SHIFT \"soothing voice\" now tied to \"no\", not to silence and uncertainty",
+   "why": "both points kept (no stays no; silence and not knowing what to say do not mean yes); only the nice-voice clause moved"
+  }
+ ],
+ "resample": []
+}

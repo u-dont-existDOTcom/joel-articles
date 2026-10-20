@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG24-r1-s5.txt",
+  "input_words": 116,
+  "input_sha256": "93ad4ac74c407d725b549488680001bcf1ab636cffdf8b00abf5be1c58935b1d",
+  "balance_before": 138875,
+  "started_utc": "2026-10-18T03:04:17Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:25Z",
+  "response": {
+    "id": "c2f222a4-a4ed-4536-a83a-3a85d44136fa",
+    "tool": "humanize",
+    "text": "Figure out whether your anxiety is manageable and you want to allow it to continue or whether you need to do something to reduce it. If it’s escalating or overwhelming, stop whatever you’re doing to help your body first.\n\nWhere are your feet? Your chair? Focus on your breath. Be with your body in the room.\n\nTalk to your Little and Protector parts: “Little one, I’m here for you. Protector, I know you’re trying to protect me. Thank you for letting me know. Do you need me to do something? If so, what? If not, can you let my body know it can stand down?”\n\nIf your anxiety is causing you to have chest pain, faint, have suicidal thoughts, become psychotic or manic, severely dissociate, not sleep, or makes you want to hurt yourself or someone else, get help from a professional. For a longer list of ways to work with anxiety, see the toolbox in Appendix D.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 116
+    },
+    "elapsed": 8
+  },
+  "balance_after": 138759
+}

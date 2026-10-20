@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s2.txt",
+  "input_words": 81,
+  "input_sha256": "033aa6dd5b60ad5be2cffc8f7de1e1cf5c4997391f75cc23d6bdc422b1c5ace2",
+  "balance_before": 131561,
+  "started_utc": "2026-10-18T03:12:01Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:09Z",
+  "response": {
+    "id": "a9cea8c6-aa07-420e-8e28-ca9e9574b7bb",
+    "tool": "humanize",
+    "text": "When it works, it works on a Sensory Level of NLP: changing where people see or hear an image, the distance or size or brightness, the volume of a sound, the posture of a remembered person, the pressure of an unpleasant sensation.\n\nSecond, it works on a State Level of NLP: helping them to access warmth, or a feeling of adult-ness, or courage, or steadiness, or love, or clarity.\n\nThird, it works on a Strategy level of NLP: helping people to practice a new strategy.\n\nFourth, it works on a Language Level of NLP: pacing what is there, opening up people’s awareness, presuming their ability to do something safe, linking cause and effect in new ways, embedding suggestions, or asking de-hypnotic questions to break the effects of vague, absolutes, manipulative, or grandiose language.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 81
+    },
+    "elapsed": 8
+  },
+  "balance_after": 131480
+}

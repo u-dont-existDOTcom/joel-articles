@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG31-r1-s5.txt",
+  "input_words": 41,
+  "input_sha256": "37aa4e5306ddaa8a6775f5f87371076809add77324df8db25fed30d6c221e85f",
+  "balance_before": 127654,
+  "started_utc": "2026-10-18T03:33:18Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:33:24Z",
+  "response": {
+    "id": "179d1f97-1c25-4352-ae19-471d36d6353a",
+    "tool": "humanize",
+    "text": "What’s the purpose of Awareness Verbs? To help with awareness, obviously! But how? The easiest way to explain is probably through an example. So, let’s say that after a question, instead of saying ‘Take a moment to think about it’, instead, using one of the Awareness Verbs from the list at the bottom, perhaps it could be ‘Take a moment to notice the answer’. Or even, ‘notice what form the answer takes’. What difference does it make?\n\nHere is a list of Awareness verbs: Notice Realize Recognise Sense Feel Wonder Imagine Picture Listen Allow Discover Remember Consider",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 41
+    },
+    "elapsed": 6
+  },
+  "balance_after": 127613
+}

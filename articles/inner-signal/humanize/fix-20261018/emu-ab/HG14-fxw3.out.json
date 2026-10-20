@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ab/HG14-fxw3.txt",
+  "input_words": 334,
+  "input_sha256": "05284f6bd5547d615aa4b0ea6801180b67421eeccec4734067e63172bc93337e",
+  "balance_before": 91857,
+  "started_utc": "2026-10-18T06:50:28Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:50:46Z",
+  "response": {
+    "id": "820031b1-43af-4232-ad7b-2c55acbac70c",
+    "tool": "humanize",
+    "text": "The Nurturer\n\nThe Nurturer: Some of the work you can do as the Nurturer is to enjoy your inner child. You don't have to move their feelings, just sit back and enjoy them. Be happy that they are there. Children need to be enjoyed! Say things to your inner child like:\n\nIt's okay to feel the way you're feeling.\n\nI want you to know that I'm here for you.\n\nYou don't need to do anything right now.\n\nIt's okay. You're not too much. You can be small here.\n\nYou can be angry here.\n\nYou can be sad here.\n\nThe Protector:\n\nAs the Protector, work with setting boundaries together. They can be simple like, \"I'm going to leave this conversation because it's not safe\" or \"I'm going to stop texting the person who destabilizes me.\" It can be self-care boundaries like, \"I'm going to eat\" or \"I'm going to get some sleep.\" It can be trust-related boundaries like, \"I'm going to keep the promise to myself\" or \"I'm not going to leave you to do adult things by yourself.\"\n\nA lot of times, inner child work doesn't work because people are doing all the fluffy stuff but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing. You build trust by being able to do adult things.\n\nIf it's hard to bring up the warm stuff, you can always do something to protect your inner child. Make sure they're small enough that you can actually do them. If you're not able to, figure out what's getting in the way of you doing them. Are you scared? Tired? Do you not know how to? Is there a practical thing that's getting in your way? Have you set yourself up to do it in a way that's likely to be successful? Don't make it so that doing it successfully is having to feel good about it, or being able to check it off a list.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 334
+    },
+    "elapsed": 17
+  },
+  "balance_after": 91523
+}

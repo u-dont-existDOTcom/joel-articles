@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG32-f-s6.txt",
+  "input_words": 61,
+  "input_sha256": "109221e8e2124b7b32fc70c620dbb0a14822931248520981adbeb3a62b161655",
+  "balance_before": 128784,
+  "started_utc": "2026-10-18T03:25:21Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:25:25Z",
+  "response": {
+    "id": "5062aab4-938f-437b-a839-5859396961fd",
+    "tool": "humanize",
+    "text": "Do they tell first, rather than sneak in fractionation, cues, later behavior or memory effects?\n\nAre they exploiting body sensations?\n\nDo they carefully restore all aspects of identity, movement, orientation and critical ability and tell explicitly the session is over when coming out?\n\nIf in doubt on any of these, come fully out of it, ask to see a copy of the script, change to a different method, or stop altogether.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 61
+    },
+    "elapsed": 4
+  },
+  "balance_after": 128723
+}

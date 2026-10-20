@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s9.txt",
+  "input_words": 151,
+  "input_sha256": "15170f6f17d5657d2c5256bbe382d5da7e219d6d9d1f87acada239605874a55a",
+  "balance_before": 128345,
+  "started_utc": "2026-10-18T03:32:24Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:32:32Z",
+  "response": {
+    "id": "2be1d06d-f152-4f29-abd6-af7abf0a72a5",
+    "tool": "humanize",
+    "text": "This is most useful after you have already opened yourself to a state, through loveyhuasca, meditation, lucid dreaming, dealing with grief, listening to music, prayer, engagement with erotic energy, exhaustion, or being overwhelmed by beauty. This is to stabilize your state, not to make it stronger.\n\nI already have an open state, now I want to aim that open state and make it stronger.\n\nLook around you, orient yourself to where you are, what date it is. Focus on the physical sensation of squeezing your thumbs against your index fingers, feel the friction.\n\nNow, I will only allow myself to go as far as I can integrate. My body will be safe, my adult self is here, my inner child doesn't have to do this alone.\n\nNow, tell me the next thing I need to know, in symbols, feelings, questions, actions, in doses that I can integrate.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 151
+    },
+    "elapsed": 8
+  },
+  "balance_after": 128194
+}

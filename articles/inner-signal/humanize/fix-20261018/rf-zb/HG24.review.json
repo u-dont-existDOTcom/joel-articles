@@ -1,0 +1,38 @@
+[
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B5: SHIFT \"isn't, by itself, resistance or missing capacity\" became \"doesn't matter\" that you lack an inner voice (the rewrite rules out a missing capacity that B8 allows)",
+    "replace": "it isn't about not having",
+    "with": "it isn't necessarily about not having",
+    "round": 1,
+    "from": "second reader of the emu-as sample (rf-za/HG24.oc), triaged"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B5: INVENTED the protective part protects you \"from doing this\" (the published text asks what it protects from)",
+    "replace": "a part that is protecting you from doing this, so",
+    "with": "a part that is protecting you, so",
+    "round": 1,
+    "from": "second reader of the emu-as sample (rf-za/HG24.oc), triaged"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "R: borrow what you need (warmth, boundary, direction), in B8 and B8",
+    "replace": "Borrow what you need, e.g. warmth, boundary, direction etc.",
+    "with": "What you need might be warmth, boundary, direction etc.",
+    "round": 1,
+    "from": "second reader of the emu-as sample (rf-za/HG24.oc), triaged"
+   }
+  ]
+ }
+]

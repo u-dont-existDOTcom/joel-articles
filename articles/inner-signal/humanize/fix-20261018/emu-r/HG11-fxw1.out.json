@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-r/HG11-fxw1.txt",
+  "input_words": 232,
+  "input_sha256": "043d4962ace179b7c31bbae009198ff9ee8a2a591993b25a293056c6e5781d72",
+  "balance_before": 108237,
+  "started_utc": "2026-10-18T05:14:55Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:15:08Z",
+  "response": {
+    "id": "3f29a659-e9ad-4979-97b7-1b92293b2c92",
+    "tool": "humanize",
+    "text": "Forget the left-brain/right-brain cartoon\n\nI use the expression ‘syncing the hemispheres’ but don’t want to over interpret what is going on neuroscientifcally. A huge study of resting state fmri scans of 1011 people does not support the common pop neuropsych notion that people in general are left or right brained. But there is evidence for lateralisation of some functions or networks.\n\nLet’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … It’s not an electoral process. Nobody needs to win!\n\nThe mind of love and the mind of analysis can BOTH be there - warmth and brightness. The mind of intuition and the mind of rationality can BOTH be there - intuitive signals and testing of those signals without dogma or killing them. The body can have a voice - saying yes or no or not yet. The imagination can have opened up the field and then the adult can choose what to do next in the real world…. It can be peaceful but also precise.\n\nWithout the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these ‘modes’ can correct each other.\n\nAnd it’s got to lead somewhere!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 232
+    },
+    "elapsed": 12
+  },
+  "balance_after": 108005
+}

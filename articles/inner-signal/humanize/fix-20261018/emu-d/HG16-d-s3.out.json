@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-d/HG16-d-s3.txt",
+  "input_words": 130,
+  "input_sha256": "f7bae03f19c48024c622bf1f67e1bafd0683074b51f7cc19f79b028dea34788f",
+  "balance_before": 136114,
+  "started_utc": "2026-10-18T03:07:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:19Z",
+  "response": {
+    "id": "251c56c1-56c2-4f8b-9d1f-08783d8ba1c0",
+    "tool": "humanize",
+    "text": "They do fractionation (dipping in and out of an absorbed state) without telling you that you’re going to be brought back in again.\n\nThey give you cues (words, gestures, blinks, sounds, etc.) or make you listen to something repeatedly to influence later behavior, without telling you about it.\n\nThey convince you that you’re in a dream-like state, have amnesia, or are in a state where images or body sensations are real.\n\nThey don’t let you out cleanly, or they leave you in a role, with reduced ability to judge or move, in a blank state, or in some other altered state for an indefinite period of time at the end of the recording.\n\nThere is at least one way to opt out (try something else, do something easier, stay completely alert, take a break, or stop), and “no” really means “no” (them saying “yes” doesn’t mean “no”, not knowing whether you want to or not is okay, and just because their voices sounds soothing doesn’t mean you have to do anything).\n\n(See Appendix C for the longer checklist for de-hypnosis.)",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 130
+    },
+    "elapsed": 10
+  },
+  "balance_after": 135827
+}

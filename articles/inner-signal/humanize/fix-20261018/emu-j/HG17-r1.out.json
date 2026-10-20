@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-j/HG17-r1.txt",
+  "input_words": 88,
+  "input_sha256": "e7cfe2ca1944d6b40945bf1930e6ad8466b7bd7ae180fe9f2a73b0559c597d3b",
+  "balance_before": 120720,
+  "started_utc": "2026-10-18T04:20:12Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:20:22Z",
+  "response": {
+    "id": "c5a18243-166d-4976-8cd6-59abf45e4b79",
+    "tool": "humanize",
+    "text": "Induction: gathering attention without disappearing\n\nDo you need an induction? It may help to induce trance if you are sober, distracted, analytical, or otherwise not very trancey, as it is helpful to bring together your attention and make you more receptive to the quieter materials. You do not have to induce trance by having someone take over your will, making you fall asleep to play, or otherwise make you do something you don’t want to do. If you are already trancey from meditation, loveyhuasca, lucid dreaming, grief, music, prayer, fatigue, etc., you can probably skip the induction and go straight to orientation and containment.\n\nHow much trance is enough? Enough trance for the practice to feel focused and warm, receptive and embodied, and for you to be able to stop the practice when you need to. Deeper trance may be useful, but it is not necessary.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 88
+    },
+    "elapsed": 9
+  },
+  "balance_after": 120632
+}

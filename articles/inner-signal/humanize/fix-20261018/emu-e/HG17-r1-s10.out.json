@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s10.txt",
+  "input_words": 165,
+  "input_sha256": "1c4358afa058117be1edc09e2ae9371186adc5a3a4f189930109b8096a61bc35",
+  "balance_before": 132349,
+  "started_utc": "2026-10-18T03:10:49Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:10:59Z",
+  "response": {
+    "id": "7c94976a-8519-4449-b2f8-c433df97b951",
+    "tool": "humanize",
+    "text": "Sit up, open your eyes, feel your feet on the floor, and breathe naturally\n\nSAY: I know that I am not going away, but rather that I am coming.\n\nLook at an object and feel your spine\n\nIs this a daydream, are you working something out emotionally, or are you escaping ?\n\nNo matter what the answer is, SAY: Show me what I need to do. If you are escaping, come into the present and show me what I am avoiding.\n\nIf stillness is the problem, make the hypnosis more active. Keep your eyes open and while you do some action with your hand, become more and more clear. Then stop what you are doing and see if it continues\n\nSAY: Keep your eyes open and push your thumb and forefinger together, and when you pull them apart, become more and more clear. Do this several times, and then stop doing it, and see if it continues. Are you more clear? Do your fingers feel different? Do you feel this in any other way, or is there no difference at all. Work at whatever level you are working at now.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 165
+    },
+    "elapsed": 10
+  },
+  "balance_after": 132184
+}

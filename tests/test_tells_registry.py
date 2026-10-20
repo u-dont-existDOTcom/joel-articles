@@ -64,8 +64,9 @@ class RegistryShape(unittest.TestCase):
         # W84 (O39) from 2026-10-12 05:33; W85 (O40) and J52 from 17:23; W86 and W87 (B5's two announcing openers) from
         # Joel's section 4 and 12 texts of 2026-10-13; J53 to J55 from his Rule Scoring Sheet answers of 2026-10-14; W88 to
         # W92 (O41, S1, S2, R2, A2) from his message of 2026-10-17 13:11, which also moved W02 ("quietly") to O42; W93 (E186,
-        # "X can ... without Y") and J57 (formulaic expression) from his message of 2026-10-17 14:01 (inner child lane)
-        self.assertEqual(len(ids), 150)
+        # "X can ... without Y") and J57 (formulaic expression) from his message of 2026-10-17 14:01 (inner child lane); J58
+        # (a generic "you" or "imagine" scenario) from his community edits for Pangram 4.1, message of 2026-10-20 22:01
+        self.assertEqual(len(ids), 151)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 93)
         for t in TELLS:

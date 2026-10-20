@@ -1,0 +1,369 @@
+[
+ {
+  "run": "HG24-r1-h1",
+  "key": "HG24",
+  "sent": [
+   22,
+   23,
+   24,
+   25,
+   26
+  ],
+  "flagged": [
+   23,
+   25,
+   26
+  ],
+  "headings": [
+   22,
+   24
+  ],
+  "words": 52,
+  "short_from": "HG24-r1"
+ },
+ {
+  "run": "HG24-r1-h2",
+  "key": "HG24",
+  "sent": [
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "flagged": [
+   33,
+   34,
+   36,
+   37,
+   39,
+   40
+  ],
+  "headings": [
+   32,
+   35,
+   38
+  ],
+  "words": 55,
+  "short_from": "HG24-r1"
+ },
+ {
+  "run": "HG31-r1-h1",
+  "key": "HG31",
+  "sent": [
+   21,
+   22,
+   23
+  ],
+  "flagged": [
+   22,
+   23
+  ],
+  "headings": [
+   21
+  ],
+  "words": 41,
+  "short_from": "HG31-r1"
+ },
+ {
+  "run": "HG31-r1-h2",
+  "key": "HG31",
+  "sent": [
+   33,
+   34,
+   35,
+   36,
+   37,
+   38
+  ],
+  "flagged": [
+   34,
+   35,
+   37,
+   38
+  ],
+  "headings": [
+   33,
+   36
+  ],
+  "words": 63,
+  "short_from": "HG31-r1"
+ },
+ {
+  "run": "HG31-r1-h3",
+  "key": "HG31",
+  "sent": [
+   39,
+   40,
+   41,
+   42,
+   43,
+   44
+  ],
+  "flagged": [
+   40,
+   41,
+   43,
+   44
+  ],
+  "headings": [
+   39,
+   42
+  ],
+  "words": 73,
+  "short_from": "HG31-r1"
+ },
+ {
+  "run": "HG33-r1-h1",
+  "key": "HG33",
+  "sent": [
+   13,
+   14,
+   15
+  ],
+  "flagged": [
+   14,
+   15
+  ],
+  "headings": [
+   13
+  ],
+  "words": 40,
+  "short_from": "HG33-r1"
+ },
+ {
+  "run": "HG02_03-f-s1",
+  "key": "HG02+03",
+  "sent": [
+   4,
+   5
+  ],
+  "flagged": [
+   4,
+   5
+  ],
+  "headings": [],
+  "words": 88,
+  "split_from": "HG02_03-f"
+ },
+ {
+  "run": "HG02_03-f-s2",
+  "key": "HG02+03",
+  "sent": [
+   6,
+   7
+  ],
+  "flagged": [
+   6,
+   7
+  ],
+  "headings": [],
+  "words": 83,
+  "split_from": "HG02_03-f"
+ },
+ {
+  "run": "HG02_03-f-s3",
+  "key": "HG02+03",
+  "sent": [
+   8,
+   9,
+   10
+  ],
+  "flagged": [
+   8,
+   9,
+   10
+  ],
+  "headings": [],
+  "words": 67,
+  "split_from": "HG02_03-f"
+ },
+ {
+  "run": "HG02_03-f-s4",
+  "key": "HG02+03",
+  "sent": [
+   11
+  ],
+  "flagged": [
+   11
+  ],
+  "headings": [],
+  "words": 88,
+  "split_from": "HG02_03-f"
+ },
+ {
+  "run": "HG27-f-s1",
+  "key": "HG27",
+  "sent": [
+   1,
+   2
+  ],
+  "flagged": [
+   1,
+   2
+  ],
+  "headings": [],
+  "words": 54,
+  "split_from": "HG27-f"
+ },
+ {
+  "run": "HG33-f-s1",
+  "key": "HG33",
+  "sent": [
+   24
+  ],
+  "flagged": [
+   24
+  ],
+  "headings": [],
+  "words": 47,
+  "split_from": "HG33-f"
+ },
+ {
+  "run": "HG33-f-s2",
+  "key": "HG33",
+  "sent": [
+   26,
+   27,
+   28,
+   29
+  ],
+  "flagged": [
+   26,
+   27,
+   28,
+   29
+  ],
+  "headings": [],
+  "words": 67,
+  "split_from": "HG33-f"
+ },
+ {
+  "run": "HG32-f-s1",
+  "key": "HG32",
+  "sent": [
+   1,
+   2
+  ],
+  "flagged": [
+   1,
+   2
+  ],
+  "headings": [],
+  "words": 75,
+  "split_from": "HG32-f"
+ },
+ {
+  "run": "HG32-f-s2",
+  "key": "HG32",
+  "sent": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "flagged": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "headings": [],
+  "words": 67,
+  "split_from": "HG32-f"
+ },
+ {
+  "run": "HG32-f-s3",
+  "key": "HG32",
+  "sent": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "flagged": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "headings": [],
+  "words": 52,
+  "split_from": "HG32-f"
+ },
+ {
+  "run": "HG32-f-s4",
+  "key": "HG32",
+  "sent": [
+   19,
+   20
+  ],
+  "flagged": [
+   19,
+   20
+  ],
+  "headings": [],
+  "words": 65,
+  "split_from": "HG32-f"
+ },
+ {
+  "run": "HG32-f-s5",
+  "key": "HG32",
+  "sent": [
+   22,
+   23,
+   24,
+   25,
+   26
+  ],
+  "flagged": [
+   22,
+   23,
+   24,
+   25,
+   26
+  ],
+  "headings": [],
+  "words": 58,
+  "split_from": "HG32-f"
+ },
+ {
+  "run": "HG32-f-s6",
+  "key": "HG32",
+  "sent": [
+   27,
+   28,
+   29,
+   30
+  ],
+  "flagged": [
+   27,
+   28,
+   29,
+   30
+  ],
+  "headings": [],
+  "words": 61,
+  "split_from": "HG32-f"
+ }
+]

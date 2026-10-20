@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG32-f-s1.txt",
+  "input_words": 75,
+  "input_sha256": "984fd06d50dfa9ee6a3082c8522d5e8441ee5919a4049906557b13b4a7fad8d1",
+  "balance_before": 129101,
+  "started_utc": "2026-10-18T03:24:49Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:52Z",
+  "response": {
+    "id": "bea84a01-0d8c-47e6-8bf0-5449d4b8e179",
+    "tool": "humanize",
+    "text": "Use this checklist when any person, ad, ideology, spiritual teaching, romantic attraction, or voice inside of yourself tries to exert influence over…",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 75
+    },
+    "elapsed": 2
+  },
+  "balance_after": 129026
+}

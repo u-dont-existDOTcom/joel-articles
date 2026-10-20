@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG13-r1-s3.txt",
+  "input_words": 50,
+  "input_sha256": "3d4ef86a755ed74661e6adfe8a64b40457a8d05b6d943593d1eb5826fd983741",
+  "balance_before": 143903,
+  "started_utc": "2026-10-18T03:01:56Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:01Z",
+  "response": {
+    "id": "75992473-59ad-41de-a3c7-78ff615c0ae3",
+    "tool": "humanize",
+    "text": "It is important to differentiate but only as needed when something comes up. “Is this coming from my inner child? Is it a protector? Is this my body speaking? Is this fear speaking? Is this intuition? Is this social conditioning speaking? Is this divine guidance or my interpretation of guidance?”\n\nBut always start from the heart, differentiate as needed, and then come back to the heart.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 50
+    },
+    "elapsed": 4
+  },
+  "balance_after": 143853
+}

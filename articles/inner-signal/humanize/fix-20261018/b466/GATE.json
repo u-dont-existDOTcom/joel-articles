@@ -1,0 +1,150 @@
+{
+ "HG18-smp1": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp1.json"
+  ],
+  "lint": "FAIL",
+  "words": 516,
+  "_blocks_ok": true
+ },
+ "HG18-q1-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp1.json"
+  ],
+  "lint": "REVIEW",
+  "section": "466g HG18-smp1 (this batch)",
+  "paragraph": 2,
+  "check": "alone",
+  "words": 170,
+  "_blocks_ok": true
+ },
+ "HG18-q1-p4": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp1.json"
+  ],
+  "lint": "REVIEW",
+  "section": "466g HG18-smp1 (this batch)",
+  "paragraph": 4,
+  "check": "alone",
+  "words": 83,
+  "_blocks_ok": true
+ },
+ "HG18-smp2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp2.json"
+  ],
+  "lint": "FAIL",
+  "words": 512,
+  "_blocks_ok": true
+ },
+ "HG18-q2-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp2.json"
+  ],
+  "lint": "REVIEW",
+  "section": "466g HG18-smp2 (this batch)",
+  "paragraph": 2,
+  "check": "alone",
+  "words": 166,
+  "_blocks_ok": true
+ },
+ "HG18-q2-p4": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp2.json"
+  ],
+  "lint": "REVIEW",
+  "section": "466g HG18-smp2 (this batch)",
+  "paragraph": 4,
+  "check": "alone",
+  "words": 83,
+  "_blocks_ok": true
+ },
+ "HG18-smp3": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp3.json"
+  ],
+  "lint": "FAIL",
+  "words": 512,
+  "_blocks_ok": true
+ },
+ "HG18-q3-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp3.json"
+  ],
+  "lint": "REVIEW",
+  "section": "466g HG18-smp3 (this batch)",
+  "paragraph": 2,
+  "check": "alone",
+  "words": 166,
+  "_blocks_ok": true
+ },
+ "HG18-smp4": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp4.json"
+  ],
+  "lint": "FAIL",
+  "words": 517,
+  "_blocks_ok": true
+ },
+ "HG18-q4-p2": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rf-zf/HG18.smp4.json"
+  ],
+  "lint": "FAIL",
+  "section": "466g HG18-smp4 (this batch)",
+  "paragraph": 2,
+  "check": "alone",
+  "words": 171,
+  "_blocks_ok": true
+ }
+}

@@ -1,0 +1,65 @@
+# Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”
+
+I speak here from experience.
+
+When you’re doing hypnosis, meditation, lucid dreaming, loveyhuasca-ing, going through a period of intense grief, praying, or whatever else may alter your consciousness, it’s possible you may run into something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter – it may be a voice or an image, and it does n’t just feel like an emotion or a younger part of you, but something that feels intrusive, hateful, seductive, mocking, etc.
+
+First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked.
+
+## Start with the room, the body, and basic safety
+
+So what do you do when you encounter a demon, or a jinn, or something else that’s bad and intrusive?
+
+First of all, do the usual things – make sure you’re not in danger from a medical standpoint, check your environment, check your body, make sure you’re not overstimulating yourself, make sure you’re not opening your mind too much. If you need to, open your eyes, ground yourself in your body and your environment, remove yourself from any bad influence you’re surrounding yourself with, stop stimulating your mind. Don’t go further into whatever it is you’re doing – don’t be curious, don’t try to figure out what it is.
+
+Tell yourself, “If this can be integrated in this moment, it’s welcome. If not, it can wait until later. The adult part of me is still here, and my body can return to safety.”
+
+If you feel like you’re in any danger of doing anything harmful to yourself or others, if you feel like you’re going psychotic and you’re afraid of it, if you feel like you won’t be able to sleep when the self-hypnosis session is over, if you feel overly paranoid, if you feel physical pain in your chest, if you feel like you’re going to have a seizure, if you feel like you’re too hot in a bad way, if you feel like you’ve taken too much of something, if you feel like you won’t be able to function in the world anymore – then the self-hypnosis session is over, and you should get help in the “real world”.
+
+## A response check, not a verdict about what it is
+
+If, however, you feel like you’re stable enough to stay present, check in with yourself and see what’s best to do. Again, it doesn’t matter if it’s a demon or not. Put your hand on your heart if that feels okay, breathe comfortably, and stay aware of the room.
+
+Internalize the fact that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way. Keep in mind that you don’t have to do what it tells you to do.
+
+If you feel vulnerable, if you feel tightness in your throat, if you feel sadness or fear or a need to protect yourself from it, call upon your Nurturer. If you don’t feel better, or if it continues being hostile towards you, stop trying to deal with it and return to your body and the room.
+
+Internalize the fact that you don’t have to know where it comes from. Check in with yourself about whether or not this is helpful. You don’t have to find out if it’s a protector immediately, and you may not be able to comfort it quickly, but whether warmth or distance helps, that doesn’t prove what it is.
+
+## Do not fight from fear
+
+Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own lesser self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear…
+
+It becomes a center of attention if you fear it, and if you hate it you give it a hook in you. (If you’re proud you give it an opponent, and if you panic you give it your nervous system.)
+
+So the next time it comes up you can just say, “I see that there is no reason to hate and revile what I am experiencing. I see that there is no reason to merge with or become what I am experiencing. I see that there is no reason to obey what I am experiencing. I see that there is no reason to try to defeat what I am experiencing out of fear. I choose to return my attention to loving awareness.”
+
+## A bodily boundary: compassion present, door closed
+
+Second, feel free to tell the presence that while you have compassion for it, the door is closed.
+
+This is especially a good idea if the presence you’re experiencing seems even the slightest bit hostile, cold, alien, parasitic, etc. It needs to realize that you don’t welcome it. It’s not really helpful to approach it with the kind of soft, sentimental love that you’d use if you were inviting it to stay for tea, but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries.
+
+Sit up, make sure your feet are grounded on the floor, straighten your spine, pull your shoulder blades back a little, open your chest a little, feel the boundary of your torso’s skin, feel the perimeter of your body, and tell the presence, “While I have compassion for you and any suffering you may be experiencing, this suffering needs to go back where it came from. The boundary of my skin is the boundary of an adult now, and you’re not welcome to come inside the house anymore.”
+
+## If it might be psychosis or destabilization
+
+This is assuming that you are having a symbolic experience of “hostile presences” which responds to grounding and love. It may be that what you are experiencing is actually psychotic or a form of destabilization.
+
+If you feel like you are under attack for multiple days at a time, if you are not able to sleep, if you are not able to function normally, if you are hearing voices telling you to do things, if you feel you need to hurt yourself or somebody else, if you feel you are going manic, if you feel you can’t communicate normally, if you feel you can’t distinguish between what you are experiencing symbolically and normal reality, get help immediately. It’s not something to deal with in hypnosis.
+
+The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if what you're doing is making you more Paranoid, sleepless, Grandiose, isolated, scared, or more and more unreal, then DON'T GO DEEPER! GET HELP!
+
+## The cosmic-download humility test
+
+Finally, presences, shadow forces, or grandiose parts may try to respond by giving you a sense that you’re special, trying to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc. I don’t need it.
+
+Unless the “guidance” you’re trying to give me can help me be more beautiful, honest, relational, humble, and useful in my everyday life, I don’t need it.”
+
+## Don’t become an entity hobbyist
+
+Finally, some of you may be tempted to make this an area of hobbyism – to become interested in demons or jinns or hostile presences or Unattached Burdens or whatever. I just don’t want you to do that. They all lead to the same thing, which is how to maintain a presence of love without giving up your boundaries, while also making your mind harder to hook.
+
+# Appendix I: Sleep hypnosis
+
+* For sleep, try using this playlist by Nimja

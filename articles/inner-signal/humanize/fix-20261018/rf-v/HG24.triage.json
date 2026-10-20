@@ -1,0 +1,26 @@
+{
+ "key": "HG24",
+ "fixes": [
+  {
+   "block": 47,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B47: SHIFT \"when it is a checking loop\" became \"if you are worried that you are going to start a checking loop\" (my read of the emu-ao sample)",
+     "replace": "if you are worried that you are going to start a checking loop",
+     "with": "if you notice you’re in a checking loop",
+     "round": 1,
+     "from": "my read of the sample, triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B47: \"without engaging with it\" for \"without arguing with it or chasing it away\"",
+   "why": "the same step"
+  }
+ ],
+ "resample": [],
+ "note": "B47 from emu-ao (the better of two samples; emu-ap weakens it to \"sometimes\" and garbles \"chasing it away\"); the rest is rf-o/HG24.fixed.json"
+}

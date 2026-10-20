@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG16-d-s3.txt",
+  "input_words": 130,
+  "input_sha256": "f7bae03f19c48024c622bf1f67e1bafd0683074b51f7cc19f79b028dea34788f",
+  "balance_before": 125939,
+  "started_utc": "2026-10-18T03:35:53Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:36:03Z",
+  "response": {
+    "id": "4d806453-d689-4c39-a9fc-7bc11b29e098",
+    "tool": "humanize",
+    "text": "Is there unannounced fractionation – coming in and out of absorption and back in again?\n\nDoes it covertly use post hypnosis cues (words, gestures, blinks, sounds or listening to it again) to try and make you do something later?\n\nDoes it use amnesia or exaggerating the truth about things like dreamstates, memory loss, imagery and body sensations?\n\nDoes the end of the recording leave you in some kind of role, with decreased judgement, impaired movements, make you blank or leave you in a non normal state for an indefinite period of time?\n\nIf at any point during a hypnosis you have a REAL choice to NOT carry on, turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis then it can not be a covert hypnosis. “No” means no, even if someone with a nice voice is telling you to do something! If you are unsure that you can or can’t then you probably can’t. Simply not knowing your options isn’t a choice.\n\nSee appendix C for the longer version of how to check for de-hypnosis.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 130
+    },
+    "elapsed": 10
+  },
+  "balance_after": 125809
+}

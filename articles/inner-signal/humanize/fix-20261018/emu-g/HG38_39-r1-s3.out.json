@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG38_39-r1-s3.txt",
+  "input_words": 57,
+  "input_sha256": "2821d2ff796e6c27f5a2144cdb8a5292dd1a21dba886a5139c00aa7662caf259",
+  "balance_before": 126590,
+  "started_utc": "2026-10-18T03:34:45Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:34:51Z",
+  "response": {
+    "id": "2e2a66c1-95d9-434e-ab33-708437ad53be",
+    "tool": "humanize",
+    "text": "Starting Point: Lie on the floor and/or place yourself in a position where you can feel support under one hand or foot. Gently press and/or stretch and then release the area. Note any sensations, or just imagine the press/stretch/release. Repeat with a maximum of three areas. Use the word ‘release’ to guide you. Now move or not – whichever feels most alive. See if you can sense what’s emerging; an area, a voice within. Try to find a way of supporting what wants your attention. When ready, restore movement and return.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 5
+  },
+  "balance_after": 126533
+}

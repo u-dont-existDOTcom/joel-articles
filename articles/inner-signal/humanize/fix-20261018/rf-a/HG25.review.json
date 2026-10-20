@@ -1,0 +1,60 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B1: LOST named experiences (inner voices, images, autonomous movements, body signals); \"these experiences\" has no referent (referent anchored with two words; the named list stays shortened)",
+    "replace": "these experiences",
+    "with": "your inner experiences",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT ban now applies only if reality-testing or function is already poor / B2: SHIFT \"seek help when reality-testing or function weakens\" softened to \"perhaps even getting help\"",
+    "replace": "life, perhaps even getting",
+    "with": "life. Get",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT \"turn into a hobby\" became \"become obsessed\"",
+    "replace": "become obsessed with",
+    "with": "make a hobby of",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 13,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B13: LOST cue should \"remain reviewable\"",
+    "replace": "you CAN",
+    "with": "you can review it and CAN",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B13: SHIFT compulsory behavior, identity switching, amnesia now only unwanted results of someone else's activation",
+    "replace": "knowledge, to make",
+    "with": "knowledge, or use them to make",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

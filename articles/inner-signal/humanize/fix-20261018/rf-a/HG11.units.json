@@ -1,0 +1,85 @@
+{
+ "key": "HG11",
+ "from": "fix-20261018/rev-a/HG11.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Forget the left-brain/right-brain cartoon"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "I use the expression ‘syncing the hemispheres’ but don’t want to over interpret what is going on neuroscientifcally. A huge study of resting state fmri scans of 1011 people does not support the common pop neuropsych notion that people in general are left or right brained. But there is evidence for lateralisation of some functions or networks."
+   ],
+   "run": "HG11-fxw1",
+   "file": "fix-20261018/emu-r/HG11-fxw1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "large resting-state fMRI study",
+     "new": "huge study of resting state fmri scans"
+    }
+   ]
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Let’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … It’s not an electoral process. Nobody needs to win!"
+   ],
+   "run": "HG11-fxw1",
+   "file": "fix-20261018/emu-r/HG11-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The mind of intuition and the mind of rationality can BOTH be there - intuitive signals and testing of those signals without dogma or killing them. The body can have a voice - saying yes or no or not yet. The imagination can have opened up the field and then the adult can choose what to do next in the real world…. It can be peaceful but also precise."
+   ],
+   "run": "HG11-fxw1",
+   "file": "fix-20261018/emu-r/HG11-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these ‘modes’ can correct each other."
+   ],
+   "run": "HG11-fxw1",
+   "file": "fix-20261018/emu-r/HG11-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "And it’s got to lead somewhere!"
+   ],
+   "run": "HG11-fxw1",
+   "file": "fix-20261018/emu-r/HG11-fxw1.out.txt",
+   "refix": true
+  }
+ ]
+}

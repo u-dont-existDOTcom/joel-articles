@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s16.txt",
+  "input_words": 70,
+  "input_sha256": "b9c5f6bee4c676da6cf695b45081bdcb013da736e02b622c8a6086a1bfd0e3e7",
+  "balance_before": 133686,
+  "started_utc": "2026-10-18T03:09:14Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:09:19Z",
+  "response": {
+    "id": "3ad5c251-f859-41bc-baca-0e897680e662",
+    "tool": "humanize",
+    "text": "It is important for reparenting to remember to have fun. It's really okay to let your younger states enjoy playing with things that interest them. Touch textures, draw, move your body, talk to your plushie in a different voice, as long as you can keep reality testing intact and remember that you are not actually a child/pet/doll/whatever and are not owned, it's okay to recover your play ability.\n\nResting without being helpless Sometimes you just need to rest, but you don't… [...]",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 70
+    },
+    "elapsed": 5
+  },
+  "balance_after": 133616
+}

@@ -1,0 +1,44 @@
+{"key": "HG31",
+ "fixes": [
+  {"block": 66, "problems": [
+   {"type": "WRONG", "what": "another person controlling the response became you controlling other people", "replace": "You can't use them to control other people.", "with": "Other people can't use them to control your response.", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "retirement line lost 'I release this association and return coincidence to ordinary uncertainty'", "replace": "as a cue for waking up.\"", "with": "as a cue for waking up. I release this association and return coincidence to ordinary uncertainty.\"", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "lost that the statement expresses a decision and does not prove the association vanished immediately", "replace": "Remove it from your list of cues, so that you won't rehearse it anymore.", "with": "Remove it from your list of cues, so that you won't rehearse it anymore. This only expresses your decision; it doesn't mean the association has vanished right away.", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 82, "problems": [
+   {"type": "LOST", "what": "question of the universal heart position lost (truth, love, boundaries, everyone's good)", "replace": "4) then seeing from Universal Heart.", "with": "4) then seeing from Universal Heart (what serves truth, love, boundaries, and everyone involved).", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 92, "problems": [
+   {"type": "SHIFT", "what": "own-practice cautions (real signal, fear, panicking) recast as things done to people only", "replace": "do with NLP :", "with": "do with NLP, to myself or to others :", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "make another person's no feel like resistance", "replace": "to make people feel like they are spiritually inferior", "with": "to make people feel like their no is resistance, or like they are spiritually inferior", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "SHIFT", "what": "'to get compliance' lost; became a blanket ban on people in trance that clashes with the induce step", "replace": "use NLP on people in a suggestible state", "with": "use NLP to get compliance from people in a suggestible state", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "INVENTED", "what": "'I rarely do all of this' invented (also hints steps can be skipped)", "replace": "process (though I rarely do all of this) :", "with": "process :", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "pain, hunger, grief, anger named; also removes the repeat of 'legitimate signals' (R line)", "replace": "remove legitimate signals or medical symptoms", "with": "remove pain, hunger, grief, anger, or medical symptoms", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]},
+  {"block": 106, "problems": [
+   {"type": "LOST", "what": "stabilize first if you are already wide open (condition and order)", "replace": "(get their attention or stabilize them)", "with": "(get their attention, or stabilize them first if they are already wide open)", "round": 1, "from": "second reader of the refix (rf), triaged"},
+   {"type": "LOST", "what": "'gently' lost from the adjust step", "replace": "Change some aspect", "with": "Gently change some aspect", "round": 1, "from": "second reader of the refix (rf), triaged"}
+  ]}
+ ],
+ "let_stand": [
+  {"finding": "B66: SHIFT \"one small action\" became \"at least one action\"", "why": "the author's own phrase elsewhere; the caveats keep the cue limited to orientation"},
+  {"finding": "B66: LOST what an implementation intention is (advance if-X-then-Y plan linking cue to chosen response)", "why": "term is linked to a paper and the If...then... plan is explained later in the section; no safety content"},
+  {"finding": "B66: LOST rehearsing the cue may make you scan for it; \"We do this on purpose\" unclear", "why": "mechanism and false-positive risk kept; scanning is in the stop list; the parenthesis says what 'this' is"},
+  {"finding": "B79: LOST the three reframing questions", "why": "handled by resample of B79: restoring them plus the past-habit fix is over a quarter of the stretch"},
+  {"finding": "B79: INVENTED author's past habit of dishonest reframing", "why": "handled by resample of B79 (same stretch, see above)"},
+  {"finding": "B85: SHIFT \"rehearse smallest better response\" became \"choose new small behaviors\" when scenarios come up", "why": "imagined scenario, small behavior and If...then... plan all kept; wording"},
+  {"finding": "B88: LOST classic Swish replaces old self-image; mechanical version feels like inner eviction", "why": "the variation itself (old pattern stays) is kept; only the reason is shortened"},
+  {"finding": "B88: SHIFT \"compare what each future would require\" became \"differences between future scenarios\"", "why": "same comparison; wording"},
+  {"finding": "B90: SHIFT \"need under both\" (shared) became each part's own need", "why": "same steps kept (wants, fears, needs, third option); small nuance, no limit changed"},
+  {"finding": "R: purpose of perceptual positions (see more accurately / break out of one view), in B82 and B82", "why": "fitting elaboration; the second sentence is the ethics limit, not a repeat"},
+  {"finding": "B92: LOST \"before asking what the fear protects\" (now never tell people to override fear)", "why": "stricter rule; the find-out-what-it-protects step still comes before the change step"},
+  {"finding": "B92: SHIFT \"create urgency where time is needed\" became \"don't use NLP when there isn't enough time (I create urgency for them)\"", "why": "urgency is still named as the harm and the direction is the same"},
+  {"finding": "B106: SHIFT steps done by you on yourself (you, me, today) became steps done to another person (the person, their, them)", "why": "audience wording only; all ten steps, their order and the permission step kept; fixing it would change over a quarter of the stretch"},
+  {"finding": "B106: LOST the permission question (is it useful to work with this image, feeling or pattern today?)", "why": "the permission step is kept; only the sample question is gone"},
+  {"finding": "B106: LOST what each adult does (Nurturer warms, Protector makes it safe, Leader points a direction)", "why": "names kept; the roles are taught elsewhere in the guide"},
+  {"finding": "B106: LOST \"Is the response kind and doable?\"", "why": "one of three check questions; the small new behavior is kept"},
+  {"finding": "B106: LOST evidence \"beyond how it feels\"", "why": "evidence check kept; not convincing yourself of an intuition stays in the don't list"},
+  {"finding": "B106: SHIFT \"do one ordinary thing\" became \"have them do something\"", "why": "same grounding exit; wording"}
+ ],
+ "resample": [79]
+}

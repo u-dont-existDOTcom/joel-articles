@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s7.txt",
+  "input_words": 175,
+  "input_sha256": "a1dcb9ee90eafc1ad2858debf5b3dc4a7fe69bfde1be94122bd0e57394a77caa",
+  "balance_before": 132744,
+  "started_utc": "2026-10-18T03:10:26Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:10:32Z",
+  "response": {
+    "id": "d3a98ea4-d948-47ee-a707-1509dd5dea08",
+    "tool": "humanize",
+    "text": "and when you do come back, perhaps there was something of interest to you in all of this\n\nPerhaps you can give yourself the time that you might give to someone dear to you\n\nTry a phrase that you choose for yourself to see how it is for you\n\nYou can close your eyes, soften them or keep them open as you proceed\n\nIf you like, count to yourself, from 5 to 1\n\n5, perhaps notice again what you have chosen to be your anchor for today, 4, and notice what you notice, 3, leave some space, 2, and listen, even to the silence, 1",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 175
+    },
+    "elapsed": 6
+  },
+  "balance_after": 132569
+}

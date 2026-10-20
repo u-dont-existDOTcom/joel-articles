@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s10.txt",
+  "input_words": 67,
+  "input_sha256": "e2e6aa361aa39160d5c8f5aea25ce32ff1233a8a40a528647aa6e831a52e8b2f",
+  "balance_before": 134748,
+  "started_utc": "2026-10-18T03:08:03Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:08:09Z",
+  "response": {
+    "id": "42e83378-6f60-445a-94cd-ecdac71f9c6b",
+    "tool": "humanize",
+    "text": "Choose someone or something who has a characteristic you want to adopt. Close your eyes and imagine them. Now imagine yourself becoming them, standing, walking and talking like them, just 1% more, or if you are uncomfortable with this, simply observe them, but in either case be aware of how you now have more access to that quality. Notice what happens. Repeat a few times. Now think of a situation you want to use that characteristic in. Finally let go of the person/thing, but keep the characteristic, and say to yourself \"I am me\", and notice how you have increased access to the characteristic you wanted.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 67
+    },
+    "elapsed": 6
+  },
+  "balance_after": 134681
+}

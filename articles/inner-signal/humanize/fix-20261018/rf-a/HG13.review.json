@@ -1,0 +1,54 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "R: all these parts are part of one life, said twice in the c) script (published says it once); tail cut",
+    "replace": "lead with love, knowing that all of these parts are part of your life",
+    "with": "lead with love",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B4 script's request \"please help me understand\"",
+    "replace": "‘Hello, wise subconscious…’",
+    "with": "‘Hello, wise subconscious, please help me understand…’",
+    "round": 1,
+    "from": "checked by me (Opus): the scripts are what the reader says, so their requests are steps (triage rule 2)"
+   },
+   {
+    "type": "LOST",
+    "what": "B7 script's request \"please guide me\"",
+    "replace": "Hello my Higher Self/universal heart-mind/wise subconscious…",
+    "with": "Hello my Higher Self/universal heart-mind/wise subconscious, please guide me…",
+    "round": 1,
+    "from": "checked by me (Opus): the scripts are what the reader says, so their requests are steps (triage rule 2)"
+   }
+  ]
+ },
+ {
+  "block": 13,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B13: LOST B15 'the fact that something can notice is enough adult presence for the first step' (sentence gone)",
+    "replace": "in a younger state etc.",
+    "with": "in a younger state etc. Being able to notice is enough adult presence for the first step.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: start with the whole / the Sacred said twice (opening line, which also repeats the heading, and the closing 'So it's better...'); opening line cut",
+    "replace": "Sometimes, it’s better to start with the whole.\n\nSome people",
+    "with": "Some people",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

@@ -1,0 +1,63 @@
+[
+ {
+  "block": 1,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"can begin\" became \"happens a lot... This means you don't know\"",
+    "replace": "This happens a lot when people come from a background where",
+    "with": "This can happen when people come from a background where",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"part of how\" became \"requires\"; preference and curiosity lost",
+    "replace": "For others, it requires creating safety and playing around more to feel their child-self.",
+    "with": "For others, creating enough safety for preference, curiosity, and experimentation is part of how their child-self becomes easier to hear.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"can leave less room\" became \"you didn't have the room\"",
+    "replace": "you didn’t have the room to explore",
+    "with": "you may have had less room to explore",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"doer/being difference helps\" became \"This means moving from doer to being\" (unclear \"This\")",
+    "replace": "This means moving from a “human doer” to a “human being”.",
+    "with": "The difference between a “human doer” and a “human being” helps here.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "LOST",
+    "what": "B1: LOST quoted adult answer to the inherited parent; now \"remind yourself\"",
+    "replace": "Your job as your own parent is to remind yourself that you are not doing these things to prove your worth – you are doing them to see if you like them or not.",
+    "with": "The adult can answer, “We’re finding out whether we enjoy this, not proving our worth.”",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED \"your inner child needs to play\"",
+    "replace": "Remember that your inner child needs to play! Try out some things that have no value towards your resume",
+    "with": "Give your inner child a small experiment with no value towards your resume",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "not",
+    "what": "R: not knowing who you are, in B1 and B1",
+    "replace": "know who you are, what you feel",
+    "with": "know what you feel",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]

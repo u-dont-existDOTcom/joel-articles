@@ -1,0 +1,33 @@
+{"key": "HG37",
+ "fixes": [
+  {"block": 19, "problems": [
+   {"type": "REPEAT",
+    "what": "R: the presence needs to respect your boundaries, in B19 and B19 (both sentences of its second paragraph); published says it once (Use love with a boundary), the first mention cut",
+    "replace": "welcome it and that it needs to respect your boundaries.", "with": "welcome it.", "round": 1,
+    "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 28, "problems": [
+   {"type": "REPEAT",
+    "what": "R: the dishes-and-room test and \"I don't need it\", in B28 and B28 (first and second script paragraphs); dishes-and-room said once in the published script, so the second mention is replaced by \"in my everyday life\" (keeps the ordinary-life anchor of the B28 SHIFT finding); the closing refrain stays",
+    "replace": "useful, and take care of my dishes and my room,", "with": "and useful in my everyday life,", "round": 1,
+    "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 32, "problems": [
+   {"type": "LOST",
+    "what": "B32: LOST \"without surrendering the boundary\" (only \"maintain a presence of love\" remains); the closing summary of the practice (love with a boundary) needs it",
+    "replace": "of love while also making", "with": "of love without giving up your boundaries, while also making", "round": 1,
+    "from": "second reader of the refix (rf), triaged"},
+   {"type": "REPEAT",
+    "what": "R: I don't want you to become hobbyists, in B32 and B32 (second and last sentences); published says it once, the middle sentence cut and the last kept (it follows the training sentence as in the published)",
+    "replace": "I just don’t want you to do that. They all", "with": "They all", "round": 1,
+    "from": "second reader of the refix (rf), triaged"}]}
+ ],
+ "let_stand": [
+  {"finding": "B19: LOST chest \"open but not exposed\" (now just \"open your chest a little\")", "why": "posture detail; \"a little\" keeps the opening moderate"},
+  {"finding": "B19: SHIFT wish for all suffering to return to the space where it belongs became a demand that \"this suffering\" go back where it came from, aimed at the presence", "why": "tone of the script; compassion and the closed door are both kept"},
+  {"finding": "B28: LOST contrast that these presences don't always attack through fear but seduce through importance (and \"altered-state imagery\")", "why": "framing; seducing through importance (special, cosmic info, mission, dishes beneath you) and the reply to the imagery are kept"},
+  {"finding": "B28: UNCLEAR \"may try to respond by\" (respond to what?)", "why": "reads as a response to the boundary just set; the reader does the same thing"},
+  {"finding": "B28: LOST \"tomorrow morning\" and \"simple, honest act of care\" in the test", "why": "the test is kept (info must help with dishes, room, honesty, promises, rest); the list of acts carries 'act of care'"},
+  {"finding": "B28: SHIFT \"make ordinary life more beautiful…\" became \"help me be more beautiful…\"", "why": "wording; the repeat fix adds \"in my everyday life\" to the same sentence"},
+  {"finding": "B28: LOST \"reliable\" and \"useful to other people\" (now just \"useful\")", "why": "\"keep my promises\", \"be more helpful\" and \"relational\" carry them"},
+  {"finding": "B32: INVENTED \"some of you may be tempted to make this an area of hobbyism\"", "why": "author's aside that fits \"not trying to turn anyone into an entity hobbyist\"; claims nothing new"}
+ ],
+ "resample": []}

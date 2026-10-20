@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aj/HG18-sw4.txt",
+  "input_words": 95,
+  "input_sha256": "2b9c0de06b258176e29ff63edae025e8eca8b6a658d32eb2ddc350df08f162c9",
+  "balance_before": 86874,
+  "started_utc": "2026-10-18T08:07:16Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:07:22Z",
+  "response": {
+    "id": "57991faa-5b33-4568-b6ad-96f0e9bef159",
+    "tool": "humanize",
+    "text": "In your mind, tell yourself what day it is or what the date is. Look to your left. Look to your right. Look at something near you, and something far away. Feel free to move around a bit, and when you are sure you can do so without falling over, stand up. Make sure you are oriented and alert -- saying 1, 2, 3, etc. does not necessarily mean you are. Take note of anything you may (or may not) need to do as a result of what came up in this session, and proceed to do something normal.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 95
+    },
+    "elapsed": 6
+  },
+  "balance_after": 86779
+}

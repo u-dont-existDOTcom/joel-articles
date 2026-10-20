@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG24-r1-s2.txt",
+  "input_words": 161,
+  "input_sha256": "555ed03b68854a772c7315faf5b21b74b4ad950255ac902511f24737c92a6a00",
+  "balance_before": 139443,
+  "started_utc": "2026-10-18T03:03:51Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:01Z",
+  "response": {
+    "id": "00348f36-e00c-484a-a577-7468bcdd39e9",
+    "tool": "humanize",
+    "text": "What is it that feels fake? The words, an image, an expectation, a role? Be clear that not experiencing the inner voice/image is not a resistance or lack of adult capacity. If something is inviting you to do something you explicitly don’t want to do, correct it. It may also be a part that is protecting you, if so talk to it:\n\n“What are you protecting me from?” or “Are you afraid I will lie to myself again?” or “Are you afraid this will just be a performance?”\n\nIt could be an inner voice of a parent you are picking up that is enforcing a rule about how you should be to belong, if so don’t argue with it, find out what rule it is enforcing and then work on finding evidence to strengthen your new adult voice.\n\nIt may be that an adult capacity you need is not yet available to you, in that case stop trying to make yourself have an inner voice that you believe and if you have enough observing ego, borrow the capacity you need from someone (real or imagined) who has it. Try out a sentence or action etc and see how it goes.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 161
+    },
+    "elapsed": 9
+  },
+  "balance_after": 139111
+}

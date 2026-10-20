@@ -1,0 +1,109 @@
+[
+ {
+  "run": "HG04-d-s1",
+  "key": "HG04",
+  "sent": [
+   3,
+   4
+  ],
+  "flagged": [
+   3,
+   4
+  ],
+  "headings": [],
+  "words": 84,
+  "split_from": "HG04-d"
+ },
+ {
+  "run": "HG16-d-s1",
+  "key": "HG16",
+  "sent": [
+   7,
+   8
+  ],
+  "flagged": [
+   7,
+   8
+  ],
+  "headings": [],
+  "words": 59,
+  "split_from": "HG16-d"
+ },
+ {
+  "run": "HG16-d-s2",
+  "key": "HG16",
+  "sent": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "flagged": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "headings": [],
+  "words": 135,
+  "split_from": "HG16-d"
+ },
+ {
+  "run": "HG16-d-s3",
+  "key": "HG16",
+  "sent": [
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "flagged": [
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "headings": [],
+  "words": 130,
+  "split_from": "HG16-d"
+ },
+ {
+  "run": "HG29_30-d-s1",
+  "key": "HG29+30",
+  "sent": [
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38
+  ],
+  "flagged": [
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38
+  ],
+  "headings": [],
+  "words": 189,
+  "split_from": "HG29_30-d"
+ }
+]

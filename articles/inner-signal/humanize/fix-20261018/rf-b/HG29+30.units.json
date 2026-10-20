@@ -1,0 +1,130 @@
+{
+ "key": "HG29+30",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG29+30.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendices"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Note: You can skip this section and just use the main path and be fine. This is additional info to help you be more precise and safe, and some additional scripts for other situations."
+   ],
+   "run": "HG29_30-r1",
+   "file": "fix-20261018/emu-i/HG29_30-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Appendix A: How to ask the subconscious a useful question"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "paras": [
+    "Your subconscious mind is NOT a large language model of AI. However, there is a bit of overlap in the way you can ask questions to both. So, if you know how to do prompt engineering for AI, this can be very useful to use it to help you be more present, honest, loving etc. On the other hand, if you use it to be more controlling, it will NOT work.",
+    "To get as much precision as possible, you need to include the following in your prompt:",
+    "Role: Who or what are you talking to?",
+    "Context: Give some context so it knows what you’re talking about.",
+    "Intention: What do you want to change or accomplish?",
+    "Constraint: What do you need to do to make sure your asking is safe, true, kind etc.",
+    "Output: How do you want to receive the answer? As an image, phrase, sensation in your body, memory, action, question, symbol, silence, rest etc.",
+    "Evaluation: How are you going to evaluate the answer? How will you know if it’s true, kind, timely, stabilizing, specific, testable etc?",
+    "Iteration: Iterate by changing your prompt depending on what you get from reality as feedback.",
+    "Most importantly, you always need to make your prompt “safe” otherwise, the analytical part of your mind will “make up” an answer just so it fits with your prompt. I usually add the following to my prompt:",
+    "“If you need more time or the best and safest answer is silence, then I ask you to make my body go into a deeper state of comfortable rest. A peaceful silence would be a successful answer to my question.”",
+    "There is a very good chance there is no answer for your question because there is nothing happening. It might be that it’s not time yet, or that you need to go rest or do whatever you need to do.",
+    "Once you do that, here are the core prompts you can use:"
+   ],
+   "run": "HG29_30-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG29_30-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Core prompts"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "paras": [
+    "For getting clarity: “I ask you, my wise subconscious mind, to show me what is true, kind and timely. If what you want to show me is too intense for me to integrate, please transfer it to my conscious mind in a way I can integrate it, for instance as a symbol, a signal in my body, a next step I can take. Most importantly, show me first my capacity to be peaceful, and then, the content of my wounding.”",
+    "When you experience resistance: “What are you protecting me from? How can you trust me 1% more?”",
+    "When you want to ask your inner child something: “What do you want me to know? What do you need me to do today so that you are not alone in dealing with it?”",
+    "When you want to ask one of your protectors something: “What do you need me to do in the external world so that you can feel that you and the system are safe?”",
+    "When you want to ask your leader or guru self: “What direction is the most in alignment with truth, love, life and all beings?”",
+    "When you want to listen to your intuition: “I ask my intuition to give me a signal, my analytical mind to decipher it, my body to give me feedback as to whether my deciphering is correct and reality to give me feedback as to whether my deciphering is correct.”",
+    "When you want to know if a particular intuition you have is coming from your universal heart or from your programming (this one is longer and more complicated): “I ask my wise subconscious mind to help me see if the intuition or impulse I have about …is coming from my universal heart or from my family, my religion, marketing, erotic programming, my political tribe, my trauma response or an old deal I did as a child to belong. If it’s coming from my programming, I ask the parts responsible for it to step back and soften so that I can have true guidance from my universal heart that will help me make my life better in the most simple ways possible. Let my body give me feedback as to the difference.”",
+    "When you are daydreaming: “If this daydream has useful guidance for me, I ask my wise subconscious mind to show it to me. If this is my way of not dealing with my life, I ask my wise subconscious mind to help me come back to the present and deal with my life.”",
+    "When you are anxious: “What are you protecting me from? How can you trust more my adult self?”",
+    "When you suspect there is something true that you don’t know: “If knowing the truth is too much for me, please don’t show me everything. Show me first my capacity to be peaceful, and then, the content of my wounding.”",
+    "Once you get an answer, you can ask: “What can I do in my ordinary life to integrate what I have heard?”",
+    "The prompt will tell your subconscious what you want. The NLP will make sure you are getting it in a safe way."
+   ],
+   "run": "HG29_30-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG29_30-fxw1.out.txt",
+   "refix": true
+  }
+ ]
+}

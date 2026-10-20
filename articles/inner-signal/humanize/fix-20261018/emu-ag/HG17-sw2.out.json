@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ag/HG17-sw2.txt",
+  "input_words": 77,
+  "input_sha256": "2d4b5d865e37018eec932a27d3a58496c5d144d7f040d4f777212dd2362ecd88",
+  "balance_before": 88439,
+  "started_utc": "2026-10-18T07:52:31Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:52:37Z",
+  "response": {
+    "id": "b28da601-be78-4c60-8dc9-44a2afd65e09",
+    "tool": "humanize",
+    "text": "Just to look somewhere in the room. Let your eyes rest for a moment on something. Just noticing what you see. There’s a big difference between looking for something and seeing what’s already there.\n\nWhile you’re noticing something on a surface in front of you, see if you can notice something else at the same time. Perhaps what you’re sitting on and how it feels to be in contact with it. Then let something take your attention – perhaps a sound or even your own breathing.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 77
+    },
+    "elapsed": 5
+  },
+  "balance_after": 88362
+}

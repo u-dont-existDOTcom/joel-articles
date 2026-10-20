@@ -1,0 +1,110 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B61] Choose one simple scene: a room in the heart, a garden, a temple, a fire with the Protector nearby, a clear lake, or a chair where the adult waits. One scene is plenty.
+
+[B62] “Who or what needs to speak first?”
+
+[B63] Optional trance depth check
+
+[B64] “As I wait, I give up the responsibility of making anything happen.
+
+[B65] If it is useful, the wise subconscious may let one finger twitch, pulse, lift, warm, tingle, or become subtly noticeable when the inner meeting space is ready.
+
+[B66] I will not force it. I will not fake it. I will simply wait with love and notice.”
+
+[B67] A finger may move, a hand may warm, the breath may change, or nothing may happen. None proves truth; at most, something may be listening.
+
+[B68] A shortcut back into hypnosis
+
+[B69] Learn a useful induction and the full return below before developing a shortcut. My dad brought two fingers together in a mudra like the OK sign to help himself relax, including while driving. That’s his experience, not a recommendation to enter trance at the wheel. Keep alert calming and inward hypnosis on different cues.
+
+[B70] Choose a distinctive word, phrase, or optional gesture. During a familiar, welcome hypnotic state, pair it with that receptive way of listening—not peak emotional intensity, a child-state, or a traumatic scene. Give it the meaning you choose:
+
+[B71] When I’ve set aside time, settled somewhere appropriate, and deliberately use my cue to begin, I can return to this familiar way of listening. I can change direction or finish.
+
+[B72] Return fully. On a later suitable occasion, deliberately begin practice and try the cue. Give it time; gradually shorten the longer induction when the shortcut helps, and use the familiar route when it doesn’t. No fixed repetition count, instant depth, or particular sensation is required.
+
+[B73] Check usefulness and selectivity: does it help when chosen, remain absent when unchosen, and leave changing direction and returning workable? It mustn’t become obedience to a narrator, notification, or overheard word. Faster entry doesn’t determine what material you can handle.
+
+[B74] Never train, test, or use hypnotic re-entry while driving or doing anything requiring active attention. Open eyes and conditional wording are not safeguards.
+
+[B75] To retire the cue, stop rehearsing it, remove it from recordings or active app instructions, and return to the familiar induction. State your decision while awake; a cancellation sentence does not prove the association vanished instantly. Persistent unwanted responses or disorientation need qualified help. Any retained cue is for a future, separately chosen session; today’s altered state ends with the return.
+
+REWRITE:
+[CHANGED, replaces B61]
+Then you can do a room in your heart, or a garden, or a temple, or sitting next to a fire with your Protector nearby, or floating on a clear lake, or sitting in a chair, etc. Don't do more than one of these.
+
+[CHANGED, replaces B62]
+See who or what wants to talk to you first.
+
+[B63, as published] Optional trance depth check
+
+[CHANGED, replaces B64]
+Give up all responsibility for making it happen.
+
+[CHANGED, replaces B65]
+"When my wise subconscious knows that I am at the meeting space inside myself that it wants to talk to me at, it can make one of my fingers twitch, or pulse, or lift up, or feel warm, or tingly, or somehow different, if it wants to."
+
+[CHANGED, replaces B66]
+You're not going to make it happen or fake it. You're just going to wait with love for it to happen.
+
+[CHANGED, replaces B67]
+It doesn't mean that anything will happen, but if something happens with one of your fingers, or you feel some other bodily change, it doesn't necessarily mean that it's real, but it does mean that something is listening to you.
+
+[B68, as published] A shortcut back into hypnosis
+
+[CHANGED, replaces B69]
+Once you've learned some of the inductions on this website and also the bringing yourself all the way back down induction, you can make up your own shortcut for getting back under hypnosis. My dad used to do a mudra (hand sign) by bringing two fingers together in an "okay" sign, and it would help him relax. He even did it while driving, so don't use the same thing for calming yourself while driving as you do for going into inward hypnosis!
+
+[CHANGED, replaces B70]
+Choose a Unique Word, Phrase or Movement You may want to add a gesture, but it's not necessary. When you are in a familiar and welcome hypnotic state that you like - not at the height of an emotional experience, and not in a child state or with a traumatic scene - start to pair that state with that word, phrase or gesture. You are giving that word, phrase or gesture a meaning that you choose.
+
+[CHANGED, replaces B71]
+When you are in a place and time where you have set aside time and it is appropriate and you want to deliberately start hypnosis with your short cut, then you will find yourself in that familiar and welcome state, from where you can change the direction of your experience or end the hypnosis.
+
+[CHANGED, replaces B72]
+Return Fully When at another appropriate time you want to deliberately start practicing hypnosis, use your short cut. You can start to make your longer induction shorter as you find that the short cut works, but if it doesn't work, you can always use the familiar induction. There is no set number of times that you need to do this, or that you need to be instantaneously really deep into hypnosis or experience a particular sensation, it is completely up to you.
+
+[CHANGED, replaces B73]
+First, is it useful? Will it be there when you want it to be, not there when you don't want it to be? Can you change your mind about it and get back when you want to? It shouldn't mean you'll do anything you're told, anytime someone tells you, or even if you hear it overheard. Being able to go in faster should not limit what you can work with.
+
+[CHANGED, replaces B74]
+It's not a good idea to do it while driving or anything where you need to be actively paying attention even if it is open eyed and even if the words are conditional.
+
+[CHANGED, replaces B75]
+When you don't want it any more, stop practicing, take it out of any recordings or active apps you're using, go back to a familiar induction and say you're done using it. If you have problems not being able to stop using it or not being able to come back from it easily, get qualified help. The trigger should only be for the next time you decide you want to do a session, it shouldn't keep you out of line today.
+
+
+This is PART 4 of 4 of the section: only the stretches below are yours; the published blocks shown are the ones they replace, with the headings around them. Go through the points in your head; don't write them out. Return only the JSON array, nothing before or after it.

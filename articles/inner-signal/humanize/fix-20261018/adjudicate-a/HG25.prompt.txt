@@ -1,0 +1,122 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: LOST "autonomous" dropped from movements
+B2: SHIFT "chase"/"hobby" became "obsess"/"obsessed"
+B2: LOST "first" in "stabilize first"
+B2: INVENTED "etc." extends the list of entities
+B4: SHIFT "force memory recovery" merged with proving; "what happened" became "something"
+B5: SHIFT closed list of six became open categories ("basic ... like ... etc.")
+B7: INVENTED "They each need the others"
+B7: SHIFT "in proportion" became only "no total takeover"; "any inner state" widens the four roles
+B11: SHIFT "possession" narrowed to "demonic possession"
+B13: SHIFT "do not install" became "don't allow anyone to put in"
+B13: SHIFT "undisclosed third-party activation" became commands relayed via someone else
+B13: INVENTED "etc." opens the list
+
+ROUND-2 FIXES already made:
+B1 LOST autonomous movements: "Treat inner voices, images, movements" -> "Treat inner voices, images, autonomous movements"
+B2 LOST stabilize first: "Stabilize yourself." -> "Stabilize yourself first."
+B4 SHIFT force memory recovery, use trance to prove what happened: "DO NOT try to “force” memories to “prove” something to yourself or ignore" -> "DO NOT try to “force” memories, use trance to “prove” what happened, or ignore"
+B7 SHIFT the inner roles: "any inner state, like" -> "any inner role, like"
+B11 SHIFT possession, not only demonic: "demonic possession" -> "possession"
+B13 SHIFT do not install (yourself either): "Don’t ever allow anyone to put hidden “commands” in." -> "Don’t put in, or let anyone put in, hidden “commands”."
+
+PUBLISHED section:
+[B0] What not to do
+
+[B1] Do not treat inner voices, images, autonomous movements, or body signals as commands or proof. Listen, then reality-test.
+
+[B2] Do not chase grand downloads or turn demons, jinn, and “Unattached Burdens” into a hobby. Stabilize first, and seek help when reality-testing or function weakens.
+
+[B3] Do not use self-hypnosis while driving, bathing, swimming, operating equipment, supervising children, or doing anything that requires active attention.
+
+[B4] Do not force memory recovery, use trance to prove what happened, or suppress medical symptoms.
+
+[B5] Do not override hunger, fatigue, pain, grief, anger, or fear before understanding the signal.
+
+[B6] Do not prolong altered states indefinitely or treat intuition as fact without testing it.
+
+[B7] Keep the inner roles in proportion: the child does not lead adult life; the Protector cannot exclude all love; the Nurturer cannot erase consequences; the Leader cannot bypass the child; analysis and tenderness both remain available.
+
+[B8] Do not use NLP to override protectors, manufacture certainty, manipulate anyone, or perform healing when the body says no.
+
+[B9] Doubt, distraction, resistance, silence, and “no” do not prove that an induction is working.
+
+[B10] “The unconscious will keep me safe” does not replace clear limits, a safe setting, the ability to stop, and a tested exit.
+
+[B11] Ordinary sensations do not prove hidden trauma, illness, toxicity, possession, attachment, transformation, or subconscious truth.
+
+[B12] Imagined repair does not establish physical recovery, neurological repair, cellular change, or a cure.
+
+[B13] Do not install hidden instructions, undisclosed third-party activation, compulsory behavior, identity switching, or amnesia. A consciously chosen reusable cue should have a clear purpose, remain reviewable, and be retired if it becomes unwanted; saying “cancel” does not guarantee instant erasure.
+
+[B14] End every waking session with ordinary identity, movement, orientation, judgment, and a direct statement that the session has ended.
+
+REWRITE (current):
+[B0, as published] What not to do
+
+[CHANGED, replaces B1]
+DO NOT: Treat inner voices, images, autonomous movements or body signals as commands or proof. Listen, then always reality test them.
+
+[CHANGED, replaces B2]
+DO NOT obsess about “downloading” grandiose information or become obsessed with demons, jinn, “Unattached Burdens”, etc. Stabilize yourself first. Get help if necessary, especially if not reality testing well or if not functioning well in life.
+
+[CHANGED, replaces B3]
+DO NOT do self-hypnosis while driving a car, bathing, swimming, operating equipment, supervising children, or otherwise doing something that requires active attention.
+
+[CHANGED, replaces B4]
+DO NOT try to “force” memories, use trance to “prove” what happened, or ignore medical symptoms by “forcing” them down through hypnosis.
+
+[CHANGED, replaces B5]
+DO NOT “force” yourself to ignore basic body signals, like hunger, tiredness, pain, etc., or basic emotions, like grief, anger, fear, etc., before you understand what the signal is saying.
+
+[CHANGED, replaces B6]
+DO NOT “extend” altered states indefinitely or take intuitive hits as “real” without reality testing them.
+
+[CHANGED, replaces B7]
+DO NOT allow any inner role, like the “Inner Child” or “Protector” or “Nurturer” or “Leader” to take over completely. They each need the others: the child doesn’t run adult life, the Protector can’t shut out all love, the Nurturer can’t erase consequences, the Leader can’t skip over the child, and both analysis and tenderness stay available.
+
+[CHANGED, replaces B8]
+DO NOT use NLP techniques to “force” down “protectors” or to manufacture certainty, manipulate people, or “heal” something when the body is saying no.
+
+[CHANGED, replaces B9]
+Don’t convince yourself that negative indicators like doubt, distraction, resistance, or lack of response, or saying “No” are good indicators that the induction is working.
+
+[CHANGED, replaces B10]
+Don’t rely solely upon the “safety” of “the unconscious mind”. Always make certain you have clear limits, a safe setting, the ability to stop, and a way out you’ve tested.
+
+[CHANGED, replaces B11]
+Don’t believe that normal physical sensations prove hidden trauma, illness, body toxins, possession, “attachments”, “transformations” or some hidden “subconscious” truth.
+
+[CHANGED, replaces B12]
+Don’t believe that anything is “healed” physically or neurologically/cellularly, simply because it is “healed” in the imagination.
+
+[CHANGED, replaces B13]
+Don’t put in, or let anyone put in, hidden “commands”. A cue you choose consciously to reuse should have a clear purpose, stay reviewable, and be removed if you no longer want it. Just saying “cancel” doesn’t guarantee it’s instantly erased. Don’t allow anyone to give commands to someone else to give to “YOU” or to make YOU do anything or change to a different person or have amnesia, etc.
+
+[CHANGED, replaces B14]
+DO bring yourself all the way back at the end of every waking session: yourself again, moving, oriented, with your judgment back, and say straight out that the session has ended.

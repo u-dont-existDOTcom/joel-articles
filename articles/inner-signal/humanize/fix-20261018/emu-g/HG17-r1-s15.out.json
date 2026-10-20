@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s15.txt",
+  "input_words": 82,
+  "input_sha256": "fef750a6d8d313fc703475200af3bc0518b048f92269bf7a679afdcfa23b2f05",
+  "balance_before": 127830,
+  "started_utc": "2026-10-18T03:33:05Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:33:11Z",
+  "response": {
+    "id": "ec4d02c4-e7cc-49c9-8e26-26993fd9d6c8",
+    "tool": "humanize",
+    "text": "And then I simply wait. I give over the responsibility.\n\nIf it is useful at this time, my wise subconscious will allow some signal to come through – one finger will begin to twitch, or pulse, or lift, or warm, or tingle, or become noticeable to me in some way, showing that there is now a place for me to meet with it.\n\nI don’t force this, I don’t fake this, I just wait with love and notice.\n\nIt may or it may not. But neither proves the truth of it – it may still be listening.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 82
+    },
+    "elapsed": 6
+  },
+  "balance_after": 127748
+}

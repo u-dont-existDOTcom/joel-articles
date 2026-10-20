@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ar/HG18-mw1.txt",
+  "input_words": 250,
+  "input_sha256": "9ff120162e6070004d3e8cfbb81049b32d7bfb586f76b5833c7295ed3f80a392",
+  "balance_before": 83504,
+  "started_utc": "2026-10-18T09:40:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:40:57Z",
+  "response": {
+    "id": "fcf82cdd-ba22-4262-8a75-4f0a5b9df837",
+    "tool": "humanize",
+    "text": "Come all the way back\n\nBring yourself out of the session in reverse order to how you got into it. If you floated up, then float back down. Make sure you’re coming back down in the weight you want to be. If you shrank yourself, make sure you’re growing back to your normal size. If you went back to a younger version of yourself, or met other parts of yourself, make sure you know that you’re whole now, in this body, using the judgement of the age you are now. If you traveled somewhere, come back the same way you left, but make sure you’re not bringing anything back with you that you didn’t mean to.\n\n“Bring back with you only that which will be of use to you in your life now. Store away that which is not, until such time as you wish to use it. Come back now to this place, back into your body, back into normal life, back into the one honest action. There are no more instructions to keep you in this altered state, there is no instruction to take with you into normal life that will keep you in this altered state, there is no instruction to use in the future that will put you into this altered state again.\n\nCount yourself out of the session now. 1. Coming back now into your body, back into the weight you chose to have. 2. Coming back into your normal breathing pattern. 3. Hearing the sound in the room around you now, knowing where you are. 4. Moving your fingers and your toes, your shoulders and your eyes. 5. Opening your eyes, feeling normal, feeling present, the session is now over.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 250
+    },
+    "elapsed": 13
+  },
+  "balance_after": 83254
+}

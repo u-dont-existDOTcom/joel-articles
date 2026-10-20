@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG37-r1-s6.txt",
+  "input_words": 101,
+  "input_sha256": "2b78b5cb945416bb3d300026859fb94c84a7cc9b83ab321138a32f19b3be6a21",
+  "balance_before": 137126,
+  "started_utc": "2026-10-18T03:06:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:06:52Z",
+  "response": {
+    "id": "7c13e591-3c5a-487e-a337-89da2ff50dc9",
+    "tool": "humanize",
+    "text": "Do you mean a situation where you're experiecning something symbolically which represents a hostile presence, but you are able to work through to a resolution and end up feeling grounded and loving? Or, do you mean a situation that becomes paranoiac, that persists, that prevents you sleeping, that puts you or others at risk, or that you cannot reality test?\n\nIf the latter, you need to get help. If you think you are being attacked over a number of days, if you cannot sleep or function normally, if you are hearing voices or are compelled to harm yourself or others, if you are manic, or unable to communicate, or unable to reality test, you need to get help.\n\nIf your practice enhances your sense of love, grounding, relationship, honesty and ability to function in the world, carry on. If your practice enhances feelings of paranoia, inability to sleep, grandiosity, isolation, fear or feelings of unreality, stop and get help.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 101
+    },
+    "elapsed": 9
+  },
+  "balance_after": 136855
+}

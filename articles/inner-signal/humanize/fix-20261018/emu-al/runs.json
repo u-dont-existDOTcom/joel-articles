@@ -1,0 +1,18 @@
+[
+ {
+  "key": "HG36",
+  "sent": [
+   10,
+   11
+  ],
+  "flagged": [
+   10,
+   11
+  ],
+  "headings": [],
+  "words": 150,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-p/HG36.fixed.json",
+  "run": "HG36-pw1"
+ }
+]

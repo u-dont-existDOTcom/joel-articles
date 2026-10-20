@@ -1,0 +1,81 @@
+{
+ "key": "HG34",
+ "from": "fix-20261018/rev-b/HG34.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix E: Is the daydream helping or replacing your life?"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "paras": [
+    "Sometimes daydreaming is something that your subconscious mind is doing to help you. It is simulating an idea or event to help you digest grief or teach you something. The very act of daydreaming may be helping you to access your creativity or allowing your subconscious to show you a potential future. Sometimes your subconcious will show you things that you may be afraid of. Sometimes it will show you what you want.",
+    "Other times daydreaming may be taking you away from your life in a detrimental way. It may be that you are escaping reality and are addicted to fantasies rather than the real life. You may be dissociating or obsessing about romantic partners or escaping from being an adult.",
+    "How do you know which it is? Simply ask yourself if the daydreaming is taking you closer to life, with more clarity, love and ability to take action or if it is taking you away from life, in a repetitive and craving way.",
+    "If it is helping you then simply ask yourself what the guidance is and how you can use it.",
+    "If it is taking you away from life then change your body position by sitting upright, open your eyes, feel your feet and ask your subconscious to help you. Simply say to yourself, “Dear subconscious thank you for showing me images. If what you are showing me is helpful then please also show me the helpfulness in it. If what you are showing me is a way of avoiding dealing with life then please show me in a gentle but structured way how to deal with life as it is right now.”",
+    "Then ask yourself what it is that you need to do in “real” life that you are avoiding by daydreaming.",
+    "You may need to send a text message or stop sending text messages. You may need to clean up your room, eat, sleep, deal with grief, create, apologize, leave, tell the truth, make a plan, get help, get back to a task that you were supposed to be doing, stop chasing love that is not available to you etc."
+   ],
+   "run": "HG34-fxw1",
+   "file": "fix-20261018/emu-r/HG34-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "\"sit upright\" became vague \"change your body position\"",
+     "replace": "your body position",
+     "with": "your body position by sitting upright",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "\"feel the feet\" lost",
+     "replace": "open your eyes and ask",
+     "with": "open your eyes, feel your feet and ask",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "\"thank you for showing me images\" lost from the script",
+     "replace": "Dear subconscious if",
+     "with": "Dear subconscious thank you for showing me images. If",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "WRONG",
+     "what": "repeat: \"taking you away from life\" said twice in one sentence (R line)",
+     "replace": "way that takes you away from living your life",
+     "with": "way",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

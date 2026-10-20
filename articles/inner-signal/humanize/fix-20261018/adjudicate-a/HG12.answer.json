@@ -1,0 +1,4 @@
+[
+  {"finding": "B1: INVENTED \"big fan of self-hypnosis\" / \"have I mentioned\" added", "verdict": "OPEN", "why": "Published never says he is a big fan or has said so before; the opener is added and frames him as an advocate.", "replace": "Have I mentioned I'm a big fan of self-hypnosis? Doing it on my own", "with": "Doing self-hypnosis on my own"},
+  {"finding": "B3: LOST \"skilled\" guide qualifier", "verdict": "FIXED", "why": "Rewrite now says 'there are advantages to having a skilled guide'."}
+]

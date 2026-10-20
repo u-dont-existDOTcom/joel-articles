@@ -1,0 +1,9 @@
+[
+  {"finding": "B1: SHIFT \"romantic obsession\" became \"obsession with romantic partners\"", "verdict": "OK", "why": "'Obsession with romantic partners' still names romantic obsession as a daydream trap; only the wording of the object differs."},
+  {"finding": "B1: INVENTED dissociation \"from the pain of real life\"", "verdict": "FIXED", "why": "Rewrite now lists plain 'Dissociation.'"},
+  {"finding": "B1: LOST \"guidance inside it\" in the script (now \"what I need to know\")", "verdict": "FIXED", "why": "Rewrite now says 'please show me the guidance inside them'."},
+  {"finding": "B1: SHIFT \"help me deal with what I need to deal with\" became \"show me how to deal with life\"", "verdict": "OPEN", "why": "Script asks for help with 'what I need to deal with', not 'show me how to deal with life' in general.", "replace": "show me how to deal with life in a gentle but structured way", "with": "help me deal with what I need to deal with in a gentle but structured way"},
+  {"finding": "B1: LOST \"get embarrassingly practical\" framing", "verdict": "FIXED", "why": "Rewrite now says 'Then get embarrassingly practical'."},
+  {"finding": "B1: SHIFT \"what real-life action is this daydream replacing\" became \"what do I need to do that I'm avoiding\"", "verdict": "FIXED", "why": "Rewrite now asks 'What real-life action is this daydream replacing?'"},
+  {"finding": "B1: SHIFT \"stop chasing unavailable love\" became \"stop fantasizing about people who can't love me\"", "verdict": "OPEN", "why": "'Stop chasing' is a real-life action the daydream replaces; 'stop fantasizing about people who can’t love me' is the daydream itself and narrower.", "replace": "stop fantasizing about people who can’t love me.", "with": "stop chasing unavailable love."}
+]

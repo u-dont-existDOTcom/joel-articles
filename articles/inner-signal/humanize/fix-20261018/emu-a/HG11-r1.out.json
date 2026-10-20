@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG11-r1.txt",
+  "input_words": 190,
+  "input_sha256": "593dc68daedd4fcf310fce2ae8e9058350c6dfd061b8ef7920fda3c3ef41f58b",
+  "balance_before": 160603,
+  "started_utc": "2026-10-18T02:47:51Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:48:03Z",
+  "response": {
+    "id": "d0ea8f96-bf1d-4533-82ae-d92da4d0995c",
+    "tool": "humanize",
+    "text": "Forget the left-brain/right-brain cartoon\n\nI put the phrase syncing the hemispheres in quotation marks because I don’t want to over-interpret what is going on neuroscientifically. It’s a very useful description but a large resting state fMRI study of 1011 people did not support the common pop- neuropsychological notion that people in general can be left or right brained, although there is certainly evidence for the lateralization of some functions or networks.\n\nThe invitation is to elicit a high level of cooperation between the verbal, analytical, imaginal, emotional, somatic, intuitive, relational, spiritual and whatever other modes you want to include. It’s not an electoral process; nobody needs to win!\n\nThe mind of love retains its warmth, the mind of analysis its brightness. The mind of intuition is neither denied nor accepted dogmatically. The mind of rationality is neither destructive nor inhibited. The body has a voice- it can say yes, no or not yet. The imagination has opened the field and the adult can choose how to act. There is peace but there is also precision.\n\nLove without analysis becomes fantasy, analysis without love becomes sterile. Intuition without testing becomes delusion; testing without intuition becomes dead. These modes can each serve to modify the others.\n\nAnd of course it’s got to be a powerful state that leads to greater goodness in your life!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 190
+    },
+    "elapsed": 11
+  },
+  "balance_after": 160413
+}

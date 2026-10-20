@@ -1,0 +1,525 @@
+{
+ "key": "HG24",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-v/HG24.fixed.json",
+ "choices": {
+  "base": "rf-v/HG24.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     2,
+     3,
+     5,
+     6,
+     7,
+     8
+    ],
+    "folder": "emu-as"
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Troubleshooting"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Nothing happens"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Could you try starting a bit smaller?"
+   ],
+   "run": "HG24-ow1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Showing yourself just one sensation in your body / one word / whether to listen today or rest?"
+   ],
+   "run": "HG24-ow1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "It feels fake"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Do you know what exactly feels fake - the words, an image, what you are expecting, the role etc? It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it."
+   ],
+   "run": "HG24-ow1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B5: SHIFT \"isn't, by itself, resistance or missing capacity\" became \"doesn't matter\" that you lack an inner voice (the rewrite rules out a missing capacity that B8 allows)",
+     "replace": "it isn't about not having",
+     "with": "it isn't necessarily about not having",
+     "round": 1,
+     "from": "second reader of the emu-as sample (rf-za/HG24.oc), triaged"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B5: INVENTED the protective part protects you \"from doing this\" (the published text asks what it protects from)",
+     "replace": "a part that is protecting you from doing this, so",
+     "with": "a part that is protecting you, so",
+     "round": 1,
+     "from": "second reader of the emu-as sample (rf-za/HG24.oc), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?'"
+   ],
+   "run": "HG24-ow1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "It could also be an inner voice of a parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice."
+   ],
+   "run": "HG24-ow1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "If the fake feeling is telling you that you don't have the 'grown up' ability to do this yet, then don't try and convince yourself by using an inner voice. As long as you have enough observing ego to do this, try and borrow what you need from someone who you can imagine is 'good enough' to lend it to you. This could be a family member, friend, famous person etc. What you need might be warmth, boundary, direction etc. Try out something which rings true to you, whether it is a sentence, an action etc, and see how you get on."
+   ],
+   "run": "HG24-ow1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-as/HG24-ow1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "REPEAT",
+     "what": "R: borrow what you need (warmth, boundary, direction), in B8 and B8",
+     "replace": "Borrow what you need, e.g. warmth, boundary, direction etc.",
+     "with": "What you need might be warmth, boundary, direction etc.",
+     "round": 1,
+     "from": "second reader of the emu-as sample (rf-za/HG24.oc), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "The subconscious will not answer"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10,
+    11,
+    12
+   ],
+   "paras": [
+    "There may not be an answer. There may not be an answer that will help you. You may need to try asking a different question or you may just need to rest or finish your inner work for the day. If trust is actually a concern, you can try asking your subconscious “What would you need to know in order to trust me?” Some examples of answers might be “I need to know you will set boundaries” “I need to know you will do what you said you will do” “I need to know you won’t keep leaving” “I need to know you won’t think that knowing something means that you don’t need to do anything about it” etc."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "The inner child will not appear"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14,
+    15,
+    16
+   ],
+   "paras": [
+    "If you can figure out who the guard is, talk to it. If you can’t, just work with what you are aware of. You can say to the guard “You don’t have to let me in, just tell me what I need to do to make it safe”. Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of. You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes. Work on developing a sense of who you are and reparent yourself as best you can."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "You get anxious"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "paras": [
+    "Find out if the anxiety is bad enough that you want to decrease contact with it or if you can manage it and let it continue. If the anxiety is getting too bad, then you need to stop searching for content and help your body first, like the following:",
+    "-Where are your feet? Where are you sitting? Focus on your body, your breathing, and the room around you.",
+    "-Tell your Little parts and Protector parts that you’re there for your Little parts and that you recognize that your Protector parts are trying to protect you and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.",
+    "If you’re having chest pain, fainting, suicidal thoughts, psychosis-like symptoms, mania-like symptoms, severe dissociative symptoms, not being able to sleep, wanting to hurt yourself or somebody else, etc. then you need to get professional help. For more on handling anxiety, see the toolbox in Appendix D."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "You dissociate or feel unreal"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "Open your eyes, move around, feel something textured, name 5 things that you can see, and end your work for the day."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "You become grandiose"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    25,
+    26
+   ],
+   "paras": [
+    "Go eat, go to sleep, do some chores, accept some humility, find somebody to disagree with you, etc.",
+    "What do you say to yourself in that moment? “If it’s really there, it’ll still be here after a good night’s sleep, some food, some time, etc, and some subsequent humility, feedback, etc, etc.”"
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "You become too analytical"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28,
+    29,
+    30,
+    31
+   ],
+   "paras": [
+    "You’re being too analytical. “What if you didn’t try to improve it?” Put your hand on your heart, your other on your solar plexis, and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "You become too blissful or diffuse"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    33,
+    34
+   ],
+   "paras": [
+    "You’re being too blissful, diffuse, etc. Bring it down to a more specific level. “What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?”"
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    35
+   ],
+   "paras": [
+    "You want the hidden truth immediately"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    36
+   ],
+   "paras": [
+    "Don’t pry."
+   ],
+   "heading": false,
+   "note": "as published (2026-10-18): two Emulate samples of B36-B40 (emu-ac, emu-ad) read \"Refrain\" as a song refrain",
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    37
+   ],
+   "paras": [
+    "“Show me the capacity before the content.”"
+   ],
+   "heading": false,
+   "note": "as published (2026-10-18): two Emulate samples of B36-B40 (emu-ac, emu-ad) read \"Refrain\" as a song refrain",
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    38
+   ],
+   "paras": [
+    "You keep daydreaming"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    39,
+    40
+   ],
+   "paras": [
+    "You’re daydreaming. Sit up and open your eyes, and ask yourself, “What are you avoiding doing in the real world by doing this?”"
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    41
+   ],
+   "paras": [
+    "You get stuck in spiritual bypass"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    42
+   ],
+   "paras": [
+    "“Where has divine love not yet descended into the wound?”"
+   ],
+   "heading": false,
+   "note": "as published (2026-10-18): the emu-aa sample turned the question into a complaint",
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    43
+   ],
+   "paras": [
+    "Maybe you had a profound opening that showed you how much more love and freedom is possible. Let that matter, but don’t demand that the child receive it on command. Maybe when you prayed it seemed like you were being abandoned and condemned. Maybe you felt betrayed by a spiritual teacher. It may be worth exploring these, but you might not want to do more of the same."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    44
+   ],
+   "paras": [
+    "Sometimes it’s best to get some practical help while life still feels too small, and let yourself be curious about finding more happiness, without necessarily believing the explanation of how it’s going to work. Sometimes people have enough love and meaning to just live their lives, and trying to be spiritual doesn’t have to be another assignment."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    45
+   ],
+   "paras": [
+    "You get stuck in endless processing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    46
+   ],
+   "paras": [
+    "You may have a real wound that needs to be dealt with, but it’s possible you’re caught in a checking loop. Consider asking yourself “Will processing this again actually help me feel, understand, decide, or do something differently? Or is this a form of checking to see if I can get the reassurance that something is finally okay?” Sometimes, whether you’re grieving or doing your practice, it’s okay to cover the same ground again and again."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    47
+   ],
+   "paras": [
+    "The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do. You don’t have to have a meeting with every thought that pops into your head before you start your life. You don’t have to do any certain thing before you start your life."
+   ],
+   "run": "HG24-pw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ao/HG24-pw1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    48
+   ],
+   "paras": [
+    "What would the Leader choose to do now?"
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aa/HG24-fxw2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    49
+   ],
+   "paras": [
+    "You keep using hypnosis but not changing life"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    50,
+    51
+   ],
+   "paras": [
+    "You’re doing hypnosis over and over again without making changes in your life. Ask yourself, “What can I do to show my kid I’m for real?” Then go do it."
+   ],
+   "run": "HG24-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s/HG24-fxw2.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  }
+ ]
+}

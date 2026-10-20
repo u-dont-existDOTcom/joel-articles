@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG24-r1-s13.txt",
+  "input_words": 96,
+  "input_sha256": "c682b0c890480f977804b588b31245323ec522877de0d74dfcea4f1e49ef22df",
+  "balance_before": 138561,
+  "started_utc": "2026-10-18T03:04:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:49Z",
+  "response": {
+    "id": "27ade41d-44ce-4a21-b07d-19312f14c7cc",
+    "tool": "humanize",
+    "text": "How do you know the difference between really working with a wound and just going around in a checking loop? It's good to ask yourself if you are coming to it freshly each round and finding something new about it. If you're just grieving or practicing something, you don't need to find something new each time.\n\nIf you find you are going around in a loop, just let the thought be there and consciously engage in an activity or relationship you've chosen. You don't have to meet with every thought that comes up. You don't have to do a ritual each time.\n\n“What direction would the Leader choose now?”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 96
+    },
+    "elapsed": 5
+  },
+  "balance_after": 138465
+}

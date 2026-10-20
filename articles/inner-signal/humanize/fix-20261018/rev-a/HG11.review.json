@@ -1,0 +1,101 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "links": [
+   {
+    "published": "large resting-state fMRI study",
+    "new": "large resting state fMRI study"
+   }
+  ],
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "says the phrase is in quotation marks when it isn't, and loses that it describes how the state feels",
+    "replace": "I put the phrase syncing the hemispheres in quotation marks because I don’t want to over-interpret what is going on neuroscientifically. It’s a very useful description but a large",
+    "with": "“Syncing the hemispheres” is a very useful description of how the state feels, but I don’t want to over-interpret what is going on neuroscientifically. A large"
+   },
+   {
+    "type": "SHIFT",
+    "what": "can be useful",
+    "replace": "“Syncing the hemispheres” is a very useful description",
+    "with": "“Syncing the hemispheres” can be a very useful description",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'whatever other modes you want to include' isn't in the published list",
+    "replace": "spiritual and whatever other modes you want to include",
+    "with": "and spiritual modes"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the rational mind tests signals without killing them",
+    "replace": "The mind of rationality is neither destructive nor inhibited.",
+    "with": "The mind of rationality tests the signals without killing them."
+   },
+   {
+    "type": "SHIFT",
+    "what": "the intuitive mind offers signals without becoming dogma",
+    "replace": "The mind of intuition is neither denied nor accepted dogmatically.",
+    "with": "The mind of intuition offers its signals without becoming dogma.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "the next real action",
+    "replace": "and the adult can choose how to act.",
+    "with": "and the adult chooses the next real action.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'can drift', 'can become' became 'becomes': always, not can",
+    "replace": "Love without analysis becomes fantasy, analysis without love becomes sterile. Intuition without testing becomes delusion; testing without intuition becomes dead.",
+    "with": "Love without analysis can become fantasy, analysis without love can become sterile. Intuition without testing can become delusion; testing without intuition can become dead."
+   },
+   {
+    "type": "SHIFT",
+    "what": "B4: SHIFT \"Let the modes correct each other\" became \"can modify the others\"",
+    "replace": "serve to modify the others",
+    "with": "serve to correct the others",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the published says a powerful state matters only if something survives it, and names what: kinder behavior, more humility, better judgment, real service, a more workable ordinary life",
+    "replace": "it’s got to be a powerful state that leads to greater goodness in your life!",
+    "with": "it’s got to lead somewhere! A powerful state only matters if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life."
+   }
+  ],
+  "march_note": "march-a: my first fix had no break where Emulate had one (B to S); the reaction is back as its own sentence"
+ }
+]

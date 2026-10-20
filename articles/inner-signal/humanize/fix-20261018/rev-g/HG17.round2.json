@@ -1,0 +1,67 @@
+[
+ {
+  "block": 13,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the words are fixed: 'stop' ends it, 'less' reduces the demand, 'quiet' stops the words",
+    "replace": "Decide on a word to use to come out (e.g. 'stop'). You may also want words to make it less demanding (e.g. 'less'), and to stop the words (e.g. 'quiet').",
+    "with": "'Stop' ends the exercise, 'less' makes it less demanding, and 'quiet' stops the words.",
+    "round": 2,
+    "from": "verify-e (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 40,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "feel the feet; let the breath be natural",
+    "replace": "You can do this practice sitting up, with your eyes open, etc.",
+    "with": "You can do this practice sitting up, with your eyes open, feeling your feet and letting your breath be natural.",
+    "round": 2,
+    "from": "verify-e (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 42,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "look at one object and feel the spine (both steps)",
+    "replace": "Then choose an object to look at, or feel your spine, etc.",
+    "with": "Then choose an object to look at, and feel your spine.",
+    "round": 2,
+    "from": "verify-e (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 69,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "keep alert calming and inward hypnosis on different cues (not only while driving)",
+    "replace": "So don't use the same thing for calming yourself while driving as you do for going into inward hypnosis!",
+    "with": "So keep the cue you use for calming yourself while alert separate from the one for going into inward hypnosis!",
+    "round": 2,
+    "from": "verify-e (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 75,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "persistent unwanted responses or disorientation need qualified help",
+    "replace": "If you have problems not being able to stop using it or not being able to come back from it easily, get qualified help.",
+    "with": "If unwanted responses or disorientation keep coming back, get qualified help.",
+    "round": 2,
+    "from": "verify-e (second reader)"
+   }
+  ]
+ }
+]

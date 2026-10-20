@@ -1,0 +1,340 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "for sleep hypnosis (not 'if you are using this page to help you go to sleep'); a stray space where the link was",
+    "replace": "If you are using this page to help you go to sleep, use Nimja's sleep playlist .",
+    "with": "If you want sleep hypnosis, use Nimja's sleep playlist."
+   }
+  ],
+  "links": [
+   {
+    "published": "Nimja’s sleep playlist",
+    "new": "Nimja's sleep playlist"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "decide whether to begin; one purpose",
+    "replace": "Preview, choose a purpose, decide to start.",
+    "with": "Preview, choose one purpose, decide whether to start."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "replaced by no-trance contact",
+    "replace": "eyes open or with no trance contact replacement.",
+    "with": "eyes open, or replaced by no-trance contact."
+   },
+   {
+    "type": "SHIFT",
+    "what": "move (not 'move on')",
+    "replace": "move on, imagine,",
+    "with": "move, imagine,"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the mind doesn't owe anybody a movie",
+    "replace": "movement, knowing etc.",
+    "with": "movement, knowing etc. The mind doesn’t owe anybody a movie."
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "which area or inner voice wants attention; what support is needed",
+    "replace": "Ask yourself where in your body (and/or voice) you need to stretch or release and what you need by way of support to do this.",
+    "with": "Ask yourself which area, or which inner voice, wants attention, and what support is needed."
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "the support carries 1% more effort, as if floating without losing contact (Emulate had you use 1% more effort)",
+    "replace": "Use only 1% more effort than it takes to simply rest your weight on the support, or use the same weight and pressure.",
+    "with": "Notice where your weight is carried, and let the support carry 1% more of your effort, as if floating without losing contact, or keep the same weight and pressure."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "alternate attention: ordinary awareness on the inhale, the support on the exhale",
+    "replace": "spending more time on in-breaths in normal awareness, and on out-breaths focusing on the support.",
+    "with": "turning your attention toward normal awareness on the in-breath and toward the support on the out-breath."
+   },
+   {
+    "type": "LOST",
+    "what": "keep the support, then return",
+    "replace": "Return to normal weight and firm contact as you choose.",
+    "with": "Keep the support, come back to the weight and firm contact you choose, and return."
+   },
+   {
+    "type": "SHIFT",
+    "what": "what becomes easier to hear (a close call the second reader named)",
+    "replace": "What can you hear now?",
+    "with": "What becomes easier to hear?",
+    "round": 2,
+    "from": "verify-d (second reader, close call)"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "noticing where attention lands between repetitions",
+    "replace": "over and over, until suddenly, stop the rhythm.",
+    "with": "over and over, noticing where your attention lands in between, until suddenly, stop the rhythm."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "notice the first quiet beat, without trying to become blank",
+    "replace": "This will bring about its own rhythm, the first one that appears - do not try and make it blank.",
+    "with": "Notice the first quiet beat - do not try and make your mind blank."
+   },
+   {
+    "type": "LOST",
+    "what": "let ordinary rhythm resume and return",
+    "replace": "Then go back to using a normal rhythm.",
+    "with": "Then let your normal rhythm come back, and return."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'suddenly'",
+    "replace": "until suddenly, stop the rhythm.",
+    "with": "then stop the rhythm.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "one concern with several strands; yarn unwinding, bubbles settling, knots placed beside you ('have some by you' is new)",
+    "replace": "A quick exercise for when you have several concerns going on. Visualise each one as a strand of yarn, or even better, have some by you to help.",
+    "with": "A quick exercise for when one concern has several strands. Imagine yarn unwinding, bubbles settling, or knots placed where you can see them beside you."
+   },
+   {
+    "type": "LOST",
+    "what": "count only the strands you set down; nothing is erased; which needs warmth, protection or action",
+    "replace": "How many did you end up with?",
+    "with": "Count only the strands you actually set down; nothing is erased. Which one needs warmth, protection, or action?"
+   },
+   {
+    "type": "SHIFT",
+    "what": "keep one useful strand; return (not 'come back to this page')",
+    "replace": "Now pick one that is important to do something about, put the others somewhere you can see them, and come back to this page.",
+    "with": "Now keep one useful strand, put the others somewhere you can see them, and return."
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "who or what needs to speak (not whoever you want to speak to)",
+    "replace": "until you are in a place where you can directly speak to whoever/whatever it is you want to speak to.",
+    "with": "until you are in a place where whoever or whatever needs to speak can speak."
+   },
+   {
+    "type": "LOST",
+    "what": "notice a detail without assigning hidden meaning",
+    "replace": "Observe what you want to observe,",
+    "with": "Notice a detail without giving it a hidden meaning,"
+   },
+   {
+    "type": "LOST",
+    "what": "the mystery is how the scene develops",
+    "replace": "just don't make it into a \"what are they going to do to you?\" kind of thing.",
+    "with": "the mystery is how the scene develops, so don't make it into a \"what are they going to do to you?\" kind of thing.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "imagine warmth, steadiness or attention spreading (not 'the current condition')",
+    "replace": "Sense the current condition and sense it radiating outward to the next area",
+    "with": "Sense what is already there, and imagine warmth, steadiness or attention radiating outward to the next area"
+   },
+   {
+    "type": "SHIFT",
+    "what": "without claiming medical repair; does the body want contact, space, words or ordinary care",
+    "replace": "Sense what the body needs to feel better, without thinking of medical terms.",
+    "with": "Notice what changes, without claiming any medical repair. Does the body want contact, space, words, or ordinary care?"
+   },
+   {
+    "type": "WRONG",
+    "what": "return (not 'repeat the process')",
+    "replace": "and repeat the process.",
+    "with": "and return."
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "patient care (unhurried), not working with a patient",
+    "replace": "First get ready as if you were going to work with a patient. Time, place, tools and boundaries.",
+    "with": "First get ready for some patient, unhurried care: time, place, tools and boundaries."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "let the signal, feeling or younger state come only as close as is welcome",
+    "replace": "When you invite them in, the signal, the feeling or the younger state to come as close as you want them to be.",
+    "with": "Let the signal, the feeling or the younger state come only as close as is welcome."
+   },
+   {
+    "type": "SHIFT",
+    "what": "ask before responding; reconnect only where welcome; rest and reassess",
+    "replace": "Ask them what they need, wait and see if you want to reconnect with them. If not, rest and see again.",
+    "with": "Ask before you respond, wait, reconnect only where that’s welcome, rest, and see again."
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "an inner adult or a borrowed function can help",
+    "replace": "speak to them.",
+    "with": "let that help."
+   },
+   {
+    "type": "SHIFT",
+    "what": "'good as you', not 'as good as you can'",
+    "replace": "The goal is to be as good as you can and not erase your history.",
+    "with": "Aim for “good as you,” not an erased history."
+   },
+   {
+    "type": "WRONG",
+    "what": "close the workspace (not 'as you would with a patient')",
+    "replace": "Finally, close as you would with a patient.",
+    "with": "Finally, close the workspace."
+   }
+  ]
+ },
+ {
+  "block": 20,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "a quality you understand (warmth, boundary, steadiness, curiosity, dignity), 1% more access through posture, voice or attention; never becoming someone else",
+    "replace": "Choose someone or something who has a characteristic you want to adopt. Close your eyes and imagine them. Now imagine yourself becoming them, standing, walking and talking like them, just 1% more, or if you are uncomfortable with this, simply observe them, but in either case be aware of how you now have more access to that quality.",
+    "with": "Choose a quality you understand, like warmth, a boundary, steadiness, curiosity or dignity. Close your eyes and imagine your posture, voice or attention with just 1% more access to it, or if you are uncomfortable with this, simply observe it."
+   },
+   {
+    "type": "LOST",
+    "what": "to strengthen access, not replace identity",
+    "replace": "Repeat a few times.",
+    "with": "Repeat a few times, to strengthen your access to it, not to become someone else."
+   },
+   {
+    "type": "SHIFT",
+    "what": "how would the quality meet today's situation",
+    "replace": "Now think of a situation you want to use that characteristic in.",
+    "with": "How would that quality meet the situation you’re in today?"
+   },
+   {
+    "type": "LOST",
+    "what": "keep the quality and one useful action, release the role, 'I am myself', return",
+    "replace": "Finally let go of the person/thing, but keep the characteristic, and say to yourself \"I am me\", and notice how you have increased access to the characteristic you wanted.",
+    "with": "Finally keep the quality and one useful action, let go of the role, say to yourself \"I am myself\", and return."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'close your eyes'",
+    "replace": "Close your eyes and imagine",
+    "with": "Imagine",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "observe it when you prefer (not only 'if uncomfortable')",
+    "replace": "or if you are uncomfortable with this, simply observe it.",
+    "with": "or, if you’d rather, simply observe it.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "the element's name: observable pacing",
+    "replace": "Things to do in between:",
+    "with": "Observable pacing:"
+   },
+   {
+    "type": "SHIFT",
+    "what": "genuine choice among the options ('do whatever comes to mind' is new)",
+    "replace": "Choice: do whatever comes to mind, answer the question",
+    "with": "Genuine choice: answer the question"
+   },
+   {
+    "type": "SHIFT",
+    "what": "record a word, sensation, impulse, objection or silence without taking it as proof (not 'no interpretation')",
+    "replace": "write anything that comes to mind, no interpretation.",
+    "with": "write down any word, sensation, impulse, objection, or silence that comes, without taking it as proof."
+   },
+   {
+    "type": "WRONG",
+    "what": "the element's name: handoff",
+    "replace": "Other autonomous:",
+    "with": "Handoff:"
+   },
+   {
+    "type": "LOST",
+    "what": "one small action",
+    "replace": "take an action based on that",
+    "with": "do one small action based on that",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "full alertness isn't an inferior version of the practice",
+    "replace": "Deepener: none, it is not necessary to reach a state that is less alert.",
+    "with": "Deepener: none, full alertness isn’t a lesser version of the practice.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ }
+]

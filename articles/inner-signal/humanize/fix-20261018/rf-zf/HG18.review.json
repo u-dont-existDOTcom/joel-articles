@@ -1,0 +1,90 @@
+[
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B2: LOST \"one honest action\" among what you return to",
+    "replace": "to the day in which I am participating in this session now.",
+    "with": "to the day in which I am participating in this session now, and to one honest action.",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT \"you have given me\" narrows \"all instructions\" to an unnamed giver",
+    "replace": "All instructions you have given me to carry me deeper",
+    "with": "All instructions to carry me deeper",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B2: LOST \"neither keeps today's altered state running\"",
+    "replace": "is the one I consciously choose to.",
+    "with": "is the one I consciously choose to, and neither of them keeps me in this state.",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B2: LOST adult judgment \"fully available\"",
+    "replace": "with my adult judgment.\"",
+    "with": "with my adult judgment fully back.\"",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "B3: UNCLEAR \"five steps listed above\" but they follow",
+    "replace": "using the five steps listed above:",
+    "with": "using these five steps:",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B4: SHIFT \"stand only when steady\" became \"get up when you feel ready\"",
+    "replace": "Get up when you feel ready.",
+    "with": "Get up only when you feel steady.",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B4: SHIFT \"note only what actually appeared\" became \"anything that has come up\"",
+    "replace": "anything that has come up for you",
+    "with": "only what actually came up for you",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B5: SHIFT imperative \"say\" and \"don't wait for the narrator to release you\" softened to \"you can... on your own\"",
+    "replace": "you can say to yourself",
+    "with": "say to yourself",
+    "round": 1,
+    "from": "second reader of 463g HG18-wb (rf-ze/HG18.wb.verify.part1.out.txt), triaged"
+   }
+  ]
+ }
+]

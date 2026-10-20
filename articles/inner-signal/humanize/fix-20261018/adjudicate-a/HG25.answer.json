@@ -1,0 +1,14 @@
+[
+  {"finding": "B1: LOST \"autonomous\" dropped from movements", "verdict": "FIXED", "why": "Rewrite now says 'Treat inner voices, images, autonomous movements or body signals'."},
+  {"finding": "B2: SHIFT \"chase\"/\"hobby\" became \"obsess\"/\"obsessed\"", "verdict": "OPEN", "why": "Published warns against chasing grand downloads and making these a hobby; 'obsess' and 'obsessed' raise the bar to obsession.", "replace": "obsess about “downloading” grandiose information or become obsessed with", "with": "chase grand “downloads” or make a hobby of"},
+  {"finding": "B2: LOST \"first\" in \"stabilize first\"", "verdict": "FIXED", "why": "Rewrite now says 'Stabilize yourself first.'"},
+  {"finding": "B2: INVENTED \"etc.\" extends the list of entities", "verdict": "OK", "why": "'etc.' is only list style; demons, jinn and 'Unattached Burdens' are all still named."},
+  {"finding": "B4: SHIFT \"force memory recovery\" merged with proving; \"what happened\" became \"something\"", "verdict": "FIXED", "why": "Rewrite now says 'try to “force” memories, use trance to “prove” what happened'."},
+  {"finding": "B5: SHIFT closed list of six became open categories (\"basic ... like ... etc.\")", "verdict": "OK", "why": "All six signals are still named (hunger, tiredness, pain, grief, anger, fear); 'like ... etc.' is list style."},
+  {"finding": "B7: INVENTED \"They each need the others\"", "verdict": "OPEN", "why": "Published never says the roles need each other; it only lists limits. The sentence is an added claim.", "replace": "They each need the others: the child", "with": "The child"},
+  {"finding": "B7: SHIFT \"in proportion\" became only \"no total takeover\"; \"any inner state\" widens the four roles", "verdict": "OPEN", "why": "Published says keep the roles 'in proportion'; 'take over completely' only forbids total domination, a narrower rule. 'Inner role' is fixed.", "replace": "to take over completely", "with": "to get out of proportion"},
+  {"finding": "B11: SHIFT \"possession\" narrowed to \"demonic possession\"", "verdict": "FIXED", "why": "Rewrite now says 'possession', not 'demonic possession'."},
+  {"finding": "B13: SHIFT \"do not install\" became \"don't allow anyone to put in\"", "verdict": "FIXED", "why": "Rewrite now says 'Don’t put in, or let anyone put in, hidden “commands”.'"},
+  {"finding": "B13: SHIFT \"undisclosed third-party activation\" became commands relayed via someone else", "verdict": "OPEN", "why": "Published bans 'undisclosed third-party activation'; 'give commands to someone else to give to YOU' describes relayed commands instead.", "replace": "give commands to someone else to give to “YOU” or to make YOU do anything", "with": "put in undisclosed third-party activation, or to make YOU do anything"},
+  {"finding": "B13: INVENTED \"etc.\" opens the list", "verdict": "OK", "why": "'etc.' is only list style; commands, compulsion, identity change and amnesia are all still named."}
+]

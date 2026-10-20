@@ -1,0 +1,113 @@
+{
+ "key": "HG06",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-f/HG06.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ac"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Protecting Yourself from Hypnotists"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?"
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "As associated with the Silva “Mind Control” method:"
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "refix_was": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "“If you don’t learn to control your mind, someone else will!”"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "As you're certainly aware there are many, many forces at work in the world that are already training your mind. With self-hypnosis you can do much of the same thing from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world."
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ac/HG06-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "B6: INVENTED forces \"trying to train\" the mind \"in ways that benefit them\" (intent and self-interest; published says \"already training\")",
+     "replace": "that are trying to train your mind in ways that benefit them",
+     "with": "that are already training your mind",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"listening closely\" became \"communicating with\"",
+     "replace": "befriending and communicating with",
+     "with": "befriending and listening to",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

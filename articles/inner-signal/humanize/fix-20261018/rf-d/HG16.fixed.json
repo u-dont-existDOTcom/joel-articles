@@ -1,0 +1,325 @@
+{
+ "key": "HG16",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG16.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "De-hypnosis: wake up inside the influence"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Manipulation often comes with any of the following; urgency, you are special, FOMO (fear of missing out), not be included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, and an excessive sense of certainty about something way too quickly and you have a sense that one good question will break the spell."
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B2: SHIFT \"often arrives with\" became \"you are likely being manipulated if you feel any\" (a sign that often comes with manipulation became a diagnosis)",
+     "replace": "You are likely being manipulated if you feel any of the following",
+     "with": "Manipulation often comes with any of the following",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "First of all, if you sense you are being hypnotically influenced, stop. Don’t obey immediately, but don’t rebel automatically, just realise that you are being influenced."
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B3: SHIFT \"immediately\" and \"automatic\" dropped, now flat \"don't obey, don't rebel\" (qualifiers restored; the section itself says no remains no)",
+     "replace": "Don’t obey, but don’t rebel",
+     "with": "Don’t obey immediately, but don’t rebel automatically",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Secondly, some of the ways that hypnotic language is used to manipulate are where you have consented to something you didn’t realise, or you being given only one choice, or something not yet agreed upon is embedded in a sentence. For example;"
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "You will soon realise that I am right …. Or you may, in time, decide to admit that …. Or the only reason you do not agree is …. Or part of you already knows …. Or your higher self wants …. Or everyone who is awake knows …. Or the reason you do not believe that is true is because your ego does not want you to …"
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "If you are unsure, you may like to ask yourself the following questions;"
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "What am I being asked to agree to? What choice am I being given? What is being assumed that I may not agree with? Who benefits if I comply? What is the emotionally charged part of what is being said? What is not being said? If I say no, what will the consequences be? (Will I be punished, shamed, laughed at, not be included, be told I am not ‘awake’ etc?)"
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "This is a good guide to help engage your ‘adult’ in the conversation. The more powerful the ‘state’ the more you will need to make use of these."
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Soft language can still take away choice"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Be aware that even when using ‘permissive’ language, you can still take away choice. Be aware of;"
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Indirect suggestions can by-pass the subject’s ‘skeptical guard’. They do this by not directly telling the subject what to do. This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner."
+   ],
+   "run": "HG16-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "Indirect suggestion",
+     "new": "Indirect suggestion"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B11: SHIFT \"can slip past\" became \"a very effective way to by-pass\" (a possibility made a strong claim)",
+     "replace": "are a very effective way to by-pass",
+     "with": "can by-pass",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "1) Utilizing induction techniques while seemingly explaining something (even something like \"anti hypnosis\" can use the same mechanics of induction)."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "2) In any way making it so that whatever the subject says, shows that a suggestion has worked, when this may not be the case (this includes answering yes, no, noticing something, not noticing something, trying not to do something, not answering, etc etc etc)"
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "3) Including phrases such as whether or not you notice etc etc"
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "4) Including any concepts that may make a subject think they must obey, or take on a role, or that it is good/safe to please the guide or belong to someone etc etc."
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "5) Fractionating a subject without telling them that you are going to take them in and out of absorption a few times."
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "6) Giving a subject cues (words, gestures, blinks, sounds, listening a certain number of times etc) that you intend to use to make them do something at a later date, without informing them exactly what it is that they will be doing."
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "7) Including suggestions for amnesia, or making a subject think that something (dream, amnesia, imagery, body experiences etc) has happened when this may not necessarily be the case."
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "8) Not taking a subject out at the end of a recording, or leaving them with a role to play, with their judgement down, with their physical abilities down, with their minds blank, or in any other way different for an indefinite length of time."
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "In order for a subject to be making a REAL choice whilst in a hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish. This could be by making the hypnosis lighter, using a different method of hypnosis, being in full awareness whilst in a hypnosis, or being able to pause or stop the hypnosis. Just so you know, if you say no, you are quite entitled to mean NO, even if someone with a nice voice is asking you to do something! Also, just because you don't say anything, or don't know what to say, DOES NOT mean yes!"
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "(see appendix C for a longer version of the de hypno)"
+   ],
+   "run": "HG16-fxw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG16-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  }
+ ]
+}

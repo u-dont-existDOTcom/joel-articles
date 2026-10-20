@@ -1,0 +1,20 @@
+[
+  {"finding": "B1: SHIFT \"not a treatment validated as a whole\" became \"I do not claim ... validated\" (\"treatment\" dropped)", "verdict": "FIXED", "why": "Rewrite now says 'validated as a whole treatment', restoring 'treatment' and 'as a whole'."},
+  {"finding": "B1: INVENTED \"how I have found it useful\" (personal-usefulness claim)", "verdict": "FIXED", "why": "The 'found it useful' claim is gone; the rewrite says only 'That combination is an adaptation' plus the non-validation line."},
+  {"finding": "B3: LOST \"especially\" before the page numbers", "verdict": "OK", "why": "The same pages are still pointed to for the same topics; 'especially' only stresses them."},
+  {"finding": "B3: SHIFT four topics became \"some aspects of interactive hypnosis such as...\"; \"sensory learning\" became \"use other senses in learning\"", "verdict": "OK", "why": "All four topics are named: interactive hypnosis, 'other senses in the learning process', self-hypnosis, 'a definite return'. 'Such as' is only looser wording."},
+  {"finding": "B3: INVENTED \"for professional hypnotists\"; \"is\" softened to \"more of\"", "verdict": "FIXED", "why": "Rewrite now says 'It is a professional clinical book, not a self-help one'; 'for professional hypnotists' and 'more of' are gone."},
+  {"finding": "B3: LOST \"wholesale\"; \"historical claims imported into practice\" became \"historical information taken at face value\"", "verdict": "FIXED", "why": "Rewrite now says 'its historical claims: don't bring them wholesale into solo practice', restoring both 'wholesale' and 'claims'."},
+  {"finding": "B5: SHIFT \"tutorials describe techniques\" became \"guide's information is sourced from\" them", "verdict": "FIXED", "why": "Rewrite now says the tutorials 'describe language and cueing techniques', as published, not that the guide is sourced from them."},
+  {"finding": "B5: INVENTED \"based on these sources ... adapted for a slightly different purpose\"", "verdict": "FIXED", "why": "The 'based on these sources ... adapted for a slightly different purpose' sentence is removed; only 'are my adaptations' remains."},
+  {"finding": "B7: LOST \"bodily\" in \"bodily tracking\"", "verdict": "FIXED", "why": "Rewrite now says 'key ideas of bodily tracking'."},
+  {"finding": "B7: INVENTED \"key ideas ... in depth\" (books' coverage)", "verdict": "FIXED", "why": "'In depth' is removed; 'Parts of this post draw on' carries the published 'inform', so the books' role is as published."},
+  {"finding": "B9: LOST \"repair\" (\"working on this\" has no clear referent)", "verdict": "FIXED", "why": "Rewrite now says 'practical and relational repair'."},
+  {"finding": "B9: SHIFT \"mutual peer support\" became \"working on this together with another peer\"", "verdict": "FIXED", "why": "Rewrite now says 'mutual peer support'."},
+  {"finding": "B9: INVENTED \"etc.\" opens the topic list", "verdict": "OK", "why": "'etc.' is only list style; all six published topics are still named."},
+  {"finding": "B10: SHIFT \"pages discuss X\" became \"the guide's information is based on\" those pages", "verdict": "OK", "why": "Same pages and topics are pointed to; 'based on' is how a sources note frames them, and 'is an adaptation' follows."},
+  {"finding": "B10: INVENTED \"etc.\" opens the list", "verdict": "OK", "why": "'etc.' is only list style; renurturing work, somatic work and nurturing capacities are all still named."},
+  {"finding": "B10: SHIFT \"those ideas\" (both books) became \"this method is adapted from that book\" (one book)", "verdict": "FIXED", "why": "Rewrite now says 'Applying those ideas to an adult’s younger feeling states is an adaptation', covering both books."},
+  {"finding": "B14: INVENTED \"good\" overview (value judgment)", "verdict": "FIXED", "why": "Rewrite now says 'has an overview of hypnosis', without 'good'."},
+  {"finding": "R: the guide adapts its sources rather than copying them, in B5 and B5", "verdict": "FIXED", "why": "The adaptation point is now made once, in 'are my adaptations'; the second 'based on ... adapted' sentence is gone."}
+]

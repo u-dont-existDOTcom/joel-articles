@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s10.txt",
+  "input_words": 165,
+  "input_sha256": "1c4358afa058117be1edc09e2ae9371186adc5a3a4f189930109b8096a61bc35",
+  "balance_before": 128194,
+  "started_utc": "2026-10-18T03:32:33Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:32:44Z",
+  "response": {
+    "id": "c1742a28-4fe5-451d-8de0-92fb37429292",
+    "tool": "humanize",
+    "text": "You can do this practice sitting up, with your eyes open, etc.\n\nBegin by saying to yourself that you are not going to go away in this practice, you are coming more.\n\nThen choose an object to look at, or feel your spine, etc.\n\nAsk yourself if your daydreaming is helping you to receive guidance or digest emotional experiences, or if you are escaping from something.\n\nThen you can ask for help to take action based on the guidance or to come into the present moment and see what you are escaping from.\n\nIf you find that being still leads you to escape into sleepiness and diffuse states, you can work with increasing alertness rather than relaxation, keep your eyes open and work with doing a movement with your hands, which you repeat for a while and then stop deliberately in order to notice if there is any residual activity.\n\nYou can say something like: ‘While you keep your eyes open, press your thumb and forefinger together and then let go; do this a few times, becoming more and more clear and alert each time. Now deliberately stop doing that movement and notice if there is any residual activity or if it has completely stopped.’ Work with a level of alertness that is useful to you.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 165
+    },
+    "elapsed": 11
+  },
+  "balance_after": 128029
+}

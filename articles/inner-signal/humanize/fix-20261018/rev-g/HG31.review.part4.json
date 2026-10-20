@@ -1,0 +1,53 @@
+[
+{"block": 70, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'optionally' turns the instruction to ask into a choice", "replace": "optionally ask", "with": "ask"}
+]},
+{"block": 71, "verdict": "OK"},
+{"block": 72, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'one small action' became 'what additional action'", "replace": "what additional action to take", "with": "one small action to take"}
+]},
+{"block": 73, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'visible' became 'obviously under control'", "replace": "obviously under control", "with": "visible"},
+{"type": "SHIFT", "what": "cue can't authorize a decision, prove an intuition or suppress a warning; here vaguer, and 'warning' lost", "replace": "be used for decision-making, intuition, inhibition, or otherwise be under someone else's control.", "with": "authorize a decision, prove an intuition, suppress a warning, or let another person control the response."}
+]},
+{"block": 74, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the definition: an advance 'if X, then Y' plan linking a cue to a chosen response", "replace": "implementation intention , for which", "with": "implementation intention , an advance “if X, then Y” plan that links a recognizable cue with a chosen response, for which"},
+{"type": "SHIFT", "what": "the paper supports the general mechanism; 'evidence of efficacy' claims more", "replace": "there is evidence of efficacy", "with": "the general mechanism is supported"},
+{"type": "SHIFT", "what": "'hasn't been studied directly' became 'probably hasn't been studied'", "replace": "probably hasn't been studied", "with": "hasn't been studied directly"}
+]},
+{"block": 75, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'like any cue' is new; the risk is about rehearsing synchronicity as a cue", "replace": "Synchronicity cues, like any cue, run the risk", "with": "Synchronicity cues run the risk"},
+{"type": "LOST", "what": "the caveat that ordinary pattern noticing is not itself pathological", "replace": "traits on the psychosis spectrum (Blain et al., Grant et al.).", "with": "traits on the psychosis spectrum, although ordinary pattern noticing is not itself pathological (Blain et al., Grant et al.)."}
+]},
+{"block": 76, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "sleeplessness, anxiety etc. are triggers if the cue increases them, not only signs of false positives", "replace": "are creating false positives (", "with": "are creating false positives or making any of these worse ("},
+{"type": "SHIFT", "what": "'difficulty distinguishing observation from interpretation' became 'unable to tell if they are real'", "replace": "you find yourself unable to tell if they are real or not", "with": "you have difficulty distinguishing observation from interpretation"}
+]},
+{"block": 77, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "script lost 'release this association' and 'return coincidence to ordinary uncertainty'", "replace": ", and I let it go.", "with": ". I release this association and return coincidence to ordinary uncertainty."},
+{"type": "LOST", "what": "the caveat: the statement expresses your decision but does not prove the association has vanished", "replace": "so that you stop rehearsing it.", "with": "so that you stop rehearsing it. The statement expresses your decision; it does not prove the association has vanished immediately."}
+]},
+{"block": 79, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "dishonest reframing declares the problem was secretly good all along; 'no better off' is new", "replace": "When I reframe something that is dishonest with myself in the process, I’m no better off than before,", "with": "Dishonest reframing declares that the problem was secretly good all along,"}
+]},
+{"block": 82, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'or tree, or dog' extends 'the other person' to things the published doesn't mention", "replace": " (or tree, or dog or whatever is not-you)", "with": ""},
+{"type": "SHIFT", "what": "'what might they be feeling or protecting?' became 'how might I feel?'", "replace": "how might I feel?", "with": "what might they be feeling or protecting?"},
+{"type": "SHIFT", "what": "'what serves truth, love, boundaries...' became 'what might be true, loving...'", "replace": "what might be true, loving, clear about boundaries, and good for everyone involved?", "with": "what serves truth, love, boundaries, and the good of everyone involved?"}
+]},
+{"block": 83, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'Don't use perceptual positions to excuse harm' turned into 'it's possible'; second sentence repeats the first", "replace": "Yes, it’s possible to use these positions to let yourself off the hook. It’s also possible to use them to get off the hook!", "with": "Don’t use these positions to excuse harm."}
+]},
+{"block": 85, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'check out this video' is not in the published", "replace": " (check out this video )", "with": ""}
+]},
+{"block": 88, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the caution that done mechanically the classic Swish can feel like an inner eviction", "replace": "instead of pushing out the old pattern,", "with": "instead of pushing out the old pattern (done mechanically, it can feel like an inner eviction),"},
+{"type": "SHIFT", "what": "comparing what each future would require became what only the new pattern requires", "replace": "and see if there is anything the new pattern requires from in the future, that the old one didn't.", "with": "and compare what each future would actually require."}
+]},
+{"block": 90, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'The Sacred Decision' is a name the published doesn't give", "replace": "The Sacred Decision (", "with": "("},
+{"type": "SHIFT", "what": "'What need sits under both?' became 'the need of each side'", "replace": "What is the need of each side?", "with": "What need sits under both?"}
+]},
+{"block": 92, "verdict": "OK"}
+]

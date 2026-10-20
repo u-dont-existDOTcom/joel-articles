@@ -1,0 +1,24 @@
+[
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B6: INVENTED forces \"trying to train\" the mind \"in ways that benefit them\" (intent and self-interest; published says \"already training\")",
+    "replace": "that are trying to train your mind in ways that benefit them",
+    "with": "that are already training your mind",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B6: SHIFT \"listening closely\" became \"communicating with\"",
+    "replace": "befriending and communicating with",
+    "with": "befriending and listening to",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

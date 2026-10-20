@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s11.txt",
+  "input_words": 56,
+  "input_sha256": "25917db8dc42018e6be9a1c4ab24bba8713d94e7b70d2472304e385125c18a95",
+  "balance_before": 128029,
+  "started_utc": "2026-10-18T03:32:46Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:32:51Z",
+  "response": {
+    "id": "460faba0-4c9b-4d9a-b7ee-836b9384d044",
+    "tool": "humanize",
+    "text": "Where are YOUR hands? Put one on YOUR heart and the other on YOUR solar plexis.\n\nThe hand on YOUR heart is the Nurturer, the one on the solar plexis is the little vulnerable part in YOU.\n\nThen breath and affirm\n\n“ The love is above and the child is below. And in the middle, the adult – that’s ME!\n\nI send love down and I receive the signal from the child. Then I send love again and receive the signal again.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 5
+  },
+  "balance_after": 127973
+}

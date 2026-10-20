@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-z2/HG20-fxw1b.txt",
+  "input_words": 73,
+  "input_sha256": "5f5bea23b2fd431bce214f1ef7ba1c73fea14c913fe882aa4467f89c6ec37ce5",
+  "balance_before": 92812,
+  "started_utc": "2026-10-18T06:41:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:41:48Z",
+  "response": {
+    "id": "3ba51374-bbaa-4c16-ae82-41046426aa4e",
+    "tool": "humanize",
+    "text": "Let the response change the invitation\n\nDo you notice a difference between communicating “when you clench your shoulders that doesn’t feel quite right to do that” and “when you clench your shoulders that doesn’t feel right”? Do you find yourself needing to consider if it fits, or do you simply change it when you know it’s a no go? If it doesn’t fit, change it!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 73
+    },
+    "elapsed": 4
+  },
+  "balance_after": 92739
+}

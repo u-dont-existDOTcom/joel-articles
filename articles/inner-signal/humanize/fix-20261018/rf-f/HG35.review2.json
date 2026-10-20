@@ -1,0 +1,24 @@
+[
+ {
+  "block": 17,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"Forgiveness can't be forced\", hedged to \"a lot of times\"",
+    "replace": "There are a lot of times when we can not ‘force’ forgiveness on ourselves",
+    "with": "We can not ‘force’ forgiveness on ourselves",
+    "round": 1,
+    "from": "my triage (Opus) of the second reader rf-j, rf-a/TRIAGE-BRIEF.md"
+   },
+   {
+    "type": "LOST",
+    "what": "the four things that can all be true (the harm happened, the boundary still matters, the person remains accountable, forgiveness may come later); and the repeat it left",
+    "replace": "We simply remember that it can all be true.\n\nIt can all be true that:",
+    "with": "We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+    "round": 1,
+    "from": "my triage (Opus) of the second reader rf-j, rf-a/TRIAGE-BRIEF.md"
+   }
+  ]
+ }
+]

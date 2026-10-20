@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG21-r1.txt",
+  "input_words": 222,
+  "input_sha256": "ebdda3ed851fa9e841ef2d593fbfff5a26c51c79231a0b2c2af5b41fb5a1ef2a",
+  "balance_before": 158200,
+  "started_utc": "2026-10-18T02:51:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:51:36Z",
+  "response": {
+    "id": "aa6dbee9-3e97-4e3b-9506-712ff1c5a24e",
+    "tool": "humanize",
+    "text": "The 15-minute daily practice\n\nYou may choose to do all of this practice, or learn the second script. Either way, you'll be using a similar process and can use these recordings as a base for your own practice. These exercises only need to be done for fifteen minutes or so. This is not a therapeutic time, but merely enough time to induce yourself (a few minutes), do what you are going to do (in this case 5 minutes of sitting in silence and listening), and then bring yourself back out again (a few minutes). You can break out of the process at any time, if you feel you need to do something else.\n\nB) Notice three things you can see, then three things you can hear and three sensations you can feel in your body. Now do two of each, then one of each. Count from 5 to 1 and start listening.\n\nAfter practicing a few times with these scripts, feel free to edit them down and remove any parts that you feel are no longer necessary to help you induce yourself. The idea is that eventually, you will not even need to play them back. But there is no harm in using them if you enjoy it. (Note: in script A, the part about coming back out again is optional; if you are familiar with the induction process, it will probably be enough to simply count).\n\nWhen you come out of the process, consider whether there is anything you would like to nurture with more warmth, or protect, or direct in a way that moves it in the direction of truth and love and life. Perhaps there is something you would like to explore or build up. You may want to take this process with you as you move about your day. If there is something you need to do, then make a plan with yourself to do that thing. Be concrete and say something like, \"If _________ , then I will do________ .\" Then see how things are later on: how you are sleeping, relating and functioning.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 222
+    },
+    "elapsed": 15
+  },
+  "balance_after": 157978
+}

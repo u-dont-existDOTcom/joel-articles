@@ -1,0 +1,128 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B1] An induction gathers scattered attention until quieter material becomes easier to hear. You don’t have to surrender, play asleep, or obey anyone. When you’re sober, distracted, analytical, or guarded, an actual induction may help. When meditation, loveyhuasca, lucid dreaming, grief, music, prayer, fatigue, or another intense opening has already made you trancey, begin with orientation and containment instead of adding depth.
+
+[B2] Aim for the amount of trance that suits the practice: focused, warm, receptive, embodied, and still able to stop. Depth is optional.
+
+[B3] What an induction is actually doing
+
+[B4] Prepare the session, gather attention, deepen only when that helps, then let what you notice shape the words and the next response. Counting is one way in. Conversation, story, movement, repeated sound, and curiosity can also organize attention. Say so when you use them; elegance doesn’t excuse a covert induction.
+
+[B5] For a simple, chosen target, you can test the suggestion before deepening. If the useful response is already happening, build from it. An induction helps you find a receptive way of listening; you don’t need to complete a ceremony before you’re allowed to respond.
+
+[B6] Please don’t put six metaphors in one trance
+
+[B7] Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.
+
+[B8] Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish. Borrow qualities such as warmth or steadiness without replacing your identity.
+
+[B9] Pick one central verb, one sensory quality, one short refrain, and one transition phrase, then read the script aloud; long elegant sentences become soup during an induction.
+
+[B10] Before you begin
+
+[B11] Read the induction and Come all the way back while fully awake. Choose the question or quality you want to explore, what you’re leaving alone today, and how much time you have. Love, play, confidence, creativity, and communion are worthwhile purposes; you don’t have to find a problem. Leave several minutes for returning and reflecting.
+
+[B12] Choose a physically secure place without driving, water, machinery, or anyone needing your supervision. When intoxicated, acutely confused, or unable to keep yourself safe, deal with immediate support rather than exploratory hypnosis. The later Already open? practice is for orientation, not permission to intensify an unstable state.
+
+[B13] Decide what kind of encouragement is welcome: spacious listening, warm company, or a firmer invitation to stay with a feeling. Preview eye closure, any repeated exit and re-entry, and the return. For a recording, read the script beforehand when possible. “Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words. You can simply open your eyes and finish. No inner part has to approve your decision to stop.
+
+[B14] When entry and return are unfamiliar, first rehearse them without a difficult subject. Once you know how to change direction, you don’t need to supervise every moment. Let a useful response become easier and less effortful. A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.
+
+[B15] Let the next invitation grow from the response you got—not the response the script expected.Utilization means working with what actually happens: a thought, sound, movement, or objection may change where the practice goes. Notice what actually happens; no change doesn’t mean secret success. Keep safety and exit instructions plain. Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction.
+
+[B16] Sober induction: 3–5 minutes
+
+[B17] Read this slowly into a recorder, speak it aloud, or learn its movement and use silent words if that comes easily. Choose one anchor—a sound, bodily contact, or your two-hand practice—and an opening phrase. Keep using the same anchor where the words refer to it. Pause between paragraphs; don’t read the delivery directions aloud.
+
+[B18] Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and notice the difference between looking for something and letting what is already there come into view.
+
+[B19] There is a surface beneath you. Notice where you meet it … the contact, the pressure, whatever you can actually feel. And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one.
+
+REWRITE:
+[CHANGED, replaces B1]
+The induction is a way to help you to pull your attention together so that you can hear material that might not reach you when you are soober. It is NOT a way to make you go asleep, surrender, or do anything you don’t want to do. If you are sober and having trouble focussing, too distracted, analytical, or are putting up a lot of resistance to working, an actual induction may help. However, if you are already pretty trancey from meditating beforehand, from loveyhuasca, lucid dreaming, working through grief, hearing music, praying, being tired, or for any other reason, you may want to skip to orienting and making sure you are contained.
+
+[CHANGED, replaces B2]
+If you do want to induce trance, choose as deep a trance as you need:
+
+[B3, as published] What an induction is actually doing
+
+[CHANGED, replaces B4]
+It's preparation, gathering up attention. It may also be deepening. It will be more effective if you tailor it to what comes up. Counting is easy but you can do all sorts of things to gather up attention. It's OK to tell people when you're doing this rather than pretending it's all very elegant and flowing.
+
+[CHANGED, replaces B5]
+You may want to try your suggestion on a simple target before deepening to see if it works. It's not necessary to do the whole ceremony before responding more receptively.
+
+[B6, as published] Please don’t put six metaphors in one trance
+
+[CHANGED, replaces B7]
+Choose what you're going to do, one way to anchor it initially, and how you'll get back. You may want it to be warm, or firm, directed, or neutral, or whatever. You don't have to combine floating, going down stairs, going through gardens, visiting inner places, seeing a colour, and talking to a child all in one go, even if some of these appeal to you. If you do change metaphors do it consciously.
+
+[CHANGED, replaces B8]
+It's OK to do this with no imagery. The signal may come in other ways (feelings, rhythm, movement, words, spatial, knowing, or even non-response, if that's appropriate to the context). Try to keep the language you use for counting in and elsewhere consistent with the world you've chosen. Come back out by reversing the journey in some way. It's OK to steal qualities from other inductions but don't become someone else.
+
+[CHANGED, replaces B9]
+Try to limit yourself to one key verb, a particular sense quality, a short bit of text to repeat, and a way of moving from one bit to another. Read it out loud before hand - long beautiful sentences tend to turn to soup in inductions.
+
+[B10, as published] Before you begin
+
+[CHANGED, replaces B11]
+Read this induction and Come all the way back while awake. Consider what you want to explore, what you want to leave alone, and how long you've got. Try to use it for something good (e.g. more love, play, confidence, creativity, communion with life, whatever). Make sure you've got enough time to come back out and think about it.
+
+[CHANGED, replaces B12]
+Make sure you're somewhere safe - don't do this when driving, near water, playing with machinery, or with people who need looking after. Don't do this when intoxicated or in any other state where you may be acutely confused or unable to look after yourself. (However see the bit about already being open, later, as this is not about deepening when unstable).
+
+[CHANGED, replaces B13]
+Consider whether you want it to be encouraging, warm, firm, or whatever. You may want to warn yourself that your eyes will be asked to close and that you may come out and go in again a few times, as well as coming out at the end. If you're listening to a recording it may be a good idea to read the script first (if possible). Decide on a word to use to come out (e.g. 'stop'). You may also want words to make it less demanding (e.g. 'less'), and to stop the words (e.g. 'quiet'). You can always just open your eyes and finish - you don't have to get consensus from inner parts to do this.
+
+[CHANGED, replaces B14]
+Until you are confident about how to get in and out, it is wise to rehearse the skill in a context where you do not require the maximum effort that difficult subjects demand. Once the skill is easier to apply, you can relax into using it effortlessly. It is the lack of effort that produces the maximum benefit. Saying no is enough. You don’t have to say anything.
+
+[CHANGED, replaces B15]
+Develop the next part of your induction from what your subject is responding to, not what you intended. This principle of utilization means that whatever happens can be developed. If nothing happens, then nothing has happened. You don’t have to pretend that something has. The subject needs to know they are safe and how to leave the experience. The language skills that facilitate these are described in Appendix B and used in Let the next response guide you .
+
+[B16, as published] Sober induction: 3–5 minutes
+
+[CHANGED, replaces B17]
+Practise reading this slowly into a recorder, or reading it aloud, or if you can learn it and use silent words. Choose to use one of the three anchors – sound, bodily contact or two hands - throughout and include the opening phrase for that practice. Whenever the words below refer to ‘the anchor’ use the one you’ve chosen. Pause for a few moments at the end of each paragraph. Don’t read aloud the instructions for how to do the reading.
+
+[CHANGED, replaces B18]
+As your eyes look somewhere in the room, notice the difference between looking for something and seeing what is there.
+
+[CHANGED, replaces B19]
+As you notice the surface beneath you, notice the feel of the contact, the pressure, the feel of it. And as you notice the anchor, perhaps a sound or the feel of the breath,
+
+
+This is PART 1 of 4 of the section: only the stretches below are yours; the published blocks shown are the ones they replace, with the headings around them. Go through the points in your head; don't write them out. Return only the JSON array, nothing before or after it.

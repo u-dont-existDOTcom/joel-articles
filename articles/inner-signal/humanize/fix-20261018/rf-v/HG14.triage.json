@@ -1,0 +1,93 @@
+{
+ "key": "HG14",
+ "fixes": [
+  {
+   "block": 6,
+   "problems": [
+    {
+     "type": "INVENTED",
+     "what": "B6: INVENTED purpose \"jumpstart a new part\"; \"that starting point\" gone",
+     "replace": "To jumpstart a development of a new part, I have developed",
+     "with": "For that starting point, I have developed",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 7,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B7: LOST what witnessing means (notice what is present, no demand for warmth, wisdom, certainty)",
+     "replace": "Access your witnessing position if necessary.",
+     "with": "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "B7: UNCLEAR \"go to step 3\"; published has no step numbers, may skip the borrow step",
+     "replace": "borrow and go to step 3.",
+     "with": "borrow.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 8,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B8: LOST \"borrow one function\": warmth, boundary or direction, needed now",
+     "replace": "It’s ok to just borrow what you need,",
+     "with": "It’s ok to just borrow what you need right now, warmth or a boundary or direction,",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 77,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B77: SHIFT inner adult \"keeps watch\" became \"takes over\"; also B77: LOST \"you remain able to move, stop, and return\"; 455g: with \"you can still move, stop and come back\" added the paragraph read AI alone (0.47), so only \"keep watch\" now",
+     "replace": "let your inner adult take over for a while.",
+     "with": "let your inner adult keep watch for a while.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B6: LOST familiar practices it combines (witnessing, modeling, supported action, gradual transfer of responsibility)",
+   "why": "a list dropped; the caution that the sequence is unvalidated is kept"
+  },
+  {
+   "finding": "B6: SHIFT disclaimer: \"not all steps proven\" instead of \"whole sequence not validated as one treatment\"",
+   "why": "the same caution, said of the steps"
+  },
+  {
+   "finding": "B8: SHIFT equal options became \"safe adult first, the others only if none\"",
+   "why": "every option is kept"
+  },
+  {
+   "finding": "B8: INVENTED cup-of-sugar neighbor analogy",
+   "why": "an example that fits \"borrow only what you need\""
+  },
+  {
+   "finding": "B77: LOST \"rest doesn't require helplessness\"",
+   "why": "\"it's okay to ...\" keeps that resting leaves you able to act"
+  },
+  {
+   "finding": "(from the same line) LOST you remain able to move, stop, and return",
+   "why": "with it put back the paragraph read AI alone (455g); \"it's okay to ...\" keeps that you stay free to act"
+  }
+ ],
+ "resample": [],
+ "note": "the emu-ah samples (rf-t findings; emu-ai in rf-u lost more), triaged by me 2026-10-18"
+}

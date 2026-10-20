@@ -10,7 +10,8 @@ import hashlib, pathlib, re
 HERE = pathlib.Path(__file__).resolve().parent
 C = HERE.parent
 work = (C / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8')
-NOTE = re.compile(r'^<!-- (CANDIDATE|ACCEPTED|Section)\b.*?-->\n', flags=re.S | re.M)
+# 2026-10-18: a dated history note ("<!-- 2026-10-12: section 11 v13 = ...") is a version note too
+NOTE = re.compile(r'^<!-- (CANDIDATE|ACCEPTED|Section\b|20\d\d-\d\d-\d\d[: ]).*?-->\n', flags=re.S | re.M)
 master = NOTE.sub('', work)
 master = re.sub(r'\n{3,}', '\n\n', master).strip() + '\n'
 # every heading and paragraph of the working copy is in the master, in order; only the notes are gone

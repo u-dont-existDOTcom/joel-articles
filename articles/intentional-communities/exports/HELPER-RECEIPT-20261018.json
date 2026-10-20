@@ -1,0 +1,124 @@
+{
+ "format": "substack-helper-delivery-receipt-v1",
+ "protocol": "docs/SUBSTACK-HELPER-DELIVERY-GATE.md",
+ "article": "intentional-communities",
+ "why": "Joel, 2026-10-18 01:29 UTC: \"merge the final article into the substack html. i'm pasting the latest one i have. use the validated clipboard helper to give me a copy button\" (candidate/joel-20261018/joel-20261018-0129-message.txt)",
+ "raw_editor_html": {
+  "path": "articles/intentional-communities/candidate/joel-20261018/substack-editor-20261018-0129.html",
+  "sha256": "0da05ea6b21b84736dec0c27a35c9516f19ee638704480f2da76a4954e5bbb06",
+  "from": "Joel's paste of 2026-10-18 01:29 UTC"
+ },
+ "master": {
+  "path": "articles/intentional-communities/master.md",
+  "sha256": "ef98c1cd90f2284a3487a9346dfec7698438e4223e82d68a95b3b81434945438"
+ },
+ "published_bridge": {
+  "path": "articles/intentional-communities/original.md",
+  "sha256": "5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6"
+ },
+ "merge": {
+  "tool": "tools/humanization/substack_merge.py",
+  "report": "articles/intentional-communities/exports/MERGE-REPORT-20261018.json",
+  "verdict": "PASS",
+  "islands_verify": "PASS: 27 islands byte-for-byte and in order",
+  "prose_check": "PASS: 18355 words, the same as the master's text blocks, in order",
+  "links": {
+   "master_links": 109,
+   "missing": []
+  },
+  "formatting_carried": {
+   "bold lead-in": 3,
+   "bold first sentence (the list's style)": 10,
+   "list item (ul)": 33,
+   "new paragraph kept in the list": 3,
+   "list item (ol)": 7,
+   "bold lines": 1
+  }
+ },
+ "archival_source": {
+  "path": "articles/intentional-communities/exports/ARCHIVAL-SUBSTACK-20261018.html",
+  "sha256": "d69f33809118c2e7ad00872577e0549c3563d97f7943bc32b765de6ff033a7b8"
+ },
+ "editor_body": {
+  "sha256": "f8e62b027e6c185b3cebd4bf8db49c41beb12f06515f9d359a256d546daea573",
+  "boundary_mode": "substack-editor-root"
+ },
+ "canonical_generator": {
+  "path": "project-sources/substack_transfer_helper.py.txt",
+  "sha256": "322e4738243806570fd01de4389150144f13f959de30d78579b69fb57c9352f4"
+ },
+ "native_object_parser": {
+  "path": "project-sources/html_islands.py.txt",
+  "sha256": "96c800c9a7c0b1dae642de1139d53651e87b145cb1ae2aefa4075a9affa0b10d",
+  "note": "2026-10-18 repair: the current editor root (data-testid=\"editor\", class \"tiptap ProseMirror\") is the editor body (test in tests/test_html_islands_current_substack_shapes.py)"
+ },
+ "compatibility_profile": {
+  "path": "project-sources/CONFIRMED-SUBSTACK-HELPER.json",
+  "sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734",
+  "manifest_sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734"
+ },
+ "helper": {
+  "path": "articles/intentional-communities/exports/COPY-TO-SUBSTACK.html",
+  "sha256": "07d0638a4bab3cc22e8a0bf9b750670f62563aa24e5d4db1d2723e2b3356039e",
+  "manifest_format": "joel-substack-transfer-helper-v4",
+  "payload_mode": "single_rich_html",
+  "segment_count": 1,
+  "manual_native_video_steps": 0,
+  "visible_action": "one \"Copy Article\" button",
+  "plan": "articles/intentional-communities/exports/TRANSFER-PLAN-20261018.json",
+  "build_report": "articles/intentional-communities/exports/TRANSFER-REPORT-20261018.json"
+ },
+ "native_objects": {
+  "count": 27,
+  "by_type": {
+   "image": 20,
+   "share": 1,
+   "substack_video_post_embed": 3,
+   "subscribe": 1,
+   "youtube": 2
+  },
+  "order": [
+   "image",
+   "image",
+   "share",
+   "substack_video_post_embed",
+   "subscribe",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "substack_video_post_embed",
+   "image",
+   "image",
+   "youtube",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "image",
+   "substack_video_post_embed",
+   "youtube",
+   "image",
+   "image"
+  ]
+ },
+ "canonical_verify": "PASS: static source and conversion checks (init, build, verify); 1 ordered segment, 0 native-video manual steps",
+ "interaction_test": {
+  "path": "articles/intentional-communities/exports/HELPER-INTERACTION-20261018.json",
+  "status": "pass",
+  "paths": [
+   "ClipboardItem Blob sink",
+   "execCommand selected-rich-DOM sink"
+  ],
+  "scope": "exact HTML set_content in headless Chromium; no local-file/Opera claim"
+ },
+ "destination_status": "pending: Joel's paste into a Substack draft in Opera (the images, the three post embeds, the two YouTube videos, Share and Subscribe to be checked there)",
+ "manual_steps_for_joel": [
+  "Upload the PsyPost screenshot (candidate/images/psypost-relational-mobility.png) in section 12, \"The Math of Absorption, and Who This Isn't For\", after the paragraph that starts \"This doesn't surprise me, since we're taught to put on a show of competence\", with the caption It's kind of a \"no, duh\" study. (the link on \"study\": https://www.psypost.org/social-freedom-shapes-whose-version-of-reality-you-adopt-new-research-suggests/), and the image linked to the same page."
+ ]
+}

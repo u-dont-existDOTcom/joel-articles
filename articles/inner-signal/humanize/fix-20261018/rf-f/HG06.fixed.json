@@ -1,0 +1,117 @@
+{
+ "key": "HG06",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-s",
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u",
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-w"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Protecting Yourself from Hypnotists"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?"
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "As associated with the Silva “Mind Control” method:"
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-u/HG06-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "attribution made firmer: \"associated with the tradition\" became \"taught by the method\"",
+     "replace": "taught by",
+     "with": "associated with",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "“If you don’t learn to control your mind, someone else will!”"
+   ],
+   "run": "HG06-r1",
+   "file": "fix-20261018/emu-a/HG06-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "There are already a lot of forces out in the world training your mind: advertising, fear, craving, screens, tribe, resentment, authority, loneliness and repetition. Self-hypnosis lets you work on it from the inside. In this way you will learn to befriend the deeper part of your mind and listen to it, opening up a whole new area of choice for you as an adult."
+   ],
+   "run": "HG06-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-w/HG06-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the nine forces already training the mind; INVENTED \"very effectively\" and taking ideas from them",
+     "replace": "There are already a lot of forces out in the world that are training your mind very effectively. It would be wise to take a few ideas from them and use those self-hypnosis techniques for yourself.",
+     "with": "There are already a lot of forces out in the world training your mind: advertising, fear, craving, screens, tribe, resentment, authority, loneliness and repetition. Self-hypnosis lets you work on it from the inside.",
+     "round": 1,
+     "from": "my triage (Opus) of the second reader rf-j, rf-a/TRIAGE-BRIEF.md"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

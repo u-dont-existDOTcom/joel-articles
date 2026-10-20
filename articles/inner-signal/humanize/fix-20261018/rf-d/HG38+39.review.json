@@ -1,0 +1,88 @@
+[
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B3: LOST \"complete\" in the complete waking return (\"fully\" restored)",
+    "replace": "bring yourself back to waking",
+    "with": "bring yourself fully back to waking",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B6: SHIFT \"press gently, stretch slightly, and release\" became \"either stretch or press down\" (\"gently\" dropped; restored on the press)",
+    "replace": "pressing down into the support",
+    "with": "pressing gently down into the support",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "B16: WRONG \"without claiming medical repair\" became \"look for anything needing medical attention, imagine it fixed\" (the caution is back and the invented medical looking is gone)",
+    "replace": "that could use medical attention, and if you imagine it being fixed, what is different afterwards?",
+    "with": "different at each step, without claiming it is a medical repair.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B18: SHIFT part comes \"as close as they want\", not only as closely as welcome (the limit on how close it comes is restored)",
+    "replace": "to come as close as they want",
+    "with": "to come only as close as is welcome",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B18: LOST \"not erased history\"",
+    "replace": "\"good as you\".",
+    "with": "\"good as you\", not to erase history.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B22: LOST \"wait\" after the question and \"one clear\" question",
+    "replace": "ask a question,",
+    "with": "ask one clear question and wait,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B22: SHIFT \"one small action\" became \"something based on it\" (the size limit on acting on the signal is restored)",
+    "replace": "do something based on it",
+    "with": "do one small thing based on it",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

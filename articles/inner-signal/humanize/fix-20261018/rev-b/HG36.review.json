@@ -1,0 +1,160 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "a heading-like prefix the published doesn't have; and 'these' points at nothing (the published: substances)",
+    "replace": "Mind Altered States & Inner Child Work Note: I am NOT encouraging anyone to use these.",
+    "with": "I am NOT telling anyone to use substances."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'if you choose to do so' invites the choice; the published simply says don't use altered states to force revelation",
+    "replace": "If you choose to do so, please be aware",
+    "with": "Either way, please be aware"
+   },
+   {
+    "type": "SHIFT",
+    "what": "force revelation",
+    "replace": "to force open anything,",
+    "with": "to force a revelation,"
+   },
+   {
+    "type": "LOST",
+    "what": "deepen listening, strengthen love, improve ordinary life",
+    "replace": "use it to enhance your ability to love and improve your life.",
+    "with": "use it to deepen your listening, strengthen your love and improve your ordinary life."
+   },
+   {
+    "type": "LOST",
+    "what": "a past opening can be a resource without becoming a state you must reproduce",
+    "replace": "Many people have opened to certain things in their life in altered states.",
+    "with": "Many people have opened to certain things in their life in altered states, and that opening can be a resource without becoming a state you have to keep reproducing."
+   },
+   {
+    "type": "LOST",
+    "what": "reliably; let the experience widen what seems possible while you build usable access",
+    "replace": "to be able to access it on a day to day basis.",
+    "with": "to be able to access it reliably on a day to day basis. Let the experience widen what seems possible while you build access you can actually use."
+   },
+   {
+    "type": "SHIFT",
+    "what": "turned round: if the child can't receive it, meet the difficulty rather than escalating the intensity",
+    "replace": "Sometimes if the child can't take it, you may need to open the experience up a bit more.",
+    "with": "If the child can't take it in, meet that difficulty rather than turning up the intensity."
+   },
+   {
+    "type": "LOST",
+    "what": "during or after an altered state",
+    "replace": "So if you are in an altered state,",
+    "with": "So during or after an altered state,"
+   },
+   {
+    "type": "LOST",
+    "what": "one ordinary-life change",
+    "replace": "Help me to take something from this and change my regular life.",
+    "with": "Help me to turn this into one change in my regular life."
+   },
+   {
+    "type": "LOST",
+    "what": "only in a particular state",
+    "replace": "to be able to access it in a particular state",
+    "with": "to be able to access it only in a particular state",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "recover memories",
+    "replace": "to help you remember things,",
+    "with": "to recover memories,",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "override medical needs",
+    "replace": "to not see a doctor,",
+    "with": "to override medical needs,",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "help me remember love",
+    "replace": "Help me to remember the love I am feeling.",
+    "with": "Help me to remember love.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED claim \"many people have opened to certain things in altered states\"",
+    "replace": "Many people have opened to certain things in their life in altered states, and that opening can be a resource",
+    "with": "A past opening can be a resource",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'when one is loveyhuasca' is missing a word",
+    "replace": "when one is loveyhuasca",
+    "with": "when one is on loveyhuasca"
+   },
+   {
+    "type": "LOST",
+    "what": "the mind can open faster than the adult self can organize what is arriving",
+    "replace": "or in other states similar to plant medicines.",
+    "with": "or in other states similar to plant medicines. Sometimes the mind opens up faster than the adult self can organize what’s coming in."
+   },
+   {
+    "type": "SHIFT",
+    "what": "buried material asking for care",
+    "replace": "or other parts coming out,",
+    "with": "or other buried material asking for care,"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'can also be', not 'often'",
+    "replace": "but often it is simply",
+    "with": "but it can also just be"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a bad feeling isn't automatically a lesson",
+    "replace": "doesn't mean it's helpful",
+    "with": "doesn't mean it's a lesson"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "the sentence breaks off",
+    "replace": "in an altered state, you should",
+    "with": "in an altered state, ask a simpler question:"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a Protector showing fear",
+    "replace": "sometimes it is a Protector scaring you",
+    "with": "sometimes it is a Protector showing fear",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "longing",
+    "replace": "shame/grief/anger",
+    "with": "shame/grief/anger/longing",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   }
+  ]
+ }
+]

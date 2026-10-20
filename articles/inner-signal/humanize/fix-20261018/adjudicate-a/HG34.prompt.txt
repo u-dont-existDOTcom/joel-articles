@@ -1,0 +1,77 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: SHIFT "romantic obsession" became "obsession with romantic partners"
+B1: INVENTED dissociation "from the pain of real life"
+B1: LOST "guidance inside it" in the script (now "what I need to know")
+B1: SHIFT "help me deal with what I need to deal with" became "show me how to deal with life"
+B1: LOST "get embarrassingly practical" framing
+B1: SHIFT "what real-life action is this daydream replacing" became "what do I need to do that I'm avoiding"
+B1: SHIFT "stop chasing unavailable love" became "stop fantasizing about people who can't love me"
+
+ROUND-2 FIXES already made:
+B1 LOST the guidance inside it: "please show me what I need to know" -> "please show me the guidance inside them"
+B1 LOST get embarrassingly practical; what real-life action is this daydream replacing: "Then ask yourself, “What do I need to do in the real world that I’m avoiding by daydreaming?”" -> "Then get embarrassingly practical and ask yourself, “What real-life action is this daydream replacing?”"
+B1 INVENTED 'from the pain of real life': "Dissociation from the pain of real life." -> "Dissociation."
+
+PUBLISHED section:
+[B0] Appendix E: Is the daydream helping or replacing your life?
+
+[B1] Daydreaming can be intuition, simulation, grief digestion, creative rehearsal, symbolic teaching, or the subconscious showing a possible future, fear, or desire. It can also become avoidance, fantasy addiction, dissociation, romantic obsession, or an escape hatch from adult life.
+
+[B2] Does the daydream return me to life with more clarity, love, and action? Or does it pull me away from life into repetition, craving, and avoidance?
+
+[B3] When it seems useful, ask:
+
+[B4] “What is the guidance inside this?”
+
+[B5] When it seems to be pulling you away, change the body before debating the story. Sit upright. Open the eyes a little. Feel the feet.
+
+[B6] “Subconscious, thank you for showing me images. If this daydream is useful, please reveal the guidance inside it. If it is avoidance, please bring me gently into the present and help me deal with what I need to deal with in a gentle but structured way.”
+
+[B7] Then get embarrassingly practical:
+
+[B8] “What real-life action is this daydream replacing?”
+
+[B9] The answer may be: send the message, stop sending the message, clean the room, eat, sleep, grieve, create, apologize, leave, tell the truth, make the plan, ask for help, return to the task, or stop chasing unavailable love.
+
+REWRITE (current):
+[B0, as published] Appendix E: Is the daydream helping or replacing your life?
+
+[CHANGED, replaces B1-B9]
+Sometimes, daydreaming is intuitive. Your subconscious is simulating an idea or event to help you digest grief or teach you something. The act of daydreaming may also be a creative exercise or a way your subconscious is showing you a possible future. Sometimes your subconscious will show you things you’re afraid of. Sometimes it shows you what you want.
+
+Other times, it’s a detriment. An escape from reality. An addiction to fantasy rather than reality. Dissociation. Obsession with romantic partners. An escape hatch from adult life.
+
+How do you know which one it is? Ask yourself, “Is my daydreaming bringing me back into life with more clarity, love and action, or pulling me away from it into repetition, craving and avoidance?”
+
+If it’s helping you, ask: “What is the guidance inside this?”
+
+If it’s taking you away from life, change your body before you start arguing with the story: sit up straight, open your eyes a little, feel your feet. Then ask your subconscious for help. “Hey subconscious, thanks for all these interesting images. If they’re helpful, please show me the guidance inside them. If they’re just a way for me to avoid dealing with life, please bring me gently into the present and show me how to deal with life in a gentle but structured way.”
+
+Then get embarrassingly practical and ask yourself, “What real-life action is this daydream replacing?”
+
+It could be anything from “send a text message” or “stop sending text messages” to “clean my room” or “eat” or “sleep” or “deal with my grief” or “create something” or “apologize” or “leave” or “tell the truth” or “make a plan” or “get help” or “return to the task at hand” or “stop fantasizing about people who can’t love me.”

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ae/HG06-fxw1.txt",
+  "input_words": 64,
+  "input_sha256": "be62c159bfc92d95f75759a78d129ef2c28db3d61826ddaa217c36e65dc233b3",
+  "balance_before": 89163,
+  "started_utc": "2026-10-18T07:23:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:23:52Z",
+  "response": {
+    "id": "9a33fbb8-e9a7-4bdc-9aee-5d427194624c",
+    "tool": "humanize",
+    "text": "Why Learn Self-Hypnosis? There are literally thousands of forces, people and things trying to program your brain each and every day. It is important that you learn how to program your own brain to achieve the results you wish to have. Self Hypnosis is a way of befriending the deep part of your mind. Once befriended this opens a new area of your brain to your adult self.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 64
+    },
+    "elapsed": 4
+  },
+  "balance_after": 89099
+}

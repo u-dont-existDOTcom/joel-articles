@@ -1,0 +1,145 @@
+{
+ "key": "HG10",
+ "emu_dirs": [
+  "fix-20261018/emu-a"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Hypnosis Evidence"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview of 49 meta analyses containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality."
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "links": [
+    {
+     "published": "2024 overview of 49 meta-analyses",
+     "new": "overview of 49 meta analyses"
+    }
+   ],
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Is there evidence for Self-Hypnosis? Yes. There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, child birth, pediatric, stress, anxiety etc. Self-hypnosis seemed more useful when done as a real self-skill several times, not just listening to an audio file."
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "links": [
+    {
+     "published": "A systematic review of randomized controlled trials",
+     "new": "a systematic review of Randomized Controlled Trials"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the review found it 'appeared more useful'; 'tends to be' makes it a general rule",
+     "replace": "Self-hypnosis tends to be more useful",
+     "with": "Self-hypnosis seemed more useful"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Here I will be teaching you a real self-skill, so you don’t end up a consumer of more and more elaborate trance recordings."
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the reader becoming a consumer of increasingly elaborate recordings",
+     "replace": "not just asking you to buy more audio trance files.",
+     "with": "so you don’t end up a consumer of more and more elaborate trance recordings.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Mayo Clinic cautions that using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that other treatments may be better for historical trauma."
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "'earlier-life events' became 'past life events'; and the warning (it can trigger strong emotional reactions) became a condition",
+     "replace": "if you use hypnosis in the context of stressful past life events and have strong reactions to this, then hypnosis may not be the best treatment",
+     "with": "using hypnosis around stressful earlier-life events can trigger strong emotional reactions, and that hypnosis may not be the best treatment"
+    },
+    {
+     "type": "REPEAT",
+     "what": "said twice in the paragraph",
+     "replace": "and that hypnosis may not be the best treatment to deal with historical trauma, other treatments may be more suitable.",
+     "with": "and that other treatments may be better for historical trauma.",
+     "round": 2,
+     "from": "verify-a (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Use Self-Hypnosis for: regulation, dialogue, reparenting, clarity, habit change, present life safety, emotional integration, ordinary-life action"
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'ordinary-life action' became 'present life action'",
+     "replace": "present life action",
+     "with": "ordinary-life action"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Don't use Self-Hypnosis for: forcing trauma memories, proof of trauma memories, suppressing medical symptoms, destabilizing yourself, instead of correct treatment"
+   ],
+   "run": "HG10-r1",
+   "file": "fix-20261018/emu-a/HG10-r1.out.txt",
+   "verdict": "OK"
+  }
+ ]
+}

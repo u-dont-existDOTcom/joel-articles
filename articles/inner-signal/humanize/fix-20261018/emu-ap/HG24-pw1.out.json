@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ap/HG24-pw1.txt",
+  "input_words": 59,
+  "input_sha256": "44306f4980fd1894e841bbbc96e0a9f837f1fa99bd3c444e478f9135833d319c",
+  "balance_before": 85763,
+  "started_utc": "2026-10-18T09:00:27Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:00:31Z",
+  "response": {
+    "id": "d69ed5b8-667e-4d54-aa83-d2ae35a58c65",
+    "tool": "humanize",
+    "text": "Sometimes just allowing the thought to be there without arguing with it or allowing it to dissappear and going back to what you have chosen to do is the best thing. You don't have to meet with every thought that comes up or do something in a certain way before you can start living your life.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 59
+    },
+    "elapsed": 4
+  },
+  "balance_after": 85704
+}

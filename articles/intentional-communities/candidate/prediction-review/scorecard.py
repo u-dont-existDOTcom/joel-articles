@@ -17,11 +17,29 @@ exec(open(os.path.join(HERE, 'parse_preds.py')).read().split('for f in sorted(gl
 # checked out (2026-10-14: after the move to articles/intentional-communities/, the scorecard found 0 calls).
 C = os.path.dirname(HERE)
 rows = []
+
+
+def chance(cell):
+    """A prediction's chance of a 100% Human result (2026-10-18): "0.7", "70%" or "70 %", else None."""
+    m = re.search(r'(\d+(?:\.\d+)?)\s*(%)?', cell or '')
+    if not m:
+        return None
+    v = float(m.group(1))
+    v = v / 100 if m.group(2) or v > 1 else v
+    return v if 0 <= v <= 1 else None
+
+
 files = sorted(glob.glob(C + '/s*/PREDICTIONS-*.md')) + sorted(glob.glob(C + '/s*/*/PREDICTIONS-*.md'))
 files += sorted(glob.glob(C + '/fix-*/PREDICTIONS-scored.md'))  # 2026-10-14 on: fix_preds.py's rows
 files += sorted(glob.glob(C + '/fix-*/b[0-9]*/PREDICTIONS-scored.md'))  # 2026-10-17: a turn's batches in its fix folder
-for f in files:
-    sec = os.path.relpath(f, C).split('/')[0]
+# 2026-10-18: the hypnosis guide's batches (429g on, articles/inner-signal/humanize/fix-*/bNNN/PREDICTIONS.md), whose rows
+# name the text without the batch ("HG04-emuG"): the batch comes from the folder, and the section is "hypnosis".
+HYP = os.path.join(os.path.dirname(os.path.dirname(C)), 'inner-signal', 'humanize')
+hyp_files = sorted(glob.glob(HYP + '/fix-*/b[0-9]*/PREDICTIONS.md'))
+for f in files + hyp_files:
+    hyp = f in hyp_files
+    sec = 'hypnosis' if hyp else os.path.relpath(f, C).split('/')[0]
+    hyp_batch = re.search(r'/b(\d+)/PREDICTIONS\.md$', f).group(1) if hyp else None
     lines = open(f, encoding='utf-8').read().split('\n')
     hdr = None
     for i, ln in enumerate(lines):
@@ -37,11 +55,14 @@ for f in files:
         low = [c.lower() for c in cells]
         if 'mine' in low and any(c.startswith('pangram') for c in low):
             hdr = {'mine': low.index('mine'), 'why': next((k for k, c in enumerate(low) if c.startswith('why')), None),
-                   'res': next(k for k, c in enumerate(low) if c.startswith('pangram'))}
+                   'res': next(k for k, c in enumerate(low) if c.startswith('pangram')),
+                   'p': next((k for k, c in enumerate(low) if c.startswith('chance')), None)}
             continue
         if not hdr or len(cells) <= hdr['res']:
             continue
         name = re.sub(r'[*`]', '', cells[0]).strip()
+        if hyp and not re.match(r'\d+g-', name):
+            name = '%sg-%s' % (hyp_batch, name)
         m = re.match(r'(\d+)g-', name)
         if not m:
             continue
@@ -52,7 +73,8 @@ for f in files:
         name_only = re.sub(r'\s*\(\d+\)$', '', name)
         rows.append({'sec': sec, 'batch': int(m.group(1)), 'name': name_only, 'mine': mine,
                      'why': cells[hdr['why']] if hdr['why'] is not None else '', 'res': res, 'pct': pct,
-                     'res_raw': re.sub(r'\*', '', cells[hdr['res']]), 'where': os.path.relpath(f, C) + ':' + str(i + 1)})
+                     'res_raw': re.sub(r'\*', '', cells[hdr['res']]), 'where': os.path.relpath(f, C) + ':' + str(i + 1),
+                     'p': chance(cells[hdr['p']]) if hdr.get('p') is not None and len(cells) > hdr['p'] else None})
 texts = {}
 for v in glob.glob(C + '/s*/v*.json') + glob.glob(C + '/s*/*/v*.json'):
     try:
@@ -85,7 +107,7 @@ json.dump({'summary': summary, 'windows': win, 'misses': misses}, open(out_path,
 # (batch, right and passed as 1 or 0, the call's id as its "text" key, section, mine, pangram, why, excerpt), and the summary
 # file above isn't rows, so the page had nothing to count. Excerpts come from the batch folders' drafts.json and the section
 # drafts' texts.
-for d in glob.glob(C + '/**/b[0-9]*/drafts.json', recursive=True):
+for d in glob.glob(C + '/**/b[0-9]*/drafts.json', recursive=True) + glob.glob(HYP + '/fix-*/b[0-9]*/drafts.json'):
     m = re.search(r'/b(\d+)/drafts\.json$', d)
     try:
         dd = json.load(open(d, encoding='utf-8'))
@@ -93,6 +115,24 @@ for d in glob.glob(C + '/**/b[0-9]*/drafts.json', recursive=True):
         continue
     for k, t in dd.items():
         texts.setdefault('%sg-%s' % (m.group(1), k), t['text'] if isinstance(t, dict) else t)
+# 2026-10-18 (Joel, 01:29 UTC: "improve the scorecard especially for predictions and fixes, as well as the speed of fixing"):
+# each check's kind from its batch's gate record (screen, draft, edit: my rewrites; owner: his words; section: a whole section),
+# so the page can show how often my rewrites pass on their first check, and an always-Human baseline beside always-AI.
+kinds = {}
+for g in glob.glob(C + '/**/b[0-9]*/GATE.json', recursive=True) + glob.glob(HYP + '/fix-*/b[0-9]*/GATE.json'):
+    m = re.search(r'/b(\d+)/GATE\.json$', g)
+    try:
+        gg = json.load(open(g, encoding='utf-8'))
+    except Exception:
+        continue
+    al_path = os.path.join(os.path.dirname(g), 'aliases.json')
+    al = json.load(open(al_path, encoding='utf-8')) if os.path.exists(al_path) else {}
+    for k, rec in gg.items():
+        if isinstance(rec, dict) and rec.get('kind'):
+            kinds['%sg-%s' % (m.group(1), k)] = rec['kind']
+    for k, v in al.items():
+        if isinstance(gg.get(v), dict):
+            kinds.setdefault('%sg-%s' % (m.group(1), k), gg[v].get('kind'))
 seen = defaultdict(int)
 out_rows = []
 for r in sorted(rows, key=lambda r: (r['batch'], r['name'])):
@@ -101,7 +141,8 @@ for r in sorted(rows, key=lambda r: (r['batch'], r['name'])):
     ex = (texts.get(r['name']) or '').replace('\n\n', ' / ')
     out_rows.append({'batch': r['batch'], 'text': key, 'section': r['sec'], 'mine': r['mine'], 'pangram': r['res_raw'],
                      'why': r['why'], 'excerpt': ex[:300] + ('…' if len(ex) > 300 else ''), 'right': int(r['right']),
-                     'passed': int(r['passed'])})
+                     'passed': int(r['passed']), 'said_human': int(r['mine'] == 'Human'), 'kind': kinds.get(r['name'], ''),
+                     'chance': r.get('p'), 'lane': 'hypnosis guide' if r['sec'] == 'hypnosis' else 'community article'})
 rows_path = os.path.join(os.path.dirname(os.path.abspath(out_path)), 'prediction-calls-rows.json')
 json.dump({'rows': out_rows}, open(rows_path, 'w', encoding='utf-8'), ensure_ascii=False)
 print(rows_path, len(out_rows), 'rows,', sum(1 for r in out_rows if r['excerpt']), 'with an excerpt')

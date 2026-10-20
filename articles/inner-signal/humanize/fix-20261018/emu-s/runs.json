@@ -1,0 +1,346 @@
+[
+ {
+  "run": "HG18-fxw1",
+  "key": "HG18",
+  "sent": [
+   5,
+   6
+  ],
+  "flagged": [
+   5,
+   6
+  ],
+  "headings": [],
+  "words": 147,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json"
+ },
+ {
+  "run": "HG23-fxw1",
+  "key": "HG23",
+  "sent": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "flagged": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "headings": [
+   0
+  ],
+  "words": 408,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json"
+ },
+ {
+  "run": "HG36-fxw1",
+  "key": "HG36",
+  "sent": [
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "flagged": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "headings": [
+   8
+  ],
+  "words": 197,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG36.fixed.json"
+ },
+ {
+  "run": "HG24-fxw1",
+  "key": "HG24",
+  "sent": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "flagged": [
+   2,
+   3,
+   5
+  ],
+  "headings": [
+   0,
+   1,
+   4
+  ],
+  "words": 89,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG24.fixed.json"
+ },
+ {
+  "run": "HG24-fxw2",
+  "key": "HG24",
+  "sent": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51
+  ],
+  "flagged": [
+   8,
+   10,
+   11,
+   12,
+   14,
+   15,
+   16,
+   18,
+   19,
+   20,
+   21,
+   23,
+   25,
+   26,
+   28,
+   29,
+   30,
+   31,
+   33,
+   34,
+   36,
+   37,
+   39,
+   40,
+   42,
+   43,
+   44,
+   46,
+   47,
+   48,
+   50,
+   51
+  ],
+  "headings": [
+   9,
+   13,
+   17,
+   22,
+   24,
+   27,
+   32,
+   35,
+   38,
+   41,
+   45,
+   49
+  ],
+  "words": 958,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG24.fixed.json"
+ },
+ {
+  "run": "HG29_30-fxw1",
+  "key": "HG29+30",
+  "sent": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38
+  ],
+  "flagged": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38
+  ],
+  "headings": [
+   2,
+   15
+  ],
+  "words": 671,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG29+30.fixed.json"
+ },
+ {
+  "run": "HG04-fxw1",
+  "key": "HG04",
+  "sent": [
+   0,
+   1,
+   2
+  ],
+  "flagged": [
+   1,
+   2
+  ],
+  "headings": [
+   0
+  ],
+  "words": 106,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-f/HG04.fixed.json"
+ },
+ {
+  "run": "HG06-fxw1",
+  "key": "HG06",
+  "sent": [
+   3,
+   4
+  ],
+  "flagged": [
+   3,
+   4
+  ],
+  "headings": [],
+  "words": 41,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+ },
+ {
+  "run": "HG06-fxw2",
+  "key": "HG06",
+  "sent": [
+   6
+  ],
+  "flagged": [
+   6
+  ],
+  "headings": [],
+  "words": 52,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-a/HG06.fixed.json"
+ }
+]

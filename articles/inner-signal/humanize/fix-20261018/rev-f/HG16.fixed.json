@@ -1,0 +1,518 @@
+{
+ "key": "HG16",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "De-hypnosis: wake up inside the influence"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "influence literacy: noticing when somebody is shaping your attention (not 'all the ways you're being manipulated', which the paragraph then calls benign)",
+     "replace": "is an increased awareness of all the ways you’re being manipulated in your day-to-day life.",
+     "with": "is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life."
+    },
+    {
+     "type": "SHIFT",
+     "what": "religious fear (not a religion)",
+     "replace": "By a religion?",
+     "with": "By religious fear?"
+    },
+    {
+     "type": "SHIFT",
+     "what": "charismatic authority",
+     "replace": "By an authority figure?",
+     "with": "By charismatic authority?",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "belonging pressure",
+     "replace": "By the desire for belonging?",
+     "with": "By pressure to belong?",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Some common ways you may know you’re being manipulated include a sense of urgency, a sense of specialness, FOMO, being made to feel like you won’t be included if you don’t go along, sexual charge, shame, being confused, a fantasy of being rescued, a sense of destiny, a sense that you should obey, a sense of secret knowledge, or an excessive sense of certainty about something, far too quickly. You may also feel that one honest question would break the spell."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "one honest question would break the spell",
+     "replace": "about something pretty quickly.",
+     "with": "about something pretty quickly. You may also feel that one honest question would break the spell."
+    },
+    {
+     "type": "SHIFT",
+     "what": "far too much certainty arriving far too quickly",
+     "replace": "about something pretty quickly.",
+     "with": "about something, far too quickly.",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "If you’re being hypnotically influenced, stop. Don’t obey right away. Don’t rebel automatically, either; just realize that you’re being influenced."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "don't obey right away (not 'don't listen')",
+     "replace": "Don’t listen.",
+     "with": "Don’t obey right away."
+    },
+    {
+     "type": "SHIFT",
+     "what": "automatic rebellion; and 'stop' said twice",
+     "replace": "Don’t rebel, either, just stop and realize that you’re being influenced.",
+     "with": "Don’t rebel automatically, either; just realize that you’re being influenced.",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Some common ways hypnotic language becomes manipulative: it smuggles in your consent, makes one choice seem inevitable, or hides a disputed claim inside the sentence, like"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the three ways: it smuggles in your consent, makes one choice seem inevitable, hides a disputed claim inside the sentence",
+     "replace": "Some common ways hypnotic language becomes manipulative includes:",
+     "with": "Some common ways hypnotic language becomes manipulative: it smuggles in your consent, makes one choice seem inevitable, or hides a disputed claim inside the sentence, like"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "“you’ll realize, eventually, that I’m right…” “you may eventually admit that…” “the only reason you resist is…” “part of you already knows…” “your higher self wants…” “everyone who’s truly awake knows…” “the reason you don’t believe that’s true is your ego’s fear of…”"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the examples' patterns: 'the only reason you resist is', 'part of you already knows', 'everyone who is truly awake'",
+     "replace": "“the reason you’re not feeling it yet is…”",
+     "with": "“the only reason you resist is…”"
+    },
+    {
+     "type": "SHIFT",
+     "what": "part of you already knows",
+     "replace": "“even if part of you doesn’t feel that’s true…”",
+     "with": "“part of you already knows…”"
+    },
+    {
+     "type": "LOST",
+     "what": "truly awake",
+     "replace": "“everyone knows…”",
+     "with": "“everyone who’s truly awake knows…”"
+    },
+    {
+     "type": "LOST",
+     "what": "'as you realize I'm right'",
+     "replace": "“you’ll realize, eventually, that…”",
+     "with": "“you’ll realize, eventually, that I’m right…”",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "your higher self wants (not 'knows', which repeated 'part of you knows')",
+     "replace": "“your higher self knows…”",
+     "with": "“your higher self wants…”",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "The grammar takes the conclusion for granted, turns your resistance into proof, and makes obeying feel like waking up. Ask:"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-a/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the grammar assumes the conclusion, turns resistance into proof and makes obedience feel like awakening ('other language patterns' led into the questions)",
+     "replace": "Other language patterns to watch out for include:",
+     "with": "The grammar takes the conclusion for granted, turns your resistance into proof, and makes obeying feel like waking up. Ask:"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "What’s being claimed here? What’s the inevitable choice being framed for me here? What’s being presupposed? Who benefits from framing it this way? What’s the emotionally charged bit? What’s not being said? Can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded?"
+   ],
+   "run": "HG16-d-s1",
+   "file": "fix-20261018/emu-g/HG16-d-s1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'what do I need to say to opt out'; the published: can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded",
+     "replace": "What do I need to say in order to opt out of the frame, and is it safe for me to do so (will I suffer negative consequences – physical, social, financial, reputational, spiritual etc – if I say no)?",
+     "with": "Can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded?",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "A useful guide helps bring more of the ‘adult’ into the conversation. When the state is more powerful, you need stronger boundaries."
+   ],
+   "run": "HG16-d-s1",
+   "file": "fix-20261018/emu-g/HG16-d-s1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "a useful guide leaves the adult more present; powerful states need stronger boundaries (not 'the above is a rough guide')",
+     "replace": "The above is a rough guide to help bring more of the ‘adult’ into the conversation. Use more of the above when the state is more powerful.",
+     "with": "A useful guide leaves more of the ‘adult’ in the conversation. When the state is more powerful, you need stronger boundaries."
+    },
+    {
+     "type": "MARCH",
+     "what": "my round-2 fix took out the stretch's only break (march-f: was \"B S\", new \"S S\"); Emulate's \"help bring more of the adult into the conversation\" back, with the published \"A useful guide\" (a person who guides, not the list above)",
+     "replace": "A useful guide leaves more of the ‘adult’ in the conversation.",
+     "with": "A useful guide helps bring more of the ‘adult’ into the conversation.",
+     "round": 3,
+     "from": "march-f, checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Soft language can still take away choice"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Permissive words can still hide coercion. Look for:"
+   ],
+   "run": "HG16-d-s2",
+   "file": "fix-20261018/emu-g/HG16-d-s2.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "'these words' had nothing to point to: permissive words",
+     "replace": "These words in and of themselves",
+     "with": "Permissive words in and of themselves"
+    },
+    {
+     "type": "SHIFT",
+     "what": "permissive words can still conceal coercion ('not coercive in themselves' is new)",
+     "replace": "Permissive words in and of themselves are not coercive but, when used, can be part of coercion.",
+     "with": "Permissive words can still hide coercion.",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Indirect suggestions can by-pass the subject’s skeptical guard by never directly stating what it is you want him/her to do. This does not mean that the suggestions are not specific, but rather that they are worded in a vague, conversational and suggestive manner."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "can slip past (not 'are generally used to')",
+     "replace": "Indirect suggestions are generally used to by-pass",
+     "with": "Indirect suggestions can by-pass"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the skeptical guard (a part), not the conscious mind",
+     "replace": "the subjects skeptical conscious mind",
+     "with": "the subject’s skeptical guard",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "1) Utilizing induction techniques while seemingly explaining something (even something like \"anti hypnosis\" can use the same mechanics of induction)."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "the bracket never closed",
+     "replace": "using the same mechanics of induction.",
+     "with": "can use the same mechanics of induction)."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "2) Making it so that any answer the subject may give will be taken as proof that the suggestion is working (yes, no, noticing, not noticing, resisting, not answering etc.)"
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "every answer redefined as proof that the suggestion is working",
+     "replace": "will result in compliance",
+     "with": "will be taken as proof that the suggestion is working",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "3) Using phrases like \"whether or not you notice\", etc., which turn uncertainty into invisible success that can’t be checked."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "uncertainty turned into invisible success that can't be checked",
+     "replace": "Using phrases like \"whether or not you notice\", etc.",
+     "with": "Using phrases like \"whether or not you notice\", etc., which turn uncertainty into invisible success that can’t be checked."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "4) Binding a concept of safety or goodness to obeying, or taking on a role, or pleasing the guide or belonging to someone else, etc."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "belonging to someone else (not 'being part of something')",
+     "replace": "or being part of something, etc.",
+     "with": "or belonging to someone else, etc."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "5) Using fractionation without informing the subject that going in and out of absorption several times is part of the method."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "without telling you that repeated re-entry is part of the method (not 'the benefits')",
+     "replace": "without informing the subject of the benefits of going in and out of absorption several times.",
+     "with": "without informing the subject that going in and out of absorption several times is part of the method."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "6) Giving the subject cues (words, gestures, blinks, sounds, repeated listening etc.) that will make them do something at a later date without informing them exactly what they will be doing."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "repeated listening",
+     "replace": "just by listening to certain things etc.",
+     "with": "repeated listening etc.",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "7) Suggesting amnesia, or making dream, amnesia, imagery and body experiences seem like \"proof\" of something that is not necessarily true."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "8) Ending the recording without bringing the subject out of the altered state, or leaving them with a role to play, lessened judgment, impaired physical abilities, blankness, or otherwise altered for an indefinite period of time."
+   ],
+   "run": "HG16-r1",
+   "file": "fix-20261018/emu-h/HG16-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "A REAL choice during a hypnosis includes at least one way to NOT carry on: turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis. “No” means no, even if someone with a nice voice is telling you to do something! And silence, or simply being unsure, isn’t consent."
+   ],
+   "run": "HG16-d-s3",
+   "file": "fix-20261018/emu-g/HG16-d-s3.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'then it can not be a covert hypnosis'; the published: a real choice includes at least one branch that doesn't continue the induction",
+     "replace": "If at any point during a hypnosis you have a REAL choice to NOT carry on, turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis then it can not be a covert hypnosis.",
+     "with": "A REAL choice during a hypnosis includes at least one way to NOT carry on: turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'if you are unsure you probably can't'; the published: silence and uncertainty don't become consent",
+     "replace": "If you are unsure that you can or can’t then you probably can’t. Simply not knowing your options isn’t a choice.",
+     "with": "And silence, or simply not knowing your options, isn’t consent."
+    },
+    {
+     "type": "SHIFT",
+     "what": "uncertainty (not 'not knowing your options')",
+     "replace": "or simply not knowing your options,",
+     "with": "or simply being unsure,",
+     "round": 2,
+     "from": "verify-c (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "See appendix C for the longer version of how to check for de-hypnosis."
+   ],
+   "run": "HG16-d-s3",
+   "file": "fix-20261018/emu-g/HG16-d-s3.out.txt",
+   "verdict": "OK"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG24-r1-s8.txt",
+  "input_words": 81,
+  "input_sha256": "948c47e0df1941110e7b87e68c895a9da227aafda8ae3edfa9a5c8421d3d7a97",
+  "balance_before": 138759,
+  "started_utc": "2026-10-18T03:04:26Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:04:32Z",
+  "response": {
+    "id": "3667d7fd-012c-4363-ace9-9601640d72c0",
+    "tool": "humanize",
+    "text": "Three things to remember when the practice starts to turn into a performance:\n\n1. Stop trying to make it better. Put one hand on the heart, the other on the solar plexis, and say to yourself,\n\n2. “I am not here to do this perfectly. I am here to be in relationship with that which is deeper than the surface of my mind.”\n\n3. “What can I do to make this more a communion than a performance?”\n\n4. Sometimes the answer to that question is to be quiet, sometimes it is to rest, sometimes it is to do something. Do whatever the answer is that comes to yourself.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 81
+    },
+    "elapsed": 6
+  },
+  "balance_after": 138678
+}

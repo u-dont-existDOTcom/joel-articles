@@ -1,0 +1,437 @@
+{
+ "HG02+03-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG02_03-f-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG02_03-f-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG02_03-f-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG02_03-f-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG02_03-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-e/HG02+03.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG02+03-fix, AI Generated 0.99: https://www.pangram.com/history/50be0544-93c3-4a7d-90bd-6b769e685c79",
+  "runs": [
+   "HG02_03-fxw1.out.txt"
+  ],
+  "words": 408,
+  "_blocks_ok": true
+ },
+ "HG10-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG10-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG10-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG10.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG10-fix, AI Detected 0.15: https://www.pangram.com/history/e9545d19-c14d-4469-a07f-83df265989cc",
+  "runs": [
+   "HG10-fxw1.out.txt"
+  ],
+  "words": 225,
+  "_blocks_ok": true
+ },
+ "HG11-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG11-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG11-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG11.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG11-fix, AI Generated 0.98: https://www.pangram.com/history/7a71f53d-c003-40a5-81e6-c028c6659bc9",
+  "runs": [
+   "HG11-fxw1.out.txt"
+  ],
+  "words": 235,
+  "_blocks_ok": true
+ },
+ "HG13-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG13-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG13-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG13-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG13-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-c/HG13.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG13-fix, AI Detected 0.73: https://www.pangram.com/history/aae0988c-c531-451c-ade8-9e9a90a4e8de",
+  "runs": [
+   "HG13-fxw1.out.txt"
+  ],
+  "words": 591,
+  "_blocks_ok": true
+ },
+ "HG14-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s10.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s11.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s12.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s13.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s14.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s15.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s16.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s17.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s8.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-e/HG14-r1-s9.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG14-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG14-fxw3.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG14.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG14-fix, AI Detected 0.70: https://www.pangram.com/history/59037dea-28a8-485e-a76c-2ec3e9da56e5",
+  "runs": [
+   "HG14-fxw1.out.txt",
+   "HG14-fxw2.out.txt",
+   "HG14-fxw3.out.txt"
+  ],
+  "words": 3255,
+  "_blocks_ok": true
+ },
+ "HG15-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG15-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG15-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG15.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG15-fix, AI Detected 0.79: https://www.pangram.com/history/259aa566-1140-4af3-b545-812c357756ae",
+  "runs": [
+   "HG15-fxw1.out.txt"
+  ],
+  "words": 856,
+  "_blocks_ok": true
+ },
+ "HG18-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG18-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG18-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG18-fix, AI Generated 1.00: https://www.pangram.com/history/9d121ca4-dc27-42aa-95d4-24e8231cc009",
+  "runs": [
+   "HG18-fxw1.out.txt"
+  ],
+  "words": 606,
+  "_blocks_ok": true
+ },
+ "HG19-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG19-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG19-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG19.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG19-fix, AI Generated 0.99: https://www.pangram.com/history/655b93e4-1ba8-4529-b4ab-eb4a7926aca9",
+  "runs": [
+   "HG19-fxw1.out.txt"
+  ],
+  "words": 294,
+  "_blocks_ok": true
+ },
+ "HG20-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s8.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG20-r1-s9.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG20-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG20.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG20-fix, AI Detected 0.88: https://www.pangram.com/history/df7eb59d-ca40-4660-8c3c-daa0303dac15",
+  "runs": [
+   "HG20-fxw1.out.txt"
+  ],
+  "words": 1988,
+  "_blocks_ok": true
+ },
+ "HG21-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG21-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG21-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG21.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG21-fix, AI Generated 0.98: https://www.pangram.com/history/7c60b853-a906-4237-8926-44a68889f25f",
+  "runs": [
+   "HG21-fxw1.out.txt"
+  ],
+  "words": 379,
+  "_blocks_ok": true
+ },
+ "HG22-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG22-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG22-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-a/HG22.fixed.json"
+  ],
+  "lint": "REVIEW",
+  "refix_of": "434g HG22-fix, AI Generated 1.00: https://www.pangram.com/history/7bc90056-4455-4eb9-b72a-a33d2a92b516",
+  "runs": [
+   "HG22-fxw1.out.txt"
+  ],
+  "words": 117,
+  "_blocks_ok": true
+ },
+ "HG23-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG23-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG23.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG23-fix, AI Detected 0.68: https://www.pangram.com/history/dba865dd-6f91-4089-906f-42d9c38e022c",
+  "runs": [
+   "HG23-fxw1.out.txt"
+  ],
+  "words": 475,
+  "_blocks_ok": true
+ },
+ "HG25-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG25-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG25-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG25.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG25-fix, AI Generated 0.90: https://www.pangram.com/history/1a3ffb38-b720-43e0-82aa-4031f7fdbd54",
+  "runs": [
+   "HG25-fxw1.out.txt"
+  ],
+  "words": 526,
+  "_blocks_ok": true
+ },
+ "HG26-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG26-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG26-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG26.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG26-fix, AI Detected 0.69: https://www.pangram.com/history/7e081034-8bcd-46f5-8c12-9536d72a3e3a",
+  "runs": [
+   "HG26-fxw1.out.txt"
+  ],
+  "words": 592,
+  "_blocks_ok": true
+ },
+ "HG27-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG27-f-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG27-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-e/HG27.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG27-fix, AI Detected 0.45: https://www.pangram.com/history/a6030d3f-a9d5-488b-8593-d48f55422e1c",
+  "runs": [
+   "HG27-fxw1.out.txt"
+  ],
+  "words": 156,
+  "_blocks_ok": true
+ },
+ "HG28-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG28-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG28-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG28.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG28-fix, AI Detected 0.26: https://www.pangram.com/history/1c26f1e6-9913-4d57-be07-ef4b384943e7",
+  "runs": [
+   "HG28-fxw1.out.txt"
+  ],
+  "words": 320,
+  "_blocks_ok": true
+ },
+ "HG33-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG33-f-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG33-f-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-f/HG33-r1-h1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG33-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-e/HG33.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG33-fix, AI Generated 0.99: https://www.pangram.com/history/36870ff4-7cd1-4d69-97b0-b6ddbe35a9ff",
+  "runs": [
+   "HG33-fxw1.out.txt"
+  ],
+  "words": 907,
+  "_blocks_ok": true
+ },
+ "HG34-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG34-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG34-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG34.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG34-fix, AI Detected 0.69: https://www.pangram.com/history/c98abd94-a95f-4ee6-9aae-13c106f42c20",
+  "runs": [
+   "HG34-fxw1.out.txt"
+  ],
+  "words": 360,
+  "_blocks_ok": true
+ },
+ "HG35-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-c/HG35-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG35-fxw3.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-d/HG35.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG35-fix, AI Detected 0.50: https://www.pangram.com/history/9b3189b7-ab20-4c41-85da-a20419ce955a",
+  "runs": [
+   "HG35-fxw1.out.txt",
+   "HG35-fxw2.out.txt",
+   "HG35-fxw3.out.txt"
+  ],
+  "words": 1104,
+  "_blocks_ok": true
+ },
+ "HG36-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG36-r1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG36-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-b/HG36.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG36-fix, AI Detected 0.80: https://www.pangram.com/history/fd56d217-88d4-4195-ae30-52088dd40bcd",
+  "runs": [
+   "HG36-fxw1.out.txt"
+  ],
+  "words": 471,
+  "_blocks_ok": true
+ },
+ "HG40-refix": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-r/HG40-fxw1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "fixed": [
+   "articles/inner-signal/humanize/fix-20261018/rev-c/HG40.fixed.json"
+  ],
+  "lint": "FAIL",
+  "refix_of": "434g HG40-fix, AI Generated 0.93: https://www.pangram.com/history/ca18c68c-8234-40c7-8cd5-0eac6d5c6e34",
+  "runs": [
+   "HG40-fxw1.out.txt"
+  ],
+  "words": 804,
+  "_blocks_ok": true
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ar/HG17-mw3.txt",
+  "input_words": 112,
+  "input_sha256": "6a39def723abc007014822121018abe02658be5a07072720d2d4a3dbd833b9d1",
+  "balance_before": 83616,
+  "started_utc": "2026-10-18T09:40:38Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:40:43Z",
+  "response": {
+    "id": "a22a0081-e723-44dd-b686-faa16b41aecd",
+    "tool": "humanize",
+    "text": "5, perhaps notice again your chosen anchor for today, 4, notice, 3, space, 2, listen, 1, stay\n\nBring to mind your chosen concern or just the wish to contact.\n\nNotice what you notice.\n\nAllow yourself some time to notice what is coming for you, sensations, words, images, feelings, movements or even nothing for now.\n\nAllow yourself some time to notice what you notice, with or without words.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 112
+    },
+    "elapsed": 4
+  },
+  "balance_after": 83504
+}

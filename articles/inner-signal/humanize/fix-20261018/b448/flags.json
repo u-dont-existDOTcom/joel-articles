@@ -1,0 +1,109 @@
+{
+ "HG18-refix3": {
+  "headline": "AI Generated",
+  "ai": 0.94,
+  "words": 512,
+  "windows": "AI-Generated, High, 512",
+  "link": "https://www.pangram.com/history/4ed28bcd-5fdf-49e5-acfd-dfe8cc041f2f",
+  "n_blocks": 7,
+  "flagged_blocks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "unmatched": [],
+  "flagged_words": 510
+ },
+ "HG24-refix2": {
+  "headline": "Human Written",
+  "ai": 0.06,
+  "words": 1288,
+  "windows": "Human, High, 1288",
+  "link": "https://www.pangram.com/history/266d8b09-d06e-4e40-a595-c87acb623fe3",
+  "n_blocks": 41,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG06-refix2": {
+  "headline": "Human Written",
+  "ai": 0,
+  "words": 219,
+  "windows": "Human, High, 219",
+  "link": "https://www.pangram.com/history/f9d9b629-8576-4d87-90c7-6dc3d52fbb28",
+  "n_blocks": 7,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG06-u-p3+prev": {
+  "headline": "Human Written",
+  "ai": 0.32,
+  "words": 91,
+  "windows": "Human, Low, 91",
+  "link": "https://www.pangram.com/history/4ead5b5f-4781-4e3c-b97a-ca576ab7dff2",
+  "n_blocks": 2,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG06-u-p4+next": {
+  "headline": "Human Written",
+  "ai": 0,
+  "words": 88,
+  "windows": "Human, Low, 88",
+  "link": "https://www.pangram.com/history/290f0a10-12bd-4dc4-a26e-1848a2db8ea4",
+  "n_blocks": 3,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG11-r-p1": {
+  "headline": "Human Written",
+  "ai": 0,
+  "words": 58,
+  "windows": "Human, Low, 58",
+  "link": "https://www.pangram.com/history/8bc24334-5001-4402-bcbf-95b454d96a16",
+  "n_blocks": 1,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG11-r-p2+prev": {
+  "headline": "Human Written",
+  "ai": 0,
+  "words": 94,
+  "windows": "Human, Low, 94",
+  "link": "https://www.pangram.com/history/f3b0d635-c92b-43dc-a5ed-26c1021df13f",
+  "n_blocks": 2,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG11-r-p3": {
+  "headline": "Human Written",
+  "ai": 0.17,
+  "words": 83,
+  "windows": "Human, Low, 83",
+  "link": "https://www.pangram.com/history/13093f3e-34c0-4ed9-8530-84b35663f31c",
+  "n_blocks": 1,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ },
+ "HG11-r-p4+next": {
+  "headline": "Human Written",
+  "ai": 0,
+  "words": 55,
+  "windows": "Human, Low, 55",
+  "link": "https://www.pangram.com/history/78d7a93e-f88f-48cb-ab9e-56757464ee8d",
+  "n_blocks": 2,
+  "flagged_blocks": [],
+  "unmatched": [],
+  "flagged_words": 0
+ }
+}

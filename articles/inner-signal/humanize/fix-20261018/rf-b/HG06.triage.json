@@ -1,0 +1,58 @@
+{
+ "key": "HG06",
+ "fixes": [
+  {
+   "block": 3,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B3: LOST \"a mind can be influenced without the adult self clearly choosing\" and B3: INVENTED influence on someone who is not a legal adult (\"adult self\" read as \"legal adult\"); the second question now asks about influence when the adult self has not clearly chosen it",
+     "replace": "they are a legal adult",
+     "with": "the adult self has clearly chosen it",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 4,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B4: SHIFT \"line associated with the tradition\" became \"from the school\" (the quoted line's attribution made firmer than the published)",
+     "replace": "From the school",
+     "with": "Associated with the school",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B3: SHIFT four distinct things asserted, now one question contrasting only conscious agreement",
+   "why": "form change: the rhetorical question still names all four terms and sets conscious agreement against the other three"
+  },
+  {
+   "finding": "B4: LOST \"says it plainly\"",
+   "why": "framing remark in the author's voice; the quotation follows unchanged and claims nothing new"
+  },
+  {
+   "finding": "B6: LOST the nine named influences",
+   "why": "NOT accepted: B6 goes to resample; restoring the nine influences, cutting the invented deliberate-technique claim and the repeat would change over a quarter of the stretch"
+  },
+  {
+   "finding": "B6: INVENTED outside forces deliberately using \"these techniques\" on you",
+   "why": "NOT accepted: B6 goes to resample (see the nine influences)"
+  },
+  {
+   "finding": "B6: SHIFT \"practice from inside it\" became \"turn the tables, use them yourself\"",
+   "why": "wording (the idea of using the techniques yourself is kept); moot anyway because B6 goes to resample"
+  },
+  {
+   "finding": "R: you can use these techniques yourself (sentences 2 and 3, \"self-hypnosis techniques\" again), in B6 and B6",
+   "why": "NOT accepted: B6 goes to resample (cutting the repeat alone would not cover the lost influences and the invented claim)"
+  }
+ ],
+ "resample": [6]
+}

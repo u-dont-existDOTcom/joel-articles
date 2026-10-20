@@ -1,0 +1,124 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"first encounter ... while altered\" became \"used substances in order to do\" (purpose, substances only, \"first\" lost)",
+    "replace": "in order to do self-hypnosis, contact their inner child, or talk to their Higher Self",
+    "with": "when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B3: INVENTED substances \"helped\" people OPEN up (published: any past opening); and the repeat R: many people have used substances to open up, in B1 and B3",
+    "replace": "For a lot of people, substances helped them to OPEN themselves up",
+    "with": "A lot of people have OPENED themselves up",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B5: SHIFT \"remember love\" became \"remember what it is like to be in love\"",
+    "replace": "Help me to remember what it is like to be in love.",
+    "with": "Help me to remember love.",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B6: INVENTED \"while you are in an altered state\" limits the ban to that state",
+    "replace": "DO NOT use self-hypnosis while you are in an altered state of consciousness to try to keep",
+    "with": "DO NOT use self-hypnosis to try to keep",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B6: SHIFT \"recover memories\" became \"remember things\" (specific caution blurred)",
+    "replace": "to try to remember things",
+    "with": "to try to recover memories",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "B7: UNCLEAR \"helps you need SLEEP\" for \"less able to sleep\"",
+    "replace": "helps you need SLEEP",
+    "with": "helping you SLEEP",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B7: LOST \"less able to meet ordinary responsibilities\"",
+    "replace": "become MORE communicative, etc,",
+    "with": "become MORE communicative, MORE able to do your everyday responsibilities, etc,",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "B10: UNCLEAR \"may not be meaningful\" followed by meaningful sources (inner child, Protector)",
+    "replace": "may not actually be meaningful",
+    "with": "may or may not actually be meaningful",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B10: LOST \"a frightening image isn't automatically truth\"",
+    "replace": "Regardless of the lighting",
+    "with": "Regardless of how scary an image is, regardless of the lighting",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B11: LOST \"ask a simpler question\" (sentence left without its verb)",
+    "replace": "your altered state of consciousness is,",
+    "with": "your altered state of consciousness is, ask yourself something simpler:",
+    "round": 1,
+    "from": "second reader of 461g HG36-wc (rf-zc/HG36.wc.verify.part1.out.txt), triaged"
+   }
+  ]
+ }
+]

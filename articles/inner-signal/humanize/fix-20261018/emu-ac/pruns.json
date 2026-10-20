@@ -1,0 +1,26 @@
+[
+ {
+  "key": "HG15",
+  "unit_first_block": 1,
+  "paras": [
+   8,
+   10
+  ],
+  "words": 121,
+  "input": "meaning-fixed text (the triaged refix)",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-a/HG15.fixed.json",
+  "run": "HG15-pw1"
+ },
+ {
+  "key": "HG15",
+  "unit_first_block": 1,
+  "paras": [
+   22,
+   23
+  ],
+  "words": 114,
+  "input": "meaning-fixed text (the triaged refix)",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-a/HG15.fixed.json",
+  "run": "HG15-pw2"
+ }
+]

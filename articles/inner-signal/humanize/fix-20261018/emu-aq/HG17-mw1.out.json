@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aq/HG17-mw1.txt",
+  "input_words": 214,
+  "input_sha256": "42ab3aebdcd3b89dba57b2ec19c2d3bd5d2c37543fc7398a32f0c22cbf6c58e7",
+  "balance_before": 85352,
+  "started_utc": "2026-10-18T09:39:04Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:39:14Z",
+  "response": {
+    "id": "f2812e05-abf9-4e13-aea7-4262a56fc2db",
+    "tool": "humanize",
+    "text": "Sober induction: 3–5 minutes\n\nThis is intended to be read slowly into a recorder, or read aloud to you, or learned and used as silent words. You will need to choose one of the three anchors (sound, bodily contact or two hands etc.), and stick with it throughout. You may want to choose an opening phrase to say as well. Whenever ‘the anchor’ is referred to use the one you have chosen. Pause for a few moments at the end of each paragraph. Do not read aloud the instructions for how to read.\n\nCan you notice where your eyes are settling in the room?\n\nAs you notice the surface that you are sitting or lying on, can you also notice what it feels like to be in contact with that surface? And as you notice the surface, can you also notice the anchor?\n\nIs there time to do this?\n\nIs there a thought there about something that’s happened today? Is there a thought about how to do this? Whatever is there, can you turn your attention to the anchor? Even if there is a thought there, can you turn your attention to the anchor?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 214
+    },
+    "elapsed": 9
+  },
+  "balance_after": 85138
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-s/HG24-fxw1.txt",
+  "input_words": 89,
+  "input_sha256": "371eaf78c766a78ff8d15608caa43baf2fdbc2ba5879467ffc2845be118d2ac4",
+  "balance_before": 107192,
+  "started_utc": "2026-10-18T05:38:42Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:38:49Z",
+  "response": {
+    "id": "52a22e53-6b57-42a9-9c07-bc65f726df5e",
+    "tool": "humanize",
+    "text": "Troubleshooting\n\nNothing happens\n\nCould you try this a bit smaller?\n\nShow me one body sensation, one word, whether to listen or rest today.\n\nThat feels kind of fake.\n\nWhat in particular feels fake? If it's that you aren't getting an inner voice/image, it isn't necessarily a resistance or not being an adult. If it's telling you to do something you don't want to do, it's okay to correct it. If it turns out to be a protection, you can talk to it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 89
+    },
+    "elapsed": 6
+  },
+  "balance_after": 107103
+}

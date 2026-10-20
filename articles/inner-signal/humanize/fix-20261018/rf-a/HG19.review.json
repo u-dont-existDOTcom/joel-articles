@@ -1,0 +1,32 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED 'until you are ready to try this lying down', a readiness stage (published: sit if prone to dissociate; save lying down for sleep, deep rest, dream incubation)",
+    "replace": "until you are ready to try this lying down, either",
+    "with": "and save lying down for when you want",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED 'Unless I'm going to sleep or want deep rest' inside the 'not leaving life' script; also removes the R repeat of the sleep/deep-rest exception in B1 and B2",
+    "replace": "Unless I’m going to sleep or want deep rest, I am not leaving life",
+    "with": "I am not leaving life",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT 'believe none of it automatically' became 'believe nothing' (claim hardened)",
+    "replace": "believe nothing",
+    "with": "believe nothing automatically",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

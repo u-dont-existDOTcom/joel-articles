@@ -1,0 +1,23 @@
+[
+ {
+  "block": 1,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"more time\" became \"a bit more time\"",
+    "replace": "spend a bit more time with it",
+    "with": "spend more time with it",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"start from Higher Self or witnessing\" became \"when useful, Higher Self; if not possible, witnessing\"",
+    "replace": "Whenever it is useful just access Higher Self, or if that is not possible go to a neutral witnessing place and let it unfold",
+    "with": "Start from Higher Self or neutral witnessing and let it unfold",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]

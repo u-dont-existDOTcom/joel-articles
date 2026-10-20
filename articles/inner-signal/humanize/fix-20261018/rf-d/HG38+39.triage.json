@@ -1,0 +1,189 @@
+{
+ "key": "HG38+39",
+ "fixes": [
+  {
+   "block": 3,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B3: LOST \"complete\" in the complete waking return (\"fully\" restored)",
+     "replace": "bring yourself back to waking",
+     "with": "bring yourself fully back to waking",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 6,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"press gently, stretch slightly, and release\" became \"either stretch or press down\" (\"gently\" dropped; restored on the press)",
+     "replace": "pressing down into the support",
+     "with": "pressing gently down into the support",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 16,
+   "problems": [
+    {
+     "type": "WRONG",
+     "what": "B16: WRONG \"without claiming medical repair\" became \"look for anything needing medical attention, imagine it fixed\" (the caution is back and the invented medical looking is gone)",
+     "replace": "that could use medical attention, and if you imagine it being fixed, what is different afterwards?",
+     "with": "different at each step, without claiming it is a medical repair.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 18,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B18: SHIFT part comes \"as close as they want\", not only as closely as welcome (the limit on how close it comes is restored)",
+     "replace": "to come as close as they want",
+     "with": "to come only as close as is welcome",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B18: LOST \"not erased history\"",
+     "replace": "\"good as you\".",
+     "with": "\"good as you\", not to erase history.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 22,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B22: LOST \"wait\" after the question and \"one clear\" question",
+     "replace": "ask a question,",
+     "with": "ask one clear question and wait,",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B22: SHIFT \"one small action\" became \"something based on it\" (the size limit on acting on the signal is restored)",
+     "replace": "do something based on it",
+     "with": "do one small thing based on it",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B3: SHIFT \"Preview the sequence\" became \"Practise!\" and \"work out which one you want to do\"",
+   "why": "\"work out in advance which one\" keeps the look-ahead and the choice; \"Practise!\" is an opener in the author's voice"
+  },
+  {
+   "finding": "B6: LOST what to notice: ease, tension, warmth, breath",
+   "why": "example list shortened; \"see if there is any difference, even if there isn't\" keeps the instruction"
+  },
+  {
+   "finding": "B6: SHIFT hand or foot focus now optional (\"You can also\")",
+   "why": "anchor step made optional; no safety stake"
+  },
+  {
+   "finding": "B8: LOST \"keep the support, regain chosen weight and firm contact\" (now just \"normal feeling of support\")",
+   "why": "return step kept in plainer words: back to the normal feeling of support, then return"
+  },
+  {
+   "finding": "B10: INVENTED natural versus artificial rhythm split; \"accompany\" became \"make\"",
+   "why": "labels on the same list; every rhythm option is kept"
+  },
+  {
+   "finding": "B10: INVENTED \"tell yourself you are going to say\" announcement before the phrase",
+   "why": "elaboration that fits the guide's own say-it-first rule; adds no risk"
+  },
+  {
+   "finding": "B10: SHIFT \"stop the deliberate rhythm, notice the first quiet beat\" became \"stop saying it, the first beat\"",
+   "why": "same step, stop and then notice what comes first; the no-blank-mind line is kept"
+  },
+  {
+   "finding": "B12: LOST \"nothing is erased\"",
+   "why": "reassurance shortened; putting the others where you can see them keeps the point"
+  },
+  {
+   "finding": "B12: INVENTED \"give yourself a minute to look at them\"",
+   "why": "casual tip in the stretch's voice; claims nothing new"
+  },
+  {
+   "finding": "B14: SHIFT \"Who or what needs to speak?\" became \"talk to whoever you need to\"",
+   "why": "same use, pick the figure the scene needs; wording"
+  },
+  {
+   "finding": "B16: LOST \"pause at each step\"",
+   "why": "\"feel into\" the first area and \"sense into\" the new one keep the stepwise pace; \"at each step\" is back in the medical-claim fix"
+  },
+  {
+   "finding": "B16: LOST what spreads: warmth, steadiness, or attention (now just \"a wave\")",
+   "why": "examples dropped; the wave image carries it"
+  },
+  {
+   "finding": "B16: SHIFT \"ordinary care\" became \"other care\"",
+   "why": "wording in a list of things the body may want"
+  },
+  {
+   "finding": "B18: LOST \"patient\" care, \"wait\", and \"reassess\"",
+   "why": "asking and then giving implies waiting; \"if that's ok\" and the repeated breaks keep the check; \"patient\" is tone"
+  },
+  {
+   "finding": "B18: INVENTED ways to care: give what it wants, sense into it, just be with it",
+   "why": "options under \"care for it\" with the adult still running the show; claims nothing new"
+  },
+  {
+   "finding": "B20: LOST \"qualities you understand\" and the examples (warmth, boundary, steadiness, curiosity, dignity)",
+   "why": "tip and example list shortened; the exercise is the same"
+  },
+  {
+   "finding": "B20: SHIFT \"observe rather than embody when preferred\" became \"or just sense yourself\"",
+   "why": "a lighter alternative to imagining is still offered"
+  },
+  {
+   "finding": "B20: LOST noticing a movement, word, image, or no response",
+   "why": "\"what is different?\" keeps the noticing; the section's opening already says to notice even if nothing changes"
+  },
+  {
+   "finding": "B20: LOST repeating strengthens access, not replaces identity",
+   "why": "\"strengthen it\" kept; not replacing identity is carried by \"leaving the person behind, saying I am me\""
+  },
+  {
+   "finding": "B20: LOST asking how the quality would meet today's situation",
+   "why": "the application is carried by keeping one positive action to do with the quality"
+  },
+  {
+   "finding": "B22: LOST naming the room (only the day)",
+   "why": "orientation list shortened; eyes, day, feet and \"etc\" keep it"
+  },
+  {
+   "finding": "B22: LOST \"without interpreting it as proof\"",
+   "why": "the exit step \"reality test the autonomous\" keeps the caution"
+  },
+  {
+   "finding": "B22: LOST \"Full alertness is not an inferior version of the practice\"",
+   "why": "reassuring remark; nothing the reader does changes (\"Deepener: none\" is kept)"
+  },
+  {
+   "finding": "B22: SHIFT adult \"answers the question\" in any appropriate way, not responds in writing or one practical choice",
+   "why": "\"preferably by writing or doing\" keeps both ways"
+  },
+  {
+   "finding": "B22: LOST \"no altered state, so simply close and continue the day\"",
+   "why": "\"stop doing it\" is the simple close; there is no altered state to return from"
+  }
+ ],
+ "resample": []
+}

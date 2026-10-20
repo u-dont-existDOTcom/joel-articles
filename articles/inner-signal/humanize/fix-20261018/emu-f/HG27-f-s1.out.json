@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG27-f-s1.txt",
+  "input_words": 54,
+  "input_sha256": "b2b47c4846750b2bed2ce90760e2a86ab9c99d21710d9f5ba380e08937339b91",
+  "balance_before": 129269,
+  "started_utc": "2026-10-18T03:24:28Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:33Z",
+  "response": {
+    "id": "25785788-b2b6-4952-b728-ed29a23e938b",
+    "tool": "humanize",
+    "text": "Hi, I’m Sarah. I believe that your subconscious mind, your body, your analytical mind, and the part of you that feels like it needs to protect you are all on your side.\n\nWhether or not you can “get hypnotized” isn’t as important to me as whether or not you can become a trustworthy adult.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 54
+    },
+    "elapsed": 4
+  },
+  "balance_after": 129215
+}

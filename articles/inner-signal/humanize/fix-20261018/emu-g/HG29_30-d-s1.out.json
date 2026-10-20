@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG29_30-d-s1.txt",
+  "input_words": 189,
+  "input_sha256": "ab03ed5b4d42b20e8648bbc4d9ed6704ee1eb23cb407960e5dc5e8e0bdb55c24",
+  "balance_before": 125809,
+  "started_utc": "2026-10-18T03:36:04Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:36:13Z",
+  "response": {
+    "id": "dac96c15-ae65-45d6-a1b4-4d80c6936bf4",
+    "tool": "humanize",
+    "text": "Here’s a simple prompt: Dear subconscious, as I bring this signal to mind, please disempower the parts that are conditioned. Which may come from my family of origin, religious indoctrination, marketing and advertising, erotic imprinting, political tribalism, trauma response or childhood survival conditioning. Please leave the parts that are guided by the universal heart that wants to show me how to live a better life.\n\nThen an appropriate modifier depending on the situation. If it’s a daydream:\n\nIf it’s a daydream and it’s useful, let me know how it’s trying to guide me. If it’s not useful, please move me into the present so I can deal with what’s in front of me.\n\nIf it’s anxiety:\n\nIf it’s trying to show me something I don’t want to see, don’t show it to me until I’m capable of handling it.\n\nAnd finally, a prompt to help integrate the insight into ordinary life:\n\nThe first prompt sets the stage and the NLP-y language helps create the right context.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 189
+    },
+    "elapsed": 9
+  },
+  "balance_after": 125620
+}

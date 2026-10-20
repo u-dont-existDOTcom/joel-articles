@@ -1,0 +1,360 @@
+{
+ "key": "HG37",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-g/HG37.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t",
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-v"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "paras": [
+    "I speak here from experience.",
+    "When you’re doing hypnosis, meditation, lucid dreaming, loveyhuasca-ing, going through a period of intense grief, praying, or whatever else may alter your consciousness, it’s possible you may run into something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter – it may be a voice or an image, and it does n’t just feel like an emotion or a younger part of you, but something that feels intrusive, hateful, seductive, mocking, etc.",
+    "First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked."
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B1: LOST the practical question's criteria (safer, clearer, more loving, more grounded, less hooked); 'best way' was left undefined; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
+     "replace": "what is the best way to deal with them",
+     "with": "what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Start with the room, the body, and basic safety"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6,
+    7,
+    8
+   ],
+   "paras": [
+    "So what do you do when you encounter a demon, or a jinn, or something else that’s bad and intrusive?",
+    "First of all, do the usual things – make sure you’re not in danger from a medical standpoint, check your environment, check your body, make sure you’re not overstimulating yourself, make sure you’re not opening your mind too much. If you need to, open your eyes, ground yourself in your body and your environment, remove yourself from any bad influence you’re surrounding yourself with, stop stimulating your mind. Don’t go further into whatever it is you’re doing – don’t be curious, don’t try to figure out what it is.",
+    "Tell yourself, “If this can be integrated in this moment, it’s welcome. If not, it can wait until later. The adult part of me is still here, and my body can return to safety.”",
+    "If you feel like you’re in any danger of doing anything harmful to yourself or others, if you feel like you’re going psychotic and you’re afraid of it, if you feel like you won’t be able to sleep when the self-hypnosis session is over, if you feel overly paranoid, if you feel physical pain in your chest, if you feel like you’re going to have a seizure, if you feel like you’re too hot in a bad way, if you feel like you’ve taken too much of something, if you feel like you won’t be able to function in the world anymore – then the self-hypnosis session is over, and you should get help in the “real world”."
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT script line 'adult self remains present' became 'adult part is always welcome', and 'body may return to safety' became 'so is my body' (safety dropped)",
+     "replace": "is always welcome, and so is my body",
+     "with": "is still here, and my body can return to safety",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "A response check, not a verdict about what it is"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "paras": [
+    "If, however, you feel like you’re stable enough to stay present, check in with yourself and see what’s best to do. Again, it doesn’t matter if it’s a demon or not. Put your hand on your heart if that feels okay, breathe comfortably, and stay aware of the room.",
+    "Internalize the fact that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way. Keep in mind that you don’t have to do what it tells you to do.",
+    "If you feel vulnerable, if you feel tightness in your throat, if you feel sadness or fear or a need to protect yourself from it, call upon your Nurturer. If you don’t feel better, or if it continues being hostile towards you, stop trying to deal with it and return to your body and the room.",
+    "Internalize the fact that you don’t have to know where it comes from. Check in with yourself about whether or not this is helpful. You don’t have to find out if it’s a protector immediately, and you may not be able to comfort it quickly, but whether warmth or distance helps, that doesn’t prove what it is."
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B10: SHIFT 'stable enough to stay present' became 'feel like you can deal with it' (the condition for going on)",
+     "replace": "you can deal with it",
+     "with": "you’re stable enough to stay present",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST hand on heart 'if that feels welcome' (now a plain instruction)",
+     "replace": "Put your hand on your heart, breathe",
+     "with": "Put your hand on your heart if that feels okay, breathe",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "REPEAT",
+     "what": "R: check in with yourself about what to do, said twice in the first paragraph (published says it once); the second one replaced by the lost 'keep the room available' (B10 LOST)",
+     "replace": "check in with yourself about what to do in this situation",
+     "with": "stay aware of the room",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST 'keep my boundary either way' (warm or at arm's length)",
+     "replace": "or to keep it at arm’s length.",
+     "with": "or to keep it at arm’s length, and keep your boundary either way.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B10: LOST 'return to the body and room' after stopping",
+     "replace": "stop trying to deal with it.",
+     "with": "stop trying to deal with it and return to your body and the room.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B10: INVENTED 'work with it as if it were a protector, at least for now' (it also cuts against the no-verdict caution); also B10: LOST 'neither response establishes its origin; a comforting response doesn't prove an interpretation'",
+     "replace": "but work with it as if it were, at least for now",
+     "with": "but whether warmth or distance helps, that doesn’t prove what it is",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Do not fight from fear"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15,
+    16,
+    17
+   ],
+   "paras": [
+    "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own lesser self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear…",
+    "It becomes a center of attention if you fear it, and if you hate it you give it a hook in you. (If you’re proud you give it an opponent, and if you panic you give it your nervous system.)",
+    "So the next time it comes up you can just say, “I see that there is no reason to hate and revile what I am experiencing. I see that there is no reason to merge with or become what I am experiencing. I see that there is no reason to obey what I am experiencing. I see that there is no reason to try to defeat what I am experiencing out of fear. I choose to return my attention to loving awareness.”"
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "B15: WRONG 'only becomes a center of attention if you hate it' (fear gives it center stage, hatred the hook; 'only' added); also B15: UNCLEAR the sentence breaking off at 'out of fear', since the claim that fighting from fear puts it at the center of attention is now stated right after it; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
+     "replace": "It only becomes a center of attention if you hate it and therefore give it a hook in you.",
+     "with": "It becomes a center of attention if you fear it, and if you hate it you give it a hook in you.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B15: LOST 'pride gives it an opponent' and 'panic gives it the nervous system'; also B15: UNCLEAR the parenthetical 'To counter pride, or to feel you must panic and defeat it'; 454g (2026-10-18): the pasted published wording read AI (a 32- and a 36-word window), so reworded in the stretch's voice",
+     "replace": "To counter pride, or to feel you must panic and defeat it.",
+     "with": "If you’re proud you give it an opponent, and if you panic you give it your nervous system.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "A bodily boundary: compassion present, door closed"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "paras": [
+    "Second, feel free to tell the presence that while you have compassion for it, the door is closed.",
+    "This is especially a good idea if the presence you’re experiencing seems even the slightest bit hostile, cold, alien, parasitic, etc. It needs to realize that you don’t welcome it. It’s not really helpful to approach it with the kind of soft, sentimental love that you’d use if you were inviting it to stay for tea, but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries.",
+    "Sit up, make sure your feet are grounded on the floor, straighten your spine, pull your shoulder blades back a little, open your chest a little, feel the boundary of your torso’s skin, feel the perimeter of your body, and tell the presence, “While I have compassion for you and any suffering you may be experiencing, this suffering needs to go back where it came from. The boundary of my skin is the boundary of an adult now, and you’re not welcome to come inside the house anymore.”"
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-v/HG37-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "REPEAT",
+     "what": "R: the presence needs to respect your boundaries, in B19 and B19 (both sentences of its second paragraph); published says it once (Use love with a boundary), the first mention cut",
+     "replace": "welcome it and that it needs to respect your boundaries.",
+     "with": "welcome it.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "If it might be psychosis or destabilization"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    24,
+    25,
+    26
+   ],
+   "paras": [
+    "This is assuming that you are having a symbolic experience of “hostile presences” which responds to grounding and love. It may be that what you are experiencing is actually psychotic or a form of destabilization.",
+    "If you feel like you are under attack for multiple days at a time, if you are not able to sleep, if you are not able to function normally, if you are hearing voices telling you to do things, if you feel you need to hurt yourself or somebody else, if you feel you are going manic, if you feel you can’t communicate normally, if you feel you can’t distinguish between what you are experiencing symbolically and normal reality, get help immediately. It’s not something to deal with in hypnosis.",
+    "As a general rule, if this is making you more loving, more grounded, more relational, more honest, and more functional, then it’s probably OK to keep doing it gently. If it’s making you more Paranoid, more sleepless, more grandiose, more isolated, more scared, or more unreal, don’t go deeper, get help."
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "The cosmic-download humility test"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28,
+    29,
+    30
+   ],
+   "paras": [
+    "Finally, presences, shadow forces, or grandiose parts may try to respond by giving you a sense that you’re special, trying to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc. I don’t need it.",
+    "Unless the “guidance” you’re trying to give me can help me be more beautiful, honest, relational, humble, and useful in my everyday life, I don’t need it.”"
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "REPEAT",
+     "what": "R: the dishes-and-room test and \"I don't need it\", in B28 and B28 (first and second script paragraphs); dishes-and-room said once in the published script, so the second mention is replaced by \"in my everyday life\" (keeps the ordinary-life anchor of the B28 SHIFT finding); the closing refrain stays",
+     "replace": "useful, and take care of my dishes and my room,",
+     "with": "and useful in my everyday life,",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "Don’t become an entity hobbyist"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Finally, some of you may be tempted to make this an area of hobbyism – to become interested in demons or jinns or hostile presences or Unattached Burdens or whatever. I just don’t want you to do that. They all lead to the same thing, which is how to maintain a presence of love without giving up your boundaries, while also making your mind harder to hook."
+   ],
+   "run": "HG37-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-t/HG37-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "B32: LOST \"without surrendering the boundary\" (only \"maintain a presence of love\" remains); the closing summary of the practice (love with a boundary) needs it",
+     "replace": "of love while also making",
+     "with": "of love without giving up your boundaries, while also making",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "REPEAT",
+     "what": "R: I don't want you to become hobbyists, in B32 and B32 (second and last sentences); published says it once, the middle sentence cut and the last kept (it follows the training sentence as in the published); march-r (2026-10-18): cutting the middle sentence lost the paragraph's one break, so the last sentence is cut instead and the break (\"I just don’t want you to do that.\") kept",
+     "replace": "harder to hook. Beyond that, I don’t want you to be hobbyists in this area.",
+     "with": "harder to hook.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+[
+ {
+  "block": 10,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'suddenly'",
+    "replace": "until suddenly, stop the rhythm.",
+    "with": "then stop the rhythm.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the mystery is how the scene develops",
+    "replace": "just don't make it into a \"what are they going to do to you?\" kind of thing.",
+    "with": "the mystery is how the scene develops, so don't make it into a \"what are they going to do to you?\" kind of thing.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 20,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'close your eyes'",
+    "replace": "Close your eyes and imagine",
+    "with": "Imagine",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "observe it when you prefer (not only 'if uncomfortable')",
+    "replace": "or if you are uncomfortable with this, simply observe it.",
+    "with": "or, if you’d rather, simply observe it.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "one small action",
+    "replace": "take an action based on that",
+    "with": "do one small action based on that",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "full alertness isn't an inferior version of the practice",
+    "replace": "Deepener: none, it is not necessary to reach a state that is less alert.",
+    "with": "Deepener: none, full alertness isn’t a lesser version of the practice.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "what becomes easier to hear (a close call the second reader named)",
+    "replace": "What can you hear now?",
+    "with": "What becomes easier to hear?",
+    "round": 2,
+    "from": "verify-d (second reader, close call)"
+   }
+  ]
+ }
+]

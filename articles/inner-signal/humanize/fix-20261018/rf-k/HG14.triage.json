@@ -1,0 +1,105 @@
+{
+ "key": "HG14",
+ "fixes": [
+  {
+   "block": 19,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B19: LOST trust questions your promises and remembers failures of protection",
+     "replace": "trust to take",
+     "with": "trust to question your promises, remember when you failed to protect him/her, and take",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B15: UNCLEAR \"outside caretaker\" became \"the caretaker in the other person\" (no referent)",
+   "why": "limit kept: the adult part isn't handed to someone outside; 'the other person' reads as that someone"
+  },
+  {
+   "finding": "B15: INVENTED \"let someone take care of you\" listed as something that comes forward",
+   "why": "fits the list (vulnerability, need, fewer decisions); the adult stays present, so the limit holds"
+  },
+  {
+   "finding": "B15: SHIFT \"play\" narrowed to \"silliness\"",
+   "why": "synonym-level wording in a 'such as' list of examples"
+  },
+  {
+   "finding": "B19: SHIFT \"tell me what feels unsafe\" became \"what is not okay\"",
+   "why": "same request to the child to say what is wrong; 'not okay' covers 'unsafe'"
+  },
+  {
+   "finding": "B19: LOST \"that isn't a way to end the complaint\"",
+   "why": "carried by 'Then respond to the complaints'; the script is not the end of it"
+  },
+  {
+   "finding": "B19: INVENTED complaints \"sure to come\", child \"not completely right\"",
+   "why": "elaboration that fits: the script invites complaints, and 'listen for what is true' already implies some may not be"
+  },
+  {
+   "finding": "B19: INVENTED changing yourself to be less likely to turn on the child",
+   "why": "elaboration of repairing after an internal attack; 'make up to him/her' is kept"
+  },
+  {
+   "finding": "B19: LOST good behavior without love is a \"colder performance\"",
+   "why": "same limit: 'just not hitting back is not enough, you need to love'; not hitting back is listed as showing love"
+  },
+  {
+   "finding": "B19: SHIFT \"boundaries\" became \"setting limits for him/her\"",
+   "why": "near-synonym, one item among the care acts; 'boundaries' stays in the Protector stretch"
+  },
+  {
+   "finding": "B19: UNCLEAR \"It might not be chronological age\" (what is not age; \"don't decide from age\" lost)",
+   "why": "same sense: which position it is isn't set by age; 'it' follows the separate/one/blended questions"
+  },
+  {
+   "finding": "B19: INVENTED weighing how valuable the younger self's action was",
+   "why": "elaboration that fits; 'given what they knew at the time' keeps the question, and harm and repair are kept"
+  },
+  {
+   "finding": "B19: SHIFT \"options they could see\" became \"options they had\"",
+   "why": "wording; 'given what they knew' and 'how tolerable they were' keep the same lens"
+  },
+  {
+   "finding": "B29: LOST Nurturer brings warmth",
+   "why": "warmth is carried by enjoying the child, being happy they are there, and the warm lines"
+  },
+  {
+   "finding": "B29: LOST child needs enjoying \"not only comforted when hurt\"",
+   "why": "contrast clause; 'Children need to be enjoyed' keeps the point"
+  },
+  {
+   "finding": "B29: LOST script \"I'm glad you're here\"",
+   "why": "sense kept in 'Be happy that they are there'; the lines are examples ('like:')"
+  },
+  {
+   "finding": "B29: LOST script \"I will stay\"",
+   "why": "'I'm here for you' keeps presence and the Protector's 'not leave you' keeps staying; example list shortened"
+  },
+  {
+   "finding": "B32: LOST Protector turns warmth into something the child can believe",
+   "why": "same point carried by 'You build trust by being able to do adult things'"
+  },
+  {
+   "finding": "B32: SHIFT \"adult consequences\" and \"handle the consequence\" became \"adult things\"",
+   "why": "wording; the examples before it (texting, not eating) make it about acting"
+  },
+  {
+   "finding": "B32: LOST a protective act can begin the relationship when warmth is unavailable",
+   "why": "same point: if the warm stuff is hard, do something protective"
+  },
+  {
+   "finding": "B32: LOST review what actually happened",
+   "why": "'figure out what's getting in the way' and the questions keep the review"
+  },
+  {
+   "finding": "B32: UNCLEAR last sentence on success, feeling good, checking off; \"tick doesn't prove it helped\" lost",
+   "why": "awkward but the same two points: success isn't feeling good or ticking it off"
+  }
+ ],
+ "resample": []
+}

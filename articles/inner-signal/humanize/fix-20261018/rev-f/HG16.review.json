@@ -1,0 +1,328 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "influence literacy: noticing when somebody is shaping your attention (not 'all the ways you're being manipulated', which the paragraph then calls benign)",
+    "replace": "is an increased awareness of all the ways you’re being manipulated in your day-to-day life.",
+    "with": "is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life."
+   },
+   {
+    "type": "SHIFT",
+    "what": "religious fear (not a religion)",
+    "replace": "By a religion?",
+    "with": "By religious fear?"
+   },
+   {
+    "type": "SHIFT",
+    "what": "charismatic authority",
+    "replace": "By an authority figure?",
+    "with": "By charismatic authority?",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "belonging pressure",
+    "replace": "By the desire for belonging?",
+    "with": "By pressure to belong?",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "one honest question would break the spell",
+    "replace": "about something pretty quickly.",
+    "with": "about something pretty quickly. You may also feel that one honest question would break the spell."
+   },
+   {
+    "type": "SHIFT",
+    "what": "far too much certainty arriving far too quickly",
+    "replace": "about something pretty quickly.",
+    "with": "about something, far too quickly.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "don't obey right away (not 'don't listen')",
+    "replace": "Don’t listen.",
+    "with": "Don’t obey right away."
+   },
+   {
+    "type": "SHIFT",
+    "what": "automatic rebellion; and 'stop' said twice",
+    "replace": "Don’t rebel, either, just stop and realize that you’re being influenced.",
+    "with": "Don’t rebel automatically, either; just realize that you’re being influenced.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the three ways: it smuggles in your consent, makes one choice seem inevitable, hides a disputed claim inside the sentence",
+    "replace": "Some common ways hypnotic language becomes manipulative includes:",
+    "with": "Some common ways hypnotic language becomes manipulative: it smuggles in your consent, makes one choice seem inevitable, or hides a disputed claim inside the sentence, like"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "the examples' patterns: 'the only reason you resist is', 'part of you already knows', 'everyone who is truly awake'",
+    "replace": "“the reason you’re not feeling it yet is…”",
+    "with": "“the only reason you resist is…”"
+   },
+   {
+    "type": "SHIFT",
+    "what": "part of you already knows",
+    "replace": "“even if part of you doesn’t feel that’s true…”",
+    "with": "“part of you already knows…”"
+   },
+   {
+    "type": "LOST",
+    "what": "truly awake",
+    "replace": "“everyone knows…”",
+    "with": "“everyone who’s truly awake knows…”"
+   },
+   {
+    "type": "LOST",
+    "what": "'as you realize I'm right'",
+    "replace": "“you’ll realize, eventually, that…”",
+    "with": "“you’ll realize, eventually, that I’m right…”",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "your higher self wants (not 'knows', which repeated 'part of you knows')",
+    "replace": "“your higher self knows…”",
+    "with": "“your higher self wants…”",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "the grammar assumes the conclusion, turns resistance into proof and makes obedience feel like awakening ('other language patterns' led into the questions)",
+    "replace": "Other language patterns to watch out for include:",
+    "with": "The grammar takes the conclusion for granted, turns your resistance into proof, and makes obeying feel like waking up. Ask:"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'what do I need to say to opt out'; the published: can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded",
+    "replace": "What do I need to say in order to opt out of the frame, and is it safe for me to do so (will I suffer negative consequences – physical, social, financial, reputational, spiritual etc – if I say no)?",
+    "with": "Can I say no without being punished, shamed, mocked, abandoned or spiritually downgraded?",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "a useful guide leaves the adult more present; powerful states need stronger boundaries (not 'the above is a rough guide')",
+    "replace": "The above is a rough guide to help bring more of the ‘adult’ into the conversation. Use more of the above when the state is more powerful.",
+    "with": "A useful guide leaves more of the ‘adult’ in the conversation. When the state is more powerful, you need stronger boundaries."
+   },
+   {
+    "type": "MARCH",
+    "what": "my round-2 fix took out the stretch's only break (march-f: was \"B S\", new \"S S\"); Emulate's \"help bring more of the adult into the conversation\" back, with the published \"A useful guide\" (a person who guides, not the list above)",
+    "replace": "A useful guide leaves more of the ‘adult’ in the conversation.",
+    "with": "A useful guide helps bring more of the ‘adult’ into the conversation.",
+    "round": 3,
+    "from": "march-f, checked by me"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'these words' had nothing to point to: permissive words",
+    "replace": "These words in and of themselves",
+    "with": "Permissive words in and of themselves"
+   },
+   {
+    "type": "SHIFT",
+    "what": "permissive words can still conceal coercion ('not coercive in themselves' is new)",
+    "replace": "Permissive words in and of themselves are not coercive but, when used, can be part of coercion.",
+    "with": "Permissive words can still hide coercion.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 11,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "can slip past (not 'are generally used to')",
+    "replace": "Indirect suggestions are generally used to by-pass",
+    "with": "Indirect suggestions can by-pass"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the skeptical guard (a part), not the conscious mind",
+    "replace": "the subjects skeptical conscious mind",
+    "with": "the subject’s skeptical guard",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "the bracket never closed",
+    "replace": "using the same mechanics of induction.",
+    "with": "can use the same mechanics of induction)."
+   }
+  ]
+ },
+ {
+  "block": 13,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "every answer redefined as proof that the suggestion is working",
+    "replace": "will result in compliance",
+    "with": "will be taken as proof that the suggestion is working",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "uncertainty turned into invisible success that can't be checked",
+    "replace": "Using phrases like \"whether or not you notice\", etc.",
+    "with": "Using phrases like \"whether or not you notice\", etc., which turn uncertainty into invisible success that can’t be checked."
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "belonging to someone else (not 'being part of something')",
+    "replace": "or being part of something, etc.",
+    "with": "or belonging to someone else, etc."
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "without telling you that repeated re-entry is part of the method (not 'the benefits')",
+    "replace": "without informing the subject of the benefits of going in and out of absorption several times.",
+    "with": "without informing the subject that going in and out of absorption several times is part of the method."
+   }
+  ]
+ },
+ {
+  "block": 17,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "repeated listening",
+    "replace": "just by listening to certain things etc.",
+    "with": "repeated listening etc.",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "OK"
+ },
+ {
+  "block": 19,
+  "verdict": "OK"
+ },
+ {
+  "block": 20,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'then it can not be a covert hypnosis'; the published: a real choice includes at least one branch that doesn't continue the induction",
+    "replace": "If at any point during a hypnosis you have a REAL choice to NOT carry on, turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis then it can not be a covert hypnosis.",
+    "with": "A REAL choice during a hypnosis includes at least one way to NOT carry on: turn it into a lighter hypnosis, use a different method, stay in full awareness, pause or stop the hypnosis."
+   },
+   {
+    "type": "INVENTED",
+    "what": "'if you are unsure you probably can't'; the published: silence and uncertainty don't become consent",
+    "replace": "If you are unsure that you can or can’t then you probably can’t. Simply not knowing your options isn’t a choice.",
+    "with": "And silence, or simply not knowing your options, isn’t consent."
+   },
+   {
+    "type": "SHIFT",
+    "what": "uncertainty (not 'not knowing your options')",
+    "replace": "or simply not knowing your options,",
+    "with": "or simply being unsure,",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 21,
+  "verdict": "OK"
+ }
+]

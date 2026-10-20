@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aj/HG18-sw3.txt",
+  "input_words": 57,
+  "input_sha256": "dfed342ea5dbefe0babf9ba61111f7f899a23cf310e0738750bf3b0fbc687fe2",
+  "balance_before": 86931,
+  "started_utc": "2026-10-18T08:07:08Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:07:14Z",
+  "response": {
+    "id": "eb775ea6-b57f-47c4-8d1a-3d90c2a4c4ea",
+    "tool": "humanize",
+    "text": "Count out. 1. Come back in your body, back to your chosen weight. 2. Come back to your normal breathing pattern. 3. Start to become aware of the sounds in the room and you can name where you are in your head. 4. Move some of your fingers and toes and some of your shoulders and your eyes. 5. Open your eyes when you are ready and feel present, normal and clear. Your session is now over.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 6
+  },
+  "balance_after": 86874
+}

@@ -1,0 +1,91 @@
+{
+ "key": "HG18",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+ "refix_dirs": [
+  "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aj"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Come all the way back"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Come out the way you came in – so if you floated up – float back down – and land in a weight you are comfortable with. If you made yourself smaller – make yourself bigger again – if you called up a younger version of yourself or parts of yourself – let them know you are now whole and in your body and using your adult judgement etc. If you traveled somewhere – travel back – make sure you don’t bring anything back that you didn’t mean to."
+   ],
+   "run": "HG18-sw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Script Bring back only what is useful to use now. Everything else put away until needed. Come back to where and when and where and into the body. It is now over. Listen carefully for instructions to go deeper and/or stay in session. If no instructions to do either one, session is over. Live an ordinary life, unless doing something that was talked about doing later."
+   ],
+   "run": "HG18-sw2",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw2.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Count out. 1. Come back in your body, back to your chosen weight. 2. Come back to your normal breathing pattern. 3. Start to become aware of the sounds in the room and you can name where you are in your head. 4. Move some of your fingers and toes and some of your shoulders and your eyes. 5. Open your eyes when you are ready and feel present, normal and clear. Your session is now over."
+   ],
+   "run": "HG18-sw3",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw3.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "In your mind, tell yourself what day it is or what the date is. Look to your left. Look to your right. Look at something near you, and something far away. Feel free to move around a bit, and when you are sure you can do so without falling over, stand up. Make sure you are oriented and alert -- saying 1, 2, 3, etc. does not necessarily mean you are. Take note of anything you may (or may not) need to do as a result of what came up in this session, and proceed to do something normal."
+   ],
+   "run": "HG18-sw4",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw4.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Note: If you are using a recording and it stops for any reason, simply say to yourself that the recording has stopped and the session is over and use the above method of coming out: open your eyes, say where you are, say what day it is, push down with your feet or your hands, move about, look around, etc. and then use the 5 step method. Don’t just sit there waiting for the voice to come back to release you."
+   ],
+   "run": "HG18-sw5",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw5.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "It is all right to let the recording put you to sleep or have you in a quiet resting state if you are using it to go to sleep. However, if it’s a recording for using when you are awake, it should not leave you in a role, with lowered judgement, impaired movement capabilities, blank, with an undefined reset word, invited to stay altered indefinitely, etc."
+   ],
+   "run": "HG18-sw5",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-aj/HG18-sw5.out.txt",
+   "refix": true
+  }
+ ]
+}

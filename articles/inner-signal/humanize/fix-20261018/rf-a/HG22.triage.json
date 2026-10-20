@@ -1,0 +1,30 @@
+{"key": "HG22",
+ "fixes": [
+  {"block": 1,
+   "problems": [
+    {"type": "SHIFT", "what": "more time per session became more frequent practice (\"once or twice a week, more is fine\"); \"when useful\" lost",
+     "replace": "do this once or twice a week, though more is fine",
+     "with": "give this more time once or twice a week, when that’s useful",
+     "round": 1, "from": "second reader of the refix (rf), triaged"},
+    {"type": "LOST", "what": "follow what appears lost",
+     "replace": "a neutral witnessing place",
+     "with": "a neutral witnessing place and follow what appears",
+     "round": 1, "from": "second reader of the refix (rf), triaged"}
+   ]},
+  {"block": 2,
+   "problems": [
+    {"type": "WRONG", "what": "\"adult heard and acted\" became \"adult's actions have been heard\"",
+     "replace": "the adult’s actions have been heard",
+     "with": "the adult heard and acted",
+     "round": 1, "from": "second reader of the refix (rf), triaged"}
+   ]}
+ ],
+ "let_stand": [
+  {"finding": "B1: SHIFT \"borrow an adult function when needed\" and \"ask whether anything important is bypassed\" merged into adult function making sure nothing is bypassed",
+   "why": "steps merged, both kept"},
+  {"finding": "B1: SHIFT \"leave room for the full exit\" became adult function making a full exit possible",
+   "why": "full exit and ordinary action both kept; only the grammar ties them to the adult function"},
+  {"finding": "B2: LOST \"another beautiful internal meeting\" contrast",
+   "why": "flourish shortened; the dishes line still carries the follow-through point"}
+ ],
+ "resample": []}

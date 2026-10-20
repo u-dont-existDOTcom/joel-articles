@@ -1,0 +1,44 @@
+[
+  {"block": 42, "verdict": "OK"},
+  {"block": 43, "verdict": "OK"},
+  {"block": 44, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "the 'if it is guidance... if it is avoidance...' conditions and 'gently'", "replace": "help to take action based on the guidance or to come into the present moment and see what you are escaping from", "with": "help: if it is guidance, to show you the action inside it; if it is avoidance, to bring you gently into the present and show you what you are avoiding"}
+  ]},
+  {"block": 45, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'without trying to disappear inward' and 'what remains'", "replace": "in order to notice if there is any residual activity", "with": "in order to notice what remains without trying to disappear inward"}
+  ]},
+  {"block": 46, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'gently' in pressing thumb and forefinger together", "replace": "press your thumb and forefinger together and then let go", "with": "press your thumb and forefinger together gently and then let go"},
+    {"type": "LOST", "what": "'the first second after the rhythm ends' and where to look: fingers, breath, attention, nowhere", "replace": "notice if there is any residual activity or if it has completely stopped", "with": "notice the first second after the rhythm ends, and whether there is an echo in the fingers, the breath, the attention, or nowhere at all"},
+    {"type": "SHIFT", "what": "'stay upright' lost; 'exactly that level of alertness' became 'a level that is useful to you'", "replace": "Work with a level of alertness that is useful to you.", "with": "Stay upright and work from exactly that level of alertness."}
+  ]},
+  {"block": 48, "verdict": "OK"},
+  {"block": 49, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'vulnerable child' became 'little vulnerable part'; later lines refer to 'the child'", "replace": "little vulnerable part in YOU", "with": "vulnerable child in YOU"}
+  ]},
+  {"block": 50, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'gently' in 'Breathe gently'", "replace": "Then breath and affirm", "with": "Then breathe gently and affirm"}
+  ]},
+  {"block": 51, "verdict": "FIX", "problems": [
+    {"type": "INVENTED", "what": "'in the middle' and 'that's ME!' invented for 'Adult present'; the quotation never closes", "replace": "And in the middle, the adult – that’s ME!", "with": "And the adult is present.”"}
+  ]},
+  {"block": 52, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'to the child' became 'down'; 'I listen again' lost; script has no quotation marks", "replace": "I send love down and I receive the signal from the child. Then I send love again and receive the signal again.", "with": "“I send love to the child and I receive the child’s signal. Then I send love again and I listen again.”"}
+  ]},
+  {"block": 54, "verdict": "FIX", "problems": [
+    {"type": "WRONG", "what": "'on this website' is not in the published text", "replace": " on this website", "with": ""},
+    {"type": "SHIFT", "what": "'revelation can wait' became 'not allow yourself any revelations'", "replace": "it's okay to not do any analyzing or allow yourself any revelations", "with": "analysis can stay off duty and revelation can wait"}
+  ]},
+  {"block": 55, "verdict": "OK"},
+  {"block": 57, "verdict": "FIX", "problems": [
+    {"type": "INVENTED", "what": "'the person' invented; published has you return to ordinary awareness and decide whether to re-enter", "replace": "is when you bring the person back up and send them back down into absorption", "with": "means returning toward ordinary awareness and then deciding whether to enter absorption again"},
+    {"type": "SHIFT", "what": "'name the technique before using it' became telling 'them'", "replace": "(telling them you're doing it)", "with": "(naming the technique before you use it)"},
+    {"type": "SHIFT", "what": "'trance has a door in both directions' became 'they can always get out of trance'", "replace": "it teaches the person that they can always get out of trance", "with": "it teaches that trance has a door in both directions"},
+    {"type": "SHIFT", "what": "'every answer cannot secretly mean deeper' became a point about which questions get that answer", "replace": "Not all questions should have the answer \"deeper.\"", "with": "Every answer cannot secretly mean \"deeper.\""}
+  ]},
+  {"block": 58, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'return toward ordinary awareness' became 'all the way back up'; 'Feel the room' lost; 'when you're ready' added", "replace": "When you're ready, open your eyes and bring yourself all the way back up.", "with": "Open your eyes and return toward ordinary awareness. Feel the room."},
+    {"type": "SHIFT", "what": "'notice what changes as attention gathers' became 'send yourself back down'; 'stop at either point' lost", "replace": ", or you can close/soften your eyes and send yourself back down into absorption again.", "with": ". If you choose to continue, close or soften your eyes and notice what changes as attention gathers again. You may stop at either point."}
+  ]},
+  {"block": 60, "verdict": "OK"}
+]

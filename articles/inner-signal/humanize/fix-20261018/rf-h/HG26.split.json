@@ -1,0 +1,136 @@
+{
+ "key": "HG26",
+ "from": "fix-20261018/rev-b/HG26.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "When this needs more support than a guide can provide"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Remember, this is self-hypnosis, a relationship with yourself. If the situation calls for support, this guide isn't the right thing."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "If you need help now: Get help now if you feel in imminent danger, very confused, or unable to keep yourself safe. Get help now if you have concerning physical symptoms (chest pain, fainting, etc.) You should seek professional help promptly if you have new or worsening suicidal thoughts, severe insomnia, new or worsening symptoms of mania or psychosis, or if dissociative symptoms are affecting your functioning. These are not problems that this guide will resolve in 4-12 weeks."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "You probably don't need any more support than this: If you keep the practice shorter, make it warm, pick a small and tractable subject, make sure you come back out, and then see how it affects a specific target (anxiety, daydreaming, helping a relationship, facing a task you've been avoiding, helping you sleep, being less reactive emotionally, improving your intuitive accuracy, etc) for a week or two, and if you notice that your functioning is getting worse, or that you're getting more certain about unconfirmable memories, then reassess instead of pushing harder."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "You should seek suitable ongoing help if: You are experiencing recurring panic attacks, compulsions, substance destabilization, major relationship instability, etc."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Methods to explore with a trained person present"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "If you want to deliberately do trauma-focused regression (going backwards in your memory or imagination to times when you were younger), or affect and somatic bridging (following associations from an emotional or somatic experience to find the origin of that experience, particularly if it was a traumatic experience you don't know about), or if you find that you're having substantial flashbacks or dissociative reactions, then you should do this with a trauma-informed clinician present. Make sure they're trained in the specific method you want to do. Ask any potential person what they would do and how they deal with uncertainty and unexpected reactions. Note that even if you work with a person, hypnosis is not a way of knowing what did or did not happen to you. (Both regression and affect/somatic bridging can also be used to find resources and do other things, of course.)"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Note that having experienced trauma, crying, and even wanting to feel difficult feelings, are not necessarily signs that you need more support than working on your own. You get to pick how wide and narrow a range you want to work in, but be aware that different people need different ranges. Pay attention to how you respond and what support you have. Feeling like you are handling it isn't a substitute for having support."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Note that many guidelines for treating major trauma recommend one or more of trauma-focused variants of cognitive behavioral therapy (sometimes called cognitive processing therapy, prolonged exposure, etc), or eye movement desensitization and reprocessing. Depending on the guideline and your situation, it may recommend one or the other or both. These can be supported by self-hypnosis and inner child work. If you're working with high-risk trauma, you need a bigger container."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Always keep in mind that your functioning in ordinary life is the feedback. If you find yourself more loving, more honest, more functional, more relational, more grounded, more precise, etc. than when you started this process, keep on keeping on gently. If you notice that your ordinary life is becoming less stable, don't try to go deeper. Go for more sleep, more eating, more grounding, more healthy boundaries with other people, more getting support from other people, etc."
+   ]
+  }
+ ],
+ "split_from": "rf-a/HG26.fixed.json"
+}

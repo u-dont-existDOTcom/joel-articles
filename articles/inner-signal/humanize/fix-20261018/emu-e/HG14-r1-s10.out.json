@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s10.txt",
+  "input_words": 172,
+  "input_sha256": "a7f69068623f4ac72713e61e8817d7e0d28c9f2d45df69a032180aac950f875e",
+  "balance_before": 134569,
+  "started_utc": "2026-10-18T03:08:11Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:08:22Z",
+  "response": {
+    "id": "11270838-8a3a-4110-9178-b02439b75105",
+    "tool": "humanize",
+    "text": "Working with the Leader function, who provides direction. You can give it the name you like: Leader, Guide, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, etc.\n\nInvite it to give direction in an effective way, not in a way that expects you to be perfectly disciplined and not have any needs. Ask it to help you find a way to do the adult thing and ask for help, express a preference, allow a safe person to see your imperfections, etc. Find ways to get your need for closeness met without punishing the other person for needing space. Etc.\n\nAffirmations to support the Leader may include: “We are not only here to feel good.” “We are here to become whole.” “We are here to belong to life itself, not only to people who approve of us.” “We are here to serve truth, beauty, love, God, source, nature, universe, dharma, Tao, the benefit of all beings.” Etc.\n\nBegin working with the adult function, perhaps beginning with protection, then warmth. Be sure that the direction serves your child’s growth, but doesn’t deprive your child of necessary care, play, support, etc.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 172
+    },
+    "elapsed": 10
+  },
+  "balance_after": 134397
+}

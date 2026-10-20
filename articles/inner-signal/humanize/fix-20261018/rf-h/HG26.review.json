@@ -1,0 +1,32 @@
+[
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"Most\" guidelines: the published speaks of the major ones",
+    "replace": "Most clinical practice guidelines",
+    "with": "The main clinical practice guidelines",
+    "round": 1,
+    "from": "my triage (Opus) of the second reader rf-j, rf-a/TRIAGE-BRIEF.md"
+   },
+   {
+    "type": "LOST",
+    "what": "\"depending on the person and guideline\"; the repeat (one or the other or both)",
+    "replace": "reprocessing , and in some cases one or the other or both in addition to each other.",
+    "with": "reprocessing, depending on the person and the guideline.",
+    "round": 1,
+    "from": "my triage (Opus) of the second reader rf-j, rf-a/TRIAGE-BRIEF.md"
+   },
+   {
+    "type": "UNCLEAR",
+    "what": "\"that bigger container\" had no antecedent; the limit on self-hypnosis alone",
+    "replace": "You need that bigger container when working with high-risk trauma.",
+    "with": "But high-risk trauma work needs a bigger container than that.",
+    "round": 1,
+    "from": "my triage (Opus) of the second reader rf-j, rf-a/TRIAGE-BRIEF.md"
+   }
+  ]
+ }
+]

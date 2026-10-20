@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG37-r1-s3.txt",
+  "input_words": 154,
+  "input_sha256": "543abb243089b3299bf31ee65859906b15623a0e63b17cc98a30e9e230a996e6",
+  "balance_before": 127046,
+  "started_utc": "2026-10-18T03:34:13Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:34:21Z",
+  "response": {
+    "id": "ea831617-d261-420e-8008-345f90447e25",
+    "tool": "humanize",
+    "text": "1. Come into a stable state, if needed put your hand on your heart, etc.\n\n2. Internalize that you do not have to know what this is. Ask yourself if it would be appropriate to send it some warmth or if you need to place a boundary with it. Know that you are under no obligation to do whatever it is asking of you.\n\n3. If you feel vulnerable, tightness in your throat, sadness, fear or you sense you need to protect yourself in some manner, bring in your Nurturer. If it continues to be hostile or you feel afraid, then do not continue to engage with it.\n\n4. Again, you do not have to know where this is coming from. Ask yourself if this way of responding to it seems to be clearing it. It is ok to use a combination of love and boundaries to interact with it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 154
+    },
+    "elapsed": 8
+  },
+  "balance_after": 126892
+}

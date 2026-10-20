@@ -1,0 +1,36 @@
+[
+ {
+  "block": 3,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'useless or dangerous'; the published: never more controlling",
+    "replace": "But useless or dangerous if used to be more controlling.",
+    "with": "But never use it to be more controlling.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'can be mixed and matched'",
+    "replace": "Here are the core prompts that can be mixed and matched:",
+    "with": "Here are the core prompts:",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a childhood bargain for belonging",
+    "replace": "or a childhood need for belonging",
+    "with": "or a childhood bargain for belonging",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ }
+]

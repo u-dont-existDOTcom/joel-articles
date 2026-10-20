@@ -1,0 +1,1180 @@
+{
+ "key": "HG31",
+ "emu_dirs": [
+  "fix-20261018/emu-e",
+  "fix-20261018/emu-f",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h",
+  "fix-20261018/emu-i",
+  "fix-20261018/emu-j",
+  "fix-20261018/emu-k"
+ ],
+ "skip": [
+  "emu-g/HG31-r1-s4",
+  "emu-g/HG31-r1-s5",
+  "emu-g/HG31-r1-s7",
+  "emu-g/HG31-r1-s8"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix B: NLP without turning yourself into a sales seminar"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "You don’t have to know the terms to use the system. If you want to brush up on the art of imagery, how imagery is linked to bodily states, how to effectively rehearse new behaviors, how to choose more effective sentences to say to yourself, etc., then you might want to read this appendix. If you don’t know a little bit about NLP, it’s easy to turn NLP into a bag of tricks and forget that love, truth, contact, and consent are essential."
+   ],
+   "run": "HG31-r1-s1",
+   "file": "fix-20261018/emu-e/HG31-r1-s1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "The four NLP layers"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "When it works, it works on a Sensory Level of NLP: changing where people see or hear an image, the distance or size or brightness, the volume of a sound, the posture of a remembered person, the pressure of an unpleasant sensation."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Second, it works on a State Level of NLP: helping them to access warmth, or a feeling of adult-ness, or courage, or steadiness, or love, or clarity."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Third, it works on a Strategy level of NLP: helping people to practice a new strategy."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Fourth, it works on a Language Level of NLP: pacing what is there, opening up people’s awareness, presuming their ability to do something safe, linking cause and effect in new ways, embedding suggestions, or asking de-hypnotic questions to break the effects of vague, absolutes, manipulative, or grandiose language."
+   ],
+   "run": "HG31-r1-s2",
+   "file": "fix-20261018/emu-e/HG31-r1-s2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "The Milton Model, minus the covert sales seminar"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "It's called the Milton Model and has to do with the architecture of the sentence. When I say \"Relax now\", or \"Stop being anxious\", or even \"Trust me\" a part of me braces against it."
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "The idea is to use indirect language to get past the part that wants to argue with me, and get to the place I want to go to."
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "To do that, I start with something I know to be true, and I take the pressure off by presuming the least possible capacity in the person and invite just one movement:"
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "\"As the body notices the bed beneath it, it may become a little easier to stop holding the whole day alone.\""
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "That way I pace reality, I open up awareness, I validate the function of what I'm doing, I presuppose the capacity to do what I want, I use a bridge to make the link easier, I invite only one small movement, and I have a way of testing with the body if it's happening."
+   ],
+   "run": "HG31-r1-s3",
+   "file": "fix-20261018/emu-e/HG31-r1-s3.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Pattern 1: Pacing and leading — truth before suggestion"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "What is it looks like to pace and lead?"
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Here is an example of pacing and leading for anxiety:"
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "It can be as simple as: Truth, Invite, Truth, Invite etc."
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "“It is completely true that the sensation of _______ (or emotion of _____) is coming up for me right now. It makes complete sense that a part of me is trying to protect me by doing/thinking ________. While that is completely true, another completely true thing is that there is a part of me that is adult, and that is breathing in this room right now, and is willing to listen."
+   ],
+   "run": "HG31-r1-s4",
+   "file": "fix-20261018/emu-e/HG31-r1-s4.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "Pattern 2: Awareness verbs"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "Try some of the other ‘awareness’ verbs: notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider"
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-j/HG31-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "• Notice how that answer comes for/ to/ within/ for/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ beyond/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within/ for/ to/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ among/ under/ over/ above/ below/ between/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/"
+   ],
+   "run": "HG31-r1-s5",
+   "file": "fix-20261018/emu-e/HG31-r1-s5.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "Pattern 3: Presuppositions"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "Caution: The powerful technique of presupposition (embedding a statement as if it were true) is best used in the positive key of assuming choice, when it will occur, ability, not doing something unsafe, love, being adult, etc. Never use presupposition to imply that the other person must obey."
+   ],
+   "run": "HG31-r1-h1",
+   "file": "fix-20261018/emu-f/HG31-r1-h1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "“It is always the case that one can better understand something prior to changing it.”"
+   ],
+   "run": "HG31-r1-h1",
+   "file": "fix-20261018/emu-f/HG31-r1-h1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "Pattern 4: Gentle cause-effect bridges"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    25
+   ],
+   "paras": [
+    "Be careful with how language link events. Words like “as, while, because, when, after, before, which means” etc are all words that can be used to link events."
+   ],
+   "run": "HG31-r1-s7",
+   "file": "fix-20261018/emu-e/HG31-r1-s7.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    26
+   ],
+   "paras": [
+    "In general, the problem with the first example is that it’s likely to be inaccurate. It’s unlikely that simply breathing will get rid of the trauma. So while the intention is good, the phrasing is a bit strong. The second example is better because it’s more accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself."
+   ],
+   "run": "HG31-r1-s7",
+   "file": "fix-20261018/emu-e/HG31-r1-s7.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "Pattern 5: Embedded invitations"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28
+   ],
+   "paras": [
+    "What are embedded invitations, and how to use them"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    29
+   ],
+   "paras": [
+    "Here is an example of an embedded invitation:"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    30
+   ],
+   "paras": [
+    "Here’s another example of an embedded invitation:"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "And yet another embedded invitation for working with inner child parts:"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Of course, don’t use ten embedded invitations one after the other, or people will know that’ve just completed a weekend certification course!"
+   ],
+   "run": "HG31-r1-s8",
+   "file": "fix-20261018/emu-e/HG31-r1-s8.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    33
+   ],
+   "paras": [
+    "Pattern 6: Ethical double binds"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    34,
+    35
+   ],
+   "paras": [
+    "Manipulative double bind questions:",
+    "Ethical double bind questions:",
+    "“What would be the best approach to this part, to warm it up or give it space?”"
+   ],
+   "run": "HG31-r1-h2",
+   "file": "fix-20261018/emu-f/HG31-r1-h2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    36
+   ],
+   "paras": [
+    "Pattern 7: Conversational postulates"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    37,
+    38
+   ],
+   "paras": [
+    "Example of a postulate in the form of a question:",
+    "“Isn’t it possible that the system can find a way to show me what it wants to show without showing me everything?”"
+   ],
+   "run": "HG31-r1-h2",
+   "file": "fix-20261018/emu-f/HG31-r1-h2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    39
+   ],
+   "paras": [
+    "Pattern 8: Tag questions"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    40
+   ],
+   "paras": [
+    "In the same way, tag questions (“isn’t it”, “can’t it”, “doesn’t it”, etc) can be very useful to soften a sentence. But they get oily really fast, so use them sparingly."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-k/HG31-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    41
+   ],
+   "paras": [
+    "Doesn’t the body already know how to do this?"
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-k/HG31-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    42
+   ],
+   "paras": [
+    "Pattern 9: Nominalizations"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    43
+   ],
+   "paras": [
+    "Nominalizations are words like healing, safety, trust, integration, communion, clarity, rest, and so on. Sometimes it’s good to use vague language, because then the subconscious fills in the blank with whatever is most appropriate and specific for that person."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-k/HG31-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    44
+   ],
+   "paras": [
+    "Why don't YOU let yourself become a bit safer now, in whatever way is most appropriate for YOUR body?"
+   ],
+   "run": "HG31-r2",
+   "file": "fix-20261018/emu-j/HG31-r2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    45
+   ],
+   "paras": [
+    "Pattern 10: Meta Model questions — the de-hypnosis tool"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    46
+   ],
+   "paras": [
+    "To ‘Milton Model’ is to open things up. To ‘Meta Model’ is to ask “What do yo mean by that?” In order to be truly effective (and ethical) with people, it is necessary to do both."
+   ],
+   "run": "HG31-r1-s13",
+   "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    47
+   ],
+   "paras": [
+    "“What do yo mean ‘Specifically’? According to who? ‘Good’ compared to what? ‘Always’? ‘Never’? What specifically would happen? How do yo know? What would constitute proof for ya?”"
+   ],
+   "run": "HG31-r1-s13",
+   "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    48
+   ],
+   "paras": [
+    "If, in session, it feels like the body is stiffening up, ‘Milton’ it. If it feels like truth is eluding ya, ‘Meta’ it."
+   ],
+   "run": "HG31-r1-s13",
+   "file": "fix-20261018/emu-g/HG31-r1-s13.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    49
+   ],
+   "paras": [
+    "Sensory, state, and strategy tools"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    50
+   ],
+   "paras": [
+    "Submodalities — editing the form, not denying the truth"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    51
+   ],
+   "paras": [
+    "Pattern Disruption tool: Properties If your fear, craving, fantasy, belief or memory has any sensory properties (it looks or sounds near or far, bright or dim, loud or quiet, or it moves, is heavy, is inside or outside your body etc) then you can work with its properties. If it doesn't have any properties then don't try to force it, just skip this tool."
+   ],
+   "run": "HG31-r1-s14",
+   "file": "fix-20261018/emu-g/HG31-r1-s14.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    52
+   ],
+   "paras": [
+    "Things to ask yourself when representing something. What would happen if you did something else."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    53
+   ],
+   "paras": [
+    "\"I am not deleting it just adjusting the volume.\""
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    54
+   ],
+   "paras": [
+    "Before you do anything imagine moving a pixel and ask your guard if it is ok to do this."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    55
+   ],
+   "paras": [
+    "\"Is it ok that I move the image back two feet, quiet the voice down, make the edges less sharp so that I can do this, the adult me, to hear what you have got to say?\""
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    56
+   ],
+   "paras": [
+    "Anchoring — giving the body a doorway back"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    57
+   ],
+   "paras": [
+    "There are lots of ways to anchor something. Put your hand on your heart, touch two fingers together, use a breath, a word, body posture, smell, song, anything. Feel something that you have got to in reality that you want to get back to easily. As you feel it do the anchor thing and say to yourself that this is what you are anchoring and it is available to you. Make sure you do it when you have clearly got it. To get back into a hypnotic state easily don't go for a peak emotional state but find a good receptive state that you can use. See the main induction section on a shortcut back into hypnosis. Make sure that this is separate from the alert, calming, synchronicity wake up thing."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-h/HG31-r1.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    58
+   ],
+   "paras": [
+    "Using synchronicity as your own wake-up bell"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64
+   ],
+   "paras": [
+    "Sometimes when my clients notice a synchronicity they are asking straight way what it means. Sometimes it does give them a very good insight, sometimes it gives them a reason to start obsessing and look for patterns in everything. I am using noticing a synchronicity in a different way. I am using it as a signal to WAKE UP.",
+    "It is my cue to:",
+    "Whenever I notice a synchronicity, I use it to wake up in whatever state I am in at that moment, feel my body, the room I am in and go to the highest state I can where I can objectively and clearly see the situation I am in from the highest possible perspective, feeling my body and being still within the human reality. From this place I feel whatever feelings, search for the truth of the situation, and if I am in a negative state, I check if there is a message of my Inner Child, Protector, if I need to go through some grieving, if there is a message of my physical body about some problem that needs solving, or if there is a need for me to take some action in this situation. From this place of clarity and peace I am free to choose what to do next and usually I can do at least one thing that comes from a loving place. In this state I am also free and joyful and I feel grateful.",
+    "In short it is my cue to: Stop-orient-go wider-reality check-listen-do at least one thing from a loving place.",
+    "It enables me to not get into identification, but still hear the message of the state if it is a negative one."
+   ],
+   "run": "HG31-r1-s16",
+   "file": "fix-20261018/emu-e/HG31-r1-s16.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    65
+   ],
+   "paras": [
+    "Installing the synchronicity cue"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    66
+   ],
+   "paras": [
+    "Mentally rehearse: when next synchronicity noticed (even harmless ones count),"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    67
+   ],
+   "paras": [
+    "feel 'whoa' as attention stimulated,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    68
+   ],
+   "paras": [
+    "feel feet/body/breath/room to stimulate re-embodiment,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    69
+   ],
+   "paras": [
+    "reiterate to yourself \"when I notice synchronicity, it is a bell to wake me up, not a message to heed\","
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    70
+   ],
+   "paras": [
+    "optionally ask Nurturer/Protector/Leader their thoughts,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    71
+   ],
+   "paras": [
+    "rehearse further steps to get a more grounded and wide view,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    72
+   ],
+   "paras": [
+    "rehearse what additional action to take, and finally rehearse waking completely,"
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    73
+   ],
+   "paras": [
+    "Mind the caveats : it must be self-authored, obviously under control, reversible, and restricted to just helping orientation. It must not be used for decision-making, intuition, inhibition, or otherwise be under someone else's control."
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    74
+   ],
+   "paras": [
+    "This is a kind of implementation intention , for which there is evidence of efficacy (a good starting point is this paper by Gollwitzer ). Note that this specific application of implementation intentions probably hasn't been studied."
+   ],
+   "run": "HG31-r1-s17",
+   "file": "fix-20261018/emu-e/HG31-r1-s17.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    75
+   ],
+   "paras": [
+    "Synchronicity cues, like any cue, run the risk of creating false positives because you are creating an association in your mind by rehearsing it (this is the same mechanism by which synchronicity cues work), and when you are absorbed and/or destabilized, your mind may look for that pattern and interpret it as present when it may not actually be. Research has shown that people that score highly on apophenia (the tendency to perceive meaningful patterns where none exists) also score highly on false positives for patterns that are not present, and also score highly on traits on the psychosis spectrum (Blain et al., Grant et al.)."
+   ],
+   "run": "HG31-r1-s18",
+   "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    76
+   ],
+   "paras": [
+    "If you feel that synchronicity cues are creating false positives (you find yourself compelled to scan your environment for them, you are unable to sleep, you are anxious, you feel that random events are occurring to communicate something to you specifically, you find yourself unable to tell if they are real or not, etc.), you should deactivate them."
+   ],
+   "run": "HG31-r1-s18",
+   "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    77
+   ],
+   "paras": [
+    "You can do this by simply ceasing to rehearse them, and saying, while fully awake, “Synchronicity is no longer to be used as a cue, and I let it go.” Also remove it from your list of cues so that you stop rehearsing it."
+   ],
+   "run": "HG31-r1-s18",
+   "file": "fix-20261018/emu-e/HG31-r1-s18.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    78
+   ],
+   "paras": [
+    "Reframing — changing the meaning without lying"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    79,
+    80
+   ],
+   "paras": [
+    "When I reframe something that is dishonest with myself in the process, I’m no better off than before, so I have to be honest when I reframe. To reframe in a helpful way is to ask myself a series of questions like: “What else could be true here?” or “What is this part trying to do for me?” or “How would my Nurturer reframe this?” or “How would my Protector reframe this?” or “How would my Leader reframe this?” and so on."
+   ],
+   "run": "HG31-r1-s19",
+   "file": "fix-20261018/emu-e/HG31-r1-s19.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    81
+   ],
+   "paras": [
+    "Perceptual positions — self, other, witness, universal heart"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    82
+   ],
+   "paras": [
+    "1. How do I feel about this from inside myself? 2. If I were inside of this other person (or tree, or dog or whatever is not-you), how might I feel? 3. If I were across the room watching this, what would I see? 4. From the universal heart, what might be true, loving, clear about boundaries, and good for everyone involved?"
+   ],
+   "run": "HG31-r1-s20",
+   "file": "fix-20261018/emu-e/HG31-r1-s20.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    83
+   ],
+   "paras": [
+    "Yes, it’s possible to use these positions to let yourself off the hook. It’s also possible to use them to get off the hook! Use them to see the truth from more than one angle. They’re a great way to get out of a prison of perception."
+   ],
+   "run": "HG31-r1-s20",
+   "file": "fix-20261018/emu-e/HG31-r1-s20.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    84
+   ],
+   "paras": [
+    "Future pacing — let the future test the insight"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    85,
+    86
+   ],
+   "paras": [
+    "1. Do some future pacing (check out this video ) to make sure that the new insight holds, by imagining some future situations where the old behavior would have triggered.",
+    "If they appear, practice a new small behavior by setting up an implementation intention (\"If...then...\"):"
+   ],
+   "run": "HG31-r2",
+   "file": "fix-20261018/emu-h/HG31-r2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    87
+   ],
+   "paras": [
+    "The Swish, softened"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    88
+   ],
+   "paras": [
+    "2. Use a variation of the Swish Pattern from NLP, where instead of pushing out the old pattern, allowing it to stay there, just make sure that the old and the new pattern are both visible, feel the bodily sensations that arise, and see if there is anything the new pattern requires from in the future, that the old one didn't."
+   ],
+   "run": "HG31-r2",
+   "file": "fix-20261018/emu-h/HG31-r2.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    89
+   ],
+   "paras": [
+    "Parts integration, without pretending the conflict is solved"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    90
+   ],
+   "paras": [
+    "The Sacred Decision (What does one side want? What is the other side afraid of? What is the need of each side? What is a 3rd option that meets each sides needs while not letting one side completely dominate?)"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    91
+   ],
+   "paras": [
+    "What I will not use NLP for"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    92
+   ],
+   "paras": [
+    "Deny legitimate signals"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    93
+   ],
+   "paras": [
+    "Remove fear (only re-prioritize it to a more useful level)"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    94
+   ],
+   "paras": [
+    "Recover “memories”"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    95
+   ],
+   "paras": [
+    "Manipulate people (this includes myself)"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    96
+   ],
+   "paras": [
+    "Convince myself intuitions are true (that’s more carefully attending to the non-rational data stream)"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    97
+   ],
+   "paras": [
+    "Remove legitimate signals (pain, hunger, etc) or medical symptoms"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    98
+   ],
+   "paras": [
+    "Do while in states of panic, extreme destabilization, mania, “psychosis-like” states, extreme chemical conditions, etc"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    99
+   ],
+   "paras": [
+    "Manipulate other people (this includes:"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    100
+   ],
+   "paras": [
+    "Making people feel spiritually inferior"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    101
+   ],
+   "paras": [
+    "Giving covert commands"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    102
+   ],
+   "paras": [
+    "Creating false urgency"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    103
+   ],
+   "paras": [
+    "Non-consciously gaining permission"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    104
+   ],
+   "paras": [
+    "Manipulating people in trance states, weakened states, attraction states, etc"
+   ],
+   "run": "HG31-r3",
+   "file": "fix-20261018/emu-j/HG31-r3.out.txt"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    105
+   ],
+   "paras": [
+    "Running the whole NLP sequence"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    106,
+    107
+   ],
+   "paras": [
+    "2. Induce or contain a person.",
+    "3. Ask permission."
+   ],
+   "run": "HG31-r1",
+   "file": "fix-20261018/emu-i/HG31-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    108
+   ],
+   "paras": [
+    "Help client accurately represent this pattern. What does it look like? Where? How big? How close? What color? How does it move?"
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    109
+   ],
+   "paras": [
+    "Ask what it is trying to do for the client."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    110
+   ],
+   "paras": [
+    "Have client make adaptive changes in the pattern (move it further away, turn down the volume, change body posture, slow it down, etc.)."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    111
+   ],
+   "paras": [
+    "Introduce the three new adults (Nurturer, Protector and Leader) and have them interact with the pattern in new ways."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    112
+   ],
+   "paras": [
+    "Have client anchor the new state (heart, fingers, breath, body posture, etc.)."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    113
+   ],
+   "paras": [
+    "Have client future pace into a situation where this pattern used to be triggered, but now he/she will perform a new behavior."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    114
+   ],
+   "paras": [
+    "Test and retest to ensure that new pattern is useful and that you have supporting evidence for your interpretation of the situation."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    115
+   ],
+   "paras": [
+    "Help client exit altered state and perform a normal behavior."
+   ],
+   "run": "HG31-r1-s25",
+   "file": "fix-20261018/emu-e/HG31-r1-s25.out.txt"
+  }
+ ]
+}

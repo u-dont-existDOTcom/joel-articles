@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-17 at night, after your message of 23:10 (52 to 54, and the scorecard): done (Decided, below). **Open questions: 2** (55 and 56). Every question is here at the top, numbered, with its options; nothing further down needs an answer. To answer, reply in chat with the number and the letter (for example "55 a"), or in your own words. Below the questions: what's for you to do, what you decided and what I did about it, and what's coming up next.
+Last updated 2026-10-18, after your messages of 01:29 (55 b, 56 a, the merge and the next article) and 01:54 (the other Pangram account): done (Decided, below). **Open questions: 0.** When there are some, they're here at the top, numbered, with their options; nothing further down needs an answer. Below: what's for you to do, what you decided and what I did about it, and what's coming up next.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,38 +9,28 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Two questions, both on section 2's opening. Each quotes its passage.
-
-**🟣 55. Section 2, your aside: the Convention Against Torture doesn't list it.** "(it's literally listed in the UN Convention Against Torture)": the Convention's text (1984) defines torture in general terms and lists no practices, so solitary confinement isn't in it. What does name it: in 2011 the UN's special rapporteur on torture said solitary confinement beyond 15 days can amount to torture or cruel, inhuman or degrading treatment, and the UN's rules for prisoners (the Mandela Rules, 2015) ban it past 15 days ([a summary of the international law, with both](https://www.prisonlegalnews.org/news/publications/international-human-rights-law-solitary-confinement-hrf-2015); [the rules themselves](https://www.solitaryconfinement.org/un-nelson-mandela-rules)). It's an easy one to get wrong: the UN committee that oversees the Convention has criticized solitary confinement, but the treaty itself never names it.
-- a) "(the UN's own torture expert literally says more than 15 days of it can be torture)". **My pick**: it keeps your "literally", and it's what he said.
-- b) "(the UN's rules for prisoners literally ban more than 15 days of it)".
-- c) Keep yours.
-- d) Your words.
-
-I check whichever you pick alone and in the section. If you don't answer, c: it stays as you wrote it.
-
-**🟣 56. Section 2: your first sentence, read on its own.** Your opening reads Human as you checked it, and in the section too except for one window: Pangram cuts off the heading and your first sentence (50 words) and reads that AI, low confidence as you pasted it ([check](https://www.pangram.com/history/a3776437-105c-4b41-bdb1-a15c33ce7684)) and medium with the anomie paragraph after it ([check](https://www.pangram.com/history/4bd07d80-93e0-4afe-8993-0556c4713cf8)). Your two paragraphs read Human together ([check](https://www.pangram.com/history/ade987a4-db6f-4845-bcd9-9cdc45337e44)) and your second alone ([check](https://www.pangram.com/history/ec27cebb-5d53-4385-91ed-7453613716da)), and joining them into one paragraph didn't change it ([check](https://www.pangram.com/history/c6bed8cb-7abc-406c-8b4d-642c257e4965)). The sentence:
-
-> Suddenly the longing to escape loneliness which inspired my father’s movie is everywhere again, and in 2023 the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a public-health issue.
-
-- a) Your rewording of that sentence; I check it alone, with your second paragraph, and in the section with the anomie paragraph and your screenshot. **My pick**: your rewrites have read Human every time today.
-- b) I try rewordings of it myself, keeping your words where I can, and bring back the ones that pass.
-- c) Keep section 2's old opening for now; the master then goes ahead without your opening and the anomie paragraph.
-
-If you don't answer, b.
+> None right now.
 
 ## For you to do
 
 > [!WARNING]
-> One thing, when you're back.
+> Two things, when you're back.
 
-- 🟠 Merge when you've looked at the pages: `gh pr merge 189 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/189)). It has the evening's and tonight's changes, from your 17:16, 19:14, 21:37 and 23:10 messages; the overnight run and the afternoon's are in already (you merged them at 15:49 UTC).
+- 🟠 Paste the article into Substack: open the copy helper (COPY-TO-SUBSTACK.html, the file I sent with my message, also [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/COPY-TO-SUBSTACK.html)) in Opera and click "Copy Article". Paste it into a new draft first and check the images, the three post embeds, the two YouTube videos, Share and Subscribe; then the same into the post. Then upload your PsyPost screenshot in section 12, after the paragraph that starts "This doesn't surprise me, since we're taught to put on a show of competence", with the caption It's kind of a "no, duh" study. (the link on "study" to the PsyPost write-up), and the image linked to the same page.
+- 🟠 Merge when you've looked: `gh pr merge 191 -R u-dont-existDOTcom/joel-articles --merge` ([the pull request](https://github.com/u-dont-existDOTcom/joel-articles/pull/191)). It has section 2, the master, the merge and the helper.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-18 01:29 and 01:54 UTC, 55 and 56, the merge:
+  - 56 a, your first paragraph for section 2 ("i checked the section, it passes as human when first part is this"): in, as you wrote it, with the published link on "the U.S. Surgeon General" and your bold on "public-health". It reads Human alone ([check](https://www.pangram.com/history/1e9a546e-89ff-4914-9999-2ade14eda913)) and with the heading ([check](https://www.pangram.com/history/1b709a25-aab7-4d7c-93f2-b5482118141a)).
+  - 55 b: in, "(the UN's rules for prisoners literally ban more than 15 days of it)". Your second paragraph reads Human alone ([check](https://www.pangram.com/history/1c827474-c602-4c83-bf82-13b91d7bdecd)) and with the next ([check](https://www.pangram.com/history/7e3cc8d7-f0aa-4207-9bcd-ada254831605)).
+  - 46 a, the anomie paragraph: in, after your second paragraph; section 2 reads 100% Human with it ([check](https://www.pangram.com/history/602283c2-9f41-4559-b510-e5a7aa9d2359)). With your screenshot there as well, one window read AI, 63 words in the Instagram paragraphs ([check](https://www.pangram.com/history/f91e4398-4e22-4bf2-881b-a95244ae3079)), so the screenshot stays in section 12, where you upload it.
+  - 45 a: done. The humanized article is the registered master (`master.md`, with a promotion receipt); your published text stays as the published source.
+  - The merge: the master is in your Substack HTML of 01:29, with every image, embed, video and button as it was in your paste, the published lists and bold leads kept where the paragraphs line up, and every link (103). The copy helper is the repository's own (its generator built and checked it; its Copy button passed a test in a browser). Making it showed that Substack's editor now wraps the article differently, so the part that finds the article in your paste got a fix, or the helper would have copied the editor's wrapper too.
+  - Pangram: after your 01:29 message the browser was signed out and the API key had no credits; you signed in to another account at 01:54, and the checks above ran there.
 - 🟢 2026-10-17 23:10 UTC, 52 to 54 and the scorecard:
   - 52 a, your words for section 2's opening ("this is human"): not in yet: with your opening, the section reads one AI window, the heading and your first sentence ([check](https://www.pangram.com/history/a3776437-105c-4b41-bdb1-a15c33ce7684)), so question 56. Your 46 a waits with it; section 2 is as it was, and the screenshot is still in section 12.
   - 53 "fixed (fact checked with gemini)": your aside goes in with your opening, as you wrote it, "(it's literally listed in the UN Convention Against Torture)". The Convention's text doesn't name solitary confinement, though: question 55.
@@ -209,6 +199,6 @@ If you don't answer, b.
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 Section 2, once question 56 is settled: your opening, then the anomie paragraph and your screenshot (46 a), each checked alone and in the section.
-- 🔵 Then your 45 a: the humanized article becomes the registered master, with a record of the change.
+- 🔵 The next article in your queue, the hypnosis guide, from Emulate's work, section by section, the same way.
+- 🔵 The prediction scorecard: better guesses of what Pangram will say, and how fast and how often my fixes pass.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.

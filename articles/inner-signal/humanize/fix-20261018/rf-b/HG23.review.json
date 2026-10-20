@@ -1,0 +1,48 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"feels as though\" hedge dropped, subconscious knowing stated as fact",
+    "replace": "Sometimes, your subconscious knows",
+    "with": "Sometimes, it feels like your subconscious knows",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"can produce\" became \"often leads to\" (a possibility made a frequency claim)",
+    "replace": "often leads to",
+    "with": "can lead to",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"much harder to reach\" became \"cannot access\" (a degree made absolute)",
+    "replace": "you cannot access",
+    "with": "it is much harder to access",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B1: LOST \"give me one next action\" in the script (a line the reader says); the \"next\" in the protective-action question is wording and left",
+    "replace": "Support me BEFORE you make it intense!",
+    "with": "Support me BEFORE you make it intense! Give me one next action!",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: ask what would build capacity to receive it (two near-identical questions), in B1 and B1; published asks it once (B8), the first of the two cut, every published question is still covered",
+    "replace": "“What do I need to know that will help me get the capacity to know the thing you know that I need to know?” “What can you tell me,",
+    "with": "“What can you tell me,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-d/HG04-d-s1.txt",
+  "input_words": 84,
+  "input_sha256": "ae9d108c9412343e13956167397ed3de11de5c1d84037e01c71548019505e33e",
+  "balance_before": 137126,
+  "started_utc": "2026-10-18T03:06:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:06:52Z",
+  "response": {
+    "id": "b8bbc14c-4f5d-4054-a69c-b2b962608394",
+    "tool": "humanize",
+    "text": "As you listen, when you notice that something is happening for you (a sensation, an image, a phrase, a feeling, an objection or even a recognition of silence), then respond to the next invitation (using as much or as little warmth, boundary, direction and time as is needed), until you have come completely back, and then notice what has happened for you (including any actions that need to be taken in the “real” world).\n\nNote: If at any time you feel panicky, or out of it, or more unreal, or incapable of functioning appropriately, then do not go any further, but simply come back to the room and access the appropriate support for yourself. This is quite different from choosing to deal freely with a difficult feeling, and remaining in touch with yourself as you do so.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 84
+    },
+    "elapsed": 7
+  },
+  "balance_after": 136855
+}

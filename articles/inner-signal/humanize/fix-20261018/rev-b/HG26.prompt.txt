@@ -1,0 +1,82 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
+condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
+that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B0] When this needs more support than a guide can provide
+
+[B1] Use self-hypnosis as a relationship with yourself. When the situation needs actual care, the guide shouldn’t become a substitute for it.
+
+[B2] Get urgent help now for immediate danger, severe confusion, inability to keep yourself safe, or concerning physical symptoms such as chest pain or fainting. New or worsening suicidal thoughts, severe insomnia, mania-like or psychosis-like symptoms, or dissociation that disrupts functioning need prompt professional assessment, not a four-to-twelve-week practice schedule.
+
+[B3] For ordinary learning, start with shorter sessions, warmth, a manageable subject, and a full return. Over a week or two, track one target—anxiety, daydreaming, relationship repair, an avoided task, sleep, emotional regulation, or intuitive accuracy. Worsening function or growing certainty about unverifiable memories calls for reassessment, not more intensity.
+
+[B4] Seek suitable ongoing help for recurring panic, compulsive behavior, substance-related destabilization, or major relationship instability.
+
+[B5] Methods to explore with a trained person present
+
+[B6] Use a trauma-informed clinician trained in the method, present with you, for deliberate trauma-focused regression, searching for unknown traumatic origins through an affect or somatic bridge, or work with substantial flashbacks or dissociative reactions. A bridge follows associations from a feeling or sensation; regression revisits recalled or imagined younger experience. Either can have different uses, including resourcing. Ask what is intended and how uncertainty and unexpected reactions will be handled. Hypnosis cannot prove a historical event, even with a clinician present.
+
+[B7] Trauma history, tears, or wanted difficult feelings don’t automatically exclude self-practice. Choose the working range with attention to the actual response and available support. Some people need a narrow range; others much broader. Confidence alone doesn’t supply missing support.
+
+[B8] Major trauma guidelines emphasize treatments such as trauma-focused CBT variants, CPT, PE, and EMDR depending on the person and guideline. Self-hypnosis and inner-child practice may support that process, but high-risk trauma work needs a larger container.
+
+[B9] If the practice makes ordinary life more loving, honest, functional, relational, grounded, and precise, continue gently. If it makes ordinary life less stable, stop deepening and return to sleep, food, grounding, boundaries, and outside support.
+
+REWRITE:
+[B0, as published] When this needs more support than a guide can provide
+
+[CHANGED, replaces B1]
+Self-hypnosis is a relationship you have with yourself, and sometimes the situation calls for more than that.
+
+[CHANGED, replaces B2]
+Get urgent help now if you’re confused, in danger, or experiencing physical symptoms like chest pain or fainting. If you’re experiencing new or worsening suicidal thoughts, severe insomnia, or symptoms of mania or psychosis, or if your dissociative symptoms are impacting your functioning, please get help for those promptly, rather than trying to fix them with this 4- to 12-week practice.
+
+[CHANGED, replaces B3]
+On the other hand, you may need very little more support. Start small—do shorter practices, make them warm, choose a small and tractable subject to work with, make sure you’re coming all the way back out of hypnosis, and track the effect on one target area (anxiety, chronic daydreaming, repairing a relationship, getting something done, sleep, emotional regulation, intuitive accuracy, etc.) for a week or two. If you find that your functioning worsens or you’re gaining certainty about something that can’t be verified, then it may be time to reassess.
+
+[CHANGED, replaces B4]
+Get some other appropriate help if you’re dealing with recurring panic attacks, compulsive behaviors, substance-related destabilization, or major relationship instability.
+
+[B5, as published] Methods to explore with a trained person present
+
+[CHANGED, replaces B6]
+If you want to deliberately use regression to explore the origins of a traumatic experience that you don’t know, to follow an affect or somatic bridge to unknown traumatic origins, or if you expect substantial flashback or dissociative reactions, work with a trauma-informed trained clinician who is trained in the method you’re using and who is present while you do it. (Affect and somatic bridges mean following associations from an emotional or bodily feeling; regression means remembering or imagining what it would have been like when you were younger. Both can also be used for more stable purposes, like finding resources.) Even if you work with a clinician, please note that hypnosis can’t prove what did or didn’t happen in your life.
+
+[CHANGED, replaces B7]
+Having a history of trauma, crying when you access inner children, or even wanting to feel difficult feelings, doesn’t necessarily mean you need more support than working on your own. It is up to you to find how wide or narrow a range to work in, and that will be different for different people.
+
+[CHANGED, replaces B8]
+Most guidelines for treating major trauma recommend some variant of trauma-focused cognitive behavioral therapy, such as cognitive processing therapy, prolonged exposure, or eye movement desensitization and reprocessing. Self-hypnosis and inner child work can be part of that process. If you’re working with high-risk trauma, you may want a bigger container for that work.
+
+[CHANGED, replaces B9]
+The ultimate feedback on whether your process is working well is how you’re functioning in ordinary life. If you’re being more loving, honest, functional, relational, grounded, and precise than you were before you started, then keep doing what you’re doing. If you’re functioning less well than before, then stop trying to go deeper and focus instead on getting enough sleep, eating, grounding yourself, maintaining healthy boundaries with others, and getting support from others.

@@ -1,0 +1,170 @@
+[
+ {
+  "block": 15,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "B15: WRONG adult judgment is not to be handed to an outside caretaker; rewrite says to the younger parts",
+    "replace": "judgement to them",
+    "with": "judgement to an outside caretaker",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B15: SHIFT \"wish to carry fewer decisions\" became \"let someone else make decisions for you\" (clashes with the outside-caretaker limit)",
+    "replace": "let someone else make decisions for you",
+    "with": "carry fewer decisions",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B19: LOST trust may question promises, recall failures of protection, take its time (B19); sentence restored",
+    "replace": "you can still love him or her.",
+    "with": "you can still love him or her. Trust can question your promises, remember when you failed to protect him or her, and take its time.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: consider what the younger self knew/thought at the time, asked twice, in B19 and B19; also B19: UNCLEAR the second question is circular; second question cut",
+    "replace": "knew at the time? How valuable is it for you to consider how valuable it might have been for them to think what they thought, given what they thought at the time?",
+    "with": "knew at the time?",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 29,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "R: it's okay to be small, then \"you can be small here\", in B29 and B29; first line cut",
+    "replace": "It’s okay to be small. You can be small here.",
+    "with": "You can be small here.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: it's okay to be angry, then \"you can be angry here\", in B29 and B29; first line cut",
+    "replace": "It’s okay to be angry. You can be angry here.",
+    "with": "You can be angry here.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: it's okay to be sad, then \"you can be sad here\", in B29 and B29; first line cut",
+    "replace": "It’s okay to be sad. You can be sad here.",
+    "with": "You can be sad here.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 37,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B37: LOST \"safe\" in \"letting a safe person see an imperfection\" (B38)",
+    "replace": "letting someone see",
+    "with": "letting a safe person see",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B37: LOST \"belong to life itself, not only to people who approve of us\" (B39)",
+    "replace": "be part of life",
+    "with": "belong to life, not only to people who approve of us",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 51,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "R: the author's aim to do this discernment (\"I want to be able to do this too\", \"I am learning to do discernment\"), in B51 and B51; first sentence cut",
+    "replace": "I want to be able to “do” this too. I am learning",
+    "with": "I am learning",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 60,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B60: SHIFT child's form and age become chosen (\"any form/age you want\") instead of how it arrives (form)",
+    "replace": "If you want, you can see that child in any form you want.",
+    "with": "You might see that child in any form.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B60: SHIFT child's form and age become chosen (\"any form/age you want\") instead of how it arrives (age)",
+    "replace": "any age you want it to be",
+    "with": "any age",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 65,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B65: INVENTED \"if you already know what they need, tell them you'll get it\" replaces asking permission and offering choices (B68)",
+    "replace": "tell them that you're going to get them what they need-",
+    "with": "ask if they'd prefer",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B65: SHIFT parts-language swap trigger \"makes you feel more divided\" became \"don't like the idea of part work\" (B74)",
+    "replace": "the idea of part work you can",
+    "with": "the idea of part work or it makes you feel more divided, you can",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 76,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B76: LOST \"You remain able to move, stop, and return\" (B77)",
+    "replace": "watch over you.",
+    "with": "watch over you. You can still move, stop, and return.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

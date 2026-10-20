@@ -1,0 +1,67 @@
+{
+ "key": "HG21",
+ "from": "fix-20261018/rev-b/HG21.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The 15-minute daily practice"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Notice there is no need to learn a second script! The process is the same. You are simply practicing for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice for a short time (five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better) and come out again (that takes a few minutes too)."
+   ],
+   "run": "HG21-fxw1",
+   "file": "fix-20261018/emu-r/HG21-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "You can also try other ways of inducing yourself such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each, counting from 5 to 1 and beginning to listen. Choose one way to induce yourself, you don't need to try all of them! (In fact, it might be counter-productive!)"
+   ],
+   "run": "HG21-fxw1",
+   "file": "fix-20261018/emu-r/HG21-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Once you have practiced listening a few times with the recordings, you may want to shorten them to speed up your induction, or even practice without playing them back at all. On the other hand, if you like using the recordings, there is no reason to stop! Being able to guide yourself does not mean you have to! (NB. You may wish to use the following to help you re-enter your process, this will also shorten your induction if you already know what to do.)"
+   ],
+   "run": "HG21-fxw1",
+   "file": "fix-20261018/emu-r/HG21-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "As you come out of the process ask yourself what you learned needed warmth, what needed to be protected, what you need to do differently to be more in accord with truth and love and life. Is there something you want to explore more fully or a capacity you want to build? And most importantly, what can you carry with you as you move forward from this? If you identified something you needed to do differently, make a plan with yourself to do that thing. The more specific you can be, the more likely you are to change: “If _________ (fill in the cue for the old pattern), then I will do ________ (fill in one small action that will begin to change the pattern).” Then check back later and see how you are doing – sleeping, relating, functioning, etc."
+   ],
+   "run": "HG21-fxw1",
+   "file": "fix-20261018/emu-r/HG21-fxw1.out.txt",
+   "refix": true
+  }
+ ]
+}

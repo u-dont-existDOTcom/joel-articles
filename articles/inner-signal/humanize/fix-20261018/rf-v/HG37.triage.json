@@ -1,0 +1,12 @@
+{
+ "key": "HG37",
+ "fixes": [],
+ "let_stand": [
+  {
+   "finding": "B26: SHIFT \"continue gently\" became a hedged permission, \"probably OK to keep doing it\"",
+   "why": "the text it was made from says \"probably OK\" too; \"keep doing it gently\" is kept"
+  }
+ ],
+ "resample": [],
+ "note": "B26 from emu-ai (rf-u); the reworded B1 and B15 fixes are in the base (rf-q/HG37.split.json)"
+}

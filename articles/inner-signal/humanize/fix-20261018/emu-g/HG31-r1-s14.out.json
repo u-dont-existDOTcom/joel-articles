@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG31-r1-s14.txt",
+  "input_words": 141,
+  "input_sha256": "f07ed3f0f02d99fb3a6c78460e529bfbbd56688b6dd462dd11ae5087a7f52add",
+  "balance_before": 127414,
+  "started_utc": "2026-10-18T03:33:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:33:50Z",
+  "response": {
+    "id": "6bac3f65-3495-4328-a7b9-cbc337d9d2b5",
+    "tool": "humanize",
+    "text": "Pattern Disruption tool: Properties If your fear, craving, fantasy, belief or memory has any sensory properties (it looks or sounds near or far, bright or dim, loud or quiet, or it moves, is heavy, is inside or outside your body etc) then you can work with its properties. If it doesn't have any properties then don't try to force it, just skip this tool.\n\nAsk yourself: How is your\n\n\"I'm not deleting the signal, I'm just adjusting the volume.\"\n\nBefore changing a pixel, ask the guard for permission:\n\n\"Would it be OK if I moved the image a bit further away or turned the volume down a little bit? This will allow me to hear you better with my adult brain.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 141
+    },
+    "elapsed": 7
+  },
+  "balance_after": 127273
+}

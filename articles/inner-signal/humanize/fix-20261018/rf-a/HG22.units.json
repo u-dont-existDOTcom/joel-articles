@@ -1,0 +1,43 @@
+{
+ "key": "HG22",
+ "from": "fix-20261018/rev-a/HG22.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The weekly deeper practice"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "It’s good to do this once or twice a week, though more is fine. It doesn’t have to be very intense but it is good to start from Higher Self or at least a neutral witnessing place. It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing."
+   ],
+   "run": "HG22-fxw1",
+   "file": "fix-20261018/emu-r/HG22-fxw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult’s actions have been heard. Otherwise, the dishes won’t get done."
+   ],
+   "run": "HG22-fxw1",
+   "file": "fix-20261018/emu-r/HG22-fxw1.out.txt",
+   "refix": true
+  }
+ ]
+}

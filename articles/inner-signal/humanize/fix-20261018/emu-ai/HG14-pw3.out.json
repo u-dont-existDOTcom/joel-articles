@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ai/HG14-pw3.txt",
+  "input_words": 74,
+  "input_sha256": "b57139d142a6028356d3a324c7a7da9e76de38aa70d539a6f620edeeb508a5e7",
+  "balance_before": 87419,
+  "started_utc": "2026-10-18T07:58:41Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:58:47Z",
+  "response": {
+    "id": "9db34d07-1a83-47c9-a7b1-105347407ca0",
+    "tool": "humanize",
+    "text": "When you try to connect with your inner child, what do you expect to happen? Unless you’ve been doing this work for a while, you might expect that you’ll experience your inner child.\n\nBut, what you’re more likely to experience is numbness, cynicism, anger, a strong desire to eat, check your phone, have sex, plan your day, go to sleep, dissociate or a voice in your head that says something like, “This is stupid.” It isn’t that you’re failing to connect with your inner child, it’s that you’ve run into your guard.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 74
+    },
+    "elapsed": 6
+  },
+  "balance_after": 87345
+}

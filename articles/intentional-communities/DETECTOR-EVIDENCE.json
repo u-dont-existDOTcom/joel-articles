@@ -242,6 +242,20 @@
    "passage": "section 8 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
    "service": "Pangram web app (dashboard)",
    "record": "CANDIDATE: section 8 with Joel's 54 sentence; the paragraph Human, the whole section 100% Human (1872 words, AI likelihood 0.04, 23:58:33 UTC, https://www.pangram.com/history/19b26735-b425-4d10-a17d-263155608184)."
+  },
+  {
+   "section": 2,
+   "version": "v3.6 (2026-10-18)",
+   "passage": "section 2 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+   "service": "Pangram web app, Joel's own check",
+   "record": "CANDIDATE: Joel, 01:29 UTC: \"i checked the section, it passes as human when first part is this\" (no link). My checks of it (batch 428g) wait on Pangram: the web app was signed out and the API key had no credits."
+  },
+  {
+   "section": 2,
+   "version": "v3.6b (2026-10-18)",
+   "passage": "section 2 as installed in articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md",
+   "service": "Pangram web app (dashboard)",
+   "record": "CANDIDATE: section 2 with Joel's 01:29 first paragraph and aside and the anomie paragraph (46 a); every changed paragraph Human alone and with its neighbor, the whole section 100% Human (694 words, AI likelihood 0.26, 01:56:15 UTC, https://www.pangram.com/history/602283c2-9f41-4559-b510-e5a7aa9d2359)."
   }
  ]
 }

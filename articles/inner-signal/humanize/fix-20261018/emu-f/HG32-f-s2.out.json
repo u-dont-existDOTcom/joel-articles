@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG32-f-s2.txt",
+  "input_words": 67,
+  "input_sha256": "2654efdfaf1a12284c035cf632461ff37b7683aad706f2af37fd92dce15d0444",
+  "balance_before": 129026,
+  "started_utc": "2026-10-18T03:24:53Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:59Z",
+  "response": {
+    "id": "1f73cce2-d981-479d-980f-525dfff2086d",
+    "tool": "humanize",
+    "text": "Ask yourself: If this is really true, will it still be there when I’m questioning it? If this is really love, will it still be there when I put healthy boundaries? If this is really guidance, will it still be there when I’ve slept on it? If this is really meant for me, will it still be there when I accept that I’m an adult now?\n\nBefore acting, also ask yourself: Is there a sense of urgency here? A sense of secrecy? A sense of shame? A threat of being left out? A promise of specialness? A sexual charge?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 67
+    },
+    "elapsed": 6
+  },
+  "balance_after": 128959
+}

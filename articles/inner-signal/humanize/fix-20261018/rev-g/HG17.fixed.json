@@ -1,0 +1,1553 @@
+{
+ "key": "HG17",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-e",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h",
+  "fix-20261018/emu-i",
+  "fix-20261018/emu-k"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Induction: gathering attention without disappearing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "The induction is a way to help you to pull your attention together so that you can hear material that might not reach you when you are soober. It is NOT something where you have to surrender, play asleep, or obey anyone. If you are sober and having trouble focussing, too distracted, analytical, or are putting up a lot of resistance to working, an actual induction may help. However, if you are already pretty trancey from meditating beforehand, from loveyhuasca, lucid dreaming, working through grief, hearing music, praying, being tired, or for any other reason, you may want to skip to orienting and making sure you are contained instead of adding depth."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-k/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'play asleep' and 'obey anyone' changed to 'go asleep' and 'anything you don't want'",
+     "replace": "a way to make you go asleep, surrender, or do anything you don’t want to do",
+     "with": "something where you have to surrender, play asleep, or obey anyone",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'instead of adding depth' for the already-trancey case",
+     "replace": "and making sure you are contained",
+     "with": "and making sure you are contained instead of adding depth",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "If you do want to induce trance, choose as deep a trance as you need: focused, warm, receptive, embodied, and still able to stop. Depth is optional."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-k/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the target qualities incl. 'still able to stop', and 'depth is optional'",
+     "replace": "choose as deep a trance as you need:",
+     "with": "choose as deep a trance as you need: focused, warm, receptive, embodied, and still able to stop. Depth is optional.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "What an induction is actually doing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "It's preparation, gathering up attention. It may also be deepening, but only when that helps. It will be more effective if you tailor it to what comes up. Counting is one way in, but conversation, story, movement, repeated sound, and curiosity can also gather up attention. Say so when you use them; being elegant doesn't excuse a covert induction."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'only when that helps' for deepening",
+     "replace": "It may also be deepening.",
+     "with": "It may also be deepening, but only when that helps.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "the alternatives to counting (conversation, story, movement, repeated sound, curiosity); 'easy' replaces 'one way in'",
+     "replace": "Counting is easy but you can do all sorts of things to gather up attention.",
+     "with": "Counting is one way in, but conversation, story, movement, repeated sound, and curiosity can also gather up attention.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'say so' became 'it's OK to tell'; covert-induction point turned into pretending it's elegant",
+     "replace": "It's OK to tell people when you're doing this rather than pretending it's all very elegant and flowing.",
+     "with": "Say so when you use them; being elegant doesn't excuse a covert induction.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "You may want to try your suggestion on a simple target before deepening to see if it works. If the useful response is already happening, build from it. It's not necessary to do the whole ceremony before responding more receptively."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'if the useful response is already happening, build from it'",
+     "replace": "to see if it works.",
+     "with": "to see if it works. If the useful response is already happening, build from it.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Please don’t put six metaphors in one trance"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "Choose what you're going to do, one way to anchor it initially, and how you'll get back. You may want it to be warm, or firm, directed, or neutral, or whatever. You don't have to combine floating, going down stairs, going through gardens, visiting inner places, seeing a colour, and talking to a child all in one go, even if some of these appeal to you. Switch consciously when the metaphor stops helping."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the condition: switch when the metaphor stops helping",
+     "replace": "If you do change metaphors do it consciously.",
+     "with": "Switch consciously when the metaphor stops helping.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "It's OK to do this with no imagery. The signal may come in other ways (feelings, rhythm, movement, words, spatial, knowing, or even non-response). Try to keep the language you use for counting in and elsewhere consistent with the world you've chosen. Come back out by reversing the journey in some way. It's OK to borrow qualities such as warmth or steadiness but don't become someone else."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "qualities borrowed 'from other inductions'; warmth and steadiness examples lost",
+     "replace": "steal qualities from other inductions",
+     "with": "borrow qualities such as warmth or steadiness",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'if that's appropriate to the context' puts a condition on no-response as a signal",
+     "replace": ", if that's appropriate to the context",
+     "with": "",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Try to limit yourself to one key verb, a particular sense quality, a short bit of text to repeat, and a way of moving from one bit to another. Read it out loud before hand - long beautiful sentences tend to turn to soup in inductions."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Before you begin"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Read this induction and Come all the way back while awake. Consider what you want to explore, what you want to leave alone, and how long you've got. More love, play, confidence, creativity, communion, whatever, are all worthwhile purposes, and you don't have to find a problem. Make sure you've got enough time to come back out and think about it."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'you don't have to find a problem' lost; worthwhile purposes became 'try to use it for something good'",
+     "replace": "Try to use it for something good (e.g. more love, play, confidence, creativity, communion with life, whatever).",
+     "with": "More love, play, confidence, creativity, communion, whatever, are all worthwhile purposes, and you don't have to find a problem.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "Make sure you're somewhere safe - don't do this when driving, near water, playing with machinery, or with people who need looking after. Don't do this when intoxicated or in any other state where you may be acutely confused or unable to look after yourself - get immediate support instead of exploratory hypnosis. (However see the bit about already being open, later, as this is not about deepening when unstable)."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the instruction to deal with immediate support instead of exploratory hypnosis",
+     "replace": "unable to look after yourself.",
+     "with": "unable to look after yourself - get immediate support instead of exploratory hypnosis.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "Consider whether you want it to be spacious listening, warm company, or a firmer invitation to stay with a feeling. You may want to warn yourself that your eyes will be asked to close and that you may come out and go in again a few times, as well as coming out at the end. If you're listening to a recording it may be a good idea to read the script first (if possible). 'Stop' ends the exercise, 'less' makes it less demanding, and 'quiet' stops the words. You can always just open your eyes and finish - you don't have to get consensus from inner parts to do this."
+   ],
+   "run": "HG17-r1",
+   "file": "fix-20261018/emu-i/HG17-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the kinds of encouragement: spacious listening, warm company, firmer invitation to stay with a feeling",
+     "replace": "encouraging, warm, firm, or whatever",
+     "with": "spacious listening, warm company, or a firmer invitation to stay with a feeling",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "the words are fixed: 'stop' ends it, 'less' reduces the demand, 'quiet' stops the words",
+     "replace": "Decide on a word to use to come out (e.g. 'stop'). You may also want words to make it less demanding (e.g. 'less'), and to stop the words (e.g. 'quiet').",
+     "with": "'Stop' ends the exercise, 'less' makes it less demanding, and 'quiet' stops the words.",
+     "round": 2,
+     "from": "verify-e (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Until you are confident about how to get in and out, it is wise to rehearse the skill in a context where you do not require the maximum effort that difficult subjects demand. Once you know how to change direction, you don’t need to supervise every moment. Let a useful response become easier and less effortful. A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to."
+   ],
+   "run": "HG17-r1-s5",
+   "file": "fix-20261018/emu-e/HG17-r1-s5.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'know how to change direction, no need to supervise every moment' became 'skill easier, relax effortlessly'",
+     "replace": "Once the skill is easier to apply, you can relax into using it effortlessly.",
+     "with": "Once you know how to change direction, you don’t need to supervise every moment.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "INVENTED",
+     "what": "'lack of effort produces the maximum benefit' is not in the published text",
+     "replace": "It is the lack of effort that produces the maximum benefit.",
+     "with": "Let a useful response become easier and less effortful.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'a no remains no; silence doesn't authorize adding things' turned into 'you don't have to say anything'",
+     "replace": "Saying no is enough. You don’t have to say anything.",
+     "with": "A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "Develop the next part of your induction from the response you got, not the response the script expected. This principle of utilization means that whatever actually happens can be worked with: a thought, sound, movement, or objection may change where the practice goes. If nothing happens, then nothing has happened. You don’t have to pretend that something has. Keep safety and exit instructions plain. Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction ."
+   ],
+   "run": "HG17-r1-s5",
+   "file": "fix-20261018/emu-e/HG17-r1-s5.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "'your subject' invented; published is the response you got versus what the script expected",
+     "replace": "from what your subject is responding to, not what you intended",
+     "with": "from the response you got, not the response the script expected",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "examples: a thought, sound, movement or objection may change where the practice goes",
+     "replace": "whatever happens can be developed.",
+     "with": "whatever actually happens can be worked with: a thought, sound, movement, or objection may change where the practice goes.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'keep safety and exit instructions plain' became what the subject needs to know",
+     "replace": "The subject needs to know they are safe and how to leave the experience.",
+     "with": "Keep safety and exit instructions plain.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "WRONG",
+     "what": "Appendix B holds the richer language tools, not safety wording; 'after the induction' lost",
+     "replace": "The language skills that facilitate these are described in Appendix B and used in Let the next response guide you",
+     "with": "Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Sober induction: 3–5 minutes"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "Practise reading this slowly into a recorder, or reading it aloud, or if you can learn it and use silent words. Choose to use one of the three anchors – sound, bodily contact or two hands - throughout and choose an opening phrase. Whenever the words below refer to ‘the anchor’ use the one you’ve chosen. Pause for a few moments at the end of each paragraph. Don’t read aloud the instructions for how to do the reading."
+   ],
+   "run": "HG17-r1-s6",
+   "file": "fix-20261018/emu-e/HG17-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the opening phrase is chosen by the reader, not 'the opening phrase for that practice'",
+     "replace": "include the opening phrase for that practice",
+     "with": "choose an opening phrase",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and notice the difference between looking for something and letting what is already there come into view."
+   ],
+   "run": "HG17-r1-s6",
+   "file": "fix-20261018/emu-e/HG17-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'settle ... somewhere they can rest for a little while'",
+     "replace": "As your eyes look somewhere in the room,",
+     "with": "Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'letting what is already there come into view' became plain 'seeing what is there'",
+     "replace": "seeing what is there",
+     "with": "letting what is already there come into view",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19
+   ],
+   "paras": [
+    "As you notice the surface beneath you, notice the feel of the contact, the pressure, whatever you can actually feel. And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one."
+   ],
+   "run": "HG17-r1-s6",
+   "file": "fix-20261018/emu-e/HG17-r1-s6.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "sentence breaks off at a comma; 'may reach you ... without needing you to arrange either one' lost",
+     "replace": "And as you notice the anchor, perhaps a sound or the feel of the breath,",
+     "with": "And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'whatever you can actually feel'",
+     "replace": "the pressure, the feel of it.",
+     "with": "the pressure, whatever you can actually feel.",
+     "from": "a Sonnet reviewer (HG17.review.part1.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    20
+   ],
+   "paras": [
+    "There’s time to do this."
+   ],
+   "run": "HG17-r1-s6",
+   "file": "fix-20261018/emu-e/HG17-r1-s6.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    21
+   ],
+   "paras": [
+    "It might be that a thought about something that’s happened during the day is still with you, or perhaps there’s a thought about doing this properly. Whatever is there, can you find it in yourself to turn your attention back to the anchor, even if there is a thought there?"
+   ],
+   "run": "HG17-r1-s6",
+   "file": "fix-20261018/emu-e/HG17-r1-s6.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    22
+   ],
+   "paras": [
+    "and when you do come back, you may find one detail that holds your interest, something about the sound, or the contact, or that particular way of listening, and let attention stay with it long enough to become curious"
+   ],
+   "run": "HG17-r1-s7",
+   "file": "fix-20261018/emu-e/HG17-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the instruction to let attention stay with one detail long enough to become curious; examples lost",
+     "replace": "perhaps there was something of interest to you in all of this",
+     "with": "you may find one detail that holds your interest, something about the sound, or the contact, or that particular way of listening, and let attention stay with it long enough to become curious",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "Perhaps you can give yourself the time that you might give to someone dear to you who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them"
+   ],
+   "run": "HG17-r1-s7",
+   "file": "fix-20261018/emu-e/HG17-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the person who has begun to speak and hasn't found the words; remaining nearby without finishing their sentence",
+     "replace": "someone dear to you",
+     "with": "someone dear to you who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "Let the phrase you chose come to mind, say it as an invitation, and notice how it is received"
+   ],
+   "run": "HG17-r1-s7",
+   "file": "fix-20261018/emu-e/HG17-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'say it as an invitation' lost; 'how it is received' became 'how it is for you'",
+     "replace": "Try a phrase that you choose for yourself to see how it is for you",
+     "with": "Let the phrase you chose come to mind, say it as an invitation, and notice how it is received",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    25
+   ],
+   "paras": [
+    "You can close your eyes, soften them or keep them open as you proceed. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background"
+   ],
+   "run": "HG17-r1-s7",
+   "file": "fix-20261018/emu-e/HG17-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'let that be a choice you make' and the background room sound staying available while listening deepens",
+     "replace": "as you proceed",
+     "with": "as you proceed. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    26
+   ],
+   "paras": [
+    "Count slowly from 5 to 1, giving each number its own moment"
+   ],
+   "run": "HG17-r1-s7",
+   "file": "fix-20261018/emu-e/HG17-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'slowly' and 'each number its own moment' lost; instruction softened to 'if you like'",
+     "replace": "If you like, count to yourself, from 5 to 1",
+     "with": "Count slowly from 5 to 1, giving each number its own moment",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "5, perhaps notice again what you have chosen to be your anchor for today, 4, let attention gather around what you find, 3, leave a little space after the words, 2, listen into that space, without preparing an answer, 1, stay here for a moment"
+   ],
+   "run": "HG17-r1-s7",
+   "file": "fix-20261018/emu-e/HG17-r1-s7.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'let attention gather around what you find' became 'notice what you notice'",
+     "replace": "and notice what you notice",
+     "with": "let attention gather around what you find",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'after the words' (where the space is left)",
+     "replace": "leave some space",
+     "with": "leave a little space after the words",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'without preparing an answer' and the final 'Stay here for a moment'",
+     "replace": "and listen, even to the silence, 1",
+     "with": "listen into that space, without preparing an answer, 1, stay here for a moment",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28
+   ],
+   "paras": [
+    "Bring to mind, lightly, your chosen concern. Or simply, stay with the wish to contact. Let it be present without rehearsing its whole story."
+   ],
+   "run": "HG17-r1-s8",
+   "file": "fix-20261018/emu-g/HG17-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'your chosen concern' became 'what you want to contact'",
+     "replace": "what it is that you want to contact",
+     "with": "your chosen concern",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'let it be present without rehearsing its whole story'",
+     "replace": "stay with the wish to contact.",
+     "with": "stay with the wish to contact. Let it be present without rehearsing its whole story.",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    29
+   ],
+   "paras": [
+    "What do you notice now?"
+   ],
+   "run": "HG17-r1-s8",
+   "file": "fix-20261018/emu-g/HG17-r1-s8.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    30
+   ],
+   "paras": [
+    "Allow yourself some time to notice what is coming. It might be sensations, words, images, feelings, the urge to move in some way or nothing clear yet."
+   ],
+   "run": "HG17-r1-s8",
+   "file": "fix-20261018/emu-g/HG17-r1-s8.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'nothing clear yet' became the stronger 'nothing at all'",
+     "replace": "or nothing at all",
+     "with": "or nothing clear yet",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "Allow yourself some time to notice this, with or without words."
+   ],
+   "run": "HG17-r1-s8",
+   "file": "fix-20261018/emu-g/HG17-r1-s8.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Already open? Contain before you deepen"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "paras": [
+    "This is most useful after you have already opened yourself to a state, through loveyhuasca, meditation, lucid dreaming, dealing with grief, listening to music, prayer, engagement with erotic energy, exhaustion, or being overwhelmed by beauty. This is to stabilize your state before making it stronger.",
+    "“The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.”",
+    "Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine. Focus on the physical sensation of pressing your thumbs gently but firmly against your index fingers, feel the friction.",
+    "“I will only allow myself to go as far as I can integrate. Anything too much can wait. My body may stay safe, my adult self is here, my inner child doesn't have to do this alone.”",
+    "Once you’re oriented, choose one intention: “Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”"
+   ],
+   "run": "HG17-r1-s9",
+   "file": "fix-20261018/emu-g/HG17-r1-s9.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'stabilize before making it stronger' became 'not to make it stronger'",
+     "replace": "This is to stabilize your state, not to make it stronger.",
+     "with": "This is to stabilize your state before making it stronger.",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'do not need to intensify' turned into 'make it stronger'; 'stabilize it, keep it kind' lost",
+     "replace": "I already have an open state, now I want to aim that open state and make it stronger.",
+     "with": "“The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.”",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "naming where you are and the date (or day), and feeling feet, hands and spine",
+     "replace": "Look around you, orient yourself to where you are, what date it is.",
+     "with": "Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine.",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'gently but firmly' pressing became 'squeezing'",
+     "replace": "squeezing your thumbs against your index fingers",
+     "with": "pressing your thumbs gently but firmly against your index fingers",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "script lost its opening quotation mark, so it reads as narration",
+     "replace": "Now, I will only allow",
+     "with": "“I will only allow",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'Anything too much can wait'",
+     "replace": "go as far as I can integrate.",
+     "with": "go as far as I can integrate. Anything too much can wait.",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'The body may stay safe' became the firmer 'My body will be safe'",
+     "replace": "My body will be safe",
+     "with": "My body may stay safe",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "script lost its closing quotation mark, so it reads as narration",
+     "replace": "doesn't have to do this alone.",
+     "with": "doesn't have to do this alone.”",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'Once you're oriented, choose one intention'; 'Please show me the next useful truth... amount I can live well with'",
+     "replace": "Now, tell me the next thing I need to know, in symbols, feelings, questions, actions, in doses that I can integrate.",
+     "with": "Once you’re oriented, choose one intention: “Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    39
+   ],
+   "paras": [
+    "Stay awake when your mind likes to escape"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    40
+   ],
+   "paras": [
+    "You can do this practice sitting up, with your eyes open, feeling your feet and letting your breath be natural."
+   ],
+   "run": "HG17-r1-s10",
+   "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "feel the feet; let the breath be natural",
+     "replace": "You can do this practice sitting up, with your eyes open, etc.",
+     "with": "You can do this practice sitting up, with your eyes open, feeling your feet and letting your breath be natural.",
+     "round": 2,
+     "from": "verify-e (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    41
+   ],
+   "paras": [
+    "Begin by saying: “I am not going away. I am coming more fully here.”"
+   ],
+   "run": "HG17-r1-s10",
+   "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "script line turned into narration; 'I am coming more fully here' became 'you are coming more'",
+     "replace": "Begin by saying to yourself that you are not going to go away in this practice, you are coming more.",
+     "with": "Begin by saying: “I am not going away. I am coming more fully here.”",
+     "from": "a Sonnet reviewer (HG17.review.part2.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    42
+   ],
+   "paras": [
+    "Then choose an object to look at, and feel your spine."
+   ],
+   "run": "HG17-r1-s10",
+   "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "look at one object and feel the spine (both steps)",
+     "replace": "Then choose an object to look at, or feel your spine, etc.",
+     "with": "Then choose an object to look at, and feel your spine.",
+     "round": 2,
+     "from": "verify-e (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    43
+   ],
+   "paras": [
+    "Ask yourself if your daydreaming is helping you to receive guidance or digest emotional experiences, or if you are escaping from something."
+   ],
+   "run": "HG17-r1-s10",
+   "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    44
+   ],
+   "paras": [
+    "Then you can ask for help: if it is guidance, to show you the action inside it; if it is avoidance, to bring you gently into the present and show you what you are avoiding."
+   ],
+   "run": "HG17-r1-s10",
+   "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the 'if it is guidance... if it is avoidance...' conditions and 'gently'",
+     "replace": "help to take action based on the guidance or to come into the present moment and see what you are escaping from",
+     "with": "help: if it is guidance, to show you the action inside it; if it is avoidance, to bring you gently into the present and show you what you are avoiding",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    45
+   ],
+   "paras": [
+    "If you find that being still leads you to escape into sleepiness and diffuse states, you can work with increasing alertness rather than relaxation, keep your eyes open and work with doing a movement with your hands, which you repeat for a while and then stop deliberately in order to notice what remains without trying to disappear inward."
+   ],
+   "run": "HG17-r1-s10",
+   "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'without trying to disappear inward' and 'what remains'",
+     "replace": "in order to notice if there is any residual activity",
+     "with": "in order to notice what remains without trying to disappear inward",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    46
+   ],
+   "paras": [
+    "You can say something like: ‘While you keep your eyes open, press your thumb and forefinger together gently and then let go; do this a few times, becoming more and more clear and alert each time. Now deliberately stop doing that movement and notice the first second after the rhythm ends, and whether there is an echo in the fingers, the breath, the attention, or nowhere at all.’ Stay upright and work from exactly that level of alertness."
+   ],
+   "run": "HG17-r1-s10",
+   "file": "fix-20261018/emu-g/HG17-r1-s10.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'gently' in pressing thumb and forefinger together",
+     "replace": "press your thumb and forefinger together and then let go",
+     "with": "press your thumb and forefinger together gently and then let go",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'the first second after the rhythm ends' and where to look: fingers, breath, attention, nowhere",
+     "replace": "notice if there is any residual activity or if it has completely stopped",
+     "with": "notice the first second after the rhythm ends, and whether there is an echo in the fingers, the breath, the attention, or nowhere at all",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'stay upright' lost; 'exactly that level of alertness' became 'a level that is useful to you'",
+     "replace": "Work with a level of alertness that is useful to you.",
+     "with": "Stay upright and work from exactly that level of alertness.",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    47
+   ],
+   "paras": [
+    "The two-hand induction"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    48
+   ],
+   "paras": [
+    "Where are YOUR hands? Put one on YOUR heart and the other on YOUR solar plexis."
+   ],
+   "run": "HG17-r1-s11",
+   "file": "fix-20261018/emu-g/HG17-r1-s11.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    49
+   ],
+   "paras": [
+    "The hand on YOUR heart is the Nurturer, the one on the solar plexis is the vulnerable child in YOU."
+   ],
+   "run": "HG17-r1-s11",
+   "file": "fix-20261018/emu-g/HG17-r1-s11.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'vulnerable child' became 'little vulnerable part'; later lines refer to 'the child'",
+     "replace": "little vulnerable part in YOU",
+     "with": "vulnerable child in YOU",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    50
+   ],
+   "paras": [
+    "Then breathe gently and affirm"
+   ],
+   "run": "HG17-r1-s11",
+   "file": "fix-20261018/emu-g/HG17-r1-s11.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'gently' in 'Breathe gently'",
+     "replace": "Then breath and affirm",
+     "with": "Then breathe gently and affirm",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    51
+   ],
+   "paras": [
+    "“ The love is above and the child is below. And the adult is present.”"
+   ],
+   "run": "HG17-r1-s11",
+   "file": "fix-20261018/emu-g/HG17-r1-s11.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'in the middle' and 'that's ME!' invented for 'Adult present'; the quotation never closes",
+     "replace": "And in the middle, the adult – that’s ME!",
+     "with": "And the adult is present.”",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    52
+   ],
+   "paras": [
+    "“I send love to the child and I receive the child’s signal. Then I send love again and I listen again.”"
+   ],
+   "run": "HG17-r1-s11",
+   "file": "fix-20261018/emu-g/HG17-r1-s11.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'to the child' became 'down'; 'I listen again' lost; script has no quotation marks",
+     "replace": "I send love down and I receive the signal from the child. Then I send love again and receive the signal again.",
+     "with": "“I send love to the child and I receive the child’s signal. Then I send love again and I listen again.”",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    53
+   ],
+   "paras": [
+    "Sleep induction"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    54
+   ],
+   "paras": [
+    "This is not like other inductions. The goal of other inductions is to get all the way back to your Adult so you can write and do things. The goal of this induction is to go to sleep, so analysis can stay off duty and revelation can wait."
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "'on this website' is not in the published text",
+     "replace": " on this website",
+     "with": "",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'revelation can wait' became 'not allow yourself any revelations'",
+     "replace": "it's okay to not do any analyzing or allow yourself any revelations",
+     "with": "analysis can stay off duty and revelation can wait",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    55
+   ],
+   "paras": [
+    "For a hypnosis to help you sleep, try out Nimja's sleep playlist here ."
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    56
+   ],
+   "paras": [
+    "Optional fractionation: practice coming back"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    57
+   ],
+   "paras": [
+    "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. As long as you're doing it openly (naming the technique before you use it), it's okay, because it teaches that trance has a door in both directions. Every answer cannot secretly mean \"deeper.\""
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'the person' invented; published has you return to ordinary awareness and decide whether to re-enter",
+     "replace": "is when you bring the person back up and send them back down into absorption",
+     "with": "means returning toward ordinary awareness and then deciding whether to enter absorption again",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'name the technique before using it' became telling 'them'",
+     "replace": "(telling them you're doing it)",
+     "with": "(naming the technique before you use it)",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'trance has a door in both directions' became 'they can always get out of trance'",
+     "replace": "it teaches the person that they can always get out of trance",
+     "with": "it teaches that trance has a door in both directions",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'every answer cannot secretly mean deeper' became a point about which questions get that answer",
+     "replace": "Not all questions should have the answer \"deeper.\"",
+     "with": "Every answer cannot secretly mean \"deeper.\"",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    58
+   ],
+   "paras": [
+    "At some point you can say, \"Open your eyes and return toward ordinary awareness. Feel the room. You can decide if you want to end the hypnosis here. If you choose to continue, close or soften your eyes and notice what changes as attention gathers again. You may stop at either point.\""
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'return toward ordinary awareness' became 'all the way back up'; 'Feel the room' lost; 'when you're ready' added",
+     "replace": "When you're ready, open your eyes and bring yourself all the way back up.",
+     "with": "Open your eyes and return toward ordinary awareness. Feel the room.",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'notice what changes as attention gathers' became 'send yourself back down'; 'stop at either point' lost",
+     "replace": ", or you can close/soften your eyes and send yourself back down into absorption again.",
+     "with": ". If you choose to continue, close or soften your eyes and notice what changes as attention gathers again. You may stop at either point.",
+     "from": "a Sonnet reviewer (HG17.review.part3.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    59
+   ],
+   "paras": [
+    "Deepening, if useful"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    60
+   ],
+   "paras": [
+    "\"When it's useful for me to deepen my absorption, I can. When it's not useful, I'm just as awake as I need to be.\""
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    61
+   ],
+   "paras": [
+    "Then you can do a room in your heart, or a garden, or a temple, or sitting next to a fire with your Protector nearby, or floating on a clear lake, or a chair where the adult waits, etc. One of these is plenty."
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'a chair where the adult waits'",
+     "replace": "sitting in a chair",
+     "with": "a chair where the adult waits",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'One scene is plenty' hardened into a prohibition",
+     "replace": "Don't do more than one of these.",
+     "with": "One of these is plenty.",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    62
+   ],
+   "paras": [
+    "See who or what wants to talk to you first."
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    63
+   ],
+   "paras": [
+    "Optional trance depth check"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    64
+   ],
+   "paras": [
+    "Give up all responsibility for making it happen."
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    65
+   ],
+   "paras": [
+    "\"If it is useful, my wise subconscious may let one of my fingers twitch, or pulse, or lift up, or feel warm, or tingly, or somehow different when the inner meeting space is ready.\""
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'If it is useful... may let' became 'when it knows... can make'",
+     "replace": "When my wise subconscious knows that I am at the meeting space inside myself that it wants to talk to me at, it can make one of my fingers",
+     "with": "If it is useful, my wise subconscious may let one of my fingers",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'when the inner meeting space is ready' became 'if it wants to'",
+     "replace": ", if it wants to",
+     "with": " when the inner meeting space is ready",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    66
+   ],
+   "paras": [
+    "You're not going to make it happen or fake it. You're just going to wait with love and notice."
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'wait with love and notice' became waiting for it to happen, which presumes it will",
+     "replace": "wait with love for it to happen",
+     "with": "wait with love and notice",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    67
+   ],
+   "paras": [
+    "It doesn't mean that anything will happen, but if something happens with one of your fingers, or you feel some other bodily change, none of it proves truth; at most, something may be listening."
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'none proves truth; at most, something may be listening' became 'does mean that something is listening to you'",
+     "replace": "it doesn't necessarily mean that it's real, but it does mean that something is listening to you",
+     "with": "none of it proves truth; at most, something may be listening",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    68
+   ],
+   "paras": [
+    "A shortcut back into hypnosis"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    69
+   ],
+   "paras": [
+    "Once you've learned a useful induction and also the full return below, you can make up your own shortcut for getting back under hypnosis. My dad used to do a mudra (hand sign) by bringing two fingers together in an \"okay\" sign, and it would help him relax. He even did it while driving, but that's his experience, not a recommendation to enter trance at the wheel. So keep the cue you use for calming yourself while alert separate from the one for going into inward hypnosis!"
+   ],
+   "run": "HG17-r2",
+   "file": "fix-20261018/emu-h/HG17-r2.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "'full return below' became 'all the way back down induction'; 'on this website' not in published text",
+     "replace": "some of the inductions on this website and also the bringing yourself all the way back down induction",
+     "with": "a useful induction and also the full return below",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'That's his experience, not a recommendation to enter trance at the wheel'",
+     "replace": "so don't use",
+     "with": "but that's his experience, not a recommendation to enter trance at the wheel. So don't use",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "keep alert calming and inward hypnosis on different cues (not only while driving)",
+     "replace": "So don't use the same thing for calming yourself while driving as you do for going into inward hypnosis!",
+     "with": "So keep the cue you use for calming yourself while alert separate from the one for going into inward hypnosis!",
+     "round": 2,
+     "from": "verify-e (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    70
+   ],
+   "paras": [
+    "Choose a Unique Word, Phrase or Movement You may want to add a gesture, but it's not necessary. When you are in a familiar and welcome hypnotic state that you like - not at the height of an emotional experience, and not in a child state or with a traumatic scene - start to pair that state with that word, phrase or gesture. You are giving that word, phrase or gesture a meaning that you choose."
+   ],
+   "run": "HG17-r1-s16",
+   "file": "fix-20261018/emu-e/HG17-r1-s16.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    71
+   ],
+   "paras": [
+    "When you are in a place and time where you have set aside time and it is appropriate and you want to deliberately start hypnosis with your short cut, then you can return to this familiar way of listening, from where you can change the direction of your experience or end the hypnosis."
+   ],
+   "run": "HG17-r1-s16",
+   "file": "fix-20261018/emu-e/HG17-r1-s16.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'I can return to this familiar way of listening' became the firmer 'you will find yourself in that state'",
+     "replace": "then you will find yourself in that familiar and welcome state",
+     "with": "then you can return to this familiar way of listening",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    72
+   ],
+   "paras": [
+    "Return fully. When at another appropriate time you want to deliberately start practicing hypnosis, use your short cut. Give it time. You can start to make your longer induction shorter as you find that the short cut works, but if it doesn't work, you can always use the familiar induction. There is no set number of times that you need to do this, or that you need to be instantaneously really deep into hypnosis or experience a particular sensation, it is completely up to you."
+   ],
+   "run": "HG17-r1-s16",
+   "file": "fix-20261018/emu-e/HG17-r1-s16.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "the instruction 'Return fully' is run into the next sentence like a heading",
+     "replace": "Return Fully When",
+     "with": "Return fully. When",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'Give it time'",
+     "replace": "use your short cut.",
+     "with": "use your short cut. Give it time.",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    73
+   ],
+   "paras": [
+    "First, is it useful? Will it be there when you want it to be, not there when you don't want it to be? Can you change direction and return when you want to? It shouldn't become obedience to a narrator, notification, or overheard word. Going in faster doesn't determine what material you can handle."
+   ],
+   "run": "HG17-r1-s17",
+   "file": "fix-20261018/emu-e/HG17-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'changing direction and returning workable' became 'change your mind about it and get back'",
+     "replace": "change your mind about it and get back when you want to",
+     "with": "change direction and return when you want to",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "LOST",
+     "what": "'obedience to a narrator, notification, or overheard word'; the rewrite's 'hear it overheard' is garbled",
+     "replace": "It shouldn't mean you'll do anything you're told, anytime someone tells you, or even if you hear it overheard.",
+     "with": "It shouldn't become obedience to a narrator, notification, or overheard word.",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'faster entry doesn't determine what material you can handle' became 'shouldn't limit what you can work with'",
+     "replace": "Being able to go in faster should not limit what you can work with.",
+     "with": "Going in faster doesn't determine what material you can handle.",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    74
+   ],
+   "paras": [
+    "Never train, test, or use hypnotic re-entry while driving or anything where you need to be actively paying attention even if it is open eyed and even if the words are conditional."
+   ],
+   "run": "HG17-r1-s17",
+   "file": "fix-20261018/emu-e/HG17-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'Never train, test, or use' softened to 'not a good idea to do it'",
+     "replace": "It's not a good idea to do it while driving",
+     "with": "Never train, test, or use hypnotic re-entry while driving",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    75
+   ],
+   "paras": [
+    "When you don't want it any more, stop practicing, take it out of any recordings or active apps you're using, go back to a familiar induction and say you're done using it while awake - a cancellation sentence doesn't prove the association vanished instantly. If unwanted responses or disorientation keep coming back, get qualified help. The trigger should only be for the next time you decide you want to do a session; today’s altered state ends with the return."
+   ],
+   "run": "HG17-r1-s17",
+   "file": "fix-20261018/emu-e/HG17-r1-s17.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "'state your decision while awake'; a cancellation sentence does not prove the association vanished instantly",
+     "replace": "say you're done using it.",
+     "with": "say you're done using it while awake - a cancellation sentence doesn't prove the association vanished instantly.",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "'keep you out of line today' is unclear; published says today's altered state ends with the return",
+     "replace": ", it shouldn't keep you out of line today",
+     "with": "; today’s altered state ends with the return",
+     "from": "a Sonnet reviewer (HG17.review.part4.json), checked by me"
+    },
+    {
+     "type": "SHIFT",
+     "what": "persistent unwanted responses or disorientation need qualified help",
+     "replace": "If you have problems not being able to stop using it or not being able to come back from it easily, get qualified help.",
+     "with": "If unwanted responses or disorientation keep coming back, get qualified help.",
+     "round": 2,
+     "from": "verify-e (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

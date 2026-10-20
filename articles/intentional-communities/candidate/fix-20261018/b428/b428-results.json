@@ -1,0 +1,67 @@
+{
+ "S2v36": [
+  "Human Written",
+  0.2,
+  641,
+  "Human, High, 641",
+  "01:56:04",
+  "/68e200bc-49e3-41f6-89ce-6bdbc0df184f",
+  []
+ ],
+ "S2v36-P1": [
+  "Human Written",
+  0,
+  54,
+  "Human, Low, 54",
+  "01:55:22",
+  "/1e9a546e-89ff-4914-9999-2ade14eda913",
+  []
+ ],
+ "S2v36-P1+head": [
+  "Human Written",
+  0,
+  58,
+  "Human, Low, 58",
+  "01:55:32",
+  "/1b709a25-aab7-4d7c-93f2-b5482118141a",
+  []
+ ],
+ "S2v36-P2": [
+  "Human Written",
+  0.19,
+  67,
+  "Human, Low, 67",
+  "01:55:43",
+  "/1c827474-c602-4c83-bf82-13b91d7bdecd",
+  []
+ ],
+ "S2v36-P2+next": [
+  "Human Written",
+  0.08,
+  88,
+  "Human, Low, 88",
+  "01:55:53",
+  "/7e3cc8d7-f0aa-4207-9bcd-ada254831605",
+  []
+ ],
+ "S2v36b": [
+  "Human Written",
+  0.26,
+  694,
+  "Human, High, 694",
+  "01:56:15",
+  "/602283c2-9f41-4559-b510-e5a7aa9d2359",
+  []
+ ],
+ "S2v36c": [
+  "Mostly Human Written",
+  0.26,
+  703,
+  "Human, High, 320; AI-Generated, High, 63; Human, High, 320",
+  "01:56:25",
+  "/f91e4398-4e22-4bf2-881b-a95244ae3079",
+  [
+   "AI-Generated (63 words): Imagine opening your inbox after casually inviting a million followers to co-found a village.\nLater…"
+  ]
+ ]
+}

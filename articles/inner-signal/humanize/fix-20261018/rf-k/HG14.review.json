@@ -1,0 +1,16 @@
+[
+ {
+  "block": 19,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B19: LOST trust questions your promises and remembers failures of protection",
+    "replace": "trust to take",
+    "with": "trust to question your promises, remember when you failed to protect him/her, and take",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

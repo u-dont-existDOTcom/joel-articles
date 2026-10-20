@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s2.txt",
+  "input_words": 94,
+  "input_sha256": "b1391b140117526f795475c091cefeaa2cf1f0c6c4f706cbfd278530702de809",
+  "balance_before": 128640,
+  "started_utc": "2026-10-18T03:31:59Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:32:06Z",
+  "response": {
+    "id": "fcc9563b-b544-4d9c-9436-d5e386b417c5",
+    "tool": "humanize",
+    "text": "There is a real benefit to preparing a session before you start and once you've gathered your subject's attention you can deepen if necessary but you're free to start wording up if the context of the session requires it. You can use a number of ways to organise your subject's attention, counting is but one and if you're going to use it then say so. You can use conversation, stories, movement, repeated sounds, or simply curiosity etc... But if you're going to use them say so. Elegence is always useful, but not at the expense of doing something that you shouldn't be doing.\n\nAlso, with a simple enough target, why not try it first and if it works then deepen.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 94
+    },
+    "elapsed": 6
+  },
+  "balance_after": 128546
+}

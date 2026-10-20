@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s1.txt",
+  "input_words": 83,
+  "input_sha256": "21b78e932120dd374047ef0338893292e59d0cf46639099b1ba32824f95182c9",
+  "balance_before": 133527,
+  "started_utc": "2026-10-18T03:09:28Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:09:35Z",
+  "response": {
+    "id": "5cc2fe7e-4e40-4e8f-93ba-491e6a515014",
+    "tool": "humanize",
+    "text": "An induction collects up all your distracted bits and makes them quiet so that the more quiet stuff that you already have going can be heard. You don’t have to give up or go to sleep or listen to anyone. In general if you are sober, distracted, overly analytical or guarded then some actual induction can be very helpful. If you are already trancey from meditation, loveyhuasca, lucid dreaming, a period of grief, music, prayer, fatigue or anything else then you may just want to skip the induction and start with the orientation and containment.\n\nA word about the depth of trance you might want to get into.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 83
+    },
+    "elapsed": 6
+  },
+  "balance_after": 133444
+}

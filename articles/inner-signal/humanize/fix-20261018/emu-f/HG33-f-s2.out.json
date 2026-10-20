@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-f/HG33-f-s2.txt",
+  "input_words": 67,
+  "input_sha256": "b4c83edf4b1bf4a711b7b18a72b0a3fa7584fcad91fe66f74162765f220832c2",
+  "balance_before": 129168,
+  "started_utc": "2026-10-18T03:24:41Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:24:48Z",
+  "response": {
+    "id": "3f886f3d-b8e5-4f81-8c4e-0bbab07d4c75",
+    "tool": "humanize",
+    "text": "Where is my body? What are my feet doing? What is my butt doing? How am I sitting in the chair? How am I breathing? What is my body doing in this room?\n\nAnd if you can hear me, little one, know that I am here and that I am here to protect you. Thank you, protector, for alerting me. You do not need to scream. I got the message.\n\nNow if there is something my body needs to do, show me what the first step is for my body to do right now. And if there is nothing my body can do right now, help my body stand down.\n\nI won’t abandon you, but I won’t worship you either.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 67
+    },
+    "elapsed": 7
+  },
+  "balance_after": 129101
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ac/HG26-fxw1.txt",
+  "input_words": 109,
+  "input_sha256": "3e22a4586a3cef539cc3a5e1b31a9d4e5fec644d911378338b7d1732fc918a34",
+  "balance_before": 90538,
+  "started_utc": "2026-10-18T07:22:22Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:22:30Z",
+  "response": {
+    "id": "b4e13e55-8767-475e-b376-2a4b3c4c9ce4",
+    "tool": "humanize",
+    "text": "If You Need More Support Than This Guide Provides\n\nPlease keep in mind that this is a guide to self-hypnosis; it is about a relationship you have with yourself. In some cases it is appropriate to seek support for the situation you are facing, but this guide is not it.\n\nYou should get help now if you are in imminent danger, if you are very confused, if you cannot ensure your own safety, and/or if you are experiencing physical symptoms (e.g., chest pain, fainting, etc). You should also seek professional help promptly if you are experiencing new or worsening suicidal thoughts, severe insomnia, new or worsening manic or psychotic symptoms, or if dissociative symptoms are impacting your ability to function. These are not the types of things you should expect to resolve in 4-12 weeks by following a guide.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 109
+    },
+    "elapsed": 8
+  },
+  "balance_after": 90429
+}

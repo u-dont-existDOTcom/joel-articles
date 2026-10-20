@@ -1,0 +1,80 @@
+You are checking a second reader's findings about a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. The REWRITE is the current version: some stretches
+("CHANGED") were replaced by a humanizer's paraphrase and then corrected for meaning. A second reader compared an EARLIER
+version of the rewrite with the published section and listed the FINDINGS below. Since then some corrections were made
+(ROUND-2 FIXES below; the REWRITE already includes them).
+
+For each finding, decide against the CURRENT rewrite:
+- FIXED: a round-2 fix, or the current text, now carries the point; quote the rewrite's words that carry it (a few words).
+- OK: the finding is not a real meaning problem: the point is in the rewrite in other words (quote them), or it is only
+  style (casual wording, order, spelling, "etc.", a list run into a sentence), or the finding is mistaken.
+- OPEN: a reader of the current rewrite would still come away with a different understanding than a reader of the
+  published blocks. Give the smallest fix: "replace" an exact stretch of the REWRITE (copied character for character,
+  quotes and dashes as they are) "with" new words, using the published blocks' own words fitted into the rewrite's
+  sentence, adding nothing the published blocks don't say.
+For a REPEATS finding ("R: ..."), OPEN means the rewrite makes one point twice where the published section makes it once;
+the fix takes out the second one (replace it with the sentence without it).
+
+Judge only meaning. Be fair both ways: don't wave away a lost caution or a changed script line, and don't call a casual
+paraphrase a problem when the point is there.
+
+Return only JSON, one object per finding, in a JSON array, in the order of the findings:
+[{"finding": "B3: LOST ...", "verdict": "OK", "why": "the rewrite says 'only when it helps'"},
+ {"finding": "B5: SHIFT ...", "verdict": "OPEN", "why": "...", "replace": "exact rewrite text", "with": "new text"}]
+
+FINDINGS (from the earlier version):
+B1: SHIFT scripts made optional ("You can say")
+B1: SHIFT mantra "I am not leaving... I am listening" became future "I'm just going to listen"
+B1: SHIFT invocation addressed to the entities became "with the help of my..." (addressee unclear)
+B1: LOST "lightly" (intention held in background)
+B1: LOST "on its own" (salience arises by itself)
+B1: UNCLEAR "know that your need to do something or be grateful..." garbled
+R: just notice thoughts without fighting or following, in B1 and B1
+
+ROUND-2 FIXES already made:
+B1 UNCLEAR the invocation addresses them: "Invoking: “With the help of my Higher Self, my universal heart-mind connection, my wise subconscious mind, the intelligence in my body, my inner child, my inner adults, my protective parts and" -> "Invoking: “Higher Self, universal heart-mind, wise subconscious mind, the intelligence in my body, my inner child, my inner adults, my protective parts, and"
+B1 LOST lightly: "while you hold the intention of this exercise in the background of your mind" -> "while you hold the intention of this exercise lightly in the background of your mind"
+B1 LOST on its own: "Notice what becomes salient to you." -> "Notice what stands out on its own."
+B1 UNCLEAR garbled: "or know that your need to do something" -> "or know that you need to do something"
+
+PUBLISHED section:
+[B0] The actual inner meeting
+
+[B1] Sit rather than lie down when you tend to daydream, dissociate, or fall asleep. Let the spine rise without becoming military, soften the jaw, and keep some awareness of the room. Save lying down for sleep, deep rest, or dream incubation.
+
+[B2] “I am not leaving life. I am listening more deeply to life.”
+
+[B3] Begin by invoking the larger field:
+
+[B4] “Higher Self, universal heart-mind, wise subconscious, body intelligence, inner child, inner adults, protective parts, and all that serves truth and love: please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing, and real.”
+
+[B5] You’re asking the conscious mind to listen without forcing an answer.
+
+[B6] Thoughts do not have to stop before deeper listening begins. Let thoughts, sensations, images, doubts, and emotions pass through awareness without fighting or following them; keep the intention lightly in the background and notice what becomes salient on its own.
+
+[B7] “Please tell me what I need to know, or ask what you need to know. I will wait silently for five minutes.”
+
+[B8] The response may be a phrase, sensation, memory, color, child, protector, pain, warmth, silence, task, gratitude, an urge to stop, or the realization that today’s practice is over.
+
+[B9] Listen to all of it. Believe none of it automatically.
+
+REWRITE (current):
+[B0, as published] The actual inner meeting
+
+[CHANGED, replaces B1-B9]
+If you tend to daydream, dissociate or fall asleep, sit up rather than lying down for this exercise. Save lying down for when you’re ready to go to sleep or receive deep rest or are trying to incubate dreams. Keep your spine straight, but not rigid, like a soldier. Relax your jaw and maintain some connection with the room you are in.
+
+You can say to yourself, “I’m not going to leave life, I’m just going to listen more deeply to life.”
+
+Invoking: “Higher Self, universal heart-mind, wise subconscious mind, the intelligence in my body, my inner child, my inner adults, my protective parts, and all that serves truth and love: please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing and real.”
+
+You’re asking your conscious mind to listen without forcing an answer.
+
+This doesn’t mean you have to silence your thoughts to listen. Notice your thoughts, sensations, images, doubts, emotions, etc., without fighting them, without going with them, but simply noticing them while you hold the intention of this exercise lightly in the background of your mind. Notice what stands out on its own.
+
+You can say, “Tell me what I need to know or ask me what you need to know, and I will sit in silence for five minutes and listen.”
+
+You might hear a phrase, feel a sensation, notice a memory, see a color, be contacted by a child or protector, feel pain, warmth, silence or know that you need to do something or be grateful for something or feel an urge to stop, or realize that this is enough listening for today.
+
+Listen to it all and believe none of it automatically.

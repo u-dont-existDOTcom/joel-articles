@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ag/HG17-sw6.txt",
+  "input_words": 57,
+  "input_sha256": "61b45e8e61ab8174b34317e2b2af6c9ecc340ba0fe2aa2d5bdd201be18bbfd47",
+  "balance_before": 88176,
+  "started_utc": "2026-10-18T07:52:54Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:52:58Z",
+  "response": {
+    "id": "d936d94f-23d5-4150-b747-413c5ec961fc",
+    "tool": "humanize",
+    "text": "Take a moment and count slowly from 5 to 1.\n\n5 As you do this, perhaps you can notice the thing you decided on to be your anchor for today. 4. Notice it 3. and after you have said a few words about it, leave some space 2. Just listen into that space, don’t prepare anything 1. Just stay here for a moment.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 57
+    },
+    "elapsed": 4
+  },
+  "balance_after": 88119
+}

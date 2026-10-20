@@ -1,0 +1,127 @@
+{
+ "HG13-emuB": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG13-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG13-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG13-r1-s3.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   1,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "baseline": "429g HG13",
+  "words": 642,
+  "_blocks_ok": true
+ },
+ "HG32-emuB": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG32-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG32-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG32-r1-s3.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   1,
+   17,
+   18,
+   19,
+   20,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30
+  ],
+  "baseline": "429g HG32",
+  "words": 508,
+  "_blocks_ok": true
+ },
+ "HG33-emuB": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s7.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG33-r1-s8.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   1,
+   2,
+   4,
+   8,
+   9,
+   11,
+   12,
+   17,
+   18,
+   19,
+   20,
+   22,
+   23,
+   24,
+   26,
+   27,
+   28,
+   29
+  ],
+  "baseline": "429g HG33",
+  "words": 795,
+  "_blocks_ok": true
+ },
+ "HG40-emuB": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s1.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s2.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s3.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s4.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s5.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s6.out.txt",
+   "articles/inner-signal/humanize/fix-20261018/emu-b/HG40-r1-s7.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "blocks_changed": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   10,
+   12,
+   14
+  ],
+  "baseline": "429g HG40",
+  "words": 804,
+  "_blocks_ok": true
+ },
+ "HG01+TOC-probe": {
+  "kind": "emulate",
+  "emulate": [
+   "articles/inner-signal/humanize/fix-20261018/emu-a/HG01-r1.out.txt"
+  ],
+  "published": "articles/inner-signal/humanize/source/published-20260928.md",
+  "lint": "FAIL",
+  "probe": "his table-of-contents note with the section before it, not as the first 40 words of a text",
+  "words": 197,
+  "_blocks_ok": true
+ }
+}

@@ -1,0 +1,77 @@
+[
+ {
+  "key": "HG18",
+  "sent": [
+   0,
+   1
+  ],
+  "flagged": [
+   1
+  ],
+  "headings": [
+   0
+  ],
+  "words": 94,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+  "run": "HG18-sw1"
+ },
+ {
+  "key": "HG18",
+  "sent": [
+   2
+  ],
+  "flagged": [
+   2
+  ],
+  "headings": [],
+  "words": 99,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+  "run": "HG18-sw2"
+ },
+ {
+  "key": "HG18",
+  "sent": [
+   3
+  ],
+  "flagged": [
+   3
+  ],
+  "headings": [],
+  "words": 57,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+  "run": "HG18-sw3"
+ },
+ {
+  "key": "HG18",
+  "sent": [
+   4
+  ],
+  "flagged": [
+   4
+  ],
+  "headings": [],
+  "words": 95,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+  "run": "HG18-sw4"
+ },
+ {
+  "key": "HG18",
+  "sent": [
+   5,
+   6
+  ],
+  "flagged": [
+   5,
+   6
+  ],
+  "headings": [],
+  "words": 147,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rev-b/HG18.fixed.json",
+  "run": "HG18-sw5"
+ }
+]

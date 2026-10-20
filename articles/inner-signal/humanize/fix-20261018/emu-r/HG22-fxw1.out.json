@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-r/HG22-fxw1.txt",
+  "input_words": 102,
+  "input_sha256": "701ae7a8e3b8c77ab4f61d96517d07e6f832874e7a39394c59cf4c733323c6ae",
+  "balance_before": 108339,
+  "started_utc": "2026-10-18T05:14:47Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:14:55Z",
+  "response": {
+    "id": "bb6264b6-1b38-4fd0-b89b-75042fad2051",
+    "tool": "humanize",
+    "text": "The weekly deeper practice\n\nIt’s good to do this once or twice a week, though more is fine. It doesn’t have to be very intense but it is good to start from Higher Self or at least a neutral witnessing place. It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing.\n\nIf possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult’s actions have been heard. Otherwise, the dishes won’t get done.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 102
+    },
+    "elapsed": 7
+  },
+  "balance_after": 108237
+}

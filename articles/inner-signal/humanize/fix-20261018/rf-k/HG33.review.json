@@ -1,0 +1,60 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'the interrogation above' has no referent; the caution not to cross-examine the Protector lost its target",
+    "replace": "the interrogation above",
+    "with": "interrogating that part",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "the third step 'inquiry' became the vaguer 'some inner work'",
+    "replace": "some inner work",
+    "with": "some inquiry",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'breathe through the nose' covers the exhale too; the rewrite puts only the inhale through the nose",
+    "replace": "exhale quietly,",
+    "with": "exhale quietly through it,",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'pause only if comfortable' became 'pause if you can', which drops the comfort limit",
+    "replace": "pause if you can",
+    "with": "pause only if comfortable",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 26,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "UNCLEAR",
+    "what": "'let me know I'm here' is garbled and loses the 'I am here' assurance to the little one",
+    "replace": "let me know I’m here",
+    "with": "I’m here",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

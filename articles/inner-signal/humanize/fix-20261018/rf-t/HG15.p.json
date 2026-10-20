@@ -1,0 +1,37 @@
+{
+ "key": "HG15",
+ "units": [
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Why? Well, one reason is that as a child you didn't explore, enough, what you liked and what you were interested in trying out and thus what you were like. And the reason you didn't explore those things was that you needed to focus your attention on other things, to avoid experiencing pain."
+   ],
+   "refix": true,
+   "run": "HG15-pw3",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ah/HG15-pw3.out.txt",
+   "replaces_paras": [
+    9,
+    9
+   ]
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "Step 2 - For a time, separate yourself from the usual source for answers: Sometimes you'll need to separate yourself for a time from a certain group or people from whom you normally would go to for answers. Don't do this for too long though, otherwise you defeat the purpose of this step."
+   ],
+   "refix": true,
+   "run": "HG15-pw4",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-ah/HG15-pw4.out.txt",
+   "replaces_paras": [
+    10,
+    10
+   ]
+  }
+ ]
+}

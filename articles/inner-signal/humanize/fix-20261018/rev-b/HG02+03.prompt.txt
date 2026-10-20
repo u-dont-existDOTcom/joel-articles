@@ -1,0 +1,90 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
+condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
+that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B0] The table of contents is hiding on the left
+
+[B1] Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend.
+
+[B2] Introduction
+
+[B3] Hello Lovey Bunny!
+
+[B4] You were born with a mind that can dream, protect, analyze, imitate, love, remember, hide, reveal, and heal. Nobody taught its different layers how to speak to each other.
+
+[B5] Instead, most of us learned to push through, suppress emotion, perform confidence, obey or rebel against authority, and call that adulthood. Meanwhile, the deeper mind kept running its own programs: the child wanting safety, the guard expecting danger, the body remembering what the intellect had explained away, the intuition speaking before language, and the fantasy trying to become guidance.
+
+[B6] A lot of hypnosis teaching treats the subconscious like a machine waiting for commands. That never did much for me. I get more from sitting down and listening until the scared kid, the guard, the body, the intuition, and the part trying to run Tuesday can all be heard without one of them seizing the microphone.
+
+[B7] In this guide, self-hypnosis gathers attention until the conscious mind, subconscious, body, inner child, protectors, adult self, and Higher Self can participate in one honest inner meeting.
+
+[B8] The method is simple: listen, warm, protect, clarify, reality-test, and act.
+
+[B9] A dramatic trance is optional. The goal is a more trustworthy relationship with the whole mind, proven in ordinary life.
+
+[B10] Communion is the closest word I have for that. The conscious mind stops shouting from the roof, and the subconscious no longer has to communicate only through symptoms, dreams, cravings, daydreams, and peculiar little body signals.
+
+[B11] I treat the subconscious as a living ecology of parts, memories, impulses, images, protections, and wisdom. I bring in inner-child reparenting because a wounded young part won’t be repaired by a clever suggestion. I begin with Higher Self or the universal heart when the system needs coherence, and separate into parts only when that helps. I borrow from prompt engineering because the shape of a question changes the kind of answer we can hear. And I include influence literacy because hypnosis is hardly the only thing hypnotizing us.
+
+REWRITE:
+[B0, as published] The table of contents is hiding on the left
+
+[B1, as published] Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend.
+
+[B2, as published] Introduction
+
+[B3, as published] Hello Lovey Bunny!
+
+[CHANGED, replaces B4]
+You are born with a full mind, a dreaming mind, protector, analyst, imitator, lover, remember, hider, revealor, healer etc…
+
+[CHANGED, replaces B5]
+You have never been taught how to live with all of those “layers” of yourself, and you were socialized with how to push, supress your emotions, pretend to be confident, have a good relationship with authority (or not), and so on and so forth. A lot of deep programs that all levels of your mind are running to help you navigate in the world, from your inner child to your inner guard, from your body to your intuition, from your fantasy to your “how to go throught my day manager”.
+
+[CHANGED, replaces B6]
+While many hypnosis teaching is about how to order your “subordinate” subconscious mind, I find much more interesting and rewarding to learn how to communicate well with all of them.
+
+[CHANGED, replaces B7]
+What we will do in that self hypnosis is prepare the ground and get the attention of all of them: your conscious mind, your subconscious mind, your body, your inner child, your inner protectors, your “adult”, your Higher Self, to have a meeting in your mind.
+
+[CHANGED, replaces B8]
+The method is pretty simple: we will learn to listen, warm them up, make them feel safe, ask for what we want clearly, test if it works in reality and act accordingly.
+
+[CHANGED, replaces B9]
+You don’t even need to go in some dramatic trance state, the only way to know if your new relationship with your whole mind is better is to test it in your life!
+
+[CHANGED, replaces B10]
+Let’s stop your conscious mind to talk like a crazy on the rooftop of your head and your subconscious mind to talk to you with “mysterious” signs like symptoms, dreams, crave, daydream, and other weird signals your body is throwing at you. Let’s make them talk like two adult human being! That’s communion!
+
+[CHANGED, replaces B11]
+I will make a lot of reference to your subconscious mind as if it was a rich ecology of “things” inside you, talk about Inner Child Reparenting, start from your Higher Self or the universal Love/Heart to get coherence in your mind, but also separate parts of you when needed, use prompt engineering and teach you how to be literate about influence as lots of things are hypnotizing you.

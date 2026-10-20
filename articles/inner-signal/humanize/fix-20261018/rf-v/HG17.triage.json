@@ -1,0 +1,159 @@
+{
+ "key": "HG17",
+ "fixes": [
+  {
+   "block": 19,
+   "problems": [
+    {
+     "type": "INVENTED",
+     "what": "B19: INVENTED second object \"on a surface in front of you\" noticed at the same time (the made-up surface goes; the first thing is noticed, then something else)",
+     "replace": "While you’re noticing something on a surface in front of you",
+     "with": "Once you’ve noticed something in front of you",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B19: INVENTED second object \"on a surface in front of you\" noticed at the same time (no \"at the same time\": one thing is noticed after the other)",
+     "replace": "something else at the same time.",
+     "with": "something else.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 22,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B22: LOST staying with it long enough to become curious",
+     "replace": "catches your interest.",
+     "with": "catches your interest and stay with it until you’re curious.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 23,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B23: LOST \"remain nearby, listening, without finishing their sentence for them\"",
+     "replace": "trying to speak to you.",
+     "with": "trying to speak to you, listening and not finishing their sentences.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 27,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B27: LOST \"let attention gather around what you find\" (at 4), which is also the repeat R: noticing the anchor, in B27 and B27 (4 only says 5 again)",
+     "replace": "Notice it",
+     "with": "Let your attention settle on what you find",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B27: SHIFT \"the words\" (chosen phrase) becomes \"a few words about it\" (the anchor)",
+     "replace": "a few words about it",
+     "with": "the phrase you chose",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 28,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B28: LOST \"without rehearsing its whole story\"",
+     "replace": "your wish to contact.",
+     "with": "your wish to contact. Don’t go over the whole story.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 30,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B30: SHIFT parentheses mark it as an unspoken direction (opening bracket)",
+     "replace": "(Allow",
+     "with": "Allow",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B30: SHIFT parentheses mark it as an unspoken direction (closing bracket)",
+     "replace": "yet be clear.)",
+     "with": "yet be clear.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 31,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B31: SHIFT parentheses mark it as an unspoken direction (opening bracket)",
+     "replace": "(Allow",
+     "with": "Allow",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B31: SHIFT parentheses mark it as an unspoken direction (closing bracket)",
+     "replace": "without words.)",
+     "with": "without words.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B17: SHIFT \"learn it\" and \"if you can\" replace \"learn its movement\" and \"if that comes easily\"",
+   "why": "wording; same three options (record it, say it aloud, or learn it and use silent words)"
+  },
+  {
+   "finding": "B17: LOST \"two-hand practice\" reduced to \"two hands\"",
+   "why": "pointer shortened; the anchor option is kept and still names the two hands"
+  },
+  {
+   "finding": "B17: INVENTED \"practise\" rehearsal framing; pause length \"a few moments\"",
+   "why": "'practise' is just the verb for doing it; 'a few moments' is a plain reading of 'pause between paragraphs'"
+  },
+  {
+   "finding": "B18: SHIFT \"notice the difference\" becomes asserted \"a big difference\"; \"noticing what you see\" added",
+   "why": "same looking-for versus seeing contrast, stated; 'noticing what you see' fits resting the eyes"
+  },
+  {
+   "finding": "B20: SHIFT \"you can give this a little time\" becomes a question whether there is time",
+   "why": "the same invitation to take time, put as a question; the pause is kept"
+  },
+  {
+   "finding": "B22: SHIFT \"may find one detail\" becomes active \"look for something\"",
+   "why": "wording; the step is kept and 'catches your interest' keeps it receptive"
+  },
+  {
+   "finding": "B25: SHIFT room sound widened to \"what is happening in the room\"; listening given an object",
+   "why": "wording; the room stays available in the background and listening to what is happening for you fits"
+  }
+ ],
+ "resample": []
+}

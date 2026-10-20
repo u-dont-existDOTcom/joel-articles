@@ -1,0 +1,17 @@
+{
+ "about": "The humanization lanes whose Pangram predictions tools/humanization/pangram_ledger.py scores (2026-10-20). Each lane: its ledger (one append-only file, written by the tool from the first prediction on) and its records from before the ledger, read as they are. A new lane adds itself here with its ledger path; an older format needs a legacy reader in the tool.",
+ "lanes": [
+  {"lane": "community article", "article": "intentional-communities",
+   "ledger": "articles/intentional-communities/candidate/pangram-ledger.jsonl",
+   "legacy": [{"kind": "rows", "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls-rows.json",
+               "lane": "community article"}]},
+  {"lane": "hypnosis guide", "article": "inner-signal",
+   "ledger": "articles/inner-signal/humanize/pangram-ledger.jsonl",
+   "legacy": [{"kind": "rows", "path": "articles/intentional-communities/candidate/prediction-review/prediction-calls-rows.json",
+               "lane": "hypnosis guide"}]},
+  {"lane": "inner child guide", "article": "inner-child-therapy",
+   "ledger": "articles/inner-child-therapy/tools/pangram-ledger.jsonl", "page": false,
+   "why_no_page": "articles/inner-child-therapy/PARALLEL-WRITE-LOCK.json is active, so only that lane's writer adds files there; its numbers are on the universal page, read from its table",
+   "legacy": [{"kind": "table", "path": "articles/inner-child-therapy/tools/PREDICTIONS.md"}]}
+ ]
+}

@@ -1,0 +1,24 @@
+{"key": "HG06",
+ "fixes": [
+  {"block": 3, "problems": [
+   {"type": "SHIFT", "what": "claim that a mind can be influenced unchosen became a question",
+    "replace": "Can people have their minds influenced without conscious agreement of their adult self?",
+    "with": "People can have their minds influenced without conscious agreement of their adult self.",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 4, "problems": [
+   {"type": "SHIFT", "what": "attribution made firmer: \"associated with the tradition\" became \"taught by the method\"",
+    "replace": "taught by",
+    "with": "associated with",
+    "round": 1, "from": "second reader of the refix (rf), triaged"}]}
+ ],
+ "let_stand": [
+  {"finding": "B3: LOST that the four are separate, different things", "why": "the list of four still reads as four notions; the next sentence separates conscious agreement from influence"},
+  {"finding": "B4: LOST \"says it plainly\" (line restates the previous point)", "why": "tone only, claims nothing"},
+  {"finding": "B6: LOST the nine named influences (advertising, fear, craving, screens, ...)", "why": "B6 is resampled"},
+  {"finding": "B6: INVENTED forces \"use these techniques\" on you, same as self-hypnosis", "why": "B6 is resampled"},
+  {"finding": "B6: INVENTED \"turn the tables\" rhetorical framing", "why": "B6 is resampled"},
+  {"finding": "B6: UNCLEAR \"these techniques\" has no referent", "why": "B6 is resampled"},
+  {"finding": "B6: LOST \"practice from inside\" the already-trained mind", "why": "B6 is resampled"},
+  {"finding": "R: you can use these techniques yourself, in B6 and B6", "why": "B6 is resampled"}
+ ],
+ "resample": []}

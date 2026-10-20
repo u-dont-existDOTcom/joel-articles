@@ -1,0 +1,83 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, first list for yourself every point of its published blocks: each claim, instruction,
+condition, caution, limit, example, name, number, title, source and quoted script line. Then check the stretch against
+that list. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B0] Capacity before content
+
+[B1] Altered-state rule: do not ask for hidden truth while medically unsafe, panicking, sleep-deprived, nauseated, destabilized, manic, psychosis-like, or chemically overwhelmed. First stabilize. Truth that requires destabilization is not ready to be known directly. Ask for capacity, not content.
+
+[B2] Sometimes it feels as though the subconscious knows something the conscious mind can’t yet tolerate. The subject may be sexuality, grief, trauma, family truth, betrayal, shame, vocation, relationship reality, illness fears, spiritual calling, addiction, identity, or moral conflict.
+
+[B3] Interrogation is the dangerous response:
+
+[B4] “Tell me now.” “Reveal everything.” “Stop hiding.” “I demand the truth.”
+
+[B5] That pressure can produce flooding, panic, false certainty, confabulation, dissociation, or a generally worse Tuesday. Flooding can make the adult capacities needed for pausing, comparing options, reality-testing, planning, and choosing much harder to reach. In that state, regulation and support come before deeper dialogue. Silence may be protection when the adult lacks enough regulation, support, humility, or practical capacity to receive the material.
+
+[B6] Ask for the next tolerable piece:
+
+[B7] “Do I need to know the content now, or do I need to build capacity first?”
+
+[B8] “What would make the conscious mind 5% more able to receive this?”
+
+[B9] “Can you show me the truth as a symbol, not a full revelation?”
+
+[B10] “Can you give me the next protective action without revealing the whole story?”
+
+[B11] “Who, if anyone, should help me hold this?”
+
+[B12] A safer script:
+
+[B13] “Wise subconscious, if there is something I cannot yet handle, please do not break it open violently. Help me become someone who can know it safely. Give me preparation before revelation. Give me grounding before memory. Give me support before intensity. Give me one next action.”
+
+[B14] Hypnotic imagery can be meaningful without being literal. The mind symbolizes, compresses, distorts, dramatizes, and borrows from culture and fear. Around trauma and memory especially, treat an image as an image and involve outside support when needed.
+
+REWRITE:
+[B0, as published] Capacity before content
+
+[CHANGED, replaces B1-B14]
+NOTE: If it is medically unsafe for you to do this, or you are panicking, sleep deprived, nauseated, deeply destabilized, manic, in a psychosis-like state, or overwhelmed by chemicals, please stabilize first before seeking out what your subconscious needs you to know. It is not ready for you to know it if it requires you to destabilize to know it!
+
+There are times when your subconscious seems to know something that it is difficult for your conscious mind to know. It may be about your sexuality, a grief, trauma, your family, betrayal, shame, vocation, a relationship, fears about illness, spirituality, an addiction, your identity, or a moral issue.
+
+What you don’t want to do is bully your subconscious with statements like,
+
+“Why don’t you just tell me?” “What are you hiding?” “Tell me right now!” or “I demand that you reveal the truth!”
+
+This can lead to flooding, panic, false certainty, confabulation, dissociation, and just generally making your day suck more. When you’re flooded, it can be hard to access your adult capacities to pause, choose, reality test, plan and make choices for yourself. Until your adult has enough of these capacities, especially regulation and support, it is not good for your subconscious to communicate with you. Silence is safer. But when your adult does have enough regulation, support, humility, and other capacities, you can talk with your subconscious.
+
+“What do you need for my conscious mind to be able to know what you’re saying 5% better?” “Can you tell me through a symbol?” “Can you tell me what you need me to do to be safe without telling me what it is?” “Do you need me to get support to be able to know what it is? Who?”
+
+You may even want to say, “Dear wise subconscious mind, if there is something you know that my conscious mind can’t handle, please don’t just break it open in a way that isn’t good for me. Please prepare me to hear it in a way that is safe. Ground me. Get me support. Tell me what to do.”
+
+REMEMBER: Hypnotic imagery is not always literal, especially around trauma and memory.

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-b/HG40-r1-s3.txt",
+  "input_words": 61,
+  "input_sha256": "ee79595f52489b26683824949167aafa2ef22ba6e3c741d6c020d7ad9f1bf85d",
+  "balance_before": 139504,
+  "started_utc": "2026-10-18T03:03:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:03:50Z",
+  "response": {
+    "id": "3fe3574b-1e97-43e5-b75d-fc6e9f02fe71",
+    "tool": "humanize",
+    "text": "The section on pacing and utilization is based on pages 53 - 57 of Phillips and Frederick's book, and metaphor and associational cues is based on pages 96 - 100. The information on hypnotic language patterns and triggers is sourced from Nimja's tutorial on hypnotic language patterns , and his tutorial on triggers . Please note that while the information in this guide is based on that in these sources, it is not identical to it, and has been adapted for a slightly different purpose. This is not something that Nimja has written himself, and should not be considered to be his endorsement of this guide. It is important that the words used here be kept identical, and that the order in which they are presented ( the re-entry sequence ) be followed exactly.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 61
+    },
+    "elapsed": 7
+  },
+  "balance_after": 139443
+}

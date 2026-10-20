@@ -1,0 +1,16 @@
+[
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B2: LOST \"concerning\" qualifier; any physical symptom now means get help now",
+    "replace": "if you are experiencing physical symptoms",
+    "with": "if you are experiencing concerning physical symptoms",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

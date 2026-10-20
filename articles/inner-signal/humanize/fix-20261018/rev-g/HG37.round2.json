@@ -1,0 +1,62 @@
+[
+ {
+  "block": 6,
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "the room, body and safety check said, then the triage said again",
+    "replace": "The same thing you do first for anything else— you check in with the room, your body, and safety in general, without rewarding it with instant certainty about what it is.",
+    "with": "Don’t reward it with instant certainty about what it is.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "a sense of trying to protect something",
+    "replace": "or you sense you need to protect yourself in some manner",
+    "with": "or a sense of trying to protect something",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "stays hostile or becomes more frightening (not any fear)",
+    "replace": "If it continues to be hostile or you feel afraid,",
+    "with": "If it stays hostile or gets more frightening,",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 15,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "some traditions use them (not 'I have seen')",
+    "replace": "I have seen different prayers, mantras, protections, banishing and exorcism forms that some people find useful.",
+    "with": "Some traditions use prayers, mantras, protections, banishing and exorcism forms, and some people find them useful.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 17,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "obey this (not 'the voice in my head or in another')",
+    "replace": "I see that there is no need to obey the voice in my head or in another.",
+    "with": "I see that there is no need to obey what I am experiencing.",
+    "round": 2,
+    "from": "verify-d (second reader)"
+   }
+  ]
+ }
+]

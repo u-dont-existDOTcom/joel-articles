@@ -1,0 +1,42 @@
+[
+  {"block": 61, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'a chair where the adult waits'", "replace": "sitting in a chair", "with": "a chair where the adult waits"},
+    {"type": "SHIFT", "what": "'One scene is plenty' hardened into a prohibition", "replace": "Don't do more than one of these.", "with": "One of these is plenty."}
+  ]},
+  {"block": 62, "verdict": "OK"},
+  {"block": 64, "verdict": "OK"},
+  {"block": 65, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'If it is useful... may let' became 'when it knows... can make'", "replace": "When my wise subconscious knows that I am at the meeting space inside myself that it wants to talk to me at, it can make one of my fingers", "with": "If it is useful, my wise subconscious may let one of my fingers"},
+    {"type": "SHIFT", "what": "'when the inner meeting space is ready' became 'if it wants to'", "replace": ", if it wants to", "with": " when the inner meeting space is ready"}
+  ]},
+  {"block": 66, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'wait with love and notice' became waiting for it to happen, which presumes it will", "replace": "wait with love for it to happen", "with": "wait with love and notice"}
+  ]},
+  {"block": 67, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'none proves truth; at most, something may be listening' became 'does mean that something is listening to you'", "replace": "it doesn't necessarily mean that it's real, but it does mean that something is listening to you", "with": "none of it proves truth; at most, something may be listening"}
+  ]},
+  {"block": 69, "verdict": "FIX", "problems": [
+    {"type": "WRONG", "what": "'full return below' became 'all the way back down induction'; 'on this website' not in published text", "replace": "some of the inductions on this website and also the bringing yourself all the way back down induction", "with": "a useful induction and also the full return below"},
+    {"type": "LOST", "what": "'That's his experience, not a recommendation to enter trance at the wheel'", "replace": "so don't use", "with": "but that's his experience, not a recommendation to enter trance at the wheel. So don't use"}
+  ]},
+  {"block": 70, "verdict": "OK"},
+  {"block": 71, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'I can return to this familiar way of listening' became the firmer 'you will find yourself in that state'", "replace": "then you will find yourself in that familiar and welcome state", "with": "then you can return to this familiar way of listening"}
+  ]},
+  {"block": 72, "verdict": "FIX", "problems": [
+    {"type": "UNCLEAR", "what": "the instruction 'Return fully' is run into the next sentence like a heading", "replace": "Return Fully When", "with": "Return fully. When"},
+    {"type": "LOST", "what": "'Give it time'", "replace": "use your short cut.", "with": "use your short cut. Give it time."}
+  ]},
+  {"block": 73, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'changing direction and returning workable' became 'change your mind about it and get back'", "replace": "change your mind about it and get back when you want to", "with": "change direction and return when you want to"},
+    {"type": "LOST", "what": "'obedience to a narrator, notification, or overheard word'; the rewrite's 'hear it overheard' is garbled", "replace": "It shouldn't mean you'll do anything you're told, anytime someone tells you, or even if you hear it overheard.", "with": "It shouldn't become obedience to a narrator, notification, or overheard word."},
+    {"type": "SHIFT", "what": "'faster entry doesn't determine what material you can handle' became 'shouldn't limit what you can work with'", "replace": "Being able to go in faster should not limit what you can work with.", "with": "Going in faster doesn't determine what material you can handle."}
+  ]},
+  {"block": 74, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'Never train, test, or use' softened to 'not a good idea to do it'", "replace": "It's not a good idea to do it while driving", "with": "Never train, test, or use hypnotic re-entry while driving"}
+  ]},
+  {"block": 75, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'state your decision while awake'; a cancellation sentence does not prove the association vanished instantly", "replace": "say you're done using it.", "with": "say you're done using it while awake - a cancellation sentence doesn't prove the association vanished instantly."},
+    {"type": "UNCLEAR", "what": "'keep you out of line today' is unclear; published says today's altered state ends with the return", "replace": ", it shouldn't keep you out of line today", "with": "; today’s altered state ends with the return"}
+  ]}
+]

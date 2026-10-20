@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG37-r1-s5.txt",
+  "input_words": 114,
+  "input_sha256": "d732251fc21147628f688d4b73cee5c6123990794bf3d542bb406b6c0fc0110d",
+  "balance_before": 126783,
+  "started_utc": "2026-10-18T03:34:29Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:34:35Z",
+  "response": {
+    "id": "255fa09e-9609-474d-b479-6e4313fde9f3",
+    "tool": "humanize",
+    "text": "Often when I sense a presence I feel it to be not so good, a little hostile, cold, alien, parasitic, violating. To project soft sentimental mush to it is like inviting it in for tea. Instead use something like this:\n\nSit up, bring your feet down, lift up with your spine, bring your shoulders back gently, feel the skin boundary of your torso, feel the perimeter of your body, and say:\n\nEven if I sense there is suffering here, which is to be wished well, I am returning all of that to its own space. The skin boundary is where my adult life exists. You may not come into this house.\n\n“Compassion is present. The door is closed.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 114
+    },
+    "elapsed": 6
+  },
+  "balance_after": 126669
+}

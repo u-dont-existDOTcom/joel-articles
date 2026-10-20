@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-h/HG38_39-r2.txt",
+  "input_words": 72,
+  "input_sha256": "71daa262ebdc681aa851d59dbc39b6584211fb8368d74a6610c5dc91b58cc262",
+  "balance_before": 123418,
+  "started_utc": "2026-10-18T04:00:40Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T04:00:48Z",
+  "response": {
+    "id": "1e2542e3-7bb6-46b4-9f4d-fbcfab37762c",
+    "tool": "humanize",
+    "text": "Sensory journey\n\nListen to the sounds of the room you are currently in and feel your body. Now imagine yourself walking somewhere, where do you want to go? As you walk, listen to the sounds of your footsteps and take in your surroundings. What texture are the objects you pass? What landmarks do you see? Now that you've collected enough attention, imagine the scenery changing until you are in a place where you can directly speak to whoever/whatever it is you want to speak to. Or you can just cut straight to the chase if you want. Observe what you want to observe, just don't make it into a \"what are they going to do to you?\" kind of thing. When you're ready to finish, imagine walking back the way you came and close the space.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 72
+    },
+    "elapsed": 7
+  },
+  "balance_after": 123346
+}

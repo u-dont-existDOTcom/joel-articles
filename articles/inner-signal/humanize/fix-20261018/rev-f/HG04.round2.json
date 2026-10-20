@@ -1,0 +1,41 @@
+[
+ {
+  "block": 3,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "objection (not 'rebellion')",
+    "replace": "rebellion",
+    "with": "objection",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 6,
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "when you plan, remember, reflect or feel upset",
+    "replace": "depending on what you're doing or thinking about?",
+    "with": "when you plan, remember, reflect, or feel upset?",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 7,
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "not knowing said twice ('you may not know' and 'Not sure is an answer')",
+    "replace": ", and you may not know.",
+    "with": ".",
+    "round": 2,
+    "from": "verify-c (second reader)"
+   }
+  ]
+ }
+]

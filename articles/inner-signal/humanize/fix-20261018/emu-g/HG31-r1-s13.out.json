@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG31-r1-s13.txt",
+  "input_words": 56,
+  "input_sha256": "2ceebb9255a2485b4cd08e4b7d159c0bba234f5d20d11c77265fb67e888327c6",
+  "balance_before": 127470,
+  "started_utc": "2026-10-18T03:33:35Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:33:41Z",
+  "response": {
+    "id": "34192bad-ed3a-4a30-92cf-3a1fa983c75c",
+    "tool": "humanize",
+    "text": "To ‘Milton Model’ is to open things up. To ‘Meta Model’ is to ask “What do yo mean by that?” In order to be truly effective (and ethical) with people, it is necessary to do both.\n\n“What do yo mean ‘Specifically’? According to who? ‘Good’ compared to what? ‘Always’? ‘Never’? What specifically would happen? How do yo know? What would constitute proof for ya?”\n\nIf, in session, it feels like the body is stiffening up, ‘Milton’ it. If it feels like truth is eluding ya, ‘Meta’ it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 6
+  },
+  "balance_after": 127414
+}

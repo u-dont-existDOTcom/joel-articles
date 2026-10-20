@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aq/HG17-mw3.txt",
+  "input_words": 112,
+  "input_sha256": "6a39def723abc007014822121018abe02658be5a07072720d2d4a3dbd833b9d1",
+  "balance_before": 84995,
+  "started_utc": "2026-10-18T09:39:22Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:39:28Z",
+  "response": {
+    "id": "a2898aff-d5f5-4db5-8a48-a3105bcabbbe",
+    "tool": "humanize",
+    "text": "5 Perhaps, once again you may want to notice what you have chosen to use as your anchor 4 3 2 1\n\nBring to mind something you would like to bring to mind or just your wish to contact it\n\nPerhaps you can begin to notice what you are noticing\n\nPerhaps you can allow yourself some time to notice what you are noticing whether it is sensations, words, images, feelings, movements or something else entirely\n\nPerhaps you can allow yourself some time to notice this with or without words",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 112
+    },
+    "elapsed": 5
+  },
+  "balance_after": 84883
+}

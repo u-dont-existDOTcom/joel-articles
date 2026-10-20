@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ar/HG17-mw2.txt",
+  "input_words": 143,
+  "input_sha256": "34de0a71d5082756e3756b3d0b94a85ab9eceb9fd82fc48d868d1dfb722ab382",
+  "balance_before": 83759,
+  "started_utc": "2026-10-18T09:40:30Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T09:40:36Z",
+  "response": {
+    "id": "326ec7b7-ae96-488e-9792-bffd77a95e6a",
+    "tool": "humanize",
+    "text": "You might find something that holds your interest, perhaps something in the sound, contact, or your listening.\n\nYou might give this time to yourself as you might to someone dear to you who is talking to you. Perhaps the words are not yet fully formed yet, but you are there, listening.\n\nLet yourself be invited to think of your chosen phrase and notice how you receive this.\n\nYou might close, soften or open your eyes as you proceed. Perhaps you might let your listening deepen, allowing the sound of what is going on around you to remain in the background.\n\nCounting slowly from 5 to 1.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 143
+    },
+    "elapsed": 6
+  },
+  "balance_after": 83616
+}

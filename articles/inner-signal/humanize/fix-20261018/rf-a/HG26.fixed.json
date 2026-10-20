@@ -1,0 +1,169 @@
+{
+ "key": "HG26",
+ "from": "fix-20261018/rev-b/HG26.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "When this needs more support than a guide can provide"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "paras": [
+    "Remember, this is self-hypnosis, a relationship with yourself. If the situation calls for support, this guide isn't the right thing.",
+    "If you need help now: Get help now if you feel in imminent danger, very confused, or unable to keep yourself safe. Get help now if you have concerning physical symptoms (chest pain, fainting, etc.) You should seek professional help promptly if you have new or worsening suicidal thoughts, severe insomnia, new or worsening symptoms of mania or psychosis, or if dissociative symptoms are affecting your functioning. These are not problems that this guide will resolve in 4-12 weeks.",
+    "You probably don't need any more support than this: If you keep the practice shorter, make it warm, pick a small and tractable subject, make sure you come back out, and then see how it affects a specific target (anxiety, daydreaming, helping a relationship, facing a task you've been avoiding, helping you sleep, being less reactive emotionally, improving your intuitive accuracy, etc) for a week or two, and if you notice that your functioning is getting worse, or that you're getting more certain about unconfirmable memories, then reassess instead of pushing harder.",
+    "You should seek suitable ongoing help if: You are experiencing recurring panic attacks, compulsions, substance destabilization, major relationship instability, etc."
+   ],
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"Get urgent help now\" softened to \"may need help now if you feel\" (B2 part)",
+     "replace": "You may need help now if you feel",
+     "with": "Get help now if you feel",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"unable to keep yourself safe\" became \"unable to take care of yourself\" (B2 part)",
+     "replace": "take care of yourself",
+     "with": "keep yourself safe",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"concerning physical symptoms\" became any \"physical symptoms\" (B2 part) / B1: SHIFT \"Get urgent help now\" softened to \"may need help now\" (B2 part, second sentence)",
+     "replace": "You may need help now if you have physical",
+     "with": "Get help now if you have concerning physical",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B1: LOST \"reassessment, not more intensity\" when function worsens or certainty about unverifiable memories grows (B3 part) / B1: INVENTED \"you probably don't need more support\" and \"you're probably doing fine\" reassurance (B3 part); part 1: the worsening signs become the trigger",
+     "replace": "and don't notice",
+     "with": "and if you notice",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "INVENTED",
+     "what": "B1: INVENTED \"you probably don't need more support\" and \"you're probably doing fine\" reassurance (B3 part) / B1: LOST \"reassessment, not more intensity\" (B3 part); part 2: reassurance replaced by the reassess instruction",
+     "replace": "then you're probably doing fine.",
+     "with": "then reassess instead of pushing harder.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B1: SHIFT \"seek suitable ongoing help\" became \"probably need more support\"; \"ongoing\" lost (B4 part)",
+     "replace": "probably need more support",
+     "with": "should seek suitable ongoing help",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Methods to explore with a trained person present"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "paras": [
+    "If you want to deliberately do trauma-focused regression (going backwards in your memory or imagination to times when you were younger), or affect and somatic bridging (following associations from an emotional or somatic experience to find the origin of that experience, particularly if it was a traumatic experience you don't know about), or if you find that you're having substantial flashbacks or dissociative reactions, then you should do this with a trauma-informed clinician present. Make sure they're trained in the specific method you want to do. Ask any potential person what they would do and how they deal with uncertainty and unexpected reactions. Note that even if you work with a person, hypnosis is not a way of knowing what did or did not happen to you. (Both regression and affect/somatic bridging can also be used to find resources and do other things, of course.)",
+    "Note that having experienced trauma, crying, and even wanting to feel difficult feelings, are not necessarily signs that you need more support than working on your own. You get to pick how wide and narrow a range you want to work in, but be aware that different people need different ranges. Pay attention to how you respond and what support you have. Feeling like you are handling it isn't a substitute for having support.",
+    "Note that many guidelines for treating major trauma recommend one or more of trauma-focused variants of cognitive behavioral therapy (sometimes called cognitive processing therapy, prolonged exposure, etc), or eye movement desensitization and reprocessing. Depending on the guideline and your situation, it may recommend one or the other or both. These can be supported by self-hypnosis and inner child work. If you're working with high-risk trauma, you need a bigger container.",
+    "Always keep in mind that your functioning in ordinary life is the feedback. If you find yourself more loving, more honest, more functional, more relational, more grounded, more precise, etc. than when you started this process, keep on keeping on gently. If you notice that your ordinary life is becoming less stable, don't try to go deeper. Go for more sleep, more eating, more grounding, more healthy boundaries with other people, more getting support from other people, etc."
+   ],
+   "run": "HG26-fxw1",
+   "file": "fix-20261018/emu-r/HG26-fxw1.out.txt",
+   "refix": true,
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"clinician trained in the method\" became \"trained person\"; method training only \"best\" (part 1: clinician)",
+     "replace": "trained person present",
+     "with": "clinician present",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT \"clinician trained in the method\" became \"trained person\"; method training only \"best\" (part 2: training in the method is required)",
+     "replace": "It's best if",
+     "with": "Make sure",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B6: LOST \"unexpected reactions\" in what to ask about",
+     "replace": "deal with uncertainty",
+     "with": "deal with uncertainty and unexpected reactions",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "WRONG",
+     "what": "B6: WRONG CPT, PE, EMDR presented as other names for CBT variants (B8 part)",
+     "replace": "exposure, eye movement desensitization and reprocessing, etc)",
+     "with": "exposure, etc), or eye movement desensitization and reprocessing",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B6: SHIFT self-hypnosis \"may support\" the treatments became treatments \"can include\" self-hypnosis and inner child work (B8 part)",
+     "replace": "These can include",
+     "with": "These can be supported by",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B6: LOST \"gently\" (continue gently became keep on keeping on) (B9 part)",
+     "replace": "keep on keeping on",
+     "with": "keep on keeping on gently",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

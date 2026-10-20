@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG38_39-r1-s4.txt",
+  "input_words": 63,
+  "input_sha256": "9b9e5809442ef49cb5d123b84af574c34cb33bda9bcd828ea9b6530488c36943",
+  "balance_before": 135638,
+  "started_utc": "2026-10-18T03:07:23Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:28Z",
+  "response": {
+    "id": "ce1544ef-9a93-4b41-83eb-f3502ff8540f",
+    "tool": "humanize",
+    "text": "Do you feel more comfortable letting the support do 1% more of the work, effectively floating, or allowing yourself to feel your normal weight, and pressure onto the support? You can alternate, being aware normally on the inhale, and on the exhale focusing on the support. (If you do this, be sure to let them know that this is what you’re doing, this is called fractionation.) See what you can hear, then allow yourself your chosen weight and firm contact again as you return.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 63
+    },
+    "elapsed": 5
+  },
+  "balance_after": 135408
+}

@@ -1,0 +1,108 @@
+{
+ "key": "HG36",
+ "fixes": [
+  {
+   "block": 1,
+   "problems": [
+    {
+     "type": "UNCLEAR",
+     "what": "'these' has no referent, 'substances' never named",
+     "replace": "use these",
+     "with": "use substances",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "'meet the difficulty rather than escalating the intensity' lost; sentence ends at 'then'",
+     "replace": "take it in, then",
+     "with": "take it in, then meet the difficulty rather than escalating the intensity.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 10,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "B10: SHIFT \"plain confusion\" became \"reasons ... shouldn't make sense\"; also B10: INVENTED open-ended \"any number of other reasons\"",
+     "replace": "or any number of other reasons for why what you are experiencing shouldn’t make sense",
+     "with": "or just plain confusion",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 11,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B11: LOST \"before trying to interpret the state\" and \"simpler question\"; march-t: the statement lost the stretch's one break (its question), so the fix stays a question",
+     "replace": "What should you ask yourself first?",
+     "with": "Before you try to interpret it, what simpler question should you ask yourself first?",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B1: LOST \"deepen listening, strengthen love\" as purposes of the state",
+   "why": "list shortened; positive purposes, daily-life use is kept"
+  },
+  {
+   "finding": "B1: LOST past opening as a resource, not a state you must reproduce",
+   "why": "framing sentence; the experience/state/daily-life distinction carries the point"
+  },
+  {
+   "finding": "B1: LOST \"love\", \"only in a particular state\", \"reliably\" in the three-way distinction",
+   "why": "all three parts of the distinction kept; only modifiers dropped"
+  },
+  {
+   "finding": "B1: LOST \"let the experience widen what seems possible while you build usable access\"",
+   "why": "framing sentence; daily-life aim kept in the key sentence and the last phrase"
+  },
+  {
+   "finding": "B1: LOST \"during or after an altered state\"; \"more useful than demanding a revelation\"",
+   "why": "section context makes the when clear; no forcing a revelation is already said"
+  },
+  {
+   "finding": "B1: SHIFT \"intensify fear\" became \"make yourself afraid to do things\"",
+   "why": "same ban on frightening yourself in narrower words; the escalation limit comes back with the fix above"
+  },
+  {
+   "finding": "B1: SHIFT \"override medical needs\" became \"things your body needs\"",
+   "why": "broader wording still covers medical needs"
+  },
+  {
+   "finding": "B1: SHIFT \"less loving/less able to...\" became absolute \"not to...\" (also \"not talk to people\")",
+   "why": "casual not-to-X reads as any decline; stop rule kept and stronger"
+  },
+  {
+   "finding": "B1: LOST \"ordinary responsibilities\" (now \"regular life things\")",
+   "why": "wording; regular life used throughout"
+  },
+  {
+   "finding": "B9: SHIFT \"can become very powerful during\" became \"is powerful, especially when\"",
+   "why": "emphasis; the caution about altered states is kept"
+  },
+  {
+   "finding": "B9: SHIFT \"sometimes\" became \"often\"",
+   "why": "frequency wording inside a caution; same caution"
+  },
+  {
+   "finding": "B10: SHIFT \"intensity\"/\"intense state\" became \"altered state\"",
+   "why": "\"in an altered state ... it MEANS something\" says intensity is mistaken for meaning"
+  },
+  {
+   "finding": "B10: LOST \"finally\" (inner child at last speaking)",
+   "why": "wording"
+  }
+ ],
+ "resample": [],
+ "note": "rf-b/HG36.triage.json (B1-B9) and B10-B12 put back from emu-s, triaged by me 2026-10-18"
+}

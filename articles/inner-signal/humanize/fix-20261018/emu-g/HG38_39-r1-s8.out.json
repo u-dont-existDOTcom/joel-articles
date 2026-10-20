@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG38_39-r1-s8.txt",
+  "input_words": 62,
+  "input_sha256": "ed60899154f5eba2c2add87da30d109d6cbd5c54ede98dbb7f9da0a84649c8dd",
+  "balance_before": 126279,
+  "started_utc": "2026-10-18T03:35:22Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:35:27Z",
+  "response": {
+    "id": "0f6293e3-a4c3-440c-b7c6-886d742da6bb",
+    "tool": "humanize",
+    "text": "Begin with the smallest area possible that is neutral. Sense the current condition and sense it radiating outward to the next area, which should still feel comfortable. Continue this, pausing and sensing in each new area, or continue with the original area, only. Sense what the body needs to feel better, without thinking of medical terms. Allow the image to fade, sense the whole body, the contact points, and repeat the process.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 62
+    },
+    "elapsed": 4
+  },
+  "balance_after": 126217
+}

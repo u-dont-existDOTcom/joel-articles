@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s8.txt",
+  "input_words": 69,
+  "input_sha256": "24e04a7862fcb4cbf9be0a29825ed629c9fe5a173fadc92cdcc709e9b6d114c1",
+  "balance_before": 132569,
+  "started_utc": "2026-10-18T03:10:33Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:10:38Z",
+  "response": {
+    "id": "8db1a64e-a11a-4e3a-97ff-0c30c2765d9e",
+    "tool": "humanize",
+    "text": "Now take your concern to mind very lightly, or simply hold the wish to make contact.\n\nWhat do you notice now?\n\nWait for the response to take whatever form it will. It may be subtle and at first just a sensation, or perhaps you receive words, images, feelings, movement, or none of these at this time.\n\nNow, taking whatever form it will, words or otherwise, notice:",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 69
+    },
+    "elapsed": 4
+  },
+  "balance_after": 132500
+}

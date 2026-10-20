@@ -1,0 +1,2612 @@
+[
+ {
+  "part": 1,
+  "section": "How to use this very large guide",
+  "kind": "RED",
+  "quote": "Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance.",
+  "pattern": 4,
+  "why": "signposting",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "How to use this very large guide",
+  "kind": "RED",
+  "quote": "You can also look at the daily and weekly sections to make the practice your own.",
+  "pattern": 4,
+  "why": "signposting",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "The table of contents is hiding on the left",
+  "kind": "RED",
+  "quote": "On a guide this long, that little hidden menu is your friend.",
+  "pattern": 1,
+  "why": "closing quip",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Quick start: do this first",
+  "kind": "RED",
+  "quote": "To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply do these steps, in order: 1) Attention; 2) Notice; 3) Offer one fitting response; 4) Wait; 5) Come all the way back .",
+  "pattern": 4,
+  "why": "inline numbered list",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Quick start: do this first",
+  "kind": "RED",
+  "quote": "Not much needs to happen in each session!",
+  "pattern": 3,
+  "why": "reassurance",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Do you usually think in words?",
+  "kind": "RED",
+  "quote": "This isn't a diagnosis, just a way of finding what's useful.",
+  "pattern": 6,
+  "why": "not-X-just-Y",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Do you usually think in words?",
+  "kind": "RED",
+  "quote": "\"Not sure\" is an answer.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Do you usually think in words?",
+  "kind": "RED",
+  "quote": "It also doesn't mean you'll get pictures in your head instead.",
+  "pattern": 4,
+  "why": "parallel negations",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "What I mean by hypnosis",
+  "kind": "RED",
+  "quote": "APA Division 30 commonly defines hypnosis as focused attention, reduced peripheral awareness, and increased responsiveness to suggestion.",
+  "pattern": 4,
+  "why": "parallel triple",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "What I mean by hypnosis",
+  "kind": "LIGHT",
+  "quote": "Those states can also be used for deep therapy.",
+  "pattern": 3,
+  "why": "tidy follow-up",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Protecting Yourself from Hypnotists",
+  "kind": "RED",
+  "quote": "The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+  "pattern": 4,
+  "why": "parallel verbs",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Protecting Yourself from Hypnotists",
+  "kind": "RED",
+  "quote": "This opens up a whole new area of choice for you as an adult in the world.",
+  "pattern": 3,
+  "why": "tidy payoff",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "The Most Extreme Example",
+  "kind": "RED",
+  "quote": "Under no circumstances allow a strong state, charismatic individual, sexual charge, spiritual claim, or other authority to replace the adult part of yourself.",
+  "pattern": 4,
+  "why": "parallel list",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "The Most Extreme Example",
+  "kind": "RED",
+  "quote": "All legitimate forms of influence can stand up to questions, sleep, boundaries and time.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Affirmations Done Right",
+  "kind": "RED",
+  "quote": "That’s more like a *mission statement* than a historical analysis.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 1,
+  "section": "Affirmations Done Right",
+  "kind": "LIGHT",
+  "quote": "But it’s doing multiple jobs.",
+  "pattern": 4,
+  "why": "signpost",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Hypnosis Evidence",
+  "kind": "RED",
+  "quote": "Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality.",
+  "pattern": 4,
+  "why": "parallel list, abstract-style",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "RED",
+  "quote": "It’s not an electoral process.",
+  "pattern": 1,
+  "why": "quip, not-X frame",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "LIGHT",
+  "quote": "Nobody needs to win!",
+  "pattern": 3,
+  "why": "tidy follow-up",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "RED",
+  "quote": "It can be peaceful but also precise.",
+  "pattern": 2,
+  "why": "balanced closer",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "RED",
+  "quote": "Without the mind of love the mind of analysis can be sterile.",
+  "pattern": 2,
+  "why": "chiasmus run",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "RED",
+  "quote": "Without the mind of analysis the mind of love can lead to fantasy.",
+  "pattern": 2,
+  "why": "same run",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "RED",
+  "quote": "Without testing intuitive signals they can become delusions.",
+  "pattern": 2,
+  "why": "same run",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "RED",
+  "quote": "Without intuitive signals the testing can be dead.",
+  "pattern": 2,
+  "why": "same run",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Forget the left-brain/right-brain cartoon",
+  "kind": "RED",
+  "quote": "So these ‘modes’ can correct each other.",
+  "pattern": 3,
+  "why": "sum-up",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Why doing it myself worked better for me",
+  "kind": "LIGHT",
+  "quote": "The bigger issue was trust and precision.",
+  "pattern": 3,
+  "why": "tidy verdict",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Why doing it myself worked better for me",
+  "kind": "RED",
+  "quote": "But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.",
+  "pattern": 2,
+  "why": "aphoristic colon reveal",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Why doing it myself worked better for me",
+  "kind": "RED",
+  "quote": "My experiences included a much deeper understanding of my motivations, peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.",
+  "pattern": 4,
+  "why": "abstract benefit list",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Why doing it myself worked better for me",
+  "kind": "LIGHT",
+  "quote": "Phenomenologically, this is very important.",
+  "pattern": 6,
+  "why": "significance-staging",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "A useful map of the mind",
+  "kind": "LIGHT",
+  "quote": "There isn’t a ‘right’ or ‘wrong’ way to approach it.",
+  "pattern": 3,
+  "why": "reassurance",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "A useful map of the mind",
+  "kind": "RED",
+  "quote": "They’re all maps.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "A useful map of the mind",
+  "kind": "RED",
+  "quote": "Don’t form a priesthood around either one!",
+  "pattern": 1,
+  "why": "wry quip closer",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "A useful map of the mind",
+  "kind": "RED",
+  "quote": "Working with parts: Precision. Working with Higher Self: Coherence. Doing both: Communion.",
+  "pattern": 2,
+  "why": "slogan triplet",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Sometimes start with the whole",
+  "kind": "RED",
+  "quote": "I’ll get twelve of them in a room and give them all an office to hang around in!’",
+  "pattern": 1,
+  "why": "joke scenario",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Sometimes start with the whole",
+  "kind": "LIGHT",
+  "quote": "So it’s better to start from the Sacred.",
+  "pattern": 3,
+  "why": "tidy sum-up",
+  "found": true
+ },
+ {
+  "part": 2,
+  "section": "Sometimes start with the whole",
+  "kind": "RED",
+  "quote": "Always start from the heart, differentiate when you need to, then come back to the heart again.",
+  "pattern": 3,
+  "why": "closing recap",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The inner child, the guards, and the three inner adults",
+  "kind": "LIGHT",
+  "quote": "What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.",
+  "pattern": 2,
+  "why": "not-X-but-Y closer",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The inner child, the guards, and the three inner adults",
+  "kind": "LIGHT",
+  "quote": "It’s you that needs to develop these qualities.",
+  "pattern": 3,
+  "why": "restates",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The inner child, the guards, and the three inner adults",
+  "kind": "LIGHT",
+  "quote": "Those belong in your relationship with it too, not just the wounds.",
+  "pattern": 2,
+  "why": "balanced closer",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "When the adult role is not available yet",
+  "kind": "RED",
+  "quote": "Telling them to just access their adult is like telling them to just be able to fly.",
+  "pattern": 1,
+  "why": "joke simile",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "When the adult role is not available yet",
+  "kind": "LIGHT",
+  "quote": "It is important to note here that I’m not suggesting that all of the steps in this process have been formally tested and proven.",
+  "pattern": 6,
+  "why": "stock frame",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "When the adult role is not available yet",
+  "kind": "LIGHT",
+  "quote": "You should do at least part of what you think you should do or say.",
+  "pattern": 3,
+  "why": "restates",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "When the adult role is not available yet",
+  "kind": "LIGHT",
+  "quote": "This is a borrowed figure, so you’re still making the choice.",
+  "pattern": 3,
+  "why": "reassuring summary",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "When the adult role is not available yet",
+  "kind": "LIGHT",
+  "quote": "Borrow that one response.",
+  "pattern": 3,
+  "why": "tidy answer",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "When the adult role is not available yet",
+  "kind": "RED",
+  "quote": "You may still feel young when you do it, it’s okay, feeling like an adult can come after you act like one.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "Let the child speak without handing over the steering wheel",
+  "kind": "LIGHT",
+  "quote": "I am not going to replace my adult judgement with any child state, guide, recording or person.",
+  "pattern": 3,
+  "why": "tidy closer",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "Love doesn’t have to wait for trust",
+  "kind": "LIGHT",
+  "quote": "Just not hitting back is not enough.",
+  "pattern": 2,
+  "why": "tidy verdict",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "Love doesn’t have to wait for trust",
+  "kind": "LIGHT",
+  "quote": "You need to love your \"inner child.\"",
+  "pattern": 3,
+  "why": "restates",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The two-hand practice",
+  "kind": "LIGHT",
+  "quote": "This is a conversation with your child from your heart.",
+  "pattern": 3,
+  "why": "summing-up",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The two-hand practice",
+  "kind": "LIGHT",
+  "quote": "Remember, Love is on top, your child is on the bottom and you are there with them.",
+  "pattern": 2,
+  "why": "tidy closer",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The Nurturer",
+  "kind": "LIGHT",
+  "quote": "Children need to be enjoyed!",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The Nurturer",
+  "kind": "RED",
+  "quote": "You're not too much.",
+  "pattern": 3,
+  "why": "stock reassurance",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The Nurturer",
+  "kind": "RED",
+  "quote": "You can be small here.",
+  "pattern": 4,
+  "why": "parallel reassurance",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The Nurturer",
+  "kind": "LIGHT",
+  "quote": "You can be angry here.",
+  "pattern": 4,
+  "why": "triplet, also next line",
+  "found": true
+ },
+ {
+  "part": 3,
+  "section": "The Protector",
+  "kind": "RED",
+  "quote": "You build trust by being able to do adult things.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "The Leader, Guide, or Guru",
+  "kind": "RED",
+  "quote": "We’re not just here to feel good.",
+  "pattern": 6,
+  "why": "not-X-but-Y frame",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "The Leader, Guide, or Guru",
+  "kind": "LIGHT",
+  "quote": "We’re here to become whole.",
+  "pattern": 3,
+  "why": "tidy parallel follow-up",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "The Leader, Guide, or Guru",
+  "kind": "RED",
+  "quote": "We’re here to belong to life, not only to people who approve of us.",
+  "pattern": 2,
+  "why": "balanced contrast closer",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Working with protectors",
+  "kind": "LIGHT",
+  "quote": "If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.",
+  "pattern": 1,
+  "why": "wry echo punchline",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Working with protectors",
+  "kind": "LIGHT",
+  "quote": "Those are not failures, they are you experiencing what is often a very charming protector or guard.",
+  "pattern": 6,
+  "why": "not-X-but-Y reassurance",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Working with protectors",
+  "kind": "LIGHT",
+  "quote": "One important voice to become aware of when approaching your inner child is your inherited parent.",
+  "pattern": 4,
+  "why": "signposting",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Protection that knows when to stop scanning",
+  "kind": "LIGHT",
+  "quote": "assess the situation (know what you know, what you don’t know and check out what you need to)",
+  "pattern": 4,
+  "why": "parallel list step",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Inner child reparenting",
+  "kind": "RED",
+  "quote": "They fit well together.",
+  "pattern": 3,
+  "why": "tidy restating follow-up",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Inner child reparenting",
+  "kind": "LIGHT",
+  "quote": "You might see that child in any form.",
+  "pattern": 5,
+  "why": "generic-you opener",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Inner child reparenting",
+  "kind": "RED",
+  "quote": "It can be any age.",
+  "pattern": 3,
+  "why": "anaphoric run",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Inner child reparenting",
+  "kind": "RED",
+  "quote": "It can be any vulnerable part of you.",
+  "pattern": 3,
+  "why": "anaphoric run",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Don’t rush the repair",
+  "kind": "LIGHT",
+  "quote": "Don't rush it.",
+  "pattern": 3,
+  "why": "reassuring heading echo",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Don’t rush the repair",
+  "kind": "LIGHT",
+  "quote": "Just reconnect with them if they're willing.",
+  "pattern": 3,
+  "why": "restates step F",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Don’t rush the repair",
+  "kind": "RED",
+  "quote": "Remember the goal isn't to make yourself good as new but to make yourself good as you- more supported and connected to yourself.",
+  "pattern": 2,
+  "why": "wordplay contrast aphorism",
+  "found": true
+ },
+ {
+  "part": 4,
+  "section": "Play and rest still need an adult present",
+  "kind": "LIGHT",
+  "quote": "When you're reparenting, it's okay to play with things that interest your younger states.",
+  "pattern": 3,
+  "why": "reassurance, repeated four more times below",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "RED",
+  "quote": "You can rebel, but you can’t choose",
+  "pattern": 2,
+  "why": "aphorism closing the list",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "LIGHT",
+  "quote": "This is not about a specific place in your brain, but a way of looking at it.",
+  "pattern": 6,
+  "why": "not-X-but-Y; tidy closer",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "LIGHT",
+  "quote": "Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from.",
+  "pattern": 5,
+  "why": "generic-you advice",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "LIGHT",
+  "quote": "Not for too long, however, or you’ll defeat the purpose of the exercise.",
+  "pattern": 3,
+  "why": "tidy caveat",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "RED",
+  "quote": "You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.",
+  "pattern": 6,
+  "why": "stock word \"quieter\", advice-style purpose clause",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "LIGHT",
+  "quote": "Those can all be real gifts.",
+  "pattern": 3,
+  "why": "short reassuring follow-up",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "RED",
+  "quote": "They become a bargain for belonging when failing in these areas feels like losing yourself.",
+  "pattern": 2,
+  "why": "polished balanced closer",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "RED",
+  "quote": "The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.”",
+  "pattern": 2,
+  "why": "scripted not-X-but-Y line",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "LIGHT",
+  "quote": "That is why you are reading a self hypnosis guide!",
+  "pattern": 1,
+  "why": "quip ending the paragraph",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "RED",
+  "quote": "Where do I think I am listening to my conscience, but I am actually listening to my conditioning?",
+  "pattern": 2,
+  "why": "contrast run of five questions, whole run",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "When “your voice” is everybody else’s voice",
+  "kind": "LIGHT",
+  "quote": "It is not always correct, but it is a good place to start.",
+  "pattern": 3,
+  "why": "hedged tidy closer",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "De-hypnosis: wake up inside the influence",
+  "kind": "RED",
+  "quote": "One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life.",
+  "pattern": 4,
+  "why": "coined term, abstract explanation",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "De-hypnosis: wake up inside the influence",
+  "kind": "RED",
+  "quote": "By a screen?",
+  "pattern": 4,
+  "why": "ten-question \"By ...?\" run, flag the whole run",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "De-hypnosis: wake up inside the influence",
+  "kind": "LIGHT",
+  "quote": "It’s all around you.",
+  "pattern": 3,
+  "why": "short sum-up after the run",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "De-hypnosis: wake up inside the influence",
+  "kind": "LIGHT",
+  "quote": "Don’t obey immediately, but don’t rebel automatically, just realise that you are being influenced.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 5,
+  "section": "Soft language can still take away choice",
+  "kind": "LIGHT",
+  "quote": "It simply means that they are worded in a vague, conversational, suggestive manner.",
+  "pattern": 6,
+  "why": "\"does not mean X, simply means Y\"",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Induction: gathering attention without disappearing",
+  "kind": "RED",
+  "quote": "An induction gathers scattered attention until quieter material becomes easier to hear.",
+  "pattern": 6,
+  "why": "stock \"quieter\"",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Induction: gathering attention without disappearing",
+  "kind": "RED",
+  "quote": "Depth is optional.",
+  "pattern": 3,
+  "why": "tidy close",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Induction: gathering attention without disappearing",
+  "kind": "LIGHT",
+  "quote": "You don’t have to surrender, play asleep, or obey anyone.",
+  "pattern": 3,
+  "why": "reassuring triplet",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "What an induction is actually doing",
+  "kind": "LIGHT",
+  "quote": "Counting is one way in.",
+  "pattern": 3,
+  "why": "tidy short",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "What an induction is actually doing",
+  "kind": "RED",
+  "quote": "Say so when you use them; elegance doesn’t excuse a covert induction.",
+  "pattern": 2,
+  "why": "aphoristic close",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Please don’t put six metaphors in one trance",
+  "kind": "RED",
+  "quote": "Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once.",
+  "pattern": 1,
+  "why": "joke punchline",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Please don’t put six metaphors in one trance",
+  "kind": "RED",
+  "quote": "Imagery is optional.",
+  "pattern": 3,
+  "why": "tidy close",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Before you begin",
+  "kind": "RED",
+  "quote": "No inner part has to approve your decision to stop.",
+  "pattern": 3,
+  "why": "reassuring close",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Before you begin",
+  "kind": "RED",
+  "quote": "A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Before you begin",
+  "kind": "LIGHT",
+  "quote": "“Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words.",
+  "pattern": 4,
+  "why": "parallel triplet",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Sober induction: 3–5 minutes",
+  "kind": "RED",
+  "quote": "You can give this a little time.",
+  "pattern": 3,
+  "why": "tidy reassurance",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Sober induction: 3–5 minutes",
+  "kind": "LIGHT",
+  "quote": "You can remain nearby, listening, without finishing their sentence for them.",
+  "pattern": 5,
+  "why": "generic scenario",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Sober induction: 3–5 minutes",
+  "kind": "LIGHT",
+  "quote": "There may be nothing clear yet.",
+  "pattern": 3,
+  "why": "tidy reassurance",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Already open? Contain before you deepen",
+  "kind": "RED",
+  "quote": "The inner child does not have to carry this alone.",
+  "pattern": 3,
+  "why": "reassuring",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Already open? Contain before you deepen",
+  "kind": "LIGHT",
+  "quote": "Anything too much can wait.",
+  "pattern": 3,
+  "why": "tidy run",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Stay awake when your mind likes to escape",
+  "kind": "RED",
+  "quote": "I am coming more fully here.",
+  "pattern": 6,
+  "why": "\"not X, Y\" pair",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Stay awake when your mind likes to escape",
+  "kind": "LIGHT",
+  "quote": "Is this daydream guidance, emotional digestion, or avoidance?",
+  "pattern": 6,
+  "why": "digestion metaphor",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "The two-hand induction",
+  "kind": "LIGHT",
+  "quote": "Love above. Child below. Adult present.",
+  "pattern": 2,
+  "why": "aphoristic triad",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Sleep induction",
+  "kind": "RED",
+  "quote": "Sleep induction has a different job.",
+  "pattern": 4,
+  "why": "signposting",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Sleep induction",
+  "kind": "RED",
+  "quote": "Revelation can wait; the task is rest.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Optional fractionation: practice coming back",
+  "kind": "LIGHT",
+  "quote": "Used openly, it teaches that trance has a door in both directions.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Deepening, if useful",
+  "kind": "RED",
+  "quote": "One scene is plenty.",
+  "pattern": 3,
+  "why": "tidy close",
+  "found": true
+ },
+ {
+  "part": 6,
+  "section": "Optional trance depth check",
+  "kind": "RED",
+  "quote": "None proves truth; at most, something may be listening.",
+  "pattern": 2,
+  "why": "aphoristic close",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "LIGHT",
+  "quote": "Learn a useful induction and the full return below before developing a shortcut.",
+  "pattern": 4,
+  "why": "signposting",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "That’s his experience, not a recommendation to enter trance at the wheel.",
+  "pattern": 3,
+  "why": "reassuring disclaimer",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "LIGHT",
+  "quote": "Keep alert calming and inward hypnosis on different cues.",
+  "pattern": 3,
+  "why": "tidy recap",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "I can change direction or finish.",
+  "pattern": 3,
+  "why": "reassurance",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "No fixed repetition count, instant depth, or particular sensation is required.",
+  "pattern": 3,
+  "why": "reassuring triple",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "It mustn’t become obedience to a narrator, notification, or overheard word.",
+  "pattern": 4,
+  "why": "parallel triple",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "Faster entry doesn’t determine what material you can handle.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "Open eyes and conditional wording are not safeguards.",
+  "pattern": 3,
+  "why": "tidy recap",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "State your decision while awake; a cancellation sentence does not prove the association vanished instantly.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "Persistent unwanted responses or disorientation need qualified help.",
+  "pattern": 3,
+  "why": "reassuring referral",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "A shortcut back into hypnosis",
+  "kind": "RED",
+  "quote": "Any retained cue is for a future, separately chosen session; today’s altered state ends with the return.",
+  "pattern": 2,
+  "why": "balanced closer",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "If you floated, regain chosen weight.",
+  "pattern": 4,
+  "why": "parallel run",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "If you became small, return to ordinary scale.",
+  "pattern": 4,
+  "why": "parallel run",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "If you traveled, come back by the same route.",
+  "pattern": 4,
+  "why": "parallel run",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "Keep only the qualities you deliberately chose.",
+  "pattern": 3,
+  "why": "tidy recap",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "I keep only the ordinary-life intention or future-practice cue I consciously chose; neither keeps today’s altered state running.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "I am myself, in my body, with adult judgment fully available.",
+  "pattern": 3,
+  "why": "reassuring closer",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "One — feel the body’s contact and chosen weight.",
+  "pattern": 4,
+  "why": "inline numbered run",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "LIGHT",
+  "quote": "The session has ended.",
+  "pattern": 3,
+  "why": "tidy recap",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "Check that you are actually oriented and alert; repeating the count is not proof of a complete return.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "LIGHT",
+  "quote": "Then do something normal.",
+  "pattern": 3,
+  "why": "tidy closer",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "RED",
+  "quote": "Don’t wait for the missing narrator to release you.",
+  "pattern": 1,
+  "why": "wry closer",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "Come all the way back",
+  "kind": "LIGHT",
+  "quote": "Sleep is separate.",
+  "pattern": 3,
+  "why": "tidy opener",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "The actual inner meeting",
+  "kind": "RED",
+  "quote": "I am not leaving life; I am listening more deeply to life.",
+  "pattern": 6,
+  "why": "not-X frame",
+  "found": true
+ },
+ {
+  "part": 7,
+  "section": "The actual inner meeting",
+  "kind": "RED",
+  "quote": "Listen to everything and believe nothing automatically.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Finding your own words",
+  "kind": "RED",
+  "quote": "Feelings are good to pay attention to, but it's still good to consider what they mean.",
+  "pattern": 2,
+  "why": "balanced contrast closing the paragraph",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Let the response change the invitation",
+  "kind": "RED",
+  "quote": "You don't need any other reason.",
+  "pattern": 3,
+  "why": "tidy reassurance ending a run of short imperatives",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Look at the situation too",
+  "kind": "LIGHT",
+  "quote": "If there is another person involved in the situation, it may be a good idea to look at what they are doing as well.",
+  "pattern": 4,
+  "why": "generic hedged advice",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Look at the situation too",
+  "kind": "RED",
+  "quote": "Just because someone is disagreeing with you or trying to set boundaries around you does not mean they are in their emotionally immature parts.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Look at the situation too",
+  "kind": "LIGHT",
+  "quote": "You don’t need to subject yourself to something that may be dangerous to determine if this is the case.",
+  "pattern": 3,
+  "why": "reassuring follow-up",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Look at the situation too",
+  "kind": "RED",
+  "quote": "Having feelings of guilt does not mean that you have done something wrong or that you have been manipulated.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Look at the situation too",
+  "kind": "LIGHT",
+  "quote": "Do you need to set boundaries with them?",
+  "pattern": 4,
+  "why": "parallel question run, as are its neighbours",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Look at the situation too",
+  "kind": "RED",
+  "quote": "Do you need to end the interaction prematurely?",
+  "pattern": 4,
+  "why": "last of the parallel questions",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Look at the situation too",
+  "kind": "RED",
+  "quote": "You don’t have to make them understand before you can act.",
+  "pattern": 3,
+  "why": "tidy reassuring closer",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Change the amount of contact",
+  "kind": "LIGHT",
+  "quote": "Do as much or as little as you feel you can.",
+  "pattern": 3,
+  "why": "balanced reassurance",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Change the amount of contact",
+  "kind": "RED",
+  "quote": "You set the pace, you don’t have to do a certain number.",
+  "pattern": 3,
+  "why": "tidy reassurance",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Offer the care that is actually wanted",
+  "kind": "RED",
+  "quote": "All of them are welcome to the “meeting”.",
+  "pattern": 3,
+  "why": "tidy summing-up",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Offer the care that is actually wanted",
+  "kind": "RED",
+  "quote": "You don’t have to get rid of any of them.",
+  "pattern": 3,
+  "why": "tidy reassurance",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Offer the care that is actually wanted",
+  "kind": "LIGHT",
+  "quote": "If you are already able to do a certain step, you don’t have to do it again.",
+  "pattern": 3,
+  "why": "tidy restatement",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Offer the care that is actually wanted",
+  "kind": "RED",
+  "quote": "Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.",
+  "pattern": 2,
+  "why": "balanced contrast closer",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Offer the care that is actually wanted",
+  "kind": "RED",
+  "quote": "Don’t think that you can’t ‘take’ the love.",
+  "pattern": 2,
+  "why": "punchy closing aphorism",
+  "found": true
+ },
+ {
+  "part": 8,
+  "section": "Offer the care that is actually wanted",
+  "kind": "LIGHT",
+  "quote": "Allow yourself to see where the metaphor takes you.",
+  "pattern": 6,
+  "why": "stock journey frame",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "Finish without forcing a revelation",
+  "kind": "LIGHT",
+  "quote": "You can stop whenever you want to.",
+  "pattern": 3,
+  "why": "short reassurance",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "Finish without forcing a revelation",
+  "kind": "RED",
+  "quote": "You don’t need to write down the whole cast of characters, just what you actually noticed.",
+  "pattern": 1,
+  "why": "mild quip, tidy \"not X, just Y\" reassurance ending the paragraph",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "The 15-minute daily practice",
+  "kind": "LIGHT",
+  "quote": "The process is the same.",
+  "pattern": 3,
+  "why": "restates the sentence before",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "The 15-minute daily practice",
+  "kind": "RED",
+  "quote": "You are simply practicing for fifteen minutes or so (a convenient time, not a dose or a timetable).",
+  "pattern": 2,
+  "why": "\"not X\" contrast closer",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "The 15-minute daily practice",
+  "kind": "LIGHT",
+  "quote": "On the other hand, if you like using the recordings, there is no reason to stop!",
+  "pattern": 3,
+  "why": "reassurance",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "The 15-minute daily practice",
+  "kind": "RED",
+  "quote": "Being able to guide yourself does not mean you have to!",
+  "pattern": 2,
+  "why": "aphorism; run with the line above",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "The 15-minute daily practice",
+  "kind": "RED",
+  "quote": "And most importantly, what can you carry with you as you move forward from this?",
+  "pattern": 6,
+  "why": "stock coaching frame",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "The 15-minute daily practice",
+  "kind": "RED",
+  "quote": "Then check back later and see how you are doing – sleeping, relating, functioning, etc., not only how impressive the session felt",
+  "pattern": 2,
+  "why": "closing \"not only X\" contrast, wry edge",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "The weekly deeper practice",
+  "kind": "RED",
+  "quote": "Otherwise, the dishes won’t get done.",
+  "pattern": 1,
+  "why": "wry punchline ending the paragraph",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "Capacity before content",
+  "kind": "LIGHT",
+  "quote": "If it takes you destabilizing to know what your subconscious knows, it is not meant for you to know directly at this time!",
+  "pattern": 2,
+  "why": "aphorism-style conditional",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "Capacity before content",
+  "kind": "RED",
+  "quote": "Focus on asking for capacity over content!",
+  "pattern": 2,
+  "why": "slogan restating the heading",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "Capacity before content",
+  "kind": "LIGHT",
+  "quote": "Support me BEFORE you make it intense!",
+  "pattern": 4,
+  "why": "third of a parallel BEFORE triple",
+  "found": true
+ },
+ {
+  "part": 9,
+  "section": "Capacity before content",
+  "kind": "LIGHT",
+  "quote": "So, treat it like an image and get some help outside of yourself!",
+  "pattern": 3,
+  "why": "tidy \"So,\" summing-up",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "The subconscious will not answer",
+  "kind": "LIGHT",
+  "quote": "There may not be an answer that will help you.",
+  "pattern": 3,
+  "why": "restates line before",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You dissociate or feel unreal",
+  "kind": "LIGHT",
+  "quote": "Open your eyes, move around, feel something textured, name 5 things that you can see, and end your work for the day.",
+  "pattern": 4,
+  "why": "parallel imperative list",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You become too analytical",
+  "kind": "RED",
+  "quote": "What can you do to make this a communion, not a performance?",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You become too analytical",
+  "kind": "LIGHT",
+  "quote": "Whatever it is, just do it.",
+  "pattern": 3,
+  "why": "tidy closer",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You become too blissful or diffuse",
+  "kind": "LIGHT",
+  "quote": "What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?",
+  "pattern": 2,
+  "why": "coaching aphorism",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You want the hidden truth immediately",
+  "kind": "RED",
+  "quote": "Show me the capacity before the content.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You want the hidden truth immediately",
+  "kind": "LIGHT",
+  "quote": "Don’t pry.",
+  "pattern": 2,
+  "why": "terse aphorism",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You get stuck in spiritual bypass",
+  "kind": "RED",
+  "quote": "Where has divine love not yet descended into the wound?",
+  "pattern": 6,
+  "why": "stock spiritual frame",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You get stuck in spiritual bypass",
+  "kind": "RED",
+  "quote": "Maybe you had a profound opening that showed you how much more love and freedom is possible.",
+  "pattern": 5,
+  "why": "\"profound\"; generic \"Maybe you\" run",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You get stuck in spiritual bypass",
+  "kind": "RED",
+  "quote": "Let that matter, but don’t demand that the child receive it on command.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You get stuck in spiritual bypass",
+  "kind": "RED",
+  "quote": "Sometimes people have enough love and meaning to just live their lives, and trying to be spiritual doesn’t have to be another assignment.",
+  "pattern": 2,
+  "why": "aphoristic closer",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You get stuck in endless processing",
+  "kind": "RED",
+  "quote": "You don’t have to have a meeting with every thought that pops into your head before you start your life.",
+  "pattern": 1,
+  "why": "wry quip",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You get stuck in endless processing",
+  "kind": "LIGHT",
+  "quote": "You don’t have to do any certain thing before you start your life.",
+  "pattern": 3,
+  "why": "tidy restatement",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You get stuck in endless processing",
+  "kind": "RED",
+  "quote": "Sometimes, whether you’re grieving or doing your practice, it’s okay to cover the same ground again and again.",
+  "pattern": 3,
+  "why": "reassurance",
+  "found": true
+ },
+ {
+  "part": 10,
+  "section": "You keep using hypnosis but not changing life",
+  "kind": "LIGHT",
+  "quote": "Then go do it.",
+  "pattern": 3,
+  "why": "tidy closer, repeated",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "What not to do",
+  "kind": "LIGHT",
+  "quote": "You are capable of analysis, as well as tenderness.",
+  "pattern": 2,
+  "why": "balanced pair closing a long item",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "When this needs more support than a guide can provide",
+  "kind": "LIGHT",
+  "quote": "Please keep in mind that this is a guide to self-hypnosis; it is about a relationship you have with yourself.",
+  "pattern": 4,
+  "why": "signposting restatement",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "When this needs more support than a guide can provide",
+  "kind": "RED",
+  "quote": "These are not the types of things you should expect to resolve in 4-12 weeks by following a guide.",
+  "pattern": 3,
+  "why": "tidy summing follow-up",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Methods to explore with a trained person present",
+  "kind": "LIGHT",
+  "quote": "These approaches in turn can be further supported by techniques such as self-hypnosis and inner child work.",
+  "pattern": 4,
+  "why": "generic summary",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Methods to explore with a trained person present",
+  "kind": "RED",
+  "quote": "But high-risk trauma work needs a bigger container than that.",
+  "pattern": 3,
+  "why": "tidy closing metaphor",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Methods to explore with a trained person present",
+  "kind": "RED",
+  "quote": "Feeling like you are handling it isn't a substitute for having support.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Methods to explore with a trained person present",
+  "kind": "LIGHT",
+  "quote": "Always keep in mind that your functioning in ordinary life is the feedback.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Closing",
+  "kind": "LIGHT",
+  "quote": "Whether or not you can \"get hypnotized\" very deeply is less interesting to me than whether or not you can become a trustworthy adult.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Closing",
+  "kind": "LIGHT",
+  "quote": "Most of them are actually trying to help you.",
+  "pattern": 3,
+  "why": "reassuring follow-up",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Closing",
+  "kind": "RED",
+  "quote": "Work on loving yourself in a way that your thinking doesn't object to; work on thinking in a way that your love for yourself doesn't become fantasy; work on doing this in the course of regular life so that your adult self can keep the promise.",
+  "pattern": 2,
+  "why": "balanced closing triad",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Try it in the Inner Signal app",
+  "kind": "RED",
+  "quote": "The app is not pretending to be a skilled therapist, just helping you to learn for yourself, so that you can make better-informed choices.",
+  "pattern": 6,
+  "why": "not X, just Y; reassurance",
+  "found": true
+ },
+ {
+  "part": 11,
+  "section": "Try it in the Inner Signal app",
+  "kind": "LIGHT",
+  "quote": "Please remember that what’s in the file, what it means to you, and what the app thinks it means, are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium.",
+  "pattern": 4,
+  "why": "triad plus reassuring tail",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Core prompts",
+  "kind": "LIGHT",
+  "quote": "The NLP can help you get it in a safer way, but that doesn’t make the answer automatically true.",
+  "pattern": 3,
+  "why": "closing caveat",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Appendix B",
+  "kind": "RED",
+  "quote": "NLP is useful when it helps the system listen; it becomes a bag of tricks when technique replaces love, truth, contact, or consent.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Appendix B",
+  "kind": "RED",
+  "quote": "Read this appendix when you want more precision about imagery, bodily states, rehearsal, and sentence design.",
+  "pattern": 4,
+  "why": "signposting list",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Four NLP layers",
+  "kind": "RED",
+  "quote": "Sensory NLP changes the form of an inner experience: image, sound, distance, size, brightness, volume, posture, pressure.",
+  "pattern": 4,
+  "why": "parallel definitions",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Milton Model",
+  "kind": "RED",
+  "quote": "The destination can still be deliberate even when the route is subtle.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Milton Model",
+  "kind": "RED",
+  "quote": "Pace reality. Open awareness. Validate function. Presuppose capacity. Bridge gently. Invite one small movement. Test with the body.",
+  "pattern": 3,
+  "why": "tidy fragments",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 1",
+  "kind": "RED",
+  "quote": "Anxiety is here. The body is activated. A protector is trying to help.",
+  "pattern": 3,
+  "why": "short tidy run",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 3",
+  "kind": "RED",
+  "quote": "Don’t smuggle in obedience.",
+  "pattern": 3,
+  "why": "tidy closer",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 3",
+  "kind": "LIGHT",
+  "quote": "Before any part has to change, it can first become more understood.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 4",
+  "kind": "RED",
+  "quote": "A gentle voice doesn’t make a false causal claim true.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 4",
+  "kind": "LIGHT",
+  "quote": "Use them carefully.",
+  "pattern": 3,
+  "why": "tidy follow-up",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 5",
+  "kind": "RED",
+  "quote": "Ten embedded invitations in a row feel like somebody took a weekend certification.",
+  "pattern": 1,
+  "why": "joke simile",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 5",
+  "kind": "LIGHT",
+  "quote": "Use one when it helps.",
+  "pattern": 3,
+  "why": "tidy follow-up",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 6",
+  "kind": "RED",
+  "quote": "An ethical one offers two genuinely safe routes.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 8",
+  "kind": "RED",
+  "quote": "They become oily very quickly, don’t they?",
+  "pattern": 1,
+  "why": "wry quip",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 8",
+  "kind": "LIGHT",
+  "quote": "Use them lightly.",
+  "pattern": 3,
+  "why": "tidy follow-up",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 9",
+  "kind": "LIGHT",
+  "quote": "Their vagueness can sometimes help because the subconscious supplies its own concrete meaning.",
+  "pattern": 4,
+  "why": "hedged explanation",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 10",
+  "kind": "RED",
+  "quote": "Ethical practice needs both.",
+  "pattern": 3,
+  "why": "sum-up",
+  "found": true
+ },
+ {
+  "part": 12,
+  "section": "Pattern 10",
+  "kind": "RED",
+  "quote": "Use Milton Model to soften into the body. Use Meta Model to return to truth.",
+  "pattern": 2,
+  "why": "balanced closer",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Submodalities",
+  "kind": "RED",
+  "quote": "I am adjusting the volume so I can listen without being overwhelmed.",
+  "pattern": 6,
+  "why": "not-X-but-Y pair",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Synchronicity wake-up bell",
+  "kind": "RED",
+  "quote": "Sometimes that opens insight; sometimes it starts compulsive pattern-hunting.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Synchronicity wake-up bell",
+  "kind": "RED",
+  "quote": "It has already captured attention, which is enough.",
+  "pattern": 3,
+  "why": "reassuring restate",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Synchronicity wake-up bell",
+  "kind": "RED",
+  "quote": "I ask what is fact, what is interpretation, what needs warmth, what needs protection, and what needs action.",
+  "pattern": 4,
+  "why": "parallel clauses",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Synchronicity wake-up bell",
+  "kind": "RED",
+  "quote": "I do not have to manufacture any of them.",
+  "pattern": 3,
+  "why": "reassures after noun list",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Installing the cue",
+  "kind": "RED",
+  "quote": "Imagine noticing an ordinary, harmless synchronicity.",
+  "pattern": 5,
+  "why": "generic imagine",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Installing the cue",
+  "kind": "LIGHT",
+  "quote": "The cue remains self-authored, visible, reversible, and limited to orientation.",
+  "pattern": 4,
+  "why": "list, twin of next line",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Reframing",
+  "kind": "LIGHT",
+  "quote": "Dishonest reframing declares that the problem was secretly good all along.",
+  "pattern": 1,
+  "why": "wry quip",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Perceptual positions",
+  "kind": "RED",
+  "quote": "Use them to escape the prison of one angle.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Perceptual positions",
+  "kind": "RED",
+  "quote": "Fourth: from the universal heart, what serves truth, love, boundaries, and the good of everyone involved?",
+  "pattern": 4,
+  "why": "ordinal run, list",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Future pacing",
+  "kind": "LIGHT",
+  "quote": "Ask where life will test the understanding, picture the actual cue, and rehearse the smallest better response.",
+  "pattern": 4,
+  "why": "three-verb list",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "The Swish",
+  "kind": "LIGHT",
+  "quote": "Done mechanically, it can feel like an inner eviction.",
+  "pattern": 1,
+  "why": "punchline simile",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Parts integration",
+  "kind": "RED",
+  "quote": "What third option honors both without letting either run the whole life?",
+  "pattern": 6,
+  "why": "stock third-option frame",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "What I will not use",
+  "kind": "RED",
+  "quote": "To create urgency where time is needed.",
+  "pattern": 2,
+  "why": "balanced aphorism",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "What I will not use",
+  "kind": "LIGHT",
+  "quote": "To make another person’s no feel like resistance.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Running the sequence",
+  "kind": "LIGHT",
+  "quote": "Nurturer warms, Protector makes it safe, Leader points a direction.",
+  "pattern": 4,
+  "why": "parallel triple",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Running the sequence",
+  "kind": "LIGHT",
+  "quote": "Do one ordinary thing.",
+  "pattern": 6,
+  "why": "\"ordinary\", tidy closer",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Appendix C",
+  "kind": "RED",
+  "quote": "If this is love, it will survive boundaries.",
+  "pattern": 2,
+  "why": "aphorism run",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Appendix C",
+  "kind": "RED",
+  "quote": "If this is guidance, it will survive sleep.",
+  "pattern": 2,
+  "why": "aphorism",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Appendix C",
+  "kind": "RED",
+  "quote": "A bad guide replaces it.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 13,
+  "section": "Hypnosis-specific audit",
+  "kind": "RED",
+  "quote": "Ask for the exact script, change the method, or leave.",
+  "pattern": 2,
+  "why": "closing triple",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Inner child love",
+  "kind": "RED",
+  "quote": "You don’t have to fix this.",
+  "pattern": 3,
+  "why": "stock reassurance in a run of short tidy lines",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Inner child love",
+  "kind": "RED",
+  "quote": "I’m here now.",
+  "pattern": 3,
+  "why": "same run",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Inner child love",
+  "kind": "LIGHT",
+  "quote": "The adult is listening.",
+  "pattern": 3,
+  "why": "closes the run",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Reduced breathing / Buteyko-style breathing",
+  "kind": "LIGHT",
+  "quote": "Go slow on this.",
+  "pattern": 3,
+  "why": "short tidy caution",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "EFT tapping",
+  "kind": "RED",
+  "quote": "So use the evidence with caution, and know that there are first line therapies for anxiety.",
+  "pattern": 3,
+  "why": "reassuring sum-up",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Somatic Experiencing",
+  "kind": "LIGHT",
+  "quote": "You learn to track.",
+  "pattern": 3,
+  "why": "tidy answer to a not-X contrast",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Somatic Experiencing",
+  "kind": "LIGHT",
+  "quote": "So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.",
+  "pattern": 1,
+  "why": "simile closer on a parallel list",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Gendlin Focusing",
+  "kind": "RED",
+  "quote": "Use the words and the body to mutually correct one another.",
+  "pattern": 2,
+  "why": "tidy balanced sum-up ending the section",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Anxiety script",
+  "kind": "LIGHT",
+  "quote": "I’m not going to abandon you but I’m not going to worship you, I will listen to what you have to say and reality test it and then take some action.",
+  "pattern": 2,
+  "why": "balanced contrast closing the script",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Appendix E: Is the daydream helping or replacing your life?",
+  "kind": "RED",
+  "quote": "The very act of daydreaming may be helping you to access your creativity or allowing your subconscious to show you a potential future.",
+  "pattern": 4,
+  "why": "abstract, generic explanation",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Appendix E: Is the daydream helping or replacing your life?",
+  "kind": "RED",
+  "quote": "Sometimes it will show you what you want.",
+  "pattern": 3,
+  "why": "tidy parallel follow-up",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Appendix E: Is the daydream helping or replacing your life?",
+  "kind": "LIGHT",
+  "quote": "It is simulating an idea or event to help you digest grief or teach you something.",
+  "pattern": 6,
+  "why": "generic, stock verb digest",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Appendix E: Is the daydream helping or replacing your life?",
+  "kind": "LIGHT",
+  "quote": "Other times daydreaming may be taking you away from your life in a detrimental way.",
+  "pattern": 4,
+  "why": "generic hedged explanation",
+  "found": true
+ },
+ {
+  "part": 14,
+  "section": "Appendix E: Is the daydream helping or replacing your life?",
+  "kind": "LIGHT",
+  "quote": "Simply ask yourself if the daydreaming is taking you closer to life, with more clarity, love and ability to take action or if it is taking you away from life, in a repetitive and craving way.",
+  "pattern": 2,
+  "why": "balanced contrast",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+  "kind": "LIGHT",
+  "quote": "So there are definite advantages to both having someone work with you (pacing, containment, another set of eyes), and doing things yourself.",
+  "pattern": 4,
+  "why": "both-and with tidy triple",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Finding a hypnotist who can work with you",
+  "kind": "RED",
+  "quote": "Those are all good options.",
+  "pattern": 3,
+  "why": "reassuring sum-up",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "The council — internal first, then outward",
+  "kind": "LIGHT",
+  "quote": "On the other hand, it is possible to give your power away.",
+  "pattern": 4,
+  "why": "stock pivot",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "The council — internal first, then outward",
+  "kind": "RED",
+  "quote": "Seeking counsel can quietly turn into abdicating to an authority figure.",
+  "pattern": 6,
+  "why": "\"quietly\", stock phrasing",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "The council — internal first, then outward",
+  "kind": "RED",
+  "quote": "Another person doesn’t get automatic trust, or automatic dismissal.",
+  "pattern": 2,
+  "why": "balanced contrast, run of short sentences",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "The council — internal first, then outward",
+  "kind": "LIGHT",
+  "quote": "Sometimes, with a question asked carefully and at the right time, your peers can help you hear your own Guide more clearly, but they don’t interpret what you experience.",
+  "pattern": 2,
+  "why": "closing contrast",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "RED",
+  "quote": "So how do we hold all of this?",
+  "pattern": 4,
+  "why": "signposting question",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "RED",
+  "quote": "We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+  "pattern": 2,
+  "why": "parallel tidy list, reassuring",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "LIGHT",
+  "quote": "It simply helps us come to a place where we aren’t expecting something from someone that they can’t give.",
+  "pattern": 3,
+  "why": "restates, repeats \"simply\"",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "RED",
+  "quote": "It doesn’t make their limitations matter any less.",
+  "pattern": 3,
+  "why": "tidy reassuring follow-up",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "LIGHT",
+  "quote": "You don’t have to forgive before you’re ready.",
+  "pattern": 3,
+  "why": "reassuring script line",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "RED",
+  "quote": "I won’t use spirituality to silence your pain.",
+  "pattern": 2,
+  "why": "aphoristic script line",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "RED",
+  "quote": "And I won’t build our whole life around this wound forever.",
+  "pattern": 3,
+  "why": "tidy closer",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Forgiveness without bypass",
+  "kind": "LIGHT",
+  "quote": "Take responsibility, feel the remorse, then rectify if you can, and then let it go.",
+  "pattern": 3,
+  "why": "tidy sum-up, restated next",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Appendix G: Altered states",
+  "kind": "RED",
+  "quote": "Help me to remember love.",
+  "pattern": 4,
+  "why": "run of short parallel asks",
+  "found": true
+ },
+ {
+  "part": 15,
+  "section": "Appendix G: Altered states",
+  "kind": "RED",
+  "quote": "Help me to only take what I can integrate.",
+  "pattern": 4,
+  "why": "same run",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "Start with the room, the body, and basic safety",
+  "kind": "RED",
+  "quote": "The adult part of me is still here, and my body can return to safety.",
+  "pattern": 3,
+  "why": "tidy reassuring script line",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "A response check, not a verdict about what it is",
+  "kind": "RED",
+  "quote": "You don’t have to find out if it’s a protector immediately, and you may not be able to comfort it quickly, but whether warmth or distance helps, that doesn’t prove what it is.",
+  "pattern": 2,
+  "why": "closing aphorism",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "Do not fight from fear",
+  "kind": "LIGHT",
+  "quote": "It becomes a center of attention if you fear it, and if you hate it you give it a hook in you.",
+  "pattern": 2,
+  "why": "parallel if-clauses",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "Do not fight from fear",
+  "kind": "RED",
+  "quote": "(If you’re proud you give it an opponent, and if you panic you give it your nervous system.)",
+  "pattern": 1,
+  "why": "parallel quip with punchline",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "Do not fight from fear",
+  "kind": "RED",
+  "quote": "I see that there is no reason to obey what I am experiencing.",
+  "pattern": 4,
+  "why": "same frame four times",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "Do not fight from fear",
+  "kind": "RED",
+  "quote": "I choose to return my attention to loving awareness.",
+  "pattern": 3,
+  "why": "stock reassuring closer",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "A bodily boundary: compassion present, door closed",
+  "kind": "LIGHT",
+  "quote": "It’s not really helpful to approach it with the kind of soft, sentimental love that you’d use if you were inviting it to stay for tea, but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries.",
+  "pattern": 1,
+  "why": "joke simile, balanced contrast",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "If it might be psychosis or destabilization",
+  "kind": "RED",
+  "quote": "It’s not something to deal with in hypnosis.",
+  "pattern": 3,
+  "why": "tidy short follow-up",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "The cosmic-download humility test",
+  "kind": "RED",
+  "quote": "Thank you for the imagery, but I don’t need your grand performance.",
+  "pattern": 1,
+  "why": "wry quip",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "The cosmic-download humility test",
+  "kind": "RED",
+  "quote": "Unless the “guidance” you’re trying to give me can help me be more beautiful, honest, relational, humble, and useful in my everyday life, I don’t need it.”",
+  "pattern": 3,
+  "why": "restates previous line",
+  "found": true
+ },
+ {
+  "part": 16,
+  "section": "Don’t become an entity hobbyist",
+  "kind": "LIGHT",
+  "quote": "They all lead to the same thing, which is how to maintain a presence of love without giving up your boundaries, while also making your mind harder to hook.",
+  "pattern": 3,
+  "why": "tidy closing summary",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "Appendix J: A practical induction library",
+  "kind": "LIGHT",
+  "quote": "Whatever you do, make sure you bring yourself fully back to waking at the end of an induction.",
+  "pattern": 3,
+  "why": "tidy safety closer",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "1. Stretch and release",
+  "kind": "LIGHT",
+  "quote": "Bring your body back to normal movement and return.",
+  "pattern": 3,
+  "why": "formula closer, repeated in §§2-4",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "3. Rhythmic breath or pulse",
+  "kind": "LIGHT",
+  "quote": "Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up.",
+  "pattern": 2,
+  "why": "\"not X, just Y\" contrast",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "3. Rhythmic breath or pulse",
+  "kind": "LIGHT",
+  "quote": "Does it make any words, feelings, needs or actions more clear?",
+  "pattern": 4,
+  "why": "four-item list question",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "4. Unwinding object",
+  "kind": "LIGHT",
+  "quote": "Which one do you need to work on, what does it need – warmth, protection, action?",
+  "pattern": 4,
+  "why": "stock triad",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "6. Gradual wave",
+  "kind": "RED",
+  "quote": "See if there is anything different at each step, without claiming it is a medical repair.",
+  "pattern": 3,
+  "why": "reassuring hedge clause",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "6. Gradual wave",
+  "kind": "LIGHT",
+  "quote": "Does the body want any contact, space, words, other care?",
+  "pattern": 4,
+  "why": "list question",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "6. Gradual wave",
+  "kind": "LIGHT",
+  "quote": "Let the mental image go, sense your body, sense your contact points, come back.",
+  "pattern": 3,
+  "why": "tidy closing run",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "7. Care workshop",
+  "kind": "RED",
+  "quote": "Goal is to make it \"good as you\", not to erase history.",
+  "pattern": 2,
+  "why": "balanced contrast closes the thought",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "7. Care workshop",
+  "kind": "RED",
+  "quote": "Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.",
+  "pattern": 3,
+  "why": "reassuring tricolon close",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "7. Care workshop",
+  "kind": "LIGHT",
+  "quote": "Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it.",
+  "pattern": 4,
+  "why": "parallel triple",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "8. Resource embodiment",
+  "kind": "LIGHT",
+  "quote": "Come back, keeping the quality and one positive action that you would do with it, but leaving the \"person\" behind, saying \"I am me\".",
+  "pattern": 2,
+  "why": "contrast plus affirming close",
+  "found": true
+ },
+ {
+  "part": 17,
+  "section": "8. Resource embodiment",
+  "kind": "LIGHT",
+  "quote": "Do this a few times to strengthen it.",
+  "pattern": 3,
+  "why": "tidy follow-up",
+  "found": true
+ },
+ {
+  "part": 18,
+  "section": "Appendix K: Sources and further reading",
+  "kind": "LIGHT",
+  "quote": "This is not a validated form of treatment at this time.",
+  "pattern": 3,
+  "why": "short tidy disclaimer between two long personal sentences",
+  "found": true
+ },
+ {
+  "part": 18,
+  "section": "Body awareness and changing the amount of contact",
+  "kind": "LIGHT",
+  "quote": "This is not done from a position of \"here is what you need to do to physiologically fix it\", but here are some things you can try, etc.",
+  "pattern": 2,
+  "why": "not-X-but-Y contrast closing the paragraph",
+  "found": true
+ },
+ {
+  "part": 18,
+  "section": "Inner speech and putting experience into words",
+  "kind": "LIGHT",
+  "quote": "Not everybody has an inner voice , Nedergaard and Lupyan 2024, is not about self hypnosis adaptations, but about people with different amounts of inner speech.",
+  "pattern": 6,
+  "why": "not-about-X-but-about-Y contrast",
+  "found": true
+ },
+ {
+  "part": 18,
+  "section": "Inner speech and putting experience into words",
+  "kind": "LIGHT",
+  "quote": "The questions in the quick start are not a validated way of seeing if you can do self hypnosis, but are simply there as a practical way of seeing for yourself how you are.",
+  "pattern": 6,
+  "why": "same contrast again right after; \"not a validated\" repeats the opening disclaimer; the frame also recurs in the Learning, Indirect and Body sections",
+  "found": true
+ },
+ {
+  "part": 18,
+  "section": "Memory, support, and choosing a practitioner",
+  "kind": "RED",
+  "quote": "Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims, not every use of hypnosis.",
+  "pattern": 2,
+  "why": "polished balanced-contrast closer among clumsier sentences",
+  "found": true
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B1: LOST \"one fitting\" response (now bare \"Respond\"): the step's one-and-fitting condition",
+    "replace": "3) Respond",
+    "with": "3) Offer one fitting response",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "REPEAT",
+    "what": "R: gather attention (lead-in and step 1 \"Attention\"), in B1 and B1; published says it once, lead-in cut",
+    "replace": "gather attention and do these steps",
+    "with": "do these steps",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 2,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B2: SHIFT reading induction and return first softened to \"may be helpful\" (published tells the reader to read them)",
+    "replace": "It may be helpful, prior to your first session, to read through",
+    "with": "Prior to your first session, read through",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

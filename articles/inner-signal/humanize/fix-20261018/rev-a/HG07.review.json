@@ -1,0 +1,5 @@
+[{"block": 3, "verdict": "FIX", "problems": [
+  {"type": "SHIFT", "what": "'a strong state' became 'a strong emotional state'", "replace": "a strong emotional state", "with": "a strong state"},
+  {"type": "SHIFT", "what": "'spiritual claim' became 'spiritual experience'", "replace": "spiritual experience", "with": "spiritual claim"},
+  {"type": "LOST", "what": "what legitimate influence survives: questions, sleep, boundaries and time",
+   "replace": "can stand up to scrutiny.", "with": "can stand up to questions, sleep, boundaries and time."}]}]

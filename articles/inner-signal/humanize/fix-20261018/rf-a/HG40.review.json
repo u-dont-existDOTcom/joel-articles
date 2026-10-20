@@ -1,0 +1,80 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "B1: WRONG 'Everything in this post is my own' (published: only the personal accounts and his arrangement of the practice)",
+    "replace": "Everything in this post is my own",
+    "with": "The personal accounts and the way I arrange this practice are my own",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B3: SHIFT one Eason and Parris ISH article became Eason's 'work with Parris' plus a separate article of his",
+    "replace": "Hypnosis, as well as his article",
+    "with": "Hypnosis, specifically his article",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "B5: LOST not every example suits trauma work; also R: Nimja did not write or endorse the guide, in B5 and B5 (the redundant 'he wrote or endorses' clause is swapped for the lost point, the explicit parenthetical stays)",
+    "replace": "he wrote or endorses this guide",
+    "with": "every example suits trauma work",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 9,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "R: coming out of self-hypnosis / coming back at the end, in B9 and B9",
+    "replace": "get in and out of self hypnosis",
+    "with": "get into self hypnosis",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B14: SHIFT ASCH: certification shows preparation, not guaranteed competence, became 'usefulness of getting certified'",
+    "replace": "certified in hypnosis, etc.",
+    "with": "certified in hypnosis, and why it doesn't guarantee competence.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "B14: LOST caveat that the existing links support only their particular claims, not every use of hypnosis",
+    "replace": "in the evidence and specialist sections.",
+    "with": "in the evidence and specialist sections, but they point to their particular claims, not every use of hypnosis.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

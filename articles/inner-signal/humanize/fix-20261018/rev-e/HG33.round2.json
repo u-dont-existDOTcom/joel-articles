@@ -1,0 +1,117 @@
+[
+ {
+  "block": 1,
+  "problems": [
+   {
+    "type": "REPEAT",
+    "what": "the Protector saving you from something bad, said twice",
+    "replace": "a Protector who believes they are trying to save yourself from something bad happening. Maybe they are trying to protect yourself from",
+    "with": "a Protector who believes they are trying to protect yourself from",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 4,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "start with the practice (not 'one of the things that can help')",
+    "replace": "One of the things that can help is putting",
+    "with": "Start by putting",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 8,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "can help some people who overbreathe or panic (not good in general)",
+    "replace": "especially for overbreathers and those subject to panic.",
+    "with": "for some people who overbreathe or are subject to panic.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "a pointer to his Somatic Guide page (not 'how I work as a Somatic Guide')",
+    "replace": "Would it be helpful for you to know more or even experience a free intro session on how I work as a Somatic Guide?",
+    "with": "Would it be helpful for you to know more, or even experience a free intro session? See my Somatic Guide.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 22,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "'given by someone else'",
+    "replace": ", either self or given by someone else.",
+    "with": ".",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'whatever feels good to touch'",
+    "replace": ", or whatever feels good to touch.",
+    "with": ".",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'whether immediately or later'",
+    "replace": ", whether immediately or later,",
+    "with": ",",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 24,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "he also mentions Blushield (not 'detailed')",
+    "replace": "Use of Blushield is also detailed there,",
+    "with": "I also mention Blushield there,",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   },
+   {
+    "type": "REPEAT",
+    "what": "reality-testing said twice",
+    "replace": "and begin to discern between valid and non-valid messages from the “inner realm”. Once reality tested, come back to one grounded action.",
+    "with": "reality-test the messages from the “inner realm”, and come back to one grounded action.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ },
+ {
+  "block": 28,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "real action needed (not 'something my body needs to do')",
+    "replace": "Now if there is something my body needs to do, show me what the first step is for my body to do right now.",
+    "with": "Now if there is real action needed, show me the first step to take right now.",
+    "round": 2,
+    "from": "verify-b (second reader)"
+   }
+  ]
+ }
+]

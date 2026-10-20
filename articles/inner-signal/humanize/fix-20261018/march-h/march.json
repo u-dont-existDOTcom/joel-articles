@@ -1,0 +1,63 @@
+{
+ "HG13-B1": {
+  "was": [
+   "S S B S B",
+   "S S S",
+   "S S",
+   "S",
+   "S S",
+   "S S S S S S B",
+   "S S"
+  ],
+  "new": [
+   "S S B S B",
+   "S S S",
+   "S S",
+   "S",
+   "S S",
+   "S S S S S S B",
+   "S S"
+  ]
+ },
+ "HG13-B13": {
+  "was": [
+   "S",
+   "S B B B S",
+   "S S S S B",
+   "S B B S S",
+   "S S S S",
+   "S S S S S S S S",
+   "S"
+  ],
+  "new": [
+   "S B B B S",
+   "S S S S B",
+   "S B B S S S",
+   "S S S S",
+   "S S S S S S S S",
+   "S"
+  ]
+ },
+ "HG19-B1": {
+  "was": [
+   "S S S",
+   "S",
+   "S",
+   "S",
+   "S S S S",
+   "S",
+   "B",
+   "S"
+  ],
+  "new": [
+   "S S S",
+   "S",
+   "S",
+   "S",
+   "S S S S",
+   "S",
+   "B",
+   "S"
+  ]
+ }
+}

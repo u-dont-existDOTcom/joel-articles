@@ -1,0 +1,13 @@
+{"key": "HG27",
+ "fixes": [
+  {"block": 2, "problems": [{"type": "SHIFT", "what": "author's \"less interested\" stance became a claim that depth is irrelevant", "replace": "somewhat irrelevant to", "with": "less interesting to me than", "round": 1, "from": "second reader of the refix (rf), triaged"}]},
+  {"block": 3, "problems": [{"type": "LOST", "what": "\"occasionally\" (guards can occasionally sit down)", "replace": "feel they can relax", "with": "feel they can occasionally relax", "round": 1, "from": "second reader of the refix (rf), triaged"}]}
+ ],
+ "let_stand": [
+  {"finding": "B1: LOST \"without ever being properly introduced\"; \"have been trying\" became \"are trying\"", "why": "flourish and tense only; the claim that they are trying to help is kept"},
+  {"finding": "B1: UNCLEAR \"the protector\" appears only as \"the guy who's tensed up\"; \"subconscious\" as \"the sub\"", "why": "casual naming in the stretch's voice; same braced part, same meaning"},
+  {"finding": "B3: UNCLEAR \"it\" stands for \"the kid\" (named only in the next sentence)", "why": "next sentence names the kid"},
+  {"finding": "B3: SHIFT small promises now a way to make listening easier, not a separate step; promises \"to the kid\" added", "why": "steps merged with every step kept; 'to the kid' fits the guide's model"},
+  {"finding": "B3: SHIFT \"love yourself enough that thought stops bracing against tenderness\" became \"love yourself in a way your thinking doesn't object to\"", "why": "paraphrase of the same love-and-thought balance"}
+ ],
+ "resample": []}

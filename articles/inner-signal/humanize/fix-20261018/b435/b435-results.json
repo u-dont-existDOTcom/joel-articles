@@ -1,0 +1,62 @@
+{
+ "HG31-emuF": [
+  "Mostly Human Written",
+  0.16,
+  2791,
+  "Human, High, 1027; AI-Generated, High, 166; Human, High, 1598",
+  "03:33:39",
+  "/4c3f7a5b-21df-4527-96a5-e3bc20c41b94",
+  [
+   "AI-Generated (166 words): (from 'They also get oily very fast, so use lightly.' through Pattern 9: Nominalizations)"
+  ]
+ ],
+ "HG24-emuF": [
+  "AI Detected",
+  0.43,
+  1219,
+  "Human, High, 653; AI-Generated, High, 566",
+  "03:33:27",
+  "/284945f9-d8ff-439b-b507-13a3b35a9fe8",
+  [
+   "AI-Generated (566 words): (from 'Name the five things you can see. Your practice for today is over.' to the end)"
+  ]
+ ],
+ "HG33-emuF": [
+  "Human Written",
+  0.01,
+  914,
+  "Human, High, 914",
+  "03:33:15",
+  "/a117d978-81e6-471a-b69a-ef650de6bd61",
+  []
+ ],
+ "HG32-emuF": [
+  "AI Generated",
+  1,
+  437,
+  "AI-Generated, High, 437",
+  "03:33:03",
+  "/5a25465d-60b9-4bea-a03a-011b2ecdcb1a",
+  [
+   "(every window AI: AI-Generated, High, 437)"
+  ]
+ ],
+ "HG27-emuF": [
+  "Human Written",
+  0,
+  134,
+  "Human, Medium, 134",
+  "03:32:52",
+  "/d3b20b3a-4da8-4e6f-ad46-9228719a9453",
+  []
+ ],
+ "HG02+03-emuF": [
+  "Human Written",
+  0.06,
+  435,
+  "Human, High, 435",
+  "03:32:42",
+  "/d0b61522-6920-41bf-9696-9d9e691a61a4",
+  []
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "HG02+03",
+ "fixes": [
+  {
+   "block": 4,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B4: LOST that nobody taught the mind's layers how to speak to each other; the guide's premise (the layers never learned to talk), only in this section",
+     "replace": "Yet you were taught (or you figured out)",
+     "with": "Yet no one taught those layers to talk to each other, instead you were taught (or you figured out)",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B4: SHIFT \"a lot of hypnosis teaching\" softened to \"some\"",
+     "replace": "While some of the teachings",
+     "with": "While a lot of the teachings",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B4: SHIFT sitting and listening until each part is heard became talking to the parts until they hear each other; the guide's stance is listening, not directing",
+     "replace": "is talk to the different parts of myself until they can all hear each other",
+     "with": "is sit and listen to the different parts of myself until they can all be heard",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "SHIFT",
+     "what": "B4: SHIFT \"a dramatic trance is optional\" became no trance experience needed at all; only a dramatic trance is optional",
+     "replace": "need to have a ‘trance experience’",
+     "with": "need to have a dramatic ‘trance experience’",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B4: LOST why inner-child reparenting (a wounded young part isn't repaired by a clever suggestion); the limit of suggestion is said only here",
+     "replace": "I combine this with inner child reparenting, and also",
+     "with": "I combine this with inner child reparenting (a clever suggestion won’t heal a hurt young part), and also",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B4: LOST emotion as the thing suppressed (\"suppress emotion\")",
+   "why": "the list keeps its sense (\"repress, supress\")"
+  },
+  {
+   "finding": "B4: LOST what each part does (child wants safety, guard expects danger, body remembers what the intellect explained away, intuition speaks before language)",
+   "why": "the parts are named; what each does is colour (a list shortened)"
+  },
+  {
+   "finding": "B4: LOST \"that never did much for me\" (the machine approach didn't help him)",
+   "why": "the contrast with the machine approach says it (\"for me, the most useful thing\")"
+  },
+  {
+   "finding": "B4: LOST none of them seizing the microphone, and the named parts (scared kid, guard, body, intuition, the part running Tuesday)",
+   "why": "the parts are named in the paragraph before; the microphone image is colour"
+  },
+  {
+   "finding": "B4: SHIFT goal of a more trustworthy relationship with the whole mind, proven in ordinary life, became parts trusting each other, \"ordinary life\" gone",
+   "why": "\"ordinary life\" as the test is said at length later in the guide (Higher Self, guidance and closing sections)"
+  },
+  {
+   "finding": "B4: SHIFT subconscious no longer has to communicate \"only\" through symptoms etc. became not needing them at all",
+   "why": "\"doesn't have to manifest symptoms ... in order to communicate\" says the same: they stop being its only way"
+  },
+  {
+   "finding": "B4: LOST ecology is living and made of parts, memories, impulses, images, protections, wisdom",
+   "why": "\"ecology\" is kept; the list is shortened and \"separate into parts\" follows"
+  },
+  {
+   "finding": "B4: SHIFT starting with Higher Self \"when the system needs coherence\" became \"often begin\"",
+   "why": "the condition is the guide's own later instruction (\"When you need coherence, speak to the deeper mind as a whole\")"
+  },
+  {
+   "finding": "B4: LOST why prompt engineering (the shape of a question changes the answer we can hear)",
+   "why": "the lesson is given in the prompt-engineering section later (\"the shape of a question changes what kind of answer can appear\")"
+  },
+  {
+   "finding": "B4: LOST why influence literacy (hypnosis is hardly the only thing hypnotizing us)",
+   "why": "\"what's hypnotizing them\" keeps that more than hypnosis hypnotizes us"
+  }
+ ],
+ "resample": [],
+ "note": "triaged by me (the Sonnet reader stopped at its output limit), 2026-10-18"
+}

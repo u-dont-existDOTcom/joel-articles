@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-c/HG20-r1-s4.txt",
+  "input_words": 114,
+  "input_sha256": "2600c4ca998cfb4bd87bda91e04ccfaa6f1d4bbbac82221b4e8abe600881653e",
+  "balance_before": 140942,
+  "started_utc": "2026-10-18T03:02:45Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:02:52Z",
+  "response": {
+    "id": "cb81c6ce-042a-46d0-a489-6916b4db108a",
+    "tool": "humanize",
+    "text": "There is a difference between \"my shoulders tightened\" and \"what you just said is not right\". If the first: what is happening? Is this a good fit for me? If the second: you don't have to say anything else, this is not a good fit for me, say it differently or don't try again.\n\nFirst: what is happening? Is this a good fit for me? Or should I leave it be or say it differently?\n\nWell sometimes it is the second. Or, it's something that I hadn't considered, and need to explore more, and my skepticism is not helping. But sometimes it is not helping. Sometimes there's nothing happening that I'm not aware of.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 114
+    },
+    "elapsed": 6
+  },
+  "balance_after": 140765
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG16-d-s2.txt",
+  "input_words": 135,
+  "input_sha256": "f29166d8042042671fa9925742f6ce8def868d2e3d84a43ddd4d997c8792b1d0",
+  "balance_before": 126074,
+  "started_utc": "2026-10-18T03:35:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:35:52Z",
+  "response": {
+    "id": "1cbe77ba-bd21-41c5-9e1f-6f6f51cb60d3",
+    "tool": "humanize",
+    "text": "These words in and of themselves are not coercive but, when used, can be part of coercion. Look for:\n\nSaying something indirectly so that the listener’s conscious mind doesn’t get the chance to consider and reject it. This can be very specific, or it can be vague, casual or suggestive.\n\nUsing the mechanics of induction to focus the listener’s attention while seeming to be just explaining something (even about “anti-hypnosis”).\n\nTreating any response (including “yes,” “no,” noticing, not noticing, resisting, or silence) as compliance.\n\nUsing “whether you notice it or not” to bind.\n\nUsing identity or ownership, such as suggesting that being safe or being good is a matter of obedience, or of taking on a particular role, or of being approved of by the guide, or of belonging to someone else.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 135
+    },
+    "elapsed": 8
+  },
+  "balance_after": 125939
+}

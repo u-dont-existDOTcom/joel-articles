@@ -1,0 +1,41 @@
+[
+ {
+  "block": 1,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B1: INVENTED reporting \"after each session\" of \"mind and body\"",
+    "replace": "After each session, you’ll have the chance to report what went through your mind and body, and reflect on what you reported. You can also ask",
+    "with": "You can also reflect on what you report, and ask",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 3,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B3: INVENTED choices \"about what to try next\"",
+    "replace": "so that you can make informed choices about what to try next",
+    "with": "so that you can make better-informed choices",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ },
+ {
+  "block": 5,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B5: SHIFT \"what you learned\" narrowed to \"learned from using the app\"",
+    "replace": "what you’ve learned from using the app",
+    "with": "what you’ve learned",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]

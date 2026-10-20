@@ -1,0 +1,104 @@
+{
+ "key": "HG28",
+ "from": "fix-20261018/rev-b/HG28.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Try it in the Inner Signal app"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "You will need to download Inner Signal App for voice hypnosis, information, to learn the language, and for feedback on what you report. Have fun. Feel free to ask any questions you might have about what the hypnotist is doing. Self hypnosis is a great tool, but you don't need an app to do it. You may want to find someone, but it is not required to graduate."
+   ],
+   "run": "HG28-fxw1",
+   "file": "fix-20261018/emu-r/HG28-fxw1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "the Inner Signal app",
+     "new": "Inner Signal App"
+    }
+   ]
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "If you’re using the ChatGPT version of this app, you might want to upload a picture, drawing, poem or song to talk about instead of writing out your explanation in prose. But please make sure the file you upload can be seen or heard by the chat you’re currently using! It will probably tell you that it can’t see or hear the file if you’ve made this mistake. Please remember that what’s in the file, what it means to you, and what the app thinks it means, are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Bear in mind that even with voice, the app is asking you what’s going on for you – it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report. The app is not pretending to be a skilled therapist, just helping you to learn for yourself, so that you can make better-informed choices."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Always enter this app via this page, not by bookmarking the app itself, to make sure you get the current version."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Please fill in this survey with what you’ve learned, so that you have something to analyse later, and others can learn how the guide is landing in real practice."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "links": [
+    {
+     "published": "Please fill out the survey",
+     "new": "Please fill in this survey"
+    }
+   ]
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "If the guide or the app leaves a real question unanswered, please contact me here to discuss arranging a consultation."
+   ],
+   "run": "HG28-r1",
+   "file": "fix-20261018/emu-a/HG28-r1.out.txt",
+   "links": [
+    {
+     "published": "contact me directly",
+     "new": "contact me here"
+    }
+   ]
+  }
+ ]
+}

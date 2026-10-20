@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-w/HG35-fxw1.txt",
+  "input_words": 74,
+  "input_sha256": "37ac93693acef03dbafc1ac2689f630b80d0731967590a93d181cabd8b593d75",
+  "balance_before": 95041,
+  "started_utc": "2026-10-18T06:11:11Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:11:17Z",
+  "response": {
+    "id": "2b7958df-396c-45ee-8ee0-e03f94bde800",
+    "tool": "humanize",
+    "text": "Forgiveness without bypass\n\nThere are a lot of times when we can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We simply remember that it can all be true.\n\nIt can all be true that:",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 74
+    },
+    "elapsed": 5
+  },
+  "balance_after": 94967
+}

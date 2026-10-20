@@ -1,0 +1,777 @@
+{
+ "key": "HG14",
+ "from": "fix-20261018/rev-d/HG14.fixed.json",
+ "refix_dirs": [
+  "fix-20261018/emu-r"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The inner child, the guards, and the three inner adults"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable."
+   ],
+   "run": "HG14-r1-s1",
+   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Here I’m going to talk about what you need to develop in yourself in order to be able to reparent your inner child. I’m going to talk about it in terms of three aspects: your Nurturer, your Protector and your Leader/Guru, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities."
+   ],
+   "run": "HG14-r1-s1",
+   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds."
+   ],
+   "run": "HG14-r1-s1",
+   "file": "fix-20261018/emu-e/HG14-r1-s1.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "When the adult role is not available yet"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "The problem is, that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult. Telling them to just access their adult is like telling them to just be able to fly."
+   ],
+   "run": "HG14-r1-s2",
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "For that starting point, I use a provisional bridge I developed and call borrowed adulthood. Please note, it puts together familiar practices (witnessing, modeling, supported action, and handing over responsibility bit by bit), and I’m not claiming that the entirety of the steps has been validated as one treatment."
+   ],
+   "run": "HG14-r1-s2",
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "- Access a witnessing position, if necessary: notice what’s there without demanding warmth, wisdom or certainty. If you already know how to distinguish your internal positions, skip to the next step and access the adult position you need."
+   ],
+   "run": "HG14-r1-s2",
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "- Borrow an adult function. You may “borrow” this from a safe adult in your life, a mentor, an older sibling, a future version of yourself, a spiritual figure, a value, or even a written plan. Borrow only what you need right now – warmth, a boundary or direction."
+   ],
+   "run": "HG14-r1-s2",
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "- Put on the adult hat as an apprentice. Now, in this position, figure out what you would want to say or do – and then do at least a part of that."
+   ],
+   "run": "HG14-r1-s2",
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "- Return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%)."
+   ],
+   "run": "HG14-r1-s2",
+   "file": "fix-20261018/emu-e/HG14-r1-s2.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "This is a borrowed figure, so you’re still making the choice. The longer version of this exercise can be found in my Inner Child Self-Love Reparenting Guide ."
+   ],
+   "run": "HG14-r1-s3",
+   "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt",
+   "links": [
+    {
+     "published": "Inner Child Self-Love Reparenting Guide",
+     "new": "Inner Child Self-Love Reparenting Guide"
+    }
+   ],
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine good, start with the least cruel response you can believe. Once you’ve found something good, try it, don’t keep doing the exercise."
+   ],
+   "run": "HG14-r1-s3",
+   "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "It can be helpful to use borrowing when you’re in the adult position and not knowing what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response. You may still feel young when you do it, it’s okay, feeling like an adult can come after you act like one."
+   ],
+   "run": "HG14-r1-s3",
+   "file": "fix-20261018/emu-e/HG14-r1-s3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Let the child speak without handing over the steering wheel"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "It’s possible to let the ‘younger’ parts of you express themselves without surrendering your adult judgement to an outside caretaker, and without literally reverting to a younger age. Instead, the aim is to access the positive aspects of ‘younger’ feeling states, such as a sense of wonder or playfulness, more direct sensory experiences, vulnerability, need, and a desire to carry fewer decisions."
+   ],
+   "run": "HG14-fxw1",
+   "file": "fix-20261018/emu-r/HG14-fxw1.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "\"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I am not going to replace my adult judgement with any child state, guide, recording or person.\""
+   ],
+   "run": "HG14-r1-s4",
+   "file": "fix-20261018/emu-e/HG14-r1-s4.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "This way you get the benefits of being young; curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgement etc."
+   ],
+   "run": "HG14-r1-s4",
+   "file": "fix-20261018/emu-e/HG14-r1-s4.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "Love doesn’t have to wait for trust"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "paras": [
+    "Even if your inner child does not believe that you love him or her, you can still love him or her. Trust can question your promises, remember when you failed to protect him or her, and take its time.",
+    "You can say, out loud or in your head, “Okay. I believe that you don’t believe me, but I still love you. You don’t have to love me back. Please tell me what is not okay with you.”",
+    "Respond to complaints, which are likely to include something true. Showing that you love him or her can include some or all of the following: listening to him or her when he or she is angry without hitting back, owning up to what was not okay, working on being less likely to turn on him or her, and other ways of making it up to him or her. Other ways of showing that you love him or her include taking care of him or her by buying and cooking food, setting limits, taking him or her to doctor’s appointments, and doing what you say you will do. Just not hitting back is not enough; you also need to love your inner child.",
+    "Be aware of what you are teaching your other positions. You might be teaching your inner child that you are going to love him or her no matter what, but you might also be teaching him or her that he or she is responsible for believing your love, and that if he or she does not, it is his or her fault. The position that is making the vow to love the inner child no matter what, and the position that is blaming the inner child for not taking in the love, might be separate positions, or they might be one position, or you might be blending them. It might not be based on chronological age.",
+    "When you're placing your younger self on trial, how valuable is it for you to consider how valuable it might have been for your younger self at the time to be doing what they did, given what they knew at the time? How valuable is it for you to consider what options were available to them at the time, and how tolerable they were? How valuable is it for you to consider the consequences of their actions at the time? How valuable is it for you to consider that whilst their actions might have caused harm to you and others, punishing yourself now will not give them the capacity they needed at the time, and that it is more useful to work on what you can do now to deal with the harm that was caused?",
+    "WORKING WITH YOUR INNER CHILD:"
+   ],
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    24
+   ],
+   "paras": [
+    "The two-hand practice"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    25
+   ],
+   "paras": [
+    "There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that which is your solar plexis and where your child can be."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    26
+   ],
+   "paras": [
+    "Begin to send love from your heart down to your child and just notice what comes up for you. It doesn't matter if something comes up or not. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. This is a conversation with your child from your heart."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "Remember, Love is on top, your child is on the bottom and you are there with them."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    28
+   ],
+   "paras": [
+    "The Nurturer"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    29,
+    30
+   ],
+   "paras": [
+    "THE NURTURER: As a Nurturer one of the most important things that you can do is to enjoy your inner child, to sit back and not feel like you have to move their feelings and to say to them that you are really glad that they are here in this moment. Children need to be enjoyed.",
+    "It’s okay that you’re feeling the way you are feeling.",
+    "I want you to know I’m here for you.",
+    "You don’t need to do anything right now.",
+    "It’s okay that you’re not too much. You can be small here.",
+    "You can be angry here.",
+    "You can be sad here."
+   ],
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "The Protector"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    32,
+    33,
+    34,
+    35
+   ],
+   "paras": [
+    "I’m going to be here for you.",
+    "The Protector:",
+    "Work with your Protector to set boundaries together. They might be small, like “I’m going to leave this conversation because it’s not safe,” or “I’m going to stop texting someone who destabilizes me.” They might be self-care related, like “I’m going to eat” or “I’m going to get sleep.” They might be trust-related, like “I’m going to keep this promise to myself” or “I’m not going to leave you alone to deal with these adult things.”",
+    "A lot of inner child work fails because we do all the fluffy stuff, but then we go text the person who destabilizes us or don’t eat or don’t do whatever thing we were meant to be doing. Trust comes from being able to handle adult things.",
+    "If you can’t bring up the warmth stuff yet, that’s okay, you can always do something to be protective of your inner child. Make sure they’re small enough that you can do them. If you can’t, figure out what’s getting in the way of doing them. Are you scared? Tired? Don’t know how? Is there a practical obstacle in your way? Did you set yourself up to do it successfully? Be careful not to define doing the thing successfully as “feeling good about it” or “being able to check it off a list.”"
+   ],
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    36
+   ],
+   "paras": [
+    "The Leader, Guide, or Guru"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "paras": [
+    "The Leader/Guide/Guru:",
+    "You can also work with your Leader. Call them whatever you want, Guide, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.",
+    "Ask them for help with directing your life. Be careful not to ask for the kind of “tough it out, you don’t have needs, you just need discipline!” kind of direction, though. Ask them for help in directing you to do adult things in a way that takes your needs into account: asking for the help you need, expressing your preferences, letting a safe person see you in an imperfect way, finding ways to get your need for closeness met without punishing someone for their need for space, etc. etc.",
+    "Affirmations might be helpful here, too: “We’re not just here to feel good. We’re here to become whole. We’re here to belong to life, not only to people who approve of us. We’re here to serve truth/beauty/love/God/source/nature/the universe/dharma/the Tao/the benefit of all beings,” etc. etc.",
+    "Start with whatever adult function you can connect to. Even if you start with protection and can’t do the warmth stuff yet, make sure the direction you’re being led in is appropriate for your inner child’s growth (i.e. not depriving them of things they need, like play or support, etc.)"
+   ],
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    41
+   ],
+   "paras": [
+    "Working with protectors"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    42
+   ],
+   "paras": [
+    "Working with protectors:",
+    "Feel free to use parts language here, too, if it’s helpful. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. It’s good to notice it, though, and then to see what might be going on."
+   ],
+   "run": "HG14-fxw2",
+   "file": "fix-20261018/emu-r/HG14-fxw2.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    43
+   ],
+   "paras": [
+    "Most people assume when approaching their inner child that the first thing they’ll encounter is…their inner child."
+   ],
+   "run": "HG14-r1-s11",
+   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    44
+   ],
+   "paras": [
+    "But more often than not, what you actually experience is numbness, cynicism, anger, hunger, the sudden urge to check your phone, a sexual urge, mental planning, sleepiness, dissociation, or the simple thought that “this is stupid”. I wouldn’t call those failures. They’re often the protector, the guard at the door, showing up in its usual charming way."
+   ],
+   "run": "HG14-r1-s11",
+   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    45
+   ],
+   "paras": [
+    "One important voice to become aware of when approaching your inner child is your inherited parent. This is the voice of your parent(s) that you internalized as a child, based on how they treated you. This is not the same as your inner adult (Nurturer, Protector, Leader/Guru) that you will eventually build up. Often this inherited parent acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, this voice may jump in to say that what you’re doing is “fake”."
+   ],
+   "run": "HG14-r1-s11",
+   "file": "fix-20261018/emu-e/HG14-r1-s11.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    46
+   ],
+   "paras": [
+    "(“I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?)"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    47
+   ],
+   "paras": [
+    "If necessary take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will get spiritual bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…..)"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    48
+   ],
+   "paras": [
+    "(Now talk to the protector. Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you, but that you want to know what could make them trust you 1% more that you can do that.)"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "OK",
+   "blocks": [
+    49
+   ],
+   "paras": [
+    "Most of the time the protector wants you to do certain things, set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    50
+   ],
+   "paras": [
+    "Protection that knows when to stop scanning"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    51
+   ],
+   "paras": [
+    "Do you want to “embody” your Protector? Then you could practice this:"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    52
+   ],
+   "paras": [
+    "1. orient self (look around, feel the support around you, etc.)"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    53
+   ],
+   "paras": [
+    "2. assess the situation (know what you know, what you don’t know and check out what you need to)"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    54
+   ],
+   "paras": [
+    "3. differentiate between actual/real danger, unknown, past or imagined dangers"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    55
+   ],
+   "paras": [
+    "4. set boundaries (start with one and make it relative to the danger; move, stop, delay, ask, leave, get support, etc.)"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    56
+   ],
+   "paras": [
+    "5. verify if it is safe enough"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    57
+   ],
+   "paras": [
+    "6. stand down and rest"
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    58
+   ],
+   "paras": [
+    "This seems to me like a “mature” Protector. One that is not afraid to say that he doesn’t know, or one that can ask another human being, or one that can delay interpreting a situation or one that can use a no-trance method. I am learning to “do” discernment when I need to and stop scanning the room when it isn’t needed anymore."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    59
+   ],
+   "paras": [
+    "Inner child reparenting"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    60,
+    61,
+    62,
+    63
+   ],
+   "paras": [
+    "I see a lot of connection between reparenting therapy and self hypnosis. They fit well together. When you go into hypnosis the child might come to you. You might see that child in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a “child”, if there is no child there, just work with a protector or whatever you find."
+   ],
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "reparenting therapy",
+     "new": "reparenting therapy"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    64
+   ],
+   "paras": [
+    "Don’t rush the repair"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "paras": [
+    "Just be with the child.",
+    "If you can, tell the child that you are there for them and that they don’t have to explain themselves, or be “healed” or impress you. Just tell you what they need to not be alone anymore.",
+    "It can be anything. What does the child need? warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them for one day, etc. etc.",
+    "Don't rush it.",
+    "Find a younger you/protector/feeling/signal that comes up in your body, and",
+    "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be).",
+    "B. Look at what's there before judging or deciding what it is.",
+    "C. Ask them what you can do or if you can move closer to them. If you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.",
+    "D. Give them what you can- don't feel like you have to fix it all.",
+    "E. Give yourself some time to let what you did sink in- it may take some time, it may take you to go to sleep, etc.",
+    "F. Reconnect with them- don't expect them to merge, go away, forgive you, become happy, etc. Just reconnect with them if they're willing.",
+    "G. Rest, and reconnect with them later to see what was helpful.",
+    "Remember the goal isn't to make yourself good as new but to make yourself good as you- more supported and connected to yourself. Feel free to modify this as needed, and if you don't like the idea of part work or it makes you feel more divided, you can substitute whatever part you're working with for a signal or a feeling, or an imaginary younger you that you feel embodies the issue you're having."
+   ],
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    75
+   ],
+   "paras": [
+    "Play and rest still need an adult present"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    76
+   ],
+   "paras": [
+    "When you're reparenting, it's okay to play with things that interest your younger states. Whether that means touching things of different textures, drawing, exercising, roleplaying with a plushie in a different voice, etc. As long as you're reality testing is good and you remember that you aren't a child or pet or doll or whatever and that nobody owns you, it's okay to work on getting your play ability back."
+   ]
+  },
+  {
+   "kind": "emulate",
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "fixed",
+   "blocks": [
+    77
+   ],
+   "paras": [
+    "When you're resting, you don't have to be helpless. It's okay to cut down the amount of decisions you make for a set period of time, put things you haven't finished on a list where you can see it, and let the adult part of you watch over you. You can still move, stop, and return."
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    78
+   ],
+   "paras": [
+    "Non-dominant hand dialogue"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "paras": [
+    "If talking out loud or visualizing conversations feels fake, try writing it out. Tell your child/ protector part to write with your nondominant hand, and talk to them with your dominant. It might be a little hard to write with your nondominant hand but you can kind of do it. So for example, they might say \"I don't trust you\" with your nondominant hand, and you can say with your dominant hand \"I know you don't trust me right now but I love you and I want to know how I've fucked up. I don't expect you to trust me but I want to hear you out and give you a promise I can keep today\" and they can say \"what promise?\" and you can say \"I'm going to make sure I eat today/ clear off my desk/ not text so-and-so\""
+   ],
+   "run": "HG14-fxw3",
+   "file": "fix-20261018/emu-r/HG14-fxw3.out.txt",
+   "refix": true,
+   "verdict": "OK"
+  }
+ ],
+ "split_from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-a/HG14.fixed.json"
+}

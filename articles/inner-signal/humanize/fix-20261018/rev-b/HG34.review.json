@@ -1,0 +1,102 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "WRONG",
+    "what": "grief digestion, not trauma",
+    "replace": "to help you digest trauma or teach you something",
+    "with": "to help you digest grief or teach you something"
+   },
+   {
+    "type": "SHIFT",
+    "what": "a possible future, not the future",
+    "replace": "telling you about the future",
+    "with": "showing you a possible future"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'so you can learn to deal with them' is new",
+    "replace": "things you’re afraid of, so you can learn to deal with them.",
+    "with": "things you’re afraid of."
+   },
+   {
+    "type": "SHIFT",
+    "what": "an escape hatch from adult life",
+    "replace": "Refusal to accept the responsibilities of adult life.",
+    "with": "An escape hatch from adult life."
+   },
+   {
+    "type": "LOST",
+    "what": "with more clarity, love and action; into repetition, craving and avoidance",
+    "replace": "“Is my daydreaming bringing me back into life or taking me away from it?”",
+    "with": "“Is my daydreaming bringing me back into life with more clarity, love and action, or pulling me away from it into repetition, craving and avoidance?”"
+   },
+   {
+    "type": "LOST",
+    "what": "the question to ask: what is the guidance inside this?",
+    "replace": "If it’s helping you, ask for more specific guidance.",
+    "with": "If it’s helping you, ask: “What is the guidance inside this?”"
+   },
+   {
+    "type": "LOST",
+    "what": "change the body before debating the story; eyes open a little; feel the feet",
+    "replace": "immediately sit up straight and open your eyes.",
+    "with": "change your body before you start arguing with the story: sit up straight, open your eyes a little, feel your feet."
+   },
+   {
+    "type": "LOST",
+    "what": "gently into the present",
+    "replace": "please bring me into the present",
+    "with": "please bring me gently into the present"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'leave someone': the published says only 'leave'",
+    "replace": "“leave someone”",
+    "with": "“leave”"
+   },
+   {
+    "type": "LOST",
+    "what": "the guidance inside it",
+    "replace": "please show me what I need to know",
+    "with": "please show me the guidance inside them",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "LOST",
+    "what": "get embarrassingly practical; what real-life action is this daydream replacing",
+    "replace": "Then ask yourself, “What do I need to do in the real world that I’m avoiding by daydreaming?”",
+    "with": "Then get embarrassingly practical and ask yourself, “What real-life action is this daydream replacing?”",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "INVENTED",
+    "what": "'from the pain of real life'",
+    "replace": "Dissociation from the pain of real life.",
+    "with": "Dissociation.",
+    "round": 2,
+    "from": "verify-a (second reader)"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"help me deal with what I need to deal with\" became \"show me how to deal with life\"",
+    "replace": "show me how to deal with life in a gentle but structured way",
+    "with": "help me deal with what I need to deal with in a gentle but structured way",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   },
+   {
+    "type": "SHIFT",
+    "what": "B1: SHIFT \"stop chasing unavailable love\" became \"stop fantasizing about people who can't love me\"",
+    "replace": "stop fantasizing about people who can’t love me.",
+    "with": "stop chasing unavailable love.",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]

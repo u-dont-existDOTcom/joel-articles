@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ag/HG17-sw7.txt",
+  "input_words": 67,
+  "input_sha256": "0529319cf5597c86bfc1c1395c328acbe648c684da51b01d622919d7762761d8",
+  "balance_before": 88119,
+  "started_utc": "2026-10-18T07:52:59Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T07:53:04Z",
+  "response": {
+    "id": "39d98a00-5d86-4b99-b219-6ed552c145d8",
+    "tool": "humanize",
+    "text": "Bring to mind, lightly, the thing you have chosen to be concerned about, or simply your wish to contact.\n\nWhat do you notice now?\n\n(Allow yourself time to notice what you notice. It may take the form of sensations, words, images, feelings, or a desire to move, or it may not yet be clear.)\n\n(Allow yourself time to notice this, with or without words.)",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 67
+    },
+    "elapsed": 4
+  },
+  "balance_after": 88052
+}

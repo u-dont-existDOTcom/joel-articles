@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG23-r1.txt",
+  "input_words": 312,
+  "input_sha256": "e30364bf9aacf02af02640a6475ee87af9253887811a738aed4d2d904fe53ecf",
+  "balance_before": 157978,
+  "started_utc": "2026-10-18T02:51:37Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:51:55Z",
+  "response": {
+    "id": "aea44b43-a568-4666-b4da-3e06b0d4d74b",
+    "tool": "humanize",
+    "text": "Capacity before content\n\nNOTE: If it is medically unsafe for you to do this, or you are panicking, sleep deprived, nauseated, deeply destabilized, manic, in a psychosis-like state, or overwhelmed by chemicals, please stabilize first before seeking out what your subconscious needs you to know. It is not ready for you to know it if it requires you to destabilize to know it!\n\nThere are times when your subconscious seems to know something that it is difficult for your conscious mind to know. It may be about your sexuality, a grief, trauma, your family, betrayal, shame, vocation, a relationship, fears about illness, spirituality, an addiction, your identity, or a moral issue.\n\nWhat you don’t want to do is bully your subconscious with statements like,\n\n“Why don’t you just tell me?” “What are you hiding?” “Tell me right now!” or “I demand that you reveal the truth!”\n\nThis can lead to flooding, panic, false certainty, confabulation, dissociation, and just generally making your day suck more. When you’re flooded, it can be hard to access your adult capacities to pause, choose, reality test, plan and make choices for yourself. Until your adult has enough of these capacities, especially regulation and support, it is not good for your subconscious to communicate with you. Silence is safer. But when your adult does have enough regulation, support, humility, and other capacities, you can talk with your subconscious.\n\n“What do you need for my conscious mind to be able to know what you’re saying 5% better?” “Can you tell me through a symbol?” “Can you tell me what you need me to do to be safe without telling me what it is?” “Do you need me to get support to be able to know what it is? Who?”\n\nYou may even want to say, “Dear wise subconscious mind, if there is something you know that my conscious mind can’t handle, please don’t just break it open in a way that isn’t good for me. Please prepare me to hear it in a way that is safe. Ground me. Get me support. Tell me what to do.”\n\nREMEMBER: Hypnotic imagery is not always literal, especially around trauma and memory.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 312
+    },
+    "elapsed": 18
+  },
+  "balance_after": 157666
+}

@@ -1,0 +1,60 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis"), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text. The REWRITE replaced some of its blocks with a humanizer's paraphrase, which
+reads more like a person wrote it; that loose, casual voice is wanted. Your job is only the meaning: the rewrite must say
+everything the published block says, the same way round, and nothing it doesn't. Don't polish the rewrite's style, don't
+make it more formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing
+full stop, British spelling and a different order of the same points are all fine.
+
+For each changed block (marked CHANGED below), first list for yourself every point of the published block: each claim,
+instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check the
+rewrite against that list. Report a problem only when a reader of the rewrite would come away with a different
+understanding than a reader of the published block:
+- LOST: a point of the published block is missing (a condition, a caution, an item of a list that matters, a limit).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition, a different subject, a safety
+  instruction softened or hardened, a script line with a different meaning.
+- INVENTED: something the published block doesn't say: a new claim, fact, example, story detail, a gender or a person
+  that isn't there, words in quotation marks presented as a quotation that the published block doesn't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's finding
+  changed.
+- UNCLEAR: a cold reader couldn't follow the sentence.
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE's block (copy it character for character,
+quotes and dashes as they are) with new words. Use the published block's own words for what was lost or changed, fitted
+into the rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the
+published block doesn't say. If a block is past fixing, say so with "redo": true.
+
+Return only JSON, one object per changed block, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the published block's condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section (blocks numbered):
+[B0] Protecting Yourself from Hypnotists
+
+[B1] Hypnotism can happen in a therapist’s office. It also happens through music, marketing, religious ritual, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, belonging, fatigue, love, trauma, and beauty.
+
+[B2] Influence doesn’t wait for the conscious mind to sign a form. Marketers and interface designers know this perfectly well. The FTC’s report on dark patterns describes designs that trick or manipulate consumers, while the OECD describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+
+[B3] Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.
+
+[B4] A line associated with the Silva Mind Control tradition says it plainly:
+
+[B5] “If you don’t learn to control your mind, someone else will!”
+
+[B6] Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. Self-hypnosis lets you practice from inside it: befriending the deeper layers, listening closely, and making adult choice more available.
+
+REWRITE (the same blocks; CHANGED marks the humanizer's):
+[B0] Protecting Yourself from Hypnotists
+
+[B1] CHANGED Hypnotism can happen in a controlled environment with a therapist, but it can also be utilized through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.
+
+[B2] CHANGED Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers have been using these techniques for years, and the practice has even come under scrutiny by regulatory bodies. In the Federal Trade Commission’s report on “dark patterns,” they refer to “design patterns that have been designed to trick or manipulate users into doing things that they might not otherwise do.” The Organisation for Economic Co-operation and Development (OECD) refers to “dark patterns” as “any online pattern that uses deceptive, coercive, or manipulative means to compel users to perform unwanted actions.”
+
+[B3] CHANGED Consciously or unconsciously, emotionally or legally, there are a lot of ways to gain someone’s consent, or influence their mind, even if they are a fully grown adult.
+
+[B4] CHANGED As the practitioners of the Silva Method of Mind Control say,
+
+[B5] CHANGED “If you don’t learn to control your mind, someone else will!”
+
+[B6] CHANGED Since there are a lot of forces out there trying to train your mind, via ads, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition, you can use self-hypnosis techniques to learn to befriend your deeper mind, and choose things for yourself as a fully conscious adult.

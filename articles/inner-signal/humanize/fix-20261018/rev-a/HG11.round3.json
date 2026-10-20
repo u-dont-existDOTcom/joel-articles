@@ -1,0 +1,15 @@
+[
+ {
+  "block": 4,
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "B4: SHIFT \"Let the modes correct each other\" became \"can modify the others\"",
+    "replace": "serve to modify the others",
+    "with": "serve to correct the others",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]

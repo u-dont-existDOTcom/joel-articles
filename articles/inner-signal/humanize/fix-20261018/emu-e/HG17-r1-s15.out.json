@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s15.txt",
+  "input_words": 82,
+  "input_sha256": "fef750a6d8d313fc703475200af3bc0518b048f92269bf7a679afdcfa23b2f05",
+  "balance_before": 131985,
+  "started_utc": "2026-10-18T03:11:22Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:11:28Z",
+  "response": {
+    "id": "6c88d086-d8bb-40f1-846b-884cb48932e7",
+    "tool": "humanize",
+    "text": "Then I wait, giving up any sense of responsibility for what happens.\n\nSometimes, if it's appropriate, my wise subconscious mind will twitch, pulse, lift, warm or tingle a finger so I know it's okay to move into the inner meeting space.\n\n\"I'm not going to force it or fake it. I'll just wait in love and see what happens.\"\n\nWhether something happens, like a finger moving, hand warming or change in the breath, or nothing happens at all, it doesn't really prove anything. Maybe it's listening.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 82
+    },
+    "elapsed": 5
+  },
+  "balance_after": 131903
+}

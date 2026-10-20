@@ -1,0 +1,37 @@
+{"key": "HG19",
+ "fixes": [
+  {"block": 1,
+   "problems": [
+    {"type": "INVENTED",
+     "what": "B1: INVENTED 'until you are ready to try this lying down', a readiness stage (published: sit if prone to dissociate; save lying down for sleep, deep rest, dream incubation)",
+     "replace": "until you are ready to try this lying down, either",
+     "with": "and save lying down for when you want",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"},
+    {"type": "INVENTED",
+     "what": "B1: INVENTED 'Unless I'm going to sleep or want deep rest' inside the 'not leaving life' script; also removes the R repeat of the sleep/deep-rest exception in B1 and B2",
+     "replace": "Unless I’m going to sleep or want deep rest, I am not leaving life",
+     "with": "I am not leaving life",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"},
+    {"type": "SHIFT",
+     "what": "B1: SHIFT 'believe none of it automatically' became 'believe nothing' (claim hardened)",
+     "replace": "believe nothing",
+     "with": "believe nothing automatically",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"}
+   ]}
+ ],
+ "let_stand": [
+  {"finding": "B1: LOST \"timing\" and \"only\" in the invocation (now \"a form and at a level\")",
+   "why": "the protective ask is kept (useful, kind, stabilizing, real; 'level' covers pacing); 'only' is implied by the clause"},
+  {"finding": "B1: SHIFT \"all that serves truth and love\" became \"all that is of truth and love\"",
+   "why": "wording; still a filter on what is invited"},
+  {"finding": "B1: LOST \"without forcing an answer\" (conscious mind asked to listen)",
+   "why": "not forcing is kept in the next paragraph (don't fight, notice what stands out on its own)"},
+  {"finding": "B1: SHIFT script now \"Internally say\" and \"sit in silence ... and listen\", published says only \"wait silently\"",
+   "why": "elaboration that fits: say it inside, then sit silent and listen"},
+  {"finding": "B1: LOST \"the realization that today's practice is over\" (replaced by \"any number of things\")",
+   "why": "'feel you need to stop the listening' keeps the stop permission; list item shortened"}
+ ],
+ "resample": []}

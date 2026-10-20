@@ -1,0 +1,129 @@
+[
+ {
+  "run": "HG14-fxw1",
+  "key": "HG14",
+  "sent": [
+   14,
+   15
+  ],
+  "flagged": [
+   15
+  ],
+  "headings": [
+   14
+  ],
+  "words": 72,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-h/HG14.split.json"
+ },
+ {
+  "run": "HG14-fxw2",
+  "key": "HG14",
+  "sent": [
+   18,
+   19,
+   20,
+   21,
+   22,
+   23
+  ],
+  "flagged": [
+   19,
+   20,
+   21,
+   22,
+   23
+  ],
+  "headings": [
+   18
+  ],
+  "words": 463,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-h/HG14.split.json"
+ },
+ {
+  "run": "HG14-fxw3",
+  "key": "HG14",
+  "sent": [
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35
+  ],
+  "flagged": [
+   29,
+   30,
+   32,
+   33,
+   34,
+   35
+  ],
+  "headings": [
+   28,
+   31
+  ],
+  "words": 334,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-h/HG14.split.json"
+ },
+ {
+  "run": "HG33-fxw1",
+  "key": "HG33",
+  "sent": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "flagged": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   8,
+   9
+  ],
+  "headings": [
+   0,
+   3,
+   7
+  ],
+  "words": 247,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-h/HG33.split.json"
+ },
+ {
+  "run": "HG33-fxw2",
+  "key": "HG33",
+  "sent": [
+   25,
+   26,
+   27,
+   28,
+   29
+  ],
+  "flagged": [
+   26,
+   27,
+   28,
+   29
+  ],
+  "headings": [
+   25
+  ],
+  "words": 133,
+  "input": "meaning-fixed text",
+  "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-h/HG33.split.json"
+ }
+]

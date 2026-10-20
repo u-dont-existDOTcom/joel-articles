@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s4.txt",
+  "input_words": 100,
+  "input_sha256": "e60533e4407d2f4652e78707739ebf6a089b4b900085b1d60ec6c66c772b5ab6",
+  "balance_before": 135927,
+  "started_utc": "2026-10-18T03:07:16Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:24Z",
+  "response": {
+    "id": "f974ae5d-8c9f-4369-b103-49929aa44f3a",
+    "tool": "humanize",
+    "text": "It is possible to regress psychologically and allow those younger states to talk, but still maintain adult judgement. You don't have to turn that judgement over to someone else or literally become younger. You just get to tap into those feelings of wonder, play, sensation, vulnerability, need or whatever it is you feel you need less responsibility.\n\n\"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, evaluating, protecting me and stopping me if needed. I am not going to replace my adult judgement with any child state, guide, recording or person.\"\n\nThis way you get the benefits of being young; curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgement etc.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 100
+    },
+    "elapsed": 8
+  },
+  "balance_after": 135575
+}

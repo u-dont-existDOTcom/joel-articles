@@ -1,0 +1,150 @@
+You are checking a rewrite of one section of a long self-hypnosis guide by Joel, published on his Substack. It teaches gathering attention, listening to the subconscious as an ecology of parts (the inner child, protectors or "guards", the body, intuition), three adult functions he calls the Nurturer, the Protector and the Leader/Guru, Higher Self, "borrowed adulthood", inductions and a complete return, influence literacy ("de-hypnosis": noticing and resisting other people's influence), and safety limits (when to stop, when to get help). Its quoted lines are scripts the reader says or thinks.
+
+The PUBLISHED section is the author's text, its blocks numbered. In the REWRITE, some stretches were replaced by a
+humanizer's paraphrase, which reads more like a person wrote it; that loose, casual voice is wanted. Each CHANGED
+stretch says which published blocks it replaces. Your job is only the meaning: a stretch must say everything its
+published blocks say, the same way round, and nothing they don't. Don't polish the rewrite's style, don't make it more
+formal, and don't fix what isn't a meaning problem: a casual phrase, a long sentence, "etc.", a missing full stop,
+British spelling, a list run into a sentence and a different order of the same points are all fine.
+
+For each CHANGED stretch, go through every point of its published blocks in your head (don't write them out): each
+claim, instruction, condition, caution, limit, example, name, number, title, source and quoted script line. Then check
+the stretch against them. Report a problem only when a reader of the rewrite would come away with a different understanding than a
+reader of the published blocks:
+- LOST: a point is missing (a condition, a caution, an item of a list that matters, a limit, a script line).
+- SHIFT: a point is there but changed: stronger or weaker, a different condition or subject, a safety instruction
+  softened, hardened or turned round, a script line with a different meaning, "never" for "not automatically".
+- INVENTED: something the published blocks don't say: a new claim, fact, example, story detail, a gender or a person that
+  isn't there, words in quotation marks presented as a quotation that the published blocks don't quote.
+- WRONG: a factual slip: a name, number, date, title or source changed; "past life" for "earlier life"; a study's
+  finding changed; "ways to influence others" for resisting influence.
+- UNCLEAR: a cold reader couldn't follow it (a broken sentence, a script that lost its quotation marks so it reads as
+  narration, a pronoun with nothing to point to).
+
+For every problem give the smallest fix: replace an exact stretch of the REWRITE (copy it character for character, quotes
+and dashes as they are) with new words. Use the published blocks' own words for what was lost or changed, fitted into the
+rewrite's sentence; change as few words as you can; keep the rewrite's voice. A fix must not add anything the published
+blocks don't say. If a stretch is past fixing, give "redo": true and no fixes.
+
+Return only JSON, one object per CHANGED stretch, in a JSON array:
+[{"block": 3, "verdict": "OK"},
+ {"block": 4, "verdict": "FIX", "problems": [{"type": "LOST", "what": "the condition 'when that is useful'",
+   "replace": "spend a bit more time with it", "with": "spend a bit more time with it when that is useful"}]}]
+
+PUBLISHED section:
+[B20] “Notice whether the answer comes as an image, a word, a pressure, a warmth, a silence, or a next action.”
+
+[B21] Pattern 3: Presuppositions
+
+[B22] A presupposition hides an assumption inside a sentence. Use that power only to presume choice, timing, capacity, safety, love, and adult leadership. Don’t smuggle in obedience.
+
+[B23] “Before any part has to change, it can first become more understood.”
+
+[B24] Pattern 4: Gentle cause-effect bridges
+
+[B25] Words such as as, while, because, when, after, before, and which means connect one event to another. Use them carefully. A gentle voice doesn’t make a false causal claim true.
+
+[B26] Too strong: “Because I breathe, the trauma leaves.” Better: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”
+
+[B27] Pattern 5: Embedded invitations
+
+[B28] An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.
+
+[B29] “And somewhere inside this breath, I can let the adult self listen.”
+
+[B30] “As I sit here, I may allow one small truth to become clear.”
+
+[B31] “The child does not have to trust me all at once; it can simply notice I am still here.”
+
+[B32] Use one when it helps. Ten embedded invitations in a row feel like somebody took a weekend certification.
+
+[B33] Pattern 6: Ethical double binds
+
+[B34] A manipulative double bind traps every answer inside the speaker’s agenda. An ethical one offers two genuinely safe routes.
+
+[B35] “Would this part prefer warmth first, or space first?”
+
+[B36] Pattern 7: Conversational postulates
+
+[B37] These are questions whose ordinary conversational form also acts as an invitation.
+
+[B38] “Can the system show me the next step without showing me the whole wound?”
+
+[B39] Pattern 8: Tag questions
+
+[B40] Tag questions—isn’t it, can’t it, doesn’t it—can soften a sentence. They become oily very quickly, don’t they? Use them lightly.
+
+[B41] “The body already knows something about resting, doesn’t it?”
+
+[B42] Pattern 9: Nominalizations
+
+[B43] Nominalizations turn processes into nouns: healing, safety, trust, integration, communion, clarity, rest. Their vagueness can sometimes help because the subconscious supplies its own concrete meaning.
+
+REWRITE:
+[CHANGED, replaces B20]
+• Notice how that answer comes for/ to/ within/ for/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ beyond/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within/ for/ to/ inside of/ upon/ into/ amongst/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ among/ under/ over/ above/ below/ between/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/ through/ out of/ out within/ out for/ out upon/ out into/ out amongst/ within and without/ on the inside of and outside of/ on the outside of and inside of/ here and there/ there and here/
+
+[B21, as published] Pattern 3: Presuppositions
+
+[CHANGED, replaces B22]
+Caution: The powerful technique of presupposition (embedding a statement as if it were true) is best used in the positive key of assuming choice, when it will occur, ability, not doing something unsafe, love, being adult, etc. Never use presupposition to imply that the other person must obey.
+
+[CHANGED, replaces B23]
+“It is always the case that one can better understand something prior to changing it.”
+
+[B24, as published] Pattern 4: Gentle cause-effect bridges
+
+[CHANGED, replaces B25]
+Be careful with how language link events. Words like “as, while, because, when, after, before, which means” etc are all words that can be used to link events.
+
+[CHANGED, replaces B26]
+In general, the problem with the first example is that it’s likely to be inaccurate. It’s unlikely that simply breathing will get rid of the trauma. So while the intention is good, the phrasing is a bit strong. The second example is better because it’s more accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself.
+
+[B27, as published] Pattern 5: Embedded invitations
+
+[CHANGED, replaces B28]
+What are embedded invitations, and how to use them
+
+[CHANGED, replaces B29]
+Here is an example of an embedded invitation:
+
+[CHANGED, replaces B30]
+Here’s another example of an embedded invitation:
+
+[CHANGED, replaces B31]
+And yet another embedded invitation for working with inner child parts:
+
+[CHANGED, replaces B32]
+Of course, don’t use ten embedded invitations one after the other, or people will know that’ve just completed a weekend certification course!
+
+[B33, as published] Pattern 6: Ethical double binds
+
+[CHANGED, replaces B34-B35]
+Manipulative double bind questions:
+
+Ethical double bind questions:
+
+“What would be the best approach to this part, to warm it up or give it space?”
+
+[B36, as published] Pattern 7: Conversational postulates
+
+[CHANGED, replaces B37-B38]
+Example of a postulate in the form of a question:
+
+“Isn’t it possible that the system can find a way to show me what it wants to show without showing me everything?”
+
+[B39, as published] Pattern 8: Tag questions
+
+[CHANGED, replaces B40]
+In the same way, tag questions (“isn’t it”, “can’t it”, “doesn’t it”, etc) can be very useful to soften a sentence. But they get oily really fast, so use them sparingly.
+
+[CHANGED, replaces B41]
+Doesn’t the body already know how to do this?
+
+[B42, as published] Pattern 9: Nominalizations
+
+[CHANGED, replaces B43]
+Nominalizations are words like healing, safety, trust, integration, communion, clarity, rest, and so on. Sometimes it’s good to use vague language, because then the subconscious fills in the blank with whatever is most appropriate and specific for that person.
+
+
+This is PART 2 of 6 of the section: only the stretches below are yours; the published blocks shown are the ones they replace, with the headings around them. Go through the points in your head; don't write them out. Return only the JSON array, nothing before or after it.

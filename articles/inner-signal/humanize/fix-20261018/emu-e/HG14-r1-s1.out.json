@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s1.txt",
+  "input_words": 86,
+  "input_sha256": "2c8b2b59c5710b5dc0c7d32d6fcb1e819fdd046642a20b2d751d53665b85e588",
+  "balance_before": 137126,
+  "started_utc": "2026-10-18T03:06:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:06:52Z",
+  "response": {
+    "id": "c455cf98-dcbf-44f8-aa11-6ed558668409",
+    "tool": "humanize",
+    "text": "Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, as a person that you are right now.\n\nIn this post I am going to talk about what you need to develop in yourself in order to be able to reparent your inner child. I’m going to talk about it in terms of three aspects: your Nurturer, your Protector and your Leader/Guru, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities.\n\nAlso, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 86
+    },
+    "elapsed": 8
+  },
+  "balance_after": 136855
+}

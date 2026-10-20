@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-g/HG17-r1-s13.txt",
+  "input_words": 79,
+  "input_sha256": "c0973aa4d0803cbbf18c2f2f086409f3326fc0f35074f510ab0f6f3e0ab7c556",
+  "balance_before": 127973,
+  "started_utc": "2026-10-18T03:32:52Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:32:57Z",
+  "response": {
+    "id": "4c6ff7b8-5136-4951-a1d8-84c62cd6228e",
+    "tool": "humanize",
+    "text": "Fractionation is a term for going out and back into a deeper stage of absorption. If you use it openly you need to make it clear that you are using it as that will help you avoid the problem of all answers leading to going deeper.\n\nOpen your eyes and come back out to normal awareness. You can choose to stop at this point if you want to. If you want to go deeper then simply close or soften your eyes again and notice the difference. Of course you can stop at this point if you want to.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 5
+  },
+  "balance_after": 127894
+}

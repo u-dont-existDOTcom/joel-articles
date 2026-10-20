@@ -1,0 +1,54 @@
+[
+ {
+  "block": 3,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "'never more controlling' became 'controlling won't work'",
+    "replace": "if you use it to be more controlling, it will NOT work",
+    "with": "you should NEVER use it to be more controlling",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "LOST",
+    "what": "'only as much as is safe' lost on softening/stepping back",
+    "replace": "step back and soften so that",
+    "with": "step back and soften only as much as is safe, so that",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "WRONG",
+    "what": "'the Protector' (adult function) became 'one of your protectors' (guard parts)",
+    "replace": "one of your protectors",
+    "with": "your adult Protector",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged; \"with\" set by me (Opus) to the guide's own term for the adult function"
+   },
+   {
+    "type": "SHIFT",
+    "what": "'prove that I heard correctly' became 'integrate what I have heard'",
+    "replace": "integrate what I have heard",
+    "with": "prove that I heard correctly",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "'without pretending the answer is automatically true' lost; NLP 'affects how gently the question enters' became 'will make sure it is safe'",
+    "replace": "The NLP will make sure you are getting it in a safe way.",
+    "with": "The NLP can help you get it in a safer way, but that doesn’t make the answer automatically true.",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

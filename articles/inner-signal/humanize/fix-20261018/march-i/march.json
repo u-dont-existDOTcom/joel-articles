@@ -1,0 +1,86 @@
+{
+ "HG20-B4": {
+  "was": [
+   "S S S",
+   "B B S",
+   "S B B",
+   "S S",
+   "B S S S S S"
+  ],
+  "new": [
+   "S S S",
+   "B B S",
+   "S S B B",
+   "S S",
+   "B S S S S S"
+  ]
+ },
+ "HG20-B11": {
+  "was": [
+   "S S S",
+   "B B",
+   "S S"
+  ],
+  "new": [
+   "S S S",
+   "B B",
+   "S S"
+  ]
+ },
+ "HG20-B15": {
+  "was": [
+   "S B S S S",
+   "S S B B B B B B B B"
+  ],
+  "new": [
+   "S B S S S",
+   "S S B B B B B B B B S"
+  ]
+ },
+ "HG20-B23": {
+  "was": [
+   "S S S S S",
+   "S S S S",
+   "S S S",
+   "S S S S S",
+   "S S S S S",
+   "S S"
+  ],
+  "new": [
+   "S S S S S S",
+   "S S S S",
+   "S S S",
+   "S S S S S",
+   "S S S S S",
+   "S S"
+  ]
+ },
+ "HG20-B31": {
+  "was": [
+   "S B S S",
+   "S S S",
+   "S S S S"
+  ],
+  "new": [
+   "S B S S",
+   "S S B S",
+   "S S S S"
+  ]
+ },
+ "HG22-B1": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG22-B2": {
+  "was": [
+   "S B"
+  ],
+  "new": [
+   "S B"
+  ]
+ }
+}

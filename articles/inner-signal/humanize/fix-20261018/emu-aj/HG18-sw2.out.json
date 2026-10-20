@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-aj/HG18-sw2.txt",
+  "input_words": 99,
+  "input_sha256": "702a263ff35abdf9349b8fe8e35f2c896155db33144b4cd5ba851fecabd09262",
+  "balance_before": 87030,
+  "started_utc": "2026-10-18T08:07:03Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T08:07:07Z",
+  "response": {
+    "id": "14ad7f9e-3ab0-41b1-93d8-19fbafb131f4",
+    "tool": "humanize",
+    "text": "Script Bring back only what is useful to use now. Everything else put away until needed. Come back to where and when and where and into the body. It is now over. Listen carefully for instructions to go deeper and/or stay in session. If no instructions to do either one, session is over. Live an ordinary life, unless doing something that was talked about doing later.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 99
+    },
+    "elapsed": 4
+  },
+  "balance_after": 86931
+}

@@ -1,0 +1,46 @@
+[
+{"block": 44, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "gentle 'can arrive' became a pushy 'Why don't YOU... now' question; 'the body understands' lost; quotes lost", "replace": "Why don't YOU let yourself become a bit safer now, in whatever way is most appropriate for YOUR body?", "with": "“A little more safety can arrive in whatever way the body understands.”"}
+]},
+{"block": 46, "verdict": "OK"},
+{"block": 47, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'How specifically?' became 'What do yo mean Specifically?'", "replace": "What do yo mean ‘Specifically’?", "with": "How specifically?"},
+{"type": "SHIFT", "what": "self-questions 'How do I know?' and 'What evidence would change my mind?' turned into questions to someone else", "replace": "How do yo know? What would constitute proof for ya?", "with": "How do I know? What evidence would change my mind?"}
+]},
+{"block": 48, "verdict": "FIX", "problems": [
+{"type": "INVENTED", "what": "'in session' is not in the published", "replace": "If, in session, it feels like", "with": "If it feels like"}
+]},
+{"block": 51, "verdict": "FIX", "problems": [
+{"type": "WRONG", "what": "the tool is Submodalities (named in the heading); 'Pattern Disruption tool' is invented", "replace": "Pattern Disruption tool: Properties If your", "with": "If your"},
+{"type": "LOST", "what": "'qualities you actually notice'", "replace": "then you can work with its properties", "with": "then you can work with the properties you actually notice"},
+{"type": "SHIFT", "what": "'If none are apparent' became 'doesn't have any properties'", "replace": "If it doesn't have any properties", "with": "If none are apparent"},
+{"type": "LOST", "what": "'rather than inventing an image or voice'", "replace": "just skip this tool.", "with": "just skip this tool rather than inventing an image or voice."}
+]},
+{"block": 52, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'Ask how the experience is represented' became 'things to ask when representing something'", "replace": "Things to ask yourself when representing something.", "with": "Ask yourself how the experience is represented."},
+{"type": "LOST", "what": "the examples: image two feet back, voice quieter, edge less sharp; 'what changes' became 'did something else'", "replace": "What would happen if you did something else.", "with": "What changes when the image moves two feet back, the voice gets quieter, or the edge becomes less sharp?"}
+]},
+{"block": 53, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "'so I can listen without being overwhelmed'; 'the signal' became 'it'", "replace": "deleting it just adjusting the volume.", "with": "deleting the signal, just adjusting the volume so I can listen without being overwhelmed."}
+]},
+{"block": 54, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "asking the guard comes before moving one imaginary pixel; the order is blurred", "replace": "Before you do anything imagine moving a pixel and ask your guard", "with": "Before you move one imaginary pixel, ask your guard"}
+]},
+{"block": 55, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "tentative joint request ('we', just a little, slightly, purely so) became a bigger unilateral one", "replace": "Is it ok that I move the image back two feet, quiet the voice down, make the edges less sharp so that I can do this, the adult me, to hear what you have got to say?", "with": "Would it be okay if we moved this image back just a little, or lowered the volume slightly, purely so my adult self can stay present enough to hear what you need to tell me?"}
+]},
+{"block": 57, "verdict": "FIX", "problems": [
+{"type": "LOST", "what": "the definition: an anchor is a cue connected to a state", "replace": "There are lots of ways to anchor something.", "with": "An anchor is a cue connected to a state. There are lots of ways to anchor something."},
+{"type": "LOST", "what": "the phrase to say: 'This is available.'", "replace": "say to yourself that this is what you are anchoring and it is available to you.", "with": "say to yourself, “This is available.”"},
+{"type": "SHIFT", "what": "'alert calming' and 'the synchronicity wake-up cue' are two named cues, not a list of three", "replace": "the alert, calming, synchronicity wake up thing.", "with": "the alert calming and the synchronicity wake up cue."}
+]},
+{"block": 59, "verdict": "FIX", "redo": true},
+{"block": 66, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "published has you imagine an ordinary, harmless synchronicity; here it is the next one, harmless or not", "replace": "when next synchronicity noticed (even harmless ones count),", "with": "imagine noticing an ordinary, harmless synchronicity,"}
+]},
+{"block": 67, "verdict": "OK"},
+{"block": 68, "verdict": "OK"},
+{"block": 69, "verdict": "FIX", "problems": [
+{"type": "SHIFT", "what": "'not proof of a message' became 'not a message to heed'", "replace": "not a message to heed", "with": "not proof of a message"}
+]}
+]

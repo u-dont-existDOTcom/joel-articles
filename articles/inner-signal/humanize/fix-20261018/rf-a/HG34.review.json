@@ -1,0 +1,40 @@
+[
+ {
+  "block": 1,
+  "verdict": "FIX",
+  "problems": [
+   {
+    "type": "SHIFT",
+    "what": "\"sit upright\" became vague \"change your body position\"",
+    "replace": "your body position",
+    "with": "your body position by sitting upright",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "\"feel the feet\" lost",
+    "replace": "open your eyes and ask",
+    "with": "open your eyes, feel your feet and ask",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "LOST",
+    "what": "\"thank you for showing me images\" lost from the script",
+    "replace": "Dear subconscious if",
+    "with": "Dear subconscious thank you for showing me images. If",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   },
+   {
+    "type": "WRONG",
+    "what": "repeat: \"taking you away from life\" said twice in one sentence (R line)",
+    "replace": "way that takes you away from living your life",
+    "with": "way",
+    "round": 1,
+    "from": "second reader of the refix (rf), triaged"
+   }
+  ]
+ }
+]

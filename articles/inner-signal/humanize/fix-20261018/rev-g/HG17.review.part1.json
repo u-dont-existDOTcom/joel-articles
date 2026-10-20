@@ -1,0 +1,56 @@
+[
+  {"block": 1, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'play asleep' and 'obey anyone' changed to 'go asleep' and 'anything you don't want'", "replace": "a way to make you go asleep, surrender, or do anything you don’t want to do", "with": "something where you have to surrender, play asleep, or obey anyone"},
+    {"type": "LOST", "what": "'instead of adding depth' for the already-trancey case", "replace": "and making sure you are contained", "with": "and making sure you are contained instead of adding depth"}
+  ]},
+  {"block": 2, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "the target qualities incl. 'still able to stop', and 'depth is optional'", "replace": "choose as deep a trance as you need:", "with": "choose as deep a trance as you need: focused, warm, receptive, embodied, and still able to stop. Depth is optional."}
+  ]},
+  {"block": 4, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'only when that helps' for deepening", "replace": "It may also be deepening.", "with": "It may also be deepening, but only when that helps."},
+    {"type": "LOST", "what": "the alternatives to counting (conversation, story, movement, repeated sound, curiosity); 'easy' replaces 'one way in'", "replace": "Counting is easy but you can do all sorts of things to gather up attention.", "with": "Counting is one way in, but conversation, story, movement, repeated sound, and curiosity can also gather up attention."},
+    {"type": "SHIFT", "what": "'say so' became 'it's OK to tell'; covert-induction point turned into pretending it's elegant", "replace": "It's OK to tell people when you're doing this rather than pretending it's all very elegant and flowing.", "with": "Say so when you use them; being elegant doesn't excuse a covert induction."}
+  ]},
+  {"block": 5, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'if the useful response is already happening, build from it'", "replace": "to see if it works.", "with": "to see if it works. If the useful response is already happening, build from it."}
+  ]},
+  {"block": 7, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "the condition: switch when the metaphor stops helping", "replace": "If you do change metaphors do it consciously.", "with": "Switch consciously when the metaphor stops helping."}
+  ]},
+  {"block": 8, "verdict": "FIX", "problems": [
+    {"type": "INVENTED", "what": "qualities borrowed 'from other inductions'; warmth and steadiness examples lost", "replace": "steal qualities from other inductions", "with": "borrow qualities such as warmth or steadiness"},
+    {"type": "INVENTED", "what": "'if that's appropriate to the context' puts a condition on no-response as a signal", "replace": ", if that's appropriate to the context", "with": ""}
+  ]},
+  {"block": 9, "verdict": "OK"},
+  {"block": 11, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'you don't have to find a problem' lost; worthwhile purposes became 'try to use it for something good'", "replace": "Try to use it for something good (e.g. more love, play, confidence, creativity, communion with life, whatever).", "with": "More love, play, confidence, creativity, communion, whatever, are all worthwhile purposes, and you don't have to find a problem."}
+  ]},
+  {"block": 12, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "the instruction to deal with immediate support instead of exploratory hypnosis", "replace": "unable to look after yourself.", "with": "unable to look after yourself - get immediate support instead of exploratory hypnosis."}
+  ]},
+  {"block": 13, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "the kinds of encouragement: spacious listening, warm company, firmer invitation to stay with a feeling", "replace": "encouraging, warm, firm, or whatever", "with": "spacious listening, warm company, or a firmer invitation to stay with a feeling"}
+  ]},
+  {"block": 14, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "'know how to change direction, no need to supervise every moment' became 'skill easier, relax effortlessly'", "replace": "Once the skill is easier to apply, you can relax into using it effortlessly.", "with": "Once you know how to change direction, you don’t need to supervise every moment."},
+    {"type": "INVENTED", "what": "'lack of effort produces the maximum benefit' is not in the published text", "replace": "It is the lack of effort that produces the maximum benefit.", "with": "Let a useful response become easier and less effortful."},
+    {"type": "SHIFT", "what": "'a no remains no; silence doesn't authorize adding things' turned into 'you don't have to say anything'", "replace": "Saying no is enough. You don’t have to say anything.", "with": "A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to."}
+  ]},
+  {"block": 15, "verdict": "FIX", "problems": [
+    {"type": "WRONG", "what": "'your subject' invented; published is the response you got versus what the script expected", "replace": "from what your subject is responding to, not what you intended", "with": "from the response you got, not the response the script expected"},
+    {"type": "LOST", "what": "examples: a thought, sound, movement or objection may change where the practice goes", "replace": "whatever happens can be developed.", "with": "whatever actually happens can be worked with: a thought, sound, movement, or objection may change where the practice goes."},
+    {"type": "SHIFT", "what": "'keep safety and exit instructions plain' became what the subject needs to know", "replace": "The subject needs to know they are safe and how to leave the experience.", "with": "Keep safety and exit instructions plain."},
+    {"type": "WRONG", "what": "Appendix B holds the richer language tools, not safety wording; 'after the induction' lost", "replace": "The language skills that facilitate these are described in Appendix B and used in Let the next response guide you", "with": "Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction"}
+  ]},
+  {"block": 17, "verdict": "FIX", "problems": [
+    {"type": "SHIFT", "what": "the opening phrase is chosen by the reader, not 'the opening phrase for that practice'", "replace": "include the opening phrase for that practice", "with": "choose an opening phrase"}
+  ]},
+  {"block": 18, "verdict": "FIX", "problems": [
+    {"type": "LOST", "what": "'settle ... somewhere they can rest for a little while'", "replace": "As your eyes look somewhere in the room,", "with": "Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and"},
+    {"type": "SHIFT", "what": "'letting what is already there come into view' became plain 'seeing what is there'", "replace": "seeing what is there", "with": "letting what is already there come into view"}
+  ]},
+  {"block": 19, "verdict": "FIX", "problems": [
+    {"type": "UNCLEAR", "what": "sentence breaks off at a comma; 'may reach you ... without needing you to arrange either one' lost", "replace": "And as you notice the anchor, perhaps a sound or the feel of the breath,", "with": "And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one."},
+    {"type": "LOST", "what": "'whatever you can actually feel'", "replace": "the pressure, the feel of it.", "with": "the pressure, whatever you can actually feel."}
+  ]}
+]

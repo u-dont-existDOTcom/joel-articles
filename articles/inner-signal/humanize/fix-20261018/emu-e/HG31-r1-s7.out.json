@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG31-r1-s7.txt",
+  "input_words": 59,
+  "input_sha256": "c5dc573b6c325f025126ce79211dc09a24172123b89c6bd1c9effea7f4902d6d",
+  "balance_before": 131230,
+  "started_utc": "2026-10-18T03:12:38Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:12:44Z",
+  "response": {
+    "id": "1e9127d9-988c-4e9b-b699-e94d78457eeb",
+    "tool": "humanize",
+    "text": "Be careful with how language link events. Words like “as, while, because, when, after, before, which means” etc are all words that can be used to link events.\n\nIn general, the problem with the first example is that it’s likely to be inaccurate. It’s unlikely that simply breathing will get rid of the trauma. So while the intention is good, the phrasing is a bit strong. The second example is better because it’s more accurate. As long as the breathing is going on, it’s more likely that the adult version of yourself will be able to get involved in the process and try to help the wounded part of yourself.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 59
+    },
+    "elapsed": 6
+  },
+  "balance_after": 131171
+}

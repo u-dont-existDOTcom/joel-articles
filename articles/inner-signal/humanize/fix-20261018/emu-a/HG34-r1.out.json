@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-a/HG34-r1.txt",
+  "input_words": 205,
+  "input_sha256": "1d6d18c70d667206695575e8b650480c7fa44734ec82870fecf8f696979846dd",
+  "balance_before": 156797,
+  "started_utc": "2026-10-18T02:53:05Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T02:53:21Z",
+  "response": {
+    "id": "78701205-b2b5-4516-a242-3ed49a8daec1",
+    "tool": "humanize",
+    "text": "Appendix E: Is your daydreaming helpful or detrimental?\n\nSometimes, daydreaming is intuitive. Your subconscious is simulating an idea or event to help you digest trauma or teach you something. The act of daydreaming may also be a creative exercise or a way your subconscious is telling you about the future. Sometimes your subconscious will show you things you’re afraid of, so you can learn to deal with them. Sometimes it shows you what you want.\n\nOther times, it’s a detriment. An escape from reality. An addiction to fantasy rather than reality. Dissociation from the pain of real life. Obsession with romantic partners. Refusal to accept the responsibilities of adult life.\n\nHow do you know which one it is? Ask yourself, “Is my daydreaming bringing me back into life or taking me away from it?”\n\nIf it’s helping you, ask for more specific guidance.\n\nIf it’s taking you away from life, immediately sit up straight and open your eyes. Then ask your subconscious for help. “Hey subconscious, thanks for all these interesting images. If they’re helpful, please show me what I need to know. If they’re just a way for me to avoid dealing with life, please bring me into the present and show me how to deal with life in a gentle but structured way.”\n\nThen ask yourself, “What do I need to do in the real world that I’m avoiding by daydreaming?”\n\nIt could be anything from “send a text message” or “stop sending text messages” to “clean my room” or “eat” or “sleep” or “deal with my grief” or “create something” or “apologize” or “leave someone” or “tell the truth” or “make a plan” or “get help” or “return to the task at hand” or “stop fantasizing about people who can’t love me.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 205
+    },
+    "elapsed": 15
+  },
+  "balance_after": 156592
+}

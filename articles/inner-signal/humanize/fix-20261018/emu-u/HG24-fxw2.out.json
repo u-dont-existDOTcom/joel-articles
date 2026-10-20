@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-u/HG24-fxw2.txt",
+  "input_words": 68,
+  "input_sha256": "95ce42dfbd79a93aa8bf2654bb53dffd1891a76da37e64722391484e6c884cde",
+  "balance_before": 97192,
+  "started_utc": "2026-10-18T05:56:10Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:56:15Z",
+  "response": {
+    "id": "d4f3e38e-723f-43cd-b017-df29111cbdba",
+    "tool": "humanize",
+    "text": "If it is not there, stop trying to believe an inner voice. If you have enough observing ego, borrow whatever you need - warmth, boundary, direction etc - from someone who you can imagine is good enough, maybe a family member, a friend or a famous person. Try out something which rings true, a sentence, an action etc and see how it goes.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 68
+    },
+    "elapsed": 4
+  },
+  "balance_after": 97124
+}

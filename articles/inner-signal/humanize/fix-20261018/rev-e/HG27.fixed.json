@@ -1,0 +1,92 @@
+{
+ "key": "HG27",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-f"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Closing"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "I believe that your subconscious mind, your body, your sharp analytical mind, and the protector that has been braced for years aren’t your enemies. Most of them have been trying to help without ever being properly introduced."
+   ],
+   "run": "HG27-f-s1",
+   "file": "fix-20261018/emu-f/HG27-f-s1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "a person called Sarah; 'all on your side' for: none of them is the enemy, most have been trying to help without being introduced",
+     "replace": "Hi, I’m Sarah. I believe that your subconscious mind, your body, your analytical mind, and the part of you that feels like it needs to protect you are all on your side.",
+     "with": "I believe that your subconscious mind, your body, your sharp analytical mind, and the protector that has been braced for years aren’t your enemies. Most of them have been trying to help without ever being properly introduced."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "How deeply you can “get hypnotized” isn’t as important to me as whether or not you can become an adult you can trust."
+   ],
+   "run": "HG27-f-s1",
+   "file": "fix-20261018/emu-f/HG27-f-s1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "how deeply you can get hypnotized; an adult you can trust (you, not others)",
+     "replace": "Whether or not you can “get hypnotized” isn’t as important to me as whether or not you can become a trustworthy adult.",
+     "with": "How deeply you can “get hypnotized” isn’t as important to me as whether or not you can become an adult you can trust."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Then listen until the kid is willing to come closer. It’s easiest if you keep enough small promises to the kid, because then the guards can relax a bit. Work on loving yourself, so that your thought processes don’t fight it, and work on thinking clearly, so that your love doesn’t slip off into fantasy. Work on applying this to your regular life, too, so that your adult can keep the promise."
+   ],
+   "run": "HG27-r1",
+   "file": "fix-20261018/emu-a/HG27-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "the kid became 'her'; listen until the kid is willing to come closer",
+     "replace": "Then listen to her when she wants to come closer.",
+     "with": "Then listen until the kid is willing to come closer."
+    },
+    {
+     "type": "INVENTED",
+     "what": "'her' again; enough small promises",
+     "replace": "keep some of your promises to her, too,",
+     "with": "keep enough small promises to the kid,"
+    },
+    {
+     "type": "SHIFT",
+     "what": "think clearly, not 'thinking about yourself'",
+     "replace": "work on thinking about yourself",
+     "with": "work on thinking clearly"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

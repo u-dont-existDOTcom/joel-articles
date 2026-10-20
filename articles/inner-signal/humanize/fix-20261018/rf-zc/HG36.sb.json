@@ -1,0 +1,114 @@
+{
+ "key": "HG36",
+ "from": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/rf-p/HG36.fixed.json",
+ "choices": {
+  "base": "rf-p/HG36.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "folder": "emu-au",
+    "skip": [
+     "emu-au/HG36-aw1"
+    ]
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix G: Altered states"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "paras": [
+    "NB: I am NOT saying use substances. However, many people attempt to do things for the first time such as self hypnosis, contact with their inner child, contact with their Higher Self etc when they are in a mind altered state.",
+    "If you do use them, be aware you don't want to force a revelation out of the state but instead use it to help you do things in your regular life.",
+    "If you have had an opening in the past, the key is to recognize that it is different to have an experience, access it in a particular state and access it in your day to day life. It is great that it has opened but if the child can't take it in, then meet the difficulty rather than escalating the intensity.",
+    "Use phrases such as; Help me to ground. Help me to only take that which I can take in. Help me to remember love. Help me to come back when the time is right. Help me to take one change into my regular life.",
+    "You should NOT use self hypnosis to; Keep you in that state forever Get memories to come up Make yourself afraid to do things Not sleep Override things that your body needs Not talk to people",
+    "If you are doing this in an altered state of consciousness and it is helping you not to love, not to ground, not to be honest, not to sleep, not to communicate, not to do regular life things, you need to STOP trying to go deeper and work on integrating what you have."
+   ],
+   "run": "HG36-fxw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-r/HG36-fxw1.out.txt",
+   "refix_was": true
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Stabilize before you interpret"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "Self hypnosis is extremely powerful, and when you are in an altered state of consciousness, whether it be from loveyhuasca, or meditation, or when lucid dreaming, or from grief, or sexual energy, or prayer, or not sleeping, or any other way similar to using plant medicines, often you can get your mind to open faster then your adult self can figure out what is going on."
+   ],
+   "run": "HG36-sw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-au/HG36-sw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "The problem is, you THINK because you are in an altered state, it MEANS something. Sometimes it is your inner child talking, but just as often it is a Protector showing you their fear, or it is your shame or your grief or your anger or your longing or whatever else is in you that wants to be taken care of. Sometimes it is your body’s reaction to being overloaded, or chaos in your environment, or lack of sleep or just your confusion. Just because you had a picture that scared you, doesn’t mean it is true. Just because you had a bad feeling, doesn’t mean it is a lesson you need to learn. Just because you had a download and the lighting was nice, doesn’t mean you should believe it."
+   ],
+   "run": "HG36-sw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-au/HG36-sw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "What is a simpler question you can ask yourself first?"
+   ],
+   "run": "HG36-sw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-au/HG36-sw1.out.txt",
+   "refix": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "“What kind of problem is happening?”"
+   ],
+   "run": "HG36-sw1",
+   "file": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261018/emu-au/HG36-sw1.out.txt",
+   "refix": true
+  }
+ ]
+}

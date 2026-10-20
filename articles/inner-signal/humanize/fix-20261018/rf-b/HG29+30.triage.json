@@ -1,0 +1,118 @@
+{
+ "key": "HG29+30",
+ "fixes": [
+  {
+   "block": 3,
+   "problems": [
+    {
+     "type": "SHIFT",
+     "what": "'never more controlling' became 'controlling won't work'",
+     "replace": "if you use it to be more controlling, it will NOT work",
+     "with": "you should NEVER use it to be more controlling",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 16,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "'only as much as is safe' lost on softening/stepping back",
+     "replace": "step back and soften so that",
+     "with": "step back and soften only as much as is safe, so that",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "WRONG",
+     "what": "'the Protector' (adult function) became 'one of your protectors' (guard parts)",
+     "replace": "one of your protectors",
+     "with": "your adult Protector",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged; \"with\" set by me (Opus) to the guide's own term for the adult function"
+    },
+    {
+     "type": "SHIFT",
+     "what": "'prove that I heard correctly' became 'integrate what I have heard'",
+     "replace": "integrate what I have heard",
+     "with": "prove that I heard correctly",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "'without pretending the answer is automatically true' lost; NLP 'affects how gently the question enters' became 'will make sure it is safe'",
+     "replace": "The NLP will make sure you are getting it in a safe way.",
+     "with": "The NLP can help you get it in a safer way, but that doesn’t make the answer automatically true.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B3: LOST shape of a question changes what answers can appear",
+   "why": "framing line; the overlap-in-asking sentence and the seven elements carry it"
+  },
+  {
+   "finding": "B3: LOST \"able to hear the next signal\"",
+   "why": "list shortened with etc; no safety item"
+  },
+  {
+   "finding": "B3: LOST constraint items: no forcing, no false certainty, capacity before content",
+   "why": "list shortened with etc; capacity-before-content stays in two scripts, false-certainty caution restored by the B16 fix"
+  },
+  {
+   "finding": "B3: UNCLEAR \"make your prompt safe\" replaces \"safe fallback\"; silence-as-failure missing",
+   "why": "the script follows at once and calls silence a successful answer"
+  },
+  {
+   "finding": "B3: SHIFT \"sometimes nothing answers\" became \"very good chance no answer\"",
+   "why": "frequency wording; same advice (not yet, rest)"
+  },
+  {
+   "finding": "B3: LOST \"build capacity\" and \"ordinary thing you already know to do\"",
+   "why": "list shortened; do whatever you need to do covers them"
+  },
+  {
+   "finding": "B16: SHIFT \"only as gentle symbol/body signal/single step\" became \"for instance\" examples",
+   "why": "in a way I can integrate it keeps the limit; examples fit"
+  },
+  {
+   "finding": "B16: LOST \"my body ... today\" and \"full truth of this situation\" in clarity prompt",
+   "why": "script wording; same ask, same limit"
+  },
+  {
+   "finding": "B16: SHIFT \"what would help you trust me\" became \"how can you trust me\" (resistance, anxiety)",
+   "why": "wording of the same question to the part"
+  },
+  {
+   "finding": "B16: SHIFT anxiety: \"what is anxiety trying to protect\" became \"what are you protecting me from\"",
+   "why": "wording; same ask of the anxiety"
+  },
+  {
+   "finding": "B16: SHIFT \"benefit of all beings\" became \"alignment with all beings\"",
+   "why": "wording of the same aim"
+  },
+  {
+   "finding": "B16: SHIFT \"part of this signal\" (mixed) became either/or source",
+   "why": "a question put to the subconscious; step back so true guidance can come keeps the separating"
+  },
+  {
+   "finding": "B16: SHIFT \"religious fear\", \"family programming\" became \"my religion\", \"my family\"",
+   "why": "list wording inside an is-it-programming question"
+  },
+  {
+   "finding": "B16: INVENTED aside \"this one is longer and more complicated\"",
+   "why": "casual aside in the author's voice, claims nothing new"
+  },
+  {
+   "finding": "B16: LOST \"gently\"; \"what I need to deal with\" became \"my life\"",
+   "why": "wording; same ask"
+  }
+ ],
+ "resample": []
+}

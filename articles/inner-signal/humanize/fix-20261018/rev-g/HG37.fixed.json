@@ -1,0 +1,512 @@
+{
+ "key": "HG37",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-c",
+  "fix-20261018/emu-g",
+  "fix-20261018/emu-h",
+  "fix-20261018/emu-i",
+  "fix-20261018/emu-j"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "paras": [
+    "I’m going to come from experience here.",
+    "Sometimes, during self-hypnosis, meditation, lucid dreaming, loveyhuasca, grief, prayer, plant-medicine-adjacent practice, or a variety of other altered states of consciousness, you may encounter something you perceive to be a demon, a jinn, a parasitic energy, some other kind of dark intelligence, or even a terrifying archetype. Sometimes it comes as a voice. Sometimes as an image. It doesn’t feel like a simple emotion or a younger part, and it feels intrusive, hateful, seductive, mocking, or simply alien.",
+    "First and foremost, it doesn’t matter for the purposes of this guide whether they are literally demons or not. Maybe they are literal beings; maybe they are symbolic mind-forms, trauma in a frightening costume, dissociated energy, or ancestral and relational burdens. All that matters is the practical question: “What response makes me safer, clearer, more loving, more grounded, and less hooked?”"
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-h/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "from experience (not 'a bit more')",
+     "replace": "I’m going to come from a bit more experience here.",
+     "with": "I’m going to come from experience here."
+    },
+    {
+     "type": "LOST",
+     "what": "plant-medicine-adjacent practice; grief (not extreme grief)",
+     "replace": "extreme grief, prayer, or a variety",
+     "with": "grief, prayer, plant-medicine-adjacent practice, or a variety"
+    },
+    {
+     "type": "SHIFT",
+     "what": "it doesn't feel like an emotion or younger part (not 'it is not'); it feels intrusive, hateful, seductive, mocking or simply alien",
+     "replace": "But it is not a simple emotion, and not merely a younger part.",
+     "with": "It doesn’t feel like a simple emotion or a younger part, and it feels intrusive, hateful, seductive, mocking, or simply alien."
+    },
+    {
+     "type": "LOST",
+     "what": "the possibilities: literal beings, symbolic mind-forms, trauma in a frightening costume, dissociated energy, ancestral and relational burdens",
+     "replace": "whether they are literally demons or not.",
+     "with": "whether they are literally demons or not. Maybe they are literal beings; maybe they are symbolic mind-forms, trauma in a frightening costume, dissociated energy, or ancestral and relational burdens."
+    },
+    {
+     "type": "LOST",
+     "what": "the practical question as a script, with 'less hooked'",
+     "replace": "All that matters is what the best way of dealing with them is, in terms of what leaves you feeling the safest, clearest, most loving, most grounded, etc.",
+     "with": "All that matters is the practical question: “What response makes me safer, clearer, more loving, more grounded, and less hooked?”"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Start with the room, the body, and basic safety"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6,
+    7,
+    8
+   ],
+   "paras": [
+    "So what do you do when a demon, or jinn, or other bad or intrusive entity shows up? Don’t reward it with instant certainty about what it is. Run the triage first: medical danger, environment, body, overload, and how open your mind has become. Open your eyes, feel your feet, name the room, lower the stimulation, leave hostile company, and stop adding prompts. Don’t go deeper, hunt for hidden truth, or debate what it is while you’re destabilized.",
+    "“Only what can be integrated is welcome right now. Anything that’s too much can wait. The adult in me is still here, and my body can go back to safety.”",
+    "If you feel like you’re in danger of hurting yourself or others, if you feel like you’re going psychotic and afraid, if you feel like you won’t be able to sleep afterwards, if you feel extremely paranoid, if you have chest pain, if you feel like you’re going to have a seizure, if you feel like you’re too hot in a serious way, if you feel like you’ve taken too much of something, or if you feel like you just can’t function in the world anymore, then the self-hypnosis session is over. Go get some real-world help."
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-h/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "no instant certainty; the triage (medical danger, environment, body, overload, how open the mind is); the steps; don't deepen, hunt for hidden truth or debate what it is",
+     "replace": "you check in with the room, your body, and safety in general.",
+     "with": "you check in with the room, your body, and safety in general, without rewarding it with instant certainty about what it is. Run the triage first: medical danger, environment, body, overload, and how open your mind has become. Open your eyes, feel your feet, name the room, lower the stimulation, leave hostile company, and stop adding prompts. Don’t go deeper, hunt for hidden truth, or debate what it is while you’re destabilized."
+    },
+    {
+     "type": "WRONG",
+     "what": "the script invited the presence forward and had the body bring it to safety; the published: only what can be integrated is welcome, too much can wait, the adult remains, the body may return to safety",
+     "replace": "“If there is anything that can be integrated right now, you may come forward. But know that you can wait, and that you will not be able to come forward until you are something that can be integrated. Know also that I will always be here as an adult, and that my body will bring you to a place of safety.”",
+     "with": "“Only what can be integrated is welcome right now. Anything that’s too much can wait. The adult in me is still here, and my body can go back to safety.”"
+    },
+    {
+     "type": "REPEAT",
+     "what": "the room, body and safety check said, then the triage said again",
+     "replace": "The same thing you do first for anything else— you check in with the room, your body, and safety in general, without rewarding it with instant certainty about what it is.",
+     "with": "Don’t reward it with instant certainty about what it is.",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "A response check, not a verdict about what it is"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "If not, and you’re stable enough to stay present, check in with yourself as to what helps. Again, it doesn’t matter whether or not it’s literally a demon; this isn’t a test of what it is. Put your hand on your heart, if that feels welcome, take a comfortable breath, and keep the room available."
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-h/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "Emulate's paragraph breaks off ('if that feels'); the published: once stable enough, notice what helps without making it a test of what it is; hand on heart if welcome, a comfortable breath, keep the room",
+     "replace": "If not, then check in with yourself as to what will be the best response. Again, it doesn’t matter whether or not it’s literally a demon. Put your hand on your heart, if that feels",
+     "with": "If not, and you’re stable enough to stay present, check in with yourself as to what helps. Again, it doesn’t matter whether or not it’s literally a demon; this isn’t a test of what it is. Put your hand on your heart, if that feels welcome, take a comfortable breath, and keep the room available."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "2. Internalize that you do not have to know what this is. Notice whether warmth or distance helps, and keep your boundary either way. Know that you are under no obligation to do whatever it is asking of you."
+   ],
+   "run": "HG37-r1-s3",
+   "file": "fix-20261018/emu-g/HG37-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "warmth or distance, and keep the boundary either way (not either/or)",
+     "replace": "Ask yourself if it would be appropriate to send it some warmth or if you need to place a boundary with it.",
+     "with": "Notice whether warmth or distance helps, and keep your boundary either way."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    12
+   ],
+   "paras": [
+    "3. If you feel vulnerable, tightness in your throat, sadness, fear or a sense of trying to protect something, bring in your Nurturer. If it stays hostile or gets more frightening, then stop engaging with it and come back to your body and the room."
+   ],
+   "run": "HG37-r1-s3",
+   "file": "fix-20261018/emu-g/HG37-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "return to the body and room",
+     "replace": "then do not continue to engage with it.",
+     "with": "then stop engaging with it and come back to your body and the room."
+    },
+    {
+     "type": "SHIFT",
+     "what": "a sense of trying to protect something",
+     "replace": "or you sense you need to protect yourself in some manner",
+     "with": "or a sense of trying to protect something",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    },
+    {
+     "type": "SHIFT",
+     "what": "stays hostile or becomes more frightening (not any fear)",
+     "replace": "If it continues to be hostile or you feel afraid,",
+     "with": "If it stays hostile or gets more frightening,",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    13
+   ],
+   "paras": [
+    "4. Again, you do not have to know where this is coming from. Ask yourself if this way of responding helps you become clearer, steadier, and less hooked. A protective part doesn’t have to show its fear quickly, and a comforting response doesn’t prove what it is either. You can use love and boundaries without deciding what it is first."
+   ],
+   "run": "HG37-r1-s3",
+   "file": "fix-20261018/emu-g/HG37-r1-s3.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "whether the response helps you become clearer, steadier, less hooked (not whether it clears 'it'); a protector needn't show its fear quickly, comfort doesn't prove an interpretation",
+     "replace": "Ask yourself if this way of responding to it seems to be clearing it.",
+     "with": "Ask yourself if this way of responding helps you become clearer, steadier, and less hooked. A protective part doesn’t have to show its fear quickly, and a comforting response doesn’t prove what it is either."
+    },
+    {
+     "type": "LOST",
+     "what": "love and boundaries don't need a verdict first",
+     "replace": "It is ok to use a combination of love and boundaries to interact with it.",
+     "with": "You can use love and boundaries without deciding what it is first."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    14
+   ],
+   "paras": [
+    "Do not fight from fear"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    15
+   ],
+   "paras": [
+    "The first impulse may be to fight it, banish it, hate it, show it I’m more powerful, argue with it, panic, become nothing but the threatened self, etc. Some traditions use prayers, mantras, protections, banishing and exorcism forms, and some people find them useful. The problem is, if you fight from fear…"
+   ],
+   "run": "HG37-r1-s4",
+   "file": "fix-20261018/emu-g/HG37-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "the first impulse may be (not 'my first thought'); identify completely with the threatened self (not 'be it')",
+     "replace": "My first thought is to fight it",
+     "with": "The first impulse may be to fight it"
+    },
+    {
+     "type": "WRONG",
+     "what": "identify completely with the threatened self (not 'be it')",
+     "replace": "panic, be it, etc.",
+     "with": "panic, become nothing but the threatened self, etc."
+    },
+    {
+     "type": "SHIFT",
+     "what": "some traditions use them (not 'I have seen')",
+     "replace": "I have seen different prayers, mantras, protections, banishing and exorcism forms that some people find useful.",
+     "with": "Some traditions use prayers, mantras, protections, banishing and exorcism forms, and some people find them useful.",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "…it becomes the center of your attention. When you hate it, you give it a hook in you. Pride gives it an opponent, and panic gives it your nervous system."
+   ],
+   "run": "HG37-r1-s4",
+   "file": "fix-20261018/emu-g/HG37-r1-s4.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "pride gives it an opponent, panic gives it the nervous system (the sentence was garbled)",
+     "replace": "…it becomes the center of your attention and when you hate it, give it a hook in you, or fight it from pride or panic….",
+     "with": "…it becomes the center of your attention. When you hate it, you give it a hook in you. Pride gives it an opponent, and panic gives it your nervous system."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17
+   ],
+   "paras": [
+    "So the next time it shows up, simply say, “I see that there is no reason to hate or revile what I am experiencing. I see that there is no need to merge with or become what I am experiencing. I see that there is no need to obey what I am experiencing. I see that there is no need to defeat what I am experiencing from fear. I choose instead to return my attention to my loving awareness.”"
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-j/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'the enemy' (the appendix's point is not to fight it)",
+     "replace": "So the next time the enemy enters the room, simply say to it,",
+     "with": "So the next time it shows up, simply say,"
+    },
+    {
+     "type": "LOST",
+     "what": "not defeat it from fear",
+     "replace": "I see that there is no need to defeat what I am experiencing.",
+     "with": "I see that there is no need to defeat what I am experiencing from fear."
+    },
+    {
+     "type": "SHIFT",
+     "what": "obey this (not 'the voice in my head or in another')",
+     "replace": "I see that there is no need to obey the voice in my head or in another.",
+     "with": "I see that there is no need to obey what I am experiencing.",
+     "round": 2,
+     "from": "verify-d (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    18
+   ],
+   "paras": [
+    "A bodily boundary: compassion present, door closed"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "paras": [
+    "Secondly, feel free to maintain a bodily boundary and say to the presence “while compassion is present, the door is closed.”",
+    "This is especially important if the presence feels in any way hostile, cold, alien, parasitic, etc. It doesn’t respect my boundaries. In this case, don’t approach it with soft sentimental love, as though you were inviting it in for tea. Approach it with love while maintaining a boundary.",
+    "Sit up, ground your feet, straighten your spine, pull your shoulder blades back slightly so your chest is open but not exposed, feel the boundary of the skin around your torso and that this body has a perimeter, and simply say “While I recognize that there may be suffering here and I want all suffering to go back where it came from, the boundary of this skin is the boundary of an adult now. You don’t get to come in the house anymore.”"
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-i/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "WRONG",
+     "what": "don't offer soft love as though inviting it in for tea (Emulate made it an instruction)",
+     "replace": "In this case, don’t approach it with soft sentimental love. Invite it in for tea.",
+     "with": "In this case, don’t approach it with soft sentimental love, as though you were inviting it in for tea."
+    },
+    {
+     "type": "LOST",
+     "what": "the chest open but not exposed; the body has a perimeter",
+     "replace": "pull your shoulder blades back slightly, feel the boundary of the skin around your torso",
+     "with": "pull your shoulder blades back slightly so your chest is open but not exposed, feel the boundary of the skin around your torso and that this body has a perimeter,"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    23
+   ],
+   "paras": [
+    "If it might be psychosis or destabilization"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    24,
+    25,
+    26
+   ],
+   "paras": [
+    "Thirdly, this exercise is assuming that you are having a symbolic experience of hostile presences which responds to grounding and love. That is very different from a state that becomes persistent, paranoid, sleepless, dangerous, or impossible to reality-test, which may be psychosis or another kind of destabilization.",
+    "If you feel like you are under attack for multiple days, are unable to sleep or function normally, are hearing commands, feel like you need to hurt yourself or somebody else, are going manic, are unable to communicate normally, or feel like you can’t tell the difference between symbolic experience and normal reality, get help immediately. This is not something to deal with in hypnosis.",
+    "As a general rule, if doing this makes you more loving, grounded, relational, honest, and functional, keep going, gently. If it makes you more Paranoid, sleepless, grandiose, isolated, scared, or unreal, stop going deeper and get support."
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-i/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "the signs: persistent, paranoid, sleepless, dangerous, impossible to reality-test",
+     "replace": "It is not meant for people who may be going psychotic or experiencing other forms of destabilization.",
+     "with": "That is very different from a state that becomes persistent, paranoid, sleepless, dangerous, or impossible to reality-test, which may be psychosis or another kind of destabilization."
+    },
+    {
+     "type": "SHIFT",
+     "what": "hears commands (not 'hearing voices': the guide works with inner voices)",
+     "replace": "are hearing voices,",
+     "with": "are hearing commands,"
+    },
+    {
+     "type": "LOST",
+     "what": "continue gently",
+     "replace": "keep doing it.",
+     "with": "keep going, gently."
+    },
+    {
+     "type": "SHIFT",
+     "what": "isolated, frightened or unreal; stop deepening and get support (not 'don't do it')",
+     "replace": "non-relational, scared, and non-functional, don’t do it.",
+     "with": "isolated, scared, or unreal, stop going deeper and get support."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    27
+   ],
+   "paras": [
+    "The cosmic-download humility test"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    28,
+    29,
+    30
+   ],
+   "paras": [
+    "Also, some of these presences or shadow forces or grandiose parts may respond not just by trying to scare you, but by trying to give you a sense that you are special, or trying to “download cosmic info” into you, or giving you a special mission that makes the dishes seem beneath you, etc. You can simply say “Thank you for the imagery. I don’t need a grand performance. Unless the info you have to download can become a simple, honest act of care tomorrow morning, like doing the dishes, cleaning my room, keeping a promise, apologizing, resting, eating or helping someone I love, I don’t need it.”",
+    "In other words, guidance worth keeping should make ordinary life, the dishes and the room included, more beautiful, honest, relational, humble, reliable, and useful to other people."
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-i/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "'Finally' twice in the appendix",
+     "replace": "Finally, some of these presences",
+     "with": "Also, some of these presences"
+    },
+    {
+     "type": "LOST",
+     "what": "a special mission, a revelation that makes washing dishes seem beneath you",
+     "replace": "or trying to “download cosmic info” into you, etc.",
+     "with": "or trying to “download cosmic info” into you, or giving you a special mission that makes the dishes seem beneath you, etc."
+    },
+    {
+     "type": "LOST",
+     "what": "the script: thank you for the imagery; no grand performance; a simple, honest act of care tomorrow morning, and its list",
+     "replace": "“Unless the info you have to download is going to help me do the dishes or clean my room, I don’t need it.”",
+     "with": "“Thank you for the imagery. I don’t need a grand performance. Unless the info you have to download can become a simple, honest act of care tomorrow morning, like doing the dishes, cleaning my room, keeping a promise, apologizing, resting, eating or helping someone I love, I don’t need it.”"
+    },
+    {
+     "type": "SHIFT",
+     "what": "guidance worth keeping makes ordinary life more beautiful, honest, relational, humble, reliable and useful to other people",
+     "replace": "the guidance has to help you do the dishes or clean your room in a more beautiful, honest, relational, humble, useful way.",
+     "with": "guidance worth keeping should make ordinary life, the dishes and the room included, more beautiful, honest, relational, humble, reliable, and useful to other people."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    31
+   ],
+   "paras": [
+    "Don’t become an entity hobbyist"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Finally, I recognize that some of you may be tempted to become hobbyists in regard to demons, jinns, hostile presences, Unattached Burdens, etc. The truth is, they all lead to the same practical training: can love stay present without giving up the boundary, and can your mind become harder to hook? Beyond that, I don’t really want you becoming hobbyists in this area."
+   ],
+   "run": "HG37-r1",
+   "file": "fix-20261018/emu-i/HG37-r1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'they all basically respond the same way'; the published: they all lead to the same practical training: can love stay present without giving up the boundary, can the mind become harder to hook",
+     "replace": "The truth is, they all basically respond the same way. It’s good to learn how to relate to them with love, and it’s good to make your mind harder to hook, but beyond that, I don’t really want you becoming hobbyists in this area.",
+     "with": "The truth is, they all lead to the same practical training: can love stay present without giving up the boundary, and can your mind become harder to hook? Beyond that, I don’t really want you becoming hobbyists in this area."
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

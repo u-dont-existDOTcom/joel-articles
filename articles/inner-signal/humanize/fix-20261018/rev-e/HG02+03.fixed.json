@@ -1,0 +1,243 @@
+{
+ "key": "HG02+03",
+ "emu_dirs": [
+  "fix-20261018/emu-a",
+  "fix-20261018/emu-f"
+ ],
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "The table of contents is hiding on the left"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    1
+   ],
+   "paras": [
+    "Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend."
+   ],
+   "heading": false,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    2
+   ],
+   "paras": [
+    "Introduction"
+   ],
+   "heading": true,
+   "verdict": null
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "Hello Lovey Bunny!"
+   ],
+   "heading": false,
+   "verdict": null
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4
+   ],
+   "paras": [
+    "Have you ever considered the fact that you were born with a brain and mind that is capable of many different layers of consciousness: dreaming, protecting, analyzing, imitating, loving, remembering, hiding, revealing and healing, etc. etc.?"
+   ],
+   "run": "HG02_03-f-s1",
+   "file": "fix-20261018/emu-f/HG02_03-f-s1.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'exquisitely designed and arranged' (a designed brain)",
+     "replace": "an exquisitely designed and arranged brain and mind",
+     "with": "a brain and mind"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    5
+   ],
+   "paras": [
+    "Instead of learning how to integrate all of these different layers, you were taught (and/or you learned on your own) how to push through, repress or supress your emotions, to pretend to be confident, to follow or defy authority, and so on and so forth, and to call that adulthood. Meanwhile, your deeper mind kept running its own \"programs\": the child mind wanting safety, the guard expecting danger, the body mind remembering what you explained away, the intuitive mind speaking before words, the fantasy mind trying to become guidance, etc."
+   ],
+   "run": "HG02_03-f-s1",
+   "file": "fix-20261018/emu-f/HG02_03-f-s1.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "and call that adulthood",
+     "replace": "and so on and so forth.",
+     "with": "and so on and so forth, and to call that adulthood."
+    },
+    {
+     "type": "SHIFT",
+     "what": "'it is no wonder' makes the programs a result of the training; the published: meanwhile the deeper mind kept running its own programs, each with what it wants",
+     "replace": "It is no wonder that you have many different \"programs\" running in your mind, including child mind, guard, body mind, intuitive mind, fantasy mind, etc.",
+     "with": "Meanwhile, your deeper mind kept running its own \"programs\": the child mind wanting safety, the guard expecting danger, the body mind remembering what you explained away, the intuitive mind speaking before words, the fantasy mind trying to become guidance, etc."
+    },
+    {
+     "type": "SHIFT",
+     "what": "push through (not 'push your emotions')",
+     "replace": "how to push, repress or supress your emotions",
+     "with": "how to push through, repress or supress your emotions",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "A lot of hypnosis teaching acts as if the subconscious mind worked like a machine, and all you had to do was feed in a command and the machine would do what you put in. That never did much for me. For me, a much more useful model was to sit down and listen to the different parts of myself (the scared kid, the guard, the body, the intuition, the part trying to run Tuesday) until they all could be heard without one of them seizing the microphone."
+   ],
+   "run": "HG02_03-f-s2",
+   "file": "fix-20261018/emu-f/HG02_03-f-s2.out.txt",
+   "fixes": [
+    {
+     "type": "INVENTED",
+     "what": "'I learned hypnosis from a lot of people'; the published: a lot of hypnosis teaching treats the subconscious like a machine, and that never did much for him",
+     "replace": "I learned hypnosis from a lot of people who tried to act as if the subconscious mind worked like a machine, and all they had to do was feed in a command and the machine would do what they put in.",
+     "with": "A lot of hypnosis teaching acts as if the subconscious mind worked like a machine, and all you had to do was feed in a command and the machine would do what you put in. That never did much for me."
+    },
+    {
+     "type": "SHIFT",
+     "what": "listening (not talking) until the scared kid, the guard, the body, the intuition and the part trying to run Tuesday can all be heard without one seizing the microphone",
+     "replace": "For me, a much more useful model was to learn to talk to different parts of myself until they all could listen together.",
+     "with": "For me, a much more useful model was to sit down and listen to the different parts of myself (the scared kid, the guard, the body, the intuition, the part trying to run Tuesday) until they all could be heard without one of them seizing the microphone."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7
+   ],
+   "paras": [
+    "This guide teaches a method of self-hypnosis that gathers your attention and brings the conscious mind, subconscious mind, body, inner child, protector parts, the adult self, and the Higher Self all into the same room to be able to listen and talk together honestly."
+   ],
+   "run": "HG02_03-f-s2",
+   "file": "fix-20261018/emu-f/HG02_03-f-s2.out.txt",
+   "fixes": [
+    {
+     "type": "UNCLEAR",
+     "what": "'the audience of'; self-hypnosis gathers attention",
+     "replace": "to bring the audience of the conscious mind",
+     "with": "that gathers your attention and brings the conscious mind"
+    },
+    {
+     "type": "LOST",
+     "what": "one honest inner meeting",
+     "replace": "to be able to listen and talk together.",
+     "with": "to be able to listen and talk together honestly."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    8
+   ],
+   "paras": [
+    "Where do I start? Easy. Just listen, warm up to, protect, clarify, reality test and act on it!"
+   ],
+   "run": "HG02_03-f-s3",
+   "file": "fix-20261018/emu-f/HG02_03-f-s3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    9
+   ],
+   "paras": [
+    "It doesn’t have to be a dramatic trance experience but it does have to lead to a more trustworthy relationship between all parts of the mind, proven in ordinary life."
+   ],
+   "run": "HG02_03-f-s3",
+   "file": "fix-20261018/emu-f/HG02_03-f-s3.out.txt",
+   "fixes": [
+    {
+     "type": "LOST",
+     "what": "proven in ordinary life",
+     "replace": "between all parts of the mind.",
+     "with": "between all parts of the mind, proven in ordinary life."
+    }
+   ],
+   "verdict": "fixed"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Let’s call it communion. The conscious mind doesn’t have to shout it’s message from the roof top and the subconscious doesn’t have to rely on symptoms, dreams, cravings, day dreams, and other weird body signals to communicate."
+   ],
+   "run": "HG02_03-f-s3",
+   "file": "fix-20261018/emu-f/HG02_03-f-s3.out.txt",
+   "verdict": "OK"
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11
+   ],
+   "paras": [
+    "I work with the premise that the subconscious is a living ecology of parts, memories, impulses, images, protections and wisdom. When the system needs coherence, I begin with Higher Self or the universal heart, and I separate into those parts only when that helps. I bring in inner-child reparenting because a wounded young part won’t be repaired by a clever suggestion. I also pull in elements from prompt engineering, because the shape of a question changes the kind of answer we can hear, and teach literacy in the domain of influence, since hypnosis is far from the only thing that’s hypnotizing us."
+   ],
+   "run": "HG02_03-f-s4",
+   "file": "fix-20261018/emu-f/HG02_03-f-s4.out.txt",
+   "links": [
+    {
+     "published": "inner-child reparenting",
+     "new": "inner-child reparenting"
+    }
+   ],
+   "fixes": [
+    {
+     "type": "SHIFT",
+     "what": "'heal inner child trauma'; 'we must be skilled enough' is new; the order (begin with Higher Self when the system needs coherence, parts only when that helps); why reparenting",
+     "replace": "I work with the premise that the subconscious is an ecology, and we must be skilled enough to communicate with its many parts, to separate ourselves into those parts if necessary to better understand them, to heal inner child trauma by reparenting those parts, to coalesce that ecology into a Higher Self or universal heart when need be, and more.",
+     "with": "I work with the premise that the subconscious is a living ecology of parts, memories, impulses, images, protections and wisdom. When the system needs coherence, I begin by coalescing that ecology into a Higher Self or universal heart, and I separate into those parts only when that helps. I bring in inner-child reparenting because a wounded young part won’t be repaired by a clever suggestion."
+    },
+    {
+     "type": "LOST",
+     "what": "why prompt engineering",
+     "replace": "I also pull in elements from prompt engineering, and teach",
+     "with": "I also pull in elements from prompt engineering, because the shape of a question changes the kind of answer we can hear, and teach"
+    },
+    {
+     "type": "SHIFT",
+     "what": "begin with Higher Self or the universal heart (not 'coalescing the ecology into' it)",
+     "replace": "I begin by coalescing that ecology into a Higher Self or universal heart",
+     "with": "I begin with Higher Self or the universal heart",
+     "round": 2,
+     "from": "verify-b (second reader)"
+    }
+   ],
+   "verdict": "fixed"
+  }
+ ]
+}

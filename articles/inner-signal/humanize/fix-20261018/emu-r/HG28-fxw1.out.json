@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-r/HG28-fxw1.txt",
+  "input_words": 73,
+  "input_sha256": "c00301340337080416220584fff1e2ff7e538579905b7a42929b4754bb94671b",
+  "balance_before": 111702,
+  "started_utc": "2026-10-18T05:11:40Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T05:11:44Z",
+  "response": {
+    "id": "586df41e-d412-4f14-887e-ab96ee62b0cb",
+    "tool": "humanize",
+    "text": "Try it in the Inner Signal app\n\nYou will need to download Inner Signal App for voice hypnosis, information, to learn the language, and for feedback on what you report. Have fun. Feel free to ask any questions you might have about what the hypnotist is doing. Self hypnosis is a great tool, but you don't need an app to do it. You may want to find someone, but it is not required to graduate.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 73
+    },
+    "elapsed": 4
+  },
+  "balance_after": 111629
+}

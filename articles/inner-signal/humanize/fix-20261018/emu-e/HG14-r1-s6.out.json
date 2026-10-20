@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG14-r1-s6.txt",
+  "input_words": 43,
+  "input_sha256": "98ab43356d6964b12c14e74ce61ac5a36376946f171429fb5742656227c7a2aa",
+  "balance_before": 135287,
+  "started_utc": "2026-10-18T03:07:37Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:07:42Z",
+  "response": {
+    "id": "b3db6144-e72f-4697-b262-ce1cf1489a6a",
+    "tool": "humanize",
+    "text": "Imagine that you are in court and the defendant is you, only a few years younger. Would it be of any value to try and understand why you did whatever it was you did? Would it help to try and appreciate what options you felt you had? Would any useful insight be gained by considering the consequences of your actions? Whilst acknowledging the harm you may have caused, and working to address and repair that harm, would simply punishing you make any difference to the person you were when you committed the offence?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 43
+    },
+    "elapsed": 5
+  },
+  "balance_after": 135174
+}

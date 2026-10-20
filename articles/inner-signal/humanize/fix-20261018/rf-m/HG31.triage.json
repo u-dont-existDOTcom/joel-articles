@@ -1,0 +1,72 @@
+{
+ "key": "HG31",
+ "fixes": [
+  {
+   "block": 79,
+   "problems": [
+    {
+     "type": "UNCLEAR",
+     "what": "B79: UNCLEAR \"These reframe statements\" has no antecedent in the stretch; also B79: SHIFT \"declares that the problem was secretly good all along\" became \"make the problem into something that is good\" (wider class, secretly/all along lost)",
+     "replace": "These reframe statements are dishonest because they make the problem into something that is good.",
+     "with": "Reframes are dishonest when they make the problem into something that was good all along.",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    },
+    {
+     "type": "LOST",
+     "what": "B79: LOST \"What is this part trying to do for me?\" (now \"How might this part reframe this?\"); also B79: INVENTED extra question \"What else could this be about?\" and the R line (two \"what else\" questions)",
+     "replace": "or What else could this be about? or How might this part reframe this?",
+     "with": "or What is this part trying to do for me?",
+     "round": 1,
+     "from": "second reader of the refix (rf), triaged"
+    }
+   ]
+  },
+  {
+   "block": 8,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B9: LOST the term \"indirect language\" and with it the published link (found by tools/refix_links.py, 2026-10-18)",
+     "replace": "What we need to do is find a way of going around the part",
+     "with": "What we need to do is use indirect language to go around the part",
+     "round": 1,
+     "from": "my check of the published links (refix_links.py), triaged"
+    }
+   ]
+  },
+  {
+   "block": 66,
+   "problems": [
+    {
+     "type": "LOST",
+     "what": "B74: LOST the two cited studies (Blain and colleagues, Grant and colleagues) and their links, now \"[1, 2]\" with no list (found by tools/refix_links.py, 2026-10-18)",
+     "replace": "[1, 2]",
+     "with": "(see Blain and colleagues, and Grant and colleagues)",
+     "round": 1,
+     "from": "my check of the published links (refix_links.py), triaged"
+    },
+    {
+     "type": "UNCLEAR",
+     "what": "B74: \"a paper ... can be found here\" points at no link; the published names Gollwitzer's foundational paper",
+     "replace": "a paper explaining how and why they work can be found here .",
+     "with": "Gollwitzer’s paper explains how and why they work.",
+     "round": 1,
+     "from": "my check of the published links (refix_links.py), triaged"
+    }
+   ]
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "B79: LOST that the questions \"widen meaning without lying\"",
+   "why": "the heading says it (\"Reframing — changing the meaning without lying\")"
+  },
+  {
+   "finding": "B79: SHIFT \"What would the Nurturer, the Protector, and the Leader each say about this?\" became three \"How might my ... reframe this?\" questions",
+   "why": "the three figures are each asked; \"reframe\" for \"say about this\" is wording"
+  }
+ ],
+ "resample": [],
+ "note": "the better of two samples (emu-ad; emu-ac in rf-l invents the author's motive), triaged by me 2026-10-18"
+}

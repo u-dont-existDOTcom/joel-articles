@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-e/HG17-r1-s17.txt",
+  "input_words": 124,
+  "input_sha256": "345d52424f537aecd5808fb9cd54c2118dc50d56ecaeade8caab95f30b6ca4cf",
+  "balance_before": 131737,
+  "started_utc": "2026-10-18T03:11:45Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T03:11:54Z",
+  "response": {
+    "id": "4659d43d-cf02-4b96-92b3-bf69bf2d2acf",
+    "tool": "humanize",
+    "text": "First, is it useful? Will it be there when you want it to be, not there when you don't want it to be? Can you change your mind about it and get back when you want to? It shouldn't mean you'll do anything you're told, anytime someone tells you, or even if you hear it overheard. Being able to go in faster should not limit what you can work with.\n\nIt's not a good idea to do it while driving or anything where you need to be actively paying attention even if it is open eyed and even if the words are conditional.\n\nWhen you don't want it any more, stop practicing, take it out of any recordings or active apps you're using, go back to a familiar induction and say you're done using it. If you have problems not being able to stop using it or not being able to come back from it easily, get qualified help. The trigger should only be for the next time you decide you want to do a session, it shouldn't keep you out of line today.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 124
+    },
+    "elapsed": 9
+  },
+  "balance_after": 131613
+}

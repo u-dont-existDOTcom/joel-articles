@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-w/HG06-fxw1.txt",
+  "input_words": 52,
+  "input_sha256": "182ea7090844eab5850d4e9ba61db9d02554b3348a8906cfd3024d5d9d10b9ec",
+  "balance_before": 94967,
+  "started_utc": "2026-10-18T06:11:18Z",
+  "errors": [],
+  "finished_utc": "2026-10-18T06:11:22Z",
+  "response": {
+    "id": "b6bae517-3f8a-4a64-86f4-d3a6247c247f",
+    "tool": "humanize",
+    "text": "There are already a lot of forces out in the world that are training your mind very effectively. It would be wise to take a few ideas from them and use those self-hypnosis techniques for yourself. In this way you will learn to befriend the deeper part of your mind and listen to it, opening up a whole new area of choice for you as an adult.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 52
+    },
+    "elapsed": 4
+  },
+  "balance_after": 94915
+}

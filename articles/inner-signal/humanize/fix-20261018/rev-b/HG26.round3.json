@@ -1,0 +1,15 @@
+[
+ {
+  "block": 6,
+  "problems": [
+   {
+    "type": "INVENTED",
+    "what": "B6: INVENTED \"or didn't happen\"; \"historical event\" became \"in your life\"",
+    "replace": "what did or didn’t happen in your life",
+    "with": "what happened in your life",
+    "round": 3,
+    "from": "adjudicate-a (a reader checking verify-a's findings against the round-2 text), checked by me"
+   }
+  ]
+ }
+]
