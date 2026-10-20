@@ -18,6 +18,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-20: Pangram 4.1 and Joel's budget rules.** Every result in this lane is Pangram 4.0. His rules of 20
+  October (merged into this branch from main) govern every call: `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` (six tries
+  per paragraph lineage, each with a specific diagnosis; one section check plus one recheck; one whole-article
+  certification plus one recheck at the end; read 4.1's sentence shading). Every call goes through
+  `tools/humanization/pangram_ledger.py` with this lane's ledger `pangram-ledger.jsonl` (`predict` before, `results`
+  after, `explain` for each miss, `build --universal state/PANGRAM-SCORECARD.md` after the session; this lane's page is
+  `SCORECARD.md`). How to check the guide again in 4.1 is question 5. Pangram in the desktop app's browser was signed
+  out on 20 October: Joel signs in.
 - **Branch** `claude/community-joel-1018` (pull request 191, open, Joel's to merge; it also holds the community article's
   merge). Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
@@ -41,13 +49,18 @@ The desktop app's built-in browser, tab "seed", https://www.pangram.com/dashboar
 2026-10-18 01:54 UTC (1 credit per 100 words; its plan says 500 scans a month, so spend scans carefully). Never sign in,
 never tick a CAPTCHA: if it's signed out, stop and tell him.
 1. Build the batch with its gate records; write `PREDICTIONS.md` (`| text | mine | chance | why | Pangram |`, chance = my
-   chance of a 100% Human result) before the run.
+   chance of a 100% Human result) before the run, and put each text in the ledger
+   (`python3 tools/humanization/pangram_ledger.py predict articles/inner-signal/humanize/pangram-ledger.jsonl --lineage L
+   --scope paragraph|section|article --text FILE --key KEY --call Human|AI --chance P --tells ... --human-tells ...`, from
+   the repo root; it refuses what the budget rule forbids). `pangram_ledger.py check LEDGER bNNN-items.json` before the run.
 2. Commit and push the batch's `bNNN-items.json`; in the tab, fetch it from raw.githubusercontent.com at the commit's SHA,
    check the file's SHA-256 and each item's.
 3. Paste `tools/humanization/pangram_page_helpers.js` into the tab if `window.__run` is missing (a reload clears it), then
    `window.__run('BNNNlog', items)`; it submits one text about every 10 seconds. Read results with
    `await window.__readC(items, pages)` and save them as `bNNN-results.json`.
-4. `python3 tools/humanization/fill_preds.py bNNN-results.json PREDICTIONS.md` fills the Pangram column with each check's link.
+4. `python3 tools/humanization/fill_preds.py bNNN-results.json PREDICTIONS.md` fills the Pangram column with each check's link,
+   and `python3 tools/humanization/pangram_ledger.py results articles/inner-signal/humanize/pangram-ledger.jsonl
+   bNNN-results.json` scores them in the ledger; `explain` each miss's cause.
 
 ## Emulate
 
@@ -66,7 +79,7 @@ every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md` (four open: is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in
+`OWNER-QUESTIONS.md` (five open: how to check the guide again in Pangram 4.1, my pick a whole-guide check after the other four; and the four of 2026-10-18: is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in
 every version; HG31's two meaning points against a Human reading; and the two guided scripts, HG17 and HG18).
 
 ## Where it stands
@@ -130,6 +143,15 @@ From `fix-20261018/` unless a command says `humanize/`:
 3. The sample that passed with the fewest findings goes to its own folder (`rf-zb/`, `rf-zd/`: `KEY.units.json`, its
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
+
+## Next step (2026-10-20: Pangram 4.1; the steps of 2026-10-18 below still hold)
+
+0. **Pangram 4.1** (question 5): with Joel's answer, and once he has signed in to Pangram in the desktop app's browser,
+   read his History first (free: any 4.1 checks he ran on the guide), then follow his option. For (a), one whole-guide
+   4.1 check after questions 1 to 4 are settled (in big natural pieces if the site refuses the whole), predicted in the
+   ledger first (scope "article", with the sections I expect 4.1 to flag and why); then each flagged paragraph within its
+   six tries, each try with a diagnosis, then the one recheck. Read the shading of every sentence and record it with the
+   result (`--shading`).
 
 ## Next step (2026-10-18, after batch 466g)
 

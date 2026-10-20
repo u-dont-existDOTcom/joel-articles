@@ -9,3 +9,10 @@ Joel, 13:53 UTC: "show me the examples you got wrong and what AI tells you notic
 - `blind-test-*`: 185 held-out texts in two halves (A, B), the answer key, a tells checklist (`blind-test-CHECKLIST-v1.md`) and the calls made with and without it. My calls were right 65%, Sonnet's plain calls 58%, Sonnet with the checklist 55%; always AI, 52%.
 
 Section 11's calls, made after this review, are scored at the end of `../s11/PREDICTIONS-s11.md`: 171 of 233 right (73%), where always AI would have been 44%.
+
+**2026-10-20: one ledger and scorecard for every lane.** From now on the lanes' predictions go into
+`tools/humanization/pangram_ledger.py`'s ledgers (this lane's is `candidate/pangram-ledger.jsonl`), and `build --universal
+state/PANGRAM-SCORECARD.md` writes this lane's `candidate/SCORECARD.md` (Git-rendered, readable by link from either account)
+and the page over every lane. The tables and rows here stay the record of the Pangram 4.0 era; the ledger reads them as
+they are. `build --rows FILE` writes one JSON row per call of every lane for a dashboard page; the page above can only be
+republished by the account that published it.

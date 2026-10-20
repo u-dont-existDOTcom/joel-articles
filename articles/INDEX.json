@@ -23268,7 +23268,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "04038fa8d69b977e1a64c6109166e4eb8a8149f6a22dc0fb5d21893480eec183",
+          "sha256": "acefebf377a59c2d1c4f8c1ec2f90a96553de862df6679a8b900b3343907f45d",
           "role": "humanization_working_record"
         },
         {
@@ -27533,7 +27533,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "e712a2fa8a12b11cf44f3493cc2d49f47cf2ac1324bcb2bf77357ad1e090e927",
+          "sha256": "2243fd3d2053eaf0308fdc52f4485fdf9cf3109e88959eb4f8696cfb0129e992",
           "role": "humanization_working_record"
         },
         {
@@ -28793,7 +28793,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "217103f9f7a820d96a580ebdc5029c2584af33afaf2701366a8e39a6504380a5",
+          "sha256": "b97589ce766387478c846d909e31ecd07843858deb6ab2ef2f81b0016aedf5f4",
           "role": "humanization_working_record"
         },
         {
@@ -36055,6 +36055,11 @@
           "path": "articles/inner-signal/humanize/fix-20261018/b466/b466-results.json",
           "sha256": "bffa714d33719c31da62289c6aace29c2f1416f17f5af63525b920c2d5435032",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/SCORECARD.md",
+          "sha256": "1f5eae2acee852fc8045e3e44da43d0ddea4d04bcb6b76553ed8f31e5312c53a",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -36637,7 +36642,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/prediction-review/README.md",
-          "sha256": "829854046cb501b0044fed42a0dda6b9e035dce5365fa1453bc651164c5d0a34",
+          "sha256": "d2dff736a928480ece56b745a91d5e19339da24e11ece9ada6a9b9691659b5db",
           "role": "humanization_working_record"
         },
         {
@@ -76068,6 +76073,11 @@
         {
           "path": "articles/intentional-communities/candidate/prediction-review/dashboard/test_calcs.js",
           "sha256": "c1f58fccbd502e456b1a6e7eb46178e63e0061cfb3802f0326ee14959c539407",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/SCORECARD.md",
+          "sha256": "a245688b4d344d4d7bc05335f109a8061b6c9e6af9181a700f0b375f75e2b679",
           "role": "humanization_working_record"
         }
       ]

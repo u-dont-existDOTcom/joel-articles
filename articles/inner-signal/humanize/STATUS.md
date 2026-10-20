@@ -1,5 +1,24 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-20, after Joel's message of 17:38 UTC (no checks run)
+
+**Pangram 4.1.** Joel: "pangram 4.1 just came out so i updated some of your instructions for it. it is much more precise
+than pangram 4, so you may find that some areas that were human on the hypnosis article are no longer human". His rules of
+20 October are merged into this branch from main: `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` (up to six tries per
+paragraph lineage, each with a specific diagnosis; one section check plus one recheck after paragraph work; one
+whole-article certification plus one recheck at the end; a prediction with its evidence before every call) and its 4.1
+part (read each sentence's shading; dark green is the aim, light green a warning). Every result in this lane is Pangram
+4.0. How to check the guide again in 4.1 is question 5 on the questions page (my pick: one whole-guide check once
+questions 1 to 4 are settled, then only what it flags).
+
+**Nothing could run anyway:** Pangram in the desktop app's built-in browser is signed out (the dashboard shows "Log in";
+its History answers 401). Joel signs in; I don't.
+
+**The ledger.** From now on every check in this lane goes through `tools/humanization/pangram_ledger.py` (this lane's
+ledger is `pangram-ledger.jsonl`, created with its first prediction; its page is `SCORECARD.md`, built with the
+universal page `state/PANGRAM-SCORECARD.md`). This lane's 4.0 record on it: 944 calls, 85% right against 78% for always
+saying Human, Brier 0.120 against 0.174 for the base rate; the latest 100 calls 83% against 75%.
+
 ## 2026-10-18, after batch 466g (its checks ran from 09:53 to 11:08 UTC)
 
 **Where it stands.** 30 keys are installed (33 of the guide's 40 h1 sections, every paragraph checked alone) and three

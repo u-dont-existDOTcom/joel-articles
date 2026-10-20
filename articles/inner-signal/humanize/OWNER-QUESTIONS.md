@@ -1,8 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-18, after batch 466g (its checks ran from 09:53 to 11:08 UTC). **Open questions: 4.** They're at the
-top, numbered, with their options and my default; the list below them is what I decided myself that you may want to
-undo. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-20, after your message of 17:38 UTC about Pangram 4.1 (no checks since batch 466g of 2026-10-18).
+**Open questions: 5.** They're at the top, numbered, with their options and my default; the list below them is what I
+decided myself that you may want to undo. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is this file in Git, so a session in either of your accounts can read and update it.
 
@@ -29,7 +29,7 @@ The master copy of this page is this file in Git, so a session in either of your
   [check](https://www.pangram.com/history/ce259ecc-477f-499d-9ffe-34bbb21b5d10)). Your rule is not to take out something
   important to pass Pangram, so I haven't installed it. Options:
   - a. Install the Human version; "I do not use covert commands" later in the section keeps the hidden-demand limit.
-  - b. Keep both points and the AI window. (My default until you answer: the section stays as published.)
+  - b. Keep both points and the AI window ([check](https://www.pangram.com/history/a1a916dc-cf1a-4cae-a312-15b98d1e104f)). (My default until you answer: the section stays as published.)
   - c. Your own wording for those two lines.
 - 🟣 **4. The two guided scripts ("Guided Meditation: How to Listen" in the sober induction, and "Come all the way back").**
   Emulate drops steps of a script: one sample of the listening script read Human
@@ -67,6 +67,24 @@ The master copy of this page is this file in Git, so a session in either of your
   - d. For the return steps only: that Human version, with the points above as they are in it (my recommendation for
     "Come all the way back"; the listening script stays a, b or c).
 
+- 🟣 **5. Pangram 4.1: when and how to check the guide again.** Every result above is Pangram 4.0, and you said 4.1 is
+  much more precise, so some sections that read Human may not anymore. Your budget rule of 20 October allows one
+  whole-article certification check (and one recheck after its fixes) once the sections are done, a section check once
+  its paragraphs pass, and up to six tries per paragraph, each with a reason. The guide is about 27,000 words, about 270
+  credits for one whole check. Options:
+  - a. After questions 1 to 4 are settled: one whole-guide 4.1 check (in a few big natural pieces if the site won't take
+    it in one), then fix only what it flags, paragraph by paragraph within the six tries, then the one recheck. **My
+    pick**: it's the check your rule already plans for the end, it reads every sentence in its real context (4.1's
+    shading shows which ones), and it costs the fewest scans.
+  - b. The same whole-guide check now, before your answers, so you see the 4.1 picture first; the four open sections are
+    in it as published.
+  - c. Section by section (40 checks): about the same credits as one whole check, but 40 scans.
+  - d. Only the sections that were closest to the line in 4.0 (the ones with the most failed versions before they
+    passed: the troubleshooting list, the induction scripts, NLP patterns, "Altered states"), about 8 checks.
+  Before any of these, Pangram in the desktop app's browser needs you to sign in again (it was signed out on
+  20 October); I don't sign in myself. If you've already run parts of the guide through 4.1, those results are in your
+  History and I can read them for nothing.
+
 ## Decided by me, for you to undo if you want
 
 - 🟢 **Your table-of-contents note** (was question 3) read Human in 454g with the rest of "How to use" and the table of
@@ -90,7 +108,8 @@ The master copy of this page is this file in Git, so a session in either of your
 
 ## For you to do
 
-> Nothing for this article until the questions are answered; the community article's paste and merge are on its own page.
+- 🟠 Sign in to Pangram in the desktop app's built-in browser (signed out on 20 October), with the account whose credits
+  this guide should use, when you want any of question 5's checks run.
 
 ## Where it stands
 
