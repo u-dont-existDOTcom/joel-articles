@@ -782,6 +782,9 @@ class PangramLinksInMessages(unittest.TestCase):
         self.assertEqual(len(found), 2)
         self.assertTrue(found[0].startswith('Your paragraph reads AI'))
         self.assertIn('Mostly Human', found[1])
+        # a check of a Substack post has its own page, not a History entry (2026-10-20)
+        self.assertEqual(plc.missing('The guide read Mixed, AI Detected at its start and end: '
+                                     '[check](https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4).\n'), [])
 
 
 class LinkFlags(unittest.TestCase):
