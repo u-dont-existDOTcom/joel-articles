@@ -1,0 +1,25 @@
+{
+  "status": "preserved_task_inputs_not_master_promotion",
+  "files": [
+    {
+      "path": "state/tasks/community-innerchild-20261020/inputs/Community-r03-review-answers.json",
+      "sha256": "c2961f93604b37659310cf005dbd7912a168b0d3ac71616c9e4da3886517659e",
+      "bytes": 1175449
+    },
+    {
+      "path": "state/tasks/community-innerchild-20261020/inputs/Inner-Child-Humanized-Owner-20261019.html",
+      "sha256": "d246b51a181cbc480a857c9406469467000675cbe31426950c66b24809c2e178",
+      "bytes": 199561
+    },
+    {
+      "path": "state/tasks/community-innerchild-20261020/inputs/Inner-Child-AI-Formatting-Source-20261019.html",
+      "sha256": "68f710a170fb33e29ed1d3e76fbe9ed95aa79a3c523ac497784e1b41ec8c6853",
+      "bytes": 160235
+    },
+    {
+      "path": "articles/intentional-communities/candidate/finalization-20261019/Community-Article-r03-candidate.html",
+      "sha256": "e0f5e871fcc9f4f869a0465c3728be42adc77f5f704a058c8e867597de72e6a0",
+      "bytes": 212032
+    }
+  ]
+}
