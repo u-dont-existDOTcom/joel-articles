@@ -12,12 +12,12 @@
 - Mode: `single_rich_html`
 - Native uploaded videos: 0
 - Ordered segment records: 1
-- Substack video-post embeds converted to canonical URL in current segment: 3
+- Substack video-post embeds converted to canonical URL in current segment: 2
 - Native uploaded-video markup in clipboard payloads: forbidden and statically checked.
 
 | Segment | Source range | Empty edge? | Payload SHA-256 |
 |---|---:|---|---|
-| 1 | 0–209063 | no | `fc040d701668b7d6d763bfefeb82f5ff3ab2e471c8dbb879cdca6c6710df30e2` |
+| 1 | 0–209063 | no | `85e92f539918acf175827e964cb5a1bffb8ea430ee39a281d9a805d068700318` |
 
 ## Manual native steps
 

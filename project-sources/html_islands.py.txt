@@ -330,12 +330,18 @@ def classify_object(raw: str) -> tuple[str, str]:
         'data-component-name="digestpostembed', "data-component-name='digestpostembed",
     )
     if any(marker in low for marker in digest_markers):
-        video_post_markers = (
-            "video_upload_id", "video-upload-id", "videouploadid",
-            "video upload id", "videoembedplayer", "<video",
-            '"post_type":"video"', '"type":"video"',
+        # A null video_upload_id field is present on ordinary story cards.
+        # Require a real identity, a player, or an explicit video type.
+        video_id = embedded_metadata_value(
+            raw, ("video_upload_id", "video-upload-id", "videoUploadId")
         )
-        if any(marker in low for marker in video_post_markers):
+        decoded = html_lib.unescape(raw).lower()
+        if (
+            video_id
+            or "videoembedplayer" in low
+            or "<video" in low
+            or re.search(r'"(?:post_type|type)"\s*:\s*"video"', decoded)
+        ):
             return "substack_video_post_embed", "canonical_url_in_payload"
         return "digest_post_embed", "rich_html"
 
@@ -352,6 +358,15 @@ def classify_object(raw: str) -> tuple[str, str]:
         or "component-name=\"youtube" in low
     ):
         return "youtube", "rich_html"
+
+    # Audio uploads use mediaUploadId too. That shared identifier does not
+    # make them videos or establish that video's clipboard strategy applies.
+    if (
+        "native-audio-embed" in low
+        or "audioembedplayer" in low
+        or ("<audio" in low and "<video" not in low)
+    ):
+        return "native_audio", "unverified"
 
     # Standalone native uploaded video must be checked before image because its
     # source block may contain a poster <img>. Digest/video-post cards were

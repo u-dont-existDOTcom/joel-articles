@@ -396,7 +396,7 @@
     },
     {
       "id": 17,
-      "type": "substack_video_post_embed",
+      "type": "digest_post_embed",
       "source_sha256": "29cb47e9c31866903d1f88b18e1fbdf80e1585e436803136f85b0d5b00d2445d",
       "preceding_anchor": "Which Connections to the Technosphere Do You Keep?",
       "following_anchor": "Jealousy Can Capture Monogamy or Free Love",
@@ -410,8 +410,8 @@
       ],
       "canonical_url": "https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope",
       "media_id": null,
-      "strategy": "canonical_url_in_payload",
-      "profile_status": "owner_confirmed_strategy_retest_each_final",
+      "strategy": "rich_html",
+      "profile_status": "confirmed_candidate_retest_each_final",
       "add_can_restack_if_missing": false,
       "destination_result": "final_destination_retest_pending"
     },

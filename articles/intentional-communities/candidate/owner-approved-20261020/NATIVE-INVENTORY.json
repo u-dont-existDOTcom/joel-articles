@@ -5,10 +5,11 @@
   "editor_body_sha256": "250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be",
   "object_count": 28,
   "object_counts_by_type": {
+    "digest_post_embed": 1,
     "image": 20,
     "share": 1,
     "subscribe": 1,
-    "substack_video_post_embed": 3,
+    "substack_video_post_embed": 2,
     "youtube": 3
   },
   "objects": [
@@ -377,7 +378,7 @@
     },
     {
       "id": 17,
-      "type": "substack_video_post_embed",
+      "type": "digest_post_embed",
       "start": 111714,
       "end": 117375,
       "source_sha256": "29cb47e9c31866903d1f88b18e1fbdf80e1585e436803136f85b0d5b00d2445d",
@@ -393,7 +394,7 @@
       ],
       "canonical_url": "https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope",
       "media_id": null,
-      "recommended_strategy": "canonical_url_in_payload"
+      "recommended_strategy": "rich_html"
     },
     {
       "id": 18,

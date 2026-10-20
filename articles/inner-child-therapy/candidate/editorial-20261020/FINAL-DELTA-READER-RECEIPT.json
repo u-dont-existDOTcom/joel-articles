@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED",
+  "scope": "Five changed natural boundaries and exact lexical delta, with heading context; not whole-article review",
+  "candidate_sha256": "91b9065b9a121a40fb54cad2eac1d8be99eb5a24869178c04c26786a163708a4",
+  "input_sha256": "3069fea6542772faef832cefdad3d9dd4baca54294e458bbe14b79f34b3af062",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "high",
+  "returncode": 0,
+  "tool_event_count": 0,
+  "output_sha256": "1adca18a97a3caaa97ab71d21fb719497b4d959d73d6b81410a2bc5d819a7df1"
+}

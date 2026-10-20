@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "scope": "Exact local-file UI, local navigation, comments/history/exports; not article judgment or publishing playback",
+  "file_sha256": "6e4dcb42d8ab1b6f65e42d20667bda9d6db90fb86ab5d81fc9b23852a9c383b5",
+  "checks": [
+    {
+      "check": "local-file navigation",
+      "passed": true
+    },
+    {
+      "check": "both heading arrangements rendered",
+      "passed": true
+    },
+    {
+      "check": "matching source and candidate selection",
+      "passed": true
+    },
+    {
+      "check": "purpose and dependency displayed",
+      "passed": true
+    },
+    {
+      "check": "complete heading tree",
+      "passed": true
+    },
+    {
+      "check": "retired heading explained",
+      "passed": true
+    },
+    {
+      "check": "purpose search",
+      "passed": true
+    },
+    {
+      "check": "bound answer export",
+      "passed": true
+    },
+    {
+      "check": "relation identity and history",
+      "passed": true
+    },
+    {
+      "check": "Markdown export",
+      "passed": true
+    },
+    {
+      "check": "local persistence",
+      "passed": true
+    },
+    {
+      "check": "test answers removed",
+      "passed": true
+    },
+    {
+      "check": "eleven paired lexical cards",
+      "passed": true
+    },
+    {
+      "check": "move cards have two local contexts",
+      "passed": true
+    },
+    {
+      "check": "all local links and anchors resolve",
+      "passed": true
+    },
+    {
+      "check": "mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "no JavaScript exceptions",
+      "passed": true
+    }
+  ]
+}
