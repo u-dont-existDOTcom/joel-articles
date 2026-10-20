@@ -1,0 +1,138 @@
+{
+  "status": "RESTORATION_COMPLETE_STRUCTURAL_EDIT_PENDING",
+  "source_sha256": "d246b51a181cbc480a857c9406469467000675cbe31426950c66b24809c2e178",
+  "donor_sha256": "68f710a170fb33e29ed1d3e76fbe9ed95aa79a3c523ac497784e1b41ec8c6853",
+  "restored_sha256": "95a968ab65379887c34a86c946fedc4ba35757cce49260f6049717050ffc08f9",
+  "paragraph_labels_removed": 322,
+  "empty_editorial_blocks_removed": [
+    0,
+    59,
+    268,
+    370
+  ],
+  "placements": [
+    {
+      "donor_id": "D002",
+      "after_human_id": "H001",
+      "source_sha256": "3a576fa6c6830f187ba32f4fa8ef8056c09cf97b126b2f412fe745fb9c83e801",
+      "reason": "Restore source Listen & Watch/audio/song introductions and media before If that got to you.",
+      "kind": "adjacent source introduction"
+    },
+    {
+      "donor_id": "D003",
+      "after_human_id": "H001",
+      "source_sha256": "20479e5d6d5da59d096d953d72cabc4aa5ed382d2510f5e4bc005c823c6446f2",
+      "reason": "Restore source Listen & Watch/audio/song introductions and media before If that got to you.",
+      "kind": "adjacent source introduction"
+    },
+    {
+      "donor_id": "D004",
+      "after_human_id": "H001",
+      "source_sha256": "607cad06cc134d0a5840fec193e2b4e76ac33cca76d980a76a92b65631b6f5aa",
+      "reason": "Restore source Listen & Watch/audio/song introductions and media before If that got to you.",
+      "kind": "native object"
+    },
+    {
+      "donor_id": "D005",
+      "after_human_id": "H001",
+      "source_sha256": "852ee52105f30772e4630fc753ee720ad0c4f7fd4742159df4fbab6b20d2035b",
+      "reason": "Restore source Listen & Watch/audio/song introductions and media before If that got to you.",
+      "kind": "adjacent source introduction"
+    },
+    {
+      "donor_id": "D006",
+      "after_human_id": "H001",
+      "source_sha256": "cc904839276cc9b96386744eb77cbbd2b5e882b762024a16ca091268bb518c1f",
+      "reason": "Restore source Listen & Watch/audio/song introductions and media before If that got to you.",
+      "kind": "native object"
+    },
+    {
+      "donor_id": "D011",
+      "after_human_id": "H007",
+      "source_sha256": "b4d2d80cbb4227949a34f6249ae046fe754395b1ea19ea85ce0f9a454b0411c2",
+      "reason": "Donor video follows the same first Chicken-and-Egg paragraph.",
+      "kind": "native object"
+    },
+    {
+      "donor_id": "D053",
+      "after_human_id": "H045",
+      "source_sha256": "1caf129f97fa14b544a8555f31d7276bbb3ffe0edf4da0c120cf4d19a4ba7f1d",
+      "reason": "Somatic-map card supplies the stated map and following reference.",
+      "kind": "native object"
+    },
+    {
+      "donor_id": "D122",
+      "after_human_id": "H123",
+      "source_sha256": "2508c6ee8f31223632ab9ad57634f9835e3973a97bf10d63dc50aa571cdffdbe",
+      "reason": "Gratitude video under the same named heading.",
+      "kind": "native object"
+    },
+    {
+      "donor_id": "D151",
+      "after_human_id": "H185",
+      "source_sha256": "42a66d00987b8d3e87594d95d125503de3e4cdf8c56020593c911011b14cccab",
+      "reason": "Child gift video card beside existing article link.",
+      "kind": "native object"
+    },
+    {
+      "donor_id": "D231",
+      "after_human_id": "H227",
+      "source_sha256": "4fd7283bd7356a3999495364e2be6a3a83796d11b21257b81ec0b1a046b8e105",
+      "reason": "Mantra embed follows its existing introduction.",
+      "kind": "native object"
+    },
+    {
+      "donor_id": "D374",
+      "after_human_id": "H267",
+      "source_sha256": "44d06792c670ea1c77121db42c1e115827a6f8cb130ca40e2e1eb3bbd93171bd",
+      "reason": "Human-birth illustration follows turtle explanation.",
+      "kind": "native object"
+    }
+  ],
+  "links_restored": [
+    {
+      "human_id": "H127",
+      "anchor": "near death experience",
+      "href": "http://iands.org"
+    },
+    {
+      "human_id": "H152",
+      "anchor": "dramatized scene",
+      "href": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=a-beautiful-day-in-the-neighborhood"
+    },
+    {
+      "human_id": "H152",
+      "anchor": "A Beautiful Day in the Neighborhood",
+      "href": "https://www.sonypictures.com/movies/abeautifuldayintheneighborhood"
+    },
+    {
+      "human_id": "H263",
+      "anchor": "Near-death experiences",
+      "href": "http://iands.org"
+    },
+    {
+      "human_id": "H263",
+      "anchor": "rebirth reports",
+      "href": "https://www.youtube.com/watch?v=0AtTM9hgCDw"
+    },
+    {
+      "human_id": "H348",
+      "anchor": "Memory is an amorphous thing, easily influenced by guided imagery and suggestions",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/33586291"
+    },
+    {
+      "human_id": "H379",
+      "anchor": "bardo",
+      "href": "https://pemachodronfoundation.org/product/how-we-live-is-how-we-die-book"
+    }
+  ],
+  "prose_fidelity": "Exact original label-free HTML recovered after reversing link insertions and donor additions. Native owner objects preserved raw.",
+  "native_objects_added": 8,
+  "owner_native_objects_preserved": 4,
+  "donor_objects_not_used": [
+    "D000: owner top chart retained",
+    "D038: owner study chart retained",
+    "D389: same paralysis illustration already present"
+  ],
+  "detector": "Original upload is owner-reported 100% Human; restored assembly is not newly tested."
+}

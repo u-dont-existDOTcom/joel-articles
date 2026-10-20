@@ -34,3 +34,6 @@ Owner-requested report filed as UDA draft PR404 with uda-lane label and remainin
 
 ## Community prose milestone completed
 The owner-specified revisions are applied in articles/intentional-communities/candidate/owner-approved-20261020/Community-Article-r04-approved.html, SHA-256 250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be. Exact reversible patch and comment disposition receipt are alongside it. Kept moves and Q2 remain unchanged. This supersedes the earlier Not yet done prose statement. Helper/registry/affected-output checks remain next; do not reapply the prose patch to r04. Inner Child work has not begun yet.
+
+## Inner Child restoration milestone completed
+articles/inner-child-therapy/candidate/editorial-20261020/Inner-Child-restored-r01.html SHA-256 95a968ab65379887c34a86c946fedc4ba35757cce49260f6049717050ffc08f9. 322 paragraph labels removed; 8 missing native objects and source introductions restored; 7 source-supported links restored; the four current owner objects unchanged. Exact inverse-operation test recovers all label-free original HTML. This is a restoration baseline, NOT a completed structural edit. Next: source-supported article-wide route and overlap work, retaining r01 as rollback. Community r04 helper and canonical reviews are built; browser checks/registry/packaging remain.
