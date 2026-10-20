@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-19 (turn 76). **Six open questions, 64 to 69.** Your message of 00:55 UTC is in Decided, with what went into the article from the innerSignalGraph queue. To answer, reply in chat with the number and a letter, like `64: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-20 (turn 77). **One open question (70).** Your message of 00:55 UTC is in Decided, with what went into the article from the innerSignalGraph queue. To answer, reply in chat with the number and a letter, like `64: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,55 +8,13 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 64. The drug-peak paragraph: name anyone?
+### 🟣 70. GPT's structure proposal (r03): which moves?
 
-Altered States Can Deepen the Therapy P5 is new (the queue's PGQ-032, from your example of 2026-10-14), and it names nobody. The queue says your example named a public figure, and that naming one is your choice.
-- **A (my pick):** leave it unnamed. The point is the reader's own all-in-one-package wanting, and a name pulls the attention onto that person.
-- **B:** name them. Tell me who, and how you'd put it.
-
-### 🟣 65. "If only I had X": a source?
-
-Your Loan is PRE-APPROVED! P6 is new (PGQ-033) and cites nothing. The survey you remembered, where almost nobody wished for happiness directly, hasn't turned up, so it isn't in.
-- **A (my pick):** no source. The question works on its own, next to your Biggie Smalls paragraph.
-- **B:** a pointer to Gilbert and Wilson's research on "miswanting" (2000), on how people mispredict what will make them happy. I'd find and open the paper before linking it.
-
-### 🟣 66. Your three: gratitude without pushing, gratitude in a calm altered state, hypnosis with grief (PGQ-034, 035 and 036)
-
-The queue says you'd write these yourself (Oct 15). What each covers, and where it would go:
-- 034, bringing gratitude in sideways instead of pushing it ("we can come back to this later, now may not be the time"), with your example questions (for "my life is hell", someone who wants a partner, toxic positivity, "I love everyone, I just hate my dad"): Ask God for a Loan, after its gratitude part.
-- 035, gratitude in a calm altered state (settling comes first while it's overwhelming, and safety first with impaired capacity or a medical concern): Altered States Can Deepen the Therapy, near P3 ("Now, the beautiful stuff.").
-- 036, hypnosis isn't ruled out by grief or an altered state (it depends on the kind, the grief and the purpose, reaching feelings you can't get to or escaping what you need to face; deep inner-child work still waits until the grief is less raw): When the Urge to Escape Arrives, after P12 ("Gentle meditation or self-hypnosis is a different story.").
-- **A (my pick):** you write them, as you planned. Send them in chat and I'll fit them in and run the checks.
-- **B:** I draft a sentence or two for each from your Oct 15 answers, for you to fix.
-
-### 🟣 67. Gratitude as an ongoing practice (PGQ-031): your section has it already
-
-Your Ask God for a Loan already carries the queue's whole progression: the small reliefs, gratitude even for suffering, the heart opening, inviting your little one in while you listen to their BS, and "I think it's essential if we want to live in that love instead of occasionally visiting it." Two smaller points the queue lists aren't said outright: nobody has to thank someone who hurt them or excuse the harm, and gratitude is practiced without forcing a feeling. It also asks not to say the child is knowingly testing the adult, which sits next to your "they might just need to see if you're actually humble enough".
-- **A (my pick):** leave your section as it is. How to Forgive Without Forgetting already says understanding someone isn't excusing them ("Seeing how they got there doesn't make it okay"), your "is not about imposing some kind of 'spiritual discipline'" covers the forcing, and "might just need to see" reads as a guess about your little one, not a claim that they're testing you.
-- **B:** a clause of yours for the abuser point.
-
-### 🟣 68. The care paragraph (PGQ-030) and your checking paragraph
-
-For PGQ-030 (asking for help after a hospital held you, or a treatment hurt you), this short paragraph would go after Also Look Outward P10. It reads Human alone with its last sentence, the guide's point that past harm from care doesn't make a danger now go away ([Human Written 0.22](https://www.pangram.com/history/1af9e25e-6866-467a-975b-37a3717e7e03)):
-
-> The same goes for doctors. If a hospital held you against your will, or a treatment hurt you, no wonder asking for help feels scary. Bring someone you trust to speak up for you (it doesn't have to be the relative who never respected your wishes), and ask what a treatment's for. And if you're in real danger right now, get help anyway, whatever happened last time.
-
-With that last sentence in, Before You Try to Go Deep reads Mostly Human, with a 95-word window on your When Healing Turns Into Checking P1, "You can get hooked on healing too. The wound can be completely real..." ([0.094](https://www.pangram.com/history/cc1f5dd6-9bf0-4797-a956-3ddc0c49c8da)); three wordings of the sentence gave the same window. Without it, the section reads Human ([0.084, high](https://www.pangram.com/history/28bf7e10-a9bd-4f21-8d9c-75eecf93cabb)). It's the opening that kept a window last turn too, until your 62, C. So the paragraph isn't in yet.
-- **A (my pick):** your fix of the checking paragraph's opening, the way you did 62, C, so the care paragraph goes in whole.
-- **B:** the care paragraph without its last sentence. That says less than the guide: the pain paragraphs now say it for pain, and If You Want to Kill Yourself for any danger right now, but not after harm from care.
-- **C:** leave it out for now.
-
-### 🟣 69. Help with the sensitive-sharing paragraphs (PGQ-039)
-
-PGQ-039 (before sharing something legally or personally sensitive) needs two paragraphs after the care paragraph. The first now reads Human alone ([Human Written 0.19, high](https://www.pangram.com/history/54a7bc83-1438-46fd-a213-45c7fa5cd496)):
-
-> Then there's the stuff that's hardest to tell anyone, though it's often exactly what you need help with. Maybe it's an urge that scares you, or something you did that could get you in legal trouble. (An urge you've never acted on isn't the same as something you did, by the way.) You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever's on a company's server can get handed over if a court asks. A fake name doesn't guarantee you're anonymous, either. And some of the people you'd tell, like therapists and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it's nowhere near every crime you might mention. The cops are another story. Definitely not your therapist.
-
-The second, what to do instead, read AI in all six versions: plain advice ([0.66](https://www.pangram.com/history/c572789a-6c59-490f-8448-81b41149a528)); your voice with the lists cut down ([0.90](https://www.pangram.com/history/95e6f01a-3051-4cc9-aac3-b62158c1817e)); "I'd" for every step ([0.77](https://www.pangram.com/history/3bad9b87-c83e-4c7f-bc43-101e8c9e9b1f)); the question to ask as a quote ([0.997](https://www.pangram.com/history/1ca778b2-cf4a-4412-99de-d946ea7ba050)); "ask first" with a scene and an exclamation ([0.994](https://www.pangram.com/history/94f7dc0a-1db7-4a8d-8568-e47205a4ede6)); shorter ([1.00](https://www.pangram.com/history/b4d574ff-f7f9-4a12-9a2c-defc30d51cbf)). I took out the lists of three, the "not Y" endings, the coach phrases, my "even" and "actually", and the runs of commands. The latest:
-
-> So I'd ask first, before any names or details: "What would you have to report, and who reads your notes?" A good therapist or helpline won't mind. An AI can hear what kind of help you're after without the names. A lawyer's the person for legal trouble, because what you tell them is protected differently. Just don't hold back a danger that's happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.
-
-I can't find any more AI tells here, and I see some human tells, like these: the quoted question, "A good therapist or helpline won't mind", and "whatever it costs you legally". Can you help show me the tells I'm missing? The first paragraph waits for the second, since alone it would be the scary half without the way to get help. And the queue asks for a legal review before publishing; this wording names no law or country, so I'd say none is needed, but that's yours to decide.
+GPT's candidate keeps every paragraph and proposes eight moves. My view of each is in `experiments/t77-answers/GPT-STRUCTURE-REVIEW.md`. In short: M02, M03, M05, M07 and M08 yes; M01 yes but keep your "mess and all" paragraph early; M04 only as far as starting Altered States as its own h1 right after When the Adult Voice Feels Fake, keeping your escape → altered states → pain → suicide run together; M06 only for the end-of-article spiritual sections, keeping Ask God for a Loan in Borrow Love. Both scope questions: keep everything.
+- **A (my pick):** the moves as I'd change them, above.
+- **B:** all eight as GPT has them.
+- **C:** your own picks, move by move (M01 to M08).
+- **D:** none for now; keep your 10-19 order.
 
 ## For you to do (no decision needed)
 
@@ -74,6 +32,10 @@ You merged #195 at 00:54 UTC. This turn is in [#196](https://github.com/u-dont-e
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 Questions 64 to 69, answered by your 2026-10-19 upload
+
+Your upload to GPT (`~/Inner-Child-r03-Editorial-Review/sources/Inner-Child-Humanized-Owner-20261019.html`) answers them in your own words: 64, the drug-peak paragraph rewritten, nobody named; 65, the "if only I had X" paragraph cut, with your new lines at the end of the paragraph before it; 66 and 67, your new gratitude lines ("Being thankful shouldn't be pushed on people who just need to grieve for the moment", the bad-trip flip, "nor does gratitude for difficulties justify staying with an abuser"); 68, the care paragraph without its last sentence; 69, the first sharing paragraph and your own second one ("What does the law require you to report?", the dream narrative, TalkSpace). They go into the repository's article word for word in turn 77.
 
 ### 🟢 2026-10-19 00:55 UTC
 

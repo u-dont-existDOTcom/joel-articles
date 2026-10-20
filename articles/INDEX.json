@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "492002240e1eb9564da68be23b8ace9920f80066226303b95850cd55e16d0098",
+          "sha256": "6cc864aadfe451c1c978c66ddd5689ddcf0a5fde8d1c42ea83b72993d5e797b4",
           "role": "owner_questions_page"
         },
         {
@@ -22930,6 +22930,11 @@
         {
           "path": "articles/inner-child-therapy/experiments/t77-answers/JOEL-20261020-2337.md",
           "sha256": "693bf937a20e3b0820668e015847e97f99dff398d2b69c4bc2b69477ef7f4b0a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t77-answers/GPT-STRUCTURE-REVIEW.md",
+          "sha256": "e798e7623c8954431b42b9b0499c49e64247f9c9b7cf953cbb1dc392ace65dfe",
           "role": "humanization_working_record"
         }
       ]
