@@ -1,15 +1,15 @@
 {
   "format": "joel-review-browser-test-v1",
-  "tested_utc": "2026-10-20T12:33:36+00:00",
+  "tested_utc": "2026-10-20T13:00:43+00:00",
   "browser": "Chromium via Playwright",
   "review_file": "Full-Article-r04.html",
-  "review_sha256": "654e389d9bd1d590f3fd3d09a6c5d8ee6730f1dba0bf474d410176b4d0f3627c",
+  "review_sha256": "efd938f845a236186c726b93c4bbf12afdd7c96e6cbaf28744496f47b147f654",
   "article_file": "",
   "article_sha256": "",
   "navigation_mode": "file://",
   "network_policy": "external HTTP(S) requests blocked; loopback allowed only when file:// was unavailable",
   "clipboard_test": "deterministic injected writeText sink; browser permission path remains destination-specific",
-  "load_seconds": 0.336,
+  "load_seconds": 0.324,
   "result": "pass",
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "test": "open exact review file",
       "status": "pass",
-      "detail": "file://; loaded in 0.336s"
+      "detail": "file://; loaded in 0.324s"
     },
     {
       "test": "offline review",

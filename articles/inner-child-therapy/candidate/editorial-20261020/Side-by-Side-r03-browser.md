@@ -1,11 +1,11 @@
 # Review Interface Browser Test
 
 - **Result:** pass
-- **Tested UTC:** 2026-10-20T12:55:52+00:00
+- **Tested UTC:** 2026-10-20T13:00:51+00:00
 - **Browser:** Chromium via Playwright
-- **Review:** `Side-by-Side-r03.html` — `07f73edcc4404eab20ac79f510b66db5d98c132b3ab07b87c8a014994c7f1f3d`
+- **Review:** `Side-by-Side-r03.html` — `f9c28d150fb83e4511ab912146763b9161c670040f3843e1fd83638e25114ee0`
 - **Article:** not supplied
-- **Review load:** 0.419 seconds
+- **Review load:** 0.401 seconds
 - **Navigation:** file://
 - **Network policy:** external HTTP(S) requests blocked; loopback allowed only when file:// was unavailable
 - **Clipboard path:** deterministic injected writeText sink; browser permission path remains destination-specific
@@ -15,7 +15,7 @@
 | Test | Status | Detail |
 |---|---|---|
 | local-file navigation | pass | file:// |
-| open exact review file | pass | file://; loaded in 0.419s |
+| open exact review file | pass | file://; loaded in 0.401s |
 | offline review | pass | external requests blocked: 0 |
 | fixed interface controls | pass |  |
 | review format | pass | joel-commentable-diff-review-v4 |

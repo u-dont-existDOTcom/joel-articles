@@ -1,15 +1,15 @@
 {
   "format": "joel-review-browser-test-v1",
-  "tested_utc": "2026-10-20T12:33:32+00:00",
+  "tested_utc": "2026-10-20T13:00:39+00:00",
   "browser": "Chromium via Playwright",
   "review_file": "Changes-r03-to-r04.html",
-  "review_sha256": "24958262d3062ac099cbde3eeaa5106dcc1a93df88edeab914b722c839b646e7",
+  "review_sha256": "676dfe4112f54546e498219d06ddf0a254abd2c233ca35df841c4b6efdff2173",
   "article_file": "",
   "article_sha256": "",
   "navigation_mode": "file://",
   "network_policy": "external HTTP(S) requests blocked; loopback allowed only when file:// was unavailable",
   "clipboard_test": "deterministic injected writeText sink; browser permission path remains destination-specific",
-  "load_seconds": 0.113,
+  "load_seconds": 0.029,
   "result": "pass",
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "test": "open exact review file",
       "status": "pass",
-      "detail": "file://; loaded in 0.113s"
+      "detail": "file://; loaded in 0.029s"
     },
     {
       "test": "offline review",

@@ -137,11 +137,18 @@ def select_text_and_open_comment(page, cell_selector: str, length: int = 12) -> 
           const range = document.createRange(); range.setStart(node, start); range.setEnd(node, end);
           const selection = getSelection(); selection.removeAllRanges(); selection.addRange(range);
           const quote = selection.toString();
+          // The public export uses offsets in the entire semantic passage,
+          // not in the selected text node (which may follow a bold label/link).
+          const prefix = document.createRange();
+          prefix.selectNodeContents(passage);
+          prefix.setEnd(node, start);
+          const passageStart = prefix.toString().length;
+          const passageEnd = passageStart + quote.length;
           const button = cell.querySelector('.comment-btn');
           button.dispatchEvent(new PointerEvent('pointerdown', {bubbles:true, pointerType:'mouse'}));
           selection.removeAllRanges();
           button.click();
-          return {quote, start, end};
+          return {quote, start: passageStart, end: passageEnd};
         }""",
         {"selector": cell_selector, "length": length},
     )

@@ -1,11 +1,11 @@
 # Review Interface Browser Test
 
-- **Result:** fail
-- **Tested UTC:** 2026-10-20T12:56:02+00:00
+- **Result:** pass
+- **Tested UTC:** 2026-10-20T13:04:06+00:00
 - **Browser:** Chromium via Playwright
-- **Review:** `Owner-to-Candidate-r03.html` — `7a4f5467b70fe142c43f9ce48cdd608a1d6818a240b8f17619d5487afa1c86af`
+- **Review:** `Owner-to-Candidate-r03.html` — `fba19c7d5b6e038fc0e26d515b01354da14acf1ba768572305caa806fb60d245`
 - **Article:** not supplied
-- **Review load:** 0.694 seconds
+- **Review load:** 0.669 seconds
 - **Navigation:** file://
 - **Network policy:** external HTTP(S) requests blocked; loopback allowed only when file:// was unavailable
 - **Clipboard path:** deterministic injected writeText sink; browser permission path remains destination-specific
@@ -15,7 +15,7 @@
 | Test | Status | Detail |
 |---|---|---|
 | local-file navigation | pass | file:// |
-| open exact review file | pass | file://; loaded in 0.694s |
+| open exact review file | pass | file://; loaded in 0.669s |
 | offline review | pass | external requests blocked: 0 |
 | fixed interface controls | pass |  |
 | review format | pass | joel-commentable-diff-review-v4 |
@@ -31,7 +31,7 @@
 | search | pass | that |
 | Copy JSON | pass |  |
 | Copy Markdown | pass |  |
-| JSON/Markdown export and parse | fail | items: 2 |
+| JSON/Markdown export and parse | pass | items: 2 |
 | reload and local persistence | pass |  |
 | no console errors | pass |  |
 | no page errors | pass |  |

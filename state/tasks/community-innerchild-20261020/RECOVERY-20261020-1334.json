@@ -1,0 +1,54 @@
+{
+  "status": "RECOVERED_EXACT_EXISTING_OUTPUTS",
+  "source_checkpoint": "9e0b6b963dcb5a35247b55a9c381767fba37a713",
+  "article_hashes": {
+    "Community-Article-r04-approved.html": "250d499545e84aae18d23e532922b4110b8adda310b67e28c025f37bf95967be",
+    "Inner-Child-r03-candidate.html": "91b9065b9a121a40fb54cad2eac1d8be99eb5a24869178c04c26786a163708a4"
+  },
+  "browser_reports": [
+    {
+      "file": "articles/intentional-communities/candidate/owner-approved-20261020/Changes-r03-to-r04.html",
+      "sha256": "676dfe4112f54546e498219d06ddf0a254abd2c233ca35df841c4b6efdff2173",
+      "report": "articles/intentional-communities/candidate/owner-approved-20261020/Changes-r03-to-r04-browser.json",
+      "status": "pass"
+    },
+    {
+      "file": "articles/intentional-communities/candidate/owner-approved-20261020/Full-Article-r04.html",
+      "sha256": "efd938f845a236186c726b93c4bbf12afdd7c96e6cbaf28744496f47b147f654",
+      "report": "articles/intentional-communities/candidate/owner-approved-20261020/Full-Article-r04-browser.json",
+      "status": "pass"
+    },
+    {
+      "file": "articles/intentional-communities/candidate/owner-approved-20261020/Original-to-r04.html",
+      "sha256": "295a8160ccb0cd12f957226c84034171decaed02adbaa832b3b5d3f89128baf8",
+      "report": "articles/intentional-communities/candidate/owner-approved-20261020/Original-to-r04-browser.json",
+      "status": "pass"
+    },
+    {
+      "file": "articles/inner-child-therapy/candidate/editorial-20261020/Full-Article-r03.html",
+      "sha256": "29d3cab73b3b03f28903e64fb4810f45d8c8d8654a2a86deb33d105aba03c01a",
+      "report": "articles/inner-child-therapy/candidate/editorial-20261020/Full-Article-r03-browser.json",
+      "status": "pass"
+    },
+    {
+      "file": "articles/inner-child-therapy/candidate/editorial-20261020/Owner-to-Candidate-r03.html",
+      "sha256": "fba19c7d5b6e038fc0e26d515b01354da14acf1ba768572305caa806fb60d245",
+      "report": "articles/inner-child-therapy/candidate/editorial-20261020/Owner-to-Candidate-r03-browser.json",
+      "status": "pass"
+    },
+    {
+      "file": "articles/inner-child-therapy/candidate/editorial-20261020/Refinement-r02-to-r03.html",
+      "sha256": "c5be00a507580e214a4ca7fbec623ab82eda7249c56fee4fa2c398827f545f8c",
+      "report": "articles/inner-child-therapy/candidate/editorial-20261020/Refinement-r02-to-r03-browser.json",
+      "status": "pass"
+    },
+    {
+      "file": "articles/inner-child-therapy/candidate/editorial-20261020/Side-by-Side-r03.html",
+      "sha256": "f9c28d150fb83e4511ab912146763b9161c670040f3843e1fd83638e25114ee0",
+      "report": "articles/inner-child-therapy/candidate/editorial-20261020/Side-by-Side-r03-browser.json",
+      "status": "pass"
+    }
+  ],
+  "scope": "Identity checks of already-completed outputs; no prose generation or repeated reader/browser run.",
+  "remaining": "Repository regression/registry checks, commit/push/readback and direct delivery."
+}

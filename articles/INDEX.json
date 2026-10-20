@@ -22374,12 +22374,12 @@
         },
         {
           "path": "articles/inner-child-therapy/candidate/editorial-20261020/Full-Article-r03-browser.json",
-          "sha256": "0caa98b1a1306e1121927ddfd8eb6e96888c160c753bbffddeb1f9ddcf621e5f",
+          "sha256": "31c24be28e068452cef28dcf74cb8dd4a8669dcb2826164759c50303626ad95d",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/candidate/editorial-20261020/Full-Article-r03-browser.md",
-          "sha256": "9d9d7c3b96df2b25409906a5176beddaf7a6df551a3996a55f7c35fa21f2f60c",
+          "sha256": "566a5b853aa76770fc91c470493122c53dc22693af8d3998bd61dbd9e1f6749e",
           "role": "humanization_working_record"
         },
         {
@@ -22404,12 +22404,12 @@
         },
         {
           "path": "articles/inner-child-therapy/candidate/editorial-20261020/Owner-to-Candidate-r03-browser.json",
-          "sha256": "141744c84a143cf177ea91e1d5541daffc2992ee4314d1c59a94a0eed5f54a49",
+          "sha256": "8fb410ca01884c1130527ab736d37257a059ae021278de61f22966c6fabe834d",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/candidate/editorial-20261020/Owner-to-Candidate-r03-browser.md",
-          "sha256": "8b4ec639448ea556eb0cb33ceee8690d4509c5cbd076cb998aea334a56eb0943",
+          "sha256": "caff28f01cb9c71cad45c2dd5b437f96dde4755afb9516e8873fd5caf5b65de0",
           "role": "humanization_working_record"
         },
         {
@@ -22444,12 +22444,12 @@
         },
         {
           "path": "articles/inner-child-therapy/candidate/editorial-20261020/Side-by-Side-r03-browser.json",
-          "sha256": "b79bc8c6d7d1b9ae7e3459a5b554bd867aa1e83e654ff579d9c6a7d2aaad1e65",
+          "sha256": "7ef59e578e7532d1ecfbf144e5baea571a68ae7b5f18085b188ed60d933af7e6",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/candidate/editorial-20261020/Side-by-Side-r03-browser.md",
-          "sha256": "473b38fd31082ff9dbc2f72ca19183c5bacf1cf72d27fcba00ed0b4efb520f66",
+          "sha256": "480a4e24d3cc5f6dbfac81085b9b47bfd3cdc24122561e59834b8f8593a3fa05",
           "role": "humanization_working_record"
         },
         {
@@ -22460,6 +22460,61 @@
         {
           "path": "articles/inner-child-therapy/candidate/editorial-20261020/Structure-and-Decisions-r03.html",
           "sha256": "6e4dcb42d8ab1b6f65e42d20667bda9d6db90fb86ab5d81fc9b23852a9c383b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/CHANGELOG.md",
+          "sha256": "d80a905f44fb57e2c3015a3fc7cf951e25b343d6e7288e3c80c096b7ed8d1a47",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/Editing-Protocol-v03.html",
+          "sha256": "05b1fd7da0cbd498bde1cdde0415da8a01234ade6ef763c8bc514453e71c87ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/PACKAGE-RESULT.json",
+          "sha256": "89508748aff63fc713469ba7abce40eeff4bfdf59010d17656c567f3960d9bb3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/PACKAGE-VERIFY.json",
+          "sha256": "c4726a7c5e58b54d25659eedbc1ffe53af98b37d23807fd2b1aba787656ca264",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/PROJECT_STATE.md",
+          "sha256": "bd27f69a4a0b497c319a3731ff6b7cbea48dae7b6ea45eb049714d1cae5943d6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/README.md",
+          "sha256": "eb4bebd1c0daff2323744d4ed99ed01366c34f1510a139a299ec5090d42d4590",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/REVIEW-OFFSET-ORACLE-REPAIR.md",
+          "sha256": "2c1826edc8aef6d1e507a8a89aa55cf2f48ed1cc241ccb14ff33ccd030a42274",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/Refinement-r02-to-r03-browser.json",
+          "sha256": "cf0745040d6dbfdff057c20fa484d73481bee5509d10716ddba64e82b900c11c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/Refinement-r02-to-r03-browser.md",
+          "sha256": "68bebbd5d4d65ef07b409c78715275d4a51cf1e8cc31c2c6415a3462e42f25f0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/START-HERE.html",
+          "sha256": "95886fa8d1929100159274a8a9687098e7e4202bf90cc1851733b87ff282dfd4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/candidate/editorial-20261020/source-comments.json",
+          "sha256": "e0a1a5a703a619bc61dccbcdb00dd447ded9f800882d1a9ad0c8d05ae140f04f",
           "role": "humanization_working_record"
         }
       ]
@@ -63007,12 +63062,12 @@
         },
         {
           "path": "articles/intentional-communities/candidate/owner-approved-20261020/Changes-r03-to-r04-browser.json",
-          "sha256": "870d90e5ef830799cfdcfe212621b3a9aaae030fe8dd6c5e42079f08a3352222",
+          "sha256": "7181c88830f985f42b198ba42a229e78d1381e2e5c3325941d98ced20303c30d",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/intentional-communities/candidate/owner-approved-20261020/Changes-r03-to-r04-browser.md",
-          "sha256": "ead36e8228c99dc1dfb09985c46c4b35c4bac2866b9e4e2153b89dc44b4db0cc",
+          "sha256": "7714c211f93d48c7f6fc2c31ef35c1491949563e1e45bab89a5b1c27cd430632",
           "role": "humanization_working_record"
         },
         {
@@ -63032,12 +63087,12 @@
         },
         {
           "path": "articles/intentional-communities/candidate/owner-approved-20261020/Full-Article-r04-browser.json",
-          "sha256": "3f303c67887b58d2ef5efda819860f57607b7bf790aad0083462de455e173a2b",
+          "sha256": "d3c9be95439c911692bef462be6c7925faba160dba504752f80d3a3be629abee",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/intentional-communities/candidate/owner-approved-20261020/Full-Article-r04-browser.md",
-          "sha256": "44be7c1944c37ef8a69edd9d19ca34d46d05c38c593c2a4d3d98c597f7cc1ae1",
+          "sha256": "e53f6d15ee61148191633270a4f7adea69050d49dc7439d423c621671e79e2e0",
           "role": "humanization_working_record"
         },
         {
@@ -63062,12 +63117,12 @@
         },
         {
           "path": "articles/intentional-communities/candidate/owner-approved-20261020/Original-to-r04-browser.json",
-          "sha256": "f557e7eab74dbb36b7101757a47b96cd534baff73bde30376dd2485040cc8627",
+          "sha256": "795c47004d127e099adba481afe35c2ccbdb3eb7a5fd7f86ac52f5486056a581",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/intentional-communities/candidate/owner-approved-20261020/Original-to-r04-browser.md",
-          "sha256": "fc29a8232f6f54f391b97d7bd73dd4dbcdef12e640126f65512474bc61f84f1f",
+          "sha256": "b62075303524efd7730979a4a320083d197c2a75742f59b165436597c76b634a",
           "role": "humanization_working_record"
         },
         {
@@ -63098,6 +63153,46 @@
         {
           "path": "articles/intentional-communities/candidate/owner-approved-20261020/TRANSFER-TYPE-REPAIR.md",
           "sha256": "176c0944bab4e9aedb7dc9a3d3a7280fadeb9d8864fd76b4f3f0dfc04a206bbe",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/CHANGELOG.md",
+          "sha256": "4a1a5971d141d4981e9a5aa850b0ace4add446bbd37bc8881d02fca65817fd9a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/CLIPBOARD-SINK-CHECK.json",
+          "sha256": "b252db405ede7d488dcc79b293af119c2ab39c91195004e87d251cf70f231a32",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/Editing-Protocol-v03.html",
+          "sha256": "05b1fd7da0cbd498bde1cdde0415da8a01234ade6ef763c8bc514453e71c87ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/PACKAGE-RESULT.json",
+          "sha256": "c22d04ce4c9d761070a68bf48a0a82b8f281bf3c0729348a7d697dc24f183521",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/PACKAGE-VERIFY.json",
+          "sha256": "f1dea51af3cf48d3339d4ed2a974b245c34852368ca2ce8a87df8009c597916e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/PROJECT_STATE.md",
+          "sha256": "b63fcba9b2bbf6ebd0170df80fc17758d1698159d071935cc65e49ae97c4c6c1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/README.md",
+          "sha256": "d9290a4ee5030f209a69eafbdd4b961d064db2a808b8a009f02f372c4d516b3e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/owner-approved-20261020/START-HERE.html",
+          "sha256": "c502831f3a59f385986c8b1dfc3411589881e0523d70fb6d80062102a6bd9bf3",
           "role": "humanization_working_record"
         }
       ]

@@ -1,16 +1,16 @@
 {
   "format": "joel-review-browser-test-v1",
-  "tested_utc": "2026-10-20T12:56:02+00:00",
+  "tested_utc": "2026-10-20T13:04:06+00:00",
   "browser": "Chromium via Playwright",
   "review_file": "Owner-to-Candidate-r03.html",
-  "review_sha256": "7a4f5467b70fe142c43f9ce48cdd608a1d6818a240b8f17619d5487afa1c86af",
+  "review_sha256": "fba19c7d5b6e038fc0e26d515b01354da14acf1ba768572305caa806fb60d245",
   "article_file": "",
   "article_sha256": "",
   "navigation_mode": "file://",
   "network_policy": "external HTTP(S) requests blocked; loopback allowed only when file:// was unavailable",
   "clipboard_test": "deterministic injected writeText sink; browser permission path remains destination-specific",
-  "load_seconds": 0.694,
-  "result": "fail",
+  "load_seconds": 0.669,
+  "result": "pass",
   "tests": [
     {
       "test": "local-file navigation",
@@ -20,7 +20,7 @@
     {
       "test": "open exact review file",
       "status": "pass",
-      "detail": "file://; loaded in 0.694s"
+      "detail": "file://; loaded in 0.669s"
     },
     {
       "test": "offline review",
@@ -99,7 +99,7 @@
     },
     {
       "test": "JSON/Markdown export and parse",
-      "status": "fail",
+      "status": "pass",
       "detail": "items: 2"
     },
     {
