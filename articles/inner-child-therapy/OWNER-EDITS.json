@@ -244,18 +244,31 @@
    "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
    "waits_for": "Start With Whatever Showed Up",
    "must_contain": [
-    "## Start With Whatever Showed Up\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.\n\nYou might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way."
+    "## Start With Whatever Showed Up\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.",
+    "You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way."
    ],
-   "note": "2026-10-03 (turn 20): must_contain trimmed to P1's first two sentences, which are the same in Joel's P1; the rest of P1 is his and is checked in sws-p1-protective-part."
+   "note": "2026-10-03 (turn 20): must_contain trimmed to P1's first two sentences, which are the same in Joel's P1; the rest of P1 is his and is checked in sws-p1-protective-part. 2026-10-18 (turn 71): split in two. \"Right before\" was where I put it when he said \"find where that is supposed to go\" (02:42); the restructure plan for his 2026-09-27 16:29 request (experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md, entry dissolve-three-functions) puts the guide's TF-U8 and TF-U9, the child's gifts and his post, \"with the parked pl/ork paragraph\", so that paragraph now sits between them. The pl/ork paragraph still opens the section and comes before \"I count that as pl/ork too\"."
   },
   {
    "id": "dissolve-three-functions",
-   "status": "pending",
+   "status": "applied",
    "what": "Dissolve the h1 The Three Adult Functions into shorter, earlier pieces, keeping every therapy principle.",
    "joel": "16:29",
    "waits_for": "the sections after the Apprentice (see experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md)",
    "must_not_contain": [
     "The Three Adult Functions"
+   ],
+   "note": "2026-10-18 (turn 71): the last units placed, so every unit of the old h1 is in the article: TF-U8 and TF-U9 (the child's gifts, his post) and TF-U10's \"communion rather than command\" after the pl/ork paragraph, TF-U11 (intuition and analysis) after his \"Or if you do get an answer ...\" paragraph, both in Start With Whatever Showed Up; TF-U12's test line in Don't Give the Inner Adult Away, as published, waiting on his word (tf12-test-line-pending-20261018). TF-U10's reaching out is his Borrowed Adulthood and Speak Toward paragraphs. Earlier: pieces 1 to 3 (2026-09-27), Make the Protector Visible (turn 5)."
+  },
+  {
+   "id": "tf12-test-line-pending-20261018",
+   "status": "applied",
+   "what": "TF-U12's test line from his published guide is his first person; its wording counts as his only once he has seen it whole, in its section, and said so (E189). In with Don't Give the Inner Adult Away (turn 71, round t71kkk), as published, at the end of P1: \"The test is whether the relationship makes me more grounded, truthful, and free.\" (question 52).",
+   "joel": "(waiting: question 52, turn 71) 2026-10-18 19:06 UTC (turn 72), question 52: \"a\" (my words: keep it).",
+   "where": "Don’t Give the Inner Adult Away",
+   "waits_for": "his word on question 52",
+   "must_contain": [
+    "But they can know things you don't and still be wrong about you. The test is whether the relationship makes me more grounded, truthful, and free."
    ]
   },
   {
@@ -271,10 +284,14 @@
   },
   {
    "id": "worth-universal-vs-personal",
-   "status": "pending",
+   "status": "applied",
    "what": "Make the difference between universal love and love from a person clear.",
    "joel": "00:09",
-   "waits_for": "You Are Worthy of Love. Always."
+   "waits_for": "You Are Worthy of Love. Always.",
+   "must_contain": [
+    "That kind, whether you'd say it comes from God or the universe itself or whatever, was there before you could earn anything. Love from a person is more conditional than that."
+   ],
+   "note": "2026-10-18 (turn 71): a new first paragraph in You Are Worthy of Love. Always. (experiments/t71-guide/drafts/wl-u3.txt, round t71mmm): the love in the title is his Divine Love from Your Loan is PRE-APPROVED!, from God or the universe itself or whatever (his 00:09 words), there before you could earn anything; love from a person is more conditional than that. Turn 65's closing had left the guide's \"Love precedes anything you could earn.\" out, so the title stood alone. It agrees with Goodwill's \"then they actually would be lovable\", which is love from a person."
   },
   {
    "id": "outward-p1-joel-final",
@@ -478,13 +495,14 @@
    "what": "P5 of Not Every Hero Wears A Cape is Joel's final (\"Protector\" capitalized, as elsewhere in the article).",
    "joel": "2026-09-30 03:29 UTC: \"for P5 the first \\\"it\\\" is unclear referent. I assume you mean the protector action, not the difficult conversation. You explained in the next sentence. here's hum med conf final p5: After the day, look at what actually happened. If you did the protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic. [...] Hey, we've all been there. 🤗\"",
    "must_contain": [
-    "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic.",
+    "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn't mean failure. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first.",
     "Fear is the first guess, but maybe you didn't know how or why. Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. Hey, we've all been there. 🤗"
    ],
    "order": [
     "as long as what you needed to say is still in there.",
     "After the day, look at what actually happened."
-   ]
+   ],
+   "note": "2026-10-18 (turn 73): his 55, 9 of 21:58 UTC (\"What i meant to say there was \"healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first.\"\") in place of \"because the process is dynamic\"."
   },
   {
    "id": "mpv-p1-sweet-things",
@@ -1156,7 +1174,7 @@
     "Maybe you've been trying to comfort your little one for weeks, and the words are all there, but the loving grown-up behind them isn't, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just \"throw the baby out with the bathwater,\" and decide reparenting is useless. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference.",
     "One more thing about telling whether it helped. A few hours of feeling lighter, with the old feeling back the same day, is a few hours of relief. I'd take that! But I wouldn't decide from it that the problem's over, or even that the exercise did it, especially if you also slept well for once. Write down what changed and how long it lasted if you want, and then leave it alone.",
     "How many tries is enough? I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar. If it's making things worse, or you just can't do it right now, I'd change course sooner (stopping counts). Not wanting to do it anymore is a reason too, but if that \"nope\" sounds like a part of you that's trying to protect you, I'd hear it out first. If it still says no, that's your answer. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!",
-    "Sometimes it's the exercise that works. You feel real care for your little one and say exactly what they needed to hear. And a few days later you're skipping lunch and saying yes to everything again. A lot of people's first guess is that they didn't go deep enough. I don't think that's it, though, and I don't think this one failed either. Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine. That can honestly be harder than the meditation was. One small thing like that can teach your little one more than ten more good meditations. It doesn't have to happen after every session, and once isn't proof you've got it all down."
+    "Sometimes the session itself goes really well. You feel real care for your little one and say exactly what they needed to hear. And a few days later you're skipping lunch and saying yes to everything again. A lot of people's first guess is that they didn't go deep enough. I don't think that's it, though, and I don't think this one failed either. Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine. That can honestly be harder than the meditation was. One small thing like that can teach your little one more than ten more good meditations. It doesn't have to happen after every session."
    ],
    "order": [
     "Hear the Protective Part First",
@@ -1165,8 +1183,9 @@
     "Maybe you've been trying to comfort your little one",
     "One more thing about telling whether it helped.",
     "How many tries is enough?",
-    "Sometimes it's the exercise that works."
-   ]
+    "Sometimes the session itself goes really well."
+   ],
+   "note": "2026-10-18 (turn 71): P5's first sentence is \"Sometimes the session itself goes really well.\" for \"Sometimes it's the exercise that works.\" (a cold read: works at what?; my sentence, round t71xxx). 2026-10-18 (turn 72): \"and once isn't proof you've got it all down\" is out of P5 (the filler sweep's 12; the hedge he named on 2026-10-18 19:06, O43), so the check quotes P5 without it."
   },
   {
    "id": "wcs-p1-what-is-blocking",
@@ -1241,12 +1260,13 @@
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
-    "Sometimes it's the exercise that works.",
+    "Sometimes the session itself goes really well.",
     "I don't think that's it, though, and I don't think this one failed either.",
     "Maybe the grown-up just hasn't come out of the exercise with you yet.",
     "One small thing like that can teach your little one more than ten more good meditations.",
-    "It doesn't have to happen after every session, and once isn't proof you've got it all down."
-   ]
+    "It doesn't have to happen after every session."
+   ],
+   "note": "2026-10-18 (turn 71): P5's first sentence is \"Sometimes the session itself goes really well.\" for \"Sometimes it's the exercise that works.\" (a cold read: works at what?; my sentence, round t71xxx). 2026-10-18 (turn 72): \"and once isn't proof you've got it all down\" is out of P5 (the filler sweep's 12; the hedge he named on 2026-10-18 19:06, O43), so the check quotes P5 without it."
   },
   {
    "id": "five-percent-question",
@@ -1332,8 +1352,9 @@
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
    "where": "Before You Try to Go Deep",
    "must_contain_exact": [
-    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
-   ]
+    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that, if you need them to prove you're lovable. Nobody's a reassurance machine. Leaning on each other is still a big part of relationships, and it goes both ways. In a real crisis, getting a safe person involved can be exactly the right move. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
+   ],
+   "note": "2026-10-18 (turn 72): his answers to 54 (19:06 UTC, and 19:26 \"yes you read me correctly\"): 4 and 6 (his dating sentence out, the reassurance machine merged in), 9 (the full break as a last resort, first), 12 C (\"your only support\"); the checks quote the paragraphs as they stand now."
   },
   {
    "id": "boundary-paragraph-joel",
@@ -1387,8 +1408,9 @@
     "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!) But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know.",
     "If you really did hurt them, repair it. Also easier said than done, but...",
     "You can mean the apology for a start. Then notice what happens next. Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.",
-    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
-   ]
+    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that, if you need them to prove you're lovable. Nobody's a reassurance machine. Leaning on each other is still a big part of relationships, and it goes both ways. In a real crisis, getting a safe person involved can be exactly the right move. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
+   ],
+   "note": "2026-10-18 (turn 72): his answers to 54 (19:06 UTC, and 19:26 \"yes you read me correctly\"): 4 and 6 (his dating sentence out, the reassurance machine merged in), 9 (the full break as a last resort, first), 12 C (\"your only support\"); the checks quote the paragraphs as they stand now."
   },
   {
    "id": "c2-after-c1",
@@ -1397,13 +1419,14 @@
    "joel": "2026-10-09 02:06 UTC: \"C2 looks fine\"",
    "where": "Also Look Outward",
    "must_contain_exact": [
-    "And reaching out doesn't mean telling strangers everything. Privacy isn't fakery. People can earn more of you by how they handle the smaller things you tell them, and how they take it when you say no. But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn't prove you're meant for each other, or that they've earned your trust yet."
+    "And reaching out doesn't mean telling strangers everything. Privacy isn't fakery. People can earn more of you by how they handle the smaller stuff, like whether that thing you told them about your weird fear of birds turns into a joke at the next party 🙈, and how they take it when you say no. But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn't prove you're meant for each other, or that they've earned your trust yet."
    ],
    "order": [
     "let both of you have your own reasons for being there in the beautiful present.",
     "If being alone was a big part of what hurt in the first place",
     "And reaching out doesn't mean telling strangers everything."
-   ]
+   ],
+   "note": "2026-10-18 (turn 73, round t73e): his Inner Monologue move (19:06 UTC) is in, and with it this paragraph changed so Before You Try to Go Deep reads Human in the new order (https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2); the check quotes it as it stands now."
   },
   {
    "id": "t1-t9-teaching-points",
@@ -1412,17 +1435,17 @@
    "joel": "2026-10-09 02:06 UTC: \"all those T1-9 points look good, if they aren't already in the guide. C2 looks fine yes teaching points makes sense\"",
    "where": "Before You Try to Go Deep; Your Body Might Need Some Love First; Also Look Outward",
    "must_contain_exact": [
-    "And if the grown-up you is there, and it's just how deep you're going that's too much, I'd go shallower. Some people try one technique after another instead, to prove to themselves they can take it. Your little one may have had to just take it back then, though. Now there's a grown-up around who can say, \"Okay, that's enough for today,\" and try something gentler instead of giving up on them. Even just saying hi to them with your eyes open, before any imagery, counts.",
-    "If you ever need a full break from your little one, I'd jot down why, and how far you'd gotten before it got to be too much. A couple of lines on your phone is plenty. After a while away, it gets hard to remember. So once that reason has changed and you want to come back, the note tells you where it was still okay. I'd start there, or somewhere a bit gentler.",
-    "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much. This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met. Even staying present the whole time doesn't tell you enough by itself. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
-    "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much? A lot of the time you just know.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier, one change at a time, so you learn what made the difference. If you're getting worse, though, change several things at once, and get some support.",
+    "And if the grown-up you is there, and it's just how deep you're going that's too much, I'd go shallower. Like the flight attendants say, it's good to know where the exits are. 😅 So can you stop in the middle and come back to the room? If you can't, or going in at all keeps making it worse, I'd come all the way back out first. Some people try one technique after another instead, to prove to themselves they can take it. Your little one may have had to just take it back then, though. Now there's a grown-up around who can say, \"Okay, that's enough for today,\" and try something gentler instead of giving up on them. Even just saying hi to them with your eyes open, before any imagery, counts.",
+    "A full break from your little one is a last resort. Sometimes it isn't up to you, though, like when something's actually unsafe. If you do need one, I'd jot down why, and how far you'd gotten before it got to be too much. A couple of lines on your phone is plenty. After a while away, it gets hard to remember. So once that reason has changed and you want to come back, the note tells you where it was still okay. I'd start there, or somewhere a bit gentler.",
+    "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much. This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met. And being present through all of it doesn't mean it wasn't too much. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
+    "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much? A lot of the time you just know.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier (shorter, or shallower, at a better time of day, with your eyes open, a teddy bear standing in for your little one, or a friend in the next room), one change at a time, so you learn what made the difference.",
     "Bring the challenge back gradually, and only when you want to and you're recovering well. Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn. And what about those hard dreams, or images that pop up during a session? They can show what feels important or frightening right now. Sometimes they show what feels missing, or what feels needed. They aren't evidence that what you saw in them happened, though, and shouldn't be used to confirm a memory or rebuild one. Or to suggest one.",
     "If being alone was a big part of what hurt in the first place, then reaching toward people is part of taking care of your little one too. Do you have to get yourself sorted out first, so you'll be better company? I really don't think so. If the hurt was being alone, waiting just means more of being alone. So I'd call somebody or show up somewhere, mess and all.",
-    "I can't tell you where to look for people who fit you, but I'd bet on more than one place. Keep the good people you've already got. Then maybe try a class, or a spiritual community if one really fits you. Not every one of them has to click (nobody's taking attendance). And if any group, or any one person, starts acting like they should be your only one, that's where I'd want the Protector paying attention."
+    "I can't tell you where to look for people who fit you, but I'd bet on more than one place. Keep the good people you've already got. Then maybe try a class, or a spiritual community if one really fits you. Not every one of them has to click (nobody's taking attendance). And if any group, or any one person, starts acting like they should be your only support, that's where I'd want the Protector paying attention."
    ],
    "order": [
     "And if the grown-up you is there, and it's just how deep you",
-    "If you ever need a full break from your little one, I'd jot ",
+    "A full break from your little one is a last resort.",
     "Here's a map of what to try when:",
     "Whatever you try from that map, I wouldn't go just by how pl",
     "So how were the next few days? How did you sleep, and could ",
@@ -1433,7 +1456,8 @@
     "And reaching out doesn't mean",
     "I can't tell you where to look for people who fit you, but I",
     "### Write It."
-   ]
+   ],
+   "note": "2026-10-18 (turn 72): his answers to 54 (19:06 UTC, and 19:26 \"yes you read me correctly\"): 4 and 6 (his dating sentence out, the reassurance machine merged in), 9 (the full break as a last resort, first), 12 C (\"your only support\"); the checks quote the paragraphs as they stand now. 2026-10-18 (turn 72, round t72f): P2 now has coming out first after \"I'd go shallower.\", his 54, 8, B and 10, A. 2026-10-18 (turn 73, round t73e): his Inner Monologue move (19:06 UTC) is in, and with it this paragraph changed so Before You Try to Go Deep reads Human in the new order (https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2); the check quotes it as it stands now. 2026-10-19 (turn 74): P5 is his pasted version of 00:08 UTC, with the guide's list of what to change in it (54, 11) and \"change several things at once\" out (54, 8)."
   },
   {
    "id": "san-pedro-correction-20261010",
@@ -1456,7 +1480,7 @@
    "joel": "2026-10-10 05:21 UTC, sent again 15:20 UTC (his answer 1 to turn 39's questions): \"paranoia during a rough trip is a warning sign for psychosis, i would reconsider the drug and dsoage if trying again, as well as mindset and setting etc. some drugs are known for causing paranoia like THC, avoid those. idk why you said i was cracked wide open by pedro so wide there was no gorwn up in the room you just confabulated that? don't confabulate things about my life...  pedro did make me super emotional the first time i took a medium low dose (7g) and i was crying a lot, it was very therapeutic actually.  ayahuasca was often much more challenging, ebcause i was taking huge doses at first for ego death. this is the part about san pedro which is in the current published guide: \\\"It still didn’t reach all of my inner-child material, especially my attachment to women. The [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm) I tried later felt imaginary at first. San Pedro cactus, CBD tea, and sublingual mapacho cracked it open; structured sessions with an inner-child therapist deepened it.\\\"\" | 2026-10-10 05:21 UTC, sent again 15:20 UTC (his answer 2): \"all kinds of psychoactive drugs can mess with your sense of what's real, and that's often the point of them, but in general try to select the healthiest ones and use slow and gentle protocols. i'd say one of the most abused psychedelics (aside from ketamine if you call that a psychedelic) is 5-meo-dmt. I have a guide on that. people very often believe you need a huge dose of that for a \\\"FULL RELEASE\\\", they have all kinds of screaming shaking and nearly killing themselves and absoluely zero inner child work being done, all spiritual bypassing.\"",
    "where": "When the Urge to Escape Arrives (the drug-history paragraph and his 5-MeO paragraph)",
    "must_contain": [
-    "Paranoia during a rough trip is a warning sign for psychosis",
+    "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there, since it can be valid.",
     "All kinds of psychoactive drugs can mess with your sense of what's real",
     "5-MeO-DMT"
    ],
@@ -1465,7 +1489,8 @@
      "text": "guide on that",
      "url": "http://bufo.u-dont-exist.com/"
     }
-   ]
+   ],
+   "note": "2026-10-18 (turn 72): his answer 49, 3 (19:06 UTC): \"paranoia isn't automatically leading to psychosis, since it can be valid, but it does tend to lead to psychosis when it isn't balanced by practicality\", so the check quotes the new sentence."
   },
   {
    "id": "san-pedro-account-as-text-20261010",
@@ -1489,8 +1514,9 @@
    ],
    "must_contain": [
     "those are signs to reconsider trying the same thing again",
-    "Paranoia during a rough trip is a warning sign for psychosis"
-   ]
+    "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there, since it can be valid."
+   ],
+   "note": "2026-10-18 (turn 72): his answer 49, 3 (19:06 UTC): \"paranoia isn't automatically leading to psychosis, since it can be valid, but it does tend to lead to psychosis when it isn't balanced by practicality\", so the check quotes the new sentence."
   },
   {
    "id": "grown-up-me-line-not-his-20261010",
@@ -1578,11 +1604,13 @@
   },
   {
    "id": "q2-altered-states-voices-20261011",
-   "status": "pending",
-   "what": "For Altered States Can Deepen the Therapy, when it's humanized: his new list decides who goes through the gate (going manic, psychotic, super paranoid, worse afterward), not the guide's history of voices. Feeling attacked by a demon on a psychedelic isn't necessarily paranoia: it can be real, it isn't bad unless you're unprepared, and it can be supremely empowering when you can send love and see it fix the situation.",
+   "status": "applied",
+   "what": "For Altered States Can Deepen the Therapy, when it's humanized: his new list decides who goes through the gate (going manic, psychotic, super paranoid, worse afterward), not the guide's history of voices. Feeling attacked by a demon on a psychedelic isn't necessarily paranoia: it can be real, it isn't bad unless you're unprepared, and it can be supremely empowering when you can send love and see it fix the situation. In since turn 71 (2026-10-18), after the gate and Pangram: P2 points back to the guards and caution signs of When the Urge to Escape Arrives (his list), then his answer 2a, fitted with only \"as stated\" dropped.",
    "joel": "2026-10-11 03:47 UTC: \"2. a. feeling attacked by a demon on a psychedelic is not necessarily paranoia, it can be real, and it's also not bad unless you're unprepared as stated. it can be supremely empowering when you can send love and see how it fixes the situation.\"",
-   "where": "Altered States Can Deepen the Therapy (not humanized yet)",
-   "waits_for": "Altered States Can Deepen the Therapy to be humanized"
+   "where": "Altered States Can Deepen the Therapy",
+   "must_contain": [
+    "But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, and it's also not bad unless you're unprepared. It can be supremely empowering when you can send love and see how it fixes the situation."
+   ]
   },
   {
    "id": "q3-therapist-story-20261011",
@@ -1932,20 +1960,19 @@
   },
   {
    "id": "altered-states-trance-20261012b",
-   "status": "pending",
-   "waits_for": "Altered States Can Deepen the Therapy / Can Require Reparenting, when humanized",
-   "what": "For Altered States, next to his sleep-paralysis fear: a trance can feel scarier because you're trapped in it, but it's less dangerous. You can't ruin your life in a trance (unless a bad hypnotic suggestion gets deeply implanted, perhaps), while freaking out without one can end with being committed, losing your housing, jail, or worse. In a trance you can work with the fear: you recognize it has no real-world significance, that it's purely fear, so it's very useful that way. He wants it mentioned.",
+   "status": "applied",
+   "what": "For Altered States, next to his sleep-paralysis fear: a trance can feel scarier because you're trapped in it, but it's less dangerous. You can't ruin your life in a trance (unless a bad hypnotic suggestion gets deeply implanted, perhaps), while freaking out without one can end with being committed, losing your housing, jail, or worse. In a trance you can work with the fear: you recognize it has no real-world significance, that it's purely fear, so it's very useful that way. He wants it mentioned. In since turn 71 (2026-10-18), after the gate and Pangram: its own paragraph right after his sleep-paralysis story and the image, his words fitted (\"Sleep paralysis is a trance-like state, and\" mine; two typos fixed).",
    "joel": "2026-10-12 03:13 UTC: \"re altered states notes: yes like i said, trance can be \"more scary\" because you're trapped in it, but it's also less actually dangerous, you can't ruin your life at all in trance (unless a bad hypnotic suggestion gets deeply implanted perhaps), while without trance you can \"freak out\" in a way that might end up getting you commmitted to a mental hospital thrown out of your housing, going to jail, possibly even killing yourself. in trance you can basically work with the fear, you recognize it has no real world significance and it's purely just fear. so its' super useful that way. that's worth mentioning.\"",
-   "where": "Altered States Can Deepen the Therapy",
+   "where": "Altered States Can Require Reparenting",
    "must_contain": [
-    "trapped"
+    "trapped",
+    "You can't ruin your life at all in trance"
    ]
   },
   {
    "id": "altered-states-gentle-20261012b",
-   "status": "pending",
-   "waits_for": "Altered States Can Deepen the Therapy, when humanized",
-   "what": "Altered States says gentle meditation or self-hypnosis can help (both), as When the Urge to Escape Arrives does, rather than offering his self-hypnosis guide only \"When you're ready\".",
+   "status": "applied",
+   "what": "Altered States says gentle meditation or self-hypnosis can help (both), as When the Urge to Escape Arrives does, rather than offering his self-hypnosis guide only \"When you're ready\". In since turn 71 (2026-10-18): \"Gentle meditation or self-hypnosis can help with that from the start, like I said about the urge to escape.\"",
    "joel": "2026-10-12 03:13 UTC: \"yeah gentle meditation or self-hypnosis can help that's true should mention both\"",
    "where": "Altered States Can Deepen the Therapy",
    "must_contain": [
@@ -2396,12 +2423,16 @@
   },
   {
    "id": "published-first-person-pending-20261017",
-   "status": "pending",
-   "what": "The rest of his published first-person lines go in with their sections. He has seen each whole and in context and said they're his words (question 43, 2026-10-17 22:59 UTC: \"43 my words\"): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his guides, the childhood ghosts and the window, the sleep-paralysis attacks, sending love, training others, the thugs, and \"If I were to do that\" (the Altered States sections), with their warnings in his words and no amounts or recipes. One line there isn't his: \"If a voice or urge is directing you towards harm ... as with myself and those ghosts at home, move away from that open window and get some outside support.\" is the guide's wording (\"that's therapy speak from AI based on my story, but it's ok if it passes\"). His Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building (turn 70). This human life is in too (turn 70).",
+   "status": "applied",
+   "what": "The rest of his published first-person lines go in with their sections. He has seen each whole and in context and said they're his words (question 43, 2026-10-17 22:59 UTC: \"43 my words\"): Xandria and the story phrase (\"And So That's the Way It Happened!\"); his guides, the childhood ghosts and the window, the sleep-paralysis attacks, sending love, training others, the thugs, and \"If I were to do that\" (the Altered States sections), with their warnings in his words and no amounts or recipes. One line there isn't his: \"If a voice or urge is directing you towards harm ... as with myself and those ghosts at home, move away from that open window and get some outside support.\" is the guide's wording (\"that's therapy speak from AI based on my story, but it's ok if it passes\"). His Hearthwork and pl/ork lines are in, with Speak Toward What You Are Building (turn 70). This human life is in too (turn 70). Turn 71 (2026-10-18): all in, Xandria with \"And So That's the Way It Happened!\" and the rest with the Altered States sections, after the gate and Pangram.",
    "joel": "2026-10-17 16:58 UTC: \"yes they are [my words], pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"now that you are showing me in context exactly, i see i got paraphrased\" (experiments/t69-answers/JOEL-20261017-1856.md). 2026-10-17 22:59 UTC: \"43 my words. except the last one about voice or urge directing you towards harm, that's therapy speak from AI based on my story, but it's ok if it passes.\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "those sections, when humanized",
    "must_contain": [
-    "Xandria"
+    "Xandria",
+    "When you’re ready, my [self-hypnosis guide](http://hypnosis.u-dont-exist.com/) or [lucid-dreaming guide](http://lucid.u-dont-exist.com/) can take it deeper.",
+    "Those ghosts knew my weakness: dares.",
+    "It definitely has worked for me sometimes when facing some thugs",
+    "If I were to do that, I would still be framing it as"
    ]
   },
   {
@@ -2411,13 +2442,14 @@
    "joel": "2026-10-17 22:59 UTC: P1 \"now human high conf on pangram\"; P2 \"it's better this way and human med conf\"; P5 \"this is human\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "Speak Toward What You Are Building",
    "must_contain_exact": [
-    "It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself \"I'm not dependent.\" Well, now you're thinking about being dependent. Being totally independent also isn't realistic nor ideal, and can even seem like just a reaction to the original question. We can often strike a nice nuanced poetic balance, like: \"I'm provided for by the universe, like the birds & lilies Jesus reminded us of.\" With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!",
+    "It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself \"I'm not dependent.\" Well, now you're thinking about being dependent. Being totally independent also isn't realistic nor ideal, and can even seem like just a reaction to the original problem. We can often strike a nice nuanced poetic balance, like: \"I'm provided for by the universe, like the birds & lilies Jesus reminded us of.\" With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!",
     "But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says \"he hurt me,\" that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide parts can lead the way up to more safety and maturity.",
     "The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both."
    ],
    "must_not_contain": [
     "lillies"
-   ]
+   ],
+   "note": "2026-10-18 (turn 73): his 55, 17, A of 21:58 UTC, \"the original problem\" for \"the original question\"."
   },
   {
    "id": "first-person-back-20261017-2259",
@@ -2505,6 +2537,161 @@
      "text": "Hearthwork",
      "url": "https://hearthwork.u-dont-exist.com"
     }
+   ]
+  },
+  {
+   "id": "appendix-teachers-20261018",
+   "status": "applied",
+   "what": "The Appendix opens after You Are Worthy of Love. Always., with Teachers and Practice Resources: the guide's credits (Daja with her book, training and Instagram; Lisa Romano; Key, linked, with her Nairobi meditation; Open Path Collective; his Somatic Therapies Guide). The Gemini-thread sentence is out because its link opened on \"Link doesn't exist\" on 2026-10-18; it waits on Joel (question 47). How This Relates to IFS and Related Clinical Work are parked (question 45). Turn 71, after the gate and Pangram (the h2 Human Written 0.13, high).",
+   "joel": "2026-10-18 01:17 UTC: \"work as much as you can ovewr next 12hrs on the whole article etc just show me what you couldn't figure out\" (experiments/t71-answers/JOEL-20261018-0116.md).",
+   "where": "Appendix",
+   "must_contain": [
+    "# Appendix",
+    "## Teachers and Practice Resources",
+    "Daja works with inner-child pl/ork intuitively",
+    "Lisa Romano brings more neuroscience and CBT"
+   ],
+   "must_not_contain": [
+    "g.co/gemini/share/fe062bfb8847"
+   ],
+   "must_link": [
+    {
+     "text": "book",
+     "url": "https://a.co/d/7Sa4kP2"
+    },
+    {
+     "text": "Open Path Collective",
+     "url": "https://openpathcollective.org/pricing-and-eligibility-for-affordable-therapy/"
+    },
+    {
+     "text": "Somatic Therapies Guide",
+     "url": "http://somatic.u-dont-exist.com/"
+    }
+   ]
+  },
+  {
+   "id": "appendix-first-person-pending-20261018",
+   "status": "applied",
+   "what": "The Appendix's first-person lines from his published guide are his story; their wording counts as his only once he has seen them whole, in their section, and said so (E189). In with Teachers and Practice Resources: \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\" In with How This Relates to IFS (turn 71, round t71ddd), as published: \"My reparenting method diverges from IFS at an important point.\", \"I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.\", \"I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything.\", \"IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.\", and Related Clinical Work's \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (questions 45 and 47).",
+   "joel": "2026-10-18 19:06 UTC (turn 72): 45: \"all that is ai paraphrasing me, but i'd qualify the \"no use\" part\" (with his notes on the Higher Self), and D (leave out \"A trustworthy adult function is built through care, boundaries, action, and direction.\"); 47: \"a. e.\"; 49, 6: \"dedup yeah, so just remove \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\"\"",
+   "where": "Appendix",
+   "must_contain": [
+    "My reparenting method diverges from IFS at an important point.",
+    "I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.",
+    "IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.",
+    "This framework developed through the teachers and collaborators credited below and my own practice.",
+    "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.",
+    "I've had the Higher Self perspective myself, though."
+   ],
+   "must_not_contain": [
+    "Several teachers directly influenced this method.",
+    "I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.",
+    "I have no use for another neo-Advaita",
+    "Those don't even agree with each other on everything!",
+    "A trustworthy adult function is built through care, boundaries, action, and direction."
+   ],
+   "note": "2026-10-18 (turn 72): his answers settle it. The IFS and Related Clinical Work lines he lets stand as paraphrases of him; the Higher Self line is replaced by two paragraphs built from his notes (question 57 shows them for his word on the wording); the Teachers lines are out as a repeat (49, 6)."
+  },
+  {
+   "id": "loveyhuasca-link-out-20261018",
+   "status": "applied",
+   "what": "Altered States Can Deepen the Therapy names Loveyhuasca with no link: the guide's loveyhuasca.info opens his \"Ultimate Psychedelic Protocol\" page (checked 2026-10-18), the recipe link his rule keeps out (E162, q8c-acacia-why-20261011c). Turn 71.",
+   "joel": "2026-10-11 (E162): amounts and recipes stay out; his \"ultimate psychedelic recipe\" line and its link stay out.",
+   "where": "Altered States Can Deepen the Therapy",
+   "must_not_contain": [
+    "loveyhuasca.info"
+   ]
+  },
+  {
+   "id": "close-session-20261018",
+   "status": "claim",
+   "what": "Simple Practices' Close the Session and Return to Life is in, after Use Childhood Photographs Gently, starting from his \"Present Time\" reminder there: the guide's definite ending, look around and say where you are, feet or chair, jaw and hands, the next ordinary action and the sentence for your little one, nothing has to be resolved first, going back to your life is part of the healing. Turn 71, after the gate and Pangram (the h2 Human Written 0.085, high).",
+   "joel": "2026-10-18 01:17 UTC: \"work as much as you can ovewr next 12hrs on the whole article etc\" (experiments/t71-answers/JOEL-20261018-0116.md).",
+   "where": "Simple Practices",
+   "must_contain": [
+    "## Close the Session and Return to Life",
+    "That \"Present Time\" ending is worth stealing for every session",
+    "\"That's enough for today. We're going back to the life we're building.\"",
+    "Going back to your life is part of the healing, too."
+   ]
+  },
+  {
+   "id": "move-dangerous-20261018",
+   "status": "applied",
+   "what": "His section move, half done: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking, its text unchanged (Before You Try to Go Deep with it Human Written 0.090, high, https://www.pangram.com/history/83e7e712-260e-4c40-8a11-de49411e63bb, round t72f). You Don't Need an Inner Monologue stays where it was for now: moved too, every version had AI windows in Your Body Might Need Some Love First P3 to P5 (round t72e), and that entry is move-monologue-pending-20261018.",
+   "joel": "2026-10-18 19:06 UTC: \"i think we should move \"you don't need an inner monologue section\" to right after \"when healing turns into checking\" and we should move \"when the present-day adult is dangerous\" after that, since both of those to me are less likely to be important for most people compared to the other sections,and the didn't really fit where they were.\"",
+   "order": [
+    "### When Healing Turns Into Checking",
+    "## When the Present-Day Adult Is Dangerous to the Child",
+    "# Borrow the Adult Before You Can Be the Adult"
+   ]
+  },
+  {
+   "id": "move-monologue-pending-20261018",
+   "status": "applied",
+   "what": "The other half of his move: You Don't Need an Inner Monologue right after When Healing Turns Into Checking, before When the Present-Day Adult Is Dangerous to the Child. In 2026-10-18 (turn 73, round t73e), with Your Body Might Need Some Love First P4's middle sentence said again and Also Look Outward's honesty paragraph given a scene: Before You Try to Go Deep Human Written 0.096, high, https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2.",
+   "joel": "2026-10-18 19:06 UTC (as move-dangerous-20261018)",
+   "order": [
+    "### When Healing Turns Into Checking",
+    "## You Don’t Need an Inner Monologue",
+    "## When the Present-Day Adult Is Dangerous to the Child"
+   ]
+  },
+  {
+   "id": "bg-joel-20261019",
+   "status": "applied",
+   "what": "His Before You Try to Go Deep as he pasted it (62, C: \"it's human now, i fixed it, pasted\"): his checking paragraph, 55, 2 in fewer words, and P5 with the guide's list of what to change (54, 11). Before You Try to Go Deep Human Written 0.093, high, https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9 (round t74a).",
+   "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"62c it's human now, i fixed it, pasted.\"",
+   "must_contain_exact": [
+    "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much? A lot of the time you just know.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier (shorter, or shallower, at a better time of day, with your eyes open, a teddy bear standing in for your little one, or a friend in the next room), one change at a time, so you learn what made the difference.",
+    "Going back can still matter, even when nothing new turns up. But returning to the same wound can also become a search for certainty in an inherently uncertain existence. Spending all day asking, \"Did I process it properly? Did I grieve it enough?\" is clearly not what we're after here.",
+    "And the checking doesn't always stay in your head. A body scan can turn into one, or a confession. Even, going on a date, or checking your dating profile matches, can be a version of this if what you're really after is proof that you're good and lovable. It might calm things down for a while, and then the next little wobble matters even more."
+   ]
+  },
+  {
+   "id": "finding-a-therapist-joel-20261019",
+   "status": "applied",
+   "what": "His new h1 before the Appendix, word for word, in place of the Appendix's three therapist paragraphs (schema P3, IFS P8, Teachers P3). Fitted: http:// on his Somatic Therapies Guide link, and his two links of 2026-10-18 (Open Path Collective, the official site's search) on the same words. The h1 Human Written 0.00035, high, https://www.pangram.com/history/ea67f223-3c99-4e95-8488-5deb0edda3ef (round t74a).",
+   "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"Let's combine the 3 appendix paragraphs on finding a therapist into a new h1 before Appendix, called: \"Finding a Therapist to Borrow Adulthood\"\"",
+   "must_contain": [
+    "We all need some support, especially when taking our first steps. First and easiest is to start with finding a somatic therapist, if that resonates, as per my Somatic Therapies Guide.",
+    "Inner Child Reparenting therapists do exist, and you can find them, although they often are not licensed, and I don't know of any central directory, nor of any protocol they'd have in common. There are none which work with my guide yet. I can consult, and if you like the guide, you can ask a therapist to check it out and see what they agree with or disagree with as a great way to vet them.",
+    "The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I'll talk more about those next, but Schema Therapy comes closest to my approach. Open Path Collective (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find even more Schema therapists at the official site.",
+    "Before choosing a therapist, get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.",
+    "Regarding AI therapy, I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes."
+   ],
+   "must_not_contain": [
+    "So how do you find a good one?",
+    "Before choosing a therapist, get to know the strengths and pitfalls of IFS",
+    "I don't know of a resource to find a perfect inner child therapist"
+   ],
+   "order": [
+    "# You Are Worthy of Love. Always.",
+    "# Finding a Therapist to Borrow Adulthood",
+    "# Appendix"
+   ],
+   "note": "2026-10-19 (turn 75): his 63, A of 00:26 UTC adds my sentence \"I'd also want one who doesn't put ideas in your head, and who understands dissociation.\" to P4, after his spiritual-experiences sentence."
+  },
+  {
+   "id": "ifs-unburdening-cut-20261019",
+   "status": "applied",
+   "what": "His cut in How This Relates to IFS P6: the unburdening sentences are out.",
+   "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"in the IFS section, remove this part from the original guide, because it doesn't make sense, not clear, not explaining anything exactly, and i don't see how unburdening is so diff from my approach aside from the weird terminology and exact protocols\"",
+   "must_not_contain": [
+    "unburdening",
+    "DID-like fragmentation"
+   ]
+  },
+  {
+   "id": "rcw-h2-20261019",
+   "status": "applied",
+   "what": "Related Clinical Work is an h2.",
+   "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"related clinical work title should be h2 not h3\"",
+   "must_have_line": [
+    "## Related Clinical Work"
+   ],
+   "must_not_have_line": [
+    "### Related Clinical Work"
    ]
   }
  ]

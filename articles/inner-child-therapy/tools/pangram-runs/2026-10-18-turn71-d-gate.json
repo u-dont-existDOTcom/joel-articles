@@ -1,0 +1,146 @@
+{
+ "t71d_as2b": {
+  "kind": "screen",
+  "march": [
+   "B B S B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_as2b.md",
+  "note": "t71d: as2-b, alone."
+ },
+ "t71d_as3c": {
+  "kind": "screen",
+  "march": [
+   "B S S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71d: as3-c, alone."
+ },
+ "t71d_as5b": {
+  "kind": "screen",
+  "march": [
+   "S B S B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71d: as5-b, alone."
+ },
+ "t71d_ap12a": {
+  "kind": "screen",
+  "march": [
+   "B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_ap12a.md",
+  "note": "t71d: ap12-a, alone."
+ },
+ "t71d_ap34a": {
+  "kind": "screen",
+  "march": [
+   "S S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_ap34a.md",
+  "note": "t71d: ap34-a, alone."
+ },
+ "t71d_ap56a": {
+  "kind": "screen",
+  "march": [
+   "S B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_ap56a.md",
+  "note": "t71d: ap56-a, alone."
+ },
+ "t71d_ap7a": {
+  "kind": "screen",
+  "march": [
+   "S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71d: ap7-a, alone."
+ },
+ "t71d_ap8b": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71d: ap8-b, alone."
+ },
+ "t71d_ap9a": {
+  "kind": "screen",
+  "march": [
+   "S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71d: ap9-a, alone."
+ },
+ "t71d_ap10a": {
+  "kind": "screen",
+  "march": [
+   "S B S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_ap10a.md",
+  "note": "t71d: ap10-a, alone."
+ },
+ "t71d_ap11a": {
+  "kind": "screen",
+  "march": [
+   "S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71d: ap11-a, alone."
+ },
+ "t71d_secas2": {
+  "kind": "screen",
+  "march": [
+   "his paragraphs and mine | as2-b: B B S B B B, as3-c: B S S B, as5-b: S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_secas2.md",
+  "note": "t71d: # Altered States Can Deepen the Therapy, put together: D:as1-a, D:as2-b, D:as3-c, D:as4-a, D:as5-b, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-a, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-a, D:ar8-a, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71d_secifs": {
+  "kind": "screen",
+  "march": [
+   "the guide's points and his lines | ap12-a: B S S S S, ap7-a: S S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_secifs.md",
+  "note": "t71d: ## How This Relates to IFS, put together: D:ap12-a, D:ap34-a, D:ap56-a, D:ap7-a, D:ap8-b, ### Related Clinical Work, D:ap9-a."
+ },
+ "t71d_secrcw": {
+  "kind": "screen",
+  "march": [
+   "ap9-a: S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_secrcw.md",
+  "note": "t71d: ### Related Clinical Work, put together: D:ap9-a."
+ },
+ "t71d_sectea": {
+  "kind": "screen",
+  "march": [
+   "ap10-a: S B S S S B, ap11-a: S S B, ap14-a: S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_sectea.md",
+  "note": "t71d: ## Teachers and Practice Resources, put together: D:ap10-a, D:ap11-a, D:ap14-a."
+ },
+ "t71d_secapp": {
+  "kind": "screen",
+  "march": [
+   "the guide's points and his lines | ap12-a: B S S S S, ap10-a: S B S S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71d_secapp.md",
+  "note": "t71d: # Appendix, put together: ## How This Relates to IFS, D:ap12-a, D:ap34-a, D:ap56-a, D:ap7-a, D:ap8-b, ### Related Clinical Work, D:ap9-a, ## Teachers and Practice Resources, D:ap10-a, D:ap11-a, D:ap14-a."
+ }
+}

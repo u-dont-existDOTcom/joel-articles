@@ -284,6 +284,21 @@ class LinterListsOfThree(unittest.TestCase):
             self.assertIn('verdict:', r.stdout, r.stderr[-600:])
             return r.returncode, r.stdout
 
+    def test_repeated_openers_fail_only_when_one_is_mine(self):
+        # B13 (2026-10-18, turn 71): three installed paragraphs opening "I" don't block a check of their section; a
+        # paragraph of mine that makes it a repeat does.
+        his = ["I went down to the river every morning that spring, mostly to think, and sometimes just to watch the herons.",
+               "I kept a notebook of what I saw there, the birds, the weather and whatever was on my mind that day.",
+               "I still have it somewhere in a box in the attic, along with the letters my grandmother sent me back then."]
+        installed = "# Notes\n\n" + "\n\n".join(his) + "\n"
+        mine_ok = "Somebody new to the river might notice different things, of course, like the old mill or the boats going by."
+        rc, out = self.lint("\n\n".join(his + [mine_ok]) + "\n", installed)
+        self.assertNotIn('HARD: B13', out)
+        self.assertIn('B13 repeated paragraph openers, all in installed', out)
+        mine_bad = "I would go back there tomorrow if I could, just to sit by the water for an hour and listen to it go by."
+        rc, out = self.lint("\n\n".join(his[:2] + [mine_bad]) + "\n", "# Notes\n\n" + "\n\n".join(his[:2]) + "\n")
+        self.assertIn('HARD: B13', out)
+
     def test_two_lists_in_one_paragraph_fail(self):
         rc, out = self.lint(self.FAILED_P1)
         self.assertIn('E125 two lists', out)
@@ -1756,3 +1771,98 @@ class PredictionScorecard(unittest.TestCase):
             out, n = fp.convert(str(src))
             self.assertEqual(n, 1)
             self.assertIn('| 999g-K1 | AI | 0.35 | a list of three | Human (Human Written), 01:00:00 |', pathlib.Path(out).read_text(encoding='utf-8'))
+
+
+def test_render_in_context_link_keeps_balanced_parentheses():
+    """2026-10-18 (turn 73): a Wikipedia URL like .../Jeffrey_Young_(psychologist) used to end at its first ")",
+    which left a stray ")" after the link text on the review page."""
+    import importlib.util
+    import pathlib
+    import sys
+    root = pathlib.Path(__file__).resolve().parents[1]
+    sys.path.insert(0, str(root / 'tools/humanization'))
+    src = (root / 'tools/humanization/render_in_context.py').read_text(encoding='utf-8')
+    line = next(l for l in src.split('\n') if l.startswith('LINK = re.compile('))
+    ns = {}
+    exec('import re\n' + line, ns)
+    text = 'therapy ([Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who developed it'
+    assert ns['LINK'].findall(text) == [('Jeffrey Young', 'https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)')]
+    assert ns['LINK'].sub(r'\1', text) == 'therapy (Jeffrey Young, who developed it'
+
+
+def test_owner_edit_lines_keep_heading_marks_and_links_keep_parentheses():
+    """2026-10-19 (turn 74): a heading's level is checked as a whole line, and a Wikipedia URL with
+    parentheses doesn't leave a stray ")" in the visible text."""
+    import pathlib
+    import sys
+    root = pathlib.Path(__file__).resolve().parents[1]
+    sys.path.insert(0, str(root / 'tools/humanization'))
+    import check_owner_edits as coe
+    md = '# A\n\n## Related Clinical Work\n\nSee [Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who did it.\n'
+    raw = md
+    text = coe.visible(md)
+    assert 'See Jeffrey Young, who did it.' in text
+    ok = {'id': 'x', 'status': 'applied', 'must_have_line': ['## Related Clinical Work'], 'must_not_have_line': ['### Related Clinical Work']}
+    assert coe.check_entry(ok, text, raw, coe.visible(md, quotes=False)) == []
+    bad = {'id': 'y', 'status': 'applied', 'must_have_line': ['### Related Clinical Work']}
+    assert coe.check_entry(bad, text, raw, coe.visible(md, quotes=False))
+
+
+def test_handoff_note_applies_a_turn_and_refuses_a_miss():
+    """2026-10-19 (turn 76): the handoff note's update is one step, and a step that doesn't match writes nothing."""
+    import handoff_note
+    note = ('# Handoff\n\nWritten (turns 59 to 75 by X); this version is from the end of turn 75 (old; #195).\n\n'
+            '## START HERE\n\n- TURN 75 (old entry)\n\n## Waiting on Joel\n1. old\n\n## Next step\n1. old next\n')
+    upd = {'turn': 76,
+           'replace': [[r'turns 59 to \d+ by', 'turns 59 to 76 by'],
+                       [r'this version is from the end of turn \d+ \([^)]*\)\.', 'this version is from the end of turn 76 (new).']],
+           'insert_before': [['- TURN ', '- TURN 76 (new entry)\n  - detail']],
+           'sections': {'## Waiting on Joel': '1. new'}}
+    out, done = handoff_note.apply(note, upd)
+    assert 'turns 59 to 76 by' in out and 'end of turn 76 (new).' in out
+    assert out.index('- TURN 76') < out.index('- TURN 75')
+    assert '## Waiting on Joel\n1. new\n\n## Next step\n1. old next' in out
+    again, done2 = handoff_note.apply(out, {'insert_before': upd['insert_before']})
+    assert again == out and done2[0].startswith('already there')
+    try:
+        handoff_note.apply(note, {'replace': [['no such text', 'x']]})
+    except SystemExit as e:
+        assert '0 matches' in str(e)
+    else:
+        raise AssertionError('a miss must stop the update')
+
+
+def test_lane_state_sets_the_turn_date_and_fields():
+    """2026-10-19 (turn 76): the checkpoint's date comes from the turn (the scratch helper kept writing 2026-10-18)."""
+    import lane_state
+    t = ('Updated: 2026-10-18 (turn 75). x\n\n## Current checkpoint (2026-10-18, turn 75)\n\n- **In progress:** a\n'
+         '- **Next step (updated on every push, so another account can pick up here):** b\n- **Waiting on Joel:** c\n')
+    out = lane_state.set_state(t, '76', '2026-10-19', ('A', 'B', 'C'))
+    assert 'Updated: 2026-10-19 (turn 76).' in out and '## Current checkpoint (2026-10-19, turn 76)' in out
+    assert '- **In progress:** A\n' in out and 'pick up here):** B\n' in out and '- **Waiting on Joel:** C\n' in out
+
+
+def test_review_rows_takes_the_install_note_and_his_paragraph():
+    """2026-10-19 (turn 76): one rows file makes the review map; a row's note is the comment above its paragraph."""
+    import review_rows
+    with tempfile.TemporaryDirectory() as d:
+        adir = pathlib.Path(d)
+        (adir / 'HUMANIZED-ARTICLE-SO-FAR.md').write_text(
+            '# H\n\n<!-- Turn 76: one sentence added. -->\n\nBefore choosing a therapist, ask.\n', encoding='utf-8')
+        (adir / 'his.md').write_text('# Joel\n\n> Before choosing a therapist, get to know them.\n>\n> Other.\n', encoding='utf-8')
+        m = review_rows.build({'title': 'T', 'blocks': [{'headings': ['# H'], 'rows': [
+            {'label': 'P1', 'start': 'Before choosing a therapist',
+             'beside': {'label': 'Yours', 'file': 'his.md', 'start': 'Before choosing'}}]}]}, adir)
+        row = m['blocks'][0]['rows'][0]
+        assert row['notes'] == ['Turn 76: one sentence added.']
+        assert row['beside']['text'] == 'Before choosing a therapist, get to know them.'
+
+
+def test_pangram_js_reverse_tab_waits_for_every_result():
+    """2026-10-19 (turn 76): tab-6 runs the batch in reverse and returns the results when all N are in."""
+    import pangram_js
+    fwd, rev, poll = pangram_js.calls('2026-10-19-turn76-a', 3, 'abc123')
+    base = 'https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/abc123/articles/inner-child-therapy/tools/pangram-runs/2026-10-19-turn76-a'
+    assert "window.__reverse = false" in fwd and base + ".js'" in fwd
+    assert "window.__reverse = true" in rev and base + ".js'" in rev
+    assert base + "-read.js'" in poll and 'window.__res' in poll and "' of 3: '" in poll and 'setTimeout' not in poll   # one read, no polling: the tool stops a call at 45 s

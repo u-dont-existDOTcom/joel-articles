@@ -1,0 +1,36 @@
+const items0 = [["t71bb_jwl", () => "Lucia Capacchione, an art therapist, has been teaching this one for decades (it's in her book [Recovery of Your Inner Child](https://www.luciac.com/)). Write with your non-dominant hand, the clumsy one, whose letters already look like a first grader's, and let it put down whatever scared or hurt feelings are really there, nothing made up. Then your usual hand writes back as the grown-up. If talking to your little one or picturing them gets you only silence, this can get past it. And if the protective part grabs the pen first? It gets the clumsy hand until it's had its say.", "6b66b59fc5417a2be84cfbd8e9f2f94f058a97752f5bdcdeb861831e502ccdcf"], ["t71bb_oiq", () => "The night half of this is a lot like the [Examen](https://www.ignatianspirituality.com/ignatian-prayer/the-examen/), the evening review Jesuits have done for centuries, just aimed at hooks. Mornings, pick one small intention, like \"Today I'll notice one hook before I act on it.\" At night, look back over the day. Where did you catch the hook, and where did it run its routine anyway? Then what's the next small repair, or something that'd protect your little one?", "961edfdcd4c5d186139692bb06b83d485121e42e1044a3545cec341e4a86289d"], ["t71bb_jl2l", () => "If you've tried Pema Ch\u00f6dr\u00f6n's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too. Forgiving them isn't part of it, and neither is picturing their childhood. Getting in touch is a separate decision, for a much calmer day, if it ever comes. With that many people feeling the same thing, the theory that you're the defective one gets kind of hard to keep up.", "7ca56db582de4b3bb7a2fa90ad6315cb1639460d66f8ae3c216d7aa1b0f22de8"], ["t71bb_secjwl", () => "## Journal With Each Hand\n\nLucia Capacchione, an art therapist, has been teaching this one for decades (it's in her book [Recovery of Your Inner Child](https://www.luciac.com/)). Write with your non-dominant hand, the clumsy one, whose letters already look like a first grader's, and let it put down whatever scared or hurt feelings are really there, nothing made up. Then your usual hand writes back as the grown-up. If talking to your little one or picturing them gets you only silence, this can get past it. And if the protective part grabs the pen first? It gets the clumsy hand until it's had its say.\n\nIf thinking things through on paper leaves you more confused, a simpler memory aid is fine. It keeps track of things without you having to work out what they mean at the same time. Looking for patterns can come later, if it's useful at all. A memory aid doesn't have to explain your life. It could be a short note of what happened, with the date, or a note of what helped. A reminder or a next step works too. Or you can leave yourself a voice note.", "fa5dab12259d336ace5e1dbb6d35afa5d9a46346b978ecd8a4341574c7d8ce87"], ["t71bb_secoiq", () => "## One Intention in the Morning, One Review at Night\n\nThe night half of this is a lot like the [Examen](https://www.ignatianspirituality.com/ignatian-prayer/the-examen/), the evening review Jesuits have done for centuries, just aimed at hooks. Mornings, pick one small intention, like \"Today I'll notice one hook before I act on it.\" At night, look back over the day. Where did you catch the hook, and where did it run its routine anyway? Then what's the next small repair, or something that'd protect your little one?\n\nAnd what good did you get today? Count the small stuff, like a warm moment, or some nerve you didn't know you had. Noticing the hook counts too, and it counts if you're only seeing it now, in the review. Same if you broke the pattern somewhere. Then repair what you can, and that's the day. Same intention tomorrow. Bed.", "1cbb7577c21a94f008725d2b4003165b8073b6c0e64c7d55557911a9bb6ff63e"], ["t71bb_secjll", () => "## Just Like Me\n\nThis one works best on a steadier day, when thinking about other people won't pull you out of your own shoes. Name the feeling plainly. Lonely, say. Then think of how many people are feeling that exact thing right now, and wanting it to stop, just like you. Some of them make it worse trying to get away from it. Just like you, sometimes. \ud83d\ude05 Wish all of you, you first, enough support to stay with it, so the pain stops with you.\n\nIf you've tried Pema Ch\u00f6dr\u00f6n's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/), this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too. Forgiving them isn't part of it, and neither is picturing their childhood. Getting in touch is a separate decision, for a much calmer day, if it ever comes. With that many people feeling the same thing, the theory that you're the defective one gets kind of hard to keep up.", "2737a030164cc429fe9b1473bba8c90761df46ea116b9e45de49985e514e5328"]];
+const rev = !!window.__reverse;
+const items = rev ? items0.slice().reverse() : items0;
+const order0 = items0.map(x => x[0]);
+const lane = k => "t71bb" + '_' + k;
+try { localStorage.removeItem(lane(rev ? 'rev' : 'fwd')); } catch (e) {}
+window.__t71bb = [];
+const log = m => { window.__t71bb.push(m); try { localStorage.setItem(lane(rev ? 'rev' : 'fwd'), JSON.stringify(window.__t71bb)); } catch (e) {} };
+const other = () => { try { return JSON.parse(localStorage.getItem(lane(rev ? 'fwd' : 'rev')) || '[]').filter(m => / (clicked|taking)$/.test(m)).map(m => order0.indexOf(m.split(':')[0])); } catch (e) { return []; } };
+const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
+const sha = async t => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)))).map(b => b.toString(16).padStart(2, '0')).join('');
+const button = () => [...document.querySelectorAll('button[type=submit]')].find(b => /check for ai/i.test(b.innerText));
+const wait = ms => new Promise(r => setTimeout(r, ms));
+async function run() {
+  for (const [k, mk, want] of items) {
+    const o = other(), i = order0.indexOf(k);
+    if (o.length && (rev ? i <= Math.max(...o) : i >= Math.min(...o))) { log('stop at ' + k + ': the other tab has the rest'); break; }
+    log(k + ': taking');  // claimed before the work, so the other tab never takes it too (turn 65: with a margin
+                          // of one instead, both tabs stopped short of the last check)
+    const T = mk();  // built when its turn comes, so it can use texts stored earlier in this batch
+    for (let j = 0; j < 20 && !(button() && document.querySelector('textarea')); j++) await wait(500);
+    const ta = document.querySelector('textarea');
+    if (!ta) { log(k + ': no textarea'); break; }
+    setter.call(ta, T); ta.dispatchEvent(new Event('input', {bubbles: true}));
+    let b = null;
+    for (let j = 0; j < 30; j++) { await wait(500); b = button(); if (b && !b.disabled) break; }
+    const h = await sha(ta.value);
+    if (h !== want) { log(k + ': hash mismatch ' + h + ' (is its prefix in sessionStorage?)'); break; }
+    if (!b || b.disabled) { log(k + ': button not ready'); break; }
+    try { sessionStorage.setItem(k, T); } catch (e) {}
+    b.click(); log(k + ': clicked');
+    await wait(10000);
+  }
+  log('end');
+}
+run(); 'started'

@@ -105,7 +105,9 @@ import para_numbers
 from html_links import linkify  # every address on the page is a link (Joel, 2026-10-16: "your links are not clickable")
 
 QUOTES = str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'})
-LINK = re.compile(r'\[([^\]]*)\]\(([^)]*)\)')
+# A link's URL may hold one level of balanced parentheses, like Wikipedia's .../Jeffrey_Young_(psychologist)
+# (2026-10-18, turn 73: the old pattern ended the URL at the first ")", so the page showed a stray ")" after the link text).
+LINK = re.compile(r'\[([^\]]*)\]\(((?:[^()\s]|\([^()\s]*\))*)\)')
 LIST_LINE = re.compile(r'^(\d+\.|[-*+]) ', re.M)
 BR = '\u00b6'  # a line break inside a paragraph with a list; a word of its own, so diffs keep it
 

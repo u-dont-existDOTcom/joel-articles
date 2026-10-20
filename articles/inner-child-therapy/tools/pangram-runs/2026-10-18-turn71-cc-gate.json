@@ -1,0 +1,83 @@
+{
+ "t71cc_jwm": {
+  "kind": "screen",
+  "march": [
+   "B S B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71cc: jw-m, alone."
+ },
+ "t71cc_jwn": {
+  "kind": "screen",
+  "march": [
+   "B B S B S"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71cc: jw-n, alone."
+ },
+ "t71cc_oir": {
+  "kind": "screen",
+  "march": [
+   "B S B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71cc: oi-r, alone."
+ },
+ "t71cc_ois": {
+  "kind": "screen",
+  "march": [
+   "B S S B B"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71cc: oi-s, alone."
+ },
+ "t71cc_secjwm": {
+  "kind": "screen",
+  "march": [
+   "jw-m: B S B B S, sp4-w1-p2: ?"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71cc_secjwm.md",
+  "note": "t71cc: ## Journal With Each Hand, put together: D:jw-m, G:writers/sp4-w1-p2."
+ },
+ "t71cc_secjwn": {
+  "kind": "screen",
+  "march": [
+   "jw-n: B B S B S, sp4-w1-p2: ?"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71cc_secjwn.md",
+  "note": "t71cc: ## Journal With Each Hand, put together: D:jw-n, G:writers/sp4-w1-p2."
+ },
+ "t71cc_secoir": {
+  "kind": "screen",
+  "march": [
+   "oi-r: B S B S, sp6-p2-h2: ?"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71cc_secoir.md",
+  "note": "t71cc: ## One Intention in the Morning, One Review at Night, put together: D:oi-r, G:sp6-p2-h2."
+ },
+ "t71cc_secois": {
+  "kind": "screen",
+  "march": [
+   "oi-s: B S S B B, sp6-p2-h2: ?"
+  ],
+  "lint": "CLEAR",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71cc_secois.md",
+  "note": "t71cc: ## One Intention in the Morning, One Review at Night, put together: D:oi-s, G:sp6-p2-h2."
+ },
+ "t71cc_secspjl": {
+  "kind": "screen",
+  "march": [
+   "B (as installed)"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71cc: # Simple Practices as it would be installed; every paragraph has read Human alone or is Joel's."
+ }
+}

@@ -1,0 +1,48 @@
+[
+ {
+  "key": "oi2u",
+  "draft": "oi2-u",
+  "label": "One Intention P2 alone, u (oi2-p opening \"Then at night?\" for \"And at night?\": three \"And\" openers in Simple Practices are a linter FAIL, B13)"
+ },
+ {
+  "key": "oi2v",
+  "draft": "oi2-v",
+  "label": "One Intention P2 alone, v (oi2-p opening \"At night?\")"
+ },
+ {
+  "key": "secoiddu",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-u",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-u, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-u: B S B S S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddv",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-v",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-v, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-v: B S B S S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secspa",
+  "section": "# Simple Practices",
+  "article": "candidate",
+  "label": "Simple Practices as it would be installed with One Intention (oi-dd, oi2-u, oi3-d) at the guide's place, after \"And So That's the Way It Happened!\"",
+  "march": "B (as installed; every paragraph has read Human alone or is his)"
+ },
+ {
+  "key": "secspb",
+  "section": "# Simple Practices",
+  "article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/CANDIDATE-oi-last.md",
+  "label": "Simple Practices as it would be installed with One Intention (oi-dd, oi2-u, oi3-d) last, after Close the Session",
+  "march": "B (as installed; every paragraph has read Human alone or is his)"
+ }
+]

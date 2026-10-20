@@ -1,0 +1,50 @@
+{
+ "turn": 76,
+ "replace": [
+  [
+   "turns 59 to 75 by https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq;",
+   "turns 59 to 76 by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq;",
+   1
+  ],
+  [
+   "this version is from the end of turn 75 \\([^)]*\\)\\.",
+   "this version is from the end of turn 76 (his message of 2026-10-19 00:55 UTC; lane head b5b8ab22 or later; he merged #195 at 00:54 UTC; this turn is pull request #196, https://github.com/u-dont-existDOTcom/joel-articles/pull/196, for him to merge).",
+   1
+  ],
+  [
+   "^1\\. His next message \\(no open questions on OWNER-QUESTIONS\\.md\\)\\.$",
+   "1. His answers to questions 64 to 69 on OWNER-QUESTIONS.md.",
+   1
+  ],
+  [
+   "^2\\. His merge of pull request #195 \\(https://github\\.com/u-dont-existDOTcom/joel-articles/pull/195\\), turn 75\\.$",
+   "2. His merge of pull request #196 (https://github.com/u-dont-existDOTcom/joel-articles/pull/196), turn 76.",
+   1
+  ],
+  [
+   "^1\\. Nothing is waiting on the lane: .*$",
+   "1. His answers to 64 to 69, and whatever they change: each change goes through the linter and both Pangram checks, alone, then in its h1 (experiments/t76-guide/t76.py and installs76.py, where PGQ-030 and PGQ-039 are registered as \"lo\" with drafts lo-med-j, lo-share1-j and lo-share2-i). Use the short path (How a turn runs).",
+   1
+  ],
+  [
+   "experiments/t75-guide/ and t75-answers/ \\(the latest turn\\), t56-guide/ to t74-guide/",
+   "experiments/t76-guide/ and t76-answers/ (the latest turn), t56-guide/ to t75-guide/",
+   1
+  ],
+  [
+   "the latest 2026-10-19-turn75-a\\)",
+   "the latest 2026-10-19-turn76-a to -h)",
+   1
+  ]
+ ],
+ "insert_before": [
+  [
+   "- TURN 75 (2026-10-19, his message of 00:26 UTC), FINISHED:",
+   "- TURN 76 (2026-10-19, his message of 00:55 UTC), FINISHED: lane head b5b8ab22 or later (branch handoff/claude-dangerous-adult-20260924-1631). He merged #195 at 00:54 UTC (main e6483ba3); this turn is pull request #196 (https://github.com/u-dont-existDOTcom/joel-articles/pull/196, open). Its next step (Next step, below) wins over everything else here.\n  - His message, word for word: experiments/t76-answers/JOEL-20261019-0055.md (turn 75's one line took 14 minutes, \"def need to fix that right?\"; \"start workin on the innerSignalGraph queue\").\n  - The fix (E199, docs/HUMANIZATION-GATE.md): turn 75's sentence was in after four and a half minutes, and the wrap-up took ten. New scripts in tools/humanization/, with tests: lane_push.py, lane_state.py, review_rows.py, pangram_js.py and handoff_note.py. This note now updates from articles/inner-child-therapy/HANDOFF-UPDATE.json with one fixed command (How a turn runs, below). The browser tool stops a call after 45 seconds, so a Pangram batch is a run call per tab, sent together, and then single reads; a read never writes a round's own window variable (window.__t76b stopped a tab once).\n  - The queue: innerSignalGraph's authoring/PENDING-PUBLIC-GUIDE-CHANGES.md, version 2026-10-18-r12 at 55b2b0dd; the guide's own paragraphs are in its guides/inner-child-guide-2026-10-11-r6.txt (public repository; a read-only clone works). PGQ-018 to 026 were in already. In this turn (rounds t76a to t76h, experiments/t76-guide/REVIEWS.md): PGQ-028 (Borrowed Adulthood in Relationship P3), 032 (Altered States Can Deepen the Therapy P5), 033 (Your Loan is PRE-APPROVED! P6), 027 and 029 (When the Urge to Escape Arrives P13 and P14), 037 (The Chicken-and-Egg Problem P10) and 038 (Not Every Hero Wears A Cape P6). Owner edits 188 pass.\n  - Open: questions 64 (a public figure in the drug-peak paragraph), 65 (a source for \"if only I had X\"), 66 (his 034 to 036), 67 (031 is already in his section), 68 (PGQ-030's real-danger sentence brings back a window on his When Healing Turns Into Checking P1), 69 (help with PGQ-039's second paragraph, AI in six versions; the legal review).\n  - Records: experiments/t76-guide/TRACE-PGQ-r12.md, GROUNDING-t76.md, READ-a.json to READ-h.json; COLD-READ-t76.md comes with the next push if its reader reports after this one.\n  - Pangram (his second account): 5,390 credits left at the end of the turn."
+  ],
+  [
+   "- Prompt files in the cloud session's scratch folder",
+   "- The short path (E199, turn 76): push with `LANE_COMMIT_TRAILERS=... python3 tools/humanization/lane_push.py \"subject\" [--add tools/humanization docs tests] [--pr \"title\" --pr-body FILE]`; get a batch's browser calls with `python3 tools/humanization/pangram_js.py RUN N` (send the tab-11 and tab-6 calls together, then the read call until all N are in); set CURRENT-STATE with `lane_state.py TURN DATE ...`; make the review page with `review_rows.py ROWS.json MAP.json --render OUT.html --since SHA`; write this note's update as articles/inner-child-therapy/HANDOFF-UPDATE.json in the turn's last push, then run on the laptop: `cd ~/ai-work/claude-dangerous-lane/joel-articles && git fetch -q origin handoff/claude-dangerous-adult-20260924-1631 && git show FETCH_HEAD:tools/humanization/handoff_note.py | python3 - --rev FETCH_HEAD --update articles/inner-child-therapy/HANDOFF-UPDATE.json --note ~/claude-acceptance-transfer/handoffs/inner-child-article.md`. Send the end-of-turn calls that don't depend on each other together."
+  ]
+ ]
+}

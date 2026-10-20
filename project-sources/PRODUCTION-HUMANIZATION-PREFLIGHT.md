@@ -130,13 +130,13 @@ If detector research is useful after a production candidate already works, run i
 
 ## 7. Paid-call discipline
 
-For production humanization:
+For production humanization, first apply `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`: up to six new Pangram submissions per paragraph *only for credible, meaning-preserving and specific follow-up fixes* (including when fixing one sentence exposes a newly red sentence), immediate stop and Joel tell-diagnosis handoff when no next hypothesis exists or two predictions on the same unresolved target remain unexplained, never more than one natural section or about five paragraphs in an active editing batch, whole-section checks only after individual Human results (one initial, one justified retest), and a final whole-article check plus at most one localized final retest. This newer owner-specific *paragraph* ceiling supersedes the older two-try limit and any historical section-count cap only where its counting unit conflicts; it grants no routine six-try entitlement.
 
 - baseline measurement is useful when current status is unknown;
 - after baseline, prefer one holistic, fully considered repair to several knowingly incomplete probes;
 - every paid call must test a preflight-passing candidate or answer a narrow decision-changing diagnostic question;
 - never pay for exact duplicate text unless a repeat is explicitly preregistered as detector research;
-- keep the stable six-paid-call section cap;
+- apply the updated six-attempt-per-paragraph hard maximum and the separate one-plus-one section certification ceiling; the historical six-call section cap does not independently aggregate all paragraph tests in this superseding production lane; neither count grants permission for unfocused retries;
 - cache/resume exact prior work rather than resubmitting;
 - preserve model/version/input SHA/result identity and lesson closeout;
 - short snippets remain lower-confidence evidence and should not be endlessly optimized for confidence alone.
@@ -157,6 +157,10 @@ Before a paid production Pangram call, record privately or durably as appropriat
 
 ```text
 Mode: production humanization
+Oct 20 budget identity: <article / natural section / paragraph lineage; count across all workers/transports>
+Pre-call prediction: <Human / AI + literal evidence, recorded before result>
+New billable submissions on this paragraph/section/article: <used / active ceiling; include ambiguous possible submits>
+Next decision this detector result can change: <specific decision; otherwise do not call>
 Natural boundary: <section / transition>
 Preservation proof: PASS / FAIL
 Architecture/coherence: PASS / FAIL

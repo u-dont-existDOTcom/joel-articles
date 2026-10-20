@@ -1,0 +1,39 @@
+[
+ {
+  "key": "oiy",
+  "draft": "oi-y",
+  "label": "One Intention P1 alone, y (oi-x's Franklin sentences, which read Human; then \"Big questions. Yours can be one hook\")"
+ },
+ {
+  "key": "oiz",
+  "draft": "oi-z",
+  "label": "One Intention P1 alone, z (the Franklin sentences; then \"Franklin aimed high, as usual.\")"
+ },
+ {
+  "key": "secoiy",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-y",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-y, P2 turn 65's sp6-p2-h2",
+  "march": "oi-y: B B B S B S, sp6-p2-h2: ?"
+ },
+ {
+  "key": "secoiz",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-z",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-z, P2 turn 65's sp6-p2-h2",
+  "march": "oi-z: B B B S S, sp6-p2-h2: ?"
+ },
+ {
+  "key": "secspjw",
+  "section": "# Simple Practices",
+  "article": "article",
+  "label": "Simple Practices, the h1 as installed, with Journal With Each Hand in (jw-s, jw2-g)",
+  "march": "B (as installed)"
+ }
+]

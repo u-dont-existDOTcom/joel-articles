@@ -1,0 +1,65 @@
+{
+ "t71g_ap10c": {
+  "kind": "screen",
+  "march": [
+   "S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71g_ap10c.md",
+  "note": "t71g: ap10-c, alone."
+ },
+ "t71g_ap11c": {
+  "kind": "screen",
+  "march": [
+   "S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71g: ap11-c, alone."
+ },
+ "t71g_cs2m": {
+  "kind": "screen",
+  "march": [
+   "S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71g: cs2-m, alone."
+ },
+ "t71g_jl2e": {
+  "kind": "screen",
+  "march": [
+   "S B B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71g: jl2-e, alone."
+ },
+ "t71g_sectea4": {
+  "kind": "screen",
+  "march": [
+   "ap10-c: S B S S S, ap11-c: S S B B, ap14-a: S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71g_sectea4.md",
+  "note": "t71g: ## Teachers and Practice Resources, put together: D:ap10-c, D:ap11-c, D:ap14-a."
+ },
+ "t71g_secsc3": {
+  "kind": "screen",
+  "march": [
+   "cs1-c: B B S S, cs2-m: S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71g_secsc3.md",
+  "note": "t71g: ## Close the Session and Return to Life, put together: D:cs1-c, D:cs2-m."
+ },
+ "t71g_secjl3": {
+  "kind": "screen",
+  "march": [
+   "sp7-p1-c: S S B S B B S, jl2-e: S B B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71g_secjl3.md",
+  "note": "t71g: ## Just Like Me, put together: G:sp7-p1-c, D:jl2-e."
+ }
+}

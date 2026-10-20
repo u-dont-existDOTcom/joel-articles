@@ -1,0 +1,50 @@
+[
+ {
+  "key": "oi2p",
+  "draft": "oi2-p",
+  "label": "One Intention P2 alone, p (\"And at night?\", the two hook questions, the half-written text from Catch the Hook, \"No black spots, though.\" and his)"
+ },
+ {
+  "key": "oi2q",
+  "draft": "oi2-q",
+  "label": "One Intention P2 alone, q (the two hooks as what you'll probably find, a late catch is still a catch, \"Just no black spots, OK?\" and his)"
+ },
+ {
+  "key": "oi2r",
+  "draft": "oi2-r",
+  "label": "One Intention P2 alone, r (two maybes: halfway through a text, like in Catch the Hook, or only seen now; \"just a late one\"; \"No black spots, though.\" and his)"
+ },
+ {
+  "key": "secoiddp",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-p",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-p, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-p: B S B S S B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddq",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-q",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-q, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-q: S S S B B, oi3-d: S S B S S B"
+ },
+ {
+  "key": "secoiddr",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-dd",
+   "D:oi2-r",
+   "D:oi3-d"
+  ],
+  "label": "One Intention, the h2: oi-dd, oi2-r, oi3-d",
+  "march": "oi-dd: B B B B S S, oi2-r: S B S S S B, oi3-d: S S B S S B"
+ }
+]

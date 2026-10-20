@@ -1,0 +1,57 @@
+[
+ {
+  "key": "oiaa",
+  "draft": "oi-aa",
+  "label": "One Intention P1 alone, aa (oi-y's first 54 words, which read Human; then \"At night, swap his question for two smaller ones.\")"
+ },
+ {
+  "key": "oibb",
+  "draft": "oi-bb",
+  "label": "One Intention P1 alone, bb (oi-y's first 54 words; then his \"What good have I done?\" turned into the hook questions)"
+ },
+ {
+  "key": "oi2a",
+  "draft": "oi2-a",
+  "label": "One Intention P2 alone, a (turn 65's sp6-p2-h2 opening on Franklin's question turned around)"
+ },
+ {
+  "key": "secoiaa",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-aa",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-aa, P2 sp6-p2-h2",
+  "march": "oi-aa: B B B S S B S, sp6-p2-h2: ?"
+ },
+ {
+  "key": "secoibb",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-bb",
+   "G:sp6-p2-h2"
+  ],
+  "label": "One Intention, the h2: P1 oi-bb, P2 sp6-p2-h2",
+  "march": "oi-bb: B B B S S S, sp6-p2-h2: ?"
+ },
+ {
+  "key": "secoiaa2",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-aa",
+   "D:oi2-a"
+  ],
+  "label": "One Intention, the h2: P1 oi-aa, P2 oi2-a",
+  "march": "oi-aa: B B B S S B S, oi2-a: B S S S S B B"
+ },
+ {
+  "key": "secoibb2",
+  "blocks": [
+   "## One Intention in the Morning, One Review at Night",
+   "D:oi-bb",
+   "D:oi2-a"
+  ],
+  "label": "One Intention, the h2: P1 oi-bb, P2 oi2-a",
+  "march": "oi-bb: B B B S S S, oi2-a: B S S S S B B"
+ }
+]

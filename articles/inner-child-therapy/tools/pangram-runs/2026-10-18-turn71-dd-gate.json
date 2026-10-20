@@ -1,0 +1,38 @@
+{
+ "t71dd_as4s": {
+  "kind": "screen",
+  "march": [
+   "B S S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71dd: as4-s, alone."
+ },
+ "t71dd_as4t": {
+  "kind": "screen",
+  "march": [
+   "B S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71dd: as4-t, alone."
+ },
+ "t71dd_secas4s": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as4-s: B S S S S S, as5-n: B S S B S, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71dd_secas4s.md",
+  "note": "t71dd: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as4-s, D:as5-n, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ },
+ "t71dd_secas4t": {
+  "kind": "screen",
+  "march": [
+   "as1-c: S B S S, as2-c: B B S B B B B, as3-k: B S B S S, as4-t: B S B S S S S, as5-n: B S S B S, ar1-j: B B B B B B, ar2-j: B B B B B B B B, ar3-j: B B B B, ar-cap: ?, ar-tr-b: B B S B, ar4-j: B B B B, ar5-j: B S B, ar6-g: B B B B S B B, ar7-b: S S B S S, ar8-b: B S S B, ar9-a: S B, an1-g: B B B, an2-g: B B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71dd_secas4t.md",
+  "note": "t71dd: # Altered States Can Deepen the Therapy, put together: D:as1-c, D:as2-c, D:as3-k, D:as4-t, D:as5-n, ## Altered States Can Require Reparenting, D:ar1-j, D:ar2-j, D:ar3-j, D:ar-cap, D:ar-tr-b, D:ar4-j, D:ar5-j, D:ar6-g, D:ar7-b, D:ar8-b, D:ar9-a, #### Non-altered states can feel like this too, D:an1-g, D:an2-g."
+ }
+}

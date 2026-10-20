@@ -1,0 +1,57 @@
+[
+ {
+  "key": "oik",
+  "draft": "oi-k",
+  "label": "One Intention P1 alone, k (the night review as the reader's own self-talk: \"Caught that one!\")"
+ },
+ {
+  "key": "jwg",
+  "draft": "jw-g",
+  "label": "Journal With Each Hand P1 alone, g (\"Great, even they won't talk to me.\")"
+ },
+ {
+  "key": "cspa",
+  "blocks": [
+   "## Close the Session and Return to Life",
+   "D:cs1-c"
+  ],
+  "label": "Close the Session a part at a time (E190): the heading and P1 cs1-c",
+  "march": "cs1-c: B B S S"
+ },
+ {
+  "key": "cspb",
+  "blocks": [
+   "D:cs1-c",
+   "D:cs2-m"
+  ],
+  "label": "Close the Session a part at a time: P1 cs1-c and P2 cs2-m, no heading",
+  "march": "cs1-c: B B S S, cs2-m: S B S B"
+ },
+ {
+  "key": "cspc",
+  "blocks": [
+   "## Close the Session and Return to Life",
+   "D:cs2-m"
+  ],
+  "label": "Close the Session a part at a time: the heading and P2 cs2-m",
+  "march": "cs2-m: S B S B"
+ },
+ {
+  "key": "jlpb",
+  "blocks": [
+   "G:sp7-p1-c",
+   "D:jl2-e"
+  ],
+  "label": "Just Like Me a part at a time: P1 sp7-p1-c and P2 jl2-e, no heading",
+  "march": "sp7-p1-c: S S B S B B S, jl2-e: S B B B S"
+ },
+ {
+  "key": "jlpc",
+  "blocks": [
+   "## Just Like Me",
+   "D:jl2-e"
+  ],
+  "label": "Just Like Me a part at a time: the heading and P2 jl2-e",
+  "march": "jl2-e: S B B B S"
+ }
+]

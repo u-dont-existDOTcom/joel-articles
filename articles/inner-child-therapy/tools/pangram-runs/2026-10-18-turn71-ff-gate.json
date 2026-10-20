@@ -1,0 +1,20 @@
+{
+ "t71ff_ifs1r": {
+  "kind": "screen",
+  "march": [
+   "B B S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ff_ifs1r.md",
+  "note": "t71ff: ifs1-r, alone."
+ },
+ "t71ff_secifsr": {
+  "kind": "screen",
+  "march": [
+   "ifs1-r: B B S B S B, ifs2-q: B S S B S, ap56-a: S B B S S, ifs4-q: S S B S S S, wifs-5: S B S S S S, ap9-d: S S B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71ff_secifsr.md",
+  "note": "t71ff: ## How This Relates to IFS, put together: D:ifs1-r, D:ifs2-q, D:ap56-a, D:ifs4-q, D:wifs-5, ### Related Clinical Work, D:ap9-d."
+ }
+}

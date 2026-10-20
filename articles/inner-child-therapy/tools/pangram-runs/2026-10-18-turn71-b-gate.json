@@ -1,0 +1,83 @@
+{
+ "t71b_secsc": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | cs1-b: S B S S, sp9-k2: S S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71b_secsc.md",
+  "note": "t71b: ## Close the Session and Return to Life, put together: D:cs1-b, G:sp9-k2."
+ },
+ "t71b_secjl": {
+  "kind": "screen",
+  "march": [
+   "settled paragraphs | sp7-p1-c: S S B S B B S, jl2-b: S B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/tmp/claude-0/-home-claude/d17e637c-ae79-5296-a30e-05fa0a73af9d/scratchpad/t71/lint-t71b_secjl.md",
+  "note": "t71b: ## Just Like Me, put together: G:sp7-p1-c, D:jl2-b."
+ },
+ "t71b_x3a": {
+  "kind": "screen",
+  "march": [
+   "S B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71b: x3-a, alone."
+ },
+ "t71b_x3b": {
+  "kind": "screen",
+  "march": [
+   "B B S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71b: x3-b, alone."
+ },
+ "t71b_x3c": {
+  "kind": "screen",
+  "march": [
+   "S B S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71b: x3-c, alone."
+ },
+ "t71b_jwc": {
+  "kind": "screen",
+  "march": [
+   "B S S S B S B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71b: jw-c, alone."
+ },
+ "t71b_jwe": {
+  "kind": "screen",
+  "march": [
+   "S B S S B B"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71b: jw-e, alone."
+ },
+ "t71b_oic": {
+  "kind": "screen",
+  "march": [
+   "B S B S S S S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71b: oi-c, alone."
+ },
+ "t71b_oih": {
+  "kind": "screen",
+  "march": [
+   "S B S B B S"
+  ],
+  "lint": "REVIEW",
+  "lint_article": "/home/claude/joel-articles/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "note": "t71b: oi-h, alone."
+ }
+}

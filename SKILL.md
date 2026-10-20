@@ -17,7 +17,7 @@ This repository now has registered article authority: `articles/INDEX.json` curr
 
 At the start of substantial work read this file, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`, then load only the least additional task-relevant material.
 
-For Pangram/detector/humanization work also read `u-dont-existDOTcom/pangram-humanization-lab` fresh: `README.md`, current `state/WORKING-LESSONS.md`, the relevant case study, and newest relevant case/history. Do not substitute web search for private GitHub data and do not repeat paid detector work before checking durable cache/history.
+For every production Pangram/detector/humanization pass, activate `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` **before choosing test scope or paid call counts**; its latest Oct 20 owner correction permits **at most six justified new submissions per paragraph**, but calls for stopping as soon as a concrete next diagnosis is unavailable; count attempts across chats, contexts and tools. For Pangram/detector/humanization work also read `u-dont-existDOTcom/pangram-humanization-lab` fresh: `README.md`, current `state/WORKING-LESSONS.md`, the relevant case study, and newest relevant case/history. Do not substitute web search for private GitHub data and do not repeat paid detector work before checking durable cache/history.
 
 ## Default-public working boundary
 
