@@ -1,0 +1,6 @@
+[WARNING] github-control.default-branch-rules.disabled (.github/codex-repository.json): GitHub-hosted default-branch ruleset is recorded as disabled.
+[WARNING] github-control.push-protection.unverified (.github/codex-repository.json): GitHub-hosted secret-scanning push protection has not been verified. The working tree cannot prove this setting.
+[WARNING] github-control.secret-scanning.unverified (.github/codex-repository.json): GitHub-hosted secret scanning has not been verified. The working tree cannot prove this setting.
+[WARNING] repo.license.missing: Public repository does not declare a license; public visibility alone does not grant reuse rights.
+
+Summary: 0 error(s), 4 warning(s), 0 informational finding(s).

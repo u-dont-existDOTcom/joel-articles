@@ -1,0 +1,63 @@
+{
+  "scope": "Current final delivery branch and affected shared parser/test fixes; not a new article rewrite or detector test.",
+  "checks": [
+    {
+      "name": "UNIT-TESTS",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "returncode": 0,
+      "log": "state/tasks/community-innerchild-20261020/validation/UNIT-TESTS.txt"
+    },
+    {
+      "name": "CONTENT",
+      "command": [
+        "python3",
+        "scripts/validate_content_repository.py",
+        "--root",
+        "."
+      ],
+      "returncode": 0,
+      "log": "state/tasks/community-innerchild-20261020/validation/CONTENT.txt"
+    },
+    {
+      "name": "ARCHITECTURE",
+      "command": [
+        "python3",
+        "scripts/validate_article_architecture_maps.py",
+        "--root",
+        "."
+      ],
+      "returncode": 0,
+      "log": "state/tasks/community-innerchild-20261020/validation/ARCHITECTURE.txt"
+    },
+    {
+      "name": "POLICY",
+      "command": [
+        "python3",
+        "scripts/audit_codex_github.py",
+        "--root",
+        ".",
+        "--fail-on",
+        "error"
+      ],
+      "returncode": 0,
+      "log": "state/tasks/community-innerchild-20261020/validation/POLICY.txt"
+    },
+    {
+      "name": "PATCH",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "log": "state/tasks/community-innerchild-20261020/validation/PATCH.txt"
+    }
+  ]
+}

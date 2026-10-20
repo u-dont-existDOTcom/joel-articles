@@ -1,0 +1,54 @@
+...............................................................................................s..s....ss..............................s........s....................................................pre-push: a multi-line step in .github/workflows/content-integrity.yml is not run here
+....................................................................ss.......................................
+----------------------------------------------------------------------
+Ran 305 tests in 30.484s
+
+OK (skipped=8)
+/tmp/tmp82ngwrjs/r.md: "My research [a link to example.org/research] initially leaned too far that way."
+   link: "My research" -> https://example.org/research/
+/tmp/tmpeuuxaxa8/r.md: "initially leaned too far that way"
+   link: "My research" -> https://example.org/research/
+/tmp/tmphvxps60o/r.md: "initially leaned too far that way"
+   link: "My research" -> https://example.org/research/
+NO DISPOSITION THAT SAYS WHAT THE LINK TELLS A READER: "initially leaned too far that way" (/tmp/tmphvxps60o/r.md)
+verdict: FAIL
+/tmp/tmpag6vesn4/r.md: "initially leaned too far that way"
+   link: "My research" -> https://example.org/research/
+verdict: PASS
+/tmp/tmp4iasof3s/in.md: 1 sections, 1 author marks
+REPEATED PAUSE (2 reports): "apology" -- /tmp/tmplrno41_6/SENSE-0.md P7, /tmp/tmplrno41_6/SENSE-1.md P7
+REPEATED PAUSE (2 reports): "So which is it?" -- /tmp/tmplrno41_6/SENSE-0.md P8, /tmp/tmplrno41_6/SENSE-1.md P8
+NOT ANSWERED in /tmp/tmplrno41_6/D.md: "apology"
+NOT ANSWERED in /tmp/tmplrno41_6/D.md: "So which is it?"
+verdict: FAIL
+REPEATED PAUSE (2 reports): "apology" -- /tmp/tmplrno41_6/SENSE-0.md P7, /tmp/tmplrno41_6/SENSE-1.md P7
+REPEATED PAUSE (2 reports): "So which is it?" -- /tmp/tmplrno41_6/SENSE-0.md P8, /tmp/tmplrno41_6/SENSE-1.md P8
+NOT ANSWERED in /tmp/tmplrno41_6/D.md: "apology"
+NOT ANSWERED in /tmp/tmplrno41_6/D.md: "So which is it?"
+verdict: FAIL
+REPEATED PAUSE (2 reports): "apology" -- /tmp/tmplrno41_6/SENSE-0.md P7, /tmp/tmplrno41_6/SENSE-1.md P7
+REPEATED PAUSE (2 reports): "So which is it?" -- /tmp/tmplrno41_6/SENSE-0.md P8, /tmp/tmplrno41_6/SENSE-1.md P8
+verdict: PASS
+REPEATED PAUSE (2 reports): "How do you know?" -- /tmp/tmppnlvqswq/SENSE-0.md P20, /tmp/tmppnlvqswq/SENSE-1.md P20
+NOT ANSWERED in /tmp/tmppnlvqswq/D.md: "How do you know?"
+verdict: FAIL
+REPEATED PAUSE (2 reports): "How do you know?" -- /tmp/tmppnlvqswq/SENSE-0.md P20, /tmp/tmppnlvqswq/SENSE-1.md P20
+verdict: PASS
+Initialized transfer plan for 2 object(s): /tmp/substack-video-test-iv9dw6ah/plan.json
+Frozen 1 island(s) -> /tmp/html-islands-roundtrip-pa3611iw/editable.html
+This preserves source markup; it does not validate clipboard or destination behavior.
+Restored 1 island(s) -> /tmp/html-islands-roundtrip-pa3611iw/restored.html
+Archival source markup restored; destination transfer remains unverified.
+Initialized transfer plan for 6 object(s): /tmp/substack-video-test-0isml63v/plan.json
+Built Substack transfer helper: /tmp/substack-video-test-0isml63v/helper.html
+Wrote transfer report: /tmp/substack-video-test-0isml63v/report.md
+Static source and conversion checks passed; final Opera-to-Substack test remains pending.
+Verified 2 ordered segment record(s) and 1 native-video manual step(s).
+Scope: static source/conversion compatibility only; destination result remains pending.
+Initialized transfer plan for 1 object(s): /tmp/substack-video-test-fe1ud_qp/plan.json
+Initialized transfer plan for 6 object(s): /tmp/substack-video-test-k3tpzghl/plan.json
+Initialized transfer plan for 1 object(s): /tmp/substack-video-test-lq1xs25t/plan.json
+Initialized transfer plan for 1 object(s): /tmp/substack-video-inline-__wh2hbk/plan.json
+Initialized transfer plan for 0 object(s): /tmp/substack-video-inline-wwtqk7zd/plan.json
+Initialized transfer plan for 2 object(s): /tmp/substack-video-test-g2lqbv4p/plan.json
+Initialized transfer plan for 1 object(s): /tmp/substack-video-test-v6mmuztt/plan.json

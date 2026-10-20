@@ -1,7 +1,8 @@
 {
-  "status": "active",
+  "status": "waiting_owner_review",
   "branch": "chat/community-approved-innerchild-editorial-20261020",
   "scope": "isolated owner-directed community approval and Inner Child editorial task; no integration-branch mutation",
   "starting_head": "258d56f97d3d114ccd1f72462e76b8ef97341ad3",
-  "parent_status": "OPEN"
+  "parent_status": "COMMUNITY_COMPLETE_INNER_CHILD_REVIEW_PENDING",
+  "remaining": "Owner disposition of Inner Child candidate; separate publishing/detector boundaries remain unperformed."
 }

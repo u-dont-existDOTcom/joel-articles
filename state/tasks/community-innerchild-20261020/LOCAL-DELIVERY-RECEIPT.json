@@ -1,0 +1,17 @@
+{
+  "method": "OS-designated Downloads directory",
+  "archives": [
+    {
+      "filename": "Community-r04-Approved.zip",
+      "sha256": "3d367d6cae2e99edb7b062b23e4e0dd3c4b18262923d9798b7ba34095cc92df5",
+      "extracted_directory": "Community-r04-Approved",
+      "all_member_hashes": "PASS"
+    },
+    {
+      "filename": "Inner-Child-r03-Editorial-Review.zip",
+      "sha256": "60b0e864c2d4d438011ae9e0fdabd6f614bca2aaafec6b0efb07a525e960ed50",
+      "extracted_directory": "Inner-Child-r03-Editorial-Review",
+      "all_member_hashes": "PASS"
+    }
+  ]
+}
