@@ -1,0 +1,22 @@
+{
+  "status": "CANDIDATE_FOR_OWNER_REVIEW",
+  "source_r01_sha256": "95a968ab65379887c34a86c946fedc4ba35757cce49260f6049717050ffc08f9",
+  "candidate_sha256": "91b9065b9a121a40fb54cad2eac1d8be99eb5a24869178c04c26786a163708a4",
+  "r02_sha256": "2ad13ba6c4aea28fd4cb23f46443ca16fbfa52c79f7a26c30ce5805b3a3dd45a",
+  "source_paragraphs_deleted": 0,
+  "source_heading_retired": [
+    "H355"
+  ],
+  "scaffolding_trims": [
+    "H356 last sentence",
+    "H106 redundant condition",
+    "H358 self-reference",
+    "H372 unanchored opposite-problem opener"
+  ],
+  "independent_claims_deleted": 0,
+  "links_unchanged_from_restored_baseline": true,
+  "five_stage_list_items": 5,
+  "new_prose_from_donor": "Only recorded adjacent media introductions, no AI explanatory material",
+  "detector": "No new measurement",
+  "review_scope": "Fresh whole r02 read plus local reconciliation; final r03 delta review pending."
+}
