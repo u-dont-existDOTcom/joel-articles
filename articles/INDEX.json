@@ -23268,7 +23268,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "acefebf377a59c2d1c4f8c1ec2f90a96553de862df6679a8b900b3343907f45d",
+          "sha256": "513664fd746d83bd987272107370ce8a52bd6d61ff08f41a5876c0adb93ce3c1",
           "role": "humanization_working_record"
         },
         {
@@ -27533,7 +27533,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "2243fd3d2053eaf0308fdc52f4485fdf9cf3109e88959eb4f8696cfb0129e992",
+          "sha256": "a59be16c887ba7f6f6f190a2e8d3eee03de61d74088fa00e7085d483e2d82a6d",
           "role": "humanization_working_record"
         },
         {
@@ -36153,7 +36153,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261020/risk41/compile_risk.py",
-          "sha256": "43eb8283f7689a92256cf2ce5596d1065d4c261da4b6fe261ba4f3f9a3d7041d",
+          "sha256": "fefd8eb48d95cb98117995f66fc001e2fdf7474da1fdaae8072477469ecf1470",
           "role": "humanization_working_record"
         },
         {
@@ -36299,6 +36299,106 @@
         {
           "path": "articles/inner-signal/humanize/pangram-ledger.jsonl",
           "sha256": "bc646591b9efc35bb6293f0258a200f8b2237ee1ddc45376da31c009076a5a56",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-01.md",
+          "sha256": "df371372997ce98cad2c9a34cb432f627a530792c2d25b7940672f4f4cef07c7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-02.md",
+          "sha256": "05152e3cf2031d98ccad70e4699a7d6780ae22377f3ff90499c9c520d67464dc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-03.md",
+          "sha256": "4a28209013340c1f7c8aad70f464acdd831f500bb394b32462b30ec6d1eaf7e8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-04.md",
+          "sha256": "1af2363db4300569cfcedb991b44f98cc038820b63ef00040bcd2155e1f07c22",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-05.md",
+          "sha256": "3d2093ee780bd77b6eed368ce9d6c1fc3b9feb1c8e810fa29683baa7cf0c00c8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-06.md",
+          "sha256": "5975cfc0e1c7463413a10811e9b950d496d727efc8f2a88c9d7c3b1de522ff6b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-07.md",
+          "sha256": "e07e7b1026a2cc08ac1d7ec610a560d9ad0b167e391b3462958f07db2d4be500",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-08.md",
+          "sha256": "d78d31d7f07798ab32f1bfadbc1951feaa3d613642a3f622f7b155b09e204b9e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-09.md",
+          "sha256": "07d5ba2dbe130462049a96a4b5cfce16edb3a063978e55feb3641acae10a336d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-10.md",
+          "sha256": "33938ccbf65a6f135df4d68cafaf0103ac951d36cc2717b59772e44fc2bc4068",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-11.md",
+          "sha256": "9f29fcd6af684f9e04e9116f749fd3b20eb24b32e33b4c086e847f5a23f48304",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-12.md",
+          "sha256": "c28c0cc4867be39523bc38cb2de5bccd5fcf493d3c01e15ec88b2955192087b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-13.md",
+          "sha256": "5dd3ee236ca7e0315b297b77d93d05c7b620a4bd287a64e74d269c5d838397b0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-14.md",
+          "sha256": "e76dc9ee8fcc3103afb8b9927fb45b889720cf4d57ad41d500ba8f145b9beff0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-15.md",
+          "sha256": "e0fb5c1ad899ab990b7b24cad42534c9030d174097f6c02145cc5b8955ce74c6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-16.md",
+          "sha256": "d7f884f37885a70e0ede188785f4b9051b8e29ae53e6b271d531e22eae6d904a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-17.md",
+          "sha256": "e57bb7e00cd89481689e29d7dc93f5dbc5ff1d6a728efb8bd17379b2fe86de8f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-18.md",
+          "sha256": "0fc88066299a3b758b16792bacdb081eccc87976c4b4943eff281271dd7f0081",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-ITEMS.json",
+          "sha256": "0e78649e7a14456a848faa01c9e83cddd16921de9a0321762b95e7cbbba36864",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/risk41/RISK-SUMMARY.md",
+          "sha256": "4622e2b6ba763755c883255f7e5d2b64020f6f2bdd98570578694f9c77132e89",
           "role": "humanization_working_record"
         }
       ]

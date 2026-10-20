@@ -24,8 +24,17 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   certification plus one recheck at the end; read 4.1's sentence shading). Every call goes through
   `tools/humanization/pangram_ledger.py` with this lane's ledger `pangram-ledger.jsonl` (`predict` before, `results`
   after, `explain` for each miss, `build --universal state/PANGRAM-SCORECARD.md` after the session; this lane's page is
-  `SCORECARD.md`). How to check the guide again in 4.1 is question 5. Pangram in the desktop app's browser was signed
-  out on 20 October: Joel signs in.
+  `SCORECARD.md`). Joel signed in to Pangram in the desktop app's browser again on 20 October (his message of 22:01
+  UTC), the same account as the community checks.
+- **Whole-guide checks go through a temporary Substack post, free** (Joel, 2026-10-20 22:01 UTC: "for very large pangram
+  checks (not just one section, but like whole article especially) you can just ask me to make a temporary article on
+  substack to check it free"; `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`). Build the copy page as in
+  `fix-20261020/substack41/` (merge, canonical generator, clipboard test, receipt), send it, and ask him to paste it
+  into a new post, run Substack's check and keep the draft. Paragraph and section checks stay on pangram.com.
+- **What 4.1 flags** (the community article's lesson, `docs/HUMANIZATION-GATE.md`, "What Pangram 4.1 flagged in the
+  community article"): wry quips, aphorisms and balanced closers, tidy restating or reassuring follow-ups, parallel or
+  signposting explanations, generic "you"/"imagine" scenarios, stock words. A break is not a joke; cut a restating
+  sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018` (pull request 191, open, Joel's to merge; it also holds the community article's
   merge). Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
@@ -79,8 +88,9 @@ every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md` (five open: how to check the guide again in Pangram 4.1, my pick a whole-guide check after the other four; and the four of 2026-10-18: is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in
-every version; HG31's two meaning points against a Human reading; and the two guided scripts, HG17 and HG18).
+`OWNER-QUESTIONS.md`: the temporary Substack post for the whole-guide 4.1 check (his to do), and four open questions of
+2026-10-18: is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in every version; HG31's
+two meaning points against a Human reading; and the two guided scripts, HG17 and HG18.
 
 ## Where it stands
 
@@ -144,14 +154,23 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-20: Pangram 4.1; the steps of 2026-10-18 below still hold)
+## Next step (2026-10-20, after Joel's 22:01 message: the whole guide's first 4.1 check)
 
-0. **Pangram 4.1** (question 5): with Joel's answer, and once he has signed in to Pangram in the desktop app's browser,
-   read his History first (free: any 4.1 checks he ran on the guide), then follow his option. For (a), one whole-guide
-   4.1 check after questions 1 to 4 are settled (in big natural pieces if the site refuses the whole), predicted in the
-   ledger first (scope "article", with the sections I expect 4.1 to flag and why); then each flagged paragraph within its
-   six tries, each try with a diagnosis, then the one recheck. Read the shading of every sentence and record it with the
-   result (`--shading`).
+0. **The whole-guide 4.1 check** (question 5 settled: option b through Substack). The copy page
+   `fix-20261020/substack41/COPY-TO-SUBSTACK-HYPNOSIS-CHECK.html` went to Joel at about 22:35 UTC with the request; the
+   prediction is `HG-whole#1` in the ledger (key `HG-whole-41a`, text `WHOLE-GUIDE-41.txt`). When he says it ran:
+   1. Look for it in his Pangram History (free; `pangram_page_helpers.js`'s History reads, or
+      `https://web.pangram.com/api/history-list/` and `/api/history/<uuid>/` from the dashboard tab). If it's there, save
+      the readout (every window, label and confidence) as `fix-20261020/substack41/RESULT-41a.json`; if not, his
+      screenshot or link.
+   2. Score it: `pangram_ledger.py results` (or `result` by key) and `explain` the miss if it is one; compare the red
+      and light-green sentences with the risk read (`fix-20261020/risk41/RISK-SUMMARY.md`, `RISK-ITEMS.json`, written
+      before the result was read) and record how many it caught.
+   3. Fix only what reads red (and light green carrying one of 4.1's patterns), section by section from the sections'
+      `installed` files: each paragraph within its six tries on pangram.com, each try with a diagnosis in the ledger,
+      the gate (march, cold read, grounding, stance, lint) and the meaning kept; then the section check.
+   4. The recheck through the same Substack draft (a new copy page from the fixed working copy).
+   The four open sections (questions 1 to 4) stay as published until Joel answers.
 
 ## Next step (2026-10-18, after batch 466g)
 

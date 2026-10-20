@@ -1,5 +1,5 @@
-"""Compile the four 4.1 risk reads of the hypnosis guide (RISK-1.md to RISK-4.md, written by Sonnet readers from
-PROMPT-1.txt to PROMPT-4.txt, tools/humanization/pangram41_risk_prompt.py) into one table, and check that every quoted
+"""Compile the 4.1 risk reads of the hypnosis guide (RISK-01.md to RISK-18.md, written by Sonnet readers from
+PROMPT-01.txt to PROMPT-18.txt, tools/humanization/pangram41_risk_prompt.py) into one table, and check that every quoted
 sentence is in the guide as quoted (a misquote can't be found when the 4.1 result comes back).
 
   python3 articles/inner-signal/humanize/fix-20261020/risk41/compile_risk.py   (from the repo root)
@@ -20,9 +20,10 @@ def norm(t):
 
 def main():
     items, sections = [], []
-    for n in range(1, 5):
-        rp = D / ('RISK-%d.md' % n)
-        part = norm((D / ('part%d.md' % n)).read_text(encoding='utf-8'))
+    for pf in sorted(D.glob('part[0-9][0-9].md')):
+        n = int(pf.stem[4:])
+        rp = D / ('RISK-%02d.md' % n)
+        part = norm(pf.read_text(encoding='utf-8'))
         if not rp.exists():
             sections.append({'part': n, 'section': '(no report)', 'risk': None, 'red': 0, 'light': 0})
             continue
@@ -50,7 +51,7 @@ def main():
         if it['kind'] == 'RED':
             by_pat[it['pattern']] = by_pat.get(it['pattern'], 0) + 1
     out = ['# Pangram 4.1 risk read of the hypnosis guide: summary', '',
-           'From RISK-1.md to RISK-4.md (one Sonnet reader per quarter of the guide, brief '
+           'From RISK-01.md to RISK-18.md (one Sonnet reader per part of under 1,800 words, brief '
            '`tools/humanization/reviewer/pangram41_risk.md`). A forecast for the prediction and for where to look first, '
            'never a reason to skip a check or to change a sentence that 4.1 reads Human.', '',
            '%d sections; %d RED and %d LIGHT sentences; %d quotes not found as quoted. RED by pattern: %s.' % (

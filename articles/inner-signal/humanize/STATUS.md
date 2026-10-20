@@ -1,5 +1,36 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-20, after Joel's message of 22:01 UTC (the whole guide's first 4.1 check, through Substack)
+
+**His message.** He signed in to Pangram in the desktop app's browser, and: "for very large pangram checks (not just one
+section, but like whole article especially) you can just ask me to make a temporary article on substack to check it
+free" (Substack's check uses his Pangram account without his credits). He also sent his final community article with
+the edits he and GPT made after 4.1 flagged them; the lessons are in `docs/HUMANIZATION-GATE.md`, "What Pangram 4.1
+flagged in the community article", and in the brief `tools/humanization/reviewer/pangram41_risk.md`.
+
+**Question 5 is settled** (option b, now free): the whole guide in one 4.1 check through a temporary Substack post, with
+the four open sections as published (their defaults); then only what it flags, paragraph by paragraph on pangram.com
+within the six tries; then the recheck through Substack. His Pangram History had no 4.1 checks of the guide (read free).
+
+**The copy page** (`fix-20261020/substack41/`): `HUMANIZED-SO-FAR.md` merged into his editor HTML of 28 September with
+`tools/humanization/substack_merge.py` (PASS: 8 native objects byte for byte, 26,819 words equal to the working copy's,
+43 links), then the canonical generator (init, build, verify: one segment) and the clipboard test (both paths pass);
+receipt `HELPER-RECEIPT-20261020.json`. The merge first failed on this guide's editor HTML, which has 125 blockquotes
+(some of several paragraphs), an image inside a blockquote, and line-broken paragraphs the Markdown had joined, and the
+working copy has list items of its own. The merge now puts an unchanged paragraph in the editor's own markup, keeps
+blockquotes, and renders the master's list items; the community article's merge comes out byte for byte as before,
+and `tests/test_substack_merge.py` covers the new cases. Sent to Joel with the request.
+
+**The prediction** is in the ledger before the check (`pangram-ledger.jsonl`, `HG-whole#1`, key `HG-whole-41a`, text
+`fix-20261020/substack41/WHOLE-GUIDE-41.txt`): not 100% Human, chance 0.01; red expected in Appendix C, NLP patterns 4 to 6,
+the listening script and the return steps, maybe some tidy closers in installed sections. The sentence-by-sentence forecast is the
+4.1 risk read (`fix-20261020/risk41/`: 18 parts of under 1,800 words, one Sonnet reader each, compiled by
+`compile_risk.py` into `RISK-SUMMARY.md` and `RISK-ITEMS.json` before any result was read): 167 sentences expected red
+and 123 light green in 154 sections, every quote found in the guide as quoted; red by pattern: aphorisms and balanced
+closers 63, tidy follow-ups 48, parallel or signposting explanations 28, quips 14, stock words 12, generic scenarios 2.
+That is far more than the community article's 25 rewritten runs, so I expect it to over-flag; the result scores it. The
+first try with four parts of 6,800 words failed: each reader spent its whole output reasoning and wrote nothing.
+
 ## 2026-10-20, after Joel's message of 17:38 UTC (no checks run)
 
 **Pangram 4.1.** Joel: "pangram 4.1 just came out so i updated some of your instructions for it. it is much more precise
