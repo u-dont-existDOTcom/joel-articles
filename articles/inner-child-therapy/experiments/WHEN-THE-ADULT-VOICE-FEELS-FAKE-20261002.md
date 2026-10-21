@@ -1053,3 +1053,16 @@ Joel, 18:06 UTC: no worker names the temps "pangram check" ("that sounds super s
 ### Next
 
 1. His answer to 75; then the two results, the segment clicks for any half that isn't all Human, rework of what a moved section exposes first (E197), and both drafts deleted (E204).
+
+## Turn 81 (2026-10-21, from 22:42 UTC): Claude in Chrome in his Brave; the mixed-up-figures check; the API
+
+Joel, 22:42 UTC: "75 a"; he turned on Claude in Chrome in Brave and Chrome ("otherwise use playwright"); the Pangram API is open again for single paragraphs (an extra $200 credit came with 4.1), but does it give the GUI's sentence-level detail?; and the hypnosis lane's note, his request that this article get its conflation check. Saved first (`t81-answers/JOEL-20261021-2242.md`).
+
+- **The two drafts:** Claude in Chrome connected to his Brave. Both drafts' Pangram labels read Human (A after about ten seconds; B after about twenty, "Checking for AI" first). Clicking a label ("Click to view full analysis") opens the analysis outside the tabs Claude in Chrome can reach: nothing new in the page, no side panel (the viewport kept the window's width), no new tab in its group. So the windows wait for the two pangram.com/feed/ links from him (questions page, For you to do); t79s_A and t79s_B stay unscored until then, and the drafts stay until the results are recorded. Playwright wasn't needed for the labels; it might help with the analysis later, if he wants this hands-off (it sees every tab in its own browser).
+- **The API:** the key file's account answered "Insufficient credits" (HTTP 402), so nothing ran; prediction #37 is voided. Pangram's Pangram 4 migration guide lists windows with a label, confidence, AI-assistance and humanizer scores, version 4.0, nothing at the sentence level (the budget rule now says so).
+- **The mixed-up-figures check:** the article without its notes (`t81-conflation/ARTICLE-READER.md`), its own map of its figures (`MAP.txt`; here "inner parent" names the adult the reader builds, and the internalized voice is "the parent you inherited"), the prompt from main's `tools/humanization/conflation_sweep_prompt.py`, one fresh Opus reader (`CONFLATION-SWEEP.md`, about twelve minutes). Five findings. One in my turn-54 draft of Let the Child Be Bad at Things P2 is fixed ("The grown-up you're building"), with its Pangram check to come with the others. Four are in his words: question 76.
+- **Rules:** `docs/FIXING-AN-ARTICLE.md` has the sweep step and the API note; the merge of main brought the hypnosis lane's section of the gate and its uncapped Substack checks.
+
+### Next
+
+1. The two result links and his answer to 76; then the windows recorded and scored, the segment clicks for any half that isn't all Human, his 76 fixes and mine checked in one free Substack check per changed section, and the drafts deleted (E204).

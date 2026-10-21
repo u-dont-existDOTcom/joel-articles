@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-21 (turn 80). **One open question: 75.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-21 (turn 81). **One open question: 76** (four parts). To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,27 +8,55 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 75. How should I get the Pangram result on the two drafts?
+### 🟣 76. The mixed-up-figures check: four places in your words
 
-The label comes from the Pangram extension in a browser, and the app's browser, where I made the drafts, can't have extensions. Your laptop runs Brave (it has no Google Chrome), so your Claude and Pangram extensions are in Brave. The setting in your screenshot allows the Claude extension, but the extension itself also has to be open and signed in to the Claude account this chat uses, and right now this chat sees no browser connected. Claude Code's docs say the extension connects from Brave too, but the Claude in Chrome help page says only Google Chrome is supported, so A may not work.
+You asked for the hypnosis lane's check on this article: an Opus reader looked for places where a reader could take one inner figure for another, with the article's own map (the report: `experiments/t81-conflation/CONFLATION-SWEEP.md`). It found five. One was in my draft, and I fixed it (Decided, below). These four are in your words, so each is yours. One thing first: in this article "inner parent" is the adult the reader builds (The Chicken-and-Egg Problem: "a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide"), so the hypnosis guide's new name for the internalized voice, "inherited inner parent", would mix the two up here. This article's name for that voice is "the parent you inherited".
 
-- **A (my pick, to try first):** with Brave open, click the Claude extension and check it's signed in to the account this chat uses, not your other one, then tell me. If it shows up here, I open the drafts in your Brave, where Pangram already knows you, and do the rest myself. Switching the extension's account means logging out of it, which loses any shortcuts or scheduled tasks saved in it.
-- **B:** Playwright, as you suggested. I install it in the lane folder on your laptop (the playwright package from PyPI, 48.3 MB) and have it open Brave with a separate profile, so your own Brave isn't touched. In that window you add the Pangram extension and sign in to Pangram once; after that I run every Substack check start to finish. A Brave window shows on your screen while a check runs. If your Pangram sign-in goes through Google, Google sometimes refuses sign-ins in a browser run this way.
-- **C:** you do the clicks this time: open each draft link I sent, wait for the Pangram label next to the author's name, click it twice, then "View Full Analysis", and send me the two pangram.com/feed/ links.
+- **76.1 The Inner Guide, P3:** "No hidden protector or old trauma required". Here "protector" means a protective part, and it's the one place outside the IFS appendix where a part gets the role's name; "enough Nurturer and Protector first" comes a few paragraphs later.
+  - **A (my pick):** "No hidden protective part or old trauma required".
+  - **B:** leave it.
+  - **C:** your words.
+- **76.2 Speak Toward What You Are Building, P2:** "the Protector & Guide parts can lead the way". Elsewhere the article calls these jobs ("one grown-up doing three jobs, not three more people moving in"), and "parts" means the protective parts, or IFS's.
+  - **A (my pick):** drop "parts": "the Protector & Guide can lead the way up to more safety and maturity."
+  - **B:** "jobs" for "parts".
+  - **C:** leave it.
+  - **D:** your words.
+- **76.3 The Chicken-and-Egg Problem, the five stages, item 5:** "This can actually feel really weird if you've been stuck in adult mode for a while." "Adult mode" can be stage 4 (item 4 is "Adult mode itself") or the forced adulthood of The Inner Guide ("Nope, all good!").
+  - **A (my pick):** leave it. Item 4 names adult mode just above, so stage 4 is the likely reading.
+  - **B:** "stuck in forced adulthood", if you meant the over-functioning trap.
+  - **C:** your words.
+- **76.4 Altered States Can Require Reparenting, P6:** "My inner guide saw it as a perfect opportunity to demonstrate the power of love over fear." Lowercase, it can be read as a spiritual guide; capitalized, it's the Guide role.
+  - **A (my pick):** "My inner Guide", since choosing what to do about the fear is the Guide's job.
+  - **B:** leave it lowercase, if you meant a spiritual guide or something else.
+  - **C:** your words.
+
+Each paragraph that changes gets its own Pangram check before it counts, in one free Substack check per changed section, together with my fix.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #208 (turn 80)
+### 🟠 Send me the two Pangram result links (turn 81)
 
-#208 (https://github.com/u-dont-existDOTcom/joel-articles/pull/208) has the no-"Pangram" title rule, the humanize-kit note and question 75. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+In your Brave, both drafts' Pangram labels read **Human**. When I click a label, though, the full analysis opens somewhere I can't reach, so I don't have its windows yet. The ledger scores a check by them, and they show whether any moved section reads AI. For each draft: open its link (in chat), click the Pangram label, then "View Full Analysis", and paste me the address of the page that opens (it starts https://www.pangram.com/feed/). My clicks may already have opened a few of those tabs in your Brave. Once I have them, I read both, record them and delete the drafts.
+
+### 🟠 Merge pull request #208 (turns 80 and 81)
+
+#208 (https://github.com/u-dont-existDOTcom/joel-articles/pull/208) has the no-"Pangram" title rule, the humanize-kit note, question 75 and, since turn 81, the mixed-up-figures check and question 76. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 75 and the mixed-up-figures check, 2026-10-21 22:42 UTC
+
+Your answer (turn 81; `experiments/t81-answers/JOEL-20261021-2242.md`):
+
+- **75, A:** with Claude in Chrome on in your Brave, I opened both drafts there. The Pangram labels read Human for both halves. The full analysis is the to-do above.
+- **The API:** the key in your key file got "Insufficient credits" (HTTP 402), so nothing was checked or charged. If the $200 is on a different key, that's the key the file needs. Pangram's Pangram 4 migration guide describes what the API returns: windows, each with a label, confidence, AI-assistance and humanizer scores, and nothing at the sentence level, so the GUI's sentence shading stays the place to look when one sentence decides a repair.
+- **The check you asked for:** five findings. One was in my draft of Let the Child Be Bad at Things P2, right after "The old parent in your head": "The grown-up you" is now "The grown-up you're building", the same spot as your hypnosis fix. Its Pangram check goes with question 76's. The other four are question 76.
 
 ### 🟢 Turn 80, 2026-10-21 18:06 UTC
 
@@ -351,7 +379,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🔵 Next
 
-- After your answer to 75 and the two results: I read them in the app's browser, click through the segments of any half that isn't all Human, rework what a moved section exposes first (gate E197), and delete the drafts.
+- After the two result links and your answer to 76: I read the results, click through the segments of any half that isn't all Human, rework what a moved section exposes first (gate E197), and delete the drafts.
 - Older items, which I'll check against your 10-19 upload when we get to them:
   - "And So That's the Way It Happened!": P1 with your Xandria line, and two new P2s, each read Human alone (0.0063; 0.14 and 0.14), but the practice put together still reads AI as a whole (0.84 and 0.93), as in turns 65 and 69. Next: your part-at-a-time method on the practice itself (P1 with P2, P2 with P3) to find where it turns.
   - The three Altered States sections, with your stories as your guide has them (43, 7 and 8), their warnings in your words, no amounts or recipes.
