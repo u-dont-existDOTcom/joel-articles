@@ -180,9 +180,18 @@ rebuilt (`fix-20261020/substack41r/make_recheck.py`) and pasted into the lane's 
    register (a reaction, his doubt, a particular, never a quip) or run Emulate over it; the NLP appendix and the return
    steps were checked only in 4.0. Record each edit's reading in `EDITS41.json` (`paragraph_result`, `section_check`).
 3. **The listening script** (HG17, the one section still as published): his 4 d, "i am fine with all the humanized
-   replacements as long as we don't lose anything". Start from the Human versions that lost steps (451g HG17-refix3,
-   459g HG17-mb), put each lost step back inside Emulate's sentence (the community lesson, `docs/HUMANIZATION-GATE.md`),
-   meaning-check against the published steps, and read it through Substack.
+   replacements as long as we don't lose anything". Done: the fast path's three Emulate samples of the whole section
+   from the published text (`fix-20261018/make_emu_az.py`; `emu-az`, `emu-ba`, `emu-bb`, copied from the laptop with
+   their SHA-256 checked, 6,036 Emulate words, 73,647 left), aligned (`tools/emu_runs.py back --align`), composed into
+   units (`rf-zg/HG17.az.json`, `.ba.json`, `.bb.json`, over `rf-j/HG17.fixed.json`), and a second reader on each against
+   the published section (`rf-zg/HG17.X.verify.out.md`): az kept 122 points, changed 76, lost 31, invented 9; **ba kept
+   156, changed 57, lost 30, invented 14** (the base); bb kept 133, changed 68, lost 34, invented 21. Next: in
+   `rf-zg/HG17.ba.json`, put back all 30 lost points inside ba's own sentences (the listening script's pauses and steps,
+   "What am I noticing now?", "Five.", the three links, "keep safety and exit instructions plain", the heading lines the
+   alignment kept as text), take out the 14 inventions (his father "uses" the mudra while driving; "I always announce
+   when I am doing it"; "see link above"; "something like the below" with nothing below), and fix the changed points
+   that change what a reader does or believes (the triage brief, `fix-20261018/rf-a/TRIAGE-BRIEF.md`); then the gate's
+   reviews, the install with "pending", and its reading in the next recheck through Substack.
 4. **Waiting on Joel**: questions 9 (the synchronicity cue's "my Protector") and 10 (one name for the inherited parent),
    the recheck's links, the note for the Inner Child chat, and deleting the two temporary drafts when the results are in
    (E204 asks the worker to delete them; permanent deletion isn't something this worker does).

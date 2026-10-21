@@ -55,6 +55,12 @@ Joel has a note to paste there (questions page).
 **Drafts**: E204 asks the worker to delete its drafts when done; I reused the two, and deleting them is Joel's (a
 permanent deletion is outside what this worker does).
 
+**The listening script (HG17), after the update to Joel at 19:32 UTC**: three Emulate samples of the whole induction
+section from the published text (`fix-20261018/make_emu_az.py`, emu-az, emu-ba, emu-bb; 2,012 words each; the outputs
+were read from the laptop and written here, each SHA-256 matching the laptop's file), aligned and composed
+(`fix-20261018/rf-zg/`), and a second reader on each: ba keeps the most (156 points kept, 57 changed, 30 lost, 14
+inventions; az 122, 76, 31, 9; bb 133, 68, 34, 21). The fixes on ba are next (the handoff's step 3).
+
 ## 2026-10-21, after Joel's messages of 23:32 and 23:54 UTC (both halves read in 4.1; the first fixes; the recheck waits on his Chrome)
 
 **The whole guide in 4.1, both Mixed** (Substack's check, free; each result's every window is in
