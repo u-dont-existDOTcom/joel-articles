@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-21 (turn 78). **Three open questions (72 to 74).** To answer, reply in chat with the number and a letter, like `73: A`, or `72: your picks`, or in your own words.
+Last updated 2026-10-21 (turn 79). **No open questions.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,60 +8,44 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 72. Repeats in your own words
-
-You asked whether dedup is really done. It wasn't: the last check of the whole article was 10-08, and your 10-19 changes and the moves came after it. I had it read again in parts (`DEDUP-PASS-20261021.md`). Most of what it found is a point carried into a new situation or built up across a section, which I'm keeping, and two repeats were in my drafts, which I cut. These are in your words, so they're yours to call. Reply `72: your picks` to take all of mine, or by letter.
-
-- **a. "Toxic positivity" twice:** your Loan P2 ("I’m not pushing “toxic positivity.”") and your Speak Toward What You Are Building P2 ("we don't hide from shadow stuff with toxic positivity").
-  - **A (my pick):** your words for the second one; the phrase stands out the second time.
-  - **B:** leave both.
-- **b. One question word for word, twice:** "What is this practice supposed to help, and how would I know if it's helping?" in Not Every Hero Wears A Cape P5, and again a section later in When Healing Turns Into Checking.
-  - **A (my pick):** take it out of Not Every Hero Wears A Cape P5, so When Healing Turns Into Checking, which talks it through, has it.
-  - **B:** leave both.
-- **c. My Journey says your childhood was loving three times in six paragraphs:** "I was well-loved as a child", right after it "I wasn't lacking love. My parents had given me a lot of it.", and then "my childhood was actually so nice".
-  - **A (my pick):** cut "I wasn't lacking love. My parents had given me a lot of it.", and the next words become "I found more love in Buddhist teachings".
-  - **B:** leave it.
-- **d. Two places that pull against each other:**
-  - My Journey's "it felt like I was making it up at first" (and you kept going), and When the Adult Voice Feels Fake's "unintentional gaslighting to the little one to ask to connect with them when you don't believe they're even real". **A (my pick):** leave both; feeling like you're making it up isn't the same as not believing they're real. **B:** your words to tie them together.
-  - Your psychedelic story's "In general, don’t call the cops and expect it to go well. That’s a real last resort." and my get-help paragraph's "A crisis line or an emergency number counts" in If You Want to Kill Yourself. **A (my pick):** keep both; for someone about to act, an emergency number is often the fastest help, and yours is about a drug episode. **B:** mine says only "A crisis line counts". **C:** your words.
-
-### 🟣 73. Your Loan is PRE-APPROVED! P2: keep its last two sentences?
-
-Your paste of the new P2 ended at "I’m not pushing “toxic positivity.”" In the article the paragraph goes on with the two lines you added on 10-19 (questions 66 and 67): "Being thankful shouldn’t be pushed on people who just need to grieve for the moment. On the other hand, I’ve noticed that I can sometimes completely flip a bad psychedelic trip into a good one with gratitude alone." I kept them.
-- **A (my pick):** keep them, as now. You added them two days ago, and your message only changed the start.
-- **B:** cut them.
-- **C:** your words: where they should go instead.
-
-### 🟣 74. If You Want to Kill Yourself: get-help steps first?
-
-GPT's r03 also changed the order inside this section, which my review missed: it puts your two get-help paragraphs ("Maybe you’re reading this about to act, or with the means close by..." and "Then, before getting all philosophical, make sure there’s a real, live grown-up in the room...") before your opening one ("I try not to proselytize about spirituality..."). Your order opens with why spirituality comes up here; GPT's has someone reading at the edge meet the get-help steps first. No words change either way.
-- **A (my pick):** get-help steps first, then your opening paragraph. A reader in crisis may not read far.
-- **B:** keep your order, as now.
+None right now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Four free Substack checks of the moved article (turn 78)
+### 🟠 Open two draft links in your Chrome (turn 79)
 
-The whole article after the moves, in four parts of about 5,000 to 8,000 words each (Substack's free check, up to about 9,999 words as you said). They're the files `part-1.txt` to `part-4.txt` I sent; the text is the article's, without our notes or images. For each part, about two minutes:
+I made the two Substack drafts myself this time, in the app's browser: the whole moved article in two halves, each under the 99,999 characters Substack's check reads, titled "TEMP Pangram check A" and "B". The Pangram label on a post comes from the Pangram Chrome extension, which the app's browser doesn't have, and Claude in Chrome wasn't connected when I tried. So either:
 
-1. In Substack, start a new post. Don't publish it.
-2. Open the part's file, select all, copy, and paste it into the post.
-3. Run the Pangram check the way you did for the whole article before.
-4. Delete the draft, or paste the next part over it.
+- open the two secret links I sent in chat in your Chrome (they aren't on this page because the repository is public), and tell me; or
+- open Chrome with the Claude extension signed in, tell me, and I'll open them there.
 
-Then tell me in chat. I'll read the four results from your Pangram history, which costs nothing, and click through their segments for any part that isn't all Human.
+Either way I read the results from your Pangram history for free, click through the segments of any half that isn't all Human, and delete both drafts once the results are recorded.
 
-### 🟠 Merge pull request #205 (turns 77 and 78)
+### 🟠 Merge pull request #207 (turn 79)
 
-#205 (https://github.com/u-dont-existDOTcom/joel-articles/pull/205) now has turn 78 too: the moves, your two paragraphs, the guide for GPT and the new Pangram rules. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+#207 (https://github.com/u-dont-existDOTcom/joel-articles/pull/207) has your answers to 72 to 74 and the new rules. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 72 to 74, 2026-10-21 16:01 UTC
+
+Your answers, in the article (turn 79; `experiments/t79-answers/JOEL-20261021-1601.md`):
+
+- **72a, B:** both "toxic positivity" lines stay. They aren't close: one is in Borrow Love, the other in Speak Toward What You Are Building, about 18,000 words later.
+- **72b, A:** your question "What is this practice supposed to help, and how would I know if it's helping?" is now only in When Healing Turns Into Checking.
+- **72c, A:** "I wasn't lacking love. My parents had given me a lot of it." is cut; the next words are "I found more love in Buddhist teachings".
+- **72d, B (My Journey):** your clarification is in, word for word but for capitals: "That didn't stop me from practicing, but I did stop when I felt fake, stop in the sense of ... like I might still kind of allow the exercise to play out somehow but I would stop "pushing" it to be a certain way, and I'd stop trying to feel it was realer than it was. I would go more into listening and waiting mode rather than imagining mode." The San Pedro sentence after it is its own paragraph now.
+- **72d, B (the psychedelic story):** my get-help paragraph says "A crisis line counts".
+- **73, A:** your two 10-19 lines stay in the Loan P2.
+- **74, A:** If You Want to Kill Yourself starts with the get-help steps, then your "I try not to proselytize..." paragraph; no words changed.
+- **Your labeling note:** from now on a question's sub-items get numbers (72.1, 72.2) and its options letters (gate E203).
+- **The Substack checks:** mine to run from now on, drafts deleted once the results are recorded (gate E204, `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`). Nothing was blocking me: the shared rule still said you make the post, because the hypnosis lane's change was only in its own handoff. The hypnosis lane's recheck stopped at the same step as mine, the Pangram label, which needs your Chrome.
 
 ### 🟢 70 and 71, 2026-10-21 00:49 UTC
 
@@ -365,7 +349,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🔵 Next
 
-- After your four Substack checks: I read the results from your Pangram history and click through the segments of any part that isn't all Human; a moved section that exposes a paragraph gets reworked first (gate E197). Then your answers to the open questions.
+- When the two drafts have been through the Pangram extension: I read the results from your Pangram history, click through the segments of any half that isn't all Human, rework what a moved section exposes first (gate E197), and delete the drafts.
 - Older items, which I'll check against your 10-19 upload when we get to them:
   - "And So That's the Way It Happened!": P1 with your Xandria line, and two new P2s, each read Human alone (0.0063; 0.14 and 0.14), but the practice put together still reads AI as a whole (0.84 and 0.93), as in turns 65 and 69. Next: your part-at-a-time method on the practice itself (P1 with P2, P2 with P3) to find where it turns.
   - The three Altered States sections, with your stories as your guide has them (43, 7 and 8), their warnings in your words, no amounts or recipes.
