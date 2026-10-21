@@ -30,15 +30,12 @@ I checked your 28 changed or new paragraphs alone (the four under 50 words wait 
 
 ## For you to do (no decision needed)
 
-### 🟠 The pull request, whenever you like
+> [!WARNING]
+> Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-You merged #195 at 00:54 UTC. This turn is in [#196](https://github.com/u-dont-existDOTcom/joel-articles/pull/196). Merging it is yours.
+### 🟠 Merge pull request #205 (turn 77)
 
-## Coming up
-
-### 🔵 Next turn
-
-- Your answers to 64 to 69. With 68 and 69 settled, the care and sensitive-sharing paragraphs go in after their checks. After that, the only queue items left are your three (66).
+#205 (https://github.com/u-dont-existDOTcom/joel-articles/pull/205) has your own changes from the 10-19 upload, the Pangram results for them, and my view of GPT's moves (nothing moved yet). About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
