@@ -1,5 +1,60 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-21, after Joel's answers of 17:56 UTC (questions 1 to 8, his own edit, the inner-figure sweep, batch 469g; the recheck rebuilt)
+
+**His message** (`fix-20261021/joel-20261021-1756-message.txt`): 1 yes, 2 c, 3 a, 4 d ("i am fine with all the
+humanized replacements as long as we don't lose anything"; "ONE HONEST ACTION sounds super ai"), "5. no 5?", 6 b
+(interactive, with context, merges considered), 7 b, 8 a (he fixed it himself:
+[his check](https://www.pangram.com/history/18cfa70c-5f9e-4828-a9e7-68829d774e13), Human, 362 words,
+`fix-20261021/JOEL-CHECK-18cfa70c.json`), and the conflation: "check the guide for that conflation bc i have seen it
+before as well (and send this to the inner child guide chat to make sure also)".
+
+**Installed:** his two edits of HG15 (`EDITS41.json` HG15-joel-p9 and -p11; the working copy's B187-B198 equal his
+check's text); HG31 as `rf-z/HG31.v3.json` (3 a) and HG18 as `rf-zf/HG18.smp1.json` (4 d), with `tools/install_fixed.py`.
+`apply_edits41.py` now handles an edit superseded by a later one (HG15-p11t under his edit) and an edit whose new text
+contains its old text (b469-HG18-stopped-press would have gone in twice; `tests/test_apply_edits41.py`).
+
+**The inner-figure sweep** (`fix-20261021/CONFLATION-SWEEP.md`, an Opus reader with the guide's map and his fix as the
+example; prompt `CONFLATION-PROMPT.txt`): six findings; the batch's stance check found a seventh ("Protector parts" in
+"You get anxious"). Four came in with plainer rewrites, three were in the published text. The sweep's reader had read the
+working copy before HG31 and HG18 went in; I swept those two myself (one line, the synchronicity cue's "my Protector",
+is question 9).
+
+**Batch 469g** (`fix-20261021/b469/`, `make_b469.py`): Appendix C's general checklist as prose (2 c); HG18's lost
+points (the body's contact, "hear the room, name where you are", pressing feet or hands after the eyes open when a
+recording stops; and the cold read's two catches, "the five steps listed above" and a stray quotation mark); six
+inner-figure fixes. Four rounds of reviews: round 1 (`r1/`: march, cold reads of HG32 and HG18, the meaning check, the
+stance check, `CONFLATION-REVIEW.md` for the fixes in context), round 2 (`r2/`: Appendix C given questions and a
+particular, the meaning check's catches; the stance check's four conflicts), `VERIFY-r3.md` and `VERIFY-r4.md` (each
+put back a published meaning). `gate-answers.json` answers what was answered rather than fixed; `GATE.json`: every edit
+clears the gate except Appendix C's prose, which has no break in its march read (the reader took every question in it
+for the checklist's next step).
+
+**No pangram.com check this turn (0 credits).** Main's rule of 2026-10-21 00:49 UTC (gate E200: many paragraphs go
+through free Substack posts, and a paragraph goes to pangram.com alone only when a segment points at it) came in with the
+merge of main (PR 207). So 469g's edits went into the working copy with "paragraph_result": pending, and their reading is
+the recheck. Each changed paragraph's forecast is in `b469/batch/PREDICTIONS.md`.
+
+**The recheck, rebuilt** (`fix-20261020/substack41r/make_recheck.py`; merge PASS; part A 28,019 words, part B 10,725):
+pasted into the lane's own two temporary drafts, not new ones (`paste_payload.js` now replaces a draft's body only when
+its title, given as `replace_title`, starts "TEMP Pangram"; both titles were renamed to that form), paid view, secret
+links: [part A](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-21T19%3A23%3A15.548Z&audience=only_paid&free_preview=false&freemail=), [part B](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=2026-10-21T19%3A25%3A03.905Z&audience=only_paid&free_preview=false&freemail=). The pages show the new text (checked on part A: the new lines in, the old out,
+one copy). Predictions in the ledger before the check: HG-whole#19 (AI, 0.02) and HG-rest-B#20 (AI, 0.05), each with
+what it decides; #17 and #18, the first build that was never read, were voided earlier.
+
+**Lessons** (`docs/HUMANIZATION-GATE.md`, "What Joel's answers of 2026-10-21 17:56 UTC taught"): keep the inner figures
+apart, with `tools/humanization/conflation_sweep_prompt.py` for every lane; "one honest action" (O44, W94); a saying as
+people say it (J59); say what is lost (J60); a missing comma isn't a human tell; links on the pages too
+(`tools/humanization/owner_refs_check.py`, `tests/test_owner_page_checks.py`); a review of repeats is a conversation.
+The ledger's `cap_for` (question 7 b). Main's E200 to E204 and `docs/FIXING-AN-ARTICLE.md` arrived with the merge; the
+budget doc's conflict was resolved keeping both.
+
+**The Inner Child chat**: no channel from this session (ListAgents shows none), so the lesson is in the shared gate and
+Joel has a note to paste there (questions page).
+
+**Drafts**: E204 asks the worker to delete its drafts when done; I reused the two, and deleting them is Joel's (a
+permanent deletion is outside what this worker does).
+
 ## 2026-10-21, after Joel's messages of 23:32 and 23:54 UTC (both halves read in 4.1; the first fixes; the recheck waits on his Chrome)
 
 **The whole guide in 4.1, both Mixed** (Substack's check, free; each result's every window is in

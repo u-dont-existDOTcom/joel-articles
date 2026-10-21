@@ -8,10 +8,11 @@ parent tells your inner child ... The adult in you can answer," to "Because ofte
 inner child ..., which is humiliating. The more consciously sculpted adult in you can answer,". Right after the
 inherited parent, a bare "the adult in you" could be read as that same internalized voice.
 
-The hypnosis guide's sweep (articles/inner-signal/humanize/fix-20261021/CONFLATION-SWEEP.md) found six more: four came in
-with plainer rewrites (a lowercased role right after a guard of the same name, "a 'grown up' voice" for the published "new
-adult voice", a sign of vulnerability turned into a need for protection and sent to the Nurturer, a script line with no
-addressee after the inherited parent's paragraph), two were in the published text. So every article that writes about the
+The hypnosis guide's sweep (articles/inner-signal/humanize/fix-20261021/CONFLATION-SWEEP.md) found six more and the batch's
+stance check one: four came in with plainer rewrites (a lowercased role right after a guard of the same name, "a 'grown up'
+voice" for the published "new adult voice", a sign of vulnerability turned into a need for protection and sent to the
+Nurturer, a script line with no addressee after the inherited parent's paragraph), three were in the published text (a
+guard under the role's capital P). So every article that writes about the
 inner child and its adults gets this sweep on the whole article before its final check, with its own map.
 
 Usage (from the repo root):

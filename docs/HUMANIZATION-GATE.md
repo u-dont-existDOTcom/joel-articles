@@ -557,13 +557,14 @@ The records are in `articles/inner-signal/humanize/fix-20261021/` (his message, 
   is meant (the inner adult the reader builds, "the more consciously sculpted adult", or the role by name). And the inner
   adult's roles are not the guards: the Protector (a capitalized role) is not a protector part, and each role keeps its
   job (the guide: "Nurturer warms, Protector makes it safe, Leader points a direction"). The hypnosis guide's sweep (an Opus
-  reader with the guide's map and his fix as the example: `fix-20261021/CONFLATION-SWEEP.md`) found six more. Four came in
+  reader with the guide's map and his fix as the example: `fix-20261021/CONFLATION-SWEEP.md`) and the batch's stance check found
+  seven more. Four came in
   with plainer rewrites, each a loosened term: "the new adult voice" became "a more believable 'grown up' voice" right after
   the parent's voice; the three roles lowercased in quotes right after "“protector” parts"; "a sense of trying to protect
   something", a sign of vulnerability the Nurturer meets, became "a need to protect yourself from it" and still went to the
   Nurturer; and a line to say with no addressee came right after the inherited parent's paragraph, which ends "this voice
-  may jump in". Two were in the published text ("a Protector is showing fear" for something that surfaces like a guard;
-  "a Protector warning"). So:
+  may jump in". Three were in the published text, each a guard under the role's capital P ("a Protector is showing fear";
+  "a Protector warning"; "Protector, thank you for warning me", which the installed text had as "Protector parts"). So:
   - Before an article's final check, run the sweep on the whole article with its own map:
     `python3 tools/humanization/conflation_sweep_prompt.py --article ARTICLE.md --map MAP.txt --report REPORT.md --out
     PROMPT.txt`, and give the prompt to a fresh Opus agent. Fix each finding in the article's own terms with as few words as
