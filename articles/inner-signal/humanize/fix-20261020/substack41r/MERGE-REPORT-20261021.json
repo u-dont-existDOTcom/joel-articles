@@ -6,7 +6,7 @@
  },
  "master": {
   "path": "/home/claude/w1015/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
-  "sha256": "017053a5431be6a1289787b8d62ed84b44554eb3a9aaa414a423367818323737"
+  "sha256": "166cb02a7af6d925a8f04dc9b5d630628b22d48ee088708c0790fd772de68f01"
  },
  "published": {
   "path": "/home/claude/w1015/articles/inner-signal/humanize/source/published-20260928.md",
@@ -93,7 +93,7 @@
   "segment 126: master paragraphs with no published counterpart [\"Your subconscious is amazing at picking up on things your conscious mind isn't g\"]; published ones with none in the master ['The subconscious can notice things the conscious mind misses: anticipations, pat']",
   "segment 127: master paragraphs with no published counterpart ['Ask your child, your adult, your conscious mind, your subconscious mind, your in']; published ones with none in the master ['The first council is internal: child and adult, conscious and subconscious, intu']",
   "segment 128: line breaks not carried into a rewritten paragraph: 'What actually happened? What was the impact? What boundaries need to be set? Wha'",
-  "segment 128: master paragraphs with no published counterpart ['A helpful understanding to come to, is that while their actions were harmful, in', 'Some questions that may be helpful to ask when coming to a place of forgiveness,', 'Take responsibility, feel the remorse, then rectify if you can, and then let it ']; published ones with none in the master ['The understanding that helps me is seeing how conditioning, history, pain, and c', 'Questions for forgiveness without erasing anything:']",
+  "segment 128: master paragraphs with no published counterpart ['We can not ‘force’ forgiveness on ourselves, it has to come from a place of unde', 'A helpful understanding to come to, is that while their actions were harmful, in', 'Some questions that may be helpful to ask when coming to a place of forgiveness,', 'Take responsibility, feel the remorse, then rectify if you can, and then let it ']; published ones with none in the master ['Forgiveness can’t be forced. It grows from understanding, and pushing it too ear', 'The understanding that helps me is seeing how conditioning, history, pain, and c', 'Questions for forgiveness without erasing anything:']",
   "segment 129: line breaks not carried into a rewritten paragraph: 'Help me to become more grounded. Help me to only take what I can integrate. Help'",
   "segment 129: master paragraphs with no published counterpart ['Do not do it to try to FORCE yourself to get to a certain revelation about yours', 'A lot of people have OPENED themselves up to something at one point in their lif', \"Use your altered state of consciousness, either while you're in it or after, to \", \"In other words, if using self-hypnosis while you're in an altered state of consc\"]; published ones with none in the master ['Do not use altered states to force revelation. Use them to deepen listening, str', 'A past opening can be a resource without becoming a state you must reproduce. Ha', 'During or after an altered state, these prompts are usually more useful than dem', 'If the state makes you less loving, less grounded, less honest, less able to sle']",
   "segment 130: master paragraphs with no published counterpart ['Self-hypnosis can be POWERFUL when you are in an altered state of consciousness ', \"So what you think may be an altered state of consciousness that's meaningful, ma\", 'Before you even THINK about interpreting what your altered state of consciousnes']; published ones with none in the master ['Self-hypnosis can become very powerful during loveyhuasca, meditation, lucid dre', 'Intensity then gets mistaken for meaning. Sometimes the inner child is finally s', 'Before trying to interpret the state, ask a simpler question:']",
@@ -121,7 +121,7 @@
   "segment 155: master paragraphs with no published counterpart ['For information about all of these things, see [Inner Child Self-Love Reparentin', 'Some of the information in this post is taken from Healing the Divided Self , Ph']; published ones with none in the master ['The companion Inner Child Self-Love Reparenting Guide gives the fuller treatment', 'Healing the Divided Self, pp.148–153 and 171–174, discusses renurturing, somatic']"
  ],
  "islands_verify": "PASS: 8 islands byte-for-byte and in order",
- "prose_check": "PASS: 26811 words, the same as the master's text blocks, in order",
+ "prose_check": "PASS: 26832 words, the same as the master's text blocks, in order",
  "links": {
   "master_links": 43,
   "missing": []
@@ -2203,7 +2203,7 @@
  },
  "out": {
   "path": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261020/substack41r/ARCHIVAL-SUBSTACK-20261021.html",
-  "sha256": "b707319e43aeeccc707049bcbbb69a1cbe46ae4290687efce9b71d6b1dc261c5"
+  "sha256": "4577b14a16086626170f7da56d4d7ac2e4735fdf42e8b23d1e4cc179f2340a57"
  },
  "verdict": "PASS"
 }

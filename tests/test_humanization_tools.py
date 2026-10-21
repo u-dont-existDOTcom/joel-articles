@@ -1775,6 +1775,25 @@ class PredictionScorecard(unittest.TestCase):
             self.assertEqual(n, 1)
             self.assertIn('| 999g-K1 | AI | 0.35 | a list of three | Human (Human Written), 01:00:00 |', pathlib.Path(out).read_text(encoding='utf-8'))
 
+    def test_fill_preds_counts_an_ai_call_that_reads_mixed_as_right(self):
+        """2026-10-21, batch 468g: fill_preds printed 1 of 4 right where the ledger scored 2; an AI call on a Mixed result
+        is right under the scorecard's rule (a Human call is right only on a 100% Human result)."""
+        rec = lambda head, wins: {'headline': head, 'avg_ai_likelihood': 0.2, 'words': 80, 'windows': wins,
+                                  'utc': '2026-10-21T01:00:00Z', 'link': 'https://www.pangram.com/history/x', 'flagged': []}
+        with tempfile.TemporaryDirectory() as d:
+            table = pathlib.Path(d) / 'PREDICTIONS.md'
+            table.write_text('| text | mine | chance | why | Pangram |\n|---|---|---|---|---|\n'
+                             '| K1 | AI | 45% | a stock line | |\n| K2 | Human | 50% | a closer | |\n'
+                             '| K3 | Human | 50% | plain | |\n| K4 | AI | 45% | a list | |\n', encoding='utf-8')
+            res = pathlib.Path(d) / 'res.json'
+            res.write_text(json.dumps({'K1': rec('AI Detected', ['Human, High, 50', 'AI-Generated, Low, 30']),
+                                       'K2': rec('AI Detected', ['Human, High, 50', 'AI-Generated, High, 30']),
+                                       'K3': rec('Human Written', ['Human, High, 80']),
+                                       'K4': rec('Human Written', ['Human, High, 80'])}), encoding='utf-8')
+            out = subprocess.run([sys.executable, str(ROOT / 'tools' / 'humanization' / 'fill_preds.py'), str(res), str(table)],
+                                 capture_output=True, text=True).stdout
+            self.assertIn('predictions right: 2 of 4', out)
+
 
 def test_render_in_context_link_keeps_balanced_parentheses():
     """2026-10-18 (turn 73): a Wikipedia URL like .../Jeffrey_Young_(psychologist) used to end at its first ")",

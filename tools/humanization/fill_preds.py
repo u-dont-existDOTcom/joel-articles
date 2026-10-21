@@ -34,7 +34,10 @@ for line in s.split('\n'):
         desc = '%s (%s%s, %s words, AI likelihood %.2f)' % (
             got, h, (', ' + conf.lower()) if conf else '; windows: ' + windows, words, ai)
         total += 1
-        right += (mine == got)
+        # the scorecard's rule (pangram_ledger.py): a Human call is right on a 100% Human result, an AI call on anything
+        # else. 2026-10-21: "mine == got" counted an AI call that read Mixed as a miss (batch 468g: 1 of 4 printed, 2 of 4
+        # right in the ledger).
+        right += ((mine == 'Human') == (got == 'Human'))
         line = '| %s | %s | %s | **%s**, %s, [check](https://www.pangram.com/history%s) |' % (k, mine, why, desc.split(' (')[0], t, tail)
         line = line.replace('**%s**,' % got, '**%s** (%s),' % (got, desc.split(' (', 1)[1][:-1]))
     out.append(line)

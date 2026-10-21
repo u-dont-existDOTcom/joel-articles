@@ -46,5 +46,31 @@
   "section_check": "https://www.pangram.com/history/25912495-df6a-4a87-9f71-07b290424bbd",
   "section_result": "Human Written",
   "diagnosis": "pattern 4: three steps in one parallel list (\"Inhale ..., exhale ..., and pause ...\"); two sentences of different shapes, every step and the caution kept"
+ },
+ {
+  "key": "HG35-forgive-e3",
+  "section": "HG35",
+  "old": "We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+  "new": "We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them.",
+  "batch": "468g",
+  "paragraph_check": "https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3",
+  "paragraph_result": "Human Written",
+  "section_check": null,
+  "section_result": null,
+  "section_note": "no section recheck yet: the whole-guide recheck through Substack reads the section in context",
+  "diagnosis": "try 1 split the colon list into two balanced couplets, so the four points stayed four crisp abstract clauses (\"the harm\", \"the boundary\", \"the person\", \"forgiveness\") in parallel, ending on the reassurance. Try 2 keeps its first sentence (Human) and says the points about the people (\"They really did hurt us and they still have to answer for it\"), in one uneven sentence joined by \"and\" and \"but\", with the forgiveness as something we may find has happened rather than a fourth item (no \"anyway\" at the end: the linter's finished-principle check, B1, has it): the published list's abstractions are what 4.1 read, and the clauses that read Human in this section are about people (\"they could only make the moves they made\", the paragraph after)"
+ },
+ {
+  "key": "HG35-selfforgive-e",
+  "section": "HG35",
+  "old": "For self-forgiveness, name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.",
+  "new": "For self-forgiveness, name what you did, but don't take responsibility for what wasn't yours. Let yourself feel the remorse and take in the harm, or how it went against your values, and stop short of making yourself a permanent criminal.",
+  "batch": "468g",
+  "paragraph_check": "https://www.pangram.com/history/fb5462fd-54ca-4993-a909-0072386f60bb",
+  "paragraph_result": "Human Written",
+  "section_check": null,
+  "section_result": null,
+  "section_note": "no section recheck yet: the whole-guide recheck through Substack reads the section in context",
+  "diagnosis": "two parallel imperatives, each closing on a \"without ...ing\" clause (pattern 4; E186, which the linter found in 13% of the paragraphs that read AI and 3% of those that read Human), and remorse as the one doing it (\"Let the remorse register the harm\", W78). The person feels the remorse and takes in the harm, and the two cautions are said in different shapes (\"but don't take responsibility for ...\", \"and stop short of making yourself ...\"), so the two sentences no longer share one. Round 1 said \"take responsibility only for what was yours\" and \"feel remorse for the harm\": the meaning check read the first as a new instruction to own your part and the second as losing what the remorse is for, registering the harm (r1/VERIFY.md, pair 4). Under 50 words, so it is checked with the paragraph after it (Human in the section check)"
  }
 ]
