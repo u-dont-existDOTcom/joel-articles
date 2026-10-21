@@ -1,0 +1,138 @@
+[
+  {
+    "id": "LH032",
+    "source_id": "H032",
+    "classification": "Heading hierarchy",
+    "before_html": "<h3>Don’t Give the Inner Adult Away</h3>",
+    "after_html": "<h2>Don’t Give the Inner Adult Away</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH120",
+    "source_id": "H120",
+    "classification": "Heading hierarchy",
+    "before_html": "<h3>Ask God for a Loan</h3>",
+    "after_html": "<h2>Ask God for a Loan</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH123",
+    "source_id": "H123",
+    "classification": "Heading hierarchy",
+    "before_html": "<h4>Your Loan is PRE-APPROVED!</h4>",
+    "after_html": "<h3>Your Loan is PRE-APPROVED!</h3>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH132",
+    "source_id": "H132",
+    "classification": "Heading hierarchy",
+    "before_html": "<h3>When the Spiritual Relationship Hurts</h3>",
+    "after_html": "<h2>When the Spiritual Relationship Hurts</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH371",
+    "source_id": "H371",
+    "classification": "Heading hierarchy",
+    "before_html": "<h1>When the Practice Feels Real but Stays Shallow</h1>",
+    "after_html": "<h2>When the Practice Feels Real but Stays Shallow</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH388",
+    "source_id": "H388",
+    "classification": "Heading hierarchy",
+    "before_html": "<h1>Speak Toward What You Are Building</h1>",
+    "after_html": "<h2>Speak Toward What You Are Building</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH055",
+    "source_id": "H055",
+    "classification": "Heading hierarchy",
+    "before_html": "<h3>Other Folks Also Have Hooks</h3>",
+    "after_html": "<h2>Other Folks Also Have Hooks</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH212",
+    "source_id": "H212",
+    "classification": "Heading hierarchy",
+    "before_html": "<h2>Altered States Can Deepen the Therapy</h2>",
+    "after_html": "<h1>Altered States Can Deepen the Therapy</h1>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH219",
+    "source_id": "H219",
+    "classification": "Heading hierarchy",
+    "before_html": "<h3>When Escape Leaves Reality Behind</h3>",
+    "after_html": "<h2>When Escape Leaves Reality Behind</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH249",
+    "source_id": "H249",
+    "classification": "Heading hierarchy",
+    "before_html": "<h3>Physical Pain Makes It Harder</h3>",
+    "after_html": "<h1>Physical Pain Makes It Harder</h1>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH254",
+    "source_id": "H254",
+    "classification": "Heading hierarchy",
+    "before_html": "<h4>Listen To Your Body, Or Else!</h4>",
+    "after_html": "<h2>Listen To Your Body, Or Else!</h2>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "LH241",
+    "source_id": "H241",
+    "classification": "Heading hierarchy",
+    "before_html": "<h4>Non-altered states can feel like this too</h4>",
+    "after_html": "<h3>Non-altered states can feel like this too</h3>",
+    "reason": "Represent the actual parent/child relationship after moving the source section."
+  },
+  {
+    "id": "WH143",
+    "source_id": "H143",
+    "classification": "Copy/reference repair",
+    "before_html": "<p>After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn’t mean failure. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first. And you can ask yourself again, “What is this practice supposed to help, and how would I know if it’s helping?” Not doing it is harder to figure out. Fear is the first guess, but maybe you didn’t know how or why. Being worn out can stop you too, and sometimes whoever said they’d help couldn’t make it. Hey, we’ve all been there. 🤗</p>",
+    "after_html": "<p>After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn’t mean failure. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first. And you can ask yourself, “What is this practice supposed to help, and how would I know if it’s helping?” Not doing it is harder to figure out. Fear is the first guess, but maybe you didn’t know how or why. Being worn out can stop you too, and sometimes whoever said they’d help couldn’t make it. Hey, we’ve all been there. 🤗</p>",
+    "reason": "The named question now receives its general discussion later; do not imply it was already asked."
+  },
+  {
+    "id": "WH387",
+    "source_id": "H387",
+    "classification": "Copy/reference repair",
+    "before_html": "<p>Maybe you’d rather that your support person were a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 If that’s you right now, dating can wait while your friends and the steady people around you do their part. That doesn’t mean you have to be completely healed before you date, but when romance should follow when two people really love each other and want to build a life together. It won’t rescue you from the pain or reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma, believe me, I know. I wrote a whole <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://romance.u-dont-exist.com\">romance guide</a>, mostly due to this.</p>",
+    "after_html": "<p>Maybe you’d rather that your support person were a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 If that’s you right now, dating can wait while your friends and the steady people around you do their part. That doesn’t mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won’t rescue you from the pain or reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma, believe me, I know. I wrote a whole <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://romance.u-dont-exist.com\">romance guide</a>, mostly due to this.</p>",
+    "reason": "Remove the duplicated when in an otherwise unchanged sentence."
+  },
+  {
+    "id": "WH215",
+    "source_id": "H215",
+    "classification": "Copy/reference repair",
+    "before_html": "<p>Now, the beautiful stuff. Say one night (on a psychedelic, in a dream, ten days into a meditation retreat, whatever) you felt more love than you knew was possible. Wonderful, and it matters! Keep it as a reference point, and chase it playfully, because it is a already a part of you, and you’ll be like a cat chasing its tail, which can be cute and fun, or dizzy and absurd! </p>",
+    "after_html": "<p>Now, the beautiful stuff. Say one night (on a psychedelic, in a dream, ten days into a meditation retreat, whatever) you felt more love than you knew was possible. Wonderful, and it matters! Keep it as a reference point, and chase it playfully, because it is already a part of you, and you’ll be like a cat chasing its tail, which can be cute and fun, or dizzy and absurd! </p>",
+    "reason": "Remove the duplicated article."
+  },
+  {
+    "id": "WH404",
+    "source_id": "H404",
+    "classification": "Copy/reference repair",
+    "before_html": "<p>The best licensed, listed therapists you’ll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I’ll talk more about those next, but Schema Therapy comes closest to my approach. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://openpathcollective.org/pricing-and-eligibility-for-affordable-therapy/\">Open Path Collective</a> (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://schematherapysociety.org/Search?&amp;tab=1\">even more Schema therapists at the official site</a>.</p>",
+    "after_html": "<p>The best licensed, listed therapists you’ll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I’ll talk more about those in the appendix, but Schema Therapy comes closest to my approach. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://openpathcollective.org/pricing-and-eligibility-for-affordable-therapy/\">Open Path Collective</a> (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://schematherapysociety.org/Search?&amp;tab=1\">even more Schema therapists at the official site</a>.</p>",
+    "reason": "The clinical comparison is in the appendix after the closing encouragement."
+  },
+  {
+    "id": "WN001",
+    "source_id": null,
+    "classification": "New navigational heading",
+    "before_html": "",
+    "after_html": "<h2>Hearthwork: Taking Turns</h2>",
+    "reason": "Names the peer-counseling method already defined in the following source paragraph; adds no therapeutic claim."
+  }
+]
