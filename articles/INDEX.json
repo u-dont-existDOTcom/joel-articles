@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "be067e712d040b09b3368036a82dc65a5b05531b23bc82354415e2e131b0eb0f",
+          "sha256": "33f329243dd05ef71c718c8d53ffb7575d330be6c3be987ea7cf97e574c3600b",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "e62cd1069b8cb7f017031e7a2ad1d35c47041eaf2beaac0a77a2a5861142a2ba",
+          "sha256": "62ad8ed1b88942bf2bf02a0513b68bfa2d9100060adf5079e5ccc40f7780bbe8",
           "role": "owner_edits_ledger"
         },
         {
@@ -23000,6 +23000,26 @@
         {
           "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/Structure-and-Decisions-r03.html",
           "sha256": "6e4dcb42d8ab1b6f65e42d20667bda9d6db90fb86ab5d81fc9b23852a9c383b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-answers/JOEL-20261021-0049.md",
+          "sha256": "3ce7984e1786a7bd526d8a1cbce35e2e0f98b7dfa8f1611130d97a7aeb03d130",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-answers/pangram-41-segments-joel-20261021-0049.png",
+          "sha256": "5235f8ebe925f48013c345a104a00c1d14485acbfb834072770060dfa092dde6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/t78_moves.py",
+          "sha256": "fb80b3ee840dec53877f5d94f779d6fd7e7155f718ecc8b877231bef23d556e4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/t78lib.py",
+          "sha256": "8e0daed55271e0c6ab1f29d2a4721a620549c7a4456c13856c1ba27b32fb2409",
           "role": "humanization_working_record"
         }
       ]

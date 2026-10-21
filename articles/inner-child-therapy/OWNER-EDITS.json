@@ -117,9 +117,9 @@
     "Write It. Don't Send It Yet.",
     "My friend Tyler saw a guy smoking in front of a baby",
     "That's exactly what made Tyler the right person to say something.",
-    "Tyler's an evangelical Christian who preaches on YouTube",
-    "When Healing Turns Into Checking"
-   ]
+    "Tyler's an evangelical Christian who preaches on YouTube"
+   ],
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): When Healing Turns Into Checking moved to the end of Building Trust, before the relationship chapter, so it's no longer after Write It."
   },
   {
    "id": "good-enough",
@@ -444,16 +444,15 @@
     "prepared for their failure to meet them.",
     "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
     "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it.",
-    "If you really did hurt them, repair it.",
-    "Not Every Hero Wears A Cape",
-    "Clean your room! Maybe your little one had grown-ups"
+    "If you really did hurt them, repair it."
    ],
    "must_link": [
     {
      "text": "a relationship",
      "url": "https://romance.u-dont-exist.com"
     }
-   ]
+   ],
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): these paragraphs moved with Other Folks Also Have Hooks to Borrowed Adulthood in Relationship, after Building Trust, so Not Every Hero Wears A Cape is no longer after them."
   },
   {
    "id": "rel-danger-line",
@@ -1429,10 +1428,10 @@
    ],
    "order": [
     "let both of you have your own reasons for being there in the beautiful present.",
-    "If being alone was a big part of what hurt in the first place",
     "And reaching out doesn't mean telling strangers everything."
    ],
-   "note": "2026-10-18 (turn 73, round t73e): his Inner Monologue move (19:06 UTC) is in, and with it this paragraph changed so Before You Try to Go Deep reads Human in the new order (https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2); the check quotes it as it stands now."
+   "note": "2026-10-18 (turn 73, round t73e): his Inner Monologue move (19:06 UTC) is in, and with it this paragraph changed so Before You Try to Go Deep reads Human in the new order (https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2); the check quotes it as it stands now.",
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): his \"mess and all\" paragraph stays early, at the start of Before You Try to Go Deep; the rest moved to the relationship chapter."
   },
   {
    "id": "t1-t9-teaching-points",
@@ -2637,10 +2636,11 @@
    "what": "His section move, half done: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking, its text unchanged (Before You Try to Go Deep with it Human Written 0.090, high, https://www.pangram.com/history/83e7e712-260e-4c40-8a11-de49411e63bb, round t72f). You Don't Need an Inner Monologue stays where it was for now: moved too, every version had AI windows in Your Body Might Need Some Love First P3 to P5 (round t72e), and that entry is move-monologue-pending-20261018.",
    "joel": "2026-10-18 19:06 UTC: \"i think we should move \"you don't need an inner monologue section\" to right after \"when healing turns into checking\" and we should move \"when the present-day adult is dangerous\" after that, since both of those to me are less likely to be important for most people compared to the other sections,and the didn't really fit where they were.\"",
    "order": [
-    "### When Healing Turns Into Checking",
+    "## You Don’t Need an Inner Monologue",
     "## When the Present-Day Adult Is Dangerous to the Child",
     "# Borrow the Adult Before You Can Be the Adult"
-   ]
+   ],
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): When Healing Turns Into Checking moved to the end of Building Trust (GPT's M03); his two sections keep their order after it left: You Don't Need an Inner Monologue, then When the Present-Day Adult Is Dangerous to the Child, then Borrow the Adult."
   },
   {
    "id": "move-monologue-pending-20261018",
@@ -2648,10 +2648,11 @@
    "what": "The other half of his move: You Don't Need an Inner Monologue right after When Healing Turns Into Checking, before When the Present-Day Adult Is Dangerous to the Child. In 2026-10-18 (turn 73, round t73e), with Your Body Might Need Some Love First P4's middle sentence said again and Also Look Outward's honesty paragraph given a scene: Before You Try to Go Deep Human Written 0.096, high, https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2.",
    "joel": "2026-10-18 19:06 UTC (as move-dangerous-20261018)",
    "order": [
-    "### When Healing Turns Into Checking",
     "## You Don’t Need an Inner Monologue",
-    "## When the Present-Day Adult Is Dangerous to the Child"
-   ]
+    "## When the Present-Day Adult Is Dangerous to the Child",
+    "# Borrow the Adult Before You Can Be the Adult"
+   ],
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): When Healing Turns Into Checking moved to the end of Building Trust (GPT's M03); his two sections keep their order after it left: You Don't Need an Inner Monologue, then When the Present-Day Adult Is Dangerous to the Child, then Borrow the Adult."
   },
   {
    "id": "bg-joel-20261019",
@@ -2672,7 +2673,7 @@
    "must_contain": [
     "We all need some support, especially when taking our first steps. First and easiest is to start with finding a somatic therapist, if that resonates, as per my Somatic Therapies Guide.",
     "Inner Child Reparenting therapists do exist, and you can find them, although they often are not licensed, and I don't know of any central directory, nor of any protocol they'd have in common. There are none which work with my guide yet. I can consult, and if you like the guide, you can ask a therapist to check it out and see what they agree with or disagree with as a great way to vet them.",
-    "The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I'll talk more about those next, but Schema Therapy comes closest to my approach. Open Path Collective (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find even more Schema therapists at the official site.",
+    "The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I'll talk more about those in the appendix, but Schema Therapy comes closest to my approach. Open Path Collective (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find even more Schema therapists at the official site.",
     "Before choosing a therapist, get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.",
     "Regarding AI therapy, I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes."
    ],
@@ -2682,11 +2683,12 @@
     "I don't know of a resource to find a perfect inner child therapist"
    ],
    "order": [
-    "# You Are Worthy of Love. Always.",
     "# Finding a Therapist to Borrow Adulthood",
+    "# You Are Worthy of Love. Always.",
     "# Appendix"
    ],
-   "note": "2026-10-19 (turn 75): his 63, A of 00:26 UTC adds my sentence \"I'd also want one who doesn't put ideas in your head, and who understands dissociation.\" to P4, after his spiritual-experiences sentence."
+   "note": "2026-10-19 (turn 75): his 63, A of 00:26 UTC adds my sentence \"I'd also want one who doesn't put ideas in your head, and who understands dissociation.\" to P4, after his spiritual-experiences sentence.",
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): Finding a Therapist moved before You Are Worthy of Love. Always. (GPT's M08), and its pointer \"I'll talk more about those next\" now says \"in the appendix\"."
   },
   {
    "id": "ifs-unburdening-cut-20261019",
@@ -2766,8 +2768,109 @@
     "but when romance should follow",
     "you’re house is moldy"
    ],
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): Altered States Can Deepen the Therapy is an h1 now, at the place he moved it to (entry joel-70a-structure-20261021)."
+  },
+  {
+   "id": "joel-sharing-20261021",
+   "status": "applied",
+   "what": "The first sharing paragraph is Joel's own wording (his answer to question 71), word for word, his straight and curly apostrophes as he typed them; it replaces my turn-76 draft. He checked it in Pangram (Human).",
+   "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"71 ok this version is human\"",
+   "where": "Before You Try to Go Deep, the first of the two sharing paragraphs",
+   "must_contain": [
+    "Then there’s the stuff that’s hardest to tell anyone, and of course that's exactly what you need help with.",
+    "Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way."
+   ],
+   "must_not_contain": [
+    "A fake name doesn’t guarantee you’re anonymous, either.",
+    "(An urge you’ve never acted on isn’t the same as something you did, by the way.)"
+   ]
+  },
+  {
+   "id": "joel-loan-p2-20261021",
+   "status": "applied",
+   "what": "Your Loan is PRE-APPROVED! P2: Joel's new parenthesis, word for word: gratitude for having what others don't is more like selfishness. His paste ended at \"toxic positivity.”\"; the paragraph's last two sentences (grief, the psychedelic trip) stay until he answers question 73. Sent to the InnerSignal map as a suggested fix.",
+   "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"i changed p2 in \\\"your loan is pre-approved\\\" and that actually should be sent over as a map change as well, being thankful for having more than others is not spiritual\"",
+   "where": "Your Loan is PRE-APPROVED!, P2",
+   "must_contain": [
+    "That’s something to be grateful for (although please don’t fall into the common trap of being grateful that you have what others don’t have, as that’s more like selfishness)."
+   ],
+   "must_not_contain": [
+    "That’s something to be grateful for. I’m not talking"
+   ]
+  },
+  {
+   "id": "joel-70a-structure-20261021",
+   "status": "applied",
+   "what": "GPT's r03 structure moves as Joel picked them (question 70: A), every paragraph kept: M01 with his \"mess and all\" paragraph kept early; M02; M03; M04 only as Altered States as its own h1 right after When the Adult Voice Feels Fake, his run kept in his order (its two sub-moves and GPT's help-first order in If You Want to Kill Yourself not taken; that one is question 74); M05 (The Inner Guide, the four authority paragraphs in Don't Give the Inner Adult Away); M06 only for the end sections (Ask God for a Loan, PRE-APPROVED! and When the Spiritual Relationship Hurts stay in Borrow Love); M07 with GPT's heading Hearthwork: Taking Turns; M08's ending. When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time and its empty heading went. Pointer repairs: \"ask yourself again\" to \"ask yourself\", \"I'll talk more about those next\" to \"in the appendix\", \"the same test as back in Timing Is Individual\" to \"as in Timing Is Individual, further down\". His divider after If You Want to Kill Yourself is back. Not yet checked in Pangram in its new places.",
+   "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"70a\"",
+   "where": "the whole article; GPT's files in experiments/t78-structure/gpt-r03/",
+   "must_have_line": [
+    "# Altered States Can Deepen the Therapy",
+    "## When Escape Leaves Reality Behind",
+    "# The Inner Guide",
+    "## Don’t Give the Inner Adult Away",
+    "# How Much Happiness Do You Know Is Possible?",
+    "## When the Practice Feels Real but Stays Shallow",
+    "## Other Folks Also Have Hooks",
+    "## Speak Toward What You Are Building",
+    "## Hearthwork: Taking Turns",
+    "---"
+   ],
    "must_not_have_line": [
-    "# Altered States Can Deepen the Therapy"
+    "# The Inner Guide Comes Later",
+    "# When Love Still Feels Missing",
+    "### When Escape Leaves Reality Behind"
+   ],
+   "must_contain": [
+    "it's the same test as in Timing Is Individual, further down.",
+    "And you can ask yourself, \"What is this practice supposed to help",
+    "I'll talk more about those in the appendix, but"
+   ],
+   "order": [
+    "# My Journey",
+    "## Don’t Give the Inner Adult Away",
+    "# Before You Try to Go Deep",
+    "If being alone was a big part of what hurt in the first place",
+    "## Your Body Might Need Some Love First",
+    "# Borrow the Adult Before You Can Be the Adult",
+    "## Borrow One Competency at a Time",
+    "Then go smaller still, to the least cruel response",
+    "Taking the hostility out makes room for warmth.",
+    "If the love still isn't coming",
+    "## Borrow Hindsight",
+    "## Remember When You Already Did It",
+    "## Notice the Part That Came Here",
+    "## Borrow Love—or Borrow the Perspective of Care",
+    "### Ask God for a Loan",
+    "#### Your Loan is PRE-APPROVED!",
+    "### When the Spiritual Relationship Hurts",
+    "## Become the Adult Apprentice",
+    "# Building Trust With Your Little One",
+    "## When Healing Turns Into Checking",
+    "# Simple Practices",
+    "## Catch the Hook Before the Story Takes Over",
+    "# When the Adult Voice Feels Fake",
+    "### When the Urge to Escape Arrives",
+    "# Altered States Can Deepen the Therapy",
+    "### Physical Pain Makes It Harder",
+    "# If You Want to Kill Yourself",
+    "# Sometimes There Isn't a Clear Child Yet",
+    "# The Inner Guide",
+    "## Timing Is Individual",
+    "# How Much Happiness Do You Know Is Possible?",
+    "## Somatic Heart Opening",
+    "## When the Practice Feels Real but Stays Shallow",
+    "# Borrowed Adulthood in Relationship",
+    "## First Social Connections, Done Right",
+    "## Other Folks Also Have Hooks",
+    "### Write It. Don't Send It Yet.",
+    "## Speak Toward What You Are Building",
+    "## Hearthwork: Taking Turns",
+    "# How to Forgive Without Forgetting",
+    "# When One Life Has Ended and the Next Hasn’t Begun",
+    "# Finding a Therapist to Borrow Adulthood",
+    "# You Are Worthy of Love. Always.",
+    "# Appendix"
    ]
   }
  ]
