@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "5e9451f82dbc6a4b81720908122a6926c37c04079e6b73aa33f67bb92982a4b2",
+          "sha256": "b65bff2d587fcecdf4df0ee2b9c146377cc127c93e992a366370c2abb6f81183",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "ed92630881c65765bf78dcacb333732cd23d3a68217b2a83e2c813329e074c4d",
+          "sha256": "14a60a36df6a5c49c348997525f4c93ef0f3535ef17d43f99d6dad70cfa4fb16",
           "role": "owner_questions_page"
         },
         {
@@ -23165,6 +23165,16 @@
         {
           "path": "articles/inner-child-therapy/experiments/t79-substack/make_payloads.py",
           "sha256": "6ddfdc13f016584984a16839b8a04320bbb10e189613cb0c32af63ab1177760d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t80-answers/JOEL-20261021-1806.md",
+          "sha256": "e722403218ae537a8783b9fcf830ff2b0b6eee2c856908153d9e5060ea7d68d0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t80-answers/claude-in-chrome-settings-joel-20261021-1806.png",
+          "sha256": "fb810531693e1e757785f711109f8be9ffbe4439acb6503c47c1b864c2a98af2",
           "role": "humanization_working_record"
         }
       ]

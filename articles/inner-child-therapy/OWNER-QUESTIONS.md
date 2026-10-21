@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-21 (turn 79). **No open questions.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-21 (turn 80). **One open question: 75.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,26 +8,28 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-None right now.
+### 🟣 75. How should I get the Pangram result on the two drafts?
+
+The label comes from the Pangram extension in a browser, and the app's browser, where I made the drafts, can't have extensions. Your laptop runs Brave (it has no Google Chrome), so your Claude and Pangram extensions are in Brave. The setting in your screenshot allows the Claude extension, but the extension itself also has to be open and signed in to the Claude account this chat uses, and right now this chat sees no browser connected. Claude Code's docs say the extension connects from Brave too, but the Claude in Chrome help page says only Google Chrome is supported, so A may not work.
+
+- **A (my pick, to try first):** with Brave open, click the Claude extension and check it's signed in to the account this chat uses, not your other one, then tell me. If it shows up here, I open the drafts in your Brave, where Pangram already knows you, and do the rest myself. Switching the extension's account means logging out of it, which loses any shortcuts or scheduled tasks saved in it.
+- **B:** Playwright, as you suggested. I install it in the lane folder on your laptop (the playwright package from PyPI, 48.3 MB) and have it open Brave with a separate profile, so your own Brave isn't touched. In that window you add the Pangram extension and sign in to Pangram once; after that I run every Substack check start to finish. A Brave window shows on your screen while a check runs. If your Pangram sign-in goes through Google, Google sometimes refuses sign-ins in a browser run this way.
+- **C:** you do the clicks this time: open each draft link I sent, wait for the Pangram label next to the author's name, click it twice, then "View Full Analysis", and send me the two pangram.com/feed/ links.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Open two draft links in your Chrome (turn 79)
-
-I made the two Substack drafts myself this time, in the app's browser: the whole moved article in two halves, each under the 99,999 characters Substack's check reads, titled "TEMP Pangram check A" and "B". The Pangram label on a post comes from the Pangram Chrome extension, which the app's browser doesn't have, and Claude in Chrome wasn't connected when I tried. So either:
-
-- open each of the two secret links I sent in chat in your Chrome (they aren't on this page because the repository is public), wait for the Pangram label next to the author's name (5 to 10 seconds), click it twice, then "View Full Analysis", and send me the link of the page that opens (it starts https://www.pangram.com/feed/); or
-- open Chrome with the Claude extension signed in, tell me, and I'll do all of that there.
-
-I need those page links because the extension's checks don't show up in your Pangram history (the hypnosis lane found this). I read each page in the app's browser for free, click through the segments of any half that isn't all Human, and delete both drafts once the results are recorded.
-
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 Turn 80, 2026-10-21 18:06 UTC
+
+- **No "Pangram" in draft titles:** all four temporary drafts are renamed, none published, their text unchanged. Ours are "Inner Child, draft A (temp, delete after)" and "B"; the hypnosis lane's are "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B (hypnosis guide appendices) - do not publish". The rule for every worker is gate E205.
+- **The humanize-kit skill:** I'd remove it. Its /humanize scores generic AI patterns and rewrites by them, in the voice of a profile file. Nothing in it is missing from our gate, and some of its moves are ones the gate found read AI or rules out: swapping in "unexpected" words, adding humor and edge in a rewrite, and a full rewrite that keeps only the core argument. It was written for Pangram 3.0, and it says its own output often fails when pasted straight into a detector. Since its description matches any "humanize" request, a worker could load it in the middle of this work, so the gate now says to follow the gate, not the skill (E206).
 
 ### 🟢 72 to 74, 2026-10-21 16:01 UTC
 
@@ -345,7 +347,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🔵 Next
 
-- When you send the two result pages: I read them in the app's browser, click through the segments of any half that isn't all Human, rework what a moved section exposes first (gate E197), and delete the drafts.
+- After your answer to 75 and the two results: I read them in the app's browser, click through the segments of any half that isn't all Human, rework what a moved section exposes first (gate E197), and delete the drafts.
 - Older items, which I'll check against your 10-19 upload when we get to them:
   - "And So That's the Way It Happened!": P1 with your Xandria line, and two new P2s, each read Human alone (0.0063; 0.14 and 0.14), but the practice put together still reads AI as a whole (0.84 and 0.93), as in turns 65 and 69. Next: your part-at-a-time method on the practice itself (P1 with P2, P2 with P3) to find where it turns.
   - The three Altered States sections, with your stories as your guide has them (43, 7 and 8), their warnings in your words, no amounts or recipes.

@@ -1041,3 +1041,15 @@ Joel, 16:01 UTC: my question labels overlapped ("your numbering/lettering option
 1. When he sends the two result pages (the label next to the author's name, clicked twice, then "View Full Analysis"; pangram.com/feed/ links): read each in the app's browser with `tools/humanization/pangram_feed_read.js`, click the segments of any half that isn't all Human, rework what a moved section exposes first (E197), then delete both drafts and say so here.
 
 After the answer: pull request #207 merged (2026-10-21, about 17:57 UTC). My answer had told him I'd read the results from his Pangram history, but the extension's checks of a Substack post aren't in his History list (the hypnosis lane's `pangram_feed_read.js`), so the questions page now asks him for the two result pages, and the rules say so.
+
+## Turn 80 (2026-10-21, from 18:06 UTC): no "Pangram" in draft titles; why the label needs his own browser; the humanize-kit skill
+
+Joel, 18:06 UTC: no worker names the temps "pangram check" ("that sounds super sus like if substack is looking at that"); "it already was connected in settings" (his screenshot of the app's Claude in Chrome settings); maybe Playwright with Brave; he added the humanize-kit community skill: does it help, or should he remove it? Saved first (`t80-answers/JOEL-20261021-1806.md`, with the screenshot).
+
+- **Titles:** all four temporary drafts renamed, none published, their text unchanged (checked through Substack's draft API): ours to "Inner Child, draft A (temp, delete after)" and "B", the hypnosis lane's to "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B (hypnosis guide appendices) - do not publish". Rule E205, in the budget rule's step 1 and the guide for any worker.
+- **The browser:** his laptop runs Brave (no Google Chrome on it), so his Claude and Pangram extensions are in Brave. Claude in Chrome lists no connected browser for this account. The setting he showed allows the extension; the extension itself has to be running and signed in to the same account (Claude Code's Chrome docs, which say Brave connects too; the Claude in Chrome help page says other Chromium browsers aren't supported). Question 75: check the extension's sign-in in Brave (my pick, to try first), Playwright with its own Brave profile, or his clicks this time.
+- **humanize-kit:** I read its /humanize SKILL.md. Nothing the gate lacks, and some of its moves are ones the gate rules out or found read AI (E206). I advised him to remove it.
+
+### Next
+
+1. His answer to 75; then the two results, the segment clicks for any half that isn't all Human, rework of what a moved section exposes first (E197), and both drafts deleted (E204).
