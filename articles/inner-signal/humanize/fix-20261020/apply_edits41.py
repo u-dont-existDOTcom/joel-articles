@@ -23,13 +23,19 @@ def load():
     return json.loads(LIST.read_text(encoding='utf-8')) if LIST.exists() else []
 
 
+def superseded(e, later, md):
+    """A later edit of the same sentence took e's new text as its old one and is in (2026-10-21: Joel's own edit of
+    "Because often your inherited parent ..." came after HG15-p11t, which had put "inherited parent" there)."""
+    return any(e['new'] and e['new'] in l['old'] and l['new'] in md for l in later)
+
+
 def apply(md, edits):
     done, applied = [], []
-    for e in edits:
+    for i, e in enumerate(edits):
         if e['old'] and md.count(e['old']) == 1:
             md = md.replace(e['old'], e['new'])
             applied.append(e['key'])
-        elif (e['new'] and e['new'] in md) or (not e['new'] and e['old'] not in md):
+        elif (e['new'] and e['new'] in md) or (not e['new'] and e['old'] not in md) or superseded(e, edits[i + 1:], md):
             done.append(e['key'])
         else:
             raise SystemExit('%s: neither its old text (%d times) nor its new text is in the working copy'

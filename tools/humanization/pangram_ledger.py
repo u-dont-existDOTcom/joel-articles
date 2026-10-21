@@ -47,6 +47,21 @@ import argparse, datetime, hashlib, json, pathlib, re, sys
 REPO = pathlib.Path(__file__).resolve().parents[2]
 LANES = REPO / 'tools' / 'humanization' / 'pangram_lanes.json'
 CAPS = {'sentence': 6, 'heading': 6, 'paragraph': 6, 'pair': 6, 'section': 2, 'stretch': 2, 'article': 2}
+
+
+def cap_for(scope, detector=None):
+    """The tries a lineage may use: CAPS, except a whole article or a stretch of one checked through a temporary Substack
+    post, which has no cap (Joel, 2026-10-21 17:56 UTC, question 7 of the hypnosis questions page, "b": "Let Substack
+    checks go past two, each with its prediction written first and run only when its result decides something"; those
+    checks cost no credits). None means no cap; such a prediction must say what its result decides."""
+    if scope in ('article', 'stretch') and 'substack' in (detector or '').lower():
+        return None
+    return CAPS.get(scope, 0)
+
+
+def cap_text(scope, detector=None):
+    c = cap_for(scope, detector)
+    return 'unlimited (Substack)' if c is None else str(c)
 CALLS = ('Human', 'AI')
 
 
@@ -118,7 +133,10 @@ def refusals(recs, rec):
     if any(p['sha256'] == rec['sha256'] for p in line):
         out.append('this exact text (same SHA-256) was already submitted in lineage %s: read its result from the ledger or '
                    "Pangram's History instead of paying again" % rec['lineage'])
-    out += blocks(recs, rec['lineage'], scope)
+    out += blocks(recs, rec['lineage'], scope, rec.get('detector'))
+    if cap_for(scope, rec.get('detector')) is None and not (rec.get('decides') or '').strip():
+        out.append('a Substack check past the usual two tries must say what its result decides (--decides; Joel, '
+                   '2026-10-21, question 7 b: "run only when its result decides something")')
     done = [p for p in line if p['result']]
     if done and done[-1]['result'].get('verdict') != 'Human' and not (rec.get('diagnosis') or '').strip():
         out.append('the last try of lineage %s read %s: give the specific diagnosis this try tests (what changed, why it should '
@@ -126,17 +144,17 @@ def refusals(recs, rec):
     return out
 
 
-def blocks(recs, lineage, scope):
+def blocks(recs, lineage, scope, detector=None):
     """What stops any further submission in the lineage, whatever the text: the cap, a submission with no result, two
-    unexplained misses in a row."""
+    unexplained misses in a row. DETECTOR is the new prediction's (a Substack check of an article has no cap)."""
     out = []
     line = lineage_view(state(recs), lineage)
     pending = [p for p in line if not p['result']]
     if pending:
         out.append('try %d of lineage %s (%s) has no result: recover it from the History, or void it if it was never sent'
                    % (pending[0]['try'], lineage, pending[0].get('key') or pending[0]['sha256'][:12]))
-    cap = CAPS.get(scope, 0)
-    if len(line) >= cap:
+    cap = cap_for(scope, detector if detector is not None else (line[-1].get('detector') if line else None))
+    if cap is not None and len(line) >= cap:
         out.append('lineage %s has used its %d tries for a %s: stop and ask Joel (a new owner decision is needed)'
                    % (lineage, cap, scope))
     done = [p for p in line if p['result']]
@@ -360,7 +378,7 @@ def lane_page(lane, cfg, legacy, rows, recs):
             out += ['## Lineages still open (tries used of the cap)', '', '| lineage | scope | tries | last read |', '|---|---|---|---|']
             for l, ps in live:
                 last = ps[-1]['result']
-                out.append('| %s | %s | %d of %d | %s |' % (l, ps[-1]['scope'], len(ps), CAPS.get(ps[-1]['scope'], 0),
+                out.append('| %s | %s | %d of %s | %s |' % (l, ps[-1]['scope'], len(ps), cap_text(ps[-1]['scope'], ps[-1].get('detector')),
                                                          last.get('verdict') if last else 'pending'))
             out.append('')
     else:
@@ -430,7 +448,7 @@ def cmd_predict(a):
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
         return 2
     append(a.ledger, {k: v for k, v in rec.items() if v not in (None, [], '')})
-    print('%s: try %d of %d for %s (%s), predicted %s%s' % (rec['id'], rec['try'], CAPS[a.scope], a.lineage, a.scope, a.call,
+    print('%s: try %d of %s for %s (%s), predicted %s%s' % (rec['id'], rec['try'], cap_text(a.scope, a.detector), a.lineage, a.scope, a.call,
                                                           '' if a.chance is None else ' at %.2f' % a.chance))
     return 0
 
@@ -503,8 +521,8 @@ def cmd_status(a):
     recs = read(a.ledger)
     for l, ps in lines.items():
         last = ps[-1]
-        b = blocks(recs, l, last['scope'])
-        print('%s (%s): %d of %d tries; last %s%s' % (l, last['scope'], len(ps), CAPS.get(last['scope'], 0),
+        b = blocks(recs, l, last['scope'], last.get('detector'))
+        print('%s (%s): %d of %s tries; last %s%s' % (l, last['scope'], len(ps), cap_text(last['scope'], last.get('detector')),
                                                        (last['result'] or {}).get('verdict', 'pending'),
                                                        ('; BLOCKED: ' + ' / '.join(b)) if b else ''))
     return 0

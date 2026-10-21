@@ -1,0 +1,62 @@
+{
+ "HG18-count-feet": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG18.md (round 2: P3, the edited count, OK; round 1, r1/SENSE-HG18.md, had flagged its \"the five steps listed above\", which pointed at nothing above, and paused on the closing quotation mark with no opening one: both fixed. Its two flags are in installed text the edit doesn't touch: P2's \"All instructions you have given me\", which Joel kept when he chose this version (question 4, d, where the page listed it; putting back the published \"All instructions to deepen or remain in this session are finished\" brought an AI window back in 465g), and P6's \"reset word\", the published \"an undefined reset word\")"
+ },
+ "HG18-stopped-press": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG18.md (round 2: P5, the edited paragraph, OK; paused on the added \"Press your feet or hands into a surface first.\", not flagged. Its two flags are in installed text, answered under HG18-count-feet)"
+ },
+ "HG14-cf-addressee": {
+  "cold": "OK",
+  "grounding": "OK",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 1: WHO clear (the guard), READS fine, CHANGED only who is meant (the closing quotation mark a typo repair); the fix agrees with the published script"
+ },
+ "HG20-cf-roles": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 2 (the capitals: WHO clear, READS fine; its note on \"Witness\" is about installed text the guide introduces earlier) and r1/STANCE.md conflict 1, which the round-2 sentence answers (\"and if you can't do one yet, borrow it\", the published \"When a capacity isn't available, borrow that one function\")"
+ },
+ "HG24-cf-grownup": {
+  "cold": "OK",
+  "grounding": "OK",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 3: WHO clear, READS fine, CHANGED no; it moves the passage toward the published pair (the inherited parent's \"old belonging rule\", \"the new adult voice\")"
+ },
+ "HG36-cf-protector": {
+  "cold": "OK",
+  "grounding": "OK",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 4: WHO clear (a protector part), READS fine, CHANGED only who is meant; the published \"a Protector is showing fear\" reads as a part despite its capital, so the fix doesn't move away from it"
+ },
+ "HG37-cf-nurturer": {
+  "cold": "OK",
+  "grounding": "OK",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 5, FLAG answered: the reviewer found the trigger changed beyond who is meant (from a need to protect yourself from the presence to a sense of guarding something), and found that the change brings the passage back to the published \"If vulnerability appears—a knot in the throat, sadness, fear, or a sense of trying to protect something—you can bring in the Nurturer\". The installed wording was the drift (the Emulate run that wrote it turned a sign of vulnerability into a need for protection and still sent it to the Nurturer, the role swap the sweep found), so the published meaning is the one to keep; what the reader does is unchanged (call the Nurturer; if it stays hostile, stop and return to the room)"
+ },
+ "HG32-prose-p1": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)"
+ },
+ "HG32-prose-p2": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)"
+ },
+ "HG32-prose-p3": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)"
+ },
+ "HG32-prose-p4": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)"
+ },
+ "HG32-prose-p5": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)"
+ },
+ "HG32-prose-p6": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)"
+ },
+ "HG32-prose-p7": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)"
+ }
+}

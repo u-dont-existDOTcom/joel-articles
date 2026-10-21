@@ -537,6 +537,63 @@ Joel: "all the edits you see between the final full html i'm attaching and the s
 - **Whole sections are where predicting fails.** Across lanes my section calls were right 57% of the time, at the sections' own pass rate (56%), so they carried no information; Emulate screens were right 85% of the time (83% passed). The section lessons above say why: a section reads AI where its parts read Human.
 - **So, from now on:** every prediction gets a chance (`pangram_ledger.py predict --chance`), started from its lane's pass rate for that scope or kind (each lane's `SCORECARD.md` has them) and moved only by evidence named in the actual words (the tells and the human tells the budget rule asks for). A call that can't name its evidence stays at the base rate, and a base rate under one half is an AI call. Each miss gets its cause recorded (`explain`); a cause that repeats becomes a check before Pangram, and one nobody can explain goes to Joel with the passage.
 
+## What Joel's answers of 2026-10-21 17:56 UTC taught (the hypnosis guide's questions page)
+
+The records are in `articles/inner-signal/humanize/fix-20261021/` (his message, his check, the sweep and batch 469g).
+
+- **Keep the inner figures apart (every lane that writes about the inner child and its adults).** "i fixed another part a
+  few paras later where you conflated the different versions of the inner adult... so we should check the guide for that
+  conflation bc i have seen it before as well (and send this to the inner child guide chat to make sure also)". His fix:
+  "Because often your inherited parent tells your inner child ... The adult in you can answer," became "Because often
+  your inherited inner parent tells your inner child ..., which is humiliating. The more consciously sculpted adult in you
+  can answer," ([his check](https://www.pangram.com/history/18cfa70c-5f9e-4828-a9e7-68829d774e13), Human). Where the
+  internalized caregiver voice (the inherited parent; his newer name, the "inherited inner parent") is in play, a bare "the
+  adult", "your adult", "the adult in you", "a 'grown up' voice" or "parent" can be read as that same voice: name which one
+  is meant (the inner adult the reader builds, "the more consciously sculpted adult", or the role by name). And the inner
+  adult's roles are not the guards: the Protector (a capitalized role) is not a protector part, and each role keeps its
+  job (the guide: "Nurturer warms, Protector makes it safe, Leader points a direction"). The hypnosis guide's sweep (an Opus
+  reader with the guide's map and his fix as the example: `fix-20261021/CONFLATION-SWEEP.md`) found six more. Four came in
+  with plainer rewrites, each a loosened term: "the new adult voice" became "a more believable 'grown up' voice" right after
+  the parent's voice; the three roles lowercased in quotes right after "“protector” parts"; "a sense of trying to protect
+  something", a sign of vulnerability the Nurturer meets, became "a need to protect yourself from it" and still went to the
+  Nurturer; and a line to say with no addressee came right after the inherited parent's paragraph, which ends "this voice
+  may jump in". Two were in the published text ("a Protector is showing fear" for something that surfaces like a guard;
+  "a Protector warning"). So:
+  - Before an article's final check, run the sweep on the whole article with its own map:
+    `python3 tools/humanization/conflation_sweep_prompt.py --article ARTICLE.md --map MAP.txt --report REPORT.md --out
+    PROMPT.txt`, and give the prompt to a fresh Opus agent. Fix each finding in the article's own terms with as few words as
+    possible, give each fix a review in its paragraph's context and its own Pangram check, and take a finding where either
+    reading fits the map to Joel.
+  - In every meaning check of a rewrite, a changed name for an inner figure (a dropped capital, a looser word for the adult,
+    a role's job given to another) counts as a changed point, not as style.
+  - There is no channel from one chat to another, so this section is how the Inner Child lane gets it; Joel was given a
+    note to paste there.
+- **"One honest action" is AI (O44).** "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
+  that in my life. the other ones i can see potentially being human to say altho kinda in the middle." The linter FAILs it
+  ("one (small/simple) honest action/step/act/move/thing"); say the action itself, or leave it to the reader. The return
+  steps' Human version had already dropped it.
+- **Say a saying the way people say it (J59).** "i had to fix your human doer vs human being to sound more like what
+  people say": the paragraph played on "a human being, not a human doing", so his fix says "a human being and a human
+  doing". When a passage plays on a known phrase, use the phrase as people say it.
+- **Say what is lost (J60).** "losing yourself actually sounds a bit vague so the fix made it make more sense": his fix says
+  the gifts "still become a kind of bargain for belonging when failing in these areas feels like losing what it means to
+  have your own inherent value". My two tries had kept "losing yourself" and read AI, medium and high; his version, with the
+  concession joined by "although they still" and the loss said exactly, read Human in its 362-word check.
+- **A missing comma is not a human tell.** "i had to add the missing commas": his fix made "by for example being
+  beautiful" into "by, for example, being beautiful". My questions page had counted "by for example ... etc." among the
+  paragraph's human tells. Roughness that is his kind (O27) stays; a missing comma around an interrupter goes.
+- **Links he can click, on the pages too.** "i didn't understand about the full lists, because you didn't give links to
+  click". The questions page named the repeats lists as repo paths in backticks, which GitHub shows as text. The check that
+  catches this ran only on final messages, from a worker's scratch folder. It is now `tools/humanization/owner_refs_check.py`
+  (tests in `tests/test_owner_page_checks.py`): run it on a lane's OWNER-QUESTIONS.md before every push that changes it, and
+  on every final message; every file Joel is pointed to is a github.com blob link at the branch, or is sent to him.
+- **A review of repeats is a conversation, with the context in front of him.** On the dedup pass (question 6, b): "i'd want
+  to answer each one anyway interactively rather than looking at a static list, and make sure you give me proper context
+  for each one so i really understand like how far apart they are and what's around them etc... and sometimes we should
+  consider if more things need merging rather than just cuts". So each repeat goes to him on its own: both passages with
+  the paragraphs around them, how far apart they are (paragraphs and sections between), what each place is doing there,
+  and three options (keep both, cut one, or merge them into the place that says it best), with a recommendation.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

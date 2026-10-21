@@ -374,7 +374,7 @@ One way of explaining this is that in your childhood you didn’t spend enough a
 
 Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Not for too long, however, or you’ll defeat the purpose of the exercise. You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.
 
-What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.
+What is the difference between a human being and a human doing? If you don’t feel good enough as a human being, you will try to become good enough as a "human doing" by, for example, being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts, although they still become a kind of bargain for belonging when failing in these areas feels like losing what it means to have your own inherent value.
 
 So in order to find yourself, you can ask yourself:
 
@@ -394,7 +394,7 @@ With whom can I be myself?
 
 What do I feel in my body and what do I make out of it?
 
-Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
+Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
 
 When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!
 
@@ -612,17 +612,17 @@ To retire the cue, stop rehearsing it, remove it from recordings or active app i
 
 # Come all the way back
 
-Reverse whatever you used to enter. If you floated, regain chosen weight. If you became small, return to ordinary scale. If you met a younger state or several parts, confirm present wholeness, body ownership, and adult judgment. If you traveled, come back by the same route. Keep only the qualities you deliberately chose.
+Make sure to reverse anything you've done to alter your state when you come out of it. If you've floated, make sure you regain your weight (of your choice, of course). If you've shrunk, grow to your normal size again. If you've regressed or met parts, make sure you come back to feeling complete in the here and now and acknowledge that your body belongs to you and is under control of the adult mind. If you've gone somewhere, make sure you go back the same way. Etcetera. Make sure that the only things you bring out with you are the ones you want to.
 
-“I bring back only what is useful now. The rest can remain safely held until there is more capacity. I return to the room, the body, the day, and one honest action. All instructions to deepen or remain in this session are finished. I keep only the ordinary-life intention or future-practice cue I consciously chose; neither keeps today’s altered state running. I am myself, in my body, with adult judgment fully available.”
+Here is a generic bring-back that you can use: "When I come out of this session, I will only bring with me that which is useful to me in my everyday life right now. Anything else I will bring with me at a later date, when I am better able to integrate it. When I come out of this session, I will be coming back to the room I am in now, and to the day in which I am participating in this session now. All instructions you have given me to carry me deeper in this session or to keep me in this state are now finished. The only instruction I will take with me into my everyday life, or the only cue I will use to take me into this state in the future, is the one I consciously choose to, and neither of them keeps me in this state. When I come out of this session, I will be me, in my body, with my adult judgment."
 
-One — feel the body’s contact and chosen weight. Two — let the breath return to its ordinary rhythm. Three — hear the room and name where you are. Four — move fingers, toes, shoulders, and eyes. Five — eyes open, present, ordinary, clear. The session has ended.
+Then count up, using the five steps listed above: 1...feel your body again, feel your weight (of your choice). 2...feel your breathing return to normal. 3...become aware of your surroundings, know where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over."
 
-Name the day or date. Look left, right, near, and far. Move before standing, and stand only when steady. Check that you are actually oriented and alert; repeating the count is not proof of a complete return. Note only what actually appeared, and any action it calls for. Then do something normal.
+When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit before getting up. Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because you've done the count. Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
 
-If a recording stops unexpectedly: say, “The recording stopped and the session is over.” Open your eyes, name the location and day, press your feet or hands into a surface, move, look around, and use the five-step count. Don’t wait for the missing narrator to release you.
+If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own.
 
-Sleep is separate. A sleep recording may end in sleep or quiet rest. A waking recording shouldn’t end by preserving a role, reduced judgment, impaired movement, blankness, an undefined reset word, or an invitation to remain altered indefinitely.
+Note: If you're going to sleep to a recording, it's fine to go to sleep or just to remain resting quietly at the end of it. But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely.
 
 # The actual inner meeting
 
@@ -958,235 +958,237 @@ The prompt will tell your subconscious what you want. The NLP can help you get i
 
 # Appendix B: NLP without turning yourself into a sales seminar
 
-You can practice the core method without learning one term of Neuro-Linguistic Programming. Read this appendix when you want more precision about imagery, bodily states, rehearsal, and sentence design. NLP is useful when it helps the system listen; it becomes a bag of tricks when technique replaces love, truth, contact, or consent.
+Appendix B - NLP (Neuro-Linguistic Programming)
+
+You do not need to know this stuff to do it but if you want to freshen up on your skills in the art of working with imagery, body states, behavioural rehearsal, talking to yourself in effective sentences etc then it might be useful, when it helps the system listen. Using the techniques can be an easy way to fall into the trap of thinking that NLP is a bag of tricks rather than something that needs to be done with love and truth and contact and consent.
 
 ## The four NLP layers
 
-Sensory NLP changes the form of an inner experience: image, sound, distance, size, brightness, volume, posture, pressure.
+The four levels of NLP are:
 
-State NLP makes useful states easier to access: warmth, adult presence, courage, steadiness, love, clarity.
+Sensory Level of NLP: working with the form of an inner experience (where do you see or hear it, how far away, how big, how bright, how loud, how do you hold your body, where is the pressure etc.)
 
-Strategy NLP rehearses a better response: when this cue appears, the adult does this.
+State Level of NLP: making useful states (warmth, adult presence, courage, love etc.) easier to get to.
 
-Language NLP shapes the sentence: pace what is already true, open awareness, presume only safe capacity, link cause and effect carefully, embed invitations, and use de-hypnotic questions when language becomes vague, absolute, manipulative, or grandiose.
+Strategy level of NLP: practising a better response.
+
+Language Level of NLP: pacing what is true; opening up people’s awareness; presuming you can do something safe; linking cause and effect; embedding invitations; asking de-hypnotic questions to break the effects of vague, absolutes, manipulative or grandiose language.
 
 ## The Milton Model, minus the covert sales seminar
 
-The Milton Model concerns the architecture of the sentence. Commands such as “Relax now,” “Stop being anxious,” or “Trust me” often make a part brace.
+To do this we are going to use a model that’s called the Milton model. It’s all to do with sentence architecture. When we tell ourselves to ‘be better’, ‘relax now’, ‘stop feeling anxious’ or ‘trust me’ it doesn’t work, does it?
 
-Part of the point of [indirect language](https://learn.nimja.com/techniques/hypnotic_language) is to get past that reflexive skeptical argument without having to overpower it. The destination can still be deliberate even when the route is subtle.
+What we need to do is use [indirect language](https://learn.nimja.com/techniques/hypnotic_language) to go around the part that wants to argue with us, so that we can actually get to where we want to get to.
 
-Begin with what is already true, lower the pressure, presume only a small safe capacity, and invite one movement:
+So let’s start with something we know to be true, let’s take the pressure off, presume that we can only do a tiny bit and let’s invite one thing:
 
-“As the body notices the bed beneath it, it may become a little easier to stop holding the whole day alone.”
+‘As my body begins to notice the sensation of the bed underneath it, it may be possible for it to begin to realise that it is not alone in carrying the burden of the day.’
 
-Pace reality. Open awareness. Validate function. Presuppose capacity. Bridge gently. Invite one small movement. Test with the body.
+We paced it; we opened up awareness; we validated the reason for the reaction; we presumed we could do it; we used a bridge word to make it easier and we invited one thing. We can then test this out with the body to see if it was possible.
 
 ### Pattern 1: Pacing and leading — truth before suggestion
 
-*Pacing and leading* means stating what is already true before inviting anything new.
+So how might we pace and lead in a way that works with anxiety?
 
-“Anxiety is here. The body is activated. A protector is trying to help. And one breath at a time, the adult can start to listen.”
+It might go something like this: ‘It is completely true that the sensation of ________ (or the emotion of _____) is coming up for me. It makes complete sense that my system is trying to react and respond to that by wanting to do or think ________. Whilst that is completely true, there is another thing that is equally true, which is that my adult self is here, breathing in the room right now, and wanting to listen to what comes up for me next.’
 
-The simplest form is a Truth + Invite loop:
-
-“It is completely true that [current sensation or emotion] is here. It makes sense that my system is reacting by [current protective behavior or thought]. And right alongside that truth, my adult self is here, breathing in this room, ready to listen to whatever comes up next.”
+Truth, Invite, Truth, Invite etc. is all you need to do.
 
 ### Pattern 2: Awareness verbs
 
-Awareness verbs point attention without yelling at it: *notice, realize, recognize, sense, feel, wonder, imagine, picture, listen, allow, discover, remember, consider*.
+Open up awareness by using ‘awareness’ verbs e.g. notice, realise, recognise, sense, feel, wonder, imagine, picture, listen to, allow, discover, remember, consider etc.
 
-“Notice whether the answer comes as an image, a word, a pressure, a warmth, a silence, or a next action.”
+Example: ‘Notice how you find out the answer.’
 
 ### Pattern 3: Presuppositions
 
-A presupposition hides an assumption inside a sentence. Use that power only to presume choice, timing, capacity, safety, love, and adult leadership. Don’t smuggle in obedience.
-
-“Before any part has to change, it can first become more understood.”
+Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us.
 
 ### Pattern 4: Gentle cause-effect bridges
 
-Words such as *as, while, because, when, after, before*, and *which means* connect one event to another. Use them carefully. A gentle voice doesn’t make a false causal claim true.
+Be very careful here. Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t!
 
-Too strong: “Because I breathe, the trauma leaves.” Better: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”
+In general, the problem with the first example is that it’s too strong. It’s not very likely that just by breathing in and out that your trauma is going to go away! The second example is a lot better as it’s more true.
 
 ### Pattern 5: Embedded invitations
 
-An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.
+ie. "And I can allow myself to experience..."
 
-“And somewhere inside this breath, I can let the adult self listen.”
+or, "As I sit here, I may begin to allow myself to become aware..."
 
-“As I sit here, I may allow one small truth to become clear.”
+Or, something similar that you might use when working with "inner child" type of parts.
 
-“The child does not have to trust me all at once; it can simply notice I am still here.”
-
-Use one when it helps. Ten embedded invitations in a row feel like somebody took a weekend certification.
+You can use this, of course, but don't use ten of them one after the other! People will know that you've just come out of some weekend certification course and they won't feel so safe with you.
 
 ### Pattern 6: Ethical double binds
 
-A manipulative double bind traps every answer inside the speaker’s agenda. An ethical one offers two genuinely safe routes.
+Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants.
 
-“Would this part prefer warmth first, or space first?”
+Ethical Double Bind Questions might be:
+
+"Would you prefer to allow a feeling of warmth to come over you now, or would you prefer a feeling of space?"
 
 ### Pattern 7: Conversational postulates
 
-These are questions whose ordinary conversational form also acts as an invitation.
+An example of a Conversational Postulate is:
 
-“Can the system show me the next step without showing me the whole wound?”
+"Can I allow the system to show me the next thing to do, without showing me all the details of wounding that are involved?"
 
 ### Pattern 8: Tag questions
 
-Tag questions—*isn’t it, can’t it, doesn’t it*—can soften a sentence. They become oily very quickly, don’t they? Use them lightly.
+Similarly, you can use 'tag' questions, like "isn't it?" or "can't it?" or "doesn't it?" or others, but be aware that these can get pretty 'oily' pretty quickly, so don't overdo it.
 
-“The body already knows something about resting, doesn’t it?”
+"Your body knows how to relax, doesn't it?"
 
 ### Pattern 9: Nominalizations
 
-Nominalizations turn processes into nouns: *healing, safety, trust, integration, communion, clarity, rest*. Their vagueness can sometimes help because the subconscious supplies its own concrete meaning.
+Nominalizations are words like, 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc. These are a bit vague, and sometimes that can be useful, because it allows the subconscious to fill in the blank with something very specific for that person.
 
-“A little more safety can arrive in whatever way the body understands.”
+"I can allow myself some safety, in whatever way my body knows how."
 
 ### Pattern 10: Meta Model questions — the de-hypnosis tool
 
-The Milton Model opens possibility. The Meta Model asks exactly what somebody means. Ethical practice needs both.
+To 'Milton Model' is to open things up. To 'Meta Model' is to say "What do yo mean by that?" In order to be ethical with people, you need to do both.
 
-“How specifically?” “According to whom?” “Compared to what?” “Always?” “Never?” “What exactly would happen?” “How do I know?” “What evidence would change my mind?”
+"What do you mean specifically? According to who? Compared to what? Always? Never? What specifically would happen if you did? How do you know that? What evidence could you have that would change your mind?"
 
-Use Milton Model to soften into the body. Use Meta Model to return to truth.
+When people are starting to get stiff in their bodies, 'Milton' it. When you feel like you're losing touch with the truth of what's going on, 'Meta' it.
 
 ## Sensory, state, and strategy tools
 
 ### Submodalities — editing the form, not denying the truth
 
-Fear, craving, fantasy, belief, and memory may have sensory qualities: near or far, bright or dim, loud or quiet, moving or still, heavy or light, inside or outside the body. Work with qualities you actually notice. If none are apparent, skip this tool rather than inventing an image or voice.
+If someone's fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience (it has a place in your visual field, or sounds a certain way, or is heavy, or moving, or inside / outside your body, or something like that), you can work with those properties. If there are no sensory properties that you can notice, don't try to create any -- just don't use this tool!
 
-Ask how the experience is represented. What changes when the image moves two feet back, the voice gets quieter, or the edge becomes less sharp?
+How is this represented for you? Can you allow yourself to move that image back a couple of feet? Can you soften the edges of that image? Can you turn the volume down on that voice in your head? Etc.
 
-“I am not deleting the signal. I am adjusting the volume so I can listen without being overwhelmed.”
+"And I can allow myself to know that I am not deleting the message, just turning down the volume so that I am able to be present enough to hear what it is."
 
-Before moving one imaginary pixel, ask the guard whether that change is acceptable.
+And, always ask the guard if it's ok to do this.
 
-“Would it be okay if we moved this image back just a little, or lowered the volume slightly, purely so my adult self can stay present enough to hear what you need to tell me?”
+"Is it ok to move that image back a couple of feet and turn the volume down a bit, so that I can be present enough to hear what you need me to hear?"
 
 ### Anchoring — giving the body a doorway back
 
-An anchor is a cue connected to a state: a hand on the heart, two fingers touching, a breath, a word, a posture, scent, or song. Find a real state you want easier access to, feel it, and pair the cue while it is clearly present with the phrase, “This is available.” For hypnotic re-entry, choose a usable receptive state rather than peak emotional intensity; follow “A shortcut back into hypnosis” in the main induction section. Keep alert calming and the synchronicity wake-up cue separate.
+There are many ways to do this. Put your hand on your heart, touch two fingers together, use a breath, a word, a particular body posture, smell, song, whatever. Feel something that you have got to in reality that you want to be able to get to easily when you need to. Do your anchor thing and say to yourself that this is available to you. Do make sure you do it when you have clearly got it. To get yourself back into a good hypnosis state easily, dont go for a peak state but for a good hypnotic state. See the main induction for a quick way to get back into hypnosis. Do make sure this is different from both your alert and calm cue and your synchronicity wake up cue.
 
 ### Using synchronicity as your own wake-up bell
 
-People notice a synchronicity and immediately ask what it means. Sometimes that opens insight; sometimes it starts compulsive pattern-hunting. I prefer using the moment of noticing as a wake-up bell. The coincidence doesn’t have to contain a message. It has already captured attention, which is enough.
+Using synchronicity (The synchronicity wake up cue)
 
-The cue I give myself is:
+People often ask what the synchronicity means. Sometimes they get a great insight from it, but other times they get obsessed trying to work out patterns etc. I am using the noticing of the synchronicity to WAKE UP.
 
-“Whenever I notice something that feels like a synchronicity, I wake up inside the state I am in. I feel my body and the room. I remember that the coincidence is not proof of an interpretation. I let attention widen beyond the story my current mood is telling. I ask what is fact, what is interpretation, what needs warmth, what needs protection, and what needs action. I return to the highest perspective I can access without leaving the body, the facts, or ordinary human reality.”
+It is my cue to:
 
-I make room for whatever is genuinely available: objectivity, clarity, ease, peace, freedom, joy, and gratitude. I do not have to manufacture any of them.
+Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing is not proof for what I'm interpreting from the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?) and I go into the highest state I can get into where I can objectively and clearly see what is going on from that situation from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If I am in a negative state, I check if it is a message from my Inner Child, my Protector or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that needs to be taken care of) or if there is something that needs to be done about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
 
-Synchronicity noticed → pause → orient → widen → reality-test → listen → choose one loving action.
+In other words: Stop-orient-go wider-reality check-listen-do at least one thing from a loving place.
 
-The cue interrupts identification without erasing the state’s message. A negative state may still contain an inner-child need, a Protector warning, grief, a bodily problem, or a real demand for action.
+This way I don't go into identification but I still hear the message of the state if it's negative.
 
 #### Installing the synchronicity cue
 
-Imagine noticing an ordinary, harmless synchronicity.
+How to install Synchronicity cues:
 
-Feel the moment when attention says, “Whoa.”
+Mentally rehearse the following: Imagine that you have noticed a synchronicity that is obviously harmless.
 
-Use that opening to feel the feet, body, breath, and room.
+Feel the "whoa" of stimulation that you just got from noticing it.
 
-Repeat: “The noticing is my wake-up bell, not proof of a message.”
+Use that stimulation to feel your feet, your body, your breathing, your room.
 
-Ask the Nurturer, Protector, and Leader what each sees.
+Reiterate to yourself that whenever you notice a synchronicity, it is just a bell that rings to wake you up, it is not proof for what you are interpreting from it.
 
-Rehearse returning to a grounded, wider perspective.
+Ask yourself: "What does my Nurturer think about this?", "What does my Protector think about this?", "What does my Leader think about this?"
 
-End with one small action and the complete waking exit.
+Rehearse going back to a more grounded state and to a more wide view of the situation.
 
-The cue remains self-authored, visible, reversible, and limited to orientation. It can’t authorize a decision, prove an intuition, suppress a warning, or let another person control the response.
+Rehearse yourself taking at least one action. Rehearse yourself waking up completely.
 
-Psychologically, this resembles an [implementation intention](https://www.prospectivepsych.org/sites/default/files/pictures/Gollwitzer_Implementation-intentions-1999.pdf): an advance “if X, then Y” plan that links a recognizable cue with a chosen response. Gollwitzer’s foundational paper supports the general mechanism. This particular use of synchronicity hasn’t been studied directly.
+Mind the caveats! You must be the one authoring these. You must see them. You can always undo them. You must use them only to help you orient. They do not authorize you to make a decision. They are not proof for what your intuition is telling you. They do not stop you from hearing the message of your intuition if it is warning you about something. Other people can't use them to control your response.
 
-The same mechanism creates the risk: rehearsing synchronicity as a cue may make you scan for it. Pattern perception can drift toward false-positive meaning, especially during absorption or destabilization. Research links stronger apophenic pattern detection with false-positive judgments and psychosis-spectrum traits, although ordinary pattern noticing is not itself pathological. See [Blain and colleagues](https://pubmed.ncbi.nlm.nih.gov/32212749/) and [Grant and colleagues](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2014.00135/full).
+This is very similar to [implementation intention](https://www.prospectivepsych.org/sites/default/files/pictures/Gollwitzer_Implementation-intentions-1999.pdf) . I'm not aware of research into implementation intention for this specific thing, but the general mechanisms appear to work; Gollwitzer’s paper explains how and why they work.
 
-Deactivate the cue if it increases compulsive scanning, sleeplessness, anxiety, certainty that random events are personally directed messages, or difficulty distinguishing observation from interpretation.
+A downside of synchronicity cues is that they can lead to false positives. We do this on purpose when we rehearse what to do when we notice a synchronicity (we create an association in our head); however, when you are absorbed in something and/or when you are destabilized, you might think that you saw a synchronicity when in fact there wasn't any. Research has shown that people that score high on apophenia tests also score high for detecting patterns that were not really there, as well as scoring high on psychosis spectrum traits (see [Blain and colleagues](https://pubmed.ncbi.nlm.nih.gov/32212749/), and [Grant and colleagues](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2014.00135/full)) (this is not saying that noticing patterns is bad; in fact, it's not a pathology).
 
-To retire it, stop rehearsing it and say while fully awake: “Synchronicity is no longer a cue. I release this association and return coincidence to ordinary uncertainty.” Remove it from the written cue list and stop rehearsing it. The statement expresses your decision; it does not prove the association has vanished immediately.
+If you feel that synchronicity cues are making these things worse (e.g. you feel like you have to look for them all the time, you can't sleep, you feel anxious, you are sure that random things happen in your life in order to tell you something, you can't tell the difference between noticing something and interpreting what it might mean, etc.), you should deactivate synchronicity cues.
+
+You can do that by not rehearsing them anymore and by saying to yourself (when you are fully awake) that you don't want to use synchronicity as a cue anymore (e.g. "From now on, I am no longer going to use noticing synchronicity as a cue for waking up. I let go of this association, coincidences can go back to being just coincidences."). Remove it from your list of cues, so that you won't rehearse it anymore. Saying this is just you deciding, it doesn't mean the association is gone straight away.
 
 ### Reframing — changing the meaning without lying
 
-Dishonest reframing declares that the problem was secretly good all along. I prefer questions that widen meaning without lying:
-
-“What else might be true?” “What is this part trying to do for me?” “What would the Nurturer, the Protector, and the Leader each say about this?”
+Reframes are dishonest when they make the problem into something that was good all along. Instead ask yourself: What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Leader reframe this? etc., etc.
 
 ### Perceptual positions — self, other, witness, universal heart
 
-First: what do I feel from inside myself? Second: if I sit inside the other person, what might they be feeling or protecting? Third: if I watched this from across the room, what would I notice? Fourth: from the universal heart, what serves truth, love, boundaries, and the good of everyone involved?
+Here is a rough outline of the NLP tools and techniques I use:
 
-Don’t use perceptual positions to excuse harm. Use them to escape the prison of one angle.
+Perceptual Positions : 1) seeing from Self, 2) then seeing from Other, 3) then seeing from Witness, and 4) then seeing from Universal Heart. I do this to see the situation with more accuracy.
+
+I will not use this to rationalize bad behavior, but only to break out of a prison of perception.
 
 ### Future pacing — let the future test the insight
 
-Don’t end with “I understand.” Ask where life will test the understanding, picture the actual cue, and rehearse the smallest better response.
+Future Pacing : 1) Once I have seen the situation more clearly, I will imagine future scenarios where my old behavior would have triggered, to test out if my new insight is working.
 
-“If [cue], then I [small action].”
+If these scenarios come up, I will choose new small behaviors using an Implementation Intention (If...then... statement)
 
 ### The Swish, softened
 
-Classic NLP uses the Swish to replace an old self-image with a new one. Done mechanically, it can feel like an inner eviction. Here, the old pattern stays visible, the new possibility stands beside it, and I notice the body’s response while comparing what each future would actually require.
+Swish Variation : 2) I use an NLP technique called a "Swish Pattern", but I will allow my old pattern to be there, while also holding my new pattern in my awareness. I feel what comes up somatically, and compare the differences between the future scenarios of my old and new patterns.
 
 ### Parts integration, without pretending the conflict is solved
 
-“What does one side want?” “What does the other side fear?” “What need sits under both?” “What third option honors both without letting either run the whole life?”
+Parts Integration : I use this technique to ask my conflicting parts what they want, what they are afraid of, what their need is, and see if I can find a 3rd option that satisfies both parts needs, without either part dominating my behavior.
 
 ## What I will not use NLP for
 
-To talk myself out of a real signal.
+Here is a list of things I do not do with NLP, to myself or to others :
 
-To override fear before asking what the fear protects.
+I do not deny people's legitimate signals.
 
-To recover memories.
+I do not tell people to override their fear.
 
-To manipulate anyone else.
+I do not use NLP for memory retrieval.
 
-To convince myself an intuition is true.
+I do not use NLP to manipulate other people or convince myself of my intuition.
 
-To erase pain, hunger, grief, anger, or a medical symptom.
+I do not remove pain, hunger, grief, anger, or medical symptoms.
 
-While panicking, destabilized, manic, psychosis-like, chemically overwhelmed, or too dissociated to reality-test.
+I do not use NLP on people who are panicked, destabilized, manic, having a "psychosis-like state", or are too high/dissociated to reality test.
 
-To make another person’s no feel like resistance.
+I do not use NLP to make people feel like their no is resistance, or like they are spiritually inferior to me if they disagree with me.
 
-To make someone feel spiritually inferior for disagreeing.
+I do not use covert commands in my language.
 
-To hide a command inside soft language.
+I do not use NLP with people when there isn't enough time (I create urgency for them).
 
-To create urgency where time is needed.
+I do not use NLP on people without their consent (the idea that "your subconscious will let me know if you want me to do this" is NOT consent).
 
-To bypass consent by calling something “subconscious agreement.”
+I do not use NLP to get compliance from people in a suggestible state (in trance, tired, attracted to me, feeling shame or grief, or chemically altered).
 
-To use trance, fatigue, attraction, shame, grief, or altered states to get compliance.
+Here is a rough outline of the entire NLP process :
 
 ## Running the whole NLP sequence
 
-Induce or contain. Gather attention, or stabilize first if you are already wide open.
+Induce/Contain the person (get their attention, or stabilize them first if they are already wide open).
 
-Ask permission. Is it useful to work with this image, feeling, or pattern today?
+Ask for their permission.
 
-Represent the pattern. How does this show up — image, voice, sensation, posture, distance, size, color, movement?
+Get a representation of their pattern (image, feeling, size, color, location, movement, etc.).
 
-Ask what it protects. What is this trying to do for me?
+Find out what that part/pattern is protecting for them.
 
-Adjust the form, gently. Move it back, lower the volume, add space, change posture, slow the scene.
+Gently change some aspect of their pattern (location, volume, space, posture, speed, etc.).
 
-Bring in the three adults. Nurturer warms, Protector makes it safe, Leader points a direction.
+Put 3 good adults in with the person (Nurturer, Protector, and Leader).
 
-Anchor the useful state. Heart, fingers, breath, posture.
+Anchor the person's good state (heart, fingers, breath, posture, etc.).
 
-Future pace. If the old cue shows up, what is the smallest new action?
+Future pace a scenario for them where their old pattern would have triggered, and have them do a small new behavior (If...then... statement).
 
-Check the fit and the evidence. What changes in the body? Is the response kind and doable? What supports the interpretation beyond how it feels?
+Have them check in with their body for changes and look for evidence to support their new interpretation of the situation.
 
-Exit and act. Come back to the room. Do one ordinary thing.
+Get the person out of the altered state (bring them back to the room and have them do something).
 
 # Appendix C: The extended de-hypnosis checklist
 

@@ -244,5 +244,19 @@
   "paragraphs": "455g, 456g, 459g, 460g",
   "fixed": "rf-zb/HG24.fixed.json",
   "installed": "2026-10-18, tools/install_fixed.py"
+ },
+ "HG31": {
+  "stage": "fixed (sample)",
+  "whole": "458g HG31-smp3, 100% Human (Pangram 4.0): https://www.pangram.com/history/946661a0-43e6-4c44-83c9-5d45ec4ecb18",
+  "paragraphs": "455g, 458g (tools/install_fixed.py check: PASS)",
+  "fixed": "rf-z/HG31.v3.json",
+  "installed": "2026-10-21, tools/install_fixed.py; Joel's answer to question 3, a (his message of 2026-10-21 17:56 UTC): the Human version, without the two bridge-word examples and the embedded-invitation line; \"I do not use covert commands\" later in the section keeps the hidden-demand limit"
+ },
+ "HG18": {
+  "stage": "fixed (sample)",
+  "whole": "466g HG18-smp1, 100% Human (Pangram 4.0): https://www.pangram.com/history/f456f1ca-b66b-4830-8f96-45d8d8e64bac",
+  "paragraphs": "463g, 466g (tools/install_fixed.py check: PASS)",
+  "fixed": "rf-zf/HG18.smp1.json",
+  "installed": "2026-10-21, tools/install_fixed.py; Joel's answer to question 4, d (his message of 2026-10-21 17:56 UTC: \"i am fine with all the humanized replacements as long as we don't lose anything\"): the one point it left out, pressing your feet or hands into a surface, goes back as a 4.1 edit (fix-20261021)"
  }
 }

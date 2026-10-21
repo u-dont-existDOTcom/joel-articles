@@ -72,5 +72,29 @@
   "section_result": null,
   "section_note": "no section recheck yet: the whole-guide recheck through Substack reads the section in context",
   "diagnosis": "two parallel imperatives, each closing on a \"without ...ing\" clause (pattern 4; E186, which the linter found in 13% of the paragraphs that read AI and 3% of those that read Human), and remorse as the one doing it (\"Let the remorse register the harm\", W78). The person feels the remorse and takes in the harm, and the two cautions are said in different shapes (\"but don't take responsibility for ...\", \"and stop short of making yourself ...\"), so the two sentences no longer share one. Round 1 said \"take responsibility only for what was yours\" and \"feel remorse for the harm\": the meaning check read the first as a new instruction to own your part and the second as losing what the remorse is for, registering the harm (r1/VERIFY.md, pair 4). Under 50 words, so it is checked with the paragraph after it (Human in the section check)"
+ },
+ {
+  "key": "HG15-joel-p9",
+  "section": "HG15",
+  "source": "Joel's own edit (his message of 2026-10-21 17:56 UTC, question 8 a: joel-20261021-1756-message.txt); his check of the four paragraphs, 100% Human (4.1, 362 words): https://www.pangram.com/history/18cfa70c-5f9e-4828-a9e7-68829d774e13",
+  "batch": "joel-20261021-1756",
+  "old": "What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.",
+  "new": "What is the difference between a human being and a human doing? If you don’t feel good enough as a human being, you will try to become good enough as a \"human doing\" by, for example, being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts, although they still become a kind of bargain for belonging when failing in these areas feels like losing what it means to have your own inherent value.",
+  "paragraph_check": "https://www.pangram.com/history/18cfa70c-5f9e-4828-a9e7-68829d774e13",
+  "paragraph_result": "Human Written",
+  "section_check": null,
+  "section_result": null
+ },
+ {
+  "key": "HG15-joel-p11",
+  "section": "HG15",
+  "source": "Joel's own edit (his message of 2026-10-21 17:56 UTC, question 8 a: joel-20261021-1756-message.txt); his check of the four paragraphs, 100% Human (4.1, 362 words): https://www.pangram.com/history/18cfa70c-5f9e-4828-a9e7-68829d774e13",
+  "batch": "joel-20261021-1756",
+  "old": "Because often your inherited parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer,",
+  "new": "Because often your inherited inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer,",
+  "paragraph_check": "https://www.pangram.com/history/18cfa70c-5f9e-4828-a9e7-68829d774e13",
+  "paragraph_result": "Human Written",
+  "section_check": null,
+  "section_result": null
  }
 ]
