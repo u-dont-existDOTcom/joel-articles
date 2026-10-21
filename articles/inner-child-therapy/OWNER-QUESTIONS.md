@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-20 (turn 77). **One open question (70).** Your message of 00:55 UTC is in Decided, with what went into the article from the innerSignalGraph queue. To answer, reply in chat with the number and a letter, like `64: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-21 (turn 77). **Two open questions (70 and 71).** To answer, reply in chat with the number and a letter, like `70: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -15,6 +15,18 @@ GPT's candidate keeps every paragraph and proposes eight moves. My view of each 
 - **B:** all eight as GPT has them.
 - **C:** your own picks, move by move (M01 to M08).
 - **D:** none for now; keep your 10-19 order.
+
+### 🟣 71. The first sharing paragraph reads AI on Pangram 4.1
+
+I checked your 28 changed or new paragraphs alone (the four under 50 words wait for their sections). 27 read Human Written, almost all with high confidence, on Pangram 4.1. This one reads AI all through ([AI Generated, 161 words](https://www.pangram.com/history/3975ee9b-af2b-41ef-9ddc-d3d39eb701a1)). It is mostly my turn-76 draft, with your two edits (", teachers," and the last sentence). On 10-19, before your edits, the draft read Human on Pangram 4.0 (0.19).
+
+> Then there’s the stuff that’s hardest to tell anyone, though it’s often exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. (An urge you’ve never acted on isn’t the same as something you did, by the way.) You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. A fake name doesn’t guarantee you’re anonymous, either. And some of the people you’d tell, like therapists, teachers, and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it’s nowhere near every crime you might mention. The cops are hopefully the obvious ones to be careful with, even if they pretend to care.
+
+- AI tells I see: it lists the risks one after another, one fact a sentence (the screenshot, the company's server and a court, a fake name, who has to report, which laws, where you live), with two explaining asides in parentheses ("by the way", "a few laws cover everybody, too").
+- Human tells: "You know that DM you deleted?", the 🙈, and your line about the cops.
+- **A (my pick):** your words for it, the way you wrote the second sharing paragraph (that one reads Human, high).
+- **B:** I try one repair that keeps every point: the risks told as what happens to that one DM, the two asides folded into it, your cops line kept; then one Pangram check.
+- **C:** leave it as it is for now (an exception of yours, not a pass).
 
 ## For you to do (no decision needed)
 
