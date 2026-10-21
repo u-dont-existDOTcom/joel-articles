@@ -22966,6 +22966,41 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-21-turn77-a-READ.json",
           "sha256": "626119630c38484324a190bcfbe4bf98523b6c0863e0e90e8417e9a2d98e4c10",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/FINAL-ASSEMBLY.json",
+          "sha256": "2ee46eb45b0c1c23eb2cf135bc7aa532492ea62ca37f04647b0638520461c772",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/FINAL-HEADINGS.json",
+          "sha256": "9f61335fb51e07b91f84709e7340e491947ee299472a77965e205a2c076a77d2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/LOCAL-CHANGES.json",
+          "sha256": "567507f89b816bb01b6acd77f7a85f20d5b9608aa7aed2c51ca652dd2e438631",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/README.md",
+          "sha256": "627741eff8b5f7cabf574daf98f927eca3ff3e58e62623e8ab3224181f7418dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/STRUCTURAL-PLAN.md",
+          "sha256": "51b527333fe6339e8a0748a4c3ad9431e8f8291a5f61f2fb22955a888c091142",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/STRUCTURE-MAP.json",
+          "sha256": "67bc42f9d38b299c62798d6263ee380cfffad80de7ff455986c5e5d8ede1641d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t78-structure/gpt-r03/Structure-and-Decisions-r03.html",
+          "sha256": "6e4dcb42d8ab1b6f65e42d20667bda9d6db90fb86ab5d81fc9b23852a9c383b5",
+          "role": "humanization_working_record"
         }
       ]
     },
