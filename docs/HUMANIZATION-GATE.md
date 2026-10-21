@@ -599,6 +599,21 @@ The records are in `articles/inner-signal/humanize/fix-20261021/` (his message, 
   consider if more things need merging rather than just cuts". So each repeat goes to him on its own: both passages with
   the paragraphs around them, how far apart they are (paragraphs and sections between), what each place is doing there,
   and three options (keep both, cut one, or merge them into the place that says it best), with a recommendation.
+- **A lost point goes back in the sample's words, not the published ones (the hypnosis guide's listening script, after
+  his 4 d).** "i am fine with all the humanized replacements as long as we don't lose anything" sent the induction section
+  through the fast path: Emulate's best sample kept 156 of its points and lost 30. My first pass put the 30 back in the
+  published phrasings, and the linter found tells in eleven of those sentences that the sample's own text didn't have:
+  four "without ...ing" and one "can ... without" (E186), three "not Y" tails (O9), two ideas doing what a person does
+  (O6) and a double "and" (O14). The published section had read AI 1.00 (429g), and its phrasings carry its tells back in
+  with them. So a restored point is said plainly in the sample's register ("and leave the thought unfinished" for
+  "without finishing the thought first", "Don’t get an answer ready" for "without preparing an answer"), and the fixed text
+  is linted beside the sample before its reviews: a rule the sample didn't trip is one the fixes brought, and it gets
+  reworded before any reader sees it (`articles/inner-signal/humanize/fix-20261018/rf-zg/make_hg17_fixed.py`). The meaning
+  check still decides whether each point is back.
+- **Every push goes through `tools/humanization/lane_push.py`** (or `prepush.py` and the checks by hand), never a bare
+  `git push`. On 2026-10-21 two pushes of the hypnosis lane were made by hand without `register_article_artifacts.py`,
+  and CI's content-integrity check failed on both until a third commit registered the files. The rule was already here
+  (E158, "Before every push"); this worktree has no pre-push hook installed, so nothing stopped the push.
 
 ## Every correction teaches the system (Joel, 2026-10-01)
 
