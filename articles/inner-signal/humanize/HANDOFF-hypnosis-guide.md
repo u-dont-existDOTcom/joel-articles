@@ -158,7 +158,7 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-21 21:45 UTC, after the listening script went in: the recheck waits on his Chrome)
+## Next step (2026-10-21 21:41 UTC, after the listening script went in: the recheck waits on his Chrome)
 
 Done since the step below: the induction section (HG17), the one section that was still as published, is installed as
 Emulate's sample ba with every lost point put back (`fix-20261018/rf-zg/`: `make_hg17_fixed.py` with its three rounds,

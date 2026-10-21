@@ -1,6 +1,6 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-21, after the listening script went in (21:45 UTC). **Open questions: 3** (9, 10 and 11, all
+Last updated 2026-10-21, after the listening script went in (21:41 UTC). **Open questions: 3** (9, 10 and 11, all
 new today). **Two things for you to do**: open the recheck's two secret links in your Chrome (part A now carries the
 listening script too), and paste a note into the Inner Child chat (both under "For you to do"). The questions are at the top, with their options and my default; under them is what you decided and
 what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or
