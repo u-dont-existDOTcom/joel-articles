@@ -1,0 +1,569 @@
+{
+ "key": "HG17",
+ "from": "rf-zg/HG17.ba.json (emu-ba over rf-j/HG17.fixed.json), with make_hg17_fixed.py",
+ "choices": {
+  "base": "rf-j/HG17.fixed.json",
+  "windows": [
+   {
+    "blocks": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     8,
+     9,
+     11,
+     12,
+     13,
+     14,
+     15,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     48,
+     49,
+     50,
+     51,
+     52,
+     54,
+     55,
+     57,
+     58,
+     60,
+     61,
+     62,
+     64,
+     65,
+     66,
+     67,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74,
+     75
+    ],
+    "folder": "emu-ba"
+   }
+  ]
+ },
+ "units": [
+  {
+   "kind": "published",
+   "blocks": [
+    0
+   ],
+   "paras": [
+    "Induction: gathering attention without disappearing"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    1,
+    2
+   ],
+   "paras": [
+    "Inductions serve to gather up attention in order to access quiet stuff. They are not about surrendering, playing asleep, or obeying someone. You may want to do an actual induction if you are sober, distracted, analytical, guarded, or otherwise not very trancey. If you are already trancey, due to meditation, loveyhuasca, lucid dreaming, grief, music, prayer, or tiredness, or if for any other reason you feel in touch with deeper stuff, skip the induction and go straight to orientation and containment instead of going deeper.",
+    "Get as trancey as the practice needs: focused, warm, receptive, embodied, and still able to stop. Deeper trance is optional."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P1: \"guarded\"; begin with orientation and containment instead of adding depth (a directive)",
+    "P2: the amount of trance that suits the practice, and its qualities (focused, warm, receptive, embodied, still able to stop); out: \"You can control and decide how trancey you want to get\" (invented)"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    3
+   ],
+   "paras": [
+    "What an induction is actually doing"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    4,
+    5
+   ],
+   "paras": [
+    "It gets you ready to do whatever you are doing. It does this by gathering up your attention, deepening the state only when that helps, and then letting what you notice shape the words and what happens next. There are all sorts of ways to do this. The method here involves counting, but there are many others. You might just talk with someone, tell a story, move, play with sound, or make use of curiosity. However you do it, say so. Don’t pretend it’s some other thing in the name of elegance.",
+    "You can test a simple target suggestion before deepening, to see if you are already getting your target response, and then build from that. The induction is just there to help you find a receptive way of listening. It doesn’t have to be some sort of ceremony you finish before you’re allowed to respond."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P4: deepen only when that helps; let what you notice shape the words and the next response",
+    "P5: build from the response that is already happening; a receptive way of listening (not \"what you want to hear\"); no ceremony to finish before you may respond; out: \"always\""
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    6
+   ],
+   "paras": [
+    "Please don’t put six metaphors in one trance"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    7,
+    8,
+    9
+   ],
+   "paras": [
+    "You need to keep it simple. One purpose, one anchor or image to start, one way back, and a decided on feeling (warm, bounded, directed, or neutral witnessing). You don’t need floating, stairs, gardens, inner rooms, color, and a dialogue with a child all at once. If you do metaphors at all, use one, and only switch to another consciously, when the first one stops helping.",
+    "Metaphors and imagery are optional. A signal might come to you through sensation, rhythm, movement, words, spatial sense, simple knowing, or the lack of a signal. If you are using words, keep them related to the world you have created. If you are counting, do it in a way that makes sense in that world. When you’re done with your induction, come back the other way. You can borrow qualities from your induction (warmth or steadiness) but don’t change who you are.",
+    "When writing your induction, pick a central verb, a sensory quality, a short refrain, and a way to transition between ideas. Read it out loud when you are writing it. Long elegant sentences become soup when you’re being induced."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P7: neutral witnessing; the metaphors needn't all report for duty at once (not \"you don't need\" them); switch when the metaphor stops helping",
+    "P8: a signal arrives (the reader doesn't send one)"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    10
+   ],
+   "paras": [
+    "Before you begin"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "paras": [
+    "1. Read this page, and the Come all the way back page, when you are fully awake.",
+    "2. Decide what you want to do during the induction. You might be asking a question, building a quality, or exploring a state. Also pick what you are NOT going to do today. Consider your time. Remember that this doesn’t have to be about a problem, and you can use it for good stuff too, like love, play, confidence, creativity, or communion. Make sure to leave a few minutes at the end for coming back and for reflection.",
+    "3. Make sure you are in a safe place. Don’t do this if you are driving, in water, operating machinery, or otherwise in a place where you need to attend to yourself or others. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. The later part of this (the already open? section) is for orienting yourself. Don’t use it to make an unstable state any deeper.",
+    "4. Decide how you want to be coaxed into it. Do you want to feel like you have a lot of room, or do you want to feel held and warm? Or do you need a firmer invitation to stay with a feeling? Preview to yourself what you are going to do. This might involve closing your eyes, or even coming out of it and going back in. It will include coming back at the end. If you are recording your induction, read the script to yourself first (if you can). Know that you can end the induction any time you want by saying “stop” or by opening your eyes. You can also say “less” to make the induction ask less of you, or “quiet” to make it stop talking. You do not need permission from any inner part to stop, even if you feel like a part is telling you that you need permission.",
+    "5. If you have not done hypnosis before, or if you haven’t done it in a while, practice the coming in and out part first, and leave difficult subjects for later. You don’t have to watch yourself the whole time, but it is good to make sure you can do the state change at first. Let a useful response get easier and take less effort. The answer no will stay no. And if you say nothing, that isn’t a yes, so a narrator can’t add things you haven’t agreed to.",
+    "6. Let the response you got guide what happens next, whatever the script expected. Utilization is the act of letting your current response guide where you go next: a thought, a sound, a movement, or an objection may change where the practice goes. Learn to notice what does happen as you go. Also learn that if nothing happens, that doesn’t mean there was a positive, hidden change. Keep the safety and exit instructions plain. If you need richer language tools, see Appendix B, or read on to Let the next response guide you, which shows how to use them after the induction."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "Utilization",
+     "new": "Utilization"
+    }
+   ],
+   "fixes": [
+    "P11: you don't have to find a problem; several minutes for returning and reflecting; stance 1: choosing what you leave alone is part of every session's setup (Quick start: \"Choose one purpose and what you are leaving alone today\"; published P11), not an option; stance 2: communion is the essay's word for the inner meeting of the conscious mind, the subconscious, the body and the parts (Introduction), not \"communion with things\"",
+    "P12: get immediate support instead of exploratory hypnosis; Already open? is for orientation, not for intensifying an unstable state; stance, the published text's own contradiction: \"otherwise\" made every intoxicated reader one who can't keep safe; the published lists three conditions (\"When intoxicated, acutely confused, or unable to keep yourself safe\"). Whether exploratory hypnosis on loveyhuasca is ruled out goes to Joel (question 11)",
+    "P13: a firmer invitation to stay with a feeling; out: \"a gentle suggestion\" (added); cold read P11: \"make it ask less of you\": who is \"it\"",
+    "P14: let a useful response become easier and less effortful (an invitation); silence doesn't authorize a narrator to add what you haven't agreed to (a consent rule); stance 3: the published asks for the first rehearsals \"without a difficult subject\", not entry and exit drills before any other use",
+    "P15: not the response the script expected; the Utilization link; a thought, sound, movement or objection may change where the practice goes; keep safety and exit instructions plain; \"after the induction\"; cold read P13: \"these things\" could be the steps or the thought, sound, movement or objection just listed; meaning, part 1, P15: Appendix B holds \"richer language tools\" (the published), not \"more tools on utilization\"",
+    "Emulate's own heading line (\"Induction for when you are sober (3-5 min)\") above the published heading"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    16
+   ],
+   "paras": [
+    "Sober induction: 3–5 minutes"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "paras": [
+    "Read this slowly to yourself on a recorder, or read it aloud, or learn how it moves and say it silently if you are good at that. Pick a sound, a contact on your body, or the two hands thing (below) to be your anchor for this, and pick an opening phrase. Keep using the same anchor wherever the words mention it. Don’t read the stage directions out loud, just pause between paragraphs.",
+    "Allow your eyes to rest on something in the room for a little while. Notice the difference between looking for something and just letting what’s already there come into view.",
+    "As you rest, allow yourself to notice something you can feel, perhaps the sensation of something beneath you … the contact, the pressure. A sound may draw your attention, or a breath, or something else, all on its own.",
+    "Allow yourself some time to do this.",
+    "You may notice a thought arising, about the day, or about whether you’re doing this properly. Whenever you notice a thought, simply allow yourself to re-engage with whatever you've chosen to anchor yourself, and leave the thought unfinished.",
+    "You may find one aspect of what you're doing holding your interest … perhaps a particular detail of a sound, or a sensation, or the act of listening itself … and let your attention stay with it long enough to get curious.",
+    "Allow yourself some time to do this, the time you would give someone you care about who has started to speak and hasn’t found the words yet. You’d stay nearby and listen while they finish their own sentence.",
+    "Now say to yourself the phrase you have chosen, as an invitation. Allow yourself to notice how it is received.",
+    "You may now choose to close your eyes, or soften your gaze, or keep your eyes open as you see fit. You may continue to deepen your listening as you wish, perhaps keeping in mind in the background a sound from the room.",
+    "When you feel ready, count from 5 down to 1, allowing yourself some time for each count.",
+    "5... focus your attention once more on your chosen anchor. 4... allow more of your attention to gather around what you find. 3... leave a little space after the words. 2... listen into that space. Don’t get an answer ready. 1... stay here for a moment, allowing yourself some time to settle in.",
+    "Bring your chosen concern lightly to mind, if you wish, or just stay with your wish for inner contact. Let it be there. Its whole story can wait.",
+    "What am I noticing now?",
+    "Allow yourself to notice what comes to you, if anything, and give it time to take its own form. It might come as sensation, words, pictures, feelings, movements, etc. It may not be clear yet.",
+    "Allow yourself some time to notice, with or without words."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P17: read it slowly; learn its movement; an opening phrase (the one P24 says); keep using the anchor where the words refer to it; out: \"(see link above)\" (there is no link above; the two-hand practice comes later); cold read P14: \"the instructions\" could be this paragraph or the script's own lines; the published: \"don't read the delivery directions aloud\"",
+    "P18: the difference between looking for something and letting what is already there come into view",
+    "P19: the pause; the contact and the pressure; a sound or a breath without your arranging either one",
+    "P21: a thought about whether you're doing this properly; return without finishing the thought first",
+    "P22: the pauses; let attention stay long enough to become curious; meaning, part 1, P22: \"focus your attention on one aspect\" made the step willed; the published lets a detail \"hold your interest\", the script's receptive way",
+    "P23: someone who has begun to speak and hasn't found the words; stay nearby, listening, without finishing their sentence",
+    "P24: say it as an invitation; how it is received; out: \"in your mind's eye\"; march: round 1 took its one break away (\"Allow yourself to notice how it resonates with you\" had been its own sentence); the noticing is its own sentence again",
+    "meaning, part 1, P25: the published keeps \"a sound from the room\" available in the background (a link to the room); \"something you're hearing\" lost the room",
+    "P27: \"Five.\"; four, gather around what you find; three, leave a little space after the words; two, listen into that space without preparing an answer; one, stay here for a moment",
+    "P28: your chosen concern, lightly, or your wish for contact; let it be present without rehearsing its whole story; cold read P25: \"contact\" had been physical in this script (\"a contact on your body\", \"the contact, the pressure\"); the wish is for contact inside",
+    "P29: the question \"What am I noticing now?\", Joel's line to ask",
+    "P30: give the response time to take its own form; there may be nothing clear yet (out: \"in response to your question\", which ba never gave; the question is back as its own line before this one); meaning, part 1, P30: \"There may be nothing clear yet\" was lost, and \"Notice how it comes to you\" read as a new step; the published lists the forms (\"It might be a sensation, a few words, ...\")"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    32
+   ],
+   "paras": [
+    "Already open? Contain before you deepen"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "paras": [
+    "Use this when you're already open (from loveyhuasca, meditation, lucid dreaming, grief, beautiful music, prayer, erotic energy, exhaustion, seeing something incredibly beautiful, etc), and you just need to aim and stabilise what's already there before making it any stronger.",
+    "Recognise to yourself that your state is already open. All you need to do is aim it, stabilise it, and keep it kind.",
+    "Orient yourself: look around and name where you are, what date (or day) it is, feel your body, ground yourself, feel your feet, hands, spine, etc. Make some physical contact with yourself (press your thumbs to the tip of your index fingers, gently but firmly, so you can feel the friction). Focus on the physical sensation.",
+    "Say to yourself, 'Only what I can integrate is welcome now. Anything that’s too much can wait. My body can stay safe. I am here, and my adult self stays present. My inner child does not need to face this on her/his/their own.'",
+    "Once you're oriented, set one intention:",
+    "Say to yourself, 'I ask that you show me the next useful truth/symbol/feeling/question/action, and that you show me only what I am able to integrate.'"
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P33: stabilize before making it stronger; out: \"rather than risking deepening an experience you won't be able to integrate\" (an added claim)",
+    "P34: keep it kind (no need to intensify it stays as ba had it, \"All you need to do\")",
+    "P35: press gently but firmly; meaning, part 2, P35: \"say out loud where you are\" is a new instruction; the published: \"Name where you are\"",
+    "P36: only what can be integrated is welcome (a welcome, not a vow of control); anything too much can wait; the body may stay safe (a wish, not an assertion); stance 4: \"in my adult body, with my adult experience\" ties the adult self to age; the essay keeps adult capacity apart from chronological age (\"Don't decide from the person's chronological age\"; \"Those adult functions still grow through practice\"), the inner-adult conflation Joel asked to check for; the published: \"The adult self remains present\"",
+    "cold read P33: \"choose one thing you want to do\" and one thing follows; the published: \"Once oriented, choose one intention\"",
+    "P38: the next useful truth, symbol, feeling, question or action (not only \"a step I need to take\")"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    39
+   ],
+   "paras": [
+    "Stay awake when your mind likes to escape"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "paras": [
+    "Sit up, open your eyes, feel your feet, let your breath be natural, and say to yourself, 'I recognise that I am not going anywhere. I am only coming closer to what is here.'",
+    "Look around you at something, feel your spine and ask yourself, 'Am I daydreaming to receive guidance, to resolve an emotional state, or to avoid what is actually here?'",
+    "Then say to yourself, 'I ask that if I am receiving guidance, you show me the action I need to take; and if I am avoiding what is here, please bring me gently back into the present, and show me what I am avoiding.'",
+    "If your state of being still is one where you tend to become sleepy, diffuse or mentally escaping, try making your hypnosis more active, since hypnosis can be more alert rather than more relaxed. For example, keeping your eyes open, and making a deliberate movement with one hand as you bring yourself into a clearer state, and then ceasing the deliberate movement and noticing what remains. Don’t try to disappear inward. For example, you could say to yourself:",
+    "'As I keep my eyes open, I press my thumb and forefinger together gently, then release. As I do this, I bring myself into a clearer, more awake state. Again, I press my fingers together, and again I release them, as I bring myself into an even clearer state. One more time... and now I stop pressing my fingers deliberately, and I notice in the first second after I cease my deliberate movement whether there is an echo in my fingers, my breath, my attention, or nowhere at all. I notice, I keep myself upright, and I work at this level.'"
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "hypnosis can become more alert rather than more relaxed",
+     "new": "hypnosis can be more alert rather than more relaxed"
+    }
+   ],
+   "fixes": [
+    "P40: feel the feet; let the breath be natural",
+    "P44: bring me gently into the present",
+    "P45: the source link (hypnosis can be more alert rather than more relaxed); notice what remains, without trying to disappear inward",
+    "P46: press gently; clearer, not sleepier; the echo in the fingers, the breath, the attention, or nowhere at all"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    47
+   ],
+   "paras": [
+    "The two-hand induction"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    48,
+    49,
+    50,
+    51,
+    52
+   ],
+   "paras": [
+    "Put one hand on your heart, and the other on your solar plexus.",
+    "Label the hand on the heart as your Nurturer and the hand on the solar plexus as your vulnerable child.",
+    "Breathe gently...",
+    "As you breathe, say to yourself, “Love above. Child below. Adult present.”",
+    "Then say, “I send love down to the child, and I receive the child’s signal. I send love again, and I listen again.”"
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P48: (the heading's words taken off the line, under the published heading; \"plexus\" spelled right)",
+    "P49: out: \"or feel free to make different associations if you like\" (added)",
+    "P50: breathe gently",
+    "P51: the spoken refrain, as Joel wrote it (a line to say)",
+    "P52: the second spoken line: I send love, I receive the child's signal, I send love again, I listen again (the reader receives and listens)"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    53
+   ],
+   "paras": [
+    "Sleep induction"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    54,
+    55
+   ],
+   "paras": [
+    "Sleep induction has a different goal than inner work, where the adult ultimately needs to come back in to write things down and take actions. When you are going to sleep you want your analytical mind to stand down until the next day, when you have time for revelations. The task is rest.",
+    "For sleep hypnosis, see Nimja’s sleep playlist."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "links": [
+    {
+     "published": "Nimja’s sleep playlist",
+     "new": "Nimja’s sleep playlist"
+    }
+   ],
+   "fixes": [
+    "P54: out: \"For sleep you can cut the last part out\" (a new step); the task is rest; meaning, part 3, and the inner-figure rule of 2026-10-21: \"the Adult\" with a capital reads as a named part; the published: \"In inner work, the adult returns, writes, and acts\"",
+    "P55: Nimja's sleep playlist (the link)"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    56
+   ],
+   "paras": [
+    "Optional fractionation: practice coming back"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    57,
+    58
+   ],
+   "paras": [
+    "There is an optional fractionation you can add to this at some point: you come back toward ordinary awareness, then decide whether to go back in. Used openly, it teaches you that trance has a door in both directions. Say that you're doing it before you do it, so an answer never secretly means \"go deeper\".",
+    "Open your eyes and come back up toward ordinary awareness. Feel the room and decide whether to stop here. If you want to go on, close or soften your eyes again and notice what changes as your attention gathers. Either way is ok, you can stop at either point."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P57: what fractionation is (back toward ordinary awareness, then deciding whether to go back in); used openly, a door in both directions; name it before using it (not \"I always announce\", an invented fact); no answer secretly means \"deeper\"",
+    "P58: open your eyes and come back toward ordinary awareness (a step); feel the room; notice what changes as attention gathers again; you may stop at either point"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    59
+   ],
+   "paras": [
+    "Deepening, if useful"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    60,
+    61,
+    62
+   ],
+   "paras": [
+    "If it will be useful, your attention may gather more. But if it won't, you can stay just as awake as you need to be.",
+    "Pick a simple inner scene to go into when you get there. It can be a room in your heart, a garden, a temple, sitting by a fire with the Protector nearby, at a lake with clear water where you can see the bottom, or a chair where the adult waits, whatever feels right to you. Just pick one.",
+    "Who or what needs to talk first?"
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P60: if it is useful, attention may become more gathered",
+    "P61: a chair where the adult waits (not a chair across from the Adult); meaning, part 3, P61: the scene is \"simple\" in the published (\"Choose one simple scene\"), and \"a chair where the adult waits\" has a lowercase adult (a capital reads as a named part); the same",
+    "P62: who or what needs to speak first"
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    63
+   ],
+   "paras": [
+    "Optional trance depth check"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    64,
+    65,
+    66,
+    67
+   ],
+   "paras": [
+    "There is also an optional way you can check how deep you are in trance...",
+    "As I wait, I let go of the responsibility of making anything happen...",
+    "If it would be useful, my wise subconscious might let a finger in one of my hands twitch, pulse, come up by itself, heat up, tingle, or in some way become noticeable to me when the inner meeting space is ready.",
+    "I will not try to make it happen, I will not pretend it is happening, I will just wait with love and notice...",
+    "Sometimes a finger will move, sometimes the whole hand will heat up, sometimes you will notice your breathing has changed, and sometimes nothing will seem to change at all. Even if something does change, that doesn't prove anything is \"True\", it just means something might be listening."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P64: give up the responsibility of making anything happen",
+    "P65: when the inner meeting space is ready (not permission); out: \"which knows what is best for me in the long term\" (added)",
+    "P66: wait with love and notice (not \"for what is true\")",
+    "cold read P56: \"it is \\\"True\\\"\" and \"it just might be listening\": true about what, and which \"it\" listens; the published: \"None proves truth. At most, something may be listening\""
+   ]
+  },
+  {
+   "kind": "published",
+   "blocks": [
+    68
+   ],
+   "paras": [
+    "A shortcut back into hypnosis"
+   ],
+   "heading": true
+  },
+  {
+   "kind": "emulate",
+   "blocks": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+   ],
+   "paras": [
+    "There is a shortcut way to get into hypnosis...",
+    "Learn the induction above and the coming back down part at the end in full. When you feel comfortable with it, you can do the following....",
+    "My dad used a mudra ( putting two fingers together like the \"Ok\" sign ) to help him relax, including when he drove. That's his experience, not a recommendation to go into a trance while driving. Don't do that. Keep the cue you use to calm down and stay alert separate from the one you use for inward hypnosis.",
+    "Pick a distinctive word, phrase or motion ( optional ) that you will use to go back into hypnosis. Practice saying the word or phrase while doing the motion ( if you picked one ) when you are in a good, familiar hypnotic state, pairing it with that receptive way of listening, and not with a peak of emotion, a child state or a traumatic scene. You are picking the state here, it means whatever you say it means:",
+    "When I deliberately pick a time and an appropriate place to use this word or phrase to begin, I can return to this familiar way of listening. I can change direction or finish.",
+    "Now come all the way back up and at some point when it is appropriate for you to begin a practice, start using this. Give it time: you can gradually shorten the longer induction as you find this useful, or just do the longer induction when this doesn't seem to be enough for what you are working on. You don't have to do it any particular number of times, you don't have to go a certain depth instantly, and you don't need to have any particular sensation when you do this.",
+    "Check to make sure it is useful, that you can turn it on and off at will, and that it stays away when you haven't chosen it. Can you still change direction while you're in it? It must never turn into obeying a narrator, a notification, or anything you might overhear; it is a tool for you to use when you pick to use it. Going into hypnosis faster doesn't mean you should be working on things you aren't ready for.",
+    "Never practice or use this when driving or doing anything where you need to be actively paying attention. It isn't safe to go into a trance where you are listening inwardly when you need to be listening outwardly, even if you have your eyes open and even if you use the \" if it would be useful \" type language.",
+    "To turn it off, just stop rehearsing it, remove it from any recordings you may have, stop having it as an active part of any apps you may use, and go back to the regular induction. Say that you're done using it while you're awake, but keep in mind that saying so doesn't mean the association is gone right away. If the response keeps coming when you don't want it, or you stay disoriented after the state, please get qualified help. If you want to keep it for future use, that's fine, but it's only for beginning a session you choose at a future time, and the state you are in now ends when you come back."
+   ],
+   "run": "HG17-az1",
+   "file": "/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+   "refix": true,
+   "fixes": [
+    "P69: his dad brought two fingers together, including while driving (past; out: \"uses\", \"when he drives\", and \"great for calming down and being more alert\"); his experience, not a recommendation; keep alert calming and inward hypnosis on different cues",
+    "P70: a distinctive cue; pair it with that receptive way of listening; not a peak of emotion, a child state or a traumatic scene (three exclusions, no causal claim); out: \"to instantly go into hypnosis\"; meaning, part 3, P70: the published leads into the statement to say (\"Give it the meaning you choose:\"); the colon makes the next line the thing you say",
+    "P71: set aside time, an appropriate place, a deliberate cue; return to this familiar way of listening; change direction or finish; out: \"From now on\" and \"just as easily\" (a promise)",
+    "P72: gradually shorten the longer induction; meaning, part 3, P72: \"Return fully\" (the published) had become \"come back up\"; meaning, part 3, P72: \"Give it time\" was lost",
+    "P73: it stays away when not chosen; it mustn't become obedience to a narrator, a notification or an overheard word (a check on conditioning); meaning, part 3, P73: the check that changing direction stays workable was lost (\"turn it on and off\" covers returning only)",
+    "P74: never train, test or use it while driving or doing anything requiring active attention",
+    "P75: state your decision while awake; a cancellation sentence doesn't prove the association vanished instantly; persistent unwanted responses or disorientation need qualified help; a retained cue is only for a future, separately chosen session; today's state ends with the return; out: \"something like the below\" (twice, with nothing below) and \"a good start\"; stance 5: qualified help is for what persists (the published: \"Persistent unwanted responses or disorientation need qualified help\"); brief unreality gets grounding in the essay's troubleshooting; march: taking out \"it is a good start\" (an invention) took the paragraph's one break; a permission brings one back, and the published allows a kept cue (\"Any retained cue is for a future, separately chosen session\")"
+   ]
+  }
+ ],
+ "note": "every point the second reader found lost put back in ba's sentences, its inventions taken out, and the changes that alter what a reader does or believes put right (rf-zg/HG17.ba.verify.out.md)"
+}

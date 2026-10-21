@@ -1048,6 +1048,12 @@ def main():
                      'another high freq ai tell"): say what the thing is', s)
             elif re.search(r"\b(?:isn't|aren't|is not|are not)\s+proof\b", n, re.I):
                 flag('REVIEW', 'O43 "isn\'t proof" (Joel 2026-10-18 named "not proof that" a high-frequency AI tell): say what it is instead', s)
+            # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
+            # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
+            # that in my life.").
+            if re.search(r"\bone (?:small |simple )?honest (?:action|step|act|move|thing)s?\b", n, re.I):
+                flag('FAIL', 'O44 "one honest action" (Joel 2026-10-21 17:56: "sounds super ai. i never heard a real person say that in my '
+                     'life"): say the action itself, or leave it to the reader', s)
             # O42 (Joel, 2026-10-17 13:11, community section 16's opening, on the published "while somebody else quietly pays the tax
             # bill": "remove "quietly" that's an ai tell at the end"). O12 had flagged it as a REVIEW, and a REVIEW on published wording
             # was never answered, so it stayed; the third time he named the word (2026-10-10: "using quietly all the time like that is

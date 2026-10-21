@@ -1,0 +1,150 @@
+You check five small fixes to a long self-hypnosis guide by Joel. Each fix is meant to make clear which of the guide's inner figures a sentence means, where a reader could take it for another one.
+
+The guide's map, in its own words:
+- "I'm going to talk about it in terms of three aspects: your Nurturer, your Protector and your Leader/Guru, but I don't mean them as if there were really three people in you. It's you that needs to develop these qualities." These three are the inner adult you build.
+- "One important voice to become aware of when approaching your inner child is your inherited parent. This is the voice of your parent(s) that you internalized as a child, based on how they treated you. This is not the same as your inner adult (Nurturer, Protector, Leader/Guru) that you will eventually build up. Often this inherited parent acts as a critic or warden ..." Joel's newer name for it is the "inherited inner parent", and for the adult you build "the more consciously sculpted adult".
+- The guide also has protector PARTS (the "guards": parts that protect the inner child by numbness, anger, distraction and so on; "the anxiety comes from a protector part of you, who is trying to help you, but who believes you are in danger"). They are not the inner adult's Protector role.
+
+For each fix below you get the section, the paragraphs before the edited one, the edited paragraph as it now reads, the paragraph after it, the words before and after the fix, and what the published guide had there (an earlier, more polished version of the same passage; the guide now uses plainer words, and that difference is not your concern).
+
+For each fix, answer three things, briefly:
+1. WHO: after the fix, which figure does the sentence mean, and can an ordinary reader still take it for another one? Say which, and why, or "clear".
+2. READS: reading the edited paragraph in place as an ordinary reader of a blog guide would, is there anything you can't follow (a sentence, a word whose referent is unclear, a jump)? Give the reader's best reading of words that are loose but clear, and leave them out when that reading is plainly what the writer means; read "can't" and similar the way people talk.
+3. CHANGED: compared with the words before the fix, does the fix change anything a reader would do or believe, beyond making clear who is meant? Compare with the published guide only to say whether the fix moves the passage away from what the published guide meant.
+End each fix with one line, `VERDICT: OK` (clear, reads fine, nothing changed beyond who is meant) or `VERDICT: FLAG` (with the reason in a few words).
+
+Item 6 proposes no fix. Say which figure "my Protector" in its paragraph most likely means (the Protector of the inner adult, or a protector part), how sure you are, and what in the text decides it. End it with `READING: ROLE`, `READING: PART` or `READING: EITHER`.
+
+Judge meaning and clarity only, not style or whether the writing is good, and don't rewrite anything. Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md`, one "## Fix N" or "## Item 6" part each, then reply with only the six verdict lines. Don't read any other file, don't run commands, and don't use the web. Keep your reasoning short.
+
+## Fix 1 (HG14-cf-addressee)
+
+Section: The inner child, the guards, and the three inner adults (Working with protectors)
+
+BEFORE IT:
+Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures, they are you experiencing what is often a very charming protector or guard.
+
+One important voice to become aware of when approaching your inner child is your inherited parent. This is the voice of your parent(s) that you internalized as a child, based on how they treated you. This is not the same as your inner adult (Nurturer, Protector, Leader/Guru) that you will eventually build up. Often this inherited parent acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, this voice may jump in to say that what you’re doing is “fake”.
+
+THE EDITED PARAGRAPH:
+(To the protector: “I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?”)
+
+AFTER IT:
+If necessary take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will get spiritual bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…..)
+
+THE WORDS BEFORE THE FIX:
+(“I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?)
+
+THE WORDS AFTER THE FIX:
+(To the protector: “I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?”)
+
+THE PUBLISHED GUIDE HAD (an earlier version of the same passage):
+“I notice you. You are trying to protect something. I want to understand. What are you afraid would happen if you stopped?”
+
+## Fix 2 (HG20-cf-roles)
+
+Section: Let the next response guide you (Offer the care that is actually wanted)
+
+BEFORE IT:
+Offer the care that is actually wanted
+
+If any “younger” parts come up, offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose. You don’t have to consider them literally “younger”, nor do you have to ask them why they are there or what happened to them. If you can identify any “protector” parts, talk to them and find out what they are concerned about. All of them are welcome to the “meeting”. You don’t have to get rid of any of them.
+
+THE EDITED PARAGRAPH:
+If you feel that it would be useful to bring in a “Nurturer”, “Protector”, “Leader”, etc to help you either change the “tone” of the interaction, set boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have to talk to them, just use them to get whatever function you need that you aren’t able to do on your own. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.
+
+AFTER IT:
+Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualising someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.
+
+THE WORDS BEFORE THE FIX:
+bring in a “nurturer”, “protector”, “leader”, etc to help you
+
+THE WORDS AFTER THE FIX:
+bring in a “Nurturer”, “Protector”, “Leader”, etc to help you
+
+THE PUBLISHED GUIDE HAD (an earlier version of the same passage):
+The Nurturer can change the tone; the Protector can carry out a boundary; the Leader can point toward the life you want.
+
+## Fix 3 (HG24-cf-grownup)
+
+Section: Troubleshooting (It feels fake)
+
+BEFORE IT:
+Do you know what exactly feels fake - the words, an image, what you are expecting, the role etc? It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.
+
+You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?'
+
+THE EDITED PARAGRAPH:
+It could also be the voice of your inherited inner parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own.
+
+AFTER IT:
+If the fake feeling is telling you that you don't have the 'grown up' ability to do this yet, then don't try and convince yourself by using an inner voice. As long as you have enough observing ego to do this, try and borrow what you need from someone who you can imagine is 'good enough' to lend it to you. This could be a family member, friend, famous person etc. What you need might be warmth, boundary, direction etc. Try out something which rings true to you, whether it is a sentence, an action etc, and see how you get on.
+
+THE WORDS BEFORE THE FIX:
+It could also be an inner voice of a parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice.
+
+THE WORDS AFTER THE FIX:
+It could also be the voice of your inherited inner parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own.
+
+THE PUBLISHED GUIDE HAD (an earlier version of the same passage):
+The voice may be the inherited parent enforcing an old belonging rule. Don’t argue with it. Ask which rule it is enforcing and what ordinary evidence would make the new adult voice more believable.
+
+## Fix 4 (HG36-cf-protector)
+
+Section: Appendix G: Altered states (Stabilize before you interpret)
+
+BEFORE IT:
+Stabilize before you interpret
+
+Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (i.e. when you're loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, etc, etc, etc around plant medicine). Sometimes you may OPEN yourself up to things FASTER than you are able to put it into context with your adult self.
+
+THE EDITED PARAGRAPH:
+So what you think may be an altered state of consciousness that's meaningful, may or may not actually be meaningful - it could be your inner child, it could be a protector part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the "download", regardless of how "bad" you feel, it doesn't necessarily mean what you think it does!
+
+AFTER IT:
+Before you even THINK about interpreting what your altered state of consciousness is, ask yourself something simpler:
+
+THE WORDS BEFORE THE FIX:
+it could be your inner child, it could be a Protector, it could be all of the things
+
+THE WORDS AFTER THE FIX:
+it could be your inner child, it could be a protector part, it could be all of the things
+
+THE PUBLISHED GUIDE HAD (an earlier version of the same passage):
+Sometimes the inner child is finally speaking. Sometimes a Protector is showing fear, or shame, grief, anger, longing, and other buried material are asking for care.
+
+## Fix 5 (HG37-cf-nurturer)
+
+Section: Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens” (A response check, not a verdict about what it is)
+
+BEFORE IT:
+If, however, you feel like you’re stable enough to stay present, check in with yourself and see what’s best to do. Again, it doesn’t matter if it’s a demon or not. Put your hand on your heart if that feels okay, breathe comfortably, and stay aware of the room.
+
+Internalize the fact that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way. Keep in mind that you don’t have to do what it tells you to do.
+
+THE EDITED PARAGRAPH:
+If you feel vulnerable, if you feel tightness in your throat, if you feel sadness or fear or like you’re trying to protect something, call upon your Nurturer. If you don’t feel better, or if it continues being hostile towards you, stop trying to deal with it and return to your body and the room.
+
+AFTER IT:
+Internalize the fact that you don’t have to know where it comes from. Check in with yourself about whether or not this is helpful. You don’t have to find out if it’s a protector immediately, and you may not be able to comfort it quickly, but whether warmth or distance helps, that doesn’t prove what it is.
+
+THE WORDS BEFORE THE FIX:
+if you feel sadness or fear or a need to protect yourself from it, call upon your Nurturer.
+
+THE WORDS AFTER THE FIX:
+if you feel sadness or fear or like you’re trying to protect something, call upon your Nurturer.
+
+THE PUBLISHED GUIDE HAD (an earlier version of the same passage):
+If vulnerability appears—a knot in the throat, sadness, fear, or a sense of trying to protect something—you can bring in the Nurturer.
+
+## Item 6 (no fix proposed)
+
+Section: Appendix B: NLP without turning yourself into a sales seminar (Using synchronicity as your own wake-up bell)
+
+THE PARAGRAPH:
+Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing is not proof for what I'm interpreting from the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?) and I go into the highest state I can get into where I can objectively and clearly see what is going on from that situation from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If I am in a negative state, I check if it is a message from my Inner Child, my Protector or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that needs to be taken care of) or if there is something that needs to be done about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
+
+LATER IN THE SAME SECTION (installing the cue):
+Ask yourself: "What does my Nurturer think about this?", "What does my Protector think about this?", "What does my Leader think about this?"
+
+THE PUBLISHED GUIDE HAD: "A negative state may still contain an inner-child need, a Protector warning, grief, a bodily problem, or a real demand for action."

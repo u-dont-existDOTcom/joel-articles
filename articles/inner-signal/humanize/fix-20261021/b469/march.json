@@ -1,0 +1,98 @@
+{
+ "HG18-count-feet": {
+  "was": [
+   "S S S S S S"
+  ],
+  "new": [
+   "S S S S S S"
+  ]
+ },
+ "HG18-stopped-press": {
+  "was": [
+   "S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG32-prose": {
+  "was": [
+   "S",
+   "S S S S S S S",
+   "S S S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S S S",
+   "S S S S"
+  ],
+  "new": [
+   "S S S S S S",
+   "S S S S",
+   "S S S S",
+   "S S S",
+   "S S S",
+   "S S S S",
+   "S S S S"
+  ]
+ },
+ "HG14-cf-addressee": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ },
+ "HG20-cf-roles": {
+  "was": [
+   "S S S S"
+  ],
+  "new": [
+   "S S S S"
+  ]
+ },
+ "HG24-cf-grownup": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG36-cf-protector": {
+  "was": [
+   "S S B"
+  ],
+  "new": [
+   "S S B"
+  ]
+ },
+ "HG37-cf-nurturer": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG24-cf-anxious": {
+  "was": [
+   "S S S"
+  ],
+  "new": [
+   "S S S"
+  ]
+ }
+}

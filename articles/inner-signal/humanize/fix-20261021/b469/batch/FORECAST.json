@@ -1,0 +1,152 @@
+{
+ "HG18-count-feet": {
+  "lineage": "HG18-p3",
+  "call": "Human",
+  "chance": 0.55,
+  "why": "the count as installed read Human in 4.0 (466g, whole and every paragraph); the edit is small (\"these five steps\", \"and what it's resting on\", a stray quotation mark out); but it's five numbered steps in a row, and 4.1 reads a run of parallel steps red",
+  "tells": "five numbered imperative steps, each a short parallel clause (\"feel your breathing return to normal\")",
+  "human_tells": "\"1...\", \"(of your choice)\", \"This session is now over.\"",
+  "words": 64,
+  "first_words": "Then count up, using these five steps: 1...feel your body again and"
+ },
+ "HG18-stopped-press": {
+  "lineage": "HG18-p5",
+  "call": "Human",
+  "chance": 0.6,
+  "why": "one plain sentence added after the installed one, checked with the paragraph before it, which read Human in 4.0 (466g); that paragraph is a run of short instructions, the pattern 4.1 reads red",
+  "tells": "a run of short instructions (\"Look to your left and your right. Look at something near, and something far. Move around a bit ...\"), and one more at the end",
+  "human_tells": "\"(or date)\", \"Don't just assume it because you've done the count.\", \"for some reason\"",
+  "words": 128,
+  "first_words": "When you come out, remind yourself what day (or date) it is."
+ },
+ "HG32-prose-p1": {
+  "lineage": "HG32-c-p1",
+  "call": "AI",
+  "chance": 0.4,
+  "why": "Appendix C as published read AI, high, as one window with the end of Appendix B in the whole guide (4.1), and AI 1.00 alone in 4.0; the opening line and the statement to say in one paragraph: Joel's catch-all, his lead-in, \"Let me slow down\", the body line as a statement and the last test as a question; still a list of six kinds of influence and an abstract list of four",
+  "tells": "\"love, truth, humility and ordinary life\"; a list of six kinds of influence; \"I don't have to ... I don't have to\"",
+  "human_tells": "\"stuff like that\", \"Okay,\", \"Let me slow down\", \"taking for granted\", the question",
+  "words": 102,
+  "first_words": "Use this checklist when something is pressing on you too hard, whether"
+ },
+ "HG32-prose-p2": {
+  "lineage": "HG32-c-p2",
+  "call": "AI",
+  "chance": 0.35,
+  "why": "Appendix C as published read AI, high, as one window with the end of Appendix B in the whole guide (4.1), and AI 1.00 alone in 4.0; the statement's four tests in four shapes, one a question, checked with the paragraph before; still four tests that close the statement like aphorisms",
+  "tells": "a run of tests (\"If it's true ... Would real love mind ... real guidance will still be there ... Anything that's really for me\")",
+  "human_tells": "\"after I sleep on it\", \"Would real love mind my boundaries?\"",
+  "words": 144,
+  "first_words": "Use this checklist when something is pressing on you too hard, whether"
+ },
+ "HG32-prose-p3": {
+  "lineage": "HG32-c-p3",
+  "call": "AI",
+  "chance": 0.4,
+  "why": "Appendix C as published read AI, high, as one window with the end of Appendix B in the whole guide (4.1), and AI 1.00 alone in 4.0; the signs as statements and one question, one list ending on a catch-all and the rest split; still a paragraph of signs, most of them abstract nouns",
+  "tells": "a run of signs; abstract nouns (urgency, secrecy, shame); \"Demands ... demand\"",
+  "human_tells": "\"that kind of thing\", \"Is there a sexual charge, or spiritual superiority?\", \"Be wary if it\"",
+  "words": 65,
+  "first_words": "Before acting on it, look for the usual signs, like urgency, secrecy,"
+ },
+ "HG32-prose-p4": {
+  "lineage": "HG32-c-p4",
+  "call": "AI",
+  "chance": 0.4,
+  "why": "Appendix C as published read AI, high, as one window with the end of Appendix B in the whole guide (4.1), and AI 1.00 alone in 4.0; the warnings in loose spoken shapes (\"Same if ...\", \"Or if ...\") with a particular (\"like the dishes and your friends don't matter anymore\"), checked with the signs before them",
+  "tells": "the signs paragraph before; three warnings in a row",
+  "human_tells": "\"Same if\", \"the dishes and your friends\"",
+  "words": 110,
+  "first_words": "Before acting on it, look for the usual signs, like urgency, secrecy,"
+ },
+ "HG32-prose-p5": {
+  "lineage": "HG32-c-p5",
+  "call": "AI",
+  "chance": 0.45,
+  "why": "Appendix C as published read AI, high, as one window with the end of Appendix B in the whole guide (4.1), and AI 1.00 alone in 4.0; the warnings with the child part and the adult self (a question), short sentences",
+  "tells": "three warnings in a row before it; \"Notice whether\"",
+  "human_tells": "\"Being rescued counts too.\", \"Same if\", the question",
+  "words": 69,
+  "first_words": "It’s a warning if your choices are being narrowed. Same if asking"
+ },
+ "HG32-prose-p6": {
+  "lineage": "HG32-c-p6",
+  "call": "AI",
+  "chance": 0.45,
+  "why": "Appendix C as published read AI, high, as one window with the end of Appendix B in the whole guide (4.1), and AI 1.00 alone in 4.0; the child part with what to do when you see several: imperatives, then \"Just come back to the room and your body for a while\", then the list ending on \"and so on\"",
+  "tells": "a run of imperatives (\"slow down. Don't ... don't ... Just come back ... Then eat, sleep\")",
+  "human_tells": "\"and so on\", \"for a while\", \"Being rescued counts too.\"",
+  "words": 69,
+  "first_words": "Notice whether your child part is being seduced or scared. Being rescued"
+ },
+ "HG32-prose-p7": {
+  "lineage": "HG32-c-p7",
+  "call": "AI",
+  "chance": 0.4,
+  "why": "Appendix C as published read AI, high, as one window with the end of Appendix B in the whole guide (4.1), and AI 1.00 alone in 4.0; the good and bad guide with a question in the middle (\"And can they take your no? A bad guide can't.\"), less balanced than the four parallel sentences; still a good/bad contrast",
+  "tells": "a good/bad guide contrast; a list of labels",
+  "human_tells": "\"you name it\", \"And can they take your no?\"",
+  "words": 54,
+  "first_words": "You can tell a good guide because your adult self gets stronger"
+ },
+ "HG14-cf-addressee": {
+  "lineage": "HG14-cf1",
+  "call": "Human",
+  "chance": 0.65,
+  "why": "three words and a closing quotation mark added to a script line; both paragraphs read Human, high, in the whole guide (4.1, window 36), but never alone in 4.1",
+  "tells": "the inherited-parent paragraph explains in a run (\"This is ... This is not the same as ... Often ...\")",
+  "human_tells": "\"(parent(s)\", \"by…..?\", \"not to be “needy”\", \"etc.\"",
+  "words": 144,
+  "first_words": "One important voice to become aware of when approaching your inner child"
+ },
+ "HG20-cf-roles": {
+  "lineage": "HG20-cf2",
+  "call": "Human",
+  "chance": 0.6,
+  "why": "three capitals and one clause said plainly (\"and if you can't do one yet, borrow it\"); the paragraph read Human, high, in the whole guide (4.1, window 66)",
+  "tells": "a list of three uses (\"change the “tone” ..., set boundaries, or help you figure out\"); capitalized role names in quotes",
+  "human_tells": "\"etc to help you\", \"in a better fashion\", \"feel free to do so\"",
+  "words": 99,
+  "first_words": "If you feel that it would be useful to bring in your"
+ },
+ "HG24-cf-grownup": {
+  "lineage": "HG24-cf3",
+  "call": "Human",
+  "chance": 0.65,
+  "why": "Joel's name for the internalized voice and \"of your own\"; the paragraph read Human, high, in the whole guide (4.1, window 71)",
+  "tells": "\"inherited inner parent\" is a term; \"it isn't useful to argue with this part, but find out\"",
+  "human_tells": "\"that you are picking up\", \"'grown up' voice\", \"Again,\"",
+  "words": 69,
+  "first_words": "It could also be the voice of your inherited inner parent that"
+ },
+ "HG36-cf-protector": {
+  "lineage": "HG36-cf5",
+  "call": "Human",
+  "chance": 0.75,
+  "why": "\"a protector part\" for \"a Protector\"; the paragraph read Human, high, in the whole guide (4.1, window 30 of part B)",
+  "tells": "three \"regardless of\" clauses in a row",
+  "human_tells": "\"etc, etc, etc\", \"/ sad about / angry about /\", the exclamation",
+  "words": 108,
+  "first_words": "So what you think may be an altered state of consciousness that's"
+ },
+ "HG24-cf-anxious": {
+  "lineage": "HG24-cf7",
+  "call": "Human",
+  "chance": 0.85,
+  "why": "two letters lowercased in a paragraph that read Human, high, in the whole guide (4.1, window 71)",
+  "tells": "a long run-on instruction",
+  "human_tells": "\"Little parts\", \"scream at you\", the dash at its start",
+  "words": 86,
+  "first_words": "-Tell your Little parts and protector parts that you’re there for your"
+ },
+ "HG37-cf-nurturer": {
+  "lineage": "HG37-cf6",
+  "call": "Human",
+  "chance": 0.65,
+  "why": "the published sign put back in plain words (\"like you're trying to protect something\"); the paragraph read Human, high, in the whole guide (4.1, window 30 of part B)",
+  "tells": "three \"if you feel\" clauses in a row",
+  "human_tells": "\"call upon your Nurturer\", \"stop trying to deal with it\"",
+  "words": 55,
+  "first_words": "If you feel vulnerable, if you feel tightness in your throat, if"
+ }
+}

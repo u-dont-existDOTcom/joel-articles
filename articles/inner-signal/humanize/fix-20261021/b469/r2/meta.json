@@ -1,0 +1,192 @@
+{
+ "edits": [
+  {
+   "key": "HG18-count-feet",
+   "lineage": "HG18-p3",
+   "section": "HG18",
+   "kind": "edit",
+   "old": "Then count up, using the five steps listed above: 1...feel your body again, feel your weight (of your choice). 2...feel your breathing return to normal. 3...become aware of your surroundings, know where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.\"",
+   "new": "Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...become aware of your surroundings, know where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.",
+   "published": "One — feel the body’s contact and chosen weight. Two — let the breath return to its ordinary rhythm. Three — hear the room and name where you are. Four — move fingers, toes, shoulders, and eyes. Five — eyes open, present, ordinary, clear. The session has ended. ... If a recording stops unexpectedly: say, “The recording stopped and the session is over.” Open your eyes, name the location and day, press your feet or hands into a surface, move, look around, and use the five-step count.",
+   "diagnosis": "not a 4.1 fix: the count's first step gets back the published \"feel the body's contact\" (\"and what it's resting on\"), which the installed Human version (466g HG18-smp1) dropped (question 4; Joel, 17:56: \"as long as we don't lose anything\"). And the cold read's two catches in the same paragraph (r1/SENSE-HG18.md P3): \"the five steps listed above\" pointed at nothing above (they follow the colon), now \"these five steps\"; a closing quotation mark with no opening one, a typo, out. Round 1 had put the pressing in this step instead, which the meaning check read as an addition to every count (r1/VERIFY.md pair 1)"
+  },
+  {
+   "key": "HG18-stopped-press",
+   "lineage": "HG18-p5",
+   "section": "HG18",
+   "kind": "edit",
+   "old": "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own.",
+   "new": "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own. Press your feet or hands into a surface first.",
+   "published": "If a recording stops unexpectedly: say, “The recording stopped and the session is over.” Open your eyes, name the location and day, press your feet or hands into a surface, move, look around, and use the five-step count.",
+   "diagnosis": "not a 4.1 fix: the one point the installed Human version (466g HG18-smp1) lost from the published steps, pressing your feet or hands into a surface when a recording stops (question 4; Joel, 17:56: \"as long as we don't lose anything\"), back where the published text had it, as a sentence of its own after the installed one (splitting that sentence instead made the in-context linter count its installed \"you can say to yourself\" as mine, E41, and so did \"Start by pressing\", a coach phrase); \"do the above\" already carries the rest of the published list (eyes, location and day, moving, looking around, the count)"
+  },
+  {
+   "key": "HG32-prose",
+   "lineage": "HG32-c",
+   "section": "HG32",
+   "kind": "rewrite",
+   "old": "Use this checklist when a person, advertisement, ideology, spiritual teaching, romantic pull, or inner voice is pressing too hard.\n\n“I notice influence is happening. I do not need to obey it or attack it. I can slow down. I can ask what is being presupposed. I can ask who benefits. I can notice what my body is signaling without assuming what it proves. I can ask what love, truth, humility, and ordinary life would require.\n\nIf this is true, it will survive questions. If this is love, it will survive boundaries. If this is guidance, it will survive sleep. If this is for me, it will not require me to abandon my adult self.”\n\nBefore acting, ask:\n\nIs there urgency?\n\nIs there secrecy?\n\nIs there shame?\n\nIs there a threat of exclusion?\n\nIs there a promise of specialness?\n\nIs there sexual charge?\n\nIs there spiritual superiority?\n\nIs there a demand for money, sex, loyalty, silence, or obedience?\n\nIs there a narrowing of choices?\n\nIs questioning treated as betrayal?\n\nIs resistance pathologized?\n\nIs ordinary life being downgraded?\n\nIs the child part being seduced, scared, or rescued?\n\nIs the adult self still allowed to say no?\n\nSeveral yes answers mean slow down. Don’t deepen trance or make an irreversible decision. Return to the room, body, food, sleep, time, and counsel.\n\nA good guide increases your adult self. A bad guide replaces it. A good guide can tolerate your no. A bad guide calls your no resistance, ego, fear, low vibration, trauma, sin, or proof that you need more of their guidance.",
+   "new": "Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I don’t have to decide yet what that proves. And what would love, truth, humility and ordinary life need from me here?\n\nIf it’s true, it can handle my questions. Would real love mind my boundaries? And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”\n\nBefore acting on it, look for the usual signs, like urgency, secrecy, shame, a threat that you’ll be left out or a promise that you’re special, that kind of thing. Is there a sexual charge, or spiritual superiority? Be wary if it demands money or sex from you. Demands for your loyalty or your silence are signs too, and so is any demand for obedience.\n\nIt’s a warning if your choices are being narrowed. Same if asking questions gets treated as betrayal, or your resistance gets treated like a pathology. Or if ordinary life starts to look small next to it, like the dishes and your friends don’t matter anymore.\n\nNotice whether your child part is being seduced or scared. Being rescued counts too. And is your adult self still allowed to say no?\n\nIf you see several of these, slow down. Don’t go deeper into trance, and don’t make a decision you can’t undo. Just come back to the room and your body for a while. Then eat, sleep, give it time, get some counsel and so on.\n\nYou can tell a good guide because your adult self gets stronger with them. And can they take your no? A bad guide can’t. They take your adult self’s place, and they’ll call your no resistance, ego, fear, low vibration, trauma, sin, you name it, or proof that you need more of their guidance.",
+   "published": "Use this checklist when a person, advertisement, ideology, spiritual teaching, romantic pull, or inner voice is pressing too hard.\n\n“I notice influence is happening. I do not need to obey it or attack it. I can slow down. I can ask what is being presupposed. I can ask who benefits. I can notice what my body is signaling without assuming what it proves. I can ask what love, truth, humility, and ordinary life would require.\n\nIf this is true, it will survive questions. If this is love, it will survive boundaries. If this is guidance, it will survive sleep. If this is for me, it will not require me to abandon my adult self.”\n\nBefore acting, ask:\n\nIs there urgency?\n\nIs there secrecy?\n\nIs there shame?\n\nIs there a threat of exclusion?\n\nIs there a promise of specialness?\n\nIs there sexual charge?\n\nIs there spiritual superiority?\n\nIs there a demand for money, sex, loyalty, silence, or obedience?\n\nIs there a narrowing of choices?\n\nIs questioning treated as betrayal?\n\nIs resistance pathologized?\n\nIs ordinary life being downgraded?\n\nIs the child part being seduced, scared, or rescued?\n\nIs the adult self still allowed to say no?\n\nSeveral yes answers mean slow down. Don’t deepen trance or make an irreversible decision. Return to the room, body, food, sleep, time, and counsel.\n\nA good guide increases your adult self. A bad guide replaces it. A good guide can tolerate your no. A bad guide calls your no resistance, ego, fear, low vibration, trauma, sin, or proof that you need more of their guidance.",
+   "diagnosis": "question 2, c (Joel, 17:56): the general list of fourteen questions becomes three short paragraphs of prose (every sign kept, as statements in different shapes; where a list is needed it ends on a catch-all, his move, E125), and the lines around it are said plainly: the opening line leads with \"pressing on you too hard\"; the statement to say gets the guide's own lead-in (\"You could say something like,\" as in \"Love doesn't have to wait for trust\") and plain words (\"taking for granted\" for \"presupposed\"); its four tests keep their pairs (truth and questions, love and boundaries, guidance and sleep, what is for me and the adult self) in four different shapes; the good and bad guide in two sentences instead of four parallel ones. The hypnosis-specific audit and its last line stay as published"
+  },
+  {
+   "key": "HG14-cf-addressee",
+   "lineage": "HG14-cf1",
+   "section": "HG14",
+   "kind": "edit",
+   "old": "(“I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?)",
+   "new": "(To the protector: “I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?”)",
+   "published": "“I notice you. You are trying to protect something. I want to understand. What are you afraid would happen if you stopped?”",
+   "diagnosis": "the inner-adult sweep (fix-20261021/CONFLATION-SWEEP.md, finding 1; Joel, 17:56: \"check the guide for that conflation\"): the script comes right after the paragraph on the inherited parent, which ends on \"this voice may jump in to say that what you're doing is “fake”\", so \"I notice you\" reads as said to that voice, and the lines after it (\"if you stopped protecting me\", \"they don't have to stop protecting you\") then hand the inherited parent the protector's job and leave to carry on. The published script said it to the protector (\"You are trying to protect something\"). Three words name who it's said to, a stage direction like the script's own \"(Now talk to the protector.\"; the closing quotation mark that was missing goes in"
+  },
+  {
+   "key": "HG20-cf-roles",
+   "lineage": "HG20-cf2",
+   "section": "HG20",
+   "kind": "edit",
+   "old": "bring in a “nurturer”, “protector”, “leader”, etc to help you either change the “tone” of the interaction, set boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have to talk to them, just use them to get whatever function you need that you aren’t able to do on your own.",
+   "new": "bring in a “Nurturer”, “Protector”, “Leader”, etc to help you either change the “tone” of the interaction, set boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have to talk to them, just use them to get whatever function you need, and if you can’t do one yet, borrow it.",
+   "published": "The Nurturer can change the tone; the Protector can carry out a boundary; the Leader can point toward the life you want. They don’t each need a speech. When a capacity isn’t available, borrow that one function. Use the Witness only if you need it to begin; don’t restart a step you can already do.",
+   "diagnosis": "the inner-adult sweep (fix-20261021/CONFLATION-SWEEP.md, finding 2; Joel, 17:56: \"check the guide for that conflation\"): the sentence before says \"If you can identify any “protector” parts, talk to them\", in the same lowercase, quoted form, so \"bring in a “protector”\" reads as one more of those guards. The published text and the rest of the guide give the three roles capitals. And the stance check's conflict in the same paragraph (r1/STANCE.md, conflict 1): \"use them to get whatever function you need that you aren't able to do on your own\" makes the three roles outside helpers, where the guide has them as your own adult functions (\"I don't mean them as if there were really three people in you\") and a missing one borrowed (the published \"When a capacity isn't available, borrow that one function\"); now \"and if you can't do one yet, borrow it\""
+  },
+  {
+   "key": "HG24-cf-grownup",
+   "lineage": "HG24-cf3",
+   "section": "HG24",
+   "kind": "edit",
+   "old": "It could also be an inner voice of a parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice.",
+   "new": "It could also be the voice of your inherited inner parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own.",
+   "published": "The voice may be the inherited parent enforcing an old belonging rule. Don’t argue with it. Ask which rule it is enforcing and what ordinary evidence would make the new adult voice more believable.",
+   "diagnosis": "the inner-adult sweep (fix-20261021/CONFLATION-SWEEP.md, finding 3; Joel, 17:56: \"check the guide for that conflation\"), the pattern Joel fixed in \"When “your voice” is everybody else’s voice\": the parent's voice was just named, so \"a more believable 'grown up' voice\" can read as a more convincing version of that same voice (a parent is a grown-up whose voice you picked up). The published text says \"the new adult voice\". Two changes, as in his fix: his name for the internalized voice, \"inherited inner parent\", and \"of your own\" for the adult one"
+  },
+  {
+   "key": "HG36-cf-protector",
+   "lineage": "HG36-cf5",
+   "section": "HG36",
+   "kind": "edit",
+   "old": "it could be your inner child, it could be a Protector, it could be all of the things",
+   "new": "it could be your inner child, it could be a protector part, it could be all of the things",
+   "published": "Sometimes the inner child is finally speaking. Sometimes a Protector is showing fear, or shame, grief, anger, longing, and other buried material are asking for care.",
+   "diagnosis": "the inner-adult sweep (fix-20261021/CONFLATION-SWEEP.md, finding 5; Joel, 17:56: \"check the guide for that conflation\"): what comes up in an altered state \"to be dealt with\", next to the inner child, is one of the guards (Appendix D: \"the anxiety comes from a protector part of you, who is trying to help you, but who believes you are in danger\"), not the Protector you build, but the capital P (in the published text too: \"a Protector is showing fear\") is the guide's spelling for the role. \"a protector part\", the guide's own words for a guard"
+  },
+  {
+   "key": "HG37-cf-nurturer",
+   "lineage": "HG37-cf6",
+   "section": "HG37",
+   "kind": "edit",
+   "old": "if you feel sadness or fear or a need to protect yourself from it, call upon your Nurturer.",
+   "new": "if you feel sadness or fear or like you’re trying to protect something, call upon your Nurturer.",
+   "published": "If vulnerability appears—a knot in the throat, sadness, fear, or a sense of trying to protect something—you can bring in the Nurturer.",
+   "diagnosis": "the inner-adult sweep (fix-20261021/CONFLATION-SWEEP.md, finding 6; Joel, 17:56: \"check the guide for that conflation\"): \"a need to protect yourself from it\" asks for protection from the presence, the Protector's job in the guide's map (\"Nurturer warms, Protector makes it safe\"), so sending it to the Nurturer swaps the roles. The published sentence has \"a sense of trying to protect something\" among the signs of vulnerability, which the Nurturer meets; this puts it back in plain words"
+  }
+ ],
+ "texts": {
+  "HG18-count-feet": {
+   "section": "HG18",
+   "lineage": "HG18-p3",
+   "words": 66,
+   "edit": "HG18-count-feet",
+   "alone": true
+  },
+  "HG18-stopped-press": {
+   "section": "HG18",
+   "lineage": "HG18-p5",
+   "words": 122,
+   "edit": "HG18-stopped-press",
+   "alone": false
+  },
+  "HG32-prose-p1": {
+   "section": "HG32",
+   "lineage": "HG32-c-p1",
+   "words": 103,
+   "edit": "HG32-prose",
+   "alone": true
+  },
+  "HG32-prose-p2": {
+   "section": "HG32",
+   "lineage": "HG32-c-p2",
+   "words": 143,
+   "edit": "HG32-prose",
+   "alone": false
+  },
+  "HG32-prose-p3": {
+   "section": "HG32",
+   "lineage": "HG32-c-p3",
+   "words": 65,
+   "edit": "HG32-prose",
+   "alone": true
+  },
+  "HG32-prose-p4": {
+   "section": "HG32",
+   "lineage": "HG32-c-p4",
+   "words": 110,
+   "edit": "HG32-prose",
+   "alone": false
+  },
+  "HG32-prose-p5": {
+   "section": "HG32",
+   "lineage": "HG32-c-p5",
+   "words": 69,
+   "edit": "HG32-prose",
+   "alone": false
+  },
+  "HG32-prose-p6": {
+   "section": "HG32",
+   "lineage": "HG32-c-p6",
+   "words": 69,
+   "edit": "HG32-prose",
+   "alone": false
+  },
+  "HG32-prose-p7": {
+   "section": "HG32",
+   "lineage": "HG32-c-p7",
+   "words": 54,
+   "edit": "HG32-prose",
+   "alone": true
+  },
+  "HG14-cf-addressee": {
+   "section": "HG14",
+   "lineage": "HG14-cf1",
+   "words": 144,
+   "edit": "HG14-cf-addressee",
+   "alone": false
+  },
+  "HG20-cf-roles": {
+   "section": "HG20",
+   "lineage": "HG20-cf2",
+   "words": 105,
+   "edit": "HG20-cf-roles",
+   "alone": true
+  },
+  "HG24-cf-grownup": {
+   "section": "HG24",
+   "lineage": "HG24-cf3",
+   "words": 69,
+   "edit": "HG24-cf-grownup",
+   "alone": true
+  },
+  "HG36-cf-protector": {
+   "section": "HG36",
+   "lineage": "HG36-cf5",
+   "words": 108,
+   "edit": "HG36-cf-protector",
+   "alone": true
+  },
+  "HG37-cf-nurturer": {
+   "section": "HG37",
+   "lineage": "HG37-cf6",
+   "words": 55,
+   "edit": "HG37-cf-nurturer",
+   "alone": true
+  },
+  "HG18-w469": {
+   "section": "HG18",
+   "words": 528
+  },
+  "HG32-w469": {
+   "section": "HG32",
+   "words": 503
+  }
+ }
+}

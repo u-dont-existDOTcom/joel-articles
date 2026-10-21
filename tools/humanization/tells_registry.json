@@ -2389,6 +2389,43 @@
     }
    ],
    "reason": "Whether a scenario is generic or is the author's own moment is a reading of who and when the text is about; his fix kept \"imagine\" and named the person and the morning (\"imagine Chantress Seba the next morning opening her inbox\"), which read dark green, so no word can decide it."
+  },
+  {
+   "id": "W94",
+   "tell": "\"one honest action\" (the hypnosis guide's return steps: \"one honest action\" among what you go back to)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261021/joel-20261021-1756-message.txt",
+     "quote": "especially \"ONE HONEST ACTION\" sounds super ai. i never heard a real person say that in my life."
+    }
+   ],
+   "rule": "O44",
+   "example": "When the count ends, come back to the room. Choose one honest action for the rest of the day and leave the rest for later."
+  },
+  {
+   "id": "J59",
+   "tell": "a familiar saying in a form people don't say (\"a human doer\" for the saying's \"a human being, not a human doing\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261021/joel-20261021-1756-message.txt",
+     "quote": "i had to fix your human doer vs human being to sound more like what people say"
+    }
+   ],
+   "reason": "Whether a phrase bends a saying depends on knowing the saying, and no list holds every saying; his fix used the words people say (\"a human being and a human doing\")."
+  },
+  {
+   "id": "J60",
+   "tell": "a vague stock phrase where the passage means something specific (\"feels like losing yourself\" for \"feels like losing what it means to have your own inherent value\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261021/joel-20261021-1756-message.txt",
+     "quote": "losing yourself actually sounds a bit vague so the fix made it make more sense"
+    }
+   ],
+   "reason": "Whether a phrase is vague depends on what the passage means; his fix said what exactly is lost, which a pattern cannot supply."
   }
  ]
 }
