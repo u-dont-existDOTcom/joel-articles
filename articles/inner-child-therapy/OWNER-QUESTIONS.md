@@ -333,9 +333,11 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🔵 Next
 
-- "And So That's the Way It Happened!": P1 with your Xandria line, and two new P2s, each read Human alone (0.0063; 0.14 and 0.14), but the practice put together still reads AI as a whole (0.84 and 0.93), as in turns 65 and 69. Next: your part-at-a-time method on the practice itself (P1 with P2, P2 with P3) to find where it turns.
-- The three Altered States sections, with your stories as your guide has them (43, 7 and 8), their warnings in your words, no amounts or recipes.
-- Still parked in Simple Practices: Journal With Each Hand P1, One Intention P1, Just Like Me P2, Close the Session.
+- After your answers to 70 and 71: I make the moves you pick, then check each moved or changed section once in Pangram (your four paragraphs under 50 words get checked there), then the whole article once, through a temporary Substack post that you make. I'll tell you when it's ready.
+- Older items, which I'll check against your 10-19 upload when we get to them:
+  - "And So That's the Way It Happened!": P1 with your Xandria line, and two new P2s, each read Human alone (0.0063; 0.14 and 0.14), but the practice put together still reads AI as a whole (0.84 and 0.93), as in turns 65 and 69. Next: your part-at-a-time method on the practice itself (P1 with P2, P2 with P3) to find where it turns.
+  - The three Altered States sections, with your stories as your guide has them (43, 7 and 8), their warnings in your words, no amounts or recipes.
+  - Still parked in Simple Practices: Journal With Each Hand P1, One Intention P1, Just Like Me P2, Close the Session.
 
 ### 🔵 Saved for when Altered States is humanized
 
