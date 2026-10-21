@@ -1,0 +1,25 @@
+{
+ "A": {
+  "archival": "articles/inner-signal/humanize/fix-20261020/substack41r/ARCHIVAL-SUBSTACK-20261021.html",
+  "archival_sha256": "b707319e43aeeccc707049bcbbb69a1cbe46ae4290687efce9b71d6b1dc261c5",
+  "helper": "articles/inner-signal/humanize/fix-20261020/substack41r/COPY-TO-SUBSTACK-HYPNOSIS-RECHECK.html",
+  "helper_sha256": "25c7b7f0e46a2d60bfd9dd14baf610b4c0b160f87fce0af3d272982555bf21fd",
+  "payload": "PAYLOAD-A.html",
+  "payload_sha256": "ffc35fd7e3e072b866994917cc994dfe053c8c4fc8bb386a7e1aebbca365eb62",
+  "payload_chars": 178724
+ },
+ "B": {
+  "archival": "articles/inner-signal/humanize/fix-20261020/substack41r/ARCHIVAL-SUBSTACK-20261021-B.html",
+  "archival_sha256": "c7dc4aeeeb46dce0f20ff239260dacd814ca84d57ba49d4922740136dd96dd98",
+  "helper": "articles/inner-signal/humanize/fix-20261020/substack41r/COPY-TO-SUBSTACK-HYPNOSIS-RECHECK-B.html",
+  "helper_sha256": "f826d17688a64aa70630710f84b8e23ca4a36c5e332d02538ede7dea66c19dab",
+  "payload": "PAYLOAD-B.html",
+  "payload_sha256": "4c4155e439e7aff3e16676d23d405de89925a420f63c98e95d2fa17a2990db8e",
+  "payload_chars": 66328
+ },
+ "master_sha256": "017053a5431be6a1289787b8d62ed84b44554eb3a9aaa414a423367818323737",
+ "merge": {
+  "verdict": "PASS",
+  "report": "MERGE-REPORT-20261021.json"
+ }
+}

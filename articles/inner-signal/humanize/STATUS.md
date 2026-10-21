@@ -1,5 +1,42 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-21, after Joel's messages of 23:32 and 23:54 UTC (both halves read in 4.1; the first fixes)
+
+**The whole guide in 4.1, both Mixed** (Substack's check, free; each result's every window is in
+`fix-20261020/substack41/RESULT-41a.json` and `RESULT-41b.json`, mapped onto the guide's blocks by
+`fix-20261020/result41/map_windows.py`). Part A ([feed](https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4))
+read only the post's first 99,999 characters, 18,391 of 26,853 words, to Appendix B's first pattern: red in the two
+scripts as published (2,301 words in one run), Appendix B as published from its start, the bridge into the scripts, and
+two sentences each in "Why doing it myself worked better for me" (HG12) and "When “your voice” is everybody else’s voice"
+(HG15, low). Part B ([feed](https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)), from "Appendices" to
+the end (Joel ran it at 23:54): red in Appendices B and C as published (2,280 words in six windows), one instruction in
+Appendix D (low) and two sentences of "Forgiveness without bypass" in Appendix F. Every other installed section read dark
+green, with light green in a few sentences. Both predictions were right (AI, chance 0.01 each).
+
+**The 4.1 risk read over-flagged** (`fix-20261020/result41/FORECAST-SCORE-41.md`): 166 sentences forecast red, 63 of them
+read red (38%), and it named a sentence in 15 of the 23 red windows. The lesson is in `docs/HUMANIZATION-GATE.md`.
+
+**Joel's 23:54 message: I run the Substack check myself** ("i imported my substack cookies so you just go to:
+https://ibogaqueen.substack.com/publish/post then paste in the substack html then click the preview button ..."), quoted
+in full in `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`, "Running the Substack check myself".
+
+**Batch 467g** (`fix-20261020/b467/`): the seven red sentences' fixes, each paragraph alone and each section whole; the
+gate's reviews held six first wordings before any call (three lost their paragraph's only break, four changed what the
+line says). Passed and installed
+through `fix-20261020/apply_edits41.py` (the list `EDITS41.json` keeps each edit with its checks): HG12's restating closer
+cut ([check](https://www.pangram.com/history/add7ee33-578f-4e04-80a5-2b64858ebc0e)) and its story's closer said plainly
+([check](https://www.pangram.com/history/3f7838aa-37a9-4eb5-b2b7-6733a7e2940b)), HG12 Human whole
+([check](https://www.pangram.com/history/f2fa8fa3-2e64-4f8b-8e4c-9a102ceb5c32)); HG15's "inner parent" back to the guide's
+"inherited parent" ([check](https://www.pangram.com/history/8e342f67-3726-4e97-86b5-87d941abbc5b)); Appendix D's
+breathing steps as two sentences ([check](https://www.pangram.com/history/518ba839-31c3-4938-9b09-93f2a42874c9)),
+Appendix D Human whole ([check](https://www.pangram.com/history/25912495-df6a-4a87-9f71-07b290424bbd)). Read AI: HG15's
+"buy belonging" sentence ([check](https://www.pangram.com/history/6e97d63f-765f-4e8d-aecc-39ca783c05fa); the section
+Mostly Human with only that sentence red, [check](https://www.pangram.com/history/9cfccd99-95ce-49b0-a65a-47216c218f42))
+and the forgiveness couplets ([check](https://www.pangram.com/history/25833096-c587-4602-b24d-ba7affdfbcf3); Appendix F
+Mostly Human, with two installed lines AI, low, that were light green in part B,
+[check](https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad)). Predictions: 6 of 10 right; each miss
+is explained in the ledger.
+
 ## 2026-10-20, after Joel's message of 22:01 UTC (the whole guide's first 4.1 check, through Substack)
 
 **His message.** He signed in to Pangram in the desktop app's browser, and: "for very large pangram checks (not just one
