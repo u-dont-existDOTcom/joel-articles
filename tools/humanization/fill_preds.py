@@ -1,5 +1,6 @@
 """fill_preds.py RESULTS.json PREDICTIONS.md - put each Pangram result (from the in-page reader, pangram_page_helpers.js's
-__readC, compact form [headline, ai, words, windows, utc hh:mm:ss, link tail, flagged]) into the PREDICTIONS table's empty
+__readC, compact form [headline, ai, words, windows, utc hh:mm:ss, link tail, flagged], or pangram_gate.py's reader's record per
+key) into the PREDICTIONS table's empty
 Pangram column, and print how many calls were right (2026-10-18: a scratch script of the community lane until then).
 
 The table is "| text | mine | why | |" or "| text | mine | chance | why | |" (the chance, my chance of a 100% Human result,
@@ -23,7 +24,11 @@ for line in s.split('\n'):
     m = re.match(r'\| (\S+) \| (Human|AI|Mixed) \| (.*) \| *\|$', line)
     if m and m.group(1) in res:
         k, mine, why = m.groups()
-        h, ai, words, windows, t, tail, flagged = res[k]
+        r = res[k]
+        if isinstance(r, dict):   # the gate's reader (pangram_gate.py's OUT-read.js) gives a record per key (2026-10-21)
+            r = [r['headline'], r.get('avg_ai_likelihood') or 0, r['words'], '; '.join(r['windows']), r['utc'][11:19],
+                 r['link'].split('/history', 1)[1], '; '.join(r.get('flagged', []))]
+        h, ai, words, windows, t, tail, flagged = r
         got = call(h, windows)
         conf = windows.split(', ')[1] if len(windows.split('; ')) == 1 else None
         desc = '%s (%s%s, %s words, AI likelihood %.2f)' % (

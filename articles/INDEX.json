@@ -23208,7 +23208,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
-          "sha256": "660aa5ba7a6fe54ca5c58a4364c95052c69d6b92bf3803687da79dff3b58aab8",
+          "sha256": "017053a5431be6a1289787b8d62ed84b44554eb3a9aaa414a423367818323737",
           "role": "humanization_working_record"
         },
         {
@@ -29303,7 +29303,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/tools/install_fixed.py",
-          "sha256": "78c51a25a2ca44b976c9a54dd42fb8229ef3e7879b3587d361319b42535c5f19",
+          "sha256": "1fd9b20e913beffcacee65a7f6562f37471c416e5de740a81a03e2030c473291",
           "role": "humanization_working_record"
         },
         {
@@ -36298,7 +36298,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/pangram-ledger.jsonl",
-          "sha256": "13e0f20007c62800c9083b5e8fdb382e7a8235950f76f4b2057ac24315f63630",
+          "sha256": "466763bf23e0098ffdec2ebced996815794814aae8d4743bdf09c64b02d64717",
           "role": "humanization_working_record"
         },
         {
@@ -36538,7 +36538,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261020/b467/batch/PREDICTIONS.md",
-          "sha256": "a1eec092a04d50a6fdc33f310d2bf9648db1e992a5c06f82f40b3a280f705fbb",
+          "sha256": "5de2bbe57d47f9621fd6155969e0ff2796d26c86ce42ecc3f8ba0cdc788a6b16",
           "role": "humanization_working_record"
         },
         {
@@ -36999,6 +36999,21 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261020/substack41/RESULT-41b.json",
           "sha256": "446e6b3ac7570077a927200885e9c9040cd2229b26405ebf19bf5866d97f0c27",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/EDITS41.json",
+          "sha256": "6c94a82520f9e93df15339a948255f8b8bbc95112f9c694974ab0ab3ba32b5c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/b467/EDITS-467g.json",
+          "sha256": "6c94a82520f9e93df15339a948255f8b8bbc95112f9c694974ab0ab3ba32b5c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261020/b467/batch/b467-results.json",
+          "sha256": "3ade1cdd6ee3a893b100b6098f4d85e3b6713e372683065ad9acad8d76cd4b20",
           "role": "humanization_working_record"
         }
       ]
