@@ -1,23 +1,23 @@
 {
  "A": {
   "archival": "articles/inner-signal/humanize/fix-20261020/substack41r/ARCHIVAL-SUBSTACK-20261021.html",
-  "archival_sha256": "4577b14a16086626170f7da56d4d7ac2e4735fdf42e8b23d1e4cc179f2340a57",
+  "archival_sha256": "20216dc1b52fae469b8a56872173e1ac0539e43883633c9ec51a13c079f062b8",
   "helper": "articles/inner-signal/humanize/fix-20261020/substack41r/COPY-TO-SUBSTACK-HYPNOSIS-RECHECK.html",
-  "helper_sha256": "300c1b64389230933a2dcbb0b2611277d79e1a567a49bc9378f7ec11641d2ff9",
+  "helper_sha256": "ef54969cd2956c83294520630c00b554ad40bb9a1851736a0613d3864affc9c9",
   "payload": "PAYLOAD-A.html",
-  "payload_sha256": "776603286e2b765424232e85ec9038213145cacc2bfbb68c37d2657c21bb6340",
-  "payload_chars": 178790
+  "payload_sha256": "c059caca47b5483694adc978f848c29e31df063233dab06bb5d2b4ccfd5d2810",
+  "payload_chars": 186475
  },
  "B": {
   "archival": "articles/inner-signal/humanize/fix-20261020/substack41r/ARCHIVAL-SUBSTACK-20261021-B.html",
-  "archival_sha256": "82956265cb80cceb39990d17174b135b2bc5abb8c417246449a7761751550778",
+  "archival_sha256": "7b7f575ab5ab3f61c0fd9d8ecb4c0f07008e9ef8d0daa191161b1844285c9887",
   "helper": "articles/inner-signal/humanize/fix-20261020/substack41r/COPY-TO-SUBSTACK-HYPNOSIS-RECHECK-B.html",
-  "helper_sha256": "e32e11e715f6b9a8039fba510fc5d5d480f2d442c41a692c8683a164ebbe6a00",
+  "helper_sha256": "6bb053dfd8defb286d7ec5caa297faf94d8a0a09d78bd4354eceef78cff531af",
   "payload": "PAYLOAD-B.html",
-  "payload_sha256": "809d8051fcce8616207c759015c75d0ec8028b3c7ae4db6e4f40a515cee2161e",
-  "payload_chars": 66394
+  "payload_sha256": "0072d5d0d182ebe686857740e066ac45fcbc7ea79c91a2721196f8caeb33e27f",
+  "payload_chars": 69272
  },
- "master_sha256": "166cb02a7af6d925a8f04dc9b5d630628b22d48ee088708c0790fd772de68f01",
+ "master_sha256": "d68339d1fd52f24b86764fa086cee723dca48cc3cb5c6cffde1285d89b13e522",
  "merge": {
   "verdict": "PASS",
   "report": "MERGE-REPORT-20261021.json"

@@ -40,8 +40,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   signposting explanations, generic "you"/"imagine" scenarios, stock words. A break is not a joke; cut a restating
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
-  4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull request 206 carries the 4.1 work since, open and Joel's to
-  merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
+  4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull request 206 (the 4.1 work to 2026-10-21 01:30) was merged; the work since is pull request
+  209 (https://github.com/u-dont-existDOTcom/joel-articles/pull/209), open and Joel's to merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
   Markdown; `HUMANIZED-SO-FAR.md` is the working copy (a copy of it until a section is installed). Ask him for his latest
@@ -93,11 +93,8 @@ every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: the recheck's two secret links to open in his Chrome (his to do); four open questions of
-2026-10-18 (is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in every version;
-HG31's two meaning points against a Human reading; the two guided scripts, HG17 and HG18); and three of 2026-10-21
-(question 6, the repeats the guide had as published; question 7, whole-guide checks through Substack past two;
-question 8, HG15's closing pair, red in every wording).
+`OWNER-QUESTIONS.md`: the recheck's two secret links to open in his Chrome, and a note to paste into the Inner Child
+chat (his to do); questions 9, 10 and 11 (2026-10-21). Questions 1 to 8 were answered at 2026-10-21 17:56 UTC.
 
 ## Where it stands
 
@@ -161,7 +158,72 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-21, after batch 468g: the recheck waits on Joel's Chrome)
+## Next step (2026-10-21 21:41 UTC, after the listening script went in: the recheck waits on his Chrome)
+
+Done since the step below: the induction section (HG17), the one section that was still as published, is installed as
+Emulate's sample ba with every lost point put back (`fix-20261018/rf-zg/`: `make_hg17_fixed.py` with its three rounds,
+REVIEWS tagged by round; `make_hg17_reviews.py` for round 1's prompts, `make_hg17_round2.py --round N` for each later
+round, `make_gate_hg17.py` for the gate; `gate-answers.json` holds what was let stand). Part A of the recheck was rebuilt
+with it and pasted into the same temporary draft (ledger: HG-whole#19 voided, HG-whole#21 written,
+`fix-20261020/substack41r/make_preds_recheck3.py`). Every one of the 40 sections is now humanized; two (Appendix C's
+prose and the induction section) wait for their first 4.1 reading.
+
+1. **When Joel sends the recheck's results** (or loads them into the app's browser): as step 1 below, with part A's key
+   now `HG-whole-41r3-a` (`result --key HG-whole-41r3-a`; part B is still `HG-rest-41r2-b`). In part A, map the windows
+   over the induction section (`result41/map_windows.py`) and read its sentence shading: its forecast is light green or
+   red in parts of the script (the count, the two-hand lines, the shortcut's steps).
+2. **Then fix with a diagnosis**, a paragraph to pangram.com only when a segment points at it (E200). For the induction
+   section, a red window's paragraphs get a fix in ba's register (a break where a person would react or pause, never a
+   quip), or a new Emulate run over that stretch from the published text, then its meaning reviews as in `rf-zg/`. Record
+   each section's reading in `fix-20261018/installed.json` (HG17's "whole") and each 4.1 edit's in `EDITS41.json`.
+3. **Waiting on Joel**: questions 9, 10 and 11 (11: whether "intoxicated" in "Before you begin" rules out a session on
+   loveyhuasca; option B would say "overwhelmed by chemicals", as "Capacity before content" does), the recheck's links,
+   the note for the Inner Child chat, and deleting the two temporary drafts once the results are read (E204; permanent
+   deletion isn't something this worker does).
+4. **Question 6 b**, after the 4.1 work: the repeats one at a time, each with both passages, what's around them, how far
+   apart they are, and keep / cut / merge with a pick (gate doc, 2026-10-21 17:56 section).
+
+## Earlier next step (2026-10-21, after Joel's answers of 17:56 UTC and batch 469g: the recheck waits on his Chrome)
+
+Done since the step below: his answers to questions 1 to 8 (`fix-20261021/joel-20261021-1756-message.txt`): his own
+HG15 edit installed (`EDITS41.json`, HG15-joel-p9 and -p11, his check Human); HG31 (3 a) and HG18 (4 d) installed as
+their Human versions; the inner-figure sweep (`fix-20261021/CONFLATION-SWEEP.md`) and batch 469g (`fix-20261021/b469/`:
+Appendix C's general checklist as prose, HG18's lost points, seven inner-figure findings, six fixed), four rounds of
+meaning reviews, then into the working copy through `apply_edits41.py` with "paragraph_result": pending. Under gate E200
+(main's rule: many paragraphs go through free Substack posts) nothing went to pangram.com this turn. The recheck is
+rebuilt (`fix-20261020/substack41r/make_recheck.py`) and pasted into the lane's own two temporary drafts
+(`paste_payload.js` with `replace_title`), and its predictions are in the ledger (HG-whole#19, HG-rest-B#20, with
+`--decides`). The secret links are on the questions page.
+
+1. **When Joel sends the recheck's results** (or loads them into the app's browser): on each feed page, run
+   `tools/humanization/pangram_feed_read.js`, save `fix-20261020/substack41r/RESULT-41r2-a.json` and `-b.json`, map
+   them (`result41/map_windows.py`), score them in the ledger (`result --key HG-whole-41r2-a` and `HG-rest-41r2-b`),
+   and score 469g's forecasts (`fix-20261021/b469/batch/PREDICTIONS.md`, `FORECAST.json`). Click every Human and Likely
+   human row in All Segments when a result is Mixed (the budget rule's 4.1 segments rule) to find the suspect part.
+2. **Then fix with a diagnosis**, a paragraph to pangram.com only when a segment points at it: Appendix C's prose had no
+   break in its march read (`b469/r2/march-labels.txt`), so if it reads red, give the paragraphs breaks in Joel's raw
+   register (a reaction, his doubt, a particular, never a quip) or run Emulate over it; the NLP appendix and the return
+   steps were checked only in 4.0. Record each edit's reading in `EDITS41.json` (`paragraph_result`, `section_check`).
+3. **The listening script** (HG17, the one section still as published): his 4 d, "i am fine with all the humanized
+   replacements as long as we don't lose anything". Done: the fast path's three Emulate samples of the whole section
+   from the published text (`fix-20261018/make_emu_az.py`; `emu-az`, `emu-ba`, `emu-bb`, copied from the laptop with
+   their SHA-256 checked, 6,036 Emulate words, 73,647 left), aligned (`tools/emu_runs.py back --align`), composed into
+   units (`rf-zg/HG17.az.json`, `.ba.json`, `.bb.json`, over `rf-j/HG17.fixed.json`), and a second reader on each against
+   the published section (`rf-zg/HG17.X.verify.out.md`): az kept 122 points, changed 76, lost 31, invented 9; **ba kept
+   156, changed 57, lost 30, invented 14** (the base); bb kept 133, changed 68, lost 34, invented 21. Next: in
+   `rf-zg/HG17.ba.json`, put back all 30 lost points inside ba's own sentences (the listening script's pauses and steps,
+   "What am I noticing now?", "Five.", the three links, "keep safety and exit instructions plain", the heading lines the
+   alignment kept as text), take out the 14 inventions (his father "uses" the mudra while driving; "I always announce
+   when I am doing it"; "see link above"; "something like the below" with nothing below), and fix the changed points
+   that change what a reader does or believes (the triage brief, `fix-20261018/rf-a/TRIAGE-BRIEF.md`); then the gate's
+   reviews, the install with "pending", and its reading in the next recheck through Substack.
+4. **Waiting on Joel**: questions 9 (the synchronicity cue's "my Protector") and 10 (one name for the inherited parent),
+   the recheck's links, the note for the Inner Child chat, and deleting the two temporary drafts when the results are in
+   (E204 asks the worker to delete them; permanent deletion isn't something this worker does).
+5. **Question 6 b**, after the 4.1 work: the repeats one at a time, each with both passages, what's around them, how far
+   apart they are, and keep / cut / merge with a pick (gate doc, 2026-10-21 17:56 section).
+
+## Earlier next step (2026-10-21, after batch 468g: the recheck waits on Joel's Chrome)
 
 Done since the step below: both halves of the first 4.1 check read and mapped (`fix-20261020/substack41/RESULT-41a.json`,
 `RESULT-41b.json`, `result41/`); the risk read scored; batches 467g and 468g, which installed six 4.1 edits through

@@ -1,0 +1,183 @@
+You check 10 edited paragraphs of the induction section of a long self-hypnosis guide by Joel. The section was rewritten in a plainer, more personal voice, and its looser wording is fine. Each paragraph below was changed after an earlier review found something in it. For each item you get PUBLISHED (what the published guide says for that passage), BEFORE and AFTER (the paragraphs around it in the rewritten section), EARLIER FINDING (what the review found) and EDITED (the paragraph now).
+
+For each item, say in a few words each:
+1. MEANING: for every point of PUBLISHED (a claim, a step, a caution, a condition, a choice the reader is given, a hedge such as "may", a link), KEPT, CHANGED (how a reader would now understand or do it differently) or LOST in EDITED; then anything EDITED adds that a reader would act on or believe (ADDED).
+2. SENSE: would a reader who has read the guide up to here understand every sentence of EDITED in its place, between BEFORE and AFTER? OK, or the words that stop them and why. Give your best reading of words before calling them unclear, and leave them out when that reading is clearly what the writer means.
+3. FINDING: is the earlier finding answered? ANSWERED, or STILL and why.
+End each item with one line, `VERDICT: OK` (everything kept, nothing added, sense OK, finding answered) or `VERDICT: CHANGED`. Judge meaning and sense only, not style or which version is better, and don't suggest rewrites unless a finding is STILL.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/rf-zg/r3/VERIFY-r3.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1
+
+PUBLISHED:
+Let the next invitation grow from the response you got—not the response the script expected.[Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) means working with what actually happens: a thought, sound, movement, or objection may change where the practice goes. Notice what actually happens; no change doesn’t mean secret success. Keep safety and exit instructions plain. Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction.
+
+BEFORE:
+5. If you have not done hypnosis before, or if you haven’t done it in a while, practice the coming in and out part first, and leave difficult subjects for later. You don’t have to watch yourself the whole time, but it is good to make sure you can do the state change at first. Let a useful response get easier and take less effort. The answer no will stay no. And if you say nothing, that isn’t a yes, so a narrator can’t add things you haven’t agreed to.
+
+AFTER:
+## Sober induction: 3–5 minutes
+
+EARLIER FINDING:
+- meaning, part 1, P15: Appendix B holds "richer language tools" (the published), not "more tools on utilization"
+
+EDITED:
+6. Let the response you got guide what happens next, whatever the script expected. [Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) is the act of letting your current response guide where you go next: a thought, a sound, a movement, or an objection may change where the practice goes. Learn to notice what does happen as you go. Also learn that if nothing happens, that doesn’t mean there was a positive, hidden change. Keep the safety and exit instructions plain. If you need richer language tools, see Appendix B, or read on to Let the next response guide you, which shows how to use them after the induction.
+
+## Item 2
+
+PUBLISHED:
+And as you return, you may find one detail that holds your interest … something about the sound, or the contact, or that particular way of listening … and let attention stay with it long enough to become curious.
+
+BEFORE:
+You may notice a thought arising, about the day, or about whether you’re doing this properly. Whenever you notice a thought, simply allow yourself to re-engage with whatever you've chosen to anchor yourself, and leave the thought unfinished.
+
+AFTER:
+Allow yourself some time to do this, the time you would give someone you care about who has started to speak and hasn’t found the words yet. You’d stay nearby and listen while they finish their own sentence.
+
+EARLIER FINDING:
+- meaning, part 1, P22: "focus your attention on one aspect" made the step willed; the published lets a detail "hold your interest", the script's receptive way
+
+EDITED:
+You may find one aspect of what you're doing holding your interest … perhaps a particular detail of a sound, or a sensation, or the act of listening itself … and let your attention stay with it long enough to get curious.
+
+## Item 3
+
+PUBLISHED:
+As you continue, your eyes can close, soften, or stay open. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background.
+
+BEFORE:
+Now say to yourself the phrase you have chosen, as an invitation. Allow yourself to notice how it is received.
+
+AFTER:
+When you feel ready, count from 5 down to 1, allowing yourself some time for each count.
+
+EARLIER FINDING:
+- meaning, part 1, P25: the published keeps "a sound from the room" available in the background (a link to the room); "something you're hearing" lost the room
+
+EDITED:
+You may now choose to close your eyes, or soften your gaze, or keep your eyes open as you see fit. You may continue to deepen your listening as you wish, perhaps keeping in mind in the background a sound from the room.
+
+## Item 4
+
+PUBLISHED:
+Give the response time to take its own form. It might be a sensation, a few words, an image, a feeling, or an impulse to move. There may be nothing clear yet.
+
+BEFORE:
+What am I noticing now?
+
+AFTER:
+Allow yourself some time to notice, with or without words.
+
+EARLIER FINDING:
+- meaning, part 1, P30: "There may be nothing clear yet" was lost, and "Notice how it comes to you" read as a new step; the published lists the forms ("It might be a sensation, a few words, ...")
+
+EDITED:
+Allow yourself to notice what comes to you, if anything, and give it time to take its own form. It might come as sensation, words, pictures, feelings, movements, etc. It may not be clear yet.
+
+## Item 5
+
+PUBLISHED:
+Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine. Press your thumbs gently but firmly against your index fingers. Focus on the physical friction of skin meeting skin.
+
+BEFORE:
+Recognise to yourself that your state is already open. All you need to do is aim it, stabilise it, and keep it kind.
+
+AFTER:
+Say to yourself, 'Only what I can integrate is welcome now. Anything that’s too much can wait. My body can stay safe. I am here, and my adult self stays present. My inner child does not need to face this on her/his/their own.'
+
+EARLIER FINDING:
+- meaning, part 2, P35: "say out loud where you are" is a new instruction; the published: "Name where you are"
+
+EDITED:
+Orient yourself: look around and name where you are, what date (or day) it is, feel your body, ground yourself, feel your feet, hands, spine, etc. Make some physical contact with yourself (press your thumbs to the tip of your index fingers, gently but firmly, so you can feel the friction). Focus on the physical sensation.
+
+## Item 6
+
+PUBLISHED:
+Sleep induction has a different job. In inner work, the adult returns, writes, and acts. At bedtime, analysis can remain off duty. Revelation can wait; the task is rest.
+
+BEFORE:
+## Sleep induction
+
+AFTER:
+For sleep hypnosis, see [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).
+
+EARLIER FINDING:
+- meaning, part 3, and the inner-figure rule of 2026-10-21: "the Adult" with a capital reads as a named part; the published: "In inner work, the adult returns, writes, and acts"
+
+EDITED:
+Sleep induction has a different goal than inner work, where the adult ultimately needs to come back in to write things down and take actions. When you are going to sleep you want your analytical mind to stand down until the next day, when you have time for revelations. The task is rest.
+
+## Item 7
+
+PUBLISHED:
+Choose one simple scene: a room in the heart, a garden, a temple, a fire with the Protector nearby, a clear lake, or a chair where the adult waits. One scene is plenty.
+
+BEFORE:
+If it will be useful, your attention may gather more. But if it won't, you can stay just as awake as you need to be.
+
+AFTER:
+Who or what needs to talk first?
+
+EARLIER FINDING:
+- meaning, part 3, P61: the scene is "simple" in the published ("Choose one simple scene"), and "a chair where the adult waits" has a lowercase adult (a capital reads as a named part)
+- the same
+
+EDITED:
+Pick a simple inner scene to go into when you get there. It can be a room in your heart, a garden, a temple, sitting by a fire with the Protector nearby, at a lake with clear water where you can see the bottom, or a chair where the adult waits, whatever feels right to you. Just pick one.
+
+## Item 8
+
+PUBLISHED:
+Choose a distinctive word, phrase, or optional gesture. During a familiar, welcome hypnotic state, pair it with that receptive way of listening—not peak emotional intensity, a child-state, or a traumatic scene. Give it the meaning you choose:
+
+When I’ve set aside time, settled somewhere appropriate, and deliberately use my cue to begin, I can return to this familiar way of listening. I can change direction or finish.
+
+BEFORE:
+My dad used a mudra ( putting two fingers together like the "Ok" sign ) to help him relax, including when he drove. That's his experience, not a recommendation to go into a trance while driving. Don't do that. Keep the cue you use to calm down and stay alert separate from the one you use for inward hypnosis.
+
+AFTER:
+When I deliberately pick a time and an appropriate place to use this word or phrase to begin, I can return to this familiar way of listening. I can change direction or finish.
+
+EARLIER FINDING:
+- meaning, part 3, P70: the published leads into the statement to say ("Give it the meaning you choose:"); the colon makes the next line the thing you say
+
+EDITED:
+Pick a distinctive word, phrase or motion ( optional ) that you will use to go back into hypnosis. Practice saying the word or phrase while doing the motion ( if you picked one ) when you are in a good, familiar hypnotic state, pairing it with that receptive way of listening, and not with a peak of emotion, a child state or a traumatic scene. You are picking the state here, it means whatever you say it means:
+
+## Item 9
+
+PUBLISHED:
+Return fully. On a later suitable occasion, deliberately begin practice and try the cue. Give it time; gradually shorten the longer induction when the shortcut helps, and use the familiar route when it doesn’t. No fixed repetition count, instant depth, or particular sensation is required.
+
+BEFORE:
+When I deliberately pick a time and an appropriate place to use this word or phrase to begin, I can return to this familiar way of listening. I can change direction or finish.
+
+AFTER:
+Check to make sure it is useful, that you can turn it on and off at will, and that it stays away when you haven't chosen it. Can you still change direction while you're in it? It must never turn into obeying a narrator, a notification, or anything you might overhear; it is a tool for you to use when you pick to use it. Going into hypnosis faster doesn't mean you should be working on things you aren't ready for.
+
+EARLIER FINDING:
+- meaning, part 3, P72: "Return fully" (the published) had become "come back up"
+- meaning, part 3, P72: "Give it time" was lost
+
+EDITED:
+Now come all the way back up and at some point when it is appropriate for you to begin a practice, start using this. Give it time: you can gradually shorten the longer induction as you find this useful, or just do the longer induction when this doesn't seem to be enough for what you are working on. You don't have to do it any particular number of times, you don't have to go a certain depth instantly, and you don't need to have any particular sensation when you do this.
+
+## Item 10
+
+PUBLISHED:
+Check usefulness and selectivity: does it help when chosen, remain absent when unchosen, and leave changing direction and returning workable? It mustn’t become obedience to a narrator, notification, or overheard word. Faster entry doesn’t determine what material you can handle.
+
+BEFORE:
+Now come all the way back up and at some point when it is appropriate for you to begin a practice, start using this. Give it time: you can gradually shorten the longer induction as you find this useful, or just do the longer induction when this doesn't seem to be enough for what you are working on. You don't have to do it any particular number of times, you don't have to go a certain depth instantly, and you don't need to have any particular sensation when you do this.
+
+AFTER:
+Never practice or use this when driving or doing anything where you need to be actively paying attention. It isn't safe to go into a trance where you are listening inwardly when you need to be listening outwardly, even if you have your eyes open and even if you use the " if it would be useful " type language.
+
+EARLIER FINDING:
+- meaning, part 3, P73: the check that changing direction stays workable was lost ("turn it on and off" covers returning only)
+
+EDITED:
+Check to make sure it is useful, that you can turn it on and off at will, and that it stays away when you haven't chosen it. Can you still change direction while you're in it? It must never turn into obeying a narrator, a notification, or anything you might overhear; it is a tool for you to use when you pick to use it. Going into hypnosis faster doesn't mean you should be working on things you aren't ready for.

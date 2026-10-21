@@ -65,10 +65,12 @@ class RegistryShape(unittest.TestCase):
         # Joel's section 4 and 12 texts of 2026-10-13; J53 to J55 from his Rule Scoring Sheet answers of 2026-10-14; W88 to
         # W92 (O41, S1, S2, R2, A2) from his message of 2026-10-17 13:11, which also moved W02 ("quietly") to O42; W93 (E186,
         # "X can ... without Y") and J57 (formulaic expression) from his message of 2026-10-17 14:01 (inner child lane); J58
-        # (a generic "you" or "imagine" scenario) from his community edits for Pangram 4.1, message of 2026-10-20 22:01
-        self.assertEqual(len(ids), 151)
+        # (a generic "you" or "imagine" scenario) from his community edits for Pangram 4.1, message of 2026-10-20 22:01; W94
+        # (O44, "one honest action"), J59 (a saying in a form people don't say) and J60 (a vague stock phrase) from his hypnosis
+        # message of 2026-10-21 17:56
+        self.assertEqual(len(ids), 154)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 93)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 94)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

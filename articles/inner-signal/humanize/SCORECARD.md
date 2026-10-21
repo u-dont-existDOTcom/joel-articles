@@ -104,8 +104,8 @@ The latest:
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 2 of 2 | pending |
-| HG-rest-B | stretch | 2 of 2 | pending |
+| HG-whole | article | 2 of unlimited (Substack) | pending |
+| HG-rest-B | stretch | 2 of unlimited (Substack) | pending |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |

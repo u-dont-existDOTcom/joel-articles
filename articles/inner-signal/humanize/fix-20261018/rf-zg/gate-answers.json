@@ -1,0 +1,42 @@
+{
+ "HG17-fixed": {
+  "cold": "OK",
+  "cold_note": "SENSE-HG17.md (round 1, the whole section in the guide): six UNCLEAR (P11 who is \"it\", P13 \"these things\", P14 \"the instructions\", P25 \"contact\", P33 \"choose one thing\" with one thing after it, P56 \"it is True\" and which \"it\" listens), each fixed in round 2 (make_hg17_fixed.py, REVIEWS round 2); r2/VERIFY-r2.md read each fixed paragraph in its place: sense OK, finding answered. Round 3's fixes were read the same way (r3/VERIFY-r3.md).",
+  "grounding": "OK",
+  "grounding_note": "Round 1: every LOST and ADDED-CLAIM of sample ba's second reader (HG17.ba.verify.out.md: 30 lost, 14 inventions) fixed, and the changes that alter what a reader does or believes (FIXES.json). Round 2: the meaning check of the fixed section in three parts (HG17.fixed.verify.part1-3.out.md; the single prompt had run past its reader's output limit): lost 2 (\"simple\" scene, \"Give it time\"), added-claims 9, changed 28; round 3 fixed the lost points and the changes a reader would act on (\"name\" for \"say out loud\", the room's sound, the receptive detail, \"It may not be clear yet\", Appendix B's \"richer language tools\", the lowercase adult twice, \"all the way back\", changing direction in the check, the lead-in colon), and r3/VERIFY-r3.md read each. The rest is let stand, each with its reason below (the triage brief, fix-20261018/rf-a/TRIAGE-BRIEF.md).",
+  "stance": 0,
+  "stance_note": "STANCE-HG17.md: five conflicts (what you leave alone made optional; \"communion with things\"; drills before any other use; the adult self tied to an adult body and experience; qualified help for any leftover response), each fixed in round 2, and r2/VERIFY-r2.md found each answered. The published text's own contradiction it found (no exploratory hypnosis when intoxicated, against the Already open? practice for a state loveyhuasca opened, and Joel's own loveyhuasca sessions) is question 11 for Joel; until he answers, the section says what the published says, with \"otherwise\" taken out so the three conditions stand apart.",
+  "missing": [],
+  "let_stand": [
+   {"finding": "part 1, P1: \"begin with orientation and containment\" became \"skip the induction and go straight to\" them; \"another intense opening\" became \"any other reason you feel in touch with deeper stuff\"", "why": "beginning with orientation and containment is skipping the sober induction; the published list ends in a catch-all too"},
+   {"finding": "part 1, P4: \"repeated sound\" became \"play with sound\", \"conversation\" \"talk with someone\"; \"can also organize attention\" dropped", "why": "wording; every other way in is kept"},
+   {"finding": "part 1, P14: \"entry and return unfamiliar\" became \"new to hypnosis or been a while\"; \"change direction\" became \"do the state change\"", "why": "the same condition and skill in plainer words; the point that you needn't supervise every moment is kept"},
+   {"finding": "part 1, P19: the surface beneath you offered with \"perhaps\"", "why": "the step still asks for something you can feel beneath you, with the contact and the pressure"},
+   {"finding": "part 1, P26: \"When you feel ready\" (added condition)", "why": "a permission in the script's voice; the count follows as published"},
+   {"finding": "part 2, P33: \"beautiful music\", \"seeing something incredibly beautiful\", \"etc\"", "why": "list wording; every opening is kept"},
+   {"finding": "part 2, P34: \"I do not need to intensify it\" only implied", "why": "carried by \"All you need to do is aim it, stabilise it, and keep it kind\" and by the paragraph before (\"before making it any stronger\"); two readers had read sample ba's as kept, and round 1's explicit sentence came out to keep a coach phrase out"},
+   {"finding": "part 2, P38: \"only in the amount I can live well with\" became \"only what I am able to integrate\"", "why": "the section's own word for a manageable amount (P36: \"Only what I can integrate is welcome now\")"},
+   {"finding": "part 2, P41: \"coming more fully here\" became \"only coming closer to what is here\"", "why": "the same presence"},
+   {"finding": "part 2, P45: \"small, repeated\" movement; \"try making your hypnosis more active\" (added-claim)", "why": "the example after it repeats a small movement (press, release, again, once more); \"more active\" names the method the published gives, and the source link says alert rather than relaxed"},
+   {"finding": "part 2, P54: \"until the next day, when you have time for revelations\" (added-claim)", "why": "an elaboration of \"Revelation can wait\" in the sleep paragraph"},
+   {"finding": "part 3, P60: the first-person line became \"you can stay just as awake as you need to be\"", "why": "the same suggestion in the script's second person"},
+   {"finding": "part 3, P65: \"subtly\" dropped", "why": "\"or in some way become noticeable\" keeps the range of small signs"},
+   {"finding": "part 3, P67: \"may\" became \"sometimes ... will\"; \"the whole hand will heat up\"", "why": "\"sometimes\" keeps the hedge (r2/VERIFY-r2.md item 11: kept)"},
+   {"finding": "part 3, P69: \"a useful induction\" became \"the induction above\"; \"When you feel comfortable with it\" (added-claim)", "why": "the order is kept (learn the induction and the return in full first); the readiness line comes in addition, not in place"},
+   {"finding": "part 3, P70: \"welcome\" became \"good\"; \"Practice saying the word or phrase while doing the motion\" (added-claim); \"it means whatever you say it means\" (added-claim)", "why": "a near-synonym; saying the cue in the state is how it is paired; Joel's \"Give it the meaning you choose\" in the sample's words, now leading into the line to say"},
+   {"finding": "part 3, P72: \"deliberately\" dropped, \"try\" became \"start using this\"; \"when this doesn't seem to be enough\"", "why": "the deliberate cue is in the statement just before (P71); the familiar route stays for when the shortcut doesn't help"},
+   {"finding": "part 3, P74: \"test\" dropped; the inward and outward listening reason (added-claim)", "why": "\"Never practice or use this\" covers trying it out; the reason is consistent with the ban (round 1's reader: consistent)"},
+   {"finding": "part 3, P75: \"that's fine\" (added)", "why": "the permission the published's \"Any retained cue\" gives (r2/VERIFY-r2.md item 12)"},
+   {"finding": "part 3, format: the spoken lines' quotation marks dropped (P58, P60, P62, P64-66)", "why": "the lines are in the first person and introduced as lines to say; the cold read read them as meant"},
+   {"finding": "r2 item 1: \"building a quality\"; \"exploring a state\" (added)", "why": "sample ba's purposes; two other readers read the question-or-quality point as kept"},
+   {"finding": "r2 item 3: \"If you are recording your induction\" for \"For a recording\"", "why": "the published recording is the reader's own; two readers read it as kept"},
+   {"finding": "r2 item 5: \"or\" between Appendix B and the next section", "why": "both pointers stand; round 3 fixed what Appendix B holds"},
+   {"finding": "r2 item 6: \"(below)\" for the two-hand practice", "why": "the two-hand induction comes later in this section"},
+   {"finding": "r3 item 2 (and part 1, P22): \"As you return\" lost", "why": "the paragraph comes right after \"re-engage with whatever you've chosen to anchor yourself\", so its place carries the return; the receptive detail (round 3) is back"},
+   {"finding": "r3 item 3: \"You may continue to deepen your listening as you wish\"; \"perhaps\" keeping the room's sound in mind", "why": "sample ba's permission for the published \"Listening may deepen\"; the room's sound is back (round 3)"},
+   {"finding": "r3 item 4: \"movements\" for \"an impulse to move\"", "why": "round 1's reader read sample ba's list as kept; the list is of forms a response can take"},
+   {"finding": "r3 item 6: \"you want your analytical mind to stand down\" for \"analysis can remain off duty\"; \"until the next day\"", "why": "the same bedtime aim in the sample's words (part 2's P54, above)"},
+   {"finding": "r3 item 9: \"when this doesn't seem to be enough for what you are working on\"", "why": "part 3's P72 above: the familiar route stays for when the shortcut doesn't help"}
+  ]
+ }
+}

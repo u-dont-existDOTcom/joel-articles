@@ -1,0 +1,141 @@
+You check whether a rewrite of one section of a long self-hypnosis guide by Joel keeps every point of his published text. The section is the guide's induction: what an induction does, how to prepare, a spoken listening script ("Sober induction"), what to do when the state is already open, staying awake, a two-hand induction, sleep, fractionation, deepening, a trance depth check, and a shortcut back into hypnosis. The rewrite was made by a paraphrasing tool that writes in a plainer, more personal voice, and then edited; its looser wording is fine. Your job is meaning only.
+
+Go through THE PUBLISHED SECTION paragraph by paragraph. For every point it makes (a claim, a step of a script, a caution, a safety statement, a condition, a choice the reader is given, a hedge such as "may", a link or source it points to), say whether THE REWRITE keeps it: KEPT, CHANGED (how a reader would now understand or do it differently) or LOST. Be especially careful with the listening script's steps (each instruction, pause and permission), the safety statements (what not to do, when to stop, how to come out, what a response does not prove), and the shortcut's limits. Then list everything THE REWRITE says that the published section doesn't: ADDED, marking each one that a reader would act on or believe (an invented fact about Joel or his family, a claim about therapists, a new instruction) as ADDED-CLAIM.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/rf-zg/HG17.fixed.verify.part1.out.md`: first a line `COUNTS: kept N, changed N, lost N, added-claims N`, then one "## P<n>" part per published paragraph (P0 is the first block below; count every blank-line-separated block of the published section, headings included) with its points, then "## ADDED". Keep each line short. Then reply with only the COUNTS line. Don't read any other file, don't run commands, and don't use the web.
+
+This prompt is part 1 of 3: the section is checked in three parts, split at the same headings in both texts, so that each report stays short. THE PUBLISHED SECTION and THE REWRITE below are that part only, and the blocks are numbered from P0. Keep each line short and the whole report under 1,200 words.
+
+THE PUBLISHED SECTION:
+
+# Induction: gathering attention without disappearing
+
+An induction gathers scattered attention until quieter material becomes easier to hear. You don’t have to surrender, play asleep, or obey anyone. When you’re sober, distracted, analytical, or guarded, an actual induction may help. When meditation, loveyhuasca, lucid dreaming, grief, music, prayer, fatigue, or another intense opening has already made you trancey, begin with orientation and containment instead of adding depth.
+
+Aim for the amount of trance that suits the practice: focused, warm, receptive, embodied, and still able to stop. Depth is optional.
+
+## What an induction is actually doing
+
+Prepare the session, gather attention, deepen only when that helps, then let what you notice shape the words and the next response. Counting is one way in. Conversation, story, movement, repeated sound, and curiosity can also organize attention. Say so when you use them; elegance doesn’t excuse a covert induction.
+
+For a simple, chosen target, you can test the suggestion before deepening. If the useful response is already happening, build from it. An induction helps you find a receptive way of listening; you don’t need to complete a ceremony before you’re allowed to respond.
+
+## Please don’t put six metaphors in one trance
+
+Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.
+
+Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish. Borrow qualities such as warmth or steadiness without replacing your identity.
+
+Pick one central verb, one sensory quality, one short refrain, and one transition phrase, then read the script aloud; long elegant sentences become soup during an induction.
+
+## Before you begin
+
+Read the induction and Come all the way back while fully awake. Choose the question or quality you want to explore, what you’re leaving alone today, and how much time you have. Love, play, confidence, creativity, and communion are worthwhile purposes; you don’t have to find a problem. Leave several minutes for returning and reflecting.
+
+Choose a physically secure place without driving, water, machinery, or anyone needing your supervision. When intoxicated, acutely confused, or unable to keep yourself safe, deal with immediate support rather than exploratory hypnosis. The later Already open? practice is for orientation, not permission to intensify an unstable state.
+
+Decide what kind of encouragement is welcome: spacious listening, warm company, or a firmer invitation to stay with a feeling. Preview eye closure, any repeated exit and re-entry, and the return. For a recording, read the script beforehand when possible. “Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words. You can simply open your eyes and finish. No inner part has to approve your decision to stop.
+
+When entry and return are unfamiliar, first rehearse them without a difficult subject. Once you know how to change direction, you don’t need to supervise every moment. Let a useful response become easier and less effortful. A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.
+
+Let the next invitation grow from the response you got—not the response the script expected.[Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) means working with what actually happens: a thought, sound, movement, or objection may change where the practice goes. Notice what actually happens; no change doesn’t mean secret success. Keep safety and exit instructions plain. Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction.
+
+## Sober induction: 3–5 minutes
+
+Read this slowly into a recorder, speak it aloud, or learn its movement and use silent words if that comes easily. Choose one anchor—a sound, bodily contact, or your two-hand practice—and an opening phrase. Keep using the same anchor where the words refer to it. Pause between paragraphs; don’t read the delivery directions aloud.
+
+Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and notice the difference between looking for something and letting what is already there come into view.
+
+There is a surface beneath you. Notice where you meet it … the contact, the pressure, whatever you can actually feel. And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one.
+
+You can give this a little time.
+
+A thought about the day may still be here. A thought about whether you’re doing this properly may be here too. There is room to notice a thought and return to the anchor you chose, without finishing the thought first.
+
+And as you return, you may find one detail that holds your interest … something about the sound, or the contact, or that particular way of listening … and let attention stay with it long enough to become curious.
+
+Perhaps you can give yourself the time you would give someone you care about who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them.
+
+Let your chosen phrase come to mind now. Say it as an invitation, and notice how it is received.
+
+As you continue, your eyes can close, soften, or stay open. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background.
+
+Count slowly from five to one. Give each number its own moment.
+
+Five. Notice your chosen anchor again. Four. Let attention gather around what you find. Three. Leave a little space after the words. Two. Listen into that space, without preparing an answer. One. Stay here for a moment.
+
+Bring your chosen concern lightly to mind, or remain with your wish for contact. Let it be present without rehearsing its whole story.
+
+What am I noticing now?
+
+Give the response time to take its own form. It might be a sensation, a few words, an image, a feeling, or an impulse to move. There may be nothing clear yet.
+
+Leave room to notice, with words or without them.
+
+THE REWRITE:
+
+# Induction: gathering attention without disappearing
+
+Inductions serve to gather up attention in order to access quiet stuff. They are not about surrendering, playing asleep, or obeying someone. You may want to do an actual induction if you are sober, distracted, analytical, guarded, or otherwise not very trancey. If you are already trancey, due to meditation, loveyhuasca, lucid dreaming, grief, music, prayer, or tiredness, or if for any other reason you feel in touch with deeper stuff, skip the induction and go straight to orientation and containment instead of going deeper.
+
+Get as trancey as the practice needs: focused, warm, receptive, embodied, and still able to stop. Deeper trance is optional.
+
+## What an induction is actually doing
+
+It gets you ready to do whatever you are doing. It does this by gathering up your attention, deepening the state only when that helps, and then letting what you notice shape the words and what happens next. There are all sorts of ways to do this. The method here involves counting, but there are many others. You might just talk with someone, tell a story, move, play with sound, or make use of curiosity. However you do it, say so. Don’t pretend it’s some other thing in the name of elegance.
+
+You can test a simple target suggestion before deepening, to see if you are already getting your target response, and then build from that. The induction is just there to help you find a receptive way of listening. It doesn’t have to be some sort of ceremony you finish before you’re allowed to respond.
+
+## Please don’t put six metaphors in one trance
+
+You need to keep it simple. One purpose, one anchor or image to start, one way back, and a decided on feeling (warm, bounded, directed, or neutral witnessing). You don’t need floating, stairs, gardens, inner rooms, color, and a dialogue with a child all at once. If you do metaphors at all, use one, and only switch to another consciously, when the first one stops helping.
+
+Metaphors and imagery are optional. A signal might come to you through sensation, rhythm, movement, words, spatial sense, simple knowing, or the lack of a signal. If you are using words, keep them related to the world you have created. If you are counting, do it in a way that makes sense in that world. When you’re done with your induction, come back the other way. You can borrow qualities from your induction (warmth or steadiness) but don’t change who you are.
+
+When writing your induction, pick a central verb, a sensory quality, a short refrain, and a way to transition between ideas. Read it out loud when you are writing it. Long elegant sentences become soup when you’re being induced.
+
+## Before you begin
+
+1. Read this page, and the Come all the way back page, when you are fully awake.
+
+2. Decide what you want to do during the induction. You might be asking a question, building a quality, or exploring a state. Also pick what you are NOT going to do today. Consider your time. Remember that this doesn’t have to be about a problem, and you can use it for good stuff too, like love, play, confidence, creativity, or communion. Make sure to leave a few minutes at the end for coming back and for reflection.
+
+3. Make sure you are in a safe place. Don’t do this if you are driving, in water, operating machinery, or otherwise in a place where you need to attend to yourself or others. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. The later part of this (the already open? section) is for orienting yourself. Don’t use it to make an unstable state any deeper.
+
+4. Decide how you want to be coaxed into it. Do you want to feel like you have a lot of room, or do you want to feel held and warm? Or do you need a firmer invitation to stay with a feeling? Preview to yourself what you are going to do. This might involve closing your eyes, or even coming out of it and going back in. It will include coming back at the end. If you are recording your induction, read the script to yourself first (if you can). Know that you can end the induction any time you want by saying “stop” or by opening your eyes. You can also say “less” to make the induction ask less of you, or “quiet” to make it stop talking. You do not need permission from any inner part to stop, even if you feel like a part is telling you that you need permission.
+
+5. If you have not done hypnosis before, or if you haven’t done it in a while, practice the coming in and out part first, and leave difficult subjects for later. You don’t have to watch yourself the whole time, but it is good to make sure you can do the state change at first. Let a useful response get easier and take less effort. The answer no will stay no. And if you say nothing, that isn’t a yes, so a narrator can’t add things you haven’t agreed to.
+
+6. Let the response you got guide what happens next, whatever the script expected. [Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) is the act of letting your current response guide where you go next: a thought, a sound, a movement, or an objection may change where the practice goes. Learn to notice what does happen as you go. Also learn that if nothing happens, that doesn’t mean there was a positive, hidden change. Keep the safety and exit instructions plain. If you need more tools on utilization, see Appendix B, or read on to Let the next response guide you, which shows how to use them after the induction.
+
+## Sober induction: 3–5 minutes
+
+Read this slowly to yourself on a recorder, or read it aloud, or learn how it moves and say it silently if you are good at that. Pick a sound, a contact on your body, or the two hands thing (below) to be your anchor for this, and pick an opening phrase. Keep using the same anchor wherever the words mention it. Don’t read the stage directions out loud, just pause between paragraphs.
+
+Allow your eyes to rest on something in the room for a little while. Notice the difference between looking for something and just letting what’s already there come into view.
+
+As you rest, allow yourself to notice something you can feel, perhaps the sensation of something beneath you … the contact, the pressure. A sound may draw your attention, or a breath, or something else, all on its own.
+
+Allow yourself some time to do this.
+
+You may notice a thought arising, about the day, or about whether you’re doing this properly. Whenever you notice a thought, simply allow yourself to re-engage with whatever you've chosen to anchor yourself, and leave the thought unfinished.
+
+You may focus your attention on one aspect of what you're doing … perhaps a particular detail of a sound, or a sensation, or the act of listening itself … and let your attention stay with it long enough to get curious.
+
+Allow yourself some time to do this, the time you would give someone you care about who has started to speak and hasn’t found the words yet. You’d stay nearby and listen while they finish their own sentence.
+
+Now say to yourself the phrase you have chosen, as an invitation. Allow yourself to notice how it is received.
+
+You may now choose to close your eyes, or soften your gaze, or keep your eyes open as you see fit. You may continue to deepen your listening as you wish, perhaps keeping in mind in the background something you're hearing.
+
+When you feel ready, count from 5 down to 1, allowing yourself some time for each count.
+
+5... focus your attention once more on your chosen anchor. 4... allow more of your attention to gather around what you find. 3... leave a little space after the words. 2... listen into that space. Don’t get an answer ready. 1... stay here for a moment, allowing yourself some time to settle in.
+
+Bring your chosen concern lightly to mind, if you wish, or just stay with your wish for inner contact. Let it be there. Its whole story can wait.
+
+What am I noticing now?
+
+Allow yourself to notice what comes to you, if anything, and give it time to take its own form. Notice how it comes to you, if it does - sensation, words, pictures, feelings, movements, etc.
+
+Allow yourself some time to notice, with or without words.

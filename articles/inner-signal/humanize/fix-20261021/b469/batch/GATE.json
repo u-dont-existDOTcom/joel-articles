@@ -1,0 +1,286 @@
+{
+ "HG18-count-feet": {
+  "kind": "edit",
+  "was": "466g HG18-smp1 (Pangram 4.0), 100% Human whole and in every paragraph: https://www.pangram.com/history/f456f1ca-b66b-4830-8f96-45d8d8e64bac; not read in 4.1 yet (installed after the first whole-guide check)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S S S"
+  ],
+  "march": [
+   "S S S S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG18.md (round 2: P3, the edited count, OK; round 1, r1/SENSE-HG18.md, had flagged its \"the five steps listed above\", which pointed at nothing above, and paused on the closing quotation mark with no opening one: both fixed. Its two flags are in installed text the edit doesn't touch: P2's \"All instructions you have given me\", which Joel kept when he chose this version (question 4, d, where the page listed it; putting back the published \"All instructions to deepen or remain in this session are finished\" brought an AI window back in 465g), and P6's \"reset word\", the published \"an undefined reset word\")",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 1: every point of the edit kept (the body's contact back, nothing added); its two CHANGED items are in the installed count Joel chose (question 4, d), and round 3 put the published \"name where you are\" back for one of them (articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 1)",
+  "stance_note": "0: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md (round 2, the return steps against the whole published essay) found no conflict in them, and no contradiction in their published text",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 64,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG18-stopped-press": {
+  "kind": "edit",
+  "was": "466g HG18-smp1 (Pangram 4.0), 100% Human whole and in every paragraph: https://www.pangram.com/history/f456f1ca-b66b-4830-8f96-45d8d8e64bac; not read in 4.1 yet (installed after the first whole-guide check)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S"
+  ],
+  "march": [
+   "S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG18.md (round 2: P5, the edited paragraph, OK; paused on the added \"Press your feet or hands into a surface first.\", not flagged. Its two flags are in installed text, answered under HG18-count-feet)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 2: the pressing kept; \"first\" had put it before the count, against the published order, so round 3 says \"as well\" (articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 2). Its LOST items (naming the day, looking around) are in \"the above\", whose paragraph the checker didn't have (remind yourself what day or date it is, look left and right, near and far); \"you can say to yourself\" and \"do the above\" are the installed wording Joel chose (question 4, d, where the page listed them)",
+  "stance_note": "0: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md (round 2, the return steps against the whole published essay) found no conflict in them, and no contradiction in their published text",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 128,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG32-prose-p1": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 3: every point kept, the fourteen signs and the four tests included; its two CHANGED points fixed in round 3 (\"I won't assume I know what it proves\", \"Real love can handle my boundaries, can't it?\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fixes 3 and 4); its ADDED points accepted: the catch-alls widen a list without dropping an item (Joel's own move, E125), \"You could say something like\" is the guide's own lead-in for a line to say, and the dishes are an example of ordinary life. Round 1 (r1/VERIFY.md pair 2) had five slight changes, each fixed in round 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 1 and 2 (\"decide yet what that proves\"; \"Would real love mind my boundaries?\") fixed in rounds 3 and 4 (\"I won't assume I know what it proves\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 3; \"If it's real love, it'll survive my boundaries\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 3); it found no contradiction in the published checklist; round 1 (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md) found none in Appendix C",
+  "was": "Appendix C as published: AI 1.00 alone (Pangram 4.0, https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121); AI, high, in the whole guide (4.1, window 6 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 102,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG32-prose-p2": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S",
+   "S S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 3: every point kept, the fourteen signs and the four tests included; its two CHANGED points fixed in round 3 (\"I won't assume I know what it proves\", \"Real love can handle my boundaries, can't it?\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fixes 3 and 4); its ADDED points accepted: the catch-alls widen a list without dropping an item (Joel's own move, E125), \"You could say something like\" is the guide's own lead-in for a line to say, and the dishes are an example of ordinary life. Round 1 (r1/VERIFY.md pair 2) had five slight changes, each fixed in round 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 1 and 2 (\"decide yet what that proves\"; \"Would real love mind my boundaries?\") fixed in rounds 3 and 4 (\"I won't assume I know what it proves\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 3; \"If it's real love, it'll survive my boundaries\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 3); it found no contradiction in the published checklist; round 1 (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md) found none in Appendix C",
+  "was": "Appendix C as published: AI 1.00 alone (Pangram 4.0, https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121); AI, high, in the whole guide (4.1, window 6 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 144,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG32-prose-p3": {
+  "kind": "draft",
+  "march": [
+   "S S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 3: every point kept, the fourteen signs and the four tests included; its two CHANGED points fixed in round 3 (\"I won't assume I know what it proves\", \"Real love can handle my boundaries, can't it?\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fixes 3 and 4); its ADDED points accepted: the catch-alls widen a list without dropping an item (Joel's own move, E125), \"You could say something like\" is the guide's own lead-in for a line to say, and the dishes are an example of ordinary life. Round 1 (r1/VERIFY.md pair 2) had five slight changes, each fixed in round 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 1 and 2 (\"decide yet what that proves\"; \"Would real love mind my boundaries?\") fixed in rounds 3 and 4 (\"I won't assume I know what it proves\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 3; \"If it's real love, it'll survive my boundaries\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 3); it found no contradiction in the published checklist; round 1 (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md) found none in Appendix C",
+  "was": "Appendix C as published: AI 1.00 alone (Pangram 4.0, https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121); AI, high, in the whole guide (4.1, window 6 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 65,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG32-prose-p4": {
+  "kind": "draft",
+  "march": [
+   "S S S S",
+   "S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 3: every point kept, the fourteen signs and the four tests included; its two CHANGED points fixed in round 3 (\"I won't assume I know what it proves\", \"Real love can handle my boundaries, can't it?\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fixes 3 and 4); its ADDED points accepted: the catch-alls widen a list without dropping an item (Joel's own move, E125), \"You could say something like\" is the guide's own lead-in for a line to say, and the dishes are an example of ordinary life. Round 1 (r1/VERIFY.md pair 2) had five slight changes, each fixed in round 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 1 and 2 (\"decide yet what that proves\"; \"Would real love mind my boundaries?\") fixed in rounds 3 and 4 (\"I won't assume I know what it proves\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 3; \"If it's real love, it'll survive my boundaries\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 3); it found no contradiction in the published checklist; round 1 (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md) found none in Appendix C",
+  "was": "Appendix C as published: AI 1.00 alone (Pangram 4.0, https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121); AI, high, in the whole guide (4.1, window 6 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 110,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG32-prose-p5": {
+  "kind": "draft",
+  "march": [
+   "S S S",
+   "S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 3: every point kept, the fourteen signs and the four tests included; its two CHANGED points fixed in round 3 (\"I won't assume I know what it proves\", \"Real love can handle my boundaries, can't it?\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fixes 3 and 4); its ADDED points accepted: the catch-alls widen a list without dropping an item (Joel's own move, E125), \"You could say something like\" is the guide's own lead-in for a line to say, and the dishes are an example of ordinary life. Round 1 (r1/VERIFY.md pair 2) had five slight changes, each fixed in round 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 1 and 2 (\"decide yet what that proves\"; \"Would real love mind my boundaries?\") fixed in rounds 3 and 4 (\"I won't assume I know what it proves\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 3; \"If it's real love, it'll survive my boundaries\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 3); it found no contradiction in the published checklist; round 1 (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md) found none in Appendix C",
+  "was": "Appendix C as published: AI 1.00 alone (Pangram 4.0, https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121); AI, high, in the whole guide (4.1, window 6 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 69,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG32-prose-p6": {
+  "kind": "draft",
+  "march": [
+   "S S S",
+   "S S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 3: every point kept, the fourteen signs and the four tests included; its two CHANGED points fixed in round 3 (\"I won't assume I know what it proves\", \"Real love can handle my boundaries, can't it?\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fixes 3 and 4); its ADDED points accepted: the catch-alls widen a list without dropping an item (Joel's own move, E125), \"You could say something like\" is the guide's own lead-in for a line to say, and the dishes are an example of ordinary life. Round 1 (r1/VERIFY.md pair 2) had five slight changes, each fixed in round 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 1 and 2 (\"decide yet what that proves\"; \"Would real love mind my boundaries?\") fixed in rounds 3 and 4 (\"I won't assume I know what it proves\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 3; \"If it's real love, it'll survive my boundaries\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 3); it found no contradiction in the published checklist; round 1 (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md) found none in Appendix C",
+  "was": "Appendix C as published: AI 1.00 alone (Pangram 4.0, https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121); AI, high, in the whole guide (4.1, window 6 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 69,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG32-prose-p7": {
+  "kind": "draft",
+  "march": [
+   "S S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/SENSE-HG32.md (round 2: every paragraph of the section OK, the prose and the audit; paused on \"If it’s true, it can handle my questions.\" and \"Being rescued counts too.\", not flagged; round 1, r1/SENSE-HG32.md, had no flags either)",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/r2/VERIFY.md pair 3: every point kept, the fourteen signs and the four tests included; its two CHANGED points fixed in round 3 (\"I won't assume I know what it proves\", \"Real love can handle my boundaries, can't it?\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fixes 3 and 4); its ADDED points accepted: the catch-alls widen a list without dropping an item (Joel's own move, E125), \"You could say something like\" is the guide's own lead-in for a line to say, and the dishes are an example of ordinary life. Round 1 (r1/VERIFY.md pair 2) had five slight changes, each fixed in round 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 1 and 2 (\"decide yet what that proves\"; \"Would real love mind my boundaries?\") fixed in rounds 3 and 4 (\"I won't assume I know what it proves\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md fix 3; \"If it's real love, it'll survive my boundaries\", articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 3); it found no contradiction in the published checklist; round 1 (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md) found none in Appendix C",
+  "was": "Appendix C as published: AI 1.00 alone (Pangram 4.0, https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121); AI, high, in the whole guide (4.1, window 6 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 54,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG14-cf-addressee": {
+  "kind": "edit",
+  "was": "456g HG14-smp2 (Pangram 4.0); Human, high, in the whole guide (4.1, window 36 of part A, https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S S"
+  ],
+  "march": [
+   "S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 1: WHO clear (the guard), READS fine, CHANGED only who is meant (the closing quotation mark a typo repair); the fix agrees with the published script",
+  "stance_note": "0: articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md (round 1, the whole published essay with Joel's 2026-10-21 positions) found no conflict in this fix",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 144,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG20-cf-roles": {
+  "kind": "edit",
+  "was": "452g HG20-rfix2 (Pangram 4.0); Human, high, in the whole guide (4.1, window 66 of part A, https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S"
+  ],
+  "march": [
+   "S S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 2 (the capitals: WHO clear, READS fine; its note on \"Witness\" is about installed text the guide introduces earlier) and r1/STANCE.md conflict 1, which the round-2 sentence answers (\"and if you can't do one yet, borrow it\", the published \"When a capacity isn't available, borrow that one function\")",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 4: the roles and the borrowing match the published text (your Nurturer, Protector or Leader; the one whose job you need; borrow it if you can't do it yet); of its two remaining differences, the Leader's job is back to the published \"the life you want\" in this round, and \"You don't have to talk to them\" for \"They don't each need a speech\" is the installed wording (452g HG20-rfix2), a reading the checker allows. Rounds 1 and 2: r2/VERIFY.md pair 4, CONFLATION-REVIEW.md fix 2",
+  "stance_note": "0 after the fixes: articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md conflict 1 (the roles as outside helpers who do what you can't) fixed in round 2 (\"and if you can't do one yet, borrow it\"); articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md conflicts 3 and 4 (an open set of helpers with \"etc\", \"a Protector\" next to the guards, \"whatever function you need\") fixed in round 4 (\"your\", the three roles, \"the one whose job you need\"), each back to the published wording's meaning (articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 4)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 99,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG24-cf-grownup": {
+  "kind": "edit",
+  "was": "460g HG24-fix (Pangram 4.0); Human, high, in the whole guide (4.1, window 71 of part A, https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 3: WHO clear, READS fine, CHANGED no; it moves the passage toward the published pair (the inherited parent's \"old belonging rule\", \"the new adult voice\")",
+  "stance_note": "0: articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md found no conflict in this fix",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 69,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG36-cf-protector": {
+  "kind": "edit",
+  "was": "462g HG36-fix (Pangram 4.0); Human, high, in the whole guide (4.1, window 30 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S B"
+  ],
+  "march": [
+   "S S B"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 4: WHO clear (a protector part), READS fine, CHANGED only who is meant; the published \"a Protector is showing fear\" reads as a part despite its capital, so the fix doesn't move away from it",
+  "stance_note": "0 for the fix (articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md lists the published \"a Protector is showing fear\" among the published text's contradictions, which this fix removes). Its conflict 2 is the installed closing sentence of the same paragraph (\"Regardless of how scary an image is, regardless of the lighting that came with the \"download\", regardless of how \"bad\" you feel, it doesn't necessarily mean what you think it does!\"), answered: it names each of the three (the frightening image, the download's lighting, the bad feeling) and says none of them necessarily means what you think, the published point that none is automatically truth, a lesson or a reason for belief; it is Emulate's text of 462g (Human whole and in every paragraph), let stand in its triage",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 108,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG37-cf-nurturer": {
+  "kind": "edit",
+  "was": "455g HG37-smp (Pangram 4.0); Human, high, in the whole guide (4.1, window 30 of part B, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md fix 5, FLAG answered: the reviewer found the trigger changed beyond who is meant (from a need to protect yourself from the presence to a sense of guarding something), and found that the change brings the passage back to the published \"If vulnerability appears—a knot in the throat, sadness, fear, or a sense of trying to protect something—you can bring in the Nurturer\". The installed wording was the drift (the Emulate run that wrote it turned a sign of vulnerability into a need for protection and still sent it to the Nurturer, the role swap the sweep found), so the published meaning is the one to keep; what the reader does is unchanged (call the Nurturer; if it stays hostile, stop and return to the room)",
+  "stance_note": "0: articles/inner-signal/humanize/fix-20261021/b469/r1/STANCE.md found no conflict in this fix",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 55,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ },
+ "HG24-cf-anxious": {
+  "kind": "edit",
+  "was": "460g HG24-fix (Pangram 4.0); Human, high, in the whole guide (4.1, window 71 of part A, https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S S"
+  ],
+  "march": [
+   "S S S"
+  ],
+  "cold_read": "articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md (published contradiction 1) and fix-20261021/CONFLATION-SWEEP.md (its coverage list, \"You get anxious\": clear but for the capital P); lowercase only, so the paragraph reads as it did",
+  "grounding_note": "articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r4.md fix 5: lowercase \"protector parts\" marks the screaming guards as guards, not the inner adult's Protector; nothing else changed",
+  "stance_note": "0: the fix removes the contradiction articles/inner-signal/humanize/fix-20261021/b469/r2/STANCE-r2.md found (the anxious guard under the Protector's name, against Joel's 2026-10-21 position)",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 86,
+  "march_reads": "articles/inner-signal/humanize/fix-20261021/b469/march.json"
+ }
+}

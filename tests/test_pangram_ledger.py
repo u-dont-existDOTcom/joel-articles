@@ -58,6 +58,24 @@ class Ledger(unittest.TestCase):
         self.result('s2', 'AI')
         self.assertEqual(self.predict('s3', lineage='S13', scope='section', diagnosis='another'), 2)
 
+    def test_a_substack_article_check_goes_past_two_when_it_decides_something(self):
+        """Joel, 2026-10-21 17:56 UTC, question 7 b: Substack checks of a whole article may go past two, each predicted
+        first and run only when its result decides something. A pangram.com article check keeps the cap of two."""
+        def sub(body, decides=None, diagnosis='the fixes since the last check'):
+            argv = ['predict', self.ledger, '--lineage', 'W', '--scope', 'article', '--text', self.text(body), '--call', 'AI',
+                    '--chance', '0.1', '--tells', 'as-published sections', '--diagnosis', diagnosis,
+                    '--detector', "pangram 4.1, Pangram's check of the Substack draft (free)"]
+            return L.main(argv + (['--decides', decides] if decides else []))
+        for i in range(3):
+            self.assertEqual(sub('w%d' % i, decides='whether the fixes hold'), 0)
+            self.result('w%d' % i, 'Mixed')
+        self.assertEqual(sub('w3'), 2)   # past two, and no --decides
+        self.assertEqual(self.predict('a1', lineage='A', scope='article'), 0)
+        self.result('a1', 'Mixed')
+        self.assertEqual(self.predict('a2', lineage='A', scope='article', diagnosis='fixed'), 0)
+        self.result('a2', 'Mixed')
+        self.assertEqual(self.predict('a3', lineage='A', scope='article', diagnosis='fixed again'), 2)
+
     def test_a_retry_after_a_failure_needs_a_diagnosis(self):
         self.predict('v1')
         self.result('v1', 'AI')
