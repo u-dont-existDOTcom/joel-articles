@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "9af9d342cd214b41e79949aca374d05a283f17be5e370f3b5766ac7e733e4f54",
+          "sha256": "85d4b8b36b1e3636bf20b29e99aad697d8dd0c44a1bc751b6dcb755b72adf78c",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -22939,7 +22939,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/pangram-ledger.jsonl",
-          "sha256": "8148557850a3029d736521cc251992171c49ab506ba2397bcd765593cb798b74",
+          "sha256": "8eca5dc33df7f02bc70b62a7bcc908d8f9ba47b89cd7ebf2b33d2089cfcb983b",
           "role": "humanization_working_record"
         },
         {
@@ -23175,6 +23175,36 @@
         {
           "path": "articles/inner-child-therapy/experiments/t80-answers/claude-in-chrome-settings-joel-20261021-1806.png",
           "sha256": "fb810531693e1e757785f711109f8be9ffbe4439acb6503c47c1b864c2a98af2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t81-answers/JOEL-20261021-2242.md",
+          "sha256": "eacebbd74c83667d74efbeac962e44589690423cd37a41a67b8bdad8611db347",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t81-conflation/ARTICLE-READER.md",
+          "sha256": "d79255e8f381166d9d6ea1a680bf80dc8e6ac5ddc8f97fd94c82a88456de157e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t81-conflation/CONFLATION-PROMPT.txt",
+          "sha256": "a23761cff943b20939577fef453156aca0fc0d80026c0ee1e300de20b5e2b31d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t81-conflation/CONFLATION-SWEEP.md",
+          "sha256": "446e91e3bd7f812795856a936f3a01be0d0513051b94bd17eed7f9ff27a5c39e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t81-conflation/MAP.txt",
+          "sha256": "91690fd1c09368ac542c36e869110369a38f20f85d4f1eb3f20078fe12a0fbb0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t81-conflation/let-child-bad-P2-t81.txt",
+          "sha256": "117cf647ac85514d1dda2ab31cfdfedf9d9204cf750e71d4ef63bad6410868a1",
           "role": "humanization_working_record"
         }
       ]
