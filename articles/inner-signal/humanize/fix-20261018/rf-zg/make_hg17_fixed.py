@@ -269,6 +269,95 @@ APPEND = {
     17: ('P55: Nimja\'s sleep playlist (the link)', "For sleep hypnosis, see Nimja’s sleep playlist."),
 }
 DROP = {(7, 6): 'Emulate\'s own heading line ("Induction for when you are sober (3-5 min)") above the published heading'}
+# Round 2 (2026-10-21, after the first reviews: SENSE-HG17.md, STANCE-HG17.md, march/march-labels.txt and
+# HG17.fixed.verify.out.md): exact replacements in the paragraph as round 1 left it (ba's own paragraph where round 1 didn't
+# change it), each with the finding it answers.
+REVIEWS = {
+    (7, 1): [(2, 'stance 1: choosing what you leave alone is part of every session\'s setup (Quick start: "Choose one purpose '
+              'and what you are leaving alone today"; published P11), not an option',
+              'You might also want to pick what you are NOT going to do.', 'Also pick what you are NOT going to do today.'),
+             (2, 'stance 2: communion is the essay\'s word for the inner meeting of the conscious mind, the subconscious, the '
+              'body and the parts (Introduction), not "communion with things"',
+              'or communion with things.', 'or communion.')],
+    (7, 2): [(2, 'stance, the published text\'s own contradiction: "otherwise" made every intoxicated reader one who can\'t '
+              'keep safe; the published lists three conditions ("When intoxicated, acutely confused, or unable to keep '
+              'yourself safe"). Whether exploratory hypnosis on loveyhuasca is ruled out goes to Joel (question 11)',
+              'or otherwise not capable of protecting yourself,', 'or not able to keep yourself safe,')],
+    (7, 3): [(2, 'cold read P11: "make it ask less of you": who is "it"', 'to make it ask less of you',
+              'to make the induction ask less of you')],
+    (7, 4): [(2, 'stance 3: the published asks for the first rehearsals "without a difficult subject", not entry and exit '
+              'drills before any other use',
+              'practice the coming in and out part first before trying to do it for anything else.',
+              'practice the coming in and out part first, and leave difficult subjects for later.')],
+    (7, 5): [(2, 'cold read P13: "these things" could be the steps or the thought, sound, movement or objection just listed',
+              'Learn to notice what does happen when you do these things.', 'Learn to notice what does happen as you go.'),
+             (3, 'meaning, part 1, P15: Appendix B holds "richer language tools" (the published), not "more tools on '
+                 'utilization"', 'If you need more tools on utilization, see Appendix B,',
+              'If you need richer language tools, see Appendix B,')],
+    (9, 5): [(3, 'meaning, part 1, P22: "focus your attention on one aspect" made the step willed; the published lets a '
+                 'detail "hold your interest", the script\'s receptive way',
+              "You may focus your attention on one aspect of what you're doing",
+              "You may find one aspect of what you're doing holding your interest")],
+    (9, 8): [(3, 'meaning, part 1, P25: the published keeps "a sound from the room" available in the background (a link to '
+                 'the room); "something you\'re hearing" lost the room',
+              "something you're hearing.", 'a sound from the room.')],
+    (9, 12): [(3, 'meaning, part 1, P30: "There may be nothing clear yet" was lost, and "Notice how it comes to you" read as a '
+                  'new step; the published lists the forms ("It might be a sensation, a few words, ...")',
+               'Notice how it comes to you, if it does - sensation, words, pictures, feelings, movements, etc.',
+               'It might come as sensation, words, pictures, feelings, movements, etc. It may not be clear yet.')],
+    (9, 0): [(2, 'cold read P14: "the instructions" could be this paragraph or the script\'s own lines; the published: "don\'t '
+              'read the delivery directions aloud"',
+              'Don’t read the instructions, just pause between paragraphs.',
+              'Don’t read the stage directions out loud, just pause between paragraphs.')],
+    (9, 7): [(2, 'march: round 1 took its one break away ("Allow yourself to notice how it resonates with you" had been its own '
+              'sentence); the noticing is its own sentence again',
+              'Now say to yourself the phrase you have chosen. Say it as an invitation, and allow yourself to notice how it '
+              'is received.',
+              'Now say to yourself the phrase you have chosen, as an invitation. Allow yourself to notice how it is '
+              'received.')],
+    (9, 11): [(2, 'cold read P25: "contact" had been physical in this script ("a contact on your body", "the contact, the '
+               'pressure"); the wish is for contact inside', 'your wish for contact.', 'your wish for inner contact.')],
+    (11, 3): [(2, 'stance 4: "in my adult body, with my adult experience" ties the adult self to age; the essay keeps adult '
+               'capacity apart from chronological age ("Don\'t decide from the person\'s chronological age"; "Those adult '
+               'functions still grow through practice"), the inner-adult conflation Joel asked to check for; the published: '
+               '"The adult self remains present"',
+               'I am here, in my adult body, with my adult experience.', 'I am here, and my adult self stays present.')],
+    (11, 2): [(3, 'meaning, part 2, P35: "say out loud where you are" is a new instruction; the published: "Name where you are"',
+               'look around and say out loud where you are', 'look around and name where you are')],
+    (11, 4): [(2, 'cold read P33: "choose one thing you want to do" and one thing follows; the published: "Once oriented, '
+               'choose one intention"', 'choose one thing you want to do:', 'set one intention:')],
+    (17, 0): [(3, 'meaning, part 3, and the inner-figure rule of 2026-10-21: "the Adult" with a capital reads as a named part; '
+                  'the published: "In inner work, the adult returns, writes, and acts"',
+               'where the Adult ultimately needs', 'where the adult ultimately needs')],
+    (21, 1): [(3, 'meaning, part 3, P61: the scene is "simple" in the published ("Choose one simple scene"), and "a chair '
+                  'where the adult waits" has a lowercase adult (a capital reads as a named part)',
+               'Pick an inner scene', 'Pick a simple inner scene'),
+              (3, 'the same', 'a chair where the Adult waits', 'a chair where the adult waits')],
+    (25, 3): [(3, 'meaning, part 3, P70: the published leads into the statement to say ("Give it the meaning you choose:"); '
+                  'the colon makes the next line the thing you say',
+               'it means whatever you say it means.', 'it means whatever you say it means:')],
+    (25, 5): [(3, 'meaning, part 3, P72: "Return fully" (the published) had become "come back up"',
+               'Now come back up and at some point', 'Now come all the way back up and at some point'),
+              (3, 'meaning, part 3, P72: "Give it time" was lost', 'You can gradually shorten the longer induction',
+               'Give it time: you can gradually shorten the longer induction')],
+    (25, 6): [(3, 'meaning, part 3, P73: the check that changing direction stays workable was lost ("turn it on and off" '
+                  'covers returning only)',
+               'and that it stays away when you haven\'t chosen it.', 'and that it stays away when you haven\'t chosen it. '
+               'Can you still change direction while you\'re in it?')],
+    (23, 4): [(2, 'cold read P56: "it is \\"True\\"" and "it just might be listening": true about what, and which "it" listens; '
+               'the published: "None proves truth. At most, something may be listening"',
+               'that doesn\'t mean it is "True" in any way, it just might be listening.',
+               'that doesn\'t prove anything is "True", it just means something might be listening.')],
+    (25, 8): [(2, 'stance 5: qualified help is for what persists (the published: "Persistent unwanted responses or '
+               'disorientation need qualified help"); brief unreality gets grounding in the essay\'s troubleshooting',
+               'If you still have the response when you don\'t want it, or you feel disoriented after the state,',
+               'If the response keeps coming when you don\'t want it, or you stay disoriented after the state,'),
+              (2, 'march: taking out "it is a good start" (an invention) took the paragraph\'s one break; a permission brings '
+               'one back, and the published allows a kept cue ("Any retained cue is for a future, separately chosen '
+               'session")',
+               'If you want to keep it for future use, it\'s only for beginning',
+               'If you want to keep it for future use, that\'s fine, but it\'s only for beginning')],
+}
 LINKS = {7: [{'published': 'Utilization', 'new': 'Utilization'}],
          13: [{'published': 'hypnosis can become more alert rather than more relaxed',
                'new': 'hypnosis can be more alert rather than more relaxed'}],
@@ -292,10 +381,22 @@ def main():
                 continue
             if (ui, pi) in FIX:
                 why, text = FIX[(ui, pi)]
-                log.append({'unit': ui, 'para': pi, 'kind': 'fix', 'points': why, 'was': p, 'new': text})
-                new.append(text)
+                entry = {'unit': ui, 'para': pi, 'kind': 'fix', 'points': why, 'was': p, 'new': text}
             else:
-                new.append(p)
+                text, entry = p, None
+            for rnd, finding, old, rep in REVIEWS.get((ui, pi), []):
+                assert text.count(old) == 1, ((ui, pi), old)
+                round1 = text
+                text = text.replace(old, rep)
+                if entry is None:
+                    entry = {'unit': ui, 'para': pi, 'kind': 'review', 'points': '', 'was': p, 'new': text}
+                entry.setdefault('round1', round1)
+                entry['new'] = text
+                entry.setdefault('reviews', []).append(finding)
+                entry.setdefault('rounds', []).append(rnd)
+            if entry:
+                log.append(entry)
+            new.append(text)
         if ui in APPEND:
             why, text = APPEND[ui]
             new.append(text)
@@ -303,10 +404,12 @@ def main():
         u['paras'] = new
         if ui in LINKS:
             u['links'] = LINKS[ui]
-        u['fixes'] = [x['points'] for x in log if x['unit'] == ui]
+        u['fixes'] = ['; '.join([x['points']] * bool(x['points']) + x.get('reviews', [])) for x in log if x['unit'] == ui]
     used = {(x['unit'], x['para']) for x in log if x['kind'] == 'fix'} | set(DROP)
     missing = set(FIX) - used
     assert not missing, missing
+    rmissing = set(REVIEWS) - {(x['unit'], x['para']) for x in log if x.get('reviews')}
+    assert not rmissing, rmissing
     d['from'] = 'rf-zg/HG17.ba.json (emu-ba over rf-j/HG17.fixed.json), with make_hg17_fixed.py'
     d['note'] = ('every point the second reader found lost put back in ba\'s sentences, its inventions taken out, and the '
                  'changes that alter what a reader does or believes put right (rf-zg/HG17.ba.verify.out.md)')

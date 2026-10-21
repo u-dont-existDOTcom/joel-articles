@@ -1,0 +1,35 @@
+Below are 11 paragraphs from a long self-help guide to self-hypnosis ("the inner child", "the Nurturer", "the Adult" and "protectors" are the guide's terms; much of this part is a script the reader records or says to themselves), each one on its own, with its sentences numbered.
+
+Label every numbered sentence of every paragraph S (STEP) or B (BREAK):
+- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.
+- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said ("Or put it in your own words."); a pause, waiting, or a permission ("If it doesn't come, that's okay for today."); stopping to consider what something might feel like or be like ("It might be more of a mood. Sadness, maybe."); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.
+Judge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.
+
+Don't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:
+T1: S S B S S
+T2: S B S B
+
+T1: [1] Let the response you got guide what happens next, whatever the script expected. [2] Utilization is the act of letting your current response guide where you go next: a thought, a sound, a movement, or an objection may change where the practice goes. [3] Learn to notice what does happen as you go. [4] Also learn that if nothing happens, that doesn’t mean there was a positive, hidden change. [5] Keep the safety and exit instructions plain. [6] If you need richer language tools, see Appendix B, or read on to Let the next response guide you, which shows how to use them after the induction.
+
+T2: [1] You may find one aspect of what you're doing holding your interest … perhaps a particular detail of a sound, or a sensation, or the act of listening itself … and let your attention stay with it long enough to get curious.
+
+T3: [1] You may now choose to close your eyes, or soften your gaze, or keep your eyes open as you see fit. [2] You may continue to deepen your listening as you wish, perhaps keeping in mind in the background something you're hearing.
+
+T4: [1] You may now choose to close your eyes, or soften your gaze, or keep your eyes open as you see fit. [2] You may continue to deepen your listening as you wish, perhaps keeping in mind in the background a sound from the room.
+
+T5: [1] Allow yourself to notice what comes to you, if anything, and give it time to take its own form. [2] It might come as sensation, words, pictures, feelings, movements, etc. [3] It may not be clear yet.
+
+T6: [1] Orient yourself: look around and name where you are, what date (or day) it is, feel your body, ground yourself, feel your feet, hands, spine, etc. [2] Make some physical contact with yourself (press your thumbs to the tip of your index fingers, gently but firmly, so you can feel the friction). [3] Focus on the physical sensation.
+
+T7: [1] Sleep induction has a different goal than inner work, where the adult ultimately needs to come back in to write things down and take actions. [2] When you are going to sleep you want your analytical mind to stand down until the next day, when you have time for revelations. [3] The task is rest.
+
+T8: [1] Pick a simple inner scene to go into when you get there. [2] It can be a room in your heart, a garden, a temple, sitting by a fire with the Protector nearby, at a lake with clear water where you can see the bottom, or a chair where the adult waits, whatever feels right to you. [3] Just pick one.
+
+T9: [1] Pick a distinctive word, phrase or motion ( optional ) that you will use to go back into hypnosis. [2] Practice saying the word or phrase while doing the motion ( if you picked one ) when you are in a good, familiar hypnotic state, pairing it with that receptive way of listening, and not with a peak of emotion, a child state or a traumatic scene. [3] You are picking the state here, it means whatever you say it means:
+
+T10: [1] Now come all the way back up and at some point when it is appropriate for you to begin a practice, start using this. [2] Give it time: you can gradually shorten the longer induction as you find this useful, or just do the longer induction when this doesn't seem to be enough for what you are working on. [3] You don't have to do it any particular number of times, you don't have to go a certain depth instantly, and you don't need to have any particular sensation when you do this.
+
+T11: [1] Check to make sure it is useful, that you can turn it on and off at will, and that it stays away when you haven't chosen it. [2] Can you still change direction while you're in it? [3] It must never turn into obeying a narrator, a notification, or anything you might overhear; it is a tool for you to use when you pick to use it. [4] Going into hypnosis faster doesn't mean you should be working on things you aren't ready for.
+
+
+Write exactly those lines, one per paragraph from T1 to T11, with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/rf-zg/r3/march-labels.txt`, then reply with only "done". Don't read any other file, don't run commands, and don't use the web.

@@ -2,7 +2,7 @@
 copy): the old part A prediction is voided and the new one written before the re-paste.
 
 Part A (key HG-whole-41r2-a, 19:23 UTC) had not been opened when the induction section's fixed version was installed:
-no result in Joel's History or the app's pane by 20:40 UTC, and he had not answered the 19:32 message. So part A was rebuilt
+no result in Joel's History or the app's pane by 21:35 UTC, and he had not answered the 19:32 message. So part A was rebuilt
 from the working copy (make_recheck.py) and pasted into the same temporary draft, and one opening reads both batch 469g and
 the listening script. Part B (Appendices to the end) doesn't hold the section; its text and prediction (HG-rest-41r2-b)
 stay as they were.
@@ -52,7 +52,7 @@ def main():
         rc = ledger('void', LEDGER, '--sha', pa['sha256'], '--reason',
                     'never opened: part A of the recheck was rebuilt with the induction section\'s fixed version (HG17) and '
                     'pasted into the same temporary draft before Joel opened the 19:32 UTC links (no result in his History '
-                    'or the app\'s pane at 20:40 UTC); key HG-whole-41r3-a is its text now')
+                    'or the app\'s pane at 21:35 UTC); key HG-whole-41r3-a is its text now')
         if rc:
             return rc
     p = NEW_A

@@ -482,19 +482,19 @@ When writing your induction, pick a central verb, a sensory quality, a short ref
 
 1. Read this page, and the Come all the way back page, when you are fully awake.
 
-2. Decide what you want to do during the induction. You might be asking a question, building a quality, or exploring a state. You might also want to pick what you are NOT going to do. Consider your time. Remember that this doesn’t have to be about a problem, and you can use it for good stuff too, like love, play, confidence, creativity, or communion with things. Make sure to leave a few minutes at the end for coming back and for reflection.
+2. Decide what you want to do during the induction. You might be asking a question, building a quality, or exploring a state. Also pick what you are NOT going to do today. Consider your time. Remember that this doesn’t have to be about a problem, and you can use it for good stuff too, like love, play, confidence, creativity, or communion. Make sure to leave a few minutes at the end for coming back and for reflection.
 
-3. Make sure you are in a safe place. Don’t do this if you are driving, in water, operating machinery, or otherwise in a place where you need to attend to yourself or others. If you are intoxicated, acutely confused, or otherwise not capable of protecting yourself, then get some immediate support instead of doing exploratory hypnosis. The later part of this (the already open? section) is for orienting yourself. Don’t use it to make an unstable state any deeper.
+3. Make sure you are in a safe place. Don’t do this if you are driving, in water, operating machinery, or otherwise in a place where you need to attend to yourself or others. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. The later part of this (the already open? section) is for orienting yourself. Don’t use it to make an unstable state any deeper.
 
-4. Decide how you want to be coaxed into it. Do you want to feel like you have a lot of room, or do you want to feel held and warm? Or do you need a firmer invitation to stay with a feeling? Preview to yourself what you are going to do. This might involve closing your eyes, or even coming out of it and going back in. It will include coming back at the end. If you are recording your induction, read the script to yourself first (if you can). Know that you can end the induction any time you want by saying “stop” or by opening your eyes. You can also say “less” to make it ask less of you, or “quiet” to make it stop talking. You do not need permission from any inner part to stop, even if you feel like a part is telling you that you need permission.
+4. Decide how you want to be coaxed into it. Do you want to feel like you have a lot of room, or do you want to feel held and warm? Or do you need a firmer invitation to stay with a feeling? Preview to yourself what you are going to do. This might involve closing your eyes, or even coming out of it and going back in. It will include coming back at the end. If you are recording your induction, read the script to yourself first (if you can). Know that you can end the induction any time you want by saying “stop” or by opening your eyes. You can also say “less” to make the induction ask less of you, or “quiet” to make it stop talking. You do not need permission from any inner part to stop, even if you feel like a part is telling you that you need permission.
 
-5. If you have not done hypnosis before, or if you haven’t done it in a while, practice the coming in and out part first before trying to do it for anything else. You don’t have to watch yourself the whole time, but it is good to make sure you can do the state change at first. Let a useful response get easier and take less effort. The answer no will stay no. And if you say nothing, that isn’t a yes, so a narrator can’t add things you haven’t agreed to.
+5. If you have not done hypnosis before, or if you haven’t done it in a while, practice the coming in and out part first, and leave difficult subjects for later. You don’t have to watch yourself the whole time, but it is good to make sure you can do the state change at first. Let a useful response get easier and take less effort. The answer no will stay no. And if you say nothing, that isn’t a yes, so a narrator can’t add things you haven’t agreed to.
 
-6. Let the response you got guide what happens next, whatever the script expected. [Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) is the act of letting your current response guide where you go next: a thought, a sound, a movement, or an objection may change where the practice goes. Learn to notice what does happen when you do these things. Also learn that if nothing happens, that doesn’t mean there was a positive, hidden change. Keep the safety and exit instructions plain. If you need more tools on utilization, see Appendix B, or read on to Let the next response guide you, which shows how to use them after the induction.
+6. Let the response you got guide what happens next, whatever the script expected. [Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) is the act of letting your current response guide where you go next: a thought, a sound, a movement, or an objection may change where the practice goes. Learn to notice what does happen as you go. Also learn that if nothing happens, that doesn’t mean there was a positive, hidden change. Keep the safety and exit instructions plain. If you need richer language tools, see Appendix B, or read on to Let the next response guide you, which shows how to use them after the induction.
 
 ## Sober induction: 3–5 minutes
 
-Read this slowly to yourself on a recorder, or read it aloud, or learn how it moves and say it silently if you are good at that. Pick a sound, a contact on your body, or the two hands thing (below) to be your anchor for this, and pick an opening phrase. Keep using the same anchor wherever the words mention it. Don’t read the instructions, just pause between paragraphs.
+Read this slowly to yourself on a recorder, or read it aloud, or learn how it moves and say it silently if you are good at that. Pick a sound, a contact on your body, or the two hands thing (below) to be your anchor for this, and pick an opening phrase. Keep using the same anchor wherever the words mention it. Don’t read the stage directions out loud, just pause between paragraphs.
 
 Allow your eyes to rest on something in the room for a little while. Notice the difference between looking for something and just letting what’s already there come into view.
 
@@ -504,23 +504,23 @@ Allow yourself some time to do this.
 
 You may notice a thought arising, about the day, or about whether you’re doing this properly. Whenever you notice a thought, simply allow yourself to re-engage with whatever you've chosen to anchor yourself, and leave the thought unfinished.
 
-You may focus your attention on one aspect of what you're doing … perhaps a particular detail of a sound, or a sensation, or the act of listening itself … and let your attention stay with it long enough to get curious.
+You may find one aspect of what you're doing holding your interest … perhaps a particular detail of a sound, or a sensation, or the act of listening itself … and let your attention stay with it long enough to get curious.
 
 Allow yourself some time to do this, the time you would give someone you care about who has started to speak and hasn’t found the words yet. You’d stay nearby and listen while they finish their own sentence.
 
-Now say to yourself the phrase you have chosen. Say it as an invitation, and allow yourself to notice how it is received.
+Now say to yourself the phrase you have chosen, as an invitation. Allow yourself to notice how it is received.
 
-You may now choose to close your eyes, or soften your gaze, or keep your eyes open as you see fit. You may continue to deepen your listening as you wish, perhaps keeping in mind in the background something you're hearing.
+You may now choose to close your eyes, or soften your gaze, or keep your eyes open as you see fit. You may continue to deepen your listening as you wish, perhaps keeping in mind in the background a sound from the room.
 
 When you feel ready, count from 5 down to 1, allowing yourself some time for each count.
 
 5... focus your attention once more on your chosen anchor. 4... allow more of your attention to gather around what you find. 3... leave a little space after the words. 2... listen into that space. Don’t get an answer ready. 1... stay here for a moment, allowing yourself some time to settle in.
 
-Bring your chosen concern lightly to mind, if you wish, or just stay with your wish for contact. Let it be there. Its whole story can wait.
+Bring your chosen concern lightly to mind, if you wish, or just stay with your wish for inner contact. Let it be there. Its whole story can wait.
 
 What am I noticing now?
 
-Allow yourself to notice what comes to you, if anything, and give it time to take its own form. Notice how it comes to you, if it does - sensation, words, pictures, feelings, movements, etc.
+Allow yourself to notice what comes to you, if anything, and give it time to take its own form. It might come as sensation, words, pictures, feelings, movements, etc. It may not be clear yet.
 
 Allow yourself some time to notice, with or without words.
 
@@ -530,11 +530,11 @@ Use this when you're already open (from loveyhuasca, meditation, lucid dreaming,
 
 Recognise to yourself that your state is already open. All you need to do is aim it, stabilise it, and keep it kind.
 
-Orient yourself: look around and say out loud where you are, what date (or day) it is, feel your body, ground yourself, feel your feet, hands, spine, etc. Make some physical contact with yourself (press your thumbs to the tip of your index fingers, gently but firmly, so you can feel the friction). Focus on the physical sensation.
+Orient yourself: look around and name where you are, what date (or day) it is, feel your body, ground yourself, feel your feet, hands, spine, etc. Make some physical contact with yourself (press your thumbs to the tip of your index fingers, gently but firmly, so you can feel the friction). Focus on the physical sensation.
 
-Say to yourself, 'Only what I can integrate is welcome now. Anything that’s too much can wait. My body can stay safe. I am here, in my adult body, with my adult experience. My inner child does not need to face this on her/his/their own.'
+Say to yourself, 'Only what I can integrate is welcome now. Anything that’s too much can wait. My body can stay safe. I am here, and my adult self stays present. My inner child does not need to face this on her/his/their own.'
 
-Once you're oriented, choose one thing you want to do:
+Once you're oriented, set one intention:
 
 Say to yourself, 'I ask that you show me the next useful truth/symbol/feeling/question/action, and that you show me only what I am able to integrate.'
 
@@ -564,7 +564,7 @@ Then say, “I send love down to the child, and I receive the child’s signal. 
 
 ## Sleep induction
 
-Sleep induction has a different goal than inner work, where the Adult ultimately needs to come back in to write things down and take actions. When you are going to sleep you want your analytical mind to stand down until the next day, when you have time for revelations. The task is rest.
+Sleep induction has a different goal than inner work, where the adult ultimately needs to come back in to write things down and take actions. When you are going to sleep you want your analytical mind to stand down until the next day, when you have time for revelations. The task is rest.
 
 For sleep hypnosis, see [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).
 
@@ -578,7 +578,7 @@ Open your eyes and come back up toward ordinary awareness. Feel the room and dec
 
 If it will be useful, your attention may gather more. But if it won't, you can stay just as awake as you need to be.
 
-Pick an inner scene to go into when you get there. It can be a room in your heart, a garden, a temple, sitting by a fire with the Protector nearby, at a lake with clear water where you can see the bottom, or a chair where the Adult waits, whatever feels right to you. Just pick one.
+Pick a simple inner scene to go into when you get there. It can be a room in your heart, a garden, a temple, sitting by a fire with the Protector nearby, at a lake with clear water where you can see the bottom, or a chair where the adult waits, whatever feels right to you. Just pick one.
 
 Who or what needs to talk first?
 
@@ -592,7 +592,7 @@ If it would be useful, my wise subconscious might let a finger in one of my hand
 
 I will not try to make it happen, I will not pretend it is happening, I will just wait with love and notice...
 
-Sometimes a finger will move, sometimes the whole hand will heat up, sometimes you will notice your breathing has changed, and sometimes nothing will seem to change at all. Even if something does change, that doesn't mean it is "True" in any way, it just might be listening.
+Sometimes a finger will move, sometimes the whole hand will heat up, sometimes you will notice your breathing has changed, and sometimes nothing will seem to change at all. Even if something does change, that doesn't prove anything is "True", it just means something might be listening.
 
 ## A shortcut back into hypnosis
 
@@ -602,17 +602,17 @@ Learn the induction above and the coming back down part at the end in full. When
 
 My dad used a mudra ( putting two fingers together like the "Ok" sign ) to help him relax, including when he drove. That's his experience, not a recommendation to go into a trance while driving. Don't do that. Keep the cue you use to calm down and stay alert separate from the one you use for inward hypnosis.
 
-Pick a distinctive word, phrase or motion ( optional ) that you will use to go back into hypnosis. Practice saying the word or phrase while doing the motion ( if you picked one ) when you are in a good, familiar hypnotic state, pairing it with that receptive way of listening, and not with a peak of emotion, a child state or a traumatic scene. You are picking the state here, it means whatever you say it means.
+Pick a distinctive word, phrase or motion ( optional ) that you will use to go back into hypnosis. Practice saying the word or phrase while doing the motion ( if you picked one ) when you are in a good, familiar hypnotic state, pairing it with that receptive way of listening, and not with a peak of emotion, a child state or a traumatic scene. You are picking the state here, it means whatever you say it means:
 
 When I deliberately pick a time and an appropriate place to use this word or phrase to begin, I can return to this familiar way of listening. I can change direction or finish.
 
-Now come back up and at some point when it is appropriate for you to begin a practice, start using this. You can gradually shorten the longer induction as you find this useful, or just do the longer induction when this doesn't seem to be enough for what you are working on. You don't have to do it any particular number of times, you don't have to go a certain depth instantly, and you don't need to have any particular sensation when you do this.
+Now come all the way back up and at some point when it is appropriate for you to begin a practice, start using this. Give it time: you can gradually shorten the longer induction as you find this useful, or just do the longer induction when this doesn't seem to be enough for what you are working on. You don't have to do it any particular number of times, you don't have to go a certain depth instantly, and you don't need to have any particular sensation when you do this.
 
-Check to make sure it is useful, that you can turn it on and off at will, and that it stays away when you haven't chosen it. It must never turn into obeying a narrator, a notification, or anything you might overhear; it is a tool for you to use when you pick to use it. Going into hypnosis faster doesn't mean you should be working on things you aren't ready for.
+Check to make sure it is useful, that you can turn it on and off at will, and that it stays away when you haven't chosen it. Can you still change direction while you're in it? It must never turn into obeying a narrator, a notification, or anything you might overhear; it is a tool for you to use when you pick to use it. Going into hypnosis faster doesn't mean you should be working on things you aren't ready for.
 
 Never practice or use this when driving or doing anything where you need to be actively paying attention. It isn't safe to go into a trance where you are listening inwardly when you need to be listening outwardly, even if you have your eyes open and even if you use the " if it would be useful " type language.
 
-To turn it off, just stop rehearsing it, remove it from any recordings you may have, stop having it as an active part of any apps you may use, and go back to the regular induction. Say that you're done using it while you're awake, but keep in mind that saying so doesn't mean the association is gone right away. If you still have the response when you don't want it, or you feel disoriented after the state, please get qualified help. If you want to keep it for future use, it's only for beginning a session you choose at a future time, and the state you are in now ends when you come back.
+To turn it off, just stop rehearsing it, remove it from any recordings you may have, stop having it as an active part of any apps you may use, and go back to the regular induction. Say that you're done using it while you're awake, but keep in mind that saying so doesn't mean the association is gone right away. If the response keeps coming when you don't want it, or you stay disoriented after the state, please get qualified help. If you want to keep it for future use, that's fine, but it's only for beginning a session you choose at a future time, and the state you are in now ends when you come back.
 
 # Come all the way back
 

@@ -265,5 +265,12 @@
   "meaning": "fix-20261021/b469/: r1/ and r2/ VERIFY, SENSE-HG32, STANCE; VERIFY-r3.md, VERIFY-r4.md; gate-answers.json",
   "fixed": "fix-20261021/b469/EDITS-469g.json (b469-HG32-prose), in fix-20261020/EDITS41.json",
   "installed": "2026-10-21, fix-20261020/apply_edits41.py; Joel's answer to question 2, c (his message of 2026-10-21 17:56 UTC): the hypnosis-specific audit stays a list, the general checklist is prose. Its march read found no break in the prose, which the gate holds for a paid call; the recheck reads it free"
+ },
+ "HG17": {
+  "stage": "fixed (sample, pending its 4.1 reading)",
+  "whole": "not checked yet: read in the whole-guide recheck through Substack (gate E200), part A (fix-20261020/substack41r/); sample ba was never read in Pangram",
+  "meaning": "rf-zg/HG17.ba.verify.out.md (ba: kept 156, changed 57, lost 30, invented 14), fixed in rf-zg/make_hg17_fixed.py; the fixed section's reviews: SENSE-HG17.md, STANCE-HG17.md, HG17.fixed.verify.part1-3.out.md, r2/VERIFY-r2.md, r3/VERIFY-r3.md, march/, r2/, r3/; gate-answers.json and batch/GATE.json",
+  "fixed": "rf-zg/HG17.fixed.json",
+  "installed": "2026-10-21, tools/install_fixed.py; Joel's answer to question 4, d (his message of 2026-10-21 17:56 UTC: \"i am fine with all the humanized replacements as long as we don't lose anything\"): Emulate's best sample of the whole section with every point it lost put back in its own words; the published text's own contradiction on intoxication is question 11"
  }
 }

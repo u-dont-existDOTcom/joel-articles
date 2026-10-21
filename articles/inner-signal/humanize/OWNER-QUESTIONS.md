@@ -1,8 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-21, after your answers of 17:56 UTC. **Open questions: 2** (both new, 9 and 10). **Two things for
-you to do**: open the recheck's two secret links in your Chrome, and paste a note into the Inner Child chat (both under
-"For you to do"). The questions are at the top, with their options and my default; under them is what you decided and
+Last updated 2026-10-21, after the listening script went in (about 21:40 UTC). **Open questions: 3** (9, 10 and 11, all
+new today). **Two things for you to do**: open the recheck's two secret links in your Chrome (part A's link is new: it now
+carries the listening script too), and paste a note into the Inner Child chat (both under "For you to do"). The questions are at the top, with their options and my default; under them is what you decided and
 what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or
 decided.
 
@@ -34,6 +34,22 @@ read and update it. Every file it points to is a link.
   - B. Keep both names.
 
   My recommendation: A. My default until you answer: B, as it is.
+- 🟣 **11. Does "intoxicated" rule out a session on loveyhuasca?** The whole-guide check of the listening script found the
+  published text pulling two ways. "Before you begin" says "When intoxicated, acutely confused, or unable to keep
+  yourself safe, deal with immediate support rather than exploratory hypnosis". Two paragraphs on, "Already open?" is for
+  a state that "loveyhuasca, meditation, lucid dreaming, grief, music, prayer, erotic energy, exhaustion, or intense
+  beauty has already opened", and it ends by asking for "the next useful truth, symbol, feeling, question, or action". "Why
+  doing it myself worked better for me" tells of your own loveyhuasca self-hypnosis sessions, and "Capacity before
+  content" draws its line at "feeling overwhelmed by chemicals". A reader can't tell whether a session on loveyhuasca is
+  ruled out. Options:
+  - A. Leave it as it is.
+  - B. "If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate
+    support instead of doing exploratory hypnosis." This matches "Capacity before content": an open state goes to
+    Already open?, and an overwhelmed one gets support first.
+
+  My recommendation: B, since the guide's own sessions and its altered-state rule both put the line at being overwhelmed,
+  not at taking something. My default until you answer: A (the rewrite says what the published says, without the
+  "otherwise" that made every intoxicated reader one who can't keep safe).
 
 ## Your answers of 17:56 UTC, and what I did
 
@@ -54,8 +70,18 @@ read and update it. Every file it points to is a link.
   hands into a surface as well." The count's first step feels the body's contact again ("feel your body again and what
   it's resting on"), and its third is "hear the room, name where you are", as you wrote them. A reader caught two slips,
   both fixed: "the five steps listed above" pointed at nothing above, and a quotation mark had no opening. "One honest
-  action" stays out, and the linter now fails it (your "sounds super ai"). The listening script is next: a humanized
-  version that keeps every step, since the earlier ones lost 11 to 31 of them.
+  action" stays out, and the linter now fails it (your "sounds super ai").
+- 🔵 **4 d, the listening script** (the sober induction and the rest of "Induction: gathering attention without
+  disappearing"): in the guide now, waiting for its first reading
+  ([the section as it stands](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261018/rf-zg/HG17-section.md)). It's the best of three new Emulate
+  versions of the whole section, with the 30 points it had lost put back in its own plain words ("What am I noticing
+  now?", the count's "Five.", "keep safety and exit instructions plain", the three links, and the rest) and its 14
+  inventions taken out (your dad "uses" the mudra when he drives; "I always announce" fractionation). Then three rounds
+  of reviews: a point-by-point check against your published section, a cold read, the step-or-break read, and a check
+  against the whole guide. They found five places that shifted a position (what you leave alone had become optional,
+  "communion with things", the adult self tied to an adult body, help for any leftover response instead of a lasting
+  one, drills before any other use), and "the Adult" with a capital twice where you wrote "the adult"; all are fixed.
+  One thing the check found is in your published text itself: question 11.
 - 🟢 **5: there was no question 5 left.** Your message of 22:01 had settled it (how to check the guide in 4.1: through
   Substack, free), so it moved to the decided list. The numbers stay as they were so your earlier answers still match.
 - 🔵 **6 b, the repeats.** After the 4.1 work, I'll bring them to you one at a time. Each will show both passages with the
@@ -171,7 +197,8 @@ read and update it. Every file it points to is a link.
 
 ## Where it stands
 
-🟢 39 of the guide's 40 sections are humanized: 35 installed with their paragraphs checked, 3 read Human as published,
-and Appendix C, as prose, waiting for its first reading. 🔵 Next: the recheck's results (the two links above), then the
-listening script in the sober induction, the one section still as published. 🟣 Questions 9 and 10 are yours.
+🟢 All 40 of the guide's sections are humanized: 35 installed with their paragraphs checked, 3 read Human as published,
+and two waiting for their first reading, Appendix C as prose and the induction section with its listening script. 🔵
+Next: the recheck's results (the two links above), then a fix with a diagnosis for whatever reads red. 🟣 Questions 9, 10
+and 11 are yours.
 [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every check's link.

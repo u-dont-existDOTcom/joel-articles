@@ -1,0 +1,103 @@
+You check whether a rewrite of one section of a long self-hypnosis guide by Joel keeps every point of his published text. The section is the guide's induction: what an induction does, how to prepare, a spoken listening script ("Sober induction"), what to do when the state is already open, staying awake, a two-hand induction, sleep, fractionation, deepening, a trance depth check, and a shortcut back into hypnosis. The rewrite was made by a paraphrasing tool that writes in a plainer, more personal voice, and then edited; its looser wording is fine. Your job is meaning only.
+
+Go through THE PUBLISHED SECTION paragraph by paragraph. For every point it makes (a claim, a step of a script, a caution, a safety statement, a condition, a choice the reader is given, a hedge such as "may", a link or source it points to), say whether THE REWRITE keeps it: KEPT, CHANGED (how a reader would now understand or do it differently) or LOST. Be especially careful with the listening script's steps (each instruction, pause and permission), the safety statements (what not to do, when to stop, how to come out, what a response does not prove), and the shortcut's limits. Then list everything THE REWRITE says that the published section doesn't: ADDED, marking each one that a reader would act on or believe (an invented fact about Joel or his family, a claim about therapists, a new instruction) as ADDED-CLAIM.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261018/rf-zg/HG17.fixed.verify.part2.out.md`: first a line `COUNTS: kept N, changed N, lost N, added-claims N`, then one "## P<n>" part per published paragraph (P32 is the first block below; count every blank-line-separated block of the published section, headings included) with its points, then "## ADDED". Keep each line short. Then reply with only the COUNTS line. Don't read any other file, don't run commands, and don't use the web.
+
+This prompt is part 2 of 3: the section is checked in three parts, split at the same headings in both texts, so that each report stays short. THE PUBLISHED SECTION and THE REWRITE below are that part only, and the blocks are numbered from P32. Keep each line short and the whole report under 1,200 words.
+
+THE PUBLISHED SECTION:
+
+## Already open? Contain before you deepen
+
+Use this when loveyhuasca, meditation, lucid dreaming, grief, music, prayer, erotic energy, exhaustion, or intense beauty has already opened the state. Stabilize before making it stronger.
+
+“The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.”
+
+Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine. Press your thumbs gently but firmly against your index fingers. Focus on the physical friction of skin meeting skin.
+
+“Only what can be integrated is welcome now. Anything too much can wait. The body may stay safe. The adult self remains present. The inner child does not have to carry this alone.”
+
+Once you’re oriented, choose one intention:
+
+“Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”
+
+## Stay awake when your mind likes to escape
+
+Sit upright. Open the eyes. Feel the feet. Let the breath be natural.
+
+Say: “I am not going away. I am coming more fully here.”
+
+Look at one object. Feel the spine.
+
+“Is this daydream guidance, emotional digestion, or avoidance?”
+
+“If it is guidance, show me the action inside it. If it is avoidance, bring me gently into the present and show me what I am avoiding.”
+
+If stillness makes you sleepy, diffuse, or escape-prone, [hypnosis can become more alert rather than more relaxed](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318). Keep the eyes open and pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains without trying to disappear inward.
+
+“Eyes open. Press thumb and forefinger together gently. Release. Again — clearer, not sleepier. One more time. Now stop the deliberate movement. Notice the first second after the rhythm ends. Is there an echo in the fingers, the breath, the attention, or nowhere at all? Stay upright and work from exactly that level of alertness.”
+
+## The two-hand induction
+
+Place one hand on the heart. Place the other hand on the solar plexus.
+
+Let the heart hand represent the Nurturer. Let the solar plexus hand represent the vulnerable child.
+
+Breathe gently.
+
+“Love above. Child below. Adult present.”
+
+“I send love to the child. I receive the child’s signal. I send love again. I listen again.”
+
+## Sleep induction
+
+Sleep induction has a different job. In inner work, the adult returns, writes, and acts. At bedtime, analysis can remain off duty. Revelation can wait; the task is rest.
+
+For sleep hypnosis, see [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).
+
+THE REWRITE:
+
+## Already open? Contain before you deepen
+
+Use this when you're already open (from loveyhuasca, meditation, lucid dreaming, grief, beautiful music, prayer, erotic energy, exhaustion, seeing something incredibly beautiful, etc), and you just need to aim and stabilise what's already there before making it any stronger.
+
+Recognise to yourself that your state is already open. All you need to do is aim it, stabilise it, and keep it kind.
+
+Orient yourself: look around and say out loud where you are, what date (or day) it is, feel your body, ground yourself, feel your feet, hands, spine, etc. Make some physical contact with yourself (press your thumbs to the tip of your index fingers, gently but firmly, so you can feel the friction). Focus on the physical sensation.
+
+Say to yourself, 'Only what I can integrate is welcome now. Anything that’s too much can wait. My body can stay safe. I am here, and my adult self stays present. My inner child does not need to face this on her/his/their own.'
+
+Once you're oriented, set one intention:
+
+Say to yourself, 'I ask that you show me the next useful truth/symbol/feeling/question/action, and that you show me only what I am able to integrate.'
+
+## Stay awake when your mind likes to escape
+
+Sit up, open your eyes, feel your feet, let your breath be natural, and say to yourself, 'I recognise that I am not going anywhere. I am only coming closer to what is here.'
+
+Look around you at something, feel your spine and ask yourself, 'Am I daydreaming to receive guidance, to resolve an emotional state, or to avoid what is actually here?'
+
+Then say to yourself, 'I ask that if I am receiving guidance, you show me the action I need to take; and if I am avoiding what is here, please bring me gently back into the present, and show me what I am avoiding.'
+
+If your state of being still is one where you tend to become sleepy, diffuse or mentally escaping, try making your hypnosis more active, since [hypnosis can be more alert rather than more relaxed](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318). For example, keeping your eyes open, and making a deliberate movement with one hand as you bring yourself into a clearer state, and then ceasing the deliberate movement and noticing what remains. Don’t try to disappear inward. For example, you could say to yourself:
+
+'As I keep my eyes open, I press my thumb and forefinger together gently, then release. As I do this, I bring myself into a clearer, more awake state. Again, I press my fingers together, and again I release them, as I bring myself into an even clearer state. One more time... and now I stop pressing my fingers deliberately, and I notice in the first second after I cease my deliberate movement whether there is an echo in my fingers, my breath, my attention, or nowhere at all. I notice, I keep myself upright, and I work at this level.'
+
+## The two-hand induction
+
+Put one hand on your heart, and the other on your solar plexus.
+
+Label the hand on the heart as your Nurturer and the hand on the solar plexus as your vulnerable child.
+
+Breathe gently...
+
+As you breathe, say to yourself, “Love above. Child below. Adult present.”
+
+Then say, “I send love down to the child, and I receive the child’s signal. I send love again, and I listen again.”
+
+## Sleep induction
+
+Sleep induction has a different goal than inner work, where the Adult ultimately needs to come back in to write things down and take actions. When you are going to sleep you want your analytical mind to stand down until the next day, when you have time for revelations. The task is rest.
+
+For sleep hypnosis, see [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).

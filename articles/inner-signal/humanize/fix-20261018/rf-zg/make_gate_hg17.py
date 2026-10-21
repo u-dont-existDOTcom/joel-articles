@@ -4,7 +4,7 @@ into the working copy.
 The text is the section as Pangram reads it in the guide (CANDIDATE.md from make_hg17_reviews.py, the section's blocks
 as sections.text_of gives them). Its record is an edit of an Emulate text ("was_kind": "emulate"): sample ba of the fast
 path with my meaning fixes. The record cites its reviews: the march read of every paragraph a fix changed, ba's version
-and the fixed one (march/march-labels.txt, decoded by march/march-map.json into march/march.json), the cold read
+and the fixed one (march/march-labels.txt for round 1 and rN/march-labels.txt for each later round, decoded by their march-map.json into march/march.json), the cold read
 (SENSE-HG17.md), the meaning check (HG17.fixed.verify.out.md) and the stance check (STANCE-HG17.md). A reviewer's finding
 that is answered rather than fixed is answered in gate-answers.json, which fills or overrides the record.
 
@@ -21,7 +21,9 @@ HERE = pathlib.Path(__file__).resolve().parent
 H = HERE.parents[1]
 REPO = H.parents[2]
 sys.path.insert(0, str(H / 'tools'))
+sys.path.insert(0, str(REPO / 'tools' / 'humanization' / 'reviewer'))
 import assemble as A   # noqa: E402
+import reviewer as R   # noqa: E402
 import sections as S   # noqa: E402
 
 OUT = HERE / 'batch'
@@ -43,13 +45,25 @@ def lint(text, article=None):
 
 
 def march_reads():
-    """march/march.json: {'was': [labels of each of ba's changed paragraphs], 'new': [... of the fixed ones]}."""
-    labels = dict(re.findall(r'^\s*T(\d+):\s*([SB ]+?)\s*$', (HERE / 'march' / 'march-labels.txt').read_text(encoding='utf-8'),
-                             re.M))
+    """march/march.json: {'was': [labels of each of ba's changed paragraphs], 'new': [... of the fixed ones]}, every
+    paragraph FIXES.json lists, its labels from the last round that read that version (round 1: march/, round 2: r2/)."""
+    got = {}
+    rounds = sorted((p.name for p in HERE.glob('r[0-9]*') if p.is_dir()), key=lambda n: int(n[1:]))
+    for folder in ['march'] + rounds:
+        lab = HERE / folder / 'march-labels.txt'
+        if not lab.exists():
+            continue
+        labels = dict(re.findall(r'^\s*T(\d+):\s*([SB ]+?)\s*$', lab.read_text(encoding='utf-8'), re.M))
+        for m in json.loads((HERE / folder / 'march-map.json').read_text(encoding='utf-8')):
+            got[(m['unit'], m['para'], m['ver'])] = [labels[str(m['start'] + j + 1)] for j in range(m['n'])]
     out = {'was': [], 'new': []}
-    for m in json.loads((HERE / 'march' / 'march-map.json').read_text(encoding='utf-8')):
-        for j in range(m['n']):
-            out[m['ver']].append(labels[str(m['start'] + j + 1)])
+    for x in json.loads((HERE / 'FIXES.json').read_text(encoding='utf-8')):
+        for ver in ('was', 'new'):
+            if x.get(ver) and len(R.march_paragraphs(x[ver])):
+                k = (x['unit'], x['para'], ver)
+                if k not in got:
+                    raise SystemExit('no march read of %r: run the round that reads it' % (k,))
+                out[ver] += got[k]
     (HERE / 'march' / 'march.json').write_text(json.dumps(out, indent=1) + '\n', encoding='utf-8')
     return out
 
