@@ -5,6 +5,9 @@
 // It fetches the payload, refuses it unless the SHA-256 matches, and dispatches a paste event carrying it as text/html
 // (and its text as text/plain) on the body editor, the way the browser hands a real paste to Substack's editor.
 // It never clicks anything: Preview, Share and the rest are done by hand in the page, and Publish never.
+// A recheck after more fixes reuses the lane's own temporary draft (2026-10-21, after Joel's answers of 17:56 UTC), so his
+// drafts list doesn't fill with copies: with window.__paste.replace_title set to the draft's exact title, which must start
+// "TEMP Pangram", the paste replaces the body instead of refusing a non-empty editor. Any other draft is refused.
 (async () => {
   const want = window.__paste || {};
   if (!want.url || !want.sha256) return 'set window.__paste = {url, sha256} first';
@@ -15,11 +18,15 @@
   const eds = Array.from(document.querySelectorAll('.ProseMirror[contenteditable="true"]'));
   if (!eds.length) return 'no editor on this page';
   const ed = eds.sort((a, b) => b.getBoundingClientRect().height - a.getBoundingClientRect().height)[0];
-  if (ed.innerText.trim().length > 0) return 'refused: the editor is not empty (' + ed.innerText.trim().length + ' characters)';
+  const title = (document.querySelector('textarea[placeholder="Title"], input[placeholder="Title"]') || {}).value || '';
+  const replace = want.replace_title && want.replace_title.startsWith('TEMP Pangram') && title === want.replace_title;
+  if (ed.innerText.trim().length > 0 && !replace)
+    return 'refused: the editor is not empty (' + ed.innerText.trim().length + ' characters) and the title (' + JSON.stringify(title) +
+           ') is not the lane\'s temporary draft named in replace_title';
   ed.focus();
   const sel = window.getSelection();
   sel.selectAllChildren(ed);
-  sel.collapseToStart();
+  if (!replace) sel.collapseToStart();
   const tmp = document.createElement('div');
   tmp.innerHTML = html;
   const dt = new DataTransfer();
@@ -28,6 +35,6 @@
   const ev = new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true});
   ed.dispatchEvent(ev);
   await new Promise(r => setTimeout(r, 1500));
-  return JSON.stringify({pasted_sha256: got, payload_chars: html.length, editor_chars: ed.innerText.length,
+  return JSON.stringify({pasted_sha256: got, replaced: replace, payload_chars: html.length, editor_chars: ed.innerText.length,
                          editor_words: ed.innerText.split(/\s+/).filter(Boolean).length, handled: ev.defaultPrevented});
 })()

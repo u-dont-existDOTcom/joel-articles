@@ -1,8 +1,8 @@
 # Appendix C: The extended de-hypnosis checklist
 
-Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I don’t have to decide yet what that proves. And what would love, truth, humility and ordinary life need from me here?
+Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I won’t assume I know what it proves. And what would love, truth, humility and ordinary life need from me here?
 
-If it’s true, it can handle my questions. Would real love mind my boundaries? And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”
+If it’s true, it can handle my questions. If it’s real love, it’ll survive my boundaries. And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”
 
 Before acting on it, look for the usual signs, like urgency, secrecy, shame, a threat that you’ll be left out or a promise that you’re special, that kind of thing. Is there a sexual charge, or spiritual superiority? Be wary if it demands money or sex from you. Demands for your loyalty or your silence are signs too, and so is any demand for obedience.
 

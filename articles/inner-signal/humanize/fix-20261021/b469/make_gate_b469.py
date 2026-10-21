@@ -7,7 +7,11 @@ context), the meaning check (VERIFY.md for the rewrites; CONFLATION-REVIEW.md's 
 (STANCE.md). A reviewer's finding that is answered rather than fixed is answered in gate-answers.json, which fills or
 overrides these records. Round 1's reviews are in r1/.
 
-Only the paragraph texts go in this batch. The sections' readings come from the whole-guide recheck through Substack.
+No text goes to pangram.com from here (gate E200: many paragraphs are read in the real article through free Substack posts,
+here the whole-guide recheck); GATE.json records that each edit cleared the meaning reviews before it went into the
+working copy, and the gate's verdict on each (b469.js is written by pangram_gate.py but not run). Appendix C's prose has no
+break in its march read, which the gate holds for a paid call; it is read in the recheck, where its forecast names that
+risk (batch/PREDICTIONS.md).
 
   python3 articles/inner-signal/humanize/fix-20261021/b469/make_gate_b469.py   (from the repo root)
 """
@@ -19,8 +23,8 @@ OUT = B / 'batch'
 FEED_A = 'https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4'
 FEED_B = 'https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8'
 HIST = 'https://www.pangram.com/history/'
-APPC_KEYS = ['HG32-prose-p%d' % n for n in range(1, 8)]
-CF_KEYS = ['HG14-cf-addressee', 'HG20-cf-roles', 'HG24-cf-grownup', 'HG36-cf-protector', 'HG37-cf-nurturer']
+APPC_KEYS = ['HG32-prose-p%d' % n for n in range(1, 8)]   # round 2 on: seven paragraphs
+CF_KEYS = ['HG14-cf-addressee', 'HG20-cf-roles', 'HG24-cf-grownup', 'HG36-cf-protector', 'HG37-cf-nurturer', 'HG24-cf-anxious']
 KEYS = ['HG18-count-feet', 'HG18-stopped-press'] + APPC_KEYS + CF_KEYS
 
 
@@ -76,7 +80,8 @@ def main():
               'HG20-cf-roles': '452g HG20-rfix2 (Pangram 4.0); Human, high, in the whole guide (4.1, window 66 of part A, %s)' % FEED_A,
               'HG24-cf-grownup': '460g HG24-fix (Pangram 4.0); Human, high, in the whole guide (4.1, window 71 of part A, %s)' % FEED_A,
               'HG36-cf-protector': '462g HG36-fix (Pangram 4.0); Human, high, in the whole guide (4.1, window 30 of part B, %s)' % FEED_B,
-              'HG37-cf-nurturer': '455g HG37-smp (Pangram 4.0); Human, high, in the whole guide (4.1, window 30 of part B, %s)' % FEED_B}
+              'HG37-cf-nurturer': '455g HG37-smp (Pangram 4.0); Human, high, in the whole guide (4.1, window 30 of part B, %s)' % FEED_B,
+              'HG24-cf-anxious': '460g HG24-fix (Pangram 4.0); Human, high, in the whole guide (4.1, window 71 of part A, %s)' % FEED_A}
     for k in CF_KEYS:
         rec[k] = {'kind': 'edit', 'was': cf_was[k], 'was_kind': 'emulate', 'lint_was': lint(edits[k]['old']),
                   'march_was': mr[k]['was'], 'march': mr[k]['new'], 'cold_read': rel(B / 'CONFLATION-REVIEW.md'),

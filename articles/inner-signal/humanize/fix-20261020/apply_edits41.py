@@ -29,14 +29,28 @@ def superseded(e, later, md):
     return any(e['new'] and e['new'] in l['old'] and l['new'] in md for l in later)
 
 
+def is_in(md, e):
+    """The edit is already in MD. When its new text contains its old text (an addition after an installed sentence:
+    2026-10-21, b469-HG18-stopped-press), the old text is still there after the edit, so only the new text decides; when its
+    new text is part of the old (a cut), the old text must be gone too."""
+    old, new = e['old'], e['new']
+    if not new:
+        return old not in md
+    if old and old in new:
+        return md.count(new) == 1
+    if new in old:
+        return new in md and old not in md
+    return new in md
+
+
 def apply(md, edits):
     done, applied = [], []
     for i, e in enumerate(edits):
-        if e['old'] and md.count(e['old']) == 1:
+        if is_in(md, e) or superseded(e, edits[i + 1:], md):
+            done.append(e['key'])
+        elif e['old'] and md.count(e['old']) == 1:
             md = md.replace(e['old'], e['new'])
             applied.append(e['key'])
-        elif (e['new'] and e['new'] in md) or (not e['new'] and e['old'] not in md) or superseded(e, edits[i + 1:], md):
-            done.append(e['key'])
         else:
             raise SystemExit('%s: neither its old text (%d times) nor its new text is in the working copy'
                              % (e['key'], md.count(e['old'])))

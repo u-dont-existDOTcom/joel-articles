@@ -1,0 +1,25 @@
+You check four small wording fixes in a long self-hypnosis guide by Joel. For each, you get what the published guide says (PUBLISHED), the wording before the fix (BEFORE) and after it (AFTER). A meaning check had found that BEFORE changed what the published text says; AFTER is meant to put the published meaning back while keeping the guide's plainer words.
+
+For each fix, say in one or two lines whether AFTER says what PUBLISHED says (a reader would do or believe the same thing), and if not, what still differs. End each with one line `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning only. Write your report with a single Write call to /home/claude/w1015/articles/inner-signal/humanize/fix-20261021/b469/VERIFY-r3.md, one "## Fix N" part each, then reply with only the four verdict lines. Don't read any other file, don't run commands, and don't use the web.
+
+## Fix 1 (a five-step count to come out of hypnosis, step three)
+PUBLISHED: Three — hear the room and name where you are.
+BEFORE: 3...become aware of your surroundings, know where you are.
+AFTER: 3...become aware of your surroundings, name where you are.
+
+## Fix 2 (if a recording stops unexpectedly)
+PUBLISHED: If a recording stops unexpectedly: say, “The recording stopped and the session is over.” Open your eyes, name the location and day, press your feet or hands into a surface, move, look around, and use the five-step count.
+BEFORE: If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Press your feet or hands into a surface first.
+AFTER: If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Press your feet or hands into a surface as well.
+(“The above” is the five-step count and, between it and this paragraph, a paragraph that says: remind yourself what day or date it is, look left and right, look at something near and something far, move around before getting up, get up only when steady, check you're oriented and alert. The guide's author already accepted "you can say to yourself" and "do the above" for this paragraph; judge only the pressing and its order.)
+
+## Fix 3 (a statement to say when something is influencing you)
+PUBLISHED: I can notice what my body is signaling without assuming what it proves.
+BEFORE: My body is telling me something, but I don’t have to decide yet what that proves.
+AFTER: My body is telling me something, but I won’t assume I know what it proves.
+
+## Fix 4 (the same statement's tests)
+PUBLISHED: If this is love, it will survive boundaries.
+BEFORE: Would real love mind my boundaries?
+AFTER: Real love can handle my boundaries, can’t it?
+(Just before it: "If it’s true, it can handle my questions." which a meaning check accepted for the published "If this is true, it will survive questions.")

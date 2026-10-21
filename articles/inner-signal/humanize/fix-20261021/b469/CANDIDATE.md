@@ -616,11 +616,11 @@ Make sure to reverse anything you've done to alter your state when you come out 
 
 Here is a generic bring-back that you can use: "When I come out of this session, I will only bring with me that which is useful to me in my everyday life right now. Anything else I will bring with me at a later date, when I am better able to integrate it. When I come out of this session, I will be coming back to the room I am in now, and to the day in which I am participating in this session now. All instructions you have given me to carry me deeper in this session or to keep me in this state are now finished. The only instruction I will take with me into my everyday life, or the only cue I will use to take me into this state in the future, is the one I consciously choose to, and neither of them keeps me in this state. When I come out of this session, I will be me, in my body, with my adult judgment."
 
-Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...become aware of your surroundings, know where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.
+Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.
 
 When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit before getting up. Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because you've done the count. Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
 
-If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Press your feet or hands into a surface first.
+If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
 
 Note: If you're going to sleep to a recording, it's fine to go to sleep or just to remain resting quietly at the end of it. But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely.
 
@@ -688,7 +688,7 @@ If you feel an urge to move, turn, reach, push, or change your body’s position
 
 If any “younger” parts come up, offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose. You don’t have to consider them literally “younger”, nor do you have to ask them why they are there or what happened to them. If you can identify any “protector” parts, talk to them and find out what they are concerned about. All of them are welcome to the “meeting”. You don’t have to get rid of any of them.
 
-If you feel that it would be useful to bring in a “Nurturer”, “Protector”, “Leader”, etc to help you either change the “tone” of the interaction, set boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have to talk to them, just use them to get whatever function you need, and if you can’t do one yet, borrow it. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.
+If you feel that it would be useful to bring in your “Nurturer”, “Protector” or “Leader” to help you either change the “tone” of the interaction, set boundaries, or find your way toward the life you want, feel free to do so. You don’t have to talk to them, just use the one whose job you need, and if you can’t do it yet, borrow it. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.
 
 Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualising someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.
 
@@ -774,7 +774,7 @@ Find out if the anxiety is bad enough that you want to decrease contact with it 
 
 -Where are your feet? Where are you sitting? Focus on your body, your breathing, and the room around you.
 
--Tell your Little parts and Protector parts that you’re there for your Little parts and that you recognize that your Protector parts are trying to protect you and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.
+-Tell your Little parts and protector parts that you’re there for your Little parts and that you recognize that your protector parts are trying to protect you and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.
 
 If you’re having chest pain, fainting, suicidal thoughts, psychosis-like symptoms, mania-like symptoms, severe dissociative symptoms, not being able to sleep, wanting to hurt yourself or somebody else, etc. then you need to get professional help. For more on handling anxiety, see the toolbox in Appendix D.
 
@@ -1192,9 +1192,9 @@ Get the person out of the altered state (bring them back to the room and have th
 
 # Appendix C: The extended de-hypnosis checklist
 
-Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I don’t have to decide yet what that proves. And what would love, truth, humility and ordinary life need from me here?
+Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I won’t assume I know what it proves. And what would love, truth, humility and ordinary life need from me here?
 
-If it’s true, it can handle my questions. Would real love mind my boundaries? And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”
+If it’s true, it can handle my questions. If it’s real love, it’ll survive my boundaries. And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”
 
 Before acting on it, look for the usual signs, like urgency, secrecy, shame, a threat that you’ll be left out or a promise that you’re special, that kind of thing. Is there a sexual charge, or spiritual superiority? Be wary if it demands money or sex from you. Demands for your loyalty or your silence are signs too, and so is any demand for obedience.
 

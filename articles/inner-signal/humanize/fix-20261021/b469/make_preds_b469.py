@@ -1,10 +1,13 @@
-"""Batch 469g's predictions, written before the run (2026-10-21): batch/PREDICTIONS.md, and one ledger prediction per
-text (tools/humanization/pangram_ledger.py, articles/inner-signal/humanize/pangram-ledger.jsonl), which refuses what the
-2026-10-20 budget rule forbids (a retry with no diagnosis, a lineage past its tries, the same text twice).
+"""Batch 469g's forecasts, written before the check (2026-10-21): batch/PREDICTIONS.md and batch/FORECAST.json, one row per
+changed paragraph as Pangram would read it.
 
-Only the paragraph texts go to pangram.com. The two sections' readings in 4.1 (the return steps, installed after the
-first whole-guide reading, and Appendix C with its prose) come from the whole-guide recheck through Substack, which reads
-every sentence in its place and costs no credits (Joel, 2026-10-20 22:01 UTC; question 7, b).
+No paragraph goes to pangram.com. Since Joel's rule of 2026-10-21 00:49 UTC (gate E200, docs/PANGRAM-PRODUCTION-BUDGET-20261020.md:
+"you checked dozens of paragraphs so that's the kind of thing where you should have just done the free substack post
+workaround"), a turn with more than a handful of paragraphs to check reads them in the real, contiguous article through
+temporary Substack posts, free: here the whole-guide recheck (fix-20261020/substack41r/), whose two posts carry the
+ledger's predictions (make_preds_recheck.py, with what each result decides). A paragraph goes to pangram.com alone only
+when a segment of that check points at it and there is a diagnosis for a try. These rows say what I expect each changed
+paragraph to read in that check, so the recheck scores them.
 
   python3 articles/inner-signal/humanize/fix-20261021/b469/make_preds_b469.py   (from the repo root)
 """
@@ -81,6 +84,9 @@ PREDS = {
                           '"a protector part" for "a Protector"; the paragraph read Human, high, in the whole guide (4.1, '
                           'window 30 of part B)', 'three "regardless of" clauses in a row',
                           '"etc, etc, etc", "/ sad about / angry about /", the exclamation'),
+    'HG24-cf-anxious': ('HG24-cf7', 'Human', 0.85,
+                        'two letters lowercased in a paragraph that read Human, high, in the whole guide (4.1, window 71)',
+                        'a long run-on instruction', '"Little parts", "scream at you", the dash at its start'),
     'HG37-cf-nurturer': ('HG37-cf6', 'Human', 0.65,
                          'the published sign put back in plain words ("like you\'re trying to protect something"); the '
                          'paragraph read Human, high, in the whole guide (4.1, window 30 of part B)',
@@ -90,29 +96,21 @@ PREDS = {
 
 def main():
     drafts = json.loads((B / 'drafts.json').read_text(encoding='utf-8'))
-    edits = {e['key']: e for e in json.loads((B / 'meta.json').read_text(encoding='utf-8'))['edits']}
-    rows = ['# Predictions and Pangram results: batch 469g', '',
-            "Pangram's web app (4.1). Joel's answers of 2026-10-21 17:56 UTC put into the guide: Appendix C's general "
-            'checklist as prose (question 2, c), the one point the installed return steps lost (question 4, d), and the '
-            "inner-adult sweep's five fixes (his \"check the guide for that conflation\"). Each paragraph as Pangram reads "
-            'it (a paragraph under 50 words with its neighbor). Predictions written before the run; chance = my chance of '
-            'a 100% Human result.', '', '## Batch 469g', '', '| text | mine | chance | why | Pangram |', '|---|---|---|---|---|']
-    tmp = B / 'batch' / 'texts'
-    tmp.mkdir(parents=True, exist_ok=True)
+    rows = ['# Forecasts: batch 469g, read in the whole-guide recheck', '',
+            "Joel's answers of 2026-10-21 17:56 UTC put into the guide: Appendix C's general checklist as prose (question 2, "
+            "c), the points the installed return steps lost (question 4, d), and the inner-adult sweep's five fixes (his "
+            '"check the guide for that conflation"). Each changed paragraph is read in the whole-guide recheck through '
+            'Substack (gate E200), not on pangram.com. Forecasts written before the check; chance = my chance that every '
+            'sentence of it reads Human there.', '', '| text | mine | chance | why | recheck |', '|---|---|---|---|---|']
+    out = {}
     for key, (lineage, call, chance, why, tells, human) in PREDS.items():
         rows.append('| %s | %s | %d%% | %s | |' % (key, call, round(chance * 100), why))
-        f = tmp / ('%s.txt' % key)
-        f.write_text(drafts[key], encoding='utf-8')
-        edit = edits[key] if key in edits else edits['HG32-prose']
-        r = subprocess.run([sys.executable, str(REPO / 'tools' / 'humanization' / 'pangram_ledger.py'), 'predict', str(LEDGER),
-                            '--lineage', lineage, '--scope', 'paragraph', '--text', str(f), '--key', key, '--batch', 'b469g',
-                            '--call', call, '--chance', str(chance), '--tells', tells, '--human-tells', human,
-                            '--diagnosis', edit['diagnosis'], '--detector', 'pangram 4.1, web app'],
-                           capture_output=True, text=True, cwd=REPO)
-        print(key, (r.stdout or r.stderr).strip()[-300:])
-        if r.returncode:
-            return r.returncode
+        out[key] = {'lineage': lineage, 'call': call, 'chance': chance, 'why': why, 'tells': tells, 'human_tells': human,
+                    'words': len(drafts[key].split()), 'first_words': ' '.join(drafts[key].split()[:12])}
+    (B / 'batch').mkdir(exist_ok=True)
     (B / 'batch' / 'PREDICTIONS.md').write_text('\n'.join(rows) + '\n', encoding='utf-8')
+    (B / 'batch' / 'FORECAST.json').write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    print(len(out), 'forecasts')
     return 0
 
 

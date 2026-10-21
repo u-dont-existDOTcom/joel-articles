@@ -37,10 +37,10 @@ APPC_NEW = '\n\n'.join([
     'Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a '
     'spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, '
     'I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow '
-    'down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I don’t '
-    'have to decide yet what that proves. And what would love, truth, humility and ordinary life need from me here?',
-    'If it’s true, it can handle my questions. Would real love mind my boundaries? And real guidance will still be '
-    'there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”',
+    'down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I won’t '
+    'assume I know what it proves. And what would love, truth, humility and ordinary life need from me here?',
+    'If it’s true, it can handle my questions. If it’s real love, it’ll survive my boundaries. And real guidance will '
+    'still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”',
     'Before acting on it, look for the usual signs, like urgency, secrecy, shame, a threat that you’ll be left out or '
     'a promise that you’re special, that kind of thing. Is there a sexual charge, or spiritual superiority? Be wary '
     'if it demands money or sex from you. Demands for your loyalty or your silence are signs too, and so is any '
@@ -63,8 +63,8 @@ EDITS = [
             "your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling "
             "normal and clear. This session is now over.\"",
      'new': "Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of "
-            "your choice). 2...feel your breathing return to normal. 3...become aware of your "
-            "surroundings, know where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open "
+            "your choice). 2...feel your breathing return to normal. 3...hear the room, name "
+            "where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open "
             "your eyes, back in the here and now, feeling normal and clear. This session is now over.",
      'published': "One — feel the body’s contact and chosen weight. Two — let the breath return to its ordinary rhythm. Three — "
                   "hear the room and name where you are. Four — move fingers, toes, shoulders, and eyes. Five — eyes open, "
@@ -76,12 +76,14 @@ EDITS = [
                   'as we don\'t lose anything"). And the cold read\'s two catches in the same paragraph (r1/SENSE-HG18.md P3): '
                   '"the five steps listed above" pointed at nothing above (they follow the colon), now "these five steps"; a '
                   'closing quotation mark with no opening one, a typo, out. Round 1 had put the pressing in this step instead, '
-                  'which the meaning check read as an addition to every count (r1/VERIFY.md pair 1)'},
+                  'which the meaning check read as an addition to every count (r1/VERIFY.md pair 1). Round 3: step three\'s '
+                  '"know where you are" back to the published "name where you are" (r2 VERIFY pair 1: knowing had replaced '
+                  'the act of naming)'},
     {'key': 'HG18-stopped-press', 'lineage': 'HG18-p5', 'section': 'HG18', 'kind': 'edit',
      'old': "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is "
             "over,\" and then do the above on your own.",
      'new': "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is "
-            "over,\" and then do the above on your own. Press your feet or hands into a surface first.",
+            "over,\" and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.",
      'published': "If a recording stops unexpectedly: say, “The recording stopped and the session is over.” Open your eyes, name "
                   "the location and day, press your feet or hands into a surface, move, look around, and use the five-step count.",
      'diagnosis': 'not a 4.1 fix: the one point the installed Human version (466g HG18-smp1) lost from the published steps, '
@@ -90,7 +92,8 @@ EDITS = [
                   'sentence instead made the in-context linter count its installed "you can say to yourself" as mine, E41, '
                   'and so did "Start by pressing", a coach phrase); '
                   '"do the above" already carries the rest of the published list (eyes, location and day, moving, looking '
-                  'around, the count)'},
+                  'around, the count). Round 3: "first" out, now "as well" (r2 VERIFY pair 2: the published order presses after '
+                  'the eyes open; "first" put it before the count)'},
     {'key': 'HG32-prose', 'lineage': 'HG32-c', 'section': 'HG32', 'kind': 'rewrite', 'old': APPC_OLD, 'new': APPC_NEW,
      'published': None,
      'diagnosis': 'question 2, c (Joel, 17:56): the general list of fourteen questions becomes three short paragraphs of prose '
@@ -99,7 +102,11 @@ EDITS = [
                   'something like," as in "Love doesn\'t have to wait for trust") and plain words ("taking for granted" for '
                   '"presupposed"); its four tests keep their pairs (truth and questions, love and boundaries, guidance and '
                   'sleep, what is for me and the adult self) in four different shapes; the good and bad guide in two '
-                  'sentences instead of four parallel ones. The hypnosis-specific audit and its last line stay as published'},
+                  'sentences instead of four parallel ones. The hypnosis-specific audit and its last line stay as published. Round 2 '
+                  'gave every paragraph a break the march can see (a question, a particular, a pause) and took the meaning check\'s '
+                  'catches (r1/VERIFY.md pair 2); round 3 put back two published meanings (r2 VERIFY pair 3): "without assuming what '
+                  'it proves" ("I won\'t assume I know what it proves") and love that survives boundaries ("Real love can handle my '
+                  'boundaries, can\'t it?")'},
 ]
 SWEEP = 'the inner-adult sweep (fix-20261021/CONFLATION-SWEEP.md, finding %d; Joel, 17:56: "check the guide for that conflation")'
 CONFLATION = [
@@ -120,9 +127,9 @@ CONFLATION = [
      'old': "bring in a “nurturer”, “protector”, “leader”, etc to help you either change the “tone” of the interaction, set "
             "boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have "
             "to talk to them, just use them to get whatever function you need that you aren’t able to do on your own.",
-     'new': "bring in a “Nurturer”, “Protector”, “Leader”, etc to help you either change the “tone” of the interaction, set "
-            "boundaries, or help you figure out how to live your life in a better fashion, feel free to do so. You don’t have "
-            "to talk to them, just use them to get whatever function you need, and if you can’t do one yet, borrow it.",
+     'new': "bring in your “Nurturer”, “Protector” or “Leader” to help you either change the “tone” of the interaction, set "
+            "boundaries, or find your way toward the life you want, feel free to do so. You don’t have to talk to them, just "
+            "use the one whose job you need, and if you can’t do it yet, borrow it.",
      'published': "The Nurturer can change the tone; the Protector can carry out a boundary; the Leader can point toward the "
                   "life you want. They don’t each need a speech. When a capacity isn’t available, borrow that one function. Use "
                   "the Witness only if you need it to begin; don’t restart a step you can already do.",
@@ -132,7 +139,12 @@ CONFLATION = [
                   'paragraph (r1/STANCE.md, conflict 1): "use them to get whatever function you need that you aren\'t able to '
                   'do on your own" makes the three roles outside helpers, where the guide has them as your own adult functions '
                   '("I don\'t mean them as if there were really three people in you") and a missing one borrowed (the published '
-                  '"When a capacity isn\'t available, borrow that one function"); now "and if you can\'t do one yet, borrow it"'},
+                  '"When a capacity isn\'t available, borrow that one function"); now "and if you can\'t do one yet, borrow it". '
+                  'Round 4 (r2/STANCE-r2.md, conflicts 3 and 4): "your" for "a" and the three roles without "etc", so a '
+                  '"Protector" can\'t be the guard of the sentence before or one of an open set of helpers, and "the one whose '
+                  'job you need" for "whatever function you need", each role with its own job as published; and the Leader\'s '
+                  'job back to the published "the life you want" ("find your way toward the life you want" for "help you figure '
+                  'out how to live your life in a better fashion", VERIFY-r4.md fix 4)'},
     {'key': 'HG24-cf-grownup', 'lineage': 'HG24-cf3', 'section': 'HG24', 'kind': 'edit',
      'old': "It could also be an inner voice of a parent that you are picking up, and it is trying to enforce a rule about how "
             "you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is "
@@ -169,6 +181,18 @@ CONFLATION = [
                   'vulnerability, which the Nurturer meets; this puts it back in plain words'},
 ]
 EDITS += CONFLATION
+EDITS.append(
+    {'key': 'HG24-cf-anxious', 'lineage': 'HG24-cf7', 'section': 'HG24', 'kind': 'edit',
+     'old': "-Tell your Little parts and Protector parts that you’re there for your Little parts and that you recognize that "
+            "your Protector parts are trying to protect you",
+     'new': "-Tell your Little parts and protector parts that you’re there for your Little parts and that you recognize that "
+            "your protector parts are trying to protect you",
+     'published': "Little one, I am here. Protector, thank you for warning me. You do not have to scream for me to listen.",
+     'diagnosis': 'the stance check of round 2 (r2/STANCE-r2.md, published contradiction 1) and the sweep\'s note on it (it '
+                  'listed this line as clear but said "the capital P is the only mixed signal; lowercase would match" '
+                  'Appendix D\'s "a protector part of you" and "Thank you protector"): the anxious guards that "scream at you" '
+                  'carry the capital P of the Protector you build. Lowercase only; "Little parts" keeps its capital, as Joel '
+                  'writes it'})
 VERIFIED = ('HG18-count-feet', 'HG18-stopped-press', 'HG32-prose', 'HG20-cf-roles')   # the meaning check's pairs; the sweep's fixes go to CONFLATION-REVIEW
 SECTIONS = {'HG18': 'Come all the way back', 'HG32': 'Appendix C: The extended de-hypnosis checklist'}
 
