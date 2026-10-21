@@ -7,6 +7,8 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+| pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -34,7 +36,78 @@ Calibration:
 | 0.6 to 0.8 | 361 | 0.72 | 84% |
 | 0.8 to 1.0 | 427 | 0.94 | 91% |
 
-## Since the ledger
+## pangram 4.1, Pangram's check of the Substack draft (free, Joel's account)
 
-No checks recorded in the ledger yet.
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+| the latest 100 | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+| all | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| article | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+| stretch | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.0 to 0.2 | 2 | 0.01 | 0% |
+
+## pangram 4.1, web app
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
+| the latest 100 | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
+| all | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 10 | 6 (60%) | 40% | 60% | 80% | 0.195 (base 0.240, 10) |
+| section | 4 | 2 (50%) | 50% | 50% | 100% | 0.214 (base 0.250, 4) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.4 to 0.6 | 9 | 0.49 | 44% |
+| 0.6 to 0.8 | 3 | 0.67 | 67% |
+| 0.8 to 1.0 | 2 | 0.82 | 100% |
+
+## Misses since the ledger (6)
+
+| cause | misses |
+|---|---|
+| balanced closer kept | 3 |
+| parallel list kept | 1 |
+| parallel list kept; light green turned red | 1 |
+| fix underrated | 1 |
+
+The latest:
+
+| check | lineage, try | said | read | cause |
+|---|---|---|---|---|
+| [HG15-p9e](https://www.pangram.com/history/6e97d63f-765f-4e8d-aecc-39ca783c05fa) | HG15-p9, 1 | Human | AI or mixed | balanced closer kept |
+| [HG35-forgive-e2](https://www.pangram.com/history/25833096-c587-4602-b24d-ba7affdfbcf3) | HG35-p13, 1 | Human | AI or mixed | parallel list kept |
+| [HG15-w467](https://www.pangram.com/history/9cfccd99-95ce-49b0-a65a-47216c218f42) | HG15, 1 | Human | AI or mixed | balanced closer kept |
+| [HG35-w467](https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad) | HG35, 1 | Human | AI or mixed | parallel list kept; light green turned red |
+| [HG15-p9e2](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56) | HG15-p9, 2 | Human | AI or mixed | balanced closer kept |
+| [HG35-forgive-e3](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3) | HG35-p13, 2 | AI | Human | fix underrated |
+
+## Lineages still open (tries used of the cap)
+
+| lineage | scope | tries | last read |
+|---|---|---|---|
+| HG-whole | article | 2 of 2 | pending |
+| HG-rest-B | stretch | 2 of 2 | pending |
+| HG15-p9 | paragraph | 2 of 6 | Mixed |
+| HG15 | section | 1 of 2 | Mixed |
+| HG35 | section | 1 of 2 | Mixed |
+| HG35-p15 | paragraph | 1 of 6 | Mixed |
 

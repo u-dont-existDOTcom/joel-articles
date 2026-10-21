@@ -1,0 +1,35 @@
+{
+ "HG35-forgive-e2": {
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261020/b467/part2/SENSE-HG35-e2.md (P13: its note is the installed h2 \"Forgiveness without bypass\" inside an appendix on self-trust; the edited sentences read OK)",
+  "grounding": "OK",
+  "grounding_note": "part2/VERIFY.md pair 2: every point kept; the one addition, \"at once\", says what \"hold all of this\" and \"it can all be true\" already mean",
+  "stance": 0,
+  "stance_note": "0: part2/STANCE.md (the whole published essay) found no conflict in the edited sentences; its four findings are in installed text these edits keep (the breathing step's \"Then\", \"or have medical issues, STOP!\", the two hedges of the forgiveness paragraph's first sentences), let stand at install"
+ },
+ "HG33-buteyko-e": {
+  "stance": 0,
+  "stance_note": "0: part2/STANCE.md (the whole published essay) found no conflict in the edited sentences; its four findings are in installed text these edits keep (the breathing step's \"Then\", \"or have medical issues, STOP!\", the two hedges of the forgiveness paragraph's first sentences), let stand at install"
+ },
+ "HG15-p11t": {
+  "grounding": "OK",
+  "grounding_note": "VERIFY-p11t.md: only the term changed, which is the fix; the checker read the pair alone, and the guide defines the inherited parent as this voice (\"The inner child, the guards, and the three inner adults\") and the published sentence used it (\"The inherited parent may demand immediate talent.\")",
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261020/b467/SENSE-HG15.md (round 4: P22 OK)"
+ },
+ "HG15-p9e": {
+  "cold_read": "articles/inner-signal/humanize/fix-20261020/b467/SENSE-HG15.md (round 4: P12 OK)"
+ },
+ "HG12-w467": {
+  "repeats": "joel decides (question 6 on the questions page): none of the repeats the check lists comes from these edits, which only cut or reword sentences in place; they are in the installed text, which kept the published guide's points, and they stay until he asks for a dedup pass (b467/REPEATS.md)"
+ },
+ "HG15-w467": {
+  "repeats": "joel decides (question 6 on the questions page): none of the repeats the check lists comes from these edits, which only cut or reword sentences in place; they are in the installed text, which kept the published guide's points, and they stay until he asks for a dedup pass (b467/REPEATS.md)"
+ },
+ "HG33-w467": {
+  "repeats": "joel decides (question 6 on the questions page): none of the repeats the check lists comes from these edits, which only cut or reword sentences in place; they are in the installed text, which kept the published guide's points, and they stay until he asks for a dedup pass (b467/part2/REPEATS.md)"
+ },
+ "HG35-w467": {
+  "repeats": "joel decides (question 6 on the questions page): none of the repeats the check lists comes from these edits, which only cut or reword sentences in place; they are in the installed text, which kept the published guide's points, and they stay until he asks for a dedup pass (b467/part2/REPEATS.md)"
+ }
+}

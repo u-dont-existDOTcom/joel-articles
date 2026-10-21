@@ -1,0 +1,102 @@
+{
+ "format": "substack-helper-delivery-receipt-v1",
+ "protocol": "docs/SUBSTACK-HELPER-DELIVERY-GATE.md",
+ "article": "inner-signal (the hypnosis guide)",
+ "purpose": "a temporary Substack post for the free whole-guide Pangram 4.1 check; not the publication merge",
+ "why": "Joel, 2026-10-20 22:01 UTC: \"for very large pangram checks (not just one section, but like whole article especially) you can just ask me to make a temporary article on substack to check it free\" (articles/intentional-communities/candidate/joel-20261020/joel-20261020-2201-message.txt)",
+ "raw_editor_html": {
+  "path": "articles/inner-signal/humanize/source/substack-editor-20260928.html",
+  "sha256": "b3f8aa4ec20120342488ac66eafa2ef93892f65f5b57b118a38322a338e2d23d",
+  "from": "Joel's Substack editor paste of 2026-09-28"
+ },
+ "master": {
+  "path": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "660aa5ba7a6fe54ca5c58a4364c95052c69d6b92bf3803687da79dff3b58aab8",
+  "note": "the working copy: every installed section, the four open sections (questions 2 to 4) as published"
+ },
+ "published_bridge": {
+  "path": "articles/inner-signal/humanize/source/published-20260928.md",
+  "sha256": "3b5cb6cce976fa9e0419fd1d32c62df12894d083385607e7faab6cb1295ee218"
+ },
+ "merge": {
+  "tool": "tools/humanization/substack_merge.py",
+  "report": "articles/inner-signal/humanize/fix-20261020/substack41/MERGE-REPORT-20261020.json",
+  "verdict": "PASS",
+  "islands_verify": "PASS: 8 islands byte-for-byte and in order",
+  "prose_check": "PASS: 26819 words, the same as the master's text blocks, in order",
+  "links": {
+   "master_links": 43,
+   "missing": []
+  },
+  "formatting_carried": {
+   "unchanged: the editor's markup": 209,
+   "blockquote": 115,
+   "list item (ol)": 25,
+   "new paragraph kept in the list": 10,
+   "the master's own list (ol)": 6,
+   "list item (ul)": 43,
+   "bold lead-in": 4,
+   "the master's own list (ul)": 1
+  },
+  "line_breaks_not_carried": 15
+ },
+ "archival_source": {
+  "path": "articles/inner-signal/humanize/fix-20261020/substack41/ARCHIVAL-SUBSTACK-20261020-B.html",
+  "sha256": "820bc21dc37b6de3e449fa8bdb9cab5987f046587b35b66994bdbaff3a7b8db8",
+  "derived_from": {
+   "path": "articles/inner-signal/humanize/fix-20261020/substack41/ARCHIVAL-SUBSTACK-20261020.html",
+   "sha256": "c4b03a533dcca59aef93bbb6889a1e43b400713fd0e23187c6bfc992b0099f1b",
+   "how": "make_part_b.py: the editor body from its top-level block \"<h1>Appendices</h1>\" to the end, raw-string slice"
+  }
+ },
+ "editor_body": {
+  "sha256": "0f23bfb0847c4be251afb4cfde1e4bdb0f14836890a1cd1da445ef093b61355f",
+  "boundary_mode": "substack-editor-root"
+ },
+ "canonical_generator": {
+  "path": "project-sources/substack_transfer_helper.py.txt",
+  "sha256": "322e4738243806570fd01de4389150144f13f959de30d78579b69fb57c9352f4"
+ },
+ "native_object_parser": {
+  "path": "project-sources/html_islands.py.txt",
+  "sha256": "96c800c9a7c0b1dae642de1139d53651e87b145cb1ae2aefa4075a9affa0b10d"
+ },
+ "compatibility_profile": {
+  "path": "project-sources/CONFIRMED-SUBSTACK-HELPER.json",
+  "sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734",
+  "manifest_sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734"
+ },
+ "helper": {
+  "path": "articles/inner-signal/humanize/fix-20261020/substack41/COPY-TO-SUBSTACK-HYPNOSIS-CHECK-B.html",
+  "sha256": "456b07797bbf0ac1527ae5619f41fa31651c6f6db2e8ba8eefbcd062b890bbfa",
+  "manifest_format": "joel-substack-transfer-helper-v4",
+  "payload_mode": "single_rich_html",
+  "segment_count": 1,
+  "manual_native_video_steps": 0,
+  "visible_action": "one \"Copy Article\" button",
+  "plan": "articles/inner-signal/humanize/fix-20261020/substack41/TRANSFER-PLAN-20261020-B.json",
+  "build_report": "articles/inner-signal/humanize/fix-20261020/substack41/TRANSFER-REPORT-20261020-B.json"
+ },
+ "native_objects": {
+  "count": 2,
+  "by_type": {
+   "image": 1,
+   "substack_video_post_embed": 1
+  },
+  "order": [
+   "image",
+   "substack_video_post_embed"
+  ]
+ },
+ "canonical_verify": "PASS: static source and conversion checks (init, build, verify); 1 ordered segment(s), 0 native-video manual steps",
+ "interaction_test": {
+  "path": "articles/inner-signal/humanize/fix-20261020/substack41/HELPER-INTERACTION-20261020-B.json",
+  "status": "pass",
+  "paths": [
+   "ClipboardItem Blob sink",
+   "execCommand selected-rich-DOM sink"
+  ],
+  "scope": "exact HTML set_content in headless Chromium; no local-file/Opera claim"
+ },
+ "destination_status": "pending: Joel's paste into a new, temporary Substack draft (never published), for Substack's Pangram check"
+}

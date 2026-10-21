@@ -10,7 +10,8 @@ the reparenting paragraph before it ... (278g, a control)" with no link to the c
 tested (E171 already asked for the link on a flag; nothing checked that it was there).
 
 A paragraph or list item that reports an AI result (reads AI, read AI, AI-Generated, AI Detected, an AI window,
-Mostly Human) needs a https://www.pangram.com/history/ link in the same paragraph or item. Prints each one that
+Mostly Human) needs a https://www.pangram.com/history/ link (or a https://www.pangram.com/feed/ link, for a check of a
+Substack post) in the same paragraph or item. Prints each one that
 doesn't have one, and exits 1 if there are any. Passing results can point to the turn's results file, which lists
 each check's link.
 
@@ -30,7 +31,9 @@ from html_links import bare_urls  # noqa: E402
 RESULT_WORDS = re.compile(r'\bAI[- ](?:Generated|Detected|window)\b|\bMostly Human\b|\bAI-generated\b', re.I)
 READS_AI = re.compile(r'\b(?:reads?|reading|read as)\s+(?:as\s+)?AI\b', re.I)
 CHECK_CONTEXT = re.compile(r'\bPangram\b|\b\d{3}g\b|\d+%', re.I)
-LINK = 'pangram.com/history/'
+# A check's page: its History entry, or (2026-10-20) the page of Pangram's check of a Substack post, which isn't in the
+# History list (the hypnosis guide's whole-guide check through a temporary Substack post: pangram.com/feed/<uuid>).
+LINKS = ('pangram.com/history/', 'pangram.com/feed/')
 
 
 def units(text):
@@ -50,7 +53,7 @@ def units(text):
 
 def missing(text):
     return [u for u in units(text)
-            if LINK not in u and (RESULT_WORDS.search(u) or (READS_AI.search(u) and CHECK_CONTEXT.search(u)))]
+            if not any(k in u for k in LINKS) and (RESULT_WORDS.search(u) or (READS_AI.search(u) and CHECK_CONTEXT.search(u)))]
 
 
 def main(argv):

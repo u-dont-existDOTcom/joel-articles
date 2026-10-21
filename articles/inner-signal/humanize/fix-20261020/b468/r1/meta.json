@@ -1,0 +1,98 @@
+{
+ "edits": [
+  {
+   "key": "HG15-p9e2",
+   "lineage": "HG15-p9",
+   "section": "HG15",
+   "kind": "edit",
+   "with": null,
+   "old": "Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.",
+   "new": "I’m not saying those can’t be real gifts, but if failing at one of them feels like losing yourself, then you’re using it to buy your sense of belonging.",
+   "was_try": "HG15-p9e (467g, try 1): \"Those can all be real gifts, but if failing at one of them feels like losing yourself, it has become a way to buy belonging.\" read AI, medium (the whole sentence)",
+   "diagnosis": "try 1 still closed on a concession and a reframe in one balanced sentence, with the reframe said as what the gifts \"have become\". Try 2 says the concession as the author's own position, in the frame that read dark green in Joel's community final under 4.1 (\"I'm not saying paid help can't be good sometimes, but to me it seems way too much of a gamble if I have a better alternative.\", articles/intentional-communities/candidate/joel-20261020/PANGRAM41-EDITS.md, run 9), and the reframe as what the reader does, in the section's own words (\"buying my sense of belonging\", its questions)"
+  },
+  {
+   "key": "HG35-forgive-e3",
+   "lineage": "HG35-p13",
+   "section": "HG35",
+   "kind": "edit",
+   "with": null,
+   "old": "We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+   "new": "We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them.",
+   "was_try": "HG35-forgive-e2 (467g, try 1): \"... at once. The harm happened, and the boundary still matters. The person is still accountable, and forgiveness may come later on its own.\" read AI, medium and high (each couplet); its first sentence read Human, low",
+   "diagnosis": "try 1 split the colon list into two balanced couplets, so the four points stayed four crisp abstract clauses (\"the harm\", \"the boundary\", \"the person\", \"forgiveness\") in parallel, ending on the reassurance. Try 2 keeps its first sentence (Human) and says the points about the people (\"They really did hurt us and they still have to answer for it\"), in one uneven sentence joined by \"and\" and \"but\", with the forgiveness as something we may find has happened rather than a fourth item (no \"anyway\" at the end: the linter's finished-principle check, B1, has it): the published list's abstractions are what 4.1 read, and the clauses that read Human in this section are about people (\"they could only make the moves they made\", the paragraph after)"
+  },
+  {
+   "key": "HG35-quote-e",
+   "lineage": "HG35-p15",
+   "section": "HG35",
+   "kind": "edit",
+   "with": "prev",
+   "old": "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”",
+   "new": "“You don’t have to forgive them before you’re ready, and I’m not going to use spirituality to silence your pain, but I also won’t build our whole life around this wound forever.”",
+   "was_try": "installed (453g HG35-rfix, Pangram 4.0, 100% Human); Pangram 4.1, the section check HG35-w467: its first two sentences read AI, low (19 words), the third Human; light green in the whole guide (part B)",
+   "diagnosis": "three short parallel declaratives, the first two a stock reassurance (\"You don't have to forgive before you're ready.\") and a polished one-line promise (pattern 3, tidy reassurance); the third, with \"our whole life\", read Human. Said as one spoken run-on, the way the adult talks to the child (Emulate's own rendering of this line was one run-on: fix-20261018/emu-c/HG35-r1-s5.out.txt), every promise kept. Under 50 words, so it is checked with the paragraph before it (Human, high in the section check)"
+  },
+  {
+   "key": "HG35-selfforgive-e",
+   "lineage": "HG35-p18",
+   "section": "HG35",
+   "kind": "edit",
+   "with": "next",
+   "old": "For self-forgiveness, name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.",
+   "new": "For self-forgiveness, name what you did, and take responsibility only for what was yours. Let yourself feel remorse for the harm, or for how it went against your values, but don't make yourself a permanent criminal over it.",
+   "was_try": "installed (453g HG35-rfix, Pangram 4.0, 100% Human); Pangram 4.1, the section check HG35-w467: the paragraph read AI, low (34 words); light green in the whole guide (part B)",
+   "diagnosis": "two parallel imperatives, each closing on a \"without ...ing\" clause (pattern 4; E186, which the linter found in 13% of the paragraphs that read AI and 3% of those that read Human), and remorse as the one doing it (\"Let the remorse register the harm\", W78). The person feels the remorse, and each caution is said as what to do, in a different shape (\"and take responsibility only for ...\", \"but don't make yourself ...\"), so the two sentences no longer share one. Under 50 words, so it is checked with the paragraph after it (Human in the section check)"
+  }
+ ],
+ "texts": {
+  "HG15-p9e2": {
+   "section": "HG15",
+   "lineage": "HG15-p9",
+   "words": 79,
+   "was_md": "What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.",
+   "new_md": "What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. I’m not saying those can’t be real gifts, but if failing at one of them feels like losing yourself, then you’re using it to buy your sense of belonging.",
+   "with": null
+  },
+  "HG35-forgive-e3": {
+   "section": "HG35",
+   "lineage": "HG35-p13",
+   "words": 94,
+   "was_md": "We can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+   "new_md": "We can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them.",
+   "with": null
+  },
+  "HG35-quote-e": {
+   "section": "HG35",
+   "lineage": "HG35-p15",
+   "words": 115,
+   "was_md": "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”",
+   "new_md": "“You don’t have to forgive them before you’re ready, and I’m not going to use spirituality to silence your pain, but I also won’t build our whole life around this wound forever.”",
+   "with": "prev"
+  },
+  "HG35-selfforgive-e": {
+   "section": "HG35",
+   "lineage": "HG35-p18",
+   "words": 86,
+   "was_md": "For self-forgiveness, name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.",
+   "new_md": "For self-forgiveness, name what you did, and take responsibility only for what was yours. Let yourself feel remorse for the harm, or for how it went against your values, but don't make yourself a permanent criminal over it.",
+   "with": "next"
+  },
+  "HG15-w468": {
+   "section": "HG15",
+   "words": 925,
+   "parts": [
+    "HG15-p9e2"
+   ]
+  },
+  "HG35-w468": {
+   "section": "HG35",
+   "words": 1141,
+   "parts": [
+    "HG35-forgive-e3",
+    "HG35-quote-e",
+    "HG35-selfforgive-e"
+   ]
+  }
+ }
+}

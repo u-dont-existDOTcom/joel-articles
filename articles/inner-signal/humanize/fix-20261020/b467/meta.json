@@ -1,0 +1,82 @@
+{
+ "edits": [
+  {
+   "key": "HG12-p3c",
+   "section": "HG12",
+   "kind": "cut",
+   "old": " But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.",
+   "new": "",
+   "window": "22 (AI-Generated, Medium, 17 words)",
+   "diagnosis": "patterns 2 and 3: an aphorism with a colon reveal that restates the paragraph's first sentence (the hypnotist can't get that feedback because they aren't IN my mind); cut, as Joel cut the restating sentences of the community article. Round 2 tried the concession first and the first sentence last, so the \"But\" still answered the concession, but its march lost the paragraph's break (the parenthetical aside, r2/march.json); the meaning check's \"LOST\" for the cut is the restatement itself: the first sentence says what no one outside my mind can do, which is the same point (VERIFY.md of round 1, r1/)"
+  },
+  {
+   "key": "HG12-p7e",
+   "section": "HG12",
+   "kind": "edit",
+   "old": "Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere.",
+   "new": "Normal interaction with people made it wear off, but for a while it showed me that my mind and heart may allow this when the desire is sincere.",
+   "window": "28 (AI-Generated, High, 25 words)",
+   "diagnosis": "pattern 2: an abstract summing-up closer (\"dissolved the state\", \"a possibility my mind and heart may permit\") on a personal story; said plainly, \"this\" pointing at the state he has just described, the hedge kept"
+  },
+  {
+   "key": "HG15-p9e",
+   "section": "HG15",
+   "kind": "edit",
+   "old": "Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.",
+   "new": "Those can all be real gifts, but if failing at one of them feels like losing yourself, it has become a way to buy belonging.",
+   "window": "53 (AI-Generated, Low) and 54 (AI-Generated, Low)",
+   "diagnosis": "pattern 3 then 2: a short reassurance (\"Those can all be real gifts.\") and a balanced aphorism (\"They become a bargain for belonging when ...\"); one plain sentence keeps both points, in the words the section's own questions use (\"buying my sense of belonging\")"
+  },
+  {
+   "key": "HG15-p11t",
+   "section": "HG15",
+   "kind": "edit",
+   "old": "Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it.",
+   "new": "Because often your inherited parent tells your inner child that it is supposed to be good at something as soon as it starts doing it.",
+   "window": "56 (Human, Low) is the line after it; this is a meaning fix, not a 4.1 one",
+   "diagnosis": "meaning, not Pangram: the stance check (STANCE.md, finding 6) found \"inner parent\" naming the voice that demands talent, which the guide calls the inherited parent (\"The inner child, the guards, and the three inner adults\": \"the voice of your parent(s) that you internalized as a child ... Often this inherited parent acts as a critic or warden\"; the published sentence: \"The inherited parent may demand immediate talent.\"), while it uses \"inner parent\" for the caring capacity you build; the published term goes back"
+  }
+ ],
+ "texts": {
+  "HG12-p3c": {
+   "section": "HG12",
+   "words": 64,
+   "was_md": "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.) But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.",
+   "new_md": "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)"
+  },
+  "HG12-p7e": {
+   "section": "HG12",
+   "words": 132,
+   "was_md": "Some benefits arrived the next morning or a few days later. After one loveyhuasca self-hypnosis session, I woke in what felt like an answer to prayer. I’d been dealing with a lot of lust energy and worrying it could pull me into a relationship that wasn’t right. I asked the subconscious to connect the heart chakra with the sacral chakra—to bring the love energy and sex energy into the same current. The next morning I woke in a kind of “perfected” love state. I didn’t feel that I needed to find a woman; the divine feminine felt somehow at zero distance from my heart. Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere.",
+   "new_md": "Some benefits arrived the next morning or a few days later. After one loveyhuasca self-hypnosis session, I woke in what felt like an answer to prayer. I’d been dealing with a lot of lust energy and worrying it could pull me into a relationship that wasn’t right. I asked the subconscious to connect the heart chakra with the sacral chakra—to bring the love energy and sex energy into the same current. The next morning I woke in a kind of “perfected” love state. I didn’t feel that I needed to find a woman; the divine feminine felt somehow at zero distance from my heart. Normal interaction with people made it wear off, but for a while it showed me that my mind and heart may allow this when the desire is sincere."
+  },
+  "HG15-p9e": {
+   "section": "HG15",
+   "words": 75,
+   "was_md": "What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.",
+   "new_md": "What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts, but if failing at one of them feels like losing yourself, it has become a way to buy belonging."
+  },
+  "HG15-p11t": {
+   "section": "HG15",
+   "words": 117,
+   "was_md": "Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.",
+   "new_md": "Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone."
+  },
+  "HG12-w467": {
+   "section": "HG12",
+   "words": 511,
+   "parts": [
+    "HG12-p3c",
+    "HG12-p7e"
+   ]
+  },
+  "HG15-w467": {
+   "section": "HG15",
+   "words": 921,
+   "parts": [
+    "HG15-p9e",
+    "HG15-p11t"
+   ]
+  }
+ }
+}

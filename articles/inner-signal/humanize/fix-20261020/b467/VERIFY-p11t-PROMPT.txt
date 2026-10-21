@@ -1,0 +1,13 @@
+You check that a small edit of a paragraph keeps its meaning. Below is 1 pair from a long self-hypnosis guide by Joel, written in his first person. In each pair the INSTALLED paragraph is the one in the guide now and the EDITED one changes or cuts a sentence or two of it.
+
+For each pair, list every point the installed paragraph makes (a claim, a fact about Joel, a step, a caution, a condition, a hedge such as "I suspect" or "may") and say whether the edited paragraph keeps it: KEPT, CHANGED (how a reader would now understand it differently) or LOST. Then list anything the edited paragraph says that the installed one doesn't: ADDED. Judge meaning only, not style or which version is better, and don't suggest rewrites. Keep your reasoning short.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261020/b467/VERIFY-p11t.md`, one "## Pair N" part per pair, ending each with one line `VERDICT: OK` (every point kept, nothing added) or `VERDICT: CHANGED` (anything changed, lost or added), then reply with only the verdicts. Don't read any other file, don't run commands, and don't use the web.
+
+## Pair 1 (HG15-p11t)
+
+INSTALLED:
+Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
+
+EDITED:
+Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
