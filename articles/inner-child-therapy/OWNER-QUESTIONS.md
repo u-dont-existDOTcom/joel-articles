@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-21 (turn 77). **Two open questions (70 and 71).** To answer, reply in chat with the number and a letter, like `70: A`, or in your own words.
+Last updated 2026-10-21 (turn 78). **Two open questions (73 and 74).** To answer, reply in chat with the number and a letter, like `73: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,39 +8,54 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 70. GPT's structure proposal (r03): which moves?
+### 🟣 73. Your Loan is PRE-APPROVED! P2: keep its last two sentences?
 
-GPT's candidate keeps every paragraph and proposes eight moves. My view of each is in `experiments/t77-answers/GPT-STRUCTURE-REVIEW.md`. In short: M02, M03, M05, M07 and M08 yes; M01 yes but keep your "mess and all" paragraph early; M04 only as far as starting Altered States as its own h1 right after When the Adult Voice Feels Fake, keeping your escape → altered states → pain → suicide run together; M06 only for the end-of-article spiritual sections, keeping Ask God for a Loan in Borrow Love. Both scope questions: keep everything.
-- **A (my pick):** the moves as I'd change them, above.
-- **B:** all eight as GPT has them.
-- **C:** your own picks, move by move (M01 to M08).
-- **D:** none for now; keep your 10-19 order.
+Your paste of the new P2 ended at "I’m not pushing “toxic positivity.”" In the article the paragraph goes on with the two lines you added on 10-19 (questions 66 and 67): "Being thankful shouldn’t be pushed on people who just need to grieve for the moment. On the other hand, I’ve noticed that I can sometimes completely flip a bad psychedelic trip into a good one with gratitude alone." I kept them.
+- **A (my pick):** keep them, as now. You added them two days ago, and your message only changed the start.
+- **B:** cut them.
+- **C:** your words: where they should go instead.
 
-### 🟣 71. The first sharing paragraph reads AI on Pangram 4.1
+### 🟣 74. If You Want to Kill Yourself: get-help steps first?
 
-I checked your 28 changed or new paragraphs alone (the four under 50 words wait for their sections). 27 read Human Written, almost all with high confidence, on Pangram 4.1. This one reads AI all through ([AI Generated, 161 words](https://www.pangram.com/history/3975ee9b-af2b-41ef-9ddc-d3d39eb701a1)). It is mostly my turn-76 draft, with your two edits (", teachers," and the last sentence). On 10-19, before your edits, the draft read Human on Pangram 4.0 (0.19).
-
-> Then there’s the stuff that’s hardest to tell anyone, though it’s often exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. (An urge you’ve never acted on isn’t the same as something you did, by the way.) You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. A fake name doesn’t guarantee you’re anonymous, either. And some of the people you’d tell, like therapists, teachers, and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it’s nowhere near every crime you might mention. The cops are hopefully the obvious ones to be careful with, even if they pretend to care.
-
-- AI tells I see: it lists the risks one after another, one fact a sentence (the screenshot, the company's server and a court, a fake name, who has to report, which laws, where you live), with two explaining asides in parentheses ("by the way", "a few laws cover everybody, too").
-- Human tells: "You know that DM you deleted?", the 🙈, and your line about the cops.
-- **A (my pick):** your words for it, the way you wrote the second sharing paragraph (that one reads Human, high).
-- **B:** I try one repair that keeps every point: the risks told as what happens to that one DM, the two asides folded into it, your cops line kept; then one Pangram check.
-- **C:** leave it as it is for now (an exception of yours, not a pass).
+GPT's r03 also changed the order inside this section, which my review missed: it puts your two get-help paragraphs ("Maybe you’re reading this about to act, or with the means close by..." and "Then, before getting all philosophical, make sure there’s a real, live grown-up in the room...") before your opening one ("I try not to proselytize about spirituality..."). Your order opens with why spirituality comes up here; GPT's has someone reading at the edge meet the get-help steps first. No words change either way.
+- **A (my pick):** get-help steps first, then your opening paragraph. A reader in crisis may not read far.
+- **B:** keep your order, as now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #205 (turn 77)
+### 🟠 Four free Substack checks of the moved article (turn 78)
 
-#205 (https://github.com/u-dont-existDOTcom/joel-articles/pull/205) has your own changes from the 10-19 upload, the Pangram results for them, and my view of GPT's moves (nothing moved yet). About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+The whole article after the moves, in four parts of about 5,000 to 8,000 words each (Substack's free check, up to about 9,999 words as you said). They're the files `part-1.txt` to `part-4.txt` I sent; the text is the article's, without our notes or images. For each part, about two minutes:
+
+1. In Substack, start a new post. Don't publish it.
+2. Open the part's file, select all, copy, and paste it into the post.
+3. Run the Pangram check the way you did for the whole article before.
+4. Delete the draft, or paste the next part over it.
+
+Then tell me in chat. I'll read the four results from your Pangram history, which costs nothing, and click through their segments for any part that isn't all Human.
+
+### 🟠 Merge pull request #205 (turns 77 and 78)
+
+#205 (https://github.com/u-dont-existDOTcom/joel-articles/pull/205) now has turn 78 too: the moves, your two paragraphs, the guide for GPT and the new Pangram rules. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 70 and 71, 2026-10-21 00:49 UTC
+
+You: "70a", and for 71 your own version of the first sharing paragraph ("71 ok this version is human"). Both are in (turn 78):
+
+- **70: A.** GPT's moves as I'd change them, every paragraph kept (owner edits pass). Before You Try to Go Deep keeps your "mess and all" paragraph, now right after its opening; Simple Practices comes right after Building Trust, with Catch the Hook first; Altered States is its own h1 right after When the Adult Voice Feels Fake, with your run after it in your order; The Inner Guide is renamed, its four paragraphs on handing over your judgment now in Don't Give the Inner Adult Away; Ask God for a Loan stays in Borrow Love; How Much Happiness Do You Know Is Possible? is an h1 near the end; one relationship chapter with GPT's heading Hearthwork: Taking Turns (yours to change); Finding a Therapist comes before You Are Worthy of Love. Always.
+- **What I did beyond the table, so you can check it:** When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time (GPT moved the third elsewhere, but it carries on the second's "least cruel response"), and its empty heading went. Three pointers changed because of the new order: "ask yourself again" is now "ask yourself"; "I'll talk more about those next" is "in the appendix"; and my altered-states line now says "the same test as in Timing Is Individual, further down". Your divider after If You Want to Kill Yourself, which my turn-77 rebuild left out, is back.
+- **GPT's other wording ideas weren't needed in this order:** "If the love still isn't coming," and "Some people have the opposite problem." still come right after what they answer, "(see the section Hear the Protective Part First)" still points the right way, and "That doesn't close the door, though, it just means you start smaller." stays, as I said.
+- **Not taken, as A said:** M04's two paragraph moves inside When the Adult Voice Feels Fake. And GPT's help-first order in If You Want to Kill Yourself, which my review missed; that one is question 74.
+- **71.** Your wording is in word for word, with your apostrophes as you typed them.
+- **Your Loan is PRE-APPROVED! P2:** your new parenthesis is in, and the gratitude point went to the InnerSignal map's queue (filed in the architecture repository's innerSignalGraph lane, for that project's agent). Question 73 is about the paragraph's last two sentences.
 
 ### 🟢 Questions 64 to 69, answered by your 2026-10-19 upload
 
@@ -333,7 +348,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🔵 Next
 
-- After your answers to 70 and 71: I make the moves you pick, then check each moved or changed section once in Pangram (your four paragraphs under 50 words get checked there), then the whole article once, through a temporary Substack post that you make. I'll tell you when it's ready.
+- After your four Substack checks: I read the results from your Pangram history and click through the segments of any part that isn't all Human; a moved section that exposes a paragraph gets reworked first (gate E197). Then your answers to the open questions.
 - Older items, which I'll check against your 10-19 upload when we get to them:
   - "And So That's the Way It Happened!": P1 with your Xandria line, and two new P2s, each read Human alone (0.0063; 0.14 and 0.14), but the practice put together still reads AI as a whole (0.84 and 0.93), as in turns 65 and 69. Next: your part-at-a-time method on the practice itself (P1 with P2, P2 with P3) to find where it turns.
   - The three Altered States sections, with your stories as your guide has them (43, 7 and 8), their warnings in your words, no amounts or recipes.
