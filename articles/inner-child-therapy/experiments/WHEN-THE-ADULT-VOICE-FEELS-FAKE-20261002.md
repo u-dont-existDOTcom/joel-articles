@@ -1038,4 +1038,6 @@ Joel, 16:01 UTC: my question labels overlapped ("your numbering/lettering option
 
 ### Next
 
-1. When the drafts have been through his Pangram extension: both results from his Pangram history (free; the seed tab), the segment clicks for any half that isn't all Human, rework of what a moved section exposes first (E197), then delete both drafts and say so here.
+1. When he sends the two result pages (the label next to the author's name, clicked twice, then "View Full Analysis"; pangram.com/feed/ links): read each in the app's browser with `tools/humanization/pangram_feed_read.js`, click the segments of any half that isn't all Human, rework what a moved section exposes first (E197), then delete both drafts and say so here.
+
+After the answer: pull request #207 merged (2026-10-21, about 17:57 UTC). My answer had told him I'd read the results from his Pangram history, but the extension's checks of a Substack post aren't in his History list (the hypnosis lane's `pangram_feed_read.js`), so the questions page now asks him for the two result pages, and the rules say so.

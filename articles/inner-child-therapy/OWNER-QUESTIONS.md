@@ -19,14 +19,10 @@ None right now.
 
 I made the two Substack drafts myself this time, in the app's browser: the whole moved article in two halves, each under the 99,999 characters Substack's check reads, titled "TEMP Pangram check A" and "B". The Pangram label on a post comes from the Pangram Chrome extension, which the app's browser doesn't have, and Claude in Chrome wasn't connected when I tried. So either:
 
-- open the two secret links I sent in chat in your Chrome (they aren't on this page because the repository is public), and tell me; or
-- open Chrome with the Claude extension signed in, tell me, and I'll open them there.
+- open each of the two secret links I sent in chat in your Chrome (they aren't on this page because the repository is public), wait for the Pangram label next to the author's name (5 to 10 seconds), click it twice, then "View Full Analysis", and send me the link of the page that opens (it starts https://www.pangram.com/feed/); or
+- open Chrome with the Claude extension signed in, tell me, and I'll do all of that there.
 
-Either way I read the results from your Pangram history for free, click through the segments of any half that isn't all Human, and delete both drafts once the results are recorded.
-
-### 🟠 Merge pull request #207 (turn 79)
-
-#207 (https://github.com/u-dont-existDOTcom/joel-articles/pull/207) has your answers to 72 to 74 and the new rules. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+I need those page links because the extension's checks don't show up in your Pangram history (the hypnosis lane found this). I read each page in the app's browser for free, click through the segments of any half that isn't all Human, and delete both drafts once the results are recorded.
 
 ## Decided
 
@@ -349,7 +345,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🔵 Next
 
-- When the two drafts have been through the Pangram extension: I read the results from your Pangram history, click through the segments of any half that isn't all Human, rework what a moved section exposes first (gate E197), and delete the drafts.
+- When you send the two result pages: I read them in the app's browser, click through the segments of any half that isn't all Human, rework what a moved section exposes first (gate E197), and delete the drafts.
 - Older items, which I'll check against your 10-19 upload when we get to them:
   - "And So That's the Way It Happened!": P1 with your Xandria line, and two new P2s, each read Human alone (0.0063; 0.14 and 0.14), but the practice put together still reads AI as a whole (0.84 and 0.93), as in turns 65 and 69. Next: your part-at-a-time method on the practice itself (P1 with P2, P2 with P3) to find where it turns.
   - The three Altered States sections, with your stories as your guide has them (43, 7 and 8), their warnings in your words, no amounts or recipes.
