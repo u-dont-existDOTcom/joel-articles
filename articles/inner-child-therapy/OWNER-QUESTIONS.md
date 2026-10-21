@@ -21,6 +21,10 @@ The label comes from the Pangram extension in a browser, and the app's browser, 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
+### 🟠 Merge pull request #208 (turn 80)
+
+#208 (https://github.com/u-dont-existDOTcom/joel-articles/pull/208) has the no-"Pangram" title rule, the humanize-kit note and question 75. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+
 ## Decided
 
 > [!TIP]
