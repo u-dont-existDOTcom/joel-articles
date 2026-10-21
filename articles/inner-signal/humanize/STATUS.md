@@ -1,6 +1,6 @@
 # Status: hypnosis guide humanization (newest on top)
 
-## 2026-10-21, after Joel's messages of 23:32 and 23:54 UTC (both halves read in 4.1; the first fixes)
+## 2026-10-21, after Joel's messages of 23:32 and 23:54 UTC (both halves read in 4.1; the first fixes; the recheck waits on his Chrome)
 
 **The whole guide in 4.1, both Mixed** (Substack's check, free; each result's every window is in
 `fix-20261020/substack41/RESULT-41a.json` and `RESULT-41b.json`, mapped onto the guide's blocks by
@@ -36,6 +36,33 @@ and the forgiveness couplets ([check](https://www.pangram.com/history/25833096-c
 Mostly Human, with two installed lines AI, low, that were light green in part B,
 [check](https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad)). Predictions: 6 of 10 right; each miss
 is explained in the ledger.
+
+**Batch 468g** (`fix-20261020/b468/`): the second tries for the two misses and the first 4.1 tries for Appendix F's two
+lines that read AI (low) in its section check, each paragraph alone or with its neighbor. Round 1 of the gate's reviews
+(`b468/r1/`) held the quoted promise (joining its three sentences took out the permission, its break) and found four
+meaning changes; all were fixed before the call. Results:
+- Appendix F's forgiveness list said about the people: Human, high
+  ([check](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3)). Installed.
+- The self-forgiveness lines: Human, high
+  ([check](https://www.pangram.com/history/fb5462fd-54ca-4993-a909-0072386f60bb)). Installed.
+- HG15's "real gifts / buy belonging" closer in Joel's own concession frame: AI, high
+  ([check](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56)). Two tries of one mechanism, so it went
+  to Joel as question 8; it stays as installed.
+- The quoted promise with its two promises joined: AI, low
+  ([check](https://www.pangram.com/history/2b0c9b19-25e2-4855-a867-42c9992b575b)). It read light green in the whole guide,
+  so it stays as installed (the budget rule's light-green rule).
+
+Predictions: 2 of 4 right; both misses are explained in the ledger (the merged closer got redder each try; the
+concrete clauses worked better than I gave them). Lessons are in `docs/HUMANIZATION-GATE.md`. `fill_preds.py` had
+counted an AI call that read Mixed as a miss; fixed, with a test.
+
+**The recheck through Substack** (`fix-20261020/substack41r/`): `make_recheck.py` rebuilt both parts from the working
+copy with its six 4.1 edits (merge PASS; canonical generator; clipboard test), and the predictions are in the ledger
+(`HG-whole#17`, `HG-rest-B#18`, try 2 of 2 each). I made both drafts in the app's browser with Joel's steps, using
+`paste_payload.js`, which checks the payload's SHA-256 before pasting it as a paste event. I set the "Paid subscriber
+view" and opened the secret links. The Pangram label never appeared there: it comes from the Pangram Chrome extension,
+which the app's browser doesn't have, and Joel's Chrome isn't connected. The two links went to Joel to open in his
+Chrome (questions page, "For you to do").
 
 ## 2026-10-20, after Joel's message of 22:01 UTC (the whole guide's first 4.1 check, through Substack)
 
