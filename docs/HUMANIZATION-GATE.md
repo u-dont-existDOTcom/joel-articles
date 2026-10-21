@@ -502,6 +502,35 @@ Joel: "all the edits you see between the final full html i'm attaching and the s
   - **The whole article is checked free.** For a whole-article check, ask Joel to put the text in a temporary Substack post and run Substack's check, which uses his Pangram account without his credits (Joel, 2026-10-20 22:01; `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`).
   - **A 4.1 risk read before the check**: `tools/humanization/pangram41_risk_prompt.py` builds a reader's prompt (brief `tools/humanization/reviewer/pangram41_risk.md`, with the examples above) that lists, section by section, the sentences it expects red or light green; its lists are where the prediction comes from, and each 4.1 result scores it.
 
+- **The hypnosis guide's first 4.1 reading (2026-10-20, two Substack checks).** Every section installed after the 4.0 work read dark green except seven sentences in four sections: two tidy closers, a short reassurance with an aphorism after it, a three-step instruction in one parallel sentence, and a signpost question with a colon list ("So how do we hold all of this? We simply remember that it can all be true: ..."). The long red runs were the sections still as published (the induction scripts, about 2,300 words; the NLP and checklist appendices, about 2,280). The check of a Substack post reads at most 99,999 characters, so the guide went in two parts (`docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`).
+  - **The 4.1 risk read over-flags.** One Sonnet reader per 1,800 words forecast 166 sentences red; 63 read red (38%), and it named a sentence in 15 of the 23 red windows (`articles/inner-signal/humanize/fix-20261020/result41/FORECAST-SCORE-41.md`). By pattern: aphorisms and balanced closers 24 of 62 red, tidy follow-ups 19 of 48, parallel or signposting explanations 11 of 28, quips 4 of 14, stock words 4 of 12. It points at where to look; it isn't a list to fix before the check, and a sentence it flags that reads Human stays.
+  - **Say a list about the people, not its abstractions** (batch 468g, 2026-10-21). Appendix F's "it can all be true: the
+    harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its
+    own" read AI (high) as a colon list and again as two couplets of two points; the same four points said about the
+    people ("They really did hurt us and they still have to answer for it, and our boundary with them still matters, but
+    one day we may find that we have forgiven them") read Human, high, the whole paragraph dark green
+    ([check](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3)). The abstract nouns were the tell, not
+    the number of points. The same move fixed the self-forgiveness lines: the person feels the remorse instead of "the
+    remorse registers the harm" (W78), and the two "without ...ing" cautions take different shapes
+    ([check](https://www.pangram.com/history/fb5462fd-54ca-4993-a909-0072386f60bb)).
+  - **Joining a reassurance and an aphorism makes one stronger closer.** HG15's "Those can all be real gifts. They become a
+    bargain for belonging when failing in these areas feels like losing yourself." read AI, low, as two sentences in the
+    whole guide; joined into one concession-and-reframe sentence it read medium
+    ([check](https://www.pangram.com/history/6e97d63f-765f-4e8d-aecc-39ca783c05fa)), and in Joel's own concession frame
+    ("I'm not saying those can't be real gifts, but if ..., then you're using it to buy belonging") high
+    ([check](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56)). A frame that read dark green around
+    his own opinion didn't carry a reframe that closes the paragraph. Two tries of one mechanism is the stop: the line
+    went to Joel (the hypnosis questions page).
+  - **A scripted line can read as one unit.** The adult's quoted promise ("You don't have to forgive before you're ready.
+    I won't use spirituality to silence your pain. ...") read AI, low, whether its promises were three sentences or two
+    ([check](https://www.pangram.com/history/2b0c9b19-25e2-4855-a867-42c9992b575b)); it read light green in the whole
+    guide, so it stays as installed (the budget rule's light-green rule) until the recheck shows it in context.
+  - **The in-context linter can count an installed phrase as mine.** With the article as context it counts only changed
+    words, so an edit that re-cuts an installed sentence (the colon list taken off "We simply remember that it can all be
+    true") brings that sentence's coach phrase into a 42-word count and FAILs E41; read the flagged phrase before taking
+    the FAIL as the edit's.
+  - **Fixing them took the gate's own reviews seriously.** Of the first wordings, the march read held two (each took out its paragraph's only break: a set-up and reveal merged into one sentence, and the signpost question cut), and the meaning check found three that changed what the line says. The fixes that went to Pangram cut a restating closer, said a summary plainly, joined a reassurance and an aphorism into one plain sentence, split the instruction and the colon list into two sentences each, and kept the question; a light-green line whose only faithful wording keeps its contrast stayed as it was.
+
 ## What the universal scorecard showed (2026-10-20, its first build; Pangram 4.0 records of three lanes)
 
 `state/PANGRAM-SCORECARD.md`, built by `tools/humanization/pangram_ledger.py` from the community and hypnosis lanes' scored rows and the Inner Child lane's table, one scoring rule for all (a pass is a 100% Human result; a "Human with an AI window" call counts as not Human, so 106 Inner Child calls scored differently from that table's own marks, 98 of them a Mostly Human result marked as a hit for a Human call).

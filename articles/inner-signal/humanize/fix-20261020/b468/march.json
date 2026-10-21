@@ -1,0 +1,34 @@
+{
+ "HG15-p9e2": {
+  "was": [
+   "B S B S"
+  ],
+  "new": [
+   "B S S"
+  ]
+ },
+ "HG35-forgive-e3": {
+  "was": [
+   "S S B S"
+  ],
+  "new": [
+   "S S B S S"
+  ]
+ },
+ "HG35-quote-e": {
+  "was": [
+   "B S S"
+  ],
+  "new": [
+   "B S"
+  ]
+ },
+ "HG35-selfforgive-e": {
+  "was": [
+   "S S"
+  ],
+  "new": [
+   "S S"
+  ]
+ }
+}

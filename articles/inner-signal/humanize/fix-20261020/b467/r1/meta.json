@@ -1,0 +1,82 @@
+{
+ "edits": [
+  {
+   "key": "HG12-p3c",
+   "section": "HG12",
+   "kind": "cut",
+   "old": " But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.",
+   "new": "",
+   "window": "22 (AI-Generated, Medium, 17 words)",
+   "diagnosis": "patterns 2 and 3: an aphorism with a colon reveal that restates the paragraph's first sentence (the hypnotist can't get that feedback because they aren't IN my mind); cut, as Joel cut the restating sentences of the community article"
+  },
+  {
+   "key": "HG12-p7e",
+   "section": "HG12",
+   "kind": "edit",
+   "old": "Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere.",
+   "new": "It wore off once I was back around people, but for a while it showed me that my mind and heart may allow this when the desire is sincere.",
+   "window": "28 (AI-Generated, High, 25 words)",
+   "diagnosis": "pattern 2: an abstract summing-up closer (\"dissolved the state\", \"a possibility my mind and heart may permit\") on a personal story; said plainly, \"this\" pointing at the state he has just described, the hedge kept"
+  },
+  {
+   "key": "HG15-p9e",
+   "section": "HG15",
+   "kind": "edit",
+   "old": "Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.",
+   "new": "Those can be real gifts, but if failing at one of them feels like losing yourself, you're using it to buy belonging.",
+   "window": "53 (AI-Generated, Low) and 54 (AI-Generated, Low)",
+   "diagnosis": "pattern 3 then 2: a short reassurance (\"Those can all be real gifts.\") and a balanced aphorism (\"They become a bargain for belonging when ...\"); one plain sentence keeps both points, in the words the section's own questions use (\"buying my sense of belonging\")"
+  },
+  {
+   "key": "HG15-p11e",
+   "section": "HG15",
+   "kind": "edit",
+   "old": "The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.”",
+   "new": "The adult in you can answer, “We’re just finding out if we like this. We don’t have to prove our worth.”",
+   "window": "56 (Human, Low, AI likelihood 0.33)",
+   "diagnosis": "pattern 6: a scripted \"X, not Y\" line (and Joel's ban on the \"not X, Y\" contrast), light green; two plain sentences"
+  }
+ ],
+ "texts": {
+  "HG12-p3c": {
+   "section": "HG12",
+   "words": 64,
+   "was_md": "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.) But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.",
+   "new_md": "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)"
+  },
+  "HG12-p7e": {
+   "section": "HG12",
+   "words": 133,
+   "was_md": "Some benefits arrived the next morning or a few days later. After one loveyhuasca self-hypnosis session, I woke in what felt like an answer to prayer. I’d been dealing with a lot of lust energy and worrying it could pull me into a relationship that wasn’t right. I asked the subconscious to connect the heart chakra with the sacral chakra—to bring the love energy and sex energy into the same current. The next morning I woke in a kind of “perfected” love state. I didn’t feel that I needed to find a woman; the divine feminine felt somehow at zero distance from my heart. Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere.",
+   "new_md": "Some benefits arrived the next morning or a few days later. After one loveyhuasca self-hypnosis session, I woke in what felt like an answer to prayer. I’d been dealing with a lot of lust energy and worrying it could pull me into a relationship that wasn’t right. I asked the subconscious to connect the heart chakra with the sacral chakra—to bring the love energy and sex energy into the same current. The next morning I woke in a kind of “perfected” love state. I didn’t feel that I needed to find a woman; the divine feminine felt somehow at zero distance from my heart. It wore off once I was back around people, but for a while it showed me that my mind and heart may allow this when the desire is sincere."
+  },
+  "HG15-p9e": {
+   "section": "HG15",
+   "words": 72,
+   "was_md": "What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts. They become a bargain for belonging when failing in these areas feels like losing yourself.",
+   "new_md": "What is the difference between a human doer and a human being? If you don’t feel good enough as a human being, you will try to become good enough as a human doer by for example being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can be real gifts, but if failing at one of them feels like losing yourself, you're using it to buy belonging."
+  },
+  "HG15-p11e": {
+   "section": "HG15",
+   "words": 121,
+   "was_md": "Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.",
+   "new_md": "Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it. The adult in you can answer, “We’re just finding out if we like this. We don’t have to prove our worth.” So try things out long enough until the humiliation is gone."
+  },
+  "HG12-w467": {
+   "section": "HG12",
+   "words": 512,
+   "parts": [
+    "HG12-p3c",
+    "HG12-p7e"
+   ]
+  },
+  "HG15-w467": {
+   "section": "HG15",
+   "words": 922,
+   "parts": [
+    "HG15-p9e",
+    "HG15-p11e"
+   ]
+  }
+ }
+}

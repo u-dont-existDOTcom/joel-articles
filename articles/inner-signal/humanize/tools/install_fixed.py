@@ -17,6 +17,10 @@ three steps share one source here, so what is installed is what was checked:
   python3 tools/install_fixed.py md FIXED.json
   python3 tools/install_fixed.py check FIXED.json BATCH_DIR [BATCH_DIR ...]     paragraphs_alone.py on section_md
   python3 tools/install_fixed.py install ARTICLE.md FIXED.json [...] --out NEW.md
+
+After an install, run fix-20261020/apply_edits41.py: the Pangram 4.1 sentence edits (fix-20261020/EDITS41.json) sit on
+top of the installed sections, and it puts back any that a re-install of their section replaced (or stops, naming the
+edit, when its section's text changed under it).
 """
 import argparse, json, pathlib, re, sys
 

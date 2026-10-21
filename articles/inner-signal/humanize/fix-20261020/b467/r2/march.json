@@ -1,0 +1,34 @@
+{
+ "HG12-p3r": {
+  "was": [
+   "S B S"
+  ],
+  "new": [
+   "S S"
+  ]
+ },
+ "HG12-p7e": {
+  "was": [
+   "S S B S S B B"
+  ],
+  "new": [
+   "S S B S S B B"
+  ]
+ },
+ "HG15-p9e": {
+  "was": [
+   "B S B S"
+  ],
+  "new": [
+   "B S S"
+  ]
+ },
+ "HG15-p11e": {
+  "was": [
+   "S S S S S S"
+  ],
+  "new": [
+   "S S S S S S S"
+  ]
+ }
+}

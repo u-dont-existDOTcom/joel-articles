@@ -1,0 +1,76 @@
+[
+ {
+  "key": "HG12-p3c",
+  "section": "HG12",
+  "old": " But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.",
+  "new": "",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/add7ee33-578f-4e04-80a5-2b64858ebc0e",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/f2fa8fa3-2e64-4f8b-8e4c-9a102ceb5c32",
+  "section_result": "Human Written",
+  "diagnosis": "patterns 2 and 3: an aphorism with a colon reveal that restates the paragraph's first sentence (the hypnotist can't get that feedback because they aren't IN my mind); cut, as Joel cut the restating sentences of the community article. Round 2 tried the concession first and the first sentence last, so the \"But\" still answered the concession, but its march lost the paragraph's break (the parenthetical aside, r2/march.json); the meaning check's \"LOST\" for the cut is the restatement itself: the first sentence says what no one outside my mind can do, which is the same point (VERIFY.md of round 1, r1/)"
+ },
+ {
+  "key": "HG12-p7e",
+  "section": "HG12",
+  "old": "Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere.",
+  "new": "Normal interaction with people made it wear off, but for a while it showed me that my mind and heart may allow this when the desire is sincere.",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/3f7838aa-37a9-4eb5-b2b7-6733a7e2940b",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/f2fa8fa3-2e64-4f8b-8e4c-9a102ceb5c32",
+  "section_result": "Human Written",
+  "diagnosis": "pattern 2: an abstract summing-up closer (\"dissolved the state\", \"a possibility my mind and heart may permit\") on a personal story; said plainly, \"this\" pointing at the state he has just described, the hedge kept"
+ },
+ {
+  "key": "HG15-p11t",
+  "section": "HG15",
+  "old": "Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it.",
+  "new": "Because often your inherited parent tells your inner child that it is supposed to be good at something as soon as it starts doing it.",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/8e342f67-3726-4e97-86b5-87d941abbc5b",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/9cfccd99-95ce-49b0-a65a-47216c218f42",
+  "section_result": "Mostly Human Written",
+  "diagnosis": "meaning, not Pangram: the stance check (STANCE.md, finding 6) found \"inner parent\" naming the voice that demands talent, which the guide calls the inherited parent (\"The inner child, the guards, and the three inner adults\": \"the voice of your parent(s) that you internalized as a child ... Often this inherited parent acts as a critic or warden\"; the published sentence: \"The inherited parent may demand immediate talent.\"), while it uses \"inner parent\" for the caring capacity you build; the published term goes back"
+ },
+ {
+  "key": "HG33-buteyko-e",
+  "section": "HG33",
+  "old": "Inhale small amounts through your nose, exhale quietly through it, and pause only if comfortable.",
+  "new": "Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable.",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/518ba839-31c3-4938-9b09-93f2a42874c9",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/25912495-df6a-4a87-9f71-07b290424bbd",
+  "section_result": "Human Written",
+  "diagnosis": "pattern 4: three steps in one parallel list (\"Inhale ..., exhale ..., and pause ...\"); two sentences of different shapes, every step and the caution kept"
+ },
+ {
+  "key": "HG35-forgive-e3",
+  "section": "HG35",
+  "old": "We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+  "new": "We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them.",
+  "batch": "468g",
+  "paragraph_check": "https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3",
+  "paragraph_result": "Human Written",
+  "section_check": null,
+  "section_result": null,
+  "section_note": "no section recheck yet: the whole-guide recheck through Substack reads the section in context",
+  "diagnosis": "try 1 split the colon list into two balanced couplets, so the four points stayed four crisp abstract clauses (\"the harm\", \"the boundary\", \"the person\", \"forgiveness\") in parallel, ending on the reassurance. Try 2 keeps its first sentence (Human) and says the points about the people (\"They really did hurt us and they still have to answer for it\"), in one uneven sentence joined by \"and\" and \"but\", with the forgiveness as something we may find has happened rather than a fourth item (no \"anyway\" at the end: the linter's finished-principle check, B1, has it): the published list's abstractions are what 4.1 read, and the clauses that read Human in this section are about people (\"they could only make the moves they made\", the paragraph after)"
+ },
+ {
+  "key": "HG35-selfforgive-e",
+  "section": "HG35",
+  "old": "For self-forgiveness, name what you did, without taking responsibility for what wasn't yours. Let the remorse register the harm, or how it went against your values, without making yourself a permanent criminal.",
+  "new": "For self-forgiveness, name what you did, but don't take responsibility for what wasn't yours. Let yourself feel the remorse and take in the harm, or how it went against your values, and stop short of making yourself a permanent criminal.",
+  "batch": "468g",
+  "paragraph_check": "https://www.pangram.com/history/fb5462fd-54ca-4993-a909-0072386f60bb",
+  "paragraph_result": "Human Written",
+  "section_check": null,
+  "section_result": null,
+  "section_note": "no section recheck yet: the whole-guide recheck through Substack reads the section in context",
+  "diagnosis": "two parallel imperatives, each closing on a \"without ...ing\" clause (pattern 4; E186, which the linter found in 13% of the paragraphs that read AI and 3% of those that read Human), and remorse as the one doing it (\"Let the remorse register the harm\", W78). The person feels the remorse and takes in the harm, and the two cautions are said in different shapes (\"but don't take responsibility for ...\", \"and stop short of making yourself ...\"), so the two sentences no longer share one. Round 1 said \"take responsibility only for what was yours\" and \"feel remorse for the harm\": the meaning check read the first as a new instruction to own your part and the second as losing what the remorse is for, registering the harm (r1/VERIFY.md, pair 4). Under 50 words, so it is checked with the paragraph after it (Human in the section check)"
+ }
+]

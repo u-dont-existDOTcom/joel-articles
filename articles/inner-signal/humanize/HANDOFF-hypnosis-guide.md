@@ -18,7 +18,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
-- **2026-10-20: Pangram 4.1 and Joel's budget rules.** Every result in this lane is Pangram 4.0. His rules of 20
+- **2026-10-20: Pangram 4.1 and Joel's budget rules.** This lane's results up to batch 466g are Pangram 4.0; from the
+  whole-guide check of 2026-10-20 on they are 4.1, and the ledger keeps the two apart. His rules of 20
   October (merged into this branch from main) govern every call: `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` (six tries
   per paragraph lineage, each with a specific diagnosis; one section check plus one recheck; one whole-article
   certification plus one recheck at the end; read 4.1's sentence shading). Every call goes through
@@ -28,15 +29,19 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   UTC), the same account as the community checks.
 - **Whole-guide checks go through a temporary Substack post, free** (Joel, 2026-10-20 22:01 UTC: "for very large pangram
   checks (not just one section, but like whole article especially) you can just ask me to make a temporary article on
-  substack to check it free"; `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`). Build the copy page as in
-  `fix-20261020/substack41/` (merge, canonical generator, clipboard test, receipt), send it, and ask him to paste it
-  into a new post, run Substack's check and keep the draft. Paragraph and section checks stay on pangram.com.
+  substack to check it free"; `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`). Since his 23:54 message I make the drafts
+  myself in the app's browser (his Substack cookies are there): `fix-20261020/substack41r/make_recheck.py` builds both
+  parts (the check reads at most 99,999 characters), `paste_payload.js` pastes one after checking its SHA-256, then
+  Preview, "Paid subscriber view", Share, the secret link. The Pangram label needs the Pangram Chrome extension, which
+  the app's browser lacks, so Joel opens the secret links in his Chrome (or connects Claude in Chrome there). Never
+  Publish. Paragraph and section checks stay on pangram.com.
 - **What 4.1 flags** (the community article's lesson, `docs/HUMANIZATION-GATE.md`, "What Pangram 4.1 flagged in the
   community article"): wry quips, aphorisms and balanced closers, tidy restating or reassuring follow-ups, parallel or
   signposting explanations, generic "you"/"imagine" scenarios, stock words. A break is not a joke; cut a restating
   sentence rather than reword it; name the person and the moment.
-- **Branch** `claude/community-joel-1018` (pull request 191, open, Joel's to merge; it also holds the community article's
-  merge). Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
+- **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
+  4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull request 206 carries the 4.1 work since, open and Joel's to
+  merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
   Markdown; `HUMANIZED-SO-FAR.md` is the working copy (a copy of it until a section is installed). Ask him for his latest
@@ -88,9 +93,11 @@ every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: the temporary Substack post for the whole-guide 4.1 check (his to do), and four open questions of
-2026-10-18: is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in every version; HG31's
-two meaning points against a Human reading; and the two guided scripts, HG17 and HG18.
+`OWNER-QUESTIONS.md`: the recheck's two secret links to open in his Chrome (his to do); four open questions of
+2026-10-18 (is the 28 September editor HTML the latest; the de-hypnosis checklist, which reads AI in every version;
+HG31's two meaning points against a Human reading; the two guided scripts, HG17 and HG18); and three of 2026-10-21
+(question 6, the repeats the guide had as published; question 7, whole-guide checks through Substack past two;
+question 8, HG15's closing pair, red in every wording).
 
 ## Where it stands
 
@@ -153,6 +160,30 @@ From `fix-20261018/` unless a command says `humanize/`:
 3. The sample that passed with the fewest findings goes to its own folder (`rf-zb/`, `rf-zd/`: `KEY.units.json`, its
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
+
+## Next step (2026-10-21, after batch 468g: the recheck waits on Joel's Chrome)
+
+Done since the step below: both halves of the first 4.1 check read and mapped (`fix-20261020/substack41/RESULT-41a.json`,
+`RESULT-41b.json`, `result41/`); the risk read scored; batches 467g and 468g, which installed six 4.1 edits through
+`fix-20261020/apply_edits41.py` (`EDITS41.json`: after any rebuild or re-install, run it again); the recheck's drafts
+made in the app's browser (`substack41r/`). The ledger: `python3 tools/humanization/pangram_ledger.py status
+articles/inner-signal/humanize/pangram-ledger.jsonl`.
+
+1. **When Joel sends the recheck's results** (or loads them into the app's browser): on each feed page, run
+   `tools/humanization/pangram_feed_read.js` and save the JSON as `fix-20261020/substack41r/RESULT-41r-a.json` and
+   `RESULT-41r-b.json`. Map them (`result41/map_windows.py RESULT.json OUT.json`), score them in the ledger (`result`
+   with `--key HG-whole-41r-a` and `HG-rest-41r-b`, the feed link, the shading), and explain a miss. Then check each
+   installed 4.1 edit's sentences in context, and record each section's feed link in `EDITS41.json` (`section_check`).
+2. **What it may show.** If an installed section reads red in context where it read Human in its small checks, that's
+   a context effect: read the light green around it first (`docs/HUMANIZATION-GATE.md`). It gets a fix only with a
+   specific diagnosis, within the paragraph's six tries. The section recheck on pangram.com (one left for HG15 and
+   HG35) is for a localized repair after that.
+3. **Waiting on Joel**: questions 2 to 4 (the as-published sections), 6 (repeats), 7 (a third whole-guide check), 8
+   (HG15's closing pair: HG15-p9 has used 2 of 6 tries, both of one mechanism; don't try it again without his words or a
+   new mechanism). The quoted promise in Appendix F (HG35-p15, 1 of 6 tries) stays as installed unless the recheck reads
+   it red.
+4. **The final certification** comes after his answers to 2 to 4, as a third whole-guide check, which needs his yes
+   (question 7).
 
 ## Next step (2026-10-20, after Joel's 22:01 message: the whole guide's first 4.1 check)
 

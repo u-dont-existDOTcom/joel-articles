@@ -1,0 +1,50 @@
+[
+ {
+  "key": "HG12-p3c",
+  "section": "HG12",
+  "old": " But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.",
+  "new": "",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/add7ee33-578f-4e04-80a5-2b64858ebc0e",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/f2fa8fa3-2e64-4f8b-8e4c-9a102ceb5c32",
+  "section_result": "Human Written",
+  "diagnosis": "patterns 2 and 3: an aphorism with a colon reveal that restates the paragraph's first sentence (the hypnotist can't get that feedback because they aren't IN my mind); cut, as Joel cut the restating sentences of the community article. Round 2 tried the concession first and the first sentence last, so the \"But\" still answered the concession, but its march lost the paragraph's break (the parenthetical aside, r2/march.json); the meaning check's \"LOST\" for the cut is the restatement itself: the first sentence says what no one outside my mind can do, which is the same point (VERIFY.md of round 1, r1/)"
+ },
+ {
+  "key": "HG12-p7e",
+  "section": "HG12",
+  "old": "Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart may permit when the desire is sincere.",
+  "new": "Normal interaction with people made it wear off, but for a while it showed me that my mind and heart may allow this when the desire is sincere.",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/3f7838aa-37a9-4eb5-b2b7-6733a7e2940b",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/f2fa8fa3-2e64-4f8b-8e4c-9a102ceb5c32",
+  "section_result": "Human Written",
+  "diagnosis": "pattern 2: an abstract summing-up closer (\"dissolved the state\", \"a possibility my mind and heart may permit\") on a personal story; said plainly, \"this\" pointing at the state he has just described, the hedge kept"
+ },
+ {
+  "key": "HG15-p11t",
+  "section": "HG15",
+  "old": "Because often your inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it.",
+  "new": "Because often your inherited parent tells your inner child that it is supposed to be good at something as soon as it starts doing it.",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/8e342f67-3726-4e97-86b5-87d941abbc5b",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/9cfccd99-95ce-49b0-a65a-47216c218f42",
+  "section_result": "Mostly Human Written",
+  "diagnosis": "meaning, not Pangram: the stance check (STANCE.md, finding 6) found \"inner parent\" naming the voice that demands talent, which the guide calls the inherited parent (\"The inner child, the guards, and the three inner adults\": \"the voice of your parent(s) that you internalized as a child ... Often this inherited parent acts as a critic or warden\"; the published sentence: \"The inherited parent may demand immediate talent.\"), while it uses \"inner parent\" for the caring capacity you build; the published term goes back"
+ },
+ {
+  "key": "HG33-buteyko-e",
+  "section": "HG33",
+  "old": "Inhale small amounts through your nose, exhale quietly through it, and pause only if comfortable.",
+  "new": "Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable.",
+  "batch": "467g",
+  "paragraph_check": "https://www.pangram.com/history/518ba839-31c3-4938-9b09-93f2a42874c9",
+  "paragraph_result": "Human Written",
+  "section_check": "https://www.pangram.com/history/25912495-df6a-4a87-9f71-07b290424bbd",
+  "section_result": "Human Written",
+  "diagnosis": "pattern 4: three steps in one parallel list (\"Inhale ..., exhale ..., and pause ...\"); two sentences of different shapes, every step and the caution kept"
+ }
+]

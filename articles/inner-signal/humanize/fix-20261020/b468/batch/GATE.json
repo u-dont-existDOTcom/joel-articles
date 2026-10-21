@@ -1,0 +1,91 @@
+{
+ "HG15-p9e2": {
+  "was": "455g HG15-smp (Pangram 4.0), 100% Human: https://www.pangram.com/history/1ced6e80-dfa7-4825-ba6e-e7e00c8a0b5e; Pangram 4.1, the whole guide: its last two sentences read AI, low (windows 53 and 54, https://www.pangram.com/feed/fd91cf34-925f-48ca-8100-5fee8d5766c4); try 1, 467g HG15-p9e: AI, medium (https://www.pangram.com/history/6e97d63f-765f-4e8d-aecc-39ca783c05fa)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "kind": "edit",
+  "march_was": [
+   "B S B S"
+  ],
+  "march": [
+   "B S S"
+  ],
+  "march_reads": "articles/inner-signal/humanize/fix-20261020/b468/march.json",
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261020/b468/SENSE-HG15.md (round 2: P12, the edited paragraph, not flagged or paused; its four findings, P2, P10, P11 and P23, are in installed text the edit doesn't touch)",
+  "grounding": "OK",
+  "grounding_note": "VERIFY.md pair 1 (round 2; r1/VERIFY.md pair 1 the same): both points kept in substance, with two changes of force I accept. (1) \"I'm not saying those can't be real gifts\" still tells the reader they can be real gifts; it says it as the author's concession, which is Joel's own frame for this move in his 4.1-checked community final (\"I'm not saying paid help can't be good sometimes, but ...\", articles/intentional-communities/candidate/joel-20261020/PANGRAM41-EDITS.md, run 9), and that frame is the try's mechanism. (2) \"then you're using it to buy belonging\": the same trigger and the same trade, with the reader as the one doing it, as the paragraph's second sentence already has the reader doing it (\"you will try to become good enough as a human doer\"). Round 1's \"your sense of belonging\" is gone (the checker read it as a felt state)",
+  "stance": 0,
+  "stance_note": "0: STANCE.md (round 2, the whole published essay; r1/STANCE.md the same) found no conflict in the edited sentences; its two findings are the forgiveness paragraph's installed first two sentences (a hedge added to \"creates bypass\", one dropped from \"can also let the injury keep governing the present\"), which these edits keep: b467/part2/STANCE.md's findings 3 and 4, let stand at install",
+  "missing": [],
+  "words": 76,
+  "lint": "REVIEW"
+ },
+ "HG35-forgive-e3": {
+  "was": "453g HG35-rfix (Pangram 4.0), 100% Human: https://www.pangram.com/history/0bbc85f4-a5d1-4383-b09d-447f3a7d7f30; Pangram 4.1, part B: the question and the colon list read AI, low and high (windows 19 and 20, https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8); try 1, 467g HG35-forgive-e2: AI, medium and high (https://www.pangram.com/history/25833096-c587-4602-b24d-ba7affdfbcf3)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "kind": "edit",
+  "march_was": [
+   "S S B S"
+  ],
+  "march": [
+   "S S B S S"
+  ],
+  "march_reads": "articles/inner-signal/humanize/fix-20261020/b468/march.json",
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261020/b468/SENSE-HG35.md (round 2; r1 the same): P13's note is the installed h2 \"Forgiveness without bypass\" inside an appendix on self-trust (as in b467/part2/SENSE-HG35-e2.md); the edited sentences read OK",
+  "grounding": "OK",
+  "grounding_note": "r1/VERIFY.md pair 2: OK (every point kept, nothing added that changes meaning); VERIFY.md pair 2 (round 2, the same text): CHANGED, all minor, answered: \"They really did hurt us\" names as the one who harmed the person the installed list already holds accountable; \"on its own\" is carried by \"we may find that we have forgiven them\" (the forgiveness arrives without being forced, as the paragraph's first sentence says it must) and round 1's checker read it so; \"but\" sets the forgiveness against the other three, and \"it can all be true at once\", the sentence before, keeps them true together",
+  "stance": 0,
+  "stance_note": "0: STANCE.md (round 2, the whole published essay; r1/STANCE.md the same) found no conflict in the edited sentences; its two findings are the forgiveness paragraph's installed first two sentences (a hedge added to \"creates bypass\", one dropped from \"can also let the injury keep governing the present\"), which these edits keep: b467/part2/STANCE.md's findings 3 and 4, let stand at install",
+  "missing": [],
+  "words": 94,
+  "lint_note": "the linter FAILs this text with the installed article as context (E41, coach register: 1 coach phrase per 42 changed words, the limit is 2 per 100); the one phrase is the installed \"remember that\" in \"We just remember that it can all be true at once\", counted because taking the colon list off made it a new sentence. The Emulate screen FAILed too (lint_was), and this sentence read Human (low) in try 1 (467g)",
+  "lint": "FAIL"
+ },
+ "HG35-quote-e": {
+  "was": "453g HG35-rfix (Pangram 4.0), 100% Human: https://www.pangram.com/history/0bbc85f4-a5d1-4383-b09d-447f3a7d7f30; Pangram 4.1, the section check 467g HG35-w467: its first two sentences read AI, low (https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad); light green in part B (https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "kind": "edit",
+  "march_was": [
+   "B S S"
+  ],
+  "march": [
+   "B S"
+  ],
+  "march_reads": "articles/inner-signal/humanize/fix-20261020/b468/march.json",
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261020/b468/SENSE-HG35.md (round 2; r1 and b467/part2 the same): P15's note is the quote's missing lead-in, which the installed and the published line both have; every reader's best reading, the adult speaking to the hurt part, is the meant one. Left unframed (a lead-in would be an addition); listed for Joel on the questions page",
+  "grounding": "OK",
+  "grounding_note": "VERIFY.md pair 3 (round 2): OK. Round 1's \"forgive them\" and \"but I also\" (r1/VERIFY.md pair 3, CHANGED) are gone: the permission is word for word as installed, and \"and I also\" adds the last promise as the installed \"And\" did",
+  "stance": 0,
+  "stance_note": "0: STANCE.md (round 2, the whole published essay; r1/STANCE.md the same) found no conflict in the edited sentences; its two findings are the forgiveness paragraph's installed first two sentences (a hedge added to \"creates bypass\", one dropped from \"can also let the injury keep governing the present\"), which these edits keep: b467/part2/STANCE.md's findings 3 and 4, let stand at install",
+  "missing": [],
+  "words": 113,
+  "lint": "CLEAR"
+ },
+ "HG35-selfforgive-e": {
+  "was": "453g HG35-rfix (Pangram 4.0), 100% Human: https://www.pangram.com/history/0bbc85f4-a5d1-4383-b09d-447f3a7d7f30; Pangram 4.1, the section check 467g HG35-w467: the paragraph read AI, low (https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad); light green in part B (https://www.pangram.com/feed/6a48b3ce-6631-4c99-aec3-b127409dc2f8)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "kind": "edit",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S"
+  ],
+  "march_reads": "articles/inner-signal/humanize/fix-20261020/b468/march.json",
+  "cold": "OK",
+  "cold_read": "articles/inner-signal/humanize/fix-20261020/b468/SENSE-HG35.md (round 2): P18, the edited paragraph, OK; P19's note is the installed paragraph after it, which restates P18 (b467/part2/REPEATS.md, repeat 14; question 6)",
+  "grounding": "OK",
+  "grounding_note": "VERIFY.md pair 4 (round 2): CHANGED, minor, answered: \"Let yourself feel the remorse and take in the harm, or how it went against your values\" keeps both parts of \"Let the remorse register the harm, or how it went against your values\" (the remorse, and registering the harm or the broken values) with the person doing them instead of the remorse (W78, the fix); every caution is kept (\"but don't take responsibility for what wasn't yours\", \"stop short of making yourself a permanent criminal\", same limit). Round 1's \"take responsibility only for what was yours\" (read as a new instruction to own your part) is gone",
+  "stance": 0,
+  "stance_note": "0: STANCE.md (round 2, the whole published essay; r1/STANCE.md the same) found no conflict in the edited sentences; its two findings are the forgiveness paragraph's installed first two sentences (a hedge added to \"creates bypass\", one dropped from \"can also let the injury keep governing the present\"), which these edits keep: b467/part2/STANCE.md's findings 3 and 4, let stand at install",
+  "missing": [],
+  "words": 88,
+  "lint": "REVIEW"
+ }
+}
