@@ -1,8 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-21, after the listening script went in (about 21:40 UTC). **Open questions: 3** (9, 10 and 11, all
-new today). **Two things for you to do**: open the recheck's two secret links in your Chrome (part A's link is new: it now
-carries the listening script too), and paste a note into the Inner Child chat (both under "For you to do"). The questions are at the top, with their options and my default; under them is what you decided and
+Last updated 2026-10-21, after the listening script went in (21:45 UTC). **Open questions: 3** (9, 10 and 11, all
+new today). **Two things for you to do**: open the recheck's two secret links in your Chrome (part A now carries the
+listening script too), and paste a note into the Inner Child chat (both under "For you to do"). The questions are at the top, with their options and my default; under them is what you decided and
 what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or
 decided.
 
@@ -176,8 +176,9 @@ read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Open the recheck's two secret links in your Chrome**: [part A, the whole guide](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-21T19%3A23%3A15.548Z&audience=only_paid&free_preview=false&freemail=) and
-  [part B, the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=2026-10-21T19%3A25%3A03.905Z&audience=only_paid&free_preview=false&freemail=). They carry every fix up to now, and they are my two temporary drafts with the new text
+- 🟠 **Open the recheck's two secret links in your Chrome**: [part A, the whole guide](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-21T21%3A38%3A01.929Z&audience=only_paid&free_preview=false&freemail=) and
+  [part B, the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=2026-10-21T19%3A25%3A03.905Z&audience=only_paid&free_preview=false&freemail=). They carry every fix up to now, the listening script included (part A was pasted again at 21:38 UTC; the earlier
+  part A link shows the same draft, so either one works), and they are my two temporary drafts with the new text
   pasted in, so nothing new piled up in your drafts. Open each, wait for the Pangram label, click it twice, then "View
   Full Analysis". Then load the two result pages into my pane or send me their links. Nothing is published. When the
   results are read, the two drafts ("TEMP Pangram recheck A ..." and "B ...") can go: the shared rule says the worker
