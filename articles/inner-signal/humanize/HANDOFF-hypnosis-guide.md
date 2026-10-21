@@ -40,8 +40,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   signposting explanations, generic "you"/"imagine" scenarios, stock words. A break is not a joke; cut a restating
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
-  4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull request 206 (the 4.1 work to 2026-10-21 01:30) was merged; the work since is in a new pull
-  request from the same branch. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
+  4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull request 206 (the 4.1 work to 2026-10-21 01:30) was merged; the work since is pull request
+  209 (https://github.com/u-dont-existDOTcom/joel-articles/pull/209), open and Joel's to merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
   Markdown; `HUMANIZED-SO-FAR.md` is the working copy (a copy of it until a section is installed). Ask him for his latest
