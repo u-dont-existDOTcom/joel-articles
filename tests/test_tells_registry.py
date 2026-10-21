@@ -141,6 +141,7 @@ class NewChecksStaySpecific(unittest.TestCase):
                 ('It was not until 1987 that the mill closed for good. It was a sad day for the whole valley.', 'B11'),
                 ('That isn\'t a failure, though checking it off doesn\'t prove it helped. That\'s the question again.', 'B11'),
                 ("That's fine. But we still need a second pump before the summer comes around again.", 'O2'),
+                ('The adult in you can answer that the class is only for finding out what the painting feels like.', 'E41'),
                 ('She said "I care about you" and then left the room without another word to anyone.', 'O22'),
                 ('Even the treasurer laughed at the joke, and nobody expected that from him at the meeting.', 'O25'),
                 ('A plain arrow → in a sentence is not an emoji, and neither is a check mark ✓ in a list.', 'O26'),

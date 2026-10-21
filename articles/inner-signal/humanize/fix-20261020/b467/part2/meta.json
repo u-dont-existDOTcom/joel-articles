@@ -1,0 +1,50 @@
+{
+ "edits": [
+  {
+   "key": "HG33-buteyko-e",
+   "section": "HG33",
+   "kind": "edit",
+   "old": "Inhale small amounts through your nose, exhale quietly through it, and pause only if comfortable.",
+   "new": "Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable.",
+   "window": "part B 12 (AI-Generated, Low, 15 words)",
+   "diagnosis": "pattern 4: three steps in one parallel list (\"Inhale ..., exhale ..., and pause ...\"); two sentences of different shapes, every step and the caution kept"
+  },
+  {
+   "key": "HG35-forgive-e2",
+   "section": "HG35",
+   "kind": "edit",
+   "old": "We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+   "new": "We just remember that it can all be true at once. The harm happened, and the boundary still matters. The person is still accountable, and forgiveness may come later on its own.",
+   "window": "part B 19 (AI-Generated, Low, 8 words) and 20 (AI-Generated, High, 29 words)",
+   "diagnosis": "pattern 4: a colon list of four parallel clauses after \"We simply remember that\"; the four points in two sentences of two points each, \"simply\" said the way the guide says it (\"just\"). The question before it stays: round 1 cut it, the march found the paragraph left with no break (r1/march.json) and the meaning check found its framing lost (r1/VERIFY.md); it read red only at low confidence, so the list is taken to be what made the run AI"
+  }
+ ],
+ "texts": {
+  "HG33-buteyko-e": {
+   "section": "HG33",
+   "words": 96,
+   "was_md": "Then work on your reduced breathing / Buteyko’ breathing. (NOTE: there are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term. Go slow on this.) Inhale small amounts through your nose, exhale quietly through it, and pause only if comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, STOP!",
+   "new_md": "Then work on your reduced breathing / Buteyko’ breathing. (NOTE: there are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term. Go slow on this.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, STOP!"
+  },
+  "HG35-forgive-e2": {
+   "section": "HG35",
+   "words": 84,
+   "was_md": "We can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We simply remember that it can all be true: the harm happened, the boundary still matters, the person is still accountable, and forgiveness may come later on its own.",
+   "new_md": "We can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. The harm happened, and the boundary still matters. The person is still accountable, and forgiveness may come later on its own."
+  },
+  "HG33-w467": {
+   "section": "HG33",
+   "words": 921,
+   "parts": [
+    "HG33-buteyko-e"
+   ]
+  },
+  "HG35-w467": {
+   "section": "HG35",
+   "words": 1120,
+   "parts": [
+    "HG35-forgive-e2"
+   ]
+  }
+ }
+}
