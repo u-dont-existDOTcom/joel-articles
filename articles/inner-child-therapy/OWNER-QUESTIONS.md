@@ -1,12 +1,29 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-21 (turn 78). **Two open questions (73 and 74).** To answer, reply in chat with the number and a letter, like `73: A`, or in your own words.
+Last updated 2026-10-21 (turn 78). **Three open questions (72 to 74).** To answer, reply in chat with the number and a letter, like `73: A`, or `72: your picks`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
 This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`).
 
 ## Open questions
+
+### 🟣 72. Repeats in your own words
+
+You asked whether dedup is really done. It wasn't: the last check of the whole article was 10-08, and your 10-19 changes and the moves came after it. I had it read again in parts (`DEDUP-PASS-20261021.md`). Most of what it found is a point carried into a new situation or built up across a section, which I'm keeping, and two repeats were in my drafts, which I cut. These are in your words, so they're yours to call. Reply `72: your picks` to take all of mine, or by letter.
+
+- **a. "Toxic positivity" twice:** your Loan P2 ("I’m not pushing “toxic positivity.”") and your Speak Toward What You Are Building P2 ("we don't hide from shadow stuff with toxic positivity").
+  - **A (my pick):** your words for the second one; the phrase stands out the second time.
+  - **B:** leave both.
+- **b. One question word for word, twice:** "What is this practice supposed to help, and how would I know if it's helping?" in Not Every Hero Wears A Cape P5, and again a section later in When Healing Turns Into Checking.
+  - **A (my pick):** take it out of Not Every Hero Wears A Cape P5, so When Healing Turns Into Checking, which talks it through, has it.
+  - **B:** leave both.
+- **c. My Journey says your childhood was loving three times in six paragraphs:** "I was well-loved as a child", right after it "I wasn't lacking love. My parents had given me a lot of it.", and then "my childhood was actually so nice".
+  - **A (my pick):** cut "I wasn't lacking love. My parents had given me a lot of it.", and the next words become "I found more love in Buddhist teachings".
+  - **B:** leave it.
+- **d. Two places that pull against each other:**
+  - My Journey's "it felt like I was making it up at first" (and you kept going), and When the Adult Voice Feels Fake's "unintentional gaslighting to the little one to ask to connect with them when you don't believe they're even real". **A (my pick):** leave both; feeling like you're making it up isn't the same as not believing they're real. **B:** your words to tie them together.
+  - Your psychedelic story's "In general, don’t call the cops and expect it to go well. That’s a real last resort." and my get-help paragraph's "A crisis line or an emergency number counts" in If You Want to Kill Yourself. **A (my pick):** keep both; for someone about to act, an emergency number is often the fastest help, and yours is about a drug episode. **B:** mine says only "A crisis line counts". **C:** your words.
 
 ### 🟣 73. Your Loan is PRE-APPROVED! P2: keep its last two sentences?
 

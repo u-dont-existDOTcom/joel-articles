@@ -1,6 +1,6 @@
 {
  "limit": 9000,
- "article_words": 27240,
+ "article_words": 27206,
  "parts": [
   {
    "part": 1,
@@ -33,8 +33,8 @@
   {
    "part": 3,
    "file": "part-3.txt",
-   "words": 7255,
-   "sha256": "b691ed95d771abfcd5541f009aae49bfd3648b75cc35512c320c6579c4646f09",
+   "words": 7247,
+   "sha256": "cf5008fb242375e961c99d9d5d83e1aa1f2876a7c6c04108ee7239a73ea9863b",
    "first_h1": "Altered States Can Deepen the Therapy",
    "last_h1": "How Much Happiness Do You Know Is Possible?",
    "h1s": [
@@ -48,8 +48,8 @@
   {
    "part": 4,
    "file": "part-4.txt",
-   "words": 5125,
-   "sha256": "42b71e8dd69686f0a7b52f696201817d9268319bc8ecd9f0c4f222a6b23c293b",
+   "words": 5099,
+   "sha256": "dc712bab1a02caad4776f2b6c12f14108236c21e6ecd0733bd60b0f3e5ae152b",
    "first_h1": "Borrowed Adulthood in Relationship",
    "last_h1": "Appendix",
    "h1s": [

@@ -2872,6 +2872,20 @@
     "# You Are Worthy of Love. Always.",
     "# Appendix"
    ]
+  },
+  {
+   "id": "dedup-cuts-20261021",
+   "status": "applied",
+   "what": "The turn-78 repeats check's cuts, both in my drafts, each a repeat of the paragraph before it in the same section (DEDUP-PASS-20261021.md): How to Forgive Without Forgetting's self-forgiveness paragraph loses its three closing lines on timing, forgiving too soon and resentment; If You Want to Kill Yourself's father paragraph loses \", and people around to help redirect the path\".",
+   "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"do you think dedup is really done? def don't want to remove the sections that i actually wrote, but there might be duplication in the ai-humanized sections\"",
+   "where": "How to Forgive Without Forgetting, P4; If You Want to Kill Yourself, the father paragraph",
+   "must_contain": [
+    "Look at that life you've been afraid to change while you still have a human body."
+   ],
+   "must_not_contain": [
+    "Forgive too soon and it's only a show",
+    "and people around to help redirect the path"
+   ]
   }
  ]
 }
