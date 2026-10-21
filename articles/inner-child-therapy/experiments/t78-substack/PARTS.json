@@ -1,0 +1,65 @@
+{
+ "limit": 9000,
+ "article_words": 27206,
+ "parts": [
+  {
+   "part": 1,
+   "file": "part-1.txt",
+   "words": 6918,
+   "sha256": "6792571151fd67a50cd2e2f7cc45bf860f9973bd30fbefcd91e4f238e6e9760c",
+   "first_h1": "(opening, before the first h1)",
+   "last_h1": "Borrow the Adult Before You Can Be the Adult",
+   "h1s": [
+    "(opening, before the first h1)",
+    "The Chicken-and-Egg Problem",
+    "My Journey",
+    "Before You Try to Go Deep",
+    "Borrow the Adult Before You Can Be the Adult"
+   ]
+  },
+  {
+   "part": 2,
+   "file": "part-2.txt",
+   "words": 7942,
+   "sha256": "8a76bd537712ab74790f12a95d7f364219b61cb09c22bf6fdbacae6bd9dc1f14",
+   "first_h1": "Building Trust With Your Little One",
+   "last_h1": "When the Adult Voice Feels Fake",
+   "h1s": [
+    "Building Trust With Your Little One",
+    "Simple Practices",
+    "When the Adult Voice Feels Fake"
+   ]
+  },
+  {
+   "part": 3,
+   "file": "part-3.txt",
+   "words": 7247,
+   "sha256": "cf5008fb242375e961c99d9d5d83e1aa1f2876a7c6c04108ee7239a73ea9863b",
+   "first_h1": "Altered States Can Deepen the Therapy",
+   "last_h1": "How Much Happiness Do You Know Is Possible?",
+   "h1s": [
+    "Altered States Can Deepen the Therapy",
+    "If You Want to Kill Yourself",
+    "Sometimes There Isn't a Clear Child Yet",
+    "The Inner Guide",
+    "How Much Happiness Do You Know Is Possible?"
+   ]
+  },
+  {
+   "part": 4,
+   "file": "part-4.txt",
+   "words": 5099,
+   "sha256": "dc712bab1a02caad4776f2b6c12f14108236c21e6ecd0733bd60b0f3e5ae152b",
+   "first_h1": "Borrowed Adulthood in Relationship",
+   "last_h1": "Appendix",
+   "h1s": [
+    "Borrowed Adulthood in Relationship",
+    "How to Forgive Without Forgetting",
+    "When One Life Has Ended and the Next Hasn’t Begun",
+    "Finding a Therapist to Borrow Adulthood",
+    "You Are Worthy of Love. Always.",
+    "Appendix"
+   ]
+  }
+ ]
+}
