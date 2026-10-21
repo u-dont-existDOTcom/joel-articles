@@ -20,6 +20,7 @@ This page is for any worker Joel asks to fix an article: GPT, Codex or Claude. I
 - Reassurance lines are content, not scaffolding: this article's readers are often struggling. Don't cut one to tighten a paragraph.
 - New wording in his article (a heading, a bridge sentence) is his call. Mark it as yours and ask.
 - Every question offers "leave it" and "your words" where they fit, and says which option you'd pick and why.
+- Give a question's sub-items numbers (72.1, 72.2) and its options letters (A, B), so an answer like "72.1 B" can't be misread. Letters for both overlapped in question 72 (Joel, 2026-10-21: "your numbering/lettering options are overlapping a bit").
 
 ## 3. Moving sections
 
@@ -46,7 +47,7 @@ What came up when GPT proposed the r03 structure (2026-10-20) and Claude reviewe
 The spending rule is `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`. In practice:
 
 1. **Write the prediction before every check** (`tools/humanization/pangram_ledger.py predict`), then record the result.
-2. **Big checks are free through Substack.** A whole article, a large section, or many paragraphs at once go into temporary Substack posts that Joel makes, up to about 9,999 words each, split at h1 boundaries, real contiguous text only. Give him the copy files and the steps in one message. Don't check dozens of paragraphs one at a time on pangram.com (gate E200).
+2. **Big checks are free through Substack, and you make the drafts.** A whole article, a large section, or many paragraphs at once go into temporary Substack drafts that you make yourself in the app's browser, where Joel is signed in (up to 99,999 characters each, split at h1 boundaries, real contiguous text only). Never Publish; delete the drafts once the results are recorded (gate E204, the budget rule has the steps). The Pangram label comes from the Pangram extension in Joel's Chrome, so open the secret links through Claude in Chrome when it's connected there, and otherwise send him the links. Don't check dozens of paragraphs one at a time on pangram.com (gate E200).
 3. **Find the suspect part by clicking segments.** In Pangram 4.1, when a result is Mixed or AI, or a section is suspected, click each Human and Likely human row in All Segments. The suspect one opens a bar with its AI and Human shares (his screenshot of 2026-10-21: Likely human, Low, AI 36%, Human 64%).
 4. **Pay for a check on pangram.com only for one paragraph,** after a segment points at it and with a named cause: up to six tries per paragraph lineage, each with its own diagnosis, and stop when there's no credible one.
 5. **The humanizing rules** are the gate, `docs/HUMANIZATION-GATE.md`: screen first, plain words, the tell list, the lean process.

@@ -1,41 +1,41 @@
 {
- "turn": 78,
+ "turn": 79,
  "replace": [
   [
-   "turns 52 to 58 by https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
-   "turns 52 to 58 and 77 to 78 by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
+   "turns 52 to 58 and 77 to 78 by https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
+   "turns 52 to 58 and 77 to 79 by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
    1
   ],
   [
-   "this version is from the end of turn 76 \\([^)]*\\)\\.",
-   "this version is from the end of turn 78 (his message of 2026-10-21 00:49 UTC; lane head 2a419393 or later; pull request #205, https://github.com/u-dont-existDOTcom/joel-articles/pull/205, for him to merge).",
+   "this version is from the end of turn 78 \\([^)]*\\)\\.",
+   "this version is from the end of turn 79 (his message of 2026-10-21 16:01 UTC; lane head 8ac3e40d or later; pull request #207, https://github.com/u-dont-existDOTcom/joel-articles/pull/207, for him to merge).",
    1
   ],
   [
-   "- TURN 77 \\(2026-10-20/21, his message of 2026-10-20 23:37 UTC; by https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\), the latest; its next step wins over everything below\\.",
-   "- TURN 77 (2026-10-20/21, his message of 2026-10-20 23:37 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
+   "^- TURN 78 \\(2026-10-21, his message of 00:49 UTC; by https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\), the latest; its next step wins over everything below\\..*$",
+   "- TURN 78 (2026-10-21, his message of 00:49 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED; merged in #205.",
    1
   ],
   [
-   "^1\\. His answers to questions 64 to 69 on OWNER-QUESTIONS\\.md\\.$",
-   "1. His four Substack posts of the moved article (experiments/t78-substack/part-1.txt to part-4.txt; OWNER-QUESTIONS.md, For you to do), and his answers to questions 72 to 74.",
+   "^1\\. His four Substack posts of the moved article .*$",
+   "1. Opening the two Substack drafts' secret links in his Chrome, where the Pangram extension labels them, or connecting Claude in Chrome there (turn 79; the links are in chat, and each draft gives its link again under Preview, Paid subscriber view, Share).",
    1
   ],
   [
-   "^2\\. His merge of pull request #196 \\(https://github\\.com/u-dont-existDOTcom/joel-articles/pull/196\\), turn 76\\.$",
-   "2. His merge of pull request #205 (https://github.com/u-dont-existDOTcom/joel-articles/pull/205), turns 77 and 78.",
+   "^2\\. His merge of pull request #205 .*$",
+   "2. His merge of pull request #207 (https://github.com/u-dont-existDOTcom/joel-articles/pull/207), turn 79.",
    1
   ],
   [
-   "^1\\. His answers to 64 to 69, and whatever they change: .*$",
-   "1. The four Substack results from his Pangram history (free; the seed tab): click each Human row of any part that isn't all Human (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md), and rework what a moved section exposes before anything else changes (gate E197). Then his answers to 72 to 74. Use the short path (How a turn runs).",
+   "^1\\. The four Substack results from his Pangram history .*$",
+   "1. The two Substack results from his Pangram history (free; the seed tab): click each Human row of any half that isn't all Human (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md), rework what a moved section exposes before anything else changes (gate E197), then delete both drafts (E204). Use the short path (How a turn runs).",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 77 (2026-10-20/21, his message of 2026-10-20 23:37 UTC;",
-   "- TURN 78 (2026-10-21, his message of 00:49 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631, lane head 2a419393 or later; pull request #205 (https://github.com/u-dont-existDOTcom/joel-articles/pull/205) is open for him to merge.\n  - His message, word for word, with his Pangram screenshot: experiments/t78-answers/JOEL-20261021-0049.md (\"70a\"; a guide so GPT can fix an article as well as Claude; is dedup really done?; 71 is his own version, which he checked; Pangram 4.1's segment click; \"you should have just done the free substack post workaround\"; his new Loan P2, to go to the InnerSignal map too).\n  - 70: A is in: experiments/t78-structure/t78_moves.py applied his pick to GPT's block map (GPT's files copied to experiments/t78-structure/gpt-r03/); every paragraph and note kept; owner edits pass (entry joel-70a-structure-20261021). The questions page's Decided section says what went in and what didn't (M04's two paragraph moves; GPT's help-first order in If You Want to Kill Yourself, which my review missed, E201, now question 74).\n  - 71 and his Loan P2 are in word for word; his P2 paste ended before the two lines he added on 10-19, kept until question 73. The gratitude point is filed for the InnerSignal map in universal-dev-architecture's suggested-fixes/innerSignalGraph/ (pull request #412, labeled uda-lane).\n  - Rules: docs/PANGRAM-PRODUCTION-BUDGET-20261020.md (many paragraphs, large sections and whole articles through free Substack posts, E200; the 4.1 segment click); docs/FIXING-AN-ARTICLE.md, the guide for any worker, linked from AGENTS.md and docs/INDEX.md.\n  - Repeats: DEDUP-PASS-20261021.md, his question; the whole-article read overflowed two readers (E202), so it went by parts, the long ones halved, each reader writing as it went. Two cuts in my drafts (How to Forgive Without Forgetting P4; the father paragraph in If You Want to Kill Yourself); his own repeats and two tensions are question 72; the rest stay, with reasons.\n  - Substack: experiments/t78-substack/part-1.txt to part-4.txt (made by its make_parts.py from the article), predictions t78s_p1 to t78s_p4 in tools/pangram-ledger.jsonl. Joel makes the posts and runs the checks.\n  - NEXT: read the four results from his Pangram history (free; the seed tab), click each Human row of any part that isn't all Human, and rework what a moved section exposes before anything else changes (gate E197); then his answers to questions 72 to 74. Use the short path.\n"
+   "- TURN 78 (2026-10-21, his message of 00:49 UTC;",
+   "- TURN 79 (2026-10-21, his message of 16:01 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631, lane head 8ac3e40d or later; pull request #207 (https://github.com/u-dont-existDOTcom/joel-articles/pull/207) is open for him to merge.\n  - His message, word for word: experiments/t79-answers/JOEL-20261021-1601.md (his answers to 72 to 74; my question labels overlapped; \"you can do the free substack checks yourself\"; delete the drafts once done, in the rules; \"was something blocking you?\").\n  - 72 to 74 are in (owner edits 178 pass; entry joel-72-74-20261021): both \"toxic positivity\" lines stay (about 18,000 words apart); his practice question only in When Healing Turns Into Checking; My Journey without \"I wasn't lacking love...\" and with his words on stopping when it felt fake, as he typed them; \"A crisis line counts\"; the get-help steps first in If You Want to Kill Yourself.\n  - Rules: E203 (number a question's sub-items, letter its options; docs/FIXING-AN-ARTICLE.md) and E204 (the worker makes the Substack drafts and deletes them once the results are recorded; docs/PANGRAM-PRODUCTION-BUDGET-20261020.md).\n  - Substack: payloads experiments/t79-substack/PAYLOAD-A.html and PAYLOAD-B.html (the whole moved article in two halves at an h1), predictions t79s_A and t79s_B in tools/pangram-ledger.jsonl. Both drafts are made, never published, titled \"TEMP Pangram check A\" and \"B\" (Inner Child, delete after). Draft A has an earlier wording of his 72d sentence, put back to his words in the article afterwards. The Pangram label comes from the Pangram Chrome extension, which the app's browser lacks; Claude in Chrome had no connected browser, so the links wait for his Chrome.\n  - NEXT: when the drafts have been through his Pangram extension, read the two results from his Pangram history (free; the seed tab), click each Human row of any half that isn't all Human, rework what a moved section exposes before anything else changes (gate E197), then delete both drafts. Use the short path.\n"
   ]
  ]
 }
