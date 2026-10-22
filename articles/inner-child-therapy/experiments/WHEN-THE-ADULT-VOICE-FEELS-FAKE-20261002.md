@@ -1323,3 +1323,12 @@ His message, saved first (`t95-answers/JOEL-20261022-2135.md`). He had merged pu
   - predictions #76 to #87, one per changed paragraph (mine and his), with his Two Common Guarding Patterns as one section prediction;
   - #88 and #89 for the halves;
   - every chance is now of a Human result.
+- **Pasted and verified** from commit 78e9b96f, with the body cleared by real keystrokes first. When the first click missed the editor, a check of the focus caught it before anything was deleted.
+  - A has 15,239 words, and its words hash matches.
+  - B has 12,689 words: the payload's 12,588 plus the note shown as its 101-word embed. Without the embed, the hash matches.
+  - Both are saved and unpublished. Draft A's label reads Human. Draft B's says "Daily limit reached": the free Substack check's daily limit ran out after today's rounds. Both previews are open in his Brave.
+- **Pull request #220** (https://github.com/u-dont-existDOTcom/joel-articles/pull/220) is for him to merge. The link is in the reply and under the questions page's For you to do (E213).
+
+### Next
+
+1. Draft A's link now, and draft B's after the limit resets. Then score each paragraph (#76 to #89), build the scorecard, and link it with the questions page.

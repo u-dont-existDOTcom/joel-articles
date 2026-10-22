@@ -15,6 +15,16 @@ None right now. The fourth check's results may bring some.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
+### 🟠 Merge pull request #220 (turn 95)
+
+Your answers of 21:35 UTC, your Two Common Guarding Patterns and lessons E207 to E213: https://github.com/u-dont-existDOTcom/joel-articles/pull/220. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute. It worked if the page then says "Merged".
+
+### 🟠 The fourth check's links (turn 95)
+
+Both drafts hold the fourth check, pasted and verified, and their previews are open in your Brave.
+- **Draft A:** its label reads Human. Click the label, then "Copy shareable link to result" in the side panel, and send me the link.
+- **Draft B:** its label says "Daily limit reached". Pangram's free Substack check has a daily limit, and today's four earlier rounds used it up. Tomorrow, reload the draft B tab, wait about 20 seconds for the label, and copy its link the same way.
+
 ### 🔵 The two temporary Substack drafts: not yet (turn 88)
 
 "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" now hold the turn-88 check, so they stay until its results are recorded. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
