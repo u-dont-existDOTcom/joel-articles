@@ -1226,6 +1226,10 @@ His message, saved first (`t92-answers/JOEL-20261022-1835.md`, with GPT's review
 - **Question 83:** the method, since rewording through whole-half rounds moves windows about as much as it removes them. My pick is checking my paragraphs one at a time on pangram.com before the next whole-half round, cutting an addition that still fails, and sending his flagged stretches to him in one file.
 - **The two books:** staged from his books folder (connected as `/mnt/hdd/storage/joel/SSD-offload/Documents/books/therapy`). A Sonnet agent is checking GPT's thirteen claims against them (`t92-books/BOOK-CHECK.md`), so the Schema Therapy appendix's comparison can be made accurate. GPT's own conclusion is to fix that comparison, not to add a backlog of material.
 
+- **The book check** (`t92-books/BOOK-CHECK.md`): all 13 of GPT's claims confirmed. The childhood imagery is at the end of chapter 14, not 15, and the chapter-15 dialogue is a short suggestion inside a case story. *Emotional Alchemy* is Buddhist and integrative, not theistic. *Mindfulness and Schema Therapy* is a secular training with the Buddhist model as background (chapter 3). Neither has a way of receiving love from God, and "gratitude" appears in neither.
+- **The appendix:** How This Relates to Schema Therapy P2 now names *Emotional Alchemy* (it fits a Buddhist loving-kindness wish to each schema), and the loan of love from God "isn't in her book or in the standard method". It is my text; his "in my opinion" sentence is unchanged. Lint CLEAR; checks 181 of 181; not yet checked in Pangram. GPT's possible teaching addition (match the form of care to what's needed) isn't added; the guide already teaches individual care.
+- **Delegated:** a Sonnet agent (general-purpose) checked the 13 claims in the two EPUBs (texts kept in the scratchpad). Its check: a verdict, location and quote of 15 words or fewer per claim, with the quotes machine-checked as verbatim. The outcome was 13 confirmed, with the location notes above.
+
 ### Next
 
-1. His answer to 83. When the book check reports, fix the Schema Therapy appendix's comparison with what the books really say. Then the method he picks.
+1. His answer to 83, then the method he picks.

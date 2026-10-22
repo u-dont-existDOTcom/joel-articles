@@ -47,6 +47,16 @@ Rewording through whole-half rounds is moving windows about as much as it remove
 > [!TIP]
 > Your answers in your words, and what I did with them.
 
+### 🟢 The two books on schema therapy and spirituality, 2026-10-22 18:35 UTC
+
+You checked the two books GPT found and sent its views (turn 92; `experiments/t92-answers/`). An agent checked GPT's 13 claims against the books (`experiments/t92-books/BOOK-CHECK.md`), and all 13 hold.
+
+- *Emotional Alchemy* (Tara Bennett-Goleman) blends Buddhist practice with schema work and adapts loving-kindness to each schema. It's not theistic.
+- *Mindfulness and Schema Therapy* is a secular training.
+- Neither has a way of receiving love from God, and neither mentions gratitude.
+
+So the Schema Therapy appendix's P2 now names *Emotional Alchemy*, and says a loan of love from God "isn't in her book or in the standard method". Your "in my opinion" sentence is unchanged. GPT's possible teaching addition, matching the form of care to what's needed, isn't added, since the guide already teaches individual care. Say if you want it.
+
 ### 🟢 82, 2026-10-22 18:35 UTC
 
 Your answer (turn 92; `experiments/t92-answers/JOEL-20261022-1835.md`): "82a and add therapist reply also". Your paragraph is in right after the loyalty bargain in Untangling the Belonging Bargains, as drafted from your message and your nibbana article, plus "I told this to a therapist in college and she actually agreed it was a good reason to be depressed!" Not yet checked in Pangram.
