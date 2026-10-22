@@ -1105,6 +1105,27 @@ Joel pasted GPT's reply to my review (`t85-answers/GPT-REPLY-TO-CLAUDE-REVIEW-20
 - **The names:** GPT's labels and mine differ only on "Adult Protector" (77.1), and GPT now leans to plain "Protector". His message adds the idea behind the names, and his opening's stages 4 and 5 already say where it leads. Question 79 proposes a set built on GPT's: the little one; the Inner Adult; the script you inherited (old expectations, reaction patterns, the parent you inherited); reparenting as updating it until it's second nature. It also asks the umbrella name, "reaction" or "coping", and where the idea goes.
 - InnerSignal's protocol is unchanged (0.2.1, the same hashes as my saved copy). Its "Reparenting is not an exercise" and its rule against inventing a sentence for a wordless appraisal are why 79 says "often felt, never heard as words" and "second nature" rather than "done".
 
+- **13:38 UTC:** he merged pull request #212 (turn 85).
+
 ### Next
 
 1. His answers to 76 to 79. Then the changes he picks, the book additions he picks and the AI-window rework, in one round through the gate.
+
+## Turn 86 (2026-10-22, 14:26 UTC): the core names settled
+
+Joel: "ok i like gpt's response", with GPT's reply on the names (`t86-answers/GPT-REPLY-ON-CORE-NAMES-20261022-1349.md`). Saved first (`t86-answers/JOEL-20261022-1426.md`).
+
+- **Settled** (questions page, Decided):
+  - Learned patterns is the umbrella, with "the script you inherited" as a metaphor at most.
+  - Three questions look at one process: learned expectations; response patterns, the broad category, with coping patterns for managing difficulty (going along, getting away and proving the opposite are examples) and a guard as a protective response; the parent script you inherited.
+  - Plain "Protector", which I've taken as his 77.1 A.
+  - Feelings aren't only the little one's.
+  - Reparenting is the relationship. Deliberate supervision becomes less necessary, never the relationship, and the care becomes second nature. Play is part of the point.
+- GPT corrected two of my definitions, and both corrections hold:
+  - "A guard is a reaction you can talk to" made guards depend on inner dialogue.
+  - "So the feeling stays with the little one" would have made the adult feelingless.
+- **Left open:** 79.3 (where the idea goes; my pick is GPT's paragraph after the five stages, plus 77.3's two paragraphs at the end of Two Common Protective Patterns), 76, 77.2 to 77.8 and 78. The review's 77.3 sketch now uses the settled words.
+
+### Next
+
+1. His answers to 76, 77.2 to 77.8, 78 and 79.3. Then the round: his picks, the core paragraph and 77.3's passage, the book additions, and the AI-window rework (my drafts' windows; his paragraphs' windows go to him per E171 and E188), through the gate, faithful first.
