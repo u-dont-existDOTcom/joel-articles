@@ -1166,3 +1166,19 @@ His message, saved first (`t88-answers/JOEL-20261022-1612.md`): "1. agree. 2. wi
 ### Next
 
 1. Tell him I'm ready to click the labels in his Brave, so he can watch where the analysis opens (turn 84). Then his two pangram.com/feed/ links, read with `tools/humanization/pangram_feed_read.js`, and results for #40 and #41. Then rework of my text that reads AI, and question 82 for his paragraphs' windows with the flagged words and the smallest fixes (E171). After that, he deletes the drafts (E204).
+
+## Turn 89 (2026-10-22, from 16:35 UTC): the label check with him watching; 81a; the hypnosis lane's note; half B's result and its rework
+
+His message, saved first (`t89-answers/JOEL-20261022-1635.md`): "ok go ahead, and we also need to send the fixes to the hypnosis article lane since that article has some of these same issues we fixed", and "81a". At 16:39 UTC, "are you not seeing what i see?", with his screenshot of Brave's Pangram side panel (`t89-answers/JOEL-20261022-1639-side-panel.png`). At 16:42 UTC, half B's link.
+
+- **The labels:** in his Brave through Claude in Chrome, both read Human (A after about 15 seconds, B about 20) and both were clicked (about 16:38 and 16:40 UTC). The result opens in Brave's side panel, which Claude in Chrome doesn't see; the page holds no result ID. So he copies each link with the panel's "Copy shareable link to result".
+- **Half B** (`t89-results/RESULT-B-meta.json`; https://www.pangram.com/feed/e6d76acc-f398-4218-a5e0-0b2598829e86): Mostly Human Written, 3.5% AI, 20 AI windows of 181, 12,972 words; t88s_B (#41, AI 0.85) right. The AI windows:
+  - mine: If You Want to Kill Yourself P6 and P7, How Much Happiness P3, and Borrowed Adulthood P1 (all four my turn-87 reworks, try 2 of each lineage); my turn-87 ST-CA sentences at the end of The Inner Guide P4, which pulled the start of P5 (mine, Human since turn 57) into AI; the end of When the Practice Feels Real but Stays Shallow P1 (mine, turn 65, Low 0.503), left alone for now;
+  - his: How Much Happiness P4, right after my P3 (Human alone in his check, so likely my P3's doing); How This Relates to IFS P7 and Related Clinical Work P1, both flagged in turn 79 too.
+- **Rework, half B** (`t89-drafts/` b1 to b5; lint CLEAR or REVIEW; in the article with notes, not yet checked): P6 names the University of Virginia's rebirth research (linked, its page opened first) and keeps his guide's caveat; P7 loses its opener and "Rumination feeds rumination"; How Much Happiness P3 ends on one concrete test; Borrowed Adulthood P1's list of five jobs is two examples; The Inner Guide P4's two sentences are one, with a spoken example.
+- **81a:** his P2 adjectives are in the nutshell (`OWNER-EDITS.json` entry `joel-89-20261022`; checks 180 of 180).
+- **The hypnosis lane:** its draft A isn't doubled (29,059 words, its first sentence once), but its drafts have "Pangram" in their titles again and its helper has the same replace path. Its guide shares the three jobs and the guards. The note is on its branch `claude/community-joel-1018` (commit 71812b26): `articles/inner-signal/humanize/NOTE-FROM-INNER-CHILD-LANE-20261022.md`, pointed to at the top of its handoff's START HERE. Its laptop handoff is left alone (this lane stays in its own folder there); that note points to the branch. Part 1 is the draft fixes. Part 2 is five of his decisions to ask him about there: the Protector and guards, first-read explanations, its "Leader/Guru" against Guide, forced adulthood, and the core names.
+
+### Next
+
+1. Half A's link from him; read it, record #40, map its AI windows. Then rework my flagged text in A. Question 82 for his windows in both halves: the flagged words and the smallest fixes (E171). Then rebuild both payloads, re-paste the drafts, and run one more label round with him watching.

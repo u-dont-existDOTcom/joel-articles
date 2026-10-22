@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 88). **Open questions: 78.2 and 81.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 89). **Open question: 78.2.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -17,14 +17,6 @@ This file is the page's master copy, so either of your Claude accounts can read 
   - **B:** start on the romance guide now, with these three.
   - **C:** your words.
 
-### 🟣 81. The three names in your nutshell (turn 88)
-
-Your nutshell is now where a reader first meets the Nurturer, the Protector and the Guide. By your rule ("explain everything when it first gets read"), each name could carry a hint of its job there. Right now the chart above it and your Chicken-and-Egg P2 ("the loving Nurturer, safe Protector, and wise Guide") explain them, after the songs.
-
-- **A (my pick):** your own three adjectives from P2, in the nutshell: "comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide".
-- **B:** leave it. It's a quick summary, and the explanation comes a few paragraphs later.
-- **C:** your words.
-
 ## For you to do (no decision needed)
 
 > [!WARNING]
@@ -38,6 +30,14 @@ Your nutshell is now where a reader first meets the Nurturer, the Protector and 
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 81, and the hypnosis lane, 2026-10-22 16:35 UTC
+
+Your message (turn 89; `experiments/t89-answers/JOEL-20261022-1635.md`): "ok go ahead", "81a", and send our fixes to the hypnosis lane.
+
+- **81 A:** your nutshell now says "comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide", your own three words from P2.
+- **The hypnosis lane:** a note on its branch, at the top of its handoff's START HERE (`articles/inner-signal/humanize/NOTE-FROM-INNER-CHILD-LANE-20261022.md`). It covers the draft titles, the paste helper and where the Pangram result opens, plus five of your inner child decisions to put to you there as questions: the Protector and guards, first-read explanations, the third job's name, forced adulthood and the core names.
+- **The check:** both labels read Human. The result opens in Brave's side panel, which Claude in Chrome can't see (your screenshot), so you copy the links. Half B: Mostly Human Written, 3.5% AI, 20 of 181 windows (`experiments/t89-results/`).
 
 ### 🟢 80, 79 (your nutshell), 77.5 and 77.8, 2026-10-22 16:12 UTC
 
