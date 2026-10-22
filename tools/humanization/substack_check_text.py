@@ -14,7 +14,9 @@ rules found by comparing the rebuild with the page's text, chunk by chunk, until
     lines are given in META.json's "embeds" ({url: [lines]}) when the page shows them, and a card without an entry gives
     none;
   - the post shows straight quotes as curly ones (an opening quote after a space, a bracket or a dash; a closing one and
-    an apostrophe elsewhere).
+    an apostrophe elsewhere), except in an embedded Substack note, whose paragraphs keep their straight quotes;
+  - a paragraph's trailing spaces go, and so do the emoji joiners and presentation selectors (U+200D, U+FE0F) (the
+    Nibbāna post's check of 2026-10-20, rebuilt from Joel's editor HTML of 2026-10-22).
 So only the windows are read from the page (a compact line each), and the rebuilt text is checked against the page's own
 SHA-256 of its text (pangram_feed_read.js prints it with the windows when asked).
 
@@ -37,7 +39,9 @@ LABEL = {'H': 'Human', 'A': 'AI-Generated'}
 CONF = {'H': 'High', 'M': 'Medium', 'L': 'Low'}
 
 
-def _lines(el, out, embeds=None):
+def _lines(el, out, embeds=None, note=False):
+    """Append (line, curl) for each paragraph or list item under EL. A paragraph of an embedded Substack note (inside a
+    "FeedProseMirror" body) keeps its straight quotes in the check, so it isn't curled."""
     from bs4 import NavigableString, Tag
     if isinstance(el, NavigableString):
         return
@@ -46,26 +50,27 @@ def _lines(el, out, embeds=None):
     classes = el.get('class') or []
     if el.name == 'div' and ('captioned-image-container' in classes or 'image-gallery-embed' in classes):
         return
+    note = note or 'FeedProseMirror' in classes
     if el.name == 'p':
         txt = el.get_text()
         if 'button-wrapper' in classes and 'checkout_url' in str(el):
             return
         if re.fullmatch(r'https?://\S+', txt.strip()):
-            out.extend((embeds or {}).get(txt.strip(), []))
+            out.extend((x, True) for x in (embeds or {}).get(txt.strip(), []))
             return
         if txt.strip():
-            out.append(txt)
+            out.append((txt.rstrip(' '), not note))
         return
     if el.name == 'li':
         if any(isinstance(c, Tag) and c.name in ('p', 'ul', 'ol') for c in el.children):
             for c in el.children:
                 if isinstance(c, Tag):
-                    _lines(c, out, embeds)
+                    _lines(c, out, embeds, note)
         elif el.get_text().strip():
-            out.append(el.get_text())
+            out.append((el.get_text().rstrip(' '), not note))
         return
     for c in el.children:
-        _lines(c, out, embeds)
+        _lines(c, out, embeds, note)
 
 
 def smart(s):
@@ -76,13 +81,19 @@ def smart(s):
 
 
 def checked_text(html, limit=99999, embeds=None):
+    """The text the check reads, from the payload pasted into a post or from Joel's editor HTML of a post (the
+    contenteditable body). Each line is curled on its own (smart() reads only the character before a quote, and a line's
+    start counts as a space, so this is the same as curling the joined text), and the emoji joiners and presentation
+    selectors (U+200D, U+FE0F) go: the check of the Nibbāna post (2026-10-20) has "❤" and "😶🌫" for the editor's
+    "❤️" and "😶‍🌫️"."""
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'html.parser')
     body = soup.find('div', class_='body') or soup
     out = []
     for c in body.children:
         _lines(c, out, embeds)
-    return smart('\n'.join(out))[:limit]
+    text = '\n'.join(smart(x) if curl else x for x, curl in out)
+    return text.replace('\u200d', '').replace('\ufe0f', '')[:limit]
 
 
 def windows(compact):
