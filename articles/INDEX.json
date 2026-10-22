@@ -23508,7 +23508,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "9f7b11a2edbe6b209cd3cf865a6bd4dcb42a81bc6bf89c90d3695a42c60cd10f",
+          "sha256": "d34c6203652dd7ca1938cfda40bf5b5891c5bf605066b3e45a17677852517fd1",
           "role": "humanization_working_record"
         },
         {
@@ -38359,6 +38359,11 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261018/rf-zg/r3/march-prompt.txt",
           "sha256": "653e7100391975765a77c65b1baf3f8a8163d4218f4c3d1afdeac41ed5647231",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/NOTE-FROM-INNER-CHILD-LANE-20261022.md",
+          "sha256": "207b571b208592a57704c9517ada092196094abd88930962f5b2adb787977f74",
           "role": "humanization_working_record"
         }
       ]

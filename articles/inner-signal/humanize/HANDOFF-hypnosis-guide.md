@@ -18,6 +18,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-22: a note from the Inner Child lane, at Joel's request: read it first.** `NOTE-FROM-INNER-CHILD-LANE-20261022.md` (in this folder). Part 1: this lane's two Substack drafts have "Pangram" in their titles again (E205), and `paste_payload.js`'s replace path can paste above the old text instead of replacing it; the fixes are tested in the Inner Child lane. The Pangram result opens in Brave's side panel, so Joel copies its link. Part 2: five of his inner child decisions that touch this guide's words (the Protector and guards, first-read explanations, the third job's name, forced adulthood, the core names), as questions for him here.
 - **2026-10-20: Pangram 4.1 and Joel's budget rules.** This lane's results up to batch 466g are Pangram 4.0; from the
   whole-guide check of 2026-10-20 on they are 4.1, and the ledger keeps the two apart. His rules of 20
   October (merged into this branch from main) govern every call: `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` (six tries
