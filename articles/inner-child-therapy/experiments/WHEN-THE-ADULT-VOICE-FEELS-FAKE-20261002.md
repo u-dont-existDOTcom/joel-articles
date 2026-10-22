@@ -1038,4 +1038,31 @@ Joel, 16:01 UTC: my question labels overlapped ("your numbering/lettering option
 
 ### Next
 
-1. When the drafts have been through his Pangram extension: both results from his Pangram history (free; the seed tab), the segment clicks for any half that isn't all Human, rework of what a moved section exposes first (E197), then delete both drafts and say so here.
+1. When he sends the two result pages (the label next to the author's name, clicked twice, then "View Full Analysis"; pangram.com/feed/ links): read each in the app's browser with `tools/humanization/pangram_feed_read.js`, click the segments of any half that isn't all Human, rework what a moved section exposes first (E197), then delete both drafts and say so here.
+
+After the answer: pull request #207 merged (2026-10-21, about 17:57 UTC). My answer had told him I'd read the results from his Pangram history, but the extension's checks of a Substack post aren't in his History list (the hypnosis lane's `pangram_feed_read.js`), so the questions page now asks him for the two result pages, and the rules say so.
+
+## Turn 80 (2026-10-21, from 18:06 UTC): no "Pangram" in draft titles; why the label needs his own browser; the humanize-kit skill
+
+Joel, 18:06 UTC: no worker names the temps "pangram check" ("that sounds super sus like if substack is looking at that"); "it already was connected in settings" (his screenshot of the app's Claude in Chrome settings); maybe Playwright with Brave; he added the humanize-kit community skill: does it help, or should he remove it? Saved first (`t80-answers/JOEL-20261021-1806.md`, with the screenshot).
+
+- **Titles:** all four temporary drafts renamed, none published, their text unchanged (checked through Substack's draft API): ours to "Inner Child, draft A (temp, delete after)" and "B", the hypnosis lane's to "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B (hypnosis guide appendices) - do not publish". Rule E205, in the budget rule's step 1 and the guide for any worker.
+- **The browser:** his laptop runs Brave (no Google Chrome on it), so his Claude and Pangram extensions are in Brave. Claude in Chrome lists no connected browser for this account. The setting he showed allows the extension; the extension itself has to be running and signed in to the same account (Claude Code's Chrome docs, which say Brave connects too; the Claude in Chrome help page says other Chromium browsers aren't supported). Question 75: check the extension's sign-in in Brave (my pick, to try first), Playwright with its own Brave profile, or his clicks this time.
+- **humanize-kit:** I read its /humanize SKILL.md. Nothing the gate lacks, and some of its moves are ones the gate rules out or found read AI (E206). I advised him to remove it.
+
+### Next
+
+1. His answer to 75; then the two results, the segment clicks for any half that isn't all Human, rework of what a moved section exposes first (E197), and both drafts deleted (E204).
+
+## Turn 81 (2026-10-21, from 22:42 UTC): Claude in Chrome in his Brave; the mixed-up-figures check; the API
+
+Joel, 22:42 UTC: "75 a"; he turned on Claude in Chrome in Brave and Chrome ("otherwise use playwright"); the Pangram API is open again for single paragraphs (an extra $200 credit came with 4.1), but does it give the GUI's sentence-level detail?; and the hypnosis lane's note, his request that this article get its conflation check. Saved first (`t81-answers/JOEL-20261021-2242.md`).
+
+- **The two drafts:** Claude in Chrome connected to his Brave. Both drafts' Pangram labels read Human (A after about ten seconds; B after about twenty, "Checking for AI" first). Clicking a label ("Click to view full analysis") opens the analysis outside the tabs Claude in Chrome can reach: nothing new in the page, no side panel (the viewport kept the window's width), no new tab in its group. So the windows wait for the two pangram.com/feed/ links from him (questions page, For you to do); t79s_A and t79s_B stay unscored until then, and the drafts stay until the results are recorded. Playwright wasn't needed for the labels; it might help with the analysis later, if he wants this hands-off (it sees every tab in its own browser).
+- **The API:** the key file's account answered "Insufficient credits" (HTTP 402), so nothing ran; prediction #37 is voided. Pangram's Pangram 4 migration guide lists windows with a label, confidence, AI-assistance and humanizer scores, version 4.0, nothing at the sentence level (the budget rule now says so).
+- **The mixed-up-figures check:** the article without its notes (`t81-conflation/ARTICLE-READER.md`), its own map of its figures (`MAP.txt`; here "inner parent" names the adult the reader builds, and the internalized voice is "the parent you inherited"), the prompt from main's `tools/humanization/conflation_sweep_prompt.py`, one fresh Opus reader (`CONFLATION-SWEEP.md`, about twelve minutes). Five findings. One in my turn-54 draft of Let the Child Be Bad at Things P2 is fixed ("The grown-up you're building"), with its Pangram check to come with the others. Four are in his words: question 76.
+- **Rules:** `docs/FIXING-AN-ARTICLE.md` has the sweep step and the API note; the merge of main brought the hypnosis lane's section of the gate and its uncapped Substack checks.
+
+### Next
+
+1. The two result links and his answer to 76; then the windows recorded and scored, the segment clicks for any half that isn't all Human, his 76 fixes and mine checked in one free Substack check per changed section, and the drafts deleted (E204).

@@ -1140,7 +1140,9 @@ Reflection can show you what got sMothered (typo?) or suppressed. For identity y
 
 <!-- turn 54: writer 2 of two in the fix round, with "You can comfort your little one about that later, but" and "while that's landing" cut (try 1's grounding: a deadline the guide doesn't set). Try 1 (the guide's own sentences) AI 0.66; this one Human (91), try 2. Grounding: one DUPLICATE flag, answered in P1; stance 0; march S S B S S twice. -->
 
-The old parent in your head may demand immediate talent, though, and then the first time you're awkward at it, that's "evidence" that you're stupid or clumsy. Or you hear, "Come on, you're not really the type." I think your little one is listening to see if anybody's going to stick up for them. The grown-up you has to be the one who does: "It's okay if we're bad at this, nobody's on trial. We're just seeing if we like it."
+<!-- Turn 81 (the conflation sweep Joel asked for, 2026-10-21 22:42 UTC, experiments/t81-answers/JOEL-20261021-2242.md; report experiments/t81-conflation/CONFLATION-SWEEP.md, finding 1): "The grown-up you" became "The grown-up you're building", so right after "The old parent in your head" it can't be read as that same voice (his own fix in the hypnosis guide, the same spot). My turn-54 draft, so mine to fix. Not yet checked in Pangram: the API key's account had no credits (HTTP 402), so its check goes with the 76 fixes, one free Substack check per changed section. -->
+
+The old parent in your head may demand immediate talent, though, and then the first time you're awkward at it, that's "evidence" that you're stupid or clumsy. Or you hear, "Come on, you're not really the type." I think your little one is listening to see if anybody's going to stick up for them. The grown-up you're building has to be the one who does: "It's okay if we're bad at this, nobody's on trial. We're just seeing if we like it."
 
 <!-- turn 54: writer 6 of six, with "Either way, that's pl/ork" as its own sentence (its grounding: hung on the discovery, pl/ork made quitting read as a miss). Alone Human (81), try 1; the h2 with P1 and P2 read AI (0.89), its one window all of it, while P1 fails alone. -->
 

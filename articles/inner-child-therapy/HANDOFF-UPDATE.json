@@ -1,41 +1,41 @@
 {
- "turn": 79,
+ "turn": 81,
  "replace": [
   [
-   "turns 52 to 58 and 77 to 78 by https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
-   "turns 52 to 58 and 77 to 79 by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
+   "turns\\ 52\\ to\\ 58\\ and\\ 77\\ to\\ 80\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
+   "turns 52 to 58 and 77 to 81 by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,",
    1
   ],
   [
-   "this version is from the end of turn 78 \\([^)]*\\)\\.",
-   "this version is from the end of turn 79 (his message of 2026-10-21 16:01 UTC; lane head 8ac3e40d or later; pull request #207, https://github.com/u-dont-existDOTcom/joel-articles/pull/207, for him to merge).",
+   "this version is from the end of turn 80 \\([^)]*\\)\\.",
+   "this version is from the end of turn 81 (his message of 2026-10-21 22:42 UTC; lane head bd378cfd or later; pull request #208, https://github.com/u-dont-existDOTcom/joel-articles/pull/208, for him to merge).",
    1
   ],
   [
-   "^- TURN 78 \\(2026-10-21, his message of 00:49 UTC; by https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\), the latest; its next step wins over everything below\\..*$",
-   "- TURN 78 (2026-10-21, his message of 00:49 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED; merged in #205.",
+   "^- TURN 80 \\(2026-10-21, his message of 18:06 UTC; by https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\), the latest; its next step wins over everything below\\..*$",
+   "- TURN 80 (2026-10-21, his message of 18:06 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED; its pull request #208 carries turn 81 too.",
    1
   ],
   [
-   "^1\\. His four Substack posts of the moved article .*$",
-   "1. Opening the two Substack drafts' secret links in his Chrome, where the Pangram extension labels them, or connecting Claude in Chrome there (turn 79; the links are in chat, and each draft gives its link again under Preview, Paid subscriber view, Share).",
+   "^1\\. His answer to question 75 on OWNER-QUESTIONS\\.md .*$",
+   "1. The two Pangram result links (pangram.com/feed/...) for the drafts, and his answer to question 76 on OWNER-QUESTIONS.md (four places in his words from the conflation sweep).",
    1
   ],
   [
-   "^2\\. His merge of pull request #205 .*$",
-   "2. His merge of pull request #207 (https://github.com/u-dont-existDOTcom/joel-articles/pull/207), turn 79.",
+   "^2\\. His merge of pull request #208 .*$",
+   "2. His merge of pull request #208 (https://github.com/u-dont-existDOTcom/joel-articles/pull/208), turns 80 and 81.",
    1
   ],
   [
-   "^1\\. The four Substack results from his Pangram history .*$",
-   "1. The two Substack results from his Pangram history (free; the seed tab): click each Human row of any half that isn't all Human (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md), rework what a moved section exposes before anything else changes (gate E197), then delete both drafts (E204). Use the short path (How a turn runs).",
+   "^1\\. His answer to 75, then the two Substack results .*$",
+   "1. The two result links and his answer to 76: read both analyses in the app's browser with tools/humanization/pangram_feed_read.js, score t79s_A and t79s_B, click each Human row of any half that isn't all Human, put in his 76 picks, check each changed section (with my Let the Child Be Bad at Things P2 fix) in one free Substack check per section, then delete all temporary drafts (E204). Use the short path (How a turn runs).",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 78 (2026-10-21, his message of 00:49 UTC;",
-   "- TURN 79 (2026-10-21, his message of 16:01 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631, lane head 8ac3e40d or later; pull request #207 (https://github.com/u-dont-existDOTcom/joel-articles/pull/207) is open for him to merge.\n  - His message, word for word: experiments/t79-answers/JOEL-20261021-1601.md (his answers to 72 to 74; my question labels overlapped; \"you can do the free substack checks yourself\"; delete the drafts once done, in the rules; \"was something blocking you?\").\n  - 72 to 74 are in (owner edits 178 pass; entry joel-72-74-20261021): both \"toxic positivity\" lines stay (about 18,000 words apart); his practice question only in When Healing Turns Into Checking; My Journey without \"I wasn't lacking love...\" and with his words on stopping when it felt fake, as he typed them; \"A crisis line counts\"; the get-help steps first in If You Want to Kill Yourself.\n  - Rules: E203 (number a question's sub-items, letter its options; docs/FIXING-AN-ARTICLE.md) and E204 (the worker makes the Substack drafts and deletes them once the results are recorded; docs/PANGRAM-PRODUCTION-BUDGET-20261020.md).\n  - Substack: payloads experiments/t79-substack/PAYLOAD-A.html and PAYLOAD-B.html (the whole moved article in two halves at an h1), predictions t79s_A and t79s_B in tools/pangram-ledger.jsonl. Both drafts are made, never published, titled \"TEMP Pangram check A\" and \"B\" (Inner Child, delete after). Draft A has an earlier wording of his 72d sentence, put back to his words in the article afterwards. The Pangram label comes from the Pangram Chrome extension, which the app's browser lacks; Claude in Chrome had no connected browser, so the links wait for his Chrome.\n  - NEXT: when the drafts have been through his Pangram extension, read the two results from his Pangram history (free; the seed tab), click each Human row of any half that isn't all Human, rework what a moved section exposes before anything else changes (gate E197), then delete both drafts. Use the short path.\n"
+   "- TURN 80 (2026-10-21, his message of 18:06 UTC;",
+   "- TURN 81 (2026-10-21, his message of 22:42 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631, lane head bd378cfd or later; pull request #208 (https://github.com/u-dont-existDOTcom/joel-articles/pull/208) is open for him to merge, with turns 80 and 81.\n  - His message, word for word: experiments/t81-answers/JOEL-20261021-2242.md (\"75 a\"; Claude in Chrome on in Brave and Chrome, \"otherwise use playwright\"; the API open again for single paragraphs; the hypnosis lane's conflation check, for this article).\n  - Claude in Chrome connects to his Brave (Linux). Both drafts' Pangram labels read Human. Clicking a label opens the full analysis outside the tabs Claude in Chrome can reach, so the windows wait for the two pangram.com/feed/ links from him; the drafts stay until then.\n  - The API key's account answered HTTP 402 (no credits); prediction #37 voided. The API gives windows, not sentence shading (Pangram's Pangram 4 migration guide).\n  - Conflation sweep: experiments/t81-conflation/ (map, prompt, report). One fix in my draft (Let the Child Be Bad at Things P2, \"The grown-up you're building\"), its check still to come; four findings in his words, question 76.\n  - NEXT: the two result links and his 76 answer; then the windows, the segment clicks, the 76 fixes and mine checked per section through Substack, and the drafts deleted. Use the short path.\n"
   ]
  ]
 }
