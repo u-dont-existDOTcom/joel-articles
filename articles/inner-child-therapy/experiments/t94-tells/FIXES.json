@@ -8,7 +8,8 @@
    "tells": "a concession turned on \"though\", a two-part instruction, and an either-or closer (\"or a bit gentler\")",
    "change": "The concession is a clause of the first sentence, and the note and the return are one sentence.",
    "old": "A full break from your little one is a last resort. Sometimes it isn't up to you, though, like when something's actually unsafe. If you do need one, I'd jot down why, and how far you'd gotten before it got to be too much. Once that reason has changed and you want to come back, start where the note says it was still okay, or a bit gentler.",
-   "new": "A full break from your little one is a last resort, unless something's actually unsafe. If you do need one, I'd jot down why and how far you'd gotten, and come back there once that reason has changed."
+   "new": "A full break from your little one is a last resort, unless something's actually unsafe. If you do need a break, I'd jot down why and how far you'd gotten, and come back there once that reason has changed.",
+   "turn95": "Turn 95, before its first check, with E207's moves (his rewrite of Two Common Guarding Patterns): \"one\" named (\"a break\")."
   },
   {
    "id": "c02",
@@ -28,7 +29,8 @@
    "tells": "a negation reframe (\"doesn't mean it wasn't too much\"), Medium",
    "change": "Its point (his turn-73 decision) is now a second test in the first sentence, so the negation sentence is gone.",
    "old": "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much. This kind of work can bring up grief and fear, and sometimes hard dreams. And being present through all of it doesn't mean it wasn't too much.",
-   "new": "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much, or by whether you stayed present through it. This kind of work can bring up grief and fear, and sometimes hard dreams."
+   "new": "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much, or by whether you stayed present through it. Somatic work can bring up grief and fear, and sometimes hard dreams.",
+   "turn95": "Turn 95, before its first check, with E207's moves (his rewrite of Two Common Guarding Patterns): a specific noun (\"Somatic work\" for \"This kind of work\")."
   },
   {
    "id": "c04",
@@ -38,7 +40,8 @@
    "tells": "a signpost opener (\"That voice can get into your reparenting, too.\"), a cause-and-effect chain, a balanced purpose clause (\"arguing with what it says and leaving your parents out of it\") and \"You could also\"",
    "change": "The opener, the chain and the purpose clause are cut; the writing-down step is plain.",
    "old": "That voice can get into your reparenting, too. A good routine kept in the warden's tone still feels like punishment, so your little one goes along with it for a while and then starts avoiding it. If answering the voice feels disloyal, give it a name of its own, like the Critic, so you're arguing with what it says and leaving your parents out of it. You could also write its lines down, with who said them and when.",
-   "new": "A good routine kept in the warden's tone still feels like punishment to your little one. If answering the voice feels disloyal, give it a name of its own, like the Critic. Write its lines down, with who said them and when."
+   "new": "A good routine kept in the warden's tone still feels like punishment to your little one. If talking back to that voice feels disloyal, give it a name of its own, like the Critic, so it's the Critic you're arguing with and not your mom or dad. Write its lines down, with who said them and when.",
+   "turn95": "Turn 95, before its first check, with E207's moves (his rewrite of Two Common Guarding Patterns): the referent named (\"that voice\") and the reason said with the people in it (\"not your mom or dad\")."
   },
   {
    "id": "c05",

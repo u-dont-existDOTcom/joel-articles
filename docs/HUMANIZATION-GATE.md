@@ -664,6 +664,30 @@ The records are in `articles/inner-signal/humanize/fix-20261022/` (batch 470g an
   copy is `articles/inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js`; its old `paste_payload.js` is marked
   superseded.
 
+## What Joel's answers of 2026-10-22 21:35 UTC taught (the Inner Child lane, questions 84 and 85)
+
+The records: `articles/inner-child-therapy/experiments/t95-answers/JOEL-20261022-2135.md` and entry `joel-95-20261022` in that lane's `OWNER-EDITS.json`.
+
+- **E207. What his rewrite of a three-try section changed.** Two Common Guarding Patterns had read AI after three tries of mine that only cut tells. His version read "all dark green": "85 ok this is all dark green now, learn some lessons". Nothing in it is from his life. What he added is thought, in these kinds:
+  1. **He names the referent where mine said "one" or "it":** "One of these patterns is", "this guard", "That pull of distraction", "With any of these patterns".
+  2. **He uses the known name for what a paragraph describes:** "a self-fulfilling prophecy", "people pleasers", "(sour grapes)", "going along to get along", "folks". Mine had described the thing abstractly: "The expectation can even make itself come true."
+  3. **He gives the reason as his opinion:** "because it doesn't really help to just label it a bad habit", where mine had "before I'd call it a bad habit".
+  4. **He states the counterweight the point needs, with what to do:** "We do need some skepticism, so thank it for keeping you on track." This is a stance that keeps the section honest, not a reassurance.
+  5. **His metaphor carries its own logic, where a quip wouldn't:** "it stays on the payroll since guards require attackers".
+  6. **He puts a condition where it applies, where mine hedged in a parenthetical:** "but now, if there are people who are safely available, it can keep help away", for "(though sometimes the people around really aren't available, or safe)".
+  7. **He uses specific nouns where mine were vague:** "some painful memory or insight" for "something painful", "a global movement of peer counseling" for "a kind of peer counseling", "productive emotional discharge", "abandoned" for "left".
+  8. **He gives process detail you can feel:** "as if nothing's wrong while the pressure builds and then they blow up out of nowhere".
+  9. **He uses silly warmth, aimed at the reader, where mine would have been wry:** "You're actually a prophet, but you didn't know it!"
+  10. **His heading says what the patterns block:** "Two Common Guarding Patterns Blocking Reparenting".
+
+  So when cutting a paragraph's tells fails twice, the next try is these moves (1 to 3, 6 and 7 first), and nothing gets invented about his life.
+- **E208. A rough catch-all can be a human tell (84.2).** "or to do whatever helps you come back a bit" stays. In his words: "AI will tend to make the catch-all more polished than that like "make one minimal repair" "take one gentle step."" The polished one is the tell.
+- **E209. Read what a sentence does before calling it a reassurance (84.5).** "Most groups expect some conformity, which is ordinary." is his point: don't go to the other extreme once you notice every group asks for some conformity. It isn't an aside.
+- **E210. A cut that changes what a sentence says is not a fix (84.6).** Cutting "and to keep your own ground instead" would make self-differentiation only noticing the trade, which is false. His fix kept both halves in a process frame: "In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more when feasible."
+- **E211. A line that passes can stay though it looks AI (84.1).** His words: "it does look AI, but i guess it's ok if it passes."
+- **E212. Research that doesn't change what the reader does is fluff.** He cut the Kahneman and Klein paragraph: "it looked like fluff, i cut it". A pointer to a source has to change what the reader does or understands.
+- **E213. Ask for a merge with its link.** His words: "where is the PR link for me to merge? anyway i went to gh and merged it". Every reply that leaves a merge to him gives the pull request's link, and the questions page's For you to do has the same link.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

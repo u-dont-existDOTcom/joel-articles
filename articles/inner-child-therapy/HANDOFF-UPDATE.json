@@ -1,30 +1,31 @@
 {
- "turn": 94,
+ "turn": 95,
  "replace": [
   [
-   "\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#218",
-   "), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #218",
+   "\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#218\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/218\\)\\ for\\ him\\ to\\ merge\\.",
+   "), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #218 (https://github.com/u-dont-existDOTcom/joel-articles/pull/218) merged (2026-10-22 21:11 UTC).",
    1
   ],
   [
-   "^1\\. His two links from the third label round.*$",
-   "1. His answers to questions 84 and 85 (and 78.2) on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E; master copy OWNER-QUESTIONS.md); once the results are final, his delete of the two temporary Substack drafts (A and B).",
+   "^1\\. His answers to questions 84 and 85 \\(and 78\\.2\\) on the questions page.*$",
+   "1. Draft A's link from the fourth check now, and draft B's once Pangram's daily limit resets (the questions page's For you to do says how); once the results are final, his delete of the two temporary Substack drafts (A and B).",
    1
   ],
   [
-   "^1\\. Read his two links in the built-in browser.*$",
-   "1. His answers to questions 84 and 85 (the questions page). Put his 84 answers in word for word; for 85, apply what his words or the tell he names show to Two Common Guarding Patterns P1 to P4 and Start With Whatever Showed Up P8. Then a fourth label round with turn 94's cuts (experiments/t94-tells/FIXES.json, c01 to c06) and his answers: payloads (copy experiments/t93-substack/make_payloads.py into a new tNN-substack folder), predictions first (one per changed paragraph, the chance of a 100% Human result; a cut of a named tell starts near 0.6, lower when its window runs into unchanged text), paste with experiments/t88-substack/paste_payload_lane.js after clearing the body with real ctrl+a, Delete, and wait for his two links. Read them with the item scorer in the turn-94 log (experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md), record the results, run tools/build_scorecard.py, and link the questions page and the scorecard. No pangram.com dashboard checks (he declined, 2026-10-22 19:02 UTC). Use the short path (How a turn runs).",
+   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#218\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/218\\),\\ turns\\ 92\\ and\\ 93\\ \\(\\#217\\ is\\ merged\\)\\.",
+   "2. His merge of pull request #220 (https://github.com/u-dont-existDOTcom/joel-articles/pull/220), turn 95 (#218 is merged).",
+   1
+  ],
+  [
+   "^1\\. His answers to questions 84 and 85 \\(the questions page\\)\\..*$",
+   "1. Draft A's link (and B's once the limit resets): read each with the item scorer in the turn-94 log (experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md), record the results for #76 to #89 (pangram_ledger.py result; the paragraphs' keys are t95i_*, the halves t95s_A and t95s_B), explain each miss, run tools/build_scorecard.py, and give him the scorecard's numbers with the questions page's link. A second try that still reads AI gets E207's moves (named referents, known names for things, reasons as opinions, conditions where they apply, specific nouns); a third try goes to him. Every merge request comes with its link (E213). No pangram.com dashboard checks.",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 93 (",
-   "- TURN 94 (2026-10-22, his messages of 19:50 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #218 (https://github.com/u-dont-existDOTcom/joel-articles/pull/218) for him to merge.\n  - His messages, word for word: experiments/t94-answers/JOEL-20261022-1950.md (round 3's two links; \"you didn't give me an answers page\"; \"where is the scorecard\").\n  - The questions page is published: https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E (tools/questions_page.py rebuilds it from OWNER-QUESTIONS.md). The scorecard: tools/SCORECARD.md and state/PANGRAM-SCORECARD.md (tools/build_scorecard.py). 30 AI calls had an inverted chance; fixed (chance_fixed), and pangram_ledger.py now refuses it.\n  - Round 3 (experiments/t94-results/ROUND3-RESULTS.json): half A 5.4% AI, half B 2.0%; 17 of the 30 turn-93 paragraphs read Human; my 30 item predictions 17 right.\n  - Question 85: Two Common Guarding Patterns P1 to P4 and Start With Whatever Showed Up P8, AI after three tries. Question 84 updated (four of his read Human now). One more cut in six of mine (experiments/t94-tells/), not yet checked.\n  - NEXT: Next step 1."
-  ],
-  [
-   "- Before every push:",
-   "- Every reply links the questions page, the published view https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E: after any change to OWNER-QUESTIONS.md, rebuild it (python3 articles/inner-child-therapy/tools/questions_page.py OUT.html) and republish to that link; only the account that published it can republish, so another account gives the file's GitHub link instead. After every recorded Pangram result, run python3 articles/inner-child-therapy/tools/build_scorecard.py and give him tools/SCORECARD.md's numbers with its link. The ledger's chance is of a 100% Human result, so an AI call is at most 0.5 (the tool refuses otherwise). Joel, 2026-10-22 19:50 UTC: \"isn't that a standing rule to always give answers page\" and \"where is the scorecard\"."
+   "- TURN 94 (",
+   "- TURN 95 (2026-10-22, his message of 21:35 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #220 (https://github.com/u-dont-existDOTcom/joel-articles/pull/220) for him to merge.\n  - His message, word for word: experiments/t95-answers/JOEL-20261022-2135.md (78.2 A; 84.1 to 84.8; 85, his own Two Common Guarding Patterns Blocking Reparenting, \"all dark green\"; Start With P8 cut; \"where is the PR link for me to merge?\").\n  - Installed with notes (entry joel-95-20261022; owner edits 182 of 182). His lessons are E207 to E213 in docs/HUMANIZATION-GATE.md; E207 lists the ten moves his rewrite made. Three of my unchecked turn-94 cuts got E207's moves.\n  - The fourth check: both drafts pasted from commit 78e9b96f and verified; draft A's label reads Human; draft B's says \"Daily limit reached\" (Pangram's free Substack check), so its check waits for the reset. Predictions #76 to #89.\n  - NEXT: Next step 1."
   ]
  ]
 }

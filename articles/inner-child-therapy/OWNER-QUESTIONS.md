@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 94). **Open questions: 78.2, 84 and 85.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 95). **Open questions: none.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,86 +8,22 @@ The published page, a view of this file rebuilt after every change (`tools/quest
 
 ## Open questions
 
-### 🟣 78. The couples book (78.2)
-
-78.1 is answered (Decided, below). Still open, whenever you've read `experiments/t84-books/CANDIDATES-couples.md`: its second candidate for this guide (turning "I have to" into "You have to", p. 118) and the romance guide's ten.
-
-- **78.2 The romance guide.** 10 of the couples book's candidates are for it. The most useful: a real safety plan, with the warning that leaving is a riskier time (it needs checking against a current hotline's own guide first, since the book's list dates from 2005 to 2007); seeing the repeating fight as a loop the two of you build, and the loop as the common enemy; a stop signal with a promised return time. The book treats violence as a loop both partners keep up, so each of these needs a "not if one of you is afraid of the other" screen.
-  - **A (my pick):** keep them as notes for now, and start with the safety plan whenever you open the romance guide again.
-  - **B:** start on the romance guide now, with these three.
-  - **C:** your words.
-
-### 🟣 84. Your flagged words: the tells I'd fix (turn 93)
-
-Round 2 read these stretches of your words as AI. For each I named the tell and the smallest fix. The details are in `experiments/t93-tells/TELLS-ROUND2.md`. Answer like `84.1 A`, or all at once (`84 all A`).
-
-**Round 3 (turn 94, your links of 19:50 UTC; `experiments/t94-results/ROUND3-RESULTS.json`):**
-- 84.1, 84.2, 84.5 and 84.6 now read Human with nothing changed, so my pick for those four is now B, leave it.
-- Still AI:
-  - 84.3 (Low);
-  - 84.4 (High);
-  - 84.7 (Low; it was High);
-  - 84.8 (High).
-
-The eight, with my picks:
-
-- **84.1 "Borrow adulthood. Do not surrender it."** (the end of Don't Give the Inner Adult Away). It's a two-beat maxim that restates the heading.
-  - **A:** cut it.
-  - **B (my pick since round 3, which read it Human):** leave it.
-  - **C:** your words.
-- **84.2 Before You Try to Go Deep P1.** It ends on a catch-all ("or to do whatever helps you come back a bit"). The list of four checks is the content, so it stays.
-  - **A:** cut the catch-all.
-  - **B (my pick since round 3, which read it Human):** leave it.
-  - **C:** your words.
-- **84.3 Your Body Might Need Some Love First P5.** "A lot of the time you just know." is a reassurance. It's my turn-38 words, which your paste kept.
-  - **A (my pick):** cut it.
-  - **B:** leave it.
-  - **C:** your words.
-- **84.4 Use Childhood Photographs Gently P1.** "Maybe you've tried picturing your little one and thought, ..." is a made-up reader scenario.
-  - **A (my pick):** "If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent."
-  - **B:** leave it.
-  - **C:** your words. If it happened to you, your own moment would beat both.
-- **84.5 Untangling the Belonging Bargains P1** (your GPT-deduped words). "Most groups expect some conformity, which is ordinary." is a reassuring aside.
-  - **A:** cut it.
-  - **B (my pick since round 3, which read it Human):** leave it.
-  - **C:** your words.
-- **84.6 Untangling P3's last sentence**, "Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead." It's a definition used as a closer. My paragraph right after it read High, though, so it may be spill.
-  - **A (my pick; round 3 read it Human):** leave it.
-  - **B:** cut ", and to keep your own ground instead".
-  - **C:** your words.
-- **84.7 How Much Happiness P4.** It has a list of three ("A meal can help, and so can a boundary or a kind sentence").
-  - **A (my pick):** drop "or a kind sentence".
-  - **B:** leave it.
-  - **C:** your words.
-- **84.8 Related Clinical Work P1, your last line.** It's a formal "rather than X or Y" disclaimer.
-  - **A (my pick):** cut "or claiming that their research validates it as a package".
-  - **B:** leave it.
-  - **C:** your words.
-
-The file also lists where I couldn't find a tell. That's three things:
-- four single Low sentences next to real tells;
-- Two Common Guarding Patterns P3's three ways (your 77.3 content);
-- Your Body P4.
-
-Nothing for you to do there unless they read AI again.
-
-### 🟣 85. My paragraphs still AI after three tries (turn 94)
-
-Round 3 read these as AI after their third try, so under the budget rule they come to you:
-- **Two Common Guarding Patterns**, all four paragraphs (the skeptic, the pull, the learned expectation, the loop). Only the Re-evaluation Counseling sentence reads Human.
-- **Start With Whatever Showed Up P8** (Kahneman and Klein), from "Roughly" on.
-
-What I took out each time is in `experiments/t93-tells/TELLS-ROUND2.md` (items a13 and a16 to a19). What's left explains a pattern with a made-up "you" example, like "it has probably watched you get excited about other healing things before, then drop them a month later". What reads Human in your writing is a real moment, and I can't invent one.
-
-- **A (my pick):** you put one of them in your own words, or point at the tell you see, and I apply what it shows to the rest.
-- **B:** I cut them down to what reads Human. Two Common Guarding Patterns would keep only the yawn and Re-evaluation Counseling. It would lose your 77.3 learned expectation and the loop.
-- **C:** leave them. Half A reads 5.4% AI with them in.
-- **D:** your words.
+None right now. The fourth check's results may bring some.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
+
+### 🟠 Merge pull request #220 (turn 95)
+
+Your answers of 21:35 UTC, your Two Common Guarding Patterns and lessons E207 to E213: https://github.com/u-dont-existDOTcom/joel-articles/pull/220. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute. It worked if the page then says "Merged".
+
+### 🟠 The fourth check's links (turn 95)
+
+Both drafts hold the fourth check, pasted and verified, and their previews are open in your Brave.
+- **Draft A:** its label reads Human. Click the label, then "Copy shareable link to result" in the side panel, and send me the link.
+- **Draft B:** its label says "Daily limit reached". Pangram's free Substack check has a daily limit, and today's four earlier rounds used it up. Tomorrow, reload the draft B tab, wait about 20 seconds for the label, and copy its link the same way.
 
 ### 🔵 The two temporary Substack drafts: not yet (turn 88)
 
@@ -97,6 +33,35 @@ What I took out each time is in `experiments/t93-tells/TELLS-ROUND2.md` (items a
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 78.2, 84 and 85, 2026-10-22 21:35 UTC
+
+Your answers (turn 95; `experiments/t95-answers/JOEL-20261022-2135.md`), and what I did:
+
+- **78.2 A:** the couples book's candidates for the romance guide stay as notes. The safety plan comes first whenever you open the romance guide again.
+- **84.1 B:** "Borrow adulthood. Do not surrender it." stays. Your words: "it does look AI, but i guess it's ok if it passes". That's lesson E211.
+- **84.2 B:** the catch-all stays. Your lesson is E208: a rough catch-all can be a human tell, and AI makes them polished ("make one minimal repair", "take one gentle step").
+- **84.3 A, 84.4 A, 84.7 A and 84.8 A:** done as proposed.
+- **84.5 B:** stays. It's your point, not an aside: don't go to the other extreme once you notice every group asks for some conformity. That's lesson E209.
+- **84.6:** your new last sentence, word for word: "In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more when feasible." Cutting the second half would have falsified it, which is lesson E210.
+- **85:** your Two Common Guarding Patterns Blocking Reparenting is in, word for word, with its heading.
+  - What it changed is lesson E207 in `docs/HUMANIZATION-GATE.md`, ten kinds in all:
+    - named referents;
+    - known names for things ("a self-fulfilling prophecy", "people pleasers", "sour grapes");
+    - your reasons as opinions;
+    - the counterweight ("We do need some skepticism");
+    - a metaphor with its own logic (the payroll);
+    - conditions where they apply;
+    - specific nouns;
+    - felt process;
+    - silly warmth;
+    - a heading that says what the patterns block.
+  - Nothing in it is about your life, so I can use these moves myself. I used three on my unchecked cuts:
+    - "a break" for "one";
+    - "Somatic work" for "This kind of work";
+    - the reason said with your mom or dad in it.
+- **Start With Whatever Showed Up P8:** cut, as you did ("it looked like fluff"). Its text is in `experiments/t95-installs/CUT-start-with-p8.md`. Research that doesn't change what the reader does is fluff, which is lesson E212.
+- **The merge link:** you had to find pull request #218 yourself. From now on every merge I leave to you comes with its link, in my reply and under For you to do. That's lesson E213.
 
 ### 🟢 The questions page and the scorecard, 2026-10-22 19:50 UTC
 
