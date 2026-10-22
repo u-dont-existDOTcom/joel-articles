@@ -37,21 +37,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
-| **all lanes** | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+| hypnosis guide | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
+| **all lanes** | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+| hypnosis guide | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
-| stretch | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+| article | 2 | 2 (100%) | 100% | 0% | 0% | 0.001 (base 0.000, 2) |
+| stretch | 2 | 1 (50%) | 50% | 50% | 0% | 0.451 (base 0.250, 2) |
 
 ## pangram 4.1, web app
 
@@ -92,15 +92,35 @@ The boundary mix over all lanes:
 |---|---|---|---|---|---|---|
 | paragraph | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
 
+## pangram-4.1-substack
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| inner child guide | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
+| **all lanes** | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| inner child guide | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| stretch | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
+
 ## What the misses say (since the ledger)
 
 | cause | misses | lanes |
 |---|---|---|
 | balanced closer kept | 3 | hypnosis guide |
+| not explained yet | 3 | inner child guide |
 | parallel list kept | 1 | hypnosis guide |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
 | fix underrated | 1 | hypnosis guide |
-| not explained yet | 1 | inner child guide |
+| verdict threshold misread | 1 | hypnosis guide |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 

@@ -1,0 +1,75 @@
+{
+ "feed_uuid": "558d14f6-625d-46aa-8495-adf9141cb3a4",
+ "link": "https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4",
+ "created_at": "2026-10-21T18:44:55.066351-04:00",
+ "domain": "substack",
+ "prediction_short": "Human",
+ "headline": "Mostly Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 0.0489974208176136,
+ "fraction_human": 0.9510025978088379,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 4.3160051921287135e-11,
+   "high-confidence": 0.0489974208176136,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 4.40868687238724e-22,
+   "high-confidence": 0.9510025978088379,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 1.548461855062109e-23,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "verdict_support": {
+  "ai": 0,
+  "human": 1,
+  "mixed": 1.1102230246251565e-16,
+  "source": "sentence_dp",
+  "ai_coverage": {
+   "p10": 0,
+   "p50": 0.04883953556418419,
+   "p90": 0.05,
+   "std": 4.162640454552502e-09,
+   "mean": 0.04883953556418419,
+   "show_range": false
+  },
+  "ai_threshold": 0.800000011920929,
+  "human_coverage": {
+   "p10": 0.9513534307479858,
+   "p50": 0.9513534307479858,
+   "p90": 0.9513534307479858,
+   "std": 4.162640454552502e-09,
+   "mean": 0.9513534307479858
+  },
+  "human_threshold": 0.8999999761581421,
+  "coverage_resolution": 0.00101749028544873
+ },
+ "ai_distribution": {
+  "title": "A single AI-generated segment",
+  "description": "AI-generated content is limited to one short segment; the rest is human-written."
+ },
+ "num_ai_segments": 1,
+ "num_human_segments": 26,
+ "word_count": 10586,
+ "task_id": "c9916793-dcb8-4bb1-8cde-83ded6a57f24",
+ "text_sha256": "ecd1a9a31440d91be1539e0f0d26bdddef3605f8db2c9b45f5f2171e93aafd00",
+ "windows_word_sum": 10444,
+ "windows_ai": 1,
+ "windows_human": 28,
+ "windows_source": "WINDOWS-41r2-b.txt, read from the page's props (2026-10-22 18:5x UTC); ai_likelihood to 4 decimals, calibrated_confidence to 3",
+ "embeds": {
+  "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself": [
+   "Quick Triage Web-App Version HERE"
+  ]
+ }
+}
