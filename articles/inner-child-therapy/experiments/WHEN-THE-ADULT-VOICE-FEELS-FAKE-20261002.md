@@ -1105,6 +1105,8 @@ Joel pasted GPT's reply to my review (`t85-answers/GPT-REPLY-TO-CLAUDE-REVIEW-20
 - **The names:** GPT's labels and mine differ only on "Adult Protector" (77.1), and GPT now leans to plain "Protector". His message adds the idea behind the names, and his opening's stages 4 and 5 already say where it leads. Question 79 proposes a set built on GPT's: the little one; the Inner Adult; the script you inherited (old expectations, reaction patterns, the parent you inherited); reparenting as updating it until it's second nature. It also asks the umbrella name, "reaction" or "coping", and where the idea goes.
 - InnerSignal's protocol is unchanged (0.2.1, the same hashes as my saved copy). Its "Reparenting is not an exercise" and its rule against inventing a sentence for a wordless appraisal are why 79 says "often felt, never heard as words" and "second nature" rather than "done".
 
+- **13:38 UTC:** he merged pull request #212 (turn 85).
+
 ### Next
 
 1. His answers to 76 to 79. Then the changes he picks, the book additions he picks and the AI-window rework, in one round through the gate.
