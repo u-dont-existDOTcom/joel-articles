@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "b222f6ccca9b606210dd93489ab623f78a062bac097010f3b0f5a4f8a05d99fc"
+          "sha256": "f497974b572e7949378998071caf6195add5526279e56ad867c996cb5b8f8141"
         }
       },
       "review": {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "8f2e0f7a140a17ac335cbd135edb496d63c661921308697efa1dea2f3273f4e1",
+          "sha256": "28ec2c1170b61053787cc6721b671b70aa60524eb1421b4f0fbec02e4065bc67",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "2c0b0e6fa58d756d30682e61e5708bed8487c818badc1c63f5796b33e78bd507",
+          "sha256": "003f26e9aab90ad51f1fb48cf4bc68c5f7f53bb7775ad51849a40e3f8d4d99b0",
           "role": "owner_questions_page"
         },
         {
@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "212f2eefa67ee0aca73181975e90e42b363e100c60d3f32a315b96017a825b91",
+          "sha256": "497a304ce6a054aeef5a0eb8529a409ddd5fd097ea69f16422aa70b9be9193f4",
           "role": "humanization_working_record"
         },
         {
@@ -23234,7 +23234,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t83-gpt-review/CLAUDE-REVIEW-20261022.md",
-          "sha256": "7c7076406d755d03c31f7639d2ee417498d442e2544eae8bca05375fa1678d52",
+          "sha256": "1919f9843ab35f6d94685de197658dca663b510543fd4f32435e836533b478f2",
           "role": "humanization_working_record"
         },
         {
@@ -23249,7 +23249,17 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t84-books/README.md",
-          "sha256": "0a4b4919a17442d399f65c77e28f629fd4c01ae5c70b06f3389e7f657ea9c115",
+          "sha256": "9345f7c4eee93b0481110cad6054d4fb7a9ee67641e8c043981c5f6dcca761c1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t84-books/CANDIDATES-couples.md",
+          "sha256": "4d2d12e45f3d800e161748c026e7915f8897cfb8e2c5a2b2571d8df9289b0a0d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t84-books/CANDIDATES-stca.md",
+          "sha256": "6f4570caa65068ff3144d4f90406cdd8d926cc5f5a2cd3cfcf959e5e9d6076e4",
           "role": "humanization_working_record"
         }
       ]

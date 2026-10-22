@@ -92,7 +92,7 @@
 
 **F1, the Schema Therapy appendix.**
 - The categorical claim is yours (2026-10-18) in my words. Young's preface contradicts it, so I'd correct it, and it's your call.
-- "Usually" in "isn't something a schema therapist would usually offer you" is a hedged inference from a model that doesn't build spirituality in. I'd keep it. The Young reader found no other spiritual material in the book: religion comes up only as the content of rigid rules, and meditation only as a calming technique (Y8).
+- "Usually" in "isn't something a schema therapist would usually offer you" is a hedged inference from a model that doesn't build spirituality in. I'd keep it. The Young reader found no other spiritual material in the book: religion comes up only as the content of rigid rules, and meditation only as a calming technique (Y8). Later schema therapy books do more: the couples book (Simeone-DiFrancesco, Roediger and Stevens, 2015) has scripture prayer as a reparenting practice for some Christian couples (p. 234), and gives the Healthy Adult "often a moral compass" (p. 249), which also supports 77.8.
 - P1 is my draft, so its fix is a correction of my prose, but it's in a paragraph that passed Pangram, so you choose (77.8). Wording, mine, to humanize: '…who looks after your "Vulnerable Child," sets limits when your angry or impulsive side takes over, and stands up to the punishing parent in your head. Sound familiar? That's a Nurturer, a Protector and a Guide by other names…'. Young's third function, "Battles or moderates" the coping and critic modes, is already there as "stands up to the punishing parent".
 - Keep the IFS opinion and the "a lot depends on who you're seeing" sentence.
 
