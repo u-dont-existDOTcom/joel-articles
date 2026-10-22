@@ -1,0 +1,722 @@
+{
+ "b470-guard-first-read": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 5 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S"
+  ],
+  "march": [
+   "S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 87,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guard-first-read"
+  ],
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)",
+  "lint_fixed": "round 4 (make_b470_r4.py): a linter rule the installed paragraph didn't trip, reworded",
+  "lint": "FAIL"
+ },
+ "b470-three-jobs-named": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 21 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S"
+  ],
+  "march": [
+   "S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 65,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "three-jobs-named",
+   "reparent-now"
+  ],
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)",
+  "lint": "REVIEW"
+ },
+ "b470-guide-label": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 24 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S B"
+  ],
+  "march": [
+   "S B"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 115,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-label"
+  ],
+  "answered": "the cold read asked why the label line repeats the heading above it (r1/SENSE-HG14.md, P35 and P40): the label lines are the published structure (\"The Nurturer:\", \"As the Protector\", \"The Leader/Guide/Guru:\" under their headings), which the batch renames and doesn't restructure; let stand",
+  "lint": "FAIL"
+ },
+ "b470-guide-work": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 24 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S B"
+  ],
+  "march": [
+   "S B"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 113,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-work"
+  ],
+  "lint": "FAIL"
+ },
+ "b470-protector-parts-label": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 28 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "B S S"
+  ],
+  "march": [
+   "B S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 68,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "protector-parts-label"
+  ],
+  "answered": "the cold read asked why the label line repeats the heading above it (r1/SENSE-HG14.md, P35 and P40): the label lines are the published structure (\"The Nurturer:\", \"As the Protector\", \"The Leader/Guide/Guru:\" under their headings), which the batch renames and doesn't restructure; let stand",
+  "lint": "REVIEW"
+ },
+ "b470-guard-defined": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 28 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "CLEAR",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 76,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guard-defined"
+  ],
+  "lint": "REVIEW"
+ },
+ "b470-parent-script": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 28 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S S S S"
+  ],
+  "march": [
+   "S S S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 124,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "parent-script",
+   "parent-script-fake"
+  ],
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)",
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)",
+  "lint": "REVIEW"
+ },
+ "b470-to-the-part": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 28 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S S"
+  ],
+  "march": [
+   "S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 162,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "to-the-part"
+  ],
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)",
+  "lint": "REVIEW"
+ },
+ "b470-talk-to-part": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 28 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 110,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "talk-to-part"
+  ],
+  "lint": "FAIL"
+ },
+ "b470-part-wants": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 28 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S"
+  ],
+  "march": [
+   "S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/SENSE-HG14.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 92,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "part-wants"
+  ],
+  "lint": "REVIEW"
+ },
+ "b470-script-humiliating": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 44 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "CLEAR",
+  "march_was": [
+   "S S S S S"
+  ],
+  "march": [
+   "S S S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 104,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "script-humiliating",
+   "no-resume-value"
+  ],
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)",
+  "lint": "CLEAR"
+ },
+ "b470-chemicals": {
+  "kind": "edit",
+  "was": "AI in the whole guide (4.1, windows 53, 54, 55 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S S S S"
+  ],
+  "march": [
+   "S S S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 82,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "chemicals"
+  ],
+  "lint": "REVIEW"
+ },
+ "b470-guide-care": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 123 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S B"
+  ],
+  "march": [
+   "S S S B"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 99,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-care"
+  ],
+  "lint": "FAIL"
+ },
+ "b470-script-fake": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 129 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 66,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "script-fake"
+  ],
+  "lint_note": "E36/E41 heavy second person appears only in the edit: an artifact of a two-word change (\"the voice of your inherited inner parent\" to \"your inherited parent script\") in a sentence addressed to the reader; the \"your\" and \"you\" are the installed sentence's, and the verdict stays REVIEW",
+  "lint": "REVIEW"
+ },
+ "b470-anxious-parts": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 129 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S S"
+  ],
+  "march": [
+   "S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 87,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "anxious-parts"
+  ],
+  "lint": "REVIEW"
+ },
+ "b470-guide-stuck": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 129 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S"
+  ],
+  "march": [
+   "S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 76,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-stuck"
+  ],
+  "lint": "REVIEW"
+ },
+ "b470-guide-proportion": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 129 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S B"
+  ],
+  "march": [
+   "S B"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 51,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-proportion"
+  ],
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)",
+  "lint": "REVIEW"
+ },
+ "b470-synchronicity": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 7 of part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S S S S S S S B"
+  ],
+  "march": [
+   "S S S S S S S S S S B"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 273,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "synchronicity",
+   "synchronicity-perspective"
+  ],
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)",
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)",
+  "lint_fixed": "round 4 (make_b470_r4.py): a linter rule the installed paragraph didn't trip, reworded",
+  "lint": "FAIL"
+ },
+ "b470-guide-cue": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 7 of part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S"
+  ],
+  "march": [
+   "S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 54,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-cue"
+  ],
+  "lint": "REVIEW"
+ },
+ "b470-guide-reframe": {
+  "kind": "edit",
+  "was": "Human, medium or low in the whole guide (4.1, windows 7, 8, 9, 10 of part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 56,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-reframe"
+  ],
+  "lint": "FAIL"
+ },
+ "b470-guide-nlp": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 13 of part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S"
+  ],
+  "march": [
+   "S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 66,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "guide-nlp"
+  ],
+  "answered": "review item 24 and stance conflict 3 (\"Put 3 good adults in with the person\" makes the three jobs three people): Joel's own published line was \"Bring in the three adults. Nurturer warms, Protector makes it safe, Leader points a direction.\", so it goes to him as question 12 c (with the invocation's \"inner adult(s)\" and Appendix K's \"three-adult arrangement\"); the batch's own change here, Guide for Leader, is DONE in the review",
+  "lint": "FAIL"
+ },
+ "b470-anxiety-part": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 17 of part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S"
+  ],
+  "march": [
+   "S S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 72,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "anxiety-part"
+  ],
+  "lint_fixed": "round 4 (make_b470_r4.py): a linter rule the installed paragraph didn't trip, reworded",
+  "lint": "REVIEW"
+ },
+ "b470-altered-part": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 26 of part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)",
+  "was_kind": "emulate",
+  "lint_was": "REVIEW",
+  "march_was": [
+   "S S S"
+  ],
+  "march": [
+   "S S S"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r2/VERIFY-r2.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r3/VERIFY-r3.md",
+   "articles/inner-signal/humanize/fix-20261022/b470/r4/VERIFY-r4.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b470/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 109,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b470/march.json",
+  "edits": [
+   "altered-part"
+  ],
+  "answered": "stance conflict 6 (one sentence for the published three claims): the sentence names the scary image, the lighting that came with the \"download\" and the bad feeling, and says none of them necessarily means what you think, so the published claims are there, said once; let stand (the installed Appendix G read 100% Human, 4.0, and Human, high, in 4.1)",
+  "lint": "REVIEW"
+ }
+}

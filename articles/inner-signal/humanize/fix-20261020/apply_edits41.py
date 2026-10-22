@@ -24,9 +24,21 @@ def load():
 
 
 def superseded(e, later, md):
-    """A later edit of the same sentence took e's new text as its old one and is in (2026-10-21: Joel's own edit of
-    "Because often your inherited parent ..." came after HG15-p11t, which had put "inherited parent" there)."""
-    return any(e['new'] and e['new'] in l['old'] and l['new'] in md for l in later)
+    """Later edits of the same sentence carried e's new text on, and the result is in. 2026-10-21: Joel's own edit of
+    "Because often your inherited parent ..." came after HG15-p11t, which had put "inherited parent" there, so a later
+    edit's old text held e's new text whole. 2026-10-22: batch 470g's rename ("your inherited inner parent tells" to "your
+    inherited parent script tells") changed a few words inside his edit's new text, so a later edit's old text can also be
+    a part of e's. So e's new text is carried through every later edit in order, taken over whole by one whose old text
+    holds it, or changed in place by one whose old text it holds, and what comes out must be in the working copy."""
+    if not e['new']:
+        return False
+    text, moved = e['new'], False
+    for l in later:
+        if l['old'] and text in l['old']:
+            text, moved = l['new'], True
+        elif l['old'] and l['old'] in text:
+            text, moved = text.replace(l['old'], l['new']), True
+    return moved and bool(text) and text in md
 
 
 def is_in(md, e):

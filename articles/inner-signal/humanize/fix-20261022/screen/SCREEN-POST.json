@@ -1,0 +1,25 @@
+{
+ "made": "2026-10-22T19:26:08Z",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221684747",
+ "title": "TEMP screen (hypnosis guide samples) - do not publish",
+ "secret_link": "https://ibogaqueen.substack.com/p/8f4644c8-8bda-4321-8437-8a09148353cc?postPreview=paid&updated=2026-10-22T19%3A26%3A08.747Z&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD-S.html",
+ "payload_sha256": "67561d936ae21f7a3143fbb957433b1239eb98a362bb284a69bf7899a247dcf0",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/e354a9309144f1bfdcde887bef7e51a9752a43f2/articles/inner-signal/humanize/fix-20261022/screen/PAYLOAD-S.html",
+ "paste": {
+  "helper": "paste_payload_lane.js",
+  "editor_words": 12184,
+  "words_sha256": "0710ab4eacc4d3a54f58079c645279eefc2e2e996e03fd502d28494c32ef6939",
+  "words_match": true,
+  "editor_blocks": {
+   "H2": 6,
+   "H3": 33,
+   "P": 263
+  }
+ },
+ "rendered_text_sha256": "d3938178a9f39213f1daa6f6d4154989342609df5bb9611b33f3ec982b4138ac",
+ "rendered_check": "the secret link opened in the app's browser at 19:2x UTC: the paragraphs of its div.body joined by newlines (headings skipped) hash to TEXT-S.txt's SHA-256, so the check reads TEXT-S.txt exactly (63,635 characters, under the 99,999 limit)",
+ "text_sha256": "d3938178a9f39213f1daa6f6d4154989342609df5bb9611b33f3ec982b4138ac",
+ "predictions": "pangram-ledger.jsonl HG17-emu-bc#22 to HG32-emu-bh#27 (make_preds_screen.py), written before the paste",
+ "also": "drafts A (221411215) and B (221412532) renamed \"TEMP recheck A (hypnosis guide) - do not publish\" and \"TEMP recheck B (hypnosis guide appendices) - do not publish\" (E205), each reloaded to confirm"
+}

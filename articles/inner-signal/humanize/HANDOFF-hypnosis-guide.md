@@ -18,6 +18,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-22: the Inner Child lane's note (`NOTE-FROM-INNER-CHILD-LANE-20261022.md`) is handled.** Part 1: the
+  drafts are renamed without "Pangram" ("TEMP recheck A (hypnosis guide) - do not publish", "TEMP recheck B (hypnosis
+  guide appendices) - do not publish"; the screening post is "TEMP screen (hypnosis guide samples) - do not publish"),
+  and pastes go through `fix-20261022/screen/paste_payload_lane.js` (exact titles, an empty body only: clear it with
+  ctrl+a and Delete in the editor first, then the words check); `fix-20261020/substack41r/paste_payload.js` is marked
+  superseded. The Pangram result opens in Brave's side panel, so Joel copies its link ("Copy shareable link to result").
+  Part 2: Joel answered for it (question 10, 18:37 UTC: "check the work in the innerchild article lane regarding the
+  naming conventions as they've been updated"), batch 470g; two of its points and one from the review are question 12.
 - **2026-10-20: Pangram 4.1 and Joel's budget rules.** This lane's results up to batch 466g are Pangram 4.0; from the
   whole-guide check of 2026-10-20 on they are 4.1, and the ledger keeps the two apart. His rules of 20
   October (merged into this branch from main) govern every call: `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` (six tries
@@ -40,8 +48,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   signposting explanations, generic "you"/"imagine" scenarios, stock words. A break is not a joke; cut a restating
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
-  4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull request 206 (the 4.1 work to 2026-10-21 01:30) was merged; the work since is pull request
-  209 (https://github.com/u-dont-existDOTcom/joel-articles/pull/209), open and Joel's to merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
+  4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull requests 206 and 209 (the 4.1 work to 2026-10-21 22:43 UTC)
+  were merged; the work since is pull request 219 (https://github.com/u-dont-existDOTcom/joel-articles/pull/219), open and
+  Joel's to merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
   Markdown; `HUMANIZED-SO-FAR.md` is the working copy (a copy of it until a section is installed). Ask him for his latest
@@ -93,8 +102,9 @@ every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: the recheck's two secret links to open in his Chrome, and a note to paste into the Inner Child
-chat (his to do); questions 9, 10 and 11 (2026-10-21). Questions 1 to 8 were answered at 2026-10-21 17:56 UTC.
+`OWNER-QUESTIONS.md`: the screening post's link to open in his Brave and its result link to send; the right result link
+for his Nibbāna article; question 12 (2026-10-22). Questions 1 to 8 were answered at 2026-10-21 17:56 UTC, 9 to 11 at
+2026-10-22 18:37 UTC.
 
 ## Where it stands
 
@@ -158,7 +168,47 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-21 21:41 UTC, after the listening script went in: the recheck waits on his Chrome)
+## Next step (2026-10-22, after Joel's answers of 18:37 UTC: the screening post waits on his Brave)
+
+Done since the step below: the recheck's results (Joel, 18:37 UTC:
+[part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7), AI Detected, 13.8% AI;
+[part B](https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4), Mostly Human Written, 4.9% AI) are read:
+ledger HG-whole#21 right, HG-rest-B#20 a miss with its cause; batch 469g's forecasts 15 of 15
+(`fix-20261021/b469/batch/SCORE.md`); each reading in `fix-20261020/EDITS41.json` and `fix-20261018/installed.json`.
+Red: the induction section (HG17) from its first paragraph to the shortcut, most windows marked "humanized"; three
+short windows of the return (HG18); Appendix C's prose, one 518-word window. His answers 9, 10 and 11 are batch 470g
+(`fix-20261022/b470/`: `make_b470.py` with its rounds, `make_b470_r2.py`, `make_gate_b470.py`, `make_preds_b470.py`),
+installed with `fix-20261020/apply_edits41.py --add`. Six new Emulate samples of the two red sections came back from the
+laptop (`fix-20261018/emu-bc` to `emu-bh`, each SHA-256 checked against the laptop's) and are in the screening post
+(`fix-20261022/screen/`: `make_screen.py`, `SCREEN-POST.json`; ledger HG17-emu-bc#22 to HG32-emu-bh#27).
+
+1. **When Joel sends the screening post's result link**: read only the windows from the page (its compact line), then
+   `python3 tools/humanization/substack_check_text.py result fix-20261022/screen/PAYLOAD-S.html WINDOWS.txt META.json
+   --out RESULT-S.json` (the rendered post's paragraphs hash to `TEXT-S.txt`'s SHA-256, d3938178..., so the rebuilt text
+   is the checked text), cut the windows by sample with `screen/SPANS.json` (a window across a boundary belongs to both),
+   and give each sample its result in the ledger (`result --key screen-S1` to `screen-S6`).
+2. **Pick per section**: the HG17 sample (S1 to S4) that reads Human, or the one with the fewest red windows, and the
+   Appendix C one (S5, S6) the same way. If none of a section's samples reads Human, say so to Joel with the windows and
+   switch method rather than sampling again the same way (for HG17, new runs over each red stretch from the published
+   text in windows of 50 to 80 words; for Appendix C, the question of the list back to him).
+3. **Meaning work on the chosen sample** as in `fix-20261018/rf-zg/`: a second reader of every point of the published
+   section against it; lost points back in the sample's own words (the gate doc's lesson); inventions out (the samples
+   have some: S2 credits the two-hand induction to "the Gerson hypnosis course", S5 has "slow the fuck down"); Joel's
+   11 b wording for the safety line; the section's three links; then the cold read, stance check, march, rounds, the
+   gate and the install. Keep the changes few: ba's restorations were in plain words and still read AI.
+4. **Then one whole-guide recheck** with everything (the two sections and batch 470g): `make_recheck.py` with a new date,
+   pasted into drafts A and B with `paste_payload_lane.js` (their titles above; clearing the body with ctrl+a and Delete
+   can write to Joel's clipboard: tell him), each part's ledger prediction first, and 470g's per-paragraph forecasts
+   (`b470/batch/FORECAST.json`) scored after.
+5. **Waiting on Joel**: the screening post's result link; question 12; for the Nibbāna article, its current editor
+   HTML.
+6. **Queued after this guide: his Nibbāna article** (18:37 UTC: "my nibbana article is now not fully passing pangram 4.1,
+   you can add that to the queue to work on"; his result link at 19:53 UTC). Its reading and the 22 AI windows are in
+   `articles/nibbana/humanize/QUEUE-20261022.md`: Mostly Human Written, 4.5% AI. The registered master (2026-09-28) is
+   older than the post, so ask him for the current editor HTML before any fix.
+7. **Question 6 b**, after the 4.1 work: the repeats one at a time, as below.
+
+## Earlier next step (2026-10-21 21:41 UTC, after the listening script went in: the recheck waits on his Chrome)
 
 Done since the step below: the induction section (HG17), the one section that was still as published, is installed as
 Emulate's sample ba with every lost point put back (`fix-20261018/rf-zg/`: `make_hg17_fixed.py` with its three rounds,

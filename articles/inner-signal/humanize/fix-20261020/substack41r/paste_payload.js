@@ -1,3 +1,6 @@
+// SUPERSEDED 2026-10-22 by fix-20261022/screen/paste_payload_lane.js (the Inner Child lane's note, part 1: this helper's
+// "TEMP Pangram" title check put the word back in the draft titles, E205, and its replace path can paste above the old text
+// instead of replacing it). Kept as the record of how the recheck of 2026-10-21 was pasted; don't use it again.
 // Paste one recheck payload (PAYLOAD-A.html or PAYLOAD-B.html, make_recheck.py) into a new Substack draft's body, as the
 // copy page's Copy button and a paste would (2026-10-21; Joel, 23:54 UTC: "you can automate this method yourself ... go to:
 // https://ibogaqueen.substack.com/publish/post then paste in the substack html"). Run in the draft's editor tab after

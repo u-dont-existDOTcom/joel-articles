@@ -1,0 +1,91 @@
+You check whether a rewrite of one section of a long self-hypnosis guide by Joel keeps every point of his published text. The section is the guide's induction: what an induction does, how to prepare, a spoken listening script ("Sober induction"), what to do when the state is already open, staying awake, a two-hand induction, sleep, fractionation, deepening, a trance depth check, and a shortcut back into hypnosis. The rewrite was made by a paraphrasing tool that writes in a plainer, more personal voice; its looser wording is fine. Your job is meaning only.
+
+Go through THE PUBLISHED SECTION paragraph by paragraph. For every point it makes (a claim, a step of a script, a caution, a safety statement, a condition, a choice the reader is given, a hedge such as "may", a link or source it points to), say whether THE REWRITE keeps it: KEPT, CHANGED (how a reader would now understand or do it differently) or LOST. Be especially careful with the listening script's steps (each instruction, pause and permission), the safety statements (what not to do, when to stop, how to come out, what a response does not prove), and the shortcut's limits. Then list everything THE REWRITE says that the published section doesn't: ADDED, marking each one that a reader would act on or believe (an invented fact about Joel or his family, a claim about therapists, a new instruction) as ADDED-CLAIM.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261022/hg17-bf/VERIFY-part3.md`: first a line `COUNTS: kept N, changed N, lost N, added-claims N`, then one "## P<n>" part per published paragraph (P56 is the first block below; count every blank-line-separated block of the published section, headings included) with its points, then "## ADDED". Keep each line short. Then reply with only the COUNTS line. Don't read any other file, don't run commands, and don't use the web.
+
+This prompt is part 3 of 3: the section is checked in three parts, split at the same headings in both texts, so that each report stays short. THE PUBLISHED SECTION and THE REWRITE below are that part only, and the blocks are numbered from P56. Keep each line short and the whole report under 1,200 words.
+
+THE PUBLISHED SECTION:
+
+## Optional fractionation: practice coming back
+
+Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. Name the technique before using it; every answer cannot secretly mean “deeper.”
+
+“Open the eyes and return toward ordinary awareness. Feel the room and decide whether to stop here. If you choose to continue, close or soften the eyes and notice what changes as attention gathers again. You may stop at either point.”
+
+## Deepening, if useful
+
+“If it is useful, attention may become more gathered. If it is not useful, I remain exactly as awake as I need to be.”
+
+Choose one simple scene: a room in the heart, a garden, a temple, a fire with the Protector nearby, a clear lake, or a chair where the adult waits. One scene is plenty.
+
+“Who or what needs to speak first?”
+
+## Optional trance depth check
+
+“As I wait, I give up the responsibility of making anything happen.
+
+If it is useful, the wise subconscious may let one finger twitch, pulse, lift, warm, tingle, or become subtly noticeable when the inner meeting space is ready.
+
+I will not force it. I will not fake it. I will simply wait with love and notice.”
+
+A finger may move, a hand may warm, the breath may change, or nothing may happen. None proves truth; at most, something may be listening.
+
+## A shortcut back into hypnosis
+
+Learn a useful induction and the full return below before developing a shortcut. My dad brought two fingers together in a mudra like the OK sign to help himself relax, including while driving. That’s his experience, not a recommendation to enter trance at the wheel. Keep alert calming and inward hypnosis on different cues.
+
+Choose a distinctive word, phrase, or optional gesture. During a familiar, welcome hypnotic state, pair it with that receptive way of listening—not peak emotional intensity, a child-state, or a traumatic scene. Give it the meaning you choose:
+
+When I’ve set aside time, settled somewhere appropriate, and deliberately use my cue to begin, I can return to this familiar way of listening. I can change direction or finish.
+
+Return fully. On a later suitable occasion, deliberately begin practice and try the cue. Give it time; gradually shorten the longer induction when the shortcut helps, and use the familiar route when it doesn’t. No fixed repetition count, instant depth, or particular sensation is required.
+
+Check usefulness and selectivity: does it help when chosen, remain absent when unchosen, and leave changing direction and returning workable? It mustn’t become obedience to a narrator, notification, or overheard word. Faster entry doesn’t determine what material you can handle.
+
+Never train, test, or use hypnotic re-entry while driving or doing anything requiring active attention. Open eyes and conditional wording are not safeguards.
+
+To retire the cue, stop rehearsing it, remove it from recordings or active app instructions, and return to the familiar induction. State your decision while awake; a cancellation sentence does not prove the association vanished instantly. Persistent unwanted responses or disorientation need qualified help. Any retained cue is for a future, separately chosen session; today’s altered state ends with the return.
+
+THE REWRITE:
+
+Fractionation (at some point in time you can add this, but you must tell them you are doing it before doing it):
+
+“Ok, open your eyes and come back up, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”
+
+Deepening (if it is going to be of use to you):
+
+Allow your attention to gather, if it will be of use to you. If it won’t be of use to you at this time, you can remain as awake as you need to be.
+
+You are going to go to a certain place in your mind, pick a place to go to when you go inside. It might be a room in your heart, a garden, a temple, sitting in front of a fire with your Protector, down by a clear lake where you can see the bottom, in a comfortable chair where your adult is going to be, whatever you want. Just pick a place.
+
+Who do you need to talk to first?
+
+Trance Depth (if you want to check how deep they are, but you have to tell them you are going to do it before doing it):
+
+“As you wait and release the responsibility of making it happen
+
+It might be useful for your wise subconscious to twitch a finger in one of your hands, or make a finger pulse, or come up by itself, or to heat up a finger and make it noticeable to you, or tingle in a noticeable way to let you know that your inner meeting space is ready for you to go in to.
+
+You don’t have to make it happen, or pretend that it is happening, just wait with love and notice what happens.
+
+Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean it is “True”, it just might mean that someone is listening.
+
+Shortcut to get into hypnosis:
+
+Once you have learned the above induction and how to come back down at the end, you can do the following….
+
+Ex: My dad used to use a mudra (like putting two fingers together like an "Ok" sign) when he needed to relax. He even did it when he was driving. Not that I recommend driving in a trance, don't do that! Make sure that your relaxation/ stay alert cue is not the same as your go inward to hypnosis one.
+
+Have a word, phrase, and/ or motion (optional) that you will use to go into hypnosis again. Say the word and/ or do the phrase while doing the motion (if applicable). Be sure to do this when you are in a good place. Don't do this when you are in a very emotional state, child state, or talking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+
+When you pick the time and place (a good idea to pick an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. Be sure to change the direction you are going in, or stop this at some point.
+
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Later, you can always shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
+
+Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions when you are in it. Don't use it in a way that you are going to follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
+
+Never do this when you are driving or doing something where you need to be actively paying attention. It is not safe to go into a trance where you are actively paying attention to what is inside of you when you should be paying attention to what is outside of you, even with your eyes open, even if you are using "if it would be useful for you to do so" type language.
+
+To turn this off, stop rehearsing it, take it out of any recordings that you have, stop having it in any apps that are active, and go back to using your regular induction that you have been using. You can say that you won't use it anymore when you are awake, but realize that just saying that it is gone won't make it go away. If you are finding that you are responding to it when you don't want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you. If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. For now, this will be over when you come out of it.
