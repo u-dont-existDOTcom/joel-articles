@@ -1332,3 +1332,23 @@ His message, saved first (`t95-answers/JOEL-20261022-2135.md`). He had merged pu
 ### Next
 
 1. Draft A's link now, and draft B's after the limit resets. Then score each paragraph (#76 to #89), build the scorecard, and link it with the questions page.
+
+## Turn 96 (2026-10-22, from 22:08 UTC): round 4; the API key
+
+His message, saved first (`t96-answers/JOEL-20261022-2208.md`, the key's path only). It has the fourth check's two links and "you can see my current pangram api key here btw /home/joel/Documents/api keys/pangram.txt it says i have $200 credit." He merged pull request #220 at 21:56 UTC.
+
+- **Round 4** (`t96-results/ROUND4-RESULTS.json`, read in his Brave because the app's browser had a popup open):
+  - Half A: 2.2% AI, 14 of 192 windows (round 3: 5.4%, 30).
+  - Half B: 3.0%, 17 of 170 (round 3: 2.0%, 9).
+  - #88 and #89 right; the paragraph predictions 6 of 12.
+  - Human now: his Two Common Guarding Patterns (all four paragraphs), his 84.4 and 84.6, my second tries on Start With P9 and P10, and round 3's three moved windows.
+  - Still AI: Before You Try P3 and P4 (mine, two cuts), Your Body P4 (mine; the gym line read High) and P5 (his questions, High), The Parent You Inherited P4 (the reason I put back read High), and his How Much Happiness P4 and Related Clinical Work.
+  - New Low windows in seven paragraphs nobody changed. Half B went from 9 windows to 17 with only his three small changes, so a Low window seen once may be the check's own variation.
+  - Each miss is explained in the ledger, and the scorecard is rebuilt: paragraph calls 22 of 41 right, about the same as always calling Human.
+- **The key:** the API probe (a GET that creates no task) says it's accepted. Pangram's developer plan is $0.05 per 100 words (https://www.pangram.com/knowledge-hub/what-is-pangrams-developers-plan). `pangram_api.py` asks for model "pangram-4" and expects version 4.0, while his Substack check is 4.1, so the first paid use would be one short paragraph to see which version answers. Nothing is spent; question 86 asks how he wants it used.
+- **Mine, cut again** (`t96-tells/`, d01 and d02): the gym line out of Your Body P4, and the reason I put back out of The Parent You Inherited P4. Lint CLEAR; owner edits 182 of 182.
+- **Question 87:** my paragraphs still AI after two tries (Before You Try P3 and P4, Borrowed Adulthood P1) and his four, for his words.
+
+### Next
+
+1. His answers to 86 and 87. Then the next check of d01, d02 and whatever his answers change, by the route 86 picks. Predictions first, the chance of a Human result. A paragraph check through the API starts with one short version test.
