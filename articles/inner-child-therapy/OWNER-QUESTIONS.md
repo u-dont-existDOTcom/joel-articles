@@ -59,11 +59,11 @@ GPT's proposals (from its four-book audit) and my review of them: `experiments/t
   - **A (my pick):** add "a therapist or helper stepping back" to the list of endings in When One Life Has Ended P1 (my draft), so that section's advice covers it.
   - **B:** GPT's version, a short paragraph in Finding a Therapist.
   - **C:** leave it.
-- **77.7 Spirituality in the Schema Therapy appendix.** P2 says "Schema therapy leaves it out". That's from your request of 2026-10-18, in my words. Young's own preface (p. viii) calls combining schema therapy with spirituality "another important development" and lists three books that do it. The rest of his book has no spiritual material.
+- **77.7 Spirituality in the Schema Therapy appendix.** P2 says "Schema therapy leaves it out". That's from your request of 2026-10-18, in my words. Young's own preface (p. viii) calls combining schema therapy with spirituality "another important development" and lists three books that do it. The rest of his book has no spiritual material. A later schema therapy book goes further: the couples book (2015) says some Christian couples use prayer with a verse of scripture as "an ongoing highly experiential re-parenting intervention" (p. 234).
   - **A (my pick):** "Schema therapy doesn't build spirituality in, though the preface to its main textbook calls blending it with meditation or religious practice an important development." Your IFS opinion and the rest of the paragraph stay.
   - **B:** keep it.
   - **C:** your words.
-- **77.8 The Guide in the same appendix.** P1 (my draft, turn 72) says schema therapy's "Healthy Adult" is "a Nurturer and a Protector by other names". But Young gives it three functions (p. 278), and one is setting limits, which is the Guide's job in your guide.
+- **77.8 The Guide in the same appendix.** P1 (my draft, turn 72) says schema therapy's "Healthy Adult" is "a Nurturer and a Protector by other names". But Young gives it three functions (p. 278), and one is setting limits, which is the Guide's job in your guide. The couples book adds "often a moral compass" (p. 249).
   - **A (my pick):** "…who looks after your "Vulnerable Child," sets limits when your angry or impulsive side takes over, and stands up to the punishing parent in your head. Sound familiar? That's a Nurturer, a Protector and a Guide by other names…"
   - **B:** leave it.
 
@@ -85,7 +85,7 @@ Both results are read and recorded, so "Inner Child, draft A (temp, delete after
 
 - **Results** (your two links, 11:56 UTC): both halves read Mostly Human Written. The first is 4.3% AI, with 26 of 231 segments AI (https://www.pangram.com/feed/8a00b6b8-ef47-4f75-b473-10e56ff8f5b3). The second is 2.7% AI, with 10 of 140 segments AI (https://www.pangram.com/feed/d8a345d5-7038-4344-a461-e33fae115884). My predictions said all Human, so both are misses. Every AI segment is listed by section and paragraph in `experiments/t82-results/AI-WINDOWS.md`. I'll rework them together with your 76 and 77 answers, so nothing is reworked twice.
 - **Why I couldn't see the analysis:** clicking the label in your Brave changes nothing in the page, opens no side panel and opens no tab that Claude in Chrome can see. The analysis most likely opens in a tab or window outside the tab group Claude in Chrome works in. Next time, I'll tell you when I'm about to click, so you can watch where it opens.
-- **The books** (12:06 and 12:15 UTC): van Genderen, Heath/Startup, Capacchione and Young match the files GPT used. Your Young file is labelled 2007, but it's the same 2003 book (the copyright page says 2003). The review checks GPT's citations against them. I'm reading the two new ones, the children's book and the couples book, for possible additions, the couples one for the romance guide too.
+- **The books** (12:06 and 12:15 UTC): van Genderen, Heath/Startup, Capacchione and Young match the files GPT used. Your Young file is labelled 2007, but it's the same 2003 book (the copyright page says 2003). The review checks GPT's citations against them. I'm reading the two new ones, the children's book and the couples book, for possible additions, the couples one for the romance guide too. The couples one is done: 12 candidates, 10 of them for the romance guide (`experiments/t84-books/CANDIDATES-couples.md`).
 
 ### 🟢 75 and the mixed-up-figures check, 2026-10-21 22:42 UTC
 

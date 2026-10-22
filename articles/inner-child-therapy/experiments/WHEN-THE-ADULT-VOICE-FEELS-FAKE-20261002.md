@@ -1082,6 +1082,9 @@ Joel, 11:56 UTC: the two result links; "you should figure out why you can't see 
   - The packet's book hashes match his files. His Young file is labelled 2007, but it's the 2003 book.
 - **The two new books:** one Sonnet reader each, for candidate additions (`t84-books/`).
 
+- **12:53 UTC:** he merged pull request #210 (turns 82 to 84).
+- **12:57 UTC, the couples book:** the reader found 12 candidates, 10 for the romance guide and 2 for this one (`t84-books/CANDIDATES-couples.md`, quotes cut short for the public repository). I re-found its safety and spirituality quotes. Its care list matters most: the book treats violence as a loop both partners keep up ("maintained by submissive behavior", p. 197), so any loop or break exercise taken from it needs a not-if-one-of-you-is-afraid screen. It also adds evidence for 77.7 and 77.8 (scripture prayer as reparenting, p. 234; the Healthy Adult's "moral compass", p. 249), now on the questions page.
+
 ### Next
 
 1. His answers to 76 and 77. Then the changes he picks, and the AI-window rework, in one round through the gate. Then one free Substack check per changed section, with him watching the label click.
