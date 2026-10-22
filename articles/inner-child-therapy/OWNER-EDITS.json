@@ -1073,13 +1073,13 @@
   {
    "id": "two-protective-patterns-h3",
    "status": "applied",
-   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle. Turn 31: \"The skeptic and the pull both\" for \"Both kinds\" (Joel), and \"the opposite of checking out\". Turn 90: P1 and P2 reworked for 4.1 (experiments/t89-drafts/ a5, a6), his words and the claim kept; the exact strings are the current ones. Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones.",
+   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle. Turn 31: \"The skeptic and the pull both\" for \"Both kinds\" (Joel), and \"the opposite of checking out\". Turn 90: P1 and P2 reworked for 4.1 (experiments/t89-drafts/ a5, a6), his words and the claim kept; the exact strings are the current ones. Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones. Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-03 21:18 UTC: \"continue\"; 2026-10-06 19:04 UTC (yawning): \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "### Two Common Guarding Patterns",
-    "One is a skeptic, on duty all the time: \"You're just making this up.\" It may have spent years keeping you from being humiliated or left again, and it has probably watched you get excited about other healing things before, then drop them a month later.",
-    "The other one shows up right as you get close to something painful. Suddenly you'd rather check your phone, or do anything but feel it (even a yawn can come with an \"I'm so done with this\" feeling). Maybe it doesn't believe there's a grown-up around who could handle what's coming. That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out. The skeptic and the pull both started out guarding you against something that really hurt. If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and stay in charge."
+    "One of these patterns is a skeptic, on duty all the time: \"You're just making this up.\" It may have spent years keeping you from being humiliated or abandoned again, and it has probably watched you get excited about other healing things before that got unexplainedly dropped a month later. We do need some skepticism, so thank it for keeping you on track.",
+    "The other one shows up when you get close to some painful memory or insight. Suddenly you'd rather check your phone, or do anything aside from directly feeling it (even a yawn can come with an \"I'm so done with this\" feeling). Maybe this guard doesn't believe there's a grown-up around who could handle what's coming? That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a global movement of peer counseling, counts yawning as productive emotional discharge, a feeling on its way out. The skeptic and the pull both started out guarding you against something that really hurt. If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and it stays on the payroll since guards require attackers."
    ],
    "updated": "2026-10-22 turn 87: P2's \"The skeptic and the pull both...\" sentence is said plainer after the turn-79 check's Medium window; his \"The skeptic and the pull both\" stays"
   },
@@ -1155,11 +1155,11 @@
   {
    "id": "tp-p2-see-i-knew-it",
    "status": "claim",
-   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\". Turn 93: the sentence's \"or like proof that something's wrong with you\" pair is out (4.1); the part's own thought stays.",
+   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\". Turn 93: the sentence's \"or like proof that something's wrong with you\" pair is out (4.1); the part's own thought stays. Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-04 05:48 UTC: \"why did you stop there\"; 05:50 UTC: \"no worries on pangram checks\" (the h1's last AI window, fixed here)",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and stay in charge."
+    "If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and it stays on the payroll since guards require attackers."
    ],
    "must_not_contain": [
     "usually gives it one more reason to stay in charge"
@@ -1234,12 +1234,12 @@
   {
    "id": "tcp-yawn-rc",
    "status": "applied",
-   "what": "Two Common Protective Patterns P2: the pull can come as the \"I'm so done with this\" feeling a yawn brings, and the yawn itself may be the opposite (Re-evaluation Counseling counts yawning as emotional discharge).",
+   "what": "Two Common Protective Patterns P2: the pull can come as the \"I'm so done with this\" feeling a yawn brings, and the yawn itself may be the opposite (Re-evaluation Counseling counts yawning as emotional discharge). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-06 19:04 UTC: \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge. so that's an interesting angle for that. sort of the opposite of how most people would think of it in this case.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
     "(even a yawn can come with an \"I'm so done with this\" feeling)",
-    "Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out."
+    "Re-evaluation Counseling, a global movement of peer counseling, counts yawning as productive emotional discharge, a feeling on its way out."
    ],
    "must_not_contain": [
     "(you might start yawning, even though you slept well)"
@@ -2298,12 +2298,12 @@
   {
    "id": "untangling-joel-20261015b",
    "status": "applied",
-   "what": "Untangling the Belonging Bargains: Joel's P2 (\"as a human being\" added; \"arsonists\" as he now writes it) and his new, shorter P3, word for word, to fix P3 repeating P2 and its gifts line not following P2. Carried forward: \"But if going along means betraying yourself, that's the bargain.\" and \"Differentiation is slow, and it goes on your whole life.\"",
+   "what": "Untangling the Belonging Bargains: Joel's P2 (\"as a human being\" added; \"arsonists\" as he now writes it) and his new, shorter P3, word for word, to fix P3 repeating P2 and its gifts line not following P2. Carried forward: \"But if going along means betraying yourself, that's the bargain.\" and \"Differentiation is slow, and it goes on your whole life.\" Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-15 12:15 UTC: \"P3 tho really does seem to repeat P2 in the untangling bargains section. and the first line of P3 is referencing gifts which are way before so it doesn't flow from P2 to P3. ok this passes and i think fixes those probs\" (experiments/t56-answers/JOEL-20261015-1215.md).",
    "where": "Untangling the Belonging Bargains",
    "must_contain_exact": [
     "Then there's another bargain, where you have to earn your worth: when you don't feel your value inside as a human being, you can become a \"human doer,\" working for it in some arena outside yourself. That might be beauty, athleticism, sexual desirability, intelligence or grades. For some people it's money or status, and for others it's a sophisticated spiritual identity or becoming indispensable to everybody else's problems. It can feel really good to be the one everybody calls. In the more shadowy presentation, when you really need to feel needed, you might be like the firefighters who become arsonists to keep themselves employed.",
-    "Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead.",
+    "Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more when feasible.",
     "But if going along means betraying yourself, that's the bargain.",
     "Differentiation is slow, and it goes on your whole life."
    ],
@@ -2360,11 +2360,11 @@
   {
    "id": "lm4-p4-joel-20261017",
    "status": "applied",
-   "what": "How Much Happiness Do You Know Is Possible? P4 is Joel's, word for word (question 34, A). The h2 went in with new P1 to P3 of mine, since with the turn-65 ones it read AI over them (rounds t67a to t67e).",
+   "what": "How Much Happiness Do You Know Is Possible? P4 is Joel's, word for word (question 34, A). The h2 went in with new P1 to P3 of mine, since with the turn-65 ones it read AI over them (rounds t67a to t67e). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-17 14:01 UTC: \"this one is human\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "How Much Happiness Do You Know Is Possible?",
    "must_contain_exact": [
-    "Sometimes care isn't the main thing missing. A meal can help, and so can a boundary or a kind sentence, but is that actually targeting the deeper existential question underneath? Life shouldn't be just something you endure, like a hamster wheel or a rat race. What would you need to bring zest to a life of discovery?"
+    "Sometimes care isn't the main thing missing. A meal can help, and so can a boundary, but is that actually targeting the deeper existential question underneath? Life shouldn't be just something you endure, like a hamster wheel or a rat race. What would you need to bring zest to a life of discovery?"
    ]
   },
   {
@@ -2380,14 +2380,14 @@
   {
    "id": "photos-h2-joel-20261017",
    "status": "applied",
-   "what": "Use Childhood Photographs Gently is Joel's section, word for word under his heading (question 36, A), in the Simple Practices order. One obvious typo fixed under his rule (2026-10-06): \"glean\" for \"gleam\". His link on \"Look at this study, for example\" is the false-photo study (Wade, Garry, Read and Lindsay, 2002).",
+   "what": "Use Childhood Photographs Gently is Joel's section, word for word under his heading (question 36, A), in the Simple Practices order. One obvious typo fixed under his rule (2026-10-06): \"glean\" for \"gleam\". His link on \"Look at this study, for example\" is the false-photo study (Wade, Garry, Read and Lindsay, 2002). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-17 14:01 UTC: \"here learn some lessons this passes\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "Use Childhood Photographs Gently",
    "must_contain": [
     "Use Childhood Photographs Gently"
    ],
    "must_contain_exact": [
-    "Maybe you've tried picturing your little one and thought, \"This feels fake. I'm just making it up.\" A real photo of you as a child can help with that, since there's no face or posture to invent. Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up.",
+    "If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent. Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up.",
     "While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then (\"You hated that coat\"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up, which is also completely OK. Ask what your little one needs from you now, and do a bit of it.",
     "We don't need to ask it leading questions, like \"Who abused me & how?\" or \"What memory is my body hiding?\" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions, so we gotta be careful about that. Look at this study, for example, where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.",
     "A photo is just one moment that somebody picked and framed... not necessarily representative. Flipping thru an album may give different jolts in your body.",
@@ -2591,7 +2591,7 @@
   {
    "id": "appendix-first-person-pending-20261018",
    "status": "applied",
-   "what": "The Appendix's first-person lines from his published guide are his story; their wording counts as his only once he has seen them whole, in their section, and said so (E189). In with Teachers and Practice Resources: \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\" In with How This Relates to IFS (turn 71, round t71ddd), as published: \"My reparenting method diverges from IFS at an important point.\", \"I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.\", \"I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything.\", \"IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.\", and Related Clinical Work's \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (questions 45 and 47).",
+   "what": "The Appendix's first-person lines from his published guide are his story; their wording counts as his only once he has seen them whole, in their section, and said so (E189). In with Teachers and Practice Resources: \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\" In with How This Relates to IFS (turn 71, round t71ddd), as published: \"My reparenting method diverges from IFS at an important point.\", \"I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.\", \"I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything.\", \"IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.\", and Related Clinical Work's \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (questions 45 and 47). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-18 19:06 UTC (turn 72): 45: \"all that is ai paraphrasing me, but i'd qualify the \"no use\" part\" (with his notes on the Higher Self), and D (leave out \"A trustworthy adult function is built through care, boundaries, action, and direction.\"); 47: \"a. e.\"; 49, 6: \"dedup yeah, so just remove \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\"\"",
    "where": "Appendix",
    "must_contain": [
@@ -2599,7 +2599,7 @@
     "I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.",
     "IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.",
     "This framework developed through the teachers and collaborators credited below and my own practice.",
-    "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.",
+    "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus.",
     "I've had the Higher Self perspective myself, though."
    ],
    "must_not_contain": [
@@ -2661,10 +2661,10 @@
   {
    "id": "bg-joel-20261019",
    "status": "applied",
-   "what": "His Before You Try to Go Deep as he pasted it (62, C: \"it's human now, i fixed it, pasted\"): his checking paragraph, 55, 2 in fewer words, and P5 with the guide's list of what to change (54, 11). Before You Try to Go Deep Human Written 0.093, high, https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9 (round t74a).",
+   "what": "His Before You Try to Go Deep as he pasted it (62, C: \"it's human now, i fixed it, pasted\"): his checking paragraph, 55, 2 in fewer words, and P5 with the guide's list of what to change (54, 11). Before You Try to Go Deep Human Written 0.093, high, https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9 (round t74a). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
    "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"62c it's human now, i fixed it, pasted.\"",
    "must_contain_exact": [
-    "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much? A lot of the time you just know.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier (shorter, or shallower, at a better time of day, with your eyes open, a teddy bear standing in for your little one, or a friend in the next room), one change at a time, so you learn what made the difference.",
+    "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much?) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier (shorter, or shallower, at a better time of day, with your eyes open, a teddy bear standing in for your little one, or a friend in the next room), one change at a time, so you learn what made the difference.",
     "Going back can still matter, even when nothing new turns up. But returning to the same wound can also become a search for certainty in an inherently uncertain existence. Spending all day asking, \"Did I process it properly? Did I grieve it enough?\" is clearly not what we're after here.",
     "And the checking doesn't always stay in your head. A body scan can turn into one, or a confession. Even, going on a date, or checking your dating profile matches, can be a version of this if what you're really after is proof that you're good and lovable. It might calm things down for a while, and then the next little wobble matters even more."
    ]
@@ -2922,7 +2922,7 @@
   {
    "id": "joel-87-20261022",
    "status": "applied",
-   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix. Also the new text decided in this turn (77.3, 77.6, 77.8, 78.1, 79.3), my drafts, installed not yet checked: Reparenting in a nutshell; Two Common Guarding Patterns P3 and P4; ST-CA sentences in You Don't Need an Inner Monologue P1 and P2, Love Doesn't Have to Wait for Trust P14, The Parent You Inherited P4, Hear the Guard First P4, Untangling the Belonging Bargains P1 and The Inner Guide P1, P2 and P4; When One Life Has Ended P1; the Schema Therapy appendix P1. Turn 88 (16:12 UTC): his own nutshell replaced my draft and its heading (entry joel-88-20261022); stage 1 has 80.1's words and P2 has \"wrong with\" (80.2), so the exact strings here are the current ones. Turn 90: 77.3's two paragraphs reworked for 4.1 (a7, a8), so their checked strings are the new ones. Turn 92: the Schema Therapy appendix P2 names Emotional Alchemy (checked against the book), so \"isn't part of the standard method\" is now \"isn't in her book or in the standard method\". Turn 93: he isn't theistic (19:03 UTC), so the difference is gratitude, not a loan of love from God.",
+   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix. Also the new text decided in this turn (77.3, 77.6, 77.8, 78.1, 79.3), my drafts, installed not yet checked: Reparenting in a nutshell; Two Common Guarding Patterns P3 and P4; ST-CA sentences in You Don't Need an Inner Monologue P1 and P2, Love Doesn't Have to Wait for Trust P14, The Parent You Inherited P4, Hear the Guard First P4, Untangling the Belonging Bargains P1 and The Inner Guide P1, P2 and P4; When One Life Has Ended P1; the Schema Therapy appendix P1. Turn 88 (16:12 UTC): his own nutshell replaced my draft and its heading (entry joel-88-20261022); stage 1 has 80.1's words and P2 has \"wrong with\" (80.2), so the exact strings here are the current ones. Turn 90: 77.3's two paragraphs reworked for 4.1 (a7, a8), so their checked strings are the new ones. Turn 92: the Schema Therapy appendix P2 names Emotional Alchemy (checked against the book), so \"isn't part of the standard method\" is now \"isn't in her book or in the standard method\". Turn 93: he isn't theistic (19:03 UTC), so the difference is gratitude, not a loan of love from God. Turn 95: Two Common Guarding Patterns P3 and P4 are his own words now (entry joel-95-20261022), so the 77.3 strings are his.",
    "joel": "2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)",
    "where": "The five stages (1 and 5); The Chicken-and-Egg Problem P2; Borrow One Competency at a Time; Two Common Guarding Patterns; Hear the Guard First P3; Altered States Can Deepen the Therapy; Altered States Can Require Reparenting P6; The Inner Guide P3; Speak Toward What You Are Building P2; How This Relates to Schema Therapy P2",
    "must_contain_exact": [
@@ -2938,8 +2938,8 @@
     "Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development",
     "Her book barely mentions gratitude, and for me that's the door to the bigger love",
     "Adult Protector (hereafter just the Protector)",
-    "That pull is one way of dealing with it.",
-    "The expectation can even make itself come true.",
+    "That pull of distraction is one way of dealing with it.",
+    "Then nobody offers to help, and that can look like proof nobody cares.",
     "which I'll call ST-CA",
     "A therapist or helper stepping back can do it too",
     "That's a Nurturer, a Protector and a Guide by other names",
@@ -3011,6 +3011,28 @@
     "Some families run on a bargain like",
     "That's exactly why I was crying for 14 years.",
     "I'd still try a small good thing"
+   ]
+  },
+  {
+   "id": "joel-95-20261022",
+   "status": "applied",
+   "what": "Joel's answers of 2026-10-22 21:35 UTC. 84.3 A: \"A lot of the time you just know.\" out of Your Body P5. 84.4 A: Use Childhood Photographs Gently P1's opener. 84.6: his new last sentence for Untangling P3, word for word. 84.7 A: \"or a kind sentence\" out of How Much Happiness P4. 84.8 A: \"or claiming that their research validates it as a package\" out of Related Clinical Work. 85: his own Two Common Guarding Patterns (heading and four paragraphs, word for word; his check: \"all dark green now\"). Start With Whatever Showed Up P8 (Kahneman and Klein) cut. 78.2 A, 84.1 B, 84.2 B and 84.5 B change nothing.",
+   "joel": "2026-10-22 21:35 UTC (experiments/t95-answers/JOEL-20261022-2135.md): \"84.3a 84.4a ... 84.6 ... we could change to ... 84.7. a 84.8a\"; \"85 ok this is all dark green now, learn some lessons\"; \"as for p8 start with, it looked like fluff, i cut it.\"",
+   "where": "Before You Try to Go Deep; Use Childhood Photographs Gently; Untangling the Belonging Bargains; How Much Happiness Do You Know Is Possible?; Related Clinical Work; Start With Whatever Showed Up",
+   "must_contain_exact": [
+    "### Two Common Guarding Patterns Blocking Reparenting",
+    "One of these patterns is a skeptic, on duty all the time: \"You're just making this up.\" It may have spent years keeping you from being humiliated or abandoned again, and it has probably watched you get excited about other healing things before that got unexplainedly dropped a month later. We do need some skepticism, so thank it for keeping you on track.",
+    "The other one shows up when you get close to some painful memory or insight. Suddenly you'd rather check your phone, or do anything aside from directly feeling it (even a yawn can come with an \"I'm so done with this\" feeling). Maybe this guard doesn't believe there's a grown-up around who could handle what's coming? That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a global movement of peer counseling, counts yawning as productive emotional discharge, a feeling on its way out. The skeptic and the pull both started out guarding you against something that really hurt. If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and it stays on the payroll since guards require attackers.",
+    "Say you learned somewhere along the way that if you need someone, they end up leaving you. You probably never said it to yourself in words, but it steers you before you know why. That pull of distraction is one way of dealing with it. Many folks will also find themselves going along with things they don't really prefer, or else insisting they don't need anybody (sour grapes). Some people pleasers go along for months as if nothing's wrong while the pressure builds and then they blow up out of nowhere. Then they feel so bad about it they go right back to going along to get along. With any of these patterns, I'd ask what it's protecting you from, because it doesn't really help to just label it a bad habit. (Sometimes a sweet is just a sweet, though, not an escape, as The Inner Guide gets into.)",
+    "You're actually a prophet, but you didn't know it! Have you ever heard of a self-fulfilling prophecy? Say nobody ever hears that you're struggling, since you didn't think they'd want to. Then nobody offers to help, and that can look like proof nobody cares. Keeping quiet might have been the smartest thing you could do back then, with nobody safe to tell, but now, if there are people who are safely available, it can keep help away.",
+    "In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more when feasible."
+   ],
+   "must_not_contain": [
+    "Daniel Kahneman and Gary Klein came at intuition",
+    "A lot of the time you just know.",
+    "Maybe you've tried picturing your little one and thought",
+    "and so can a boundary or a kind sentence",
+    "or claiming that their research validates it as a package"
    ]
   }
  ]

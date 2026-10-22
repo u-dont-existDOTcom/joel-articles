@@ -1298,3 +1298,28 @@ His messages, saved first (`t94-answers/JOEL-20261022-1950.md`): the two links o
 ### Next
 
 1. His answers to 84 and 85. Then a fourth label round with c01 to c06 and whatever his answers change: predictions first, starting a cut of a named tell near 0.6. After every result, run `tools/build_scorecard.py`, and link the questions page and the scorecard in the reply.
+
+## Turn 95 (2026-10-22, from 21:35 UTC): his answers to 78.2, 84 and 85; his Two Common Guarding Patterns
+
+His message, saved first (`t95-answers/JOEL-20261022-2135.md`). He had merged pull request #218 himself at 21:11 UTC: "where is the PR link for me to merge? anyway i went to gh and merged it".
+
+- **Installed, word for word:**
+  - 84.3 A, 84.4 A, 84.7 A and 84.8 A;
+  - 84.6, his new last sentence for Untangling P3;
+  - 85, his Two Common Guarding Patterns Blocking Reparenting, heading and four paragraphs. His check counts ("all dark green now").
+  - He cut Start With Whatever Showed Up P8 (Kahneman and Klein): "it looked like fluff". Its text is in `t95-installs/CUT-start-with-p8.md`.
+  - 78.2 A, 84.1 B, 84.2 B and 84.5 B change nothing.
+  - Owner edits: 182 of 182, with the new entry `joel-95-20261022`. Nine entries carried the old strings and now carry his: the two Two Common Guarding Patterns claims, the yawn entry, Untangling P3, How Much Happiness P4, the photographs section, Related Clinical Work, Before You Try's P5, and the 77.3 strings in `joel-87-20261022`.
+- **His lessons** (`docs/HUMANIZATION-GATE.md`, E207 to E213):
+  - his rewrite's ten moves: named referents, known names for things, reasons as opinions, a counterweight stance, a metaphor with its own logic, conditions where they apply, specific nouns, felt process, silly warmth, and a heading that says what is blocked;
+  - a rough catch-all can be a human tell;
+  - read what a sentence does before calling it a reassurance;
+  - a cut that falsifies isn't a fix;
+  - a line that passes can stay;
+  - research that changes nothing for the reader is fluff;
+  - every merge request comes with its link.
+- **Three of my unchecked turn-94 cuts, with E207's moves:** c01 "a break", c03 "Somatic work", and c04 the reason with "your mom or dad" in it. Lint CLEAR or REVIEW.
+- **The fourth label round** (`t95-substack/`):
+  - predictions #76 to #87, one per changed paragraph (mine and his), with his Two Common Guarding Patterns as one section prediction;
+  - #88 and #89 for the halves;
+  - every chance is now of a Human result.
