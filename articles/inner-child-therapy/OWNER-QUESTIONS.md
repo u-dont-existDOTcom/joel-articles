@@ -41,10 +41,6 @@ Each paragraph that changes gets its own Pangram check before it counts, in one 
 
 In your Brave, both drafts' Pangram labels read **Human**. When I click a label, though, the full analysis opens somewhere I can't reach, so I don't have its windows yet. The ledger scores a check by them, and they show whether any moved section reads AI. For each draft: open its link (in chat), click the Pangram label, then "View Full Analysis", and paste me the address of the page that opens (it starts https://www.pangram.com/feed/). My clicks may already have opened a few of those tabs in your Brave. Once I have them, I read both, record them and delete the drafts.
 
-### 🟠 Merge pull request #208 (turns 80 and 81)
-
-#208 (https://github.com/u-dont-existDOTcom/joel-articles/pull/208) has the no-"Pangram" title rule, the humanize-kit note, question 75 and, since turn 81, the mixed-up-figures check and question 76. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
-
 ## Decided
 
 > [!TIP]
