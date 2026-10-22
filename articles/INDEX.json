@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "f9b1ad080508fdb2c66fb18a98e538eef0723f9d4470e21821b0b0255901f3d4"
+          "sha256": "7f87f01b6a07c3e3408c02167085c3c3c63ffe7f746d5dfbeaefd8a186aa6a46"
         }
       },
       "review": {
@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "7740943666c9b12a6260847a976a79bfd00f1a9fe18f9f2e313dca5253298624",
+          "sha256": "b38f63b37ef6483743edb966e540124397f2736dbebfe1950b1a3e8fa84e8807",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "30003b45616cc9d37c81f93f775956ddbcda151de49ebb4c05917a3e8f8bc5f8",
+          "sha256": "771c1c8272865c4d9ef5898fca31461a3b002189dea53163c13a4a8ee10e3d31",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "257de4fc3c5bf1d82417ada7a43027978fbb8a92f48aca265fc83625f97277fa",
+          "sha256": "4afdebad72adcd2e75dbede9f743baff80dd345847137f8719fb6d730e4c96f1",
           "role": "owner_questions_page"
         },
         {
@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "88de122e415d5a0d1c99d5900fa47716a97d74f47c7c907d6de6edbb7947bb81",
+          "sha256": "0ff51f7fcc633cab42975ef6ebb03beadebe60d58c95c979d279be910b62d4d5",
           "role": "humanization_working_record"
         },
         {
@@ -22939,7 +22939,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/pangram-ledger.jsonl",
-          "sha256": "5815076875d922fb8c8e813454817a21a56bdab0854315ecf5fc4612457b8a89",
+          "sha256": "37bf038480156059d222ccee3c31759f80649d863d215251a621809a7371dc4a",
           "role": "humanization_working_record"
         },
         {
@@ -23924,7 +23924,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/SCORECARD.md",
-          "sha256": "006b1696746b9feed35b6a47bffabc470352d6099e634b5a700271bf2679a2e2",
+          "sha256": "69c98cc5cfdf2ec2c968a6534a8a4c19b4950000e786827c00d06debd8bf8873",
           "role": "humanization_working_record"
         },
         {
@@ -23975,6 +23975,31 @@
         {
           "path": "articles/inner-child-therapy/experiments/t95-substack/make_payloads.py",
           "sha256": "47f7c2b9a39bd79930603df4a5d32fb3c5c72fdcebe0098abefff5ae7a62dead",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t96-answers/JOEL-20261022-2208.md",
+          "sha256": "fac4a9b131d1aeb4ecdc7ebeb3aa0c3ad451514a827e69f631adedf1364a56a3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t96-results/ROUND4-RESULTS.json",
+          "sha256": "88dd16ee84d03f6456d052ca5cbfd67e89446ebfd83c2e7a0ffd55831fb0ae6f",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t96-tells/FIXES.json",
+          "sha256": "0c504f785518c4681747729b14146596f5b5f1a38714c2904447c18a60644e13",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t96-tells/drafts/d01.txt",
+          "sha256": "1239f1c460f36a0176001df759439ea4ceacab6125ad62911ed1a26b72ed3583",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t96-tells/drafts/d02.txt",
+          "sha256": "3f7d313a0093b3b166bc48a2e22a6f8ef9ced0f6e8e7bf63cf2b32bd08d0ffdd",
           "role": "humanization_working_record"
         }
       ]

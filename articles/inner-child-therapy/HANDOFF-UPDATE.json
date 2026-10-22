@@ -1,31 +1,9 @@
 {
- "turn": 95,
- "replace": [
-  [
-   "\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#218\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/218\\)\\ for\\ him\\ to\\ merge\\.",
-   "), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #218 (https://github.com/u-dont-existDOTcom/joel-articles/pull/218) merged (2026-10-22 21:11 UTC).",
-   1
-  ],
-  [
-   "^1\\. His answers to questions 84 and 85 \\(and 78\\.2\\) on the questions page.*$",
-   "1. Draft A's link from the fourth check now, and draft B's once Pangram's daily limit resets (the questions page's For you to do says how); once the results are final, his delete of the two temporary Substack drafts (A and B).",
-   1
-  ],
-  [
-   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#218\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/218\\),\\ turns\\ 92\\ and\\ 93\\ \\(\\#217\\ is\\ merged\\)\\.",
-   "2. His merge of pull request #220 (https://github.com/u-dont-existDOTcom/joel-articles/pull/220), turn 95 (#218 is merged).",
-   1
-  ],
-  [
-   "^1\\. His answers to questions 84 and 85 \\(the questions page\\)\\..*$",
-   "1. Draft A's link (and B's once the limit resets): read each with the item scorer in the turn-94 log (experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md), record the results for #76 to #89 (pangram_ledger.py result; the paragraphs' keys are t95i_*, the halves t95s_A and t95s_B), explain each miss, run tools/build_scorecard.py, and give him the scorecard's numbers with the questions page's link. A second try that still reads AI gets E207's moves (named referents, known names for things, reasons as opinions, conditions where they apply, specific nouns); a third try goes to him. Every merge request comes with its link (E213). No pangram.com dashboard checks.",
-   1
-  ]
- ],
+ "turn": "96, CI fix",
  "insert_before": [
   [
-   "- TURN 94 (",
-   "- TURN 95 (2026-10-22, his message of 21:35 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #220 (https://github.com/u-dont-existDOTcom/joel-articles/pull/220) for him to merge.\n  - His message, word for word: experiments/t95-answers/JOEL-20261022-2135.md (78.2 A; 84.1 to 84.8; 85, his own Two Common Guarding Patterns Blocking Reparenting, \"all dark green\"; Start With P8 cut; \"where is the PR link for me to merge?\").\n  - Installed with notes (entry joel-95-20261022; owner edits 182 of 182). His lessons are E207 to E213 in docs/HUMANIZATION-GATE.md; E207 lists the ten moves his rewrite made. Three of my unchecked turn-94 cuts got E207's moves.\n  - The fourth check: both drafts pasted from commit 78e9b96f and verified; draft A's label reads Human; draft B's says \"Daily limit reached\" (Pangram's free Substack check), so its check waits for the reset. Predictions #76 to #89.\n  - NEXT: Next step 1."
+   "  - NEXT: Next step 1.",
+   "  - After his merge of #219 (22:16 UTC), CI's content-integrity check went red on #221: main's new test tests/test_substack_check_text.py (the Hypnosis lane's) needs BeautifulSoup, and CI installs nothing. Main merged into the branch and that lane's own fix (its commit 70a397bc: the test skips where bs4 is missing) ported word for word; state/PANGRAM-SCORECARD.md rebuilt and committed."
   ]
  ]
 }

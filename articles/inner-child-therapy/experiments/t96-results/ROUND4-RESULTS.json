@@ -1,0 +1,253 @@
+{
+ "round": 4,
+ "turn": 96,
+ "A": {
+  "link": "https://www.pangram.com/feed/aa99b16e-9e04-4e14-aa6d-86b041ed4c9e",
+  "prediction": "t95-substack-A#88",
+  "created_at": "2026-10-22T17:46:24.133667-04:00",
+  "headline": "Mostly Human Written",
+  "fraction_ai": 0.021743979305028915,
+  "num_ai_segments": 14,
+  "n_windows": 192,
+  "word_count": 15714,
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "ai_windows": [
+   [
+    29,
+    "Low",
+    58,
+    "If you do need a break, I'd jot down why"
+   ],
+   [
+    32,
+    "Low",
+    31,
+    "Some people go straight into EMDR on their worst memory"
+   ],
+   [
+    33,
+    "Medium",
+    53,
+    "Here's a map of what to try when: / Whatever you try from that map"
+   ],
+   [
+    34,
+    "High",
+    31,
+    "It's a bit like the gym"
+   ],
+   [
+    35,
+    "Low",
+    7,
+    "So how were the next few days?"
+   ],
+   [
+    36,
+    "Medium",
+    12,
+    "How did you sleep, and could you get through your day okay?"
+   ],
+   [
+    37,
+    "High",
+    18,
+    "Do you want to go back toward what came up, or is some part of you saying no?"
+   ],
+   [
+    38,
+    "Medium",
+    27,
+    "(And was it hard but doable, or just too much?) If you honestly"
+   ],
+   [
+    59,
+    "Low",
+    23,
+    "So it's worth noticing what it's doing to you."
+   ],
+   [
+    144,
+    "High",
+    33,
+    "If talking back to that voice feels disloyal"
+   ],
+   [
+    145,
+    "Low",
+    10,
+    "Write its lines down"
+   ],
+   [
+    147,
+    "Low",
+    6,
+    "The voice can also pile on."
+   ],
+   [
+    148,
+    "Low",
+    26,
+    "You feel sad, then call yourself pathetic"
+   ],
+   [
+    149,
+    "Low",
+    10,
+    "The name-calling is where your Nurturer can step in."
+   ]
+  ]
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/f0a788bc-07a4-411d-bd1b-292c7370c630",
+  "prediction": "t95-substack-B#89",
+  "created_at": "2026-10-22T18:07:39.565758-04:00",
+  "headline": "Mostly Human Written",
+  "fraction_ai": 0.029996251687407494,
+  "num_ai_segments": 17,
+  "n_windows": 170,
+  "word_count": 13045,
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "ai_windows": [
+   [
+    61,
+    "Low",
+    42,
+    "The texts and the sulking aren't, and the Guide can help you"
+   ],
+   [
+    78,
+    "Low",
+    8,
+    "Sometimes care isn't the main thing missing."
+   ],
+   [
+    79,
+    "Low",
+    19,
+    "A meal can help, and so can a boundary"
+   ],
+   [
+    86,
+    "Low",
+    38,
+    "What showed me that the daytime pl/ork had stayed shallow"
+   ],
+   [
+    87,
+    "Low",
+    40,
+    "That's the sign this is you"
+   ],
+   [
+    88,
+    "Low",
+    20,
+    "If nightmares start wrecking your sleep"
+   ],
+   [
+    89,
+    "Low",
+    14,
+    "Reparenting is usually talked about as something you do alone"
+   ],
+   [
+    90,
+    "Medium",
+    19,
+    "But your little one got hurt by people"
+   ],
+   [
+    91,
+    "High",
+    26,
+    "Often it's mostly one person carrying a lot of it"
+   ],
+   [
+    112,
+    "Low",
+    35,
+    "You can say all the right words, but if the tone is accusatory"
+   ],
+   [
+    121,
+    "Low",
+    13,
+    "They still have to answer for what they did"
+   ],
+   [
+    122,
+    "Low",
+    37,
+    "Seeing how they got there doesn't make it okay."
+   ],
+   [
+    131,
+    "Low",
+    36,
+    "You don't have to buy what it teaches about death and rebirth"
+   ],
+   [
+    163,
+    "Low",
+    17,
+    "Having a big institute with certifications behind it"
+   ],
+   [
+    164,
+    "Low",
+    14,
+    "This framework developed through the teachers"
+   ],
+   [
+    165,
+    "Low",
+    30,
+    "Later revisions also compare notes with"
+   ],
+   [
+    166,
+    "Medium",
+    15,
+    "I borrow particular distinctions and practices"
+   ]
+  ]
+ },
+ "round_3_for_comparison": {
+  "A": "5.4% AI, 30 of 206 windows",
+  "B": "2.0% AI, 9 of 158 windows"
+ },
+ "paragraphs": {
+  "read_human": [
+   "Two Common Guarding Patterns P1 to P4 (his)",
+   "Start With Whatever Showed Up P9 and P10 (mine, second try)",
+   "Use Childhood Photographs Gently P1 (84.4)",
+   "Untangling P3 (84.6, his)",
+   "The Parent You Inherited P3, Hear the Guard First P1 and When to Change the Strategy P4 (round 3's moved windows)"
+  ],
+  "still_ai": [
+   "Before You Try to Go Deep P3 and P4 (mine, third reading after two cuts)",
+   "Your Body Might Need Some Love First P4 (mine) and P5 (his questions)",
+   "The Parent You Inherited P4 (mine; the reason I put back read High)",
+   "How Much Happiness P4 (his, Low)",
+   "Related Clinical Work P1 (his lines and my list)"
+  ],
+  "new_low_windows_in_unchanged_text": [
+   "Your Body P3 (EMDR)",
+   "When the Present-Day Adult Is Dangerous P5",
+   "The Parent You Inherited P5 (the pile-up)",
+   "The Inner Guide P5",
+   "Write It P6",
+   "How to Forgive Without Forgetting P3",
+   "When One Life Has Ended P1"
+  ],
+  "note": "Half B went from 9 to 17 windows with only his three small changes in it, so a Low window that appears once in unchanged text may be the check's own variation; one that persists across rounds is the one to fix."
+ },
+ "scored": "#76 to #89: the halves right (Mixed); the paragraphs 6 of 12 right. Of my six second tries, two read Human (P9, P10)."
+}
