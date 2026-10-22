@@ -96,20 +96,20 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
-| **all lanes** | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
+| inner child guide | 6 | 4 (67%) | 100% | 0% | 33% | 0.602 (base 0.000, 6) |
+| **all lanes** | 6 | 4 (67%) | 100% | 0% | 33% | 0.602 (base 0.000, 6) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
+| inner child guide | 6 | 4 (67%) | 100% | 0% | 33% | 0.602 (base 0.000, 6) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| stretch | 4 | 2 (50%) | 100% | 0% | 50% | 0.563 (base 0.000, 4) |
+| stretch | 6 | 4 (67%) | 100% | 0% | 33% | 0.602 (base 0.000, 6) |
 
 ## What the misses say (since the ledger)
 

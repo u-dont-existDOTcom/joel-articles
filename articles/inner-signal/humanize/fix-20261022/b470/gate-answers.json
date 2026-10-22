@@ -1,0 +1,134 @@
+{
+ "b470-guard-first-read": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)",
+  "lint_fixed": "round 4 (make_b470_r4.py): a linter rule the installed paragraph didn't trip, reworded"
+ },
+ "b470-three-jobs-named": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)"
+ },
+ "b470-guide-label": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "answered": "the cold read asked why the label line repeats the heading above it (r1/SENSE-HG14.md, P35 and P40): the label lines are the published structure (\"The Nurturer:\", \"As the Protector\", \"The Leader/Guide/Guru:\" under their headings), which the batch renames and doesn't restructure; let stand"
+ },
+ "b470-guide-work": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-protector-parts-label": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "answered": "the cold read asked why the label line repeats the heading above it (r1/SENSE-HG14.md, P35 and P40): the label lines are the published structure (\"The Nurturer:\", \"As the Protector\", \"The Leader/Guide/Guru:\" under their headings), which the batch renames and doesn't restructure; let stand"
+ },
+ "b470-guard-defined": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-parent-script": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)",
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)"
+ },
+ "b470-to-the-part": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)"
+ },
+ "b470-talk-to-part": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-part-wants": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-script-humiliating": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)"
+ },
+ "b470-chemicals": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-guide-care": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-script-fake": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint_note": "E36/E41 heavy second person appears only in the edit: an artifact of a two-word change (\"the voice of your inherited inner parent\" to \"your inherited parent script\") in a sentence addressed to the reader; the \"your\" and \"you\" are the installed sentence's, and the verdict stays REVIEW"
+ },
+ "b470-anxious-parts": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-guide-stuck": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-guide-proportion": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)"
+ },
+ "b470-synchronicity": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "stance_fixed": "round 3 (r3/VERIFY-r3.md: OK)",
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: OK)",
+  "lint_fixed": "round 4 (make_b470_r4.py): a linter rule the installed paragraph didn't trip, reworded"
+ },
+ "b470-guide-cue": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-guide-reframe": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0
+ },
+ "b470-guide-nlp": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "answered": "review item 24 and stance conflict 3 (\"Put 3 good adults in with the person\" makes the three jobs three people): Joel's own published line was \"Bring in the three adults. Nurturer warms, Protector makes it safe, Leader points a direction.\", so it goes to him as question 12 c (with the invocation's \"inner adult(s)\" and Appendix K's \"three-adult arrangement\"); the batch's own change here, Guide for Leader, is DONE in the review"
+ },
+ "b470-anxiety-part": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint_fixed": "round 4 (make_b470_r4.py): a linter rule the installed paragraph didn't trip, reworded"
+ },
+ "b470-altered-part": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "answered": "stance conflict 6 (one sentence for the published three claims): the sentence names the scary image, the lighting that came with the \"download\" and the bad feeling, and says none of them necessarily means what you think, so the published claims are there, said once; let stand (the installed Appendix G read 100% Human, 4.0, and Human, high, in 4.1)"
+ }
+}

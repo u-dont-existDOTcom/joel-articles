@@ -20,7 +20,7 @@ Hello Lovey Bunny!
 
 Have you ever realized that you were born with an incredible brain/mind that has many layers of consciousness: dream, protect, analyze, imitate, love, remember, hide, show, heal, etc, etc?
 
-Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, supress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind, body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
+Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, supress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
 
 While a lot of the teachings on hypnosis talk about the ‘subconscious mind’ like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.
 
@@ -176,11 +176,11 @@ Differentiate only as you need to. “Is this my inner child? Or is this a prote
 
 Always start from the heart, differentiate when you need to, then come back to the heart again.
 
-# The inner child, the guards, and the three inner adults
+# The inner child, the guards, and the inner adult’s three jobs
 
 Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.
 
-Here I’m going to talk about what you need to develop in yourself in order to be able to reparent your inner child. I’m going to talk about it in terms of three aspects: your Nurturer, your Protector and your Leader/Guru, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities.
+Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three aspects: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities.
 
 Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds.
 
@@ -258,11 +258,11 @@ A lot of times, inner child work doesn't work because people are doing all the f
 
 If it's hard to bring up the warm stuff, you can always do something to protect your inner child. Make sure they're small enough that you can actually do them. If you're not able to, figure out what's getting in the way of you doing them. Are you scared? Tired? Do you not know how to? Is there a practical thing that's getting in your way? Have you set yourself up to do it in a way that's likely to be successful? Don't make it so that doing it successfully is having to feel good about it, or being able to check it off a list.
 
-## The Leader, Guide, or Guru
+## The Guide
 
-The Leader/Guide/Guru:
+The Guide:
 
-You can also work with your Leader. Call them whatever you want, Guide, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.
+You can also work with your Guide. Call them whatever you want, Leader, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.
 
 Ask them for help with directing your life. Be careful not to ask for the kind of “tough it out, you don’t have needs, you just need discipline!” kind of direction, though. Ask them for help in directing you to do adult things in a way that takes your needs into account: asking for the help you need, expressing your preferences, letting a safe person see you in an imperfect way, finding ways to get your need for closeness met without punishing someone for their need for space, etc. etc.
 
@@ -270,25 +270,25 @@ Affirmations might be helpful here, too: “We’re not just here to feel good. 
 
 Start with whatever adult function you can connect to. Even if you start with protection and can’t do the warmth stuff yet, make sure the direction you’re being led in is appropriate for your inner child’s growth (i.e. not depriving them of things they need, like play or support, etc.)
 
-## Working with protectors
+## Working with childhood protector parts
 
-Working with protectors:
+Working with childhood protector parts:
 
 Feel free to use parts language here, too, if it’s helpful. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. It’s good to notice it, though, and then to see what might be going on.
 
 If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.
 
-Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures, they are you experiencing what is often a very charming protector or guard.
+Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures, they are you experiencing what is often a very charming guard, a childhood protector part. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child.
 
-One important voice to become aware of when approaching your inner child is your inherited parent. This is the voice of your parent(s) that you internalized as a child, based on how they treated you. This is not the same as your inner adult (Nurturer, Protector, Leader/Guru) that you will eventually build up. Often this inherited parent acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, this voice may jump in to say that what you’re doing is “fake”.
+One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.
 
-(To the protector: “I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?”)
+(To the guard, the childhood protector part: “I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?”)
 
 If necessary take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will get spiritual bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…..)
 
-(Now talk to the protector. Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you, but that you want to know what could make them trust you 1% more that you can do that.)
+(Now talk to the protector part. Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you, but that you want to know what could make them trust you 1% more that you can do that.)
 
-Most of the time the protector wants you to do certain things, set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc.
+Most of the time the protector part wants you to do certain things, set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc.
 
 ## Protection that knows when to stop scanning
 
@@ -394,7 +394,7 @@ With whom can I be myself?
 
 What do I feel in my body and what do I make out of it?
 
-Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited inner parent tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
+Give your inner child the opportunity to do something that has no value for its resume and that it doesn’t need to be good at. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent script tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
 
 When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!
 
@@ -484,7 +484,7 @@ When writing your induction, pick a central verb, a sensory quality, a short ref
 
 2. Decide what you want to do during the induction. You might be asking a question, building a quality, or exploring a state. Also pick what you are NOT going to do today. Consider your time. Remember that this doesn’t have to be about a problem, and you can use it for good stuff too, like love, play, confidence, creativity, or communion. Make sure to leave a few minutes at the end for coming back and for reflection.
 
-3. Make sure you are in a safe place. Don’t do this if you are driving, in water, operating machinery, or otherwise in a place where you need to attend to yourself or others. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. The later part of this (the already open? section) is for orienting yourself. Don’t use it to make an unstable state any deeper.
+3. Make sure you are in a safe place. Don’t do this if you are driving, in water, operating machinery, or otherwise in a place where you need to attend to yourself or others. If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. The later part of this (the already open? section) is for orienting yourself. Don’t use it to make an unstable state any deeper.
 
 4. Decide how you want to be coaxed into it. Do you want to feel like you have a lot of room, or do you want to feel held and warm? Or do you need a firmer invitation to stay with a feeling? Preview to yourself what you are going to do. This might involve closing your eyes, or even coming out of it and going back in. It will include coming back at the end. If you are recording your induction, read the script to yourself first (if you can). Know that you can end the induction any time you want by saying “stop” or by opening your eyes. You can also say “less” to make the induction ask less of you, or “quiet” to make it stop talking. You do not need permission from any inner part to stop, even if you feel like a part is telling you that you need permission.
 
@@ -692,7 +692,7 @@ If you feel an urge to move, turn, reach, push, or change your body’s position
 
 If any “younger” parts come up, offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose. You don’t have to consider them literally “younger”, nor do you have to ask them why they are there or what happened to them. If you can identify any “protector” parts, talk to them and find out what they are concerned about. All of them are welcome to the “meeting”. You don’t have to get rid of any of them.
 
-If you feel that it would be useful to bring in your “Nurturer”, “Protector” or “Leader” to help you either change the “tone” of the interaction, set boundaries, or find your way toward the life you want, feel free to do so. You don’t have to talk to them, just use the one whose job you need, and if you can’t do it yet, borrow it. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.
+If you feel that it would be useful to bring in your “Nurturer”, “Protector” or “Guide” to help you either change the “tone” of the interaction, set boundaries, or find your way toward the life you want, feel free to do so. You don’t have to talk to them, just use the one whose job you need, and if you can’t do it yet, borrow it. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.
 
 Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualising someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.
 
@@ -760,7 +760,7 @@ Do you know what exactly feels fake - the words, an image, what you are expectin
 
 You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?'
 
-It could also be the voice of your inherited inner parent that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own.
+It could also be your inherited parent script that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Again, it isn't useful to argue with this part, but find out what rule it is enforcing and then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own.
 
 If the fake feeling is telling you that you don't have the 'grown up' ability to do this yet, then don't try and convince yourself by using an inner voice. As long as you have enough observing ego to do this, try and borrow what you need from someone who you can imagine is 'good enough' to lend it to you. This could be a family member, friend, famous person etc. What you need might be warmth, boundary, direction etc. Try out something which rings true to you, whether it is a sentence, an action etc, and see how you get on.
 
@@ -778,7 +778,7 @@ Find out if the anxiety is bad enough that you want to decrease contact with it 
 
 -Where are your feet? Where are you sitting? Focus on your body, your breathing, and the room around you.
 
--Tell your Little parts and protector parts that you’re there for your Little parts and that you recognize that your protector parts are trying to protect you and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.
+-Tell your Little parts and childhood protector parts that you’re there for your Little parts and that you recognize that your protector parts are trying to protect you and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.
 
 If you’re having chest pain, fainting, suicidal thoughts, psychosis-like symptoms, mania-like symptoms, severe dissociative symptoms, not being able to sleep, wanting to hurt yourself or somebody else, etc. then you need to get professional help. For more on handling anxiety, see the toolbox in Appendix D.
 
@@ -824,7 +824,7 @@ You may have a real wound that needs to be dealt with, but it’s possible you�
 
 The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do. You don’t have to have a meeting with every thought that pops into your head before you start your life. You don’t have to do any certain thing before you start your life.
 
-What would the Leader choose to do now?
+What would the Guide choose to do now?
 
 ## You keep using hypnosis but not changing life
 
@@ -844,7 +844,7 @@ DO NOT: “Force” yourself to ignore your body’s needs, such as eating when 
 
 DO NOT: “Extend” the duration of altered states indefinitely or accept “hits” of intuition as “real” without reality testing them.
 
-DO NOT: Allow various internal roles to get out of proportion (e.g., allow the “Inner Child” to run your adult life, the “Protector” to preclude all loving relationships, the “Nurturer” to disregard consequences to others, the “Leader” to ignore the needs of the “Child”). You are capable of analysis, as well as tenderness.
+DO NOT: Allow various internal roles to get out of proportion (e.g., allow the “Inner Child” to run your adult life, the “Protector” to shut out all love, the “Nurturer” to disregard consequences, the “Guide” to ignore the needs of the “Child”). You are capable of analysis, as well as tenderness.
 
 DO NOT: Utilize NLP techniques to “force” down “protectors,” to give yourself certainty you do not have, to manipulate others, or to “heal” yourself when your body is telling you not to.
 
@@ -1084,7 +1084,7 @@ People often ask what the synchronicity means. Sometimes they get a great insigh
 
 It is my cue to:
 
-Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing is not proof for what I'm interpreting from the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?) and I go into the highest state I can get into where I can objectively and clearly see what is going on from that situation from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If I am in a negative state, I check if it is a message from my Inner Child, my Protector or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that needs to be taken care of) or if there is something that needs to be done about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
+Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing is not proof for what I'm interpreting from the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?) and I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can, from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If I am in a negative state, I check if it is a message from my Inner Child or from a childhood protector part, or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that needs to be taken care of) or if there is something that needs to be done about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
 
 In other words: Stop-orient-go wider-reality check-listen-do at least one thing from a loving place.
 
@@ -1102,7 +1102,7 @@ Use that stimulation to feel your feet, your body, your breathing, your room.
 
 Reiterate to yourself that whenever you notice a synchronicity, it is just a bell that rings to wake you up, it is not proof for what you are interpreting from it.
 
-Ask yourself: "What does my Nurturer think about this?", "What does my Protector think about this?", "What does my Leader think about this?"
+Ask yourself: "What does my Nurturer think about this?", "What does my Protector think about this?", "What does my Guide think about this?"
 
 Rehearse going back to a more grounded state and to a more wide view of the situation.
 
@@ -1120,7 +1120,7 @@ You can do that by not rehearsing them anymore and by saying to yourself (when y
 
 ### Reframing — changing the meaning without lying
 
-Reframes are dishonest when they make the problem into something that was good all along. Instead ask yourself: What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Leader reframe this? etc., etc.
+Reframes are dishonest when they make the problem into something that was good all along. Instead ask yourself: What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Guide reframe this? etc., etc.
 
 ### Perceptual positions — self, other, witness, universal heart
 
@@ -1184,7 +1184,7 @@ Find out what that part/pattern is protecting for them.
 
 Gently change some aspect of their pattern (location, volume, space, posture, speed, etc.).
 
-Put 3 good adults in with the person (Nurturer, Protector, and Leader).
+Put 3 good adults in with the person (Nurturer, Protector, and Guide).
 
 Anchor the person's good state (heart, fingers, breath, posture, etc.).
 
@@ -1234,7 +1234,7 @@ When an answer is unclear, stay fully alert. Ask for the exact script, change th
 
 [image 4](https://substackcdn.com/image/fetch/$s_!93QB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png)
 
-Remember that often the anxiety comes from a protector part of you, who is trying to help you, but who believes you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever. Therefore, instead of interrogating that part, start with yourself:
+Remember that often the anxiety comes from a childhood protector part of you. It’s what protects you when your consciously installed parental Protector isn’t functioning, the same as in childhood. It’s trying to help, but it believes you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever. Therefore, instead of interrogating that part, start with yourself:
 
 Always work with yourself in a series – first your body, then your inner child, then some inquiry, then some action:
 
@@ -1360,7 +1360,7 @@ In other words, if using self-hypnosis while you're in an altered state of consc
 
 Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (i.e. when you're loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, etc, etc, etc around plant medicine). Sometimes you may OPEN yourself up to things FASTER than you are able to put it into context with your adult self.
 
-So what you think may be an altered state of consciousness that's meaningful, may or may not actually be meaningful - it could be your inner child, it could be a protector part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the "download", regardless of how "bad" you feel, it doesn't necessarily mean what you think it does!
+So what you think may be an altered state of consciousness that's meaningful, may or may not actually be meaningful - it could be your inner child, it could be a childhood protector part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the "download", regardless of how "bad" you feel, it doesn't necessarily mean what you think it does!
 
 Before you even THINK about interpreting what your altered state of consciousness is, ask yourself something simpler:
 

@@ -24,7 +24,12 @@
   support instead of doing exploratory hypnosis." (HG17's installed text; the next HG17 version carries it too:
   fix-20261018/make_emu_bc.py.)
 
-  python3 articles/inner-signal/humanize/fix-20261022/b470/make_b470.py   (from the repo root)
+Rounds: round 1's reviews are in r1/ (REVIEW.md, SENSE-HG14.md, STANCE.md, march/); make_b470_r2.py (round 1's findings),
+make_b470_r3.py (the stance check's conflicts) and make_b470_r4.py (linter rules my words brought) changed the list below
+and wrote each round's re-read; each later round rebuilds the batch with --edits-only. Then make_gate_b470.py (the gate)
+and make_preds_b470.py (the forecasts); installed with fix-20261020/apply_edits41.py --add EDITS-470g.json.
+
+  python3 articles/inner-signal/humanize/fix-20261022/b470/make_b470.py [--edits-only]   (from the repo root)
 Writes CANDIDATE.md; EDITS-470g.json (for fix-20261020/apply_edits41.py --add); drafts.json and meta.json (each changed
 paragraph as Pangram reads it, with its reading in the recheck of 2026-10-21); REVIEW-PROMPT.txt (one Opus reader: each
 changed paragraph against the answers it carries out, its meaning, the names and its sense in place, -> REVIEW.md);
@@ -68,13 +73,22 @@ Q11 = ('Joel, 2026-10-22 18:37 UTC, question 11: "b", that is: "If you are overw
        'able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis." (The guide\'s '
        'own line elsewhere is at "feeling overwhelmed by chemicals"; its sessions include ones on loveyhuasca.)')
 
-# (key, section, answer, old, new): each old text is in the working copy once; edits of one paragraph are in reading order
+ST = ('the stance check of round 1 (r1/STANCE.md, conflict %d): the installed paragraph pulls away from the published '
+      'guide ("%s"); fixed in the same paragraph, as batch 469g fixed its stance conflicts')
+
+# (key, section, answer, old, new): each old text is in the working copy once. Edits of one paragraph don't overlap, so their
+# order doesn't change the result; a paragraph's text key is its first edit here (round 3's stance fixes come after the naming
+# edit of the same paragraph, so the keys of rounds 1 and 2 stay)
 E = [
     ('guard-first-read', 'HG02+03', Q9 + ' And his rule, 2026-10-22 16:12 UTC: "we should explain everything when it first gets read"',
-     'child mind, guard mind, body mind,', 'child mind, guard mind (your childhood protector parts), body mind,'),
+     'child mind, guard mind, body mind,',
+     'child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind,'),
     ('h1-three-jobs', 'HG14', Q10, '# The inner child, the guards, and the three inner adults', H1_14),
     ('three-jobs-named', 'HG14', Q10, 'your Nurturer, your Protector and your Leader/Guru, but',
      'your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide, but'),
+    ('reparent-now', 'HG14', ST % (1, 'They’re three ways the present-day person reparents the inner child'),
+     'what you need to develop in yourself in order to be able to reparent your inner child.',
+     'what you develop in yourself as you reparent your inner child.'),
     ('h2-guide', 'HG14', Q10, '## The Leader, Guide, or Guru', '## The Guide'),
     ('guide-label', 'HG14', Q10, 'The Leader/Guide/Guru:', 'The Guide:'),
     ('guide-work', 'HG14', Q10, 'You can also work with your Leader. Call them whatever you want, Guide, Guru,',
@@ -92,31 +106,46 @@ E = [
      'One important thing to become aware of when approaching your inner child is your inherited parent script. This is the '
      'set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated '
      'you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) '
-     'that you will eventually build up. Often this script acts as a critic or warden,'),
-    ('parent-script-fake', 'HG14', Q10, 'this voice may jump in to say', 'it may jump in to say'),
-    ('to-the-part', 'HG14', Q9, '(To the protector: “I notice you', '(To the protector part: “I notice you'),
+     'that you build up on purpose. Often this script acts as a critic or warden,'),
+    ('parent-script-fake', 'HG14', Q10, 'this voice may jump in to say', 'the script may jump in to say'),
+    ('to-the-part', 'HG14', Q9, '(To the protector: “I notice you', '(To the guard, the childhood protector part: “I notice you'),
     ('talk-to-part', 'HG14', Q9, '(Now talk to the protector. Tell them', '(Now talk to the protector part. Tell them'),
     ('part-wants', 'HG14', Q9, 'Most of the time the protector wants you to do certain things,',
      'Most of the time the protector part wants you to do certain things,'),
     ('script-humiliating', 'HG15', Q10, 'Because often your inherited inner parent tells your inner child',
      'Because often your inherited parent script tells your inner child'),
+    ('no-resume-value', 'HG15', ST % (2, 'a small experiment with no résumé value ... We’re finding out whether we enjoy this, '
+                                         'not proving our worth'),
+     'something that has no value on its own and that it doesn’t need to be good at for its resume.',
+     'something that has no value for its resume and that it doesn’t need to be good at.'),
     ('guide-care', 'HG20', Q10, '“Nurturer”, “Protector” or “Leader” to help you', '“Nurturer”, “Protector” or “Guide” to help you'),
     ('script-fake', 'HG24', Q10, 'It could also be the voice of your inherited inner parent that you are picking up,',
      'It could also be your inherited parent script that you are picking up,'),
     ('anxious-parts', 'HG24', Q9, 'Tell your Little parts and protector parts that you’re there',
      'Tell your Little parts and childhood protector parts that you’re there'),
     ('guide-stuck', 'HG24', Q10, 'What would the Leader choose to do now?', 'What would the Guide choose to do now?'),
-    ('guide-proportion', 'HG25', Q10, 'the “Leader” to ignore the needs of the “Child”', 'the “Guide” to ignore the needs of the “Child”'),
+    ('guide-proportion', 'HG25', Q10 + '. And ' + ST % (4, 'the Protector cannot exclude all love; the Nurturer cannot erase '
+                                                          'consequences'),
+     'the “Protector” to preclude all loving relationships, the “Nurturer” to disregard consequences to others, the “Leader” '
+     'to ignore the needs of the “Child”',
+     'the “Protector” to shut out all love, the “Nurturer” to disregard consequences, the “Guide” to ignore the needs of the '
+     '“Child”'),
     ('synchronicity', 'HG31', Q9S, 'a message from my Inner Child, my Protector or if I just need to grieve.',
-     'a message from my Inner Child, a childhood protector part, or if I just need to grieve.'),
+     'a message from my Inner Child or from a childhood protector part, or if I just need to grieve.'),
+    ('synchronicity-perspective', 'HG31', ST % (5, 'I return to the highest perspective I can access ... I make room for '
+                                                    'whatever is genuinely available ... I do not have to manufacture any of them'),
+     'I go into the highest state I can get into where I can objectively and clearly see what is going on from that situation '
+     'from the highest perspective I can get to,',
+     'I go into the highest state I can get into, where I can see what is going on in that situation as objectively and '
+     'clearly as I can, from the highest perspective I can get to,'),
     ('guide-cue', 'HG31', Q10, '"What does my Leader think about this?"', '"What does my Guide think about this?"'),
     ('guide-reframe', 'HG31', Q10, 'How might my Leader reframe this?', 'How might my Guide reframe this?'),
     ('guide-nlp', 'HG31', Q10, '(Nurturer, Protector, and Leader)', '(Nurturer, Protector, and Guide)'),
     ('anxiety-part', 'HG33', Q9,
      'Remember that often the anxiety comes from a protector part of you, who is trying to help you, but who believes you are in danger,',
      'Remember that often the anxiety comes from a childhood protector part of you. It’s what protects you when your '
-     'consciously installed parental Protector isn’t functioning, the same as when you were a child. It’s trying to help '
-     'you, but it believes you are in danger,'),
+     'consciously installed parental Protector isn’t functioning, the same as in childhood. It’s trying to help, but it '
+     'believes you are in danger,'),
     ('altered-part', 'HG36', Q9, 'it could be a protector part,', 'it could be a childhood protector part,'),
     ('chemicals', 'HG17', Q11, 'If you are intoxicated, acutely confused,', 'If you are overwhelmed by chemicals, acutely confused,'),
 ]
@@ -270,6 +299,9 @@ def main():
     pos = (H / 'fix-20261021' / 'b469' / 'POSITIONS.txt').read_text(encoding='utf-8').rstrip()
     (B / 'POSITIONS.txt').write_text(pos + '\n\n' + '\n\n'.join([Q9, Q10, Q11]) + '\n', encoding='utf-8')
 
+    if '--edits-only' in sys.argv:   # round 2 on: the cold read and the stance check were round 1's (r1/)
+        print(len(edits), 'edits in', len(groups), 'paragraphs or headings;', len(drafts), 'texts;', len(mparas), 'march paragraphs')
+        return
     (B / 'sense').mkdir(exist_ok=True)
     r = subprocess.run([sys.executable, str(REPO / 'tools' / 'humanization' / 'reviewer' / 'reviewer.py'), '--article',
                         rel(B / 'CANDIDATE.md'), 'sense-section', rel(B / 'sense' / 'prompt.txt'), '--section',

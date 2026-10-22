@@ -111,4 +111,10 @@ The latest:
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |
 | HG35-p15 | paragraph | 1 of 6 | Mixed |
+| HG17-emu-bc | stretch | 1 of unlimited (Substack) | pending |
+| HG17-emu-bd | stretch | 1 of unlimited (Substack) | pending |
+| HG17-emu-be | stretch | 1 of unlimited (Substack) | pending |
+| HG17-emu-bf | stretch | 1 of unlimited (Substack) | pending |
+| HG32-emu-bg | stretch | 1 of unlimited (Substack) | pending |
+| HG32-emu-bh | stretch | 1 of unlimited (Substack) | pending |
 

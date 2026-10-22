@@ -20,7 +20,7 @@ Hello Lovey Bunny!
 
 Have you ever realized that you were born with an incredible brain/mind that has many layers of consciousness: dream, protect, analyze, imitate, love, remember, hide, show, heal, etc, etc?
 
-Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, supress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind (your childhood protector parts), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
+Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, supress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
 
 While a lot of the teachings on hypnosis talk about the ‘subconscious mind’ like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.
 
@@ -180,7 +180,7 @@ Always start from the heart, differentiate when you need to, then come back to t
 
 Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.
 
-Here I’m going to talk about what you need to develop in yourself in order to be able to reparent your inner child. I’m going to talk about it in terms of three aspects: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities.
+Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three aspects: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide, but I don’t mean them as if there were really three people in you. It’s you that needs to develop these qualities.
 
 Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds.
 
@@ -280,9 +280,9 @@ If you're not careful, you might find yourself expecting that when you go within
 
 Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures, they are you experiencing what is often a very charming guard, a childhood protector part. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child.
 
-One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you will eventually build up. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, it may jump in to say that what you’re doing is “fake”.
+One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.
 
-(To the protector part: “I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?”)
+(To the guard, the childhood protector part: “I notice you and what you are trying to do. I want to know more. Could I ask you what you are afraid would happen if you stopped protecting me by…..?”)
 
 If necessary take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will get spiritual bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…..)
 
@@ -394,7 +394,7 @@ With whom can I be myself?
 
 What do I feel in my body and what do I make out of it?
 
-Give your inner child the opportunity to do something that has no value on its own and that it doesn’t need to be good at for its resume. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent script tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
+Give your inner child the opportunity to do something that has no value for its resume and that it doesn’t need to be good at. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent script tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
 
 When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!
 
@@ -844,7 +844,7 @@ DO NOT: “Force” yourself to ignore your body’s needs, such as eating when 
 
 DO NOT: “Extend” the duration of altered states indefinitely or accept “hits” of intuition as “real” without reality testing them.
 
-DO NOT: Allow various internal roles to get out of proportion (e.g., allow the “Inner Child” to run your adult life, the “Protector” to preclude all loving relationships, the “Nurturer” to disregard consequences to others, the “Guide” to ignore the needs of the “Child”). You are capable of analysis, as well as tenderness.
+DO NOT: Allow various internal roles to get out of proportion (e.g., allow the “Inner Child” to run your adult life, the “Protector” to shut out all love, the “Nurturer” to disregard consequences, the “Guide” to ignore the needs of the “Child”). You are capable of analysis, as well as tenderness.
 
 DO NOT: Utilize NLP techniques to “force” down “protectors,” to give yourself certainty you do not have, to manipulate others, or to “heal” yourself when your body is telling you not to.
 
@@ -1084,7 +1084,7 @@ People often ask what the synchronicity means. Sometimes they get a great insigh
 
 It is my cue to:
 
-Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing is not proof for what I'm interpreting from the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?) and I go into the highest state I can get into where I can objectively and clearly see what is going on from that situation from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If I am in a negative state, I check if it is a message from my Inner Child, a childhood protector part, or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that needs to be taken care of) or if there is something that needs to be done about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
+Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing is not proof for what I'm interpreting from the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?) and I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can, from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If I am in a negative state, I check if it is a message from my Inner Child or from a childhood protector part, or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that needs to be taken care of) or if there is something that needs to be done about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
 
 In other words: Stop-orient-go wider-reality check-listen-do at least one thing from a loving place.
 
@@ -1234,7 +1234,7 @@ When an answer is unclear, stay fully alert. Ask for the exact script, change th
 
 [image 4](https://substackcdn.com/image/fetch/$s_!93QB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png)
 
-Remember that often the anxiety comes from a childhood protector part of you. It’s what protects you when your consciously installed parental Protector isn’t functioning, the same as when you were a child. It’s trying to help you, but it believes you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever. Therefore, instead of interrogating that part, start with yourself:
+Remember that often the anxiety comes from a childhood protector part of you. It’s what protects you when your consciously installed parental Protector isn’t functioning, the same as in childhood. It’s trying to help, but it believes you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever. Therefore, instead of interrogating that part, start with yourself:
 
 Always work with yourself in a series – first your body, then your inner child, then some inquiry, then some action:
 

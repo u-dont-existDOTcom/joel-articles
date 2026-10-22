@@ -1,79 +1,124 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-21, after the listening script went in (21:41 UTC). **Open questions: 3** (9, 10 and 11, all
-new today). **Two things for you to do**: open the recheck's two secret links in your Chrome (part A now carries the
-listening script too), and paste a note into the Inner Child chat (both under "For you to do"). The questions are at the top, with their options and my default; under them is what you decided and
-what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or
-decided.
+Last updated 2026-10-22, after your answers of 18:37 UTC. **Open question: 1** (12, three more names from the Inner Child
+article). **One thing for you to do**: open the screening post and send me its result link (under "For you to do"), and
+later, for your Nibbāna article, its current editor HTML. The questions are at the top, with their options and my default;
+under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
+or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-- 🟣 **9. Which Protector is "my Protector" in the synchronicity cue?** In the NLP appendix's Human version (your 3 a),
-  "Using synchronicity as your own wake-up bell" says: "If I am in a negative state, I check if it is a message from my
-  Inner Child, my Protector or if I just need to grieve." You said at 17:56 that the guards are not the Protector. Two
-  readers split on this line: the [sweep's reader](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/CONFLATION-SWEEP.md) took the published version ("a
-  Protector warning") for a guard, and a [second reader](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469/CONFLATION-REVIEW.md) took "my Protector"
-  for the role you build (two to one), because the guide spells the role that way and the same section asks "What does
-  my Protector think about this?". The published guide used a capital-P Protector for the warning guard in other places
-  too ("Anxiety is often a Protector trying to prevent danger"; "Protector, thank you for warning me"); the Human
-  versions there say "a protector part" and "Thank you protector", and today's fix 6 below lowercases the last one.
-  Options:
-  - A. Leave it (the role).
-  - B. "a message from my Inner Child, a protector part or if I just need to grieve" (a guard, like the anxiety lines).
+- 🟣 **12. Three more names from the Inner Child article?** Your answer to 10 brought this guide in line with the Inner
+  Child article's names (below). Three things there aren't the name of a figure this guide already has, so they're yours
+  to decide:
+  - **a. Forced adulthood.** "When the adult role is not available yet" says some people "may go blank, access an
+    inherited inner critic, or feel like a child part who may be playing at being an adult". In the Inner Child article
+    you named that "forced adulthood" (15:33 UTC today) and put it in stage 1 of the stages map. Options:
+    - A. Name it there: "... or feel like a child part who may be playing at being an adult (what I call forced
+      adulthood)".
+    - B. Leave it.
 
-  My recommendation: B. A warning carried by a negative state is what the guide gives the guards; the role is the one
-  you consult afterwards. My default until you answer: A, as it is.
-- 🟣 **10. One name for the inherited parent?** Your fix calls the internalized voice the "inherited inner parent", and
-  my fix in "It feels fake" (below) uses your name. "Working with protectors", where the guide introduces it, still says
-  "your inherited parent" (twice, in one paragraph). Options:
-  - A. "inherited inner parent" there too, so the guide has one name for it. (One paragraph; it would get its reading in
-    the next recheck.)
-  - B. Keep both names.
+    My recommendation: A. It's the same thing, and a reader of both guides meets one word for it. My default until you
+    answer: B, as it is.
+  - **b. Learned patterns, the umbrella.** The Inner Child article now puts expectations, response patterns (coping
+    patterns, and guards as protective responses) and the parent script you inherited under "learned patterns". This
+    guide has no umbrella word; its parts language does that work in trance. Options:
+    - A. Leave the guide without it.
+    - B. One sentence in "The inner child, the guards, and the inner adult's three jobs" that names the umbrella.
 
-  My recommendation: A. My default until you answer: B, as it is.
-- 🟣 **11. Does "intoxicated" rule out a session on loveyhuasca?** The whole-guide check of the listening script found the
-  published text pulling two ways. "Before you begin" says "When intoxicated, acutely confused, or unable to keep
-  yourself safe, deal with immediate support rather than exploratory hypnosis". Two paragraphs on, "Already open?" is for
-  a state that "loveyhuasca, meditation, lucid dreaming, grief, music, prayer, erotic energy, exhaustion, or intense
-  beauty has already opened", and it ends by asking for "the next useful truth, symbol, feeling, question, or action". "Why
-  doing it myself worked better for me" tells of your own loveyhuasca self-hypnosis sessions, and "Capacity before
-  content" draws its line at "feeling overwhelmed by chemicals". A reader can't tell whether a session on loveyhuasca is
-  ruled out. Options:
-  - A. Leave it as it is.
-  - B. "If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate
-    support instead of doing exploratory hypnosis." This matches "Capacity before content": an open state goes to
-    Already open?, and an overwhelmed one gets support first.
+    My recommendation: A. Each figure is now explained where the guide first uses it, and the umbrella would be a
+    framework the guide never uses again. My default until you answer: A.
+  - **c. Appendix B's "Put 3 good adults in with the person (Nurturer, Protector, and Guide)."** The reader who checked
+    the renames pointed out that this makes the three jobs three people, which your table rules out ("Three functions
+    of that same Inner Adult—not three additional people"); the h1 now says "the inner adult's three jobs". Your
+    published line was "Bring in the three adults. Nurturer warms, Protector makes it safe, Leader points a direction.",
+    after the guide had said they "aren't three literal beings". The same goes for two smaller places: the invocation in
+    "The actual inner meeting" calls on your "inner adult(s)", and Appendix K links your inner child site as "My
+    three-adult arrangement". Options, for all three:
+    - A. One adult with three jobs in all three places: "Put a good adult in with the person, one who does all three jobs
+      (Nurturer, Protector, and Guide)", "inner adult", and "My inner adult's three jobs".
+    - B. Keep three: it's your own shorthand, and in an imagery step three imagined adults may be what makes it work.
 
-  My recommendation: B, since the guide's own sessions and its altered-state rule both put the line at being overwhelmed,
-  not at taking something. My default until you answer: A (the rewrite says what the published says, without the
-  "otherwise" that made every intoxicated reader one who can't keep safe).
+    My recommendation: B, since it's your phrase and the guide has already said they aren't three people; A if the step
+    works as well with one. My default until you answer: B, as it is (with Guide for Leader).
 
-## Your answers of 17:56 UTC, and what I did
+## Your answers of 2026-10-22 18:37 UTC, and what I did
+
+- 🔵 **9: a childhood protector part.** The guards now have your name where the guide first uses the word, where it
+  explains them, and where it puts anxiety or a negative state down to one, with your reason in your words:
+  1. The opening's first "guard": "guard mind (childhood protector parts, the protective reactions learned as a child)".
+  2. "Working with protectors" is now "Working with childhood protector parts", and its paragraph says "... what is often
+     a very charming guard, a childhood protector part. It's what protects you when your consciously installed parental
+     Protector isn't functioning, the same as when you were a child." The line to say a little later is "(To the guard, the
+     childhood protector part: “I notice you ...”)", so it can't be read as said to the inherited parent script just before
+     it, and the next two are "the protector part".
+  3. "You get anxious": "Tell your Little parts and childhood protector parts that you're there ...".
+  4. The synchronicity cue (question 9 itself): "I check if it is a message from my Inner Child or from a childhood
+     protector part, or if I just need to grieve."
+  5. Appendix D opens: "Remember that often the anxiety comes from a childhood protector part of you. It's what protects
+     you when your consciously installed parental Protector isn't functioning, the same as in childhood. It's trying to
+     help, but it believes you are in danger, ..."
+  6. Appendix G: "it could be a childhood protector part".
+- 🔵 **10: the Inner Child article's names.** Your table of 13:22 UTC, the core names of 14:26 and your nutshell of 16:12,
+  as the Inner Child lane's note listed them:
+  1. The h1 is "The inner child, the guards, and the inner adult's three jobs" (it said "the three inner adults").
+  2. Where the three are first named: "your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and
+     your wise Guide", your words from the Inner Child article's opening, so each name hints at its job where it's first
+     read.
+  3. The third job is the Guide wherever the guide names it: "The Leader, Guide, or Guru" is "The Guide", and Leader and
+     Guru stay among the names a reader can give it ("Call them whatever you want, Leader, Guru, Wise One ...").
+  4. One name for the inherited parent: "inherited parent script", explained once where the guide introduces it ("the set
+     of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated
+     you, and it doesn't always sound like a voice"), and the same name in "Your voice" and "It feels fake". The
+     "inherited inner critic" in "When the adult role is not available yet" stays; that's the script acting as a critic.
+  5. The note's other two points are question 12 a and b; 12 c came out of the review.
+- 🔵 **11 b** is in as you picked it: "If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself
+  safe, then get some immediate support instead of doing exploratory hypnosis." Two of the four new samples of the
+  induction section were made with it, and the other two get it in the meaning work.
+- How they were checked: a reader went through each change against your answer, its meaning, the names and its sense
+  between the paragraphs around it; a cold reader read the whole h1; a stance check read the changed paragraphs against
+  your whole published guide; the step-or-break reader read each changed paragraph. Round 1 found five things, and four
+  are fixed with the reader's own wording (the new name explained at its first read, an "it" that could be the child,
+  the line to say that could be said to the script, "a childhood protector part" that could describe the Inner Child);
+  the fifth is 12 c. The stance check found five places, in words of the installed versions rather than mine, where a
+  changed paragraph had drifted from your published guide, and each is back in a few words: reparenting doesn't wait
+  for the inner adult to be finished ("what you develop in yourself as you reparent your inner child", "that you build
+  up on purpose", your "three ways the present-day person reparents"); "no value for its resume" (your "no résumé value",
+  which had become "no value on its own"); the Protector can't "shut out all love" and the Nurturer can't "disregard
+  consequences" (they had become "loving relationships" and "consequences to others"); and in the synchronicity cue,
+  "as objectively and clearly as I can" (it had claimed you see "objectively and clearly"). The linter then caught three
+  of my rewordings adding tells the installed text didn't have, and they're said more plainly now. Each round's fixes
+  were read again in place, and every reader passed them.
+  Of the 23 changed paragraphs, 22 read Human in the last whole-guide check (21 of them high), and the 23rd is the
+  safety line in the induction section, which the screened sample replaces; their new reading comes with the next check.
+
+## Your answers of 2026-10-21 17:56 UTC, and what I did
 
 - 🟢 **1, yes.** The final merge goes into your editor HTML of 28 September.
 - 🔵 **2 c, Appendix C.** The hypnosis-specific audit stays a list of seven questions. The general checklist before it is
   prose now, in seven paragraphs ([the section as it stands](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469/HG32-section.md)). Four rounds of
   meaning checks kept every point: the fourteen signs, the statement to say with its four tests, and the good and bad
   guide. The fixes along the way put back "without assuming what it proves" and "if it's real love, it'll survive my
-  boundaries", and let a voice inside you count among the influences. It hasn't had a Pangram reading yet: it's in the
-  recheck below. The step-or-break reader found no break in it (it read every question in the prose as the checklist's
-  next step), so I expect parts of it to read AI, as the published list did
-  ([check](https://www.pangram.com/history/61b917ae-8792-410b-b7a7-853f7bd4a121)). The recheck will show which sentences,
-  and I'll fix those.
-- 🟢 **3 a, the NLP patterns.** The Human version is installed. Its 4.1 reading comes with the recheck (it was checked in
-  4.0).
+  boundaries", and let a voice inside you count among the influences. In the recheck it read AI as one window
+  ([part B](https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)), as I'd forecast, so two new Emulate samples of it are in the screening post (under "For you to do").
+- 🟢 **3 a, the NLP patterns.** The Human version is installed, and it read Human, high, in the recheck
+  ([part B](https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)).
 - 🔵 **4 d, the return steps.** The Human version is installed ([the section](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469/HG18-section.md)), with
   what it had lost put back in its own plain words. When a recording stops, "Once your eyes are open, press your feet or
   hands into a surface as well." The count's first step feels the body's contact again ("feel your body again and what
   it's resting on"), and its third is "hear the room, name where you are", as you wrote them. A reader caught two slips,
   both fixed: "the five steps listed above" pointed at nothing above, and a quotation mark had no opening. "One honest
-  action" stays out, and the linter now fails it (your "sounds super ai").
+  action" stays out, and the linter now fails it (your "sounds super ai"). In the recheck it read Human with three short
+  red windows ([part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)): "If you've gone somewhere...", "Get up only when you feel steady" and "Make sure you're truly
+  oriented...".
 - 🔵 **4 d, the listening script** (the sober induction and the rest of "Induction: gathering attention without
-  disappearing"): in the guide now, waiting for its first reading
-  ([the section as it stands](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261018/rf-zg/HG17-section.md)). It's the best of three new Emulate
+  disappearing"): it read AI in the recheck, from the section's first paragraph to the shortcut, most windows marked
+  "humanized" ([part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)). I had chosen its sample by meaning alone, so this time four new samples go through the
+  screening post first. The version that read AI
+  ([the section as it stands](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261018/rf-zg/HG17-section.md)) is the best of three new Emulate
   versions of the whole section, with the 30 points it had lost put back in its own plain words ("What am I noticing
   now?", the count's "Five.", "keep safety and exit instructions plain", the three links, and the rest) and its 14
   inventions taken out (your dad "uses" the mudra when he drives; "I always announce" fractionation). Then three rounds
@@ -113,7 +158,7 @@ read and update it. Every file it points to is a link.
   6. "You get anxious": "your Little parts and Protector parts" is now "... protector parts" (the guards that "scream at
      you").
 
-  These paragraphs read Human, high, in the first whole-guide check, and they get their reading in the recheck. The rule,
+  All six read Human, high, in the recheck ([part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7), [part B](https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)). The rule,
   a tool for the sweep, and a note to paste into the Inner Child chat are below; there's no channel from this chat to
   that one.
 
@@ -176,30 +221,24 @@ read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Open the recheck's two secret links in your Chrome**: [part A, the whole guide](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-21T21%3A38%3A01.929Z&audience=only_paid&free_preview=false&freemail=) and
-  [part B, the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=2026-10-21T19%3A25%3A03.905Z&audience=only_paid&free_preview=false&freemail=). They carry every fix up to now, the listening script included (part A was pasted again at 21:38 UTC; the earlier
-  part A link shows the same draft, so either one works), and they are my two temporary drafts with the new text
-  pasted in, so nothing new piled up in your drafts. Open each, wait for the Pangram label, click it twice, then "View
-  Full Analysis". Then load the two result pages into my pane or send me their links. Nothing is published. When the
-  results are read, the two drafts ("TEMP Pangram recheck A ..." and "B ...") can go: the shared rule says the worker
-  deletes them, but deleting is something I can't do, so that's one click each for you.
-- 🟠 **Paste this note into the Inner Child chat:**
-  > From the hypnosis guide lane (Joel's answers of 2026-10-21 17:56 UTC). Joel found the hypnosis guide confusing the
-  > different versions of the inner adult ("Because often your inherited parent tells your inner child ... The adult in
-  > you can answer"; his fix: "your inherited inner parent ... The more consciously sculpted adult in you can answer"),
-  > and asked that the Inner Child article be checked for the same thing. A sweep of the whole guide and a stance check
-  > found seven more (four came in with plainer rewrites: a lowercased role right after protector parts, "a 'grown up' voice" for "the new
-  > adult voice", a sign of vulnerability turned into a need for protection and sent to the Nurturer, a line to say with
-  > no addressee right after the inherited parent). The rule and the steps are in the shared gate, section "What Joel's
-  > answers of 2026-10-21 17:56 UTC taught" (https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and the sweep's prompt builder is
-  > https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/tools/humanization/conflation_sweep_prompt.py : write the article's own map of its figures in its own words (the
-  > inherited inner parent, the adult the reader builds and its roles, the protector parts), build the prompt, give it to
-  > a fresh Opus agent, fix each finding with as few words as possible, and check each fix like any edit.
+- 🟠 **Open the screening post in your Brave**: [TEMP screen (hypnosis guide samples)](https://ibogaqueen.substack.com/p/8f4644c8-8bda-4321-8437-8a09148353cc?postPreview=paid&updated=2026-10-22T19%3A26%3A08.747Z&audience=only_paid&free_preview=false&freemail=). Click the Pangram
+  label once it settles (15 to 20 seconds), use "Copy shareable link to result" in the side panel, and paste the link to
+  me. The post holds six new Emulate samples, four of the induction section and two of Appendix C's checklist; the
+  meaning work goes into whichever reads Human. Its text in the page is exactly the text I predicted from (same SHA-256),
+  well under the check's 99,999-character limit.
+- 🔵 **Your Nibbāna article** is queued after the hypnosis guide, with [its result](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917)
+  read: Mostly Human Written, 4.5% AI, 22 of its 166 windows AI ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/QUEUE-20261022.md)).
+  One thing I'll need from you before I start: the post's current editor HTML, as you gave me on 28 September. The post
+  has changed since that copy (it opens "Hello Lovey Bunny!!" now), and the fixes have to go into the current one.
+- 🟢 Done: the recheck of 2026-10-21 (your results of 18:37, read: part A AI in the induction section, part B Mostly Human
+  with Appendix C red), and the note to the Inner Child chat (that lane ran its own check, its 75).
+- 🟢 Your temporary drafts: recheck A and B are renamed "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP
+  recheck B (hypnosis guide appendices) - do not publish", with no "Pangram" in them, and the screening post is the third.
+  I'll reuse A and B for the next recheck, so nothing new piles up. Deleting them is yours, once the guide is done.
 
 ## Where it stands
 
-🟢 All 40 of the guide's sections are humanized: 35 installed with their paragraphs checked, 3 read Human as published,
-and two waiting for their first reading, Appendix C as prose and the induction section with its listening script. 🔵
-Next: the recheck's results (the two links above), then a fix with a diagnosis for whatever reads red. 🟣 Questions 9, 10
-and 11 are yours.
+🟢 All 40 of the guide's sections are humanized. In the last whole-guide check, two read red: the induction section and
+Appendix C's checklist. 🔵 Their new samples are in the screening post; then the meaning work on the one that reads
+Human, and a whole-guide recheck with everything, your answers 9 to 11 included. 🟣 Question 12 is yours.
 [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every check's link.

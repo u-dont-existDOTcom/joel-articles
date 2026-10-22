@@ -617,6 +617,53 @@ The records are in `articles/inner-signal/humanize/fix-20261021/` (his message, 
   and CI's content-integrity check failed on both until a third commit registered the files. The rule was already here
   (E158, "Before every push"); this worktree has no pre-push hook installed, so nothing stopped the push.
 
+## What Joel's answers of 2026-10-22 18:37 UTC taught (the hypnosis guide's questions 9 to 11)
+
+The records are in `articles/inner-signal/humanize/fix-20261022/` (batch 470g and the screening post).
+
+- **One set of names for the inner figures across his guides.** Asked for one name for the inherited parent, he answered
+  "check the work in the innerchild article lane regarding the naming conventions as they've been updated". The Inner
+  Child lane had settled them with him that day (his table of 13:22 UTC, the core names of 14:26 and his nutshell of
+  16:12, all in `articles/inner-child-therapy/experiments/t85-answers/` to `t88-answers/`): an Inner Adult that is one
+  person with three jobs ("Three functions of that same Inner Adult—not three additional people"), first named "a loving
+  Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide"; the "inherited parent script",
+  "Learned rules and ways of treating yourself—not necessarily a literal voice or only something learned from parents",
+  explained once where it's introduced; guards, "Protective reactions or guarding patterns"; and every term explained
+  where it's first read. So a guide that has these figures takes these names, and a lane that changes them leaves a note
+  for the other lanes (the Inner Child lane's `articles/inner-signal/humanize/NOTE-FROM-INNER-CHILD-LANE-20261022.md` is
+  the pattern), which puts them to Joel unless he has already said to follow them. A rename can still need his word where
+  the old name carried a technique (the hypnosis guide's NLP step "Put 3 good adults in with the person (Nurturer,
+  Protector, and Guide)" is his question 12 c).
+- **A guard is a childhood protector part.** "i would call anxiety a childhood protector part. that's what we have to
+  protect us when the consciously installed parental Protector is not functioning, same as when we were children. let's
+  make this more clear in the guide also." Where a guide explains the guards, or puts anxiety or a negative state down to
+  one, it says so, with his reason; a guard is never the Protector itself, and the Protector keeps its capital as the
+  adult's job.
+- **A rename can repoint a pronoun or turn a list into an apposition.** Batch 470g's first review found two: "this voice
+  may jump in" became "it may jump in" right after "your child", and the guide calls the inner child "it"; and with its
+  second "my" gone, "a message from my Inner Child, a childhood protector part, or ..." reads as if the Inner Child were
+  the protector part. After a rename, read the sentence again for what each "it" and each pair of commas now points to.
+- **Screen Emulate samples in Pangram before any meaning work, under gate E200 too.** The induction section's sample ba
+  was chosen by meaning alone (E200 had moved checks to Substack, and no sample was screened) and read AI, most windows
+  marked "humanized", in the guide; HG18's sample had been chosen by its screen and reads Human. A temporary Substack post
+  screens several samples in one free check: each sample under a heading of its own, the lines that stand for its
+  section's headings as headings (the check doesn't read headings), and each sample's windows read from its own span of
+  the checked text (`articles/inner-signal/humanize/fix-20261022/screen/make_screen.py`). After the paste, open the
+  secret link and hash the rendered post's paragraphs: when the hash is the rebuilt text's, the check reads exactly that
+  text and only the windows need reading from the result page.
+- **Compare the linter like for like on an edit of installed text.** The gate's own run lints an edit in context, where the
+  sentences that differ from the working copy count as mine; linted alone, the installed version has no words of mine.
+  So a rename inside an installed sentence ("You can also work with your Guide.", once "your Leader") read as a new coach
+  phrase, E41's hard limit of 2 per 100 of my words, that the installed sentence had too. Lint the installed version
+  against the candidate (`tells_lint.py TEXT --installed CANDIDATE.md`), so the same sentences count as mine in both
+  (`articles/inner-signal/humanize/fix-20261022/b470/make_gate_b470.py`); then a rule only the edit trips is one my words
+  brought, and it gets reworded (batch 470g's round 4: three of them), while one both versions trip is the installed
+  text's.
+- **The Inner Child lane's paste helper is every lane's** (its note, part 1): no "Pangram" in a draft's title, paste only
+  into an empty body after checking the exact title, and check the editor's words after the paste. The hypnosis lane's
+  copy is `articles/inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js`; its old `paste_payload.js` is marked
+  superseded.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):
