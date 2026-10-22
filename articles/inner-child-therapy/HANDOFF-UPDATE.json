@@ -2,33 +2,13 @@
  "turn": 84,
  "replace": [
   [
-   "pull\\ request\\ \\#210\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/210\\)\\ for\\ him\\ to\\ merge,\\ with\\ turns\\ 82\\ to\\ 84\\.",
-   "pull request #210 (https://github.com/u-dont-existDOTcom/joel-articles/pull/210) merged, with turns 82 to 84; the two books' candidates are pull request #211 (https://github.com/u-dont-existDOTcom/joel-articles/pull/211), for him to merge.",
+   "the\\ two\\ books'\\ candidates\\ are\\ pull\\ request\\ \\#211\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/211\\),\\ for\\ him\\ to\\ merge\\.",
+   "the two books' candidates are pull request #211 (https://github.com/u-dont-existDOTcom/joel-articles/pull/211), merged.",
    1
   ],
   [
-   "\\ \\ \\-\\ The\\ new\\ books:\\ candidate\\ additions\\ in\\ experiments/t84\\-books/\\ \\(the\\ couples\\ one\\ also\\ for\\ the\\ romance\\ guide,\\ as\\ notes\\ only\\)\\.",
-   "  - The new books: 12 candidates each in experiments/t84-books/ (CANDIDATES-stca.md; CANDIDATES-couples.md, 10 of them for the romance guide, as notes only), with quotes cut short since the repository is public. The strongest, with my picks, are question 78.",
-   1
-  ],
-  [
-   "\\ \\ \\-\\ NEXT:\\ his\\ answers\\ to\\ 76\\ and\\ 77;\\ then\\ his\\ picks\\ and\\ the\\ AI\\-window\\ rework\\ in\\ one\\ round,\\ one\\ free\\ Substack\\ check\\ per\\ changed\\ section,\\ and\\ he\\ deletes\\ the\\ drafts\\.",
-   "  - NEXT: his answers to 76, 77 and 78; then his picks (with any book additions) and the AI-window rework in one round, one free Substack check per changed section, and he deletes the drafts.",
-   1
-  ],
-  [
-   "1\\.\\ His\\ answers\\ to\\ questions\\ 76\\ and\\ 77\\ on\\ OWNER\\-QUESTIONS\\.md,\\ and\\ his\\ delete\\ of\\ the\\ two\\ temporary\\ Substack\\ drafts\\ \\(A\\ and\\ B\\)\\.",
-   "1. His answers to questions 76, 77 and 78 on OWNER-QUESTIONS.md, and his delete of the two temporary Substack drafts (A and B).",
-   1
-  ],
-  [
-   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#210\\ \\(turns\\ 82\\ to\\ 84\\)\\.",
-   "2. His merge of pull request #211 (the two books' candidates; #210 is merged).",
-   1
-  ],
-  [
-   "1\\.\\ His\\ answers\\ to\\ 76\\ and\\ 77:\\ put\\ in\\ his\\ picks\\ and\\ rework\\ the\\ AI\\ windows",
-   "1. His answers to 76, 77 and 78: put in his picks (with any book additions he chooses) and rework the AI windows",
+   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#211\\ \\(the\\ two\\ books'\\ candidates;\\ \\#210\\ is\\ merged\\)\\.",
+   "2. His merge of the next turn's pull request (#210 and #211 are merged).",
    1
   ]
  ],
