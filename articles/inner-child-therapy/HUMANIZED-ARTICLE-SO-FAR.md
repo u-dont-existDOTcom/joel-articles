@@ -224,7 +224,9 @@ When your nervous system is flooded, your protective parts are busy with the flo
 
 <!-- Turn 95, before its first check, with E207's moves (his rewrite of Two Common Guarding Patterns): a specific noun ("Somatic work" for "This kind of work"). Lint CLEAR. Not yet checked in Pangram. -->
 
-Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much, or by whether you stayed present through it. Somatic work can bring up grief and fear, and sometimes hard dreams. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.
+<!-- Turn 96 (round 4, experiments/t96-results/ROUND4-RESULTS.json): round 4 (check t95s_A): Medium 53 and High 31; the High was the gym line, a stock analogy with a balanced closer (turn 95's explained miss). It is cut; his P5 asks about the next few days. Lint CLEAR. Not yet checked in Pangram. -->
+
+Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much, or by whether you stayed present through it. Somatic work can bring up grief and fear, and sometimes hard dreams.
 
 <!-- Turn 74 (his message of 2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md)): 62, C ("it's human now, i fixed it, pasted"): his Before You Try to Go Deep as he pasted it at 00:08 UTC; this paragraph is his version (experiments/t74-guide/joel-before-you-try-20261019-0008.txt). It is turn 72's P5 h, with the guide's list of what to change in it and "change several things at once" out (54, 8 and 11). His section as pasted: Before You Try to Go Deep Human Written (0.093, high, 4023 words, all three windows Human), https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9; his checking paragraph alone Human Written (0.073), https://www.pangram.com/history/d2aeb146-d0e1-446e-8226-2f07aaaa161f (round t74a). -->
 
@@ -792,7 +794,9 @@ But with the borrowed adulthood trick, the new grown-up can start outside your h
 
 <!-- Turn 95, before its first check, with E207's moves (his rewrite of Two Common Guarding Patterns): the referent named ("that voice") and the reason said with the people in it ("not your mom or dad"). Lint REVIEW. Not yet checked in Pangram. -->
 
-A good routine kept in the warden's tone still feels like punishment to your little one. If talking back to that voice feels disloyal, give it a name of its own, like the Critic, so it's the Critic you're arguing with and not your mom or dad. Write its lines down, with who said them and when. Comfort your little one first, then write a reply to each line, firm or funny but never mean (ST-CA has this as an exercise, section 18.12.2).
+<!-- Turn 96 (round 4, experiments/t96-results/ROUND4-RESULTS.json): round 4 (check t95s_A): High 33 on the reason I put back with E207 ("so it's the Critic you're arguing with and not your mom or dad"), a balanced X-and-not-Y contrast. It is out again; "that voice" stays. Lint CLEAR. Not yet checked in Pangram. -->
+
+A good routine kept in the warden's tone still feels like punishment to your little one. If talking back to that voice feels disloyal, give it a name of its own, like the Critic. Write its lines down, with who said them and when. Comfort your little one first, then write a reply to each line, firm or funny but never mean (ST-CA has this as an exercise, section 18.12.2).
 
 <!-- Turn 90 (the Schema Hacks additions, Joel 2026-10-22 18:03 UTC (experiments/t90-answers/), the five GPT's advice recommends with its corrections, experiments/t89-results/RESULT-A-meta.json, check t88s_A: Mostly Human Written, 7.2% AI, 41 of 254 windows): 2, the feeling and how you treat yourself for having it ("can also", so not every flood is the critic), at the end of the section, since his P3 has to follow P2 (claim parent-you-inherited-p4-p5). Drafts: experiments/t89-drafts/. Lint REVIEW. Not yet checked in Pangram. -->
 

@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 95). **Open questions: none.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 96). **Open questions: 86 and 87.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,22 +8,51 @@ The published page, a view of this file rebuilt after every change (`tools/quest
 
 ## Open questions
 
-None right now. The fourth check's results may bring some.
+### 🟣 86. How to use the $200 of Pangram API credit (turn 96)
+
+Your key works. I checked it without starting a paid check. Pangram's developer plan charges $0.05 per 100 words ([its page](https://www.pangram.com/knowledge-hub/what-is-pangrams-developers-plan)), so $200 is about 400,000 words:
+- a paragraph checked with its section: about $0.25 to $0.50;
+- a whole half (about 15,000 words): about $7.50.
+
+The free Substack check costs nothing, but you have to copy each link, and today it ran out of daily checks. One thing is unknown: the API may still read with Pangram 4.0, while your Substack check uses 4.1. So I'd spend about $0.05 first, on one paragraph, to see which version answers.
+
+- **A (my pick):** paragraphs only. Every paragraph I change gets checked with its section before it goes into a whole-half check, within the six-tries rule. The halves stay on the free Substack check. That's about $5 a round.
+- **B:** the halves go through the API too, so you never copy links. That's about $15 more a round.
+- **C:** everything stays on the free Substack check.
+- **D:** your words.
+
+### 🟣 87. What still reads AI after round 4 (turn 96)
+
+Half A reads 2.2% AI (it was 5.4%), and half B 3.0% (it was 2.0%); the windows are in `experiments/t96-results/ROUND4-RESULTS.json`. Now reading Human:
+- your Two Common Guarding Patterns;
+- your 84.4 and 84.6;
+- my second tries on Start With P9 and P10.
+
+I fixed two more of mine, not yet checked: the gym line is out of Your Body P4, and the reason I put back in The Parent You Inherited P4 is out again.
+
+These are still AI:
+- **87.1 Mine, after two tries:**
+  - Before You Try to Go Deep P3 and P4 (the note about the break, and calling somebody, mess and all), Low;
+  - Borrowed Adulthood in Relationship P1 ("your little one got hurt by people, so some of the healing has to happen with people too"; "the one who drives you to your appointments"), Medium and High.
+- **87.2 Yours:**
+  - Your Body P5's check-in questions ("Do you want to go back toward what came up, or is some part of you saying no?" read High);
+  - How Much Happiness P4's question ("but is that actually targeting the deeper existential question underneath?"), Low;
+  - Related Clinical Work P1 (your two lines and my list of ten), Low and Medium;
+  - your "What showed me that the daytime pl/ork had stayed shallow..." line with my sentences after it, Low.
+- **A (my pick):** your words for one or two of these, the way Two Common Guarding Patterns went, and I apply what they show to the rest.
+- **B:** leave the Low ones, and only the Medium and High ones get work.
+- **C:** your words.
+
+Low windows also appeared in seven paragraphs nobody changed. Half B went from 9 windows to 17 with only your three small changes in it. So I'd treat a Low window that shows up once as the check varying, and fix only the ones that come back.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #220 (turn 95)
+### 🟠 Merge pull request #221 (turn 96)
 
-Your answers of 21:35 UTC, your Two Common Guarding Patterns and lessons E207 to E213: https://github.com/u-dont-existDOTcom/joel-articles/pull/220. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute. It worked if the page then says "Merged".
-
-### 🟠 The fourth check's links (turn 95)
-
-Both drafts hold the fourth check, pasted and verified, and their previews are open in your Brave.
-- **Draft A:** its label reads Human. Click the label, then "Copy shareable link to result" in the side panel, and send me the link.
-- **Draft B:** its label says "Daily limit reached". Pangram's free Substack check has a daily limit, and today's four earlier rounds used it up. Tomorrow, reload the draft B tab, wait about 20 seconds for the label, and copy its link the same way.
+Round 4's results, two more cuts, and questions 86 and 87: https://github.com/u-dont-existDOTcom/joel-articles/pull/221. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
 
 ### 🔵 The two temporary Substack drafts: not yet (turn 88)
 
@@ -33,6 +62,14 @@ Both drafts hold the fourth check, pasted and verified, and their previews are o
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 The fourth check and the API key, 2026-10-22 22:08 UTC
+
+Your message (turn 96; `experiments/t96-answers/JOEL-20261022-2208.md`) has the fourth check's two links, and: "you can see my current pangram api key here btw ... it says i have $200 credit." You merged pull request #220 at 21:56 UTC.
+
+- **Results:** `experiments/t96-results/ROUND4-RESULTS.json`. Half A reads 2.2% AI, half B 3.0%.
+- **My predictions:** 6 of the 12 paragraph predictions were right; the scorecard has them.
+- **The key:** it's accepted, and I haven't spent anything. How to use it is question 86.
 
 ### 🟢 78.2, 84 and 85, 2026-10-22 21:35 UTC
 
