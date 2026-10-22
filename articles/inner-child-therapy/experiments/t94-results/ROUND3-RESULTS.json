@@ -1,0 +1,371 @@
+{
+ "round": 3,
+ "turn": 94,
+ "A": {
+  "link": "https://www.pangram.com/feed/0f0ce34e-ecd5-480f-954b-c77cfa00f381",
+  "prediction": "t93-substack-A#44",
+  "created_at": "2026-10-22T15:45:08.627232-04:00",
+  "headline": "Mostly Human Written",
+  "fraction_ai": 0.053736232221126556,
+  "num_ai_segments": 30,
+  "num_human_segments": 176,
+  "n_windows": 206,
+  "word_count": 15880,
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "ai_distribution": "AI-generated content appears at the start and end",
+  "ai_windows": [
+   [
+    29,
+    "Low",
+    14,
+    "Sometimes it isn't up to you, though"
+   ],
+   [
+    30,
+    "Low",
+    23,
+    "If you do need one, I'd jot down why"
+   ],
+   [
+    31,
+    "Medium",
+    24,
+    "Once that reason has changed"
+   ],
+   [
+    32,
+    "High",
+    28,
+    "If being alone was a big part of what hurt"
+   ],
+   [
+    33,
+    "Low",
+    23,
+    "I wouldn't wait until you've got yourself sorted out"
+   ],
+   [
+    38,
+    "Low",
+    14,
+    "This kind of work can bring up grief and fear"
+   ],
+   [
+    39,
+    "Medium",
+    15,
+    "And being present through all of it"
+   ],
+   [
+    40,
+    "Low",
+    31,
+    "It's a bit like the gym"
+   ],
+   [
+    42,
+    "Low",
+    35,
+    "(And was it hard but doable, or just too much? A lot of the time you just know.)"
+   ],
+   [
+    118,
+    "High",
+    40,
+    "Maybe you've tried picturing your little one"
+   ],
+   [
+    128,
+    "Low",
+    21,
+    "Your little one can watch you do it many times before trusting you"
+   ],
+   [
+    129,
+    "Low",
+    8,
+    "That voice can get into your reparenting, too."
+   ],
+   [
+    130,
+    "High",
+    60,
+    "A good routine kept in the warden's tone"
+   ],
+   [
+    131,
+    "Low",
+    13,
+    "You could also write its lines down"
+   ],
+   [
+    142,
+    "Low",
+    23,
+    "Roughly, they'd ask whether the situation is predictable"
+   ],
+   [
+    143,
+    "High",
+    46,
+    "A hunch might be catching something real"
+   ],
+   [
+    146,
+    "Low",
+    11,
+    "When it's safe to find out, I'd go see."
+   ],
+   [
+    147,
+    "Low",
+    3,
+    "Maybe nobody laughs."
+   ],
+   [
+    148,
+    "High",
+    36,
+    "If it might be real danger, though, or something a doctor"
+   ],
+   [
+    149,
+    "Low",
+    35,
+    "When a part hesitates about being touched"
+   ],
+   [
+    150,
+    "High",
+    104,
+    "One is a skeptic, on duty all the time"
+   ],
+   [
+    151,
+    "Low",
+    11,
+    "That yawn might actually be the opposite of checking out"
+   ],
+   [
+    153,
+    "Medium",
+    15,
+    "The skeptic and the pull both started out guarding you"
+   ],
+   [
+    154,
+    "High",
+    120,
+    "If you treat either one like an enemy"
+   ],
+   [
+    155,
+    "Low",
+    14,
+    "(Sometimes a sweet is just a sweet"
+   ],
+   [
+    156,
+    "Medium",
+    16,
+    "The expectation can even make itself come true."
+   ],
+   [
+    157,
+    "High",
+    49,
+    "Then nobody offers to help"
+   ],
+   [
+    158,
+    "Low",
+    20,
+    "Whichever protective part showed up, try talking to it"
+   ],
+   [
+    191,
+    "Low",
+    5,
+    "How many tries is enough?"
+   ],
+   [
+    192,
+    "Low",
+    35,
+    "I really don't know, and I'd be suspicious of anyone who promises you"
+   ]
+  ]
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/c81bb1ea-87e2-47ce-b67e-cdfffb4fe4a4",
+  "prediction": "t93-substack-B#45",
+  "created_at": "2026-10-22T15:45:13.039681-04:00",
+  "headline": "Mostly Human Written",
+  "fraction_ai": 0.01986408419907093,
+  "num_ai_segments": 9,
+  "num_human_segments": 148,
+  "n_windows": 158,
+  "word_count": 12954,
+  "document_confidence": {
+   "level": "Medium",
+   "boundary": "human"
+  },
+  "ai_distribution": "AI-generated content appears in scattered patches",
+  "ai_windows": [
+   [
+    76,
+    "Low",
+    8,
+    "Sometimes care isn't the main thing missing."
+   ],
+   [
+    77,
+    "Low",
+    23,
+    "A meal can help, and so can a boundary or a kind sentence"
+   ],
+   [
+    87,
+    "Low",
+    38,
+    "What showed me that the daytime pl/ork had stayed shallow"
+   ],
+   [
+    89,
+    "Low",
+    19,
+    "But your little one got hurt by people"
+   ],
+   [
+    90,
+    "Medium",
+    26,
+    "Often it's mostly one person carrying a lot of it"
+   ],
+   [
+    151,
+    "Low",
+    9,
+    "A gentle practitioner can walk you through it fine."
+   ],
+   [
+    152,
+    "Low",
+    13,
+    "With others, people seem to come out more fragmented"
+   ],
+   [
+    153,
+    "Medium",
+    61,
+    "Having a big institute with certifications behind it"
+   ],
+   [
+    154,
+    "High",
+    25,
+    "I borrow particular distinctions and practices"
+   ]
+  ]
+ },
+ "round_2_for_comparison": {
+  "A": "9.5% AI, 54 of 259 windows",
+  "B": "5.3% AI, 23 of 183 windows"
+ },
+ "turn_93_items": {
+  "verdicts": {
+   "a01": "Human",
+   "a02": "Human",
+   "a03": "Human",
+   "a04": "Mixed",
+   "a05": "AI",
+   "a06": "Mixed",
+   "a07": "Human",
+   "a08": "Human",
+   "a09": "Human",
+   "a10": "Human",
+   "a11": "Human",
+   "a12": "Mixed",
+   "a13": "Mixed",
+   "a14": "Mixed",
+   "a15": "AI",
+   "a16": "AI",
+   "a17": "Mixed",
+   "a18": "AI",
+   "a19": "AI",
+   "b01": "Human",
+   "b01b": "Human",
+   "b02": "Human",
+   "b03": "Human",
+   "b04": "Human",
+   "b05": "Human",
+   "b06": "Human",
+   "b07": "Human",
+   "b08": "Mixed",
+   "b09": "Human",
+   "b10": "Mixed"
+  },
+  "read_human": [
+   "a01",
+   "a02",
+   "a03",
+   "a07",
+   "a08",
+   "a09",
+   "a10",
+   "a11",
+   "b01",
+   "b01b",
+   "b02",
+   "b03",
+   "b04",
+   "b05",
+   "b06",
+   "b07",
+   "b09"
+  ],
+  "third_tries_human": [
+   "a01",
+   "a02",
+   "a08",
+   "a09",
+   "b04",
+   "b05"
+  ],
+  "third_tries_still_ai": [
+   "a13",
+   "a16",
+   "a17",
+   "a18",
+   "a19"
+  ],
+  "scored": "predictions #46 to #75, one per item, made before the results were read: 17 of 30 right; always Human would have been 17, always AI 13; 11 of the 13 misses were too pessimistic about a cut (tools/SCORECARD.md)"
+ },
+ "his_stretches": {
+  "now_human": [
+   "Don't Give the Inner Adult Away P9 (84.1)",
+   "Before You Try to Go Deep P1 (84.2)",
+   "Untangling the Belonging Bargains P1 (84.5)",
+   "Untangling P3's last sentence (84.6)",
+   "his 82a paragraph (first check)"
+  ],
+  "still_ai": [
+   "Your Body Might Need Some Love First P5 (84.3, Low 35)",
+   "Use Childhood Photographs Gently P1 (84.4, High 40)",
+   "How Much Happiness P4 (84.7, Low 8 and Low 23; it was High)",
+   "Related Clinical Work P1's last line (84.8, High 25)"
+  ],
+  "newly_ai": [
+   "When the Practice Feels Real but Stays Shallow P1: his line and my next sentence (Low 38)"
+  ]
+ },
+ "moved_into_unchanged_text": [
+  "A 128 (Low 21)",
+  "A 158 (Low 20, the paragraph after Two Common Guarding Patterns)",
+  "A 191 and 192 (Low 5 and 35)",
+  "B 89 and 90 (Low 19, Medium 26)"
+ ]
+}

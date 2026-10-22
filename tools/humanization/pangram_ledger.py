@@ -123,6 +123,12 @@ def refusals(recs, rec):
         out.append('the call must be Human or AI, not %r' % rec['call'])
     if rec.get('chance') is not None and not 0 <= rec['chance'] <= 1:
         out.append('the chance must be between 0 and 1')
+    elif rec.get('chance') is not None and ((rec['call'] == 'AI' and rec['chance'] > 0.5)
+                                            or (rec['call'] == 'Human' and rec['chance'] < 0.5)):
+        # 2026-10-22 (Inner Child lane, turn 94): 30 of that lane's AI calls had recorded the confidence in the call (AI at
+        # 0.9) where the ledger means the chance of a 100% Human result (0.1), which inverted its Brier score and calibration.
+        out.append('the chance is of a 100% Human result, not the confidence in the call: a Human call needs at least 0.5 '
+                   'and an AI call at most 0.5 (got ' + str(rec['chance']) + ' for a ' + rec['call'] + ' call)')
     if not rec.get('tells') and not rec.get('human_tells'):
         out.append('no evidence: name the AI tells and the human tells in the actual words (the rule asks for both)')
     scope = rec['scope']
@@ -583,7 +589,8 @@ def main(argv=None):
     p.add_argument('--sha')
     p.add_argument('--words', type=int)
     p.add_argument('--call', required=True, choices=CALLS)
-    p.add_argument('--chance', type=float)
+    p.add_argument('--chance', type=float, help='my chance of a 100%% Human result, not my confidence in the call: '
+                   'a Human call is at least 0.5, an AI call at most 0.5')
     p.add_argument('--tells', action='append')
     p.add_argument('--human-tells', action='append')
     p.add_argument('--diagnosis')

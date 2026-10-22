@@ -184,7 +184,9 @@ And if the grown-up you is there, and it's just how deep you're going that's too
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a04): round 2 (check t90s_A, first try) read AI here: Medium 25, High 32, Medium 9, High 21 and Medium 9, all of it. The tells: two follow-ups that reassure or explain ("A couple of lines on your phone is plenty.", "After a while away, it gets hard to remember."), a "So" summary and an either-or closer. The two follow-ups are cut, and the last two sentences are one. Lint CLEAR. Not yet checked in Pangram. -->
 
-A full break from your little one is a last resort. Sometimes it isn't up to you, though, like when something's actually unsafe. If you do need one, I'd jot down why, and how far you'd gotten before it got to be too much. Once that reason has changed and you want to come back, start where the note says it was still okay, or a bit gentler.
+<!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a04): round 3: Low 14, Low 23 and Medium 24, from its second sentence on. The tells left: a concession turned on "though", a two-part instruction, and an either-or closer ("or a bit gentler"). The concession is a clause of the first sentence, and the note and the return are one sentence. Lint REVIEW. Not yet checked in Pangram. -->
+
+A full break from your little one is a last resort, unless something's actually unsafe. If you do need one, I'd jot down why and how far you'd gotten, and come back there once that reason has changed.
 
 <!-- Turn 78 (Joel's answer to question 70: A, 2026-10-21 00:49 UTC, experiments/t78-answers/JOEL-20261021-0049.md; GPT's r03 files in experiments/t78-structure/gpt-r03/): Joel's "mess and all" paragraph stays early, here at the start of Before You Try to Go Deep, so the order doesn't tell people to wait until they're sorted out; the rest of First Social Connections, Done Right moved to Borrowed Adulthood in Relationship (GPT's M01, my change). -->
 
@@ -192,7 +194,9 @@ A full break from your little one is a last resort. Sometimes it isn't up to you
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a05): round 2 (check t90s_A, first try) read AI here: Low 74, all of it. The tells: a question answered with a short knock-down ("I really don't think so."), an aphorism that restates the first sentence ("waiting just means more of being alone") and a "So" closer. The question and its knock-down are one plain sentence of mine, and the aphorism is cut. Lint REVIEW. Not yet checked in Pangram. -->
 
-If being alone was a big part of what hurt in the first place, then reaching toward people is part of taking care of your little one too. I wouldn't wait until you've got yourself sorted out. So I'd call somebody or show up somewhere, mess and all.
+<!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a05): round 3: High 28 on its first sentence and Low 23 on the rest. The tells left: a general conditional explanation ("If ..., then reaching toward people is part of taking care of your little one too"), the tell I hadn't named in turn 93. One sentence: what I'd do, and why. The lint FAILs it (E125), reading the idiom "mess and all" as the last item of a list; it isn't a list, and the paragraph is known by that phrase (question 70), so it stays. Lint FAIL (judged a false positive). Not yet checked in Pangram. -->
+
+If being alone was a big part of what hurt, I'd call somebody now, mess and all, since reaching toward people is part of taking care of your little one too.
 
 <!-- The original bottom-up-healing embed belongs after readiness; exact native source remains source-recovery pending. -->
 
@@ -214,7 +218,9 @@ When your nervous system is flooded, your protective parts are busy with the flo
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a06): round 2 (check t90s_A, first try) read AI here: Low 115, from its second sentence into his P5. The tells: a quip ("or stuff you'd rather never have met"). It's cut; the rest of the window is his P5. Lint CLEAR. Not yet checked in Pangram. -->
 
-Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much. This kind of work can bring up grief and fear, and sometimes hard dreams. And being present through all of it doesn't mean it wasn't too much. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.
+<!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a06): round 3: Low 14, Medium 15 and Low 31, from its second sentence on. The tells left: a negation reframe ("doesn't mean it wasn't too much"), Medium. Its point (his turn-73 decision) is now a second test in the first sentence, so the negation sentence is gone. Lint REVIEW. Not yet checked in Pangram. -->
+
+Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much, or by whether you stayed present through it. This kind of work can bring up grief and fear, and sometimes hard dreams. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.
 
 <!-- Turn 74 (his message of 2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md)): 62, C ("it's human now, i fixed it, pasted"): his Before You Try to Go Deep as he pasted it at 00:08 UTC; this paragraph is his version (experiments/t74-guide/joel-before-you-try-20261019-0008.txt). It is turn 72's P5 h, with the guide's list of what to change in it and "change several things at once" out (54, 8 and 11). His section as pasted: Before You Try to Go Deep Human Written (0.093, high, 4023 words, all three windows Human), https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9; his checking paragraph alone Human Written (0.073), https://www.pangram.com/history/d2aeb146-d0e1-446e-8226-2f07aaaa161f (round t74a). -->
 
@@ -774,7 +780,9 @@ But with the borrowed adulthood trick, the new grown-up can start outside your h
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a12): round 2 (check t90s_A, first try) read AI here: Low 85, all but its last sentence. The tells: a stock frame ("it helps to") and a wry aside ("(it doesn't have to be a flattering name)"). Both are out. Lint REVIEW. Not yet checked in Pangram. -->
 
-That voice can get into your reparenting, too. A good routine kept in the warden's tone still feels like punishment, so your little one goes along with it for a while and then starts avoiding it. If answering the voice feels disloyal, give it a name of its own, like the Critic, so you're arguing with what it says and leaving your parents out of it. You could also write its lines down, with who said them and when. Comfort your little one first, then write a reply to each line, firm or funny but never mean (ST-CA has this as an exercise, section 18.12.2).
+<!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a12): round 3: Low 8, High 60 and Low 13, all but its last sentence. The tells left: a signpost opener ("That voice can get into your reparenting, too."), a cause-and-effect chain, a balanced purpose clause ("arguing with what it says and leaving your parents out of it") and "You could also". The opener, the chain and the purpose clause are cut; the writing-down step is plain. Lint CLEAR. Not yet checked in Pangram. -->
+
+A good routine kept in the warden's tone still feels like punishment to your little one. If answering the voice feels disloyal, give it a name of its own, like the Critic. Write its lines down, with who said them and when. Comfort your little one first, then write a reply to each line, firm or funny but never mean (ST-CA has this as an exercise, section 18.12.2).
 
 <!-- Turn 90 (the Schema Hacks additions, Joel 2026-10-22 18:03 UTC (experiments/t90-answers/), the five GPT's advice recommends with its corrections, experiments/t89-results/RESULT-A-meta.json, check t88s_A: Mostly Human Written, 7.2% AI, 41 of 254 windows): 2, the feeling and how you treat yourself for having it ("can also", so not every flood is the critic), at the end of the section, since his P3 has to follow P2 (claim parent-you-inherited-p4-p5). Drafts: experiments/t89-drafts/. Lint REVIEW. Not yet checked in Pangram. -->
 
@@ -824,11 +832,15 @@ Daniel Kahneman and Gary Klein came at intuition from two camps of research that
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a14): round 2 (check t90s_A, first try) read AI here: Low 7, High 37, Low 18, Medium 27, High 21 and Medium 39, all of it. The tells: a signpost opener ("the same kind of listening"), a colon list, two-step advice ("hear it out and then go see"), a quip ("(Or they do, and you survive it.)") and a balanced pair ("and find out how right it was later"). Each is cut, with one example of the guess, and the danger and the doctor are one sentence. Lint REVIEW. Not yet checked in Pangram. -->
 
-Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. When it's safe to find out, I'd go see. Maybe nobody laughs. If it might be real danger, though, or something a doctor should look at, I'd deal with that first.
+<!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a14): round 3: Low 11, Low 3 and High 36, its last three sentences. The tells left: a short piece of advice with a short follow-up ("Maybe nobody laughs."), and a conditional closer on "though". The two pieces of advice are one sentence. Lint CLEAR. Not yet checked in Pangram. -->
+
+Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see.
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a15): round 2 (check t90s_A, first try) read AI here: Medium 39, High 21 and Medium 23, all of it. The tells: two parallel conditionals ("If ..., that's enough to stop. And if ..., I'd stop there too.") and a tidy follow-up. They're one sentence. Lint REVIEW. Not yet checked in Pangram. -->
 
-Some of it I wouldn't test at all, even when it sounds like a prediction. When a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop, even if it can't tell you why.
+<!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a15): round 3: High 36 on its first sentence and Low 35 on the second. The tells left: a signposting opener ("Some of it I wouldn't test at all, even when ...") and a concession closer ("even if it can't tell you why"). One sentence that starts with the part. Lint REVIEW. Not yet checked in Pangram. -->
+
+If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.
 
 ### Two Common Guarding Patterns
 

@@ -1397,12 +1397,12 @@
   {
    "id": "pgq-004-anxiety",
    "status": "claim",
-   "what": "Claim check: Joel's update queue item PGQ-004 (anxiety can protect without being an oracle; testing a prediction never overrides a no) is in Start With Whatever Showed Up, after \"Or if you do get an answer…\". Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones.",
+   "what": "Claim check: Joel's update queue item PGQ-004 (anxiety can protect without being an oracle; testing a prediction never overrides a no) is in Start With Whatever Showed Up, after \"Or if you do get an answer…\". Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones. Turn 94: round 3's windows on P9's end and P10 cut again (experiments/t94-tells/), so the exact strings are the current ones.",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"; 2026-10-07 16:46: \"maybe you can continue with the rest from there?\"",
    "where": "Start With Whatever Showed Up",
    "must_contain_exact": [
-    "Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. When it's safe to find out, I'd go see. Maybe nobody laughs. If it might be real danger, though, or something a doctor should look at, I'd deal with that first.",
-    "Some of it I wouldn't test at all, even when it sounds like a prediction. When a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop, even if it can't tell you why."
+    "Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see.",
+    "If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction."
    ]
   },
   {
@@ -2805,7 +2805,7 @@
   {
    "id": "joel-70a-structure-20261021",
    "status": "applied",
-   "what": "GPT's r03 structure moves as Joel picked them (question 70: A), every paragraph kept: M01 with his \"mess and all\" paragraph kept early; M02; M03; M04 only as Altered States as its own h1 right after When the Adult Voice Feels Fake, his run kept in his order (its two sub-moves and GPT's help-first order in If You Want to Kill Yourself not taken; that one is question 74); M05 (The Inner Guide, the four authority paragraphs in Don't Give the Inner Adult Away); M06 only for the end sections (Ask God for a Loan, PRE-APPROVED! and When the Spiritual Relationship Hurts stay in Borrow Love); M07 with GPT's heading Hearthwork: Taking Turns; M08's ending. When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time and its empty heading went. Pointer repairs: \"ask yourself again\" to \"ask yourself\", \"I'll talk more about those next\" to \"in the appendix\", \"the same test as back in Timing Is Individual\" to \"as in Timing Is Individual, further down\". His divider after If You Want to Kill Yourself is back. Not yet checked in Pangram in its new places.",
+   "what": "GPT's r03 structure moves as Joel picked them (question 70: A), every paragraph kept: M01 with his \"mess and all\" paragraph kept early; M02; M03; M04 only as Altered States as its own h1 right after When the Adult Voice Feels Fake, his run kept in his order (its two sub-moves and GPT's help-first order in If You Want to Kill Yourself not taken; that one is question 74); M05 (The Inner Guide, the four authority paragraphs in Don't Give the Inner Adult Away); M06 only for the end sections (Ask God for a Loan, PRE-APPROVED! and When the Spiritual Relationship Hurts stay in Borrow Love); M07 with GPT's heading Hearthwork: Taking Turns; M08's ending. When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time and its empty heading went. Pointer repairs: \"ask yourself again\" to \"ask yourself\", \"I'll talk more about those next\" to \"in the appendix\", \"the same test as back in Timing Is Individual\" to \"as in Timing Is Individual, further down\". His divider after If You Want to Kill Yourself is back. Not yet checked in Pangram in its new places. Turn 94: the paragraph's opening is reworded for 4.1 (experiments/t94-tells/, c02), so its order check names the new opening.",
    "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"70a\"",
    "where": "the whole article; GPT's files in experiments/t78-structure/gpt-r03/",
    "must_have_line": [
@@ -2833,7 +2833,7 @@
     "# My Journey",
     "## Don’t Give the Inner Adult Away",
     "# Before You Try to Go Deep",
-    "If being alone was a big part of what hurt in the first place",
+    "If being alone was a big part of what hurt, I'd call somebody now",
     "## Your Body Might Need Some Love First",
     "# Borrow the Adult Before You Can Be the Adult",
     "## Borrow One Competency at a Time",

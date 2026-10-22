@@ -1264,3 +1264,37 @@ His two messages, saved first (`t93-answers/JOEL-20261022-1901.md`): "83 i don't
 ### Next
 
 1. His two links: read them (`tools/humanization/pangram_feed_read.js`), record #44 and #45, and score each turn-93 item. A third try that still reads AI goes to him. Then his question-84 answers.
+
+## Turn 94 (2026-10-22, from 19:50 UTC): round 3; the questions page and the scorecard
+
+His messages, saved first (`t94-answers/JOEL-20261022-1950.md`): the two links of the third label round, then "you didn't give me an answers page. isn't that a standing rule to always give answers page ..?" He stopped my first step to add: "and where is the scorecard isn't that something you are keeping track of so we can help you get better at your predictions etc?"
+
+- **Both were misses.** Under UDA `patterns/owner-questions-page.md` (rules 1 and 2), every reply points to the questions page, and where the surface can publish one, the file is also published as a page. This lane only had the file. Its handoff routine also says to send the pages with OWNER-QUESTIONS.md every turn.
+  - The page is now published: https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E, rebuilt from the file by `tools/questions_page.py`.
+  - `tools/pangram_lanes.json` gives this lane "page": false, so only its writer builds its scorecard, and I never had. The shared page was last built on 2026-10-21.
+  - `tools/build_scorecard.py` now builds `tools/SCORECARD.md` and `state/PANGRAM-SCORECARD.md`, and touches no other lane's page.
+- **The scorecard found a bug.** 30 of this lane's AI calls (#38 to #75) had recorded my confidence in the AI call (0.9) where the ledger's chance is of a 100% Human result (0.1). That inverted the Brier score (0.345 against a base rate of 0.247; 0.208 once fixed).
+  - The records are fixed in place, each keeping its old number in `chance_fixed`.
+  - `pangram_ledger.py` now refuses a Human call under 0.5 or an AI call over 0.5, with a test (13 tests pass).
+  - The hypnosis lane's ledger has one such record (HG35#12), left for its writer.
+- **Predictions first:** one per changed paragraph (#46 to #75), made before I read round 3.
+- **Round 3** (`t94-results/ROUND3-RESULTS.json`):
+  - Half A: 5.4% AI, 30 of 206 windows (round 2: 9.5%, 54).
+  - Half B: 2.0%, 9 of 158 (was 5.3%, 23).
+  - Both Mostly Human Written; #44 and #45 right.
+  - 17 of the 30 changed paragraphs read Human, 6 of the 11 third tries among them.
+  - The item predictions: 17 of 30 right, the same as always calling Human. Of the 13 misses, 11 were too pessimistic about a cut, 1 had a tell I hadn't named, and 1 was a window that moved onto his line. Each is explained in the ledger.
+- **His stretches:**
+  - Four now read Human with nothing changed (84.1, 84.2, 84.5, 84.6), so my pick for them is now to leave them.
+  - Still AI: 84.3 (Low), 84.4 (High), 84.7 (Low; it was High), 84.8 (High).
+  - His 82a paragraph read Human on its first check.
+  - Newly AI: his line in When the Practice Feels Real but Stays Shallow, with my sentence after it (Low 38). Left for now.
+- **Third tries still AI go to him** (question 85): Two Common Guarding Patterns P1 to P4, and Start With Whatever Showed Up P8.
+- **One more cut, mine** (`t94-tells/`, c01 to c06): Before You Try P3 and P4, Your Body P4, The Parent You Inherited P4, and Start With Whatever Showed Up P9 and P10.
+  - Lint: two CLEAR, three REVIEW, and c02 FAIL. E125 read the idiom "mess and all" as the end of a list of three; it isn't one, and question 70's record names the paragraph by that phrase, so it stays.
+  - Owner edits: 181 of 181, with the `pgq-004-anxiety` and `joel-70a-structure-20261021` strings updated.
+  - Not yet checked.
+
+### Next
+
+1. His answers to 84 and 85. Then a fourth label round with c01 to c06 and whatever his answers change: predictions first, starting a cut of a named tell near 0.6. After every result, run `tools/build_scorecard.py`, and link the questions page and the scorecard in the reply.
