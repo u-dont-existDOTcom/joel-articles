@@ -1,0 +1,25 @@
+{
+ "limit_chars": 95000,
+ "parts": [
+  {
+   "part": "A",
+   "payload": "PAYLOAD-A.html",
+   "text": "TEXT-A.txt",
+   "chars": 85115,
+   "words": 15642,
+   "payload_sha256": "4e4a124f5ddb440bb2c0be066ba4fdad4d166bfbf54116f7200f9a134989e3bc",
+   "first": "Welcome, lovey bunnies!",
+   "last_h1": "When the Adult Voice Feels Fake"
+  },
+  {
+   "part": "B",
+   "payload": "PAYLOAD-B.html",
+   "text": "TEXT-B.txt",
+   "chars": 70577,
+   "words": 12519,
+   "payload_sha256": "ceceb765b4aa259efc9fd60384432e98eb7ee8c615c7bcd629feb69af48d99a8",
+   "first": "Altered States Can Deepen the Therapy",
+   "last_h1": "Appendix"
+  }
+ ]
+}

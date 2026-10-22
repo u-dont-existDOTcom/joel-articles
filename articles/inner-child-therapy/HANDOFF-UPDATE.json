@@ -1,31 +1,31 @@
 {
- "turn": 86,
+ "turn": 88,
  "replace": [
   [
-   "\\-\\ TURN\\ 85\\ \\(2026\\-10\\-22,\\ his\\ message\\ of\\ 13:22\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.",
-   "- TURN 85 (2026-10-22, his message of 13:22 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
+   "\\-\\ TURN\\ 86\\ \\(2026\\-10\\-22,\\ his\\ message\\ of\\ 14:26\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.",
+   "- TURN 86 (2026-10-22, his message of 14:26 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
    1
   ],
   [
-   "1\\.\\ His\\ answers\\ to\\ questions\\ 76\\ to\\ 79\\ on\\ OWNER\\-QUESTIONS\\.md,\\ and\\ his\\ delete\\ of\\ the\\ two\\ temporary\\ Substack\\ drafts\\ \\(A\\ and\\ B\\)\\.",
-   "1. His answers to 76, 77.2 to 77.8, 78 and 79.3 on OWNER-QUESTIONS.md, and his delete of the two temporary Substack drafts (A and B).",
+   "1\\.\\ His\\ answers\\ to\\ 76,\\ 77\\.2\\ to\\ 77\\.8,\\ 78\\ and\\ 79\\.3\\ on\\ OWNER\\-QUESTIONS\\.md,\\ and\\ his\\ delete\\ of\\ the\\ two\\ temporary\\ Substack\\ drafts\\ \\(A\\ and\\ B\\)\\.",
+   "1. His go-ahead to click the two Pangram labels in his Brave while he watches, then his two pangram.com/feed/ links; his answers to 81 (the three names in his nutshell) and 78.2 (the couples book) on OWNER-QUESTIONS.md; once the results are recorded, his delete of the two temporary Substack drafts (A and B).",
    1
   ],
   [
-   "2\\.\\ His\\ merge\\ of\\ the\\ next\\ turn's\\ pull\\ request\\ \\(\\#212,\\ turn\\ 85,\\ is\\ merged\\)\\.",
-   "2. His merge of pull request #213 (turn 86).",
+   "2\\.\\ His\\ merge\\ of\\ the\\ next\\ turn's\\ pull\\ request\\ \\(\\#213,\\ turn\\ 86,\\ is\\ merged\\)\\.",
+   "2. His merge of pull request #214 (https://github.com/u-dont-existDOTcom/joel-articles/pull/214), turns 87 and 88.",
    1
   ],
   [
-   "1\\.\\ His\\ answers\\ to\\ 76\\ to\\ 79:\\ put\\ in\\ his\\ picks\\ \\(with\\ any\\ book\\ additions\\ he\\ chooses\\)\\ and\\ rework\\ the\\ AI\\ windows",
-   "1. His answers to 76, 77.2 to 77.8, 78 and 79.3: put in his picks, with the core paragraph and 77.3's passage in the settled names (questions page, Decided, turn 86) and any book additions, and rework the AI windows",
+   "1\\.\\ His\\ answers\\ to\\ 76,\\ 77\\.2\\ to\\ 77\\.8,\\ 78\\ and\\ 79\\.3:\\ put\\ in\\ his\\ picks,\\ with\\ the\\ core\\ paragraph\\ and\\ 77\\.3's\\ passage\\ in\\ the\\ settled\\ names\\ \\(questions\\ page,\\ Decided,\\ turn\\ 86\\)\\ and\\ any\\ book\\ additions,\\ and\\ rework\\ the\\ AI\\ windows\\ \\(experiments/t82\\-results/AI\\-WINDOWS\\.md\\)\\ in\\ the\\ same\\ round,\\ faithful\\ first;\\ then\\ one\\ free\\ Substack\\ check\\ per\\ changed\\ section\\ \\(titles\\ without\\ \"Pangram\",\\ E205;\\ tell\\ him\\ before\\ clicking\\ the\\ label,\\ so\\ he\\ can\\ watch\\ where\\ the\\ analysis\\ opens\\);\\ then\\ he\\ deletes\\ the\\ temporary\\ drafts\\ \\(E204\\)\\.\\ Use\\ the\\ short\\ path\\ \\(How\\ a\\ turn\\ runs\\)\\.",
+   "1. The free Substack check, with him watching: when he says go, open the two drafts' paid-view share links in his Brave with Claude in Chrome (in chat at the end of turn 88; or Preview, Paid subscriber view, Share in each draft, read from the page's text box, never the Copy button), let each Pangram label settle, and click it while he watches (the analysis opens outside Claude in Chrome's tabs). Then his two pangram.com/feed/ links, read with tools/humanization/pangram_feed_read.js; results for t88s_A (#40) and t88s_B (#41) in articles/inner-child-therapy/tools/pangram-ledger.jsonl; rework of my text that reads AI; question 82 for his paragraphs' windows, with the flagged words and the smallest fixes (E171); his answer to 81. Then he deletes the drafts (E204). Use the short path (How a turn runs).",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 85 (2026-10-22",
-   "- TURN 86 (2026-10-22, his message of 14:26 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #213 (https://github.com/u-dont-existDOTcom/joel-articles/pull/213) for him to merge.\n  - His message, word for word: experiments/t86-answers/JOEL-20261022-1426.md (\"ok i like gpt's response\"), with GPT's reply on the names in the same folder.\n  - Settled, under Decided on the questions page: learned patterns as the umbrella; learned expectations; response patterns (coping patterns for difficulty, guards for protective responses); the parent script you inherited; plain Protector (so 77.1 A); reparenting as the relationship, its care becoming second nature, with play part of the point. Use these words in every draft from now on.\n  - NEXT: his answers to 76, 77.2 to 77.8, 78 and 79.3; then the round.\n"
+   "- TURN 86 (2026-10-22",
+   "- TURN 88 (2026-10-22, his messages of 15:33 UTC, turn 87, and 16:12 UTC, turn 88; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #214 (https://github.com/u-dont-existDOTcom/joel-articles/pull/214) for him to merge, with turns 87 and 88.\n  - His messages, word for word: experiments/t87-answers/JOEL-20261022-1533.md (76 to 79; forced adulthood was missing from the stages, so his new stage 1 and Chicken-and-Egg P2) and experiments/t88-answers/JOEL-20261022-1612.md (80; 77.5 and 77.8; his own nutshell, which he checked).\n  - In the article, with notes; owner edits 179 pass (entries joel-87-20261022 and joel-88-20261022): his nutshell as the first text, without a heading; his stage 1 (with 80.1's words) and P2 (\"wrong with\"); the renames (Two Common Guarding Patterns, Hear the Guard First, the Protector); 77.3's two paragraphs; the children's book (ST-CA) sentences, cited by section; 77.8 in the Schema Therapy appendix; his 77.5 line; my seven reworked AI-window paragraphs. None checked in Pangram yet, except his nutshell.\n  - Substack: experiments/t88-substack/ (payloads A and B, the article in two halves at an h1; predictions t88s_A #40 and t88s_B #41; turn 87's #38 and #39 voided unchecked). Both are pasted into our two temporary drafts and verified with paste_payload_lane.js: clear the body with real ctrl+a, Delete first; the words match the payload with quotes straightened; B's one note link shows as its embedded note. Never published.\n  - The hypnosis lane's two drafts are titled \"TEMP Pangram recheck...\" again (E205; its helper needs that prefix). Told him; not ours to rename.\n  - NEXT: Next step 1, the label clicks with him watching.\n"
   ]
  ]
 }

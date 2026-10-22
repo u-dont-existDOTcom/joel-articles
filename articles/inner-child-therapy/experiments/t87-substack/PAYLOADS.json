@@ -1,0 +1,25 @@
+{
+ "limit_chars": 95000,
+ "parts": [
+  {
+   "part": "A",
+   "payload": "PAYLOAD-A.html",
+   "text": "TEXT-A.txt",
+   "chars": 84922,
+   "words": 15632,
+   "payload_sha256": "1014758485844ea914e51acd395c49a6a4b6f8ffc5e2e6f8d7055c8fc3a83656",
+   "first": "Reparenting in a nutshell",
+   "last_h1": "When the Adult Voice Feels Fake"
+  },
+  {
+   "part": "B",
+   "payload": "PAYLOAD-B.html",
+   "text": "TEXT-B.txt",
+   "chars": 70515,
+   "words": 12508,
+   "payload_sha256": "cf2ee894bfa9a8586430398923ff99f93f8b49ab4c7a3e271c899f779fd5b303",
+   "first": "Altered States Can Deepen the Therapy",
+   "last_h1": "Appendix"
+  }
+ ]
+}
