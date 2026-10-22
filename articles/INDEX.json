@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "29229b375eeff3f3638ddf051488c3ffe7767021af318468ee8eee6b9064701a",
+          "sha256": "212f2eefa67ee0aca73181975e90e42b363e100c60d3f32a315b96017a825b91",
           "role": "humanization_working_record"
         },
         {
@@ -23245,6 +23245,11 @@
         {
           "path": "articles/inner-child-therapy/experiments/t84-answers/JOEL-20261022-1215.md",
           "sha256": "94eee66869b95a67b6c4512a9e2768fe56eaa4f06b5bdac494c6d023b97437c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t84-books/README.md",
+          "sha256": "0a4b4919a17442d399f65c77e28f629fd4c01ae5c70b06f3389e7f657ea9c115",
           "role": "humanization_working_record"
         }
       ]
