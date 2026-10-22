@@ -1,0 +1,87 @@
+{
+ "round": 2,
+ "A": {
+  "link": "https://www.pangram.com/feed/6f8cedb3-2d03-46b2-87c4-837e39982d56",
+  "prediction": "t90-substack-A#42",
+  "created_at": "2026-10-22T14:22:15.503280-04:00",
+  "headline": "Mostly Human Written",
+  "fraction_ai": 0.09519272297620773,
+  "num_ai_segments": 54,
+  "num_human_segments": 205,
+  "n_windows": 259,
+  "word_count": 16176,
+  "text_sha256": "6b6a6d4ac982db38ef167df9704186473be4258ed6b581b87829330236bd9326",
+  "ai_distribution": "AI-generated content appears at the start and end",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "human"
+  }
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/fcdabffa-89d5-4fcc-a630-67da71d2021b",
+  "prediction": "t90-substack-B#43",
+  "created_at": "2026-10-22T14:22:23.791693-04:00",
+  "headline": "Mostly Human Written",
+  "fraction_ai": 0.05327066406607628,
+  "num_ai_segments": 23,
+  "num_human_segments": 159,
+  "n_windows": 183,
+  "word_count": 13000,
+  "text_sha256": "17d772aa15a3387db5859ed9f7e7116fdd62edd0dc84b202cbb18232e1046818",
+  "ai_distribution": "AI-generated content appears in scattered patches",
+  "document_confidence": {
+   "level": "Low",
+   "boundary": "human"
+  }
+ },
+ "ai_window_begins": "ROUND2-AI-WINDOW-BEGINS.json (window index -> opening words)",
+ "by_paragraph": {
+  "fixed_since_round_1": [
+   "The Chicken-and-Egg Problem P15 (mine)",
+   "Two Common Guarding Patterns P1 (mine)",
+   "When to Change the Strategy P3 (mine) and P4 (his ending)",
+   "If You Want to Kill Yourself P6 and P7 (mine)",
+   "Borrowed Adulthood in Relationship P1 (mine)",
+   "The Inner Guide P5 (mine)"
+  ],
+  "additions_human": [
+   "Hear the Guard First P5 (protective self-blame)",
+   "The Parent You Inherited P5 (the pile-up)",
+   "Borrow Love, the dishes sentence"
+  ],
+  "mine_still_ai_after_two_tries": [
+   "Don't Give the Inner Adult Away P7 and P8",
+   "Two Common Guarding Patterns P2, P3, P4",
+   "Borrow Hindsight P1",
+   "The Inner Guide P4",
+   "How Much Happiness Do You Know Is Possible? P3"
+  ],
+  "mine_new_or_turn87_ai": [
+   "Untangling the Belonging Bargains P4 (the loyalty bargain, turn 90)",
+   "Write It. Don't Send It Yet. P7 (their side, turn 90)",
+   "The Parent You Inherited P4 (turn 87, ST-CA)",
+   "The Inner Guide P1 (turn 87, ST-CA tone line)",
+   "Untangling the Belonging Bargains P1 (turn 87, ST-CA family rules)",
+   "Start With Whatever Showed Up P8 (turn 87 rework)",
+   "Borrow Hindsight P2 (turn 87 rework)"
+  ],
+  "unchanged_newly_ai": [
+   "Borrow One Competency at a Time P9",
+   "Just Like Me P1 and P2",
+   "Start With Whatever Showed Up P9 and P10",
+   "Let the Child Be Bad at Things P3",
+   "How Much Happiness Do You Know Is Possible? P5",
+   "Somatic Heart Opening P1",
+   "Untangling the Belonging Bargains P3"
+  ],
+  "his_still_ai": [
+   "Don't Give the Inner Adult Away P9 (his guide's line)",
+   "Before You Try to Go Deep P1 to P4",
+   "Your Body Might Need Some Love First P4 and P5",
+   "Use Childhood Photographs Gently P1",
+   "How Much Happiness Do You Know Is Possible? P4",
+   "How This Relates to IFS P7",
+   "Related Clinical Work P1"
+  ]
+ }
+}
