@@ -1226,6 +1226,75 @@ His message, saved first (`t92-answers/JOEL-20261022-1835.md`, with GPT's review
 - **Question 83:** the method, since rewording through whole-half rounds moves windows about as much as it removes them. My pick is checking my paragraphs one at a time on pangram.com before the next whole-half round, cutting an addition that still fails, and sending his flagged stretches to him in one file.
 - **The two books:** staged from his books folder (connected as `/mnt/hdd/storage/joel/SSD-offload/Documents/books/therapy`). A Sonnet agent is checking GPT's thirteen claims against them (`t92-books/BOOK-CHECK.md`), so the Schema Therapy appendix's comparison can be made accurate. GPT's own conclusion is to fix that comparison, not to add a backlog of material.
 
+- **The book check** (`t92-books/BOOK-CHECK.md`): all 13 of GPT's claims confirmed. The childhood imagery is at the end of chapter 14, not 15, and the chapter-15 dialogue is a short suggestion inside a case story. *Emotional Alchemy* is Buddhist and integrative, not theistic. *Mindfulness and Schema Therapy* is a secular training with the Buddhist model as background (chapter 3). Neither has a way of receiving love from God, and "gratitude" appears in neither.
+- **The appendix:** How This Relates to Schema Therapy P2 now names *Emotional Alchemy* (it fits a Buddhist loving-kindness wish to each schema), and the loan of love from God "isn't in her book or in the standard method". It is my text; his "in my opinion" sentence is unchanged. Lint CLEAR; checks 181 of 181; not yet checked in Pangram. GPT's possible teaching addition (match the form of care to what's needed) isn't added; the guide already teaches individual care.
+- **Delegated:** a Sonnet agent (general-purpose) checked the 13 claims in the two EPUBs (texts kept in the scratchpad). Its check: a verdict, location and quote of 15 words or fewer per claim, with the quotes machine-checked as verbatim. The outcome was 13 confirmed, with the location notes above.
+
 ### Next
 
-1. His answer to 83. When the book check reports, fix the Schema Therapy appendix's comparison with what the books really say. Then the method he picks.
+1. His answer to 83, then the method he picks.
+
+## Turn 93 (2026-10-22, from 19:01 UTC): 83 (find the tells myself); he isn't theistic
+
+His two messages, saved first (`t93-answers/JOEL-20261022-1901.md`): "83 i don't mind helping but as usual i like you to try yourself IF you know what looks like AI tells, then i can help you if you can't find the AI tells. so far your human tells have not been very good most times." Then, at 19:03: "also btw i should mention i'm also not theistic, i just used "loan from God" because it sounded good, but i'm not trying to get people to believe in God". At about 19:02 he declined my opening pangram.com's dashboard in the app's browser, so there are no paid checks. The free Substack check is the route.
+
+- **Not theistic:** How This Relates to Schema Therapy P2 now names gratitude as the difference, his door to the bigger love in Your Loan is PRE-APPROVED!, with "no belief in God required". *Emotional Alchemy* barely mentions gratitude. Lint CLEAR. The questions page's books entry says so.
+- **The feed pages, read again** for each window's words and confidence (`t93-tells/TELLS-ROUND2.md`).
+  - **A correction:** Two Common Guarding Patterns P1 did not read Human in round 2. Window 207 (High, 95 words) covers it and P2's start. Turn 92's list of window openings had missed 207, 213 and 215, so turn 92's "seven of my reworked paragraphs now read Human" is six. `ROUND2-AI-WINDOW-BEGINS.json` has the three windows added. `t92-results/CORRECTION-T93.md` says what `ROUND2-RESULTS.json` got wrong, and that file stays as recorded. The questions page says so.
+- **The tells pass** (`t93-tells/apply_t93.py`, `FIXES.json`, `TELLS-ROUND2.md`): 29 of my paragraphs, with the tells named from `docs/HUMANIZATION-GATE.md`'s 4.1 list. Each tell is cut, or its point said once in a plain clause, and nothing is added. This answers his "so far your human tells have not been very good".
+  - Eleven are third tries. Their earlier tries reworded; these cut.
+  - The loyalty-bargain paragraph is now the bargain itself, so his 82a "That's exactly why" follows it directly. Its small good thing is one sentence after his paragraph (the 82a check's order now includes it).
+  - **Points dropped with their tells**, listed for him: "I wouldn't argue with the feeling", "Laugh if it's funny", "before any imagery", "really are trying to protect you", and GPT's three caveats.
+  - **Lint:** run on each changed paragraph against the article before the pass. Four FAILed at first:
+    - two lists of three (the lint read "with praise and special attention" and "call somebody or show up somewhere, mess and all" as lists);
+    - E186 "X ... without Y", in "make the food yourself, without faking a feeling first";
+    - a coach phrase.
+
+    They were reworded, and all 30 changed paragraphs are now REVIEW or CLEAR.
+  - **Owner edits:** 181 passed, 0 failed, with the claim strings of `two-protective-patterns-h3`, `tp-p2-see-i-knew-it`, `pgq-004-anxiety` and `joel-92-20261022` updated.
+- **Question 84:** his eight flagged stretches, each with the tell and the smallest fix, for his OK. Also the places where I can't find a tell:
+  - four single Low sentences beside real tells;
+  - Two Common Guarding Patterns P3's three ways (his 77.3 content);
+  - Your Body Might Need Some Love First P4.
+- **The third label round** (`t93-substack/`, payloads at commit da96954c; predictions #44 and #45, both AI calls, since his eight stretches are untouched). Both drafts were cleared with real ctrl+a and Delete, pasted, and verified:
+  - A has 15,394 words, and its words hash matches.
+  - B has 12,697 words. That's the payload's 12,597 with the note link shown as its 101-word embed; without the embed, its words hash matches.
+  - Both were saved and are unpublished. Both labels read Human, and the label alone doesn't settle it. The two previews are open in his Brave, for him to click each label and copy the link from the side panel.
+
+### Next
+
+1. His two links: read them (`tools/humanization/pangram_feed_read.js`), record #44 and #45, and score each turn-93 item. A third try that still reads AI goes to him. Then his question-84 answers.
+
+## Turn 94 (2026-10-22, from 19:50 UTC): round 3; the questions page and the scorecard
+
+His messages, saved first (`t94-answers/JOEL-20261022-1950.md`): the two links of the third label round, then "you didn't give me an answers page. isn't that a standing rule to always give answers page ..?" He stopped my first step to add: "and where is the scorecard isn't that something you are keeping track of so we can help you get better at your predictions etc?"
+
+- **Both were misses.** Under UDA `patterns/owner-questions-page.md` (rules 1 and 2), every reply points to the questions page, and where the surface can publish one, the file is also published as a page. This lane only had the file. Its handoff routine also says to send the pages with OWNER-QUESTIONS.md every turn.
+  - The page is now published: https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E, rebuilt from the file by `tools/questions_page.py`.
+  - `tools/pangram_lanes.json` gives this lane "page": false, so only its writer builds its scorecard, and I never had. The shared page was last built on 2026-10-21.
+  - `tools/build_scorecard.py` now builds `tools/SCORECARD.md` and `state/PANGRAM-SCORECARD.md`, and touches no other lane's page.
+- **The scorecard found a bug.** 30 of this lane's AI calls (#38 to #75) had recorded my confidence in the AI call (0.9) where the ledger's chance is of a 100% Human result (0.1). That inverted the Brier score (0.345 against a base rate of 0.247; 0.208 once fixed).
+  - The records are fixed in place, each keeping its old number in `chance_fixed`.
+  - `pangram_ledger.py` now refuses a Human call under 0.5 or an AI call over 0.5, with a test (13 tests pass).
+  - The hypnosis lane's ledger has one such record (HG35#12), left for its writer.
+- **Predictions first:** one per changed paragraph (#46 to #75), made before I read round 3.
+- **Round 3** (`t94-results/ROUND3-RESULTS.json`):
+  - Half A: 5.4% AI, 30 of 206 windows (round 2: 9.5%, 54).
+  - Half B: 2.0%, 9 of 158 (was 5.3%, 23).
+  - Both Mostly Human Written; #44 and #45 right.
+  - 17 of the 30 changed paragraphs read Human, 6 of the 11 third tries among them.
+  - The item predictions: 17 of 30 right, the same as always calling Human. Of the 13 misses, 11 were too pessimistic about a cut, 1 had a tell I hadn't named, and 1 was a window that moved onto his line. Each is explained in the ledger.
+- **His stretches:**
+  - Four now read Human with nothing changed (84.1, 84.2, 84.5, 84.6), so my pick for them is now to leave them.
+  - Still AI: 84.3 (Low), 84.4 (High), 84.7 (Low; it was High), 84.8 (High).
+  - His 82a paragraph read Human on its first check.
+  - Newly AI: his line in When the Practice Feels Real but Stays Shallow, with my sentence after it (Low 38). Left for now.
+- **Third tries still AI go to him** (question 85): Two Common Guarding Patterns P1 to P4, and Start With Whatever Showed Up P8.
+- **One more cut, mine** (`t94-tells/`, c01 to c06): Before You Try P3 and P4, Your Body P4, The Parent You Inherited P4, and Start With Whatever Showed Up P9 and P10.
+  - Lint: two CLEAR, three REVIEW, and c02 FAIL. E125 read the idiom "mess and all" as the end of a list of three; it isn't one, and question 70's record names the paragraph by that phrase, so it stays.
+  - Owner edits: 181 of 181, with the `pgq-004-anxiety` and `joel-70a-structure-20261021` strings updated.
+  - Not yet checked.
+
+### Next
+
+1. His answers to 84 and 85. Then a fourth label round with c01 to c06 and whatever his answers change: predictions first, starting a cut of a named tell near 0.6. After every result, run `tools/build_scorecard.py`, and link the questions page and the scorecard in the reply.

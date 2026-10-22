@@ -92,15 +92,38 @@ The boundary mix over all lanes:
 |---|---|---|---|---|---|---|
 | paragraph | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
 
+## pangram-4.1-substack
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| inner child guide | 38 | 23 (61%) | 55% | 45% | 26% | 0.208 (base 0.247, 38) |
+| **all lanes** | 38 | 23 (61%) | 55% | 45% | 26% | 0.208 (base 0.247, 38) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| inner child guide | 38 | 23 (61%) | 55% | 45% | 26% | 0.208 (base 0.247, 38) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 30 | 17 (57%) | 43% | 57% | 27% | 0.235 (base 0.246, 30) |
+| stretch | 8 | 6 (75%) | 100% | 0% | 25% | 0.106 (base 0.000, 8) |
+
 ## What the misses say (since the ledger)
 
 | cause | misses | lanes |
 |---|---|---|
+| too pessimistic about a cut | 11 | inner child guide |
 | balanced closer kept | 3 | hypnosis guide |
+| not explained yet | 3 | inner child guide |
 | parallel list kept | 1 | hypnosis guide |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
 | fix underrated | 1 | hypnosis guide |
-| not explained yet | 1 | inner child guide |
+| a tell I did not name | 1 | inner child guide |
+| a window moved onto his line | 1 | inner child guide |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 

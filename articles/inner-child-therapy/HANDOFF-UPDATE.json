@@ -1,36 +1,30 @@
 {
- "turn": 92,
+ "turn": 94,
  "replace": [
   [
-   "\\-\\ TURN\\ 90\\ \\(2026\\-10\\-22,\\ his\\ message\\ of\\ 18:03\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.",
-   "- TURN 90 (2026-10-22, his message of 18:03 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
+   "\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#218",
+   "), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #218",
    1
   ],
   [
-   "pull\\ request\\ \\#216\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/216\\)\\ for\\ him\\ to\\ merge\\.",
-   "pull request #216 (https://github.com/u-dont-existDOTcom/joel-articles/pull/216) merged (2026-10-22 18:25 UTC).",
+   "^1\\. His two links from the third label round.*$",
+   "1. His answers to questions 84 and 85 (and 78.2) on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E; master copy OWNER-QUESTIONS.md); once the results are final, his delete of the two temporary Substack drafts (A and B).",
    1
   ],
   [
-   "1\\.\\ His\\ two\\ pangram\\.com/feed/\\ links\\ from\\ the\\ second\\ label\\ round\\ \\(Brave's\\ side\\ panel,\\ \"Copy\\ shareable\\ link\\ to\\ result\"\\);\\ then\\ his\\ answers\\ to\\ question\\ 82\\ \\(where\\ his\\ 14\\ years\\ of\\ crying\\ goes,\\ turn\\ 91\\),\\ question\\ 83\\ once\\ asked\\ \\(his\\ windows\\ that\\ remain\\)\\ and\\ 78\\.2\\ on\\ OWNER\\-QUESTIONS\\.md;\\ once\\ the\\ results\\ are\\ recorded,\\ his\\ delete\\ of\\ the\\ two\\ temporary\\ Substack\\ drafts\\ \\(A\\ and\\ B\\)\\.",
-   "1. His answer to question 83 (how to get what still reads AI to Human) and 78.2 on OWNER-QUESTIONS.md; once the results are final, his delete of the two temporary Substack drafts (A and B).",
-   1
-  ],
-  [
-   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#216\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/216\\),\\ turn\\ 90\\ \\(\\#215\\ is\\ merged\\)\\.",
-   "2. His merge of pull request #217 (https://github.com/u-dont-existDOTcom/joel-articles/pull/217), turns 91 and 92 (#216 is merged).",
-   1
-  ],
-  [
-   "1\\.\\ The\\ second\\ label\\ round's\\ results:\\ when\\ his\\ two\\ links\\ come,\\ read\\ each\\ with\\ tools/humanization/pangram_feed_read\\.js,\\ save\\ experiments/t90\\-results/RESULT\\-A\\-meta\\.json\\ and\\ RESULT\\-B\\-meta\\.json\\ \\(like\\ t89\\-results/\\),\\ record\\ t90s_A\\ \\(\\#42\\)\\ and\\ t90s_B\\ \\(\\#43\\)\\ in\\ articles/inner\\-child\\-therapy/tools/pangram\\-ledger\\.jsonl,\\ and\\ map\\ the\\ AI\\ windows\\ to\\ paragraphs\\ and\\ whose\\ words\\ they\\ are\\ \\(notes,\\ OWNER\\-EDITS\\.json,\\ his\\ 10\\-19\\ paste\\ in\\ experiments/t74\\-guide/\\)\\.\\ Rework\\ what\\ of\\ mine\\ still\\ reads\\ AI\\ \\(experiments/t89\\-drafts/\\ has\\ this\\ round's\\ drafts\\)\\.\\ Put\\ his\\ answer\\ to\\ question\\ 82\\ in\\ \\(his\\ 14\\ years\\ of\\ crying,\\ his\\ words\\ only\\)\\.\\ Then\\ question\\ 83:\\ his\\ windows\\ that\\ remain,\\ with\\ the\\ flagged\\ words\\ and\\ the\\ smallest\\ fixes\\ \\(E171\\)\\.\\ Then\\ the\\ next\\ payloads\\ \\(copy\\ experiments/t90\\-substack/make_payloads\\.py\\),\\ the\\ drafts\\ re\\-pasted\\ with\\ experiments/t88\\-substack/paste_payload_lane\\.js,\\ and\\ another\\ label\\ round\\.\\ Use\\ the\\ short\\ path\\ \\(How\\ a\\ turn\\ runs\\)\\.",
-   "1. Question 83's answer decides the method. Round 2's results are in experiments/t92-results/ (ROUND2-RESULTS.json lists every flagged paragraph: fixed, still AI after two tries, new, and his). With A (my pick), check my new and reworked paragraphs one at a time on pangram.com (each with its section, through tools/humanization/pangram_ledger.py, six tries per lineage, docs/PANGRAM-PRODUCTION-BUDGET-20261020.md), cut an addition that still fails down to what passes, and send his flagged stretches to him in one file with the smallest fixes (E171). Then a whole-half round through the two temporary drafts (experiments/t90-substack/make_payloads.py, experiments/t88-substack/paste_payload_lane.js; the result opens in Brave's side panel, so he copies the links). Also: when experiments/t92-books/BOOK-CHECK.md is in, fix the Schema Therapy appendix's comparison with what Emotional Alchemy and Mindfulness and Schema Therapy really say. Use the short path (How a turn runs).",
+   "^1\\. Read his two links in the built-in browser.*$",
+   "1. His answers to questions 84 and 85 (the questions page). Put his 84 answers in word for word; for 85, apply what his words or the tell he names show to Two Common Guarding Patterns P1 to P4 and Start With Whatever Showed Up P8. Then a fourth label round with turn 94's cuts (experiments/t94-tells/FIXES.json, c01 to c06) and his answers: payloads (copy experiments/t93-substack/make_payloads.py into a new tNN-substack folder), predictions first (one per changed paragraph, the chance of a 100% Human result; a cut of a named tell starts near 0.6, lower when its window runs into unchanged text), paste with experiments/t88-substack/paste_payload_lane.js after clearing the body with real ctrl+a, Delete, and wait for his two links. Read them with the item scorer in the turn-94 log (experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md), record the results, run tools/build_scorecard.py, and link the questions page and the scorecard. No pangram.com dashboard checks (he declined, 2026-10-22 19:02 UTC). Use the short path (How a turn runs).",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 91 (2026-10-22",
-   "- TURN 92 (2026-10-22, his messages of 18:25 and 18:35 UTC, turns 91 and 92; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #217 (https://github.com/u-dont-existDOTcom/joel-articles/pull/217) for him to merge.\n  - His messages, word for word: experiments/t91-answers/ (his 14 years of crying) and experiments/t92-answers/ (\"82a and add therapist reply also\"; the two result links; GPT's review of two books on schema therapy and spirituality).\n  - 82a: his paragraph after the loyalty bargain, his words only (entry joel-92-20261022).\n  - Round 2: half A 9.5% AI, half B 5.3%, both Mostly Human Written and worse than round 1 (experiments/t92-results/); #42 and #43 right. Question 83 asks the method.\n  - The two books are being checked against GPT's claims (experiments/t92-books/BOOK-CHECK.md), for the appendix's comparison.\n  - NEXT: Next step 1.\n"
+   "- TURN 93 (",
+   "- TURN 94 (2026-10-22, his messages of 19:50 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #218 (https://github.com/u-dont-existDOTcom/joel-articles/pull/218) for him to merge.\n  - His messages, word for word: experiments/t94-answers/JOEL-20261022-1950.md (round 3's two links; \"you didn't give me an answers page\"; \"where is the scorecard\").\n  - The questions page is published: https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E (tools/questions_page.py rebuilds it from OWNER-QUESTIONS.md). The scorecard: tools/SCORECARD.md and state/PANGRAM-SCORECARD.md (tools/build_scorecard.py). 30 AI calls had an inverted chance; fixed (chance_fixed), and pangram_ledger.py now refuses it.\n  - Round 3 (experiments/t94-results/ROUND3-RESULTS.json): half A 5.4% AI, half B 2.0%; 17 of the 30 turn-93 paragraphs read Human; my 30 item predictions 17 right.\n  - Question 85: Two Common Guarding Patterns P1 to P4 and Start With Whatever Showed Up P8, AI after three tries. Question 84 updated (four of his read Human now). One more cut in six of mine (experiments/t94-tells/), not yet checked.\n  - NEXT: Next step 1."
+  ],
+  [
+   "- Before every push:",
+   "- Every reply links the questions page, the published view https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E: after any change to OWNER-QUESTIONS.md, rebuild it (python3 articles/inner-child-therapy/tools/questions_page.py OUT.html) and republish to that link; only the account that published it can republish, so another account gives the file's GitHub link instead. After every recorded Pangram result, run python3 articles/inner-child-therapy/tools/build_scorecard.py and give him tools/SCORECARD.md's numbers with its link. The ledger's chance is of a 100% Human result, so an AI call is at most 0.5 (the tool refuses otherwise). Joel, 2026-10-22 19:50 UTC: \"isn't that a standing rule to always give answers page\" and \"where is the scorecard\"."
   ]
  ]
 }

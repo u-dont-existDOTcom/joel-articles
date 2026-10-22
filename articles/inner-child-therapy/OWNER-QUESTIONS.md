@@ -1,10 +1,10 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 92). **Open questions: 78.2 and 83.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 94). **Open questions: 78.2, 84 and 85.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`).
+The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`).
 
 ## Open questions
 
@@ -17,20 +17,71 @@ This file is the page's master copy, so either of your Claude accounts can read 
   - **B:** start on the romance guide now, with these three.
   - **C:** your words.
 
-### 🟣 83. What still reads AI, and how to get it to Human (turn 92)
+### 🟣 84. Your flagged words: the tells I'd fix (turn 93)
 
-Round 2 (`experiments/t92-results/ROUND2-RESULTS.json`): half A 9.5% AI (54 windows; it was 7.2%), half B 5.3% (23; it was 3.5%), both "Mostly Human Written".
+Round 2 read these stretches of your words as AI. For each I named the tell and the smallest fix. The details are in `experiments/t93-tells/TELLS-ROUND2.md`. Answer like `84.1 A`, or all at once (`84 all A`).
 
-- **Fixed by my rework:** Chicken-and-Egg P15, Two Common Guarding Patterns P1, When to Change the Strategy P3 and P4, If You Want to Kill Yourself P6 and P7, Borrowed Adulthood P1, The Inner Guide P5. Three of the five Schema Hacks additions read Human (self-blame, the pile-up, the dishes).
-- **Mine, still AI after two tries:** Don't Give the Inner Adult Away P7 and P8, Two Common Guarding Patterns P2 to P4, Borrow Hindsight P1, The Inner Guide P4, How Much Happiness P3. New and AI: the loyalty-bargain and "their side" additions, and the turn-87 children's-book lines in The Parent You Inherited P4, The Inner Guide P1 and Untangling P1.
-- **Windows that moved into paragraphs nobody changed:** Borrow One Competency P9, Just Like Me P1 and P2, Start With Whatever Showed Up P8 to P10, Let the Child Be Bad at Things P3, How Much Happiness P5, Somatic Heart Opening P1.
-- **Yours, still AI:** Before You Try to Go Deep P1 to P4, Your Body Might Need Some Love First P4 and P5, Use Childhood Photographs Gently P1, "Borrow adulthood. Do not surrender it.", How Much Happiness P4, How This Relates to IFS P7, Related Clinical Work P1.
+**Round 3 (turn 94, your links of 19:50 UTC; `experiments/t94-results/ROUND3-RESULTS.json`):**
+- 84.1, 84.2, 84.5 and 84.6 now read Human with nothing changed, so my pick for those four is now B, leave it.
+- Still AI:
+  - 84.3 (Low);
+  - 84.4 (High);
+  - 84.7 (Low; it was High);
+  - 84.8 (High).
 
-Rewording through whole-half rounds is moving windows about as much as it removes them.
+The eight, with my picks:
 
-- **A (my pick):** I check my new and reworked paragraphs one at a time on pangram.com, each with its section, before they go back into a whole-half check, within the budget's six tries per paragraph. If an addition of mine still fails, I cut it down to the part that passes and tell you what went. Your flagged stretches come to you in one file, with the flagged words and the smallest fix for each.
-- **B:** stop once each half reads "Mostly Human Written" under about 3% AI, without chasing every window.
-- **C:** you put the flagged stretches, mine too, in your own words, the way your nutshell passed.
+- **84.1 "Borrow adulthood. Do not surrender it."** (the end of Don't Give the Inner Adult Away). It's a two-beat maxim that restates the heading.
+  - **A:** cut it.
+  - **B (my pick since round 3, which read it Human):** leave it.
+  - **C:** your words.
+- **84.2 Before You Try to Go Deep P1.** It ends on a catch-all ("or to do whatever helps you come back a bit"). The list of four checks is the content, so it stays.
+  - **A:** cut the catch-all.
+  - **B (my pick since round 3, which read it Human):** leave it.
+  - **C:** your words.
+- **84.3 Your Body Might Need Some Love First P5.** "A lot of the time you just know." is a reassurance. It's my turn-38 words, which your paste kept.
+  - **A (my pick):** cut it.
+  - **B:** leave it.
+  - **C:** your words.
+- **84.4 Use Childhood Photographs Gently P1.** "Maybe you've tried picturing your little one and thought, ..." is a made-up reader scenario.
+  - **A (my pick):** "If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent."
+  - **B:** leave it.
+  - **C:** your words. If it happened to you, your own moment would beat both.
+- **84.5 Untangling the Belonging Bargains P1** (your GPT-deduped words). "Most groups expect some conformity, which is ordinary." is a reassuring aside.
+  - **A:** cut it.
+  - **B (my pick since round 3, which read it Human):** leave it.
+  - **C:** your words.
+- **84.6 Untangling P3's last sentence**, "Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead." It's a definition used as a closer. My paragraph right after it read High, though, so it may be spill.
+  - **A (my pick; round 3 read it Human):** leave it.
+  - **B:** cut ", and to keep your own ground instead".
+  - **C:** your words.
+- **84.7 How Much Happiness P4.** It has a list of three ("A meal can help, and so can a boundary or a kind sentence").
+  - **A (my pick):** drop "or a kind sentence".
+  - **B:** leave it.
+  - **C:** your words.
+- **84.8 Related Clinical Work P1, your last line.** It's a formal "rather than X or Y" disclaimer.
+  - **A (my pick):** cut "or claiming that their research validates it as a package".
+  - **B:** leave it.
+  - **C:** your words.
+
+The file also lists where I couldn't find a tell. That's three things:
+- four single Low sentences next to real tells;
+- Two Common Guarding Patterns P3's three ways (your 77.3 content);
+- Your Body P4.
+
+Nothing for you to do there unless they read AI again.
+
+### 🟣 85. My paragraphs still AI after three tries (turn 94)
+
+Round 3 read these as AI after their third try, so under the budget rule they come to you:
+- **Two Common Guarding Patterns**, all four paragraphs (the skeptic, the pull, the learned expectation, the loop). Only the Re-evaluation Counseling sentence reads Human.
+- **Start With Whatever Showed Up P8** (Kahneman and Klein), from "Roughly" on.
+
+What I took out each time is in `experiments/t93-tells/TELLS-ROUND2.md` (items a13 and a16 to a19). What's left explains a pattern with a made-up "you" example, like "it has probably watched you get excited about other healing things before, then drop them a month later". What reads Human in your writing is a real moment, and I can't invent one.
+
+- **A (my pick):** you put one of them in your own words, or point at the tell you see, and I apply what it shows to the rest.
+- **B:** I cut them down to what reads Human. Two Common Guarding Patterns would keep only the yawn and Re-evaluation Counseling. It would lose your 77.3 learned expectation and the loop.
+- **C:** leave them. Half A reads 5.4% AI with them in.
 - **D:** your words.
 
 ## For you to do (no decision needed)
@@ -46,6 +97,48 @@ Rewording through whole-half rounds is moving windows about as much as it remove
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 The questions page and the scorecard, 2026-10-22 19:50 UTC
+
+Your two messages (turn 94; `experiments/t94-answers/JOEL-20261022-1950.md`): "you didn't give me an answers page. isn't that a standing rule to always give answers page ..?" and "and where is the scorecard isn't that something you are keeping track of so we can help you get better at your predictions etc?" Both were misses on my part.
+
+- **This page:** under the rule (UDA `patterns/owner-questions-page.md`), every reply points to it, and it's also published as a page you can open on any device. This project only had the file. The page is published now, and every reply links it.
+- **The scorecard:** `tools/SCORECARD.md`, built after every recorded result by `tools/build_scorecard.py`, which also rebuilds the shared one, `state/PANGRAM-SCORECARD.md`. This project's own page had never been built, and the shared one hadn't been rebuilt since 2026-10-21.
+  - Building it showed a bug: my AI calls had recorded how sure I was of the AI call (0.9) where the ledger wants the chance of a Human result (0.1). That made my calibration look worse than guessing.
+  - The 30 records are fixed, each with its old number kept (`chance_fixed`), and the ledger now refuses the mistake (with a test).
+- **This round's predictions:** one per changed paragraph, made before I read the results. 17 of 30 were right, the same as always guessing Human. 11 of the 13 misses were me being too pessimistic about a cut, so a cut of a named tell now starts near 0.6.
+
+### 🟢 83, 2026-10-22 19:01 UTC
+
+The question was what still reads AI, and how to get it to Human. Your answer (turn 93; `experiments/t93-answers/JOEL-20261022-1901.md`): "i don't mind helping but as usual i like you to try yourself IF you know what looks like AI tells, then i can help you if you can't find the AI tells. so far your human tells have not been very good most times." You also declined my opening pangram.com's dashboard, so there are no paid checks. The next check is the free Substack one.
+
+So I read round 2's windows again and named the tell in each (`experiments/t93-tells/TELLS-ROUND2.md`). In my 29 paragraphs I took the tells out and added nothing:
+- quips;
+- follow-ups that reassure or restate;
+- balanced closers;
+- signposted lists and steps;
+- the stock word "quieter".
+
+Your words are question 84. Nothing is checked in Pangram yet.
+
+- **A correction:** I told you Two Common Guarding Patterns P1 read Human after its rework. It didn't (window 207, High, 95 words). My list of window openings had missed it. It's reworked again here.
+- **Your 82a paragraph:** its "That's exactly why" now follows the bargain itself. The loyalty-bargain paragraph is just the bargain now, and the small good thing is one sentence after your paragraph.
+- **Dropped with the tells** (say if you want any back):
+  - "I wouldn't argue with the feeling";
+  - "Laugh if it's funny";
+  - "before any imagery";
+  - "really are trying to protect you";
+  - GPT's three caveats on the Schema Hacks additions.
+
+### 🟢 The two books on schema therapy and spirituality, 2026-10-22 18:35 UTC
+
+You checked the two books GPT found and sent its views (turn 92; `experiments/t92-answers/`). An agent checked GPT's 13 claims against the books (`experiments/t92-books/BOOK-CHECK.md`), and all 13 hold.
+
+- *Emotional Alchemy* (Tara Bennett-Goleman) blends Buddhist practice with schema work and adapts loving-kindness to each schema. It's not theistic.
+- *Mindfulness and Schema Therapy* is a secular training.
+- Neither has a way of receiving love from God, and neither mentions gratitude.
+
+So the Schema Therapy appendix's P2 now names *Emotional Alchemy*. Since you're not theistic (19:03 UTC), the difference it names is gratitude, your door to the bigger love in Your Loan is PRE-APPROVED!, with "no belief in God required". Her book barely mentions gratitude. Your "in my opinion" sentence is unchanged. GPT's possible teaching addition, matching the form of care to what's needed, isn't added, since the guide already teaches individual care. Say if you want it.
 
 ### 🟢 82, 2026-10-22 18:35 UTC
 
