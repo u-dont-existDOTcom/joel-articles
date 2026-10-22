@@ -169,14 +169,10 @@
   },
   {
    "id": "worth-line",
-   "status": "applied",
+   "status": "superseded",
    "what": "The worth line in Chicken-and-Egg P2.",
    "joel": "17:05 (decision 2); 20:29: \"worth line is good\"",
-   "order": [
-    "turn into an adult.",
-    "There was never anything wrong with the child's worth to begin with.",
-    "Instead, we need to separately develop"
-   ]
+   "superseded_by": "joel-87-20261022: his new Chicken-and-Egg P2 (2026-10-22 15:33 UTC) replaces the worth line with \"The forced adulting often goes along with a misperception that there is something wrong about the inner child.\""
   },
   {
    "id": "enjoying-in-borrow-love",
@@ -1080,10 +1076,11 @@
    "joel": "2026-10-03 21:18 UTC: \"continue\"; 2026-10-06 19:04 UTC (yawning): \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "### Two Common Protective Patterns",
+    "### Two Common Guarding Patterns",
     "Two kinds of reaction really are trying to protect you, more often than not. The first one is on duty all the time, and it can sound like a skeptic: \"You're just making this up.\" It may have spent years keeping you from being humiliated again, or left again. That's a long time to stay on guard. It might be tired by now, but it's experienced and good at what it does. It has probably watched you get excited about other healing things, then drop them.",
     "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (even a yawn can come with an \"I'm so done with this\" feeling). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out. The skeptic and the pull both started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge. I wonder what it would do if it didn't have to."
-   ]
+   ],
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
   },
   {
    "id": "bus-p2-joel",
@@ -1102,8 +1099,9 @@
    "joel": "2026-10-04 01:03 UTC: \"your heading is fine.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
-    "### Hear the Protective Part First"
-   ]
+    "### Hear the Guard First"
+   ],
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
   },
   {
    "id": "bus-p3-joel",
@@ -1112,11 +1110,12 @@
    "joel": "2026-10-04 01:33 UTC: his P3 fix, \"just one insertion that anyone could have thought of\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector, the grown-up you, earns that protective part's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard."
+    "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard."
    ],
    "must_not_contain": [
     "on move-in day. The rent just has to keep showing up."
-   ]
+   ],
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
   },
   {
    "id": "bus-h3",
@@ -1125,18 +1124,19 @@
    "joel": "2026-10-04 01:33 UTC: \"yes i agree with your shortening sugggestions\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "### Hear the Protective Part First",
+    "### Hear the Guard First",
     "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" It might say this will just be one more performance, and you'll fool yourself again.",
     "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
    ],
    "order": [
-    "Two Common Protective Patterns",
-    "Hear the Protective Part First",
+    "Two Common Guarding Patterns",
+    "Hear the Guard First",
     "Whichever protective part showed up",
     "That one can sting",
     "A new roommate doesn't win you over",
     "That part doesn't have to move out."
-   ]
+   ],
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
   },
   {
    "id": "bus-p4-proposal",
@@ -1179,7 +1179,7 @@
     "Sometimes the session itself goes really well. You feel real care for your little one and say exactly what they needed to hear. And a few days later you're skipping lunch and saying yes to everything again. A lot of people's first guess is that they didn't go deep enough. I don't think that's it, though, and I don't think this one failed either. Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine. That can honestly be harder than the meditation was. One small thing like that can teach your little one more than ten more good meditations. It doesn't have to happen after every session."
    ],
    "order": [
-    "Hear the Protective Part First",
+    "Hear the Guard First",
     "When to Change the Strategy",
     "Weeks in and nothing much is changing?",
     "Maybe you've been trying to comfort your little one",
@@ -1187,7 +1187,8 @@
     "How many tries is enough?",
     "Sometimes the session itself goes really well."
    ],
-   "note": "2026-10-18 (turn 71): P5's first sentence is \"Sometimes the session itself goes really well.\" for \"Sometimes it's the exercise that works.\" (a cold read: works at what?; my sentence, round t71xxx). 2026-10-18 (turn 72): \"and once isn't proof you've got it all down\" is out of P5 (the filler sweep's 12; the hedge he named on 2026-10-18 19:06, O43), so the check quotes P5 without it."
+   "note": "2026-10-18 (turn 71): P5's first sentence is \"Sometimes the session itself goes really well.\" for \"Sometimes it's the exercise that works.\" (a cold read: works at what?; my sentence, round t71xxx). 2026-10-18 (turn 72): \"and once isn't proof you've got it all down\" is out of P5 (the filler sweep's 12; the hedge he named on 2026-10-18 19:06, O43), so the check quotes P5 without it.",
+   "updated": "2026-10-22 turn 87: the heading before it is Hear the Guard First (77.1 A)"
   },
   {
    "id": "wcs-p1-what-is-blocking",
@@ -2458,13 +2459,14 @@
    "where": "Speak Toward What You Are Building",
    "must_contain_exact": [
     "It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself \"I'm not dependent.\" Well, now you're thinking about being dependent. Being totally independent also isn't realistic nor ideal, and can even seem like just a reaction to the original problem. We can often strike a nice nuanced poetic balance, like: \"I'm provided for by the universe, like the birds & lilies Jesus reminded us of.\" With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!",
-    "But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says \"he hurt me,\" that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide parts can lead the way up to more safety and maturity.",
+    "But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says \"he hurt me,\" that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide can lead the way up to more safety and maturity.",
     "The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both."
    ],
    "must_not_contain": [
     "lillies"
    ],
-   "note": "2026-10-18 (turn 73): his 55, 17, A of 21:58 UTC, \"the original problem\" for \"the original question\"."
+   "note": "2026-10-18 (turn 73): his 55, 17, A of 21:58 UTC, \"the original problem\" for \"the original question\".",
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
   },
   {
    "id": "first-person-back-20261017-2259",
@@ -2913,6 +2915,35 @@
     "Then, before getting all philosophical",
     "I try not to proselytize about spirituality",
     "Then ask: what is the self you want to kill?"
+   ]
+  },
+  {
+   "id": "joel-87-20261022",
+   "status": "applied",
+   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix.",
+   "joel": "2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)",
+   "where": "The five stages (1 and 5); The Chicken-and-Egg Problem P2; Borrow One Competency at a Time; Two Common Guarding Patterns; Hear the Guard First P3; Altered States Can Deepen the Therapy; Altered States Can Require Reparenting P6; The Inner Guide P3; Speak Toward What You Are Building P2; How This Relates to Schema Therapy P2",
+   "must_contain_exact": [
+    "1. You’re still stuck identifying as the lost inner child, forced frequently into handling situations that require more maturity.  At this stage, use your childlike superpowers to come into the “Wow of Now” (have you seen the movie Waking Life?), and make sure there’s enough safety around you to continue with reparenting:",
+    "And I realized that it doesn’t make sense to ask the child to heal itself, which is really a disguised request for the child to abandon its own nature and turn into an adult. I call that \"forced adulthood,\" where the child has to deal with situations the evolved inner adult should be handling--we see this in actual children all the time when their parents are not providing care. People even wear t-shirts saying, \"I don't wanna adult today.\" The forced adulting often goes along with a misperception that there is something wrong about the inner child. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide."
+   ],
+   "must_contain": [
+    "stuck in forced adulthood for a while",
+    "(see the section Hear the Guard First)",
+    "the way you did in Hear the Guard First",
+    "My inner Guide saw it",
+    "No hidden guard or old trauma required",
+    "Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development",
+    "isn't part of the standard method"
+   ],
+   "must_not_contain": [
+    "Hear the Protective Part First",
+    "Two Common Protective Patterns",
+    "stuck in adult mode",
+    "No hidden protector",
+    "Schema therapy leaves it out",
+    "would usually offer you",
+    "There was never anything wrong with the child's worth to begin with"
    ]
   }
  ]

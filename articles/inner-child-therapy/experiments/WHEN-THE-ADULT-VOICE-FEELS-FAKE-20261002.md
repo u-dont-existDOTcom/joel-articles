@@ -1131,3 +1131,16 @@ Joel: "ok i like gpt's response", with GPT's reply on the names (`t86-answers/GP
 ### Next
 
 1. His answers to 76, 77.2 to 77.8, 78 and 79.3. Then the round: his picks, the core paragraph and 77.3's passage, the book additions, and the AI-window rework (my drafts' windows; his paragraphs' windows go to him per E171 and E188), through the gate, faithful first.
+
+## Turn 87 (2026-10-22, 15:33 UTC): his answers to 76 to 79, and forced adulthood in the stages
+
+His answers, saved first (`t87-answers/JOEL-20261022-1533.md`): 76.1 A, 76.2 A, 76.3 B, 76.4 A; 77.1 A, "but introduce it as the Adult Protector (hereafter just the Protector)"; 77.2 A, 77.3 A, 77.4 B, 77.5 his wording stays, 77.6 A, 77.7 A; 77.8, "setting limits is ... more of a protector job than a guide job"; 78.1 a sentence each, no 30-second neutral image, all the children's book candidates but that one, pages cited for exact exercises; 79, a first section titled "Reparenting in a nutshell". And his find: "i never put forced adulthood into the stages map", with a new stage 1 and a new Chicken-and-Egg P2. "do you agree those are good changes? surprised neither you nor gpt found that issue". My answer went to him mid-turn (SendUserMessage): yes. The closest we came was 76.3, where I picked the wrong reading. I raised three small things, now question 80.
+
+- **Put in** (with notes, not yet checked in Pangram; `OWNER-EDITS.json` entry `joel-87-20261022`, checks 178 of 178):
+  - his stage 1 and P2, word for word in his characters ("into to" made "into");
+  - 76.1 "No hidden guard", 76.2 "the Protector & Guide", 76.3 "stuck in forced adulthood", 76.4 "My inner Guide";
+  - 77.1's two headings (Two Common Guarding Patterns, Hear the Guard First), their two cross-references, and P3's "Your Protector earns that guard's trust";
+  - 77.7 in the Schema Therapy appendix.
+- The worth line's check is marked superseded by his P2.
+- **77.8:** Young's institute's mode list gives the Healthy Adult "appropriate adult functions such as working, parenting, taking responsibility, and committing" and adult interests (https://schematherapy.com/id72.htm). That's the Guide's direction, so the appendix P1 fix will say the Protector sets limits and the Guide shows up as adult direction.
+- **Still to draft:** the nutshell section (my sketch went to him: "Growing up, all of us picked up ways of reading what happens, reacting to it and treating ourselves…"), 77.3's two paragraphs, 77.6's list item, 77.8's P1, eleven children's-book sentences and the see-saw sentence. Then the AI-window rework, the checks and one Substack check per changed section.

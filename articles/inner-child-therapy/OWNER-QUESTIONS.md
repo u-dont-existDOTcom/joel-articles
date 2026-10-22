@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 84). **Open questions: 76, 77 (77.2 to 77.8), 78 and 79.3.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 84). **Open questions: 78.2 and 80.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,93 +8,27 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 ## Open questions
 
-### 🟣 76. The mixed-up-figures check: four places in your words
+### 🟣 78. The couples book (78.2)
 
-You asked for the hypnosis lane's check on this article: an Opus reader looked for places where a reader could take one inner figure for another, with the article's own map (the report: `experiments/t81-conflation/CONFLATION-SWEEP.md`). It found five. One was in my draft, and I fixed it (Decided, below). These four are in your words, so each is yours. One thing first: in this article "inner parent" is the adult the reader builds (The Chicken-and-Egg Problem: "a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide"), so the hypnosis guide's new name for the internalized voice, "inherited inner parent", would mix the two up here. This article's name for that voice is "the parent you inherited".
+78.1 is answered (Decided, below). Still open, whenever you've read `experiments/t84-books/CANDIDATES-couples.md`: its second candidate for this guide (turning "I have to" into "You have to", p. 118) and the romance guide's ten.
 
-- **76.1 The Inner Guide, P3:** "No hidden protector or old trauma required". Here "protector" means a protective part, and it's the one place outside the IFS appendix where a part gets the role's name; "enough Nurturer and Protector first" comes a few paragraphs later.
-  - **A (my pick):** "No hidden protective part or old trauma required".
-  - **B:** leave it.
-  - **C:** your words.
-- **76.2 Speak Toward What You Are Building, P2:** "the Protector & Guide parts can lead the way". Elsewhere the article calls these jobs ("one grown-up doing three jobs, not three more people moving in"), and "parts" means the protective parts, or IFS's.
-  - **A (my pick):** drop "parts": "the Protector & Guide can lead the way up to more safety and maturity."
-  - **B:** "jobs" for "parts".
-  - **C:** leave it.
-  - **D:** your words.
-- **76.3 The Chicken-and-Egg Problem, the five stages, item 5:** "This can actually feel really weird if you've been stuck in adult mode for a while." "Adult mode" can be stage 4 (item 4 is "Adult mode itself") or the forced adulthood of The Inner Guide ("Nope, all good!").
-  - **A (my pick):** leave it. Item 4 names adult mode just above, so stage 4 is the likely reading.
-  - **B:** "stuck in forced adulthood", if you meant the over-functioning trap.
-  - **C:** your words.
-- **76.4 Altered States Can Require Reparenting, P6:** "My inner guide saw it as a perfect opportunity to demonstrate the power of love over fear." Lowercase, it can be read as a spiritual guide; capitalized, it's the Guide role.
-  - **A (my pick):** "My inner Guide", since choosing what to do about the fear is the Guide's job.
-  - **B:** leave it lowercase, if you meant a spiritual guide or something else.
-  - **C:** your words.
-
-Each paragraph that changes gets its own Pangram check before it counts, in one free Substack check per changed section, together with my fix.
-
-### 🟣 77. The GPT review: what to take
-
-GPT's proposals (from its four-book audit) and my review of them: `experiments/t83-gpt-review/CLAUDE-REVIEW-20261022.md`. The book checks are in the same folder (`SOURCE-CHECKS.md`): GPT's citations mostly hold, with a few page and wording slips that change nothing below. Most of what GPT proposes is already in the guide in some form. These are the places where a choice is left, each with my pick. Nothing is changed until you answer.
-
-Updated in turn 85, after GPT's reply (`experiments/t85-answers/GPT-REPLY-TO-CLAUDE-REVIEW-20261022-1307.md`). GPT now leans to my picks on the names (77.1, 77.2). It was right that my coping paragraph was too narrow (77.3), and right on four smaller points (77.4 to 77.7). The review has the corrections at the top.
-
-- **77.1 The names** (answered: A, with your 79 answer; see Decided). The one real mix-up is where a protective reaction gets the Protector's word. Hear the Protective Part First P3 (your adopted text) says "Your Protector, the grown-up you, earns that protective part's trust". The map already calls these reactions guards.
-  - **A (my pick):** keep "Protector" for the role and call the reactions guards. The two headings become Two Common Guarding Patterns and Hear the Guard First, with their two cross-references. P3's sentence becomes "Your Protector earns that guard's trust about the same way, mostly out in ordinary life." This also settles 76.1 as "No hidden guard or old trauma required", and 76.2 as dropping "parts". GPT now leans to this too.
-  - **B:** A, and also "Adult Protector" for the role. It's GPT's term, and it says you agreed it with GPT. It would replace all 23 uses of "Protector", so there aren't two names for one role.
-  - **C:** leave the names as they are; question 76 still stands.
-- **77.2 A naming note at the start.** GPT proposes three sentences after "That's one grown-up doing three jobs", naming the Inner Adult, the guards and the inherited script ahead of time.
-  - **A (my pick):** leave it out (GPT agrees now). Your P3 to P5 already define the one grown-up and let readers rename it, and each other figure is defined where it comes up. The idea behind the names is a different thing, and that's 79.3.
-  - **B:** add it, in your words or mine.
-- **77.3 Your candy question** (revised in turn 85). The gap is bigger than I first said. The guide has the examples but never says what connects them: one old expectation can show up as going along, getting away or proving the opposite, and the reaction can keep the expectation alive. My first paragraph only covered getting away.
-  - **A (my pick):** two short paragraphs at the end of Two Common Protective Patterns: the old expectation, often wordless; the three directions, judged by what they do rather than how they look (sometimes a sweet is just a sweet); the loop, allowing that the people around may really be unavailable or unsafe; and that a reaction made for a crisis can cost you in an ordinary week. My sketch is in the review, now in the settled words (learned expectations, responses, guards).
-  - **B:** my first version, one paragraph on getting away.
-  - **C:** GPT's version, a new section, When a Habit Is Doing the Guarding.
-  - **D:** leave it.
-- **77.4 The dream-narrative line** (Opening up honestly P3, your words): "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells". My concern: it means telling the person helping you that something real was a dream. That can send the therapy the wrong way, and your own TalkSpace story (the bot flagged even a dream) shows it can still set off alarm. Your last two sentences (don't hold back a current danger; get anyone in danger safe) stay in every option.
-  - **A (my pick):** in its place, start general and non-identifying ("something I did years ago that I'm ashamed of") until you know what they'd have to report. Your TalkSpace story stays, as the reason to ask first.
-  - **B:** keep it as it is.
-  - **C:** your words.
-- **77.5 After a manic or psychotic reaction** (When Escape Leaves Reality Behind P2, your words): it says "signs to reconsider trying the same thing again". Psilocybin trials screen out people with a personal or family history of psychotic or bipolar disorders (the review links one protocol). That's about diagnoses, not a past reaction to a drug, so it's a reason for caution rather than a measured risk.
-  - **A (my pick):** add one clause: talk it over with a doctor before trying any psychedelic again.
-  - **B:** keep your wording. It already says to get professional help when things are severe.
-- **77.6 When a helper steps back** (GPT's P2).
-  - **A (my pick):** add "a therapist or helper stepping back, which can stir up old fears even after real growth" to the list of endings in When One Life Has Ended P1 (my draft), so that section's advice covers it.
-  - **B:** GPT's version, a short paragraph in Finding a Therapist.
-  - **C:** leave it.
-- **77.7 Spirituality in the Schema Therapy appendix.** P2 says "Schema therapy leaves it out". That's from your request of 2026-10-18, in my words. Young's own preface (p. viii) calls combining schema therapy with spirituality "another important development" and lists three books that do it. The rest of his book has no spiritual material. A later schema therapy book goes further: the couples book (2015) says some Christian couples use prayer with a verse of scripture as "an ongoing highly experiential re-parenting intervention" (p. 234).
-  - **A (my pick):** "Schema therapy doesn't build spirituality in, though the preface to its main textbook calls blending it with meditation or religious practice an important development." And "isn't something a schema therapist would usually offer you" becomes "isn't part of the standard method", since nothing here shows how often therapists offer it (GPT's point). Your IFS opinion and the rest of the paragraph stay.
-  - **B:** keep it.
-  - **C:** your words.
-- **77.8 The Guide in the same appendix.** P1 (my draft, turn 72) says schema therapy's "Healthy Adult" is "a Nurturer and a Protector by other names". But Young gives it three functions (p. 278), and one is setting limits, which is the Guide's job in your guide. The couples book adds "often a moral compass" (p. 249). GPT's packet asked for this fix first.
-  - **A (my pick):** "…who looks after your "Vulnerable Child," sets limits when your angry or impulsive side takes over, and stands up to the punishing parent in your head. Sound familiar? That's a Nurturer, a Protector and a Guide by other names…"
-  - **B:** leave it.
-
-### 🟣 78. The two new books: what to add
-
-You asked whether the children's book and the couples book have good additions, the couples one maybe for the romance guide. A reader went through each, and I checked their quotes. They found 12 candidates per book, with where each would go and what to be careful of: `experiments/t84-books/CANDIDATES-stca.md` (children's) and `CANDIDATES-couples.md` (couples). Several land in sections that 76 and 77 already touch, so whatever you pick can go through the gate in the same round.
-
-- **78.1 This guide.** The strongest, each a short paragraph in a section that's already there:
-  1. Protection comes in degrees, not on or off: a lighter cover for now, and a short peek out (children's book; Hear the Protective Part First).
-  2. The see-saw of giving in, blowing up, feeling guilty and giving in again (couples book; Two Common Protective Patterns, next to the candy paragraph).
-  3. Firm without harsh: good advice in the old critic's tone still lands as punishment, so catch the tone and keep the limit (children's book; The Inner Guide).
-  4. A 30-second trial run with a neutral image before any imagery, to check you can zoom in and out without getting flooded (children's book; Before You Try to Go Deep).
-  - **A (my pick):** these four.
-  - **B:** A, plus any others from the two files, by number.
-  - **C:** none for now.
-  - **D:** your words.
 - **78.2 The romance guide.** 10 of the couples book's candidates are for it. The most useful: a real safety plan, with the warning that leaving is a riskier time (it needs checking against a current hotline's own guide first, since the book's list dates from 2005 to 2007); seeing the repeating fight as a loop the two of you build, and the loop as the common enemy; a stop signal with a promised return time. The book treats violence as a loop both partners keep up, so each of these needs a "not if one of you is afraid of the other" screen.
   - **A (my pick):** keep them as notes for now, and start with the safety plan whenever you open the romance guide again.
   - **B:** start on the romance guide now, with these three.
   - **C:** your words.
 
-### 🟣 79. Where the core idea goes
+### 🟣 80. Three small things in your new text (turn 87)
 
-The names are settled (Decided, below: your "ok i like gpt's response", 14:26 UTC). One thing is left: where the idea goes. GPT's sketch is one paragraph saying what gets reparented and where it leads: "Much of how you make sense of things, respond to them and treat yourself comes from patterns you learned without choosing them…" (`experiments/t86-answers/GPT-REPLY-ON-CORE-NAMES-20261022-1349.md`).
-
-- **79.3 Placement.**
-  - **A (my pick):** that paragraph, in your voice, right after your five stages. Then 77.3's two paragraphs, in the settled words, at the end of Two Common Protective Patterns.
-  - **B:** all of it in one place, at the end of Two Common Protective Patterns.
+- **80.1 Stage 1 and the "all good" reader.** The Inner Guide says forced adulthood "can feel a lot like finally having your act together", and that reader may not see themselves in "the lost inner child".
+  - **A (my pick):** add a few words to stage 1, such as "...even if it looks like you've got it all together". Otherwise a reader who over-functions may place themselves at stage 4.
+  - **B:** leave it as you wrote it. The Inner Guide catches that reader later.
   - **C:** your words.
+- **80.2 Chicken-and-Egg P2:** "a misperception that there is something wrong about the inner child".
+  - **A:** "wrong with", if that's what you meant.
+  - **B:** keep "wrong about".
+- **80.3 When Escape Leaves Reality Behind P2.** Your chat line (77.5) "don't try again until you understand what would make it safe" isn't in the paragraph.
+  - **A (my pick):** add it after "signs to reconsider trying the same thing again", in your words.
+  - **B:** leave the paragraph as it is.
 
 ## For you to do (no decision needed)
 
@@ -109,6 +43,19 @@ Both results are read and recorded, so "Inner Child, draft A (temp, delete after
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 76, 77, 78.1 and 79.3, 2026-10-22 15:33 UTC
+
+Your answers (turn 87; `experiments/t87-answers/JOEL-20261022-1533.md`), and what goes in this round:
+
+- **76.1 A, 76.2 A, 76.4 A.** With 77.1 A, 76.1 becomes "No hidden guard or old trauma required", since that answer renames the reactions guards. Say if you want "protective part" there instead.
+- **76.3 B** ("stuck in forced adulthood"), plus your new stage 1 and your new Chicken-and-Egg P2, both word for word. The obvious typo "into to" becomes "into". They name forced adulthood at the start; you were right that it was missing from the stages.
+- **77.1 A**, introduced once as "the Adult Protector (hereafter just the Protector)" where it's first named. **77.2 A. 77.3 A. 77.6 A. 77.7 A.**
+- **77.4 B:** the dream-narrative line stays. Your reason: "i don't think 'i did years ago' protects from reporting, depends on what you did".
+- **77.5:** your wording stays ("doctors don't know anything, so talking to one about this would be pointless... a study's admission criteria is not related"). Your "don't try again until you understand what would make it safe" is 80.3.
+- **77.8:** limits are more the Protector's job; the Guide gives direction. Young's institute's mode list gives the Healthy Adult "appropriate adult functions such as working, parenting, taking responsibility, and committing" and adult interests (https://schematherapy.com/id72.htm), so the appendix says the Protector sets limits and the Guide shows up as that direction.
+- **78.1:** a sentence each, not paragraphs, where the guide doesn't already say it, and no 30-second neutral image. From the children's book, all eleven of the other candidates, with their limits. Exact exercises are cited by chapter and section, since this edition prints no page numbers; the PDF pages stay in our notes. From the couples book, the see-saw, as one sentence.
+- **79.3:** your idea, a first section titled "Reparenting in a nutshell", above Listen & Watch. My sketch is in the turn log, to rework in your voice. It replaces the extra sentences after the stages; 77.3's two paragraphs still go at the end of Two Common Guarding Patterns.
 
 ### 🟢 The core names (79.1 and 79.2), and 77.1, 2026-10-22 14:26 UTC
 

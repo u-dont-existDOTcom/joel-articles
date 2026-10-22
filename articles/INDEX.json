@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "e08adc80a5433ef2676203f9850323f8c68b1b84f7f1f6098b9458b7a22dd153",
+          "sha256": "b97fb27e82c6866e561285b51ab766d499d2cebbb9fa9398f768a8f91f304dc9",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "6e00512143fd6d7a79c71c7bc4019d988bfbedadee3bf55bd2bc58c4420dd13b",
+          "sha256": "2bf9f274eb11d37e0c80fc586c7e6c4e966dfbd6d42cd9e20585c86cb3e8458f",
           "role": "owner_edits_ledger"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "922f19c550a21720175631f5bc13f90a85c370205ea573044939a7b8d372a67c",
+          "sha256": "244c84230c28893750d88b25fd481923abfc243da1198bf827ac66bbf6fa4d1b",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "cc50f08bbc6c0046ef0b25efa4780051c125d6ae96a82a55e8e7422df8e74918",
+          "sha256": "55f427bf4d91a3f93ff4a3c76d0c139e5741894098f3fd5f1b843f4e6787ef43",
           "role": "owner_questions_page"
         },
         {
@@ -23280,6 +23280,11 @@
         {
           "path": "articles/inner-child-therapy/experiments/t86-answers/JOEL-20261022-1426.md",
           "sha256": "1af4d439219aa5eb6fc9b50c32142303d79ecb73b206ca941d64dc36a12d441d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t87-answers/JOEL-20261022-1533.md",
+          "sha256": "cd028606edd07a550a21f5be74188e57af4b569dd4a7bb90cba1ccadd75df085",
           "role": "humanization_working_record"
         }
       ]

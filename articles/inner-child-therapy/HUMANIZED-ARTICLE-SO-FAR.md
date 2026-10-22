@@ -24,7 +24,9 @@ Céline's song is called *On ne change pas*—"we don't change." I think that's 
 
 <!-- Worth line installed 2026-09-27: one added sentence in Joel's paragraph below, "There was never anything wrong with the child's worth to begin with." Owner-accepted (Joel, 20:29 UTC: "worth line is good"). It's the worth-and-capacity point from The Three Adult Functions, placed here at Joel's direction (2026-09-27 17:05, decision 2). Pangram 4.0: the paragraph with it 100% Human (74 words); the certified opening with it and the three-jobs paragraph 100% Human (963 words scanned). Record: experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md. -->
 
-And I realized that it doesn't make sense to ask the child to heal itself, which is really a disguised request for the child to abandon its own nature and turn into an adult. There was never anything wrong with the child's worth to begin with. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): his new P2, word for word in his characters ("i'd change chicken and  egg p2 there to say"). It names forced adulthood here, and his "misperception" sentence takes the place of the 2026-09-27 worth line. The Protector's first naming moves to the new first section, Reparenting in a nutshell, as "the Adult Protector (hereafter just the Protector)" (77.1); until that's in, this is the first mention. Not yet checked in Pangram. -->
+
+And I realized that it doesn’t make sense to ask the child to heal itself, which is really a disguised request for the child to abandon its own nature and turn into an adult. I call that "forced adulthood," where the child has to deal with situations the evolved inner adult should be handling--we see this in actual children all the time when their parents are not providing care. People even wear t-shirts saying, "I don't wanna adult today." The forced adulting often goes along with a misperception that there is something wrong about the inner child. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.
 
 <!-- The three jobs, installed 2026-09-27 where they're first named. They replace the h1 The Three Adult Functions with shorter, earlier pieces (Joel, 16:29). Joel, 20:29: "three jobs paragraph is not three jobs tho it just talks about the guide", so the Nurturer and Protector now come before the Guide, in one scene. Joel, 21:18, added the last sentence of the first paragraph ("And the Guide helps them think twice…") and said "continue"; taken as his OK. The first paragraph is Claude's apart from that sentence. The second is Joel's 16:29 content: its first two sentences in Claude's wording, the last two as he wrote them. The rest of the two jobs is in Borrow One Competency and Borrow Love, or goes to Make the Protector Visible (the Protector making the warmth believable, and its inside half). Pangram 4.0: the first paragraph with Joel's sentence 100% Human alone (84 words); the Guide paragraph 100% Human alone (83); the certified opening with both 100% Human (1,025 words scanned). Checked by OWNER-EDITS.json entries three-jobs-covered and guide-at-the-party. Record: experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md. -->
 
@@ -52,11 +54,13 @@ Sometimes somebody else may have to do one part of the adult role with you or fo
 
 For now, I think of the whole path in five fairly predictable stages. You might be starting at any point here (and it may change even from hour to hour as well):
 
-1. You're still fully identified as the child — use your childlike superpowers to come into the "Wow of Now" (have you seen the movie Waking Life?), and make sure there's enough safety around you to continue:
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): his new stage 1, word for word in his characters, with the obvious typo "into to" made "into"; it puts forced adulthood into the stages ("i never put forced adulthood into the stages map. it should be in stage 1"). Stage 5's "stuck in adult mode" is now "stuck in forced adulthood" (76.3 B). Not yet checked in Pangram. -->
+
+1. You’re still stuck identifying as the lost inner child, forced frequently into handling situations that require more maturity.  At this stage, use your childlike superpowers to come into the “Wow of Now” (have you seen the movie Waking Life?), and make sure there’s enough safety around you to continue with reparenting:
 2. Begin to borrow adulthood — remember watching Mr. Rogers or Sesame Street? Those adult role models are what we're looking for at this stage. This can almost feel like playing house as a kid where you imagined how you'd take care of a baby doll etc. 
 3. Practice adulting — do at least one part of caring for yourself while support is still there from the previous step.
 4. Adult mode itself — after sufficient practice with reparenting, you become a natural at sending love to little you, protecting them, and directing them. 
-5. Adult and child in relationship — the adult leads. The child isn't pushed away, but doesn't have to run the whole life alone. This can actually feel really weird if you've been stuck in adult mode for a while. Our goal is to go from weird to silly and playful. Lose self-consciousness while gaining self-awareness, if that makes sense!
+5. Adult and child in relationship — the adult leads. The child isn't pushed away, but doesn't have to run the whole life alone. This can actually feel really weird if you've been stuck in forced adulthood for a while. Our goal is to go from weird to silly and playful. Lose self-consciousness while gaining self-awareness, if that makes sense!
 
 <!-- 2026-10-07 (turn 31): Joel's update queue item PGQ-012 (source/PENDING-PUBLIC-GUIDE-CHANGES-2026-10-06-r2.md: "Make the opening map explicitly leave the exercise"), after the five stages as the queue suggests. Mine. Turn 30's version said "on a regular Tuesday" (Joel, 2026-10-07 01:09 UTC: "you are forgetting the rules abouut Tuesday and Wednesday etc."); without it, it was 100% AI alone (61). This one follows the reviewer's tickets and uses the guide's own Protector example (rest): alone 100% Human (62); this h1 100% Human (810). Pangram 4.0 through the dashboard. -->
 
@@ -258,7 +262,9 @@ Maybe just imagining a caring grown-up makes you feel more threatened, or loneli
 
 <!-- Turn 65, round z, fresh writer 1, the h1's P3 with its grounding's two MUST fixes (by choice, once the guarding part has been heard; this guard is about letting the feeling in, and people still earn trust): taking the hostility out makes room for warmth; letting defenses down; the ego as a rigid security guard; a cold part standing in front of the warmth (Hear the Protective Part First). Alone Human Written (0.055, medium), https://www.pangram.com/history/806531d3-1254-4296-8b22-e0e44d529be5. -->
 
-Taking the hostility out makes room for warmth. What people most often say helped is letting their defenses down. I mean by choice, after the part guarding you has been heard. If you've never been safe being loved, your ego can act like a rigid security guard that won't let the feeling in, and being vulnerable is the opening the feeling needs. (This guard is only about letting the feeling in. People still have to earn your trust.) Sometimes the warmth is there, with a cold part standing in front of it, guarding something. That part tends to step aside once it's been heard (see the section Hear the Protective Part First).
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.1 A: the cross-reference now names Hear the Guard First. Not yet checked in Pangram. -->
+
+Taking the hostility out makes room for warmth. What people most often say helped is letting their defenses down. I mean by choice, after the part guarding you has been heard. If you've never been safe being loved, your ego can act like a rigid security guard that won't let the feeling in, and being vulnerable is the opening the feeling needs. (This guard is only about letting the feeling in. People still have to earn your trust.) Sometimes the warmth is there, with a cold part standing in front of it, guarding something. That part tends to step aside once it's been heard (see the section Hear the Guard First).
 
 If the love still isn't coming, you can at least stop judging your little one. Obviously no insults. Helpful advice is great, we all need advice. Let them absorb it at their pace. And don't expect a thank-you for the session, like they booked it. That's enough to start being the adult, even if it isn't enough yet for them to trust you.
 
@@ -757,7 +763,9 @@ Anxiety deserves the same kind of listening. A lot of the time it's a part of yo
 
 Some of it I wouldn't test at all, even when it sounds like a prediction. If a part hesitates about being touched or about sex, that's enough to stop. And if it says no to going deeper in this work, or to an altered state, I'd stop there too. It might not be able to tell you why.
 
-### Two Common Protective Patterns
+### Two Common Guarding Patterns
+
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.1 A: the heading is renamed so the protective reactions are guards and "Protector" stays the Inner Adult's job. The two paragraphs under it are unchanged. Not yet checked in Pangram. -->
 
 <!-- 2026-10-03 (turn 25): the guide's h3 "Two Common Protective Patterns" (its three paragraphs in two). P1 is writer a of three from a section prompt with E131's march lines, with a grounding's fix ("really are trying to protect you"): alone 100% Human (86, a5764cb8). Record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md, turn 25. -->
 
@@ -773,7 +781,9 @@ Two kinds of reaction really are trying to protect you, more often than not. The
 
 The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (even a yawn can come with an "I'm so done with this" feeling). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out. The skeptic and the pull both started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think "See? I knew it," and stay in charge. I wonder what it would do if it didn't have to.
 
-### Hear the Protective Part First
+### Hear the Guard First
+
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.1 A: the heading is renamed, with its two cross-references (Borrow One Competency at a Time; Altered States Can Deepen the Therapy) and P3's sentence below. Not yet checked in Pangram. -->
 
 <!-- 2026-10-04 (turn 27): the guide's h3 "A Bottom-Up Sequence" (nine short paragraphs) in four, under Joel's heading (01:03 UTC: "your heading is fine."). The guide's last two paragraphs are one here, shortened where they repeat this article (Joel, 01:33 UTC: "yes i agree with your shortening sugggestions"). P1 is turn 25's writer a with the review fixes: alone 100% Human (90, 8993fb9f). As installed on turn 27: the h3 100% Human (413, c8461adf); Start With Whatever Showed Up with both h3s 100% Human (1,117, 50367f43); the h1 100% Human (1,690, c1253626). With P4's clarity fix (turn 28): the h3 100% Human (414, 8350192e); the h1 3% AI (7b468ec0), see P4's note. Record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md, turns 25 to 28. -->
 
@@ -785,7 +795,9 @@ That one can sting, because there could be something to it. Maybe you've fooled 
 
 <!-- P3 is Joel's, word for word (2026-10-04 01:33 UTC): turn 26's round-3 P3 with his one insertion, "(hopefully, right?)" ("just one insertion that anyone could have thought of"). He hadn't said he'd checked it, so it was checked: alone 100% Human, high (81, 3af6f4e3), where the version without the insertion was 100% AI (5d85e7fe). -->
 
-A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector, the grown-up you, earns that protective part's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.1 A, which he chose: "Your Protector, the grown-up you, earns that protective part's trust" is now "Your Protector earns that guard's trust". The rest is his, as before. Not yet checked in Pangram. -->
+
+A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.
 
 <!-- 2026-10-04 (turn 27): P4 carries the guide's "The protector does not have to disappear…" and "Then follow what changes…" with one of its three examples (a critic softening into a fear); "You don't need an age, a recovered memory, or a complete cast of parts" is cut (the grounding: "the simpler the better" covers it). Mine, fixed window by window after eight versions failed whole: the guide's condition turned into a thought about that part ("I think that's what it wants to see anyway…"), and the crafted line to say and last line replaced. Alone 100% Human (135, e938f68a). The cold read's flag on its third sentence ("that" reads first as the step) is fixed with the proposal Joel liked (03:58 UTC: "i liked the proposal at the end yeah"), less its "to see": the whole proposal passed alone (72c523f1) but was 7% AI in the h1 (284f1778) and 37% AI in the h3 (6df02032); without "to see" it is 100% Human alone (04ef6081) and in the h3 (8350192e), and the h1 is 3% AI (7b468ec0), a medium-confidence window at Two Common Protective Patterns P2's "Both kinds started out", which is open for the last pass (turn 28). -->
 
@@ -861,7 +873,9 @@ One reason the peak is so momentary is because we often don’t need to truly gi
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
-And if your little one still can’t take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at least know that they are a double-edged sword. Something’s in the way, and getting to know it is your next job. Often it’s a protective part that’s seen love come with strings before. Hear it out first, the way you did in Hear the Protective Part First.
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.1 A: the cross-reference now names Hear the Guard First. Not yet checked in Pangram. -->
+
+And if your little one still can’t take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at least know that they are a double-edged sword. Something’s in the way, and getting to know it is your next job. Often it’s a protective part that’s seen love come with strings before. Hear it out first, the way you did in Hear the Guard First.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
@@ -917,7 +931,9 @@ Sleep paralysis is a trance-like state, and trance can be "more scary" because y
 
 <!-- Turn 71: his sending-love paragraph as his October guide has it, "once that love was seen as enduring" included (43, 8). Alone Human Written (0.00004), https://www.pangram.com/history/3a5c68d7-c881-4429-9edc-31746381ad4b; the h2 with its h4 Human Written (0.0046, high, 1009 words), https://www.pangram.com/history/433adc21-9efd-4f86-aed6-30f3fbb81357 (round t71h), and the h1 as installed Human Written (0.0059, high, 1209 words), https://www.pangram.com/history/ff62d372-f0bd-409a-8c28-d771cfb0975d (round t71h). -->
 
-After multiple episodes of this I decided to stop giving in to the victim mentality, and to start taking it seriously as a part of spiritual practice. My inner guide saw it as a perfect opportunity to demonstrate the power of love over fear. The next time it happened, despite how scary it was, I sent unconditional love to this demon on me. It took some minutes, but once that love was seen as enduring, the demon left, and it never returned.
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 76.4 A: "My inner guide" is now "My inner Guide", the Guide's job. Not yet checked in Pangram. -->
+
+After multiple episodes of this I decided to stop giving in to the victim mentality, and to start taking it seriously as a part of spiritual practice. My inner Guide saw it as a perfect opportunity to demonstrate the power of love over fear. The next time it happened, despite how scary it was, I sent unconditional love to this demon on me. It took some minutes, but once that love was seen as enduring, the demon left, and it never returned.
 
 <!-- Turn 71: his training-others paragraph (43, 8), with the guide's two links. Alone Human Written (0.011), https://www.pangram.com/history/eba950d4-9a16-474f-bc8a-aaab84a85c99; the h2 with its h4 Human Written (0.0046, high, 1009 words), https://www.pangram.com/history/433adc21-9efd-4f86-aed6-30f3fbb81357 (round t71h), and the h1 as installed Human Written (0.0059, high, 1209 words), https://www.pangram.com/history/ff62d372-f0bd-409a-8c28-d771cfb0975d (round t71h). -->
 
@@ -1164,7 +1180,9 @@ Maybe you've let a small child win at Go Fish and never found a good time to sta
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
-After all, sometimes “I want it NOW!” is just that: a rung on the desire treadmill. No hidden protector or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn’t require giving into it, especially if getting your way would hurt you or somebody else.
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 76.1 A with 77.1 A: "No hidden protector" is now "No hidden guard", since the protective reactions are guards. Not yet checked in Pangram. -->
+
+After all, sometimes “I want it NOW!” is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn’t require giving into it, especially if getting your way would hurt you or somebody else.
 
 <!-- Turn 57 (E175): the guide's one paragraph as two, both new. The first took four rounds: eight versions read AI (0.46 to 0.997) while they kept the guide's therapy words ("perfect discipline", "never let a need show", "joy or closeness", "someone safe"); this one says the same in plain words. Alone Human Written (0.41, medium), https://www.pangram.com/history/bc04eaee-d7f1-46c8-8329-b1c67073ddbb. The second: inside the h1 its strategy half read AI once, so its two strategies are now named plainly ("The texts and the sulking aren't"); alone Human Written (0.13, medium), https://www.pangram.com/history/c3fdea09-4c49-4767-909d-f4085a60b21b. The h1 so far: Human Written (0.16, high), https://www.pangram.com/history/e6761e96-5537-486a-a320-124ff83c92cc. Groundings OK; stance check 6: 0 conflicts; cold read 7 OK. Record: experiments/t57-guide/REVIEWS.md. -->
 
@@ -1358,7 +1376,9 @@ It's not so hard to understand that words have power. They point your attention 
 
 <!-- Turn 70: Joel's P2, word for word (his answer to question 44: "the ai para was not very clear, and it also had that pollished ai quip pattern where it's like "that's X, not Y". it's better this way and human med conf"; experiments/t70-answers/JOEL-20261017-2259.md). His check counts for it alone. -->
 
-But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says "he hurt me," that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide parts can lead the way up to more safety and maturity.
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 76.2 A: "the Protector & Guide parts" is now "the Protector & Guide", since they're jobs, not parts. Not yet checked in Pangram. -->
+
+But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says "he hurt me," that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide can lead the way up to more safety and maturity.
 
 <!-- Turn 65 (E177), a writer's draft (experiments/t65-guide/writers/st1p3-w1-p1): find out what kind of company someone wants; not a ritual; follow an obvious mode. Alone Human Written (0.057, low), https://www.pangram.com/history/eddb9b08-8bf3-444b-bdeb-d3c349b9ba45. -->
 
@@ -1480,7 +1500,9 @@ Of the clinical approaches I know, schema therapy is the closest to this guide. 
 
 <!-- Turn 73 (his answers of 2026-10-18 21:58 UTC (experiments/t73-answers/JOEL-20261018-2158.md)): his "IMO" (57, 3) in words, since this article doesn't use chat acronyms (O37; Joel 2026-10-01: "for articles where the acronyms are used, you'd use those, but for other articles where they aren't used, you wouldn't put them in"). experiments/t73-guide/drafts/st2-b3.txt. Alone Human Written (0.072, low), https://www.pangram.com/history/e8c356a2-19d3-41b3-adcf-c0e91642ee74; the Appendix with it Human Written (0.057, high, 1581 words), https://www.pangram.com/history/c799f01c-b016-438b-9444-8e78bb23569a (round t73g). -->
 
-Where it really differs is spirituality. Schema therapy leaves it out. That's not so surprising, since it grew out of cognitive therapy ([Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who developed it, did his postdoctoral work with Aaron Beck). So a loan of love from God, like back in Ask God for a Loan, isn't something a schema therapist would usually offer you. IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing.
+<!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.7 A: "Schema therapy leaves it out" is now "Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development" (Young, Klosko and Weishaar, p. viii), and "isn't something a schema therapist would usually offer you" is now "isn't part of the standard method" (GPT's point: nothing shows how often therapists offer it). Not yet checked in Pangram. -->
+
+Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy ([Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who developed it, did his postdoctoral work with Aaron Beck). So a loan of love from God, like back in Ask God for a Loan, isn't part of the standard method. IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing.
 
 ## How This Relates to IFS
 
