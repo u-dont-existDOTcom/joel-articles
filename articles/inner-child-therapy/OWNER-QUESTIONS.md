@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 84). **Open questions: 76 to 79.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 84). **Open questions: 76, 77 (77.2 to 77.8), 78 and 79.3.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -38,7 +38,7 @@ GPT's proposals (from its four-book audit) and my review of them: `experiments/t
 
 Updated in turn 85, after GPT's reply (`experiments/t85-answers/GPT-REPLY-TO-CLAUDE-REVIEW-20261022-1307.md`). GPT now leans to my picks on the names (77.1, 77.2). It was right that my coping paragraph was too narrow (77.3), and right on four smaller points (77.4 to 77.7). The review has the corrections at the top.
 
-- **77.1 The names.** The one real mix-up is where a protective reaction gets the Protector's word. Hear the Protective Part First P3 (your adopted text) says "Your Protector, the grown-up you, earns that protective part's trust". The map already calls these reactions guards.
+- **77.1 The names** (answered: A, with your 79 answer; see Decided). The one real mix-up is where a protective reaction gets the Protector's word. Hear the Protective Part First P3 (your adopted text) says "Your Protector, the grown-up you, earns that protective part's trust". The map already calls these reactions guards.
   - **A (my pick):** keep "Protector" for the role and call the reactions guards. The two headings become Two Common Guarding Patterns and Hear the Guard First, with their two cross-references. P3's sentence becomes "Your Protector earns that guard's trust about the same way, mostly out in ordinary life." This also settles 76.1 as "No hidden guard or old trauma required", and 76.2 as dropping "parts". GPT now leans to this too.
   - **B:** A, and also "Adult Protector" for the role. It's GPT's term, and it says you agreed it with GPT. It would replace all 23 uses of "Protector", so there aren't two names for one role.
   - **C:** leave the names as they are; question 76 still stands.
@@ -46,7 +46,7 @@ Updated in turn 85, after GPT's reply (`experiments/t85-answers/GPT-REPLY-TO-CLA
   - **A (my pick):** leave it out (GPT agrees now). Your P3 to P5 already define the one grown-up and let readers rename it, and each other figure is defined where it comes up. The idea behind the names is a different thing, and that's 79.3.
   - **B:** add it, in your words or mine.
 - **77.3 Your candy question** (revised in turn 85). The gap is bigger than I first said. The guide has the examples but never says what connects them: one old expectation can show up as going along, getting away or proving the opposite, and the reaction can keep the expectation alive. My first paragraph only covered getting away.
-  - **A (my pick):** two short paragraphs at the end of Two Common Protective Patterns: the old expectation, often wordless; the three directions, judged by what they do rather than how they look (sometimes a sweet is just a sweet); the loop, allowing that the people around may really be unavailable or unsafe; and that a reaction made for a crisis can cost you in an ordinary week. My sketch is in the review, to fit the names you settle in 79.
+  - **A (my pick):** two short paragraphs at the end of Two Common Protective Patterns: the old expectation, often wordless; the three directions, judged by what they do rather than how they look (sometimes a sweet is just a sweet); the loop, allowing that the people around may really be unavailable or unsafe; and that a reaction made for a crisis can cost you in an ordinary week. My sketch is in the review, now in the settled words (learned expectations, responses, guards).
   - **B:** my first version, one paragraph on getting away.
   - **C:** GPT's version, a new section, When a Habit Is Doing the Guarding.
   - **D:** leave it.
@@ -87,28 +87,12 @@ You asked whether the children's book and the couples book have good additions, 
   - **B:** start on the romance guide now, with these three.
   - **C:** your words.
 
-### 🟣 79. The core: the names, and the idea behind them
+### 🟣 79. Where the core idea goes
 
-Your message of 13:22 UTC (`experiments/t85-answers/JOEL-20261022-1322.md`). GPT's labels and my picks are nearly the same; the one difference, "Adult Protector" or plain "Protector", is 77.1. What your message adds is the idea the names hang on: growing up, you pick up a script that runs on its own, and reparenting updates it until the new version runs on its own. Your opening already says where that leads (stage 4, "you become a natural"; stage 5, "Lose self-consciousness while gaining self-awareness"). What the guide never says plainly is what's being updated. Here's the set I'd use, building on GPT's:
+The names are settled (Decided, below: your "ok i like gpt's response", 14:26 UTC). One thing is left: where the idea goes. GPT's sketch is one paragraph saying what gets reparented and where it leads: "Much of how you make sense of things, respond to them and treat yourself comes from patterns you learned without choosing them…" (`experiments/t86-answers/GPT-REPLY-ON-CORE-NAMES-20261022-1349.md`).
 
-- **The little one (Inner Child):** your younger feelings and needs: hurt, anger, wanting, joy, play and wonder.
-- **The Inner Adult:** the grown-up you're building, one person with three jobs: Nurturer, Protector, Guide.
-- **The script you inherited:** what runs by itself because you learned it growing up. It answers three questions before you ask them:
-  1. What's going on? **Old expectations**, like "if I need someone, they'll leave". Often felt, never heard as words.
-  2. What do I do? **Reaction patterns**: going along, getting away, or proving the opposite. A **guard** is a reaction you can talk to like someone inside; a plain habit is just a habit.
-  3. How do I treat myself? **The parent you inherited**: a critic, a warden, or warmth.
-- **Reparenting:** the Inner Adult updating the script: noticing what ran, practicing a better answer until it's second nature, and stepping back in when it misfires. Awareness finds the old program; practice and play put in the new one.
-
-- **79.1 The umbrella name.**
-  - **A (my pick):** "the script you inherited". It's your word, and "the parent you inherited" becomes the part of it about how you treat yourself.
-  - **B:** "inherited patterns".
-  - **C:** your words.
-- **79.2 The name for what you do.**
-  - **A (my pick):** "reaction patterns", yours. It means what you do, so the feeling stays with the little one.
-  - **B:** "coping patterns", GPT's.
-  - **C:** your words.
-- **79.3 Where the idea goes.**
-  - **A (my pick):** two or three sentences right after your five stages, saying what gets reparented and that the goal is less effort, not more; then 77.3's two paragraphs at the end of Two Common Protective Patterns.
+- **79.3 Placement.**
+  - **A (my pick):** that paragraph, in your voice, right after your five stages. Then 77.3's two paragraphs, in the settled words, at the end of Two Common Protective Patterns.
   - **B:** all of it in one place, at the end of Two Common Protective Patterns.
   - **C:** your words.
 
@@ -125,6 +109,20 @@ Both results are read and recorded, so "Inner Child, draft A (temp, delete after
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 The core names (79.1 and 79.2), and 77.1, 2026-10-22 14:26 UTC
+
+Your answer (turn 86; `experiments/t86-answers/JOEL-20261022-1426.md`): "ok i like gpt's response", about GPT's reply on the names (`experiments/t86-answers/GPT-REPLY-ON-CORE-NAMES-20261022-1349.md`). So the set is GPT's refinement of mine:
+
+- **The little one (Inner Child):** younger experience: vulnerability, needs, wanting, play and wonder. Feelings aren't only the little one's, though. The Nurturer's warmth is a feeling too.
+- **The Inner Adult:** one person with three jobs, Nurturer, Protector and Guide. It's plain "Protector": the Inner Adult's protective job, kept distinct from guards. I've taken that as your answer to 77.1, A, since GPT's reply says it.
+- **Learned patterns**, the umbrella. "The script you inherited" can stay as a metaphor, explained once as not necessarily words. The three questions look at one process from three sides; they aren't three compartments:
+  1. What does this seem to mean, and what do I expect? **Learned expectations**, like "needing someone will lead to rejection".
+  2. How do I tend to respond? **Response patterns**, the broad category: hiding the need, pleasing, withdrawing, or asking for support. **Coping patterns** are the responses used to manage difficulty, and going along, getting away and proving the opposite are examples of them, not the whole list. A **guard** is a protective response; sometimes it helps to relate to it as a part of you.
+  3. How do I treat myself through it? **The parent script you inherited**: "Stop being needy," or "You're having a hard time; let's help."
+- Patterns can be skillful, unskillful or useful only sometimes. The question is whether one fits now.
+- **Reparenting** is the caring relationship with your little one, through which you recognize patterns, meet what needs care and learn more fitting responses. What becomes less necessary is deliberate supervision, never the relationship: warmth, protection and guidance become second nature. Deliberate attention comes in when it's useful, with no compulsory monitoring, and sadness or uncertainty isn't a malfunction.
+- **Play** is part of how you learn and part of the point: one of the things you become free to do.
 
 ### 🟢 The turn-79 Substack results and the books, 2026-10-22
 

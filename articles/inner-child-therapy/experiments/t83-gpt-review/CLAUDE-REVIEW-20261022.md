@@ -87,11 +87,11 @@
 **C1 to C3, the candy question.**
 - Your question found a real gap: what a habit is doing.
 - The packet's five candy cases and arrow sequence are review scaffolding. But its three directions belong in the main text in plain words (GPT's correction, turn 85): without them the guide gives examples and never says what connects them.
-- My first version was one paragraph about reaching for sweets or the phone, which covers only getting away. A sketch of the fuller version, mine, not approved, to humanize later with the names you settle (question 79):
+- My first version was one paragraph about reaching for sweets or the phone, which covers only getting away. A sketch of the fuller version, mine, not approved, to humanize later, in the names settled in turn 86 (learned expectations, responses; see the questions page, Decided):
 
-  > Some of what you inherited isn't a voice at all. It's an old expectation, a felt sense of how things go ("if I need someone, they'll leave"), and it shapes what you do before you can say why. One person with that expectation goes along with things they don't like. Another disappears into sweets or their phone, and another insists they don't need anybody. Those look like opposites, but they can be doing the same job, so ask what a reaction is doing for you rather than judging it by how it looks. (Sometimes a sweet is just a sweet; more on that in The Inner Guide.)
+  > Some of what you learned isn't a voice at all. It's a learned expectation, a felt sense of how things go ("if I need someone, they'll leave"), and it shapes what you do before you can say why. One person with that expectation goes along with things they don't like. Another disappears into sweets or their phone, and another insists they don't need anybody. Those look like opposites, but they can be doing the same job, so ask what a response is doing for you rather than judging it by how it looks. (Sometimes a sweet is just a sweet; more on that in The Inner Guide.)
   >
-  > A reaction can also keep the expectation alive. If you never tell anyone you're struggling, nobody offers help, and that can look like proof that nobody cares, though sometimes the people around you really aren't available, or safe. And a reaction that was right for a crisis can cost you in an ordinary week. So the thing to ask is whether it still fits the life you have now.
+  > A response can also keep the expectation alive. If you never tell anyone you're struggling, nobody offers help, and that can look like proof that nobody cares, though sometimes the people around you really aren't available, or safe. And a response that was right for a crisis can cost you in an ordinary week. So the thing to ask is whether it still fits the life you have now.
 
 - It would go at the end of Two Common Protective Patterns, after P2, whose last lines already say the guards "started out trying to prevent something that really hurt" (so the sketch doesn't repeat that).
 
