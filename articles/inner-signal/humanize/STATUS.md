@@ -50,6 +50,9 @@ forecasts: `batch/PREDICTIONS.md` (22 paragraphs, all Human, 0.70 to 0.90). Inst
 helper `fix-20261022/screen/paste_payload_lane.js` (exact titles, an empty body only, the words check), the old one marked
 superseded. The lessons are in `docs/HUMANIZATION-GATE.md`, "What Joel's answers of 2026-10-22 18:37 UTC taught".
 
+**Pull request** [219](https://github.com/u-dont-existDOTcom/joel-articles/pull/219) carries this work (pull request 209,
+the work before it, was merged on 2026-10-21 at 22:43 UTC).
+
 **Queued after this guide: his Nibbāna article.** His result link came at 19:53 UTC
 ([the check](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917), made on 2026-10-20): Mostly Human Written,
 4.5% AI, 22 of 166 windows AI, none "humanized"; the list and the next steps are in `articles/nibbana/humanize/QUEUE-20261022.md`.
