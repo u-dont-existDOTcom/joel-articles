@@ -1,31 +1,9 @@
 {
- "turn": 96,
- "replace": [
-  [
-   "\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#220\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/220\\)\\ for\\ him\\ to\\ merge\\.",
-   "), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #220 (https://github.com/u-dont-existDOTcom/joel-articles/pull/220) merged (2026-10-22 21:56 UTC).",
-   1
-  ],
-  [
-   "^1\\. Draft A's link from the fourth check now.*$",
-   "1. His answers to questions 86 (how to use the Pangram API credit) and 87 (what still reads AI) on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E); once the results are final, his delete of the two temporary Substack drafts (A and B).",
-   1
-  ],
-  [
-   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#220\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/220\\),\\ turn\\ 95\\ \\(\\#218\\ is\\ merged\\)\\.",
-   "2. His merge of pull request #221 (https://github.com/u-dont-existDOTcom/joel-articles/pull/221), turn 96 (#220 is merged).",
-   1
-  ],
-  [
-   "^1\\. Draft A's link \\(and B's once the limit resets\\).*$",
-   "1. His answers to 86 and 87; put his words in word for word. Then check d01 and d02 (experiments/t96-tells/) and whatever his answers change, by the route 86 picks: the free Substack check (copy experiments/t95-substack/make_payloads.py forward; experiments/t88-substack/paste_payload_lane.js; check the editor has focus, then clear the body with real ctrl+a, Delete), or, if he picks the API, tools/humanization/pangram_api.py on the laptop with PANGRAM_KEY_FILE='/home/joel/Documents/api keys/pangram.txt' (never print or copy the key), starting with one short paragraph to see which version answers (the tool expects 4.0; his Substack check is 4.1). Predictions first, as the chance of a Human result. After the results, build the scorecard and link the questions page, the scorecard and any pull request (E213).",
-   1
-  ]
- ],
+ "turn": "96, CI fix",
  "insert_before": [
   [
-   "- TURN 95 (",
-   "- TURN 96 (2026-10-22, his message of 22:08 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #221 (https://github.com/u-dont-existDOTcom/joel-articles/pull/221) for him to merge.\n  - His message: experiments/t96-answers/JOEL-20261022-2208.md (round 4's two links; his Pangram API key is at /home/joel/Documents/api keys/pangram.txt with $200 of credit; never print or copy the key).\n  - Round 4 (experiments/t96-results/ROUND4-RESULTS.json): half A 2.2% AI, half B 3.0%; his Two Common Guarding Patterns reads Human; #76 to #89 recorded and explained; the scorecard rebuilt.\n  - The API key is accepted (a probe, nothing spent). Two more of my cuts (experiments/t96-tells/ d01, d02), not checked. Questions 86 (how to use the API credit) and 87 (what still reads AI).\n  - NEXT: Next step 1."
+   "  - NEXT: Next step 1.",
+   "  - After his merge of #219 (22:16 UTC), CI's content-integrity check went red on #221: main's new test tests/test_substack_check_text.py (the Hypnosis lane's) needs BeautifulSoup, and CI installs nothing. Main merged into the branch and that lane's own fix (its commit 70a397bc: the test skips where bs4 is missing) ported word for word; state/PANGRAM-SCORECARD.md rebuilt and committed."
   ]
  ]
 }
