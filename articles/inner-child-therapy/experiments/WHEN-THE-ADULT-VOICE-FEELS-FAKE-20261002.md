@@ -1195,6 +1195,8 @@ His message, saved first (`t90-answers/JOEL-20261022-1803.md`, with Gemini's fin
 - **His windows:** they wait for this round's check before question 82, since some sit right after paragraphs of mine that changed (his How Much Happiness P4 went AI only after my P3).
 - **Substack:** `t90-substack/` (A 15,675 words, B 12,638), predictions t90s_A (#42, AI 0.85) and t90s_B (#43, AI 0.80) before any check.
 
+- **Pasted** (18:20 UTC): both drafts cleared and pasted from commit 5cb15ccf, never published. A has 15,675 words, matching word for word. B has 12,738, the payload's 12,638 plus the note embed as before. Both previews show the new text; both labels read Human. A's label is clicked, so his side panel shows A's result.
+
 ### Next
 
-1. Paste both halves into the two drafts (`t88-substack/paste_payload_lane.js`, clear the body first, words must match), open both previews in his Brave and click the labels; he copies the two links from the side panel. Then read them, record #42 and #43, rework what of mine still reads AI, and ask question 82 on his windows that remain.
+1. His two links from the side panel ("Copy shareable link to result"; B's after he clicks the label in the other tab). Then read them, record #42 and #43, rework what of mine still reads AI, and ask question 82 on his windows that remain.
