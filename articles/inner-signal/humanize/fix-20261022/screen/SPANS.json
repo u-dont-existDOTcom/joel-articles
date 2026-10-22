@@ -1,0 +1,107 @@
+{
+ "S1": {
+  "sample": "emu-bc",
+  "run": "HG17-pub2",
+  "section": "HG17",
+  "start": 0,
+  "end": 14122,
+  "words": 2653,
+  "headings": [
+   0,
+   3,
+   6,
+   10,
+   31,
+   37
+  ],
+  "paragraphs": 63,
+  "output_sha256": "8e9e8e52096de87ab70747d9f86c6226dcd6e991ca8eee07cfc3e27556a2a5e3"
+ },
+ "S2": {
+  "sample": "emu-bd",
+  "run": "HG17-pub2",
+  "section": "HG17",
+  "start": 14123,
+  "end": 28003,
+  "words": 2608,
+  "headings": [
+   0,
+   3,
+   6,
+   10,
+   16,
+   32,
+   39
+  ],
+  "paragraphs": 71,
+  "output_sha256": "4660354f934ad6f54e21b596d9047e57420995a323557560957e6a767a1608e1"
+ },
+ "S3": {
+  "sample": "emu-be",
+  "run": "HG17-fx1",
+  "section": "HG17",
+  "start": 28004,
+  "end": 44165,
+  "words": 3057,
+  "headings": [
+   0,
+   3,
+   6,
+   10,
+   17,
+   45,
+   51,
+   56,
+   59,
+   64
+  ],
+  "paragraphs": 73,
+  "output_sha256": "cdc07e304df28c8e6e43f81fe66e7b9ccbdbd969ffeb45ab4c8de847871e13cf"
+ },
+ "S4": {
+  "sample": "emu-bf",
+  "run": "HG17-fx1",
+  "section": "HG17",
+  "start": 44166,
+  "end": 59694,
+  "words": 2927,
+  "headings": [
+   0,
+   3,
+   6,
+   10,
+   17,
+   44,
+   55,
+   64
+  ],
+  "paragraphs": 73,
+  "output_sha256": "ef88640d8e259d99924f8a9440437b6e5f8a1261a64b751f46bb3558210babb0"
+ },
+ "S5": {
+  "sample": "emu-bg",
+  "run": "HG32-pr1",
+  "section": "HG32",
+  "start": 59695,
+  "end": 61677,
+  "words": 345,
+  "headings": [
+   0
+  ],
+  "paragraphs": 8,
+  "output_sha256": "15590db9eca43bec3d6c921551ceff54d95100a10b4cc4c8431df0b65c69bf72"
+ },
+ "S6": {
+  "sample": "emu-bh",
+  "run": "HG32-pr1",
+  "section": "HG32",
+  "start": 61678,
+  "end": 63635,
+  "words": 360,
+  "headings": [
+   0
+  ],
+  "paragraphs": 8,
+  "output_sha256": "acdd099fe11cbe7d8200577c82a1524e1c5cc99f1aafd26c238cf9266b3a1741"
+ }
+}

@@ -1,5 +1,64 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-22, after Joel's message of 18:37 UTC (the recheck read; answers 9 to 11, batch 470g; the screening post)
+
+**The recheck's results** (his two links): [part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7),
+the whole guide to inside Appendix B, AI Detected, 13.8% AI; [part B](https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4),
+the appendices, Mostly Human Written, 4.9% AI. Red: the induction section (HG17) from its first paragraph to the shortcut,
+most of its windows marked "humanized", with light or dark green only in Before you begin's steps 4 and 5, the sleep
+paragraph, "Either way is ok" and Deepening, if useful; three short windows of the return (HG18); Appendix C's general
+checklist as prose, one 518-word window, high. Dark green: every other section, the NLP appendix's Human version
+included. In the ledger, HG-whole#21 (AI at 0.03) is right and HG-rest-B#20 (AI) is a miss, explained ("verdict
+threshold misread": one red section in 10,444 words reads Mostly Human); batch 469g's forecasts are 15 of 15 right
+(`fix-20261021/b469/batch/SCORE.md`). The windows were read from the page as one compact line each and the text rebuilt
+from the payload (`tools/humanization/substack_check_text.py`, new: SHA-256 equal to the page's), instead of the 25,000
+tokens of checked text a half used to cost.
+
+**Why the induction section read AI**: its sample, ba, had been chosen by meaning alone; under gate E200 no sample went
+through a Pangram screen, while HG18's, which reads Human, had been chosen by its screen. So six new samples
+(`fix-20261018/make_emu_bc.py`, run on the laptop; each output's SHA-256 checked against the laptop's) go through a
+screening post first: two of HG17 from the published text (emu-bc, emu-bd), two from the installed fixed section with
+Joel's 11 b (emu-be, emu-bf), two of Appendix C from my prose (emu-bg, emu-bh). The post
+([TEMP screen (hypnosis guide samples)](https://ibogaqueen.substack.com/p/8f4644c8-8bda-4321-8437-8a09148353cc?postPreview=paid&updated=2026-10-22T19%3A26%3A08.747Z&audience=only_paid&free_preview=false&freemail=),
+draft 221684747; `fix-20261022/screen/`) was pasted with the new helper (words check: 12,184 words, SHA-256 equal), and
+its rendered paragraphs hash to `TEXT-S.txt` (63,635 characters), so the check reads exactly that. Predictions first
+(ledger HG17-emu-bc#22 to HG32-emu-bh#27: AI for S1 to S3, S5 and S6, Human at 0.55 for S4). It waits on Joel's Brave.
+
+**Joel's answers 9 to 11, batch 470g** (`fix-20261022/b470/`): 30 edits in 23 paragraphs and 3 headings. 9: the guards
+are childhood protector parts where the guide first uses the word, where it explains them (with his reason: "It's what
+protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child."),
+and where anxiety or a negative state is put down to one, the synchronicity cue included. 10: the Inner Child article's
+names (his table of 13:22 UTC, the core names, his nutshell): the h1 gives the inner adult three jobs; their first
+naming is "your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide"; Guide for
+Leader/Guru throughout, Leader and Guru kept among the names a reader can choose; one name for the inherited parent,
+"inherited parent script", explained once. 11 b: "If you are overwhelmed by chemicals, acutely confused, or not able to
+keep yourself safe, ...". Four rounds of reviews: round 1, an Opus reader of each change against his answer, its meaning,
+the names and its sense in place (`r1/REVIEW.md`: five CHANGED), a cold read of the h1 (`r1/SENSE-HG14.md`: the line to
+say could be said to the script), the stance check (`r1/STANCE.md`: six conflicts in the changed paragraphs, all in the
+installed versions' words, and fifteen places where the published text pulls against his positions, most of which the
+batch fixes) and the march (no paragraph lost a break); round 2 fixed four of round 1's five with the reader's wording
+(`r2/VERIFY-r2.md`: OK); round 3 put five of the stance check's conflicts right in the same paragraphs (reparenting
+doesn't wait, "no value for its resume", the Protector and the Nurturer's limits, "as objectively and clearly as I can";
+`r3/VERIFY-r3.md`: OK), with the sixth answered in `gate-answers.json`; round 4 reworded three of my phrases that brought
+linter rules the installed paragraphs didn't have (`lint-compare.json`; `r4/`). Appendix B's "Put 3 good adults in" (the
+review and the stance check both) is question 12 c with the invocation's "inner adult(s)" and Appendix K's "three-adult
+arrangement"; the note's forced adulthood and learned patterns are 12 a and b. The gate: `batch/GATE.json`; the
+forecasts: `batch/PREDICTIONS.md` (22 paragraphs, all Human, 0.70 to 0.90). Installed with
+`fix-20261020/apply_edits41.py --add EDITS-470g.json`, each edit "pending" its reading in the next recheck.
+
+**The Inner Child lane's note, part 1**: drafts A and B renamed without "Pangram" (reloaded to confirm); the new paste
+helper `fix-20261022/screen/paste_payload_lane.js` (exact titles, an empty body only, the words check), the old one marked
+superseded. The lessons are in `docs/HUMANIZATION-GATE.md`, "What Joel's answers of 2026-10-22 18:37 UTC taught".
+
+**Pull request** [219](https://github.com/u-dont-existDOTcom/joel-articles/pull/219) carries this work (pull request 209,
+the work before it, was merged on 2026-10-21 at 22:43 UTC).
+
+**Queued after this guide: his Nibbāna article.** His result link came at 19:53 UTC
+([the check](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917), made on 2026-10-20): Mostly Human Written,
+4.5% AI, 22 of 166 windows AI, none "humanized"; the list and the next steps are in `articles/nibbana/humanize/QUEUE-20261022.md`.
+The registered master (2026-09-28) is older than the post (the post opens "Hello Lovey Bunny!!" now), so the work starts
+with his current editor HTML.
+
 ## 2026-10-21, the listening script installed (my check-in of 20:13 UTC; Joel's recheck results hadn't come in)
 
 **The induction section (HG17), sample ba with every point back** (`fix-20261018/rf-zg/make_hg17_fixed.py`,

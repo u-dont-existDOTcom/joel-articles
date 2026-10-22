@@ -7,7 +7,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 
 ## Pangram 4.0 (before the ledger)
@@ -40,22 +40,22 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
-| the latest 100 | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
-| all | 2 | 2 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 2) |
+| the latest 50 | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
+| the latest 100 | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
+| all | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
-| stretch | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+| article | 2 | 2 (100%) | 100% | 0% | 0% | 0.001 (base 0.000, 2) |
+| stretch | 2 | 1 (50%) | 50% | 50% | 0% | 0.451 (base 0.250, 2) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 2 | 0.01 | 0% |
+| 0.0 to 0.2 | 4 | 0.03 | 25% |
 
 ## pangram 4.1, web app
 
@@ -80,7 +80,7 @@ Calibration:
 | 0.6 to 0.8 | 3 | 0.67 | 67% |
 | 0.8 to 1.0 | 2 | 0.82 | 100% |
 
-## Misses since the ledger (6)
+## Misses since the ledger (7)
 
 | cause | misses |
 |---|---|
@@ -88,6 +88,7 @@ Calibration:
 | parallel list kept | 1 |
 | parallel list kept; light green turned red | 1 |
 | fix underrated | 1 |
+| verdict threshold misread | 1 |
 
 The latest:
 
@@ -99,15 +100,21 @@ The latest:
 | [HG35-w467](https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad) | HG35, 1 | Human | AI or mixed | parallel list kept; light green turned red |
 | [HG15-p9e2](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56) | HG15-p9, 2 | Human | AI or mixed | balanced closer kept |
 | [HG35-forgive-e3](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3) | HG35-p13, 2 | AI | Human | fix underrated |
+| [HG-rest-41r2-b](https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4) | HG-rest-B, 2 | AI | Human | verdict threshold misread |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 2 of unlimited (Substack) | pending |
-| HG-rest-B | stretch | 2 of unlimited (Substack) | pending |
+| HG-whole | article | 2 of unlimited (Substack) | Mixed |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |
 | HG35-p15 | paragraph | 1 of 6 | Mixed |
+| HG17-emu-bc | stretch | 1 of unlimited (Substack) | pending |
+| HG17-emu-bd | stretch | 1 of unlimited (Substack) | pending |
+| HG17-emu-be | stretch | 1 of unlimited (Substack) | pending |
+| HG17-emu-bf | stretch | 1 of unlimited (Substack) | pending |
+| HG32-emu-bg | stretch | 1 of unlimited (Substack) | pending |
+| HG32-emu-bh | stretch | 1 of unlimited (Substack) | pending |
 

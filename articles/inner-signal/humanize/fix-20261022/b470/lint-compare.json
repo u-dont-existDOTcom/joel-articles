@@ -1,0 +1,307 @@
+{
+ "b470-guard-first-read": {
+  "installed": [
+   "B4/E15",
+   "E125",
+   "O15",
+   "O27",
+   "O30",
+   "O6"
+  ],
+  "edit": [
+   "B4/E15",
+   "E125",
+   "O15",
+   "O27",
+   "O30",
+   "O6"
+  ],
+  "new_rules": []
+ },
+ "b470-three-jobs-named": {
+  "installed": [
+   "B7",
+   "E125",
+   "E36/E41",
+   "O15"
+  ],
+  "edit": [
+   "B7",
+   "E36/E41",
+   "O15"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-label": {
+  "installed": [
+   "B7"
+  ],
+  "edit": [
+   "B7"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-work": {
+  "installed": [
+   "B4/E15",
+   "E36/E41",
+   "E41"
+  ],
+  "edit": [
+   "B4/E15",
+   "E36/E41",
+   "E41"
+  ],
+  "new_rules": []
+ },
+ "b470-protector-parts-label": {
+  "installed": [
+   "B7"
+  ],
+  "edit": [
+   "B7"
+  ],
+  "new_rules": []
+ },
+ "b470-guard-defined": {
+  "installed": [
+   "B4/E15",
+   "E125",
+   "E36/E41",
+   "E41",
+   "O25"
+  ],
+  "edit": [
+   "B4/E15",
+   "E125",
+   "E36/E41",
+   "E41",
+   "O25"
+  ],
+  "new_rules": []
+ },
+ "b470-parent-script": {
+  "installed": [
+   "B2",
+   "B4/E15",
+   "E36/E41"
+  ],
+  "edit": [
+   "B2",
+   "B4/E15",
+   "E36/E41"
+  ],
+  "new_rules": []
+ },
+ "b470-to-the-part": {
+  "installed": [
+   "E36/E41",
+   "O20"
+  ],
+  "edit": [
+   "E36/E41",
+   "O20"
+  ],
+  "new_rules": []
+ },
+ "b470-talk-to-part": {
+  "installed": [
+   "E36/E41",
+   "E41",
+   "O13"
+  ],
+  "edit": [
+   "E36/E41",
+   "E41",
+   "O13"
+  ],
+  "new_rules": []
+ },
+ "b470-part-wants": {
+  "installed": [
+   "B1",
+   "B4/E15",
+   "E36/E41"
+  ],
+  "edit": [
+   "B1",
+   "B4/E15",
+   "E36/E41"
+  ],
+  "new_rules": []
+ },
+ "b470-script-humiliating": {
+  "installed": [
+   "B4/E15",
+   "O9"
+  ],
+  "edit": [
+   "B4/E15",
+   "O9"
+  ],
+  "new_rules": []
+ },
+ "b470-chemicals": {
+  "installed": [
+   "B2",
+   "B4/E15",
+   "E125",
+   "E23",
+   "O19"
+  ],
+  "edit": [
+   "B2",
+   "B4/E15",
+   "E125",
+   "E23",
+   "O19"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-care": {
+  "installed": [
+   "B4/E15",
+   "E125",
+   "E36/E41",
+   "E41"
+  ],
+  "edit": [
+   "B4/E15",
+   "E125",
+   "E36/E41",
+   "E41"
+  ],
+  "new_rules": []
+ },
+ "b470-script-fake": {
+  "installed": [
+   "B2",
+   "O12"
+  ],
+  "edit": [
+   "B2",
+   "E36/E41",
+   "O12"
+  ],
+  "new_rules": [
+   "E36/E41"
+  ]
+ },
+ "b470-anxious-parts": {
+  "installed": [
+   "B4/E15",
+   "E23",
+   "E36/E41",
+   "E41"
+  ],
+  "edit": [
+   "B4/E15",
+   "E23",
+   "E36/E41",
+   "E41"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-stuck": {
+  "installed": [
+   "B7"
+  ],
+  "edit": [
+   "B7"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-proportion": {
+  "installed": [
+   "B4/E15",
+   "B7"
+  ],
+  "edit": [
+   "B4/E15",
+   "B7"
+  ],
+  "new_rules": []
+ },
+ "b470-synchronicity": {
+  "installed": [
+   "B4/E15",
+   "O12",
+   "O29",
+   "O30",
+   "O43",
+   "O9"
+  ],
+  "edit": [
+   "B4/E15",
+   "O12",
+   "O29",
+   "O30",
+   "O43",
+   "O9"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-cue": {
+  "installed": [
+   "O30"
+  ],
+  "edit": [
+   "O30"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-reframe": {
+  "installed": [
+   "B4/E15",
+   "O14",
+   "O15",
+   "O30"
+  ],
+  "edit": [
+   "B4/E15",
+   "O14",
+   "O15",
+   "O30"
+  ],
+  "new_rules": []
+ },
+ "b470-guide-nlp": {
+  "installed": [
+   "E125"
+  ],
+  "edit": [
+   "E125"
+  ],
+  "new_rules": []
+ },
+ "b470-anxiety-part": {
+  "installed": [
+   "B2",
+   "B4/E15",
+   "B7",
+   "E125",
+   "E41"
+  ],
+  "edit": [
+   "B2",
+   "B4/E15",
+   "B7",
+   "E125",
+   "E41"
+  ],
+  "new_rules": []
+ },
+ "b470-altered-part": {
+  "installed": [
+   "B4/E15",
+   "E36/E41",
+   "O25"
+  ],
+  "edit": [
+   "B4/E15",
+   "E36/E41",
+   "O25"
+  ],
+  "new_rules": []
+ }
+}
