@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 89). **Open question: 78.2.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 90). **Open question: 78.2.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -30,6 +30,24 @@ This file is the page's master copy, so either of your Claude accounts can read 
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 The Schema Hacks material, 2026-10-22 18:03 UTC
+
+Your message (turn 90; `experiments/t90-answers/`, with Gemini's findings and GPT's advice): "we have some more things to add from schema hacks on youtube". I agreed with GPT's read, and put in its five, each a sentence or two in your voice where the guide didn't already say it, with its corrections:
+
+1. **Self-blame can be doing a protective job:** a new last paragraph in Hear the Guard First, as a possibility to check. The cruelty stops either way.
+2. **The pile-up:** sad, then "pathetic", then ashamed. It's the new last paragraph of The Parent You Inherited, since your P3 has to follow P2 there.
+3. **The loyalty bargain:** a new last paragraph in Untangling the Belonging Bargains, "If I'm happy while someone I love is suffering, I'm abandoning them."
+4. **Quiet company:** one sentence after "I'm glad you're here" in Borrow Love, the two of you washing the dishes together.
+5. **Reading your message from their side:** a new last paragraph in Write It. Don't Send It Yet.
+
+No mode names, "Dobby" or "whelmed", so under your rule they're common ideas and need no citations. Left out, as GPT advised:
+- the "nothing, nothing, nothing" proof and "all roads lead to the critic";
+- hopelessness as dodging accountability;
+- standing up to switch brain networks;
+- the chocolate cake attached to your Daja story.
+
+None of the five is checked in Pangram yet.
 
 ### 🟢 81, and the hypnosis lane, 2026-10-22 16:35 UTC
 
