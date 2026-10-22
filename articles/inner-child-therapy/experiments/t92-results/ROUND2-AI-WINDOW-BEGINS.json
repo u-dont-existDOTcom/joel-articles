@@ -44,11 +44,14 @@
   "204": "Same with something a doctor should look at.",
   "205": "And if it says no to going deeper in this work, or to an a",
   "206": "It might not be able to tell you why.",
+  "207": "often than not. The first one is on duty all the time, and it can sou",
   "208": "Maybe it doesn’t believe there’s a grown-up around who cou",
   "209": "I’d want out too.",
   "210": "That yawn might actually be the opposite of checking out",
   "212": "The skeptic and the pull both started out guarding you aga",
+  "213": "that really hurt. If you treat either one like an enemy, or like proof",
   "214": "just think “See? I knew it,” and stay in charge.",
+  "215": "one, they leave. You probably never said it to yourself in words. You",
   "216": "So with any of these, I’d ask what it’s protecting you fro",
   "220": "Then nobody offers to help, and that can look like proof n"
  },
@@ -76,5 +79,6 @@
   "132": "I still won’t know how they’ll take it, but it might change a word o",
   "178": "Having a big institute with certifications behind it doesn’t make a",
   "179": "I borrow particular distinctions and practices rather than presentin"
- }
+ },
+ "note": "Turn 93: windows 207 (High 95), 213 (High 23) and 215 (High 68) were missing from turn 92's list; they're added from the feed page (read again 2026-10-22, experiments/t93-tells/TELLS-ROUND2.md). Window 207 is Two Common Guarding Patterns P1, so P1 still read AI in round 2."
 }

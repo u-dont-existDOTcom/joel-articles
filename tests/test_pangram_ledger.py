@@ -29,7 +29,7 @@ class Ledger(unittest.TestCase):
 
     def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None):
         argv = ['predict', self.ledger, '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
-                '--chance', '0.6'] + (['--key', key] if key else [])
+                '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else [])
         for t in tells:
             argv += ['--tells', t]
         if diagnosis:
@@ -43,6 +43,14 @@ class Ledger(unittest.TestCase):
     def test_a_prediction_needs_evidence(self):
         self.assertEqual(self.predict('one', tells=()), 2)
         self.assertEqual(L.read(self.ledger), [])
+
+    def test_the_chance_is_of_a_human_result(self):
+        """An AI call at 0.9 recorded the confidence in the call; the ledger's chance is of a 100% Human result (2026-10-22)."""
+        argv = lambda ch: ['predict', self.ledger, '--lineage', 'C', '--scope', 'paragraph', '--text', self.text('c' + ch),
+                           '--call', 'AI', '--chance', ch, '--tells', 'a tidy closer']
+        self.assertEqual(L.main(argv('0.9')), 2)
+        self.assertEqual(L.read(self.ledger), [])
+        self.assertEqual(L.main(argv('0.1')), 0)
 
     def test_a_paragraph_lineage_stops_at_six_tries(self):
         for i in range(6):

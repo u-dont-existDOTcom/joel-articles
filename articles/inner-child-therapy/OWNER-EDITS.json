@@ -1073,13 +1073,13 @@
   {
    "id": "two-protective-patterns-h3",
    "status": "applied",
-   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle. Turn 31: \"The skeptic and the pull both\" for \"Both kinds\" (Joel), and \"the opposite of checking out\". Turn 90: P1 and P2 reworked for 4.1 (experiments/t89-drafts/ a5, a6), his words and the claim kept; the exact strings are the current ones.",
+   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle. Turn 31: \"The skeptic and the pull both\" for \"Both kinds\" (Joel), and \"the opposite of checking out\". Turn 90: P1 and P2 reworked for 4.1 (experiments/t89-drafts/ a5, a6), his words and the claim kept; the exact strings are the current ones. Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones.",
    "joel": "2026-10-03 21:18 UTC: \"continue\"; 2026-10-06 19:04 UTC (yawning): \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "### Two Common Guarding Patterns",
-    "Two kinds of reaction really are trying to protect you, more often than not. The first one is on duty all the time, and it can sound like a skeptic: \"You're just making this up.\" It may have spent years keeping you from being humiliated again, or left again, and it has probably watched you get excited about other healing things before, then drop them a month later.",
-    "The other one shows up right as you get close to something painful. Suddenly you'd rather check your phone, or do anything but feel it (even a yawn can come with an \"I'm so done with this\" feeling). Maybe it doesn't believe there's a grown-up around who could handle what's coming. I'd want out too. That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out. The skeptic and the pull both started out guarding you against something that really hurt. If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge."
+    "One is a skeptic, on duty all the time: \"You're just making this up.\" It may have spent years keeping you from being humiliated or left again, and it has probably watched you get excited about other healing things before, then drop them a month later.",
+    "The other one shows up right as you get close to something painful. Suddenly you'd rather check your phone, or do anything but feel it (even a yawn can come with an \"I'm so done with this\" feeling). Maybe it doesn't believe there's a grown-up around who could handle what's coming. That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out. The skeptic and the pull both started out guarding you against something that really hurt. If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and stay in charge."
    ],
    "updated": "2026-10-22 turn 87: P2's \"The skeptic and the pull both...\" sentence is said plainer after the turn-79 check's Medium window; his \"The skeptic and the pull both\" stays"
   },
@@ -1155,11 +1155,11 @@
   {
    "id": "tp-p2-see-i-knew-it",
    "status": "claim",
-   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\".",
+   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\". Turn 93: the sentence's \"or like proof that something's wrong with you\" pair is out (4.1); the part's own thought stays.",
    "joel": "2026-10-04 05:48 UTC: \"why did you stop there\"; 05:50 UTC: \"no worries on pangram checks\" (the h1's last AI window, fixed here)",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge."
+    "If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and stay in charge."
    ],
    "must_not_contain": [
     "usually gives it one more reason to stay in charge"
@@ -1397,12 +1397,12 @@
   {
    "id": "pgq-004-anxiety",
    "status": "claim",
-   "what": "Claim check: Joel's update queue item PGQ-004 (anxiety can protect without being an oracle; testing a prediction never overrides a no) is in Start With Whatever Showed Up, after \"Or if you do get an answer…\".",
+   "what": "Claim check: Joel's update queue item PGQ-004 (anxiety can protect without being an oracle; testing a prediction never overrides a no) is in Start With Whatever Showed Up, after \"Or if you do get an answer…\". Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones. Turn 94: round 3's windows on P9's end and P10 cut again (experiments/t94-tells/), so the exact strings are the current ones.",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"; 2026-10-07 16:46: \"maybe you can continue with the rest from there?\"",
    "where": "Start With Whatever Showed Up",
    "must_contain_exact": [
-    "Anxiety deserves the same kind of listening. A lot of the time it's a part of you that's trying to protect you, making a guess about what's coming: that you'll get overwhelmed, maybe, or that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. So when it's safe to find out, I'd hear it out and then go see. Maybe nobody laughs. (Or they do, and you survive it.) If it might be real danger, though, I'd get some distance first, and find out how right it was later. Same with something a doctor should look at.",
-    "Some of it I wouldn't test at all, even when it sounds like a prediction. If a part hesitates about being touched or about sex, that's enough to stop. And if it says no to going deeper in this work, or to an altered state, I'd stop there too. It might not be able to tell you why."
+    "Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see.",
+    "If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction."
    ]
   },
   {
@@ -2805,7 +2805,7 @@
   {
    "id": "joel-70a-structure-20261021",
    "status": "applied",
-   "what": "GPT's r03 structure moves as Joel picked them (question 70: A), every paragraph kept: M01 with his \"mess and all\" paragraph kept early; M02; M03; M04 only as Altered States as its own h1 right after When the Adult Voice Feels Fake, his run kept in his order (its two sub-moves and GPT's help-first order in If You Want to Kill Yourself not taken; that one is question 74); M05 (The Inner Guide, the four authority paragraphs in Don't Give the Inner Adult Away); M06 only for the end sections (Ask God for a Loan, PRE-APPROVED! and When the Spiritual Relationship Hurts stay in Borrow Love); M07 with GPT's heading Hearthwork: Taking Turns; M08's ending. When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time and its empty heading went. Pointer repairs: \"ask yourself again\" to \"ask yourself\", \"I'll talk more about those next\" to \"in the appendix\", \"the same test as back in Timing Is Individual\" to \"as in Timing Is Individual, further down\". His divider after If You Want to Kill Yourself is back. Not yet checked in Pangram in its new places.",
+   "what": "GPT's r03 structure moves as Joel picked them (question 70: A), every paragraph kept: M01 with his \"mess and all\" paragraph kept early; M02; M03; M04 only as Altered States as its own h1 right after When the Adult Voice Feels Fake, his run kept in his order (its two sub-moves and GPT's help-first order in If You Want to Kill Yourself not taken; that one is question 74); M05 (The Inner Guide, the four authority paragraphs in Don't Give the Inner Adult Away); M06 only for the end sections (Ask God for a Loan, PRE-APPROVED! and When the Spiritual Relationship Hurts stay in Borrow Love); M07 with GPT's heading Hearthwork: Taking Turns; M08's ending. When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time and its empty heading went. Pointer repairs: \"ask yourself again\" to \"ask yourself\", \"I'll talk more about those next\" to \"in the appendix\", \"the same test as back in Timing Is Individual\" to \"as in Timing Is Individual, further down\". His divider after If You Want to Kill Yourself is back. Not yet checked in Pangram in its new places. Turn 94: the paragraph's opening is reworded for 4.1 (experiments/t94-tells/, c02), so its order check names the new opening.",
    "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"70a\"",
    "where": "the whole article; GPT's files in experiments/t78-structure/gpt-r03/",
    "must_have_line": [
@@ -2833,7 +2833,7 @@
     "# My Journey",
     "## Don’t Give the Inner Adult Away",
     "# Before You Try to Go Deep",
-    "If being alone was a big part of what hurt in the first place",
+    "If being alone was a big part of what hurt, I'd call somebody now",
     "## Your Body Might Need Some Love First",
     "# Borrow the Adult Before You Can Be the Adult",
     "## Borrow One Competency at a Time",
@@ -2922,7 +2922,7 @@
   {
    "id": "joel-87-20261022",
    "status": "applied",
-   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix. Also the new text decided in this turn (77.3, 77.6, 77.8, 78.1, 79.3), my drafts, installed not yet checked: Reparenting in a nutshell; Two Common Guarding Patterns P3 and P4; ST-CA sentences in You Don't Need an Inner Monologue P1 and P2, Love Doesn't Have to Wait for Trust P14, The Parent You Inherited P4, Hear the Guard First P4, Untangling the Belonging Bargains P1 and The Inner Guide P1, P2 and P4; When One Life Has Ended P1; the Schema Therapy appendix P1. Turn 88 (16:12 UTC): his own nutshell replaced my draft and its heading (entry joel-88-20261022); stage 1 has 80.1's words and P2 has \"wrong with\" (80.2), so the exact strings here are the current ones. Turn 90: 77.3's two paragraphs reworked for 4.1 (a7, a8), so their checked strings are the new ones.",
+   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix. Also the new text decided in this turn (77.3, 77.6, 77.8, 78.1, 79.3), my drafts, installed not yet checked: Reparenting in a nutshell; Two Common Guarding Patterns P3 and P4; ST-CA sentences in You Don't Need an Inner Monologue P1 and P2, Love Doesn't Have to Wait for Trust P14, The Parent You Inherited P4, Hear the Guard First P4, Untangling the Belonging Bargains P1 and The Inner Guide P1, P2 and P4; When One Life Has Ended P1; the Schema Therapy appendix P1. Turn 88 (16:12 UTC): his own nutshell replaced my draft and its heading (entry joel-88-20261022); stage 1 has 80.1's words and P2 has \"wrong with\" (80.2), so the exact strings here are the current ones. Turn 90: 77.3's two paragraphs reworked for 4.1 (a7, a8), so their checked strings are the new ones. Turn 92: the Schema Therapy appendix P2 names Emotional Alchemy (checked against the book), so \"isn't part of the standard method\" is now \"isn't in her book or in the standard method\". Turn 93: he isn't theistic (19:03 UTC), so the difference is gratitude, not a loan of love from God.",
    "joel": "2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)",
    "where": "The five stages (1 and 5); The Chicken-and-Egg Problem P2; Borrow One Competency at a Time; Two Common Guarding Patterns; Hear the Guard First P3; Altered States Can Deepen the Therapy; Altered States Can Require Reparenting P6; The Inner Guide P3; Speak Toward What You Are Building P2; How This Relates to Schema Therapy P2",
    "must_contain_exact": [
@@ -2936,7 +2936,7 @@
     "My inner Guide saw it",
     "No hidden guard or old trauma required",
     "Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development",
-    "isn't part of the standard method",
+    "Her book barely mentions gratitude, and for me that's the door to the bigger love",
     "Adult Protector (hereafter just the Protector)",
     "That pull is one way of dealing with it.",
     "The expectation can even make itself come true.",
@@ -2952,7 +2952,8 @@
     "No hidden protector",
     "Schema therapy leaves it out",
     "would usually offer you",
-    "There was never anything wrong with the child's worth to begin with"
+    "There was never anything wrong with the child's worth to begin with",
+    "But a loan of love from God, like back in Ask God for a Loan, isn't in her book"
    ]
   },
   {
@@ -3000,15 +3001,16 @@
   {
    "id": "joel-92-20261022",
    "status": "applied",
-   "what": "Joel's 82a (2026-10-22 18:35 UTC): his 14 years of crying, in his words from his 18:25 UTC message and his nibbana article, as a short paragraph right after the loyalty bargain in Untangling the Belonging Bargains, with the nibbana article's therapist line (\"add therapist reply also\").",
+   "what": "Joel's 82a (2026-10-22 18:35 UTC): his 14 years of crying, in his words from his 18:25 UTC message and his nibbana article, as a short paragraph right after the loyalty bargain in Untangling the Belonging Bargains, with the nibbana article's therapist line (\"add therapist reply also\"). Turn 93: the loyalty-bargain paragraph is now the bargain itself, so his \"That's exactly why\" follows it directly; its small good thing is a sentence after his paragraph (experiments/t93-tells/TELLS-ROUND2.md, item b01).",
    "joel": "2026-10-22 18:35 UTC (experiments/t92-answers/JOEL-20261022-1835.md)",
    "where": "Untangling the Belonging Bargains, after the loyalty bargain",
    "must_contain_exact": [
     "That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs. I told this to a therapist in college and she actually agreed it was a good reason to be depressed!"
    ],
    "order": [
-    "Some families run on a quieter bargain",
-    "That's exactly why I was crying for 14 years."
+    "Some families run on a bargain like",
+    "That's exactly why I was crying for 14 years.",
+    "I'd still try a small good thing"
    ]
   }
  ]
