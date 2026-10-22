@@ -1066,3 +1066,22 @@ Joel, 22:42 UTC: "75 a"; he turned on Claude in Chrome in Brave and Chrome ("oth
 ### Next
 
 1. The two result links and his answer to 76; then the windows recorded and scored, the segment clicks for any half that isn't all Human, his 76 fixes and mine checked in one free Substack check per changed section, and the drafts deleted (E204).
+
+## Turns 82 to 84 (2026-10-22, from 11:56 UTC): the two results; GPT's review packet; the books
+
+Joel, 11:56 UTC: the two result links; "you should figure out why you can't see the links maybe i can watch you next time when you want to try just tell me you're ready to try"; "anyway now we have a bigger project from the gpt review attached" (his folder Inner-Child-Guide-Review-2026-10-22). 12:06 UTC: "the books should be in here" (he connected his therapy books folder). 12:15 UTC: Young's Schema Therapy and two more books, the children's and the couples one, which "could be good additions for the guide perhaps (or the couple's one might also have some things for my romance guide...)". Each saved first (`t82-answers/`, `t83-answers/`, `t84-answers/`).
+
+- **Results:** both halves Mostly Human Written, Pangram 4.1. A: 4.3% AI, 26 of 231 windows AI. B: 2.7% AI, 10 of 140 AI. The results are `t82-results/RESULT-A-meta.json` and `RESULT-B-meta.json` (every window, no full text). t79s_A and t79s_B are scored Mixed, both misses. Every AI window is mapped to its paragraph in `t82-results/AI-WINDOWS.md`. The rework waits for his answers to 76 and 77, so each paragraph is reworked once.
+- **Why I couldn't see the analysis:** clicking the label changed nothing in the page, opened no side panel (the viewport kept the window's width), and opened no tab in Claude in Chrome's group. The analysis opens outside the group. Next time I tell him before I click, so he can watch where it opens.
+- **The drafts** stay until he deletes them. A permanent delete is his click, and E204 now says so for Claude workers.
+- **GPT's review packet** (UDA #417):
+  - My review is `t83-gpt-review/CLAUDE-REVIEW-20261022.md`, with its book checks in `t83-gpt-review/SOURCE-CHECKS.md`, and it ends in question 77.
+  - I read Young's preface p. viii ("the combining of schema therapy with spirituality") and pp. 277 to 278 myself, and Arntz and colleagues (2021) online.
+  - A Sonnet reader checked the packet's Young claims, and I re-found all its quotes. The Sonnet readers for van Genderen, Heath/Startup and Capacchione were stopped when his 12:15 message interrupted the session, before they reported, so I checked those myself.
+  - What the checks changed: the appendix's P1 also leaves out the Guide, since Young's Healthy Adult "Sets limits" (p. 278), now 77.8. The rest are page and wording slips in GPT's citations, none of which changes a disposition.
+  - The packet's book hashes match his files. His Young file is labelled 2007, but it's the 2003 book.
+- **The two new books:** one Sonnet reader each, for candidate additions (`t84-books/`).
+
+### Next
+
+1. His answers to 76 and 77. Then the changes he picks, and the AI-window rework, in one round through the gate. Then one free Substack check per changed section, with him watching the label click.
