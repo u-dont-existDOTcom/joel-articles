@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "2ce39cee3443b37693628af22af1b9fcc87170bd2c62d90cbe15c5f34ba6d2e4",
+          "sha256": "28ec2c1170b61053787cc6721b671b70aa60524eb1421b4f0fbec02e4065bc67",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "e5a4e7555c6dc95bd97d221b4cc495caf95d1909983fc95e23195983c472f6b3",
+          "sha256": "003f26e9aab90ad51f1fb48cf4bc68c5f7f53bb7775ad51849a40e3f8d4d99b0",
           "role": "owner_questions_page"
         },
         {
@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "212f2eefa67ee0aca73181975e90e42b363e100c60d3f32a315b96017a825b91",
+          "sha256": "497a304ce6a054aeef5a0eb8529a409ddd5fd097ea69f16422aa70b9be9193f4",
           "role": "humanization_working_record"
         },
         {
@@ -23249,12 +23249,17 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t84-books/README.md",
-          "sha256": "d14d6bb22e0232d143b1003049ff03f4176f74a6033c8c0ebb0c9bda9d0f8f93",
+          "sha256": "9345f7c4eee93b0481110cad6054d4fb7a9ee67641e8c043981c5f6dcca761c1",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t84-books/CANDIDATES-couples.md",
           "sha256": "4d2d12e45f3d800e161748c026e7915f8897cfb8e2c5a2b2571d8df9289b0a0d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t84-books/CANDIDATES-stca.md",
+          "sha256": "6f4570caa65068ff3144d4f90406cdd8d926cc5f5a2cd3cfcf959e5e9d6076e4",
           "role": "humanization_working_record"
         }
       ]
