@@ -1200,3 +1200,15 @@ His message, saved first (`t90-answers/JOEL-20261022-1803.md`, with Gemini's fin
 ### Next
 
 1. His two links from the side panel ("Copy shareable link to result"; B's after he clicks the label in the other tab). Then read them, record #42 and #43, rework what of mine still reads AI, and ask question 82 on his windows that remain.
+
+## Turn 91 (2026-10-22, 18:25 UTC): his 14 years of crying
+
+His message, saved first (`t91-answers/JOEL-20261022-1825.md`): the loyalty bargain (addition 3) is "exactly why i was crying for 14 years", "i was thinking i should not be happy if people in the world are suffering (i had Eugene Debs poster on my wall about that)", told in his nibbana article.
+
+- The guide doesn't say why he cried (the opening has "I could have kept crying forever"). His nibbana article (`articles/nibbana/master.html`, "Realizing the world we live in") has it: from 12, "I became convinced that being happy myself, while others weren't, was selfish", the Debs poster, "I cried myself to sleep every night", and the college therapist who agreed.
+- Question 82: where his story goes, with a draft in his words only. My pick is a short paragraph after the loyalty bargain. His windows question is now 83.
+- Pull request #216's checks passed (content-integrity, mergeable).
+
+### Next
+
+1. His two feed links from the second label round, and his answer to 82. Then read the links, record #42 and #43, rework what of mine still reads AI, put his 82 answer in, and ask question 83 on his windows that remain.

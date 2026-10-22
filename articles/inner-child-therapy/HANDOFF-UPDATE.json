@@ -1,36 +1,21 @@
 {
- "turn": 90,
+ "turn": 91,
  "replace": [
   [
-   "\\-\\ TURN\\ 89\\ \\(2026\\-10\\-22,\\ his\\ messages\\ of\\ 16:35,\\ 16:39\\ and\\ 16:42\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.",
-   "- TURN 89 (2026-10-22, his messages of 16:35, 16:39 and 16:42 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
+   "then\\ his\\ answers\\ to\\ question\\ 82\\ \\(his\\ windows\\ that\\ remain\\)\\ and\\ 78\\.2\\ on\\ OWNER\\-QUESTIONS\\.md;",
+   "then his answers to question 82 (where his 14 years of crying goes, turn 91), question 83 once asked (his windows that remain) and 78.2 on OWNER-QUESTIONS.md;",
    1
   ],
   [
-   "pull\\ request\\ \\#215\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/215\\)\\ for\\ him\\ to\\ merge\\.",
-   "pull request #215 (https://github.com/u-dont-existDOTcom/joel-articles/pull/215) merged (2026-10-22 18:03 UTC).",
-   1
-  ],
-  [
-   "1\\.\\ Half\\ A's\\ pangram\\.com/feed/\\ link\\ \\(its\\ result\\ is\\ in\\ his\\ Brave\\ side\\ panel;\\ \"Copy\\ shareable\\ link\\ to\\ result\"\\);\\ then\\ his\\ watch\\ of\\ the\\ second\\ label\\ round,\\ after\\ the\\ rework;\\ his\\ answer\\ to\\ 78\\.2\\ and\\ to\\ question\\ 82\\ \\(his\\ windows\\)\\ on\\ OWNER\\-QUESTIONS\\.md;\\ once\\ the\\ results\\ are\\ recorded,\\ his\\ delete\\ of\\ the\\ two\\ temporary\\ Substack\\ drafts\\ \\(A\\ and\\ B\\)\\.",
-   "1. His two pangram.com/feed/ links from the second label round (Brave's side panel, \"Copy shareable link to result\"); then his answers to question 82 (his windows that remain) and 78.2 on OWNER-QUESTIONS.md; once the results are recorded, his delete of the two temporary Substack drafts (A and B).",
-   1
-  ],
-  [
-   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#215\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/215\\),\\ turn\\ 89\\ \\(\\#214\\ is\\ merged\\)\\.",
-   "2. His merge of pull request #216 (https://github.com/u-dont-existDOTcom/joel-articles/pull/216), turn 90 (#215 is merged).",
-   1
-  ],
-  [
-   "1\\.\\ Half\\ A's\\ result:\\ when\\ his\\ link\\ comes,\\ read\\ it\\ with\\ tools/humanization/pangram_feed_read\\.js\\ \\(save\\ it\\ as\\ experiments/t89\\-results/RESULT\\-A\\-meta\\.json,\\ like\\ RESULT\\-B\\),\\ record\\ t88s_A\\ \\(\\#40\\)\\ in\\ articles/inner\\-child\\-therapy/tools/pangram\\-ledger\\.jsonl,\\ and\\ map\\ its\\ AI\\ windows\\ to\\ paragraphs\\ and\\ whose\\ words\\ they\\ are\\.\\ Rework\\ my\\ flagged\\ text\\ in\\ A\\ the\\ way\\ half\\ B\\ was\\ done\\ \\(experiments/t89\\-drafts/,\\ notes\\ in\\ the\\ article\\)\\.\\ Question\\ 82:\\ his\\ windows\\ in\\ both\\ halves\\ \\(IFS\\ P7,\\ Related\\ Clinical\\ Work\\ P1,\\ and\\ A's\\),\\ with\\ the\\ flagged\\ words\\ and\\ the\\ smallest\\ fixes\\ \\(E171\\)\\.\\ Then\\ rebuild\\ both\\ payloads\\ \\(copy\\ experiments/t88\\-substack/make_payloads\\.py\\ into\\ a\\ t89\\ folder\\),\\ re\\-paste\\ the\\ two\\ drafts\\ with\\ experiments/t88\\-substack/paste_payload_lane\\.js\\ \\(clear\\ the\\ body\\ first\\),\\ and\\ run\\ a\\ second\\ label\\ round\\ with\\ him\\ watching\\.\\ The\\ results\\ come\\ from\\ Brave's\\ side\\ panel,\\ so\\ he\\ copies\\ the\\ links\\.\\ Use\\ the\\ short\\ path\\ \\(How\\ a\\ turn\\ runs\\)\\.",
-   "1. The second label round's results: when his two links come, read each with tools/humanization/pangram_feed_read.js, save experiments/t90-results/RESULT-A-meta.json and RESULT-B-meta.json (like t89-results/), record t90s_A (#42) and t90s_B (#43) in articles/inner-child-therapy/tools/pangram-ledger.jsonl, and map the AI windows to paragraphs and whose words they are (notes, OWNER-EDITS.json, his 10-19 paste in experiments/t74-guide/). Rework what of mine still reads AI (experiments/t89-drafts/ has this round's drafts). Then question 82: his windows that remain, with the flagged words and the smallest fixes (E171). Then the next payloads (copy experiments/t90-substack/make_payloads.py), the drafts re-pasted with experiments/t88-substack/paste_payload_lane.js, and another label round. Use the short path (How a turn runs).",
+   "Then\\ question\\ 82:\\ his\\ windows\\ that\\ remain,\\ with\\ the\\ flagged\\ words\\ and\\ the\\ smallest\\ fixes\\ \\(E171\\)\\.",
+   "Put his answer to question 82 in (his 14 years of crying, his words only). Then question 83: his windows that remain, with the flagged words and the smallest fixes (E171).",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 89 (2026-10-22",
-   "- TURN 90 (2026-10-22, his message of 18:03 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #216 (https://github.com/u-dont-existDOTcom/joel-articles/pull/216) for him to merge.\n  - His message, word for word: experiments/t90-answers/ (half A's link; \"we have some more things to add from schema hacks on youtube\", with Gemini's findings and GPT's advice attached).\n  - Half A: Mostly Human Written, 7.2% AI, 41 of 254 windows (experiments/t89-results/RESULT-A-meta.json); #40 right.\n  - The Schema Hacks additions: GPT's five, with its corrections (questions page, Decided). My half-A rework is in (experiments/t89-drafts/), with the half-B rework of turn 89; none checked yet.\n  - The second label round: both drafts pasted from commit 5cb15ccf and verified; both labels read Human. Waiting for his two links. Predictions #42 and #43.\n  - NEXT: Next step 1.\n"
+   "- TURN 90 (2026-10-22",
+   "- TURN 91 (2026-10-22, his message of 18:25 UTC): the loyalty bargain is \"exactly why i was crying for 14 years\" (experiments/t91-answers/); the guide doesn't say why he cried, and his nibbana article does. Question 82 asks where his story goes, with a draft in his words only (my pick: a short paragraph after the loyalty bargain). His windows question is now 83. Same branch and pull request #216; turn 90's next step still holds.\n"
   ]
  ]
 }

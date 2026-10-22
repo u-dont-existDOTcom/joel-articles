@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 90). **Open question: 78.2.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 91). **Open questions: 78.2 and 82.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -16,6 +16,17 @@ This file is the page's master copy, so either of your Claude accounts can read 
   - **A (my pick):** keep them as notes for now, and start with the safety plan whenever you open the romance guide again.
   - **B:** start on the romance guide now, with these three.
   - **C:** your words.
+
+### 🟣 82. Your 14 years of crying (turn 91)
+
+You said the loyalty bargain (the new paragraph in Untangling the Belonging Bargains) is "exactly why i was crying for 14 years". The guide doesn't say why you cried; the opening only says "I could have kept crying forever". Your nibbana article tells it, and the draft below is your words from there and from your message, joined, with no word of mine:
+
+> That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs.
+
+- **A (my pick):** that, as a short paragraph right after the loyalty bargain, where it shows the bargain can be about the whole world too, not just family.
+- **B:** the same in the opening, after "I could have kept crying forever".
+- **C:** leave it to the nibbana article, maybe with a link to it.
+- **D:** your words, or add the therapist line too ("I told this to a therapist in college and she actually agreed it was a good reason to be depressed!").
 
 ## For you to do (no decision needed)
 
