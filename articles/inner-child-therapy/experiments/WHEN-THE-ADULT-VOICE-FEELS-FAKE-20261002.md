@@ -1240,7 +1240,7 @@ His two messages, saved first (`t93-answers/JOEL-20261022-1901.md`): "83 i don't
 
 - **Not theistic:** How This Relates to Schema Therapy P2 now names gratitude as the difference, his door to the bigger love in Your Loan is PRE-APPROVED!, with "no belief in God required". *Emotional Alchemy* barely mentions gratitude. Lint CLEAR. The questions page's books entry says so.
 - **The feed pages, read again** for each window's words and confidence (`t93-tells/TELLS-ROUND2.md`).
-  - **A correction:** Two Common Guarding Patterns P1 did not read Human in round 2. Window 207 (High, 95 words) covers it and P2's start. Turn 92's list of window openings had missed 207, 213 and 215, so turn 92's "seven of my reworked paragraphs now read Human" is six. Both `t92-results` files are corrected, and the questions page says so.
+  - **A correction:** Two Common Guarding Patterns P1 did not read Human in round 2. Window 207 (High, 95 words) covers it and P2's start. Turn 92's list of window openings had missed 207, 213 and 215, so turn 92's "seven of my reworked paragraphs now read Human" is six. `ROUND2-AI-WINDOW-BEGINS.json` has the three windows added. `t92-results/CORRECTION-T93.md` says what `ROUND2-RESULTS.json` got wrong, and that file stays as recorded. The questions page says so.
 - **The tells pass** (`t93-tells/apply_t93.py`, `FIXES.json`, `TELLS-ROUND2.md`): 29 of my paragraphs, with the tells named from `docs/HUMANIZATION-GATE.md`'s 4.1 list. Each tell is cut, or its point said once in a plain clause, and nothing is added. This answers his "so far your human tells have not been very good".
   - Eleven are third tries. Their earlier tries reworded; these cut.
   - The loyalty-bargain paragraph is now the bargain itself, so his 82a "That's exactly why" follows it directly. Its small good thing is one sentence after his paragraph (the 82a check's order now includes it).
@@ -1256,3 +1256,11 @@ His two messages, saved first (`t93-answers/JOEL-20261022-1901.md`): "83 i don't
   - four single Low sentences beside real tells;
   - Two Common Guarding Patterns P3's three ways (his 77.3 content);
   - Your Body Might Need Some Love First P4.
+- **The third label round** (`t93-substack/`, payloads at commit da96954c; predictions #44 and #45, both AI calls, since his eight stretches are untouched). Both drafts were cleared with real ctrl+a and Delete, pasted, and verified:
+  - A has 15,394 words, and its words hash matches.
+  - B has 12,697 words. That's the payload's 12,597 with the note link shown as its 101-word embed; without the embed, its words hash matches.
+  - Both were saved and are unpublished. Both labels read Human, and the label alone doesn't settle it. The two previews are open in his Brave, for him to click each label and copy the link from the side panel.
+
+### Next
+
+1. His two links: read them (`tools/humanization/pangram_feed_read.js`), record #44 and #45, and score each turn-93 item. A third try that still reads AI goes to him. Then his question-84 answers.

@@ -13,7 +13,7 @@ So this pass only takes things out. For each window that read AI in round 2 (che
 
 Then I cut the tell, or said its point once in a plain clause. Nothing was added: no new asides, jokes, emojis or examples. Joel's words are proposals only (question 84 on `OWNER-QUESTIONS.md`). The lint ran on each changed paragraph against the article before the change. All are REVIEW or CLEAR, and the four first FAILs were reworded (below). The owner-edit check is at 181 passed, 0 failed.
 
-**A correction.** Turn 92 told Joel that Two Common Guarding Patterns P1 read Human after its rework. It didn't. Window 207 (High, 95 words) covers it and the start of P2. Turn 92's list of window openings missed 207, 213 and 215, and that's where the mistake came from. `experiments/t92-results/` has both files corrected. What the turn-90 rework did fix: Chicken-and-Egg P15, When to Change the Strategy P3 and P4, If You Want to Kill Yourself P6 and P7, Borrowed Adulthood P1 and The Inner Guide P5, plus three of the five Schema Hacks additions.
+**A correction.** Turn 92 told Joel that Two Common Guarding Patterns P1 read Human after its rework. It didn't. Window 207 (High, 95 words) covers it and the start of P2. Turn 92's list of window openings missed 207, 213 and 215, and that's where the mistake came from. `ROUND2-AI-WINDOW-BEGINS.json` has those three added now. `experiments/t92-results/CORRECTION-T93.md` corrects `ROUND2-RESULTS.json`, which stays as recorded. What the turn-90 rework did fix: Chicken-and-Egg P15, When to Change the Strategy P3 and P4, If You Want to Kill Yourself P6 and P7, Borrowed Adulthood P1 and The Inner Guide P5, plus three of the five Schema Hacks additions.
 
 ## What the cuts drop
 
