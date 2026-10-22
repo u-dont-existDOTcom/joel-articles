@@ -1212,3 +1212,20 @@ His message, saved first (`t91-answers/JOEL-20261022-1825.md`): the loyalty barg
 ### Next
 
 1. His two feed links from the second label round, and his answer to 82. Then read the links, record #42 and #43, rework what of mine still reads AI, put his 82 answer in, and ask question 83 on his windows that remain.
+
+## Turn 92 (2026-10-22, from 18:35 UTC): 82a; the second label round's results; the two books
+
+His message, saved first (`t92-answers/JOEL-20261022-1835.md`, with GPT's review of the two books): "82a and add therapist reply also", the two result links, and the two books GPT found on schema therapy and spirituality (Bennett-Goleman's *Emotional Alchemy*; van Vreeswijk, Broersen and Schurink's *Mindfulness and Schema Therapy*), which he checked.
+
+- **82a:** his paragraph after the loyalty bargain, his words only, with the therapist line (`OWNER-EDITS.json` entry `joel-92-20261022`; checks 181 of 181).
+- **Round 2** (`t92-results/ROUND2-RESULTS.json`, `ROUND2-AI-WINDOW-BEGINS.json`): half A Mostly Human Written, 9.5% AI, 54 of 259 windows (#42 right); half B Mostly Human Written, 5.3% AI, 23 of 182 (#43 right). Both worse than round 1.
+  - Seven of my reworked paragraphs and three of the five additions now read Human.
+  - Eight of my reworked paragraphs still read AI after two tries, and so do two additions and three of the turn-87 children's-book lines.
+  - Windows moved into eight paragraphs nobody changed.
+  - All of his flagged paragraphs stay AI.
+- **Question 83:** the method, since rewording through whole-half rounds moves windows about as much as it removes them. My pick is checking my paragraphs one at a time on pangram.com before the next whole-half round, cutting an addition that still fails, and sending his flagged stretches to him in one file.
+- **The two books:** staged from his books folder (connected as `/mnt/hdd/storage/joel/SSD-offload/Documents/books/therapy`). A Sonnet agent is checking GPT's thirteen claims against them (`t92-books/BOOK-CHECK.md`), so the Schema Therapy appendix's comparison can be made accurate. GPT's own conclusion is to fix that comparison, not to add a backlog of material.
+
+### Next
+
+1. His answer to 83. When the book check reports, fix the Schema Therapy appendix's comparison with what the books really say. Then the method he picks.

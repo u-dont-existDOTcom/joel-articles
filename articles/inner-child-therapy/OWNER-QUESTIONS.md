@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 91). **Open questions: 78.2 and 82.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 92). **Open questions: 78.2 and 83.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -17,16 +17,21 @@ This file is the page's master copy, so either of your Claude accounts can read 
   - **B:** start on the romance guide now, with these three.
   - **C:** your words.
 
-### 🟣 82. Your 14 years of crying (turn 91)
+### 🟣 83. What still reads AI, and how to get it to Human (turn 92)
 
-You said the loyalty bargain (the new paragraph in Untangling the Belonging Bargains) is "exactly why i was crying for 14 years". The guide doesn't say why you cried; the opening only says "I could have kept crying forever". Your nibbana article tells it, and the draft below is your words from there and from your message, joined, with no word of mine:
+Round 2 (`experiments/t92-results/ROUND2-RESULTS.json`): half A 9.5% AI (54 windows; it was 7.2%), half B 5.3% (23; it was 3.5%), both "Mostly Human Written".
 
-> That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs.
+- **Fixed by my rework:** Chicken-and-Egg P15, Two Common Guarding Patterns P1, When to Change the Strategy P3 and P4, If You Want to Kill Yourself P6 and P7, Borrowed Adulthood P1, The Inner Guide P5. Three of the five Schema Hacks additions read Human (self-blame, the pile-up, the dishes).
+- **Mine, still AI after two tries:** Don't Give the Inner Adult Away P7 and P8, Two Common Guarding Patterns P2 to P4, Borrow Hindsight P1, The Inner Guide P4, How Much Happiness P3. New and AI: the loyalty-bargain and "their side" additions, and the turn-87 children's-book lines in The Parent You Inherited P4, The Inner Guide P1 and Untangling P1.
+- **Windows that moved into paragraphs nobody changed:** Borrow One Competency P9, Just Like Me P1 and P2, Start With Whatever Showed Up P8 to P10, Let the Child Be Bad at Things P3, How Much Happiness P5, Somatic Heart Opening P1.
+- **Yours, still AI:** Before You Try to Go Deep P1 to P4, Your Body Might Need Some Love First P4 and P5, Use Childhood Photographs Gently P1, "Borrow adulthood. Do not surrender it.", How Much Happiness P4, How This Relates to IFS P7, Related Clinical Work P1.
 
-- **A (my pick):** that, as a short paragraph right after the loyalty bargain, where it shows the bargain can be about the whole world too, not just family.
-- **B:** the same in the opening, after "I could have kept crying forever".
-- **C:** leave it to the nibbana article, maybe with a link to it.
-- **D:** your words, or add the therapist line too ("I told this to a therapist in college and she actually agreed it was a good reason to be depressed!").
+Rewording through whole-half rounds is moving windows about as much as it removes them.
+
+- **A (my pick):** I check my new and reworked paragraphs one at a time on pangram.com, each with its section, before they go back into a whole-half check, within the budget's six tries per paragraph. If an addition of mine still fails, I cut it down to the part that passes and tell you what went. Your flagged stretches come to you in one file, with the flagged words and the smallest fix for each.
+- **B:** stop once each half reads "Mostly Human Written" under about 3% AI, without chasing every window.
+- **C:** you put the flagged stretches, mine too, in your own words, the way your nutshell passed.
+- **D:** your words.
 
 ## For you to do (no decision needed)
 
@@ -41,6 +46,10 @@ You said the loyalty bargain (the new paragraph in Untangling the Belonging Barg
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 82, 2026-10-22 18:35 UTC
+
+Your answer (turn 92; `experiments/t92-answers/JOEL-20261022-1835.md`): "82a and add therapist reply also". Your paragraph is in right after the loyalty bargain in Untangling the Belonging Bargains, as drafted from your message and your nibbana article, plus "I told this to a therapist in college and she actually agreed it was a good reason to be depressed!" Not yet checked in Pangram.
 
 ### 🟢 The Schema Hacks material, 2026-10-22 18:03 UTC
 
