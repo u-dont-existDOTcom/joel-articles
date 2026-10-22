@@ -1,5 +1,50 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-22, after Joel's message of 21:41 UTC (the pull request; answer 12, batch 471g; the screening read; bf's meaning work; the second screening post; Nibbāna's HTML)
+
+**The pull request** ("the pr has conflicts"): main had taken the Inner Child lane's pull request 218, with a conflict in
+`state/PANGRAM-SCORECARD.md` (regenerated with `pangram_ledger.py build`, merge afc6ea1b), then its 220 twenty minutes
+later, with one in `docs/HUMANIZATION-GATE.md` (both new lesson sections kept, merge 9dff534e). Joel merged 219 at 22:16
+UTC. `tools/humanization/lane_push.py` now runs CI's checks with bare Python before the push (a new test had needed
+BeautifulSoup, which CI doesn't install; it skips without it now) and ends by saying whether the pull request can merge.
+
+**The first screening post's result** ([his link](https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb), Mostly
+Human Written, 8.6% AI, 12,253 words): windows read from the page's props, the text rebuilt from the payload (SHA-256
+equal), each sample's windows cut by `screen/SPANS.json` (`screen/SCREEN-RESULT.json`). HG17: S2 (emu-bd) and S4 (emu-bf)
+Human in every window, S1 and S3 Mixed; Appendix C: S5 (emu-bg) Mixed, its opening, statement, four tests and last
+sentence red and its middle Human; S6 (emu-bh) red nearly throughout. Ledger: S4 right (Human at 0.55), S2 a miss
+(explained), S1, S3, S5 and S6 right.
+
+**Joel's answer 12, batch 471g** (`fix-20261022/b471/`): 12 a, A, "(what I call forced adulthood)"; 12 b, A, nothing;
+12 c, the three roles kept with his clarification after the step. Round 1: the item review OK on both, the march with no
+lost break, the stance check four findings: two drifts of the installed words (the "be able to fly" simile, the step's
+lost jobs), fixed in round 2 ("like telling a baby bird to just fly"; "(Nurturer to warm, Protector to make it safe, and
+Guide to point a direction)"; `r2/VERIFY-r2.md` OK), and two answered (his own term; "an inherited inner critic", kept as
+said under answer 10). The gate (`batch/GATE.json`; lint FAIL in both versions on the same rules), the forecasts
+(`batch/PREDICTIONS.md`), installed with `apply_edits41.py --add EDITS-471g.json`.
+
+**HG17 from sample bf** (`fix-20261022/hg17-bf/`): its meaning check in three parts (`VERIFY-part1.md` to `part3.md`: kept
+169, changed 52, lost 30, added claims 10). The fixes are drafted per part by an Opus reader against a triage brief
+(`FIX-BRIEF.md`; `FIXDRAFT-partN.json`): only what a reader acts on, inside bf's own sentences, a reason for each item let
+stand. 31 of the 32 drafted fixes went in (one cut of two harmless orientation questions left out), Joel's 11 b word for
+word, the published headings (bf's run-in headings taken out of their paragraphs), the three links
+(`make_hg17_bf_fixed.py`: `HG17.bf-fixed.json`, `SECTION.md`, `CANDIDATE.md`, `CHANGED-PARAS.json`). Reviews
+(`make_hg17_bf_reviews.py`): the fix check (`FIX-CHECK.md`: 27 of 28 changed paragraphs OK, the 28th Joel's own 11 b
+wording, answered; the audit of the 70 let stands found no disagreement); the cold read (`SENSE-HG17.md`: four unclear,
+three fixed in round 2, the fourth the published design); the march (no break lost; the playlist line is now short enough
+for the march to skip); the linter (`lint-compare.json`: two fixes reworded in round 2 and one in round 3, each for a rule
+bf's paragraph didn't have). Round 2 (`r2/VERIFY-r2.md`: 5 of 5 OK; `r2/march/`). STANCE_STATUS
+
+**The second screening post** (`fix-20261022/screen2/`, the same draft, its body cleared and pasted with the lane's helper;
+words SHA-256 equal; the rendered paragraphs' textContent hashes to `TEXT-S2.txt`): Appendix B's stretch as installed
+(B0), Appendix C as installed (C0), and two new openings with bg's middle and C0's end (C1, C2), to tell whether the
+recheck's red window was Appendix B's lists or Appendix C's opening, and which opening reads Human. Predictions first
+(ledger HG31-nlp-tail#28 to HG32-c2#31, all AI, 0.30 to 0.40). It waits on Joel's Brave.
+
+**Nibbāna**: his editor HTML of 21:41 UTC (`articles/nibbana/humanize/source/substack-editor-20261022.html`) rebuilt the
+way the check reads it is the checked text exactly; the rebuild tool learned three rules on the way (an embedded note's
+straight quotes, trailing spaces, emoji joiners), with tests. Queued after this guide.
+
 ## 2026-10-22, after Joel's message of 18:37 UTC (the recheck read; answers 9 to 11, batch 470g; the screening post)
 
 **The recheck's results** (his two links): [part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7),

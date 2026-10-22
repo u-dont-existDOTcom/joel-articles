@@ -1,0 +1,23 @@
+{
+ "made": "2026-10-22T22:50Z",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221684747",
+ "title": "TEMP screen (hypnosis guide samples) - do not publish",
+ "secret_link": "https://ibogaqueen.substack.com/p/8f4644c8-8bda-4321-8437-8a09148353cc?postPreview=paid&updated=2026-10-22T22%3A50%3A00.000Z&audience=only_paid&free_preview=false&freemail=",
+ "replaces": "the first screening's body (../screen/SCREEN-POST.json; its result is Joel's link of 21:41 UTC, read into ../screen/RESULT-S.json)",
+ "cleared": "the body selected and deleted with real keystrokes in the editor (ctrl+a, Delete) after checking the title; the editor then held 0 characters (Joel told: it can touch his clipboard)",
+ "payload": "PAYLOAD-S2.html",
+ "payload_sha256": "ab4a1cc82038b3052c787a83b44234a1d90805a3f8da79755246243b26de9e58",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/c6100e70ef4fc17c18014e16d9d75e97c48e0006/articles/inner-signal/humanize/fix-20261022/screen2/PAYLOAD-S2.html",
+ "paste": {
+  "helper": "../screen/paste_payload_lane.js",
+  "editor_words": 1400,
+  "words_sha256": "312ee60d27d1d3416d93bf8cbc9d29deb2c87bc5dbfe50ae4cd11d125dcbaa11",
+  "words_match": true,
+  "handled": true
+ },
+ "rendered_text_sha256": "b1bf88324455624805f1123f331b4a17119d3a1a03dd56e2a2163c45b00507b3",
+ "rendered_check": "the secret link opened in the app's browser at 22:5x UTC: the textContent of each paragraph of its div.body (headings skipped, trailing spaces off) joined by newlines hashes to TEXT-S2.txt's SHA-256 (7,693 characters). innerText gave 7,692: the post shows its first letter as a drop cap, and innerText drops the space after it (\"Ido not use NLP\"), so the rendered check reads textContent",
+ "text_sha256": "b1bf88324455624805f1123f331b4a17119d3a1a03dd56e2a2163c45b00507b3",
+ "predictions": "pangram-ledger.jsonl HG31-nlp-tail#28, HG32-469g#29, HG32-c1#30, HG32-c2#31 (make_preds_screen2.py), written before the paste",
+ "asked": "Joel, in chat at about 22:55 UTC: open the secret link in Brave, run Pangram's extension, paste the shareable result link"
+}

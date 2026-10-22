@@ -688,6 +688,44 @@ The records: `articles/inner-child-therapy/experiments/t95-answers/JOEL-20261022
 - **E212. Research that doesn't change what the reader does is fluff.** He cut the Kahneman and Klein paragraph: "it looked like fluff, i cut it". A pointer to a source has to change what the reader does or understands.
 - **E213. Ask for a merge with its link.** His words: "where is the PR link for me to merge? anyway i went to gh and merged it". Every reply that leaves a merge to him gives the pull request's link, and the questions page's For you to do has the same link.
 
+## What Joel's message of 2026-10-22 21:41 UTC taught (the hypnosis guide: the pull request, question 12, the screening)
+
+The records are in `articles/inner-signal/humanize/fix-20261022/` (`b471/`, `hg17-bf/`, `screen/`, `screen2/`).
+
+- **A pull request can conflict again after it was fixed (Joel: "the pr has conflicts").** The hypnosis lane had merged
+  main once that turn, and another lane's pull request landed on main twenty minutes later, with a conflict in this file.
+  So before a reply that leaves a merge to Joel, fetch main and merge it if it moved; `tools/humanization/lane_push.py`
+  now ends by saying whether the branch's pull request can merge, and says to merge main when it can't.
+- **CI's Python has nothing installed.** A new test that imported BeautifulSoup passed here and failed in CI, where the
+  workflow installs nothing. A test that needs a package skips without it, and `lane_push.py` now runs CI's checks first
+  with bare Python (`python3 -S`: the unit tests whenever `tests/`, `tools/` or `scripts/` changed, and the three
+  validators), stopping before the push when one fails.
+- **Read a rendered post's text with textContent.** Substack shows a post's first letter as a drop cap, and innerText then
+  drops the space after it ("Ido not use NLP"), so a rendered check by innerText came out one character short. The
+  paragraphs' textContent hashed to the rebuilt text exactly.
+- **Rebuilding the text of a post Joel edited by hand needs three more rules** (his Nibbāna editor HTML against its check):
+  an embedded Substack note keeps its straight quotes, a paragraph's trailing spaces go, and so do the emoji joiners and
+  presentation selectors (U+200D, U+FE0F). They are in `tools/humanization/substack_check_text.py`, with tests.
+- **After a sample reads Human, put back only what a reader acts on, inside its own sentences.** The induction section's
+  last sample had every lost point put back in plain words and then read AI in the guide. For the next one (bf), an Opus
+  reader per part drafted the fixes against a triage brief (`hg17-bf/FIX-BRIEF.md`: fix a lost step, safety or exit
+  point, condition or link, an added claim, a permission turned into a duty or the reverse; let tone, examples, small
+  words and paraphrases stand; the smallest edit inside the sample's own sentence; none of the shapes the linter
+  catches), with a reason for every item let stand. 31 fixes went in and 70 items stood; a separate reader checked each
+  changed paragraph in place (27 of 28 fine, the 28th Joel's own wording) and audited every let stand (no disagreement).
+- **When a sample runs a heading into its paragraph, taking the heading out can leave the paragraph without its main
+  clause.** Sample bf began the already-open practice with "Variations Open already If you're already open for some reason
+  (...) and want to aim and stabilise it ..."; with the published heading above it and the run-in words gone, the cold
+  read found an "if" with no "then", which the next paragraph then seemed to answer. It is "This is for when you're
+  already open ..." now. After moving a run-in heading out, read the paragraph under it again as a sentence of its own.
+- **A stance check of an answer's paragraphs finds what earlier rewrites moved** (as in batch 470g): Joel's question 12
+  touched two paragraphs, and the check found an adult made out of reach for good ("like telling them to just be able to
+  fly", for "assumes the capacity they are trying to build") and a step that had lost each adult's job. Both went back in
+  a few words. A finding that the answer itself explains (his own term, "forced adulthood") is answered, not fixed.
+- **When a red window spans two sections, screen them apart.** The recheck's 518-word red window ran from Appendix B's
+  lists into Appendix C's prose, so the second screening post reads Appendix B's stretch, Appendix C as installed and two
+  new openings as separate samples (`screen2/make_screen2.py`), before any more rewriting of Appendix C.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

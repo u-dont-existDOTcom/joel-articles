@@ -1,0 +1,30 @@
+{"fixes": [
+  {"p": "P35", "old": "Orient yourself.", "new": "Look around and orient yourself.", "answers": "LOST: \"Look around the room\". \"Orient yourself\" is generic.", "why": "lost first step: look around"},
+  {"p": "P35", "old": "How does your body feel? Where are you grounded? Can you feel", "new": "Can you feel", "answers": "ADDED-CLAIM: \"How does your body feel? Where are you grounded?\" Two new orientation checks (P35).", "why": "checks Joel didn't give; taken out"},
+  {"p": "P36", "old": "My body will be safe.", "new": "My body may stay safe.", "answers": "CHANGED: \"The body may stay safe\" is now \"My body will be safe\": a flat assurance, not a permission.", "why": "promise back to a permission (may)"},
+  {"p": "P41", "old": "Say to yourself, \"I'm not going anywhere.\"", "new": "Say to yourself, \"I'm not going anywhere, and I'm coming more fully here.\"", "answers": "LOST: \"I am coming more fully here\".", "why": "spoken line had lost its second half"},
+  {"p": "P45", "old": "Tell yourself that as you move", "new": "As you move", "answers": "ADDED-CLAIM: \"Tell yourself that as you move one of your hands, you're going to move deliberately, and as soon as you stop... you'll focus on what you've got.\" A new self-suggestion step before the script (P45).", "why": "drops the added self-suggestion step"},
+  {"p": "P54", "old": "You need to tell your analytical mind", "new": "You can tell your analytical mind", "answers": "CHANGED: \"analysis can remain off duty\" (a permission) becomes \"You need to tell your analytical mind to stand down\" (a required step).", "why": "required step back to a permission"},
+  {"p": "P54", "old": "stand down till the next day when you can take the time to do inner work and see any revelations.", "new": "stand down, any revelations can wait.", "answers": "ADDED-CLAIM: \"till the next day when you can take the time to do inner work\" sets the next day as the time for revelations; the published only says it can wait (P54).", "why": "no set time; revelation just waits"},
+  {"p": "P55", "old": "To be done: check out Nymja’s", "new": "Check out Nimja’s", "answers": "CHANGED: pointer to the sleep playlist. Name is spelled \"Nymja\"; framed as a draft note (\"To be done: check out\"), not a recommendation.", "why": "a pointer, under the published name"}
+ ],
+ "links": [
+  {"words": "Instead of getting more relaxed with the hypnosis, try getting more alert", "url": "https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318"},
+  {"words": "Nimja’s sleep playlist", "url": "https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT"}
+ ],
+ "let_stand": [
+  {"p": "P32", "item": "CHANGED: \"Contain before you deepen\" is gone from the heading; only the body says stabilise so you can deepen. A \"Variations\" label is put in front.", "why": "body keeps stabilise before deepening"},
+  {"p": "P33", "item": "CHANGED: trigger list. \"Intense beauty\" is now \"seeing something you love\"; \"music\" is \"beautiful music\". List ends \"etc\" (see ADDED).", "why": "examples only; the 'already open' condition is kept"},
+  {"p": "P34", "item": "CHANGED: \"I do not need to intensify it\" is gone; only implied by \"you just need to\".", "why": "\"just need to\" still says only aim and stabilise"},
+  {"p": "P35", "item": "CHANGED: the thumb press is now one example (\"eg\") of \"make some contact with yourself\"; any self-contact seems allowed.", "why": "the press is the only example given; friction focus kept"},
+  {"p": "P38", "item": "CHANGED: \"only in the amount I can live well with\" becomes \"that I can integrate\". The limit on amount is now a limit on kind.", "why": "a limit stays; P36's line already limits amount"},
+  {"p": "P39", "item": "CHANGED: heading drops \"when your mind likes to escape\"; that condition now sits only on the hand-movement paragraph.", "why": "condition stays in the body (daydreaming, \"mentally escape\")"},
+  {"p": "P44", "item": "CHANGED: \"bring me gently into the present\" is \"bring me back to now\"; \"gently\" is dropped. \"Show me what I am avoiding\" is kept.", "why": "small word dropped"},
+  {"p": "P45", "item": "CHANGED: \"small repeated hand movement with increasing clarity\" becomes \"move deliberately\"; the clarity pairing survives only in the script.", "why": "the script right after keeps the pairing"},
+  {"p": "P46", "item": "CHANGED: \"Again — clearer, not sleepier\": \"clearer\" stays, \"not sleepier\" is dropped.", "why": "\"clearer\" keeps the direction; restoring adds a \", not Y\" tail"},
+  {"p": "P54", "item": "LOST: \"the task is rest\".", "why": "heading and \"to go to sleep\" carry it; restoring adds a tidy closing line"},
+  {"p": "P32", "item": "ADDED: \"Variations\" label before the first section.", "why": "a label; nothing to act on"},
+  {"p": "P33", "item": "ADDED-CLAIM: \"for some reason (... etc)\" makes the trigger list open-ended, so the section applies to any cause (P33).", "why": "the heading \"Already open?\" already covers any opened state; the list reads as examples"},
+  {"p": "ADDED", "item": "ADDED: \"Say something like\" before the scripts (P36, P38, P44, P45) makes the wording optional, including the safety lines in P36.", "why": "brief lets \"Say something like\" stand"},
+  {"p": "P55", "item": "ADDED: \"To be done:\" draft note and \"to go to sleep listening to hypnosis\" in the playlist line (P55).", "why": "\"To be done:\" goes in the P55 fix; the rest only says what the playlist is for"}
+ ]}

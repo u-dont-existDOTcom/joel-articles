@@ -270,11 +270,18 @@
   "reading_41": "AI in the recheck (part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4): the prose is one red window of 518 words into the audit's first line; the rest of the appendices read dark green"
  },
  "HG17": {
-  "stage": "fixed (sample, pending its 4.1 reading)",
-  "whole": "not checked yet: read in the whole-guide recheck through Substack (gate E200), part A (fix-20261020/substack41r/); sample ba was never read in Pangram",
-  "meaning": "rf-zg/HG17.ba.verify.out.md (ba: kept 156, changed 57, lost 30, invented 14), fixed in rf-zg/make_hg17_fixed.py; the fixed section's reviews: SENSE-HG17.md, STANCE-HG17.md, HG17.fixed.verify.part1-3.out.md, r2/VERIFY-r2.md, r3/VERIFY-r3.md, march/, r2/, r3/; gate-answers.json and batch/GATE.json",
-  "fixed": "rf-zg/HG17.fixed.json",
-  "installed": "2026-10-21, tools/install_fixed.py; Joel's answer to question 4, d (his message of 2026-10-21 17:56 UTC: \"i am fine with all the humanized replacements as long as we don't lose anything\"): Emulate's best sample of the whole section with every point it lost put back in its own words; the published text's own contradiction on intoxication is question 11",
-  "reading_41": "AI in the recheck (2026-10-21 22:44 UTC, part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7): red from its first paragraph to the shortcut, most windows marked humanized; light or dark green only in Before you begin's steps 4 and 5, the sleep paragraph, \"Either way is ok\" and Deepening, if useful (fix-20261020/result41/WINDOWS-41r3-a.json)"
+  "stage": "fixed (sample bf, pending its 4.1 reading in the guide)",
+  "whole": "sample bf read Human in every window of the first screening post (fix-20261022/screen/SCREEN-RESULT.json, S4; Joel's result link of 21:41 UTC, https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb); the fixed section is read in the next whole-guide recheck through Substack (gate E200)",
+  "meaning": "fix-20261022/hg17-bf/VERIFY-part1.md to part3.md (bf: kept 169, changed 52, lost 30, added claims 10); the fixes drafted per part against FIX-BRIEF.md (FIXDRAFT-partN.json), applied in make_hg17_bf_fixed.py (FIXES.json); the reviews: FIX-CHECK.md (the fixes in place and an audit of the let stands), SENSE-HG17.md, STANCE-HG17.md, march/, and the rounds after them",
+  "fixed": "fix-20261022/hg17-bf/HG17.bf-fixed.json",
+  "installed": "2026-10-22 22:47 UTC, fix-20261022/hg17-bf/install_bf.py (the section's span replaced by SECTION.md); before it, rf-zg/HG17.fixed.json (sample ba), which read AI in the recheck of 2026-10-21",
+  "replaced": {
+   "stage": "fixed (sample, pending its 4.1 reading)",
+   "whole": "not checked yet: read in the whole-guide recheck through Substack (gate E200), part A (fix-20261020/substack41r/); sample ba was never read in Pangram",
+   "meaning": "rf-zg/HG17.ba.verify.out.md (ba: kept 156, changed 57, lost 30, invented 14), fixed in rf-zg/make_hg17_fixed.py; the fixed section's reviews: SENSE-HG17.md, STANCE-HG17.md, HG17.fixed.verify.part1-3.out.md, r2/VERIFY-r2.md, r3/VERIFY-r3.md, march/, r2/, r3/; gate-answers.json and batch/GATE.json",
+   "fixed": "rf-zg/HG17.fixed.json",
+   "installed": "2026-10-21, tools/install_fixed.py; Joel's answer to question 4, d (his message of 2026-10-21 17:56 UTC: \"i am fine with all the humanized replacements as long as we don't lose anything\"): Emulate's best sample of the whole section with every point it lost put back in its own words; the published text's own contradiction on intoxication is question 11",
+   "reading_41": "AI in the recheck (2026-10-21 22:44 UTC, part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7): red from its first paragraph to the shortcut, most windows marked humanized; light or dark green only in Before you begin's steps 4 and 5, the sleep paragraph, \"Either way is ok\" and Deepening, if useful (fix-20261020/result41/WINDOWS-41r3-a.json)"
+  }
  }
 }

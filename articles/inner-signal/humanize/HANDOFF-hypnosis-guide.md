@@ -34,7 +34,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   `tools/humanization/pangram_ledger.py` with this lane's ledger `pangram-ledger.jsonl` (`predict` before, `results`
   after, `explain` for each miss, `build --universal state/PANGRAM-SCORECARD.md` after the session; this lane's page is
   `SCORECARD.md`). Joel signed in to Pangram in the desktop app's browser again on 20 October (his message of 22:01
-  UTC), the same account as the community checks.
+  UTC), the same account as the community checks; on 2026-10-22 at 22:44 UTC it was signed out there (History asked to
+  sign up). Never sign in: whole-guide and screening checks go through his Brave anyway, and a single paragraph can go
+  through the API on the laptop (`tools/humanization/pangram_api.py`, model "pangram-4", whose results say 4.0).
 - **Whole-guide checks go through a temporary Substack post, free** (Joel, 2026-10-20 22:01 UTC: "for very large pangram
   checks (not just one section, but like whole article especially) you can just ask me to make a temporary article on
   substack to check it free"; `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`). Since his 23:54 message I make the drafts
@@ -49,8 +51,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
   4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull requests 206 and 209 (the 4.1 work to 2026-10-21 22:43 UTC)
-  were merged; the work since is pull request 219 (https://github.com/u-dont-existDOTcom/joel-articles/pull/219), open and
-  Joel's to merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
+  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC; the work since goes into a new pull
+  request from the same branch (`lane_push.py --pr`), Joel's to merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
   Markdown; `HUMANIZED-SO-FAR.md` is the working copy (a copy of it until a section is installed). Ask him for his latest
@@ -168,7 +170,38 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-22, after Joel's answers of 18:37 UTC: the screening post waits on his Brave)
+## Next step (2026-10-22, after Joel's message of 21:41 UTC: the second screening post waits on his Brave)
+
+Done since the step below: pull request 219's conflicts (main took the Inner Child lane's 218, then its 220; merges afc6ea1b
+and 9dff534e), merged by Joel at 22:16 UTC; his answer 12 as batch 471g (`fix-20261022/b471/`: two review rounds, gated,
+forecast, installed); the first screening post's result read (`fix-20261022/screen/SCREEN-RESULT.json`: HG17's bd and bf
+Human in every window; Appendix C's bg and bh not); the induction section from sample bf with its meaning fixes
+(`fix-20261022/hg17-bf/`: `make_hg17_bf_fixed.py`, its reviews `make_hg17_bf_reviews.py`, `install_bf.py`); the second
+screening post pasted and verified (`fix-20261022/screen2/`); Nibbāna's editor HTML registered, its rebuild equal to the check.
+
+1. **When Joel sends the second screening post's result link**: read the windows from the page (its compact line), then
+   `python3 tools/humanization/substack_check_text.py result fix-20261022/screen2/PAYLOAD-S2.html WINDOWS.txt META.json
+   --out RESULT-S2.json` (the rendered post's paragraphs, by textContent, hash to `TEXT-S2.txt`'s b1bf8832...), cut the
+   windows by sample with `screen2/SPANS-S2.json`, and give each sample its result in the ledger (`result --key screen2-B0`
+   to `screen2-C2`). Then:
+   - B0 red and C0 Human: Appendix C stays; Appendix B's stretch (Emulate's "I do not use NLP ..." list and the sequence)
+     gets a diagnosis and a fix.
+   - C1 or C2 Human: that one, with its meaning check (`screen2/VERIFY-C.md`, read while the post waited) put right in its
+     own sentences as for bf, the cold read, the stance check and the march, then the gate and the install (an edit of
+     b469-HG32-prose in `fix-20261020/EDITS41.json`).
+   - Neither, nor C0: Appendix C's opening has had its six tries (published, 469g, bg, bh, C1, C2), so it goes back to Joel
+     with the windows: his own words for the opening's statement and four tests, or the list form back.
+2. **The whole-guide recheck**: `fix-20261022/recheck/make_recheck.py` (both parts from the working copy; TEXT-A.txt and
+   TEXT-B.txt are the checked texts, WORDS-A/B.json the editor words for the lane's paste helper), predictions first
+   (`make_preds_recheck.py A`, then B once Appendix C is settled; part B's row is a placeholder until then), pasted into
+   drafts A (221411215) and B (221412532) with `fix-20261022/screen/paste_payload_lane.js` after clearing the body with
+   ctrl+a and Delete (tell Joel: his clipboard), the rendered check by textContent, then Joel's Brave. Score 470g's
+   (`b470/batch/FORECAST.json`) and 471g's (`b471/batch/FORECAST.json`) forecasts afterwards.
+3. **Queued after this guide: his Nibbāna article** (`articles/nibbana/humanize/QUEUE-20261022.md`, with the red windows
+   in context in `RED-WINDOWS-20261020.md`). The fixes go into his editor HTML of 21:41 UTC.
+4. **Question 6 b**, after the 4.1 work: the repeats one at a time, as below.
+
+## Earlier next step (2026-10-22, after Joel's answers of 18:37 UTC: the screening post waits on his Brave)
 
 Done since the step below: the recheck's results (Joel, 18:37 UTC:
 [part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7), AI Detected, 13.8% AI;
