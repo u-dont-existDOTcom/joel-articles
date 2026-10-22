@@ -730,9 +730,10 @@
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "So instead of asking which age of you deserves the blame, I'd ask these:",
-    "6. What can you learn or repair now, and how would you act differently in such situations?\n\nWhatever was missing back then, you can start giving your little one now."
+    "6. What can you learn or repair now, and how would you act differently in such situations?"
    ],
-   "note": "2026-10-03 (turn 21): question 6 updated to Joel's wording (ldw-p12-q5-q6)."
+   "note": "2026-10-03 (turn 21): question 6 updated to Joel's wording (ldw-p12-q5-q6).",
+   "updated": "2026-10-22 turn 87: the line after the list now follows a sentence on sorting guilt (78.1, ST-CA candidate 10), so the check no longer needs them adjacent"
   },
   {
    "id": "ldw-p13-installed",
@@ -1126,7 +1127,7 @@
    "must_contain_exact": [
     "### Hear the Guard First",
     "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" It might say this will just be one more performance, and you'll fool yourself again.",
-    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
+    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
    ],
    "order": [
     "Two Common Guarding Patterns",
@@ -2920,7 +2921,7 @@
   {
    "id": "joel-87-20261022",
    "status": "applied",
-   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix.",
+   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix. Also the new text decided in this turn (77.3, 77.6, 77.8, 78.1, 79.3), my drafts, installed not yet checked: Reparenting in a nutshell; Two Common Guarding Patterns P3 and P4; ST-CA sentences in You Don't Need an Inner Monologue P1 and P2, Love Doesn't Have to Wait for Trust P14, The Parent You Inherited P4, Hear the Guard First P4, Untangling the Belonging Bargains P1 and The Inner Guide P1, P2 and P4; When One Life Has Ended P1; the Schema Therapy appendix P1.",
    "joel": "2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)",
    "where": "The five stages (1 and 5); The Chicken-and-Egg Problem P2; Borrow One Competency at a Time; Two Common Guarding Patterns; Hear the Guard First P3; Altered States Can Deepen the Therapy; Altered States Can Require Reparenting P6; The Inner Guide P3; Speak Toward What You Are Building P2; How This Relates to Schema Therapy P2",
    "must_contain_exact": [
@@ -2934,7 +2935,15 @@
     "My inner Guide saw it",
     "No hidden guard or old trauma required",
     "Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development",
-    "isn't part of the standard method"
+    "isn't part of the standard method",
+    "# Reparenting in a nutshell",
+    "an Adult Protector (hereafter just the Protector)",
+    "That pull is one way of handling something you learned to expect",
+    "A response can also keep the expectation alive.",
+    "which I'll call ST-CA",
+    "A therapist or helper stepping back can do it too",
+    "That's a Nurturer, a Protector and a Guide by other names",
+    "Whatever was missing back then, you can start giving your little one now."
    ],
    "must_not_contain": [
     "Hear the Protective Part First",
