@@ -1182,3 +1182,19 @@ His message, saved first (`t89-answers/JOEL-20261022-1635.md`): "ok go ahead, an
 ### Next
 
 1. Half A's link from him; read it, record #40, map its AI windows. Then rework my flagged text in A. Question 82 for his windows in both halves: the flagged words and the smallest fixes (E171). Then rebuild both payloads, re-paste the drafts, and run one more label round with him watching.
+
+## Turn 90 (2026-10-22, from 18:03 UTC): half A's result; the Schema Hacks additions; the half-A rework
+
+His message, saved first (`t90-answers/JOEL-20261022-1803.md`, with Gemini's findings and GPT's advice as attachments): half A's link, and "we have some more things to add from schema hacks on youtube".
+
+- **Half A** (`t89-results/RESULT-A-meta.json`; https://www.pangram.com/feed/db376e9f-2cd4-4ee3-95d6-39629cc19bde): Mostly Human Written, 7.2% AI, 41 AI windows of 254, 16,136 words; t88s_A (#40, AI 0.90) right. Worse than turn 79 (4.3%). Who wrote what, from the notes, the owner-edits ledger and his 10-19 paste (`t74-guide/joel-before-you-try-20261019-0008.txt`):
+  - mine: Chicken-and-Egg P15 (PGQ-037), Don't Give the Inner Adult Away P7 and P8, Borrow Hindsight P1 after his question, all four paragraphs of Two Common Guarding Patterns (my 77.3 P3 and P4 among them), When to Change the Strategy P3;
+  - his: Before You Try to Go Deep P1 to P4 and Your Body Might Need Some Love First P4 and P5 (all in his 10-19 paste), Use Childhood Photographs Gently P1, When to Change the Strategy P4, and "Borrow adulthood. Do not surrender it." (his guide).
+- **The Schema Hacks material:** Gemini's analysis of the Schema Therapy Training Online channel (13 hacks) and GPT's review of it. GPT's critique held against Gemini's text. I put in the five it recommends with its corrections (questions page, Decided), no citations needed under his rule, and none of the rest. The InnerSignal protocol is unchanged (0.2.1, its hashes match), and its rules agree: offer a possible reading, don't announce a hidden motive.
+- **Rework, half A** (`t89-drafts/` a1 to a9, s1 to s5; lint CLEAR or REVIEW after fixing three FAILs; notes in the article). His words kept exactly where the ledger holds them. Four claim checks got the new strings (two-protective-patterns-h3, wcs-h3, pgq-005-duration, joel-87-20261022). The pile-up paragraph went to the end of The Parent You Inherited, since claim parent-you-inherited-p4-p5 has his P3 right after P2. Checks 180 of 180.
+- **His windows:** they wait for this round's check before question 82, since some sit right after paragraphs of mine that changed (his How Much Happiness P4 went AI only after my P3).
+- **Substack:** `t90-substack/` (A 15,675 words, B 12,638), predictions t90s_A (#42, AI 0.85) and t90s_B (#43, AI 0.80) before any check.
+
+### Next
+
+1. Paste both halves into the two drafts (`t88-substack/paste_payload_lane.js`, clear the body first, words must match), open both previews in his Brave and click the labels; he copies the two links from the side panel. Then read them, record #42 and #43, rework what of mine still reads AI, and ask question 82 on his windows that remain.
