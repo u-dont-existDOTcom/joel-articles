@@ -43,7 +43,21 @@ REWORD = {(2, 'Orient yourself.'): 'Orient yourself by looking around.',
           (3, 'Be sure to change the direction you are going in, or stop this at some point.'):
               'It\'s fine to change the direction you are going in, or stop this at any point.'}
 REWORD_ROUND = {(3, 'Be sure to change the direction you are going in, or stop this at some point.'): 3}
-ROUND3 = []   # the stance check's findings, filled in when STANCE-HG17.md is read (same shape as ROUND2)
+# Round 4: the stance check's findings (STANCE-HG17.md, read against the version before rounds 2 and 3), each inside bf's
+# own sentence.
+ROUND4 = [
+    (33, 'and want to aim and stabilise it so that you can deepen it.', 'and want to aim and stabilise it.',
+     'STANCE-HG17.md conflict 1: "so that you can deepen it" makes deepening the goal of the already-open practice, where '
+     'the published practice says "The state is already open. I do not need to intensify it. I need to aim it, stabilize '
+     'it, and keep it kind." and "Before you begin" calls it "for orientation, not permission to intensify an unstable state"'),
+    (14, 'Preview, if you can, what you are going to do:', 'Preview what you are going to do:',
+     'STANCE-HG17.md conflict 2: "if you can" makes the preview optional, where the published step has no hedge ("Preview '
+     'eye closure, any repeated exit and re-entry, and the return.") and Appendix J makes it a step before every induction'),
+    (14, 'You can also just open your eyes and be done.', 'You can also just open your eyes and stop, and then come all the way back anyway.',
+     'STANCE-HG17.md conflict 3 (and the published text\'s own contradiction 2): "just open your eyes and be done" says an '
+     'early stop needs no return, where the guide says "Use Come all the way back, even when you ended early." and "Use the '
+     'complete waking return after every induction." (Appendix J); stopping stays a choice, and the return follows it'),
+]
 # (bf paragraph index, prefix as it reads after the fixes, what replaces it; None drops the paragraph)
 RUN_IN = [(33, 'Variations Open already ', ''),
           (39, 'Staying awake ', ''),
@@ -118,7 +132,7 @@ def main():
     for i, pre, new in NUMBERS:
         assert paras[i].startswith(pre), (i, paras[i][:20])
         paras[i] = new + paras[i][len(pre):]
-    for rnd, items in ((2, ROUND2), (3, ROUND3)):
+    for rnd, items in ((2, ROUND2), (4, ROUND4)):
         for i, old, new, why in items:
             assert paras[i] is not None and paras[i].count(old) == 1, (i, old)
             paras[i] = paras[i].replace(old, new)
@@ -158,7 +172,7 @@ def main():
     md = (H / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8')
     a = md.index('# Induction: gathering attention without disappearing\n')
     b = md.index('\n# ', a + 5)
-    cand = md[:a] + sec + md[b:]
+    cand = md[:a] + sec + '\n' + md[b:]   # the section's span ends with the newline before the blank line and the next h1
     (V / 'CANDIDATE.md').write_text(cand, encoding='utf-8')
     r = subprocess.run([sys.executable, '-c', 'import sys; sys.path.insert(0, %r); import apply_edits41 as E; '
                         'md = open(%r, encoding="utf-8").read(); out, ap, done = E.apply(md, E.load()); '

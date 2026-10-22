@@ -722,6 +722,12 @@ The records are in `articles/inner-signal/humanize/fix-20261022/` (`b471/`, `hg1
   touched two paragraphs, and the check found an adult made out of reach for good ("like telling them to just be able to
   fly", for "assumes the capacity they are trying to build") and a step that had lost each adult's job. Both went back in
   a few words. A finding that the answer itself explains (his own term, "forced adulthood") is answered, not fixed.
+- **Replacing an installed section by its span keeps the blank line before the next heading.** The induction section
+  from bf went in by replacing the span from its h1 to the next one, and the replacement dropped the newline that ends the
+  span, so "# Come all the way back" was glued to the section's last paragraph: Markdown then reads the heading as part of
+  that paragraph. Comparing the pasted recheck post with its rebuild, line by line by hash, caught it before Joel's check
+  (`hg17-bf/install_bf.py` now asserts the blank line). After any install by hand, check the next heading still stands
+  after a blank line, and compare a pasted post with its rebuild before asking Joel to check it.
 - **When a red window spans two sections, screen them apart.** The recheck's 518-word red window ran from Appendix B's
   lists into Appendix C's prose, so the second screening post reads Appendix B's stretch, Appendix C as installed and two
   new openings as separate samples (`screen2/make_screen2.py`), before any more rewriting of Appendix C.

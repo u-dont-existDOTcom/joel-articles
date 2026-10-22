@@ -33,7 +33,13 @@ word, the published headings (bf's run-in headings taken out of their paragraphs
 wording, answered; the audit of the 70 let stands found no disagreement); the cold read (`SENSE-HG17.md`: four unclear,
 three fixed in round 2, the fourth the published design); the march (no break lost; the playlist line is now short enough
 for the march to skip); the linter (`lint-compare.json`: two fixes reworded in round 2 and one in round 3, each for a rule
-bf's paragraph didn't have). Round 2 (`r2/VERIFY-r2.md`: 5 of 5 OK; `r2/march/`). STANCE_STATUS
+bf's paragraph didn't have). Round 2 (`r2/VERIFY-r2.md`: 5 of 5 OK; `r2/march/`). The stance check (`STANCE-HG17.md`: three conflicts, each fixed
+in round 4, `r4/VERIFY-r4.md`: the already-open practice made a step toward deepening, the preview made optional, an
+early stop without the return; and two contradictions inside the published text: "when intoxicated", which Joel's
+11 b settles, and "You can simply open your eyes and finish" against "Use Come all the way back, even when you ended
+early", where round 4 follows the return and the questions page asks him). The gate (`batch/GATE.json`). Installed by
+`install_bf.py`; its first run joined the section's last paragraph to the next h1 ("# Come all the way back" read as
+part of the paragraph), caught by comparing the pasted recheck post with its rebuild line by line, and fixed.
 
 **The second screening post** (`fix-20261022/screen2/`, the same draft, its body cleared and pasted with the lane's helper;
 words SHA-256 equal; the rendered paragraphs' textContent hashes to `TEXT-S2.txt`): Appendix B's stretch as installed

@@ -7,7 +7,7 @@
   "march_was": [
    "S S S S",
    "S S S S S",
-   "S S B B B B S B B S S S B",
+   "S S B B B B S B B S S S S",
    "S S S S S S",
    "S S S S S S S S",
    "B",
@@ -37,7 +37,7 @@
   "march": [
    "S S S S",
    "S S S S",
-   "S B B B B S B B S S S S B",
+   "S B B B B S B B S S S S S",
    "S S S S S",
    "S S S S S S S",
    "B",
@@ -65,12 +65,12 @@
   "march_breaks": "bf 9 of 28 changed paragraphs with a break, fixed 9 of 26",
   "cold_read": "articles/inner-signal/humanize/fix-20261022/hg17-bf/SENSE-HG17.md",
   "grounding_note": "Round 1: the meaning check of bf in three parts (VERIFY-part1.md to part3.md: kept 169, changed 52, lost 30, added claims 10); the fixes a reader would act on drafted per part against FIX-BRIEF.md and applied (31 of 32; FIXES.json). FIX-CHECK.md read every changed paragraph in its place (27 of 28 OK) and audited the 70 let stands (0 disagreements). Its one CHANGED, item 2 (\"overwhelmed by chemicals\" narrower than the published \"intoxicated\"), is Joel's own wording: his answer 11 b (2026-10-22 18:37 UTC) chose it for the safety line, so it stands.",
-  "stance_note": "articles/inner-signal/humanize/fix-20261022/hg17-bf/STANCE-HG17.md",
+  "stance_note": "STANCE-HG17.md (round 1, against the whole published guide and Joel's positions since): three conflicts, each fixed in round 4 (make_hg17_bf_fixed.py ROUND4) and read again in place (r4/VERIFY-r4.md: 3 of 3 OK): \"so that you can deepen it\" made the already-open practice a step toward deepening (out); \"Preview, if you can,\" made the preview optional (out); \"just open your eyes and be done\" said an early stop needs no return (\"You can also just open your eyes and stop, and then come all the way back anyway\"). Its two contradictions in the published text: \"When intoxicated\" is settled by Joel's answer 11 b; \"You can simply open your eyes and finish\" against \"Use Come all the way back, even when you ended early\" follows the return here, and the questions page tells Joel so he can say otherwise.",
   "cold": "OK",
   "grounding": "OK",
-  "stance": null,
+  "stance": 0,
   "missing": [],
-  "words": 3456,
+  "words": 2921,
   "march_reads": "articles/inner-signal/humanize/fix-20261022/hg17-bf/march/march.json",
   "lint_compare": "articles/inner-signal/humanize/fix-20261022/hg17-bf/lint-compare.json",
   "cold_note": "SENSE-HG17.md (round 1, the whole section in the guide): four UNCLEAR. P12 \"The narrator can't add stuff if you don't say anything\" read as what a narrator is able to do, P30 the already-open paragraph an \"if\" with no \"then\" once bf's run-in heading was taken out, P64 \"this\" (the cue, or today's trance), each fixed in round 2 (make_hg17_bf_fixed.py ROUND2); P11 (\"stop\", \"less\" and \"quiet\" as commands to a voice nothing has set up) is the published design (\"\\\"Stop\\\" ends the exercise; \\\"less\\\" reduces intensity; \\\"quiet\\\" ends spoken guidance\"), so it stands. r2/VERIFY-r2.md read each round 2 fix in place.",
@@ -357,6 +357,8 @@
    }
   ],
   "lint_note": "lint-compare.json: the paragraphs whose fixes brought a rule bf's paragraph didn't have are 13 (B2, \"instead of\" in Joel's 11 b sentence, his wording), 14 to 16 (O19, the list numbered 1 to 6 where bf switched to IV, V and VI; a REVIEW flag), 39 (E23, bf's run-in heading \"Staying awake\" taken out, so the paragraph starts with its instruction); 35 and 68 were reworded in round 2 (REWORD) and no longer bring one.",
-  "march_note": "march/ and r2/march/: no changed paragraph lost a break except the sleep playlist line, which the march skips as a heading-like line once it is 12 words with no full stop (\"Check out Nimja's sleep playlist to go to sleep listening to hypnosis\"); it is a pointer, not a script line."
+  "march_note": "march/ and r2/march/: no changed paragraph lost a break except the sleep playlist line, which the march skips as a heading-like line once it is 12 words with no full stop (\"Check out Nimja's sleep playlist to go to sleep listening to hypnosis\"); it is a pointer, not a script line. Rounds 2 to 4 (r2/march, r3/march, r4/march): no break lost.",
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: 5 of 5 OK; the cold read's three and two linter rewordings), round 3 (r3/VERIFY-r3.md: OK; one more linter rewording), round 4 (r4/VERIFY-r4.md: 3 of 3 OK; the stance check's three)",
+  "lint": "REVIEW"
  }
 }

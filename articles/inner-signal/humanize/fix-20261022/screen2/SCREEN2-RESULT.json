@@ -1,0 +1,109 @@
+{
+ "B0": {
+  "what": "Appendix B, as installed",
+  "verdict": "Human",
+  "windows": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "ai_windows": [],
+  "ai_words": 0,
+  "words": 319,
+  "ai_fraction": 0.0,
+  "light_windows": 3,
+  "humanized": 0
+ },
+ "C0": {
+  "what": "Appendix C, as installed (469g)",
+  "verdict": "AI",
+  "windows": [
+   8,
+   9,
+   10
+  ],
+  "ai_windows": [
+   8,
+   9,
+   10
+  ],
+  "ai_words": 516,
+  "words": 377,
+  "ai_fraction": 1.0,
+  "light_windows": 0,
+  "humanized": 1
+ },
+ "C1": {
+  "what": "Appendix C, new opening 1, bg's middle, C0's end",
+  "verdict": "Mixed",
+  "windows": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "ai_windows": [
+   10,
+   11,
+   12,
+   13,
+   20
+  ],
+  "ai_words": 218,
+  "words": 349,
+  "ai_fraction": 0.5519,
+  "light_windows": 6,
+  "humanized": 0
+ },
+ "C2": {
+  "what": "Appendix C, new opening 2, bg's middle, C0's end",
+  "verdict": "Mixed",
+  "windows": [
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34
+  ],
+  "ai_windows": [
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33
+  ],
+  "ai_words": 297,
+  "words": 342,
+  "ai_fraction": 0.839,
+  "light_windows": 1,
+  "humanized": 0
+ }
+}

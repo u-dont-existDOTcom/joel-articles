@@ -9,7 +9,8 @@ paragraph didn't have (its REWORD list; lint-compare.json). This builds, from th
   r2/march/                 for Sonnet: bf's paragraph and the round 2 one (-> r2/march/march-labels.txt)
 
   python3 articles/inner-signal/humanize/fix-20261022/hg17-bf/make_hg17_bf_r2.py [--round 3]   (from the repo root, after make_hg17_bf_fixed.py)
-Round 3 is the same for make_hg17_bf_fixed.py's ROUND3 (the stance check's findings) and the REWORD entries of round 3.
+Round 3 is the REWORD entries of round 3 (a rewording for the linter); round 4 is make_hg17_bf_fixed.py's ROUND4 (the
+stance check's findings).
 """
 import json, pathlib, re, sys
 
@@ -32,7 +33,7 @@ def main():
     plain = [re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', re.sub(r'^#+\s*', '', b)) for b in section.split('\n\n') if b.strip()]
     items, paras = [], set()
     rnd = int(sys.argv[sys.argv.index('--round') + 1]) if '--round' in sys.argv else 2
-    rounds = [(i, old, new, why) for i, old, new, why in (F.ROUND2 if rnd == 2 else F.ROUND3)]
+    rounds = [(i, old, new, why) for i, old, new, why in {2: F.ROUND2, 4: F.ROUND4}.get(rnd, [])]
     for (part, old), new in F.REWORD.items():
         if F.REWORD_ROUND.get((part, old), 2) != rnd:
             continue

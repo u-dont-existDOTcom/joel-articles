@@ -320,5 +320,32 @@
   "answers": "SENSE-HG17.md P64: \"this\" could be the cue you were just told you can keep; the published says \"Today's altered state ends with the return\"",
   "why": "SENSE-HG17.md P64: \"this\" could be the cue you were just told you can keep; the published says \"Today's altered state ends with the return\"",
   "applied": true
+ },
+ {
+  "part": "round 4",
+  "p": "bf 33",
+  "old": "and want to aim and stabilise it so that you can deepen it.",
+  "new": "and want to aim and stabilise it.",
+  "answers": "STANCE-HG17.md conflict 1: \"so that you can deepen it\" makes deepening the goal of the already-open practice, where the published practice says \"The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.\" and \"Before you begin\" calls it \"for orientation, not permission to intensify an unstable state\"",
+  "why": "STANCE-HG17.md conflict 1: \"so that you can deepen it\" makes deepening the goal of the already-open practice, where the published practice says \"The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.\" and \"Before you begin\" calls it \"for orientation, not permission to intensify an unstable state\"",
+  "applied": true
+ },
+ {
+  "part": "round 4",
+  "p": "bf 14",
+  "old": "Preview, if you can, what you are going to do:",
+  "new": "Preview what you are going to do:",
+  "answers": "STANCE-HG17.md conflict 2: \"if you can\" makes the preview optional, where the published step has no hedge (\"Preview eye closure, any repeated exit and re-entry, and the return.\") and Appendix J makes it a step before every induction",
+  "why": "STANCE-HG17.md conflict 2: \"if you can\" makes the preview optional, where the published step has no hedge (\"Preview eye closure, any repeated exit and re-entry, and the return.\") and Appendix J makes it a step before every induction",
+  "applied": true
+ },
+ {
+  "part": "round 4",
+  "p": "bf 14",
+  "old": "You can also just open your eyes and be done.",
+  "new": "You can also just open your eyes and stop, and then come all the way back anyway.",
+  "answers": "STANCE-HG17.md conflict 3 (and the published text's own contradiction 2): \"just open your eyes and be done\" says an early stop needs no return, where the guide says \"Use Come all the way back, even when you ended early.\" and \"Use the complete waking return after every induction.\" (Appendix J); stopping stays a choice, and the return follows it",
+  "why": "STANCE-HG17.md conflict 3 (and the published text's own contradiction 2): \"just open your eyes and be done\" says an early stop needs no return, where the guide says \"Use Come all the way back, even when you ended early.\" and \"Use the complete waking return after every induction.\" (Appendix J); stopping stays a choice, and the return follows it",
+  "applied": true
  }
 ]

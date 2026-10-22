@@ -51,7 +51,14 @@ None right now. Question 12 is answered (below).
   fine, and no let stand it disagreed with. Its one catch was that "overwhelmed by chemicals" is narrower than your published "intoxicated", and
   that's your own 11 b wording, so it stays. A cold reader of the whole section found three unclear spots, now fixed in
   bf's own words: "The narrator can't add stuff just because you don't say anything", "This is for when you're already
-  open ...", and "today's trance will be over when you come out of it". STANCE_PLACEHOLDER
+  open ...", and "today's trance will be over when you come out of it". A check against your whole published
+  guide then found three places where bf had moved away from it, and each is back in its own sentence: the
+  already-open practice had become a way to go deeper ("so that you can deepen it" is out, for your "I do not need to
+  intensify it"); the preview before you begin had become optional ("if you can" is out); and "just open your eyes and
+  be done" said an early stop needs no return, where your guide says "Use Come all the way back, even when you ended
+  early", so it's now "You can also just open your eyes and stop, and then come all the way back anyway". Your published
+  "You can simply open your eyes and finish" pulls the same way as bf did, so tell me if you meant opening your eyes to
+  be enough there.
 - 🟢 **Nibbāna:** your editor HTML is in, and rebuilt the way the check reads it, it is exactly the text Pangram read
   (same SHA-256), so each of the 22 red windows is a known stretch of it. The article is next after this guide.
 - 🟢 **The pull request's conflict** (another lane's merge had landed first) is fixed; you merged it at 22:16 UTC.

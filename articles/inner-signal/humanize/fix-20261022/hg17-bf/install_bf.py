@@ -30,7 +30,10 @@ def main():
     a, b = span(md)
     ca, cb = span(cand)
     assert md[:a] == cand[:ca] and md[b:] == cand[cb:], 'the working copy changed outside the section since CANDIDATE.md'
-    assert cand[ca:cb] == sec, 'CANDIDATE.md does not hold SECTION.md'
+    # 2026-10-22: the first install joined the section's last paragraph and the next h1 with a single newline, so the
+    # heading was read as part of the paragraph (found by comparing the rendered recheck post with its rebuild)
+    assert cand[ca:cb] == sec + '\n', 'CANDIDATE.md does not hold SECTION.md'
+    assert '\n\n# Come all the way back\n' in cand, 'the next h1 must stand after a blank line'
     if md == cand:
         print('installed already')
     else:
@@ -42,6 +45,8 @@ def main():
     inst = H / 'fix-20261018' / 'installed.json'
     rec = json.loads(inst.read_text(encoding='utf-8'))
     old = rec.get('HG17', {})
+    if 'sample bf' in old.get('stage', ''):   # a re-install: keep what bf replaced (sample ba)
+        old = old.get('replaced', {})
     rec['HG17'] = {
         'stage': 'fixed (sample bf, pending its 4.1 reading in the guide)',
         'whole': 'sample bf read Human in every window of the first screening post (fix-20261022/screen/SCREEN-RESULT.json, '
