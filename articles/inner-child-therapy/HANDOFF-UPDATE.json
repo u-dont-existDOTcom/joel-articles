@@ -1,21 +1,31 @@
 {
- "turn": 81,
+ "turn": 84,
  "replace": [
   [
-   "pull\\ request\\ \\#208,\\ https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/208,\\ for\\ him\\ to\\ merge\\)\\.",
-   "pull request #208 merged).",
+   "\\-\\ TURN\\ 81\\ \\(2026\\-10\\-21,\\ his\\ message\\ of\\ 22:42\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.",
+   "- TURN 81 (2026-10-21, his message of 22:42 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
    1
   ],
   [
-   "pull\\ request\\ \\#208\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/208\\)\\ is\\ open\\ for\\ him\\ to\\ merge,\\ with\\ turns\\ 80\\ and\\ 81\\.",
-   "pull request #208 (https://github.com/u-dont-existDOTcom/joel-articles/pull/208) merged, with turns 80 and 81.",
+   "1\\.\\ The\\ two\\ Pangram\\ result\\ links\\ \\(pangram\\.com/feed/\\.\\.\\.\\)\\ for\\ the\\ drafts,\\ and\\ his\\ answer\\ to\\ question\\ 76\\ on\\ OWNER\\-QUESTIONS\\.md\\ \\(four\\ places\\ in\\ his\\ words\\ from\\ the\\ conflation\\ sweep\\)\\.",
+   "1. His answers to questions 76 and 77 on OWNER-QUESTIONS.md, and his delete of the two temporary Substack drafts (A and B).",
    1
   ],
   [
-   "^2\\. His merge of pull request #208 .*$",
-   "2. His merge of the next turn's pull request (#208, turns 80 and 81, is merged).",
+   "2\\.\\ His\\ merge\\ of\\ the\\ next\\ turn's\\ pull\\ request\\ \\(\\#208,\\ turns\\ 80\\ and\\ 81,\\ is\\ merged\\)\\.",
+   "2. His merge of pull request #PRNUM (turns 82 to 84).",
+   1
+  ],
+  [
+   "^1\\. The two result links and his answer to 76: read both analyses.*$",
+   "1. His answers to 76 and 77: put in his picks and rework the AI windows (experiments/t82-results/AI-WINDOWS.md) in the same round, faithful first; then one free Substack check per changed section (titles without \"Pangram\", E205; tell him before clicking the label, so he can watch where the analysis opens); then he deletes the temporary drafts (E204). Use the short path (How a turn runs).",
    1
   ]
  ],
- "insert_before": []
+ "insert_before": [
+  [
+   "- TURN 81 (2026-10-21",
+   "- TURN 84 (2026-10-22, his messages of 11:56, 12:06 and 12:15 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM) for him to merge, with turns 82 to 84.\n  - His messages, word for word: experiments/t82-answers/JOEL-20261022-1156.md (the two result links; \"just tell me you're ready to try\"; GPT's review packet), t83-answers/JOEL-20261022-1206.md (his therapy books folder), t84-answers/JOEL-20261022-1215.md (Young's book and the children's and couples books).\n  - Results: both halves Mostly Human Written in Pangram 4.1 (A: 4.3% AI, 26 of 231 windows; B: 2.7%, 10 of 140), so both all-Human calls missed; experiments/t82-results/, with AI-WINDOWS.md mapping each AI window to its paragraph. The rework waits for 76 and 77.\n  - GPT's packet (his folder Inner-Child-Guide-Review-2026-10-22; UDA #417): my review is experiments/t83-gpt-review/CLAUDE-REVIEW-20261022.md, with SOURCE-CHECKS.md, and it ends in question 77 (77.1 to 77.8). His Young file, labelled 2007, is the 2003 book and GPT's file.\n  - The new books: candidate additions in experiments/t84-books/ (the couples one also for the romance guide, as notes only).\n  - Before clicking a Pangram label, tell him first, so he can watch where the analysis opens.\n  - NEXT: his answers to 76 and 77; then his picks and the AI-window rework in one round, one free Substack check per changed section, and he deletes the drafts.\n"
+  ]
+ ]
 }

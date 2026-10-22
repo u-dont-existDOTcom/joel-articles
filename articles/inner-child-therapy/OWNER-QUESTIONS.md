@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-21 (turn 81). **One open question: 76** (four parts). To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 84). **Open questions: 76 and 77.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -32,19 +32,60 @@ You asked for the hypnosis lane's check on this article: an Opus reader looked f
 
 Each paragraph that changes gets its own Pangram check before it counts, in one free Substack check per changed section, together with my fix.
 
+### 🟣 77. The GPT review: what to take
+
+GPT's proposals (from its four-book audit) and my review of them: `experiments/t83-gpt-review/CLAUDE-REVIEW-20261022.md`. The book checks are in the same folder (`SOURCE-CHECKS.md`): GPT's citations mostly hold, with a few page and wording slips that change nothing below. Most of what GPT proposes is already in the guide in some form. These are the places where a choice is left, each with my pick. Nothing is changed until you answer.
+
+- **77.1 The names.** The one real mix-up is where a protective reaction gets the Protector's word. Hear the Protective Part First P3 (your adopted text) says "Your Protector, the grown-up you, earns that protective part's trust". The map already calls these reactions guards.
+  - **A (my pick):** keep "Protector" for the role and call the reactions guards. The two headings become Two Common Guarding Patterns and Hear the Guard First, with their two cross-references. P3's sentence becomes "Your Protector earns that guard's trust about the same way, mostly out in ordinary life." This also settles 76.1 as "No hidden guard or old trauma required", and 76.2 as dropping "parts".
+  - **B:** A, and also "Adult Protector" for the role. It's GPT's term, and it says you agreed it with GPT. It would replace all 23 uses of "Protector", so there aren't two names for one role.
+  - **C:** leave the names as they are; question 76 still stands.
+- **77.2 A naming note at the start.** GPT proposes three sentences after "That's one grown-up doing three jobs", naming the Inner Adult, the guards and the inherited script ahead of time.
+  - **A (my pick):** leave it out. Your P3 to P5 already define the one grown-up and let readers rename it, and each other figure is defined where it comes up.
+  - **B:** add it, in your words or mine.
+- **77.3 Your candy question.** What a habit is doing is the real gap.
+  - **A (my pick):** one short new paragraph after Two Common Protective Patterns P2. The wording is in the review: the pull can be a habit with no voice; sometimes you just want a sweet; the question is whether the break brings you back to what needs care or keeps standing in for it.
+  - **B:** A, plus one sentence on the loop: "If you never tell anyone you're struggling, nobody offers help, and that can look like proof that nobody cares."
+  - **C:** GPT's version, a new section, When a Habit Is Doing the Guarding, about 200 words.
+  - **D:** leave it. The Inner Guide P2 to P3 and When the Urge to Escape Arrives carry most of it.
+- **77.4 The dream-narrative line** (Opening up honestly P3, your words): "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells". My concern: it means telling the person helping you that something real was a dream. That can send the therapy the wrong way, and your own TalkSpace story shows it doesn't reliably avoid a report. Your last two sentences (don't hold back a current danger; get anyone in danger safe) stay in every option.
+  - **A (my pick):** in its place, start general and non-identifying ("something I did years ago that I'm ashamed of") until you know what they'd have to report. Your TalkSpace story stays, as the reason to ask first.
+  - **B:** keep it as it is.
+  - **C:** your words.
+- **77.5 After a manic or psychotic reaction** (When Escape Leaves Reality Behind P2, your words): it says "signs to reconsider trying the same thing again". Psilocybin trials screen such people out altogether; the review links one trial's protocol.
+  - **A (my pick):** add one clause: talk it over with a doctor before trying any psychedelic again.
+  - **B:** keep your wording. It already says to get professional help when things are severe.
+- **77.6 When a helper steps back** (GPT's P2).
+  - **A (my pick):** add "a therapist or helper stepping back" to the list of endings in When One Life Has Ended P1 (my draft), so that section's advice covers it.
+  - **B:** GPT's version, a short paragraph in Finding a Therapist.
+  - **C:** leave it.
+- **77.7 Spirituality in the Schema Therapy appendix.** P2 says "Schema therapy leaves it out". That's from your request of 2026-10-18, in my words. Young's own preface (p. viii) calls combining schema therapy with spirituality "another important development" and lists three books that do it. The rest of his book has no spiritual material.
+  - **A (my pick):** "Schema therapy doesn't build spirituality in, though the preface to its main textbook calls blending it with meditation or religious practice an important development." Your IFS opinion and the rest of the paragraph stay.
+  - **B:** keep it.
+  - **C:** your words.
+- **77.8 The Guide in the same appendix.** P1 (my draft, turn 72) says schema therapy's "Healthy Adult" is "a Nurturer and a Protector by other names". But Young gives it three functions (p. 278), and one is setting limits, which is the Guide's job in your guide.
+  - **A (my pick):** "…who looks after your "Vulnerable Child," sets limits when your angry or impulsive side takes over, and stands up to the punishing parent in your head. Sound familiar? That's a Nurturer, a Protector and a Guide by other names…"
+  - **B:** leave it.
+
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Send me the two Pangram result links (turn 81)
+### 🟠 Delete the two temporary Substack drafts (turn 82)
 
-In your Brave, both drafts' Pangram labels read **Human**. When I click a label, though, the full analysis opens somewhere I can't reach, so I don't have its windows yet. The ledger scores a check by them, and they show whether any moved section reads AI. For each draft: open its link (in chat), click the Pangram label, then "View Full Analysis", and paste me the address of the page that opens (it starts https://www.pangram.com/feed/). My clicks may already have opened a few of those tabs in your Brave. Once I have them, I read both, record them and delete the drafts.
+Both results are read and recorded, so "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" can go. A permanent delete is one thing I leave to you. In your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 The turn-79 Substack results and the books, 2026-10-22
+
+- **Results** (your two links, 11:56 UTC): both halves read Mostly Human Written. The first is 4.3% AI, with 26 of 231 segments AI (https://www.pangram.com/feed/8a00b6b8-ef47-4f75-b473-10e56ff8f5b3). The second is 2.7% AI, with 10 of 140 segments AI (https://www.pangram.com/feed/d8a345d5-7038-4344-a461-e33fae115884). My predictions said all Human, so both are misses. Every AI segment is listed by section and paragraph in `experiments/t82-results/AI-WINDOWS.md`. I'll rework them together with your 76 and 77 answers, so nothing is reworked twice.
+- **Why I couldn't see the analysis:** clicking the label in your Brave changes nothing in the page, opens no side panel and opens no tab that Claude in Chrome can see. The analysis most likely opens in a tab or window outside the tab group Claude in Chrome works in. Next time, I'll tell you when I'm about to click, so you can watch where it opens.
+- **The books** (12:06 and 12:15 UTC): van Genderen, Heath/Startup, Capacchione and Young match the files GPT used. Your Young file is labelled 2007, but it's the same 2003 book (the copyright page says 2003). The review checks GPT's citations against them. I'm reading the two new ones, the children's book and the couples book, for possible additions, the couples one for the romance guide too.
 
 ### 🟢 75 and the mixed-up-figures check, 2026-10-21 22:42 UTC
 
