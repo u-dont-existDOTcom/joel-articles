@@ -1089,3 +1089,22 @@ Joel, 11:56 UTC: the two result links; "you should figure out why you can't see 
 ### Next
 
 1. His answers to 76, 77 and 78. Then the changes he picks, and the AI-window rework, in one round through the gate. Then one free Substack check per changed section, with him watching the label click.
+
+## Turn 85 (2026-10-22, 13:22 UTC): GPT's reply to my review; the core names
+
+Joel pasted GPT's reply to my review (`t85-answers/GPT-REPLY-TO-CLAUDE-REVIEW-20261022-1307.md`) and wrote about the names: "i wasn't clear on what your suggestions were exactly vs gpts"; GPT's labels "seem good to me, although i'm still trying to brainstorm a bit more because this is sort of the core of the entire practice"; an inherited script that "uatomatically makes sense of things happening (inherited schemas) and explains how they react to them-- inherited reaction patterns"; "we want to consciously reprogram the subconscious and then let the reprogrammed subconscious run things"; some approaches leave "the play out wonderment out of it"; "i also like to keep the inner child and inner adult framings". Saved first, word for word (`t85-answers/JOEL-20261022-1322.md`).
+
+- **GPT's corrections, checked against the sources.** All of these held, and the review now opens with a correction box listing them:
+  - Capacchione is cited twice in the article (Listen To Your Body, Or Else! P1 too).
+  - The packet already asked for the heading references (its line "Update every reference to the two renamed headings") and for the Guide in the appendix ("so it does not leave the Guide out"). Two of my "corrections to the packet" are withdrawn, and two more are softened.
+  - The TalkSpace story shows alarm, not a report.
+  - The trial's exclusion is about diagnoses, not a past reaction to a drug.
+  - "Usually" is a frequency claim nothing here supports.
+  - Grief (PGQ-036) and endings as a list item (P2) are choices, not coverage.
+  - My coping paragraph covered only getting away. The passage is now two short paragraphs: the old expectation, the three directions, the loop.
+- **The names:** GPT's labels and mine differ only on "Adult Protector" (77.1), and GPT now leans to plain "Protector". His message adds the idea behind the names, and his opening's stages 4 and 5 already say where it leads. Question 79 proposes a set built on GPT's: the little one; the Inner Adult; the script you inherited (old expectations, reaction patterns, the parent you inherited); reparenting as updating it until it's second nature. It also asks the umbrella name, "reaction" or "coping", and where the idea goes.
+- InnerSignal's protocol is unchanged (0.2.1, the same hashes as my saved copy). Its "Reparenting is not an exercise" and its rule against inventing a sentence for a wordless appraisal are why 79 says "often felt, never heard as words" and "second nature" rather than "done".
+
+### Next
+
+1. His answers to 76 to 79. Then the changes he picks, the book additions he picks and the AI-window rework, in one round through the gate.

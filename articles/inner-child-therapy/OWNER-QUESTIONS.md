@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 84). **Open questions: 76, 77 and 78.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 84). **Open questions: 76 to 79.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -36,34 +36,36 @@ Each paragraph that changes gets its own Pangram check before it counts, in one 
 
 GPT's proposals (from its four-book audit) and my review of them: `experiments/t83-gpt-review/CLAUDE-REVIEW-20261022.md`. The book checks are in the same folder (`SOURCE-CHECKS.md`): GPT's citations mostly hold, with a few page and wording slips that change nothing below. Most of what GPT proposes is already in the guide in some form. These are the places where a choice is left, each with my pick. Nothing is changed until you answer.
 
+Updated in turn 85, after GPT's reply (`experiments/t85-answers/GPT-REPLY-TO-CLAUDE-REVIEW-20261022-1307.md`). GPT now leans to my picks on the names (77.1, 77.2). It was right that my coping paragraph was too narrow (77.3), and right on four smaller points (77.4 to 77.7). The review has the corrections at the top.
+
 - **77.1 The names.** The one real mix-up is where a protective reaction gets the Protector's word. Hear the Protective Part First P3 (your adopted text) says "Your Protector, the grown-up you, earns that protective part's trust". The map already calls these reactions guards.
-  - **A (my pick):** keep "Protector" for the role and call the reactions guards. The two headings become Two Common Guarding Patterns and Hear the Guard First, with their two cross-references. P3's sentence becomes "Your Protector earns that guard's trust about the same way, mostly out in ordinary life." This also settles 76.1 as "No hidden guard or old trauma required", and 76.2 as dropping "parts".
+  - **A (my pick):** keep "Protector" for the role and call the reactions guards. The two headings become Two Common Guarding Patterns and Hear the Guard First, with their two cross-references. P3's sentence becomes "Your Protector earns that guard's trust about the same way, mostly out in ordinary life." This also settles 76.1 as "No hidden guard or old trauma required", and 76.2 as dropping "parts". GPT now leans to this too.
   - **B:** A, and also "Adult Protector" for the role. It's GPT's term, and it says you agreed it with GPT. It would replace all 23 uses of "Protector", so there aren't two names for one role.
   - **C:** leave the names as they are; question 76 still stands.
 - **77.2 A naming note at the start.** GPT proposes three sentences after "That's one grown-up doing three jobs", naming the Inner Adult, the guards and the inherited script ahead of time.
-  - **A (my pick):** leave it out. Your P3 to P5 already define the one grown-up and let readers rename it, and each other figure is defined where it comes up.
+  - **A (my pick):** leave it out (GPT agrees now). Your P3 to P5 already define the one grown-up and let readers rename it, and each other figure is defined where it comes up. The idea behind the names is a different thing, and that's 79.3.
   - **B:** add it, in your words or mine.
-- **77.3 Your candy question.** What a habit is doing is the real gap.
-  - **A (my pick):** one short new paragraph after Two Common Protective Patterns P2. The wording is in the review: the pull can be a habit with no voice; sometimes you just want a sweet; the question is whether the break brings you back to what needs care or keeps standing in for it.
-  - **B:** A, plus one sentence on the loop: "If you never tell anyone you're struggling, nobody offers help, and that can look like proof that nobody cares."
-  - **C:** GPT's version, a new section, When a Habit Is Doing the Guarding, about 200 words.
-  - **D:** leave it. The Inner Guide P2 to P3 and When the Urge to Escape Arrives carry most of it.
-- **77.4 The dream-narrative line** (Opening up honestly P3, your words): "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells". My concern: it means telling the person helping you that something real was a dream. That can send the therapy the wrong way, and your own TalkSpace story shows it doesn't reliably avoid a report. Your last two sentences (don't hold back a current danger; get anyone in danger safe) stay in every option.
+- **77.3 Your candy question** (revised in turn 85). The gap is bigger than I first said. The guide has the examples but never says what connects them: one old expectation can show up as going along, getting away or proving the opposite, and the reaction can keep the expectation alive. My first paragraph only covered getting away.
+  - **A (my pick):** two short paragraphs at the end of Two Common Protective Patterns: the old expectation, often wordless; the three directions, judged by what they do rather than how they look (sometimes a sweet is just a sweet); the loop, allowing that the people around may really be unavailable or unsafe; and that a reaction made for a crisis can cost you in an ordinary week. My sketch is in the review, to fit the names you settle in 79.
+  - **B:** my first version, one paragraph on getting away.
+  - **C:** GPT's version, a new section, When a Habit Is Doing the Guarding.
+  - **D:** leave it.
+- **77.4 The dream-narrative line** (Opening up honestly P3, your words): "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells". My concern: it means telling the person helping you that something real was a dream. That can send the therapy the wrong way, and your own TalkSpace story (the bot flagged even a dream) shows it can still set off alarm. Your last two sentences (don't hold back a current danger; get anyone in danger safe) stay in every option.
   - **A (my pick):** in its place, start general and non-identifying ("something I did years ago that I'm ashamed of") until you know what they'd have to report. Your TalkSpace story stays, as the reason to ask first.
   - **B:** keep it as it is.
   - **C:** your words.
-- **77.5 After a manic or psychotic reaction** (When Escape Leaves Reality Behind P2, your words): it says "signs to reconsider trying the same thing again". Psilocybin trials screen such people out altogether; the review links one trial's protocol.
+- **77.5 After a manic or psychotic reaction** (When Escape Leaves Reality Behind P2, your words): it says "signs to reconsider trying the same thing again". Psilocybin trials screen out people with a personal or family history of psychotic or bipolar disorders (the review links one protocol). That's about diagnoses, not a past reaction to a drug, so it's a reason for caution rather than a measured risk.
   - **A (my pick):** add one clause: talk it over with a doctor before trying any psychedelic again.
   - **B:** keep your wording. It already says to get professional help when things are severe.
 - **77.6 When a helper steps back** (GPT's P2).
-  - **A (my pick):** add "a therapist or helper stepping back" to the list of endings in When One Life Has Ended P1 (my draft), so that section's advice covers it.
+  - **A (my pick):** add "a therapist or helper stepping back, which can stir up old fears even after real growth" to the list of endings in When One Life Has Ended P1 (my draft), so that section's advice covers it.
   - **B:** GPT's version, a short paragraph in Finding a Therapist.
   - **C:** leave it.
 - **77.7 Spirituality in the Schema Therapy appendix.** P2 says "Schema therapy leaves it out". That's from your request of 2026-10-18, in my words. Young's own preface (p. viii) calls combining schema therapy with spirituality "another important development" and lists three books that do it. The rest of his book has no spiritual material. A later schema therapy book goes further: the couples book (2015) says some Christian couples use prayer with a verse of scripture as "an ongoing highly experiential re-parenting intervention" (p. 234).
-  - **A (my pick):** "Schema therapy doesn't build spirituality in, though the preface to its main textbook calls blending it with meditation or religious practice an important development." Your IFS opinion and the rest of the paragraph stay.
+  - **A (my pick):** "Schema therapy doesn't build spirituality in, though the preface to its main textbook calls blending it with meditation or religious practice an important development." And "isn't something a schema therapist would usually offer you" becomes "isn't part of the standard method", since nothing here shows how often therapists offer it (GPT's point). Your IFS opinion and the rest of the paragraph stay.
   - **B:** keep it.
   - **C:** your words.
-- **77.8 The Guide in the same appendix.** P1 (my draft, turn 72) says schema therapy's "Healthy Adult" is "a Nurturer and a Protector by other names". But Young gives it three functions (p. 278), and one is setting limits, which is the Guide's job in your guide. The couples book adds "often a moral compass" (p. 249).
+- **77.8 The Guide in the same appendix.** P1 (my draft, turn 72) says schema therapy's "Healthy Adult" is "a Nurturer and a Protector by other names". But Young gives it three functions (p. 278), and one is setting limits, which is the Guide's job in your guide. The couples book adds "often a moral compass" (p. 249). GPT's packet asked for this fix first.
   - **A (my pick):** "…who looks after your "Vulnerable Child," sets limits when your angry or impulsive side takes over, and stands up to the punishing parent in your head. Sound familiar? That's a Nurturer, a Protector and a Guide by other names…"
   - **B:** leave it.
 
@@ -83,6 +85,31 @@ You asked whether the children's book and the couples book have good additions, 
 - **78.2 The romance guide.** 10 of the couples book's candidates are for it. The most useful: a real safety plan, with the warning that leaving is a riskier time (it needs checking against a current hotline's own guide first, since the book's list dates from 2005 to 2007); seeing the repeating fight as a loop the two of you build, and the loop as the common enemy; a stop signal with a promised return time. The book treats violence as a loop both partners keep up, so each of these needs a "not if one of you is afraid of the other" screen.
   - **A (my pick):** keep them as notes for now, and start with the safety plan whenever you open the romance guide again.
   - **B:** start on the romance guide now, with these three.
+  - **C:** your words.
+
+### 🟣 79. The core: the names, and the idea behind them
+
+Your message of 13:22 UTC (`experiments/t85-answers/JOEL-20261022-1322.md`). GPT's labels and my picks are nearly the same; the one difference, "Adult Protector" or plain "Protector", is 77.1. What your message adds is the idea the names hang on: growing up, you pick up a script that runs on its own, and reparenting updates it until the new version runs on its own. Your opening already says where that leads (stage 4, "you become a natural"; stage 5, "Lose self-consciousness while gaining self-awareness"). What the guide never says plainly is what's being updated. Here's the set I'd use, building on GPT's:
+
+- **The little one (Inner Child):** your younger feelings and needs: hurt, anger, wanting, joy, play and wonder.
+- **The Inner Adult:** the grown-up you're building, one person with three jobs: Nurturer, Protector, Guide.
+- **The script you inherited:** what runs by itself because you learned it growing up. It answers three questions before you ask them:
+  1. What's going on? **Old expectations**, like "if I need someone, they'll leave". Often felt, never heard as words.
+  2. What do I do? **Reaction patterns**: going along, getting away, or proving the opposite. A **guard** is a reaction you can talk to like someone inside; a plain habit is just a habit.
+  3. How do I treat myself? **The parent you inherited**: a critic, a warden, or warmth.
+- **Reparenting:** the Inner Adult updating the script: noticing what ran, practicing a better answer until it's second nature, and stepping back in when it misfires. Awareness finds the old program; practice and play put in the new one.
+
+- **79.1 The umbrella name.**
+  - **A (my pick):** "the script you inherited". It's your word, and "the parent you inherited" becomes the part of it about how you treat yourself.
+  - **B:** "inherited patterns".
+  - **C:** your words.
+- **79.2 The name for what you do.**
+  - **A (my pick):** "reaction patterns", yours. It means what you do, so the feeling stays with the little one.
+  - **B:** "coping patterns", GPT's.
+  - **C:** your words.
+- **79.3 Where the idea goes.**
+  - **A (my pick):** two or three sentences right after your five stages, saying what gets reparented and that the goal is less effort, not more; then 77.3's two paragraphs at the end of Two Common Protective Patterns.
+  - **B:** all of it in one place, at the end of Two Common Protective Patterns.
   - **C:** your words.
 
 ## For you to do (no decision needed)

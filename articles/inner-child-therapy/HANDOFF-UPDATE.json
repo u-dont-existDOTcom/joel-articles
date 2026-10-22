@@ -1,16 +1,31 @@
 {
- "turn": 84,
+ "turn": 85,
  "replace": [
   [
-   "the\\ two\\ books'\\ candidates\\ are\\ pull\\ request\\ \\#211\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/211\\),\\ for\\ him\\ to\\ merge\\.",
-   "the two books' candidates are pull request #211 (https://github.com/u-dont-existDOTcom/joel-articles/pull/211), merged.",
+   "\\-\\ TURN\\ 84\\ \\(2026\\-10\\-22,\\ his\\ messages\\ of\\ 11:56,\\ 12:06\\ and\\ 12:15\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.",
+   "- TURN 84 (2026-10-22, his messages of 11:56, 12:06 and 12:15 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
    1
   ],
   [
-   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#211\\ \\(the\\ two\\ books'\\ candidates;\\ \\#210\\ is\\ merged\\)\\.",
-   "2. His merge of the next turn's pull request (#210 and #211 are merged).",
+   "1\\.\\ His\\ answers\\ to\\ questions\\ 76,\\ 77\\ and\\ 78\\ on\\ OWNER\\-QUESTIONS\\.md,\\ and\\ his\\ delete\\ of\\ the\\ two\\ temporary\\ Substack\\ drafts\\ \\(A\\ and\\ B\\)\\.",
+   "1. His answers to questions 76 to 79 on OWNER-QUESTIONS.md, and his delete of the two temporary Substack drafts (A and B).",
+   1
+  ],
+  [
+   "2\\.\\ His\\ merge\\ of\\ the\\ next\\ turn's\\ pull\\ request\\ \\(\\#210\\ and\\ \\#211\\ are\\ merged\\)\\.",
+   "2. His merge of pull request #212 (turn 85).",
+   1
+  ],
+  [
+   "1\\.\\ His\\ answers\\ to\\ 76,\\ 77\\ and\\ 78:\\ put\\ in\\ his\\ picks\\ \\(with\\ any\\ book\\ additions\\ he\\ chooses\\)\\ and\\ rework\\ the\\ AI\\ windows",
+   "1. His answers to 76 to 79: put in his picks (with any book additions he chooses) and rework the AI windows",
    1
   ]
  ],
- "insert_before": []
+ "insert_before": [
+  [
+   "- TURN 84 (2026-10-22",
+   "- TURN 85 (2026-10-22, his message of 13:22 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #212 (https://github.com/u-dont-existDOTcom/joel-articles/pull/212) for him to merge.\n  - His message, word for word: experiments/t85-answers/JOEL-20261022-1322.md, with GPT's reply to my review in the same folder (GPT's words). He asked what my naming suggestions were versus GPT's, and set out his idea: an inherited script that makes sense of things (inherited schemas) and reacts (inherited reaction patterns); consciously reprogram it, then let it run; keep play and wonder; keep the inner child and inner adult framings.\n  - GPT's corrections held when checked, and they're in the review's opening box. Capacchione is cited twice. Two of my \"corrections to the packet\" are withdrawn: the packet had the heading references and the Guide. TalkSpace is alarm, not a report. The trial is about diagnoses. \"Usually\" is unsupported. Grief and P2 are choices, not coverage. My coping paragraph was too narrow, so 77.3 is now two short paragraphs.\n  - Question 79, the core names: the little one; the Inner Adult (Nurturer, Protector, Guide); the script you inherited, with old expectations, reaction patterns (guards among them) and the parent you inherited; reparenting as updating it until it's second nature. It asks the umbrella name, \"reaction\" or \"coping\", and where the idea goes.\n  - NEXT: his answers to 76 to 79; then his picks, any book additions and the AI-window rework in one round, one free Substack check per changed section, and he deletes the drafts.\n"
+  ]
+ ]
 }
