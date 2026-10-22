@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-22, after your message of 21:41 UTC. **Open questions: none.** **One thing for you to do**: run
-Pangram on the second screening post and send me its result link (under "For you to do"). The questions are at the top, with their options and my default;
+Last updated 2026-10-22, after your result link of 23:01 UTC. **Open question: 1** (13, Appendix C's opening in your
+own words). **One thing for you to do**: run Pangram on recheck A and send me its link (under "For you to do"). The questions are at the top, with their options and my default;
 under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
 or in progress; 🟢 done or decided.
 
@@ -10,7 +10,26 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None right now. Question 12 is answered (below).
+- 🟣 **13. Appendix C's opening: will you write it in your own words?** [The second screening](https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e)
+  read Appendix B's lists Human, so the last check's red window was all Appendix C's; Appendix C as it stands read AI
+  throughout; the new version read Human from the list of tricks to "A bad guide can't.", and AI in its opening and in
+  the bad guide's last sentence. The opening has now read AI in six versions (your published list, my prose and four
+  rewrites), which is the limit before it comes to you. It's two short paragraphs and a sentence:
+  1. When to use the checklist, and the line to say to yourself: notice influence, don't obey or attack it, slow down, ask
+     what it assumes and who benefits, notice your body's signal without assuming what it proves, and ask what love,
+     truth, humility and ordinary life would require.
+  2. The four tests: what's true survives questions, love survives boundaries, guidance survives sleep, and what's for
+     you won't ask you to give up your adult self.
+  3. The last sentence: a bad guide calls your no resistance, ego, fear, low vibration, trauma, sin, or proof that you
+     need more of their guidance.
+
+  Options:
+  - A. You write those in your own words, in any order.
+  - B. Your published list comes back for the general checklist, and it reads AI.
+  - C. They stay as they are, red.
+
+  My recommendation: A, because your own lines have read dark green every time. My default until you answer: the new
+  version goes in, since its middle and end read Human and it keeps every point, with the opening as it is.
 
 ## Your answers of 2026-10-22 21:41 UTC, and what I did
 
@@ -39,7 +58,8 @@ None right now. Question 12 is answered (below).
     invented a source ("shamelessly stolen from the Gerson hypnosis course"). The other two, bc and be, read Mixed.
   - Appendix C: neither sample read Human. bg read Human from its list of tricks to the good guide, and AI in its opening
     (when to use the checklist, the statement to say, the four tests) and its last sentence; bh read AI nearly throughout.
-    So the second screening post (under "For you to do") tries two new openings with bg's middle.
+    So the second screening post tried two new openings with bg's middle, and Appendix C as it stands (question 13 has
+    what it found).
 - 🔵 **The induction section from bf.** A reader compared bf with your published section point by point: of its 251
   points bf kept 169, changed 52 and lost 30, and it added 10 claims. This time only what changes what a reader does or believes goes
   back, each as the smallest edit inside bf's own sentence, since ba's restorations in plain words had read AI. So 31
@@ -239,15 +259,14 @@ None right now. Question 12 is answered (below).
 
 ## For you to do
 
-- 🟠 **Run Pangram on the second screening post in your Brave**: [TEMP screen (hypnosis guide samples)](https://ibogaqueen.substack.com/p/8f4644c8-8bda-4321-8437-8a09148353cc?postPreview=paid&updated=2026-10-22T22%3A50%3A00.000Z&audience=only_paid&free_preview=false&freemail=). Click the
-  Pangram label once it settles, use "Copy shareable link to result", and paste the link to me. It's the same draft as
-  before with new text: the end of Appendix B, Appendix C as it is now, and Appendix C with two new openings. The last
-  whole-guide check read Appendix B's lists and Appendix C's opening as one red window, so this shows which is red, and
-  which opening to keep. Its text in the page is exactly the text I predicted from (same SHA-256).
+- 🟠 **Run Pangram on recheck A in your Brave**: [TEMP recheck A (hypnosis guide)](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-22T23%3A08%3A00.000Z&audience=only_paid&free_preview=false&freemail=), then paste
+  me the link. It's the whole guide with the new induction section and your answers 9 to 12; the check reads its first
+  99,999 characters, a little way into the appendices. Its text in the page is exactly the text I predicted from. The
+  appendices' half (recheck B) waits on your answer to 13.
 - 🔵 **Your Nibbāna article** is queued after the hypnosis guide, with [its result](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917)
   read: Mostly Human Written, 4.5% AI, 22 of its 166 windows AI ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/QUEUE-20261022.md)), and
   your current editor HTML in.
-- 🟢 Done: the first screening post (your result of 21:41, read: above).
+- 🟢 Done: both screening posts (your results of 21:41 and 23:01, read: above and in question 13).
 - 🟢 Done: the recheck of 2026-10-21 (your results of 18:37, read: part A AI in the induction section, part B Mostly Human
   with Appendix C red), and the note to the Inner Child chat (that lane ran its own check, its 75).
 - 🟢 Your temporary drafts: recheck A and B are renamed "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP
@@ -256,7 +275,6 @@ None right now. Question 12 is answered (below).
 
 ## Where it stands
 
-🟢 All 40 of the guide's sections are humanized, and your answers 9 to 12 are in. In the last whole-guide check two read
-red: the induction section and Appendix C's checklist. 🔵 The induction section's new version (sample bf, which read Human,
-with 31 meaning fixes) is in its reviews; Appendix C waits on the second screening post. Then a whole-guide recheck with
-everything. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every check's link.
+🟢 All 40 of the guide's sections are humanized, and your answers 9 to 12 are in. 🔵 The induction section's new version
+(sample bf, which read Human, with its meaning put back and four rounds of reviews) is in the guide, and recheck A reads it
+in place. 🟣 Appendix C's opening is question 13. Then recheck B, the appendices. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every check's link.

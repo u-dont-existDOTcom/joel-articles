@@ -37,21 +37,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
-| **all lanes** | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
+| hypnosis guide | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
+| **all lanes** | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
+| hypnosis guide | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
+| stretch | 12 | 9 (75%) | 67% | 33% | 8% | 0.230 (base 0.222, 12) |
 | article | 2 | 2 (100%) | 100% | 0% | 0% | 0.001 (base 0.000, 2) |
-| stretch | 2 | 1 (50%) | 50% | 50% | 0% | 0.451 (base 0.250, 2) |
 
 ## pangram 4.1, web app
 
@@ -123,6 +123,8 @@ The boundary mix over all lanes:
 | parallel list kept; light green turned red | 1 | hypnosis guide |
 | fix underrated | 1 | hypnosis guide |
 | verdict threshold misread | 1 | hypnosis guide |
+| tells overweighted | 1 | hypnosis guide |
+| a red window read as its first section's | 1 | hypnosis guide |
 | a tell I did not name | 1 | inner child guide |
 | a window moved onto his line | 1 | inner child guide |
 

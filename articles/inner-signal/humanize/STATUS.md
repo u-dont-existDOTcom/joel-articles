@@ -1,6 +1,6 @@
 # Status: hypnosis guide humanization (newest on top)
 
-## 2026-10-22, after Joel's message of 21:41 UTC (the pull request; answer 12, batch 471g; the screening read; bf's meaning work; the second screening post; Nibbāna's HTML)
+## 2026-10-22, after Joel's message of 21:41 UTC (the pull request; answer 12, batch 471g; both screenings read; the induction section from bf; recheck A; Nibbāna's HTML)
 
 **The pull request** ("the pr has conflicts"): main had taken the Inner Child lane's pull request 218, with a conflict in
 `state/PANGRAM-SCORECARD.md` (regenerated with `pangram_ledger.py build`, merge afc6ea1b), then its 220 twenty minutes
@@ -43,9 +43,22 @@ part of the paragraph), caught by comparing the pasted recheck post with its reb
 
 **The second screening post** (`fix-20261022/screen2/`, the same draft, its body cleared and pasted with the lane's helper;
 words SHA-256 equal; the rendered paragraphs' textContent hashes to `TEXT-S2.txt`): Appendix B's stretch as installed
-(B0), Appendix C as installed (C0), and two new openings with bg's middle and C0's end (C1, C2), to tell whether the
-recheck's red window was Appendix B's lists or Appendix C's opening, and which opening reads Human. Predictions first
-(ledger HG31-nlp-tail#28 to HG32-c2#31, all AI, 0.30 to 0.40). It waits on Joel's Brave.
+(B0), Appendix C as installed (C0), and two new openings with bg's middle and C0's end (C1, C2). Predictions first (ledger
+HG31-nlp-tail#28 to HG32-c2#31, all AI, 0.30 to 0.40). [Joel's result](https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e)
+(23:01 UTC; AI Detected, 59.5% AI; checked text SHA-256 equal to `TEXT-S2.txt`; `RESULT-S2.json`, `SCREEN2-RESULT.json`
+by `read_screen2.py`): B0 Human (a miss, explained: the red window began in it, but its color was Appendix C's); C0 AI
+throughout, high, its first window marked "humanized"; C1 Human from the list of tricks to "A bad guide can't.", AI in its
+opening and in the bad guide's last sentence; C2 AI nearly throughout. The opening's sixth try failed, so it is question
+13 for Joel (his own words), with C1 as the default meanwhile. Its meaning check, read while the post waited
+(`VERIFY-C.md`): nothing lost in C1 or C2.
+
+**Recheck A** (`fix-20261022/recheck/`: `make_recheck.py`, part A the whole guide, the check reading its first 99,999
+characters, into the appendices): predicted (HG-whole#33, AI at 0.10: the return's three short red stretches are
+unchanged), pasted into draft A (the paste's words were 34 more than the payload's count, the same 34 at both pastes; the
+rendered post's lines hash to the rebuild, with the page's two button lines read as the rebuild reads them;
+`RECHECK-POST-A.json`). The first paste showed the induction section's install had glued its last paragraph to the next
+h1; part A was rebuilt after the fix and round 4, the first prediction voided (HG-whole#32). It waits on Joel's Brave.
+Part B waits on question 13.
 
 **Nibbāna**: his editor HTML of 21:41 UTC (`articles/nibbana/humanize/source/substack-editor-20261022.html`) rebuilt the
 way the check reads it is the checked text exactly; the rebuild tool learned three rules on the way (an embedded note's

@@ -24318,7 +24318,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "f6bf543b4b46abd2ec7168582d8c72f2eb9482a071e31fd25d9c67034ecc0cd6",
+          "sha256": "13bc0df5fac6ed3a6ab0baf81021b53c0fc6291b35532eea80c351fae308520e",
           "role": "humanization_working_record"
         },
         {
@@ -28583,7 +28583,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "7e86865f44155cf1ce618f870855f15bc06f20904dca4a9719d6eb4b5bf15fc8",
+          "sha256": "3b26371e9d0c386c274d01537735dc76380cb5a27acbbac80010c24736b086ce",
           "role": "humanization_working_record"
         },
         {
@@ -29843,7 +29843,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "bef7489d1fd6c02cde3f274bf8a322a9668b6b4c53d20fa74feb5ed1beb2845b",
+          "sha256": "3ed07a8094df816b3b324dafd0a44f6e50b96c51b62ee181b9b2bdc4a1c2b48d",
           "role": "humanization_working_record"
         },
         {
@@ -37108,7 +37108,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/SCORECARD.md",
-          "sha256": "7ea1fcc2a7d29fe17307bbb6f7339c3aa53eb98ca7ee9d435539265de6283d4c",
+          "sha256": "de60c9d44cdc17faa48748e80d970c90a77af12ba0e45d4e06ff28c7877886fa",
           "role": "humanization_working_record"
         },
         {
@@ -40434,6 +40434,11 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261022/screen2/WINDOWS-S2.txt",
           "sha256": "48ffe4ebb7827bdfe9156f03896d6ee0066a0860a77ced89a2f19b9b86972704",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261022/recheck/RECHECK-POST-A.json",
+          "sha256": "3fd36809ec988be6930321668a886e72c12cdb0892a8415182b5c5b064c6f71c",
           "role": "humanization_working_record"
         }
       ]

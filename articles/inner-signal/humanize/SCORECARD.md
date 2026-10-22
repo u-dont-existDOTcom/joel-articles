@@ -7,7 +7,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 
 ## Pangram 4.0 (before the ledger)
@@ -40,22 +40,24 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
-| the latest 100 | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
-| all | 4 | 3 (75%) | 75% | 25% | 0% | 0.226 (base 0.188, 4) |
+| the latest 50 | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
+| the latest 100 | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
+| all | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | article | 2 | 2 (100%) | 100% | 0% | 0% | 0.001 (base 0.000, 2) |
-| stretch | 2 | 1 (50%) | 50% | 50% | 0% | 0.451 (base 0.250, 2) |
+| stretch | 12 | 9 (75%) | 67% | 33% | 8% | 0.230 (base 0.222, 12) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 4 | 0.03 | 25% |
+| 0.2 to 0.4 | 6 | 0.32 | 17% |
+| 0.4 to 0.6 | 4 | 0.45 | 50% |
 
 ## pangram 4.1, web app
 
@@ -80,7 +82,7 @@ Calibration:
 | 0.6 to 0.8 | 3 | 0.67 | 67% |
 | 0.8 to 1.0 | 2 | 0.82 | 100% |
 
-## Misses since the ledger (7)
+## Misses since the ledger (9)
 
 | cause | misses |
 |---|---|
@@ -89,6 +91,8 @@ Calibration:
 | parallel list kept; light green turned red | 1 |
 | fix underrated | 1 |
 | verdict threshold misread | 1 |
+| tells overweighted | 1 |
+| a red window read as its first section's | 1 |
 
 The latest:
 
@@ -101,20 +105,23 @@ The latest:
 | [HG15-p9e2](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56) | HG15-p9, 2 | Human | AI or mixed | balanced closer kept |
 | [HG35-forgive-e3](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3) | HG35-p13, 2 | AI | Human | fix underrated |
 | [HG-rest-41r2-b](https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4) | HG-rest-B, 2 | AI | Human | verdict threshold misread |
+| [screen-S2](https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb) | HG17-emu-bd, 1 | AI | Human | tells overweighted |
+| [screen2-B0](https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e) | HG31-nlp-tail, 1 | AI | Human | a red window read as its first section's |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 2 of unlimited (Substack) | Mixed |
+| HG-whole | article | 3 of unlimited (Substack) | pending |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |
 | HG35-p15 | paragraph | 1 of 6 | Mixed |
-| HG17-emu-bc | stretch | 1 of unlimited (Substack) | pending |
-| HG17-emu-bd | stretch | 1 of unlimited (Substack) | pending |
-| HG17-emu-be | stretch | 1 of unlimited (Substack) | pending |
-| HG17-emu-bf | stretch | 1 of unlimited (Substack) | pending |
-| HG32-emu-bg | stretch | 1 of unlimited (Substack) | pending |
-| HG32-emu-bh | stretch | 1 of unlimited (Substack) | pending |
+| HG17-emu-bc | stretch | 1 of unlimited (Substack) | Mixed |
+| HG17-emu-be | stretch | 1 of unlimited (Substack) | Mixed |
+| HG32-emu-bg | stretch | 1 of unlimited (Substack) | Mixed |
+| HG32-emu-bh | stretch | 1 of unlimited (Substack) | Mixed |
+| HG32-469g | stretch | 1 of unlimited (Substack) | AI |
+| HG32-c1 | stretch | 1 of unlimited (Substack) | Mixed |
+| HG32-c2 | stretch | 1 of unlimited (Substack) | Mixed |
 

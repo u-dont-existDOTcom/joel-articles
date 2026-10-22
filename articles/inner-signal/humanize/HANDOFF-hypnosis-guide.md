@@ -170,36 +170,39 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-22, after Joel's message of 21:41 UTC: the second screening post waits on his Brave)
+## Next step (2026-10-22, after Joel's links of 21:41 and 23:01 UTC: recheck A waits on his Brave, question 13 on him)
 
 Done since the step below: pull request 219's conflicts (main took the Inner Child lane's 218, then its 220; merges afc6ea1b
 and 9dff534e), merged by Joel at 22:16 UTC; his answer 12 as batch 471g (`fix-20261022/b471/`: two review rounds, gated,
-forecast, installed); the first screening post's result read (`fix-20261022/screen/SCREEN-RESULT.json`: HG17's bd and bf
-Human in every window; Appendix C's bg and bh not); the induction section from sample bf with its meaning fixes
-(`fix-20261022/hg17-bf/`: `make_hg17_bf_fixed.py`, its reviews `make_hg17_bf_reviews.py`, `install_bf.py`); the second
-screening post pasted and verified (`fix-20261022/screen2/`); Nibbāna's editor HTML registered, its rebuild equal to the check.
+forecast, installed); both screening posts read (`fix-20261022/screen/SCREEN-RESULT.json`: HG17's bd and bf Human in every
+window; `fix-20261022/screen2/SCREEN2-RESULT.json`: Appendix B's stretch Human, Appendix C as installed AI, the new opening
+C1 Human from the tricks list to "A bad guide can't.", AI in its opening and the bad guide's last sentence); the induction
+section from sample bf with its meaning fixes, four rounds of reviews, gated and installed (`fix-20261022/hg17-bf/`:
+`make_hg17_bf_fixed.py`, `make_hg17_bf_reviews.py`, `make_hg17_bf_r2.py --round N`, `make_gate_hg17_bf.py`,
+`install_bf.py`); recheck A pasted and verified (`fix-20261022/recheck/RECHECK-POST-A.json`); Nibbāna's editor HTML
+registered, its rebuild equal to the check.
 
-1. **When Joel sends the second screening post's result link**: read the windows from the page (its compact line), then
-   `python3 tools/humanization/substack_check_text.py result fix-20261022/screen2/PAYLOAD-S2.html WINDOWS.txt META.json
-   --out RESULT-S2.json` (the rendered post's paragraphs, by textContent, hash to `TEXT-S2.txt`'s b1bf8832...), cut the
-   windows by sample with `screen2/SPANS-S2.json`, and give each sample its result in the ledger (`result --key screen2-B0`
-   to `screen2-C2`). Then:
-   - B0 red and C0 Human: Appendix C stays; Appendix B's stretch (Emulate's "I do not use NLP ..." list and the sequence)
-     gets a diagnosis and a fix.
-   - C1 or C2 Human: that one, with its meaning check (`screen2/VERIFY-C.md`, read while the post waited) put right in its
-     own sentences as for bf, the cold read, the stance check and the march, then the gate and the install (an edit of
-     b469-HG32-prose in `fix-20261020/EDITS41.json`).
-   - Neither, nor C0: Appendix C's opening has had its six tries (published, 469g, bg, bh, C1, C2), so it goes back to Joel
-     with the windows: his own words for the opening's statement and four tests, or the list form back.
-2. **The whole-guide recheck**: `fix-20261022/recheck/make_recheck.py` (both parts from the working copy; TEXT-A.txt and
-   TEXT-B.txt are the checked texts, WORDS-A/B.json the editor words for the lane's paste helper), predictions first
-   (`make_preds_recheck.py A`, then B once Appendix C is settled; part B's row is a placeholder until then), pasted into
-   drafts A (221411215) and B (221412532) with `fix-20261022/screen/paste_payload_lane.js` after clearing the body with
-   ctrl+a and Delete (tell Joel: his clipboard), the rendered check by textContent, then Joel's Brave. Score 470g's
-   (`b470/batch/FORECAST.json`) and 471g's (`b471/batch/FORECAST.json`) forecasts afterwards.
-3. **Queued after this guide: his Nibbāna article** (`articles/nibbana/humanize/QUEUE-20261022.md`, with the red windows
-   in context in `RED-WINDOWS-20261020.md`). The fixes go into his editor HTML of 21:41 UTC.
-4. **Question 6 b**, after the 4.1 work: the repeats one at a time, as below.
+1. **When Joel sends recheck A's result link**: read the windows from the page (`tools/humanization/pangram_feed_read.js`,
+   its compact line), `substack_check_text.py result fix-20261022/recheck/PAYLOAD-A.html WINDOWS-A.txt META-A.json --limit
+   99999 --out RESULT-A.json` (the checked text should hash to TEXT-A.txt's fd2e3ed6...), the ledger result for key
+   HG-whole-41r4-a (prediction HG-whole#33), the induction section's windows read on their own (its span in TEXT-A.txt
+   starts at "Inductions serve to gather you up"), and 470g's and 471g's forecasts scored (`b470/batch/FORECAST.json`,
+   `b471/batch/FORECAST.json`; their part A paragraphs). A red stretch in the induction section gets a diagnosis in its
+   place, its light-green neighbours read with it.
+2. **Question 13, Appendix C's opening** (`OWNER-QUESTIONS.md`): A, his own words for the opening's two paragraphs and the
+   bad guide's last sentence, go in as he writes them (an edit of b469-HG32-prose in `fix-20261020/EDITS41.json`, with the
+   reviews); B, the published list comes back; C, they stay. Until he answers, the default: C1
+   (`screen2/CANDIDATES.json`) goes in, its meaning check (`screen2/VERIFY-C.md`, nothing lost) triaged as for bf ("for a
+   minute" and the four tests outside the quote are the opening's, which his words replace; "tricks ... being used" and
+   "remain an option" are bg's middle, which reads Human: fix only what a reader would act on), then the cold read, the
+   stance check, the march, the gate.
+3. **Recheck B** (the appendices) once Appendix C is settled: `make_recheck.py` again, `make_preds_recheck.py B` (its row
+   is a placeholder until then), pasted into draft B (221412532, "TEMP recheck B (hypnosis guide appendices) - do not
+   publish") the same way, the rendered lines compared with the rebuild before Joel is asked.
+4. **Queued after this guide: his Nibbāna article** (`articles/nibbana/humanize/QUEUE-20261022.md`, with the red windows,
+   their whole paragraphs and a first look at their shapes in `RED-WINDOWS-20261020.md`). The fixes go into his editor HTML
+   of 21:41 UTC.
+5. **Question 6 b**, after the 4.1 work: the repeats one at a time, as below.
 
 ## Earlier next step (2026-10-22, after Joel's answers of 18:37 UTC: the screening post waits on his Brave)
 
