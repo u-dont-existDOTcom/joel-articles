@@ -50,6 +50,10 @@ Low windows also appeared in seven paragraphs nobody changed. Half B went from 9
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
+### 🟠 Merge pull request #221 (turn 96)
+
+Round 4's results, two more cuts, and questions 86 and 87: https://github.com/u-dont-existDOTcom/joel-articles/pull/221. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
+
 ### 🔵 The two temporary Substack drafts: not yet (turn 88)
 
 "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" now hold the turn-88 check, so they stay until its results are recorded. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
