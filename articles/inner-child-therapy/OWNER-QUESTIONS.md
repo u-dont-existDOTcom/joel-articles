@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 84). **Open questions: 78.2 and 80.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-22 (turns 82 to 88). **Open questions: 78.2 and 81.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -17,32 +17,38 @@ This file is the page's master copy, so either of your Claude accounts can read 
   - **B:** start on the romance guide now, with these three.
   - **C:** your words.
 
-### 🟣 80. Three small things in your new text (turn 87)
+### 🟣 81. The three names in your nutshell (turn 88)
 
-- **80.1 Stage 1 and the "all good" reader.** The Inner Guide says forced adulthood "can feel a lot like finally having your act together", and that reader may not see themselves in "the lost inner child".
-  - **A (my pick):** add a few words to stage 1, such as "...even if it looks like you've got it all together". Otherwise a reader who over-functions may place themselves at stage 4.
-  - **B:** leave it as you wrote it. The Inner Guide catches that reader later.
-  - **C:** your words.
-- **80.2 Chicken-and-Egg P2:** "a misperception that there is something wrong about the inner child".
-  - **A:** "wrong with", if that's what you meant.
-  - **B:** keep "wrong about".
-- **80.3 When Escape Leaves Reality Behind P2.** Your chat line (77.5) "don't try again until you understand what would make it safe" isn't in the paragraph.
-  - **A (my pick):** add it after "signs to reconsider trying the same thing again", in your words.
-  - **B:** leave the paragraph as it is.
+Your nutshell is now where a reader first meets the Nurturer, the Protector and the Guide. By your rule ("explain everything when it first gets read"), each name could carry a hint of its job there. Right now the chart above it and your Chicken-and-Egg P2 ("the loving Nurturer, safe Protector, and wise Guide") explain them, after the songs.
+
+- **A (my pick):** your own three adjectives from P2, in the nutshell: "comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide".
+- **B:** leave it. It's a quick summary, and the explanation comes a few paragraphs later.
+- **C:** your words.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Delete the two temporary Substack drafts (turn 82)
+### 🔵 The two temporary Substack drafts: not yet (turn 88)
 
-Both results are read and recorded, so "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" can go. A permanent delete is one thing I leave to you. In your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" now hold the turn-88 check, so they stay until its results are recorded. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 80, 79 (your nutshell), 77.5 and 77.8, 2026-10-22 16:12 UTC
+
+Your message (sent during turn 87; `experiments/t88-answers/JOEL-20261022-1612.md`):
+
+- **Your nutshell** ("here's my human version that passes") replaces my draft, word for word, as the article's first text, above the songs ("79. yes above songs"). You checked it, so it gets no Pangram check of mine. Your second line says "in a nutshell", so I dropped the heading "Reparenting in a nutshell". Say if you want it back.
+- **80.1 A** ("1. agree"): stage 1 now ends its first sentence "...that require more maturity, even if it looks like you’ve got it all together."
+- **80.2 A** ("2. with yes"): "something wrong with the inner child".
+- **80.3 A** ("77.5yes"): in When Escape Leaves Reality Behind P2, after "try to figure out why that happened": "Don't try again until you understand what would make it safe." Then "I’d look at the drug and the dosage..." reads as how you'd find that out.
+- **"3. yes i know i changed to the miseperception sentence"**: the worth line stays out. Your rule, "we should explain everything when it first gets read", is why 81 asks about the three names.
+- **77.8** ("ok"): the appendix stays as it is.
 
 ### 🟢 76, 77, 78.1 and 79.3, 2026-10-22 15:33 UTC
 

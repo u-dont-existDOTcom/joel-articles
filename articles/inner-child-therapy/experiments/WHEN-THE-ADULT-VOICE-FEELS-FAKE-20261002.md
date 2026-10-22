@@ -1144,3 +1144,23 @@ His answers, saved first (`t87-answers/JOEL-20261022-1533.md`): 76.1 A, 76.2 A, 
 - The worth line's check is marked superseded by his P2.
 - **77.8:** Young's institute's mode list gives the Healthy Adult "appropriate adult functions such as working, parenting, taking responsibility, and committing" and adult interests (https://schematherapy.com/id72.htm). That's the Guide's direction, so the appendix P1 fix will say the Protector sets limits and the Guide shows up as adult direction.
 - **Still to draft:** the nutshell section (my sketch went to him: "Growing up, all of us picked up ways of reading what happens, reacting to it and treating ourselves…"), 77.3's two paragraphs, 77.6's list item, 77.8's P1, eleven children's-book sentences and the see-saw sentence. Then the AI-window rework, the checks and one Substack check per changed section.
+- **Drafted and put in** (not yet checked in Pangram; lint REVIEW at most; drafts in `t87-drafts/`, n1 to n13): my nutshell draft (replaced in turn 88 by his); 77.3's two paragraphs (Two Common Guarding Patterns P3 and P4); the ST-CA sentences, cited by chapter section since this edition prints no page numbers (Hear the Guard First P4, The Parent You Inherited P4, The Inner Guide P1, P2 and P4 with the see-saw, You Don't Need an Inner Monologue P1 and P2, Untangling P1, Love Doesn't Have to Wait for Trust P14, When One Life Has Ended P1); 77.8 in the Schema Therapy appendix P1. No 30-second neutral image (78.1).
+- **My AI-window rework** (r1 to r7): If You Want to Kill Yourself P6 and P7, How Much Happiness P3, Borrowed Adulthood P1, Borrow Hindsight P2, Start With Whatever Showed Up P8, Two Common Guarding Patterns P2 (his turn-31 words "The skeptic and the pull both" kept, which `OWNER-EDITS.json` caught).
+- **Substack payloads** (`t87-substack/`, two halves split at an h1) and predictions t87s_A (#38, AI 0.90) and t87s_B (#39, AI 0.85). Both voided unchecked in turn 88, since his 16:12 message changed both halves.
+
+## Turn 88 (2026-10-22, 16:12 UTC, sent during turn 87): his nutshell; 80; 77.5 and 77.8
+
+His message, saved first (`t88-answers/JOEL-20261022-1612.md`): "1. agree. 2. with yes. 3. yes i know i changed to the miseperception sentence. and we should explain everything when it first gets read as the instrucitons have always said"; the nutshell at the top ("many ppl want a quick tldr first"); "77.5yes"; 77.8 "ok"; "79. yes above songs", with his own version of the nutshell, "my human version that passes".
+
+- **Put in** (`OWNER-EDITS.json` entry `joel-88-20261022`; checks 179 of 179):
+  - his nutshell, word for word in his characters, as the article's first text, without the heading "Reparenting in a nutshell" (his second line says it). He checked it, so no Pangram check of mine;
+  - 80.1 A: ", even if it looks like you’ve got it all together" in stage 1 (lint REVIEW: second person, "reparenting");
+  - 80.2 A: "wrong with";
+  - 80.3 A: his "Don't try again until you understand what would make it safe." in When Escape Leaves Reality Behind P2 (lint CLEAR).
+- **Question 81:** by his first-read rule, the nutshell names the three jobs before anything explains them; my pick is his own P2 adjectives there.
+- **Substack:** new payloads (`t88-substack/`; A 15,642 words, B 12,519), predictions t88s_A (#40, AI 0.90) and t88s_B (#41, AI 0.85) before any check. The drafts are reused, not new: our two temporary drafts, cleared and pasted with `t88-substack/paste_payload_lane.js`. That's our copy of the hypnosis lane's helper, with two changes. It has no replace path: selecting through the DOM and pasting at once put the payload above the old text in draft A, 30,526 words, so the body is cleared with real ctrl+a, Delete first. And it checks the pasted words: Substack curls every straight quote on paste (751 in half A, nothing else changed), so the check hashes the words with quotes straightened.
+- **Seen in passing:** the hypnosis lane's two drafts are titled "TEMP Pangram recheck A (hypnosis guide) - do not publish" and "B" again (updated 2026-10-21 21:38 UTC), so E205 is broken there. Its helper only replaces bodies under a "TEMP Pangram" title. Not ours to rename; told Joel.
+
+### Next
+
+1. Paste both halves into the two drafts and confirm the words match. Then tell him I'm ready to click the labels in his Brave, so he can watch where the analysis opens (turn 84). Then his two pangram.com/feed/ links, read with `tools/humanization/pangram_feed_read.js`, and results for #40 and #41. Then rework of my text that reads AI, and question 82 for his paragraphs' windows with the flagged words and the smallest fixes (E171). After that, he deletes the drafts (E204).
