@@ -1,0 +1,364 @@
+{
+ "HG17-bf": {
+  "kind": "edit",
+  "was_kind": "emulate",
+  "was": "emu-bf, Emulate's run of the installed fixed section with Joel's 11 b (fix-20261018/emu-bf): Human in all 46 of its windows in the first screening post (23 of them medium or low), https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb (fix-20261022/screen/SCREEN-RESULT.json, S4); under gate E200 the fixed section is read in the next whole-guide recheck through Substack",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S S S",
+   "S S S S S",
+   "S S B B B B S B B S S S S",
+   "S S S S S S",
+   "S S S S S S S S",
+   "B",
+   "S",
+   "S B B",
+   "S S S S S B S B",
+   "S",
+   "S S S S S S S S",
+   "S S S S",
+   "S S",
+   "S S S S S S",
+   "S",
+   "S",
+   "B",
+   "S",
+   "S",
+   "S B S",
+   "B",
+   "S",
+   "S B",
+   "S S S S S",
+   "S S",
+   "S S B",
+   "S S S S S S",
+   "S S S S S"
+  ],
+  "march": [
+   "S S S S",
+   "S S S S",
+   "S B B B B S B B S S S S S",
+   "S S S S S",
+   "S S S S S S S",
+   "B",
+   "S S",
+   "S B B",
+   "S S S S B S B S B",
+   "S",
+   "S S S S S S S S",
+   "S S S S",
+   "S S",
+   "S S S S S S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S B S",
+   "B",
+   "S B",
+   "S S S S S",
+   "S B",
+   "S S B",
+   "S S S S S S",
+   "S S S S S"
+  ],
+  "march_breaks": "bf 9 of 28 changed paragraphs with a break, fixed 9 of 26",
+  "cold_read": "articles/inner-signal/humanize/fix-20261022/hg17-bf/SENSE-HG17.md",
+  "grounding_note": "Round 1: the meaning check of bf in three parts (VERIFY-part1.md to part3.md: kept 169, changed 52, lost 30, added claims 10); the fixes a reader would act on drafted per part against FIX-BRIEF.md and applied (31 of 32; FIXES.json). FIX-CHECK.md read every changed paragraph in its place (27 of 28 OK) and audited the 70 let stands (0 disagreements). Its one CHANGED, item 2 (\"overwhelmed by chemicals\" narrower than the published \"intoxicated\"), is Joel's own wording: his answer 11 b (2026-10-22 18:37 UTC) chose it for the safety line, so it stands.",
+  "stance_note": "STANCE-HG17.md (round 1, against the whole published guide and Joel's positions since): three conflicts, each fixed in round 4 (make_hg17_bf_fixed.py ROUND4) and read again in place (r4/VERIFY-r4.md: 3 of 3 OK): \"so that you can deepen it\" made the already-open practice a step toward deepening (out); \"Preview, if you can,\" made the preview optional (out); \"just open your eyes and be done\" said an early stop needs no return (\"You can also just open your eyes and stop, and then come all the way back anyway\"). Its two contradictions in the published text: \"When intoxicated\" is settled by Joel's answer 11 b; \"You can simply open your eyes and finish\" against \"Use Come all the way back, even when you ended early\" follows the return here, and the questions page tells Joel so he can say otherwise.",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 2921,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/hg17-bf/march/march.json",
+  "lint_compare": "articles/inner-signal/humanize/fix-20261022/hg17-bf/lint-compare.json",
+  "cold_note": "SENSE-HG17.md (round 1, the whole section in the guide): four UNCLEAR. P12 \"The narrator can't add stuff if you don't say anything\" read as what a narrator is able to do, P30 the already-open paragraph an \"if\" with no \"then\" once bf's run-in heading was taken out, P64 \"this\" (the cue, or today's trance), each fixed in round 2 (make_hg17_bf_fixed.py ROUND2); P11 (\"stop\", \"less\" and \"quiet\" as commands to a voice nothing has set up) is the published design (\"\\\"Stop\\\" ends the exercise; \\\"less\\\" reduces intensity; \\\"quiet\\\" ends spoken guidance\"), so it stands. r2/VERIFY-r2.md read each round 2 fix in place.",
+  "let_stand": [
+   {
+    "finding": "part 1, P1: CHANGED: \"gather you up\"; attention, \"scattered\", \"easier to hear\" gone",
+    "why": "paraphrase keeps the point; title says attention"
+   },
+   {
+    "finding": "part 1, P1: LOST: \"guarded\" as a case",
+    "why": "\"otherwise not very trancey\" covers it"
+   },
+   {
+    "finding": "part 1, P3: CHANGED: now asks what you are doing, not what an induction does",
+    "why": "heading only; in a self-guided practice you do the inducing"
+   },
+   {
+    "finding": "part 1, P4: CHANGED: \"only when that helps\" becomes \"might be deepening\"",
+    "why": "\"might\" and P5's test keep depth conditional"
+   },
+   {
+    "finding": "part 1, P5: LOST: scope \"simple, chosen target\"",
+    "why": "hedged check, in line with deepening only when it helps"
+   },
+   {
+    "finding": "part 1, P5: CHANGED: \"build from it\" gone; only \"might not need to deepen\"",
+    "why": "VI's \"Use what you have\" carries it"
+   },
+   {
+    "finding": "part 1, P5: LOST: induction helps find receptive listening",
+    "why": "purpose already stated in P1"
+   },
+   {
+    "finding": "part 1, P5: LOST: no ceremony needed before responding",
+    "why": "\"might not need to deepen\" and VI's \"regardless of what the script is expecting\""
+   },
+   {
+    "finding": "part 1, P7: LOST: metaphor examples (stairs, gardens, rooms, light, child dialogue)",
+    "why": "examples only; \"just do one\" keeps the point"
+   },
+   {
+    "finding": "part 1, P7: CHANGED: switch consciously; \"when it stops helping\" gone",
+    "why": "one-metaphor default and conscious switching kept"
+   },
+   {
+    "finding": "part 1, P9: CHANGED: \"pick one\" each becomes \"think about\"; refrains plural",
+    "why": "looser wording; \"Keep it simple\" carries the economy"
+   },
+   {
+    "finding": "part 1, P11: CHANGED: \"question or quality to explore\" becomes \"what you want to do\"",
+    "why": "paraphrase; same choice of purpose"
+   },
+   {
+    "finding": "part 1, P13: CHANGED: \"coax yourself to do this\" replaces choosing welcome encouragement",
+    "why": "the options given show the same tone choice"
+   },
+   {
+    "finding": "part 1, P13: LOST: \"firmer invitation to stay with a feeling\"",
+    "why": "\"Something else?\" leaves room; P7 names \"directed\""
+   },
+   {
+    "finding": "part 1, P14: CHANGED: \"useful response\" easier becomes \"this\" easier",
+    "why": "same let-it-get-easier point"
+   },
+   {
+    "finding": "part 1, P14: CHANGED: \"silence doesn't authorize\" becomes \"narrator can't add stuff\"; \"haven't agreed to\" gone",
+    "why": "keeps silence-is-not-consent"
+   },
+   {
+    "finding": "part 1, P15: LOST: thought, sound, movement, objection may redirect",
+    "why": "\"Use what you have\" and \"Let your response guide you\" cover it"
+   },
+   {
+    "finding": "part 1, P15: CHANGED: \"Let the next response guide you\" now an alternative (\"or keep reading below\")",
+    "why": "both pointers kept; reader reads on anyway"
+   },
+   {
+    "finding": "part 1, P17: CHANGED: \"to yourself on your recorder\" reads like playback, not recording",
+    "why": "recorder use still clear; IV covers recordings"
+   },
+   {
+    "finding": "part 1, P17: CHANGED: \"learn its movement\" gone; \"say it to yourself if good at that\"",
+    "why": "silent-words option and its condition kept"
+   },
+   {
+    "finding": "part 1, P19: CHANGED: breath gone; sound now \"or maybe\", not alongside",
+    "why": "listener still notices what's there"
+   },
+   {
+    "finding": "part 1, P19: LOST: no need to arrange either",
+    "why": "\"maybe there is a sound\" keeps it unforced"
+   },
+   {
+    "finding": "part 1, P21: LOST: worry about doing it properly",
+    "why": "any thought gets the same return to anchor"
+   },
+   {
+    "finding": "part 1, P22: CHANGED: \"one detail\" becomes \"something you are doing\"; \"as you return\" gone",
+    "why": "examples keep the object; same step"
+   },
+   {
+    "finding": "part 1, P22: LOST: stay long enough to become curious",
+    "why": "\"holds your interest\" plus the next line's \"Allow yourself some time\""
+   },
+   {
+    "finding": "part 1, P23: CHANGED: \"Perhaps you can\" now imperative; \"she\" added; \"hasn't found the words\" reworded",
+    "why": "\"Allow yourself\" stays permissive; wording"
+   },
+   {
+    "finding": "part 1, P23: CHANGED: \"without finishing their sentence\" gone; \"stick around till she gets it all out\"",
+    "why": "\"till she gets it all out\" keeps letting her finish"
+   },
+   {
+    "finding": "part 1, P24: CHANGED: \"let phrase come to mind\" becomes \"Repeat the phrase... if you want\"",
+    "why": "permissive script tone; phrase still used"
+   },
+   {
+    "finding": "part 1, P26: CHANGED: \"each number its own moment\" becomes optional \"taking your time\"",
+    "why": "still invites a slow count"
+   },
+   {
+    "finding": "part 1, P27: CHANGED: 1, \"stay here for a moment\" becomes \"take your time\"",
+    "why": "same pause at one"
+   },
+   {
+    "finding": "part 1, P28: CHANGED: \"chosen concern lightly\" becomes \"thing you want to talk about\"; \"lightly\" gone",
+    "why": "next lines keep it light (\"let it be there\", no whole story)"
+   },
+   {
+    "finding": "part 1, P30: CHANGED: \"give the response time\" becomes \"notice what comes, if anything\"",
+    "why": "last line's \"take your time\" keeps the patience"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: \"I'm going to be counting\" (author voice; script does count)",
+    "why": "personal voice"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: \"or something to anchor yourself\"",
+    "why": "example; changes nothing"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: \"even if a part tells you that you do\"",
+    "why": "reinforces the same permission"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: \"she\" for the listener",
+    "why": "pronoun only"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: \"haven't done it for a while\" as rehearsal trigger",
+    "why": "falls under \"unfamiliar\"; cautious"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: \"keep reading below\" (location)",
+    "why": "pointer only"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: numbering \"IV./V./VI.\" after \"1.-3.\"; label \"Deciding to do it\"",
+    "why": "formatting"
+   },
+   {
+    "finding": "part 1, ADDED: ADDED: \"yet\"/\"for now\" imply the story is told later",
+    "why": "no instruction to tell it later"
+   },
+   {
+    "finding": "part 2, P32: CHANGED: \"Contain before you deepen\" is gone from the heading; only the body says stabilise so you can deepen. A \"Variations\" label is put in front.",
+    "why": "body keeps stabilise before deepening"
+   },
+   {
+    "finding": "part 2, P33: CHANGED: trigger list. \"Intense beauty\" is now \"seeing something you love\"; \"music\" is \"beautiful music\". List ends \"etc\" (see ADDED).",
+    "why": "examples only; the 'already open' condition is kept"
+   },
+   {
+    "finding": "part 2, P34: CHANGED: \"I do not need to intensify it\" is gone; only implied by \"you just need to\".",
+    "why": "\"just need to\" still says only aim and stabilise"
+   },
+   {
+    "finding": "part 2, P35: CHANGED: the thumb press is now one example (\"eg\") of \"make some contact with yourself\"; any self-contact seems allowed.",
+    "why": "the press is the only example given; friction focus kept"
+   },
+   {
+    "finding": "part 2, P38: CHANGED: \"only in the amount I can live well with\" becomes \"that I can integrate\". The limit on amount is now a limit on kind.",
+    "why": "a limit stays; P36's line already limits amount"
+   },
+   {
+    "finding": "part 2, P39: CHANGED: heading drops \"when your mind likes to escape\"; that condition now sits only on the hand-movement paragraph.",
+    "why": "condition stays in the body (daydreaming, \"mentally escape\")"
+   },
+   {
+    "finding": "part 2, P44: CHANGED: \"bring me gently into the present\" is \"bring me back to now\"; \"gently\" is dropped. \"Show me what I am avoiding\" is kept.",
+    "why": "small word dropped"
+   },
+   {
+    "finding": "part 2, P45: CHANGED: \"small repeated hand movement with increasing clarity\" becomes \"move deliberately\"; the clarity pairing survives only in the script.",
+    "why": "the script right after keeps the pairing"
+   },
+   {
+    "finding": "part 2, P46: CHANGED: \"Again — clearer, not sleepier\": \"clearer\" stays, \"not sleepier\" is dropped.",
+    "why": "\"clearer\" keeps the direction; restoring adds a \", not Y\" tail"
+   },
+   {
+    "finding": "part 2, P54: LOST: \"the task is rest\".",
+    "why": "heading and \"to go to sleep\" carry it; restoring adds a tidy closing line"
+   },
+   {
+    "finding": "part 2, P32: ADDED: \"Variations\" label before the first section.",
+    "why": "a label; nothing to act on"
+   },
+   {
+    "finding": "part 2, P33: ADDED-CLAIM: \"for some reason (... etc)\" makes the trigger list open-ended, so the section applies to any cause (P33).",
+    "why": "the heading \"Already open?\" already covers any opened state; the list reads as examples"
+   },
+   {
+    "finding": "part 2, ADDED: ADDED: \"Say something like\" before the scripts (P36, P38, P44, P45) makes the wording optional, including the safety lines in P36.",
+    "why": "brief lets \"Say something like\" stand"
+   },
+   {
+    "finding": "part 2, P55: ADDED: \"To be done:\" draft note and \"to go to sleep listening to hypnosis\" in the playlist line (P55).",
+    "why": "\"To be done:\" goes in the P55 fix; the rest only says what the playlist is for"
+   },
+   {
+    "finding": "part 3, P56: Purpose is practicing coming back: LOST (script still says \"come back up\").",
+    "why": "the script still does the coming back and offers the stop"
+   },
+   {
+    "finding": "part 3, P57: Defined as returning toward ordinary awareness, then deciding whether to re-enter: LOST.",
+    "why": "the script right after does just this"
+   },
+   {
+    "finding": "part 3, P57: \"Used openly, it teaches trance has a door in both directions\": LOST.",
+    "why": "framing; the script still offers both ways"
+   },
+   {
+    "finding": "part 3, P57: Reason, no answer may secretly mean \"deeper\": LOST (rule stays, reason gone).",
+    "why": "the naming rule stays and can be followed without the reason"
+   },
+   {
+    "finding": "part 3, P58: Notice what changes as attention gathers again: CHANGED. \"The change that comes over you\" presupposes a change; \"attention gathers\" gone.",
+    "why": "the published also expects something to change; same noticing step"
+   },
+   {
+    "finding": "part 3, P60: Attention \"may become more gathered\": CHANGED. Hedge becomes the instruction \"Allow your attention to gather.\"",
+    "why": "\"allow\" stays permissive and the usefulness condition is kept"
+   },
+   {
+    "finding": "part 3, P61: One simple scene: CHANGED. \"Just pick a place\" keeps one; \"simple\" gone, \"whatever you want\" added.",
+    "why": "still one easy pick; looser wording"
+   },
+   {
+    "finding": "part 3, P65: Signals come when the meeting space is ready: CHANGED. Now sent \"to let you know\" it is ready \"to go in to\": a go-ahead.",
+    "why": "both make the signal a sign the space is ready; the P67 limit stays"
+   },
+   {
+    "finding": "part 3, P66: I will not force it: KEPT (\"You don't have to make it happen\"; pledge becomes permission).",
+    "why": "\"just wait with love and notice\" still leaves only waiting, so no forcing or faking"
+   },
+   {
+    "finding": "part 3, P72: No instant depth required: CHANGED. \"A certain depth\" drops speed.",
+    "why": "no depth is required at all, which covers instant depth"
+   },
+   {
+    "finding": "part 3, P73: Faster entry doesn't determine what material you can handle: CHANGED. Becomes \"Don't use this to go in faster for things you shouldn't be working on yet\": a rule on use, limits undefined.",
+    "why": "same upshot: a quicker way in is no license for heavier material"
+   },
+   {
+    "finding": "part 3, ADDED: ADDED: \"whatever you want\" opens the scene choice beyond the list.",
+    "why": "the scenes were examples; still one place"
+   },
+   {
+    "finding": "part 3, ADDED: ADDED: reason for the driving ban, inward attention when outward is needed. Consistent with P74; no new rule.",
+    "why": "consistent with the ban; no new rule"
+   },
+   {
+    "finding": "part 3, ADDED: ADDED: voice. First-person lines (P60, P64-P66) become \"you\"; the script now addresses \"them\".",
+    "why": "\"you\" still speaks to the listener, who is yourself; both \"them\" lines are fixed above"
+   },
+   {
+    "finding": "part 3, ADDED: ADDED, none acted on: \"at some point in time you can add this\"; \"Ok,\"; \"either way is ok\"; \"sitting in front of\"; \"where you can see the bottom\"; \"comfortable\"; \"come up by itself\"; \"an entire hand\"; \"He even did it\"; \"don't do that!\".",
+    "why": "the report marks them none acted on"
+   },
+   {
+    "finding": "part 2, P35: ADDED-CLAIM: \"How does your body feel? Where are you grounded?\" Two new orientation checks",
+    "why": "two harmless orientation questions; the drafted cut was left out (cutting them changes bf more); FIX-CHECK.md agreed"
+   }
+  ],
+  "lint_note": "lint-compare.json: the paragraphs whose fixes brought a rule bf's paragraph didn't have are 13 (B2, \"instead of\" in Joel's 11 b sentence, his wording), 14 to 16 (O19, the list numbered 1 to 6 where bf switched to IV, V and VI; a REVIEW flag), 39 (E23, bf's run-in heading \"Staying awake\" taken out, so the paragraph starts with its instruction); 35 and 68 were reworded in round 2 (REWORD) and no longer bring one.",
+  "march_note": "march/ and r2/march/: no changed paragraph lost a break except the sleep playlist line, which the march skips as a heading-like line once it is 12 words with no full stop (\"Check out Nimja's sleep playlist to go to sleep listening to hypnosis\"); it is a pointer, not a script line. Rounds 2 to 4 (r2/march, r3/march, r4/march): no break lost.",
+  "review_fixed": "round 2 (r2/VERIFY-r2.md: 5 of 5 OK; the cold read's three and two linter rewordings), round 3 (r3/VERIFY-r3.md: OK; one more linter rewording), round 4 (r4/VERIFY-r4.md: 3 of 3 OK; the stance check's three)",
+  "lint": "REVIEW"
+ }
+}

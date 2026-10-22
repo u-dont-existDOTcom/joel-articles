@@ -1,0 +1,20 @@
+{
+ "b471-forced-adulthood": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "review_fixed": "round 1 (r1/REVIEW.md: OK); the stance check's finding 1 fixed in round 2 (r2/VERIFY-r2.md: OK)",
+  "stance_answered": [
+   "finding 2, \"what I call forced adulthood\" has no source in the published guide: it is Joel's answer 12 a (21:41 UTC), his term from the Inner Child article (his words of 15:33 UTC)",
+   "finding 4, \"an inherited inner critic\" is another name for the inherited parent: kept on purpose in batch 470g and said on the questions page (answer 10, point 4: the script acting as a critic)"
+  ],
+  "lint_note": "FAIL in both the installed paragraph and the edit, on the same rules (B4/E15, E125; lint-compare.json): the installed text's, none brought by the edit"
+ },
+ "b471-three-roles": {
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "review_fixed": "round 1 (r1/REVIEW.md: OK); the stance check's finding 3 fixed in round 2 (r2/VERIFY-r2.md: OK)",
+  "lint_note": "FAIL in both the installed paragraph and the edit, on the same rule (E125; lint-compare.json): the installed text's"
+ }
+}

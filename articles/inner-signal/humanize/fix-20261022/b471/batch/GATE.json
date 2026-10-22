@@ -1,0 +1,66 @@
+{
+ "b471-forced-adulthood": {
+  "kind": "edit",
+  "was": "Human, high in the whole guide (4.1, window 21 of part A, https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S S B"
+  ],
+  "march": [
+   "S S B"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b471/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b471/r2/VERIFY-r2.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b471/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b471/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 61,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b471/march.json",
+  "edits": [
+   "forced-adulthood"
+  ],
+  "review_fixed": "round 1 (r1/REVIEW.md: OK); the stance check's finding 1 fixed in round 2 (r2/VERIFY-r2.md: OK)",
+  "stance_answered": [
+   "finding 2, \"what I call forced adulthood\" has no source in the published guide: it is Joel's answer 12 a (21:41 UTC), his term from the Inner Child article (his words of 15:33 UTC)",
+   "finding 4, \"an inherited inner critic\" is another name for the inherited parent: kept on purpose in batch 470g and said on the questions page (answer 10, point 4: the script acting as a critic)"
+  ],
+  "lint_note": "FAIL in both the installed paragraph and the edit, on the same rules (B4/E15, E125; lint-compare.json): the installed text's, none brought by the edit",
+  "lint": "FAIL"
+ },
+ "b471-three-roles": {
+  "kind": "edit",
+  "was": "AI in the whole guide (4.1, window 16 of part B, https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4)",
+  "was_kind": "emulate",
+  "lint_was": "FAIL",
+  "march_was": [
+   "S"
+  ],
+  "march": [
+   "S B"
+  ],
+  "cold_read": [
+   "articles/inner-signal/humanize/fix-20261022/b471/r1/REVIEW.md",
+   "articles/inner-signal/humanize/fix-20261022/b471/r2/VERIFY-r2.md"
+  ],
+  "grounding_note": "articles/inner-signal/humanize/fix-20261022/b471/r1/REVIEW.md",
+  "stance_note": "articles/inner-signal/humanize/fix-20261022/b471/r1/STANCE.md",
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "missing": [],
+  "words": 61,
+  "march_reads": "articles/inner-signal/humanize/fix-20261022/b471/march.json",
+  "edits": [
+   "three-roles"
+  ],
+  "review_fixed": "round 1 (r1/REVIEW.md: OK); the stance check's finding 3 fixed in round 2 (r2/VERIFY-r2.md: OK)",
+  "lint_note": "FAIL in both the installed paragraph and the edit, on the same rule (E125; lint-compare.json): the installed text's",
+  "lint": "FAIL"
+ }
+}

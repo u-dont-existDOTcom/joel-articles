@@ -186,7 +186,7 @@ Also, your inner child’s worth is not dependent on these qualities… It has i
 
 ## When the adult role is not available yet
 
-The problem is, that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood). Telling them to just access their adult is like telling them to just be able to fly.
+The problem is, that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood). Telling them to just access their adult is like telling a baby bird to just fly.
 
 For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It is important to note here that I’m not suggesting that all of the steps in this process have been formally tested and proven.
 
@@ -1184,7 +1184,7 @@ Find out what that part/pattern is protecting for them.
 
 Gently change some aspect of their pattern (location, volume, space, posture, speed, etc.).
 
-Put 3 good adults in with the person (Nurturer, Protector, and Guide). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.
+Put 3 good adults in with the person (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.
 
 Anchor the person's good state (heart, fingers, breath, posture, etc.).
 

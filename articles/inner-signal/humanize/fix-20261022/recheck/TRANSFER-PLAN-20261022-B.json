@@ -1,0 +1,66 @@
+{
+  "format": "joel-substack-transfer-plan-v4",
+  "source_file": "ARCHIVAL-SUBSTACK-20261022-B.html",
+  "source_sha256": "e2b7bc0ed5bade19c4bedd7e1817eff141cd2c7c1cf6e87a1fe283a57faf3342",
+  "editor_body_sha256": "e02629cb1380175e8e039a861b8327e7b9261bb4f61f4a5503f602511ea9b6a8",
+  "editor_body_boundary": {
+    "mode": "substack-editor-root",
+    "outer_start": 0,
+    "inner_start": 192,
+    "inner_end": 74952,
+    "outer_end": 74958
+  },
+  "destination": "Substack editor",
+  "browser": "Opera",
+  "file_opening_path": "downloaded local HTML file opened directly",
+  "compatibility_profile_name": "Opera local-file native-object helper with native-video segmentation",
+  "objects": [
+    {
+      "id": 1,
+      "type": "image",
+      "source_sha256": "30622889396fadd4056206ceabd8e3348fe61bdf0cfe55bc91c291ae400fc07b",
+      "preceding_anchor": "Appendix D: Anxiety — body first",
+      "following_anchor": "Inner child love",
+      "candidate_urls": [
+        "https://substackcdn.com/image/fetch/$s_!93QB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substack-post-media.s3.amazonaws.com/public/images/fc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://ibogaqueen.substack.com/i/202810155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!93QB!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc488218-ba89-4325-adb0-16c0a7bfb987_1024x1536.png"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "strategy": "rich_html",
+      "profile_status": "confirmed_path_retest_each_final",
+      "add_can_restack_if_missing": true,
+      "destination_result": "final_destination_retest_pending"
+    },
+    {
+      "id": 2,
+      "type": "substack_video_post_embed",
+      "source_sha256": "2221851bf4aca4eb27731efc4a2c7e15794cef8f3aeeb975f1b4e31600971abd",
+      "preceding_anchor": "Stabilize before you interpret",
+      "following_anchor": "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”",
+      "candidate_urls": [
+        "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself",
+        "https://substack.com/profile/355021294-u-dont-existcom",
+        "https://substack-post-media.s3.amazonaws.com/public/images/7b5776e0-efde-4ee9-8910-514d12ee5fd2_1024x1024.jpeg",
+        "https://substackcdn.com/image/youtube/w_728,c_limit/1aBjoARwlOY",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "http://www.w3.org/2000/svg"
+      ],
+      "canonical_url": "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself",
+      "media_id": null,
+      "strategy": "canonical_url_in_payload",
+      "profile_status": "owner_confirmed_strategy_retest_each_final",
+      "add_can_restack_if_missing": false,
+      "destination_result": "final_destination_retest_pending"
+    }
+  ]
+}

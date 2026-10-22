@@ -1,0 +1,913 @@
+You check the meaning fixes in one section of Joel's long self-hypnosis guide: the induction (what an induction does, how to prepare, a spoken listening script, the already-open and stay-awake practices, the two-hand and sleep inductions, fractionation, deepening, a trance depth check and a shortcut back into hypnosis). A paraphrasing tool rewrote Joel's published section in a looser, more personal voice ("bf"), and a detector read bf as human-written. A reader then compared bf with the published section point by point. The points that change what a reader of the guide does or believes were put back in the smallest edits inside bf's own sentences, and the rest was let stand on purpose: every edit risks making the text read as machine-written again. The guide is self-guided: the reader leads themselves, reading it or using a recording they made.
+
+PART 1, THE FIXES. For each item below you get WHY IT CHANGED (the meaning check's finding and the edit), BEFORE and AFTER (the paragraphs around it in the fixed section), WAS (bf) and NOW. For each item, say in a few words each:
+1. FIXED: does NOW say what the published section says on that point (THE PUBLISHED SECTION is below)? YES, or what is still off.
+2. MEANING: apart from that, does NOW keep everything WAS said? KEPT, or what changed.
+3. SENSE: would a reader who has read the guide up to here understand NOW in its place? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`.
+
+PART 2, WHAT WAS LET STAND. Below the items is the list of the meaning check's findings that were left as bf has them, each with the reason. Read THE PUBLISHED SECTION and THE FIXED SECTION, and name only the ones where you disagree: where the fixed section would still have a reader do or believe something the published section doesn't say (a step missing, a safety or exit point lost, a condition dropped, a permission made a duty or the other way round, a claim the published doesn't make). For each, quote the words and say what a reader would do or believe, and suggest the smallest edit inside the fixed section's own sentence. Agree silently with the rest.
+
+Judge meaning and sense only, not style. Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261022/hg17-bf/FIX-CHECK.md`: "## Item N" parts for part 1, then "## Let stand" with your disagreements, or "none". Then reply with only the verdicts, one line per item, and a last line `let stand: N disagreements`. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (bf paragraph 1)
+
+WHY IT CHANGED:
+- the meaning check found: CHANGED: "have someone do it for you"; "may help" softened | ADDED-CLAIM: "have someone do an actual induction for you" (guide is self-guided)
+  fix: "it's nice to have someone do an actual induction for you" -> "it's nice to do an actual induction"
+- the meaning check found: CHANGED: "can be good to skip to" orientation; extra condition added | ADDED-CLAIM: skip deepening only if "in touch with the deeper stuff already"
+  fix: ") and feel like you're in touch with the deeper stuff already, it can be good to skip straight to" -> "), skip straight to"
+
+BEFORE:
+Induction: gathering attention without disappearing
+
+WAS (bf):
+Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to have someone do an actual induction for you if you're sober but distracted or analytical or otherwise not very trancey. If on the other hand, you're already pretty trancey for whatever reason (meditation, loveyhuasca, lucid dreaming, grief, music, prayer, tired, whatever...) and feel like you're in touch with the deeper stuff already, it can be good to skip straight to the orientation/containment part rather than going deeper.
+
+NOW:
+Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If on the other hand, you're already pretty trancey for whatever reason (meditation, loveyhuasca, lucid dreaming, grief, music, prayer, tired, whatever...), skip straight to the orientation/containment part rather than going deeper.
+
+AFTER:
+Get trancey enough to do what you want to do (focused, warm, receptive, embodied, able to stop, and optionally deeper)
+
+## Item 2 (bf paragraph 13)
+
+WHY IT CHANGED:
+- the meaning check found: CHANGED: "intoxicated" narrowed to "too much ... and feel overwhelmed" (needs both) | KEPT: confused/unsafe: get support, no exploratory hypnosis ("immediate" gone)
+  fix: "Don't do this if you've had too much of whatever chemicals you're using and feel overwhelmed, or if you're acutely confused, or otherwise not in a place where you can safely take care of yourself. Get the support you need in those situations, don't do exploratory hypnosis." -> "If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis."
+
+BEFORE:
+2. Get clear on what it is you want to do during the induction. What do you want not to do today. How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.
+
+WAS (bf):
+3. Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. Don't do this if you've had too much of whatever chemicals you're using and feel overwhelmed, or if you're acutely confused, or otherwise not in a place where you can safely take care of yourself. Get the support you need in those situations, don't do exploratory hypnosis. (The later part of this can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+
+NOW:
+3. Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The later part of this can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+
+AFTER:
+4. Deciding to do it . How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview, if you can, what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say stop at any time and the induction will end. If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. You can also just open your eyes and be done. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+## Item 3 (bf paragraph 14)
+
+WHY IT CHANGED:
+- the meaning check found: LOST: you can simply open your eyes and finish
+  fix: "or quiet and the talking will stop." -> "or quiet and the talking will stop. You can also just open your eyes and be done."
+- also: the list numbered 1 to 6
+
+BEFORE:
+3. Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The later part of this can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+
+WAS (bf):
+IV. Deciding to do it . How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview, if you can, what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say stop at any time and the induction will end. If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+NOW:
+4. Deciding to do it . How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview, if you can, what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say stop at any time and the induction will end. If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. You can also just open your eyes and be done. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+AFTER:
+5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. No will stay no. The narrator can't add stuff if you don't say anything.
+
+## Item 4 (bf paragraph 15)
+
+WHY IT CHANGED:
+- also: the list numbered 1 to 6
+
+BEFORE:
+4. Deciding to do it . How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview, if you can, what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say stop at any time and the induction will end. If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. You can also just open your eyes and be done. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+WAS (bf):
+V. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. No will stay no. The narrator can't add stuff if you don't say anything.
+
+NOW:
+5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. No will stay no. The narrator can't add stuff if you don't say anything.
+
+AFTER:
+6. Let your response guide you as to what to do next regardless of what the script is expecting. Utilize. Use what you have to go to the next place, whatever it is. Learn how to notice what is there. Learn how to notice if there is no change, and that that is not a positive change. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you . Either way, keep the instructions about how to stay safe and how to get out plain.
+
+## Item 5 (bf paragraph 16)
+
+WHY IT CHANGED:
+- the meaning check found: LOST: keep safety and exit instructions plain | ADDED-CLAIM: "read the information about how to stay safe and how to get out before proceeding"
+  fix: "read the information about how to stay safe and how to get out before proceeding." -> "keep the instructions about how to stay safe and how to get out plain."
+- also: the list numbered 1 to 6
+
+BEFORE:
+5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. No will stay no. The narrator can't add stuff if you don't say anything.
+
+WAS (bf):
+VI. Let your response guide you as to what to do next regardless of what the script is expecting. Utilize. Use what you have to go to the next place, whatever it is. Learn how to notice what is there. Learn how to notice if there is no change, and that that is not a positive change. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you . Either way, read the information about how to stay safe and how to get out before proceeding.
+
+NOW:
+6. Let your response guide you as to what to do next regardless of what the script is expecting. Utilize. Use what you have to go to the next place, whatever it is. Learn how to notice what is there. Learn how to notice if there is no change, and that that is not a positive change. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you . Either way, keep the instructions about how to stay safe and how to get out plain.
+
+AFTER:
+Sober induction: 3–5 minutes
+
+## Item 6 (bf paragraph 19)
+
+WHY IT CHANGED:
+- the meaning check found: LOST: looking-for versus letting-come-into-view
+  fix: "rest on something in the room for a bit." -> "rest on something in the room for a bit, and let what's already there come into view."
+
+BEFORE:
+You can read this slowly to yourself on your recorder, you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two hands thing (below) or something to anchor yourself and the thing you will say to open it up. Use the same anchor for everywhere that anchor is mentioned. Don't read the directions, just pause between paragraphs.
+
+WAS (bf):
+You can allow your eyes to rest on something in the room for a bit.
+
+NOW:
+You can allow your eyes to rest on something in the room for a bit, and let what's already there come into view.
+
+AFTER:
+You can allow yourself to notice something you can feel, like the sensation of something under you, and notice the sensation of the contact, the pressure. Or maybe there is a sound, or something else to notice.
+
+## Item 7 (bf paragraph 25)
+
+WHY IT CHANGED:
+- the meaning check found: LOST: say it as an invitation | LOST: notice how it is received
+  fix: "Repeat the phrase that you chose, if you want to." -> "Repeat the phrase that you chose, if you want to. Say it as an invitation and notice how it's received."
+
+BEFORE:
+Allow yourself some time to do this, as much time as you would for someone you care about who has started to talk and hasn't gotten to what she wants to say yet, so you are going to stick around till she gets it all out.
+
+WAS (bf):
+Repeat the phrase that you chose, if you want to.
+
+NOW:
+Repeat the phrase that you chose, if you want to. Say it as an invitation and notice how it's received.
+
+AFTER:
+You can close your eyes now if you want to. If not, it's fine to keep them open, or soften your gaze. The listening might go deeper while there's still a background sound you can hear.
+
+## Item 8 (bf paragraph 26)
+
+WHY IT CHANGED:
+- the meaning check found: CHANGED: "listening may deepen" becomes "as deep as you like"; room-sound link gone | ADDED-CLAIM: "go as deep as you like with the listening" (depth is optional; room stays available)
+  fix: "You can go as deep as you like with the listening, even if it's just" -> "The listening might go deeper while there's still"
+
+BEFORE:
+Repeat the phrase that you chose, if you want to. Say it as an invitation and notice how it's received.
+
+WAS (bf):
+You can close your eyes now if you want to. If not, it's fine to keep them open, or soften your gaze. You can go as deep as you like with the listening, even if it's just a background sound you can hear.
+
+NOW:
+You can close your eyes now if you want to. If not, it's fine to keep them open, or soften your gaze. The listening might go deeper while there's still a background sound you can hear.
+
+AFTER:
+Count 5 to 1, taking your time if you like.
+
+## Item 9 (bf paragraph 28)
+
+WHY IT CHANGED:
+- the meaning check found: LOST: 3, "leave a little space" ("3." left blank)
+  fix: "3. 2. See if you can" -> "3. Leave a little space. 2. See if you can"
+
+BEFORE:
+Count 5 to 1, taking your time if you like.
+
+WAS (bf):
+5. Let your attention come back to your chosen anchor. 4. Let more of your attention come to what you've found. 3. 2. See if you can listen to a space after the words without preparing an answer. 1. Take your time.
+
+NOW:
+5. Let your attention come back to your chosen anchor. 4. Let more of your attention come to what you've found. 3. Leave a little space. 2. See if you can listen to a space after the words without preparing an answer. 1. Take your time.
+
+AFTER:
+Bring to mind, if you want, the thing that you want to talk about, or just the wish to have inner contact. Just let it be there for now. You don't need to tell the whole story yet.
+
+## Item 10 (bf paragraph 33)
+
+WHY IT CHANGED:
+- also: run-in heading: "Variations Open already" goes
+
+BEFORE:
+Already open? Contain before you deepen
+
+WAS (bf):
+Variations Open already If you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it so that you can deepen it.
+
+NOW:
+If you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it so that you can deepen it.
+
+AFTER:
+Know that you're already open, you just need to aim and stabilise it, and keep it kind.
+
+## Item 11 (bf paragraph 35)
+
+WHY IT CHANGED:
+- the meaning check found: LOST: "Look around the room". "Orient yourself" is generic.
+  fix: "Orient yourself." -> "Look around and orient yourself."
+
+BEFORE:
+Know that you're already open, you just need to aim and stabilise it, and keep it kind.
+
+WAS (bf):
+Orient yourself. Where are you. What's the date or day. How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.
+
+NOW:
+Look around and orient yourself. Where are you. What's the date or day. How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.
+
+AFTER:
+Say something like, "Only what I can integrate, please. If there's too much it can wait. My body may stay safe. I'll be here as an adult, this won't just be my inner child."
+
+## Item 12 (bf paragraph 36)
+
+WHY IT CHANGED:
+- the meaning check found: CHANGED: "The body may stay safe" is now "My body will be safe": a flat assurance, not a permission.
+  fix: "My body will be safe." -> "My body may stay safe."
+
+BEFORE:
+Look around and orient yourself. Where are you. What's the date or day. How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.
+
+WAS (bf):
+Say something like, "Only what I can integrate, please. If there's too much it can wait. My body will be safe. I'll be here as an adult, this won't just be my inner child."
+
+NOW:
+Say something like, "Only what I can integrate, please. If there's too much it can wait. My body may stay safe. I'll be here as an adult, this won't just be my inner child."
+
+AFTER:
+When you feel oriented, make an intention.
+
+## Item 13 (bf paragraph 39)
+
+WHY IT CHANGED:
+- the meaning check found: LOST: "I am coming more fully here".
+  fix: "Say to yourself, "I'm not going anywhere."" -> "Say to yourself, "I'm not going anywhere, and I'm coming more fully here.""
+- also: run-in heading: "Staying awake" goes
+
+BEFORE:
+Stay awake when your mind likes to escape
+
+WAS (bf):
+Staying awake Say to yourself, "I'm not going anywhere." Sit up, open your eyes, feel your feet, let your breathing be natural.
+
+NOW:
+Say to yourself, "I'm not going anywhere, and I'm coming more fully here." Sit up, open your eyes, feel your feet, let your breathing be natural.
+
+AFTER:
+Look around you and choose something to look at. Feel your spine. Ask yourself why you're daydreaming. Is it to get guidance, or because you're working through something, or are you avoiding something?
+
+## Item 14 (bf paragraph 42)
+
+WHY IT CHANGED:
+- the meaning check found: ADDED-CLAIM: "Tell yourself that as you move one of your hands, you're going to move deliberately, and as soon as you stop... you'll focus on what you've got." A new self-suggestion step before the script (P45).
+  fix: "Tell yourself that as you move" -> "As you move"
+
+BEFORE:
+Say something like, "If I'm meant to be getting guidance, please show me the action I need to take. If I'm avoiding something, please bring me back to now and show me what I'm avoiding."
+
+WAS (bf):
+If being still tends to make you sleepy, or diffuse your attention, or make you want to mentally escape, you can make the hypnosis more active. Instead of getting more relaxed with the hypnosis, try getting more alert. Keep your eyes open. Tell yourself that as you move one of your hands, you're going to move deliberately, and as soon as you stop moving deliberately, you'll focus on what you've got. Don't escape inside yourself. Say something like,
+
+NOW:
+If being still tends to make you sleepy, or diffuse your attention, or make you want to mentally escape, you can make the hypnosis more active. Instead of getting more relaxed with the hypnosis, try getting more alert. Keep your eyes open. As you move one of your hands, you're going to move deliberately, and as soon as you stop moving deliberately, you'll focus on what you've got. Don't escape inside yourself. Say something like,
+
+AFTER:
+“Starting with your eyes open press your thumb to your fore finger. And as you press your finger together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release you bring yourself into a clear state of awareness, and now you stop pressing your fingers together and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any echo of the pressing in your fingers, in your breathing, in your attention or nowhere at all. Just notice, keep yourself up straight and work at this level.
+
+## Item 15 (bf paragraph 50)
+
+WHY IT CHANGED:
+- also: run-in heading: "Sleep Induction (different than inner work, where you need to come back up to write things down and do actions):" goes
+
+BEFORE:
+Sleep induction
+
+WAS (bf):
+Sleep Induction (different than inner work, where you need to come back up to write things down and do actions):
+
+NOW:
+Sleep induction is different than inner work, where you need to come back up to write things down and do actions.
+
+AFTER:
+You can tell your analytical mind to stand down, any revelations can wait.
+
+## Item 16 (bf paragraph 51)
+
+WHY IT CHANGED:
+- the meaning check found: CHANGED: "analysis can remain off duty" (a permission) becomes "You need to tell your analytical mind to stand down" (a required step).
+  fix: "You need to tell your analytical mind" -> "You can tell your analytical mind"
+- the meaning check found: ADDED-CLAIM: "till the next day when you can take the time to do inner work" sets the next day as the time for revelations; the published only says it can wait (P54).
+  fix: "stand down till the next day when you can take the time to do inner work and see any revelations." -> "stand down, any revelations can wait."
+
+BEFORE:
+Sleep induction is different than inner work, where you need to come back up to write things down and do actions.
+
+WAS (bf):
+You need to tell your analytical mind to stand down till the next day when you can take the time to do inner work and see any revelations.
+
+NOW:
+You can tell your analytical mind to stand down, any revelations can wait.
+
+AFTER:
+Check out Nimja’s sleep playlist to go to sleep listening to hypnosis
+
+## Item 17 (bf paragraph 52)
+
+WHY IT CHANGED:
+- the meaning check found: CHANGED: pointer to the sleep playlist. Name is spelled "Nymja"; framed as a draft note ("To be done: check out"), not a recommendation.
+  fix: "To be done: check out Nymja’s" -> "Check out Nimja’s"
+
+BEFORE:
+You can tell your analytical mind to stand down, any revelations can wait.
+
+WAS (bf):
+To be done: check out Nymja’s sleep playlist to go to sleep listening to hypnosis
+
+NOW:
+Check out Nimja’s sleep playlist to go to sleep listening to hypnosis
+
+AFTER:
+Optional fractionation: practice coming back
+
+## Item 18 (bf paragraph 53)
+
+WHY IT CHANGED:
+- the meaning check found: Name the technique before using it: KEPT ("you must tell them").
+  fix: "but you must tell them you are doing it before doing it" -> "but you must say you are doing it before doing it"
+- also: run-in heading: "Fractionation (at some point in time you can add this, but you must say you are doing it before doing it):" goes
+
+BEFORE:
+Optional fractionation: practice coming back
+
+WAS (bf):
+Fractionation (at some point in time you can add this, but you must tell them you are doing it before doing it):
+
+NOW:
+At some point in time you can add this, but you must say you are doing it before doing it.
+
+AFTER:
+“Ok, open your eyes and come back up, feel the room around you, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”
+
+## Item 19 (bf paragraph 54)
+
+WHY IT CHANGED:
+- the meaning check found: "Feel the room" (orienting step): LOST.
+  fix: "Ok, open your eyes and come back up, you can decide" -> "Ok, open your eyes and come back up, feel the room around you, you can decide"
+
+BEFORE:
+At some point in time you can add this, but you must say you are doing it before doing it.
+
+WAS (bf):
+“Ok, open your eyes and come back up, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”
+
+NOW:
+“Ok, open your eyes and come back up, feel the room around you, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”
+
+AFTER:
+Deepening, if useful
+
+## Item 20 (bf paragraph 57)
+
+WHY IT CHANGED:
+- the meaning check found: ADDED-CLAIM: "You are going to go to a certain place in your mind... when you go inside." New unconditional instruction to go inside; it sits against the "if it will be of use" opt-out.
+  fix: "You are going to go to a certain place in your mind, pick a place to go to when you go inside." -> "Pick a place to go to when you go inside."
+
+BEFORE:
+Allow your attention to gather, if it will be of use to you. If it won’t be of use to you at this time, you can remain as awake as you need to be.
+
+WAS (bf):
+You are going to go to a certain place in your mind, pick a place to go to when you go inside. It might be a room in your heart, a garden, a temple, sitting in front of a fire with your Protector, down by a clear lake where you can see the bottom, in a comfortable chair where your adult is going to be, whatever you want. Just pick a place.
+
+NOW:
+Pick a place to go to when you go inside. It might be a room in your heart, a garden, a temple, sitting in front of a fire with your Protector, down by a clear lake where you can see the bottom, in a comfortable chair where your adult is going to be, whatever you want. Just pick a place.
+
+AFTER:
+Who or what needs to talk first?
+
+## Item 21 (bf paragraph 58)
+
+WHY IT CHANGED:
+- the meaning check found: "Who or what needs to speak first?": CHANGED. Now "Who do you need to talk to first?": "what" gone, and you address someone instead of letting a voice speak.
+  fix: "Who do you need to talk to first?" -> "Who or what needs to talk first?"
+
+BEFORE:
+Pick a place to go to when you go inside. It might be a room in your heart, a garden, a temple, sitting in front of a fire with your Protector, down by a clear lake where you can see the bottom, in a comfortable chair where your adult is going to be, whatever you want. Just pick a place.
+
+WAS (bf):
+Who do you need to talk to first?
+
+NOW:
+Who or what needs to talk first?
+
+AFTER:
+Optional trance depth check
+
+## Item 22 (bf paragraph 59)
+
+WHY IT CHANGED:
+- the meaning check found: ADDED-CLAIM: depth check heading says "you have to tell them you are going to do it before doing it." The published asks for naming only for fractionation (P57). "Check how deep they are" also casts it as testing another person.
+  fix: "Trance Depth (if you want to check how deep they are, but you have to tell them you are going to do it before doing it):" -> "Trance Depth (if you want to check how deep you are):"
+- also: run-in heading: "Trance Depth (if you want to check how deep you are):" goes
+
+BEFORE:
+(the paragraph is gone: its words were a run-in heading, and the published heading above carries them)
+
+WAS (bf):
+Trance Depth (if you want to check how deep they are, but you have to tell them you are going to do it before doing it):
+
+NOW:
+(dropped)
+
+AFTER:
+
+
+## Item 23 (bf paragraph 63)
+
+WHY IT CHANGED:
+- the meaning check found: "Something may be listening": CHANGED. "Someone is listening" names an agent.
+  fix: "it just might mean that someone is listening." -> "it just might mean that something is listening."
+
+BEFORE:
+You don’t have to make it happen, or pretend that it is happening, just wait with love and notice what happens.
+
+WAS (bf):
+Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean it is “True”, it just might mean that someone is listening.
+
+NOW:
+Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean it is “True”, it just might mean that something is listening.
+
+AFTER:
+A shortcut back into hypnosis
+
+## Item 24 (bf paragraph 67)
+
+WHY IT CHANGED:
+- the meaning check found: Cue should be distinctive: LOST.
+  fix: "Have a word, phrase" -> "Have an unusual word, phrase"
+- the meaning check found: Pair cue with receptive listening during a familiar, welcome hypnotic state: CHANGED. Now "while doing the motion... in a good place"; pairing with the state is gone.
+  fix: "Be sure to do this when you are in a good place." -> "Be sure to do this when you are in hypnosis and in a good place."
+- the meaning check found: Not with a traumatic scene: CHANGED. "Talking about" trauma does not cover a silent scene.
+  fix: "or talking about something that could be considered trauma" -> "or thinking about something that could be considered trauma"
+
+BEFORE:
+Ex: My dad used to use a mudra (like putting two fingers together like an "Ok" sign) when he needed to relax. He even did it when he was driving. Not that I recommend driving in a trance, don't do that! Make sure that your relaxation/ stay alert cue is not the same as your go inward to hypnosis one.
+
+WAS (bf):
+Have a word, phrase, and/ or motion (optional) that you will use to go into hypnosis again. Say the word and/ or do the phrase while doing the motion (if applicable). Be sure to do this when you are in a good place. Don't do this when you are in a very emotional state, child state, or talking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+
+NOW:
+Have an unusual word, phrase, and/ or motion (optional) that you will use to go into hypnosis again. Say the word and/ or do the phrase while doing the motion (if applicable). Be sure to do this when you are in hypnosis and in a good place. Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+
+AFTER:
+When you pick the time and place (make sure it is an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. You can change the direction you are going in, or stop this at any point.
+
+## Item 25 (bf paragraph 68)
+
+WHY IT CHANGED:
+- the meaning check found: Cue meaning is conditional (time set aside, appropriate place, deliberate start): CHANGED. Becomes an instruction; time and place become "a good idea"; "deliberately" gone.
+  fix: "(a good idea to pick an appropriate time and place)" -> "(make sure it is an appropriate time and place)"
+- the meaning check found: I can change direction or finish: CHANGED. Becomes "Be sure to change direction or stop at some point", a duty.
+  fix: "Be sure to change the direction you are going in, or stop this at some point." -> "You can change the direction you are going in, or stop this at any point."
+
+BEFORE:
+Have an unusual word, phrase, and/ or motion (optional) that you will use to go into hypnosis again. Say the word and/ or do the phrase while doing the motion (if applicable). Be sure to do this when you are in hypnosis and in a good place. Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+
+WAS (bf):
+When you pick the time and place (a good idea to pick an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. Be sure to change the direction you are going in, or stop this at some point.
+
+NOW:
+When you pick the time and place (make sure it is an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. You can change the direction you are going in, or stop this at any point.
+
+AFTER:
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Over time, you can shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
+
+## Item 26 (bf paragraph 69)
+
+WHY IT CHANGED:
+- the meaning check found: Give it time: LOST. | Gradually shorten when the shortcut helps: CHANGED. "You can always shorten"; "gradually" and "when it helps" gone.
+  fix: "Later, you can always shorten" -> "Over time, you can shorten"
+
+BEFORE:
+When you pick the time and place (make sure it is an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. You can change the direction you are going in, or stop this at any point.
+
+WAS (bf):
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Later, you can always shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
+
+NOW:
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Over time, you can shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
+
+AFTER:
+Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions or come back up when you are in it. Don't use it in a way that you are going to follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
+
+## Item 27 (bf paragraph 70)
+
+WHY IT CHANGED:
+- the meaning check found: Check returning stays workable: LOST.
+  fix: "Be able to change directions when you are in it." -> "Be able to change directions or come back up when you are in it."
+
+BEFORE:
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Over time, you can shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
+
+WAS (bf):
+Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions when you are in it. Don't use it in a way that you are going to follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
+
+NOW:
+Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions or come back up when you are in it. Don't use it in a way that you are going to follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
+
+AFTER:
+Never do this when you are driving or doing something where you need to be actively paying attention. It is not safe to go into a trance where you are actively paying attention to what is inside of you when you should be paying attention to what is outside of you, even with your eyes open, even if you are using "if it would be useful for you to do so" type language.
+
+## Item 28 (bf paragraph 72)
+
+WHY IT CHANGED:
+- the meaning check found: State your decision while awake: KEPT (now "You can say"; step becomes option).
+  fix: "You can say that" -> "Say that"
+- the meaning check found: Cancellation sentence doesn't prove instant removal: CHANGED. "Won't make it go away" says saying does nothing; "instantly" gone.
+  fix: "make it go away." -> "make it go away immediately."
+
+BEFORE:
+Never do this when you are driving or doing something where you need to be actively paying attention. It is not safe to go into a trance where you are actively paying attention to what is inside of you when you should be paying attention to what is outside of you, even with your eyes open, even if you are using "if it would be useful for you to do so" type language.
+
+WAS (bf):
+To turn this off, stop rehearsing it, take it out of any recordings that you have, stop having it in any apps that are active, and go back to using your regular induction that you have been using. You can say that you won't use it anymore when you are awake, but realize that just saying that it is gone won't make it go away. If you are finding that you are responding to it when you don't want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you. If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. For now, this will be over when you come out of it.
+
+NOW:
+To turn this off, stop rehearsing it, take it out of any recordings that you have, stop having it in any apps that are active, and go back to using your regular induction that you have been using. Say that you won't use it anymore when you are awake, but realize that just saying that it is gone won't make it go away immediately. If you are finding that you are responding to it when you don't want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you. If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. For now, this will be over when you come out of it.
+
+AFTER:
+
+
+# WHAT WAS LET STAND
+
+- part 1, P1: CHANGED: "gather you up"; attention, "scattered", "easier to hear" gone (let stand because: paraphrase keeps the point; title says attention)
+- part 1, P1: LOST: "guarded" as a case (let stand because: "otherwise not very trancey" covers it)
+- part 1, P3: CHANGED: now asks what you are doing, not what an induction does (let stand because: heading only; in a self-guided practice you do the inducing)
+- part 1, P4: CHANGED: "only when that helps" becomes "might be deepening" (let stand because: "might" and P5's test keep depth conditional)
+- part 1, P5: LOST: scope "simple, chosen target" (let stand because: hedged check, in line with deepening only when it helps)
+- part 1, P5: CHANGED: "build from it" gone; only "might not need to deepen" (let stand because: VI's "Use what you have" carries it)
+- part 1, P5: LOST: induction helps find receptive listening (let stand because: purpose already stated in P1)
+- part 1, P5: LOST: no ceremony needed before responding (let stand because: "might not need to deepen" and VI's "regardless of what the script is expecting")
+- part 1, P7: LOST: metaphor examples (stairs, gardens, rooms, light, child dialogue) (let stand because: examples only; "just do one" keeps the point)
+- part 1, P7: CHANGED: switch consciously; "when it stops helping" gone (let stand because: one-metaphor default and conscious switching kept)
+- part 1, P9: CHANGED: "pick one" each becomes "think about"; refrains plural (let stand because: looser wording; "Keep it simple" carries the economy)
+- part 1, P11: CHANGED: "question or quality to explore" becomes "what you want to do" (let stand because: paraphrase; same choice of purpose)
+- part 1, P13: CHANGED: "coax yourself to do this" replaces choosing welcome encouragement (let stand because: the options given show the same tone choice)
+- part 1, P13: LOST: "firmer invitation to stay with a feeling" (let stand because: "Something else?" leaves room; P7 names "directed")
+- part 1, P14: CHANGED: "useful response" easier becomes "this" easier (let stand because: same let-it-get-easier point)
+- part 1, P14: CHANGED: "silence doesn't authorize" becomes "narrator can't add stuff"; "haven't agreed to" gone (let stand because: keeps silence-is-not-consent)
+- part 1, P15: LOST: thought, sound, movement, objection may redirect (let stand because: "Use what you have" and "Let your response guide you" cover it)
+- part 1, P15: CHANGED: "Let the next response guide you" now an alternative ("or keep reading below") (let stand because: both pointers kept; reader reads on anyway)
+- part 1, P17: CHANGED: "to yourself on your recorder" reads like playback, not recording (let stand because: recorder use still clear; IV covers recordings)
+- part 1, P17: CHANGED: "learn its movement" gone; "say it to yourself if good at that" (let stand because: silent-words option and its condition kept)
+- part 1, P19: CHANGED: breath gone; sound now "or maybe", not alongside (let stand because: listener still notices what's there)
+- part 1, P19: LOST: no need to arrange either (let stand because: "maybe there is a sound" keeps it unforced)
+- part 1, P21: LOST: worry about doing it properly (let stand because: any thought gets the same return to anchor)
+- part 1, P22: CHANGED: "one detail" becomes "something you are doing"; "as you return" gone (let stand because: examples keep the object; same step)
+- part 1, P22: LOST: stay long enough to become curious (let stand because: "holds your interest" plus the next line's "Allow yourself some time")
+- part 1, P23: CHANGED: "Perhaps you can" now imperative; "she" added; "hasn't found the words" reworded (let stand because: "Allow yourself" stays permissive; wording)
+- part 1, P23: CHANGED: "without finishing their sentence" gone; "stick around till she gets it all out" (let stand because: "till she gets it all out" keeps letting her finish)
+- part 1, P24: CHANGED: "let phrase come to mind" becomes "Repeat the phrase... if you want" (let stand because: permissive script tone; phrase still used)
+- part 1, P26: CHANGED: "each number its own moment" becomes optional "taking your time" (let stand because: still invites a slow count)
+- part 1, P27: CHANGED: 1, "stay here for a moment" becomes "take your time" (let stand because: same pause at one)
+- part 1, P28: CHANGED: "chosen concern lightly" becomes "thing you want to talk about"; "lightly" gone (let stand because: next lines keep it light ("let it be there", no whole story))
+- part 1, P30: CHANGED: "give the response time" becomes "notice what comes, if anything" (let stand because: last line's "take your time" keeps the patience)
+- part 1, ADDED: ADDED: "I'm going to be counting" (author voice; script does count) (let stand because: personal voice)
+- part 1, ADDED: ADDED: "or something to anchor yourself" (let stand because: example; changes nothing)
+- part 1, ADDED: ADDED: "even if a part tells you that you do" (let stand because: reinforces the same permission)
+- part 1, ADDED: ADDED: "she" for the listener (let stand because: pronoun only)
+- part 1, ADDED: ADDED: "haven't done it for a while" as rehearsal trigger (let stand because: falls under "unfamiliar"; cautious)
+- part 1, ADDED: ADDED: "keep reading below" (location) (let stand because: pointer only)
+- part 1, ADDED: ADDED: numbering "IV./V./VI." after "1.-3."; label "Deciding to do it" (let stand because: formatting)
+- part 1, ADDED: ADDED: "yet"/"for now" imply the story is told later (let stand because: no instruction to tell it later)
+- part 2, P32: CHANGED: "Contain before you deepen" is gone from the heading; only the body says stabilise so you can deepen. A "Variations" label is put in front. (let stand because: body keeps stabilise before deepening)
+- part 2, P33: CHANGED: trigger list. "Intense beauty" is now "seeing something you love"; "music" is "beautiful music". List ends "etc" (see ADDED). (let stand because: examples only; the 'already open' condition is kept)
+- part 2, P34: CHANGED: "I do not need to intensify it" is gone; only implied by "you just need to". (let stand because: "just need to" still says only aim and stabilise)
+- part 2, P35: CHANGED: the thumb press is now one example ("eg") of "make some contact with yourself"; any self-contact seems allowed. (let stand because: the press is the only example given; friction focus kept)
+- part 2, P38: CHANGED: "only in the amount I can live well with" becomes "that I can integrate". The limit on amount is now a limit on kind. (let stand because: a limit stays; P36's line already limits amount)
+- part 2, P39: CHANGED: heading drops "when your mind likes to escape"; that condition now sits only on the hand-movement paragraph. (let stand because: condition stays in the body (daydreaming, "mentally escape"))
+- part 2, P44: CHANGED: "bring me gently into the present" is "bring me back to now"; "gently" is dropped. "Show me what I am avoiding" is kept. (let stand because: small word dropped)
+- part 2, P45: CHANGED: "small repeated hand movement with increasing clarity" becomes "move deliberately"; the clarity pairing survives only in the script. (let stand because: the script right after keeps the pairing)
+- part 2, P46: CHANGED: "Again — clearer, not sleepier": "clearer" stays, "not sleepier" is dropped. (let stand because: "clearer" keeps the direction; restoring adds a ", not Y" tail)
+- part 2, P54: LOST: "the task is rest". (let stand because: heading and "to go to sleep" carry it; restoring adds a tidy closing line)
+- part 2, P32: ADDED: "Variations" label before the first section. (let stand because: a label; nothing to act on)
+- part 2, P33: ADDED-CLAIM: "for some reason (... etc)" makes the trigger list open-ended, so the section applies to any cause (P33). (let stand because: the heading "Already open?" already covers any opened state; the list reads as examples)
+- part 2, ADDED: ADDED: "Say something like" before the scripts (P36, P38, P44, P45) makes the wording optional, including the safety lines in P36. (let stand because: brief lets "Say something like" stand)
+- part 2, P55: ADDED: "To be done:" draft note and "to go to sleep listening to hypnosis" in the playlist line (P55). (let stand because: "To be done:" goes in the P55 fix; the rest only says what the playlist is for)
+- part 3, P56: Purpose is practicing coming back: LOST (script still says "come back up"). (let stand because: the script still does the coming back and offers the stop)
+- part 3, P57: Defined as returning toward ordinary awareness, then deciding whether to re-enter: LOST. (let stand because: the script right after does just this)
+- part 3, P57: "Used openly, it teaches trance has a door in both directions": LOST. (let stand because: framing; the script still offers both ways)
+- part 3, P57: Reason, no answer may secretly mean "deeper": LOST (rule stays, reason gone). (let stand because: the naming rule stays and can be followed without the reason)
+- part 3, P58: Notice what changes as attention gathers again: CHANGED. "The change that comes over you" presupposes a change; "attention gathers" gone. (let stand because: the published also expects something to change; same noticing step)
+- part 3, P60: Attention "may become more gathered": CHANGED. Hedge becomes the instruction "Allow your attention to gather." (let stand because: "allow" stays permissive and the usefulness condition is kept)
+- part 3, P61: One simple scene: CHANGED. "Just pick a place" keeps one; "simple" gone, "whatever you want" added. (let stand because: still one easy pick; looser wording)
+- part 3, P65: Signals come when the meeting space is ready: CHANGED. Now sent "to let you know" it is ready "to go in to": a go-ahead. (let stand because: both make the signal a sign the space is ready; the P67 limit stays)
+- part 3, P66: I will not force it: KEPT ("You don't have to make it happen"; pledge becomes permission). (let stand because: "just wait with love and notice" still leaves only waiting, so no forcing or faking)
+- part 3, P72: No instant depth required: CHANGED. "A certain depth" drops speed. (let stand because: no depth is required at all, which covers instant depth)
+- part 3, P73: Faster entry doesn't determine what material you can handle: CHANGED. Becomes "Don't use this to go in faster for things you shouldn't be working on yet": a rule on use, limits undefined. (let stand because: same upshot: a quicker way in is no license for heavier material)
+- part 3, ADDED: ADDED: "whatever you want" opens the scene choice beyond the list. (let stand because: the scenes were examples; still one place)
+- part 3, ADDED: ADDED: reason for the driving ban, inward attention when outward is needed. Consistent with P74; no new rule. (let stand because: consistent with the ban; no new rule)
+- part 3, ADDED: ADDED: voice. First-person lines (P60, P64-P66) become "you"; the script now addresses "them". (let stand because: "you" still speaks to the listener, who is yourself; both "them" lines are fixed above)
+- part 3, ADDED: ADDED, none acted on: "at some point in time you can add this"; "Ok,"; "either way is ok"; "sitting in front of"; "where you can see the bottom"; "comfortable"; "come up by itself"; "an entire hand"; "He even did it"; "don't do that!". (let stand because: the report marks them none acted on)
+- part 2, P35: ADDED-CLAIM: "How does your body feel? Where are you grounded?" Two new orientation checks (let stand because: two harmless orientation questions; the drafted cut was left out)
+
+# THE PUBLISHED SECTION
+
+# Induction: gathering attention without disappearing
+
+An induction gathers scattered attention until quieter material becomes easier to hear. You don’t have to surrender, play asleep, or obey anyone. When you’re sober, distracted, analytical, or guarded, an actual induction may help. When meditation, loveyhuasca, lucid dreaming, grief, music, prayer, fatigue, or another intense opening has already made you trancey, begin with orientation and containment instead of adding depth.
+
+Aim for the amount of trance that suits the practice: focused, warm, receptive, embodied, and still able to stop. Depth is optional.
+
+## What an induction is actually doing
+
+Prepare the session, gather attention, deepen only when that helps, then let what you notice shape the words and the next response. Counting is one way in. Conversation, story, movement, repeated sound, and curiosity can also organize attention. Say so when you use them; elegance doesn’t excuse a covert induction.
+
+For a simple, chosen target, you can test the suggestion before deepening. If the useful response is already happening, build from it. An induction helps you find a receptive way of listening; you don’t need to complete a ceremony before you’re allowed to respond.
+
+## Please don’t put six metaphors in one trance
+
+Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.
+
+Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish. Borrow qualities such as warmth or steadiness without replacing your identity.
+
+Pick one central verb, one sensory quality, one short refrain, and one transition phrase, then read the script aloud; long elegant sentences become soup during an induction.
+
+## Before you begin
+
+Read the induction and Come all the way back while fully awake. Choose the question or quality you want to explore, what you’re leaving alone today, and how much time you have. Love, play, confidence, creativity, and communion are worthwhile purposes; you don’t have to find a problem. Leave several minutes for returning and reflecting.
+
+Choose a physically secure place without driving, water, machinery, or anyone needing your supervision. When intoxicated, acutely confused, or unable to keep yourself safe, deal with immediate support rather than exploratory hypnosis. The later Already open? practice is for orientation, not permission to intensify an unstable state.
+
+Decide what kind of encouragement is welcome: spacious listening, warm company, or a firmer invitation to stay with a feeling. Preview eye closure, any repeated exit and re-entry, and the return. For a recording, read the script beforehand when possible. “Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words. You can simply open your eyes and finish. No inner part has to approve your decision to stop.
+
+When entry and return are unfamiliar, first rehearse them without a difficult subject. Once you know how to change direction, you don’t need to supervise every moment. Let a useful response become easier and less effortful. A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.
+
+Let the next invitation grow from the response you got—not the response the script expected.[Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) means working with what actually happens: a thought, sound, movement, or objection may change where the practice goes. Notice what actually happens; no change doesn’t mean secret success. Keep safety and exit instructions plain. Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction.
+
+## Sober induction: 3–5 minutes
+
+Read this slowly into a recorder, speak it aloud, or learn its movement and use silent words if that comes easily. Choose one anchor—a sound, bodily contact, or your two-hand practice—and an opening phrase. Keep using the same anchor where the words refer to it. Pause between paragraphs; don’t read the delivery directions aloud.
+
+Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and notice the difference between looking for something and letting what is already there come into view.
+
+There is a surface beneath you. Notice where you meet it … the contact, the pressure, whatever you can actually feel. And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one.
+
+You can give this a little time.
+
+A thought about the day may still be here. A thought about whether you’re doing this properly may be here too. There is room to notice a thought and return to the anchor you chose, without finishing the thought first.
+
+And as you return, you may find one detail that holds your interest … something about the sound, or the contact, or that particular way of listening … and let attention stay with it long enough to become curious.
+
+Perhaps you can give yourself the time you would give someone you care about who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them.
+
+Let your chosen phrase come to mind now. Say it as an invitation, and notice how it is received.
+
+As you continue, your eyes can close, soften, or stay open. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background.
+
+Count slowly from five to one. Give each number its own moment.
+
+Five. Notice your chosen anchor again. Four. Let attention gather around what you find. Three. Leave a little space after the words. Two. Listen into that space, without preparing an answer. One. Stay here for a moment.
+
+Bring your chosen concern lightly to mind, or remain with your wish for contact. Let it be present without rehearsing its whole story.
+
+What am I noticing now?
+
+Give the response time to take its own form. It might be a sensation, a few words, an image, a feeling, or an impulse to move. There may be nothing clear yet.
+
+Leave room to notice, with words or without them.
+
+## Already open? Contain before you deepen
+
+Use this when loveyhuasca, meditation, lucid dreaming, grief, music, prayer, erotic energy, exhaustion, or intense beauty has already opened the state. Stabilize before making it stronger.
+
+“The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.”
+
+Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine. Press your thumbs gently but firmly against your index fingers. Focus on the physical friction of skin meeting skin.
+
+“Only what can be integrated is welcome now. Anything too much can wait. The body may stay safe. The adult self remains present. The inner child does not have to carry this alone.”
+
+Once you’re oriented, choose one intention:
+
+“Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”
+
+## Stay awake when your mind likes to escape
+
+Sit upright. Open the eyes. Feel the feet. Let the breath be natural.
+
+Say: “I am not going away. I am coming more fully here.”
+
+Look at one object. Feel the spine.
+
+“Is this daydream guidance, emotional digestion, or avoidance?”
+
+“If it is guidance, show me the action inside it. If it is avoidance, bring me gently into the present and show me what I am avoiding.”
+
+If stillness makes you sleepy, diffuse, or escape-prone, [hypnosis can become more alert rather than more relaxed](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318). Keep the eyes open and pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains without trying to disappear inward.
+
+“Eyes open. Press thumb and forefinger together gently. Release. Again — clearer, not sleepier. One more time. Now stop the deliberate movement. Notice the first second after the rhythm ends. Is there an echo in the fingers, the breath, the attention, or nowhere at all? Stay upright and work from exactly that level of alertness.”
+
+## The two-hand induction
+
+Place one hand on the heart. Place the other hand on the solar plexus.
+
+Let the heart hand represent the Nurturer. Let the solar plexus hand represent the vulnerable child.
+
+Breathe gently.
+
+“Love above. Child below. Adult present.”
+
+“I send love to the child. I receive the child’s signal. I send love again. I listen again.”
+
+## Sleep induction
+
+Sleep induction has a different job. In inner work, the adult returns, writes, and acts. At bedtime, analysis can remain off duty. Revelation can wait; the task is rest.
+
+For sleep hypnosis, see [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).
+
+## Optional fractionation: practice coming back
+
+Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. Name the technique before using it; every answer cannot secretly mean “deeper.”
+
+“Open the eyes and return toward ordinary awareness. Feel the room and decide whether to stop here. If you choose to continue, close or soften the eyes and notice what changes as attention gathers again. You may stop at either point.”
+
+## Deepening, if useful
+
+“If it is useful, attention may become more gathered. If it is not useful, I remain exactly as awake as I need to be.”
+
+Choose one simple scene: a room in the heart, a garden, a temple, a fire with the Protector nearby, a clear lake, or a chair where the adult waits. One scene is plenty.
+
+“Who or what needs to speak first?”
+
+## Optional trance depth check
+
+“As I wait, I give up the responsibility of making anything happen.
+
+If it is useful, the wise subconscious may let one finger twitch, pulse, lift, warm, tingle, or become subtly noticeable when the inner meeting space is ready.
+
+I will not force it. I will not fake it. I will simply wait with love and notice.”
+
+A finger may move, a hand may warm, the breath may change, or nothing may happen. None proves truth; at most, something may be listening.
+
+## A shortcut back into hypnosis
+
+Learn a useful induction and the full return below before developing a shortcut. My dad brought two fingers together in a mudra like the OK sign to help himself relax, including while driving. That’s his experience, not a recommendation to enter trance at the wheel. Keep alert calming and inward hypnosis on different cues.
+
+Choose a distinctive word, phrase, or optional gesture. During a familiar, welcome hypnotic state, pair it with that receptive way of listening—not peak emotional intensity, a child-state, or a traumatic scene. Give it the meaning you choose:
+
+When I’ve set aside time, settled somewhere appropriate, and deliberately use my cue to begin, I can return to this familiar way of listening. I can change direction or finish.
+
+Return fully. On a later suitable occasion, deliberately begin practice and try the cue. Give it time; gradually shorten the longer induction when the shortcut helps, and use the familiar route when it doesn’t. No fixed repetition count, instant depth, or particular sensation is required.
+
+Check usefulness and selectivity: does it help when chosen, remain absent when unchosen, and leave changing direction and returning workable? It mustn’t become obedience to a narrator, notification, or overheard word. Faster entry doesn’t determine what material you can handle.
+
+Never train, test, or use hypnotic re-entry while driving or doing anything requiring active attention. Open eyes and conditional wording are not safeguards.
+
+To retire the cue, stop rehearsing it, remove it from recordings or active app instructions, and return to the familiar induction. State your decision while awake; a cancellation sentence does not prove the association vanished instantly. Persistent unwanted responses or disorientation need qualified help. Any retained cue is for a future, separately chosen session; today’s altered state ends with the return.
+
+# THE FIXED SECTION
+
+# Induction: gathering attention without disappearing
+
+Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If on the other hand, you're already pretty trancey for whatever reason (meditation, loveyhuasca, lucid dreaming, grief, music, prayer, tired, whatever...), skip straight to the orientation/containment part rather than going deeper.
+
+Get trancey enough to do what you want to do (focused, warm, receptive, embodied, able to stop, and optionally deeper)
+
+## What an induction is actually doing
+
+Getting yourself ready to do something. Part of that is gathering your attention up. Part of that might be deepening. Part of that is letting what you notice inform the words you're hearing and what you do next. There are lots of different ways to do this. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that. The only thing is, say that you're doing it. Don't pretend you're doing something else, in the name of elegance or whatever.
+
+Test: Are you getting the response you want out of this already? If so, you might not need to deepen.
+
+## Please don’t put six metaphors in one trance
+
+Keep it simple. One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself. If you're going to use metaphors (you don't have to) just do one, and if you switch metaphors, do it in a way that's conscious.
+
+Using metaphors and imagery is entirely optional. You can use whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. And when you're done, come back the other way. (You can borrow qualities, but don't change who you are.)
+
+When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrains are, and how you're going to transition between ideas. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.
+
+## Before you begin
+
+1. Read this page, and the Come all the way back page, when you're awake.
+
+2. Get clear on what it is you want to do during the induction. What do you want not to do today. How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.
+
+3. Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The later part of this can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+
+4. Deciding to do it . How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview, if you can, what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say stop at any time and the induction will end. If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. You can also just open your eyes and be done. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. No will stay no. The narrator can't add stuff if you don't say anything.
+
+6. Let your response guide you as to what to do next regardless of what the script is expecting. [Utilize](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques). Use what you have to go to the next place, whatever it is. Learn how to notice what is there. Learn how to notice if there is no change, and that that is not a positive change. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you . Either way, keep the instructions about how to stay safe and how to get out plain.
+
+## Sober induction: 3–5 minutes
+
+You can read this slowly to yourself on your recorder, you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two hands thing (below) or something to anchor yourself and the thing you will say to open it up. Use the same anchor for everywhere that anchor is mentioned. Don't read the directions, just pause between paragraphs.
+
+You can allow your eyes to rest on something in the room for a bit, and let what's already there come into view.
+
+You can allow yourself to notice something you can feel, like the sensation of something under you, and notice the sensation of the contact, the pressure. Or maybe there is a sound, or something else to notice.
+
+Allow yourself some time to do this.
+
+You might notice yourself thinking, and whenever you notice yourself thinking, you can allow yourself to re-engage with your anchor and leave the thought unfinished.
+
+You might notice something that you are doing that holds your interest, something about the sound, or sensation, or listening or something else.
+
+Allow yourself some time to do this, as much time as you would for someone you care about who has started to talk and hasn't gotten to what she wants to say yet, so you are going to stick around till she gets it all out.
+
+Repeat the phrase that you chose, if you want to. Say it as an invitation and notice how it's received.
+
+You can close your eyes now if you want to. If not, it's fine to keep them open, or soften your gaze. The listening might go deeper while there's still a background sound you can hear.
+
+Count 5 to 1, taking your time if you like.
+
+5. Let your attention come back to your chosen anchor. 4. Let more of your attention come to what you've found. 3. Leave a little space. 2. See if you can listen to a space after the words without preparing an answer. 1. Take your time.
+
+Bring to mind, if you want, the thing that you want to talk about, or just the wish to have inner contact. Just let it be there for now. You don't need to tell the whole story yet.
+
+What do you notice now?
+
+Let yourself notice what comes to you, if anything. It may not be clear yet what it is. It may be sensations, words, pictures, feelings, movements, or anything else.
+
+Let yourself take your time to notice, with or without words.
+
+## Already open? Contain before you deepen
+
+If you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it so that you can deepen it.
+
+Know that you're already open, you just need to aim and stabilise it, and keep it kind.
+
+Look around and orient yourself. Where are you. What's the date or day. How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.
+
+Say something like, "Only what I can integrate, please. If there's too much it can wait. My body may stay safe. I'll be here as an adult, this won't just be my inner child."
+
+When you feel oriented, make an intention.
+
+Something like, "Please show me the next truth/symbol/feeling/question/action that is useful for me, that I can integrate."
+
+## Stay awake when your mind likes to escape
+
+Say to yourself, "I'm not going anywhere, and I'm coming more fully here." Sit up, open your eyes, feel your feet, let your breathing be natural.
+
+Look around you and choose something to look at. Feel your spine. Ask yourself why you're daydreaming. Is it to get guidance, or because you're working through something, or are you avoiding something?
+
+Say something like, "If I'm meant to be getting guidance, please show me the action I need to take. If I'm avoiding something, please bring me back to now and show me what I'm avoiding."
+
+If being still tends to make you sleepy, or diffuse your attention, or make you want to mentally escape, you can make the hypnosis more active. [Instead of getting more relaxed with the hypnosis, try getting more alert](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318). Keep your eyes open. As you move one of your hands, you're going to move deliberately, and as soon as you stop moving deliberately, you'll focus on what you've got. Don't escape inside yourself. Say something like,
+
+“Starting with your eyes open press your thumb to your fore finger. And as you press your finger together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release you bring yourself into a clear state of awareness, and now you stop pressing your fingers together and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any echo of the pressing in your fingers, in your breathing, in your attention or nowhere at all. Just notice, keep yourself up straight and work at this level.
+
+## The two-hand induction
+
+One hand on your heart, one hand on your solar plexis
+
+Let the hand on your heart be your Nurturer and let the hand on your solar plexis be your vulnerable child
+
+Start to breath gently….
+
+“Love above, Child below, Adult present”
+
+“Sending my love down to my Child and receiving the signal from the child. Sending my love down again and receiving the signal again.”
+
+## Sleep induction
+
+Sleep induction is different than inner work, where you need to come back up to write things down and do actions.
+
+You can tell your analytical mind to stand down, any revelations can wait.
+
+Check out [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT) to go to sleep listening to hypnosis
+
+## Optional fractionation: practice coming back
+
+At some point in time you can add this, but you must say you are doing it before doing it.
+
+“Ok, open your eyes and come back up, feel the room around you, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”
+
+## Deepening, if useful
+
+Allow your attention to gather, if it will be of use to you. If it won’t be of use to you at this time, you can remain as awake as you need to be.
+
+Pick a place to go to when you go inside. It might be a room in your heart, a garden, a temple, sitting in front of a fire with your Protector, down by a clear lake where you can see the bottom, in a comfortable chair where your adult is going to be, whatever you want. Just pick a place.
+
+Who or what needs to talk first?
+
+## Optional trance depth check
+
+“As you wait and release the responsibility of making it happen
+
+It might be useful for your wise subconscious to twitch a finger in one of your hands, or make a finger pulse, or come up by itself, or to heat up a finger and make it noticeable to you, or tingle in a noticeable way to let you know that your inner meeting space is ready for you to go in to.
+
+You don’t have to make it happen, or pretend that it is happening, just wait with love and notice what happens.
+
+Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean it is “True”, it just might mean that something is listening.
+
+## A shortcut back into hypnosis
+
+Once you have learned the above induction and how to come back down at the end, you can do the following….
+
+Ex: My dad used to use a mudra (like putting two fingers together like an "Ok" sign) when he needed to relax. He even did it when he was driving. Not that I recommend driving in a trance, don't do that! Make sure that your relaxation/ stay alert cue is not the same as your go inward to hypnosis one.
+
+Have an unusual word, phrase, and/ or motion (optional) that you will use to go into hypnosis again. Say the word and/ or do the phrase while doing the motion (if applicable). Be sure to do this when you are in hypnosis and in a good place. Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+
+When you pick the time and place (make sure it is an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. You can change the direction you are going in, or stop this at any point.
+
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Over time, you can shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
+
+Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions or come back up when you are in it. Don't use it in a way that you are going to follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
+
+Never do this when you are driving or doing something where you need to be actively paying attention. It is not safe to go into a trance where you are actively paying attention to what is inside of you when you should be paying attention to what is outside of you, even with your eyes open, even if you are using "if it would be useful for you to do so" type language.
+
+To turn this off, stop rehearsing it, take it out of any recordings that you have, stop having it in any apps that are active, and go back to using your regular induction that you have been using. Say that you won't use it anymore when you are awake, but realize that just saying that it is gone won't make it go away immediately. If you are finding that you are responding to it when you don't want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you. If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. For now, this will be over when you come out of it.
+

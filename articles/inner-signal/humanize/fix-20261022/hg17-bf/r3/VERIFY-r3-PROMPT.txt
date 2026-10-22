@@ -1,0 +1,26 @@
+You check 1 fixes in one section of Joel's long self-hypnosis guide: the induction (preparation, a spoken listening script, the already-open and stay-awake practices, the two-hand and sleep inductions, fractionation, deepening, a trance depth check and a shortcut back into hypnosis). The section is a paraphrasing tool's rewrite of Joel's published section with its meaning put back in small edits; reviewers then found the problems below, and round 3 fixed each inside the rewrite's own sentence. The guide is self-guided: the reader leads themselves, reading it or using a recording they made. For each item you get THE FINDING, THE ROUND CHANGE, and the paragraph NOW with BEFORE and AFTER around it.
+
+For each item, say in a few words each:
+1. FIXED: is the finding answered in NOW? YES, or what is left.
+2. MEANING: does the change keep everything else the paragraph said? KEPT, or what changed.
+3. SENSE: would a reader who has read the guide up to here understand NOW in its place? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning and sense only, not style, and suggest a rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261022/hg17-bf/r3/VERIFY-r3.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (bf paragraph 68)
+
+THE FINDING:
+the meaning check found: I can change direction or finish: CHANGED. Becomes "Be sure to change direction or stop at some point", a duty.. The drafted fix ("You can change the direction you are going in, or stop this at any point.") brought a linter rule bf's paragraph didn't have (lint-compare.json), so it is reworded with the same meaning
+
+THE ROUND 3 CHANGE:
+"Be sure to change the direction you are going in, or stop this at some point." -> "It's fine to change the direction you are going in, or stop this at any point."
+
+BEFORE:
+Have an unusual word, phrase, and/ or motion (optional) that you will use to go into hypnosis again. Say the word and/ or do the phrase while doing the motion (if applicable). Be sure to do this when you are in hypnosis and in a good place. Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+
+NOW:
+When you pick the time and place (it needs to be an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. It's fine to change the direction you are going in, or stop this at any point.
+
+AFTER:
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Over time, you can shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.

@@ -1,0 +1,60 @@
+You check 3 fixes in one section of Joel's long self-hypnosis guide: the induction (preparation, a spoken listening script, the already-open and stay-awake practices, the two-hand and sleep inductions, fractionation, deepening, a trance depth check and a shortcut back into hypnosis). The section is a paraphrasing tool's rewrite of Joel's published section with its meaning put back in small edits; reviewers then found the problems below, and round 4 fixed each inside the rewrite's own sentence. The guide is self-guided: the reader leads themselves, reading it or using a recording they made. For each item you get THE FINDING, THE ROUND CHANGE, and the paragraph NOW with BEFORE and AFTER around it.
+
+For each item, say in a few words each:
+1. FIXED: is the finding answered in NOW? YES, or what is left.
+2. MEANING: does the change keep everything else the paragraph said? KEPT, or what changed.
+3. SENSE: would a reader who has read the guide up to here understand NOW in its place? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning and sense only, not style, and suggest a rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261022/hg17-bf/r4/VERIFY-r4.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (bf paragraph 33)
+
+THE FINDING:
+STANCE-HG17.md conflict 1: "so that you can deepen it" makes deepening the goal of the already-open practice, where the published practice says "The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind." and "Before you begin" calls it "for orientation, not permission to intensify an unstable state"
+
+THE ROUND 4 CHANGE:
+"and want to aim and stabilise it so that you can deepen it." -> "and want to aim and stabilise it."
+
+BEFORE:
+Already open? Contain before you deepen
+
+NOW:
+This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it.
+
+AFTER:
+Know that you're already open, you just need to aim and stabilise it, and keep it kind.
+
+## Item 2 (bf paragraph 14)
+
+THE FINDING:
+STANCE-HG17.md conflict 2: "if you can" makes the preview optional, where the published step has no hedge ("Preview eye closure, any repeated exit and re-entry, and the return.") and Appendix J makes it a step before every induction
+
+THE ROUND 4 CHANGE:
+"Preview, if you can, what you are going to do:" -> "Preview what you are going to do:"
+
+BEFORE:
+3. Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The later part of this can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+
+NOW:
+4. Deciding to do it . How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say stop at any time and the induction will end. If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+AFTER:
+5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. No will stay no. The narrator can't add stuff just because you don't say anything.
+
+## Item 3 (bf paragraph 14)
+
+THE FINDING:
+STANCE-HG17.md conflict 3 (and the published text's own contradiction 2): "just open your eyes and be done" says an early stop needs no return, where the guide says "Use Come all the way back, even when you ended early." and "Use the complete waking return after every induction." (Appendix J); stopping stays a choice, and the return follows it
+
+THE ROUND 4 CHANGE:
+"You can also just open your eyes and be done." -> "You can also just open your eyes and stop, and then come all the way back anyway."
+
+BEFORE:
+3. Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The later part of this can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+
+NOW:
+4. Deciding to do it . How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say stop at any time and the induction will end. If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+AFTER:
+5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. No will stay no. The narrator can't add stuff just because you don't say anything.

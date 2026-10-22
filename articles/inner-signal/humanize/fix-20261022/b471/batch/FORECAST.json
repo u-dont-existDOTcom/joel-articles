@@ -1,0 +1,24 @@
+{
+ "b471-forced-adulthood": {
+  "lineage": "HG14-B94",
+  "call": "Human",
+  "chance": 0.8,
+  "why": "a term in brackets, Joel's own (\"what I call forced adulthood\"), and \"a baby bird\" for \"them\" in the simile, in a paragraph that read dark green",
+  "tells": "a bracketed coinage; a simile at the paragraph's end",
+  "human_tells": "\"The problem is, that\", the casual \"just ... just\", the run of three ways in",
+  "words": 61,
+  "first_words": "The problem is, that some people do not have access to their",
+  "was": "dark"
+ },
+ "b471-three-roles": {
+  "lineage": "HG31-B593",
+  "call": "AI",
+  "chance": 0.35,
+  "why": "the step gains its three jobs in brackets and Joel's clarification as a second sentence; the stretch around it (Appendix B's lists and Appendix C's opening) read AI, high, as one window",
+  "tells": "three parallel infinitives (\"to warm\", \"to make it safe\", \"to point a direction\") in a list of steps",
+  "human_tells": "Joel's own clarification (\"if need be\", \"coming together as well\"), \"3\" as a numeral",
+  "words": 61,
+  "first_words": "Gently change some aspect of their pattern (location, volume, space, posture, speed,",
+  "was": "red"
+ }
+}

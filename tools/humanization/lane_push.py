@@ -10,8 +10,12 @@ to fix that right?").
    $LANE_COMMIT_TRAILERS (one per line) when it's set;
 2. drops INDEX entries for article files that no longer exist (the pre-push hook refuses them), registers again,
    sets the article's CURRENT-STATE.md hash, and commits that as "INDEX hash" when anything changed;
-3. pushes HEAD to origin (the pre-push hook runs as usual);
-4. with --pr, opens a pull request into main when none is open for the branch, or names the open one.
+3. runs CI's checks first (.github/workflows/content-integrity.yml) with CI's bare Python (`-S`: no installed packages),
+   the unit tests whenever tests/, tools/ or scripts/ changed, and stops before the push when one fails;
+4. pushes HEAD to origin (the pre-push hook runs as usual);
+5. with --pr, opens a pull request into main when none is open for the branch, or names the open one;
+6. says whether the branch's open pull request can merge, and when main has moved past it with a conflict, says so
+   (Joel, 2026-10-22 21:41 UTC: "the pr has conflicts"; main had taken another lane's pull request after the merge).
 
 It prints the pushed commit, which the browser's raw.githubusercontent.com fetches use.
 """
@@ -23,6 +27,7 @@ import pathlib
 import re
 import subprocess
 import sys
+import time
 
 REPO = pathlib.Path(__file__).resolve().parents[2]
 
@@ -78,6 +83,43 @@ def commit(subject, paths):
     return True
 
 
+def preflight():
+    """CI's checks with CI's bare Python, so a push that would fail there stops here. On 2026-10-22 a new test needed
+    BeautifulSoup, which the workflow doesn't install; it passed here and failed only in CI."""
+    branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
+    base = next((b for b in ('origin/' + branch, 'origin/main')
+                 if run(['git', 'rev-parse', '--verify', '-q', b], check=False).returncode == 0), None)
+    changed = run(['git', 'diff', '--name-only', base, 'HEAD']).stdout.split() if base else ['tests/']
+    py = [sys.executable, '-S']
+    if any(p.startswith(('tests/', 'tools/', 'scripts/')) for p in changed):
+        run(py + ['-m', 'unittest', 'discover', '-s', 'tests'], timeout=900)
+    for cmd in (['scripts/validate_content_repository.py', '--root', '.'],
+                ['scripts/validate_article_architecture_maps.py', '--root', '.'],
+                ['scripts/audit_codex_github.py', '--root', '.', '--fail-on', 'error']):
+        run(py + cmd, timeout=300)
+
+
+def mergeable(tries=6):
+    """The open pull request's state for this branch: GitHub works out mergeability after a push, so ask a few times."""
+    branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
+    owner, repo = owner_repo()
+    r = run(['gh', 'api', 'repos/%s/%s/pulls?state=open&head=%s:%s' % (owner, repo, owner, branch),
+             '--jq', '.[0].number // empty'], check=False)
+    num = r.stdout.strip()
+    if not num:
+        return 'no open pull request for ' + branch
+    state = ''
+    for i in range(tries):
+        state = run(['gh', 'api', 'repos/%s/%s/pulls/%s' % (owner, repo, num), '--jq',
+                     '(.mergeable|tostring) + " " + .mergeable_state + " " + .html_url'], check=False).stdout.strip()
+        if state and not state.startswith('null'):
+            break
+        time.sleep(5)
+    if state.startswith('false'):
+        return 'pull request %s CANNOT MERGE (%s): merge origin/main into the branch and push again' % (num, state)
+    return 'pull request %s: mergeable %s' % (num, state)
+
+
 def owner_repo():
     url = run(['git', 'remote', 'get-url', 'origin']).stdout.strip()
     m = re.search(r'github\.com[:/]+([^/]+)/([^/]+?)(?:\.git)?/?$', url) or re.search(r'/([^/]+)/([^/]+?)(?:\.git)?/?$', url)
@@ -112,6 +154,7 @@ def main(argv=None):
     made = commit(a.subject, paths)
     gone = prune(a.article)
     fixed = commit('INDEX hash', paths)
+    preflight()
     r = run(['git', 'push', '-q', 'origin', 'HEAD'], timeout=600)
     head = run(['git', 'rev-parse', 'HEAD']).stdout.strip()
     print('pushed %s (%s%s%s)' % (head, 'committed' if made else 'nothing new to commit',
@@ -120,6 +163,7 @@ def main(argv=None):
         print(r.stderr.strip()[-1500:])
     if a.pr:
         print('pull request', pull_request(a.pr, a.pr_body))
+    print(mergeable())
     return 0
 
 
