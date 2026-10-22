@@ -1126,6 +1126,8 @@ Joel: "ok i like gpt's response", with GPT's reply on the names (`t86-answers/GP
   - "So the feeling stays with the little one" would have made the adult feelingless.
 - **Left open:** 79.3 (where the idea goes; my pick is GPT's paragraph after the five stages, plus 77.3's two paragraphs at the end of Two Common Protective Patterns), 76, 77.2 to 77.8 and 78. The review's 77.3 sketch now uses the settled words.
 
+- **14:39 UTC:** he merged pull request #213 (turn 86).
+
 ### Next
 
 1. His answers to 76, 77.2 to 77.8, 78 and 79.3. Then the round: his picks, the core paragraph and 77.3's passage, the book additions, and the AI-window rework (my drafts' windows; his paragraphs' windows go to him per E171 and E188), through the gate, faithful first.

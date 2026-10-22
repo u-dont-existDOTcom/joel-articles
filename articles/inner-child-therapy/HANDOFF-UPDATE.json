@@ -2,30 +2,15 @@
  "turn": 86,
  "replace": [
   [
-   "\\-\\ TURN\\ 85\\ \\(2026\\-10\\-22,\\ his\\ message\\ of\\ 13:22\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.",
-   "- TURN 85 (2026-10-22, his message of 13:22 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED.",
+   "pull\\ request\\ \\#213\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/213\\)\\ for\\ him\\ to\\ merge\\.",
+   "pull request #213 (https://github.com/u-dont-existDOTcom/joel-articles/pull/213) merged.",
    1
   ],
   [
-   "1\\.\\ His\\ answers\\ to\\ questions\\ 76\\ to\\ 79\\ on\\ OWNER\\-QUESTIONS\\.md,\\ and\\ his\\ delete\\ of\\ the\\ two\\ temporary\\ Substack\\ drafts\\ \\(A\\ and\\ B\\)\\.",
-   "1. His answers to 76, 77.2 to 77.8, 78 and 79.3 on OWNER-QUESTIONS.md, and his delete of the two temporary Substack drafts (A and B).",
-   1
-  ],
-  [
-   "2\\.\\ His\\ merge\\ of\\ the\\ next\\ turn's\\ pull\\ request\\ \\(\\#212,\\ turn\\ 85,\\ is\\ merged\\)\\.",
-   "2. His merge of pull request #213 (turn 86).",
-   1
-  ],
-  [
-   "1\\.\\ His\\ answers\\ to\\ 76\\ to\\ 79:\\ put\\ in\\ his\\ picks\\ \\(with\\ any\\ book\\ additions\\ he\\ chooses\\)\\ and\\ rework\\ the\\ AI\\ windows",
-   "1. His answers to 76, 77.2 to 77.8, 78 and 79.3: put in his picks, with the core paragraph and 77.3's passage in the settled names (questions page, Decided, turn 86) and any book additions, and rework the AI windows",
+   "2\\.\\ His\\ merge\\ of\\ pull\\ request\\ \\#213\\ \\(turn\\ 86\\)\\.",
+   "2. His merge of the next turn's pull request (#213, turn 86, is merged).",
    1
   ]
  ],
- "insert_before": [
-  [
-   "- TURN 85 (2026-10-22",
-   "- TURN 86 (2026-10-22, his message of 14:26 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #213 (https://github.com/u-dont-existDOTcom/joel-articles/pull/213) for him to merge.\n  - His message, word for word: experiments/t86-answers/JOEL-20261022-1426.md (\"ok i like gpt's response\"), with GPT's reply on the names in the same folder.\n  - Settled, under Decided on the questions page: learned patterns as the umbrella; learned expectations; response patterns (coping patterns for difficulty, guards for protective responses); the parent script you inherited; plain Protector (so 77.1 A); reparenting as the relationship, its care becoming second nature, with play part of the point. Use these words in every draft from now on.\n  - NEXT: his answers to 76, 77.2 to 77.8, 78 and 79.3; then the round.\n"
-  ]
- ]
+ "insert_before": []
 }
