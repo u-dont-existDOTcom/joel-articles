@@ -1196,6 +1196,10 @@ Even with good parents, you could have learned unhealthy self-valuation when peo
 
 Some families run on a quieter bargain: "If I'm happy while someone I love is suffering, I'm abandoning them." You might really owe them help, and that's worth sorting out. Being miserable alongside them isn't help, though it can feel like loyalty. I'd try a small good thing, like a nice meal, and see what actually happens. Someone getting upset about it doesn't by itself mean you hurt them.
 
+<!-- Turn 92 (his message of 2026-10-22 18:35 UTC, experiments/t92-answers/JOEL-20261022-1835.md: "82a and add therapist reply also"): his paragraph, his words from his 18:25 UTC message ("that's exactly why i was crying for 14 years", the Debs poster) and his nibbana article (articles/nibbana/master.html, "Realizing the world we live in"), joined as question 82 showed them, plus the article's therapist line word for word. Not yet checked in Pangram. -->
+
+That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs. I told this to a therapist in college and she actually agreed it was a good reason to be depressed!
+
 ### Four Pairs That Commonly Hook the Child
 
 Pema Chödrön has a quick map for finding the bargain. It's four pairs, starting with pleasure and pain, and gain and loss. The other two are about what people think of you: praise and blame, and good reputation and disgrace. Your little one can panic when something hurts, and also when something good might disappear, like praise, romance, money, status, belonging or a spiritual high. You might still be enjoying one of those when your little one starts asking how long this is going to last.

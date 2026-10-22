@@ -1200,3 +1200,32 @@ His message, saved first (`t90-answers/JOEL-20261022-1803.md`, with Gemini's fin
 ### Next
 
 1. His two links from the side panel ("Copy shareable link to result"; B's after he clicks the label in the other tab). Then read them, record #42 and #43, rework what of mine still reads AI, and ask question 82 on his windows that remain.
+
+## Turn 91 (2026-10-22, 18:25 UTC): his 14 years of crying
+
+His message, saved first (`t91-answers/JOEL-20261022-1825.md`): the loyalty bargain (addition 3) is "exactly why i was crying for 14 years", "i was thinking i should not be happy if people in the world are suffering (i had Eugene Debs poster on my wall about that)", told in his nibbana article.
+
+- The guide doesn't say why he cried (the opening has "I could have kept crying forever"). His nibbana article (`articles/nibbana/master.html`, "Realizing the world we live in") has it: from 12, "I became convinced that being happy myself, while others weren't, was selfish", the Debs poster, "I cried myself to sleep every night", and the college therapist who agreed.
+- Question 82: where his story goes, with a draft in his words only. My pick is a short paragraph after the loyalty bargain. His windows question is now 83.
+- Pull request #216's checks passed (content-integrity, mergeable).
+
+### Next
+
+1. His two feed links from the second label round, and his answer to 82. Then read the links, record #42 and #43, rework what of mine still reads AI, put his 82 answer in, and ask question 83 on his windows that remain.
+
+## Turn 92 (2026-10-22, from 18:35 UTC): 82a; the second label round's results; the two books
+
+His message, saved first (`t92-answers/JOEL-20261022-1835.md`, with GPT's review of the two books): "82a and add therapist reply also", the two result links, and the two books GPT found on schema therapy and spirituality (Bennett-Goleman's *Emotional Alchemy*; van Vreeswijk, Broersen and Schurink's *Mindfulness and Schema Therapy*), which he checked.
+
+- **82a:** his paragraph after the loyalty bargain, his words only, with the therapist line (`OWNER-EDITS.json` entry `joel-92-20261022`; checks 181 of 181).
+- **Round 2** (`t92-results/ROUND2-RESULTS.json`, `ROUND2-AI-WINDOW-BEGINS.json`): half A Mostly Human Written, 9.5% AI, 54 of 259 windows (#42 right); half B Mostly Human Written, 5.3% AI, 23 of 182 (#43 right). Both worse than round 1.
+  - Seven of my reworked paragraphs and three of the five additions now read Human.
+  - Eight of my reworked paragraphs still read AI after two tries, and so do two additions and three of the turn-87 children's-book lines.
+  - Windows moved into eight paragraphs nobody changed.
+  - All of his flagged paragraphs stay AI.
+- **Question 83:** the method, since rewording through whole-half rounds moves windows about as much as it removes them. My pick is checking my paragraphs one at a time on pangram.com before the next whole-half round, cutting an addition that still fails, and sending his flagged stretches to him in one file.
+- **The two books:** staged from his books folder (connected as `/mnt/hdd/storage/joel/SSD-offload/Documents/books/therapy`). A Sonnet agent is checking GPT's thirteen claims against them (`t92-books/BOOK-CHECK.md`), so the Schema Therapy appendix's comparison can be made accurate. GPT's own conclusion is to fix that comparison, not to add a backlog of material.
+
+### Next
+
+1. His answer to 83. When the book check reports, fix the Schema Therapy appendix's comparison with what the books really say. Then the method he picks.

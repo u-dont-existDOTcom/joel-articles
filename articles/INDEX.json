@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "e8561796570808a53f8c1aa843b69ac1899baa112f059dd21ebce1bc1bd3b0bd"
+          "sha256": "83ea79dbd2caef487e7818caaa403a10e01f378163bed4d890769b4371670656"
         }
       },
       "review": {
@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "439b7f6ea4cb3d3d9f78661f356202501802b000745cac6bc516aeacf9001135",
+          "sha256": "6a110281f2baa48a1bf207ee767dc7b068d5d0f84dc4b609ebcf6078f04844b0",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "8a8a4d44508c5b14144fa92bf477fe0a49b147b1c20b262ead17f72d39738207",
+          "sha256": "89c63356010bd74a94172f0810a9ef9aa0c6b1e764e416f2bc601b1e5e7a760a",
           "role": "owner_edits_ledger"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "1ebe79ccee861628191798ed6d66518104b07c7c9b2c992a52a5f1cb8095f08b",
+          "sha256": "255a7394205943b23cb073fb852a8cbfe116065643e7723317639c3c732c6801",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "7b72f0f32108be762b5a0af3e2e1dc5d6011fcf3ce059b88584af168aef52a6f",
+          "sha256": "ba3a77098c909418374eb94610c2727b5bef4576c519259ea616190826bc21f6",
           "role": "owner_questions_page"
         },
         {
@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "b252c7ea753d677fbe03129df8115dd802c5637e6aa343f32059c14c57eaf96e",
+          "sha256": "ccc64ac1e2b2bce27a9ee420d4c44ed5e57208ff70c3f5bb4c52104b8ad69042",
           "role": "humanization_working_record"
         },
         {
@@ -22939,7 +22939,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/pangram-ledger.jsonl",
-          "sha256": "1762d98d4bd6f3d2f39267a6f1025260cd1276a0d7643db5ecf310f09d58784c",
+          "sha256": "b7bc3d1e15f8a3a685d27a88172f1c7afaa0d8470c67d9639cf391ff30aed622",
           "role": "humanization_working_record"
         },
         {
@@ -23631,6 +23631,31 @@
           "path": "articles/inner-child-therapy/experiments/t90-substack/make_payloads.py",
           "sha256": "47f7c2b9a39bd79930603df4a5d32fb3c5c72fdcebe0098abefff5ae7a62dead",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t91-answers/JOEL-20261022-1825.md",
+          "sha256": "d27d069a3ffa975fc0be84f472bb3e8beb53269e8510d7db1003a86c09c157c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t92-answers/GPT-TWO-BOOKS-REVIEW-20261022-1819.txt",
+          "sha256": "b8a2d96ab4e809768990ca0bf94aa3a1b975a0e0d1dbe860932ebde582261c32",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t92-answers/JOEL-20261022-1835.md",
+          "sha256": "03dd3be3305678778af6b88fb32d3f77e560814696bd313c748c2cf6077c427c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t92-results/ROUND2-AI-WINDOW-BEGINS.json",
+          "sha256": "3347793f8144d095fd9ec443e302d1eb70a926aab928d24593eee2d509a115f4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t92-results/ROUND2-RESULTS.json",
+          "sha256": "14f10973b66938eddf300c0a0189b90478b72bff1f60376c2000551039af7478",
+          "role": "detector_experiment_result"
         }
       ]
     },
