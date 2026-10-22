@@ -4,6 +4,7 @@ The rules below were found on the Nibbana post's check of 2026-10-20, rebuilt fr
 an embedded Substack note keeps its straight quotes, trailing spaces go, and so do the emoji joiners and presentation
 selectors.
 """
+import importlib.util
 import pathlib
 import sys
 import unittest
@@ -12,6 +13,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'tools' / '
 import substack_check_text as S  # noqa: E402
 
 
+@unittest.skipUnless(importlib.util.find_spec('bs4'), 'needs BeautifulSoup (CI installs nothing)')
 class CheckedText(unittest.TestCase):
     def test_paragraphs_are_curled_but_a_note_keeps_straight_quotes(self):
         html = ('<div class="body"><p>He said "yes" and it\'s done.</p>'
