@@ -2426,6 +2426,39 @@
     }
    ],
    "reason": "Whether a phrase is vague depends on what the passage means; his fix said what exactly is lost, which a pattern cannot supply."
+  },
+  {
+   "id": "W95",
+   "tell": "a blanket or repeated safety line: \"X doesn't replace Y\" (his 95.6 example, \"A doctor or a shelter is outside help, and reparenting doesn't replace it.\"), a trigger warning, a get-help or get-safe line said again where nothing changes, and a reflexive reassurance or disclaimer (\"That's ok, too.\", \"(that part is optional)\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t102-answers/JOEL-20261023-1753.md",
+     "quote": "all the extra extra ridiculous safety language which gets repeated everywhere"
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t103-answers/JOEL-20261023-2152.md",
+     "quote": "let's never make those mistakes again pls"
+    }
+   ],
+   "rule": "O45",
+   "example": "Write the letter and keep it. It doesn't stand in for grieving, though, and your boundaries still apply."
+  },
+  {
+   "id": "J61",
+   "tell": "a tidy metaphor that wraps up a sentence's point, counted as a human tell (\"because it's hard to hear what you actually want while the old programming is still playing in your ear\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t103-answers/JOEL-20261023-2152.md",
+     "quote": "i'd say your human tell should be an ai tell tho"
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t103-answers/JOEL-20261023-2152.md",
+     "quote": "AI often produces these tidy, self-contained insights."
+    }
+   ],
+   "reason": "Whether an image is the writer's own or a neat, self-contained insight that closes the sentence needs a reader: an unusual word doesn't make it human. GPT read this one as AI-polished (a neatly constructed metaphor, generic therapeutic wisdom, a polished ending), and no pattern separates the two."
   }
  ]
 }

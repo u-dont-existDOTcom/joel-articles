@@ -1,5 +1,7 @@
 # Coverage check A (turn 101): guide lines 1-520 against the humanized article
 
+> **Correction (turn 102).** Entry 3 is decided, not a gap. The two last-resort sentences in the section he pasted on 2026-10-19 were mine, carried over from the article, and question 95.1 wrongly called them his own words. He cut them on purpose: "95b (those were not my words btw, that's why i cut)" (2026-10-23 17:53 UTC, `../t102-answers/JOEL-20261023-1753.md`). So the point stays out.
+
 Question 95 on OWNER-QUESTIONS.md, from Joel's 92a (2026-10-23 14:05 UTC): one fresh coverage check that brings him only the real gaps.
 
 **Result: 22 entries. 2 are REAL GAP (entry 3, guide line 75; entry 9, guide line 157). 20 are DECIDED.**

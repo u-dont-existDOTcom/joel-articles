@@ -1054,6 +1054,31 @@ def main():
             if re.search(r"\bone (?:small |simple )?honest (?:action|step|act|move|thing)s?\b", n, re.I):
                 flag('FAIL', 'O44 "one honest action" (Joel 2026-10-21 17:56: "sounds super ai. i never heard a real person say that in my '
                      'life"): say the action itself, or leave it to the reader', s)
+            # O45 (Joel, 2026-10-23 17:53 UTC, on my 95.6 pick "A doctor or a shelter is outside help, and reparenting doesn't
+            # replace it.": "this is the example of just stuff that would never be in something a human wrote, that's what we need to
+            # pluck out of the whole guide, all the extra extra ridiculous safety language which gets repeated everywhere"; 21:52 UTC,
+            # with all 26 cuts of the sweep: "let's never make those mistakes again pls"; E250 (Inner Child)). The "doesn't replace"
+            # shape and the trigger warning fail; the other safety, disclaimer and reassurance lines are candidates, and a reader
+            # judges each: it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule,
+            # and the article doesn't already say it (articles/inner-child-therapy/experiments/t102-safety/SAFETY-CUTS.md).
+            O45_MSG = ('O45 %s (Joel 2026-10-23: "all the extra extra ridiculous safety language which gets repeated everywhere"; '
+                       '"let\'s never make those mistakes again pls"; E250 (Inner Child)): it stays only if it changes what the reader does '
+                       'right here, isn\'t a sometimes-true point said as a rule, and the article doesn\'t already say it')
+            if (re.search(r"\b(?:doesn't|does not|don't|do not|won't|will not|can't|cannot)\s+(?:replace|stand in for|substitute for|take the place of)\b", n, re.I)
+                    or re.search(r"\b(?:isn't|is not|aren't|are not)\s+an?\s+(?:substitute|replacement)\s+for\b", n, re.I)):
+                flag('FAIL', O45_MSG % 'a "doesn\'t replace" safety line (his 95.6 example)', s)
+            elif re.search(r"\btrigger(?:ing)? word\b|\bcan be (?:a )?trigger(?:ing)?\b", n, re.I):
+                flag('FAIL', O45_MSG % 'a trigger warning', s)
+            elif (re.search(r"\bif (?:nobody|no one)(?:'s| is) in danger\b|\bif (?:you're|you are|anyone is|someone is) in (?:real )?danger\b", n, re.I)
+                    or re.search(r"\b(?:get|keep|make) (?:yourself |anyone |everyone |them )?safe first\b", n, re.I)
+                    or re.search(r"\bcan't tell (?:whether|if) (?:you're|you are|that's you|it's you)\b", n, re.I)
+                    or re.search(r"\b(?:professional|outside) (?:help|support)\b|\bmedical warning sign\b|\ba doctor should look at\b|\bget checked\b", n, re.I)
+                    or re.search(r"\b(?:see|ask|call|talk to) (?:a |your )?(?:doctor|professional|therapist|specialist)\b", n, re.I)):
+                flag('REVIEW', O45_MSG % 'a safety line', s)
+            elif (re.fullmatch(r"\s*(?:that's|it's) (?:ok|okay|fine)(?:,? too)?[.!]\s*", n, re.I)
+                    or re.search(r"\bit doesn't mean (?:failure|you failed|you're failing)\b", n, re.I)
+                    or re.search(r"\bdon't have to believe\b|\(that part is optional\)", n, re.I)):
+                flag('REVIEW', O45_MSG % 'a reflexive reassurance or disclaimer', s)
             # O42 (Joel, 2026-10-17 13:11, community section 16's opening, on the published "while somebody else quietly pays the tax
             # bill": "remove "quietly" that's an ai tell at the end"). O12 had flagged it as a REVIEW, and a REVIEW on published wording
             # was never answered, so it stayed; the third time he named the word (2026-10-10: "using quietly all the time like that is
