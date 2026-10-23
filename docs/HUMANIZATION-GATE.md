@@ -1088,11 +1088,43 @@ Nibbāna's `fix-20261023/`, `recheck-a4/SCORE.md` in the guide's).
   his sentence without it had read Human, Medium (recheck 3), so the sentence goes back to his words and the snag gets
   a different fix (batch n4).
 
-(The next lesson in either lane is E250.)
+## What Joel's message of 2026-10-23 20:35 UTC taught (the hypnosis guide and Nibbāna lanes)
+
+The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-2035-message.txt` (the same file in the guide's
+`fix-20261023/`), his answers put in (`articles/nibbana/humanize/fix-20261023/n5/joel_2035.py` and its
+`EDITS-n5-joel.json`), and the reader's-edit examples (`tools/humanization/readers_edit_examples.json`).
+
+- **E250. A past answer covers only what its reason covers.** His answer to the reader's edit: "N4 1a 2 b 3a 4 a 5a 6a
+  7a 8a 9a 10a 11a 12a 13a 14a 15a 16a 17a 18a". Four of those A answers were proposals where I had picked B. For 5 (a
+  heading over two paragraphs), I cited his 91.3 A. That answer turned down a label for a one-paragraph fallback in the
+  Inner Child guide, because its first line already says what it's for. I used it to turn down a heading in a long
+  article whose readers navigate by its table of contents. For 8 (a heading over one paragraph), I cited 91.3 A again.
+  For 9 (cut a parenthetical of his), I protected it because the words were his own. For 16 (move the section's answer
+  up), I protected the ending because his own line lands there. In each case I took a reason he gave for one case and
+  applied it to a wider class of cases. So when one of his answers is the reason for my pick, the new case has to match
+  that answer's own reason, not only its topic. A heading isn't a label, an article isn't a guide section, and "the
+  words are his" says who decides, not what he'll decide. Where his reason doesn't reach the new case, I make the pick
+  on that case's merits. A proposal to cut or move his own words is his call like any other, so my pick on it says what
+  the change does to the reader, and isn't B just because he wrote the words. His answers go into
+  `readers_edit_examples.json`, the B-to-A ones among them, so the next reader's edit learns his taste, not my reading
+  of it.
+- **E251. A reader's move carries pictures the reader didn't see.** The readers of Nibbāna's reader's edit worked from a
+  reading text that hid pictures and videos (fixed since: E248). Two of the moves he picked had a picture beside the
+  moved paragraph. The skydiving meme ("Yfw you thought I was kidding about meditating while skydiving.") jokes about
+  the caution paragraph it followed, which names skydiving. Moving the paragraph without it would have left the joke
+  under a heading about danger, next to nothing it refers to, so it moved with its paragraph (17). The nuggets-and-sauces
+  meme ("This one’ was over my head") followed the monk's paragraph and came before Frank's second one, and it could be
+  about either man. So it stayed where it was, the proposal moved only the paragraph, and the questions page asks him
+  (N5). The rule: when I install a move, I look at the pictures, videos and embeds next to the moved text. One that
+  plainly goes with the moved text moves with it, and I record that. One whose pairing I can't tell stays, and he gets
+  asked. A video that a paragraph's colon introduces stays with that paragraph (14: "keeping that colon together with
+  whatever it introduces").
+
+(The next lesson in either lane is E252.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". The next lesson in either lane is E250.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". The next lesson in either lane is E252.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

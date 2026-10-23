@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bx/NB-dn3.txt",
+  "input_words": 114,
+  "input_sha256": "0b0085b5a5eca174edc9ee20092eb4b749815215f169c5a9ccd8219f7fbf16b1",
+  "balance_before": 55803,
+  "started_utc": "2026-10-23T21:00:27Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T21:00:36Z",
+  "response": {
+    "id": "a4ba6bfa-934b-4eef-9560-3e436b878502",
+    "tool": "humanize",
+    "text": "One could make the argument, though, that the words are relatively well-preserved because they were done communally for a long time and we have a number of very early collections that were kept relatively separately and, while there are variants, shuffles, and later insertions, they are largely the same. But there’s still that practical issue.\n\nThink of it this way: In a number of suttas (most notably DN 3 and MN 56) the Buddha waits until the student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before he gives them the talk that results in the gaining of the Dhamma-eye. What happens when we lay out the stages in a way that allows anyone to skip ahead?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 114
+    },
+    "elapsed": 8
+  },
+  "balance_after": 55689
+}
