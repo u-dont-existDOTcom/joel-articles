@@ -111,12 +111,12 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: recheck A's result link (draft A pasted and verified after his message of 2026-10-23 12:30 UTC,
-[its secret link](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-473&audience=only_paid&free_preview=false&freemail=)). No open questions: 1 to 8 were answered at 2026-10-21 17:56 UTC, 9 to 11 at
-2026-10-22 18:37 UTC, 12 at 21:41 UTC, 13 at 2026-10-23 01:10 UTC, 14 at 12:30 UTC.
+`OWNER-QUESTIONS.md`: recheck A's result link (part A's third recheck of 2026-10-23, pasted and verified after his
+message of 14:14 UTC, [its secret link](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-474&audience=only_paid&free_preview=false&freemail=)). No open questions: 1 to 14 are answered.
 
-Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the second recheck's result link (the same draft, re-pasted and
-verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck2-n2&audience=only_paid&free_preview=false&freemail=)); N1 and N2 were answered at 12:30 UTC.
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the third recheck's result link (the same draft, re-pasted and
+verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck3-n3&audience=only_paid&free_preview=false&freemail=)) and question N3 (who rewrites the 29 passages that pass but are hard to
+understand, `fix-20261023/clarity/CLARITY.md`; my default: nothing changes until he answers).
 
 ## Where it stands
 
@@ -180,7 +180,46 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23, after Joel's message of 12:30 UTC: recheck A and Nibbāna's second recheck wait on his Brave)
+## Next step (2026-10-23, after Joel's message of 14:14 UTC: recheck A and Nibbāna's third recheck wait on his Brave; N3 on him)
+
+His message, word for word: `fix-20261023/joel-20261023-1414-message.txt` (and in Nibbāna's `fix-20261023/`): pull request
+224's conflict again; recheck A's link; "i was thinking you should predict which part comes back as AI?"; Nibbāna's second
+recheck with "one tiny ai segment" and his own fix of it; "is there any other stuff in the nibbana guide that's hard to
+understand but still passing pangram?" Done:
+- The conflict (the gate's lessons, the Inner Child lane's E228 to E231 against this lane's) resolved by keeping both with a
+  numbering note; the universal scorecard rebuilt from the merged ledgers (94de6f15).
+- Recheck A read (`fix-20261023/recheck/RESULT-A.json`, its text e27356d7..., the page's): Mostly Human Written, 1.4% AI,
+  7 of 108 windows: the shortcut paragraph from the driving caution's second sentence (83 to 86, Low and Medium), the
+  return's check (93, Low), Nothing happens' lines and It feels fake's question (102 and 103, Low and Medium, humanized).
+  HG-whole#52 right. That folder stays as the record; the next part A is `fix-20261023/recheck-a3/`.
+- Nibbāna's second recheck read (`recheck2/RESULT.json`): "Human Written", 0.27% AI, 2 windows on one paragraph, which he
+  rewrote; his fix is in through `n1/install_n1.py` (`joel_1414`, 13 edits). The ledger read a "Human Written" headline as
+  100% Human and refused Mixed; `verdict_of` now goes by the fraction or the windows (E239). NB-whole#24 right.
+- **Batch 474** (`fix-20261023/b474/`): Emulate on all three stretches (`bl/`, `bm/`, `bn/`), only the red sentences spliced
+  (`CANDIDATES.json`), each Human through the API (`API-CHECKS.md`; lineages HG17-drive-seam, HG18-B311 try 4, HG24-trouble),
+  the reader (`REVIEW.md`) and its triage (`TRIAGE.json`: three fixes), installed as six EDITS41 edits (`make_b474.py`).
+- **Part forecasts** (E238, `tools/humanization/part_forecast.py`, `tests/test_part_forecast.py`): `make` before the paste
+  (CHANGED.json with my chances, the last check's Low and Medium windows at the measured rates), `score` after. Both new
+  rechecks have one (`recheck-a3/FORECAST.json`: 13% no red; `recheck3/FORECAST.json`: 28%), with the whole-article
+  predictions HG-whole#56 and NB-whole#25 at those chances.
+- **The clarity read** (`articles/nibbana/humanize/fix-20261023/clarity/`): three Sonnet readers, a third each
+  (`BRIEF-*.txt`, `READER-*.md`), checked by me against the whole article (`ITEMS.json`): 29 passages, 12 hardest, on
+  `CLARITY.md`; question N3.
+- Both rechecks pasted and verified (`recheck-a3/RECHECK-POST-A.json`, `recheck3/RECHECK-POST.json`). Lessons E238 to E240.
+- Delegation: four Sonnet subagents (three clarity readers, one second reader), each one Read and one Write, all checked by me
+  (the clarity flags against the whole article, the reader's findings by triage).
+
+Next:
+1. **When Joel sends recheck A's link**: read it as before (compact windows line, its SHA-256 against the page's), rebuild
+   with `substack_check_text.py result recheck-a3/PAYLOAD-A.html WINDOWS-A.txt META-A.json --out RESULT-A.json` (text
+   e21fc7a8...), record HG-whole-41r6-a, and score the forecast: `part_forecast.py score recheck-a3/FORECAST.json
+   recheck-a3/RESULT-A.json --out recheck-a3/SCORE.md`. Any red: Emulate again on the whole stretch it covers (E235, E240).
+2. **When he sends Nibbāna's**: the same in `recheck3/` (text b99bb0b6...), key NB-whole-n3, then its forecast's score.
+3. **N3**: on A or C, rewrite the passages in his way (E236), each through the API, the reader, then a recheck with a part
+   forecast; on B, take his words in word for word.
+4. Part B's Low line (window 17) stays next for B, Emulate first.
+
+## Earlier next step (2026-10-23, after Joel's message of 12:30 UTC: recheck A and Nibbāna's second recheck wait on his Brave)
 
 His message, word for word: `fix-20261023/joel-20261023-1230-message.txt` (the same file in Nibbāna's `fix-20261023/`).
 He asked: pull request 224 has conflicts; his two results; "it seems like you have quit using emulate, just curious? why?"

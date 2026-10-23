@@ -1,5 +1,15 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 14:14 UTC (recheck A read; batch 474; part forecasts; Nibbāna's clarity read)
+
+**Recheck A** ([his link](https://www.pangram.com/feed/3f9225c6-4ec8-452e-bdff-d44040b1acc0)): Mostly Human Written, 1.4%
+AI, 7 of 108 windows, down from 10: his forces paragraph and the return paragraph Human; the shortcut paragraph red again in
+place from the driving caution (Low and Medium), the return's check (Low), and Nothing happens' lines (new). Batch 474 put
+Emulate's versions of all three in (each Human alone, the reader's three fixes in), and recheck A is pasted again with a
+part forecast. Nibbāna's second recheck read "Human Written" with one red paragraph, which Joel rewrote; his fix is in, its
+third recheck is pasted, and a cold read found 29 passages that pass but are hard to understand (question N3). Lessons E238
+to E240.
+
 ## 2026-10-23, after Joel's message of 12:30 UTC (recheck B read; question 14 through his Emulate re-run trick; recheck A and Nibbāna's second recheck pasted)
 
 **Recheck B** ([his link](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83)): Mostly Human Written, 1.4% AI,

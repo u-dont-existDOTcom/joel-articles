@@ -24903,7 +24903,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "5499d407914702e1676827be5c0c25d9c85f72c19257f780f9073880aae6cc77",
+          "sha256": "141eec8ee22c29b4c8c6a30eb4158d0607e56aab828f048ba8a680749dc26505",
           "role": "humanization_working_record"
         },
         {
@@ -29168,7 +29168,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "960e5719bece37d1fbf94a034d6448216e9dbdd7ea52221b585acf3cbab21489",
+          "sha256": "2653024819ab4fc7eda286ebf64ae041da8af69747d93490c8c4e5f85acceb4d",
           "role": "humanization_working_record"
         },
         {
@@ -30428,7 +30428,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "930cbeb1a5ec41a27a230fb32c4a213d9060cbee666d01c2b2c9f1dcb31e9eff",
+          "sha256": "41a618ac8f6047a993be682dd287fbe2e787d953cbd5828ce549ea18916f4573",
           "role": "humanization_working_record"
         },
         {
@@ -41865,6 +41865,11 @@
           "path": "articles/inner-signal/humanize/fix-20261023/recheck-a3/make_recheck.py",
           "sha256": "6bca8ffd79bc7aa6b7291e33d59c2e5c6bfe0c6dbc5be34f2fdeb058a07e61db",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261023/recheck-a3/RECHECK-POST-A.json",
+          "sha256": "4424592429ed3ac16736aaec52e8c7a7ac8d30dc536a5f70c7889718cc93fccc",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -42205,7 +42210,7 @@
         },
         {
           "path": "articles/nibbana/humanize/OWNER-QUESTIONS.md",
-          "sha256": "ae89e280a402059e3cf6052a6ef2914f4d9986f95f6daca716021ea30261563b",
+          "sha256": "d06a18c682d91b81c8507862f13fd95443ce199a48ae41bde014ccc0d40903d3",
           "role": "humanization_working_record"
         },
         {
@@ -42551,6 +42556,11 @@
         {
           "path": "articles/nibbana/humanize/fix-20261023/recheck3/make_recheck_nb.py",
           "sha256": "68a1f8d8d88cb0c8f1b84662049e83f50296fecfa18e6614ea73a1b6d04423d2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck3/RECHECK-POST.json",
+          "sha256": "8394f30bf5cba047041523af44d21a59d02b38d640a3855d64e9e679cc58c0cf",
           "role": "humanization_working_record"
         }
       ]

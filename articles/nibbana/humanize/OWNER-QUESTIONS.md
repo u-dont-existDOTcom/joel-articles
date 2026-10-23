@@ -1,8 +1,8 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 12:30 UTC. **Open questions: none.** **One thing for you to do**: run
-Pangram on the second recheck draft and send me its link (just below). Colours: 🟣 a question for you; 🟠 something for
-you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-23, after your message of 14:14 UTC. **Open questions: 1** (N3, the passages that pass but are hard
+to understand). **One thing for you to do**: run Pangram on the third recheck draft and send me its link (just below).
+Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md),
 so a session in either of your accounts can read and update it. Your post itself is never touched: the fixes go into a
@@ -10,16 +10,46 @@ working copy, and you put them in your post when you want them.
 
 ## For you to do
 
-- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck2-n2&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the same temporary
-  draft ("TEMP recheck (Nibbana article) - do not publish"), now holding your post with your four N2 rewrites, N1 a and
-  the fixes below in. Its text in the page is exactly the text I predicted from (checked line by line, after one gallery
-  caption the editor turns into a paragraph was deleted).
-- 🟢 Done: [the first recheck](https://www.pangram.com/feed/6a726359-1fce-4ec3-8a06-e957032fc91e) (your result of 12:30 UTC):
-  Mostly Human Written, 2.9% AI, 12 of its 164 windows AI, down from 22.
+- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck3-n3&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** The same temporary draft,
+  now with your 14:14 fix in (the percentage paragraph and your lead-in). Its text in the page is exactly the text I
+  forecast from: your paragraph red at 15%, your lead-in at 10%, each of the last check's 68 light green windows at 1 to
+  2%, anywhere else 10%; together a 28% chance of no red at all ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck3/FORECAST.json)).
+- 🟢 Done: [the second recheck](https://www.pangram.com/feed/aba5bb46-d42a-47a2-8b17-ac8a6d5cf37d) (your result of 14:14 UTC):
+  Human Written, 0.27% AI, 2 of 136 windows red, both on the paragraph you then rewrote.
 
 ## Open questions
 
-None right now.
+- 🟣 **N3. The 29 passages that pass but are hard to understand: who rewrites them?**
+  You asked: "is there any other stuff in the nibbana guide that's hard to understand but still passing pangram?" Yes:
+  [the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/clarity/CLARITY.md), 29 passages, 12 of them hard enough that most readers wouldn't
+  get them. They are mostly the sutta-heavy paragraphs, where several citations and a conclusion share one sentence, and
+  the theory sections (light flows, "established" and "unestablished", the physics parallels), where a coined term carries
+  the step the reader needs. Three fresh readers found them, each reading a third with your two fixes as the examples of
+  what counts; I checked each against the whole article. Each has a plainer version that keeps every claim, and 9 of
+  those are marked "check", because they spell out a step of your reasoning that the passage leaves out, which is a guess.
+  Any change can bring red back, so each would be checked on its own through the API and then in the next recheck.
+
+  Options:
+  - A. I rewrite all 29 in your way (say what it means, even if it takes more words, as you did with SN 22.22), with the
+    reader's check of the meaning and the API check of each, then a recheck.
+  - B. You rewrite the ones you want; the page has a plainer version of each to start from.
+  - C. Both: I do the 20 without a "check" note (the plainer version only says the same thing plainly), you do the 9
+    marked "check" (the step is your reasoning).
+  - D. They stay as they are.
+
+  My recommendation: C. Your own rewrites have passed every time, and the 9 are your theory, where only you know the step;
+  the other 20 are definitions and untangling, which I can do in your way. My default until you answer: nothing in the text
+  changes, and the third recheck goes ahead with your fix only.
+
+## Your message of 2026-10-23 14:14 UTC, and what I did
+
+Your message, word for word: [joel-20261023-1414-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/joel-20261023-1414-message.txt).
+
+- 🟢 **Your fix is in, word for word**: the percentage paragraph ("The percentage language applies only to partial
+  unweavings. ...") and your lead-in to the next one ("But even with partial unweaving, the bliss and peace can be extremely
+  profound compared to ordinary experience."). No typos to fix.
+- 🟢 **The second recheck said "Human Written" with that one red paragraph in it**, and my ledger counted a "Human Written"
+  headline as fully Human. It now goes by the AI share and the windows, so "Human" means no red at all.
 
 ## Your answers of 2026-10-23 12:30 UTC, and what I did
 
