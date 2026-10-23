@@ -215,7 +215,8 @@ publishing in future, i thought it already was". Done:
 - **The feed reader fixed** (E245): `tools/humanization/pangram_feed_read.js` finds the props from the main elements when
   the text-segment spans are gone, and has a compact mode (`window.__feedMode = 'compact'`).
 - Lessons E241 to E246 (`docs/HUMANIZATION-GATE.md`), the Emulate page's noise step (`docs/EMULATE-FALLBACK.md`).
-- Pull request 224 was merged by Joel at 15:33 UTC; this turn's work is on the same branch, in a new pull request.
+- Pull request 224 was merged by Joel at 15:33 UTC; this turn's work is on the same branch, in pull request 228
+  (https://github.com/u-dont-existDOTcom/joel-articles/pull/228), with main merged in (the gate's lessons of both lanes kept).
 - Delegation: one Sonnet subagent (the second reader of batch 475), checked by my triage.
 
 Next:
