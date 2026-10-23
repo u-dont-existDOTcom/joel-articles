@@ -1,0 +1,30 @@
+{
+ "made": "after Joel's message of 2026-10-23 16:55 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221411215",
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "secret_link": "https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-476&audience=only_paid&free_preview=false&freemail=",
+ "cleared": "the title checked first; the body cleared with real keystrokes in the editor (a click in a plain paragraph, ctrl+a, Delete; 0 characters left), twice: before the first paste (recheck A3's 162,386 characters), and before the second (the first paste of this recheck)",
+ "payload": "PAYLOAD-A.html",
+ "payload_sha256": "f3889d8c6fe702509fce2d23e87128d4140f026a941f0f7c804f5e0f03601bec",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/9a99e73e1ca165fab1e0b976b9b5b74af8a8bbbd/articles/inner-signal/humanize/fix-20261023/recheck-a4/PAYLOAD-A.html",
+ "paste": {
+  "helper": "../../fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 29346,
+  "words_expected": 29312,
+  "words_match": false,
+  "why_not": "the editor shows 34 more words than WORDS-A.json counts, as at every paste of part A"
+ },
+ "saved": "the editor said Saved before the page was left",
+ "rendered_check": "the secret link opened in the app's browser (post title the draft's, unpublished): 596 lines, 156,562 characters; their first 99,999 hash to TEXT-A.txt (b3b63a02...) exactly, with batch 475 and batch 476's spellings in them (\"solar plexus\" five times, \"plexis\" none)",
+ "text_sha256": "b3b63a025abbce341cc084d59f72de6491539c69aa3e4a5588073f9752cb939e",
+ "text_chars": 99999,
+ "predictions": "pangram-ledger.jsonl HG-whole#58, and the part forecast FORECAST.json (CHANGED.json, part_forecast.py make), both written before the second paste; HG-whole#57 was voided, never sent",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time",
+ "first_paste": {
+  "payload_sha256": "a43e9dcaff26b5ca8ef59ee00ca75f59a0818aa24eed10e87db5e1dfca15adbe",
+  "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/7795454522559fd40c87f60c2a5c4fa540887b4f/articles/inner-signal/humanize/fix-20261023/recheck-a4/PAYLOAD-A.html",
+  "text_sha256": "122fbfbc49bec4100b676d94c62f6ac5b6fc24933d2f9339e35850c00a1c3451",
+  "rendered_check": "the secret link opened in the app's browser (post title the draft's, unpublished): 596 lines, 156,559 characters; their first 99,999 hash to TEXT-A.txt (122fbfbc...) exactly, with batch 475 in them",
+  "why_replaced": "batch 476's spelling fixes went into the working copy after this paste and before Joel was told the draft was ready"
+ }
+}

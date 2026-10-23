@@ -188,9 +188,16 @@ def main():
                     'check': None, 'try': None,
                     'result': 'read in place in the next recheck', 'source': 'fix-20261023/joel-20261023-1414-message.txt',
                     'typos_fixed': [], 'review': None})
+    # Batch n3 (2026-10-23, after his message of 16:55 UTC): his answers to the clarity list, the snags and saṃsāra's
+    # definition at its first mention; its own record is ../n3/EDITS-n3.json
+    spec3 = importlib.util.spec_from_file_location('joel_1655', N.parent / 'n3' / 'joel_1655.py')
+    J3 = importlib.util.module_from_spec(spec3)
+    spec3.loader.exec_module(J3)
+    work, rec3 = J3.apply(work)
     (H / 'HUMANIZED-SO-FAR.html').write_text(work, encoding='utf-8')
     (N / 'EDITS-n1.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-    print('HUMANIZED-SO-FAR.html: %d edits in, from %s' % (len(rec), M.SRC.name))
+    print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes) and %d of batch n3, from %s' % (
+        len(rec), len(rec3), M.SRC.name))
 
 
 if __name__ == '__main__':

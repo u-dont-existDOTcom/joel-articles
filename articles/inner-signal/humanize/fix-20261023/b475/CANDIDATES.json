@@ -1,0 +1,103 @@
+{
+ "script": {
+  "sample": "bo",
+  "from": "the script's last three sentences from sample bo (bp and bq moved it out of the reader's first person)",
+  "old": "All instructions you have given me to carry me deeper in this session or to keep me in this state are now finished. The only instruction I will take with me into my everyday life, or the only cue I will use to take me into this state in the future, is the one I consciously choose to, and neither of them keeps me in this state. When I come out of this session, I will be me, in my body, with my adult judgment.\"",
+  "new": "All the instructions you have given me to carry me deeper into this session or keep me in this state are now finished, the only intention I will take with me into my everyday life or the only cue I will use to take me into this state at a later date will be the one I consciously choose to and neither of them will keep me in this state. When I come out of this session I will be me, in my body and with my adult judgment.”",
+  "reviewed": "All the instructions you have given me to carry me deeper into this session or keep me in this state are now finished, the only instruction I will take with me into my everyday life or the only cue I will use to take me into this state at a later date will be the one I consciously choose to and neither of them will keep me in this state. When I come out of this session I will be me, in my body and with my adult judgment.”",
+  "fixes": [
+   {
+    "replace": "in to this session",
+    "with": "into this session",
+    "why": "spelling"
+   },
+   {
+    "replace": "with me in to my every day life",
+    "with": "with me into my everyday life",
+    "why": "spelling"
+   },
+   {
+    "replace": "take me in to this state",
+    "with": "take me into this state",
+    "why": "spelling"
+   },
+   {
+    "replace": "adult judgement.\"",
+    "with": "adult judgment.”",
+    "why": "the guide's spelling, and its closing quote"
+   },
+   {
+    "replace": "the only instruction I will take with me into my everyday life",
+    "with": "the only intention I will take with me into my everyday life",
+    "why": "the second reader (REVIEW.md, TRIAGE.json)"
+   }
+  ]
+ },
+ "count": {
+  "sample": "bp",
+  "from": "the count up from sample bp (bo turned the instruction into a script: \"Now I will count up and on 5 you will be back\")",
+  "old": "Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.",
+  "new": "Then do a count up: On 1 start to feel your body again and what it's resting on and feel your weight (of your choice). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and name where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes, back in the here and now, feeling normal and clear and the session is now over.",
+  "reviewed": "Then do a count up: On 1 start to feel your body again and what it's resting on and feel your weight (of your choice). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and name where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes, back in the here and now, feeling normal and clear and the session is now over.",
+  "fixes": [
+   {
+    "replace": "Then do a count up, e.g. On 1",
+    "with": "Then do a count up: On 1",
+    "why": "the published guide gives the five steps as the count, not as an example (\"One — ... Five — ...\")"
+   },
+   {
+    "replace": "feel your weight (you can put your weight here if you like)",
+    "with": "feel your weight (of your choice)",
+    "why": "the published \"chosen weight\": the weight you chose, not a number to put in"
+   },
+   {
+    "replace": "hear the room around you and know where you are",
+    "with": "hear the room around you and name where you are",
+    "why": "the published \"Three — hear the room and name where you are\""
+   },
+   {
+    "replace": "open your eyes whenever you like, back",
+    "with": "open your eyes, back",
+    "why": "the published \"Five — eyes open\": the count ends with the eyes open, not whenever the reader likes"
+   }
+  ]
+ },
+ "reorient": {
+  "sample": "bo",
+  "from": "the paragraph's first three lines, as one sentence, from sample bo",
+  "old": "When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far.",
+  "new": "When you come out make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away.",
+  "reviewed": "When you come out make sure you remember what day (or date) it is, look to your left and right, look at something near to you and something further away.",
+  "fixes": [
+   {
+    "replace": "make sure you remember what day (or date) it is",
+    "with": "make sure you can name what day (or date) it is",
+    "why": "the second reader (REVIEW.md, TRIAGE.json)"
+   }
+  ]
+ },
+ "note": {
+  "sample": "bo",
+  "from": "the Note from sample bo (\"yourself\" kept; bp and bq wrote \"leave them\" and \"the listener\")",
+  "old": "Note: If you're going to sleep to a recording, it's fine to go to sleep or just to remain resting quietly at the end of it. But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely.",
+  "new": "Note: If you are going to sleep to a recording then it is fine to go to sleep or just remain resting quietly at the end of it, however if you are coming out of a recording then you should not leave yourself in an altered state, this includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
+  "reviewed": "Note: If you are going to sleep to a recording then it is fine to go to sleep or just remain resting quietly at the end of it, however if you are coming out of a recording then you should not leave yourself in an altered state, this includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
+  "fixes": [
+   {
+    "replace": "just remain resting quietly, however",
+    "with": "just remain resting quietly at the end of it, however",
+    "why": "the published \"A sleep recording may end in sleep or quiet rest\": at the end of the recording"
+   },
+   {
+    "replace": "with lowered judgement,",
+    "with": "with lowered judgment,",
+    "why": "the guide's spelling"
+   },
+   {
+    "replace": "a non specific reset word",
+    "with": "a non-specific reset word",
+    "why": "spelling"
+   }
+  ]
+ }
+}

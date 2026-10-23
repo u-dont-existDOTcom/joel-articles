@@ -16,7 +16,8 @@ Historical branches and packets may remain useful provenance/evidence, but they 
 
 ## General article protocols
 
-- `FIXING-AN-ARTICLE.md` — **start here when Joel asks any worker (GPT, Codex, Claude) to fix one of his articles (Joel, 2026-10-21).** The working order, from saving his message and finding his own changes to structure moves, repeats, Pangram through free Substack posts, and handing over, with the checks that caught what earlier passes missed. It points to the rules below for the details.
+- `FIXING-AN-ARTICLE.md` — **start here when Joel asks any worker (GPT, Codex, Claude) to fix one of his articles (Joel, 2026-10-21).** The working order, from saving his message and finding his own changes to structure moves, repeats, the clarity read, Pangram through free Substack posts, and handing over, with the checks that caught what earlier passes missed. It points to the rules below for the details.
+- `CLARITY-READ.md` — **standard for every article, as it's written and before it's published (Joel, 2026-10-23 16:55 UTC: "let's make sure this kind of check is standard for articles as we write them and as we finalize before publishing in future").** The whole-article clarity read: fresh readers, a third of the article each, find the passages that pass Pangram but that a smart general reader would have to reread, his own words included; the worker checks each against the whole article and sends him the numbered list, whose plain versions are suggestions (his rewrites are what passes). Tool: `tools/humanization/clarity_read.py`.
 - `HUMANIZATION-GATE.md` — **the working humanization gate for every article, in every chat (Joel, 2026-09-30).** It was promoted from the Inner Child lane. It covers:
   - sense before humanization;
   - the owner-edits ledger;

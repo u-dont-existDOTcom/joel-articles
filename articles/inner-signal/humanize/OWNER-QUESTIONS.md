@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-23, after your message of 14:14 UTC. **Open questions: none.** **One thing for you to do**: run
-Pangram on recheck A and send me its link (under "For you to do"; your Nibbāna article's third recheck is ready too).
+Last updated 2026-10-23, after your message of 16:55 UTC. **Open questions: none.** **One thing for you to do**: run
+Pangram on recheck A and send me its link (under "For you to do"; your Nibbāna article's fourth recheck is ready too).
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,6 +11,34 @@ read and update it. Every file it points to is a link.
 ## Open questions
 
 None right now.
+
+## Your message of 2026-10-23 16:55 UTC, and what I did
+
+Your message, word for word as I have it: [joel-20261023-1655-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-1655-message.txt)
+(most of it was about the Nibbāna article; its page says what I did there).
+
+- 🟢 **Recheck A3** ([your result](https://www.pangram.com/feed/43889be6-155e-4584-b232-90c4ad70e629)): Mostly Human Written,
+  1.1% AI, 7 windows red, all in "Come all the way back": the end of the bring-back script, the count up, the first three
+  lines after it, and the Note's second sentence. Batch 474's driving caution, shortcut paragraph and troubleshooting lines
+  read Human. My part forecast called 31 of its 33 parts right ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-a3/SCORE.md));
+  it had the changed check paragraph at 35%, and missed that the red would spread from it into the script's end and the
+  Note.
+- 🟢 **Batch 475: the whole red stretch, script to Note, went through Emulate** (three samples). Two of them turned the guide
+  into a hypnotist's script ("tell the listener", "leave them"), so the new lines come from the third (the script's end,
+  the first line after the count, the Note) and, for the count up, from the second, which kept it an instruction to you.
+  From your published guide I put back what they had lost: the five steps as the count, not an example ("e.g."); your
+  weight "of your choice"; "name where you are"; "open your eyes", not "whenever you like". A fresh reader compared each
+  with your published words ([its report](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b475/REVIEW.md)) and found two more, both fixed: what
+  you keep is "the only intention I will take with me" (your word; it said "instruction"), and "make sure you can name
+  what day (or date) it is" (naming is the check). I left "one honest action" out, since you called it AI, and the
+  script's earlier sentences as they were ([the triage](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b475/TRIAGE.json)). No API check
+  first: this red was Low and Medium, which the API can't reproduce; the recheck decides.
+- 🟢 **Batch 476, spelling.** Emulate's samples had brought misspellings into the guide that your published text doesn't
+  have: "solar plexis" five times, "carefuly", "subconcious", "supress", "neuroscientifcally", "somedays", and British
+  spellings ("realise", "behaviour", "stabilise", "visualise") in 25 paragraphs. All are back to your spelling. My linter
+  flags them; the installs hadn't acted on it, and now every Emulate splice gets its spelling fixed before it goes in.
+- 🔵 **Part B's one red line**, "You don't have to fix this. I'm here now." (Low), is next for B, with Emulate first; part B
+  now has its spelling fixes too.
 
 ## Your message of 2026-10-23 14:14 UTC, and what I did
 
@@ -350,11 +378,15 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 
 ## For you to do
 
-- 🟠 **Run Pangram on recheck A in your Brave**: [TEMP recheck A (hypnosis guide)](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-474&audience=only_paid&free_preview=false&freemail=), then paste me the link.
-  It's the guide's first part with batch 474 in; its text in the page is exactly the text I forecast from.
-- 🟠 **And your Nibbāna article's third recheck**: [TEMP recheck (Nibbana article)](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck3-n3&audience=only_paid&free_preview=false&freemail=), with your fix of 14:14
+- 🟠 **Run Pangram on recheck A in your Brave**: [TEMP recheck A (hypnosis guide)](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-476&audience=only_paid&free_preview=false&freemail=), and send me the link.
+  It's the guide's first part with batches 475 and 476 in; its text in the page is exactly the text I forecast from: the
+  script's end, the count up and the line after it at 30% each, the Note at 25%, their three neighbours at 8 to 12%, each
+  spelling fix at 2%, each of the last check's light green windows at 1 to 2%, anywhere else 15%; together about a 12%
+  chance of no red at all ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-a4/FORECAST.json)).
+- 🟠 **And your Nibbāna article's fourth recheck**: [TEMP recheck (Nibbana article)](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck4-n4&audience=only_paid&free_preview=false&freemail=), with all your 16:55 answers
   in ([its page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md)).
-- 🟢 Done: recheck A of 14:07 UTC (read above), recheck B (your result of 12:30), both screening posts.
+- 🟢 Done: recheck A3 of 15:24 UTC and the Nibbāna article's third recheck (both read above and on its page), recheck B (your
+  result of 12:30), both screening posts.
 - 🟢 Your temporary drafts: recheck A and B are "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B
   (hypnosis guide appendices) - do not publish", and the screening post is the third. I reuse them for each recheck, so
   nothing new piles up. Deleting them is yours, once the guide is done.

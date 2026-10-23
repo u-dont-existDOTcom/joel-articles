@@ -43,7 +43,15 @@ What came up when GPT proposed the r03 structure (2026-10-20) and Claude reviewe
 - Cut only text a worker drafted, and only when the cut loses no meaning the article needs (`AGENTS.md`, code review rules). A repeat in Joel's own words goes to him as a question.
 - **Keep the inner figures apart.** Before an article's final check, run the conflation sweep (the gate's section "What Joel's answers of 2026-10-21 17:56 UTC taught"): write the article's own map of its figures in its own words, build the prompt with `tools/humanization/conflation_sweep_prompt.py`, and give it to a fresh Opus reader. Fix a finding in drafted text with as few words as possible, each with its own Pangram check; a finding in Joel's words, or one where either reading fits his map, goes to him. In the Inner Child article "inner parent" names the adult the reader builds, so its name for the internalized voice is "the parent you inherited" (turn 81).
 
-## 5. Pangram
+## 5. Clarity
+
+**Standard for every article, as it's written and before it's published (Joel, 2026-10-23 16:55 UTC):** "let's make sure this kind of check is standard for articles as we write them and as we finalize before publishing in future". The whole-article clarity read finds what passes Pangram but is hard to understand, his own words included: `docs/CLARITY-READ.md` (when, the tool `tools/humanization/clarity_read.py`, and what to do with the readers' plain versions).
+
+1. **When:** once a full draft exists (a new article, or a long new section), before its whole-article Pangram check; and on the final candidate before publishing, before the final whole-article check; and after a large batch of changes to a published article.
+2. **Fresh readers, a third of the article each,** with his own clarity fixes as the examples of what counts; then check every flag against the whole article before it goes to him (in Nibbāna's first read, 7 of 36 flags were explained elsewhere).
+3. **The plain versions are suggestions, not the text that goes in.** He rewrote 14 of Nibbāna's 28 when they read AI, and his rewrites passed (gate E241). Send him the numbered list and put in his answers word for word.
+
+## 6. Pangram
 
 The spending rule is `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`. In practice:
 
@@ -54,7 +62,7 @@ The spending rule is `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`. In practice:
 5. **The humanizing rules** are the gate, `docs/HUMANIZATION-GATE.md`: screen first, plain words, the tell list, the lean process.
 6. **Don't use a community humanizer skill** (such as humanize-kit) on his articles; the gate is the method (E206).
 
-## 6. Saving and handing over
+## 7. Saving and handing over
 
 - Push every step with `tools/humanization/lane_push.py`, after setting `CURRENT-STATE.md`'s next step with `tools/humanization/lane_state.py`, so Joel's other account can pick up from GitHub at any point.
 - New questions go on the article's `OWNER-QUESTIONS.md`.

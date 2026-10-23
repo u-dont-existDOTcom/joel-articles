@@ -1,0 +1,29 @@
+# Substack Transfer Report
+
+## Source fidelity
+
+- Archival source SHA-256: `af83a52d8e381faa6fa3077ae7944faa33dbcf5f04388cc078e43b914ce8af97`
+- Editor-body SHA-256: `f1d03da03149ab09416f9ba1bf90cbe12bc6155aae30bdfe5c59d0148d8e3cad`
+- Object count: 8
+- Finding: source identity recorded; this report does not alter archival HTML.
+
+## Transfer conversion
+
+- Mode: `single_rich_html`
+- Native uploaded videos: 0
+- Ordered segment records: 1
+- Substack video-post embeds converted to canonical URL in current segment: 2
+- Native uploaded-video markup in clipboard payloads: forbidden and statically checked.
+
+| Segment | Source range | Empty edge? | Payload SHA-256 |
+|---|---:|---|---|
+| 1 | 0–200169 | no | `f3889d8c6fe702509fce2d23e87128d4140f026a941f0f7c804f5e0f03601bec` |
+
+## Manual native steps
+
+- None.
+
+## Destination result
+
+- Status: **pending final downloaded-helper-in-Opera to disposable-Substack-draft test**.
+- A Copied status proves only clipboard completion, not card reconstruction, playback, or placement.
