@@ -1,0 +1,32 @@
+{
+ "round": 5,
+ "turn": 99,
+ "how": "read in his Brave (Claude in Chrome) from each feed page's React props (textQueryData.response_payload); windows' indexes are code points; items found in the check's text by their paragraphs (the check's text has no headings); a part is the page's \"k / 9\" view that shows the window, read by turning the parts and waiting for the text to change",
+ "A": {"link": "https://www.pangram.com/feed/5973318f-356a-4a7f-80b3-96de59c2767c", "prediction": "t98-substack-A#112", "created_at": "2026-10-22T22:40:27.406358-04:00", "version": "4.1", "headline": "Mostly Human Written", "prediction_short": "Human", "fraction_ai": 0.011734980158507824, "num_ai_segments": 8, "n_windows": 158, "word_count": 15805, "document_confidence": {"level": "Medium", "boundary": "human"},
+  "ai_windows": [
+   [37, "Low", 19, 19283, 19379, 2, "You Don't Need an Inner Monologue P2", "And if that starts feeling like homework you're doing for a child who isn't answering, drop it."],
+   [103, "Low", 29, 50857, 51027, 6, "When Healing Turns Into Checking P2", "Going back can still matter, even when nothing new turns up. But returning to the same wound can also become a search for certainty in an inherently uncertain existence."],
+   [116, "Low", 33, 59528, 59700, 7, "And So That's the Way It Happened! P3 (mine)", "Do keep an ear on who's narrating, though. If the voice starts sneering, like it's making fun of the younger you, stop right there (that's the courtroom creeping back in)."],
+   [140, "Low", 17, 79392, 79475, 9, "When to Change the Strategy P3 (mine)", "Jot down what changed and how long it lasted if you want, and then leave it alone."],
+   [141, "Low", 5, 79475, 79501, 9, "When to Change the Strategy P4", "How many tries is enough?"],
+   [142, "Medium", 35, 79501, 79677, 9, "When to Change the Strategy P4", "I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar."],
+   [143, "Low", 22, 79677, 79785, 9, "When to Change the Strategy P4 (his, the last three sentences)", "If it's making things worse, or you just can't do it right now, I'd change course sooner (stopping counts)."],
+   [144, "Low", 32, 79785, 79929, 9, "When to Change the Strategy P4 (his)", "Not wanting to do it anymore is a reason too, but if that \"nope\" sounds like a part of you that's trying to protect you, I'd hear it out first."]
+  ],
+  "items": {"t98i_byt": [0, 276, 2], "t98i_body": [0, 450, 2], "t98i_parent": [0, 455, 8], "t98i_padult5": [0, 94, 3]}
+ },
+ "B": {"link": "https://www.pangram.com/feed/ecd65665-3f16-4254-bea2-ce60cf047546", "prediction": "t98-substack-B#113", "created_at": "2026-10-22T22:41:16.426745-04:00", "version": "4.1", "headline": "Mostly Human Written", "prediction_short": "Human", "fraction_ai": 0.013565062545239925, "num_ai_segments": 6, "n_windows": 142, "word_count": 13069, "document_confidence": {"level": "Medium", "boundary": "human"},
+  "ai_windows": [
+   [59, "Low", 42, 33541, 33738, 5, "The Inner Guide P5 (mine)", "The texts and the sulking aren't, and the Guide can help you find something that leaves room for both of you, like a hug at the door and a \"see you in an hour.\" But hear your little one out first."],
+   [103, "Low", 14, 59066, 59136, 8, "When One Life Has Ended and the Next Hasn't Begun P1 (mine)", "So can leaving a family or community, or staying in one on new terms."],
+   [104, "Low", 61, 59136, 59436, 8, "When One Life Has Ended and the Next Hasn't Begun P1 (mine; his 77.6 helper line)", "A therapist or helper stepping back can do it too, after you've grown a lot. Tibetan Buddhism calls an in-between state a bardo. You don't have to buy what it teaches about death and rebirth to use the everyday part: endings leave a stretch where the old you is gone and the new one hasn't shown up."],
+   [134, "Low", 9, 68639, 68691, 9, "How This Relates to IFS P7 (mine)", "A gentle practitioner can walk you through it fine."],
+   [135, "Low", 30, 68691, 68857, 9, "How This Relates to IFS P7 (mine)", "With others, people seem to come out more fragmented than they went in. Having a big institute with certifications behind it doesn't make a model any truer or safer."],
+   [136, "Low", 14, 68857, 68957, 9, "Related Clinical Work P1 (his line)", "This framework developed through the teachers and collaborators credited below and my own practice."]
+  ],
+  "items": {"t98i_happy": [0, 338, 6], "t98i_shallow": [0, 104, 6], "t98i_related": [14, 64, 9], "t98i_guide5": [41, 100, 5], "t98i_write6": [0, 23, 7], "t98i_forgive3": [0, 156, 8], "t98i_ended1": [71, 114, 8], "t98i_borrowed1": [0, 75, 6]}
+ },
+ "items_key": "[words in AI windows, words, part]",
+ "came_back_from_round_4": ["The Inner Guide P5 (Low 42 both rounds)", "When One Life Has Ended P1 (Low 36, now Low 14 and Low 61)", "How This Relates to IFS P7 (round 4: Low 17)", "Related Clinical Work P1's first line (round 4: Low 14)"],
+ "first_time_or_flipping": ["You Don't Need an Inner Monologue P2 (first time)", "When Healing Turns Into Checking P2 (first time)", "And So That's the Way It Happened! P3 (first time)", "When to Change the Strategy P3 and P4 (round 3 AI, round 4 Human, round 5 AI)"]
+}

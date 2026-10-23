@@ -1,26 +1,31 @@
 {
- "turn": 98,
+ "turn": "99, in progress",
  "replace": [
   [
-   "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631\\.$",
-   "the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225) for him to merge.",
+   "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#225\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/225\\)\\ for\\ him\\ to\\ merge\\.",
+   "FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225) merged (2026-10-23 10:21 UTC).",
    1
   ],
   [
-   "^2\\. His merge of turn 98's pull request \\(#223 is merged\\)\\.$",
-   "2. His merge of pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225), turn 98 (#223 is merged).",
+   "^1\\. The two round-5 links \\(the halves on the Substack check\\).*$",
+   "1. Nothing until turn 99's results; once the results are final, his delete of the two temporary Substack drafts (A and B).",
    1
   ],
   [
-   "^1\\. Round 5: paste experiments/t98-substack/PAYLOAD-A\\.html and -B\\.html into the two temporary drafts.*$",
-   "1. His two round-5 links (the drafts hold turn 98's text, checked word for word: experiments/t98-substack/PASTED.json). With them, read each feed page (the React props textQueryData.response_payload; windows' indexes are code points) and score the halves and the twelve items in experiments/t98-substack/ITEMS.json (predictions #100 to #113), record the results and explanations, build the scorecard, and give him each check he should look at with its link and part number (E214). API checks of paragraphs or sections: tools/humanization/pangram_api.py check ... --windows --expect 4.1 --public (E227), at most five or six paragraphs a check.",
+   "^2\\. His merge of pull request #225 .*$",
+   "2. His merge of turn 99's pull request (#225 is merged).",
+   1
+  ],
+  [
+   "^1\\. His two round-5 links \\(the drafts hold turn 98's text.*$",
+   "1. The API checks of experiments/t99-api/TEXTS.json on the laptop (tools/humanization/pangram_api.py check ... --windows --expect 4.1 --public; never print or copy the key; never write to /tmp there); predictions #114 to #122 are in. Put in the drafts that pass (experiments/t99-tries/drafts/), and give him each check he should look at with its public Pangram link (E214, E227). His PGQ-046 (innerSignalGraph, authoring/PENDING-PUBLIC-GUIDE-CHANGES.md, branch task/guide-semantic-review-20261022) goes in Untangling the Belonging Bargains after his memoir paragraph (drafts f01, f02).",
    1
   ]
  ],
  "insert_before": [
   [
-   "  - NEXT: Next step 1.",
-   "  - Round 5: both halves pasted into the temporary drafts and checked word for word (B differs only by the note embed, as before); predictions #100 to #113 first; the previews are open in his Brave, and the links are his to copy."
+   "- TURN 98 (",
+   "- TURN 99 (2026-10-23, his message of 10:23 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631.\n  - His message: experiments/t99-answers/JOEL-20261023-1023.md (round 5's two links; \"there's an update sent to your lane by gpt from me ... about being happy while others aren't\").\n  - Round 5 (experiments/t99-results/ROUND5-RESULTS.json): A 1.2% AI, B 1.4%; his rewrites all Human inside the halves; 10 of 14 predictions right. Came back: The Inner Guide P5, When One Life Has Ended P1, How This Relates to IFS P7 (mine), Related Clinical Work's first line (his).\n  - His update is PGQ-046 (innerSignalGraph, authoring/PENDING-PUBLIC-GUIDE-CHANGES.md on branch task/guide-semantic-review-20261022; AMEND.IC.COMPASSION_WITHOUT_REQUIRED_MISERY_20261022).\n  - NEXT: Next step 1."
   ]
  ]
 }
