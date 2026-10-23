@@ -35,8 +35,15 @@ class ClarityReadTests(unittest.TestCase):
         self.assertEqual(lines[0], '## One')
         self.assertIn('First paragraph about “unification” here.', lines)
         self.assertNotIn('A caption', t)
+        self.assertIn('[an image]', lines)  # the reader sees that an image is there, not its caption
         self.assertNotIn('https://example.substack.com', t)
         self.assertIn('- An item.', lines)
+
+    def test_a_line_break_inside_a_paragraph_is_a_break_for_the_reader(self):
+        """2026-10-23: Nibbāna's greeting paragraph ends "it also!<br><br>But first, ..." and the reading text joined the
+        two, so a reader proposed a paragraph break the post already has."""
+        t = C.reading_text('<div class="body markup"><p>One, it also!<br><br>But first, two.</p><ul><li>a<br>b</li></ul></div>', 'html')
+        self.assertEqual(t.split('\n'), ['One, it also!', 'But first, two.', '- a b'])
 
     def test_parts_start_at_headings_and_cover_everything(self):
         t = C.reading_text(ARTICLE_HTML, 'html')

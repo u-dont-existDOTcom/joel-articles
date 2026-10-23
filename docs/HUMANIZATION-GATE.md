@@ -1068,7 +1068,13 @@ Nibbāna's `fix-20261023/`, `recheck-a4/SCORE.md` in the guide's).
   (`tools/humanization/clarity_read.py make --kind edit`); its proposals are moves, headings, labels and repeats shown to
   be repeats, for him to pick; and Pangram stays out of it: a moved paragraph keeps its own checks, changed words get
   new ones, and each move's stretch is read in place in the next whole-article check, since a move can put a repeat side
-  by side (E241 (Inner Child)).
+  by side (E241 (Inner Child)). Its first run, on Nibbāna (`articles/nibbana/humanize/fix-20261023/readers-edit/`), fixed
+  the tool three ways: three readers given a third of the article each spent all their output thinking and wrote nothing,
+  so the parts are a sixth and the brief says to work quickly; and two of the next readers' 19 proposals answered things
+  the reading text had hidden (a paragraph break the post shows with two line breaks, and a video the line under it
+  names), so the reading text keeps line breaks and marks images and videos. My own check of the proposals against the
+  whole article added one: a section whose first sentence ("That creates a practical problem.") points back across its
+  heading.
 - **E249. The neighbour rule ran in one lane and not in the other.** E244 says a forecast gives a changed stretch's
   neighbours their own chance. The guide's recheck A4 forecast did, by hand (three neighbours, none red). Nibbāna's
   recheck 4 forecast, made in the same turn, didn't, and its High red was a neighbour: the unification paragraph, my batch

@@ -69,11 +69,15 @@ def parse_html(raw):
         def handle_starttag(self, tag, attrs):
             n = Node(tag, attrs, self.cur)
             self.cur.children.append(n)
+            if tag == 'br':  # a line break is a break for the reader (2026-10-23: "it also!<br><br>But first" read as one)
+                self.cur.children.append('\n')
             if tag not in VOID:
                 self.cur = n
 
         def handle_startendtag(self, tag, attrs):
             self.cur.children.append(Node(tag, attrs, self.cur))
+            if tag == 'br':
+                self.cur.children.append('\n')
 
         def handle_endtag(self, tag):
             n = self.cur
@@ -102,21 +106,33 @@ def find_body(n):
     return None
 
 
+MEDIA = {'captioned-image-container': '[an image]', 'image-gallery-embed': '[images]', 'youtube-wrap': '[a video]',
+         'native-video-embed': '[a video]'}
+
+
 def _html_lines(el, out):
+    """One line a paragraph, "## " a heading, "- " a list item, and a marker line where the reader sees an image or a
+    video (2026-10-23: with the video out of the reading text, the line under it, "DN 27 wraps the theory into a bedtime
+    story.", read as a repeat of the paragraph above it, and a reader proposed cutting it)."""
     if not isinstance(el, Node) or el.name in SKIP:
+        if isinstance(el, Node) and el.name in ('iframe', 'video'):
+            out.append('[a video]')
         return
     classes = el.classes()
-    if el.name == 'div' and ('captioned-image-container' in classes or 'image-gallery-embed' in classes):
+    mark = next((m for c, m in MEDIA.items() if c in classes), None)
+    if el.name == 'div' and mark:
+        out.append(mark)
         return
     if re.fullmatch(r'h[1-6]', el.name or ''):
         t = re.sub(r'\s+', ' ', el.text()).strip()
         if t:
             out.append('## ' + t)
         return
-    if el.name == 'p':
-        t = el.text().strip()
-        if t and not re.fullmatch(r'https?://\S+', t):
-            out.append(t)
+    if el.name == 'p':  # a paragraph with line breaks in it reads as separate lines, as the post shows them
+        for t in el.text().split('\n'):
+            t = t.strip()
+            if t and not re.fullmatch(r'https?://\S+', t):
+                out.append(t)
         return
     if el.name == 'li':  # a list item reads as "- " and its text, so a reader sees the list
         if any(isinstance(c, Node) and c.name in ('p', 'ul', 'ol') for c in el.children):
@@ -126,7 +142,7 @@ def _html_lines(el, out):
             if len(out) > at and not out[at].startswith(('- ', '## ')):
                 out[at] = '- ' + out[at]
         elif el.text().strip():
-            out.append('- ' + el.text().strip())
+            out.append('- ' + re.sub(r'\s*\n\s*', ' ', el.text().strip()))
         return
     for c in el.children:
         _html_lines(c, out)
@@ -208,6 +224,8 @@ What he has decided so far:
 {examples}
 
 What you may propose: moving paragraphs (in the order they had, unless the order is the problem), a heading or a label, cutting a repeat (quote both places), moving a warning's reasons (not the safeguard) to a note, cutting a last line that adds nothing (say what the reader already has). What you may not: new jokes, examples, metaphors or teaching; rewording his sentences, beyond a heading, a label or the few words a move needs; cutting a safeguard that changes what the reader does; a style you'd do differently.
+
+Work quickly: read the part once, noting candidates as you go, then pick the strongest and write them down. Don't rewrite the article in your head or weigh every paragraph; a short report that names the few changes that matter most is the job. (2026-10-23: three readers given a third of an article each spent their whole output deliberating and wrote nothing.)
 
 Read the file {part} (one Read call; it is part {k} of {n}, headings marked "## "). Then write your report with one Write call to {report}, in this shape, in the article's order, at most {max_items} proposals:
 
@@ -335,6 +353,8 @@ def collect(outdir):
                     if k in prev:
                         rec[k] = prev[k]
             items.append(rec)
+    # what the worker's own check found and added (gives "by": "mine") stays when the readers' reports are collected again
+    items += [x for x in old.values() if x.get('by') == 'mine']
     (outdir / 'ITEMS.json').write_text(json.dumps(items, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     return items
 
@@ -358,8 +378,9 @@ def edit_page(items, title=None, intro=None):
     for x in live:
         n += 1
         pick = (x.get('my_pick') or '').upper()
-        out += ['### %d. %s: %s' % (n, x.get('heading') or x.get('section') or '(no heading)',
-                                    MOVES.get(x.get('move'), (x.get('move') or 'a change').lower())), '',
+        out += ['### %d. %s: %s%s' % (n, x.get('heading') or x.get('section') or '(no heading)',
+                                      MOVES.get(x.get('move'), (x.get('move') or 'a change').lower()),
+                                      ' (from my check, not a reader\'s)' if x.get('by') == 'mine' else ''), '',
                 '> ' + x['quote'], '', '**The change:** ' + x['change'], '', '**Why:** ' + x['why'], '']
         if x.get('keeps'):
             out += ['**Stays as it is:** ' + x['keeps'], '']

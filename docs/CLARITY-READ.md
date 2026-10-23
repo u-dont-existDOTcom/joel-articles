@@ -104,9 +104,11 @@ new; after it he chose to have the next sections proposed the same way (91.5 A).
 
 ### How
 
-1. `python3 tools/humanization/clarity_read.py make ARTICLE DIR --kind edit --parts 3 --about "..."` writes the same
-   reading text and parts as part 1 and a reader's-edit brief for each part, with GPT's questions and his answers so far
-   as the examples (`tools/humanization/readers_edit_examples.json`; add one each time he answers a proposal).
+1. `python3 tools/humanization/clarity_read.py make ARTICLE DIR --kind edit --parts 6 --max-items 4 --about "..."` writes
+   the same reading text, in parts of about 15,000 characters, and a reader's-edit brief for each part, with GPT's
+   questions and his answers so far as the examples (`tools/humanization/readers_edit_examples.json`; add one each time he
+   answers a proposal). Keep the parts small and the brief's "work quickly" line: on 2026-10-23 three Sonnet readers given
+   a third of Nibbāna each spent all 64,000 tokens of their output on thinking, three times over, and wrote nothing.
 2. Give each `BRIEF-k.txt` to a fresh reader. Each writes `READER-k.md`: each proposal a move (paragraphs moved, a heading
    or a label added, a repeat cut, a warning's reasons moved to a note, a last line that adds nothing cut), with the
    section, the passage, the exact change, the reader's problem it solves and what stays as it is. The brief allows no new
