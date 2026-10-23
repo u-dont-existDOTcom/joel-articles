@@ -23,7 +23,7 @@ His message, word for word: `../t101-answers/JOEL-20261023-1405.md` (91.1 B, 91.
 | [t101_askgod_stretch](https://www.pangram.com/history/b4743c65-68c2-4f82-a312-8532ab2c9ef4) | 490 | Human Written, 0% AI | none | askgod-p3-p7#140 Human: right |
 | [t101b_borrow_h3](https://www.pangram.com/history/daced127-f97b-4ecc-a7bb-47c6c8c220b5) | 353 | Human Written, 0% AI | none | borrow-h3#141 Human: right |
 
-Seven of nine calls right in the first three rounds, and both Borrow Hindsight calls below. The new h3 read AI on its first try, from old P5's "And don't expect a thank-you for the session" to the end: the move had put it right before my P9, which opened on the thank-you again (E172, E241). With my P9's first sentence as "Your little one might not take it well at first." (draft `drafts/h01-borrow-P9.txt`) it reads 100% Human, and that is in. The section's opening reads Mostly Human (2.5%) with no AI window at all; round 6 checks the h2 whole, since with the h3 it is ten paragraphs, past his five or six a check.
+Six of eight calls right in the first three rounds, and both Borrow Hindsight calls below (8 of 10 in all). The new h3 read AI on its first try, from old P5's "And don't expect a thank-you for the session" to the end: the move had put it right before my P9, which opened on the thank-you again (E172, E241). With my P9's first sentence as "Your little one might not take it well at first." (draft `drafts/h01-borrow-P9.txt`) it reads 100% Human, and that is in. The section's opening reads Mostly Human (2.5%) with no AI window at all; round 6 checks the h2 whole, since with the h3 it is ten paragraphs, past his five or six a check.
 
 ## Coverage (92 A)
 
