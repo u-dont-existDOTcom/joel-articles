@@ -1,9 +1,31 @@
 {
- "turn": "96, CI fix",
+ "turn": "97, in progress",
+ "replace": [
+  [
+   "\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#221\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/221\\)\\ for\\ him\\ to\\ merge\\.",
+   "), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #221 (https://github.com/u-dont-existDOTcom/joel-articles/pull/221) merged (2026-10-22 23:02 UTC).",
+   1
+  ],
+  [
+   "^1\\. His answers to questions 86 \\(how to use the Pangram API credit\\).*$",
+   "1. Nothing until turn 97's results; then the questions they raise, on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E); once the results are final, his delete of the two temporary Substack drafts (A and B).",
+   1
+  ],
+  [
+   "^2\\. His merge of pull request #221 .*$",
+   "2. His merge of turn 97's pull request (#221 is merged).",
+   1
+  ],
+  [
+   "^1\\. His answers to 86 and 87; put his words in word for word\\..*$",
+   "1. The API check of experiments/t97-api/TEXTS.json on the laptop: cd /home/joel/ai-work/claude-dangerous-lane && PANGRAM_KEY_FILE='/home/joel/Documents/api keys/pangram.txt' python3 - check <(git -C joel-articles show FETCH_HEAD:articles/inner-child-therapy/experiments/t97-api/TEXTS.json) pangram-api/t97 --windows --names NAME, with the script piped from git show FETCH_HEAD:tools/humanization/pangram_api.py (never print or copy the key; never write to /tmp there). First t97_parentP4 alone, to see which version answers (prediction parent-P4#90); if 4.1, the five sections, each predicted first. Then rewrite whatever still reads AI with E207, E216 and E217, check again, and give him the check of each stretch he should look at (E214). Joel's 86: paragraphs and sections by the API, at most about five or six paragraphs a check; halves on the Substack check (he switches accounts at the daily limit).",
+   1
+  ]
+ ],
  "insert_before": [
   [
-   "  - NEXT: Next step 1.",
-   "  - After his merge of #219 (22:16 UTC), CI's content-integrity check went red on #221: main's new test tests/test_substack_check_text.py (the Hypnosis lane's) needs BeautifulSoup, and CI installs nothing. Main merged into the branch and that lane's own fix (its commit 70a397bc: the test skips where bs4 is missing) ported word for word; state/PANGRAM-SCORECARD.md rebuilt and committed."
+   "- TURN 96 (",
+   "- TURN 97 (2026-10-23, his message of 2026-10-22 23:54 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631.\n  - His message: experiments/t97-answers/JOEL-20261022-2354.md. 86: A, with his terms (E218). 87: his two rewrites (Before You Try to Go Deep P3 and P4; Your Body P3 to P5), dark green in his checks, installed word for word (entry joel-97-20261022).\n  - Borrowed Adulthood in Relationship reads AI inside half B (part 5 of 9) and 100% Human alone (experiments/t97-results/BORROWED-ADULTHOOD-READINGS.json; E215). New rule E214: every stretch I ask him to fix comes with its check's link; tools/questions_page.py refuses the page otherwise.\n  - NEXT: Next step 1."
   ]
  ]
 }

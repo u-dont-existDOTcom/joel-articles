@@ -1,0 +1,23 @@
+{
+  "turn": 97,
+  "why": "Joel, 2026-10-22 23:54 UTC: \"but borrowed adulthood in relationship is 100% human so idk what you are looking at ... i looked at draft b link i gave and i also didn't see what you're talking about from that...\"",
+  "round_4_half_B": {
+    "link": "https://www.pangram.com/feed/f0a788bc-07a4-411d-bd1b-292c7370c630",
+    "version": "4.1",
+    "where_on_the_page": "part 5 of 9 (the result shows the text in nine parts; the arrows beside \"1 / 9\" turn them)",
+    "windows": [
+      {"index": 89, "label": "AI-Generated", "confidence": "Low", "ai_likelihood": 0.545, "text": "Reparenting is usually talked about as something you do alone, or with a therapist."},
+      {"index": 90, "label": "AI-Generated", "confidence": "Medium", "text": "But your little one got hurt by people ..."},
+      {"index": 91, "label": "AI-Generated", "confidence": "High", "ai_likelihood": 1.0, "text": "Often it's mostly one person carrying a lot of it, maybe the one who drives you to your appointments and says it'll be okay.", "shown_as": "an orange highlight (background rgba(255, 84, 0, 0.16))"}
+    ]
+  },
+  "his_check_of_the_part_alone": {
+    "link": "https://www.pangram.com/history/ac67756a-4621-44c6-8d06-84ce60f24a64",
+    "version": "4.1",
+    "text": "the h1 Borrowed Adulthood in Relationship and its three paragraphs, 309 words",
+    "headline": "Human Written",
+    "fraction_ai": 1.6e-07,
+    "windows": "9, all Human (High, Medium, High, Medium, Low, Medium, High, Medium, High)"
+  },
+  "reading": "Both are true: inside half B the paragraph's third sentence read AI (High), and the part checked alone reads 100% Human. My mistake was naming it in question 87.1 without the link and the part number, so he couldn't find it (E214). It counts as passing alone; if a half check flags it again, that check's link and part number go to him."
+}

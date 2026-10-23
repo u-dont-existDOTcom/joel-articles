@@ -688,6 +688,31 @@ The records: `articles/inner-child-therapy/experiments/t95-answers/JOEL-20261022
 - **E212. Research that doesn't change what the reader does is fluff.** He cut the Kahneman and Klein paragraph: "it looked like fluff, i cut it". A pointer to a source has to change what the reader does or understands.
 - **E213. Ask for a merge with its link.** His words: "where is the PR link for me to merge? anyway i went to gh and merged it". Every reply that leaves a merge to him gives the pull request's link, and the questions page's For you to do has the same link.
 
+## What Joel's message of 2026-10-22 23:54 UTC taught (the Inner Child lane, questions 86 and 87)
+
+The records: `articles/inner-child-therapy/experiments/t97-answers/JOEL-20261022-2354.md`, entry `joel-97-20261022` in that lane's `OWNER-EDITS.json`, and `experiments/t97-results/BORROWED-ADULTHOOD-READINGS.json`.
+
+- **E214. Every stretch I ask him to fix comes with the check that shows it.** His words: "can you please always give me the links to the checks you want me to copy and fix? i thought that was a rule already." I had named Borrowed Adulthood in Relationship P1 from round 4's half B with no link and no place on the page, and he couldn't find it: "idk what you are looking at ... i looked at draft b link i gave and i also didn't see what you're talking about". The result page shows a long text in parts ("1 / 9"), and that window was in part 5. So each stretch I ask about gets three things: the check's link, the part number when the result has parts, and the flagged sentence quoted. `tools/questions_page.py` refuses to build the page when an open question says a stretch reads AI and gives no pangram.com link.
+- **E215. A stretch can read AI inside a half and Human alone.** Borrowed Adulthood in Relationship read AI inside half B (High on "Often it's mostly one person carrying a lot of it, maybe the one who drives you to your appointments and says it'll be okay.") and 100% Human in his check of the part alone (309 words, all nine windows Human). Both readings are real. He went by the check of the part alone. When a half flags a stretch that passes alone, I give him the half's link and part number and ask, rather than calling it AI.
+- **E216. What his Before You Try to Go Deep rewrite changed (P3 and P4, mine after two cuts).**
+  1. **His own word for the practice:** "a break from the communion", where mine said "A full break from your little one".
+  2. **The plain step, without my rule frame:** "simply jot down the reason and the progress made so far. Then come back later, once that reason has changed and you feel comfortable." Mine opened with a rule ("is a last resort, unless something's actually unsafe").
+  3. **A time anchor that names the referent:** "what hurt during your childhood" for "what hurt" (E207's move 1).
+  4. **A resource for the reader who can't follow the advice:** "Even if you don't have someone you know who wants to listen, there are warmlines for this."
+- **E217. What his Your Body Might Need Some Love First rewrite changed (P3 to P5).**
+  1. **A metaphor carried across sentences, with its own logic** (E207's move 5): "busy throwing buckets of water out of the boat" and then "running low on buckets".
+  2. **Process terms, and what happens over time:** "to work on desensitizing their worst memory", "nightmares later on as the memories begin to unwind".
+  3. **A stance word:** "predictably flooded".
+  4. **A vivid other side of the contrast:** "some can feel like a raging storm got unleashed".
+  5. **He kept the gym comparison and made it his own:** a short setup ("It's a bit like going to the gym."), then its logic in the reader's terms, with a pun: "You want to make gains, and sore muscles the next day can be good, but proper range of (e)motion here is also key to avoid injury." My turn-96 cut had only taken the stock analogy out.
+  6. **A run of questions became one instruction with examples:** "Keep track of how you feel over the next few days, like how refreshing your sleep is, and how easy it feels to get through your day." He kept one question, "Do you want to go back toward what came up, or is some part of you saying no?", which read High in round 4 among the others and passes in his version. So the run of questions was the tell, not that question.
+  7. **Self-mocking warmth around the method:** "like a science nerd", "You can play around with variables like".
+  8. **The parenthetical list became its own last sentence,** with items of different shapes ("shorter session length, or shallower diving, time of day, keeping eyes open, having a friend around, or holding a teddy bear as a stand-in for your little one").
+  9. **My hedge went:** "If you honestly can't tell yet, I wouldn't rush to call it healing or harm." became "If you can't quite tell yet, I'd just make the next one a bit easier".
+
+  So a stock analogy that reads AI can be kept and given its own logic, and a run of questions can become one instruction with examples.
+- **E218. How the API credit is used (86: A).** His words: "I have unlimited substack checks on pangram. if you hit the limit on one account i can switch to another. you can check paras or sections with API, not more than like 5-6 paras at a time in general (not half an  article)". Paragraphs and sections go through the API, about five or six paragraphs a check at most. Halves stay on the Substack check, and when one account hits its daily limit, he switches accounts.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

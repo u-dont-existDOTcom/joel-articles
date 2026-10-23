@@ -188,7 +188,9 @@ And if the grown-up you is there, and it's just how deep you're going that's too
 
 <!-- Turn 95, before its first check, with E207's moves (his rewrite of Two Common Guarding Patterns): "one" named ("a break"). Lint REVIEW. Not yet checked in Pangram. -->
 
-A full break from your little one is a last resort, unless something's actually unsafe. If you do need a break, I'd jot down why and how far you'd gotten, and come back there once that reason has changed.
+<!-- Turn 97 (his message of 2026-10-22 23:54 UTC, experiments/t97-answers/JOEL-20261022-2354.md; his answer to question 87): his rewrite of Before You Try to Go Deep, word for word ("i made some improvements and now it's dark green for the whole section"). This paragraph is his; it replaces mine (turn 95's third reading after two cuts, still AI in round 4: Low 58). His P1 and P2 were the article's already. -->
+
+If you need a break from the communion, simply jot down the reason and the progress made so far. Then come back later, once that reason has changed and you feel comfortable.
 
 <!-- Turn 78 (Joel's answer to question 70: A, 2026-10-21 00:49 UTC, experiments/t78-answers/JOEL-20261021-0049.md; GPT's r03 files in experiments/t78-structure/gpt-r03/): Joel's "mess and all" paragraph stays early, here at the start of Before You Try to Go Deep, so the order doesn't tell people to wait until they're sorted out; the rest of First Social Connections, Done Right moved to Borrowed Adulthood in Relationship (GPT's M01, my change). -->
 
@@ -198,7 +200,9 @@ A full break from your little one is a last resort, unless something's actually 
 
 <!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a05): round 3: High 28 on its first sentence and Low 23 on the rest. The tells left: a general conditional explanation ("If ..., then reaching toward people is part of taking care of your little one too"), the tell I hadn't named in turn 93. One sentence: what I'd do, and why. The lint FAILs it (E125), reading the idiom "mess and all" as the last item of a list; it isn't a list, and the paragraph is known by that phrase (question 70), so it stays. Lint FAIL (judged a false positive). Not yet checked in Pangram. -->
 
-If being alone was a big part of what hurt, I'd call somebody now, mess and all, since reaching toward people is part of taking care of your little one too.
+<!-- Turn 97 (his message of 2026-10-22 23:54 UTC, experiments/t97-answers/JOEL-20261022-2354.md): his rewrite of Before You Try to Go Deep, word for word; this paragraph is his ("during your childhood" and the warmlines sentence are his additions). -->
+
+If being alone was a big part of what hurt during your childhood, I'd call somebody now, mess and all, since reaching toward people is part of taking care of your little one too. Even if you don't have someone you know who wants to listen, there are warmlines for this.
 
 <!-- The original bottom-up-healing embed belongs after readiness; exact native source remains source-recovery pending. -->
 
@@ -210,7 +214,9 @@ If you notice tension in your solar plexus or abdomen, or anywhere else that see
 
 If that's not enough, there's deeper somatic stuff like [Shaking](https://www.skool.com/shakingmedicine/about?ref=ee69b2178e96491f88530789dc160291), tapping (EFT), EMDR, Brainspotting, Somatic Experiencing, Water Therapy, Massage, Energy Healing, or some other bottom-up approach.
 
-When your nervous system is flooded, your protective parts are busy with the flood, so they're not going to let your little one come out and talk much anyway. Some people go straight into EMDR on their worst memory before they can even stay in the room. Then they get flooded all over again and decide EMDR doesn't work. Here's a map of what to try when:
+<!-- Turn 97 (his message of 2026-10-22 23:54 UTC, experiments/t97-answers/JOEL-20261022-2354.md; his answer to question 87): "i will do one more for you tho, this is the ai section here", then "this is the all dark green version". His three paragraphs, word for word, replace the three he quoted (this one, round 4's Low 31 on EMDR; my P4 with its gym line, Medium 53 and High 31; his P5's questions, High 18). -->
+
+When your nervous system is flooded, your protective parts are busy throwing buckets of water out of the boat, so they’re not going to let your little one come out and talk much anyway. Some people go straight into EMDR to work on desensitizing their worst memory before they can even stay in the room. Then they get predictably flooded all over again and, running low on buckets, they decide EMDR doesn’t work. Here’s a map of what to try when:
 
 <!-- Native Substack embed from source, unchanged: "Somatic Therapy Modalities Map & Free Intro Sessions!" (https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing); the live post title is now v4.2 (Sept 22, 2026). -->
 
@@ -226,13 +232,17 @@ When your nervous system is flooded, your protective parts are busy with the flo
 
 <!-- Turn 96 (round 4, experiments/t96-results/ROUND4-RESULTS.json): round 4 (check t95s_A): Medium 53 and High 31; the High was the gym line, a stock analogy with a balanced closer (turn 95's explained miss). It is cut; his P5 asks about the next few days. Lint CLEAR. Not yet checked in Pangram. -->
 
-Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much, or by whether you stayed present through it. Somatic work can bring up grief and fear, and sometimes hard dreams.
+<!-- Turn 97 (his message of 2026-10-22 23:54 UTC, experiments/t97-answers/JOEL-20261022-2354.md): his paragraph, word for word. It replaces my P4 (my turn-96 cut d01, the gym line out, never checked) with his own gym comparison. -->
+
+Some somatic work can feel pleasant, and some can feel like a raging storm got unleashed. It can bring up grief and fear, and sometimes nightmares later on as the memories begin to unwind. It’s a bit like going to the gym. You want to make gains, and sore muscles the next day can be good, but proper range of (e)motion here is also key to avoid injury.
 
 <!-- Turn 74 (his message of 2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md)): 62, C ("it's human now, i fixed it, pasted"): his Before You Try to Go Deep as he pasted it at 00:08 UTC; this paragraph is his version (experiments/t74-guide/joel-before-you-try-20261019-0008.txt). It is turn 72's P5 h, with the guide's list of what to change in it and "change several things at once" out (54, 8 and 11). His section as pasted: Before You Try to Go Deep Human Written (0.093, high, 4023 words, all three windows Human), https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9; his checking paragraph alone Human Written (0.073), https://www.pangram.com/history/d2aeb146-d0e1-446e-8226-2f07aaaa161f (round t74a). -->
 
 <!-- Turn 95 (his answer of 2026-10-22 21:35 UTC, experiments/t95-answers/JOEL-20261022-2135.md): 84.3 A, "A lot of the time you just know." is out (a reassurance; my words of turn 38, which his paste of 2026-10-19 kept). His paragraph otherwise word for word. -->
 
-So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much?) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier (shorter, or shallower, at a better time of day, with your eyes open, a teddy bear standing in for your little one, or a friend in the next room), one change at a time, so you learn what made the difference.
+<!-- Turn 97 (his message of 2026-10-22 23:54 UTC, experiments/t97-answers/JOEL-20261022-2354.md): his paragraph, word for word, except one space for the two in "difference.  You can". It replaces his own P5 (its questions read High in round 4). -->
+
+Keep track of how you feel over the next few days, like how refreshing your sleep is, and how easy it feels to get through your day. Do you want to go back toward what came up, or is some part of you saying no? If you can’t quite tell yet, I’d just make the next one a bit easier, one change at a time, like a science nerd, so you learn what made the difference. You can play around with variables like shorter session length, or shallower diving, time of day, keeping eyes open, having a friend around, or holding a teddy bear as a stand-in for your little one.
 
 Bring the challenge back gradually, and only when you want to and you're recovering well. Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn. And what about those hard dreams, or images that pop up during a session? They can show what feels important or frightening right now. Sometimes they show what feels missing, or what feels needed. They aren't evidence that what you saw in them happened, though, and shouldn't be used to confirm a memory or rebuild one. Or to suggest one.
 
