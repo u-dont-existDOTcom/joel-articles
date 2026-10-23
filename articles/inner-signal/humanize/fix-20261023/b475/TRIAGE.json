@@ -1,0 +1,51 @@
+{
+ "review": "REVIEW.md (a fresh Sonnet reader, given the published section, 2026-10-23)",
+ "applied": [
+  {
+   "item": 1,
+   "finding": "\"instruction\" in place of the published \"intention\" (more command-like, and it sits oddly right after \"all the instructions ... are now finished\")",
+   "replace": "the only instruction I will take with me into my everyday life",
+   "with": "the only intention I will take with me into my everyday life",
+   "why": "one word, the published word back: what the reader keeps is an intention for ordinary life, not an instruction"
+  },
+  {
+   "item": 3,
+   "finding": "\"Name the day or date\" became \"make sure you remember what day (or date) it is\" (naming is an active check; remembering can pass untested)",
+   "replace": "make sure you remember what day (or date) it is",
+   "with": "make sure you can name what day (or date) it is",
+   "why": "two words, the published active check back"
+  }
+ ],
+ "let_stand": [
+  {
+   "item": 1,
+   "finding": "LOST \"safely held\", \"can remain\" became \"I will bring with me at a later date\"",
+   "why": "not in this batch's splice: the script's first sentences (Emulate, 2026-10-18, rf-zf) read Human in place, and that round's triage let it stand: the rest still waits until it can be integrated"
+  },
+  {
+   "item": 1,
+   "finding": "LOST \"one honest action\"",
+   "why": "Joel called \"one honest action\" AI (question 8 a, 2026-10-22; tells W94, O44)"
+  },
+  {
+   "item": 1,
+   "finding": "LOST \"fully\" (adult judgment \"fully available\")",
+   "why": "not in the splice's meaning change (bo kept \"with my adult judgment\" as the text had it); the 2026-10-18 round put \"fully back\" in with seven other fixes and the paragraph read AI (464g)"
+  },
+  {
+   "item": 1,
+   "finding": "ADDED \"you have given me\" (a \"you\" who gave the instructions)",
+   "why": "in the text since 2026-10-18 and let stand then; in a guide for one's own recordings, the \"you\" is the recording's voice, which is the reader's own"
+  },
+  {
+   "item": 1,
+   "finding": "ADDED \"better able to integrate it\"",
+   "why": "not in the splice; the published \"until there is more capacity\" says the same"
+  },
+  {
+   "item": 3,
+   "finding": "softened: \"(counting does this, but not always)\" for \"repeating the count is not proof of a complete return\"",
+   "why": "not in the splice (batch 474's line, read Human in place); batch 474's reader called it mild and its triage let it stand: the line still says the count can't be relied on, and the check before it stays"
+  }
+ ]
+}

@@ -29,7 +29,10 @@ def superseded(e, later, md):
     edit's old text held e's new text whole. 2026-10-22: batch 470g's rename ("your inherited inner parent tells" to "your
     inherited parent script tells") changed a few words inside his edit's new text, so a later edit's old text can also be
     a part of e's. So e's new text is carried through every later edit in order, taken over whole by one whose old text
-    holds it, or changed in place by one whose old text it holds, and what comes out must be in the working copy."""
+    holds it, or changed in place by one whose old text it holds, and what comes out must be in the working copy.
+    2026-10-23 (batch 475): a new edit can change text that a chain of earlier edits produced, and it isn't in the working
+    copy yet when the earlier ones are looked at, so e counts as carried on when the text is in the working copy at any
+    step of the chain after the first move (the later edits are then applied in their own turn)."""
     if not e['new']:
         return False
     text, moved = e['new'], False
@@ -38,6 +41,10 @@ def superseded(e, later, md):
             text, moved = l['new'], True
         elif l['old'] and l['old'] in text:
             text, moved = text.replace(l['old'], l['new']), True
+        else:
+            continue
+        if text and text in md:
+            return True
     return moved and bool(text) and text in md
 
 
