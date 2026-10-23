@@ -1,4 +1,4 @@
-# The Inner Guide: a reader's edit (turn 102, question 98)
+# The Inner Guide: a reader's edit (turn 102, question 99)
 
 Joel, 2026-10-23 17:53 UTC: "can we continue with rewriting the guide on some more sections as you did with that last one per GPT's suggestion to humanize it more?" The last one was Borrow One Competency at a Time (turn 100's test, his 91.1 B). GPT's brief for it: "preserve the meaning and your voice; distinguish the main invitation from troubleshooting; remove only demonstrated redundancy; keep action-changing safeguards nearby; add no new jokes, examples, or teaching obligations."
 
@@ -9,7 +9,7 @@ What this draft does:
 - **Three headings, no word changes.** Every paragraph stays word for word, in the order it has.
 - **Where the headings come from.** "Between Spoiling and Clamping Down" is the article's own words, from P4's last sentence ("If you keep swinging between spoiling and clamping down"). "A Healthy Mind Is Not a Perfect Mind" is the guide's own heading for this part (`source/inner-child-guide-2026-10-04-r4.txt`, The Inner Guide Comes Later). "A Belonging Deeper Than Any Group" is P9's own words ("toward a belonging deeper than any group").
 - **What I looked at and left.** P4 starts "I think the opposite trap ...", and the spoiling it's the opposite of is right above it, under the same heading. P7 starts "Forced adulthood can get into your head too, where it wants everything as spotless as that kitchen." The kitchen is P4's, one heading up, a callback the reader has just read. P10's naming aside ("By the way, this job doesn't have to be called the Guide.") stays where it is: turn 62 wrote that ending after the earlier endings of the paragraph read AI (E180), and this one reads Human, so I'd leave it.
-- **No safety cuts here.** The one caution, in your P3 ("especially if getting your way would hurt you or somebody else"), changes what you do with the want, so it stays.
+- **Two small cuts are in other questions, separate from the headings:** P10's "though for cult survivors it can be a trigger word, which is understandable" (97.12) and P9's "(that part is optional)" (98.9). The one caution in your P3 ("especially if getting your way would hurt you or somebody else") changes what you do with the want, so it stays.
 - **Not checked in Pangram yet.** Each paragraph keeps its own results. If you want it in, each new section gets one check, then the whole h1 goes into round 6.
 
 ## After

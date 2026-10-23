@@ -1,10 +1,38 @@
 {
- "turn": "101, a count fixed",
+ "turn": "102",
  "replace": [
   [
-   "\\ \\ \\-\\ Checks\\ \\(experiments/t101\\-api/API\\-CHECKS\\.md;\\ 7\\ of\\ 9\\ calls\\ right\\):\\ all\\ Human\\ except",
-   "  - Checks (experiments/t101-api/API-CHECKS.md; 8 of 10 calls right, the two Borrow Hindsight checks included): all Human except",
+   "TURN\\ 101\\ \\(2026\\-10\\-23,\\ his\\ answers\\ of\\ 14:05\\ UTC;\\ by\\ https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#227\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/227\\)\\ for\\ him\\ to\\ merge\\.",
+   "TURN 101 (2026-10-23, his answers of 14:05 UTC; by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #227 (https://github.com/u-dont-existDOTcom/joel-articles/pull/227) merged.",
+   1
+  ],
+  [
+   "turns\\ 59\\ to\\ 76,\\ 100\\ and\\ 101\\ by\\ https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq",
+   "turns 59 to 76 and 100 to 102 by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq",
+   1
+  ],
+  [
+   "\\ \\ \\-\\ experiments/t101\\-answers/,\\ t101\\-api/,\\ t101\\-installs/,\\ t101\\-tries/,\\ t101\\-review/\\ and\\ t101\\-coverage/\\ \\(the\\ latest\\ turn\\),\\ ",
+   "  - experiments/t102-answers/, t102-api/, t102-installs/, t102-tries/, t102-review/, t102-safety/ and t102-readers-edit/ (the latest turn), t101-answers/ to t101-coverage/ (turn 101), ",
+   1
+  ],
+  [
+   "^1\\. His answers to 94 and 95 \\(OWNER-QUESTIONS\\.md\\).*$",
+   "1. His answers to 96 to 99 (OWNER-QUESTIONS.md). For 97 and 98, put in his picks from experiments/t102-safety/CUTS-AFTER.json (the paragraph before and after for each item), then check each changed paragraph of 50 words or more alone through the API, predictions first, then each changed section; a cut that makes a paragraph read AI goes back to him with its link. For 99, the headings, then one check for each new section (experiments/t102-readers-edit/INNER-GUIDE-TEXTS.json). Then round 6, the whole-article check through the two temporary Substack drafts, covering turns 100 to 102; watch The Inner Guide P7's last three sentences and Related Clinical Work's first line (E231).",
    1
   ]
- ]
+ ],
+ "insert_before": [
+  [
+   "- TURN 101 (2026-10-23",
+   "- TURN 102 (2026-10-23, his answers of 17:53 UTC; by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM) for him to merge.\n  - His answers: experiments/t102-answers/JOEL-20261023-1753.md (94.1 A, 94.2 A, 95.1 B with \"those were not my words btw, that's why i cut\", 95.2 A, 95.3 B, 95.4 B, 95.6 B with his reason, 95.7 A, 95.8 with his own point, 95.9 B, 95.10 A; \"can we continue with rewriting the guide on some more sections as you did with that last one\").\n  - In (experiments/t102-installs/apply_t102.py; entry joel-102-20261023; owner edits 187 of 187): 95.7's treat-it clause and his 95.8 point (\"because whatever they tell you today, the law can change tomorrow. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous.\"), each 100% Human alone and in its h3.\n  - Back out after Pangram (experiments/t102-tries/REVIEWS.md; experiments/t102-api/API-CHECKS.md; 5 of 8 calls right): 94.2 A (GPT's advice sentence made old P5 read 100% AI; his two sentences stay) and 95.2 A (three wordings, all 100% AI over the Untangling paragraph, which reads Human without it): question 96.1. One of the three went unscored: TEXTS-3.json rewritten at the same staged path reached the laptop as the earlier copy.\n  - 95.6 B, the safety-language pass: experiments/t102-safety/ (BOOKS.md: Capacchione and Emotional Alchemy put safety in one place; INVENTORY-A.md and INVENTORY-B.md: two readers' list of 133 lines; SAFETY-CUTS.md: 26 proposed cuts, each line traced through the commits, questions 97 and 98; CUTS-AFTER.json holds each paragraph before and after for the install).\n  - Question 99: The Inner Guide's three headings, no word changes (experiments/t102-readers-edit/THE-INNER-GUIDE.md; its check texts are INNER-GUIDE-TEXTS.json, not sent, since headings aren't picked by a check).\n  - Lessons E247 (blanket and repeated safety lines come out) and E248 (a cut of commentary can take out the line that read human), a note on E242; main merged in (the other lanes' E243 to E246 are on main, so the next lesson is E249; the other lanes' pull request #228 is merged).\n  - NEXT: Next step 1."
+  ],
+  [
+   "- Lessons: trace a coverage gap through the records",
+   "- Files sent to the laptop get a new name every time, in the outputs folder as well as on the laptop (turn 102): a file rewritten at the same staged path can arrive as the earlier copy."
+  ]
+ ],
+ "sections": {
+  "## Waiting on Joel": "1. His answers to questions 96 (two follow-ups from 95), 97 and 98 (the safety cuts) and 99 (The Inner Guide's headings), on OWNER-QUESTIONS.md.\n2. His merge of pull request #PRNUM (turn 102).\n3. The two temporary Substack drafts (A and B) stay for round 6; his delete comes after its results.\n4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his \"ultimate psychedelic recipe\" line and its link."
+ }
 }

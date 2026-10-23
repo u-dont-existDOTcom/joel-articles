@@ -1,0 +1,51 @@
+{
+ "title": "Inner Child Therapy, turn 102: what changed",
+ "meta": "2026-10-23, his answers of 17:53 UTC; the article at branch handoff/claude-dangerous-adult-20260924-1631",
+ "intro": [
+  "Your 95.7 and 95.8, each checked in Pangram 4.1 alone and in its h3 (experiments/t102-api/API-CHECKS.md has every check and its public Pangram page). 94.2 and 95.2 were tried and are back out, so those paragraphs are as they were (experiments/t102-tries/REVIEWS.md). Beside each paragraph: what it was before."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Altered States Can Deepen the Therapy",
+    "## Altered States Can Require Reparenting",
+    "### Physical Pain Makes It Harder"
+   ],
+   "rows": [
+    {
+     "label": "Your P3, with 95.7 A's clause at the end of its first sentence",
+     "article": "And when the symptoms come and go randomly",
+     "source": [],
+     "notes": [
+      "Turn 102 (his answers of 2026-10-23 17:53 UTC, experiments/t102-answers/JOEL-20261023-1753.md): 95.7 A: \"and they may be able to treat it while it's happening\" added (PGQ-027)."
+     ],
+     "beside": {
+      "label": "Your P3 before",
+      "text": "And when the symptoms come and go randomly, the best time to get diagnostics done could be right at the actual time of the crisis, rather than waiting until you feel well enough to make an appointment. But what if the attacks come almost every day? You can’t move into the ER. And normal test results don’t prove the pain is imaginary, just as a treatment that helps doesn’t explain what’s causing it."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Borrowed Adulthood in Relationship",
+    "## First Social Connections, Done Right",
+    "### Opening up honestly to the right people at the right pace"
+   ],
+   "rows": [
+    {
+     "label": "Your P3, with your 95.8 point after \"I wouldn't even bother with that\"",
+     "article": "So I’d ask them, before handing over any tricky specifics",
+     "source": [],
+     "notes": [
+      "Turn 102 (his answers of 2026-10-23 17:53 UTC, experiments/t102-answers/JOEL-20261023-1753.md): 95.8 A in his words: his point that the answer is only what the law requires now, and to assume what you tell won't be completely confidential, especially if it sounds dangerous, after \"I wouldn't even bother with that\"; his chat words adapted to the paragraph."
+     ],
+     "beside": {
+      "label": "Your P3 before",
+      "text": "So I’d ask them, before handing over any tricky specifics: “What does the law require you to report?” That's a normal and expected question. Although personally I wouldn't even bother with that. You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally."
+     }
+    }
+   ]
+  }
+ ]
+}

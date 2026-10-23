@@ -1,14 +1,106 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 101). **Open questions: 94 and 95.** For you to do: merge pull request #227. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 102). **Open questions: 96 to 99.** For you to do: merge pull request #PRNUM. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turns 100 and 101), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 102), this file is newer than the page until the next republish.
 
 ## Open questions
 
-### 🟣 94. GPT's two line edits in Borrow One Competency at a Time (turn 101)
+### 🟣 96. Two follow-ups from 95 (turn 102)
+
+- **96.1 Distance on purpose (your 95.2 A).** It read 100% AI over the whole Untangling paragraph in every wording I tried ([1](https://www.pangram.com/history/6aa17696-41e5-4a7c-88be-8bb14af1ee45), [2](https://www.pangram.com/history/b85736b8-dc31-4927-b434-626210690b5f), [3](https://www.pangram.com/history/9546ae2e-83fb-4fc9-9bb6-dc35fda537a1)), and the paragraph [reads Human without it](https://www.pangram.com/history/65c4489e-c342-4cb4-bd9d-0197cbdb5b8c). The second wording was "And sometimes you need the break anyway, because it's hard to hear what you actually want while the old programming is still playing in your ear." I can't find any more AI tells in the sentence itself, and I see some human tells, like "the old programming is still playing in your ear" and your "temporary distance may be necessary" right before it. Can you help show me the tells I'm missing? My one guess is the point itself: with it, the paragraph covers every case (distance you're pushed into, distance you choose, then coming back or not), like a checklist.
+  - **A (my pick):** leave it out. From Survival to Experimental Play already says to find out "what you believe and feel when nobody's around to take your cues from", with time alone in nature, which carries most of it.
+  - **B:** your own words for it, here or somewhere else, and I check them.
+- **96.2 "we saw this already with ai" (your 95.8).** I left it out of the paragraph, since a reader can't tell what happened with AI.
+  - **A (my pick):** leave it out. "whatever they tell you today, the law can change tomorrow" makes the point on its own.
+  - **B:** say what happened, in your words, and I put it in and check it.
+
+### 🟣 97. Safety lines said again, or said where nobody needs them (turn 102)
+
+Your 95.6 B asked to pluck the "extra extra ridiculous safety language" out of the whole guide, and to look at how the books do it. [How the books do it](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-safety/BOOKS.md): one note at the front, one on pace, one section on choosing helpers, and almost no cautions inside the exercises. The guide already has those places (your Before You Try to Go Deep, the crisis section, the therapist section), so nothing new goes in. Two readers then listed all 133 safety, caution and reassurance lines in the article ([first half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-safety/INVENTORY-A.md), [second half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-safety/INVENTORY-B.md)); most change what you do right where they are, so they stay. These are the ones that don't, each with the cut struck through and the paragraph after it: **[the cuts, on one page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-safety/SAFETY-CUTS.md)**. Most are mine, from the October guide's wording, GPT's queue or my writers' checklists; the ones marked "yours" are yours. My pick is A (cut) for every one, so "97: your picks" takes them all. After you pick, each changed paragraph gets its own Pangram check and its section's before the cut counts.
+
+- **97.1** "Bring the challenge back gradually ..." (Your Body Might Need Some Love First; mine): your paragraph before it says it.
+- **97.2** "If nobody is in danger," (Catch the Hook; yours, published): nobody needs telling.
+- **97.3** "Same if something might be dangerous right now, or might be a medical warning sign: step away or get checked first." (Catch the Hook; yours): a blanket add-on to your touch example.
+- **97.4** "Getting in touch is a separate decision, for a much calmer day." (Just Like Me; mine): the exercise never suggests contact.
+- **97.5** "(if you're in danger, get safe first)" (Start With Whatever Showed Up; yours): said in the places that need it.
+- **97.6** "And yes, those caution signs still count." (Altered States Can Deepen the Therapy; mine, kept in your 2026-10-19 version): points at signs that come later.
+- **97.7** ", though I don't mean every drug's dangerous for you" (When Escape Leaves Reality Behind; mine): a hedge on a hedge.
+- **97.8** "If you can't tell whether you're safe, I'd treat that as risky." (When Escape Leaves Reality Behind; mine): the third of three.
+- **97.9** "Know the limit of what you can handle, but don't turn it into a prison for life." (Altered States Can Require Reparenting; mine): a maxim that changes nothing.
+- **97.10** "(and if you're at the edge right now, the first step above comes before any of this)" (If You Want to Kill Yourself; mine): the third reminder in five paragraphs.
+- **97.11** ", and they can wait until you're calmer and have some help" (your father's paragraph; mine): softens his point.
+- **97.12** ", though for cult survivors it can be a trigger word, which is understandable" (The Inner Guide; mine): a trigger warning.
+- **97.13** "Crying that deep can overwhelm you, too. It can retraumatize, ..." (Somatic Heart Opening; mine): your crying story at the start already says it.
+- **97.14** "In a real crisis, getting a safe person involved can be exactly the right move." (First Social Connections; the guide's, kept in your version): crisis advice in a paragraph about new people.
+- **97.15** "It doesn't stand in for grieving, though, ... Same with the practical stuff." (When One Life Has Ended; mine): the "doesn't replace" shape of your 95.6 example.
+
+### 🟣 98. Reassurances and disclaimers of the same kind (turn 102)
+
+Not safety lines, but the same reflex: a line that answers a worry nobody raised. On [the same page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-safety/SAFETY-CUTS.md), after 97. My pick is A (cut) for each, so "98: your picks" takes them all.
+
+- **98.1** "That's ok, too." (You Don't Need an Inner Monologue; yours, published).
+- **98.2** "It doesn't mean failure." (Not Every Hero Wears A Cape; yours).
+- **98.3** "You still did what you did, though, and if it hurt people or damaged a life, that may need repair." (Instead of Blame; yours): your sixth question two paragraphs down asks it.
+- **98.4** "Feeling calmer doesn't mean their complaint is wrong, though, and it won't make them trust you on its own." (Instead of Blame; mine).
+- **98.5** "(nothing made up)" (Journal With Each Hand; mine).
+- **98.6** "And nobody's off the hook (you included, ...): whatever repair is owed is still owed." (And So That's the Way It Happened!; mine).
+- **98.7** "It doesn't have to happen after every session." (When to Change the Strategy; mine).
+- **98.8** "That might not be how it goes for everyone, and it doesn't mean unhappy people can't help." (Untangling the Belonging Bargains; mine).
+- **98.9** "(that part is optional)" (The Inner Guide; mine).
+- **98.10** "(And don't guess it from their gender or some other stereotype.)" (Speak Toward What You Are Building; mine).
+- **98.11** "(I'm only borrowing the word, so what it teaches about death and rebirth is up to you)" (When One Life Has Ended; mine).
+
+### 🟣 99. The Inner Guide: three headings, no word changes (turn 102)
+
+You asked for more sections done the way Borrow One Competency at a Time was. The Inner Guide is the longest stretch with no heading: ten paragraphs, 1,044 words. **[The draft, after and before](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-readers-edit/THE-INNER-GUIDE.md)**: your P1 stays under the h1, then "Between Spoiling and Clamping Down" (P2 to P5; P4's own words), "A Healthy Mind Is Not a Perfect Mind" (P6 to P8; the guide's own heading for this part) and "A Belonging Deeper Than Any Group" (P9 and P10; P9's words). Every paragraph stays word for word and in order. Not checked in Pangram yet: headings are never picked by a check, so each new section gets one check after you choose, then round 6.
+
+- **A (my pick):** all three headings.
+- **B:** only "A Healthy Mind Is Not a Perfect Mind", the guide's own.
+- **C:** no headings.
+
+## For you to do (no decision needed)
+
+> [!WARNING]
+> Comes back every turn. My merges are refused by the safety check, so it stays yours.
+
+### 🟠 Merge pull request #PRNUM (turn 102)
+
+Your answers to 94 and 95 put in and checked, questions 96 to 99, and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
+
+### 🔵 Round 6, the next whole-article check (turn 101)
+
+It waits for your answers to 96 to 99, so one check covers turns 100 to 102 and whatever those answers change.
+
+### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
+
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6 will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+
+## Decided
+
+> [!TIP]
+> Your answers in your words, and what I did with them.
+
+### 🟢 94 and 95, 2026-10-23 17:53 UTC
+
+Your message (turn 102; `experiments/t102-answers/JOEL-20261023-1753.md`). You merged pull request #227. The checks: `experiments/t102-api/API-CHECKS.md`; what happened, try by try: `experiments/t102-tries/REVIEWS.md`.
+
+- **94.1 A:** "That takes warmth, and if there isn't any yet, borrow some." stays whole.
+- **94.2 A:** with GPT's sentence in place of your two, the paragraph [read 100% AI](https://www.pangram.com/history/bf6562e2-577e-4fce-a12e-af98c12c7688); with yours it [reads 100% Human](https://www.pangram.com/history/889500ce-16d6-4f28-bf5c-fb4044ededdb), so yours stay. Your "Helpful advice is great, we all need advice." was the one line there that isn't an instruction.
+- **95.1 B:** left out. Thanks for the correction: those two sentences were mine, and I was wrong to call them your words. The coverage report now says so.
+- **95.2 A:** it read 100% AI in all three wordings I tried ([1](https://www.pangram.com/history/6aa17696-41e5-4a7c-88be-8bb14af1ee45), [2](https://www.pangram.com/history/b85736b8-dc31-4927-b434-626210690b5f), [3](https://www.pangram.com/history/9546ae2e-83fb-4fc9-9bb6-dc35fda537a1)), and the paragraph [reads Human without it](https://www.pangram.com/history/65c4489e-c342-4cb4-bd9d-0197cbdb5b8c). So the paragraph is as it was, and it's question 96.1.
+- **95.3 B, 95.4 B, 95.9 B:** nothing changed. **95.5** had no answer, so it stays out (my pick, B).
+- **95.6 B:** out. Your reason starts this turn's work: taking the repeated and blanket safety lines out of the whole guide (question 97).
+- **95.7 A:** in: "..., and they may be able to treat it while it's happening." 100% Human [alone](https://www.pangram.com/history/6f6a0142-c329-4046-bfa8-58bf1142d607) and [in Physical Pain Makes It Harder](https://www.pangram.com/history/e3f2e7b1-fd32-49eb-85f3-00176ef66dc9).
+- **95.8:** your point is in, after your "Although personally I wouldn't even bother with that": "..., because whatever they tell you today, the law can change tomorrow. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous." 100% Human [alone](https://www.pangram.com/history/7235759d-d2ef-4631-9fe3-f675d8f1818e) and [in its h3](https://www.pangram.com/history/9478bb7b-b9ce-4cb4-a84b-153d7920b3be). Your "we saw this already with ai" is question 96.2.
+- **95.10 A:** PGQ-035 and PGQ-036 are recorded as left out by your choice; PGQ-034 stays open for your words.
+- What it taught: E247 (a blanket or repeated safety line comes out; general guidance lives in one place) and E248 (a cut of commentary can take out the line that read human), in `docs/HUMANIZATION-GATE.md`, with a note on E242: say whose words a passage is only from the records.
+
+<details><summary>94 and 95 as they were asked</summary>
+
+#### 94. GPT's two line edits in Borrow One Competency at a Time (turn 101)
 
 From [GPT's review of the test](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-answers/GPT-REVIEW-20261023-1355.md): "Approve the layout, with the small 'borrow some' transition adjustment", then "a modest line-edit pass that proposes cuts like the advice example, with your approval for changes to protected wording." Your 91.1 B is in, and [the new h3 reads 100% Human](https://www.pangram.com/history/daced127-f97b-4ecc-a7bb-47c6c8c220b5); [the opening](https://www.pangram.com/history/80caed9d-cb5f-4978-8a36-75c5d12dcc7d) reads Mostly Human (2.5% AI) with no AI window anywhere in it. GPT would also have kept "Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us."; you cut it in 91.1 B, so it stays out unless you say otherwise.
 
@@ -19,7 +111,7 @@ From [GPT's review of the test](https://github.com/u-dont-existDOTcom/joel-artic
   - **A (my pick):** GPT's version. It keeps both points (advice is fine, and at their pace) in one sentence. It gets a Pangram check before it stays.
   - **B:** keep yours.
 
-### 🟣 95. What the coverage check found missing (your 92 A)
+#### 95. What the coverage check found missing (your 92 A)
 
 Three readers went through the guide and GPT's queue against the article as it stands, and traced every gap through your recorded decisions: [the guide's first half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-A.md), [its second half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-B.md) and [the queue](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-QUEUE.md). Nearly everything that's out is out because you cut or rewrote it, and that stays as it is. These are the real gaps, the ones no decision of yours explains. One more was a cut of mine against your 49.5 (the Higher Self line in Borrow Hindsight), and it's back in already. To take all my picks, answer "95: your picks".
 
@@ -56,27 +148,8 @@ From GPT's queue:
   - **A (my pick):** record 035 and 036 as left out by your choice (your hypnosis guide covers 036), and keep 034 open for your words.
   - **B:** all three stay open.
 
-## For you to do (no decision needed)
 
-> [!WARNING]
-> Comes back every turn. My merges are refused by the safety check, so it stays yours.
-
-### 🟠 Merge pull request #227 (turn 101)
-
-Your answers to 91 to 93 put in and checked, question 94, the coverage check and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/227. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
-
-### 🔵 Round 6, the next whole-article check (turn 101)
-
-It waits for your answers to 94 and 95, so one check covers everything that has changed since round 5: turn 100's four rewrites and your two paragraphs, this turn's changes, and whatever 94 and 95 add.
-
-### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
-
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6 will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
-
-## Decided
-
-> [!TIP]
-> Your answers in your words, and what I did with them.
+</details>
 
 ### 🟢 91 to 93, 2026-10-23 14:05 UTC
 

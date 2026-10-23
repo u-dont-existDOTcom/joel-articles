@@ -142,21 +142,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
-| **all lanes** | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
+| inner child guide | 48 | 37 (77%) | 46% | 54% | 56% | 0.193 (base 0.248, 48) |
+| **all lanes** | 48 | 37 (77%) | 46% | 54% | 56% | 0.193 (base 0.248, 48) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
+| inner child guide | 48 | 37 (77%) | 46% | 54% | 56% | 0.193 (base 0.248, 48) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 17 | 14 (82%) | 35% | 65% | 59% | 0.191 (base 0.228, 17) |
-| section | 12 | 9 (75%) | 58% | 42% | 33% | 0.184 (base 0.243, 12) |
+| paragraph | 23 | 17 (74%) | 43% | 57% | 65% | 0.204 (base 0.246, 23) |
+| section | 14 | 11 (79%) | 50% | 50% | 43% | 0.180 (base 0.250, 14) |
 | stretch | 11 | 9 (82%) | 45% | 55% | 55% | 0.184 (base 0.248, 11) |
 
 ## What the misses say (since the ledger)
@@ -167,10 +167,11 @@ The boundary mix over all lanes:
 | a paragraph alone is harsher than the article | 7 | nibbana article |
 | balanced closer kept | 3 | hypnosis guide |
 | not explained yet | 3 | inner child guide |
+| a tell I did not name | 3 | inner child guide |
+| an added move read AI | 3 | inner child guide |
 | parallel list kept | 2 | hypnosis guide |
 | context: red in the whole guide, Human in the pair | 2 | hypnosis guide |
 | six versions, same reading: the method is spent | 2 | hypnosis guide |
-| a tell I did not name | 2 | inner child guide |
 | a window moved onto his line | 2 | inner child guide |
 | a second cut of the same kind | 2 | inner child guide |
 | a Low window came back | 2 | inner child guide |
@@ -185,7 +186,6 @@ The boundary mix over all lanes:
 | tidy closer | 1 | hypnosis guide |
 | a linter fix that read worse | 1 | hypnosis guide |
 | a tell I left in | 1 | inner child guide |
-| an added move read AI | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |
 | the half varies | 1 | inner child guide |
