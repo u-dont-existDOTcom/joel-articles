@@ -1,0 +1,8 @@
+{
+ "turn": 98,
+ "commit": "464c1717730b900ec7a1385de965a4d55a1f4422",
+ "how": "experiments/t88-substack/paste_payload_lane.js in his Brave (Claude in Chrome): the title checked, the editor focused (ProseMirror-focused, the selection inside it), the body cleared with real ctrl+a and Delete, the payload fetched from raw.githubusercontent.com at the commit and its SHA-256 checked, then pasted. Never published.",
+ "A": {"title": "Inner Child, draft A (temp, delete after)", "payload_sha256": "938b716eae66b2f7dd392f910d29aec2f9146d73fa1c3ce26da33d9d30a19f1c", "editor_words": 15336, "words_match": true, "saved": "2026-10-23T02:38:17.935Z", "pangram_badge": "Human"},
+ "B": {"title": "Inner Child, draft B (temp, delete after)", "payload_sha256": "fd47f55c5b5b5b21372a7226d30a048101ee1d48595a6bf9cc045474a15d7597", "editor_words": 12713, "words_match": false, "why": "the only difference from TEXT-B.txt's 12,613 words: the bare note link (one word) became the note's embed (101 words), as in rounds 3 and 4; the 8,659 words before it and the 3,953 after it match", "saved": "2026-10-23T02:39:20.748Z", "pangram_badge": "Human"},
+ "next": "Joel clicks each preview's Pangram badge and copies \"Copy shareable link to result\"; the badge's own word (Human) is not the result, the feed page's windows are."
+}

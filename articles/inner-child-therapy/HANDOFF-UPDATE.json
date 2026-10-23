@@ -1,31 +1,26 @@
 {
- "turn": "98, in progress",
+ "turn": 98,
  "replace": [
   [
-   "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#223\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/223\\)\\ for\\ him\\ to\\ merge\\.",
-   "FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #223 (https://github.com/u-dont-existDOTcom/joel-articles/pull/223) merged (2026-10-23 01:12 UTC).",
+   "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631\\.$",
+   "the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225) for him to merge.",
    1
   ],
   [
-   "^1\\. His answers to questions 88 to 90 on the questions page.*$",
-   "1. The two round-5 links (the halves on the Substack check) once the drafts hold turn 98's text; once the results are final, his delete of the two temporary Substack drafts (A and B).",
+   "^2\\. His merge of turn 98's pull request \\(#223 is merged\\)\\.$",
+   "2. His merge of pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225), turn 98 (#223 is merged).",
    1
   ],
   [
-   "^2\\. His merge of pull request #223 .*$",
-   "2. His merge of turn 98's pull request (#223 is merged).",
-   1
-  ],
-  [
-   "^1\\. His answers to 88 to 90; his words in word for word\\..*$",
-   "1. Round 5: paste experiments/t98-substack/PAYLOAD-A.html and -B.html into the two temporary drafts (experiments/t88-substack/paste_payload_lane.js with window.__paste from PAYLOADS.json; check the editor has focus, clear the body with real ctrl+a, Delete; never Publish), then ask him for the two links. With them, score the halves and the twelve items in experiments/t98-substack/ITEMS.json (predictions #100 to #113), build the scorecard, and give him each check he should look at with its link (E214). API checks of paragraphs or sections: tools/humanization/pangram_api.py check ... --windows --expect 4.1 --public (E227), at most five or six paragraphs a check.",
+   "^1\\. Round 5: paste experiments/t98-substack/PAYLOAD-A\\.html and -B\\.html into the two temporary drafts.*$",
+   "1. His two round-5 links (the drafts hold turn 98's text, checked word for word: experiments/t98-substack/PASTED.json). With them, read each feed page (the React props textQueryData.response_payload; windows' indexes are code points) and score the halves and the twelve items in experiments/t98-substack/ITEMS.json (predictions #100 to #113), record the results and explanations, build the scorecard, and give him each check he should look at with its link and part number (E214). API checks of paragraphs or sections: tools/humanization/pangram_api.py check ... --windows --expect 4.1 --public (E227), at most five or six paragraphs a check.",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 97 (",
-   "- TURN 98 (2026-10-23, his message of 02:29 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631.\n  - His message: experiments/t98-answers/JOEL-20261023-0229.md. His rewrites of How Much Happiness, Stays Shallow and The Parent You Inherited are in word for word (entry joel-98-20261023), each Human in his check; 89: A (my wording of his Related Clinical Work line); 90: A covered by his rewrite; \"public pangram links are ok\" (E227). Lessons E223 to E227.\n  - NEXT: Next step 1."
+   "  - NEXT: Next step 1.",
+   "  - Round 5: both halves pasted into the temporary drafts and checked word for word (B differs only by the note embed, as before); predictions #100 to #113 first; the previews are open in his Brave, and the links are his to copy."
   ]
  ]
 }

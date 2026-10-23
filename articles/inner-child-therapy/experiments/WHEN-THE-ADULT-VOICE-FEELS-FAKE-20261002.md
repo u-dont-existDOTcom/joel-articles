@@ -1380,3 +1380,8 @@ His message, saved first (`t98-answers/JOEL-20261023-0229.md`). He merged pull r
 - **"public pangram links are ok":** `pangram_api.py check ... --public` (E227).
 - **Lessons E223 to E227:** polish with no meaning (his words on The Parent You Inherited), a reference in proportion, what his rewrites changed, his pet names, the public links.
 - **Round 5** (`t98-substack/`): the halves as payloads (A 15,336 words, B 12,613) and twelve items whose readings decide something (`ITEMS.json`); predictions #100 to #113 first.
+- **Pasted** (`t98-substack/PASTED.json`): both drafts cleared with real ctrl+a and Delete after a focus check, the payloads pasted from the pushed commit and checked word for word (B differs only by the note's embed, as in rounds 3 and 4). Never published. The previews are open in his Brave; both badges say "Human", which is the extension's label, not the result.
+
+### Next
+
+1. His two round-5 links. Then score the halves and the twelve items (predictions #100 to #113), build the scorecard, and give him each check he should look at with its link and part number (E214).

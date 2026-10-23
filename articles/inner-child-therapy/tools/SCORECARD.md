@@ -178,4 +178,18 @@ The latest:
 | shallow-section | section | 2 of 2 | Mixed |
 | parent-section | section | 1 of 2 | Mixed |
 | happy-P4 | paragraph | 1 of 6 | AI |
+| t98-byt-his | section | 1 of 2 | pending |
+| t98-body-his | section | 1 of 2 | pending |
+| t98-parent-his | section | 1 of 2 | pending |
+| t98-item-padult5 | paragraph | 1 of 6 | pending |
+| t98-happy-his | section | 1 of 2 | pending |
+| t98-shallow-his | section | 1 of 2 | pending |
+| t98-related-mine | section | 1 of 2 | pending |
+| t98-item-guide5 | paragraph | 1 of 6 | pending |
+| t98-item-write6 | paragraph | 1 of 6 | pending |
+| t98-item-forgive3 | paragraph | 1 of 6 | pending |
+| t98-item-ended1 | paragraph | 1 of 6 | pending |
+| t98-item-borrowed1 | paragraph | 1 of 6 | pending |
+| t98-substack-A | stretch | 1 of unlimited (Substack) | pending |
+| t98-substack-B | stretch | 1 of unlimited (Substack) | pending |
 
