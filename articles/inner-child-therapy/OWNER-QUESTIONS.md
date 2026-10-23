@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 102). **Open questions: 96 to 99.** For you to do: merge pull request #PRNUM. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 102). **Open questions: 96 to 99.** For you to do: merge pull request #229. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -66,9 +66,9 @@ You asked for more sections done the way Borrow One Competency at a Time was. Th
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #PRNUM (turn 102)
+### 🟠 Merge pull request #229 (turn 102)
 
-Your answers to 94 and 95 put in and checked, questions 96 to 99, and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
+Your answers to 94 and 95 put in and checked, questions 96 to 99, and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/229. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
 
 ### 🔵 Round 6, the next whole-article check (turn 101)
 
