@@ -1,14 +1,14 @@
 {
  "A": {
   "archival": "articles/inner-signal/humanize/fix-20261023/recheck/ARCHIVAL-SUBSTACK-20261023.html",
-  "archival_sha256": "2587fecb86cdfbb9c72ac88e9ac7014a6938e09607a028a0b6c981f3431ac886",
+  "archival_sha256": "457c40e0f6dad912001d5c237f2afe660a0c00259c2a1f51c82753a4d26aae00",
   "helper": "articles/inner-signal/humanize/fix-20261023/recheck/COPY-TO-SUBSTACK-HYPNOSIS-RECHECK.html",
-  "helper_sha256": "4f426fa353f43b481544e4a0eda6763c75a8740692ed9b0502b7078afd5a2958",
+  "helper_sha256": "2396c2f472f1c2d0b25a1d9b6e2c9da5655c29ca641fb668b35812df833c2dd2",
   "payload": "PAYLOAD-A.html",
-  "payload_sha256": "6d2814dd43b2203e029d67b77083ab4d9242e3dc6414c89ed2b1e503397703b8",
-  "payload_chars": 186396,
+  "payload_sha256": "4ccb455f41d32b17bc19c22d068a88488f62c602a53b19e01e748ecb9de2b8ab",
+  "payload_chars": 186929,
   "text": "TEXT-A.txt",
-  "text_sha256": "7ef9243af4a4cea88fb2be30ee58b332faac39aa731d76d0697469c344ffbda8",
+  "text_sha256": "e27356d7efbeebaac99cdebc7b8066f072c68c9983eefcdd1e10c9041737fef8",
   "text_chars": 99999
  },
  "B": {
@@ -23,7 +23,7 @@
   "text_sha256": "76745975db144bbc3a627d88c05e624cd8510f82265424312a3ec7bbc306c8d6",
   "text_chars": 57384
  },
- "master_sha256": "358b6d4efb06503bd67cd4b32c18286c6b54874d16ecdeb40eae192b21ada9da",
+ "master_sha256": "de74e25503bf025e6a7dcb15a9d27633a83c26e740cae9981d7be42f057b5c01",
  "merge": {
   "verdict": "PASS",
   "report": "MERGE-REPORT-20261023.json"

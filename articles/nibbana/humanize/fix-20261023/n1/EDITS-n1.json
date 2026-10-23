@@ -33,17 +33,6 @@
   "review": "fix-20261023/n1/REVIEW.md"
  },
  {
-  "key": "n1-rebirth",
-  "windows": "126 (Medium)",
-  "shape": "a definition with a colon and a chain (\"Rebirth is causal continuity without a traveler, often called a mind-stream: ...\")",
-  "old": "Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth.",
-  "new": "What continues is a chain of causes with no traveler riding along, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth.",
-  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_rebirth",
-  "try": 1,
-  "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:24:38Z; 96 words on its own)",
-  "review": "fix-20261023/n1/REVIEW.md"
- },
- {
   "key": "n1-science",
   "windows": "133 (High)",
   "shape": "four findings as a colon list in parallel (\"Science circles consciousness's edges: X, Y, Z, and W\")",
@@ -53,6 +42,30 @@
   "try": 1,
   "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:24:41Z; 93 words on its own)",
   "review": "fix-20261023/n1/REVIEW.md"
+ },
+ {
+  "key": "n2-rebirth",
+  "windows": "120 (High) in the recheck of 2026-10-23; 126 (Medium) in the check of 2026-10-20",
+  "shape": "a definition with a colon and a chain (\"Rebirth is causal continuity without a traveler, often called a mind-stream: ...\")",
+  "old": "Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth.",
+  "new": "Rather, rebirth is seen as a causal process: there is a continuity (often called a “mind-stream”), but there is not a “thing” that’s moving from one life to the next. Craving and clinging lead to becoming, and becoming leads to birth.",
+  "check": "https://www.pangram.com/history/d09ef29a-c0be-4cd6-a42f-99383aa60007",
+  "try": 2,
+  "result": "Human Written (Pangram 4.1, the API, 2026-10-23T13:00:52Z; 112 words on its own, one window, High)",
+  "review": "fix-20261023/n2/REVIEW.md",
+  "triage": "fix-20261023/n2/TRIAGE.json"
+ },
+ {
+  "key": "n2-love",
+  "windows": "18 (Low) in the recheck of 2026-10-23; 20 (Low) in the check of 2026-10-20",
+  "shape": "a reflection after a colon, \"perhaps\" (\"I thought: if he could find love there, perhaps ...\")",
+  "old": "I thought: if he could find love there, perhaps I could stop treating my own hell as an excuse.",
+  "new": "I figured if he could find love in a place like that, maybe I could stop using my own hell as an excuse.",
+  "check": null,
+  "try": null,
+  "result": "a Low window, which the API does not reproduce (E226): read in place in the next recheck",
+  "review": "fix-20261023/n2/REVIEW.md",
+  "triage": "fix-20261023/n2/TRIAGE.json"
  },
  {
   "key": "n1-nde-joel-1230",

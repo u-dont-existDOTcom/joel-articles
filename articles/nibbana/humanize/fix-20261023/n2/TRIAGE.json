@@ -1,0 +1,24 @@
+{
+ "key": "n2",
+ "brief": "fix-20261018/rf-a/TRIAGE-BRIEF.md (the hypnosis guide lane's), with E231: when the reader flags the very words that made a fix pass, its fix is checked first, and the words that passed stay if the fix reads worse",
+ "items": [
+  {
+   "item": "n2-rebirth",
+   "verdict": "CHANGED",
+   "decision": "LET STAND, after a check of the reader's rewrite",
+   "findings": [
+    "\"is seen as\" reports the doctrine instead of stating it",
+    "\"lead to\" loosens \"condition\", dependent origination's relation"
+   ],
+   "why": "The reader's smallest rewrite (\"seen as\" out, \"condition\" back) was checked first (try 3, n2_rebirth_bj_r, https://www.pangram.com/history/27a1f56f-5d39-4a84-a406-6e3af4b64dcf): Human Written, but the sentence split off, and the chain with \"condition\" read Human, Low, alone (10 words). Try 1's sentence read Human, Low, alone too and AI, High, in place in the recheck, so Low is the warning sign (E234). bj as checked read one window, Human, High (try 2, https://www.pangram.com/history/d09ef29a-c0be-4cd6-a42f-99383aa60007). Both findings are wording within the same meaning: the paragraph is about how Buddhists see rebirth (\"Buddhists don't imagine ...\", then \"Rather, rebirth is seen as ...\"), and \"lead to\" is the plain English most teachers use for the links (all four links are there, in order). So bj goes in as checked, and Joel is told the reader's preference in one line, his call if he wants \"condition\" back.",
+   "install": "n2_rebirth_bj"
+  },
+  {
+   "item": "n2-love",
+   "verdict": "OK",
+   "decision": "install",
+   "why": "meaning, voice and sense kept (REVIEW.md, item 2); a Low window, which the API does not reproduce (E226), so it is read in place in the recheck",
+   "install": "I figured if he could find love in a place like that, maybe I could stop using my own hell as an excuse."
+  }
+ ]
+}

@@ -883,6 +883,57 @@ The records: `articles/inner-child-therapy/experiments/t98-answers/JOEL-20261023
 - **E226. Pet names and exclamations are his warmth.** "your little sweetie pie", "their little boo", "do a double check: they might still be doing it!", "well, of course your little one doesn't answer." They go in his text; I don't imitate them in mine without his say.
 - **E227. Public Pangram links for API checks.** His words: "public pangram links are ok." `tools/humanization/pangram_api.py check ... --public` asks for each result's public Pangram page and prints its link, which is the link he gets for a stretch he should look at (E214).
 
+## What Joel's message of 2026-10-23 12:30 UTC taught (the hypnosis guide and Nibbāna lanes)
+
+The records: `articles/inner-signal/humanize/fix-20261023/joel-20261023-1230-message.txt` (the same file in the Nibbāna
+lane's `fix-20261023/`), batch 473 (`articles/inner-signal/humanize/fix-20261023/b473/`) and batch n2
+(`articles/nibbana/humanize/fix-20261023/n2/`), each with its API checks' Pangram pages on `API-CHECKS.md`.
+
+- **E234. A Human, Low window alone is a warning, not a pass.** My n1 rebirth sentence read Human alone through the API,
+  its own window Human, Low, and then AI, High, as a 26-word window of its own in the whole article (the recheck of
+  2026-10-23, window 120). Emulate's version read one window, Human, High, alone. The second reader's rewrite of that
+  version ("condition" back) read Human too, but split the chain off into a Low window, so it stayed out (n2's
+  `TRIAGE.json`). A fix goes into a recheck when its own window reads Human at Medium or High alone; with a Low one, check
+  another version first, or say in the prediction that it may turn red in place. (E226 is the converse: a Low window in
+  place is not reproduced by the API at all.)
+- **E235. Joel's re-run trick.** His words: "there is another emulate trick, you can take text emulate gives which doesn't
+  pass, and re-run it, and then it can pass". Question 14's seam was Emulate's text (sample bf) with my meaning fixes, and
+  it read AI, High, in six versions of mine (E227). Re-run through Emulate three times, sample bj's first paragraph read
+  Human, High, alone, with the two points it dropped put back ("qualified", "right away"); with sample bk's return
+  paragraph, the only one that kept "your body belongs to you", the pair read Human, High, as one window. So when
+  Emulate's own text reads AI, re-run it through Emulate before rewording it myself, put back only the meaning a sample
+  drops, in as few words as possible, and check.
+- **E236. What his N2 rewrites changed** ("dark green" in his own checks). The near-death reports, SN 22.22 with the
+  proton, the Diamond Sutra's sources and the driving caution had read AI, High, in three tries of mine each: reworded, a
+  new frame, a new order (E232). His words on SN 22.22: "this one was hard to understand due to the compression, i fixed
+  it". What he did:
+  1. He said what the compressed line meant, in more words: "the five aggregates that make up the unified body-mind are
+     the burden ... and craving is the process that keeps picking that burden up".
+  2. He gave it an image that makes it concrete and funny: "unaware of the boulder on your back even as you keep making the
+     payments to the Boulder Bank to keep it there (and thank God you can afford to!?)".
+  3. He said the reader's likely objection: "which sounds counterintuitive since we don't imagine the whole can be more
+     than the sum of its parts in that way."
+  4. He told the correction as a story, the sources inside what they show: "I used to attribute ... until I found out the
+     famous stanza I loved comes from the much later Mahāyāna Diamond Sutra", "SN 22.95 shows us how form is empty and
+     always transforming, like foam".
+  5. Asides and his stance: "(which, btw, are even more interesting than reading "trip reports.")", "consciousness is
+     basically the best magic trick", "I would have pulled over myself, I'm pretty sure!", and a joke to end on: "It's
+     definitely not helping spread the dhamma if people get hit on the road by Buddhist drivers who meditated too hard."
+  6. His friend's story got its details: "He'd be going down the highway for long stretches while his own car and the
+     traffic outside it seemed to disappear. Surprisingly, he never had an accident, either."
+
+  It's E223 (Inner Child) again: a try says what the sentence means even if that takes more words. All three of my tries
+  kept the compression.
+- **E237. Emulate first was the rule, and batch n1 skipped it.** His question: "it seems like you have quit using emulate,
+  just curious? why?" The shared rule (root `AGENTS.md`, `docs/EMULATE-FALLBACK.md`) puts Emulate first on the flagged
+  paragraphs of a published article being humanized. Batch n1 fixed Nibbāna's red stretches in place instead, on the
+  reasoning that Emulate would lose the links and claims of short, citation-dense stretches; no record made that an
+  exception, and none should have. 8 of its 19 predictions were right, and four stretches read AI in three tries each
+  until his rewrites. Batch n2 went back to Emulate, and both of its fixes passed on their first check: the rebirth
+  sentence spliced from a sample of the published paragraph (his lines and links around it untouched), and the seam
+  re-run (E235). For citation-dense text, the splice is the way: only the red sentence comes from Emulate's sample, and
+  the second reader checks its claims.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

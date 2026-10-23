@@ -2,8 +2,8 @@
 
 ## Source fidelity
 
-- Archival source SHA-256: `2587fecb86cdfbb9c72ac88e9ac7014a6938e09607a028a0b6c981f3431ac886`
-- Editor-body SHA-256: `54b69fba9e6cd48f8f35983ae7694cece69ae0ee0de991df36634e4db4b94c88`
+- Archival source SHA-256: `457c40e0f6dad912001d5c237f2afe660a0c00259c2a1f51c82753a4d26aae00`
+- Editor-body SHA-256: `3b6d9fb2d1165478c1cffdfd756db3f0105c3bfb08b5755dbde50c51c52d724a`
 - Object count: 8
 - Finding: source identity recorded; this report does not alter archival HTML.
 
@@ -17,7 +17,7 @@
 
 | Segment | Source range | Empty edge? | Payload SHA-256 |
 |---|---:|---|---|
-| 1 | 0–199218 | no | `6d2814dd43b2203e029d67b77083ab4d9242e3dc6414c89ed2b1e503397703b8` |
+| 1 | 0–199753 | no | `4ccb455f41d32b17bc19c22d068a88488f62c602a53b19e01e748ecb9de2b8ab` |
 
 ## Manual native steps
 

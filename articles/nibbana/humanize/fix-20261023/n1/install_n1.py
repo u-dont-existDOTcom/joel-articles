@@ -23,8 +23,24 @@ GO = {
     'n1-unification': ('n1_unification', 1, M.E['n1-unification'][2]),
     'n1-percentages': ('n1_percentages_t2', 2, M.T2['n1-percentages']),
     'n1-last-test': ('n1_last_test', 1, M.E['n1-last-test'][2]),
-    'n1-rebirth': ('n1_rebirth', 1, M.E['n1-rebirth'][2]),
     'n1-science': ('n1_science', 1, M.E['n1-science'][2]),
+}
+# Batch n2 (2026-10-23, after his message of 12:30 UTC: "for the other parts you can either learn from me or learn from
+# emulate right?"). n1-rebirth's sentence read Human alone but AI, High, in place in the recheck (feed 6a726359, window
+# 120), so it is out and Emulate's version (sample bj) is in: Human, High, as one window alone (n2_rebirth_bj); the
+# reader's two words read Human, Low, on the chain, and stay out (../n2/TRIAGE.json). n2-love is the Low window 18
+# ("I thought: if he could find love there, ..."), reworded and OK by the reader; the API doesn't reproduce a Low window
+# (E226), so the recheck reads it in place.
+PUB_REBIRTH = M.E['n1-rebirth'][2][0][0]
+N2D = N.parent / 'n2'
+N2 = {
+    'n2-rebirth': ('n2_rebirth_bj', 2, '120 (High) in the recheck of 2026-10-23; 126 (Medium) in the check of 2026-10-20',
+                   M.E['n1-rebirth'][1],
+                   [(PUB_REBIRTH, json.loads((N2D / 'CANDIDATES.json').read_text(encoding='utf-8'))['candidates']['n2_rebirth_bj'])]),
+    'n2-love': (None, None, '18 (Low) in the recheck of 2026-10-23; 20 (Low) in the check of 2026-10-20',
+                'a reflection after a colon, "perhaps" ("I thought: if he could find love there, perhaps ...")',
+                [('I thought: if he could find love there, perhaps I could stop treating my own hell as an excuse.',
+                  'I figured if he could find love in a place like that, maybe I could stop using my own hell as an excuse.')]),
 }
 # Joel's own words (question N2: A), from his message of 2026-10-23 12:30 UTC (../joel-20261023-1230-message.txt, word for
 # word): he took each stretch's third try, rewrote it, and checked it himself ("dark green"). Each replaces its whole
@@ -112,6 +128,25 @@ def main():
                         'result': '%s (Pangram %s, the API, %s; %d words on its own)' % (r['headline'], r['version'],
                                                                                           r['utc'], r['words']),
                         'review': 'fix-20261023/n1/REVIEW.md'})
+    n2 = {}
+    for f in sorted(N2D.glob('API-RESULTS-*.jsonl')):
+        for l in f.read_text(encoding='utf-8').splitlines():
+            if l.strip():
+                r = json.loads(l)
+                n2[r['name']] = r
+    for key, (check, tr, windows, shape, pairs) in N2.items():
+        r = n2.get(check) if check else None
+        if check:
+            assert r['headline'] == 'Human Written', (key, r['headline'])
+        for old, new in pairs:
+            assert work.count(old) == 1, key
+            work = work.replace(old, new)
+            rec.append({'key': key, 'windows': windows, 'shape': shape, 'old': old, 'new': new,
+                        'check': r['dashboard_link'] if r else None, 'try': tr,
+                        'result': ('%s (Pangram %s, the API, %s; %d words on its own, one window, %s)' % (
+                            r['headline'], r['version'], r['utc'], r['words'], r['windows'][0][1]) if r else
+                            'a Low window, which the API does not reproduce (E226): read in place in the next recheck'),
+                        'review': 'fix-20261023/n2/REVIEW.md', 'triage': 'fix-20261023/n2/TRIAGE.json'})
     work, joel = joel_edits(work)
     for key, old, new in joel:
         rec.append({'key': key + '-joel-1230', 'windows': M.E[key][0], 'shape': 'his own words (question N2: A)', 'old': old, 'new': new,
