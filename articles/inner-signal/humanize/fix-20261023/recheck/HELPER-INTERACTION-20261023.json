@@ -1,0 +1,23 @@
+{
+  "format": "clipboard-interaction-test-v1",
+  "helper_sha256": "2396c2f472f1c2d0b25a1d9b6e2c9da5655c29ca641fb668b35812df833c2dd2",
+  "source_sha256": "457c40e0f6dad912001d5c237f2afe660a0c00259c2a1f51c82753a4d26aae00",
+  "canonical_helper_format": "joel-substack-transfer-helper-v4",
+  "tests": [
+    {
+      "path": "ClipboardItem Blob sink",
+      "segments": 1,
+      "status": "pass"
+    },
+    {
+      "path": "execCommand selected-rich-DOM sink",
+      "segments": 1,
+      "status": "pass"
+    }
+  ],
+  "status": "pass",
+  "navigation": "exact HTML set_content in headless Chromium; no local-file/Opera claim",
+  "clipboard": "injected sinks, not operating-system clipboard",
+  "destination": "not tested; no Substack mutation",
+  "native_reconstruction": "requires actual destination inspection"
+}

@@ -764,8 +764,110 @@ What the turn's two API rounds showed (`articles/inner-child-therapy/experiments
 - **E221. A plain, joking line in his register beat a formal disclaimer.** Related Clinical Work read AI only on "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus." My wording, "I borrow particular ideas and practices from each of them, but the mix is mine, so please don't blame them for it.", read 100% Human with its section. It is his line, so it waits for his yes; the owner-edit check refused it when I put it in.
 - **E222. In Stays Shallow, plain statements and a playful detail passed where a diagnosis didn't.** These read Human: "A nice session that just wears off is a different thing.", "I'd ask what the dream let you feel that the session didn't, and look at it again after your morning coffee." and "dial the practice down". The hypothetical setup after his night line still read AI ("Say you wake up from a dream soaked in way more feeling and need than anything the session got near."), and so did its short diagnosis ("Then this is probably you.").
 
+## What Joel's message of 2026-10-23 01:10 UTC taught (the hypnosis guide: recheck A, question 13, the screening's repeat)
+
+The records: `articles/inner-signal/humanize/fix-20261023/` (his message word for word, `joel-20261023-0110-message.txt`;
+batch 472g's API checks, `b472/API-CHECKS.md`; this round's recheck, `recheck/`).
+
+- **E223. What his Appendix C opening changed (question 13: "13 human high conf learn some lessons").** Six versions of
+  the opening had read AI: his published list, my prose and four rewrites. Sample S5 of the first screening post already
+  had his run of "What would love do? What would truth do?" and four "if it's really ..." tests, and every window of its
+  opening read AI. His version read Human, high, in his check. Against S5:
+  1. **One question with the thought in it replaced the stock pair:** "What would this thing influence me to believe that
+     isn't true in order to get what it wants from me?" for "What assumptions are being made? Who benefits from this?"
+  2. **A gloss, not a hedge:** "What is my body telling me to do about this (how does my body feel)?" Every version that
+     read AI hedged the body's signal in brackets instead: "(Don't assume you know what it means.)", "(but not believing
+     everything it says)", "but I won't assume I know what it proves". (His version leaves that caution out; it is his to
+     drop, and his list of warning signs right after it covers it.)
+  3. **A run of questions that breaks its own frame:** "What would love do here? What would truth do here? How would I
+     approach this humbly? What would life have me do here?" S5's four "What would X do?" read AI.
+  4. **Small words of stance:** "I don't even have to attack it", "I can just slow myself down", "ask some questions like".
+  5. **An aside naming who says it** (E207's move 2): "it can take your questioning (as the police like to say)".
+  6. **Parallel tests with different verbs and lengths, the last long and personal:** "can take your questioning", "can
+     accommodate your boundaries", "it'll still be there tomorrow", "it won't want you to give up all the wisdom and
+     sovereignty you've worked so hard to develop". S5 said "will survive" twice.
+  7. **A how-to lead with its examples in brackets:** "What to do when you feel like you're being pushed too hard by
+     something (person, ad, ideology, spiritual teaching, romantic attraction, internal voice, etc.): Say to yourself,"
+     for S5's "Here's a checklist for when you find yourself in that place ..." and my "Use this checklist when ...".
+  8. **In the rest (read in recheck B), the signs as what the thing does, in one sentence with plain repeats and
+     slashes:** "see if it does any of the following: create a sense of urgency, ..., ask you for money, ask you for sex,
+     ask you for loyalty, ..., make normal life seem boring/stupid/irrelevant in its presence, try to seduce/scare/rescue
+     your child". And the bad guide's last sentence has a doer trying something, with the proof folded into the list: "A
+     bad guide will try to make your no something that's bad or needs to be fixed (resistance, ego, ..., need for more of
+     its guidance, etc)", where S5's "Therefore, no will be framed as bad (...) or as proof you need more guidance" read AI.
+
+  So when a paragraph has read AI in several wordings, the next try changes its questions, not its words: the one thing
+  each check is for, asked the way a person would ask it; a gloss where mine had a hedge; a run that breaks its frame.
+  Batch 472g used move 7 at once: De-hypnosis's ten "By a screen? ... By repetition?" questions became his bracketed list,
+  and read Human with that sentence's window High, where the questions had read Medium.
+- **E224. Samples that share text go in separate checks** (his words: "also it seems like you duplicated this in your
+  check"). The second screening post repeated Appendix C's middle and end in both new openings' samples, so that each
+  opening was read with the same text after it. On one page that reads as a mistake. Since the API is open for
+  paragraphs and sections (E218), samples that share text are separate API checks of five or six paragraphs at most; a
+  Substack screening post holds only samples with nothing in common.
+- **E225. "Mostly Human Written" is Mixed.** I recorded recheck A's result with `--verdict Human`, and a check of every
+  result line against its headline found the same slip on part B of 2026-10-21. A Human verdict is a 100% Human result
+  (`verdict_of`), so both calls were scored the wrong way. Both have correction lines, and `pangram_ledger.py result` now
+  refuses a typed verdict that its headline or fraction contradicts (`tests/test_pangram_ledger.py`).
+- **E226. A pair through the API reproduces a strong window, not a weak one.** Recheck A's seam between the induction
+  section and the return read AI, High, in the guide, and AI, High, on its pair every time. Its two Low and Medium
+  stretches (De-hypnosis's questions; the return's "Get up only when you feel steady ...") read Human on their pairs as
+  they stood. So for a High window the pair is a diagnosis, and a fix can be tried on it. For a Low one the pair shows
+  only that a candidate is no worse, and the next whole-guide check decides (E215 in reverse).
+- **E227. When every wording reads AI alone, the reasoning goes to Joel.** The seam read AI, High, in six versions:
+  reworded, in his register (his casual words, an image for each step), and with the tidy closers taken out of both
+  paragraphs. The induction paragraph read AI alone in the last two. Both paragraphs come from the published guide's
+  polished text, and no earlier draft of his has them, so there is nothing of his to go back to. It went to him as
+  question 14, as Appendix C's opening did at the same count. One sign along the way: the return paragraph's tidy closer
+  ("The only things you bring back out are the ones you actually want.") read AI, High, in a 13-word window of its own.
+- **E228. A linter fix can read worse.** Clearing the linter's B3 (a short knock-down) by joining "It's all around you."
+  onto the bracketed list's sentence turned that sentence's window from High to Low, and the pair from 0% to 9.6% AI. The
+  short sentence was the installed text's, and it went back as it was (E211).
+- **E229. A push can leave out what its checks ran on.** `lane_push.py --add TOOL --add TEST` committed only the test:
+  with `nargs='*'` alone, a second `--add` replaced the first. Its checks run on the working tree, where the tool change
+  was, so they passed, and the pushed commit had a test without the code it tests. Each `--add` now adds to the list
+  (`tests/test_lane_push.py`), and the push stops when `tools/`, `tests/` or `scripts/` have changes the commit leaves out.
+- **The API script in the laptop's lane folder is the old one.** `/home/joel/ai-work/claude-dangerous-lane/pangram_api.py`
+  (SHA-256 d45a9a44...) still requires version 4.0 and stops on a 4.1 result. Fetch the repository's current one at a
+  main commit into the check's own folder and check its SHA-256 (4a100ecd... at 92f87f0d), as
+  `fix-20261023/b472/` did.
+
+## What Nibbāna's batch n1 taught (2026-10-23, the article's first 4.1 pass)
+
+- **E230. An API page has to label every line of a window.** Each check's page (`api_page.py`) put a window's label
+  only on its first line. In the driving caution's tries 1 and 2, the High window ran from the possibilities over the
+  paragraph break into the caution, so the caution's line was bold with no label, and I read it as Human. Try 3's
+  prediction rested on that ("the caution is try 1's, which read Human twice"), and it was wrong: the caution read AI in
+  all three tries. Both lanes' page builders (`fix-20261023/n1/` and the guide's `fix-20261023/b472/`) now label every
+  line of a window, the later ones "[AI, High, same window]", and both pages were rebuilt. A check of the guide's page
+  found no claim of mine resting on such a line (the seam's second paragraph was always reported as AI). The miss has
+  its explain line in the Nibbāna ledger (NB-P266#19).
+- **E231. A reader's neutral fix can bring the red back.** The science paragraph's try 1 read Human, 0% AI, and the
+  reader marked it CHANGED: "only gets to" states a limit, and "some wild stuff out there" gives Joel a reaction his
+  sentence doesn't have. The reader's own fix ("and here's some of what it finds out there:") read AI, High, and turned
+  his own unchanged sentences after it from Human to AI too. What read Human was the casual frame, the two flagged words
+  included. So when the reader flags the very words that made a fix pass, those words go to Joel as a question (his
+  register, his call), with the reader's reason, rather than being swapped for a neutral signpost.
+- **E232. Evidence, doctrine and disclaimers read AI in every order.** The near-death reports, SN 22.22 with the proton,
+  the Diamond Sutra's sources and the driving possibilities read AI, High, in three tries each: reworded (try 1), a new
+  frame (try 2), and a new order with the evidence as his kind of bracketed aside after the claim it backs (try 3, the
+  shape of his own Appendix C and of the guide's s1b, which passed). A pair through the API reproduces a High window
+  (E226), so these are the paragraphs' content, not the alone check. With nothing earlier of his to go back to, they go to
+  him with the sentences that read red (E227), at three tries rather than six, since the third already used the one shape
+  that had passed elsewhere.
+- **E233. A paste changes the text in two ways the payload doesn't show.** The Nibbāna recheck draft's first rendered
+  check had one line more than the working copy's checked text and three lines that differed: Substack's editor split an
+  image gallery into single images and kept its caption ("Real NASA space photos!") as a paragraph, which the post's check
+  never reads, and it made three double spaces single. The caption was deleted in the draft (a real Delete key on its
+  selected text), and the prediction, written before the paste on the working copy's text, was voided and written again on
+  the text the draft shows, which the second rendered check matched exactly. The recheck builder now writes that text
+  itself (`DRAFT-TEXT.txt`: single spaces) and prints each gallery caption to delete before the rendered check, so the
+  prediction goes on the right text the first time. Embedded notes need nothing: the editor rebuilt all three from their
+  links.
 
 ## What Joel's message of 2026-10-23 02:29 UTC taught (the Inner Child lane, questions 88 to 90)
+
+(Numbering: this lane wrote its E223 to E227 below at the same time as the hypnosis guide lane wrote E223 to E233 above, on 2026-10-23. Both sets keep their numbers, because each lane's records cite them; cite these as "E223 (Inner Child)" and so on. The next lesson in either lane is E234.)
 
 The records: `articles/inner-child-therapy/experiments/t98-answers/JOEL-20261023-0229.md` and entry `joel-98-20261023` in that lane's `OWNER-EDITS.json`. He rewrote all three stretches himself, and each reads Human in his check.
 
@@ -781,7 +883,90 @@ The records: `articles/inner-child-therapy/experiments/t98-answers/JOEL-20261023
 - **E226. Pet names and exclamations are his warmth.** "your little sweetie pie", "their little boo", "do a double check: they might still be doing it!", "well, of course your little one doesn't answer." They go in his text; I don't imitate them in mine without his say.
 - **E227. Public Pangram links for API checks.** His words: "public pangram links are ok." `tools/humanization/pangram_api.py check ... --public` asks for each result's public Pangram page and prints its link, which is the link he gets for a stretch he should look at (E214).
 
+## What Joel's message of 2026-10-23 12:30 UTC taught (the hypnosis guide and Nibbāna lanes)
+
+The records: `articles/inner-signal/humanize/fix-20261023/joel-20261023-1230-message.txt` (the same file in the Nibbāna
+lane's `fix-20261023/`), batch 473 (`articles/inner-signal/humanize/fix-20261023/b473/`) and batch n2
+(`articles/nibbana/humanize/fix-20261023/n2/`), each with its API checks' Pangram pages on `API-CHECKS.md`.
+
+- **E234. A Human, Low window alone is a warning, not a pass.** My n1 rebirth sentence read Human alone through the API,
+  its own window Human, Low, and then AI, High, as a 26-word window of its own in the whole article (the recheck of
+  2026-10-23, window 120). Emulate's version read one window, Human, High, alone. The second reader's rewrite of that
+  version ("condition" back) read Human too, but split the chain off into a Low window, so it stayed out (n2's
+  `TRIAGE.json`). A fix goes into a recheck when its own window reads Human at Medium or High alone; with a Low one, check
+  another version first, or say in the prediction that it may turn red in place. (E226 is the converse: a Low window in
+  place is not reproduced by the API at all.)
+- **E235. Joel's re-run trick.** His words: "there is another emulate trick, you can take text emulate gives which doesn't
+  pass, and re-run it, and then it can pass". Question 14's seam was Emulate's text (sample bf) with my meaning fixes, and
+  it read AI, High, in six versions of mine (E227). Re-run through Emulate three times, sample bj's first paragraph read
+  Human, High, alone, with the two points it dropped put back ("qualified", "right away"); with sample bk's return
+  paragraph, the only one that kept "your body belongs to you", the pair read Human, High, as one window. So when
+  Emulate's own text reads AI, re-run it through Emulate before rewording it myself, put back only the meaning a sample
+  drops, in as few words as possible, and check.
+- **E236. What his N2 rewrites changed** ("dark green" in his own checks). The near-death reports, SN 22.22 with the
+  proton, the Diamond Sutra's sources and the driving caution had read AI, High, in three tries of mine each: reworded, a
+  new frame, a new order (E232). His words on SN 22.22: "this one was hard to understand due to the compression, i fixed
+  it". What he did:
+  1. He said what the compressed line meant, in more words: "the five aggregates that make up the unified body-mind are
+     the burden ... and craving is the process that keeps picking that burden up".
+  2. He gave it an image that makes it concrete and funny: "unaware of the boulder on your back even as you keep making the
+     payments to the Boulder Bank to keep it there (and thank God you can afford to!?)".
+  3. He said the reader's likely objection: "which sounds counterintuitive since we don't imagine the whole can be more
+     than the sum of its parts in that way."
+  4. He told the correction as a story, the sources inside what they show: "I used to attribute ... until I found out the
+     famous stanza I loved comes from the much later Mahāyāna Diamond Sutra", "SN 22.95 shows us how form is empty and
+     always transforming, like foam".
+  5. Asides and his stance: "(which, btw, are even more interesting than reading "trip reports.")", "consciousness is
+     basically the best magic trick", "I would have pulled over myself, I'm pretty sure!", and a joke to end on: "It's
+     definitely not helping spread the dhamma if people get hit on the road by Buddhist drivers who meditated too hard."
+  6. His friend's story got its details: "He'd be going down the highway for long stretches while his own car and the
+     traffic outside it seemed to disappear. Surprisingly, he never had an accident, either."
+
+  It's E223 (Inner Child) again: a try says what the sentence means even if that takes more words. All three of my tries
+  kept the compression.
+- **E237. Emulate first was the rule, and batch n1 skipped it.** His question: "it seems like you have quit using emulate,
+  just curious? why?" The shared rule (root `AGENTS.md`, `docs/EMULATE-FALLBACK.md`) puts Emulate first on the flagged
+  paragraphs of a published article being humanized. Batch n1 fixed Nibbāna's red stretches in place instead, on the
+  reasoning that Emulate would lose the links and claims of short, citation-dense stretches; no record made that an
+  exception, and none should have. 8 of its 19 predictions were right, and four stretches read AI in three tries each
+  until his rewrites. Batch n2 went back to Emulate, and both of its fixes passed on their first check: the rebirth
+  sentence spliced from a sample of the published paragraph (his lines and links around it untouched), and the seam
+  re-run (E235). For citation-dense text, the splice is the way: only the red sentence comes from Emulate's sample, and
+  the second reader checks its claims.
+
+## What Joel's message of 2026-10-23 14:14 UTC taught (the hypnosis guide and Nibbāna lanes)
+
+The records: `articles/inner-signal/humanize/fix-20261023/joel-20261023-1414-message.txt` (the same file in the Nibbāna
+lane's `fix-20261023/`), recheck A's result (`fix-20261023/recheck/RESULT-A.json`) and Nibbāna's second
+(`articles/nibbana/humanize/fix-20261023/recheck2/RESULT.json`).
+
+- **E238. Predict which part comes back AI.** His words: "and your predictions about like 35% chance it comes back fully
+  human... i was thinking you should predict which part comes back as AI?" Both whole-article predictions of the day named
+  every changed part green, with a hedge ("Low red possible: ... or a new Low window beside the changed text"), and the
+  red came where I hadn't looked: Nibbāna's one red paragraph ("The percentage language applies only to partial
+  nibbāna. ...") had read Human, Low, in both checks before it, and the guide's troubleshooting questions had read Human,
+  Medium. So every whole-article check now comes with a part forecast written before the paste
+  (`tools/humanization/part_forecast.py make`): each changed stretch with its own chance of red, every Human, Low (and
+  with `--medium`, Medium) window of the last check that is still there unchanged, at the measured rate (of the unchanged
+  windows in three pairs of consecutive checks, 2 of 58 Low ones turned red, 1 of 120 Medium and 2 of 168 High), and the
+  rest as one part. After the result, `part_forecast.py score` scores it part by part: hits, the Brier score, and every red
+  window no part covered (`tests/test_part_forecast.py`).
+- **E239. A "Human Written" headline can carry red.** Nibbāna's second recheck said "Human Written" at 0.27% AI, with
+  two AI windows on one paragraph (his words: "nibbana recheck still has one tiny ai segment"). The ledger read that
+  headline as a 100% Human result and refused a Mixed verdict. `verdict_of` now goes by the AI fraction at four decimals,
+  or by the windows when it has them, whatever the headline says (`tests/test_pangram_ledger.py`).
+- **E240. Human, High, alone and as a pair, then red in place.** The shortcut paragraph (Emulate's re-run bj, with my two
+  meaning points) read Human, High, alone and with the return paragraph, and AI, Low and Medium, in place, in windows
+  that began in the driving caution's second sentence before it. So for Low and Medium red, an API reading at any
+  confidence says only that a candidate is no worse (E226); the in-place recheck decides. The next try re-runs the whole
+  stretch the red windows covered, the paragraph they began in included (batch 474), and new red tends to turn up where
+  the last check was light green (E238).
+
+(The next lesson in either lane is E241.)
+
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
+
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. The next lesson in either lane is E241.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

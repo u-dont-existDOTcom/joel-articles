@@ -1,0 +1,53 @@
+{
+ "key": "b473",
+ "brief": "fix-20261018/rf-a/TRIAGE-BRIEF.md",
+ "fixes": [
+  {
+   "item": 1,
+   "type": "CHANGED",
+   "what": "\"State your decision while awake\" became an option said about where you won't use it (\"You may want to say that you won't use this one anymore in your waking life\"): a step of retiring the cue (brief, 2), and its timing",
+   "replace": "You may want to say that you won’t use this one anymore in your waking life,",
+   "with": "You’ll want to say, while you’re awake, that you won’t use this one anymore,",
+   "round": 1,
+   "from": "second reader (REVIEW.md, item 1), triaged; \"You'll want to\" is a directive in the paragraph's casual frame, which E231 says to keep",
+   "check": "b473_seam_bj_p1_t (HG17-B306, try 5), before it goes in"
+  },
+  {
+   "item": 2,
+   "type": "CHANGED",
+   "what": "\"If you met a younger state or several parts\" became \"If you have regressed or are working with parts\": meeting a younger state (the guide's inner child work) is not regressing, so a reader who only met their younger self may skip the step (brief, 2)",
+   "replace": "If you have regressed or are working with parts,",
+   "with": "If you have met a younger state or are working with parts,",
+   "round": 1,
+   "from": "second reader (REVIEW.md, item 2), triaged; the published words, three of them",
+   "check": "none possible through the API (the pair's lineage has used its six tries); read in place in the next recheck of part A"
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "item 1: \"association\" is now \"it\"; \"doesn't mean it's going to be gone right away\" implies it goes eventually",
+   "why": "\"it\" is the cue the whole section is about; that saying it is gone does not end it right away is kept, which is what the published sentence says"
+  },
+  {
+   "finding": "item 1: \"Persistent\" lost; the help trigger is now any problem (\"whatever\")",
+   "why": "wider, in the safe direction: help sooner, never later; the brief's rule 1 is about a caution weakened, and this one is not"
+  },
+  {
+   "finding": "item 1: \"a future, separately chosen session\" became \"at a later date when you want to\", with \"that's fine\"",
+   "why": "\"when you want to\" is the deliberate choice, and the next sentence keeps today's ending (\"But for now, when you come out of this trance, it will be over for today.\"); \"that's fine\" is what the published sentence allows"
+  },
+  {
+   "finding": "item 1: \"all you have to do is\" makes the steps sound complete and easy",
+   "why": "tone; the reader calls it minor, and the next two sentences say it may not go right away and when to get help"
+  },
+  {
+   "finding": "item 2: \"adult judgment\" became \"under control of your adult mind\"",
+   "why": "the installed text said the same (\"under control of the adult mind\") and passed its review; the step is the same check, that the adult is back in charge, and the script right after names adult judgment"
+  },
+  {
+   "finding": "item 2: \"Keep only the qualities you deliberately chose\" became \"only take ... the things that you want to\"",
+   "why": "the installed text said \"the ones you want to\" and passed its review; the script right after says \"consciously choose\", which carries the deliberate part"
+  }
+ ],
+ "resample": []
+}

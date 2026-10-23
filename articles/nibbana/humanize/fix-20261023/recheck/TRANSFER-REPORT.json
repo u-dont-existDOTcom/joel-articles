@@ -1,0 +1,34 @@
+# Substack Transfer Report
+
+## Source fidelity
+
+- Archival source SHA-256: `ca1416494b94320f474d8c15e4f43ef05e8dd5abd9ac4a85658b28d524731163`
+- Editor-body SHA-256: `c7910d74d287f3af59da6cf1dcb066fc4ade6ced206eb1cea096e0552cdb6dd2`
+- Object count: 73
+- Finding: source identity recorded; this report does not alter archival HTML.
+
+## Transfer conversion
+
+- Mode: `ordered_segmented_rich_html_with_manual_native_video_insertion`
+- Native uploaded videos: 3
+- Ordered segment records: 4
+- Substack video-post embeds converted to canonical URL in current segment: 1
+- Native uploaded-video markup in clipboard payloads: forbidden and statically checked.
+
+| Segment | Source range | Empty edge? | Payload SHA-256 |
+|---|---:|---|---|
+| 1 | 0–59475 | no | `783d746821f3d96fcb3643af2f1cee5044a6950739224114e24546bcf5aba431` |
+| 2 | 63983–140071 | no | `2e37182d8443d128188f3c1863925a52a89e98b9974fa3857339a764d24719f5` |
+| 3 | 142307–184041 | no | `10ad34e2cbd86f7393c9223d3dd221e0e2bb39f947e42e7fa4f17e23deaa94bb` |
+| 4 | 186282–382002 | no | `52ae3550a55c51ddb118713ea9e8dd70b4d977585f6fc537aa0b5bdd16dea108` |
+
+## Manual native steps
+
+- `native_video` object 13: Copy this native uploaded video directly from the original Substack editor, then paste it between the surrounding ordered article parts. After `Time for A Radical Change of Mind`; before `Was I enlightened or deluded?`.
+- `native_video` object 29: Copy this native uploaded video directly from the original Substack editor, then paste it between the surrounding ordered article parts. After `Your fingers are already enlightened, but your hand is deluded.`; before `Stream entered`.
+- `native_video` object 37: Copy this native uploaded video directly from the original Substack editor, then paste it between the surrounding ordered article parts. After `What “Already Perfect” Means`; before `Free Will Vs Conditions`.
+
+## Destination result
+
+- Status: **pending final downloaded-helper-in-Opera to disposable-Substack-draft test**.
+- A Copied status proves only clipboard completion, not card reconstruction, playback, or placement.

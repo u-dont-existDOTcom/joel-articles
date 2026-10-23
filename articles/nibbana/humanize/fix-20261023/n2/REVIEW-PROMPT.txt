@@ -1,0 +1,43 @@
+You check 2 small edits to Joel's long personal essay on nibbāna and stream entry (his own experiences in meditation, read against the Pāli suttas, with some science). Each edit rewords one sentence that a detector flagged, inside a paragraph that is otherwise his, so that the paragraph keeps saying exactly what he says. PUBLISHED is the paragraph as he published it; NOW is the paragraph with the edit.
+
+For each item, say in a few words each:
+1. MEANING: does NOW keep every point, step, caution and claim of PUBLISHED, with the same strength (nothing made more or less certain or more optional, no instruction turned into a suggestion, no doctrinal term or citation changed, no example lost)? KEPT, or what CHANGED or was LOST, and anything ADDED that a reader would take as a claim.
+2. VOICE: does NOW put words in his mouth that he might not say (a feeling, an opinion, a fact about his life)? OK, or which words.
+3. SENSE: would a reader who has read the piece up to here understand NOW in its place, between BEFORE and AFTER? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning, voice and sense only, not style or grammar (his casual grammar is his), and suggest the smallest possible rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/ja-community/articles/nibbana/humanize/fix-20261023/n2/REVIEW.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (n2-rebirth)
+
+BEFORE:
+I’m asking that last one because a stream-enterer still has most of the fetters. They still need to do reparenting like other folks, and even a real breakthrough won’t turn somebody into a therapist, let alone a saint.
+
+PUBLISHED:
+Stream entry’s greatest prize is a “release date”: AN 3.88 allows at most seven more lives before final awakening. There is actually quite a lot of modern academic evidence for rebirth. But who’s going around getting reborn if no permanent self exists? Buddhists don’t imagine any permanent self-essence/soul moving between bodies. Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth. More like a driverless car. The later Buddhist philosopher Milindapañha compared rebirth to one lamp being used to lighting another.
+
+NOW:
+Stream entry’s greatest prize is a “release date”: AN 3.88 allows at most seven more lives before final awakening. There is actually quite a lot of modern academic evidence for rebirth. But who’s going around getting reborn if no permanent self exists? Buddhists don’t imagine any permanent self-essence/soul moving between bodies. Rather, rebirth is seen as a causal process: there is a continuity (often called a “mind-stream”), but there is not a “thing” that’s moving from one life to the next. Craving and clinging lead to becoming, and becoming leads to birth. More like a driverless car. The later Buddhist philosopher Milindapañha compared rebirth to one lamp being used to lighting another.
+
+AFTER:
+The lucid-dream comparison from earlier also shapes how I understand the seven-life limit said to be had by the stream-enterer. Once the dream is known as a dream, it becomes naturally difficult to remain stuck in it, similar to how hard it is to be absorbed in a movie when the lights go on and you remember you’re in a theater. If you’ve ever had a lucid dream, you know what I’m talking about.
+
+THE CHANGE:
+"Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth." -> "Rather, rebirth is seen as a causal process: there is a continuity (often called a “mind-stream”), but there is not a “thing” that’s moving from one life to the next. Craving and clinging lead to becoming, and becoming leads to birth."
+
+## Item 2 (n2-love)
+
+BEFORE:
+Speaking of avoiding a worse rebirth, I had just watched a beautiful documentary called For the Benefit of All Beings which affected me deeply. It was the biographical documentary of a Tibetan Buddhist master named Garchen Rinpoche, who spent roughly twenty years in a Chinese prison labor camp after fighting the Chinese invasion of Tibet with CIA weapons & training. He knew he was going to hell for killing people, but he felt he had no choice. And in fact, he already was in hell in his own mind of hatred.
+
+PUBLISHED:
+Ironically, it was in that brutal Chinese prison camp where he found his true master. His master taught him to love the Chinese and be happy that he was growing rice for them, since the people were not their government. That’s where his practice of loving-kindness blossomed, and he became a light of love upon the world. I thought: if he could find love there, perhaps I could stop treating my own hell as an excuse.
+
+NOW:
+Ironically, it was in that brutal Chinese prison camp where he found his true master. His master taught him to love the Chinese and be happy that he was growing rice for them, since the people were not their government. That’s where his practice of loving-kindness blossomed, and he became a light of love upon the world. I figured if he could find love in a place like that, maybe I could stop using my own hell as an excuse.
+
+AFTER:
+So, back to desperate little me in bed beside the then-wife I feared. Inspired by the documentary, Soh’s description, and his explanation that everything is conditions, I chanted Om Mane Pemme Hum while meditating with the intent of experiencing what he was pointing at. I fell asleep, woke, sat up, and my awareness coalesced around my navel, then seemed to leave my body – a familiar prelude that usually produced oneness with the room, world, or universe.
+
+THE CHANGE:
+"I thought: if he could find love there, perhaps I could stop treating my own hell as an excuse." -> "I figured if he could find love in a place like that, maybe I could stop using my own hell as an excuse."

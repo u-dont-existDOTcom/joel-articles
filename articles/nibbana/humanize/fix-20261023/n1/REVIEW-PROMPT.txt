@@ -1,0 +1,94 @@
+You check 5 small edits to Joel's long personal essay on nibbāna and stream entry (his own experiences in meditation, read against the Pāli suttas, with some science). Each edit rewords a sentence or two that a detector flagged, inside a paragraph that is otherwise unchanged, so that the paragraph keeps saying exactly what he says. For each item you get the paragraph as it is now in his article (WAS), the paragraph with the edit (NOW), and what comes just BEFORE and AFTER it.
+
+For each item, say in a few words each:
+1. MEANING: does NOW keep every point and claim of WAS, with the same strength (nothing made more or less certain, no doctrinal term or citation changed, no example lost)? KEPT, or what CHANGED or was LOST, and anything ADDED that a reader would take as a claim.
+2. VOICE: does NOW replace a phrasing of his that is distinctive or catchy, or put words in his mouth that he might not say (a feeling, an opinion, a fact about his life)? OK, or which words.
+3. SENSE: would a reader who has read the essay up to here understand NOW in its place, between BEFORE and AFTER? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning, voice and sense only, not style, and suggest a rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/nibbana/humanize/fix-20261023/n1/REVIEW.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (n1-unification)
+
+BEFORE:
+Then I found Awakening to Reality (AtR) and Soh Wei Yu. Soh described his ordinary 24/7 experience as fully disjoint “mind-body drop”: each appearance self-aware without a knower. Hearing that made life without a hidden observer imaginable enough to practice toward. He called my nibbāna experience mind-body drop too, because he didn’t categorize nibbāna as an experience. But AtR’s own accounts retain the ordinary body, world, intention, and function within a transparent or boundless “one suchness.” I now think that is closer to what I’ll explain as partial untying than the full unweaving I experienced.
+
+WAS (his article as it is now):
+I use “unification” for the functional coordination through which a person speaks, crosses a road, recognizes a friend, and answers a message, even with no separate knower. Most of my daily life includes that ordinary unification and feels almost like everybody else’s day (well, if they’re happy).
+
+NOW:
+When I say “unification”, I mean whatever pulls everything together so that a person can talk, cross a road, recognize a friend and answer a text, and it works even when there’s no separate knower in there. Most of my daily life includes that ordinary unification and feels almost like everybody else’s day (well, if they’re happy).
+
+AFTER:
+I owe Soh a great deal, but one key difference remains: he says sensory unification isn’t required for functioning, which makes no sense to me. I long suspected AtR practitioners were overclaiming, especially because John Tan often scolded Soh for it. I proved one claim false when I met Soh in Singapore. He had said he was in bliss 24/7, but wasn’t smiling. “So you’re in bliss 24/7?” “Yes.” “Even now?” “Well, no, not now.” 😜
+
+THE CHANGE:
+"I use “unification” for the functional coordination through which a person speaks, crosses a road, recognizes a friend, and answers a message, even with no separate knower." -> "When I say “unification”, I mean whatever pulls everything together so that a person can talk, cross a road, recognize a friend and answer a text, and it works even when there’s no separate knower in there."
+
+## Item 2 (n1-last-test)
+
+BEFORE:
+Can you still recognize trauma without floating above it?
+
+WAS (his article as it is now):
+That last test matters because a stream-enterer still has most fetters. They still need to do reparenting like other folks, and even a genuine breakthrough does not turn somebody into a therapist, let alone a saint.
+
+NOW:
+I’m asking that last one because a stream-enterer still has most of the fetters. They still need to do reparenting like other folks, and even a real breakthrough won’t turn somebody into a therapist, let alone a saint.
+
+AFTER:
+Stream entry’s greatest prize is a “release date”: AN 3.88  allows at most seven more lives before final awakening. There is actually quite a lot of modern academic evidence for rebirth. But who’s going around getting reborn if no permanent self exists? Buddhists don’t imagine any permanent self-essence/soul moving between bodies. Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth. More like a driverless car. The later Buddhist philosopher Milindapañha compared rebirth to one lamp being used to lighting another.
+
+THE CHANGE:
+"That last test matters because a stream-enterer still has most fetters. They still need to do reparenting like other folks, and even a genuine breakthrough does not turn somebody into a therapist, let alone a saint." -> "I’m asking that last one because a stream-enterer still has most of the fetters. They still need to do reparenting like other folks, and even a real breakthrough won’t turn somebody into a therapist, let alone a saint."
+
+## Item 3 (n1-rebirth)
+
+BEFORE:
+That last test matters because a stream-enterer still has most fetters. They still need to do reparenting like other folks, and even a genuine breakthrough does not turn somebody into a therapist, let alone a saint.
+
+WAS (his article as it is now):
+Stream entry’s greatest prize is a “release date”: AN 3.88  allows at most seven more lives before final awakening. There is actually quite a lot of modern academic evidence for rebirth. But who’s going around getting reborn if no permanent self exists? Buddhists don’t imagine any permanent self-essence/soul moving between bodies. Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth. More like a driverless car. The later Buddhist philosopher Milindapañha compared rebirth to one lamp being used to lighting another.
+
+NOW:
+Stream entry’s greatest prize is a “release date”: AN 3.88  allows at most seven more lives before final awakening. There is actually quite a lot of modern academic evidence for rebirth. But who’s going around getting reborn if no permanent self exists? Buddhists don’t imagine any permanent self-essence/soul moving between bodies. What continues is a chain of causes with no traveler riding along, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth. More like a driverless car. The later Buddhist philosopher Milindapañha compared rebirth to one lamp being used to lighting another.
+
+AFTER:
+The lucid-dream comparison from earlier also shapes how I understand the seven-life limit said to be had by the stream-enterer. Once the dream is known as a dream, it becomes naturally difficult to remain stuck in it, similar to how hard it is to be absorbed in a movie when the lights go on and you remember you’re in a theater. If you’ve ever had a lucid dream, you know what I’m talking about.
+
+THE CHANGE:
+"Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth." -> "What continues is a chain of causes with no traveler riding along, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth."
+
+## Item 4 (n1-science)
+
+BEFORE:
+For me, nibbāna was really like waking up from a dream, except that nobody woke up. Reasoning can make the dream doubtful. The event made doubt about the dream impossible to reverse.
+
+WAS (his article as it is now):
+Science circles consciousness’s edges: people can function with no felt controller, several things can be cognized at once, split-brain patients can resemble two knowers sharing a skull, and one recent theory models minds as nested parallel observers. The full nerdy tour is in the research report. Science gives my argument a third wheel, making it safer to ride, but it will never show nibbāna itself – self and sense organs unweaving into self-presenting light flows of bliss. That requires meditation.
+
+NOW:
+Science only gets to circle the edges of consciousness, though it finds some wild stuff out there: people functioning with no felt controller, several things cognized at once, split-brain patients who can seem like two knowers sharing a skull, and one recent theory that models minds as nested parallel observers. The full nerdy tour is in the research report. Science gives my argument a third wheel, making it safer to ride, but it will never show nibbāna itself – self and sense organs unweaving into self-presenting light flows of bliss. That requires meditation.
+
+AFTER:
+Most people won’t go POOF directly into nibbāna, but this practice can do something unusual.
+
+THE CHANGE:
+"Science circles consciousness’s edges: people can function with no felt controller, several things can be cognized at once, split-brain patients can resemble two knowers sharing a skull, and one recent theory models minds as nested parallel observers." -> "Science only gets to circle the edges of consciousness, though it finds some wild stuff out there: people functioning with no felt controller, several things cognized at once, split-brain patients who can seem like two knowers sharing a skull, and one recent theory that models minds as nested parallel observers."
+
+## Item 5 (n1-percentages)
+
+BEFORE:
+In my experience, nibbānic unweaving varies by degree and scope.
+
+WAS (his article as it is now):
+This distinction isn’t laid out explicitly in the suttas. AN 11.12 says a noble disciple can reach ease and joy through recollecting the Buddha, Dhamma, & Saṅgha – the community of realized disciples – or recollecting ethical conduct, generosity, or qualities shared with heavenly beings. In my experience there can also be physical loosening of unification. My percentages are playful shorthand for how much binding has dissolved: around 1%, a person remains fully functional; by roughly 5%, function is barely possible. Partial untying isn’t limited to that range.
+
+NOW:
+This distinction isn’t laid out explicitly in the suttas. AN 11.12 says a noble disciple can reach ease and joy through recollecting the Buddha, Dhamma, & Saṅgha – the community of realized disciples – or recollecting ethical conduct, generosity, or qualities shared with heavenly beings. In my experience there can also be physical loosening of unification. My percentages are just a playful way of saying how much binding has dissolved. Around 1%, a person can still do everything fine. Around 5%, they can hardly do anything. (And partial untying goes beyond that range too.)
+
+AFTER:
+There’s also a strange middle ground where I can have several parallel experiences, each internally bound and therefore not nibbāna, but hinting at it – for example, becoming two different solid birds flying. Ud 5.10 similarly has monastics split into a thousand bodies to clean rooms faster until someone touches one and they merge back into one.
+
+THE CHANGE:
+"My percentages are playful shorthand for how much binding has dissolved: around 1%, a person remains fully functional; by roughly 5%, function is barely possible. Partial untying isn’t limited to that range." -> "My percentages are just a playful way of saying how much binding has dissolved. Around 1%, a person can still do everything fine. Around 5%, they can hardly do anything. (And partial untying goes beyond that range too.)"

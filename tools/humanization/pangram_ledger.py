@@ -184,16 +184,27 @@ def find(recs, sha=None, key=None, pid=None, open_only=False):
 
 
 def verdict_of(headline, windows=None, fraction_ai=None):
-    """Human when Pangram's headline says Human (a 100% Human result), AI when every window is AI, Mixed otherwise."""
+    """Human only for a 100% Human result, AI when every window is AI, Mixed otherwise.
+
+    Pangram's headline is not enough: Nibbāna's second recheck (2026-10-23) said "Human Written" at 0.27% AI, with two AI
+    windows on one paragraph (Joel: "nibbana recheck still has one tiny ai segment"). So an AI window, or an AI fraction
+    that is not zero at four decimals, makes it Mixed whatever the headline says. The four decimals keep a one-window
+    Human result through the API (fraction_ai about 1e-20, recorded as 0.0000) Human."""
     h = (headline or '').lower()
-    if h.startswith('human'):
-        return 'Human'
-    if fraction_ai is not None:
-        return 'AI' if fraction_ai >= 0.999 else ('Human' if fraction_ai <= 0.0 else 'Mixed')
     labels = [str(w).split(',')[0].strip().lower() for w in (windows or [])]
-    if labels and all(l.startswith('ai') for l in labels):
-        return 'AI'
-    return 'Mixed' if labels else ('AI' if h.startswith('ai') else 'Mixed')
+    if labels:
+        ai = sum(l.startswith('ai') or l in ('a',) for l in labels)
+        if ai == len(labels):
+            return 'AI'
+        if ai:
+            return 'Mixed'
+    if fraction_ai is not None:
+        if fraction_ai >= 0.999:
+            return 'AI'
+        return 'Mixed' if round(fraction_ai, 4) > 0 else 'Human'
+    if labels or h.startswith('human'):
+        return 'Human'
+    return 'AI' if h.startswith('ai') else 'Mixed'
 
 
 def result_rec(p, verdict, link, extra):
@@ -464,6 +475,20 @@ def cmd_result(a):
     p = find(recs, sha=a.sha, key=a.key, open_only=True)
     if not p:
         raise SystemExit('no open prediction for that text: predictions come first (an unpredicted check is not scored)')
+    # 2026-10-23: the hypnosis lane typed --verdict Human for a "Mostly Human Written" result (10 AI windows), which the
+    # ledger reads as Mixed; a typed verdict now has to agree with the headline and fraction it comes with
+    # (without a fraction, a headline like "AI Detected" can be AI or Mixed, so only a Human verdict is refused there)
+    # 2026-10-23, later: a "Human Written" headline can carry AI windows (Nibbāna's second recheck, 0.27% AI), so with a
+    # fraction the fraction decides; without one, a Human headline can be Human or Mixed, and only AI is refused there
+    h = (a.headline or '').strip().lower()
+    if h and a.ai_fraction is not None and verdict_of(a.headline, None, a.ai_fraction) != a.verdict:
+        raise SystemExit('the verdict %s contradicts the headline %r with %s AI (the ledger reads it as %s)'
+                         % (a.verdict, a.headline, a.ai_fraction, verdict_of(a.headline, None, a.ai_fraction)))
+    if h and a.ai_fraction is None and h.startswith('human') and a.verdict == 'AI':
+        raise SystemExit('the verdict AI contradicts the headline %r' % a.headline)
+    if h and not h.startswith('human') and a.verdict == 'Human':
+        raise SystemExit('the verdict Human contradicts the headline %r: Human means a 100%% Human result (the ledger reads '
+                         'it as %s)' % (a.headline, verdict_of(a.headline, None, a.ai_fraction)))
     extra = {'headline': a.headline, 'ai_fraction': a.ai_fraction, 'likelihood': a.likelihood, 'words_read': a.words,
              'shading': a.shading, 'detector': a.detector or p.get('detector'), 'at': a.at}
     rec = result_rec(p, a.verdict, a.link, extra)

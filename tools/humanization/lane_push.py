@@ -85,7 +85,14 @@ def commit(subject, paths):
 
 def preflight():
     """CI's checks with CI's bare Python, so a push that would fail there stops here. On 2026-10-22 a new test needed
-    BeautifulSoup, which the workflow doesn't install; it passed here and failed only in CI."""
+    BeautifulSoup, which the workflow doesn't install; it passed here and failed only in CI.
+
+    The checks run on the working tree, so a change to tools/, tests/ or scripts/ left out of the commit would pass here
+    and fail in CI (2026-10-23: a test went in without the tool change it tests). Such a change stops the push."""
+    left = run(['git', 'status', '--porcelain', '--', 'tools', 'tests', 'scripts']).stdout.strip()
+    if left:
+        sys.exit('not pushed: tools/, tests/ or scripts/ have changes the commit leaves out, which the checks would run '
+                 'against:\n%s\nadd them with --add, or set them aside' % left)
     branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
     base = next((b for b in ('origin/' + branch, 'origin/main')
                  if run(['git', 'rev-parse', '--verify', '-q', b], check=False).returncode == 0), None)
@@ -139,13 +146,20 @@ def pull_request(title, body_file):
     return 'opened: ' + r.stdout.strip()
 
 
-def main(argv=None):
+def parser():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('subject')
     ap.add_argument('--article', default='inner-child-therapy')
-    ap.add_argument('--add', nargs='*', default=[], help='more paths to stage (tools, tests, docs)')
+    # 2026-10-23: with nargs='*' alone, a second --add replaced the first, so "--add TOOL --add TEST" committed the test
+    # without the tool it tests; each --add now adds to the list
+    ap.add_argument('--add', nargs='*', action='extend', default=[], help='more paths to stage (tools, tests, docs)')
     ap.add_argument('--pr', help='open a pull request with this title when none is open for the branch')
     ap.add_argument('--pr-body', help='the pull request body (a file)')
+    return ap
+
+
+def main(argv=None):
+    ap = parser()
     a = ap.parse_args(argv)
     if a.pr and not a.pr_body:
         ap.error('--pr needs --pr-body')

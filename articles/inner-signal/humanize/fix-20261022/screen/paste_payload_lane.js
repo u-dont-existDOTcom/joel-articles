@@ -17,7 +17,9 @@
 (async () => {
   const LANE_TITLES = ['TEMP recheck A (hypnosis guide) - do not publish',
                        'TEMP recheck B (hypnosis guide appendices) - do not publish',
-                       'TEMP screen (hypnosis guide samples) - do not publish'];
+                       'TEMP screen (hypnosis guide samples) - do not publish',
+                       // 2026-10-23: the same lane's Nibbāna recheck (articles/nibbana/humanize/fix-20261023/recheck/)
+                       'TEMP recheck (Nibbana article) - do not publish'];
   const want = window.__paste || {};
   if (!want.url || !want.sha256 || !want.title || !want.words_sha256) return 'set window.__paste = {url, sha256, title, words_sha256} first';
   const hex = async s => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s))))

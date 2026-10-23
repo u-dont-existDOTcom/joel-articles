@@ -1,5 +1,79 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 14:14 UTC (recheck A read; batch 474; part forecasts; Nibbāna's clarity read)
+
+**Recheck A** ([his link](https://www.pangram.com/feed/3f9225c6-4ec8-452e-bdff-d44040b1acc0)): Mostly Human Written, 1.4%
+AI, 7 of 108 windows, down from 10: his forces paragraph and the return paragraph Human; the shortcut paragraph red again in
+place from the driving caution (Low and Medium), the return's check (Low), and Nothing happens' lines (new). Batch 474 put
+Emulate's versions of all three in (each Human alone, the reader's three fixes in), and recheck A is pasted again with a
+part forecast. Nibbāna's second recheck read "Human Written" with one red paragraph, which Joel rewrote; his fix is in, its
+third recheck is pasted, and a cold read found 29 passages that pass but are hard to understand (question N3). Lessons E238
+to E240.
+
+## 2026-10-23, after Joel's message of 12:30 UTC (recheck B read; question 14 through his Emulate re-run trick; recheck A and Nibbāna's second recheck pasted)
+
+**Recheck B** ([his link](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83)): Mostly Human Written, 1.4% AI,
+2 of 36 windows: the audit's questions (they stay, answer 2c) and "You don't have to fix this. I'm here now." (Low), next
+for B. **Question 14's seam passed through his re-run trick** on the first check after six versions of mine failed (batch
+473: [the shortcut paragraph alone](https://www.pangram.com/history/8c07a601-45c9-4d33-9555-6b51302e81d3),
+[the pair](https://www.pangram.com/history/ce2c2f4e-e14f-45a6-9ed8-27c25aaf1397), and
+[with the reader's fix](https://www.pangram.com/history/1129f619-ef4e-4276-8889-f8b3496f19b7), all Human, 0% AI). His own
+forces paragraph is in. Recheck A is pasted and its rendered text matches what I predicted from; it waits on his Brave.
+On Nibbāna: N1 a and his four N2 rewrites are in, the rebirth sentence comes from Emulate
+([Human, High](https://www.pangram.com/history/d09ef29a-c0be-4cd6-a42f-99383aa60007)), and its second recheck waits too.
+Pull request 224's conflict is resolved. Lessons E234 to E237 (a Low window alone is a warning; the re-run trick; what his
+N2 rewrites changed; Emulate first was the rule, and batch n1 skipped it).
+
+## 2026-10-23, 03:05 UTC (the guide waits on Joel; his Nibbāna article's first 4.1 pass)
+
+Nothing new on the guide: recheck B's link and question 14 are with Joel. The lane's queue moved on to his Nibbāna
+article, with its own questions page ([OWNER-QUESTIONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md)) and ledger: batch n1 put four
+fixes in the working copy (each Human on its own through the API and OK by the reader), the science sentence went to him
+as question N1 and four stretches as N2 (AI in three tries each), and the whole-article recheck is pasted into a new
+temporary draft and verified, waiting on his Brave. Lessons E230 to E233; the API check pages of both articles now label
+every line of a window (E230: I had read the driving caution's unlabelled line as Human).
+
+## 2026-10-23, after Joel's message of 01:10 UTC (recheck A read; answer 13, his own Appendix C; batch 472g through the API; recheck B pasted)
+
+**Recheck A's result** ([his link](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af)): Mostly Human
+Written, 1.4% AI, 10 of 100 windows; the windows read from the page as one compact line, the text rebuilt from the payload
+(`fix-20261022/recheck/RESULT-A.json`, SHA-256 fd2e3ed6..., equal to the page's). The induction section from bf read Human
+in place (28 windows, 13 of them light green on short lines) but for its last paragraph. Red: De-hypnosis's run of
+questions (part 7 of the result page, Low and one Medium); the seam from the induction's last paragraph into the return's
+first (part 9, High); the return's "Get up only when you feel steady. Make sure you're truly oriented and alert. Don't
+just assume it ..." (part 9, Low). In the ledger, HG-whole#33 (AI at 0.10) is right: I first typed its verdict as Human,
+corrected to Mixed, and the same check of every result line found part B of 2026-10-21 (HG-rest-B#20) typed the same way,
+now Mixed and right (its earlier "verdict threshold misread" explanation was the misread); `pangram_ledger.py result` now
+refuses a verdict its headline contradicts (E225). Batches 470g and 471g: 17 of 17 forecasts right in part A, 7 to score
+in part B (`fix-20261022/recheck/score_recheck.py`, `b470/batch/SCORE.md`, `b471/batch/SCORE.md`).
+
+**Joel's answer 13** (`fix-20261023/joel-20261023-0110-message.txt`): his own five paragraphs for Appendix C's prose, the
+opening he checked ("13 human high conf") and the signs, what to do, and the good and bad guide; installed as he typed them
+with "accomodate" fixed (`fix-20261023/make_joel_0110.py`, edit HG32-joel-0110). His "learn some lessons" is E223 (what his
+opening did that six versions of mine didn't, against sample S5), and his "it seems like you duplicated this in your
+check" is E224 (samples that share text go in separate API checks).
+
+**Batch 472g** (`fix-20261023/b472/`): the three red stretches, each checked through the API on a pair (E218; the laptop's
+lane-folder `pangram_api.py` is the old 4.0-only one, so the repository's was fetched at 92f87f0d into the check's folder,
+SHA-256 4a100ecd...). Fourteen checks ([the page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md)), each predicted first (ledger #34 to #47):
+- The bases: the seam read AI, High, throughout, as in place; the two Low stretches read Human, so their pairs can show
+  only that a fix is no worse (E226).
+- s1: b (his bracketed list for the ten questions) read Human, its sentence's window High; c, which joined "It's all
+  around you." on to clear the linter's B3, read worse (9.6% AI), so b goes in (E211, E228).
+- s3: c (the commands joined, the count's caveat as a gloss in brackets, the installed "truly") read Human in one High
+  window, and goes in.
+- s2, the seam: AI, High, in six versions (b: the return paragraph reworded; c: the induction paragraph reworded; d: both;
+  e: both in his register, the induction paragraph alone too; f: e without the tidy closers, alone too). Both paragraphs
+  are the published text's, with no earlier draft of his, so it is question 14 (E227).
+A reader checked s1b and s3b against the published guide in place (`REVIEW.md`: both OK); `lint-compare.json`;
+`GATE.json`; installed by `install_b472.py` (edits b472-s1b and b472-s3c).
+
+**Recheck B** (`fix-20261023/recheck/`, built by its `make_recheck.py`): the appendices with his Appendix C, predicted first
+(HG-rest-B#48, Human at 0.55), pasted into draft B after its title was checked and its body cleared with real keystrokes
+(the helper's paste: 10,852 editor words, 25 more than the payload's count, as part A had 34 more), and its rendered
+paragraphs, the known button line left out, hash to `TEXT-B.txt` (76745975...): [TEMP recheck B (hypnosis guide appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=2026-10-23T02%3A10%3A00.000Z&audience=only_paid&free_preview=false&freemail=).
+It waits on Joel's Brave. Part A waits for question 14.
+
 ## 2026-10-22, after Joel's message of 21:41 UTC (the pull request; answer 12, batch 471g; both screenings read; the induction section from bf; recheck A; Nibbāna's HTML)
 
 **The pull request** ("the pr has conflicts"): main had taken the Inner Child lane's pull request 218, with a conflict in

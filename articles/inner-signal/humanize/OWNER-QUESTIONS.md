@@ -1,35 +1,126 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-22, after your result link of 23:01 UTC. **Open question: 1** (13, Appendix C's opening in your
-own words). **One thing for you to do**: run Pangram on recheck A and send me its link (under "For you to do"). The questions are at the top, with their options and my default;
-under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
-or in progress; 🟢 done or decided.
+Last updated 2026-10-23, after your message of 14:14 UTC. **Open questions: none.** **One thing for you to do**: run
+Pangram on recheck A and send me its link (under "For you to do"; your Nibbāna article's third recheck is ready too).
+The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
+Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-- 🟣 **13. Appendix C's opening: will you write it in your own words?** [The second screening](https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e)
-  read Appendix B's lists Human, so the last check's red window was all Appendix C's; Appendix C as it stands read AI
-  throughout; the new version read Human from the list of tricks to "A bad guide can't.", and AI in its opening and in
-  the bad guide's last sentence. The opening has now read AI in six versions (your published list, my prose and four
-  rewrites), which is the limit before it comes to you. It's two short paragraphs and a sentence:
-  1. When to use the checklist, and the line to say to yourself: notice influence, don't obey or attack it, slow down, ask
-     what it assumes and who benefits, notice your body's signal without assuming what it proves, and ask what love,
-     truth, humility and ordinary life would require.
-  2. The four tests: what's true survives questions, love survives boundaries, guidance survives sleep, and what's for
-     you won't ask you to give up your adult self.
-  3. The last sentence: a bad guide calls your no resistance, ego, fear, low vibration, trauma, sin, or proof that you
-     need more of their guidance.
+None right now.
+
+## Your message of 2026-10-23 14:14 UTC, and what I did
+
+Your message, word for word: [joel-20261023-1414-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-1414-message.txt).
+
+- 🟢 **Recheck A** ([your result](https://www.pangram.com/feed/3f9225c6-4ec8-452e-bdff-d44040b1acc0)): Mostly Human Written,
+  1.4% AI, 7 of 108 windows red, down from 10. Your forces paragraph and the return paragraph read Human in place. Red: the
+  shortcut paragraph again, starting in the driving caution's second sentence before it (Low and Medium, where it had been
+  High), though it read Human, High, on its own; the return's check, "Move around a bit ..." (Low); and, new, Nothing
+  happens' two lines with It feels fake's first question (Low and Medium), which had read Human, Medium, last time.
+- 🟢 **Batch 474**: all three stretches went through Emulate (three samples each), and only the red sentences came back in:
+  the driving caution and the shortcut paragraph whole, two sentences of the return's check, the three lines of
+  troubleshooting. Each read [Human](https://www.pangram.com/history/2480b0af-7257-41d0-94db-2cec0d7757cc) on its own ([the check](https://www.pangram.com/history/0f0a02c3-6b11-4031-a136-8f63e03f8dd1),
+  [and this one](https://www.pangram.com/history/02d5a7e2-9c94-4732-9687-513cdddf1929)), which for this kind of red only says they are no worse. The reader caught
+  three things, all fixed: the caution now bars practicing and testing the cue while driving too (your published words say
+  "train, test, or use"), "note only what actually came up" is back, and so is "body sensation".
+- 🟢 **Predictions by part, from now on.** Before each whole check I write which parts I expect red, each with its chance,
+  and score them part by part after. For the recheck A below: the driving caution and shortcut paragraph 45%, the return's
+  check 35%, the troubleshooting lines 30%, the return paragraph 10%, your forces paragraph 5%; each of the last check's 28
+  light green windows 1 to 2%; anywhere else 15%. Together that's a 13% chance of no red at all.
+  [The forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-a3/FORECAST.json). Today's two rechecks showed why: I had named every
+  changed part green, and the red came where the last check had been light green.
+- 🟢 **Pull request 224's conflict** (the gate's lessons again, from the Inner Child lane) is resolved:
+  [pull request 224](https://github.com/u-dont-existDOTcom/joel-articles/pull/224) can merge.
+
+## Your answers of 2026-10-23 12:30 UTC, and what I did
+
+Your message, word for word: [joel-20261023-1230-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-1230-message.txt).
+
+- 🟢 **14 (the seam), answered with "for the other parts you can either learn from me or learn from emulate right?" and
+  your re-run trick** ("you can take text emulate gives which doesn't pass, and re-run it, and then it can pass"). The seam
+  was Emulate's text with my meaning fixes, so I re-ran it through Emulate three times. The shortcut paragraph of sample bj
+  read [Human, High](https://www.pangram.com/history/8c07a601-45c9-4d33-9555-6b51302e81d3) on its own, with the two points it dropped put back ("qualified",
+  "right away"), and with sample bk's return paragraph, the only one that kept "your body belongs to you", the pair read
+  [Human, High, as one window](https://www.pangram.com/history/ce2c2f4e-e14f-45a6-9ed8-27c25aaf1397). The second reader found two more things, and both are fixed:
+  "State your decision while awake" had become optional and about where you won't use it, so it now says "You'll want to
+  say, while you're awake, ..." ([Human, High and Medium](https://www.pangram.com/history/1129f619-ef4e-4276-8889-f8b3496f19b7)); and "If you met a younger
+  state" had become "If you have regressed", so it has your published words back. Six versions of mine had read AI here;
+  your trick passed on the first check. [All the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b473/API-CHECKS.md), [the review](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b473/REVIEW.md)
+  and [its triage](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b473/TRIAGE.json).
+- 🟢 **Your rewrite of De-hypnosis's forces paragraph is in, word for word** (the run of "By a screen? ..." questions that
+  read AI in recheck A), up to "It's all around you."; your two lines after it about benign influence stay. Two typos
+  fixed: "ominpotent" and a stray "a" ("vote for a this or that politician").
+- 🟢 **Why I'd stopped using Emulate**: the Nibbāna batch (n1) fixed its stretches in place instead, on the idea that
+  Emulate would lose the links and claims of short, citation-heavy stretches. That broke the shared rule (Emulate first on a
+  published article's flagged paragraphs) and did worse: four stretches read AI in three tries each until your rewrites.
+  Back on Emulate now, with your re-run trick ([lessons E234 to E237](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md#what-joels-message-of-2026-10-23-1230-utc-taught-the-hypnosis-guide-and-nibbāna-lanes)).
+- 🟢 **Recheck B** ([your result](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83)): Mostly Human Written,
+  1.4% AI, two windows red: the hypnosis audit's questions (they stay, your answer 2c) and, Low, "You don't have to fix
+  this. I'm here now." in the inner child script ("Little one, you are not alone. ..."). That line is next for B, with
+  Emulate first; your appendix C held.
+- 🟢 **Pull request 224's conflict** (the gate's lessons, written by this lane and the Inner Child lane at once) is
+  resolved, both kept: [pull request 224](https://github.com/u-dont-existDOTcom/joel-articles/pull/224) can merge.
+
+<details><summary>Question 14 as it was asked</summary>
+
+- **14. The shortcut part's last paragraph and the return's first: will you write them in your own words?**
+  [Recheck A](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af), part 9, read AI, High, from "To turn this off, stop rehearsing it, take it out of any recordings
+  that you have, stop having it in any apps that are active, ..." to "If you've regressed or met parts, make sure you come
+  back to feeling complete in the here and now and acknowledge that your body belongs to you and is under control of the
+  adult mind." Through the API the two paragraphs read AI, High, in six versions ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2_base)): as
+  they are, reworded, in your register, and with their tidy closing lines taken out. The shortcut paragraph read AI on its
+  own too. Both come from your published guide's polished text, and no earlier draft of yours has them, so there is no
+  wording of yours to go back to. It's two paragraphs:
+  1. Retiring the shortcut: stop practicing it, take it out of your recordings and apps, and go back to your usual
+     induction; decide that while you're awake; saying it's gone doesn't make it vanish at once; if it keeps pulling you in
+     or leaves you disoriented, get qualified help; you can keep it, but only to start a session you choose later; today's
+     trance ends when you come back.
+  2. On the way out, undo whatever you did on the way in: floated, come back to your chosen weight; shrank, your normal
+     size; went younger or met parts, come back whole, here and now, in a body that's yours, with your adult judgment;
+     went somewhere, come back the same way; bring back only what you chose.
 
   Options:
-  - A. You write those in your own words, in any order.
-  - B. Your published list comes back for the general checklist, and it reads AI.
+  - A. You write them in your own words, in any order.
+  - B. I try a seventh way first: the retiring steps folded into the paragraph before them ("Also, be sure that this is
+    working for you ..."), which reads Human, so they no longer stand next to the return.
   - C. They stay as they are, red.
 
-  My recommendation: A, because your own lines have read dark green every time. My default until you answer: the new
-  version goes in, since its middle and end read Human and it keeps every point, with the opening as it is.
+  My recommendation: A. Your own words have passed every time (Appendix C's opening, after six versions of mine), and
+  mine have now failed six times here. B moves your safety steps around without fixing what reads AI in them. My default
+  until you answer: they stay as they are, and recheck A waits for your answer, so that one check reads everything.
+
+</details>
+
+## Your answers of 2026-10-23 01:10 UTC, and what I did
+
+- 🟢 **Recheck A** ([your result](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af)): **Mostly Human Written**, 1.4% AI, 10 of its 100 windows, and its text was
+  exactly the text I pasted. The induction section from bf reads Human in place, all but its last paragraph. Three
+  short stretches read AI:
+  - Part 7, at its end: De-hypnosis's run of questions, "By a screen? By a specific ad? ... By repetition?" (Low, one
+    Medium). They're now your kind of bracketed list, "(a screen, a specific ad, a politician, ..., repetition, etc.)",
+    which read Human through the API.
+  - Part 9: the seam above, now question 14.
+  - Part 9: "Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because
+    you've done the count." (Low). It's now "Move around a bit, and don't get up until you feel steady. Make sure you're
+    truly oriented and alert (the count is supposed to bring you back, but it doesn't always do the whole job)", which
+    read Human through the API.
+
+  The two fixes read Human on their own pairs, but so did the old wording, so only the next recheck A can show they hold
+  in place. A reader checked both against your published guide (nothing lost or moved). Every batch 470g and 471g
+  paragraph in this part read Human, as forecast (17 of 17).
+- 🟢 **13: your own Appendix C.** I took your five paragraphs as your whole Appendix C, its opening and the rest, and
+  they're in as you typed them, with "accomodate" spelled "accommodate" (your "etc)" stays, as you write it elsewhere in
+  the guide). If you meant only the first two, tell me and my middle goes back. One thing your new opening no longer
+  says is that your body's signal doesn't prove anything ("without assuming what it proves"); I think your list of
+  warning signs right after it covers that, so I left it. What your version did that mine didn't is now a lesson for
+  every lane (the gate's E223), and the bracketed list above is its first use.
+- 🟢 **The duplicate:** yes, the second screening post repeated Appendix C's middle and end in both new openings'
+  samples, on purpose, so that each opening was read with the same text after it. From now on, samples that share text
+  go in separate API checks (E224).
 
 ## Your answers of 2026-10-22 21:41 UTC, and what I did
 
@@ -259,22 +350,18 @@ read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Run Pangram on recheck A in your Brave**: [TEMP recheck A (hypnosis guide)](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-22T23%3A08%3A00.000Z&audience=only_paid&free_preview=false&freemail=), then paste
-  me the link. It's the whole guide with the new induction section and your answers 9 to 12; the check reads its first
-  99,999 characters, a little way into the appendices. Its text in the page is exactly the text I predicted from. The
-  appendices' half (recheck B) waits on your answer to 13.
-- 🔵 **Your Nibbāna article** is queued after the hypnosis guide, with [its result](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917)
-  read: Mostly Human Written, 4.5% AI, 22 of its 166 windows AI ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/QUEUE-20261022.md)), and
-  your current editor HTML in.
-- 🟢 Done: both screening posts (your results of 21:41 and 23:01, read: above and in question 13).
-- 🟢 Done: the recheck of 2026-10-21 (your results of 18:37, read: part A AI in the induction section, part B Mostly Human
-  with Appendix C red), and the note to the Inner Child chat (that lane ran its own check, its 75).
-- 🟢 Your temporary drafts: recheck A and B are renamed "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP
-  recheck B (hypnosis guide appendices) - do not publish", with no "Pangram" in them, and the screening post is the third.
-  I'll reuse A and B for the next recheck, so nothing new piles up. Deleting them is yours, once the guide is done.
+- 🟠 **Run Pangram on recheck A in your Brave**: [TEMP recheck A (hypnosis guide)](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-474&audience=only_paid&free_preview=false&freemail=), then paste me the link.
+  It's the guide's first part with batch 474 in; its text in the page is exactly the text I forecast from.
+- 🟠 **And your Nibbāna article's third recheck**: [TEMP recheck (Nibbana article)](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck3-n3&audience=only_paid&free_preview=false&freemail=), with your fix of 14:14
+  in ([its page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md)).
+- 🟢 Done: recheck A of 14:07 UTC (read above), recheck B (your result of 12:30), both screening posts.
+- 🟢 Your temporary drafts: recheck A and B are "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B
+  (hypnosis guide appendices) - do not publish", and the screening post is the third. I reuse them for each recheck, so
+  nothing new piles up. Deleting them is yours, once the guide is done.
 
 ## Where it stands
 
-🟢 All 40 of the guide's sections are humanized, and your answers 9 to 12 are in. 🔵 The induction section's new version
-(sample bf, which read Human, with its meaning put back and four rounds of reviews) is in the guide, and recheck A reads it
-in place. 🟣 Appendix C's opening is question 13. Then recheck B, the appendices. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every check's link.
+🟢 All 40 of the guide's sections are humanized, and your answers 1 to 14 are in. 🔵 The first part is down to three red
+stretches, each with Emulate's version in, waiting for recheck A. 🔵 The appendices read Mostly Human Written, 1.4% AI,
+with one Low line left besides the audit's questions, which stay. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every
+check's link.

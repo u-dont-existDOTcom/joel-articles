@@ -1,0 +1,27 @@
+{
+ "made": "2026-10-23T02:53Z",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221726541",
+ "title": "TEMP recheck (Nibbana article) - do not publish",
+ "how": "a new post (Substack's own new-post page), its title typed in the title field with real keystrokes, then the payload pasted into the empty body with the lane's paste helper; Publish and Continue were never clicked; Joel's post and his own drafts were not opened",
+ "secret_link": "https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=2026-10-23T02%3A58%3A42.910Z&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD.html",
+ "payload_sha256": "abd86f63c293ed175f78bc219438265068fc79703ea87c619a3f810d83c884bc",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/b4c958431088a335925d9f9b122ca3a7ecfcd4cb/articles/nibbana/humanize/fix-20261023/recheck/PAYLOAD.html",
+ "paste": {
+  "helper": "../../../../inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 14950,
+  "words_expected": 14772,
+  "words_match": false,
+  "why_not": "RECHECK-BUILD.json counts the payload's words from its HTML, where each of the three embedded notes is only its link; the editor rebuilt the notes (their author, date and text) and shows 178 more words. The rendered check below is the one that decides."
+ },
+ "notes_rebuilt": "the saved draft has three \"comment\" nodes, the three notes' texts in them (\"Are people doing the wrong type of \\\"McMeditation\\\"? ...\", \"Thank you Fabrizio for this moving piece ...\", \"high am good without frens\")",
+ "saved": "the draft's own API gave the body back after each step (draft_updated_at 02:54:56, then 02:58:42 after the fix below), and the editor showed Saved",
+ "fixed_after_paste": "the first rendered check (02:55 UTC) had 270 lines: one more than EXPECTED.txt, \"Real NASA space photos!\", an image gallery's caption that the editor turned into a paragraph when it split the gallery into single images (the post's check reads no caption), and three lines whose double spaces the editor made single (\"MN 56  says\", \"the effort  (wash\", \"AN 3.88  allows\"). The caption's text was selected and deleted in the draft with a real Delete key (an empty paragraph stays, which the check skips, as the post's own empty paragraph after the gallery)",
+ "rendered_check": "the secret link opened in the app's browser at 02:59 UTC (the draft's title on the page): the post body's paragraphs and list items, read with the rebuild's own rules (headings, figures and captioned images skipped; trailing spaces and emoji joiners dropped), are 269 lines, which hash to DRAFT-TEXT.txt (dfd00232...) exactly: EXPECTED.txt with those three double spaces made single",
+ "text": "DRAFT-TEXT.txt",
+ "text_sha256": "dfd00232fb5e0d390c8fdcf13390dde13b33522667018ccf2b343f674a151170",
+ "text_chars": 85177,
+ "expected_sha256": "4707d30f53fef2ba0e9bb3d2cd8c683cd8e5717656d9e2df95fc334b207e30bf",
+ "predictions": "pangram-ledger.jsonl NB-whole#21 (make_preds_recheck_nb.py), written on DRAFT-TEXT.txt before the check; NB-whole#20, written on EXPECTED.txt before the paste, was voided for the three spaces",
+ "link_note": "the \"updated\" value in the secret link is only a cache key (the draft's save time), not the paste time"
+}

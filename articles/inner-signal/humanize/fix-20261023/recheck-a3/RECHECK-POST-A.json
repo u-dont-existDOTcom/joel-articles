@@ -1,0 +1,23 @@
+{
+ "made": "after Joel's message of 2026-10-23 14:14 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221411215",
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "secret_link": "https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-474&audience=only_paid&free_preview=false&freemail=",
+ "cleared": "the title checked first; the body (162,098 characters, the recheck of 14:07 UTC) selected and deleted with real keystrokes in the editor (a click in a plain paragraph, ctrl+a, Delete); 0 characters left",
+ "payload": "PAYLOAD-A.html",
+ "payload_sha256": "7bb1e00439554b8399e900fa32f88c44d7f808a6de9714be0b5969d70aa6792f",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/71b90981d2d69a6522607ae8a4ded28579613ff1/articles/inner-signal/humanize/fix-20261023/recheck-a3/PAYLOAD-A.html",
+ "paste": {
+  "helper": "../../fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 29299,
+  "words_expected": 29265,
+  "words_match": false,
+  "why_not": "the editor shows 34 more words than WORDS-A.json counts, as at every paste of part A"
+ },
+ "saved": "the editor said Saved before the page was left",
+ "rendered_check": "the secret link opened in the app's browser (post title the draft's, unpublished): 596 lines, 156,434 characters; their first 99,999 hash to TEXT-A.txt (e21fc7a8...) exactly, with batch 474 in them",
+ "text_sha256": "e21fc7a8e5cb2dad6bb0d4d9ce680f1db02aaf6f82fc3460d15ebba20ca5ae07",
+ "text_chars": 99999,
+ "predictions": "pangram-ledger.jsonl HG-whole#56, and the part forecast FORECAST.json (CHANGED.json, part_forecast.py make), both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}
