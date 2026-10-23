@@ -89,7 +89,8 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 
 ## Waiting on Joel
 1. Questions 57 to 63 on `OWNER-QUESTIONS.md` (from the review of GPT's suggestions, 2026-10-23).
-2. The pull request this turn's work is in (the hypnosis lane's branch `claude/community-joel-1018`; its handoff names it).
+2. Pull request 231 (https://github.com/u-dont-existDOTcom/joel-articles/pull/231), this turn's work for all three lanes, on
+   the hypnosis lane's branch `claude/community-joel-1018`; his to merge.
 
 ## Next step
 1. When he answers 57 to 63: put in what he picks (see START HERE), each change checked in Pangram before it goes in.

@@ -209,6 +209,8 @@ review of GPT's suggestions for the community article (that lane's handoff). Don
 - **Nibbāna recheck 6** (`recheck6/`): built, CHANGED.json (13 parts), FORECAST.json (92 parts, 1% no red), NB-whole#28
   (AI at 0.01), pasted into draft 221726541 (caption deleted), rendered text = DRAFT-TEXT.txt (f5c918c2...); the nested
   MN 89 note and all 60 headings were in the editor.
+- Pull request 230 was merged by Joel; this turn's work is pull request 231
+  (https://github.com/u-dont-existDOTcom/joel-articles/pull/231), his to merge.
 - Delegation: one Sonnet reader for the splices (checked by my triage).
 
 Next:
