@@ -44537,6 +44537,31 @@
           "path": "articles/nibbana/humanize/fix-20261023/caveats/READER-1.md",
           "sha256": "97769eb1800b73193d3e85c4d436b5f17b3a9c6900e05d178646a2f9f02c0c88",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/READER-2.md",
+          "sha256": "0aefaba3fde70632fa235fa3c17b69216416e6377315c937ee21d608bd360678",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/READER-3.md",
+          "sha256": "f53ed56c140b115f658d30908a056fc1b848252f86186d250f440f9348f63039",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/READER-4.md",
+          "sha256": "2ed319cc5d1cdfe50140070e4c076af8a50a38691ffb877e59a2e32cdf1aba69",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/READER-5.md",
+          "sha256": "8ec92f10809ca98db07070053efa96532a6a88130d4b174f9069f7b34e6236b1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/READER-6.md",
+          "sha256": "918f7d1cdb595fdcf8a891a0cc866bcbe657660dda737e1f3015566f349937b9",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -84633,6 +84658,36 @@
         {
           "path": "articles/intentional-communities/candidate/joel-20261023/caveats/READER-1.md",
           "sha256": "15e9a8d35cd7c26c0a938f8d1124f5cfd5d653ba980463b2fb6d6e801a0634b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/READER-2.md",
+          "sha256": "bfe154d5bff493f449e2303a6e492ad18d457161c36abdde6b247718362eb404",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/READER-3.md",
+          "sha256": "568e7a65be31a479e4aceff51309ca81b3fd6a2342b980ba4645278410f787c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/READER-4.md",
+          "sha256": "b7eb3a20f63a5561d8cd3f1e50e6c3965deb43615922bc8108bd17d3aa71bf5e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/READER-5.md",
+          "sha256": "12793a7e4b38f2e4e0bbdce13423ee82e2a7e5cd8d3687eb534dfe1d2426899f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/READER-6.md",
+          "sha256": "75c569dd5891a8c388472d35bf3c1ecd9b31df9bfd7d1218029d42d588d40fc9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/restructure/BUNDLE-IC.json",
+          "sha256": "639003264a24fa263666f552347bcd78c4857ec1a0576742fc67408134d2c2e6",
           "role": "humanization_working_record"
         }
       ]
