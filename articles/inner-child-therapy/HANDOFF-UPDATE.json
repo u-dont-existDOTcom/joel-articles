@@ -1,31 +1,31 @@
 {
- "turn": "97, in progress",
+ "turn": 97,
  "replace": [
   [
-   "\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#221\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/221\\)\\ for\\ him\\ to\\ merge\\.",
-   "), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #221 (https://github.com/u-dont-existDOTcom/joel-articles/pull/221) merged (2026-10-22 23:02 UTC).",
+   "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631\\.$",
+   "the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #223 (https://github.com/u-dont-existDOTcom/joel-articles/pull/223) for him to merge.",
    1
   ],
   [
-   "^1\\. His answers to questions 86 \\(how to use the Pangram API credit\\).*$",
-   "1. Nothing until turn 97's results; then the questions they raise, on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E); once the results are final, his delete of the two temporary Substack drafts (A and B).",
+   "^1\\. Nothing until turn 97's results;.*$",
+   "1. His answers to questions 88 to 90 on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E); once the results are final, his delete of the two temporary Substack drafts (A and B).",
    1
   ],
   [
-   "^2\\. His merge of pull request #221 .*$",
-   "2. His merge of turn 97's pull request (#221 is merged).",
+   "^2\\. His merge of turn 97's pull request \\(#221 is merged\\)\\.$",
+   "2. His merge of pull request #223 (https://github.com/u-dont-existDOTcom/joel-articles/pull/223), turn 97 (#221 is merged).",
    1
   ],
   [
-   "^1\\. His answers to 86 and 87; put his words in word for word\\..*$",
-   "1. The API check of experiments/t97-api/TEXTS.json on the laptop: cd /home/joel/ai-work/claude-dangerous-lane && PANGRAM_KEY_FILE='/home/joel/Documents/api keys/pangram.txt' python3 - check <(git -C joel-articles show FETCH_HEAD:articles/inner-child-therapy/experiments/t97-api/TEXTS.json) pangram-api/t97 --windows --names NAME, with the script piped from git show FETCH_HEAD:tools/humanization/pangram_api.py (never print or copy the key; never write to /tmp there). First t97_parentP4 alone, to see which version answers (prediction parent-P4#90); if 4.1, the five sections, each predicted first. Then rewrite whatever still reads AI with E207, E216 and E217, check again, and give him the check of each stretch he should look at (E214). Joel's 86: paragraphs and sections by the API, at most about five or six paragraphs a check; halves on the Substack check (he switches accounts at the daily limit).",
+   "^1\\. The API check of experiments/t97-api/TEXTS\\.json on the laptop:.*$",
+   "1. His answers to 88 to 90; his words in word for word. Then check what changes through the API on the laptop: cd /home/joel/ai-work/claude-dangerous-lane && git -C joel-articles fetch -q origin handoff/claude-dangerous-adult-20260924-1631 && git -C joel-articles show FETCH_HEAD:tools/humanization/pangram_api.py | PANGRAM_KEY_FILE='/home/joel/Documents/api keys/pangram.txt' python3 - check <(git -C joel-articles show FETCH_HEAD:PATH/TEXTS.json) pangram-api/tNN --windows --expect 4.1 (never print or copy the key; never write to /tmp there). A changed paragraph alone first, then its section (two checks a section, six a paragraph; E220), at most five or six paragraphs a check (his 86). Halves on the Substack check once the stretches pass (he switches accounts at the daily limit). Predictions first, as the chance of a Human result; after the results, the scorecard; give him each check he should look at with its link (E214) and the pull request's link (E213).",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 96 (",
-   "- TURN 97 (2026-10-23, his message of 2026-10-22 23:54 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631.\n  - His message: experiments/t97-answers/JOEL-20261022-2354.md. 86: A, with his terms (E218). 87: his two rewrites (Before You Try to Go Deep P3 and P4; Your Body P3 to P5), dark green in his checks, installed word for word (entry joel-97-20261022).\n  - Borrowed Adulthood in Relationship reads AI inside half B (part 5 of 9) and 100% Human alone (experiments/t97-results/BORROWED-ADULTHOOD-READINGS.json; E215). New rule E214: every stretch I ask him to fix comes with its check's link; tools/questions_page.py refuses the page otherwise.\n  - NEXT: Next step 1."
+   "  - NEXT: Next step 1.",
+   "  - The API answers with Pangram 4.1 (tools/humanization/pangram_api.py records the version; --windows prints what was flagged). Results: experiments/t97-api/API-CHECKS.md; predictions #90 to #99, 9 of 10 right. Your Body reads Human as a section. Related Clinical Work reads Human with my wording of his line (draft e06), which waits for his yes (question 89; the owner-edit check holds his line). How Much Happiness, Stays Shallow and The Parent You Inherited P4 still read AI and are out of checks, so his words are asked for (question 88); the rest of The Parent You Inherited is question 90. Lessons E219 to E222."
   ]
  ]
 }

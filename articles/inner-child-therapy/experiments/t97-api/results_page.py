@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Turn 97: API-RESULTS.md, a page Joel can open for the API checks (E214: every stretch I ask him to fix comes with the
+"""Turn 97: API-CHECKS.md, a page Joel can open for the API checks (E214: every stretch I ask him to fix comes with the
 check that shows it; API checks have no Pangram page, so this page shows what each one flagged).
 
-Reads API-RESULTS-*.jsonl (the lines pangram_api.py printed with --windows) and NAMES below, and writes each check's
-text with its AI windows in bold, labelled with their confidence.
+Reads API-RESULTS-*.jsonl (the lines pangram_api.py printed with --windows) and NAMES.json, and writes each check's
+text with its AI windows in bold, labelled with their confidence. The page is a view rebuilt every round, so its name has no
+RESULT in it: scripts/register_article_artifacts.py makes every experiments/*RESULT* file a detector result that never changes
+(API-RESULTS.md is round 1's page as first written; CORRECTION-T97.md).
 """
 import json
 import pathlib
@@ -32,17 +34,17 @@ def main():
     lines = ['# Turn 97\'s API checks (Pangram 4.1)', '',
              'Each check went through Joel\'s API key (`tools/humanization/pangram_api.py`). AI windows are in **bold**, with '
              'their label and confidence; everything else read Human. The predictions are in `../../tools/pangram-ledger.jsonl` '
-             '(batch t97-api).', '']
+             '(batches t97-api and t97-api-2). Each check is a heading below, so its link is this page with #name at the end.', '']
     for f in sorted(HERE.glob('API-RESULTS-*.jsonl')):
         for l in f.read_text(encoding='utf-8').splitlines():
             r = json.loads(l)
             pct = round(100 * (r['fraction_ai'] or 0))
-            lines += ['## %s: %s' % (r['name'], NAMES.get(r['name'], '')), '',
-                      '%s (%s), %d%% AI, %d words, version %s, %s.' % (r['headline'], r['prediction_short'], pct, r['words'],
-                                                                      r['version'], r['utc']), '',
+            lines += ['## %s' % r['name'], '', '%s.' % NAMES.get(r['name'], ''), '',
+                      '**%s** (%s), %d%% AI, %d words, Pangram %s, %s.' % (r['headline'], r['prediction_short'], pct, r['words'],
+                                                                          r['version'], r['utc']), '',
                       marked(r['windows']), '']
-    (HERE / 'API-RESULTS.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
-    print('wrote', HERE / 'API-RESULTS.md')
+    (HERE / 'API-CHECKS.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    print('wrote', HERE / 'API-CHECKS.md')
 
 
 if __name__ == '__main__':

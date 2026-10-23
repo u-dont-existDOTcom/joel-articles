@@ -77,9 +77,9 @@ details > div { padding: 0 0 .6rem 1.1rem; }
 
 # E214 (Joel, 2026-10-22 23:54 UTC: "can you please always give me the links to the checks you want me to copy and fix? i
 # thought that was a rule already."): an open question that says a stretch reads AI links the check that shows it, a
-# pangram.com result page (feed or history) or, for an API check, the result file on GitHub.
+# pangram.com result page (feed or history) or, for an API check, its results or checks page on GitHub.
 AI_READING = re.compile(r'\b(?:still|reads?) AI\b|\bread (?:as )?AI\b|\bread (?:High|Medium|Low)\b|\bAI windows?\b', re.I)
-CHECK_LINK = re.compile(r'pangram\.com/(?:feed|history)/|github\.com/\S*(?:results|RESULTS)\S*')
+CHECK_LINK = re.compile(r'pangram\.com/(?:feed|history)/|github\.com/\S*(?:results|RESULTS|checks|CHECKS)\S*')
 
 
 def unlinked_ai_asks(md):

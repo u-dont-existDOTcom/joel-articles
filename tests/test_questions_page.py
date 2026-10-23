@@ -19,10 +19,11 @@ class LinkedChecks(unittest.TestCase):
         md = HEAD + '### 🟣 88. What still reads AI\n\nP4\'s questions read High.\n' + TAIL
         self.assertEqual(Q.unlinked_ai_asks(md), ['### 🟣 88. What still reads AI'])
 
-    def test_a_feed_or_history_link_or_a_results_file_passes(self):
+    def test_a_feed_or_history_link_or_a_results_or_checks_page_passes(self):
         for link in ('https://www.pangram.com/feed/f0a788bc-07a4-411d-bd1b-292c7370c630',
                      'https://www.pangram.com/history/ac67756a-4621-44c6-8d06-84ce60f24a64',
-                     'https://github.com/u-dont-existDOTcom/joel-articles/blob/main/x/t97-results/API-RESULTS.md'):
+                     'https://github.com/u-dont-existDOTcom/joel-articles/blob/main/x/t97-results/API-RESULTS.md',
+                     'https://github.com/u-dont-existDOTcom/joel-articles/blob/main/x/t97-api/API-CHECKS.md#t97b_parent'):
             md = HEAD + '### 🟣 88. What still reads AI\n\nP4 read High (part 5 of 9): %s\n' % link + TAIL
             self.assertEqual(Q.unlinked_ai_asks(md), [], link)
 
