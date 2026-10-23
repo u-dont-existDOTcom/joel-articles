@@ -18,7 +18,7 @@ H = F.parents[0]
 sys.path.insert(0, str(H / 'fix-20261021' / 'b469'))
 from score_b469 import norm_map, plain, reading  # noqa: E402
 
-LINKS = {'part A': 'https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af'}
+LINKS = {'part A': 'https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af'}   # part B: its result's own link
 
 
 def locate(probe, res):
@@ -37,9 +37,11 @@ def locate(probe, res):
 
 
 def main():
-    res = [(n, json.loads((R / f).read_text(encoding='utf-8'))) for n, f in (('part A', 'RESULT-A.json'),
-                                                                           ('part B', 'RESULT-B.json'))
-           if (R / f).exists()]
+    # part A of this round was checked here (Joel's result of 2026-10-23 01:10 UTC); part B is pasted from the next
+    # round's folder (fix-20261023/recheck/, with Joel's Appendix C), so its result is read from there
+    where = {'part A': [R / 'RESULT-A.json'], 'part B': [R / 'RESULT-B.json', H / 'fix-20261023' / 'recheck' / 'RESULT-B.json']}
+    res = [(n, json.loads(next(f for f in fs if f.exists()).read_text(encoding='utf-8'))) for n, fs in where.items()
+           if any(f.exists() for f in fs)]
     hsf, _ = norm_map(plain((H / 'HUMANIZED-SO-FAR.md').read_text(encoding='utf-8')))
     out, fcs = [], {b: json.loads((F / b / 'batch' / 'FORECAST.json').read_text(encoding='utf-8')) for b in ('b470', 'b471')}
     for batch in ('b470', 'b471'):

@@ -1,5 +1,46 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 01:10 UTC (recheck A read; answer 13, his own Appendix C; batch 472g through the API; recheck B pasted)
+
+**Recheck A's result** ([his link](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af)): Mostly Human
+Written, 1.4% AI, 10 of 100 windows; the windows read from the page as one compact line, the text rebuilt from the payload
+(`fix-20261022/recheck/RESULT-A.json`, SHA-256 fd2e3ed6..., equal to the page's). The induction section from bf read Human
+in place (28 windows, 13 of them light green on short lines) but for its last paragraph. Red: De-hypnosis's run of
+questions (part 7 of the result page, Low and one Medium); the seam from the induction's last paragraph into the return's
+first (part 9, High); the return's "Get up only when you feel steady. Make sure you're truly oriented and alert. Don't
+just assume it ..." (part 9, Low). In the ledger, HG-whole#33 (AI at 0.10) is right: I first typed its verdict as Human,
+corrected to Mixed, and the same check of every result line found part B of 2026-10-21 (HG-rest-B#20) typed the same way,
+now Mixed and right (its earlier "verdict threshold misread" explanation was the misread); `pangram_ledger.py result` now
+refuses a verdict its headline contradicts (E225). Batches 470g and 471g: 17 of 17 forecasts right in part A, 7 to score
+in part B (`fix-20261022/recheck/score_recheck.py`, `b470/batch/SCORE.md`, `b471/batch/SCORE.md`).
+
+**Joel's answer 13** (`fix-20261023/joel-20261023-0110-message.txt`): his own five paragraphs for Appendix C's prose, the
+opening he checked ("13 human high conf") and the signs, what to do, and the good and bad guide; installed as he typed them
+with "accomodate" fixed (`fix-20261023/make_joel_0110.py`, edit HG32-joel-0110). His "learn some lessons" is E223 (what his
+opening did that six versions of mine didn't, against sample S5), and his "it seems like you duplicated this in your
+check" is E224 (samples that share text go in separate API checks).
+
+**Batch 472g** (`fix-20261023/b472/`): the three red stretches, each checked through the API on a pair (E218; the laptop's
+lane-folder `pangram_api.py` is the old 4.0-only one, so the repository's was fetched at 92f87f0d into the check's folder,
+SHA-256 4a100ecd...). Fourteen checks ([the page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md)), each predicted first (ledger #34 to #47):
+- The bases: the seam read AI, High, throughout, as in place; the two Low stretches read Human, so their pairs can show
+  only that a fix is no worse (E226).
+- s1: b (his bracketed list for the ten questions) read Human, its sentence's window High; c, which joined "It's all
+  around you." on to clear the linter's B3, read worse (9.6% AI), so b goes in (E211, E228).
+- s3: c (the commands joined, the count's caveat as a gloss in brackets, the installed "truly") read Human in one High
+  window, and goes in.
+- s2, the seam: AI, High, in six versions (b: the return paragraph reworded; c: the induction paragraph reworded; d: both;
+  e: both in his register, the induction paragraph alone too; f: e without the tidy closers, alone too). Both paragraphs
+  are the published text's, with no earlier draft of his, so it is question 14 (E227).
+A reader checked s1b and s3b against the published guide in place (`REVIEW.md`: both OK); `lint-compare.json`;
+`GATE.json`; installed by `install_b472.py` (edits b472-s1b and b472-s3c).
+
+**Recheck B** (`fix-20261023/recheck/`, built by its `make_recheck.py`): the appendices with his Appendix C, predicted first
+(HG-rest-B#48, Human at 0.55), pasted into draft B after its title was checked and its body cleared with real keystrokes
+(the helper's paste: 10,852 editor words, 25 more than the payload's count, as part A had 34 more), and its rendered
+paragraphs, the known button line left out, hash to `TEXT-B.txt` (76745975...): [TEMP recheck B (hypnosis guide appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=2026-10-23T02%3A10%3A00.000Z&audience=only_paid&free_preview=false&freemail=).
+It waits on Joel's Brave. Part A waits for question 14.
+
 ## 2026-10-22, after Joel's message of 21:41 UTC (the pull request; answer 12, batch 471g; both screenings read; the induction section from bf; recheck A; Nibbāna's HTML)
 
 **The pull request** ("the pr has conflicts"): main had taken the Inner Child lane's pull request 218, with a conflict in

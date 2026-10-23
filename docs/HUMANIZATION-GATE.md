@@ -764,6 +764,74 @@ What the turn's two API rounds showed (`articles/inner-child-therapy/experiments
 - **E221. A plain, joking line in his register beat a formal disclaimer.** Related Clinical Work read AI only on "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus." My wording, "I borrow particular ideas and practices from each of them, but the mix is mine, so please don't blame them for it.", read 100% Human with its section. It is his line, so it waits for his yes; the owner-edit check refused it when I put it in.
 - **E222. In Stays Shallow, plain statements and a playful detail passed where a diagnosis didn't.** These read Human: "A nice session that just wears off is a different thing.", "I'd ask what the dream let you feel that the session didn't, and look at it again after your morning coffee." and "dial the practice down". The hypothetical setup after his night line still read AI ("Say you wake up from a dream soaked in way more feeling and need than anything the session got near."), and so did its short diagnosis ("Then this is probably you.").
 
+## What Joel's message of 2026-10-23 01:10 UTC taught (the hypnosis guide: recheck A, question 13, the screening's repeat)
+
+The records: `articles/inner-signal/humanize/fix-20261023/` (his message word for word, `joel-20261023-0110-message.txt`;
+batch 472g's API checks, `b472/API-CHECKS.md`; this round's recheck, `recheck/`).
+
+- **E223. What his Appendix C opening changed (question 13: "13 human high conf learn some lessons").** Six versions of
+  the opening had read AI: his published list, my prose and four rewrites. Sample S5 of the first screening post already
+  had his run of "What would love do? What would truth do?" and four "if it's really ..." tests, and every window of its
+  opening read AI. His version read Human, high, in his check. Against S5:
+  1. **One question with the thought in it replaced the stock pair:** "What would this thing influence me to believe that
+     isn't true in order to get what it wants from me?" for "What assumptions are being made? Who benefits from this?"
+  2. **A gloss, not a hedge:** "What is my body telling me to do about this (how does my body feel)?" Every version that
+     read AI hedged the body's signal in brackets instead: "(Don't assume you know what it means.)", "(but not believing
+     everything it says)", "but I won't assume I know what it proves". (His version leaves that caution out; it is his to
+     drop, and his list of warning signs right after it covers it.)
+  3. **A run of questions that breaks its own frame:** "What would love do here? What would truth do here? How would I
+     approach this humbly? What would life have me do here?" S5's four "What would X do?" read AI.
+  4. **Small words of stance:** "I don't even have to attack it", "I can just slow myself down", "ask some questions like".
+  5. **An aside naming who says it** (E207's move 2): "it can take your questioning (as the police like to say)".
+  6. **Parallel tests with different verbs and lengths, the last long and personal:** "can take your questioning", "can
+     accommodate your boundaries", "it'll still be there tomorrow", "it won't want you to give up all the wisdom and
+     sovereignty you've worked so hard to develop". S5 said "will survive" twice.
+  7. **A how-to lead with its examples in brackets:** "What to do when you feel like you're being pushed too hard by
+     something (person, ad, ideology, spiritual teaching, romantic attraction, internal voice, etc.): Say to yourself,"
+     for S5's "Here's a checklist for when you find yourself in that place ..." and my "Use this checklist when ...".
+  8. **In the rest (read in recheck B), the signs as what the thing does, in one sentence with plain repeats and
+     slashes:** "see if it does any of the following: create a sense of urgency, ..., ask you for money, ask you for sex,
+     ask you for loyalty, ..., make normal life seem boring/stupid/irrelevant in its presence, try to seduce/scare/rescue
+     your child". And the bad guide's last sentence has a doer trying something, with the proof folded into the list: "A
+     bad guide will try to make your no something that's bad or needs to be fixed (resistance, ego, ..., need for more of
+     its guidance, etc)", where S5's "Therefore, no will be framed as bad (...) or as proof you need more guidance" read AI.
+
+  So when a paragraph has read AI in several wordings, the next try changes its questions, not its words: the one thing
+  each check is for, asked the way a person would ask it; a gloss where mine had a hedge; a run that breaks its frame.
+  Batch 472g used move 7 at once: De-hypnosis's ten "By a screen? ... By repetition?" questions became his bracketed list,
+  and read Human with that sentence's window High, where the questions had read Medium.
+- **E224. Samples that share text go in separate checks** (his words: "also it seems like you duplicated this in your
+  check"). The second screening post repeated Appendix C's middle and end in both new openings' samples, so that each
+  opening was read with the same text after it. On one page that reads as a mistake. Since the API is open for
+  paragraphs and sections (E218), samples that share text are separate API checks of five or six paragraphs at most; a
+  Substack screening post holds only samples with nothing in common.
+- **E225. "Mostly Human Written" is Mixed.** I recorded recheck A's result with `--verdict Human`, and a check of every
+  result line against its headline found the same slip on part B of 2026-10-21. A Human verdict is a 100% Human result
+  (`verdict_of`), so both calls were scored the wrong way. Both have correction lines, and `pangram_ledger.py result` now
+  refuses a typed verdict that its headline or fraction contradicts (`tests/test_pangram_ledger.py`).
+- **E226. A pair through the API reproduces a strong window, not a weak one.** Recheck A's seam between the induction
+  section and the return read AI, High, in the guide, and AI, High, on its pair every time. Its two Low and Medium
+  stretches (De-hypnosis's questions; the return's "Get up only when you feel steady ...") read Human on their pairs as
+  they stood. So for a High window the pair is a diagnosis, and a fix can be tried on it. For a Low one the pair shows
+  only that a candidate is no worse, and the next whole-guide check decides (E215 in reverse).
+- **E227. When every wording reads AI alone, the reasoning goes to Joel.** The seam read AI, High, in six versions:
+  reworded, in his register (his casual words, an image for each step), and with the tidy closers taken out of both
+  paragraphs. The induction paragraph read AI alone in the last two. Both paragraphs come from the published guide's
+  polished text, and no earlier draft of his has them, so there is nothing of his to go back to. It went to him as
+  question 14, as Appendix C's opening did at the same count. One sign along the way: the return paragraph's tidy closer
+  ("The only things you bring back out are the ones you actually want.") read AI, High, in a 13-word window of its own.
+- **E228. A linter fix can read worse.** Clearing the linter's B3 (a short knock-down) by joining "It's all around you."
+  onto the bracketed list's sentence turned that sentence's window from High to Low, and the pair from 0% to 9.6% AI. The
+  short sentence was the installed text's, and it went back as it was (E211).
+- **E229. A push can leave out what its checks ran on.** `lane_push.py --add TOOL --add TEST` committed only the test:
+  with `nargs='*'` alone, a second `--add` replaced the first. Its checks run on the working tree, where the tool change
+  was, so they passed, and the pushed commit had a test without the code it tests. Each `--add` now adds to the list
+  (`tests/test_lane_push.py`), and the push stops when `tools/`, `tests/` or `scripts/` have changes the commit leaves out.
+- **The API script in the laptop's lane folder is the old one.** `/home/joel/ai-work/claude-dangerous-lane/pangram_api.py`
+  (SHA-256 d45a9a44...) still requires version 4.0 and stops on a 4.1 result. Fetch the repository's current one at a
+  main commit into the check's own folder and check its SHA-256 (4a100ecd... at 92f87f0d), as
+  `fix-20261023/b472/` did.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

@@ -105,9 +105,9 @@ every such edit goes through the gate.
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: the screening post's link to open in his Brave and its result link to send; the right result link
-for his Nibbāna article; question 12 (2026-10-22). Questions 1 to 8 were answered at 2026-10-21 17:56 UTC, 9 to 11 at
-2026-10-22 18:37 UTC.
+`OWNER-QUESTIONS.md`: recheck B's result link (draft B is pasted and verified, 2026-10-23 02:05 UTC); question 14 (the seam
+between the shortcut part and the return, his own words). Questions 1 to 8 were answered at 2026-10-21 17:56 UTC, 9 to 11
+at 2026-10-22 18:37 UTC, 12 at 21:41 UTC, 13 at 2026-10-23 01:10 UTC.
 
 ## Where it stands
 
@@ -171,7 +171,39 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-22, after Joel's links of 21:41 and 23:01 UTC: recheck A waits on his Brave, question 13 on him)
+## Next step (2026-10-23, after Joel's message of 01:10 UTC: recheck B waits on his Brave, question 14 on him)
+
+Done since the step below: recheck A read (`fix-20261022/recheck/RESULT-A.json`, Mostly Human Written, 1.4% AI; ledger
+HG-whole#33 right once its verdict was corrected to Mixed, E225); 470g's and 471g's forecasts scored for part A, 17 of 17
+(`fix-20261022/recheck/score_recheck.py`); his answer 13 installed, his own Appendix C prose (`fix-20261023/make_joel_0110.py`,
+edit HG32-joel-0110); batch 472g through the API on the laptop (`fix-20261023/b472/`, its `API-CHECKS.md`; fourteen checks,
+ledger #34 to #47): b472-s1b and b472-s3c in, the seam (HG17-B306 and HG18-B308) AI in six versions; recheck B rebuilt,
+predicted (HG-rest-B#48) and pasted (`fix-20261023/recheck/RECHECK-POST-B.json`, its rendered text equal to TEXT-B.txt).
+Lessons E223 to E229 in `docs/HUMANIZATION-GATE.md`.
+
+1. **When Joel sends recheck B's result link**: read the windows from the page (the compact line, as in
+   `fix-20261022/recheck/`), then `substack_check_text.py result fix-20261023/recheck/PAYLOAD-B.html WINDOWS-B.txt
+   META-B.json --out RESULT-B.json` (no `--limit` needed: part B is 57,384 characters; the checked text should hash to
+   76745975...), the ledger result for key HG-rest-41r4-b (use `verdict_of`'s rule: Human only for a 100% Human result),
+   his Appendix C's windows read on their own, and the part B forecasts scored (`fix-20261022/recheck/score_recheck.py` reads RESULT-B.json from
+   `fix-20261023/recheck/`). A red stretch gets a diagnosis;
+   one of his own paragraphs that reads red goes back to him with the check's link and part number (E214), never into my
+   words.
+2. **Question 14** (`OWNER-QUESTIONS.md`): A, his words for the two seam paragraphs go in as he writes them (an edit of
+   each paragraph in `fix-20261020/EDITS41.json`, source his message, as HG32-joel-0110); B, a seventh try: the shortcut's
+   retiring steps folded into "Also, be sure that this is working for you ..." (lineage HG17-B306 has three API tries
+   left, HG18-B308 one); C, they stay red. Until he answers, nothing changes there.
+3. **Then recheck A**: `fix-20261023/recheck/make_recheck.py` again, a prediction for part A (key HG-whole-41r5-a; add its
+   row to that folder's `make_preds_recheck.py`), pasted into draft A (221411215, "TEMP recheck A (hypnosis guide) - do
+   not publish") with `fix-20261022/screen/paste_payload_lane.js` after clearing its body with real keystrokes, and the
+   rendered lines compared with TEXT-A.txt before Joel is asked. It reads b472-s1b, b472-s3c and his answer to 14 in place.
+4. **API checks** (E218: paragraphs and sections, five or six paragraphs at most) run on the laptop from
+   `/home/joel/ai-work/claude-dangerous-lane/pangram-api/hg-b472/`, with the repository's `pangram_api.py` fetched there at
+   a main commit (SHA-256 4a100ecd... at 92f87f0d); the lane folder's own copy is the old 4.0-only one. The texts go over
+   as gzip and base64 with their SHA-256 checked on both sides; one open check per lineage (the ledger refuses a second).
+5. **Queued after this guide: his Nibbāna article** (`articles/nibbana/humanize/QUEUE-20261022.md`), then **question 6 b**.
+
+## Earlier next step (2026-10-22, after Joel's links of 21:41 and 23:01 UTC: recheck A waits on his Brave, question 13 on him)
 
 Done since the step below: pull request 219's conflicts (main took the Inner Child lane's 218, then its 220; merges afc6ea1b
 and 9dff534e), merged by Joel at 22:16 UTC; his answer 12 as batch 471g (`fix-20261022/b471/`: two review rounds, gated,

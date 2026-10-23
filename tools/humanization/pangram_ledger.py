@@ -464,6 +464,18 @@ def cmd_result(a):
     p = find(recs, sha=a.sha, key=a.key, open_only=True)
     if not p:
         raise SystemExit('no open prediction for that text: predictions come first (an unpredicted check is not scored)')
+    # 2026-10-23: the hypnosis lane typed --verdict Human for a "Mostly Human Written" result (10 AI windows), which the
+    # ledger reads as Mixed; a typed verdict now has to agree with the headline and fraction it comes with
+    # (without a fraction, a headline like "AI Detected" can be AI or Mixed, so only a Human verdict is refused there)
+    h = (a.headline or '').strip().lower()
+    if h.startswith('human') and a.verdict != 'Human':
+        raise SystemExit('the verdict %s contradicts the headline %r, a 100%% Human result' % (a.verdict, a.headline))
+    if h and not h.startswith('human') and a.verdict == 'Human':
+        raise SystemExit('the verdict Human contradicts the headline %r: Human means a 100%% Human result (the ledger reads '
+                         'it as %s)' % (a.headline, verdict_of(a.headline, None, a.ai_fraction)))
+    if h and a.ai_fraction is not None and verdict_of(a.headline, None, a.ai_fraction) != a.verdict:
+        raise SystemExit('the verdict %s contradicts the headline %r with %s AI (the ledger reads it as %s)'
+                         % (a.verdict, a.headline, a.ai_fraction, verdict_of(a.headline, None, a.ai_fraction)))
     extra = {'headline': a.headline, 'ai_fraction': a.ai_fraction, 'likelihood': a.likelihood, 'words_read': a.words,
              'shading': a.shading, 'detector': a.detector or p.get('detector'), 'at': a.at}
     rec = result_rec(p, a.verdict, a.link, extra)
