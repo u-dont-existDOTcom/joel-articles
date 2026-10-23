@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bi/HG-seam-rr.txt",
+  "input_words": 245,
+  "input_sha256": "8c355ec90cb785a52953d468135a62c9969949a5e01746697e18662a9ca688ec",
+  "balance_before": 61503,
+  "started_utc": "2026-10-23T12:47:46Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T12:47:59Z",
+  "response": {
+    "id": "9eae3895-cfe8-4566-8899-68bd36a73e8e",
+    "tool": "humanize",
+    "text": "To turn it off, all you need to do is stop rehearsing it, take it out of your recordings if you have any, stop having it in your apps if you have any you’re using, and start using your regular induction again. You should state that you won’t be using it any longer when you’re awake, but realize that just saying it’s gone isn’t going to make it go away right away. If you find you’re still responding to it when you don’t want to, or you’re having problems with disorientation after using it, you should seek help from someone qualified to help you with this. If you want to keep it, that’s up to you, but only for the use of starting a session at a later time if you want to. For now, when you come out of trance today, it will be over.\n\nAlso, make sure to reverse anything you need to reverse when you come out. If you’ve floated, make sure to regain your weight again (whatever weight you choose, of course). If you’ve shrunk, make sure to grow back to your normal size again. If you’ve regressed or have been with parts, make sure to come back to feeling complete in the here and now, knowing your body and that it is under the control of the adult mind. If you’ve gone somewhere, make sure to go back the same way you came. Etc. Make sure to bring out with you only the things you want to.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 245
+    },
+    "elapsed": 13
+  },
+  "balance_after": 61258
+}

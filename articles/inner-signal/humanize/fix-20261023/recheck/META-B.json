@@ -1,0 +1,25 @@
+{
+ "feed_uuid": "1db9825e-5fed-4528-aca5-9d4272b54f83",
+ "link": "https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83",
+ "created_at": "2026-10-23T06:24:32.529869-04:00",
+ "domain": "substack",
+ "headline": "Mostly Human Written",
+ "prediction_short": "Human",
+ "version": "4.1",
+ "fraction_ai": 0.013989806175231934,
+ "fraction_human": 0.9860101938247681,
+ "word_count": 10666,
+ "num_ai_segments": 2,
+ "num_human_segments": 32,
+ "text_chars": 57418,
+ "text_sha256": "b9c77e7adb45ea622b5b6f57ed6cf9f11663d9cabcc035aae3711354d2b5fe9c",
+ "windows_word_sum": 10543,
+ "windows_ai": 2,
+ "windows_human": 34,
+ "embeds": {
+  "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself": [
+   "Quick Triage Web-App Version HERE"
+  ]
+ },
+ "read": "the result page's React props (windows and the text's SHA-256 only), read in the app's browser on 2026-10-23 after Joel's message of 12:30 UTC"
+}

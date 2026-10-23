@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bk/HG-seam-rr.txt",
+  "input_words": 245,
+  "input_sha256": "8c355ec90cb785a52953d468135a62c9969949a5e01746697e18662a9ca688ec",
+  "balance_before": 60831,
+  "started_utc": "2026-10-23T12:48:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T12:48:47Z",
+  "response": {
+    "id": "879a9018-a761-4891-8c98-5aa05768d3c5",
+    "tool": "humanize",
+    "text": "If you decide you don’t want to use a certain trance trigger anymore, the best way to remove it is to simply stop rehearsing it. Take it out of recordings, take it out of apps that you use, and simply start using your regular induction again. You may want to say that you will not use it again while awake, but simply saying that it is gone will not make it go away. If you are responding to the trigger at times you don’t want to, or having issues with disorientation, then reach out to someone who can help you. If you want to keep a certain trigger to use to start a session at a later time, that is fine, but for now the trance you are in today will be over once you come out of it.\n\nIf you have done anything to alter your state when coming out of a trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size. If you have regressed or are working with parts, make sure to come back to feeling complete in your body in the here and now, that your body belongs to you, and that it is under control of your adult mind. If you have gone somewhere, make sure to go back the same way you went there. Etcetera. Make sure to only take with you when you come out of a session the things that you want to!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 245
+    },
+    "elapsed": 12
+  },
+  "balance_after": 60586
+}

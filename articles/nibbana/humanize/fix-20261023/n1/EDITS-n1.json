@@ -42,5 +42,85 @@
   "try": 1,
   "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:24:38Z; 96 words on its own)",
   "review": "fix-20261023/n1/REVIEW.md"
+ },
+ {
+  "key": "n1-science",
+  "windows": "133 (High)",
+  "shape": "four findings as a colon list in parallel (\"Science circles consciousness's edges: X, Y, Z, and W\")",
+  "old": "Science circles consciousness’s edges: people can function with no felt controller, several things can be cognized at once, split-brain patients can resemble two knowers sharing a skull, and one recent theory models minds as nested parallel observers.",
+  "new": "Science only gets to circle the edges of consciousness, though it finds some wild stuff out there: people functioning with no felt controller, several things cognized at once, split-brain patients who can seem like two knowers sharing a skull, and one recent theory that models minds as nested parallel observers.",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_science",
+  "try": 1,
+  "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:24:41Z; 93 words on its own)",
+  "review": "fix-20261023/n1/REVIEW.md"
+ },
+ {
+  "key": "n1-nde-joel-1230",
+  "windows": "31 (Low), 32 (High)",
+  "shape": "his own words (question N2: A)",
+  "old": "The closest comparison that’s worth mentioning is the out-of-body perception in some near-death experiences. People sometimes report seeing things from impossible angles, and a controversial subset of those reports were verified by others in the room. Those cases had an externally verifiable target, which was not part of my room experience, since I was not floating around to notice any specific details. They aren’t proof of my own event, but they could help explain what I mean by an experience that was no longer limited by the body’s vantage point. See this <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10158795/\">systematic analysis of near-death reports</a>, the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://pubmed.ncbi.nlm.nih.gov/37423492/\">AWARE-II cardiac-arrest study</a>, and a recent <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12573288/\">veridical-NDE evidence scale</a>.",
+  "new": "The closest comparison that’s worth mentioning is the out-of-body perception in some near-death experiences (which, btw, are even more interesting than reading \"trip reports.\"). You'll see reports where people are seeing things from impossible angles, and some of these were actually verified by others in the room (for more detail on that, see this <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10158795/\">systematic analysis of near-death reports</a>, the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://pubmed.ncbi.nlm.nih.gov/37423492/\">AWARE-II cardiac-arrest study</a>, and a recent <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12573288/\">veridical-NDE evidence scale</a>). Unlike those reports, though, I wasn’t floating around noticing specific details, so my experience isn't provable in that sense. They might still help explain what I mean by an experience that wasn’t limited by the body’s vantage point anymore.",
+  "check": null,
+  "try": null,
+  "result": "his own check (\"dark green\", his message of 2026-10-23 12:30 UTC); read in place in the next recheck",
+  "source": "fix-20261023/joel-20261023-1230-message.txt",
+  "typos_fixed": [],
+  "review": null
+ },
+ {
+  "key": "n1-burden-joel-1230",
+  "windows": "80 (High), 81 (Medium), 82 (Low)",
+  "shape": "his own words (question N2: A)",
+  "old": "The Buddha splits the accounting cleanly in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://suttacentral.net/sn22.22/en/sujato\">SN 22.22</a>: the five aggregates are the burden; craving is picking it up. The tangle is heavy by nature – even an arahant feels the first dart – and craving keeps us carrying it. Physics agrees that binding is literally heavy: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://home.cern/news/news/physics/other-99\">quarks supply less than 1% of a proton’s mass; roughly 99% comes from gluon-binding energy</a>. Matter weighs what its binding weighs. Light weighs nothing.",
+  "new": "In <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://suttacentral.net/sn22.22/en/sujato\">SN 22.22</a> the five aggregates that make up the unified body-mind are the burden (even an arahant feels the first dart) of suffering, and craving is the process that keeps picking that burden up, so that you walk around unaware of the boulder on your back even as you keep making the payments to the Boulder Bank to keep it there (and thank God you can afford to!?). The tangle of the aggregates is what makes them heavy, which sounds counterintuitive since we don't imagine the whole can be more than the sum of its parts in that way. But \"binding\" is literally heavy in physics too: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://home.cern/news/news/physics/other-99\">quarks supply less than 1% of a proton’s mass, roughly 99% comes from gluon-binding energy</a>. Matter weighs what its binding weighs. Light weighs nothing.",
+  "check": null,
+  "try": null,
+  "result": "his own check (\"dark green\", his message of 2026-10-23 12:30 UTC); read in place in the next recheck",
+  "source": "fix-20261023/joel-20261023-1230-message.txt",
+  "typos_fixed": [
+   "burden(even",
+   "dart)  of",
+   "counterinuitive"
+  ],
+  "review": null
+ },
+ {
+  "key": "n1-diamond-joel-1230",
+  "windows": "129 (High)",
+  "shape": "his own words (question N2: A)",
+  "old": "I used to attribute “life is like a dream” directly to the historical Buddha. The famous stanza I loved actually comes from the later Mahāyāna <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://read.84000.co/translation/toh16.html\"><em>Diamond Sutra</em></a>, which puts some words in his mouth, although the early Pāli texts offer closely related images. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://suttacentral.net/sn22.95/en/sujato\">SN 22.95</a> compares form to foam, feeling to a bubble, perception to a mirage, and consciousness to a magic trick. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://suttacentral.net/dhp170/en/sujato\">Dhammapada 170</a> asks us to see the world as a bubble and mirage.",
+  "new": "I used to attribute “life is like a dream” directly to the historical Buddha, until I found out the famous stanza I loved comes from the much later Mahāyāna <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://read.84000.co/translation/toh16.html\"><em>Diamond Sutra</em></a>, which puts some words in his mouth. The early Pāli texts do give us some very similar kind of symbolism, though. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://suttacentral.net/sn22.95/en/sujato\">SN 22.95</a> shows us how form is empty and always transforming, like foam, fleeting feeling is compared to a bubble, perception is only a mirage, and consciousness is basically the best magic trick. And <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://suttacentral.net/dhp170/en/sujato\">Dhammapada 170</a> asks us to see the world as a bubble and mirage, so if you put it all together, you can certainly imagine that the basic idea of life being like a dream was originally intended.",
+  "check": null,
+  "try": null,
+  "result": "his own check (\"dark green\", his message of 2026-10-23 12:30 UTC); read in place in the next recheck",
+  "source": "fix-20261023/joel-20261023-1230-message.txt",
+  "typos_fixed": [],
+  "review": null
+ },
+ {
+  "key": "n1-driving-joel-1230",
+  "windows": "164 (High), 165 (Medium)",
+  "shape": "his own words (question N2: A)",
+  "old": "My buddy E. told me he had much stronger episodes while driving: for long stretches, his own car and the traffic seemed to disappear. He never had an accident either. Luck is one possibility; so is a misunderstanding of what was happening, some feature of how these states operate, a combination, or God only knows.",
+  "new": "My buddy E. told me he had much stronger episodes while driving. He'd be going down the highway for long stretches while his own car and the traffic outside it seemed to disappear. Surprisingly, he never had an accident, either. God only knows why. Some might say it was luck, good karma, a misunderstanding of what was happening at some very basic level of reality we can't yet understand, or some mix of those.",
+  "check": null,
+  "try": null,
+  "result": "his own check (\"dark green\", his message of 2026-10-23 12:30 UTC); read in place in the next recheck",
+  "source": "fix-20261023/joel-20261023-1230-message.txt",
+  "typos_fixed": [],
+  "review": null
+ },
+ {
+  "key": "n1-driving-joel-1230",
+  "windows": "164 (High), 165 (Medium)",
+  "shape": "his own words (question N2: A)",
+  "old": "Whatever the explanation, to be safe, I wouldn’t keep driving through that. Anyone having comparable episodes should stop operating machinery until they understand them better. That’s my own CYA showing. 😇",
+  "new": "Either way, that sounded pretty extreme to me, and I'm definitely not convinced it's something safe to do. I would have pulled over myself, I'm pretty sure! And I'd recommend the same for anyone else. It's definitely not helping spread the dhamma if people get hit on the road by Buddhist drivers who meditated too hard. That’s my own CYA showing. 😇",
+  "check": null,
+  "try": null,
+  "result": "his own check (\"dark green\", his message of 2026-10-23 12:30 UTC); read in place in the next recheck",
+  "source": "fix-20261023/joel-20261023-1230-message.txt",
+  "typos_fixed": [],
+  "review": null
  }
 ]

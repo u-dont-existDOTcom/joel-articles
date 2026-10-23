@@ -701,5 +701,17 @@
   "section_check": null,
   "section_result": null,
   "reviews": "fix-20261023/b472/"
+ },
+ {
+  "key": "HG16-joel-1230",
+  "section": "HG16",
+  "source": "Joel's own words (his message of 2026-10-23 12:30 UTC, fix-20261023/joel-20261023-1230-message.txt): \"first screenshot is only AI in the article not by itself but i rewrote it\", replacing the paragraph up to \"It's all around you.\"; two typos fixed (\"ominpotent\", a stray \"a\" before \"this or that politician\")",
+  "batch": "joel-20261023-1230",
+  "old": "One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life (a screen, a specific ad, a politician, religious fear, erotic imprinting, charismatic authority, pressure to belong, shame, a sense of urgency, repetition, etc.). It’s all around you.",
+  "new": "One of the best side-effects of learning self-hypnosis is that sudden \"waking up\" to all the ways your attention is being shaped in your day-to-day life. There are actually multiple patents on using screens to send subliminal messages, but even without that kind of potentially illegal tech, the screen is one connection to the omnipotent Algorithm. Which shows us ads and guides our preferences. Then we wonder why we vote for this or that politician. But there are also the older, more mundane influences: erotic imprinting (as if breast implants are actually sexy), religious fear, which tags along with shame, charismatic authority and pressure to belong. And all of that drilled repeatedly into us, because one exposure won't do the trick.",
+  "paragraph_check": null,
+  "paragraph_result": "his own rewrite; read in place in the next recheck of part A",
+  "section_check": null,
+  "section_result": null
  }
 ]

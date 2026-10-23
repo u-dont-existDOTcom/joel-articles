@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bk/NB-rebirth-pub.txt",
+  "input_words": 91,
+  "input_sha256": "a78794160e03b12e6ef974721182200609c6de254322f08bcd43b48ea63ed6c8",
+  "balance_before": 60586,
+  "started_utc": "2026-10-23T12:48:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T12:48:56Z",
+  "response": {
+    "id": "39db85e2-42b5-4284-8c98-76e02792e1ef",
+    "tool": "humanize",
+    "text": "One of the great benefits of becoming a stream-enterer is that it comes with a release date: according to AN 3.88 , at most seven more lives. Despite all the modern day academic work on rebirth, one may ask, who is it that's going to be reborn, since there's no self? The Buddhist answer is that no permanent self-essense/soul moves from one life to the next. Instead, rebirth is the causal continuation of one life into the next, sometimes referred to as the mind-stream. In brief, craving and clinging lead to becoming, which leads to birth. It's like a driverless car. A later Buddhist text, the Milindapañha , used the metaphor of using one lamp to light another.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 91
+    },
+    "elapsed": 7
+  },
+  "balance_after": 60495
+}

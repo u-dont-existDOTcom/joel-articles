@@ -1,8 +1,8 @@
 # Batch 470g: its forecasts against the recheck of 2026-10-22
 
-Written by `fix-20261022/recheck/score_recheck.py` from `batch/FORECAST.json` (written before the recheck) and the recheck's results: [part A](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af).
+Written by `fix-20261022/recheck/score_recheck.py` from `batch/FORECAST.json` (written before the recheck) and the recheck's results: [part A](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af), [part B](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83).
 
-**16 of 16 right** (6 still to score).
+**21 of 21 right** (1 still to score).
 
 | Paragraph | Call | Chance | Reading | Windows | |
 |---|---|---|---|---|---|
@@ -22,9 +22,9 @@ Written by `fix-20261022/recheck/score_recheck.py` from `batch/FORECAST.json` (w
 | b470-anxious-parts | Human | 0.9 | part A, dark | Human High | right |
 | b470-guide-stuck | Human | 0.9 | part A, dark | Human High | right |
 | b470-guide-proportion | Human | 0.85 | part A, dark | Human High | right |
-| b470-synchronicity | Human | 0.85 | not in part A (part B is still to check) |  | pending |
-| b470-guide-cue | Human | 0.9 | not in part A (part B is still to check) |  | pending |
-| b470-guide-reframe | Human | 0.7 | not in part A (part B is still to check) |  | pending |
+| b470-synchronicity | Human | 0.85 | part B, dark | Human High | right |
+| b470-guide-cue | Human | 0.9 | part B, dark | Human High | right |
+| b470-guide-reframe | Human | 0.7 | part B, light | Human High; Human Low; Human Medium; Human High; Human Medium | right |
 | b470-guide-nlp | Human | 0.9 | replaced since by b471-three-roles |  | unscored |
-| b470-anxiety-part | Human | 0.75 | not in part A (part B is still to check) |  | pending |
-| b470-altered-part | Human | 0.9 | not in part A (part B is still to check) |  | pending |
+| b470-anxiety-part | Human | 0.75 | part B, dark | Human High | right |
+| b470-altered-part | Human | 0.9 | part B, dark | Human High | right |
