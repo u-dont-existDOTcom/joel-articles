@@ -112,3 +112,41 @@ IFS calls these wounded young parts “exiles.” I find that pathologizing. I p
 
 And the parts just keep coming: managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts... At some point it’s a maze, with a little one somewhere in the middle of it. Some practitioners are gentle about it and walk you through the maze just fine. Others seem to leave people more split up than when they started. I wouldn’t trust a model more just because there’s a big institute behind it handing out certificates.
 
+## t100_askgod_a
+
+Your first updated paragraph of Your Loan is PRE-APPROVED! alone (your message of 13:10 UTC).
+
+**Human Written** (Human), 0% AI, 113 words, Pangram 4.1, 2026-10-23T13:15:25Z.
+
+Pangram's public page: https://www.pangram.com/history/b7e2fdf3-2621-4447-a546-05fe5ea1f075
+
+And even (or especially) when I am suffering, I try to remember to be grateful for that also, because if not for suffering, I would not even think about how much I have enjoyed not suffering as much, and how much this tribulation will help me to develop more compassion, wisdom, and gratitude in future. It connects me with the plight of the countless other beings suffering at that very moment, authentically bringing up a wellspring of compassion in my heart for all of us. And I see clearly that it is my inner child who is feeling this pain, and what an honor it is that I can be there for him.
+
+## t100_askgod_b
+
+Your second updated paragraph alone.
+
+**Human Written** (Human), 0% AI, 105 words, Pangram 4.1, 2026-10-23T13:15:29Z.
+
+Pangram's public page: https://www.pangram.com/history/219296a9-fba2-46dd-b0f1-f436e4b57963
+
+Of course, that’s not to say you should not try to suffer less. The point of life, according to every spiritual tradition and religion, I think, is to suffer less, which first requires us to understand the cause of suffering, and what real suffering and real happiness are. If you, like Biggie Smalls, have come to understand that having money is not real happiness, that’s a big deal! That’s something to be grateful for. If we get a chance to meditate or pray today, while on the toilet, upon waking up, while ChatGPT is “thinking” for us, that’s something to be thankful for, for sure.
+
+## t100_askgod_stretch
+
+Your two with the three paragraphs around them: the TB and roselle story, the old paragraph's first half, and Notice how.
+
+**Human Written** (Human), 0% AI, 522 words, Pangram 4.1, 2026-10-23T13:15:44Z.
+
+Pangram's public page: https://www.pangram.com/history/dc0894fe-a7b6-4d43-9159-36fb4126dbb7
+
+If you have a moment right now to breathe, that’s something to be grateful for. I learned this many times the hard way. For example, when I got tuberculosis from a cave in Mexico at age 20, and coughed for six months straight, eventually literally unable to breathe, leading to a near death experience. And then in Senegal, I had a suspected bilharzia infection in 2021, and could only painfully pee blood, I promised to always be thankful if I could ever pee normally again. Miraculously, I then found some obscure ethnobotanical research (on Google Scholar, before AI) which led me to drink roselle tea. Within an hour, I was cured. I don’t always remember to say “thank you” when I pee now, but I try.
+
+That may sound like a silly, quirky waste of time to some folks. But what I notice is that saying thank you for every little thing, whenever I remember to, is not about imposing some kind of “spiritual discipline.” It is directly reconnecting me to something pure and sacred.
+
+And even (or especially) when I am suffering, I try to remember to be grateful for that also, because if not for suffering, I would not even think about how much I have enjoyed not suffering as much, and how much this tribulation will help me to develop more compassion, wisdom, and gratitude in future. It connects me with the plight of the countless other beings suffering at that very moment, authentically bringing up a wellspring of compassion in my heart for all of us. And I see clearly that it is my inner child who is feeling this pain, and what an honor it is that I can be there for him.
+
+Of course, that’s not to say you should not try to suffer less. The point of life, according to every spiritual tradition and religion, I think, is to suffer less, which first requires us to understand the cause of suffering, and what real suffering and real happiness are. If you, like Biggie Smalls, have come to understand that having money is not real happiness, that’s a big deal! That’s something to be grateful for. If we get a chance to meditate or pray today, while on the toilet, upon waking up, while ChatGPT is “thinking” for us, that’s something to be thankful for, for sure.
+
+Notice how, when you offer thanks (to the universe, to life, to God, whatever you may believe in), a space in your heart opens up. It might not feel immediately like you suddenly know the real meaning of Divine Love, but it’s a little spark of … something.... There’s a tiny bit of freedom, of peace, stillness, softness. And as that softness deepens each time, you start to understand what I mean by Divine Love. Many people have written books on this topic (like A. Helwa’s book, Secrets of Divine Love, for example), so I won’t belabor the point further here, but I hope you are able to experience this when you try it out for a while, and I’d really love to know how it works for you!
+

@@ -42,6 +42,16 @@ Five of eight calls right. The diagnoses (each prediction's `diagnosis` in the l
 - Owner edits: 184 of 184 pass.
 - To watch in round 6: The Inner Guide P7's last three sentences read AI at the end of the stretch (Human inside rounds 4 and 5); Related Clinical Work's first line, whose round-5 window ran on from IFS P7's.
 
+## His two updated paragraphs (his message of 13:10 UTC)
+
+`../t100-answers/JOEL-20261023-1310.md`: "i also updated 2 paragraphs in ask god for a loan you're pre-approved". Both are in word for word with his link (`../t100-installs/apply_t100b.py`; entry `joel-100-20261023`; owner edits 185 of 185). His first starts where the old paragraph's second half started, so the old first half stays as its own paragraph before it (question 93.3). His second leaves out the abuser clause (PGQ-031's point) and the endless-loop sentences (PGQ-033's last trace): questions 93.1 and 93.2. His link (http://love.u-dont-exist.com) redirects to his Substack post on love and how to feel your heart.
+
+| check (public Pangram page) | words | result | call |
+|---|---|---|---|
+| [t100_askgod_a](https://www.pangram.com/history/b7e2fdf3-2621-4447-a546-05fe5ea1f075) | 113 | Human Written, 0% AI | askgod-his-a#131 Human: right |
+| [t100_askgod_b](https://www.pangram.com/history/219296a9-fba2-46dd-b0f1-f436e4b57963) | 105 | Human Written, 0% AI | askgod-his-b#132 Human: right |
+| [t100_askgod_stretch](https://www.pangram.com/history/dc0894fe-a7b6-4d43-9159-36fb4126dbb7) | 522 | Human Written, 0% AI | askgod-his-stretch#133 Human: right |
+
 ## GPT's reader's edit (question 91)
 
 The test GPT names, Borrow One Competency at a Time, is drafted as moves and one heading: `../t100-readers-edit/BORROW-ONE-COMPETENCY-TEST.md`. Its other three suggestions are 91.2 to 91.4, each with my pick; 91.5 is how to go on.

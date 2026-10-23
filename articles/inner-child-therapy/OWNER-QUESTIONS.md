@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 100). **Open questions: 91 and 92.** For you to do: merge pull request #226. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 100). **Open questions: 91 to 93.** For you to do: merge pull request #226. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -36,6 +36,22 @@ Your words: "lmk if there's anything else missing, bc at top it mentions ... Sou
 - **A (my pick):** I run one fresh coverage check of the guide and the queue against the article, read each gap against your recorded cuts, and bring you only the real gaps in one question; then the header says what's true.
 - **B:** no need; just fix the header.
 
+### 🟣 93. Your two updated paragraphs in Your Loan is PRE-APPROVED! (turn 100)
+
+Your message of 13:10 UTC (`experiments/t100-answers/JOEL-20261023-1310.md`). Both are in word for word, with your link, and they read 100% Human: [the first alone](https://www.pangram.com/history/b7e2fdf3-2621-4447-a546-05fe5ea1f075), [the second alone](https://www.pangram.com/history/219296a9-fba2-46dd-b0f1-f436e4b57963), and [both with the three paragraphs around them](https://www.pangram.com/history/dc0894fe-a7b6-4d43-9159-36fb4126dbb7). Three things they changed that I'd like your word on:
+
+- **93.1** Your second paragraph leaves out "nor does gratitude for difficulties justify staying with an abuser." GPT's queue (PGQ-031) has that point: nobody has to thank an abuser or excuse harm.
+  - **A (my pick):** put the clause back where it was, in your words. Your paragraph just before it now says you're grateful even for suffering, and someone living with an abuser could take that as a reason to stay.
+  - **B:** leave it out.
+  - **C:** your words, somewhere else.
+- **93.2** It also leaves out "Because getting what you want is an endless loop, and it doesn't lead to being content with less. When you can see that less is more, at a deeper level, that's where the real gratitude flourishes." That was the last of the queue's "if only I had X" point (PGQ-033: gratitude that waits for things to be right never comes), after your 2026-10-19 version cut its paragraph.
+  - **A (my pick):** leave it out, since you've cut this point twice now; the records will say it's out by your choice, so the queue item can close.
+  - **B:** put the two sentences back.
+- **93.3** Your first paragraph starts at "And even (or especially) when I am suffering", where the old paragraph's second half started. I kept the first half ("That may sound like a silly, quirky waste of time to some folks. ... It is directly reconnecting me to something pure and sacred.") as its own short paragraph before yours, unchanged.
+  - **A (my pick):** keep it like that.
+  - **B:** cut it.
+  - **C:** put it back at the end of your TB and roselle paragraph.
+
 ## For you to do (no decision needed)
 
 > [!WARNING]
@@ -43,7 +59,7 @@ Your words: "lmk if there's anything else missing, bc at top it mentions ... Sou
 
 ### 🟠 Merge pull request #226 (turn 100)
 
-Turn 99's nine checks recorded, the four paragraphs below put in, question 91 and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/226. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
+Turn 99's nine checks recorded, the four paragraphs below and your two updated ones put in, questions 91 to 93 and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/226. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
 
 ### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
 
@@ -62,6 +78,7 @@ Your messages (turn 99, `experiments/t99-answers/JOEL-20261023-1023.md`; turn 10
 - **"there's an update sent to your lane by gpt from me"**: it's PGQ-046, your amendment on being happy while others suffer. It's in, as two paragraphs after your memoir paragraph in Untangling the Belonging Bargains. The first reads 100% Human alone ([check](https://www.pangram.com/history/72df4253-a0b1-4895-921b-6fb88a762bbd)), the second too ([check](https://www.pangram.com/history/5a276026-12c9-4528-8df4-93ddbf904692)), and both with your paragraph and the lines around it ([check](https://www.pangram.com/history/2b561f5f-5956-4cef-b521-6b11efb84767)).
 - **The four that came back in round 5:** The Inner Guide P5, When One Life Has Ended P1 and How This Relates to IFS P7 (mine) are rewritten and in, each 100% Human alone and with its neighbors: P5 [alone](https://www.pangram.com/history/5ee698a9-da9c-4ca9-80ee-9866cfab16ef) and [P3 to P7](https://www.pangram.com/history/c101212c-912c-4223-a994-77b40547ae84) (its only windows are P7's last three sentences, at the end of that check, Human in both halves); When One Life Has Ended P1 [alone](https://www.pangram.com/history/50f027e5-f84e-47d9-bbc0-43ee045bea9c) and [in its h1](https://www.pangram.com/history/2e42b03b-65f0-4caf-955c-4c6863925169); IFS P7 [alone](https://www.pangram.com/history/b7311406-1ae8-4279-8791-fa3e66734bb2) and [P3 to P7](https://www.pangram.com/history/c4e53e05-a8e2-4090-861c-abbf245babc5). Related Clinical Work's first line (yours) stays as it is: its round-5 window ran on from IFS P7's, so round 6 shows whether it clears.
 - **Your 2026-10-19 question** about the header ("lmk if there's anything else missing") is question 92.
+- **Your two updated paragraphs of 13:10 UTC** are in word for word, each 100% Human alone and with its neighbors; question 93 has three things they changed.
 - The records: `experiments/t100-tries/REVIEWS.md`; lessons E228 to E231 in `docs/HUMANIZATION-GATE.md`.
 
 ### 🟢 88 to 90, and public links, 2026-10-23 02:29 UTC

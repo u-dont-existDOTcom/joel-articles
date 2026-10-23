@@ -117,22 +117,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 19 | 16 (84%) | 79% | 21% | 16% | 0.169 (base 0.166, 19) |
-| **all lanes** | 19 | 16 (84%) | 79% | 21% | 16% | 0.169 (base 0.166, 19) |
+| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
+| **all lanes** | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 19 | 16 (84%) | 79% | 21% | 16% | 0.169 (base 0.166, 19) |
+| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
+| paragraph | 13 | 10 (77%) | 46% | 54% | 46% | 0.200 (base 0.249, 13) |
 | section | 9 | 7 (78%) | 67% | 33% | 11% | 0.161 (base 0.222, 9) |
-| paragraph | 7 | 6 (86%) | 86% | 14% | 29% | 0.187 (base 0.122, 7) |
-| stretch | 3 | 3 (100%) | 100% | 0% | 0% | 0.148 (base 0.000, 3) |
+| stretch | 8 | 7 (88%) | 50% | 50% | 38% | 0.180 (base 0.250, 8) |
 
 ## What the misses say (since the ledger)
 
@@ -145,6 +145,8 @@ The boundary mix over all lanes:
 | a window moved onto his line | 2 | inner child guide |
 | a second cut of the same kind | 2 | inner child guide |
 | a Low window came back | 2 | inner child guide |
+| the section read differently from the paragraph alone | 2 | inner child guide |
+| too pessimistic about a rewrite | 2 | inner child guide |
 | parallel list kept | 1 | hypnosis guide |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
 | fix underrated | 1 | hypnosis guide |
@@ -156,7 +158,6 @@ The boundary mix over all lanes:
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |
 | the half varies | 1 | inner child guide |
-| the section read differently from the paragraph alone | 1 | inner child guide |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 
