@@ -1021,13 +1021,12 @@
   {
    "id": "guide-update-20261003-covered",
    "status": "claim",
-   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3. 2026-10-14 (Joel, 19:51 UTC, question 24): P3's fallback sentence is cut; the Chicken-and-Egg section carries Mr. Rogers and Ask God for a Loan the spiritual love.",
+   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3. 2026-10-14 (Joel, 19:51 UTC, question 24): P3's fallback sentence is cut; the Chicken-and-Egg section carries Mr. Rogers and Ask God for a Loan the spiritual love. Turn 101 (Joel's 91.1 B, 2026-10-23 14:05 UTC): the section's new order; \"Most of us wouldn't open up ...\" is cut as a near-repeat of P5's last sentence, which keeps the not-enough-for-trust point, and the warmth paragraph starts \"For warmth, think of someone you remember fondly.\"",
    "where": "Borrow One Competency at a Time",
    "must_contain": [
     "If the love still isn't coming, you can at least stop judging your little one.",
     "That's enough to start being the adult, even if it isn't enough yet for them to trust you.",
-    "Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us.",
-    "Think of someone you remember fondly.",
+    "For warmth, think of someone you remember fondly.",
     "remember watching Mr. Rogers or Sesame Street?",
     "Some people also know a love that's a whole different size, like God's"
    ]
@@ -3085,18 +3084,47 @@
   {
    "id": "joel-100-20261023",
    "status": "applied",
-   "what": "Joel's message of 2026-10-23 13:10 UTC: his two updated paragraphs of Your Loan is PRE-APPROVED!, word for word with his link (http://love.u-dont-exist.com on \"wellspring of compassion in my heart for all of us\"). His first starts where the old paragraph's second half started, so the old first half (\"That may sound like a silly, quirky waste of time ...\") stays as its own paragraph before it, unchanged (question 93.3). His second replaces the \"Of course\" paragraph, without the abuser clause and the endless-loop sentences (questions 93.1 and 93.2). Installed by experiments/t100-installs/apply_t100b.py.",
+   "what": "Joel's message of 2026-10-23 13:10 UTC: his two updated paragraphs of Your Loan is PRE-APPROVED!, word for word with his link (http://love.u-dont-exist.com on \"wellspring of compassion in my heart for all of us\"). His first starts where the old paragraph's second half started, so the old first half (\"That may sound like a silly, quirky waste of time ...\") stays as its own paragraph before it, unchanged (question 93.3). His second replaces the \"Of course\" paragraph, without the abuser clause and the endless-loop sentences (questions 93.1 and 93.2). Installed by experiments/t100-installs/apply_t100b.py. Turn 101: his 93.1 words are this paragraph's first sentence now (entry joel-101-20261023).",
    "joel": "2026-10-23 13:10 UTC (experiments/t100-answers/JOEL-20261023-1310.md): \"i also updated 2 paragraphs in ask god for a loan you're pre-approved\"",
    "where": "Ask God for a Loan, Your Loan is PRE-APPROVED!",
    "must_contain_exact": [
     "That may sound like a silly, quirky waste of time to some folks. But what I notice is that saying thank you for every little thing, whenever I remember to, is not about imposing some kind of “spiritual discipline.” It is directly reconnecting me to something pure and sacred.",
     "And even (or especially) when I am suffering, I try to remember to be grateful for that also, because if not for suffering, I would not even think about how much I have enjoyed not suffering as much, and how much this tribulation will help me to develop more compassion, wisdom, and gratitude in future. It connects me with the plight of the countless other beings suffering at that very moment, authentically bringing up a [wellspring of compassion in my heart for all of us](http://love.u-dont-exist.com). And I see clearly that it is my inner child who is feeling this pain, and what an honor it is that I can be there for him.",
-    "Of course, that’s not to say you should not try to suffer less. The point of life, according to every spiritual tradition and religion, I think, is to suffer less, which first requires us to understand the cause of suffering, and what real suffering and real happiness are. If you, like Biggie Smalls, have come to understand that having money is not real happiness, that’s a big deal! That’s something to be grateful for. If we get a chance to meditate or pray today, while on the toilet, upon waking up, while ChatGPT is “thinking” for us, that’s something to be thankful for, for sure."
+    "Of course, that’s not to say you should not try to suffer less, or get away from abusers. The point of life, according to every spiritual tradition and religion, I think, is to suffer less, which first requires us to understand the cause of suffering, and what real suffering and real happiness are. If you, like Biggie Smalls, have come to understand that having money is not real happiness, that’s a big deal! That’s something to be grateful for. If we get a chance to meditate or pray today, while on the toilet, upon waking up, while ChatGPT is “thinking” for us, that’s something to be thankful for, for sure."
    ],
    "order": [
     "That may sound like a silly, quirky waste of time",
     "And even (or especially) when I am suffering",
-    "Of course, that’s not to say you should not try to suffer less."
+    "Of course, that’s not to say you should not try to suffer less, or get away from abusers."
+   ]
+  },
+  {
+   "id": "joel-101-20261023",
+   "status": "applied",
+   "what": "Joel's answers of 2026-10-23 14:05 UTC. 91.1 B: Borrow One Competency at a Time in the turn-100 test's order, with old P6's first sentence cut and its second ending old P5. 91.2 A: the heading Instead of Blame in Love Doesn't Have to Wait for Trust. 91.3 A and 91.4 A change nothing. 93.1: his words for the Of course paragraph's first sentence. 93.2: his two endless-loop sentences added onto the prosperity paragraph, as he pasted them. 93.3 A keeps the old first half as its own paragraph. Installed by experiments/t101-installs/apply_t101.py. My P9's first sentence changed after the h3 read AI with the two thank-you lines side by side (draft h01, experiments/t101-api/API-CHECKS.md).",
+   "joel": "2026-10-23 14:05 UTC (experiments/t101-answers/JOEL-20261023-1405.md): \"91.1b 91.2a 91.3a 91.4 a 91.5 a 92a 93.1 right, change the next sentence in next para to: ... 93.2 my bad, i was editing the version i had before that. we can add that onto the para about prosperity philosophy: ... 93.3a\"",
+   "where": "Borrow One Competency at a Time; Love Doesn't Have to Wait for Trust; Ask God for a Loan (Your Loan is PRE-APPROVED!)",
+   "must_contain_exact": [
+    "And I’m certainly not preaching “prosperity philosophy,” even though it can seem to start at that. We still need to remember that if we can only be thankful for the good things we have, we can fall into the trap of thinking that what we have is happiness itself. I’m ultimately reaching for something much deeper. Because getting what you want is an endless loop, and it doesn't lead to being content with less. When you can see that less is more, at a deeper level, that's where the real gratitude flourishes.",
+    "If the love still isn't coming, you can at least stop judging your little one. Obviously no insults. Helpful advice is great, we all need advice. Let them absorb it at their pace. And don't expect a thank-you for the session, like they booked it. That's enough to start being the adult, even if it isn't enough yet for them to trust you. That takes warmth, and if there isn't any yet, borrow some.",
+    "### If the Love Isn't Coming Yet",
+    "### Instead of Blame",
+    "Of course, that’s not to say you should not try to suffer less, or get away from abusers."
+   ],
+   "must_not_contain": [
+    "Most of us wouldn't open up to somebody who'd only just stopped being mean"
+   ],
+   "order": [
+    "A complete ideal parent may be impossible to imagine",
+    "For warmth, think of someone you remember fondly.",
+    "For protecting, ask what a minimally competent adult",
+    "The Guide can be you too, just a calmer you.",
+    "### If the Love Isn't Coming Yet",
+    "If you weren't loved well as a child",
+    "Maybe just imagining a caring grown-up",
+    "Taking the hostility out makes room for warmth.",
+    "If the love still isn't coming, you can at least stop judging",
+    "Your little one might not take it well at first."
    ]
   }
  ]
