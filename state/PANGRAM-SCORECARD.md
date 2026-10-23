@@ -78,20 +78,22 @@ The boundary mix over all lanes:
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | hypnosis guide | 14 | 6 (43%) | 64% | 36% | 64% | 0.228 (base 0.230, 14) |
-| **all lanes** | 14 | 6 (43%) | 64% | 36% | 64% | 0.228 (base 0.230, 14) |
+| nibbana article | 19 | 8 (42%) | 74% | 26% | 63% | 0.227 (base 0.194, 19) |
+| **all lanes** | 33 | 14 (42%) | 70% | 30% | 64% | 0.227 (base 0.211, 33) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | hypnosis guide | 14 | 6 (43%) | 64% | 36% | 64% | 0.228 (base 0.230, 14) |
+| nibbana article | 19 | 8 (42%) | 74% | 26% | 63% | 0.227 (base 0.194, 19) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pair | 12 | 6 (50%) | 58% | 42% | 58% | 0.220 (base 0.243, 12) |
-| paragraph | 2 | 0 (0%) | 100% | 0% | 100% | 0.276 (base 0.000, 2) |
+| paragraph | 17 | 7 (41%) | 76% | 24% | 59% | 0.227 (base 0.180, 17) |
+| pair | 16 | 7 (44%) | 62% | 38% | 69% | 0.228 (base 0.234, 16) |
 
 ## Pangram 4.1 GUI (dashboard)
 
@@ -158,6 +160,7 @@ The boundary mix over all lanes:
 | cause | misses | lanes |
 |---|---|---|
 | too pessimistic about a cut | 12 | inner child guide |
+| a paragraph alone is harsher than the article | 7 | nibbana article |
 | balanced closer kept | 3 | hypnosis guide |
 | not explained yet | 3 | inner child guide |
 | context: red in the whole guide, Human in the pair | 2 | hypnosis guide |
@@ -178,6 +181,10 @@ The boundary mix over all lanes:
 | an added move read AI | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |
+| a Low window read Human | 1 | nibbana article |
+| underrated a plain split | 1 | nibbana article |
+| a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |
+| a misread page: the caution never read Human | 1 | nibbana article |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 

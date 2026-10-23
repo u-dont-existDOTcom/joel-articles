@@ -41352,6 +41352,11 @@
           "path": "articles/nibbana/humanize/fix-20261023/recheck/RECHECK-POST.json",
           "sha256": "235a832ff191b77077cafe39df4b4a4e09cebf502078b90964aef035e5dca19f",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/SCORECARD.md",
+          "sha256": "5de86273f98ed2b5c334d7180fe982f82b11ee318a588c7bde11b77f547ed36b",
+          "role": "humanization_working_record"
         }
       ]
     },
