@@ -1,9 +1,31 @@
 {
- "turn": "96, CI fix",
+ "turn": 97,
+ "replace": [
+  [
+   "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631\\.$",
+   "the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #223 (https://github.com/u-dont-existDOTcom/joel-articles/pull/223) for him to merge.",
+   1
+  ],
+  [
+   "^1\\. Nothing until turn 97's results;.*$",
+   "1. His answers to questions 88 to 90 on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E); once the results are final, his delete of the two temporary Substack drafts (A and B).",
+   1
+  ],
+  [
+   "^2\\. His merge of turn 97's pull request \\(#221 is merged\\)\\.$",
+   "2. His merge of pull request #223 (https://github.com/u-dont-existDOTcom/joel-articles/pull/223), turn 97 (#221 is merged).",
+   1
+  ],
+  [
+   "^1\\. The API check of experiments/t97-api/TEXTS\\.json on the laptop:.*$",
+   "1. His answers to 88 to 90; his words in word for word. Then check what changes through the API on the laptop: cd /home/joel/ai-work/claude-dangerous-lane && git -C joel-articles fetch -q origin handoff/claude-dangerous-adult-20260924-1631 && git -C joel-articles show FETCH_HEAD:tools/humanization/pangram_api.py | PANGRAM_KEY_FILE='/home/joel/Documents/api keys/pangram.txt' python3 - check <(git -C joel-articles show FETCH_HEAD:PATH/TEXTS.json) pangram-api/tNN --windows --expect 4.1 (never print or copy the key; never write to /tmp there). A changed paragraph alone first, then its section (two checks a section, six a paragraph; E220), at most five or six paragraphs a check (his 86). Halves on the Substack check once the stretches pass (he switches accounts at the daily limit). Predictions first, as the chance of a Human result; after the results, the scorecard; give him each check he should look at with its link (E214) and the pull request's link (E213).",
+   1
+  ]
+ ],
  "insert_before": [
   [
    "  - NEXT: Next step 1.",
-   "  - After his merge of #219 (22:16 UTC), CI's content-integrity check went red on #221: main's new test tests/test_substack_check_text.py (the Hypnosis lane's) needs BeautifulSoup, and CI installs nothing. Main merged into the branch and that lane's own fix (its commit 70a397bc: the test skips where bs4 is missing) ported word for word; state/PANGRAM-SCORECARD.md rebuilt and committed."
+   "  - The API answers with Pangram 4.1 (tools/humanization/pangram_api.py records the version; --windows prints what was flagged). Results: experiments/t97-api/API-CHECKS.md; predictions #90 to #99, 9 of 10 right. Your Body reads Human as a section. Related Clinical Work reads Human with my wording of his line (draft e06), which waits for his yes (question 89; the owner-edit check holds his line). How Much Happiness, Stays Shallow and The Parent You Inherited P4 still read AI and are out of checks, so his words are asked for (question 88); the rest of The Parent You Inherited is question 90. Lessons E219 to E222."
   ]
  ]
 }

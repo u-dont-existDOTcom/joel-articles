@@ -2661,10 +2661,10 @@
   {
    "id": "bg-joel-20261019",
    "status": "applied",
-   "what": "His Before You Try to Go Deep as he pasted it (62, C: \"it's human now, i fixed it, pasted\"): his checking paragraph, 55, 2 in fewer words, and P5 with the guide's list of what to change (54, 11). Before You Try to Go Deep Human Written 0.093, high, https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9 (round t74a). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
+   "what": "His Before You Try to Go Deep as he pasted it (62, C: \"it's human now, i fixed it, pasted\"): his checking paragraph, 55, 2 in fewer words, and P5 with the guide's list of what to change (54, 11). Before You Try to Go Deep Human Written 0.093, high, https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9 (round t74a). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Turn 97: his rewrite of 2026-10-22 23:54 UTC (entry joel-97-20261022) replaced the Your Body paragraph this entry checked, so the string is his current one.",
    "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"62c it's human now, i fixed it, pasted.\"",
    "must_contain_exact": [
-    "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much?) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier (shorter, or shallower, at a better time of day, with your eyes open, a teddy bear standing in for your little one, or a friend in the next room), one change at a time, so you learn what made the difference.",
+    "Keep track of how you feel over the next few days, like how refreshing your sleep is, and how easy it feels to get through your day. Do you want to go back toward what came up, or is some part of you saying no? If you can’t quite tell yet, I’d just make the next one a bit easier, one change at a time, like a science nerd, so you learn what made the difference. You can play around with variables like shorter session length, or shallower diving, time of day, keeping eyes open, having a friend around, or holding a teddy bear as a stand-in for your little one.",
     "Going back can still matter, even when nothing new turns up. But returning to the same wound can also become a search for certainty in an inherently uncertain existence. Spending all day asking, \"Did I process it properly? Did I grieve it enough?\" is clearly not what we're after here.",
     "And the checking doesn't always stay in your head. A body scan can turn into one, or a confession. Even, going on a date, or checking your dating profile matches, can be a version of this if what you're really after is proof that you're good and lovable. It might calm things down for a while, and then the next little wobble matters even more."
    ]
@@ -2833,7 +2833,7 @@
     "# My Journey",
     "## Don’t Give the Inner Adult Away",
     "# Before You Try to Go Deep",
-    "If being alone was a big part of what hurt, I'd call somebody now",
+    "If being alone was a big part of what hurt during your childhood, I'd call somebody now",
     "## Your Body Might Need Some Love First",
     "# Borrow the Adult Before You Can Be the Adult",
     "## Borrow One Competency at a Time",
@@ -2875,7 +2875,7 @@
     "# You Are Worthy of Love. Always.",
     "# Appendix"
    ],
-   "order_note": "Turn 79: the \"ask yourself\" sentence this entry checked is gone, by Joel's 72b: A (entry joel-72-74-20261021)."
+   "order_note": "Turn 79: the \"ask yourself\" sentence this entry checked is gone, by Joel's 72b: A (entry joel-72-74-20261021). Turn 97: that paragraph is his rewrite of 2026-10-22 23:54 UTC (entry joel-97-20261022), so its order check names his new opening."
   },
   {
    "id": "dedup-cuts-20261021",
@@ -3033,6 +3033,28 @@
     "Maybe you've tried picturing your little one and thought",
     "and so can a boundary or a kind sentence",
     "or claiming that their research validates it as a package"
+   ]
+  },
+  {
+   "id": "joel-97-20261022",
+   "status": "applied",
+   "what": "Joel's message of 2026-10-22 23:54 UTC (his answer to question 87): his rewrite of Before You Try to Go Deep (his P1 and P2 were the article's already; his P3 and P4 replace mine) and his three paragraphs for Your Body Might Need Some Love First (P3, P4 and P5, replacing the three he quoted as the AI version), all word for word except one space for the two in \"difference.  You can\". His checks: \"now it's dark green for the whole section\" and \"this is the all dark green version\". Installed by experiments/t97-installs/apply_t97.py.",
+   "joel": "2026-10-22 23:54 UTC (experiments/t97-answers/JOEL-20261022-2354.md): \"in \"before you try to go deep\" i made some improvements and now it's dark green for the whole section\"; \"i will do one more for you tho, this is the ai section here: ... and this is the all dark green version: ...\"",
+   "where": "Before You Try to Go Deep; Your Body Might Need Some Love First",
+   "must_contain_exact": [
+    "How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child.",
+    "And if the grown-up you is there, and it's just how deep you're going that's too much, I'd go shallower. Like the flight attendants say, it's good to know where the exits are. 😅 So can you stop in the middle and come back to the room? If you can't, or going in at all keeps making it worse, I'd come all the way back out first. Some people try one technique after another instead, to prove to themselves they can take it. Your little one may have had to just take it back then, though. Now there's a grown-up around who can say, \"Okay, that's enough for today,\" and try something gentler, like saying hi to them with your eyes open.",
+    "If you need a break from the communion, simply jot down the reason and the progress made so far. Then come back later, once that reason has changed and you feel comfortable.",
+    "If being alone was a big part of what hurt during your childhood, I'd call somebody now, mess and all, since reaching toward people is part of taking care of your little one too. Even if you don't have someone you know who wants to listen, there are warmlines for this.",
+    "When your nervous system is flooded, your protective parts are busy throwing buckets of water out of the boat, so they’re not going to let your little one come out and talk much anyway. Some people go straight into EMDR to work on desensitizing their worst memory before they can even stay in the room. Then they get predictably flooded all over again and, running low on buckets, they decide EMDR doesn’t work. Here’s a map of what to try when:",
+    "Some somatic work can feel pleasant, and some can feel like a raging storm got unleashed. It can bring up grief and fear, and sometimes nightmares later on as the memories begin to unwind. It’s a bit like going to the gym. You want to make gains, and sore muscles the next day can be good, but proper range of (e)motion here is also key to avoid injury.",
+    "Keep track of how you feel over the next few days, like how refreshing your sleep is, and how easy it feels to get through your day. Do you want to go back toward what came up, or is some part of you saying no? If you can’t quite tell yet, I’d just make the next one a bit easier, one change at a time, like a science nerd, so you learn what made the difference. You can play around with variables like shorter session length, or shallower diving, time of day, keeping eyes open, having a friend around, or holding a teddy bear as a stand-in for your little one."
+   ],
+   "must_not_contain": [
+    "A full break from your little one is a last resort",
+    "It’s a bit like the gym, where sore and injured",
+    "It's a bit like the gym, where sore and injured",
+    "I wouldn't rush to call it healing or harm"
    ]
   }
  ]

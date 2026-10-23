@@ -1352,3 +1352,21 @@ His message, saved first (`t96-answers/JOEL-20261022-2208.md`, the key's path on
 ### Next
 
 1. His answers to 86 and 87. Then the next check of d01, d02 and whatever his answers change, by the route 86 picks. Predictions first, the chance of a Human result. A paragraph check through the API starts with one short version test.
+
+## Turn 97 (2026-10-22 23:54 UTC into 2026-10-23): his answers to 86 and 87; the first API checks
+
+His message, saved first (`t97-answers/JOEL-20261022-2354.md`). He merged pull request #221 at 23:02 UTC.
+
+- **86: A, with his terms (E218):** paragraphs and sections go through the API, at most about five or six paragraphs a check; halves stay on the Substack check, and he switches accounts at the daily limit.
+- **87: his two rewrites,** dark green in his checks, in word for word (`t97-installs/apply_t97.py`, entry joel-97-20261022): Before You Try to Go Deep (his P3 and P4; his P1 and P2 were the article's already) and Your Body P3 to P5. Owner edits 183 of 183. Lessons E216 and E217.
+- **The link rule (E214):** "can you please always give me the links to the checks you want me to copy and fix?" `tools/questions_page.py` now refuses the page when an open question says a stretch reads AI and links no check (`tests/test_questions_page.py`).
+- **Borrowed Adulthood in Relationship (E215):** inside round 4's half B, part 5 of 9, its third sentence read AI (High); his check of the part alone reads 100% Human (`t97-results/BORROWED-ADULTHOOD-READINGS.json`). My question 87 had named it without the link or the part.
+- **The API** (`tools/humanization/pangram_api.py` now records any version and can print windows): it answers with Pangram 4.1. Results: `t97-api/API-CHECKS.md`; predictions #90 to #99, 9 of 10 right.
+  - Round 1: The Parent You Inherited P4 alone (my d02) AI, High; Your Body (with his rewrite) Human; How Much Happiness Mixed, 56% AI (my P2 and P3, his P4); Stays Shallow Mixed, 59% (from his night line on); Related Clinical Work Mixed, 22% (his last line).
+  - My tries with his moves (`t97-tries/`): The Parent You Inherited P4 (e01), How Much Happiness P2 and P3 (e02, e03), Stays Shallow after his night line (e05); for his lines, drafts e04 and e06, checked as texts only.
+  - Round 2: The Parent You Inherited, as a section, 58% AI, windows in all five paragraphs (E220); his How Much Happiness P4 alone 100% AI; the h1 with my tries 60%, worse, so P2 and P3 are back as they were (E219); Stays Shallow 27%, so e05 stays (E222); Related Clinical Work with my wording of his line 100% Human (E221), the one miss (#99, too pessimistic). My wording went in and the owner-edit check refused it (his line, from his published guide), so his line is back and mine waits for him.
+- **Questions 88 to 90:** his words for the three stretches out of checks (How Much Happiness, Stays Shallow, The Parent You Inherited P4), my wording of his Related Clinical Work line, and what I try next in The Parent You Inherited.
+
+### Next
+
+1. His answers to 88 to 90; his words in word for word. Then check what changes by the API (a changed paragraph alone first, then its section; E220), and the halves on the Substack check once the stretches pass. Predictions first.

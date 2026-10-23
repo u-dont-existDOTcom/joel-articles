@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-22 (turns 82 to 96). **Open questions: 86 and 87.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 97). **Open questions: 88 to 90.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,51 +8,42 @@ The published page, a view of this file rebuilt after every change (`tools/quest
 
 ## Open questions
 
-### 🟣 86. How to use the $200 of Pangram API credit (turn 96)
+### 🟣 88. Your words for three stretches that are out of checks (turn 97)
 
-Your key works. I checked it without starting a paid check. Pangram's developer plan charges $0.05 per 100 words ([its page](https://www.pangram.com/knowledge-hub/what-is-pangrams-developers-plan)), so $200 is about 400,000 words:
-- a paragraph checked with its section: about $0.25 to $0.50;
-- a whole half (about 15,000 words): about $7.50.
+The API answers with Pangram 4.1, the same version as your Substack check. Each link below opens that check's page, with what read AI in **bold**. These three have used the two checks a section gets, or my third try, and still read AI:
 
-The free Substack check costs nothing, but you have to copy each link, and today it ran out of daily checks. One thing is unknown: the API may still read with Pangram 4.0, while your Substack check uses 4.1. So I'd spend about $0.05 first, on one paragraph, to see which version answers.
+- **88.1 How Much Happiness Do You Know Is Possible?** Your P4 alone reads 100% AI ("A meal can help, and so can a boundary, but is that actually targeting the deeper existential question underneath?" read High): [your P4 alone](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_happy_p4his). In the h1, my P2 and P3 read Low and Medium: [the h1](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97_happy). My tries at P2, P3 and your P4 read worse, so P2 and P3 are back as they were and your P4 is untouched: [the h1 with my tries](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_happy_try).
+- **88.2 When the Practice Feels Real but Stays Shallow.** It went from 59% AI to 27%. Still AI: your night line with my next sentence ("Say you wake up from a dream soaked in way more feeling and need than anything the session got near."), Medium, and "Then this is probably you.", Low: [the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_shallow).
+- **88.3 The Parent You Inherited P4 (mine).** After my third try, its first two sentences and its last still read AI: [the section](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_parent).
 
-- **A (my pick):** paragraphs only. Every paragraph I change gets checked with its section before it goes into a whole-half check, within the six-tries rule. The halves stay on the free Substack check. That's about $5 a round.
-- **B:** the halves go through the API too, so you never copy links. That's about $15 more a round.
-- **C:** everything stays on the free Substack check.
-- **D:** your words.
-
-### 🟣 87. What still reads AI after round 4 (turn 96)
-
-Half A reads 2.2% AI (it was 5.4%), and half B 3.0% (it was 2.0%); the windows are in `experiments/t96-results/ROUND4-RESULTS.json`. Now reading Human:
-- your Two Common Guarding Patterns;
-- your 84.4 and 84.6;
-- my second tries on Start With P9 and P10.
-
-I fixed two more of mine, not yet checked: the gym line is out of Your Body P4, and the reason I put back in The Parent You Inherited P4 is out again.
-
-These are still AI:
-- **87.1 Mine, after two tries:**
-  - Before You Try to Go Deep P3 and P4 (the note about the break, and calling somebody, mess and all), Low;
-  - Borrowed Adulthood in Relationship P1 ("your little one got hurt by people, so some of the healing has to happen with people too"; "the one who drives you to your appointments"), Medium and High.
-- **87.2 Yours:**
-  - Your Body P5's check-in questions ("Do you want to go back toward what came up, or is some part of you saying no?" read High);
-  - How Much Happiness P4's question ("but is that actually targeting the deeper existential question underneath?"), Low;
-  - Related Clinical Work P1 (your two lines and my list of ten), Low and Medium;
-  - your "What showed me that the daytime pl/ork had stayed shallow..." line with my sentences after it, Low.
-- **A (my pick):** your words for one or two of these, the way Two Common Guarding Patterns went, and I apply what they show to the rest.
-- **B:** leave the Low ones, and only the Medium and High ones get work.
+- **A (my pick):** your words for one or more of these, the way you did Before You Try and Your Body.
+- **B:** leave them until the next half check.
 - **C:** your words.
 
-Low windows also appeared in seven paragraphs nobody changed. Half B went from 9 windows to 17 with only your three small changes in it. So I'd treat a Low window that shows up once as the check varying, and fix only the ones that come back.
+### 🟣 89. My wording of your last line in Related Clinical Work (turn 97)
+
+Your line read AI, Low: "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus." ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97_related)). Mine reads 100% Human with its section: "I borrow particular ideas and practices from each of them, but the mix is mine, so please don't blame them for it." ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_related_try)). It's your line from your guide, so yours stays until you say.
+
+- **A (my pick):** put mine in.
+- **B:** keep yours.
+- **C:** your words.
+
+### 🟣 90. The rest of The Parent You Inherited (turn 97)
+
+Checked as a section, it read 58% AI, with windows in every paragraph ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_parent)): besides my P4 (88.3), your P1 (Low, its first two sentences), your P3 (Low, its last sentence), my P2 (Low) and my P5 (Medium and Low; it read Low in round 4's half too). In round 4's half only P4 and P5 had windows, so a section checked alone is stricter.
+
+- **A (my pick):** I try my P2 and P5 with your moves, each checked alone first, and leave your P1 and P3 unless they come back.
+- **B:** I try all four, yours too.
+- **C:** your words.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #221 (turn 96)
+### 🟠 Merge pull request #223 (turn 97)
 
-Round 4's results, two more cuts, and questions 86 and 87: https://github.com/u-dont-existDOTcom/joel-articles/pull/221. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
+Your two rewrites, the first API checks, and questions 88 to 90: https://github.com/u-dont-existDOTcom/joel-articles/pull/223. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
 
 ### 🔵 The two temporary Substack drafts: not yet (turn 88)
 
@@ -62,6 +53,15 @@ Round 4's results, two more cuts, and questions 86 and 87: https://github.com/u-
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 86 and 87, 2026-10-22 23:54 UTC
+
+Your message (turn 97; `experiments/t97-answers/JOEL-20261022-2354.md`). You merged pull request #221 at 23:02 UTC.
+
+- **86: A, with your terms:** "you can check paras or sections with API, not more than like 5-6 paras at a time in general (not half an  article)", and "I have unlimited substack checks on pangram. if you hit the limit on one account i can switch to another." The API answers with Pangram 4.1. This turn's two rounds were 2,011 words, about $1 at $0.05 per 100 words.
+- **87: your two rewrites** are in word for word (entry `joel-97-20261022`): Before You Try to Go Deep, and Your Body P3 to P5. Your Body reads 100% Human as a section through the API. What they taught: E216 and E217 in `docs/HUMANIZATION-GATE.md`.
+- **The links:** "can you please always give me the links to the checks you want me to copy and fix? i thought that was a rule already." It's E214 now, and this page won't build if an open question says a stretch reads AI without its check's link.
+- **Borrowed Adulthood in Relationship:** you're right that it passes; your check of it alone reads 100% Human. What I was looking at was part 5 of 9 of the draft B check, where "Often it's mostly one person carrying a lot of it, maybe the one who drives you to your appointments and says it'll be okay." read AI inside the half (E215). I should have given you that link and the part number.
 
 ### 🟢 The fourth check and the API key, 2026-10-22 22:08 UTC
 

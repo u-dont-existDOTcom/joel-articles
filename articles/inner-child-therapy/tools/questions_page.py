@@ -14,7 +14,6 @@ import pathlib
 import re
 import sys
 
-import mistune
 
 HERE = pathlib.Path(__file__).resolve().parent
 SRC = HERE.parent / 'OWNER-QUESTIONS.md'
@@ -76,7 +75,25 @@ details > div { padding: 0 0 .6rem 1.1rem; }
 """
 
 
+# E214 (Joel, 2026-10-22 23:54 UTC: "can you please always give me the links to the checks you want me to copy and fix? i
+# thought that was a rule already."): an open question that says a stretch reads AI links the check that shows it, a
+# pangram.com result page (feed or history) or, for an API check, its results or checks page on GitHub.
+AI_READING = re.compile(r'\b(?:still|reads?) AI\b|\bread (?:as )?AI\b|\bread (?:High|Medium|Low)\b|\bAI windows?\b', re.I)
+CHECK_LINK = re.compile(r'pangram\.com/(?:feed|history)/|github\.com/\S*(?:results|RESULTS|checks|CHECKS)\S*')
+
+
+def unlinked_ai_asks(md):
+    """The headings of open questions that say a stretch reads AI but link no check (E214)."""
+    md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
+    m = re.search(r'^## Open questions\n(.*?)(?=^## |\Z)', md, flags=re.S | re.M)
+    if not m:
+        return []
+    return [b.split('\n', 1)[0] for b in re.split(r'(?=^### )', m.group(1), flags=re.M)
+            if b.startswith('### ') and AI_READING.search(b) and not CHECK_LINK.search(b)]
+
+
 def render(md):
+    import mistune  # only the page needs it; the E214 check runs without it
     md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
     lines = md.split('\n')
     title = lines[0].lstrip('# ').strip()
@@ -117,7 +134,13 @@ def main(argv):
     links = [('The file on GitHub', 'https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/OWNER-QUESTIONS.md'),
              ('The article so far', 'https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md')]
     LINKS = '<p class="links">' + ''.join('<a href="%s">%s</a>' % (u, t) for t, u in links) + '</p>'
-    out.write_text(render(SRC.read_text(encoding='utf-8')), encoding='utf-8')
+    md = SRC.read_text(encoding='utf-8')
+    bad = unlinked_ai_asks(md)
+    if bad:
+        print('refused (E214): these open questions say a stretch reads AI but link no check:\n  ' + '\n  '.join(bad),
+              file=sys.stderr)
+        return 1
+    out.write_text(render(md), encoding='utf-8')
     print('wrote', out)
     return 0
 

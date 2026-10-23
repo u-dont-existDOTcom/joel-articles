@@ -113,11 +113,31 @@ The boundary mix over all lanes:
 | stretch | 10 | 8 (80%) | 100% | 0% | 20% | 0.088 (base 0.000, 10) |
 | section | 1 | 1 (100%) | 0% | 100% | 100% | 0.040 (base 0.000, 1) |
 
+## pangram-4.1-api
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| inner child guide | 10 | 9 (90%) | 80% | 20% | 10% | 0.127 (base 0.160, 10) |
+| **all lanes** | 10 | 9 (90%) | 80% | 20% | 10% | 0.127 (base 0.160, 10) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| inner child guide | 10 | 9 (90%) | 80% | 20% | 10% | 0.127 (base 0.160, 10) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| section | 8 | 7 (88%) | 75% | 25% | 12% | 0.128 (base 0.188, 8) |
+| paragraph | 2 | 2 (100%) | 100% | 0% | 0% | 0.122 (base 0.000, 2) |
+
 ## What the misses say (since the ledger)
 
 | cause | misses | lanes |
 |---|---|---|
-| too pessimistic about a cut | 11 | inner child guide |
+| too pessimistic about a cut | 12 | inner child guide |
 | balanced closer kept | 3 | hypnosis guide |
 | not explained yet | 3 | inner child guide |
 | a second cut of the same kind | 2 | inner child guide |
