@@ -1,5 +1,7 @@
 # Coverage check B: guide lines 521-1019 against the article
 
+> **Decided since (turn 102, his answers of 2026-10-23 17:53 UTC).** 95.2 A, temporary distance on purpose (line 543): it read 100% AI in the Untangling paragraph in three shapes, so the paragraph is as it was and the point is question 96. 95.3 B and 95.4 B: the two signs (535, 537) and the safe adult's sentence (661) stay out. Borrow Hindsight (643) was fixed in turn 101.
+
 Read-only check, 2026-10-23 (after 14:45 UTC). This file is the only thing written.
 
 ## Basis and how to read it

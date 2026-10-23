@@ -1,0 +1,461 @@
+{
+ "intro": [
+  "# Repeated and blanket safety lines: the proposed cuts (turn 102, questions 97 and 98)",
+  "",
+  "Your 95.6 B (2026-10-23 17:53 UTC): \"that's what we need to pluck out of the whole guide, all the extra extra ridiculous safety language which gets repeated everywhere. want to look at the books we have as examples, especially ones made for public audiences\".",
+  "",
+  "- **How the books do it** (`BOOKS.md`): Capacchione's *Recovery of Your Inner Child* has one front note, one note on pace, one section on privacy and one on choosing helpers, and almost no cautions inside the exercises. *Emotional Alchemy* has one reader's note. The guide already has those places: Before You Try to Go Deep (yours) on pace and stopping, If You Want to Kill Yourself for a crisis, Finding a Therapist to Borrow Adulthood and Don't Give the Inner Adult Away on helpers, and Opening up honestly on privacy. So nothing new goes in, and nothing has to move.",
+  "- **The sweep** (`INVENTORY-A.md`, `INVENTORY-B.md`): two readers listed every safety, caution and reassurance line in the article, 133 of them, against GPT's test (\"Does this change what the reader should do here, or is it explaining why the instruction has qualifications?\"). Most change what you do right where they are, so they stay: your stop rule for the crying song, the photo cautions, the open window, the drug-history signs, the crisis steps.",
+  "- **Where the extra ones came from:** mostly not you. They're the October guide's wording, GPT's queue items and my writers' checklists. My 95.6 paragraph came from the queue: PGQ-038's \"reader need\" warned about readers who \"put off outside help because they're 'doing the inner work'\".",
+  "- **What's here:** 26 cuts, each shown with the cut words struck through and the paragraph after it. 97 is the safety lines and 98 the reassurances and disclaimers of the same kind. Six are in your own words, and two more are lines of mine that your 2026-10-19 version kept; each says whose it is. No other words change, except one capital letter in 97.2.",
+  "- **To answer:** \"97: your picks\" and \"98: your picks\" take every A, or give the numbers you want kept (\"98.3 B\").",
+  "- **After you pick:** each paragraph that changes gets its own Pangram check, then its section's, before the cut counts (E248, Inner Child lane: cutting your aside once made a paragraph [read AI](https://www.pangram.com/history/bf6562e2-577e-4fce-a12e-af98c12c7688)). A cut that makes a paragraph read AI comes back to you. This page keeps every original word, so any cut can be undone.",
+  ""
+ ],
+ "groups": [
+  {
+   "title": "97. Safety lines said again, or said where nobody needs them",
+   "intro": "15 cuts. My pick is A (cut) for each.",
+   "items": [
+    {
+     "id": "97.1",
+     "title": "Bringing the challenge back",
+     "start": "Bring the challenge back gradually",
+     "edits": [
+      [
+       "Bring the challenge back gradually, and only when you want to and you're recovering well. Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn. ",
+       ""
+      ]
+     ],
+     "who": "mine (turn 34, a teaching point you said yes to)",
+     "kind": "said already",
+     "why": "Your paragraph just before it already asks whether you want to go back and says to make the next one a bit easier, and Before You Try to Go Deep already has the people who try one technique after another to prove they can take it.",
+     "also": "\"Do you want to go back toward what came up, or is some part of you saying no?\" (the paragraph before); \"Some people try one technique after another instead, to prove to themselves they can take it.\" (Before You Try to Go Deep)",
+     "loses": "the phrase \"the edge where you can actually learn\"; your gym line (\"proper range of (e)motion here is also key to avoid injury\") says much the same.",
+     "pick": "A"
+    },
+    {
+     "id": "97.2",
+     "title": "\"If nobody is in danger\"",
+     "start": "When you catch it, look around",
+     "edits": [
+      [
+       "If nobody is in danger, take a breath",
+       "Take a breath"
+      ]
+     ],
+     "who": "yours, in your published guide",
+     "kind": "says what nobody needs told",
+     "why": "Nobody stops for three breaths while someone is in danger.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "97.3",
+     "title": "The danger-or-doctor add-on to your touch example",
+     "start": "The opposite extreme of our pendulum",
+     "edits": [
+      [
+       " Same if something might be dangerous right now, or might be a medical warning sign: step away or get checked first.",
+       ""
+      ]
+     ],
+     "who": "yours (your rewrite of 2026-10-07, kept in your 2026-10-19 version)",
+     "kind": "a blanket add-on",
+     "why": "It's tacked onto your touch example and doesn't change it. Start With Whatever Showed Up keeps the same exception where it changes what you do (\"Unless it might be real danger, or something a doctor should look at, I'd go see.\").",
+     "loses": "a reminder here that a body signal could be medical.",
+     "pick": "A"
+    },
+    {
+     "id": "97.4",
+     "title": "\"Getting in touch is a separate decision\"",
+     "start": "If you've tried Pema",
+     "edits": [
+      [
+       " Getting in touch is a separate decision, for a much calmer day.",
+       ""
+      ]
+     ],
+     "who": "mine (turn 93)",
+     "kind": "warns against a step nobody suggested",
+     "why": "The exercise is wishing people well in your own head; nothing in it says to contact anyone.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "97.5",
+     "title": "\"(if you're in danger, get safe first)\"",
+     "start": "Or if you do get an answer",
+     "edits": [
+      [
+       " (if you're in danger, get safe first)",
+       ""
+      ]
+     ],
+     "who": "yours (your paragraph of 2026-10-03)",
+     "kind": "said in five other places",
+     "why": "Nobody waits to calm down while they're in danger, and \"get safe first\" is said in other places that need it.",
+     "also": "\"make sure there's enough safety around you to continue with reparenting\" (The Chicken-and-Egg Problem); \"get anyone in danger safe before worrying about the rest\" (Opening up honestly); \"get safe first, which is not a small thing at all, I know\" (Other Folks Also Have Hooks)",
+     "loses": "nothing a reader would act on.",
+     "pick": "A"
+    },
+    {
+     "id": "97.6",
+     "title": "\"And yes, those caution signs still count.\"",
+     "start": "Remember those guards",
+     "edits": [
+      [
+       " And yes, those caution signs still count.",
+       ""
+      ]
+     ],
+     "who": "mine at first, kept word for word in your 2026-10-19 version",
+     "kind": "points at nothing",
+     "why": "Nothing before it names caution signs any more. They come in full a few paragraphs later, in When Escape Leaves Reality Behind.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "97.7",
+     "title": "\"though I don't mean every drug's dangerous for you\"",
+     "start": "Any of those reactions",
+     "edits": [
+      [
+       ", though I don't mean every drug's dangerous for you",
+       ""
+      ]
+     ],
+     "who": "mine (turn 42), in your caution-sign paragraph",
+     "kind": "a hedge on a hedge",
+     "why": "\"other drugs that mess with what's real\" already limits it.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "97.8",
+     "title": "\"If you can't tell whether you're safe, I'd treat that as risky.\"",
+     "start": "Milder reactions afterward",
+     "edits": [
+      [
+       " If you can't tell whether you're safe, I'd treat that as risky.",
+       ""
+      ]
+     ],
+     "who": "mine (from GPT's queue, PGQ-006)",
+     "kind": "said three times",
+     "why": "The sentence before it already says to get professional help right away if it's severe or risky, which stays.",
+     "also": "\"or can’t tell whether you’re safe, get someone with you right away\" (Listen To Your Body, Or Else!); \"Can't tell if that's you? Treat it like it is.\" (If You Want to Kill Yourself)",
+     "loses": "the tie-breaker here, for someone who can't judge their own state after a trip; the crisis section has it.",
+     "pick": "A"
+    },
+    {
+     "id": "97.9",
+     "title": "\"Know the limit of what you can handle\"",
+     "start": "If a voice or urge is directing",
+     "edits": [
+      [
+       " Know the limit of what you can handle, but don't turn it into a prison for life.",
+       ""
+      ]
+     ],
+     "who": "mine (the guide's words)",
+     "kind": "a general maxim",
+     "why": "It's tacked onto the open-window step and doesn't change what anyone does.",
+     "loses": "a reminder that a limit doesn't have to be forever; your \"Then come back later, once that reason has changed\" (Before You Try to Go Deep) says that.",
+     "pick": "A"
+    },
+    {
+     "id": "97.10",
+     "title": "\"(and if you're at the edge right now, ...)\"",
+     "start": "But if you're still thinking of staking",
+     "edits": [
+      [
+       " (and if you're at the edge right now, the first step above comes before any of this)",
+       ""
+      ]
+     ],
+     "who": "mine (turn 67)",
+     "kind": "said a third time in five paragraphs",
+     "why": "The section opens with the first step, and your paragraph right after that says it again (\"make sure there's a real, live grown-up in the room or on the phone\").",
+     "loses": "a pointer for someone who starts reading in the middle of the section.",
+     "pick": "A"
+    },
+    {
+     "id": "97.11",
+     "title": "\"and they can wait until you're calmer\"",
+     "start": "My father used to tell",
+     "edits": [
+      [
+       ", and they can wait until you're calmer and have some help",
+       ""
+      ]
+     ],
+     "who": "mine (turn 65), in the paragraph with your father's words",
+     "kind": "a hedge said elsewhere",
+     "why": "It softens your father's point, which is to make the change, and waiting on what you can't undo is in your own lines elsewhere.",
+     "also": "\"anything big or hard to undo can wait until you're calm\" (Start With Whatever Showed Up); \"or would rather wait on a decision you can't undo\" (your second paragraph in this section)",
+     "loses": "an explicit \"not today\" for a big life change in the middle of a crisis.",
+     "pick": "A"
+    },
+    {
+     "id": "97.12",
+     "title": "\"for cult survivors it can be a trigger word\"",
+     "start": "With that under you",
+     "edits": [
+      [
+       ", though for cult survivors it can be a trigger word, which is understandable",
+       ""
+      ]
+     ],
+     "who": "mine (turn 62)",
+     "kind": "a trigger warning",
+     "why": "The sentence already gives other names, and Don't Give the Inner Adult Away has the gurus who demand surrender.",
+     "loses": "a nod to cult survivors.",
+     "pick": "A"
+    },
+    {
+     "id": "97.13",
+     "title": "\"It can retraumatize\"",
+     "start": "Rumi says",
+     "edits": [
+      [
+       " Crying that deep can overwhelm you, too. It can retraumatize, mostly when nobody's with you or you've disappeared into the sadness.",
+       ""
+      ]
+     ],
+     "who": "mine (turn 71)",
+     "kind": "said already, as your story",
+     "why": "Your opening tells it as a story (your ex who cried so deep it became traumatizing, with panic attacks, and \"turn the song off for tonight\"), and the sentence after it here keeps the instruction.",
+     "loses": "the two conditions (crying alone, or disappearing into the sadness).",
+     "pick": "A"
+    },
+    {
+     "id": "97.14",
+     "title": "\"In a real crisis, getting a safe person involved\"",
+     "start": "Then there are people you",
+     "edits": [
+      [
+       " In a real crisis, getting a safe person involved can be exactly the right move.",
+       ""
+      ]
+     ],
+     "who": "the guide's sentence, which I merged in on 2026-10-18 and your 2026-10-19 version kept",
+     "kind": "crisis advice in a paragraph about new people",
+     "why": "The sentence before it already says leaning on each other goes both ways, and a crisis has its own section.",
+     "loses": "little.",
+     "pick": "A"
+    },
+    {
+     "id": "97.15",
+     "title": "\"It doesn't stand in for grieving\"",
+     "start": "All of this happens in you",
+     "edits": [
+      [
+       " It doesn't stand in for grieving, though, or for getting in touch when that's right, and your boundaries still apply. Same with the practical stuff.",
+       ""
+      ]
+     ],
+     "who": "mine (turn 68, from the guide's \"it does not replace grief, contact, boundaries, or practical action\")",
+     "kind": "the \"doesn't replace\" shape of your 95.6 example",
+     "why": "Nobody skips grieving because they sent someone a loving-kindness wish.",
+     "loses": "nothing a reader would act on.",
+     "pick": "A"
+    }
+   ]
+  },
+  {
+   "title": "98. Reassurances and disclaimers of the same kind",
+   "intro": "11 cuts. Not safety lines, but the same reflex: a line that answers a worry nobody raised. My pick is A for each.",
+   "items": [
+    {
+     "id": "98.1",
+     "title": "\"That's ok, too.\"",
+     "start": "And it might not be the same order",
+     "edits": [
+      [
+       " That's ok, too.",
+       ""
+      ]
+     ],
+     "who": "yours, in your published guide",
+     "kind": "a reflexive \"that's ok\"",
+     "why": "The sentence before it already says you might not know which came first.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "98.2",
+     "title": "\"It doesn't mean failure.\"",
+     "start": "After the day, look at what",
+     "edits": [
+      [
+       " It doesn't mean failure.",
+       ""
+      ]
+     ],
+     "who": "yours (your final of 2026-09-30)",
+     "kind": "says the sentence before again",
+     "why": "\"information to learn from\" already says it isn't failure.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "98.3",
+     "title": "\"You still did what you did, though\"",
+     "start": "Whichever age it picks on",
+     "edits": [
+      [
+       " You still did what you did, though, and if it hurt people or damaged a life, that may need repair.",
+       ""
+      ]
+     ],
+     "who": "yours (your paragraph of 2026-10-01)",
+     "kind": "said four times",
+     "why": "Your sixth question, two paragraphs down, asks it (\"What can you learn or repair now\"), and How to Forgive Without Forgetting says the responsibility stays.",
+     "loses": "\"you're still responsible\" right after \"never your job\"; your sixth question asks it instead.",
+     "pick": "A"
+    },
+    {
+     "id": "98.4",
+     "title": "\"Feeling calmer doesn't mean their complaint is wrong\"",
+     "start": "If your stomach tightens while",
+     "edits": [
+      [
+       " Feeling calmer doesn't mean their complaint is wrong, though, and it won't make them trust you on its own.",
+       ""
+      ]
+     ],
+     "who": "mine (turn 12)",
+     "kind": "a qualification",
+     "why": "It explains what calming down doesn't do instead of changing the step.",
+     "loses": "the note that calming yourself isn't a verdict on the complaint.",
+     "pick": "A"
+    },
+    {
+     "id": "98.5",
+     "title": "\"(nothing made up)\"",
+     "start": "Lucia Capacchione, an art therapist",
+     "edits": [
+      [
+       " (nothing made up)",
+       ""
+      ]
+     ],
+     "who": "mine (turn 71)",
+     "kind": "an aside that says little",
+     "why": "It echoes the no-faking point and isn't clear here.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "98.6",
+     "title": "\"And nobody's off the hook\"",
+     "start": "Does saying it make the memory",
+     "edits": [
+      [
+       " And nobody's off the hook (you included, if you were the one who did the harm): whatever repair is owed is still owed.",
+       ""
+      ]
+     ],
+     "who": "mine (turn 71)",
+     "kind": "said four times",
+     "why": "It answers an objection instead of guiding the exercise; How to Forgive Without Forgetting has \"They still have to answer for what they did\".",
+     "loses": "the reassurance that the phrase doesn't excuse harm; \"it's still what happened\" carries part of it.",
+     "pick": "A"
+    },
+    {
+     "id": "98.7",
+     "title": "\"It doesn't have to happen after every session.\"",
+     "start": "Sometimes the session itself goes",
+     "edits": [
+      [
+       " It doesn't have to happen after every session.",
+       ""
+      ]
+     ],
+     "who": "mine (from GPT's queue, PGQ-013)",
+     "kind": "a reflexive softener",
+     "why": "It takes back part of the small step the paragraph just suggested.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "98.8",
+     "title": "\"That might not be how it goes for everyone\"",
+     "start": "What I found, once I started",
+     "edits": [
+      [
+       " That might not be how it goes for everyone, and it doesn't mean unhappy people can't help.",
+       ""
+      ]
+     ],
+     "who": "mine (turn 100, from the queue's note on your PGQ-046)",
+     "kind": "disclaims something the paragraph doesn't say",
+     "why": "The paragraph is your own experience, and nothing in it says unhappy people can't help, which is all the queue asked.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "98.9",
+     "title": "\"(that part is optional)\"",
+     "start": "The Guide also points beyond",
+     "edits": [
+      [
+       " (that part is optional)",
+       ""
+      ]
+     ],
+     "who": "mine (turn 62)",
+     "kind": "a belief disclaimer",
+     "why": "\"It might be\" already makes it optional.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "98.10",
+     "title": "\"(And don't guess it from their gender ...)\"",
+     "start": "What they tell you is worth",
+     "edits": [
+      [
+       " (And don't guess it from their gender or some other stereotype.)",
+       ""
+      ]
+     ],
+     "who": "mine (from GPT's queue, PGQ-015)",
+     "kind": "says what nobody needs told",
+     "why": "It's an anti-stereotype reminder in a paragraph about remembering what people tell you.",
+     "loses": "nothing.",
+     "pick": "A"
+    },
+    {
+     "id": "98.11",
+     "title": "\"(I'm only borrowing the word ...)\"",
+     "start": "Your little one can get really loud",
+     "edits": [
+      [
+       " (I'm only borrowing the word, so what it teaches about death and rebirth is up to you)",
+       ""
+      ]
+     ],
+     "who": "mine (turn 100)",
+     "kind": "a belief disclaimer",
+     "why": "Borrowing the word \"bardo\" asks nobody to believe anything.",
+     "loses": "nothing.",
+     "pick": "A"
+    }
+   ]
+  }
+ ],
+ "outro": [
+  "## Looked at and kept",
+  "",
+  "A few the readers flagged that I'd keep, with the reason:",
+  "",
+  "- \"(This guard is only about letting the feeling in. People still have to earn your trust.)\" (If the Love Isn't Coming Yet): GPT asked to keep it, since it separates opening to a feeling from trusting a person.",
+  "- \"Unless it might be real danger, or something a doctor should look at, I'd go see.\" (Start With Whatever Showed Up): here it changes what you do with an anxious prediction.",
+  "- \"Get professional help right away if any of this is severe or risky, and especially if it keeps going or comes back while you're sober.\" and \"Don't suddenly quit a prescribed medicine, ...\" (When Escape Leaves Reality Behind): no other line says either.",
+  "- \"That said, it'd make sense to get a professional to weigh in for some situations.\" (Altered States Can Require Reparenting): your own wording of 2026-10-18, which you kept as already hedged.",
+  "- Your \"I also don’t want to claim, as some folks do, that *all* illness is entirely rooted in emotional issues.\" (Listen To Your Body, Or Else!) is the view behind your 95.6 answer, and it's the only general line on doctors the guide needs.",
+  "- The Inner Guide's \"it's okay to want a lot of closeness\" and \"That doesn't mean you didn't love him\": reassurances tied to the step, in paragraphs that took several tries to read Human, so I'd leave them."
+ ]
+}
