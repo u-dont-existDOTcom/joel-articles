@@ -1152,11 +1152,29 @@ The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-2229-message.
   move costs (links, transitions, Pangram seams), and his are about readers ("the short attention span people have").
   When I argue against an approval of his, I weigh what the change does for a reader, not only what it costs to make.
 
-(The next lesson in either lane is E255.)
+(The next lesson in either lane was E255 here; see the end of the next section.)
+
+## What Joel's message of 2026-10-23 23:28 UTC showed (Nibbāna's seventh recheck)
+
+- **E255. Emulate's "I think" is a hedge, and it comes out of a splice.** Recheck 7 read Human Written, 0.39% AI: two red
+  windows, the first two sentences of an unchanged paragraph of his that had read light green, Low, in recheck 6 (the
+  part forecast gave it 2%, its one miss of 65). Of Emulate's three samples, the one that kept the meaning best opened
+  "Yes, I think part of the problem is ...": "Yes," answered nothing, and the fresh reader caught that "I think" made his
+  flat claim less sure. He has just asked for fewer caveats (E252), so a hedge Emulate adds to a claim he states flatly
+  is a meaning change, like a dropped point: it comes out of the splice, with the reason in "mine" (batch n7). The same
+  reader caught the sutta's point ("pull either away and the other falls") lost behind a bare "(Jenga!)"; it went back
+  in another sample's own words, not his published ones, which had read AI (E237).
+- **The rendered check is a tool now**, `tools/humanization/substack_rendered_check.js`: the walk of the draft's secret
+  link that every recheck used, retyped each turn until now.
+- **Repeats readers loop on long articles**: three of four Sonnet readers with the whole article and a quarter of it
+  spent their whole output thinking, three times each; halves of those parts finished in about six minutes
+  (`docs/CLARITY-READ.md`, part 4).
+
+(The next lesson in either lane is E256.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". The next lesson in either lane is E255.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". The next lesson in either lane is E256.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

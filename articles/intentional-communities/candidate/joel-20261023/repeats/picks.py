@@ -35,6 +35,15 @@ PICKS = {
     '5.4': (B, 'Your 57 a, just put in: readers who go straight to the manual meet medicine here as one of four parts that '
                '"have to pl/ork together", before the essay\'s line.'),
     '5.5': (A, 'The essay credits the book with all three; the entry still says what the book is about.'),
+    '6.1': (DROP, 'the pointer your 61 b asked for ("we should definitely include a pointer tho to the sections we are moving '
+                  'down")'),
+    '6.2': (A, 'The section\'s opening says the warmth has hard limits, and your next two sentences carry the lesson.'),
+    '6.3': (DROP, 'the same cut as another reader\'s, listed once'),
+    '6.4': (B, 'It\'s what the container part says about why the container gets skipped, with its four examples; the '
+               'manual\'s opening line is about founders\' interests in general.'),
+    '6.5': (DROP, 'your own sentence (your answer to 39, 2026-10-17)'),
+    '6.6': (B, 'Your joke, told once; "experience collectors" earlier is the same idea, but here it\'s part of the case '
+               'against psychedelics.'),
     '7.1': (B, 'It applies the point to communities built on peak experiences, which is this section\'s case.'),
     '7.2': (B, 'It adds that the cost grows the deeper someone goes.'),
     '7.3': (DROP, 'the same cut as another reader\'s, listed once'),
@@ -47,7 +56,7 @@ PICKS = {
                'line restates it.'),
     '8.5': (DROP, 'question 64 cuts its "grain of salt"; "Is it settled anthropology? No, it\'s provocative observation." '
                   'stays as the list\'s own caution, for readers who use the list without the essay'),
-    '9.1': (B, 'The set-up the money section pays off; the payoff\'s summing-up line is the cut instead (above).'),
+    '9.1': (B, 'The set-up the money section pays off; the payoff\'s summing-up line is the cut instead (listed below).'),
     '9.2': (B, 'The essay\'s membership steps end on what full membership gives, for readers who don\'t go on to the manual.'),
     '9.3': (B, 'It sets up your commune-name joke and the Trungpa line, and readers who stop at the essay never reach the '
                'founderism section.'),
@@ -96,6 +105,7 @@ def main():
             x['quote'] = q
             where = C.locate(text, q)
             x['found'], x['line'], x['heading'] = where is not None, where[0] if where else None, where[1] if where else None
+        x['heading'] = x.get('heading') or x.get('section')
         if x['key'] not in PICKS:
             continue
         pick, note = PICKS[x['key']]

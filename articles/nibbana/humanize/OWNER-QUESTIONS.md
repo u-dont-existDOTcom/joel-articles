@@ -21,7 +21,7 @@ working copy, and you put them in your post when you want them.
 
 ## For you to do
 
-- 🟠 **Run Pangram on [the Nibbāna recheck draft](RECHECK8_LINK) in Brave and send me the link.** It's the same temporary
+- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck8-n8&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the same temporary
   draft, now with batch n7 in (below). Its text in the page is exactly the text I forecast from. The two new sentences
   have a 30% chance of red, each neighbour 5%, and each light green window of the last check 1 to 2%. Together that's a
   24% chance of no red at all

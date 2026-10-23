@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 20:35 UTC (GPT's suggestions and your answers to them). **Open questions: 7**, just below: what I'd take from GPT's list, and the approvals I'd take back. My review of all 90 suggestions is [this page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md).
+Last updated 2026-10-23, after your message of 22:29 UTC (57 to 63, and GPT's reply to my review). **Open questions: 2**, just below: the safety lines and caveats a reader doesn't need (64), and what the article says more than once (65). Your answers to 57 to 63 are in a new version: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/READING-COPY.md).
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,44 +9,21 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Seven questions from my review of GPT's suggestions ([the review](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md)). Answer each with its number and letter, or "57 to 63: your picks".
+> Two lists, each on its own page, with my pick on every item. Answer "64: your picks" and "65: your picks", or with the numbers you want changed ("64.3 B"). The cuts you pick go into the new version, which then goes to Pangram whole, once, before anything goes into your post.
 
-**🟣 57. Say in "3. Medicine pl/ork" that taking medicine is optional for each person (GPT's Q07).**
-The model says its four parts "have to pl/ork together", and part 3 doesn't say that nobody has to take medicine; the article says so much later ("nobody has to take medicine to have equal respect in the community"), so a reader can come away thinking your model requires psychedelics. Your Q07 answer has the fix: "just because it's optional participating in the ceremonies doesn't mean they don't have to work with the other parts".
-- a) (my pick) One sentence after "I'll go more in detail on this in “The Medicine Part” section below.", in your words, for example: "Taking it is optional for each person, but where a community uses it, it has to pl/ork with the other three parts." It gets a Pangram check alone and in its section before it goes in.
-- b) Leave it as it is.
+**🟣 64. The safety lines and caveats a reader doesn't need (your "did we already look at whether there's too much safety language ... same question for community").**
+We hadn't looked, as its own check; now it's part of the clarity check for every article. Six fresh readers, a sixth of the article each, listed every warning, reassurance, takeback, hedge and disclaimer a reader doesn't need where it is, with your inner child cuts as their examples, and I checked each against the whole article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/caveats/CAVEATS.md) has 31 cuts, each struck through in its paragraph with the paragraph as it reads after the cut. My pick is cut on 26 and keep on 5, where the line is your argument or carries something a reader uses. Three safety lines I kept without offering them (they're at the end of the list): the iboga screening, the medicine line about equal respect, and the rule about children and secrets.
+- a) (my pick) My picks as they are.
+- b) My picks with your changes, by number ("64.3 B").
 
-**🟣 58. Split the heading "The Math of Absorption, and Who This Isn't For" in two (GPT's S31).**
-The section runs 18 blocks: why people avoid the hard topics, free resource and need, your own story, the catch-22 of small groups, your worry about capacity becoming a polite way to exclude people, and then the self-check that starts "But before you submit your application to the community, submit it to yourself."
-- a) (my pick) "The Math of Absorption" stays where the heading is, and "Who This Isn't For" goes before "But before you submit your application to the community, submit it to yourself." No other words change, and Pangram doesn't read headings.
-- b) Leave it as one section.
-
-**🟣 59. One cut in the freeloader paragraph's second half (your W02 note: "perhaps what i said could have been shoprtened esp 2nd half").**
-The paragraph: "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness."
-- a) (my pick) Cut "It requires developing healthier forms of relationships.": it's the vaguest of the three, the rest of the article is about exactly that, and the cut breaks a list of three. Checked with its section before it goes in.
-- b) Leave it as it is.
-
-**🟣 60. The nine typos I found while reading (the list is at the end of [the review](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md)).**
-- a) (my pick) Fix all nine: spelling and punctuation only, so no Pangram check (your rule of 2026-10-06).
-- b) Fix only some: say which numbers.
-
-**🟣 61. A pointer for readers who want to start right away (what GPT's M01 was after, without moving the section).**
-- a) (my pick) One sentence in your words at the end of "4. The container", for example: "If you'd rather start practicing right away, skip ahead to “Practicing Community Can Start Now”." Checked before it goes in.
-- b) Do M01's move anyway: the section's references to the medicine part and its lead-in need your new words, and every new seam gets a Pangram check.
-- c) Neither.
-
-**🟣 62. The approvals I'd take back: M02's split into an essay and a manual, M07's new order, and W09's dissolution paragraph.**
-The reasons are in the review: the practical foundation is what you say the article is mostly about; the article points ahead and back by name in at least five places, and its transitions only work in this order; and W09 drops most of your dissolution list and spends your breakfast punchline early.
-- a) (my pick) Take all three back: the article keeps its length, its order and your dissolution paragraph.
-- b) Keep some of them: say which, and I'll do them as moves only (no GPT prose), with each seam checked.
-
-**🟣 63. Alt text for the images (GPT's L02, which you approved).**
-- a) (my pick) I write alt text (a short, plain description) for each image, as a list in Git, for you to paste into each image's settings in Substack. No words of the article change.
-- b) Skip it.
+**🟣 65. What the article says more than once (your "as much as possible we should be deduplicating because i feel the article is really too redundant").**
+Fresh readers each read the whole new version and owned one part of it: for each point made in their part, every other place that says it again, which place keeps it, and what to cut. I checked each cut against the article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/repeats/REPEATS.md) has 31 cuts, each struck through in its paragraph, with where the point is kept and the paragraph after the cut. It includes two trims of the federation paragraphs for your W08 ("i agree with condesning this but we should mention the FEC"); the FEC, its rebuilding and PEACH stay. My pick is cut on 15 and keep on 16, where both places carry something the reader needs there (the manual now repeats a few essay points on purpose, for readers who go straight to it).
+- a) (my pick) My picks as they are.
+- b) My picks with your changes, by number ("65.3 B").
 
 ## For you to do
 
-- 🟢 Nothing besides the questions above. The article as you published it on 2026-10-20 stays as it is until you pick.
+- 🟠 Merge [pull request PR_NUMBER](PR_URL) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
 
 ## Decided
 

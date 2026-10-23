@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-23, after your message of 22:29 UTC. **Open questions: none here** (N6 is on your Nibbāna
-article's page, 64 and 65 on your community article's page). **Nothing for you to do here** (your Nibbāna article's seventh recheck is ready for Pangram).
+Last updated 2026-10-23, after your message of 23:28 UTC. **Open questions: none here** (N6 is on your Nibbāna
+article's page, 64 and 65 on your community article's page). **Nothing for you to do here** (your Nibbāna article's eighth recheck is ready for Pangram).
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 

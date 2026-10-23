@@ -1,0 +1,24 @@
+{
+ "made": "after Joel's message of 2026-10-23 23:28 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221726541",
+ "title": "TEMP recheck (Nibbana article) - do not publish",
+ "how": "the same temporary draft, in the app's built-in browser: its title checked, the body (95,492 characters, the seventh recheck) cleared with real keystrokes (a click in a plain paragraph, ctrl+a, Delete), the payload pasted with the lane's paste helper; Publish was never clicked",
+ "secret_link": "https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck8-n8&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD.html",
+ "payload_sha256": "f060657eaad4b8b323374672fb983ff9a192d2b0186bf011cc623e12b3cc34d8",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/02d2a8ccbb1a1d37b04b1d420ad6282d92fc6221/articles/nibbana/humanize/fix-20261023/recheck8/PAYLOAD.html",
+ "paste": {
+  "helper": "../../../../inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js",
+  "editor_words_right_after": 16053,
+  "editor_words_after_the_caption": 16049,
+  "words_expected": 15875,
+  "why_not": "as at every earlier paste, the editor's count differs (the three embedded notes are rebuilt from their links, and the gallery caption becomes a paragraph until deleted); the rendered check below is what counts"
+ },
+ "fixed_after_paste": "the gallery caption (\"Real NASA space photos!\") deleted with a triple click and a real Delete key; the editor said Saved",
+ "rendered_check": "the secret link opened in the app's browser and read with tools/humanization/substack_rendered_check.js: 271 lines that hash to DRAFT-TEXT.txt (6a0f5ae0...) exactly, batch n7's sentences in them",
+ "text": "DRAFT-TEXT.txt",
+ "text_sha256": "6a0f5ae080318c5f95d021b01d0ee95bf27eb3dbff6ed5d46011bdcea4b3d475",
+ "text_chars": 90683,
+ "predictions": "pangram-ledger.jsonl NB-whole#30, and the part forecast FORECAST.json, both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

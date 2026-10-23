@@ -1,5 +1,18 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 23:28 UTC (Nibbāna's seventh recheck read; batch n7; the eighth recheck pasted)
+
+**Nibbāna's seventh recheck** ([his link](https://www.pangram.com/feed/31fd6bda-482c-4991-a5ef-d586de30aecb)): Human
+Written, 0.39% AI, 2 of 114 windows AI, the first two sentences of an unchanged paragraph of his that read light green
+before; all four of batch n6's splices read Human. Emulate's round 5 went in for those two sentences only (batch n7,
+reviewed and triaged: E255, Emulate's "I think" is a hedge), and the eighth recheck is pasted and verified. The rendered
+check is a tool now (`tools/humanization/substack_rendered_check.js`).
+
+Predictions: NB-whole#29 right (recheck 7, Mixed); the part forecast 64 of 65. NB-whole#30 (recheck 8, AI at 0.24) waits
+on his result.
+Delegations (model, piece, check, outcome): Sonnet, the meaning check of batch n7's splice (`n7/REVIEW.md`): CHANGED,
+triaged into two fixes.
+
 ## 2026-10-23, after Joel's message of 22:29 UTC (Nibbāna's sixth recheck read; batch n6; the caveat and repeats reads added)
 
 **Nibbāna's sixth recheck** ([his link](https://www.pangram.com/feed/6d05010a-d5c8-4554-bbb7-ff2736b3974e)): Mostly Human

@@ -25083,7 +25083,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "1e162e0650febafa1da5ebfb9091abca87ceb7a0e69e2335d1dcbd286a9f3077",
+          "sha256": "78bbb85fe8f16a58c7c78c89b2f212ae012433f54065278ff145566249261796",
           "role": "humanization_working_record"
         },
         {
@@ -29348,7 +29348,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "60e7d2303f13ff11c89a0dd03377e5a5b8e069fd6de5d8b359195732a4273407",
+          "sha256": "9669858e9e0c1e39f09c87b060cb790289ce3f2ee9020b3b39b0cbb77f98341e",
           "role": "humanization_working_record"
         },
         {
@@ -30608,7 +30608,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "f68b650c87e6407350e690e8ee0fece4456398e8a109d27f1eb1b8989148d3ec",
+          "sha256": "de17464072c1baa79385b8d730a981e6b0db54a3f074ecac84ad6bb1235691c3",
           "role": "humanization_working_record"
         },
         {
@@ -43115,7 +43115,7 @@
         },
         {
           "path": "articles/nibbana/humanize/OWNER-QUESTIONS.md",
-          "sha256": "5e5b090dbc4e45c18c854fbcb7380ef6b8002c3abcf497c0c58ad8c64692f105",
+          "sha256": "3c20174f2e0c4266286fc3bb4633f1dcfd1414dceab0d56a276ad239057fef0a",
           "role": "humanization_working_record"
         },
         {
@@ -44727,6 +44727,11 @@
           "path": "articles/nibbana/humanize/fix-20261023/recheck8/make_recheck_nb.py",
           "sha256": "04e71c9a3916227f763e943a158dfc1728e07592c2b425fff2922cb60f74945a",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck8/RECHECK-POST.json",
+          "sha256": "cc07ddba99cb371c18ae9087b646c5edc88111d78be8a3533087aa4fdfe2e529",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -44798,7 +44803,7 @@
         {
           "path": "articles/intentional-communities/candidate/OWNER-QUESTIONS.md",
           "role": "owner_questions_page",
-          "sha256": "1a4c8cbf45f154274c75a58f11f06d20a093a703d929bedf6c756d3fa439ea7c"
+          "sha256": "5a184b40acdc335a918cfd75e05334a8080380cdad56bef5d399e78cdb5c626b"
         },
         {
           "path": "articles/intentional-communities/D6-LINKS.md",
@@ -44827,7 +44832,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/STATUS.md",
-          "sha256": "f1ee445309156ac06590ee85e182af5e8e2a9b95074b8f7182ca093e8ff399cd",
+          "sha256": "86985b6a80e9261e8609f26f6bb26140ca7780422962c434d31b6e86679eddae",
           "role": "humanization_working_record"
         },
         {
@@ -84922,7 +84927,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/joel-20261023/repeats/ITEMS.json",
-          "sha256": "c952d1720481a9dcea032f948dc05d3c93d2d2883d0864f429565f49c2b0c84c",
+          "sha256": "3500ae7624ccb07637ba40926349d5b0ef676048a5828f7618ecd2b1b535e757",
           "role": "humanization_working_record"
         },
         {
@@ -85012,7 +85017,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/joel-20261023/repeats/picks.py",
-          "sha256": "18a45d2259c21e245765496b5204990a405b462b75ffc2408eca9b419f7e1651",
+          "sha256": "27903a7ea46131d37af0742c6c8007d094b6c37daacb4e10173e197c5917399c",
           "role": "humanization_working_record"
         },
         {
@@ -85093,6 +85098,16 @@
         {
           "path": "articles/intentional-communities/candidate/joel-20261023/restructure/make_working.py",
           "sha256": "424638f33470eb4ecdfe9ecfbdffffdaa5d4d7872bdb74811c73ec084979ba19",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/repeats/READER-6.md",
+          "sha256": "9be86d3712e75a03dab9a3131605531069459d3c64193063b3a0d09ea00a288d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/repeats/REPEATS.md",
+          "sha256": "cfcf088e031712acf0dff8f13242b1775db8d72d1cbe360a0bafe497bf050456",
           "role": "humanization_working_record"
         }
       ]
