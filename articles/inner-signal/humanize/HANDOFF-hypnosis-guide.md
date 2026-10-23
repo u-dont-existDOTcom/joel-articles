@@ -213,7 +213,14 @@ the readability check from GPT that i started doing in the inner child article".
 - **Guide part B recheck** (`fix-20261023/recheck-b2/`): built, CHANGED.json (10 parts, the kept audit at 0.9),
   FORECAST.json (51 parts), HG-rest-B#59 (AI at 0.01), pasted into draft 221412532; rendered text, the card's line left
   out, = TEXT-B.txt (b4a57231...).
-- Delegation: one Sonnet reader for the splices (checked by my triage), three Sonnet readers for Nibbāna's reader's edit
+- **Nibbāna's reader's edit** (`articles/nibbana/humanize/fix-20261023/readers-edit/`): six fresh Sonnet readers, a sixth
+  each (the first three, a third each, spent all their output thinking and were stopped); 19 proposals, two of them
+  artifacts of the reading text (fixed in the tool: line breaks kept, images and videos marked), one added from my
+  check (the "That creates a practical problem." heading); `ITEMS.json` has my pick and reason for each,
+  `READERS-EDIT.md` is the list (question N4: 18 proposals, 13 picked A).
+- Pull request 228 was merged by Joel at 18:09 UTC; this turn's work is pull request 230
+  (https://github.com/u-dont-existDOTcom/joel-articles/pull/230).
+- Delegation: one Sonnet reader for the splices (checked by my triage), six Sonnet readers for Nibbāna's reader's edit
   (checked by me against the whole article).
 
 Next:
@@ -225,7 +232,10 @@ Next:
 2. **When he sends part B's**: the same in `recheck-b2/` (`substack_check_text.py result recheck-b2/PAYLOAD-B.html
    WINDOWS-B.txt META-B.json --out RESULT-B.json`, text b4a57231...), key HG-rest-B-b477, score its forecast. The audit
    questions read red by his 2c.
-3. **N4** (Nibbāna's reader's edit): put in what he picks word for word; each move's stretch is read in the next recheck.
+3. **N4** (Nibbāna's reader's edit): put in what he picks word for word (a new heading one level below its section's, an
+   existing heading moved as he picks), add his answers to `tools/humanization/readers_edit_examples.json`, and read each
+   move's stretch in the next recheck (a move keeps its paragraphs' checks; E241 (Inner Child): read new neighbours for a
+   repeat first).
 4. **The guide's clarity read**, both parts, with the reader's edit, once part B reads Human outside the audit (E242,
    E248).
 
