@@ -1,5 +1,19 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 12:30 UTC (recheck B read; question 14 through his Emulate re-run trick; recheck A and Nibbāna's second recheck pasted)
+
+**Recheck B** ([his link](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83)): Mostly Human Written, 1.4% AI,
+2 of 36 windows: the audit's questions (they stay, answer 2c) and "You don't have to fix this. I'm here now." (Low), next
+for B. **Question 14's seam passed through his re-run trick** on the first check after six versions of mine failed (batch
+473: [the shortcut paragraph alone](https://www.pangram.com/history/8c07a601-45c9-4d33-9555-6b51302e81d3),
+[the pair](https://www.pangram.com/history/ce2c2f4e-e14f-45a6-9ed8-27c25aaf1397), and
+[with the reader's fix](https://www.pangram.com/history/1129f619-ef4e-4276-8889-f8b3496f19b7), all Human, 0% AI). His own
+forces paragraph is in. Recheck A is pasted and its rendered text matches what I predicted from; it waits on his Brave.
+On Nibbāna: N1 a and his four N2 rewrites are in, the rebirth sentence comes from Emulate
+([Human, High](https://www.pangram.com/history/d09ef29a-c0be-4cd6-a42f-99383aa60007)), and its second recheck waits too.
+Pull request 224's conflict is resolved. Lessons E234 to E237 (a Low window alone is a warning; the re-run trick; what his
+N2 rewrites changed; Emulate first was the rule, and batch n1 skipped it).
+
 ## 2026-10-23, 03:05 UTC (the guide waits on Joel; his Nibbāna article's first 4.1 pass)
 
 Nothing new on the guide: recheck B's link and question 14 are with Joel. The lane's queue moved on to his Nibbāna

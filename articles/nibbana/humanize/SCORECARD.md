@@ -6,21 +6,22 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/nibbana/hum
 
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pangram 4.1, the API (Joel's key, run on his laptop; E218) | 19 | 8 (42%) | 74% | 26% | 63% | 0.227 (base 0.194, 19) |
+| pangram 4.1, the API (Joel's key, run on his laptop; E218) | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 19 | 8 (42%) | 74% | 26% | 63% | 0.227 (base 0.194, 19) |
-| the latest 100 | 19 | 8 (42%) | 74% | 26% | 63% | 0.227 (base 0.194, 19) |
-| all | 19 | 8 (42%) | 74% | 26% | 63% | 0.227 (base 0.194, 19) |
+| the latest 50 | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
+| the latest 100 | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
+| all | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 15 | 7 (47%) | 73% | 27% | 53% | 0.220 (base 0.196, 15) |
+| paragraph | 17 | 9 (53%) | 65% | 35% | 59% | 0.218 (base 0.228, 17) |
 | pair | 4 | 1 (25%) | 75% | 25% | 100% | 0.251 (base 0.188, 4) |
 
 Calibration:
@@ -28,7 +29,28 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 2 | 0.32 | 0% |
-| 0.4 to 0.6 | 17 | 0.49 | 29% |
+| 0.4 to 0.6 | 19 | 0.49 | 37% |
+| 0.6 to 0.8 | 1 | 0.60 | 100% |
+
+## pangram 4.1, Pangram's check of the Substack draft (free, Joel's account)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+| the latest 100 | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+| all | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| article | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.0 to 0.2 | 1 | 0.02 | 0% |
 
 ## Misses since the ledger (11)
 
@@ -65,5 +87,5 @@ The latest:
 | NB-P230 | paragraph | 3 of 6 | AI |
 | NB-P237 | paragraph | 2 of 6 | AI |
 | NB-P266 | pair | 3 of 6 | Mixed |
-| NB-whole | article | 1 of unlimited (Substack) | pending |
+| NB-whole | article | 2 of unlimited (Substack) | pending |
 

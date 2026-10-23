@@ -1,8 +1,8 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-23, 03:05 UTC. **Open questions: 2** (N1, one sentence of the science paragraph; N2, four stretches
-in your own words). **One thing for you to do**: run Pangram on the recheck draft and send me its link (just below).
-Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-23, after your message of 12:30 UTC. **Open questions: none.** **One thing for you to do**: run
+Pangram on the second recheck draft and send me its link (just below). Colours: 🟣 a question for you; 🟠 something for
+you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md),
 so a session in either of your accounts can read and update it. Your post itself is never touched: the fixes go into a
@@ -10,15 +10,41 @@ working copy, and you put them in your post when you want them.
 
 ## For you to do
 
-- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=2026-10-23T02%3A58%3A42.910Z&audience=only_paid&free_preview=false&freemail=)
-  in Brave and send me the link.** It's a temporary draft ("TEMP recheck (Nibbana article) - do not publish") holding
-  your post as it was in your editor HTML of 22 October, with the four fixes below in. Its text is your post's checked
-  text except for those four and three double spaces the editor made single (checked line by line). It shows which red
-  is left in place, the Low windows included, which only a whole-article check can show.
+- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck2-n2&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the same temporary
+  draft ("TEMP recheck (Nibbana article) - do not publish"), now holding your post with your four N2 rewrites, N1 a and
+  the fixes below in. Its text in the page is exactly the text I predicted from (checked line by line, after one gallery
+  caption the editor turns into a paragraph was deleted).
+- 🟢 Done: [the first recheck](https://www.pangram.com/feed/6a726359-1fce-4ec3-8a06-e957032fc91e) (your result of 12:30 UTC):
+  Mostly Human Written, 2.9% AI, 12 of its 164 windows AI, down from 22.
 
 ## Open questions
 
-- 🟣 **N1. The science paragraph's first sentence: are "only gets to" and "some wild stuff out there" OK?**
+None right now.
+
+## Your answers of 2026-10-23 12:30 UTC, and what I did
+
+Your message, word for word: [joel-20261023-1230-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/joel-20261023-1230-message.txt).
+
+- 🟢 **N1: a.** The science sentence is my try 1 ("Science only gets to circle the edges of consciousness, though it finds
+  some wild stuff out there: ..."), which read Human, 0% AI, on its own.
+- 🟢 **N2: your own four rewrites, word for word** (each "dark green" in your check): the near-death reports, SN 22.22 with
+  the Boulder Bank, the Diamond Sutra and the driving caution (two paragraphs; "That's my own CYA showing. 😇" stays after
+  them). Each paragraph's links are back on the same words. Three typos fixed in SN 22.22: "burden(even" (a space),
+  "dart)  of" (a double space) and "counterinuitive".
+- 🟢 **The rebirth sentence**, red again in place (window 120, High), now comes from Emulate, the way you suggested: "Rather,
+  rebirth is seen as a causal process: there is a continuity (often called a “mind-stream”), but there is not a “thing”
+  that's moving from one life to the next. Craving and clinging lead to becoming, and becoming leads to birth." The whole
+  paragraph read [Human, High, as one window](https://www.pangram.com/history/d09ef29a-c0be-4cd6-a42f-99383aa60007). The reader would rather have "condition" (dependent
+  origination's word) than "lead to", and "is" than "is seen as"; with both, the chain split off and read
+  [Human, Low](https://www.pangram.com/history/27a1f56f-5d39-4a84-a406-6e3af4b64dcf), the same sign my last version showed before it went red in place, so I kept
+  Emulate's words. Say if you want "condition" back.
+- 🟢 **"I thought: if he could find love there, perhaps I could stop treating my own hell as an excuse."** (window 18, Low)
+  is now "I figured if he could find love in a place like that, maybe I could stop using my own hell as an excuse." The
+  reader found it keeps your meaning. A Low window can only be checked in place, so the recheck shows it.
+
+<details><summary>N1 and N2 as they were asked</summary>
+
+- **N1. The science paragraph's first sentence: are "only gets to" and "some wild stuff out there" OK?**
   Your sentence read AI, High, in [your check of 20 October](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917) (window 133): "Science circles
   consciousness's edges: people can function with no felt controller, several things can be cognized at once,
   split-brain patients can resemble two knowers sharing a skull, and one recent theory models minds as nested parallel
@@ -40,7 +66,7 @@ working copy, and you put them in your post when you want them.
   My recommendation: A, if "wild" says what you mean. "Circles the edges" already says science doesn't get to the
   middle, and your next sentence says so outright. My default until you answer: yours stays.
 
-- 🟣 **N2. Four stretches: will you write them in your own words?** Each read AI in [your check](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917), and in all three of my
+- **N2. Four stretches: will you write them in your own words?** Each read AI in [your check](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917), and in all three of my
   versions of each through the API (the links under each one): reworded, a new frame, and a new order with the evidence as your kind of bracketed
   aside (the shape your Appendix C opening passed with in the guide). Pangram reproduces a High window when a
   paragraph is checked on its own (the guide's lesson E226), so this is the stretches' content, not the way they were
@@ -79,9 +105,11 @@ working copy, and you put them in your post when you want them.
   and my third versions here already used the shape yours passed with. My default until you answer: they stay as they
   are.
 
-## The four fixes in the working copy
+</details>
 
-Each read Human, 0% AI, when checked on its own through the API, and [the reader](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/REVIEW.md)
+## The fixes of batch n1 in the working copy
+
+(Rebirth's n1 sentence below is replaced by batch n2's, above.) Each read Human, 0% AI, when checked on its own through the API, and [the reader](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/REVIEW.md)
 found each one keeps your meaning. They're in [the working copy](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/HUMANIZED-SO-FAR.html)
 and in the recheck draft.
 
@@ -116,6 +144,7 @@ slip for "being used to light". I left both as you wrote them; your call.
 
 ## Next
 
-- 🔵 When the recheck's link comes: read its windows, check that the four fixes hold in place, and take on the Low
-  windows that are still red (in your check: 20, 24, 29, 73, 74 and 107), each fix checked through the API and by the
-  reader before it goes in.
+- 🔵 When the recheck's link comes: read its windows, check that your rewrites and the new sentences hold in place, and
+  take on whatever is still red, Emulate first (a sample of the paragraph, only its red sentence spliced in, your lines
+  kept), then the reader, then the next recheck. "The Diamond Sutra verse is still beautiful." (window 125, Low) is the
+  one I left as it is, to see how it reads after your new paragraph.

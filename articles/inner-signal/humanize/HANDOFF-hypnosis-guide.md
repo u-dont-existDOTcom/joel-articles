@@ -51,8 +51,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
   4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull requests 206 and 209 (the 4.1 work to 2026-10-21 22:43 UTC)
-  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC; the work since is pull request 222
-  (https://github.com/u-dont-existDOTcom/joel-articles/pull/222), open and Joel's to merge. Main moves often (the Inner
+  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC, and 222 after it; the work since is pull
+  request 224 (https://github.com/u-dont-existDOTcom/joel-articles/pull/224), open and Joel's to merge. Main moves often (the Inner
   Child lane merges too): `lane_push.py` says after each push whether the pull request can merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
@@ -103,14 +103,20 @@ another with `pgrep -f` on the other's command line: the waiting shell's own com
 (emu-t lost eight minutes to that). Never edit Emulate's output with my own words except to put the meaning back, and
 every such edit goes through the gate.
 
+**Re-run before rewording (Joel, 2026-10-23 12:30 UTC: "you can take text emulate gives which doesn't pass, and re-run it,
+and then it can pass"; E235).** When Emulate's text (with my meaning fixes) reads AI, run it through Emulate again, put
+back only what a sample drops, and check; question 14's seam passed that way on its first check after six versions of mine
+failed. On a published article's flagged paragraphs Emulate goes first (E237); for citation-dense text, splice only the red
+sentence from a sample of the paragraph and keep his lines and links (Nibbāna's n2).
+
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: recheck B's result link (draft B is pasted and verified, 2026-10-23 02:05 UTC); question 14 (the seam
-between the shortcut part and the return, his own words). Questions 1 to 8 were answered at 2026-10-21 17:56 UTC, 9 to 11
-at 2026-10-22 18:37 UTC, 12 at 21:41 UTC, 13 at 2026-10-23 01:10 UTC.
+`OWNER-QUESTIONS.md`: recheck A's result link (draft A pasted and verified after his message of 2026-10-23 12:30 UTC,
+[its secret link](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-473&audience=only_paid&free_preview=false&freemail=)). No open questions: 1 to 8 were answered at 2026-10-21 17:56 UTC, 9 to 11 at
+2026-10-22 18:37 UTC, 12 at 21:41 UTC, 13 at 2026-10-23 01:10 UTC, 14 at 12:30 UTC.
 
-Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the recheck draft's result link (pasted and verified 2026-10-23
-02:59 UTC); N1 (the science sentence's frame) and N2 (four stretches in his own words).
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the second recheck's result link (the same draft, re-pasted and
+verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck2-n2&audience=only_paid&free_preview=false&freemail=)); N1 and N2 were answered at 12:30 UTC.
 
 ## Where it stands
 
@@ -174,7 +180,54 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23 03:05 UTC: the guide's recheck B and Nibbāna's recheck wait on his Brave; questions 14, N1 and N2 on him)
+## Next step (2026-10-23, after Joel's message of 12:30 UTC: recheck A and Nibbāna's second recheck wait on his Brave)
+
+His message, word for word: `fix-20261023/joel-20261023-1230-message.txt` (the same file in Nibbāna's `fix-20261023/`).
+He asked: pull request 224 has conflicts; his two results; "it seems like you have quit using emulate, just curious? why?"
+with the re-run trick; his rewrite of De-hypnosis's forces paragraph; "for the other parts you can either learn from me or
+learn from emulate right?"; "n1 a."; N2 as his four rewrites. Done:
+- Pull request 224's conflict (the gate's lessons of both lanes, numbered at the same time) resolved by keeping both with a
+  numbering note (49b53bbf); it can merge.
+- Recheck B read ([his result](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83); `fix-20261023/recheck/RESULT-B.json`,
+  with `META-B.json`'s card line "Quick Triage Web-App Version HERE"): Mostly Human Written, 1.4% AI, 36 windows, two AI:
+  the audit's questions (High; they stay, his answer 2c) and "You don't have to fix this. I'm here now." (Low, window 17,
+  inside the inner child script; the published line is "You do not have to solve this. I am here now."). HG-rest-B#48 a
+  miss, explained. Nibbāna's first recheck read too (12 AI windows; NB-whole#21 right).
+- His forces paragraph in, word for word (EDITS41 HG16-joel-1230, `fix-20261023/make_joel_1230.py`; two typos fixed).
+- **Batch 473** (`fix-20261023/b473/`, its `API-CHECKS.md` with each check's Pangram page): question 14's seam through his
+  re-run trick (`fix-20261023/emu-seam/`, emu-hg-bi, bj, bk). Re-run bj's first paragraph, with "qualified" and "right away"
+  put back, read Human, High, alone (HG17-B306#49); with re-run bk's return paragraph, Human, High, as one window (the pair's
+  last try, HG18-B308#50). The reader (`REVIEW.md`) and its triage (`TRIAGE.json`) fixed two things: "You'll want to say,
+  while you're awake, ..." (checked: Human, High and Medium, HG17-B306#51; the lineage has one try left) and "If you have
+  met a younger state" (the published words; unchecked, the pair's lineage is used up). Installed as EDITS41 HG17-b473 and
+  HG18-b473 (`make_b473.py`).
+- **Nibbāna**: N1 a (try 1's science sentence), N2 (his four rewrites, his words, links put back, typos fixed) and batch n2
+  (`articles/nibbana/humanize/fix-20261023/n2/`: the rebirth sentence from Emulate sample bj, Human, High, alone, NB-P228#22;
+  the reader's rewrite of it read Human but split the chain into a Low window, NB-P228#23, so it stayed out; window 18
+  reworded, OK by the reader) are in the working copy through `fix-20261023/n1/install_n1.py` (11 edits).
+- **Both rechecks pasted and verified**: part A in draft 221411215 (`fix-20261023/recheck/RECHECK-POST-A.json`: its rendered
+  first 99,999 characters hash to `TEXT-A.txt`, e27356d7...; prediction HG-whole#52, AI at 0.35); Nibbāna in draft
+  221726541 (`articles/nibbana/humanize/fix-20261023/recheck2/RECHECK-POST.json`: rendered text = `DRAFT-TEXT.txt`, 0ed4d332...,
+  after the gallery caption was deleted again; prediction NB-whole#24, AI at 0.15). The first Nibbāna recheck's files stay
+  in `recheck/` as its record.
+- Lessons E234 to E237 in `docs/HUMANIZATION-GATE.md`. API checks this round ran on the laptop from
+  `/home/joel/ai-work/claude-dangerous-lane/pangram-api/r20261023b/` with the repository's current `pangram_api.py`
+  (fa9b21bd..., `--public` for each result's Pangram page): files go in through the connected `inbox/api-20261023b/`
+  (device_commit_files only writes there), are copied over with their SHA-256 checked, and the logs come back the same way;
+  one text per lineage per round (the ledger refuses a second prediction while a try has no result).
+
+Next:
+1. **When Joel sends recheck A's link**: read the windows from the page (`tools/humanization/pangram_feed_read.js`, its
+   compact line), write `fix-20261023/recheck/WINDOWS-A.txt` and `META-A.json` (with any card line in "embeds"), rebuild
+   with `substack_check_text.py result PAYLOAD-A.html WINDOWS-A.txt META-A.json --out RESULT-A.json` (its text must hash
+   to e27356d7...), record HG-whole-41r5-a (`verdict_of`; "Mostly Human Written" is Mixed), and check windows 44 to 48, 77
+   to 79, 85 and 86 of 22 October in place. Any red: Emulate re-run first (E235), then his words.
+2. **When he sends Nibbāna's**: the same in `articles/nibbana/humanize/fix-20261023/recheck2/` (text 0ed4d332...;
+   rebuild from the working copy with single spaces, as `make_recheck_nb.py` does), key NB-whole-n2.
+3. **Part B's Low line** (window 17): an Emulate sample of its paragraph with only the script's middle spliced in, the
+   reader, then recheck B (the API can't reproduce a Low window, E226).
+
+## Earlier next step (2026-10-23 03:05 UTC: the guide's recheck B and Nibbāna's recheck wait on his Brave; questions 14, N1 and N2 on him)
 
 The guide is as in the step below (nothing new from Joel since 01:10 UTC): items 1 to 4 there still hold. Done since then,
 on his Nibbāna article (`articles/nibbana/humanize/`, its own ledger `pangram-ledger.jsonl`, lane "nibbana article" in
