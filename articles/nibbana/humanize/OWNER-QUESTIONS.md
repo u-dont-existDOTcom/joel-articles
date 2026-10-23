@@ -1,7 +1,7 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 18:13 UTC. **Open questions: N4** (the reader's edit, just below).
-**One thing for you to do**: run Pangram on the fifth recheck draft and send me its link (below N4).
+Last updated 2026-10-23, after your message of 20:35 UTC. **Open questions: N5** (a picture, just below).
+**One thing for you to do**: run Pangram on the sixth recheck draft and send me its link (below N5).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md),
@@ -10,7 +10,76 @@ working copy, and you put them in your post when you want them.
 
 ## Open question
 
-- 🟣 **N4. The reader's edit for this article: which of 18 changes go in?** You asked for GPT's readability check to be
+- 🟣 **N5. The nuggets-and-sauces meme: is it about Frank or the monk?** Your 14 A moved the monk's paragraph (Āyasmā
+  Ariyadhammika) to after Frank's second paragraph and its video. The meme that came right after the monk's paragraph
+  ("I'm dipping nuggets you've never heard of into sauces you could never understand", captioned "This one’ was over my
+  head") could be about either man, and the readers never saw it. The proposal moved only the paragraph, so the meme
+  stayed where it was, and it now sits inside Frank's story, between his two paragraphs.
+  - **A (my pick):** leave it with Frank. Its know-it-all tone fits the "exalted guru" with the "beautiful, crazy YouTube
+    channel".
+  - **B:** move it with the monk's paragraph, if the joke is about the "advanced training" his center offers.
+  - **Answer** "N5 A" or "N5 B".
+
+## For you to do
+
+- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck6-n6&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the same temporary
+  draft, now with your N4 answers and batch n5 in (below). Its text in the page is exactly the text I forecast from. Each of
+  these has a 30% chance of red: "That leads to a practical problem.", the DN 3 sentence, the room's new sentence, and your
+  two room sentences after it. The question has 25%. Each of your N4 moves and each neighbour has 5%, and each light green
+  window of the last check has 1 to 2%. Together that's a 1% chance of no red at all
+  ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck6/FORECAST.json)).
+- 🟢 Done: [the fifth recheck](https://www.pangram.com/feed/54a79d39-a6ba-4e9e-80b4-7e1178527768) (your result of 20:35
+  UTC): Mostly Human Written, 0.7% AI, 4 of 127 windows red (below). All five of batch n4's stretches read Human,
+  including the unification definition and your Soh sentence. My part forecast called 71 of its 74 parts right
+  ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck5/SCORE.md)).
+
+## Your message of 2026-10-23 20:35 UTC, and what I did
+
+Your message, word for word as I have it: [joel-20261023-2035-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/joel-20261023-2035-message.txt).
+
+- 🟢 **Your N4 answers are in, word for word**: 17 of the 18 changes, and number 2 ("As they say, “life is stranger than
+  fiction.” ...") is left as it is ([the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n5/EDITS-n5-joel.json)). There are ten new headings. Each one is at
+  the level of the heading of the section it splits, so it shows in the table of contents like the others. For 6 and 11,
+  the old heading moved down to where its subject starts. Pangram doesn't read headings. The text it does read changed in
+  seven places, and each is read in place in the sixth recheck:
+  - the Parinibbāna bullet (7)
+  - the cut "(even an arahant feels the first dart)" (9)
+  - "That creates a practical problem.", moved up across the heading (12)
+  - the monk's paragraph (14)
+  - the MN 89 note (15)
+  - the dream paragraph (16)
+  - the caution paragraph (17)
+- 🟢 **Two moves had a picture beside them that the readers never saw** (their reading text hid pictures then). The
+  skydiving meme ("Yfw you thought I was kidding about meditating while skydiving.") moved with the caution paragraph in
+  17, because it jokes about that paragraph's skydiving. The nuggets-and-sauces meme is question N5. In 16, the dream comic
+  stays after the section's first paragraph, so it now follows both dream paragraphs (lesson E251).
+- 🟢 **You picked A on four where my pick was B** (5, 8, 9 and 16). Each time, I had stretched an earlier answer of yours,
+  or the fact that the words were yours, past its reason. Your 91.3 turned down a label for a one-paragraph fallback in a
+  guide section; it doesn't cover a heading in a long article that readers navigate by its table of contents. Your answers
+  are now examples for the next reader's edit, and the rule is that an earlier answer covers only what its reason covers
+  (lesson E250).
+- 🟢 **Recheck 5's red went to Emulate (batch n5).** It made three samples of each red paragraph. Only the red sentences
+  went in, and a fresh reader compared each with your published words ([its review](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n5/REVIEW.md), [what I did with
+  it](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n5/TRIAGE.json)):
+  - "That creates a practical problem." is now "That leads to a practical problem." The reader found the same cause.
+  - "In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and
+    confident” before giving the teaching that opens the Dhamma-eye." is now "In DN 3 and MN 56, the Buddha does not teach
+    the Dhamma that leads to opening the Dhamma-eye until a student’s mind is “ready, pliable, rid of hindrances, elated,
+    and confident.”" The sample began "In several suttas, most notably", and I cut that, because it's a claim you didn't
+    make.
+  - "What happens when a stage map lets anyone skip to the answer?" is now "What happens when we lay out the stages in a
+    way that allows anyone to skip ahead to the answer?" I put "to the answer" back after the reader's check.
+  - In the room: "They were disjoint, but not isolated: the flows ran into and through one another, connected everywhere
+    without becoming one experience or one witnessed scene." is now "Though disjoint, they were not isolated; the flows
+    ran into and through each other, and they were connected everywhere. This was not one experience, nor was it one
+    scene being seen by a witness." I put "connected everywhere" back after the reader's check. "Nothing observed them
+    from behind. There was no cosmic knower celebrating its achievement." stay yours, because no sample kept the knower's
+    "achievement". This is the heart of the article, so if any of it doesn't sound like you, say so and your words go
+    back.
+
+<details><summary>N4 as it was asked</summary>
+
+- **N4. The reader's edit for this article: which of 18 changes go in?** You asked for GPT's readability check to be
   part of the standard clarity check, so it ran here first: [the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/readers-edit/READERS-EDIT.md),
   18 proposals in the article's order: 10 headings (two of them with an existing heading moved down to where its subject
   starts), 6 moves and 2 cuts. None rewords your sentences; the only new words are the headings'. My picks: put in 13,
@@ -20,16 +89,7 @@ working copy, and you put them in your post when you want them.
   tool now shows both.
   - **Answer** with each number and A or B, or "N4: your picks".
 
-## For you to do
-
-- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck5-n5&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** The same temporary draft,
-  now with batch n4 in (below). Its text in the page is exactly the text I forecast from: your kept "That creates a
-  practical problem." at 30%, the new definition and "As you can see ..." at 25% each, the two preservation sentences at
-  20% each, your Soh sentence at 10%, each of their 10 neighbours at 5%, and 1 to 2% for each light green window of the
-  last check; together a 5% chance of no red at all ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck5/FORECAST.json)).
-- 🟢 Done: [the fourth recheck](https://www.pangram.com/feed/933f5abe-7627-4367-8dd2-8601a9125249) (your result of 18:13 UTC):
-  Mostly Human Written, 1.1% AI, 5 of 132 windows red, below. All 36 stretches of your 16:55 answers read Human but my
-  Soh gloss. My part forecast called 104 of its 107 parts right ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck4/SCORE.md)).
+</details>
 
 ## Your message of 2026-10-23 18:13 UTC, and what I did
 
@@ -284,7 +344,6 @@ slip for "being used to light". I left both as you wrote them; your call.
 
 ## Next
 
-- 🔵 When the recheck's link comes: read its windows, check that your rewrites and the new sentences hold in place, and
-  take on whatever is still red, Emulate first (a sample of the paragraph, only its red sentence spliced in, your lines
-  kept), then the reader, then the next recheck. "The Diamond Sutra verse is still beautiful." (window 125, Low) is the
-  one I left as it is, to see how it reads after your new paragraph.
+- 🔵 When the sixth recheck's link comes, I'll read its windows, score the forecast, and take on whatever is still red:
+  Emulate first, then the reader, then the next recheck. If the room's sentences or the DN 3 stretch read red again, they
+  come to you as a question with three options: your words, Emulate's best version, or keeping the red.

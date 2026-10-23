@@ -11,6 +11,26 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+**His message of 2026-10-23 20:35 UTC** (`joel-20261023/joel-20261023-2035-message.txt`, with GPT's 90 suggestions for the
+published article and his 25 answers, `joel-20261023/gpt-reader-edit-answers-20261023.json`, and GPT's decisions page beside
+it): "i also want your opinion on GPT's suggestions for cleaning up my community article ... don't auto-approve something
+just because i approved it ... i want you to review everything." Done this turn (on `claude/community-joel-1018`, the
+hypnosis lane's branch, in its pull request):
+- **The review:** `joel-20261023/REVIEW-GPT-SUGGESTIONS.md`, every item against the article's text (GPT read Joel's final
+  Substack paste of 2026-10-20, `joel-20261020/community-final-substack-20261020.html`; its SHA-256 is the JSON's
+  `source_sha256`). I agree with his rejections. I'd take back his approvals of M02 (essay/manual split), M07 (new order) and W09
+  (GPT's dissolution paragraph), and do the cheaper version of M01 (a pointer, not a move). From the rest: the
+  medicine-optional clause (Q07), a heading split in "The Math of Absorption" (S31), one cut in the freeloader paragraph
+  (his W02 note), alt text (L02), and nine typos.
+- **Questions 57 to 63** on `OWNER-QUESTIONS.md` (lint PASS), each with my pick.
+- **Next:** his answers. Each change he picks goes into his published text through the merge (`tools/humanization/substack_merge.py`
+  from his newest editor HTML, which he'd need to paste again if he has edited the post since 2026-10-20), with Pangram checks of
+  each changed paragraph alone and in its section before it goes in, and the typos with none (his rule of 2026-10-06). 63 a:
+  alt text for each image, from the images in his editor HTML, as a list for him to paste.
+
+**Earlier (kept for the record):**
+
+
 **His messages of 2026-10-18 01:29 and 01:54 UTC** (`joel-20261018/joel-20261018-0129-message.txt`, with his editor HTML `joel-20261018/substack-editor-20261018-0129.html`; records in `fix-20261018/`). Branch `claude/community-joel-1018`, pull request 191 (open, his to merge): https://github.com/u-dont-existDOTcom/joel-articles/pull/191. Pull request 189 is merged.
 - **Section 2 v3.6b is in** (his 56 a first paragraph and 55 b aside, the anomie paragraph of his 46 a): batch 428g, every changed paragraph Human and the section 100% Human (https://www.pangram.com/history/602283c2-9f41-4559-b510-e5a7aa9d2359); with his screenshot too, one AI window (https://www.pangram.com/history/f91e4398-4e22-4bf2-881b-a95244ae3079), so the screenshot stays in section 12 for him to upload.
 - **45 a is done:** `../master.md` is the registered master (`../PROMOTION-RECEIPT-20261017.md`; `fix-20261017d/make_master.py`, `promote.py`). After any accepted change to the working copy: `make_master.py`, a line in the receipt, `promote.py`, and the merge and helper again.
@@ -68,15 +88,14 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - Every turn, send Joel the article so far (`candidate/community-article-so-far.html`) and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
-1. Merge pull request 191 (`claude/community-joel-1018`, https://github.com/u-dont-existDOTcom/joel-articles/pull/191): `gh pr merge 191 -R u-dont-existDOTcom/joel-articles --merge`.
-2. Nothing else is open on the questions page.
-3. The new image 7 address, when his post with the rebuilt diagram is up (the article file still links the old one); and his upload of the PsyPost screenshot to Substack (the article has an image note with his caption in section 12; his 46 a moves it to section 2 once section 2 passes with it).
-4. Still open from earlier: J4's "be nice" (section 11, optional); section 4's Abhidhamma line, if he meant it back. (E173 now exempts a cut, after his Pangram test of 2026-10-17 21:37.)
+1. Questions 57 to 63 on `OWNER-QUESTIONS.md` (from the review of GPT's suggestions, 2026-10-23).
+2. Pull request 231 (https://github.com/u-dont-existDOTcom/joel-articles/pull/231), this turn's work for all three lanes, on
+   the hypnosis lane's branch `claude/community-joel-1018`; his to merge.
 
 ## Next step
-1. His paste through the helper (and the screenshot upload in section 12), and his merge of pull request 191.
-2. Once section 2 is settled: his 45 a, the promotion of the humanized article to the registered master with a promotion receipt (`fix-20261017d/make_master.py`, `promote.py`).
-3. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`, `python scripts/validate_article_architecture_maps.py --root .`, `python scripts/audit_codex_github.py --root . --fail-on error`); the hashes of `CURRENT-STATE.md` and `DETECTOR-EVIDENCE.json` in `articles/INDEX.json` are replaced by hand when either changes (the session's `prepush.py` did both).
+1. When he answers 57 to 63: put in what he picks (see START HERE), each change checked in Pangram before it goes in.
+2. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the
+   repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`).
 
 ## Where everything is
 - Repo u-dont-existDOTcom/joel-articles, `articles/intentional-communities/`: `CURRENT-STATE.md`, `IMPORT-RECEIPT-20261013.md`, `ARCHITECTURE.md`, the registry files, `original.md` (the published text, the master), `STATUS.md` (old lane status), and `candidate/`: `STATUS.md` (newest entry on top), `HUMANIZED-SO-FAR.md`, `OWNER-EDITS.json`, `OWNER-QUESTIONS.md` and `community-questions.html`, `sN/` (predictions, parts, batch files, review folders, install scripts), `in-context/icNN-vM.json` (page maps), the pages, `joel-20261013/`, `joel-20261014/`, `joel-20261014-2119/`, `joel-20261015/` and `joel-20261016/` (his messages and texts), `sweep-20261016/` (the opener sweeps), `sweep-20261013/`, `fix-20261014/` (the sweep's fixes: candidates, gate records, repeats, batches, predictions, results, sources), `fix-20261014b/` (his answers of 21:19: gate, batches, predictions, results), `fix-20261015/` (his answers of 10-15 09:33: gate, batch 285g, predictions with links, the links behind 27, `make_pages.py`), `fix-20261015b/` (his 11:04 text and section 13 v5: batch 287g, its gate records, predictions with links, `make_batch.py`, `make_pages.py` for section 4), `joel-20261017/` (his messages of 10-17 02:07, 13:11 and 17:16, and the PsyPost screenshot), `fix-20261017/` (his answers of 02:07 and 13:11: section 10 v5, section 12's study, repeats, cold reads, batch 320g), `fix-20261017b/` (his 17:16 message: exclamations `make_excl.py`, the 44c install `install_44c.py`, the whole-article pass `faithful/` with `TRIAGE.md`, its fixes `make_faithful.py`, the anomie draft `anomie/`, batches `b415` to `b419` with predictions and results, `install_1716.py`, `excl-13-14.md` for question 48), `fix-20261017c/` (his 19:14 answer: section 13 v35, `make_s13_v35.py`, march and cold reads, batch `b420`, `install_1914.py`, `make_questions.py`), `s13/` (section 13, in the article as v35 since his 19:14 answer, before that v34: Emulate rounds `emu-a` to `emu-k`, drafts v1 to v34 with their `make_vNN.py` and fixes files (`make_v30v.py` for the one-fix-out variants), gate rounds `review-r1` to `review-r24c` (and `review-r17b`, `review-r23b`) with `make_gate_rNN.py` (`make_gate_r19b.py` for the cold reads, stance checks and repeats), batches `b288` to `b299`, `b304`, `b307` to `b312`, `b314`, `b316` to `b318`, `b298/COVERAGE.md`, the page scripts up to `make_page_v34.py`, `install/` (`install_s13_v31.py` to `install_s13_v34.py`, `GATE-v31.json`), `article_with.py`, `positions.txt`, `preservation-keys.json`), `s14/` (section 14, in the article as v8: Emulate round `emu-a`, drafts v0 to v8, rounds `review-r1` to `review-r6`, batches `b300` to `b306`, `b313`, `b315` (its 316g check is in `s13/b316`), `install/`, `make_page_v8.py`), `images/` (image 7, published and rebuilt), `scoring/`, `prediction-review/`, `tools/`, `images.json`.

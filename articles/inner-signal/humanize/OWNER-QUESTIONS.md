@@ -1,8 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-23, after your message of 18:13 UTC. **Open questions: none here** (one on your Nibbāna article's
-page). **One thing for you to do**: run Pangram on recheck B and send me its link (under "For you to do"; your Nibbāna
-article's fifth recheck is ready too).
+Last updated 2026-10-23, after your message of 20:35 UTC. **Open questions: none here** (one on your Nibbāna article's
+page). **Nothing for you to do here** (your Nibbāna article's sixth recheck is ready for Pangram).
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -12,6 +11,22 @@ read and update it. Every file it points to is a link.
 ## Open questions
 
 None right now.
+
+## Your message of 2026-10-23 20:35 UTC, and what I did
+
+Your message, word for word as I have it: [joel-20261023-2035-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-2035-message.txt)
+(most of it was about the Nibbāna article and the community article; their pages say what I did there).
+
+- 🟢 **Recheck B** ([your result](https://www.pangram.com/feed/d63c3c9f-b71f-4435-9b20-59027a31225b)): Mostly Human Written,
+  1.3% AI. One of its 36 windows is red: the hypnosis audit's seven questions (High), which you chose to keep as a list
+  (your 2c). The inner child line from Emulate (batch 477) and the eight spelling fixes in the appendices (batch 476) read
+  Human. My part forecast called all 51 of its parts right
+  ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-b2/SCORE.md)).
+- 🟢 **So the whole guide now reads Human, except the audit you kept.** Part A read 100% Human in recheck A4.
+- 🔵 **Next for this guide: the clarity check on the whole guide**, both halves, as on your Nibbāna article. First, fresh
+  readers mark the passages a reader would have to reread. Then the reader's edit proposes moves, headings and cuts. I
+  check each item against the whole guide, and you get the list to pick from. It's a long guide (about 29,500 words), so
+  it gets a turn of its own.
 
 ## Your message of 2026-10-23 18:13 UTC, and what I did
 

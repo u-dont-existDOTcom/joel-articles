@@ -111,11 +111,10 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: part B's recheck result link (the appendices with batches 476 and 477, pasted and verified after his
-message of 18:13 UTC, [its secret link](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-477&audience=only_paid&free_preview=false&freemail=)). No open questions: 1 to 14 are answered.
+Nothing for the guide: no open questions (1 to 14 are answered), and recheck B is read.
 
-Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the fifth recheck's result link (the same draft, re-pasted and
-verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck5-n5&audience=only_paid&free_preview=false&freemail=)), and question N4 (the reader's edit).
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the sixth recheck's result link (the same draft, re-pasted and
+verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck6-n6&audience=only_paid&free_preview=false&freemail=)), and question N5 (a picture beside his 14 move).
 
 ## Where it stands
 
@@ -179,7 +178,55 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23, after Joel's message of 18:13 UTC: part B's recheck and Nibbāna's fifth recheck wait on his Brave; N4 on him)
+## Next step (2026-10-23, after Joel's message of 20:35 UTC: Nibbāna's sixth recheck waits on his Brave; N5 on him)
+
+His message, word for word: `fix-20261023/joel-20261023-2035-message.txt` (also in Nibbāna's `fix-20261023/` and the
+community article's `candidate/joel-20261023/`): Nibbāna's fifth recheck link ("nibbana check 5"), part B's recheck link
+("guide part b recheck"), his N4 answers ("N4 1a 2 b 3a 4 a 5a 6a 7a 8a 9a 10a 11a 12a 13a 14a 15a 16a 17a 18a"), and a
+review of GPT's suggestions for the community article (that lane's handoff). Done:
+- **Part B's recheck read** (`fix-20261023/recheck-b2/`: WINDOWS-B.txt 1da99bef..., META-B.json with the card line in
+  "embeds", RESULT-B.json, SCORE.md): Mostly Human Written, 1.3% AI, 1 of 36 windows AI, the audit he kept (2c).
+  HG-rest-B#59 right. Forecast 51 of 51, Brier 0.004. **The whole guide reads Human outside that audit** (part A: recheck
+  A4, 100% Human).
+- **Nibbāna's fifth recheck read** (`articles/nibbana/humanize/fix-20261023/recheck5/`: WINDOWS.txt f01813a6...,
+  META.json, RESULT.json, SCORE.md): Mostly Human Written, 0.7% AI, 4 of 127 windows: "That creates a practical
+  problem." (Low), the DN 3 sentence (Medium), the stage-map question (Low), and the room's "They were disjoint, but not
+  isolated: ..." to "There was no cosmic knower celebrating its achievement." (Low). NB-whole#27 right; forecast 71 of 74.
+- **N4 in** (`articles/nibbana/humanize/fix-20261023/n5/joel_2035.py`, called by `n1/install_n1.py` after batch n4;
+  record `EDITS-n5-joel.json`): 17 changes word for word, 2 left out. New headings take the level of the heading of the
+  section they split (as proposal 18 says; peers in the table of contents), not one level below as the earlier next step
+  said. Pictures beside two moves: the skydiving meme moved with the caution (17); the nuggets meme stayed (14, question
+  N5). His answers added to `tools/humanization/readers_edit_examples.json` (the four B-to-A and his B).
+- **E250** (a past answer covers only what its reason covers) and **E251** (a reader's move carries pictures the reader
+  didn't see) in `docs/HUMANIZATION-GATE.md`; the next lesson is E252.
+- **Emulate round 3** (laptop `emu-hg-bx` to `emu-hg-bz`, `n5/BUNDLE3.json`; about 55,200 words left): the DN 3 stretch
+  with 12A's structure and the room paragraph. The first launch passed a relative output folder and failed before any call
+  (nothing charged); `run_emulate.py` needs the absolute folder.
+- **Nibbāna batch n5** (`n5/emulate_n5.py`, record `EDITS-n5.json`): bz's "That leads to a practical problem.", bz's DN 3
+  sentence (its added "In several suttas, most notably" cut), bx's question ("to the answer" put back), bz's room
+  sentence ("connected everywhere" put back); his "Nothing observed them from behind. There was no cosmic knower
+  celebrating its achievement." kept. Reviewed by a fresh Sonnet reader (`REVIEW.md`), triaged (`TRIAGE.json`).
+- **Nibbāna recheck 6** (`recheck6/`): built, CHANGED.json (13 parts), FORECAST.json (92 parts, 1% no red), NB-whole#28
+  (AI at 0.01), pasted into draft 221726541 (caption deleted), rendered text = DRAFT-TEXT.txt (f5c918c2...); the nested
+  MN 89 note and all 60 headings were in the editor.
+- Pull request 230 was merged by Joel; this turn's work is pull request 231
+  (https://github.com/u-dont-existDOTcom/joel-articles/pull/231), his to merge.
+- Delegation: one Sonnet reader for the splices (checked by my triage).
+
+Next:
+1. **When Joel sends Nibbāna's sixth recheck link**: read it with `pangram_feed_read.js` in compact mode, save
+   `recheck6/WINDOWS.txt` (check its SHA-256), META.json, rebuild RESULT.json from DRAFT-TEXT.txt (f5c918c2...) and the
+   windows as in recheck5, record NB-whole-n6's result, score `recheck6/FORECAST.json`. If the room's sentences or the DN 3
+   stretch read red again, ask him (his words, Emulate's best, or keep the red); other red: Emulate first (E237, E244).
+2. **N5**: A leaves the meme where it is; B moves it after the monk's paragraph (in `n5/joel_2035.py`, item 14).
+3. **The guide's clarity read**, both parts, with the reader's edit (E242, E248): the guide is about 29,500 words, so use
+   about eight parts of each kind (`clarity_read.py make HUMANIZED-SO-FAR.md DIR --parts 8`, and `--kind edit
+   --max-items 3` in a second folder). It reviews his inner-child writing, so per the InnerSignal server's instructions
+   the therapy protocol is loaded first in the main thread (`load_therapy_protocol`); loading it from a subagent was
+   refused once, so don't route it through one. Then a fresh Sonnet reader per part, `collect`, every item checked against
+   the whole guide, `page`, and his questions.
+
+## Earlier next step (2026-10-23, after Joel's message of 18:13 UTC: part B's recheck and Nibbāna's fifth recheck wait on his Brave; N4 on him)
 
 His message, word for word: `fix-20261023/joel-20261023-1813-message.txt` (and in Nibbāna's `fix-20261023/`), with GPT's
 reply of 11:41 UTC that he attached (`gpt-readability-20261023-attachment.txt` beside it): recheck A4's and Nibbāna's

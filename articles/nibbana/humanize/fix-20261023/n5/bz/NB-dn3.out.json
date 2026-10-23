@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bz/NB-dn3.txt",
+  "input_words": 114,
+  "input_sha256": "0b0085b5a5eca174edc9ee20092eb4b749815215f169c5a9ccd8219f7fbf16b1",
+  "balance_before": 55405,
+  "started_utc": "2026-10-23T21:01:10Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T21:01:17Z",
+  "response": {
+    "id": "a6ac5344-16e2-4cf6-93bd-b6ae1f850a0e",
+    "tool": "humanize",
+    "text": "And it’s funny. In fact the words are probably transmitted pretty well, after all they were communally transmitted for quite a while and we have several collections that all agree to a fairly large degree (though there are variants, rearrangements, and likely even additions, but those came pretty early on too). That leads to a practical problem.\n\nIn several sutta’s, most notably DN 3 and MN 56 the Buddha does not teach the dhamma that leads to opening the dhamma eye until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident.” What are we to do with maps that allow folks to get to the stages without preparing in this way?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 114
+    },
+    "elapsed": 7
+  },
+  "balance_after": 55291
+}

@@ -200,10 +200,24 @@ def main():
     J4 = importlib.util.module_from_spec(spec4)
     spec4.loader.exec_module(J4)
     work, rec4 = J4.apply(work)
+    # Batch n5 (2026-10-23, after his message of 20:35 UTC): his answers to the reader's edit (question N4: "N4 1a 2 b 3a
+    # ... 18a"), word for word from ../readers-edit/READERS-EDIT.md; its own record is ../n5/EDITS-n5-joel.json
+    spec5 = importlib.util.spec_from_file_location('joel_2035', N.parent / 'n5' / 'joel_2035.py')
+    J5 = importlib.util.module_from_spec(spec5)
+    spec5.loader.exec_module(J5)
+    work, rec5 = J5.apply(work)
+    # ... then Emulate's round 3 for recheck 5's red, sentence by sentence (../n5/emulate_n5.py, ../n5/EDITS-n5.json)
+    rec5e = []
+    if (N.parent / 'n5' / 'emulate_n5.py').exists():
+        spec5e = importlib.util.spec_from_file_location('emulate_n5', N.parent / 'n5' / 'emulate_n5.py')
+        J5E = importlib.util.module_from_spec(spec5e)
+        spec5e.loader.exec_module(J5E)
+        work, rec5e = J5E.apply(work)
     (H / 'HUMANIZED-SO-FAR.html').write_text(work, encoding='utf-8')
     (N / 'EDITS-n1.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-    print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes), %d of batch n3 and %d of batch n4, from %s' % (
-        len(rec), len(rec3), len(rec4), M.SRC.name))
+    print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes), %d of batch n3, %d of batch n4, %d of his N4 answers '
+          'and %d of batch n5, from %s' % (len(rec), len(rec3), len(rec4), len([r for r in rec5 if r['pick'] == 'A']),
+                                           len(rec5e), M.SRC.name))
 
 
 if __name__ == '__main__':

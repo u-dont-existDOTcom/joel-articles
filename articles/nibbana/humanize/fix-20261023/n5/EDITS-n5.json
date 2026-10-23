@@ -1,0 +1,86 @@
+[
+ {
+  "key": "n5-practical",
+  "old": "That creates a practical problem.",
+  "new": "That leads to a practical problem.",
+  "windows": "78 (Low) in recheck 5 (feed 54a79d39), alone; 86 (Low) in recheck 4 with the sentence before it",
+  "source": "Emulate sample bz (NB-dn3)",
+  "mine": [],
+  "published": "That creates a practical problem.",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 6)",
+  "review": "fix-20261023/n5/REVIEW.md",
+  "triage": "fix-20261023/n5/TRIAGE.json"
+ },
+ {
+  "key": "n5-dn3",
+  "old": "In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye.",
+  "new": "In DN 3 and MN 56, the Buddha does not teach the Dhamma that leads to opening the Dhamma-eye until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident.”",
+  "windows": "79 (Medium) in recheck 5, alone; Human, Low, in rechecks 3 and 4; Human, High, before",
+  "source": "Emulate sample bz (NB-dn3)",
+  "mine": [
+   {
+    "replace": "In several sutta’s, most notably DN 3 and MN 56 the Buddha",
+    "with": "In DN 3 and MN 56, the Buddha",
+    "why": "the reader (REVIEW.md, item 2): \"In several suttas, most notably\" adds a claim; his sentence names the two suttas only"
+   },
+   {
+    "replace": "the dhamma that",
+    "with": "the Dhamma that",
+    "why": "the article’s own spelling (E246)"
+   },
+   {
+    "replace": "the dhamma eye",
+    "with": "the Dhamma-eye",
+    "why": "the article’s own spelling, as in the sentence it replaces (E246)"
+   }
+  ],
+  "published": "In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye.",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 6)",
+  "review": "fix-20261023/n5/REVIEW.md",
+  "triage": "fix-20261023/n5/TRIAGE.json"
+ },
+ {
+  "key": "n5-skip",
+  "old": "What happens when a stage map lets anyone skip to the answer?",
+  "new": "What happens when we lay out the stages in a way that allows anyone to skip ahead to the answer?",
+  "windows": "80 (Low) in recheck 5, alone",
+  "source": "Emulate sample bx (NB-dn3)",
+  "mine": [
+   {
+    "replace": "skip ahead?",
+    "with": "skip ahead to the answer?",
+    "why": "the reader (REVIEW.md, item 3): \"the answer\", the teaching the Buddha holds back until the student is ready, is back; \"skip ahead\" alone read as jumping through the stages"
+   }
+  ],
+  "published": "What happens when a stage map lets anyone skip to the answer?",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 6)",
+  "review": "fix-20261023/n5/REVIEW.md",
+  "triage": "fix-20261023/n5/TRIAGE.json"
+ },
+ {
+  "key": "n5-room",
+  "old": "They were disjoint, but not isolated: the flows ran into and through one another, connected everywhere without becoming one experience or one witnessed scene.",
+  "new": "Though disjoint, they were not isolated; the flows ran into and through each other, and they were connected everywhere. This was not one experience, nor was it one scene being seen by a witness.",
+  "windows": "15 (Low) in recheck 5, with \"Nothing observed them from behind. There was no cosmic knower celebrating its achievement.\", which stay his; window 23 (Low) in the check of 2026-10-20; Human, Low, in rechecks 1 to 4",
+  "source": "Emulate sample bz (NB-room)",
+  "mine": [
+   {
+    "replace": "and everywhere they touched, they were connected",
+    "with": "and they were connected everywhere",
+    "why": "the reader (REVIEW.md, item 4): \"everywhere they touched\" narrowed his \"connected everywhere\""
+   }
+  ],
+  "published": "They were disjoint, but not isolated: the flows ran into and through one another, connected everywhere without becoming one experience or one witnessed scene.",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 6)",
+  "review": "fix-20261023/n5/REVIEW.md",
+  "triage": "fix-20261023/n5/TRIAGE.json"
+ }
+]

@@ -1,0 +1,182 @@
+{
+ "source": "fix-20261023/joel-20261023-2035-message.txt",
+ "answers": "N4 1a 2 b 3a 4 a 5a 6a 7a 8a 9a 10a 11a 12a 13a 14a 15a 16a 17a 18a",
+ "proposals": "fix-20261023/readers-edit/READERS-EDIT.md",
+ "edits": [
+  {
+   "item": 1,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "When the Afterglow Wore Off",
+   "level": "h2",
+   "splits": "Time for A Radical Change of Mind",
+   "before": "But the afterglow only lasted 1-2 weeks"
+  },
+  {
+   "item": 2,
+   "pick": "B",
+   "kind": "left as it is",
+   "pangram_text_changed": false,
+   "note": "the line stays: it starts the article’s dream thread"
+  },
+  {
+   "item": 3,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "What the Suttas Say About Unification",
+   "level": "h2",
+   "splits": "Then I Found The Map Past Oneness",
+   "before": "MN 137 gives a two-step recipe."
+  },
+  {
+   "item": 4,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "The Room Event",
+   "level": "h2",
+   "splits": "Desperation Did The Trick For Me & Bāhiya",
+   "before": "So, back to desperate little me in bed beside the then-wife I feared."
+  },
+  {
+   "item": 5,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "Body-Limited and Body-Uncontained Nibbāna",
+   "level": "h3",
+   "splits": "Your fingers are already enlightened, but your hand is deluded.",
+   "before": "The finger episode was a small flashback of my full first nibbāna experience"
+  },
+  {
+   "item": 6,
+   "pick": "A",
+   "kind": "heading and a heading moved",
+   "pangram_text_changed": false,
+   "heading": "What’s Next?",
+   "level": "h2",
+   "in_place_of": "What “Already Perfect” Means",
+   "moved": "What “Already Perfect” Means",
+   "before": "By “already perfect,” I mean that"
+  },
+  {
+   "item": 7,
+   "pick": "A",
+   "kind": "bullet split into a paragraph",
+   "pangram_text_changed": true,
+   "bullet_ends": "Iti 44 agrees on the difference between nibbāna & parinibbāna.",
+   "paragraph": "Iti 44 also shows the limit of nibbāna while you're alive: a living arahant still has pref ..."
+  },
+  {
+   "item": 8,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "Why the Tangle Is Heavy",
+   "level": "h3",
+   "splits": "Ignorance is the root",
+   "before": "In SN 22.22 the five aggregates"
+  },
+  {
+   "item": 9,
+   "pick": "A",
+   "kind": "cut",
+   "pangram_text_changed": true,
+   "cut": "(even an arahant feels the first dart)",
+   "sentence_now": "... the five aggregates that make up the unified body-mind are the burden of suffering, and craving is ..."
+  },
+  {
+   "item": 10,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "The Capacity for Suffering",
+   "level": "h3",
+   "splits": "Binding Assembles the Mind",
+   "before": "The main question for me and for the Buddha is whether"
+  },
+  {
+   "item": 11,
+   "pick": "A",
+   "kind": "heading and a heading moved",
+   "pangram_text_changed": false,
+   "heading": "What the Books Never Made Clear",
+   "level": "h2",
+   "in_place_of": "How the Experiential Key Can Fade",
+   "moved": "How the Experiential Key Can Fade",
+   "before": "The suttas clearly show that the Buddha succeeded in liberating"
+  },
+  {
+   "item": 12,
+   "pick": "A",
+   "kind": "sentence moved up across the heading",
+   "pangram_text_changed": true,
+   "sentence": "That creates a practical problem.",
+   "now_ends": "... doesn’t mean that the picture on the box has. That creates a practical problem.",
+   "section_opens": "In DN 3 and MN 56, the Buddha waits until ..."
+  },
+  {
+   "item": 13,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "AtR’s Authentication Culture",
+   "level": "h2",
+   "splits": "A Map Can Save Years – and Create Counterfeits",
+   "before": "AtR’s map saved me, but I still can’t recommend"
+  },
+  {
+   "item": 14,
+   "pick": "A",
+   "kind": "paragraph moved",
+   "pangram_text_changed": true,
+   "moved": [
+    "p: But the problem isn’t as surprising with a YouTube star as it was for me when I "
+   ],
+   "now_after": "Frank did suffer much less ... YouTube channel: and its video",
+   "picture": "the picture “This one’ was over my head” stays between Frank’s two paragraphs (question N5)"
+  },
+  {
+   "item": 15,
+   "pick": "A",
+   "kind": "nested item",
+   "pangram_text_changed": true,
+   "question": "Are you more joyful and enjoyable to be around without becoming a people-pleaser, as in MN 89?",
+   "nested": "The standard isn't the non-stop, 24/7 bliss that Soh claimed, which is false. In ... So enlightenment isn’t a simple bliss switch."
+  },
+  {
+   "item": 16,
+   "pick": "A",
+   "kind": "paragraph moved",
+   "pangram_text_changed": true,
+   "moved": [
+    "p: For me, nibbāna was really like waking up from a dream, except that nobody woke "
+   ],
+   "now_after": "The lucid-dream comparison from earlier ... If you’ve ever had a lucid dream, you know what I’m talking about.",
+   "section_ends": "the Diamond Sutra verse and its picture"
+  },
+  {
+   "item": 17,
+   "pick": "A",
+   "kind": "paragraph moved, with its picture",
+   "pangram_text_changed": true,
+   "moved": [
+    "p: The farther unification loosens, the less useful you become for normal tasks. Th",
+    "div: Yfw you thought I was kidding about meditating while skydiving."
+   ],
+   "now_after": "A similar version may work even better while walking: ... Either way, see whether the self loosens."
+  },
+  {
+   "item": 18,
+   "pick": "A",
+   "kind": "heading",
+   "pangram_text_changed": false,
+   "heading": "What Remains Afterward",
+   "level": "h3",
+   "splits": "What Counts as Success, Confusion, or Danger",
+   "before": "Most of the unification usually returns afterward."
+  }
+ ]
+}
