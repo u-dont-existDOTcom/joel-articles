@@ -1,0 +1,80 @@
+[
+ {
+  "name": "n5-practical (batch n5)",
+  "text": "That leads to a practical problem.",
+  "chance_red": 0.3,
+  "why": "Emulate's sample bz, one word changed from his (\"leads to\" for \"creates\"); his sentence read AI, Low, alone in recheck 5 and with the sentence before it in recheck 4"
+ },
+ {
+  "name": "n5-dn3 (batch n5)",
+  "text": "In DN 3 and MN 56, the Buddha does not teach the Dhamma that leads to opening the Dhamma-eye until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident.”",
+  "chance_red": 0.3,
+  "why": "Emulate's sample bz with four typo and spelling fixes, for his sentence that read AI, Medium, alone in recheck 5 (Human before); Emulate's whole-stretch splices have read Human in place most times"
+ },
+ {
+  "name": "n5-skip (batch n5)",
+  "text": "What happens when we lay out the stages in a way that allows anyone to skip ahead to the answer?",
+  "chance_red": 0.25,
+  "why": "Emulate's sample bx, for his question that read AI, Low, alone in recheck 5"
+ },
+ {
+  "name": "n5-room (batch n5)",
+  "text": "Though disjoint, they were not isolated; the flows ran into and through each other, and they were connected everywhere. This was not one experience, nor was it one scene being seen by a witness.",
+  "chance_red": 0.3,
+  "why": "Emulate's sample bz for the first sentence of the red; the two sentences after it stay his, so the window may still hold them"
+ },
+ {
+  "name": "his N4 7: the Parinibbāna bullet, ended after its first Iti 44 sentence",
+  "text": "Iti 44 agrees on the difference between nibbāna & parinibbāna.",
+  "chance_red": 0.05,
+  "why": "his words, in a Human, High, window of 876 words in recheck 5; the bullet now ends here"
+ },
+ {
+  "name": "his N4 7: the rest of the bullet, now a paragraph under the list",
+  "text": "Iti 44 also shows the limit of nibbāna while you’re alive:",
+  "chance_red": 0.05,
+  "why": "the same words, out of the list"
+ },
+ {
+  "name": "his N4 9: the SN 22.22 sentence without \"(even an arahant feels the first dart)\"",
+  "text": "are the burden of suffering, and craving is the process",
+  "chance_red": 0.05,
+  "why": "Human, High, in recheck 5 with the parenthetical"
+ },
+ {
+  "name": "his N4 14: the monk paragraph, after Frank's second paragraph and its video",
+  "text": "But the problem isn’t as surprising with a YouTube star",
+  "chance_red": 0.05,
+  "why": "Human, High, in a 436-word window in recheck 5"
+ },
+ {
+  "name": "his N4 15: the MN 89 question, its own line",
+  "text": "Are you more joyful and enjoyable to be around without becoming a people-pleaser, as in MN 89?",
+  "chance_red": 0.05,
+  "why": "Human, High, in recheck 5 as one bullet with its note"
+ },
+ {
+  "name": "his N4 15: the note under the MN 89 question",
+  "text": "The standard isn’t the non-stop, 24/7 bliss that Soh claimed, which is false.",
+  "chance_red": 0.05,
+  "why": "the same words, nested"
+ },
+ {
+  "name": "his N4 16: \"For me, nibbāna was really like waking up from a dream ...\" moved up",
+  "text": "For me, nibbāna was really like waking up from a dream, except that nobody woke up.",
+  "chance_red": 0.05,
+  "why": "Human, High, in a 350-word window in recheck 5"
+ },
+ {
+  "name": "his N4 17: the caution moved to the end of \"Try a Tiny Bit of Nibbāna\"",
+  "text": "The farther unification loosens, the less useful you become for normal tasks.",
+  "chance_red": 0.05,
+  "why": "Human, High, in an 88-word window in recheck 5"
+ },
+ {
+  "name": "kept red: his \"Nothing observed them from behind. There was no cosmic knower celebrating its achievement.\"",
+  "text": "Nothing observed them from behind. There was no cosmic knower celebrating its achievement.",
+  "chance_red": 0.3,
+  "why": "in window 15 (AI, Low) of recheck 5; no sample keeps the knower's \"achievement\", so his words stay beside the new first sentence"
+ }
+]

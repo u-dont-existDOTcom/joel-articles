@@ -1,0 +1,24 @@
+{
+ "made": "after Joel's message of 2026-10-23 20:35 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221726541",
+ "title": "TEMP recheck (Nibbana article) - do not publish",
+ "how": "the same temporary draft, in the app's built-in browser: its title checked, the body (93,987 characters, the fifth recheck) cleared with real keystrokes (a click in a plain paragraph, ctrl+a, Delete), the payload pasted with the lane's paste helper; Publish was never clicked",
+ "secret_link": "https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck6-n6&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD.html",
+ "payload_sha256": "6d8e6b4ec309c25b4cd21333fee4b63809ffd60fa2859c7a7fb8b5d1b3789fc0",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/c845089c78800bfb6e1b628ed994617171b3247c/articles/nibbana/humanize/fix-20261023/recheck6/PAYLOAD.html",
+ "paste": {
+  "helper": "../../../../inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js",
+  "editor_words_right_after": 15817,
+  "editor_words_after_the_notes_and_the_caption": 15994,
+  "words_expected": 15820,
+  "why_not": "as at every earlier paste: 3 words short right after (the three embedded notes as links), then the editor rebuilds the notes from their links a few seconds later; the helper counts before they are in"
+ },
+ "fixed_after_paste": "the gallery caption the builder printed (\"Real NASA space photos!\") was a paragraph of its own in the editor; selected with a triple click and deleted with a real Delete key; the editor said Saved",
+ "rendered_check": "the secret link opened in the app's browser (the tab titled with the draft's title): 271 lines that hash to DRAFT-TEXT.txt (f5c918c2...) exactly, his N4 moves and batch n5's sentences in them; the nested MN 89 note and all 60 headings were in the editor after the paste",
+ "text": "DRAFT-TEXT.txt",
+ "text_sha256": "f5c918c20bd42bc3479e58c4b6f79c411210b3fb507b50ba4ef17f8ff37a5b8d",
+ "text_chars": 90460,
+ "predictions": "pangram-ledger.jsonl NB-whole#28, and the part forecast FORECAST.json, both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

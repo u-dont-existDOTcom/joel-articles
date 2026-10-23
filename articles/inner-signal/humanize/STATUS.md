@@ -1,5 +1,15 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 20:35 UTC (part B and Nibbāna's fifth recheck read; his N4 answers in; batch n5; Nibbāna's sixth recheck pasted)
+
+**Part B's recheck** ([his link](https://www.pangram.com/feed/d63c3c9f-b71f-4435-9b20-59027a31225b)): Mostly Human
+Written, 1.3% AI, one window red, the audit he kept; the forecast called 51 of 51. The whole guide now reads Human outside
+that audit, so its clarity read (both halves) is next. **Nibbāna's fifth recheck** ([his link](https://www.pangram.com/feed/54a79d39-a6ba-4e9e-80b4-7e1178527768)):
+Mostly Human Written, 0.7% AI, 4 windows (his DN 3 stretch and the room's "They were disjoint ..."); batch n4's five
+stretches read Human. His 18 answers to the reader's edit are in (17 changes, one left out), Emulate's round 3 spliced
+sentence by sentence (batch n5, reviewed and triaged), and the sixth recheck is pasted and verified with a part forecast.
+Lessons E250 (a past answer covers only what its reason covers) and E251 (pictures beside a reader's move).
+
 ## 2026-10-23, after Joel's message of 18:13 UTC (recheck A4 and Nibbāna's fourth recheck read; batches 477 and n4; the reader's edit added to the clarity read)
 
 **Recheck A4** ([his link](https://www.pangram.com/feed/fd67dd6e-7193-4bdf-9ed8-3ed235d62d94)): Human Written, 0% AI, all

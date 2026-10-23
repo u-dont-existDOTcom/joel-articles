@@ -1,5 +1,5 @@
 {
- "about": "Joel's answers to reader's-edit proposals, the examples in the reader's-edit brief (tools/humanization/clarity_read.py make --kind edit; docs/CLARITY-READ.md, part 2). Add one each time he answers a proposal, with his choice. The first ones: the Inner Child guide, question 91 of articles/inner-child-therapy/OWNER-QUESTIONS.md, answered in his message of 2026-10-23 14:05 UTC (articles/inner-child-therapy/experiments/t101-answers/JOEL-20261023-1405.md), after GPT's proposal of 11:41 UTC (articles/inner-child-therapy/experiments/t100-answers/GPT-READERS-EDIT-20261023.md).",
+ "about": "Joel's answers to reader's-edit proposals, the examples in the reader's-edit brief (tools/humanization/clarity_read.py make --kind edit; docs/CLARITY-READ.md, part 2). Add one each time he answers a proposal, with his choice. The first ones: the Inner Child guide, question 91 of articles/inner-child-therapy/OWNER-QUESTIONS.md, answered in his message of 2026-10-23 14:05 UTC (articles/inner-child-therapy/experiments/t101-answers/JOEL-20261023-1405.md), after GPT's proposal of 11:41 UTC (articles/inner-child-therapy/experiments/t100-answers/GPT-READERS-EDIT-20261023.md). Then Nibbāna, question N4 of articles/nibbana/humanize/OWNER-QUESTIONS.md (the proposals: articles/nibbana/humanize/fix-20261023/readers-edit/READERS-EDIT.md), answered in his message of 2026-10-23 20:35 UTC: A on 17 of 18, including four where my pick had been B (gate E250). Those four and his one B are below.",
  "examples": [
   {
    "answer": "91.1 B",
@@ -24,6 +24,36 @@
    "section": "Use Childhood Photographs Gently",
    "proposal": "move the study of false photos to a source note, since it gives the reason for the warning",
    "his_choice": "leave it: it's three short sentences in his words, and the concrete case that makes the warning land"
+  },
+  {
+   "answer": "N4.2 B",
+   "section": "A Peak State Can Be Useless Or Worse (Nibbāna)",
+   "proposal": "cut the two-sentence paragraph \"As they say, “life is stranger than fiction.” It really does seem like a dream, to me anyway.\" as a stock phrase and a shrug between three strange examples and the section's point",
+   "his_choice": "leave it (its \"It really does seem like a dream\" starts the article's dream thread)"
+  },
+  {
+   "answer": "N4.5 A",
+   "section": "Your fingers are already enlightened, but your hand is deluded. (Nibbāna)",
+   "proposal": "a heading, \"Body-Limited and Body-Uncontained Nibbāna\" (his own two terms), over the section's last two paragraphs, where the finger story ends and the definitions begin",
+   "his_choice": "put it in (my pick had been to leave it, because each paragraph's first line says what it's for, as in 91.3; a heading in a long article read by its table of contents isn't that label)"
+  },
+  {
+   "answer": "N4.8 A",
+   "section": "Ignorance is the root (Nibbāna)",
+   "proposal": "a heading, \"Why the Tangle Is Heavy\", over one dense paragraph (SN 22.22, the aggregates as a burden) at the tail of a nine-paragraph section",
+   "his_choice": "put it in, though it heads a single paragraph"
+  },
+  {
+   "answer": "N4.9 A",
+   "section": "Ignorance is the root (Nibbāna)",
+   "proposal": "cut his own parenthetical \"(even an arahant feels the first dart)\", which uses \"the first dart\" two sections before SN 36.6's two darts are explained; the point is made in both other places",
+   "his_choice": "cut it (my pick had been to keep it because it was his own words)"
+  },
+  {
+   "answer": "N4.16 A",
+   "section": "Why nibbāna is “awakening” (Nibbāna)",
+   "proposal": "move the section's last paragraph, its answer (\"For me, nibbāna was really like waking up from a dream, except that nobody woke up. ...\"), up after the first paragraph, so the verse closes the section instead",
+   "his_choice": "move it (my pick had been to keep his line as the section's ending)"
   }
  ]
 }

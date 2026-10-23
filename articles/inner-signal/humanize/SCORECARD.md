@@ -7,7 +7,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
 
@@ -41,22 +41,22 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
-| the latest 100 | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
-| all | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
+| the latest 50 | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
+| the latest 100 | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
+| all | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 7 | 5 (71%) | 86% | 14% | 14% | 0.175 (base 0.122, 7) |
+| article | 8 | 6 (75%) | 88% | 12% | 12% | 0.153 (base 0.109, 8) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 7 | 0.06 | 14% |
+| 0.0 to 0.2 | 8 | 0.06 | 12% |
 | 0.2 to 0.4 | 7 | 0.33 | 14% |
 | 0.4 to 0.6 | 5 | 0.47 | 40% |
 
@@ -151,7 +151,7 @@ The latest:
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-rest-B | article | 4 of unlimited (Substack) | pending |
+| HG-rest-B | article | 4 of unlimited (Substack) | Mixed |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |

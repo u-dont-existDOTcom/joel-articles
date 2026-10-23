@@ -1,0 +1,25 @@
+{
+ "about": "Triage of batch n5 (Nibbāna, Emulate round 3), after the fresh reader of REVIEW.md: what went in and why. Each change to Emulate's words is also in emulate_n5.py, SPLICES[...][\"mine\"], with its reason.",
+ "items": [
+  {
+   "key": "n5-practical",
+   "review": "OK",
+   "decision": "in as sample bz wrote it: \"That leads to a practical problem.\""
+  },
+  {
+   "key": "n5-dn3",
+   "review": "CHANGED (minor): \"In several suttas, most notably\" adds a claim; \"the Dhamma that leads to opening\" one step more indirect than \"the teaching that opens\"",
+   "decision": "in, with the added claim cut (\"In DN 3 and MN 56, the Buddha does not teach ...\"); \"the Dhamma that leads to opening the Dhamma-eye\" stays Emulate's: the special teaching is what the Dhamma-eye opens after, and putting his words back would rebuild the sentence that read AI, Medium"
+  },
+  {
+   "key": "n5-skip",
+   "review": "CHANGED (minor): the map image and \"the answer\" lost; \"in a way that allows\" implies a layout choice",
+   "decision": "in, with \"to the answer\" back (\"... allows anyone to skip ahead to the answer?\"); the section's heading names the map, and the article itself argues that how a map is presented matters (readiness warnings, anti-counterfeit framing), so \"lay out the stages in a way that allows\" says what he says"
+  },
+  {
+   "key": "n5-room",
+   "review": "CHANGED (minor): \"everywhere they touched\" narrowed \"connected everywhere\"; \"This was not one experience\" separates what his sentence joined (connected without becoming one)",
+   "decision": "in, with \"connected everywhere\" back; \"This was not one experience, nor was it one scene being seen by a witness.\" stays Emulate's: right after \"connected everywhere\" it still says the connection didn't make one experience, and read as the whole event it says the same thing he says"
+  }
+ ]
+}

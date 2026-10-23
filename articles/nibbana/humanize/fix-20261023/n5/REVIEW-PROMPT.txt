@@ -1,0 +1,100 @@
+You check 4 rewritten passages in Joel's long article on nibbāna (Buddhist enlightenment), written for a general Substack audience, in his casual first-person voice with jokes and emoji. Each NOW is a detector-passing rewrite of only the sentence(s) marked WAS in its paragraph; PUBLISHED is what he published, the meaning to keep.
+
+For each item, say in a few words each:
+1. MEANING: does NOW keep every point, claim, condition and image of PUBLISHED, with the same strength (nothing made more or less certain, nothing turned into a different claim, no cause turned into a coincidence)? KEPT, or what CHANGED or was LOST, and anything ADDED that a reader would take as a claim.
+2. SENSE: would a reader understand the paragraph with NOW in it, between BEFORE and AFTER? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning and sense only, not style or grammar (the casual grammar is on purpose), and suggest the smallest possible rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/ja-community/articles/nibbana/humanize/fix-20261023/n5/REVIEW.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (the last sentence of a paragraph that ends a section; the next section (after a heading) opens with the DN 3 paragraph, item 2)
+
+BEFORE:
+The canon says this degradation had begun in the Buddha’s lifetime. In SN 16.13, Mahā Kassapa asks why training rules are multiplying while fewer monks reach final knowledge. The Buddha says counterfeit Dhamma gradually makes the true Dhamma disappear.
+
+PARAGRAPH WITH WAS:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions. But just because the pieces of the puzzle come down to us well doesn’t mean that the picture on the box has. That creates a practical problem.
+
+WAS:
+That creates a practical problem.
+
+PUBLISHED:
+That creates a practical problem.
+
+NOW:
+That leads to a practical problem.
+
+PARAGRAPH WITH NOW:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions. But just because the pieces of the puzzle come down to us well doesn’t mean that the picture on the box has. That leads to a practical problem.
+
+AFTER:
+In several suttas, most notably DN 3 and MN 56, the Buddha does not teach the Dhamma that leads to opening the Dhamma-eye until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident.” What happens when we lay out the stages in a way that allows anyone to skip ahead?
+
+## Item 2 (the first sentence of the section "A Map Can Save Years – and Create Counterfeits")
+
+BEFORE:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions. But just because the pieces of the puzzle come down to us well doesn’t mean that the picture on the box has. That leads to a practical problem.
+
+PARAGRAPH WITH WAS:
+In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye. What happens when a stage map lets anyone skip to the answer?
+
+WAS:
+In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye.
+
+PUBLISHED:
+In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye.
+
+NOW:
+In several suttas, most notably DN 3 and MN 56, the Buddha does not teach the Dhamma that leads to opening the Dhamma-eye until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident.”
+
+PARAGRAPH WITH NOW:
+In several suttas, most notably DN 3 and MN 56, the Buddha does not teach the Dhamma that leads to opening the Dhamma-eye until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident.” What happens when we lay out the stages in a way that allows anyone to skip ahead?
+
+AFTER:
+Today someone perusing Dharma Overground can pull the trigger as I did through AtR, but merely out of curiosity, competition, or hope of claiming an attainment.
+
+## Item 3 (the question that ends the same paragraph; the paragraph after it answers it)
+
+BEFORE:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions. But just because the pieces of the puzzle come down to us well doesn’t mean that the picture on the box has. That leads to a practical problem.
+
+PARAGRAPH WITH WAS:
+In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye. What happens when a stage map lets anyone skip to the answer?
+
+WAS:
+What happens when a stage map lets anyone skip to the answer?
+
+PUBLISHED:
+What happens when a stage map lets anyone skip to the answer?
+
+NOW:
+What happens when we lay out the stages in a way that allows anyone to skip ahead?
+
+PARAGRAPH WITH NOW:
+In several suttas, most notably DN 3 and MN 56, the Buddha does not teach the Dhamma that leads to opening the Dhamma-eye until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident.” What happens when we lay out the stages in a way that allows anyone to skip ahead?
+
+AFTER:
+Today someone perusing Dharma Overground can pull the trigger as I did through AtR, but merely out of curiosity, competition, or hope of claiming an attainment.
+
+## Item 4 (his account of the central experience of the article (the "room event", the first full nibbāna); the two sentences after the rewritten one stay his)
+
+BEFORE:
+This time, my awareness dispersed, or popped like a balloon! 🎈
+
+PARAGRAPH WITH WAS:
+Awareness as one thing was gone. I was gone. What remained were the room’s flows of colored light, all experiencing themselves in indescribable perfection. They were disjoint, but not isolated: the flows ran into and through one another, connected everywhere without becoming one experience or one witnessed scene. Nothing observed them from behind. There was no cosmic knower celebrating its achievement. There was also no black void. The flows were infinitely more intimate, beautiful, and alive than ordinary perception, while possessing no owner at all.
+
+WAS:
+They were disjoint, but not isolated: the flows ran into and through one another, connected everywhere without becoming one experience or one witnessed scene.
+
+PUBLISHED:
+They were disjoint, but not isolated: the flows ran into and through one another, connected everywhere without becoming one experience or one witnessed scene.
+
+NOW:
+Though disjoint, they were not isolated; the flows ran into and through each other, and everywhere they touched, they were connected. This was not one experience, nor was it one scene being seen by a witness.
+
+PARAGRAPH WITH NOW:
+Awareness as one thing was gone. I was gone. What remained were the room’s flows of colored light, all experiencing themselves in indescribable perfection. Though disjoint, they were not isolated; the flows ran into and through each other, and everywhere they touched, they were connected. This was not one experience, nor was it one scene being seen by a witness. Nothing observed them from behind. There was no cosmic knower celebrating its achievement. There was also no black void. The flows were infinitely more intimate, beautiful, and alive than ordinary perception, while possessing no owner at all.
+
+AFTER:
+I now call this body-uncontained nibbāna. It was a full unweaving because unified consciousness and the functioning body-world were gone, but unlike the fingers event I’ll tell you about below, which stayed inside the body’s sensations, its scope wasn’t limited to the body anymore. I was not seeing the room from everywhere. There was no “I” or single place from which it was seen.
