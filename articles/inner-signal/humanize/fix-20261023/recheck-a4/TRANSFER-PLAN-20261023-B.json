@@ -1,14 +1,14 @@
 {
   "format": "joel-substack-transfer-plan-v4",
   "source_file": "ARCHIVAL-SUBSTACK-20261023-B.html",
-  "source_sha256": "e881568d601f30494b4aed6f6366efbdff4dc5f5f3abc2a290edbca90d4d1775",
-  "editor_body_sha256": "5d4db9bf2370c9b970f64fc03bb204a0236c57f14647c5920e0fd321bbae5fb9",
+  "source_sha256": "0b6c572c20c0ba17f6667567320a6ec5ccaf2e1a290afc0160fd88974ee2c46d",
+  "editor_body_sha256": "842e11acc061ad5e82989d6dd3675e4d8742b196a0c19f93cc5c8cd74af2ef04",
   "editor_body_boundary": {
     "mode": "substack-editor-root",
     "outer_start": 0,
     "inner_start": 192,
-    "inner_end": 74996,
-    "outer_end": 75002
+    "inner_end": 74997,
+    "outer_end": 75003
   },
   "destination": "Substack editor",
   "browser": "Opera",

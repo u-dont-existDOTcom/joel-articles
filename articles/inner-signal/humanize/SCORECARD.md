@@ -150,7 +150,7 @@ The latest:
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 5 of unlimited (Substack) | Mixed |
+| HG-whole | article | 6 of unlimited (Substack) | pending |
 | HG-rest-B | article | 3 of unlimited (Substack) | Mixed |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |

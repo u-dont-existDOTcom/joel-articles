@@ -964,9 +964,78 @@ lane's `fix-20261023/`), recheck A's result (`fix-20261023/recheck/RESULT-A.json
 
 (The next lesson in either lane is E241.)
 
+## What Joel's message of 2026-10-23 16:55 UTC taught (the hypnosis guide and Nibbāna lanes)
+
+The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-1655-message.txt` (the same file in the guide's
+`fix-20261023/`), the clarity list he answered (`articles/nibbana/humanize/fix-20261023/clarity/CLARITY.md`), batch n3
+(`articles/nibbana/humanize/fix-20261023/n3/`), and the two rechecks scored (`recheck3/SCORE.md` in Nibbāna's
+`fix-20261023/`, `recheck-a3/SCORE.md` in the guide's).
+
+- **E241. What his clarity rewrites did that the readers' plain versions didn't.** Of the 28 plain versions he checked, he
+  called 13 AI and rewrote them (and rewrote one more without a verdict); he passed 14, 3 of them as "possibly human". His
+  rewrites passed. The plain versions that read AI were neutral, tidy explanations; his kept the explanation and put
+  himself in it:
+  - his stance and his reasoning words: "which I'd explain as", "tellingly, what they ultimately find", "it's pretty clear
+    that ... although they're framed as", "that's a relief", "more obviously", "as we can see", "Clearly,", "actually not
+    new at all", "isn't as strict as that all the time";
+  - a reason or an exception of his own: "since there's no more craving for existence driving that", "except while in the
+    nibbāna meditation itself", "due to starting from more confusion", "or never tangled to begin with";
+  - his own images and jokes: "Suppose light buys a mirror from the local mirror shop", "like my dad's favorite oxymoron:
+    'military intelligence'", "pushing the problem of what is real further down the lane", his tangling for the plain
+    version's "set up"; and facts he knows ("the Buddha's cousin", "Advaita Vedanta");
+  - no summing-up line: "Put together, that says unity itself is the last stress.", "That's why I say that kind of
+    non-duality is false.", "That's why, in this article, ..." all went (J07, J11, W61).
+  Sometimes a few words were enough: the reader's version of the footing sentence passed with his "(nor anywhere to
+  sprout from)" added; the ignorance line passed with "merging multiple experiences into one" and "when compared with"
+  for the reader's "merging experience into one" and "when you set it next to". So a clarity fix keeps his words and adds
+  the missing step in his register, and a reader's plain version is a diagnosis of what's missing, not text to install:
+  the clarity brief now asks readers for the smallest change to his words (`tools/humanization/clarity_read.py`), and his
+  own fixes are its examples (`tools/humanization/clarity_examples.json`).
+- **E242. The clarity read is standard now; it wasn't before.** His words: "let's make sure this kind of check is standard
+  for articles as we write them and as we finalize before publishing in future, i thought it already was". What existed:
+  the section cold read, on drafted text, for where the sense breaks (it lets a passage a reader gets on a second look
+  stand), and the optional reader-question audit. Neither read a whole article, his words included, for what a reader
+  would have to reread, and Nibbāna, 15,000 words that read 99.7% Human, had 29 such passages. The read is now a declared
+  gate (above), with its own page (`docs/CLARITY-READ.md`) and step 5 of the working order (`docs/FIXING-AN-ARTICLE.md`):
+  once a full draft exists, on the final candidate before publishing, and after a large batch of changes. Every flag is
+  checked against the whole article first: in Nibbāna's read, 7 of 36 were explained in another part.
+- **E243. A definition goes where its term first comes.** His words on saṃsāra: "the problem is not that samsara is not
+  defined here, the problem is it should have been defined where it first came in the article, but instead it's defined
+  int he second place it came, so we need to fix that ... fix samsara in the other parts as i mentioned". The reader had
+  flagged the term as never defined in its third of the article; I checked that the article defined it, and stopped
+  there, while the order was the problem: its first mention, "misapprehended as saṃsāra", had no definition, and its
+  second, the rebirth paragraph, had one. And a plain version he passed added a third ("the illusory cycle of birth,
+  death, joy, and suffering called saṃsāra"). So for a term a reader asks about, search the whole article for its first
+  mention and put the definition there; every later one becomes a reference ("that beginningless cycle of saṃsāra"); and
+  check every plain version for a definition it adds (batch n3 cut that one to "the illusory cycle of saṃsāra").
+- **E244. The first part forecasts: the places are right, and red spreads to neighbours.** Nibbāna's third recheck: 68 of
+  70 parts right, Brier 0.028; its only red (the photon paragraph, 2 windows) was in two of the 68 light green windows
+  the forecast listed, at 0.01 and 0.02, as before (2 of 58 then, 2 of 68 now): red comes from light green, and no single
+  light green window is likely enough to call. The guide's recheck A3: 31 of 33 right, Brier 0.071. The changed check
+  paragraph went red at my 0.35, and so did a light green window of the count up (0.02), and the red spread past both
+  into two windows no part covered: the bring-back script's end, which had read Human, High, in recheck A, read AI,
+  Low, beside the changed paragraph, and so did the Note's second sentence. So a forecast now gives a changed stretch's
+  neighbours their own chance (recheck A4's: 0.08 to 0.12), and a red stretch goes to Emulate whole, neighbours included
+  (batch 475, script to Note).
+- **E245. The result page changed under the reader.** Pangram's feed page no longer had the text-segment spans that
+  `tools/humanization/pangram_feed_read.js` started from, so it found no result on either recheck page; I read both by
+  hand from the page's main elements. The script now looks from the main elements when the spans are gone, and has a
+  compact mode (`window.__feedMode = 'compact'`: the windows line in `window.__compact`, and the SHA-256 of it and of the
+  checked text) for the lanes that rebuild the text from the payload.
+- **E246. Emulate's misspellings got installed.** While the guide's return section went to Emulate again (batch 475), its
+  inner child line in part B read "solar plexis", and the published guide says "solar plexus". The linter's O15 flags it
+  ("a misspelling gets fixed"), but the installs of Emulate's samples since 2026-10-18 hadn't acted on O15: the working
+  copy had "solar plexis" five times, "carefuly", "subconcious", "supress", "neuroscientifcally", "somedays" and
+  British spellings the published guide never uses ("realise", "behaviour", "stabilise", "visualise") in 25
+  paragraphs. Batch 476 put each back to the published guide's spelling (no Pangram check for a spelling fix, Joel,
+  2026-10-06; the next rechecks read them in place). So every splice from Emulate gets the linter's O15 fixed before it
+  goes in (`docs/EMULATE-FALLBACK.md`, section 4).
+
+(The next lesson in either lane is E247.)
+
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. The next lesson in either lane is E241.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. The next lesson in either lane is E247.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 
@@ -1019,6 +1088,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
 
   It wasn't on this list until 2026-09-26, so I didn't load it or follow it (E73).
 - **Fresh-context review:** `docs/HUMANIZATION-FRESH-CRITIC-GATE.md`, whenever fresh-model evidence is used before Pangram. It never replaces the full tell ledger.
+- **Clarity read:** `docs/CLARITY-READ.md` (Joel, 2026-10-23 16:55 UTC: "let's make sure this kind of check is standard for articles as we write them and as we finalize before publishing in future"). The whole-article read for passages that pass Pangram but that a reader would have to reread, his own words included: once a full draft of an article exists, on the final candidate before publishing, and after a large batch of changes to a published article (E242).
 
 ## Steps
 

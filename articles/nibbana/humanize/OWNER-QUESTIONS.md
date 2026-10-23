@@ -1,7 +1,7 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 14:14 UTC. **Open questions: 1** (N3, the passages that pass but are hard
-to understand). **One thing for you to do**: run Pangram on the third recheck draft and send me its link (just below).
+Last updated 2026-10-23, after your message of 16:55 UTC. **Open questions: none.** **One thing for you to do**: run
+Pangram on the fourth recheck draft and send me its link (just below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md),
@@ -10,16 +10,70 @@ working copy, and you put them in your post when you want them.
 
 ## For you to do
 
-- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck3-n3&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** The same temporary draft,
-  now with your 14:14 fix in (the percentage paragraph and your lead-in). Its text in the page is exactly the text I
-  forecast from: your paragraph red at 15%, your lead-in at 10%, each of the last check's 68 light green windows at 1 to
-  2%, anywhere else 10%; together a 28% chance of no red at all ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck3/FORECAST.json)).
-- 🟢 Done: [the second recheck](https://www.pangram.com/feed/aba5bb46-d42a-47a2-8b17-ac8a6d5cf37d) (your result of 14:14 UTC):
-  Human Written, 0.27% AI, 2 of 136 windows red, both on the paragraph you then rewrote.
+- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck4-n4&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** The same temporary draft,
+  now with all of your 16:55 answers in (below). Its text in the page is exactly the text I forecast from: 36 changed
+  stretches, your own words at 6% each, the plain versions you passed at 10% (the three "possibly human" ones at 20%), my
+  few-word fixes at 5 to 8%, and 1 to 2% for each light green window of the last check; together a 6% chance of no red at
+  all ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck4/FORECAST.json)).
+- 🟢 Done: [the third recheck](https://www.pangram.com/feed/f2b77491-4933-42cf-a431-8b063208fa78) (your result of 16:55 UTC):
+  Human Written, 0.34% AI, 2 of 161 windows red, both on the photon paragraph you then rewrote. Your 14:14 fix read Human.
+  My part forecast called 68 of its 70 parts right ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck3/SCORE.md)); the two misses
+  were that paragraph's windows, which I had at 1 and 2%.
 
-## Open questions
+## Your message of 2026-10-23 16:55 UTC, and what I did
 
-- 🟣 **N3. The 29 passages that pass but are hard to understand: who rewrites them?**
+Your message, word for word as I have it: [joel-20261023-1655-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/joel-20261023-1655-message.txt).
+The numbers are those of [the clarity list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/clarity/CLARITY.md).
+
+- 🟢 **Your photon paragraph is in, word for word** (item 9, "fixed it at the top there"), with its four sutta links on the
+  same words.
+- 🟢 **Your own words for 1, 3, 4, 6, 7, 8, 10, 14, 15, 16, 17, 20, 22 and 24 are in, word for word**, each replacing the
+  passage it rewrites (for 3, the whole paragraph from "Even after the little king or queen fantasy disappears"; for 6,
+  from "Exactly."). Links, italics and bold are back on the same words. One typo fixed: "Advaita vedanta" to "Advaita
+  Vedanta". Three italics went where your words changed: "sat chit ananda" (no longer there), "saṃsāric" (you put it in
+  quotes) and "not nibbāna" (21's plain version says it differently).
+- 🟢 **The plain versions you passed are in: 2, 5, 11, 12, 13, 18, 19, 21, 23 and 25 to 29**, with two changes:
+  - 2 said "the illusory cycle of birth, death, joy, and suffering called saṃsāra", a third definition of the word, four
+    paragraphs after the rebirth paragraph's; it's now "the illusory cycle of saṃsāra".
+  - 23 had softened your "Now I realize" to "Now I think"; your "realize" is back.
+- 🟢 **Saṃsāra is defined where it first comes** (your 6): "Nibbāna is the word the Buddha used to refer to the deathless,
+  perfect reality that's misapprehended as saṃsāra, the beginningless cycle of birth, death, joy & suffering." (your own
+  definition, moved from the rebirth paragraph), and the rebirth paragraph now says "life is that beginningless cycle of
+  saṃsāra."
+- 🟢 **The snags** (your 30), each a few words of mine:
+  - BatGap: "BatGap (Buddha at the Gas Pump)".
+  - The Vinaya: "anyone who isn't fully ordained (a layperson or a novice, say)" and "a path or fruit of awakening (a stage
+    of enlightenment)".
+  - The cosmic witness: "before dissolving the cosmic witness (that one universal awareness behind everything)", pointing
+    back to your "we are all one universal, happy awareness".
+  - **Soh, which you asked about**: the paragraph just before his defines unification as "whatever pulls everything
+    together so that a person can talk, cross a road, recognize a friend and answer a text", and then "sensory
+    unification" looked like a second, different thing. So it now reads "he says sensory unification (that
+    pulling-together of the senses) isn't required for functioning, which makes no sense to me": the reader sees it's the
+    unification you just defined, and so why his claim makes no sense to you, since that pulling-together is what lets a
+    person function. One thing to know: your new MN 137 line, three paragraphs later, explains unification as "collecting
+    the mental processes into one attentional direction". If that's the same pulling-together to you, it reads fine; if a
+    reader could take it for a third meaning, a few words would tie them.
+- 🔵 **Things your rewrites left out, in case any was by accident**: "Unity itself is the last stress." (1), the sat chit
+  ananda example and "they can still describe how it feels" (3), and "not only the craving that produces another birth"
+  (4). And 28's plain version repeats, in brackets, the list in the sentence before it ("identity view seen through, the
+  Dhamma understood, doubt gone"); I left it as you passed it. Say if you want any of these changed.
+- 🟢 **The check for hard-to-understand passages is standard now; it wasn't before.** What there was: a cold read of the
+  text I draft, section by section, which lets a passage stand when a reader gets it on a second look, and an optional
+  check for questions an article leaves open. Neither read a whole article, your own words included, for what a reader
+  would have to reread. Now [this page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/CLARITY-READ.md) says when it runs (once a full draft exists, on the final
+  version before publishing, and after a big batch of changes) and how, with a tool for it; it's a required step in every
+  lane's rules and in the working order for fixing an article.
+- 🟢 **The Pangram lessons** are in [the shared rules](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md) (E241 to E245). The main one: of the 28 plain
+  versions you checked, you called 13 AI, and your rewrites of them passed. Yours kept the explanation and put you in it:
+  your stance ("which I'd explain as", "tellingly", "it's pretty clear that", "that's a relief"), a reason or exception
+  of your own, your images and jokes (the local mirror shop, your dad's "military intelligence"), and no summing-up line
+  ("Put together, that says ..."). So the readers now give the smallest change to your words, and their versions are
+  treated as a pointer to what's missing, not as text to put in.
+
+<details><summary>N3 as it was asked</summary>
+
+- **N3. The 29 passages that pass but are hard to understand: who rewrites them?**
   You asked: "is there any other stuff in the nibbana guide that's hard to understand but still passing pangram?" Yes:
   [the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/clarity/CLARITY.md), 29 passages, 12 of them hard enough that most readers wouldn't
   get them. They are mostly the sutta-heavy paragraphs, where several citations and a conclusion share one sentence, and
@@ -40,6 +94,8 @@ working copy, and you put them in your post when you want them.
   My recommendation: C. Your own rewrites have passed every time, and the 9 are your theory, where only you know the step;
   the other 20 are definitions and untangling, which I can do in your way. My default until you answer: nothing in the text
   changes, and the third recheck goes ahead with your fix only.
+
+</details>
 
 ## Your message of 2026-10-23 14:14 UTC, and what I did
 

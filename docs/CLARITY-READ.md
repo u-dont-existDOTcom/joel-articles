@@ -39,7 +39,9 @@ A short piece, a typo fix or a one-paragraph change doesn't need it.
 4. **Check every item against the whole article yourself**, since each reader saw only its part. An item explained
    elsewhere gets `"status": "drop"` and a note saying where; a small one `"minor"`; `"my_score"` overrides a reader's
    score; `"check"` names any step of a plain version that guesses at his reasoning. In Nibbāna's read, 7 of 36 flags were
-   things another part explained.
+   things another part explained. For a term a reader says is never defined, search the whole article for its first
+   mention: the definition belongs there, and a later one becomes a reference (gate E243, "saṃsāra"); and check each plain
+   version for a definition it adds.
 5. `clarity_read.py page DIR --out CLARITY.md` writes the list for him, numbered, hardest first, with the small snags and
    what wasn't counted at the end. Send it to him as a link he can click, with the number of passages and what kind they
    are, and ask him to rewrite or pass each one (his answers are numbered the same way).
