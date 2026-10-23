@@ -7,7 +7,7 @@ Your 95.6 B (2026-10-23 17:53 UTC): "that's what we need to pluck out of the who
 - **Where the extra ones came from:** mostly not you. They're the October guide's wording, GPT's queue items and my writers' checklists. My 95.6 paragraph came from the queue: PGQ-038's "reader need" warned about readers who "put off outside help because they're 'doing the inner work'".
 - **What's here:** 26 cuts, each shown with the cut words struck through and the paragraph after it. 97 is the safety lines and 98 the reassurances and disclaimers of the same kind. Six are in your own words, and two more are lines of mine that your 2026-10-19 version kept; each says whose it is. No other words change, except one capital letter in 97.2.
 - **To answer:** "97: your picks" and "98: your picks" take every A, or give the numbers you want kept ("98.3 B").
-- **After you pick:** each paragraph that changes gets its own Pangram check, then its section's, before the cut counts (E248: cutting your aside once made a paragraph read AI). A cut that makes a paragraph read AI comes back to you. This page keeps every original word, so any cut can be undone.
+- **After you pick:** each paragraph that changes gets its own Pangram check, then its section's, before the cut counts (E248: cutting your aside once made a paragraph [read AI](https://www.pangram.com/history/bf6562e2-577e-4fce-a12e-af98c12c7688)). A cut that makes a paragraph read AI comes back to you. This page keeps every original word, so any cut can be undone.
 
 
 ## 97. Safety lines said again, or said where nobody needs them
