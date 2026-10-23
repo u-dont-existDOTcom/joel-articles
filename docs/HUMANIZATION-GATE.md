@@ -865,6 +865,24 @@ batch 472g's API checks, `b472/API-CHECKS.md`; this round's recheck, `recheck/`)
   prediction goes on the right text the first time. Embedded notes need nothing: the editor rebuilt all three from their
   links.
 
+## What Joel's message of 2026-10-23 02:29 UTC taught (the Inner Child lane, questions 88 to 90)
+
+(Numbering: this lane wrote its E223 to E227 below at the same time as the hypnosis guide lane wrote E223 to E233 above, on 2026-10-23. Both sets keep their numbers, because each lane's records cite them; cite these as "E223 (Inner Child)" and so on. The next lesson in either lane is E234.)
+
+The records: `articles/inner-child-therapy/experiments/t98-answers/JOEL-20261023-0229.md` and entry `joel-98-20261023` in that lane's `OWNER-EDITS.json`. He rewrote all three stretches himself, and each reads Human in his check.
+
+- **E223. Polish with no meaning is the problem, more than any one tell.** His words on The Parent You Inherited: "too much polish on this section, like a weird mix of overly efficient prose with actual lack of meaning. i had to really think what some of it was trying to say." On How Much Happiness: "that was not very well written aside from being AI". On Stays Shallow: "that was also a bad paragraph." His rewrites say in full what my compressed lines only pointed at:
+  1. "attacks you from both sides: you're not good enough, and anything that does look good is fake anyway. That second one means nothing you do could ever count" became "Then you can feel attacked from both sides: not only are you not good enough, but if you do seem to be good enough, it's probably fake, so it's like nothing you do really counts."
+  2. "A good routine kept in the warden's tone" became "A good routine, like yoga in the morning and a proper bedtime, ... when it's done in a disciplinarian style", with the exercise's steps said whole: "go back and rewrite your responses to that strict disciplinarian. First, remember who it was that drove you so hard as a child."
+  3. The pile-up got what it does to you: "to the point where you can't even understand why or what you're really feeling anymore", and "now you have to peel back this other nonsense to get to it."
+  4. Stays Shallow got the real mechanism, as his experience: "especially in the second half of the night's sleep, if you wake up in the middle to meditate, as I've discovered", and a practical aside: "(but write it down so you remember!)".
+
+  So a try says what the sentence means, even if that takes more words. A shorter line that the reader has to decode reads AI, and it's bad writing anyway.
+- **E224. A reference has to be in proportion to what it supports.** "that reference was too taxing for sucha small exercise, not necessary, i cut it." A section number from a clinical book behind a two-line exercise is too much.
+- **E225. What his How Much Happiness rewrite changed.** He moved his existential paragraph up, right after wishing someone well, so the practical love leads into it. Then come the spiritual experience, and curiosity with the reader's own words as the test's end ("And if they still pass that test, consider, ..."). His texture: slash lists ("happiness/peace/freedom", "peace/love etc."), a joke in parentheses ("(who doesn't want people to be happy!?)"), hedges in his voice ("won't necessarily zap you", "perhaps much bigger"), and everyday specifics ("well fed, good boundaries at work").
+- **E226. Pet names and exclamations are his warmth.** "your little sweetie pie", "their little boo", "do a double check: they might still be doing it!", "well, of course your little one doesn't answer." They go in his text; I don't imitate them in mine without his say.
+- **E227. Public Pangram links for API checks.** His words: "public pangram links are ok." `tools/humanization/pangram_api.py check ... --public` asks for each result's public Pangram page and prints its link, which is the link he gets for a stretch he should look at (E214).
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

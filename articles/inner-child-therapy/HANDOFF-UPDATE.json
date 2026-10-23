@@ -1,31 +1,26 @@
 {
- "turn": 97,
+ "turn": 98,
  "replace": [
   [
    "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631\\.$",
-   "the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #223 (https://github.com/u-dont-existDOTcom/joel-articles/pull/223) for him to merge.",
+   "the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225) for him to merge.",
    1
   ],
   [
-   "^1\\. Nothing until turn 97's results;.*$",
-   "1. His answers to questions 88 to 90 on the questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E); once the results are final, his delete of the two temporary Substack drafts (A and B).",
+   "^2\\. His merge of turn 98's pull request \\(#223 is merged\\)\\.$",
+   "2. His merge of pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225), turn 98 (#223 is merged).",
    1
   ],
   [
-   "^2\\. His merge of turn 97's pull request \\(#221 is merged\\)\\.$",
-   "2. His merge of pull request #223 (https://github.com/u-dont-existDOTcom/joel-articles/pull/223), turn 97 (#221 is merged).",
-   1
-  ],
-  [
-   "^1\\. The API check of experiments/t97-api/TEXTS\\.json on the laptop:.*$",
-   "1. His answers to 88 to 90; his words in word for word. Then check what changes through the API on the laptop: cd /home/joel/ai-work/claude-dangerous-lane && git -C joel-articles fetch -q origin handoff/claude-dangerous-adult-20260924-1631 && git -C joel-articles show FETCH_HEAD:tools/humanization/pangram_api.py | PANGRAM_KEY_FILE='/home/joel/Documents/api keys/pangram.txt' python3 - check <(git -C joel-articles show FETCH_HEAD:PATH/TEXTS.json) pangram-api/tNN --windows --expect 4.1 (never print or copy the key; never write to /tmp there). A changed paragraph alone first, then its section (two checks a section, six a paragraph; E220), at most five or six paragraphs a check (his 86). Halves on the Substack check once the stretches pass (he switches accounts at the daily limit). Predictions first, as the chance of a Human result; after the results, the scorecard; give him each check he should look at with its link (E214) and the pull request's link (E213).",
+   "^1\\. Round 5: paste experiments/t98-substack/PAYLOAD-A\\.html and -B\\.html into the two temporary drafts.*$",
+   "1. His two round-5 links (the drafts hold turn 98's text, checked word for word: experiments/t98-substack/PASTED.json). With them, read each feed page (the React props textQueryData.response_payload; windows' indexes are code points) and score the halves and the twelve items in experiments/t98-substack/ITEMS.json (predictions #100 to #113), record the results and explanations, build the scorecard, and give him each check he should look at with its link and part number (E214). API checks of paragraphs or sections: tools/humanization/pangram_api.py check ... --windows --expect 4.1 --public (E227), at most five or six paragraphs a check.",
    1
   ]
  ],
  "insert_before": [
   [
    "  - NEXT: Next step 1.",
-   "  - The API answers with Pangram 4.1 (tools/humanization/pangram_api.py records the version; --windows prints what was flagged). Results: experiments/t97-api/API-CHECKS.md; predictions #90 to #99, 9 of 10 right. Your Body reads Human as a section. Related Clinical Work reads Human with my wording of his line (draft e06), which waits for his yes (question 89; the owner-edit check holds his line). How Much Happiness, Stays Shallow and The Parent You Inherited P4 still read AI and are out of checks, so his words are asked for (question 88); the rest of The Parent You Inherited is question 90. Lessons E219 to E222."
+   "  - Round 5: both halves pasted into the temporary drafts and checked word for word (B differs only by the note embed, as before); predictions #100 to #113 first; the previews are open in his Brave, and the links are his to copy."
   ]
  ]
 }
