@@ -1,14 +1,99 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 100). **Open questions: 91 to 93.** For you to do: merge pull request #226. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 101). **Open questions: 94 and 95.** For you to do: merge pull request #227. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turn 100), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turns 100 and 101), this file is newer than the page until the next republish.
 
 ## Open questions
 
-### 🟣 91. GPT's reader's edit: how to start (turn 100)
+### 🟣 94. GPT's two line edits in Borrow One Competency at a Time (turn 101)
+
+From [GPT's review of the test](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-answers/GPT-REVIEW-20261023-1355.md): "Approve the layout, with the small 'borrow some' transition adjustment", then "a modest line-edit pass that proposes cuts like the advice example, with your approval for changes to protected wording." Your 91.1 B is in, and [the new h3 reads 100% Human](https://www.pangram.com/history/daced127-f97b-4ecc-a7bb-47c6c8c220b5); [the opening](https://www.pangram.com/history/80caed9d-cb5f-4978-8a36-75c5d12dcc7d) reads Mostly Human (2.5% AI) with no AI window anywhere in it. GPT would also have kept "Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us."; you cut it in 91.1 B, so it stays out unless you say otherwise.
+
+- **94.1** The sentence that now ends old P5: "That takes warmth, and if there isn't any yet, borrow some." GPT would end it at "That takes warmth.", since the borrowing is now at the top of the section.
+  - **A (my pick):** keep it whole. In the troubleshooting part it's the one next step for someone who has no warmth yet, and it reads Human as it is.
+  - **B:** GPT's "That takes warmth."
+- **94.2** Old P5's "Helpful advice is great, we all need advice. Let them absorb it at their pace." GPT's version: "If you have advice, let them take it in at their own pace."
+  - **A (my pick):** GPT's version. It keeps both points (advice is fine, and at their pace) in one sentence. It gets a Pangram check before it stays.
+  - **B:** keep yours.
+
+### 🟣 95. What the coverage check found missing (your 92 A)
+
+Three readers went through the guide and GPT's queue against the article as it stands, and traced every gap through your recorded decisions: [the guide's first half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-A.md), [its second half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-B.md) and [the queue](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-QUEUE.md). Nearly everything that's out is out because you cut or rewrote it, and that stays as it is. These are the real gaps, the ones no decision of yours explains. One more was a cut of mine against your 49.5 (the Higher Self line in Borrow Hindsight), and it's back in already. To take all my picks, answer "95: your picks".
+
+From the guide:
+- **95.1 A full break is a last resort, and a safety problem can force one** (guide line 75; your 54.9 b kept it). Your rewrite of the breaks paragraph in Before You Try to Go Deep (2026-10-22) dropped it without saying so.
+  - **A (my pick):** your own words from your 2026-10-19 version go back at the start of that paragraph: "A full break from your little one is a last resort. Sometimes it isn't up to you, though, like when something's actually unsafe."
+  - **B:** leave it out.
+- **95.2 Temporary distance on purpose** (guide line 543): stepping away for a while so the conditioning can quiet down and your own preferences can come up. The article only offers distance when a family or group won't let you differentiate. I cut it in turn 54 as a repeat.
+  - **A (my pick):** add it to that sentence in Untangling the Belonging Bargains, as a clause.
+  - **B:** leave it out.
+- **95.3 Two of the guide's signs** (lines 535 and 537): "Your preferences, beliefs, and feelings change dramatically with the people around you." and "You don't know what you would choose without the fear of disappointing somebody." I cut the signs list in turn 54.
+  - **A:** one sentence with both, near "It might feel wrong somehow to like something before you've checked anyone's face."
+  - **B (my pick):** leave them out; that line and "still being recognizably yourself wherever you are" carry most of it.
+- **95.4 The loop's last fallback** (line 661): borrowing a safe adult's sentence, "I won't attack you while we sit here." I compressed it in turn 65.
+  - **A:** put it back in A Heart-to-Child Loop.
+  - **B (my pick):** leave it out; Make a Simple Vow's "promise your little one you won't be cruel to them on purpose" does the same job.
+- **95.5 Choosing a realistic outcome before the next conversation** (line 157): passing on information, saying no or leaving without forty minutes of self-defense, and "You do not have to make somebody understand you before you can act."
+  - **A:** one sentence in Other Folks Also Have Hooks.
+  - **B (my pick):** leave it out; the article has the second half for a repeated apology, and the rest is small.
+
+From GPT's queue:
+- **95.6 Keeping yourself safe is part of the work** (PGQ-038). Your 2026-10-19 version left out my paragraph at the end of Not Every Hero Wears A Cape, with no word about it: "Keeping yourself safe counts as one of those acts too, if you like seeing it that way. Walking out of a place where you're hurt is still your own step, even with a friend along. A doctor or a shelter is outside help, and reparenting doesn't replace it."
+  - **A (my pick):** put it back. The last sentence is the safeguard: nobody should put off a doctor or a shelter because they're "doing the inner work".
+  - **B:** leave it out.
+- **95.7 Urgent care can also treat the pain** (PGQ-027). Your pain paragraphs say to get diagnostics done during the attack, not that they may be able to treat it then, which is the alternative to the quick fix.
+  - **A (my pick):** add "and they may be able to treat it while it's happening" to your diagnostics sentence, or your own words for it.
+  - **B:** leave it out.
+- **95.8 Before sharing something sensitive** (PGQ-039): what gets written down and who can read it; a lawyer for legal trouble; an AI chat with only the general kind of help; public posts versus DMs. Your two paragraphs replaced the drafts that had some of this.
+  - **A (my pick):** only a second question beside yours, "And who else gets to read what I tell you?", since it's a question to ask and makes no legal claim. The queue asks for a legal review before anything that names what the law does.
+  - **B:** leave it as it is.
+- **95.9 Leaning on one person** (PGQ-009, small): dreading the loss of that person is a different problem from their jobs going undone.
+  - **B (my pick):** leave it; your P2 in Borrowed Adulthood in Relationship already spreads the load. **A:** a sentence on the difference.
+- **95.10 Yours to write since your 66:** bringing gratitude in sideways (PGQ-034), gratitude in a calm altered state (035), and hypnosis with grief or an altered state (036).
+  - **A (my pick):** record 035 and 036 as left out by your choice (your hypnosis guide covers 036), and keep 034 open for your words.
+  - **B:** all three stay open.
+
+## For you to do (no decision needed)
+
+> [!WARNING]
+> Comes back every turn. My merges are refused by the safety check, so it stays yours.
+
+### 🟠 Merge pull request #227 (turn 101)
+
+Your answers to 91 to 93 put in and checked, question 94, the coverage check and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/227. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
+
+### 🔵 Round 6, the next whole-article check (turn 101)
+
+It waits for your answers to 94 and 95, so one check covers everything that has changed since round 5: turn 100's four rewrites and your two paragraphs, this turn's changes, and whatever 94 and 95 add.
+
+### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
+
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6 will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+
+## Decided
+
+> [!TIP]
+> Your answers in your words, and what I did with them.
+
+### 🟢 91 to 93, 2026-10-23 14:05 UTC
+
+Your message (turn 101; `experiments/t101-answers/JOEL-20261023-1405.md`), with GPT's review of the test. You merged pull request #226.
+
+- **91.1 B:** in. Borrow One Competency at a Time opens with your paragraph and the three borrowings, then "If the Love Isn't Coming Yet" has the troubleshooting. "Most of us wouldn't open up ..." is cut, and "That takes warmth, and if there isn't any yet, borrow some." now ends old P5, since its "That" points at P5's last words. The new h3 read AI once ([check](https://www.pangram.com/history/0646d274-08fa-4d24-ba75-c444710868ef)), because the move put old P5's thank-you line right before my P9, which opened on the thank-you again; with my P9 starting "Your little one might not take it well at first." it reads 100% Human ([check](https://www.pangram.com/history/daced127-f97b-4ecc-a7bb-47c6c8c220b5)). Lesson E241.
+- **91.2 A:** "Instead of Blame" is in, and the paragraphs on both sides of it read Human with it ([check](https://www.pangram.com/history/f10b22b1-9b69-47be-bddc-a0bdb8d0cbdc)).
+- **91.3 A, 91.4 A:** nothing changed. **91.5 A:** GPT's two new line edits are question 94.
+- **92 A:** the coverage check is question 95. It also found a cut of mine against your 49.5: turn 93 took the Higher Self line out of Borrow Hindsight with the AI tells. It's back as "I don't think a perfect Higher Self is waiting in there with the answers, either (more on that in How This Relates to IFS).", 100% Human [alone](https://www.pangram.com/history/2a870406-ce74-4b76-91de-eb5424fd4c3b) and [in its section](https://www.pangram.com/history/ba1a48e3-8ae0-45dc-95f3-b823d915a83f). The article's header now says what's true.
+- **93.1:** your words are in: "Of course, that’s not to say you should not try to suffer less, or get away from abusers." ([check](https://www.pangram.com/history/3f2f7707-7f0f-4878-9017-b40cda89b308)).
+- **93.2:** your two sentences are back, at the end of the prosperity paragraph ([check](https://www.pangram.com/history/8c605c65-c08f-4b0f-a0db-d32efccd033a)), and the stretch from there to the Of course paragraph reads Human ([check](https://www.pangram.com/history/b4743c65-68c2-4f82-a312-8532ab2c9ef4)).
+- **93.3 A:** kept as it is.
+- The records: `experiments/t101-tries/REVIEWS.md`, `experiments/t101-api/API-CHECKS.md`.
+
+<details><summary>91 to 93 as they were asked</summary>
+
+#### 91. GPT's reader's edit: how to start (turn 100)
 
 GPT's proposal ([its reply of 11:41 UTC](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t100-answers/GPT-READERS-EDIT-20261023.md), which you attached): keep the depth, but don't make every reader work through every complication the moment an idea comes up. My recommendation is its own first step: one small test, judged by reading it, with Pangram kept separate. Moving a paragraph or adding a heading keeps that paragraph's own check, so those changes are cheap; only changed words need new checks.
 
@@ -29,14 +114,14 @@ GPT's proposal ([its reply of 11:41 UTC](https://github.com/u-dont-existDOTcom/j
   - **B:** I draft the reader's edit for the rest of the guide myself.
   - **C:** stop after the test.
 
-### 🟣 92. Is anything from the guide missing? (your 2026-10-19 question)
+#### 92. Is anything from the guide missing? (your 2026-10-19 question)
 
 Your words: "lmk if there's anything else missing, bc at top it mentions ... Source sections that have not yet been humanized, or whose latest model candidate failed audit, are not silently represented as finished here." That header is September's, from when only part of the guide was in, and I can't answer for sure from the records: the last coverage check was turn 71's (`experiments/t71-guide/COVERAGE-r4-A.md` and `COVERAGE-r4-B.md`), which found 46 points missing or partly carried; turn 71 traced each one through the records (`TRACE-r4-A.md` and `TRACE-r4-B.md` beside them), and I haven't checked since which of them are still open. Since then new teaching has come in through GPT's queue, as PGQ-046 did today.
 
 - **A (my pick):** I run one fresh coverage check of the guide and the queue against the article, read each gap against your recorded cuts, and bring you only the real gaps in one question; then the header says what's true.
 - **B:** no need; just fix the header.
 
-### 🟣 93. Your two updated paragraphs in Your Loan is PRE-APPROVED! (turn 100)
+#### 93. Your two updated paragraphs in Your Loan is PRE-APPROVED! (turn 100)
 
 Your message of 13:10 UTC (`experiments/t100-answers/JOEL-20261023-1310.md`). Both are in word for word, with your link, and they read 100% Human: [the first alone](https://www.pangram.com/history/b7e2fdf3-2621-4447-a546-05fe5ea1f075), [the second alone](https://www.pangram.com/history/219296a9-fba2-46dd-b0f1-f436e4b57963), and [both with the three paragraphs around them](https://www.pangram.com/history/dc0894fe-a7b6-4d43-9159-36fb4126dbb7). Three things they changed that I'd like your word on:
 
@@ -52,23 +137,8 @@ Your message of 13:10 UTC (`experiments/t100-answers/JOEL-20261023-1310.md`). Bo
   - **B:** cut it.
   - **C:** put it back at the end of your TB and roselle paragraph.
 
-## For you to do (no decision needed)
 
-> [!WARNING]
-> Comes back every turn. My merges are refused by the safety check, so it stays yours.
-
-### 🟠 Merge pull request #226 (turn 100)
-
-Turn 99's nine checks recorded, the four paragraphs below and your two updated ones put in, questions 91 to 93 and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/226. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
-
-### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
-
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6, the next whole-article check, will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
-
-## Decided
-
-> [!TIP]
-> Your answers in your words, and what I did with them.
+</details>
 
 ### 🟢 Round 5, PGQ-046 and the four paragraphs that came back, 2026-10-23 10:23 and 12:28 UTC
 

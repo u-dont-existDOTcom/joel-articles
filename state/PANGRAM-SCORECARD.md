@@ -142,22 +142,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
-| **all lanes** | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
+| inner child guide | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
+| **all lanes** | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
+| inner child guide | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 13 | 10 (77%) | 46% | 54% | 46% | 0.200 (base 0.249, 13) |
-| section | 9 | 7 (78%) | 67% | 33% | 11% | 0.161 (base 0.222, 9) |
-| stretch | 8 | 7 (88%) | 50% | 50% | 38% | 0.180 (base 0.250, 8) |
+| paragraph | 17 | 14 (82%) | 35% | 65% | 59% | 0.191 (base 0.228, 17) |
+| section | 12 | 9 (75%) | 58% | 42% | 33% | 0.184 (base 0.243, 12) |
+| stretch | 11 | 9 (82%) | 45% | 55% | 55% | 0.184 (base 0.248, 11) |
 
 ## What the misses say (since the ledger)
 
@@ -189,6 +189,8 @@ The boundary mix over all lanes:
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |
 | the half varies | 1 | inner child guide |
+| Low windows with no AI window | 1 | inner child guide |
+| a repeat made adjacent by a move | 1 | inner child guide |
 | a Low window read Human | 1 | nibbana article |
 | underrated a plain split | 1 | nibbana article |
 | a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |
