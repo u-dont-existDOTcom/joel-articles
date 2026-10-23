@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bt/NB-unif.txt",
+  "input_words": 133,
+  "input_sha256": "f13817024be657aeae6530129e69c7b5eeb5a7c497c15379eea32770435b2bc8",
+  "balance_before": 57125,
+  "started_utc": "2026-10-23T18:21:02Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:21:12Z",
+  "response": {
+    "id": "da0e45bd-dde3-4f25-baca-46f3bff33593",
+    "tool": "humanize",
+    "text": "What I mean by “unification” is the stuff that allows you to talk, walk across the road, recognize people, reply to people texting you, etc. It’s also there when there is no one there. And to be honest, the way it factors in for me on a day to day basis is very similar to how most other people experience their day to day, assuming they’re happy.\n\nI am indebted to Soh, but I don’t agree with him on this. How could you possibly function without the unified sensory experience? It doesn’t make sense. One of the things I suspected over the years was that AtR was making claims that were too high (John Tan often admonished Soh for this). One time I even proved him wrong when I met with him in person in Singapore. He claimed to be in bliss 24-7, yet wasn’t really smiling when I spoke to him. So I challenged him to it: Me: “You’re in bliss 24-7?” Soh: “Yes.” Me: “Right now?” Soh: “Well no…” 😜",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 133
+    },
+    "elapsed": 10
+  },
+  "balance_after": 56992
+}

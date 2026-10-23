@@ -194,10 +194,16 @@ def main():
     J3 = importlib.util.module_from_spec(spec3)
     spec3.loader.exec_module(J3)
     work, rec3 = J3.apply(work)
+    # Batch n4 (2026-10-23, after his message of 18:13 UTC with recheck 4's link): Emulate's samples for recheck 4's red,
+    # sentence by sentence, and Soh's sentence back to his words; its own record is ../n4/EDITS-n4.json
+    spec4 = importlib.util.spec_from_file_location('emulate_n4', N.parent / 'n4' / 'emulate_n4.py')
+    J4 = importlib.util.module_from_spec(spec4)
+    spec4.loader.exec_module(J4)
+    work, rec4 = J4.apply(work)
     (H / 'HUMANIZED-SO-FAR.html').write_text(work, encoding='utf-8')
     (N / 'EDITS-n1.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-    print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes) and %d of batch n3, from %s' % (
-        len(rec), len(rec3), M.SRC.name))
+    print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes), %d of batch n3 and %d of batch n4, from %s' % (
+        len(rec), len(rec3), len(rec4), M.SRC.name))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-br/NB-preserve.txt",
+  "input_words": 93,
+  "input_sha256": "d966967cf2c333fa15cd52ad45b02901e754dbed649463356203f920a26a679c",
+  "balance_before": 57666,
+  "started_utc": "2026-10-23T18:20:08Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:20:16Z",
+  "response": {
+    "id": "15d71523-5765-4f6c-a79a-17b9bf6afa6c",
+    "tool": "humanize",
+    "text": "The funny part is that it's likely the words are pretty well preserved. The words were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, re-arrangements, and later additions. So, the problem isn't the words so much as it is the idea of the box.\n\nWhere's it a problem? In texts like DN 3 and MN 56 the Buddha does not teach the thing that helps them attain the dhamma-eye until they are ready, pliable, their minds free of hindrances, their minds elated and confident.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 93
+    },
+    "elapsed": 7
+  },
+  "balance_after": 57573
+}

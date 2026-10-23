@@ -1,0 +1,23 @@
+{
+ "made": "after Joel's message of 2026-10-23 18:13 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221412532",
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "how": "the same temporary draft, in the app's built-in browser: its title checked, the body (60,428 characters, recheck B of 2026-10-23 02:05 UTC) cleared with real keystrokes (a click in a text paragraph, ctrl+a, Delete; 0 left), the payload pasted with the lane's paste helper; Publish was never clicked",
+ "secret_link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-477&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD-B.html",
+ "payload_sha256": "d750c3470c33fc5f28f28a2a945e997914c7aec4c4669e6d60afdd0152c68a4f",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/acbbb75915df43a98bc1c664414b5d401ec3b16e/articles/inner-signal/humanize/fix-20261023/recheck-b2/PAYLOAD-B.html",
+ "paste": {
+  "helper": "../../fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 10858,
+  "words_expected": 10833,
+  "words_match": false,
+  "why_not": "25 more in the editor, as at the last paste of this draft: text the editor renders around images and embeds that WORDS-B.json's count leaves out; the rendered check below decides"
+ },
+ "saved": "the editor said Saved before the page was left",
+ "rendered_check": "the secret link opened in the app's browser (post title the draft's, marked unpublished): 228 lines; with the card's line 'Quick Triage Web-App Version HERE' left out, as the rebuild leaves it out, its 227 lines (57,403 characters) hash to TEXT-B.txt (b4a57231...) exactly, batch 477's line in them",
+ "text_sha256": "b4a5723186c1bbd714d560e29351725aeafc005c6f40b0fe3f697f62e06ff83f",
+ "text_chars": 57403,
+ "predictions": "pangram-ledger.jsonl HG-rest-B#59, and the part forecast FORECAST.json, both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

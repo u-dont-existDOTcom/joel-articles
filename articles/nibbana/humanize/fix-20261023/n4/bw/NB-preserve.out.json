@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bw/NB-preserve.txt",
+  "input_words": 93,
+  "input_sha256": "d966967cf2c333fa15cd52ad45b02901e754dbed649463356203f920a26a679c",
+  "balance_before": 55958,
+  "started_utc": "2026-10-23T18:28:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:28:55Z",
+  "response": {
+    "id": "d6505e77-b8aa-4adf-b511-67f706bfb1e8",
+    "tool": "humanize",
+    "text": "But this is where it gets funny, because the words themselves are probably pretty well preserved. There’s a lot of communal transmission, and although the early collections were preserved separately, they mostly agree on the words of the passages they share, aside from some variants, rearrangements, and obvious additions. So the puzzle pieces are still more or less intact, but the picture on the box has been lost.\n\nWhat does one do when one reads passages such as DN 3 or MN 56, where the Buddha doesn’t even give the teaching that leads to Dhammayanindri until the student’s mind is already “ready, pliable, rid of hindrances, elated, and confident”?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 93
+    },
+    "elapsed": 7
+  },
+  "balance_after": 55865
+}

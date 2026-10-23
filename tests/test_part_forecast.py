@@ -22,11 +22,31 @@ NEW = 'Alpha paragraph stays the same here.\nBeta was light green last time, sad
 class PartForecastTest(unittest.TestCase):
     def test_make_adds_the_last_checks_light_green_windows(self):
         last = result(LAST, [('Human', 'High', 36), ('Human', 'Low', 75), ('AI-Generated', 'High', len(LAST))])
-        fc = F.make(last, NEW, [{'name': 'gamma', 'text': 'Gamma is the new version now.', 'chance_red': 0.3, 'why': 'w'}])
+        fc = F.make(last, NEW, [{'name': 'gamma', 'text': 'Gamma is the new version now.', 'chance_red': 0.3, 'why': 'w'}],
+                    with_neighbours=False)
         kinds = [p['kind'] for p in fc['parts']]
         self.assertEqual(kinds, ['changed', 'risk'])
         self.assertIn('Beta was light green', fc['parts'][1]['text'])
         self.assertEqual(fc['parts'][1]['chance_red'], F.LOW_CHANCE)
+
+    def test_make_adds_each_changed_parts_neighbours_itself(self):
+        """Gate E249 (2026-10-23 18:13 UTC): the neighbour rule (E244) ran by hand in one lane's forecast and not the
+        other's, where the High red was the paragraph after a changed one."""
+        text = ('Alpha paragraph stays the same here.\nBeta paragraph, with a changed gloss (like this one) inside it.\n'
+                'Gamma paragraph after it, unchanged.\nDelta paragraph far away, unchanged.')
+        last = result(text, [('Human', 'High', len(text))])
+        fc = F.make(last, text, [{'name': 'gloss', 'text': 'a changed gloss (like this one)', 'chance_red': 0.05, 'why': 'w'}])
+        got = {p['name'].split(': ', 1)[1]: p['text'] for p in fc['parts'] if p['kind'] == 'neighbour'}
+        self.assertEqual(got['the paragraph before it'], 'Alpha paragraph stays the same here.')
+        self.assertEqual(got['the paragraph after it'], 'Gamma paragraph after it, unchanged.')
+        self.assertEqual(got['the rest of its paragraph, before it'], 'Beta paragraph, with')
+        self.assertNotIn('the rest of its paragraph, after it', got)  # "inside it." is too short to place
+        self.assertTrue(all(p['chance_red'] == F.NEIGHBOUR_CHANCE for p in fc['parts'] if p['kind'] == 'neighbour'))
+        self.assertNotIn('Delta', ' '.join(got.values()))
+        # a neighbour CHANGED.json names itself keeps its own chance and isn't added twice
+        fc = F.make(last, text, [{'name': 'gloss', 'text': 'a changed gloss (like this one)', 'chance_red': 0.05, 'why': 'w'},
+                                 {'name': 'mine', 'text': 'Gamma paragraph after it, unchanged.', 'chance_red': 0.2, 'why': 'w'}])
+        self.assertEqual([p['chance_red'] for p in fc['parts'] if 'Gamma' in p['text']], [0.2])
 
     def test_a_changed_part_must_be_in_the_new_text_once(self):
         last = result(LAST, [('Human', 'High', len(LAST))])

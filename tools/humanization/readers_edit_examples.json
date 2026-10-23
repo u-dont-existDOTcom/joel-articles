@@ -1,0 +1,29 @@
+{
+ "about": "Joel's answers to reader's-edit proposals, the examples in the reader's-edit brief (tools/humanization/clarity_read.py make --kind edit; docs/CLARITY-READ.md, part 2). Add one each time he answers a proposal, with his choice. The first ones: the Inner Child guide, question 91 of articles/inner-child-therapy/OWNER-QUESTIONS.md, answered in his message of 2026-10-23 14:05 UTC (articles/inner-child-therapy/experiments/t101-answers/JOEL-20261023-1405.md), after GPT's proposal of 11:41 UTC (articles/inner-child-therapy/experiments/t100-answers/GPT-READERS-EDIT-20261023.md).",
+ "examples": [
+  {
+   "answer": "91.1 B",
+   "section": "Borrow One Competency at a Time",
+   "proposal": "the section offered one way to borrow, then a run of what to do if it doesn't work (absent warmth, imagined care that feels threatening, the guard, not judging, the thank-you that might not come), then the other two borrowings. Proposed: the opening and one borrowing for each job first (warmth, protecting, the Guide), then the troubleshooting under its own heading, \"If the Love Isn't Coming Yet\", in the order it had; the only new words were the heading and \"For warmth,\"",
+   "his_choice": "put it in, and also cut the near-repeat (\"Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us.\" said again what the paragraph before it ended on)"
+  },
+  {
+   "answer": "91.2 A",
+   "section": "Love Doesn't Have to Wait for Trust",
+   "proposal": "the first half is about loving your little one before they trust you; the second is about blaming an earlier age of yourself. Proposed: a heading, \"Instead of Blame\", before \"Your little one might not be the only one getting accused.\"",
+   "his_choice": "put the heading in"
+  },
+  {
+   "answer": "91.3 A",
+   "section": "Journal With Each Hand",
+   "proposal": "a label, \"When journaling makes things more tangled\", for the fallback paragraph",
+   "his_choice": "no label: the fallback is one paragraph, and its first line already says what it's for (\"And what if all that writing leaves you more confused than when you started?\")"
+  },
+  {
+   "answer": "91.4 A",
+   "section": "Use Childhood Photographs Gently",
+   "proposal": "move the study of false photos to a source note, since it gives the reason for the warning",
+   "his_choice": "leave it: it's three short sentences in his words, and the concrete case that makes the warning land"
+  }
+ ]
+}

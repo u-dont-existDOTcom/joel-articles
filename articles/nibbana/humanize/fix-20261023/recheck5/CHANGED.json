@@ -1,0 +1,38 @@
+[
+ {
+  "name": "n4-unification (batch n4)",
+  "text": "I am using the term unification for whatever is needed to make all of the senses work together so I can perform daily acts, like talking or crossing the street, etc., which works even without a separate knower. Most of my day includes that ordinary unification and is similar to how most people spend their day, I would guess, if they are happy.",
+  "chance_red": 0.25,
+  "why": "Emulate's sample bu, with its first word cut; the paragraph read AI, High, alone in recheck 4, and Emulate's whole-stretch splices have read Human in place most times (the guide's part A4: all four)"
+ },
+ {
+  "name": "n4-soh (batch n4)",
+  "text": "I owe Soh a great deal, but one key difference remains: he says sensory unification isn’t required for functioning, which makes no sense to me.",
+  "chance_red": 0.1,
+  "why": "his published sentence back: Human, Medium, alone in recheck 3; next to the changed definition"
+ },
+ {
+  "name": "n4-abstract (batch n4)",
+  "text": "As you can see this is going to be a little abstract, but I’ll try in the next few sections to explain what I think the experience is showing.",
+  "chance_red": 0.25,
+  "why": "Emulate's sample bv for his red sentence, the rest of his paragraph unchanged"
+ },
+ {
+  "name": "n4-preserve-1 (batch n4)",
+  "text": "They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions.",
+  "chance_red": 0.2,
+  "why": "Emulate's sample br, with his pronoun and the article's spelling back"
+ },
+ {
+  "name": "n4-preserve-2 (batch n4)",
+  "text": "But just because the pieces of the puzzle come down to us well doesn’t mean that the picture on the box has.",
+  "chance_red": 0.2,
+  "why": "Emulate's sample bt, with its typo fixed; his puzzle image kept"
+ },
+ {
+  "name": "kept red: his \"That creates a practical problem.\"",
+  "text": "That creates a practical problem.",
+  "chance_red": 0.3,
+  "why": "read AI, Low, in recheck 4 in one window with the puzzle sentence before it, which is new; his sentence stays (the one sample with a replacement turned his cause into a second problem)"
+ }
+]
