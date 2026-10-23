@@ -8,7 +8,7 @@ same time, and the dashboard had started showing stale results (`docs/HUMANIZATI
 
 Usage (on the laptop, with Desktop Commander, from the lane folder /home/joel/ai-work/claude-dangerous-lane):
   python3 pangram_api.py probe
-  python3 pangram_api.py check TEXTS.json OUTDIR [--names a,b,c] [--expect 4.1] [--windows]
+  python3 pangram_api.py check TEXTS.json OUTDIR [--names a,b,c] [--expect 4.1] [--windows] [--public]
 
 `probe` checks the key without creating a billable task. TEXTS.json maps names to texts, as plain text the way
 Pangram should see them. For each name, `check` does the following:
@@ -24,6 +24,8 @@ Pangram should see them. For each name, `check` does the following:
 - It appends one summary line to OUTDIR/results.jsonl: name, sha256 of the text, local word count, the headline,
   fraction_ai, fraction_ai_assisted, fraction_human, version, task id and UTC time.
 
+With --public it asks Pangram for a public page of each result (public_dashboard_link) and puts its link in the summary:
+Joel, 2026-10-23 02:29 UTC: "public pangram links are ok." That is the link he gets for a stretch he should look at (E214).
 It prints only those summaries; with --windows each line also lists the result's windows (label, confidence, words,
 start and end, and the window's text), which is what a reader needs to see what was flagged. The key is read from the
 file each run and is never printed, copied or logged.
@@ -92,7 +94,7 @@ def poll(task_id, timeout=300):
             raise RuntimeError('task %s not done after %ss; rerun to resume it (no new POST)' % (task_id, timeout))
 
 
-def check(texts_path, outdir, names=None, expect=None, show_windows=False):
+def check(texts_path, outdir, names=None, expect=None, show_windows=False, public=False):
     texts = json.loads(pathlib.Path(texts_path).read_text(encoding='utf-8'))
     out = pathlib.Path(outdir); cache = out / 'cache'; cache.mkdir(parents=True, exist_ok=True)
     for name in (names or list(texts)):
@@ -109,7 +111,7 @@ def check(texts_path, outdir, names=None, expect=None, show_windows=False):
                 task_id = json.loads(pending.read_text(encoding='utf-8'))['task_id']; source = 'resumed'
             else:
                 try:
-                    status, obj = request('POST', BASE + '/task', {'text': text, 'public_dashboard_link': False, 'model': MODEL})
+                    status, obj = request('POST', BASE + '/task', {'text': text, 'public_dashboard_link': bool(public), 'model': MODEL})
                 except (OSError, urllib.error.URLError) as e:
                     ambiguous.write_text(json.dumps({'name': name, 'error': str(e)}), encoding='utf-8')
                     sys.exit('%s: POST failed ambiguously (%s); not retried' % (name, e))
@@ -119,14 +121,19 @@ def check(texts_path, outdir, names=None, expect=None, show_windows=False):
                 if status != 200 or not obj.get('task_id'):
                     sys.exit('%s: POST HTTP %s: %s' % (name, status, obj))
                 task_id = obj['task_id']; source = 'new'
-                pending.write_text(json.dumps({'name': name, 'task_id': task_id, 'model': MODEL}), encoding='utf-8')
+                pending.write_text(json.dumps({'name': name, 'task_id': task_id, 'model': MODEL,
+                                               'dashboard_link': obj.get('dashboard_link')}), encoding='utf-8')
             result = poll(task_id)
+            if not result.get('dashboard_link'):  # the link may come with the POST's answer rather than the result
+                link = json.loads(pending.read_text(encoding='utf-8')).get('dashboard_link')
+                if link:
+                    result['dashboard_link'] = link
             done.write_text(json.dumps({'name': name, 'task_id': task_id, 'result': result}, ensure_ascii=False), encoding='utf-8')
             pending.unlink()
         line = {'name': name, 'sha256': sha, 'words': len(text.split()), 'headline': result.get('headline'),
                 'prediction_short': result.get('prediction_short'), 'fraction_ai': result.get('fraction_ai'),
                 'fraction_ai_assisted': result.get('fraction_ai_assisted'), 'fraction_human': result.get('fraction_human'),
-                'version': result.get('version'), 'source': source,
+                'version': result.get('version'), 'source': source, 'dashboard_link': result.get('dashboard_link'),
                 'utc': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}
         with open(out / 'results.jsonl', 'a', encoding='utf-8') as f:
             f.write(json.dumps(line, ensure_ascii=False) + '\n')
@@ -146,10 +153,11 @@ def main():
     c = sub.add_parser('check'); c.add_argument('texts'); c.add_argument('outdir'); c.add_argument('--names')
     c.add_argument('--expect', help='stop after a result of another version (it is saved first)')
     c.add_argument('--windows', action='store_true', help="add each result's windows to its printed line")
+    c.add_argument('--public', action='store_true', help="ask for a public Pangram page of each new result (its link is printed)")
     a = ap.parse_args()
     if a.cmd == 'probe':
         sys.exit(0 if probe() else 1)
-    check(a.texts, a.outdir, a.names.split(',') if a.names else None, a.expect, a.windows)
+    check(a.texts, a.outdir, a.names.split(',') if a.names else None, a.expect, a.windows, a.public)
 
 
 if __name__ == '__main__':

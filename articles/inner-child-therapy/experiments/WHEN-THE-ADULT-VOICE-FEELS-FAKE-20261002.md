@@ -1370,3 +1370,13 @@ His message, saved first (`t97-answers/JOEL-20261022-2354.md`). He merged pull r
 ### Next
 
 1. His answers to 88 to 90; his words in word for word. Then check what changes by the API (a changed paragraph alone first, then its section; E220), and the halves on the Substack check once the stretches pass. Predictions first.
+
+## Turn 98 (2026-10-23, from 02:29 UTC): his rewrites of the three stretches; round 5
+
+His message, saved first (`t98-answers/JOEL-20261023-0229.md`). He merged pull request #223 at 01:12 UTC.
+
+- **88.1 to 88.3:** his rewrites of How Much Happiness Do You Know Is Possible? (four paragraphs for five, in his order), When the Practice Feels Real but Stays Shallow, and The Parent You Inherited (the ST-CA reference cut), each Human in his check, in word for word except "hanlde" and "pont" (`t98-installs/apply_t98.py`, entry joel-98-20261023). Six older entries now hold his new words. Owner edits 184 of 184.
+- **89: A:** my wording of his Related Clinical Work line is in. **90: A:** his 88.3 covers it.
+- **"public pangram links are ok":** `pangram_api.py check ... --public` (E227).
+- **Lessons E223 to E227:** polish with no meaning (his words on The Parent You Inherited), a reference in proportion, what his rewrites changed, his pet names, the public links.
+- **Round 5** (`t98-substack/`): the halves as payloads (A 15,336 words, B 12,613) and twelve items whose readings decide something (`ITEMS.json`); predictions #100 to #113 first.
