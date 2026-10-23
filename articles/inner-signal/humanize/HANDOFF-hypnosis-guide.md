@@ -210,6 +210,9 @@ learn from emulate right?"; "n1 a."; N2 as his four rewrites. Done:
   221726541 (`articles/nibbana/humanize/fix-20261023/recheck2/RECHECK-POST.json`: rendered text = `DRAFT-TEXT.txt`, 0ed4d332...,
   after the gallery caption was deleted again; prediction NB-whole#24, AI at 0.15). The first Nibbāna recheck's files stay
   in `recheck/` as its record.
+- Delegation (UDA's `patterns/delegate-easy-work-to-cheaper-models.md`): the two second readers were Sonnet subagents, one
+  per article (one Read of `REVIEW-PROMPT.txt`, one Write of `REVIEW.md`), checked by my triage (`TRIAGE.json` in b473/
+  and n2/), which checked the reader's own rewrites through the API before taking them (one in, one out).
 - Lessons E234 to E237 in `docs/HUMANIZATION-GATE.md`. API checks this round ran on the laptop from
   `/home/joel/ai-work/claude-dangerous-lane/pangram-api/r20261023b/` with the repository's current `pangram_api.py`
   (fa9b21bd..., `--public` for each result's Pangram page): files go in through the connected `inbox/api-20261023b/`
