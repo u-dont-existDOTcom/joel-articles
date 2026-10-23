@@ -934,9 +934,39 @@ lane's `fix-20261023/`), batch 473 (`articles/inner-signal/humanize/fix-20261023
   re-run (E235). For citation-dense text, the splice is the way: only the red sentence comes from Emulate's sample, and
   the second reader checks its claims.
 
+## What Joel's message of 2026-10-23 14:14 UTC taught (the hypnosis guide and Nibbāna lanes)
+
+The records: `articles/inner-signal/humanize/fix-20261023/joel-20261023-1414-message.txt` (the same file in the Nibbāna
+lane's `fix-20261023/`), recheck A's result (`fix-20261023/recheck/RESULT-A.json`) and Nibbāna's second
+(`articles/nibbana/humanize/fix-20261023/recheck2/RESULT.json`).
+
+- **E238. Predict which part comes back AI.** His words: "and your predictions about like 35% chance it comes back fully
+  human... i was thinking you should predict which part comes back as AI?" Both whole-article predictions of the day named
+  every changed part green, with a hedge ("Low red possible: ... or a new Low window beside the changed text"), and the
+  red came where I hadn't looked: Nibbāna's one red paragraph ("The percentage language applies only to partial
+  nibbāna. ...") had read Human, Low, in both checks before it, and the guide's troubleshooting questions had read Human,
+  Medium. So every whole-article check now comes with a part forecast written before the paste
+  (`tools/humanization/part_forecast.py make`): each changed stretch with its own chance of red, every Human, Low (and
+  with `--medium`, Medium) window of the last check that is still there unchanged, at the measured rate (of the unchanged
+  windows in three pairs of consecutive checks, 2 of 58 Low ones turned red, 1 of 120 Medium and 2 of 168 High), and the
+  rest as one part. After the result, `part_forecast.py score` scores it part by part: hits, the Brier score, and every red
+  window no part covered (`tests/test_part_forecast.py`).
+- **E239. A "Human Written" headline can carry red.** Nibbāna's second recheck said "Human Written" at 0.27% AI, with
+  two AI windows on one paragraph (his words: "nibbana recheck still has one tiny ai segment"). The ledger read that
+  headline as a 100% Human result and refused a Mixed verdict. `verdict_of` now goes by the AI fraction at four decimals,
+  or by the windows when it has them, whatever the headline says (`tests/test_pangram_ledger.py`).
+- **E240. Human, High, alone and as a pair, then red in place.** The shortcut paragraph (Emulate's re-run bj, with my two
+  meaning points) read Human, High, alone and with the return paragraph, and AI, Low and Medium, in place, in windows
+  that began in the driving caution's second sentence before it. So for Low and Medium red, an API reading at any
+  confidence says only that a candidate is no worse (E226); the in-place recheck decides. The next try re-runs the whole
+  stretch the red windows covered, the paragraph they began in included (batch 474), and new red tends to turn up where
+  the last check was light green (E238).
+
+(The next lesson in either lane is E241.)
+
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. The next lesson in either lane is E238.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. The next lesson in either lane is E241.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

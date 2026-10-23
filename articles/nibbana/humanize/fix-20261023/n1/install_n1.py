@@ -62,6 +62,33 @@ LINK_WORDS = {'n1-burden': {'quarks supply less than 1% of a proton’s mass; ro
                             'quarks supply less than 1% of a proton’s mass, roughly 99% comes from gluon-binding energy'}}
 
 
+# His message of 2026-10-23 14:14 UTC (../joel-20261023-1414-message.txt, word for word): the second recheck's one red
+# paragraph (feed aba5bb46, windows 44 and 45: "The percentage language applies only to partial nibbāna. ...") in his
+# own words, "which expalins better also", and a lead-in for the paragraph after it ("then i had to add this lead-in to
+# the next para"). No typos in either; his straight quotes and spacing as he typed them.
+MSG_1414 = N.parent / 'joel-20261023-1414-message.txt'
+NEXT_1414 = 'At something I would jokingly call 5% nibbāna,'
+
+
+def joel_1414(work):
+    import html
+    msg = MSG_1414.read_text(encoding='utf-8')
+    old = msg.split('replacing "', 1)[1].split('" with this', 1)[0]
+    new = msg.split('expalins better also: "', 1)[1].split('" and then i had to add', 1)[0].strip()
+    lead = msg.split('lead-in to the next para: "', 1)[1].split('"', 1)[0].strip()
+    out = []
+    a = '<p>' + html.escape(old, quote=False) + '</p>'
+    assert work.count(a) == 1, 'his old paragraph must be in the working copy once'
+    b = '<p>' + html.escape(new, quote=False) + '</p>'
+    work = work.replace(a, b)
+    out.append(('n1-percent-joel-1414', old, new))
+    i = work.index('<p>' + NEXT_1414)
+    assert work.count('<p>' + NEXT_1414) == 1
+    work = work[:i + 3] + html.escape(lead, quote=False) + ' ' + work[i + 3:]
+    out.append(('n1-percent-leadin-joel-1414', '', lead + ' '))
+    return work, out
+
+
 def his_text(tag):
     msg = MSG.read_text(encoding='utf-8')
     tags = [t for _k, (t, _p, _l) in JOEL.items()]
@@ -154,6 +181,13 @@ def main():
                     'result': 'his own check ("dark green", his message of 2026-10-23 12:30 UTC); read in place in the next recheck',
                     'source': 'fix-20261023/joel-20261023-1230-message.txt', 'typos_fixed': [a for a, b in TYPOS.get(key, [])],
                     'review': None})
+    work, j1414 = joel_1414(work)
+    for key, old, new in j1414:
+        rec.append({'key': key, 'windows': '44 (Low) and 45 (Medium) in the second recheck of 2026-10-23 (feed aba5bb46)',
+                    'shape': 'his own words, his message of 2026-10-23 14:14 UTC', 'old': old, 'new': new,
+                    'check': None, 'try': None,
+                    'result': 'read in place in the next recheck', 'source': 'fix-20261023/joel-20261023-1414-message.txt',
+                    'typos_fixed': [], 'review': None})
     (H / 'HUMANIZED-SO-FAR.html').write_text(work, encoding='utf-8')
     (N / 'EDITS-n1.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print('HUMANIZED-SO-FAR.html: %d edits in, from %s' % (len(rec), M.SRC.name))

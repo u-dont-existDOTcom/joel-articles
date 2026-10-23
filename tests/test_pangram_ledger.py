@@ -134,6 +134,20 @@ class Ledger(unittest.TestCase):
         L.main(['result', self.ledger, '--sha', L.sha256('m2'), '--verdict', 'Mixed', '--link', 'x',
                 '--headline', 'AI Detected'])
 
+    def test_a_human_headline_with_ai_windows_is_mixed(self):
+        # Nibbāna's second recheck, 2026-10-23: "Human Written" at 0.27% AI, two AI windows
+        self.assertEqual(L.verdict_of('Human Written', None, 0.0027), 'Mixed')
+        self.assertEqual(L.verdict_of('Human Written', None, 4.2e-22), 'Human')
+        self.assertEqual(L.verdict_of('Human Written', ['H,H,0,10', 'A,L,10,20']), 'Mixed')
+        self.assertEqual(L.verdict_of('Human Written', ['H,H,0,10']), 'Human')
+        self.predict('h1', call='AI')
+        with self.assertRaises(SystemExit):
+            L.main(['result', self.ledger, '--sha', L.sha256('h1'), '--verdict', 'Human', '--link', 'x',
+                    '--headline', 'Human Written', '--ai-fraction', '0.0027'])
+        L.main(['result', self.ledger, '--sha', L.sha256('h1'), '--verdict', 'Mixed', '--link', 'x',
+                '--headline', 'Human Written', '--ai-fraction', '0.0027'])
+        self.assertTrue([r for r in L.read(self.ledger) if r['type'] == 'result'][0]['right'])
+
     def test_results_from_the_page_reader(self):
         self.predict('k1 text', key='K1')
         res = self.dir / 'res.json'

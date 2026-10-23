@@ -608,9 +608,9 @@ Now come all the way back up again, and at a later time, when it is appropriate,
 
 Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions or come back up when you are in it. Don't use it in a way that you are going to follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
 
-Never do this when you are driving or doing something where you need to be actively paying attention. It is not safe to go into a trance where you are actively paying attention to what is inside of you when you should be paying attention to what is outside of you, even with your eyes open, even if you are using "if it would be useful for you to do so" type language.
+There is something you should never do while using this induction. And that's use it, practice it or test it while you're driving or doing something where you need to be actively paying attention. It's just not safe to be going into a trance where you are actively paying attention to what's going on inside of you when you need to be paying attention to what's going on outside of you. Even though your eyes can be open, even though you're using "if it would be useful for you to do so" type language it's just not safe.
 
-If you want to turn this one off, all you have to do is not practice it anymore, take it out of your recordings, take it out of your apps if you're using it there, and start using your regular induction again. You'll want to say, while you're awake, that you won't use this one anymore, but saying that it's gone doesn't mean it's going to be gone right away. If it's causing you a problem (you're responding to it when you don't want to, you're having disorientation issues, whatever), then get help from someone who's qualified to help you. If you want to keep it around so you can use it to go back into a trance at a later date when you want to, that's fine. But for now, when you come out of this trance, it will be over for today.
+If you want to turn this one off, simply don't practice it anymore. Take it out of your recordings, take it out of your apps if you're using it in an app, and start using your regular induction. Tell yourself, when you're awake, that you won't be using it anymore. Just because you say that it'll be gone doesn't mean that it'll be gone right away. If it's causing you a problem, if you're still responding to it when you don't want to respond to it, if you're having issues with disorientation, etc, get some help from someone who's qualified to help you with this. If, on the other hand, you want to keep it so that you can use it to go back into trance at a later date when you do want to go into a trance, that's fine too. For now, though, once you come out of this trance, it'll be over for today.
 
 # Come all the way back
 
@@ -620,7 +620,7 @@ Here is a generic bring-back that you can use: "When I come out of this session,
 
 Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.
 
-When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit, and don't get up until you feel steady. Make sure you're truly oriented and alert (the count is supposed to bring you back, but it doesn't always do the whole job). Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
+When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.
 
 If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
 
@@ -748,13 +748,13 @@ REMEMBER: Not everything in hypnotic imagery is literal, especially if it relate
 
 ## Nothing happens
 
-Could you try starting a bit smaller?
+Is there a way you could try this on a smaller scale?
 
-Showing yourself just one sensation in your body / one word / whether to listen today or rest?
+Show yourself one body sensation, one word, ask yourself if you want to listen today or if you need to rest.
 
 ## It feels fake
 
-Do you know what exactly feels fake - the words, an image, what you are expecting, the role etc? It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.
+Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.
 
 You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?'
 

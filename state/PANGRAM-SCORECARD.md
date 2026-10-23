@@ -37,23 +37,23 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 16 | 13 (81%) | 81% | 19% | 12% | 0.136 (base 0.152, 16) |
-| nibbana article | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
-| **all lanes** | 17 | 14 (82%) | 82% | 18% | 12% | 0.128 (base 0.145, 17) |
+| hypnosis guide | 17 | 14 (82%) | 82% | 18% | 12% | 0.135 (base 0.145, 17) |
+| nibbana article | 2 | 2 (100%) | 100% | 0% | 0% | 0.011 (base 0.000, 2) |
+| **all lanes** | 19 | 16 (84%) | 84% | 16% | 11% | 0.122 (base 0.133, 19) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 16 | 13 (81%) | 81% | 19% | 12% | 0.136 (base 0.152, 16) |
-| nibbana article | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+| hypnosis guide | 17 | 14 (82%) | 82% | 18% | 12% | 0.135 (base 0.145, 17) |
+| nibbana article | 2 | 2 (100%) | 100% | 0% | 0% | 0.011 (base 0.000, 2) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
-| article | 5 | 4 (80%) | 100% | 0% | 20% | 0.063 (base 0.000, 5) |
+| article | 7 | 6 (86%) | 100% | 0% | 14% | 0.066 (base 0.000, 7) |
 
 ## pangram 4.1, web app
 
@@ -79,15 +79,15 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 17 | 9 (53%) | 53% | 47% | 71% | 0.224 (base 0.249, 17) |
+| hypnosis guide | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
 | nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
-| **all lanes** | 38 | 19 (50%) | 61% | 39% | 68% | 0.224 (base 0.239, 38) |
+| **all lanes** | 41 | 22 (54%) | 56% | 44% | 71% | 0.220 (base 0.246, 41) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 17 | 9 (53%) | 53% | 47% | 71% | 0.224 (base 0.249, 17) |
+| hypnosis guide | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
 | nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
 
 The boundary mix over all lanes:
@@ -95,7 +95,8 @@ The boundary mix over all lanes:
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | paragraph | 21 | 11 (52%) | 62% | 38% | 67% | 0.220 (base 0.236, 21) |
-| pair | 17 | 8 (47%) | 59% | 41% | 71% | 0.229 (base 0.242, 17) |
+| pair | 19 | 10 (53%) | 53% | 47% | 74% | 0.222 (base 0.249, 19) |
+| stretch | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
 
 ## Pangram 4.1 GUI (dashboard)
 

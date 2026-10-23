@@ -1,0 +1,14 @@
+{
+ "segments": 4,
+ "payload_sha256": "bb0f97f64704b5629bac6778978be11102c9c936695f6f5fcee1ea563e5d1904",
+ "payload_chars": 327240,
+ "text_sha256": "7b60406074a5f8748aede131daaff3a9dfa1c587aa60a0e66ff1e4ad034c9805",
+ "text_chars": 85568,
+ "expected_sha256": "b482035851aa92edef2b27bb9f195be0e0708c3fbecff5c5bc009fc3ab96f6d9",
+ "expected_chars": 86440,
+ "draft_text_sha256": "b99bb0b605d5b2f5967eff545131f7b82fcb1209a3fa8cdff59e632195a243c0",
+ "draft_text_chars": 86437,
+ "words": 15015,
+ "words_sha256": "aa63058dfc476edbb32f9fb988edc8e2512321a9e76273f79d108c89dfcfcf9a",
+ "working_copy_sha256": "15a069f4c34b7ce96dcf45aa78f92552f3bd71fb566ac5ff945925bac837abca"
+}

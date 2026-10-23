@@ -1,0 +1,49 @@
+{
+ "key": "b474",
+ "brief": "fix-20261018/rf-a/TRIAGE-BRIEF.md",
+ "fixes": [
+  {
+   "item": 1,
+   "type": "CHANGED",
+   "what": "the published caution bars training, testing or using the re-entry while driving; the sample said only \"use it\", right after a paragraph that tells the reader to check the cue works (brief, rule 1: a safety caution narrowed)",
+   "replace": "And that’s use it while you’re driving",
+   "with": "And that’s use it, practice it or test it while you’re driving",
+   "from": "second reader (REVIEW.md, item 1), triaged"
+  },
+  {
+   "item": 2,
+   "type": "CHANGED",
+   "what": "\"Note only what actually appeared\" had become \"anything that has come up for you\": in a hypnosis return, the limit to what really appeared matters (brief, rule 2); the line is the installed text's, outside the red sentences, and is fixed now that the reader names it",
+   "replace": "Take mental note of anything that has come up for you",
+   "with": "Take mental note of only what actually came up for you",
+   "from": "second reader (REVIEW.md, item 2), triaged"
+  },
+  {
+   "item": 3,
+   "type": "CHANGED",
+   "what": "\"one body sensation\" had lost \"body\" (the published request is for a body sensation)",
+   "replace": "Show yourself one sensation, one word,",
+   "with": "Show yourself one body sensation, one word,",
+   "from": "second reader (REVIEW.md, item 3), triaged"
+  }
+ ],
+ "let_stand": [
+  {
+   "finding": "item 2: \"(counting does this, but not always)\" for \"repeating the count is not proof of a complete return\"",
+   "why": "the check itself stays (\"Make sure that you are oriented and alert\"), and so does the caution that the count can fail; tone"
+  },
+  {
+   "finding": "item 2: \"Move around a bit\" before \"Don't get up\" can read as walking about",
+   "why": "the next sentence says not to get up yet, so moving is where you are; the installed text had the same order"
+  },
+  {
+   "finding": "item 3: the protective part as an instruction (\"so talk to it\"), the unhedged \"It doesn't matter that you don't have an inner voice/image\", the questions for \"Start smaller\" and \"First ask\", and \"correct this\" for \"Correct an explicitly unwanted invitation\"",
+   "why": "all in the installed text of 460g (2026-10-18), outside this batch's three lines, and let stand by that batch's triage; the batch keeps them as they were"
+  },
+  {
+   "finding": "item 3: \"Show yourself\" is self-addressed where the published asks to be shown",
+   "why": "the installed text said \"Showing yourself\" too; \"body\" is put back (fix 3)"
+  }
+ ],
+ "resample": []
+}
