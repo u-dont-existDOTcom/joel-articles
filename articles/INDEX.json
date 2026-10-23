@@ -44532,6 +44532,11 @@
           "path": "articles/nibbana/humanize/fix-20261023/recheck7/make_recheck_nb.py",
           "sha256": "015a7eee01ff77e33f54f091d4cde6b15208b3c374f2afa8d2deaf2f01b624df",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/READER-1.md",
+          "sha256": "97769eb1800b73193d3e85c4d436b5f17b3a9c6900e05d178646a2f9f02c0c88",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -84623,6 +84628,11 @@
         {
           "path": "articles/intentional-communities/candidate/joel-20261023/joel-20261023-2229-message.txt",
           "sha256": "787dff57699d376cc42f7d41fcab49ab51b8fac65a40253d4bc98c14597a92cd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/READER-1.md",
+          "sha256": "15e9a8d35cd7c26c0a938f8d1124f5cfd5d653ba980463b2fb6d6e801a0634b5",
           "role": "humanization_working_record"
         }
       ]
