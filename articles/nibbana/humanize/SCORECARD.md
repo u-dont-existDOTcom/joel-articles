@@ -7,7 +7,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/nibbana/hum
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 5 | 5 (100%) | 100% | 0% | 0% | 0.021 (base 0.000, 5) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 6 | 6 (100%) | 100% | 0% | 0% | 0.018 (base 0.000, 6) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
 
@@ -36,21 +36,21 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 5 | 5 (100%) | 100% | 0% | 0% | 0.021 (base 0.000, 5) |
-| the latest 100 | 5 | 5 (100%) | 100% | 0% | 0% | 0.021 (base 0.000, 5) |
-| all | 5 | 5 (100%) | 100% | 0% | 0% | 0.021 (base 0.000, 5) |
+| the latest 50 | 6 | 6 (100%) | 100% | 0% | 0% | 0.018 (base 0.000, 6) |
+| the latest 100 | 6 | 6 (100%) | 100% | 0% | 0% | 0.018 (base 0.000, 6) |
+| all | 6 | 6 (100%) | 100% | 0% | 0% | 0.018 (base 0.000, 6) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 5 | 5 (100%) | 100% | 0% | 0% | 0.021 (base 0.000, 5) |
+| article | 6 | 6 (100%) | 100% | 0% | 0% | 0.018 (base 0.000, 6) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 4 | 0.07 | 0% |
+| 0.0 to 0.2 | 5 | 0.06 | 0% |
 | 0.2 to 0.4 | 1 | 0.28 | 0% |
 
 ## Misses since the ledger (11)
@@ -88,5 +88,5 @@ The latest:
 | NB-P230 | paragraph | 3 of 6 | AI |
 | NB-P237 | paragraph | 2 of 6 | AI |
 | NB-P266 | pair | 3 of 6 | Mixed |
-| NB-whole | article | 6 of unlimited (Substack) | pending |
+| NB-whole | article | 7 of unlimited (Substack) | pending |
 

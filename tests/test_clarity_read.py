@@ -123,6 +123,38 @@ KEEPS: every sentence
             self.assertIn('**A (my pick):** put it in.', md)
             self.assertIn('**My check:** checked against the whole article', md)
 
+    def test_the_caveat_read_brief_cuts_and_page(self):
+        """Part 3 (Joel, 2026-10-23 22:29 UTC: "obnoxious safety language and caveats"): the brief carries his examples
+        and what to keep; the page strikes each cut through in its paragraph and shows the paragraph after it."""
+        art = ('<div class="body markup"><h1>One</h1><p>Do the practice lying down. If nobody is in danger, take a breath '
+               'or three. That might not be how it goes for everyone.</p><h2>Two</h2><p>' + 'Text. ' * 40 + '</p></div>')
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'a.html'
+            src.write_text(art, encoding='utf-8')
+            out = pathlib.Path(d) / 'cav'
+            C.make(src, out, parts=1, read='caveats')
+            brief = (out / 'BRIEF-1.txt').read_text(encoding='utf-8')
+            self.assertIn('extra extra ridiculous safety language', brief)
+            self.assertIn('NOBODY-SUGGESTED', brief)
+            self.assertIn('Getting in touch is a separate decision', brief)  # an example from his guide
+            self.assertIn('a caution that changes what you do at that step', brief)  # what to keep
+            self.assertIn('one front note', brief)  # how public books place safety
+            self.assertEqual((out / 'KIND').read_text().strip(), 'caveats')
+            (out / 'READER-1.md').write_text(
+                '## 1\nSECTION: One\nQUOTE: If nobody is in danger, take a breath or three.\nKIND: BLANKET\n'
+                'WHY: nobody stops to breathe while someone is in danger\nLOSES: nothing\n\n'
+                '## 2\nSECTION: One\nQUOTE: That might not be how it goes for everyone.\nKIND: hedge\n'
+                'WHY: his own experience\nLOSES: nothing\n', encoding='utf-8')
+            items = C.collect(out)
+            self.assertEqual([x['kind'] for x in items], ['BLANKET', 'HEDGE'])
+            self.assertTrue(all(x['found'] for x in items))
+            md, n = C.page(out)
+            self.assertEqual(n, 2)
+            self.assertIn('~~If nobody is in danger, take a breath or three.~~', md)
+            self.assertIn('> Do the practice lying down. That might not be how it goes for everyone.', md)
+            self.assertIn('> Do the practice lying down. If nobody is in danger, take a breath or three.', md)
+            self.assertIn('**A (my pick):** cut it.', md)
+
     def test_a_clarity_read_dir_without_kind_is_a_clarity_read(self):
         with tempfile.TemporaryDirectory() as d:
             self.assertEqual(C.read_kind(d), 'clarity')

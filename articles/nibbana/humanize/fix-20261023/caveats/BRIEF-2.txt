@@ -1,0 +1,38 @@
+You are a cold first-time reader of part 2 of 6 of Joel's long article on nibbāna (Buddhist enlightenment): his own experience of it, what the early suttas say, a short practice to try, and how it compares with modern teachers, for a general Substack audience. Joel finds his articles overloaded with safety language and caveats, much of it added by AI drafts: in his words, "all the extra extra ridiculous safety language which gets repeated everywhere" and "obnoxious safety language and caveats". Your job is to list every line in your part that is a warning, a caution, a reassurance, a disclaimer, or a caveat or hedge that a reader doesn't need where it is, so that it can be cut.
+
+The test for each line: does it change what the reader should do right here, or does it only explain why an instruction has qualifications, reassure, or protect the writer? How public books place safety (that lane's BOOKS.md, from Lucia Capacchione's Recovery of Your Inner Child and Tara Bennett-Goleman's Emotional Alchemy): one front note, one note on pace and stopping, one section on choosing helpers; inside the exercises, a caution only where it changes what you do, said once; "safe" as a setting ("find a quiet, safe place"), not as a warning.
+
+What counts (give each one its kind):
+- SAID-AGAIN: a warning or caveat the article already made (quote the other place if it's in your part).
+- BLANKET: a general add-on tacked onto something it doesn't change.
+- NOBODY-SUGGESTED: a warning against a step the text never suggested.
+- REASSURANCE: a line that reassures or softens after the point is made.
+- TAKEBACK: a line that takes back part of what was just said, or answers an objection nobody raised.
+- HEDGE: a caveat that weakens a claim for no reader benefit.
+- DISCLAIMER: a not-advice or not-a-claim notice that protects the writer.
+
+Cuts from his inner child guide, of the kind he wants gone:
+1. BLANKET: "If nobody is in danger, take a breath" (When you catch it, ... "That's awesome I could notice it!" [If nobody is in danger,] take a breath or three before you finish whatever you were doing.). Why: Nobody stops for three breaths while someone is in danger.
+2. NOBODY-SUGGESTED: "Getting in touch is a separate decision, for a much calmer day." (Whoever hurt you might come to mind, too. I'd leave out forgiving them and picturing their childhood.). Why: The exercise is wishing people well in your own head; nothing in it says to contact anyone.
+3. SAID-AGAIN: "(if you're in danger, get safe first)" (anything big or hard to undo can wait until you're calm and you've checked it against what you actually know). Why: Said in five other places that need it.
+4. REASSURANCE: "It doesn't mean failure." (after a sentence that calls a setback information to learn from). Why: "information to learn from" already says it isn't failure.
+5. TAKEBACK: "It doesn't have to happen after every session." (the last line of a paragraph that suggests one small real-life step after a session). Why: It takes back part of the small step the paragraph just suggested.
+6. TAKEBACK: "And nobody's off the hook (you included, if you were the one who did the harm): whatever repair is owed is still owed." (an exercise of saying "and so that's the way it happened"). Why: It answers an objection instead of guiding the exercise, and another section says it.
+7. HEDGE: "That might not be how it goes for everyone, and it doesn't mean unhappy people can't help." (after his own experience of getting better at helping others once he cultivated his own happiness). Why: The paragraph is his own experience; it disclaims something it doesn't say.
+8. HEDGE: "(that part is optional)" (after a sentence that says it "might be"). Why: "It might be" already makes it optional.
+9. DISCLAIMER: "(I'm only borrowing the word ...)" (after he uses the Tibetan word "bardo"). Why: Borrowing a word asks nobody to believe anything.
+
+What doesn't count, so keep it: a caution that changes what you do at that step (don't use a photo to confirm a memory; move away from the open window and get outside support); a section whose subject is safety or crisis (If You Want to Kill Yourself; When the Present-Day Adult Is Dangerous); his own stop rule told as his story (the crying song: "turn the song off for tonight"); a marker that tells the reader whose claim it is when the article reports texts or science ("the suttas say", or "I think" where it separates his view from a source's); a hedge that is the claim itself (he really isn't sure); his jokes, stories and voice.
+
+Work quickly: read the part once, noting candidates as you go, then write them down. A short report with the clearest cuts is the job.
+
+Read the file /home/claude/ja-community/articles/nibbana/humanize/fix-20261023/caveats/PART-2.txt (one Read call; it is part 2 of 6, headings marked "## "). Then write your report with one Write call to /home/claude/ja-community/articles/nibbana/humanize/fix-20261023/caveats/READER-2.md, in this shape, in the article's order, at most 8 items:
+
+## 1
+SECTION: the heading it's under, exactly as in the file
+QUOTE: the exact words to cut, copied exactly character for character from the file: a whole sentence, a clause or a parenthesis, no more than the cut
+KIND: one of SAID-AGAIN, BLANKET, NOBODY-SUGGESTED, REASSURANCE, TAKEBACK, HEDGE, DISCLAIMER
+WHY: in one line, why a reader doesn't need it here (for SAID-AGAIN, where it's said)
+LOSES: what a reader loses if it's cut ("nothing" when that's so)
+
+If nothing in your part counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.

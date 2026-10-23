@@ -35,6 +35,14 @@ far, tools/humanization/readers_edit_examples.json) and marks DIR as an edit rea
 moves, headings, labels and repeats to cut. collect and page then read and list proposals, not passages: the worker
 gives each one "my_pick" ("A" to put it in, "B" to leave it) and a "note" after checking it against the whole article
 and his earlier answers, and "status": "drop" for one that cuts a point he kept or a safeguard.
+
+The caveat read (part 3 of docs/CLARITY-READ.md; Joel, 2026-10-23 22:29 UTC: "did we already look at whether there's too
+much safety language in this article? just cut out a ton of obnoxious safety language and caveats from inner child
+article. same question for community and hypnosis articles"): make --kind caveats writes the brief for safety lines,
+reassurances, takebacks, hedges and disclaimers a reader doesn't need where they are (the examples are
+tools/humanization/caveat_examples.json, from the Inner Child lane's safety-language pass), and collect and page list
+cuts: each with the cut struck through in its paragraph, the paragraph after the cut, why, what a reader loses, and the
+worker's pick and "note" (with "said_already" quotes for a repeat).
 """
 import argparse, html, json, pathlib, re, sys
 
@@ -240,7 +248,40 @@ KEEPS: what stays as it is, and anything the change must not lose
 If nothing in your part needs it, write only "NOTHING". Then reply with only the number of proposals. Use no tools other than that one Read and that one Write, and don't use the web.
 '''
 
+CAVEAT_BRIEF = '''You are a cold first-time reader of part {k} of {n} of {about}. {question}Joel finds his articles overloaded with safety language and caveats, much of it added by AI drafts: in his words, "all the extra extra ridiculous safety language which gets repeated everywhere" and "obnoxious safety language and caveats". Your job is to list every line in your part that is a warning, a caution, a reassurance, a disclaimer, or a caveat or hedge that a reader doesn't need where it is, so that it can be cut.
+
+The test for each line: does it change what the reader should do right here, or does it only explain why an instruction has qualifications, reassure, or protect the writer? {books}
+
+What counts (give each one its kind):
+- SAID-AGAIN: a warning or caveat the article already made (quote the other place if it's in your part).
+- BLANKET: a general add-on tacked onto something it doesn't change.
+- NOBODY-SUGGESTED: a warning against a step the text never suggested.
+- REASSURANCE: a line that reassures or softens after the point is made.
+- TAKEBACK: a line that takes back part of what was just said, or answers an objection nobody raised.
+- HEDGE: a caveat that weakens a claim for no reader benefit.
+- DISCLAIMER: a not-advice or not-a-claim notice that protects the writer.
+
+Cuts from his inner child guide, of the kind he wants gone:
+{examples}
+
+What doesn't count, so keep it: {kept}; a marker that tells the reader whose claim it is when the article reports texts or science ("the suttas say", or "I think" where it separates his view from a source's); a hedge that is the claim itself (he really isn't sure); his jokes, stories and voice.
+
+Work quickly: read the part once, noting candidates as you go, then write them down. A short report with the clearest cuts is the job.
+
+Read the file {part} (one Read call; it is part {k} of {n}, headings marked "## "). Then write your report with one Write call to {report}, in this shape, in the article's order, at most {max_items} items:
+
+## 1
+SECTION: the heading it's under, exactly as in the file
+QUOTE: the exact words to cut, copied exactly character for character from the file: a whole sentence, a clause or a parenthesis, no more than the cut
+KIND: one of SAID-AGAIN, BLANKET, NOBODY-SUGGESTED, REASSURANCE, TAKEBACK, HEDGE, DISCLAIMER
+WHY: in one line, why a reader doesn't need it here (for SAID-AGAIN, where it's said)
+LOSES: what a reader loses if it's cut ("nothing" when that's so)
+
+If nothing in your part counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.
+'''
+
 EDIT_FIELDS = ('SECTION', 'QUOTE', 'MOVE', 'CHANGE', 'WHY', 'KEEPS')
+CAVEAT_FIELDS = ('SECTION', 'QUOTE', 'KIND', 'WHY', 'LOSES')
 CLARITY_FIELDS = ('QUOTE', 'HARD', 'SCORE', 'PLAIN')
 
 
@@ -249,6 +290,11 @@ def edit_examples_text(ex):
     for i, e in enumerate(ex, 1):
         out.append('%d. %s (%s): %s\n   He chose: %s' % (i, e['section'], e['answer'], e['proposal'], e['his_choice']))
     return '\n'.join(out)
+
+
+def caveat_examples_text(ex):
+    return '\n'.join('%d. %s: "%s" (%s). Why: %s' % (i, e['kind'], e['cut'], e['context'], e['why'])
+                     for i, e in enumerate(ex, 1))
 
 
 def examples_text(ex):
@@ -268,16 +314,19 @@ def make(article, outdir, parts=3, about=None, question=None, examples=None, max
     kind = 'html' if article.suffix.lower() in ('.html', '.htm') else ('md' if article.suffix.lower() == '.md' else 'txt')
     text = reading_text(raw, kind)
     (outdir / 'ARTICLE.txt').write_text(text, encoding='utf-8')
-    edit = read == 'edit'
-    default = HERE / ('readers_edit_examples.json' if edit else 'clarity_examples.json')
-    ex = json.loads(pathlib.Path(examples or default).read_text(encoding='utf-8'))['examples']
+    edit, cav = read == 'edit', read == 'caveats'
+    default = HERE / {'edit': 'readers_edit_examples.json', 'caveats': 'caveat_examples.json'}.get(read, 'clarity_examples.json')
+    exfile = json.loads(pathlib.Path(examples or default).read_text(encoding='utf-8'))
+    ex = exfile['examples']
     (outdir / 'KIND').write_text(read + '\n', encoding='utf-8')
     ps = split_parts(text, parts)
     for k, p in enumerate(ps, 1):
         (outdir / ('PART-%d.txt' % k)).write_text(p, encoding='utf-8')
-        brief = (EDIT_BRIEF if edit else BRIEF).format(
+        brief = (CAVEAT_BRIEF if cav else EDIT_BRIEF if edit else BRIEF).format(
             k=k, n=len(ps), about=about or "one of Joel's articles, for a general Substack audience",
-            question=(question + ' ') if question else '', examples=(edit_examples_text if edit else examples_text)(ex),
+            question=(question + ' ') if question else '',
+            examples=(caveat_examples_text if cav else edit_examples_text if edit else examples_text)(ex),
+            books=exfile.get('books', ''), kept='; '.join(exfile.get('kept', [])),
             part=(outdir / ('PART-%d.txt' % k)).resolve(), report=(outdir / ('READER-%d.md' % k)).resolve(),
             max_items=max_items)
         (outdir / ('BRIEF-%d.txt' % k)).write_text(brief, encoding='utf-8')
@@ -327,11 +376,24 @@ def collect(outdir):
     old = {}
     if (outdir / 'ITEMS.json').exists():
         old = {x['quote']: x for x in json.loads((outdir / 'ITEMS.json').read_text(encoding='utf-8'))}
-    items, edit = [], read_kind(outdir) == 'edit'
+    items, edit, cav = [], read_kind(outdir) == 'edit', read_kind(outdir) == 'caveats'
     for f in sorted(outdir.glob('READER-*.md'), key=lambda p: int(re.search(r'(\d+)', p.stem).group(1))):
         part = int(re.search(r'(\d+)', f.stem).group(1))
-        for j, it in enumerate(parse_reader(f.read_text(encoding='utf-8'), EDIT_FIELDS if edit else CLARITY_FIELDS), 1):
+        fields = CAVEAT_FIELDS if cav else EDIT_FIELDS if edit else CLARITY_FIELDS
+        for j, it in enumerate(parse_reader(f.read_text(encoding='utf-8'), fields), 1):
             where = locate(text, it['quote'])
+            if cav:
+                rec = {'key': '%d.%d' % (part, j), 'part': part, 'section': it['section'], 'quote': it['quote'],
+                       'kind': it['kind'].upper(), 'why': it['why'], 'loses': it['loses'],
+                       'found': where is not None, 'line': where[0] if where else None,
+                       'heading': where[1] if where else None, 'status': 'keep'}
+                prev = old.get(it['quote'])
+                if prev:
+                    for k in ('status', 'note', 'my_pick', 'said_already', 'whose', 'why'):
+                        if k in prev:
+                            rec[k] = prev[k]
+                items.append(rec)
+                continue
             if edit:
                 rec = {'key': '%d.%d' % (part, j), 'part': part, 'section': it['section'], 'quote': it['quote'],
                        'move': it['move'].upper(), 'change': it['change'], 'why': it['why'], 'keeps': it['keeps'],
@@ -397,10 +459,68 @@ def edit_page(items, title=None, intro=None):
     return '\n'.join(out), n
 
 
+KINDS = {'SAID-AGAIN': 'said already', 'BLANKET': 'a blanket add-on', 'NOBODY-SUGGESTED': 'warns against a step nobody '
+         'suggested', 'REASSURANCE': 'a reassurance', 'TAKEBACK': 'a takeback', 'HEDGE': 'a hedge',
+         'DISCLAIMER': 'a disclaimer'}
+
+
+def cut_paragraph(text, quote):
+    """(the paragraph with the cut struck through, the paragraph after the cut) from the reading text."""
+    line = next((l for l in text.split('\n') if quote in l), None)
+    if line is None:
+        line = next((l for l in text.split('\n') if quote.translate(STRAIGHT) in l.translate(STRAIGHT)), None)
+        if line is None:
+            return None, None
+        i = line.translate(STRAIGHT).index(quote.translate(STRAIGHT))
+        quote = line[i:i + len(quote)]
+    struck = line.replace(quote, '~~' + quote + '~~', 1)
+    after = line.replace(quote, '', 1)
+    after = re.sub(r'\s+([.,;:!?)])', r'\1', re.sub(r'\(\s*\)', '', re.sub(r' {2,}', ' ', after))).strip()
+    return struck, after
+
+
+def caveat_page(items, text, title=None, intro=None):
+    """The caveat read for Joel: the cuts in the article's order, each struck through in its paragraph, with the paragraph
+    after the cut, why, what a reader loses, and my pick."""
+    live = sorted((x for x in items if x.get('status', 'keep') == 'keep'), key=lambda x: (x.get('line') or 0))
+    dropped = [x for x in items if x.get('status') == 'drop']
+    out = ['# ' + (title or 'Safety lines and caveats a reader doesn\'t need'), '']
+    if intro:
+        out += [intro, '']
+    n = 0
+    for x in live:
+        n += 1
+        pick = (x.get('my_pick') or 'A').upper()
+        struck, after = cut_paragraph(text, x['quote'])
+        out += ['### %d. %s: %s' % (n, x.get('heading') or x.get('section') or '(no heading)',
+                                    KINDS.get(x.get('kind'), (x.get('kind') or 'a cut').lower())), '']
+        if x.get('whose'):
+            out += ['*Whose words:* ' + x['whose'], '']
+        out += ['> ' + (struck or x['quote']), '', '**Why:** ' + x['why'], '']
+        if x.get('said_already'):
+            out += ['**Said already:** ' + x['said_already'], '']
+        out += ['**What a reader loses:** ' + (x.get('loses') or 'nothing'), '']
+        if x.get('note'):
+            out += ['**My check:** ' + x['note'], '']
+        if after is not None:
+            out += ['**After:**', '', '> ' + after, '']
+        else:
+            out += ['(The reader\'s quote isn\'t in the article word for word: find it by its words before using it.)', '']
+        out += ['- **A%s:** cut it.' % (' (my pick)' if pick == 'A' else ''),
+                '- **B%s:** keep it.' % (' (my pick)' if pick == 'B' else ''), '']
+    if dropped:
+        out += ['## Looked at and kept', '']
+        out += ['- **%s:** "%s" (%s)' % (x.get('heading') or '', x['quote'][:140], x.get('note') or '') for x in dropped]
+        out.append('')
+    return '\n'.join(out), n
+
+
 def page(outdir, title=None, intro=None):
     items = json.loads((pathlib.Path(outdir) / 'ITEMS.json').read_text(encoding='utf-8'))
     if read_kind(outdir) == 'edit':
         return edit_page(items, title, intro)
+    if read_kind(outdir) == 'caveats':
+        return caveat_page(items, (pathlib.Path(outdir) / 'ARTICLE.txt').read_text(encoding='utf-8'), title, intro)
     live = [x for x in items if x.get('status', 'keep') == 'keep']
     hard = sorted((x for x in live if score_of(x) >= 3), key=lambda x: (x.get('line') or 0))
     reread = sorted((x for x in live if score_of(x) == 2), key=lambda x: (x.get('line') or 0))
@@ -441,8 +561,9 @@ def main(argv=None):
     m.add_argument('article'); m.add_argument('dir'); m.add_argument('--parts', type=int, default=3)
     m.add_argument('--about'); m.add_argument('--question'); m.add_argument('--examples')
     m.add_argument('--max-items', type=int, default=12)
-    m.add_argument('--kind', choices=('clarity', 'edit'), default='clarity',
-                   help="clarity (part 1: what a reader has to reread) or edit (part 2: the reader's edit)")
+    m.add_argument('--kind', choices=('clarity', 'edit', 'caveats'), default='clarity',
+                   help="clarity (part 1: what a reader has to reread), edit (part 2: the reader's edit) or caveats "
+                        "(part 3: safety lines and caveats a reader doesn't need)")
     c = sub.add_parser('collect')
     c.add_argument('dir')
     p = sub.add_parser('page')
@@ -459,7 +580,7 @@ def main(argv=None):
     else:
         md, n = page(a.dir, a.title, a.intro)
         pathlib.Path(a.out).write_text(md, encoding='utf-8')
-        print('%s: %d numbered %s' % (a.out, n, 'proposals' if read_kind(a.dir) == 'edit' else 'passages'))
+        print('%s: %d numbered %s' % (a.out, n, {'edit': 'proposals', 'caveats': 'cuts'}.get(read_kind(a.dir), 'passages')))
     return 0
 
 

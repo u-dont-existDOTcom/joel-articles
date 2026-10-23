@@ -42765,6 +42765,11 @@
           "path": "articles/inner-signal/humanize/fix-20261023/recheck-b2/WINDOWS-B.txt",
           "sha256": "1da99bef5906f2c7b47b05a74b3982ace57e7e4f5c6de36abed9b7823caa9b52",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261023/joel-20261023-2229-message.txt",
+          "sha256": "787dff57699d376cc42f7d41fcab49ab51b8fac65a40253d4bc98c14597a92cd",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -42860,7 +42865,7 @@
         },
         {
           "path": "articles/nibbana/humanize/HUMANIZED-SO-FAR.html",
-          "sha256": "f7fd5d44206f1a6a89ff584ac28c6b616583ea71b8fe6b15b96051bf9d42675c",
+          "sha256": "aab8b980cd70165f4bd84e606d702c8ebbec205ccc8b5ee1b239772b10192796",
           "role": "humanization_working_record"
         },
         {
@@ -42940,7 +42945,7 @@
         },
         {
           "path": "articles/nibbana/humanize/fix-20261023/n1/install_n1.py",
-          "sha256": "c12897aac99991977e4be0e5077123ada34d7a724d7caac91a949219eb6e6496",
+          "sha256": "b29c01c45fbfe4f3f134fd25cc79d5dd9a2ca3fdbad5d8f152d05822cde48ccb",
           "role": "humanization_working_record"
         },
         {
@@ -43100,7 +43105,7 @@
         },
         {
           "path": "articles/nibbana/humanize/pangram-ledger.jsonl",
-          "sha256": "1767d155b2c6c96c89e1a03415657ce10ca2ca2e32707457d9b5287dd4cd761c",
+          "sha256": "566fd49e5687c74e325b89ac836f94c7a7450d11fcf3f0d0b7f8e80d6d7088e6",
           "role": "humanization_working_record"
         },
         {
@@ -43120,7 +43125,7 @@
         },
         {
           "path": "articles/nibbana/humanize/SCORECARD.md",
-          "sha256": "db2e419c054ba78fd48d55f105320187392a0be576b4f5568b5635c1678452f4",
+          "sha256": "139c5f8e044153466e57cd70bfe8ccd81d43a2a4d788bc134e1349bdc0077469",
           "role": "humanization_working_record"
         },
         {
@@ -44266,6 +44271,266 @@
         {
           "path": "articles/nibbana/humanize/fix-20261023/recheck6/RECHECK-POST.json",
           "sha256": "5641395b5e465b1d421f24a67f13c9b9a6544b34735c8a44146acf51af447619",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/ARTICLE.txt",
+          "sha256": "f208b3cb5aced3e94209cf231eed31ffbf2255e9448b298859a218900d687352",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/BRIEF-1.txt",
+          "sha256": "000d9cb4ba23bbbeb9c76ff8fe014795a2235b499de6ae5282ac8b69a3760574",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/BRIEF-2.txt",
+          "sha256": "47fa173c26f801ffa835e6fa21379ec45f7956b279a946fb78c122eb1151dd7d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/BRIEF-3.txt",
+          "sha256": "3d9c893adeef7e25cef48832e24acb08a682cc01fe22871986fa164572ad54eb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/BRIEF-4.txt",
+          "sha256": "24d7d2e75201c84497adf1a4ddc640ac3cac89757695e980aeb94aec0640b796",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/BRIEF-5.txt",
+          "sha256": "00df07c64e33585f95c7b272a8d0e307e7ba158ac8884dd5d69b72d5b9cccc89",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/BRIEF-6.txt",
+          "sha256": "5a6fdefbff98dcd82e40e75f549552817597ea4898072b9bb46ff400514687eb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/KIND",
+          "sha256": "462506063d7f3c29bb8890e0ffe6b653b48bea2cce638a0c7eb97ca4b0c907dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/PART-1.txt",
+          "sha256": "aa707d63d66d0e9136c5c98e1ec406568881667c89ea3d4ec0326642e63b61bb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/PART-2.txt",
+          "sha256": "72612c1c507045f0eb79025a12f67c0fe87682a230a64728a65f6029028c13b1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/PART-3.txt",
+          "sha256": "22cbe27f342994f0e7aa80d96a35cfd28b2119c8759363846000768aeee10881",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/PART-4.txt",
+          "sha256": "b9eaa1e19b85fe8ace5f9c3db16870842b00466758abf4411264df2394f16777",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/PART-5.txt",
+          "sha256": "a4ccfc2c175322b36f6cbaf7b82540b8bd4a34dd6165ca15f50d42c85a67202c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/caveats/PART-6.txt",
+          "sha256": "cdc785648ba3a9b4d8fb591c85a00cfbecaf97a7982bfefbf0f32bd8cc488e53",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/joel-20261023-2229-message.txt",
+          "sha256": "787dff57699d376cc42f7d41fcab49ab51b8fac65a40253d4bc98c14597a92cd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/BUNDLE4.json",
+          "sha256": "df6b3dbc2b0a939709b8a801a35b2984d87c74e98da128aec9d7147db55cde24",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/EDITS-n6.json",
+          "sha256": "58d6a441be2b68f9429f53681f8cf4a9c714fdfe37eed4dfd9db0bdb0f9bffc4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/REVIEW-PROMPT.txt",
+          "sha256": "bb51e73c3d2875388ac406f47905216ba3d8da18aed7536398348786eaa31ed9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/REVIEW.md",
+          "sha256": "6031a12779c81c8221b1df8f82ab45c9ef5a049198f85c7ec1fe4ddd562d55cc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/TRIAGE.json",
+          "sha256": "707f31d8eae042bfb078fe941e4bea3f543482923e610c2c8dbde9f85a856726",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/ca/NB-attribute.out.txt",
+          "sha256": "d2a7a0285f342bef08329cd15ab245e24626f8d10238d90450f5730548a8dc49",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/ca/NB-aware.out.txt",
+          "sha256": "e54bf268c8ac681fce04be5fa019f131854c12c510bed1651e4d76c4a75b1101",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/ca/NB-lucid.out.txt",
+          "sha256": "0edc34405b71e7e2c7ac8ded48f101eda6eeef521c5683cc21308d3b40f65c38",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/ca/NB-mn89note.out.txt",
+          "sha256": "f6d6fb1a7fa3929cdf5ef07954b1ac3348bd3bcc7f1b3620e6d55103030911ec",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/ca/run-all.log",
+          "sha256": "05142dcbd41f7ea584856b8d4a2291411eaf5afe3f66c8f8c2315014b8a50adc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cb/NB-attribute.out.txt",
+          "sha256": "84a7dad9310ddc20afc75e7c34df96b441c3a81e761015433ee212ef1873174f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cb/NB-aware.out.txt",
+          "sha256": "9067093931647a97c32195097d9970c18cf9ac41805e61dad2a98b86dcc5a457",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cb/NB-lucid.out.txt",
+          "sha256": "02a4e72bc71b206bb8d966c7d4fc99f382243214b88ff4e131d9ddaa331805c3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cb/NB-mn89note.out.txt",
+          "sha256": "fe0509611f725b8902bc78682b53d8457a05562f2e520869ff65d063d9d0009d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cb/run-all.log",
+          "sha256": "6321bbf93231451eb76cc21494b47da4e7a8c91561762936df821538d7e6b255",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cc/NB-attribute.out.txt",
+          "sha256": "4d0925532ecfbd0067855da779ec0c4dc3899d25c823e83f5e4475a9dde88e78",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cc/NB-aware.out.txt",
+          "sha256": "1fc176e8485f668d449708ff0f8b2948305d70dd1c9effaec3de2a654c31dd44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cc/NB-lucid.out.txt",
+          "sha256": "2bf48058aab6249880bfa4cf17b15e98e39a52e5afaa9e89b43b1a5fa73ff1be",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cc/NB-mn89note.out.txt",
+          "sha256": "66243114e482bb71d7cc7b4152d4924203858ec1d76c0c42a1679023cf471305",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/cc/run-all.log",
+          "sha256": "4ca68a95086199745a0411920dbcad998465ba710823f9b55d5160ae9b434e81",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/n6/emulate_n6.py",
+          "sha256": "272567c63eba85d98d2c61a23bbf9ff8cf617d90ab21614c08b39a1810fd08a1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck6/META.json",
+          "sha256": "20d1781d074c7863d2e71ce48b20a51c7e46fac44315a478e58b523aa3fae62c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck6/RESULT.json",
+          "sha256": "99e1454e27bdccf184d1107bc8ce5c9285736174eddf28ccf3038fa65b5710c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck6/SCORE.md",
+          "sha256": "46fa716114274ddfb59d8749a91a49c070e18f43bebe48d445c19bd58a5a7173",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck6/WINDOWS.txt",
+          "sha256": "3571d0fb39c2235637da2c66a0faad3ada2e1335a169f9e2d69f5c237abf55ea",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/CHANGED.json",
+          "sha256": "04f1cde0f93159e4ffef2577d0dbfa06b029386a454f116d6c6b128d28473e33",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/COPY-TO-SUBSTACK-NIBBANA-RECHECK.html",
+          "sha256": "907f91ae4c138d71b63bc4459e48c8f14f1af9e3c2d4e0cd98cd18a8127d0647",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/DRAFT-TEXT.txt",
+          "sha256": "a56e5aafcf28285e30b5a81636c8170eb2853b59374a5fe00cae474fc15ef885",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/EXPECTED.txt",
+          "sha256": "95eea920654d309c5b4b5f543a59d8c1b49ff9af5a20bf99433a1841d81c02f6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/FORECAST.json",
+          "sha256": "3e61982e707c0122add3d60f8776d4271f889b6f3c83fabdb7ea2a2f8397671d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/PAYLOAD.html",
+          "sha256": "fc386dbe37cc341af9591ac235389475b088b30784faf41f8bb8f19a4be432d0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/RECHECK-BUILD.json",
+          "sha256": "50552ae6ba16982e0a197d49e466472ed577b1cec460c38af33c6a906bb129b0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/TEXT.txt",
+          "sha256": "eb4fb5638695f0b2aaf4d6c3e3a89aa829356d2d1d28aecfc56d1f0fa0e384cd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/TRANSFER-PLAN.json",
+          "sha256": "5e22931dcc1c5ae1f4342ce4f4c02da627be075a41fcca10a810ea8d4da965d7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/TRANSFER-REPORT.json",
+          "sha256": "91e2eba3fd284468676f0d65052fef044a2c65d6ca8ff8e358fcfe00a72126e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/make_changed.py",
+          "sha256": "33033a615635c1c2f2ff47ecb76002023d94f4ff84640f35ebbfe1c7c652bc4e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/humanize/fix-20261023/recheck7/make_recheck_nb.py",
+          "sha256": "015a7eee01ff77e33f54f091d4cde6b15208b3c374f2afa8d2deaf2f01b624df",
           "role": "humanization_working_record"
         }
       ]
@@ -84278,6 +84543,86 @@
         {
           "path": "articles/intentional-communities/candidate/joel-20261023/joel-20261023-2035-message.txt",
           "sha256": "5e883ae8ea08a24dcc32692a783dacd649abe2375138fd864a05093d035da89f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/ARTICLE.txt",
+          "sha256": "9521610e733ff17670e7d65421274115e0f5d1f2a46c4507a7dd095287d241cb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/BRIEF-1.txt",
+          "sha256": "0cb2dd72d7dffaf51cc436b592d10b8f98b7766005e525f5a214a82d75a7cad3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/BRIEF-2.txt",
+          "sha256": "6957af87f6124373082e522db7d4c6c23abf9e6eabb6534c35861a25f709c8d0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/BRIEF-3.txt",
+          "sha256": "3eee332f252d15b3fe5388bb0c15c6d5a058148ab94bfca0502b2086fa9d8588",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/BRIEF-4.txt",
+          "sha256": "0f5735e8e6d9789e9c072430537a9e571284d1c8d30670fd1bfc2a23fcbe3add",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/BRIEF-5.txt",
+          "sha256": "b62aa78a23026bb20692e1fe749d7705fce939b012140adb36f4a0c47fc182fb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/BRIEF-6.txt",
+          "sha256": "6fbb474755c7e335dbc8b50f57f3468122197df9c412981c338fd25909b070c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/KIND",
+          "sha256": "462506063d7f3c29bb8890e0ffe6b653b48bea2cce638a0c7eb97ca4b0c907dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/PART-1.txt",
+          "sha256": "154499e0cd97285a2428248345796638f1cb916d23bf99a97ea067f2bec2278f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/PART-2.txt",
+          "sha256": "6b25edd6f08420143b07f265698048e2b4ca9773cf78e97b2b64bbae6100b13a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/PART-3.txt",
+          "sha256": "529ff57fc54b4e868fbc9e3a15e896386892f8aa646ae00417c6ac79620cfbce",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/PART-4.txt",
+          "sha256": "2d62bf4d0d884fbea724c2fc1c068b7629b3ad2474f4b79c87f89897896fe85f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/PART-5.txt",
+          "sha256": "7db237b45daefbef0b67ceaea82ab4e4ec11e6fb5374e5509eed97951074bf94",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/caveats/PART-6.txt",
+          "sha256": "ef9985bd2fd5e971916419aedbd0b26d5f42286339ad1f8ce839540bcf6301d1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/gpt-reply-to-review-20261023.md",
+          "sha256": "de7e4faeabaa697ac68b2d75f719263a188e663b8b8a4dc06b0619cd5c724e4c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/intentional-communities/candidate/joel-20261023/joel-20261023-2229-message.txt",
+          "sha256": "787dff57699d376cc42f7d41fcab49ab51b8fac65a40253d4bc98c14597a92cd",
           "role": "humanization_working_record"
         }
       ]

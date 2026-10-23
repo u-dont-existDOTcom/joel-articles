@@ -213,6 +213,14 @@ def main():
         J5E = importlib.util.module_from_spec(spec5e)
         spec5e.loader.exec_module(J5E)
         work, rec5e = J5E.apply(work)
+    # Batch n6 (2026-10-23, after his message of 22:29 UTC with recheck 6's link): Emulate's round 4 for recheck 6's red,
+    # sentence by sentence (../n6/emulate_n6.py, ../n6/EDITS-n6.json)
+    if (N.parent / 'n6' / 'emulate_n6.py').exists():
+        spec6 = importlib.util.spec_from_file_location('emulate_n6', N.parent / 'n6' / 'emulate_n6.py')
+        J6 = importlib.util.module_from_spec(spec6)
+        spec6.loader.exec_module(J6)
+        work, rec6 = J6.apply(work)
+        rec5e = rec5e + rec6
     (H / 'HUMANIZED-SO-FAR.html').write_text(work, encoding='utf-8')
     (N / 'EDITS-n1.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes), %d of batch n3, %d of batch n4, %d of his N4 answers '
