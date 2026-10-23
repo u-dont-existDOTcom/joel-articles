@@ -117,22 +117,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
-| **all lanes** | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
+| inner child guide | 38 | 30 (79%) | 47% | 53% | 47% | 0.186 (base 0.249, 38) |
+| **all lanes** | 38 | 30 (79%) | 47% | 53% | 47% | 0.186 (base 0.249, 38) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
+| inner child guide | 38 | 30 (79%) | 47% | 53% | 47% | 0.186 (base 0.249, 38) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 13 | 10 (77%) | 46% | 54% | 46% | 0.200 (base 0.249, 13) |
-| section | 9 | 7 (78%) | 67% | 33% | 11% | 0.161 (base 0.222, 9) |
-| stretch | 8 | 7 (88%) | 50% | 50% | 38% | 0.180 (base 0.250, 8) |
+| paragraph | 16 | 13 (81%) | 38% | 62% | 56% | 0.190 (base 0.234, 16) |
+| section | 11 | 8 (73%) | 64% | 36% | 27% | 0.182 (base 0.231, 11) |
+| stretch | 11 | 9 (82%) | 45% | 55% | 55% | 0.184 (base 0.248, 11) |
 
 ## What the misses say (since the ledger)
 
@@ -158,6 +158,8 @@ The boundary mix over all lanes:
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |
 | the half varies | 1 | inner child guide |
+| Low windows with no AI window | 1 | inner child guide |
+| a repeat made adjacent by a move | 1 | inner child guide |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 
