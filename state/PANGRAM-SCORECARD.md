@@ -96,42 +96,43 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 52 | 31 (60%) | 58% | 42% | 40% | 0.209 (base 0.244, 52) |
-| **all lanes** | 52 | 31 (60%) | 58% | 42% | 40% | 0.209 (base 0.244, 52) |
+| inner child guide | 66 | 41 (62%) | 53% | 47% | 48% | 0.203 (base 0.249, 66) |
+| **all lanes** | 66 | 41 (62%) | 53% | 47% | 48% | 0.203 (base 0.249, 66) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 52 | 31 (60%) | 58% | 42% | 40% | 0.209 (base 0.244, 52) |
+| inner child guide | 66 | 41 (62%) | 53% | 47% | 48% | 0.203 (base 0.249, 66) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 41 | 22 (54%) | 49% | 51% | 44% | 0.243 (base 0.250, 41) |
-| stretch | 10 | 8 (80%) | 100% | 0% | 20% | 0.088 (base 0.000, 10) |
-| section | 1 | 1 (100%) | 0% | 100% | 100% | 0.040 (base 0.000, 1) |
+| paragraph | 47 | 25 (53%) | 47% | 53% | 49% | 0.246 (base 0.249, 47) |
+| stretch | 12 | 10 (83%) | 100% | 0% | 17% | 0.079 (base 0.000, 12) |
+| section | 7 | 6 (86%) | 14% | 86% | 100% | 0.128 (base 0.122, 7) |
 
 ## pangram-4.1-api
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 10 | 9 (90%) | 80% | 20% | 10% | 0.127 (base 0.160, 10) |
-| **all lanes** | 10 | 9 (90%) | 80% | 20% | 10% | 0.127 (base 0.160, 10) |
+| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
+| **all lanes** | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 10 | 9 (90%) | 80% | 20% | 10% | 0.127 (base 0.160, 10) |
+| inner child guide | 30 | 24 (80%) | 53% | 47% | 33% | 0.183 (base 0.249, 30) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 8 | 7 (88%) | 75% | 25% | 12% | 0.128 (base 0.188, 8) |
-| paragraph | 2 | 2 (100%) | 100% | 0% | 0% | 0.122 (base 0.000, 2) |
+| paragraph | 13 | 10 (77%) | 46% | 54% | 46% | 0.200 (base 0.249, 13) |
+| section | 9 | 7 (78%) | 67% | 33% | 11% | 0.161 (base 0.222, 9) |
+| stretch | 8 | 7 (88%) | 50% | 50% | 38% | 0.180 (base 0.250, 8) |
 
 ## What the misses say (since the ledger)
 
@@ -140,19 +141,23 @@ The boundary mix over all lanes:
 | too pessimistic about a cut | 12 | inner child guide |
 | balanced closer kept | 3 | hypnosis guide |
 | not explained yet | 3 | inner child guide |
+| a tell I did not name | 2 | inner child guide |
+| a window moved onto his line | 2 | inner child guide |
 | a second cut of the same kind | 2 | inner child guide |
+| a Low window came back | 2 | inner child guide |
+| the section read differently from the paragraph alone | 2 | inner child guide |
+| too pessimistic about a rewrite | 2 | inner child guide |
 | parallel list kept | 1 | hypnosis guide |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
 | fix underrated | 1 | hypnosis guide |
 | verdict threshold misread | 1 | hypnosis guide |
 | tells overweighted | 1 | hypnosis guide |
 | a red window read as its first section's | 1 | hypnosis guide |
-| a tell I did not name | 1 | inner child guide |
-| a window moved onto his line | 1 | inner child guide |
 | a tell I left in | 1 | inner child guide |
 | an added move read AI | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |
+| the half varies | 1 | inner child guide |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 
