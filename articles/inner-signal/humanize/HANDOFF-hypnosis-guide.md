@@ -117,7 +117,7 @@ Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the eighth recheck's 
 verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck8-n8&audience=only_paid&free_preview=false&freemail=)), and question N6 (23 safety-line and caveat cuts). N5 (the meme) he
 decides when he gets the clipboard helper for his post.
 
-Pull request PR_NUMBER (PR_URL), this turn's work for all three lanes, on `claude/community-joel-1018`; his to merge.
+Pull request 232 (https://github.com/u-dont-existDOTcom/joel-articles/pull/232), this turn's work for all three lanes, on `claude/community-joel-1018`; his to merge.
 
 ## Where it stands
 

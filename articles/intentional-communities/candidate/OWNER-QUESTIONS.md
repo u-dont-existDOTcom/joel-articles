@@ -23,7 +23,7 @@ Fresh readers each read the whole new version and owned one part of it: for each
 
 ## For you to do
 
-- 🟠 Merge [pull request PR_NUMBER](PR_URL) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
+- 🟠 Merge [pull request 232](https://github.com/u-dont-existDOTcom/joel-articles/pull/232) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
 
 ## Decided
 

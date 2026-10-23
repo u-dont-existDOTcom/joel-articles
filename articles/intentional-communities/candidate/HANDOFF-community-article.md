@@ -118,7 +118,7 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 
 ## Waiting on Joel
 1. Questions 64 (safety lines and caveats) and 65 (repeats) on `OWNER-QUESTIONS.md`.
-2. Pull request PR_NUMBER (PR_URL), this turn's work for all three lanes, on the hypnosis lane's branch
+2. Pull request 232 (https://github.com/u-dont-existDOTcom/joel-articles/pull/232), this turn's work for all three lanes, on the hypnosis lane's branch
    `claude/community-joel-1018`; his to merge.
 
 ## Next step
