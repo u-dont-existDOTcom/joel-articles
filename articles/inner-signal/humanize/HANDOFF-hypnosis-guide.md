@@ -51,8 +51,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
   4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull requests 206 and 209 (the 4.1 work to 2026-10-21 22:43 UTC)
-  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC, and 222 after it; the work since is pull
-  request 224 (https://github.com/u-dont-existDOTcom/joel-articles/pull/224), open and Joel's to merge. Main moves often (the Inner
+  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC, and 222 after it; pull requests 224 and 228
+  were merged (228 by Joel at 2026-10-23 18:09 UTC); the work since is in the pull request the newest "Next step" names. Main moves often (the Inner
   Child lane merges too): `lane_push.py` says after each push whether the pull request can merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
@@ -111,11 +111,11 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-`OWNER-QUESTIONS.md`: recheck A's result link (part A's fourth recheck of 2026-10-23, pasted twice and verified after his
-message of 16:55 UTC, [its secret link](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=recheck-a-476&audience=only_paid&free_preview=false&freemail=)). No open questions: 1 to 14 are answered.
+`OWNER-QUESTIONS.md`: part B's recheck result link (the appendices with batches 476 and 477, pasted and verified after his
+message of 18:13 UTC, [its secret link](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-477&audience=only_paid&free_preview=false&freemail=)). No open questions: 1 to 14 are answered.
 
-Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the fourth recheck's result link (the same draft, re-pasted and
-verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck4-n4&audience=only_paid&free_preview=false&freemail=)). No open questions: N3 is answered.
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the fifth recheck's result link (the same draft, re-pasted and
+verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck5-n5&audience=only_paid&free_preview=false&freemail=)), and question N4 (the reader's edit).
 
 ## Where it stands
 
@@ -179,7 +179,67 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23, after Joel's message of 16:55 UTC: recheck A4 and Nibbāna's fourth recheck wait on his Brave)
+## Next step (2026-10-23, after Joel's message of 18:13 UTC: part B's recheck and Nibbāna's fifth recheck wait on his Brave; N4 on him)
+
+His message, word for word: `fix-20261023/joel-20261023-1813-message.txt` (and in Nibbāna's `fix-20261023/`), with GPT's
+reply of 11:41 UTC that he attached (`gpt-readability-20261023-attachment.txt` beside it): recheck A4's and Nibbāna's
+fourth recheck's links; "how does "tellingly" or "it's pretty clear that" put "me " in the explanation? same for removing
+sumup line that's not putting me in. local mirror shop also not me."; "the clarity check for articles should also include
+the readability check from GPT that i started doing in the inner child article". Done:
+- **Recheck A4 read** (`fix-20261023/recheck-a4/`: WINDOWS-A.txt 4332e646..., META-A.json, RESULT-A.json): Human Written,
+  0% AI, 108 windows Human. HG-whole#58 was a miss (AI at 0.12), explained ("pessimism about Emulate's whole-stretch
+  re-run"). Forecast `SCORE.md`: 52 of 52, Brier 0.008.
+- **Nibbāna's fourth recheck read** (`articles/nibbana/humanize/fix-20261023/recheck4/`, WINDOWS.txt 6cf900d2...): Mostly
+  Human Written, 1.1% AI, 5 of 132 windows. NB-whole#26 right. Forecast 104 of 107, Brier 0.034; misses: my Soh gloss,
+  "It sounds abstract, ...", the preservation stretch, and the unification paragraph in the rest (E249).
+- **E247** (his question): E241 now lists his clarity rewrites' moves by what the words do; `docs/CLARITY-READ.md` and the
+  Nibbāna questions page say the same.
+- **E248, the reader's edit:** part 2 of `docs/CLARITY-READ.md` (GPT's five questions, his Inner Child answers 91.1 to 91.4
+  as examples), `tools/humanization/clarity_read.py make --kind edit` (brief, collect and page for proposals; examples in
+  `tools/humanization/readers_edit_examples.json`; tests), the working order's step 5.4, the declared gate, `docs/INDEX.md`.
+  Run on Nibbāna (`articles/nibbana/humanize/fix-20261023/readers-edit/`): question N4.
+- **E249:** `tools/humanization/part_forecast.py make` adds each changed part's neighbours itself (0.05 each;
+  `--no-neighbours`), with a test.
+- **Emulate, rounds br to bw** (laptop `emu-hg-br` to `emu-hg-bw`; bundles `n4/BUNDLE.json` and `BUNDLE2.json`, the same
+  in `fix-20261023/b477/`; about 55,800 words left): three samples a round of each red paragraph; round 2's unification
+  paragraph tied to the senses (NB-unif2).
+- **Nibbāna batch n4** (`articles/nibbana/humanize/fix-20261023/n4/emulate_n4.py`, called last by `n1/install_n1.py`;
+  record `EDITS-n4.json`): the definition from bu, "As you can see ..." from bv, the preservation sentences from br and bt,
+  each with logged fixes ("mine"), Soh's sentence back to his words; "That creates a practical problem." kept (his).
+  Reviewed by a fresh Sonnet reader (`REVIEW.md`), triaged (`TRIAGE.json`: three meaning fixes).
+- **Guide batch 477** (`fix-20261023/b477/EDITS-b477.json`, in EDITS41): recheck B's red line from br.
+- **Nibbāna recheck 5** (`recheck5/`): built, CHANGED.json (6 parts) and FORECAST.json (74 parts, 5% no red),
+  NB-whole#27 (AI at 0.05), pasted into draft 221726541 (caption deleted), rendered text = DRAFT-TEXT.txt (5df5b089...).
+- **Guide part B recheck** (`fix-20261023/recheck-b2/`): built, CHANGED.json (10 parts, the kept audit at 0.9),
+  FORECAST.json (51 parts), HG-rest-B#59 (AI at 0.01), pasted into draft 221412532; rendered text, the card's line left
+  out, = TEXT-B.txt (b4a57231...).
+- **Nibbāna's reader's edit** (`articles/nibbana/humanize/fix-20261023/readers-edit/`): six fresh Sonnet readers, a sixth
+  each (the first three, a third each, spent all their output thinking and were stopped); 19 proposals, two of them
+  artifacts of the reading text (fixed in the tool: line breaks kept, images and videos marked), one added from my
+  check (the "That creates a practical problem." heading); `ITEMS.json` has my pick and reason for each,
+  `READERS-EDIT.md` is the list (question N4: 18 proposals, 13 picked A).
+- Pull request 228 was merged by Joel at 18:09 UTC; this turn's work is pull request 230
+  (https://github.com/u-dont-existDOTcom/joel-articles/pull/230).
+- Delegation: one Sonnet reader for the splices (checked by my triage), six Sonnet readers for Nibbāna's reader's edit
+  (checked by me against the whole article).
+
+Next:
+1. **When Joel sends Nibbāna's fifth recheck link**: read it with `pangram_feed_read.js` in compact mode, save
+   `recheck5/WINDOWS.txt` (check its SHA-256), META.json, rebuild RESULT.json from DRAFT-TEXT.txt (5df5b089...) and the
+   windows as in recheck4, record NB-whole-n5's result, score `recheck5/FORECAST.json`. Red on "That creates a practical
+   problem." again: ask him, with bv's "There's also a practical problem." as an option. Other red: Emulate first on the
+   paragraph it covers (E237, E244).
+2. **When he sends part B's**: the same in `recheck-b2/` (`substack_check_text.py result recheck-b2/PAYLOAD-B.html
+   WINDOWS-B.txt META-B.json --out RESULT-B.json`, text b4a57231...), key HG-rest-B-b477, score its forecast. The audit
+   questions read red by his 2c.
+3. **N4** (Nibbāna's reader's edit): put in what he picks word for word (a new heading one level below its section's, an
+   existing heading moved as he picks), add his answers to `tools/humanization/readers_edit_examples.json`, and read each
+   move's stretch in the next recheck (a move keeps its paragraphs' checks; E241 (Inner Child): read new neighbours for a
+   repeat first).
+4. **The guide's clarity read**, both parts, with the reader's edit, once part B reads Human outside the audit (E242,
+   E248).
+
+## Earlier next step (2026-10-23, after Joel's message of 16:55 UTC: recheck A4 and Nibbāna's fourth recheck wait on his Brave)
 
 His message, as recorded (the raw text was lost to a context compaction; its parts are word for word):
 `fix-20261023/joel-20261023-1655-message.txt` (and in Nibbāna's `fix-20261023/`): recheck A3's link; Nibbāna's third

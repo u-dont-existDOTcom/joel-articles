@@ -1,5 +1,19 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 18:13 UTC (recheck A4 and Nibbāna's fourth recheck read; batches 477 and n4; the reader's edit added to the clarity read)
+
+**Recheck A4** ([his link](https://www.pangram.com/feed/fd67dd6e-7193-4bdf-9ed8-3ed235d62d94)): Human Written, 0% AI, all
+108 windows Human; the part forecast called 52 of 52 right, and my whole-part call (AI) was the miss. **Nibbāna's fourth
+recheck** ([his link](https://www.pangram.com/feed/933f5abe-7627-4367-8dd2-8601a9125249)): Mostly Human Written, 1.1% AI,
+5 of 132 windows: the unification definition (High, alone after his 14 moved the window's edge), Soh's sentence with my
+gloss, "It sounds abstract, ...", and the preservation sentences. Emulate ran on each red paragraph (rounds br to bw), and
+batch n4 spliced in only the red sentences, the reader's three meaning fixes in; Soh's sentence is back to his words and
+the snag is fixed in the definition ("all of the senses"). For the guide, batch 477: Emulate's br for recheck B's red
+inner child line. Nibbāna's fifth recheck and the guide's part B recheck are pasted and verified, with part forecasts.
+His question ("how does "tellingly" ... put "me " in the explanation?") corrected E241 (E247); GPT's reader's edit is part 2
+of docs/CLARITY-READ.md, with a tool (`clarity_read.py --kind edit`) and tests (E248), and it ran on Nibbāna (question N4);
+part_forecast.py adds neighbours itself (E249).
+
 ## 2026-10-23, after Joel's message of 16:55 UTC (recheck A3 and Nibbāna's third recheck read; batches 475, 476 and n3; the clarity read made standard)
 
 **Recheck A3** ([his link](https://www.pangram.com/feed/43889be6-155e-4584-b232-90c4ad70e629)): Mostly Human Written,

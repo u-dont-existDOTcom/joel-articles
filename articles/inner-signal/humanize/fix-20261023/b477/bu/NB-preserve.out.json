@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bu/NB-preserve.txt",
+  "input_words": 93,
+  "input_sha256": "d966967cf2c333fa15cd52ad45b02901e754dbed649463356203f920a26a679c",
+  "balance_before": 56582,
+  "started_utc": "2026-10-23T18:27:47Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:27:56Z",
+  "response": {
+    "id": "13610341-9145-44fd-b703-a49cdb9d9509",
+    "tool": "humanize",
+    "text": "For instance, there’s a certain funny aspect to it. The fact that so many people memorized the Dhamma helped in preserving the words of the Dhamma. Not all the versions are the same, but when they have versions of the same collection, from when they first split up, there’s a lot that they agree on. Of course there are variants, and there’s the switching of different passages around, and there’s things added in, but it’s interesting to see how much of the words have been preserved, despite being handed down in a communal way for centuries.\n\nBut if that’s the case, when someone comes to learn the Dhamma today, and their mind isn’t ready yet, pliable, rid of the hindrances, elated, and confident, as the Buddha said it had to be in DN 3 and MN 56 before he’d give them the teaching that would allow them to see the Dhamma eye, what then?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 93
+    },
+    "elapsed": 9
+  },
+  "balance_after": 56489
+}

@@ -7,7 +7,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 18 | 15 (83%) | 83% | 17% | 11% | 0.129 (base 0.139, 18) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
 
@@ -41,22 +41,22 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 18 | 15 (83%) | 83% | 17% | 11% | 0.129 (base 0.139, 18) |
-| the latest 100 | 18 | 15 (83%) | 83% | 17% | 11% | 0.129 (base 0.139, 18) |
-| all | 18 | 15 (83%) | 83% | 17% | 11% | 0.129 (base 0.139, 18) |
+| the latest 50 | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
+| the latest 100 | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
+| all | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 6 | 5 (83%) | 100% | 0% | 17% | 0.075 (base 0.000, 6) |
+| article | 7 | 5 (71%) | 86% | 14% | 14% | 0.175 (base 0.122, 7) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 6 | 0.06 | 0% |
+| 0.0 to 0.2 | 7 | 0.06 | 14% |
 | 0.2 to 0.4 | 7 | 0.33 | 14% |
 | 0.4 to 0.6 | 5 | 0.47 | 40% |
 
@@ -109,7 +109,7 @@ Calibration:
 | 0.6 to 0.8 | 3 | 0.60 | 100% |
 | 0.8 to 1.0 | 4 | 0.85 | 75% |
 
-## Misses since the ledger (17)
+## Misses since the ledger (18)
 
 | cause | misses |
 |---|---|
@@ -125,12 +125,12 @@ Calibration:
 | tidy closers at both paragraphs' ends | 1 |
 | tidy closer | 1 |
 | a linter fix that read worse | 1 |
+| pessimism about Emulate's whole-stretch re-run | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [HG15-w467](https://www.pangram.com/history/9cfccd99-95ce-49b0-a65a-47216c218f42) | HG15, 1 | Human | AI or mixed | balanced closer kept |
 | [HG35-w467](https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad) | HG35, 1 | Human | AI or mixed | parallel list kept; light green turned red |
 | [HG15-p9e2](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56) | HG15-p9, 2 | Human | AI or mixed | balanced closer kept |
 | [HG35-forgive-e3](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3) | HG35-p13, 2 | AI | Human | fix underrated |
@@ -145,13 +145,13 @@ The latest:
 | [b472_s2f_alone](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2f_alone) | HG17-B306, 3 | Human | AI or mixed | six versions, same reading: the method is spent |
 | [b472_s1c](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s1c) | HG16-B209, 3 | Human | AI or mixed | a linter fix that read worse |
 | [HG-rest-41r4-b](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83) | HG-rest-B, 3 | Human | AI or mixed | parallel list kept |
+| [HG-whole-41r7b-a](https://www.pangram.com/feed/fd67dd6e-7193-4bdf-9ed8-3ed235d62d94) | HG-whole, 6 | AI | Human | pessimism about Emulate's whole-stretch re-run |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 6 of unlimited (Substack) | pending |
-| HG-rest-B | article | 3 of unlimited (Substack) | Mixed |
+| HG-rest-B | article | 4 of unlimited (Substack) | pending |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |

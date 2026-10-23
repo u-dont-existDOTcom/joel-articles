@@ -1,24 +1,76 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 16:55 UTC. **Open questions: none.** **One thing for you to do**: run
-Pangram on the fourth recheck draft and send me its link (just below).
+Last updated 2026-10-23, after your message of 18:13 UTC. **Open questions: N4** (the reader's edit, just below).
+**One thing for you to do**: run Pangram on the fifth recheck draft and send me its link (below N4).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md),
 so a session in either of your accounts can read and update it. Your post itself is never touched: the fixes go into a
 working copy, and you put them in your post when you want them.
 
+## Open question
+
+- 🟣 **N4. The reader's edit for this article: which of 18 changes go in?** You asked for GPT's readability check to be
+  part of the standard clarity check, so it ran here first: [the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/readers-edit/READERS-EDIT.md),
+  18 proposals in the article's order: 10 headings (two of them with an existing heading moved down to where its subject
+  starts), 6 moves and 2 cuts. None rewords your sentences; the only new words are the headings'. My picks: put in 13,
+  leave 5 (the two cuts among them: one would lose the start of your dream thread, the other is your own words from your
+  12:30 rewrite). Number 12 is mine: "That creates a practical problem." opens its section, and its "That" points back across
+  the heading. Two readers' flags weren't real (the reading text had joined a line break and left out a video), and the
+  tool now shows both.
+  - **Answer** with each number and A or B, or "N4: your picks".
+
 ## For you to do
 
-- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck4-n4&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** The same temporary draft,
-  now with all of your 16:55 answers in (below). Its text in the page is exactly the text I forecast from: 36 changed
-  stretches, your own words at 6% each, the plain versions you passed at 10% (the three "possibly human" ones at 20%), my
-  few-word fixes at 5 to 8%, and 1 to 2% for each light green window of the last check; together a 6% chance of no red at
-  all ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck4/FORECAST.json)).
-- 🟢 Done: [the third recheck](https://www.pangram.com/feed/f2b77491-4933-42cf-a431-8b063208fa78) (your result of 16:55 UTC):
-  Human Written, 0.34% AI, 2 of 161 windows red, both on the photon paragraph you then rewrote. Your 14:14 fix read Human.
-  My part forecast called 68 of its 70 parts right ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck3/SCORE.md)); the two misses
-  were that paragraph's windows, which I had at 1 and 2%.
+- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck5-n5&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** The same temporary draft,
+  now with batch n4 in (below). Its text in the page is exactly the text I forecast from: your kept "That creates a
+  practical problem." at 30%, the new definition and "As you can see ..." at 25% each, the two preservation sentences at
+  20% each, your Soh sentence at 10%, each of their 10 neighbours at 5%, and 1 to 2% for each light green window of the
+  last check; together a 5% chance of no red at all ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck5/FORECAST.json)).
+- 🟢 Done: [the fourth recheck](https://www.pangram.com/feed/933f5abe-7627-4367-8dd2-8601a9125249) (your result of 18:13 UTC):
+  Mostly Human Written, 1.1% AI, 5 of 132 windows red, below. All 36 stretches of your 16:55 answers read Human but my
+  Soh gloss. My part forecast called 104 of its 107 parts right ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck4/SCORE.md)).
+
+## Your message of 2026-10-23 18:13 UTC, and what I did
+
+Your message, word for word as I have it: [joel-20261023-1813-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/joel-20261023-1813-message.txt),
+with GPT's reply you attached beside it.
+
+- 🟢 **"how does "tellingly" or "it's pretty clear that" put "me " in the explanation?"** It doesn't; you're right, and the
+  same goes for cutting the summing-up line and for the mirror shop. Of the things I listed, only your dad's oxymoron is
+  about you. What your rewrites did: a conversational register ("it's pretty clear that"), a judgment word ("tellingly"),
+  a playful image (the mirror shop), more precision, and an ending that stops where the point lands (no summing-up line).
+  I had a theory (AI text is impersonal, so your fixes must make it personal) and fitted your examples to it instead of
+  reading each one. The rules, [the clarity page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/CLARITY-READ.md) and the lesson bullet below now describe each
+  move by what the words do, and when I sum up edits, each example gets read against its label first (lesson E247).
+- 🟢 **The readability check from GPT is part of the standard clarity check now**, as [part 2 of the clarity page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/CLARITY-READ.md#part-2-the-readers-edit):
+  GPT's five questions (how many decisions one passage asks for; a second subject without its own heading; what each
+  warning's job is; a paragraph that could be ordinary; what an attentive reader still genuinely needs), your Inner Child
+  answers 91.1 to 91.4 as its examples, its own brief for a fresh reader in the clarity tool, and a step in the working order
+  for fixing an article. Its proposals are moves, headings, labels and real repeats, never new jokes, examples or teaching,
+  and nothing goes in without your pick. Pangram stays separate from it (lesson E248). I ran it on this article: N4 below.
+- 🟢 **Batch n4, for the fourth recheck's red,** from Emulate (six samples of each red paragraph, in two rounds), with only
+  the red sentences spliced in and a fresh reader comparing each with your published words ([its review](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n4/REVIEW.md)):
+  - The unification definition, my rewrite from this morning, read AI, High, alone once your 14 moved the window's edge.
+    It's now: "I am using the term unification for whatever is needed to make all of the senses work together so I can
+    perform daily acts, like talking or crossing the street, etc., which works even without a separate knower. Most of my
+    day includes that ordinary unification and is similar to how most people spend their day, I would guess, if they are
+    happy." From the reader's check I put back "separate" (that's your claim; "without a knower" is Soh's) and "ordinary".
+  - Your 30 asked how I'd fix "sensory unification" vs "unification" with Soh. My gloss read red, so your Soh sentence is
+    back as you published it; the definition now says unification is what makes all of the senses work together (your
+    own sense of it, from the percentages paragraph), so "sensory unification" points back to it.
+  - "It sounds abstract, but the next sections explain what I think the experience was showing." is now "As you can see
+    this is going to be a little abstract, but I’ll try in the next few sections to explain what I think the experience is
+    showing." (I cut its "a bit more": your sections do explain it.)
+  - The preservation sentences: "They were transmitted communally for many centuries and there are several early
+    collections which were preserved separately and agree to a large degree, although of course there are variants,
+    rearrangements, and later additions. But just because the pieces of the puzzle come down to us well doesn't mean that
+    the picture on the box has." Your puzzle image stays.
+  - "That creates a practical problem." stays yours: the one sample with a replacement ("There's also a practical
+    problem.") turned your cause into a second problem. If it reads red again, I'll bring it to you.
+- 🟢 **A miss of mine, fixed in the tool:** the unification paragraph was the neighbour of a changed stretch, and the rule
+  that a forecast gives neighbours their own chance ran by hand in the guide's forecast but not in this one. The forecast
+  tool now adds them itself (lesson E249).
 
 ## Your message of 2026-10-23 16:55 UTC, and what I did
 
@@ -65,10 +117,12 @@ The numbers are those of [the clarity list](https://github.com/u-dont-existDOTco
   version before publishing, and after a big batch of changes) and how, with a tool for it; it's a required step in every
   lane's rules and in the working order for fixing an article.
 - 🟢 **The Pangram lessons** are in [the shared rules](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md) (E241 to E245). The main one: of the 28 plain
-  versions you checked, you called 13 AI, and your rewrites of them passed. Yours kept the explanation and put you in it:
-  your stance ("which I'd explain as", "tellingly", "it's pretty clear that", "that's a relief"), a reason or exception
-  of your own, your images and jokes (the local mirror shop, your dad's "military intelligence"), and no summing-up line
-  ("Put together, that says ..."). So the readers now give the smallest change to your words, and their versions are
+  versions you checked, you called 13 AI, and your rewrites of them passed. Yours kept what they explained and changed
+  how it was said: a conversational register ("it's pretty clear that", "that's a relief"), a judgment word
+  ("tellingly"), an image ("Suppose light buys a mirror from the local mirror shop"), more precision (an exception, a
+  cause, a fact), an ending that stops where the point lands, with no summing-up line, and one personal reference (your
+  dad's "military intelligence"). (Corrected after your question of 18:13 UTC: I had called this putting you in it, and
+  only the last one is about you.) So the readers now give the smallest change to your words, and their versions are
   treated as a pointer to what's missing, not as text to put in.
 
 <details><summary>N3 as it was asked</summary>

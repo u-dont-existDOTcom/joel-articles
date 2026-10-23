@@ -45,11 +45,12 @@ What came up when GPT proposed the r03 structure (2026-10-20) and Claude reviewe
 
 ## 5. Clarity
 
-**Standard for every article, as it's written and before it's published (Joel, 2026-10-23 16:55 UTC):** "let's make sure this kind of check is standard for articles as we write them and as we finalize before publishing in future". The whole-article clarity read finds what passes Pangram but is hard to understand, his own words included: `docs/CLARITY-READ.md` (when, the tool `tools/humanization/clarity_read.py`, and what to do with the readers' plain versions).
+**Standard for every article, as it's written and before it's published (Joel, 2026-10-23 16:55 UTC):** "let's make sure this kind of check is standard for articles as we write them and as we finalize before publishing in future". The whole-article clarity read finds what passes Pangram but is hard to understand, his own words included, and the reader's edit finds what a reader has to work through: `docs/CLARITY-READ.md` (when, the tool `tools/humanization/clarity_read.py`, and what to do with the readers' plain versions and proposals).
 
 1. **When:** once a full draft exists (a new article, or a long new section), before its whole-article Pangram check; and on the final candidate before publishing, before the final whole-article check; and after a large batch of changes to a published article.
 2. **Fresh readers, a third of the article each,** with his own clarity fixes as the examples of what counts; then check every flag against the whole article before it goes to him (in Nibbāna's first read, 7 of 36 flags were explained elsewhere).
 3. **The plain versions are suggestions, not the text that goes in.** He rewrote 14 of Nibbāna's 28 when they read AI, and his rewrites passed (gate E241). Send him the numbered list and put in his answers word for word.
+4. **The reader's edit goes with it (Joel, 2026-10-23 18:13 UTC: "the clarity check for articles should also include the readability check from GPT that i started doing in the inner child article").** Part 2 of `docs/CLARITY-READ.md`: a fresh reader with its own brief (`clarity_read.py make --kind edit`) looks for what a reader has to work through even where each sentence is clear (too many decisions in one passage, a second subject without a heading, warnings that explain instead of changing what the reader does, paragraphs that perform, explaining past understanding) and proposes moves, headings, labels and real repeats, never new jokes, examples or teaching. Check each against the whole article and his earlier answers, give him the list with your pick for each, and put in what he picks word for word; nothing goes in without his pick (gate E248).
 
 ## 6. Pangram
 

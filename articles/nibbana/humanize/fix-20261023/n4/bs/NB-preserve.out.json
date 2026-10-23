@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bs/NB-preserve.txt",
+  "input_words": 93,
+  "input_sha256": "d966967cf2c333fa15cd52ad45b02901e754dbed649463356203f920a26a679c",
+  "balance_before": 57280,
+  "started_utc": "2026-10-23T18:20:47Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:20:54Z",
+  "response": {
+    "id": "e82a8f0a-374e-44a6-9798-1be034fd3186",
+    "tool": "humanize",
+    "text": "One has to wonder if the actual words have been preserved. This is a great puzzle, in that the early collections were kept separate for a long time, and yet seem to largely agree, despite variations and additions. But they were also kept by groups of people, not by individuals.\n\nAnother issue is that the Buddha did not give the talk that led to the seeing of the Dhamma eye until the student's mind was ready, pliable, etc (see DN 3, MN 56). How does one handle that when people are poring over a list of stages?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 93
+    },
+    "elapsed": 6
+  },
+  "balance_after": 57187
+}

@@ -1,0 +1,20 @@
+{
+ "feed_uuid": "933f5abe-7627-4367-8dd2-8601a9125249",
+ "link": "https://www.pangram.com/feed/933f5abe-7627-4367-8dd2-8601a9125249",
+ "created_at": "2026-10-23T14:08:16.925896-04:00",
+ "domain": "substack",
+ "headline": "Mostly Human Written",
+ "prediction_short": "Human",
+ "version": "4.1",
+ "fraction_ai": 0.011232718825340271,
+ "fraction_human": 0.9887672662734985,
+ "word_count": 15671,
+ "num_ai_segments": 5,
+ "num_human_segments": 125,
+ "text_chars_js": 90324,
+ "text_sha256": "7c8dc8b0d01f7abf030ab8bf4dcaadde1b2bedf50aafeca69b5a8d6858f18504",
+ "windows_word_sum": 15577,
+ "windows_ai": 5,
+ "windows_human": 127,
+ "read": "the result page's React props in compact mode (tools/humanization/pangram_feed_read.js, window.__feedMode = 'compact'), read in the app's browser after Joel's message of 2026-10-23 18:13 UTC"
+}

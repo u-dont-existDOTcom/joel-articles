@@ -973,18 +973,23 @@ The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-1655-message.
 
 - **E241. What his clarity rewrites did that the readers' plain versions didn't.** Of the 28 plain versions he checked, he
   called 13 AI and rewrote them (and rewrote one more without a verdict); he passed 14, 3 of them as "possibly human". His
-  rewrites passed. The plain versions that read AI were neutral, tidy explanations; his kept the explanation and put
-  himself in it:
-  - his stance and his reasoning words: "which I'd explain as", "tellingly, what they ultimately find", "it's pretty clear
-    that ... although they're framed as", "that's a relief", "more obviously", "as we can see", "Clearly,", "actually not
-    new at all", "isn't as strict as that all the time";
-  - a reason or an exception of his own: "since there's no more craving for existence driving that", "except while in the
-    nibbāna meditation itself", "due to starting from more confusion", "or never tangled to begin with";
-  - his own images and jokes: "Suppose light buys a mirror from the local mirror shop", "like my dad's favorite oxymoron:
-    'military intelligence'", "pushing the problem of what is real further down the lane", his tangling for the plain
-    version's "set up"; and facts he knows ("the Buddha's cousin", "Advaita Vedanta");
-  - no summing-up line: "Put together, that says unity itself is the last stress.", "That's why I say that kind of
-    non-duality is false.", "That's why, in this article, ..." all went (J07, J11, W61).
+  rewrites passed. The plain versions that read AI were neutral and complete: every step explained, every conclusion
+  stated, often a summing-up line at the end. His kept what they explained and changed how it was said (corrected on
+  2026-10-23 at 18:13 UTC, E247: I had called this "putting himself in it", and only one move is about him):
+  - a conversational register: casual certainty and hedges ("it's pretty clear that", "isn't as strict as that all the
+    time", "actually not new at all"), an idiom ("pushing the problem of what is real further down the lane"), phrasal
+    verbs for Latinate ones ("loosened up" for "dissolved"), an aside ("that's a relief");
+  - the writer's judgment of what matters, in a word: "tellingly", "more obviously", "Clearly,", "as we can see";
+  - attribution where the plain version asserted: "although they're framed as sitting inside ...", "referred to as";
+  - concrete or playful images for abstract ones: "Suppose light buys a mirror from the local mirror shop", "(nor
+    anywhere to sprout from)", his tangling for the plain version's "set up";
+  - more precision: an exception ("except while in the nibbāna meditation itself"), a cause ("since there's no more
+    craving for existence driving that"), a reason ("due to starting from more confusion"), a possibility ("or never
+    tangled to begin with"), facts ("the Buddha's cousin", "Advaita Vedanta");
+  - an ending where the point lands: the quote, or the image, ends the passage, and the conclusion is left to the reader
+    ("Put together, that says unity itself is the last stress.", "That's why I say that kind of non-duality is false.",
+    "That's why, in this article, ..." all went; J07, J11, W61);
+  - one personal reference: his dad's favorite oxymoron, "military intelligence".
   Sometimes a few words were enough: the reader's version of the footing sentence passed with his "(nor anywhere to
   sprout from)" added; the ignorance line passed with "merging multiple experiences into one" and "when compared with"
   for the reader's "merging experience into one" and "when you set it next to". So a clarity fix keeps his words and adds
@@ -1031,11 +1036,63 @@ The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-1655-message.
   2026-10-06; the next rechecks read them in place). So every splice from Emulate gets the linter's O15 fixed before it
   goes in (`docs/EMULATE-FALLBACK.md`, section 4).
 
-(The next lesson in either lane is E249: the Inner Child lane's E247 and E248 are in its turn-100 section below.)
+## What Joel's message of 2026-10-23 18:13 UTC taught (the hypnosis guide and Nibbāna lanes)
+
+The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-1813-message.txt` (the same file in the guide's
+`fix-20261023/`, beside a copy of the GPT reply he attached), and the two rechecks scored (`recheck4/SCORE.md` in
+Nibbāna's `fix-20261023/`, `recheck-a4/SCORE.md` in the guide's).
+
+- **E247. Say what a change does, not why I think he made it.** His words: "how does "tellingly" or "it's pretty clear
+  that" put "me " in the explanation? same for removing sumup line that's not putting me in. local mirror shop also not
+  me." I had summed up his clarity rewrites as putting him in the explanation: "his stance and his reasons in the
+  sentence", "his own images", and no summing-up line as part of the same thing (E241, `docs/CLARITY-READ.md`, the
+  Nibbāna questions page). Of the moves I listed, one is about him: his dad's oxymoron. "Tellingly" is a judgment word,
+  "it's pretty clear that" is a casual register, the mirror shop is a playful image of light, and a cut line adds nobody.
+  The signal was in my own list: none of the quotes under "his stance" mentions him. I started from a theory (AI text is
+  impersonal, so his fixes must make it personal) and fitted the examples to it, instead of reading each one against its
+  label. So when I sum up what a set of edits did, each label says what the words do (a register, a word, an image, an
+  ending), and each example gets read against its label before the summary goes anywhere. Fixed: E241 lists the moves by
+  what they do, and the clarity page and the Nibbāna questions page say the same. The clarity brief asked readers to
+  keep "his words, his order, his images and his voice", which is still right, and stays.
+- **E248. The clarity read has a second half: the reader's edit.** His words: "the clarity check for articles should also
+  include the readability check from GPT that i started doing in the inner child article." The clarity read (E242) finds
+  passages a reader has to reread. GPT's reader's edit (its reply of 2026-10-23 11:41 UTC,
+  `articles/inner-child-therapy/experiments/t100-answers/GPT-READERS-EDIT-20261023.md`) finds what a reader has to work
+  through even when every sentence is clear: too many decisions in one passage, a second subject with no heading of its
+  own, warnings that explain the instruction's qualifications instead of changing what the reader does, paragraphs that
+  perform friendliness, and explaining after the reader has understood. In the Inner Child guide it started with one test
+  section, and his answers are its first examples: the troubleshooting under its own heading and a near-repeat cut (his
+  91.1 B), a heading where a second subject starts (91.2 A), no label for a one-paragraph fallback whose first line says
+  what it's for (91.3 A), and a source's case kept in his words because it makes the warning land (91.4 A). It is now
+  part 2 of `docs/CLARITY-READ.md`, run with the clarity read, by a fresh reader with its own brief
+  (`tools/humanization/clarity_read.py make --kind edit`); its proposals are moves, headings, labels and repeats shown to
+  be repeats, for him to pick; and Pangram stays out of it: a moved paragraph keeps its own checks, changed words get
+  new ones, and each move's stretch is read in place in the next whole-article check, since a move can put a repeat side
+  by side (E241 (Inner Child)). Its first run, on Nibbāna (`articles/nibbana/humanize/fix-20261023/readers-edit/`), fixed
+  the tool three ways: three readers given a third of the article each spent all their output thinking and wrote nothing,
+  so the parts are a sixth and the brief says to work quickly; and two of the next readers' 19 proposals answered things
+  the reading text had hidden (a paragraph break the post shows with two line breaks, and a video the line under it
+  names), so the reading text keeps line breaks and marks images and videos. My own check of the proposals against the
+  whole article added one: a section whose first sentence ("That creates a practical problem.") points back across its
+  heading.
+- **E249. The neighbour rule ran in one lane and not in the other.** E244 says a forecast gives a changed stretch's
+  neighbours their own chance. The guide's recheck A4 forecast did, by hand (three neighbours, none red). Nibbāna's
+  recheck 4 forecast, made in the same turn, didn't, and its High red was a neighbour: the unification paragraph, my batch
+  n1 rewrite, had read Human, High, in recheck 3 inside a window that began in the paragraph before; his rewrite of that
+  paragraph (his 14) moved the window's edge, and alone the unification paragraph read AI, High. Of the forecast's 107
+  parts, 104 were right; the misses were my gloss on Soh's sentence, "It sounds abstract, but ...", and the preservation
+  stretch (light green, at 0.01 and 0.02), and the unification paragraph was in the rest. A rule that a worker applies by
+  hand gets skipped, so `tools/humanization/part_forecast.py make` now adds the neighbours itself: the paragraph before
+  and after each changed part, and the rest of the paragraph a changed part sits in, at 0.05 each unless CHANGED.json
+  gives that text its own chance. And the gloss I added to Soh's sentence for the snag he asked about read red, where
+  his sentence without it had read Human, Medium (recheck 3), so the sentence goes back to his words and the snag gets
+  a different fix (batch n4).
+
+(The next lesson in either lane is E250.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons. The next lesson in either lane is E249.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". The next lesson in either lane is E250.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 
@@ -1093,7 +1150,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
 
   It wasn't on this list until 2026-09-26, so I didn't load it or follow it (E73).
 - **Fresh-context review:** `docs/HUMANIZATION-FRESH-CRITIC-GATE.md`, whenever fresh-model evidence is used before Pangram. It never replaces the full tell ledger.
-- **Clarity read:** `docs/CLARITY-READ.md` (Joel, 2026-10-23 16:55 UTC: "let's make sure this kind of check is standard for articles as we write them and as we finalize before publishing in future"). The whole-article read for passages that pass Pangram but that a reader would have to reread, his own words included: once a full draft of an article exists, on the final candidate before publishing, and after a large batch of changes to a published article (E242).
+- **Clarity read:** `docs/CLARITY-READ.md` (Joel, 2026-10-23 16:55 UTC: "let's make sure this kind of check is standard for articles as we write them and as we finalize before publishing in future"). The whole-article read for passages that pass Pangram but that a reader would have to reread, his own words included: once a full draft of an article exists, on the final candidate before publishing, and after a large batch of changes to a published article (E242) Its second half is the reader's edit (Joel, 2026-10-23 18:13 UTC: "the clarity check for articles should also include the readability check from GPT that i started doing in the inner child article"): what a reader has to work through even where every sentence is clear, proposed as moves, headings, labels and real repeats for him to pick, at the same three times (E248).
 
 ## Steps
 

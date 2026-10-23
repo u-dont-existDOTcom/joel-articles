@@ -1,0 +1,111 @@
+[
+ {
+  "key": "n4-unification",
+  "old": "When I say “unification”, I mean whatever pulls everything together so that a person can talk, cross a road, recognize a friend and answer a text, and it works even when there’s no separate knower in there. Most of my daily life includes that ordinary unification and feels almost like everybody else’s day (well, if they’re happy).",
+  "new": "I am using the term unification for whatever is needed to make all of the senses work together so I can perform daily acts, like talking or crossing the street, etc., which works even without a separate knower. Most of my day includes that ordinary unification and is similar to how most people spend their day, I would guess, if they are happy.",
+  "windows": "9 (High) and 10 (Low) in recheck 4 (feed 933f5abe)",
+  "source": "Emulate sample bu (NB-unif2)",
+  "mine": [
+   {
+    "replace": "But I am using the term",
+    "with": "I am using the term",
+    "why": "the paragraph before opens on \"But\" already (his 14: \"But when you read AtR’s own accounts\"), and nothing here is set against it"
+   },
+   {
+    "replace": "which works even without a knower",
+    "with": "which works even without a separate knower",
+    "why": "the reader (REVIEW.md, item 1): \"without a knower\" is Soh's claim, a stronger one; his is \"no separate knower\""
+   },
+   {
+    "replace": "Most of my day includes that unification",
+    "with": "Most of my day includes that ordinary unification",
+    "why": "the reader (item 1): \"ordinary\" is what sets this everyday unification apart from the meditative one (MN 137's) the article also calls unification"
+   }
+  ],
+  "published": "I use “unification” for the functional coordination through which a person speaks, crosses a road, recognizes a friend, and answers a message, even with no separate knower. Most of my daily life includes that ordinary unification and feels almost like everybody else’s day (well, if they’re happy).",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 5)",
+  "review": "fix-20261023/n4/REVIEW.md",
+  "triage": "fix-20261023/n4/TRIAGE.json"
+ },
+ {
+  "key": "n4-soh",
+  "old": "he says sensory unification (that pulling-together of the senses) isn’t required for functioning",
+  "new": "he says sensory unification isn’t required for functioning",
+  "windows": "10 (Low) in recheck 4; the same sentence without my gloss read Human, Medium, alone in recheck 3",
+  "source": "his published words",
+  "mine": [],
+  "published": "I owe Soh a great deal, but one key difference remains: he says sensory unification isn’t required for functioning, which makes no sense to me.",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 5)",
+  "review": "fix-20261023/n4/REVIEW.md",
+  "triage": "fix-20261023/n4/TRIAGE.json"
+ },
+ {
+  "key": "n4-abstract",
+  "old": "It sounds abstract, but the next sections explain what I think the experience was showing.",
+  "new": "As you can see this is going to be a little abstract, but I’ll try in the next few sections to explain what I think the experience is showing.",
+  "windows": "33 (Low) in recheck 4",
+  "source": "Emulate sample bv (NB-abstract)",
+  "mine": [
+   {
+    "replace": "to explain a bit more on what I think",
+    "with": "to explain what I think",
+    "why": "the reader (item 3): \"a bit more\" made the sections a partial explanation; his say they explain it"
+   }
+  ],
+  "published": "It sounds abstract, but the next sections explain what I think the experience was showing.",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 5)",
+  "review": "fix-20261023/n4/REVIEW.md",
+  "triage": "fix-20261023/n4/TRIAGE.json"
+ },
+ {
+  "key": "n4-preserve-1",
+  "old": "They were transmitted communally for centuries, and separately preserved early collections agree on a great deal despite variants, rearrangements, and later additions.",
+  "new": "They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions.",
+  "windows": "85 (Low) in recheck 4",
+  "source": "Emulate sample br (NB-preserve)",
+  "mine": [
+   {
+    "replace": "The words were transmitted",
+    "with": "They were transmitted",
+    "why": "the sentence before ends on \"the words may have survived surprisingly well\"; his pronoun, as he had it"
+   },
+   {
+    "replace": "re-arrangements",
+    "with": "rearrangements",
+    "why": "O15: the article's own spelling (E246)"
+   }
+  ],
+  "published": "They were transmitted communally for centuries, and separately preserved early collections agree on a great deal despite variants, rearrangements, and later additions.",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 5)",
+  "review": "fix-20261023/n4/REVIEW.md",
+  "triage": "fix-20261023/n4/TRIAGE.json"
+ },
+ {
+  "key": "n4-preserve-2",
+  "old": "But preserving the puzzle pieces doesn’t preserve the picture on the box.",
+  "new": "But just because the pieces of the puzzle come down to us well doesn't mean that the picture on the box has.",
+  "windows": "86 (Low) in recheck 4, with \"That creates a practical problem.\", which stays",
+  "source": "Emulate sample bt (NB-preserve)",
+  "mine": [
+   {
+    "replace": "come down to use well",
+    "with": "come down to us well",
+    "why": "a typo: \"use\" for \"us\""
+   }
+  ],
+  "published": "But preserving the puzzle pieces doesn’t preserve the picture on the box.",
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 5)",
+  "review": "fix-20261023/n4/REVIEW.md",
+  "triage": "fix-20261023/n4/TRIAGE.json"
+ }
+]

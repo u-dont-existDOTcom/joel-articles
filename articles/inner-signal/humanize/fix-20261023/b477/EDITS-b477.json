@@ -1,0 +1,13 @@
+[
+ {
+  "key": "b477-HG-B-love",
+  "section": null,
+  "batch": "477",
+  "source": "Emulate sample br (HG-B-love), the red of recheck B; windows 17 (Low) in recheck B (feed 1db9825e): \"You don’t have to fix this. I’m here now.\"; \"The adult is listening.\" read Human, Medium, after it, and Emulate joined it to \"I’m here now\", so the three go together",
+  "old": "You don’t have to fix this. I’m here now. The adult is listening.”",
+  "new": "You don’t have to fix it. I’m here now, and the adult is here now to listen to you.”",
+  "published": "“Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.”",
+  "check": "read in place in the next recheck B",
+  "review": "fix-20261023/b477/REVIEW.md"
+ }
+]

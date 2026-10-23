@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bt/NB-preserve.txt",
+  "input_words": 93,
+  "input_sha256": "d966967cf2c333fa15cd52ad45b02901e754dbed649463356203f920a26a679c",
+  "balance_before": 56894,
+  "started_utc": "2026-10-23T18:21:21Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:21:28Z",
+  "response": {
+    "id": "8bb28c2a-94f6-4e4d-bd78-d033fcb8f9a2",
+    "tool": "humanize",
+    "text": "The funny thing is that, due to the centuries of communal transmission and the agreement of the early collections despite variants, re-ordering, and add-ons, the words themselves have come down to use pretty well. But just because the pieces of the puzzle come down to use well doesn't mean that the picture on the box has.\n\nAs the Buddha himself had to wait until his student's mind was \"ready, pliable, rid of its hindrances, elated, and confident\" before teaching him the passage that led to his opening of the Dhamma eye in DN 3 and MN 56, imagine what might happen to someone if someone were to skip...",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 93
+    },
+    "elapsed": 7
+  },
+  "balance_after": 56801
+}

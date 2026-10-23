@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bs/HG-B-love.txt",
+  "input_words": 62,
+  "input_sha256": "53feb99523da097fc8cdb38b494470fd599908d3ab6e160df96031cd091fbf82",
+  "balance_before": 57187,
+  "started_utc": "2026-10-23T18:20:55Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:21:01Z",
+  "response": {
+    "id": "39f85002-8cad-4f4a-ba40-a59f42e4c3d6",
+    "tool": "humanize",
+    "text": "Take a moment to give some love to your inner child. Put your hand on your heart, and another hand on your solar plexis, and lovingly say: “Little one, you are not alone. You don’t have to fix anything. I am here for you now. The grown up is here to take care of you now. Just know that I am listening.” Be sure you are talking to your inner child. They are scared to death.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 62
+    },
+    "elapsed": 5
+  },
+  "balance_after": 57125
+}
