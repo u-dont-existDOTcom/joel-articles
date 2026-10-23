@@ -1,26 +1,34 @@
 {
- "turn": 98,
+ "turn": "100",
  "replace": [
   [
-   "the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631\\.$",
-   "the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225) for him to merge.",
+   "Written\\ by\\ the\\ inner\\-child\\ article\\ chat\\ \\(turns\\ 59\\ to\\ 76\\ by\\ https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq;\\ turns\\ 52\\ to\\ 58\\ and\\ 77\\ to\\ 81\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46,\\ after\\ turns\\ 41\\ to\\ 51\\ by\\ the\\ first\\)\\.\\ Updated\\ after\\ every\\ step;\\ this\\ version\\ is\\ from\\ the\\ end\\ of\\ turn\\ 81\\ \\(his\\ message\\ of\\ 2026\\-10\\-21\\ 22:42\\ UTC;\\ lane\\ head\\ bd378cfd\\ or\\ later;\\ pull\\ request\\ \\#208\\ merged\\)\\.",
+   "Written by the inner-child article chat (turns 59 to 76 and 100 by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq; turns 52 to 58 and 77 to 99 by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46, after turns 41 to 51 by the first). Updated after every step; this version is from the end of turn 100 (his messages of 2026-10-23 12:28 and 12:33 UTC; pull request #226 for him to merge).",
    1
   ],
   [
-   "^2\\. His merge of turn 98's pull request \\(#223 is merged\\)\\.$",
-   "2. His merge of pull request #225 (https://github.com/u-dont-existDOTcom/joel-articles/pull/225), turn 98 (#223 is merged).",
+   "\\-\\ TURN\\ 99\\ \\(2026\\-10\\-23,\\ his\\ message\\ of\\ 10:23\\ UTC;\\ by\\ https://claude\\.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631\\.",
+   "- TURN 99 (2026-10-23, his message of 10:23 UTC; by https://claude.ai/code/session_01HK4718EJ5ymxsBCaz7Ru46), FINISHED in turn 100: its nine API checks ran (10:41 to 10:42 UTC) and turn 100 recorded them. Branch handoff/claude-dangerous-adult-20260924-1631; its commits are in turn 100's pull request.",
    1
   ],
   [
-   "^1\\. Round 5: paste experiments/t98-substack/PAYLOAD-A\\.html and -B\\.html into the two temporary drafts.*$",
-   "1. His two round-5 links (the drafts hold turn 98's text, checked word for word: experiments/t98-substack/PASTED.json). With them, read each feed page (the React props textQueryData.response_payload; windows' indexes are code points) and score the halves and the twelve items in experiments/t98-substack/ITEMS.json (predictions #100 to #113), record the results and explanations, build the scorecard, and give him each check he should look at with its link and part number (E214). API checks of paragraphs or sections: tools/humanization/pangram_api.py check ... --windows --expect 4.1 --public (E227), at most five or six paragraphs a check.",
+   "^1\\. The API checks of experiments/t99-api/TEXTS\\.json on the laptop .*$",
+   "1. His answers to 91 to 93 (OWNER-QUESTIONS.md); 93.1 A puts his abuser clause back word for word. Then round 6, the whole-article check through the two temporary Substack drafts, with 91.1 in if he picks A or B (a move: read ARCHITECTURE.md first, articles/AGENTS.md); predictions first; watch The Inner Guide P7's last three sentences and Related Clinical Work's first line (E231). If 92 is A: one coverage check of the guide and the queue (innerSignalGraph branch task/guide-semantic-review-20261022, queue r14) against the article, each gap traced against his recorded cuts (E191). PGQ-044 was amended in the same commit as PGQ-046 (714c23b5); its 'Already covered' names existing sections and his nutshell has 'With time, the roles become second nature'; not traced yet. The published questions page (https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E) is the other account's: republish it from there (tools/questions_page.py).",
+   1
+  ],
+  [
+   "\\ \\ \\-\\ experiments/t76\\-guide/\\ and\\ t76\\-answers/\\ \\(the\\ latest\\ turn\\),\\ ",
+   "  - experiments/t100-tries/, t100-api/, t100-installs/, t100-readers-edit/ and t100-answers/ (the latest turn; each turn since 87 has tNN-answers/, and tNN-api/ for API checks), t76-guide/ and t76-answers/ (turn 76), ",
    1
   ]
  ],
  "insert_before": [
   [
-   "  - NEXT: Next step 1.",
-   "  - Round 5: both halves pasted into the temporary drafts and checked word for word (B differs only by the note embed, as before); predictions #100 to #113 first; the previews are open in his Brave, and the links are his to copy."
+   "- TURN 99 (",
+   "- TURN 100 (2026-10-23, his messages of 12:28 and 12:33 UTC; by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #226 (https://github.com/u-dont-existDOTcom/joel-articles/pull/226) for him to merge.\n  - His messages: experiments/t100-answers/JOEL-20261023-1228.md (\"carry on from its next step\", with the other account's turns 97 to 99 pasted; \"also consider how we can work on the style rewrite that GPT proposes\", GPT's reply saved as GPT-READERS-EDIT-20261023.md).\n  - Turn 99's nine API checks had run with public links and weren't recorded: read from the laptop's cache with no new request and recorded (experiments/t99-api/API-RESULTS-1.jsonl; 7 of 9 calls right; misses #114 and #120 explained).\n  - One diagnosed try each, alone, then five-paragraph stretches (E231); all four 100% Human both ways and in: PGQ-046 (g01 with turn 99's f02) after his memoir paragraph; The Inner Guide P5; When One Life Has Ended P1 (77.6's string updated in OWNER-EDITS.json); How This Relates to IFS P7. Records: experiments/t100-tries/REVIEWS.md, experiments/t100-api/API-CHECKS.md, experiments/t100-installs/apply_t100.py; 5 of 8 calls right; lessons E228 to E231. Owner edits 184 of 184.\n  - His message of 13:10 UTC (experiments/t100-answers/JOEL-20261023-1310.md): his two updated paragraphs of Your Loan is PRE-APPROVED! are in word for word with his link (experiments/t100-installs/apply_t100b.py; entry joel-100-20261023), 100% Human alone and with their neighbors; the old paragraph's first half stays before his first one.\n  - Questions 91 (GPT's reader's edit; test draft experiments/t100-readers-edit/BORROW-ONE-COMPETENCY-TEST.md), 92 (a fresh coverage check, his 2026-10-19 question about the header) and 93 (his update left out the abuser clause, PGQ-031's point, and the endless-loop sentences, PGQ-033's last trace; and the old first half). The published questions page is the other account's, so this turn gave OWNER-QUESTIONS.md's GitHub link.\n  - NEXT: Next step 1."
   ]
- ]
+ ],
+ "sections": {
+  "## Waiting on Joel": "1. His answers to questions 91 (GPT's reader's edit), 92 (a fresh coverage check) and 93 (what his 13:10 update of Your Loan is PRE-APPROVED! left out), on OWNER-QUESTIONS.md.\n2. His merge of pull request #226 (turn 100).\n3. The two temporary Substack drafts (A and B) stay for round 6; his delete comes after its results.\n4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his \"ultimate psychedelic recipe\" line and its link."
+ }
 }

@@ -1,36 +1,85 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 98). **Open questions: none.** For you to do: the two round-5 links. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 100). **Open questions: 91 to 93.** For you to do: merge pull request #226. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`).
+The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turn 100), this file is newer than the page until the next republish.
 
 ## Open questions
 
-None right now.
+### 🟣 91. GPT's reader's edit: how to start (turn 100)
+
+GPT's proposal ([its reply of 11:41 UTC](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t100-answers/GPT-READERS-EDIT-20261023.md), which you attached): keep the depth, but don't make every reader work through every complication the moment an idea comes up. My recommendation is its own first step: one small test, judged by reading it, with Pangram kept separate. Moving a paragraph or adding a heading keeps that paragraph's own check, so those changes are cheap; only changed words need new checks.
+
+- **91.1 Borrow One Competency at a Time.** [The test, after and before](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t100-readers-edit/BORROW-ONE-COMPETENCY-TEST.md): your opening, then one borrowing for each job (warmth, protecting, the Guide), and the troubleshooting under a new heading, "If the Love Isn't Coming Yet", in the order it had. New words: that heading and "For warmth,". Nothing is cut.
+  - **A (my pick):** put it in as shown. Its two parts get a section check each, then round 6 checks it with this turn's four new paragraphs.
+  - **B:** put it in, and also cut the near-repeat: old P6's first sentence ("Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us.") says again what old P5's last sentence says.
+  - **C:** leave the section as it is.
+- **91.2 Love Doesn't Have to Wait for Trust** (16 paragraphs): a heading, "Instead of Blame", before "Your little one might not be the only one getting accused." The first half is about loving before trust; the second is about blaming an age of you, and it comes back to your little one's "What are you gonna do for me?" under the new heading.
+  - **A (my pick):** yes. **B:** yes, with your title. **C:** no heading.
+- **91.3 Journal With Each Hand:** GPT's label, "When journaling makes things more tangled", for its fallback.
+  - **A (my pick):** no label. The fallback is one paragraph, and its first line already says what it's for ("And what if all that writing leaves you more confused than when you started?").
+  - **B:** add it as a heading.
+- **91.4 Use Childhood Photographs Gently:** GPT would move the false-photo study to a source note.
+  - **A (my pick):** leave it. In the article it's three short sentences in your words, and it's the concrete case that makes the warning land, which is what GPT praises in Emotional Alchemy.
+  - **B:** move it to a note.
+- **91.5 After the test.**
+  - **A (my pick):** if the test reads better to you, GPT proposes the next sections the same way, as a list of moves, labels and real repeats; you pick; I put them in word for word and check only what changed.
+  - **B:** I draft the reader's edit for the rest of the guide myself.
+  - **C:** stop after the test.
+
+### 🟣 92. Is anything from the guide missing? (your 2026-10-19 question)
+
+Your words: "lmk if there's anything else missing, bc at top it mentions ... Source sections that have not yet been humanized, or whose latest model candidate failed audit, are not silently represented as finished here." That header is September's, from when only part of the guide was in, and I can't answer for sure from the records: the last coverage check was turn 71's (`experiments/t71-guide/COVERAGE-r4-A.md` and `COVERAGE-r4-B.md`), which found 46 points missing or partly carried; turn 71 traced each one through the records (`TRACE-r4-A.md` and `TRACE-r4-B.md` beside them), and I haven't checked since which of them are still open. Since then new teaching has come in through GPT's queue, as PGQ-046 did today.
+
+- **A (my pick):** I run one fresh coverage check of the guide and the queue against the article, read each gap against your recorded cuts, and bring you only the real gaps in one question; then the header says what's true.
+- **B:** no need; just fix the header.
+
+### 🟣 93. Your two updated paragraphs in Your Loan is PRE-APPROVED! (turn 100)
+
+Your message of 13:10 UTC (`experiments/t100-answers/JOEL-20261023-1310.md`). Both are in word for word, with your link, and they read 100% Human: [the first alone](https://www.pangram.com/history/b7e2fdf3-2621-4447-a546-05fe5ea1f075), [the second alone](https://www.pangram.com/history/219296a9-fba2-46dd-b0f1-f436e4b57963), and [both with the three paragraphs around them](https://www.pangram.com/history/dc0894fe-a7b6-4d43-9159-36fb4126dbb7). Three things they changed that I'd like your word on:
+
+- **93.1** Your second paragraph leaves out "nor does gratitude for difficulties justify staying with an abuser." GPT's queue (PGQ-031) has that point: nobody has to thank an abuser or excuse harm.
+  - **A (my pick):** put the clause back where it was, in your words. Your paragraph just before it now says you're grateful even for suffering, and someone living with an abuser could take that as a reason to stay.
+  - **B:** leave it out.
+  - **C:** your words, somewhere else.
+- **93.2** It also leaves out "Because getting what you want is an endless loop, and it doesn't lead to being content with less. When you can see that less is more, at a deeper level, that's where the real gratitude flourishes." That was the last of the queue's "if only I had X" point (PGQ-033: gratitude that waits for things to be right never comes), after your 2026-10-19 version cut its paragraph.
+  - **A (my pick):** leave it out, since you've cut this point twice now; the records will say it's out by your choice, so the queue item can close.
+  - **B:** put the two sentences back.
+- **93.3** Your first paragraph starts at "And even (or especially) when I am suffering", where the old paragraph's second half started. I kept the first half ("That may sound like a silly, quirky waste of time to some folks. ... It is directly reconnecting me to something pure and sacred.") as its own short paragraph before yours, unchanged.
+  - **A (my pick):** keep it like that.
+  - **B:** cut it.
+  - **C:** put it back at the end of your TB and roselle paragraph.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 The two round-5 links (turn 98)
+### 🟠 Merge pull request #226 (turn 100)
 
-Both temporary drafts now hold this turn's text, your three rewrites included, checked word for word after pasting. Their previews are open in two tabs of your Brave ("Inner Child, draft A (temp, delete after)" and "... draft B ..."); the preview links are in my chat reply, since the repository is public. On each, click the Pangram badge by the byline ("Human", "Click to view full analysis"), then "Copy shareable link to result" in the side panel, and send me both links. That's about a minute.
+Turn 99's nine checks recorded, the four paragraphs below and your two updated ones put in, questions 91 to 93 and the records: https://github.com/u-dont-existDOTcom/joel-articles/pull/226. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
 
-### 🟠 Merge pull request #225 (turn 98)
+### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
 
-Your three rewrites, 89: A, the public-link option, and round 5's records: https://github.com/u-dont-existDOTcom/joel-articles/pull/225. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
-
-### 🔵 The two temporary Substack drafts: not yet (turn 88)
-
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" now hold the turn-88 check, so they stay until its results are recorded. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6, the next whole-article check, will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 Round 5, PGQ-046 and the four paragraphs that came back, 2026-10-23 10:23 and 12:28 UTC
+
+Your messages (turn 99, `experiments/t99-answers/JOEL-20261023-1023.md`; turn 100, `experiments/t100-answers/JOEL-20261023-1228.md`). You merged pull request #225 at 10:21 UTC.
+
+- **Round 5's two links** are recorded: half A 1.2% AI, half B 1.4% (`experiments/t99-results/ROUND5-RESULTS.json`).
+- **"there's an update sent to your lane by gpt from me"**: it's PGQ-046, your amendment on being happy while others suffer. It's in, as two paragraphs after your memoir paragraph in Untangling the Belonging Bargains. The first reads 100% Human alone ([check](https://www.pangram.com/history/72df4253-a0b1-4895-921b-6fb88a762bbd)), the second too ([check](https://www.pangram.com/history/5a276026-12c9-4528-8df4-93ddbf904692)), and both with your paragraph and the lines around it ([check](https://www.pangram.com/history/2b561f5f-5956-4cef-b521-6b11efb84767)).
+- **The four that came back in round 5:** The Inner Guide P5, When One Life Has Ended P1 and How This Relates to IFS P7 (mine) are rewritten and in, each 100% Human alone and with its neighbors: P5 [alone](https://www.pangram.com/history/5ee698a9-da9c-4ca9-80ee-9866cfab16ef) and [P3 to P7](https://www.pangram.com/history/c101212c-912c-4223-a994-77b40547ae84) (its only windows are P7's last three sentences, at the end of that check, Human in both halves); When One Life Has Ended P1 [alone](https://www.pangram.com/history/50f027e5-f84e-47d9-bbc0-43ee045bea9c) and [in its h1](https://www.pangram.com/history/2e42b03b-65f0-4caf-955c-4c6863925169); IFS P7 [alone](https://www.pangram.com/history/b7311406-1ae8-4279-8791-fa3e66734bb2) and [P3 to P7](https://www.pangram.com/history/c4e53e05-a8e2-4090-861c-abbf245babc5). Related Clinical Work's first line (yours) stays as it is: its round-5 window ran on from IFS P7's, so round 6 shows whether it clears.
+- **Your 2026-10-19 question** about the header ("lmk if there's anything else missing") is question 92.
+- **Your two updated paragraphs of 13:10 UTC** are in word for word, each 100% Human alone and with its neighbors; question 93 has three things they changed.
+- The records: `experiments/t100-tries/REVIEWS.md`; lessons E228 to E231 in `docs/HUMANIZATION-GATE.md`.
 
 ### 🟢 88 to 90, and public links, 2026-10-23 02:29 UTC
 
