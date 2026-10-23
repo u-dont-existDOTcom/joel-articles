@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 97). **Open questions: 88 to 90.** To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 98). **Open questions: none.** For you to do: the two round-5 links. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,42 +8,20 @@ The published page, a view of this file rebuilt after every change (`tools/quest
 
 ## Open questions
 
-### 🟣 88. Your words for three stretches that are out of checks (turn 97)
-
-The API answers with Pangram 4.1, the same version as your Substack check. Each link below opens that check's page, with what read AI in **bold**. These three have used the two checks a section gets, or my third try, and still read AI:
-
-- **88.1 How Much Happiness Do You Know Is Possible?** Your P4 alone reads 100% AI ("A meal can help, and so can a boundary, but is that actually targeting the deeper existential question underneath?" read High): [your P4 alone](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_happy_p4his). In the h1, my P2 and P3 read Low and Medium: [the h1](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97_happy). My tries at P2, P3 and your P4 read worse, so P2 and P3 are back as they were and your P4 is untouched: [the h1 with my tries](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_happy_try).
-- **88.2 When the Practice Feels Real but Stays Shallow.** It went from 59% AI to 27%. Still AI: your night line with my next sentence ("Say you wake up from a dream soaked in way more feeling and need than anything the session got near."), Medium, and "Then this is probably you.", Low: [the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_shallow).
-- **88.3 The Parent You Inherited P4 (mine).** After my third try, its first two sentences and its last still read AI: [the section](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_parent).
-
-- **A (my pick):** your words for one or more of these, the way you did Before You Try and Your Body.
-- **B:** leave them until the next half check.
-- **C:** your words.
-
-### 🟣 89. My wording of your last line in Related Clinical Work (turn 97)
-
-Your line read AI, Low: "I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus." ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97_related)). Mine reads 100% Human with its section: "I borrow particular ideas and practices from each of them, but the mix is mine, so please don't blame them for it." ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_related_try)). It's your line from your guide, so yours stays until you say.
-
-- **A (my pick):** put mine in.
-- **B:** keep yours.
-- **C:** your words.
-
-### 🟣 90. The rest of The Parent You Inherited (turn 97)
-
-Checked as a section, it read 58% AI, with windows in every paragraph ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-api/API-CHECKS.md#t97b_parent)): besides my P4 (88.3), your P1 (Low, its first two sentences), your P3 (Low, its last sentence), my P2 (Low) and my P5 (Medium and Low; it read Low in round 4's half too). In round 4's half only P4 and P5 had windows, so a section checked alone is stricter.
-
-- **A (my pick):** I try my P2 and P5 with your moves, each checked alone first, and leave your P1 and P3 unless they come back.
-- **B:** I try all four, yours too.
-- **C:** your words.
+None right now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #223 (turn 97)
+### 🟠 The two round-5 links (turn 98)
 
-Your two rewrites, the first API checks, and questions 88 to 90: https://github.com/u-dont-existDOTcom/joel-articles/pull/223. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
+Both temporary drafts now hold this turn's text, your three rewrites included, checked word for word after pasting. Their previews are open in two tabs of your Brave ("Inner Child, draft A (temp, delete after)" and "... draft B ..."); the preview links are in my chat reply, since the repository is public. On each, click the Pangram badge by the byline ("Human", "Click to view full analysis"), then "Copy shareable link to result" in the side panel, and send me both links. That's about a minute.
+
+### 🟠 Merge pull request #225 (turn 98)
+
+Your three rewrites, 89: A, the public-link option, and round 5's records: https://github.com/u-dont-existDOTcom/joel-articles/pull/225. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
 
 ### 🔵 The two temporary Substack drafts: not yet (turn 88)
 
@@ -53,6 +31,15 @@ Your two rewrites, the first API checks, and questions 88 to 90: https://github.
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 88 to 90, and public links, 2026-10-23 02:29 UTC
+
+Your message (turn 98; `experiments/t98-answers/JOEL-20261023-0229.md`). You merged pull request #223 at 01:12 UTC.
+
+- **88.1 to 88.3:** your rewrites of How Much Happiness Do You Know Is Possible?, When the Practice Feels Real but Stays Shallow, and The Parent You Inherited are in word for word, except "hanlde" and "pont" (entry `joel-98-20261023`). The ST-CA reference is out, as you cut it. What they taught: E223 to E226 in `docs/HUMANIZATION-GATE.md`, starting with your "too much polish on this section, like a weird mix of overly efficient prose with actual lack of meaning."
+- **89: A:** my wording of your Related Clinical Work line is in.
+- **90: A:** your rewrite of The Parent You Inherited covers it, so there was nothing left for me to try.
+- **"public pangram links are ok":** API checks now get a public Pangram page each (E227).
 
 ### 🟢 86 and 87, 2026-10-22 23:54 UTC
 
