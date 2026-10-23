@@ -153,7 +153,10 @@ The aim is a paragraph that keeps as many of our sentences as it can and takes f
    - remove what it invented;
    - fix a changed person or pronoun;
    - finish a cut-off sentence;
-   - clean up the noise.
+   - clean up the noise: run the linter on every splice and fix each O15 flag that is a misspelling or a British spelling
+     to the article's own spelling before it goes in (gate E246: the hypnosis guide's installs let "solar plexis" in five
+     times, and "carefuly", "subconcious", "supress" and British spellings in 20 more paragraphs, which batch 476 put back
+     to the published guide's spelling).
 
    Joel's own phrasings go back in, or he's asked, with a recommendation. His own paragraphs keep his exact characters, straight apostrophes included (2026-10-02: curling them flipped one from 100% Human to 100% AI).
    - **Fix words, not shapes (community section 5, 2026-10-03).** Emulate's own sentence shapes are what pass. Of eleven paragraphs still reading AI after fresh writers (6 of 17 first picks had passed, none of 5 second picks), Emulate's round 4 with the meaning put back word by word passed 7 of 11; the four where I rebuilt its sentences to carry the meaning read AI, and so did my own spoken rewrites of those four (0 of 4). In round 6, step 1 (which I had skipped in rounds 4 and 5) found 10 of 11 raw versions Human; word-level fixes kept P24 and P25 passing, while a fix that put the published middle sentence back word for word turned P14 AI again, and the next-closest raw version with three words added passed. So check the raw versions first, take the closest passer, and make each fix the smallest change of words that carries the meaning; when a trace finding can only be met by rebuilding a sentence, try another raw version first.

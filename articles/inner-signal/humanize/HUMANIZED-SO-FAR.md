@@ -20,7 +20,7 @@ Hello Lovey Bunny!
 
 Have you ever realized that you were born with an incredible brain/mind that has many layers of consciousness: dream, protect, analyze, imitate, love, remember, hide, show, heal, etc, etc?
 
-Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, supress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
+Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc
 
 While a lot of the teachings on hypnosis talk about the ‘subconscious mind’ like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.
 
@@ -112,7 +112,7 @@ DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force y
 
 # Forget the left-brain/right-brain cartoon
 
-I use the expression ‘syncing the hemispheres’ but don’t want to over interpret what is going on neuroscientifcally. A [huge study of resting state fmri scans](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0071275) of 1011 people does not support the common pop neuropsych notion that people in general are left or right brained. But there is evidence for lateralisation of some functions or networks.
+I use the expression ‘syncing the hemispheres’ but don’t want to over interpret what is going on neuroscientifically. A [huge study of resting state fmri scans](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0071275) of 1011 people does not support the common pop neuropsych notion that people in general are left or right brained. But there is evidence for lateralization of some functions or networks.
 
 Let’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … It’s not an electoral process. Nobody needs to win!
 
@@ -146,7 +146,7 @@ Without drugs, self hypnosis or meditation might also work way better inside a l
 
 # A useful map of the mind
 
-Note: whenever I refer to the ‘subconscious’ I’m referring to all of the processes under the surface of your conscious awareness: perceptions, emotions, desires, avoidance tendencies, imagery, memories, body signals, habits, intuitions, automatic behaviours and so forth. You can work with all of these together as if it’s all one ‘mind’, or you can work with it as a set of parts, an ‘ecology’ if you like. There isn’t a ‘right’ or ‘wrong’ way to approach it. They’re all maps. Don’t form a priesthood around either one!
+Note: whenever I refer to the ‘subconscious’ I’m referring to all of the processes under the surface of your conscious awareness: perceptions, emotions, desires, avoidance tendencies, imagery, memories, body signals, habits, intuitions, automatic behaviors and so forth. You can work with all of these together as if it’s all one ‘mind’, or you can work with it as a set of parts, an ‘ecology’ if you like. There isn’t a ‘right’ or ‘wrong’ way to approach it. They’re all maps. Don’t form a priesthood around either one!
 
 Working with parts: Precision. Working with Higher Self: Coherence. Doing both: Communion.
 
@@ -166,7 +166,7 @@ c) Move back into unity again. “And all of these parts are part of the one lif
 
 Some people make themselves too fragmented by starting to work with parts. ‘Here’s a part! Here’s another one! I’ll get twelve of them in a room and give them all an office to hang around in!’ So it’s better to start from the Sacred.
 
-Start like this: ‘I’m approaching this from the universal heart. I’m approaching this from my Higher Self. I’m approaching this from the part of me that knows it belongs to life, not any wound, or role, or family, or group, or identity, or ideology, or story. So can you please tell me what’s going to be true and kind and timely and stabilising and useful here?’ Etc.
+Start like this: ‘I’m approaching this from the universal heart. I’m approaching this from my Higher Self. I’m approaching this from the part of me that knows it belongs to life, not any wound, or role, or family, or group, or identity, or ideology, or story. So can you please tell me what’s going to be true and kind and timely and stabilizing and useful here?’ Etc.
 
 It can be that you can’t even access your Higher Self, or the universal heart, or whatever works for you. (Btw, if it doesn’t work for you don’t use it! It’s no good adopting somebody else’s map.) In that case, start by just witnessing whatever is coming up. Notice the room, your body, the fact that you’re in a younger state etc. Being able to notice is enough adult presence for the first step.
 
@@ -228,7 +228,7 @@ WORKING WITH YOUR INNER CHILD:
 
 ## The two-hand practice
 
-There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that which is your solar plexis and where your child can be.
+There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that which is your solar plexus and where your child can be.
 
 Begin to send love from your heart down to your child and just notice what comes up for you. It doesn't matter if something comes up or not. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. This is a conversation with your child from your heart.
 
@@ -420,11 +420,11 @@ One of the best side-effects of learning self-hypnosis is that sudden "waking up
 
 Manipulation often comes with any of the following; urgency, you are special, FOMO (fear of missing out), not be included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, and an excessive sense of certainty about something way too quickly and you have a sense that one good question will break the spell.
 
-First of all, if you sense you are being hypnotically influenced, stop. Don’t obey immediately, but don’t rebel automatically, just realise that you are being influenced.
+First of all, if you sense you are being hypnotically influenced, stop. Don’t obey immediately, but don’t rebel automatically, just realize that you are being influenced.
 
-Secondly, some of the ways that hypnotic language is used to manipulate are where you have consented to something you didn’t realise, or you being given only one choice, or something not yet agreed upon is embedded in a sentence. For example;
+Secondly, some of the ways that hypnotic language is used to manipulate are where you have consented to something you didn’t realize, or you being given only one choice, or something not yet agreed upon is embedded in a sentence. For example;
 
-You will soon realise that I am right …. Or you may, in time, decide to admit that …. Or the only reason you do not agree is …. Or part of you already knows …. Or your higher self wants …. Or everyone who is awake knows …. Or the reason you do not believe that is true is because your ego does not want you to …
+You will soon realize that I am right …. Or you may, in time, decide to admit that …. Or the only reason you do not agree is …. Or part of you already knows …. Or your higher self wants …. Or everyone who is awake knows …. Or the reason you do not believe that is true is because your ego does not want you to …
 
 If you are unsure, you may like to ask yourself the following questions;
 
@@ -526,9 +526,9 @@ Let yourself take your time to notice, with or without words.
 
 ## Already open? Contain before you deepen
 
-This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it.
+This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilize it.
 
-Know that you're already open, you just need to aim and stabilise it, and keep it kind.
+Know that you're already open, you just need to aim and stabilize it, and keep it kind.
 
 Orient yourself by looking around. Where are you. What's the date or day. How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.
 
@@ -552,9 +552,9 @@ If being still tends to make you sleepy, or diffuse your attention, or make you 
 
 ## The two-hand induction
 
-One hand on your heart, one hand on your solar plexis
+One hand on your heart, one hand on your solar plexus
 
-Let the hand on your heart be your Nurturer and let the hand on your solar plexis be your vulnerable child
+Let the hand on your heart be your Nurturer and let the hand on your solar plexus be your vulnerable child
 
 Start to breath gently….
 
@@ -616,15 +616,15 @@ If you want to turn this one off, simply don't practice it anymore. Take it out 
 
 If you have done anything to alter your state when coming out of a trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size. If you have met a younger state or are working with parts, make sure to come back to feeling complete in your body in the here and now, that your body belongs to you, and that it is under control of your adult mind. If you have gone somewhere, make sure to go back the same way you went there. Etcetera. Make sure to only take with you when you come out of a session the things that you want to!
 
-Here is a generic bring-back that you can use: "When I come out of this session, I will only bring with me that which is useful to me in my everyday life right now. Anything else I will bring with me at a later date, when I am better able to integrate it. When I come out of this session, I will be coming back to the room I am in now, and to the day in which I am participating in this session now. All instructions you have given me to carry me deeper in this session or to keep me in this state are now finished. The only instruction I will take with me into my everyday life, or the only cue I will use to take me into this state in the future, is the one I consciously choose to, and neither of them keeps me in this state. When I come out of this session, I will be me, in my body, with my adult judgment."
+Here is a generic bring-back that you can use: "When I come out of this session, I will only bring with me that which is useful to me in my everyday life right now. Anything else I will bring with me at a later date, when I am better able to integrate it. When I come out of this session, I will be coming back to the room I am in now, and to the day in which I am participating in this session now. All the instructions you have given me to carry me deeper into this session or keep me in this state are now finished, the only intention I will take with me into my everyday life or the only cue I will use to take me into this state at a later date will be the one I consciously choose to and neither of them will keep me in this state. When I come out of this session I will be me, in my body and with my adult judgment."
 
-Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.
+Then do a count up: On 1 start to feel your body again and what it's resting on and feel your weight (of your choice). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and name where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes, back in the here and now, feeling normal and clear and the session is now over.
 
-When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.
+When you come out make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.
 
 If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
 
-Note: If you're going to sleep to a recording, it's fine to go to sleep or just to remain resting quietly at the end of it. But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely.
+Note: If you are going to sleep to a recording then it is fine to go to sleep or just remain resting quietly at the end of it, however if you are coming out of a recording then you should not leave yourself in an altered state, this includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.
 
 # The actual inner meeting
 
@@ -654,13 +654,13 @@ Respond to each thing that comes up with an accurate notice and a small reasonab
 
 An example notice might be, "I notice my chest tightening when I imagine asking for help". Don't add interpretation like "this must be the abandoned child part of me, or a protective mechanism" - just notice what you notice. An example invitation might be, "And as I notice that, I can take some time before deciding what it means, and notice if I want to say anything, or change it, or just stay like that".
 
-Then just listen. You don't need fancy language - often it will be better to just ask what happens next, or whatever. If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it) but somedays you need to talk to understand, so just do that.
+Then just listen. You don't need fancy language - often it will be better to just ask what happens next, or whatever. If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it) but some days you need to talk to understand, so just do that.
 
 You can be pretty straightforward when that's the help you chose - "Let the explanation wait a moment. What do I feel as I say that?" can be a perfectly valid thing to say to yourself, and help you focus. It's ok to just be with an unpleasant feeling, you don't have to wait till it's a nice one before you know you're ok. As long as you're still present, and able to change if you want to, and happy to carry on, a sad feeling or tension or whatever doesn't mean it's not ok.
 
 It's worth trying to separate the notice, the meaning, and your thoughts on the meaning, but in practice it will often be pretty fuzzy. When you can, it can be helpful to separate it out like that though - "I noticed... this seemed to mean... here's why that might be true / false" or something like that.
 
-Is this a notice or meaning? "My stomach went tight" is a notice, "He's a complete bastard" is a meaning, even if you didn't think it in words. You can then go on to find out what he did, notice what it was that gave you the idea, and consider if there might be other explanations. It's also ok to use phrases that you didn't think in your head - if something comes up that you're analysing, it's still good to analyse, even if it's not in your head already. Nonverbal thoughts and early thoughts aren't necessarily any better or worse than other thoughts. Feelings are good to pay attention to, but it's still good to consider what they mean.
+Is this a notice or meaning? "My stomach went tight" is a notice, "He's a complete bastard" is a meaning, even if you didn't think it in words. You can then go on to find out what he did, notice what it was that gave you the idea, and consider if there might be other explanations. It's also ok to use phrases that you didn't think in your head - if something comes up that you're analyzing, it's still good to analyze, even if it's not in your head already. Nonverbal thoughts and early thoughts aren't necessarily any better or worse than other thoughts. Feelings are good to pay attention to, but it's still good to consider what they mean.
 
 ## Let the response change the invitation
 
@@ -692,7 +692,7 @@ If any “younger” parts come up, offer them the opportunity to spend time wit
 
 If you feel that it would be useful to bring in your “Nurturer”, “Protector” or “Guide” to help you either change the “tone” of the interaction, set boundaries, or find your way toward the life you want, feel free to do so. You don’t have to talk to them, just use the one whose job you need, and if you can’t do it yet, borrow it. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.
 
-Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualising someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.
+Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualizing someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.
 
 It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can ‘stay there’ (ie remain in the process). If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t ‘take’ the love.
 
@@ -792,7 +792,7 @@ What do you say to yourself in that moment? “If it’s really there, it’ll s
 
 ## You become too analytical
 
-You’re being too analytical. “What if you didn’t try to improve it?” Put your hand on your heart, your other on your solar plexis, and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it.
+You’re being too analytical. “What if you didn’t try to improve it?” Put your hand on your heart, your other on your solar plexus, and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it.
 
 ## You become too blissful or diffuse
 
@@ -896,7 +896,7 @@ Bear in mind that even with voice, the app is asking you what’s going on for y
 
 Always enter this app via this page, not by bookmarking the app itself, to make sure you get the current version.
 
-[Please fill in this survey](https://script.google.com/macros/s/AKfycbwypn4sa1kqDggJq2pad0LwOiOoOtOTORT0XUR0alxinuh8eZxCfilYTpz00a4_QpF3XA/exec) with what you’ve learned, so that you have something to analyse later, and others can learn how the guide is landing in real practice.
+[Please fill in this survey](https://script.google.com/macros/s/AKfycbwypn4sa1kqDggJq2pad0LwOiOoOtOTORT0XUR0alxinuh8eZxCfilYTpz00a4_QpF3XA/exec) with what you’ve learned, so that you have something to analyze later, and others can learn how the guide is landing in real practice.
 
 If the guide or the app leaves a real question unanswered, please [contact me here](https://signal.me/#eu/iNKdjZ1dbaH2VwYQkef44IUuooR4bWGaNrVI6l6jCdAFuLxIbv1CoaihQYmXIQtV) to discuss arranging a consultation.
 
@@ -962,7 +962,7 @@ The prompt will tell your subconscious what you want. The NLP can help you get i
 
 Appendix B - NLP (Neuro-Linguistic Programming)
 
-You do not need to know this stuff to do it but if you want to freshen up on your skills in the art of working with imagery, body states, behavioural rehearsal, talking to yourself in effective sentences etc then it might be useful, when it helps the system listen. Using the techniques can be an easy way to fall into the trap of thinking that NLP is a bag of tricks rather than something that needs to be done with love and truth and contact and consent.
+You do not need to know this stuff to do it but if you want to freshen up on your skills in the art of working with imagery, body states, behavioral rehearsal, talking to yourself in effective sentences etc then it might be useful, when it helps the system listen. Using the techniques can be an easy way to fall into the trap of thinking that NLP is a bag of tricks rather than something that needs to be done with love and truth and contact and consent.
 
 ## The four NLP layers
 
@@ -984,7 +984,7 @@ What we need to do is use [indirect language](https://learn.nimja.com/techniques
 
 So let’s start with something we know to be true, let’s take the pressure off, presume that we can only do a tiny bit and let’s invite one thing:
 
-‘As my body begins to notice the sensation of the bed underneath it, it may be possible for it to begin to realise that it is not alone in carrying the burden of the day.’
+‘As my body begins to notice the sensation of the bed underneath it, it may be possible for it to begin to realize that it is not alone in carrying the burden of the day.’
 
 We paced it; we opened up awareness; we validated the reason for the reaction; we presumed we could do it; we used a bridge word to make it easier and we invited one thing. We can then test this out with the body to see if it was possible.
 
@@ -998,7 +998,7 @@ Truth, Invite, Truth, Invite etc. is all you need to do.
 
 ### Pattern 2: Awareness verbs
 
-Open up awareness by using ‘awareness’ verbs e.g. notice, realise, recognise, sense, feel, wonder, imagine, picture, listen to, allow, discover, remember, consider etc.
+Open up awareness by using ‘awareness’ verbs e.g. notice, realize, recognize, sense, feel, wonder, imagine, picture, listen to, allow, discover, remember, consider etc.
 
 Example: ‘Notice how you find out the answer.’
 
@@ -1234,7 +1234,7 @@ Always work with yourself in a series – first your body, then your inner child
 
 ## Inner child love
 
-Here is some inner child love. Put your hand over your heart and your other hand on your solar plexis, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.” Make sure you are actually talking to your inner child, who is scared to death.
+Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.” Make sure you are actually talking to your inner child, who is scared to death.
 
 ## Reduced breathing / Buteyko-style breathing
 
@@ -1272,7 +1272,7 @@ If there is something we need to do let me know what the first thing is that we 
 
 # Appendix E: Is the daydream helping or replacing your life?
 
-Sometimes daydreaming is something that your subconscious mind is doing to help you. It is simulating an idea or event to help you digest grief or teach you something. The very act of daydreaming may be helping you to access your creativity or allowing your subconscious to show you a potential future. Sometimes your subconcious will show you things that you may be afraid of. Sometimes it will show you what you want.
+Sometimes daydreaming is something that your subconscious mind is doing to help you. It is simulating an idea or event to help you digest grief or teach you something. The very act of daydreaming may be helping you to access your creativity or allowing your subconscious to show you a potential future. Sometimes your subconscious will show you things that you may be afraid of. Sometimes it will show you what you want.
 
 Other times daydreaming may be taking you away from your life in a detrimental way. It may be that you are escaping reality and are addicted to fantasies rather than the real life. You may be dissociating or obsessing about romantic partners or escaping from being an adult.
 
@@ -1292,7 +1292,7 @@ You may need to send a text message or stop sending text messages. You may need 
 
 One of the issues here is that people vary dramatically in how suggestible they are, both internally and externally, and different people vary in how suggestible they are in different states. Different types of suggestion (commands, imagery, music, metaphors, spiritual, etc) can be very different for different people. So there are definite advantages to both having someone work with you (pacing, containment, another set of eyes), and doing things yourself. Being able to follow up immediately, to correct something in real time, to have a line of communication with protectors, etc.
 
-That said, self hypnosis may be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilisation, or relational wounds that need another nervous system, skilled outside support may be best.
+That said, self hypnosis may be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skilled outside support may be best.
 
 ## Finding a hypnotist who can work with you
 
@@ -1440,7 +1440,7 @@ Finally, some of you may be tempted to make this an area of hobbyism – to beco
 
 Practise! Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all! Any of these ‘families’ of induction can be done as light inductions, with eyes open, or instead of trance you can just do them as a contact. Once you start an induction, you will want to notice what’s going on (even if nothing changes) and work out what to do next, move, imagine something else, change the sensory channel you’re using, do nothing, stop the induction sequence and do something else… . Whatever you do, make sure you bring yourself fully back to waking at the end of an induction.
 
-NB: if you can’t ‘see’ the images you’re trying to visualise, that’s fine, change them into words, rhythm, spatial relations, something to touch or move or just plain ‘knowing’… .
+NB: if you can’t ‘see’ the images you’re trying to visualize, that’s fine, change them into words, rhythm, spatial relations, something to touch or move or just plain ‘knowing’… .
 
 ## 1. Stretch and release
 
@@ -1508,4 +1508,4 @@ Some of the information in this post is taken from Healing the Divided Self , Ph
 
 ## Memory, support, and choosing a practitioner
 
-Chapter 7 of Trauma and Memory , by Peter Levine, 2015, contains useful information on this. [This US Veterans Administration website](https://www.va.gov/WHOLEHEALTHLIBRARY/tools/hypnosis.asp) , contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefuly used, and that it may result in false memories. [This ASCH website](https://asch.net/what-is-certification/) , contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims, not every use of hypnosis.
+Chapter 7 of Trauma and Memory , by Peter Levine, 2015, contains useful information on this. [This US Veterans Administration website](https://www.va.gov/WHOLEHEALTHLIBRARY/tools/hypnosis.asp) , contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories. [This ASCH website](https://asch.net/what-is-certification/) , contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims, not every use of hypnosis.

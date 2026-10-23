@@ -1,5 +1,17 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 16:55 UTC (recheck A3 and Nibbāna's third recheck read; batches 475, 476 and n3; the clarity read made standard)
+
+**Recheck A3** ([his link](https://www.pangram.com/feed/43889be6-155e-4584-b232-90c4ad70e629)): Mostly Human Written,
+1.1% AI, 7 windows, all in Come all the way back; batch 474's other two stretches read Human. Batch 475 put Emulate's
+versions of the whole return stretch in (script to Note, from samples bo and bp, the reader's two fixes in), and batch 476
+put Emulate's misspellings and British spellings back to the published guide's spelling in 25 paragraphs. Recheck A4 is
+pasted with a part forecast. **Nibbāna's third recheck** ([his link](https://www.pangram.com/feed/f2b77491-4933-42cf-a431-8b063208fa78)):
+Human Written, 0.34% AI, 2 windows on the photon paragraph, which he rewrote; his rewrite and all his answers to the
+clarity list are in (batch n3, 36 edits, with the snags and saṃsāra defined at its first mention), and its fourth recheck
+is pasted. The whole-article clarity read is now standard for every article (docs/CLARITY-READ.md, its tool and tests).
+Lessons E241 to E246.
+
 ## 2026-10-23, after Joel's message of 14:14 UTC (recheck A read; batch 474; part forecasts; Nibbāna's clarity read)
 
 **Recheck A** ([his link](https://www.pangram.com/feed/3f9225c6-4ec8-452e-bdff-d44040b1acc0)): Mostly Human Written, 1.4%
