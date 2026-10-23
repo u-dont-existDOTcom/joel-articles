@@ -174,7 +174,7 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23 03:10 UTC: the guide's recheck B and Nibbāna's recheck wait on his Brave; questions 14, N1 and N2 on him)
+## Next step (2026-10-23 03:05 UTC: the guide's recheck B and Nibbāna's recheck wait on his Brave; questions 14, N1 and N2 on him)
 
 The guide is as in the step below (nothing new from Joel since 01:10 UTC): items 1 to 4 there still hold. Done since then,
 on his Nibbāna article (`articles/nibbana/humanize/`, its own ledger `pangram-ledger.jsonl`, lane "nibbana article" in

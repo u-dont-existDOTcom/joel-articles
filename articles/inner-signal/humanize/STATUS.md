@@ -1,6 +1,6 @@
 # Status: hypnosis guide humanization (newest on top)
 
-## 2026-10-23, 03:10 UTC (the guide waits on Joel; his Nibbāna article's first 4.1 pass)
+## 2026-10-23, 03:05 UTC (the guide waits on Joel; his Nibbāna article's first 4.1 pass)
 
 Nothing new on the guide: recheck B's link and question 14 are with Joel. The lane's queue moved on to his Nibbāna
 article, with its own questions page ([OWNER-QUESTIONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md)) and ledger: batch n1 put four

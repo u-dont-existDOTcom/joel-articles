@@ -1,6 +1,6 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-23, 03:10 UTC. **Open questions: 2** (N1, one sentence of the science paragraph; N2, four stretches
+Last updated 2026-10-23, 03:05 UTC. **Open questions: 2** (N1, one sentence of the science paragraph; N2, four stretches
 in your own words). **One thing for you to do**: run Pangram on the recheck draft and send me its link (just below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
