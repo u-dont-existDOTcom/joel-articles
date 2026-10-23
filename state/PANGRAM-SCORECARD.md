@@ -37,23 +37,23 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 18 | 15 (83%) | 83% | 17% | 11% | 0.129 (base 0.139, 18) |
-| nibbana article | 3 | 3 (100%) | 100% | 0% | 0% | 0.034 (base 0.000, 3) |
-| **all lanes** | 21 | 18 (86%) | 86% | 14% | 10% | 0.115 (base 0.122, 21) |
+| hypnosis guide | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
+| nibbana article | 4 | 4 (100%) | 100% | 0% | 0% | 0.026 (base 0.000, 4) |
+| **all lanes** | 23 | 19 (83%) | 83% | 17% | 9% | 0.139 (base 0.144, 23) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 18 | 15 (83%) | 83% | 17% | 11% | 0.129 (base 0.139, 18) |
-| nibbana article | 3 | 3 (100%) | 100% | 0% | 0% | 0.034 (base 0.000, 3) |
+| hypnosis guide | 19 | 15 (79%) | 79% | 21% | 11% | 0.163 (base 0.166, 19) |
+| nibbana article | 4 | 4 (100%) | 100% | 0% | 0% | 0.026 (base 0.000, 4) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
-| article | 9 | 8 (89%) | 100% | 0% | 11% | 0.062 (base 0.000, 9) |
+| article | 11 | 9 (82%) | 91% | 9% | 9% | 0.121 (base 0.083, 11) |
 
 ## pangram 4.1, web app
 
@@ -184,6 +184,7 @@ The boundary mix over all lanes:
 | tidy closers at both paragraphs' ends | 1 | hypnosis guide |
 | tidy closer | 1 | hypnosis guide |
 | a linter fix that read worse | 1 | hypnosis guide |
+| pessimism about Emulate's whole-stretch re-run | 1 | hypnosis guide |
 | a tell I left in | 1 | inner child guide |
 | an added move read AI | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |

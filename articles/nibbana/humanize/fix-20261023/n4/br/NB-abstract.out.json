@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-br/NB-abstract.txt",
+  "input_words": 98,
+  "input_sha256": "84176a3a001ac6dd4cd21afbcbdce8e090f050442d9c58f496549de0515cfab9",
+  "balance_before": 57764,
+  "started_utc": "2026-10-23T18:19:59Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:20:07Z",
+  "response": {
+    "id": "4365aa7c-1eee-44a3-96a3-aebfa70ff84f",
+    "tool": "humanize",
+    "text": "“This is the version 2.0 of my old one-pager on Already Perfect. But the old one was already perfect, so why did I spend weeks on this one? Not because I had a ‘free will’ to, but because my boss Oliver told me to! \\ud83e\\udd1a A more serious answer would be that already perfect without you, it is complete in and of itself. When a tree falls in the woods, it creates a sound even if no one is there to hear it. The color still colors the coloring book even if no one is there to hold it. I hope the sections below shed some light on what this experience is trying to show.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 98
+    },
+    "elapsed": 7
+  },
+  "balance_after": 57666
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bw/HG-B-love.txt",
+  "input_words": 62,
+  "input_sha256": "53feb99523da097fc8cdb38b494470fd599908d3ab6e160df96031cd091fbf82",
+  "balance_before": 55865,
+  "started_utc": "2026-10-23T18:28:56Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:29:00Z",
+  "response": {
+    "id": "f9d14135-a661-4e16-8965-edc0cf846502",
+    "tool": "humanize",
+    "text": "Give yourself a little inner child love. Put one hand on your heart and one hand on your solar plexis and say something loving to yourself. It is important to realize that you are talking to your inner child and that little one is scared to death!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 62
+    },
+    "elapsed": 3
+  },
+  "balance_after": 55803
+}

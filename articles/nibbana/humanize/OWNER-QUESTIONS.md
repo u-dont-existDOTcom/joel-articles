@@ -65,10 +65,12 @@ The numbers are those of [the clarity list](https://github.com/u-dont-existDOTco
   version before publishing, and after a big batch of changes) and how, with a tool for it; it's a required step in every
   lane's rules and in the working order for fixing an article.
 - 🟢 **The Pangram lessons** are in [the shared rules](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md) (E241 to E245). The main one: of the 28 plain
-  versions you checked, you called 13 AI, and your rewrites of them passed. Yours kept the explanation and put you in it:
-  your stance ("which I'd explain as", "tellingly", "it's pretty clear that", "that's a relief"), a reason or exception
-  of your own, your images and jokes (the local mirror shop, your dad's "military intelligence"), and no summing-up line
-  ("Put together, that says ..."). So the readers now give the smallest change to your words, and their versions are
+  versions you checked, you called 13 AI, and your rewrites of them passed. Yours kept what they explained and changed
+  how it was said: a conversational register ("it's pretty clear that", "that's a relief"), a judgment word
+  ("tellingly"), an image ("Suppose light buys a mirror from the local mirror shop"), more precision (an exception, a
+  cause, a fact), an ending that stops where the point lands, with no summing-up line, and one personal reference (your
+  dad's "military intelligence"). (Corrected after your question of 18:13 UTC: I had called this putting you in it, and
+  only the last one is about you.) So the readers now give the smallest change to your words, and their versions are
   treated as a pointer to what's missing, not as text to put in.
 
 <details><summary>N3 as it was asked</summary>

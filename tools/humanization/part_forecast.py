@@ -12,10 +12,14 @@ The parts of a forecast:
   unchanged: that is where new red turned up (Nibbāna's second recheck, 2026-10-23: the one red paragraph had read Human,
   Low, in both checks before; recheck A's troubleshooting questions had read Human, Medium); its default chance is
   LOW_CHANCE or MEDIUM_CHANCE, and CHANGED.json can override it by giving the same text;
+- each changed part's neighbours: the paragraph before it and after it, and the rest of the paragraph it sits in, each at
+  NEIGHBOUR_CHANCE unless CHANGED.json gives the same text its own chance (gate E244: red spreads to neighbours; E249,
+  2026-10-23 18:13 UTC: the rule ran by hand in the guide's forecast and not in Nibbāna's, where the High red was the
+  paragraph after one of Joel's rewrites, so the tool adds them; --no-neighbours leaves them out);
 - the rest, as one part: my chance that any red turns up outside the parts above.
 
   python3 tools/humanization/part_forecast.py make --last LAST_RESULT.json --text NEW_TEXT.txt --changed CHANGED.json \\
-          --out FORECAST.json [--medium]
+          --out FORECAST.json [--medium] [--rest 0.3] [--neighbour-chance 0.05 | --no-neighbours]
   python3 tools/humanization/part_forecast.py score FORECAST.json RESULT.json --out SCORE.md
 
 CHANGED.json is [{"name": ..., "text": an exact stretch of NEW_TEXT.txt, "chance_red": 0.3, "why": ...}, ...]. A part's
@@ -32,6 +36,10 @@ import argparse, json, pathlib, sys
 # Medium rate as it is; a forecast raises one when it has a reason (a window next to changed text, say).
 LOW_CHANCE = 0.02
 MEDIUM_CHANCE = 0.01
+# A changed part's neighbours, by default. Measured by 2026-10-23 18:13 UTC: of the neighbours the forecasts named (the
+# guide's recheck A3 and A4 by hand, Nibbāna's recheck 4 counted afterwards), about 3 in 80 read red; a forecast raises one
+# when it has a reason (a neighbour of a big rewrite, a paragraph whose window will change).
+NEIGHBOUR_CHANCE = 0.05
 
 
 def load(p):
@@ -58,15 +66,58 @@ def risks(last, text, medium=False):
     return out
 
 
-def make(last, text, changed, medium=False, rest=0.3):
+def _span(text, s, e):
+    """S:E of TEXT without its surrounding white space."""
+    while s < e and text[s].isspace():
+        s += 1
+    while e > s and text[e - 1].isspace():
+        e -= 1
+    return s, e
+
+
+def neighbours(text, changed, chance=NEIGHBOUR_CHANCE):
+    """The paragraph before and after each changed part, and the rest of the paragraph it sits in (paragraphs are TEXT's
+    lines), each one part unless it overlaps a changed part or is too short to place."""
+    spans = []
+    for c in changed:
+        i = text.find(c['text'])
+        spans.append((i, i + len(c['text'])))
+    out, seen = [], set()
+    for c, (a, b) in zip(changed, spans):
+        ps = text.rfind('\n', 0, a) + 1
+        pe = text.find('\n', b)
+        pe = len(text) if pe < 0 else pe
+        cands = [('the rest of its paragraph, before it', ps, a), ('the rest of its paragraph, after it', b, pe)]
+        if ps > 0:
+            cands.append(('the paragraph before it', text.rfind('\n', 0, ps - 1) + 1, ps - 1))
+        if pe < len(text):
+            qe = text.find('\n', pe + 1)
+            cands.append(('the paragraph after it', pe + 1, len(text) if qe < 0 else qe))
+        for label, s, e in cands:
+            s, e = _span(text, s, e)
+            seg = text[s:e]
+            if len(seg) < 12 or (s, e) in seen or text.count(seg) != 1:
+                continue
+            if any(x < e and y > s for x, y in spans):
+                continue
+            seen.add((s, e))
+            out.append({'name': 'neighbour of %s: %s' % (c['name'], label), 'text': seg, 'chance_red': chance,
+                        'why': 'next to changed text; red spreads to neighbours (gate E244, E249)', 'kind': 'neighbour'})
+    return out
+
+
+def make(last, text, changed, medium=False, rest=0.3, neighbour_chance=NEIGHBOUR_CHANCE, with_neighbours=True):
     for c in changed:
         if text.count(c['text']) != 1:
             raise SystemExit('a changed part must occur exactly once in the new text: %r' % c['text'][:80])
         c.setdefault('kind', 'changed')
     parts = list(changed)
+    if with_neighbours:
+        parts += neighbours(text, changed, neighbour_chance)
+    taken = [(text.find(p['text']), text.find(p['text']) + len(p['text'])) for p in parts]
     for r in risks(last, text, medium):
-        over = [c for c in changed if r['text'] in c['text'] or c['text'] in r['text']]
-        if over:
+        i = text.find(r['text'])
+        if any(x < i + len(r['text']) and y > i for x, y in taken):
             continue
         parts.append(r)
     return {'parts': parts, 'rest': {'chance_red': rest, 'why': 'any red outside the parts above'}}
@@ -133,14 +184,18 @@ def main(argv=None):
     m.add_argument('--last', required=True); m.add_argument('--text', required=True); m.add_argument('--changed', required=True)
     m.add_argument('--out', required=True); m.add_argument('--medium', action='store_true')
     m.add_argument('--rest', type=float, default=0.3)
+    m.add_argument('--neighbour-chance', type=float, default=NEIGHBOUR_CHANCE)
+    m.add_argument('--no-neighbours', action='store_true')
     s = sub.add_parser('score')
     s.add_argument('forecast'); s.add_argument('result'); s.add_argument('--out', required=True); s.add_argument('--link')
     a = ap.parse_args(argv)
     if a.cmd == 'make':
-        fc = make(load(a.last), pathlib.Path(a.text).read_text(encoding='utf-8'), load(a.changed), a.medium, a.rest)
+        fc = make(load(a.last), pathlib.Path(a.text).read_text(encoding='utf-8'), load(a.changed), a.medium, a.rest,
+                  a.neighbour_chance, not a.no_neighbours)
         pathlib.Path(a.out).write_text(json.dumps(fc, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-        print('%s: %d parts (%d changed, %d from the last check\'s light green)' % (
-            a.out, len(fc['parts']), sum(p['kind'] == 'changed' for p in fc['parts']), sum(p['kind'] == 'risk' for p in fc['parts'])))
+        print('%s: %d parts (%d changed, %d neighbours, %d from the last check\'s light green)' % (
+            a.out, len(fc['parts']), sum(p['kind'] == 'changed' for p in fc['parts']),
+            sum(p['kind'] == 'neighbour' for p in fc['parts']), sum(p['kind'] == 'risk' for p in fc['parts'])))
         return 0
     fc, res = load(a.forecast), load(a.result)
     pathlib.Path(a.out).write_text(page(fc, res, a.link or res.get('link')), encoding='utf-8')

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-bv/NB-preserve.txt",
+  "input_words": 93,
+  "input_sha256": "d966967cf2c333fa15cd52ad45b02901e754dbed649463356203f920a26a679c",
+  "balance_before": 56270,
+  "started_utc": "2026-10-23T18:28:19Z",
+  "errors": [],
+  "finished_utc": "2026-10-23T18:28:27Z",
+  "response": {
+    "id": "d6f38367-3dd7-4167-94b2-82a2737445aa",
+    "tool": "humanize",
+    "text": "The funny thing about that, though, is that the words seem to have survived pretty well. People transmitted them communally, and despite a lot of variants—and re-ordering and additions—the early collections that were kept separately all have a lot in common. So the problem isn't preserving the pieces of the puzzle. The problem is preserving the picture on the box.\n\nThere's also a practical problem. Time and again, as in DN 3 and MN 56, the Buddha gives his students certain teachings only after he sees that their minds are ready: pliable, rid of the hindrances, elated, and confident. It's then—and only then—that he gives them the teaching that causes them to gain the Dhamma-eye. What are people supposed to do when they have a map that tells them what he said at each stage?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 93
+    },
+    "elapsed": 8
+  },
+  "balance_after": 56177
+}

@@ -1234,7 +1234,7 @@ Always work with yourself in a series – first your body, then your inner child
 
 ## Inner child love
 
-Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.” Make sure you are actually talking to your inner child, who is scared to death.
+Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death.
 
 ## Reduced breathing / Buteyko-style breathing
 

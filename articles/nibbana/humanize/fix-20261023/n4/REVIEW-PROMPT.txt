@@ -1,0 +1,146 @@
+You check 6 rewritten passages: 5 in Joel's long article on nibbāna (Buddhist enlightenment), written for a general Substack audience, in his casual first-person voice with jokes and emoji, and one in his self-hypnosis guide (a script the reader says to their own inner child; "I" in the script is the reader). Each NOW sentence is a detector-passing rewrite of only the sentence(s) marked WAS in its paragraph; PUBLISHED is what he published, the meaning to keep (where a WAS differs from PUBLISHED, an earlier pass of mine changed it, and PUBLISHED is still the meaning).
+
+For each item, say in a few words each:
+1. MEANING: does NOW keep every point, claim, condition and image of PUBLISHED, with the same strength (nothing made more or less certain, nothing turned into a different claim, no cause turned into a coincidence)? KEPT, or what CHANGED or was LOST, and anything ADDED that a reader would take as a claim.
+2. SENSE: would a reader understand the paragraph with NOW in it, between BEFORE and AFTER? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning and sense only, not style or grammar (the casual grammar, the run-on sentences and the "etc." are on purpose), and suggest the smallest possible rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/ja-community/articles/nibbana/humanize/fix-20261023/n4/REVIEW.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (the definition of "unification", the term the next paragraph calls "sensory unification" in Soh's claim; NOW also has to make that link clear without a gloss)
+
+BEFORE:
+Then I found Awakening to Reality (AtR) and Soh Wei Yu. Soh described his ordinary 24/7 experience as fully disjoint “mind-body drop”: each appearance self-aware without a knower. Hearing that made life without a hidden observer imaginable enough to practice toward. He called my nibbāna experience mind-body drop too, because he didn’t categorize nibbāna as an experience. But when you read AtR’s own accounts, it’s pretty clear that the ordinary body, the world, intention and day-to-day functioning are all still there, although they’re framed as sitting inside a transparent, boundless and direct experience referred to as “one suchness.” I now think that’s closer to what I’ll explain later as partial untying than to the full unweaving I experienced.
+
+PARAGRAPH WITH WAS:
+When I say “unification”, I mean whatever pulls everything together so that a person can talk, cross a road, recognize a friend and answer a text, and it works even when there’s no separate knower in there. Most of my daily life includes that ordinary unification and feels almost like everybody else’s day (well, if they’re happy).
+
+WAS:
+When I say “unification”, I mean whatever pulls everything together so that a person can talk, cross a road, recognize a friend and answer a text, and it works even when there’s no separate knower in there. Most of my daily life includes that ordinary unification and feels almost like everybody else’s day (well, if they’re happy).
+
+PUBLISHED:
+I use “unification” for the functional coordination through which a person speaks, crosses a road, recognizes a friend, and answers a message, even with no separate knower. Most of my daily life includes that ordinary unification and feels almost like everybody else’s day (well, if they’re happy).
+
+NOW:
+I am using the term unification for whatever is needed to make all of the senses work together so I can perform daily acts, like talking or crossing the street, etc., which works even without a knower. Most of my day includes that unification and is similar to how most people spend their day, I would guess, if they are happy.
+
+PARAGRAPH WITH NOW:
+I am using the term unification for whatever is needed to make all of the senses work together so I can perform daily acts, like talking or crossing the street, etc., which works even without a knower. Most of my day includes that unification and is similar to how most people spend their day, I would guess, if they are happy.
+
+AFTER:
+I owe Soh a great deal, but one key difference remains: he says sensory unification isn’t required for functioning, which makes no sense to me. I long suspected AtR practitioners were overclaiming, especially because John Tan often scolded Soh for it. I proved one claim false when I met Soh in Singapore. He had said he was in bliss 24/7, but wasn’t smiling. “So you’re in bliss 24/7?” “Yes.” “Even now?” “Well, no, not now.” 😜
+
+## Item 2 (his published words back, without my gloss)
+
+BEFORE:
+I am using the term unification for whatever is needed to make all of the senses work together so I can perform daily acts, like talking or crossing the street, etc., which works even without a knower. Most of my day includes that unification and is similar to how most people spend their day, I would guess, if they are happy.
+
+PARAGRAPH WITH WAS:
+I owe Soh a great deal, but one key difference remains: he says sensory unification (that pulling-together of the senses) isn’t required for functioning, which makes no sense to me. I long suspected AtR practitioners were overclaiming, especially because John Tan often scolded Soh for it. I proved one claim false when I met Soh in Singapore. He had said he was in bliss 24/7, but wasn’t smiling. “So you’re in bliss 24/7?” “Yes.” “Even now?” “Well, no, not now.” 😜
+
+WAS:
+he says sensory unification (that pulling-together of the senses) isn’t required for functioning
+
+PUBLISHED:
+I owe Soh a great deal, but one key difference remains: he says sensory unification isn’t required for functioning, which makes no sense to me.
+
+NOW:
+he says sensory unification isn’t required for functioning
+
+PARAGRAPH WITH NOW:
+I owe Soh a great deal, but one key difference remains: he says sensory unification isn’t required for functioning, which makes no sense to me. I long suspected AtR practitioners were overclaiming, especially because John Tan often scolded Soh for it. I proved one claim false when I met Soh in Singapore. He had said he was in bliss 24/7, but wasn’t smiling. “So you’re in bliss 24/7?” “Yes.” “Even now?” “Well, no, not now.” 😜
+
+AFTER:
+John Tan’s stage map was another major help. His public stages post says it is “nothing authoritative, merely for sharing purposes,” and John does not present the stages as universal nor prescriptive.
+
+## Item 3 (the last sentence of the paragraph, leading into the article's explanation sections)
+
+BEFORE:
+Even after the little king or queen fantasy disappears, the mind scurries into a subtler place: “Fine, then I must be the awareness that makes everything real.” But that’s just pushing the problem of what is real further down the lane. Now there’s something being labeled as awareness, which for some reason is more real than something else, even though the awareness needs the thing it’s aware of in order to call itself awareness. And those folks call themselves “non-dualists” in the sense of monism, everything is One (Advaita Vedanta). Clearly, that kind of non-duality is an oxymoron, false on the face of it (like my dad’s favorite oxymoron: “military intelligence”). What I find instead, and what I believe the Buddha was pointing to, are aware energy flows and the processes that gather them into a self & world.
+
+PARAGRAPH WITH WAS:
+This article itself is version 2.0 of my old one-page Already Perfect essay. That was already perfect, so why on Earth did I spend weeks rewriting it? Not because of “free will,” but because my boss, Oliver, told me to! 🤪 Put another way, “already perfect without you” means experience is complete before anyone owns it. A tree falls in the woods and makes a sound with nobody there to hear it. A color colors the coloring book with nobody holding the crayon. It sounds abstract, but the next sections explain what I think the experience was showing.
+
+WAS:
+It sounds abstract, but the next sections explain what I think the experience was showing.
+
+PUBLISHED:
+It sounds abstract, but the next sections explain what I think the experience was showing.
+
+NOW:
+As you can see this is going to be a little abstract, but I’ll try in the next few sections to explain a bit more on what I think the experience is showing.
+
+PARAGRAPH WITH NOW:
+This article itself is version 2.0 of my old one-page Already Perfect essay. That was already perfect, so why on Earth did I spend weeks rewriting it? Not because of “free will,” but because my boss, Oliver, told me to! 🤪 Put another way, “already perfect without you” means experience is complete before anyone owns it. A tree falls in the woods and makes a sound with nobody there to hear it. A color colors the coloring book with nobody holding the crayon. As you can see this is going to be a little abstract, but I’ll try in the next few sections to explain a bit more on what I think the experience is showing.
+
+AFTER:
+The word nibbāna originally described a fire going out. My old nibbāna book wrongly treated “unweaving” as its direct etymology. “Extinguishment” is more common, though it sounds like the nihilism pole the Buddha avoided in his soteriology.
+
+## Item 4 (the suttas: how well the Buddha's words were preserved)
+
+BEFORE:
+The canon says this degradation had begun in the Buddha’s lifetime. In SN 16.13, Mahā Kassapa asks why training rules are multiplying while fewer monks reach final knowledge. The Buddha says counterfeit Dhamma gradually makes the true Dhamma disappear.
+
+PARAGRAPH WITH WAS:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for centuries, and separately preserved early collections agree on a great deal despite variants, rearrangements, and later additions. But preserving the puzzle pieces doesn’t preserve the picture on the box.
+
+WAS:
+They were transmitted communally for centuries, and separately preserved early collections agree on a great deal despite variants, rearrangements, and later additions.
+
+PUBLISHED:
+They were transmitted communally for centuries, and separately preserved early collections agree on a great deal despite variants, rearrangements, and later additions.
+
+NOW:
+They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions.
+
+PARAGRAPH WITH NOW:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for many centuries and there are several early collections which were preserved separately and agree to a large degree, although of course there are variants, rearrangements, and later additions. But preserving the puzzle pieces doesn’t preserve the picture on the box.
+
+AFTER:
+That creates a practical problem. In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye. What happens when a stage map lets anyone skip to the answer?
+
+## Item 5 (the same paragraph: his puzzle image (the words are the pieces; what they add up to is the picture))
+
+BEFORE:
+The canon says this degradation had begun in the Buddha’s lifetime. In SN 16.13, Mahā Kassapa asks why training rules are multiplying while fewer monks reach final knowledge. The Buddha says counterfeit Dhamma gradually makes the true Dhamma disappear.
+
+PARAGRAPH WITH WAS:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for centuries, and separately preserved early collections agree on a great deal despite variants, rearrangements, and later additions. But preserving the puzzle pieces doesn’t preserve the picture on the box.
+
+WAS:
+But preserving the puzzle pieces doesn’t preserve the picture on the box.
+
+PUBLISHED:
+But preserving the puzzle pieces doesn’t preserve the picture on the box.
+
+NOW:
+But just because the pieces of the puzzle come down to us well doesn't mean that the picture on the box has.
+
+PARAGRAPH WITH NOW:
+The funny part is that the words may have survived surprisingly well. They were transmitted communally for centuries, and separately preserved early collections agree on a great deal despite variants, rearrangements, and later additions. But just because the pieces of the puzzle come down to us well doesn't mean that the picture on the box has.
+
+AFTER:
+That creates a practical problem. In DN 3 and MN 56, the Buddha waits until a student’s mind is “ready, pliable, rid of hindrances, elated, and confident” before giving the teaching that opens the Dhamma-eye. What happens when a stage map lets anyone skip to the answer?
+
+## Item 6 (the guide: a few words the reader says to their own scared inner child, hands on heart and solar plexus)
+
+BEFORE:
+## Inner child love
+
+PARAGRAPH WITH WAS:
+Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.” Make sure you are actually talking to your inner child, who is scared to death.
+
+WAS:
+You don’t have to fix this. I’m here now. The adult is listening.”
+
+PUBLISHED:
+“Little one, you are not alone. You don’t have to fix this. I’m here now. The adult is listening.”
+
+NOW:
+You don’t have to fix it. I’m here now, and the adult is here now to listen to you.”
+
+PARAGRAPH WITH NOW:
+Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death.
+
+AFTER:
+## Reduced breathing / Buteyko-style breathing
