@@ -34,7 +34,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   `tools/humanization/pangram_ledger.py` with this lane's ledger `pangram-ledger.jsonl` (`predict` before, `results`
   after, `explain` for each miss, `build --universal state/PANGRAM-SCORECARD.md` after the session; this lane's page is
   `SCORECARD.md`). Joel signed in to Pangram in the desktop app's browser again on 20 October (his message of 22:01
-  UTC), the same account as the community checks.
+  UTC), the same account as the community checks; on 2026-10-22 at 22:44 UTC it was signed out there (History asked to
+  sign up). Never sign in: whole-guide and screening checks go through his Brave anyway, and a single paragraph can go
+  through the API on the laptop (`tools/humanization/pangram_api.py`, model "pangram-4", whose results say 4.0).
 - **Whole-guide checks go through a temporary Substack post, free** (Joel, 2026-10-20 22:01 UTC: "for very large pangram
   checks (not just one section, but like whole article especially) you can just ask me to make a temporary article on
   substack to check it free"; `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`). Since his 23:54 message I make the drafts
@@ -49,8 +51,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
   4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull requests 206 and 209 (the 4.1 work to 2026-10-21 22:43 UTC)
-  were merged; the work since is pull request 219 (https://github.com/u-dont-existDOTcom/joel-articles/pull/219), open and
-  Joel's to merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
+  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC; the work since is pull request 222
+  (https://github.com/u-dont-existDOTcom/joel-articles/pull/222), open and Joel's to merge. Main moves often (the Inner
+  Child lane merges too): `lane_push.py` says after each push whether the pull request can merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
   Markdown; `HUMANIZED-SO-FAR.md` is the working copy (a copy of it until a section is installed). Ask him for his latest
@@ -168,7 +171,41 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-22, after Joel's answers of 18:37 UTC: the screening post waits on his Brave)
+## Next step (2026-10-22, after Joel's links of 21:41 and 23:01 UTC: recheck A waits on his Brave, question 13 on him)
+
+Done since the step below: pull request 219's conflicts (main took the Inner Child lane's 218, then its 220; merges afc6ea1b
+and 9dff534e), merged by Joel at 22:16 UTC; his answer 12 as batch 471g (`fix-20261022/b471/`: two review rounds, gated,
+forecast, installed); both screening posts read (`fix-20261022/screen/SCREEN-RESULT.json`: HG17's bd and bf Human in every
+window; `fix-20261022/screen2/SCREEN2-RESULT.json`: Appendix B's stretch Human, Appendix C as installed AI, the new opening
+C1 Human from the tricks list to "A bad guide can't.", AI in its opening and the bad guide's last sentence); the induction
+section from sample bf with its meaning fixes, four rounds of reviews, gated and installed (`fix-20261022/hg17-bf/`:
+`make_hg17_bf_fixed.py`, `make_hg17_bf_reviews.py`, `make_hg17_bf_r2.py --round N`, `make_gate_hg17_bf.py`,
+`install_bf.py`); recheck A pasted and verified (`fix-20261022/recheck/RECHECK-POST-A.json`); Nibbāna's editor HTML
+registered, its rebuild equal to the check.
+
+1. **When Joel sends recheck A's result link**: read the windows from the page (`tools/humanization/pangram_feed_read.js`,
+   its compact line), `substack_check_text.py result fix-20261022/recheck/PAYLOAD-A.html WINDOWS-A.txt META-A.json --limit
+   99999 --out RESULT-A.json` (the checked text should hash to TEXT-A.txt's fd2e3ed6...), the ledger result for key
+   HG-whole-41r4-a (prediction HG-whole#33), the induction section's windows read on their own (its span in TEXT-A.txt
+   starts at "Inductions serve to gather you up"), and 470g's and 471g's forecasts scored (`b470/batch/FORECAST.json`,
+   `b471/batch/FORECAST.json`; their part A paragraphs). A red stretch in the induction section gets a diagnosis in its
+   place, its light-green neighbours read with it.
+2. **Question 13, Appendix C's opening** (`OWNER-QUESTIONS.md`): A, his own words for the opening's two paragraphs and the
+   bad guide's last sentence, go in as he writes them (an edit of b469-HG32-prose in `fix-20261020/EDITS41.json`, with the
+   reviews); B, the published list comes back; C, they stay. Until he answers, the default: C1
+   (`screen2/CANDIDATES.json`) goes in, its meaning check (`screen2/VERIFY-C.md`, nothing lost) triaged as for bf ("for a
+   minute" and the four tests outside the quote are the opening's, which his words replace; "tricks ... being used" and
+   "remain an option" are bg's middle, which reads Human: fix only what a reader would act on), then the cold read, the
+   stance check, the march, the gate.
+3. **Recheck B** (the appendices) once Appendix C is settled: `make_recheck.py` again, `make_preds_recheck.py B` (its row
+   is a placeholder until then), pasted into draft B (221412532, "TEMP recheck B (hypnosis guide appendices) - do not
+   publish") the same way, the rendered lines compared with the rebuild before Joel is asked.
+4. **Queued after this guide: his Nibbāna article** (`articles/nibbana/humanize/QUEUE-20261022.md`, with the red windows,
+   their whole paragraphs and a first look at their shapes in `RED-WINDOWS-20261020.md`). The fixes go into his editor HTML
+   of 21:41 UTC.
+5. **Question 6 b**, after the 4.1 work: the repeats one at a time, as below.
+
+## Earlier next step (2026-10-22, after Joel's answers of 18:37 UTC: the screening post waits on his Brave)
 
 Done since the step below: the recheck's results (Joel, 18:37 UTC:
 [part A](https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7), AI Detected, 13.8% AI;

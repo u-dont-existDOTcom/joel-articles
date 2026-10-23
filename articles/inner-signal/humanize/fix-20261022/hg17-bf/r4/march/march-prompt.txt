@@ -1,0 +1,21 @@
+Below are 4 paragraphs from a long self-help guide to self-hypnosis ("the inner child", "the Nurturer", "the Protector", "the Guide" and "childhood protector parts" are the guide's terms; much of this part is a script the reader records or says to themselves), each one on its own, with its sentences numbered.
+
+Label every numbered sentence of every paragraph S (STEP) or B (BREAK):
+- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.
+- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said ("Or put it in your own words."); a pause, waiting, or a permission ("If it doesn't come, that's okay for today."); stopping to consider what something might feel like or be like ("It might be more of a mood. Sadness, maybe."); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.
+Judge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.
+
+Don't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:
+T1: S S B S S
+T2: S B S B
+
+T1: [1] IV. [2] Deciding to do it . [3] How will you coax yourself to do this? [4] Make it spacious? [5] Make it warm and held? [6] Something else? [7] Preview, if you can, what you are going to do: will you close your eyes? [8] Will you come out and go back in again? [9] What will you do at the end? [10] If you are going to use a recording, read the script if you can. [11] Know that you can say stop at any time and the induction will end. [12] If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. [13] You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+T2: [1] Deciding to do it . [2] How will you coax yourself to do this? [3] Make it spacious? [4] Make it warm and held? [5] Something else? [6] Preview what you are going to do: will you close your eyes? [7] Will you come out and go back in again? [8] What will you do at the end? [9] If you are going to use a recording, read the script if you can. [10] Know that you can say stop at any time and the induction will end. [11] If you want to change something, say less if you want it to be asking for less from you, or quiet and the talking will stop. [12] You can also just open your eyes and stop, and then come all the way back anyway. [13] You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+
+T3: [1] Variations Open already If you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it so that you can deepen it.
+
+T4: [1] This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it.
+
+
+Write exactly those lines, one per paragraph from T1 to T4, with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261022/hg17-bf/r4/march/march-labels.txt`, then reply with only "done". Don't read any other file, don't run commands, and don't use the web.

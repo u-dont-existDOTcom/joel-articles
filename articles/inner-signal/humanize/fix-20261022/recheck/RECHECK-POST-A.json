@@ -1,0 +1,22 @@
+{
+ "made": "2026-10-22T23:08Z",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221411215",
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "secret_link": "https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-22T23%3A08%3A00.000Z&audience=only_paid&free_preview=false&freemail=",
+ "cleared": "the body selected and deleted with real keystrokes (ctrl+a, Delete) after checking the title; 0 characters left (Joel told: his clipboard)",
+ "payload": "PAYLOAD-A.html",
+ "payload_sha256": "eb2bb719770687c20ae88124fc5899a814a3a7864560b0b3b39a67db03092644",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/87e1a14cdb52bd413ed061e9866256841c4653a3/articles/inner-signal/humanize/fix-20261022/recheck/PAYLOAD-A.html",
+ "paste": {
+  "helper": "../screen/paste_payload_lane.js",
+  "editor_words": 29135,
+  "words_expected": 29101,
+  "words_match": false,
+  "why_not": "WORDS-A.json counts the payload's words from its HTML; the editor shows 34 more (the same 34 as at the first paste of this part, so the paste is whole): text the editor renders around images and embeds that the count leaves out. The rendered check below is the one that decides."
+ },
+ "rendered_check": "the secret link opened in the app's browser at 23:08 UTC: the textContent of the post's paragraphs and list items (headings and captioned images skipped) is 597 lines; with the page's two button lines treated as the rebuild treats them ('Share' kept, 'Quick Triage Web-App Version HERE' left out, as the rechecks of 2026-10-21 matched on Pangram's own text) it hashes to the rebuild's full text (320eceb6...), and its first 99,999 characters to TEXT-A.txt (fd2e3ed6...)",
+ "first_paste": "at 22:57 UTC, payload 04153c88... (commit b2da76ce): the induction section's install had joined its last paragraph to the next h1, which the same line-by-line comparison showed; the section was reinstalled with the stance check's round 4, and part A rebuilt, re-predicted and pasted again (ledger: HG-whole#32 voided, #33)",
+ "text_sha256": "fd2e3ed6ff6b36c0ef1bc3b8b2d5b922fae760dd4ee5c36fb583fb220bdcf7cc",
+ "predictions": "pangram-ledger.jsonl HG-whole#33 (make_preds_recheck.py A), written before the paste",
+ "asked": "Joel, in chat at 23:09 UTC"
+}

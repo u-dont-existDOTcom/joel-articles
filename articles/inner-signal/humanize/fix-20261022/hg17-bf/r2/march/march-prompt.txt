@@ -1,0 +1,33 @@
+Below are 10 paragraphs from a long self-help guide to self-hypnosis ("the inner child", "the Nurturer", "the Protector", "the Guide" and "childhood protector parts" are the guide's terms; much of this part is a script the reader records or says to themselves), each one on its own, with its sentences numbered.
+
+Label every numbered sentence of every paragraph S (STEP) or B (BREAK):
+- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.
+- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said ("Or put it in your own words."); a pause, waiting, or a permission ("If it doesn't come, that's okay for today."); stopping to consider what something might feel like or be like ("It might be more of a mood. Sadness, maybe."); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.
+Judge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.
+
+Don't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:
+T1: S S B S S
+T2: S B S B
+
+T1: [1] V. [2] If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. [3] You don't have to watch yourself all the time, but for the first time, make sure you can change state. [4] Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. [5] No will stay no. [6] The narrator can't add stuff if you don't say anything.
+
+T2: [1] If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. [2] You don't have to watch yourself all the time, but for the first time, make sure you can change state. [3] Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. [4] No will stay no. [5] The narrator can't add stuff just because you don't say anything.
+
+T3: [1] Variations Open already If you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it so that you can deepen it.
+
+T4: [1] This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilise it so that you can deepen it.
+
+T5: [1] Orient yourself. [2] Where are you. [3] What's the date or day. [4] How does your body feel? [5] Where are you grounded? [6] Can you feel your feet/hands/spine/etc? [7] Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. [8] Focus on that.
+
+T6: [1] Orient yourself by looking around. [2] Where are you. [3] What's the date or day. [4] How does your body feel? [5] Where are you grounded? [6] Can you feel your feet/hands/spine/etc? [7] Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. [8] Focus on that.
+
+T7: [1] When you pick the time and place (a good idea to pick an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. [2] Be sure to change the direction you are going in, or stop this at some point.
+
+T8: [1] When you pick the time and place (it needs to be an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. [2] You can change the direction you are going in, or stop this at any point.
+
+T9: [1] To turn this off, stop rehearsing it, take it out of any recordings that you have, stop having it in any apps that are active, and go back to using your regular induction that you have been using. [2] You can say that you won't use it anymore when you are awake, but realize that just saying that it is gone won't make it go away. [3] If you are finding that you are responding to it when you don't want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you. [4] If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. [5] For now, this will be over when you come out of it.
+
+T10: [1] To turn this off, stop rehearsing it, take it out of any recordings that you have, stop having it in any apps that are active, and go back to using your regular induction that you have been using. [2] Say that you won't use it anymore when you are awake, but realize that just saying that it is gone won't make it go away immediately. [3] If you are finding that you are responding to it when you don't want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you. [4] If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. [5] For now, today's trance will be over when you come out of it.
+
+
+Write exactly those lines, one per paragraph from T1 to T10, with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261022/hg17-bf/r2/march/march-labels.txt`, then reply with only "done". Don't read any other file, don't run commands, and don't use the web.

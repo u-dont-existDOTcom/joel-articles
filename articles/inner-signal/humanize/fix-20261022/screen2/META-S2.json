@@ -1,0 +1,17 @@
+{
+ "feed_uuid": "5af06c6a-8f56-4bd7-9c86-5e9813f7a97e",
+ "link": "https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e",
+ "created_at": "2026-10-22T19:01:38.515468-04:00",
+ "domain": "substack",
+ "headline": "AI Detected",
+ "prediction_short": "Mixed",
+ "version": "4.1",
+ "fraction_ai": 0.5953718423843384,
+ "fraction_human": 0.4046281576156616,
+ "word_count": 1441,
+ "num_ai_segments": 20,
+ "num_human_segments": 14,
+ "text_chars": 7693,
+ "text_sha256": "b1bf88324455624805f1123f331b4a17119d3a1a03dd56e2a2163c45b00507b3",
+ "read": "the result page's React props, read in the app's browser at 23:02 UTC (Joel's link of 23:01 UTC)"
+}

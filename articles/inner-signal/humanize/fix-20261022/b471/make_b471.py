@@ -7,6 +7,8 @@ also imagine them splitting apart if need be and coming together as well.").
 - 12 c: the three roles stay in Appendix B's NLP sequence, with his clarification right after the step, in his words
   ("we", "if need be", "coming together as well"). The invocation's "inner adult(s)" and Appendix K's "three-adult
   arrangement" stay as they are: three roles are fine, and the step says what they are in real life.
+- Round 2 (make_b471_r2.py) puts back two published meanings the stance check found lost in these paragraphs' installed
+  words: the adult is a capacity still being built (a baby bird, for "be able to fly"), and each adult's job in the step.
 
 The same machinery as batch 470g (make_b470.py): the candidate, the edit list for fix-20261020/apply_edits41.py --add, each
 changed paragraph as Pangram reads it with its reading in the recheck of 2026-10-21, the item review (Opus, -> REVIEW.md),
@@ -32,12 +34,25 @@ Q12A = (Q12 + ' (12 a, option A: name it there, "... or feel like a child part w
         'where the child has to deal with situations the evolved inner adult should be handling".)')
 Q12C = (Q12 + ' (12 c asked about Appendix B\'s "Put 3 good adults in with the person (Nurturer, Protector, and Guide)", '
         'against his convention "Three functions of that same Inner Adult—not three additional people".)')
+# Round 2 (make_b471_r2.py): the stance check (r1/STANCE.md) found two places where these paragraphs had drifted from
+# the published guide in earlier rewrites, in words of the installed versions rather than mine (as in batch 470g).
+R2_FLY = (' Round 2, the stance check\'s finding 1: the installed "like telling them to just be able to fly" makes the adult '
+          'out of reach for good; the published line is "Telling them to \u201cbe the adult\u201d assumes the capacity they are '
+          'trying to build", and the guide says "Those adult functions still grow through practice". A baby bird can\'t fly '
+          'yet and will.')
+R2_JOBS = (' Round 2, the stance check\'s finding 3: the installed step lost each adult\'s job; the published one is "Bring in '
+           'the three adults. Nurturer warms, Protector makes it safe, Leader points a direction." The jobs go in the step\'s '
+           'own parentheses, the way its neighbours give their details.')
 E = [
-    ('forced-adulthood', 'HG14', Q12A, 'or feel like a child part who may be playing at being an adult.',
-     'or feel like a child part who may be playing at being an adult (what I call forced adulthood).'),
-    ('three-roles', 'HG31', Q12C, 'Put 3 good adults in with the person (Nurturer, Protector, and Guide).',
-     'Put 3 good adults in with the person (Nurturer, Protector, and Guide). In real life they’re all part of the one '
-     'inner adult, so we can imagine them splitting apart if need be and coming together as well.'),
+    ('forced-adulthood', 'HG14', Q12A + R2_FLY,
+     'or feel like a child part who may be playing at being an adult. Telling them to just access their adult is like '
+     'telling them to just be able to fly.',
+     'or feel like a child part who may be playing at being an adult (what I call forced adulthood). Telling them to just '
+     'access their adult is like telling a baby bird to just fly.'),
+    ('three-roles', 'HG31', Q12C + R2_JOBS, 'Put 3 good adults in with the person (Nurturer, Protector, and Guide).',
+     'Put 3 good adults in with the person (Nurturer to warm, Protector to make it safe, and Guide to point a direction). '
+     'In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming '
+     'together as well.'),
 ]
 
 

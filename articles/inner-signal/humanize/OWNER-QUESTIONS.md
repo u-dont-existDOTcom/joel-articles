@@ -1,8 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-22, after your answers of 18:37 UTC. **Open question: 1** (12, three more names from the Inner Child
-article). **One thing for you to do**: open the screening post and send me its result link (under "For you to do"), and
-later, for your Nibbāna article, its current editor HTML. The questions are at the top, with their options and my default;
+Last updated 2026-10-22, after your result link of 23:01 UTC. **Open question: 1** (13, Appendix C's opening in your
+own words). **One thing for you to do**: run Pangram on recheck A and send me its link (under "For you to do"). The questions are at the top, with their options and my default;
 under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
 or in progress; 🟢 done or decided.
 
@@ -11,39 +10,78 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-- 🟣 **12. Three more names from the Inner Child article?** Your answer to 10 brought this guide in line with the Inner
-  Child article's names (below). Three things there aren't the name of a figure this guide already has, so they're yours
-  to decide:
-  - **a. Forced adulthood.** "When the adult role is not available yet" says some people "may go blank, access an
-    inherited inner critic, or feel like a child part who may be playing at being an adult". In the Inner Child article
-    you named that "forced adulthood" (15:33 UTC today) and put it in stage 1 of the stages map. Options:
-    - A. Name it there: "... or feel like a child part who may be playing at being an adult (what I call forced
-      adulthood)".
-    - B. Leave it.
+- 🟣 **13. Appendix C's opening: will you write it in your own words?** [The second screening](https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e)
+  read Appendix B's lists Human, so the last check's red window was all Appendix C's; Appendix C as it stands read AI
+  throughout; the new version read Human from the list of tricks to "A bad guide can't.", and AI in its opening and in
+  the bad guide's last sentence. The opening has now read AI in six versions (your published list, my prose and four
+  rewrites), which is the limit before it comes to you. It's two short paragraphs and a sentence:
+  1. When to use the checklist, and the line to say to yourself: notice influence, don't obey or attack it, slow down, ask
+     what it assumes and who benefits, notice your body's signal without assuming what it proves, and ask what love,
+     truth, humility and ordinary life would require.
+  2. The four tests: what's true survives questions, love survives boundaries, guidance survives sleep, and what's for
+     you won't ask you to give up your adult self.
+  3. The last sentence: a bad guide calls your no resistance, ego, fear, low vibration, trauma, sin, or proof that you
+     need more of their guidance.
 
-    My recommendation: A. It's the same thing, and a reader of both guides meets one word for it. My default until you
-    answer: B, as it is.
-  - **b. Learned patterns, the umbrella.** The Inner Child article now puts expectations, response patterns (coping
-    patterns, and guards as protective responses) and the parent script you inherited under "learned patterns". This
-    guide has no umbrella word; its parts language does that work in trance. Options:
-    - A. Leave the guide without it.
-    - B. One sentence in "The inner child, the guards, and the inner adult's three jobs" that names the umbrella.
+  Options:
+  - A. You write those in your own words, in any order.
+  - B. Your published list comes back for the general checklist, and it reads AI.
+  - C. They stay as they are, red.
 
-    My recommendation: A. Each figure is now explained where the guide first uses it, and the umbrella would be a
-    framework the guide never uses again. My default until you answer: A.
-  - **c. Appendix B's "Put 3 good adults in with the person (Nurturer, Protector, and Guide)."** The reader who checked
-    the renames pointed out that this makes the three jobs three people, which your table rules out ("Three functions
-    of that same Inner Adult—not three additional people"); the h1 now says "the inner adult's three jobs". Your
-    published line was "Bring in the three adults. Nurturer warms, Protector makes it safe, Leader points a direction.",
-    after the guide had said they "aren't three literal beings". The same goes for two smaller places: the invocation in
-    "The actual inner meeting" calls on your "inner adult(s)", and Appendix K links your inner child site as "My
-    three-adult arrangement". Options, for all three:
-    - A. One adult with three jobs in all three places: "Put a good adult in with the person, one who does all three jobs
-      (Nurturer, Protector, and Guide)", "inner adult", and "My inner adult's three jobs".
-    - B. Keep three: it's your own shorthand, and in an imagery step three imagined adults may be what makes it work.
+  My recommendation: A, because your own lines have read dark green every time. My default until you answer: the new
+  version goes in, since its middle and end read Human and it keeps every point, with the opening as it is.
 
-    My recommendation: B, since it's your phrase and the guide has already said they aren't three people; A if the step
-    works as well with one. My default until you answer: B, as it is (with Guide for Leader).
+## Your answers of 2026-10-22 21:41 UTC, and what I did
+
+- 🔵 **12 a, A: forced adulthood.** "When the adult role is not available yet" now says some people "may go blank, access an
+  inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood)".
+- 🟢 **12 b, A.** No umbrella word.
+- 🔵 **12 c: three roles, one inner adult.** Appendix B's step keeps the three adults, with your clarification right after it:
+  "Put 3 good adults in with the person (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In
+  real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together
+  as well." ("we could also imagine" became "we can imagine", the same offer.) The invocation's "inner adult(s)" and
+  Appendix K's "three-adult arrangement" stay as they are.
+- How they were checked: a reader went through both changes against your answer, their meaning and how they read in
+  place (both fine); the step-or-break reader read both; and a check against your whole published guide found two places
+  in these paragraphs that earlier rewrites had moved away from what you published:
+  - "Telling them to just access their adult is like telling them to just be able to fly" made the adult out of reach for
+    good, where you'd published "assumes the capacity they are trying to build". It's now "like telling a baby bird to
+    just fly".
+  - The step had lost each adult's job ("Nurturer warms, Protector makes it safe, Leader points a direction"); they're
+    back in its brackets.
+  Both fixes were read again in place and passed. The same check asked about two more things, and both stay: "forced
+  adulthood" is your term (it had no source in the published guide, which is why it asked), and "an inherited inner
+  critic" is the script acting as a critic, as I said under 10.
+- 🔵 **Your screening result** ([the result](https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb), Mostly Human Written, 8.6% AI):
+  - The induction section: two of the four samples read Human in every window, bd and bf. I took bf, because it was made
+    from the installed section with every point in and your 11 b, while bd was made from the published text and
+    invented a source ("shamelessly stolen from the Gerson hypnosis course"). The other two, bc and be, read Mixed.
+  - Appendix C: neither sample read Human. bg read Human from its list of tricks to the good guide, and AI in its opening
+    (when to use the checklist, the statement to say, the four tests) and its last sentence; bh read AI nearly throughout.
+    So the second screening post tried two new openings with bg's middle, and Appendix C as it stands (question 13 has
+    what it found).
+- 🔵 **The induction section from bf.** A reader compared bf with your published section point by point: of its 251
+  points bf kept 169, changed 52 and lost 30, and it added 10 claims. This time only what changes what a reader does or believes goes
+  back, each as the smallest edit inside bf's own sentence, since ba's restorations in plain words had read AI. So 31
+  fixes, among them your 11 b word for word, "you can also just open your eyes and be done", the count's "Leave a little
+  space", "something is listening" for "someone", the shortcut's cue made unusual and paired with hypnosis, and the "Nymja"
+  to-do note turned back into a pointer to Nimja's sleep playlist. Its three links are back, and your published headings.
+  The other 70 findings are let stand, each with a reason (wording, an example, a small word, a point carried elsewhere).
+  A separate reader then checked every changed paragraph in place and audited all 70 let stands: 27 of the 28 paragraphs
+  fine, and no let stand it disagreed with. Its one catch was that "overwhelmed by chemicals" is narrower than your published "intoxicated", and
+  that's your own 11 b wording, so it stays. A cold reader of the whole section found three unclear spots, now fixed in
+  bf's own words: "The narrator can't add stuff just because you don't say anything", "This is for when you're already
+  open ...", and "today's trance will be over when you come out of it". A check against your whole published
+  guide then found three places where bf had moved away from it, and each is back in its own sentence: the
+  already-open practice had become a way to go deeper ("so that you can deepen it" is out, for your "I do not need to
+  intensify it"); the preview before you begin had become optional ("if you can" is out); and "just open your eyes and
+  be done" said an early stop needs no return, where your guide says "Use Come all the way back, even when you ended
+  early", so it's now "You can also just open your eyes and stop, and then come all the way back anyway". Your published
+  "You can simply open your eyes and finish" pulls the same way as bf did, so tell me if you meant opening your eyes to
+  be enough there.
+- 🟢 **Nibbāna:** your editor HTML is in, and rebuilt the way the check reads it, it is exactly the text Pangram read
+  (same SHA-256), so each of the 22 red windows is a known stretch of it. The article is next after this guide.
+- 🟢 **The pull request's conflict** (another lane's merge had landed first) is fixed; you merged it at 22:16 UTC.
 
 ## Your answers of 2026-10-22 18:37 UTC, and what I did
 
@@ -221,15 +259,14 @@ read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Open the screening post in your Brave**: [TEMP screen (hypnosis guide samples)](https://ibogaqueen.substack.com/p/8f4644c8-8bda-4321-8437-8a09148353cc?postPreview=paid&updated=2026-10-22T19%3A26%3A08.747Z&audience=only_paid&free_preview=false&freemail=). Click the Pangram
-  label once it settles (15 to 20 seconds), use "Copy shareable link to result" in the side panel, and paste the link to
-  me. The post holds six new Emulate samples, four of the induction section and two of Appendix C's checklist; the
-  meaning work goes into whichever reads Human. Its text in the page is exactly the text I predicted from (same SHA-256),
-  well under the check's 99,999-character limit.
+- 🟠 **Run Pangram on recheck A in your Brave**: [TEMP recheck A (hypnosis guide)](https://ibogaqueen.substack.com/p/922161db-6015-4838-b495-3a4db7b12fea?postPreview=paid&updated=2026-10-22T23%3A08%3A00.000Z&audience=only_paid&free_preview=false&freemail=), then paste
+  me the link. It's the whole guide with the new induction section and your answers 9 to 12; the check reads its first
+  99,999 characters, a little way into the appendices. Its text in the page is exactly the text I predicted from. The
+  appendices' half (recheck B) waits on your answer to 13.
 - 🔵 **Your Nibbāna article** is queued after the hypnosis guide, with [its result](https://www.pangram.com/feed/1ffe8aed-a00a-4273-846c-635ae22b2917)
-  read: Mostly Human Written, 4.5% AI, 22 of its 166 windows AI ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/QUEUE-20261022.md)).
-  One thing I'll need from you before I start: the post's current editor HTML, as you gave me on 28 September. The post
-  has changed since that copy (it opens "Hello Lovey Bunny!!" now), and the fixes have to go into the current one.
+  read: Mostly Human Written, 4.5% AI, 22 of its 166 windows AI ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/QUEUE-20261022.md)), and
+  your current editor HTML in.
+- 🟢 Done: both screening posts (your results of 21:41 and 23:01, read: above and in question 13).
 - 🟢 Done: the recheck of 2026-10-21 (your results of 18:37, read: part A AI in the induction section, part B Mostly Human
   with Appendix C red), and the note to the Inner Child chat (that lane ran its own check, its 75).
 - 🟢 Your temporary drafts: recheck A and B are renamed "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP
@@ -238,7 +275,6 @@ read and update it. Every file it points to is a link.
 
 ## Where it stands
 
-🟢 All 40 of the guide's sections are humanized. In the last whole-guide check, two read red: the induction section and
-Appendix C's checklist. 🔵 Their new samples are in the screening post; then the meaning work on the one that reads
-Human, and a whole-guide recheck with everything, your answers 9 to 11 included. 🟣 Question 12 is yours.
-[The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every check's link.
+🟢 All 40 of the guide's sections are humanized, and your answers 9 to 12 are in. 🔵 The induction section's new version
+(sample bf, which read Human, with its meaning put back and four rounds of reviews) is in the guide, and recheck A reads it
+in place. 🟣 Appendix C's opening is question 13. Then recheck B, the appendices. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every check's link.
