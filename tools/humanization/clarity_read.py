@@ -280,7 +280,30 @@ LOSES: what a reader loses if it's cut ("nothing" when that's so)
 If nothing in your part counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.
 '''
 
+REPEAT_BRIEF = '''You are a cold first-time reader of {about}. {question}Joel says his articles are too long and too redundant ("as much as possible we should be deduplicating because i feel the article is really too redundant"; "everyone says my articles are too long (and hard to read because of the excessive redundancy and details which are from the AI writing)"). Your job is to find what the article says more than once, so the repeats can be cut.
+
+You own part {k} of {n}: the points made in that part. For each point made in your part, look through the whole article for every other place that makes the same point again (an explanation, an argument, a definition, a story, a warning or a list that a reader already has). Then say which place keeps the point (usually the fullest one, or the one where the reader needs it), and which words to cut elsewhere.
+
+What counts: the same explanation or argument given again in other words; a definition repeated; a story or example told twice; a summing-up that restates what the paragraph just said; a preview that the section it previews then says again in full. What doesn't count: a short callback that names an earlier point to build on it ("as I said about the founders, ..."), a pointer to another section, a point applied to a new case where the new case is the content, his jokes and stories told once.
+
+Cut whole sentences or clauses only, so the paragraph still reads after the cut; no rewording. If a cut would leave a paragraph that no longer makes sense, say so in LOSES.
+
+Work quickly: read the whole article once, noting repeats of your part's points as you go, then pick the clearest and write them down. Don't compare every paragraph with every other or weigh each cut at length: a short report naming the biggest repeats is the job. (2026-10-23: three of the four readers of the community article spent their whole output thinking, again and again, and wrote nothing.)
+
+Read the whole article in {article} (one Read call; headings marked "## "), and your part, the same text as part {k} of {n}, in {part} (one Read call). Then write your report with one Write call to {report}, in this shape, in the article's order of the cuts, at most {max_items} items:
+
+## 1
+SECTION: the heading the cut is under, exactly as in the file
+QUOTE: the exact words to cut, copied exactly character for character from the file: whole sentences or clauses, no more than the cut
+KEPT: the words, copied exactly from the file, of the place that keeps the point, and its heading in brackets
+WHY: in one line, what the cut says again
+LOSES: what a reader loses if it's cut ("nothing" when that's so)
+
+If you find no repeats of your part's points, write only "NOTHING". Then reply with only the number of items. Use no tools other than those two Reads and that one Write, and don't use the web.
+'''
+
 EDIT_FIELDS = ('SECTION', 'QUOTE', 'MOVE', 'CHANGE', 'WHY', 'KEEPS')
+REPEAT_FIELDS = ('SECTION', 'QUOTE', 'KEPT', 'WHY', 'LOSES')
 CAVEAT_FIELDS = ('SECTION', 'QUOTE', 'KIND', 'WHY', 'LOSES')
 CLARITY_FIELDS = ('QUOTE', 'HARD', 'SCORE', 'PLAIN')
 
@@ -314,18 +337,19 @@ def make(article, outdir, parts=3, about=None, question=None, examples=None, max
     kind = 'html' if article.suffix.lower() in ('.html', '.htm') else ('md' if article.suffix.lower() == '.md' else 'txt')
     text = reading_text(raw, kind)
     (outdir / 'ARTICLE.txt').write_text(text, encoding='utf-8')
-    edit, cav = read == 'edit', read == 'caveats'
+    edit, cav, rep = read == 'edit', read == 'caveats', read == 'repeats'
     default = HERE / {'edit': 'readers_edit_examples.json', 'caveats': 'caveat_examples.json'}.get(read, 'clarity_examples.json')
-    exfile = json.loads(pathlib.Path(examples or default).read_text(encoding='utf-8'))
+    exfile = {'examples': []} if rep else json.loads(pathlib.Path(examples or default).read_text(encoding='utf-8'))
     ex = exfile['examples']
     (outdir / 'KIND').write_text(read + '\n', encoding='utf-8')
     ps = split_parts(text, parts)
     for k, p in enumerate(ps, 1):
         (outdir / ('PART-%d.txt' % k)).write_text(p, encoding='utf-8')
-        brief = (CAVEAT_BRIEF if cav else EDIT_BRIEF if edit else BRIEF).format(
+        brief = (REPEAT_BRIEF if rep else CAVEAT_BRIEF if cav else EDIT_BRIEF if edit else BRIEF).format(
+            article=(outdir / 'ARTICLE.txt').resolve(),
             k=k, n=len(ps), about=about or "one of Joel's articles, for a general Substack audience",
             question=(question + ' ') if question else '',
-            examples=(caveat_examples_text if cav else edit_examples_text if edit else examples_text)(ex),
+            examples=(caveat_examples_text if cav else edit_examples_text if edit else examples_text)(ex) if ex else '',
             books=exfile.get('books', ''), kept='; '.join(exfile.get('kept', [])),
             part=(outdir / ('PART-%d.txt' % k)).resolve(), report=(outdir / ('READER-%d.md' % k)).resolve(),
             max_items=max_items)
@@ -376,15 +400,18 @@ def collect(outdir):
     old = {}
     if (outdir / 'ITEMS.json').exists():
         old = {x['quote']: x for x in json.loads((outdir / 'ITEMS.json').read_text(encoding='utf-8'))}
-    items, edit, cav = [], read_kind(outdir) == 'edit', read_kind(outdir) == 'caveats'
+    items, edit, cav, rep = [], read_kind(outdir) == 'edit', read_kind(outdir) == 'caveats', read_kind(outdir) == 'repeats'
     for f in sorted(outdir.glob('READER-*.md'), key=lambda p: int(re.search(r'(\d+)', p.stem).group(1))):
         part = int(re.search(r'(\d+)', f.stem).group(1))
-        fields = CAVEAT_FIELDS if cav else EDIT_FIELDS if edit else CLARITY_FIELDS
+        fields = REPEAT_FIELDS if rep else CAVEAT_FIELDS if cav else EDIT_FIELDS if edit else CLARITY_FIELDS
         for j, it in enumerate(parse_reader(f.read_text(encoding='utf-8'), fields), 1):
             where = locate(text, it['quote'])
-            if cav:
+            if rep:
+                it['kind'] = 'REPEAT'
+            if cav or rep:
                 rec = {'key': '%d.%d' % (part, j), 'part': part, 'section': it['section'], 'quote': it['quote'],
                        'kind': it['kind'].upper(), 'why': it['why'], 'loses': it['loses'],
+                       **({'said_already': it['kept']} if rep else {}),
                        'found': where is not None, 'line': where[0] if where else None,
                        'heading': where[1] if where else None, 'status': 'keep'}
                 prev = old.get(it['quote'])
@@ -459,9 +486,9 @@ def edit_page(items, title=None, intro=None):
     return '\n'.join(out), n
 
 
-KINDS = {'SAID-AGAIN': 'said already', 'BLANKET': 'a blanket add-on', 'NOBODY-SUGGESTED': 'warns against a step nobody '
+KINDS = {'REPEAT': 'a repeat', 'SAID-AGAIN': 'said already', 'BLANKET': 'a blanket add-on', 'NOBODY-SUGGESTED': 'warns against a step nobody '
          'suggested', 'REASSURANCE': 'a reassurance', 'TAKEBACK': 'a takeback', 'HEDGE': 'a hedge',
-         'DISCLAIMER': 'a disclaimer'}
+         'DISCLAIMER': 'a disclaimer', 'TRIM': 'a trim you asked for'}
 
 
 def cut_paragraph(text, quote):
@@ -502,7 +529,9 @@ def caveat_page(items, text, title=None, intro=None):
         out += ['**What a reader loses:** ' + (x.get('loses') or 'nothing'), '']
         if x.get('note'):
             out += ['**My check:** ' + x['note'], '']
-        if after is not None:
+        if after == '':
+            out += ['**After:** the whole paragraph goes.', '']
+        elif after is not None:
             out += ['**After:**', '', '> ' + after, '']
         else:
             out += ['(The reader\'s quote isn\'t in the article word for word: find it by its words before using it.)', '']
@@ -519,8 +548,9 @@ def page(outdir, title=None, intro=None):
     items = json.loads((pathlib.Path(outdir) / 'ITEMS.json').read_text(encoding='utf-8'))
     if read_kind(outdir) == 'edit':
         return edit_page(items, title, intro)
-    if read_kind(outdir) == 'caveats':
-        return caveat_page(items, (pathlib.Path(outdir) / 'ARTICLE.txt').read_text(encoding='utf-8'), title, intro)
+    if read_kind(outdir) in ('caveats', 'repeats'):
+        return caveat_page(items, (pathlib.Path(outdir) / 'ARTICLE.txt').read_text(encoding='utf-8'),
+                           title or ('What the article says more than once' if read_kind(outdir) == 'repeats' else None), intro)
     live = [x for x in items if x.get('status', 'keep') == 'keep']
     hard = sorted((x for x in live if score_of(x) >= 3), key=lambda x: (x.get('line') or 0))
     reread = sorted((x for x in live if score_of(x) == 2), key=lambda x: (x.get('line') or 0))
@@ -561,9 +591,10 @@ def main(argv=None):
     m.add_argument('article'); m.add_argument('dir'); m.add_argument('--parts', type=int, default=3)
     m.add_argument('--about'); m.add_argument('--question'); m.add_argument('--examples')
     m.add_argument('--max-items', type=int, default=12)
-    m.add_argument('--kind', choices=('clarity', 'edit', 'caveats'), default='clarity',
+    m.add_argument('--kind', choices=('clarity', 'edit', 'caveats', 'repeats'), default='clarity',
                    help="clarity (part 1: what a reader has to reread), edit (part 2: the reader's edit) or caveats "
-                        "(part 3: safety lines and caveats a reader doesn't need)")
+                        "(part 3: safety lines and caveats a reader doesn't need) or repeats (part 4: what the article "
+                        "says more than once; each reader reads the whole article and owns one part's points)")
     c = sub.add_parser('collect')
     c.add_argument('dir')
     p = sub.add_parser('page')
@@ -580,7 +611,7 @@ def main(argv=None):
     else:
         md, n = page(a.dir, a.title, a.intro)
         pathlib.Path(a.out).write_text(md, encoding='utf-8')
-        print('%s: %d numbered %s' % (a.out, n, {'edit': 'proposals', 'caveats': 'cuts'}.get(read_kind(a.dir), 'passages')))
+        print('%s: %d numbered %s' % (a.out, n, {'edit': 'proposals', 'caveats': 'cuts', 'repeats': 'cuts'}.get(read_kind(a.dir), 'passages')))
     return 0
 
 

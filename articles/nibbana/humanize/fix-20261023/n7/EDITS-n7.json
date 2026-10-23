@@ -1,0 +1,37 @@
+[
+ {
+  "key": "n7-drawers",
+  "old": "Part of the problem is that the Buddha, or those who recorded him, left the pieces in different drawers. Ud 1.10 points to direct sensations as the gateway; SN 12.44 gives the contact chain building “the world”; SN 12.67 has consciousness and mind-and-body leaning together like two bundles of reeds – pull either away and the other falls, like Jenga.",
+  "new": "Part of the problem is that the Buddha (or the people writing his words down) stored the pieces of the puzzle in different drawers. For instance, he talks about direct sensations as the gateway in Ud 1.10, but explains how contact creates “the world” in a chain in SN 12.44. He talks about how consciousness and mind-and-body are like two bundles of reeds that lean against each other (remove one and the other falls down, Jenga!) in SN 12.67.",
+  "windows": "67 (Low) and 68 (Medium) in recheck 7; window 69 of recheck 6 (Human, Low); the first sentence AI, Low, on 2026-10-20",
+  "source": "Emulate sample cf (NB-drawers)",
+  "mine": [
+   {
+    "replace": "Yes, I think part of the problem",
+    "with": "Part of the problem",
+    "why": "\"Yes,\" answers nothing (the paragraph before ends on a statement, DN 16); and the reader (REVIEW.md): \"I think\" made his flat claim less certain"
+   },
+   {
+    "replace": "he talks about the importance of direct sensations in Ud 1.10",
+    "with": "he talks about direct sensations as the gateway in Ud 1.10",
+    "why": "his point is that Ud 1.10 makes direct sensations the gateway; \"the importance of\" lost it"
+   },
+   {
+    "replace": "consciousness and mind/body",
+    "with": "consciousness and mind-and-body",
+    "why": "the article's own term (E246)"
+   },
+   {
+    "replace": "lean against each other (Jenga!)",
+    "with": "lean against each other (remove one and the other falls down, Jenga!)",
+    "why": "the reader (REVIEW.md): \"pull either away and the other falls\", the sutta's point, was lost; back in sample ce's own words"
+   }
+  ],
+  "markup_dropped": [],
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 8)",
+  "review": "fix-20261023/n7/REVIEW.md",
+  "triage": "fix-20261023/n7/TRIAGE.json"
+ }
+]

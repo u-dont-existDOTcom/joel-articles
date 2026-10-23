@@ -1,0 +1,77 @@
+{
+ "feed_uuid": "31fd6bda-482c-4991-a5ef-d586de30aecb",
+ "link": "https://www.pangram.com/feed/31fd6bda-482c-4991-a5ef-d586de30aecb",
+ "created_at": "2026-10-23T19:27:38.566279-04:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 0.003886160906404257,
+ "fraction_human": 0.9961138367652893,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 5.7138316833516e-07,
+   "high-confidence": 0.0038855895400047302,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 6.216065884245836e-09,
+   "high-confidence": 0.9961138367652893,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 4.0682680748499456e-13,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "verdict_support": {
+  "ai": 0,
+  "human": 1,
+  "mixed": 0,
+  "source": "sentence_dp",
+  "ai_coverage": {
+   "p10": 0,
+   "p50": 0.004018059000372887,
+   "p90": 0.05,
+   "std": 2.1777028450742364e-05,
+   "mean": 0.004018519073724747,
+   "show_range": false
+  },
+  "ai_threshold": 0.800000011920929,
+  "human_coverage": {
+   "p10": 0.9964786767959595,
+   "p50": 0.9964786767959595,
+   "p90": 0.9964786767959595,
+   "std": 2.1777039364678785e-05,
+   "mean": 0.9964781999588013
+  },
+  "human_threshold": 0.8999999761581421,
+  "coverage_resolution": 0.0010045147500932217
+ },
+ "ai_distribution": {
+  "title": "A single AI-generated segment",
+  "description": "AI-generated content is limited to one short segment; the rest is human-written."
+ },
+ "num_ai_segments": 2,
+ "num_human_segments": 110,
+ "word_count": 15754,
+ "task_id": "719dd834-1806-4f89-b2fa-114de9c89f95",
+ "text_sha256": "a56e5aafcf28285e30b5a81636c8170eb2853b59374a5fe00cae474fc15ef885",
+ "text_chars_js": 90615,
+ "compact_sha256": "776ddb0c0a5a7b9a5c50ec138380a60b652eafbf53a64472ffd7aeffd9273ccb",
+ "compact_chars": 7245,
+ "windows_word_sum": 15660,
+ "windows_ai": 2,
+ "windows_human": 112,
+ "labels": [
+  "Human",
+  "AI-Generated"
+ ]
+}

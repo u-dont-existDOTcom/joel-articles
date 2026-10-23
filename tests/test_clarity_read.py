@@ -155,6 +155,32 @@ KEEPS: every sentence
             self.assertIn('> Do the practice lying down. If nobody is in danger, take a breath or three.', md)
             self.assertIn('**A (my pick):** cut it.', md)
 
+    def test_the_repeats_read_gives_the_whole_article_and_lists_cuts_with_the_kept_place(self):
+        """Part 4 (Joel, 2026-10-23 22:29 UTC: "as much as possible we should be deduplicating"): each reader reads the whole
+        article and owns one part's points; each cut shows where the point is kept."""
+        art = ('<div class="body markup"><h1>One</h1><p>Founders hold too much power. That is the core problem.</p>'
+               '<h1>Two</h1><p>' + 'Text. ' * 40 + 'As I said, founders hold too much power.</p></div>')
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'a.html'
+            src.write_text(art, encoding='utf-8')
+            out = pathlib.Path(d) / 'rep'
+            C.make(src, out, parts=2, read='repeats')
+            brief = (out / 'BRIEF-1.txt').read_text(encoding='utf-8')
+            self.assertIn(str((out / 'ARTICLE.txt').resolve()), brief)  # the whole article
+            self.assertIn('You own part 1 of 2', brief)
+            self.assertIn('too redundant', brief)
+            (out / 'READER-2.md').write_text(
+                '## 1\nSECTION: Two\nQUOTE: As I said, founders hold too much power.\n'
+                'KEPT: Founders hold too much power. [One]\nWHY: the same point\nLOSES: nothing\n', encoding='utf-8')
+            items = C.collect(out)
+            self.assertEqual(items[0]['kind'], 'REPEAT')
+            self.assertEqual(items[0]['said_already'], 'Founders hold too much power. [One]')
+            md, n = C.page(out)
+            self.assertEqual(n, 1)
+            self.assertIn('What the article says more than once', md)
+            self.assertIn('~~As I said, founders hold too much power.~~', md)
+            self.assertIn('**Said already:** Founders hold too much power. [One]', md)
+
     def test_a_clarity_read_dir_without_kind_is_a_clarity_read(self):
         with tempfile.TemporaryDirectory() as d:
             self.assertEqual(C.read_kind(d), 'clarity')

@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-23, after your message of 20:35 UTC. **Open questions: none here** (one on your Nibbāna article's
-page). **Nothing for you to do here** (your Nibbāna article's sixth recheck is ready for Pangram).
+Last updated 2026-10-23, after your message of 22:29 UTC. **Open questions: none here** (N6 is on your Nibbāna
+article's page, 64 and 65 on your community article's page). **Nothing for you to do here** (your Nibbāna article's seventh recheck is ready for Pangram).
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,6 +11,16 @@ read and update it. Every file it points to is a link.
 ## Open questions
 
 None right now.
+
+## Your message of 2026-10-23 22:29 UTC, and what I did
+
+Your message, word for word as I have it: [joel-20261023-2229-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-2229-message.txt).
+
+- 🔵 **"same question for community and hypnosis articles":** no, we hadn't looked at this guide for too much safety
+  language either. The check is standard now, as part 3 of the clarity check, and the Nibbāna and community lists are on
+  their pages. For this guide it runs with the rest of its clarity check (the reread list and the reader's edit), in a
+  turn of its own: it's about 29,500 words, and since it's inner child work, it follows the InnerSignal rules for
+  reviewing that kind of writing.
 
 ## Your message of 2026-10-23 20:35 UTC, and what I did
 

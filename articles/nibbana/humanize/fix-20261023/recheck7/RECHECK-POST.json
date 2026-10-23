@@ -1,0 +1,24 @@
+{
+ "made": "after Joel's message of 2026-10-23 22:29 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221726541",
+ "title": "TEMP recheck (Nibbana article) - do not publish",
+ "how": "the same temporary draft, in the app's built-in browser: its title checked, the body (94,305 characters, the sixth recheck) cleared with real keystrokes (a click in a plain paragraph, ctrl+a, Delete), the payload pasted with the lane's paste helper; Publish was never clicked",
+ "secret_link": "https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck7-n7&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD.html",
+ "payload_sha256": "fc386dbe37cc341af9591ac235389475b088b30784faf41f8bb8f19a4be432d0",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/78c0db0b095ed010660379af4390943ae0e89d04/articles/nibbana/humanize/fix-20261023/recheck7/PAYLOAD.html",
+ "paste": {
+  "helper": "../../../../inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js",
+  "editor_words_right_after": 15853,
+  "editor_words_after_the_notes_and_the_caption": 16030,
+  "words_expected": 15856,
+  "why_not": "as at every earlier paste: 3 words short right after (the three embedded notes as links), then the editor rebuilds the notes"
+ },
+ "fixed_after_paste": "the gallery caption (\"Real NASA space photos!\") deleted with a triple click and a real Delete key; the editor said Saved",
+ "rendered_check": "the secret link opened in the app's browser: 271 lines that hash to DRAFT-TEXT.txt (a56e5aaf...) exactly, batch n6's sentences in them",
+ "text": "DRAFT-TEXT.txt",
+ "text_sha256": "a56e5aafcf28285e30b5a81636c8170eb2853b59374a5fe00cae474fc15ef885",
+ "text_chars": 90591,
+ "predictions": "pangram-ledger.jsonl NB-whole#29, and the part forecast FORECAST.json, both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

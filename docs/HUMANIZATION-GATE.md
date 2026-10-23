@@ -1120,11 +1120,43 @@ The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-2035-message.
   asked. A video that a paragraph's colon introduces stays with that paragraph (14: "keeping that colon together with
   whatever it introduces").
 
-(The next lesson in either lane is E252.)
+(The next lesson in either lane was E252 here; see the end of the next section.)
+
+## What Joel's message of 2026-10-23 22:29 UTC taught (the hypnosis guide, Nibbāna and community lanes)
+
+The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-2229-message.txt` (the same file in the guide's
+`fix-20261023/` and the community article's `candidate/joel-20261023/`, beside GPT's reply to my review).
+
+- **E252. Too much safety language and too many caveats are their own check.** His words: "did we already look at whether
+  there's too much safety language in this article? just cut out a ton of obnoxious safety language and caveats from
+  inner child article. same question for community and hypnosis articles. noticing more and more how bad my articles
+  read." We hadn't. The reader's edit asks what each warning's job is, but proposes moves, and the clarity read asks what
+  a reader has to reread; neither asks whether a line should be there at all. The Inner Child lane found the method on its
+  own (how public books place safety; an inventory; cuts shown struck through, with whose words they are). It is now part
+  3 of `docs/CLARITY-READ.md`, with a tool (`clarity_read.py make --kind caveats`, examples in
+  `tools/humanization/caveat_examples.json`) and a test, run with parts 1 and 2 on every article. Its first runs: Nibbāna
+  (25 lines found; mostly caveats on claims, little safety language) and the community article (34). A line that is his
+  real position, or that changes what a reader does, stays (E250 applies the other way too: "it's a caveat" is not a
+  reason to cut his actual claim).
+- **E253. Redundancy needs a reader who sees the whole article.** His words: "as much as possible we should be
+  deduplicating because i feel the article is really too redundant", and "everyone says my articles are too long (and
+  hard to read because of the excessive redundancy and details which are from the AI writing)". Readers given a part
+  can't see a repeat pages away (the caveat readers flagged only repeats inside their part). So part 4 of
+  `docs/CLARITY-READ.md` gives each reader the whole article and one part's points to own (`clarity_read.py make --kind
+  repeats`). First run: the community article after its move into essay and manual.
+- **E254. GPT's reply to my review: what held and what I overstated.** GPT agreed with my fidelity calls (the rewrites
+  W07, W10, W11 and W09 change his meaning), and said I overstated three: M01's navigation problem was real even if the
+  move was costly; M02 had a narrower option (one article, the essay first and a clearly marked manual after it), which
+  is what he chose; and his own request to condense the FEC paragraph (W08) deserved a trial, not a "keep". He also chose
+  the move over the pointer (61 b) and the essay/manual split over my "take it back" (62): my reasons were about what a
+  move costs (links, transitions, Pangram seams), and his are about readers ("the short attention span people have").
+  When I argue against an approval of his, I weigh what the change does for a reader, not only what it costs to make.
+
+(The next lesson in either lane is E255.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". The next lesson in either lane is E252.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". The next lesson in either lane is E255.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 
