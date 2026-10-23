@@ -1,0 +1,24 @@
+{
+ "made": "after 2026-10-23T13:13Z (the last API check of this round); the paste is recorded here, the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221726541",
+ "title": "TEMP recheck (Nibbana article) - do not publish",
+ "how": "the same temporary draft as the first recheck (../recheck/RECHECK-POST.json), in the app's built-in browser: its title checked, the body (89,502 characters, the first recheck) cleared with real keystrokes in the editor (a click in a plain paragraph, ctrl+a, Delete; 0 characters left), then the payload pasted with the lane's paste helper; Publish was never clicked; Joel's post and his own drafts were not opened",
+ "secret_link": "https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck2-n2&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD.html",
+ "payload_sha256": "68a4c3c5d3b6058a24af912cc9d70bc93c94b9a16068ffe965df85f2a6bec0e9",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/1631f040b739f7c196b1572a34582734f10d3c59/articles/nibbana/humanize/fix-20261023/recheck2/PAYLOAD.html",
+ "paste": {
+  "helper": "../../../../inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 15141,
+  "words_expected": 14963,
+  "words_match": false,
+  "why_not": "the editor rebuilt the three embedded notes from their links and shows 178 more words, as at the first recheck's paste (15,141 = 14,963 + 178)"
+ },
+ "fixed_after_paste": "the gallery caption the builder printed (\"Real NASA space photos!\") was a paragraph of its own in the editor; it was selected (a triple click) and deleted with a real Delete key (15,137 words after), and the editor said Saved",
+ "rendered_check": "the secret link opened in the app's browser (its post title \"TEMP recheck (Nibbana article) - do not publish\", unpublished): the post body's paragraphs and list items, read with the rebuild's own rules (headings, figures and captioned images skipped; trailing spaces and emoji joiners dropped), are 269 lines, 86,156 characters, which hash to DRAFT-TEXT.txt (0ed4d332...) exactly; the n2 sentences and his four rewrites are in it",
+ "text": "DRAFT-TEXT.txt",
+ "text_sha256": "0ed4d332fd40f397c28ff96bde2c2bf397a7a8e819b592f77209aca82be36dc4",
+ "text_chars": 86156,
+ "predictions": "pangram-ledger.jsonl NB-whole#24 (make_preds_recheck_nb.py), written on DRAFT-TEXT.txt before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

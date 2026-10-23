@@ -1,0 +1,25 @@
+{
+ "why": "Emulate re-runs (Joel, 2026-10-23 12:30 UTC: \"you can take text emulate gives which doesn't pass, and re-run it, and then it can pass\") of the seam, first paragraph only, with the two points they dropped put back before the check: \"qualified\" (who to get help from) and that saying it is gone does not end it right away. bi kept both and stays close to the input that read AI; it is held back with the lineage's last try.",
+ "fixes": {
+  "b473_seam_bj_p1": [
+   [
+    "then get help from someone who can help you.",
+    "then get help from someone who’s qualified to help you."
+   ],
+   [
+    "doesn’t mean it’s going to be gone.",
+    "doesn’t mean it’s going to be gone right away."
+   ]
+  ],
+  "b473_seam_bk_p1": [
+   [
+    "then reach out to someone who can help you.",
+    "then reach out to someone who’s qualified to help you."
+   ],
+   [
+    "will not make it go away.",
+    "will not make it go away immediately."
+   ]
+  ]
+ }
+}

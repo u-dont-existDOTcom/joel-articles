@@ -37,21 +37,23 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
-| **all lanes** | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
+| hypnosis guide | 17 | 14 (82%) | 82% | 18% | 12% | 0.135 (base 0.145, 17) |
+| nibbana article | 2 | 2 (100%) | 100% | 0% | 0% | 0.011 (base 0.000, 2) |
+| **all lanes** | 19 | 16 (84%) | 84% | 16% | 11% | 0.122 (base 0.133, 19) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| hypnosis guide | 14 | 11 (79%) | 71% | 29% | 7% | 0.198 (base 0.204, 14) |
+| hypnosis guide | 17 | 14 (82%) | 82% | 18% | 12% | 0.135 (base 0.145, 17) |
+| nibbana article | 2 | 2 (100%) | 100% | 0% | 0% | 0.011 (base 0.000, 2) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| stretch | 12 | 9 (75%) | 67% | 33% | 8% | 0.230 (base 0.222, 12) |
-| article | 2 | 2 (100%) | 100% | 0% | 0% | 0.001 (base 0.000, 2) |
+| stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
+| article | 7 | 6 (86%) | 100% | 0% | 14% | 0.066 (base 0.000, 7) |
 
 ## pangram 4.1, web app
 
@@ -72,6 +74,29 @@ The boundary mix over all lanes:
 |---|---|---|---|---|---|---|
 | paragraph | 10 | 6 (60%) | 40% | 60% | 80% | 0.195 (base 0.240, 10) |
 | section | 4 | 2 (50%) | 50% | 50% | 100% | 0.214 (base 0.250, 4) |
+
+## pangram 4.1, the API (Joel's key, run on his laptop; E218)
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| hypnosis guide | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
+| nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
+| **all lanes** | 41 | 22 (54%) | 56% | 44% | 71% | 0.220 (base 0.246, 41) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| hypnosis guide | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
+| nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 21 | 11 (52%) | 62% | 38% | 67% | 0.220 (base 0.236, 21) |
+| pair | 19 | 10 (53%) | 53% | 47% | 74% | 0.222 (base 0.249, 19) |
+| stretch | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
 
 ## Pangram 4.1 GUI (dashboard)
 
@@ -139,20 +164,26 @@ The boundary mix over all lanes:
 | cause | misses | lanes |
 |---|---|---|
 | too pessimistic about a cut | 12 | inner child guide |
+| a paragraph alone is harsher than the article | 7 | nibbana article |
 | balanced closer kept | 3 | hypnosis guide |
 | not explained yet | 3 | inner child guide |
+| parallel list kept | 2 | hypnosis guide |
+| context: red in the whole guide, Human in the pair | 2 | hypnosis guide |
+| six versions, same reading: the method is spent | 2 | hypnosis guide |
 | a tell I did not name | 2 | inner child guide |
 | a window moved onto his line | 2 | inner child guide |
 | a second cut of the same kind | 2 | inner child guide |
 | a Low window came back | 2 | inner child guide |
 | the section read differently from the paragraph alone | 2 | inner child guide |
 | too pessimistic about a rewrite | 2 | inner child guide |
-| parallel list kept | 1 | hypnosis guide |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
 | fix underrated | 1 | hypnosis guide |
-| verdict threshold misread | 1 | hypnosis guide |
 | tells overweighted | 1 | hypnosis guide |
 | a red window read as its first section's | 1 | hypnosis guide |
+| the same skeleton reworded | 1 | hypnosis guide |
+| tidy closers at both paragraphs' ends | 1 | hypnosis guide |
+| tidy closer | 1 | hypnosis guide |
+| a linter fix that read worse | 1 | hypnosis guide |
 | a tell I left in | 1 | inner child guide |
 | an added move read AI | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |
@@ -160,6 +191,10 @@ The boundary mix over all lanes:
 | the half varies | 1 | inner child guide |
 | Low windows with no AI window | 1 | inner child guide |
 | a repeat made adjacent by a move | 1 | inner child guide |
+| a Low window read Human | 1 | nibbana article |
+| underrated a plain split | 1 | nibbana article |
+| a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |
+| a misread page: the caution never read Human | 1 | nibbana article |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 

@@ -1,0 +1,21 @@
+You are a cold first-time reader of part 3 of 3 of Joel's long personal essay on nibbāna and stream entry: his own meditation experiences, read against the Pāli suttas, with some science, for a general Substack audience (curious people, not Buddhist scholars). His question: "is there any other stuff in the nibbana guide that's hard to understand but still passing pangram?" Find the passages a smart general reader would have to stop and reread, or would come away not understanding.
+
+What counts, from his own fixes:
+1. Compression. He rewrote this "because it was hard to understand due to the compression":
+   BEFORE: "The Buddha splits the accounting cleanly in SN 22.22: the five aggregates are the burden; craving is picking it up. The tangle is heavy by nature – even an arahant feels the first dart – and craving keeps us carrying it. Physics agrees that binding is literally heavy: quarks supply less than 1% of a proton's mass; roughly 99% comes from gluon-binding energy."
+   AFTER: "In SN 22.22 the five aggregates that make up the unified body-mind are the burden (even an arahant feels the first dart) of suffering, and craving is the process that keeps picking that burden up, so that you walk around unaware of the boulder on your back even as you keep making the payments to the Boulder Bank to keep it there (and thank God you can afford to!?). The tangle of the aggregates is what makes them heavy, which sounds counterintuitive since we don't imagine the whole can be more than the sum of its parts in that way. But "binding" is literally heavy in physics too: ..."
+2. A shorthand that only makes sense if you already know what he means. He rewrote this one "which explains better also":
+   BEFORE: "The percentage language applies only to partial nibbāna. The fingers and room events were both full (100%) unweavings; body-limited versus body-uncontained describes their scope, not their depth or authenticity."
+   AFTER: "The percentage language applies only to partial unweavings. The fingers and room events were both full (100%) unweavings. The difference between those two was one was limited to the body, one was limited to the room, but neither one had anything that could identify or suffer, and both were the full infinite bliss and release (unlike the 2 birds version which was lacking there)."
+Other things that count: several claims packed into one sentence; a chain of abstract nouns ("the functional coordination through which ..."); a Pāli or technical term the reader needs but that isn't explained there or earlier in your part; a "this", "that" or "it" whose referent isn't clear; a step missing from the reasoning, so the conclusion doesn't follow for the reader; a term used before it's explained; a sentence whose point you can't state after reading it twice.
+What doesn't count: his jokes, emoji, slang, exclamations and casual grammar (that's his voice); a style you'd do differently; a term explained nearby; a long passage that is clear; a claim you disagree with (don't fact-check).
+
+Read the file /home/claude/ja-community/articles/nibbana/humanize/fix-20261023/clarity/PART-3.txt (one Read call; it is part 3 of 3, headings marked "## "). Then write your report with one Write call to /home/claude/ja-community/articles/nibbana/humanize/fix-20261023/clarity/READER-3.md, in this shape, the hardest first, at most 12 items:
+
+## 1
+QUOTE: the passage, copied exactly character for character from the file (a sentence or two; enough to find it)
+HARD: in one line, what a reader stumbles on (which words, and why)
+SCORE: 3 (most readers would not get it), 2 (most would have to reread) or 1 (a small snag)
+PLAIN: the same passage rewritten so a general reader gets it on first read, in his casual voice, keeping every claim, name, number and citation, adding no new claim or fact (more words is fine)
+
+If you find nothing that counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.

@@ -1,0 +1,23 @@
+{
+ "made": "2026-10-23T02:05Z",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221412532",
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "secret_link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=2026-10-23T02%3A10%3A00.000Z&audience=only_paid&free_preview=false&freemail=",
+ "cleared": "the title checked first; the body (60,015 characters, the recheck of 2026-10-21) selected and deleted with real keystrokes in the editor (a click in the body, ctrl+a, Delete); 0 characters left",
+ "payload": "PAYLOAD-B.html",
+ "payload_sha256": "4b0535534d58b61e47f27d7dbd9a67a3d071b92fe11688d80973ab70e93d29a3",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/29dd5244356e6ce87ff9bc63ae8824ddb227905e/articles/inner-signal/humanize/fix-20261023/recheck/PAYLOAD-B.html",
+ "paste": {
+  "helper": "../../fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 10852,
+  "words_expected": 10827,
+  "words_match": false,
+  "why_not": "WORDS-B.json counts the payload's words from its HTML; the editor shows 25 more, as part A's showed 34 more at both of its pastes: text the editor renders around images and embeds that the count leaves out. The rendered check below is the one that decides."
+ },
+ "saved": "the editor said Saved before the page was left",
+ "rendered_check": "the secret link opened in the app's browser at 02:05 UTC (its title the draft's): the textContent of the post's paragraphs and list items (headings and captioned images skipped) is 228 lines; with the page's button line 'Quick Triage Web-App Version HERE' left out, as the rebuild leaves it out, its 227 lines hash to TEXT-B.txt (76745975...) exactly",
+ "text_sha256": "76745975db144bbc3a627d88c05e624cd8510f82265424312a3ec7bbc306c8d6",
+ "text_chars": 57384,
+ "predictions": "pangram-ledger.jsonl HG-rest-B#48 (make_preds_recheck.py B), written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key (02:10), not the paste time"
+}

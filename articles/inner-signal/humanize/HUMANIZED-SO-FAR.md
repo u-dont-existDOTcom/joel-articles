@@ -416,7 +416,7 @@ And then look what your body tells you. It is not always correct, but it is a go
 
 # De-hypnosis: wake up inside the influence
 
-One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
+One of the best side-effects of learning self-hypnosis is that sudden "waking up" to all the ways your attention is being shaped in your day-to-day life. There are actually multiple patents on using screens to send subliminal messages, but even without that kind of potentially illegal tech, the screen is one connection to the omnipotent Algorithm. Which shows us ads and guides our preferences. Then we wonder why we vote for this or that politician. But there are also the older, more mundane influences: erotic imprinting (as if breast implants are actually sexy), religious fear, which tags along with shame, charismatic authority and pressure to belong. And all of that drilled repeatedly into us, because one exposure won't do the trick. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
 
 Manipulation often comes with any of the following; urgency, you are special, FOMO (fear of missing out), not be included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, and an excessive sense of certainty about something way too quickly and you have a sense that one good question will break the spell.
 
@@ -608,19 +608,19 @@ Now come all the way back up again, and at a later time, when it is appropriate,
 
 Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions or come back up when you are in it. Don't use it in a way that you are going to follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
 
-Never do this when you are driving or doing something where you need to be actively paying attention. It is not safe to go into a trance where you are actively paying attention to what is inside of you when you should be paying attention to what is outside of you, even with your eyes open, even if you are using "if it would be useful for you to do so" type language.
+There is something you should never do while using this induction. And that's use it, practice it or test it while you're driving or doing something where you need to be actively paying attention. It's just not safe to be going into a trance where you are actively paying attention to what's going on inside of you when you need to be paying attention to what's going on outside of you. Even though your eyes can be open, even though you're using "if it would be useful for you to do so" type language it's just not safe.
 
-To turn this off, stop rehearsing it, take it out of any recordings that you have, stop having it in any apps that are active, and go back to using your regular induction that you have been using. Say that you won't use it anymore when you are awake, but realize that just saying that it is gone won't make it go away immediately. If you are finding that you are responding to it when you don't want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you. If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. For now, today's trance will be over when you come out of it.
+If you want to turn this one off, simply don't practice it anymore. Take it out of your recordings, take it out of your apps if you're using it in an app, and start using your regular induction. Tell yourself, when you're awake, that you won't be using it anymore. Just because you say that it'll be gone doesn't mean that it'll be gone right away. If it's causing you a problem, if you're still responding to it when you don't want to respond to it, if you're having issues with disorientation, etc, get some help from someone who's qualified to help you with this. If, on the other hand, you want to keep it so that you can use it to go back into trance at a later date when you do want to go into a trance, that's fine too. For now, though, once you come out of this trance, it'll be over for today.
 
 # Come all the way back
 
-Make sure to reverse anything you've done to alter your state when you come out of it. If you've floated, make sure you regain your weight (of your choice, of course). If you've shrunk, grow to your normal size again. If you've regressed or met parts, make sure you come back to feeling complete in the here and now and acknowledge that your body belongs to you and is under control of the adult mind. If you've gone somewhere, make sure you go back the same way. Etcetera. Make sure that the only things you bring out with you are the ones you want to.
+If you have done anything to alter your state when coming out of a trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size. If you have met a younger state or are working with parts, make sure to come back to feeling complete in your body in the here and now, that your body belongs to you, and that it is under control of your adult mind. If you have gone somewhere, make sure to go back the same way you went there. Etcetera. Make sure to only take with you when you come out of a session the things that you want to!
 
 Here is a generic bring-back that you can use: "When I come out of this session, I will only bring with me that which is useful to me in my everyday life right now. Anything else I will bring with me at a later date, when I am better able to integrate it. When I come out of this session, I will be coming back to the room I am in now, and to the day in which I am participating in this session now. All instructions you have given me to carry me deeper in this session or to keep me in this state are now finished. The only instruction I will take with me into my everyday life, or the only cue I will use to take me into this state in the future, is the one I consciously choose to, and neither of them keeps me in this state. When I come out of this session, I will be me, in my body, with my adult judgment."
 
 Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.
 
-When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit before getting up. Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because you've done the count. Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
+When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.
 
 If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
 
@@ -748,13 +748,13 @@ REMEMBER: Not everything in hypnotic imagery is literal, especially if it relate
 
 ## Nothing happens
 
-Could you try starting a bit smaller?
+Is there a way you could try this on a smaller scale?
 
-Showing yourself just one sensation in your body / one word / whether to listen today or rest?
+Show yourself one body sensation, one word, ask yourself if you want to listen today or if you need to rest.
 
 ## It feels fake
 
-Do you know what exactly feels fake - the words, an image, what you are expecting, the role etc? It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.
+Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.
 
 You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?'
 
@@ -1194,19 +1194,15 @@ Get the person out of the altered state (bring them back to the room and have th
 
 # Appendix C: The extended de-hypnosis checklist
 
-Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I won’t assume I know what it proves. And what would love, truth, humility and ordinary life need from me here?
+What to do when you feel like you’re being pushed too hard by something (person, ad, ideology, spiritual teaching, romantic attraction, internal voice, etc.): Say to yourself, “Okay, something is trying to influence me here. I don’t have to obey it. I don’t even have to attack it. I can just slow myself down and ask some questions like, 'What would this thing influence me to believe that isn’t true in order to get what it wants from me? What is my body telling me to do about this (how does my body feel)? What would love do here? What would truth do here? How would I approach this humbly? What would life have me do here?'”
 
-If it’s true, it can handle my questions. If it’s real love, it’ll survive my boundaries. And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”
+If what you’re investigating is true, it can take your questioning (as the police like to say). If it’s love, it can accommodate your boundaries. If it’s real guidance, it’ll still be there tomorrow. If it’s really for you, it won’t want you to give up all the wisdom and sovereignty you’ve worked so hard to develop.
 
-Before acting on it, look for the usual signs, like urgency, secrecy, shame, a threat that you’ll be left out or a promise that you’re special, that kind of thing. Is there a sexual charge, or spiritual superiority? Be wary if it demands money or sex from you. Demands for your loyalty or your silence are signs too, and so is any demand for obedience.
+Before you do what it wants you to do, see if it does any of the following: create a sense of urgency, secrecy, shame, threat of exclusion if you don’t do what it says, specialness, sexual charge, spiritual superiority, ask you for money, ask you for sex, ask you for loyalty, ask you to be quiet, ask you to obey it, try to limit your choices, make it seem like it’s bad to question it, act like not obeying it is a problem that needs to be solved, make normal life seem boring/stupid/irrelevant in its presence, try to seduce/scare/rescue your child, not let your adult self say no.
 
-It’s a warning if your choices are being narrowed. Same if asking questions gets treated as betrayal, or your resistance gets treated like a pathology. Or if ordinary life starts to look small next to it, like the dishes and your friends don’t matter anymore.
+If it does a bunch of these things, slow yourself down, don’t let it push you deeper into trance, don’t do anything you can’t undo, and then ground yourself for a while (take care of your body, eat, sleep, give it time, get counsel, etc).
 
-Notice whether your child part is being seduced or scared. Being rescued counts too. And is your adult self still allowed to say no?
-
-If you see several of these, slow down. Don’t go deeper into trance, and don’t make a decision you can’t undo. Just come back to the room and your body for a while. Then eat, sleep, give it time, get some counsel and so on.
-
-You can tell a good guide because your adult self gets stronger with them. And can they take your no? A bad guide can’t. They take your adult self’s place, and they’ll call your no resistance, ego, fear, low vibration, trauma, sin, you name it, or proof that you need more of their guidance.
+A good guide will make your adult self stronger. A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job. A bad guide will try to make your no something that’s bad or needs to be fixed (resistance, ego, fear, low vibration, trauma response, sin, need for more of its guidance, etc).
 
 ## Hypnosis-specific audit
 
