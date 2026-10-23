@@ -117,21 +117,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 38 | 30 (79%) | 47% | 53% | 47% | 0.186 (base 0.249, 38) |
-| **all lanes** | 38 | 30 (79%) | 47% | 53% | 47% | 0.186 (base 0.249, 38) |
+| inner child guide | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
+| **all lanes** | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 38 | 30 (79%) | 47% | 53% | 47% | 0.186 (base 0.249, 38) |
+| inner child guide | 40 | 32 (80%) | 45% | 55% | 50% | 0.187 (base 0.247, 40) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 16 | 13 (81%) | 38% | 62% | 56% | 0.190 (base 0.234, 16) |
-| section | 11 | 8 (73%) | 64% | 36% | 27% | 0.182 (base 0.231, 11) |
+| paragraph | 17 | 14 (82%) | 35% | 65% | 59% | 0.191 (base 0.228, 17) |
+| section | 12 | 9 (75%) | 58% | 42% | 33% | 0.184 (base 0.243, 12) |
 | stretch | 11 | 9 (82%) | 45% | 55% | 55% | 0.184 (base 0.248, 11) |
 
 ## What the misses say (since the ledger)

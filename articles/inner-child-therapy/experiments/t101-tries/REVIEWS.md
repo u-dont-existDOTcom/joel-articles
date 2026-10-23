@@ -23,9 +23,18 @@ His message, word for word: `../t101-answers/JOEL-20261023-1405.md` (91.1 B, 91.
 | [t101_askgod_stretch](https://www.pangram.com/history/b4743c65-68c2-4f82-a312-8532ab2c9ef4) | 490 | Human Written, 0% AI | none | askgod-p3-p7#140 Human: right |
 | [t101b_borrow_h3](https://www.pangram.com/history/daced127-f97b-4ecc-a7bb-47c6c8c220b5) | 353 | Human Written, 0% AI | none | borrow-h3#141 Human: right |
 
-Seven of nine calls right. The new h3 read AI on its first try, from old P5's "And don't expect a thank-you for the session" to the end: the move had put it right before my P9, which opened on the thank-you again (E172, E232). With my P9's first sentence as "Your little one might not take it well at first." (draft `drafts/h01-borrow-P9.txt`) it reads 100% Human, and that is in. The section's opening reads Mostly Human (2.5%) with no AI window at all; round 6 checks the h2 whole, since with the h3 it is ten paragraphs, past his five or six a check.
+Seven of nine calls right in the first three rounds, and both Borrow Hindsight calls below. The new h3 read AI on its first try, from old P5's "And don't expect a thank-you for the session" to the end: the move had put it right before my P9, which opened on the thank-you again (E172, E232). With my P9's first sentence as "Your little one might not take it well at first." (draft `drafts/h01-borrow-P9.txt`) it reads 100% Human, and that is in. The section's opening reads Mostly Human (2.5%) with no AI window at all; round 6 checks the h2 whole, since with the h3 it is ten paragraphs, past his five or six a check.
 
 ## Coverage (92 A)
 
-Three readers, guide lines 1 to 520, 521 to 1019, and the queue (r14 at innerSignalGraph 714c23b5): `../t101-coverage/`.
+Three Sonnet readers, each told to trace every gap through his recorded decisions before calling it one (E191): guide lines 1 to 520 (`../t101-coverage/COVERAGE-A.md`, 22 items: 2 real gaps, 20 his decisions), lines 521 to 1019 (`COVERAGE-B.md`, 15 items: 4 real gaps, 11 his decisions) and GPT's queue, r14 at innerSignalGraph 714c23b5 (`COVERAGE-QUEUE.md`, 44 entries: 36 carried, 5 partly, 3 his to write; 4 of the partly ones with no decision of his). They read `../t101-coverage/ARTICLE-NOCOMMENTS.md`, the article at 14:08 UTC, and the queue reader also took in this turn's changes.
 
+- **Fixed now, since it went against his ruling:** Borrow Hindsight's Higher Self line. His 49.5 kept it ("49, 5: both stay"), and turn 93's cut of AI tells took it out (COVERAGE-B.md item 5). Back as one plain sentence with a pointer to How This Relates to IFS (draft `drafts/h02-hindsight-P1.txt`):
+
+| check (public Pangram page) | words | result | what read AI | call |
+|---|---|---|---|---|
+| [t101c_hindsight_p1](https://www.pangram.com/history/2a870406-ce74-4b76-91de-eb5424fd4c3b) | 60 | Human Written, 0% AI | none | hindsight-P1#142 Human: right |
+| [t101c_hindsight_h2](https://www.pangram.com/history/ba1a48e3-8ae0-45dc-95f3-b823d915a83f) | 171 | Human Written, 0% AI | none | hindsight-h2#143 Human: right |
+
+- **The rest go to him as question 95**, each with my pick: the last-resort break (A item 3, his own 2026-10-19 words), deliberate temporary distance (B item 2), the two signs (B item 1), the safe-adult sentence (B item 6), the realistic outcome (A item 9), and from the queue PGQ-038, 027, 039, 009 and the three he said he'd write (034 to 036).
+- **The header** of `HUMANIZED-ARTICLE-SO-FAR.md` now says what's true: the article is registered with master.html as its master, this file is the humanized version in progress, and the coverage check's result. Its first words stay ("> **Working review assembly only.**"), which the Substack payload scripts look for.

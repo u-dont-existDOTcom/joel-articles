@@ -126,3 +126,29 @@ If the love still isn’t coming, you can at least stop judging your little one.
 
 Your little one might not take it well at first. 😜 More like “Oh, so NOW you care?” Your first instinct might be “But I’m trying!” Some days, just hearing it out like a decent adult is the only thing you’ll manage to borrow.
 
+## t101c_hindsight_p1
+
+Borrow Hindsight P1 with the Higher Self line back (draft h02; your 49.5), alone.
+
+**Human Written** (Human), 0% AI, 60 words, Pangram 4.1, 2026-10-23T15:11:03Z.
+
+Pangram's public page: https://www.pangram.com/history/2a870406-ce74-4b76-91de-eb5424fd4c3b
+
+I sometimes ask: “How would I respond to this once I understood it more clearly, in balance and with compassion?” It’s a question borrowed from your future self, and I wouldn’t take their answer as gospel. I don’t think a perfect Higher Self is waiting in there with the answers, either (more on that in How This Relates to IFS).
+
+## t101c_hindsight_h2
+
+Borrow Hindsight, the section, with it.
+
+**Human Written** (Human), 0% AI, 171 words, Pangram 4.1, 2026-10-23T15:11:26Z.
+
+Pangram's public page: https://www.pangram.com/history/ba1a48e3-8ae0-45dc-95f3-b823d915a83f
+
+Borrow Hindsight
+
+I sometimes ask: “How would I respond to this once I understood it more clearly, in balance and with compassion?” It’s a question borrowed from your future self, and I wouldn’t take their answer as gospel. I don’t think a perfect Higher Self is waiting in there with the answers, either (more on that in How This Relates to IFS).
+
+That future you also knows why you can’t pull this off perfectly today. What would they do for you, if they were here? Maybe they’d just make you some food. If you can’t picture them, make the food yourself, and don’t bother faking a feeling first. A “no” or a pause can count as the food, too.
+
+You can borrow a wiser future version of whoever else is involved, too, as long as you don’t assume they’ll end up on your side, or sorry. What the current one keeps doing is still what you go by, however good the picture looks (the future one has never called you back).
+

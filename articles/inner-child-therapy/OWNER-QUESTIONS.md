@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 101). **Open questions: 94.** For you to do: merge pull request #227. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-23 (turns 82 to 101). **Open questions: 94 and 95.** For you to do: merge pull request #227. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -19,9 +19,42 @@ From [GPT's review of the test](https://github.com/u-dont-existDOTcom/joel-artic
   - **A (my pick):** GPT's version. It keeps both points (advice is fine, and at their pace) in one sentence. It gets a Pangram check before it stays.
   - **B:** keep yours.
 
-### 🔵 95. The coverage check you asked for in 92: running (turn 101)
+### 🟣 95. What the coverage check found missing (your 92 A)
 
-Three readers are going through the guide (lines 1 to 520 and 521 to 1019) and GPT's queue against the article, each gap read against your recorded cuts (`experiments/t101-coverage/`). Only the real gaps come here, as one question.
+Three readers went through the guide and GPT's queue against the article as it stands, and traced every gap through your recorded decisions: [the guide's first half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-A.md), [its second half](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-B.md) and [the queue](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-coverage/COVERAGE-QUEUE.md). Nearly everything that's out is out because you cut or rewrote it, and that stays as it is. These are the real gaps, the ones no decision of yours explains. One more was a cut of mine against your 49.5 (the Higher Self line in Borrow Hindsight), and it's back in already. To take all my picks, answer "95: your picks".
+
+From the guide:
+- **95.1 A full break is a last resort, and a safety problem can force one** (guide line 75; your 54.9 b kept it). Your rewrite of the breaks paragraph in Before You Try to Go Deep (2026-10-22) dropped it without saying so.
+  - **A (my pick):** your own words from your 2026-10-19 version go back at the start of that paragraph: "A full break from your little one is a last resort. Sometimes it isn't up to you, though, like when something's actually unsafe."
+  - **B:** leave it out.
+- **95.2 Temporary distance on purpose** (guide line 543): stepping away for a while so the conditioning can quiet down and your own preferences can come up. The article only offers distance when a family or group won't let you differentiate. I cut it in turn 54 as a repeat.
+  - **A (my pick):** add it to that sentence in Untangling the Belonging Bargains, as a clause.
+  - **B:** leave it out.
+- **95.3 Two of the guide's signs** (lines 535 and 537): "Your preferences, beliefs, and feelings change dramatically with the people around you." and "You don't know what you would choose without the fear of disappointing somebody." I cut the signs list in turn 54.
+  - **A:** one sentence with both, near "It might feel wrong somehow to like something before you've checked anyone's face."
+  - **B (my pick):** leave them out; that line and "still being recognizably yourself wherever you are" carry most of it.
+- **95.4 The loop's last fallback** (line 661): borrowing a safe adult's sentence, "I won't attack you while we sit here." I compressed it in turn 65.
+  - **A:** put it back in A Heart-to-Child Loop.
+  - **B (my pick):** leave it out; Make a Simple Vow's "promise your little one you won't be cruel to them on purpose" does the same job.
+- **95.5 Choosing a realistic outcome before the next conversation** (line 157): passing on information, saying no or leaving without forty minutes of self-defense, and "You do not have to make somebody understand you before you can act."
+  - **A:** one sentence in Other Folks Also Have Hooks.
+  - **B (my pick):** leave it out; the article has the second half for a repeated apology, and the rest is small.
+
+From GPT's queue:
+- **95.6 Keeping yourself safe is part of the work** (PGQ-038). Your 2026-10-19 version left out my paragraph at the end of Not Every Hero Wears A Cape, with no word about it: "Keeping yourself safe counts as one of those acts too, if you like seeing it that way. Walking out of a place where you're hurt is still your own step, even with a friend along. A doctor or a shelter is outside help, and reparenting doesn't replace it."
+  - **A (my pick):** put it back. The last sentence is the safeguard: nobody should put off a doctor or a shelter because they're "doing the inner work".
+  - **B:** leave it out.
+- **95.7 Urgent care can also treat the pain** (PGQ-027). Your pain paragraphs say to get diagnostics done during the attack, not that they may be able to treat it then, which is the alternative to the quick fix.
+  - **A (my pick):** add "and they may be able to treat it while it's happening" to your diagnostics sentence, or your own words for it.
+  - **B:** leave it out.
+- **95.8 Before sharing something sensitive** (PGQ-039): what gets written down and who can read it; a lawyer for legal trouble; an AI chat with only the general kind of help; public posts versus DMs. Your two paragraphs replaced the drafts that had some of this.
+  - **A (my pick):** only a second question beside yours, "And who else gets to read what I tell you?", since it's a question to ask and makes no legal claim. The queue asks for a legal review before anything that names what the law does.
+  - **B:** leave it as it is.
+- **95.9 Leaning on one person** (PGQ-009, small): dreading the loss of that person is a different problem from their jobs going undone.
+  - **B (my pick):** leave it; your P2 in Borrowed Adulthood in Relationship already spreads the load. **A:** a sentence on the difference.
+- **95.10 Yours to write since your 66:** bringing gratitude in sideways (PGQ-034), gratitude in a calm altered state (035), and hypnosis with grief or an altered state (036).
+  - **A (my pick):** record 035 and 036 as left out by your choice (your hypnosis guide covers 036), and keep 034 open for your words.
+  - **B:** all three stay open.
 
 ## For you to do (no decision needed)
 
@@ -52,7 +85,7 @@ Your message (turn 101; `experiments/t101-answers/JOEL-20261023-1405.md`), with 
 - **91.1 B:** in. Borrow One Competency at a Time opens with your paragraph and the three borrowings, then "If the Love Isn't Coming Yet" has the troubleshooting. "Most of us wouldn't open up ..." is cut, and "That takes warmth, and if there isn't any yet, borrow some." now ends old P5, since its "That" points at P5's last words. The new h3 read AI once ([check](https://www.pangram.com/history/0646d274-08fa-4d24-ba75-c444710868ef)), because the move put old P5's thank-you line right before my P9, which opened on the thank-you again; with my P9 starting "Your little one might not take it well at first." it reads 100% Human ([check](https://www.pangram.com/history/daced127-f97b-4ecc-a7bb-47c6c8c220b5)). Lesson E232.
 - **91.2 A:** "Instead of Blame" is in, and the paragraphs on both sides of it read Human with it ([check](https://www.pangram.com/history/f10b22b1-9b69-47be-bddc-a0bdb8d0cbdc)).
 - **91.3 A, 91.4 A:** nothing changed. **91.5 A:** GPT's two new line edits are question 94.
-- **92 A:** the coverage check is question 95.
+- **92 A:** the coverage check is question 95. It also found a cut of mine against your 49.5: turn 93 took the Higher Self line out of Borrow Hindsight with the AI tells. It's back as "I don't think a perfect Higher Self is waiting in there with the answers, either (more on that in How This Relates to IFS).", 100% Human [alone](https://www.pangram.com/history/2a870406-ce74-4b76-91de-eb5424fd4c3b) and [in its section](https://www.pangram.com/history/ba1a48e3-8ae0-45dc-95f3-b823d915a83f). The article's header now says what's true.
 - **93.1:** your words are in: "Of course, that’s not to say you should not try to suffer less, or get away from abusers." ([check](https://www.pangram.com/history/3f2f7707-7f0f-4878-9017-b40cda89b308)).
 - **93.2:** your two sentences are back, at the end of the prosperity paragraph ([check](https://www.pangram.com/history/8c605c65-c08f-4b0f-a0db-d32efccd033a)), and the stretch from there to the Of course paragraph reads Human ([check](https://www.pangram.com/history/b4743c65-68c2-4f82-a312-8532ab2c9ef4)).
 - **93.3 A:** kept as it is.
