@@ -47,12 +47,21 @@ def main():
     (R / 'TEXT.txt').write_text(text, encoding='utf-8')
     expected = C.checked_text(work.read_text(encoding='utf-8'))
     (R / 'EXPECTED.txt').write_text(expected, encoding='utf-8')
+    # What the draft will show (2026-10-23, E233): Substack's editor makes a run of spaces single on paste, and splits an
+    # image gallery into single images with its caption as a paragraph of its own, which the post's check never reads. So
+    # DRAFT-TEXT.txt is EXPECTED.txt with single spaces, and each gallery caption is printed, to be deleted in the draft
+    # before the rendered check.
+    draft_text = '\n'.join(re.sub(r' {2,}', ' ', x) for x in expected.split('\n'))
+    (R / 'DRAFT-TEXT.txt').write_text(draft_text, encoding='utf-8')
+    for cap in re.findall(r'class="image-gallery-embed".*?<figcaption[^>]*>(.*?)</figcaption>', payload, re.S):
+        print('a gallery caption the editor will turn into a paragraph (delete it in the draft):', _h.unescape(cap))
     straight = str.maketrans({'“': '"', '”': '"', '‘': "'", '’': "'"})
     words = re.sub(r'</?(?:a|em|strong|b|i|u|s|span|code|sup|sub)\b[^>]*>', '', payload)
     words = _h.unescape(re.sub(r'<[^>]+>', ' ', words)).translate(straight).split()
     out = {'segments': len(segs), 'payload_sha256': sha(payload.encode('utf-8')), 'payload_chars': len(payload),
            'text_sha256': sha(text.encode('utf-8')), 'text_chars': len(text),
            'expected_sha256': sha(expected.encode('utf-8')), 'expected_chars': len(expected),
+           'draft_text_sha256': sha(draft_text.encode('utf-8')), 'draft_text_chars': len(draft_text),
            'words': len(words), 'words_sha256': sha(' '.join(words).encode('utf-8')),
            'working_copy_sha256': sha(work.read_bytes())}
     (R / 'RECHECK-BUILD.json').write_text(json.dumps(out, indent=1) + '\n', encoding='utf-8')

@@ -855,6 +855,15 @@ batch 472g's API checks, `b472/API-CHECKS.md`; this round's recheck, `recheck/`)
   (E226), so these are the paragraphs' content, not the alone check. With nothing earlier of his to go back to, they go to
   him with the sentences that read red (E227), at three tries rather than six, since the third already used the one shape
   that had passed elsewhere.
+- **E233. A paste changes the text in two ways the payload doesn't show.** The Nibbāna recheck draft's first rendered
+  check had one line more than the working copy's checked text and three lines that differed: Substack's editor split an
+  image gallery into single images and kept its caption ("Real NASA space photos!") as a paragraph, which the post's check
+  never reads, and it made three double spaces single. The caption was deleted in the draft (a real Delete key on its
+  selected text), and the prediction, written before the paste on the working copy's text, was voided and written again on
+  the text the draft shows, which the second rendered check matched exactly. The recheck builder now writes that text
+  itself (`DRAFT-TEXT.txt`: single spaces) and prints each gallery caption to delete before the rendered check, so the
+  prediction goes on the right text the first time. Embedded notes need nothing: the editor rebuilt all three from their
+  links.
 
 ## Every correction teaches the system (Joel, 2026-10-01)
 

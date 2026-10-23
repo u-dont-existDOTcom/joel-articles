@@ -6,6 +6,8 @@
  "text_chars": 84308,
  "expected_sha256": "4707d30f53fef2ba0e9bb3d2cd8c683cd8e5717656d9e2df95fc334b207e30bf",
  "expected_chars": 85180,
+ "draft_text_sha256": "dfd00232fb5e0d390c8fdcf13390dde13b33522667018ccf2b343f674a151170",
+ "draft_text_chars": 85177,
  "words": 14772,
  "words_sha256": "ce391a0206c1ca6ff7a77c4ebee0ffdd02b8421bf831857408f5edc190c8d55d",
  "working_copy_sha256": "ca1416494b94320f474d8c15e4f43ef05e8dd5abd9ac4a85658b28d524731163"

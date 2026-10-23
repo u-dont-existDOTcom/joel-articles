@@ -33,7 +33,9 @@ READS_AI = re.compile(r'\b(?:reads?|reading|read as)\s+(?:as\s+)?AI\b', re.I)
 CHECK_CONTEXT = re.compile(r'\bPangram\b|\b\d{3}g\b|\d+%', re.I)
 # A check's page: its History entry, or (2026-10-20) the page of Pangram's check of a Substack post, which isn't in the
 # History list (the hypnosis guide's whole-guide check through a temporary Substack post: pangram.com/feed/<uuid>).
-LINKS = ('pangram.com/history/', 'pangram.com/feed/')
+# An API check (Joel's key, E218) has no Pangram page, so its link is its heading on the batch's API-CHECKS.md page in the
+# repository (E214; 2026-10-23: the hypnosis guide's b472 and Nibbāna's n1).
+LINKS = ('pangram.com/history/', 'pangram.com/feed/', '/API-CHECKS.md#')
 
 
 def units(text):

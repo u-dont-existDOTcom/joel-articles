@@ -1,5 +1,14 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, 03:10 UTC (the guide waits on Joel; his Nibbāna article's first 4.1 pass)
+
+Nothing new on the guide: recheck B's link and question 14 are with Joel. The lane's queue moved on to his Nibbāna
+article, with its own questions page ([OWNER-QUESTIONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md)) and ledger: batch n1 put four
+fixes in the working copy (each Human on its own through the API and OK by the reader), the science sentence went to him
+as question N1 and four stretches as N2 (AI in three tries each), and the whole-article recheck is pasted into a new
+temporary draft and verified, waiting on his Brave. Lessons E230 to E233; the API check pages of both articles now label
+every line of a window (E230: I had read the driving caution's unlabelled line as Human).
+
 ## 2026-10-23, after Joel's message of 01:10 UTC (recheck A read; answer 13, his own Appendix C; batch 472g through the API; recheck B pasted)
 
 **Recheck A's result** ([his link](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af)): Mostly Human

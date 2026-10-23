@@ -109,6 +109,9 @@ every such edit goes through the gate.
 between the shortcut part and the return, his own words). Questions 1 to 8 were answered at 2026-10-21 17:56 UTC, 9 to 11
 at 2026-10-22 18:37 UTC, 12 at 21:41 UTC, 13 at 2026-10-23 01:10 UTC.
 
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the recheck draft's result link (pasted and verified 2026-10-23
+02:59 UTC); N1 (the science sentence's frame) and N2 (four stretches in his own words).
+
 ## Where it stands
 
 `STATUS.md` (newest on top) and the section table: `python3 tools/lane_status.py` (each section's newest whole check with
@@ -171,7 +174,42 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23, after Joel's message of 01:10 UTC: recheck B waits on his Brave, question 14 on him)
+## Next step (2026-10-23 03:10 UTC: the guide's recheck B and Nibbāna's recheck wait on his Brave; questions 14, N1 and N2 on him)
+
+The guide is as in the step below (nothing new from Joel since 01:10 UTC): items 1 to 4 there still hold. Done since then,
+on his Nibbāna article (`articles/nibbana/humanize/`, its own ledger `pangram-ledger.jsonl`, lane "nibbana article" in
+`tools/humanization/pangram_lanes.json`):
+- Batch n1 (`fix-20261023/n1/`, its `API-CHECKS.md`): the nine High and Medium stretches of his check of 2026-10-20, three
+  API rounds (ledger NB-P64#1 to NB-P266#19). Four fixes read Human, passed the reader (`REVIEW.md`) and are in the working
+  copy `HUMANIZED-SO-FAR.html` (`install_n1.py`, `EDITS-n1.json`): unification, the percentages (try 2), the last test,
+  rebirth. The science sentence read Human on try 1 but the reader flagged two additions, and the reader's own fix read AI
+  (question N1). The near-death reports, SN 22.22 with the proton, the Diamond Sutra and the driving caution read AI in
+  three tries each (question N2; E232).
+- The whole-article recheck (`fix-20261023/recheck/`): `make_recheck_nb.py` (the transfer helper's four segments joined;
+  the three notes travel as links and the editor rebuilt them), pasted into a new draft, 221726541 ("TEMP recheck
+  (Nibbana article) - do not publish"), its rendered text equal to `DRAFT-TEXT.txt` after one gallery caption was deleted
+  in the draft (`RECHECK-POST.json`; E233); prediction NB-whole#21.
+- Lessons E230 to E233; both lanes' API pages now label every line of a window; `pangram_links_check.py` accepts an API
+  check's heading on its `API-CHECKS.md` page as its link (`tests/test_pangram_links_check.py`).
+
+Nibbāna's next steps:
+1. **When Joel sends the Nibbāna recheck's link**: read the windows from the page (`tools/humanization/pangram_feed_read.js`,
+   its compact line), and rebuild with `substack_check_text.py` on the working copy: the draft's checked text should hash
+   to `DRAFT-TEXT.txt` (dfd00232...; the payload alone lacks the notes, so rebuild from the working copy and make the
+   spaces single, as `make_recheck_nb.py` does). Record the ledger result for key NB-whole-n1 (`verdict_of`), check that the
+   four fixes read Human in place, and list the Low windows still red for batch n2 (each fix through the API, "no worse"
+   alone (E226), then the reader, then the next recheck).
+2. **N1**: A, try 1's sentence goes in (`make_n1.py` E['n1-science'], add it to `install_n1.py`'s GO with its check
+   n1_science, try 1); B, his word for "wild" checked through the API first (lineage NB-P237 has four tries left); C, his
+   words; D, it stays.
+3. **N2**: A, his words go in as he writes them (an edit each, its source his message), checked in the next recheck; B,
+   tries 4 to 6 (three left for each lineage); C, they stay red.
+4. API checks for Nibbāna run on the laptop from `/home/joel/ai-work/claude-dangerous-lane/pangram-api/nb-n1/`
+   (`python3 pangram_api.py check TEXTS-N.json out --expect 4.1 --windows > roundN.log`; the texts as JSON written there
+   and their SHA-256 checked; the log back as gzip and base64, SHA-256 checked), then `n1/record_round.py N` and
+   `n1/api_page.py`.
+
+## Earlier next step (2026-10-23, after Joel's message of 01:10 UTC: recheck B waits on his Brave, question 14 on him)
 
 Done since the step below: recheck A read (`fix-20261022/recheck/RESULT-A.json`, Mostly Human Written, 1.4% AI; ledger
 HG-whole#33 right once its verdict was corrected to Mixed, E225); 470g's and 471g's forecasts scored for part A, 17 of 17

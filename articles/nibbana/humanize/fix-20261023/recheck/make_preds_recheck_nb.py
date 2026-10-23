@@ -2,9 +2,12 @@
 
   python3 articles/nibbana/humanize/fix-20261023/recheck/make_preds_recheck_nb.py   (from the repo root, after make_recheck_nb.py)
 
-The text is EXPECTED.txt: the working copy's text as the check reads it, the three embedded notes included (the payload
-carries each note as its link, and the editor turns the link back into the note on paste; the rendered check after the paste
-says whether it did). So the ledger's SHA-256 is the text the check should read.
+The text is DRAFT-TEXT.txt, the draft's text as the check reads it: the working copy's (EXPECTED.txt, the three embedded
+notes included, which the editor rebuilt from their links on paste) with three double spaces made single, as the editor
+made them on paste ("MN 56  says", "the effort  (wash", "AN 3.88  allows"). The first prediction (NB-whole#20) was written on
+EXPECTED.txt before the paste; the rendered check found those three spaces and an image gallery's caption ("Real NASA
+space photos!") turned into a paragraph, which was deleted from the draft, so #20 was voided and this one written on the
+text the draft now shows (its rendered text hashes to DRAFT-TEXT.txt).
 """
 import pathlib, subprocess, sys
 
@@ -31,7 +34,7 @@ P = dict(
 
 def main():
     r = subprocess.run([sys.executable, str(REPO / 'tools' / 'humanization' / 'pangram_ledger.py'), 'predict', str(LEDGER),
-                        '--lineage', P['lineage'], '--scope', P['scope'], '--text', str(X / 'EXPECTED.txt'), '--key', P['key'],
+                        '--lineage', P['lineage'], '--scope', P['scope'], '--text', str(X / 'DRAFT-TEXT.txt'), '--key', P['key'],
                         '--batch', P['batch'], '--call', P['call'], '--chance', str(P['chance']), '--tells', P['tells'],
                         '--human-tells', P['human'], '--diagnosis', P['diagnosis'], '--decides', P['decides'],
                         '--shading-expected', P['shading'], '--detector', DETECTOR], capture_output=True, text=True, cwd=REPO)
