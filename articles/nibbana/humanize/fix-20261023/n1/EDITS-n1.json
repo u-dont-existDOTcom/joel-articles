@@ -1,0 +1,46 @@
+[
+ {
+  "key": "n1-unification",
+  "windows": "12 (Medium)",
+  "shape": "a definition with a balanced list of four (\"I use X for the functional coordination through which a person speaks, crosses a road, recognizes a friend, and answers a message\")",
+  "old": "I use “unification” for the functional coordination through which a person speaks, crosses a road, recognizes a friend, and answers a message, even with no separate knower.",
+  "new": "When I say “unification”, I mean whatever pulls everything together so that a person can talk, cross a road, recognize a friend and answer a text, and it works even when there’s no separate knower in there.",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_unification",
+  "try": 1,
+  "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:24:30Z; 57 words on its own)",
+  "review": "fix-20261023/n1/REVIEW.md"
+ },
+ {
+  "key": "n1-percentages",
+  "windows": "51 (Medium)",
+  "shape": "a colon definition with two semicolon halves in parallel, then a closer (\"Partial untying isn't limited to that range.\")",
+  "old": "My percentages are playful shorthand for how much binding has dissolved: around <strong>1%</strong>, a person remains fully functional; by roughly <strong>5%</strong>, function is barely possible. Partial untying isn’t limited to that range.",
+  "new": "My percentages are just a playful way of saying how much binding has dissolved. Around <strong>1%</strong>, a person can still do everything fine. Around <strong>5%</strong>, they can hardly do anything. (And partial untying goes beyond that range too.)",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_percentages_t2",
+  "try": 2,
+  "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:28:37Z; 94 words on its own)",
+  "review": "fix-20261023/n1/REVIEW.md"
+ },
+ {
+  "key": "n1-last-test",
+  "windows": "120 (Low), 121 (High), 122 (Low)",
+  "shape": "significance-staging (\"That last test matters because ...\") and \"does not turn somebody into X, let alone Y\"",
+  "old": "That last test matters because a stream-enterer still has most fetters. They still need to do reparenting like other folks, and even a genuine breakthrough does not turn somebody into a therapist, let alone a saint.",
+  "new": "I’m asking that last one because a stream-enterer still has most of the fetters. They still need to do reparenting like other folks, and even a real breakthrough won’t turn somebody into a therapist, let alone a saint.",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_last_test",
+  "try": 1,
+  "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:24:37Z; 47 words on its own)",
+  "review": "fix-20261023/n1/REVIEW.md"
+ },
+ {
+  "key": "n1-rebirth",
+  "windows": "126 (Medium)",
+  "shape": "a definition with a colon and a chain (\"Rebirth is causal continuity without a traveler, often called a mind-stream: ...\")",
+  "old": "Rebirth is causal continuity without a traveler, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth.",
+  "new": "What continues is a chain of causes with no traveler riding along, often called a mind-stream: craving and clinging condition becoming, and becoming becomes birth.",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_rebirth",
+  "try": 1,
+  "result": "Human Written (Pangram 4.1, the API, 2026-10-23T02:24:38Z; 96 words on its own)",
+  "review": "fix-20261023/n1/REVIEW.md"
+ }
+]

@@ -832,6 +832,30 @@ batch 472g's API checks, `b472/API-CHECKS.md`; this round's recheck, `recheck/`)
   main commit into the check's own folder and check its SHA-256 (4a100ecd... at 92f87f0d), as
   `fix-20261023/b472/` did.
 
+## What Nibbāna's batch n1 taught (2026-10-23, the article's first 4.1 pass)
+
+- **E230. An API page has to label every line of a window.** Each check's page (`api_page.py`) put a window's label
+  only on its first line. In the driving caution's tries 1 and 2, the High window ran from the possibilities over the
+  paragraph break into the caution, so the caution's line was bold with no label, and I read it as Human. Try 3's
+  prediction rested on that ("the caution is try 1's, which read Human twice"), and it was wrong: the caution read AI in
+  all three tries. Both lanes' page builders (`fix-20261023/n1/` and the guide's `fix-20261023/b472/`) now label every
+  line of a window, the later ones "[AI, High, same window]", and both pages were rebuilt. A check of the guide's page
+  found no claim of mine resting on such a line (the seam's second paragraph was always reported as AI). The miss has
+  its explain line in the Nibbāna ledger (NB-P266#19).
+- **E231. A reader's neutral fix can bring the red back.** The science paragraph's try 1 read Human, 0% AI, and the
+  reader marked it CHANGED: "only gets to" states a limit, and "some wild stuff out there" gives Joel a reaction his
+  sentence doesn't have. The reader's own fix ("and here's some of what it finds out there:") read AI, High, and turned
+  his own unchanged sentences after it from Human to AI too. What read Human was the casual frame, the two flagged words
+  included. So when the reader flags the very words that made a fix pass, those words go to Joel as a question (his
+  register, his call), with the reader's reason, rather than being swapped for a neutral signpost.
+- **E232. Evidence, doctrine and disclaimers read AI in every order.** The near-death reports, SN 22.22 with the proton,
+  the Diamond Sutra's sources and the driving possibilities read AI, High, in three tries each: reworded (try 1), a new
+  frame (try 2), and a new order with the evidence as his kind of bracketed aside after the claim it backs (try 3, the
+  shape of his own Appendix C and of the guide's s1b, which passed). A pair through the API reproduces a High window
+  (E226), so these are the paragraphs' content, not the alone check. With nothing earlier of his to go back to, they go to
+  him with the sentences that read red (E227), at three tries rather than six, since the third already used the one shape
+  that had passed elsewhere.
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):

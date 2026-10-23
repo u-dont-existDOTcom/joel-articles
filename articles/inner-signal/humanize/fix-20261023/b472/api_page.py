@@ -41,10 +41,16 @@ def main():
         for label, conf, words, a, b, text in r['windows']:
             if label.startswith('AI'):
                 # bold each line of the window on its own, so a window that crosses a paragraph keeps its bold
-                pieces, tag = [], '[AI, %s] ' % conf
-                for k, line in enumerate(text.split('\n')):
+                # and label every line of it: unlabelled, a window's later lines were misread as Human (2026-10-23,
+                # Nibbāna n1's driving caution; E230)
+                pieces, tag, more, first = [], '[AI, %s] ' % conf, '[AI, %s, same window] ' % conf, True
+                for line in text.split('\n'):
                     lead = line[:len(line) - len(line.lstrip())]
-                    pieces.append(lead + ('**%s%s**' % (tag if k == 0 else '', line.strip()) if line.strip() else ''))
+                    if line.strip():
+                        pieces.append(lead + '**%s%s**' % (tag if first else more, line.strip()))
+                        first = False
+                    else:
+                        pieces.append('')
                 parts.append('\n'.join(pieces))
             else:
                 parts.append(text)

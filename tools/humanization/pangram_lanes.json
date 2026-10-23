@@ -12,6 +12,8 @@
   {"lane": "inner child guide", "article": "inner-child-therapy",
    "ledger": "articles/inner-child-therapy/tools/pangram-ledger.jsonl", "page": false,
    "why_no_page": "articles/inner-child-therapy/PARALLEL-WRITE-LOCK.json is active, so only that lane's writer adds files there; its numbers are on the universal page, read from its table",
-   "legacy": [{"kind": "table", "path": "articles/inner-child-therapy/tools/PREDICTIONS.md"}]}
+   "legacy": [{"kind": "table", "path": "articles/inner-child-therapy/tools/PREDICTIONS.md"}]},
+  {"lane": "nibbana article", "article": "nibbana",
+   "ledger": "articles/nibbana/humanize/pangram-ledger.jsonl", "legacy": []}
  ]
 }
