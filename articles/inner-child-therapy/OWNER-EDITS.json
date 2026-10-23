@@ -3126,6 +3126,22 @@
     "If the love still isn't coming, you can at least stop judging",
     "Your little one might not take it well at first."
    ]
+  },
+  {
+   "id": "joel-102-20261023",
+   "status": "applied",
+   "what": "Joel's answers of 2026-10-23 17:53 UTC to questions 94 and 95. In: 95.7 A (\"and they may be able to treat it while it's happening\" on his diagnostics sentence, Physical Pain Makes It Harder) and 95.8 in his words (Opening up honestly to the right people at the right pace: after his \"Although personally I wouldn't even bother with that\", the reason that the law can change, then to assume what you tell won't be completely confidential, especially if it sounds dangerous). Tried and taken back out after Pangram: 94.2 A (GPT's advice sentence made old P5 read 100% AI, so his two sentences stay, entry joel-101-20261023) and 95.2 A (the guide's distance on purpose read 100% AI in the Untangling paragraph in three shapes; question 96). No change: 94.1 A, 95.1 B (he says the last-resort sentences weren't his words, which is why he cut them), 95.3 B, 95.4 B, 95.5 (unanswered, my pick B), 95.6 B (blanket safety lines like \"reparenting doesn't replace a doctor or a shelter\" stay out of the whole guide), 95.9 B. 95.10 A: PGQ-035 and PGQ-036 left out by his choice, PGQ-034 open for his words. Installed by experiments/t102-installs/apply_t102.py.",
+   "joel": "2026-10-23 17:53 UTC (experiments/t102-answers/JOEL-20261023-1753.md): \"94.1 a 94.2 a 95b (those were not my words btw, that's why i cut) 95.2 a 95.3 b 95.4b 95.6 b ... 95.7 a 95.8 a ok i actually had to take that out to pass pangram and it sounded a little paranoid ... i think the point is more so just assume that what you tell will not be completely confidential especially if it sounds like something dangerous. it's actually useless info anyway, even if someone says 1 thing, that's what the law requires now, not what it requires tomorrow. ... 95.9b 95.10 a\"",
+   "where": "Physical Pain Makes It Harder; Opening up honestly to the right people at the right pace",
+   "must_contain_exact": [
+    "rather than waiting until you feel well enough to make an appointment, and they may be able to treat it while it's happening.",
+    "Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous."
+   ],
+   "must_not_contain": [
+    "If you have advice, let them take it in at their own pace.",
+    "And who else gets to read what I tell you?",
+    "reparenting doesn't replace it"
+   ]
   }
  ]
 }

@@ -1,5 +1,7 @@
 # Coverage check: the queue (PGQ-001 to PGQ-046) against the article
 
+> **Decided since (turn 102, Joel's answers to question 95 of 2026-10-23 17:53 UTC, `../t102-answers/JOEL-20261023-1753.md`).** PGQ-035 and PGQ-036 are left out by his choice (95.10 A; his hypnosis guide covers 036), and PGQ-034 stays open for his words. PGQ-038's paragraph stays out (95.6 B), with his reason: a blanket line like "reparenting doesn't replace a doctor or a shelter" is only partly true and is the kind of repeated safety language to take out of the whole guide. PGQ-027 is carried now (95.7 A: "and they may be able to treat it while it's happening"). PGQ-039: his point is in instead of my second question (95.8): whatever they tell you today, the law can change tomorrow, so assume what you tell won't be completely confidential, especially if it sounds dangerous. PGQ-009 stays as it is (95.9 B). The entries below are the check as it was written.
+
 Read-only check, written about 14:40 UTC on 2026-10-23. Queue: `QUEUE-r14-714c23b5.md` (version `2026-10-22-r14-review-pending`). It has 44 entries: PGQ-040 and PGQ-041 are not in the file (it goes from 039 to 042).
 
 `ART` below means `/home/claude/joel-articles/articles/inner-child-therapy`.

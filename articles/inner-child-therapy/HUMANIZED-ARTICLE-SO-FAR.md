@@ -336,6 +336,8 @@ Taking the hostility out makes room for warmth. What people most often say helpe
 
 <!-- Turn 101 (his answers of 2026-10-23 14:05 UTC, experiments/t101-answers/JOEL-20261023-1405.md): 91.1 B: old P6's first sentence is cut as a near-repeat of this paragraph's last; its second ("That takes warmth, and if there isn't any yet, borrow some.") ends this paragraph now. -->
 
+<!-- Turn 102 (his answers of 2026-10-23 17:53 UTC, experiments/t102-answers/JOEL-20261023-1753.md): 94.2 A was conditional on a Pangram check. With GPT's sentence ("If you have advice, let them take it in at their own pace.") in place of his two, this paragraph read 100% AI alone (https://www.pangram.com/history/bf6562e2-577e-4fce-a12e-af98c12c7688, ledger borrow-p5#144), where his version read 100% Human (borrow-p5#134), so his two sentences stay. -->
+
 If the love still isn't coming, you can at least stop judging your little one. Obviously no insults. Helpful advice is great, we all need advice. Let them absorb it at their pace. And don't expect a thank-you for the session, like they booked it. That's enough to start being the adult, even if it isn't enough yet for them to trust you. That takes warmth, and if there isn't any yet, borrow some.
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a07): round 2 (check t90s_A, first try) read AI here: Low 12, Low 15, Medium 19 and High 30, all of it. The tells: wry quips ("Which, fair enough, you did take a while.", "two six-year-olds arguing") and a wry closer (the eye-roll). All three are cut; his 😜 and the hearing-it-out line (2026-10-14) stay. Lint REVIEW. Not yet checked in Pangram. -->
@@ -1166,7 +1168,9 @@ By now, you may have already been through a million doctors who shrugged their s
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
-And when the symptoms come and go randomly, the best time to get diagnostics done could be right at the actual time of the crisis, rather than waiting until you feel well enough to make an appointment. But what if the attacks come almost every day? You can’t move into the ER. And normal test results don’t prove the pain is imaginary, just as a treatment that helps doesn’t explain what’s causing it.
+<!-- Turn 102 (his answers of 2026-10-23 17:53 UTC, experiments/t102-answers/JOEL-20261023-1753.md): 95.7 A: "and they may be able to treat it while it's happening" added (PGQ-027). -->
+
+And when the symptoms come and go randomly, the best time to get diagnostics done could be right at the actual time of the crisis, rather than waiting until you feel well enough to make an appointment, and they may be able to treat it while it's happening. But what if the attacks come almost every day? You can’t move into the ER. And normal test results don’t prove the pain is imaginary, just as a treatment that helps doesn’t explain what’s causing it.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
@@ -1346,6 +1350,8 @@ Day to day, differentiation looks something like this:
 - Noticing when what you thought you knew suddenly feels like water dripping through your hand because of praise or pity, fear or attraction, or something that really resonates with you.
 - Disappointing people and withstanding social pressure, and still being recognizably yourself wherever you are (maybe louder in some places). That one can take a while.
 - Questioning what you were programmed to believe while holding the discomfort, and without having to stop loving anyone over it.
+
+<!-- Turn 102 (his answers of 2026-10-23 17:53 UTC, experiments/t102-answers/JOEL-20261023-1753.md): 95.2 A, the guide's temporary, intentional distance (line 543), read 100% AI over this whole paragraph in all three shapes I tried (https://www.pangram.com/history/6aa17696-41e5-4a7c-88be-8bb14af1ee45, https://www.pangram.com/history/b85736b8-dc31-4927-b434-626210690b5f, https://www.pangram.com/history/9546ae2e-83fb-4fc9-9bb6-dc35fda537a1), and the paragraph without it reads Human Written with no AI window (https://www.pangram.com/history/65c4489e-c342-4cb4-bd9d-0197cbdb5b8c). So the paragraph is as it was, and the point is question 96 (experiments/t102-tries/REVIEWS.md). -->
 
 Differentiation is slow, and it goes on your whole life. If a family, group or relationship won't let you do this while you're still part of it, temporary distance may be necessary. Some people come back later on different terms. Sometimes the leaving turns out to be permanent, because going back would mean disappearing again. You don't have to know yet which one yours is. As you differentiate, you learn to tell the difference.
 
@@ -1569,7 +1575,9 @@ Then there’s the stuff that’s hardest to tell anyone, and of course that's e
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
-So I’d ask them, before handing over any tricky specifics: “What does the law require you to report?” That's a normal and expected question. Although personally I wouldn't even bother with that. You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.
+<!-- Turn 102 (his answers of 2026-10-23 17:53 UTC, experiments/t102-answers/JOEL-20261023-1753.md): 95.8 A in his words: his point that the answer is only what the law requires now, and to assume what you tell won't be completely confidential, especially if it sounds dangerous, after "I wouldn't even bother with that"; his chat words adapted to the paragraph. -->
+
+So I’d ask them, before handing over any tricky specifics: “What does the law require you to report?” That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous. You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
