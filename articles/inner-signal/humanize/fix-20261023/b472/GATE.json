@@ -1,0 +1,22 @@
+{
+ "b472_s1b": {
+  "sense": "OK (REVIEW.md, item 3)",
+  "meaning": "KEPT (REVIEW.md, item 1)",
+  "published": "OK (REVIEW.md, item 2)",
+  "lint_new_rules": [
+   "B3"
+  ],
+  "lint_note": "B3 on \"It's all around you.\", the installed sentence, now after a long one: the try that cleared it (b472_s1c) read worse, so it stays (E211)",
+  "api": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s1b",
+  "ledger": "pangram-ledger.jsonl, key b472_s1b"
+ },
+ "b472_s3c": {
+  "sense": "OK (REVIEW.md, item 3)",
+  "meaning": "KEPT (REVIEW.md, item 1)",
+  "published": "OK (REVIEW.md, item 2)",
+  "lint_new_rules": [],
+  "lint_note": "none brought: c has the installed \"truly\" for b's \"actually\" (O25)",
+  "api": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s3c",
+  "ledger": "pangram-ledger.jsonl, key b472_s3c"
+ }
+}

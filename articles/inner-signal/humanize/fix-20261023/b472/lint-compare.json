@@ -1,0 +1,47 @@
+{
+ "b472_s1b": {
+  "was": {
+   "verdict": "FAIL",
+   "rules": [
+    "B4/E15",
+    "E125",
+    "O14",
+    "O29"
+   ]
+  },
+  "now": {
+   "verdict": "FAIL",
+   "rules": [
+    "B3",
+    "B4/E15",
+    "E125",
+    "O14"
+   ]
+  },
+  "new_rules": [
+   "B3"
+  ]
+ },
+ "b472_s3b": {
+  "was": {
+   "verdict": "REVIEW",
+   "rules": [
+    "B7",
+    "E23",
+    "E36/E41"
+   ]
+  },
+  "now": {
+   "verdict": "REVIEW",
+   "rules": [
+    "B7",
+    "E23",
+    "E36/E41",
+    "O25"
+   ]
+  },
+  "new_rules": [
+   "O25"
+  ]
+ }
+}

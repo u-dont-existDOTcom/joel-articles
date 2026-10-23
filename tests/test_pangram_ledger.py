@@ -118,6 +118,22 @@ class Ledger(unittest.TestCase):
         with self.assertRaises(SystemExit):
             L.main(['result', self.ledger, '--sha', L.sha256('nothing'), '--verdict', 'Human', '--link', 'x'])
 
+    def test_a_typed_verdict_must_agree_with_its_headline(self):
+        self.predict('m1', call='AI')
+        with self.assertRaises(SystemExit):
+            L.main(['result', self.ledger, '--sha', L.sha256('m1'), '--verdict', 'Human', '--link', 'x',
+                    '--headline', 'Mostly Human Written', '--ai-fraction', '0.0138'])
+        L.main(['result', self.ledger, '--sha', L.sha256('m1'), '--verdict', 'Mixed', '--link', 'x',
+                '--headline', 'Mostly Human Written', '--ai-fraction', '0.0138'])
+        self.assertTrue([r for r in L.read(self.ledger) if r['type'] == 'result'][0]['right'])
+        # without a fraction, "AI Detected" can be Mixed: that verdict stands, and only Human is refused
+        self.predict('m2', call='AI', lineage='P2')
+        with self.assertRaises(SystemExit):
+            L.main(['result', self.ledger, '--sha', L.sha256('m2'), '--verdict', 'Human', '--link', 'x',
+                    '--headline', 'AI Detected'])
+        L.main(['result', self.ledger, '--sha', L.sha256('m2'), '--verdict', 'Mixed', '--link', 'x',
+                '--headline', 'AI Detected'])
+
     def test_results_from_the_page_reader(self):
         self.predict('k1 text', key='K1')
         res = self.dir / 'res.json'

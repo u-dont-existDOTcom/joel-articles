@@ -416,7 +416,7 @@ And then look what your body tells you. It is not always correct, but it is a go
 
 # De-hypnosis: wake up inside the influence
 
-One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
+One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life (a screen, a specific ad, a politician, religious fear, erotic imprinting, charismatic authority, pressure to belong, shame, a sense of urgency, repetition, etc.). It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
 
 Manipulation often comes with any of the following; urgency, you are special, FOMO (fear of missing out), not be included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, and an excessive sense of certainty about something way too quickly and you have a sense that one good question will break the spell.
 
@@ -620,7 +620,7 @@ Here is a generic bring-back that you can use: "When I come out of this session,
 
 Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.
 
-When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit before getting up. Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because you've done the count. Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
+When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit, and don't get up until you feel steady. Make sure you're truly oriented and alert (the count is supposed to bring you back, but it doesn't always do the whole job). Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
 
 If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
 
@@ -1194,19 +1194,15 @@ Get the person out of the altered state (bring them back to the room and have th
 
 # Appendix C: The extended de-hypnosis checklist
 
-Use this checklist when something is pressing on you too hard, whether it’s a person, an ad, an ideology, a spiritual teaching, a romantic pull or a voice inside you, stuff like that. You could say something like, “Okay, I notice that I’m being influenced. I don’t have to obey it, and I don’t have to attack it either. Let me slow down and ask what it’s taking for granted, and who it benefits. My body is telling me something, but I won’t assume I know what it proves. And what would love, truth, humility and ordinary life need from me here?
+What to do when you feel like you’re being pushed too hard by something (person, ad, ideology, spiritual teaching, romantic attraction, internal voice, etc.): Say to yourself, “Okay, something is trying to influence me here. I don’t have to obey it. I don’t even have to attack it. I can just slow myself down and ask some questions like, 'What would this thing influence me to believe that isn’t true in order to get what it wants from me? What is my body telling me to do about this (how does my body feel)? What would love do here? What would truth do here? How would I approach this humbly? What would life have me do here?'”
 
-If it’s true, it can handle my questions. If it’s real love, it’ll survive my boundaries. And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”
+If what you’re investigating is true, it can take your questioning (as the police like to say). If it’s love, it can accommodate your boundaries. If it’s real guidance, it’ll still be there tomorrow. If it’s really for you, it won’t want you to give up all the wisdom and sovereignty you’ve worked so hard to develop.
 
-Before acting on it, look for the usual signs, like urgency, secrecy, shame, a threat that you’ll be left out or a promise that you’re special, that kind of thing. Is there a sexual charge, or spiritual superiority? Be wary if it demands money or sex from you. Demands for your loyalty or your silence are signs too, and so is any demand for obedience.
+Before you do what it wants you to do, see if it does any of the following: create a sense of urgency, secrecy, shame, threat of exclusion if you don’t do what it says, specialness, sexual charge, spiritual superiority, ask you for money, ask you for sex, ask you for loyalty, ask you to be quiet, ask you to obey it, try to limit your choices, make it seem like it’s bad to question it, act like not obeying it is a problem that needs to be solved, make normal life seem boring/stupid/irrelevant in its presence, try to seduce/scare/rescue your child, not let your adult self say no.
 
-It’s a warning if your choices are being narrowed. Same if asking questions gets treated as betrayal, or your resistance gets treated like a pathology. Or if ordinary life starts to look small next to it, like the dishes and your friends don’t matter anymore.
+If it does a bunch of these things, slow yourself down, don’t let it push you deeper into trance, don’t do anything you can’t undo, and then ground yourself for a while (take care of your body, eat, sleep, give it time, get counsel, etc).
 
-Notice whether your child part is being seduced or scared. Being rescued counts too. And is your adult self still allowed to say no?
-
-If you see several of these, slow down. Don’t go deeper into trance, and don’t make a decision you can’t undo. Just come back to the room and your body for a while. Then eat, sleep, give it time, get some counsel and so on.
-
-You can tell a good guide because your adult self gets stronger with them. And can they take your no? A bad guide can’t. They take your adult self’s place, and they’ll call your no resistance, ego, fear, low vibration, trauma, sin, you name it, or proof that you need more of their guidance.
+A good guide will make your adult self stronger. A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job. A bad guide will try to make your no something that’s bad or needs to be fixed (resistance, ego, fear, low vibration, trauma response, sin, need for more of its guidance, etc).
 
 ## Hypnosis-specific audit
 

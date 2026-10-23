@@ -1,0 +1,53 @@
+You check 2 small edits to a long self-help guide to self-hypnosis by Joel (the reader leads themselves, reading it or using a recording they made). Each edit rewords a few sentences that a detector flagged, inside a paragraph that is otherwise unchanged. For each item you get the paragraph as Joel published it, the paragraph as it is now in the working copy (WAS, an earlier rewrite of the published one), the paragraph with the edit (NOW), and what comes just BEFORE and AFTER it.
+
+For each item, say in a few words each:
+1. MEANING: does NOW keep every point of WAS? KEPT, or what CHANGED or was LOST, and anything ADDED that a reader would act on or believe.
+2. PUBLISHED: does NOW still say what the published paragraph says on the edited points (no claim made stronger or weaker, no caution softened, no permission turned into a duty or the reverse)? OK, or what moved.
+3. SENSE: would a reader who has read the guide up to here understand NOW in its place, between BEFORE and AFTER? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning and sense only, not style, and suggest a rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261023/b472/REVIEW.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (b472_s1b)
+
+SECTION: De-hypnosis: wake up inside the influence
+
+THE PUBLISHED PARAGRAPH (Joel's guide as published):
+Self-hypnosis also teaches influence literacy: noticing when somebody else is already shaping your attention. Screens, advertising, politics, religious fear, erotic imprinting, charismatic authority, belonging pressure, shame, urgency, and repetition all do it. Influence is everywhere—a lullaby, a prayer, a good teacher, a beautiful song, love. Ask what it does to your ability to see and choose.
+
+BEFORE:
+And then look what your body tells you. It is not always correct, but it is a good place to start.
+
+WAS:
+One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition? It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
+
+NOW:
+One of the best side-effects of learning self-hypnosis is influence literacy: an increased awareness of all the ways your attention is being shaped in your day-to-day life (a screen, a specific ad, a politician, religious fear, erotic imprinting, charismatic authority, pressure to belong, shame, a sense of urgency, repetition, etc.). It’s all around you. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
+
+AFTER:
+Manipulation often comes with any of the following; urgency, you are special, FOMO (fear of missing out), not be included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, and an excessive sense of certainty about something way too quickly and you have a sense that one good question will break the spell.
+
+THE CHANGE:
+"day-to-day life. By a screen? By a specific ad? By a politician? By religious fear? By erotic imprinting? By charismatic authority? By pressure to belong? By shame? By a sense of urgency? By repetition?" -> "day-to-day life (a screen, a specific ad, a politician, religious fear, erotic imprinting, charismatic authority, pressure to belong, shame, a sense of urgency, repetition, etc.)."
+
+## Item 2 (b472_s3b)
+
+SECTION: Come all the way back
+
+THE PUBLISHED PARAGRAPH (Joel's guide as published):
+Name the day or date. Look left, right, near, and far. Move before standing, and stand only when steady. Check that you are actually oriented and alert; repeating the count is not proof of a complete return. Note only what actually appeared, and any action it calls for. Then do something normal.
+
+BEFORE:
+Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.
+
+WAS:
+When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit before getting up. Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because you've done the count. Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
+
+NOW:
+When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far. Move around a bit, and don't get up until you feel steady. Make sure you're actually oriented and alert (the count is supposed to bring you back, but it doesn't always do the whole job). Take mental note of anything that has come up for you and any actions you need to take regarding it. Then go on and do something normal.
+
+AFTER:
+If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
+
+THE CHANGE:
+"Move around a bit before getting up. Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because you've done the count." -> "Move around a bit, and don't get up until you feel steady. Make sure you're actually oriented and alert (the count is supposed to bring you back, but it doesn't always do the whole job)."
