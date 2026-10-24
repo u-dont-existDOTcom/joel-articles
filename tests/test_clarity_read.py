@@ -181,6 +181,28 @@ KEEPS: every sentence
             self.assertIn('~~As I said, founders hold too much power.~~', md)
             self.assertIn('**Said already:** Founders hold too much power. [One]', md)
 
+    def test_the_after_shows_the_cut_made(self):
+        """Joel, 2026-10-24 19:52 UTC (64.14): "instead of telling me "the sentence then starts with.." you actually make
+        that change in the "after" version". A cut that takes a sentence's first words leaves its capital; a dash or comma
+        left before the end goes with the cut."""
+        line = ('Most of them almost never discuss the suttas – though the suttas can also be read with bias. The map '
+                'helped. Community’s not a panacea, but community can make a difference.')
+        self.assertEqual(C.cut_text(line, 'though the suttas can also be read with bias'),
+                         'Most of them almost never discuss the suttas. The map helped. Community’s not a panacea, but '
+                         'community can make a difference.')
+        self.assertEqual(C.cut_text(line, 'Community’s not a panacea, but '),
+                         'Most of them almost never discuss the suttas – though the suttas can also be read with bias. The '
+                         'map helped. Community can make a difference.')
+        self.assertEqual(C.cut_text('It matters, but that’s something which varies a lot in every society also.',
+                                    'but that’s something which varies a lot in every society also'), 'It matters.')
+        self.assertEqual(C.cut_text('Whether you call it that or not, “loneliness” is real.', 'Whether you call it that or not, '),
+                         '“Loneliness” is real.')
+        self.assertEqual(C.cut_text('One (an aside) two.', '(an aside)'), 'One two.')
+        self.assertEqual(C.cut_text('All of it.', 'All of it.'), '')
+        struck, after = C.cut_paragraph('## H\nWhy not? This doesn’t mean you’re doomed, it just means you need a step.',
+                                        'This doesn’t mean you’re doomed, it just means ')
+        self.assertEqual(after, 'Why not? You need a step.')
+
     def test_a_clarity_read_dir_without_kind_is_a_clarity_read(self):
         with tempfile.TemporaryDirectory() as d:
             self.assertEqual(C.read_kind(d), 'clarity')

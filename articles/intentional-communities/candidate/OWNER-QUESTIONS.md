@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 22:29 UTC (57 to 63, and GPT's reply to my review). **Open questions: 2**, just below: the safety lines and caveats a reader doesn't need (64), and what the article says more than once (65). Your answers to 57 to 63 are in a new version: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/READING-COPY.md).
+Last updated 2026-10-24, after your message of 19:52 UTC (your 64). **Open questions: 1**, just below: what the article says more than once (65). Your 64 cuts are in the new version: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/READING-COPY.md).
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,27 +9,27 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Two lists, each on its own page, with my pick on every item. Answer "64: your picks" and "65: your picks", or with the numbers you want changed ("64.3 B"). The cuts you pick go into the new version, which then goes to Pangram whole, once, before anything goes into your post.
-
-**🟣 64. The safety lines and caveats a reader doesn't need (your "did we already look at whether there's too much safety language ... same question for community").**
-We hadn't looked, as its own check; now it's part of the clarity check for every article. Six fresh readers, a sixth of the article each, listed every warning, reassurance, takeback, hedge and disclaimer a reader doesn't need where it is, with your inner child cuts as their examples, and I checked each against the whole article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/caveats/CAVEATS.md) has 31 cuts, each struck through in its paragraph with the paragraph as it reads after the cut. My pick is cut on 26 and keep on 5, where the line is your argument or carries something a reader uses. Three safety lines I kept without offering them (they're at the end of the list): the iboga screening, the medicine line about equal respect, and the rule about children and secrets.
-- a) (my pick) My picks as they are.
-- b) My picks with your changes, by number ("64.3 B").
+> One list on its own page, with my pick on every item. Answer "65: your picks", or with the numbers you want changed ("65.3 B"). The cuts you pick go into the new version, which then goes to Pangram whole, once, before anything goes into your post.
 
 **🟣 65. What the article says more than once (your "as much as possible we should be deduplicating because i feel the article is really too redundant").**
-Fresh readers each read the whole new version and owned one part of it: for each point made in their part, every other place that says it again, which place keeps it, and what to cut. I checked each cut against the article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/repeats/REPEATS.md) has 31 cuts, each struck through in its paragraph, with where the point is kept and the paragraph after the cut. It includes two trims of the federation paragraphs for your W08 ("i agree with condesning this but we should mention the FEC"); the FEC, its rebuilding and PEACH stay. My pick is cut on 15 and keep on 16, where both places carry something the reader needs there (the manual now repeats a few essay points on purpose, for readers who go straight to it).
+Fresh readers each read the whole new version and owned one part of it: for each point made in their part, every other place that says it again, which place keeps it, and what to cut. I checked each cut against the article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/REPEATS.md) has 31 cuts, each struck through in its paragraph, with where the point is kept and the paragraph after the cut (now with your 64 cuts in those paragraphs, and each "After" as it will read). It includes two trims of the federation paragraphs for your W08 ("i agree with condesning this but we should mention the FEC"); the FEC, its rebuilding and PEACH stay. My pick is cut on 15 and keep on 16, where both places carry something the reader needs there (the manual now repeats a few essay points on purpose, for readers who go straight to it).
 - a) (my pick) My picks as they are.
 - b) My picks with your changes, by number ("65.3 B").
 
 ## For you to do
 
-- 🟠 Merge [pull request 232](https://github.com/u-dont-existDOTcom/joel-articles/pull/232) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
+- 🟠 Merge [pull request 236](https://github.com/u-dont-existDOTcom/joel-articles/pull/236) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-24 19:52 UTC, 64, the safety lines and caveats ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/joel-20261024-1952-message.txt)). Your cuts are in the new version ([read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/READING-COPY.md), [each cut](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/RECORD-64.json)), with every link and bold where it was.
+  - Cut (A): 1, 4, 5, 6, 9, 10, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 27, 29, 30 and 31. Kept (B): 2, 3, 7, 8, 11, 18, 20, 26 and 28.
+  - You kept four I'd have cut, with your reasons: 3 ("it doesn't take back a rule, it explains the limits of relying on it"), 8 ("it's not just softening, it's actually hardening at the same time showing that their wisdom is always changing as well"), 20 ("it's kind of key to understanding it in context, otherwise they can be too easily demonized ...") and 28 ("it's important to give a full picture"); and 29 goes, which you said makes sense with 28 kept. These are examples for the next caveat readers now: a line that tells the reader something (a limit, a counterweight, context) stays (lesson E257).
+  - Your note on 14, that the "After" should make the change instead of telling you how the sentence then starts: done. The page tool now writes each After as it will read, with the capital letter and without a dash left hanging, and the two cuts that needed a word changed went in with it: 14 now reads "Community can make a difference, day to day, ..." and 15 "They are an example of how a community can acknowledge the erotic aspects of life." (lesson E258). Question 65's page is made the same way.
+  - Your note on 23, "isn't proof of/doesn't prove": the linter now fails both, as it already failed "not proof that" (lesson E259).
 - 🟢 2026-10-23 22:29 UTC, 57 to 63, and GPT's reply to my review. Your answers are in a new version of the article: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/READING-COPY.md) ([each change](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/RECORD.json); the HTML for Substack is beside them). Your published post hasn't changed, and the new version hasn't been to Pangram yet: that's one whole-article check after 64 and 65.
   - 57 a: in "3. Medicine pl/ork", after "I'll go more in detail on this in “The Medicine Part” section below.", your words from your Q07 answer: "Just because it's optional participating in the ceremonies doesn't mean they don't have to work with the other parts."
   - 58 a: "The Math of Absorption" and "Who This Isn't For" are two headings.
@@ -214,6 +214,6 @@ Fresh readers each read the whole new version and owned one part of it: for each
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 After 64 and 65: the cuts you pick go into the new version, and the whole of it goes to Pangram once, in a temporary Substack draft, before I make the copy helper for your paste.
+- 🔵 After 65: the cuts you pick go into the new version, and the whole of it goes to Pangram once, in a temporary Substack draft, before I make the copy helper for your paste.
 - 🔵 The prediction scorecard: better guesses of what Pangram will say, and how fast and how often my fixes pass.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.

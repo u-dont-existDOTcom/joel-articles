@@ -81,7 +81,7 @@ class _Inline:
     """A paragraph's inner HTML as plain text with the positions of its inline tags."""
 
     def __init__(self, inner):
-        self.spans, out, stack, pos = [], [], [], 0
+        spans, out, stack, pos = [], [], [], 0
         for m in re.finditer(r'<(/?)(\w+)[^>]*>|([^<]+)', inner):
             if m.group(3) is not None:
                 t = html.unescape(m.group(3))
@@ -90,12 +90,15 @@ class _Inline:
             elif m.group(2) == 'br':
                 raise ValueError('a line break inside the paragraph')
             elif not m.group(1):
-                stack.append((m.group(0), m.group(2), pos))
+                stack.append((m.group(0), m.group(2), pos, len(spans) + len(stack)))
             else:
-                open_tag, name, start = stack.pop()
+                open_tag, name, start, order = stack.pop()
                 assert name == m.group(2), (name, m.group(2))
-                self.spans.append([start, pos, open_tag, '</%s>' % name])
+                spans.append((order, [start, pos, open_tag, '</%s>' % name]))
         assert not stack
+        # in the order they opened (2026-10-24): two tags on the same words came out the other way round, <em><a> for his
+        # <a><em>, in four places; the same as tools/humanization/html_text_edit.py
+        self.spans = [s for _o, s in sorted(spans, key=lambda x: x[0])]
         self.text = ''.join(out)
 
     def replace(self, old, new):
@@ -123,13 +126,15 @@ class _Inline:
         return dropped
 
     def html(self):
+        # Tags that close at one place close in the reverse of the order they opened, so nesting is kept (2026-10-24: a
+        # link inside italics that ended where the italics ended came out as <em><a>...</em></a> before this)
         events = []
-        for a, b, o, c in self.spans:
-            events.append((a, 1, o))
-            events.append((b, 0, c))
-        events.sort(key=lambda e: (e[0], e[1]))
+        for n, (a, b, o, c) in enumerate(self.spans):
+            events.append(((a, 1, -b, n), o))
+            events.append(((b, 0, -a, -n), c))
+        events.sort(key=lambda e: e[0])
         out, last = [], 0
-        for p, _k, tag in events:
+        for (p, _k, _x, _n), tag in events:
             out.append(html.escape(self.text[last:p], quote=False))
             out.append(tag)
             last = p

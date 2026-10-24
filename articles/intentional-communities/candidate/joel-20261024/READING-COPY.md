@@ -1,0 +1,780 @@
+> A reading copy of the new version (WORKING.html beside this file, which is what gets pasted into Substack), made by apply_64.py: your answers of 2026-10-23 22:29 UTC and your 64 (2026-10-24 19:52 UTC) are in (RECORD-64.json lists the cuts; ../joel-20261023/restructure/RECORD.json the changes before them).
+
+[![Infographic, “Building Healing Community – ‘Escuelitas’ to Save the World”. Its panels: why now (loneliness), the two deaths of community (secular and spiritual), the escuelita mission (come in, live in, learn to hold, go out and start the next one), what’s missing (inner work and healthy structure), and six core design principles.](https://substackcdn.com/image/fetch/$s_!OKIC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bc9c45d-5a42-47a4-8880-e9981386f886_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!OKIC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bc9c45d-5a42-47a4-8880-e9981386f886_1536x1024.png)
+
+# The New Age May Dawn Suddenly
+
+I just put a movie my father made in 1988 up on the Internet for the first time: [*Where’s Utopia?*](https://ibogaqueen.substack.com/p/wheres-utopia-click-read-more-my) It was the result of years of work, traveling to all kinds of communes and communal experiments around the country, trying to answer a question that for him was primary: How do we live together without recreating the same loneliness, domination, and stupidity we were supposedly escaping?
+
+He had already spent 17 years in the [Bruderhof](https://www.bruderhof.com/), a Christian community that doesn’t use money internally. So when I talk later on about evolving past the use of internal money, I’m not proposing something nobody has ever lived. They also accepted my dad as a Jewish atheist, making him a remarkably long-running doctrinal exception. In meditation there, he came to his own understanding that “God is the Universe, and the Universe is Love.”
+
+[![A painted banner reading “Suddenly it’s gonna dawn on you: The New Age”, with a sun rising over hills, on the wall above a couch in a cozy living room.](https://substackcdn.com/image/fetch/$s_!k_WM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Febd8f0ea-e412-4f04-9ec4-d8c000529786_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!k_WM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Febd8f0ea-e412-4f04-9ec4-d8c000529786_1536x1024.png)
+
+This was the banner my mom painted that hung in our living room for decades. I will try to locate the actual photo.
+
+He might have stayed, but the U.S. antiwar movement during Vietnam needed somebody who knew how to set up printing presses. He eventually founded the Aquarian Research Foundation—not a commune, but a nonprofit devoted to researching how the planet could have a positive future and publishing what it found. His conclusion was simple and enormous: human beings need small tribal communities again, because [Civilization Is A Hoax,](https://government-scam.blogspot.com/2020/06/everything-you-were-taught-is-lie.html) as I blogged about at the beginning of the Covid plandemic.
+
+That’s where the ***escuelita*** in my title comes in. *Escuelita* means “little school.” I’m borrowing the word from the Zapatistas in Mexico, whose [*Escuelita*](https://schoolsforchiapas.org/advances/schools/la-escuelita/) brought outsiders into their communities for a while to learn autonomy by living it. In the same way, people would live in the healing communities I’m proposing, to heal and to learn the relational and practical methods, so that some of them could eventually leave and set up another one somewhere else. Otherwise, we’ve built a lovely refuge for whoever got there first.
+
+[Share](%%share_url%%)
+
+[![](https://substack-video.s3.amazonaws.com/video_upload/post/195632389/f995767c-fe15-408e-ab45-786ca57b87e6/transcoded-00001.png?refresh=undefined)](/api/v1/video/upload/f995767c-fe15-408e-ab45-786ca57b87e6/src?override_publication_id=5675537&preview=false&type=hls)
+
+![U-Dont-Exist.com](https://substackcdn.com/image/fetch/$s_!brJ0!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png)
+
+["Where's Utopia?" (Click READ MORE): My father's 1988 documentary on Communal Living in USA, online for first time ever!](https://ibogaqueen.substack.com/p/wheres-utopia-click-read-more-my)
+
+Copy link
+
+I spent much of my childhood being carried through [Twin Oaks](https://twinoaks.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), [East Wind](http://eastwind.org/), [Padanaram](https://www.facebook.com/p/Padanaram-100064853281734/), [Zendik](https://highlandscurrent.org/2017/05/09/leaving-zendik-farm/), and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.
+
+From 1999 to 2001, my family actually lived with the [Love Israel family](https://uwapress.uw.edu/book/9780295988856/the-love-israel-family/) in Washington while escaping [Y2K](https://en.wikipedia.org/wiki/Year_2000_problem). In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of civilization. We lived in a yurt. At Love Israel, I had my dream of picking all kinds of wild berries in nature come true. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.
+
+I wanted to befriend the children there, but they treated me as an outsider. My mom never liked the place. The leader was also named Love Israel, and to me he seemed like the fakest person I’d ever met, complete with the expected God complex.
+
+We spent a lot of time on our knees in the community garden growing food they could sell in town. The money was opaque and seemed to travel mostly upward toward Love. Meanwhile everybody sang, “Here in the garden, there’s nothing left to do-ooo-oo, but eat, sleep, and keep clean!” Again and again. 🌱
+
+My father eventually gave the community his airplane. They sold it instead of using it. He felt tricked, began exposing what was happening, and then we were asked to leave.
+
+The [East Wind](http://eastwind.org/) commune was almost the opposite way. There were maybe eighty people when I was there, enough to have a variety of personalities, small enough to actually make friends. I was happy there. I especially liked showering in a communal shower with both sexes present. I wonder if that still goes on at East Wind? That’s the sort of thing that doesn’t make it into the history books, and which takes some balls (no pun intended), considering how the wider society counts this as potentially damaging to children’s psyches, despite it being the way we’ve lived for thousands of years prior.
+
+Even at East Wind, though, there was some political power usurpation under the surface. They had a nut butter factory that brought in a lot of their income, which seemed to make the woman running it very hard to question. Otherwise, I thought the community had a great social life, a nice way of distributing labor, and no obvious guru.
+
+There were like eight people at [Acorn](https://www.ic.org/directory/acorn-community-farm/) when I was there, and no kids. I couldn’t tell whether it was a commune I might join or a group of people who were already friends, and who happened to live on some really beautiful land and be good at building cool stuff.
+
+[Twin Oaks](https://twinoaks.org/) was much bigger, like two or three hundred people at the time, and almost institutional. It was friendly and interesting, but I didn’t feel like I was in a tribe there. It was more like a tiny hippie town, but with a highly structured political system that didn’t seem intuitive for hippies.
+
+Looking back, almost none of these communities had a communal therapy practice. People brought the usual human pain and suffering with them, and it all got translated into politics.
+
+Which meant weekly meetings, run according to Robert’s Rules of Order, with enormous agendas, where most of the things you needed to talk about couldn’t be talked about, and you generally felt like you’d rather be sleeping. (Some people, including me, solved this problem by just going to sleep in the meeting and openly snoring.)
+
+[Zendik](https://highlandscurrent.org/2017/05/09/leaving-zendik-farm/) went in the other direction. They held a brutal community meeting that I’m still recovering from 35 years later. 🤣 Five-year-old me was put in the center and told I was bad because I hadn’t volunteered to help adults with whatever jobs they were doing. Apparently kindergarten had already failed to teach me labor consciousness.
+
+But what I gathered from a bird’s eye view is that the secular communities often thought they could make everyone feel loved and respected by adopting optimal democratic procedures. The spiritual communities went deeper in search of real purpose, belonging, and divine connection, but often put one person in charge of everybody’s inner life. Most of my big little article here is me attempting to describe the missing bridge between those.
+
+[Subscribe now](%%checkout_url%%)
+
+---
+
+# Communes Are Hot Again 🔥
+
+Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, [the U.S. Surgeon General](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue.
+
+It’s obvious that a lot of people can’t tolerate modern life in isolation anymore (the UN’s rules for prisoners literally ban more than 15 days of it). Folks may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starving them.
+
+What’s starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)
+
+Check out the Google Trends for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)”. After years of decline, interest climbed sharply in the mid-2020s.
+
+[![Google Trends chart of worldwide search interest from 2004 to now: highest in 2004, sinking to a low, flat line through the 2010s, then shooting back up in 2025.](https://substackcdn.com/image/fetch/$s_!y0li!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae1e4fd0-563f-4c2a-8228-7a549a4fc4d7_1211x373.png)](https://substackcdn.com/image/fetch/$s_!y0li!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae1e4fd0-563f-4c2a-8228-7a549a4fc4d7_1211x373.png)
+
+Apart from the Covid lockdowns just prior, AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future. Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim.
+
+It’s poppin’ on Instagram too! 🔥 Chantress Seba—my favorite light-language love influencer—[posted an application](https://instagram.com/p/DVyl1a2lAuZ/) for people interested in starting a commune. I applied, although I don’t think she’s coming to Africa, where I’m at. When I saw the post, many thousands of people appeared to be interested. That was encouraging, but imagine Chantress Seba the next morning opening her inbox to a zillion excited applications to co-found her dream village. 😅
+
+Later, when another influencer with a big following [floated the commune idea](https://instagram.com/p/DaLvZV2qIk2/), the comment section started to become a recruitment board, where people were apparently forming joint operations together right in there.
+
+It was chaotic, but sincere, and it revealed to me how people are so ready for this that they’ll literally jump into it from one video.
+
+## The Freeloader Problem
+
+Some of the commenters were skeptics tho. The oldest objection showed up immediately, restating the collective action problem: anarcho-communalism sounds great on paper, but when property becomes “owned by everyone, cared for by nobody,” the practicality comes into question.
+
+[![Instagram comments debating whether most people will accept the responsibility required by anarchist communities, and whether communal ownership leads to theft, neglect, and nobody maintaining shared property.](https://substackcdn.com/image/fetch/$s_!0l9H!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F966a39ab-153b-4d8f-852d-e96421f21f26_714x1228.jpeg "Instagram comments debating whether most people will accept the responsibility required by anarchist communities, and whether communal ownership leads to theft, neglect, and nobody maintaining shared property.")](https://substackcdn.com/image/fetch/$s_!0l9H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F966a39ab-153b-4d8f-852d-e96421f21f26_714x1228.jpeg)
+
+I’d say the comment above is more true of the big socialism experiments than small communes, but I still take it seriously, because some people really would rather let somebody else take responsibility. Sometimes you see the same three people who end up doing all the maintenance, while everybody else talks about freedom while lounging around in their hammocks. And then unofficial leaders start gaining power just based on their indispensability.
+
+Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.
+
+---
+
+[![Infographic, “Building Healing Community – How It Could Work: a lived village, a training ground, and a path toward deeper common life”. Its panels: my journey, daily life in a healing community, why children need community, the couple problem, a path toward less money, shared inner purpose, practices that keep community alive, and the invitation.](https://substackcdn.com/image/fetch/$s_!PpTf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b760a8e-4a67-45e0-bb1f-6e07406abf3a_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!PpTf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b760a8e-4a67-45e0-bb1f-6e07406abf3a_1536x1024.png)
+
+# Why Communities Keep Dying in the Same Two Ways
+
+Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political). The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually.
+
+## Outer-freedom-only models
+
+The secular communes (and all the manuals I’ve seen on building them) had a solution for how to distribute property or labor in a way folks could agree on, but when the deep waters of jealousy or childhood hurt or humiliation or attraction or resentment or grief came up, the group was without a common method for dealing with it.
+
+Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. There will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that. There’s no shared way to talk about the hurt itself, but the meeting agenda is the one place the group lets you push for something and win, so the angry communard goes there, trying to get some justice.
+
+## Spiritual dogma models attempting inner freedom
+
+Many people have already realized that they are more interested in spiritual (or emotional) liberation than political liberation, so they tend to congregate in communities built for that. But because these communes focus so much on the inner work that the founder believes in, it can often look like some kind of prison-monastery cult, where you feel free inside as long as you don’t question anything.
+
+[The Farm](https://thefarmcommunity.com/), in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is.
+
+## We Want Freedom Inside & Out!
+
+Let’s face it: food, housing, and logistics are not enough reason to bind whole lives together. That’s more like a [situationship](http://romance.u-dont-exist.com/). A community needs a shared sacred inner practice that gives the difficulty of our life together a deeper meaning. We help each other heal and choose love over fear. And we turn outward with a purpose, using the *escuelita* model to bring our healing to the world.
+
+I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who’ve done the healing first can join without pretending they’re fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
+
+The motto would be: “*Nothing suppressed, everything processed.*” Each of us guides our own compatible practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic.
+
+Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements that they’re not tweaking and revising every time somebody has a revelation in [breathwork](http://breathwork.u-dont-exist.com/). But these agreements need to stay open to lived experience.
+
+When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities, on the other hand, often call it “the process,” which can become just as sacred.
+
+To give an example of striking the balance: [My contemplative practice](http://nibbana.u-dont-exist.com/) is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they’ve decided on so far.
+
+---
+
+# Practicing Community Can Start Now
+
+I realize that for most people reading this there are a lot of reasons why they can’t just head off and go join or build community on some land. Jobs, kids, pets, debt, a mortgage, a sick parent, or several of these arranged in a circle... That’s fine! The most important pl/ork (play + work) doesn’t need land anyway.
+
+The How-To Manual which follows this essay covers the whole model: inner, relational, and medicine pl/ork, the container that holds them, tech, jealousy, kids, money, land, founder power, how the communities spread, leaving, etc.
+
+People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats. A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.
+
+[![Earth map on sky in Lamu](https://substackcdn.com/image/fetch/$s_!LmXZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d334efc-a191-40fe-8bbd-164bd0c639f5_4080x3060.jpeg "Earth map on sky in Lamu")](https://substackcdn.com/image/fetch/$s_!LmXZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d334efc-a191-40fe-8bbd-164bd0c639f5_4080x3060.jpeg)
+
+*This place with the beautiful sky map of the Earth has all its own problems also…*
+
+## Choose Values Before Falling in Love With the View
+
+Have you noticed people often choose their community in the same way they would choose a vacation rental? “Wow! Look at this beautiful land! And a pond, with the sunset in it!! Who needs a beach?! And the people seem really nice, let’s get in here!” Fast forward two years. “Wait, there’s a vaccination policy?? And you need paperwork for it?!?!”
+
+Bring your values with you when you go to visit a community. Make a list of what you really believe about children, money, property ownership, romance, medicine, food, spiritual practice, technology, privacy, dealing with conflict, leaving the community, etc. It’s a long list, I know. Some of them will just get a question mark, if you’re not sure yet.
+
+Sexuality and gender belong on there too. Would LGBTQ+ people be able to live openly in your community, date, be in relationships, and stay fully protected by the community? Should children be taught to question their sexual identities from a young age, and what happens if one of the community’s children comes out as gay or transgender? Until you answer these, your community’s values on freedom and on raising children aren’t complete. Yep. Both of them.
+
+Are you willing to experiment? That’s a real value too. Put it on your list, because the people you live next to might think the experiment ended in 1978, and everything that came out of it is doctrine now.
+
+---
+
+## Practice group of whom?
+
+Uh, but wait, where do you find these people? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.
+
+And if you *can* get away from “civilization” for a bit, that can be really valuable to get some perspective on how others have already figured things out. Go visit some real [intentional communities](https://www.ic.org/). Lots of [ecovillages](https://ecovillage.org/) are open to visitors too. Check their current visitor requirements first.
+
+Through visits, you’ll also get a better idea of how much togetherness you enjoy and what kind of privacy you need, and what kind of labor system irritates you. And whether communal showers feel liberating, or make you start looking at studio apartments! 😛 No manifesto is going to tell you any of that.
+
+If you’re lucky, you might find a pre-existing commune that you’d be happy to live in, without starting your own thing.
+
+## Practice Before Committing
+
+So, build the part of community you actually can. **Call it a practice group**, for now, not a commune. Fun and nice things first give incentive. Have a weekly meal with two households. Set up a [counseling exchange](http://hearthwork.u-dont-exist.com/) with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a [cuddle puddle](http://cuddleparty.com/).
+
+And then the hard stuff comes as a test before any talk of a shared future together. Keep your commitments, or renegotiate when they feel wrong, rather than just avoiding. Get through at least one big disagreement. Dealing with it for real includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means something.
+
+Until all of those phases are passed thru, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. And once you’re past those phases, if you still want to live together, you can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor.
+
+## The Math of Absorption
+
+Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
+
+This doesn’t surprise me, since we’re taught to put on a show of competence in modern society. We’re given a lot of incentives to hide ourselves and disappear behind our screens the second things get uncomfortable. Emotional intelligence doesn’t pay the bills. Instead we optimize to fit the career market with all the little energy we’ve got.
+
+So then a lot of people end up thinking they aren’t “good enough” for community, or getting labeled by others that way. And there’s a real issue there, but it’s more about what fits where & when than good or bad.
+
+Some people have engaged in long practices of contemplation or therapy, or have had very good luck in childhood; other people are just trying to survive some emergency in their life and need care more than responsibility. Most of us are all of these at different times in our lives.
+
+[![Diagram, “The Math of Absorption”: a community can absorb only as much need as its members have free resource to meet. With 8 people and 2 in crisis (1 in 4), everything goes to triage; with 80 people and 5 in crisis (1 in 16), they’re carried and barely felt. Small communities need new members most and can absorb them least.](https://substackcdn.com/image/fetch/$s_!3uG-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7daf9ea4-807c-49c1-99b3-6993e837a010_800x540.svg)](https://substackcdn.com/image/fetch/$s_!3uG-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7daf9ea4-807c-49c1-99b3-6993e837a010_800x540.svg)
+
+In the model I’m imagining, some of the functions that are outsourced to therapists in modern society are distributed throughout the community.
+
+That does not make the community infinitely absorbent like a Heavy Flow Maxi Pad.
+
+I’m going to use the phrase “[free resource](https://www.rc.org/),” which comes from Re-evaluation Counseling, to refer to the attention, steadiness, skill and practical capacity people have left over for others once they’ve dealt with enough of their own immediate stuff, and “need” to refer to the amount of help people need at a given time.
+
+My own need has exceeded my free resource at many points. Good Lord. During one stretch, my first wife tried to kill me while psychotic because she believed I was her sociopathic father. Then [she took my son](https://youtu.be/0eOInpVYnsk?si=dbxjP76Rbk5FmjDs). Later she tried to kill my mother, while her pimp stalked my sister’s family until they moved to Canada.
+
+I could go on and on, but the math is pretty clear by now. My free resource for others was approaching zero. So when I say someone might need to stabilize and do inner pl/ork before doing community (or whatever relationship), I’m not saying it just from a theory.
+
+The ability to welcome somebody is partly a problem of resources, then, not compassion -- how many people can a group take in without hurting the existing members or the people they are taking in?
+
+And that also brings us to a difficult catch-22 for fledgling groups. The need for new members in a small community is greater, but the ability of that community to absorb disruption is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids. And the water system has to keep working. The water well doesn’t care how beautiful the new member’s heart is.
+
+So early on, members usually need to have more available resource than acute need, and some practical skills to contribute. They usually need to be willing to learn, too. Once there are 80 members, though, there’s usually a lot more free resource to draw on.
+
+I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, maybe simply uncomfortable or unfamiliar with therapeutic language, or for whatever reason deemed inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision on membership. Even then, the power to veto membership applications based on capacity remains dangerously tilted towards elitism.
+
+## Who This Isn’t For
+
+But before you submit your application to the community, submit it to yourself. This community may not be a good fit for you *right now* if:
+
+- You have a need that far outstrips your free resource right now. You need to take a first step of finding support where you are and building up your resources. If you don’t have a free resource calculator on hand, an easy way to tell is if you’re running from some crisis right now and mainly need a place to land, get treatment, housing, legal aid, etc. A founding group shouldn’t pretend it can give you those.
+- You want the feeling of village life but don’t want to take on governance, maintenance, conflict, care, etc.
+- You’re not willing to look at yourself when jealousy or conflict comes up.
+
+---
+
+## From Visitor to Member—Slowly
+
+When [The Farm](https://thefarmcommunity.com/) grew fast, a lot of the people who came were in need, and there weren’t many filters being applied. Being open to everybody was part of the spiritual “we are all one” new age philosophy. But practical burden piled up. A membership process is there to protect both the people who are already there and the newcomers.
+
+1. **First, correspond with the visitor.** Did they read the materials? (Not everyone does.) Do they get the basic idea of why this community is here? Are they at least starting to do the relevant practices? It’s a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right?
+2. **The short visit:** If they come for a week or two and just participate in normal life, well, most people can be charming for two weeks. Not exactly a high bar. 😅 So that’s about all you’ll find out.
+3. **The long visit:** If you’re not around long enough to actually experience inconvenience and conflict with the person in question, then you’re not going to learn very much about them. Watch how they react when working and making decisions in the group. When tired, corrected, attracted, disappointed, bored, etc. (Hopefully not all at once!) Even [a professional faker](http://sidney.u-dont-exist.com/) may be able to pull off an act for months.
+4. **Taking on responsibilities:** If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to know how they handle that specific area of competence. Great skill with kids doesn’t mean they can drive the van down the windy roads safely. You can find out by checking whether you’ve seen them do this thing before, and asking for references if appropriate. Give people access to these things in stages and ensure there’s always some way to appeal decisions about these roles to a separate authority if needed.
+
+Write down your answers: How long is a provisional membership, and what are a provisional member’s rights and responsibilities? How is it reviewed, and how does someone leave it? Who decides on full membership? (Hint: not the person who recruited them! 😜) And what rights does a full member have to the land, the shared resources and a voice in the group, and what do they owe over the long term? (Those go in your founding agreements.)
+
+Then there are the people who aren’t fully “in” the commune politically. Visitors, volunteers, workers, renters and interns at the commune (yes, even interns) are entitled to some rights when decisions really affect their pay or access to common resources. All of them should have clear terms, and the chance to be heard and to have such decisions reviewed. The same is true for decisions really affecting their schedule, safety, housing, records or discipline. Equality that stops at the membership line can end up recreating a servant class that moves from commune to commune.
+
+And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that’s fine. Some communities will be stricter gatekeepers, and others will be more lax.
+
+It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point. If it gets to the point of being impossible to live with, they will be kicked out. But nearly always, people who don’t fit in leave way before that.
+
+They should not be demonized for not trying to fit in. They should be offered compassion, but ultimately it’s up to them if they want to fit in and follow the communal processes. And in some cases, the community may make exceptions. If someone is actually sick and needs care, kicking them out could be like a death sentence.
+
+Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements.
+
+---
+
+# The Best Model I’ve Seen: Zapatistas
+
+[![A mural across the front of a Zapatista schoolhouse: a row of men, women and children, some with bandanas or ski masks over their faces, standing among corn plants under an orange sky, with “Digna Rabia” painted at the top.](https://substackcdn.com/image/fetch/$s_!1QJp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F745198f3-56e4-42d3-aa6b-1a608ea4b0ef_860x513.jpeg "\"Worthy anger,\" reads this mural in the Zapatista community of Oventic.")](https://substackcdn.com/image/fetch/$s_!1QJp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F745198f3-56e4-42d3-aa6b-1a608ea4b0ef_860x513.jpeg)
+
+A Zapatista Schoolhouse. It reads: Worthy Rage (Digna Rabia)
+
+In 2005, a few college buddies (Emile & Dolores) and I went down to Oventik, one of the Zapatista *caracoles* (“snails”), the regional centers that tie their villages together in Chiapas. We almost died, literally, a few times on the way there. The muddy mountain road was super windy and going up & down cliffs, usually without guardrails, and our rental car was huffin and puffin on its last legs.
+
+San Cristóbal de las Casas is where the only white man we met sat us down in a café and grilled us so directly that he seemed like a CIA agent. Why were we there? Who were we working with? What were our plans? When were we leaving?
+
+It made us feel important for a minute. We were just college kids in a dying rental car, but apparently the empire had questions for us. 😂
+
+Oventik itself was like something out of a dream. We played basketball outside with the Zapatista youth, and people gave us talks about their history and philosophy, which I translated for my friends because my Spanish was better. Visitors were coming from all around the world to learn, and to make the communities less easy to attack in silence.
+
+## Zap spirituality enigma
+
+I felt a deep spirituality from the Zapatistas. The Mayan language, as they explained, doesn’t even have subject/object structure. Instead of “I put the glass there” it’s something like “With me, the glass moved there.” I also suspect there may be a private relationship they have with ayahuasca, since Mimosa hostilis (a potent DMT ayahuasca plant) mainly comes from that region, and the Mexican government vaguely accuses them of narcotrafficking. That’s another reason to look at them as an example of much of my model, since if they are using ayahuasca, it could explain some things about their political struggles and spiritual successes, including the fact that they have the most beautiful poetic rhetoric I’ve ever seen published.
+
+## Democratic anarcho-communalism actualized
+
+What impressed me the most was how they do authority. It’s *mandar obedeciendo*, to lead by obeying: the representatives carry the decisions people made in the assemblies, and they have to answer to the people who gave them the mandate.
+
+The Zapatistas are also the closest thing to a whole political-economic example that I found, because their autonomy goes beyond how they vote. They’ve set up their own education and health care, and their own justice, and they run their own collective production. On top of that they’ve worked out ways of teaching outsiders, all while coordinating beyond a single village.
+
+[*The Fire and the Word*](https://www.amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X) describes the movement growing from family to village, village to region, and region to larger structures. It also gives one of the most useful Zapatista principles for community design: build the practice first and develop the theory afterward. The autonomous municipalities came first; an association of them became a rehearsal for the Good Government Juntas (Boards). When different municipalities encountered different problems and uneven progress, that experience generated another structure rather than being forced to fit the original plan.
+
+## Real democracy is a continual struggle
+
+After a long internal review, in 2023, the Zapatistas announced they were dissolving their previous federated governmental structure, which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas. The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons. Their [new arrangement](https://enlacezapatista.ezln.org.mx/2023/11/13/ninth-part-the-new-structure-of-zapastista-autonomy/) moved authority downward toward a Local Autonomous Government in each community.
+
+Institutions get more and more layers and offices as they age. We see this same pattern happen repeatedly, everywhere in history, except usually it goes one way without reversal, unless there’s a revolution.
+
+But there is a special reason the Zapatistas were successfully able to reverse this degeneration. Zapatista autonomy grew out of Indigenous communities with long histories. They share language and family ties. They’ve fought land struggles together, and defended themselves together for decades.
+
+## Exporting Zapatismo via the Escuelita
+
+[![A big open-sided hall with a metal roof and strings of colored paper lanterns, packed with seated students.](https://substackcdn.com/image/fetch/$s_!ba5Q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee14d04d-c0b9-4c24-ab61-ec02ec78ff8a_680x452.jpeg)](https://substackcdn.com/image/fetch/$s_!ba5Q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee14d04d-c0b9-4c24-ab61-ec02ec78ff8a_680x452.jpeg)
+
+*Escuelita Zapatista — The Zapatista school to teach outsiders their way of life*
+
+For the 10th anniversary of their autonomous governments, the Zapatistas opened up the [*Escuelita*](https://schoolsforchiapas.org/advances/schools/la-escuelita/)(little school). The goal of the *escuelita* was to expand their anarcho-communal, spiritual-humanist revolution worldwide. Outsiders came from all over the world, lived with host families there and learned autonomy by taking part in day to day life. Around 1,500 students came to the first sessions, and thousands more came to later ones.
+
+But despite actually trying to train people in their model, the Zapatistas themselves have been clear that people shouldn’t expect to directly or easily import/export their philosophy (*Zapatismo*) as something ready-made, shake & bake. A new ecovillage can’t copy the diagram everyone can see and get the trust underneath it right away.
+
+## Money is still a problem
+
+Now, the Zapatistas also don’t prove my whole money-free economy goal. They still use money internally in some cases, not others, and they still use it externally for trade. They’ve also benefitted from outside economic help, while at the same time making efforts to remain politically independent from donors and more self-sustaining.
+
+One way an *escuelita* could fail is if it becomes a business, where residents spend their lives performing community for paying outsiders, and success gets measured by how many people come instead of how many daughter communities there are. A week of feeling transformed isn’t what it’s for. It’s for teaching enough of the social and material system that some people can build somewhere else.
+
+## Are Zapatistas just unicorns?
+
+As part of [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) I have also looked for evidence of what happened after the *Escuelita*. While I found information on alumni networks, people bringing practices back with them, and organizing later, I couldn’t find a clear chain of somebody having been to the *Escuelita*, then a new communal institution being set up, and then evidence about how its members and their children actually did over time. Zapatista influence was already spreading abroad before the *Escuelita*, so if some institution resembles a Zapatista one later, that alone doesn’t prove the *Escuelita* was responsible.
+
+[Sociocracy](https://www.sociocracyforall.org/sociocracy/) has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
+
+---
+
+# What Community Looks Like From Sénégal
+
+[![The African Renaissance Monument in Dakar: a giant bronze statue of a man holding a child up high, with a woman at his side, overlooking the city and the ocean.](https://substackcdn.com/image/fetch/$s_!Uv0z!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7db4e048-c31e-445c-9d1d-5c4f48de86ab_340x339.jpeg "r/interestingasfuck - The “African Renaissance Monument” which stands at 160 feet tall and took 4 years to build.")](https://substackcdn.com/image/fetch/$s_!Uv0z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7db4e048-c31e-445c-9d1d-5c4f48de86ab_340x339.jpeg)
+
+The “African Renaissance Monument” in Dakar, Sénégal, which stands at 160 feet tall and took 4 years to build.
+
+I live in Sénégal, where “intentional community” often sounds like a strange Western phrase. People here are like, “Don’t human beings already do that?”
+
+Westerners often start out isolated and try to rebuild a tribe. A lot of Africans start out with a communal life they inherited, and watch parts of it fall apart. Kind of the opposite problem. And urban Africans who get interested in intentional community might come to it feeling alienated from both the city and the tradition they left. So the issue is global now, not just a “first world problem.”
+
+There’s still knowledge in the living villages which can help us in learning to live together once more. But visiting to learn from them should be done respectfully. Would you like people coming to your house to stare at you and your family? So come and share as part of the human family.
+
+In the villages and families I’ve spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems. Whether it’s land, childcare, housing, food, obligations, etc, etc. I’d probably not sell any tickets if I held a workshop called, “Rebuilding Intergenerational Belonging.” 😅
+
+Oh, and a practical note: getting my residency in Sénégal was pretty cheap and straightforward. French and Wolof matter a lot more than English. And the country’s famous ideal of *Teranga* (hospitality) is real in my life. I’m staying in a friend’s family’s house, and they won’t let me pay rent! Of course that *Teranga* is part and parcel of the whole culture of watchfulness, witchcraft, social conservatism, bureaucracy and all the usual complications of a real society and country.
+
+[![Screenshot of a text chat with a friend about living in Dakar, buying farmland in the south, and how almost nobody in Sénégal took the Covid vaccine.](https://substackcdn.com/image/fetch/$s_!BmI8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd33aef69-9a43-44f1-885f-777d53769f46_967x617.png)](https://substackcdn.com/image/fetch/$s_!BmI8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd33aef69-9a43-44f1-885f-777d53769f46_967x617.png)
+
+Sénégal is unlike anywhere else I’ve lived. It’s the only Sufi Muslim country (aside from Gambia, a tiny nation inside Sénégal). Sufi muslims are the ones who value a deep, personal connection with God, rather than just following the religious rules. Five times a day the prayers pour out into the streets. I find them so soothing. And Sufism doesn’t stay inside designated “spiritual” places here. It’s in the music, in the pictures everywhere, in the murals, in the names, in the conversations. Prostitution is also legal here.
+
+And the humor! People are outside laughing for hours at a time. This is the most joking culture I’ve ever been in, and I keep wondering if I’ll ever understand the really complicated jokes in Wolof.
+
+Even in Dakar, the overpopulated capital, I found this graffiti on a wall: “**Tolerance**! Openness! Union! Happiness! Love!” And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me. Where I grew up, a city wall was either selling you a product or showing off somebody’s inability to draw a penis. But the “tolerance” part is funny…
+
+[![A pink wall in Dakar with hand-painted words down one side, “Tolérance! Ouvert! Union! Bonheur! Amour!”, their first letters spelling TOUBA, next to a swirling drawing.](https://substackcdn.com/image/fetch/$s_!1Hvp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98df3b3c-7b43-40df-80d7-112f1bc91d75_849x1037.png)](https://substackcdn.com/image/fetch/$s_!1Hvp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98df3b3c-7b43-40df-80d7-112f1bc91d75_849x1037.png)
+
+Graffiti in Dakar, Sénégal: Tolerance! Openness! Union! Happiness! Love!
+
+## All is not well in paradise
+
+The warmth has hard limits here. One noteworthy example is the plight of LGBTQ+ people here, who cross them automatically.
+
+Sénégal [passed a law in March 2026](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/) that increased the penalty for “consensual same-sex intimacy” to 5 to 10 years in prison, and it also made public advocacy for homosexuality a crime. Homosexuals were already facing arrests, family rejection, harassment, assault and mob violence, so ironically, some say they’re actually safer once they’re arrested, because then at least the mob can’t get at them. And also ironically, LGBTQ+ people are using this prejudice in their favor to get refugee status and live in rich countries.
+
+So yes, it’s possible for a society to be spiritually alive, generous, funny and super communal, while still becoming cruel to those who break its social categories. Being in community isn’t automatically liberating. It all depends on who is allowed to belong without pretending.
+
+One other shadow side of the otherwise forgiving social culture here is that people may go to great lengths to avoid confrontation. Who stole the sheep? We all know, but nobody wants to cause a stink by bringing it up. 🙉
+
+Where I live, neighbors steal our moringa pods every morning. Every morning! They could plant a moringa tree in their own yard. Apparently maintaining this relationship with ours is more entertaining. 😂
+
+Everybody here has sheep (even me), and they are super cute. It can feel like you’re living in another world, with the music, the animals, the joking, the praying, and just being around people all the time.
+
+[![](https://substack-video.s3.amazonaws.com/video_upload/post/207340749/2e169e4d-c19f-484a-b10c-334034b47502/transcoded-00001.png?refresh=undefined)](/api/v1/video/upload/2e169e4d-c19f-484a-b10c-334034b47502/src?override_publication_id=5675537&preview=false&type=hls)
+
+![U-Dont-Exist.com](https://substackcdn.com/image/fetch/$s_!brJ0!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png)
+
+[Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑](https://ibogaqueen.substack.com/p/professor-baby-sheep-taught-me-inner)
+
+Copy link
+
+Of course, the old communal ways here are changing. Young people move to the city, get a job, get a phone, eat imported food, become part of the wider world, etc. (some of the men even make the dangerous journey by sea to Europe). So what about the families? The ones that used to share almost everything are now more reliant on cash and individual opportunities.
+
+## Lessons from the Black Tax
+
+Then there’s the so-called “Black Tax,” a strange legacy of the old communal system: if you’ve got any money at all, you’re expected to share it with your parents, your siblings, your cousins, to pay school fees, medical bills, funerals, etc. I understand the instinct. In the ancestral way of doing things nobody made it thru life alone, and the people who fed and raised you just naturally expected you to take care of the whole community with whatever you got from life as you matured. That’s how the whole organism survived (it wasn’t charity).
+
+Double click to interact with video
+
+But these days, the pressure to give back can be soul destroying. People have a lot less of the communal life that held the obligation up (the shared land, work, childcare, food and daily belonging), but they still carry it. So if one of them makes it into the cash economy, it’s really hard to build any independence or long-term stability, because they may be expected to carry everybody. And the relatives stay dependent too, since the payments aren’t in something that builds on itself, like compost for soil. Injecting cash into non-cash economies might feel good, but like candy, it can also undermine the health of the local relationships and sustainability.
+
+---
+
+# A Hope For Humanity
+
+Decades after the Bruderhof shaped my father, I’m publishing the film he made, and writing this.
+
+Maybe some of you will build something useful from this. Maybe that community will teach someone else, who’ll build another. Passing it on doesn’t need one institution or one founder. And there doesn’t have to be one official version of it, either.
+
+I am not currently recruiting anyone or founding a community, which makes it easier for me to write an article like this, since I’m not trying to get you onto my land. I do plan to find some land, and people may naturally end up living around me. All of the warnings in this article apply to me, too. Based on the folks who’ve so far expressed interest, I’m planning to call my commune, “Uncle Joe’s Crazy Farm.” 🤪 Hopefully not gonna be another Trungpa Rinpoche cult.
+
+---
+
+# How-To Manual
+
+## The Four Parts That Have to Pl/ork Together
+
+[![Diagram of a house. The roof is Community. Three pillars hold it up: inner pl/ork (reparenting, somatic regulation, contemplative practice), relational pl/ork (peer counseling, jealousy processing, honesty practices, conflict handling) and medicine pl/ork (peer-guided, no shamans, gated behind the other work). They stand on the container: membership, land, money, governance, children and exit. If one of the four gets skipped, it will need to be dealt with eventually, at high stress.](https://substackcdn.com/image/fetch/$s_!QNQe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8957e830-477b-4df4-bc9b-c1babc022045_718x499.png)](https://substackcdn.com/image/fetch/$s_!QNQe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8957e830-477b-4df4-bc9b-c1babc022045_718x499.png)
+
+Communities tend to focus on the aspect of their project that was most interesting to the original founders, for example political types getting super into writing by-laws, or spiritual types just meditating all the time, or therapists processing each other, or people who like psychedelics discovering they’re all God together and never getting to the point of deciding who will put their name on the deed.
+
+I’ve broken the model I propose down into the 4 parts shown in the above diagram. Note, Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, who also wants to play. (Forgive the neologism. I hope *pl/ork* isn’t too corny. 🌽): 1) inner pl/ork ([reparenting](http://innerchild.u-dont-exist.com/)), 2) relational pl/ork ([peer counseling](http://hearthwork.u-dont-exist.com/) especially), 3) medicine pl/ork (like [loveyhuasca](http://soma.u-dont-exist.com/) or [iboga](http://iboga.u-dont-exist.com/)), and 4) the practical logistical foundation which is most of this article, since I have guides separately on the other parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it.
+
+### 1. Inner pl/ork
+
+Probably the most obvious type of pl/ork is [reparenting](http://innerchild.u-dont-exist.com/). Here’s an example: you teach your inner child geography, while s/he teaches you the world is a cat!
+
+[![Meme: a world map with a cat’s outline traced around the continents, captioned “World is just a cat playing with Australia”.](https://substackcdn.com/image/fetch/$s_!7tAF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66730244-8446-4321-83f0-f353d46a8e1e_770x844.jpeg)](https://substackcdn.com/image/fetch/$s_!7tAF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66730244-8446-4321-83f0-f353d46a8e1e_770x844.jpeg)
+
+[Inner-child reparenting](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) means learning to identify as the best holistic inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and as a result, your little one gains more freedom to remain alive inside you, which brings back the joy of life that many adults have forgotten about.
+
+And this reparenting journey is built on [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) first. I.e., listening to the body’s feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.
+
+### 2. Relational pl/ork
+
+[Hearthwork](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) distributes counseling among peers: equal time, attention without interpretation or fixing, and then you switch.
+
+The idea is that the capacity to be there for people when they need help isn’t located in one professional or guru, or the founder of the group that everyone emotionally depends on, but in the community as a whole.
+
+But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn’t translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.
+
+Another thing is knowing which problems are beyond what peers can handle and need outside or expert help.
+
+### 3. Medicine pl/ork
+
+Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than [exalting any one person as a special shaman](http://sidney.u-dont-exist.com/). I’ll go more in detail on this in “The Medicine Part” section below. Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts.
+
+### 4. The container
+
+This is the part about membership, land, resources, governance, children, leaving, etc.
+
+These are less exciting topics to discuss spiritually. It’s rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it’s still something that needs a sober thinking-through.
+
+The first three parts are the inside of the container, and this container is what gives those a stable place to manifest. It’s the practical logistical foundation that gets built once the architects can work well together.
+
+---
+
+## The Medicine Part - Yes, I’m Naming It
+
+Most of the writing on communities hasn’t caught up with psychedelics. They’ve gone, or are going, from taboo toward regulated use for physical and mental health indications really fast as their benefits become more studied. And most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.
+
+I’m talking about psychedelics here because not to talk about it would be to falsify my model. Many of the people who read this article are already familiar with my [writing about psychedelics](https://ibogaqueen.substack.com/s/psychedelics), including my [loveyhuasca/Haoma material](https://soma.u-dont-exist.com/).
+
+And I believe there are real reasons to take psychedelics communally too - e.g. they can lower defensive barriers which otherwise dominate every serious conversation, and create strong bonds between members of the community who have been through the harder nights together.
+
+### Integration Starts Well Before Ceremony
+
+Using medicine is secondary to all of the other pl/ork that comes first: [reparenting](http://innerchild.u-dont-exist.com/), [developing somatic capacity](http://somatic.u-dont-exist.com/), and learning to do [peer counseling](http://hearthwork.u-dont-exist.com/). The medicine can deepen the well you already learned how to dig, or it can show you a window into the future you want to see, but it’s not a simple shortcut.
+
+This prerequisite also takes care of another issue in one shot: it weeds out the experience collectors. If someone is unwilling to put in 6 months learning to listen without imposing their solution, it is unlikely they will come out of a ceremony more relationally mature, regardless of how many self-transforming fractalized machine elves told them they are the reincarnation of King David & Elvis.😂
+
+Integration is a term thrown around so much that I’m not sure if it still has meaning. But basically, post-ceremony integration is your everyday life. The ceremony is supposed to open something up in you. Look at your life in the weeks after the ceremony and see how things have changed. That includes your relationships, behaviors, sleeping habits, your decision-making, and perhaps most importantly, how well you can deal with frustration without declaring a new spiritual emergency. 😂
+
+As a community, you need to write down what is and isn’t allowed, and which activities are private (to the individual, to a group in the community, or to the community vs the outside).
+
+### Community Is What Makes Psychedelics Pl/ork Best!
+
+- **Part of it is integration:** an insight needs somewhere to land. What happens when you come back from an amazing experience which gave you insight and clarity about your life, into the same old environment where nobody knows what you’ve been through and you’re faced with the same old cues? It can be super helpful to have gone through the experience in a community, where the people who held you through it can also notice what happens to you over the following months.
+- **The deeper you go, the more alienated you can feel.** After my original ayahuasca ego deaths at age 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar. I couldn’t even find them at Buddhist monasteries despite all the preaching about enlightenment. That helped give me a God complex, a Savior complex, or both, which then attracted exactly the right people to show me my limits. 😂 I often feel like if I’d gone thru that in a community with others, it would have been much more of a healthy and durable transformation, although without the challenges I guess we don’t learn as much also…
+- **Do you trust the people you’re relying on for support?** Support from people you trust is different from paid support, which is often paying people you don’t know to look after you for a night. To me it seems way too much of a gamble if I have a better alternative.
+
+  In a community, your sober sitter could ideally be someone who’s known you for years. Someone who not only watches you based on a safety protocol, but someone you know cares about you. They not only want the best for you altruistically, but because they have to live with the version of you that emerges 😊. This is especially important when doing iboga or other long and medically risky experiences. For those you need to be properly screened beforehand and monitored continuously.
+
+  Your peers can also reality check any downloads you may have had. Psychedelics can give you insight and they can give you convincing nonsense, all in the same bright shining light. A few friends who know your history may notice the difference between new understanding and… mom.
+- One of the benefits of community is **rhythm**, and many traditional medicinal practices occur within ceremonies that have a communal schedule. The shared schedule of ceremonies, rather than each person doing ceremonies when they want, can serve to limit compulsive use and provide for integration time.
+- **There are the practical benefits:** logistics are easier when it comes to things like having childcare arranged by the group that parents are comfortable leaving their kid(s) with, not needing to drive away from the ceremony, having someone bring water to someone or just sit quietly with them while they come back to normal consciousness, etc. And if you scream in release, the neighbors and landlord don’t call 911.
+- **And then there will be people to play with!** Raves often let strangers fast-track intimacy (getting to a level of intimacy that usually comes after building trust), but imagine doing ecstatic music & dance in a community that already knows each other (and each other’s inconvenient habits). 💃🕺
+
+### The Case Against Psychedelics
+
+Physical and psychological negative effects of ayahuasca were common in the [Global Ayahuasca Survey](https://pubmed.ncbi.nlm.nih.gov/36962494/), although severe effects were far less common and context mattered. And these medicines can open things up faster than a person (or their group) can deal with. One of the best resources on this topic is the [Challenging Psychedelic Experiences project](https://challengingpsychedelicexperiences.com/).
+
+Some people and communities should avoid them. Where access is ahead of competence, people will become casualties of enthusiasm. Is your community humble enough to say no? To pause? Using the medicine takes that. It also takes humility to refer people out, and admit when an experience did harm.
+
+They do also attract people who are all for revelation and hate the follow-through, people who can collect 12 ceremonies and 6 origin stories and still can’t say sorry to their housemate. Any community based mainly around the peak experience is going to find out sooner or later that the insight doesn’t do the practical work for it. Sometimes the dishes need doing and a scared kid needs comforting.
+
+### No Special Shamans
+
+Traditional lineages usually disagree with me on this, and many ayahuasca tribes and Bwiti iboga communities believe the medicine should stay under trained lineage authority. I respect what those traditions have preserved, and I’ve learned some “dos & don’t dos” from their sensible practices and less sensible practices. For example, although I do highly value [loving kindness meditation](http://love.u-dont-exist.com/), inner child [reparenting](http://innerchild.u-dont-exist.com/), and [nibbana meditation](http://nibbana.u-dont-exist.com/) before ceremony, during, and at all times, I notice a lot of people want their ceremony to look and feel like some kind of abstract mix of indigenous rituals & props to make it feel more authentic and sacred than their everyday life. I understand the benefit of setting aside one time and place for sacred experiences (the book, [“God is Red”](https://www.amazon.com/God-Red-Native-Religion-Anniversary/dp/1555914985) comes to mind), although the shadow side to that is making the spiritual seem like another world apart from your regular life, which is sort of opposite to integration.
+
+And while I do think it’s valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn’t trust many of these shamans to guide me, considering it’s common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don’t trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). They’re right though that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared. I’m sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well.
+
+Double click to interact with video
+
+My basic issue is with placing one charismatic person above everyone else’s direct experience. The facilitator on the retreat circuit may be wise. Or they may be someone who hasn’t been vetted by anybody, who isn’t accountable to anyone, maybe even a sexual predator, or financially dependent on people coming back to them for more feather-waving. And the more deeply someone is opening up, the more it costs not to personally know who’s running their ceremony.
+
+Even in a culture of peer medicine, there could still be an informal “shaman”, someone everyone trusts and gradually stops questioning, even though nobody gave them the title. I don’t know yet how to avoid this. Things that might help would be to have rotation of roles, and public accountability. The four questions in “Founderism” below apply to these roles too.
+
+Still, I want people to learn to guide themselves and care for each other.
+
+### My Communal Ceremony Principles
+
+I’ve written before about [best psychedelic ceremony practices](http://ceremonies.u-dont-exist.com/), from courses I took, but I will sum up here what’s most relevant to this article.
+
+Just because it’s a peer-led ceremony doesn’t mean it’s ok to be casually irresponsible. In fact, since the authority is spread around, there needs to be more competence.
+
+All of the “supports” are important: preparation, nutrition, screening for [drug interactions](http://ayasafety.u-dont-exist.com/), being disciplined about the dose, having the right kind of sober sitter present, and having a plan for dealing with emergencies. Those matter more than ceremony aesthetics. My current safety material is at [Altered States Triage](https://badtrips.u-dont-exist.com/).
+
+While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot, it’s not something I recommend.
+
+Also, I am especially cautious about medicines and protocols that I see as more destabilizing and/or presenting more of a medical burden. This includes some uses of [ketamine and MDMA](http://mdmaket.u-dont-exist.com/) and [bufo](http://bufo.u-dont-exist.com/). My reasons are given in those articles, respectively, since they need more space.
+
+### After the Psychedelic Calling
+
+[![A traveler in a cloak stands in a carved stone doorway, with a glowing world of giant mushrooms and sacred geometry behind them, looking out over a village at sunset where people share a meal and walk the paths.](https://substackcdn.com/image/fetch/$s_!5y74!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0844bbea-ba0a-4ff0-8b62-4e46426dae51_1672x941.png)](https://substackcdn.com/image/fetch/$s_!5y74!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0844bbea-ba0a-4ff0-8b62-4e46426dae51_1672x941.png)
+
+A lot of people feel the urge to form a village after going through some serious psychedelic and/or mystical experiences. Finding their people and helping others get to whatever just opened up is part of the same urge. That call may be real, but forming a community based on omnipotence is a terrible idea.
+
+I’ve felt that urge myself. The problem is that it can come with grandiosity, and I’ve felt that too. You come back believing love can heal anyone, and then you meet people who don’t want to change, people who have some part of them that sincerely wants to change yet they keep choosing the opposite, and people in such a crisis that their need for help is more than your enthusiasm can hold.
+
+Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are training there so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods, which gets double dipped with the objection that psychedelics are also privileged escape pods (or, alternatively, as some say, “a vacation for the poor”).
+
+---
+
+## Which Connections to the Technosphere Do You Keep?
+
+Loneliness ain’t the only reason building community feels urgent. I wrote previously about the wider “polycrisis:”
+
+[Spirit and Mind Health](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)[### Facing the Polycrisis: Is There Hope For Humanity?](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)
+
+[u-dont-exist.com](https://substack.com/profile/355021294-u-dont-existcom)
+
+·
+
+15 novembre 2025
+
+[![Facing the Polycrisis: Is There Hope For Humanity?](https://substackcdn.com/image/youtube/w_728,c_limit/mBW9QCVDSjY)](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)
+
+[Read full story](https://ibogaqueen.substack.com/p/facing-the-polycrisis-is-there-hope)
+
+How accurate are the fears about the future? I don’t know exactly. Maybe AI will improve the lot of humanity enormously. Maybe millions of people will lose their jobs to AI. Maybe AI will become the administrative layer between us and nearly everything. Maybe all of these things will happen before Chantress Seba finishes going through all the applications to her commune. 😂
+
+Ok, so on a personal level, it makes more sense to me to focus on cultivating more human independence from the technosphere, all the machines and systems modern life runs on, than to wait for certainty. It’s better to have community and find out I didn’t need a way out of the technosphere than to need one after spending ten years optimizing my social media feed, right?
+
+What connections to the technosphere do you keep, and which do you limit, when you’re designing a community? This is also one area where many modern folk will balk. Let the community decide if I can use my social media, or ChatGPT? Are you kidding? I get it. I really do. You’re not a child anymore. But on the other hand, these technologies don’t just affect you, they affect how you relate to the community as well.
+
+[![An Amish horse and buggy on a country road, between cars and a pickup truck.](https://substackcdn.com/image/fetch/$s_!6O6T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1807a9c3-fb99-44fc-b461-9338145f41c2_400x259.jpeg "Horse and Buggies 0005.JPG")](https://substackcdn.com/image/fetch/$s_!6O6T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1807a9c3-fb99-44fc-b461-9338145f41c2_400x259.jpeg)
+
+New friends are silver, but old friends are gold
+
+Medical care, banking, phones, vehicles, schools, supply chains, government ID, internet and energy are each a separate interlink with the wider world that folks must consider. If you opt out of them completely, it can feel like the ideology of independence is more important than life itself sometimes. If you depend on them too much, though, the outside system can remain too essential to truly evolve past.
+
+The Amish, over generations, have made community decisions about where and if they want to use a piece of technology based on how it affects their community. Different Amish communities make different decisions. Sometimes they use it at work but restrict it at home. Sometimes they share it instead of everyone owning a device. Sometimes they hold off on using it until they know more about its social effects.
+
+Medical care is one of the toughest dependencies to work out. A community may prefer natural care, but what happens when someone in the community needs trauma surgery, antibiotics, dentistry, emergency obstetric care, or any number of specialist services? What kind of care is going to be guaranteed to community members by the community using common resources? What things might require outside dollars or some form of insurance?
+
+No member should have to prove their ideological loyalty when they’re scared or sick. There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care. Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious, and a common purse requires common decision-making for things that take from it.
+
+On the other hand, while medical care is a big tripping point for communes, having social connections is measurably good for a person’s health. The Surgeon General’s advisory notes an increased risk for a range of health outcomes among people who are socially isolated. Community can make a difference, day to day, in the conditions people get sick, heal, age, and die in.
+
+---
+
+## Jealousy Can Capture Monogamy or Free Love
+
+Any community that lasts will eventually be reorganized by attraction and pair-bonding. When two exes live in the same city, they can move to different sides of the city. When they’re part of a thirty-person commune, they may still be in the same barn the next morning, working in the same team, attending the same meetings, sharing childcare and the same friends. A couple’s jealousy or breakup becomes a problem for the entire community, because it will change the loyalties, the sleeping arrangements, the labor, the kids, the alliances, and sometimes who’s leaving.
+
+The discussion on this topic generally goes straight to “should people be monogamous or poly?” But as I discuss in my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), this is one level too late in the conversation. The community problem is that, in close quarters, jealousy gets magnified, and jealousy can capture either system.
+
+Rigid monogamy can turn fear and possession into a moral law. If people are doing free love, but aren’t doing the inner pl/ork, they can just end up with a larger spreadsheet to distribute their fear over. It’s not like calling something by a certain name dissolves the childhood panic, the comparison, the terror of abandonment, or the desire to control another person.
+
+I don’t think it should be up to the community to decide for everyone what form relationships will take. People can make different agreements with each other, in pairs, threes, fours, whatever. They can change those agreements as they wish. And they can ask for support when those agreements bring up old material.
+
+Whatever forms people choose, I do think that housing, security for kids, membership and access to common necessities should not be contingent on a person staying in some agreement with the people they’re romantically involved with.
+
+[ZEGG](http://zegg.org/), a community near Berlin, and [Tamera](http://tamera.org/), a ZEGG offshoot in Portugal, have spent decades experimenting with relationships inside community. They are an example of how a community can acknowledge the erotic aspects of life.
+
+The non-negotiable for me is that jealousy not be allowed to become the hidden governor. It needs to be able to be talked about and felt in the body. It needs to be explored without humiliation. And it needs to be let go of gradually, and not allowed to turn into punishment, or into community rules.
+
+There are some ways the group can help, and basic boundaries the group can enforce, without deciding what type of relationships people have. Even so, there will still be disagreements about this.
+
+---
+
+## The Grown Children Get the Final Review
+
+Couples who live together, share the same culture and even the same bed, *still* disagree about screens, vaccines, beans (vs meat), [schooling](https://www.instagram.com/p/DcDGotaFCeZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), religion, discipline and medical care. And I mean, that’s just two people... Now think of twenty adults, all with different childhoods and value systems.
+
+The community has to share enough principles about raising kids to offer them coherence, and yet still leave parents enough room to contribute their individual humanity, insights, gifts, and so on.
+
+My own childhood broke many mainstream rules about what children should see and do. There’s no space to get into all of it here, but I’m grateful that my mother nursed me until I was five and let me sleep in their bed until 11. I’m grateful my parents didn’t vaccinate me, and grateful for nearly all of the unusual world they gave me, which has given me endless stories to tell.
+
+[![Joel as a child](https://substackcdn.com/image/fetch/$s_!D4y_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbbd841d-b071-40c3-84c0-08a1206f3d30_1932x2576.jpeg "Joel as a child")](https://substackcdn.com/image/fetch/$s_!D4y_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbbd841d-b071-40c3-84c0-08a1206f3d30_1932x2576.jpeg)
+
+Me as a child, wearing the pen holder my dad made, ready to write my Final Review 😹
+
+I mention vaccination specifically because it’s a super divisive issue for people in the more medicalized countries. I’ve personally seen a lot of folks injured by vaccines, even injured by spike protein shedding from others who took the Covid vaccines, and I don’t trust Big Pharma or the government. I’m not sure actually if there even are many communities that believe in vaccination, but if there are, I’d stay away. I’m fine being friends at a distance with the pro-vaxxers, but I’m not trying to design a village for everyone. Echo chambers aren’t ideal either, but we need enough agreement to make life together work.
+
+And regardless of what the adults think, all of the community’s design and practical unfoldment will ultimately be reviewed by the kids, once they’re grown and even while still young. That’s the review I’d say counts, like the results of a longitudinal study count more than the initial hypothesis.
+
+I actually learned how to parent my son from his future review via his quantum jumping time machine, which he explained in this video:
+
+Double click to interact with video
+
+And a friend who reviewed this draft grew up in a Christian commune in Colorado where her father was a pastor. She calls her childhood “a treasure and a burden.” A treasure because she belonged, and everybody cared for everybody. A burden because of the strict religious life she never chose. What she said is more useful than the usual promo video showing kids smiling and carrying vegetables.
+
+### Communal Parenting Adds On
+
+One of the biggest reasons I think community matters for kids is Jean Liedloff’s [*The Continuum Concept*](https://www.arvindguptatoys.com/arvindgupta/conconcept.pdf). Liedloff was writing about what she learned while living with the Ye’kuana tribe in the Venezuelan rainforest. Some say she idealized what she saw, but I still find it powerful: the babies are carried by the adults (and not just by one exhausted parent) all the time, so they participate in everything adults do from the start. Instead of age-matched cohorts like we have in our schools, kids are with others of all ages. Some modern parents try to adopt some of the Ye’kuana child-rearing practices, but the full stack requires the actual communal support they had.
+
+Experiments where kids sleep and live apart from their parents deserve special caution. [Research on Israeli kibbutzim](https://pubmed.ncbi.nlm.nih.gov/12395568/) found that the practice of kids sleeping communally eventually ended due to developmental findings, parents’ preferences and social change. Kids can benefit from high-quality group care and multiple loving adults in their lives, but replacing a secure attachment to their parents is a different matter.
+
+Tamera’s Children’s Place has semi-repeated some of this old Kibbutz philosophy, taking children away from biological parents, because their founders’ ideology said that children are traumatized by the nuclear family and its unstable romantic underpinnings. On the other hand, their actual practice did allow parents (including fathers) to sometimes stay with their children in Children’s Place, so they weren’t as dogmatic as I originally thought.
+
+---
+
+### Children Need Freedom Inside Real Protection
+
+[![kenyan kids with joel](https://substackcdn.com/image/fetch/$s_!Svpw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff76a1545-e84b-406d-8731-1abde6502718_3264x1464.jpeg "kenyan kids with joel")](https://substackcdn.com/image/fetch/$s_!Svpw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff76a1545-e84b-406d-8731-1abde6502718_3264x1464.jpeg)
+
+African kids enjoying their childhood! I played with them as my neighbors in Kenya.
+
+My own bias is still toward a system where kids are not solely taken care of by their parents, while still honoring the parent-child bond. If the father is unknown, the whole community can do the fathering, but the biological mom’s role should always be honored, since that attachment is formed already from years of nursing. Kids do need their own territory, places where they can create their own society, invent games and work out ordinary disputes, without always being under the management of adults.
+
+I got a taste of that at a Unitarian youth camp, and it’s still one of the freest memories I have.
+
+The adults still have to pay attention to what goes on in the children’s territory. Older kids can’t be allowed to boss the younger ones around there. And keeping secrets shouldn’t be part of how independence manifests.
+
+I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when they are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!
+
+So here’s how I see this protection being ideally structured:
+
+1. **Give children real agency.** When kids say no to an adult who wants to be alone with them or touch them, that’s a hard line that can’t be crossed. Apart from that, obedience should not be demanded from kids outside of legitimate safety needs.
+2. **Create a no-secrets rule.** No grownup has a right to ask a kid to keep a secret from their mom or another trusted adult, whether it’s about a gift, a game, a touch, a conversation or a relationship. (A surprise has an end date. But secrets meant to isolate a kid aren’t allowed.)
+3. **Teach Honesty**. Protecting children is the duty of adults, but it requires children to help also. “The Boy Who Cried Wolf” is a didactic children’s story which continues to be useful generation after generation. The Buddha even taught his son Rahula honesty as the most important first lesson. I agree. We must teach children truthfulness before there’s a crisis. “Make believe” must be labeled as such.   
+   When adults lie to children (like “Santa is real!” etc), that teaches them to misunderstand the difference between reality and make-believe. Make sure kids understand what they say will be taken seriously if they are known to be honest. Those who are known to lie a lot are especially targeted by abusers who know their accusations won’t be believed. Don’t let the teaching turn into interrogation or punishment when they’re not sure. A scared or confused kid may get mixed up telling what happened and still need protection.
+4. **Hear the child even when the accused is someone people love.** Communities fail here, because the adult may be charismatic, useful, rich, spiritually important, or everybody’s friend. Decide on the response process ahead of time, before anyone’s face is attached to it. Keep everyone at risk safe first, right away, then make sure the accusation is investigated competently and fairly. Nobody’s status buys silence.
+5. **Make sure kids have relationships and a reporting route outside the community.** Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to. State intervention can fail spectacularly, and enclosing kids completely in a community can fail too. Kids need more than one world. In 1984, Vermont authorities [raided a religious community in Island Pond](https://vtdigger.org/2024/06/21/40-years-later-island-pond-has-little-interest-in-revisiting-its-historic-raid/) and took 112 kids into custody over suspected abuse. A judge turned down the state’s blanket request to hold them, because it couldn’t name any specific case, and the kids went home that same day. There was apparently some physical abuse going on there as a disciplinary practice, but that’s something which varies a lot in every society also.
+
+#### Born to Be Wild
+
+Sometimes we also need to protect people from the rare, but real threat posed by dangerous children. I looked through [the research corpus](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) for a well-documented case of a child in an intentional community who remained seriously dangerous to others. I was looking to find the reported conduct, the assessment, the intervention, the review, and what happened later. I couldn’t find one. I can’t claim communities already know how to handle the hardest cases on their own. In those cases, the child, the family, and the people at risk all need access to competent help and review, hopefully including non-intrusive help from outside the home community.
+
+### The Door Must Open Outward at Adulthood
+
+If a community’s kids never leave, it has no way of knowing whether they’d come back freely. So let them study, travel and make friends, encounter other ways of living, and disagree with the founders without being treated as traitors. And kids coming back isn’t necessarily the best thing for the communal movement either. If they then start their own communities, we may see more evolution than if they simply return and continue what their parents started.
+
+Amish young people, from about age 16, go through an indefinite period of freedom from parental control called *Rumspringa*. During this time they might travel outside, although they normally choose to stay in the community and begin acting as adults, including courtship. At the end of this period, they decide as adults whether to join the church, and [roughly 85 percent or more of them end up joining](https://groups.etown.edu/amishstudies/social-organization/population-growth/). Pop culture makes *Rumspringa* seem like a wilder, more universal teenage free-for-all than it is, but the main point is that they’re baptized as adults, which means belonging is a commitment they make.
+
+#### Every childhood narrows the future
+
+Most ordinary parents aren’t going to give their kid a bunch of money at 18 and say, “Go see the world!” They’ll try to get them ready for some next step that can actually work, so they can become self-sufficient, and eventually take care of their aging parents. A poor or money-free community may have even less cash to offer.
+
+Unlimited freedom isn’t realistic, but it doesn’t need to be artificially impossible for grown kids to leave. Kids in or outside of intentional communities all need to learn enough about how the money world outside operates that they aren’t helpless in it. Like how to get a job, pay rent, read contracts, handle banks, get IDs, avoid getting scammed, and how to ask for help when they’re unsure about any of that. And all that sounds amorphous if it’s not structured into plausible next steps outside the community (school, an apprenticeship, work, family, another community).
+
+Kids also need transferable skills and education. It helps if they have relationships with people outside the community. They should be able to access their own records and documents. It would be great if the community could also provide resources to smooth the transition, like temporary housing, help with travel, etc. If it can’t, it can still avoid punishing departure.
+
+Belonging and freedom should go hand in hand.
+
+## Money, Land, and Shared Resources
+
+What kind of legal or illegal entity (cooperative, trust, association, company, or tribal squatting?) will hold the land? This needs to be decided before it’s bought or occupied. Then you’ll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people’s contributions (if at all), how inheritance works, outside debts… oh my! Read the founderism questions next, and agree on the exit terms in “Leaving, Removal, and Dissolution” before anyone commits.
+
+### Moving Beyond Money
+
+Like my father, I’m aiming for communities with less and less money involved, since money is antagonistic to the spirit of community. If I have money, I can get whatever I want, regardless of whether anyone cares about my wellbeing. That’s the hegemonic philosophy of life we are trying to overturn. I think the path there has three stages.
+
+First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic.
+
+Later all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the [Bruderhof](https://www.bruderhof.com/intentional-community) community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing), and a number of other [income-sharing communities](http://thefec.org/). So a common purse isn’t just a theory.
+
+Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn’t find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.
+
+None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what’s scarce. Who decides how these things are budgeted and distributed? What do members owe one another? What happens when someone wants to leave?
+
+---
+
+## Founderism: The Four Questions
+
+In every community there was somebody (or some founding group) who took the initiative to get it started. They found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest. Like the U.S. Founding Fathers.
+
+The founder(s) end(s) up with real influence, and pretending they don’t just makes that influence harder to look at. When that power fails to get distributed as the conditions ripen for that, it’s called founderism, which is a fledgling form of what can become a subtle dictatorship.
+
+I’ve seen founderism in many communes that I’ve visited, and I can see it playing out if I were to be a founder as well. I’ve got all these proposals and visions here in my guides, and so it would be very easy for me to become the person who decides whether or not everyone else “understood” them correctly, even while I wish to remain humble and open to the input of all involved.
+
+There are some things we can do to keep founders in check. For one, we can judge the lofty methodology by results people can actually see. Will insiders *and* outsiders see the members safely flourishing without being trapped? Able to leave without it being stigmatized? Can folks resolve conflicts in healthy ways? Are the kids doing well once they grow up? And if the community is meant to spread, do we see daughter projects actually start up and last? Those questions seem more revealing to me than how big or old the commune gets, or how many decisions are made by some form of consensus.
+
+The questions so far have been about the method. These four are about the founder:
+
+1. ***Can the community respectfully override the founder(s)?***
+2. ***Can the community replace the role of the founder(s)?***
+3. ***Can the community alter the vision of the founder(s)?***
+4. ***Can the community exist without the founder(s)?***
+
+Then follow the practical power. Whose name is on the deed? Who’s in charge of the resources? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique.
+
+If several are present, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me.
+
+While founderism is a problem in every community, it’s especially so in communities which form naturally over time as I’m describing may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”
+
+If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. And if we are all starting together from scratch, then we would all be at an equal probationary level with each other.
+
+### How My Own Model Could Become a Cult
+
+[![Trust Me, I'm a Scientist!](https://substackcdn.com/image/fetch/$s_!P0dV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa41679e5-fbf3-48a3-b95b-8236dc943f88_1197x1095.jpeg "Trust Me, I'm a Scientist!")](https://substackcdn.com/image/fetch/$s_!P0dV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa41679e5-fbf3-48a3-b95b-8236dc943f88_1197x1095.jpeg)
+
+*I could totally start a cult. Trust me.*
+
+As if a founderism-type subtle dictatorship isn’t bad enough, we often find groups that are even proudly and overtly controlled by some Pharaoh at the top of the pyramid, especially when the organization of the group is as advanced as what it took to build the Great Pyramids.
+
+Every practice in this article can be turned against the people using it.
+
+“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html) practice. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.
+
+Peer counseling can become peer surveillance, even if the tone is warm.
+
+Dissent is important for growth. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so.
+
+There are some basic human rights that can’t be voted away from you by the majority in a community, unless it’s a question of resource availability as a whole. If safety and the conditions for health can be provided, they should be provided. People should be able to maintain relationships with others outside the community, as long as those relationships don’t interfere with the community as a whole (for example, you can’t bring your boyfriend from outside to live with you if he’s antagonistic towards the commune).
+
+Let’s say a grandmother is demonizing the commune. Cutting off contact with her could make things way worse. When it’s tricky and dangerous for everyone like that, I think the commune needs to step in and help people decide how to communicate with outsiders.
+
+---
+
+## From One Community to a Movement
+
+The problem of how these communities stay connected does eventually need to be solved somehow, if the idea is for them to spread without building another state. It should be solved in a way that allows help between communities and the movement of people and knowledge, and also keeps the differences alive, so communities can keep learning from one another. And communities already do have federations which provide some degrees of assistance in training people, seeding new projects, logging experiences and lessons, and so forth.
+
+The [Federation of Egalitarian Communities](https://www.egalitariancommunities.org/) (FEC) says it’s rebuilding, and that’s a good warning. It takes work to run a federation. Delegates. Records. Compliance. Coordinating resources. Holding meetings. Succession. Whatever dispute function it actually takes on. These things all take up labor and material capacity before any local crisis has eaten into both. If the legal or economic environment requires money, the federation also needs to have a cash budget for dealing with it. But the work of federation doesn’t have to be done by a single entity. Two communities might want to be closely linked as friends, and that doesn’t stop both of them from also being part of a general federation. There can also be local clusters, or single-function institutions like the FEC’s [PEACH health pool](https://www.egalitariancommunities.org/initiatives), which isn’t currently governed by the FEC delegates.
+
+Cooperation also shouldn’t slide into assimilation. The FEC has full members and communities working toward full membership, and [Friends](https://www.egalitariancommunities.org/communities) who may just want to stay friends. Fortunately, the interface between communities can often be thin, saying who’s responsible for what while somebody crosses between them, and communities don’t have to have the same internal systems for it to work.
+
+Solidarity doesn’t mean every community is liable for whatever the others owe, and it doesn’t mean anyone has an unlimited claim on another community’s labor and stores, or its land and tools. Even if nobody uses money internally, communities still need the same honesty about exchanges and obligations. Decide in advance which offers of help are purely goodwill and which go on a ledger of mutual aid. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be “even”.
+
+Whenever a community or a federation creates or applies a rule, it’s best practice to store the full case history (with private details protected) so it can be re-evaluated in future: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences in the case. When the rule changes because of a new case, run the old case through again to see how it would turn out. That saves each generation from having to rediscover the same constitutional fight from scratch.
+
+### Experiment Before You Split Off
+
+Experimenting with a different rule doesn’t have to mean everybody goes out and buys new land right away. Try it inside the parent group first, then as a semi-autonomous project, and then, if it needs more independence, as a seed group nearby that still shares some tools, childcare, business or friendships. Splitting off completely should be just one step along that gradient, and nobody should have to do it just to be allowed to experiment.
+
+Some experiments (like a different land system, or a different population size, or any number of rules that work together) can’t be tried in a way that’s cheap. They may look bad when they’re starved of the assets they actually need. “We tried it in one room for three months” isn’t always a fair test.
+
+---
+
+## Leaving, Removal, and Dissolution
+
+### Leaving Voluntarily
+
+Good people leave for good reasons -- dying parent, love, work, health, exhaustion, change of mind, etc. You don’t want them to lose everything they’ve put in. That’s coercive -- they HAVE to stay if they can’t afford to go, and a community of prisoners isn’t ideal. Whether or not you use money, you’ll need to have a way of providing people with resources when they leave (cash, if you use it, but also tools, transportation, temporary housing, stored up goods, the right to keep using something, or whatever). Otherwise their “right” to leave is only on paper -- it only works when the community happens to have spare money. Write up the exit terms while leaving is still only theoretical -- like a pre-nup when you’re planning the wedding. Not romantic, but protective. Much easier than doing it once anybody’s furious.
+
+### When Somebody Has to Go
+
+A safe community can’t promise to keep everyone. There may be times when someone has to go. If someone is a serious or generalized danger to others, or keeps violating essential boundaries, or for whatever reason just makes everyday life together impossible for everyone else, it can be the right call to eject them. If restorative work can help in a reasonable amount of time, all the better. But it’s not the community’s job to be a treatment program for someone who’s endangering everyone else.
+
+This power to remove people is so easily abused, though. So work out the process before it’s about anyone in particular. What counts as cause for immediate protective action? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? How will the person be able to reply to the concerns? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help?
+
+Note that “outside” doesn’t have to mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it’s not the same people.
+
+Also decide on a mediator or ombudsperson in advance. Why bother? People often won’t trust someone they haven’t already met, who comes in during a crisis as a “neutral stranger.” A mediator doesn’t obviate the need for evidence, safeguarding, rulings, etc. Mediation is an attempt to restore good relations between people. When people can’t or won’t consent to being in community any more, they still need a final separation.
+
+### When the Community Dissolves
+
+[![A wedding with a coffin in front of the altar: the bride and groom look startled, a guest in sunglasses throws rose petals, and a sign reads “Till Death Do Us Party”.](https://substackcdn.com/image/fetch/$s_!9Q3c!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd2a051-9ac5-4630-868b-5a37226707f9_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!9Q3c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd2a051-9ac5-4630-868b-5a37226707f9_1536x1024.png)
+
+Dissolution is something founders rarely want to talk about while they’re picking a name for their community and looking forward to its first harvest. Who would? But that’s exactly when it needs to be talked about.
+
+If the community dissolves, what happens to the land and any outside debts? What about its buildings, equipment, common stores or funds? What happens to each member’s agreed rights? More immediately, who is responsible for ensuring that everyone has a place to live and food to eat? Who takes responsibility for making sure people get their medications and the other care they need? Who keeps childcare going, and makes sure the kids’ schooling carries on? Who takes responsibility for transportation, for the records, for family contact, for the animals, for making sure land obligations are met, and for any unresolved claims? That’s a lot of loose ends!
+
+Think of it like a living will, and assign a bridge or successor for each critical function in advance, so basic life doesn’t depend on reviving the commune. The institution may not be salvageable, but who’s making breakfast tomorrow?
+
+Dissolution terms are also a way for a group to end without turning every friendship into evidence. Who wants that? People may leave hurt, but they keep the transition support they agreed on, and their dignity. And they can tell a coherent story of what happened.
+
+Institutions and relationships don’t die at the same time, and some of what people learned to give one another may go on too. What a relief! The film [American Commune](https://www.youtube.com/watch?v=3ryzpd9r4oI) follows two sisters who grew up on The Farm. When one of them later became ill, former members who hadn’t seen her in years reached out with support. The Farm’s communal economy had changed dramatically, but the bonds hadn’t vanished.
+
+---
+
+# Appendix: Watch These, Then Read These
+
+## Films
+
+- [***Where’s Utopia?***](https://utopia.u-dont-exist.com/) (1988) is a documentary by my father, made with Jerry Mintz.
+- [***A Place Called Chiapas***](https://moviesfoundonline.com/video/place-called-chiapas-1998/) (1998) is about the early days of the Zapatistas.
+- [***American Commune***](https://www.youtube.com/watch?v=3ryzpd9r4oI) (2013) is about The Farm, seen through the eyes of two sisters who grew up there. Why this one? For this article, the view of the grown children is essential.
+- [***Commune***](https://www.youtube.com/watch?v=-mWsTCCcUTM) (2005) is about Black Bear Ranch, and what radical freedom did to the relationships there.
+- [***A New We***](https://newwe.jimdofree.com/) takes you on a tour of a bunch of ecovillages in Europe. How many different arrangements can hide under that one label? A lot, it turns out!
+- [***Within Reach***](https://fellowshipforintentionalcommunity.vhx.tv/products/within-reach-journey-to-find-sustainable-community) follows a couple as they bike 6,500 miles, visiting a hundred or so communities.
+- [***Seeking the Good Life in America***](https://www.youtube.com/watch?v=tMSPZu_47Oc) compares Twin Oaks, Acorn and Light Morning.
+- [***Voices of Cohousing***](https://fellowshipforintentionalcommunity.vhx.tv/products/voices-of-cohousing-building-small-villages-in-the-city) shows the partial-community option, where you get high neighborliness and more private autonomy.
+- [***Inside the Bruderhof***](https://www.bbc.co.uk/programmes/m00071xr) is about a high-commitment religious community, including the autonomy it requires members to give up. Oh, and the Bruderhof has a pretty extensive [YouTube channel](https://www.youtube.com/channel/UCr6Df5XndlMFVB43NodfUsQ) too.
+- [***Living in the Future: Lammas***](https://livinginthefuture.org/episodes/1-introducing-lammas.php) is about what happens when community-building meets land use and planning law.
+
+## Books and Papers, in Reading Order
+
+### For Child-Rearing
+
+- [***The Continuum Concept***](https://www.arvindguptatoys.com/arvindgupta/conconcept.pdf) by Jean Liedloff (1975) is a foundational natural-child-rearing book, based on her time with the Ye’kuana. Is it settled anthropology? No, it’s provocative observation.
+- [***Hunt, Gather, Parent***](https://www.amazon.com/Hunt-Gather-Parent-Ancient-Cultures/dp/1982149671) by Michaeleen Doucleff (2021) is a practical, accessible book about kids taking part in family life. It’s also about autonomy, and spreading out the work of caring for them.
+
+### Practical Community-Building Guides
+
+- Where do you start with the nuts and bolts? [***Creating a Life Together***](https://library.uniteddiversity.coop/Ecovillages_and_Low_Impact_Development/Creating_a_Life_Together-Practical_Tools_to_Grow_Ecovillages_and_Intentional_Communities.pdf) by Diana Leafe Christian, for membership, money, land and agreements.
+- Want a guide to intentional community that covers the whole system? There’s [***Building Belonging***](https://www.ic.org/building-belonging/) by Yana Ludwig.
+
+### Governance Manuals
+
+- [***Many Voices One Song***](https://www.sociocracyforall.org/product/many-voices-one-song-ebook/) by Rau and Koch-Gonzalez is a practical manual for doing sociocracy.
+- [***Building United Judgment***](https://www.ic.org/community-bookstore/product/building-united-judgment/) by Schaub and colleagues is about consensus decision-making.
+- Ludwig and Gimnig’s [***The Cooperative Culture Handbook***](https://www.ic.org/community-bookstore/product/the-cooperative-culture-handbook/) has a bunch of exercises for being more cooperative, dealing with conflict and building group culture.
+
+### What Helps Communities Last—and Whether Longevity Is Enough
+
+- [***Communities That Abide***](https://philebersole.wordpress.com/2014/06/23/dmitry-orlov-on-communities-that-abide/) by Dmitry Orlov makes an uncomfortable argument: the communities that last a long time often rely on a religious ideologywhich makes members feel alienated from the wider society. Basically, the more cultish, the more durable, since cults are designed to capture people.
+
+  It makes one wonder, is longevity alone a meaningful measure, when a community may keep going without its members flourishing? That’s the question in [“Measuring Success in Intentional Communities”](https://www.researchgate.net/publication/334857266_Measuring_Success_in_Intentional_Communities_A_Critical_Evaluation_of_Commitment_and_Longevity_Theories), a paper by Rubin, Willis and Ludwig.
+- [***Commitment and Community***](https://www.amazon.com/Commitment-Community-Communes-Sociological-Perspective/dp/0674145763) by Rosabeth Moss Kanter is a classic. It compares a bunch of nineteenth-century communes, and the practices that built commitment in them.
+- [***Alienation and Charisma***](https://annas-archive.pk/md5/72f23810c1c2ab152c625338eb11c4f5) by Benjamin Zablocki is field research on communes, and on the role charisma plays in them.
+- Jo Freeman’s [“The Tyranny of Structurelessness”](https://www.jofreeman.com/joreen/tyranny.htm) (1970) is the classic essay on hidden hierarchy. Can it be harder to challenge than explicit authority? She argues it can.
+
+### For the Zapatistas
+
+- [***The Fire and the Word***](https://www.amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X) by Gloria Muñoz Ramírez and Subcomandante Marcos is about how the Zapatista movement came about, its practice-before-theory approach, how it built autonomous institutions, and the original Good Government Boards.
+- Want it straight from the Zapatistas? Their own archive is [Enlace Zapatista](https://enlacezapatista.ezln.org.mx/), and look especially for their 2023 explanations of the new autonomy.
+
+## Research Behind This Article
+
+If you’re curious about the research behind this, it was a much bigger source audit than would comfortably fit in an article. It’s all in the [public research report](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/): the evidence base and its limits, the counterexamples, what I still couldn’t verify, etc. So you can check it yourself, and this article doesn’t have to be a 200-row ledger. Can you imagine? 😂

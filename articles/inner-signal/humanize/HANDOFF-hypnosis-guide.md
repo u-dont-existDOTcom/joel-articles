@@ -51,8 +51,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
   4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull requests 206 and 209 (the 4.1 work to 2026-10-21 22:43 UTC)
-  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC, and 222 after it; pull requests 224 and 228
-  were merged (228 by Joel at 2026-10-23 18:09 UTC); the work since is in the pull request the newest "Next step" names. Main moves often (the Inner
+  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC, and 222 after it; pull requests 224, 228
+  and 232 were merged (228 by Joel at 2026-10-23 18:09 UTC, 232 on 2026-10-24); the work since is in the pull request the newest "Next step" names. Main moves often (the Inner
   Child lane merges too): `lane_push.py` says after each push whether the pull request can merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
@@ -113,11 +113,11 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 Nothing for the guide: no open questions (1 to 14 are answered).
 
-Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the eighth recheck's result link (the same draft, re-pasted and
-verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck8-n8&audience=only_paid&free_preview=false&freemail=)), and question N6 (23 safety-line and caveat cuts). N5 (the meme) he
-decides when he gets the clipboard helper for his post.
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): question N7 (the Milindapañha), and his paste with the clipboard
+helper (sent in chat on 2026-10-24; N5, the meme, he decides as he pastes).
 
-Pull request 232 (https://github.com/u-dont-existDOTcom/joel-articles/pull/232), this turn's work for all three lanes, on `claude/community-joel-1018`; his to merge.
+Pull request 236 (https://github.com/u-dont-existDOTcom/joel-articles/pull/236), this turn's work for all three lanes,
+on `claude/community-joel-1018`; his to merge. Pull request 232 was merged on 2026-10-24.
 
 ## Where it stands
 
@@ -181,7 +181,45 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23, after Joel's message of 23:28 UTC: Nibbāna's eighth recheck waits on his Brave; N6 on him)
+## Next step (2026-10-24, after Joel's message of 19:52 UTC: Nibbāna's helper is with him; N7 on him)
+
+His message, word for word: `fix-20261024/joel-20261024-1952-message.txt` (also in Nibbāna's `fix-20261024/` and the
+community article's `candidate/joel-20261024/`): the eighth recheck's link ("altho i don't think it was worth doing that
+recheck since now we are making lots of edits to it"), his N6 picks with a note on 5, his GPT edit of Nibbāna ("i had GPT
+apply all the nibbana cuts for you to save your credits, and it also fixed some other ai tells it saw, i checked the output
+and it's 100% human on pangram. so save the result", three attachments in Nibbāna's `fix-20261024/gpt/`), and the
+community article's 64. Done (in pull request 236):
+- **Recheck 8 read** (`articles/nibbana/humanize/fix-20261023/recheck8/`: WINDOWS.txt a5e11c2c..., META.json, RESULT.json,
+  SCORE.md): Human Written, 0 of 110 windows AI; forecast 55 of 55 (Brier 0.003); NB-whole#30 a miss (I called AI at 0.24,
+  explained as pessimism).
+- **His GPT edit saved as batch n8** (`fix-20261024/n8/gpt_2024.py`, called by `n1/install_n1.py` after n7; record
+  `EDITS-n8.json`): 40 paragraphs (his 13 N6 cuts, GPT's edits in 23, its ten style edits), put into his editor HTML word by
+  word so links and italics stay; `gpt/diff_gpt.py` lines GPT's text up with ours, and `gpt/REVIEW.md` is my read of every
+  change (each keeps his meaning). N6's answers item by item: `fix-20261024/N6-ANSWERS.json`.
+- **Tag order fixed:** `fix-20261023/n6/emulate_n6.py`'s `_Inline` had written four of his `<a><em>` as `<em><a>`; it now
+  keeps the order tags opened in (as `tools/humanization/html_text_edit.py`, the shared version, with a test), and the
+  working copy was rebuilt: same text, same tags, his order.
+- **The clipboard helper for his post** (`articles/nibbana/exports/`, built by `fix-20261024/helper/make_helper.py` with the
+  canonical generator, against recheck 8's helper): `COPY-TO-SUBSTACK.html` df57b0be..., four parts and three manual video
+  steps, verify and the interaction test pass, all 40 n8 paragraphs in their new form; `HELPER-RECEIPT-20261024.json`.
+  Sent to him in chat. His steps are on the questions page: replace the text between his videos part by part (the videos
+  stay), the gallery near the end comes in as single pictures with its caption as a line, and N5 he decides as he pastes.
+- **N7** (new): "The later Buddhist philosopher Milindapañha" (a book); my pick A, "The later Buddhist text
+  *Milindapañha*".
+- **Lessons** E256 (a recheck waits for answers that would change the text) and E257 (a qualifier that carries a point
+  stays; his N6 and 64 answers are examples in `tools/humanization/caveat_examples.json`); E258 and E259 are the community
+  lane's (the After shows the change; "isn't proof of / doesn't prove").
+- Delegations: none.
+
+Next:
+1. **When Joel says he has pasted**: read his post's text (the published page or his editor HTML) against the working
+   copy's text, and put N7's word in if he answered. If he changed the post on Substack after 2026-10-22, merge his edits
+   with `tools/humanization/substack_merge.py` before he pastes anything.
+2. **The guide's clarity check, all four parts** (clarity, the reader's edit, caveats, repeats; `docs/CLARITY-READ.md`), as
+   in the step below. Load the InnerSignal therapy protocol in the main thread first (`load_therapy_protocol`), since the
+   guide touches inner-child work; it can't be loaded from a subagent.
+
+## Earlier next step (2026-10-23, after Joel's message of 23:28 UTC: Nibbāna's eighth recheck waits on his Brave; N6 on him)
 
 His message, word for word: `fix-20261023/joel-20261023-2328-message.txt` (also in Nibbāna's `fix-20261023/`): "recheck
 nibbana" with recheck 7's link. Done:
