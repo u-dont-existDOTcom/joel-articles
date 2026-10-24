@@ -1,5 +1,5 @@
 {
- "about": "Examples for the caveat read (part 3 of docs/CLARITY-READ.md, tools/humanization/clarity_read.py make --kind caveats). Joel, 2026-10-23 17:53 UTC, on the Inner Child guide (its answer 95.6 B): \"that's what we need to pluck out of the whole guide, all the extra extra ridiculous safety language which gets repeated everywhere. want to look at the books we have as examples, especially ones made for public audiences\". That lane's safety-language pass (turn 102, articles/inner-child-therapy/experiments/t102-safety/ on its branch) proposed 26 cuts; his message of 2026-10-23 22:29 UTC: \"just cut out a ton of obnoxious safety language and caveats from inner child article\", and the same question for the Nibbāna, community and hypnosis articles. The examples below are cuts from that pass, and the kinds it kept. Add his answers here as he gives them, with his choice.",
+ "about": "Examples for the caveat read (part 3 of docs/CLARITY-READ.md, tools/humanization/clarity_read.py make --kind caveats). Joel, 2026-10-23 17:53 UTC, on the Inner Child guide (its answer 95.6 B): \"that's what we need to pluck out of the whole guide, all the extra extra ridiculous safety language which gets repeated everywhere. want to look at the books we have as examples, especially ones made for public audiences\". That lane's safety-language pass (turn 102, articles/inner-child-therapy/experiments/t102-safety/ on its branch) proposed 26 cuts; his message of 2026-10-23 22:29 UTC: \"just cut out a ton of obnoxious safety language and caveats from inner child article\", and the same question for the Nibbāna, community and hypnosis articles. The examples below are cuts from that pass, and the kinds it kept. Add his answers here as he gives them, with his choice. His answers of 2026-10-24 19:52 UTC (Nibbāna's N6, the community article's 64) are in too: the three cuts he took where my pick was to keep (his own lines, which I'd kept because they were his joke or his lead-in), and the kinds of line he kept where my pick was to cut, with his reasons (lesson E257 in docs/HUMANIZATION-GATE.md).",
  "books": "How public books place safety (that lane's BOOKS.md, from Lucia Capacchione's Recovery of Your Inner Child and Tara Bennett-Goleman's Emotional Alchemy): one front note, one note on pace and stopping, one section on choosing helpers; inside the exercises, a caution only where it changes what you do, said once; \"safe\" as a setting (\"find a quiet, safe place\"), not as a warning.",
  "examples": [
   {
@@ -55,12 +55,35 @@
    "cut": "(I'm only borrowing the word ...)",
    "context": "after he uses the Tibetan word \"bardo\"",
    "why": "Borrowing a word asks nobody to believe anything."
+  },
+  {
+   "kind": "REASSURANCE",
+   "cut": "As you can see this is going to be a little abstract, but",
+   "context": "before \"I'll try in the next few sections to explain what I think the experience is showing\" (Nibbāna)",
+   "why": "He cut it (N6.13) where I'd kept it as his lead-in: it warns about the text instead of saying anything, and the promise after it stays."
+  },
+  {
+   "kind": "SAID-AGAIN",
+   "cut": "jokingly",
+   "context": "\"At something I would [jokingly] call 5% nibbāna\", in a section that has already called its percentages playful (Nibbāna)",
+   "why": "He cut it (N6.14) where I'd kept it as his own word: it explains a joke the section already flagged."
+  },
+  {
+   "kind": "DISCLAIMER",
+   "cut": "That's my own CYA showing. 😇",
+   "context": "after his advice to pull over and his joke about Buddhist drivers who meditated too hard (Nibbāna)",
+   "why": "He cut it (N6.23) where I'd kept it as his joke: a line that comments on his own caution adds nothing to the caution."
   }
  ],
  "kept": [
   "a caution that changes what you do at that step (don't use a photo to confirm a memory; move away from the open window and get outside support)",
   "a section whose subject is safety or crisis (If You Want to Kill Yourself; When the Present-Day Adult Is Dangerous)",
   "his own stop rule told as his story (the crying song: \"turn the song off for tonight\")",
+  "an objection any reader would raise right there, answered where it comes up (Nibbāna N6.5, \"though the suttas can also be read with bias\"; Joel: \"it is an immediate question any reader would ask, like wtf u care about the 'suttas' how u know they are perfect?\")",
+  "a line that says where a rule stops working, which is not a takeback of the rule (community 64.3, \"Although obviously that information can come out regardless when people are in close quarters.\"; Joel: \"it doesn't take back a rule, it explains the limits of relying on it\")",
+  "a line that adds a point while it softens (community 64.8, \"I'm sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well.\"; Joel: \"it's not just softening, it's actually hardening at the same time showing that their wisdom is always changing as well\")",
+  "context that keeps a group from being demonized (community 64.20, \"but that's something which varies a lot in every society also\", after the physical discipline reported in a raided community; Joel: \"otherwise they can be too easily demonized and communities in general can be demonized as potentially abusing children as if children aren't routinely abused anyway\")",
+  "the other side of something he praises (community 64.28, Teranga as \"part and parcel of the whole culture of watchfulness, witchcraft, social conservatism, bureaucracy and all the usual complications\"; Joel: \"it's important to give a full picture\")",
   "a line that tells the reader something real, which he kept when readers flagged it on 2026-10-24: a further understanding (\"although even then, we are always learning from what life throws at us\": \"it isn't a hedge, it's a further understanding\"), a word that pins down a vague one (\", especially if getting your way would hurt you or somebody else\" after \"doesn't require giving into it\"), an objection people really raise (\"I'm not pushing \"toxic positivity.\"\": \"it's an objection that so many people have raised to me\"), a movement the article could be lumped in with (\"I'm certainly not preaching \"prosperity philosophy,\"\"), a takeback on purpose because readers have their own ideas (\"or at least know that they are a double-edged sword\": \"people may not just listen to my commands\"), a condition that is the point (\"when feasible\": \"choose ur battles\"), and a line about a practice that cutting would make disrespectful"
  ],
  "_kept_note": "The last kept entry is from Joel's answers of 2026-10-24 22:55 UTC (experiments/t106-answers/LESSONS.md, E258 (Inner Child)): \"you should understand the diff between real info being conveyed and a generic takeback\"."

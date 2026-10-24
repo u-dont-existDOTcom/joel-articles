@@ -206,7 +206,7 @@ def main(argv):
         return 1
     bad = old_number_refs(md)
     if bad:
-        print('refused (E257): these lines point to a decided question by its number alone; say what it was:\n  '
+        print('refused (E257, Inner Child): these lines point to a decided question by its number alone; say what it was:\n  '
               + '\n  '.join(bad), file=sys.stderr)
         return 1
     out.write_text(render(md), encoding='utf-8')

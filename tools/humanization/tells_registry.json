@@ -2461,6 +2461,23 @@
    "reason": "Whether an image is the writer's own or a neat, self-contained insight that closes the sentence needs a reader: an unusual word doesn't make it human. GPT read this one as AI-polished (a neatly constructed metaphor, generic therapeutic wisdom, a polished ending), and no pattern separates the two."
   },
   {
+   "id": "W96",
+   "tell": "\"isn't proof of\" and \"doesn't prove\" (the community article's \"Presence of one of these alone isn't proof of abuse, but\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/intentional-communities/candidate/joel-20261024/joel-20261024-1952-message.txt",
+     "quote": "i think this is another high freq AI pattern to be aware of: \"isn't proof of/doesn't prove\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"isn't proof of\" now fails like \"not proof that\", and \"doesn't prove\" fails too"
+    }
+   ],
+   "rule": "O43",
+   "example": "Presence of one of these alone isn't proof of abuse, but if several are present, they are worth paying attention to."
+  },
+  {
    "id": "J62",
    "tell": "conditions stacked onto one instruction until it reads like a checklist (\"Get professional help right away if any of this is severe or risky, and especially if it keeps going or comes back while you're sober\")",
    "kind": "judgment",

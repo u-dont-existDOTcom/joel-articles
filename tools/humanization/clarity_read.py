@@ -494,6 +494,36 @@ KINDS = {'REPEAT': 'a repeat', 'SAID-AGAIN': 'said already', 'BLANKET': 'a blank
          'DISCLAIMER': 'a disclaimer', 'TRIM': 'a trim you asked for'}
 
 
+HANGING = re.compile(r'\s*(?:[–—]|--|,|;|:)\s*$')   # a dash or comma the cut leaves with nothing after it
+SENTENCE_END = re.compile(r'[.!?…][”"’\')\]]*$')
+
+
+def cut_text(line, quote):
+    """LINE with QUOTE cut, as it will read. A dash, comma or colon left hanging before the punctuation after the cut goes
+    with it, a comma left at a sentence's start goes, and when the cut took a sentence's first words the next word gets its
+    capital. Joel, 2026-10-24 19:52 UTC, on the community caveats (64.14): "you should make sure in future that instead of
+    telling me "the sentence then starts with.." you actually make that change in the "after" version". The Nibbāna
+    caveats' 5 had shown "almost never discuss the suttas –." for the same reason."""
+    i = line.index(quote)
+    b, r = line[:i].rstrip(), line[i + len(quote):].lstrip()
+    if (not r or r[0] in '.,;:!?)]') and HANGING.search(b):
+        b = HANGING.sub('', b)
+    starts = not b or SENTENCE_END.search(b)
+    if starts and r[:1] in (',', ';', ':'):
+        r = r[1:].lstrip()
+    if starts:
+        m = re.match(r'([“"‘\'(\[]*)([^\W\d_])', r)
+        if m and m.group(2).islower():
+            r = r[:m.start(2)] + m.group(2).upper() + r[m.end(2):]
+    if not b or not r:
+        out = b or r
+    elif r[0] in '.,;:!?)]”’':
+        out = b + r
+    else:
+        out = b + ' ' + r
+    return re.sub(r'\s+([.,;:!?)])', r'\1', re.sub(r'\(\s*\)', '', re.sub(r' {2,}', ' ', out))).strip()
+
+
 def cut_paragraph(text, quote):
     """(the paragraph with the cut struck through, the paragraph after the cut) from the reading text."""
     line = next((l for l in text.split('\n') if quote in l), None)
@@ -504,9 +534,7 @@ def cut_paragraph(text, quote):
         i = line.translate(STRAIGHT).index(quote.translate(STRAIGHT))
         quote = line[i:i + len(quote)]
     struck = line.replace(quote, '~~' + quote + '~~', 1)
-    after = line.replace(quote, '', 1)
-    after = re.sub(r'\s+([.,;:!?)])', r'\1', re.sub(r'\(\s*\)', '', re.sub(r' {2,}', ' ', after))).strip()
-    return struck, after
+    return struck, cut_text(line, quote)
 
 
 def caveat_page(items, text, title=None, intro=None):

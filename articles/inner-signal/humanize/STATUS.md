@@ -1,5 +1,24 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-24, after Joel's message of 19:52 UTC (Nibbāna: recheck 8 read, his GPT edit saved, the clipboard helper; N7)
+
+**Nibbāna's eighth recheck** ([his link](https://www.pangram.com/feed/355a29d0-0ea5-4070-a7d2-731806c645f0)): Human
+Written, 0 of 110 windows AI. Forecast 55 of 55 (Brier 0.003); NB-whole#30 a miss (AI called at 0.24; pessimism). His
+note: "altho i don't think it was worth doing that recheck since now we are making lots of edits to it" (E256).
+
+**His GPT edit saved** as batch n8 (`articles/nibbana/humanize/fix-20261024/n8/`): 40 paragraphs, his 13 N6 cuts, GPT's
+edits in 23 and its ten style edits, put into his editor HTML word by word; my read of each change
+(`fix-20261024/gpt/REVIEW.md`) finds each keeps his meaning. N6 answered: 13 cut, 10 kept, four against my pick (5 kept;
+13, 14 and 23 cut), now caveat examples (E257). The batch class's tag order is fixed (four `<a><em>` had come out
+`<em><a>`) and the working copy rebuilt.
+
+**The clipboard helper for his post** (`articles/nibbana/exports/COPY-TO-SUBSTACK.html`, df57b0be...): the canonical
+generator against recheck 8's helper, four parts and three video steps, verify and the interaction test pass, the 40 n8
+paragraphs in it; receipt `HELPER-RECEIPT-20261024.json`; sent in chat. N7 (the Milindapañha) asked; N5 he decides as he
+pastes.
+
+Predictions: NB-whole#30 scored (above). Delegations: none.
+
 ## 2026-10-23, after Joel's message of 23:28 UTC (Nibbāna's seventh recheck read; batch n7; the eighth recheck pasted)
 
 **Nibbāna's seventh recheck** ([his link](https://www.pangram.com/feed/31fd6bda-482c-4991-a5ef-d586de30aecb)): Human

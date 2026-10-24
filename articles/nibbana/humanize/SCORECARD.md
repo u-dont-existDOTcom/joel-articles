@@ -7,7 +7,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/nibbana/hum
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 7 | 7 (100%) | 100% | 0% | 0% | 0.016 (base 0.000, 7) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
 
@@ -36,24 +36,24 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 7 | 7 (100%) | 100% | 0% | 0% | 0.016 (base 0.000, 7) |
-| the latest 100 | 7 | 7 (100%) | 100% | 0% | 0% | 0.016 (base 0.000, 7) |
-| all | 7 | 7 (100%) | 100% | 0% | 0% | 0.016 (base 0.000, 7) |
+| the latest 50 | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
+| the latest 100 | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
+| all | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 7 | 7 (100%) | 100% | 0% | 0% | 0.016 (base 0.000, 7) |
+| article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 6 | 0.06 | 0% |
-| 0.2 to 0.4 | 1 | 0.28 | 0% |
+| 0.2 to 0.4 | 2 | 0.26 | 50% |
 
-## Misses since the ledger (11)
+## Misses since the ledger (12)
 
 | cause | misses |
 |---|---|
@@ -62,6 +62,7 @@ Calibration:
 | underrated a plain split | 1 |
 | a neutral signpost reads AI where his casual frame read Human | 1 |
 | a misread page: the caution never read Human | 1 |
+| pessimism | 1 |
 
 The latest:
 
@@ -78,6 +79,7 @@ The latest:
 | [n1_driving_t2](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_driving_t2) | NB-P266, 2 | Human | AI or mixed | a paragraph alone is harsher than the article |
 | [n1_science_t2](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_science_t2) | NB-P237, 2 | Human | AI or mixed | a neutral signpost reads AI where his casual frame read Human |
 | [n1_driving_t3](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/n1/API-CHECKS.md#n1_driving_t3) | NB-P266, 3 | Human | AI or mixed | a misread page: the caution never read Human |
+| [NB-whole-n8](https://www.pangram.com/feed/355a29d0-0ea5-4070-a7d2-731806c645f0) | NB-whole, 8 | AI | Human | pessimism |
 
 ## Lineages still open (tries used of the cap)
 
@@ -88,5 +90,4 @@ The latest:
 | NB-P230 | paragraph | 3 of 6 | AI |
 | NB-P237 | paragraph | 2 of 6 | AI |
 | NB-P266 | pair | 3 of 6 | Mixed |
-| NB-whole | article | 8 of unlimited (Substack) | pending |
 
