@@ -2,14 +2,14 @@
  "format": "substack-helper-delivery-receipt-v1",
  "protocol": "docs/SUBSTACK-HELPER-DELIVERY-GATE.md",
  "article": "nibbana",
- "why": "Joel, 2026-10-24 19:52 UTC: his GPT edit saved (batch n8, \"so save the result\"); the eighth recheck read 100% Human (feed 355a29d0); N5 he decides at this helper (\"i'll look at it later when youu give me the clipboard helper\", 2026-10-23 22:29 UTC)",
+ "why": "Joel, 2026-10-24 19:52 UTC: his GPT edit saved (batch n8, \"so save the result\"); the eighth recheck read 100% Human (feed 355a29d0); N5 he decides at this helper (\"i'll look at it later when youu give me the clipboard helper\", 2026-10-23 22:29 UTC); rebuilt after his 23:40 UTC answer to N7 (\"n7a\", batch n9)",
  "archival_source": {
   "path": "articles/nibbana/humanize/HUMANIZED-SO-FAR.html",
-  "sha256": "f31a62f110da97c0a2bdb8205ad005d9aadb96f5e4ede8ba50f33bf282c9e35b",
-  "from": "his editor HTML of 2026-10-22 (humanize/source/substack-editor-20261022.html) with every batch's text, n1 to n8 (fix-20261023/n1/install_n1.py)"
+  "sha256": "dfc9a0189f43ad2764dd1aa549ff2335fa6d3ea2b5119184b31b79b26160cde4",
+  "from": "his editor HTML of 2026-10-22 (humanize/source/substack-editor-20261022.html) with every batch's text, n1 to n9 (fix-20261023/n1/install_n1.py)"
  },
  "editor_body": {
-  "sha256": "235924b5c4060209b3da4b5357ccafc31e692765d5969f8cbb1474179eb9ef5f",
+  "sha256": "1b99fcf2d787ef63a2dd774c739f99d3412c9f99e3bdc0de6180751dc36a5d75",
   "boundary_mode": "substack-editor-root"
  },
  "canonical_generator": {
@@ -27,7 +27,7 @@
  },
  "helper": {
   "path": "articles/nibbana/exports/COPY-TO-SUBSTACK.html",
-  "sha256": "df57b0be83216a0fcb28432be1a08bcb876934d2b19a180b54d87e040958d738",
+  "sha256": "5444c9351dd7b5af5d1c2c8c7b84360735d51b9247ce9045bc89db57206bf071",
   "manifest_format": "joel-substack-transfer-helper-v4",
   "payload_mode": "ordered_segmented_rich_html_with_manual_native_video_insertion",
   "segment_count": 4,
@@ -45,7 +45,10 @@
   "paragraphs": 40,
   "new_text_found": 40,
   "old_text_found": 0,
-  "from": "fix-20261024/n8/EDITS-n8.json"
+  "from": "fix-20261024/n8/EDITS-n8.json",
+  "later_answers": [
+   "N7 A"
+  ]
  },
  "interaction_test": {
   "path": "articles/nibbana/exports/HELPER-INTERACTION-20261024.json",

@@ -2,8 +2,8 @@
 
 ## Source fidelity
 
-- Archival source SHA-256: `f31a62f110da97c0a2bdb8205ad005d9aadb96f5e4ede8ba50f33bf282c9e35b`
-- Editor-body SHA-256: `235924b5c4060209b3da4b5357ccafc31e692765d5969f8cbb1474179eb9ef5f`
+- Archival source SHA-256: `dfc9a0189f43ad2764dd1aa549ff2335fa6d3ea2b5119184b31b79b26160cde4`
+- Editor-body SHA-256: `1b99fcf2d787ef63a2dd774c739f99d3412c9f99e3bdc0de6180751dc36a5d75`
 - Object count: 73
 - Finding: source identity recorded; this report does not alter archival HTML.
 
@@ -20,7 +20,7 @@
 | 1 | 0–59475 | no | `783d746821f3d96fcb3643af2f1cee5044a6950739224114e24546bcf5aba431` |
 | 2 | 63983–140952 | no | `fcca2c07440fb04ff672ce0ec8d9e2181fb67164e14d536ebd14207d1a90f188` |
 | 3 | 143188–184930 | no | `8c6a25087535b8562d558b8bb422bfc93330b8a682408cb4221dbdf8d691842f` |
-| 4 | 187171–386999 | no | `271da832c83f0cf818f309832bc8c9cd158976643d869b334c994ae931c65561` |
+| 4 | 187171–386992 | no | `86d66520b01be7bfd77514817f47653ced5a49c9e5dbf3e2fd96ab0bb6a4a81f` |
 
 ## Manual native steps
 

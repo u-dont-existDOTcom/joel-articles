@@ -238,6 +238,12 @@ def main():
         spec8.loader.exec_module(J8)
         work, rec8 = J8.apply(work)
         rec5e = rec5e + rec8
+    # Batch n9 (2026-10-24, his message of 23:40 UTC): his answer to N7 (../../fix-20261024/n9/answers_2340.py)
+    n9 = N.parents[1] / 'fix-20261024' / 'n9' / 'answers_2340.py'
+    if n9.exists():
+        spec9 = importlib.util.spec_from_file_location('answers_2340', n9)
+        J9 = importlib.util.module_from_spec(spec9); spec9.loader.exec_module(J9)
+        work, rec9 = J9.apply(work); rec5e = rec5e + rec9
     (H / 'HUMANIZED-SO-FAR.html').write_text(work, encoding='utf-8')
     (N / 'EDITS-n1.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes), %d of batch n3, %d of batch n4, %d of his N4 answers '

@@ -1,14 +1,14 @@
 {
   "format": "joel-substack-transfer-plan-v4",
   "source_file": "HUMANIZED-SO-FAR.html",
-  "source_sha256": "f31a62f110da97c0a2bdb8205ad005d9aadb96f5e4ede8ba50f33bf282c9e35b",
-  "editor_body_sha256": "235924b5c4060209b3da4b5357ccafc31e692765d5969f8cbb1474179eb9ef5f",
+  "source_sha256": "dfc9a0189f43ad2764dd1aa549ff2335fa6d3ea2b5119184b31b79b26160cde4",
+  "editor_body_sha256": "1b99fcf2d787ef63a2dd774c739f99d3412c9f99e3bdc0de6180751dc36a5d75",
   "editor_body_boundary": {
     "mode": "substack-editor-root",
     "outer_start": 0,
     "inner_start": 192,
-    "inner_end": 387191,
-    "outer_end": 387197
+    "inner_end": 387184,
+    "outer_end": 387190
   },
   "destination": "Substack editor",
   "browser": "Opera",
