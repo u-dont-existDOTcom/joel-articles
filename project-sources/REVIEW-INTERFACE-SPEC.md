@@ -225,3 +225,7 @@ Record the test path and limitation. Run `review_interface_browser_test.py` on t
 ## Delivery
 
 Do not render review HTML in chat. Provide files. Package substantial review families in one authoritative ZIP containing the candidate article, review file(s), immutable source comments, project state, changelog, README, manifest, checksums, and applicable ledgers/test reports. Follow `REVIEW-PACKAGE-REGRESSION.md`.
+
+## Readable native controls (owner correction, 2026-10-24)
+
+Every light review file, including small research questionnaires outside the full diff UI, embeds `project-sources/review-form-controls.css` or the same verified rules. The template embeds the asset. Foreground, background, WebKit text fill, caret, placeholders and native dropdown options are explicit; body color alone is insufficient. Preserve forced-colors accessibility. Generator selftest requires the asset markers; browser regression checks computed contrast with an actual typed comment under light/dark preferences and dark-root stress. Restore prior JSON answers before shipping a repaired form. A queued/unmerged documentation-only fix is not active in generators.
