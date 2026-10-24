@@ -771,6 +771,7 @@ def run_selftest(template_path: Path) -> int:
             "Keep", "Remove", "Brainstorm", "Humor", "Technical detail", "Length", "Bluntness",
             "Export JSON", "Export Markdown", "Copy JSON", "Copy Markdown", "localStorage",
             INTERFACE_FORMAT, "changedOnly", "commentOverlay", "rememberSelection", "selectionSnapshots",
+            "review-form-controls-v1", "color-scheme:only light", "-webkit-text-fill-color:#1f2937", "select option:checked",
         ]
         missing = [item for item in required if item not in document]
         cell_count = sum(1 for row in rows for side in ("old", "new") if row[side] is not None)

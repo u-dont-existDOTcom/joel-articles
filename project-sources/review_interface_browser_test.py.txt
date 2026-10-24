@@ -165,6 +165,21 @@ def loopback_url(server: http.server.ThreadingHTTPServer, root: Path, path: Path
     return f"http://127.0.0.1:{server.server_port}/{quote(rel)}"
 
 
+def check_review_control_contrast(page) -> dict[str, Any]:
+    return page.evaluate("""() => {
+      const lum=s=>{const v=s.match(/[\d.]+/g).slice(0,3).map(Number).map(x=>x/255).map(x=>x<=.04045?x/12.92:((x+.055)/1.055)**2.4);return v[0]*.2126+v[1]*.7152+v[2]*.0722;};
+      const ratio=(a,b)=>{const x=lum(a),y=lum(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);};
+      const bad=[];let count=0,min=100;
+      for(const el of document.querySelectorAll('textarea,select,option,optgroup,input[type=search],input[type=text]')){
+        const s=getComputedStyle(el);count++;
+        if(s.backgroundColor==='rgba(0, 0, 0, 0)'){bad.push({id:el.id,reason:'transparent field background'});continue;}
+        const colors=[s.color,s.webkitTextFillColor||s.color];
+        if(el.matches('input,textarea'))colors.push(s.caretColor,getComputedStyle(el,'::placeholder').color);
+        for(const color of colors){const r=ratio(color,s.backgroundColor);min=Math.min(min,r);if(r<4.5)bad.push({id:el.id,tag:el.tagName,color,bg:s.backgroundColor,contrast:r});}
+      }return {count,minContrast:min,bad};
+    }""")
+
+
 def run_browser_test(review: Path, article: Path | None, timeout_ms: int) -> dict[str, Any]:
     results: list[dict[str, Any]] = []
     console_errors: list[str] = []
@@ -282,6 +297,14 @@ def run_browser_test(review: Path, article: Path | None, timeout_ms: int) -> dic
         # Whole-cell comment lifecycle.
         page.locator(f"{cell_one} .comment-btn").click()
         page.locator("#commentText").fill("whole-cell comment")
+        stress = page.add_style_tag(content=':root{color-scheme:dark !important}')
+        for scheme in ("light", "dark"):
+            page.emulate_media(color_scheme=scheme)
+            contrast_report = check_review_control_contrast(page)
+            record(results, "typed text and native control contrast: " + scheme,
+                   "pass" if contrast_report["count"] > 0 and not contrast_report["bad"] else "fail", json.dumps(contrast_report))
+        stress.evaluate("el => el.remove()")
+        page.emulate_media(color_scheme="light")
         page.locator("#saveComment").click()
         saved = page.locator(cell_one).evaluate("el => el.classList.contains('has-comment')")
         page.locator(f"{cell_one} .comment-btn").click()
