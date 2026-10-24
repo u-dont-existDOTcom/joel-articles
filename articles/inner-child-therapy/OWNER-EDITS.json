@@ -242,10 +242,13 @@
    "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
    "waits_for": "Start With Whatever Showed Up",
    "must_contain": [
-    "## Start With Whatever Showed Up\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.",
+    "## Play Is Part of the Work\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.",
     "You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way."
    ],
-   "note": "2026-10-03 (turn 20): must_contain trimmed to P1's first two sentences, which are the same in Joel's P1; the rest of P1 is his and is checked in sws-p1-protective-part. 2026-10-18 (turn 71): split in two. \"Right before\" was where I put it when he said \"find where that is supposed to go\" (02:42); the restructure plan for his 2026-09-27 16:29 request (experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md, entry dissolve-three-functions) puts the guide's TF-U8 and TF-U9, the child's gifts and his post, \"with the parked pl/ork paragraph\", so that paragraph now sits between them. The pl/ork paragraph still opens the section and comes before \"I count that as pl/ork too\"."
+   "note": "2026-10-03 (turn 20): must_contain trimmed to P1's first two sentences, which are the same in Joel's P1; the rest of P1 is his and is checked in sws-p1-protective-part. 2026-10-18 (turn 71): split in two. \"Right before\" was where I put it when he said \"find where that is supposed to go\" (02:42); the restructure plan for his 2026-09-27 16:29 request (experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md, entry dissolve-three-functions) puts the guide's TF-U8 and TF-U9, the child's gifts and his post, \"with the parked pl/ork paragraph\", so that paragraph now sits between them. The pl/ork paragraph still opens the section and comes before \"I count that as pl/ork too\".",
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his E15 A: the pl/ork paragraph now opens \"Play Is Part of the Work\", and \"Start With Whatever Showed Up\" heads the how-to after it."
+   ]
   },
   {
    "id": "dissolve-three-functions",
@@ -489,7 +492,7 @@
   },
   {
    "id": "mpv-p5-joel",
-   "status": "applied",
+   "status": "superseded",
    "what": "P5 of Not Every Hero Wears A Cape is Joel's final (\"Protector\" capitalized, as elsewhere in the article).",
    "joel": "2026-09-30 03:29 UTC: \"for P5 the first \\\"it\\\" is unclear referent. I assume you mean the protector action, not the difficult conversation. You explained in the next sentence. here's hum med conf final p5: After the day, look at what actually happened. If you did the protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic. [...] Hey, we've all been there. 🤗\"",
    "must_contain": [
@@ -502,7 +505,8 @@
    ],
    "note": "2026-10-18 (turn 73): his 55, 9 of 21:58 UTC (\"What i meant to say there was \"healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first.\"\") in place of \"because the process is dynamic\".",
    "history": [
-    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023)."
+    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): 102.2 A put d3 in for this paragraph (entry joel-106-20261024-982)."
    ]
   },
   {
@@ -722,10 +726,11 @@
    "joel": "2026-10-01 15:59 UTC: \"for P11, this one is human and works better\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
-    "Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that."
+    "Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year."
    ],
    "history": [
-    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023)."
+    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his E10 A cut the last sentence."
    ]
   },
   {
@@ -1178,7 +1183,7 @@
   },
   {
    "id": "wcs-h3",
-   "status": "claim",
+   "status": "superseded",
    "what": "Claim check: the guide's h3 When to Change the Strategy (r4) is installed after Hear the Protective Part First, redone on turn 30 in five paragraphs: P1 find what exactly is in the way and work on that one thing instead of giving up on everything; P2 Joel's, the comfort example (some people try sweeter words, then throw the baby out with the bathwater; borrow the grown-up first); P3 match the claim to the duration (PGQ-005); P4 how many tries, the reasons to change course, a protective part's \"nope\" heard out first, and Joel's three sentences; P5 the exercise goes well and the week doesn't change (PGQ-013) with its limits. Turn 31: Joel's P1 and P2 fixes; P3 without clock times; P4's protective \"no\" counts; P5 without the weekday, the first-person first guess or \"five percent\". Turn 90: P3 reworked for 4.1 (a9); the exact string is the current one.",
    "joel": "2026-10-04 03:58 UTC: \"continue\"; 2026-10-06 19:04 UTC: \"your P1 is missing most of the actual meaning of the original. The original is asking to see what exactly is blocking rather than giving up on everything.\"; \"P3 honestly looks like it could be cut.\"; 2026-10-07 01:09 UTC: \"you should change \"getting ready to,\" to getting ready,\"\" and his P2",
    "where": "When the Adult Voice Feels Fake",
@@ -1202,12 +1207,13 @@
    "note": "2026-10-18 (turn 71): P5's first sentence is \"Sometimes the session itself goes really well.\" for \"Sometimes it's the exercise that works.\" (a cold read: works at what?; my sentence, round t71xxx). 2026-10-18 (turn 72): \"and once isn't proof you've got it all down\" is out of P5 (the filler sweep's 12; the hedge he named on 2026-10-18 19:06, O43), so the check quotes P5 without it.",
    "updated": "2026-10-22 turn 87: the heading before it is Hear the Guard First (77.1 A)",
    "history": [
-    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023)."
+    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
    "id": "wcs-p1-what-is-blocking",
-   "status": "applied",
+   "status": "superseded",
    "what": "When to Change the Strategy P1 says the guide's main instruction outright (find what exactly is in the way, work on that one thing instead of giving up on everything); turn 29's flipped comfort question is gone, and the example says \"trying to comfort\".",
    "joel": "2026-10-06 19:04 UTC: \"The original is asking to see what exactly is blocking rather than giving up on everything.\" and \"why would it be comforting if adult was not there?\"",
    "where": "When the Adult Voice Feels Fake",
@@ -1218,11 +1224,14 @@
    ],
    "must_not_contain": [
     "And if it was comforting your little one, was the loving grown-up really there?"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
    "id": "wcs-p4-joel-ending",
-   "status": "applied",
+   "status": "superseded",
    "what": "When to Change the Strategy P4 ends with Joel's three sentences, word for word, in place of turn 29's last two (\"…I think you've learned something real about it. Something with clearly better research behind it is worth switching for too.\").",
    "joel": "2026-10-06 19:04 UTC: \"where di that come from about better research behind it?\" and his replacement",
    "where": "When the Adult Voice Feels Fake",
@@ -1232,6 +1241,9 @@
    "must_not_contain": [
     "clearly better research",
     "I think you've learned something real about it"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
@@ -1261,7 +1273,7 @@
   },
   {
    "id": "pgq-005-duration",
-   "status": "claim",
+   "status": "superseded",
    "what": "Claim check: Joel's update queue item PGQ-005 (match the claim to the duration; brief relief then recurrence is brief relief, not proof it's solved or that the exercise caused it; a bounded note; tracking isn't another checking ritual) is in When to Change the Strategy P3. The last point leans on When Healing Turns Into Checking, which already says it.",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
    "where": "When the Adult Voice Feels Fake",
@@ -1269,11 +1281,14 @@
     "A few hours of feeling lighter, with the old feeling back the same day, is a few hours of relief.",
     "I just wouldn't call the problem solved from it, or give the exercise all the credit",
     "and then leave it alone."
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
    "id": "pgq-013-transfer",
-   "status": "claim",
+   "status": "superseded",
    "what": "Claim check: Joel's update queue item PGQ-013 (the exercise goes well and ordinary life doesn't change: not proof it failed, not a reason to go deeper; carry a small piece of what the grown-up did into ordinary life; one small act can teach more than more meditations; no homework after every session; one act isn't proof of having it down) is in When to Change the Strategy P5. Its \"review without judging your worth\" is Not Every Hero's \"After the day, look at what actually happened… It doesn't mean failure\".",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
    "where": "When the Adult Voice Feels Fake",
@@ -1285,12 +1300,13 @@
    ],
    "note": "2026-10-18 (turn 71): P5's first sentence is \"Sometimes the session itself goes really well.\" for \"Sometimes it's the exercise that works.\" (a cold read: works at what?; my sentence, round t71xxx). 2026-10-18 (turn 72): \"and once isn't proof you've got it all down\" is out of P5 (the filler sweep's 12; the hedge he named on 2026-10-18 19:06, O43), so the check quotes P5 without it.",
    "history": [
-    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023)."
+    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
    "id": "five-percent-question",
-   "status": "applied",
+   "status": "superseded",
    "what": "Joel answered: \"five percent\" may stay but reads a bit AI, so P5 says \"I'd try a tiny bit of it out here\". (Asked on turn 30: the queue's PGQ-013 says \"five percent is enough\", and on 2026-09-27 he had replaced the Apprentice's \"your five percent\" with \"good enough for a start\".)",
    "joel": "2026-10-07 01:09 UTC: \"it's ok to say 5% is enough altho i feel it's a bit ai, like AI wants to put concrete numbers on stuff all the time, then people are wondering \"how much is 5%?\"\"",
    "where": "When the Adult Voice Feels Fake",
@@ -1299,6 +1315,9 @@
    ],
    "must_not_contain": [
     "five percent of it"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
@@ -1317,7 +1336,7 @@
   },
   {
    "id": "wcs-p1-getting-ready",
-   "status": "applied",
+   "status": "superseded",
    "what": "When to Change the Strategy P1: \"getting ready,\" for \"getting ready to,\".",
    "joel": "2026-10-07 01:09 UTC: \"you should change \"getting ready to,\" to getting ready,\"\"",
    "where": "When the Adult Voice Feels Fake",
@@ -1326,11 +1345,14 @@
    ],
    "must_not_contain": [
     "getting ready to, which"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
    "id": "wcs-p2-joel",
-   "status": "applied",
+   "status": "superseded",
    "what": "When to Change the Strategy P2 is Joel's, word for word, in place of mine (whose \"I'd probably want to fix it by saying sweeter and sweeter things, which won't work\" contradicted itself).",
    "joel": "2026-10-07 01:09 UTC: \"this part is contradictory\" … \"change to this, it's human on pangram\"",
    "where": "When the Adult Voice Feels Fake",
@@ -1339,6 +1361,9 @@
    ],
    "must_not_contain": [
     "I'd probably want to fix it by saying sweeter and sweeter things"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own When to Change the Strategy, word for word, replaced the section (entry joel-106-20261024-sections). Of the guide points here, his P3 keeps that relief isn't proof of a deeper fix and that the benefit should carry into regular life (the texting example); \"not a reason to go deeper\" and \"one small act teaches more than more meditations\" went with 98.7 as its own paragraph."
    ]
   },
   {
@@ -1718,7 +1743,10 @@
    "joel": "2026-10-11 21:10 UTC: \"another time also i learned mixing acacia confusa with mimosa hostilis is very dangerous. put that in there also.\"",
    "where": "When the Urge to Escape Arrives",
    "must_contain": [
-    "mixing acacia confusa with mimosa hostilis is very dangerous"
+    "mixing acacia confusa with mimosa hostilis is very destabilizing and challenging"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H23 merge put the warning in one sentence of his."
    ]
   },
   {
@@ -1811,11 +1839,14 @@
    "joel": "2026-10-11 23:33 UTC: \"c. explained at ayasafety.u-dont-exist.com a bit : Mixing Mimosa hostilis with Acacia confusa: This is a dangerous ayahuasca admixture combination which I have played around with numerous times. I did get it to work well with my [ultimate psychedelic recipe](http://soma.u-dont-exist.com/), but I would never recommend anyone risk it, as it is highly destabilizing and challenging.\"",
    "where": "When the Urge to Escape Arrives",
    "must_contain": [
-    "highly destabilizing and challenging"
+    "very destabilizing and challenging, but excellent if you want to know how it feels to be painfully autistic + schizo!"
    ],
    "must_not_contain": [
     "ultimate psychedelic recipe",
     "soma.u-dont-exist"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H23 merge: \"I also learned that mixing acacia confusa with mimosa hostilis is very destabilizing and challenging, but excellent if you want to know how it feels to be painfully autistic + schizo!\" in place of the two sentences."
    ]
   },
   {
@@ -2399,7 +2430,10 @@
    "joel": "2026-10-17 14:01 UTC: \"added a marching order break that sounds a bit human, now it passes\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "Timing Is Individual",
    "must_contain_exact": [
-    "Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide."
+    "Most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide."
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H32 A cut \"Timing is different for everyone, but\"."
    ]
   },
   {
@@ -2413,8 +2447,8 @@
    ],
    "must_contain_exact": [
     "If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent. Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up.",
-    "While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then (\"You hated that coat\"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up, which is also completely OK. Ask what your little one needs from you now, and do a bit of it.",
-    "We don't need to ask it leading questions, like \"Who abused me & how?\" or \"What memory is my body hiding?\" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions, so we gotta be careful about that. Look at this study, for example, where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.",
+    "While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then (\"You hated that coat\"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up. Ask what your little one needs from you now, and do a bit of it.",
+    "We don't need to ask it leading questions, like \"Who abused me & how?\" or \"What memory is my body hiding?\" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions. Look at this study, for example, where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.",
     "A photo is just one moment that somebody picked and framed... not necessarily representative. Flipping thru an album may give different jolts in your body.",
     "If you start to suspect someone of something serious, like abusing you, please don't confront or accuse anyone based only on what came up here. You might be looking at the photo thinking, \"That would explain so much.\" Journal what came up and how it came up, and see if you can get support from someone level-headed who won't lead you toward an answer.",
     "Put the photo back in its drawer when you're finished. If it starts tugging at you, so you keep going back to search it or you need to know for sure, or you're getting overwhelmed, take a break from it right then. Settle yourself in the present to close out properly. Re-evaluation counseling always ends on this \"Present Time\" reminder. Can be as simple and silly as \"Oh, Today is Monday, my favorite day of the week!\""
@@ -2427,6 +2461,10 @@
      "text": "Look at this study, for example",
      "url": "https://link.springer.com/article/10.3758/BF03196318"
     }
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H17 A.",
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H18 A."
    ]
   },
   {
@@ -2460,7 +2498,10 @@
    "where": "Simple Practices; If You Want to Kill Yourself",
    "must_contain_exact": [
     "One punch there hurts a lot, as I sadly learned while getting beaten up every day at kindergarten recess by a gang organized by my best friend. Can you believe it?",
-    "My father used to tell suicidal people, \"Oh, you want to kill yourself? That's wonderful. Now you can change what you've always been too afraid to change in your life, and then see if you still want to end it!\" His point wasn't that dying is wonderful."
+    "My father used to tell suicidal people, “Oh, you want to kill yourself? That’s wonderful! Now you can change what you’ve always been too afraid to change in your life, and then see if you still want to end it!”"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own crisis stretch, word for word, has his father's line as he wrote it now, without \"His point wasn't that dying is wonderful.\""
    ]
   },
   {
@@ -2480,7 +2521,7 @@
   },
   {
    "id": "speak-toward-joel-20261017-2259",
-   "status": "applied",
+   "status": "superseded",
    "what": "Speak Toward What You Are Building P1, P2 and P5 are Joel's, word for word (question 44), with one obvious typo fixed: \"lilies\" for his \"lillies\".",
    "joel": "2026-10-17 22:59 UTC: P1 \"now human high conf on pangram\"; P2 \"it's better this way and human med conf\"; P5 \"this is human\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "Speak Toward What You Are Building",
@@ -2493,7 +2534,10 @@
     "lillies"
    ],
    "note": "2026-10-18 (turn 73): his 55, 17, A of 21:58 UTC, \"the original problem\" for \"the original question\".",
-   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)",
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own Speak Toward What You Are Building, word for word, replaced P1 and P2 (entry joel-106-20261024-sections)."
+   ]
   },
   {
    "id": "first-person-back-20261017-2259",
@@ -2906,12 +2950,13 @@
    "what": "The turn-78 repeats check's cuts, both in my drafts, each a repeat of the paragraph before it in the same section (DEDUP-PASS-20261021.md): How to Forgive Without Forgetting's self-forgiveness paragraph loses its three closing lines on timing, forgiving too soon and resentment; If You Want to Kill Yourself's father paragraph loses \", and people around to help redirect the path\".",
    "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"do you think dedup is really done? def don't want to remove the sections that i actually wrote, but there might be duplication in the ai-humanized sections\"",
    "where": "How to Forgive Without Forgetting, P4; If You Want to Kill Yourself, the father paragraph",
-   "must_contain": [
-    "Look at that life you've been afraid to change while you still have a human body."
-   ],
+   "must_contain": [],
    "must_not_contain": [
     "Forgive too soon and it's only a show",
     "and people around to help redirect the path"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own crisis stretch ends the father paragraph differently, so its old last line is no longer required."
    ]
   },
   {
@@ -2989,7 +3034,7 @@
     "Welcome, lovey bunnies!",
     "Here's the idea behind Inner Child Reparenting, in a nutshell:",
     "Growing up, all of us picked up automatic ways of understanding situations we find ourselves in, reacting based on those understandings, and then treating ourselves partly based on how we happened to handle things. Some of those patterns are wise in general, although even then, we are always learning from what life throws at us. Others of those patterns were built for a crisis that’s long over, and some just seem to make every situation worse. ",
-    "Reparenting means consciously evolving and molding an Inner Adult inside you, comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide. This chosen Inner Adult super hero gets into a real, loving relationship with the little one you still carry. That grown-up notices the old patterns and practices better ways of responding. At first, it’s deliberate, even awkward. With time, the roles become second nature, so you spend less of your life managing yourself and more of it living with purpose, loving, relaxing, and playing. You can always slow down and look closer when it helps.",
+    "Reparenting means consciously evolving and molding an Inner Adult inside you, comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide. This chosen Inner Adult super hero gets into a real, loving relationship with the little one you still carry. That grown-up notices the old patterns and practices better ways of responding. At first, it’s deliberate, even awkward. With time, the roles become second nature, so you spend less of your life managing yourself and more of it living with purpose, loving, relaxing, and playing.",
     "require more maturity, even if it looks like you’ve got it all together.  At this stage",
     "something wrong with the inner child.",
     "and try to figure out why that happened. Don't try again until you understand what would make it safe. I’d look at the drug"
@@ -3006,6 +3051,9 @@
     "Reparenting means consciously evolving and molding an Inner Adult",
     "If that got to you at all, good.",
     "# The Chicken-and-Egg Problem"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H2 A (\"that was from GPT, i humanized it but didn't notice how jarring that last stupid sentence was\")."
    ]
   },
   {
@@ -3223,7 +3271,7 @@
    "must_contain_exact": [
     "## You Belong Everywhere and Nowhere",
     "The Guide also points beyond itself, toward somewhere you belong that doesn’t ask you to give up being yourself. That might be nature, or existence itself. It might be whatever your tradition sees as ultimate. Love can come from any of these places, and you also belong there, which is a little different. Maybe you’ve felt that outside somewhere, like you didn’t need anybody’s okay to be there. The way in is time in nature and contemplative practice, like meditation.",
-    "With that under you, belonging with people can get a lot less desperate. Not all at once, though. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.",
+    "With that under you, belonging with people can get a lot less desperate. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.",
     "Treats and pampering do better at set times, where they can't get out of hand. They shouldn't get canceled as a punishment after a bad day, either (ST-CA, section 17.1.4).",
     "By the way, this job doesn't have to be called the Guide. The Wise One works, or your Inner Teacher, and \"Guru\" does for some people."
    ],
@@ -3231,6 +3279,9 @@
     "## A Belonging Deeper Than Any Group",
     "Comfort does better at set times",
     "a group's approval isn't the deepest belonging there is"
+   ],
+   "history": [
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H31 A."
    ]
   },
   {
@@ -3244,6 +3295,113 @@
    ],
    "must_not_contain": [
     "Milder reactions afterward count as caution signs too"
+   ]
+  },
+  {
+   "id": "joel-106-20261024-sections",
+   "status": "applied",
+   "what": "Joel's own versions of five places, word for word, each checked by him: When to Change the Strategy (all five paragraphs; 98.7's own paragraph is gone, its point his P3's texting example), You Don't Need an Inner Monologue, the crisis stretch of If You Want to Kill Yourself, First Social Connections, Done Right, and Speak Toward What You Are Building without its last paragraph. The Forbes link's markdown has no space before its address. Installed by experiments/t106-installs/apply_t106.py. E5: his Inner Monologue P2 has a paragraph break before \"Then again\" (both versions read Human through the API).",
+   "joel": "2026-10-24 22:55 UTC: \"i fixed the whole section and now it's 100% high conf human, learn some lessons\"; \"now it's fully dark green\"; \"crisis stretch is now fully human\"; \"first social connections is fully green\"; \"now speak toward is all green ... yes i removed the final para on that one, it seemed extra\"",
+   "where": "When to Change the Strategy; You Don't Need an Inner Monologue; If You Want to Kill Yourself; First Social Connections, Done Right; Speak Toward What You Are Building",
+   "must_contain_exact": [
+    "Weeks in and nothing much is changing? I’d want to quit too, or else keep doing the exact same thing forever so I never have to find out what's underneath this. Before going with either of those paths, look for what exactly is in the way. Sometimes the strategy was not actually implemented, just read about or played around with lightly. Or there wasn't the right environment to really practice it, like no alone time. Or perhaps you did sit down with your little one, but it felt scary or like some part of you was trying to protect you from going deeper. Whatever it turns out to be, it makes sense to work on that blocker instead of giving up on everything.",
+    "Maybe the words are all there, but the loving grown-up behind them isn’t, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just “throw the baby out with the bathwater,” and decide reparenting is a scam. I’d borrow that grown-up first. Then try again, and see if your little one can tell the difference.",
+    "Let's say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on. Some relief is nice, but we still want to know if we are fixing the problem at a deeper level and integrating the benefits into regular life (like texting a friend that you're having a rough day rather than saying you're fine). Jot down what changed and how long it lasted. Although if that feeds into your OCD patterns, drop it.",
+    "How many tries would I give it? It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if it progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts).",
+    "Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!",
+    "If you don’t hear a little kid talking in your head, don’t invent one. Actually, this is one place where the usual inner-child prompt to “ask your little one what they need” can get confusing, because “ask” sounds like you’re supposed to ask a question and then wait for a second voice to answer. Maybe that’s what happens for some people, but you might not be some people (hehe). If talking into an empty room feels silly, small figures on a table can help (so that you feel even more silly!?), like one for your little one and one for the rest of the gang that shows up. Put whichever one’s running the show on a throne. Both ideas come from sections 12.2 and 13.1 of a book called Schema Therapy for Children and Adolescents, which I’ll call ST-CA.",
+    "You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose. Try it and see. If words are there, speak or write them. You might feel more comfortable that way than just staying in imagination land.",
+    "Then again, maybe what’s actually requiring your attention now is a knot in your stomach. Or perhaps you’re in a place you want to leave. Sometimes nothing “answers” and you just know what would be nice to do for yourself. And if you don’t know, it’s fine to guess. Maybe it’s some genuine human closeness, or figuring out some way to have more say in your own life.",
+    "Life is always switching up on us. You could have a feeling before thoughts, or thoughts might come first and provoke a feeling. They say hindsight is 20/20, but you actually might not even know which happened first.",
+    "Then ask: what is the self you want to kill? Is that self the same thing as your body? Why? Do you have the same body in dreams? What exactly do you expect your body’s death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?",
+    "In Buddhism, death isn’t an off switch, and it isn’t a free new-age get-out-of-jail card back to the source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms. A human birth is a rare chance to understand suffering and end its causes.",
+    "You don’t have to believe that, but if you’re still thinking of staking your life on the opposite claim, that death is just nothing, might that be a double standard to look into? Curiosity killed the cat, you might say, [so research could be dangerous](https://www.forbes.com/sites/startswithabang/2020/07/30/you-must-not-do-your-own-research-when-it-comes-to-science/). 😅 But despite the risk of curiosity, researchers at the University of Virginia have been busy little bees, collecting cases for 60 YEARS now of young kids who talk about a past life, and there’s [a big pile of near-death accounts too](https://iands.org). Even if every case is different, but I’d read a few of those cases before betting my life on “nothing.”",
+    "Right here in this one life, it's apparent that the more you hate yourself, the better your mind gets at it, and being alone tends to deepen the despair. But lucky us, because physical life keeps handing out redirections, like that guy who found me in a random park crying one time, and asked me \"What's wrong?\"  If the many traditions and the accumulating scientific evidence are right that the mind’s causal process goes on after the body dies, killing the body may take away some of those redirections and leave the suffering right where it was. That sounds like a substantially worse deal to me.",
+    "My father used to tell suicidal people, “Oh, you want to kill yourself? That’s wonderful! Now you can change what you’ve always been too afraid to change in your life, and then see if you still want to end it!” So, what would you tell my dad? What’s the change you still can’t bring yourself to make? Leaving a relationship? Quitting a job? Telling your family who you really are? Those might sound difficult, but they're actually considerably more likely to help than dying.",
+    "Then there are people you’re just getting to know. Meeting them can turn into a kind of test--”First impressions are everything,” as they say, but it could be even worse than that, if you need them to prove you’re lovable. Nobody’s a reassurance machine. I’m giving you permission now to quit school and flunk the tests. Instead, get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present. Leaning on each other is still a big part of relationships, and it goes both ways.",
+    "I can’t tell you where to look for people who fit you, but I’d bet on more than one place. Keep the good people you’ve already got. Then maybe try a class, or a spiritual community if you find one that fits you. And if any group, or any one person, starts acting like they should be your only support, that’s when we ask the Adult Protector to start paying attention.",
+    "The same goes for doctors. No need to give them a good impression if that means not being your own advocate. If you don't feel up to it, bring someone you trust to speak up for you (it doesn’t have to be the relative who never respected your wishes), and ask what a treatment’s for.",
+    "It’s not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that’s something you’d like to be able to do or a relationship. Say you tell yourself “I’m not dependent.” Well, now you’re thinking about being dependent, just like that Pink Elephant. Being totally independent also isn’t realistic nor ideal, and can even seem like just a reaction to the original problem. We can often strike a nice nuanced poetic balance, like: “I’m provided for by the universe, like the birds & lilies Jesus reminded us of.” With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever’s really needed to melt into your happy place. You’ll save a ton of money on vacations!",
+    "But let’s also make sure we don’t hide from shadow stuff with toxic positivity. Grief is natural, and letting tears flow can be immensely therapeutic, as long as they don’t hijack your perspective with a cemented story of what will always be true. If your little one says “he hurt me,” we honestly label that as harm, even if it was also a learning experience. Same for anger, a \"No,\" who’s responsible, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide can lead the way up to more safety and maturity.",
+    "Before giving anyone advice, your little one included, it can help to find out what kind of company they want: “Do you want me to mostly listen, help you untangle this, brainstorm, or...?” Not that you have to make a ritual of asking every time, if it’s obvious what they want. But as they say, \"assume\" makes an \"ass\" out of \"u\" and \"me.\""
+   ],
+   "must_not_contain": [
+    "Sometimes the session itself goes really well.",
+    "What they tell you is worth remembering, too"
+   ]
+  },
+  {
+   "id": "joel-106-20261024-982",
+   "status": "applied",
+   "what": "102.2 A: d3 in place of his Not Every Hero Wears A Cape P5 (Human alone and in its h2 through the API, experiments/t105-api/API-CHECKS.md).",
+   "joel": "2026-10-24 22:55 UTC: \"102.2 98.2a\"",
+   "where": "Not Every Hero Wears A Cape",
+   "must_contain_exact": [
+    "After the day, look at what actually happened. Say you did the Protector action(s) and you don't feel any better, or you feel worse. Standing up for yourself can do that at first. Not doing it is harder to figure out. Fear is the first guess. But did you know how to do it, and why? Were you worn out? Maybe whoever said they'd help couldn't make it. 🤗"
+   ],
+   "must_not_contain": [
+    "information to learn from",
+    "Healing is nonlinear",
+    "Hey, we've all been there."
+   ]
+  },
+  {
+   "id": "joel-106-20261024-ideas",
+   "status": "applied",
+   "what": "His picks on the ideas page (experiments/t105-readers-edit/IDEAS.md): 25 heading lines (E2 to E33 and E15's two), the cuts E10 and E13, E34's paragraph break, and the hedge cuts H2, H3, H7, H12, H14, H17, H18, H22 (with his \"These are just\"), H23 (his merged sentence), H26 (with the line before it), H31, H32, H38 (with the Jeffrey Young parenthetical) and H39.",
+   "joel": "2026-10-24 22:55 UTC: his answers e1 to e35 and h1 to h41 (experiments/t106-answers/JOEL-20261024-2255.md)",
+   "where": "the whole article",
+   "must_have_line": [
+    "## Five Stages of Reparenting",
+    "### Signs of Manipulation",
+    "### When Somatic Work Brings Things Up",
+    "### Ill Will and Loving-Kindness",
+    "### Show Up When Nothing's Wrong",
+    "##### Invite Your Little One In",
+    "### Make It Intentional",
+    "### How Would You Know It's Helping?",
+    "### What to Make of a Passing Feeling",
+    "### Answering the Strict Disciplinarian",
+    "## Play Is Part of the Work",
+    "## Start With Whatever Showed Up",
+    "#### The Belief Behind the Guards",
+    "#### Intensive Meditation and Psychedelics",
+    "## What to Do With a Peak",
+    "### Gentle Meditation and Mantra",
+    "## The Spiritual Side of the Question",
+    "### When Being Happy Feels Like Abandoning Someone",
+    "#### Differentiation",
+    "## Dating While You Heal",
+    "#### Before You Tell the Hardest Stuff",
+    "### Ask What Kind of Company They Want",
+    "### The Love Has to Move",
+    "## Forgiving Yourself",
+    "## Missing Someone"
+   ],
+   "must_contain": [
+    "These are just caution signs",
+    "Most of us need enough Nurturer and Protector first.",
+    "It's scaffolding.",
+    "more foolish indifference. You can see both sides of this see-saw"
+   ],
+   "must_not_contain": [
+    " I can't tell you exactly what to do about it",
+    "You can always slow down and look closer when it helps.",
+    "It doesn't mean you're stupid or crazy.",
+    "it isn't a test of whether you were loved enough",
+    "Some of them are only one step anyway.",
+    "You can figure that out later.",
+    "which is also completely OK",
+    "so we gotta be careful about that",
+    "I'd never recommend anyone risk it",
+    "Being ready to do anything to end the pain",
+    "Not all at once, though.",
+    "Timing is different for everyone",
+    "(no belief in God required)",
+    "Past that, a lot depends on who you're seeing.",
+    "did his postdoctoral work with Aaron Beck",
+    "Hindsight being 20/20 doesn't change that.",
+    "If you made a mistake, you can see how to repair that."
    ]
   }
  ]

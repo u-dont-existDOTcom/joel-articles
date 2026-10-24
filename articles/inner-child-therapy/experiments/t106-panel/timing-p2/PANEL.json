@@ -1,0 +1,60 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Spiritual openings keep their own schedule, too.",
+  "Yours may have come long before you had much of a Nurturer or Protector, and it may have been completely real.",
+  "The question afterward is whether it made your love deeper or wider.",
+  "Has it reached your little one yet?",
+  "And does it show with people, in being more honest and dependable, more protective and compassionate, better at relationships?"
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves neatly from reassurance to a reflective question, a more intimate question, and a closing checklist, making its emotional progression feel carefully engineered. These are weak stylistic signals shared by human writers, so they cannot establish AI authorship."
+  ],
+  "haiku": [
+   "Nothing concrete happens anywhere in it, no case, scene or specific behavior, and each sentence makes one smooth, balanced move before a run of rhetorical questions, so the voice reads like a reusable coaching template rather than one person's experience. The even alternation of short aphoristic lines with longer parallel ones gives it the uniform, polished build of generated text."
+  ],
+  "sonnet": [
+   "It is built as a symmetrical validate-then-probe scaffold (a short aphorism, a hedged reassurance, an announced test, then two reflective questions that line up with the deeper-or-wider pair), with short and long sentences alternating in a regular beat. The voice stays abstract throughout, with no example, scene or specific instance, so it sounds like generic coaching voice rather than one person's observation."
+  ]
+ },
+ "human_clean": [
+  "had much of a Nurturer or Protector",
+  "does it show with people",
+  "much of a Nurturer or Protector",
+  "does it show with people",
+  "your little one"
+ ]
+}

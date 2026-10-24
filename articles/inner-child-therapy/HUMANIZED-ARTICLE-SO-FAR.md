@@ -18,7 +18,7 @@ Here's the idea behind Inner Child Reparenting, in a nutshell:
 
 Growing up, all of us picked up automatic ways of understanding situations we find ourselves in, reacting based on those understandings, and then treating ourselves partly based on how we happened to handle things. Some of those patterns are wise in general, although even then, we are always learning from what life throws at us. Others of those patterns were built for a crisis that’s long over, and some just seem to make every situation worse. 
 
-Reparenting means consciously evolving and molding an Inner Adult inside you, comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide. This chosen Inner Adult super hero gets into a real, loving relationship with the little one you still carry. That grown-up notices the old patterns and practices better ways of responding. At first, it’s deliberate, even awkward. With time, the roles become second nature, so you spend less of your life managing yourself and more of it living with purpose, loving, relaxing, and playing. You can always slow down and look closer when it helps.
+Reparenting means consciously evolving and molding an Inner Adult inside you, comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide. This chosen Inner Adult super hero gets into a real, loving relationship with the little one you still carry. That grown-up notices the old patterns and practices better ways of responding. At first, it’s deliberate, even awkward. With time, the roles become second nature, so you spend less of your life managing yourself and more of it living with purpose, loving, relaxing, and playing.
 
 If that got to you at all, good. That was half the idea. I used to listen to Suzanne Vega's *The Queen and the Soldier* every night because it reliably got the tears out.
 
@@ -62,6 +62,10 @@ But here’s the chicken-and-egg problem. What if you’re so far inside the chi
 
 Sometimes somebody else may have to do one part of the adult role with you or for you first. You get to feel what that is like and watch how they do it. Maybe you copy one small thing you've seen them do, or imagine them there when they're not, and try one piece yourself while they're still helping with the rest. That's what I mean by borrowed adulthood. You may still need help with almost all of it for a while, but over time there are more and more of those little parts you can do yourself.
 
+## Five Stages of Reparenting
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E2 from the ideas page, the heading only (his "e2 a") -->
+
 For now, I think of the whole path in five fairly predictable stages. You might be starting at any point here (and it may change even from hour to hour as well):
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): his new stage 1, word for word in his characters, with the obvious typo "into to" made "into"; it puts forced adulthood into the stages ("i never put forced adulthood into the stages map. it should be in stage 1"). Stage 5's "stuck in adult mode" is now "stuck in forced adulthood" (76.3 B). Turn 88 (his 16:12 UTC message, "1. agree"): 80.1 A, ", even if it looks like you’ve got it all together" added after "require more maturity", my words from the question, so a reader who over-functions finds themselves at stage 1. Not yet checked in Pangram. -->
@@ -90,7 +94,7 @@ The way I picture it is almost stupidly simple. Imagine you're broke and starvin
 
 Nobody leaves a baby starving on purpose. I just didn't believe there was a baby. Inner-child stuff sounded silly to me until I could actually feel him. Then there was this little me actually hurting, and I could send some of the love I'd already found his way.
 
-I think most people who chase spiritual freedom are also trying to get away from something painful in themselves, and a lot of it goes back to childhood. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I did it too. It doesn't mean you're stupid or crazy.
+I think most people who chase spiritual freedom are also trying to get away from something painful in themselves, and a lot of it goes back to childhood. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I did it too.
 
 Spending your whole life processing your wounded inner child isn't freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.
 
@@ -141,6 +145,10 @@ Say you grew up learning that what you wanted didn't matter. Now you're only jus
 <!-- Turn 78 (Joel's answer to question 70: A, 2026-10-21 00:49 UTC, experiments/t78-answers/JOEL-20261021-0049.md; GPT's r03 files in experiments/t78-structure/gpt-r03/): these four paragraphs on not handing over your judgment moved here from The Inner Guide (GPT's M05). -->
 
 <!-- Turn 63 (E179, E180), my own draft, group 10: a guru who demands surrender puts themselves where the source should be, the opposite of the Guide (said as a joke in parentheses, "so, more or less, they'd like to be your God"); surrender from our side, with no asking, when someone seems to get your little one like nobody ever has or treats it like it's special (the dedup's mirroring and special attention; praise, pity and attraction are in Untangling the Belonging Bargains), and the judgment handed over in its own words. It opens from P9's cult-survivor line. The grounding (Opus) and the section cold read (Sonnet) found P10 OK. Alone Human Written (0.007, low), https://www.pangram.com/history/d506ddfd-7907-4dd6-8cd4-13eba11ef9c3; with P9 Human (0.019, high), https://www.pangram.com/history/9d0feab6-ed5e-49ac-99f0-b7a865133c8b. The h1: Human Written (0.062, high, 1061 words), https://www.pangram.com/history/9658a709-ec76-4e23-b48a-2b2414ad2cf8. Record: experiments/t63-guide/REVIEWS.md. Group 11 (manipulators who present as gifted but wounded, flawed but honest) comes next. -->
+
+### Signs of Manipulation
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E3 from the ideas page, the heading only (his "e3 a") -->
 
 Some gurus really do demand surrender, and they're the opposite of the Guide: they point you at themselves (so, more or less, they'd like to be your God). And sometimes they never have to ask. Someone seems to get your little one like nobody ever has, or treats it like it's special, and it starts thinking, "They know me better than I know myself."
 
@@ -234,6 +242,10 @@ When your nervous system is flooded, your protective parts are busy throwing buc
 
 <!-- Turn 97 (his message of 2026-10-22 23:54 UTC, experiments/t97-answers/JOEL-20261022-2354.md): his paragraph, word for word. It replaces my P4 (my turn-96 cut d01, the gym line out, never checked) with his own gym comparison. -->
 
+### When Somatic Work Brings Things Up
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E4 from the ideas page, the heading only (his "e4 a") -->
+
 Some somatic work can feel pleasant, and some can feel like a raging storm got unleashed. It can bring up grief and fear, and sometimes nightmares later on as the memories begin to unwind. It’s a bit like going to the gym. You want to make gains, and sore muscles the next day can be good, but proper range of (e)motion here is also key to avoid injury.
 
 <!-- Turn 74 (his message of 2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md)): 62, C ("it's human now, i fixed it, pasted"): his Before You Try to Go Deep as he pasted it at 00:08 UTC; this paragraph is his version (experiments/t74-guide/joel-before-you-try-20261019-0008.txt). It is turn 72's P5 h, with the guide's list of what to change in it and "change several things at once" out (54, 8 and 11). His section as pasted: Before You Try to Go Deep Human Written (0.093, high, 4023 words, all three windows Human), https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9; his checking paragraph alone Human Written (0.073), https://www.pangram.com/history/d2aeb146-d0e1-446e-8226-2f07aaaa161f (round t74a). -->
@@ -256,15 +268,21 @@ And what about those hard dreams, or images that pop up during a session? They c
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 78.1, ST-CA candidate 9 (figures on a table and the throne; sections 12.2 and 13.1, PDF pp. 335, 339 and 368 to 370), two sentences at the end of P1, and the book's first mention, which introduces "ST-CA". Lint REVIEW at most; not yet checked in Pangram. Drafts: experiments/t87-drafts/. -->
 
-If you don't hear a little kid talking in your head, don't invent one. Actually, this is one place where the usual inner-child prompt to “ask your little one what they need” can get confusing, because “ask” sounds like you're supposed to ask a question and then wait for a second voice to answer. Maybe that's what happens for some people, but you might not be some people (hehe). If talking into an empty room feels silly, small figures on a table can help, like one for your little one and one for whatever else shows up. Put whichever one's running the show on a throne. Both ideas come from sections 12.2 and 13.1 of a book called Schema Therapy for Children and Adolescents, which I'll call ST-CA.
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his You Don't Need an Inner Monologue, word for word ("now it's fully dark green") -->
+
+If you don’t hear a little kid talking in your head, don’t invent one. Actually, this is one place where the usual inner-child prompt to “ask your little one what they need” can get confusing, because “ask” sounds like you’re supposed to ask a question and then wait for a second voice to answer. Maybe that’s what happens for some people, but you might not be some people (hehe). If talking into an empty room feels silly, small figures on a table can help (so that you feel even more silly!?), like one for your little one and one for the rest of the gang that shows up. Put whichever one’s running the show on a throne. Both ideas come from sections 12.2 and 13.1 of a book called Schema Therapy for Children and Adolescents, which I’ll call ST-CA.
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 78.1, ST-CA candidate 6 (guess from the usual needs; the book's "an emphasis on one need to the neglect of other needs", PDF p. 130), three short sentences at the end of P2. A common idea, so no citation. Lint REVIEW at most; not yet checked in Pangram. Drafts: experiments/t87-drafts/. -->
 
-You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose. Try it and see. If words are there, speak or write them. You might feel more comfortable that way than just staying in imagination land.  And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually requiring your attention now is a knot in your stomach. Or perhaps you're in a place you want to leave. Sometimes nothing “answers” and you just know what would be nice to do for yourself. And if you don't know, it's fine to guess. Maybe it's closeness, or maybe it's more say in your own life. A lot of us got plenty of one thing growing up and almost none of another.
+You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose. Try it and see. If words are there, speak or write them. You might feel more comfortable that way than just staying in imagination land.
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E5, a paragraph break before "Then again" ("if it would read better with diff para break you can try"). Through the API his section read Human as he wrote it and with the break (both 0.0000% AI, experiments/t106-api/API-CHECKS.md). -->
+
+Then again, maybe what’s actually requiring your attention now is a knot in your stomach. Or perhaps you’re in a place you want to leave. Sometimes nothing “answers” and you just know what would be nice to do for yourself. And if you don’t know, it’s fine to guess. Maybe it’s some genuine human closeness, or figuring out some way to have more say in your own life.
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.1 A (his "98. agree cut all"): cut "That's ok, too.". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-And it might not be the same order all the time. You could have a feeling before thoughts, or thoughts might come first and provoke a feeling. They say hindsight is 20/20, but you actually might not even know which happened first.
+Life is always switching up on us. You could have a feeling before thoughts, or thoughts might come first and provoke a feeling. They say hindsight is 20/20, but you actually might not even know which happened first.
 
 <!-- Turn 72 (his answers of 2026-10-18 19:06 UTC (experiments/t72-answers/JOEL-20261018-1906.md)): his section move: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking ("both of those to me are less likely to be important for most people compared to the other sections"). Its text is unchanged. You Don't Need an Inner Monologue stays where it was for now: with it moved too, every version had an AI window in Your Body Might Need Some Love First P3 to P5 (round t72e). -->
 
@@ -283,6 +301,10 @@ This part tends to scare the wrong people, like somebody who's horrified by thei
 And if somebody actually wonders whether they're malicious, they'd do better to meditate on it and find out why they're asking before they bring their inner child anywhere near it. Are they really feeling malicious, or is it some voice in their head saying so, like the inherited critic? If some of it turns out to be malice they actually want to act on, the inner child can wait.
 
 <!-- Turn 73 (his answers of 2026-10-18 21:58 UTC (experiments/t73-answers/JOEL-20261018-2158.md)): 55, 4, A: "Of course not." is out, so the question is left for the reader to check. experiments/t73-guide/drafts/c55-4.txt. Alone Human Written (0.27, medium), https://www.pangram.com/history/50d50cb5-5fb8-4b7b-9adb-d61a57c58716 (round t73a); Before You Try to Go Deep with it Human Written (0.092, high, 3990 words), https://www.pangram.com/history/8fba4e7c-ed7b-4266-b8c5-958ad0803e7b (round t73b). -->
+
+### Ill Will and Loving-Kindness
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E6 from the ideas page, the heading only (his "e6 a") -->
 
 In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire would too, and people would definitely get out of your way, but unless you're the Human Torch from the Fantastic Four, you'd be the one burning. So it's worth noticing what it's doing to you. Has it ever left anybody at ease, with nothing to regret afterward?
 
@@ -330,7 +352,7 @@ If you weren't loved well as a child, "love your inner child" can sound like non
 
 <!-- Turn 65, round z3, a fresh writer on the middle paragraph alone (job lm1p2): if even an imagined caring grown-up makes you feel more threatened or lonelier, go smaller still, to the least cruel response a decent adult could offer; scaffolding, not a test of whether you were loved enough. Alone Human Written (0.17, low), https://www.pangram.com/history/2736e072-e9a6-45fc-b465-b89760db860d; the opening with it Human Written (0.25, high), https://www.pangram.com/history/4b86c5ce-675f-45a4-b50a-23130bddce39. -->
 
-Maybe just imagining a caring grown-up makes you feel more threatened, or lonelier. Lonelier is a strange one, with somebody right there. Then go smaller still, to the least cruel response a decent adult could offer your little one. It's scaffolding, and it isn't a test of whether you were loved enough.
+Maybe just imagining a caring grown-up makes you feel more threatened, or lonelier. Lonelier is a strange one, with somebody right there. Then go smaller still, to the least cruel response a decent adult could offer your little one. It's scaffolding.
 
 <!-- Turn 65, round z, fresh writer 1, the h1's P3 with its grounding's two MUST fixes (by choice, once the guarding part has been heard; this guard is about letting the feeling in, and people still earn trust): taking the hostility out makes room for warmth; letting defenses down; the ego as a rigid security guard; a cold part standing in front of the warmth (Hear the Protective Part First). Alone Human Written (0.055, medium), https://www.pangram.com/history/806531d3-1254-4296-8b22-e0e44d529be5. -->
 
@@ -418,6 +440,10 @@ Then take a small piece of whatever you'd tell them and hand it to yourself. If 
 
 <!-- Turn 90 (the Schema Hacks additions, Joel 2026-10-22 18:03 UTC (experiments/t90-answers/), the five GPT's advice recommends with its corrections, experiments/t89-results/RESULT-A-meta.json, check t88s_A: Mostly Human Written, 7.2% AI, 41 of 254 windows): 4, quiet company with nothing to heal, one sentence appended to this paragraph of mine (owner-accepted 2026-09-27). Drafts: experiments/t89-drafts/. Lint REVIEW. Not yet checked in Pangram. -->
 
+### Show Up When Nothing's Wrong
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E7 from the ideas page, the heading only (his "e7 a") -->
+
 If the only time the Nurturer shows up is when something's wrong, your little one can start to feel like they're your job. Sometimes show up just to say "I'm glad you're here," and then enjoy them for a minute, the way you'd enjoy a little kid who wants to show you a rock they found. Or picture the two of you washing the dishes together, nobody asking anybody how they feel.
 
 ### A Smaller Doorway: Goodwill
@@ -474,6 +500,10 @@ Of course, that’s not to say you should not try to suffer less, or get away fr
 
 Notice how, when you offer thanks (to the universe, to life, to God, whatever you may believe in), a space in your heart opens up. It might not feel immediately like you suddenly know the real meaning of Divine Love, but it’s a little spark of … something.... There’s a tiny bit of freedom, of peace, stillness, softness. And as that softness deepens each time, you start to understand what I mean by Divine Love. Many people have written books on this topic (like [A. Helwa’s book](https://authorahelwa.com/), Secrets of Divine Love, for example), so I won’t belabor the point further here, but I hope you are able to experience this when you try it out for a while, and I’d really love to know how it works for you!
 
+##### Invite Your Little One In
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E8 from the ideas page, the heading only (his "e8 a") -->
+
 Once you start to feel that lovely softness of the heart, invite your little one in with you as your spiritual integration practice. They might go numb, or call BS on that. If so, they might just need to see if you're actually humble enough, and grateful enough for them, to listen to their rejection and be patient. If you instead retreat back into your cozy corner, it's the food bank feast all over again: You can have an enormous spiritual feast upstairs while the child is still starving downstairs.
 
 ### When the Spiritual Relationship Hurts
@@ -502,7 +532,11 @@ You can protect your little one from yourself too, like by repairing after an in
 
 Plenty of people are still at the putting-up-with part. Even with little or no warmth for your little one yet, the relationship can start with the Protector's plain acts and the warmth can come after, which feels backwards, because you'd think you have to feel it first before you could do anything for them. But yeah, bonding starts somewhere. And this is not to say you've never done anything to care for yourself. If not, you'd be dead right now. But we're making additional acts of care intentional now as a base for love to grow.
 
-Intentional, meaning you pick one of those acts and decide when you'll do it, and what the smallest first step is (like with the envelope). Some of them are only one step anyway. If it needs money or somebody's help, sort that out before the day, and if you'll have to tell someone something they won't like, say it out loud to yourself ahead of time. Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough, as long as what you needed to say is still in there.
+### Make It Intentional
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E9 from the ideas page, the heading only (his "e9 a") -->
+
+Intentional, meaning you pick one of those acts and decide when you'll do it, and what the smallest first step is (like with the envelope). If it needs money or somebody's help, sort that out before the day, and if you'll have to tell someone something they won't like, say it out loud to yourself ahead of time. Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough, as long as what you needed to say is still in there.
 
 <!-- 2026-09-30: P5 is Joel's final (03:29 UTC, Human/medium on his check), built on Claude's z1. He made "it" the Protector action(s), since the nearest "it" was the hard conversation at the end of P4. Claude capitalized "Protector", as it is everywhere else in the article. -->
 
@@ -512,7 +546,9 @@ Intentional, meaning you pick one of those acts and decide when you'll do it, an
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.2 A (his "98. agree cut all"): cut "It doesn't mean failure.". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first. Not doing it is harder to figure out. Fear is the first guess, but maybe you didn't know how or why. Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. Hey, we've all been there. 🤗
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): 102.2 A, d3 for his 98.2 (Human alone and in its h2, experiments/t105-api/API-CHECKS.md) -->
+
+After the day, look at what actually happened. Say you did the Protector action(s) and you don't feel any better, or you feel worse. Standing up for yourself can do that at first. Not doing it is harder to figure out. Fear is the first guess. But did you know how to do it, and why? Were you worn out? Maybe whoever said they'd help couldn't make it. 🤗
 
 ## Love Doesn't Have to Wait for Trust ❤️
 
@@ -568,7 +604,7 @@ Your little one might not be the only one getting accused. When life has gone ba
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.3 A (his "98. agree cut all"): cut "You still did what you did, though, and if it hurt people or damaged a life, that may need repair.". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that.
+Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year.
 
 <!-- 2026-10-01 (turn 12): P12, the guide's six questions (G12), as a numbered list (the plan: "a list that carries the meaning"). Fresh writer a of three; all three were 100% Human alone on try 1 (a 82 words, b 85, c 72). Cold read and grounding on a and on b: every line OK, nothing open. Joel adopted the proposal at 17:50 UTC ("P12 proposal accepted"): the line after the list, by a fresh writer from the reviews' good-to-great line (100% Human alone, 95 words, try 1). Record: experiments/LOVE-DOESNT-WAIT-20260930.md, turn 12. 2026-10-03 (turn 21): questions 5 and 6 are Joel's, word for word (01:06 UTC), each in place of a list of three; OWNER-EDITS ldw-p12-q5-q6. -->
 
@@ -659,6 +695,10 @@ And the checking doesn't always stay in your head. A body scan can turn into one
 
 If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. 😇 Where were we?
 
+### How Would You Know It's Helping?
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E11 from the ideas page, the heading only (his "e11 a") -->
+
 Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate. And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
 
 If these exercises start feeling like a ritual you have to complete before you're allowed to live, stop there.
@@ -675,13 +715,17 @@ If these exercises start feeling like a ritual you have to complete before you'r
 
 <!-- 2026-09-27: "the hook" is now introduced before it's used (Joel 04:19); Pema's sentence moved to the front with her own gloss. Joel's items 7 and 8 are in P3. Pangram 4.0: P1 alone 100% Human (96 words); the section 100% Human (255 words). Record: experiments/OWNER-PUNCHLIST-20260927.md. -->
 
-Pema Chödrön calls the tightening and urge you get before the story has finished forming "shenpa," and she says "[hooked](https://www.lionsroar.com/how-we-get-hooked-shenpa-and-how-we-get-unhooked/)" is a more descriptive translation than the usual "attachment." You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns on you: you're supposed to be observing yourself. 😀 Maybe forget the parts detective work for a minute. You can figure that out later.
+Pema Chödrön calls the tightening and urge you get before the story has finished forming "shenpa," and she says "[hooked](https://www.lionsroar.com/how-we-get-hooked-shenpa-and-how-we-get-unhooked/)" is a more descriptive translation than the usual "attachment." You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns on you: you're supposed to be observing yourself. 😀 Maybe forget the parts detective work for a minute.
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.2 A (his "97. i agree cut all"): cut "If nobody is in danger, take a breath" (with "Take a breath" for it). The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
 When you catch it, look around and just take a moment to enjoy some free honesty: "Oh! I'm hooked again! That's awesome I could notice it!" Take a breath or three before you finish whatever you were doing. Sometimes human beings need to be being, not always doing. 🙃 Maybe then you'll find there's enough adult around to be nice to your little boo for a second. Or enough Protector to stop something you'd regret later.
 
 <!-- 2026-10-07 (turn 34): the last three paragraphs of this section are Joel's, word for word (16:46 UTC). The first replaces "Here's where I want to clearly depart… Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow elevated the boundary crossing to “They're evil.” But you can defer that judgement for when you're in your happy place." (Joel: "it makes no sense AND it sounds ai with 'may have X and still Y'"); one punctuation fix, a double space in "Just  because". The other two are his rewrite of queue item PGQ-001 (B1 and B2; "B2 was really bad, i rewrote it b1-b2. It's hum, high conf"), with no fix needed. Pangram 4.0 through the dashboard: the boundary paragraph alone 100% Human (121); his first PGQ-001 paragraph alone 100% Human (148), the second 100% Human (76), the two together Human, high confidence (his check); Your Body Might Need Some Love First 100% Human (2,142). The h1 came back 97% Human (2,966) with one AI segment, in older text: from "You can mean the apology" (Also Look Outward) to C1's "Meeting them can turn into a kind of test." None of his paragraphs is in it. The isolation group goes right after C1, so the h1 is checked again with it. -->
+
+### What to Make of a Passing Feeling
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E12 from the ideas page, the heading only (his "e12 a") -->
 
 Here's where I want to clearly depart from the new-age wizdumb that all your problems are self-created: Somebody may really have crossed a boundary. That's not just because they are your karmic partner mirroring what God wants to show you in yourself, even if that also applies sometimes. Your reaction is what you can control the most, though. If what they did hit something old in you, notice how that feels in your body. And notice how your feelings can also amplify or distort your perceptions of others. Just because your stomach tightened up doesn't mean their boundary crossing indicates “They're evil.” You can defer that judgement for when you're in your happy place.
 
@@ -769,7 +813,7 @@ Then get practical so it doesn't become another OCD loop: "What small repair or 
 
 And don't forget to appreciate the good! Moments of warm, beneficial connection (whether internally from child to adult, socially, spiritually, or undefined) are all to be celebrated. Were you maybe firm like an elephant today, or courageous like a lion? Adopt the entire spirit animal zoo if need be! Turtles are good if you need impulse control.
 
-Count recognition as progress, regardless whether it came up a bit late, as the goal is to bring the awareness closer and closer to the present. All or nothing from the get go would be cool, but we normally have to learn step by step. If/when you interrupted the pattern, pat yourself on the back, or even kiss yourself on the shoulder. If you made a mistake, you can see how to repair that. You can renew your intention for tomorrow, getting better & better, every day, in every way. And enjoy your well-earned rest tonight.
+Count recognition as progress, regardless whether it came up a bit late, as the goal is to bring the awareness closer and closer to the present. All or nothing from the get go would be cool, but we normally have to learn step by step. If/when you interrupted the pattern, pat yourself on the back, or even kiss yourself on the shoulder. You can renew your intention for tomorrow, getting better & better, every day, in every way. And enjoy your well-earned rest tonight.
 
 ## Use Childhood Photographs Gently
 
@@ -779,9 +823,9 @@ Count recognition as progress, regardless whether it came up a bit late, as the 
 
 If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent. Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up.
 
-While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then ("You hated that coat"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up, which is also completely OK. Ask what your little one needs from you now, and do a bit of it.
+While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then ("You hated that coat"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up. Ask what your little one needs from you now, and do a bit of it.
 
-We don't need to ask it leading questions, like "Who abused me & how?" or "What memory is my body hiding?" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions, so we gotta be careful about that. [Look at this study, for example](https://link.springer.com/article/10.3758/BF03196318), where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.
+We don't need to ask it leading questions, like "Who abused me & how?" or "What memory is my body hiding?" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions. [Look at this study, for example](https://link.springer.com/article/10.3758/BF03196318), where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.
 
 A photo is just one moment that somebody picked and framed... not necessarily representative. Flipping thru an album may give different jolts in your body.
 
@@ -864,6 +908,10 @@ But with the borrowed adulthood trick, the new grown-up can start outside your h
 
 <!-- Turn 98 (his message of 2026-10-23 02:29 UTC, experiments/t98-answers/JOEL-20261023-0229.md): his rewrite of the section, word for word (88.3). -->
 
+### Answering the Strict Disciplinarian
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E14 from the ideas page, the heading only (his "e14 a") -->
+
 A good routine, like yoga in the morning and a proper bedtime, still feels like lockdown to your little one when it’s done in a disciplinarian style. One exercise you can do to handle this is to go back and rewrite your responses to that strict disciplinarian. First, remember who it was that drove you so hard as a child. Then start a little rap sheet of their provoking lines. Comfort your little one before you answer any of it. Your answers can be firm or funny, as long as they aren’t mean, since mean is the Critic’s department.
 
 <!-- Turn 90 (the Schema Hacks additions, Joel 2026-10-22 18:03 UTC (experiments/t90-answers/), the five GPT's advice recommends with its corrections, experiments/t89-results/RESULT-A-meta.json, check t88s_A: Mostly Human Written, 7.2% AI, 41 of 254 windows): 2, the feeling and how you treat yourself for having it ("can also", so not every flood is the critic), at the end of the section, since his P3 has to follow P2 (claim parent-you-inherited-p4-p5). Drafts: experiments/t89-drafts/. Lint REVIEW. Not yet checked in Pangram. -->
@@ -874,7 +922,7 @@ The Critic's voice can often pile on, to the point where you can't even understa
 
 <!-- 2026-10-02 (turn 18): the guide's h2 "Start With Whatever Showed Up" (G1–G7, then its h3s Two Common Protective Patterns and A Bottom-Up Sequence). Its first paragraph is Joel's pl/ork paragraph, the owner edit that was waiting for the first place the article uses pl/ork (OWNER-EDITS plork-paragraph: "find where that is supposed to go"); P1 uses it. P2–P5 (G2–G7) aren't in yet (record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md). The h1 through P1: 100% Human (661), try 1. -->
 
-## Start With Whatever Showed Up
+## Play Is Part of the Work
 
 <!-- 2026-10-02 (turn 18): P0 is Joel's version from 2026-09-27 01:59 UTC ("i preferred to have it this way which also passed"), word for word: Claude's first two sentences with his last one. It was the Three Adult Functions P1; that h1 was dissolved, so it waited for the first use of pl/ork. Not re-checked alone (his check); in the h1, 100% Human (661), try 1. -->
 
@@ -885,6 +933,10 @@ Your little one wants to play, too, which is why I call the deeper therapy pl/or
 A lot of what adults tend to lose, your little one still has, like the silliness and the irreverence, the rawness, the creativity, all that, and maybe a connection to the Great Mystery from before any path gave it a name. That's the spark of life they bring, and you get to draw on it and give back, so it's more communion than command. For one example of the spark, there's my post [Treasuring the Inner Child's Gift](https://ibogaqueen.substack.com/p/treasuring-the-inner-childs-gift).
 
 <!-- 2026-10-03 (turn 20): P1 is Joel's version, word for word, from 00:00 UTC: "P! failed b ecause it has 2 lists of 3. I did a minimal fix and now it's human med conf", and at 00:01: "lists of 3 in general are an ai pattern". His fix splits both lists: "or if it just has something to say" became its own sentence, "Maybe it just has something to say.", and the sources became two sentences, your little one or "a part of you that's trying to protect you" (his 22:44 pick) in the first and "Maybe it's that parent you inherited, or something from earlier today, or a bit of each." as the second. Not re-checked alone (his check: Human, medium). OWNER-EDITS sws-p1-protective-part. Before it (turn 18): the guide's "The cynical voice, numbness, urge to scroll…" (G1), writer a of three, with the grounding's fix (the inherited parent and "a bit of each" added to the sources); alone, 100% Human (96), try 1. A second grounding asked for the protective part in the list; Joel picked adding it (2026-10-02 22:44 UTC). Turn 19: with it added as a fifth source, P1 was AI Detected, 66% AI alone (107), P1 try 2, flagged from "Before you decide where it's coming from" to the end: the two lists back to back. -->
+
+## Start With Whatever Showed Up
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E15, the section's own heading moved down to its how-to, its first two paragraphs under "Play Is Part of the Work" (his "e15 a") -->
 
 You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each.
 
@@ -958,6 +1010,10 @@ The other one shows up when you get close to some painful memory or insight. Sud
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a18): round 2 (check t90s_A, third try) read AI here: Medium 21, High 68 and Medium 22, all but its last line. The tells: a follow-up that restates ("You just expect it") and a summary signpost ("So with any of these"). Both are cut. The three ways of handling the expectation stay (his 77.3). Lint REVIEW. Not yet checked in Pangram. -->
 
+#### The Belief Behind the Guards
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E16 from the ideas page, the heading only (his "e16 a") -->
+
 Say you learned somewhere along the way that if you need someone, they end up leaving you. You probably never said it to yourself in words, but it steers you before you know why. That pull of distraction is one way of dealing with it. Many folks will also find themselves going along with things they don't really prefer, or else insisting they don't need anybody (sour grapes). Some people pleasers go along for months as if nothing's wrong while the pressure builds and then they blow up out of nowhere. Then they feel so bad about it they go right back to going along to get along. With any of these patterns, I'd ask what it's protecting you from, because it doesn't really help to just label it a bad habit. (Sometimes a sweet is just a sweet, though, not an escape, as The Inner Guide gets into.)
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.3 A, the second of its two paragraphs: the loop, allowing that the people around may really be unavailable or unsafe, and what fit a crisis can cost later. Lint REVIEW at most; not yet checked in Pangram. Drafts: experiments/t87-drafts/. -->
@@ -1004,23 +1060,25 @@ Blaming yourself can be doing a job like that, too. "It's all my fault" might be
 
 <!-- 2026-10-07 (turn 31): P1 "getting ready," for "getting ready to," (Joel, 01:09 UTC). P2 is Joel's, word for word (01:09 UTC: "this part is contradictory" … "change to this, it's human on pangram"), in place of mine; no punctuation fix was needed, and it wasn't rechecked alone since he had checked it. P3: "A few hours of feeling lighter, with the old feeling back the same day, is a few hours of relief." for "A morning of feeling lighter, with the old feeling back by lunch, is a morning of relief." (E139: no made-up clock times). P4: "I'd change course sooner (stopping counts)." and "If it still says no, that's your answer." (turn 30's grounding: a protective part's no is enough). P5: "Sometimes it's the exercise that works." (a cold read: "part" means a part of you everywhere else here), "And a few days later" for "And by Wednesday" (E139), "A lot of people's first guess is that they didn't go deep enough." for "My first guess would be that I didn't go deep enough." (E138, the move of Joel's P2 fix), "a tiny bit of it" for "about five percent of it" (Joel, 01:09 UTC: "AI wants to put concrete numbers on stuff all the time"). Alone: P1 100% Human (120), P3 100% Human (76), P4 100% Human (156, turn 30, dc2cb315), P5 100% Human (166). Start With Whatever Showed Up 100% Human (1,837); the h1 100% Human (2,430). Pangram 4.0 through the dashboard. Turn 71 (the overnight run): P5's first sentence is "Sometimes the session itself goes really well." for "Sometimes it's the exercise that works.", which a cold read couldn't place (works at what?; COLD-READ-t71-start-with.md, P21): experiments/t71-guide/drafts/cs5-b.txt. Alone Human Written (0.31, high), https://www.pangram.com/history/8ef13853-ce98-40a3-b1b6-5539a0417656; When the Adult Voice Feels Fake with it Human Written (0.079, high, 4364 words), https://www.pangram.com/history/1748b1f2-a784-4ef3-a343-a40cffd87764 (round t71xxx). -->
 
-Weeks in and nothing much is changing? I'd want to quit too, or else keep doing the exact same thing forever so I never had to find out. Before either one, I'd look for what exactly is in the way. Sometimes those weeks were mostly reading about it and getting ready, which can feel a lot like doing it (this article included). Or you did sit down with your little one, and fear got there first, or a part of you that's trying to protect you. It can be as plain as never having the place to yourself. Whatever it turns out to be, I'd work on that one thing instead of giving up on everything.
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his When to Change the Strategy, word for word ("i fixed the whole section and now it's 100% high conf human"); 98.7's point is his P3's texting example -->
 
-Maybe you've been trying to comfort your little one for weeks, and the words are all there, but the loving grown-up behind them isn't, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just "throw the baby out with the bathwater," and decide reparenting is useless. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference.
+Weeks in and nothing much is changing? I’d want to quit too, or else keep doing the exact same thing forever so I never have to find out what's underneath this. Before going with either of those paths, look for what exactly is in the way. Sometimes the strategy was not actually implemented, just read about or played around with lightly. Or there wasn't the right environment to really practice it, like no alone time. Or perhaps you did sit down with your little one, but it felt scary or like some part of you was trying to protect you from going deeper. Whatever it turns out to be, it makes sense to work on that blocker instead of giving up on everything.
+
+Maybe the words are all there, but the loving grown-up behind them isn’t, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just “throw the baby out with the bathwater,” and decide reparenting is a scam. I’d borrow that grown-up first. Then try again, and see if your little one can tell the difference.
 
 <!-- Turn 90 (the half-A rework, experiments/t89-results/RESULT-A-meta.json, check t88s_A: Mostly Human Written, 7.2% AI, 41 of 254 windows): my paragraph (turn 30, PGQ-005); its middle read AI (Low 27, Low 17, into his P4). Two phrases plainer. Drafts: experiments/t89-drafts/. Lint CLEAR. Not yet checked in Pangram. -->
 
-One more thing about telling whether it helped. A few hours of feeling lighter, with the old feeling back the same day, is a few hours of relief. I'd take that! I just wouldn't call the problem solved from it, or give the exercise all the credit, especially if you also slept well for once. Jot down what changed and how long it lasted if you want, and then leave it alone.
+Let's say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on. Some relief is nice, but we still want to know if we are fixing the problem at a deeper level and integrating the benefits into regular life (like texting a friend that you're having a rough day rather than saying you're fine). Jot down what changed and how long it lasted. Although if that feeds into your OCD patterns, drop it.
 
 <!-- P4's last three sentences are Joel's, word for word (2026-10-06 19:04 UTC), in place of "And if you keep doing it right and what was supposed to happen still doesn't, I think you've learned something real about it. Something with clearly better research behind it is worth switching for too." No punctuation fix was needed. -->
 
-How many tries is enough? I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar. If it's making things worse, or you just can't do it right now, I'd change course sooner (stopping counts). Not wanting to do it anymore is a reason too, but if that "nope" sounds like a part of you that's trying to protect you, I'd hear it out first. If it still says no, that's your answer. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!
+How many tries would I give it? It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if it progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts).
 
 <!-- Turn 72 (his answers of 2026-10-18 19:06 UTC (experiments/t72-answers/JOEL-20261018-1906.md)): the filler sweep (JUNK-SWEEP.md, 12): "and once isn't proof you've got it all down" is out, a second hedge on a point nobody makes (O43). experiments/t72-guide/drafts/cs5-c.txt. Alone Human Written (0.24, high), https://www.pangram.com/history/e581c91f-dd1d-41a5-a499-164970d5ef49 (round t72b); When the Adult Voice Feels Fake with it Human Written (0.072, high, 4468 words), https://www.pangram.com/history/f9857aee-b6ec-4428-9350-e8e01c2d0c50 (round t72c). Taking out "Yours too, probably." too had made a 50-word AI window in Start With Whatever Showed Up P8 (round t72b, https://www.pangram.com/history/4ddf6e7c-ca45-4128-9a0a-d35a103d3810), so that line stays. -->
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.7 A (his "98. agree cut all"): cut "It doesn't have to happen after every session.". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-Sometimes the session itself goes really well. You feel real care for your little one and say exactly what they needed to hear. And a few days later you're skipping lunch and saying yes to everything again. A lot of people's first guess is that they didn't go deep enough. I don't think that's it, though, and I don't think this one failed either. Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine. That can honestly be harder than the meditation was. One small thing like that can teach your little one more than ten more good meditations.
+Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!
 
 ### When the Urge to Escape Arrives
 
@@ -1035,6 +1093,10 @@ Sometimes the session itself goes really well. You feel real care for your littl
 Sometimes the urge to get away from what’s coming up emotionally gets a lot bigger. All of a sudden you need a drink, or that ex doesn’t seem so bad after all. Some people start a whole new business. If that’s you, it might mean you got close to something that really hurts, and that can be progress, honestly! I’d thank whatever part of you came up with the escape plan, and slow down. If it’s more than you can hold right now, I’d get someone steady with you.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
+
+#### Intensive Meditation and Psychedelics
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E18 from the ideas page, the heading only (his "e18 a") -->
 
 So why not just blast right past that part, with intensive meditation or psychedelics? Both can get you past the guards before there’s a grown-up big enough to hold whatever comes through, so I’d hold off until there’s enough Nurturer and Protector around. How much is enough depends partly on the medicine and what therapy is done with it.
 
@@ -1059,6 +1121,10 @@ I’d learn to do inner-child therapy sober first, in your ordinary mindstate, s
 Remember those guards from The Urge to Escape, above? Same deal here, so get enough Nurturer and Protector in the room before you go deep. Borrowed is fine, as long as it’s from someone steady who won’t try to run your trip for you. But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, and it’s also not bad unless you’re unprepared. It can be supremely empowering when you can send love and see how it fixes the situation.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
+
+## What to Do With a Peak
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E19 from the ideas page, the heading only (his "e19 a") -->
 
 Now, the beautiful stuff. Say one night (on a psychedelic, in a dream, ten days into a meditation retreat, whatever) you felt more love than you knew was possible. Wonderful, and it matters! Keep it as a reference point, and chase it playfully, because it is already a part of you, and you’ll be like a cat chasing its tail, which can be cute and fun, or dizzy and absurd!
 
@@ -1098,7 +1164,7 @@ Paranoia during a rough trip can be a warning sign for psychosis, but it doesn�
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.7 A (his "97. i agree cut all"): cut ", though I don't mean every drug's dangerous for you". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-Any of those reactions, from mania to paranoia, can also point to a vulnerability in you, so I'd be careful with other drugs that mess with what's real too. And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset. I can't tell you exactly what to do about it, and nobody can tell you for sure what's best for you. There are just caution signs, and when you see them, you take more precautions of every kind. You have to figure out what they mean for you, and if you can't, get help from trusted advisors.
+Any of those reactions, from mania to paranoia, can also point to a vulnerability in you, so I'd be careful with other drugs that mess with what's real too. And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset. These are just caution signs, and when you see them, you take more precautions of every kind. You have to figure out what they mean for you, and if you can't, get help from trusted advisors.
 
 By trusted, I mean someone you know is trustworthy from a long relationship with them, not someone people on Reddit said was super magical and healing. That's called a crapshoot. It might turn out well, it might not. It might seem like it did, and then later you realize you were duped, as happened to me with [Sidney the iboga shaman](http://sidney.u-dont-exist.com/). A new therapist is not as trusted as an old one. As they say, "new friends are silver, but old friends are gold."
 
@@ -1108,7 +1174,11 @@ By trusted, I mean someone you know is trustworthy from a long relationship with
 
 Say you keep coming back from trips confused or spaced out. Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist. And don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent.
 
-Be careful what you mix, too, and not just prescribed medicines. Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this. I also learned that mixing acacia confusa with mimosa hostilis is very dangerous. I'd never recommend anyone risk it, since it's highly destabilizing and challenging. I have a [list of things to be cautious about with ayahuasca](http://ayasafety.u-dont-exist.com/) in particular.
+Be careful what you mix, too, and not just prescribed medicines. Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this. I also learned that mixing acacia confusa with mimosa hostilis is very destabilizing and challenging, but excellent if you want to know how it feels to be painfully autistic + schizo! I have a [list of things to be cautious about with ayahuasca](http://ayasafety.u-dont-exist.com/) in particular.
+
+### Gentle Meditation and Mantra
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E21 from the ideas page, the heading only (his "e21 a") -->
 
 Gentle meditation or self-hypnosis is a different story. It can really calm your nervous system down. A lot of people find that a mantra they feel some heart connection to, repeated in their head or out loud, especially with a nice melody, can lower the walls enough for the heart to open up. It's not something to lean on all day as a way of coping, but used as therapy it can be super effective. I personally love this beautiful Om Mane Pemme Hum mantra that I found in the Garchen Rinpoche documentary, For the Benefit of All Beings:
 
@@ -1220,7 +1290,6 @@ Sometimes, a physical illness is really partly or wholly an emotional issue caus
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
-Being ready to do anything to end the pain isn’t a suicide plan, so I wouldn’t present it as one to get relief. But if you’re scared you’ll actually hurt yourself, or can’t tell whether you’re safe, get someone with you right away.
 
 # If You Want to Kill Yourself
 
@@ -1240,15 +1309,21 @@ Then, before getting all philosophical, make sure there's a real, live grown-up 
 
 <!-- Turn 69 (E189): Joel's opening, word for word (2026-10-17 18:56 UTC, his answer to question 39: "i was paraphrased for if you want to kill yourself as well. the first sentence should be expanded to"; experiments/t69-answers/JOEL-20261017-1856.md), with one obvious typo fixed under his rule: "proselytize" for his "prosletyze". It is its own paragraph, as the first sentence is in his guide; his published line, "When somebody tells me they want to kill themselves, I get stricter about spirituality, not looser.", was a paraphrase of him, so it is out. Alone Human Written (0.00013, low), https://www.pangram.com/history/471032bf-827f-483a-8709-e15074dc9269; the h1 Human Written (0.15, high, 754 words), https://www.pangram.com/history/36f80c9c-b09c-4955-8d16-f67a808dc218 (round t69a). -->
 
+## The Spiritual Side of the Question
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E23 from the ideas page, the heading only (his "e23 a") -->
+
 I try not to proselytize about spirituality, because I've made that mistake before, and I now see that it's better to let folks find it when they are ready. But when someone tells me they want to kill themself, I consider the topic to be brutally opened by default, regardless of whether they meant to do that, because if they actually do kill their body (which they might mistake to be their self), that's a very powerful spiritual challenge right there, even if they didn't realize it would be.
 
 <!-- Turn 65, my own draft (ks1-p3-a): what is the self you want to kill, and what makes you sure destroying the body ends a state of mind. Alone Human Written (0.002, low), https://www.pangram.com/history/a691708e-29fa-4c24-802d-4f27c341a066. -->
 
-Then ask: what is the self you want to kill? Is that self the same thing as your body? Why? Do you have the same body in dreams? What exactly do you expect your body's death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his crisis stretch, word for word ("crisis stretch is now fully human"); the Forbes link's markdown has no space before its address, so it shows as a link -->
+
+Then ask: what is the self you want to kill? Is that self the same thing as your body? Why? Do you have the same body in dreams? What exactly do you expect your body’s death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?
 
 <!-- Turn 67 (E186, E187), my own draft (experiments/t67-guide/drafts/ks4-o.txt): the Buddhist view in plain words, close to the guide. The turn-65 record said an earlier version read Human alone; that result was another file's (E187), and fourteen versions had read AI (0.36 to 0.98) before this one. ks4-o read Human alone (0.099, https://www.pangram.com/history/6c232c89-9116-4d0c-accb-c662f29f9ac7); the cold read (COLD-READ-t67.md) found "the source" had nothing to point to, so the guide's "new-age" is back (ks4-o2): alone Human Written (0.052, low), https://www.pangram.com/history/23e3eb12-d9af-4e24-9ff5-cf800c0f52a7. -->
 
-In Buddhism, death isn't an off switch, and it isn't a free new-age get-out-of-jail card back to the source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms. A human birth is a rare chance to understand suffering and end its causes. You don't have to believe that, of course.
+In Buddhism, death isn’t an off switch, and it isn’t a free new-age get-out-of-jail card back to the source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms. A human birth is a rare chance to understand suffering and end its causes.
 
 <!-- Turn 65's ks1-p4c (the grounding's [16]: for someone weighing it, and anyone at the edge does the first step first; alone Human 0.39) with its last sentence changed in turn 67 (drafts/ks4b-e1.txt, alone Human 0.19), since the h1 had an AI window from it into P5; then the cold read's two fixes (drafts/ks4b-e3.txt): "staking your life on the opposite claim, that death is just nothing" for "weighing your life against the opposite claim", and the guide's "completed death" as "death itself". Alone Human Written (0.088, low), https://www.pangram.com/history/4b0ff785-0d14-4667-b697-2be09518de79. -->
 
@@ -1258,7 +1333,7 @@ In Buddhism, death isn't an off switch, and it isn't a free new-age get-out-of-j
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.10 A (his "97. i agree cut all"): cut "(and if you're at the edge right now, the first step above comes before any of this)". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-But if you're still thinking of staking your life on the opposite claim, that death is just nothing, look into that claim first. Researchers at the [University of Virginia](https://med.virginia.edu/perceptual-studies/2025/01/09/uvas-division-of-perceptual-studies-launches-major-research-initiative-on-childrens-past-life-memories/) have been collecting cases of small children who talk about a past life for about sixty years, and there's a big pile of near-death accounts too. I don't think any of it can tell you what dying will be like for you, but I'd read a few of those cases before betting my life on "nothing."
+You don’t have to believe that, but if you’re still thinking of staking your life on the opposite claim, that death is just nothing, might that be a double standard to look into? Curiosity killed the cat, you might say, [so research could be dangerous](https://www.forbes.com/sites/startswithabang/2020/07/30/you-must-not-do-your-own-research-when-it-comes-to-science/). 😅 But despite the risk of curiosity, researchers at the University of Virginia have been busy little bees, collecting cases for 60 YEARS now of young kids who talk about a past life, and there’s [a big pile of near-death accounts too](https://iands.org). Even if every case is different, but I’d read a few of those cases before betting my life on “nothing.”
 
 <!-- Turn 65's ks1-p5-b (alone Human 0.086) changed in turn 67 (drafts/ks5-e2.txt): its first sentence (its "that momentum" had nothing to point to after P4b), its three short claims (two kept, isolation an aside) and its "without taking away" ending (E186), alone Human 0.2; then the cold read's fix (drafts/ks5-e3.txt): the guide's "isolation can deepen despair" back, in the aside. Alone Human Written (0.24, low), https://www.pangram.com/history/51f1e461-9027-4783-973e-9e088f38caf7. "The accumulating scientific evidence" is the guide's claim, still Joel's to call (OWNER-QUESTIONS). -->
 
@@ -1266,7 +1341,7 @@ But if you're still thinking of staking your life on the opposite claim, that de
 
 <!-- Turn 89 (the second AI-segment rework, experiments/t89-results/RESULT-B-meta.json, check t88s_B: Mostly Human Written, 3.5% AI): my paragraph; its first two sentences read AI (Low 9 and Low 45 words). The opener "You don't need another life to see this" and the aphorism "Rumination feeds rumination" are cut; "Even in this one life" keeps his guide's "visible even within this life". The last sentence read Human and stays as it was. Drafts: experiments/t89-drafts/. Lint REVIEW. Not yet checked in Pangram. -->
 
-Even in this one life, the more you hate yourself, the better your mind gets at it, and being alone tends to deepen the despair. Physical life keeps handing you redirections, though, like other people and things you have to do, and help when you reach for it. If the many traditions and the accumulating scientific evidence are right that the mind's causal process goes on after the body dies, killing the body may take away some of those redirections and leave the suffering right where it was.
+Right here in this one life, it's apparent that the more you hate yourself, the better your mind gets at it, and being alone tends to deepen the despair. But lucky us, because physical life keeps handing out redirections, like that guy who found me in a random park crying one time, and asked me "What's wrong?"  If the many traditions and the accumulating scientific evidence are right that the mind’s causal process goes on after the body dies, killing the body may take away some of those redirections and leave the suffering right where it was. That sounds like a substantially worse deal to me.
 
 <!-- Turn 65, my own draft (ks1-p6-d): the change you still can't make; smaller than dying but not free, and it can wait until you're calmer and have help (the grounding's [28]). Alone Human Written (0.022, low), https://www.pangram.com/history/04587d39-7d40-4cd2-b6b1-96173fe546ae. The h1 with every paragraph read Human Written (0.24, high, 601 words), https://www.pangram.com/history/71cbf2e1-e6dd-4d34-a1b7-96cd6b4a192f (round t67e), and with the cold read's three fixes Human Written (0.18, high, 612 words), https://www.pangram.com/history/63dd39bd-670a-4127-a1b5-80ec7b4211e6 (round t67g). -->
 
@@ -1276,7 +1351,7 @@ Even in this one life, the more you hate yourself, the better your mind gets at 
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.11 A (his "97. i agree cut all"): cut ", and they can wait until you're calmer and have some help". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-My father used to tell suicidal people, "Oh, you want to kill yourself? That's wonderful. Now you can change what you've always been too afraid to change in your life, and then see if you still want to end it!" His point wasn't that dying is wonderful. If everything's already on the table, what's the change you still can't bring yourself to make? Leaving? Quitting? Moving? Telling your family who you really are? Those aren't free, and you can't always take them back, but they're smaller than dying. Look at that life you've been afraid to change while you still have a human body.
+My father used to tell suicidal people, “Oh, you want to kill yourself? That’s wonderful! Now you can change what you’ve always been too afraid to change in your life, and then see if you still want to end it!” So, what would you tell my dad? What’s the change you still can’t bring yourself to make? Leaving a relationship? Quitting a job? Telling your family who you really are? Those might sound difficult, but they're actually considerably more likely to help than dying.
 
 ## This human life is the most precious opportunity
 
@@ -1348,6 +1423,10 @@ Even with good parents, you could have learned unhealthy self-valuation when peo
 
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item b01): round 2 (check t90s_B, second try) read AI here: High 46, Medium 16 and Low 13, all of it. The tells: a word on the risk list ("quieter"), a concession ("and that's worth sorting out"), a balanced contrast ("isn't help, though it can feel like loyalty") and a hedge ("doesn't by itself mean", O43). The paragraph is the bargain itself, so his 82a paragraph after it has its "That's exactly why" pointing at the bargain; the small good thing is one sentence after his paragraph. Lint CLEAR. Not yet checked in Pangram. -->
 
+### When Being Happy Feels Like Abandoning Someone
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E24 from the ideas page, the heading only (his "e24 a") -->
+
 Some families run on a bargain like "If I'm happy while someone I love is suffering, I'm abandoning them."
 
 <!-- Turn 92 (his message of 2026-10-22 18:35 UTC, experiments/t92-answers/JOEL-20261022-1835.md: "82a and add therapist reply also"): his paragraph, his words from his 18:25 UTC message ("that's exactly why i was crying for 14 years", the Debs poster) and his nibbana article (articles/nibbana/master.html, "Realizing the world we live in"), joined as question 82 showed them, plus the article's therapist line word for word. Not yet checked in Pangram. -->
@@ -1380,6 +1459,10 @@ When that happens, you can ask yourself these, once you've caught your breath:
 You don't have to stop enjoying pleasure, praise, gain or belonging. The question is whether losing one of them would feel like losing yourself.
 
 <!-- Turn 73 (his answers of 2026-10-18 21:58 UTC (experiments/t73-answers/JOEL-20261018-2158.md)): 55, 12, A: "You'd still belong, just selectively." for "You'd be belonging selectively, which still leaves room to belong." experiments/t73-guide/drafts/c55-12.txt. Alone Human Written (0.23, medium), https://www.pangram.com/history/7d5f519d-d101-4d0f-82e8-498e909ac5e1; Sometimes There Isn't a Clear Child Yet with it Human Written (0.13, high, 1634 words), https://www.pangram.com/history/e6b5c376-9787-4665-81d6-dff0fe313af7 (round t73a). -->
+
+#### Differentiation
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E25 from the ideas page, the heading only (his "e25 a") -->
 
 Differentiation can happen right inside a family, religion, community or relationship. You'd still belong, just selectively. As a differentiated adult you can stay deeply embedded, free to question things or disagree. If a parent used to go quiet and hurt whenever you disagreed, that might be hard to believe. A family where everyone gets to be their own person is healthier than an enmeshed one, and a faith that's your own is healthier than religious compliance. It can be the same religion either way. And two differentiated people have a sturdier relationship than two who've been absorbed into each other.
 
@@ -1505,17 +1588,19 @@ The Guide also points beyond itself, toward somewhere you belong that doesn’t 
 
 <!-- Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: his P10, word for word ("i fixed it, this passes"); the naming aside that ended it is now its own paragraph after P1 (GPT's move). -->
 
-With that under you, belonging with people can get a lot less desperate. Not all at once, though. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.
+With that under you, belonging with people can get a lot less desperate. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.
 
 ## Timing Is Individual
 
 <!-- Turn 67: Joel's P14, word for word (2026-10-17 14:01 UTC, his answer to question 35: "added a marching order break that sounds a bit human, now it passes"; experiments/t67-answers/JOEL-20261017-1401.md). His check counts for it alone. With it under the heading, the h2 read Human Written (0.27, medium, 140 words), https://www.pangram.com/history/16516cc7-5343-427c-928b-6a72439b2543, and the h1 Human Written (0.10, high, 1448 words), https://www.pangram.com/history/cb9aec61-0957-43eb-b28f-4c0f30633cae (round t67a). -->
 
-Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
+Most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
 
 <!-- Turn 65 (E181), my own draft, groups 15 and 16, under the guide's own subheading ("Timing is individual"): spiritual openings keep their own schedule and may be completely real (group 15 is already in the article, so only a pointer); the integration question: did it deepen or widen your love, has it reached your little one, and does it show with people (more honest and dependable, protective and compassionate, better at relationships). P14 (group 14, the timing itself) is parked (experiments/t65-guide/PARKED.md) and goes above this paragraph under the same heading when it's done. Its grounding's fixes (the opening named; your little one first, the MUST question) and the cold read's (no bridge from the humor paragraph) are in. Alone Human Written (0.06, low), https://www.pangram.com/history/c7944fca-9673-4fb0-b668-05c6cbe4034d; with the heading Human (0.056, low); the h1 Human Written (0.108, high), https://www.pangram.com/history/2ace607d-f5cd-481e-8d3b-f6397305ea39. Record: experiments/t65-guide/REVIEWS.md. -->
 
-Spiritual openings keep their own schedule, too. Yours may have come long before you had much of a Nurturer or Protector, and it may have been completely real. The question afterward is whether it made your love deeper or wider. Has it reached your little one yet? And does it show with people, in being more honest and dependable, more protective and compassionate, better at relationships?
+<!-- Turn 106: my P2 (turn 65) read 48% AI in this section through the API with his P1 line and 51% without it, its windows on this paragraph both times (experiments/t106-api/API-CHECKS.md). The tell panel agreed on four of its five sentences (experiments/t106-panel/timing-p2/PANEL.md); my two drafts read Human in the section but AI alone, so the second writer (Codex, E256 (Inner Child)) wrote this one from the panel's notes and the guide's points: Human alone (0.0006%) and in its section (0.0000%). Its everyday examples stand for the guide's "more honest and dependable, more protective and compassionate, better at relationships". REVIEWS.md: experiments/t106-tries/REVIEWS.md. -->
+
+Say you had a spiritual opening years before you had much of a Nurturer or Protector (openings can come that early, and yours may have been completely real). Has your love grown because of it, and has that love reached your little one yet? Look at how you are with people, too, whether you’re more compassionate and do more to protect them. Are you getting better at relationships, including telling the truth when it’s awkward and doing what you said you’d do?
 
 <!-- Turn 78 (Joel's answer to question 70: A, 2026-10-21 00:49 UTC, experiments/t78-answers/JOEL-20261021-0049.md; GPT's r03 files in experiments/t78-structure/gpt-r03/): How Much Happiness Do You Know Is Possible? is an h1 here near the end, with Somatic Heart Opening and When the Practice Feels Real but Stays Shallow under it as h2s (GPT's M06, the half I'd take; Ask God for a Loan stays in Borrow Love). -->
 
@@ -1609,6 +1694,10 @@ Say they're the one who always remembers your appointments. Over time, reparenti
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
+## Dating While You Heal
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E27 from the ideas page, the heading only (his "e27 a") -->
+
 Maybe you’d rather that your support person were a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 If that’s you right now, dating can wait while your friends and the steady people around you do their part. That doesn’t mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won’t rescue you from the pain or reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma, believe me, I know. I wrote a whole [romance guide](http://romance.u-dont-exist.com), mostly due to this.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
@@ -1623,15 +1712,17 @@ Maybe you’d rather that your support person were a lover, as well. Lots of peo
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.14 A (his "97. i agree cut all"): cut "In a real crisis, getting a safe person involved can be exactly the right move.". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-Then there are people you’re just getting to know. Meeting them can turn into a kind of test--”First impressions are everything,” as they say, but it could be even worse than that, if you need them to prove you’re lovable. Nobody’s a reassurance machine. I’m giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present. Leaning on each other is still a big part of relationships, and it goes both ways.
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his First Social Connections, Done Right, word for word ("first social connections is fully green") -->
+
+Then there are people you’re just getting to know. Meeting them can turn into a kind of test--”First impressions are everything,” as they say, but it could be even worse than that, if you need them to prove you’re lovable. Nobody’s a reassurance machine. I’m giving you permission now to quit school and flunk the tests. Instead, get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present. Leaning on each other is still a big part of relationships, and it goes both ways.
 
 <!-- 2026-10-09 (turn 38): teaching point T9 (Joel's yes, 02:06 UTC), from the same amendment. Two grounding fixes: "or any one person" (a MUST: a partner or one friend can want to be your only one too) and no promise that the reader will find their people; "people who fit you" is a cold read's fix for "places". Alone 100% Human (83), try 1. -->
 
-I can't tell you where to look for people who fit you, but I'd bet on more than one place. Keep the good people you've already got. Then maybe try a class, or a spiritual community if one really fits you. Not every one of them has to click (nobody's taking attendance). And if any group, or any one person, starts acting like they should be your only support, that's where I'd want the Protector paying attention.
+I can’t tell you where to look for people who fit you, but I’d bet on more than one place. Keep the good people you’ve already got. Then maybe try a class, or a spiritual community if you find one that fits you. And if any group, or any one person, starts acting like they should be your only support, that’s when we ask the Adult Protector to start paying attention.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
-The same goes for doctors. If a hospital held you against your will, or a treatment hurt you, no wonder asking for help feels scary. Bring someone you trust to speak up for you (it doesn’t have to be the relative who never respected your wishes), and ask what a treatment’s for.
+The same goes for doctors. No need to give them a good impression if that means not being your own advocate. If you don't feel up to it, bring someone you trust to speak up for you (it doesn’t have to be the relative who never respected your wishes), and ask what a treatment’s for.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
@@ -1644,6 +1735,10 @@ The same goes for doctors. If a hospital held you against your will, or a treatm
 And reaching out doesn't mean telling strangers everything. Privacy isn't fakery. People can earn more of you by how they handle the smaller stuff, like whether that thing you told them about your weird fear of birds turns into a joke at the next party 🙈, and how they take it when you say no. But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn't prove you're meant for each other, or that they've earned your trust yet.
 
 <!-- Turn 78: Joel's own words for this paragraph, his answer to question 71 (2026-10-21 00:49 UTC, experiments/t78-answers/JOEL-20261021-0049.md), word for word, his straight and curly apostrophes as he typed them. He checked it in Pangram: Human (his screenshot is in that folder). -->
+
+#### Before You Tell the Hardest Stuff
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E28 from the ideas page, the heading only (his "e28 a") -->
 
 Then there’s the stuff that’s hardest to tell anyone, and of course that's exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way. And some of the people you’d tell, like therapists, teachers, and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it’s nowhere near every crime you might mention. The cops are hopefully the obvious ones to be careful with, even if they pretend to care.
 
@@ -1715,23 +1810,28 @@ Before sending anything, I'd read it once as if I were them, sitting there with 
 
 <!-- Turn 73 (his answers of 2026-10-18 21:58 UTC (experiments/t73-answers/JOEL-20261018-2158.md)): 55, 17, A: "the original problem" for "the original question", since there's no question before it. experiments/t73-guide/drafts/c55-17.txt. Alone Human Written (0.0050, medium), https://www.pangram.com/history/e50dff85-778a-4d57-bfac-0b1fea5c4aa8; Speak Toward What You Are Building with it Human Written (0.075, high, 861 words), https://www.pangram.com/history/4cb690de-71db-4e23-bfc5-f91225f9047f (round t73a). -->
 
-It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself "I'm not dependent." Well, now you're thinking about being dependent. Being totally independent also isn't realistic nor ideal, and can even seem like just a reaction to the original problem. We can often strike a nice nuanced poetic balance, like: "I'm provided for by the universe, like the birds & lilies Jesus reminded us of." With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his Speak Toward What You Are Building, word for word ("now speak toward is all green"); its last paragraph is out ("it seemed extra") -->
+
+It’s not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that’s something you’d like to be able to do or a relationship. Say you tell yourself “I’m not dependent.” Well, now you’re thinking about being dependent, just like that Pink Elephant. Being totally independent also isn’t realistic nor ideal, and can even seem like just a reaction to the original problem. We can often strike a nice nuanced poetic balance, like: “I’m provided for by the universe, like the birds & lilies Jesus reminded us of.” With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever’s really needed to melt into your happy place. You’ll save a ton of money on vacations!
 
 <!-- Turn 70: Joel's P2, word for word (his answer to question 44: "the ai para was not very clear, and it also had that pollished ai quip pattern where it's like "that's X, not Y". it's better this way and human med conf"; experiments/t70-answers/JOEL-20261017-2259.md). His check counts for it alone. -->
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 76.2 A: "the Protector & Guide parts" is now "the Protector & Guide", since they're jobs, not parts. Not yet checked in Pangram. -->
 
-But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is grief, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says "he hurt me," that's harm, and it gets called harm, even if it was also a learning experience. Same for anger, a no, who's responsible, what's possible in practice, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide can lead the way up to more safety and maturity.
+But let’s also make sure we don’t hide from shadow stuff with toxic positivity. Grief is natural, and letting tears flow can be immensely therapeutic, as long as they don’t hijack your perspective with a cemented story of what will always be true. If your little one says “he hurt me,” we honestly label that as harm, even if it was also a learning experience. Same for anger, a "No," who’s responsible, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide can lead the way up to more safety and maturity.
 
 <!-- Turn 65 (E177), a writer's draft (experiments/t65-guide/writers/st1p3-w1-p1): find out what kind of company someone wants; not a ritual; follow an obvious mode. Alone Human Written (0.057, low), https://www.pangram.com/history/eddb9b08-8bf3-444b-bdeb-d3c349b9ba45. -->
 
-Before giving anyone advice, your little one included, it can help to find out what kind of company they want: "Do you want me to mostly listen, help you untangle this, give you ideas, or some mix?" Not that you have to make a ritual of asking every time. If it's obvious what they want, go with that. If it isn't, that one sentence can keep you from advising somebody who's thinking, "I just need you to hear this." Or from just listening while they're asking for help thinking.
+### Ask What Kind of Company They Want
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E30 from the ideas page, the heading only (his "e30 a") -->
+
+Before giving anyone advice, your little one included, it can help to find out what kind of company they want: “Do you want me to mostly listen, help you untangle this, brainstorm, or...?” Not that you have to make a ritual of asking every time, if it’s obvious what they want. But as they say, "assume" makes an "ass" out of "u" and "me."
 
 <!-- Turn 71 (the overnight run): the queued guide change PGQ-015 (source/PENDING-PUBLIC-GUIDE-CHANGES-2026-10-06-r2.md: remember a stated support mode until it changes instead of asking again; don't infer it from gender or another stereotype; advice already given, with nothing new changing it, gets a brief mention and you move on instead of serving it as new), queued "with PGQ-011", the paragraph before; waiting since turn 30 (GUIDE-UPDATE-QUEUE-20261006.md). Round t71eee's drafts/pgq15-c read Human alone (0.021) and in the h1 (0.086, high), but its first sentence, "Your little one deserves that courtesy too.", said again the paragraph before's "your little one included" (the repeats check, experiments/t71-guide/REPEATS-9-speak-toward.md, its 6). experiments/t71-guide/drafts/pgq15-g.txt. Alone Human Written (0.11), https://www.pangram.com/history/b5a0df66-fe09-415b-9c63-f48c8ef1d0d9 (round t71ggg); Speak Toward What You Are Building with it and P5's "professional therapy" Human Written (0.064, high, 858 words), https://www.pangram.com/history/20786738-ad1e-4762-ac26-ae15f2100374 (round t71hhh). -->
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.10 A (his "98. agree cut all"): cut "(And don't guess it from their gender or some other stereotype.)". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-What they tell you is worth remembering, too, until they say something different. Same with advice you've already given: if nothing new has changed it, a quick "like I said" and moving on works better than offering it again like it's new.
 
 <!-- Turn 78 (Joel's answer to question 70: A, 2026-10-21 00:49 UTC, experiments/t78-answers/JOEL-20261021-0049.md; GPT's r03 files in experiments/t78-structure/gpt-r03/): GPT's new heading for the peer-counseling paragraphs (M07); its wording, which Joel can change. -->
 
@@ -1750,6 +1850,10 @@ Some of what the three grown-up jobs do can come from outside you, too. When you
 The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both.
 
 <!-- Turn 69, my own draft (experiments/t69-guide/drafts/st6a-c.txt): community works both ways (the people first, or the opening first and then who you "manifest"); community makes it practical, real, down to earth, embodied. Alone Human Written (0.010, low), https://www.pangram.com/history/2028fb7f-c78b-41de-aa3d-a49591f5fb67. Turn 71: its first sentence, the guide's "Community can work in both directions.", now says which two (a cold read of the section couldn't tell until the next sentences, COLD-READ-t71-speak-toward.md): experiments/t71-guide/drafts/st6a-d.txt. Alone Human Written (0.0010), https://www.pangram.com/history/8d3eb85a-fd92-468e-b532-81413e9e8e54; Speak Toward What You Are Building with it Human Written (0.095, high, 871 words), https://www.pangram.com/history/06d2eb62-99c9-4caa-a3f9-080b7792a33d (round t71fff). -->
+
+### The Love Has to Move
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E31 from the ideas page, the heading only (his "e31 a") -->
 
 Community can come before the big opening or after it, too. Sometimes loving people give somebody enough safety and belonging that a deeper opening becomes possible. Other times it's the other way around. Somebody has a big opening first, a love or a meaning they couldn't have imagined before, and then they start to "manifest" different kinds of people and relationships in their life. Either way, the community is what helps make it practical, real, down to earth, embodied and so on.
 
@@ -1781,6 +1885,10 @@ They still have to answer for what they did, and it still hurt. Seeing how they 
 
 <!-- Turn 78 repeats check (DEDUP-PASS-20261021.md): cut "Some harms take years, so don't push it. Forgive too soon and it's only a show; stay in the resentment and you end up living there." from my draft, since this section's first paragraph already says each ("It can't be put on a schedule", "an enlightened-looking act, with the wound gone underground", "active resentment narrows what you see"). Not yet checked in Pangram. -->
 
+## Forgiving Yourself
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E32 from the ideas page, the heading only (his "e32 a") -->
+
 Forgiving yourself works the same way. Own what you did (only what was yours), and let yourself feel the remorse. Repair what you can, by apologizing or making amends. Changing the behavior counts too. Then you're allowed to stop holding yourself hostage, and the responsibility stays. If you're thinking "not me, not after what I did," forgiving other people tends to be harder too. Every so often, come back to how whoever did it got to be someone who could do that, until you understand it well enough that it changes how you feel.
 
 # When One Life Has Ended and the Next Hasn’t Begun
@@ -1804,6 +1912,10 @@ Your little one might be sure everything's over. Is it? Usually one real thing e
 Something basic can mark the ending, like boxing up the old keys. Nobody needs to know what door will open next. But when the not-knowing feels too heavy, a new identity can sure look tempting. Like a borrowed coat that doesn't fit but at least it's warm. But you can't go far with a borrowed coat anyway, so don't force the future on. Keep taking care of yourself, and grieve what ended with your little one beside you during the metamorphosis.
 
 <!-- Turn 67 (E186), my own draft (drafts/le3a-n.txt): the missing-someone practice, the guide's P3 first half (the ache as a cue for love; "I miss you" as "I love you", or the loving-kindness wish; picture them or feel the direction of the care). Alone Human Written (0.56, low), https://www.pangram.com/history/eaaee8e8-0e7b-4072-a6a2-c9595ea26685. -->
+
+## Missing Someone
+
+<!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E33 from the ideas page, the heading only (his "e33 a") -->
 
 When you miss someone, let the ache be a cue for love. It doesn't have to become one more problem to solve, and pushing it away won't help. If love's there, "I miss you" becomes "I love you." Or there's the loving-kindness wish: "May you be safe. May you be held in love." You can picture them. Or don't, and just feel the care going their way.
 
@@ -1859,7 +1971,7 @@ Of the clinical approaches I know, schema therapy is the closest to this guide. 
 
 <!-- Turn 92 (GPT's review of two books Joel checked, experiments/t92-answers/GPT-TWO-BOOKS-REVIEW-20261022-1819.txt; checked against the books, experiments/t92-books/BOOK-CHECK.md, all 13 claims confirmed): schema-based work that blends in Buddhist practice exists. Tara Bennett-Goleman's Emotional Alchemy (2001; his copy is the 2010 Rider edition) adapts loving-kindness to the schema in the exercise after chapter 15, "If You Want to Blend Your Spiritual Practice with Emotional Work". So two sentences of mine name it, and "isn't part of the standard method" is now "isn't in her book or in the standard method" (neither book has a way of receiving love from God, and "gratitude" appears in neither). His "in my opinion" sentence is unchanged. Lint CLEAR. Not yet checked in Pangram. Turn 93 (Joel, 2026-10-22 19:03 UTC: "i'm also not theistic, i just used \"loan from God\" because it sounded good, but i'm not trying to get people to believe in God"): the difference is now gratitude, his door to the bigger love in Your Loan is PRE-APPROVED! (its P7: thanks "to the universe, to life, to God, whatever you may believe in"), with "no belief in God required"; "Her book barely mentions gratitude" rests on the book check (gratitude 0, grateful 1). Lint CLEAR. -->
 
-Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy ([Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who developed it, did his postdoctoral work with Aaron Beck). Some people do blend them, though. Tara Bennett-Goleman's book *Emotional Alchemy*, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED! (no belief in God required). IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing.
+Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy. Some people do blend them, though. Tara Bennett-Goleman's book *Emotional Alchemy*, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED! IFS goes overboard the other way, in my opinion (more on that in the next section).
 
 ## How This Relates to IFS
 
@@ -1879,7 +1991,9 @@ Can't find a calm, compassionate Self in there? Then borrow. One grown-up job at
 
 <!-- Turn 73 (his answers of 2026-10-18 21:58 UTC (experiments/t73-answers/JOEL-20261018-2158.md)): 57, 1 ("confusing with the "both"... replace last part with"): his words from "It's a vantage point" on, with the Anthony de Mello link kept on his name. experiments/t73-guide/drafts/c57-1.txt. Alone Human Written (0.0017, high), https://www.pangram.com/history/3608ba11-e8a9-4830-8af0-a30121dc1603; the Appendix with it Human Written (0.067, high, 1355 words), https://www.pangram.com/history/3d37e91b-e81b-415c-bf23-739f8bddd51b (round t73a). -->
 
-Is a perfect Higher Self already waiting in there to be your guide or parent? I'd call that claim [spiritual bypassing](https://goenka.u-dont-exist.com/). I've had the Higher Self perspective myself, though. It's a somewhat less subjective way of seeing things as working perfectly in reality, despite the ego's illusions, which matches what people say about it. Where I part ways with IFS is the wisdom part. I don't think the Higher Self has any specific wisdom. It's a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference. You can see both sides of this see-saw in the guru types who supposedly embody their Higher Self. [Anthony de Mello](https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest)) is an excellent example. He was a Jesuit priest who mixed stories from all kinds of traditions into his teaching on seeing through the ego's traps and coming back to the Perfect Present. He also had a background as a psychotherapist who understood trauma-informed healing methods. He seemed to drift between the two opposite paradigms in a way that contradicted itself. And that bizarre contradiction is itself cited as "crazy wisdom" by apologists.
+Is a perfect Higher Self already waiting in there to be your guide or parent? I'd call that claim [spiritual bypassing](https://goenka.u-dont-exist.com/). I've had the Higher Self perspective myself, though. It's a somewhat less subjective way of seeing things as working perfectly in reality, despite the ego's illusions, which matches what people say about it. Where I part ways with IFS is the wisdom part. I don't think the Higher Self has any specific wisdom. It's a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference.
+
+You can see both sides of this see-saw in the guru types who supposedly embody their Higher Self. [Anthony de Mello](https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest)) is an excellent example. He was a Jesuit priest who mixed stories from all kinds of traditions into his teaching on seeing through the ego's traps and coming back to the Perfect Present. He also had a background as a psychotherapist who understood trauma-informed healing methods. He seemed to drift between the two opposite paradigms in a way that contradicted itself. And that bizarre contradiction is itself cited as "crazy wisdom" by apologists.
 
 <!-- Turn 72 (his answers of 2026-10-18 19:06 UTC (experiments/t72-answers/JOEL-20261018-1906.md)): 45: the rest of his notes: the inner Guide as the analog of the Higher Self, after the Nurturer and Protector, never a transcendent dismissive authority; most inner child therapy short on the Guide; IFS as more than one system, with branches and disputes. 45, D: the guide's "A trustworthy adult function is built through care, boundaries, action, and direction." stays out. experiments/t72-guide/drafts/ifs-guide-b.txt. Alone Human Written (0.21, medium), https://www.pangram.com/history/66f5402e-091d-44d9-9438-5abd3232388b (round t72a); the Appendix with it Human Written (0.094, high, 1333 words), https://www.pangram.com/history/3a8f3aa9-204d-4a68-b082-d66e72b88e94 (round t72c). -->
 

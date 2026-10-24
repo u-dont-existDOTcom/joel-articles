@@ -37,5 +37,27 @@ class LinkedChecks(unittest.TestCase):
         self.assertEqual(Q.unlinked_ai_asks(md), [])
 
 
+class SelfContainedQuestions(unittest.TestCase):
+    """E257 (Inner Child; Joel, 2026-10-24 22:55 UTC: "i hope you know i have no idea at this point what my 100.6 was")."""
+    PAGE = ('# Questions\n\n## Open questions\n\n### 🟣 102. Two things (turn 105)\n\n%s\n\n'
+            '## For you to do (no decision needed)\n\n### 🔵 Round 6 (turn 101)\n\n%s\n\n'
+            '## Decided\n\n### 🟢 101, 2026-10-24 18:40 UTC\n\nAnswered, with 100.6 in it.\n\n'
+            '### 🟢 96 to 99, 2026-10-23 21:52 UTC\n\nOld.\n\n### 🟢 78.2, 84 and 85, 2026-10-22 21:35 UTC\n\nOld.\n')
+
+    def test_an_old_number_alone_is_refused(self):
+        for line in ('- **102.3 Four sections (your 100.6, still open).** A or B?', '- **102.1** the way 97.8 went.',
+                     '- see question 85 for that.', '- **102.2 98.2, your P5.**'):
+            self.assertTrue(Q.old_number_refs(self.PAGE % (line, 'It waits.')), line)
+
+    def test_its_own_items_quotes_links_and_decided_text_pass(self):
+        for line in ('- **102.1 When to Change the Strategy\'s last paragraph.** "your 100.6" was his phrase. 102.2 is next.',
+                     '- the [check](https://github.com/x/t97-api/API-CHECKS.md#t98_7) reads Human at 0.0000% AI, Pangram 4.1.',
+                     '- sections 12.2 and 13.1 of the book.'):
+            self.assertEqual(Q.old_number_refs(self.PAGE % (line, 'It waits.')), [], line)
+
+    def test_the_to_do_list_is_checked_too(self):
+        self.assertTrue(Q.old_number_refs(self.PAGE % ('- A or B?', 'It waits for your answer to question 99.')))
+
+
 if __name__ == '__main__':
     unittest.main()
