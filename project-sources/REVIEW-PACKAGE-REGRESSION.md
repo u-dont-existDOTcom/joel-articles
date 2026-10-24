@@ -85,3 +85,7 @@ A candidate is ready for delivery only when:
 - the ZIP opens cleanly and checksums match;
 - the response distinguishes completed, tested, pending, and unavailable work;
 - approval, not delivery, changes the candidate to `rNN-approved`.
+
+## Form-control legibility regression
+
+Test the exact delivered form under light and dark browser preferences. Type visible notes; inspect text fill, caret, placeholder, closed select and options against their actual background, with at least 4.5:1 text contrast. Include a negative fixture recreating a white field inheriting light text. Test JSON re-import and compare every restored answer/note with the supplied source. Contrast, export correctness and owner-quality judgment prove different things.
